@@ -1,50 +1,48 @@
 ---
 audience: end-user
-title: Hinzufügen einer Zielgruppe
-description: Webdokumentation zu Campaign v8
-source-git-commit: fe06419e429f48dbcc71802c372130be22e68d52
-workflow-type: tm+mt
-source-wordcount: '76'
-ht-degree: 6%
+title: Hinzufügen einer Audience
+description: Web-Dokumentation zu Campaign v8
+exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
+source-git-commit: a572ac51db2ef79dc45afe2504aeb8476314bbfc
+workflow-type: ht
+source-wordcount: '234'
+ht-degree: 100%
 
 ---
 
-# Hinzufügen einer Zielgruppe {#add-audience}
+# Auswählen einer Audience {#add-audience}
 
 >[!CONTEXTUALHELP]
->id="acw_homepage_card2"
->title="Erste Schritte mit der Marketing-Kampagne"
->abstract="Erfahren Sie, wie Sie die Audience für Ihren E-Mail-Inhalt verwalten."
+>id="acw_deliveries_email_audience_select"
+>title="Auswählen einer bestehenden Audience"
+>abstract="Die Audiences werden in der Adobe Campaign v8-Konsole definiert. Wenn Sie über eine Adobe Experience Platform-Integration verfügen, sollten Sie auch in Platform definierte Audiences anzeigen können."
 
 >[!NOTE]
 >
 >Diese Dokumentation wird derzeit erstellt und häufig aktualisiert. Die endgültige Version dieses Inhalts wird im Januar 2023 vorliegen.
 
-<!--
-Audience only created for the delivery, not available later-->
+In diesem Abschnitt wird beschrieben, wie Sie bei der Definition der Zielgruppe eines E-Mail-Versands eine bestehende Audience auswählen. Weiterführende Informationen zur Erstellung einer neuen Audience finden Sie in [diesem Abschnitt](segment-builder.md).
 
-## Existierende Zielgruppe auswählen {#audience-select}
+1. Klicken Sie im Abschnitt **Audience** des Assistenten zur Versanderstellung auf die Schaltfläche **[!UICONTROL Audience auswählen]**.
 
->[!CONTEXTUALHELP]
->id="acw_deliveries_email_audience_select"
->title="Existierende Zielgruppe auswählen"
->abstract="TBC"
+   ![](assets/create-audience.png)
 
-Drei Möglichkeiten:
-* bestehende Zielgruppe
+1. Klicken Sie auf **[!UICONTROL Audience auswählen]**, um eine bestehende Audience zu verwenden. Um eine neue Audience zu erstellen, die in dieser E-Mail verwendet werden soll, wählen Sie **Eigene erstellen**. Näheres dazu finden Sie in [diesem Abschnitt](segment-builder.md).
 
-<!--
-Campaign or AEP Audiences
--->
-* Erstellen neuer
+   Auf diesem Bildschirm werden alle bestehenden Audiences angezeigt, die in der Adobe Campaign-Konsole oder durch Adobe Experience Platform definiert sind.
 
-<!--
-query like AEP segment builder (same component with campaign data)
--->
-* Import aus Datei
+   ![](assets/create-audience2.png)
 
-Anwendungsfall mit einer neuen Zielgruppenerstellung anzeigen (oder aus einer Datei importieren?)
+1. Wählen Sie eine Audience aus und klicken Sie auf **Auswählen**.
 
-<!--
-control groups like acc: exract, random, based on attribute
--->
+1. Klicken Sie auf **Regeln bearbeiten**, wenn Sie Ihre Audience einschränken möchten.
+
+   ![](assets/create-audience3.png)
+
+1. Mithilfe von Segment Builder können Sie Ihre Audience mit zusätzlichen Filtern oder durch die Kombination verschiedener Audiences anreichern. Weitere Informationen finden Sie in [diesem Abschnitt](segment-builder.md).
+
+   ![](assets/create-audience4.png)
+
+1. Klicken Sie auf **Speichern**.
+
+Sie können auch eine Kontrollgruppe einrichten, um die Wirkung Ihrer Kampagnen zu messen. Die Kontrollgruppe erhält die Nachricht nicht. Dadurch lässt sich das Verhalten der Population, die die Nachricht erhalten hat, mit dem Verhalten der Kontakte vergleichen, die die Nachricht nicht erhalten haben. Siehe [diesen Abschnitt](control-group.md).
