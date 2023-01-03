@@ -1,16 +1,16 @@
 ---
 audience: end-user
-title: E-Mails in Journey Optimizer erstellen
-description: Erfahren Sie, wie Sie Ihren E-Mail-Inhalt von Grund auf neu erstellen
-source-git-commit: 9def5ea791e4ef42968cd34536f3ddeac7fc238c
-workflow-type: tm+mt
-source-wordcount: '589'
-ht-degree: 29%
+title: Gestalten von E-Mails in Journey Optimizer
+description: Erfahren Sie, wie Sie Ihre E-Mail-Inhalte von Grund auf neu gestalten
+exl-id: 23e71da3-434d-4619-a48a-334281592d85
+source-git-commit: fd85f2b799602b7c411b73e7b1c1cbd38c798857
+workflow-type: ht
+source-wordcount: '541'
+ht-degree: 100%
 
 ---
 
-
-# Neu beginnen {#create-email-content}
+# Beginnen von Grund auf {#create-email-content}
 
 >[!NOTE]
 >
@@ -40,42 +40,42 @@ ht-degree: 29%
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_email"
 >title="Definieren von E-Mail-Spalten"
->abstract="Mit Email Designer können Sie das Layout Ihrer E-Mail einfach definieren, indem Sie die Spaltenstruktur definieren."
+>abstract="Mit E-Mail-Designer können Sie das Layout Ihrer E-Mail einfach definieren, indem Sie die Spaltenstruktur definieren."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_landing_page"
->title="Landingpage-Spalten definieren"
->abstract="Mit Email Designer können Sie das Layout Ihrer Landingpage einfach definieren, indem Sie die Spaltenstruktur definieren."
+>title="Definieren der Landingpage-Spalten"
+>abstract="Mit E-Mail-Designer können Sie das Layout Ihrer Landingpage einfach definieren, indem Sie die Spaltenstruktur festlegen."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_fragment"
->title="Fragmentspalten definieren"
->abstract="Mit Email Designer können Sie das Layout Ihres Fragments einfach definieren, indem Sie die Spaltenstruktur definieren."
+>title="Definieren der Fragmentspalten"
+>abstract="Mit E-Mail-Designer können Sie das Layout Ihres Fragements einfach definieren, indem Sie die Spaltenstruktur festlegen."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_template"
->title="Vorlagenspalten definieren"
->abstract="Mit Email Designer können Sie das Layout Ihrer Vorlage einfach definieren, indem Sie die Spaltenstruktur definieren."
+>title="Definieren der Vorlagenspalten"
+>abstract="Mit E-Mail-Designer können Sie das Layout Ihrer Vorlage einfach definieren, indem Sie die Spaltenstruktur festlegen."
 
-Email Designer bietet eine einfache Möglichkeit, die Struktur Ihrer E-Mail zu bestimmen. Durch das Hinzufügen und Verschieben von strukturellen Elementen durch einfaches Drag &amp; Drop können Sie Ihrer E-Mail in Sekundenschnelle die gewünschte Form verleihen.
+E-Mail-Designer bietet eine einfache Möglichkeit, die Struktur Ihrer E-Mail zu bestimmen. Durch das Hinzufügen und Verschieben von strukturellen Elementen durch einfaches Drag &amp; Drop können Sie Ihrer E-Mail in Sekundenschnelle die gewünschte Form verleihen.
 
-Gehen Sie wie folgt vor, um mit der Erstellung Ihres E-Mail-Inhalts mit E-Mail-Designer zu beginnen:
+Gehen Sie wie folgt vor, um mit der Erstellung Ihres E-Mail-Inhalts zu beginnen:
 
-1. Wählen Sie auf der Startseite von Email Designer die **[!UICONTROL Design von Grund auf neu]** -Option.
+1. Wählen Sie auf der Startseite von E-Mail-Designer die Option **[!UICONTROL Erstellen von neuen Inhalten]** aus.
 
    ![](assets/email_designer.png)
 
-1. Beginnen Sie mit der Erstellung Ihres E-Mail-Inhalts durch Drag &amp; Drop **[!UICONTROL Strukturkomponenten]** um das Layout Ihrer E-Mail zu definieren.
+1. Beginnen Sie mit der Gestaltung Ihres E-Mail-Inhalts, indem Sie **[!UICONTROL Strukturkomponenten]** per Drag-and-Drop auf die Arbeitsfläche ziehen, um das Layout Ihrer E-Mail zu definieren.
 
    >[!NOTE]
    >
-   >Beachten Sie, dass das Stapeln von Spalten nicht mit allen E-Mail-Programmen kompatibel ist. Wenn dies nicht unterstützt wird, werden Spalten nicht gestapelt.
-   >
-   >Sobald die Komponenten in der E-Mail platziert sind, können sie nicht mehr verschoben oder entfernt werden, außer es befindet sich bereits eine Inhaltskomponente oder ein Fragment darin.
+   >Die Stapelung von Spalten ist nicht mit allen E-Mail-Programmen kompatibel. Wenn dies nicht unterstützt wird, werden Spalten nicht gestapelt.
+
+   <!--Once placed in the email, you cannot move nor remove your components unless there is already a content component or a fragment placed inside. This is not true in AJO - TBC?-->
 
    ![](assets/email_designer_2.png)
 
-1. Fügen Sie so viele hinzu wie **[!UICONTROL Strukturkomponenten]** nach Bedarf.
+1. Fügen Sie so viele **[!UICONTROL Strukturkomponenten]** wie nötig hinzu und bearbeiten Sie deren Einstellungen im entsprechenden Bereich auf der rechten Seite.
 
    Wählen Sie die Komponente **[!UICONTROL n:n Spalte]** aus, um die Anzahl der Spalten zu definieren (3 bis 10). Sie können auch die Breite jeder Spalte ändern, indem Sie den Pfeil am unteren Rand einer jeden Spalte verschieben.
 
@@ -83,47 +83,29 @@ Gehen Sie wie folgt vor, um mit der Erstellung Ihres E-Mail-Inhalts mit E-Mail-D
    >
    >Die Größe einer Spalte muss immer mindestens 10 % der Gesamtbreite der Strukturkomponente betragen. Sie können nur leere Spalten entfernen.
 
-1. Aus dem **[!UICONTROL Inhaltskomponenten]** in der Dropdown-Liste können Sie beliebig viele **[!UICONTROL Inhaltskomponenten]** wie Sie in Ihrer Strukturkomponente benötigen. [Weitere Informationen zu Inhaltskomponenten](content-components.md).
+1. Erweitern Sie den Bereich **[!UICONTROL Inhaltskomponenten]** und fügen Sie beliebig viele Elemente zu einer oder mehreren Strukturkomponenten hinzu. [Weitere Informationen über Inhaltskomponenten](content-components.md)
 
-   ![](assets/email_designer_3.png)
-
-1. Jede Komponente kann mit der **[!UICONTROL Komponenteneinstellungen]** Abschnitt. Sie können beispielsweise den Textstil, den Abstand oder den Rand Ihrer Komponente ändern. [Weitere Informationen zur Ausrichtung und zum Abstand](adjusting-vertical-alignment-and-padding.md).
-
-   ![](assets/email_designer_4.png)
-
-1. Aus dem **[!UICONTROL Asset-Auswahl]** können Sie direkt Assets hinzufügen, die in der Datei **[!UICONTROL Asset-Bibliothek]** zu Ihrer E-Mail hinzufügen.
-
-   Doppelklicken Sie auf den Ordner, der Ihre Assets enthält, und ziehen Sie das Asset, das Sie Ihrer E-Mail hinzufügen möchten, per Drag-and-Drop.
+1. Jede Komponente kann mithilfe der **[!UICONTROL Komponenteneinstellungen]** auf der rechten Seite weiter angepasst werden. Beispielsweise können Sie den Textstil, den Abstand oder den Rand jeder Komponente ändern. [Weitere Informationen über Ausrichtung und Abstand](alignment-and-padding.md)
 
    ![](assets/email_designer_5.png)
 
-1. Fügen Sie Personalisierungsfelder hinzu, um den Inhalt aus Ihren Profildaten anzupassen.
+1. Fügen Sie Personalisierungsfelder ein, um den Inhalt Ihrer E-Mail mit Profildaten anzupassen. [Weitere Informationen über die Personalisierung von Inhalten](../personalization/personalize.md)
+
+1. Fügen Sie dynamische Inhalte hinzu, um den Inhalt auf der Grundlage von bedingten Regeln an die Zielprofile anzupassen. <!-- Add link to Get started with dynamic content-->
 
    ![](assets/email_designer_6.png)
 
-1. Fügen Sie dynamische Inhalte hinzu, um den Inhalt auf der Grundlage von bedingten Regeln an die Zielprofile anzupassen.
-
-   ![](assets/email_designer_dynamic-content.png)
-
-1. Im **[!UICONTROL Links]** im linken Bereich die Liste aller getrackten URLs Ihres Inhalts überprüfen. Sie können die **[!UICONTROL Tracking-Typ]**, **[!UICONTROL Titel]** und **[!UICONTROL Tags]** bei Bedarf.
+1. Klicken Sie auf die Registerkarte **[!UICONTROL Links]** im linken Bereich, um die Liste aller zu verfolgenden URLs Ihres Inhalts anzuzeigen. Sie können bei Bedarf deren **[!UICONTROL Tracking-Typ]** oder **[!UICONTROL Beschriftung]** ändern und **[!UICONTROL Tags]** hinzufügen. [Weitere Informationen über Links und Nachrichten-Tracking](message-tracking.md)
 
    ![](assets/email_designer_7.png)
 
-   >[!NOTE]
+1. Bei Bedarf können Sie Ihre E-Mail weiter personalisieren, indem Sie im erweiterten Menü auf **[!UICONTROL Zum Code-Editor wechseln]** klicken. [Weitere Informationen über den Code-Editor](code-content.md)
+
+   >[!CAUTION]
    >
-   >Weitere Informationen zu Links und zum Nachrichten-Tracking finden Sie in [diese Seite](message-tracking.md).
+   >Nach dem Wechsel zum Code-Editor können Sie für diese E-Mail nicht mehr zum visuellen Designer zurückgehen.
 
-1. Bei Bedarf können Sie zum Code-Editor wechseln, um Ihre E-Mail weiter zu personalisieren, indem Sie auf **[!UICONTROL Wechseln zum Code-Editor]** aus dem erweiterten Menü. Weitere Informationen zum Code-Editor finden Sie unter [diese Seite](code-content.md#).
+1. Sobald Ihr Inhalt bereit ist, klicken Sie auf **[!UICONTROL Inhalt simulieren]**, um das E-Mail-Rendering zu überprüfen. Sie können zwischen der Desktop- oder der mobilen Ansicht wählen. [Weitere Informationen über die Vorschau Ihrer E-Mail](../preview-test/preview-test.md)
 
-   >[!NOTE]
-   >
-   >Sie können den visuellen Designer für diese E-Mail nicht verwenden, nachdem Sie zum Code-Editor gewechselt haben.
-
-   ![](assets/email_designer_26.png)
-
-1. Klicken **[!UICONTROL Vorschau anzeigen]** , um Ihr E-Mail-Rendering zu überprüfen. Sie können die Desktop- oder Mobilansicht auswählen.
-
-   ![](assets/email_designer_8.png)
-
-1. Wenn Ihre E-Mail fertig ist, klicken Sie auf **[!UICONTROL Speichern und schließen]**.
+1. Wenn Ihre E-Mail bereit ist, klicken Sie auf **[!UICONTROL Speichern]**.
 
