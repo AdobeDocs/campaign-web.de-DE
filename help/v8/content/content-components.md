@@ -3,9 +3,9 @@ audience: end-user
 title: Verwenden der Inhaltskomponenten von E-Mail-Designer
 description: Erfahren Sie, wie Sie Inhaltskomponenten in E-Mails verwenden
 exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
-source-git-commit: fd85f2b799602b7c411b73e7b1c1cbd38c798857
+source-git-commit: 5f4d5e69415dc26baab5780e96088e22172fe35e
 workflow-type: ht
-source-wordcount: '1397'
+source-wordcount: '1104'
 ht-degree: 100%
 
 ---
@@ -86,7 +86,7 @@ Verwenden Sie die Komponente **[!UICONTROL Schaltfläche]**, um eine oder mehrer
 1. Wählen Sie mit der Dropdown-Liste die **[!UICONTROL Zielgruppe]** aus, mit der Ihre Audience umgeleitet werden soll:
 
    * **[!UICONTROL Keine]**: öffnet den Link im selben Fenster, in dem er angeklickt wurde (Standard).
-   * **[!UICONTROL Leer]**: Öffnet den Link in einem neuen Fenster oder in einer neuen Registerkarte.
+   * **[!UICONTROL Leer]**: Öffnet den Link in einem neuen Fenster oder einer neuen Registerkarte.
    * **[!UICONTROL Selbst]**: Öffnet den Link im selben Fenster, in dem er angeklickt wurde.
    * **[!UICONTROL Übergeordnet]**: Öffnet den Link im übergeordneten Fenster.
    * **[!UICONTROL Beliebteste]**: Öffnet den Link im Textkörper des Fensters.
@@ -168,45 +168,6 @@ Verwenden Sie die Komponente **[!UICONTROL Bild]**, um eine Bilddatei von Ihrem 
 
 1. Über den Bereich **[!UICONTROL Komponenteneinstellungen]** können Sie die anderen Stilattribute wie Rand, Umrandung usw. anpassen oder einen Link hinzufügen, um Ihre Audience zu einem anderen Inhalt weiterzuleiten.
 
-## Video {#Video}
-
->[!CONTEXTUALHELP]
->id="ac_edition_video_email"
->title="Videoeinstellungen"
->abstract="Verwenden Sie diese Komponente, um ein Video in Ihre E-Mail einzufügen. Beachten Sie, dass Videos nicht auf allen E-Mail-Clients funktionieren. Wir empfehlen, ein Reservebild festzulegen."
-
->[!CONTEXTUALHELP]
->id="ac_edition_video_landing_page"
->title="Videoeinstellungen"
->abstract="Verwenden Sie diese Komponente, um ein Video in Ihre Landingpage einzufügen. Beachten Sie, dass Videos nicht in allen Nachrichten-Clients funktionieren. Wir empfehlen, ein Reservebild festzulegen."
-
->[!CONTEXTUALHELP]
->id="ac_edition_video_fragment"
->title="Videoeinstellungen"
->abstract="Verwenden Sie diese Komponente, um ein Video in Ihr Fragment einzufügen. Beachten Sie, dass Videos nicht in allen Nachrichten-Clients funktionieren. Wir empfehlen, ein Reservebild festzulegen."
-
->[!CONTEXTUALHELP]
->id="ac_edition_video_template"
->title="Videoeinstellungen"
->abstract="Verwenden Sie diese Komponente, um ein Video in Ihre Vorlage einzufügen. Beachten Sie, dass Videos nicht in allen Nachrichten-Clients funktionieren. Wir empfehlen, ein Reservebild festzulegen."
-
-
-Verwenden Sie die Komponente **[!UICONTROL Video]**, um über einen URL-Link ein Video in Ihre E-Mail einzufügen.
-
-1. Ziehen Sie aus den **[!UICONTROL Inhaltskomponenten]** das **[!UICONTROL Video]** per Drag-and-Drop in eine **[!UICONTROL Strukturkomponente]**.
-
-   ![](assets/email_designer_17.png)
-
-1. Klicken Sie auf die neu hinzugefügte Komponente, um mit der Konfiguration Ihrer **[!UICONTROL Inhaltskomponenten]** zu beginnen und auf die **[!UICONTROL Komponenteneinstellungen]** im rechten Bereich des E-Mail-Designers zugreifen zu können.
-
-1. Geben Sie in das Feld **[!UICONTROL Video-Link]** in den **[!UICONTROL Komponenteneinstellungen]** Ihre Video-URL ein.
-
-   ![](assets/email_designer_18.png)
-
-1. Sie können dem Video ein **[!UICONTROL Standbild]** hinzufügen, das angezeigt wird, bis Ihre Audience auf die Wiedergabe-Schaltfläche klickt.
-
-1. Passen Sie die anderen Stilattribute wie Stil, Rand, Rahmen usw. an, indem Sie das Bedienfeld **[!UICONTROL Komponenteneinstellungen]** verwenden.
-
 ## Social {#social}
 
 Verwenden Sie die Komponente **[!UICONTROL Social]**, um Links zu Social-Media-Seiten in Ihre E-Mail einzufügen.
@@ -228,15 +189,3 @@ Verwenden Sie die Komponente **[!UICONTROL Social]**, um Links zu Social-Media-S
 1. Bei Bedarf können Sie auch die Symbole der einzelnen Social Media im Feld **[!UICONTROL Bild]** ändern,
 
 1. Passen Sie die anderen Stilattribute wie Stil, Rand, Rahmen usw. an, indem Sie das Bedienfeld **[!UICONTROL Komponenteneinstellungen]** verwenden.
-
-## Karussell {#carousel-settings}
-
-1. Ziehen Sie die Komponente **[!UICONTROL Karussell]** in eine Strukturkomponente.
-
-1. Durchsuchen Sie Ihre Festplatte nach Bildern.
-
-1. Wählen Sie in den **[!UICONTROL Einstellungen]** die Anzahl der gewünschten Miniaturansichten für das Karussell aus.
-
-1. Wählen Sie ein Fallback-Bild von Ihrer Festplatte aus.
-
-Die Karussell-Komponente ist nicht mit allen E-Mail-Programmen kompatibel. Wenn das Karussell vom E-Mail-Programm nicht unterstützt wird, laden Sie ein Fallback-Bild hoch.
