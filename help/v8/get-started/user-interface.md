@@ -1,15 +1,16 @@
 ---
 audience: end-user
-title: Benutzeroberfläche
+title: Entdecken Sie die Benutzeroberfläche
 description: Web-Benutzeroberfläche von Campaign v8
-source-git-commit: 9def5ea791e4ef42968cd34536f3ddeac7fc238c
-workflow-type: tm+mt
-source-wordcount: '419'
-ht-degree: 7%
+exl-id: 0908c827-aa91-469f-824b-8e3de543876d
+source-git-commit: 15ee9ea467f9243834374cfe1a3e411f929c2a77
+workflow-type: ht
+source-wordcount: '717'
+ht-degree: 100%
 
 ---
 
-# Benutzeroberfläche {#user-interface}
+# Entdecken Sie die Benutzeroberfläche {#user-interface}
 
 >[!NOTE]
 >
@@ -20,17 +21,13 @@ ht-degree: 7%
 >title="Schnittstelle"
 >abstract="TBC"
 
-## Benutzeroberfläche - Übersicht
+Die neue Web-Benutzeroberfläche von Campaign v8 bietet ein integriertes, intuitives und konsistentes Benutzererlebnis.
 
-![](assets/home.png)
-
-Die neue Campaign v8-Webschnittstelle bietet ein integriertes, intuitives und konsistentes Benutzererlebnis.
-
-Schlüsselkonzepte beim Durchsuchen der Benutzeroberfläche sind in Adobe Experience Platform üblich. Siehe [Adobe Experience Platform-Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html#adobe-experience-platform-ui-guide) für weitere Details.
+Die wichtigsten Konzepte beim Durchsuchen der Benutzeroberfläche sind mit denen von Adobe Experience Platform identisch. Weitere Informationen finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=de#adobe-experience-platform-ui-guide).
 
 >[!NOTE]
 >
->Diese Dokumentation wird häufig aktualisiert, um die neuesten Änderungen an der Benutzeroberfläche des Produkts widerzuspiegeln. Einige Screenshots können sich jedoch geringfügig von Ihrer Benutzeroberfläche unterscheiden.
+>Die vorliegende Dokumentation wird entsprechend den neuesten Änderungen an der Benutzeroberfläche des Produkts regelmäßig aktualisiert. Manche Screenshots können jedoch geringfügig von Ihrer Benutzeroberfläche abweichen.
 
 
 <!--
@@ -38,34 +35,24 @@ Schlüsselkonzepte beim Durchsuchen der Benutzeroberfläche sind in Adobe Experi
 * web UI made up of read-only lists that can be configured, show how to add columns
 -->
 
-## Unified Shell
+## Linkes Navigationsmenü
 
-Zugriff auf Community-Lernprogramme, Hilfeseiten, Organisationswechsel, Lösungswechsel
+Mithilfe der Links auf der linken Seite können Sie auf die Web-Funktionen von Campaign v8 zuzugreifen.
 
-<!--
-Org / Sub-org switcher to switch between instances. Only one for Alpha. Later: intermerdiate screen with Control Panel (beta). if v8 + ACS with one card per ACS instance. Maybe quickly explain the menu for Alpha?
--->
-
-## Kontextuelle Hilfe?
-
-Kontexthilfe und Gainsight: Handbuch zum Onboarding/In-Produkt
-
-## Startseite
-
-## Allgemein
-
-Registerkarte &quot;Vorlage für Listenbildschirme&quot;
-
-## Navigationsmenü links
-
-Klicken Sie auf die Links auf der linken Seite, um auf die Web-Funktionen von Campaign v8 zuzugreifen.
+![](assets/home.png)
 
 ### Startseite
 
+Die Web-Startseite von Campaign v8 enthält wichtige Links und Ressourcen, mit denen Sie starten können. Die Liste **Zuletzt ausgewertet** enthält Verknüpfungen zu den kürzlich erstellten Sendungen. Diese Liste zeigt ihr jeweiliges Erstellungs- und Änderungsdatum sowie den Status
+
+<!--
 * Banner
-* KPIs im E-Mail-Kanal (Sendungen übergreifend): Öffnungsrate, Versandrate usw.
-* Letzte Elemente
-* Lernkarten
+* KPIs on email channel (cross-deliveries): open rate, delivery rate, etc
+* Recent items
+* Learning cards
+-->
+
+Rufen Sie wichtige Hilfeseiten zu Campaign v8 Web über den unteren Abschnitt der Startseite auf.
 
 <!--
 show global KPIs, recent items + left menu to access features)
@@ -80,13 +67,18 @@ Global report not alpha
 >title="Explorer"
 >abstract="TBC"
 
-Explorer-Menü in der Web-Benutzeroberfläche, um durch den Konsoleninhalt zu navigieren: Die zweite Ansicht des Konsolennavigators wird zusätzlich zum linken Menü mit Filtern angezeigt. Der Explorer gibt die tatsächliche Ordnerhierarchie über die Konsole an. Stellen Sie sicher, dass Sie Ihre Sendungen in Unterordnern finden. Alle Listen sind schreibgeschützt. Keine Erstellung/Bearbeitung. Sie können Listen (Spalten) konfigurieren. Alle Schemafelder und verknüpften Tabellen sind verfügbar.
+Das **Explorer**-Menü zeigt die gleiche Ordnerhierarchie wie in der Client-Konsole an. Durchsuchen Sie alle Komponenten, Ordner und Schemata von Campaign v8. Alle Listenbildschirme mit Ausnahme der E-Mail-Versandliste sind schreibgeschützt.
 
-Nur Sendungen können geöffnet werden.
+Welche Elemente im Explorer angezeigt werden, hängt von Ihren Benutzerberechtigungen ab.
 
-Wenn Sie Ihre Empfängerlisten (Alter, Geschlecht), Transaktionen oder Live-Transaktionsnachrichten anzeigen möchten. So zeigen Sie die einzelnen Konsolen/Bearbeitungen > an.
+Wie bei jedem Listenbildschirm können Sie die Spalten so konfigurieren, dass alle benötigten Informationen angezeigt werden. Weitere Informationen finden Sie in [diesem Abschnitt](#list-screens).
+<!--
+Explorer' menu in web UI to navigate through console content: console navtree second view in addition to the left menu lists with filters. The Explorer gives the real folder hierarchy from the console. Make sure you find your deliveries in sub-folders. All lists can be accessed in read-only. No Create/Edit. You can configure lists (colums). All schema fields, linked tables are available. 
 
-Die Navigationsbaumansicht hängt von den Berechtigungen ab (identisch mit der Konsole).
+If you need to view your lists of recipients (age, gender), transactions or live transactional messages. To view each/edit -> console.
+
+Navtree view depends on permissions (same as console).
+-->
 
 ### Kampagnen-Management
 
@@ -100,8 +92,9 @@ Die Navigationsbaumansicht hängt von den Berechtigungen ab (identisch mit der K
 >title="Sendungen"
 >abstract="TBC"
 
-* **Kampagnen** - Ihre Kampagnenliste. Keine Bearbeitung/Erstellung.
-* **Sendungen** - Ihre Versandliste. Erstellung/Bearbeitung.
+* **Kampagnen**: Dies ist die Liste Ihrer Kampagnen. Sie können nützliche Informationen wie das Anfangsdatum/Enddatum/Datum der letzten Änderung sowie ihren Status anzeigen. Sie können die Liste nach Status oder Anfangsdatum/Enddatum filtern. Darüber hinaus stehen Kampagnenvorlagen zur Verfügung. Diese Listen sind schreibgeschützt.
+
+* **Sendungen**: Durchsuchen Sie Ihre Versandliste. Sie können ihren Status, das Datum der letzten Änderung sowie wichtige KPIs anzeigen. Sie können die Liste nach Status, Kontaktdatum oder Kanal filtern. Klicken Sie auf einen E-Mail-Versand, um das zugehörige Dashboard zu öffnen. Andere Elemente sind schreibgeschützt. Darüber hinaus stehen Versandvorlagen zur Verfügung.
 
 ### Kunden-Management
 
@@ -122,13 +115,13 @@ Die Navigationsbaumansicht hängt von den Berechtigungen ab (identisch mit der K
 
 >[!CONTEXTUALHELP]
 >id="acw_targeting_workflow_list"
->title="Zielgruppen-Workflows"
+>title="Zielgruppenbestimmungs-Workflows"
 >abstract="TBC"
 
-* **Empfänger** - Ihre Empfängerliste. Keine Bearbeitung/Erstellung.
-* **Zielgruppen** - Ihre Zielgruppenliste. Keine Bearbeitung/Erstellung.
-* **Abonnementlisten** - Ihre Liste der Abonnementlisten. Keine Bearbeitung/Erstellung.
-* **Zielgruppen-Workflows** - Ihre Liste der Zielgruppen-Workflows. Keine Bearbeitung/Erstellung.
+* **Empfänger**: Greifen Sie auf Ihre Empfängerdatenbank zu. Sie können nützliche Informationen wie die E-Mail-Adresse, den Vornamen und den Nachnamen der Empfänger anzeigen. Diese Liste ist schreibgeschützt.
+* **Audiences**: Dies ist die Liste Ihrer Zielgruppen. Sie können den Typ, die Herkunft, das Erstellungsdatum/Datum der letzten Änderung und das Label anzeigen. Sie können die Liste nach Herkunft filtern. Diese Liste ist schreibgeschützt.
+* **Abonnementlisten**: Durchsuchen Sie Ihre Abonnementlisten. Sie können ihren Typ, Modus und ihre Beschriftung anzeigen. Diese Liste ist schreibgeschützt.
+* **Zielgruppenbestimmungs-Workflows**: Greifen Sie auf Ihre Liste der Kampagnen-Workflows zu. Sie können den Status, das letzte/nächste Verarbeitungsdatum und die Umgebung anzeigen. Sie können die Liste nach Status, Datum der letzten Verarbeitung und Workflow-Typ filtern. Auch Workflow-Vorlagen sind verfügbar. Diese Listen sind schreibgeschützt.
 
 ### Entscheidungs-Management
 
@@ -137,19 +130,49 @@ Die Navigationsbaumansicht hängt von den Berechtigungen ab (identisch mit der K
 >title="Angebote"
 >abstract="TBC"
 
-* **Angebote** - Ihre Angebotsliste. Keine Bearbeitung/Erstellung.
+* **Angebote**: Durchsuchen Sie Ihre Liste von Interaktions-Angeboten. Sie können ihren Status, ihr Start-/Enddatum und die Umgebung anzeigen. Sie können die Liste nach Status und Start-/Enddatum filtern. Angebotsvorlagen sind ebenfalls verfügbar. Diese Listen sind schreibgeschützt.
 
-## Filterlisten{#filter-lists}
+## Unified Shell
 
-Listenbildschirme
+Campaign v8 Web ist in Unified Shell integriert. In der oberen Leiste auf der rechten Seite sind mehrere Schaltflächen verfügbar.
 
-## Hilfe und Support erhalten {#find-help}
+![](assets/unified-shell.png){width="70%" align="left"}
 
-Greifen Sie über den unteren Bereich der Startseite auf die wichtigsten Hilfeseiten von Adobe Journey Optimizer zu.
+Mit diesen Schaltflächen können Sie:
 
-Verwenden Sie die **Hilfe** -Symbol, um auf Hilfeseiten zuzugreifen, den Support zu kontaktieren und Feedback zu teilen. Sie können Hilfe-Artikel und Videos aus dem Suchfeld suchen.
+* Ihr Feedback als Alpha-Kunde teilen
+* zwischen IMS-Organisationen wechseln
+* zwischen Adobe Experience Cloud-Anwendungen wechseln
+* auf Hilfeseiten zugreifen, den Support kontaktieren und Feedback geben. Sie können Hilfe-Artikel und Videos mithilfe des Suchfelds suchen.
 
-## Unterstützte Browser {#browsers}
+<!--
+Org / Sub-org switcher to switch between instances. Only one for Alpha. Later: intermerdiate screen with Control Panel (beta). if v8 + ACS with one card per ACS instance. Maybe quickly explain the menu for Alpha?
+-->
 
-Adobe [!DNL Journey Optimizer] ist so konzipiert, dass sie in der neuesten Version von Google Chrome optimal funktioniert. Bei der Verwendung bestimmter Funktionen in älteren Versionen oder anderen Browsern kann es zu Problemen kommen.
+## Kontextuelle Hilfe und Onboarding-Handbuch
 
+Eine kontextuelle Hilfe ist in der Benutzeroberfläche verfügbar. Wenn verfügbar, klicken Sie auf das Symbol **?**, um Hilfeinformationen und zugehörige Dokumentations-Links anzuzeigen.
+
+![](assets/context-help.png){width="70%" align="left"}
+
+Darüber hinaus finden Sie ein Onboarding-Handbuch, das Ihnen bei den ersten Schritten mit dem Campaign v8 Web hilft. Klicken Sie auf das Symbol unten rechts, wählen Sie eines der verfügbaren schrittweisen Szenarien aus und befolgen Sie einfach die Anweisungen.
+
+![](assets/onboarding.png){width="70%" align="left"}
+
+## Konfigurieren von Listenbildschirmen {#list-screens}
+
+Alle Listenbildschirme mit Ausnahme der E-Mail-Versandliste sind schreibgeschützt.
+
+Um Elemente schneller zu finden, können Sie die Suchleiste verwenden oder die Liste nach Kontextkriterien filtern.
+
+![](assets/filter.png){width="70%" align="left"}
+
+Listen werden in Spalten angezeigt. Jede Spalte kann in auf- oder absteigender Reihenfolge einzeln sortiert werden. Sie können auch zusätzliche Informationen anzeigen, indem Sie die Spaltenkonfiguration ändern. Klicken Sie dazu auf das Symbol oben rechts in der Liste. Sie können Spalten hinzufügen oder entfernen und die Reihenfolge ändern, in der sie angezeigt werden.
+
+![](assets/columns.png){width="70%" align="left"}
+
+<!--
+## Supported browsers {#browsers}
+
+Adobe [!DNL Journey Optimizer] interface is designed to work optimally in the latest version of Google Chrome. You might have trouble using certain features on older versions or other browsers.
+-->
