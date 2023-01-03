@@ -1,16 +1,16 @@
 ---
 audience: end-user
-title: Preheader in Journey Optimizer hinzufügen
+title: Hinzufügen eines Preheaders in Journey Optimizer
 description: Erfahren Sie, wie Sie E-Mail-Inhalte erstellen
-source-git-commit: 9def5ea791e4ef42968cd34536f3ddeac7fc238c
-workflow-type: tm+mt
-source-wordcount: '212'
-ht-degree: 0%
+exl-id: 8513b069-7155-45ac-8c98-38576c9ddeda
+source-git-commit: 8515e9cabb535759b47b15ff86a2baa2384fc105
+workflow-type: ht
+source-wordcount: '228'
+ht-degree: 100%
 
 ---
 
-
-# Preheader hinzufügen {#preheader}
+# Hinzufügen eines Preheaders {#preheader}
 
 >[!NOTE]
 >
@@ -18,36 +18,37 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_preheader"
->title="Preheader hinzufügen"
->abstract="Ein Preheader ist ein kurzer Zusammenfassungstext, der beim Anzeigen einer E-Mail von Ihrem E-Mail-Client der Betreffzeile folgt. In vielen Fällen bietet sie eine kurze Zusammenfassung der E-Mail und ist in der Regel ein Satz lang."
+>title="Hinzufügen eines Preheaders"
+>abstract="Ein Preheader ist ein kurzer Zusammenfassungstext, der beim Anzeigen einer E-Mail über Ihren E-Mail-Client der Betreffzeile folgt. In vielen Fällen handelt es sich um eine kurze Zusammenfassung der E-Mail, die in der Regel einen Satz lang ist."
 
+Ein Preheader ist ein kurzer Zusammenfassungstext, der beim Anzeigen einer E-Mail über Ihren E-Mail-Client der Betreffzeile folgt.
 
-Ein Preheader ist ein kurzer Zusammenfassungstext, der beim Anzeigen einer E-Mail von Ihrem E-Mail-Client der Betreffzeile folgt. In vielen Fällen bietet sie eine kurze Zusammenfassung der E-Mail und ist in der Regel ein Satz lang.
+In vielen Fällen handelt es sich um eine kurze Zusammenfassung der E-Mail, die in der Regel einen Satz lang ist.
 
 >[!NOTE]
 >
 >Preheader werden nicht von allen E-Mail-Clients unterstützt. Wenn der Preheader nicht unterstützt wird, wird er nicht angezeigt.
 
-Gehen Sie wie folgt vor, um den E-Mail-Preheader zu definieren:
+Gehen Sie wie folgt vor, um den Preheader einer E-Mail zu definieren:
 
-1. Fügen Sie im Email Designer eine **[!UICONTROL Strukturkomponenten]** , um mit der Erstellung Ihrer E-Mail zu beginnen.
+1. Fügen Sie in E-Mail-Designer mindestens eine **[!UICONTROL Strukturkomponente]** hinzu, um mit der Erstellung Ihrer E-Mail zu beginnen.
 
-   ![](assets/preheader_1.png)
+1. Klicken Sie auf das Symbol **[!UICONTROL Navigationsbaum]** im linken Bereich und wählen Sie **[!UICONTROL Text]**.
 
-1. Aus dem **[!UICONTROL Texteinstellungen]** Klicken Sie im rechten Bereich auf **Bearbeiten** neben dem **[!UICONTROL Preheader]** -Feld zum Hinzufügen von Inhalt.
+   ![](assets/preheader_body.png)
 
-   ![](assets/preheader_2.png)
+1. Klicken Sie in den **[!UICONTROL Texteinstellungen]** im rechten Bereich auf das Bearbeitungssymbol neben dem Feld **[!UICONTROL Preheader]**, um den Inhalt hinzuzufügen.
 
-1. Fügen Sie Ihren Preheader hinzu. Sie können sie weiter personalisieren, indem Sie auf die **[!UICONTROL Personalisierung hinzufügen]** Symbol.
+   ![](assets/preheader_body_settings.png)
+
+1. Fügen Sie Ihren Preheader hinzu. Sie können diesen weiter personalisieren, indem Sie auf das Symbol **[!UICONTROL Personalisierung hinzufügen]** klicken.
 
    ![](assets/preheader_3.png)
 
-1. Aus dem **[!UICONTROL Personalisierung bearbeiten]** Fenster, können Sie **[!UICONTROL Inhaltsbaustein]**, **[!UICONTROL Dynamische Inhalte]** oder **[!UICONTROL Personalisierungsfelder]**.
+1. Im Fenster **[!UICONTROL Personalisierung bearbeiten]** können Sie **[!UICONTROL Inhaltsbausteine]**, **[!UICONTROL dynamische Inhalte]** oder **[!UICONTROL Personalisierungsfelder]** hinzufügen.
 
-1. Klicken **[!UICONTROL Bestätigen]** , um Ihre Personalisierungssyntax zu überprüfen.
-
-   ![](assets/preheader_4.png)
+1. Klicken Sie auf **[!UICONTROL Validieren]**, um Ihre Personalisierungssyntax zu überprüfen.
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
-Ihr Preheader ist jetzt für Ihre E-Mail konfiguriert.
+Ihr Preheader für Ihre E-Mail ist jetzt konfiguriert.
