@@ -2,13 +2,13 @@
 audience: end-user
 title: Definieren eines Stils für Links
 description: Erfahren Sie, wie Sie einen Stil für Links definieren
-source-git-commit: 9def5ea791e4ef42968cd34536f3ddeac7fc238c
-workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 20%
+exl-id: b4b79bd5-a96c-49ca-b3fe-95befef00dff
+source-git-commit: c537850a1c0dfb2e7d951477291f2f6da7c9bddf
+workflow-type: ht
+source-wordcount: '160'
+ht-degree: 100%
 
 ---
-
 
 # Definieren eines Stils für Links {#styling-links}
 
@@ -16,28 +16,26 @@ ht-degree: 20%
 >
 >Diese Dokumentation wird derzeit erstellt und häufig aktualisiert. Die endgültige Version dieses Inhalts wird im Januar 2023 vorliegen.
 
-Sie können einen Link unterstreichen und in Email Designer dessen Farbe und Ziel auswählen.
+Sie können in E-Mail-Designer einen Link unterstreichen und dessen Farbe und Zielgruppe auswählen.
 
-1. In Text **[!UICONTROL Inhaltskomponente]** Wenn ein Link eingefügt wurde, wählen Sie Ihren Link aus.
+1. Wählen Sie in einer **[!UICONTROL Text]**-Komponente, in die ein Link eingefügt ist, Ihren Link aus.
 
-1. Im **[!UICONTROL Komponenteneinstellungen]** Menü, überprüfen **[!UICONTROL Link unterstreichen]** , um den Titeltext Ihres Links zu unterstreichen.
+1. Aktivieren Sie im Menü **[!UICONTROL Komponenteneinstellungen]** das Kontrollkästchen **[!UICONTROL Link unterstreichen]**, um den Titel zu unterstreichen.
 
    ![](assets/link_1.png)
 
-1. Wählen Sie aus, wie Ihre Zielgruppe mit der **[!UICONTROL Target]** Dropdown-Liste:
+1. Wählen Sie in der Drop-Down-Liste **[!UICONTROL Zielgruppen]**, wie Ihre Audience umgeleitet werden soll:
 
-   * **[!UICONTROL Keines]**: öffnet den Link im selben Frame, in dem er angeklickt wurde (Standard).
-   * **[!UICONTROL Leer]**: öffnet den Link in einem neuen Fenster oder auf einer neuen Registerkarte.
-   * **[!UICONTROL Selbst]**: öffnet den Link im selben Frame, in dem er angeklickt wurde.
-   * **[!UICONTROL Übergeordnet]**: öffnet den Link im übergeordneten Frame.
-   * **[!UICONTROL Oben]**: öffnet den Link im vollständigen Textkörper des Fensters.
+   * **[!UICONTROL Keine]**: Öffnet den Link im selben Fenster, in dem er angeklickt wurde (Standard).
+   * **[!UICONTROL Leer]**: Öffnet den Link in einem neuen Fenster oder einer neuen Registerkarte.
+   * **[!UICONTROL Selbst]**: Öffnet den Link im selben Fenster, in dem er angeklickt wurde.
+   * **[!UICONTROL Übergeordnet]**: Öffnet den Link im übergeordneten Fenster.
+   * **[!UICONTROL Oben]**: Öffnet den Link im vollständigen Textkörper des Fensters.
 
    ![](assets/link_2.png)
 
-1. Wenn Sie die Farbe Ihres Links ändern möchten, klicken Sie auf **[!UICONTROL Linkfarbe]**.
+1. Um die Farbe Ihres Links zu ändern, klicken Sie auf **[!UICONTROL Link-Farbe]** im rechten Bereich
 
    ![](assets/link_3.png)
-
-1. Wählen Sie die gewünschte Farbe aus.
 
 1. Speichern Sie Ihre Änderungen.
