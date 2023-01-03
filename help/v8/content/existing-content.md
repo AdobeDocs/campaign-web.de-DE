@@ -1,44 +1,38 @@
 ---
 audience: end-user
-title: E-Mail-Inhalt importieren
+title: Importieren Ihrer E-Mail-Inhalte
 description: Erfahren Sie, wie Sie E-Mail-Inhalte importieren
-source-git-commit: 9def5ea791e4ef42968cd34536f3ddeac7fc238c
-workflow-type: tm+mt
-source-wordcount: '176'
-ht-degree: 2%
+exl-id: ef9c8e6f-f422-404e-9ebb-a89d1bd45e7f
+source-git-commit: a493777bea8b9139f2e3570a5ec9c3086f1d023f
+workflow-type: ht
+source-wordcount: '152'
+ht-degree: 100%
 
 ---
 
-
-# E-Mail-Inhalt importieren {#existing-content}
+# Importieren Ihrer E-Mail-Inhalte {#existing-content}
 
 >[!NOTE]
 >
 >Diese Dokumentation wird derzeit erstellt und häufig aktualisiert. Die endgültige Version dieses Inhalts wird im Januar 2023 vorliegen.
 
-Mit Journey Optimizer können Sie vorhandenen HTML-Inhalt importieren, um E-Mails zu erstellen. Dieser Inhalt kann wie folgt lauten:
+E-Mail-Designer ermöglicht den Import vorhandener HTML-Inhalte. Dieser Inhalt kann Folgendes sein:
 
-* Ein **HTML-Datei** mit integriertem Stylesheet,
-* A **.zip-Ordner** mit der HTML-Datei, dem Stylesheet (.css) und Bildern.
+* Eine **HTML-Datei** mit integriertem Stylesheet,
+* Ein **komprimierter Ordner** (.zip) mit HTML-Datei, Stylesheet (.css) und Bildern.
 
    >[!NOTE]
    >
-   >Die ZIP-Dateistruktur unterliegt keinen Beschränkungen. Verweise müssen jedoch relativ sein und in die Baumstruktur des Ordners .zip passen.
+   >Die Struktur des komprimierten Ordners ist freigestellt. Verweise müssen jedoch relativ sein und zur Baumstruktur des ZIP-Ordners passen.
 
-Gehen Sie wie folgt vor, um eine HTML-Datei zu importieren:
+Gehen Sie wie folgt vor, um eine Datei mit HTML-Inhalt zu importieren:
 
-1. Wählen Sie auf der Startseite von Email Designer die Option **[!UICONTROL HTML importieren]**.
+1. Wählen Sie auf der Startseite von E-Mail-Designer die Option **[!UICONTROL HTML importieren]**.
 
    ![](assets/import-html_2.png)
 
-1. Ziehen Sie die HTML- oder ZIP-Datei mit Ihrem HTML-Inhalt in den Arbeitsbereich.
+1. Ziehen Sie die HTML- oder ZIP-Datei mit Ihrem HTML-Inhalt per Drag-and-Drop und klicken Sie auf **[!UICONTROL Importieren]**.
 
-1. Nach dem Hochladen des HTML-Inhalts können Sie die Funktionen von Email Designer nutzen, um Ihre E-Mail zu bearbeiten und in der Vorschau anzuzeigen. [Weitere Informationen finden Sie in diesem Abschnitt](create-email-content.md).
+1. Nach dem Hochladen des HTML-Inhalts können Sie die Funktionen von E-Mail-Designer nutzen, um Ihre E-Mail zu bearbeiten und in der Vorschau anzuzeigen. [Weitere Informationen finden Sie in diesem Abschnitt](create-email-content.md).
 
    ![](assets/html-imported.png)
-
-## Anleitungsvideo {#video}
-
-Erfahren Sie, wie Sie vorhandenen HTML-Inhalt importieren, das Design anpassen, Mirrorseite hinzufügen und Links abmelden und wie Sie Ihren Inhalt kodieren können.
-
->[!VIDEO](https://video.tv.adobe.com/v/334102?quality=12)
