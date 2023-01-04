@@ -4,7 +4,7 @@ title: Verwenden der Inhaltskomponenten von E-Mail-Designer
 description: Erfahren Sie, wie Sie Inhaltskomponenten in E-Mails verwenden
 exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
 source-git-commit: 5f4d5e69415dc26baab5780e96088e22172fe35e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1104'
 ht-degree: 100%
 

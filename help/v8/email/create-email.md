@@ -3,10 +3,10 @@ audience: end-user
 title: Erstellen Ihrer ersten E-Mail
 description: Web-Dokumentation zu Campaign v8
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: a572ac51db2ef79dc45afe2504aeb8476314bbfc
-workflow-type: ht
-source-wordcount: '1183'
-ht-degree: 100%
+source-git-commit: 75d579975023639840f35f673e63aab2a2d3a811
+workflow-type: tm+mt
+source-wordcount: '1181'
+ht-degree: 98%
 
 ---
 
@@ -127,7 +127,7 @@ In diesem Anwendungsbeispiel senden wir die E-Mail an eine bereits bestehende Au
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_schedule"
 >title="Terminieren des Versands"
->abstract="Definieren Sie das Datum und die genaue Uhrzeit für Ihren Versand. Indem Sie den für Ihre Marketing-Nachricht am besten geeigneten Zeitpunkt auswählen, maximieren Sie die Klicks und Öffnungsraten."
+>abstract="Definieren Sie das Datum und die genaue Uhrzeit für Ihren Versand. Wenn Sie den für Ihre Marketing-Nachricht am besten geeigneten Zeitpunkt auswählen, maximieren Sie die Öffnungsraten."
 
 Um den Versand der E-Mail zu terminieren, klicken Sie auf **[!UICONTROL Aktivieren]** und geben Sie dann das gewünschte Datum und die gewünschte Uhrzeit für den Versand an.
 

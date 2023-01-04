@@ -2,10 +2,11 @@
 keywords: Campaign Web;home;popular topics
 description: Campaign Web v8-Hilfecenter
 title: Produktdokumentation zu Adobe Campaign Web v8
-source-git-commit: 9def5ea791e4ef42968cd34536f3ddeac7fc238c
+exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
+source-git-commit: 4bf4e80ea7ea6457e659e1bd8344702db199e584
 workflow-type: tm+mt
 source-wordcount: '72'
-ht-degree: 0%
+ht-degree: 70%
 
 ---
 
@@ -19,4 +20,4 @@ ht-degree: 0%
 
 ![](assets/do-not-localize/badge.png)
 
->Das Campaign v8-Web befindet sich derzeit in der Alpha-Version. Der Zugriff ist auf eine kleine Gruppe von Alpha-Kunden beschränkt. Beachten Sie, dass sich die Produktoberfläche, die Funktionen und die Nutzungsabläufe ohne Vorankündigung ändern können.
+>Campaign v8 Web befindet sich derzeit in der Alpha-Version. Der Zugriff ist auf eine kleine Gruppe von Alpha-Kunden beschränkt. Beachten Sie, dass sich die Produktoberfläche, die Funktionen und die Nutzungsabläufe ohne Vorankündigung ändern können.

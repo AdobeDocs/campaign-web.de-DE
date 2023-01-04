@@ -1,15 +1,16 @@
 ---
 audience: end-user
 title: Reporting
-description: Webdokumentation zu Campaign v8
-source-git-commit: d8958be5085518fc180959992649684f328053cd
+description: Web-Dokumentation zu Campaign v8
+exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
+source-git-commit: 4bf4e80ea7ea6457e659e1bd8344702db199e584
 workflow-type: tm+mt
 source-wordcount: '400'
-ht-degree: 12%
+ht-degree: 18%
 
 ---
 
-# Berichterstellung {#reports}
+# Reporting {#reports}
 
 >[!NOTE]
 >
@@ -54,6 +55,3 @@ Fehler und Bounces: Dieser Bericht zeigt die Verteilung der fehlgeschlagenen Zus
 **Hotclicks**
 
 Er zeigt den Nachrichteninhalt (HTML und/oder Text) mit dem prozentualen Klickanteil für jeden Link. Links in Gestaltungsbausteinen, der Abmelde-Link, der Mirrorseite-Link und Angebotslinks werden in der Gesamtklickzahl berücksichtigt, in diesem Bericht jedoch nicht angezeigt.
-
-
-

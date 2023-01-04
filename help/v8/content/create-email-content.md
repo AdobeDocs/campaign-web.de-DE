@@ -1,12 +1,12 @@
 ---
 audience: end-user
-title: Gestalten von E-Mails in Journey Optimizer
+title: E-Mails in Email Designer erstellen
 description: Erfahren Sie, wie Sie Ihre E-Mail-Inhalte von Grund auf neu gestalten
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
-source-git-commit: fd85f2b799602b7c411b73e7b1c1cbd38c798857
-workflow-type: ht
-source-wordcount: '541'
-ht-degree: 100%
+source-git-commit: a05203cb66420c74e443cb6de3abe628c3ef9353
+workflow-type: tm+mt
+source-wordcount: '527'
+ht-degree: 98%
 
 ---
 
@@ -91,10 +91,6 @@ Gehen Sie wie folgt vor, um mit der Erstellung Ihres E-Mail-Inhalts zu beginnen:
 
 1. Fügen Sie Personalisierungsfelder ein, um den Inhalt Ihrer E-Mail mit Profildaten anzupassen. [Weitere Informationen über die Personalisierung von Inhalten](../personalization/personalize.md)
 
-1. Fügen Sie dynamische Inhalte hinzu, um den Inhalt auf der Grundlage von bedingten Regeln an die Zielprofile anzupassen. <!-- Add link to Get started with dynamic content-->
-
-   ![](assets/email_designer_6.png)
-
 1. Klicken Sie auf die Registerkarte **[!UICONTROL Links]** im linken Bereich, um die Liste aller zu verfolgenden URLs Ihres Inhalts anzuzeigen. Sie können bei Bedarf deren **[!UICONTROL Tracking-Typ]** oder **[!UICONTROL Beschriftung]** ändern und **[!UICONTROL Tags]** hinzufügen. [Weitere Informationen über Links und Nachrichten-Tracking](message-tracking.md)
 
    ![](assets/email_designer_7.png)
@@ -106,6 +102,8 @@ Gehen Sie wie folgt vor, um mit der Erstellung Ihres E-Mail-Inhalts zu beginnen:
    >Nach dem Wechsel zum Code-Editor können Sie für diese E-Mail nicht mehr zum visuellen Designer zurückgehen.
 
 1. Sobald Ihr Inhalt bereit ist, klicken Sie auf **[!UICONTROL Inhalt simulieren]**, um das E-Mail-Rendering zu überprüfen. Sie können zwischen der Desktop- oder der mobilen Ansicht wählen. [Weitere Informationen über die Vorschau Ihrer E-Mail](../preview-test/preview-test.md)
+
+   ![](assets/email_designer_28.png)
 
 1. Wenn Ihre E-Mail bereit ist, klicken Sie auf **[!UICONTROL Speichern]**.
 

@@ -4,7 +4,7 @@ title: Personalisieren Ihres E-Mail-Hintergrunds
 description: Erfahren Sie, wie Sie Ihren E-Mail-Hintergrund personalisieren
 exl-id: 180e61d3-bc1e-4dde-84cf-06bd8ba4d724
 source-git-commit: 6f9816092e4eef12e443ecd49dd1f6ef38e324b0
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '320'
 ht-degree: 100%
 

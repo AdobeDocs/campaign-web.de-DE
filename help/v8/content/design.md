@@ -1,11 +1,11 @@
 ---
 audience: end-user
 title: Arbeiten mit Email Designer
-description: Webdokumentation zu Campaign v8
+description: Web-Dokumentation zu Campaign v8
 source-git-commit: 9def5ea791e4ef42968cd34536f3ddeac7fc238c
 workflow-type: tm+mt
 source-wordcount: '33'
-ht-degree: 0%
+ht-degree: 69%
 
 ---
 

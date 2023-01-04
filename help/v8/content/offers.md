@@ -3,10 +3,10 @@ audience: end-user
 title: Senden von Angeboten
 description: Senden von Angeboten
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
-source-git-commit: 999ece2367b8bb791f57fba311172b4dc3f2cdf1
-workflow-type: ht
-source-wordcount: '529'
-ht-degree: 100%
+source-git-commit: bf55b13011f7d2bdafcc55b1b2539c4ce590dd85
+workflow-type: tm+mt
+source-wordcount: '527'
+ht-degree: 98%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 >
 >Diese Dokumentation wird derzeit erstellt und häufig aktualisiert. Die endgültige Version dieses Inhalts wird im Januar 2023 vorliegen.
 
-Adobe Campaign v8 Web ermöglicht es Ihnen, mit Ihren E-Mails Angebote zu senden, die in der Konsole mithilfe des Moduls **[!UICONTROL Interaction]** erstellt wurden. Weiterführende Informationen zu Interaction und zur Verwaltung eines Angebotskatalogs in der Konsole finden Sie im Abschnitt [Dokumentation zu Campaign V8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=de).
+Adobe Campaign v8 Web ermöglicht es Ihnen, mit Ihren E-Mails Angebote zu senden, die in der Konsole mithilfe des Moduls **[!UICONTROL Interaction]** erstellt wurden. Weiterführende Informationen zu Interaction und zur Verwaltung eines Angebotskatalogs in der Konsole finden Sie im Abschnitt [Dokumentation zu Campaign V8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html).
 
 Die wichtigsten Schritte zum Senden von Angeboten mit einer E-Mail sind:
 

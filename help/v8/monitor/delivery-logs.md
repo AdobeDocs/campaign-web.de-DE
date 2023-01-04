@@ -1,11 +1,12 @@
 ---
 audience: end-user
 title: Versandlogs überwachen
-description: Webdokumentation zu Campaign v8
-source-git-commit: 4ed89d326acd3b7d5d8f14bec68cceda3c8169fb
+description: Web-Dokumentation zu Campaign v8
+exl-id: 2eb7457e-32f7-4729-99c8-91bf287f0192
+source-git-commit: 13765b02288ec4682c5d55603c68f8ea1a5758f8
 workflow-type: tm+mt
-source-wordcount: '332'
-ht-degree: 65%
+source-wordcount: '313'
+ht-degree: 64%
 
 ---
 
@@ -22,13 +23,11 @@ ht-degree: 65%
 
 Nach der Vorbereitung und dem Versand einer E-Mail können Sie mithilfe der Versandlogs überprüfen, ob kein Fehler vorliegt. Auf diese Protokolle kann direkt über das Nachrichten-Dashboard zugegriffen werden. In ihnen werden Details zum Versand dargestellt und Sie erfahren, welche Zielgruppe warum ausgeschlossen wurde sowie Tracking-Informationen wie z. B. Öffnungen und Klicks.
 
-Um die Protokolle anzuzeigen, klicken Sie auf das **Protokolle** Schaltfläche.
+Um die Logs anzuzeigen, rufen Sie Ihr Versand-Dashboard auf und klicken Sie auf die Schaltfläche **Protokolle** Schaltfläche.
 
-![](assets/logs.png)
+Es stehen mehrere Registerkarten zur Verfügung:
 
-Die verschiedenen Tabs zeigen (wenn vorhanden) Informationen zu Versandlogs, Ausschlusslogs, Ausschlussgründen, Trackinglogs und getrackten URLs.
-
-**Los** tab
+## Logs
 
 Die **Protokolle** enthält alle Nachrichten bezüglich des Versands und der Testsendungen. Eventuelle Fehler oder Warnmeldungen werden durch spezifische Symbole hervorgehoben.
 
@@ -38,31 +37,38 @@ Alle Validierungsschritte, Warnungen und Fehler werden aufgelistet. Farbige Symb
 * Das gelbe Symbol steht für einen nicht kritischen Verarbeitungsfehler.
 * Das rote Symbol steht für einen kritischen Fehler, der die Durchführung des Versands verhindert.
 
-**Tab &quot;Sendungen&quot;**
+![](assets/logs.png)
+
+## Sendungen
 
 Die **Sendungen** -Tab zeigt einen Verlauf aller Vorkommen dieses Versands an. sowie deren Status an. Für jeden einzelnen Empfänger können Sie anhand des Status das Ergebnis des Versands verfolgen.
 
-**Ausnahmen** tab
+![](assets/logs2.png)
 
-Der Tab Ausschlusslogs zeigt die Liste der vom Versand ausgeschlossenen Empfänger und den jeweiligen Ausschlussgrund an.
+## Ausschlüsse
 
-**Ausschlussgründe** tab
+Der Tab **Ausschlusslogs** zeigt die Liste der vom Versand ausgeschlossenen Empfänger und den jeweiligen Ausschlussgrund an.
+
+![](assets/logs3.png)
+
+## Ausschlussgründe
 
 Der Tab **Ausschlussgründe** zeigt die Anzahl an ausgeschlossenen Empfängern pro Ausschlussgrund an.
 
-**Getrackte URLs** tab
+![](assets/logs4.png)
 
-Die **Getrackte URLs** Registerkarten anzeigen
+## Getrackte URLs
 
-**Tab &quot;Tracking&quot;**
+Der Tab **Getrackte URLs** gibt Auskunft über die in der gesendeten Nachricht enthaltenen URLs, ihren Typ sowie ihre Quell-URLs.
 
-Im **Tracking**-Tab wird der Tracking-Verlauf des Versands angezeigt. Hier werden die Tracking-Informationen bezüglich aller von Adobe Campaign gesendeten Nachrichten, d. h. alle getrackten URLs gelistet. Tracking-Informationen werden stündlich aktualisiert.
+![](assets/logs5.png)
+
+## Tracking
+
+Die **Tracking** enthält den Verlauf des Trackings für diesen Versand. Auf diesem Tab werden Tracking-Daten zu den gesendeten Nachrichten angezeigt, d. h. alle URLs, die der Verfolgung durch Adobe Campaign unterliegen.
 
 >[!NOTE]
 >
 >Sollte das Tracking für einen Versand nicht aktiviert worden sein, wird dieser Tab nicht angezeigt.
 
-Interpretationen der Trackingdaten finden Sie in den Versandberichten. Weiterführende Informationen dazu finden Sie in diesem Abschnitt.
-
-
-
+![](assets/logs6.png)

@@ -4,7 +4,7 @@ title: Erste Schritte mit E-Mail-Stil
 description: Hier erfahren Sie, wie Sie den Inhaltsstil Ihrer E-Mail anpassen können.
 exl-id: e0489dcc-32d9-4bee-8562-36a96e64e20b
 source-git-commit: 6e658c6a2c4f49135ffa6bb4ef0eb39086b1623a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '134'
 ht-degree: 100%
 

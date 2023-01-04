@@ -4,7 +4,7 @@ title: Importieren Ihrer E-Mail-Inhalte
 description: Erfahren Sie, wie Sie E-Mail-Inhalte importieren
 exl-id: ef9c8e6f-f422-404e-9ebb-a89d1bd45e7f
 source-git-commit: a493777bea8b9139f2e3570a5ec9c3086f1d023f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 100%
 

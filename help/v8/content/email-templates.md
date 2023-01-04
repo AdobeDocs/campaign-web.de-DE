@@ -2,13 +2,13 @@
 audience: end-user
 product: campaign
 title: Arbeiten mit E-Mail-Vorlagen
-source-git-commit: 9def5ea791e4ef42968cd34536f3ddeac7fc238c
+exl-id: 114c482f-8291-418a-bd81-667f40267a7d
+source-git-commit: a493777bea8b9139f2e3570a5ec9c3086f1d023f
 workflow-type: tm+mt
-source-wordcount: '208'
-ht-degree: 7%
+source-wordcount: '197'
+ht-degree: 16%
 
 ---
-
 
 # Arbeiten mit E-Mail-Inhaltsvorlagen {#email-content-templates}
 
@@ -19,10 +19,6 @@ ht-degree: 7%
 Verwenden Sie die **[!UICONTROL Designvorlage auswählen]** -Abschnitt, um Ihren Inhalt aus einer Vorlage zu erstellen.
 
 ![](assets/email_designer-templates.png)
-
-Sie können aus folgenden Optionen wählen:
-* 20 vordefinierte E-Mail-Vorlagen.
-* Gespeicherte Vorlagen. [Weitere Informationen](#save-as-template)
 
 ## Als Vorlage speichern {#save-as-template}
 
@@ -40,7 +36,7 @@ Nachdem Sie Ihren E-Mail-Inhalt entworfen haben, können Sie ihn zur späteren W
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
-Wenn Sie das nächste Mal eine E-Mail erstellen, können Sie diese Vorlage verwenden, um Ihren Inhalt zu erstellen. [Erfahren Sie mehr](#use-saved-template)
+Wenn Sie das nächste Mal eine E-Mail erstellen, können Sie diese Vorlage verwenden, um Ihren Inhalt zu erstellen. [Weitere Informationen](#use-saved-template)
 
 ![](assets/email_designer-saved-template.png)
 

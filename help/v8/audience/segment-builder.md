@@ -3,10 +3,10 @@ audience: end-user
 title: Arbeiten mit dem Segment Builder
 description: Web-Dokumentation zu Campaign v8
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
-source-git-commit: 05efb03e8657e9ac3419e11fc7bbae49b5d93fe7
-workflow-type: ht
-source-wordcount: '507'
-ht-degree: 100%
+source-git-commit: bf55b13011f7d2bdafcc55b1b2539c4ce590dd85
+workflow-type: tm+mt
+source-wordcount: '505'
+ht-degree: 98%
 
 ---
 
@@ -20,7 +20,7 @@ In diesem Abschnitt wird beschrieben, wie Sie beim Entwerfen einer neuen E-Mail 
 
 Mit Segment Builder können Sie die Audience Ihrer Nachricht definieren, indem Sie in der Adobe Campaign-Datenbank enthaltene Daten filtern. Informationen zur Auswahl einer bereits bestehenden Audience finden Sie in [diesem Abschnitt](add-audience.md).
 
-Weitere Informationen zum Segment Builder finden Sie in der [Dokumentation zum Segmentierungs-Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=de).
+Weitere Informationen zum Segment Builder finden Sie in der [Dokumentation zum Segmentierungs-Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html).
 
 Gehen Sie wie folgt vor, um beim Entwerfen einer E-Mail eine neue Audience zu erstellen:
 

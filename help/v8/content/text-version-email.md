@@ -4,7 +4,7 @@ title: Erstellen der Textversion einer E-Mail
 description: Erfahren Sie, wie Sie die Textversion einer E-Mail erstellen
 exl-id: 8d0ce346-64a6-4adf-9f2d-36a900db797f
 source-git-commit: 4bf4e80ea7ea6457e659e1bd8344702db199e584
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '186'
 ht-degree: 100%
 
