@@ -3,10 +3,10 @@ audience: end-user
 title: Erweiterte Einstellungen
 description: Web-Dokumentation zu Campaign v8
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: 4fbb5e2eb0211712d17f1437986038c40ed15602
+source-git-commit: 66a1a324d671bd8ef2847005a3ab75d113110117
 workflow-type: tm+mt
-source-wordcount: '899'
-ht-degree: 60%
+source-wordcount: '1077'
+ht-degree: 49%
 
 ---
 
@@ -31,8 +31,14 @@ Documentation on this part is targeted for december 2022
 -->
 
 Alle technischen Versandparameter aus der Vorlage.
-Nur Parameter ändern, keine Erstellung hier.
-Gemäß den Berechtigungen sollten Praktiker dies nicht ändern, Vorsicht. Nur Typologieregel überprüfen und ändern -> Rest definiert in Vorlage
+
+>[!NOTE]
+>
+> Nur Parameter ändern, keine Erstellung hier. Gemäß Berechtigungen.
+
+>[!NOTE]
+>
+> Praktikanten sollten dies nicht ändern, Vorsicht. Nur Typologieregel überprüfen und ändern.
 
 ## Typology {#typology}
 
@@ -56,11 +62,11 @@ In diesem Abschnitt können Sie mithilfe von Druckparametern eine Schwelle defin
 
 Schwellenwerte können konstant oder variabel sein. Das bedeutet, dass unterschiedliche Profile in einem bestimmten Zeitraum unterschiedliche Schwellen aufweisen können oder Schwellen sogar innerhalb desselben Profils variieren können.
 
-Im **Gewichtungstyp** -Feld stehen drei Optionen zur Verfügung:
+Im **Gewichtungstyp** -Feld stehen drei Optionen zur Verfügung: (fehlende Formel je nach Option..)
 
-Die **Versandgewichtung** -Feld können Sie
+Die **Versandgewichtung** field : Jeder Versand hat eine Gewichtung, die seine Priorität darstellt. Standardmäßig ist die Gewichtung eines Versands auf 5 festgelegt. Mithilfe von Druckregeln können Sie die Gewichtung der Sendungen bestimmen, auf die sie angewendet werden. Die Gewichtung kann entweder mithilfe einer Formel festgelegt oder berechnet werden, um sie den Empfängern anzupassen. Sie können beispielsweise die Gewichtung eines Versands auf der Basis der Interessen des Empfängers festlegen.
 
-Die **Versandmodus** Feld.
+Die **Versandmodus** Feld. ??
 
 ### Kapazitätseinstellungen {#capacity-settings}
 
@@ -75,13 +81,15 @@ Die **Bedeutung des Empfängers** -Feld ist eine Formel, mit der bestimmt wird, 
 
 ## Audience {#audience}
 
-In diesem Abschnitt können Sie ein Zielgruppen-Mapping wählen, das in der Adobe Campaign v8-Konsole definiert ist. Die Zielgruppen-Mapping-Erstellung ist erforderlich, wenn Sie eine andere als die von Adobe Campaign bereitgestellte Empfängertabelle verwenden.
+In diesem Abschnitt können Sie eine **Zielgruppen-Mapping** definiert in der Adobe Campaign v8-Konsole. Die Zielgruppen-Mapping-Erstellung ist erforderlich, wenn Sie eine andere als die von Adobe Campaign bereitgestellte Empfängertabelle verwenden.
 
 ## Versand {#delivery}
 
-SMTP-Versand testen: Verwenden Sie diese Option, um den Versand per SMTP zu testen. Der Versand wird bis zur Verbindung mit dem SMTP-Server verarbeitet, aber nicht gesendet: Für jeden Empfänger des Versands stellt Campaign eine Verbindung mit dem Server des SMTP-Anbieters her, führt den SMTP-Befehl RCPT TO aus und schließt die Verbindung vor dem SMTP-Befehl DATA.
+**Routing** selection: das externe Konto auswählen....
 
-E-Mail-BCC: Mit dieser Option können Sie mit der BCC-Funktion E-Mails in einem externen System speichern, indem Sie einfach eine E-Mail-Adresse als BCC zu Ihrer Versandzielgruppe hinzufügen.
+**SMTP-Versand testen**: Verwenden Sie diese Option, um den Versand per SMTP zu testen. Der Versand wird bis zur Verbindung mit dem SMTP-Server verarbeitet, aber nicht gesendet: Für jeden Empfänger des Versands stellt Campaign eine Verbindung mit dem Server des SMTP-Anbieters her, führt den SMTP-Befehl RCPT TO aus und schließt die Verbindung vor dem SMTP-Befehl DATA.
+
+**E-Mail-BCC**: Mit dieser Option können Sie mit der BCC-Funktion E-Mails in einem externen System speichern, indem Sie einfach eine E-Mail-Adresse als BCC zu Ihrer Versandzielgruppe hinzufügen.
 
 ### Weitere Zustellversuche {#retries}
 
@@ -94,16 +102,17 @@ Vorübergehend nicht zugestellte Nachrichten aufgrund eines Softbounce oder eine
 
 ## Validierung {#approval}
 
-**Manuell**
-
-**Halbautomatisch**
-
-**Automatisch**
-
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_approval"
->title="Validierungsmodus"
+>title="Validierung mode"
 >abstract="Jeder Schritt eines Versands kann einer Validierung unterzogen werden, um eine vollständige Überwachung und Kontrolle der verschiedenen Prozesse zu gewährleisten."
+
+**Manuell**: Am Ende der Analysephase muss der Benutzer die Absendung bestätigen, um die Nachrichten abzuschicken.
+
+**Halbautomatisch**: Das Senden beginnt automatisch, wenn in der Analysephase keine Warnmeldungen erzeugt werden.
+
+**Automatisch**: Die Nachrichten werden unabhängig vom Ergebnis der Analysephase automatisch abgeschickt.
+
 
 ## Gültigkeit {#validity}
 
@@ -118,15 +127,16 @@ Vorübergehend nicht zugestellte Nachrichten aufgrund eines Softbounce oder eine
 >abstract="Das Feld Gültigkeit wird für hochgeladene Ressourcen verwendet, insbesondere für Mirrorseite und Bilder. Die Ressourcen auf dieser Seite sind für eine begrenzte Zeit gültig."
 
 
-Im Feld Versandlaufzeit können Sie die Zeitspanne angeben, in der erneute Zustellversuche unternommen werden. Dies bedeutet konkret, dass Adobe Campaign die Nachrichten ab dem Startdatum versendet und bis nach Ablauf der angegebenen Spanne nicht zustellbare Nachrichten in regelmäßigen Abständen erneut sendet.
+Im Feld **Versandlaufzeit** können Sie die Zeitspanne angeben, in der erneute Zustellversuche unternommen werden. Dies bedeutet konkret, dass Adobe Campaign die Nachrichten ab dem Startdatum versendet und bis nach Ablauf der angegebenen Spanne nicht zustellbare Nachrichten in regelmäßigen Abständen erneut sendet.
 
-Sie können alternativ auch ein genaues Ablaufdatum angeben. Kreuzen Sie in diesem Fall die Option Gültigkeit explizit festlegen an. Auf diese Weise kann auch eine bestimmte Uhrzeit konfiguriert werden. Standardmäßig ist dies die aktuelle Uhrzeit. Diese kann jedoch direkt im Eingabefeld angepasst werden.
+Sie können alternativ auch ein genaues Ablaufdatum angeben. Kreuzen Sie in diesem Fall die Option **Gültigkeit explizit festlegen** an. Auf diese Weise kann auch eine bestimmte Uhrzeit konfiguriert werden. Standardmäßig ist dies die aktuelle Uhrzeit. Diese kann jedoch direkt im Eingabefeld angepasst werden.
 
-Gültigkeit von Ressourcen: Das Feld Gültigkeit wird für hochgeladene Ressourcen verwendet, hauptsächlich für die Mirrorseite und Bilder. Die Gültigkeitsdauer der Ressourcen auf dieser Seite ist begrenzt, um Speicherkapazität zu sparen.
+**Gültigkeit der Ressourcen** wird für hochgeladene Ressourcen verwendet, hauptsächlich für die Mirrorseite und Bilder. Die Gültigkeitsdauer der Ressourcen auf dieser Seite ist begrenzt, um Speicherkapazität zu sparen.
 
 ### Verwaltung der Mirrorseite {#mirror}
 
-**Verwaltung der Mirrorseite**
+**Verwaltung der Mirrorseite** enthält vier Optionen:
+
 
 ### Tracking {#tracking}
 
@@ -140,14 +150,14 @@ Gültigkeit von Ressourcen: Das Feld Gültigkeit wird für hochgeladene Ressourc
 **Ersatz-URL für abgelaufene URLs**: TBC
 
 
-## Testeinstellungen{#test-setttings}
+## Testeinstellungen {#test-setttings}
 
-**Doppelte beibehalten**
+**Doppelte beibehalten** ermöglicht die Genehmigung mehrerer Sendungen an Empfänger, die verschiedenen Zielgruppenkriterien entsprechen.
 
 **Adressen auf der Blockierungsliste behalten**
 
-**Quarantäneadressen beibehalten**
+**Quarantäne-Adressen beibehalten** ermöglicht es, alle Profile mit einer Adresse, die nicht reagiert, von der Zielgruppe fernzuhalten.
 
-**Versandcode für den Testversand beibehalten**
+**Versandcode für den Testversand beibehalten** den gleichen Versandcode wie der für den Versand, auf den er sich bezieht, verwenden.
 
-**Titelpräfix**
+Standardmäßig erhält der Betreff des Testversands das Präfix &quot;Proof #&quot;, wobei # die Nummer des Testversands ist. Sie können dieses Präfix im **Titelpräfix** -Feld.
