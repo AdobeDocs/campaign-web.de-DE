@@ -3,10 +3,10 @@ audience: end-user
 title: Erstellen Ihrer ersten E-Mail
 description: Web-Dokumentation zu Campaign v8
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 75d579975023639840f35f673e63aab2a2d3a811
+source-git-commit: 4bc12928a6dac79d09f918a0bc34e3f98d9984d3
 workflow-type: tm+mt
-source-wordcount: '1181'
-ht-degree: 98%
+source-wordcount: '1174'
+ht-degree: 87%
 
 ---
 
@@ -116,9 +116,11 @@ In diesem Anwendungsbeispiel senden wir die E-Mail an eine bereits bestehende Au
 
    >[!NOTE]
    >
-   >Die in der Liste verfügbaren Audiences stammen entweder aus Ihrer Campaign V8-Instanz oder aus Adobe Experience Platform, wenn die Ziel-/Quellen-Integration in Ihrer Instanz implementiert wurde.
+   >Die in der Liste verfügbaren Zielgruppen stammen entweder aus Ihrer Campaign V8-Instanz oder aus Adobe Experience Platform, wenn die Ziel-/Quellen-Integration in Ihrer Instanz konfiguriert wurde.
+   >
+   >Die Ziel-/Quellen-Integration ermöglicht es Ihnen, Experience Platform-Segmente an Adobe Campaign zu senden und Kampagnenversand- und -verfolgungslogs an Adobe Experience Platform zu senden. [Erfahren Sie, wie Sie mit Campaign und Adobe Experience Platform arbeiten.](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html)
 
-1. Nach Auswahl Ihrer Audience können Sie die Regel bei Bedarf bearbeiten.
+1. Nach Auswahl Ihrer Audience können Sie das Ziel mithilfe zusätzlicher Regeln verfeinern.
 
    Sie können auch eine Kontrollgruppe einrichten, um das Verhalten der E-Mail-Empfänger im Vergleich zum Verhalten von Profilen zu analysieren, die nicht angesprochen wurden. [Erfahren Sie, wie Sie mit Kontrollgruppen arbeiten](../audience/control-group.md)
 
@@ -131,7 +133,7 @@ In diesem Anwendungsbeispiel senden wir die E-Mail an eine bereits bestehende Au
 
 Um den Versand der E-Mail zu terminieren, klicken Sie auf **[!UICONTROL Aktivieren]** und geben Sie dann das gewünschte Datum und die gewünschte Uhrzeit für den Versand an.
 
-Standardmäßig ist die Option **[!UICONTROL Vor dem Versand bestätigen]** aktiviert, d. h., Sie müssen den Versand zum angegebenen Zeitpunkt bestätigen, um die E-Mail zu senden. Deaktivieren Sie diese Option, damit die E-Mail zum geplanten Datum und zur geplanten Uhrzeit ohne Bestätigung gesendet werden kann.
+Standardmäßig wird die **[!UICONTROL Vor dem Versand bestätigen]** aktiviert ist, d. h., Sie müssen den Versand bestätigen, damit die E-Mail zum angegebenen Zeitpunkt gesendet werden kann. Deaktivieren Sie diese Option, damit die E-Mail zum geplanten Datum und zur geplanten Uhrzeit ohne Bestätigung gesendet werden kann.
 
 ![](assets/schedule.png)
 
@@ -139,7 +141,7 @@ Standardmäßig ist die Option **[!UICONTROL Vor dem Versand bestätigen]** akti
 
 Sobald Ihre E-Mail fertig ist, können Sie sie in der Vorschau ansehen und testen, bevor Sie den Versand starten.
 
-In diesem Anwendungsbeispiel werden wir die E-Mail mit vorhandenen Profilen in der Vorschau ansehen und einen Testversand an ein Testprofil senden, das nicht Teil der Zielgruppe ist.
+In diesem Anwendungsbeispiel wird die E-Mail in der Vorschau angezeigt und ein Testversand mit vorhandenen Profilen durchgeführt.
 
 Weitere Informationen zum Anzeigen einer Vorschau und zum Testen von E-Mails finden Sie in [diesem Abschnitt](../preview-test/preview-test.md).
 
@@ -161,7 +163,7 @@ Weitere Informationen zum Anzeigen einer Vorschau und zum Testen von E-Mails fin
 
 1. Um Testsendungen Ihrer E-Mail durchzuführen, klicken Sie auf die Schaltfläche **[!UICONTROL Test]** und wählen Sie die Profile aus, die den Testversand erhalten sollen.
 
-   In diesem Beispiel möchten wir die Testsendungen an ein bestimmtes Testprofil senden, bei dem es sich um eine Testadresse handelt, die nicht Teil der Zielgruppe ist. [Erfahren Sie, wie Sie mit Testadressen arbeiten](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses.html?lang=de){target=&quot;_blank&quot;}
+   <!--TO REPLACE WITH SUBSTITUTION PROFILE-->In this example, we want to send the proofs to a specific test profile, which is a seed address that is not part of the target. [Learn how to work with seed addresses](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses.html){target="_blank"}
 
    ![](assets/proof-test-profile.png)
 
