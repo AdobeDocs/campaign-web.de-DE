@@ -3,10 +3,10 @@ audience: end-user
 title: Über die Vorschau und Testsendungen
 description: Web-Dokumentation zu Campaign v8
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
-source-git-commit: 28cada1d6b645bd6f0c365528c9302bf4b03ad65
+source-git-commit: 9c9daba092b69cc7a5c8141cd6a04cd65069fdd2
 workflow-type: tm+mt
-source-wordcount: '120'
-ht-degree: 100%
+source-wordcount: '134'
+ht-degree: 82%
 
 ---
 
@@ -20,7 +20,7 @@ Nachdem der E-Mail-Inhalt definiert wurde, können Sie vor dem Versand prüfen, 
 
 Dazu bietet Adobe Campaign folgende Möglichkeiten:
 
-* [Vorschau des E-Mail-Inhalts und der Personalisierung](#preview) unter Verwendung von Profildaten,
+* [Vorschau des E-Mail-Inhalts und Personalisierung](#preview),
 
 <!--* [Check the email rendering](#rendering) in popular desktop, mobile and web-based clients,-->
 * [Testsendungen](#send-proofs) an bestimmte Empfangende, um die E-Mail zu testen und zu validieren.
@@ -28,3 +28,7 @@ Dazu bietet Adobe Campaign folgende Möglichkeiten:
 Diese Aktionen werden über die Schaltfläche **[!UICONTROL Inhalt simulieren]** durchgeführt, die beim Erstellen des Inhalts Ihrer E-Mail in E-Mail-Designer verfügbar ist:
 
 ![](assets/simulate.png)
+
+>[!NOTE]
+>
+>Die Inhaltsimulation ist auch auf der Übersichtsseite des Versands verfügbar, nachdem Sie auf **[!UICONTROL Überprüfen und Senden]** Schaltfläche.
