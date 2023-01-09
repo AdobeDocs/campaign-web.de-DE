@@ -3,10 +3,10 @@ audience: end-user
 title: Bearbeiten des E-Mail-Inhalts
 description: Web-Dokumentation zu Campaign v8
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-source-git-commit: 2e8f262b684696c0a24319b135a1f855f1c05073
+source-git-commit: 0513687c2299e1cdfbeec7793e2146fc22d80e35
 workflow-type: tm+mt
-source-wordcount: '317'
-ht-degree: 93%
+source-wordcount: '329'
+ht-degree: 79%
 
 ---
 
@@ -36,7 +36,11 @@ ht-degree: 93%
 >
 >Diese Dokumentation wird derzeit erstellt und häufig aktualisiert. Die endgültige Version dieses Inhalts wird im Januar 2023 vorliegen.
 
-Um den Inhalt einer E-Mail zu erstellen, klicken Sie auf die Schaltfläche **[!UICONTROL Inhalt bearbeiten]**. Auf diesem Bildschirm können Sie den Inhalt Ihrer E-Mail definieren und auf E-Mail-Designer zugreifen, um sie zu entwerfen.
+Um den Inhalt einer E-Mail zu erstellen, klicken Sie auf die Schaltfläche **[!UICONTROL Inhalt bearbeiten]** im E-Mail-Erstellungsbildschirm.
+
+![](assets/edit-content.png)
+
+Auf diesem Bildschirm können Sie den Inhalt Ihrer E-Mail definieren und auf E-Mail-Designer zugreifen, um sie zu entwerfen.
 
 ![](assets/content-dashboard.png)
 
@@ -44,7 +48,7 @@ Gehen Sie wie folgt vor, um den Inhalt Ihrer E-Mail zu definieren:
 
 1. Überprüfen Sie die Informationen **[!UICONTROL Name des Absenders]** und **[!UICONTROL E-Mail des Absenders]**. Diese Felder sind schreibgeschützt und werden in der bei der E-Mail-Erstellung ausgewählten E-Mail-Vorlage konfiguriert.
 
-1. Definieren Sie den **[!UICONTROL Betreff]** der E-Mail. Öffnen Sie dazu den Ausdruckseditor, um dessen Inhalt zu definieren und mithilfe verschiedener Attribute und Inhaltsbausteine oder Angebote Personalisierungen hinzuzufügen. [Erfahren Sie, wie Sie Inhalte personalisieren](../personalization/personalize.md)
+1. Definieren Sie den **[!UICONTROL Betreff]** der E-Mail. Geben Sie dazu Ihren Betreff direkt in das dedizierte Feld ein oder öffnen Sie den Ausdruckseditor, um eine Personalisierung mit verschiedenen Attributen und Inhaltsbausteinen oder Angeboten zu definieren. [Erfahren Sie, wie Sie Inhalte personalisieren](../personalization/personalize.md)
 
 1. Wenn Sie Angebote mit Ihrer E-Mail versenden möchten, wählen Sie sie mithilfe der Schaltfläche **[!UICONTROL Angebote]**. Sie können sie dann mithilfe von Personalisierungsfeldern in die E-Mail einfügen. [Erfahren Sie, wie Sie Angebote senden](offers.md)
 
