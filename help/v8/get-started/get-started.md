@@ -3,9 +3,9 @@ audience: end-user
 title: Erste Schritte
 description: Web-Dokumentation zu Campaign v8
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
-source-git-commit: 75d579975023639840f35f673e63aab2a2d3a811
+source-git-commit: b5d0c2538b99aabafd04f6314a8135269c8555c0
 workflow-type: tm+mt
-source-wordcount: '332'
+source-wordcount: '312'
 ht-degree: 100%
 
 ---
@@ -25,11 +25,6 @@ only existing customers
 >id="acw_homepage_card1"
 >title="Erste Schritte"
 >abstract="Entdecken Sie wichtige Funktionen, die Benutzeroberfläche und globale Richtlinien."
-
->[!CONTEXTUALHELP]
->id="acw_homepage_card4"
->title="Erstellen und Verwalten von Aufgaben"
->abstract="Mit Adobe Campaign können Aufgaben erstellt und deren gesamter Lebenszyklus direkt in der Anwendung verwaltet werden."
 
 >[!NOTE]
 >
