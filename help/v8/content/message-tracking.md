@@ -3,10 +3,10 @@ audience: end-user
 title: Verfolgen von Nachrichten
 description: Erfahren Sie, wie Sie Links hinzufügen und gesendete Nachrichten verfolgen können.
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
-source-git-commit: c1fc5bd98969ab43680daf613e4050f9cd2185bf
+source-git-commit: c1d433ba1d12e840c5ae219b319e80c1bcdc7686
 workflow-type: tm+mt
-source-wordcount: '525'
-ht-degree: 100%
+source-wordcount: '568'
+ht-degree: 92%
 
 ---
 
@@ -102,3 +102,8 @@ Der [E-Mail-Designer](create-email-content.md) ermöglicht Ihnen die Verwaltung 
    * **[!UICONTROL Mirror-Seite]**: Diese URL wird als URL der Mirror-Seite behandelt.
    * **[!UICONTROL Nie]**: Das Tracking dieser URL wird nie aktiviert. <!--This information is saved: if the URL appears again in a future message, its tracking is automatically deactivated.-->
 
+1. Hinzufügen einer **[!UICONTROL Kategorie]** zu Ihrem Link zu gruppierten verfolgten Links klicken und **[!UICONTROL Speichern]**.
+
+   ![](assets/message-tracking-edit-a-link_2.png)
+
+1. Öffnen Sie nach dem Versand den Versandbericht. Unter dem **[!UICONTROL Tracking]** Menü, **[!UICONTROL URLs und Clickstreams]** zeigt an, welche URLs aus Ihrem Versand am häufigsten besucht werden. [Weitere Informationen](../reporting/reports.md)
