@@ -3,10 +3,10 @@ audience: end-user
 title: Erweiterte Einstellungen
 description: Web-Dokumentation zu Campaign v8
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: 3c7aa37bb74349e88176f1fc75a26bc52e34c628
+source-git-commit: 60bd1b795a44019929eae2267304e45b1fd570a9
 workflow-type: tm+mt
-source-wordcount: '1077'
-ht-degree: 49%
+source-wordcount: '1241'
+ht-degree: 51%
 
 ---
 
@@ -16,29 +16,13 @@ ht-degree: 49%
 >
 >Diese Dokumentation wird derzeit erstellt und häufig aktualisiert. Die endgültige Version dieses Inhalts wird im Januar 2023 vorliegen.
 
-Bei diesen Einstellungen handelt es sich um technische Versandparameter, die in der E-Mail-Vorlage definiert sind. Wenn Sie einen Versand ändern möchten, ist Vorsicht geboten.
+Diese Einstellungen sind **technische Versandparameter** die in der E-Mail-Vorlage definiert sind. Wenn Sie einen Versand ändern möchten, ist Vorsicht geboten.
 
 ## E-Mail-Versandeinstellungen {#email-delivery-settings}
 
-<!--
-October 2022 
-
-Note that this page is for now a placeholder to host Contextualhelp blocks
-
-Do not delete these blocks 
-
-Documentation on this part is targeted for december 2022
--->
-
-Alle technischen Versandparameter aus der Vorlage.
-
 >[!NOTE]
 >
-> Nur Parameter ändern, keine Erstellung hier. Gemäß Berechtigungen.
-
->[!NOTE]
->
-> Praktikanten sollten dies nicht ändern, Vorsicht. Nur Typologieregel überprüfen und ändern.
+> Nur Einstellungen ändern, keine neue Erstellung erlaubt. Vorbehaltlich der Zugriffsrechte.
 
 ## Typology {#typology}
 
@@ -47,7 +31,7 @@ Alle technischen Versandparameter aus der Vorlage.
 >title="Typology"
 >abstract="Mit der Typologie können Sie den Versand von Nachrichten steuern, filtern und überwachen."
 
-Typologien sind Gruppen von Typologieregeln, die während der Nachrichtenanalyse ausgeführt werden. Damit können Sie sicherstellen, dass Ihre E-Mails immer bestimmte Elemente (z. B. einen Link zur Abmeldung oder eine Betreffzeile) oder Filterregeln enthalten, um Gruppen aus Ihrer beabsichtigten Zielgruppe auszuschließen (z. B. ehemalige Abonnenten, Konkurrenten oder Kunden, die nicht Mitglied im Treueprogramm sind).
+Typologien sind Gruppen von **Typologieregeln**, die während der Nachrichtenanalyse ausgeführt werden. Damit können Sie sicherstellen, dass Ihre E-Mails immer bestimmte Elemente (z. B. einen Link zur Abmeldung oder eine Betreffzeile) oder Filterregeln enthalten, um Gruppen aus Ihrer beabsichtigten Zielgruppe auszuschließen (z. B. ehemalige Abonnenten, Konkurrenten oder Kunden, die nicht Mitglied im Treueprogramm sind).
 
 Wenn Sie eine Typologie mit einer Nachricht oder Nachrichtenvorlage verknüpfen, werden die in der Typologie enthaltenen Typologieregeln ausgeführt, um die Gültigkeit der Nachricht zu überprüfen.
 
@@ -58,15 +42,23 @@ Wenn Sie eine Typologie mit einer Nachricht oder Nachrichtenvorlage verknüpfen,
 >title="Versandgewichtung"
 >abstract="Die Versandgewichtung ermöglicht es Ihnen, im Rahmen der Druckverwaltung diejenigen Sendungen festzulegen, die vorrangig durchgeführt werden sollen. Die Nachrichten mit der höchsten Gewichtung haben Vorrang."
 
-In diesem Abschnitt können Sie mithilfe von Druckparametern eine Schwelle definieren. Dies ist die maximale Anzahl von Nachrichten, die an ein Profil in einem bestimmten Zeitraum gesendet werden können. Sobald diese Schwelle erreicht ist, können keine Sendungen mehr durchgeführt werden, bis der Zeitraum abgelaufen ist. Durch dieses Verfahren kann ein Profil aus einem Versand automatisch ausgeschlossen werden, wenn eine Nachricht die festgelegte Schwelle übersteigt. Dadurch wird verhindert, dass ein Profil zu oft angesprochen wird.
+In diesem Abschnitt können Sie mithilfe von Druckparametern eine **Schwellenwert**. Dies ist die maximale Anzahl von Nachrichten, die an ein Profil in einem bestimmten Zeitraum gesendet werden können. Sobald diese Schwelle erreicht ist, können keine Sendungen mehr durchgeführt werden, bis der Zeitraum abgelaufen ist. Durch dieses Verfahren kann ein Profil aus einem Versand automatisch ausgeschlossen werden, wenn eine Nachricht die festgelegte Schwelle übersteigt. Dadurch wird verhindert, dass ein Profil zu oft angesprochen wird.
 
 Schwellenwerte können konstant oder variabel sein. Das bedeutet, dass unterschiedliche Profile in einem bestimmten Zeitraum unterschiedliche Schwellen aufweisen können oder Schwellen sogar innerhalb desselben Profils variieren können.
 
 Im **Gewichtungstyp** -Feld stehen drei Optionen zur Verfügung: (fehlende Formel je nach Option..)
 
+* **Konstante**
+* **Empfängerabhängig**
+* **Wird in jeder Regel definiert**
+
 Die **Versandgewichtung** field : Jeder Versand hat eine Gewichtung, die seine Priorität darstellt. Standardmäßig ist die Gewichtung eines Versands auf 5 festgelegt. Mithilfe von Druckregeln können Sie die Gewichtung der Sendungen bestimmen, auf die sie angewendet werden. Die Gewichtung kann entweder mithilfe einer Formel festgelegt oder berechnet werden, um sie den Empfängern anzupassen. Sie können beispielsweise die Gewichtung eines Versands auf der Basis der Interessen des Empfängers festlegen.
 
 Die **Versandmodus** Feld. ??
+
+* **Zielgruppenschätzung und Nachrichtenpersonalisierung**
+* **Schätzung und Validierung der geplanten Zielgruppe**
+* **Zielgruppenevaluierung**
 
 ### Kapazitätseinstellungen {#capacity-settings}
 
@@ -85,7 +77,7 @@ In diesem Abschnitt können Sie eine **Zielgruppen-Mapping** definiert in der Ad
 
 ## Versand {#delivery}
 
-**Routing** selection: das externe Konto auswählen....
+**Routing** selection: Das externe Konto Integriertes E-Mail-Routing wird standardmäßig bereitgestellt. Es enthält die technischen Parameter, die es der Anwendung erlauben, E-Mails zu senden.
 
 **SMTP-Versand testen**: Verwenden Sie diese Option, um den Versand per SMTP zu testen. Der Versand wird bis zur Verbindung mit dem SMTP-Server verarbeitet, aber nicht gesendet: Für jeden Empfänger des Versands stellt Campaign eine Verbindung mit dem Server des SMTP-Anbieters her, führt den SMTP-Befehl RCPT TO aus und schließt die Verbindung vor dem SMTP-Befehl DATA.
 
@@ -137,6 +129,11 @@ Sie können alternativ auch ein genaues Ablaufdatum angeben. Kreuzen Sie in dies
 
 **Verwaltung der Mirrorseite** enthält vier Optionen:
 
+* **Mirrorseite erzeugen, wenn im E-Mail-Inhalt ein Mirrorlink angezeigt wird**: Die Mirrorseite wird erzeugt, wenn der Link in den E-Mail-Inhalt eingefügt wird.
+* **Mirrorseitenerzeugung forcieren**: Erstellt eine Mirrorseite, selbst wenn im Versandinhalt kein entsprechender Link enthalten ist.
+* **Keine Mirrorseite erzeugen**: Generiert keine Mirrorseite, selbst wenn in den Nachrichten der entsprechende Link enthalten ist.
+* **Erzeugt eine Mirrorseite, auf die nur die Nachrichtenkennung zugreifen kann**: Diese Option ermöglicht den Zugriff auf den Inhalt der Mirrorseite mit Personalisierungsinformationen im Versandlog-Fenster.
+
 
 ### Tracking {#tracking}
 
@@ -147,14 +144,14 @@ Sie können alternativ auch ein genaues Ablaufdatum angeben. Kreuzen Sie in dies
 
 **Gültigkeitsdauer des Trackings**: Diese Option definiert die Dauer, für die das Tracking in den URLs aktiviert wird.
 
-**Ersatz-URL für abgelaufene URLs**: TBC
+**Ersatz-URL für abgelaufene URLs**: Verwenden Sie diese Option, um eine Fallback-URL für eine Web-Seite einzugeben: Sie wird angezeigt, wenn das Tracking abgelaufen ist.
 
 
 ## Testeinstellungen {#test-setttings}
 
 **Doppelte beibehalten** ermöglicht die Genehmigung mehrerer Sendungen an Empfänger, die verschiedenen Zielgruppenkriterien entsprechen.
 
-**Adressen auf der Blockierungsliste behalten**
+**auf die Blockierungsliste gesetzt Adressen beibehalten** verhindert, dass Profile, die nicht mehr in den Versand eingeschlossen sind, von der Zielgruppe ausgeschlossen werden, z. B. nach einer Abmeldung (Opt-out).
 
 **Quarantäne-Adressen beibehalten** ermöglicht es, alle Profile mit einer Adresse, die nicht reagiert, von der Zielgruppe fernzuhalten.
 
