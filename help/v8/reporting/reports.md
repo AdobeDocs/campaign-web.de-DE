@@ -4,7 +4,7 @@ title: Reporting
 description: Web-Dokumentation zu Campaign v8
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
 source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 100%
 

@@ -4,7 +4,7 @@ title: Testen des E-Mail-Rendering
 description: Web-Dokumentation zu Campaign v8
 exl-id: 5cdbce8b-3969-470d-8019-1edc58433146
 source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 100%
 
