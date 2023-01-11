@@ -6,7 +6,7 @@ exl-id: 167ad4ce-3760-413c-9949-9649245766e3
 source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
 source-wordcount: '540'
-ht-degree: 77%
+ht-degree: 79%
 
 ---
 
@@ -18,7 +18,7 @@ In diesem Abschnitt wird beschrieben, wie Sie beim Entwerfen einer neuen E-Mail 
 
 Mit dem Rule Builder können Sie die Zielgruppe Ihrer Nachricht definieren, indem Sie die in der Datenbank enthaltenen Daten filtern. Informationen zur Auswahl einer bereits bestehenden Audience finden Sie in [diesem Abschnitt](add-audience.md).
 
-Weitere Informationen zum Regel-Builder finden Sie im Abschnitt [Dokumentation zum Segmentierungsdienst](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html).
+Weitere Informationen zum Regel-Builder finden Sie im Abschnitt [Dokumentation zum Segmentierungsdienst](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=de).
 
 Gehen Sie wie folgt vor, um beim Entwerfen einer E-Mail eine neue Audience zu erstellen:
 

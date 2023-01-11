@@ -6,15 +6,15 @@ exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
 source-wordcount: '1222'
-ht-degree: 50%
+ht-degree: 72%
 
 ---
 
-# Erweiterte Parameter {#advanced-settings}
+# Erweiterte Einstellungen {#advanced-settings}
 
 ![](../assets/do-not-localize/badge.png)
 
-Diese Einstellungen sind **technische Versandparameter** die in der E-Mail-Vorlage definiert sind. Wenn Sie einen Versand ändern möchten, ist Vorsicht geboten.
+Diese Einstellungen sind **technische Versandparameter** die in der E-Mail-Vorlage definiert sind. Wenn Sie sie für einen einzelnen Versand ändern möchten, ist Vorsicht geboten.
 
 ## E-Mail-Versandeinstellungen {#email-delivery-settings}
 
@@ -22,14 +22,14 @@ Diese Einstellungen sind **technische Versandparameter** die in der E-Mail-Vorla
 >
 > Nur Einstellungen ändern, keine neue Erstellung erlaubt. Vorbehaltlich der Zugriffsrechte.
 
-## Typology {#typology}
+## Typologie {#typology}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_typology"
->title="Typology"
->abstract="Mit der Typologie können Sie den Versand von Nachrichten steuern, filtern und überwachen."
+>title="Typologie"
+>abstract="Mit einer Typologie können Sie die Durchführung von Sendungen steuern, filtern und überwachen."
 
-Typologien sind Gruppen von **Typologieregeln**, die während der Nachrichtenanalyse ausgeführt werden. Damit können Sie sicherstellen, dass Ihre E-Mails immer bestimmte Elemente (z. B. einen Link zur Abmeldung oder eine Betreffzeile) oder Filterregeln enthalten, um Gruppen aus Ihrer beabsichtigten Zielgruppe auszuschließen (z. B. ehemalige Abonnenten, Konkurrenten oder Kunden, die nicht Mitglied im Treueprogramm sind).
+Typologien sind Gruppen von **Typologieregeln**, die während der Nachrichtenanalyse ausgeführt werden. Damit können Sie sicherstellen, dass Ihre E-Mails immer bestimmte Elemente enthalten (z. B. einen Abmelde-Link oder eine Betreffzeile) oder Filterregeln anwenden, um Gruppen aus Ihrer Zielgruppe auszuschließen (z. B. abgemeldete Abonnenten, Konkurrenten oder Kunden, die nicht Mitglied im Treueprogramm sind).
 
 Wenn Sie eine Typologie mit einer Nachricht oder Nachrichtenvorlage verknüpfen, werden die in der Typologie enthaltenen Typologieregeln ausgeführt, um die Gültigkeit der Nachricht zu überprüfen.
 
@@ -44,7 +44,7 @@ In diesem Abschnitt können Sie mithilfe von Druckparametern eine **Schwellenwer
 
 Schwellenwerte können konstant oder variabel sein. Das bedeutet, dass unterschiedliche Profile in einem bestimmten Zeitraum unterschiedliche Schwellen aufweisen können oder Schwellen sogar innerhalb desselben Profils variieren können.
 
-Im **Gewichtungstyp** -Feld stehen drei Optionen zur Verfügung: (fehlende Formel je nach Option..)
+Im Feld **Gewichtungstyp** stehen drei Optionen zur Verfügung: (fehlende Formel je nach Option..)
 
 * **Konstante**
 * **Empfängerabhängig**
@@ -62,16 +62,16 @@ Die **Versandmodus** Feld. ??
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_recipient_importance"
->title="Wichtigkeit des Empfängers"
->abstract="Die Wichtigkeit des Empfängers ist eine Formel, mit der bestimmt wird, welche Empfänger bei Überschreitung der Typologieregeln beibehalten werden."
+>title="Wichtigkeit des Empfängers bzw. der Empfängerin"
+>abstract="Mit der Wichtigkeit des Empfängers bzw. der Empfängerin wird festgelegt, welche Empfangenden im Falle einer Kapazitätsüberlastung der Typologieregeln beibehalten werden."
 
-In diesem Abschnitt können Sie eine Kapazitätsregel auswählen, die in der Adobe Campaign v8-Konsole definiert ist. Diese Regel ist mit dem E-Mail-Kanal verknüpft.
+In diesem Bereich können Sie eine Kapazitätsregel auswählen, die in der Adobe Campaign v8-Konsole definiert ist. Diese Regel ist mit dem E-Mail-Kanal verknüpft.
 
-Die **Bedeutung des Empfängers** -Feld ist eine Formel, mit der bestimmt wird, welche Empfänger bei Überschreitung der Typologieregeln zur Kapazität beibehalten werden.
+Mit dem Feld **Wichtigkeit des Empfängers** wird festgelegt, welche Empfangenden im Falle einer Kapazitätsüberlastung der Typologieregeln beibehalten werden.
 
 ## Audience {#audience}
 
-In diesem Abschnitt können Sie eine **Zielgruppen-Mapping** definiert in der Adobe Campaign v8-Konsole. Die Zielgruppen-Mapping-Erstellung ist erforderlich, wenn Sie eine andere als die von Adobe Campaign bereitgestellte Empfängertabelle verwenden.
+In diesem Abschnitt können Sie eine **Zielgruppen-Mapping** definiert in der Adobe Campaign v8-Konsole. Die Erstellung eines Zielgruppen-Mappings ist erforderlich, wenn Sie eine andere als die von Adobe Campaign bereitgestellte Empfängertabelle verwenden.
 
 ## Versand {#delivery}
 
@@ -85,16 +85,16 @@ In diesem Abschnitt können Sie eine **Zielgruppen-Mapping** definiert in der Ad
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_retries"
->title="Maximale Anzahl der Wiederholungsversuche"
+>title="Maximale Anzahl der weiteren Zustellversuche"
 >abstract="Wenn die Zustellung einer Nachricht wegen eines vorübergehenden Fehlers fehlschlägt, werden während der Versandlaufzeit weitere Zustellversuche unternommen."
 
-Vorübergehend nicht zugestellte Nachrichten aufgrund eines Softbounce oder eines ignorierten Fehlers werden automatisch erneut versucht. Standardmäßig sind innerhalb der ersten 24 Stunden des Versands fünf erneute Versuche im Abstand von mindestens einer Stunde vorgesehen. An den folgenden Tagen und bis zum Ablauf der Versandgültigkeit, die im Tab Gültigkeit angegeben wird, wird jeweils ein Zustellversuch unternommen.
+Sendungen von vorübergehend nicht zugestellten Nachrichten aufgrund eines Softbounce oder des Ignoriert-Fehlers werden automatisch wiederholt. Standardmäßig sind innerhalb der ersten 24 Stunden des Versands fünf erneute Versuche im Abstand von mindestens einer Stunde vorgesehen. An den folgenden Tagen und bis zum Ablauf der Versandgültigkeit, die in der Registerkarte „Gültigkeit“ angegeben ist, wird jeweils ein erneuter Versuch unternommen.
 
 ## Validierung {#approval}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_approval"
->title="Validierung mode"
+>title="Validierungsmodus"
 >abstract="Jeder Schritt eines Versands kann einer Validierung unterzogen werden, um eine vollständige Überwachung und Kontrolle der verschiedenen Prozesse zu gewährleisten."
 
 **Manuell**: Am Ende der Analysephase muss der Benutzer die Absendung bestätigen, um die Nachrichten abzuschicken.
@@ -109,19 +109,19 @@ Vorübergehend nicht zugestellte Nachrichten aufgrund eines Softbounce oder eine
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_delivery_duration"
 >title="Versandlaufzeit"
->abstract="Im Feld Versandlaufzeit können Sie die Zeitspanne angeben, in der erneute Zustellversuche unternommen werden. Dies bedeutet konkret, dass Adobe Campaign die Nachrichten ab dem Startdatum versendet und bis nach Ablauf der angegebenen Spanne nicht zustellbare Nachrichten in regelmäßigen Abständen erneut sendet."
+>abstract="Im Feld „Versandlaufzeit“ können Sie die Zeitspanne angeben, in der erneute Zustellversuche unternommen werden sollen. Dies bedeutet konkret, dass Adobe Campaign die Nachrichten ab dem Startdatum versendet und bis nach Ablauf der angegebenen Spanne nicht zustellbare Nachrichten in regelmäßigen Abständen erneut sendet."
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_resources_validity"
->title="Ressourcengültigkeit"
->abstract="Das Feld Gültigkeit wird für hochgeladene Ressourcen verwendet, insbesondere für Mirrorseite und Bilder. Die Ressourcen auf dieser Seite sind für eine begrenzte Zeit gültig."
+>title="Gültigkeit von Ressourcen"
+>abstract="Das Feld „Gültigkeit von Ressourcen“ wird für hochgeladene Ressourcen verwendet, hauptsächlich für die Mirrorseite und Bilder. Die Gültigkeitsdauer der Ressourcen auf dieser Seite ist begrenzt."
 
 
 Im Feld **Versandlaufzeit** können Sie die Zeitspanne angeben, in der erneute Zustellversuche unternommen werden. Dies bedeutet konkret, dass Adobe Campaign die Nachrichten ab dem Startdatum versendet und bis nach Ablauf der angegebenen Spanne nicht zustellbare Nachrichten in regelmäßigen Abständen erneut sendet.
 
 Sie können alternativ auch ein genaues Ablaufdatum angeben. Kreuzen Sie in diesem Fall die Option **Gültigkeit explizit festlegen** an. Auf diese Weise kann auch eine bestimmte Uhrzeit konfiguriert werden. Standardmäßig ist dies die aktuelle Uhrzeit. Diese kann jedoch direkt im Eingabefeld angepasst werden.
 
-**Gültigkeit der Ressourcen** wird für hochgeladene Ressourcen verwendet, hauptsächlich für die Mirrorseite und Bilder. Die Gültigkeitsdauer der Ressourcen auf dieser Seite ist begrenzt, um Speicherkapazität zu sparen.
+**Gültigkeit der Ressourcen** wird für hochgeladene Ressourcen verwendet, hauptsächlich für die Mirrorseite und Bilder. Die Gültigkeitsdauer von Ressourcen auf dieser Seite ist begrenzt, um Speicherkapazität zu sparen.
 
 ### Verwaltung der Mirrorseite {#mirror}
 
@@ -138,16 +138,16 @@ Sie können alternativ auch ein genaues Ablaufdatum angeben. Kreuzen Sie in dies
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_tracking_validity"
 >title="Gültigkeitszeitraum"
->abstract="Diese Option definiert die Dauer, für die das Tracking in den URLs aktiviert wird."
+>abstract="Diese Option definiert die Dauer, für die das Tracking in den URLs aktiv sein soll."
 
-**Gültigkeitsdauer des Trackings**: Diese Option definiert die Dauer, für die das Tracking in den URLs aktiviert wird.
+**Ablaufdatum des Trackings**: Diese Option definiert die Dauer, für die das Tracking in den URLs aktiv sein soll.
 
 **Ersatz-URL für abgelaufene URLs**: Verwenden Sie diese Option, um eine Fallback-URL für eine Web-Seite einzugeben: Sie wird angezeigt, wenn das Tracking abgelaufen ist.
 
 
 ## Testeinstellungen {#test-setttings}
 
-**Doppelte beibehalten** ermöglicht die Genehmigung mehrerer Sendungen an Empfänger, die verschiedenen Zielgruppenkriterien entsprechen.
+**Dublette beibehalten** ermöglicht die Genehmigung mehrerer Sendungen an Empfänger, die verschiedenen Zielgruppenkriterien entsprechen.
 
 **auf die Blockierungsliste gesetzt Adressen beibehalten** verhindert, dass Profile, die nicht mehr in den Versand eingeschlossen sind, von der Zielgruppe ausgeschlossen werden, z. B. nach einer Abmeldung (Opt-out).
 

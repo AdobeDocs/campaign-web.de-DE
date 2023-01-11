@@ -1,16 +1,16 @@
 ---
-keywords: Campaign Web;home;popular topics
-description: Campaign Web v8-Hilfecenter
-title: Produktdokumentation zu Adobe Campaign Web v8
+keywords: Campaign Web;Startseite;beliebte Themen
+description: Hilfe-Center zu Campaign Web v8
+title: Produkt-Dokumentation zu Adobe Campaign Web v8
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
 source-wordcount: '53'
-ht-degree: 45%
+ht-degree: 84%
 
 ---
 
-# Adobe Campaign v8-Webdokumentation {#campaign-documentation}
+# Dokumentation zu Adobe Campaign v8 Web {#campaign-documentation}
 
 ![](assets/do-not-localize/banner-documentationv8.png)
 
