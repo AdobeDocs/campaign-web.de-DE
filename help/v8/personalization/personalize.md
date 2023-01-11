@@ -1,15 +1,15 @@
 ---
 title: Personalisieren von Inhalten in Journey Optimizer
-description: Erste Schritte mit der Personalisierung.
+description: Erste Schritte mit der Personalisierung
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
 source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '130'
-ht-degree: 3%
+ht-degree: 100%
 
 ---
 
@@ -22,28 +22,28 @@ ht-degree: 3%
 >Screenshots sind nicht aktuell.
 
 
-## E-Mails personalisieren {#personalize-emails}
+## Personalisieren von E-Mails {#personalize-emails}
 
-Wenn Sie eine E-Mail erstellen, können Sie Personalisierung im **[!UICONTROL Betreff]** -Feld der Nachricht ein.
+Wenn Sie eine E-Mail erstellen, können Sie im Feld **[!UICONTROL Betreffzeile]** der Nachricht eine Personalisierung hinzufügen.
 
 ![](assets/perso_subject.png)
 
-Im Email Designer können Sie den Inhalt personalisieren:
+In E-Mail-Designer können Sie den Inhalt personalisieren:
 
-* Im **message**: Klicken Sie in einen Textblock und klicken Sie auf das **Personalisieren** in der dedizierten Symbolleiste und wählen Sie **Personalisierung einfügen** -Feld.
+* In der **Nachricht**: Klicken Sie in einen Textbaustein und in der kontextuellen Symbolleiste auf das **Personalisierungssymbol** und wählen Sie danach das Feld **Personalisierung einfügen** aus.
 
    ![](assets/perso_insert.png)
 
-* Für **link**: Text oder Bild in einem Textblock auswählen, klicken Sie auf das **Link einfügen** in der dedizierten Symbolleiste. Im Fenster können Sie einen Gestaltungsbaustein hinzufügen, indem Sie auf die Schaltfläche **Personalisierung hinzufügen** Symbol.
+* Für einen **Link**: Wählen Sie in einem Textblock Text oder ein Bild aus und klicken Sie in der kontextuellen Symbolleiste auf das Symbol **Link einfügen**. Im Fenster können Sie einen Gestaltungsbaustein hinzufügen, indem Sie auf das Symbol **Personalisierung hinzufügen** klicken.
 
    ![](assets/perso_link.png)
 
-In beiden Fällen greifen Sie auf den Personalisierungs-Editor zu.
+In beiden Fällen verwenden Sie den Personalisierungseditor.
 
 ![](assets/perso_ee.png)
 
-## Angebote personalisieren {#personalize-offers}
+## Personalisieren von Angeboten {#personalize-offers}
 
-Sie können auch auf den Personalisierungs-Editor zugreifen, wenn Sie den Darstellungen Ihrer Angebote Textinhalte hinzufügen.
+Sie können auch den Personalisierungseditor nutzen, wenn Sie den Darstellungen Ihrer Angebote Textinhalte hinzufügen.
 
 
