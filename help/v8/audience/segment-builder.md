@@ -3,14 +3,14 @@ audience: end-user
 title: Arbeiten mit dem Segment Builder
 description: Web-Dokumentation zu Campaign v8
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
-source-git-commit: bf55b13011f7d2bdafcc55b1b2539c4ce590dd85
+source-git-commit: e5a2f07dd4904813c5f848b0303b5da89e633835
 workflow-type: tm+mt
-source-wordcount: '505'
-ht-degree: 98%
+source-wordcount: '559'
+ht-degree: 78%
 
 ---
 
-# Arbeiten mit dem Segment Builder {#segment-builder}
+# Definieren einer Zielgruppe mit dem Regel-Builder {#segment-builder}
 
 >[!NOTE]
 >
@@ -18,9 +18,9 @@ ht-degree: 98%
 
 In diesem Abschnitt wird beschrieben, wie Sie beim Entwerfen einer neuen E-Mail eine Audience erstellen. Die erstellte Audience kann nur in dieser E-Mail verwendet werden.
 
-Mit Segment Builder können Sie die Audience Ihrer Nachricht definieren, indem Sie in der Adobe Campaign-Datenbank enthaltene Daten filtern. Informationen zur Auswahl einer bereits bestehenden Audience finden Sie in [diesem Abschnitt](add-audience.md).
+Mit dem Rule Builder können Sie die Zielgruppe Ihrer Nachricht definieren, indem Sie die in der Datenbank enthaltenen Daten filtern. Informationen zur Auswahl einer bereits bestehenden Audience finden Sie in [diesem Abschnitt](add-audience.md).
 
-Weitere Informationen zum Segment Builder finden Sie in der [Dokumentation zum Segmentierungs-Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html).
+Weitere Informationen zum Regel-Builder finden Sie im Abschnitt [Dokumentation zum Segmentierungsdienst](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html).
 
 Gehen Sie wie folgt vor, um beim Entwerfen einer E-Mail eine neue Audience zu erstellen:
 
@@ -28,7 +28,7 @@ Gehen Sie wie folgt vor, um beim Entwerfen einer E-Mail eine neue Audience zu er
 
    ![](assets/segment-builder0.png)
 
-1. Wählen Sie **Eigene erstellen** aus. Der Segment Builder wird angezeigt.
+1. Wählen Sie **Eigene erstellen** aus. Der Regel-Builder wird angezeigt.
 
    ![](assets/segment-builder.png)
 
@@ -40,9 +40,13 @@ Die Palette auf der linken Seite enthält alle Elemente, nach denen Sie filtern 
 
    ![](assets/segment-builder2.png){width="70%" align="left"}
 
-* **Audiences**: In dieser Registerkarte können Sie mithilfe der in der Campaign Classic-Konsole definierten bestehenden Audiences filtern.
+* **Zielgruppen**: Auf diesem Tab können Sie nach einer der in der Campaign Classic-Konsole oder in Adobe Experience Platform definierten Zielgruppen filtern.
 
    ![](assets/segment-builder3.png){width="70%" align="left"}
+
+   >[!NOTE]
+   >
+   >Um Adobe Experience Platform-Zielgruppen zu nutzen, müssen Sie die Integration mit Zielen konfigurieren. Siehe Abschnitt [Dokumentation zu Zielen](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=de).
 
 Sie können die Suchleiste verwenden, um Elemente schnell zu finden.
 
@@ -87,7 +91,7 @@ In diesem Beispiel erstellen wir eine Audience, um alle Kunden anzusprechen, die
 
    ![](assets/segment-builder10.png)
 
-1. Klicken Sie auf **Ergebnisse anzeigen**, um die Liste und die Anzahl der Empfänger anzuzeigen, die der Abfrage entsprechen.
+1. Klicken Sie auf **Ergebnisse anzeigen**, um die Liste und die Anzahl der Empfänger anzuzeigen, die der Abfrage entsprechen. Sie können auch Spalten hinzufügen, um die Daten zu visualisieren und zu überprüfen. Fügen Sie in unserem Beispiel die **Ort** und sollte Atlanta und Seattle sehen.
 
    ![](assets/segment-builder11.png)
 

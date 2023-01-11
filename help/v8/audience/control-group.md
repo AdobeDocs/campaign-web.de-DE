@@ -3,10 +3,10 @@ audience: end-user
 title: Einrichten einer Kontrollgruppe
 description: Web-Dokumentation zu Campaign v8
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
-source-git-commit: bc076bb4c841dd8e259ac007ecef8e3cb496a08d
+source-git-commit: e5a2f07dd4904813c5f848b0303b5da89e633835
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 100%
+source-wordcount: '463'
+ht-degree: 94%
 
 ---
 
@@ -50,7 +50,7 @@ Wählen Sie im Abschnitt **Aus Zielgruppe extrahieren** einen **Ausschlusstyp**:
 
    ![](assets/control-group.png)
 
-* **Nach Attribut(en) sortiert**: Mit dieser Option können Sie eine Einschränkung festlegen, die auf einer oder mehreren Sortierreihenfolgen basiert.
+* **Nach Attribut(en) sortiert**: Mit dieser Option können Sie eine Gruppe von Profilen ausschließen, die auf bestimmten Attributen in einer bestimmten Sortierreihenfolge basieren.
 
    ![](assets/control-group2.png)
 
