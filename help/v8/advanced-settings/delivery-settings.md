@@ -3,20 +3,16 @@ audience: end-user
 title: Erweiterte Einstellungen
 description: Web-Dokumentation zu Campaign v8
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: 96d5ee712131ba314ef25736e421efe436d5170a
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '1241'
-ht-degree: 51%
+source-wordcount: '1222'
+ht-degree: 50%
 
 ---
 
 # Erweiterte Parameter {#advanced-settings}
 
 ![](../assets/do-not-localize/badge.png)
-
->[!NOTE]
->
->Diese Dokumentation wird derzeit erstellt und häufig aktualisiert. Die endgültige Version dieses Inhalts wird im Januar 2023 vorliegen.
 
 Diese Einstellungen sind **technische Versandparameter** die in der E-Mail-Vorlage definiert sind. Wenn Sie einen Versand ändern möchten, ist Vorsicht geboten.
 

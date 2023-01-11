@@ -3,18 +3,16 @@ audience: end-user
 title: Erstellen Ihrer ersten E-Mail
 description: Web-Dokumentation zu Campaign v8
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 6d678442c0fe396f45a635c60837932f424d0763
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '1174'
+source-wordcount: '1155'
 ht-degree: 84%
 
 ---
 
 # Senden Ihrer ersten E-Mail {#first-email}
 
->[!NOTE]
->
->Diese Dokumentation wird derzeit erstellt und häufig aktualisiert. Die endgültige Version dieses Inhalts wird im Januar 2023 vorliegen.
+![](../assets/do-not-localize/badge.png)
 
 In diesem Anwendungsbeispiel wird gezeigt, wie Sie Ihre erste E-Mail erstellen. Wir planen den Versand einer E-Mail zu einem bestimmten Datum an Kunden der Treuestufen Silber und Gold. Diese E-Mail wird mit einer vordefinierten Vorlage erstellt und umfasst eine Personalisierung anhand der Profilattribute.
 

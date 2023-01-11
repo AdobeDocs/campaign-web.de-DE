@@ -3,18 +3,16 @@ audience: end-user
 product: campaign
 title: Arbeiten mit E-Mail-Vorlagen
 exl-id: 114c482f-8291-418a-bd81-667f40267a7d
-source-git-commit: a493777bea8b9139f2e3570a5ec9c3086f1d023f
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '197'
-ht-degree: 16%
+source-wordcount: '178'
+ht-degree: 7%
 
 ---
 
 # Arbeiten mit E-Mail-Inhaltsvorlagen {#email-content-templates}
 
->[!NOTE]
->
->Diese Dokumentation wird derzeit erstellt und häufig aktualisiert. Die endgültige Version dieses Inhalts wird im Januar 2023 vorliegen.
+![](../assets/do-not-localize/badge.png)
 
 Verwenden Sie die **[!UICONTROL Designvorlage auswählen]** -Abschnitt, um Ihren Inhalt aus einer Vorlage zu erstellen.
 

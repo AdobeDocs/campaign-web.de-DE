@@ -3,18 +3,16 @@ audience: end-user
 title: Hinzufügen eines Preheaders in Email Designer
 description: Erfahren Sie, wie Sie E-Mail-Inhalte erstellen
 exl-id: 8513b069-7155-45ac-8c98-38576c9ddeda
-source-git-commit: bf55b13011f7d2bdafcc55b1b2539c4ce590dd85
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '229'
+source-wordcount: '210'
 ht-degree: 96%
 
 ---
 
 # Hinzufügen eines Preheaders {#preheader}
 
->[!NOTE]
->
->Diese Dokumentation wird derzeit erstellt und häufig aktualisiert. Die endgültige Version dieses Inhalts wird im Januar 2023 vorliegen.
+![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_preheader"

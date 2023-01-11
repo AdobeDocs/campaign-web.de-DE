@@ -3,23 +3,21 @@ audience: end-user
 title: Hinzufügen einer Audience
 description: Web-Dokumentation zu Campaign v8
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
-source-git-commit: 6d678442c0fe396f45a635c60837932f424d0763
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '259'
-ht-degree: 86%
+source-wordcount: '240'
+ht-degree: 85%
 
 ---
 
 # Auswählen einer Audience {#add-audience}
 
+![](../assets/do-not-localize/badge.png)
+
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience_select"
 >title="Auswählen einer bestehenden Audience"
 >abstract="Die Audiences werden in der Adobe Campaign v8-Konsole definiert. Wenn Sie über eine Adobe Experience Platform-Integration verfügen, sollten Sie auch in Platform definierte Audiences anzeigen können."
-
->[!NOTE]
->
->Diese Dokumentation wird derzeit erstellt und häufig aktualisiert. Die endgültige Version dieses Inhalts wird im Januar 2023 vorliegen.
 
 In diesem Abschnitt wird beschrieben, wie Sie bei der Definition der Zielgruppe eines E-Mail-Versands eine bestehende Audience auswählen. Weiterführende Informationen zur Erstellung einer neuen Audience finden Sie in [diesem Abschnitt](segment-builder.md).
 

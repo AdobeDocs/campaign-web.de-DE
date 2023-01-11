@@ -3,18 +3,16 @@ audience: end-user
 title: Erste Schritte
 description: Web-Dokumentation zu Campaign v8
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
-source-git-commit: db197206700d3d3973d9cad459aa2f56ab76f213
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '332'
-ht-degree: 72%
+source-wordcount: '313'
+ht-degree: 70%
 
 ---
 
 # Erste Schritte {#get-started}
 
->[!NOTE]
->
->Diese Dokumentation wird derzeit erstellt und häufig aktualisiert. Die endgültige Version dieses Inhalts wird im Januar 2023 vorliegen.
+![](../assets/do-not-localize/badge.png)
 
 <!--
 V8 web overview

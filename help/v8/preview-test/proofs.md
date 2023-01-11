@@ -3,18 +3,16 @@ audience: end-user
 title: Durchführen eines Testversands
 description: Web-Dokumentation zu Campaign v8
 exl-id: b2677579-c95d-443d-b207-466af364c208
-source-git-commit: 9c9daba092b69cc7a5c8141cd6a04cd65069fdd2
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 80%
+source-wordcount: '378'
+ht-degree: 79%
 
 ---
 
 # Durchführen eines Testversands {#send-proofs}
 
->[!NOTE]
->
->Diese Dokumentation wird derzeit erstellt und häufig aktualisiert. Die endgültige Version dieses Inhalts wird im Januar 2023 vorliegen.
+![](../assets/do-not-localize/badge.png)
 
 Durch den Versand von Test-E-Mails können Sie Ihre E-Mail validieren und verschiedene Elemente wie Links, Ausschluss-Links und Mirrorseiten sowie Bilder überprüfen und mögliche Fehler erkennen.
 

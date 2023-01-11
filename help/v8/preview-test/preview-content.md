@@ -3,23 +3,21 @@ audience: end-user
 title: Vorschau von E-Mail-Inhalten
 description: Web-Dokumentation zu Campaign v8
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
-source-git-commit: b5d0c2538b99aabafd04f6314a8135269c8555c0
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '238'
-ht-degree: 73%
+source-wordcount: '219'
+ht-degree: 70%
 
 ---
 
 # Vorschau von E-Mail-Inhalten {#preview}
 
+![](../assets/do-not-localize/badge.png)
+
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card4"
 >title="Intelligente Vorschau Ihres Inhalts"
 >abstract="Mit Adobe Campaign können Sie Profile verwenden, um vor dem Versand eine Vorschau des Inhalts Ihrer E-Mail anzuzeigen und so die Personalisierung und die Darstellung Ihrer Empfänger zu überprüfen."
-
->[!NOTE]
->
->Diese Dokumentation wird derzeit erstellt und häufig aktualisiert. Die endgültige Version dieses Inhalts wird im Januar 2023 vorliegen.
 
 Mit Adobe Campaign können Sie Profile verwenden, um vor dem Versand eine Vorschau des Inhalts Ihrer E-Mail anzuzeigen und so die Personalisierung zu überprüfen und zu sehen, wie sie Ihren Empfängern angezeigt wird.
 

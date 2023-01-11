@@ -3,14 +3,16 @@ audience: end-user
 title: Senden von Angeboten
 description: Senden von Angeboten
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
-source-git-commit: db197206700d3d3973d9cad459aa2f56ab76f213
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '527'
+source-wordcount: '508'
 ht-degree: 94%
 
 ---
 
 # Senden von Angeboten {#offers-content}
+
+![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_offers_settings"
@@ -21,10 +23,6 @@ ht-degree: 94%
 >id="acw_deliveries_email_offers_advanced_settings"
 >title="Erweiterte Einstellungen für Angebote"
 >abstract="TBC"
-
->[!NOTE]
->
->Diese Dokumentation wird derzeit erstellt und häufig aktualisiert. Die endgültige Version dieses Inhalts wird im Januar 2023 vorliegen.
 
 Mit Adobe Campaign v8 Web können Sie mit Ihren E-Mail-Angeboten, die in der Konsole mit der **[!UICONTROL Interaction]** -Modul. Weiterführende Informationen zu Interaction und zur Verwaltung eines Angebotskatalogs in der Konsole finden Sie im Abschnitt [Dokumentation zu Campaign V8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html).
 

@@ -3,18 +3,16 @@ audience: end-user
 title: Hinzufügen von Inline-Styling-Attributen
 description: Erfahren Sie, wie Sie Inline-Styling-Attribute hinzufügen
 exl-id: 856e144a-cfd4-4931-86c9-0c1793ae399d
-source-git-commit: aef03e727f751c25df48c29fcbc9bd553af08357
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '148'
+source-wordcount: '129'
 ht-degree: 100%
 
 ---
 
 # Hinzufügen von Inline-Styling-Attributen {#adding-inline-styling-attributes}
 
->[!NOTE]
->
->Diese Dokumentation wird derzeit erstellt und häufig aktualisiert. Die endgültige Version dieses Inhalts wird im Januar 2023 vorliegen.
+![](../assets/do-not-localize/badge.png)
 
 Wenn Sie in der Benutzeroberfläche von E-Mail-Designer ein Element auswählen und im rechten Bereich dessen Einstellungen anzeigen, können Sie für dieses Element die Inline-Attribute und deren Werte ändern.
 

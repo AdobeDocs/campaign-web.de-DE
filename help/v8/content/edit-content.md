@@ -3,14 +3,16 @@ audience: end-user
 title: Bearbeiten des E-Mail-Inhalts
 description: Web-Dokumentation zu Campaign v8
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-source-git-commit: 0513687c2299e1cdfbeec7793e2146fc22d80e35
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '329'
-ht-degree: 79%
+source-wordcount: '310'
+ht-degree: 77%
 
 ---
 
 # Bearbeiten des E-Mail-Inhalts {#configure-content}
+
+![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_content"
@@ -31,10 +33,6 @@ ht-degree: 79%
 >id="acw_deliveries_email_options"
 >title="Tracking-Optionen"
 >abstract="TBC"
-
->[!NOTE]
->
->Diese Dokumentation wird derzeit erstellt und häufig aktualisiert. Die endgültige Version dieses Inhalts wird im Januar 2023 vorliegen.
 
 Um den Inhalt einer E-Mail zu erstellen, klicken Sie auf die Schaltfläche **[!UICONTROL Inhalt bearbeiten]** im E-Mail-Erstellungsbildschirm.
 

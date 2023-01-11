@@ -3,18 +3,16 @@ audience: end-user
 title: Verwenden der Inhaltskomponenten von E-Mail-Designer
 description: Erfahren Sie, wie Sie Inhaltskomponenten in E-Mails verwenden
 exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
-source-git-commit: 5f4d5e69415dc26baab5780e96088e22172fe35e
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '1104'
+source-wordcount: '1085'
 ht-degree: 100%
 
 ---
 
 # Verwenden der Inhaltskomponenten von E-Mail-Designer {#content-components}
 
->[!NOTE]
->
->Diese Dokumentation wird derzeit erstellt und häufig aktualisiert. Die endgültige Version dieses Inhalts wird im Januar 2023 vorliegen.
+![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_email"

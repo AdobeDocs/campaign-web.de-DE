@@ -3,18 +3,16 @@ audience: end-user
 title: Anpassen der vertikalen Ausrichtung und des Abstands in Email Designer
 description: Erfahren Sie, wie Sie die senkrechte Ausrichtung und den Abstand anpassen.
 exl-id: 32e613e4-60ce-43b4-90a6-794af0e3976b
-source-git-commit: bf55b13011f7d2bdafcc55b1b2539c4ce590dd85
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '171'
 ht-degree: 95%
 
 ---
 
 # Anpassen der senkrechten Ausrichtung und des Abstands {#alignment-and-padding}
 
->[!NOTE]
->
->Diese Dokumentation wird derzeit erstellt und häufig aktualisiert. Die endgültige Version dieses Inhalts wird im Januar 2023 vorliegen.
+![](../assets/do-not-localize/badge.png)
 
 In diesem Beispiel passen wir den Abstand und die senkrechte Ausrichtung innerhalb einer Strukturkomponente an, die aus drei Spalten besteht.
 

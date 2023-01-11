@@ -3,18 +3,16 @@ audience: end-user
 title: E-Mails in Email Designer erstellen
 description: Erfahren Sie, wie Sie Ihre E-Mail-Inhalte von Grund auf neu gestalten
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
-source-git-commit: 557a02dc8d24676c5678b2a5d9fc8eef7c228e9f
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '508'
+ht-degree: 92%
 
 ---
 
 # Beginnen von Grund auf {#create-email-content}
 
->[!NOTE]
->
->Diese Dokumentation wird derzeit erstellt und häufig aktualisiert. Die endgültige Version dieses Inhalts wird im Januar 2023 vorliegen.
+![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_email"

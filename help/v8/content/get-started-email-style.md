@@ -3,18 +3,16 @@ audience: end-user
 title: Erste Schritte mit E-Mail-Stil
 description: Hier erfahren Sie, wie Sie den Inhaltsstil Ihrer E-Mail anpassen können.
 exl-id: e0489dcc-32d9-4bee-8562-36a96e64e20b
-source-git-commit: 6e658c6a2c4f49135ffa6bb4ef0eb39086b1623a
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '115'
 ht-degree: 100%
 
 ---
 
 # Erste Schritte mit E-Mail-Stil {#get-started-email-style}
 
->[!NOTE]
->
->Diese Dokumentation wird derzeit erstellt und häufig aktualisiert. Die endgültige Version dieses Inhalts wird im Januar 2023 vorliegen.
+![](../assets/do-not-localize/badge.png)
 
 Sobald Sie mit der Erstellung Ihres E-Mail-Inhalts in [!DNL Journey Optimizer] begonnen haben, können Sie eine Reihe von Stilparametern und Attributen im Einstellungsbereich von E-Mail-Designer anpassen.
 
