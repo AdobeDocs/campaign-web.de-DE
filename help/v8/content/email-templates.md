@@ -4,9 +4,9 @@ product: campaign
 title: Arbeiten mit E-Mail-Vorlagen
 exl-id: 114c482f-8291-418a-bd81-667f40267a7d
 source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '178'
-ht-degree: 7%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 7%
 
 ![](../assets/do-not-localize/badge.png)
 
-Verwenden Sie die **[!UICONTROL Designvorlage auswählen]** -Abschnitt, um Ihren Inhalt aus einer Vorlage zu erstellen.
+Im Bereich **[!UICONTROL Design-Vorlage auswählen]** können Sie Inhalte mithilfe einer Vorlage erstellen.
 
 ![](assets/email_designer-templates.png)
 
@@ -22,9 +22,9 @@ Verwenden Sie die **[!UICONTROL Designvorlage auswählen]** -Abschnitt, um Ihren
 
 Nachdem Sie Ihren E-Mail-Inhalt entworfen haben, können Sie ihn zur späteren Wiederverwendung speichern. Gehen Sie dazu wie folgt vor:
 
-1. Klicken Sie oben rechts im Bildschirm auf das Auslassungszeichen.
+1. Klicken Sie oben rechts im Bildschirm auf die Auslassungspunkte.
 
-1. Auswählen **[!UICONTROL Speichern von Designvorlagen]** aus dem Dropdown-Menü.
+1. Wählen Sie Dropdown-Menü **[!UICONTROL Design-Vorlage speichern]** aus.
 
    ![](assets/email_designer-save-template.png)
 
@@ -34,28 +34,28 @@ Nachdem Sie Ihren E-Mail-Inhalt entworfen haben, können Sie ihn zur späteren W
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
-Wenn Sie das nächste Mal eine E-Mail erstellen, können Sie diese Vorlage verwenden, um Ihren Inhalt zu erstellen. [Weitere Informationen](#use-saved-template)
+Wenn Sie das nächste Mal eine E-Mail erstellen, können Sie diese Vorlage verwenden, um Ihren Inhalt zusammenzustellen. [Weitere Informationen](#use-saved-template)
 
 ![](assets/email_designer-saved-template.png)
 
 ## Verwenden einer gespeicherten Vorlage {#use-saved-template}
 
-1. Öffnen Sie die [Email Designer](create-email-content.md).
+1. Öffnen Sie [E-Mail-Designer](create-email-content.md).
 
-1. Im **[!UICONTROL E-Mail-Bildschirm erstellen]**, die **[!UICONTROL Beispielvorlagen]** ist standardmäßig ausgewählt. Wählen Sie die **[!UICONTROL Gespeicherte Vorlagen]** Registerkarte.
+1. Im Bildschirm zum **[!UICONTROL Erstellen einer E-Mail]** ist die Registerkarte **[!UICONTROL Beispielvorlagen]** standardmäßig ausgewählt. Wählen Sie die Registerkarte **[!UICONTROL Gespeicherte Vorlagen]** aus.
 
    ![](assets/email_designer-saved-templates-tab.png)
 
-1. Die Liste aller zuvor [gespeicherte Vorlagen](#save-as-template) angezeigt. Sie können sie sortieren **[!UICONTROL Nach Name]**, **[!UICONTROL Zuletzt geändert]** und **[!UICONTROL Zuletzt erstellt]**.
+1. Die Liste aller zuvor [gespeicherten Vorlagen](#save-as-template) wird angezeigt. Sie können sie nach **[!UICONTROL Namen]**, **[!UICONTROL Zuletzt geändert]** und **[!UICONTROL Zuletzt erstellt]** sortieren.
 
    ![](assets/email_designer-saved-templates.png)
 
 1. Wählen Sie aus der Liste die gewünschte Vorlage aus.
 
-1. Nach der Auswahl können Sie mithilfe der Rechts- und Linkspfeile zwischen allen gespeicherten Vorlagen navigieren.
+1. Nachdem Sie eine Vorlage ausgewählt haben, können Sie mit den Rechts- und Links-Pfeiltasten zwischen allen gespeicherten Vorlagen navigieren.
 
    ![](assets/email_designer-saved-templates-navigate.png)
 
-1. Klicken **[!UICONTROL Verwenden dieser E-Mail]** oben rechts auf dem Bildschirm.
+1. Klicken Sie oben rechts auf dem Bildschirm auf **[!UICONTROL Diese E-Mail verwenden]**.
 
-1. Bearbeiten Sie den Inhalt nach Bedarf mit dem E-Mail-Designer.
+1. Bearbeiten Sie Ihren Inhalt wie gewünscht mit E-Mail-Designer.
