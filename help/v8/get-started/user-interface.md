@@ -3,10 +3,10 @@ audience: end-user
 title: Entdecken Sie die Benutzeroberfläche
 description: Web-Benutzeroberfläche von Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: e14dd2984756cc8cd30de1a44f7d7b3af2ae7f49
+source-git-commit: db197206700d3d3973d9cad459aa2f56ab76f213
 workflow-type: tm+mt
 source-wordcount: '1172'
-ht-degree: 60%
+ht-degree: 55%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 60%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learnmore"
 >title="Schnittstelle"
->abstract="Die neue Web-Benutzeroberfläche von Campaign v8 bietet ein integriertes, intuitives und konsistentes Benutzererlebnis."
+>abstract="Die neue Campaign v8-Webschnittstelle bietet ein integriertes, intuitives und konsistentes Benutzererlebnis."
 
-Die neue Campaign v8-Webschnittstelle bietet ein modernes und intuitives Benutzererlebnis, um die Erstellung und Bereitstellung von Marketing-Kampagnen zu vereinfachen. Diese neue Benutzeroberfläche ist in Adobe Experience Platform integriert.
+Die neue Campaign v8-Webschnittstelle bietet ein modernes und intuitives Benutzererlebnis, um die Erstellung und Bereitstellung von Marketingkampagnen zu vereinfachen. Diese neue Benutzeroberfläche ist in Adobe Experience Platform integriert.
 
 <!--
 Key concepts when browsing the user interface are common with Adobe Experience Platform. Refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html#adobe-experience-platform-ui-guide) for more details.
@@ -39,7 +39,7 @@ Key concepts when browsing the user interface are common with Adobe Experience P
 
 ## Linkes Navigationsmenü
 
-Mithilfe der Links auf der linken Seite können Sie auf die Web-Funktionen von Campaign v8 zuzugreifen. Mehrere Links zeigen Listen von Objekten an, die sortiert und gefiltert werden können. Sie können auch Spalten so konfigurieren, dass alle benötigten Informationen angezeigt werden. Weitere Informationen finden Sie in [diesem Abschnitt](#list-screens). Alle Listenbildschirme mit Ausnahme der E-Mail-Versandliste sind schreibgeschützt. Das Klicken auf ein Listenelement zur Bearbeitung/Anzeige ist in Alpha nicht verfügbar. Alle Listen können in Beta- und GA-Versionen bearbeitet werden. Die im linken Navigationsmenü angezeigten Elemente hängen von Ihren Benutzerberechtigungen ab.
+Klicken Sie auf die Links auf der linken Seite, um auf die Web-Funktionen von Campaign v8 zuzugreifen. Mehrere Links zeigen Listen von Objekten an, die sortiert und gefiltert werden können. Sie können auch Spalten so konfigurieren, dass alle benötigten Informationen angezeigt werden. Weitere Informationen finden Sie in [diesem Abschnitt](#list-screens). Alle Listenbildschirme mit Ausnahme der E-Mail-Versandliste sind schreibgeschützt. Das Klicken auf ein Listenelement zur Bearbeitung/Anzeige ist in Alpha nicht verfügbar. Alle Listen können in Beta- und GA-Versionen bearbeitet werden. Die im linken Navigationsmenü angezeigten Elemente hängen von Ihren Benutzerberechtigungen ab.
 
 ![](assets/home.png)
 
@@ -54,7 +54,7 @@ Dieser Bildschirm enthält wichtige Links und Ressourcen für einen schnellen Zu
 * Learning cards
 -->
 
-Rufen Sie wichtige Hilfeseiten zu Campaign v8 Web über den unteren Abschnitt der Startseite auf.
+Greifen Sie über den unteren Bereich der Startseite auf die Hilfeseiten für den Web-Schlüssel von Campaign v8 zu.
 
 <!--
 show global KPIs, recent items + left menu to access features)
@@ -156,7 +156,7 @@ Eine kontextuelle Hilfe ist in der Benutzeroberfläche verfügbar. Wenn verfügb
 
 ![](assets/context-help.png){width="70%" align="left"}
 
-Darüber hinaus finden Sie ein Onboarding-Handbuch, das Ihnen bei den ersten Schritten mit dem Campaign v8 Web hilft. Klicken Sie auf das Symbol unten rechts, wählen Sie eines der verfügbaren schrittweisen Szenarien aus und befolgen Sie einfach die Anweisungen.
+Darüber hinaus finden Sie eine Onboarding-Anleitung, die Ihnen bei den ersten Schritten mit Campaign v8 Web hilft. Klicken Sie auf das Symbol unten rechts, wählen Sie eines der verfügbaren schrittweisen Szenarien aus und befolgen Sie einfach die Anweisungen.
 
 ![](assets/onboarding.png){width="70%" align="left"}
 

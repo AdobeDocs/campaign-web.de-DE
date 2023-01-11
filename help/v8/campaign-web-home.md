@@ -3,14 +3,14 @@ keywords: Campaign Web;home;popular topics
 description: Campaign Web v8-Hilfecenter
 title: Produktdokumentation zu Adobe Campaign Web v8
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 4bf4e80ea7ea6457e659e1bd8344702db199e584
+source-git-commit: db197206700d3d3973d9cad459aa2f56ab76f213
 workflow-type: tm+mt
 source-wordcount: '72'
-ht-degree: 70%
+ht-degree: 59%
 
 ---
 
-# Dokumentation zu Adobe Campaign Web v8 {#campaign-documentation}
+# Adobe Campaign v8-Webdokumentation {#campaign-documentation}
 
 >[!NOTE]
 >

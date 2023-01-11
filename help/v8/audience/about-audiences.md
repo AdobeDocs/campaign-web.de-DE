@@ -3,10 +3,10 @@ audience: end-user
 title: Über Audiences
 description: Über Audiences
 exl-id: 21bb5082-82ce-47d6-a4d4-becf44490f13
-source-git-commit: e5a2f07dd4904813c5f848b0303b5da89e633835
+source-git-commit: db197206700d3d3973d9cad459aa2f56ab76f213
 workflow-type: tm+mt
-source-wordcount: '128'
-ht-degree: 67%
+source-wordcount: '136'
+ht-degree: 65%
 
 ---
 
@@ -42,7 +42,7 @@ show use case with a new audience creation (or import from file?)
 control groups like acc: exract, random, based on attribute
 -->
 
-In diesem Abschnitt erfahren Sie, wie Sie die Audience der E-Mail definieren. Dies ist die Zielgruppe Ihres Versands, die Empfänger, die die E-Mail erhalten werden. Der Typ der Audience hängt vom Zielgruppen-Mapping ab.
+In diesem Abschnitt erfahren Sie, wie Sie die Audience der E-Mail definieren. Dies ist die Zielgruppe Ihres Versands, die Empfänger, die die E-Mail erhalten werden. Der Audience-Typ hängt vom in der Versandvorlage definierten Zielgruppen-Mapping ab. Weitere Informationen finden Sie in [diesem Abschnitt](../email/create-email.md).
 
 Zur Definition der Audience haben Sie folgende Möglichkeiten:
 
