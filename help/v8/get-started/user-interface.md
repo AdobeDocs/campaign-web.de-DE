@@ -3,10 +3,10 @@ audience: end-user
 title: Entdecken Sie die Benutzeroberfläche
 description: Web-Benutzeroberfläche von Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 9df9b4ee9f8d583747cdf197450efb5ec23d6506
+source-git-commit: e14dd2984756cc8cd30de1a44f7d7b3af2ae7f49
 workflow-type: tm+mt
-source-wordcount: '1148'
-ht-degree: 63%
+source-wordcount: '1172'
+ht-degree: 60%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 63%
 >title="Schnittstelle"
 >abstract="Die neue Web-Benutzeroberfläche von Campaign v8 bietet ein integriertes, intuitives und konsistentes Benutzererlebnis."
 
-Die neue Campaign v8-Webschnittstelle bietet ein modernes, integriertes und intuitives Benutzererlebnis, um Workflows, die Erstellung und Bereitstellung von Marketing-Kampagnen zu vereinfachen und mit der Erfahrung nativer Adobe Experience Platform-Anwendungen konsistent zu sein.
+Die neue Campaign v8-Webschnittstelle bietet ein modernes und intuitives Benutzererlebnis, um die Erstellung und Bereitstellung von Marketing-Kampagnen zu vereinfachen. Diese neue Benutzeroberfläche ist in Adobe Experience Platform integriert.
 
 <!--
 Key concepts when browsing the user interface are common with Adobe Experience Platform. Refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html#adobe-experience-platform-ui-guide) for more details.
@@ -39,13 +39,13 @@ Key concepts when browsing the user interface are common with Adobe Experience P
 
 ## Linkes Navigationsmenü
 
-Mithilfe der Links auf der linken Seite können Sie auf die Web-Funktionen von Campaign v8 zuzugreifen. Mehrere Links zeigen Listen von Objekten an, die sortiert und gefiltert werden können. Sie können auch Spalten so konfigurieren, dass alle benötigten Informationen angezeigt werden. Weitere Informationen finden Sie in [diesem Abschnitt](#list-screens). Alle Listenbildschirme mit Ausnahme der E-Mail-Versandliste sind schreibgeschützt. Das Klicken auf ein Listenelement zur Bearbeitung/Anzeige ist in Alpha nicht verfügbar.
+Mithilfe der Links auf der linken Seite können Sie auf die Web-Funktionen von Campaign v8 zuzugreifen. Mehrere Links zeigen Listen von Objekten an, die sortiert und gefiltert werden können. Sie können auch Spalten so konfigurieren, dass alle benötigten Informationen angezeigt werden. Weitere Informationen finden Sie in [diesem Abschnitt](#list-screens). Alle Listenbildschirme mit Ausnahme der E-Mail-Versandliste sind schreibgeschützt. Das Klicken auf ein Listenelement zur Bearbeitung/Anzeige ist in Alpha nicht verfügbar. Alle Listen können in Beta- und GA-Versionen bearbeitet werden. Die im linken Navigationsmenü angezeigten Elemente hängen von Ihren Benutzerberechtigungen ab.
 
 ![](assets/home.png)
 
 ### Startseite
 
-Dieser Bildschirm enthält wichtige Links und Ressourcen für einen schnellen Zugriff auf die wichtigsten Webfunktionen von Campaign v8. Die Liste **Zuletzt ausgewertet** enthält Verknüpfungen zu den kürzlich erstellten Sendungen. Diese Liste zeigt ihr jeweiliges Erstellungs- und Änderungsdatum sowie den Status
+Dieser Bildschirm enthält wichtige Links und Ressourcen für einen schnellen Zugriff auf die wichtigsten Webfunktionen von Campaign v8. Die **Letzte** enthält Verknüpfungen zu den kürzlich erstellten und geänderten Sendungen. Diese Liste zeigt ihr jeweiliges Erstellungs- und Änderungsdatum sowie den Status
 
 <!--
 * Banner
@@ -140,8 +140,8 @@ Navtree view depends on permissions (same as console).
 
 In der oberen Leiste der Benutzeroberfläche haben Sie folgende Möglichkeiten:
 
-* Ihr Feedback als Alpha-Kunde teilen
-* zwischen IMS-Organisationen wechseln
+* Freigeben Ihres Feedbacks als Alpha-Tester
+* Zwischen Organisationen und Instanzen wechseln
 * zwischen Adobe Experience Cloud-Anwendungen wechseln
 * auf Hilfeseiten zugreifen, den Support kontaktieren und Feedback geben. Sie können Hilfe-Artikel und Videos mithilfe des Suchfelds suchen.
 
