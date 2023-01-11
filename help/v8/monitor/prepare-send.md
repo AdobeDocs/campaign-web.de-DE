@@ -3,7 +3,7 @@ audience: end-user
 title: E-Mail vorbereiten und senden
 description: Web-Dokumentation zu Campaign v8
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
-source-git-commit: 75d579975023639840f35f673e63aab2a2d3a811
+source-git-commit: 6d678442c0fe396f45a635c60837932f424d0763
 workflow-type: tm+mt
 source-wordcount: '540'
 ht-degree: 18%
@@ -60,7 +60,7 @@ Gehen Sie dazu wie folgt vor:
    * **Zu liefern**: die Anzahl der zu sendenden Nachrichten,
    * **Ausschließen**: Anzahl der Nachrichten, die durch eine Typologieregel ausgeschlossen sind
 
-1. Klicken Sie auf **Protokolle** und vergewissern Sie sich, dass kein Fehler vorliegt. Der letzte Logeintrag zeigt eventuelle Fehler und deren Anzahl an. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](#send).
+1. Klicken Sie auf **Protokolle** und vergewissern Sie sich, dass kein Fehler vorliegt. Der letzte Logeintrag zeigt eventuelle Fehler und deren Anzahl an. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](delivery-logs.md).
 
    ![](assets/prepare-logs.png)
 
@@ -82,7 +82,7 @@ Führen Sie folgende Schritte aus:
 
    ![](assets/send.png)
 
-1. Der Versandfortschritt wird angezeigt. Überprüfen Sie die angezeigten KPIs. Sie können auch die Protokolle überprüfen. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](#send).
+1. Der Versandfortschritt wird angezeigt. Überprüfen Sie die angezeigten KPIs. Sie können auch die Protokolle überprüfen. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](delivery-logs.md).
 
    ![](assets/send2.png)
 

@@ -3,10 +3,10 @@ audience: end-user
 title: Erstellen Ihrer ersten E-Mail
 description: Web-Dokumentation zu Campaign v8
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 4bc12928a6dac79d09f918a0bc34e3f98d9984d3
+source-git-commit: 6d678442c0fe396f45a635c60837932f424d0763
 workflow-type: tm+mt
 source-wordcount: '1174'
-ht-degree: 87%
+ht-degree: 84%
 
 ---
 
@@ -104,7 +104,7 @@ In diesem Anwendungsbeispiel wird die E-Mail mit einer vordefinierten Vorlage er
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience"
 >title="Definieren der Audience"
->abstract="Wählen Sie die beste Audience für Ihre Marketing-Nachricht aus. Sie können eine bereits in einer Campaign v8-Instanz oder in Adobe Experience Platform definierte bestehende Audience auswählen oder mit Segment Builder eine neue Audience erstellen."
+>abstract="Wählen Sie die beste Audience für Ihre Marketing-Nachricht aus. Sie können eine bereits in einer Campaign v8-Instanz oder in Adobe Experience Platform definierte Audience auswählen oder eine neue Audience mit dem Regel-Builder erstellen."
 
 In diesem Anwendungsbeispiel senden wir die E-Mail an eine bereits bestehende Audience. Weitere Informationen zum Arbeiten mit Audiences finden Sie in [diesem Abschnitt](../audience/about-audiences.md).
 

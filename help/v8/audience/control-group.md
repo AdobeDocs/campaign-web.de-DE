@@ -3,10 +3,10 @@ audience: end-user
 title: Einrichten einer Kontrollgruppe
 description: Web-Dokumentation zu Campaign v8
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
-source-git-commit: e5a2f07dd4904813c5f848b0303b5da89e633835
+source-git-commit: 6d678442c0fe396f45a635c60837932f424d0763
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 94%
+source-wordcount: '545'
+ht-degree: 77%
 
 ---
 
@@ -56,6 +56,28 @@ Wählen Sie im Abschnitt **Aus Zielgruppe extrahieren** einen **Ausschlusstyp**:
 
 Definieren Sie dann die **Größenbeschränkung**: Hierzu müssen Sie festlegen, wie Sie die Anzahl der Profile begrenzen, die Sie aus der Hauptzielgruppe extrahieren.
 
+**Beispiel**
+
+Sie können die Protokolle anzeigen, um die ausgeschlossenen Profile zu überprüfen und zu identifizieren. Nehmen wir als Beispiel einen zufälligen Ausschluss von fünf Profilen.
+
+![](assets/control-group4.png)
+
+Nach der Versandvorbereitung können Sie die Ausschlüsse auf den folgenden Bildschirmen anzeigen:
+
+* Die **Ausschließen** KPI im Versand-Dashboard vor dem Versand.
+
+   ![](assets/control-group5.png)
+
+* Die **Ausschlusslogs** Anzeigen jedes Profils und der zugehörigen Ausschlüsse **Grund**.
+
+   ![](assets/control-group6.png)
+
+* Die **Ausschlussgründe** die Anzahl der ausgeschlossenen Profile für jede Typologieregel anzeigen.
+
+   ![](assets/control-group7.png)
+
+Weiterführende Informationen zu Versandlogs finden Sie in diesem Abschnitt [Abschnitt](../monitor/delivery-logs.md).
+
 ## Zusätzliche Population {#extra-population}
 
 >[!CONTEXTUALHELP]
@@ -71,6 +93,6 @@ Klicken Sie im Abschnitt **Zusätzliche Population** des Definitionsbildschirms 
 
 * Um eine vorhandene Audience zu verwenden, klicken Sie auf **Audience auswählen**. Näheres dazu finden Sie in [diesem Abschnitt](add-audience.md).
 
-* Um eine neue Abfrage zu definieren, wählen Sie **Eigene erstellen** und definieren Sie die Ausschlusskriterien mithilfe von Segment Builder. Näheres dazu finden Sie in [diesem Abschnitt](segment-builder.md).
+* Um eine neue Abfrage zu definieren, wählen Sie **Erstellen eigener** und definieren die Ausschlusskriterien mithilfe des Regel-Builders. Näheres dazu finden Sie in [diesem Abschnitt](segment-builder.md).
 
 Die in der Audience enthaltenen oder dem Ergebnis der Abfrage entsprechenden Profile werden aus der Zielgruppe ausgeschlossen.
