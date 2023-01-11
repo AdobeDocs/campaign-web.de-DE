@@ -1,15 +1,15 @@
 ---
 audience: end-user
-title: Arbeiten mit Email Designer
+title: Arbeiten mit E-Mail-Designer
 description: Web-Dokumentation zu Campaign v8
 source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '14'
-ht-degree: 28%
+ht-degree: 100%
 
 ---
 
-# Arbeiten mit Email Designer {#email-designer}
+# Arbeiten mit E-Mail-Designer {#email-designer}
 
 ![](../assets/do-not-localize/badge.png)
 
