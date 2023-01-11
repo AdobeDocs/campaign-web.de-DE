@@ -1,16 +1,16 @@
 ---
 audience: end-user
-title: Versandlogs überwachen
+title: Überwachen von Versandlogs
 description: Web-Dokumentation zu Campaign v8
 exl-id: 2eb7457e-32f7-4729-99c8-91bf287f0192
 source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '294'
-ht-degree: 62%
+ht-degree: 100%
 
 ---
 
-# Versandlogs überwachen {#delivery-logs}
+# Überwachen von Versandlogs {#delivery-logs}
 
 ![](../assets/do-not-localize/badge.png)
 
@@ -19,19 +19,19 @@ ht-degree: 62%
 >title="Versandlogs"
 >abstract="TBC"
 
-Nach der Vorbereitung und dem Versand einer E-Mail können Sie mithilfe der Versandlogs überprüfen, ob kein Fehler vorliegt. Auf diese Protokolle kann direkt über das Nachrichten-Dashboard zugegriffen werden. In ihnen werden Details zum Versand dargestellt und Sie erfahren, welche Zielgruppe warum ausgeschlossen wurde sowie Tracking-Informationen wie z. B. Öffnungen und Klicks.
+Nach der Vorbereitung und dem Versand einer E-Mail können Sie mithilfe der Versandlogs sicherstellen, dass kein Fehler vorliegt. Diese Logs können direkt über das Nachrichten-Dashboard aufgerufen werden. In ihnen werden Details zum Versand dargestellt und Sie erfahren, welche Zielgruppe warum ausgeschlossen wurde, und erhalten Tracking-Informationen wie z. B. Öffnungen und Klicks.
 
-Um die Logs anzuzeigen, rufen Sie Ihr Versand-Dashboard auf und klicken Sie auf die Schaltfläche **Protokolle** Schaltfläche.
+Um die Logs anzuzeigen, rufen Sie Ihr Versand-Dashboard auf und klicken Sie auf die Schaltfläche **Protokolle**.
 
-Es stehen mehrere Registerkarten zur Verfügung:
+Mehrere Optionen sind verfügbar:
 
 ## Logs
 
-Die **Protokolle** enthält alle Nachrichten bezüglich des Versands und der Testsendungen. Eventuelle Fehler oder Warnmeldungen werden durch spezifische Symbole hervorgehoben.
+Die Registerkarte **Protokolle** enthält alle mit dem Versand und den Testsendungen verbundenen Nachrichten. Eventuelle Fehler oder Warnmeldungen werden durch spezifische Symbole hervorgehoben.
 
 Alle Validierungsschritte, Warnungen und Fehler werden aufgelistet. Farbige Symbole zeigen den Nachrichtentyp an:
 
-* Das graue Symbol zeigt eine informative Nachricht an.
+* Das blaue Symbol steht für eine informative Nachricht.
 * Das gelbe Symbol steht für einen nicht kritischen Verarbeitungsfehler.
 * Das rote Symbol steht für einen kritischen Fehler, der die Durchführung des Versands verhindert.
 
@@ -39,7 +39,7 @@ Alle Validierungsschritte, Warnungen und Fehler werden aufgelistet. Farbige Symb
 
 ## Sendungen
 
-Die **Sendungen** -Tab zeigt einen Verlauf aller Vorkommen dieses Versands an. sowie deren Status an. Für jeden einzelnen Empfänger können Sie anhand des Status das Ergebnis des Versands verfolgen.
+Die Registerkarte **Sendungen** enthält Informationen zum Verlauf eines Versands. sowie deren Status an. Für jeden einzelnen Empfänger können Sie anhand des Status das Ergebnis des Versands verfolgen.
 
 ![](assets/logs2.png)
 
@@ -57,16 +57,16 @@ Der Tab **Ausschlussgründe** zeigt die Anzahl an ausgeschlossenen Empfängern p
 
 ## Getrackte URLs
 
-Der Tab **Getrackte URLs** gibt Auskunft über die in der gesendeten Nachricht enthaltenen URLs, ihren Typ sowie ihre Quell-URLs.
+Die Registerkarte **Getrackte URLs** gibt Auskunft über die in der gesendeten Nachricht enthaltenen URLs, ihren Typ sowie ihre Quell-URLs.
 
 ![](assets/logs5.png)
 
 ## Tracking
 
-Die **Tracking** enthält den Verlauf des Trackings für diesen Versand. Auf diesem Tab werden Tracking-Daten zu den gesendeten Nachrichten angezeigt, d. h. alle URLs, die der Verfolgung durch Adobe Campaign unterliegen.
+In der Registerkarte **Tracking** wird der Tracking-Verlauf für den jeweiligen Versand angezeigt. Hier werden die Tracking-Informationen zu allen von Adobe Campaign gesendeten Nachrichten aufgeführt, d. h. zu allen getrackten URLs.
 
 >[!NOTE]
 >
->Sollte das Tracking für einen Versand nicht aktiviert worden sein, wird dieser Tab nicht angezeigt.
+>Sollte das Tracking für einen Versand nicht aktiviert worden sein, wird diese Registerkarte nicht angezeigt.
 
 ![](assets/logs6.png)
