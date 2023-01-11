@@ -3,10 +3,10 @@ audience: end-user
 title: Erste Schritte
 description: Web-Dokumentation zu Campaign v8
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
-source-git-commit: b5d0c2538b99aabafd04f6314a8135269c8555c0
+source-git-commit: 9df9b4ee9f8d583747cdf197450efb5ec23d6506
 workflow-type: tm+mt
-source-wordcount: '312'
-ht-degree: 100%
+source-wordcount: '320'
+ht-degree: 82%
 
 ---
 
@@ -32,11 +32,11 @@ only existing customers
 
 Adobe Campaign bietet eine Plattform für die Gestaltung kanalübergreifender Kundenerlebnisse und eine Umgebung für die visuelle Kampagnenorchestrierung, die Verwaltung von Interaktionen in Echtzeit und die kanalübergreifende Ausführung.
 
-Zusätzlich zu allen vorhandenen Funktionen, die mit der Konsole verfügbar sind, haben wir eine Web-Oberfläche entwickelt, um den Anwendenden ein integriertes, intuitives und konsistentes Anwendererlebnis zu bieten.
+Zusätzlich zu allen in der Konsole verfügbaren Funktionen haben wir eine neue, moderne, webbasierte Benutzeroberfläche entwickelt, um die Gestaltung und Bereitstellung von Marketingkampagnen zu vereinfachen und mit der Erfahrung nativer Adobe Experience Platform-Anwendungen konsistent zu sein.
 
 ## Alpha-Funktionen
 
-Diese moderne Web-basierte Oberfläche ist derzeit nur für Alpha-Anwendende mit den folgenden Funktionen verfügbar:
+Diese Webschnittstelle steht derzeit nur Alpha-Anwendern mit den folgenden Funktionen zur Verfügung:
 
 **Modernes, intuitives und einheitliches Erlebnis**
 
@@ -50,7 +50,7 @@ No search and pulse notifications in Alpha
 **Erstellen, Starten und Messen Ihrer E-Mail-Kampagne**
 
 * Erstellen personalisierter E-Mail-Inhalte mit dem E-Mail-Editor
-* Definieren von Audiences mit Segment Builder
+* Definieren von Zielgruppen mit dem Segment Builder
 * Vorschau, Testen und Senden Ihrer E-Mail-Nachrichten
 * Überwachen, Senden und Messen von Ergebnissen mit integrierten Berichten
 
