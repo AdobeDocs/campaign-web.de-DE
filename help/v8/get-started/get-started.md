@@ -3,7 +3,7 @@ audience: end-user
 title: Erste Schritte
 description: Web-Dokumentation zu Campaign v8
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
-source-git-commit: d654a75c802effbb98844557102d0ec19300cd8d
+source-git-commit: a57630deb9368dc483925bcbbce362ba4ec79a41
 workflow-type: tm+mt
 source-wordcount: '374'
 ht-degree: 27%
@@ -51,11 +51,12 @@ Kampagnendaten werden auf dem Anwendungsserver gespeichert. Daten sind sowohl in
 
 ## Herstellen einer Verbindung zu Campaign
 
-![](assets/connect.png)
 
 1. Verbinden mit [Adobe Experience Cloud](http://experience.adobe.com){target="_blank"}.
 1. Melden Sie sich mit Ihren Adobe-Anmeldedaten an.
 1. Klicken Sie im Abschnitt **Schnellzugriff** auf **Campaign**.
+   ![](assets/connect.png)
+
 1. Klicken Sie auf der nächsten Seite auf die **Launch** Schaltfläche Ihrer Campaign-Instanz.
 
 <!--
