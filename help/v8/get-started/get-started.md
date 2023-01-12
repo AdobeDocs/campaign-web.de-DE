@@ -3,7 +3,7 @@ audience: end-user
 title: Erste Schritte
 description: Web-Dokumentation zu Campaign v8
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
-source-git-commit: 99ad5ec9fddb0790738f45b41b17baca8e3953bd
+source-git-commit: d654a75c802effbb98844557102d0ec19300cd8d
 workflow-type: tm+mt
 source-wordcount: '374'
 ht-degree: 27%
