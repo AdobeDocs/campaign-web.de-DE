@@ -3,10 +3,10 @@ audience: end-user
 title: Erstellen Ihrer ersten E-Mail
 description: Web-Dokumentation zu Campaign v8
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: bc58f1f9ebb5f73dbd23539ca14aa5c0be4c841d
 workflow-type: tm+mt
-source-wordcount: '1155'
-ht-degree: 84%
+source-wordcount: '1199'
+ht-degree: 83%
 
 ---
 
@@ -36,7 +36,7 @@ In diesem Anwendungsbeispiel wird gezeigt, wie Sie Ihre erste E-Mail erstellen. 
 
    >[!NOTE]
    >
-   >Eine Vorlage ist eine spezifische Versandkonfiguration, die als Vorlage zur Wiederverwendung gespeichert wurde. Versandvorlagen werden von Admins in der Adobe Campaign-Konsole konfiguriert. [Erfahren Sie, wie Sie mit Versandvorlagen arbeiten können](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html?lang=de){target=&quot;_blank&quot;}
+   >Eine Vorlage ist eine spezifische Versandkonfiguration, die als Vorlage zur Wiederverwendung gespeichert wurde. Versandvorlagen werden von Admins in der Adobe Campaign-Konsole konfiguriert. [Erfahren Sie, wie Sie mit Versandvorlagen arbeiten.](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/create-templates.html){target="_blank"}.
 
    ![](assets/channel-template.png)
 
@@ -116,7 +116,7 @@ In diesem Anwendungsbeispiel senden wir die E-Mail an eine bereits bestehende Au
    >
    >Die in der Liste verfügbaren Zielgruppen stammen entweder aus Ihrer Campaign V8-Instanz oder aus Adobe Experience Platform, wenn die Ziel-/Quellen-Integration in Ihrer Instanz konfiguriert wurde.
    >
-   >Die Ziel-/Quellen-Integration ermöglicht es Ihnen, Experience Platform-Segmente an Adobe Campaign zu senden und Kampagnenversand- und -verfolgungslogs an Adobe Experience Platform zu senden. [Erfahren Sie, wie Sie mit Campaign und Adobe Experience Platform arbeiten.](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html)
+   >Die Ziel-/Quellen-Integration ermöglicht es Ihnen, Experience Platform-Segmente an Adobe Campaign zu senden und Kampagnenversand- und -verfolgungslogs an Adobe Experience Platform zu senden. [Erfahren Sie, wie Sie mit Campaign und Adobe Experience Platform arbeiten.](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html){target="_blank"}.
 
 1. Nach Auswahl Ihrer Audience können Sie das Ziel mithilfe zusätzlicher Regeln verfeinern.
 
@@ -127,7 +127,7 @@ In diesem Anwendungsbeispiel senden wir die E-Mail an eine bereits bestehende Au
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_schedule"
 >title="Terminieren des Versands"
->abstract="Definieren Sie das Datum und die genaue Uhrzeit für Ihren Versand. Wenn Sie den für Ihre Marketing-Nachricht am besten geeigneten Zeitpunkt auswählen, maximieren Sie die Öffnungsraten."
+>abstract="Definieren Sie das Datum und die genaue Uhrzeit für Ihren Versand. Indem Sie den günstigsten Zeitpunkt für Ihre Werbenachricht wählen, maximieren Sie die Öffnungsraten."
 
 Um den Versand der E-Mail zu terminieren, klicken Sie auf **[!UICONTROL Aktivieren]** und geben Sie dann das gewünschte Datum und die gewünschte Uhrzeit für den Versand an.
 
@@ -161,7 +161,9 @@ Weitere Informationen zum Anzeigen einer Vorschau und zum Testen von E-Mails fin
 
 1. Um Testsendungen Ihrer E-Mail durchzuführen, klicken Sie auf die Schaltfläche **[!UICONTROL Test]** und wählen Sie die Profile aus, die den Testversand erhalten sollen.
 
-   <!--TO REPLACE WITH SUBSTITUTION PROFILE-->In this example, we want to send the proofs to a specific test profile, which is a seed address that is not part of the target. [Learn how to work with seed addresses](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses.html){target="_blank"}
+   <!--TO REPLACE WITH SUBSTITUTION PROFILE-->
+
+   In diesem Beispiel möchten wir die Testsendungen an ein bestimmtes Testprofil senden, bei dem es sich um eine Testadresse handelt, die nicht Teil der Zielgruppe ist. Erfahren Sie, wie Sie mit Testadressen arbeiten in [Dokumentation zu Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses.html?lang=de){target="_blank"}.
 
    ![](assets/proof-test-profile.png)
 
