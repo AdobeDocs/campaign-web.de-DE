@@ -3,7 +3,7 @@ audience: end-user
 title: Arbeiten mit dem Segment Builder
 description: Web-Dokumentation zu Campaign v8
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: d5fa13813a22b21fdedd90475ee9258f5003e22d
 workflow-type: tm+mt
 source-wordcount: '540'
 ht-degree: 79%
@@ -44,7 +44,7 @@ Die Palette auf der linken Seite enthält alle Elemente, nach denen Sie filtern 
 
    >[!NOTE]
    >
-   >Um Adobe Experience Platform-Zielgruppen zu nutzen, müssen Sie die Integration mit Zielen konfigurieren. Siehe Abschnitt [Dokumentation zu Zielen](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=de).
+   >Um Adobe Experience Platform-Zielgruppen zu nutzen, müssen Sie die Integration mit Zielen konfigurieren. Siehe Abschnitt [Dokumentation zu Zielen](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=de){target="_blank"}.
 
 Sie können die Suchleiste verwenden, um Elemente schnell zu finden.
 

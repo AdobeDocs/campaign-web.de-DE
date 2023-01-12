@@ -3,7 +3,7 @@ audience: end-user
 title: Hinzufügen einer Audience
 description: Web-Dokumentation zu Campaign v8
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: d5fa13813a22b21fdedd90475ee9258f5003e22d
 workflow-type: tm+mt
 source-wordcount: '240'
 ht-degree: 85%
@@ -33,7 +33,7 @@ In diesem Abschnitt wird beschrieben, wie Sie bei der Definition der Zielgruppe 
 
    >[!NOTE]
    >
-   >Um Adobe Experience Platform-Zielgruppen zu nutzen, müssen Sie die Integration mit Zielen konfigurieren. Siehe Abschnitt [Dokumentation zu Zielen](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=de).
+   >Um Adobe Experience Platform-Zielgruppen zu nutzen, müssen Sie die Integration mit Zielen konfigurieren. Siehe Abschnitt [Dokumentation zu Zielen](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=de){target="_blank"}.
 
 1. Wählen Sie eine Audience aus und klicken Sie auf **Auswählen**.
 
