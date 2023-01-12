@@ -3,10 +3,10 @@ audience: end-user
 title: Bearbeiten des E-Mail-Inhalts
 description: Web-Dokumentation zu Campaign v8
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: 72ce0a77704b2592e1186f70ea7aef308989d8c4
 workflow-type: tm+mt
-source-wordcount: '310'
-ht-degree: 77%
+source-wordcount: '308'
+ht-degree: 71%
 
 ---
 
@@ -59,7 +59,7 @@ Gehen Sie wie folgt vor, um den Inhalt Ihrer E-Mail zu definieren:
 
    <!--limitation on size + number of files?-->
 
-1. Standardmäßig ist das E-Mail-Tracking für Öffnungen und Klicks aktiviert. Um diese Optionen zu deaktivieren, heben Sie die Auswahl im Abschnitt **[!UICONTROL Optionale Funktionen]** auf. [Erfahren Sie, wie Sie Links hinzufügen und das Tracking verwalten](message-tracking.md)
+1. Standardmäßig ist Tracking für den Versand aktiviert. Sie können diese Option über **[!UICONTROL Optionale Funktionen]** Abschnitt. [Erfahren Sie, wie Sie Links hinzufügen und das Tracking verwalten](message-tracking.md)
 
 Sobald der Inhalt Ihrer E-Mail definiert wurde, verwenden Sie die Schaltfläche **[!UICONTROL Inhalt simulieren]**, um vor dem Versand zu überprüfen, wie sie angezeigt wird. [Erfahren Sie, wie Sie Ihre E-Mail in der Vorschau anzeigen und testen können](../preview-test/preview-test.md)
 
