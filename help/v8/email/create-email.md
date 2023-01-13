@@ -1,12 +1,12 @@
 ---
 audience: end-user
-title: Erstellen Ihrer ersten E-Mail
-description: Web-Dokumentation zu Campaign v8
+title: Senden Ihrer ersten E-Mail
+description: Erfahren Sie, wie Sie Ihre erste E-Mail mit der Campaign-Web-Benutzeroberfläche senden.
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: bc58f1f9ebb5f73dbd23539ca14aa5c0be4c841d
+source-git-commit: 384c7ac2dd2b1d90ba6ff78f59aacce396de91f0
 workflow-type: tm+mt
-source-wordcount: '1199'
-ht-degree: 83%
+source-wordcount: '1268'
+ht-degree: 67%
 
 ---
 
@@ -32,7 +32,7 @@ In diesem Anwendungsbeispiel wird gezeigt, wie Sie Ihre erste E-Mail erstellen. 
 
 1. Erstellen Sie einen neuen Versand im Menü **[!UICONTROL Sendungen]**.
 
-1. Wählen Sie den Kanal und die zu verwendende Vorlage für die **[!UICONTROL E-Mail]** und klicken Sie auf **[!UICONTROL Erstellen]**.
+1. Wählen Sie die **[!UICONTROL Email]** und der zu verwendenden Vorlage und klicken Sie auf **[!UICONTROL Versand erstellen]**.
 
    >[!NOTE]
    >
@@ -47,7 +47,6 @@ In diesem Anwendungsbeispiel wird gezeigt, wie Sie Ihre erste E-Mail erstellen. 
    * **[!UICONTROL Versand-Code]**: Verwenden Sie dieses Feld, um Ihre Sendungen basierend auf Ihrer eigenen Namenskonvention zu organisieren.
    * **[!UICONTROL Beschreibung]**: Geben Sie eine Beschreibung für den Versand an,
    * **[!UICONTROL Art]**: Geben Sie die Art der E-Mail zu Klassifizierungszwecken an.<!--The content of the list is defined in the delivery template selected when creating the email.-->
-
    >[!NOTE]
    >
    >Wenn Sie Ihr Schema mit bestimmten benutzerdefinierten Feldern erweitert haben, können Sie in den **[!UICONTROL benutzerdefinierten Optionen]** darauf zugreifen.
@@ -79,7 +78,7 @@ In diesem Anwendungsbeispiel wird die E-Mail mit einer vordefinierten Vorlage er
 
    Wählen Sie die Methode zur Erstellung des Inhalts Ihrer E-Mail aus. In diesem Beispiel möchten wir eine bereits vorhandene Design-Vorlage verwenden.
 
-   ![](assets/import-html.png)
+   ![](assets/select-template.png)
 
 <!--1. Select the HTML or ZIP file to import then click **[!UICONTROL Next]**.
 
@@ -93,7 +92,7 @@ In diesem Anwendungsbeispiel wird die E-Mail mit einer vordefinierten Vorlage er
 
    ![](assets/add-perso.png)
 
-1. Nach Fertigstellung des Inhalts speichern Sie diesen und klicken Sie auf den Pfeil, um zum E-Mail-Erstellungsbildschirm zurückzukehren.
+1. Wenn der Inhalt fertig ist, speichern und schließen Sie den Entwurf und klicken Sie auf **[!UICONTROL Speichern]** , um zum E-Mail-Erstellungsbildschirm zurückzukehren.
 
    ![](assets/save-content.png)
 
@@ -122,6 +121,8 @@ In diesem Anwendungsbeispiel senden wir die E-Mail an eine bereits bestehende Au
 
    Sie können auch eine Kontrollgruppe einrichten, um das Verhalten der E-Mail-Empfänger im Vergleich zum Verhalten von Profilen zu analysieren, die nicht angesprochen wurden. [Erfahren Sie, wie Sie mit Kontrollgruppen arbeiten](../audience/control-group.md)
 
+   ![](assets/audience-selected.png)
+
 ## Terminieren des Versands {#schedule}
 
 >[!CONTEXTUALHELP]
@@ -139,11 +140,11 @@ Standardmäßig wird die **[!UICONTROL Vor dem Versand bestätigen]** aktiviert 
 
 Sobald Ihre E-Mail fertig ist, können Sie sie in der Vorschau ansehen und testen, bevor Sie den Versand starten.
 
-In diesem Anwendungsbeispiel wird die E-Mail in der Vorschau angezeigt und ein Testversand mit vorhandenen Profilen durchgeführt.
+In diesem Anwendungsbeispiel werden wir eine Vorschau der E-Mail anzeigen und Testsendungen an bestimmte E-Mail-Adressen durchführen, während wir einige der Zielgruppenprofile imitieren.
 
 Weitere Informationen zum Anzeigen einer Vorschau und zum Testen von E-Mails finden Sie in [diesem Abschnitt](../preview-test/preview-test.md).
 
-1. Klicken Sie auf **[!UICONTROL Zum Senden überprüfen]**. Eine Vorschau Ihrer E-Mail wird zusammen mit allen konfigurierten Eigenschaften, Audience und Zeitplan angezeigt. Sie können jedes dieser Elemente über die Schaltfläche „Ändern“ bearbeiten.
+1. Klicken **[!UICONTROL Überprüfen und Senden]**. Eine Vorschau Ihrer E-Mail wird zusammen mit allen konfigurierten Eigenschaften, Audience und Zeitplan angezeigt. Sie können jedes dieser Elemente über die Schaltfläche „Ändern“ bearbeiten.
 
 1. Klicken Sie auf die Schaltfläche **[!UICONTROL Inhalt simulieren]**, um eine Vorschau der E-Mail anzuzeigen und Testsendungen durchzuführen.
 
@@ -159,21 +160,25 @@ Weitere Informationen zum Anzeigen einer Vorschau und zum Testen von E-Mails fin
     >
     >Additionally, the **[!UICONTROL Render email]** button allows you to preview the email using mutiple devices or mail providers. Learn on how to preview email rendering-->
 
-1. Um Testsendungen Ihrer E-Mail durchzuführen, klicken Sie auf die Schaltfläche **[!UICONTROL Test]** und wählen Sie die Profile aus, die den Testversand erhalten sollen.
+1. Um Testsendungen Ihrer E-Mail durchzuführen, klicken Sie auf die Schaltfläche **[!UICONTROL Test]** und wählen Sie den gewünschten Modus aus, um Ihre Testsendungen durchzuführen.
 
-   <!--TO REPLACE WITH SUBSTITUTION PROFILE-->
+   In diesem Beispiel verwenden wir den Modus Von Hauptzielgruppe ersetzen , d. h. wir senden Testsendungen an bestimmte E-Mail-Adressen, während wir einige der Profile imitieren, die in den Versand aufgenommen wurden.
 
-   In diesem Beispiel möchten wir die Testsendungen an ein bestimmtes Testprofil senden, bei dem es sich um eine Testadresse handelt, die nicht Teil der Zielgruppe ist. Erfahren Sie, wie Sie mit Testadressen arbeiten in [Dokumentation zu Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses.html?lang=de){target="_blank"}.
+   ![](assets/proof-mode.png)
+
+1. Klicken Sie auf Adresse hinzufügen und geben Sie die E-Mail-Adresse(n) an, an die die Testsendungen gesendet werden sollen.
+
+   Wählen Sie für jede E-Mail-Adresse das Profil aus der Zielgruppe aus, das stellvertretend agieren soll. Sie können Adobe Campaign auch ein zufälliges Profil aus der Zielgruppe auswählen lassen.
 
    ![](assets/proof-test-profile.png)
 
-   >[!NOTE]
-   >
-   >Sie können Ihre Nachrichten auch testen, indem Sie die Identität einiger Zielgruppenprofile übernehmen und die Testversandnachricht an die von Ihnen ausgewählte E-Mail-Adresse senden. [Erfahren Sie, wie Sie einen Testversand durchführen](../preview-test/preview-test.md)
-
 1. Klicken Sie auf **[!UICONTROL Test-E-Mail senden]** und bestätigen Sie dann den Versand.
 
-   Nachdem die Testsendungen durchgeführt wurden, können Sie ihren Status überprüfen, indem Sie auf die Schaltfläche **[!UICONTROL E-Mail-Testprotokoll anzeigen]** klicken.
+   Testsendungen werden mit dem ausgewählten Profil an die angegebenen E-Mail-Adressen gesendet, wobei die Variable **[Proof x]** -Präfix.
+
+   ![](assets/proof-sent.png)
+
+   Sie können den Status des Versands überprüfen und jederzeit auf die gesendeten Testsendungen zugreifen, indem Sie auf die Schaltfläche **[!UICONTROL Anzeigen des E-Mail-Testprotokolls]** im Bildschirm &quot;Inhalt simulieren&quot;.
 
 ## Senden und Überwachen der E-Mail {#prepare-send}
 
@@ -183,11 +188,15 @@ Nachdem Sie Ihre E-Mail geprüft und getestet haben, können Sie mit ihrer Vorbe
 
    ![](assets/preparation.png)
 
-1. Sobald Ihre E-Mail versandbereit ist, klicken Sie auf **[!UICONTROL Senden]** und bestätigen Sie danach den Versand.
+1. Sobald Ihre E-Mail versandbereit ist, klicken Sie auf **[!UICONTROL Senden]** oder **[!UICONTROL Senden als geplant]** validieren Sie dann den Versand.
 
-   Sie können den Versand in Echtzeit zusammen mit Statistiken verfolgen. Darüber hinaus ermöglicht die Schaltfläche **[!UICONTROL Protokolle]** den Zugriff auf detaillierte Informationen zum E-Mail-Versand. [Erfahren Sie, wie Sie Versand-Logs überwachen](../monitor/delivery-logs.md)
-   ![](assets/logs.png)
+1. Sobald der Versand Ihrer E-Mail entweder sofort oder am geplanten Datum begonnen hat, können Sie den Versand in Echtzeit in diesem Bildschirm verfolgen, einschließlich Statistiken.
 
-1. Nachdem die E-Mail gesendet wurde, können Sie dedizierte [Berichte](../reporting/reports.md) für weitere Analysezwecke einsehen.
+   ![](assets/sent-mail.png)
 
+   >[!NOTE]
+   >
+   >Darüber hinaus ermöglicht die Schaltfläche **[!UICONTROL Protokolle]** den Zugriff auf detaillierte Informationen zum E-Mail-Versand. [Erfahren Sie, wie Sie Versand-Logs überwachen](../monitor/delivery-logs.md)
+
+1. Nachdem die E-Mail gesendet wurde, können Sie dedizierte Berichte für weitere Analysezwecke einsehen. [Erfahren Sie, wie Sie mit Berichten arbeiten.](../reporting/reports.md)
    ![](assets/reports.png)
