@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
-source-git-commit: 2d23b04b81ab625de0936fdf058f6ac8bd1017c3
+source-git-commit: 0d74cababf2b4d66d3b2ce9b0ae2a0f00cb1cdef
 workflow-type: tm+mt
-source-wordcount: '324'
-ht-degree: 7%
+source-wordcount: '330'
+ht-degree: 8%
 
 ---
 
@@ -21,11 +21,11 @@ Sie können den Nachrichteninhalt wie folgt personalisieren:
 
 * Dynamisches Einfügen **Personalisierungsfelder**
 
-   Personalisierungsfelder werden zur Personalisierung Ihrer Nachrichten auf erster Ebene verwendet. Sie können jedes in der Datenbank verfügbare Feld aus dem Personalisierungseditor auswählen. Bei einem Versand können Sie ein beliebiges Feld auswählen, das mit dem Empfänger, der Nachricht oder dem Versand in Verbindung steht. Diese Personalisierungsattribute können in die Betreffzeile oder den Hauptteil Ihrer Nachrichten eingefügt werden.
+   Personalisierungsfelder werden zur Personalisierung Ihrer Nachrichten auf erster Ebene verwendet. Sie können jedes in der Datenbank verfügbare Feld aus dem Personalisierungseditor auswählen. Bei einem Versand können Sie ein beliebiges Feld auswählen, das mit dem Empfänger, der Nachricht oder dem Versand in Verbindung steht. Diese Personalisierungsattribute können in die Betreffzeile oder den Text Ihrer Nachrichten eingefügt werden.
 
    ![](assets/perso-subject-line.png)
 
-   Mit der obigen Syntax wird die Stadt des Empfängers in Ihren Inhalt eingefügt: &lt;%= recipient.location.city %>.
+   Mit der folgenden Syntax wird die Stadt des Empfängers in Ihren Inhalt eingefügt: &lt;%= recipient.location.city %>.
 
 * Vordefiniertes Einfügen **Inhaltsbausteine**
 
@@ -44,7 +44,7 @@ So fügen Sie Personalisierung in der **[!UICONTROL Betreff]** Gehen Sie wie fol
 
 1. Klicken Sie auf **Personalisierungsdialogfeld öffnen** rechts neben dem **Betreff** -Feld.
 1. Geben Sie den Betreffzeileninhalt ein und wählen Sie die hinzuzufügenden Personalisierungsattribute aus.
-1. Klicken Sie zur Validierung auf Bestätigen . Die Personalisierungsattribute werden der Betreffzeile hinzugefügt.
+1. Klicken **Bestätigen** validieren. Die Personalisierungsattribute werden der Betreffzeile hinzugefügt.
 
 ![](assets/perso-subject.png)
 
@@ -81,4 +81,4 @@ So personalisieren Sie eine **link**:
 
 ## Personalisieren von Angeboten {#personalize-offers}
 
-Sie können auch den Personalisierungseditor nutzen, wenn Sie den Darstellungen Ihrer Angebote Textinhalte hinzufügen.
+Sie können auch den Personalisierungseditor nutzen, wenn Sie den Darstellungen Ihrer Angebote Textinhalte hinzufügen. Weiterführende Informationen finden Sie in [diesem Abschnitt](../content/offers.md).
