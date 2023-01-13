@@ -1,12 +1,12 @@
 ---
 audience: end-user
 title: Vorbereiten und Senden einer E-Mail
-description: Web-Dokumentation zu Campaign v8
+description: Erfahren Sie, wie Sie eine E-Mail mit der Web-Benutzeroberfläche von Campaign vorbereiten und senden.
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
-source-git-commit: bc58f1f9ebb5f73dbd23539ca14aa5c0be4c841d
+source-git-commit: 542d31b8a869628ed93f2729af844753b4e7921c
 workflow-type: tm+mt
-source-wordcount: '524'
-ht-degree: 97%
+source-wordcount: '551'
+ht-degree: 83%
 
 ---
 
@@ -86,12 +86,12 @@ Führen Sie folgende Schritte aus:
 
    Im Folgenden werden die verschiedenen KPIs angezeigt:
 
-   * **Zugestellt**: Die Anzahl der erfolgreich gesendeten Nachrichten. Der Prozentsatz basiert auf der Gesamtzahl der Zielgruppenempfänger.
-   * **Öffnungen**: die Anzahl der geöffneten Nachrichten. Der Prozentsatz basiert auf der Anzahl der zugestellten Nachrichten.
-   * **Klicks**: die Anzahl der Empfangenden, die mindestens einmal auf die E-Mail geklickt haben. Der Prozentsatz basiert auf der Anzahl der zugestellten Nachrichten.
+   * **Zugestellt**: die Anzahl der erfolgreich zugestellten Nachrichten. Der angezeigte Prozentsatz basiert auf der Gesamtzahl der gesendeten Nachrichten.
+   * **Öffnungen**: die Anzahl der geöffneten Nachrichten. Der angezeigte Prozentsatz ist das Verhältnis zwischen der Anzahl unterschiedlicher Öffnungen und der Anzahl der zugestellten Nachrichten.
+   * **Klicks**: die Anzahl der Empfangenden, die mindestens einmal auf die E-Mail geklickt haben. Der angezeigte Prozentsatz ist das Verhältnis zwischen der Anzahl unterschiedlicher Klicks und der Anzahl der zugestellten Nachrichten.
 
    >[!NOTE]
    >
-   >Die **Öffnungen** und **Klicks** werden in Echtzeit aktualisiert.
+   >Die **Öffnungen** und **Klicks** -Indikatoren werden nach 5 Minuten aktualisiert.
 
    Sie können den Versand jederzeit anhalten und später fortsetzen. Wenn Sie den Versand stoppen, während er durchgeführt wird, können Sie ihn nicht mehr fortsetzen.

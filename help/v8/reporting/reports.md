@@ -1,16 +1,16 @@
 ---
 audience: end-user
-title: Reporting
-description: Web-Dokumentation zu Campaign v8
+title: Versandberichte
+description: Erfahren Sie, wie Sie auf Versandberichte zugreifen und diese verwenden
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: 542d31b8a869628ed93f2729af844753b4e7921c
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 100%
+source-wordcount: '385'
+ht-degree: 89%
 
 ---
 
-# Reporting {#reports}
+# Versandberichte {#reports}
 
 ![](../assets/do-not-localize/badge.png)
 
@@ -44,9 +44,9 @@ Fehler und Bounces: Dieser Bericht zeigt eine Aufschlüsselung der Fehler und Bo
 
 * **URLs und Clickstreams**: Dieser Bericht zeigt die nach einem Versand besuchten Seiten an.
 
-* **Nutzeraktivitäten**: Dieser Bericht enthält Informationen zu Öffnungen, Klicks und Transaktionen, aufgeschlüsselt nach Tagen, Stunden oder halben Stunden, in Form eines Diagramms.
+* **Benutzeraktivitäten**: Dieser Bericht zeigt die Öffnungs- und Klickverteilung pro halber Stunde, Stunde oder Tag in Form eines Diagramms.
 
-* **Tracking-Statistiken**: Dieser Bericht zeigt Statistiken zu Öffnungen, Klicks und Transaktionen.
+* **Trackingstatistiken**: Dieser Bericht enthält Statistiken zu Öffnungen und Klicks.
 
 * **Öffnungsverteilung**: Dieser Bericht zeigt die Verteilung der Öffnungen nach Betriebssystem, Gerät und Browser im betreffenden Zeitraum. Für jede Kategorie werden zwei Diagramme verwendet. Das erste zeigt Statistiken zu Öffnungen auf Computern und Mobilgeräten. Das zweite stellt Statistiken dar, die sich nur auf Öffnungen auf Mobilgeräten beziehen.
 
