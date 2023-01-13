@@ -3,10 +3,10 @@ audience: end-user
 title: Versionshinweise zu Campaign Web v8
 description: Versionshinweise zu Campaign Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: 99ad5ec9fddb0790738f45b41b17baca8e3953bd
+source-git-commit: 370f0fe14d19c9dc2a20653fb3f54da1ec6d2811
 workflow-type: tm+mt
-source-wordcount: '147'
-ht-degree: 58%
+source-wordcount: '154'
+ht-degree: 28%
 
 ---
 
@@ -14,13 +14,11 @@ ht-degree: 58%
 
 ![](../assets/do-not-localize/badge.png)
 
-Auf dieser Seite sind alle neuen Funktionen und Verbesserungen für Campaign Web v8 aufgeführt. Auf der Seite der [neuesten Dokumentationsaktualisierungen](documentation-updates.md) finden Sie zusätzliche Änderungen.
+Auf dieser Seite finden Sie alle aktuellen Funktionen und Verbesserungen für Campaign Web v8.
 
+## Alpha-Version{#alpha-release}
 
-
-## Alpha-Funktionen
-
-Diese Webschnittstelle steht derzeit nur Alpha-Anwendern mit den folgenden Funktionen zur Verfügung:
+Diese neue Campaign-Webschnittstelle ist derzeit nur für **Alpha-Fachkräfte** mit den folgenden Funktionen:
 
 **Modernes, intuitives und einheitliches Erlebnis**
 
@@ -31,12 +29,14 @@ No search and pulse notifications in Alpha
 -->
 * Erleben Sie die neue Navigation mit linken Menüs und Ordnern
 
+Erfahren Sie mehr über die neue Benutzeroberfläche in [diese Seite](../get-started/user-interface.md).
+
 **Erstellen, Starten und Messen Ihrer E-Mail-Kampagne**
 
-* Personalisierte E-Mail-Inhalte mit E-Mail-Designer erstellen
-* Definieren von Zielgruppen mit dem Regel-Builder
-* Vorschau, Testen und Senden Ihrer E-Mail-Nachrichten
-* Überwachen, Senden und Messen von Ergebnissen mit integrierten Berichten
+* Gestalten Sie personalisierte E-Mail-Inhalte mit Email Designer - [Weitere Infos](../content/edit-content.md)
+* Definieren von Zielgruppen mit dem Regel-Builder - [Weitere Infos](../audience/about-audiences.md)
+* Vorschau, Testen und Senden Ihrer E-Mail-Nachrichten - [Weitere Infos](../monitor/prepare-send.md)
+* Überwachen Sie die Ergebnisse von Sendungen und messen Sie sie mit integrierten Berichten - [Weitere Infos](../reporting/reports.md)
 
 <!--
 add info somewhere to remind users that
