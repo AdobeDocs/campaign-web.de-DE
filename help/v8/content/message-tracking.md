@@ -3,10 +3,10 @@ audience: end-user
 title: Verfolgen von Nachrichten
 description: Erfahren Sie, wie Sie Links hinzufügen und gesendete Nachrichten verfolgen können.
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
 workflow-type: tm+mt
-source-wordcount: '549'
-ht-degree: 92%
+source-wordcount: '550'
+ht-degree: 89%
 
 ---
 
@@ -26,7 +26,7 @@ Beim Erstellen einer Nachricht können Sie Links zu Ihrem Inhalt hinzufügen.
 
 Gehen Sie wie folgt vor, um Links in Ihren E-Mail-Inhalt einzufügen:
 
-1. Wählen Sie ein Element aus und klicken Sie in der kontextbezogenen Symbolleiste auf **[!UICONTROL Link einfügen]**.
+1. Wählen Sie ein Element aus und klicken Sie in der kontextuellen Symbolleiste auf **[!UICONTROL Link einfügen]**.
 
    ![](assets/message-tracking-insert-link.png)
 
@@ -51,7 +51,7 @@ Bei der Mirror-Seite handelt es sich um eine HTML-Seite, auf die online über ei
 
 So fügen Sie in Ihrer E-Mail einen Link zu einer Mirror-Seite hinzu:
 
-1. Wählen Sie ein Element aus und klicken Sie in der kontextbezogenen Symbolleiste auf **[!UICONTROL Link einfügen]**.
+1. Wählen Sie ein Element aus und klicken Sie in der kontextuellen Symbolleiste auf **[!UICONTROL Link einfügen]** from the contextual toolbar..
 
    ![](assets/message-tracking-mirror-page.png)
 
@@ -73,7 +73,7 @@ Wenn die Empfänger nach dem Versand der E-Mail auf den Link zur Mirror-Seite kl
 
 >[!NOTE]
 >
->Im Testversand an die Testprofile ist der Link zur Mirror-Seite nicht aktiv. Er wird nur in den endgültigen Nachrichten aktiviert.
+>In der Test-E-Mail, die an die Testprofile gesendet wird, ist der Link zur Mirrorseite nicht aktiv. Er wird nur in den endgültigen Nachrichten aktiviert.
 
 Die Beibehaltungsdauer für eine Mirror-Seite beträgt 60 Tage. Danach ist die Mirror-Seite nicht mehr verfügbar.
 

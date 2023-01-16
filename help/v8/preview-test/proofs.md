@@ -3,10 +3,10 @@ audience: end-user
 title: Test-E-Mails senden
 description: Erfahren Sie, wie Sie Test-E-Mails definieren und senden
 exl-id: b2677579-c95d-443d-b207-466af364c208
-source-git-commit: 8438c7ab35c2423beddbb36db2fcf52f661876bf
+source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 62%
+source-wordcount: '524'
+ht-degree: 8%
 
 ---
 
@@ -19,60 +19,61 @@ Der Versand von Test-E-Mails ist ein wichtiger Schritt zur Validierung Ihrer E-M
 Test-E-Mails können an zwei Empfängertypen gesendet werden:
 
 * **Testprofile**: Testadressen, bei denen es sich um zusätzliche fiktive Empfänger in der Datenbank handelt, mit Test-E-Mails versenden,
-* **Ersatzprofile**: Testversand-E-Mails an eine bestimmte E-Mail-Adresse senden, während die Identität eines vorhandenen Profils übernommen wird. Auf diese Weise können Sie die E-Mail so erleben, wie sie die Empfänger erhalten. So erhalten Sie eine genaue Darstellung der Nachricht, die das Profil empfangen wird.
 
-## Auswählen der Testversand-Empfänger {#recipients}
+* **Substitution durch Hauptzielgruppe**: Testversand-E-Mails an eine bestimmte E-Mail-Adresse senden, während die Identität eines vorhandenen Profils übernommen wird. Auf diese Weise können Sie die E-Mail so erleben, wie sie die Empfänger erhalten. So erhalten Sie eine genaue Darstellung der Nachricht, die das Profil empfangen wird.
 
-1. Öffnen Sie den Bildschirm zur Erstellung des E-Mail-Inhalts und klicken Sie auf **[!UICONTROL Inhalt simulieren]**.
+## Testempfänger auswählen {#recipients}
 
-1. Klicken Sie auf **[!UICONTROL Test]** und verwenden Sie dann die Dropdown-Liste **[!UICONTROL Modus]** zur Auswahl des Empfängertyps für die Testsendungen:
+1. Rufen Sie den Bildschirm zur Inhaltsimulation der E-Mail auf und klicken Sie auf die Schaltfläche **[!UICONTROL Test]** Schaltfläche.
 
-<!-- to check: by default, profiles selected in previous screen are pre-selected for proofs. Can add addtitional profiles + remove preselected?-->
+   ![](assets/test-button.png)
 
-### Durchführen eines Testversands an Testprofile
+1. Verwenden Sie die **[!UICONTROL Modus]** Dropdown-Liste zur Auswahl des Empfängertyps, der die Test-E-Mail erhalten soll:
 
-1. Wählen Sie den Modus **[!UICONTROL Testprofile verwenden]**.
+   * **Testprofile**: die Test-E-Mail an Testadressen senden, die zusätzliche fiktive Empfänger in der Datenbank sind,
 
-1. Fügen Sie die Testprofile hinzu, die die Test-E-Mails erhalten sollen.
+   * **Substitution durch Hauptzielgruppe**: die Test-E-Mail an eine bestimmte E-Mail-Adresse senden, während die Identität eines vorhandenen Profils übernommen wird. Auf diese Weise können Sie die E-Mail so erleben, wie sie die Empfänger erhalten. So erhalten Sie eine genaue Darstellung der Nachricht, die das Profil empfangen wird.
 
-   <!--FOR BETA: You can also build an audience to select test profiles based on your own criteria using the **[!UICONTROL Add test audience]** button.-->
-
-   ![](assets/test-profiles-audience.png)
-
-### Durchführen eines Testversands an Ersatzprofile
-
-1. Wählen Sie den Modus **[!UICONTROL Ersatz der Zielgruppe]**.
-
-1. Fügen Sie die E-Mail-Adresse(n) hinzu, an die die Testsendungen gesendet werden sollen.
+   ![](assets/test-mode.png)
 
    >[!NOTE]
    >
-   >Sie können eine beliebige E-Mail-Adresse angeben. Auf diese Weise können Sie Testsendungen an beliebige Benutzer senden, auch wenn diese nicht Nutzer von Adobe Campaign V8 sind.
+   >Standardmäßig wird die **[!UICONTROL Testprofile]** ausgewählt ist. Wenn Sie bereits Profile ausgewählt haben, um die E-Mail im Bildschirm der Inhaltsimulation in der Vorschau anzuzeigen, werden diese Profile als Testempfänger vorausgewählt. Sie können Ihre Auswahl löschen und/oder zusätzliche Empfänger hinzufügen.
 
-1. Wählen Sie für jede E-Mail-Adresse das zu verwendende Profil aus der Zielgruppe aus. Sie können Adobe Campaign auch ein zufälliges Profil aus der Zielgruppe auswählen lassen.
+1. Um Test-E-Mails an Ersatzprofile zu senden, wählen Sie die **[!UICONTROL Substitution durch Zielgruppe]** -Modus und führen Sie dann die folgenden Schritte aus:
 
-   ![](assets/substitution.png)
+   1. Klicken Sie auf **[!UICONTROL Adresse hinzufügen]** und geben Sie die E-Mail-Adresse an, an die die Test-E-Mail gesendet werden soll.
 
-Nach Auswahl der Testversand-Empfänger können Sie die Test-E-Mail versenden. [Erfahren Sie, wie Sie einen Testversand durchführen](#send)
+      Sie können eine beliebige E-Mail-Adresse eingeben. So können Sie Testadressen an beliebige Benutzer senden, auch wenn diese nicht Adobe Campaign V8 verwenden.
 
->[!NOTE]
->
->Wenn Sie die endgültige E-Mail-Nachricht an die Testversand-Empfänger senden möchten, aktivieren Sie die Option **[!UICONTROL Testpopulation in Hauptzielgruppe einbeziehen]**.
+   1. Wählen Sie das Profil aus der Zielgruppe aus, das zum Senden der Test-E-Mail verwendet werden soll. Sie können Adobe Campaign auch ein zufälliges Profil aus der Zielgruppe auswählen lassen.
 
-## Versenden der Testsendungen {#send}
+   1. Bestätigen Sie den Empfänger und wiederholen Sie den Vorgang, um beliebig viele Adressen hinzuzufügen.
 
-Um die Testsendungen an die ausgewählten Empfänger zu senden, klicken Sie auf **[!UICONTROL Test-E-Mail senden]** und bestätigen Sie dann den Versand.
+      ![](assets/substitution.png)
+
+1. Nachdem die Testempfänger ausgewählt wurden, können Sie die Test-E-Mail senden. [Erfahren Sie, wie Sie Test-E-Mails senden.](#send)
+
+   >[!NOTE]
+   >
+   >Wenn Sie die endgültige E-Mail-Nachricht an die Empfänger der Test-E-Mail senden möchten, aktivieren Sie die **[!UICONTROL Testpopulation in die Hauptzielgruppe einbeziehen]** aktiviert.
+
+## Test-E-Mail senden {#send}
+
+Um die Test-E-Mail an die ausgewählten Empfänger zu senden, klicken Sie auf **[!UICONTROL Test-E-Mail senden]** validieren Sie dann den Versand.
 
 ![](assets/send-proof.png)
 
-Senden Sie so viele Testsendungen wie nötig, bis Sie die endgültigen Inhalte Ihres Versands festgelegt haben. Danach können Sie die E-Mail an die Hauptzielgruppe senden. [Erfahren Sie, wie Sie Ihre E-Mail vorbereiten und senden](../monitor/prepare-send.md)
+Senden Sie so viele Test-E-Mails wie nötig, bis Sie den Inhalt Ihres Versands fertig gestellt haben. Danach können Sie die E-Mail an die Hauptzielgruppe senden. [Erfahren Sie, wie Sie Ihre E-Mail vorbereiten und senden](../monitor/prepare-send.md)
 
-## Testsendungen aufrufen {#access-proofs}
+## Auf gesendete Test-E-Mails zugreifen {#access-proofs}
 
-Sobald die Testsendungen gesendet wurden, können Sie über die Schaltfläche **[!UICONTROL Test-E-Mail-Protokoll anzeigen]** auf dedizierte Protokolle zugreifen. Diese Protokolle ermöglichen den Zugriff auf alle Testsendungen, die für den ausgewählten Versand durchgeführt werden, und die Visualisierung spezifischer Versandstatistiken.
+Sobald die Test-E-Mails gesendet wurden, können Sie über die **[!UICONTROL Anzeigen des E-Mail-Testprotokolls]** Schaltfläche.
+
+Diese Protokolle ermöglichen den Zugriff auf alle Test-E-Mails, die für den ausgewählten Versand gesendet werden, und die Visualisierung spezifischer Statistiken bezüglich des Versands. [Erfahren Sie, wie Sie Versand-Logs überwachen](../monitor/delivery-logs.md)
 
 ![](assets/proof-log.png)
 
-Sie können auch auf Testsendungen aus der Versandliste zugreifen, wie bei jedem Versand.
+Sie können wie bei jedem Versand auch über die Versandliste auf die gesendeten Test-E-Mails zugreifen.
 
 ![](assets/delivery-list.png)

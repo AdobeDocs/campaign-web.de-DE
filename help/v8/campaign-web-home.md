@@ -3,10 +3,10 @@ keywords: Campaign Web;Startseite;beliebte Themen
 description: Hilfe-Center zu Campaign Web v8
 title: Produkt-Dokumentation zu Adobe Campaign Web v8
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: e9afb17fc06de45d0557301b1d3e5a205f23836d
+source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
 workflow-type: tm+mt
-source-wordcount: '119'
-ht-degree: 47%
+source-wordcount: '120'
+ht-degree: 46%
 
 ---
 
@@ -53,7 +53,7 @@ Campaign bietet jetzt eine neue Web-Benutzeroberfläche mit verbesserter Benutze
 <img alt="Validierung" src="assets/do-not-localize/email-config.jpg">
 </a>
 <div>
-<a href="preview-test/proofs.md"><strong>Testen und Senden von Testsendungen</strong></a>
+<a href="preview-test/proofs.md"><strong>Vorschau erstellen und E-Mail testen</strong></a>
 </div>
 <p>
 </td>

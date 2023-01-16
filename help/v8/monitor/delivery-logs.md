@@ -3,9 +3,9 @@ audience: end-user
 title: Überwachen von Versandlogs
 description: Erfahren Sie, wie Sie Versand-Logs überwachen
 exl-id: 2eb7457e-32f7-4729-99c8-91bf287f0192
-source-git-commit: a59c133254632c49618fae6ad3d61a2f6e0a1eea
+source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '295'
 ht-degree: 85%
 
 ---
@@ -39,7 +39,7 @@ Alle Validierungsschritte, Warnungen und Fehler werden aufgelistet. Farbige Symb
 
 ## Sendungen
 
-Die Registerkarte **Sendungen** enthält Informationen zum Verlauf eines Versands. sowie deren Status an. Für jeden einzelnen Empfänger können Sie anhand des Status das Ergebnis des Versands verfolgen.
+Der Tab **Versandlogs** zeigt die Liste der einzelnen Nachrichten eines Versands. sowie deren Status an. Für jeden einzelnen Empfänger können Sie anhand des Status das Ergebnis des Versands verfolgen.
 
 ![](assets/logs2.png)
 

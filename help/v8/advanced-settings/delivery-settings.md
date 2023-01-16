@@ -3,9 +3,9 @@ audience: end-user
 title: E-Mail-Bereitstellungseinstellungen
 description: Erfahren Sie mehr über die Einstellungen für den E-Mail-Versand in der Web-Benutzeroberfläche von Campaign
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: 46d8ac555e554faef91bcc817890466780387d0d
+source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
 workflow-type: tm+mt
-source-wordcount: '1468'
+source-wordcount: '1472'
 ht-degree: 55%
 
 ---
@@ -183,8 +183,8 @@ Sie können die Ausschlussparameter in diesem Abschnitt festlegen. Verfügbare O
 
 * **Quarantäne-Adressen beibehalten** ermöglicht es, alle Profile mit einer Adresse, die nicht reagiert, von der Zielgruppe fernzuhalten.
 
-Sie können auch den Namen der Testsendungen anpassen.
+Sie können auch den Namen der Test-E-Mails anpassen.
 
-Verwenden Sie die **Versandcode für den Testversand beibehalten** dem Testversand denselben Versandcode zuzuordnen, der für den Versand, auf den er sich bezieht, definiert ist.
+Verwenden Sie die **Versandcode für den Testversand beibehalten** , um der Test-E-Mail denselben Versandcode zuzuordnen, der für den Versand, auf den sie sich bezieht, definiert ist.
 
-Standardmäßig erhält der Betreff des Testversands das Präfix &quot;PROOF #&quot;, wobei # die Nummer des Testversands ist. Sie können dieses Präfix im **Titelpräfix** -Feld.
+Standardmäßig erhält der Betreff der Test-E-Mail das Präfix &quot;PROOF #&quot;, wobei # die Nummer der Test-E-Mail ist. Sie können dieses Präfix im **Titelpräfix** -Feld.

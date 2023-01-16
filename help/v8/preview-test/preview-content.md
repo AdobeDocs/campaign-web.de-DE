@@ -3,9 +3,9 @@ audience: end-user
 title: Vorschau von E-Mail-Inhalten
 description: Erfahren Sie, wie Sie mit der Web-Benutzeroberfläche von Campaign eine Vorschau Ihres E-Mail-Inhalts anzeigen können.
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
-source-git-commit: 8438c7ab35c2423beddbb36db2fcf52f661876bf
+source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '238'
 ht-degree: 11%
 
 ---
@@ -30,6 +30,8 @@ Gehen Sie wie folgt vor, um eine Vorschau des Inhalts Ihrer E-Mail anzuzeigen:
 
 1. Rufen Sie den Bildschirm zur Inhaltserstellung für E-Mails auf und klicken Sie auf **[!UICONTROL Inhalt simulieren]** Schaltfläche.
 
+   ![](assets/simulate.png)
+
 1. Wählen Sie ein oder mehrere Profile aus, indem Sie auf **[!UICONTROL Profil(e) auswählen]** und verwenden Sie dann die **[!UICONTROL Testprofile]** und **[!UICONTROL Profile]** Registerkarten zur Auswahl.
 
    Sie können Testprofile und Profile miteinander kombinieren, um eine Vorschau Ihrer E-Mail anzuzeigen.
@@ -40,6 +42,10 @@ Gehen Sie wie folgt vor, um eine Vorschau des Inhalts Ihrer E-Mail anzuzeigen:
 
    Wenn Sie mehrere Profile hinzugefügt haben, können Sie in der Liste zwischen ihnen wechseln, um eine Vorschau der entsprechenden E-Mail anzuzeigen.
 
-   Sie können auch eine Vorschau des Renderings Ihres Inhalts auf verschiedenen Geräten (Desktop, Mobilgerät, Tablet) anzeigen, indem Sie auf das entsprechende Symbol oben rechts klicken.
+   >[!NOTE]
+   >
+   >Sie können eine Vorschau des Renderings Ihres Inhalts auf verschiedenen Geräten (Desktop, Mobilgerät, Tablet) anzeigen, indem Sie auf das entsprechende Symbol oben rechts klicken.
 
    ![](assets/preview.png)
+
+
