@@ -1,11 +1,11 @@
 ---
 audience: end-user
 title: E-Mail-Bereitstellungseinstellungen
-description: Web-Dokumentation zu Campaign v8
+description: Erfahren Sie mehr über die Einstellungen für den E-Mail-Versand in der Web-Benutzeroberfläche von Campaign
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: bd028d11d9468c0d5752691cb08ebd7a49608374
+source-git-commit: 045025367a826eece052367be557e47aaf37dc99
 workflow-type: tm+mt
-source-wordcount: '1447'
+source-wordcount: '1453'
 ht-degree: 56%
 
 ---

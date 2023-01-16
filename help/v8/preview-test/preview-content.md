@@ -1,12 +1,12 @@
 ---
 audience: end-user
 title: Vorschau von E-Mail-Inhalten
-description: Web-Dokumentation zu Campaign v8
+description: Erfahren Sie, wie Sie mit der Web-Benutzeroberfläche von Campaign eine Vorschau Ihres E-Mail-Inhalts anzeigen können.
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: 045025367a826eece052367be557e47aaf37dc99
 workflow-type: tm+mt
-source-wordcount: '219'
-ht-degree: 70%
+source-wordcount: '226'
+ht-degree: 66%
 
 ---
 
