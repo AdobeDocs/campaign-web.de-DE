@@ -3,10 +3,10 @@ audience: end-user
 title: Senden von Angeboten
 description: Senden von Angeboten
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
-source-git-commit: d5fa13813a22b21fdedd90475ee9258f5003e22d
+source-git-commit: de7f135b9ac25c5fe13df6a4033d8ef53d081e44
 workflow-type: tm+mt
-source-wordcount: '508'
-ht-degree: 91%
+source-wordcount: '513'
+ht-degree: 78%
 
 ---
 
@@ -33,11 +33,13 @@ Die wichtigsten Schritte zum Senden von Angeboten mit einer E-Mail sind:
 
 ## Zu unterbreitende Angebote konfigurieren {#configure}
 
-Klicken Sie auf die Schaltfläche **[!UICONTROL Angebote]** im Bildschirm zur Inhaltsbearbeitung der E-Mail und konfigurieren Sie dann die zu unterbreitenden Angebote.
+1. Klicken Sie auf die Schaltfläche **[!UICONTROL Angebote]** im Bildschirm zur Inhaltsbearbeitung der E-Mail.
 
-![](assets/create-content-offers.png)
+   ![](assets/setup-offers.png)
 
-1. Wählen Sie die Ihrer Angebotsumgebung entsprechende **[!UICONTROL Platzierung]** aus.
+1. Konfigurieren Sie, welche Angebote den Empfängern vorgeschlagen werden sollen. Wählen Sie zuerst die **[!UICONTROL Platzierung]** die Ihrer Angebotsumgebung entspricht.
+
+   ![](assets/create-content-offers.png)
 
 1. Um die Angebotsauswahl des Moduls zu verfeinern, wählen Sie eine spezifische **[!UICONTROL Angebotskategorie]**, in der Angebote sortiert werden.
 
@@ -67,10 +69,10 @@ Nachdem Sie die Angebote konfiguriert haben, die in Ihrer E-Mail vorgeschlagen w
 
 ## Einfügen von Angeboten in die E-Mail {#insert}
 
-Angebote werden mit dem Ausdruckseditor in eine E-Mail eingefügt. Sie können wie folgt eingefügt werden:
+Angebote können mit dem Ausdruckseditor zur E-Mail hinzugefügt werden. Sie können wie folgt eingefügt werden:
 
-* in der Betreffzeile der E-Mail,
-* im Textkörper der E-Mail durch Personalisierung in einer beliebigen Inhaltskomponente. [Erfahren Sie, wie Sie Inhaltskomponenten hinzufügen](content-components.md)
+* In der Betreffzeile der E-Mail:
+* Im E-Mail-Textkörper durch Personalisierung in einer beliebigen Inhaltskomponente. [Erfahren Sie, wie Sie Inhaltskomponenten hinzufügen](content-components.md)
 
 >[!NOTE]
 >
