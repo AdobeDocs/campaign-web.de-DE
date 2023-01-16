@@ -3,10 +3,10 @@ audience: end-user
 title: Überwachen von Versandlogs
 description: Erfahren Sie, wie Sie Versand-Logs überwachen
 exl-id: 2eb7457e-32f7-4729-99c8-91bf287f0192
-source-git-commit: 045025367a826eece052367be557e47aaf37dc99
+source-git-commit: a59c133254632c49618fae6ad3d61a2f6e0a1eea
 workflow-type: tm+mt
-source-wordcount: '296'
-ht-degree: 100%
+source-wordcount: '294'
+ht-degree: 85%
 
 ---
 
@@ -45,13 +45,13 @@ Die Registerkarte **Sendungen** enthält Informationen zum Verlauf eines Versand
 
 ## Ausschlüsse
 
-Der Tab **Ausschlusslogs** zeigt die Liste der vom Versand ausgeschlossenen Empfänger und den jeweiligen Ausschlussgrund an.
+Die **Ausschlusslogs** enthält alle Nachrichten, die von der Zielgruppe ausgeschlossen wurden, und gibt den Grund für den Versandfehler an.
 
 ![](assets/logs3.png)
 
 ## Ausschlussgründe
 
-Der Tab **Ausschlussgründe** zeigt die Anzahl an ausgeschlossenen Empfängern pro Ausschlussgrund an.
+Die **Ausschlussgründe** zeigt die Anzahl an ausgeschlossenen Empfängern an.
 
 ![](assets/logs4.png)
 

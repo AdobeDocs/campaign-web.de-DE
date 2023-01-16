@@ -3,7 +3,7 @@ audience: end-user
 title: Definieren einer Zielgruppe mit dem Regel-Builder
 description: Erfahren Sie, wie Sie mit dem Segment Builder arbeiten.
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
-source-git-commit: 045025367a826eece052367be557e47aaf37dc99
+source-git-commit: a59c133254632c49618fae6ad3d61a2f6e0a1eea
 workflow-type: tm+mt
 source-wordcount: '546'
 ht-degree: 76%
@@ -60,7 +60,7 @@ Auf der rechten Seite können Sie im Bereich **Regeleigenschaften** die folgende
 
 ![](assets/segment-builder5.png){width="70%" align="left"}
 
-* **Ergebnisse anzeigen:** zeigt die Liste der von der Audience angesprochenen Empfänger an
+* **Ergebnisse anzeigen:** zeigt die Liste der von der Audience angesprochenen Empfänger an.
 * **Code-Ansicht**: Zeigt eine Code-basierte Version der Audience in SQL an.
 * **Erweiterte Attribute anzeigen**: Aktivieren Sie diese Option, wenn Sie die vollständige Liste der Attribute in der linken Palette anzeigen möchten: Knoten, Gruppierungen, 1:1-Links, 1:n-Links.
 * **Attribute**: zeigt eine Beschreibung der erstellten Audience an.

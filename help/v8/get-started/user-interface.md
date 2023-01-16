@@ -3,10 +3,10 @@ audience: end-user
 title: Erkunden der Benutzeroberfläche
 description: Web-Benutzeroberfläche von Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 871737ba2ab444eaaafde2a3822879629d956e1c
+source-git-commit: a59c133254632c49618fae6ad3d61a2f6e0a1eea
 workflow-type: tm+mt
-source-wordcount: '1155'
-ht-degree: 85%
+source-wordcount: '1166'
+ht-degree: 84%
 
 ---
 
@@ -97,6 +97,10 @@ Navtree view depends on permissions (same as console).
 * **Kampagnen**: Dies ist die Liste Ihrer Kampagnen. Standardmäßig können Sie nützliche Informationen wie das Anfangsdatum/Enddatum/Datum der letzten Änderung sowie ihren Status sehen. Sie können die Liste nach Status oder Anfangsdatum/Enddatum filtern. Darüber hinaus stehen Kampagnenvorlagen zur Verfügung. Diese Listen sind schreibgeschützt.
 
 * **Sendungen**: Durchsuchen Sie Ihre Sendungenliste. Standardmäßig können Sie ihren Status, das Datum der letzten Änderung sowie wichtige KPIs sehen. Sie können die Liste nach Status, Kontaktdatum oder Kanal filtern. Klicken Sie auf einen E-Mail-Versand, um sein Dashboard zu öffnen und sich einen Überblick über die Versanddetails zu verschaffen. Sendungen über andere Kanäle sind schreibgeschützt. Versandvorlagen sind auch im schreibgeschützten Modus verfügbar. Sie können sie über die Client-Konsole bearbeiten. Weitere Informationen finden Sie in dieser [Dokumentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/create-templates.html){target="_blank"}.
+
+   Verwenden Sie die **Mehr Aktionen** zum Löschen oder Duplizieren eines Versands.
+
+   ![](assets/more-actions.png){width="70%" align="left"}
 
 ### Kunden-Management
 

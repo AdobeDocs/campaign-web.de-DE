@@ -3,7 +3,7 @@ audience: end-user
 title: Erste Schritte mit Campaign v8 Web
 description: Erste Schritte mit Campaign v8 Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
-source-git-commit: 045025367a826eece052367be557e47aaf37dc99
+source-git-commit: a59c133254632c49618fae6ad3d61a2f6e0a1eea
 workflow-type: tm+mt
 source-wordcount: '401'
 ht-degree: 23%
@@ -30,12 +30,12 @@ only existing customers
 
 Adobe Campaign bietet eine Plattform für die Gestaltung kanalübergreifender Kundenerlebnisse und eine Umgebung für die visuelle Kampagnenorchestrierung, die Verwaltung von Interaktionen in Echtzeit und die kanalübergreifende Ausführung.
 
-Ursprünglich nur über einen Rich verfügbar [Clientkonsole](#ac-client)bietet Campaign jetzt eine neue Web-Benutzeroberfläche mit verbesserter Benutzerfreundlichkeit, Barrierefreiheit und einem neuen Design, um Ihr Benutzererlebnis erheblich zu verbessern. Diese neue, moderne Benutzeroberfläche vereinfacht das Design und die Bereitstellung von Marketingkampagnen und sorgt für Konsistenz mit anderen Adobe-Lösungen, einschließlich Adobe Experience Platform.
+Zunächst nur über einen Rich verfügbar [Clientkonsole](#ac-client)bietet Campaign jetzt eine neue Web-Benutzeroberfläche mit verbesserter Benutzerfreundlichkeit, Barrierefreiheit und einem neuen Design, um Ihr Benutzererlebnis erheblich zu verbessern. Diese neue, moderne Benutzeroberfläche vereinfacht das Design und die Bereitstellung von Marketingkampagnen und sorgt für Konsistenz mit anderen Adobe-Lösungen, einschließlich Adobe Experience Platform.
 
 
 ![](assets/home.png)
 
-Diese neue Benutzeroberfläche erfüllt zunächst die Anforderungen des **Geschäftspraktiker** - Alle typischen Verwaltungsaufgaben sind in dieser ersten Version nicht verfügbar, werden aber in nachfolgenden Versionen behandelt. Beachten Sie, dass in der neuen Benutzeroberfläche derzeit nicht alle in der Clientkonsole verfügbaren Funktionen und Optionen verfügbar sind. In zukünftigen Versionen werden neue Anwendungsfälle, Optionen und Funktionen verfügbar sein.
+Diese neue Benutzeroberfläche erfüllt zunächst die Anforderungen der **Geschäftspraktiker** - Alle typischen Verwaltungsaufgaben sind in dieser ersten Version nicht verfügbar, werden aber in nachfolgenden Versionen behandelt. Beachten Sie, dass in der neuen Benutzeroberfläche derzeit nicht alle in der Clientkonsole verfügbaren Funktionen und Optionen verfügbar sind. In zukünftigen Versionen werden neue Anwendungsfälle, Optionen und Funktionen verfügbar sein.
 
 Wenn Sie auf die Campaign v8-Funktionen zugreifen müssen, die nicht in der Web-Benutzeroberfläche verfügbar sind, können Sie die [Clientkonsole](#ac-client).
 

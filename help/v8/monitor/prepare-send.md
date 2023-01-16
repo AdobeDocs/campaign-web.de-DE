@@ -3,7 +3,7 @@ audience: end-user
 title: Vorbereiten und Senden einer E-Mail
 description: Erfahren Sie, wie Sie eine E-Mail mit der Web-Benutzeroberfläche von Campaign vorbereiten und senden.
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
-source-git-commit: 542d31b8a869628ed93f2729af844753b4e7921c
+source-git-commit: a59c133254632c49618fae6ad3d61a2f6e0a1eea
 workflow-type: tm+mt
 source-wordcount: '551'
 ht-degree: 83%
@@ -34,7 +34,7 @@ send also KPIs
 
 ## Versandvorbereitung{#prepare}
 
-Wenn Sie Inhalt, Audience und Zeitplan definiert haben, können Sie Ihre Nachricht vorbereiten. Während der Vorbereitung wird die Zielpopulation berechnet und der Nachrichteninhalt für jedes Profil in der Zielgruppe erzeugt. Nachdem die Vorbereitung abgeschlossen ist, können die Nachrichten entweder sofort oder am geplanten Datum und zur geplanten Uhrzeit gesendet werden. Die bei der Analyse verwendeten Validierungsregeln werden in diesem Abschnitt beschrieben. [Dokumentation zu Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html?lang=de#validation-process-with-typologies){target="_blank"}.
+Wenn Sie Inhalt, Audience und Zeitplan definiert haben, können Sie Ihre Nachricht vorbereiten. Während der Vorbereitung wird die Zielpopulation berechnet und der Nachrichteninhalt für jedes Profil in der Zielgruppe erzeugt. Nachdem die Vorbereitung abgeschlossen ist, können die Nachrichten entweder sofort oder am geplanten Datum und zur geplanten Uhrzeit gesendet werden. Die bei der Analyse verwendeten Validierungsregeln werden im Abschnitt [Dokumentation zu Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html?lang=de#validation-process-with-typologies){target="_blank"}.
 
 Gehen Sie dazu wie folgt vor:
 
