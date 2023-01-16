@@ -1,25 +1,25 @@
 ---
 audience: end-user
-title: Durchführen eines Testversands
-description: Hier erfahren Sie, wie Sie Testversandnachrichten definieren und versenden.
+title: Test-E-Mails senden
+description: Erfahren Sie, wie Sie Test-E-Mails definieren und senden
 exl-id: b2677579-c95d-443d-b207-466af364c208
-source-git-commit: 045025367a826eece052367be557e47aaf37dc99
+source-git-commit: 8438c7ab35c2423beddbb36db2fcf52f661876bf
 workflow-type: tm+mt
-source-wordcount: '382'
-ht-degree: 77%
+source-wordcount: '402'
+ht-degree: 62%
 
 ---
 
-# Durchführen eines Testversands {#send-proofs}
+# Test-E-Mails senden {#send-proofs}
 
 ![](../assets/do-not-localize/badge.png)
 
-Durch den Versand von Test-E-Mails können Sie Ihre E-Mail validieren und verschiedene Elemente wie Links, Ausschluss-Links und Mirrorseiten sowie Bilder überprüfen und mögliche Fehler erkennen.
+Der Versand von Test-E-Mails ist ein wichtiger Schritt zur Validierung Ihrer E-Mail-Kampagne und zur Identifizierung potenzieller Probleme. Durch den Versand von Test-E-Mails können Sie verschiedene Elemente wie Links, Opt-out-Links, Bilder und Mirrorseiten überprüfen und Fehler erkennen.
 
-Testsendungen können an zwei Empfängertypen gesendet werden:
+Test-E-Mails können an zwei Empfängertypen gesendet werden:
 
-* **Testprofile**: Testsendungen an Testadressen, die zusätzliche fiktive Empfänger in der Datenbank sind,
-* **Ersatzprofile**: Führen Sie Testsendungen an eine bestimmte E-Mail-Adresse mithilfe eines vorhandenen Profils durch. Dies ermöglicht es Ihnen, sich selbst in die Position der Profile zu versetzen und eine genaue Darstellung der Nachricht zu erhalten, die das Profil empfangen wird.
+* **Testprofile**: Testadressen, bei denen es sich um zusätzliche fiktive Empfänger in der Datenbank handelt, mit Test-E-Mails versenden,
+* **Ersatzprofile**: Testversand-E-Mails an eine bestimmte E-Mail-Adresse senden, während die Identität eines vorhandenen Profils übernommen wird. Auf diese Weise können Sie die E-Mail so erleben, wie sie die Empfänger erhalten. So erhalten Sie eine genaue Darstellung der Nachricht, die das Profil empfangen wird.
 
 ## Auswählen der Testversand-Empfänger {#recipients}
 
