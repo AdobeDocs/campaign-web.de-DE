@@ -3,10 +3,10 @@ audience: end-user
 title: Versandberichte
 description: Erfahren Sie, wie Sie auf Versandberichte zugreifen und diese verwenden
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
-source-git-commit: 542d31b8a869628ed93f2729af844753b4e7921c
+source-git-commit: a915902b6a4c5423492e87718681e783554fbc01
 workflow-type: tm+mt
 source-wordcount: '385'
-ht-degree: 89%
+ht-degree: 84%
 
 ---
 
@@ -25,31 +25,55 @@ Adobe Campaign bietet verschiedene Berichtstypen für jeden Versand. Mit diesen 
 Führen Sie folgende Schritte aus, um Berichte anzuzeigen:
 
 1. Greifen Sie auf Ihren E-Mail-Versand zu und klicken Sie auf die Schaltfläche **Bericht**.
+
+   ![](assets/reporting.png)
+
 1. Wählen Sie im linken Menü einen Bericht aus der Liste aus.
 
-![](assets/reporting.png)
+   ![](assets/reporting2.png){width="70%" align="left"}
 
-**Versand**
+## Versand
 
-* **Versandzusammenfassung** Dieser Bericht enthält die wichtigsten Informationen zu einem Versand. Zielgruppen-Population, Ausschlussgründe, Versandstatistiken
+* **Versandzusammenfassung** Dieser Bericht enthält die wichtigsten Informationen zu einem Versand. Zielgruppen-Population, Ausschlussgründe, Versandstatistiken.
+
+   ![](assets/reporting3.png)
 
 * **Versanddurchsatz**: Dieser Bericht enthält Informationen zum Versanddurchsatz in einem bestimmten Zeitraum. Zur Messung der Versandgeschwindigkeit von Nachrichten werden als Kriterien die Anzahl der pro Stunde gesendeten Nachrichten und die gesendete Nachrichtengröße in Bits pro Sekunde herangezogen. Im folgenden Beispiel zeigt das erste Diagramm die erfolgreichen Sendungen in Blau und die Anzahl der fehlerhaften Sendungen in Orange an.
 
-* **Broadcast-Statistiken**: Dieser Bericht enthält die Anzahl der verarbeiteten E-Mails sowie den prozentualen Anteil an zugestellten Nachrichten, Hard- und Softbounces, Öffnungen, Klicks und Abmeldungen aufgeschlüsselt nach Internet-Domain.
-Fehler und Bounces: Dieser Bericht zeigt eine Aufschlüsselung der Fehler und Bounces nach Internet-Domain.
+   ![](assets/reporting3bis.png)
 
-**Tracking**
+* **Broadcast-Statistiken**: Dieser Bericht enthält die Anzahl der verarbeiteten E-Mails sowie den prozentualen Anteil an zugestellten Nachrichten, Hard- und Softbounces, Öffnungen, Klicks und Abmeldungen aufgeschlüsselt nach Internet-Domain.
+
+   ![](assets/reporting4.png)
+
+* **Fehler und Bounces**: Dieser Bericht zeigt die Verteilung der fehlgeschlagenen Zustellversuche sowie die Verteilung der Bounces nach Domain.
+
+   ![](assets/reporting5.png)
+
+## Tracking
 
 * **Tracking-Indikatoren**: Dieser Bericht kombiniert die wichtigsten Indikatoren zur Verfolgung des Empfängerverhaltens beim Erhalt des Versands. Er bietet Zugriff auf Versand- und Empfangsstatistiken, Öffnungs- und Klickraten, generierte Clickstreams, Webtracking sowie Teilungsaktivitäten in sozialen Netzwerken.
 
+   ![](assets/reporting6.png)
+
 * **URLs und Clickstreams**: Dieser Bericht zeigt die nach einem Versand besuchten Seiten an.
+
+   ![](assets/reporting7.png)
 
 * **Benutzeraktivitäten**: Dieser Bericht zeigt die Öffnungs- und Klickverteilung pro halber Stunde, Stunde oder Tag in Form eines Diagramms.
 
+   ![](assets/reporting8.png)
+
 * **Trackingstatistiken**: Dieser Bericht enthält Statistiken zu Öffnungen und Klicks.
+
+   ![](assets/reporting9.png)
 
 * **Öffnungsverteilung**: Dieser Bericht zeigt die Verteilung der Öffnungen nach Betriebssystem, Gerät und Browser im betreffenden Zeitraum. Für jede Kategorie werden zwei Diagramme verwendet. Das erste zeigt Statistiken zu Öffnungen auf Computern und Mobilgeräten. Das zweite stellt Statistiken dar, die sich nur auf Öffnungen auf Mobilgeräten beziehen.
 
-**Hotclicks**
+   ![](assets/reporting10.png)
+
+## Hotclicks
 
 Er zeigt den Nachrichteninhalt (HTML und/oder Text) mit dem prozentualen Klickanteil für jeden Link. Abmelde-Links in Gestaltungsbausteinen sowie Mirrorseiten-Links und Angebots-Links werden in der Gesamtklickzahl berücksichtigt, in diesem Bericht jedoch nicht angezeigt.
+
+![](assets/reporting11.png)
