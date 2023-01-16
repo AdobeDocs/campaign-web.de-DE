@@ -3,10 +3,10 @@ audience: end-user
 title: Versionshinweise zu Campaign Web v8
 description: Versionshinweise zu Campaign Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: 370f0fe14d19c9dc2a20653fb3f54da1ec6d2811
+source-git-commit: bbd1266ec1b7ee80f923e96e1824509556efc65f
 workflow-type: tm+mt
-source-wordcount: '154'
-ht-degree: 28%
+source-wordcount: '195'
+ht-degree: 12%
 
 ---
 
@@ -22,16 +22,21 @@ Diese neue Campaign-Webschnittstelle ist derzeit nur für **Alpha-Fachkräfte** 
 
 **Modernes, intuitives und einheitliches Erlebnis**
 
+Die neue Web-Benutzeroberfläche von Campaign bietet ein neues Benutzererlebnis, das mit allen Adobe Experience Cloud-Lösungen und -Apps abgestimmt ist. Es bietet:
+
 * Zugriff auf die neue Benutzeroberfläche und andere Adobe-Lösungen mit einer einzigen und freigegebenen Benutzersitzung
-* Unified Shell-Integration: Zugriff auf Community-Lernprogramme, Hilfezentrum, Lösungsschalter
+* Neues Navigationserlebnis mit allen verfügbaren Menüs und Ordnern in der linken Leiste
+* Lösungs- und Organisationsschalter von der oberen Leiste aus
+* Unified Shell-Integration mit direktem Zugriff auf Community, Hilfezentrum und Support
 <!--
 No search and pulse notifications in Alpha
 -->
-* Erleben Sie die neue Navigation mit linken Menüs und Ordnern
 
 Erfahren Sie mehr über die neue Benutzeroberfläche in [diese Seite](../get-started/user-interface.md).
 
 **Erstellen, Starten und Messen Ihrer E-Mail-Kampagne**
+
+Verwenden Sie die neue Campaign-Web-Benutzeroberfläche, um:
 
 * Gestalten Sie personalisierte E-Mail-Inhalte mit Email Designer - [Weitere Infos](../content/edit-content.md)
 * Definieren von Zielgruppen mit dem Regel-Builder - [Weitere Infos](../audience/about-audiences.md)
@@ -46,4 +51,4 @@ add info somewhere to remind users that
 
 >[!NOTE]
 >
->Beachten Sie, dass kanalübergreifende Kampagnen und Workflow-Management-Funktionen im Beta-Programm verfügbar sein werden.
+>Bitte beachten Sie, dass die Beta-Version künftig kanalübergreifende Kampagnen und Workflow-Verwaltungsfunktionen bereitstellt.
