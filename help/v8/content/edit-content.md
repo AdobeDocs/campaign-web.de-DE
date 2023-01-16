@@ -3,10 +3,10 @@ audience: end-user
 title: Bearbeiten des E-Mail-Inhalts
 description: Erfahren Sie, wie Sie den E-Mail-Inhalt in der Web-Benutzeroberfläche von Campaign bearbeiten
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-source-git-commit: 46d8ac555e554faef91bcc817890466780387d0d
+source-git-commit: 27dacb863699538c770054805ed3a5f6fa74fa84
 workflow-type: tm+mt
-source-wordcount: '331'
-ht-degree: 70%
+source-wordcount: '334'
+ht-degree: 60%
 
 ---
 
@@ -48,9 +48,9 @@ Gehen Sie wie folgt vor, um den Inhalt Ihrer E-Mail zu definieren:
 
 1. Definieren Sie den **[!UICONTROL Betreff]** der E-Mail. Geben Sie dazu Ihren Betreff direkt in das dedizierte Feld ein oder öffnen Sie den Ausdruckseditor, um eine Personalisierung mit verschiedenen Attributen und Inhaltsbausteinen oder Angeboten zu definieren. [Erfahren Sie, wie Sie Inhalte personalisieren](../personalization/personalize.md)
 
-1. Wenn Sie Angebote mit Ihrer E-Mail versenden möchten, wählen Sie sie mithilfe der Schaltfläche **[!UICONTROL Angebote]**. Sie können sie dann mithilfe von Personalisierungsfeldern in die E-Mail einfügen. [Erfahren Sie, wie Sie Angebote senden](offers.md)
+1. Wenn Sie Angebote mit Ihrer E-Mail versenden möchten, wählen Sie sie mithilfe der **[!UICONTROL Angebote einrichten]** Schaltfläche. Sie können sie dann mithilfe von Personalisierungsfeldern in die E-Mail einfügen. [Erfahren Sie, wie Sie Angebote senden](offers.md)
 
-1. Klicken Sie auf die Schaltfläche **[!UICONTROL E-Mail-Designer]**, um den Inhalt der E-Mail zu strukturieren und zu gestalten. Weitere Informationen zum Entwerfen von E-Mail-Inhalten finden Sie in diesen Abschnitten:
+1. Klicken Sie auf **[!UICONTROL Bearbeiten des E-Mail-Hauptteils]** -Schaltfläche, um den Inhalt der E-Mail zu strukturieren und zu gestalten. Weitere Informationen zum Entwerfen von E-Mail-Inhalten finden Sie in diesen Abschnitten:
 
    * [Erfahren Sie, wie Sie E-Mails entwerfen](create-email-content.md)
    * [Gestalten Ihrer Inhalte](get-started-email-style.md)
@@ -64,5 +64,3 @@ Gehen Sie wie folgt vor, um den Inhalt Ihrer E-Mail zu definieren:
 1. Standardmäßig ist Tracking für den Versand aktiviert. Sie können diese Option über **[!UICONTROL Optionale Funktionen]** Abschnitt. [Erfahren Sie, wie Sie Links hinzufügen und das Tracking verwalten](message-tracking.md)
 
 Sobald der Inhalt Ihrer E-Mail definiert wurde, verwenden Sie die Schaltfläche **[!UICONTROL Inhalt simulieren]**, um vor dem Versand zu überprüfen, wie sie angezeigt wird. [Erfahren Sie, wie Sie Ihre E-Mail in der Vorschau anzeigen und testen können](../preview-test/preview-test.md)
-
-<!-- show screenshot showing an email fully configured + highlight the simulate content button-->
