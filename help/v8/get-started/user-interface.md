@@ -3,9 +3,9 @@ audience: end-user
 title: Erkunden der Benutzeroberfläche
 description: Web-Benutzeroberfläche von Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 00e2f0bad4cb64e2142ad85947fd92ebebc20365
+source-git-commit: 871737ba2ab444eaaafde2a3822879629d956e1c
 workflow-type: tm+mt
-source-wordcount: '1153'
+source-wordcount: '1155'
 ht-degree: 85%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 85%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learnmore"
->title="Schnittstelle"
+>title="Erkunden der Benutzeroberfläche"
 >abstract="Die neue Campaign v8-Webschnittstelle bietet ein integriertes, intuitives und konsistentes Benutzererlebnis."
 
 Die neue Campaign v8-Webschnittstelle bietet ein modernes und intuitives Benutzererlebnis, um die Erstellung und Bereitstellung von Marketingkampagnen zu vereinfachen. Diese neue Benutzeroberfläche ist in Adobe Experience Platform integriert.

@@ -3,10 +3,10 @@ audience: end-user
 title: Senden Ihrer ersten E-Mail
 description: Erfahren Sie, wie Sie Ihre erste E-Mail mit der Campaign-Web-Benutzeroberfläche senden.
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 9f33cd1bfcd32fb79b38d2da0ae88cda462b81c8
+source-git-commit: 871737ba2ab444eaaafde2a3822879629d956e1c
 workflow-type: tm+mt
-source-wordcount: '1276'
-ht-degree: 23%
+source-wordcount: '1272'
+ht-degree: 22%
 
 ---
 
@@ -62,8 +62,8 @@ Mithilfe einer vordefinierten Design-Vorlage bietet die E-Mail auch personalisie
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card3"
->title="Erfahren Sie, wie Sie mit E-Mail-Designer E-Mail-Inhalte gestalten."
->abstract="Erfahren Sie, wie Sie Inhalte gestalten."
+>title="Erfahren Sie, wie Sie E-Mail-Inhalte erstellen"
+>abstract="Erfahren Sie, wie Sie Email Designer verwenden."
 
 In diesem Anwendungsbeispiel verwenden wir eine vordefinierte Vorlage, um unsere E-Mail zu erstellen.
 
@@ -201,6 +201,6 @@ Nach der Überprüfung und dem Testen Ihrer E-Mail können Sie die Vorbereitung 
 
    Sie können auch auf detaillierte Informationen zum Versand zugreifen, indem Sie auf die **[!UICONTROL Protokolle]** Schaltfläche. [Erfahren Sie, wie Sie Versand-Logs überwachen](../monitor/delivery-logs.md)
 
-1. Nachdem die E-Mail gesendet wurde, können Sie auf spezielle Berichte zugreifen, die Sie für weitere Analysen nutzen können, indem Sie auf die Schaltfläche **[!UICONTROL Berichterstellung]** Schaltfläche.
+1. Nach dem Versand der E-Mail können Sie auf spezielle Berichte zugreifen, die Sie für weitere Analysen nutzen können, indem Sie auf die Schaltfläche **[!UICONTROL Berichterstellung]** Schaltfläche.
 
 ![](assets/reports.png)
