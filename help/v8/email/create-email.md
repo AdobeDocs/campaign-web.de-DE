@@ -201,6 +201,6 @@ Nach der Überprüfung und dem Testen Ihrer E-Mail können Sie die Vorbereitung 
 
    Sie können auch auf detaillierte Informationen zum Versand zugreifen, indem Sie auf die **[!UICONTROL Protokolle]** Schaltfläche. [Erfahren Sie, wie Sie Versand-Logs überwachen](../monitor/delivery-logs.md)
 
-1. Nach dem Versand der E-Mail können Sie auf spezielle Berichte zugreifen, die Sie für weitere Analysen nutzen können, indem Sie auf die Schaltfläche **[!UICONTROL Berichterstellung]** Schaltfläche.
+1. Nachdem die E-Mail gesendet wurde, können Sie auf spezielle Berichte zugreifen, die Sie für weitere Analysen nutzen können, indem Sie auf die Schaltfläche **[!UICONTROL Berichterstellung]** Schaltfläche.
 
 ![](assets/reports.png)
