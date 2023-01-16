@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
-source-git-commit: 46d8ac555e554faef91bcc817890466780387d0d
+source-git-commit: 51bd6f405ad151e2264d69c57ffe5e1783077203
 workflow-type: tm+mt
-source-wordcount: '651'
-ht-degree: 27%
+source-wordcount: '653'
+ht-degree: 23%
 
 ---
 
@@ -80,17 +80,17 @@ Integrierte Inhaltsbausteine sind:
 * **[!UICONTROL Aktiviert von Adobe Campaign]** : fügt das Logo &quot;Aktiviert durch Adobe Campaign&quot;ein.
 * **[!UICONTROL Formatierungsfunktion für Eigennamen]**: Hiermit wird die JavaScript-Funktion **[!UICONTROL toSmartCase]** erstellt, mit der der erste Buchstabe eines jeden Worts in einen Großbuchstaben umgewandelt wird.
 * **[!UICONTROL Grußformeln]**: Hiermit werden Grußformeln mit dem Empfängernamen eingefügt, z. B. &quot;Guten Tag, Max Mustermann&quot;.
-* **[!UICONTROL Logo einfügen]**: Hiermit wird ein natives Logo eingefügt, das beim Konfigurieren der Instanz definiert wurde.
+* **[!UICONTROL Logo einfügen]** : fügt ein Logo ein, das in den Instanzeinstellungen definiert ist.
 * **[!UICONTROL Link zur Mirror-Seite]**: Hiermit wird der Link zur Mirror-Seite „Wenn die Nachricht nicht richtig angezeigt wird, bitte hier klicken“ eingefügt.
 * **[!UICONTROL Mirrorseiten-URL]**: Hiermit wird die Mirrorseiten-URL eingefügt, damit Versanddesigner den Link prüfen können.
-* **[!UICONTROL Annahme-URL des Angebots im Einzelmodus]** : fügt eine URL ein, mit der ein Interaction-Angebot auf **[!UICONTROL Akzeptiert]**.
+* **[!UICONTROL Annahme-URL des Angebots im Einzelmodus]** : fügt eine URL ein, mit der ein Angebot auf **[!UICONTROL Akzeptiert]**.
 * **[!UICONTROL URL der Registrierungsseite]** : fügt eine Anmelde-URL ein.
-* **[!UICONTROL Anmelde-Link]**: Hiermit wird ein Anmelde-Link eingefügt. Dieser Link muss beim Konfigurieren der Instanz definiert werden. Der Standardinhalt lautet: &quot;Klicken Sie hier, um sich zu registrieren.&quot;
-* **[!UICONTROL Registrierungslink (mit Werber)]**: Hiermit wird ein Anmelde-Link eingefügt, über den der Besucher und der Versand identifiziert werden kann. Der Link wurde beim Konfigurieren der Instanz definiert.
+* **[!UICONTROL Anmelde-Link]**: Hiermit wird ein Anmelde-Link eingefügt. Dieser Link wird in den Instanzeinstellungen definiert. Der Standardinhalt lautet: &quot;Klicken Sie hier, um sich zu registrieren.&quot;
+* **[!UICONTROL Registrierungslink (mit Werber)]**: Hiermit wird ein Anmelde-Link eingefügt, über den der Besucher und der Versand identifiziert werden kann. Dieser Link wird in den Instanzeinstellungen definiert.
 * **[!UICONTROL Anmeldebestätigung]**: Hiermit wird ein Link eingefügt, mit dem die Anmeldung bestätigt werden kann.
 * **[!UICONTROL Teilen-Links sozialer Netzwerke]** : Hiermit werden Schaltflächen eingefügt, mit denen der Empfänger einen Link zum Inhalt der Mirrorseite freigeben kann.
 * **[!UICONTROL Stil der Inhalts-E-Mails]** und **[!UICONTROL Stil der Benachrichtigungen]**: Hiermit wird Code erstellt, mit dem eine E-Mail mit nativen HTML-Stilen formatiert werden kann.
-* **[!UICONTROL Abmelde-Link]**: Hiermit wird ein Link zur Abmeldung von allen Nachrichten (Blockierungsliste) eingefügt. Der standardmäßig verknüpfte Inhalt ist: &quot;Sie erhalten diese Nachricht, da Sie mit `<your rganization name>` oder einem Affiliate. So empfangen Sie keine Nachrichten mehr von `<your rganization name>` Klicken Sie hier.&quot;
+* **[!UICONTROL Abmelde-Link]**: Hiermit wird ein Link zur Abmeldung von allen Nachrichten (Blockierungsliste) eingefügt. Der standardmäßig verknüpfte Inhalt ist: &quot;Sie erhalten diese Nachricht, da Sie mit ***Name Ihres Unternehmens*** oder einem Affiliate. So empfangen Sie keine Nachrichten mehr von ***Name Ihres Unternehmens*** Klicken Sie hier.&quot;
 
 
 ## Links in E-Mails personalisieren {#personalize-links}
