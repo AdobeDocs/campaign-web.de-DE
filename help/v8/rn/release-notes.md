@@ -3,9 +3,9 @@ audience: end-user
 title: Versionshinweise zu Campaign Web v8
 description: Versionshinweise zu Campaign Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: 6f9c5d039a2bc2b3e5ee9359311184c8d5cb6a28
+source-git-commit: b021a693277ba61a580e1fcaa8ec287f0dbeadb9
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '298'
 ht-degree: 8%
 
 ---
@@ -57,7 +57,7 @@ add info somewhere to remind users that
 
 Beachten Sie, dass einige Konzepte als bestehender Campaign-Benutzer in Übereinstimmung mit den neuesten Terminologiestandards umbenannt wurden. Diese Änderungen gelten nur für die Campaign-Web-Benutzeroberfläche und werden nicht in der Client-Konsole übernommen. Sie sind unten zusammengefasst.
 
-* Testsendungen sind jetzt verfügbar **E-Mails testen**: zum Testversand verwenden Sie die **Test** in der Benutzeroberfläche des E-Mail-Versands. Die Testversand-Zielgruppe wird jetzt als **Testprofile**
+* Testsendungen sind jetzt verfügbar **E-Mails testen**: zum Testversand verwenden Sie die **Test** in der Benutzeroberfläche des E-Mail-Versands. Die Zielgruppe der Testversand-Zielgruppe wird jetzt als **Testprofile**
 * Die Versandanalyse ist jetzt **Versandvorbereitung**. Wenn Sie die Analyse starten möchten, klicken Sie auf die Schaltfläche **Vorbereiten** button
 * Die E-Mail-Vorschau ist jetzt über die **Inhalt simulieren** button
 * Listen sind jetzt **Zielgruppen**
