@@ -1,16 +1,16 @@
 ---
 audience: end-user
-title: Über Vorschau und Test
-description: Erfahren Sie, wie Sie eine Vorschau von Nachrichten anzeigen und E-Mails testen können.
+title: Über die E-Mail-Vorschau und den Test
+description: Erfahren Sie, wie Sie E-Mails in der Vorschau anzeigen und testen können.
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
-source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
+source-git-commit: d305cc7055008ecf25e41a51fabe1e5ece683b72
 workflow-type: tm+mt
 source-wordcount: '110'
 ht-degree: 7%
 
 ---
 
-# Über Vorschau und Testen von E-Mails {#about-preview-proofs}
+# Über die E-Mail-Vorschau und den Test {#about-preview-proofs}
 
 ![](../assets/do-not-localize/badge.png)
 

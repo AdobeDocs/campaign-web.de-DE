@@ -3,10 +3,10 @@ audience: end-user
 title: Vorschau von E-Mail-Inhalten
 description: Erfahren Sie, wie Sie mit der Web-Benutzeroberfläche von Campaign eine Vorschau Ihres E-Mail-Inhalts anzeigen können.
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
-source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
+source-git-commit: d305cc7055008ecf25e41a51fabe1e5ece683b72
 workflow-type: tm+mt
-source-wordcount: '238'
-ht-degree: 11%
+source-wordcount: '257'
+ht-degree: 10%
 
 ---
 
@@ -21,18 +21,16 @@ ht-degree: 11%
 
 Mit Adobe Campaign können Sie eine Vorschau des Inhalts Ihrer E-Mail anzeigen, bevor Sie ihn senden, um die Personalisierung und die Darstellung Ihrer Empfänger zu überprüfen.
 
-Sie können eine Vorschau einer E-Mail anzeigen, indem Sie Folgendes verwenden:
-
-* **Testprofile**: Vorschau der E-Mail mit Testadressen, die zusätzliche fiktive Empfänger in der Datenbank sind,
-* **Profile**: Erstellen Sie eine Vorschau der E-Mail mit einem vorhandenen Profil.
-
 Gehen Sie wie folgt vor, um eine Vorschau des Inhalts Ihrer E-Mail anzuzeigen:
 
 1. Rufen Sie den Bildschirm zur Inhaltserstellung für E-Mails auf und klicken Sie auf **[!UICONTROL Inhalt simulieren]** Schaltfläche.
 
    ![](assets/simulate.png)
 
-1. Wählen Sie ein oder mehrere Profile aus, indem Sie auf **[!UICONTROL Profil(e) auswählen]** und verwenden Sie dann die **[!UICONTROL Testprofile]** und **[!UICONTROL Profile]** Registerkarten zur Auswahl.
+1. Wählen Sie ein oder mehrere Profile aus, indem Sie auf **[!UICONTROL Profil(e) auswählen]** und verwenden Sie dann die **[!UICONTROL Testprofile]** und **[!UICONTROL Profile]** Registerkarten zur Auswahl aus:
+
+   * Die **Testprofile** enthält Testadressen, die zusätzliche fiktive Empfänger in der Datenbank sind. Sie können in der Adobe Campaign-Konsole in der **[!UICONTROL Ressourcen]** / **[!UICONTROL Campaign Management]** / **[!UICONTROL Testadressen]** Ordner.
+   * Die **Profile** enthält alle Empfänger, die im **[!UICONTROL Profile und Zielgruppen]** in der Campaign-Konsole.
 
    Sie können Testprofile und Profile miteinander kombinieren, um eine Vorschau Ihrer E-Mail anzuzeigen.
 

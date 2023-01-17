@@ -3,9 +3,9 @@ audience: end-user
 title: Test-E-Mails senden
 description: Erfahren Sie, wie Sie Test-E-Mails definieren und senden
 exl-id: b2677579-c95d-443d-b207-466af364c208
-source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
+source-git-commit: d305cc7055008ecf25e41a51fabe1e5ece683b72
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '540'
 ht-degree: 8%
 
 ---
@@ -18,7 +18,7 @@ Der Versand von Test-E-Mails ist ein wichtiger Schritt zur Validierung Ihrer E-M
 
 Test-E-Mails können an zwei Empfängertypen gesendet werden:
 
-* **Testprofile**: Testadressen, bei denen es sich um zusätzliche fiktive Empfänger in der Datenbank handelt, mit Test-E-Mails versenden,
+* **Testprofile**: Testversand-E-Mails an Testadressen, die zusätzliche fiktive Empfänger in der Datenbank sind. Sie können in der Adobe Campaign-Konsole in der **[!UICONTROL Ressourcen]** / **[!UICONTROL Campaign Management]** / **[!UICONTROL Testadressen]** Ordner.
 
 * **Substitution durch Hauptzielgruppe**: Testversand-E-Mails an eine bestimmte E-Mail-Adresse senden, während die Identität eines vorhandenen Profils übernommen wird. Auf diese Weise können Sie die E-Mail so erleben, wie sie die Empfänger erhalten. So erhalten Sie eine genaue Darstellung der Nachricht, die das Profil empfangen wird.
 
