@@ -4,7 +4,7 @@ title: Verwenden der Inhaltskomponenten von E-Mail-Designer
 description: Erfahren Sie, wie Sie Inhaltskomponenten in E-Mails verwenden
 exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
 source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1085'
 ht-degree: 100%
 
@@ -139,7 +139,7 @@ Verwenden Sie die Komponente **[!UICONTROL HTML]**, um die unterschiedlichen Tei
 
    ![](assets/email_designer_22.png)
 
-1. Klicken Sie auf die neu hinzugefügte Komponente und dann in der kontextbezogenen Symbolleiste auf **[!UICONTROL Quell-Code anzeigen]**, um Ihren HTML-Code hinzuzufügen.
+1. Klicken Sie auf die neu hinzugefügte Komponente und dann in der kontextuellen Symbolleiste auf **[!UICONTROL Quell-Code anzeigen]**, um Ihren HTML-Code hinzuzufügen.
 
    ![](assets/email_designer_23.png)
 
