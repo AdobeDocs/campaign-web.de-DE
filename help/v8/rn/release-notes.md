@@ -3,10 +3,10 @@ audience: end-user
 title: Versionshinweise zu Campaign Web v8
 description: Versionshinweise zu Campaign Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: 0f7775d2c079c7d7c228249d81d9cba8e0d9619c
+source-git-commit: 54bcb9b0ba8704cde8beaf1b0400eaa01bba0b15
 workflow-type: tm+mt
-source-wordcount: '298'
-ht-degree: 8%
+source-wordcount: '322'
+ht-degree: 12%
 
 ---
 
@@ -24,7 +24,7 @@ Diese neue Campaign-Webschnittstelle ist derzeit nur für **Alpha-Fachkräfte** 
 
 Die neue Web-Benutzeroberfläche von Campaign bietet ein neues Benutzererlebnis, das mit allen Adobe Experience Cloud-Lösungen und -Apps abgestimmt ist. Es bietet:
 
-* Zugriff auf die neue Benutzeroberfläche und andere Adobe-Lösungen mit einer einzigen und freigegebenen Benutzersitzung
+* Zugriff auf die neue Benutzeroberfläche und andere Adobe-Lösungen über eine einzige, gemeinsam genutzte Benutzersitzung
 * Neues Navigationserlebnis mit allen verfügbaren Menüs und Ordnern in der linken Leiste
 * Lösungs- und Organisationsschalter von der oberen Leiste aus
 * Unified Shell-Integration mit direktem Zugriff auf Community, Hilfezentrum und Support
@@ -58,6 +58,7 @@ add info somewhere to remind users that
 Beachten Sie, dass einige Konzepte als bestehender Campaign-Benutzer in Übereinstimmung mit den neuesten Terminologiestandards umbenannt wurden. Diese Änderungen gelten nur für die Campaign-Web-Benutzeroberfläche und werden nicht in der Client-Konsole übernommen. Sie sind unten zusammengefasst.
 
 * Testsendungen sind jetzt verfügbar **E-Mails testen**: zum Testversand verwenden Sie die **Test** in der Benutzeroberfläche des E-Mail-Versands. Die Zielgruppe der Testversand-Zielgruppe wird jetzt als **Testprofile**
+* Testadressen werden jetzt als **Testprofile**: die Test-E-Mail an Testadressen senden, die zusätzliche fiktive Empfänger in der Datenbank sind
 * Die Versandanalyse ist jetzt **Versandvorbereitung**. Wenn Sie die Analyse starten möchten, klicken Sie auf die Schaltfläche **Vorbereiten** button
 * Die E-Mail-Vorschau ist jetzt über die **Inhalt simulieren** button
 * Listen sind jetzt **Zielgruppen**
