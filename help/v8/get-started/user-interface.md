@@ -3,7 +3,7 @@ audience: end-user
 title: Erkunden der Benutzeroberfläche
 description: Web-Benutzeroberfläche von Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: e8226b571986d099dcf0277c4ef2f3076ea1592d
+source-git-commit: a911bdca4bc83b770ff1c4537c3fc06a5b43026f
 workflow-type: tm+mt
 source-wordcount: '1301'
 ht-degree: 88%
@@ -184,16 +184,50 @@ Campaign v8 Web ist so konzipiert, dass es in der neuesten Version von Google Ch
 
 Campaign v8 Web ist derzeit in den folgenden Sprachen verfügbar:
 
-* Englisch (US) - EN-US
-* Französisch - FR
-* Deutsch - DE
-* Italienisch - IT
-* Spanisch - ES
-* Portugiesisch (Brasilianisch) - PTBR
-* Japanisch - JP
-* Koreanisch - KR
-* Vereinfachtes Chinesisch - CHS
-* Traditionelles Chinesisch - CHT
+<table>
+<tr>
+<td>
+<p>Englisch (US) - EN-US</p>
+</td>
+<td>
+<p>Spanisch - ES</p>
+</td>
+<td>
+<p>Koreanisch - KR</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Französisch - FR</p>
+</td>
+<td>
+<p>Portugiesisch (Brasilianisch) - PTBR</p>
+</td>
+<td>
+<p>Vereinfachtes Chinesisch - CHS</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Deutsch - DE</p>
+</td>
+<td>
+<p>Japanisch - JP</p>
+</td>
+<td>
+<p>Traditionelles Chinesisch - CHT</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Italienisch - IT</p>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+</table>
 
 Die Standardsprache der Benutzeroberfläche wird von der in Ihrem Benutzerprofil angegebenen bevorzugten Sprache bestimmt.
 
