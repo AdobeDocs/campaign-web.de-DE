@@ -4,9 +4,9 @@ title: Entwerfen von E-Mails in E-Mail-Designer
 description: Erfahren Sie, wie Sie Ihre E-Mail-Inhalte von Grund auf neu gestalten
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
 source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '508'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 93%
 >title="Definieren der Vorlagenspalten"
 >abstract="Mit E-Mail-Designer können Sie das Layout Ihrer Vorlage einfach definieren, indem Sie die Spaltenstruktur festlegen."
 
-E-Mail-Designer bietet eine einfache Möglichkeit, die Struktur Ihrer E-Mail zu bestimmen. Durch das Hinzufügen und Verschieben von strukturellen Elementen mit einfachen Drag &amp; Drop-Aktionen können Sie den Textkörper Ihrer E-Mail innerhalb von Sekunden gestalten.
+E-Mail-Designer bietet eine einfache Möglichkeit, die Struktur Ihrer E-Mail zu bestimmen. Durch das Hinzufügen und Verschieben von strukturellen Elementen durch einfaches Drag-and-Drop können Sie den Textkörper Ihrer E-Mail in Sekundenschnelle entwerfen.
 
 Gehen Sie wie folgt vor, um mit der Erstellung Ihres E-Mail-Inhalts zu beginnen:
 
@@ -89,7 +89,7 @@ Gehen Sie wie folgt vor, um mit der Erstellung Ihres E-Mail-Inhalts zu beginnen:
 
 1. Fügen Sie Personalisierungsfelder ein, um den Inhalt Ihrer E-Mail mit Profildaten anzupassen. [Weitere Informationen über die Personalisierung von Inhalten](../personalization/personalize.md)
 
-1. Klicken Sie auf die Registerkarte **[!UICONTROL Links]** im linken Bereich, um die Liste aller zu verfolgenden URLs Ihres Inhalts anzuzeigen. Sie können die **[!UICONTROL Tracking-Typ]** oder **[!UICONTROL Titel]** und hinzufügen **[!UICONTROL Kategorien]** bei Bedarf. [Weitere Informationen über Links und Nachrichten-Tracking](message-tracking.md)
+1. Klicken Sie auf die Registerkarte **[!UICONTROL Links]** im linken Bereich, um die Liste aller zu verfolgenden URLs Ihres Inhalts anzuzeigen. Sie können bei Bedarf deren **[!UICONTROL Tracking-Typ]** oder **[!UICONTROL Kennzeichnung]** ändern und **[!UICONTROL Kategorien]** hinzufügen. [Weitere Informationen über Links und Nachrichten-Tracking](message-tracking.md)
 
    ![](assets/email_designer_7.png)
 
