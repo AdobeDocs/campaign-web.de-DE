@@ -3,10 +3,10 @@ audience: end-user
 title: Erkunden der Benutzeroberfläche
 description: Web-Benutzeroberfläche von Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+source-git-commit: df114a97c80b4ad1fc1fff9f7f34ec42df84c835
 workflow-type: tm+mt
-source-wordcount: '1164'
-ht-degree: 98%
+source-wordcount: '1282'
+ht-degree: 90%
 
 ---
 
@@ -152,16 +152,6 @@ In der oberen Leiste der Benutzeroberfläche haben Sie folgende Möglichkeiten:
 Org / Sub-org switcher to switch between instances. Only one for Alpha. Later: intermerdiate screen with Control Panel (beta). if v8 + ACS with one card per ACS instance. Maybe quickly explain the menu for Alpha?
 -->
 
-## Kontextuelle Hilfe und Onboarding-Handbuch
-
-Eine kontextuelle Hilfe ist in der Benutzeroberfläche verfügbar. Wenn verfügbar, klicken Sie auf das Symbol **?**, um Hilfeinformationen und zugehörige Dokumentations-Links anzuzeigen.
-
-![](assets/context-help.png){width="70%" align="left"}
-
-Darüber hinaus ist ein Onboarding-Handbuch verfügbar, das Ihnen bei den ersten Schritten mit Campaign v8 Web hilft. Klicken Sie auf das Symbol unten rechts, wählen Sie eines der verfügbaren schrittweisen Szenarien aus und befolgen Sie einfach die Anweisungen.
-
-![](assets/onboarding.png){width="70%" align="left"}
-
 ## Konfigurieren von Listenbildschirmen {#list-screens}
 
 Verschiedene Links aus dem linken Navigationsmenü, z. B. **Sendungen** oder **Kampagnen**, zeigen Listen von Objekten an. Alle Listenbildschirme sind mit Ausnahme der E-Mail-Versandliste schreibgeschützt.
@@ -175,6 +165,43 @@ Listen werden in Spalten angezeigt. Sie können auch zusätzliche Informationen 
 ![](assets/columns.png){width="70%" align="left"}
 
 Sie können Elemente in der Liste sortieren, indem Sie auf eine beliebige Spaltenüberschrift klicken. Ein Aufwärts- oder Abwärtspfeil zeigt an, dass die Liste in dieser Spalte sortiert ist. Bei numerischen Spalten oder Datumsspalten bedeutet der Aufwärtspfeil, dass die Liste in aufsteigender Reihenfolge sortiert ist, während ein Abwärtspfeil eine absteigende Reihenfolge kennzeichnet. Bei Zeichenfolge- oder alphanumerischen Spalten werden die Werte in alphabetischer Reihenfolge aufgeführt.
+
+## Kontextuelle Hilfe und Onboarding-Handbuch
+
+Eine kontextuelle Hilfe ist in der Benutzeroberfläche verfügbar. Wenn verfügbar, klicken Sie auf das Symbol **?**, um Hilfeinformationen und zugehörige Dokumentations-Links anzuzeigen.
+
+![](assets/context-help.png){width="70%" align="left"}
+
+Darüber hinaus ist ein Onboarding-Handbuch verfügbar, das Ihnen bei den ersten Schritten mit Campaign v8 Web hilft. Klicken Sie auf das Symbol unten rechts, wählen Sie eines der verfügbaren schrittweisen Szenarien aus und befolgen Sie einfach die Anweisungen.
+
+![](assets/onboarding.png){width="70%" align="left"}
+
+## Unterstützte Browser {#browsers}
+
+Campaign v8 Web ist so konzipiert, dass es in der neuesten Version von Google Chrome, Safari und Microsoft Edge optimal funktioniert. Bei der Verwendung bestimmter Funktionen in älteren Versionen oder anderen Browsern kann es zu Problemen kommen.
+
+## Sprachvoreinstellungen {#language-pref}
+
+Die Benutzeroberfläche ist derzeit in den folgenden Sprachen verfügbar:
+
+* Englisch
+* Französisch
+* Deutsch
+* Italienisch
+* Spanisch
+* Portugiesisch (Brasilianisch)
+* Japanisch
+* Koreanisch
+
+Die Standardsprache der Benutzeroberfläche wird von der in Ihrem Benutzerprofil angegebenen bevorzugten Sprache bestimmt.
+
+So ändern Sie Ihre Sprache:
+
+* Klicken **Voreinstellungen** von Ihrem Avatar, oben rechts.
+   ![](assets/preferences.png)
+* Klicken Sie dann auf die Sprache, die unter Ihrer E-Mail-Adresse angezeigt wird.
+* Wählen Sie Ihre bevorzugte Sprache aus und klicken Sie auf **Speichern**. Sie können eine zweite Sprache auswählen, falls die von Ihnen verwendete Komponente nicht in Ihrer Muttersprache lokalisiert ist.
+   ![](assets/select-language.png)
 
 <!--
 ## Supported browsers {#browsers}
