@@ -3,10 +3,10 @@ audience: end-user
 title: Erkunden der Benutzeroberfläche
 description: Web-Benutzeroberfläche von Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: df114a97c80b4ad1fc1fff9f7f34ec42df84c835
+source-git-commit: b203d1e2adb1b41cdc4adf398934707f6093b317
 workflow-type: tm+mt
-source-wordcount: '1282'
-ht-degree: 90%
+source-wordcount: '1297'
+ht-degree: 88%
 
 ---
 
@@ -184,14 +184,16 @@ Campaign v8 Web ist so konzipiert, dass es in der neuesten Version von Google Ch
 
 Die Benutzeroberfläche ist derzeit in den folgenden Sprachen verfügbar:
 
-* Englisch
-* Französisch
-* Deutsch
-* Italienisch
-* Spanisch
-* Portugiesisch (Brasilianisch)
-* Japanisch
-* Koreanisch
+* Englisch (US) - EN-US
+* Französisch - FR
+* Deutsch - DE
+* Italienisch - IT
+* Spanisch - ES
+* Portugiesisch (Brasilianisch) - PTBR
+* Japanisch - JP
+* Koreanisch - KR
+* Vereinfachtes Chinesisch - CHS
+* Traditionelles Chinesisch - CHT
 
 Die Standardsprache der Benutzeroberfläche wird von der in Ihrem Benutzerprofil angegebenen bevorzugten Sprache bestimmt.
 
