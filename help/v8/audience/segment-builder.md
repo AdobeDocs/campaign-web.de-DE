@@ -1,24 +1,24 @@
 ---
 audience: end-user
-title: Definieren einer Zielgruppe mit dem Regel-Builder
+title: Definieren von Audiences mit dem Regel-Builder
 description: Erfahren Sie, wie Sie mit dem Segment Builder arbeiten.
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
-source-git-commit: a59c133254632c49618fae6ad3d61a2f6e0a1eea
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
-source-wordcount: '546'
-ht-degree: 76%
+source-wordcount: '545'
+ht-degree: 92%
 
 ---
 
-# Definieren einer Zielgruppe mit dem Regel-Builder {#segment-builder}
+# Definieren von Audiences mit dem Regel-Builder {#segment-builder}
 
 ![](../assets/do-not-localize/badge.png)
 
 In diesem Abschnitt wird beschrieben, wie Sie beim Entwerfen einer neuen E-Mail eine Audience erstellen. Die erstellte Audience kann nur in dieser E-Mail verwendet werden.
 
-Mit dem Rule Builder können Sie die Zielgruppe Ihrer Nachricht definieren, indem Sie die in der Datenbank enthaltenen Daten filtern. Informationen zur Auswahl einer bereits bestehenden Audience finden Sie in [diesem Abschnitt](add-audience.md).
+Mit dem Regel-Builder können Sie die Population für Ihre Nachricht definieren, indem Sie in der Datenbank enthaltene Daten filtern. Informationen zur Auswahl einer bereits bestehenden Audience finden Sie in [diesem Abschnitt](add-audience.md).
 
-Weitere Informationen zum Regel-Builder finden Sie im Abschnitt [Dokumentation zum Segmentierungsdienst](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=de).
+Weitere Informationen zum Regel-Builder finden Sie in der [Dokumentation zum Segmentierungs-Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=de).
 
 Gehen Sie wie folgt vor, um beim Entwerfen einer E-Mail eine neue Audience zu erstellen:
 
@@ -38,19 +38,19 @@ Die Palette auf der linken Seite enthält alle Elemente, nach denen Sie filtern 
 
    ![](assets/segment-builder2.png){width="70%" align="left"}
 
-* **Zielgruppen**: Auf diesem Tab können Sie nach einer der in der Campaign Classic-Konsole oder in Adobe Experience Platform definierten Zielgruppen filtern.
+* **Audiences**: Auf dieser Registerkarte können Sie über einen Filter eine der vorhandenen Audiences auswählen, die in der Campaign Classic-Konsole oder in Adobe Experience Platform definiert sind.
 
    ![](assets/segment-builder3.png){width="70%" align="left"}
 
    >[!NOTE]
    >
-   >Um Adobe Experience Platform-Zielgruppen zu nutzen, müssen Sie die Integration mit Zielen konfigurieren. Siehe Abschnitt [Dokumentation zu Zielen](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=de){target="_blank"}.
+   >Um Adobe Experience Platform-Audiences zu nutzen, müssen Sie die Integration mit Zielen konfigurieren. Weiterführende Informationen finden Sie in der [Dokumentation zu Zielen](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=de){target="_blank"}.
 
 Sie können die Suchleiste verwenden, um Elemente schnell zu finden.
 
 ## Die Arbeitsfläche
 
-Die Arbeitsfläche ist der zentrale Bereich des Bildschirms, in dem Sie die Regeln basierend auf den aus der Palette hier abgelegten Elementen konfigurieren und kombinieren können. Um eine neue Regel hinzuzufügen, ziehen Sie eine Kachel aus der Palette auf die Arbeitsfläche. Anschließend erhalten Sie je nach hinzugefügtem Datentyp kontextspezifische Optionen.
+Die Arbeitsfläche ist der zentrale Bereich des Bildschirms, in dem Sie die Regeln basierend auf den aus der Palette hier abgelegten Elementen konfigurieren und kombinieren können. Um eine neue Regel hinzuzufügen, ziehen Sie eine Kachel aus der Palette auf die Arbeitsfläche. Anschließend können Ihnen je nach dem hinzugefügten Datentyp kontextspezifische Optionen angezeigt werden.
 
 ![](assets/segment-builder4.png){width="70%" align="left"}
 
@@ -67,7 +67,7 @@ Auf der rechten Seite können Sie im Bereich **Regeleigenschaften** die folgende
 
 ## Beispiel
 
-In diesem Beispiel erstellen wir eine Audience, um alle Kunden anzusprechen, die in Atlanta oder Seattle leben und nach 1980 geboren wurden.
+In diesem Beispiel erstellen wir eine Zielgruppe, um alle Kunden in Atlanta oder Seattle anzusprechen, die nach 1980 geboren wurden.
 
 1. Suchen Sie in der Registerkarte **Attribute** der Palette nach dem Feld **Geburtsdatum**. Ziehen Sie die Kachel und legen Sie sie auf der Arbeitsfläche ab.
 
@@ -89,7 +89,7 @@ In diesem Beispiel erstellen wir eine Audience, um alle Kunden anzusprechen, die
 
    ![](assets/segment-builder10.png)
 
-1. Klicken Sie auf **Ergebnisse anzeigen**, um die Liste und die Anzahl der Empfänger anzuzeigen, die der Abfrage entsprechen. Sie können auch Spalten hinzufügen, um die Daten zu visualisieren und zu überprüfen. Fügen Sie in unserem Beispiel die **Ort** und sollte Atlanta und Seattle sehen.
+1. Klicken Sie auf **Ergebnisse anzeigen**, um die Liste und die Anzahl der Empfangenen anzuzeigen, die der Abfrage entsprechen. Sie können auch Spalten hinzufügen, um die Daten zu visualisieren und zu überprüfen. Fügen Sie für unser Beispiel die Spalte **Stadt** hinzu. Atlanta und Seattle sollten hier zu sehen sein.
 
    ![](assets/segment-builder11.png)
 

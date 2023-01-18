@@ -3,10 +3,10 @@ audience: end-user
 title: Auswählen einer Audience
 description: Erfahren Sie, wie Sie eine Zielgruppe auswählen
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
-source-git-commit: 045025367a826eece052367be557e47aaf37dc99
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
 source-wordcount: '242'
-ht-degree: 82%
+ht-degree: 94%
 
 ---
 
@@ -33,7 +33,7 @@ In diesem Abschnitt wird beschrieben, wie Sie bei der Definition der Zielgruppe 
 
    >[!NOTE]
    >
-   >Um Adobe Experience Platform-Zielgruppen zu nutzen, müssen Sie die Integration mit Zielen konfigurieren. Siehe Abschnitt [Dokumentation zu Zielen](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=de){target="_blank"}.
+   >Um Adobe Experience Platform-Audiences zu nutzen, müssen Sie die Integration mit Zielen konfigurieren. Weiterführende Informationen finden Sie in der [Dokumentation zu Zielen](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=de){target="_blank"}.
 
 1. Wählen Sie eine Audience aus und klicken Sie auf **Auswählen**.
 
@@ -41,7 +41,7 @@ In diesem Abschnitt wird beschrieben, wie Sie bei der Definition der Zielgruppe 
 
    ![](assets/create-audience3.png)
 
-1. Mithilfe des Regel-Builders können Sie Ihre Zielgruppe mit zusätzlichen Filtern oder durch die Kombination verschiedener Zielgruppen anreichern. Weitere Informationen finden Sie in [diesem Abschnitt](segment-builder.md).
+1. Mit dem Regel-Builder können Sie Ihre Audience mit zusätzlichen Filtern oder durch die Kombination verschiedener Audiences anreichern. Weitere Informationen finden Sie in [diesem Abschnitt](segment-builder.md).
 
    ![](assets/create-audience4.png)
 

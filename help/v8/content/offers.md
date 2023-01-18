@@ -3,10 +3,10 @@ audience: end-user
 title: Senden von Angeboten
 description: Senden von Angeboten
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
-source-git-commit: de7f135b9ac25c5fe13df6a4033d8ef53d081e44
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
-source-wordcount: '513'
-ht-degree: 78%
+source-wordcount: '509'
+ht-degree: 62%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 78%
 >title="Erweiterte Einstellungen für Angebote"
 >abstract="TBC"
 
-Mit Adobe Campaign v8 Web können Sie mit Ihren E-Mail-Angeboten, die in der Konsole mit der **[!UICONTROL Interaction]** -Modul. Weiterführende Informationen zu Interaction und zur Verwaltung eines Angebotskatalogs in der Konsole finden Sie im Abschnitt [Dokumentation zu Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=de){target="_blank"}.
+Adobe Campaign v8 Web ermöglicht es Ihnen, mit Ihren E-Mails Angebote zu senden, die in der Konsole mithilfe des Moduls **[!UICONTROL Interaction]** erstellt wurden. Weitere Informationen zu Interaction und zur Verwaltung eines Angebotskatalogs in der Konsole finden Sie in der [Dokumentation zu Campaign V8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=de){target="_blank"}.
 
 Die wichtigsten Schritte zum Senden von Angeboten mit einer E-Mail sind:
 
@@ -43,7 +43,7 @@ Die wichtigsten Schritte zum Senden von Angeboten mit einer E-Mail sind:
 
 1. Um die Angebotsauswahl des Moduls zu verfeinern, wählen Sie eine spezifische **[!UICONTROL Angebotskategorie]**, in der Angebote sortiert werden.
 
-   Wenn keine Kategorie angegeben wird, werden alle in der Umgebung enthaltenen Angebote vom Angebotsmodul berücksichtigt, es sei denn, ein **[!UICONTROL Angebots-Design]** wird ausgewählt.
+   Wenn keine Kategorie angegeben wird, werden alle in der Umgebung enthaltenen Angebote vom Angebotsmodul berücksichtigt, es sei denn, ein **[!UICONTROL Angebotsdesign]** ausgewählt ist.
 
    >[!NOTE]
    >
@@ -56,14 +56,14 @@ Die wichtigsten Schritte zum Senden von Angeboten mit einer E-Mail sind:
    Mit dieser Option können Sie den Ausschluss von Empfängern aktivieren oder deaktivieren, für die nicht genügend geeignete Angebote vorhanden sind.
 
    * Wenn die Option aktiviert ist, werden Empfänger, die nicht genügend Vorschläge haben, vom Versand ausgeschlossen.
-   * Wenn die Option deaktiviert ist, werden diese Empfänger nicht ausgeschlossen, erhalten jedoch nicht die angefragte Anzahl an Vorschlägen.
+   * Wenn die Option deaktiviert ist, werden diese Empfänger nicht ausgeschlossen, können jedoch nicht über die angeforderte Anzahl von Vorschlägen verfügen.
 
 1. Wählen Sie bei Bedarf die Option **[!UICONTROL Alles ausblenden, wenn kein Angebot ausgewählt ist]**.
 
-   Mit dieser Option können Sie festlegen, wie die Nachricht verarbeitet werden soll, falls einer der Vorschläge nicht existiert.
+   Diese Option ermöglicht die Auswahl der Art der Nachrichtenverarbeitung, falls ein Vorschlag nicht existiert.
 
-   * Wenn die Option aktiviert ist, wird die Darstellung des fehlenden Vorschlags nicht angezeigt, und es wird auch kein Inhalt in der Nachricht für diesen Vorschlag angezeigt.
-   * Wenn die Option deaktiviert ist, wird die Nachricht selbst während des Versands abgebrochen, und die Empfänger erhalten keine Nachrichten mehr.
+   * Wenn die Option aktiviert ist, wird die Darstellung des fehlenden Vorschlags nicht angezeigt und es wird kein Inhalt in der Nachricht für diesen Vorschlag angezeigt.
+   * Wenn die Option deaktiviert ist, wird die Nachricht selbst während des Versands abgebrochen und die Empfänger können keine Nachrichten mehr erhalten.
 
 Nachdem Sie die Angebote konfiguriert haben, die in Ihrer E-Mail vorgeschlagen werden sollen, können Sie sie mit dem Ausdruckseditor in die E-Mail einfügen. [Erfahren Sie, wie Sie Angebote in die E-Mail einfügen](#insert)
 

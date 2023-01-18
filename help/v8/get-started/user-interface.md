@@ -3,10 +3,10 @@ audience: end-user
 title: Erkunden der Benutzeroberfläche
 description: Web-Benutzeroberfläche von Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: a59c133254632c49618fae6ad3d61a2f6e0a1eea
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
-source-wordcount: '1166'
-ht-degree: 84%
+source-wordcount: '1164'
+ht-degree: 98%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 84%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learnmore"
 >title="Erkunden der Benutzeroberfläche"
->abstract="Die neue Campaign v8-Webschnittstelle bietet ein integriertes, intuitives und konsistentes Benutzererlebnis."
+>abstract="Die neue Campaign v8 Web-Benutzeroberfläche bietet ein integriertes, intuitives und konsistentes Anwendererlebnis."
 
-Die neue Campaign v8-Webschnittstelle bietet ein modernes und intuitives Benutzererlebnis, um die Erstellung und Bereitstellung von Marketingkampagnen zu vereinfachen. Diese neue Benutzeroberfläche ist in Adobe Experience Platform integriert.
+Die neue Web-Oberfläche von Campaign v8 bietet ein modernes und intuitives Benutzererlebnis, das die Gestaltung und den Versand von Marketingkampagnen vereinfacht. Diese neue Benutzeroberfläche ist in Adobe Experience Platform integriert.
 
 <!--
 Key concepts when browsing the user interface are common with Adobe Experience Platform. Refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html#adobe-experience-platform-ui-guide) for more details.
@@ -37,13 +37,13 @@ Key concepts when browsing the user interface are common with Adobe Experience P
 
 ## Linkes Navigationsmenü
 
-Klicken Sie auf die Links auf der linken Seite, um auf die Web-Funktionen von Campaign v8 zuzugreifen. Mehrere Links zeigen Listen von Objekten an, die sortiert und gefiltert werden können. Sie können auch Spalten so konfigurieren, dass alle benötigten Informationen angezeigt werden. Weitere Informationen finden Sie in [diesem Abschnitt](#list-screens). Alle Listenbildschirme mit Ausnahme der E-Mail-Versandliste sind schreibgeschützt. Das Klicken auf ein Listenelement zur Bearbeitung/Anzeige ist in Alpha nicht verfügbar. Alle Listen können in Beta- und GA-Versionen bearbeitet werden. Die im linken Navigationsmenü angezeigten Elemente hängen von Ihren Benutzerberechtigungen ab.
+Mithilfe der Links auf der linken Seite können Sie auf die Campaign v8 Web-Funktionen zugreifen. Mehrere Links zeigen Listen von Objekten an, die sortiert und gefiltert werden können. Sie können auch Spalten so konfigurieren, dass alle benötigten Informationen angezeigt werden. Weitere Informationen finden Sie in [diesem Abschnitt](#list-screens). Alle Listenbildschirme mit Ausnahme der E-Mail-Versandliste sind schreibgeschützt. Das Klicken auf ein Listenelement zur Bearbeitung/Anzeige ist in Alpha nicht verfügbar. Alle Listen können in zukünftigen Versionen bearbeitet werden. Welche Elemente im linken Navigationsmenü angezeigt werden, hängt von Ihren Benutzerberechtigungen ab.
 
 ![](assets/home.png)
 
 ### Startseite
 
-Dieser Bildschirm enthält wichtige Links und Ressourcen für einen schnellen Zugriff auf die wichtigsten Webfunktionen von Campaign v8. Die **Letzte** enthält Verknüpfungen zu den kürzlich erstellten und geänderten Sendungen. Diese Liste zeigt ihr jeweiliges Erstellungs- und Änderungsdatum sowie den Status
+Dieser Bildschirm enthält wichtige Links und Ressourcen für den Schnellzugriff auf die wichtigsten Campaign v8 Web-Funktionen. Die Liste **Zuletzt ausgewertet** enthält Verknüpfungen zu den kürzlich erstellten und geänderten Sendungen. In dieser Liste finden Sie auch das jeweilige Erstellungs- und Änderungsdatum sowie den Status dieser Sendungen.
 
 <!--
 * Banner
@@ -52,7 +52,7 @@ Dieser Bildschirm enthält wichtige Links und Ressourcen für einen schnellen Zu
 * Learning cards
 -->
 
-Greifen Sie über den unteren Bereich der Startseite auf die Hilfeseiten für den Web-Schlüssel von Campaign v8 zu.
+Wichtige Hilfeseiten zu Campaign v8 Web können Sie unten auf der Startseite aufrufen.
 
 <!--
 show global KPIs, recent items + left menu to access features)
@@ -73,7 +73,7 @@ Welche Elemente im Explorer angezeigt werden, hängt von Ihren Benutzerberechtig
 
 Wie bei jedem Listenbildschirm können Sie die Spalten so konfigurieren, dass alle von Ihnen benötigten Informationen angezeigt werden. Weitere Informationen finden Sie in [diesem Abschnitt](#list-screens).
 
-Weitere Informationen zu Campaign-Explorer finden Sie in dieser [Dokumentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/ac-ui/campaign-ui.html#ac-explorer-ui){target="_blank"}.
+Weitere Informationen zu Campaign-Explorer finden Sie in dieser [Dokumentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/ac-ui/campaign-ui.html?lang=de#ac-explorer-ui){target="_blank"}.
 <!--
 Explorer' menu in web UI to navigate through console content: console navtree second view in addition to the left menu lists with filters. The Explorer gives the real folder hierarchy from the console. Make sure you find your deliveries in sub-folders. All lists can be accessed in read-only. No Create/Edit. You can configure lists (colums). All schema fields, linked tables are available. 
 
@@ -96,7 +96,7 @@ Navtree view depends on permissions (same as console).
 
 * **Kampagnen**: Dies ist die Liste Ihrer Kampagnen. Standardmäßig können Sie nützliche Informationen wie das Anfangsdatum/Enddatum/Datum der letzten Änderung sowie ihren Status sehen. Sie können die Liste nach Status oder Anfangsdatum/Enddatum filtern. Darüber hinaus stehen Kampagnenvorlagen zur Verfügung. Diese Listen sind schreibgeschützt.
 
-* **Sendungen**: Durchsuchen Sie Ihre Sendungenliste. Standardmäßig können Sie ihren Status, das Datum der letzten Änderung sowie wichtige KPIs sehen. Sie können die Liste nach Status, Kontaktdatum oder Kanal filtern. Klicken Sie auf einen E-Mail-Versand, um sein Dashboard zu öffnen und sich einen Überblick über die Versanddetails zu verschaffen. Sendungen über andere Kanäle sind schreibgeschützt. Versandvorlagen sind auch im schreibgeschützten Modus verfügbar. Sie können sie über die Client-Konsole bearbeiten. Weitere Informationen finden Sie in dieser [Dokumentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/create-templates.html){target="_blank"}.
+* **Sendungen**: Durchsuchen Sie Ihre Sendungenliste. Standardmäßig können Sie ihren Status, das Datum der letzten Änderung sowie wichtige KPIs sehen. Sie können die Liste nach Status, Kontaktdatum oder Kanal filtern. Klicken Sie auf einen E-Mail-Versand, um sein Dashboard zu öffnen und sich einen Überblick über die Versanddetails zu verschaffen. Sendungen über andere Kanäle sind schreibgeschützt. Versandvorlagen sind auch im schreibgeschützten Modus verfügbar. Sie können sie über die Client-Konsole bearbeiten. Weitere Informationen finden Sie in dieser [Dokumentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/create-templates.html?lang=de){target="_blank"}.
 
    Verwenden Sie die **Mehr Aktionen** zum Löschen oder Duplizieren eines Versands.
 
@@ -142,8 +142,8 @@ Navtree view depends on permissions (same as console).
 
 In der oberen Leiste der Benutzeroberfläche haben Sie folgende Möglichkeiten:
 
-* Freigeben Ihres Feedbacks als Alpha-Tester
-* Zwischen Organisationen und Instanzen wechseln
+* Ihr Feedback als Alpha-Testerin oder -Tester teilen
+* zwischen Organisationen und Instanzen wechseln
 * zwischen Adobe Experience Cloud-Anwendungen wechseln
 * auf Hilfeseiten zugreifen, den Support kontaktieren und Feedback geben. Sie können Hilfe-Artikel und Videos mithilfe des Suchfelds suchen.
 
@@ -158,7 +158,7 @@ Eine kontextuelle Hilfe ist in der Benutzeroberfläche verfügbar. Wenn verfügb
 
 ![](assets/context-help.png){width="70%" align="left"}
 
-Darüber hinaus finden Sie eine Onboarding-Anleitung, die Ihnen bei den ersten Schritten mit Campaign v8 Web hilft. Klicken Sie auf das Symbol unten rechts, wählen Sie eines der verfügbaren schrittweisen Szenarien aus und befolgen Sie einfach die Anweisungen.
+Darüber hinaus ist ein Onboarding-Handbuch verfügbar, das Ihnen bei den ersten Schritten mit Campaign v8 Web hilft. Klicken Sie auf das Symbol unten rechts, wählen Sie eines der verfügbaren schrittweisen Szenarien aus und befolgen Sie einfach die Anweisungen.
 
 ![](assets/onboarding.png){width="70%" align="left"}
 

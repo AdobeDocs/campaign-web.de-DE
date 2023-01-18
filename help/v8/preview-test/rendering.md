@@ -3,10 +3,10 @@ audience: end-user
 title: Testen des E-Mail-Rendering
 description: Erfahren Sie, wie Sie Ihr E-Mail-Rendering in der Web-Benutzeroberfläche von Campaign testen können.
 exl-id: 5cdbce8b-3969-470d-8019-1edc58433146
-source-git-commit: 045025367a826eece052367be557e47aaf37dc99
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
-source-wordcount: '160'
-ht-degree: 93%
+source-wordcount: '159'
+ht-degree: 75%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 93%
 
 ![](../assets/do-not-localize/badge.png)
 
-Bevor Sie Ihre E-Mail versenden, sollten Sie sicherstellen, dass Ihre Nachricht den Empfängern in unterschiedlichen Webclients, Webmails und Geräten optimal dargestellt wird.
+Bevor Sie Ihre E-Mail versenden, stellen Sie sicher, dass Ihre Nachricht den Empfängern in unterschiedlichen Webclients, Webmails und Geräten optimal dargestellt wird.
 
 Zu diesem Zweck können Sie mit Adobe Campaign eine Vorschau der gesendeten Nachricht in den verschiedenen Kontexten anzeigen, in denen sie empfangen werden kann, und die Kompatibilität mit den wichtigsten Desktops und Anwendungen (Webmail, Messaging-Dienst, Mobilgeräte usw.) überprüfen.
 

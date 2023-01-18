@@ -3,10 +3,10 @@ audience: end-user
 title: Senden Ihrer ersten E-Mail
 description: Erfahren Sie, wie Sie Ihre erste E-Mail mit der Campaign-Web-Benutzeroberfläche senden.
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 871737ba2ab444eaaafde2a3822879629d956e1c
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
-source-wordcount: '1272'
-ht-degree: 22%
+source-wordcount: '1244'
+ht-degree: 24%
 
 ---
 
@@ -14,9 +14,9 @@ ht-degree: 22%
 
 ![](../assets/do-not-localize/badge.png)
 
-In diesem Anwendungsbeispiel erfahren Sie, wie Sie Ihre erste zielgerichtete E-Mail erstellen. Wir planen den Versand einer E-Mail an Silber- und Gold-Treuekunden an einem bestimmten Datum.
+Erfahren Sie, wie Sie Ihre erste Targeting-E-Mail erstellen. In diesem Anwendungsfall planen Sie den Versand einer E-Mail an Silver- und Gold-Mitglieder zu einem bestimmten Datum.
 
-Mithilfe einer vordefinierten Design-Vorlage bietet die E-Mail auch personalisierte Inhalte, die auf Kundenprofilattributen basieren.
+Basierend auf einer vordefinierten Designvorlage bietet die E-Mail auch personalisierte Inhalte, die auf Kundenprofilattributen basieren.
 
 ![](assets/delivery-list.png)
 
@@ -25,7 +25,7 @@ Mithilfe einer vordefinierten Design-Vorlage bietet die E-Mail auch personalisie
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_template_selection"
 >title="Wählen Sie eine E-Mail-Vorlage aus"
->abstract="Eine Vorlage wird in der Adobe Campaign v8-Konsole definiert. Dies ist eine spezifische Versandkonfiguration, die vordefinierte Parameter wie Typologieregeln, Personalisierung oder Routing-Parameter enthält."
+>abstract="Eine E-Mail-Vorlage ist eine spezifische Versandkonfiguration, die vordefinierte Einstellungen wie Typologieregeln, Personalisierung oder Routing-Parameter enthält. Vorlagen werden in der Campaign-Clientkonsole definiert."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_properties"
@@ -38,7 +38,7 @@ Mithilfe einer vordefinierten Design-Vorlage bietet die E-Mail auch personalisie
 
    >[!NOTE]
    >
-   >Vorlagen sind vorkonfigurierte Versandeinstellungen, die für die zukünftige Verwendung gespeichert werden. Sie können von Administratoren in der Adobe Campaign-Konsole erstellt werden. [Erfahren Sie, wie Sie mit Versandvorlagen arbeiten.](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/create-templates.html){target="_blank"}.
+   >Vorlagen sind vorkonfigurierte Versandeinstellungen, die für die zukünftige Verwendung gespeichert werden. Sie können von Administratoren in der Adobe Campaign-Konsole erstellt werden. [Erfahren Sie, wie Sie mit Versandvorlagen arbeiten können](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/create-templates.html?lang=de){target="_blank"}.
 
    ![](assets/channel-template.png)
 
@@ -65,13 +65,13 @@ Mithilfe einer vordefinierten Design-Vorlage bietet die E-Mail auch personalisie
 >title="Erfahren Sie, wie Sie E-Mail-Inhalte erstellen"
 >abstract="Erfahren Sie, wie Sie Email Designer verwenden."
 
-In diesem Anwendungsbeispiel verwenden wir eine vordefinierte Vorlage, um unsere E-Mail zu erstellen.
+In diesem Anwendungsfall verwenden Sie eine vordefinierte Vorlage, um unsere E-Mail zu erstellen.
 
-die E-Mail mit einer vordefinierten Vorlage erstellen. Detaillierte Anweisungen zur Konfiguration von E-Mail-Inhalten finden Sie unter [diesem Abschnitt](../content/edit-content.md).
+Detaillierte Anweisungen zur Konfiguration des E-Mail-Inhalts finden Sie unter [diesem Abschnitt](../content/edit-content.md).
 
 1. Um mit der Erstellung des E-Mail-Inhalts zu beginnen, klicken Sie auf die Schaltfläche **[!UICONTROL Inhalt bearbeiten]** Schaltfläche.
 
-   Dadurch gelangen Sie zu einer speziellen Benutzeroberfläche, über die Sie den E-Mail-Inhalt konfigurieren und mit Email Designer entwerfen können.
+   Dadurch gelangen Sie zu einer dedizierten Benutzeroberfläche, über die Sie den E-Mail-Inhalt konfigurieren und mit Email Designer entwerfen können.
 
    ![](assets/edit-content.png)
 
@@ -81,7 +81,7 @@ die E-Mail mit einer vordefinierten Vorlage erstellen. Detaillierte Anweisungen 
 
 1. Klicken Sie auf die Schaltfläche **[!UICONTROL Bearbeiten des E-Mail-Hauptteils]** Schaltfläche.
 
-   Wählen Sie die Methode zur Erstellung des Inhalts Ihrer E-Mail aus. In diesem Beispiel verwenden wir eine vordefinierte Designvorlage.
+   Wählen Sie die Methode zur Erstellung des Inhalts Ihrer E-Mail aus. Verwenden Sie in diesem Beispiel eine vordefinierte Designvorlage.
 
    ![](assets/select-template.png)
 
@@ -106,9 +106,9 @@ die E-Mail mit einer vordefinierten Vorlage erstellen. Detaillierte Anweisungen 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience"
 >title="Definieren der Audience"
->abstract="Wählen Sie die beste Audience für Ihre Marketing-Nachricht aus. Sie können eine bereits in einer Campaign v8-Instanz oder in Adobe Experience Platform definierte Audience auswählen oder eine neue Audience mit dem Regel-Builder erstellen."
+>abstract="Wählen Sie die beste Audience für Ihre Marketing-Nachricht aus. Sie können eine bereits in einer Campaign v8-Instanz oder in Adobe Experience Platform definierte Audience auswählen oder mit dem Regel-Builder eine neue Audience erstellen."
 
-In diesem Anwendungsbeispiel senden wir die E-Mail an eine bestehende Audience. Weitere Anweisungen zum Arbeiten mit Zielgruppen finden Sie unter [diesem Abschnitt](../audience/about-audiences.md).
+In diesem Anwendungsbeispiel senden Sie die E-Mail an eine bestehende Audience. Weitere Anweisungen zum Arbeiten mit Zielgruppen finden Sie unter [diesem Abschnitt](../audience/about-audiences.md).
 
 1. Um die Audience für die E-Mail auszuwählen, klicken Sie auf die **[!UICONTROL Zielgruppe auswählen]** und wählen Sie eine existierende Zielgruppe aus der Liste aus.
 
@@ -118,9 +118,9 @@ In diesem Anwendungsbeispiel senden wir die E-Mail an eine bestehende Audience. 
 
    >[!NOTE]
    >
-   >Die in der Liste verfügbaren Zielgruppen stammen entweder aus Ihrer Campaign V8-Instanz oder aus Adobe Experience Platform, wenn die Ziel-/Quellen-Integration in Ihrer Instanz konfiguriert wurde.
+   >Die in der Liste verfügbaren Zielgruppen stammen entweder aus Ihrer Campaign v8-Instanz oder aus Adobe Experience Platform, wenn die Ziel-/Quellen-Integration in Ihrer Instanz konfiguriert wurde.
    >
-   >Die Ziel-/Quellen-Integration ermöglicht es Ihnen, Experience Platform-Segmente an Adobe Campaign zu senden und Kampagnenversand- und -verfolgungslogs an Adobe Experience Platform zu senden. [Erfahren Sie, wie Sie mit Campaign und Adobe Experience Platform arbeiten.](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html){target="_blank"}.
+   >Die Ziel-/Quellen-Integration ermöglicht es Ihnen, Experience Platform-Segmente an Adobe Campaign zu senden und Versand- und -Trackinglogs von Campaign an Adobe Experience Platform zu senden. [Erfahren Sie, wie Sie mit Campaign und Adobe Experience Platform arbeiten](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html?lang=de){target="_blank"}.
 
 1. Nach Auswahl der Audience können Sie die Zielgruppe durch Anwendung zusätzlicher Regeln weiter verfeinern.
 
@@ -133,7 +133,7 @@ In diesem Anwendungsbeispiel senden wir die E-Mail an eine bestehende Audience. 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_schedule"
 >title="Terminieren des Versands"
->abstract="Definieren Sie das Datum und die genaue Uhrzeit für Ihren Versand. Indem Sie den günstigsten Zeitpunkt für Ihre Werbenachricht wählen, maximieren Sie die Öffnungsraten."
+>abstract="Definieren Sie das Datum und die genaue Uhrzeit für Ihren Versand. Durch die Auswahl der für Ihre Marketing-Nachricht am besten geeigneten Zeit können Sie die Öffnungsraten maximieren."
 
 Um den Versand der E-Mail zu planen, klicken Sie auf **[!UICONTROL Aktivieren]** und legen Sie das gewünschte Datum und die gewünschte Uhrzeit für den Versand fest.
 
@@ -145,19 +145,19 @@ Standardmäßig wird die **[!UICONTROL Vor dem Versand bestätigen]** aktiviert 
 
 Bevor Sie Ihre E-Mail versenden, können Sie sie in der Vorschau anzeigen und testen, um sicherzustellen, dass sie Ihren Erwartungen entspricht.
 
-In diesem Anwendungsbeispiel sehen wir eine Vorschau der E-Mail und senden Testversionen an bestimmte E-Mail-Adressen, während wir einige der Zielgruppenprofile imitieren.
+In diesem Anwendungsbeispiel zeigen Sie die E-Mail-Vorschau an und senden Testversionen an bestimmte E-Mail-Adressen, während Sie einige der Zielgruppenprofile imitieren.
 
 Weitere Informationen zum Anzeigen einer Vorschau und zum Testen von E-Mails finden Sie in [diesem Abschnitt](../preview-test/preview-test.md).
 
-1. Um die E-Mail zu überprüfen und zu senden, klicken Sie auf **[!UICONTROL Überprüfen und Senden]**. Daraufhin wird eine Vorschau Ihrer E-Mail mit allen konfigurierten Eigenschaften, Zielgruppen und Zeitplänen angezeigt. Sie können jedes dieser Elemente bearbeiten, indem Sie auf die Schaltfläche Ändern klicken.
+1. Um die E-Mail zu überprüfen und zu senden, klicken Sie auf **[!UICONTROL Überprüfen und Senden]**. Daraufhin wird eine Vorschau Ihrer E-Mail zusammen mit allen konfigurierten Eigenschaften, Zielgruppen und Zeitplänen angezeigt. Sie können jedes dieser Elemente bearbeiten, indem Sie auf die Schaltfläche Ändern klicken.
 
-1. Um eine Vorschau der E-Mail anzuzeigen und Testversionen zu senden, klicken Sie auf die Schaltfläche **[!UICONTROL Inhalt simulieren]** Schaltfläche. Dadurch wird die Vorschaufunktion geöffnet.
+1. Um eine Vorschau der E-Mail anzuzeigen und Testversionen zu senden, klicken Sie auf die Schaltfläche **[!UICONTROL Inhalt simulieren]** Schaltfläche.
 
    ![](assets/review-email.png)
 
 1. Wählen Sie links die Profile aus, die Sie für die Vorschau der E-Mail verwenden möchten.
 
-   Im rechten Bereich wird eine Vorschau der E-Mail basierend auf dem ausgewählten Profil angezeigt. Wenn Sie mehrere Profile hinzugefügt haben, können Sie zwischen diesen Profilen wechseln, um eine Vorschau der entsprechenden E-Mail anzuzeigen.
+   Im rechten Bereich wird eine Vorschau der E-Mail auf der Basis des ausgewählten Profils angezeigt. Wenn Sie mehrere Profile hinzugefügt haben, können Sie zwischen diesen Profilen wechseln, um eine Vorschau der entsprechenden E-Mail anzuzeigen.
 
    ![](assets/preview.png)
 
@@ -167,7 +167,7 @@ Weitere Informationen zum Anzeigen einer Vorschau und zum Testen von E-Mails fin
 
 1. Um Testversionen Ihrer E-Mail zu senden, klicken Sie auf die Schaltfläche **[!UICONTROL Test]** und wählen Sie den gewünschten Modus aus.
 
-   In diesem Beispiel verwenden wir die **[!UICONTROL Ersatz aus Hauptzielgruppe]** -Modus, der Testversionen an bestimmte E-Mail-Adressen sendet und dabei einige der Profile stellvertretend agiert, auf die die E-Mail abzielt.
+   Verwenden Sie in diesem Beispiel die **[!UICONTROL Ersatz aus Hauptzielgruppe]** -Modus, der Testversionen an bestimmte E-Mail-Adressen sendet und dabei einige der Profile stellvertretend agiert, auf die die E-Mail abzielt.
 
    ![](assets/proof-mode.png)
 
@@ -179,7 +179,7 @@ Weitere Informationen zum Anzeigen einer Vorschau und zum Testen von E-Mails fin
 
 1. Klicken **[!UICONTROL Test-E-Mail senden]** und bestätigen Sie den Versand.
 
-   Testversionen werden unter Verwendung des ausgewählten Profils mit der **[Proof x]** -Präfix.
+   Testversionen werden mithilfe des ausgewählten Profils mit der **[Proof x]** -Präfix.
 
    ![](assets/proof-sent.png)
 

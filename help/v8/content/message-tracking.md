@@ -3,10 +3,10 @@ audience: end-user
 title: Verfolgen von Nachrichten
 description: Erfahren Sie, wie Sie Links hinzufügen und gesendete Nachrichten verfolgen können.
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
-source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
-source-wordcount: '550'
-ht-degree: 89%
+source-wordcount: '548'
+ht-degree: 90%
 
 ---
 
@@ -75,13 +75,13 @@ Wenn die Empfänger nach dem Versand der E-Mail auf den Link zur Mirror-Seite kl
 >
 >In der Test-E-Mail, die an die Testprofile gesendet wird, ist der Link zur Mirrorseite nicht aktiv. Er wird nur in den endgültigen Nachrichten aktiviert.
 
-Die Beibehaltungsdauer für eine Mirror-Seite beträgt 60 Tage. Danach ist die Mirror-Seite nicht mehr verfügbar.
+Die Beibehaltungsdauer für eine Mirror-Seite beträgt 60 Tage. Nach dieser Verzögerung ist die Mirrorseite nicht mehr verfügbar.
 
 ## Verwalten von Tracking {#manage-tracking}
 
 Der [E-Mail-Designer](create-email-content.md) ermöglicht Ihnen die Verwaltung der getrackten URLs, z. B. die Bearbeitung des Tracking-Typs für jeden Link.
 
-1. Klicken Sie auf das Symbol **[!UICONTROL Links]** im linken Bereich, um die Liste aller getrackten URLs Ihres Inhalts anzuzeigen.
+1. Klicken Sie auf **[!UICONTROL Links]** im linken Bereich, um die Liste aller URLs Ihres Inhalts anzuzeigen, die verfolgt werden sollen.
 
    Diese Liste bietet einen guten Überblick und ermöglicht das Auffinden aller im E-Mail-Inhalt vorhandenen URLs.
 
@@ -100,8 +100,8 @@ Der [E-Mail-Designer](create-email-content.md) ermöglicht Ihnen die Verwaltung 
    * **[!UICONTROL Mirror-Seite]**: Diese URL wird als URL der Mirror-Seite behandelt.
    * **[!UICONTROL Nie]**: Das Tracking dieser URL wird nie aktiviert. <!--This information is saved: if the URL appears again in a future message, its tracking is automatically deactivated.-->
 
-1. Hinzufügen einer **[!UICONTROL Kategorie]** zu Ihrem Link zu gruppierten verfolgten Links klicken und **[!UICONTROL Speichern]**.
+1. Fügen Sie eine **[!UICONTROL Kategorie]** zu Ihrem Link hinzu, um getrackte Links zu gruppieren, und klicken Sie dann auf **[!UICONTROL Speichern]**.
 
    ![](assets/message-tracking-edit-a-link_2.png)
 
-1. Öffnen Sie nach dem Versand den Versandbericht. Unter dem **[!UICONTROL Tracking]** Menü, **[!UICONTROL URLs und Clickstreams]** zeigt an, welche URLs aus Ihrem Versand am häufigsten besucht werden. [Weitere Informationen](../reporting/reports.md)
+1. Öffnen Sie nach dem Versand den Versandbericht. Unter dem Menü **[!UICONTROL Tracking]** zeigt der Bericht **[!UICONTROL URLs und Clickstreams]** an, welche URLs aus Ihrem Versand am häufigsten besucht werden. [Weitere Informationen](../reporting/reports.md)

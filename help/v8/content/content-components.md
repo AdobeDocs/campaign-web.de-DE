@@ -3,10 +3,10 @@ audience: end-user
 title: Verwenden der Inhaltskomponenten von E-Mail-Designer
 description: Erfahren Sie, wie Sie Inhaltskomponenten in E-Mails verwenden
 exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
-workflow-type: ht
-source-wordcount: '1085'
-ht-degree: 100%
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+workflow-type: tm+mt
+source-wordcount: '1079'
+ht-degree: 94%
 
 ---
 
@@ -61,7 +61,7 @@ Sie können beliebig viele **[!UICONTROL Inhaltskomponenten]** in eine **[!UICON
 
 ## Container {#container}
 
-Sie können einen einfachen Container hinzufügen, in den Sie eine weitere Inhaltskomponente einfügen können. Auf diese Weise können Sie einen bestimmten Stil auf den Container anwenden, der sich von der darin verwendeten Komponente unterscheidet.
+Sie können einen einfachen Container hinzufügen, in dem Sie eine weitere Inhaltskomponente hinzufügen. Auf diese Weise können Sie einen bestimmten Stil auf den Container anwenden, der sich von der darin verwendeten Komponente unterscheidet.
 
 Sie können in diesen Container beispielsweise die Komponente **[!UICONTROL Container]** und anschließend die Komponente [Schaltfläche](#button) einfügen. Dann können Sie einen bestimmten Hintergrund für den Container und einen anderen für die Schaltfläche verwenden.
 
@@ -81,9 +81,9 @@ Verwenden Sie die Komponente **[!UICONTROL Schaltfläche]**, um eine oder mehrer
 
 1. Fügen Sie im Feld **[!UICONTROL Link]** die URL hinzu, zu der Sie Benutzende beim Anklicken der Schaltfläche umleiten möchten.
 
-1. Wählen Sie mit der Dropdown-Liste die **[!UICONTROL Zielgruppe]** aus, mit der Ihre Audience umgeleitet werden soll:
+1. Wählen Sie aus, wie Ihr Inhalt mit der **[!UICONTROL Target]** Dropdown-Liste:
 
-   * **[!UICONTROL Keine]**: öffnet den Link im selben Fenster, in dem er angeklickt wurde (Standard).
+   * **[!UICONTROL Keine]**: Öffnet den Link im selben Fenster, in dem er angeklickt wurde (Standard).
    * **[!UICONTROL Leer]**: Öffnet den Link in einem neuen Fenster oder einer neuen Registerkarte.
    * **[!UICONTROL Selbst]**: Öffnet den Link im selben Fenster, in dem er angeklickt wurde.
    * **[!UICONTROL Übergeordnet]**: Öffnet den Link im übergeordneten Fenster.
@@ -180,7 +180,7 @@ Verwenden Sie die Komponente **[!UICONTROL Social]**, um Links zu Social-Media-S
 
 1. Wählen Sie die Größe Ihrer Symbole im Feld **[!UICONTROL Bildgröße]** .
 
-1. Klicken Sie auf jedes Ihrer Social Media-Symbole, um die **[!UICONTROL URL]** zu konfigurieren, zu der Ihre Audience weitergeleitet wird.
+1. Klicken Sie auf jedes Ihrer Social-Media-Symbole, um die **[!UICONTROL URL]** an die Ihre Zielgruppe umgeleitet wird.
 
    ![](assets/email_designer_21.png)
 

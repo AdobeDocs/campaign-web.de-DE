@@ -3,10 +3,10 @@ audience: end-user
 title: Vorschau von E-Mail-Inhalten
 description: Erfahren Sie, wie Sie mit der Web-Benutzeroberfläche von Campaign eine Vorschau Ihres E-Mail-Inhalts anzeigen können.
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
-source-git-commit: d305cc7055008ecf25e41a51fabe1e5ece683b72
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
-source-wordcount: '257'
-ht-degree: 10%
+source-wordcount: '252'
+ht-degree: 19%
 
 ---
 
@@ -16,10 +16,10 @@ ht-degree: 10%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card4"
->title="Intelligente Vorschau Ihres Inhalts"
->abstract="Mit Adobe Campaign können Sie Profile verwenden, um vor dem Versand eine Vorschau des Inhalts Ihrer E-Mail anzuzeigen und so die Personalisierung und die Darstellung Ihrer Empfänger zu überprüfen."
+>title="Intelligente Vorschau Ihrer Inhalte"
+>abstract="Mit Adobe Campaign können Sie Profile verwenden, um vor dem Versand eine Vorschau des Inhalts Ihrer E-Mail anzuzeigen, die Personalisierung zu überprüfen und zu sehen, wie die Nachricht bei den Empfängern dargestellt wird."
 
-Mit Adobe Campaign können Sie eine Vorschau des Inhalts Ihrer E-Mail anzeigen, bevor Sie ihn senden, um die Personalisierung und die Darstellung Ihrer Empfänger zu überprüfen.
+Mit Adobe Campaign können Sie den Inhalt Ihrer E-Mail vor dem Versand in der Vorschau anzeigen, die Personalisierung überprüfen und feststellen, wie sie Ihren Empfängern angezeigt wird.
 
 Gehen Sie wie folgt vor, um eine Vorschau des Inhalts Ihrer E-Mail anzuzeigen:
 
@@ -36,7 +36,7 @@ Gehen Sie wie folgt vor, um eine Vorschau des Inhalts Ihrer E-Mail anzuzeigen:
 
    ![](assets/preview-profile.png)
 
-1. Nach Auswahl der Profile wird im rechten Bereich eine Vorschau der E-Mail angezeigt. Personalisierte Elemente werden durch Daten aus dem Profil ersetzt, das im linken Bereich ausgewählt wurde.
+1. Nach Auswahl der Profile wird im rechten Bereich eine Vorschau der E-Mail angezeigt. Personalisierte Elemente werden durch Daten aus dem Profil ersetzt, das auf im linken Bereich ausgewählt wurde.
 
    Wenn Sie mehrere Profile hinzugefügt haben, können Sie in der Liste zwischen ihnen wechseln, um eine Vorschau der entsprechenden E-Mail anzuzeigen.
 

@@ -3,10 +3,10 @@ audience: end-user
 title: Einrichten einer Kontrollgruppe
 description: Erfahren Sie, wie Sie in der Campaign-Web-Benutzeroberfläche eine Kontrollgruppe für Ihre Nachrichten einrichten.
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
-source-git-commit: a59c133254632c49618fae6ad3d61a2f6e0a1eea
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
-source-wordcount: '536'
-ht-degree: 74%
+source-wordcount: '525'
+ht-degree: 71%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 74%
 
 Mithilfe von Kontrollgruppen können Sie vermeiden, dass Nachrichten an einen Teil Ihrer Audience gesendet werden, um die Wirkung Ihrer Kampagnen zu messen.
 
-Erstellen Sie dazu eine Kontrollgruppe, wenn Sie die Audience Ihres Versands definieren. Profile werden der Kontrollgruppe nach dem Zufallsprinzip hinzugefügt, gefiltert oder ungefiltert oder auf der Grundlage von Kriterien. Sie können dann das Verhalten der Zielgruppe, die die Nachricht erhalten hat, mit dem Verhalten der Kontakte vergleichen, die nicht in der Zielgruppe enthalten waren.
+Erstellen Sie dazu eine Kontrollgruppe, wenn Sie die Audience Ihres Versands definieren. Profile werden der Kontrollgruppe nach dem Zufallsprinzip hinzugefügt, gefiltert oder ungefiltert oder auf der Grundlage von Kriterien. Anschließend können Sie das Verhalten der Zielpopulation, die die Nachricht erhalten hat, mit dem Verhalten der Kontakte vergleichen, die nicht in die Zielgruppe aufgenommen wurden.
 
 Die Kontrollgruppe kann nach dem Zufallsprinzip aus der Hauptzielgruppe extrahiert und/oder aus einer bestimmten Population ausgewählt werden. Daher gibt es zwei Möglichkeiten, eine Kontrollgruppe zu definieren:
 
@@ -23,7 +23,7 @@ Die Kontrollgruppe kann nach dem Zufallsprinzip aus der Hauptzielgruppe extrahie
 
 Beim Definieren einer Kontrollgruppe können Sie beide Methoden verwenden.
 
-Alle Profile, die bei der Vorbereitung des Versands in die Kontrollgruppe eingehen, werden aus der Hauptzielgruppe entfernt. Sie erhalten die Nachricht nicht, nachdem diese gesendet wurde.
+Alle Profile, die bei der Versandvorbereitung zur Kontrollgruppe gehören, werden aus der Hauptzielgruppe entfernt. Sie erhalten die Nachricht nicht.
 
 Um eine Kontrollgruppe zu erstellen, klicken Sie im Abschnitt **Audience** des Assistenten zur Versanderstellung auf die Schaltfläche **[!UICONTROL Kontrollgruppe festlegen]**.
 
@@ -42,11 +42,11 @@ Definieren Sie zunächst, wie die Profile aus der Zielgruppe extrahiert werden: 
 
 Wählen Sie im Abschnitt **Aus Zielgruppe extrahieren** einen **Ausschlusstyp**:
 
-* **Zufällige Auswahl**:: Beim Vorbereiten des Versands extrahiert Adobe Campaign nach dem Zufallsprinzip eine Anzahl von Profilen, die dem Prozentwert oder der maximalen Anzahl entsprechen, die Sie als Größenbeschränkung festlegen.
+* **Random**: Bei der Versandvorbereitung extrahiert Adobe Campaign zufällig eine Anzahl von Profilen, die dem Prozentsatz oder der Maximalzahl entsprechen, der als Größenbeschränkung festgelegt wird.
 
    ![](assets/control-group.png)
 
-* **Nach Attribut(en) sortiert**: Mit dieser Option können Sie eine Gruppe von Profilen ausschließen, die auf bestimmten Attributen in einer bestimmten Sortierreihenfolge basieren.
+* **Nach Attribut(en) sortiert**: Mit dieser Option können Sie anhand bestimmter Attribute in einer bestimmten Reihenfolge eine Gruppe von Profilen ausschließen.
 
    ![](assets/control-group2.png)
 
@@ -60,7 +60,7 @@ Sie können die Protokolle anzeigen, um die ausgeschlossenen Profile zu überpr�
 
 Nach der Versandvorbereitung können Sie die Ausschlüsse auf den folgenden Bildschirmen anzeigen:
 
-* Die **Ausschließen** KPI im Versand-Dashboard vor dem Versand.
+* Die KPI **Ausschließen** im Versand-Dashboard vor dem Versand.
 
    ![](assets/control-group5.png)
 
@@ -72,7 +72,7 @@ Nach der Versandvorbereitung können Sie die Ausschlüsse auf den folgenden Bild
 
    ![](assets/control-group7.png)
 
-Weiterführende Informationen zu Versandlogs finden Sie in diesem Abschnitt [Abschnitt](../monitor/delivery-logs.md).
+Weitere Informationen über Versandlogs finden Sie in [diesem Abschnitt](../monitor/delivery-logs.md).
 
 ## Zusätzliche Population {#extra-population}
 
@@ -89,6 +89,6 @@ Klicken Sie im Abschnitt **Zusätzliche Population** des Definitionsbildschirms 
 
 * Um eine vorhandene Audience zu verwenden, klicken Sie auf **Audience auswählen**. Näheres dazu finden Sie in [diesem Abschnitt](add-audience.md).
 
-* Um eine neue Abfrage zu definieren, wählen Sie **Erstellen eigener** und definieren die Ausschlusskriterien mithilfe des Regel-Builders. Näheres dazu finden Sie in [diesem Abschnitt](segment-builder.md).
+* Um eine neue Abfrage zu definieren, wählen Sie **Eigene erstellen** aus und definieren Sie die Ausschlusskriterien mit  dem Regel-Builder. Näheres dazu finden Sie in [diesem Abschnitt](segment-builder.md).
 
-Die in der Audience enthaltenen oder dem Ergebnis der Abfrage entsprechenden Profile werden aus der Zielgruppe ausgeschlossen.
+Die in der Audience enthaltenen oder mit dem Abfrageergebnis übereinstimmenden Profile werden aus der Zielgruppe ausgeschlossen.

@@ -3,10 +3,10 @@ audience: end-user
 title: Vorbereiten und Senden einer E-Mail
 description: Erfahren Sie, wie Sie eine E-Mail mit der Web-Benutzeroberfläche von Campaign vorbereiten und senden.
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
-source-git-commit: a59c133254632c49618fae6ad3d61a2f6e0a1eea
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
-source-wordcount: '551'
-ht-degree: 83%
+source-wordcount: '546'
+ht-degree: 80%
 
 ---
 
@@ -92,6 +92,6 @@ Führen Sie folgende Schritte aus:
 
    >[!NOTE]
    >
-   >Die **Öffnungen** und **Klicks** -Indikatoren werden nach 5 Minuten aktualisiert.
+   >Die **Öffnungen** und **Klicks** Indikatoren werden nach 5 Minuten aktualisiert.
 
-   Sie können den Versand jederzeit anhalten und später fortsetzen. Wenn Sie den Versand stoppen, während er durchgeführt wird, können Sie ihn nicht mehr fortsetzen.
+   Sie können den Versand jederzeit anhalten und später fortsetzen. Wenn Sie den Versand während des Versands stoppen, können Sie den Versand nicht fortsetzen.

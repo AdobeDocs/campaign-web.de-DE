@@ -3,9 +3,9 @@ audience: end-user
 title: Test-E-Mails senden
 description: Erfahren Sie, wie Sie Test-E-Mails definieren und senden
 exl-id: b2677579-c95d-443d-b207-466af364c208
-source-git-commit: d305cc7055008ecf25e41a51fabe1e5ece683b72
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
-source-wordcount: '540'
+source-wordcount: '537'
 ht-degree: 8%
 
 ---
@@ -20,7 +20,7 @@ Test-E-Mails können an zwei Empfängertypen gesendet werden:
 
 * **Testprofile**: Testversand-E-Mails an Testadressen, die zusätzliche fiktive Empfänger in der Datenbank sind. Sie können in der Adobe Campaign-Konsole in der **[!UICONTROL Ressourcen]** / **[!UICONTROL Campaign Management]** / **[!UICONTROL Testadressen]** Ordner.
 
-* **Substitution durch Hauptzielgruppe**: Testversand-E-Mails an eine bestimmte E-Mail-Adresse senden, während die Identität eines vorhandenen Profils übernommen wird. Auf diese Weise können Sie die E-Mail so erleben, wie sie die Empfänger erhalten. So erhalten Sie eine genaue Darstellung der Nachricht, die das Profil empfangen wird.
+* **Substitution durch Hauptzielgruppe**: Testversand-E-Mails an eine bestimmte E-Mail-Adresse senden, während die Identität eines vorhandenen Profils übernommen wird. Auf diese Weise können Sie die E-Mail so erleben, wie es die Empfänger tun. So erhalten Sie eine genaue Darstellung der Nachricht, die das Profil empfängt.
 
 ## Testempfänger auswählen {#recipients}
 
@@ -28,7 +28,7 @@ Test-E-Mails können an zwei Empfängertypen gesendet werden:
 
    ![](assets/test-button.png)
 
-1. Verwenden Sie die **[!UICONTROL Modus]** Dropdown-Liste zur Auswahl des Empfängertyps, der die Test-E-Mail erhalten soll:
+1. Verwenden Sie die **[!UICONTROL Modus]** Dropdown-Liste zur Auswahl des Empfängertyps, der die Test-E-Mail erhält:
 
    * **Testprofile**: die Test-E-Mail an Testadressen senden, die zusätzliche fiktive Empfänger in der Datenbank sind,
 
@@ -42,7 +42,7 @@ Test-E-Mails können an zwei Empfängertypen gesendet werden:
 
 1. Um Test-E-Mails an Ersatzprofile zu senden, wählen Sie die **[!UICONTROL Substitution durch Zielgruppe]** -Modus und führen Sie dann die folgenden Schritte aus:
 
-   1. Klicken Sie auf **[!UICONTROL Adresse hinzufügen]** und geben Sie die E-Mail-Adresse an, an die die Test-E-Mail gesendet werden soll.
+   1. Klicken Sie auf **[!UICONTROL Adresse hinzufügen]** und geben Sie die E-Mail-Adresse an, an die die Test-E-Mail gesendet wird.
 
       Sie können eine beliebige E-Mail-Adresse eingeben. So können Sie Testadressen an beliebige Benutzer senden, auch wenn diese nicht Adobe Campaign V8 verwenden.
 

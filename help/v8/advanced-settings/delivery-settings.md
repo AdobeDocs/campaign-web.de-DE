@@ -1,12 +1,12 @@
 ---
 audience: end-user
-title: E-Mail-Bereitstellungseinstellungen
+title: E-Mail-Versandeinstellungen
 description: Erfahren Sie mehr über die Einstellungen für den E-Mail-Versand in der Web-Benutzeroberfläche von Campaign
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
-source-wordcount: '1472'
-ht-degree: 55%
+source-wordcount: '1471'
+ht-degree: 87%
 
 ---
 
@@ -14,13 +14,13 @@ ht-degree: 55%
 
 ![Alpha-Version](../assets/do-not-localize/badge.png)
 
-Diese Einstellungen sind **technische Versandparameter** die in der E-Mail-Vorlage definiert sind. Sie sind im **Konfigurieren der Versandeinstellungen** beim Bearbeiten eines E-Mail-Versands verfügbar ist.
+Bei diesen Einstellungen handelt es sich um **technische Versandparameter**, die in der E-Mail-Vorlage definiert sind. Sie sind im **Konfigurieren der Versandeinstellungen** beim Bearbeiten eines E-Mail-Versands verfügbar ist.
 
 ## E-Mail-Versandeinstellungen {#email-delivery-settings}
 
 >[!CAUTION]
 >
-> Diese Einstellungen werden nur für Ihre Informationen beschrieben. Einige davon hängen von Ihrer Konfiguration und Ihren Berechtigungen ab. Sie dürfen in dieser Version des Produkts nicht geändert werden.
+> Diese Einstellungen werden hier nur zur Information beschrieben. Einige sind von Ihrer Konfiguration und Ihren Berechtigungen abhängig. Sie dürfen in dieser Version des Produkts nicht geändert werden.
 
 ## Typologie {#typology}
 
@@ -31,7 +31,7 @@ Diese Einstellungen sind **technische Versandparameter** die in der E-Mail-Vorla
 
 Typologien sind Gruppen von **Typologieregeln**, die während der Nachrichtenanalyse ausgeführt werden. Damit können Sie sicherstellen, dass Ihre E-Mails immer bestimmte Elemente (z. B. einen Link zur Abmeldung oder eine Betreffzeile) oder Filterregeln enthalten, um Gruppen aus Ihrer beabsichtigten Zielgruppe auszuschließen (z. B. ehemalige Abonnenten, Konkurrenten oder Kunden, die nicht Mitglied im Treueprogramm sind).
 
-Bei der Zuordnung einer Typologie zu einer Nachricht oder Nachrichtenvorlage werden die in der Typologie enthaltenen Typologieregeln ausgeführt, um die Gültigkeit der Nachricht während der Nachrichtenvorbereitung zu überprüfen.
+Wenn Sie eine Typologie mit einer Nachricht oder Nachrichtenvorlage verknüpfen, werden die in der Typologie enthaltenen Typologieregeln ausgeführt, um die Gültigkeit der Nachricht während der Nachrichtenvorbereitung zu überprüfen.
 
 ![](assets/delivery-settings-1.png)
 
@@ -43,7 +43,7 @@ Bei der Zuordnung einer Typologie zu einer Nachricht oder Nachrichtenvorlage wer
 >title="Versandgewichtung"
 >abstract="Die Versandgewichtung ermöglicht es Ihnen, im Rahmen der Druckverwaltung diejenigen Sendungen festzulegen, die vorrangig durchgeführt werden sollen. Die Nachrichten mit der höchsten Gewichtung haben Vorrang."
 
-In diesem Abschnitt können Sie mithilfe von Druckparametern eine **Schwellenwert**. Dies ist die maximale Anzahl von Nachrichten, die an ein Profil in einem bestimmten Zeitraum gesendet werden können. Sobald diese Schwelle erreicht ist, können keine Sendungen mehr durchgeführt werden, bis der Zeitraum abgelaufen ist. Durch dieses Verfahren kann ein Profil aus einem Versand automatisch ausgeschlossen werden, wenn eine Nachricht die festgelegte Schwelle übersteigt. Dadurch wird verhindert, dass ein Profil zu oft angesprochen wird.
+In diesem Abschnitt können Sie mithilfe von Druckparametern einen **Schwellenwert** definieren. Dies ist die maximale Anzahl von Nachrichten, die an ein Profil in einem bestimmten Zeitraum gesendet werden können. Sobald diese Schwelle erreicht ist, können keine Sendungen mehr durchgeführt werden, bis der Zeitraum abgelaufen ist. Durch dieses Verfahren kann ein Profil aus einem Versand automatisch ausgeschlossen werden, wenn eine Nachricht die festgelegte Schwelle übersteigt. Dadurch wird verhindert, dass ein Profil zu oft angesprochen wird.
 
 Schwellenwerte können konstant oder variabel sein. Das bedeutet, dass unterschiedliche Profile in einem bestimmten Zeitraum unterschiedliche Schwellen aufweisen können oder Schwellen sogar innerhalb desselben Profils variieren können.
 
@@ -53,16 +53,16 @@ Im Feld **Gewichtungstyp** stehen drei Optionen zur Verfügung:
 * **Empfängerabhängig**
 * **Wird in jeder Regel definiert**
 
-Verwenden Sie die **Versandgewichtung** -Feld, um die Versandpriorität festzulegen. Jeder Versand hat eine Gewichtung, die seine Priorität darstellt. Standardmäßig ist die Gewichtung eines Versands auf 5 festgelegt. Mithilfe von Druckregeln können Sie die Gewichtung der Sendungen bestimmen, auf die sie angewendet werden. Die Gewichtung kann entweder mithilfe einer Formel festgelegt oder berechnet werden, um sie den Empfängern anzupassen. Sie können beispielsweise die Gewichtung eines Versands auf der Basis der Interessen des Empfängers festlegen.
+Verwenden Sie das Feld **Versandgewichtung**, um die Versandpriorität zu definieren. Jeder Versand verfügt über eine Gewichtung, die die jeweilige Priorität darstellt. Standardmäßig ist die Versandgewichtung auf den Wert 5 festgelegt. Mit Druckregeln können Sie die Gewichtung der Sendungen festlegen, auf die sie angewendet werden. Die Gewichtung kann konstant sein oder mithilfe einer Formel empfängerabhängig berechnet werden. Beispielsweise kann die Gewichtung eines Versands den Interessen eines Empfängers entsprechend bestimmt werden.
 
 
-Verwenden Sie die **Versandmodus** -Feld, um den Zielauswertungsmodus auszuwählen. Drei Modi sind verfügbar:
+Verwenden Sie das Feld **Versandmodus**, um den Zielgruppenevaluierungsmodus auszuwählen. Drei Modi sind verfügbar:
 
 * **Zielgruppenschätzung und Nachrichtenpersonalisierung**
 * **Schätzung und Validierung der geplanten Zielgruppe**
 * **Zielgruppenevaluierung**
 
-Die Ermüdungsverwaltung wird mit dem **Kampagnenoptimierung** -Add-on. Erfahren Sie mehr über Druckregeln und wie Sie die Ermüdungsverwaltung in [Dokumentation zu Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=de){target="_blank"}.
+Die Ermüdungsverwaltung wird mit dem Add-on **Kampagnenoptimierung** bereitgestellt. Weitere Informationen über Druckregeln und die Konfiguration der Ermüdungsverwaltung finden Sie in der [Dokumentation zu Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=de){target="_blank"}.
 
 ### Kapazitätseinstellungen {#capacity-settings}
 
@@ -75,24 +75,24 @@ In diesem Bereich können Sie eine Kapazitätsregel auswählen, die in der Adobe
 
 Mit dem Feld **Wichtigkeit des Empfängers** wird festgelegt, welche Empfangenden im Falle einer Kapazitätsüberlastung der Typologieregeln beibehalten werden.
 
-Erfahren Sie mehr über Konsistenz- und Kapazitätsregeln und deren Konfiguration in [Dokumentation zu Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html){target="_blank"}.
+Weitere Informationen über Konsistenz- und Kapazitätsregeln und deren Konfiguration finden Sie in der [Dokumentation zu Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html?lang=de){target="_blank"}.
 
 
 ## Audience {#audience}
 
-In diesem Abschnitt können Sie eine **Zielgruppen-Mapping** unter denen, die verfügbar sind. Zielgruppen-Mappings werden in der Adobe Campaign v8-Konsole definiert.
+In diesem Abschnitt können Sie ein verfügbares **Zielgruppen-Mapping** auswählen. Zielgruppen-Mappings sind in der Adobe Campaign v8-Konsole definiert.
 
-Weitere Informationen zu Zielgruppen-Mappings finden Sie unter [Dokumentation zu Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html){target="_blank"}.
+Weitere Informationen über Zielgruppen-Mappings finden Sie in der [Dokumentation zu Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=de){target="_blank"}.
 
 ## Versand {#delivery}
 
 Versandparameter sind technische Einstellungen, die für Ihren Versand gelten.
 
-* **Routing**: das externe Konto Integriertes E-Mail-Routing standardmäßig bereitgestellt wird. Es enthält die technischen Parameter, die es der Anwendung erlauben, E-Mails zu senden.
+* **Routing**: Das integrierte externe E-Mail-Routing-Konto wird standardmäßig bereitgestellt. Es enthält die technischen Parameter, die es der Anwendung erlauben, E-Mails zu senden.
 
-* **SMTP-Versand testen**: Diese Option wird zum Testen des Versands über SMTP verwendet. Der Versand wird bis zur Verbindung mit dem SMTP-Server verarbeitet, aber nicht gesendet: Für jeden Empfänger bzw. jede Empfängerin des Versands stellt Campaign eine Verbindung mit dem Server des SMTP-Anbieters her, führt den SMTP-Befehl RCPT TO aus und trennt die Verbindung vor dem SMTP-Befehl DATA.
+* **SMTP-Versand testen**: Diese Option wird verwendet, um den Versand über SMTP zu testen. Der Versand wird bis zur Verbindung mit dem SMTP-Server verarbeitet, aber nicht gesendet: Für jeden Empfänger bzw. jede Empfängerin des Versands stellt Campaign eine Verbindung mit dem Server des SMTP-Anbieters her, führt den SMTP-Befehl RCPT TO aus und trennt die Verbindung vor dem SMTP-Befehl DATA.
 
-* **E-Mail-BCC**: Diese Option wird verwendet, um E-Mails über BCC in einem externen System zu speichern, indem einfach eine BCC-E-Mail-Adresse zu Ihrer Versandzielgruppe hinzugefügt wird. Weitere Informationen zu E-Mail-BCC in [Dokumentation zu Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html){target="_blank"}.
+* **E-Mail-BCC**: Diese Option wird verwendet, um mit der BCC-Funktion E-Mails in einem externen System zu speichern, indem einfach eine E-Mail-Adresse als BCC zu Ihrer Nachrichtzielgruppe hinzugefügt wird. Weitere Informationen über E-Mail-BCC finden Sie in der [Dokumentation zu Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html?lang=de){target="_blank"}.
 
 
 
@@ -101,11 +101,11 @@ Versandparameter sind technische Einstellungen, die für Ihren Versand gelten.
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_retries"
 >title="Maximale Anzahl der weiteren Zustellversuche"
->abstract="Wenn die Zustellung einer Nachricht wegen eines vorübergehenden Fehlers fehlschlägt, werden während der Versandlaufzeit weitere Zustellversuche unternommen."
+>abstract="Wenn eine Nachricht aufgrund eines temporären Fehlers fehlschlägt, werden weitere Zustellversuche bis zum Ende der Versandlaufzeit unternommen."
 
 <!--Temporarily undelivered messages due to a Soft or Ignored error are subject to an automatic retry. By default, five retries are scheduled for the first day of the delivery with a minimum interval of one hour spread out over the 24 hours of the day. -->
 
-Erfahren Sie mehr über die Verwaltung von Wiederholungen in [Dokumentation zu Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html){target="_blank"}.
+Weitere Informationen über die Verwaltung von Wiederholungen finden Sie in der [Dokumentation zu Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html?lang=de){target="_blank"}.
 
 ## Validierung {#approval}
 
@@ -114,15 +114,15 @@ Erfahren Sie mehr über die Verwaltung von Wiederholungen in [Dokumentation zu C
 >title="Validierungsmodus"
 >abstract="Jeder Schritt eines Versands kann einer Validierung unterzogen werden, um eine vollständige Überwachung und Kontrolle der verschiedenen Prozesse zu gewährleisten."
 
-Wenn bei der Versandvorbereitung Warnungen erzeugt werden, können Sie den Versand so konfigurieren, dass festgelegt wird, ob er weiterhin ausgeführt werden soll oder nicht. Standardmäßig muss der Benutzer den Nachrichtenversand am Ende der Analysephase bestätigen: dies ist **Handbuch** Validierung.
+Wenn bei der Versandvorbereitung Warnungen erzeugt werden, können Sie den Versand so konfigurieren, dass definiert wird, ob er trotzdem ausgeführt werden soll. Standardmäßig müssen Benutzende den Nachrichtenversand am Ende der Analysephase bestätigen: Hierbei handelt es sich um eine **manuelle** Validierung.
 
-Sie können im entsprechenden Feld einen anderen Validierungsmodus auswählen. Verfügbare Modi sind:
+Sie können im entsprechenden Feld einen anderen Validierungsmodus auswählen. Folgende Modi sind verfügbar: 
 
-* **Manuell**: Am Ende der Analysephase muss der Benutzer die Absendung bestätigen, um die Nachrichten abzuschicken.
+* **Manuell**: Am Ende der Analysephase muss der Benutzer bzw. die Benutzerin den Versand bestätigen, um die Nachrichten abzuschicken.
 
-* **Halbautomatisch**: Das Senden beginnt automatisch, wenn in der Analysephase keine Warnmeldungen erzeugt werden.
+* **Halbautomatisch**: Die Nachrichten werden automatisch gesendet, wenn die Analysephase ohne Warnhinweise abgeschlossen wird.
 
-* **Automatisch**: Der Versand beginnt automatisch am Ende der Analysephase, unabhängig vom Ergebnis.
+* **Automatisch**: Die Nachrichten werden unabhängig vom Ergebnis der Analysephase automatisch gesendet.
 
 
 ## Gültigkeit {#validity}
@@ -142,20 +142,20 @@ Im Feld **Versandlaufzeit** können Sie die Zeitspanne angeben, in der erneute Z
 
 Sie können alternativ auch ein genaues Ablaufdatum angeben. Kreuzen Sie in diesem Fall die Option **Gültigkeit explizit festlegen** an. Auf diese Weise kann auch eine bestimmte Uhrzeit konfiguriert werden. Standardmäßig ist dies die aktuelle Uhrzeit. Diese kann jedoch direkt im Eingabefeld angepasst werden.
 
-**Gültigkeit der Ressourcen** wird für hochgeladene Ressourcen verwendet, hauptsächlich für die Mirrorseite und Bilder. Die Gültigkeitsdauer von Ressourcen auf dieser Seite ist begrenzt, um Speicherkapazität zu sparen.
+Das Feld **Ressourcengültigkeit** wird für hochgeladene Ressourcen verwendet, insbesondere für Mirror-Seiten und Bilder. Die Gültigkeitsdauer von Ressourcen auf dieser Seite ist begrenzt, um Speicherkapazität zu sparen.
 
 ![](assets/delivery-settings-2.png)
 
 
-Erfahren Sie mehr über den Gültigkeitszeitraum eines Versands in [Dokumentation zu Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html#validity-period){target="_blank"}.
+Weitere Informationen über den Versand-Gültigkeitszeitraum finden Sie in der [Dokumentation zu Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=de#validity-period){target="_blank"}.
 
-### Verwaltung der Mirrorseite {#mirror}
+### Verwaltung der Mirror-Seite {#mirror}
 
-Eine Mirrorseite ist eine HTML-Seite, die über einen Webbrowser online abgerufen werden kann und deren Inhalt mit dem der E-Mail identisch ist. Standardmäßig wird die Mirror­Seite automatisch generiert, wenn der entsprechende Link in den Inhalt der E-Mail eingefügt wurde.
+Eine Mirror-Seite ist eine HTML-Seite, die über einen Webbrowser online abgerufen werden kann und deren Inhalt mit dem der E-Mail identisch ist. Standardmäßig wird die Mirror-Seite automatisch generiert, wenn der entsprechende Link in den Inhalt der E-Mail eingefügt wurde.
 
-Außerdem stehen die folgenden Modi zur Verfügung:
+Zusätzlich zum Standardmodus stehen die folgenden Optionen zur Verfügung:
 
-* **[!UICONTROL Mirrorseitenerzeugung forcieren]**: Erstellt eine Mirror-Seite, selbst wenn im Versandinhalt kein entsprechender Link enthalten ist.
+* **[!UICONTROL Mirrorseitenerstellung erzwingen]**: selbst wenn im Versand kein Link zur Mirrorseite eingefügt wurde, wird die Mirrorseite erstellt.
 * **[!UICONTROL Keine Mirrorseite erzeugen]**: Erstellt keine Mirror-Seite, selbst wenn im Versandinhalt der entsprechende Link enthalten ist.
 * **[!UICONTROL Von der Nachrichtenkennung aus zugängliche Mirrorseite erzeugen]**: Diese Option ermöglicht den Zugriff auf den Inhalt der Mirror-Seite einschließlich aller Personalisierungsinformationen von den Versand-Logs aus. Klicken Sie hierfür nach Durchführung des Versands auf den Tab **[!UICONTROL Versand]** und wählen Sie die Zeile des Empfängers aus, dessen Mirror-Seite Sie ansehen möchten. Klicken Sie dann auf den Link **[!UICONTROL Mirrorseite dieser Nachricht anzeigen...]**.
 
@@ -165,7 +165,7 @@ Außerdem stehen die folgenden Modi zur Verfügung:
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_tracking_validity"
 >title="Gültigkeitszeitraum"
->abstract="Diese Option definiert die Dauer, für die das Tracking in den URLs aktiv sein soll."
+>abstract="Diese Option definiert die Dauer, für die das Tracking in den URLs aktiviert wird."
 
 Tracking-Parameter werden im entsprechenden Abschnitt definiert. Mögliche Optionen sind:
 
@@ -175,13 +175,13 @@ Tracking-Parameter werden im entsprechenden Abschnitt definiert. Mögliche Optio
 
 ## Testeinstellungen {#test-setttings}
 
-Sie können die Ausschlussparameter in diesem Abschnitt festlegen. Verfügbare Optionen sind:
+Sie können die Ausschlussparameter in diesem Abschnitt festlegen. Folgende Optionen sind verfügbar: 
 
-* **Doppelte beibehalten** ermöglicht die Genehmigung mehrerer Sendungen an Empfänger, die verschiedenen Zielgruppenkriterien entsprechen.
+* **Dubletten beibehalten**: Ermöglicht es, mehrere Sendungen an Empfängerinnen und Empfänger zu genehmigen, die mehrere Zielgruppenbestimmungskriterien erfüllen.
 
-* **auf die Blockierungsliste gesetzt Adressen beibehalten** verhindert, dass Profile, die nicht mehr in den Versand eingeschlossen sind, von der Zielgruppe ausgeschlossen werden, z. B. nach einer Abmeldung (Opt-out).
+* **Adressen auf der Blockierungsliste behalten**: Ermöglicht es, Zielgruppenprofile, die nicht mehr in den Versand eingeschlossen sind, beizubehalten, z. B. nach einer Abmeldung (Opt-out).
 
-* **Quarantäne-Adressen beibehalten** ermöglicht es, alle Profile mit einer Adresse, die nicht reagiert, von der Zielgruppe fernzuhalten.
+* **Quarantäneadressen beibehalten**: Ermöglicht es, Zielgruppenprofile mit einer Adresse beizubehalten, über die keine Reaktion erfolgt.
 
 Sie können auch den Namen der Test-E-Mails anpassen.
 

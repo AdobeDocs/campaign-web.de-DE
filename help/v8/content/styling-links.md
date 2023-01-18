@@ -3,10 +3,10 @@ audience: end-user
 title: Definieren eines Stils für Links
 description: Erfahren Sie, wie Sie einen Stil für Links definieren
 exl-id: b4b79bd5-a96c-49ca-b3fe-95befef00dff
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
-workflow-type: ht
-source-wordcount: '141'
-ht-degree: 100%
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+workflow-type: tm+mt
+source-wordcount: '140'
+ht-degree: 92%
 
 ---
 
@@ -22,7 +22,7 @@ Sie können in E-Mail-Designer einen Link unterstreichen und dessen Farbe und Zi
 
    ![](assets/link_1.png)
 
-1. Wählen Sie in der Drop-Down-Liste **[!UICONTROL Zielgruppen]**, wie Ihre Audience umgeleitet werden soll:
+1. Wählen Sie aus, wie Ihre Zielgruppe mit der **[!UICONTROL Target]** Dropdown-Liste:
 
    * **[!UICONTROL Keine]**: Öffnet den Link im selben Fenster, in dem er angeklickt wurde (Standard).
    * **[!UICONTROL Leer]**: Öffnet den Link in einem neuen Fenster oder einer neuen Registerkarte.
