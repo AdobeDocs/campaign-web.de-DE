@@ -3,9 +3,9 @@ audience: end-user
 title: Erkunden der Benutzeroberfläche
 description: Web-Benutzeroberfläche von Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: b203d1e2adb1b41cdc4adf398934707f6093b317
+source-git-commit: e8226b571986d099dcf0277c4ef2f3076ea1592d
 workflow-type: tm+mt
-source-wordcount: '1297'
+source-wordcount: '1301'
 ht-degree: 88%
 
 ---
@@ -182,7 +182,7 @@ Campaign v8 Web ist so konzipiert, dass es in der neuesten Version von Google Ch
 
 ## Sprachvoreinstellungen {#language-pref}
 
-Die Benutzeroberfläche ist derzeit in den folgenden Sprachen verfügbar:
+Campaign v8 Web ist derzeit in den folgenden Sprachen verfügbar:
 
 * Englisch (US) - EN-US
 * Französisch - FR
@@ -199,10 +199,16 @@ Die Standardsprache der Benutzeroberfläche wird von der in Ihrem Benutzerprofil
 
 So ändern Sie Ihre Sprache:
 
-* Klicken **Voreinstellungen** von Ihrem Avatar, oben rechts.
-   ![](assets/preferences.png)
-* Klicken Sie dann auf die Sprache, die unter Ihrer E-Mail-Adresse angezeigt wird.
-* Wählen Sie Ihre bevorzugte Sprache aus und klicken Sie auf **Speichern**. Sie können eine zweite Sprache auswählen, falls die von Ihnen verwendete Komponente nicht in Ihrer Muttersprache lokalisiert ist.
+1. Klicken Sie auf das Profilsymbol oben rechts und wählen Sie dann **Voreinstellungen**.
+
+   ![](assets/preferences.png){width="70%" align="left"}
+
+1. Klicken Sie dann auf die Sprache, die unter Ihrer E-Mail-Adresse angezeigt wird.
+
+   ![](assets/preferences2.png)
+
+1. Wählen Sie Ihre bevorzugte Sprache aus und klicken Sie auf **Speichern**. Sie können eine zweite Sprache auswählen, falls die von Ihnen verwendete Komponente nicht in Ihrer Muttersprache lokalisiert ist.
+
    ![](assets/select-language.png)
 
 <!--
