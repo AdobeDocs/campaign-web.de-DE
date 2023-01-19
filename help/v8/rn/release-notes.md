@@ -4,9 +4,9 @@ title: Versionshinweise zu Campaign Web v8
 description: Versionshinweise zu Campaign Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 source-git-commit: 54bcb9b0ba8704cde8beaf1b0400eaa01bba0b15
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '322'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Diese moderne Web-Benutzeroberfläche von Campaign ist derzeit nur für **Alpha-
 
 **Modernes, intuitives und einheitliches Erlebnis**
 
-Die neue Web-Benutzeroberfläche von Campaign bietet ein neues Benutzererlebnis, das mit allen Adobe Experience Cloud-Lösungen und -Apps abgestimmt ist. Sie bietet:
+Die neue Web-Benutzeroberfläche von Campaign bietet ein neues Benutzererlebnis, das mit allen Adobe Experience Cloud-Lösungen und -Programmen abgestimmt ist. Sie bietet:
 
 * Zugriff auf die neue Benutzeroberfläche und andere Adobe-Lösungen über eine einzige, gemeinsam genutzte Benutzersitzung
 * Neues Navigationserlebnis mit Zugriff auf alle Menüs und Ordner in der linken Leiste
@@ -51,14 +51,14 @@ add info somewhere to remind users that
 
 >[!NOTE]
 >
->Beachten Sie, dass kanalübergreifende Kampagnen und Workflow-Management-Funktionen als Teil des Beta-Programms verfügbar sein werden.
+>Beachten Sie, dass Cross-Channel-Kampagnen und Workflow-Management-Funktionen als Teil des Beta-Programms verfügbar sein werden.
 
 ## Aktualisierungen der Terminologie
 
 Bestehende Campaign-Benutzende sollten beachten, dass einige Konzepte entsprechend den aktuellen Terminologiestandards umbenannt wurden. Diese Änderungen gelten nur für die Web-Benutzeroberfläche von Campaign und werden nicht in der Client-Konsole übernommen. Sie sind unten zusammengefasst.
 
 * Testsendungen heißen jetzt **Test-E-Mails**: verwenden Sie zum Testversand die Schaltfläche **Test** in der Benutzeroberfläche des E-Mail-Versands. Die Zielgruppe des Testversands wird jetzt als **Testprofile** bezeichnet
-* Testadressen werden jetzt als **Testprofile**: die Test-E-Mail an Testadressen senden, die zusätzliche fiktive Empfänger in der Datenbank sind
+* Testadressen werden jetzt als **Testprofile** verwendet: Senden Sie die Test-E-Mail an Testadressen, bei denen es sich um zusätzliche, fiktive Empfänger in der Datenbank handelt
 * Die Versandanalyse heißt jetzt **Versandvorbereitung**. Wenn Sie die Analyse starten möchten, klicken Sie auf die Schaltfläche **Vorbereiten**
 * Die E-Mail-Vorschau ist jetzt über die Schaltfläche **Inhalt simulieren** verfügbar
 * Listen heißen jetzt **Audiences**
