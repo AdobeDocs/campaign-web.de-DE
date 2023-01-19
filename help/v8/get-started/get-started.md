@@ -6,7 +6,7 @@ exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 source-git-commit: a59c133254632c49618fae6ad3d61a2f6e0a1eea
 workflow-type: tm+mt
 source-wordcount: '401'
-ht-degree: 23%
+ht-degree: 81%
 
 ---
 
@@ -30,35 +30,35 @@ only existing customers
 
 Adobe Campaign bietet eine Plattform für die Gestaltung kanalübergreifender Kundenerlebnisse und eine Umgebung für die visuelle Kampagnenorchestrierung, die Verwaltung von Interaktionen in Echtzeit und die kanalübergreifende Ausführung.
 
-Zunächst nur über einen Rich verfügbar [Clientkonsole](#ac-client)bietet Campaign jetzt eine neue Web-Benutzeroberfläche mit verbesserter Benutzerfreundlichkeit, Barrierefreiheit und einem neuen Design, um Ihr Benutzererlebnis erheblich zu verbessern. Diese neue, moderne Benutzeroberfläche vereinfacht das Design und die Bereitstellung von Marketingkampagnen und sorgt für Konsistenz mit anderen Adobe-Lösungen, einschließlich Adobe Experience Platform.
+Zunächst nur über einen Rich verfügbar [Clientkonsole](#ac-client)bietet Campaign jetzt eine neue Web-Benutzeroberfläche mit verbesserter Benutzerfreundlichkeit, Barrierefreiheit und einem neuen Design, um Ihr Benutzererlebnis erheblich zu verbessern. Diese neue moderne Benutzeroberfläche vereinfacht die Gestaltung und den Versand von Marketing-Kampagnen und sorgt für Konsistenz mit anderen Adobe-Lösungen, einschließlich der Adobe Experience Platform.
 
 
 ![](assets/home.png)
 
-Diese neue Benutzeroberfläche erfüllt zunächst die Anforderungen der **Geschäftspraktiker** - Alle typischen Verwaltungsaufgaben sind in dieser ersten Version nicht verfügbar, werden aber in nachfolgenden Versionen behandelt. Beachten Sie, dass in der neuen Benutzeroberfläche derzeit nicht alle in der Clientkonsole verfügbaren Funktionen und Optionen verfügbar sind. In zukünftigen Versionen werden neue Anwendungsfälle, Optionen und Funktionen verfügbar sein.
+Diese neue Benutzeroberfläche erfüllt zunächst die Anforderungen der **Geschäftspraktiker** - Alle typischen Verwaltungsaufgaben sind in dieser ersten Version nicht verfügbar, werden aber in nachfolgenden Versionen behandelt. Beachten Sie, dass in der neuen Benutzeroberfläche derzeit nicht alle Funktionen und Optionen der Client-Konsole verfügbar sind. In zukünftigen Versionen werden neue Anwendungsfälle, Optionen und Funktionen zur Verfügung stehen.
 
-Wenn Sie auf die Campaign v8-Funktionen zugreifen müssen, die nicht in der Web-Benutzeroberfläche verfügbar sind, können Sie die [Clientkonsole](#ac-client).
+Wenn Sie auf Campaign v8-Funktionen zugreifen müssen, die nicht in der Web-Benutzeroberfläche verfügbar sind, können Sie die [Client-Konsole](#ac-client) verwenden.
 
-## Über die Campaign-Clientkonsole{#ac-client}
+## Über die Campaign-Client-Konsole{#ac-client}
 
-Die Campaign-Clientkonsole ist eine browserbasierte Anwendung, die auf Ihrem System installiert ist. Es verwendet die Web-Services-API, um eine Verbindung zu Ihrem Campaign-Anwendungsserver herzustellen.
+Die Campaign-Client-Konsole ist eine Browser-basierte Anwendung, die auf Ihrem System installiert ist. Sie nutzt die Web-Services-API, um eine Verbindung zu Ihrem Campaign-Anwendungs-Server herzustellen.
 
-Erfahren Sie, wie Sie die Clientkonsole herunterladen und installieren in [diesem Abschnitt](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/connect.html){target="_blank"}.
+In [diesem Abschnitt](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/connect.html?lang=de) erfahren Sie, wie Sie die Client-Konsole herunterladen und installieren.{target="_blank"}
 
 Weitere Informationen zur Verwendung von Campaign v8 finden Sie in der [Dokumentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=de){target="_blank"}.
 
-Kampagnendaten werden auf dem Anwendungsserver gespeichert. Daten sind sowohl in der Client-Konsole als auch in der Web-Benutzeroberfläche verfügbar. Wenn Sie beispielsweise eine Versandvorlage mit der Clientkonsole erstellen, ist sie auch in der Web-Benutzeroberfläche verfügbar. Wenn Sie einen E-Mail-Versand in der Web-Benutzeroberfläche erstellen, kann dieser Versand auch über die Client-Konsole aufgerufen werden.
+Kampagnendaten werden auf dem Anwendungs-Server gespeichert. Daten sind sowohl über die Client-Konsole als auch über die Web-Benutzeroberfläche verfügbar. Wenn Sie beispielsweise eine Versandvorlage mithilfe der Client-Konsole erstellen, ist diese ebenfalls in der Web-Benutzeroberfläche verfügbar. Ist in der Web-Benutzeroberfläche ein E-Mail-Versand eingerichtet, kann diese Versandart auch über die Client-Konsole aufgerufen werden.
 
 ## Herstellen einer Verbindung zu Campaign
 
 
-1. Verbinden mit [Adobe Experience Cloud](http://experience.adobe.com){target="_blank"}.
-1. Melden Sie sich mit Ihren Adobe-Anmeldedaten an.
+1. Stellen Sie eine Verbindung mit [Adobe Experience Cloud](http://experience.adobe.com){target="_blank"} her.
+1. Melden Sie sich mit Ihren Adobe-Anmeldeinformationen an.
 1. Klicken Sie im Abschnitt **Schnellzugriff** auf **Campaign**.
    ![](assets/connect.png)
 
-1. Klicken Sie auf der nächsten Seite auf die **Launch** Schaltfläche Ihrer Campaign-Instanz.
-Sie sind jetzt mit Campaign verbunden. Erfahren Sie, wie Sie mit der Verwendung der Benutzeroberfläche in [diese Seite](user-interface.md).
+1. Klicken Sie auf der nächsten Seite auf die Schaltfläche **Starten** Ihrer Campaign-Instanz.
+Sie sind jetzt mit Campaign verbunden. Auf [dieser Seite](user-interface.md) erfahren Sie, wie Sie die Benutzeroberfläche verwenden.
 
 <!--
 -> experience cloud home: "Campaign" -> home campaign v8

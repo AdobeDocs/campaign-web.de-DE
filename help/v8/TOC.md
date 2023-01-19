@@ -3,12 +3,12 @@ audience: end-user
 user-guide-title: Campaign v8 Web
 description: Web-Dokumentation zu Campaign v8
 breadcrumb-title: Übersicht über Campaign
-title: Web-Dokumente für Campaign v8
+title: Dokumente zu Campaign v8 Web
 hide: true
 source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
 workflow-type: tm+mt
 source-wordcount: '165'
-ht-degree: 90%
+ht-degree: 97%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 90%
    + [Erste Schritte mit Audiences](audience/about-audiences.md)
    + [Auswählen einer Audience](audience/add-audience.md)
    + [Einrichten einer Kontrollgruppe](audience/control-group.md)
-   + [Definieren einer Zielgruppe mit dem Regel-Builder](audience/segment-builder.md)
+   + [Definieren von Audiences mit dem Regel-Builder](audience/segment-builder.md)
 + Erstellen einer E-Mail-Vorschau und Testen einer E-Mail {#preview-test}
    + [Über Vorschau und Test](preview-test/preview-test.md)
    + [Vorschau von E-Mail-Inhalten](preview-test/preview-content.md)

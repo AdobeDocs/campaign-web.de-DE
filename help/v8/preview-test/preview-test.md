@@ -6,7 +6,7 @@ exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
 source-git-commit: d305cc7055008ecf25e41a51fabe1e5ece683b72
 workflow-type: tm+mt
 source-wordcount: '110'
-ht-degree: 7%
+ht-degree: 12%
 
 ---
 
@@ -18,7 +18,7 @@ Vor dem Versand einer E-Mail ist es wichtig, den Inhalt zu überprüfen und zu t
 
 Dazu bietet Adobe Campaign folgende Möglichkeiten:
 
-* [Vorschau des E-Mail-Inhalts und Personalisierung](#preview),
+* [Vorschau des E-Mail-Inhalts und der Personalisierung](#preview),
 
 <!--* [Check the email rendering](#rendering) in popular desktop, mobile and web-based clients,-->
 * [Test-E-Mails senden](#send-proofs) an bestimmte Empfänger für Tests und Validierung.
