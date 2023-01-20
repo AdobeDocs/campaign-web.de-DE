@@ -1,43 +1,37 @@
 ---
 audience: end-user
-title: Vertikale Ausrichtung und Abstand in E-Mail-Designer anpassen
-description: Erfahren Sie, wie Sie die senkrechte Ausrichtung und den Abstand anpassen.
+title: Adjust vertical alignment and padding in Email Designer
+description: Learn how to adjust vertical alignment and padding
 exl-id: 32e613e4-60ce-43b4-90a6-794af0e3976b
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
-workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 90%
-
 ---
-
-# Anpassen der senkrechten Ausrichtung und des Abstands {#alignment-and-padding}
+# Adjust vertical alignment and padding {#alignment-and-padding}
 
 ![](../assets/do-not-localize/badge.png)
 
-In diesem Beispiel passen wir den Abstand und die vertikale Ausrichtung innerhalb einer Strukturkomponente an, die aus drei Spalten besteht.
+In this example, we adjust padding and vertical alignment inside a structure component composed of three columns.
 
-1. Wählen Sie eine Strukturkomponente direkt in der E-Mail oder unter Verwendung des **[!UICONTROL Navigationbaums]** im linken Bereich aus.
+1. Select the structure component directly in the email or using the **[!UICONTROL Navigation tree]** available in the left pane.
 
    ![](assets/alignment_1.png)
 
-1. Wählen Sie in der kontextuellen Symbolleiste mithilfe der Option **[!UICONTROL Spalte auswählen]** die gewünschte Spalte aus. Sie können sie auch im Strukturbaum auf der linken Seite auswählen.
+1. From the contextual toolbar, click **[!UICONTROL Select a column]** and choose the one that you want to edit. You can also select it from the structure tree on the left.
 
    ![](assets/alignment_2.png)
 
-1. Die bearbeitbaren Parameter für diese Spalte werden im Menü **[!UICONTROL Spalteneinstellungen]** auf der rechten Seite angezeigt. Passen Sie die **[!UICONTROL senkrechte Ausrichtung]** im entsprechenden Abschnitt an.
+1. The editable parameters for that column are displayed in the **[!UICONTROL Column settings]** menu on the right. Adjust the **[!UICONTROL Vertical alignment]** using the dedicated section.
 
    ![](assets/alignment_3.png)
 
-   Wählen Sie beispielsweise **[!UICONTROL Unten]**. Die Inhaltskomponente wird an den unteren Rand der Spalte verschoben.
+   For example, select **[!UICONTROL Bottom]**. The content component moves to the bottom of the column.
 
-1. Definieren Sie unter **[!UICONTROL Abstand]** den oberen Abstand innerhalb der Spalte und legen Sie den linken und rechten Abstand für diese Spalte fest.
+1. Under **[!UICONTROL Padding]**, define the top padding inside the column, and set the left and right padding for that column.
 
    >[!NOTE]
    >
-   >Klicken Sie auf das Schlosssymbol, um die Synchronisation zwischen dem oberen/unteren oder linken/rechten Abstand aufzuheben.
+   >Click the lock icon to break synchronization between the top/bottom or left/right padding.
 
    ![](assets/alignment_4.png)
 
-1. Gehen Sie analog mit den anderen Ausrichtungs- und Abstandseinstellungen der Spalten vor.
+1. Proceed similarly to adjust the other columns' alignment and padding.
 
-1. Speichern Sie Ihre Änderungen.
+1. Save your changes.

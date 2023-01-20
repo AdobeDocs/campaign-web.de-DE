@@ -1,15 +1,9 @@
 ---
 audience: end-user
-title: Hinzufügen von Assets
-description: Erfahren Sie, wie Sie Assets hinzufügen
+title: Add assets
+description: Learn how to add assets
 exl-id: 0c3f47fa-7e8e-4ec1-bac3-9e2d8ee19433
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
-workflow-type: ht
-source-wordcount: '9'
-ht-degree: 100%
-
 ---
-
-# Hinzufügen von Assets {#add-assets}
+# Add assets {#add-assets}
 
 ![](../assets/do-not-localize/badge.png)

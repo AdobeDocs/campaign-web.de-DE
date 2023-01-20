@@ -1,72 +1,66 @@
 ---
 audience: end-user
-title: Überwachen von Versandlogs
-description: Erfahren Sie, wie Sie Versand-Logs überwachen
+title: Monitor delivery logs
+description: Learn how to monitor delivery logs
 exl-id: 2eb7457e-32f7-4729-99c8-91bf287f0192
-source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
-workflow-type: tm+mt
-source-wordcount: '295'
-ht-degree: 85%
-
 ---
-
-# Überwachen von Versandlogs {#delivery-logs}
+# Monitor delivery logs {#delivery-logs}
 
 ![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_preparation_logs"
->title="Versandlogs"
+>title="Delivery logs"
 >abstract="TBC"
 
-Nach der Vorbereitung und dem Versand einer E-Mail können Sie mithilfe der Versandlogs sicherstellen, dass kein Fehler vorliegt. Diese Logs können direkt über das Nachrichten-Dashboard aufgerufen werden. In ihnen werden Details zum Versand dargestellt und Sie erfahren, welche Zielgruppe warum ausgeschlossen wurde, und erhalten Tracking-Informationen wie z. B. Öffnungen und Klicks.
+After preparing and sending an email, the delivery logs allow you to verify that there is no error. These logs can be accessed directly from the message dashboard. They show the detail of the sending, which target has been excluded and why, as well as the tracking information such as opens and clicks.
 
-Um die Logs anzuzeigen, rufen Sie Ihr Versand-Dashboard auf und klicken Sie auf die Schaltfläche **Protokolle**.
+To view the logs, access your delivery dashboard and click the **Logs** button.
 
-Mehrere Optionen sind verfügbar:
+Several tabs are available:
 
 ## Logs
 
-Die Registerkarte **Protokolle** enthält alle mit dem Versand und den Testsendungen verbundenen Nachrichten. Eventuelle Fehler oder Warnmeldungen werden durch spezifische Symbole hervorgehoben.
+The **Logs** tab contains all messages relating to the delivery and the proofs. Specific icons allow you to identify errors or warnings. 
 
-Alle Validierungsschritte, Warnungen und Fehler werden aufgelistet. Farbige Symbole zeigen den Nachrichtentyp an:
+All the validation steps, warnings and errors are listed. Colored icons show the message type:
 
-* Das blaue Symbol steht für eine informative Nachricht.
-* Das gelbe Symbol steht für einen nicht kritischen Verarbeitungsfehler.
-* Das rote Symbol steht für einen kritischen Fehler, der die Durchführung des Versands verhindert.
+* The grey icon indicates an informative message.
+* The yellow icon indicates a non-critical processing error.
+* The red icon indicates a critical error that prevents sending the delivery. 
 
 ![](assets/logs.png)
 
-## Sendungen
+## Deliveries
 
-Der Tab **Versandlogs** zeigt die Liste der einzelnen Nachrichten eines Versands. sowie deren Status an. Für jeden einzelnen Empfänger können Sie anhand des Status das Ergebnis des Versands verfolgen.
+The **Sending logs** tab offers a history of every occurrence of this delivery. The list of sent messages and their statuses is stored here. It allows you to view the delivery status for each recipient.
 
 ![](assets/logs2.png)
 
-## Ausschlüsse
+## Exclusions
 
-Die **Ausschlusslogs** enthält alle Nachrichten, die von der Zielgruppe ausgeschlossen wurden, und gibt den Grund für den Versandfehler an.
+The **Exclusion logs** tab lists all the messages that have been excluded from the target and specifies the reason for the send failure.
 
 ![](assets/logs3.png)
 
-## Ausschlussgründe
+## Exclusion causes
 
-Die **Ausschlussgründe** zeigt die Anzahl an ausgeschlossenen Empfängern an.
+The **Exclusion causes** tab displays the volume (in number of messages) of messages that were excluded from the target.
 
 ![](assets/logs4.png)
 
-## Getrackte URLs
+## Tracked URLs
 
-Die Registerkarte **Getrackte URLs** gibt Auskunft über die in der gesendeten Nachricht enthaltenen URLs, ihren Typ sowie ihre Quell-URLs.
+The **Tracked URLs** tab regroups the URLs contained in the sent message, including their URL type and their source URL.
 
 ![](assets/logs5.png)
 
 ## Tracking
 
-In der Registerkarte **Tracking** wird der Tracking-Verlauf für den jeweiligen Versand angezeigt. Hier werden die Tracking-Informationen zu allen von Adobe Campaign gesendeten Nachrichten aufgeführt, d. h. zu allen getrackten URLs.
+The **Tracking** tab lists the tracking history for this delivery. This tab displays tracking data for the messages sent, i.e. all URLs subject to tracking by Adobe Campaign.
 
 >[!NOTE]
 >
->Sollte das Tracking für einen Versand nicht aktiviert worden sein, wird diese Registerkarte nicht angezeigt.
+>If tracking is not enabled for a delivery, this tab is not displayed.
 
 ![](assets/logs6.png)

@@ -1,190 +1,184 @@
 ---
 audience: end-user
-title: E-Mail-Versandeinstellungen
-description: Erfahren Sie mehr über die Einstellungen für den E-Mail-Versand in der Web-Benutzeroberfläche von Campaign
+title: Email Delivery Settings
+description: Learn more about email delivery settings in Campaign Web UI
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
-workflow-type: tm+mt
-source-wordcount: '1471'
-ht-degree: 87%
-
 ---
+# Email delivery settings {#email-del-settings}
 
-# E-Mail-Versandeinstellungen {#email-del-settings}
+![Alpha version](../assets/do-not-localize/badge.png)
 
-![Alpha-Version](../assets/do-not-localize/badge.png)
+These settings are **technical delivery parameters** that are defined in the email template. They are available from the **Configure delivery settings** icon available when editing an email delivery.
 
-Bei diesen Einstellungen handelt es sich um **technische Versandparameter**, die in der E-Mail-Vorlage definiert sind. Sie sind im **Konfigurieren der Versandeinstellungen** beim Bearbeiten eines E-Mail-Versands verfügbar ist.
-
-## E-Mail-Versandeinstellungen {#email-delivery-settings}
+## Email delivery settings {#email-delivery-settings}
 
 >[!CAUTION]
 >
-> Diese Einstellungen werden hier nur zur Information beschrieben. Einige sind von Ihrer Konfiguration und Ihren Berechtigungen abhängig. Sie dürfen in dieser Version des Produkts nicht geändert werden.
+> These settings are described for your information only. Some of them depend on your configuration and permissions. They must not be modified in this version of the product. 
 
-## Typologie {#typology}
+## Typology {#typology}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_typology"
->title="Typologie"
->abstract="Mit einer Typologie können Sie die Durchführung von Sendungen steuern, filtern und überwachen."
+>title="Typology"
+>abstract="Typology lets you control, filter and monitor the sending of deliveries."
 
-Typologien sind Gruppen von **Typologieregeln**, die während der Nachrichtenanalyse ausgeführt werden. Damit können Sie sicherstellen, dass Ihre E-Mails immer bestimmte Elemente (z. B. einen Link zur Abmeldung oder eine Betreffzeile) oder Filterregeln enthalten, um Gruppen aus Ihrer beabsichtigten Zielgruppe auszuschließen (z. B. ehemalige Abonnenten, Konkurrenten oder Kunden, die nicht Mitglied im Treueprogramm sind).
+Typologies are sets of **typology rules**, that are executed during the message analysis phase. They allow you to make sure your emails always contain certain elements (such as an unsubscription link or a subject line) or filtering rules to exclude groups from your intended target (like unsubscribers, competitors, or non-loyalty customers).
 
-Wenn Sie eine Typologie mit einer Nachricht oder Nachrichtenvorlage verknüpfen, werden die in der Typologie enthaltenen Typologieregeln ausgeführt, um die Gültigkeit der Nachricht während der Nachrichtenvorbereitung zu überprüfen.
+When associating a typology with a message or message template, the typology rules included in the typology are executed to check the message validity during message preparation.
 
 ![](assets/delivery-settings-1.png)
 
 
-### Druckparameter {#pressure-parameters}
+### Pressure parameters {#pressure-parameters}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_delivery_weight"
->title="Versandgewichtung"
->abstract="Die Versandgewichtung ermöglicht es Ihnen, im Rahmen der Druckverwaltung diejenigen Sendungen festzulegen, die vorrangig durchgeführt werden sollen. Die Nachrichten mit der höchsten Gewichtung haben Vorrang."
+>title="Delivery weight"
+>abstract="Delivery weights let you identify top-priority deliveries within the framework of pressure management. Messages with the highest weight have priority."
 
-In diesem Abschnitt können Sie mithilfe von Druckparametern einen **Schwellenwert** definieren. Dies ist die maximale Anzahl von Nachrichten, die an ein Profil in einem bestimmten Zeitraum gesendet werden können. Sobald diese Schwelle erreicht ist, können keine Sendungen mehr durchgeführt werden, bis der Zeitraum abgelaufen ist. Durch dieses Verfahren kann ein Profil aus einem Versand automatisch ausgeschlossen werden, wenn eine Nachricht die festgelegte Schwelle übersteigt. Dadurch wird verhindert, dass ein Profil zu oft angesprochen wird.
+In this section, pressure parameters let you define a **threshold**. This is the maximum number of messages that can be sent to one profile over a given period. Once this threshold has been reached, no more deliveries can take place until the end of the period considered. This process lets you automatically exclude a profile from a delivery if a message exceeds the set threshold, thus avoiding over-solicitation.
 
-Schwellenwerte können konstant oder variabel sein. Das bedeutet, dass unterschiedliche Profile in einem bestimmten Zeitraum unterschiedliche Schwellen aufweisen können oder Schwellen sogar innerhalb desselben Profils variieren können.
+Threshold values can be either constant or variable. This means that for a given period, thresholds can vary from one profile to another, or even for the same profile.
 
-Im Feld **Gewichtungstyp** stehen drei Optionen zur Verfügung:
+In the **Weight type** field, three options are available:
 
-* **Konstante**
-* **Empfängerabhängig**
-* **Wird in jeder Regel definiert**
+* **Constant**
+* **Depends on the recipient**
+* **Defined in each rule**
 
-Verwenden Sie das Feld **Versandgewichtung**, um die Versandpriorität zu definieren. Jeder Versand verfügt über eine Gewichtung, die die jeweilige Priorität darstellt. Standardmäßig ist die Versandgewichtung auf den Wert 5 festgelegt. Mit Druckregeln können Sie die Gewichtung der Sendungen festlegen, auf die sie angewendet werden. Die Gewichtung kann konstant sein oder mithilfe einer Formel empfängerabhängig berechnet werden. Beispielsweise kann die Gewichtung eines Versands den Interessen eines Empfängers entsprechend bestimmt werden.
+Use the **Delivery weight** field to define the delivery priority. Each delivery has a weight which represents its level of priority. By default, the weight of a delivery is set to 5. Pressure rules let you define the weight of the deliveries which they are applied to. Weights can be either set or calculated via a formula to suit recipients. For example, you can define the weight of a delivery based on recipient interests.
 
 
-Verwenden Sie das Feld **Versandmodus**, um den Zielgruppenevaluierungsmodus auszuwählen. Drei Modi sind verfügbar:
+Use the **Delivery mode** field to select the target evaluation mode. Three modes are available:
 
-* **Zielgruppenschätzung und Nachrichtenpersonalisierung**
-* **Schätzung und Validierung der geplanten Zielgruppe**
-* **Zielgruppenevaluierung**
+* **Target estimation and message personalization**
+* **Estimation and approval of the provisional target**
+* **Target evaluation**
 
-Die Ermüdungsverwaltung wird mit dem Add-on **Kampagnenoptimierung** bereitgestellt. Weitere Informationen über Druckregeln und die Konfiguration der Ermüdungsverwaltung finden Sie in der [Dokumentation zu Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=de){target="_blank"}.
+Fatigue management comes with the **Campaign Optimization** add-on. Learn more about pressure rules and how to configure fatigue management in [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html){target="_blank"}.
 
-### Kapazitätseinstellungen {#capacity-settings}
+### Capacity settings {#capacity-settings}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_recipient_importance"
->title="Wichtigkeit des Empfängers bzw. der Empfängerin"
->abstract="Mit der Wichtigkeit des Empfängers bzw. der Empfängerin wird festgelegt, welche Empfangenden im Falle einer Kapazitätsüberlastung der Typologieregeln beibehalten werden."
+>title="Importance of the recipient"
+>abstract="The importance of the recipient is a formula used to determine which recipients are kept when the capacity typology rules are exceeded."
 
-In diesem Bereich können Sie eine Kapazitätsregel auswählen, die in der Adobe Campaign v8-Konsole definiert ist. Diese Regel ist mit dem E-Mail-Kanal verknüpft.
+In this section, you can select a capacity rule defined in the Adobe Campaign v8 Console. This rule is associated to the email channel.
 
-Mit dem Feld **Wichtigkeit des Empfängers** wird festgelegt, welche Empfangenden im Falle einer Kapazitätsüberlastung der Typologieregeln beibehalten werden.
+The **importance of the recipient** field is a formula used to determine which recipients are kept when the capacity typology rules are exceeded.
 
-Weitere Informationen über Konsistenz- und Kapazitätsregeln und deren Konfiguration finden Sie in der [Dokumentation zu Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html?lang=de){target="_blank"}.
+Learn more about consistency and capacity rules and how to configure them in [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html){target="_blank"}.
 
 
 ## Audience {#audience}
 
-In diesem Abschnitt können Sie ein verfügbares **Zielgruppen-Mapping** auswählen. Zielgruppen-Mappings sind in der Adobe Campaign v8-Konsole definiert.
+In this section, you can select a **target mapping** among those available. Target mappings are defined in the Adobe Campaign v8 console. 
 
-Weitere Informationen über Zielgruppen-Mappings finden Sie in der [Dokumentation zu Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=de){target="_blank"}.
+Learn more about target mappings in [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html){target="_blank"}.
 
-## Versand {#delivery}
+## Delivery {#delivery}
 
-Versandparameter sind technische Einstellungen, die für Ihren Versand gelten.
+Delivery parameters are technical settings which apply to your delivery. 
 
-* **Routing**: Das integrierte externe E-Mail-Routing-Konto wird standardmäßig bereitgestellt. Es enthält die technischen Parameter, die es der Anwendung erlauben, E-Mails zu senden.
+* **Routing**: the integrated email routing external account is provided by default. It contains the technical parameters that allow the application to send emails.
 
-* **SMTP-Versand testen**: Diese Option wird verwendet, um den Versand über SMTP zu testen. Der Versand wird bis zur Verbindung mit dem SMTP-Server verarbeitet, aber nicht gesendet: Für jeden Empfänger bzw. jede Empfängerin des Versands stellt Campaign eine Verbindung mit dem Server des SMTP-Anbieters her, führt den SMTP-Befehl RCPT TO aus und trennt die Verbindung vor dem SMTP-Befehl DATA.
+* **Test SMTP delivery**: this option is used to test sending via SMTP. The delivery is processed up to connection to the SMTP server but is not sent: for every recipient of the delivery, Campaign connects to the SMTP provider server, executes the SMTP RCPT TO command, and closes the connection before the SMTP DATA command.
 
-* **E-Mail-BCC**: Diese Option wird verwendet, um mit der BCC-Funktion E-Mails in einem externen System zu speichern, indem einfach eine E-Mail-Adresse als BCC zu Ihrer Nachrichtzielgruppe hinzugefügt wird. Weitere Informationen über E-Mail-BCC finden Sie in der [Dokumentation zu Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html?lang=de){target="_blank"}.
+* **Email BCC**: this option is used to store emails on an external system through BCC by simply adding a BCC email address to your message target. Learn more about Email BCC in [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html){target="_blank"}.
 
 
 
-### Weitere Zustellversuche {#retries}
+### Retries {#retries}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_retries"
->title="Maximale Anzahl der weiteren Zustellversuche"
->abstract="Wenn eine Nachricht aufgrund eines temporären Fehlers fehlschlägt, werden weitere Zustellversuche bis zum Ende der Versandlaufzeit unternommen."
+>title="Maximum number of retries"
+>abstract="If a message fails due to a temporary error, retries are performed until the end of the delivery duration."
 
 <!--Temporarily undelivered messages due to a Soft or Ignored error are subject to an automatic retry. By default, five retries are scheduled for the first day of the delivery with a minimum interval of one hour spread out over the 24 hours of the day. -->
 
-Weitere Informationen über die Verwaltung von Wiederholungen finden Sie in der [Dokumentation zu Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html?lang=de){target="_blank"}.
+Learn more about retry management in [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html){target="_blank"}.
 
-## Validierung {#approval}
+## Approval {#approval}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_approval"
->title="Validierungsmodus"
->abstract="Jeder Schritt eines Versands kann einer Validierung unterzogen werden, um eine vollständige Überwachung und Kontrolle der verschiedenen Prozesse zu gewährleisten."
+>title="Approval mode"
+>abstract="Each step of a delivery can be subject to approval in order to ensure full monitoring and control of the various processes."
 
-Wenn bei der Versandvorbereitung Warnungen erzeugt werden, können Sie den Versand so konfigurieren, dass definiert wird, ob er trotzdem ausgeführt werden soll. Standardmäßig müssen Benutzende den Nachrichtenversand am Ende der Analysephase bestätigen: Hierbei handelt es sich um eine **manuelle** Validierung.
+If warnings are generated during the delivery preparation, you can configure the delivery to define whether or not it should still be executed. By default, the user must confirm the sending of messages at the end of the analysis phase: this is **manual** validation.
 
-Sie können im entsprechenden Feld einen anderen Validierungsmodus auswählen. Folgende Modi sind verfügbar: 
+You can select another approval mode in the appropriate field. Available modes are: 
 
-* **Manuell**: Am Ende der Analysephase muss der Benutzer bzw. die Benutzerin den Versand bestätigen, um die Nachrichten abzuschicken.
+* **Manual**: At the end of the analysis phase, the user must confirm delivery to start sending. 
 
-* **Halbautomatisch**: Die Nachrichten werden automatisch gesendet, wenn die Analysephase ohne Warnhinweise abgeschlossen wird.
+* **Semi-Automatic**: Sending begins automatically if the analysis phase generates no warning messages.
 
-* **Automatisch**: Die Nachrichten werden unabhängig vom Ergebnis der Analysephase automatisch gesendet.
+* **Automatic**: Sending begins automatically at the end of the analysis phase, irrespective of its result.
 
 
-## Gültigkeit {#validity}
+## Validity {#validity}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_delivery_duration"
->title="Versandlaufzeit"
->abstract="Im Feld „Versandlaufzeit“ können Sie die Zeitspanne angeben, in der erneute Zustellversuche unternommen werden sollen. Dies bedeutet konkret, dass Adobe Campaign die Nachrichten ab dem Startdatum versendet und bis nach Ablauf der angegebenen Spanne nicht zustellbare Nachrichten in regelmäßigen Abständen erneut sendet."
+>title="Delivery duration"
+>abstract="The Delivery duration field lets you enter the limit for global delivery retries. This means that Adobe Campaign sends the messages beginning on the start date, and then, for messages returning an error only, regular, configurable retries are performed until the validity limit is reached."
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_resources_validity"
->title="Gültigkeit von Ressourcen"
->abstract="Das Feld „Gültigkeit von Ressourcen“ wird für hochgeladene Ressourcen verwendet, hauptsächlich für die Mirrorseite und Bilder. Die Gültigkeitsdauer der Ressourcen auf dieser Seite ist begrenzt."
+>title="Resources validity limit"
+>abstract="The Validity limit field is used for uploaded resources, mainly for the mirror page and images. The resources on this page are valid for a limited time."
 
 
-Im Feld **Versandlaufzeit** können Sie die Zeitspanne angeben, in der erneute Zustellversuche unternommen werden. Dies bedeutet konkret, dass Adobe Campaign die Nachrichten ab dem Startdatum versendet und bis nach Ablauf der angegebenen Spanne nicht zustellbare Nachrichten in regelmäßigen Abständen erneut sendet.
+The **Delivery duration** field lets you enter the limit for global delivery retries. This means that Adobe Campaign sends the messages beginning on the start date, and then, for messages returning an error only, regular, configurable retries are performed until the validity limit is reached.
 
-Sie können alternativ auch ein genaues Ablaufdatum angeben. Kreuzen Sie in diesem Fall die Option **Gültigkeit explizit festlegen** an. Auf diese Weise kann auch eine bestimmte Uhrzeit konfiguriert werden. Standardmäßig ist dies die aktuelle Uhrzeit. Diese kann jedoch direkt im Eingabefeld angepasst werden.
+You can also choose to specify dates. To do this, select **Explicitly set validity dates**. In this case, the delivery and validity limit dates also let you specify the time. The current time is used by default, but you can modify this directly in the input field.
 
-Das Feld **Ressourcengültigkeit** wird für hochgeladene Ressourcen verwendet, insbesondere für Mirror-Seiten und Bilder. Die Gültigkeitsdauer von Ressourcen auf dieser Seite ist begrenzt, um Speicherkapazität zu sparen.
+**Resources Validity limit** is used for uploaded resources, mainly for the mirror page and images. The resources on this page are valid for a limited time (to save disk space).
 
 ![](assets/delivery-settings-2.png)
 
 
-Weitere Informationen über den Versand-Gültigkeitszeitraum finden Sie in der [Dokumentation zu Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=de#validity-period){target="_blank"}.
+Learn more about delivery validity period in [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html#validity-period){target="_blank"}.
 
-### Verwaltung der Mirror-Seite {#mirror}
+### Mirror page management {#mirror}
 
-Eine Mirror-Seite ist eine HTML-Seite, die über einen Webbrowser online abgerufen werden kann und deren Inhalt mit dem der E-Mail identisch ist. Standardmäßig wird die Mirror-Seite automatisch generiert, wenn der entsprechende Link in den Inhalt der E-Mail eingefügt wurde.
+The mirror page is an HTML page accessible online via a web browser. Its content is identical to the email. By default, the mirror page is generated if the link is inserted in the content of the mail. 
 
-Zusätzlich zum Standardmodus stehen die folgenden Optionen zur Verfügung:
+In addition to the default mode, the following options are also available:
 
-* **[!UICONTROL Mirrorseitenerstellung erzwingen]**: selbst wenn im Versand kein Link zur Mirrorseite eingefügt wurde, wird die Mirrorseite erstellt.
-* **[!UICONTROL Keine Mirrorseite erzeugen]**: Erstellt keine Mirror-Seite, selbst wenn im Versandinhalt der entsprechende Link enthalten ist.
-* **[!UICONTROL Von der Nachrichtenkennung aus zugängliche Mirrorseite erzeugen]**: Diese Option ermöglicht den Zugriff auf den Inhalt der Mirror-Seite einschließlich aller Personalisierungsinformationen von den Versand-Logs aus. Klicken Sie hierfür nach Durchführung des Versands auf den Tab **[!UICONTROL Versand]** und wählen Sie die Zeile des Empfängers aus, dessen Mirror-Seite Sie ansehen möchten. Klicken Sie dann auf den Link **[!UICONTROL Mirrorseite dieser Nachricht anzeigen...]**.
+* **[!UICONTROL Force the generation of the mirror page]**: even if no link to the mirror page is inserted in the delivery, the mirror page is created.
+* **[!UICONTROL Do not generate the mirror page]**: no mirror page is generated, even if the link is present in the delivery.
+* **[!UICONTROL Generates a mirror page accessible using only the message identifier]**: this option lets you access the content of the mirror page, with personalization information, in the delivery log window. To do this, after the end of the delivery, click the **[!UICONTROL Delivery]** tab and select the line of the recipient whose mirror page you wish to view. Click the **[!UICONTROL Display the mirror page for this message...]** link.
 
 
 ### Tracking {#tracking}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_tracking_validity"
->title="Gültigkeitszeitraum"
->abstract="Diese Option definiert die Dauer, für die das Tracking in den URLs aktiviert wird."
+>title="Validity period"
+>abstract="This option defines the duration for which the tracking is activated on the URLs."
 
-Tracking-Parameter werden im entsprechenden Abschnitt definiert. Mögliche Optionen sind:
+Tracking parameters are defined in the related section. Possible options are:
 
-**Gültigkeitsdauer des Trackings**: Verwenden Sie diese Option, um die Dauer zu ändern, für die das Tracking in den URLs aktiviert wird.
+**Tracking validity limit**: use this option to change the duration for which the tracking is activated on the URLs.
 
-**Ersatz-URL für abgelaufene URLs**: Verwenden Sie diese Option, um eine Fallback-URL für eine Web-Seite einzugeben: Sie wird angezeigt, wenn das Tracking abgelaufen ist.
+**Substitution URL for expired URLs**: use this option to enter a URL to a fall-back web page: it is displayed once the tracking has expired.
 
-## Testeinstellungen {#test-setttings}
+## Test Settings {#test-setttings}
 
-Sie können die Ausschlussparameter in diesem Abschnitt festlegen. Folgende Optionen sind verfügbar: 
+You can set the exclusion parameters in this section. Available options are:
 
-* **Dubletten beibehalten**: Ermöglicht es, mehrere Sendungen an Empfängerinnen und Empfänger zu genehmigen, die mehrere Zielgruppenbestimmungskriterien erfüllen.
+* **Keep double** lets you authorize multiple deliveries to recipients who satisfy several targeting criteria.
 
-* **Adressen auf der Blockierungsliste behalten**: Ermöglicht es, Zielgruppenprofile, die nicht mehr in den Versand eingeschlossen sind, beizubehalten, z. B. nach einer Abmeldung (Opt-out).
+* **Keep denylisted addresses** lets you keep from the target any profiles no longer being targeted by the delivery, such as after an unsubscription (opt-out).
 
-* **Quarantäneadressen beibehalten**: Ermöglicht es, Zielgruppenprofile mit einer Adresse beizubehalten, über die keine Reaktion erfolgt.
+* **Keep quarantined addresses** lets you keep from the target any profiles with an address that does not respond. 
 
-Sie können auch den Namen der Test-E-Mails anpassen.
+You can also customize the name of the test emails.
 
-Verwenden Sie die **Versandcode für den Testversand beibehalten** , um der Test-E-Mail denselben Versandcode zuzuordnen, der für den Versand, auf den sie sich bezieht, definiert ist.
+Use the **Keep the delivery code for the proof** to associate to the test email the same delivery code as the one defined for the delivery to which it relates.
 
-Standardmäßig erhält der Betreff der Test-E-Mail das Präfix &quot;PROOF #&quot;, wobei # die Nummer der Test-E-Mail ist. Sie können dieses Präfix im **Titelpräfix** -Feld.
+By default, the subject of the test email is prefixed by ‘PROOF #’, where # is the number of the test email. You can change this prefix in the **Label prefix** field.

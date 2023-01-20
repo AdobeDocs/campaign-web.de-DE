@@ -1,89 +1,83 @@
 ---
 audience: end-user
-title: Senden Ihrer ersten E-Mail
-description: Erfahren Sie, wie Sie Ihre erste E-Mail mit der Campaign-Web-Benutzeroberfläche senden.
+title: Send your first email
+description: Learn how to send your first email with Campaign Web UI
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
-workflow-type: tm+mt
-source-wordcount: '1244'
-ht-degree: 24%
-
 ---
-
-# Senden Ihrer ersten E-Mail {#first-email}
+# Send your first email {#first-email}
 
 ![](../assets/do-not-localize/badge.png)
 
-Erfahren Sie, wie Sie Ihre erste Targeting-E-Mail erstellen. In diesem Anwendungsfall planen Sie den Versand einer E-Mail an Silver- und Gold-Mitglieder zu einem bestimmten Datum.
+Learn how to create your first targeted email. In this use case, you schedule the sending of an email to Silver and Gold loyalty members on a specific date.
 
-Basierend auf einer vordefinierten Designvorlage bietet die E-Mail auch personalisierte Inhalte, die auf Kundenprofilattributen basieren.
+Based on a predefined design template, the email also features personalized content based on customer profile attributes.
 
 ![](assets/delivery-list.png)
 
-## Erstellen der E-Mail {#create-email}
+## Create the email {#create-email}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_template_selection"
->title="Wählen Sie eine E-Mail-Vorlage aus"
->abstract="Eine E-Mail-Vorlage ist eine spezifische Versandkonfiguration, die vordefinierte Einstellungen wie Typologieregeln, Personalisierung oder Routing-Parameter enthält. Vorlagen werden in der Campaign-Clientkonsole definiert."
+>title="Select an email template"
+>abstract="An email template is a specific delivery configuration that contains predefined settings, such as typology rules, personnalization or routing parameters. Templates are defined in the Campaign client console."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_properties"
->title="E-Mail-Eigenschaften"
->abstract="Die Eigenschaften sind die üblichen Versandparameter, nach denen Sie Ihren Versand benennen und klassifizieren können. Wenn Ihr Versand auf einem erweiterten Schema basiert, das in der Adobe Campaign v8-Konsole definiert ist, stehen einige **benutzerdefinierte Optionen** zur Verfügung."
+>title="Email Properties"
+>abstract="The properties are the common delivery parameters that helps you to name and classify your delivery. If your delivery is based on an extended schema defined in the Adobe Campaign v8 console, some specific **Custom Options** fields are available."
 
-1. Gehen Sie zur Erstellung eines neuen Versands zu **[!UICONTROL Sendungen]** Menü und wählen Sie **[!UICONTROL Email]** als Kanal.
+1. To create a new delivery, go to the **[!UICONTROL Deliveries]** menu and select **[!UICONTROL Email]** as the channel.
 
-1. Wählen Sie die gewünschte Vorlage aus und klicken Sie auf **[!UICONTROL Versand erstellen]**.
+1. Select the template you want to use and click **[!UICONTROL Create delivery]**.
 
-   >[!NOTE]
-   >
-   >Vorlagen sind vorkonfigurierte Versandeinstellungen, die für die zukünftige Verwendung gespeichert werden. Sie können von Administratoren in der Adobe Campaign-Konsole erstellt werden. [Erfahren Sie, wie Sie mit Versandvorlagen arbeiten können](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/create-templates.html?lang=de){target="_blank"}.
+    >[!NOTE]
+    >
+    >Templates are pre-configured delivery settings saved for future use. They can be created by admin users in Adobe Campaign console. [Learn how to work with delivery templates](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/create-templates.html){target="_blank"}.
 
-   ![](assets/channel-template.png)
+    ![](assets/channel-template.png)
 
-1. Geben Sie einen Titel für die E-Mail an und konfigurieren Sie zusätzliche Optionen entsprechend Ihren Anforderungen:
+1. Provide a label for the email and configure additional options based on your needs:
 
-   * **[!UICONTROL Interner Name]**: Weisen Sie dem Versand eine eindeutige Kennung zu,
-   * **[!UICONTROL Ordner]**: Speichern Sie den Versand in einem bestimmten Ordner,
-   * **[!UICONTROL Versand-Code]**: Verwenden Sie dieses Feld, um Ihre Sendungen basierend auf Ihrer eigenen Namenskonvention zu organisieren.
-   * **[!UICONTROL Beschreibung]**: Geben Sie eine Beschreibung für den Versand an,
-   * **[!UICONTROL Art]**: Geben Sie die Art der E-Mail zu Klassifizierungszwecken an.<!--The content of the list is defined in the delivery template selected when creating the email.-->
+    * **[!UICONTROL Internal name]**: assign a unique identifier to the delivery,
+    * **[!UICONTROL Folder]**: store the delivery in a specific folder,
+    * **[!UICONTROL Delivery code]**: use this field to organize your deliveries based on your own naming convention,
+    * **[!UICONTROL Description]**: specify a description for the delivery,
+    * **[!UICONTROL Nature]**: specify the nature of the email for classification purposes.<!--The content of the list is defined in the delivery template selected when creating the email.-->
 
-   >[!NOTE]
-   >
-   >Wenn Sie Ihr Schema mit bestimmten benutzerdefinierten Feldern erweitert haben, können Sie sie im **[!UICONTROL Benutzerdefinierte Optionen]** Abschnitt.
+    >[!NOTE]
+    >
+    >If you have extended your schema with specific custom fields, you can access them in the **[!UICONTROL Custom options]** section.
 
-   ![](assets/email-properties.png)
+    ![](assets/email-properties.png)
 
-   Erweiterte Einstellungen wie Typologieregeln und Zielgruppen-Mappings sind über die Schaltfläche neben dem Versandnamen zugänglich. Diese Einstellungen sind in der ausgewählten Vorlage vorkonfiguriert, können jedoch bei Bedarf für diese E-Mail bearbeitet werden.
+    Additionally, advanced settings, such as typology rules and target mappings, can be accessed by clicking the button located next to the delivery name. These settings are pre-configured in the selected template, but can be edited as needed for this specific email.
 
-## Erstellen des E-Mail-Inhalts {#create-content}
+## Create the email content {#create-content}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card3"
->title="Erfahren Sie, wie Sie E-Mail-Inhalte erstellen"
->abstract="Erfahren Sie, wie Sie Email Designer verwenden."
+>title="Learn how to design your email content"
+>abstract="Learn how to use the Email Designer."
 
-In diesem Anwendungsfall verwenden Sie eine vordefinierte Vorlage, um unsere E-Mail zu erstellen.
+In this use case, you use a predefined template to design our email.
 
-Detaillierte Anweisungen zur Konfiguration des E-Mail-Inhalts finden Sie unter [diesem Abschnitt](../content/edit-content.md).
+Detailed instructions on how to configure the email content are available in [this section](../content/edit-content.md).
 
-1. Um mit der Erstellung des E-Mail-Inhalts zu beginnen, klicken Sie auf die Schaltfläche **[!UICONTROL Inhalt bearbeiten]** Schaltfläche.
+1. To start creating the email content, click the **[!UICONTROL Edit content]** button. 
 
-   Dadurch gelangen Sie zu einer dedizierten Benutzeroberfläche, über die Sie den E-Mail-Inhalt konfigurieren und mit Email Designer entwerfen können.
+   This brings you to a dedicated interface where you can configure the email content and design it using the Email Designer. 
 
-   ![](assets/edit-content.png)
+    ![](assets/edit-content.png)
 
-1. Geben Sie die Betreffzeile Ihrer E-Mail ein und personalisieren Sie sie mithilfe des Ausdruckseditors. [Erfahren Sie, wie Sie Ihren Inhalt personalisieren können](../personalization/personalize.md)
+1. Enter the subject line of your email and personalize it using the Expression Editor. [Learn how to personalize your content](../personalization/personalize.md)
 
-   ![](assets/subject-line.png)
+    ![](assets/subject-line.png)
 
-1. Klicken Sie auf die Schaltfläche **[!UICONTROL Bearbeiten des E-Mail-Hauptteils]** Schaltfläche.
+1. To design the body of the email, click the **[!UICONTROL Edit email body]** button.
 
-   Wählen Sie die Methode zur Erstellung des Inhalts Ihrer E-Mail aus. Verwenden Sie in diesem Beispiel eine vordefinierte Designvorlage.
+    Choose the method to use to create your email content. In this example, use a predefined design template.
 
-   ![](assets/select-template.png)
+    ![](assets/select-template.png)
 
 <!--1. Select the HTML or ZIP file to import then click **[!UICONTROL Next]**.
 
@@ -91,116 +85,116 @@ Detaillierte Anweisungen zur Konfiguration des E-Mail-Inhalts finden Sie unter [
 
     ![](assets/import-folder.png)-->
 
-1. Nachdem Sie die Vorlage ausgewählt haben, wird sie in Email Designer angezeigt, wo Sie alle erforderlichen Änderungen vornehmen und Personalisierungen hinzufügen können.
+1. Once you have selected the template, it is displayed in the Email Designer, where you can make any necessary edits and add personalization.
 
-   Um beispielsweise Personalisierung zum E-Mail-Titel hinzuzufügen, wählen Sie den Baustein aus und klicken Sie auf **[!UICONTROL Personalisierung hinzufügen]**.
+    For example, to add personalization to the email title, select the component block and click **[!UICONTROL Add Personalization]**.
 
-   ![](assets/add-perso.png)
+    ![](assets/add-perso.png)
 
-1. Sobald Sie mit dem Inhalt zufrieden sind, speichern und schließen Sie Ihren Entwurf. Klicken **[!UICONTROL Speichern]** , um zum E-Mail-Erstellungsbildschirm zurückzukehren.
+1. Once you are satisfied with the content, save and close your design. Click **[!UICONTROL Save]** to return to the email creation screen.
 
-   ![](assets/save-content.png)
+    ![](assets/save-content.png)
 
-## Definieren der Audience {#define-audience}
+## Define the audience {#define-audience}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience"
->title="Definieren der Audience"
->abstract="Wählen Sie die beste Audience für Ihre Marketing-Nachricht aus. Sie können eine bereits in einer Campaign v8-Instanz oder in Adobe Experience Platform definierte Audience auswählen oder mit dem Regel-Builder eine neue Audience erstellen."
+>title="Define the audience"
+>abstract="Select the best audience for your marketing message. You can choose an existing audience already defined in a Campaign v8 instance or from Adobe Experience Platform, or you can create a new audience with the rule builder."
 
-In diesem Anwendungsbeispiel senden Sie die E-Mail an eine bestehende Audience. Weitere Anweisungen zum Arbeiten mit Zielgruppen finden Sie unter [diesem Abschnitt](../audience/about-audiences.md).
+In this use case, you send the email to an existing audience. Additional instructions on how to work with audiences are available in [this section](../audience/about-audiences.md).
 
-1. Um die Audience für die E-Mail auszuwählen, klicken Sie auf die **[!UICONTROL Zielgruppe auswählen]** und wählen Sie eine existierende Zielgruppe aus der Liste aus.
+1. To select the audience for the email, click the **[!UICONTROL Select audience]** button and choose an existing audience from the list.
 
-   In diesem Beispiel möchten wir eine bestehende Audience verwenden, die sich an Kunden der Treuepunktestufen Silber und Gold richtet.
+    In this example, we want to use an existing audience targeting customers belonging to the silver and gold loyalty points levels.
 
-   ![](assets/create-audience.png)
+    ![](assets/create-audience.png)
 
-   >[!NOTE]
-   >
-   >Die in der Liste verfügbaren Zielgruppen stammen entweder aus Ihrer Campaign v8-Instanz oder aus Adobe Experience Platform, wenn die Ziel-/Quellen-Integration in Ihrer Instanz konfiguriert wurde.
-   >
-   >Die Ziel-/Quellen-Integration ermöglicht es Ihnen, Experience Platform-Segmente an Adobe Campaign zu senden und Versand- und -Trackinglogs von Campaign an Adobe Experience Platform zu senden. [Erfahren Sie, wie Sie mit Campaign und Adobe Experience Platform arbeiten](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html?lang=de){target="_blank"}.
+    >[!NOTE]
+    >
+    >Audiences available in the list originate either from your Campaign v8 instance or from Adobe Experience Platform if the Destination / Sources integration has been configured on your instance.
+    >
+    >The Destination / Sources integration allows you to send Experience Platform segments to Adobe Campaign, and to send Campaign delivery and tracking logs over to Adobe Experience Platform. [Learn how work with Campaign and Adobe Experience Platform](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html){target="_blank"}.
 
-1. Nach Auswahl der Audience können Sie die Zielgruppe durch Anwendung zusätzlicher Regeln weiter verfeinern.
+1. Once the audience is selected, you can further refine the target by applying additional rules.
 
-   Sie können auch eine Kontrollgruppe einrichten, um das Verhalten der E-Mail-Empfänger im Vergleich zu den Empfängern, die nicht kontaktiert wurden, zu analysieren. [Erfahren Sie, wie Sie mit Kontrollgruppen arbeiten](../audience/control-group.md)
+    You can also set a control group to analyze the behavior of the email recipients compared to those who were not targeted. [Learn how to work with control groups](../audience/control-group.md)
 
-   ![](assets/audience-selected.png)
+    ![](assets/audience-selected.png)
 
-## Terminieren des Versands {#schedule}
+## Schedule the sending {#schedule}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_schedule"
->title="Terminieren des Versands"
->abstract="Definieren Sie das Datum und die genaue Uhrzeit für Ihren Versand. Durch die Auswahl der für Ihre Marketing-Nachricht am besten geeigneten Zeit können Sie die Öffnungsraten maximieren."
+>title="Schedule the sending"
+>abstract="Define the date and the exact time for your sending. By choosing the most appropriate time for your marketing message, you can maximise open rates."
 
-Um den Versand der E-Mail zu planen, klicken Sie auf **[!UICONTROL Aktivieren]** und legen Sie das gewünschte Datum und die gewünschte Uhrzeit für den Versand fest.
+To schedule the sending of the email, click **[!UICONTROL Enable]** and set the desired date and time for sending. 
 
-Standardmäßig wird die **[!UICONTROL Vor dem Versand bestätigen]** aktiviert ist, müssen Sie den Versand bestätigen, bevor die E-Mail zum geplanten Datum und zur geplanten Uhrzeit gesendet wird. Wenn Sie die E-Mail automatisch am geplanten Datum und zur geplanten Uhrzeit versenden möchten, können Sie diese Option deaktivieren.
+By default, the **[!UICONTROL Confirm before sending]** option is enabled, requiring you to confirm the sending before the email is sent at the scheduled date and time. If you wish to send the email automatically on the scheduled date and time, you can disable this option.
 
 ![](assets/schedule.png)
 
-## Anzeigen der Vorschau und Testen der E-Mail {#preview-test}
+## Preview and test the email {#preview-test}
 
-Bevor Sie Ihre E-Mail versenden, können Sie sie in der Vorschau anzeigen und testen, um sicherzustellen, dass sie Ihren Erwartungen entspricht.
+Before sending your email, you can preview and test it to ensure it meets your expectations.
 
-In diesem Anwendungsbeispiel zeigen Sie die E-Mail-Vorschau an und senden Testversionen an bestimmte E-Mail-Adressen, während Sie einige der Zielgruppenprofile imitieren.
+In this use case, you preview the email and send test versions to specific email addresses while impersonating some of the targeted profiles.
 
-Weitere Informationen zum Anzeigen einer Vorschau und zum Testen von E-Mails finden Sie in [diesem Abschnitt](../preview-test/preview-test.md).
+Additional information on how to preview and test emails are available in [this section](../preview-test/preview-test.md).
 
-1. Um die E-Mail zu überprüfen und zu senden, klicken Sie auf **[!UICONTROL Überprüfen und Senden]**. Daraufhin wird eine Vorschau Ihrer E-Mail zusammen mit allen konfigurierten Eigenschaften, Zielgruppen und Zeitplänen angezeigt. Sie können jedes dieser Elemente bearbeiten, indem Sie auf die Schaltfläche Ändern klicken.
+1. To review and send the email, click **[!UICONTROL Review and send]**. This displays a preview of your email, along with al the configured properties, audience and schedule. You can edit any of these elements by clicking the modify button.
 
-1. Um eine Vorschau der E-Mail anzuzeigen und Testversionen zu senden, klicken Sie auf die Schaltfläche **[!UICONTROL Inhalt simulieren]** Schaltfläche.
+1. To preview the email and send test verrsions, click the **[!UICONTROL Simulate content]** button. 
 
-   ![](assets/review-email.png)
+    ![](assets/review-email.png)
 
-1. Wählen Sie links die Profile aus, die Sie für die Vorschau der E-Mail verwenden möchten.
+1. On the left-hand side, select the profile(s) you want to use to preview the email.
 
-   Im rechten Bereich wird eine Vorschau der E-Mail auf der Basis des ausgewählten Profils angezeigt. Wenn Sie mehrere Profile hinzugefügt haben, können Sie zwischen diesen Profilen wechseln, um eine Vorschau der entsprechenden E-Mail anzuzeigen.
+    The right pane displays a preview of the email based on the selected profile. If you have added multiple profiles, you can switch between them to preview the corresponding email.
 
-   ![](assets/preview.png)
+    ![](assets/preview.png)
 
    <!-- !NOTE
     >
     >Additionally, the **[!UICONTROL Render email]** button allows you to preview the email using mutiple devices or mail providers. Learn on how to preview email rendering-->
 
-1. Um Testversionen Ihrer E-Mail zu senden, klicken Sie auf die Schaltfläche **[!UICONTROL Test]** und wählen Sie den gewünschten Modus aus.
+1. To send test versions of your email, click the **[!UICONTROL Test]** button then choose the mode you want to use.
 
-   Verwenden Sie in diesem Beispiel die **[!UICONTROL Ersatz aus Hauptzielgruppe]** -Modus, der Testversionen an bestimmte E-Mail-Adressen sendet und dabei einige der Profile stellvertretend agiert, auf die die E-Mail abzielt.
+    In this example, use the **[!UICONTROL Substitute from main target]** mode, which sends test versions to specific email addresses while impersonating some of the profiles targeted by the email.
 
-   ![](assets/proof-mode.png)
+    ![](assets/proof-mode.png)
 
-1. Klicken **[!UICONTROL Adresse hinzufügen]** und geben Sie die E-Mail-Adresse(n) an, an die die Testversionen gesendet werden.
+1. Click **[!UICONTROL Add address]** and specify the email address(es) which receive the test versions.
 
-   Wählen Sie für jede E-Mail-Adresse das Profil aus, das stellvertretend agieren soll. Sie können Adobe Campaign auch ein zufälliges Profil aus der Zielgruppe auswählen lassen.
+    For each email address, select the profile to impersonate. You can also let Adobe Campaign select a random profile from the target.
 
-   ![](assets/proof-test-profile.png)
+    ![](assets/proof-test-profile.png)
 
-1. Klicken **[!UICONTROL Test-E-Mail senden]** und bestätigen Sie den Versand.
+1. Click **[!UICONTROL Send test email ]** and confirm the sending.
 
-   Testversionen werden mithilfe des ausgewählten Profils mit der **[Proof x]** -Präfix.
+    Test versions are sent to the specified email addresses using the selected profile with the **[Proof x]** prefix.
 
-   ![](assets/proof-sent.png)
+    ![](assets/proof-sent.png)
 
-   Sie können den Status des Versands überprüfen und auf die gesendeten Test-E-Mails zugreifen, indem Sie auf die **[!UICONTROL Anzeigen des E-Mail-Testprotokolls]** im Bildschirm &quot;Inhalt simulieren&quot;.
+    You can check the status of the sending and access the sent test emails at any time by clicking the **[!UICONTROL View test email log]** button in the simulate content screen.
 
-## Senden und Überwachen der E-Mail {#prepare-send}
+## Send and monitor the email {#prepare-send}
 
-Nach der Überprüfung und dem Testen Ihrer E-Mail können Sie die Vorbereitung starten und sie senden.
+After reviewing and testing your email, you can launch its preparation and send it.
 
-1. Um die Vorbereitung der E-Mail zu starten, klicken Sie auf **[!UICONTROL Vorbereiten]**. [Erfahren Sie, wie Sie eine E-Mail vorbereiten](../monitor/prepare-send.md)
+1. To launch the preparation of the email, click **[!UICONTROL Prepare]**. [Learn how to prepare an email](../monitor/prepare-send.md)
 
-   ![](assets/preparation.png)
+    ![](assets/preparation.png)
+ 
+1. Once your email is ready to be sent, click the **[!UICONTROL Send]** button (or **[!UICONTROL Send as scheduled]** if you have scheduled its sending) and confirm the sending.
 
-1. Sobald Ihre E-Mail versandbereit ist, klicken Sie auf die Schaltfläche **[!UICONTROL Senden]** Schaltfläche (oder **[!UICONTROL Senden als geplant]** wenn Sie den Versand geplant haben) und bestätigen Sie den Versand.
+1. During the sending process, you can track its progress and view statistics in real-time directly in this screen.
 
-1. Während des Versandvorgangs können Sie den Fortschritt verfolgen und Statistiken in Echtzeit direkt in diesem Bildschirm anzeigen.
+    ![](assets/sent-mail.png)
 
-   ![](assets/sent-mail.png)
+    You can also access detailed information on the sending by clicking the **[!UICONTROL Logs]** button. [Learn how to monitor delivery logs](../monitor/delivery-logs.md)     
 
-   Sie können auch auf detaillierte Informationen zum Versand zugreifen, indem Sie auf die **[!UICONTROL Protokolle]** Schaltfläche. [Erfahren Sie, wie Sie Versand-Logs überwachen](../monitor/delivery-logs.md)
-
-1. Nach dem Versand der E-Mail können Sie auf spezielle Berichte zugreifen, die Sie für weitere Analysen nutzen können, indem Sie auf die Schaltfläche **[!UICONTROL Berichterstellung]** Schaltfläche.
+1. After the email has been sent, you can access dedicated reports for further analysis by clicking the **[!UICONTROL Reporting]** button.
 
 ![](assets/reports.png)

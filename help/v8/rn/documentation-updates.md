@@ -1,18 +1,12 @@
 ---
 audience: end-user
-title: Aktualisierungen der Dokumentation zu Campaign Web v8
-description: Aktualisierungen der Dokumentation zu Campaign Web v8
+title: Campaign Web v8 Documentation updates
+description: Campaign Web v8 Documentation updates
 exl-id: d65fcd92-ce3c-49ff-9dce-16a41d0558bf
-hidefromtoc: true
-source-git-commit: 03d32d419cfd77b73d90de2e087ab6a67edbaf55
-workflow-type: ht
-source-wordcount: '23'
-ht-degree: 100%
-
+hidefromtoc: yes
 ---
-
-# Aktualisierungen der Dokumentation {#latest-updates}
+# Documentation updates {#latest-updates}
 
 ![](../assets/do-not-localize/badge.png)
 
-Auf dieser Seite finden Sie alle Aktualisierungen der Dokumentation für Campaign v8 Web.
+This page lists all the documentation updates for Campaign v8 Web.

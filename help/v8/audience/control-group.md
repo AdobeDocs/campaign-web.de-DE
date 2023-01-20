@@ -1,94 +1,88 @@
 ---
 audience: end-user
-title: Einrichten einer Kontrollgruppe
-description: Erfahren Sie, wie Sie in der Campaign-Web-Benutzeroberfläche eine Kontrollgruppe für Ihre Nachrichten einrichten.
+title: Set a control group
+description: Learn how to set a control group for your messages in Campaign Web UI
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
-workflow-type: tm+mt
-source-wordcount: '525'
-ht-degree: 71%
-
 ---
+# Set a control group {#control-group}
 
-# Einrichten einer Kontrollgruppe {#control-group}
+You can use control groups to avoid sending messages to a portion of your audience in order to measure the impact of your campaigns.
 
-Mithilfe von Kontrollgruppen können Sie vermeiden, dass Nachrichten an einen Teil Ihrer Audience gesendet werden, um die Wirkung Ihrer Kampagnen zu messen.
+To do this, create a control group when defining the audience of your delivery. Profiles are added to the control group randomly, filtered or not, or based on criteria. You can then compare the behavior of the target population which did receive the message with the behavior of contacts which were not targeted. 
 
-Erstellen Sie dazu eine Kontrollgruppe, wenn Sie die Audience Ihres Versands definieren. Profile werden der Kontrollgruppe nach dem Zufallsprinzip hinzugefügt, gefiltert oder ungefiltert oder auf der Grundlage von Kriterien. Anschließend können Sie das Verhalten der Zielpopulation, die die Nachricht erhalten hat, mit dem Verhalten der Kontakte vergleichen, die nicht in die Zielgruppe aufgenommen wurden.
+The control group can be extracted randomly from the main target and/or selected from a specific population. Consequently, there are two main ways you can define a control group:
 
-Die Kontrollgruppe kann nach dem Zufallsprinzip aus der Hauptzielgruppe extrahiert und/oder aus einer bestimmten Population ausgewählt werden. Daher gibt es zwei Möglichkeiten, eine Kontrollgruppe zu definieren:
+* Extract a number of profiles from the main target.
+* Exclude some profiles based on criteria defined in a query.
 
-* Extrahieren Sie eine Reihe von Profilen aus der Hauptzielgruppe.
-* Schließen Sie einige Profile basierend auf in einer Abfrage definierten Kriterien aus.
+You can use both methods when defining a control group.
 
-Beim Definieren einer Kontrollgruppe können Sie beide Methoden verwenden.
+All profiles being part of the control group at the delivery preparation step are removed from the main target. They do not receive the message.
 
-Alle Profile, die bei der Versandvorbereitung zur Kontrollgruppe gehören, werden aus der Hauptzielgruppe entfernt. Sie erhalten die Nachricht nicht.
-
-Um eine Kontrollgruppe zu erstellen, klicken Sie im Abschnitt **Audience** des Assistenten zur Versanderstellung auf die Schaltfläche **[!UICONTROL Kontrollgruppe festlegen]**.
+To create a control group, click the **[!UICONTROL Set Control Group]** button, from the **Audience** section of the delivery creation assistant.
 
 ![](assets/control-group1.png)
 
-## Aus Zielgruppe extrahieren {#extract-target}
+## Extract from target {#extract-target}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_controlgroup_target"
->title="Aus Zielgruppe extrahieren"
+>title="Extract from target"
 >abstract="TBC"
 
-Um eine Kontrollgruppe zu definieren, können Sie nach dem Zufallsprinzip oder basierend auf einer Sortierung einen Prozentsatz oder eine feste Anzahl von Profilen aus der Zielgruppe extrahieren.
+To define a control group, you can choose to extract, randomly or based on a sorting, a percentage or a fixed number of profiles from the target population.
 
-Definieren Sie zunächst, wie die Profile aus der Zielgruppe extrahiert werden: zufällig oder basierend auf einer Sortierung.
+First, define the way the profiles are e extracted from the target: randomly or based on a sorting.
 
-Wählen Sie im Abschnitt **Aus Zielgruppe extrahieren** einen **Ausschlusstyp**:
+Under the **Extract from target** section, choose an **Exclusion type**:
 
-* **Random**: Bei der Versandvorbereitung extrahiert Adobe Campaign zufällig eine Anzahl von Profilen, die dem Prozentsatz oder der Maximalzahl entsprechen, der als Größenbeschränkung festgelegt wird.
+* **Random**: when preparing the delivery, Adobe Campaign  randomly extracts a number of profiles corresponding to the percentage or to the maximum number that is set as the size limit.
 
-   ![](assets/control-group.png)
+    ![](assets/control-group.png)
 
-* **Nach Attribut(en) sortiert**: Mit dieser Option können Sie anhand bestimmter Attribute in einer bestimmten Reihenfolge eine Gruppe von Profilen ausschließen.
+* **Ranked by attribute(s)**: this option enables you to exclude a set of profiles based on specific attribute(s) in a specific sorting order(s).
 
-   ![](assets/control-group2.png)
+    ![](assets/control-group2.png)
 
-Definieren Sie dann die **Größenbeschränkung**: Hierzu müssen Sie festlegen, wie Sie die Anzahl der Profile begrenzen, die Sie aus der Hauptzielgruppe extrahieren.
+Then define the **Size limit**: you must set how you are going to limit the number of profiles that you extract from the main target. 
 
-**Beispiel**
+**Example**
 
-Sie können die Protokolle anzeigen, um die ausgeschlossenen Profile zu überprüfen und zu identifizieren. Nehmen wir als Beispiel einen zufälligen Ausschluss von fünf Profilen.
+You can view the logs to check and identify the exluded profiles. Let's take the example of a random exclusion on five profiles.
 
 ![](assets/control-group4.png)
 
-Nach der Versandvorbereitung können Sie die Ausschlüsse auf den folgenden Bildschirmen anzeigen:
+After the delivery preparation, you can view the exclusions on the following screens:
 
-* Die KPI **Ausschließen** im Versand-Dashboard vor dem Versand.
+* The **To exclude** KPI in the delivery dashboard, before the sending.
 
-   ![](assets/control-group5.png)
+    ![](assets/control-group5.png)
 
-* Die **Ausschlusslogs** jedes Profil und den zugehörigen Ausschluss anzeigen **Grund**.
+* The **Exclusion logs** display each profile and the related exclusion **Reason**.
 
-   ![](assets/control-group6.png)
+    ![](assets/control-group6.png)
 
-* Die **Ausschlussgründe** die Anzahl der ausgeschlossenen Profile für jede Typologieregel anzeigen.
+* The **Exclusion causes** display the number of excluded profile for each typology rule.
 
-   ![](assets/control-group7.png)
+    ![](assets/control-group7.png)
 
-Weitere Informationen über Versandlogs finden Sie in [diesem Abschnitt](../monitor/delivery-logs.md).
+For more information on delivery logs, refer to this [section](../monitor/delivery-logs.md).
 
-## Zusätzliche Population {#extra-population}
+## Extra population {#extra-population}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_controlgroup_extra"
->title="Zusätzliche Population"
+>title="Extra population"
 >abstract="TBC"
 
-Eine andere Möglichkeit, eine Kontrollgruppe zu definieren, besteht darin, eine bestimmte Population mithilfe einer bestehenden Audience oder durch Definieren einer Abfrage aus der Zielgruppe auszuschließen.
+Another way to define a control group is to exclude a specific population from the target using an existing audience or by defining a query.
 
-Klicken Sie im Abschnitt **Zusätzliche Population** des Definitionsbildschirms der **Kontrollgruppe** auf die Schaltfläche **[!UICONTROL Audience auswählen]**.
+From the **Extra population** section of the **Control Group** definition screen, click the **[!UICONTROL Select Audience]** button.
 
 ![](assets/control-group3.png)
 
-* Um eine vorhandene Audience zu verwenden, klicken Sie auf **Audience auswählen**. Näheres dazu finden Sie in [diesem Abschnitt](add-audience.md).
+* To use an existing audience, click **Select audience**. Refer to this [section](add-audience.md). 
 
-* Um eine neue Abfrage zu definieren, wählen Sie **Eigene erstellen** aus und definieren Sie die Ausschlusskriterien mit  dem Regel-Builder. Näheres dazu finden Sie in [diesem Abschnitt](segment-builder.md).
+* To define a new query, select **Create your own** and define the exclusion criteria using the rule builder. Refer to this [section](segment-builder.md). 
 
-Die in der Audience enthaltenen oder mit dem Abfrageergebnis übereinstimmenden Profile werden aus der Zielgruppe ausgeschlossen.
+The profiles included in the audience or matching the result of the query are excluded from the target.
