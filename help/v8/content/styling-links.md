@@ -1,33 +1,39 @@
 ---
 audience: end-user
-title: Define a style for links
-description: Learn how to define a style for links
+title: Definieren eines Stils für Links
+description: Erfahren Sie, wie Sie einen Stil für Links definieren
 exl-id: b4b79bd5-a96c-49ca-b3fe-95befef00dff
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+workflow-type: tm+mt
+source-wordcount: '140'
+ht-degree: 92%
+
 ---
-# Define a style for links {#styling-links}
+
+# Definieren eines Stils für Links {#styling-links}
 
 ![](../assets/do-not-localize/badge.png)
 
-You can underline a link and select its color and target in the Email Designer.
+Sie können in E-Mail-Designer einen Link unterstreichen und dessen Farbe und Zielgruppe auswählen.
 
-1. In a **[!UICONTROL Text]** component where a link is inserted, select your link.
+1. Wählen Sie in einer **[!UICONTROL Text]**-Komponente, in die ein Link eingefügt ist, Ihren Link aus.
 
-1. In the **[!UICONTROL Component settings]** menu, check **[!UICONTROL Underline link]** to have the label underlined.
+1. Aktivieren Sie im Menü **[!UICONTROL Komponenteneinstellungen]** das Kontrollkästchen **[!UICONTROL Link unterstreichen]**, um den Titel zu unterstreichen.
 
    ![](assets/link_1.png)
 
-1. Choose how your audience is redirected with the **[!UICONTROL Target]** drop-down:
+1. Wählen Sie aus, wie Ihre Zielgruppe mit der **[!UICONTROL Target]** Dropdown-Liste:
 
-    * **[!UICONTROL None]**: opens the link in the same frame as it was clicked (default).
-    * **[!UICONTROL Blank]**: opens the link in a new window or tab.
-    * **[!UICONTROL Self]**: opens the link in the same frame as it was clicked.
-    * **[!UICONTROL Parent]**: opens the link in the parent frame.
-    * **[!UICONTROL Top]**: opens the link in the full body of the window.
+   * **[!UICONTROL Keine]**: Öffnet den Link im selben Fenster, in dem er angeklickt wurde (Standard).
+   * **[!UICONTROL Leer]**: Öffnet den Link in einem neuen Fenster oder einer neuen Registerkarte.
+   * **[!UICONTROL Selbst]**: Öffnet den Link im selben Fenster, in dem er angeklickt wurde.
+   * **[!UICONTROL Übergeordnet]**: Öffnet den Link im übergeordneten Fenster.
+   * **[!UICONTROL Oben]**: Öffnet den Link im vollständigen Textkörper des Fensters.
 
    ![](assets/link_2.png)
 
-1. To change the color of your link, click on **[!UICONTROL Link color]** from the right pane.
+1. Um die Farbe Ihres Links zu ändern, klicken Sie auf **[!UICONTROL Link-Farbe]** im rechten Bereich
 
    ![](assets/link_3.png)
 
-1. Save your changes.
+1. Speichern Sie Ihre Änderungen.

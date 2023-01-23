@@ -5,11 +5,17 @@ solution: Campaign
 product: adobe campaign-web
 feature-set: Campaign
 type: Documentation
-hide: yes
+hide: true
+source-git-commit: d9b053519a1d01a36a524b3fc48a9e37b2817f5b
+workflow-type: ht
+source-wordcount: '61'
+ht-degree: 100%
+
 ---
 
-# Metadata for internal use
 
-The metadata.md file includes repo-level metadata that passes through to user guide TOC.md files in the repo. If you want to change metadata.md content for any user guide, do so in any TOC.md file.
+# Metadaten für den internen Gebrauch
 
-See [Metadata](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/editing/user-guide-setup/metadata.html?lang=en) for a list of valid values for **solution**, **product**, and **type**.
+Die Datei &quot;metadata.md&quot; enthält Metadaten auf Repository-Ebene, die in die &quot;TOC.md&quot;-Dateien des Benutzerhandbuchs im Repository übergeben werden. Wenn Sie den &quot;metadata.md&quot;-Inhalt für ein Benutzerhandbuch ändern möchten, können Sie dies in jeder beliebigen &quot;TOC.md&quot;-Datei tun.
+
+Unter [Metadaten](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/editing/user-guide-setup/metadata.html?lang=de) finden Sie eine Liste mit gültigen Werten für **Lösung**, **Produkt** und **Typ**.
