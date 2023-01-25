@@ -4,9 +4,9 @@ title: Definieren von Audiences mit dem Regel-Builder
 description: Erfahren Sie, wie Sie mit dem Segment Builder arbeiten.
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
 source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '545'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -50,7 +50,7 @@ Sie können die Suchleiste verwenden, um Elemente schnell zu finden.
 
 ## Die Arbeitsfläche
 
-Die Arbeitsfläche ist der zentrale Bereich des Bildschirms, in dem Sie die Regeln basierend auf den aus der Palette hier abgelegten Elementen konfigurieren und kombinieren können. Um eine neue Regel hinzuzufügen, ziehen Sie eine Kachel aus der Palette auf die Arbeitsfläche. Anschließend können Ihnen je nach dem hinzugefügten Datentyp kontextspezifische Optionen angezeigt werden.
+Die Arbeitsfläche ist der zentrale Bereich des Bildschirms, in dem Sie die Regeln basierend auf den aus der Palette hier abgelegten Elementen konfigurieren und kombinieren können. Um eine neue Regel hinzuzufügen, ziehen Sie eine Kachel aus der Palette auf die Arbeitsfläche. Je nach Art der hinzuzufügenden Daten werden Ihnen dann kontextspezifische Optionen angezeigt.
 
 ![](assets/segment-builder4.png){width="70%" align="left"}
 
@@ -67,7 +67,7 @@ Auf der rechten Seite können Sie im Bereich **Regeleigenschaften** die folgende
 
 ## Beispiel
 
-In diesem Beispiel erstellen wir eine Zielgruppe, um alle Kunden in Atlanta oder Seattle anzusprechen, die nach 1980 geboren wurden.
+In diesem Beispiel erstellen wir eine Audience für alle Kunden und Kundinnen, die in Atlanta oder Seattle leben und nach 1980 geboren wurden.
 
 1. Suchen Sie in der Registerkarte **Attribute** der Palette nach dem Feld **Geburtsdatum**. Ziehen Sie die Kachel und legen Sie sie auf der Arbeitsfläche ab.
 
