@@ -4,9 +4,9 @@ title: Verfolgen von Nachrichten
 description: Erfahren Sie, wie Sie Links hinzufügen und gesendete Nachrichten verfolgen können.
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
 source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '548'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -73,15 +73,15 @@ Wenn die Empfänger nach dem Versand der E-Mail auf den Link zur Mirror-Seite kl
 
 >[!NOTE]
 >
->In der Test-E-Mail, die an die Testprofile gesendet wird, ist der Link zur Mirrorseite nicht aktiv. Er wird nur in den endgültigen Nachrichten aktiviert.
+>In der Test-E-Mail, die an die Testprofile gesendet wurde, ist der Link zur Mirror-Seite nicht aktiv. Er wird nur in den endgültigen Nachrichten aktiviert.
 
-Die Beibehaltungsdauer für eine Mirror-Seite beträgt 60 Tage. Nach dieser Verzögerung ist die Mirrorseite nicht mehr verfügbar.
+Die Beibehaltungsdauer für eine Mirror-Seite beträgt 60 Tage. Nach dieser Verzögerung ist die Mirror-Seite nicht mehr verfügbar.
 
 ## Verwalten von Tracking {#manage-tracking}
 
 Der [E-Mail-Designer](create-email-content.md) ermöglicht Ihnen die Verwaltung der getrackten URLs, z. B. die Bearbeitung des Tracking-Typs für jeden Link.
 
-1. Klicken Sie auf **[!UICONTROL Links]** im linken Bereich, um die Liste aller URLs Ihres Inhalts anzuzeigen, die verfolgt werden sollen.
+1. Klicken Sie auf das Symbol **[!UICONTROL Links]** im linken Fensterbereich, um die Liste aller URLs Ihrer zu trackenden Inhalte anzuzeigen.
 
    Diese Liste bietet einen guten Überblick und ermöglicht das Auffinden aller im E-Mail-Inhalt vorhandenen URLs.
 
