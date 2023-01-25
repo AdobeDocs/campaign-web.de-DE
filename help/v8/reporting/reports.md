@@ -1,12 +1,12 @@
 ---
 audience: end-user
 title: Versandberichte
-description: Erfahren Sie, wie Sie auf Versandberichte zugreifen und diese verwenden
+description: Erfahren Sie, wie Sie auf Vesandberichte zugreifen und diese verwenden können
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
 source-git-commit: a915902b6a4c5423492e87718681e783554fbc01
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '385'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ Führen Sie folgende Schritte aus, um Berichte anzuzeigen:
 
    ![](assets/reporting4.png)
 
-* **Fehler und Bounces**: Dieser Bericht zeigt die Verteilung der fehlgeschlagenen Zustellversuche sowie die Verteilung der Bounces nach Domain.
+* **Fehler und Bounces**: Dieser Bericht zeigt die Aufschlüsselung der nicht zustellbaren E-Mails sowie eine Aufschlüsselung der Bounces pro Internet-Domain.
 
    ![](assets/reporting5.png)
 
@@ -60,11 +60,11 @@ Führen Sie folgende Schritte aus, um Berichte anzuzeigen:
 
    ![](assets/reporting7.png)
 
-* **Benutzeraktivitäten**: Dieser Bericht zeigt die Öffnungs- und Klickverteilung pro halber Stunde, Stunde oder Tag in Form eines Diagramms.
+* **Nutzeraktivitäten**: Dieser Bericht zeigt die Aufschlüsselung der Öffnungen und Klicks pro halbe Stunde, Stunde oder Tag in Form eines Diagramms.
 
    ![](assets/reporting8.png)
 
-* **Trackingstatistiken**: Dieser Bericht enthält Statistiken zu Öffnungen und Klicks.
+* **Tracking-Statistiken**: Dieser Bericht enthält Statistiken über Öffnungen und Klicks.
 
    ![](assets/reporting9.png)
 
@@ -74,6 +74,6 @@ Führen Sie folgende Schritte aus, um Berichte anzuzeigen:
 
 ## Hotclicks
 
-Er zeigt den Nachrichteninhalt (HTML und/oder Text) mit dem prozentualen Klickanteil für jeden Link. Abmelde-Links in Gestaltungsbausteinen sowie Mirrorseiten-Links und Angebots-Links werden in der Gesamtklickzahl berücksichtigt, in diesem Bericht jedoch nicht angezeigt.
+Dieser Bericht zeigt den Nachrichteninhalt (HTML und/oder Text) mit dem prozentualen Klickanteil für jeden Link. Abmelde-Links in Gestaltungsbausteinen sowie Mirror-Seiten-Links und Angebots-Links werden in der Gesamtklickzahl berücksichtigt, in diesem Bericht jedoch nicht angezeigt.
 
 ![](assets/reporting11.png)
