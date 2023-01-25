@@ -1,12 +1,12 @@
 ---
 audience: end-user
 title: Einrichten einer Kontrollgruppe
-description: Erfahren Sie, wie Sie in der Campaign-Web-Benutzeroberfläche eine Kontrollgruppe für Ihre Nachrichten einrichten.
+description: Erfahren Sie, wie Sie in der Web-Benutzeroberfläche von Campaign eine Kontrollgruppe für Ihre Nachrichten einrichten.
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
 source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '525'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 71%
 
 Mithilfe von Kontrollgruppen können Sie vermeiden, dass Nachrichten an einen Teil Ihrer Audience gesendet werden, um die Wirkung Ihrer Kampagnen zu messen.
 
-Erstellen Sie dazu eine Kontrollgruppe, wenn Sie die Audience Ihres Versands definieren. Profile werden der Kontrollgruppe nach dem Zufallsprinzip hinzugefügt, gefiltert oder ungefiltert oder auf der Grundlage von Kriterien. Anschließend können Sie das Verhalten der Zielpopulation, die die Nachricht erhalten hat, mit dem Verhalten der Kontakte vergleichen, die nicht in die Zielgruppe aufgenommen wurden.
+Erstellen Sie dazu eine Kontrollgruppe, wenn Sie die Audience Ihres Versands definieren. Profile werden der Kontrollgruppe nach dem Zufallsprinzip hinzugefügt, gefiltert oder ungefiltert oder auf der Grundlage von Kriterien. Sie können dann das Verhalten der Zielgruppen-Population, die die Nachricht erhalten hat, mit dem Verhalten der Kontakte vergleichen, die nicht angesprochen wurden.
 
 Die Kontrollgruppe kann nach dem Zufallsprinzip aus der Hauptzielgruppe extrahiert und/oder aus einer bestimmten Population ausgewählt werden. Daher gibt es zwei Möglichkeiten, eine Kontrollgruppe zu definieren:
 
@@ -38,11 +38,11 @@ Um eine Kontrollgruppe zu erstellen, klicken Sie im Abschnitt **Audience** des A
 
 Um eine Kontrollgruppe zu definieren, können Sie nach dem Zufallsprinzip oder basierend auf einer Sortierung einen Prozentsatz oder eine feste Anzahl von Profilen aus der Zielgruppe extrahieren.
 
-Definieren Sie zunächst, wie die Profile aus der Zielgruppe extrahiert werden: zufällig oder basierend auf einer Sortierung.
+Legen Sie zunächst fest, wie die Profile aus der Zielgruppe extrahiert werden sollen: zufällig oder auf der Grundlage einer Sortierung.
 
 Wählen Sie im Abschnitt **Aus Zielgruppe extrahieren** einen **Ausschlusstyp**:
 
-* **Random**: Bei der Versandvorbereitung extrahiert Adobe Campaign zufällig eine Anzahl von Profilen, die dem Prozentsatz oder der Maximalzahl entsprechen, der als Größenbeschränkung festgelegt wird.
+* **Zufällig**: Bei der Versandvorbereitung extrahiert Adobe Campaign nach dem Zufallsprinzip eine gewisse Anzahl von Profilen, die dem Prozentsatz oder der maximalen Anzahl entspricht, die als Größenbegrenzung festgelegt wurde.
 
    ![](assets/control-group.png)
 
@@ -64,11 +64,11 @@ Nach der Versandvorbereitung können Sie die Ausschlüsse auf den folgenden Bild
 
    ![](assets/control-group5.png)
 
-* Die **Ausschlusslogs** jedes Profil und den zugehörigen Ausschluss anzeigen **Grund**.
+* Die **Ausschlusslogs** zeigen die einzelnen Profile und den zugehörigen **Ausschlussgrund** an.
 
    ![](assets/control-group6.png)
 
-* Die **Ausschlussgründe** die Anzahl der ausgeschlossenen Profile für jede Typologieregel anzeigen.
+* In den **Ausschlussgründen** wird für jede Typologieregel die Anzahl der ausgeschlossenen Profile angegeben.
 
    ![](assets/control-group7.png)
 
@@ -89,6 +89,6 @@ Klicken Sie im Abschnitt **Zusätzliche Population** des Definitionsbildschirms 
 
 * Um eine vorhandene Audience zu verwenden, klicken Sie auf **Audience auswählen**. Näheres dazu finden Sie in [diesem Abschnitt](add-audience.md).
 
-* Um eine neue Abfrage zu definieren, wählen Sie **Eigene erstellen** aus und definieren Sie die Ausschlusskriterien mit  dem Regel-Builder. Näheres dazu finden Sie in [diesem Abschnitt](segment-builder.md).
+* Um eine neue Abfrage zu definieren, wählen Sie **Eigene erstellen** aus und definieren Sie die Ausschlusskriterien mit dem Regel-Builder. Näheres dazu finden Sie in [diesem Abschnitt](segment-builder.md).
 
-Die in der Audience enthaltenen oder mit dem Abfrageergebnis übereinstimmenden Profile werden aus der Zielgruppe ausgeschlossen.
+Die Profile, die in der Audience enthalten sind oder mit dem Ergebnis der Abfrage übereinstimmen, werden aus der Zielgruppe ausgeschlossen.
