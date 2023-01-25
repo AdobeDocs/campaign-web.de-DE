@@ -1,15 +1,15 @@
 ---
-title: Inhalt in Campaign personalisieren
-description: Erfahren Sie, wie Sie Ihren Inhalt in der Adobe Campaign-Web-Benutzeroberfläche personalisieren.
+title: Personalisieren von Inhalten in Campaign
+description: Erfahren Sie, wie Sie Inhalte in der Web-Benutzeroberfläche von Adobe Campaign personalisieren.
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
 source-git-commit: 51bd6f405ad151e2264d69c57ffe5e1783077203
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '653'
-ht-degree: 23%
+ht-degree: 100%
 
 ---
 
@@ -19,17 +19,17 @@ ht-degree: 23%
 
 Sie können den Nachrichteninhalt wie folgt personalisieren:
 
-* Dynamisches Einfügen **Personalisierungsfelder**
+* Einfügen von dynamischen **Personalisierungsfeldern**
 
-   Personalisierungsfelder werden zur Personalisierung Ihrer Nachrichten auf erster Ebene verwendet. Sie können jedes in der Datenbank verfügbare Feld aus dem Personalisierungseditor auswählen. Bei einem Versand können Sie ein beliebiges Feld auswählen, das mit dem Empfänger, der Nachricht oder dem Versand in Verbindung steht. Diese Personalisierungsattribute können in die Betreffzeile oder den Text Ihrer Nachrichten eingefügt werden.
+   Personalisierungsfelder werden für die oberste Ebene der Nachrichtenpersonalisierung verwendet. Sie können jedes in der Datenbank verfügbare Feld aus dem Personalisierungseditor auswählen. Für einen Versand können Sie jedes Feld auswählen, das sich auf die Empfängerin oder den Empfänger, die Nachricht oder den Versand bezieht. Diese Personalisierungsattribute können in die Betreffzeile oder in den Text Ihrer Nachrichten eingefügt werden.
 
    ![](assets/perso-subject-line.png)
 
-   Mit der folgenden Syntax wird die Stadt des Empfängers in Ihren Inhalt eingefügt: &lt;%= recipient.location.city %>.
+   Mit der folgenden Syntax wird die Stadt des Empfängers bzw. der Empfängerin in Ihren Inhalt eingefügt: &lt;%= recipient.location.city %>.
 
-* Vordefiniertes Einfügen **Inhaltsbausteine**
+* Einfügen von vordefinierten **Inhaltsbausteinen**
 
-   Campaign verfügt über eine Reihe von Gestaltungsbausteinen, die ein bestimmtes Rendering enthalten, das Sie in Ihre Sendungen einfügen können. Sie können beispielsweise ein Logo, eine Grußnachricht oder einen Link zur Mirrorseite der Nachricht hinzufügen. Inhaltsbausteine sind über einen eigenen Eintrag im Personalisierungs-Editor verfügbar.
+   Campaign verfügt über eine Reihe von Gestaltungsbausteinen, die ein bestimmtes Rendering ermöglichen, das Sie in Ihre Sendungen einfügen können. Sie können zum Beispiel ein Logo, eine Grußbotschaft oder einen Link zur Mirror-Seite der Nachricht hinzufügen. Inhaltsbausteine sind über einen eigenen Eintrag im Personalisierungseditor verfügbar.
 
    ![](assets/perso-content-blocks.png)
 <!--
@@ -38,26 +38,26 @@ Sie können den Nachrichteninhalt wie folgt personalisieren:
     Configure conditional content to add dynamic personalization based on the recipient’s profile for example. Text blocks and/or images are inserted when a particular condition is true.
 -->
 
-## E-Mail-Betreffzeile personalisieren {#personalize-subject-line}
+## Personalisieren der Betreffzeile der E-Mail {#personalize-subject-line}
 
-So fügen Sie Personalisierung in der **[!UICONTROL Betreff]** Gehen Sie wie folgt vor:
+Um eine Personalisierung im Feld **[!UICONTROL Betreffzeile]** der Nachricht hinzuzufügen, gehen Sie wie folgt vor:
 
-1. Klicken Sie auf **Personalisierungsdialogfeld öffnen** rechts neben dem **Betreff** -Feld.
-1. Geben Sie den Betreffzeileninhalt ein und wählen Sie die hinzuzufügenden Personalisierungsattribute aus.
-1. Klicken **Bestätigen** validieren. Die Personalisierungsattribute werden der Betreffzeile hinzugefügt.
+1. Klicken Sie auf **Personalisierungsdialog öffnen** rechts neben dem Feld **Betreffzeile**.
+1. Geben Sie den Inhalt der Betreffzeile ein und wählen Sie die Personalisierungsattribute, die Sie hinzufügen möchten.
+1. Klicken Sie auf **Bestätigen**, um die Eingaben zu bestätigen. Die Personalisierungsattribute werden der Betreffzeile hinzugefügt.
 
 ![](assets/perso-subject.png)
 
-## E-Mail-Inhalt personalisieren {#personalize-emails}
+## Personalisieren des E-Mail-Inhalts {#personalize-emails}
 
-Um den E-Mail-Inhalt zu personalisieren, öffnen Sie die Nachricht in Email Designer und:
+Um den E-Mail-Inhalt zu personalisieren, öffnen Sie die Nachricht im E-Mail-Designer und:
 
-1. Klicken Sie in einen Textblock.
-1. Wählen Sie in der dedizierten Symbolleiste die Option **Personalisierung hinzufügen**.
+1. Klicken Sie auf einen Textblock.
+1. Wählen Sie in der kontextbasierten Symbolleiste **Personalisierung hinzufügen**.
 
    ![](assets/perso-add-to-content.png)
 
-1. Fügen Sie den Namen des Empfängers in den Personalisierungs-Editor ein und bestätigen Sie die Eingabe.
+1. Fügen Sie den Namen der Empfängerin oder des Empfängers in den Personalisierungseditor ein und bestätigen Sie die Eingabe.
 
    ![](assets/perso-add-name.png)
 
@@ -67,50 +67,50 @@ Um den E-Mail-Inhalt zu personalisieren, öffnen Sie die Nachricht in Email Desi
 
    ![](assets/perso-rendering.png)
 
-Gehen Sie wie folgt vor, um einen Inhaltsbaustein zu Ihrer E-Mail hinzuzufügen:
+Um einen Inhaltsbaustein zu Ihrer E-Mail hinzuzufügen, führen Sie dieselben Schritte aus und wählen im letzten Symbol einen Inhaltsbaustein:
 
 ![](assets/perso-insert-block.png)
 
-Nach dem Einfügen wird der Inhaltsbaustein wie unten dargestellt zum E-Mail-Inhalt hinzugefügt. Er wird bei der Personalisierung automatisch an das Empfängerprofil angepasst, wenn die Versandvorbereitung erfolgt.
+Nach dem Einfügen wird der Inhaltsbaustein wie unten dargestellt zum E-Mail-Inhalt hinzugefügt. Er wird in der Versandvorbereitungsphase bei der Generierung der Personalisierung automatisch an das Empfängerprofil angepasst.
 
 ![](assets/perso-content-block-in-email.png)
 
 
 Integrierte Inhaltsbausteine sind:
-* **[!UICONTROL Aktiviert von Adobe Campaign]** : fügt das Logo &quot;Aktiviert durch Adobe Campaign&quot;ein.
-* **[!UICONTROL Formatierungsfunktion für Eigennamen]**: Hiermit wird die JavaScript-Funktion **[!UICONTROL toSmartCase]** erstellt, mit der der erste Buchstabe eines jeden Worts in einen Großbuchstaben umgewandelt wird.
-* **[!UICONTROL Grußformeln]**: Hiermit werden Grußformeln mit dem Empfängernamen eingefügt, z. B. &quot;Guten Tag, Max Mustermann&quot;.
-* **[!UICONTROL Logo einfügen]** : fügt ein Logo ein, das in den Instanzeinstellungen definiert ist.
+* **[!UICONTROL Ermöglicht durch Adobe Campaign]**: Hiermit wird das Logo „Ermöglicht durch Adobe Campaign“ eingefügt.
+* **[!UICONTROL Formatierungsfunktion für Eigennamen]**: Hiermit wird die JavaScript-Funktion **[!UICONTROL toSmartCase]** generiert, mit der der erste Buchstabe eines jeden Worts in einen Großbuchstaben umgewandelt wird.
+* **[!UICONTROL Grußformeln]**: Hiermit werden Grußformeln zum Empfängernamen hinzugefügt, z. B. „Guten Tag, Max Mustermann“.
+* **[!UICONTROL Logo einfügen]**: Fügt ein Logo ein, das in den Instanzeinstellungen definiert ist.
 * **[!UICONTROL Link zur Mirror-Seite]**: Hiermit wird der Link zur Mirror-Seite „Wenn die Nachricht nicht richtig angezeigt wird, bitte hier klicken“ eingefügt.
-* **[!UICONTROL Mirrorseiten-URL]**: Hiermit wird die Mirrorseiten-URL eingefügt, damit Versanddesigner den Link prüfen können.
-* **[!UICONTROL Annahme-URL des Angebots im Einzelmodus]** : fügt eine URL ein, mit der ein Angebot auf **[!UICONTROL Akzeptiert]**.
-* **[!UICONTROL URL der Registrierungsseite]** : fügt eine Anmelde-URL ein.
-* **[!UICONTROL Anmelde-Link]**: Hiermit wird ein Anmelde-Link eingefügt. Dieser Link wird in den Instanzeinstellungen definiert. Der Standardinhalt lautet: &quot;Klicken Sie hier, um sich zu registrieren.&quot;
-* **[!UICONTROL Registrierungslink (mit Werber)]**: Hiermit wird ein Anmelde-Link eingefügt, über den der Besucher und der Versand identifiziert werden kann. Dieser Link wird in den Instanzeinstellungen definiert.
+* **[!UICONTROL Mirror-Seiten-URL]**: Hiermit wird die Mirror-Seiten-URL eingefügt, damit Versand-Designer den Link prüfen können.
+* **[!UICONTROL Annahme-URL eines Angebots im Einzelmodus]**: Hiermit wird eine URL eingefügt, die es ermöglicht, ein Angebot auf **[!UICONTROL Angenommen]** zu setzen.
+* **[!UICONTROL Anmeldungsseiten-URL]**: Hiermit wird eine Abonnement-URL eingefügt.
+* **[!UICONTROL Anmelde-Link]**: Hiermit wird ein Anmelde-Link eingefügt. Dieser Link wird in den Instanzeinstellungen definiert. Der Standardinhalt lautet: „Klicken Sie hier, um sich zu registrieren.“
+* **[!UICONTROL Anmelde-Link (mit Werber)]**: Hiermit wird ein Anmelde-Link eingefügt, über den der Besucher bzw. die Besucherin sowie der Versand identifiziert werden können. Dieser Link wird in den Instanzeinstellungen definiert.
 * **[!UICONTROL Anmeldebestätigung]**: Hiermit wird ein Link eingefügt, mit dem die Anmeldung bestätigt werden kann.
-* **[!UICONTROL Teilen-Links sozialer Netzwerke]** : Hiermit werden Schaltflächen eingefügt, mit denen der Empfänger einen Link zum Inhalt der Mirrorseite freigeben kann.
+* **[!UICONTROL Teilen-Links der sozialen Netzwerke]** : Hiermit werden Schaltflächen eingefügt, mit denen der Empfänger bzw. die Empfängerin einen Link zum Inhalt der Mirror-Seite freigeben kann.
 * **[!UICONTROL Stil der Inhalts-E-Mails]** und **[!UICONTROL Stil der Benachrichtigungen]**: Hiermit wird Code erstellt, mit dem eine E-Mail mit nativen HTML-Stilen formatiert werden kann.
-* **[!UICONTROL Abmelde-Link]**: Hiermit wird ein Link zur Abmeldung von allen Nachrichten (Blockierungsliste) eingefügt. Der standardmäßig verknüpfte Inhalt ist: &quot;Sie erhalten diese Nachricht, da Sie mit ***Name Ihres Unternehmens*** oder einem Affiliate. So empfangen Sie keine Nachrichten mehr von ***Name Ihres Unternehmens*** Klicken Sie hier.&quot;
+* **[!UICONTROL Abmelde-Link]**: Fügt einen Link ein, der es ermöglicht, das Abo aller Sendungen zu kündigen (Blockierungsliste). Der standardmäßig verknüpfte Inhalt ist: „Sie erhalten diese Nachricht, da Sie mit ***Name Ihres Unternehmens*** oder einem Tochterunternehmen in Kontakt standen. Um keine Nachrichten mehr von ***Name Ihres Unternehmens*** zu erhalten, klicken Sie hier.“
 
 
-## Links in E-Mails personalisieren {#personalize-links}
+## Personalisieren von Links in E-Mails {#personalize-links}
 
-So personalisieren Sie eine **link**:
+So personalisieren Sie einen **Link**:
 
 1. Wählen Sie einen Textblock oder ein Bild aus.
-1. Wählen Sie in der dedizierten Symbolleiste die Option **Link einfügen**.
+1. Wählen Sie in der kontextbezogenen Symbolleiste **Link einfügen**.
 
    ![](assets/perso-link.png)
 
-1. Geben Sie den Link-Titel ein und verwenden Sie die **Link einfügen** -Schaltfläche, um den Link zu personalisieren.
+1. Geben Sie den Link-Titel ein und verwenden Sie die Schaltfläche **Link einfügen**, um den Link zu personalisieren.
 
    ![](assets/perso-link-insert-icon.png)
 
-1. Verwenden Sie den Personalisierungs-Editor, um den Link zu definieren und zu personalisieren und zu bestätigen.
+1. Verwenden Sie den Personalisierungseditor, um den Link zu definieren und zu personalisieren, und bestätigen Sie ihn dann.
 
    ![](assets/perso-link-edit.png)
 
 
 ## Personalisieren von Angeboten {#personalize-offers}
 
-Sie können auch den Personalisierungseditor nutzen, wenn Sie den Darstellungen Ihrer Angebote Textinhalte hinzufügen. Weiterführende Informationen finden Sie in [diesem Abschnitt](../content/offers.md).
+Sie können mit dem Personalisierungseditor auch Textinhalte zu den Darstellungen Ihrer Angebote hinzufügen. Weiterführende Informationen finden Sie in [diesem Abschnitt](../content/offers.md).
