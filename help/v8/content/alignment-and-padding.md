@@ -4,9 +4,9 @@ title: Vertikale Ausrichtung und Abstand in E-Mail-Designer anpassen
 description: Erfahren Sie, wie Sie die senkrechte Ausrichtung und den Abstand anpassen.
 exl-id: 32e613e4-60ce-43b4-90a6-794af0e3976b
 source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '170'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 90%
 
 ![](../assets/do-not-localize/badge.png)
 
-In diesem Beispiel passen wir den Abstand und die vertikale Ausrichtung innerhalb einer Strukturkomponente an, die aus drei Spalten besteht.
+In diesem Beispiel passen wir den Abstand und die vertikale Ausrichtung innerhalb einer aus drei Spalten bestehenden Strukturkomponente an.
 
 1. Wählen Sie eine Strukturkomponente direkt in der E-Mail oder unter Verwendung des **[!UICONTROL Navigationbaums]** im linken Bereich aus.
 
