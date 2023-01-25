@@ -4,9 +4,9 @@ title: Senden von Angeboten
 description: Senden von Angeboten
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
 source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '509'
-ht-degree: 62%
+ht-degree: 100%
 
 ---
 
@@ -33,17 +33,17 @@ Die wichtigsten Schritte zum Senden von Angeboten mit einer E-Mail sind:
 
 ## Zu unterbreitende Angebote konfigurieren {#configure}
 
-1. Klicken Sie auf die Schaltfläche **[!UICONTROL Angebote]** im Bildschirm zur Inhaltsbearbeitung der E-Mail.
+1. Um die Angebote auszuwählen, die in Ihrer E-Mail unterbreitet werden sollen, klicken Sie auf die Schaltfläche **[!UICONTROL Angebote]** auf dem Bildschirm zur Bearbeitung des E-Mail-Inhalts.
 
    ![](assets/setup-offers.png)
 
-1. Konfigurieren Sie, welche Angebote den Empfängern vorgeschlagen werden sollen. Wählen Sie zuerst die **[!UICONTROL Platzierung]** die Ihrer Angebotsumgebung entspricht.
+1. Konfigurieren Sie, welche Angebote den Empfängerinnen und Empfängern unterbreitet werden sollen. Wählen Sie zunächst die **[!UICONTROL Platzierung]** entsprechend Ihrer Angebotsumgebung.
 
    ![](assets/create-content-offers.png)
 
-1. Um die Angebotsauswahl des Moduls zu verfeinern, wählen Sie eine spezifische **[!UICONTROL Angebotskategorie]**, in der Angebote sortiert werden.
+1. Um die Angebotsauswahl des Moduls zu verfeinern, wählen Sie eine spezifische **[!UICONTROL Angebotskategorie]**, in der die Angebote gruppiert sind.
 
-   Wenn keine Kategorie angegeben wird, werden alle in der Umgebung enthaltenen Angebote vom Angebotsmodul berücksichtigt, es sei denn, ein **[!UICONTROL Angebotsdesign]** ausgewählt ist.
+   Wenn keine Kategorie spezifiziert wird, werden alle in der Umgebung enthaltenen Angebote von der Angebots-Engine berücksichtigt, es sei denn, es wurde ein **[!UICONTROL Angebotsthema]** ausgewählt.
 
    >[!NOTE]
    >
@@ -55,15 +55,15 @@ Die wichtigsten Schritte zum Senden von Angeboten mit einer E-Mail sind:
 
    Mit dieser Option können Sie den Ausschluss von Empfängern aktivieren oder deaktivieren, für die nicht genügend geeignete Angebote vorhanden sind.
 
-   * Wenn die Option aktiviert ist, werden Empfänger, die nicht genügend Vorschläge haben, vom Versand ausgeschlossen.
-   * Wenn die Option deaktiviert ist, werden diese Empfänger nicht ausgeschlossen, können jedoch nicht über die angeforderte Anzahl von Vorschlägen verfügen.
+   * Wenn die Option aktiviert ist, werden Empfängerinnen und Empfänger, für die nicht genügend geeignete Angebote vorhanden sind, vom Versand ausgeschlossen.
+   * Wenn die Option deaktiviert ist, werden diese Empfängerinnen und Empfänger nicht vom Versand ausgeschlossen, ihnen wird aber nicht die angefragte Anzahl von Angeboten unterbreitet.
 
 1. Wählen Sie bei Bedarf die Option **[!UICONTROL Alles ausblenden, wenn kein Angebot ausgewählt ist]**.
 
-   Diese Option ermöglicht die Auswahl der Art der Nachrichtenverarbeitung, falls ein Vorschlag nicht existiert.
+   Mit dieser Option können Sie festlegen, wie die Nachricht verarbeitet werden soll, wenn eine der Vorschläge nicht existiert.
 
-   * Wenn die Option aktiviert ist, wird die Darstellung des fehlenden Vorschlags nicht angezeigt und es wird kein Inhalt in der Nachricht für diesen Vorschlag angezeigt.
-   * Wenn die Option deaktiviert ist, wird die Nachricht selbst während des Versands abgebrochen und die Empfänger können keine Nachrichten mehr erhalten.
+   * Wenn die Option aktiviert ist, wird keine Darstellung des fehlenden Vorschlags angezeigt und es wird auch kein Inhalt für diesen Vorschlag in der Nachricht angezeigt.
+   * Wenn die Option deaktiviert ist, wird die der Versand der Nachricht abgebrochen und die Empfänger und Empfängerinnen können keine Nachrichten mehr empfangen.
 
 Nachdem Sie die Angebote konfiguriert haben, die in Ihrer E-Mail vorgeschlagen werden sollen, können Sie sie mit dem Ausdruckseditor in die E-Mail einfügen. [Erfahren Sie, wie Sie Angebote in die E-Mail einfügen](#insert)
 
@@ -71,8 +71,8 @@ Nachdem Sie die Angebote konfiguriert haben, die in Ihrer E-Mail vorgeschlagen w
 
 Angebote können mit dem Ausdruckseditor zur E-Mail hinzugefügt werden. Sie können wie folgt eingefügt werden:
 
-* In der Betreffzeile der E-Mail:
-* Im E-Mail-Textkörper durch Personalisierung in einer beliebigen Inhaltskomponente. [Erfahren Sie, wie Sie Inhaltskomponenten hinzufügen](content-components.md)
+* in der Betreffzeile der E-Mail,
+* im Textkörper der E-Mail durch die Aktivierung der Personalisierung in einer beliebigen Inhaltskomponente. [Erfahren Sie, wie Sie Inhaltskomponenten hinzufügen](content-components.md)
 
 >[!NOTE]
 >
