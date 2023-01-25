@@ -6,7 +6,7 @@ exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
 source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
 source-wordcount: '546'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ send also KPIs
 
 ## Versandvorbereitung{#prepare}
 
-Wenn Sie Inhalt, Audience und Zeitplan definiert haben, können Sie Ihre Nachricht vorbereiten. Während der Vorbereitung wird die Zielpopulation berechnet und der Nachrichteninhalt für jedes Profil in der Zielgruppe erzeugt. Nachdem die Vorbereitung abgeschlossen ist, können die Nachrichten entweder sofort oder am geplanten Datum und zur geplanten Uhrzeit gesendet werden. Die bei der Analyse verwendeten Validierungsregeln werden im Abschnitt [Dokumentation zu Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html?lang=de#validation-process-with-typologies){target="_blank"}.
+Wenn Sie Inhalt, Audience und Zeitplan definiert haben, können Sie Ihre Nachricht vorbereiten. Während der Vorbereitung wird die Zielpopulation berechnet und der Nachrichteninhalt für jedes Profil in der Zielgruppe erzeugt. Nachdem die Vorbereitung abgeschlossen ist, können die Nachrichten entweder sofort oder am geplanten Datum und zur geplanten Uhrzeit gesendet werden. Die bei der Analyse verwendeten Validierungsregeln sind in der [Dokumentation von Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html?lang=de#validation-process-with-typologies){target="_blank"} beschrieben.
 
 Gehen Sie dazu wie folgt vor:
 
@@ -86,12 +86,12 @@ Führen Sie folgende Schritte aus:
 
    Im Folgenden werden die verschiedenen KPIs angezeigt:
 
-   * **Zugestellt**: die Anzahl der erfolgreich zugestellten Nachrichten. Der angezeigte Prozentsatz basiert auf der Gesamtzahl der gesendeten Nachrichten.
-   * **Öffnungen**: die Anzahl der geöffneten Nachrichten. Der angezeigte Prozentsatz ist das Verhältnis zwischen der Anzahl unterschiedlicher Öffnungen und der Anzahl der zugestellten Nachrichten.
-   * **Klicks**: die Anzahl der Empfangenden, die mindestens einmal auf die E-Mail geklickt haben. Der angezeigte Prozentsatz ist das Verhältnis zwischen der Anzahl unterschiedlicher Klicks und der Anzahl der zugestellten Nachrichten.
+   * **Zugestellt**: die Anzahl der erfolgreich zugestellten Nachrichten. Der angezeigte Prozentsatz bezieht sich auf die Gesamtzahl der gesendeten Nachrichten.
+   * **Öffnungen**: die Anzahl der geöffneten Nachrichten. Der angezeigte Prozentsatz ist das Verhältnis zwischen der Anzahl der Einzelöffnungen und der Anzahl der zugestellten Nachrichten.
+   * **Klicks**: die Anzahl der Empfangenden, die mindestens einmal auf die E-Mail geklickt haben. Der angezeigte Prozentsatz ist das Verhältnis der Anzahl der eindeutigen Klicks im Vergleich zur Anzahl der zugestellten Nachrichten.
 
    >[!NOTE]
    >
-   >Die **Öffnungen** und **Klicks** Indikatoren werden nach 5 Minuten aktualisiert.
+   >Die Indikatoren **Öffnungen** und **Klicks** werden nach 5 Minuten aktualisiert.
 
-   Sie können den Versand jederzeit anhalten und später fortsetzen. Wenn Sie den Versand während des Versands stoppen, können Sie den Versand nicht fortsetzen.
+   Sie können den Versand jederzeit unterbrechen und später fortsetzen. Wenn Sie den Versand stoppen, während er durchgeführt wird, können Sie ihn nicht mehr fortsetzen.
