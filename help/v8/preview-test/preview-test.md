@@ -1,32 +1,32 @@
 ---
 audience: end-user
-title: Über die E-Mail-Vorschau und den Test
+title: Über die E-Mail-Vorschau und Tests
 description: Erfahren Sie, wie Sie E-Mails in der Vorschau anzeigen und testen können.
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
 source-git-commit: d305cc7055008ecf25e41a51fabe1e5ece683b72
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '110'
-ht-degree: 12%
+ht-degree: 100%
 
 ---
 
-# Über die E-Mail-Vorschau und den Test {#about-preview-proofs}
+# Über die E-Mail-Vorschau und Tests {#about-preview-proofs}
 
 ![](../assets/do-not-localize/badge.png)
 
-Vor dem Versand einer E-Mail ist es wichtig, den Inhalt zu überprüfen und zu testen, um sicherzustellen, dass er korrekt ist und keine Fehler in den Inhalts- oder Personalisierungseinstellungen enthält.
+Bevor Sie eine E-Mail versenden, sollten Sie ihren Inhalt überprüfen und testen, um sicherzustellen, dass sie korrekt und frei von inhaltlichen Fehlern oder falschen Personalisierungseinstellungen ist.
 
 Dazu bietet Adobe Campaign folgende Möglichkeiten:
 
 * [Vorschau des E-Mail-Inhalts und der Personalisierung](#preview),
 
 <!--* [Check the email rendering](#rendering) in popular desktop, mobile and web-based clients,-->
-* [Test-E-Mails senden](#send-proofs) an bestimmte Empfänger für Tests und Validierung.
+* [Senden Sie Test-E-Mails](#send-proofs) an bestimmte Empfängerinnen und Empfänger zu Test- und Validierungszwecken.
 
-Diese Aktionen können über die **[!UICONTROL Inhalt simulieren]** Schaltfläche, auf die beim Erstellen des Inhalts Ihrer E-Mail in Email Designer zugegriffen werden kann:
+Diese Aktionen können Sie über die Schaltfläche **[!UICONTROL Inhalt simulieren]** ausführen, auf die Sie über den E-Mail-Designer bei der Erstellung des Inhalts Ihrer E-Mail zugreifen können:
 
 ![](assets/simulate.png)
 
 >[!NOTE]
 >
->Die Inhaltsimulation ist auch in der Versandzusammenfassung verfügbar, nachdem Sie auf die **[!UICONTROL Überprüfen und Senden]** Schaltfläche.
+>Die Inhaltssimulation ist auch in der Versandzusammenfassung verfügbar, nachdem Sie auf die Schaltfläche **[!UICONTROL Überprüfen und senden]** geklickt haben.
