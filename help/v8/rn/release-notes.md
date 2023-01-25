@@ -3,10 +3,10 @@ audience: end-user
 title: Versionshinweise zu Campaign Web v8
 description: Versionshinweise zu Campaign Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: 54bcb9b0ba8704cde8beaf1b0400eaa01bba0b15
+source-git-commit: 5b552f038413cc2624adef6c76d3f69d56eb18ee
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 100%
+source-wordcount: '412'
+ht-degree: 74%
 
 ---
 
@@ -49,11 +49,8 @@ add info somewhere to remind users that
 * they keep their existing data (example: will be able to use their existing delivery templates to create deliveries)
 -->
 
->[!NOTE]
->
->Beachten Sie, dass Cross-Channel-Kampagnen und Workflow-Management-Funktionen als Teil des Beta-Programms verfügbar sein werden.
 
-## Aktualisierungen der Terminologie
+## Aktualisierungen der Terminologie{#terminology-updates}
 
 Bestehende Campaign-Benutzende sollten beachten, dass einige Konzepte entsprechend den aktuellen Terminologiestandards umbenannt wurden. Diese Änderungen gelten nur für die Web-Benutzeroberfläche von Campaign und werden nicht in der Client-Konsole übernommen. Sie sind unten zusammengefasst.
 
@@ -62,3 +59,17 @@ Bestehende Campaign-Benutzende sollten beachten, dass einige Konzepte entspreche
 * Die Versandanalyse heißt jetzt **Versandvorbereitung**. Wenn Sie die Analyse starten möchten, klicken Sie auf die Schaltfläche **Vorbereiten**
 * Die E-Mail-Vorschau ist jetzt über die Schaltfläche **Inhalt simulieren** verfügbar
 * Listen heißen jetzt **Audiences**
+
+## Einschränkungen{#limitations-alpha}
+
+Einige wichtige Campaign-Funktionen, wie z. B. kanalübergreifende Kampagnen und Workflow-Management, stehen ab der Beta-Version zur Verfügung.
+
+Die folgenden Einschränkungen gelten für diese Alpha-Version:
+
+* Die einzigen bearbeitbaren Objekte sind Sendungen. Die anderen sind schreibgeschützt. Verwenden Sie Filter, um sie alle zu durchsuchen.
+* Diese Version wurde für eine der E-Mail-Kampagnen entwickelt. Andere Kanäle werden noch nicht unterstützt.
+* Die Benutzeroberfläche &quot;Administration&quot;ist nicht verfügbar.
+* Berichtsmetriken (wie Öffnungen und Tracking-Daten) werden stündlich aktualisiert.
+* Die KPIs des Versand-Dashboards werden alle 5 Minuten aktualisiert. - aber die Versandvorbereitung in Echtzeit erfolgt.
+* Adobe Experience Cloud-Benachrichtigungen und die in der Symbolleiste verfügbare einheitliche Hilfe sind noch nicht integriert.
+
