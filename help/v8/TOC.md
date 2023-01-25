@@ -6,9 +6,9 @@ breadcrumb-title: Übersicht über Campaign
 title: Dokumente zu Campaign v8 Web
 hide: true
 source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '165'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 97%
       + [Anpassen der senkrechten Ausrichtung und des Abstands](content/alignment-and-padding.md)
       + [Definieren eines Stils für Links](content/styling-links.md)
       + [Hinzufügen von Inline-Styling-Attributen](content/inline-styling.md)
-   + [Personalisierung hinzuzufügen](personalization/personalize.md)
+   + [Hinzufügen von Personalisierung](personalization/personalize.md)
    + [Senden von Angeboten](content/offers.md)
 + Auswählen der E-Mail-Audience {#audience}
    + [Erste Schritte mit Audiences](audience/about-audiences.md)
@@ -47,9 +47,9 @@ ht-degree: 97%
    + [Einrichten einer Kontrollgruppe](audience/control-group.md)
    + [Definieren von Audiences mit dem Regel-Builder](audience/segment-builder.md)
 + Erstellen einer E-Mail-Vorschau und Testen einer E-Mail {#preview-test}
-   + [Über Vorschau und Test](preview-test/preview-test.md)
+   + [Über die Vorschau und Tests](preview-test/preview-test.md)
    + [Vorschau von E-Mail-Inhalten](preview-test/preview-content.md)
-   + [Test-E-Mails senden](preview-test/proofs.md)
+   + [Senden von Test-E-Mails](preview-test/proofs.md)
 + Senden und Überwachen der E-Mail {#monitor}
    + [Vorbereiten und Senden einer E-Mail](monitor/prepare-send.md)
    + [Überwachen von Versandlogs](monitor/delivery-logs.md)
