@@ -4,9 +4,9 @@ title: Erstellen der Textversion einer E-Mail
 description: Erfahren Sie, wie Sie die Textversion einer E-Mail erstellen
 exl-id: 8d0ce346-64a6-4adf-9f2d-36a900db797f
 source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '166'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -38,5 +38,5 @@ Wenn Sie lieber einen anderen Inhalt für die Textversion verwenden möchten, f�
 >
 >* Die Änderungen, die Sie in der **[!UICONTROL Text]**-Ansicht vorgenommen haben, werden in der HTML-Ansicht nicht dargestellt.
 >
->* Wenn Sie die **[!UICONTROL Mit HTML synchronisieren]** nach der Aktualisierung Ihres Textinhalts gehen Ihre Änderungen verloren und werden durch Textinhalte ersetzt, die von der HTML-Version generiert wurden.
+>* Wenn Sie die Option **[!UICONTROL Mit HTML synchronisieren]** nach der Aktualisierung Ihres Plain-Text-Inhalts wieder aktivieren, gehen Ihre Änderungen verloren und werden durch Textinhalte ersetzt, die von der HTML-Version generiert wurden.
 
