@@ -4,9 +4,9 @@ title: E-Mail-Versandeinstellungen
 description: Erfahren Sie mehr über die Einstellungen für den E-Mail-Versand in der Web-Benutzeroberfläche von Campaign
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1471'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 87%
 
 ![Alpha-Version](../assets/do-not-localize/badge.png)
 
-Bei diesen Einstellungen handelt es sich um **technische Versandparameter**, die in der E-Mail-Vorlage definiert sind. Sie sind im **Konfigurieren der Versandeinstellungen** beim Bearbeiten eines E-Mail-Versands verfügbar ist.
+Bei diesen Einstellungen handelt es sich um **technische Versandparameter**, die in der E-Mail-Vorlage definiert sind. Sie sind bei der Bearbeitung eines E-Mail-Versands über das Symbol **Versandeinstellungen konfigurieren** verfügbar.
 
 ## E-Mail-Versandeinstellungen {#email-delivery-settings}
 
@@ -53,7 +53,7 @@ Im Feld **Gewichtungstyp** stehen drei Optionen zur Verfügung:
 * **Empfängerabhängig**
 * **Wird in jeder Regel definiert**
 
-Verwenden Sie das Feld **Versandgewichtung**, um die Versandpriorität zu definieren. Jeder Versand verfügt über eine Gewichtung, die die jeweilige Priorität darstellt. Standardmäßig ist die Versandgewichtung auf den Wert 5 festgelegt. Mit Druckregeln können Sie die Gewichtung der Sendungen festlegen, auf die sie angewendet werden. Die Gewichtung kann konstant sein oder mithilfe einer Formel empfängerabhängig berechnet werden. Beispielsweise kann die Gewichtung eines Versands den Interessen eines Empfängers entsprechend bestimmt werden.
+Verwenden Sie das Feld **Versandgewichtung**, um die Versandpriorität zu definieren. Jeder Versand verfügt über eine Gewichtung, die die jeweilige Priorität darstellt. Standardmäßig ist die Versandgewichtung auf den Wert 5 festgelegt. Mit Druckregeln können Sie die Gewichtung der Sendungen festlegen, auf die sie angewendet werden. Die Gewichtung kann konstant sein oder mithilfe einer Formel empfängerabhängig berechnet werden. Beispielsweise kann die Gewichtung eines Versands den Interessen eines Empfängers bzw. einer Empfängerin entsprechend bestimmt werden.
 
 
 Verwenden Sie das Feld **Versandmodus**, um den Zielgruppenevaluierungsmodus auszuwählen. Drei Modi sind verfügbar:
@@ -101,7 +101,7 @@ Versandparameter sind technische Einstellungen, die für Ihren Versand gelten.
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_retries"
 >title="Maximale Anzahl der weiteren Zustellversuche"
->abstract="Wenn eine Nachricht aufgrund eines temporären Fehlers fehlschlägt, werden weitere Zustellversuche bis zum Ende der Versandlaufzeit unternommen."
+>abstract="Wenn ein Nachrichtenversand aufgrund eines temporären Fehlers fehlschlägt, werden weitere Zustellversuche bis zum Ende der Versandlaufzeit durchgeführt."
 
 <!--Temporarily undelivered messages due to a Soft or Ignored error are subject to an automatic retry. By default, five retries are scheduled for the first day of the delivery with a minimum interval of one hour spread out over the 24 hours of the day. -->
 
@@ -155,7 +155,7 @@ Eine Mirror-Seite ist eine HTML-Seite, die über einen Webbrowser online abgeruf
 
 Zusätzlich zum Standardmodus stehen die folgenden Optionen zur Verfügung:
 
-* **[!UICONTROL Mirrorseitenerstellung erzwingen]**: selbst wenn im Versand kein Link zur Mirrorseite eingefügt wurde, wird die Mirrorseite erstellt.
+* **[!UICONTROL Mirror-Seitenerzeugung erzwingen]**: Auch wenn im Versand kein Link zur Mirror-Seite eingefügt ist, wird eine erstellt.
 * **[!UICONTROL Keine Mirrorseite erzeugen]**: Erstellt keine Mirror-Seite, selbst wenn im Versandinhalt der entsprechende Link enthalten ist.
 * **[!UICONTROL Von der Nachrichtenkennung aus zugängliche Mirrorseite erzeugen]**: Diese Option ermöglicht den Zugriff auf den Inhalt der Mirror-Seite einschließlich aller Personalisierungsinformationen von den Versand-Logs aus. Klicken Sie hierfür nach Durchführung des Versands auf den Tab **[!UICONTROL Versand]** und wählen Sie die Zeile des Empfängers aus, dessen Mirror-Seite Sie ansehen möchten. Klicken Sie dann auf den Link **[!UICONTROL Mirrorseite dieser Nachricht anzeigen...]**.
 
@@ -165,11 +165,11 @@ Zusätzlich zum Standardmodus stehen die folgenden Optionen zur Verfügung:
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_tracking_validity"
 >title="Gültigkeitszeitraum"
->abstract="Diese Option definiert die Dauer, für die das Tracking in den URLs aktiviert wird."
+>abstract="Diese Option legt die Dauer fest, für die das Tracking für die URLs aktiviert wird."
 
 Tracking-Parameter werden im entsprechenden Abschnitt definiert. Mögliche Optionen sind:
 
-**Gültigkeitsdauer des Trackings**: Verwenden Sie diese Option, um die Dauer zu ändern, für die das Tracking in den URLs aktiviert wird.
+**Tracking-Gültigkeit**: Verwenden Sie diese Option, um die Dauer zu ändern, für die das Tracking für die URLs aktiviert ist.
 
 **Ersatz-URL für abgelaufene URLs**: Verwenden Sie diese Option, um eine Fallback-URL für eine Web-Seite einzugeben: Sie wird angezeigt, wenn das Tracking abgelaufen ist.
 
@@ -185,6 +185,6 @@ Sie können die Ausschlussparameter in diesem Abschnitt festlegen. Folgende Opti
 
 Sie können auch den Namen der Test-E-Mails anpassen.
 
-Verwenden Sie die **Versandcode für den Testversand beibehalten** , um der Test-E-Mail denselben Versandcode zuzuordnen, der für den Versand, auf den sie sich bezieht, definiert ist.
+Verwenden Sie die Option **Versandcode für den Testversand beibehalten**, um der Test-E-Mail denselben Versand-Code zuzuordnen, der für den jeweiligen Versand definiert wurde.
 
-Standardmäßig erhält der Betreff der Test-E-Mail das Präfix &quot;PROOF #&quot;, wobei # die Nummer der Test-E-Mail ist. Sie können dieses Präfix im **Titelpräfix** -Feld.
+Standardmäßig wird dem Betreff der Test-E-Mail „TESTVERSAND #“ vorangestellt, wobei # die Nummer der Test-E-Mail ist. Sie können dieses Präfix im Feld **Titelpräfix** ändern.
