@@ -4,9 +4,9 @@ title: Vorschau von E-Mail-Inhalten
 description: Erfahren Sie, wie Sie mit der Web-Benutzeroberfläche von Campaign eine Vorschau Ihres E-Mail-Inhalts anzeigen können.
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
 source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '252'
-ht-degree: 19%
+ht-degree: 100%
 
 ---
 
@@ -17,32 +17,32 @@ ht-degree: 19%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card4"
 >title="Intelligente Vorschau Ihrer Inhalte"
->abstract="Mit Adobe Campaign können Sie Profile verwenden, um vor dem Versand eine Vorschau des Inhalts Ihrer E-Mail anzuzeigen, die Personalisierung zu überprüfen und zu sehen, wie die Nachricht bei den Empfängern dargestellt wird."
+>abstract="In Adobe Campaign können Sie mithilfe von Profilen den Inhalt Ihrer E-Mail vor dem Versand in der Vorschau betrachten, um die Personalisierung zu überprüfen und sich die Darstellung der Nachricht so anzeigen zu lassen, wie sie Ihre Empfängerinnen und Empfänger sehen werden."
 
-Mit Adobe Campaign können Sie den Inhalt Ihrer E-Mail vor dem Versand in der Vorschau anzeigen, die Personalisierung überprüfen und feststellen, wie sie Ihren Empfängern angezeigt wird.
+Mit Adobe Campaign können Sie den Inhalt Ihrer E-Mail vor dem Versand in der Vorschau anzeigen, um die Personalisierung und die Darstellung der Nachricht bei Ihren Empfängern und Empfängerinnen zu überprüfen.
 
-Gehen Sie wie folgt vor, um eine Vorschau des Inhalts Ihrer E-Mail anzuzeigen:
+Gehen Sie wie folgt vor, um eine Vorschau des E-Mail-Inhalts anzuzeigen:
 
-1. Rufen Sie den Bildschirm zur Inhaltserstellung für E-Mails auf und klicken Sie auf **[!UICONTROL Inhalt simulieren]** Schaltfläche.
+1. Öffnen Sie den Bildschirm zur Erstellung von E-Mail-Inhalten und klicken Sie auf die Schaltfläche **[!UICONTROL Inhalt simulieren]**.
 
    ![](assets/simulate.png)
 
-1. Wählen Sie ein oder mehrere Profile aus, indem Sie auf **[!UICONTROL Profil(e) auswählen]** und verwenden Sie dann die **[!UICONTROL Testprofile]** und **[!UICONTROL Profile]** Registerkarten zur Auswahl aus:
+1. Wählen Sie mindestens ein Profil aus, indem Sie auf die Schaltfläche **[!UICONTROL Profile auswählen]** klicken. Verwenden Sie dann die Registerkarten **[!UICONTROL Testprofile]** und **[!UICONTROL Profile]** zur Auswahl von:
 
-   * Die **Testprofile** enthält Testadressen, die zusätzliche fiktive Empfänger in der Datenbank sind. Sie können in der Adobe Campaign-Konsole in der **[!UICONTROL Ressourcen]** / **[!UICONTROL Campaign Management]** / **[!UICONTROL Testadressen]** Ordner.
-   * Die **Profile** enthält alle Empfänger, die im **[!UICONTROL Profile und Zielgruppen]** in der Campaign-Konsole.
+   * Die Registerkarte **Testprofile** enthält Testadressen, die zusätzliche, fiktive Empfängerinnen und Empfänger in der Datenbank sind. Die Testadressen können in der Adobe Campaign-Konsole im Ordner **[!UICONTROL Resourcen]** / **[!UICONTROL Kampagnen-Management]** / **[!UICONTROL Testadressen]** erstellt werden.
+   * Die Registerkarte **Profile** listet alle Empfängerinnen und Empfänger auf, die über die Campaign-Konsole im Ordner **[!UICONTROL Profile und Zielgruppen]** gespeichert wurden.
 
-   Sie können Testprofile und Profile miteinander kombinieren, um eine Vorschau Ihrer E-Mail anzuzeigen.
+   Sie können bei der Vorschau Ihrer E-Mail Testprofile und Profile miteinander kombinieren.
 
    ![](assets/preview-profile.png)
 
-1. Nach Auswahl der Profile wird im rechten Bereich eine Vorschau der E-Mail angezeigt. Personalisierte Elemente werden durch Daten aus dem Profil ersetzt, das auf im linken Bereich ausgewählt wurde.
+1. Nachdem Sie die Profile ausgewählt haben, wird im rechten Fensterbereich eine Vorschau der E-Mail angezeigt. Personalisierte Elemente werden durch Daten aus dem Profil ersetzt, das im linken Bereich ausgewählt wurde.
 
    Wenn Sie mehrere Profile hinzugefügt haben, können Sie in der Liste zwischen ihnen wechseln, um eine Vorschau der entsprechenden E-Mail anzuzeigen.
 
    >[!NOTE]
    >
-   >Sie können eine Vorschau des Renderings Ihres Inhalts auf verschiedenen Geräten (Desktop, Mobilgerät, Tablet) anzeigen, indem Sie auf das entsprechende Symbol oben rechts klicken.
+   >Sie können eine Vorschau des Renderings Ihrer Inhalte auf verschiedenen Geräten (Desktop, Mobiltelefon, Tablet) anzeigen, indem Sie auf das entsprechende Symbol in der oberen rechten Ecke klicken.
 
    ![](assets/preview.png)
 
