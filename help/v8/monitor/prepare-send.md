@@ -3,10 +3,10 @@ audience: end-user
 title: Vorbereiten und Senden einer E-Mail
 description: Erfahren Sie, wie Sie eine E-Mail mit der Web-Benutzeroberfläche von Campaign vorbereiten und senden.
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+source-git-commit: 1a7ed05b974e72b76cf8a48e36ae86bd166db048
 workflow-type: tm+mt
-source-wordcount: '546'
-ht-degree: 100%
+source-wordcount: '648'
+ht-degree: 91%
 
 ---
 
@@ -72,6 +72,22 @@ Nachdem die Vorbereitung fehlerfrei abgeschlossen wurde, kann Ihre Nachricht ges
 
 ## Senden einer Nachricht{#send}
 
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_metrics_delivered"
+>title="Zugestellt"
+>abstract="Die Anzahl der erfolgreich zugestellten Nachrichten. Dieser Indikator wird alle 5 Minuten aktualisiert. Der angezeigte Prozentsatz bezieht sich auf die Gesamtzahl der gesendeten Nachrichten."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_metrics_opens"
+>title="Öffnungen"
+>abstract="Die Anzahl der geöffneten Nachrichten. Dieser Indikator wird alle 5 Minuten aktualisiert. Der angezeigte Prozentsatz ist das Verhältnis zwischen der Anzahl der Einzelöffnungen und der Anzahl der zugestellten Nachrichten."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_metrics_clicks"
+>title="Klicks"
+>abstract="Die Anzahl der Empfänger, die mindestens einmal in der E-Mail geklickt haben. Dieser Indikator wird alle 5 Minuten aktualisiert. Der angezeigte Prozentsatz ist das Verhältnis der Anzahl der eindeutigen Klicks im Vergleich zur Anzahl der zugestellten Nachrichten."
+
+
 Nachdem die Vorbereitung abgeschlossen ist, können Sie Ihre Nachricht senden. Dieser Schritt ist nur für Nachrichten erforderlich, die sofort gesendet werden. Wenn die Nachricht terminiert ist, wird sie zum festgelegten Datum gesendet.
 
 Führen Sie folgende Schritte aus:
@@ -92,6 +108,6 @@ Führen Sie folgende Schritte aus:
 
    >[!NOTE]
    >
-   >Die Indikatoren **Öffnungen** und **Klicks** werden nach 5 Minuten aktualisiert.
+   >Alle Indikatoren werden alle 5 Minuten nach dem Versandstart aktualisiert. Die Indikatoren für die Versandvorbereitung sind in Echtzeit.
 
    Sie können den Versand jederzeit unterbrechen und später fortsetzen. Wenn Sie den Versand stoppen, während er durchgeführt wird, können Sie ihn nicht mehr fortsetzen.
