@@ -4,9 +4,9 @@ title: Versionshinweise zu Campaign Web v8
 description: Versionshinweise zu Campaign Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 source-git-commit: 5b552f038413cc2624adef6c76d3f69d56eb18ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '412'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -62,14 +62,14 @@ Bestehende Campaign-Benutzende sollten beachten, dass einige Konzepte entspreche
 
 ## Einschränkungen{#limitations-alpha}
 
-Einige wichtige Campaign-Funktionen, wie z. B. kanalübergreifende Kampagnen und Workflow-Management, stehen ab der Beta-Version zur Verfügung.
+Einige wichtige Funktionen von Campaign, wie z. B. kanalübergreifende Kampagnen und Workflow-Management, stehen ab der Beta-Version zur Verfügung.
 
-Die folgenden Einschränkungen gelten für diese Alpha-Version:
+Für diese Alpha-Version gelten die folgenden Einschränkungen:
 
-* Die einzigen bearbeitbaren Objekte sind Sendungen. Die anderen sind schreibgeschützt. Verwenden Sie Filter, um sie alle zu durchsuchen.
-* Diese Version wurde für eine der E-Mail-Kampagnen entwickelt. Andere Kanäle werden noch nicht unterstützt.
-* Die Benutzeroberfläche &quot;Administration&quot;ist nicht verfügbar.
-* Berichtsmetriken (wie Öffnungen und Tracking-Daten) werden stündlich aktualisiert.
-* Die KPIs des Versand-Dashboards werden alle 5 Minuten aktualisiert. - aber die Versandvorbereitung in Echtzeit erfolgt.
-* Adobe Experience Cloud-Benachrichtigungen und die in der Symbolleiste verfügbare einheitliche Hilfe sind noch nicht integriert.
+* Die einzigen bearbeitbaren Objekte sind Sendungen. Alle weiteren sind schreibgeschützt. Verwenden Sie Filter, um alle zu durchsuchen.
+* Diese Version wurde für gelegentliche E-Mail-Kampagnen entwickelt. Andere Kanäle werden noch nicht unterstützt.
+* Die Benutzeroberfläche „Administration“ ist nicht verfügbar.
+* Reporting-Metriken (wie Öffnungen und Tracking-Daten) werden stündlich aktualisiert.
+* Die KPIs im Versand-Dashboard werden alle 5 Minuten aktualisiert. – aber die Versandvorbereitung erfolgt in Echtzeit.
+* Benachrichtigungen von Adobe Experience Cloud und die in der Symbolleiste verfügbare einheitliche Hilfe sind noch nicht integriert.
 
