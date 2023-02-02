@@ -4,9 +4,9 @@ title: Erkunden der Benutzeroberfläche
 description: Web-Benutzeroberfläche von Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 source-git-commit: 86b4b26ffcb5c8a43f3c91be02fc0fb72253cbbe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1301'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -178,7 +178,7 @@ Darüber hinaus ist ein Onboarding-Handbuch verfügbar, das Ihnen bei den ersten
 
 ## Unterstützte Browser {#browsers}
 
-Campaign v8 Web ist so konzipiert, dass es in der neuesten Version von Google Chrome, Safari und Microsoft Edge optimal funktioniert. Bei der Verwendung bestimmter Funktionen in älteren Versionen oder anderen Browsern kann es zu Problemen kommen.
+Campaign v8 Web ist so konzipiert, dass es mit den neuesten Versionen von Google Chrome, Safari und Microsoft Edge optimal funktioniert. Bei der Verwendung bestimmter Funktionen in älteren Versionen oder anderen Browsern können Probleme auftreten.
 
 ## Sprachvoreinstellungen {#language-pref}
 
@@ -187,20 +187,20 @@ Campaign v8 Web ist derzeit in den folgenden Sprachen verfügbar:
 <table>
 <tr>
 <td>
-<p>Englisch (US) - EN-US</p>
-<p>Französisch - FR</p>
-<p>Deutsch - DE</p>
-<p>Italienisch - IT</p>
+<p>Englisch (US) – EN-US</p>
+<p>Französisch – FR</p>
+<p>Deutsch – DE</p>
+<p>Italienisch – IT</p>
 </td>
 <td>
-<p>Spanisch - ES</p>
-<p>Portugiesisch (Brasilianisch) - PTBR</p>
-<p>Japanisch - JP</p>
+<p>Spanisch – ES</p>
+<p>Portugiesisch (Brasilianisch) – PTBR</p>
+<p>Japanisch – JP</p>
 </td>
 <td>
-<p>Koreanisch - KR</p>
-<p>Vereinfachtes Chinesisch - CHS</p>
-<p>Traditionelles Chinesisch - CHT</p>
+<p>Koreanisch – KR</p>
+<p>Vereinfachtes Chinesisch – CHS</p>
+<p>Traditionelles Chinesisch – CHT</p>
 </td>
 </tr>
 </table>
@@ -217,7 +217,7 @@ So ändern Sie Ihre Sprache:
 
    ![](assets/preferences2.png)
 
-1. Wählen Sie Ihre bevorzugte Sprache aus und klicken Sie auf **Speichern**. Sie können eine zweite Sprache auswählen, falls die von Ihnen verwendete Komponente nicht in Ihrer Muttersprache lokalisiert ist.
+1. Wählen Sie Ihre bevorzugte Sprache aus und klicken Sie auf **Speichern**. Sie können eine zweite Sprache auswählen, falls die von Ihnen verwendete Komponente nicht in Ihrer gewählten Sprache lokalisiert ist.
 
    ![](assets/select-language.png)
 
