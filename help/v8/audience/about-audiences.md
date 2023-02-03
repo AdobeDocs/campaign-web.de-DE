@@ -4,7 +4,7 @@ title: Erste Schritte mit Audiences
 description: Erfahren Sie, wie Sie Audiences in der Web-Benutzeroberfläche von Campaign verwenden.
 exl-id: 21bb5082-82ce-47d6-a4d4-becf44490f13
 source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '121'
 ht-degree: 100%
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card2"
 >title="Erste Schritte mit Audiences"
->abstract="Erfahren Sie, wie Sie die Audience für Ihren E-Mail-Inhalt verwalten."
+>abstract="Hier wird beschrieben, wie man Audiences für den E-Mail-Inhalt verwaltet."
 
 <!--
 Audience only created for the delivery, not available later-->

@@ -4,7 +4,7 @@ title: Senden Ihrer ersten E-Mail
 description: Erfahren Sie, wie Sie Ihre erste E-Mail mit der Web-Benutzeroberfläche von Campaign senden.
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1244'
 ht-degree: 100%
 
@@ -62,8 +62,8 @@ Die E-Mail basiert auf einer vordefinierten Design-Vorlage und enthält auch per
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card3"
->title="Erfahren Sie, wie Sie E-Mail-Inhalte erstellen"
->abstract="Erfahren Sie, wie Sie den E-Mail-Designer verwenden."
+>title="So entwirft man man E-Mail-Inhalte"
+>abstract="Hier wird beschrieben, wie man Audiences für den Email Designer verwendet."
 
 In diesem Anwendungsfall verwenden Sie eine vordefinierte Vorlage, um eine E-Mail zu erstellen.
 

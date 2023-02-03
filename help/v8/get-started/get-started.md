@@ -4,7 +4,7 @@ title: Erste Schritte mit Campaign v8 Web
 description: Erste Schritte mit Campaign v8 Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 source-git-commit: a59c133254632c49618fae6ad3d61a2f6e0a1eea
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '401'
 ht-degree: 100%
 
@@ -22,7 +22,7 @@ only existing customers
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card1"
 >title="Erste Schritte"
->abstract="Entdecken Sie wichtige Funktionen, die Benutzeroberfläche und globale Richtlinien."
+>abstract="Hier kann man die wichtigsten Funktionen, die Benutzeroberfläche und die globalen Richtlinien kennenlernen."
 
 >[!NOTE]
 >

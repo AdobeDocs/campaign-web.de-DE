@@ -17,7 +17,7 @@ ht-degree: 91%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card5"
 >title="Vorbereiten und Senden einer E-Mail"
->abstract="Erfahren Sie, wie Sie Ihre E-Mail vorbereiten und Versand-KPIs nutzen."
+>abstract="Hier wird beschrieben, wie man eine E-Mail vorbereitet und Versand-KPIs nutzt."
 
 <!--
 
