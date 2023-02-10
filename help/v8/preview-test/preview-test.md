@@ -3,8 +3,8 @@ audience: end-user
 title: Über die E-Mail-Vorschau und Tests
 description: Erfahren Sie, wie Sie E-Mails in der Vorschau anzeigen und testen können.
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
-source-git-commit: d305cc7055008ecf25e41a51fabe1e5ece683b72
-workflow-type: ht
+source-git-commit: 4332facf1b7853cb36c9de752ff48bb68e97d6e0
+workflow-type: tm+mt
 source-wordcount: '110'
 ht-degree: 100%
 
@@ -18,10 +18,10 @@ Bevor Sie eine E-Mail versenden, sollten Sie ihren Inhalt überprüfen und teste
 
 Dazu bietet Adobe Campaign folgende Möglichkeiten:
 
-* [Vorschau des E-Mail-Inhalts und der Personalisierung](#preview),
+* [Vorschau des E-Mail-Inhalts und der Personalisierung](preview-content.md),
 
 <!--* [Check the email rendering](#rendering) in popular desktop, mobile and web-based clients,-->
-* [Senden Sie Test-E-Mails](#send-proofs) an bestimmte Empfängerinnen und Empfänger zu Test- und Validierungszwecken.
+* [Senden Sie Test-E-Mails](proofs.md) an bestimmte Empfängerinnen und Empfänger zu Test- und Validierungszwecken.
 
 Diese Aktionen können Sie über die Schaltfläche **[!UICONTROL Inhalt simulieren]** ausführen, auf die Sie über den E-Mail-Designer bei der Erstellung des Inhalts Ihrer E-Mail zugreifen können:
 
