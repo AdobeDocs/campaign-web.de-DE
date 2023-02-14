@@ -4,7 +4,7 @@ title: Testen des E-Mail-Rendering
 description: Erfahren Sie, wie Sie Ihr E-Mail-Rendering in der Web-Benutzeroberfläche von Campaign testen können.
 exl-id: 5cdbce8b-3969-470d-8019-1edc58433146
 source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '159'
 ht-degree: 100%
 

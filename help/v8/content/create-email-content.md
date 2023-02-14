@@ -4,7 +4,7 @@ title: Entwerfen von E-Mails in E-Mail-Designer
 description: Erfahren Sie, wie Sie Ihre E-Mail-Inhalte von Grund auf neu gestalten
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
 source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '503'
 ht-degree: 100%
 

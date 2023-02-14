@@ -4,7 +4,7 @@ title: Bearbeiten des E-Mail-Inhalts
 description: Erfahren Sie, wie Sie den E-Mail-Inhalt in der Web-Benutzeroberfläche von Campaign bearbeiten können
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 100%
 
