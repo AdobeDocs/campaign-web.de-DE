@@ -5,8 +5,8 @@ description: Erfahren Sie, wie Sie eine E-Mail mit der Web-Benutzeroberfläche v
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
 source-git-commit: 1a7ed05b974e72b76cf8a48e36ae86bd166db048
 workflow-type: tm+mt
-source-wordcount: '648'
-ht-degree: 91%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 91%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card5"
 >title="Vorbereiten und Senden einer E-Mail"
->abstract="Hier wird beschrieben, wie man eine E-Mail vorbereitet und Versand-KPIs nutzt."
+>abstract="Einführung in die Vorbereitung einer E-Mails und Versand-KPIs."
 
 <!--
 

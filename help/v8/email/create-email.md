@@ -5,8 +5,8 @@ description: Erfahren Sie, wie Sie Ihre erste E-Mail mit der Web-Benutzeroberfl�
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 source-git-commit: 4332facf1b7853cb36c9de752ff48bb68e97d6e0
 workflow-type: tm+mt
-source-wordcount: '1244'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -62,8 +62,8 @@ Die E-Mail basiert auf einer vordefinierten Design-Vorlage und enthält auch per
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card3"
->title="So entwirft man man E-Mail-Inhalte"
->abstract="Hier wird beschrieben, wie man Audiences für den Email Designer verwendet."
+>title="Entwerfen von E-Mail-Inhalten"
+>abstract="Einführung in die Verwendung von E-Mail-Designer."
 
 In diesem Anwendungsfall verwenden Sie eine vordefinierte Vorlage, um eine E-Mail zu erstellen.
 

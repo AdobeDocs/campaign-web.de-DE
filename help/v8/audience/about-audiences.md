@@ -5,8 +5,8 @@ description: Erfahren Sie, wie Sie Audiences in der Web-Benutzeroberfläche von 
 exl-id: 21bb5082-82ce-47d6-a4d4-becf44490f13
 source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
-source-wordcount: '121'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card2"
 >title="Erste Schritte mit Audiences"
->abstract="Hier wird beschrieben, wie man Audiences für den E-Mail-Inhalt verwaltet."
+>abstract="Einführung in die Verwaltung der Audience für E-Mail-Inhalt."
 
 <!--
 Audience only created for the delivery, not available later-->
