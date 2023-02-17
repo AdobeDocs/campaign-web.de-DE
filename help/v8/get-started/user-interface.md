@@ -3,10 +3,10 @@ audience: end-user
 title: Erkunden der Benutzeroberfläche
 description: Web-Benutzeroberfläche von Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: d063c6757881b7793c8d399de42fde8423f44cdc
+source-git-commit: 948dff92b8b98a97d760158f126d8f2262d934fb
 workflow-type: tm+mt
-source-wordcount: '1309'
-ht-degree: 99%
+source-wordcount: '1322'
+ht-degree: 98%
 
 ---
 
@@ -238,10 +238,24 @@ Adobe Campaign interface is designed to work optimally in the latest version of 
 >[!CONTEXTUALHELP]
 >id="acw_sms_report_overview"
 >title="Zusammenfassung des SMS-Berichts"
->abstract="TBC"
+>abstract="Noch nicht definiert"
 
 >[!CONTEXTUALHELP]
 >id="acw_push_report_overview"
 >title="Zusammenfassung des Push-Berichts"
->abstract="TBC"
+>abstract="Noch nicht definiert"
 
+>[!CONTEXTUALHELP]
+>id="acw_import_from_a_file"
+>title="Import einer Audience aus einer Datei"
+>abstract="Noch nicht definiert"
+
+>[!CONTEXTUALHELP]
+>id="acw_import_from_a_file_formatting"
+>title="Formateinstellungen"
+>abstract="Noch nicht definiert"
+
+>[!CONTEXTUALHELP]
+>id="acw_import_from_a_file_columns"
+>title="Spalteneinstellungen"
+>abstract="Noch nicht definiert"
