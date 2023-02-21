@@ -4,7 +4,7 @@ title: Versandberichte
 description: Erfahren Sie, wie Sie auf Vesandberichte zugreifen und diese verwenden können
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
 source-git-commit: a915902b6a4c5423492e87718681e783554fbc01
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '385'
 ht-degree: 100%
 

@@ -4,7 +4,7 @@ title: Senden von Test-E-Mails
 description: Erfahren Sie, wie Sie Test-E-Mails definieren und senden
 exl-id: b2677579-c95d-443d-b207-466af364c208
 source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '537'
 ht-degree: 100%
 

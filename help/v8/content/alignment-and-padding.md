@@ -4,7 +4,7 @@ title: Vertikale Ausrichtung und Abstand in E-Mail-Designer anpassen
 description: Erfahren Sie, wie Sie die senkrechte Ausrichtung und den Abstand anpassen.
 exl-id: 32e613e4-60ce-43b4-90a6-794af0e3976b
 source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 100%
 
