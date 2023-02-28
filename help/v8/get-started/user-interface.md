@@ -4,9 +4,9 @@ title: Erkunden der Benutzeroberfläche
 description: Web-Benutzeroberfläche von Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 source-git-commit: 050d97695dd2012644af4a35eca3e6cd9f5f02af
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1326'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
