@@ -4,9 +4,9 @@ title: Vorbereiten und Senden einer E-Mail
 description: Erfahren Sie, wie Sie eine E-Mail mit der Web-Benutzeroberfläche von Campaign vorbereiten und senden.
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
 source-git-commit: 1a7ed05b974e72b76cf8a48e36ae86bd166db048
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '648'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -85,7 +85,7 @@ Nachdem die Vorbereitung fehlerfrei abgeschlossen wurde, kann Ihre Nachricht ges
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_clicks"
 >title="Klicks"
->abstract="Die Anzahl der Empfänger, die mindestens einmal in der E-Mail geklickt haben. Dieser Indikator wird alle 5 Minuten aktualisiert. Der angezeigte Prozentsatz ist das Verhältnis der Anzahl der eindeutigen Klicks im Vergleich zur Anzahl der zugestellten Nachrichten."
+>abstract="Die Anzahl der Empfangenden, die mindestens einmal auf die E-Mail geklickt haben. Dieser Indikator wird alle 5 Minuten aktualisiert. Der angezeigte Prozentsatz ist das Verhältnis der Anzahl der eindeutigen Klicks im Vergleich zur Anzahl der zugestellten Nachrichten."
 
 
 Nachdem die Vorbereitung abgeschlossen ist, können Sie Ihre Nachricht senden. Dieser Schritt ist nur für Nachrichten erforderlich, die sofort gesendet werden. Wenn die Nachricht terminiert ist, wird sie zum festgelegten Datum gesendet.
