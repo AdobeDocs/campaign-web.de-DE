@@ -4,7 +4,7 @@ title: Erkunden der Benutzeroberfläche
 description: Web-Benutzeroberfläche von Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 source-git-commit: 050d97695dd2012644af4a35eca3e6cd9f5f02af
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1326'
 ht-degree: 100%
 
@@ -168,7 +168,7 @@ Sie können Elemente in der Liste sortieren, indem Sie auf eine beliebige Spalte
 
 ## Kontextuelle Hilfe und Onboarding-Handbuch
 
-Eine kontextuelle Hilfe ist in der Benutzeroberfläche verfügbar. Wenn verfügbar, klicken Sie auf das Symbol **?**, um Hilfeinformationen und zugehörige Dokumentations-Links anzuzeigen.
+Eine kontextuelle Hilfe ist in der Benutzeroberfläche verfügbar. Sofern verfügbar, auf das Symbol **?** klicken, um Hilfeinformationen und Links zur zugehörigen Dokumentation anzuzeigen.
 
 ![](assets/context-help.png){width="70%" align="left"}
 
