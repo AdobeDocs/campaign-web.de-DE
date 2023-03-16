@@ -6,7 +6,7 @@ exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 source-git-commit: 773d15912aba9804cbd1ad681f7c02a7433ffa66
 workflow-type: tm+mt
 source-wordcount: '1292'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -32,9 +32,9 @@ Die E-Mail basiert auf einer vordefinierten Design-Vorlage und enthält auch per
 >title="E-Mail-Eigenschaften"
 >abstract="Die Eigenschaften sind die üblichen Versandparameter, nach denen Sie Ihren Versand benennen und klassifizieren können. Wenn Ihr Versand auf einem erweiterten Schema basiert, das in der Adobe Campaign v8-Konsole definiert ist, stehen einige **benutzerdefinierte Optionen** zur Verfügung."
 
-1. Um einen neuen Versand zu erstellen, navigieren Sie zum **[!UICONTROL Sendungen]** in der linken Leiste auf und klicken Sie auf das  **[!UICONTROL Versand erstellen]** Schaltfläche.
+1. Um einen neuen Versand zu erstellen, navigieren Sie zum Menü **[!UICONTROL Sendungen]** in der linken Leiste und klicken Sie auf die Schaltfläche **[!UICONTROL Versand erstellen]**.
 
-1. Auswählen **[!UICONTROL Email]** als Kanal verwenden und eine Vorlage auswählen.
+1. Wählen Sie **[!UICONTROL E-Mail]** als Kanal und eine Vorlage aus.
 
    >[!NOTE]
    >
@@ -42,8 +42,8 @@ Die E-Mail basiert auf einer vordefinierten Design-Vorlage und enthält auch per
 
    ![](assets/channel-template.png)
 
-1. Klicken Sie auf **[!UICONTROL Versand erstellen]** zur Bestätigung.
-1. Benennen Sie den Versand und konfigurieren Sie je nach Bedarf zusätzliche Optionen:
+1. Klicken Sie zur Bestätigung auf **[!UICONTROL Versand erstellen]**.
+1. Geben Sie einen Titel für den Versand ein und konfigurieren Sie zusätzliche Optionen entsprechend Ihren Anforderungen:
 
    * **[!UICONTROL Interner Name]**: Weisen Sie dem Versand eine eindeutige Kennung zu,
    * **[!UICONTROL Ordner]**: Speichern Sie den Versand in einem bestimmten Ordner,
@@ -70,7 +70,7 @@ Detaillierte Informationen zur Konfiguration von E-Mail-Inhalten finden Sie in [
 
 In diesem Anwendungsfall verwenden Sie eine vordefinierte Vorlage, um eine E-Mail zu erstellen.
 
-1. Um mit der Erstellung des E-Mail-Inhalts zu beginnen, öffnen Sie den E-Mail-Versand und klicken Sie auf die Schaltfläche **[!UICONTROL Inhalt bearbeiten]** Schaltfläche.
+1. Um mit der Erstellung des E-Mail-Inhalts zu beginnen, öffnen Sie den E-Mail-Versand und klicken Sie auf die Schaltfläche **[!UICONTROL Inhalt bearbeiten]**.
 
    Dies führt Sie zu einer speziellen Oberfläche, auf der Sie den Inhalt der E-Mail konfigurieren und mit dem E-Mail-Designer gestalten können.
 
@@ -80,7 +80,7 @@ In diesem Anwendungsfall verwenden Sie eine vordefinierte Vorlage, um eine E-Mai
 
    ![](assets/subject-line.png)
 
-1. Um den Inhalt der E-Mail zu erstellen, klicken Sie auf die Schaltfläche **[!UICONTROL Bearbeiten des E-Mail-Hauptteils]** Schaltfläche.
+1. Um den Inhalt der E-Mail zu gestalten, klicken Sie auf die Schaltfläche **[!UICONTROL E-Mail-Textkörper bearbeiten]**.
 
    Wählen Sie die Methode zur Erstellung des Inhalts Ihrer E-Mail aus. Verwenden Sie in diesem Beispiel eine vordefinierte Design-Vorlage.
 
@@ -136,9 +136,9 @@ In diesem Anwendungsbeispiel senden Sie die E-Mail an eine bestehende Audience. 
 >title="Terminieren des Versands"
 >abstract="Definieren Sie das Datum und die genaue Uhrzeit für Ihren Versand. Indem Sie den günstigsten Zeitpunkt für Ihre Werbenachricht wählen, maximieren Sie die Öffnungsraten."
 
-Um den Versand der E-Mail zu planen, öffnen Sie den E-Mail-Versand und navigieren Sie zum **Zeitplan** Abschnitt. Verwenden Sie die **[!UICONTROL Zeitplan aktivieren]** aktivieren und das gewünschte Datum und die gewünschte Uhrzeit für den Versand festlegen. Nach dem Versand beginnt der eigentliche Versand am von Ihnen definierten Kontaktdatum.
+Um den Versand der E-Mail zu planen, öffnen Sie den E-Mail-Versand und navigieren Sie zum Abschnitt **Zeitplan**. Verwenden Sie den Umschalter **[!UICONTROL Zeitplan aktivieren]**, um ihn zu aktivieren, und legen Sie das gewünschte Datum und die gewünschte Uhrzeit für den Versand fest. Nach dem Versand beginnt der eigentliche Versand am von Ihnen definierten Kontaktdatum.
 
-Standardmäßig wird die **[!UICONTROL Vor dem Senden Bestätigung aktivieren]** aktiviert ist. Für diese Option müssen Sie den Versand bestätigen, bevor die E-Mail zum geplanten Datum und zur geplanten Uhrzeit gesendet wird. Wenn Sie die E-Mail automatisch am geplanten Datum und zur geplanten Uhrzeit senden müssen, können Sie diese Option deaktivieren.
+Standardmäßig ist die Option **[!UICONTROL Bestätigung vor dem Senden aktivieren]** aktiviert. Für diese Option müssen Sie den Versand bestätigen, bevor die E-Mail zum geplanten Zeitpunkt gesendet wird. Wenn Sie die E-Mail automatisch zum geplanten Zeitpunkt versenden müssen, können Sie diese Option deaktivieren.
 
 ![](assets/schedule.png)
 
@@ -150,7 +150,7 @@ In diesem Anwendungsbeispiel sehen Sie sich die E-Mail-Vorschau an und senden Te
 
 Weitere Informationen zum Anzeigen einer Vorschau und zum Testen von E-Mails finden Sie in [diesem Abschnitt](../preview-test/preview-test.md).
 
-1. Um Ihre E-Mail zu überprüfen, klicken Sie auf **[!UICONTROL Überprüfen und Senden]**. Daraufhin wird eine Vorschau Ihrer E-Mail angezeigt, einschließlich der konfigurierten Eigenschaften, der Audience und des Zeitplans. Sie können jedes dieser Elemente bearbeiten, indem Sie auf die Schaltfläche „Ändern“ klicken.
+1. Um Ihre E-Mail zu überprüfen, klicken Sie auf **[!UICONTROL Überprüfen und senden]**. Daraufhin wird eine Vorschau Ihrer E-Mail angezeigt, einschließlich der konfigurierten Eigenschaften, der Audience und des Zeitplans. Sie können jedes dieser Elemente bearbeiten, indem Sie auf die Schaltfläche „Ändern“ klicken.
 
 1. Um eine Vorschau der E-Mail anzuzeigen und Testversionen zu senden, klicken Sie auf die Schaltfläche **[!UICONTROL Inhalt simulieren]**.
 
