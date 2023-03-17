@@ -102,12 +102,12 @@ In diesem Anwendungsfall verwenden Sie eine vordefinierte Vorlage, um eine E-Mai
 
    ![](assets/save-content.png)
 
-## Definieren der Audience {#define-audience}
+## Audience definieren {#define-audience}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience"
->title="Definieren der Audience"
->abstract="Wählen Sie die beste Audience für Ihre Marketing-Nachricht aus. Sie können eine bestehende Audience auswählen, die bereits in einer Campaign v8-Instanz oder in Adobe Experience Platform definiert ist, oder Sie können mit dem Regel-Builder eine neue Audience erstellen."
+>title="Audience definieren"
+>abstract="Die optimale Audience für Marketing-Nachrichten auswählen. Eine bestehende Audience auswählen, die bereits in einer Campaign v8-Instanz oder in Adobe Experience Platform definiert ist oder mit dem Regel-Builder eine neue Audience erstellen."
 
 In diesem Anwendungsbeispiel senden Sie die E-Mail an eine bestehende Audience. Weitere Anweisungen zur Verwendung von Audiences finden Sie in [diesem Abschnitt](../audience/about-audiences.md).
 
