@@ -3,10 +3,10 @@ audience: end-user
 title: Erkunden der Benutzeroberfläche
 description: Web-Benutzeroberfläche von Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 050d97695dd2012644af4a35eca3e6cd9f5f02af
+source-git-commit: a61b1322ef277ab1707ef8f81009e3d344b1fd5a
 workflow-type: tm+mt
-source-wordcount: '1326'
-ht-degree: 100%
+source-wordcount: '1339'
+ht-degree: 99%
 
 ---
 
@@ -263,4 +263,19 @@ Adobe Campaign interface is designed to work optimally in the latest version of 
 >[!CONTEXTUALHELP]
 >id="acw_push_notification_template"
 >title="Vorlage für Push-Benachrichtigungen"
+>abstract="Noch nicht definiert"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_creation_properties"
+>title="Eigenschaften zur Kampagnenerstellung"
+>abstract="Noch nicht definiert"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_creation_schedule"
+>title="Kampagnenerstellungsplan"
+>abstract="Noch nicht definiert"
+
+>[!CONTEXTUALHELP]
+>id="acw_rulebuilder_properties_advanced"
+>title="Erweiterte Attribute von Rule Builder"
 >abstract="Noch nicht definiert"
