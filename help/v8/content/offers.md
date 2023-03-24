@@ -3,26 +3,16 @@ audience: end-user
 title: Senden von Angeboten
 description: Senden von Angeboten
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+source-git-commit: 4faf949f061f62accc80b5e11f99318c18f59d2e
 workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 100%
+source-wordcount: '521'
+ht-degree: 99%
 
 ---
 
 # Senden von Angeboten {#offers-content}
 
 ![](../assets/do-not-localize/badge.png)
-
->[!CONTEXTUALHELP]
->id="acw_deliveries_email_offers_settings"
->title="Angebotseinstellungen"
->abstract="TBC"
-
->[!CONTEXTUALHELP]
->id="acw_deliveries_email_offers_advanced_settings"
->title="Erweiterte Einstellungen für Angebote"
->abstract="TBC"
 
 Adobe Campaign v8 Web ermöglicht es Ihnen, mit Ihren E-Mails Angebote zu senden, die in der Konsole mithilfe des Moduls **[!UICONTROL Interaction]** erstellt wurden. Weitere Informationen zu Interaction und zur Verwaltung eines Angebotskatalogs in der Konsole finden Sie in der [Dokumentation zu Campaign V8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=de){target="_blank"}.
 
@@ -32,6 +22,16 @@ Die wichtigsten Schritte zum Senden von Angeboten mit einer E-Mail sind:
 1. [Angebote in E-Mail einfügen](#insert).
 
 ## Zu unterbreitende Angebote konfigurieren {#configure}
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_offers_settings"
+>title="Angebotseinstellungen"
+>abstract="Konfigurieren Sie, welche Angebote den Empfängerinnen und Empfängern unterbreitet werden sollen."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_offers_advanced_settings"
+>title="Erweiterte Einstellungen für Angebote"
+>abstract="Konfigurieren Sie erweiterte Optionen für Angebote."
 
 1. Um die Angebote auszuwählen, die in Ihrer E-Mail unterbreitet werden sollen, klicken Sie auf die Schaltfläche **[!UICONTROL Angebote]** auf dem Bildschirm zur Bearbeitung des E-Mail-Inhalts.
 

@@ -3,10 +3,10 @@ audience: end-user
 title: Bearbeiten des E-Mail-Inhalts
 description: Erfahren Sie, wie Sie den E-Mail-Inhalt in der Web-Benutzeroberfläche von Campaign bearbeiten können
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+source-git-commit: 4faf949f061f62accc80b5e11f99318c18f59d2e
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '384'
+ht-degree: 84%
 
 ---
 
@@ -22,17 +22,17 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_header"
 >title="E-Mail-Kopfzeile"
->abstract="TBC"
+>abstract="In diesem Abschnitt können Sie die Werte &quot;Von Name&quot;und &quot;Von E-Mail&quot;steuern, die in der E-Mail-Vorlage definiert sind. Das Feld Betreffzeile kann mit dem Ausdruckseditor angepasst werden."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_attachment"
 >title="E-Mail-Anhang"
->abstract="TBC"
+>abstract="Wählen Sie eine oder mehrere Dateien aus, die Sie in Ihre Nachricht einfügen möchten."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_options"
 >title="Tracking-Optionen"
->abstract="TBC"
+>abstract="Standardmäßig ist für den Versand Tracking aktiviert. Sie können diese Option von hier aus deaktivieren."
 
 Um den Inhalt einer E-Mail zu erstellen, klicken Sie im E-Mail-Erstellungsbildschirm auf die Schaltfläche **[!UICONTROL Inhalt bearbeiten]**.
 
@@ -61,6 +61,6 @@ Gehen Sie wie folgt vor, um den Inhalt Ihrer E-Mail zu definieren:
 
    <!--limitation on size + number of files?-->
 
-1. Standardmäßig ist für den Versand Tracking aktiviert. Sie können diese Option über den Abschnitt **[!UICONTROL Optionale Funktionen]** deaktivieren. [Erfahren Sie, wie Sie Links hinzufügen und das Tracking verwalten](message-tracking.md)
+1. Standardmäßig ist für den Versand Tracking aktiviert. Sie können diese Option im **[!UICONTROL Optionale Funktionen]** Abschnitt. [Erfahren Sie, wie Sie Links hinzufügen und das Tracking verwalten](message-tracking.md)
 
 Nachdem Sie den Inhalt Ihrer E-Mail definiert haben, können Sie vor dem Versand mit der Schaltfläche **[!UICONTROL Inhalt simulieren]** überprüfen, wie die E-Mail dargestellt wird. [Erfahren Sie, wie Sie Ihre E-Mail in der Vorschau anzeigen und testen können](../preview-test/preview-test.md)

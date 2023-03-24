@@ -3,10 +3,10 @@ audience: end-user
 title: Einrichten einer Kontrollgruppe
 description: Erfahren Sie, wie Sie in der Web-Benutzeroberfläche von Campaign eine Kontrollgruppe für Ihre Nachrichten einrichten.
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+source-git-commit: 4faf949f061f62accc80b5e11f99318c18f59d2e
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '576'
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Um eine Kontrollgruppe zu erstellen, klicken Sie im Abschnitt **Audience** des A
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_controlgroup_target"
 >title="Aus Zielgruppe extrahieren"
->abstract="TBC"
+>abstract="Um eine Kontrollgruppe zu definieren, können Sie nach dem Zufallsprinzip oder basierend auf einer Sortierung einen Prozentsatz oder eine feste Anzahl von Profilen aus der Zielgruppe extrahieren."
 
 Um eine Kontrollgruppe zu definieren, können Sie nach dem Zufallsprinzip oder basierend auf einer Sortierung einen Prozentsatz oder eine feste Anzahl von Profilen aus der Zielgruppe extrahieren.
 
@@ -79,7 +79,7 @@ Weitere Informationen über Versandlogs finden Sie in [diesem Abschnitt](../moni
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_controlgroup_extra"
 >title="Zusätzliche Population"
->abstract="TBC"
+>abstract="Eine andere Möglichkeit, eine Kontrollgruppe zu definieren, besteht darin, eine bestimmte Population mithilfe einer bestehenden Audience oder durch Definieren einer Abfrage aus der Zielgruppe auszuschließen."
 
 Eine andere Möglichkeit, eine Kontrollgruppe zu definieren, besteht darin, eine bestimmte Population mithilfe einer bestehenden Audience oder durch Definieren einer Abfrage aus der Zielgruppe auszuschließen.
 
