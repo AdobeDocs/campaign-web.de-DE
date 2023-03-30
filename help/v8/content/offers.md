@@ -4,9 +4,9 @@ title: Senden von Angeboten
 description: Senden von Angeboten
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
 source-git-commit: 4faf949f061f62accc80b5e11f99318c18f59d2e
-workflow-type: ht
-source-wordcount: '521'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

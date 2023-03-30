@@ -4,7 +4,7 @@ title: Einrichten einer Kontrollgruppe
 description: Erfahren Sie, wie Sie in der Web-Benutzeroberfläche von Campaign eine Kontrollgruppe für Ihre Nachrichten einrichten.
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
 source-git-commit: 4faf949f061f62accc80b5e11f99318c18f59d2e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '576'
 ht-degree: 100%
 

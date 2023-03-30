@@ -5,8 +5,8 @@ description: Erfahren Sie, wie Sie den E-Mail-Inhalt in der Web-Benutzeroberflä
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 source-git-commit: b85bf75da466502e4579a061c02a2c4ce4361cd5
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 86%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -27,12 +27,12 @@ ht-degree: 86%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_attachment"
 >title="E-Mail-Anhang"
->abstract="Wählen Sie eine oder mehrere Dateien aus, die Sie in Ihre Nachricht einfügen möchten."
+>abstract="Wählen Sie eine oder mehrere Dateien aus, die Sie an Ihre Nachricht anfügen möchten."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_options"
 >title="Tracking-Optionen"
->abstract="Standardmäßig ist für den Versand Tracking aktiviert. Sie können diese Option von hier aus deaktivieren."
+>abstract="Standardmäßig ist für den Versand Tracking aktiviert. Sie können diese Option hier deaktivieren."
 
 Um den Inhalt einer E-Mail zu erstellen, klicken Sie im E-Mail-Erstellungsbildschirm auf die Schaltfläche **[!UICONTROL Inhalt bearbeiten]**.
 
@@ -61,6 +61,6 @@ Gehen Sie wie folgt vor, um den Inhalt Ihrer E-Mail zu definieren:
 
    <!--limitation on size + number of files?-->
 
-1. Standardmäßig ist für den Versand Tracking aktiviert. Sie können diese Option im **[!UICONTROL Optionale Funktionen]** Abschnitt. [Erfahren Sie, wie Sie Links hinzufügen und das Tracking verwalten](message-tracking.md)
+1. Standardmäßig ist für den Versand Tracking aktiviert. Sie können diese Option im Bereich **[!UICONTROL Optionale Funktionen]** deaktivieren. [Erfahren Sie, wie Sie Links hinzufügen und das Tracking verwalten](message-tracking.md)
 
 Nachdem Sie den Inhalt Ihrer E-Mail definiert haben, können Sie vor dem Versand mit der Schaltfläche **[!UICONTROL Inhalt simulieren]** überprüfen, wie die E-Mail dargestellt wird. [Erfahren Sie, wie Sie Ihre E-Mail in der Vorschau anzeigen und testen können](../preview-test/preview-test.md)
