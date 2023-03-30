@@ -4,9 +4,9 @@ title: Überwachen von Versandlogs
 description: Erfahren Sie, wie Sie Versandlogs überwachen
 exl-id: 2eb7457e-32f7-4729-99c8-91bf287f0192
 source-git-commit: 4faf949f061f62accc80b5e11f99318c18f59d2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '306'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 96%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_preparation_logs"
 >title="Versandlogs"
->abstract="Mithilfe der Versandlogs können Sie überprüfen, ob kein Fehler vorliegt."
+>abstract="Mithilfe der Versandlogs können Sie sicherstellen, dass kein Fehler vorliegt."
 
 Nach der Vorbereitung und dem Versand einer E-Mail können Sie mithilfe der Versandlogs sicherstellen, dass kein Fehler vorliegt. Diese Logs können direkt über das Nachrichten-Dashboard aufgerufen werden. In ihnen werden Details zum Versand dargestellt und Sie erfahren, welche Zielgruppe warum ausgeschlossen wurde, und erhalten Tracking-Informationen wie z. B. Öffnungen und Klicks.
 
