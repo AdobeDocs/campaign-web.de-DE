@@ -4,9 +4,9 @@ title: Erkunden der Benutzeroberfläche
 description: Web-Benutzeroberfläche von Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 source-git-commit: b51059b7fc5166dcd0218ae2b227ea9c703a65a5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1345'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -267,17 +267,17 @@ Adobe Campaign interface is designed to work optimally in the latest version of 
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_properties"
->title="Eigenschaften zur Kampagnenerstellung"
+>title="Kampagnenerstellungs-Eigenschaften"
 >abstract="Noch nicht definiert"
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_schedule"
->title="Kampagnenerstellungsplan"
+>title="Kampagnenerstellungs-Zeitplan"
 >abstract="Noch nicht definiert"
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_properties_advanced"
->title="Erweiterte Attribute von Rule Builder"
+>title="Erweiterte Attribute des Regel-Builders"
 >abstract="Noch nicht definiert"
 
 >[!CONTEXTUALHELP]
