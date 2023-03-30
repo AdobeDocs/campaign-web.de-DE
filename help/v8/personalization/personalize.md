@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
-source-git-commit: 85dd75a0b8e078a946e0ac140fa27d7232d03219
+source-git-commit: b85bf75da466502e4579a061c02a2c4ce4361cd5
 workflow-type: tm+mt
 source-wordcount: '652'
 ht-degree: 91%
@@ -82,7 +82,7 @@ Integrierte Inhaltsbausteine sind:
 * **[!UICONTROL Formatierungsfunktion für Eigennamen]**: Hiermit wird die JavaScript-Funktion **[!UICONTROL toSmartCase]** generiert, mit der der erste Buchstabe eines jeden Worts in einen Großbuchstaben umgewandelt wird.
 * **[!UICONTROL Grußformeln]**: fügt Grußformeln mit dem vollständigen Namen des Empfängers ein, gefolgt von einem Komma. Beispiel: &quot;Hallo John Doe,&quot;.
 * **[!UICONTROL Logo einfügen]**: Fügt ein Logo ein, das in den Instanzeinstellungen definiert ist.
-* **[!UICONTROL Mirrorseiten-Link]**[: Hiermit wird ein Link zur Mirrorseite eingefügt](mirror-page.md). Das Standardformat lautet: &quot;Wenn Sie diese Nachricht nicht richtig anzeigen können, klicken Sie hier&quot;.
+* **[!UICONTROL Mirrorseiten-Link]**[: Hiermit wird ein Link zur Mirrorseite eingefügt](../content/mirror-page.md). Das Standardformat lautet: &quot;Wenn Sie diese Nachricht nicht richtig anzeigen können, klicken Sie hier&quot;.
 * **[!UICONTROL Mirror-Seiten-URL]**: Hiermit wird die Mirror-Seiten-URL eingefügt, damit Versand-Designer den Link prüfen können.
 * **[!UICONTROL Annahme-URL eines Angebots im Einzelmodus]**: Hiermit wird eine URL eingefügt, die es ermöglicht, ein Angebot auf **[!UICONTROL Angenommen]** zu setzen. (Dieser Block ist verfügbar, wenn das Interaction-Modul aktiviert ist)
 * **[!UICONTROL Anmeldebestätigung]**: Hiermit wird ein Link eingefügt, mit dem die Anmeldung bestätigt werden kann.

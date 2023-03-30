@@ -3,10 +3,10 @@ audience: end-user
 title: Verfolgen von Nachrichten
 description: Erfahren Sie, wie Sie Links hinzufügen und gesendete Nachrichten verfolgen können.
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+source-git-commit: b85bf75da466502e4579a061c02a2c4ce4361cd5
 workflow-type: tm+mt
-source-wordcount: '548'
-ht-degree: 100%
+source-wordcount: '369'
+ht-degree: 93%
 
 ---
 
@@ -45,37 +45,7 @@ Gehen Sie wie folgt vor, um Links in Ihren E-Mail-Inhalt einzufügen:
 >
 >E-Mail-Nachrichten vom Typ Marketing müssen einen Ausschluss-Link enthalten, der für Transaktionsnachrichten nicht erforderlich ist. Die Nachrichten-Kategorie (**[!UICONTROL Marketing]** oder **[!UICONTROL Transaktion]**) wird auf Ebene der Kanal-Benutzeroberfläche (d. h. der Nachrichtenvoreinstellung) und beim Erstellen der Nachricht definiert.
 
-## Link zu einer Mirror-Seite {#mirror-page}
-
-Bei der Mirror-Seite handelt es sich um eine HTML-Seite, auf die online über einen Webbrowser zugegriffen werden kann. Ihr Inhalt ist identisch mit dem Inhalt Ihrer E-Mail.
-
-So fügen Sie in Ihrer E-Mail einen Link zu einer Mirror-Seite hinzu:
-
-1. Wählen Sie ein Element aus und klicken Sie in der kontextuellen Symbolleiste auf **[!UICONTROL Link einfügen]** from the contextual toolbar..
-
-   ![](assets/message-tracking-mirror-page.png)
-
-1. Wählen Sie das Symbol **[!UICONTROL Link einfügen]**, um auf das Personalisierungsmenü zuzugreifen.
-
-   ![](assets/message-tracking-mirror-page_2.png)
-
-1. Wählen Sie im Menü **[!UICONTROL Inhaltsbaustein]** die Option **[!UICONTROL URL der Mirror-Seite]** und klicken Sie auf **[!UICONTROL Hinzufügen]**.
-
-   ![](assets/message-tracking-mirror-page_3.png)
-
-Die Mirror-Seite wird automatisch erstellt.
-
->[!IMPORTANT]
->
->Links zu Mirror-Seiten werden automatisch generiert und können nicht bearbeitet werden. Sie enthalten alle verschlüsselten personalisierten Daten, die zum Rendern der ursprünglichen E-Mail erforderlich sind. Daher kann die Verwendung personalisierter Attribute mit großen Werten zu langen Mirror-Seiten-URLs führen, wodurch der Link in Webbrowsern mit einer maximalen URL-Länge eventuell nicht funktioniert.
-
-Wenn die Empfänger nach dem Versand der E-Mail auf den Link zur Mirror-Seite klicken, wird der Inhalt der E-Mail in ihrem Standard-Webbrowser angezeigt.
-
->[!NOTE]
->
->In der Test-E-Mail, die an die Testprofile gesendet wurde, ist der Link zur Mirror-Seite nicht aktiv. Er wird nur in den endgültigen Nachrichten aktiviert.
-
-Die Beibehaltungsdauer für eine Mirror-Seite beträgt 60 Tage. Nach dieser Verzögerung ist die Mirror-Seite nicht mehr verfügbar.
+In allen E-Mail-Nachrichten sollte ein spezifischer Link zur Mirrorseite hinzugefügt werden. Weitere Informationen zur Mirrorseite finden Sie unter [diesem Abschnitt](mirror-page.md).
 
 ## Verwalten von Tracking {#manage-tracking}
 

@@ -3,10 +3,10 @@ audience: end-user
 title: Bearbeiten des E-Mail-Inhalts
 description: Erfahren Sie, wie Sie den E-Mail-Inhalt in der Web-Benutzeroberfläche von Campaign bearbeiten können
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-source-git-commit: 4faf949f061f62accc80b5e11f99318c18f59d2e
+source-git-commit: b85bf75da466502e4579a061c02a2c4ce4361cd5
 workflow-type: tm+mt
-source-wordcount: '384'
-ht-degree: 84%
+source-wordcount: '376'
+ht-degree: 86%
 
 ---
 
@@ -21,8 +21,8 @@ ht-degree: 84%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_header"
->title="E-Mail-Kopfzeile"
->abstract="In diesem Abschnitt können Sie die Werte &quot;Von Name&quot;und &quot;Von E-Mail&quot;steuern, die in der E-Mail-Vorlage definiert sind. Das Feld Betreffzeile kann mit dem Ausdruckseditor angepasst werden."
+>title="E-Mail-Parameter"
+>abstract="Die Werte Von Name und Von E-Mail sind in der E-Mail-Vorlage definiert. Die Betreffzeile kann mit dem Ausdruckseditor personalisiert werden."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_attachment"
