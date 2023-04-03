@@ -4,22 +4,31 @@ title: Auswählen einer Audience
 description: Erfahren Sie, wie Sie eine Audience auswählen
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
 badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
+source-git-commit: cf94ea6f5bbb287c5cd56f5af023a40d1f8538d6
 workflow-type: tm+mt
-source-wordcount: '246'
-ht-degree: 98%
+source-wordcount: '272'
+ht-degree: 90%
 
 ---
 
 
-# Auswählen einer Audience {#add-audience}
+# Auswählen einer bestehenden Audience {#add-audience}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience_select"
 >title="Auswählen einer bestehenden Audience"
 >abstract="Die Audiences werden in der Adobe Campaign v8-Konsole definiert. Wenn Sie über eine Adobe Experience Platform-Integration verfügen, sollten Sie auch in Platform definierte Audiences anzeigen können."
 
-In diesem Abschnitt wird beschrieben, wie Sie bei der Definition der Zielgruppe eines E-Mail-Versands eine bestehende Audience auswählen. Weiterführende Informationen zur Erstellung einer neuen Audience finden Sie in [diesem Abschnitt](segment-builder.md).
+In diesem Abschnitt wird beschrieben, wie Sie bei der Definition der Zielgruppe eines E-Mail-Versands eine bestehende Audience auswählen.
+
+Außerdem haben Sie folgende Möglichkeiten:
+
+* Erstellen Sie eine neue Zielgruppe. [Weitere Informationen](segment-builder.md)
+* Import einer Audience aus einer Datei. [Weitere Informationen](import-audience.md)
+* Verwenden Sie eine Adobe Experience Platform-Zielgruppe. [Weitere Informationen](aep-audience.md).
+
+
+Gehen Sie wie folgt vor, um eine Audience für Ihre Nachricht auszuwählen:
 
 1. Klicken Sie im Abschnitt **Audience** des Assistenten zur Versanderstellung auf die Schaltfläche **[!UICONTROL Audience auswählen]**.
 
