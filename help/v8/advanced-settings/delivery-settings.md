@@ -3,16 +3,16 @@ audience: end-user
 title: E-Mail-Versandeinstellungen
 description: Erfahren Sie mehr über die Einstellungen für den E-Mail-Versand in der Web-Benutzeroberfläche von Campaign
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: b85bf75da466502e4579a061c02a2c4ce4361cd5
+badge: label="Alpha" type="Informative"
+source-git-commit: 5ae59f72739943a7073e7cbd0d4d8cec0b7eb7ee
 workflow-type: tm+mt
-source-wordcount: '1471'
+source-wordcount: '1473'
 ht-degree: 90%
 
 ---
 
-# E-Mail-Versandeinstellungen {#email-del-settings}
 
-![Alpha-Version](../assets/do-not-localize/badge.png)
+# E-Mail-Versandeinstellungen {#email-del-settings}
 
 Bei diesen Einstellungen handelt es sich um **technische Versandparameter**, die in der E-Mail-Vorlage definiert sind. Sie sind bei der Bearbeitung eines E-Mail-Versands über das Symbol **Versandeinstellungen konfigurieren** verfügbar.
 
