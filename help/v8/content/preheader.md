@@ -3,16 +3,15 @@ audience: end-user
 title: Hinzufügen eines Preheaders in E-Mail-Designer
 description: Erfahren Sie, wie Sie E-Mail-Inhalte erstellen
 exl-id: 8513b069-7155-45ac-8c98-38576c9ddeda
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+badge: label="Alpha" type="Informative"
+source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '217'
+ht-degree: 95%
 
 ---
 
-# Hinzufügen eines Preheaders {#preheader}
-
-![](../assets/do-not-localize/badge.png)
+# Einen Preheader zu einer E-Mail hinzufügen {#preheader}
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_preheader"

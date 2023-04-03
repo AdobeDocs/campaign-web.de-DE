@@ -3,16 +3,15 @@ audience: end-user
 title: Importieren Ihrer E-Mail-Inhalte
 description: Erfahren Sie, wie Sie E-Mail-Inhalte importieren
 exl-id: ef9c8e6f-f422-404e-9ebb-a89d1bd45e7f
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+badge: label="Alpha" type="Informative"
+source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
 workflow-type: tm+mt
-source-wordcount: '133'
-ht-degree: 100%
+source-wordcount: '137'
+ht-degree: 97%
 
 ---
 
 # Importieren Ihrer E-Mail-Inhalte {#existing-content}
-
-![](../assets/do-not-localize/badge.png)
 
 E-Mail-Designer ermöglicht den Import vorhandener HTML-Inhalte. Dieser Inhalt kann Folgendes sein:
 

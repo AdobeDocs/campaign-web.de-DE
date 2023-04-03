@@ -3,16 +3,15 @@ audience: end-user
 title: Erste Schritte mit E-Mail-Stil
 description: Hier erfahren Sie, wie Sie den Inhaltsstil Ihrer E-Mail anpassen können.
 exl-id: e0489dcc-32d9-4bee-8562-36a96e64e20b
-source-git-commit: 00e2f0bad4cb64e2142ad85947fd92ebebc20365
+badge: label="Alpha" type="Informative"
+source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
 workflow-type: tm+mt
-source-wordcount: '115'
-ht-degree: 100%
+source-wordcount: '119'
+ht-degree: 96%
 
 ---
 
 # Erste Schritte mit E-Mail-Stil {#get-started-email-style}
-
-![](../assets/do-not-localize/badge.png)
 
 Sobald Sie mit der Erstellung Ihres E-Mail-Inhalts in [!DNL Adobe Campaign] begonnen haben, können Sie eine Reihe von Stilparametern und Attributen im Einstellungsbereich von E-Mail-Designer anpassen.
 

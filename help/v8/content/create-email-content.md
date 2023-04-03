@@ -3,16 +3,15 @@ audience: end-user
 title: Entwerfen von E-Mails in E-Mail-Designer
 description: Erfahren Sie, wie Sie Ihre E-Mail-Inhalte von Grund auf neu gestalten
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+badge: label="Alpha" type="Informative"
+source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '510'
+ht-degree: 98%
 
 ---
 
-# Beginnen von Grund auf {#create-email-content}
-
-![](../assets/do-not-localize/badge.png)
+# E-Mail-Inhalt von Grund auf neu starten {#create-email-content}
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_email"

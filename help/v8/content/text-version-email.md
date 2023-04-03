@@ -3,16 +3,15 @@ audience: end-user
 title: Erstellen der Textversion einer E-Mail
 description: Erfahren Sie, wie Sie die Textversion einer E-Mail erstellen
 exl-id: 8d0ce346-64a6-4adf-9f2d-36a900db797f
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+badge: label="Alpha" type="Informative"
+source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
 workflow-type: tm+mt
-source-wordcount: '166'
-ht-degree: 100%
+source-wordcount: '170'
+ht-degree: 97%
 
 ---
 
 # Erstellen der Textversion einer E-Mail {#text-version-email}
-
-![](../assets/do-not-localize/badge.png)
 
 Es wird empfohlen, eine Textversion Ihres E-Mail-Textkörpers zu erstellen, die verwendet wird, wenn keine HTML-Inhalte angezeigt werden können.
 

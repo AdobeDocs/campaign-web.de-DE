@@ -3,16 +3,15 @@ audience: end-user
 title: Verfolgen von Nachrichten
 description: Erfahren Sie, wie Sie Links hinzufügen und gesendete Nachrichten verfolgen können.
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
-source-git-commit: b85bf75da466502e4579a061c02a2c4ce4361cd5
+badge: label="Alpha" type="Informative"
+source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
 workflow-type: tm+mt
-source-wordcount: '369'
-ht-degree: 93%
+source-wordcount: '373'
+ht-degree: 92%
 
 ---
 
 # Hinzufügen von Links und Verfolgen von Nachrichten {#tracking}
-
-![](../assets/do-not-localize/badge.png)
 
 Verwenden Sie E-Mail-Designer, um Links zu Ihrem Inhalt hinzuzufügen und die gesendeten Nachrichten zu verfolgen, um das Verhalten Ihrer Empfänger zu überwachen.
 

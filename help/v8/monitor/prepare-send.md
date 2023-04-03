@@ -3,16 +3,16 @@ audience: end-user
 title: Vorbereiten und Senden einer E-Mail
 description: Erfahren Sie, wie Sie eine E-Mail mit der Web-Benutzeroberfläche von Campaign vorbereiten und senden.
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
-source-git-commit: 1a7ed05b974e72b76cf8a48e36ae86bd166db048
+badge: label="Alpha" type="Informative"
+source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '652'
+ht-degree: 99%
 
 ---
 
-# Vorbereiten und Senden einer E-Mail {#prepare-send}
 
-![](../assets/do-not-localize/badge.png)
+# Vorbereiten und Senden einer E-Mail {#prepare-send}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card5"

@@ -2,17 +2,17 @@
 audience: end-user
 title: Erste Schritte mit Audiences
 description: Erfahren Sie, wie Sie Audiences in der Web-Benutzeroberfläche von Campaign verwenden.
+badge: label="Alpha" type="Informative"
 exl-id: 21bb5082-82ce-47d6-a4d4-becf44490f13
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '125'
+ht-degree: 96%
 
 ---
 
-# Erste Schritte mit Audiences {#about-audiences}
 
-![](../assets/do-not-localize/badge.png)
+# Erste Schritte mit Audiences {#about-audiences}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card2"

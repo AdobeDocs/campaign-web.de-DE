@@ -3,16 +3,16 @@ audience: end-user
 title: Definieren eines Stils für Links
 description: Erfahren Sie, wie Sie einen Stil für Links definieren
 exl-id: b4b79bd5-a96c-49ca-b3fe-95befef00dff
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+badge: label="Alpha" type="Informative"
+source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
 workflow-type: tm+mt
-source-wordcount: '140'
-ht-degree: 100%
+source-wordcount: '144'
+ht-degree: 97%
 
 ---
 
-# Definieren eines Stils für Links {#styling-links}
 
-![](../assets/do-not-localize/badge.png)
+# Definieren eines Stils für Links {#styling-links}
 
 Sie können in E-Mail-Designer einen Link unterstreichen und dessen Farbe und Zielgruppe auswählen.
 

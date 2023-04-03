@@ -3,19 +3,17 @@ keywords: Campaign Web;Startseite;beliebte Themen
 description: Hilfe-Center zu Campaign Web v8
 title: Produkt-Dokumentation zu Adobe Campaign Web v8
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 42d28b988444c9a6dc7b816485fa28bbe6cda5ca
-workflow-type: ht
-source-wordcount: '120'
-ht-degree: 100%
+badge: label="Alpha" type="Informative"
+source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
+workflow-type: tm+mt
+source-wordcount: '124'
+ht-degree: 96%
 
 ---
 
 # Dokumentation zu Adobe Campaign v8 Web {#campaign-documentation}
 
 ![](assets/do-not-localize/banner-documentationv8.png)
-
-![](assets/do-not-localize/badge.png)
-
 
 Campaign bietet jetzt eine neue Web-Benutzeroberfläche mit verbesserter Benutzerfreundlichkeit, Barrierefreiheit und einem neuen Design, um das Benutzererlebnis deutlich zu verbessern. Diese neue, moderne Benutzeroberfläche vereinfacht die Gestaltung und den Versand von Marketing-Kampagnen und sorgt für Konsistenz mit anderen Adobe-Lösungen, einschließlich Adobe Experience Platform. [Weitere Informationen](get-started/get-started.md)
 

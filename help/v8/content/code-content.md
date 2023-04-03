@@ -3,16 +3,15 @@ audience: end-user
 title: Codieren Ihrer eigenen E-Mail-Inhalte
 description: Erfahren Sie, wie Sie Ihre eigenen E-Mail-Inhalte codieren
 exl-id: a387bff6-3dc8-421c-9efd-043c16694ef0
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+badge: label="Alpha" type="Informative"
+source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
 workflow-type: tm+mt
-source-wordcount: '121'
-ht-degree: 100%
+source-wordcount: '126'
+ht-degree: 96%
 
 ---
 
-# Codieren Sie Ihre eigenen Inhalte {#code-content}
-
-![](../assets/do-not-localize/badge.png)
+# Codieren Ihrer eigenen E-Mail-Inhalte {#code-content}
 
 Verwenden Sie den Modus **[!UICONTROL Eigenen Code erstellen]**, um unformatierte HTML zu importieren und/oder Ihren E-Mail-Inhalt zu codieren. Diese Methode erfordert HTML-Kenntnisse.
 

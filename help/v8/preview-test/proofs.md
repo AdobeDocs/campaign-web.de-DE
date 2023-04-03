@@ -3,16 +3,15 @@ audience: end-user
 title: Senden von Test-E-Mails
 description: Erfahren Sie, wie Sie Test-E-Mails definieren und senden
 exl-id: b2677579-c95d-443d-b207-466af364c208
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+badge: label="Alpha" type="Informative"
+source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
 workflow-type: tm+mt
-source-wordcount: '537'
-ht-degree: 100%
+source-wordcount: '541'
+ht-degree: 99%
 
 ---
 
 # Senden von Test-E-Mails {#send-proofs}
-
-![](../assets/do-not-localize/badge.png)
 
 Der Versand von Test-E-Mails ist ein wichtiger Schritt zur Validierung Ihrer E-Mail-Kampagne und zur Identifizierung potenzieller Probleme. Durch den Versand von Test-E-Mails können Sie verschiedene Elemente wie Links, Opt-out-Links, Bilder und Mirror-Seiten überprüfen und Fehler erkennen.
 
