@@ -7,7 +7,7 @@ badge: label="Alpha" type="Positive"
 source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
 workflow-type: tm+mt
 source-wordcount: '380'
-ht-degree: 92%
+ht-degree: 98%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 92%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_header"
 >title="E-Mail-Parameter"
->abstract="Die Werte Von Name und Von E-Mail sind in der E-Mail-Vorlage definiert. Die Betreffzeile kann mit dem Ausdruckseditor personalisiert werden."
+>abstract="Die Werte „Absendername“ und „Absender-E-Mail“ sind in der E-Mail-Vorlage definiert. Die Betreffzeile kann mit dem Ausdruckseditor personalisiert werden."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_attachment"
