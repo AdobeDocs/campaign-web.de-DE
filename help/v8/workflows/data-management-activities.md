@@ -5,8 +5,8 @@ description: Erfahren Sie, wie Sie Datenverwaltungsaktivitäten in Adobe Campaig
 badge: label="Alpha" type="Positive"
 source-git-commit: 5efcdf2da104b86bf3ee37ee7162495c2d99fb48
 workflow-type: tm+mt
-source-wordcount: '314'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
