@@ -5,9 +5,9 @@ description: Erfahren Sie, wie Sie Audiences in der Web-Benutzeroberfläche von 
 badge: label="Alpha" type="Positive"
 exl-id: 21bb5082-82ce-47d6-a4d4-becf44490f13
 source-git-commit: 74c2ef1376d4089968c984768ddbd63420ae2b22
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '137'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
@@ -44,11 +44,11 @@ In diesem Abschnitt erfahren Sie, wie Sie die Audience von E-Mails definieren. D
 
 Zur Definition der Audience haben Sie folgende Möglichkeiten:
 
-* Verwenden Sie eine vorhandene Zielgruppe. [Weitere Informationen](add-audience.md)
-* Erstellen Sie eine neue Zielgruppe. [Weitere Informationen](segment-builder.md)
-* Import einer Audience aus einer Datei. [Weitere Informationen](import-audience.md)
-* Verwenden Sie eine Adobe Experience Platform-Zielgruppe. [Weitere Informationen](aep-audience.md)
+* Verwenden Sie eine vorhandene Audience. [Weitere Informationen](add-audience.md)
+* Erstellen Sie eine neue Audience. [Weitere Informationen](segment-builder.md)
+* Importieren Sie eine Audience aus einer Datei. [Weitere Informationen](import-audience.md)
+* Verwenden Sie eine Adobe Experience Platform-Audience. [Weitere Informationen](aep-audience.md)
 
-Darüber hinaus können Sie Kontrollgruppen definieren, um zu verhindern, dass Nachrichten an einen Teil Ihrer Audience gesendet werden, und die Wirkung Ihrer Kampagnen messen. [Weitere Informationen](control-group.md)
+Darüber hinaus können Sie Kontrollgruppen definieren, um einen Teil Ihrer Audience vom Versand von Nachrichten auszuschließen und so die Wirkung Ihrer Kampagnen zu messen. [Weitere Informationen](control-group.md)
 
 ![](assets/about-audience.png)
