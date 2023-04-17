@@ -5,14 +5,14 @@ description: Versionshinweise zu Campaign Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Alpha" type="Positive"
 source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '416'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
-# Versionshinweise  {#release-notes}
+# Versionshinweise {#release-notes}
 
 Auf dieser Seite sind die neuesten Funktionen und Verbesserungen für Campaign Web v8 aufgeführt.
 
