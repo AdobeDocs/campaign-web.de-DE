@@ -5,9 +5,9 @@ description: Erfahren Sie, wie Sie Inhaltskomponenten in E-Mails verwenden
 exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
 badge: label="Alpha" type="Positive"
 source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1083'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -100,7 +100,7 @@ Verwenden Sie die Komponente **[!UICONTROL Text]**, um Text in Ihre E-Mail einzu
 
    ![](assets/email_designer_11.png)
 
-1. Klicken Sie auf die neu hinzugefügte Komponente, um den Text zu personalisieren und auf die **[!UICONTROL Komponenteneinstellungen]** im rechten Bereich von E-Mail Designer zugreifen zu können.
+1. Klicken Sie auf die neu hinzugefügte Komponente, um den Text zu personalisieren und auf die **[!UICONTROL Komponenteneinstellungen]** im rechten Bereich von E-Mail-Designer zugreifen zu können.
 
 1. Ändern Sie den Text mit den folgenden in der Symbolleiste verfügbaren Optionen:
 
@@ -111,7 +111,7 @@ Verwenden Sie die Komponente **[!UICONTROL Text]**, um Text in Ihre E-Mail einzu
    * **[!UICONTROL Liste erstellen]**: Eine Aufzählungs- oder nummerierte Liste zu Ihrem Text hinzufügen.
    * **[!UICONTROL Überschrift festlegen]**: Bis zu sechs Überschriftenebenen zu Ihrem Text hinzufügen.
    * **Schriftgröße**: Wählen Sie die Schriftgröße Ihres Textes in Pixel aus.
-   * **[!UICONTROL Bild bearbeiten]**: Ein Bild oder ein Medienelement zu Ihrer Textkomponente hinzufügen.
+   * **[!UICONTROL Bild bearbeiten]**: Ein Bild oder ein Asset zu Ihrer Textkomponente hinzufügen.
    * **[!UICONTROL Quell-Code anzeigen]**: Den Quell-Code Ihres Textes anzeigen. Es kann nicht geändert werden.
    * **[!UICONTROL Duplizieren]**: Eine Kopie der Textkomponente hinzufügen.
    * **[!UICONTROL Löschen]**: Die ausgewählte Textkomponente aus der E-Mail löschen.
