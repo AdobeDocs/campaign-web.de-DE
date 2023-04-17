@@ -4,12 +4,12 @@ title: Erstellen von Workflows mit Adobe Campaign Web
 description: Erfahren Sie, wie Sie Workflows mit Adobe Campaign Web erstellen
 badge: label="Alpha" type="Positive"
 source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '22'
-ht-degree: 13%
+ht-degree: 100%
 
 ---
 
-# Erstellen von Zielgruppen-Workflows {#create-workflows}
+# Erstellen von Zielgruppenbestimmungs-Workflows {#create-workflows}
 
 
