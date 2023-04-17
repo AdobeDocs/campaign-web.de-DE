@@ -8,7 +8,7 @@ hide: true
 source-git-commit: d97824b27f8738b1bedf29b58dd87c1d2cc4a2f0
 workflow-type: tm+mt
 source-wordcount: '245'
-ht-degree: 79%
+ht-degree: 94%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 79%
                + [Verwenden von E-Mail-Inhaltsvorlagen](content/email-templates.md)
             + [Verwenden von Inhaltskomponenten](content/content-components.md)
             + [Erstellen der Textversion](content/text-version-email.md)
-            + [Link zur Mirrorseite hinzufügen](content/mirror-page.md)
+            + [Hinzufügen eines Links zur Mirrorseite](content/mirror-page.md)
             + [Hinzufügen eines Preheaders](content/preheader.md)
             + [Hinzufügen von Links und Verfolgen von Nachrichten](content/message-tracking.md)
          + Gestalten von Inhalten {#style}
@@ -59,13 +59,13 @@ ht-degree: 79%
       + [Erste Schritte mit Push-Benachrichtigungen](push/gs-push.md)
    + SMS {#sms}
       + [Erste Schritte mit SMS-Sendungen](sms/gs-sms.md)
-+ Zielgruppen und Empfänger {#audiences}
++ Audiences und Empfänger {#audiences}
    + [Erste Schritte mit Audiences](audience/about-audiences.md)
    + [Auswählen einer bestehenden Audience](audience/add-audience.md)
-   + [Erstellen einer Zielgruppe mit dem Regel-Builder](audience/segment-builder.md)
-   + [Audience importieren](audience/import-audience.md)
-   + [Verwenden einer Adobe Experience Platform-Zielgruppe](audience/aep-audience.md)
-   + [Einrichten einer Kontrollgruppe](audience/control-group.md)
+   + [Erstellen einer Audience mit dem Regel-Builder](audience/segment-builder.md)
+   + [Importieren einer Audience](audience/import-audience.md)
+   + [Verwenden einer Adobe Experience Platform-Audience](audience/aep-audience.md)
+   + [Festlegen einer Kontrollgruppe](audience/control-group.md)
 + Kanalübergreifende Kampagnen {#campaigns}
    + [Erste Schritte mit Kampagnen](campaigns/gs-campaigns.md)
    + [Erstellen Ihrer ersten Kampagne](campaigns/create-campaigns.md)
