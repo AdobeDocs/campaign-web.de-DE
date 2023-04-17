@@ -1,17 +1,17 @@
 ---
 audience: end-user
-title: Einrichten einer Kontrollgruppe
+title: Festlegen einer Kontrollgruppe
 description: Erfahren Sie, wie Sie in der Web-Benutzeroberfläche von Campaign eine Kontrollgruppe für Ihre Nachrichten einrichten.
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
 badge: label="Alpha" type="Positive"
 source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '580'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
-# Einrichten einer Kontrollgruppe {#control-group}
+# Festlegen einer Kontrollgruppe {#control-group}
 
 Mithilfe von Kontrollgruppen können Sie vermeiden, dass Nachrichten an einen Teil Ihrer Audience gesendet werden, um die Wirkung Ihrer Kampagnen zu messen.
 
