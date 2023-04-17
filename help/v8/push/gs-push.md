@@ -1,12 +1,12 @@
 ---
 audience: end-user
 title: Erste Schritte mit Push-Benachrichtigungen
-description: Erfahren Sie, wie Sie Push-Benachrichtigungen mit Adobe Campaign Web erstellen und senden.
+description: Erfahren Sie, wie Sie Push-Benachrichtigungen mit Adobe Campaign Web erstellen und senden
 badge: label="Alpha" type="Positive"
 source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '26'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
