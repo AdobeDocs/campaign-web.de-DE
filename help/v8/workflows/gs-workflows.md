@@ -4,16 +4,16 @@ title: Erste Schritte mit Workflows
 description: Erfahren Sie, wie Sie mit Workflows beginnen
 badge: label="Alpha" type="Positive"
 exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
-source-git-commit: 0b5bfea60b65fd52f397f276e0c31e854adddb7b
+source-git-commit: 9a4ca68d475cfbbcccb7a5b0d84f841589824288
 workflow-type: tm+mt
-source-wordcount: '359'
-ht-degree: 6%
+source-wordcount: '358'
+ht-degree: 7%
 
 ---
 
 # Erste Schritte mit Workflows {#workflows}
 
-## Was sind Adobe Campaign-Workflows?
+## Was ist ein Workflow?
 
 Kanalübergreifendes Marketing ist für jedes Unternehmen, das seine Kunden effektiv erreichen möchte, von entscheidender Bedeutung. Adobe Campaign bietet eine umfassende grafische Umgebung, mit der Sie komplexe Prozesse entwerfen können, die Ihnen die Verwaltung Ihrer Marketingkampagnen erleichtern.
 
