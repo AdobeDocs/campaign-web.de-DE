@@ -4,10 +4,10 @@ title: Erkunden der Benutzeroberfläche
 description: Web-Benutzeroberfläche von Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: 0b5bfea60b65fd52f397f276e0c31e854adddb7b
+source-git-commit: a77437a9d008be56980ce601df5708c4d72d678c
 workflow-type: tm+mt
-source-wordcount: '1319'
-ht-degree: 99%
+source-wordcount: '1388'
+ht-degree: 96%
 
 ---
 
@@ -227,6 +227,8 @@ Adobe Campaign interface is designed to work optimally in the latest version of 
 ######## This part stores the contextualHelp definition for WebUI BETA ###########
 ######## These blocks should be dispatched in the appropriate pages when available ###########
 ######## PLEASE DO NOT DELETE ###########
+REFER TO 
+https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E-+Official+list
 -->
 
 >[!CONTEXTUALHELP]
@@ -290,11 +292,123 @@ Adobe Campaign interface is designed to work optimally in the latest version of 
 >abstract="Noch nicht definiert"
 
 >[!CONTEXTUALHELP]
->id="acw_deliveries_push_iOS_content"
+>id="acw_deliveries_push_ios_content"
 >title="Push-iOS-Inhalte"
 >abstract="Noch nicht definiert"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_content"
 >title="SMS-Inhalt"
+>abstract="Noch nicht definiert"
+
+>[!CONTEXTUALHELP]
+>id="acw_sms_preview_option_app_target"
+>title="App-Abonnenten"
+>abstract="Noch nicht definiert"
+
+>[!CONTEXTUALHELP]
+>id="acw_email_preview_option_test_target"
+>title="Testpopulation"
+>abstract="Noch nicht definiert"
+
+>[!CONTEXTUALHELP]
+>id="acw_email_preview_mode"
+>title="Vorschaumodus"
+>abstract="Noch nicht definiert"
+
+>[!CONTEXTUALHELP]
+>id="acw_targetdata_personalization_enrichmentdata"
+>title="Anreicherungsdaten"
+>abstract="Noch nicht definiert"
+
+>[!CONTEXTUALHELP]
+>id="acw_targetdata_personalization_dashboard"
+>title="Personalisierung"
+>abstract="Noch nicht definiert"
+
+>[!CONTEXTUALHELP]
+>id="acw_audience_fromfile_select"
+>title="Datei auswählen"
+>abstract="Noch nicht definiert"
+
+>[!CONTEXTUALHELP]
+>id="acw_audience_fromfile_columns"
+>title="Spaltendefinition"
+>abstract="Noch nicht definiert"
+
+>[!CONTEXTUALHELP]
+>id="acw_audience_fromfile_formatting"
+>title="Formatierungsparameter"
+>abstract="Noch nicht definiert"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_sending"
+>title="Reporting-Versand"
+>abstract="Noch nicht definiert"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_tracking"
+>title="Reporting-Tracking"
+>abstract="Noch nicht definiert"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_deliveries_overview"
+>title="Berichtübersicht"
+>abstract="Noch nicht definiert"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_deliveries_target"
+>title="Zielgruppenstatistiken melden"
+>abstract="Noch nicht definiert"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_deliveries_selection"
+>title="Aggregierte Berichte zur Auswahl eines Versands"
+>abstract="Noch nicht definiert"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_properties"
+>title="Eigenschaften der Kampagne"
+>abstract="Noch nicht definiert"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_schedule"
+>title="Kampagnenplanung"
+>abstract="Noch nicht definiert"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_creation_workflow"
+>title="Liste der Workflows"
+>abstract="Noch nicht definiert"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_creation_properties"
+>title="Kampagnenerstellung"
+>abstract="Noch nicht definiert"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_creation_schedule"
+>title="Kampagnenplanung"
+>abstract="Noch nicht definiert"
+
+
+<!--BETA-->
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_deduplication_fields"
+>title="Deduplizierungsfelder"
+>abstract="Noch nicht definiert"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_deduplication_settings"
+>title="Deduplizierungseinstellungen"
+>abstract="Noch nicht definiert"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_deduplication_complement"
+>title="Komplement zur Deduplizierung"
+>abstract="Noch nicht definiert"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_dimension_complement"
+>title="Dimension"
 >abstract="Noch nicht definiert"
