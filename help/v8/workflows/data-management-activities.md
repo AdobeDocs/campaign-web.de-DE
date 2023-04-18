@@ -3,10 +3,11 @@ audience: end-user
 title: Arbeiten mit Datenverwaltungsaktivitäten in Workflows
 description: Erfahren Sie, wie Sie Datenverwaltungsaktivitäten in Adobe Campaign-Web-Workflows verwenden.
 badge: label="Alpha" type="Positive"
-source-git-commit: 5efcdf2da104b86bf3ee37ee7162495c2d99fb48
+exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
+source-git-commit: 0b5bfea60b65fd52f397f276e0c31e854adddb7b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '392'
+ht-degree: 4%
 
 ---
 
@@ -18,7 +19,12 @@ Liste der verfügbaren Aktivitäten + Kurzbeschreibung + Referenz zum Abschnitt
 
 ## Anreicherung {#enrichment}
 
-Die Aktivität Anreicherung wird in der Regel in einem Workflow nach Zielgruppenbestimmungsaktivitäten verwendet. Dadurch können Sie die Zieldaten um zusätzliche Informationen aus der Datenbank erweitern.
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_enrichment_data"
+>title="Anreicherung Aktivität"
+>abstract="Die Anreicherungsaktivität ermöglicht es Ihnen, die Zieldaten durch zusätzliche Informationen aus der Datenbank zu erweitern. Dieser wird häufig in einem Workflow nach Zielgruppenbestimmungsaktivitäten verwendet.<br/>Nachdem Anreicherungsdaten zum Workflow hinzugefügt wurden, können sie in den Aktivitäten verwendet werden, die nach der Anreicherungsaktivität hinzugefügt wurden, um Kunden basierend auf ihren Verhaltensweisen, Voreinstellungen und Anforderungen in verschiedene Gruppen zu unterteilen oder um personalisierte Marketing-Nachrichten und -Kampagnen zu erstellen, die mit größerer Wahrscheinlichkeit bei Ihrer Zielgruppe ankommen."
+
+Die Anreicherungsaktivität ermöglicht es Ihnen, die Zieldaten durch zusätzliche Informationen aus der Datenbank zu erweitern. Dieser wird häufig in einem Workflow nach Zielgruppenbestimmungsaktivitäten verwendet.
 
 Anreicherungsdaten können Folgendes umfassen:
 
