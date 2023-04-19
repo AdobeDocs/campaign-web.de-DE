@@ -4,9 +4,9 @@ title: Erkunden der Benutzeroberfläche
 description: Web-Benutzeroberfläche von Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: a77437a9d008be56980ce601df5708c4d72d678c
+source-git-commit: 403f1e5fcb353f4c89f12066854853b51861293b
 workflow-type: tm+mt
-source-wordcount: '1388'
+source-wordcount: '1369'
 ht-degree: 96%
 
 ---
@@ -242,21 +242,6 @@ https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E
 >abstract="Noch nicht definiert"
 
 >[!CONTEXTUALHELP]
->id="acw_import_from_a_file"
->title="Import einer Audience aus einer Datei"
->abstract="Noch nicht definiert"
-
->[!CONTEXTUALHELP]
->id="acw_import_from_a_file_formatting"
->title="Formateinstellungen"
->abstract="Noch nicht definiert"
-
->[!CONTEXTUALHELP]
->id="acw_import_from_a_file_columns"
->title="Spalteneinstellungen"
->abstract="Noch nicht definiert"
-
->[!CONTEXTUALHELP]
 >id="acw_push_notification_template"
 >title="Vorlage für Push-Benachrichtigungen"
 >abstract="Noch nicht definiert"
@@ -332,6 +317,11 @@ https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E
 >abstract="Noch nicht definiert"
 
 >[!CONTEXTUALHELP]
+>id="acw_audience_fromfile_samplefile"
+>title="Beispieldatei"
+>abstract="Noch nicht definiert"
+
+>[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_columns"
 >title="Spaltendefinition"
 >abstract="Noch nicht definiert"
@@ -372,25 +362,9 @@ https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E
 >abstract="Noch nicht definiert"
 
 >[!CONTEXTUALHELP]
->id="acw_campaign_schedule"
->title="Kampagnenplanung"
->abstract="Noch nicht definiert"
-
->[!CONTEXTUALHELP]
 >id="acw_campaign_creation_workflow"
 >title="Liste der Workflows"
 >abstract="Noch nicht definiert"
-
->[!CONTEXTUALHELP]
->id="acw_campaign_creation_properties"
->title="Kampagnenerstellung"
->abstract="Noch nicht definiert"
-
->[!CONTEXTUALHELP]
->id="acw_campaign_creation_schedule"
->title="Kampagnenplanung"
->abstract="Noch nicht definiert"
-
 
 <!--BETA-->
 >[!CONTEXTUALHELP]
