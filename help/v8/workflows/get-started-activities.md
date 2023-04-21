@@ -3,10 +3,11 @@ audience: end-user
 title: Erste Schritte mit Workflow-Aktivitäten
 description: Entdecken Sie die verschiedenen Aktivitätstypen, die Sie für die Erstellung von Adobe Campaign-Web-Workflows verwenden können.
 badge: label="Alpha" type="Positive"
-source-git-commit: ee418ea42bc4568f2ff1f0fe9080825764fee65d
+exl-id: 0c269e63-c861-4e51-b999-2e8d33fec7a0
+source-git-commit: a048ce9384f458f4cf94b38ceac46e2c04bcc231
 workflow-type: tm+mt
 source-wordcount: '61'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 

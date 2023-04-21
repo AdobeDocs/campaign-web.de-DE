@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie Audiences in der Web-Benutzeroberfläche von 
 badge: label="Alpha" type="Positive"
 exl-id: 21bb5082-82ce-47d6-a4d4-becf44490f13
 source-git-commit: 74c2ef1376d4089968c984768ddbd63420ae2b22
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '137'
 ht-degree: 100%
 

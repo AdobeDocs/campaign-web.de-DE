@@ -18,7 +18,7 @@ ht-degree: 96%
 >title="Erkunden der Benutzeroberfläche"
 >abstract="Die neue Campaign v8 Web-Benutzeroberfläche bietet ein integriertes, intuitives und konsistentes Anwendererlebnis."
 
-Die neue Web-Oberfläche von Campaign v8 bietet ein modernes und intuitives Benutzererlebnis, das die Gestaltung und den Versand von Marketingkampagnen vereinfacht. Diese neue Benutzeroberfläche ist in Adobe Experience Platform integriert.
+Die neue Web-Oberfläche von Campaign v8 bietet ein modernes und intuitives Benutzererlebnis, das die Gestaltung und den Versand von Marketing-Kampagnen vereinfacht. Diese neue Benutzeroberfläche ist in Adobe Experience Platform integriert.
 
 <!--
 Key concepts when browsing the user interface are common with Adobe Experience Platform. Refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html#adobe-experience-platform-ui-guide) for more details.

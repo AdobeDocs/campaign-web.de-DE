@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie eine Audience auswählen
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
 badge: label="Alpha" type="Positive"
 source-git-commit: cf94ea6f5bbb287c5cd56f5af023a40d1f8538d6
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '272'
 ht-degree: 100%
 

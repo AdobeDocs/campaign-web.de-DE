@@ -3,13 +3,13 @@ audience: end-user
 title: Hinzufügen eines Links zur Mirrorseite
 description: Erfahren Sie, wie Sie den Link zur Mirrorseite hinzufügen und verwalten
 badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
-workflow-type: ht
+exl-id: 0c22357f-0465-4fdc-833e-5fda5805fe42
+source-git-commit: a048ce9384f458f4cf94b38ceac46e2c04bcc231
+workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 100%
 
 ---
-
 
 # Hinzufügen eines Links zur Mirrorseite{#mirror-page}
 

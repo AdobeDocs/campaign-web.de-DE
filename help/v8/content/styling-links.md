@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie einen Stil für Links definieren
 exl-id: b4b79bd5-a96c-49ca-b3fe-95befef00dff
 badge: label="Alpha" type="Positive"
 source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '144'
 ht-degree: 100%
 

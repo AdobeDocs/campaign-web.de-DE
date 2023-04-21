@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie Ihre E-Mail-Inhalte von Grund auf neu gestalt
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
 badge: label="Alpha" type="Positive"
 source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '510'
 ht-degree: 100%
 

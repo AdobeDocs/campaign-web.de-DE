@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie E-Mails in der Vorschau anzeigen und testen k
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
 badge: label="Alpha" type="Positive"
 source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '114'
 ht-degree: 100%
 

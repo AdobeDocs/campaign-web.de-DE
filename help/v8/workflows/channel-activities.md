@@ -3,10 +3,11 @@ audience: end-user
 title: Arbeiten mit Workflow-Kanalaktivitäten
 description: Erfahren Sie, wie Sie Kanalaktivitäten in Adobe Campaign-Web-Workflows verwenden.
 badge: label="Alpha" type="Positive"
-source-git-commit: ee418ea42bc4568f2ff1f0fe9080825764fee65d
+exl-id: 6f9be348-6138-470c-8c40-750dc0311424
+source-git-commit: a048ce9384f458f4cf94b38ceac46e2c04bcc231
 workflow-type: tm+mt
 source-wordcount: '78'
-ht-degree: 3%
+ht-degree: 8%
 
 ---
 
