@@ -6,8 +6,8 @@ exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
 source-git-commit: 2c5d4c46892ad9fa575e4ed56aa6fa599f1ece7b
 workflow-type: tm+mt
-source-wordcount: '1366'
-ht-degree: 96%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -273,17 +273,17 @@ https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_android_content"
->title="Android-Inhalte pushen"
+>title="Pushen von Android-Inhalten"
 >abstract="Noch nicht definiert"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_ios_content"
->title="Push-iOS-Inhalte"
+>title="Pushen von iOS-Inhalten"
 >abstract="Noch nicht definiert"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_content"
->title="SMS-Inhalt"
+>title="SMS-Inhalte"
 >abstract="Noch nicht definiert"
 
 >[!CONTEXTUALHELP]

@@ -7,8 +7,8 @@ title: Dokumente zu Campaign v8 Web
 hide: true
 source-git-commit: d9d1666e0903d78560230dd81af32b53608686c5
 workflow-type: tm+mt
-source-wordcount: '259'
-ht-degree: 90%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -75,11 +75,11 @@ ht-degree: 90%
       + [Grundlegende Prinzipien der Workflow-Erstellung](workflows/gs-workflow-creation.md)
       + [Erstellen eines Workflows](workflows/create-workflow.md)
       + [Workflow-Ausführung starten und überwachen](workflows/start-monitor-workflows.md)
-   + Design-Workflows {#design-workflows}
-      + [Erste Schritte mit der Arbeitsfläche des Workflows](workflows/gs-canvas.md)
+   + Workflows entwerfen {#design-workflows}
+      + [Erste Schritte mit der Workflow-Arbeitsfläche](workflows/gs-canvas.md)
       + [Zielgruppenbestimmungsaktivitäten](workflows/targeting-activities.md)
       + [Kanalaktivitäten](workflows/channel-activities.md)
-      + [Datenverwaltungsaktivitäten](workflows/data-management-activities.md)
+      + [Daten-Management-Aktivitäten](workflows/data-management-activities.md)
    + [Workflows aufrufen und überwachen](workflows/access-monitor.md)
 + [Reporting](reporting/reports.md)
 
