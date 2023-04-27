@@ -5,9 +5,9 @@ description: Erfahren Sie, wie Sie Ihre eigenen E-Mail-Inhalte codieren
 exl-id: a387bff6-3dc8-421c-9efd-043c16694ef0
 badge: label="Alpha" type="Positive"
 source-git-commit: 00396926f461b4cecfc3766ed7222337aa1aef60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '161'
-ht-degree: 63%
+ht-degree: 100%
 
 ---
 
@@ -23,13 +23,13 @@ Verwenden Sie den Modus **[!UICONTROL Eigenen Code erstellen]**, um unformatiert
 
 1. Verwenden Sie den linken Bereich, um die Personalisierungsfunktionen zu nutzen.
 
-1. Wenn Sie Ihren E-Mail-Inhalt löschen und Ihre E-Mail von einem neuen Design aus starten möchten, wählen Sie **[!UICONTROL Entwurf ändern]** aus dem Menü &quot;Optionen&quot;aus.
+1. Wenn Sie den E-Mail-Designer öffnen möchten, um Ihre E-Mail von einem neuen Design aus zu beginnen, wählen Sie **[!UICONTROL Design ändern]** aus dem Optionen-Menü aus.
 
    ![](assets/code-editor-change-design.png)
 
    >[!NOTE]
    >
-   >Dadurch wird die ausgewählte Vorlage in Email Designer geöffnet. Dort können Sie entweder das Design Ihrer E-Mail abschließen oder mit dem Code-Editor zurückkehren **[!UICONTROL Wechseln zum Code-Editor]** -Option.
+   >Dadurch wird die ausgewählte Vorlage im E-Mail-Designer geöffnet. Dort können Sie entweder das Design Ihrer E-Mail abschließen oder mit der Option **[!UICONTROL Zum Code-Editor wechseln]** zurück zum Code-Editor gehen.
 
 1. Klicken Sie auf die Schaltfläche **[!UICONTROL Inhalt simulieren]**, um Design und Personalisierung der Nachricht mithilfe von Testprofilen zu überprüfen.
 
