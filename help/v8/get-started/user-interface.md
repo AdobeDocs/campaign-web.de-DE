@@ -5,9 +5,9 @@ description: Web-Benutzeroberfläche von Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
 source-git-commit: 2c5d4c46892ad9fa575e4ed56aa6fa599f1ece7b
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '1366'
+ht-degree: 100%
 
 ---
 
@@ -328,27 +328,27 @@ https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_sending"
->title="Reporting-Versand"
+>title="Versandberichte"
 >abstract="Noch nicht definiert"
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_tracking"
->title="Reporting-Tracking"
+>title="Tracking-Berichte"
 >abstract="Noch nicht definiert"
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_overview"
->title="Berichtübersicht"
+>title="Berichte – Übersicht"
 >abstract="Noch nicht definiert"
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_target"
->title="Zielgruppenstatistiken melden"
+>title="Berichte für Zielgruppenstatistiken"
 >abstract="Noch nicht definiert"
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_selection"
->title="Aggregierte Berichte zur Auswahl eines Versands"
+>title="Aggregierte Berichte für „Versand auswählen“"
 >abstract="Noch nicht definiert"
 
 >[!CONTEXTUALHELP]
@@ -374,10 +374,10 @@ https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_complement"
->title="Komplement zur Deduplizierung"
+>title="Deduplizierungskomplement"
 >abstract="Noch nicht definiert"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_dimension_complement"
->title="Dimension"
+>title="Dimensionskomplement"
 >abstract="Noch nicht definiert"
