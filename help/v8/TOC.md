@@ -5,10 +5,10 @@ description: Web-Dokumentation zu Campaign v8
 breadcrumb-title: Übersicht über Campaign
 title: Dokumente zu Campaign v8 Web
 hide: true
-source-git-commit: d9d1666e0903d78560230dd81af32b53608686c5
+source-git-commit: 1dabd8669dbf6483ec8c2bdae4b9567711fcfc4c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '262'
+ht-degree: 93%
 
 ---
 
@@ -74,12 +74,13 @@ ht-degree: 0%
    + Erstellen des ersten Workflows {#create-workflow}
       + [Grundlegende Prinzipien der Workflow-Erstellung](workflows/gs-workflow-creation.md)
       + [Erstellen eines Workflows](workflows/create-workflow.md)
-      + [Workflow-Ausführung starten und überwachen](workflows/start-monitor-workflows.md)
-   + Workflows entwerfen {#design-workflows}
-      + [Erste Schritte mit der Workflow-Arbeitsfläche](workflows/gs-canvas.md)
+      + [Workflow-Aktivitäten koordinieren](workflows/build-workflow.md)
+      + [Konfigurieren von Workflow-Einstellungen](workflows/workflow-settings.md)
+      + [Workflow starten und überwachen](workflows/start-monitor-workflows.md)
+   + [Zugreifen auf und Verwalten von Workflows](workflows/access-monitor.md)
+   + Arbeiten mit Workflow-Aktivitäten {#design-workflows}
       + [Zielgruppenbestimmungsaktivitäten](workflows/targeting-activities.md)
       + [Kanalaktivitäten](workflows/channel-activities.md)
       + [Daten-Management-Aktivitäten](workflows/data-management-activities.md)
-   + [Workflows aufrufen und überwachen](workflows/access-monitor.md)
 + [Reporting](reporting/reports.md)
 
