@@ -4,15 +4,17 @@ title: Erstellen von Workflows mit Adobe Campaign Web
 description: Erfahren Sie, wie Sie Workflows mit Adobe Campaign Web erstellen
 badge: label="Alpha" type="Positive"
 exl-id: 687b13a4-7ec8-4d07-9d20-53eb4ebefd28
-source-git-commit: d9d1666e0903d78560230dd81af32b53608686c5
+source-git-commit: d7e19b2d8730cacbbff1ad42f1956b32c84a309a
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '310'
+ht-degree: 94%
 
 ---
 
 
 # Grundlegende Prinzipien der Workflow-Erstellung {#gs-workflow-creation}
+
+Inhalt TBD
 
 In einem Workflow wird der Ablauf eines Prozesses definiert, der in einem Workflow-Diagramm dargestellt wird. Ein Workflow ist auch eine Instanz dieses Prozesses, da in der Workflow-Instanz der tatsächliche Verlauf darstellt wird.
 
@@ -43,3 +45,5 @@ TBD: Besonderheiten eigenständiger und Kampagnen-Workflows detaillieren.
 Die wichtigsten Schritte zum Erstellen von Workflows sehen wie folgt aus:
 
 TBD: Grafik, die den gesamten Prozess mit Erläuterung und Verweis auf Dokumentseiten zeigt
+
+Eigenschaften erstellen und definieren > Aktivitäten auf der Arbeitsfläche koordinieren > Einstellungen bei Bedarf konfigurieren > Ausführung starten und überwachen
