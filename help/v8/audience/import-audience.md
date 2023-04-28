@@ -5,9 +5,9 @@ description: Erfahren Sie, wie Sie Empfängerinnen und Empfänger aus einer exte
 badge: label="Alpha" type="Positive"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
 source-git-commit: f103fe804deccc83638a3e56a03f6e715e68e550
-workflow-type: ht
-source-wordcount: '175'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
