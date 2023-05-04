@@ -3,19 +3,27 @@ audience: end-user
 title: Erstellen von Workflows mit Adobe Campaign Web
 description: Erfahren Sie, wie Sie Workflows mit Adobe Campaign Web erstellen
 badge: label="Alpha" type="Positive"
-source-git-commit: 1dabd8669dbf6483ec8c2bdae4b9567711fcfc4c
+exl-id: 636a5b40-c351-45a0-bcda-934dbce1a430
+source-git-commit: dd006d1e161dec49d9a1a6bcb8cb67503178479b
 workflow-type: tm+mt
-source-wordcount: '100'
-ht-degree: 18%
+source-wordcount: '204'
+ht-degree: 8%
 
 ---
-
 
 # Workflow-Aktivitäten koordinieren {#build}
 
 content TBC
 
 Workflow-Arbeitsfläche - Übersicht und Grundsatz
+
+
+Einmal, dass Sie [einen Workflow erstellt hat](create-workflow.md)- entweder im Workflow-Menü oder innerhalb einer Kampagne - können Sie die verschiedenen Aufgaben, die sie ausführen, koordinieren.
+
+Auf einer visuellen Arbeitsfläche können Sie zu diesem Zweck ein Workflow-Diagramm erstellen, in dem Sie verschiedene Aktivitäten hinzufügen und in sequenzieller Reihenfolge miteinander verknüpfen können.
+
+* [Erfahren Sie, wie Sie mit der Arbeitsfläche des Workflows arbeiten.](#canvas)
+* [Erfahren Sie, wie Sie Workflow-Aktivitäten hinzufügen und verbinden](#activities)
 
 ## Arbeiten mit der Arbeitsfläche des Workflows {#canvas}
 
@@ -31,3 +39,5 @@ Workflow-Arbeitsfläche - Übersicht und Grundsatz
 * Wie Sie Aktivitäten hinzufügen/entfernen
 * mit Transitionen arbeiten: Anzeigen von Ergebnissen, Hinzufügen von Bezeichnungen zu Transitionen
 * Beziehung zwischen Aktivitäten: Welche Aktivitäten Sie hinzufügen können oder nicht, je nach vorheriger
+
+Nachdem Sie das Workflow-Diagramm erfolgreich entworfen haben, können Sie den Workflow ausführen und verfolgen, wie die verschiedenen Aufgaben ausgeführt werden. [Erfahren Sie, wie Sie einen Workflow starten und dessen Ausführung überwachen.](start-monitor-workflows.md)
