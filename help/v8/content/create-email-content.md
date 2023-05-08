@@ -5,9 +5,9 @@ description: Erfahren Sie, wie Sie Ihre E-Mail-Inhalte von Grund auf neu gestalt
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
 badge: label="Alpha" type="Positive"
 source-git-commit: d7e19b2d8730cacbbff1ad42f1956b32c84a309a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '528'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -92,7 +92,7 @@ Gehen Sie wie folgt vor, um mit der Erstellung Ihres E-Mail-Inhalts zu beginnen:
 
    ![](assets/email_designer_7.png)
 
-1. Bei Bedarf können Sie Ihre E-Mail weiter personalisieren, indem Sie im erweiterten Menü auf **[!UICONTROL Zum Code-Editor wechseln]** klicken. Auf diese Weise können Sie den E-Mail-Quellcode bearbeiten, z. B. um Tracking- oder benutzerdefinierte HTML-Tags hinzuzufügen. [Weitere Informationen über den Code-Editor](code-content.md)
+1. Bei Bedarf können Sie Ihre E-Mail weiter personalisieren, indem Sie im erweiterten Menü auf **[!UICONTROL Zum Code-Editor wechseln]** klicken. Auf diese Weise können Sie den Quell-Code der E-Mail bearbeiten, z. B. um Tracking- oder benutzerdefinierte HTML-Tags hinzuzufügen. [Weitere Informationen über den Code-Editor](code-content.md)
 
    >[!CAUTION]
    >
