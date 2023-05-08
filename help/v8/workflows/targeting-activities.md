@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie Zielgruppenbestimmungsaktivitäten in Adobe C
 badge: label="Alpha" type="Positive"
 exl-id: ffd58dbc-9207-4c1c-bad5-a208378621cf
 source-git-commit: d7e19b2d8730cacbbff1ad42f1956b32c84a309a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '48'
 ht-degree: 100%
 
@@ -15,4 +15,4 @@ ht-degree: 100%
 
 Inhalt TBD
 
-<!--à reformuler-->Mit diesen Aktivitäten können Sie eine oder mehrere Zielgruppen erstellen, indem Sie Sets definieren und im Anschluss durch die Aktivitäten „Schnittmenge“, „Vereinigung“ und „Ausschluss“ teilen oder zusammenfassen.
+<!--à reformuler-->Mit diesen Aktivitäten können Sie eine oder mehrere Zielgruppen erstellen, indem Sie Mengen definieren und diese Mengen durch Bilden von Schnittmengen, Vereinigungsmengen oder Ausschlüssen aufteilen oder kombinieren.
