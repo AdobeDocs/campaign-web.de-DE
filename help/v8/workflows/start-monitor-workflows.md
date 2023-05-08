@@ -7,7 +7,7 @@ exl-id: 8aa76369-c9f3-4c5b-9a51-101b239727e6
 source-git-commit: dd006d1e161dec49d9a1a6bcb8cb67503178479b
 workflow-type: tm+mt
 source-wordcount: '160'
-ht-degree: 51%
+ht-degree: 81%
 
 ---
 
@@ -15,18 +15,18 @@ ht-degree: 51%
 
 Nachdem Sie Ihren Workflow erstellt und die Aufgaben entworfen haben, die in der Arbeitsfläche des Workflows ausgeführt werden sollen, können Sie dessen Ausführung starten und überwachen, wie er ausgeführt wird.
 
-* Ausführen des Workflows
+* Wie der Workflow ausgeführt wird
 
-* ihre Ausführung in Echtzeit verfolgen.
+* Verfolgen der Auführung in Echtzeit.
 
-   Standardmäßig: Aktivitätsstatus anzeigen + Ergebnis in Transitionen. Schaltfläche &quot;Progression ausblenden&quot;zum Ausblenden
+   Standardmäßig: Aktivitätsstatus anzeigen + Ergebnis in Übergängen. Schaltfläche „Progression ausblenden“ zum Ausblenden
 
    blauer visueller Fluss
 
-* den Workflow anhalten/anhalten. einen Workflow nach der Pause wieder aufnehmen.
+* Pausieren/Stoppen des Workflows Einen Workflow nach der Pause fortsetzen.
 
-* Zugriffsprotokolle und Aufgaben
+* Zugreifen auf Protokolle und Aufgaben
 
 * Was passiert im Falle eines Fehlers: visuelle Indikatoren + Status
 
-   <!--to reformulate-->Es besteht die Möglichkeit, das Aussetzen des Workflows im Falle von Fehlern zu vermeiden und die sich anschließenden Aufgaben wie geplant auszuführen. Öffnen Sie hierzu die Workflow-Eigenschaften und wählen Sie im Bereich Umgang mit Fehlern des Ausführungs-Tabs im Feld Bei Fehler die Option Ignorieren aus der Dropdown-Liste aus. Geben Sie dann die maximale Anzahl an aufeinanderfolgenden Fehlern an, die ignoriert werden dürfen, bevor der Workflow ausgesetzt wird.
+   <!--to reformulate-->Es besteht die Möglichkeit, das Aussetzen des Workflows im Falle von Fehlern zu vermeiden und die sich anschließenden Aufgaben wie geplant auszuführen. Öffnen Sie hierzu die Workflow-Eigenschaften und wählen Sie im Bereich „Umgang mit Fehlern“ im Feld „Bei Fehler“ die Option „Ignorieren“ aus der Dropdown-Liste aus. Geben Sie dann die maximale Anzahl an aufeinanderfolgenden Fehlern an, die ignoriert werden dürfen, bevor der Workflow ausgesetzt wird.

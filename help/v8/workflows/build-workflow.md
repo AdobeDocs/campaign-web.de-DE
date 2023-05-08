@@ -1,21 +1,21 @@
 ---
 audience: end-user
-title: Erstellen von Workflows mit Adobe Campaign Web
+title: Entwerfen von Workflows mit Adobe Campaign Web
 description: Erfahren Sie, wie Sie Workflows mit Adobe Campaign Web erstellen
 badge: label="Alpha" type="Positive"
 exl-id: 636a5b40-c351-45a0-bcda-934dbce1a430
 source-git-commit: dd006d1e161dec49d9a1a6bcb8cb67503178479b
 workflow-type: tm+mt
 source-wordcount: '204'
-ht-degree: 8%
+ht-degree: 49%
 
 ---
 
-# Workflow-Aktivitäten koordinieren {#build}
+# Orchestrieren von Workflow-Aktivitäten {#build}
 
-content TBC
+Inhalt TBC
 
-Workflow-Arbeitsfläche - Übersicht und Grundsatz
+Workflow-Arbeitsfläche – Übersicht und Grundsatz
 
 
 Einmal, dass Sie [einen Workflow erstellt hat](create-workflow.md)- entweder im Workflow-Menü oder innerhalb einer Kampagne - können Sie die verschiedenen Aufgaben, die sie ausführen, koordinieren.
@@ -25,19 +25,19 @@ Auf einer visuellen Arbeitsfläche können Sie zu diesem Zweck ein Workflow-Diag
 * [Erfahren Sie, wie Sie mit der Arbeitsfläche des Workflows arbeiten.](#canvas)
 * [Erfahren Sie, wie Sie Workflow-Aktivitäten hinzufügen und verbinden](#activities)
 
-## Arbeiten mit der Arbeitsfläche des Workflows {#canvas}
+## Arbeiten mit der Workflow-Arbeitsfläche {#canvas}
 
-* Status und Datum der letzten Verarbeitung und Uhrzeit
+* Status und Datum/Uhrzeit der letzten Verarbeitung
 * Navigationsleiste (Zoom, Bildschirmgröße, Anzeigekarte)
-* zentrale Arbeitsfläche, auf der Sie Aktivitäten organisieren
+* Zentrale Arbeitsfläche, auf der Sie Aktivitäten orchestrieren
 * Konfigurieren von Workflow-Einstellungen
-* Aktivitätskonfigurationsbereich
+* Konfigurationsbereich für die Aktivität
 
-## Aktivitäten hinzufügen und verbinden {#activities}
+## Hinzufügen und Verbinden von Aktivitäten {#activities}
 
-* Workflow starten und beenden
+* Starten und Beenden eines Workflows
 * Wie Sie Aktivitäten hinzufügen/entfernen
-* mit Transitionen arbeiten: Anzeigen von Ergebnissen, Hinzufügen von Bezeichnungen zu Transitionen
-* Beziehung zwischen Aktivitäten: Welche Aktivitäten Sie hinzufügen können oder nicht, je nach vorheriger
+* Arbeiten mit Übergängen: Ergebnisse anzeigen, Kennzeichnungen zu Übergängen hinzufügen
+* Beziehung zwischen Aktivitäten: Welche Aktivitäten Sie hinzufügen können oder nicht, je nach der vorherigen Aktivität
 
 Nachdem Sie das Workflow-Diagramm erfolgreich entworfen haben, können Sie den Workflow ausführen und verfolgen, wie die verschiedenen Aufgaben ausgeführt werden. [Erfahren Sie, wie Sie einen Workflow starten und dessen Ausführung überwachen.](start-monitor-workflows.md)
