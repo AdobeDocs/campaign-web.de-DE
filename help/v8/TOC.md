@@ -6,9 +6,9 @@ description: Web-Dokumentation zu Campaign v8
 breadcrumb-title: Übersicht über Campaign
 hide: true
 source-git-commit: 370485f8d353d1d9140afbcb1a377db51a23800f
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '258'
+ht-degree: 100%
 
 ---
 
@@ -74,10 +74,10 @@ ht-degree: 0%
    + Erstellen des ersten Workflows {#create-workflow}
       + [Grundlegende Prinzipien der Workflow-Erstellung](workflows/gs-workflow-creation.md)
       + [Erstellen eines Workflows](workflows/create-workflow.md)
-      + [Workflow-Aktivitäten koordinieren](workflows/build-workflow.md)
+      + [Orchestrieren von Workflow-Aktivitäten](workflows/build-workflow.md)
       + [Konfigurieren von Workflow-Einstellungen](workflows/workflow-settings.md)
-      + [Workflow starten und überwachen](workflows/start-monitor-workflows.md)
-   + [Zugreifen auf und Verwalten von Workflows](workflows/access-monitor.md)
+      + [Starten und Überwachen eines Workflows](workflows/start-monitor-workflows.md)
+   + [Aufrufen und Verwalten Ihrer Workflows](workflows/access-monitor.md)
    + Arbeiten mit Workflow-Aktivitäten {#design-workflows}
       + [Zielgruppenbestimmungsaktivitäten](workflows/targeting-activities.md)
       + [Kanalaktivitäten](workflows/channel-activities.md)
