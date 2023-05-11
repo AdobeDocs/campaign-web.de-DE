@@ -4,10 +4,10 @@ title: Erkunden der Benutzeroberfläche
 description: Web-Benutzeroberfläche von Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: ef8418294540ee0462725cdaf6824ba7ee4d9b59
+source-git-commit: 3ab348b26069188048af46e8f3555c4983c4d644
 workflow-type: tm+mt
-source-wordcount: '1382'
-ht-degree: 99%
+source-wordcount: '1390'
+ht-degree: 98%
 
 ---
 
@@ -361,7 +361,6 @@ https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E
 >title="Liste der Workflows"
 >abstract="Noch nicht definiert"
 
-<!--BETA-->
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_fields"
 >title="Deduplizierungsfelder"
@@ -400,4 +399,14 @@ https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_advancedfields"
 >title="Erweiterte Felder im Regel-Builder"
+>abstract="Noch nicht definiert"
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_sms_properties"
+>title="Eigenschaften des SMS-Versands"
+>abstract="Noch nicht definiert"
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_properties"
+>title="Eigenschaften von Push-Sendungen"
 >abstract="Noch nicht definiert"
