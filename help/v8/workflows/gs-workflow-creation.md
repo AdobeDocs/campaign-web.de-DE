@@ -5,9 +5,9 @@ description: Erfahren Sie, wie Sie Workflows mit Adobe Campaign Web erstellen
 badge: label="Alpha" type="Positive"
 exl-id: 687b13a4-7ec8-4d07-9d20-53eb4ebefd28
 source-git-commit: dd006d1e161dec49d9a1a6bcb8cb67503178479b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '286'
-ht-degree: 59%
+ht-degree: 100%
 
 ---
 
@@ -16,17 +16,17 @@ ht-degree: 59%
 
 Mit Campaign v8 Web können Sie Workflows in einer visuellen Arbeitsfläche erstellen, um kanalübergreifende Prozesse wie Segmentierung, Kampagnenausführung und Dateiverarbeitung zu entwerfen.
 
-Workflows können entweder als eigenständige Workflows über das Menü Workflows oder innerhalb einer Kampagne über das Menü Kampagnen erstellt werden.
+Workflows können entweder als eigenständige Workflows über das Menü „Workflows“ oder innerhalb einer Kampagne über das Menü „Kampagnen“ erstellt werden.
 
 TBD: Besonderheiten eigenständiger und Kampagnen-Workflows detaillieren.
 
 ## Was befindet sich in einem Workflow?
 
-Das Workflow-Diagramm zeigt, was passieren soll. Es werden die verschiedenen Aufgaben beschrieben, die ausgeführt und miteinander verknüpft werden sollen.
+Das Workflow-Diagramm zeigt, was passieren soll. Es beschreibt die verschiedenen Aufgaben, die ausgeführt und miteinander verknüpft werden sollen.
 
 Jeder Workflow besteht aus:
 
-* **Activities**: Eine Aktivität ist eine Aufgabe, die ausgeführt werden muss. Die verschiedenen Aktivitäten werden im Diagramm durch Symbole dargestellt. Jede Aktivität verfügt über bestimmte Eigenschaften und andere Eigenschaften, die für alle Aktivitäten gelten.
+* **Activities**: Eine Aktivität ist eine Aufgabe, die ausgeführt werden soll. Die verschiedenen verfügbaren Aktivitäten werden im Diagramm durch Symbole dargestellt. Jede Aktivität verfügt über bestimmte Eigenschaften sowie andere Eigenschaften, die für alle Aktivitäten gelten.
 
    In einem Workflow-Diagramm kann eine einzelne Aktivität verschiedene Aufgaben auslösen. Dies ist insbesondere der Fall bei Schleifen oder wiederkehrenden Aktionen.
 
