@@ -5,15 +5,15 @@ description: Erfahren Sie, wie Sie Workflows mit Adobe Campaign Web erstellen
 badge: label="Alpha" type="Positive"
 exl-id: 8aa76369-c9f3-4c5b-9a51-101b239727e6
 source-git-commit: dd006d1e161dec49d9a1a6bcb8cb67503178479b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '160'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
 # Workflow-Ausführung starten und überwachen {#start-monitor}
 
-Nachdem Sie Ihren Workflow erstellt und die Aufgaben entworfen haben, die in der Arbeitsfläche des Workflows ausgeführt werden sollen, können Sie dessen Ausführung starten und überwachen, wie er ausgeführt wird.
+Nachdem Sie Ihren Workflow erstellt und die Aufgaben entworfen haben, die in der Arbeitsfläche des Workflows ausgeführt werden sollen, können Sie dessen Ausführung starten und überwachen.
 
 * Wie der Workflow ausgeführt wird
 
