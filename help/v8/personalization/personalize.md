@@ -7,10 +7,10 @@ role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
 badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
+source-git-commit: 05d87fc9ff8f5e2038eba4cc9438e058566e04c8
 workflow-type: tm+mt
-source-wordcount: '656'
-ht-degree: 100%
+source-wordcount: '653'
+ht-degree: 95%
 
 ---
 
@@ -38,43 +38,6 @@ Sie können den Nachrichteninhalt wie folgt personalisieren:
     Configure conditional content to add dynamic personalization based on the recipient’s profile for example. Text blocks and/or images are inserted when a particular condition is true.
 -->
 
-## Personalisieren der Betreffzeile der E-Mail {#personalize-subject-line}
-
-Um eine Personalisierung im Feld **[!UICONTROL Betreffzeile]** der Nachricht hinzuzufügen, gehen Sie wie folgt vor:
-
-1. Klicken Sie auf **Personalisierungsdialog öffnen** rechts neben dem Feld **Betreffzeile**.
-1. Geben Sie den Inhalt der Betreffzeile ein und wählen Sie die Personalisierungsattribute, die Sie hinzufügen möchten.
-1. Klicken Sie auf **Bestätigen**, um die Eingaben zu bestätigen. Die Personalisierungsattribute werden der Betreffzeile hinzugefügt.
-
-![](assets/perso-subject.png)
-
-## Personalisieren des E-Mail-Inhalts {#personalize-emails}
-
-Um den E-Mail-Inhalt zu personalisieren, öffnen Sie die Nachricht im E-Mail-Designer und:
-
-1. Klicken Sie auf einen Textblock.
-1. Wählen Sie in der kontextbasierten Symbolleiste **Personalisierung hinzufügen**.
-
-   ![](assets/perso-add-to-content.png)
-
-1. Fügen Sie den Namen der Empfängerin oder des Empfängers in den Personalisierungseditor ein und bestätigen Sie die Eingabe.
-
-   ![](assets/perso-add-name.png)
-
-   Das Personalisierungsattribut wird dem E-Mail-Inhalt hinzugefügt.
-
-   Sie können den Inhalt simulieren, um das Rendering zu überprüfen. [Weitere Informationen](../preview-test/preview-content.md)
-
-   ![](assets/perso-rendering.png)
-
-Um einen Inhaltsbaustein zu Ihrer E-Mail hinzuzufügen, führen Sie dieselben Schritte aus und wählen im letzten Symbol einen Inhaltsbaustein:
-
-![](assets/perso-insert-block.png)
-
-Nach dem Einfügen wird der Inhaltsbaustein wie unten dargestellt zum E-Mail-Inhalt hinzugefügt. Er wird in der Versandvorbereitungsphase bei der Generierung der Personalisierung automatisch an das Empfängerprofil angepasst.
-
-![](assets/perso-content-block-in-email.png)
-
 
 Integrierte Inhaltsbausteine sind:
 
@@ -92,7 +55,44 @@ Integrierte Inhaltsbausteine sind:
 * **[!UICONTROL Stil der Inhalts-E-Mails]** und **[!UICONTROL Stil der Benachrichtigungen]**: Hiermit wird Code erstellt, mit dem eine E-Mail mit nativen HTML-Stilen formatiert werden kann.
 * **[!UICONTROL Abmelde-Link]**: Fügt einen Link ein, der es ermöglicht, das Abo aller Sendungen zu kündigen (Blockierungsliste). Der standardmäßig verknüpfte Inhalt ist: „Sie erhalten diese Nachricht, da Sie mit ***Name Ihres Unternehmens*** oder einem Tochterunternehmen in Kontakt standen. Um keine Nachrichten mehr von ***Name Ihres Unternehmens*** zu erhalten, klicken Sie hier.“
 
+## Personalisieren der Betreffzeile der E-Mail {#personalize-subject-line}
 
+Um eine Personalisierung im Feld **[!UICONTROL Betreffzeile]** der Nachricht hinzuzufügen, gehen Sie wie folgt vor:
+
+1. Klicken Sie auf **[!UICONTROL Personalisierungsdialog öffnen]** rechts neben dem Feld **[!UICONTROL Betreffzeile]**.
+
+   ![](assets/perso-subject.png){width="600"}
+
+1. Geben Sie den Inhalt der Betreffzeile ein und wählen Sie die Personalisierungsattribute, die Sie hinzufügen möchten.
+
+1. Klicken **[!UICONTROL Bestätigen]**** zu validieren. Die Personalisierungsattribute werden der Betreffzeile hinzugefügt.
+
+## Personalisieren des E-Mail-Inhalts {#personalize-emails}
+
+Um den E-Mail-Inhalt zu personalisieren, öffnen Sie die Nachricht im E-Mail-Designer und:
+
+1. Klicken Sie auf einen Textblock.
+1. Wählen Sie in der kontextbasierten Symbolleiste **[!UICONTROL Personalisierung hinzufügen]**.
+
+   ![](assets/perso-add-to-content.png)
+
+1. Fügen Sie den Namen der Empfängerin oder des Empfängers in den Personalisierungseditor ein und bestätigen Sie die Eingabe.
+
+   ![](assets/perso-add-name.png)
+
+   Das Personalisierungsattribut wird dem E-Mail-Inhalt hinzugefügt.
+
+   Sie können den Inhalt simulieren, um das Rendering zu überprüfen. [Weitere Informationen](../preview-test/preview-content.md)
+
+   ![](assets/perso-rendering.png)
+
+1. Um einen Inhaltsbaustein zu Ihrer E-Mail hinzuzufügen, führen Sie dieselben Schritte aus und wählen im letzten Symbol einen Inhaltsbaustein:
+
+   ![](assets/perso-insert-block.png)
+
+1. Nach dem Einfügen wird der Inhaltsbaustein dem E-Mail-Inhalt hinzugefügt. Er wird bei der Versandvorbereitung automatisch an das Empfängerprofil angepasst, wenn eine Personalisierung erstellt wird.
+
+   ![](assets/perso-content-block-in-email.png)
 
 ## Personalisieren von Links in E-Mails {#personalize-links}
 

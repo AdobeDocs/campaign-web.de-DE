@@ -4,10 +4,10 @@ title: Verfolgen von Nachrichten
 description: Erfahren Sie, wie Sie Links hinzufügen und gesendete Nachrichten verfolgen können.
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
 badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
+source-git-commit: 05d87fc9ff8f5e2038eba4cc9438e058566e04c8
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 100%
+source-wordcount: '369'
+ht-degree: 96%
 
 ---
 
@@ -33,7 +33,7 @@ Gehen Sie wie folgt vor, um Links in Ihren E-Mail-Inhalt einzufügen:
 
 1. Speichern Sie Ihre Änderungen.
 
-1. Sobald der Link erstellt ist, können Sie ihn im Bereich **[!UICONTROL Komponenteneinstellungen]** auf der rechten Seite noch ändern.
+1. Nachdem der Link erstellt wurde, können Sie ihn dennoch im **[!UICONTROL Einstellungen]** Registerkarte.
 
    * Sie können den Link bearbeiten und seine **[!UICONTROL Zielgruppe]** ändern.
    * Sie können den Link unterstreichen oder nicht, indem Sie die entsprechende Option auswählen.

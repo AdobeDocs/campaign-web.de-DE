@@ -4,10 +4,10 @@ title: Hinzufügen eines Preheaders in E-Mail-Designer
 description: Erfahren Sie, wie Sie E-Mail-Inhalte erstellen
 exl-id: 8513b069-7155-45ac-8c98-38576c9ddeda
 badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
+source-git-commit: 05d87fc9ff8f5e2038eba4cc9438e058566e04c8
 workflow-type: tm+mt
-source-wordcount: '217'
-ht-degree: 100%
+source-wordcount: '203'
+ht-degree: 96%
 
 ---
 
@@ -34,13 +34,9 @@ Gehen Sie wie folgt vor, um den Preheader einer E-Mail zu definieren:
 
    ![](assets/preheader_body.png)
 
-1. Klicken Sie in den **[!UICONTROL Texteinstellungen]** im rechten Bereich auf das Bearbeitungssymbol neben dem Feld **[!UICONTROL Preheader]**, um den Inhalt hinzuzufügen.
+1. Aus dem **[!UICONTROL Einstellungen]** -Registerkarte, fügen Sie Ihren Preheader hinzu. Sie können diesen weiter personalisieren, indem Sie auf das Symbol **[!UICONTROL Personalisierung hinzufügen]** klicken.
 
    ![](assets/preheader_body_settings.png)
-
-1. Fügen Sie Ihren Preheader hinzu. Sie können diesen weiter personalisieren, indem Sie auf das Symbol **[!UICONTROL Personalisierung hinzufügen]** klicken.
-
-   ![](assets/preheader_3.png)
 
 1. Im Fenster **[!UICONTROL Personalisierung bearbeiten]** können Sie **[!UICONTROL Inhaltsbausteine]**, **[!UICONTROL dynamische Inhalte]** oder **[!UICONTROL Personalisierungsfelder]** hinzufügen.
 

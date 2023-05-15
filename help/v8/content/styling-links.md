@@ -4,10 +4,10 @@ title: Definieren eines Stils für Links
 description: Erfahren Sie, wie Sie einen Stil für Links definieren
 exl-id: b4b79bd5-a96c-49ca-b3fe-95befef00dff
 badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
+source-git-commit: 05d87fc9ff8f5e2038eba4cc9438e058566e04c8
 workflow-type: tm+mt
-source-wordcount: '144'
-ht-degree: 100%
+source-wordcount: '143'
+ht-degree: 81%
 
 ---
 
@@ -18,7 +18,7 @@ Sie können in E-Mail-Designer einen Link unterstreichen und dessen Farbe und Zi
 
 1. Wählen Sie in einer **[!UICONTROL Text]**-Komponente, in die ein Link eingefügt ist, Ihren Link aus.
 
-1. Aktivieren Sie im Menü **[!UICONTROL Komponenteneinstellungen]** das Kontrollkästchen **[!UICONTROL Link unterstreichen]**, um den Titel zu unterstreichen.
+1. Im **[!UICONTROL Einstellungen]** Registerkarte, aktivieren **[!UICONTROL Link unterstreichen]** , damit der Titel unterstrichen wird.
 
    ![](assets/link_1.png)
 
@@ -32,7 +32,7 @@ Sie können in E-Mail-Designer einen Link unterstreichen und dessen Farbe und Zi
 
    ![](assets/link_2.png)
 
-1. Um die Farbe Ihres Links zu ändern, klicken Sie auf **[!UICONTROL Link-Farbe]** im rechten Bereich
+1. Um die Farbe Ihres Links zu ändern, klicken Sie auf **[!UICONTROL Linkfarbe]** von **[!UICONTROL Stile]** Registerkarte.
 
    ![](assets/link_3.png)
 
