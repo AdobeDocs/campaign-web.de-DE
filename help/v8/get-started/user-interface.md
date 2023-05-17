@@ -4,10 +4,10 @@ title: Erkunden der Benutzeroberfläche
 description: Web-Benutzeroberfläche von Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: 8b29c98e9cc4ca1d9c41fcc92230856bd9d140bb
+source-git-commit: ad37bf6df203bde6eaf57d35c49534e75557ae6a
 workflow-type: tm+mt
-source-wordcount: '1394'
-ht-degree: 98%
+source-wordcount: '1446'
+ht-degree: 94%
 
 ---
 
@@ -228,7 +228,7 @@ Adobe Campaign interface is designed to work optimally in the latest version of 
 ######## These blocks should be dispatched in the appropriate pages when available ###########
 ######## PLEASE DO NOT DELETE ###########
 REFER TO 
-https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E-+Official+list
+https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebUI+Contextual+Help+%3CALPHA%3E-+Official+list
 -->
 
 >[!CONTEXTUALHELP]
@@ -249,12 +249,12 @@ https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_properties"
 >title="Kampagnenerstellungs-Eigenschaften"
->abstract="Noch nicht definiert"
+>abstract="Definieren Sie Eigenschaften und Metadaten für die Kampagne."
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_schedule"
 >title="Kampagnenerstellungs-Zeitplan"
->abstract="Noch nicht definiert"
+>abstract="Definieren Sie den Zeitplan für die Kampagne."
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_properties_advanced"
@@ -264,12 +264,12 @@ https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_sent"
 >title="Gesendete Metriken"
->abstract="Noch nicht definiert"
+>abstract="Anzahl der zugestellten E-Mails."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_errors"
 >title="Fehlermetriken"
->abstract="Noch nicht definiert"
+>abstract="Anzahl der E-Mails mit Fehlerstatus."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_android_content"
@@ -284,22 +284,22 @@ https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_content"
 >title="SMS-Inhalte"
->abstract="Noch nicht definiert"
+>abstract="Definieren des SMS-Inhalts."
 
 >[!CONTEXTUALHELP]
 >id="acw_sms_preview_option_app_target"
 >title="App-Abonnenten"
->abstract="Noch nicht definiert"
+>abstract="Erstellen Sie eine Vorschau und testen Sie die Nachricht, indem Sie App-Abonnenten zur Hauptzielgruppe hinzufügen. "
 
 >[!CONTEXTUALHELP]
 >id="acw_email_preview_option_test_target"
 >title="Testpopulation"
->abstract="Noch nicht definiert"
+>abstract="Wählen Sie einen Testpopulationsmodus aus."
 
 >[!CONTEXTUALHELP]
 >id="acw_email_preview_mode"
 >title="Vorschaumodus"
->abstract="Noch nicht definiert"
+>abstract="Vorschau und Testen der Nachricht durch Einbeziehung der Testpopulation in die Hauptzielgruppe."
 
 >[!CONTEXTUALHELP]
 >id="acw_targetdata_personalization_enrichmentdata"
