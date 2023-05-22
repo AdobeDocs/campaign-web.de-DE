@@ -4,10 +4,10 @@ title: Erste Schritte mit Kampagnen
 description: Erfahren Sie, wie Sie mit kanalübergreifenden Kampagnen beginnen
 badge: label="Alpha" type="Positive"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: b542553ebde67211241bfbcf16b7b608eed275bb
+source-git-commit: 6219abe62193e3947b9d18f1b3d3e89648f3aede
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 22%
+source-wordcount: '282'
+ht-degree: 23%
 
 ---
 
@@ -28,6 +28,11 @@ In einer Cross-Channel-Kampagne nutzt eine einzelne Marketing-Kommunikation vers
 >id="acw_campaign_creation_properties"
 >title="Kampagnenerstellungs-Eigenschaften"
 >abstract="Definieren Sie Eigenschaften und Metadaten für die Kampagne."
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_properties"
+>title="Eigenschaften der Kampagne"
+>abstract="Definieren Sie Ihre Kampagneneinstellungen und Metadaten."
 
 Die Kampagneneigenschaften werden bei der Erstellung einer neuen Kampagne angezeigt.
 
