@@ -4,10 +4,10 @@ title: Erste Schritte mit Kampagnen
 description: Erfahren Sie, wie Sie mit kanalübergreifenden Kampagnen beginnen
 badge: label="Alpha" type="Positive"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: 6219abe62193e3947b9d18f1b3d3e89648f3aede
+source-git-commit: 96b4159890c1cc03e85cb93843606e810b630930
 workflow-type: tm+mt
-source-wordcount: '282'
-ht-degree: 23%
+source-wordcount: '303'
+ht-degree: 22%
 
 ---
 
@@ -19,6 +19,14 @@ Erstellen und führen Sie E-Mail-Kampagnen mit hohem Volumen aus, um personalisi
 <!--Measure the effectiveness of your deliveries with detailed reports including thecounts of opens, clicks, forwards, and more.--> Mit den Segmentierungsfunktionen von Adobe Campaign können Sie Abfragen für eine Datenbank mit hohem Datenvolumen ausführen und einfach dynamische Marketingsegmente definieren, die perfekt auf Ihre Kampagnen abgestimmt sind.
 
 ## Kanalübergreifende Kampagne erstellen {#cross-channel-campaign}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_creation_workflow"
+>title="Liste der Workflows"
+>abstract="Liste der für Ihre Kampagne verfügbaren Workflows. Verwenden Sie die Schaltfläche &quot;Workflow erstellen&quot;, um einen Workflow zu Ihrer Kampagne hinzuzufügen."
+
+
 
 In einer Cross-Channel-Kampagne nutzt eine einzelne Marketing-Kommunikation verschiedene Kanäle. Daten werden zwischen den Kanälen übergeben. Der Kunde erhält die Kommunikation über mehrere Kanäle, beispielsweise aufgrund seiner Interaktion mit der vorherigen Kommunikation.
 

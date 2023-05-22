@@ -4,10 +4,10 @@ title: Erkunden der Benutzeroberfläche
 description: Web-Benutzeroberfläche von Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: 679034d3ebae2120868ff5cd96ad2935302f86c6
+source-git-commit: 96b4159890c1cc03e85cb93843606e810b630930
 workflow-type: tm+mt
-source-wordcount: '1558'
-ht-degree: 85%
+source-wordcount: '1549'
+ht-degree: 86%
 
 ---
 
@@ -342,10 +342,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Aggregierte Berichte für Sendungen"
 >abstract="Wählen Sie mindestens zwei Sendungen aus, um einen aggregierten Datenbericht anzuzeigen."
 
->[!CONTEXTUALHELP]
->id="acw_campaign_creation_workflow"
->title="Liste der Workflows"
->abstract="Liste der für Ihre Kampagne verfügbaren Workflows."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_fields"
