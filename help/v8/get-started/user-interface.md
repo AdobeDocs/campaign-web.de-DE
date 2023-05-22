@@ -4,10 +4,10 @@ title: Erkunden der Benutzeroberfläche
 description: Web-Benutzeroberfläche von Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: 6219abe62193e3947b9d18f1b3d3e89648f3aede
+source-git-commit: 679034d3ebae2120868ff5cd96ad2935302f86c6
 workflow-type: tm+mt
-source-wordcount: '1455'
-ht-degree: 93%
+source-wordcount: '1558'
+ht-degree: 85%
 
 ---
 
@@ -234,12 +234,12 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_sms_report_overview"
 >title="Zusammenfassung des SMS-Berichts"
->abstract="Noch nicht definiert"
+>abstract="Hier erhalten Sie Informationen zu den Berichtsmetriken für Ihren SMS-Versand."
 
 >[!CONTEXTUALHELP]
 >id="acw_push_report_overview"
 >title="Zusammenfassung des Push-Berichts"
->abstract="Noch nicht definiert"
+>abstract="Entdecken Sie die Berichtsmetriken für Ihren Push-Versand."
 
 >[!CONTEXTUALHELP]
 >id="acw_push_notification_template"
@@ -250,7 +250,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_properties_advanced"
 >title="Erweiterte Attribute des Regel-Builders"
->abstract="Noch nicht definiert"
+>abstract="Verwenden Sie erweiterte Attribute, um Ihre Regel zu definieren."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_sent"
@@ -265,12 +265,12 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_android_content"
 >title="Pushen von Android-Inhalten"
->abstract="Noch nicht definiert"
+>abstract="Definieren Sie den Push-Android-Inhalt."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_ios_content"
 >title="Pushen von iOS-Inhalten"
->abstract="Noch nicht definiert"
+>abstract="Definieren Sie den Push-iOS-Inhalt."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_content"
@@ -320,32 +320,32 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_sending"
 >title="Versandberichte"
->abstract="Noch nicht definiert"
+>abstract="Prüfen Sie die Versandindikatoren für die Kampagnenberichte."
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_tracking"
 >title="Tracking-Berichte"
->abstract="Noch nicht definiert"
+>abstract="Prüfen Sie die Trackingindikatoren für die Kampagnenberichte."
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_overview"
 >title="Berichte – Übersicht"
->abstract="Noch nicht definiert"
+>abstract="Schlüsselmetriken für Ihren Versand."
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_target"
 >title="Berichte für Zielgruppenstatistiken"
->abstract="Noch nicht definiert"
+>abstract="In diesem Abschnitt werden spezifische Metriken entsprechend den Zielgruppen angezeigt."
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_selection"
->title="Aggregierte Berichte für „Versand auswählen“"
->abstract="Noch nicht definiert"
+>title="Aggregierte Berichte für Sendungen"
+>abstract="Wählen Sie mindestens zwei Sendungen aus, um einen aggregierten Datenbericht anzuzeigen."
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_workflow"
 >title="Liste der Workflows"
->abstract="Noch nicht definiert"
+>abstract="Liste der für Ihre Kampagne verfügbaren Workflows."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_fields"
@@ -370,12 +370,12 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_push_permission_for_segment"
 >title="Berechtigung erforderlich"
->abstract="Noch nicht definiert"
+>abstract="Ihr Administrator muss Ihnen die Berechtigung erteilen, bevor Sie ein Segment erstellen können."
 
 >[!CONTEXTUALHELP]
 >id="acw_push_overview_edit"
 >title="Berechtigung erforderlich"
->abstract="Noch nicht definiert"
+>abstract="Ihr Administrator muss Ihnen die Berechtigung erteilen, bevor Sie ein Segment erstellen können."
 
 >[!CONTEXTUALHELP]
 >id="acw_attributepicker_advancedfields"
@@ -402,3 +402,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Neue Quarantäne-Metrik"
 >abstract="Neue Quarantänemetrik."
 
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_sms_template_selection"
+>title="Auswahl von SMS-Vorlagen"
+>abstract="Wählen Sie eine vordefinierte Vorlage aus, um Ihren SMS-Versand zu starten."
