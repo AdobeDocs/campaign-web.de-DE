@@ -4,10 +4,10 @@ title: Erkunden der Benutzeroberfläche
 description: Web-Benutzeroberfläche von Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: ad37bf6df203bde6eaf57d35c49534e75557ae6a
+source-git-commit: 39f59160e3def8f54c61cfab9f872bc692683aa3
 workflow-type: tm+mt
-source-wordcount: '1446'
-ht-degree: 94%
+source-wordcount: '1458'
+ht-degree: 93%
 
 ---
 
@@ -246,15 +246,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Vorlage für Push-Benachrichtigungen"
 >abstract="Noch nicht definiert"
 
->[!CONTEXTUALHELP]
->id="acw_campaign_creation_properties"
->title="Kampagnenerstellungs-Eigenschaften"
->abstract="Definieren Sie Eigenschaften und Metadaten für die Kampagne."
-
->[!CONTEXTUALHELP]
->id="acw_campaign_creation_schedule"
->title="Kampagnenerstellungs-Zeitplan"
->abstract="Definieren Sie den Zeitplan für die Kampagne."
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_properties_advanced"
@@ -319,12 +310,12 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_columns"
 >title="Spaltendefinition"
->abstract="Noch nicht definiert"
+>abstract="Wählen Sie die aus der Datei einzufügenden Spalten aus."
 
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_formatting"
 >title="Formatierungsparameter"
->abstract="Noch nicht definiert"
+>abstract="Definieren Sie die Formatierungsparameter für Ihre Datei."
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_sending"
@@ -394,25 +385,25 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_attributepicker_advancedfields"
 >title="Erweiterte Attributauswahl-Felder"
->abstract="Noch nicht definiert"
+>abstract="Konfigurieren Sie Spalten mit erweiterten Feldern."
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_advancedfields"
 >title="Erweiterte Felder im Regel-Builder"
->abstract="Noch nicht definiert"
+>abstract="Konfigurieren Sie Spalten mit erweiterten Feldern."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_properties"
 >title="Eigenschaften des SMS-Versands"
->abstract="Noch nicht definiert"
+>abstract="Verwalten Sie die Eigenschaften des SMS-Versands."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_properties"
 >title="Eigenschaften von Push-Sendungen"
->abstract="Noch nicht definiert"
+>abstract="Verwalten Sie die Eigenschaften des Push-Versands."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_metrics_newquarantines"
 >title="Neue Quarantäne-Metrik"
->abstract="Noch nicht definiert"
+>abstract="Neue Quarantänemetrik."
 
