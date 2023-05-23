@@ -4,10 +4,10 @@ title: Erste Schritte mit Audiences
 description: Erfahren Sie, wie Sie Audiences in der Web-Benutzeroberfläche von Campaign verwenden.
 badge: label="Alpha" type="Positive"
 exl-id: 21bb5082-82ce-47d6-a4d4-becf44490f13
-source-git-commit: 74c2ef1376d4089968c984768ddbd63420ae2b22
+source-git-commit: 7893f3132689446db388613ad5ec033ca5f26bf5
 workflow-type: tm+mt
-source-wordcount: '137'
-ht-degree: 100%
+source-wordcount: '138'
+ht-degree: 94%
 
 ---
 
@@ -46,7 +46,7 @@ Zur Definition der Audience haben Sie folgende Möglichkeiten:
 
 * Verwenden Sie eine vorhandene Audience. [Weitere Informationen](add-audience.md)
 * Erstellen Sie eine neue Audience. [Weitere Informationen](segment-builder.md)
-* Importieren Sie eine Audience aus einer Datei. [Weitere Informationen](import-audience.md)
+* Verwenden Sie eine Audience aus einer externen Datei. [Weitere Informationen](file-audience.md)
 * Verwenden Sie eine Adobe Experience Platform-Audience. [Weitere Informationen](aep-audience.md)
 
 Darüber hinaus können Sie Kontrollgruppen definieren, um einen Teil Ihrer Audience vom Versand von Nachrichten auszuschließen und so die Wirkung Ihrer Kampagnen zu messen. [Weitere Informationen](control-group.md)
