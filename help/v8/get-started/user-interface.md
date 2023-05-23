@@ -4,9 +4,9 @@ title: Erkunden der Benutzeroberfläche
 description: Web-Benutzeroberfläche von Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: 96b4159890c1cc03e85cb93843606e810b630930
+source-git-commit: 9ec7870b54c08c86314c19693b783a0a0cfad937
 workflow-type: tm+mt
-source-wordcount: '1549'
+source-wordcount: '1527'
 ht-degree: 86%
 
 ---
@@ -302,20 +302,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Personalisierung"
 >abstract="Noch nicht definiert"
 
->[!CONTEXTUALHELP]
->id="acw_audience_fromfile_select"
->title="Datei auswählen"
->abstract="Noch nicht definiert"
-
->[!CONTEXTUALHELP]
->id="acw_audience_fromfile_columns"
->title="Spaltendefinition"
->abstract="Wählen Sie die aus der Datei einzufügenden Spalten aus."
-
->[!CONTEXTUALHELP]
->id="acw_audience_fromfile_formatting"
->title="Formatierungsparameter"
->abstract="Definieren Sie die Formatierungsparameter für Ihre Datei."
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_sending"
