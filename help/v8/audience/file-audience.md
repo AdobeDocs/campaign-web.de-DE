@@ -4,14 +4,14 @@ title: Empfänger aus einer Datei auswählen
 description: Erfahren Sie, wie Sie mit Empfängern aus einer externen Datei E-Mail-Zielgruppen erstellen können.
 badge: label="Alpha" type="Positive"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: 7893f3132689446db388613ad5ec033ca5f26bf5
+source-git-commit: 231d117247462645fe2b72f324486c4ea9122faf
 workflow-type: tm+mt
 source-wordcount: '274'
 ht-degree: 23%
 
 ---
 
-# Empfänger aus einer Datei auswählen {#audience-from-file}
+# Empfänger aus einer Datei laden {#audience-from-file}
 
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_select"
