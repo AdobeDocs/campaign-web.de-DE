@@ -4,10 +4,10 @@ title: Erkunden der Benutzeroberfläche
 description: Web-Benutzeroberfläche von Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: 9ec7870b54c08c86314c19693b783a0a0cfad937
+source-git-commit: 4ae66feeedc554d6e055f566338fdcd2de45c6d3
 workflow-type: tm+mt
-source-wordcount: '1527'
-ht-degree: 86%
+source-wordcount: '1513'
+ht-degree: 87%
 
 ---
 
@@ -273,11 +273,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >abstract="Definieren Sie den Push-iOS-Inhalt."
 
 >[!CONTEXTUALHELP]
->id="acw_deliveries_sms_content"
->title="SMS-Inhalte"
->abstract="Definieren des SMS-Inhalts."
-
->[!CONTEXTUALHELP]
 >id="acw_sms_preview_option_app_target"
 >title="App-Abonnenten"
 >abstract="Erstellen Sie eine Vorschau und testen Sie die Nachricht, indem Sie App-Abonnenten zur Hauptzielgruppe hinzufügen. "
@@ -368,11 +363,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_rulebuilder_advancedfields"
 >title="Erweiterte Felder im Regel-Builder"
 >abstract="Konfigurieren Sie Spalten mit erweiterten Feldern."
-
->[!CONTEXTUALHELP]
->id="acw_deliveries_sms_properties"
->title="Eigenschaften des SMS-Versands"
->abstract="Verwalten Sie die Eigenschaften des SMS-Versands."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_properties"

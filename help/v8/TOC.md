@@ -5,10 +5,10 @@ title: Dokumentation zu Adobe Campaign v8 Web
 description: Web-Dokumentation zu Campaign v8
 breadcrumb-title: Übersicht über Campaign
 hide: true
-source-git-commit: 7893f3132689446db388613ad5ec033ca5f26bf5
+source-git-commit: 4ae66feeedc554d6e055f566338fdcd2de45c6d3
 workflow-type: tm+mt
-source-wordcount: '259'
-ht-degree: 95%
+source-wordcount: '270'
+ht-degree: 91%
 
 ---
 
@@ -59,11 +59,13 @@ ht-degree: 95%
       + [Erste Schritte mit Push-Benachrichtigungen](push/gs-push.md)
    + SMS {#sms}
       + [Erste Schritte mit SMS-Sendungen](sms/gs-sms.md)
+      + [SMS-Versand erstellen](sms/create-sms.md)
+      + [SMS-Versand erstellen ](sms/content-sms.md)
 + Audiences und Empfänger {#audiences}
    + [Erste Schritte mit Audiences](audience/about-audiences.md)
    + [Auswählen einer bestehenden Audience](audience/add-audience.md)
    + [Erstellen einer Audience mit dem Regel-Builder](audience/segment-builder.md)
-   + [Importieren einer Audience](audience/file-audience.md)
+   + [Laden einer Audience aus einer Datei](audience/file-audience.md)
    + [Verwenden einer Adobe Experience Platform-Audience](audience/aep-audience.md)
    + [Festlegen einer Kontrollgruppe](audience/control-group.md)
 + Kanalübergreifende Kampagnen {#campaigns}
