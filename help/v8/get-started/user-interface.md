@@ -4,10 +4,10 @@ title: Erkunden der Benutzeroberfläche
 description: Web-Benutzeroberfläche von Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: fd9a5724aa9b97bffc6d143853742e0107bd3483
+source-git-commit: a1e515b1a70e8959755cace78a6999e973564153
 workflow-type: tm+mt
-source-wordcount: '1624'
-ht-degree: 75%
+source-wordcount: '1648'
+ht-degree: 74%
 
 ---
 
@@ -235,6 +235,16 @@ Adobe Campaign interface is designed to work optimally in the latest version of 
 REFER TO 
 https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebUI+Contextual+Help+%3CALPHA%3E-+Official+list
 -->
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_sms_audience"
+>title="SMS-Audience definieren"
+>abstract="Wählen Sie die beste Zielgruppe für Ihre SMS-Nachricht aus."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_audience"
+>title="Push-Audience definieren"
+>abstract="Wählen Sie die beste Zielgruppe für Ihre Push-Nachricht aus."
 
 >[!CONTEXTUALHELP]
 >id="acw_sms_report_overview"
