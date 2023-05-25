@@ -4,10 +4,10 @@ title: Erste Schritte mit Nachrichten und Sendungen in Campaign v8 Web
 description: Erfahren Sie, wie Sie Campaign Web verwenden, um mit Sendungen zu arbeiten und Nachrichten zu senden
 badge: label="Alpha" type="Positive"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: 14e9ef2a45a1c7a2c8e089c536abd950cdb1b0a3
+source-git-commit: 9f9b5b9ce08aa50986c75f1dd3afba8e2bc4f700
 workflow-type: tm+mt
-source-wordcount: '539'
-ht-degree: 38%
+source-wordcount: '604'
+ht-degree: 35%
 
 ---
 
@@ -25,7 +25,7 @@ Adobe Campaign v8 enthält die folgenden Versandkanäle:
 
 ## Erstellen eines Versands
 
-Sie können eigenständige Sendungen über die **Versand** oder Sendungen im Rahmen einer Marketingkampagne erstellen.
+Sie können eigenständige Sendungen über die **Sendungen** im linken Menü oder im Kontext einer Marketingkampagne über die Schaltfläche **Kampagnen** Menü links.
 
 >[!BEGINTABS]
 
@@ -54,6 +54,16 @@ Gehen Sie wie folgt vor, um einen eigenständigen Versand zu erstellen:
 Gehen Sie wie folgt vor, um einen Versand in einer Kampagne zu erstellen:
 
 1. Erstellen Sie eine Kampagne oder öffnen Sie eine bestehende Kampagne.
+1. Erstellen Sie einen Workflow oder öffnen Sie einen vorhandenen Workflow.
+1. Hinzufügen und Konfigurieren eines **Audience erstellen** und klicken Sie auf die `+`Schaltfläche.
+   ![](assets/add-delivery-in-wf.png)
+1. Wählen Sie eine Versandaktivität aus: E-Mail, SMS, Push-Benachrichtigung (Android) oder Push-Benachrichtigung (iOS). Weitere Informationen zu Versandkanälen und zum Definieren von Versandinhalten finden Sie in den folgenden Abschnitten:
+
+   * [E-Mail-Kanal](../email/create-email.md)
+   * [Push-Benachrichtigungskanal](../push/gs-push.md)
+   * [SMS-Kanal](../sms/create-sms.md)
+
+1. Starten Sie den Workflow und überprüfen Sie die Protokolle.
 
 Weitere Informationen zur Konfiguration einer Kampagne finden Sie unter
 
