@@ -4,10 +4,10 @@ title: Erste Schritte mit Nachrichten und Sendungen in Campaign v8 Web
 description: Erfahren Sie, wie Sie Campaign Web verwenden, um mit Sendungen zu arbeiten und Nachrichten zu senden
 badge: label="Alpha" type="Positive"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: 9f9b5b9ce08aa50986c75f1dd3afba8e2bc4f700
+source-git-commit: 048f754005744bcab5b64f265e9e9cdf9776dca8
 workflow-type: tm+mt
-source-wordcount: '604'
-ht-degree: 35%
+source-wordcount: '855'
+ht-degree: 40%
 
 ---
 
@@ -23,9 +23,9 @@ Adobe Campaign v8 enthält die folgenden Versandkanäle:
 
 * **Mobile-App-Kanal**: Mit Mobile-App-Sendungen können Sie Benachrichtigungen an iOS- und Android-Systeme senden.  Erfahren Sie, wie Sie Push-Benachrichtigungen erstellen und senden in [diese Seite](../push/gs-push.md).
 
-## Erstellen eines Versands
+## Erstellen eines Versands {#create-delivery}
 
-Sie können eigenständige Sendungen über die **Sendungen** im linken Menü oder im Kontext einer Marketingkampagne über die Schaltfläche **Kampagnen** Menü links.
+Sie können eigenständige Sendungen über die **[!UICONTROL Sendungen]** im linken Menü oder im Kontext einer Marketingkampagne über die Schaltfläche **[!UICONTROL Kampagnen]** Menü links.
 
 >[!BEGINTABS]
 
@@ -47,45 +47,62 @@ Gehen Sie wie folgt vor, um einen eigenständigen Versand zu erstellen:
 1. Verwenden Sie die  **[!UICONTROL Inhalt simulieren]** zum Testen Ihres Versands und der Personalisierungseinstellungen. Weitere Informationen zur Nachrichtensimulation finden Sie unter [diesem Abschnitt](../preview-test/preview-test.md).
 1. Klicken Sie auf  **[!UICONTROL Vorbereiten]** -Schaltfläche, um die Zielpopulation zu berechnen und die Nachrichten zu erzeugen. Der Vorbereitungsschritt kann einige Minuten dauern. Nach Abschluss der Vorbereitung sind die Nachrichten versandbereit. Im Falle eines Fehlers können Sie die **Protokolle** um Warnhinweise und Warnhinweise zu überprüfen.
 1. Überprüfen Sie die Ergebnisse und klicken Sie auf die  **[!UICONTROL Senden]** Schaltfläche zum Starten des Nachrichtenversands.
-1. Sobald Nachrichten gesendet wurden, navigieren Sie zum Abschnitt Berichte , um auf Schlüsselmetriken zuzugreifen. Weitere Informationen zu Versandberichten finden Sie in [diesem Abschnitt](../reporting/reports.md).
+1. Sobald Nachrichten gesendet wurden, navigieren Sie zum **Berichte** -Abschnitt, um auf Schlüsselmetriken zuzugreifen. Weitere Informationen zu Versandberichten finden Sie in [diesem Abschnitt](../reporting/reports.md).
 
 >[!TAB Versand in einer Kampagne erstellen]
 
 Gehen Sie wie folgt vor, um einen Versand in einer Kampagne zu erstellen:
 
-1. Erstellen Sie eine Kampagne oder öffnen Sie eine bestehende Kampagne.
+1. Erstellen Sie eine Kampagne oder öffnen Sie eine bestehende Kampagne. Weitere Informationen [Marketing-Kampagnen](../campaigns/gs-campaigns.md).
 1. Erstellen Sie einen Workflow oder öffnen Sie einen vorhandenen Workflow.
-1. Hinzufügen und Konfigurieren eines **Audience erstellen** und klicken Sie auf die `+`Schaltfläche.
+1. Hinzufügen und Konfigurieren eines **[!UICONTROL Audience erstellen]** und klicken Sie auf die `+`Schaltfläche.
+
    ![](assets/add-delivery-in-wf.png)
-1. Wählen Sie eine Versandaktivität aus: E-Mail, SMS, Push-Benachrichtigung (Android) oder Push-Benachrichtigung (iOS). Weitere Informationen zu Versandkanälen und zum Definieren von Versandinhalten finden Sie in den folgenden Abschnitten:
 
-   * [E-Mail-Kanal](../email/create-email.md)
-   * [Push-Benachrichtigungskanal](../push/gs-push.md)
-   * [SMS-Kanal](../sms/create-sms.md)
+   Die **[!UICONTROL Audience erstellen]** -Aktivität wird im Abschnitt [diesem Abschnitt](../workflows/targeting-activities.md).
 
+1. Wählen Sie eine Versandaktivität aus: **[!UICONTROL Email]**, **[!UICONTROL SMS]**, **[!UICONTROL Push-Benachrichtigung (Android)]** oder **[!UICONTROL Push-Benachrichtigung (iOS)]**. Erfahren Sie mehr über die Versandkanalaktivitäten in einem Workflow und wie Sie in diesem Versandinhalte definieren [Abschnitt](../workflows/channel-activities.md).
 1. Starten Sie den Workflow und überprüfen Sie die Protokolle.
 
-Weitere Informationen zur Konfiguration einer Kampagne finden Sie unter
+Sie können Sendungen auch in einer Kampagne hinzufügen, ohne einen Workflow zu erstellen. Navigieren Sie dazu zum **[!UICONTROL Sendungen]** auf der Registerkarte Ihrer Kampagne klicken und auf die **[!UICONTROL Versand erstellen]** Schaltfläche.
+
+![](assets/new-campaign-delivery.png)
+
+Konfigurationsschritte ähneln den Schritten für eigenständige Sendungen.
+
+Weiterführende Informationen zur Konfiguration einer Kampagne und zur Verwaltung von Sendungen einer Kampagne finden Sie im Abschnitt [diesem Abschnitt](../campaigns/gs-campaigns.md).
 
 >[!ENDTABS]
 
 
-## Auswahl der Versandart für Ihre Nachrichten{#gs-send-msg}
-
-Sobald Ihre Nachricht erstellt und ihr Inhalt entworfen und getestet wurde, können Sie wählen, wie Sie sie versenden möchten.
-
-Campaign bietet eine Reihe von Funktionen, um:
-
-* Manuelles Senden von Nachrichten an die Hauptzielgruppe
-
-* Senden von Nachrichten, die einer [Marketing-Kampagne](../campaigns/gs-campaigns.md) zugeordnet sind
-
-* Senden von Nachrichten über einen [Workflow](../workflows/channel-activities.md)
-
-
 ## Hinzufügen von Personalisierung{#personalization}
 
-Nachrichten, die von Adobe Campaign versendet werden, können auf verschiedene Weise personalisiert werden
+Nachrichten, die von Adobe Campaign versendet werden, können auf verschiedene Weise personalisiert werden. [Weitere Informationen zu Personalisierungsfunktionen](../personalization/personalize.md).
+
+Verwenden Sie Campaign, um dynamische Inhalte zu erstellen und personalisierte Nachrichten zu versenden. Personalisierungsfunktionen können kombiniert werden, um Ihre Nachrichten zu verbessern und ein individuelles Benutzererlebnis zu schaffen.
+
+Sie können den Nachrichteninhalt wie folgt personalisieren:
+
+* Einfügen von dynamischen **Personalisierungsfeldern**
+
+   Personalisierungsfelder werden für die oberste Ebene der Nachrichtenpersonalisierung verwendet. Sie können jedes in der Datenbank verfügbare Feld aus dem Personalisierungseditor auswählen. Für einen Versand können Sie jedes Feld auswählen, das sich auf die Empfängerin oder den Empfänger, die Nachricht oder den Versand bezieht. Diese Personalisierungsattribute können in die Betreffzeile oder in den Text Ihrer Nachrichten eingefügt werden. [Weitere Informationen](../personalization/personalize.md)
+
+* Einfügen von vordefinierten **Inhaltsbausteinen**
+
+   Campaign verfügt über eine Reihe von Gestaltungsbausteinen, die ein bestimmtes Rendering ermöglichen, das Sie in Ihre Sendungen einfügen können. Sie können zum Beispiel ein Logo, eine Grußbotschaft oder einen Link zur Mirror-Seite der Nachricht hinzufügen. Inhaltsbausteine sind über einen eigenen Eintrag im Personalisierungseditor verfügbar. [Weitere Informationen](../personalization/personalize.md#ootb-content-blocks)
+
+* Erstellen **bedingter Inhalte**
+
+   Konfigurieren Sie bedingte Inhalte, um beispielsweise eine dynamische Personalisierung basierend auf dem Empfängerprofil hinzuzufügen. Textblöcke und/oder Bilder werden eingefügt, wenn eine bestimmte Bedingung erfüllt ist. [Weitere Informationen](../personalization/conditions.md)
+
+* Hinzufügen **personalisierte Angebote**
+
+   Fügen Sie je nach Empfänger-Standort, aktuellem Wetter oder letzter Bestellung personalisierte Angebote in Ihren Nachrichteninhalt ein.
+
+
+## Sendungen in der Vorschau ansehen und testen
+
+Nachdem der Nachrichteninhalt definiert wurde, können Sie eine Vorschau davon anzeigen, um das Rendering Ihrer Nachrichten zu steuern, und die Personalisierungseinstellungen mit Testprofilen überprüfen. [Weitere Informationen](preview.md)
 
 
 ## Versand- und Trackinglogs{#gs-tracking-logs}
