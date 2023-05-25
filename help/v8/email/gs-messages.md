@@ -4,10 +4,10 @@ title: Erste Schritte mit Nachrichten und Sendungen in Campaign v8 Web
 description: Erfahren Sie, wie Sie Campaign Web verwenden, um mit Sendungen zu arbeiten und Nachrichten zu senden
 badge: label="Alpha" type="Positive"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: c5a0103cc630e3ec44747211977988145cb75a25
+source-git-commit: cd00fcf90283c99e4790789ab2375c3a1da0ce50
 workflow-type: tm+mt
-source-wordcount: '855'
-ht-degree: 40%
+source-wordcount: '959'
+ht-degree: 36%
 
 ---
 
@@ -34,6 +34,9 @@ Sie können eigenständige Sendungen über die **[!UICONTROL Sendungen]** im lin
 Gehen Sie wie folgt vor, um einen eigenständigen Versand zu erstellen:
 
 1. Navigieren Sie zum **[!UICONTROL Sendungen]** im linken Navigationsmenü und klicken Sie auf das **[!UICONTROL Versand erstellen]** Schaltfläche.
+
+   ![](assets/create-a-delivery.png)
+
 1. Wählen Sie einen Kanal für den Versand aus. Weitere Informationen zu Versandkanälen und zum Definieren von Versandinhalten finden Sie in den folgenden Abschnitten:
 
    * [E-Mail-Kanal](../email/create-email.md)
@@ -108,3 +111,21 @@ Nachdem der Nachrichteninhalt definiert wurde, können Sie eine Vorschau davon a
 ## Versand- und Trackinglogs{#gs-tracking-logs}
 
 Die Überwachung Ihrer Sendungen nach deren Versand ist ein wichtiger Schritt, um sicherzustellen, dass Ihre Marketing-Kampagnen effizient sind und Ihre Kunden erreichen. Sie können nach dem Versand überwachen sowie nachvollziehen, wie Zustellungsfehler und Quarantänen gehandhabt werden.
+
+## Versand duplizieren{#delivery-duplicate}
+
+Sie können eine Kopie eines bestehenden Versands entweder in der Versandliste oder im Versand-Dashboard erstellen.
+
+Gehen Sie wie folgt vor, um einen Versand aus der Versandliste zu duplizieren:
+
+1. Klicken Sie auf die Schaltfläche mit den drei Punkten rechts neben dem Namen des zu duplizierenden Versands.
+1. Auswählen  **[!UICONTROL Duplizieren]**.
+1. Duplizierung bestätigen: Das neue Versand-Dashboard wird im mittleren Bereich des Bildschirms geöffnet.
+
+
+Gehen Sie wie folgt vor, um einen Versand über sein Dashboard zu duplizieren:
+
+1. Öffnen Sie den Versand und klicken Sie auf die Schaltfläche  **[!UICONTROL ...Mehr]** im oberen Bereich des Bildschirms.
+1. Auswählen  **[!UICONTROL Duplizieren]**.
+1. Duplizierung bestätigen: Der neue Versand ersetzt den aktuellen Versand im zentralen Bildschirm.
+
