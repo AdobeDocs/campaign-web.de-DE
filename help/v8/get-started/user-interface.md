@@ -4,10 +4,10 @@ title: Erkunden der Benutzeroberfläche
 description: Web-Benutzeroberfläche von Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: a1e515b1a70e8959755cace78a6999e973564153
+source-git-commit: cd1bf4a134e302ea928f0c1ae4ef6b06a98ee6f2
 workflow-type: tm+mt
-source-wordcount: '1648'
-ht-degree: 74%
+source-wordcount: '1598'
+ht-degree: 72%
 
 ---
 
@@ -95,15 +95,15 @@ Navtree view depends on permissions (same as console).
 
 Im Bereich CAMPAIGN MANAGEMENT haben Sie Zugriff auf Marketingkampagnen, Sendungen und Workflows.
 
-* **Kampagnen** - Dies ist die Liste Ihrer Kampagnen und Kampagnenvorlagen. Standardmäßig können Sie für jede Kampagne das Start-/Ende-/Erstellungs-/Letztänderungsdatum, den aktuellen Status und den Namen des Campaign-Benutzers anzeigen, der die Kampagne erstellt hat. Sie können die Liste nach Status, Start-/Enddatum, Ordner oder erweiterten Filter filtern, um eigene Filterkriterien zu definieren.
+* **Kampagnen** - Dies ist die Liste Ihrer Kampagnen und Kampagnenvorlagen. Standardmäßig können Sie für jede Kampagne das Start-/Ende-/Erstellungs-/Letztänderungsdatum, den aktuellen Status und den Namen des Campaign-Benutzers anzeigen, der die Kampagne erstellt hat. Sie können die Liste nach Status, Start-/Enddatum, Ordner oder erweiterten Filter filtern, um eigene Filterkriterien zu definieren. Weitere Informationen zu Kampagnen [in diesem Abschnitt](../campaigns/gs-campaigns.md).
 
-* **Sendungen**: Durchsuchen Sie Ihre Sendungenliste. Standardmäßig können Sie ihren Status, das Datum der letzten Änderung sowie wichtige KPIs sehen. Sie können die Liste nach Status, Kontaktdatum oder Kanal filtern. Klicken Sie auf einen E-Mail-Versand, um sein Dashboard zu öffnen und sich einen Überblick über die Versanddetails zu verschaffen. Sendungen über andere Kanäle sind schreibgeschützt. Versandvorlagen sind auch im schreibgeschützten Modus verfügbar. Sie können sie über die Client-Konsole bearbeiten. Weitere Informationen finden Sie in dieser [Dokumentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/create-templates.html?lang=de){target="_blank"}.
+* **Sendungen**: Durchsuchen Sie Ihre Sendungenliste. Standardmäßig können Sie ihren Status, das Datum der letzten Änderung sowie wichtige KPIs sehen. Sie können die Liste nach Status, Kontaktdatum oder Kanal filtern. Klicken Sie auf einen E-Mail-Versand, um sein Dashboard zu öffnen und sich einen Überblick über die Versanddetails zu verschaffen. Sendungen über andere Kanäle sind schreibgeschützt. Weitere Informationen zu Sendungen [in diesem Abschnitt](../email/gs-messages.md).
 
    Verwenden Sie die Schaltfläche **Mehr Aktionen**, um einen Versand zu löschen oder zu duplizieren.
 
    ![](assets/more-actions.png){width="70%" align="left"}
 
-* **Workflows** - In diesem Bildschirm können Sie auf die vollständige Liste der Workflows und Workflow-Vorlagen zugreifen. Sie können den Status, das letzte oder nächste Ausführungsdatum überprüfen und einen neuen Workflow oder eine neue Workflow-Vorlage erstellen. Sie können die Liste nach denselben Kriterien filtern wie für andere Objekte. Darüber hinaus können Sie Workflows filtern, die zu einer Kampagne gehören oder nicht.
+* **Workflows** - In diesem Bildschirm können Sie auf die vollständige Liste der Workflows und Workflow-Vorlagen zugreifen. Sie können den Status, das letzte oder nächste Ausführungsdatum überprüfen und einen neuen Workflow oder eine neue Workflow-Vorlage erstellen. Sie können die Liste nach denselben Kriterien filtern wie für andere Objekte. Darüber hinaus können Sie Workflows filtern, die zu einer Kampagne gehören oder nicht. Weitere Informationen zu Workflows [in diesem Abschnitt](../workflows/gs-workflows.md).
 
 
 ### Kunden-Management
@@ -126,7 +126,6 @@ Im Bereich CAMPAIGN MANAGEMENT haben Sie Zugriff auf Marketingkampagnen, Sendung
 * **Empfänger**: Greifen Sie auf Ihre Empfängerdatenbank zu. Standardmäßig können Sie die E-Mail-Adresse sowie den Vor- und Nachnamen sehen. Diese Liste ist schreibgeschützt.
 * **Audiences**: Dies ist die Liste Ihrer Zielgruppen. Standardmäßig können Sie den Typ, die Herkunft, das Erstellungsdatum/Datum der letzten Änderung und die Kennzeichnung sehen. Sie können die Liste nach Herkunft filtern. Diese Liste ist schreibgeschützt.
 * **Abonnementlisten**: Durchsuchen Sie Ihre Abonnementlisten. Standardmäßig können Sie den Typ, den Modus und die Kennzeichnung sehen. Diese Liste ist schreibgeschützt.
-* **Zielgruppenbestimmungs-Workflows**: Greifen Sie auf Ihre Liste der Kampagnen-Workflows zu. Standardmäßig können Sie den Status, das letzte/nächste Verarbeitungsdatum und die Umgebung sehen. Sie können die Liste nach Status, Datum der letzten Verarbeitung und Workflow-Typ filtern. Auch Workflow-Vorlagen sind verfügbar. Diese Listen sind schreibgeschützt.
 
 ### Entscheidungs-Management
 
