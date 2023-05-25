@@ -4,10 +4,10 @@ title: Empfänger aus einer Datei auswählen
 description: Erfahren Sie, wie Sie mit Empfängern aus einer externen Datei E-Mail-Zielgruppen erstellen können.
 badge: label="Alpha" type="Positive"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: 231d117247462645fe2b72f324486c4ea9122faf
+source-git-commit: fd9a5724aa9b97bffc6d143853742e0107bd3483
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 23%
+source-wordcount: '288'
+ht-degree: 22%
 
 ---
 
@@ -50,6 +50,10 @@ Gehen Sie wie folgt vor, um Profile aus einer lokalen Datei direkt über die Ben
 Bei der Erstellung und Personalisierung des Nachrichteninhalts können Sie im Personalisierungseditor Felder aus der Eingabedatei auswählen.
 
 ![](assets/select-external-perso.png)
+
+>[!CAUTION]
+>
+>Sie können [Kontrollgruppen](control-group.md) beim Laden der Zielpopulation aus einer externen Datei.
 
 ## Beispieldatei {#sample-file}
 

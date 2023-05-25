@@ -4,10 +4,10 @@ title: Festlegen einer Kontrollgruppe
 description: Erfahren Sie, wie Sie in der Web-Benutzeroberfläche von Campaign eine Kontrollgruppe für Ihre Nachrichten einrichten.
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
 badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
+source-git-commit: fd9a5724aa9b97bffc6d143853742e0107bd3483
 workflow-type: tm+mt
-source-wordcount: '580'
-ht-degree: 100%
+source-wordcount: '594'
+ht-degree: 97%
 
 ---
 
@@ -29,6 +29,11 @@ Alle Profile, die bei der Versandvorbereitung zur Kontrollgruppe gehören, werde
 Um eine Kontrollgruppe zu erstellen, klicken Sie im Abschnitt **Audience** des Assistenten zur Versanderstellung auf die Schaltfläche **[!UICONTROL Kontrollgruppe festlegen]**.
 
 ![](assets/control-group1.png)
+
+>[!CAUTION]
+>
+>Kontrollgruppen können beim Laden der Zielpopulation nicht verwendet werden [aus einer externen Datei](file-audience.md).
+
 
 ## Aus Zielgruppe extrahieren {#extract-target}
 
