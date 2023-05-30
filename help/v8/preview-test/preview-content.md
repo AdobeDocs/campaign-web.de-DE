@@ -4,9 +4,9 @@ title: Vorschau von E-Mail-Inhalten
 description: Erfahren Sie, wie Sie mit der Web-Benutzeroberfläche von Campaign eine Vorschau Ihres E-Mail-Inhalts anzeigen können.
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
 badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
+source-git-commit: 0703b872bb8f452773e76f2524d47bf774c687e0
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '222'
 ht-degree: 100%
 
 ---
@@ -14,10 +14,6 @@ ht-degree: 100%
 
 # Vorschau von E-Mail-Inhalten {#preview}
 
->[!CONTEXTUALHELP]
->id="acw_homepage_card4"
->title="Intelligente Vorschau von Inhalten"
->abstract="Profildaten können verwendet werden, um vor dem Versand eine Vorschau des Inhalts der E-Mail anzuzeigen, Personalisierungsattribute zu steuern und zu überprüfen, wie der Nachrichteninhalt für die Empfangenden dargestellt wird."
 
 Die Funktion zur Inhaltssimulation in Adobe Campaign dient dazu, vor dem Versand eine Vorschau des E-Mail-Inhalts anzuzeigen, die Personalisierung zu steuern und zu überprüfen, wie die E-Mail den Empfangenden angezeigt wird.
 

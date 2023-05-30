@@ -5,10 +5,10 @@ title: Dokumentation zu Adobe Campaign v8 Web
 description: Web-Dokumentation zu Campaign v8
 breadcrumb-title: Übersicht über Campaign
 hide: true
-source-git-commit: b75c5a86f18d3750de203ea1a24b51d697946d94
+source-git-commit: 0703b872bb8f452773e76f2524d47bf774c687e0
 workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 92%
+source-wordcount: '284'
+ht-degree: 91%
 
 ---
 
@@ -86,5 +86,7 @@ ht-degree: 92%
       + [Zielgruppenbestimmungsaktivitäten](workflows/targeting-activities.md)
       + [Kanalaktivitäten](workflows/channel-activities.md)
       + [Daten-Management-Aktivitäten](workflows/data-management-activities.md)
-+ [Reporting](reporting/reports.md)
++ Reporting {#reports}
+   + [Erste Schritte mit Berichten](reporting/gs-reports.md)
+   + [Auf Versandberichte zugreifen](reporting/delivery-reports.md)
 

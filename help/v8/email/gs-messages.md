@@ -4,7 +4,7 @@ title: Erste Schritte mit Nachrichten und Sendungen in Campaign v8 Web
 description: Erfahren Sie, wie Sie Campaign Web verwenden, um mit Sendungen zu arbeiten und Nachrichten zu senden
 badge: label="Alpha" type="Positive"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: cd00fcf90283c99e4790789ab2375c3a1da0ce50
+source-git-commit: 0703b872bb8f452773e76f2524d47bf774c687e0
 workflow-type: tm+mt
 source-wordcount: '959'
 ht-degree: 36%
@@ -50,7 +50,7 @@ Gehen Sie wie folgt vor, um einen eigenständigen Versand zu erstellen:
 1. Verwenden Sie die  **[!UICONTROL Inhalt simulieren]** zum Testen Ihres Versands und der Personalisierungseinstellungen. Weitere Informationen zur Nachrichtensimulation finden Sie unter [diesem Abschnitt](../preview-test/preview-test.md).
 1. Klicken Sie auf  **[!UICONTROL Vorbereiten]** -Schaltfläche, um die Zielpopulation zu berechnen und die Nachrichten zu erzeugen. Der Vorbereitungsschritt kann einige Minuten dauern. Nach Abschluss der Vorbereitung sind die Nachrichten versandbereit. Im Falle eines Fehlers können Sie die **Protokolle** um Warnhinweise und Warnhinweise zu überprüfen.
 1. Überprüfen Sie die Ergebnisse und klicken Sie auf die  **[!UICONTROL Senden]** Schaltfläche zum Starten des Nachrichtenversands.
-1. Sobald Nachrichten gesendet wurden, navigieren Sie zum **Berichte** -Abschnitt, um auf Schlüsselmetriken zuzugreifen. Weitere Informationen zu Versandberichten finden Sie in [diesem Abschnitt](../reporting/reports.md).
+1. Sobald Nachrichten gesendet wurden, navigieren Sie zum **Berichte** -Abschnitt, um auf Schlüsselmetriken zuzugreifen. Weitere Informationen zu Versandberichten finden Sie in [diesem Abschnitt](../reporting/delivery-reports.md).
 
 >[!TAB Versand in einer Kampagne erstellen]
 

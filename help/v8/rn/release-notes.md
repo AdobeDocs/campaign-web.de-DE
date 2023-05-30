@@ -4,10 +4,10 @@ title: Versionshinweise zu Campaign Web v8
 description: Versionshinweise zu Campaign Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
+source-git-commit: 0703b872bb8f452773e76f2524d47bf774c687e0
 workflow-type: tm+mt
-source-wordcount: '416'
-ht-degree: 100%
+source-wordcount: '440'
+ht-degree: 80%
 
 ---
 
@@ -24,24 +24,29 @@ Diese moderne Web-Benutzeroberfläche von Campaign ist derzeit nur für **Alpha-
 
 Die neue Web-Benutzeroberfläche von Campaign bietet ein neues Benutzererlebnis, das mit allen Adobe Experience Cloud-Lösungen und -Programmen abgestimmt ist. Sie bietet:
 
-* Zugriff auf die neue Benutzeroberfläche und andere Adobe-Lösungen über eine einzige, gemeinsam genutzte Benutzersitzung
+* Zugriff auf die neue Benutzeroberfläche und Ihre anderen Adobe-Lösungen mit einer einzigen und freigegebenen Benutzersitzung
 * Neues Navigationserlebnis mit Zugriff auf alle Menüs und Ordner in der linken Leiste
 * Umschalter für Lösungen und Organisationen in der oberen Leiste
 * Unified Shell-Integration mit direktem Zugriff auf die Community, die Hilfe und den Support
-<!--
-No search and pulse notifications in Alpha
--->
+
+**Neue leistungsstarke Funktionen und nahtlose Prozesse**
+
+* Neu gestaltete Workflow-Arbeitsfläche zum Entwerfen und Verwalten Ihrer Prozesse
+* Dynamische Inhalte zur Bereitstellung zielgerichteter und personalisierter Erlebnisse für Ihre Zielgruppe
+* Native Integration mit Adobe Experience Platform-Zielgruppen
+* Vorlagenverwaltung für Workflows, Sendungen, Kampagnen und Inhalte
 
 Weitere Informationen über die neue Benutzeroberfläche finden Sie auf [dieser Seite](../get-started/user-interface.md).
 
-**Erstellen, Starten und Messen Ihrer E-Mail-Kampagne**
+**Kampagne erstellen, starten und messen**
 
 Verwenden Sie die neue Web-Benutzeroberfläche von Campaign für Folgendes:
 
 * Erstellen personalisierter E-Mail-Inhalte mit dem E-Mail-Designer – [Weitere Informationen](../content/edit-content.md)
+* Senden Sie kanalübergreifende Kampagnen, einschließlich SMS- und Push-Benachrichtigungen.
 * Definieren von Audiences mit dem Regel-Builder – [Weitere Informationen](../audience/about-audiences.md)
 * Vorschau, Testen und Senden Ihrer E-Mail-Nachrichten – [Weitere Informationen](../monitor/prepare-send.md)
-* Überwachen, Senden und Messen von Ergebnissen mit integrierten Berichten – [Weitere Informationen](../reporting/reports.md)
+* Überwachen, Senden und Messen von Ergebnissen mit integrierten Berichten – [Weitere Informationen](../reporting/delivery-reports.md)
 
 <!--
 add info somewhere to remind users that
@@ -62,12 +67,9 @@ Bestehende Campaign-Benutzende sollten beachten, dass einige Konzepte entspreche
 
 ## Einschränkungen{#limitations-alpha}
 
-Einige wichtige Funktionen von Campaign, wie z. B. kanalübergreifende Kampagnen und Workflow-Management, stehen ab der Beta-Version zur Verfügung.
-
 Für diese Alpha-Version gelten die folgenden Einschränkungen:
 
-* Die einzigen bearbeitbaren Objekte sind Sendungen. Alle weiteren sind schreibgeschützt. Verwenden Sie Filter, um alle zu durchsuchen.
-* Diese Version wurde für gelegentliche E-Mail-Kampagnen entwickelt. Andere Kanäle werden noch nicht unterstützt.
+* Die einzigen bearbeitbaren Objekte sind Sendungen, Kampagnen, Workflows, Zielgruppen und Vorlagen. Alle weiteren sind schreibgeschützt. Verwenden Sie Filter, um alle zu durchsuchen.
 * Die Benutzeroberfläche „Administration“ ist nicht verfügbar.
 * Reporting-Metriken (wie Öffnungen und Tracking-Daten) werden stündlich aktualisiert.
 * Die KPIs im Versand-Dashboard werden alle 5 Minuten aktualisiert. – aber die Versandvorbereitung erfolgt in Echtzeit.
