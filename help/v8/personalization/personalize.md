@@ -7,15 +7,19 @@ role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
 badge: label="Alpha" type="Positive"
-source-git-commit: 048f754005744bcab5b64f265e9e9cdf9776dca8
+source-git-commit: 48d5684201f006add0ceb467129dbbcf98465c5b
 workflow-type: tm+mt
-source-wordcount: '686'
-ht-degree: 94%
+source-wordcount: '824'
+ht-degree: 78%
 
 ---
 
 
 # Personalisieren von Inhalten{#add-personalization}
+
+Um jede Marketing-Kampagne optimal zu nutzen, bietet Ihnen Adobe Campaign eine Möglichkeit, benutzerdefinierte Inhalte bereitzustellen, die Kundinnen und Kunden auf ihrer Ebene ansprechen. Verwenden Sie auf der Basis von Profildaten Personalisierungsfunktionen, um ein benutzerdefiniertes Erlebnis für verschiedene Gruppen und Personen zu erstellen: Sie können Ihre Nachrichten an jeden einzelnen Empfänger anpassen, indem Sie die vorhandenen Daten und Informationen nutzen. Dies können Vornamen, Interessen, Wohnorte, bisherige Käufe und vieles mehr sein.
+
+Verwenden Sie Campaign, um dynamische Inhalte zu erstellen und personalisierte Nachrichten zu versenden. Personalisierungsfunktionen können kombiniert werden, um Ihre Nachrichten zu verbessern und ein individuelles Benutzererlebnis zu schaffen.
 
 Sie können den Nachrichteninhalt wie folgt personalisieren:
 
@@ -29,26 +33,27 @@ Sie können den Nachrichteninhalt wie folgt personalisieren:
 
 * Einfügen von vordefinierten **Inhaltsbausteinen**
 
-   Campaign verfügt über eine Reihe von Gestaltungsbausteinen, die ein bestimmtes Rendering ermöglichen, das Sie in Ihre Sendungen einfügen können. Sie können zum Beispiel ein Logo, eine Grußbotschaft oder einen Link zur Mirror-Seite der Nachricht hinzufügen. Inhaltsbausteine sind über einen eigenen Eintrag im Personalisierungseditor verfügbar.
+   Campaign verfügt über eine Reihe von Gestaltungsbausteinen, die ein bestimmtes Rendering ermöglichen, das Sie in Ihre Sendungen einfügen können. Sie können beispielsweise ein Logo, eine Grußnachricht oder einen Link zur Mirrorseite einer E-Mail-Nachricht hinzufügen. Inhaltsbausteine sind über einen eigenen Eintrag im Personalisierungs-Editor verfügbar.
 
    ![](assets/perso-content-blocks.png)
 
 * Erstellen **bedingter Inhalte**
 
-   Konfigurieren Sie bedingte Inhalte, um beispielsweise eine dynamische Personalisierung basierend auf dem Empfängerprofil hinzuzufügen. Textblöcke und/oder Bilder werden eingefügt, wenn eine bestimmte Bedingung erfüllt ist.
+   Konfigurieren Sie bedingte Inhalte, um beispielsweise eine dynamische Personalisierung basierend auf dem Empfängerprofil hinzuzufügen. Textblöcke und/oder Bilder werden eingefügt, wenn eine bestimmte Bedingung erfüllt ist. Sie können die alternative Version des Inhalts definieren, wenn die Bedingung nicht wahr ist.
 
 
-## Personalisieren der Betreffzeile der E-Mail {#personalize-subject-line}
+## Betreffzeile einer Nachricht personalisieren {#personalize-subject-line}
 
 Um eine Personalisierung im Feld **[!UICONTROL Betreffzeile]** der Nachricht hinzuzufügen, gehen Sie wie folgt vor:
 
-1. Klicken Sie auf **[!UICONTROL Personalisierungsdialog öffnen]** rechts neben dem Feld **[!UICONTROL Betreffzeile]**.
+1. Öffnen Sie einen Versand und klicken Sie auf **[!UICONTROL Inhalt bearbeiten]**.
+1. Klicken Sie auf **[!UICONTROL Personalisierungsdialogfeld öffnen]** rechts neben dem **[!UICONTROL Betreff]** -Feld für E-Mails oder **[!UICONTROL Titel]** Felder für Push-/SMS-Sendungen.
 
    ![](assets/perso-subject.png){width="600"}
 
-1. Geben Sie den Inhalt der Betreffzeile ein und wählen Sie die Personalisierungsattribute, die Sie hinzufügen möchten.
+1. Geben Sie die Betreffzeile oder den Titel ein und wählen Sie die hinzuzufügenden Personalisierungsattribute aus.
 
-1. Klicken **[!UICONTROL Bestätigen]**** zu validieren. Die Personalisierungsattribute werden der Betreffzeile hinzugefügt.
+1. Klicken Sie auf **[!UICONTROL Bestätigen]**, um die Eingaben zu bestätigen. Die Personalisierungsattribute werden dem Inhalt hinzugefügt.
 
 ## Personalisieren des E-Mail-Inhalts {#personalize-emails}
 
