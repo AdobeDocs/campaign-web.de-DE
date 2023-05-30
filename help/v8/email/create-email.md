@@ -4,15 +4,20 @@ title: Senden Ihrer ersten E-Mail
 description: Erfahren Sie, wie Sie Ihre erste E-Mail mit der Web-Benutzeroberfläche von Campaign senden.
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Alpha" type="Positive"
-source-git-commit: 6322e9cd45b9158c207415d662670becab2c3332
+source-git-commit: 598caf335db5b46036c8b6da92f4a9591089a0f4
 workflow-type: tm+mt
-source-wordcount: '1308'
-ht-degree: 99%
+source-wordcount: '1333'
+ht-degree: 94%
 
 ---
 
 
 # Senden Ihrer ersten E-Mail {#first-email}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_card3"
+>title="Erste E-Mail mit Adobe Campaign senden"
+>abstract="Erfahren Sie, wie Sie mit Email Designer Inhalte erstellen, eine Vorschau anzeigen und testen und eine E-Mail an eine bestehende Audience senden können."
 
 Erfahren Sie, wie Sie Ihre erste E-Mail an eine bestimmte Zielgruppe senden. In diesem Anwendungsfall planen Sie den Versand einer E-Mail an Silber- und Gold-Mitglieder des Treueprogramms zu einem bestimmten Datum.
 
@@ -20,7 +25,7 @@ Die E-Mail basiert auf einer vordefinierten Design-Vorlage und enthält auch per
 
 ![](assets/delivery-list.png)
 
-## Erstellen der E-Mail {#create-email}
+## E-Mail-Versand erstellen {#create-email}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_template_selection"
@@ -32,7 +37,9 @@ Die E-Mail basiert auf einer vordefinierten Design-Vorlage und enthält auch per
 >title="E-Mail-Eigenschaften"
 >abstract="Die Eigenschaften sind die üblichen Versandparameter, nach denen ein Versand benannt und klassifiziert werden kann. Wenn der Versand auf einem erweiterten Schema basiert, das in der Adobe Campaign v8-Konsole definiert ist, stehen einige bestimmte **benutzerdefinierte Optionen** zur Verfügung."
 
-1. Um einen neuen Versand zu erstellen, navigieren Sie zum Menü **[!UICONTROL Sendungen]** in der linken Leiste und klicken Sie auf die Schaltfläche **[!UICONTROL Versand erstellen]**.
+Gehen Sie wie folgt vor, um einen neuen Versand zu erstellen:
+
+1. Navigieren Sie zum **[!UICONTROL Sendungen]** in der linken Leiste auf und klicken Sie auf das  **[!UICONTROL Versand erstellen]** Schaltfläche.
 
 1. Wählen Sie **[!UICONTROL E-Mail]** als Kanal und eine Vorlage aus.
 
@@ -60,11 +67,6 @@ Die E-Mail basiert auf einer vordefinierten Design-Vorlage und enthält auch per
    Erweiterte Einstellungen wie Typologieregeln und Zielgruppen-Mappings sind über die Schaltfläche neben dem Versandnamen zugänglich. Diese Einstellungen sind zwar in der ausgewählten Vorlage vorkonfiguriert, können jedoch für diese E-Mail nach Bedarf bearbeitet werden.
 
 ## Erstellen des E-Mail-Inhalts {#create-content}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_card3"
->title="Entwerfen von E-Mail-Inhalten"
->abstract="Einführung in die Verwendung von E-Mail-Designer."
 
 Detaillierte Informationen zur Konfiguration von E-Mail-Inhalten finden Sie in [diesem Abschnitt](../content/edit-content.md).
 
