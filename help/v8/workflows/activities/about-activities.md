@@ -4,23 +4,31 @@ title: Arbeiten mit Workflow-Aktivitäten
 description: Erfahren Sie, wie Workflow-Aktivitäten ausgeführt werden
 badge: label="Alpha" type="Positive"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: 2172d159b9d43b18ebb56f5bbbb806884db14346
+source-git-commit: 4c0157c0457d1d6fa3194463adef8572017af8f0
 workflow-type: tm+mt
-source-wordcount: '224'
-ht-degree: 95%
+source-wordcount: '355'
+ht-degree: 53%
 
 ---
 
 
 # Über Workflow-Aktivitäten {#workflow-activities}
 
+Workflow-Aktivitäten sind in drei Kategorien unterteilt. Je nach Kontext können die verfügbaren Aktivitäten unterschiedlich sein.
+
+Alle Aktivitäten werden in den folgenden Abschnitten beschrieben:
+
+* [Zielgruppenaktivitäten](#targeting)
+* [Kanalaktivitäten](#channel)
+* [Flusssteuerungsaktivitäten](#flow-control)
+
 ## Zielgruppenbestimmungsaktivitäten {#targeting}
 
-Mit diesen Aktivitäten können Sie eine oder mehrere Zielgruppen erstellen, indem Sie Mengen definieren und diese Mengen durch Bilden von Schnittmengen, Vereinigungsmengen oder Ausschlüssen aufteilen oder kombinieren.
+Diese Aktivitäten dienen der Zielgruppenbestimmung, Manipulation und Anreicherung von Populationsdaten. Damit können Sie eine oder mehrere Zielgruppen erstellen, indem Sie eine Zielgruppe definieren und diese mithilfe von Schnittmengen-, Vereinigungs- oder Ausschlussvorgängen teilen oder kombinieren.
 
-* [Zielgruppe aufbauen](build-audience.md)
-* [Kombinieren](combine.md)
-* [Anreicherung](enrichment.md)
+* Die [Audience erstellen](build-audience.md) ermöglicht die Bestimmung der Zielpopulation. Sie können entweder eine vorhandene Zielgruppe auswählen oder den Regel-Builder verwenden, um Ihre eigene Abfrage zu definieren.
+* Die [Kombinieren](combine.md) -Aktivität ermöglicht die Segmentierung Ihrer eingehenden Population. Sie können eine Vereinigung, eine Schnittmenge oder einen Ausschluss verwenden.
+* Die [Anreicherung](enrichment.md) -Aktivität können Sie zusätzliche Daten definieren, die in Ihrem Workflow verarbeitet werden sollen. Mit dieser Aktivität können Sie die eingehende Transition nutzen und die Aktivität so konfigurieren, dass die ausgehende Transition mit zusätzlichen Daten ergänzt wird.
 
 ## Kanalaktivitäten {#channel}
 
@@ -30,26 +38,18 @@ Sie können beispielsweise eine Begrüßungs-E-Mail-Kampagne erstellen, die eine
 
 Mithilfe von Kanalaktivitäten können Sie umfassende, personalisierte Kampagnen erstellen, die Kundinnen und Kunden über mehrere Touchpoints hinweg ansprechen und Konversionen fördern.
 
-Kanalaktivitäten können über die Palette auf der linken Bildschirmseite im Bereich „Kanäle“ aufgerufen werden.
-
 * [E-Mail](email.md)
 * [Push-Benachrichtigung](push.md)
 * [SMS](sms.md)
 
 ## Flusssteuerungsaktivitäten {#flow-control}
 
-Inhalt TBD
+Die folgenden Aktivitäten dienen der Anordnung und Ausführung von Workflows. Sie ermöglichen die Koordinierung der anderen Aktivitäten:
 
-<!--à reformuler-->Mit diesen Aktivitäten können Sie eine oder mehrere Zielgruppen erstellen, indem Sie Mengen definieren und diese Mengen durch Bilden von Schnittmengen, Vereinigungsmengen oder Ausschlüssen aufteilen oder kombinieren.
-
-Flusssteuerungsaktivitäten dienen zur Koordinierung der Workflow-Aktivitäten.
-
-
-* [Und-Verknüpfung](and-join.md)
-* [Ende](end.md)
-* [Verzweigung](fork.md)
-* [Warten](wait.md)
-
+* Die [Und-Verknüpfung](and-join.md) ermöglicht die Synchronisation mehrerer Ausführungszweige eines Workflows.
+* Die [Ende](end.md) -Aktivität ist optional. Sie können für
+* Eine [Verzweigung](fork.md) erzeugt ausgehende Transitionen, um mehrere Workflow-Aktivitäten parallel zu starten.
+* Die [Warten](wait.md)-Aktivität ermöglicht das zeitweise Aussetzen der Ausführung eines Teils eines Workflows.
 
 <!--
 ## Data management activities {#data-management}

@@ -3,9 +3,9 @@ audience: end-user
 title: Verwenden der Workflow-Aktivität Audience erstellen
 description: Erfahren Sie, wie Sie die Workflow-Aktivität Audience erstellen verwenden.
 badge: label="Alpha" type="Positive"
-source-git-commit: 2172d159b9d43b18ebb56f5bbbb806884db14346
+source-git-commit: 4c0157c0457d1d6fa3194463adef8572017af8f0
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: '191'
 ht-degree: 10%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 10%
 
 # Zielgruppe aufbauen {#build-audience}
 
-Mithilfe dieser Aktivität können Sie eine Audience definieren. Sie können entweder eine vorhandene Campaign-Komponente auswählen oder den Regel-Builder verwenden, um Ihre eigene Abfrage zu definieren.
+Mithilfe dieser Aktivität können Sie eine Audience definieren. Sie können entweder eine vorhandene Zielgruppe auswählen oder den Regel-Builder verwenden, um Ihre eigene Abfrage zu definieren.
 
 <!--
 The **Build audience** activity can be placed at the beginning of the workflow or after any other activity. Any activity can be placed after the **Build audience**.
