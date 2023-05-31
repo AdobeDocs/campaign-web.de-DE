@@ -4,10 +4,10 @@ title: Erstellen von Workflows mit Adobe Campaign Web
 description: Erfahren Sie, wie Sie Workflows mit Adobe Campaign Web erstellen
 badge: label="Alpha" type="Positive"
 exl-id: 7ac8eedf-c141-4a61-b4d3-d81f99247c6d
-source-git-commit: ad5a995563c3192a73e1658878eeb58ce55fc24c
-workflow-type: ht
-source-wordcount: '839'
-ht-degree: 100%
+source-git-commit: 696fa6192c16f8fd1d2dd77ad533203277f8a2dd
+workflow-type: tm+mt
+source-wordcount: '867'
+ht-degree: 96%
 
 ---
 
@@ -32,6 +32,9 @@ Definieren der über die Schaltfläche in der Workflow-Arbeitsfläche verfügbar
 * Interner Name
 * Ordner
 * Verknüpfte Kampagne > kann sie ändern. Wenn ja, wird der Workflow aus der aktuellen Kampagne entfernt und in der neuen verknüpften Kampagne angezeigt
+
+   Bei der Erstellung eines Workflows innerhalb einer Kampagne wird Ihnen ein zusätzliches Kampagnenfeld angezeigt, mit dem Sie die mit dem Workflow verknüpfte Kampagne einfach identifizieren und darauf zugreifen können.
+
 * Sie können beispielsweise eine bestimmte Zeitzone definieren, die standardmäßig in allen Aktivitäten des Workflows verwendet werden soll. Standardmäßig ist die Zeitzone des Workflows die für den aktuellen Campaign-Benutzer bzw. die aktuelle Campaign-Benutzerin definierte Zeitzone.
 * Supervisor: Wenn ein Workflow fehlerhaft ist, werden die zur Workflow-Überwachungsgruppe gehörenden Benutzer per E-Mail benachrichtigt, sofern ihre E-Mail-Adresse in ihrem Profil angegeben ist. Diese Gruppe ist im Feld **[!UICONTROL Verantwortliche(r)]** der Workflow-Eigenschaften ausgewählt.
 * Beschreibung
