@@ -4,10 +4,10 @@ title: Erste Schritte mit Campaign v8 Web
 description: Erste Schritte mit Campaign v8 Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 badge: label="Alpha" type="Positive"
-source-git-commit: 0703b872bb8f452773e76f2524d47bf774c687e0
+source-git-commit: f2c7d5e56a4573ca37caa8524dd2207443400644
 workflow-type: tm+mt
-source-wordcount: '404'
-ht-degree: 100%
+source-wordcount: '418'
+ht-degree: 94%
 
 ---
 
@@ -15,8 +15,8 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card1"
->title="Erste Schritte"
->abstract="Entdecken Sie wichtige Funktionen, die Benutzeroberfläche und globale Richtlinien."
+>title="Neue Funktionen"
+>abstract="Entdecken Sie die neue Campaign-Webbenutzeroberfläche, die neuesten Verbesserungen, die wichtigsten Funktionen und die Verwendung dieser Funktionen zum Erstellen kanalübergreifender Kampagnen für Ihre Zielgruppen."
 
 
 Adobe Campaign bietet eine Plattform für die Gestaltung kanalübergreifender Kundenerlebnisse und eine Umgebung für die visuelle Kampagnenorchestrierung, die Verwaltung von Interaktionen in Echtzeit und die kanalübergreifende Ausführung.
