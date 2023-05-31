@@ -5,10 +5,10 @@ title: Dokumentation zu Adobe Campaign v8 Web
 description: Web-Dokumentation zu Campaign v8
 breadcrumb-title: Übersicht über Campaign
 hide: true
-source-git-commit: b07d30f93f100f97e972b933710a7850c55f8d70
+source-git-commit: 2172d159b9d43b18ebb56f5bbbb806884db14346
 workflow-type: tm+mt
-source-wordcount: '271'
-ht-degree: 92%
+source-wordcount: '287'
+ht-degree: 91%
 
 ---
 
@@ -81,7 +81,18 @@ ht-degree: 92%
       + [Erstellen eines Workflows](workflows/create-workflow.md)
       + [Konfigurieren von Workflow-Einstellungen](workflows/workflow-settings.md)
       + [Starten und Überwachen eines Workflows](workflows/start-monitor-workflows.md)
-   + [Workflow-Aktivitäten](workflows/workflow-activities.md)
+   + Arbeiten mit Workflow-Aktivitäten {#design-workflows}
+      + [Über Workflow-Aktivitäten](workflows/activities/about-activities.md)
+      + [Und-Verknüpfung](workflows/activities/and-join.md)
+      + [Zielgruppe aufbauen](workflows/activities/build-audience.md)
+      + [Kombinieren](workflows/activities/combine.md)
+      + [E-Mail](workflows/activities/email.md)
+      + [Ende](workflows/activities/end.md)
+      + [Anreicherung](workflows/activities/enrichment.md)
+      + [Verzweigung](workflows/activities/fork.md)
+      + [Push-Benachrichtigung](workflows/activities/push.md)
+      + [SMS](workflows/activities/sms.md)
+      + [Warten](workflows/activities/wait.md)
 + Reporting {#reports}
    + [Erste Schritte mit Berichten](reporting/gs-reports.md)
    + [Auf Versandberichte zugreifen](reporting/delivery-reports.md)
