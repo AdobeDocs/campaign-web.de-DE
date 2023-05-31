@@ -4,9 +4,9 @@ title: Erstellen von Workflows mit Adobe Campaign Web
 description: Erfahren Sie, wie Sie Workflows mit Adobe Campaign Web erstellen
 badge: label="Alpha" type="Positive"
 exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
-source-git-commit: 696fa6192c16f8fd1d2dd77ad533203277f8a2dd
+source-git-commit: f3474086eb3b44f07ab1020f1ddc6cad394c50c4
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '640'
 ht-degree: 8%
 
 ---
@@ -28,13 +28,15 @@ Der erste Schritt zur Erstellung Ihres Workflows im Campaign v8 Web besteht dari
    * **Eigenständiger Workflow**: Navigieren Sie zum Menü Workflows und klicken Sie oben rechts auf die Schaltfläche Workflow erstellen .
    * **Kampagnen-Workflow:** Navigieren Sie zum Menü Kampagnen und öffnen Sie die Kampagne, in der Sie einen neuen Workflow erstellen möchten. Klicken Sie auf die Schaltfläche Workflow erstellen in der oberen rechten Ecke der Registerkarte Workflows .
 
-1. Das Dialogfeld Eigenschaften des Workflows wird angezeigt. Wählen Sie die Vorlage aus, die zum Erstellen des Workflows verwendet werden soll, und geben Sie einen Namen an.
-
-   Workflow-Vorlagen enthalten vorkonfigurierte Aktivitäten und allgemeine Eigenschaftskonfigurationen, die zur Erstellung neuer Workflows wiederverwendet werden können. Sie werden über die Client-Konsole erstellt. [Erfahren Sie, wie Sie mit Vorlagen arbeiten.](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html#workflow-templates)
+   Das Dialogfeld Eigenschaften des Workflows wird angezeigt.
 
    ![](assets/workflow-create.png)
 
-1. Konfigurieren Sie im Abschnitt Zusätzliche Optionen spezifische Einstellungen für den Workflow, z. B. den Speicherordner und die Zeitzone. [Erfahren Sie, wie Sie Workflow-Eigenschaften konfigurieren](workflow-settings.md)
+1. Wählen Sie die Vorlage aus, die zum Erstellen des Workflows verwendet werden soll, und geben Sie einen Titel für den Workflow an.
+
+   Workflow-Vorlagen enthalten vorkonfigurierte Aktivitäten und allgemeine Eigenschaftskonfigurationen, die zur Erstellung neuer Workflows wiederverwendet werden können. Sie werden über die Client-Konsole erstellt. [Erfahren Sie, wie Sie mit Vorlagen arbeiten.](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html#workflow-templates)
+
+1. Erweitern Sie den Abschnitt Zusätzliche Optionen , wenn Sie bestimmte Einstellungen für den Workflow konfigurieren möchten, z. B. den Speicherordner und die Zeitzone. [Erfahren Sie, wie Sie Workflow-Eigenschaften konfigurieren](workflow-settings.md)
 
 1. Wählen Sie die Schaltfläche Workflow erstellen aus, um die Erstellung Ihres Workflows zu bestätigen.
 
