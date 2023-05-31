@@ -3,21 +3,24 @@ audience: end-user
 title: E-Mail-Workflow-Aktivität verwenden
 description: Erfahren Sie, wie Sie die Workflow-Aktivität E-Mail verwenden.
 badge: label="Alpha" type="Positive"
-source-git-commit: 2172d159b9d43b18ebb56f5bbbb806884db14346
+source-git-commit: 6af0b460a3c81f063a855b2fabba221b43e4ebb9
 workflow-type: tm+mt
-source-wordcount: '84'
-ht-degree: 84%
+source-wordcount: '50'
+ht-degree: 74%
 
 ---
 
 
 # E-Mail {#email}
 
-Beschreibung, welchen Anwendungsfall Sie ausführen können (gängige andere Aktivitäten, die Sie vor oder nach der Aktivität verknüpfen können)
+<!--
+description, which use case you can perform (common other activities that you can link before of after the activity)
 
-wie die Aktivität hinzugefügt und konfiguriert wird
+how to add and configure the activity
 
-Beispiel einer konfigurierten Aktivität in einem Workflow
+example of a configured activity within a workflow
+
+-->
 
 
 Die Aktivität „E-Mail-Versand“ ermöglicht das Konfigurieren eines E-Mail-Versands innerhalb eines Workflows.
