@@ -4,10 +4,10 @@ title: Arbeiten mit Workflow-Aktivitäten
 description: Erfahren Sie, wie Workflow-Aktivitäten ausgeführt werden
 badge: label="Alpha" type="Positive"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: ec569f7d5acc06a027416794c056328d5fce1567
+source-git-commit: 7aab2145b861d411053d9490003d1dcafd3c025b
 workflow-type: tm+mt
-source-wordcount: '853'
-ht-degree: 78%
+source-wordcount: '904'
+ht-degree: 79%
 
 ---
 
@@ -40,6 +40,12 @@ So wählen Sie eine existierende Zielgruppe aus:
 ### Kombinieren {#combine}
 
 Die **Kombinieren** -Aktivität kann nach jeder anderen Aktivität platziert werden, jedoch nicht am Anfang des Workflows. Jede Aktivität kann nach der **Kombinieren**.
+
+Vereinigung: dient der Zusammenfassung der Ergebnisse mehrerer Aktivitäten in einer Zielgruppe. Siehe Abschnitt Vereinigung.
+
+Schnittmenge: dient der Extraktion der Population mit denselben eingehenden Aktivitätsergebnissen
+
+Ausschluss: dient der Erstellung einer Zielgruppe durch den Ausschluss von Zielgruppen aus der Hauptzielgruppe.
 
 ### Anreicherung {#enrichment}
 
