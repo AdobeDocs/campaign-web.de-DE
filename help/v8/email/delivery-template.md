@@ -5,7 +5,8 @@ description: Erfahren Sie, wie Sie in Campaign Versandvorlagen erstellen und ver
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
-source-git-commit: cd1bf4a134e302ea928f0c1ae4ef6b06a98ee6f2
+exl-id: 4a8513bb-8290-432a-8e40-822cd1337cb3
+source-git-commit: 78cd7bb4857475b8ccd815feda885024948f62d3
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 57%
@@ -70,5 +71,3 @@ Gehen Sie wie folgt vor, um eine Versandvorlage von Grund auf zu konfigurieren:
 1. Definieren Sie den Vorlagennamen und die Einstellungen.
 1. Klicken Sie auf **[!UICONTROL Überprüfen]** -Schaltfläche, um den Vorlageninhalt zu definieren und seine Eigenschaften zu ändern.
 1. Speichern Sie die neue Vorlage.
-
-
