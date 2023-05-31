@@ -4,10 +4,10 @@ title: Arbeiten mit Workflow-Aktivitäten
 description: Erfahren Sie, wie Workflow-Aktivitäten ausgeführt werden
 badge: label="Alpha" type="Positive"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: c134f930b253a8d4463f438176fc54e09ea21a48
+source-git-commit: ec569f7d5acc06a027416794c056328d5fce1567
 workflow-type: tm+mt
-source-wordcount: '665'
-ht-degree: 98%
+source-wordcount: '853'
+ht-degree: 78%
 
 ---
 
@@ -16,13 +16,30 @@ ht-degree: 98%
 
 ## Zielgruppenbestimmungsaktivitäten {#targeting}
 
-Inhalt TBD
-
-<!--à reformuler-->Mit diesen Aktivitäten können Sie eine oder mehrere Zielgruppen erstellen, indem Sie Mengen definieren und diese Mengen durch Bilden von Schnittmengen, Vereinigungsmengen oder Ausschlüssen aufteilen oder kombinieren.
+Mit diesen Aktivitäten können Sie eine oder mehrere Zielgruppen erstellen, indem Sie Mengen definieren und diese Mengen durch Bilden von Schnittmengen, Vereinigungsmengen oder Ausschlüssen aufteilen oder kombinieren.
 
 ### Zielgruppe aufbauen {#build-audience}
 
+Mithilfe dieser Aktivität können Sie eine Audience definieren. Sie können entweder eine vorhandene Campaign-Komponente auswählen oder den Regel-Builder verwenden, um Ihre eigene Abfrage zu definieren.
+
+Die **Audience erstellen** -Aktivität kann am Anfang des Workflows oder nach einer beliebigen anderen Aktivität positioniert werden. Jede Aktivität kann nach der **Audience erstellen**.
+
+So erstellen Sie Ihre eigene Abfrage:
+
+1. Auswählen **Erstellen Sie Ihre eigene (Abfrage)**.
+1. Wählen Sie die **Zielgruppendimension**. Die Zielgruppendimension ermöglicht die Bestimmung der vom Vorgang betroffenen Population: Empfänger, Empfänger, Betreiber, Abonnenten usw. Standardmäßig wird die Zielgruppe aus den Empfängern ausgewählt. Siehe Abschnitt [v8-Dokumentation](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html#targeting-and-filtering-dimensions){target="_blank"}.
+1. Bestätigen Sie die Angaben mit der Schaltfläche **Fortfahren**.
+1. Verwenden Sie den Regel-Builder, um Ihre Abfrage zu definieren, genauso wie Sie eine Zielgruppe beim Erstellen einer neuen E-Mail erstellen. Näheres dazu finden Sie in [diesem Abschnitt](../audience/segment-builder.md).
+
+So wählen Sie eine existierende Zielgruppe aus:
+
+1. Auswählen **Audience lesen**.
+1. Bestätigen Sie die Angaben mit der Schaltfläche **Fortfahren**.
+1. Wählen Sie Ihre Audience auf die gleiche Weise aus wie eine Audience beim Entwerfen einer neuen E-Mail. Näheres dazu finden Sie in [diesem Abschnitt](../audience/add-audience.md).
+
 ### Kombinieren {#combine}
+
+Die **Kombinieren** -Aktivität kann nach jeder anderen Aktivität platziert werden, jedoch nicht am Anfang des Workflows. Jede Aktivität kann nach der **Kombinieren**.
 
 ### Anreicherung {#enrichment}
 
