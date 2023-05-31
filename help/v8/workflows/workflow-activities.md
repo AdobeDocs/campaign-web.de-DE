@@ -4,10 +4,10 @@ title: Arbeiten mit Workflow-Aktivitäten
 description: Erfahren Sie, wie Workflow-Aktivitäten ausgeführt werden
 badge: label="Alpha" type="Positive"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: 7aab2145b861d411053d9490003d1dcafd3c025b
+source-git-commit: ebd119a38129f8576ad9b4e4b9301b116a255c9b
 workflow-type: tm+mt
-source-wordcount: '904'
-ht-degree: 79%
+source-wordcount: '1140'
+ht-degree: 68%
 
 ---
 
@@ -22,16 +22,24 @@ Mit diesen Aktivitäten können Sie eine oder mehrere Zielgruppen erstellen, ind
 
 Mithilfe dieser Aktivität können Sie eine Audience definieren. Sie können entweder eine vorhandene Campaign-Komponente auswählen oder den Regel-Builder verwenden, um Ihre eigene Abfrage zu definieren.
 
-Die **Audience erstellen** -Aktivität kann am Anfang des Workflows oder nach einer beliebigen anderen Aktivität positioniert werden. Jede Aktivität kann nach der **Audience erstellen**.
+<!--
+The **Build audience** activity can be placed at the beginning of the workflow or after any other activity. Any activity can be placed after the **Build audience**.
+-->
 
-So erstellen Sie Ihre eigene Abfrage:
+Führen Sie die folgenden Schritte aus, um die **Audience erstellen** Aktivität:
+
+1. Fügen Sie die Aktivität Audience erstellen hinzu.
+1. Titel definieren.
+1. Definieren Sie den Audience-Typ: **Erstellen eigener** oder **Audience lesen**.
+
+Gehen Sie wie folgt vor, um eine eigene Abfrage zu erstellen:
 
 1. Auswählen **Erstellen Sie Ihre eigene (Abfrage)**.
 1. Wählen Sie die **Zielgruppendimension**. Die Zielgruppendimension ermöglicht die Bestimmung der vom Vorgang betroffenen Population: Empfänger, Empfänger, Betreiber, Abonnenten usw. Standardmäßig wird die Zielgruppe aus den Empfängern ausgewählt. Siehe Abschnitt [v8-Dokumentation](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html#targeting-and-filtering-dimensions){target="_blank"}.
 1. Bestätigen Sie die Angaben mit der Schaltfläche **Fortfahren**.
 1. Verwenden Sie den Regel-Builder, um Ihre Abfrage zu definieren, genauso wie Sie eine Zielgruppe beim Erstellen einer neuen E-Mail erstellen. Näheres dazu finden Sie in [diesem Abschnitt](../audience/segment-builder.md).
 
-So wählen Sie eine existierende Zielgruppe aus:
+Gehen Sie wie folgt vor, um eine vorhandene Zielgruppe auszuwählen:
 
 1. Auswählen **Audience lesen**.
 1. Bestätigen Sie die Angaben mit der Schaltfläche **Fortfahren**.
@@ -39,13 +47,31 @@ So wählen Sie eine existierende Zielgruppe aus:
 
 ### Kombinieren {#combine}
 
-Die **Kombinieren** -Aktivität kann nach jeder anderen Aktivität platziert werden, jedoch nicht am Anfang des Workflows. Jede Aktivität kann nach der **Kombinieren**.
+Diese Aktivität ermöglicht die Verarbeitung von Sets für eingehende Daten. Sie können also verschiedene Populationen vereinen, einen Teil daraus ausschließen oder nur die in jeder der Populationen enthaltenen Datensätze verwenden. Im Folgenden finden Sie die verfügbaren Segmentierungstypen:
 
-Vereinigung: dient der Zusammenfassung der Ergebnisse mehrerer Aktivitäten in einer Zielgruppe. Siehe Abschnitt Vereinigung.
+<!--
+The **Combine** activity can be placed after any other activity, but not at the beginning of the workflow. Any activity can be placed after the **Combine**.
+-->
 
-Schnittmenge: dient der Extraktion der Population mit denselben eingehenden Aktivitätsergebnissen
+* Die **Vereinigung** ermöglicht die Zusammenfassung des Ergebnisses mehrerer Aktivitäten in einer Zielgruppe.
+* Die **Schnittmenge** ermöglicht es, nur die Elemente beizubehalten, die den verschiedenen eingehenden Populationen in der Aktivität gemein sind.
+* Die **Ausschluss** ermöglicht den Ausschluss von Elementen aus einer Population nach bestimmten Kriterien.
 
-Ausschluss: dient der Erstellung einer Zielgruppe durch den Ausschluss von Zielgruppen aus der Hauptzielgruppe.
+Führen Sie die folgenden Schritte aus, um die **Kombinieren** Aktivität:
+
+1. Fügen Sie Ihre **Kombinieren** -Aktivität zu einer der vorherigen Segmentierungsübergänge hinzu.
+1. Wählen Sie den Segmentierungstyp aus: Vereinigung, Schnittmenge oder Ausschluss.
+1. Bestätigen Sie die Angaben mit der Schaltfläche **Fortfahren**.
+1. Im **Sets zum Verbinden** alle vorherigen Aktivitäten, denen Sie beitreten möchten.
+
+Für **Vereinigung** und **Schnittmenge**, müssen Sie die **Abstimmtyp** zur Definition des Umgangs mit Duplikaten:
+
+    * Nur Schlüssel: Dies ist der Standardmodus. die Aktivität behält nur einen der Datensätze bei, wenn mehrere aus verschiedenen eingehenden Transitionen stammende Datensätze denselben Schlüssel aufweisen. Diese Option kann nur verwendet werden, wenn die eingehenden Populationen homogen sind.
+    * Auswahl an Spalten – die Abstimmung erfolgt auf Basis der von Ihnen angegebenen Spalten. Wählen Sie zunächst die die Quelldaten enthaltende Hauptmenge aus und dann die für die Herstellung der Relation zu verwendenden Spalten.
+
+Für **Schnittmenge** und **Ausschluss**, können Sie die **Abschluss generieren** -Option, wenn Sie die verbleibende Population verarbeiten möchten. Das Komplement enthält die Vereinigung der Ergebnisse aller eingehenden Aktivitäten abzüglich der Schnittmenge. Der Aktivität wird daraufhin eine zusätzliche ausgehende Transition hinzugefügt.
+
+Für **Ausschluss**, wählen Sie die **Primärer Satz** aus den eingehenden Transitionen in der **Sets zum Verbinden** Abschnitt. aus der die Elemente der anderen eingehenden Transitionen ausgeschlossen werden sollen. Die eingehenden Transitionen müssen Populationen gleichen Typs enthalten.
 
 ### Anreicherung {#enrichment}
 
@@ -93,7 +119,6 @@ Treffer des Filters visuell oder in der Code-Ansicht anzeigen
 Anreicherungsdaten in Kampagnen nutzen
 
 Wo können die Anreicherungsdaten verwendet werden: E-Mail personalisieren, andere Anwendungsfälle?
-
 
 ## Kanalaktivitäten {#channel}
 
