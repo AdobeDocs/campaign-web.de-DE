@@ -4,10 +4,10 @@ title: Versionshinweise zu Campaign Web v8
 description: Versionshinweise zu Campaign Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Alpha" type="Positive"
-source-git-commit: 0703b872bb8f452773e76f2524d47bf774c687e0
+source-git-commit: 8a6d5d0144d3efd5bcf7f6a20fa4d5a6bc13d12d
 workflow-type: tm+mt
-source-wordcount: '440'
-ht-degree: 80%
+source-wordcount: '447'
+ht-degree: 79%
 
 ---
 
@@ -70,6 +70,7 @@ Bestehende Campaign-Benutzende sollten beachten, dass einige Konzepte entspreche
 Für diese Alpha-Version gelten die folgenden Einschränkungen:
 
 * Die einzigen bearbeitbaren Objekte sind Sendungen, Kampagnen, Workflows, Zielgruppen und Vorlagen. Alle weiteren sind schreibgeschützt. Verwenden Sie Filter, um alle zu durchsuchen.
+* Zielgruppen können nicht für die zukünftige Verwendung gespeichert werden.
 * Die Benutzeroberfläche „Administration“ ist nicht verfügbar.
 * Reporting-Metriken (wie Öffnungen und Tracking-Daten) werden stündlich aktualisiert.
 * Die KPIs im Versand-Dashboard werden alle 5 Minuten aktualisiert. – aber die Versandvorbereitung erfolgt in Echtzeit.
