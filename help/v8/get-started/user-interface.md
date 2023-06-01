@@ -4,10 +4,10 @@ title: Erkunden der Benutzeroberfläche
 description: Web-Benutzeroberfläche von Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: 8032c16b20c0c6754b81be856e3053f1d90f8635
+source-git-commit: ec61c17d5a72b4d324d9a9a2cc71c85093c124ea
 workflow-type: tm+mt
-source-wordcount: '1613'
-ht-degree: 72%
+source-wordcount: '1588'
+ht-degree: 73%
 
 ---
 
@@ -241,11 +241,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >abstract="Wählen Sie die beste Zielgruppe für Ihre SMS-Nachricht aus."
 
 >[!CONTEXTUALHELP]
->id="acw_deliveries_push_audience"
->title="Push-Audience definieren"
->abstract="Wählen Sie die beste Zielgruppe für Ihre Push-Nachricht aus."
-
->[!CONTEXTUALHELP]
 >id="acw_sms_report_overview"
 >title="Zusammenfassung des SMS-Berichts"
 >abstract="Hier erhalten Sie Informationen zu den Berichtsmetriken für Ihren SMS-Versand."
@@ -254,12 +249,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_push_report_overview"
 >title="Zusammenfassung des Push-Berichts"
 >abstract="Entdecken Sie die Berichtsmetriken für Ihren Push-Versand."
-
->[!CONTEXTUALHELP]
->id="acw_push_notification_template"
->title="Vorlage für Push-Benachrichtigungen"
->abstract="Wählen Sie eine Vorlage für Push-Benachrichtigungen aus, um Ihren Push-Versand zu starten."
-
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_properties_advanced"
