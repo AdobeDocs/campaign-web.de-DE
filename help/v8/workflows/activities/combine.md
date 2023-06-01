@@ -3,10 +3,10 @@ audience: end-user
 title: Verwenden Sie die Workflow-Aktivität Kombinieren .
 description: Erfahren Sie, wie Sie die Workflow-Aktivität Kombinieren verwenden.
 badge: label="Alpha" type="Positive"
-source-git-commit: 3bbdd45571d09258bba34e22de39f5281c02d248
+source-git-commit: 98b4b43427266d5f9580733d4674db938713296d
 workflow-type: tm+mt
 source-wordcount: '439'
-ht-degree: 27%
+ht-degree: 28%
 
 ---
 
@@ -35,8 +35,8 @@ Führen Sie die folgenden Schritte aus, um die **Kombinieren** Aktivität:
 
 Für **Vereinigung** und **Schnittmenge**, müssen Sie die **Abstimmtyp** zur Definition des Umgangs mit Duplikaten:
 
-    * Nur Schlüssel: Dies ist der Standardmodus. die Aktivität behält nur einen der Datensätze bei, wenn mehrere aus verschiedenen eingehenden Transitionen stammende Datensätze denselben Schlüssel aufweisen. Diese Option kann nur verwendet werden, wenn die eingehenden Populationen homogen sind.
-    * Auswahl an Spalten – die Abstimmung erfolgt auf Basis der von Ihnen angegebenen Spalten. Wählen Sie zunächst die die Quelldaten enthaltende Hauptmenge aus und dann die für die Herstellung der Relation zu verwendenden Spalten.
+* Nur die Schlüssel – Standardmodus; die Aktivität behält nur einen der Datensätze bei, wenn mehrere aus verschiedenen eingehenden Transitionen stammende Datensätze denselben Schlüssel aufweisen. Diese Option kann nur verwendet werden, wenn die eingehenden Populationen homogen sind.
+* Auswahl an Spalten – die Abstimmung erfolgt auf Basis der von Ihnen angegebenen Spalten. Wählen Sie zunächst die die Quelldaten enthaltende Hauptmenge aus und dann die für die Herstellung der Relation zu verwendenden Spalten.
 
 Für **Schnittmenge** und **Ausschluss**, können Sie die **Abschluss generieren** -Option, wenn Sie die verbleibende Population verarbeiten möchten. Das Komplement enthält die Vereinigung der Ergebnisse aller eingehenden Aktivitäten abzüglich der Schnittmenge. Der Aktivität wird daraufhin eine zusätzliche ausgehende Transition hinzugefügt.
 
