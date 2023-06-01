@@ -1,13 +1,13 @@
 ---
 audience: end-user
-title: Auswählen einer Audience
+title: Auswählen einer bestehenden Audience
 description: Erfahren Sie, wie Sie eine Audience auswählen
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
 badge: label="Alpha" type="Positive"
-source-git-commit: 7893f3132689446db388613ad5ec033ca5f26bf5
+source-git-commit: d4645689ebaa5439a01b2f558f398cbeb79089a7
 workflow-type: tm+mt
-source-wordcount: '273'
-ht-degree: 97%
+source-wordcount: '274'
+ht-degree: 95%
 
 ---
 
@@ -23,8 +23,8 @@ In diesem Abschnitt wird beschrieben, wie Sie bei der Definition der Zielgruppe 
 
 Außerdem haben Sie folgende Möglichkeiten:
 
-* Erstellen Sie eine neue Audience. [Weitere Informationen](segment-builder.md)
-* Verwenden Sie eine Audience aus einer externen Datei. [Weitere Informationen](file-audience.md)
+* Erstellen Sie eine neue Zielgruppe. [Weitere Informationen](segment-builder.md)
+* Laden einer Audience aus einer externen Datei. [Weitere Informationen](file-audience.md)
 * Verwenden Sie eine Adobe Experience Platform-Audience. [Weitere Informationen](aep-audience.md).
 
 

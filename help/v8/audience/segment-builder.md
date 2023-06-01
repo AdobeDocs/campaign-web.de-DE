@@ -1,17 +1,17 @@
 ---
 audience: end-user
-title: Definieren von Audiences mit dem Regel-Builder
+title: Erstellen einer Zielgruppe mit dem Regel-Builder
 description: Erfahren Sie, wie Sie mit dem Segment Builder arbeiten.
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
 badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
+source-git-commit: d4645689ebaa5439a01b2f558f398cbeb79089a7
 workflow-type: tm+mt
 source-wordcount: '549'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
-# Definieren von Audiences mit dem Regel-Builder {#segment-builder}
+# Erstellen einer Zielgruppe mit dem Regel-Builder {#segment-builder}
 
 In diesem Abschnitt wird beschrieben, wie Sie beim Entwerfen einer neuen E-Mail eine Audience erstellen. Die erstellte Audience kann nur in dieser E-Mail verwendet werden.
 
