@@ -3,10 +3,10 @@ audience: end-user
 title: Verwenden der Workflow-Aktivität Audience erstellen
 description: Erfahren Sie, wie Sie die Workflow-Aktivität Audience erstellen verwenden.
 badge: label="Alpha" type="Positive"
-source-git-commit: 79e839a99b41f8ae918a5651990149c864f201e7
+source-git-commit: 9b639a533e75822570d6cc2b9752fc9380d069dd
 workflow-type: tm+mt
-source-wordcount: '193'
-ht-degree: 11%
+source-wordcount: '231'
+ht-degree: 9%
 
 ---
 
@@ -41,3 +41,7 @@ Gehen Sie wie folgt vor, um eine vorhandene Zielgruppe auszuwählen:
 1. Wählen Sie Ihre Audience auf die gleiche Weise aus wie eine Audience beim Entwerfen einer neuen E-Mail. Näheres dazu finden Sie in [diesem Abschnitt](../../audience/add-audience.md).
 
 ## Beispiel
+
+Hier ist ein Beispiel für einen Workflow mit zwei **Audience erstellen** Aktivitäten. Die erste Version richtet sich an die Pokerspieler-Audience, gefolgt von einem E-Mail-Versand. Die zweite Zielgruppe ist die Zielgruppe der VIP, gefolgt von einem SMS-Versand.
+
+![](../assets/workflow-audience-example.png)

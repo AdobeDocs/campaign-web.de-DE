@@ -4,19 +4,20 @@ title: Erstellen von Workflows mit Adobe Campaign Web
 description: Erfahren Sie, wie Sie Workflows mit Adobe Campaign Web erstellen
 badge: label="Alpha" type="Positive"
 exl-id: 7ac8eedf-c141-4a61-b4d3-d81f99247c6d
-source-git-commit: 696fa6192c16f8fd1d2dd77ad533203277f8a2dd
+source-git-commit: 806e465b7c1df6cd26d68103c45b175371d73485
 workflow-type: tm+mt
-source-wordcount: '867'
-ht-degree: 96%
+source-wordcount: '821'
+ht-degree: 63%
 
 ---
 
-# Konfigurieren der Workflow-Einstellungen {#workflow-settings}
+# Erweiterte Workflow-Einstellungen konfigurieren {#workflow-settings}
 
-Inhalt TBD
+Bei der Orchestrierung von Workflow-Aktivitäten auf der Arbeitsfläche können Sie auf erweiterte Einstellungen im Zusammenhang mit dem Workflow zugreifen. Sie können beispielsweise eine bestimmte Zeitzone für den Workflow festlegen, verwalten, wie sich der Workflow im Fehlerfall verhält, oder die Verzögerung verwalten, nach der der Workflow-Verlauf bereinigt werden soll.
 
-Definieren der über die Schaltfläche in der Workflow-Arbeitsfläche verfügbaren Einstellungen
-<!--à reformuler-->
+Klicken Sie dazu auf die Schaltfläche **[!UICONTROL Workflow-Einstellungen]** in der linken oberen Ecke der Arbeitsfläche neben der Workflow-Beschriftung.
+
+![](assets/workflow-settings.png)
 
 ## Workflow-Eigenschaften  {#properties}
 
@@ -25,19 +26,15 @@ Definieren der über die Schaltfläche in der Workflow-Arbeitsfläche verfügbar
 >title="Workflow-Eigenschaften"
 >abstract="Noch nicht definiert"
 
-(= identisch mit der Erstellung des Workflows? zu überprüfen)
+Der Abschnitt mit den Workflow-Eigenschaften enthält allgemeine Eigenschaften, auf die auch beim Erstellen des Workflows zugegriffen werden kann.
 
-* Titel
-* Zusätzliche Optionen
-* Interner Name
-* Ordner
-* Verknüpfte Kampagne > kann sie ändern. Wenn ja, wird der Workflow aus der aktuellen Kampagne entfernt und in der neuen verknüpften Kampagne angezeigt
-
-   Bei der Erstellung eines Workflows innerhalb einer Kampagne wird Ihnen ein zusätzliches Kampagnenfeld angezeigt, mit dem Sie die mit dem Workflow verknüpfte Kampagne einfach identifizieren und darauf zugreifen können.
-
-* Sie können beispielsweise eine bestimmte Zeitzone definieren, die standardmäßig in allen Aktivitäten des Workflows verwendet werden soll. Standardmäßig ist die Zeitzone des Workflows die für den aktuellen Campaign-Benutzer bzw. die aktuelle Campaign-Benutzerin definierte Zeitzone.
-* Supervisor: Wenn ein Workflow fehlerhaft ist, werden die zur Workflow-Überwachungsgruppe gehörenden Benutzer per E-Mail benachrichtigt, sofern ihre E-Mail-Adresse in ihrem Profil angegeben ist. Diese Gruppe ist im Feld **[!UICONTROL Verantwortliche(r)]** der Workflow-Eigenschaften ausgewählt.
-* Beschreibung
+* **[!UICONTROL Titel]**: Der Titel des Workflows, der in der Liste angezeigt wird.
+* **[!UICONTROL Interner Name]**: Interner Name des Workflows.
+* **[!UICONTROL Ordner]**: Der Ordner, in dem der Workflow gespeichert werden soll.
+* **[!UICONTROL Verknüpfte Kampagne]**: Dieses Feld wird angezeigt, wenn der Workflow innerhalb einer Kampagne erstellt wurde. Damit können Sie die zugehörige Kampagne öffnen.
+* **[!UICONTROL Zeitzone]**: Definieren Sie eine bestimmte Zeitzone, die standardmäßig in allen Workflow-Aktivitäten verwendet werden soll. Standardmäßig ist die Zeitzone des Workflows die für den aktuellen Campaign-Benutzer bzw. die aktuelle Campaign-Benutzerin definierte Zeitzone.
+* **[!UICONTROL Supervisor]**: Wenn ein Workflow fehlerhaft ist, werden die zur Workflow-Überwachungsgruppe gehörenden Benutzer per E-Mail benachrichtigt, sofern ihre E-Mail-Adresse in ihrem Profil angegeben ist.
+* **[!UICONTROL Beschreibung]**: Verwenden Sie dieses Feld, um eine Beschreibung Ihres Workflows anzugeben.
 
 ## Segmentierungseinstellungen
 
@@ -46,17 +43,10 @@ Definieren der über die Schaltfläche in der Workflow-Arbeitsfläche verfügbar
 >title="Segmentierungseinstellungen"
 >abstract="Noch nicht definiert"
 
-* Zielgruppenbestimmungdimension:
+* **[!UICONTROL Zielgruppendimension]**: Wählen Sie die Zielgruppendimension aus, die für die Zielgruppenbestimmung von Profilen verwendet werden soll: Empfänger, Empfänger, Betreiber, Abonnenten usw.
+* **[!UICONTROL Zwischen zwei Ausführungen die ermittelte Population festhalten]**: Standardmäßig werden nur die Arbeitstabellen der letzten Ausführung des Workflows beibehalten. Arbeitstabellen früherer Ausführungen werden durch einen technischen Workflow bereinigt, der täglich ausgeführt wird.
 
-   Bei Vorgängen zur Datensegmentierung wird dem Zielgruppenbestimmungsschlüssel in der Regel eine Filterdimension zugeordnet. Die Zielgruppendimension definiert die Population, die von einer Kampagne angesprochen werden soll: Empfänger, Kunden, Abonnenten, Benutzer etc. Die Filterdimension ermöglicht die Einschränkung der gewählten Population nach bestimmten Kriterien: Kauf eines bestimmten Produkts, Abonnement eines bestimmten Newsletters etc.
-
-* Ergebnisse festhalten: Die Option **Zwischen zwei Ausführungen die ermittelte Population festhalten** speichert temporäre Tabellen zwischen zwei Ausführungen eines Workflows.  Diese Option ist auf der Registerkarte **[!UICONTROL Allgemein]** der Workflow-Eigenschaften verfügbar und kann für Entwicklungs- und Testzwecke verwendet werden, um Daten zu überwachen und Ergebnisse zu überprüfen. Sie können diese Option in Entwicklungsumgebungen verwenden, sollten sie aber nie in Produktionsumgebungen verwenden. Die Beibehaltung temporärer Tabellen könnte dazu führen, dass die Größe der Datenbank erheblich zunimmt und letztendlich die Größenbeschränkung erreicht wird. Außerdem wird dadurch das Backup verlangsamt.
-
-   Nur die Arbeitstabellen der letzten Ausführung des Workflows werden aufbewahrt. Arbeitstabellen früherer Ausführungen werden durch den täglich durchgeführten **[!UICONTROL Bereinigungs]**-Workflow bereinigt.
-
-   >[!CAUTION]
-   >
-   >Diese Option darf **nie** in einem **Produktions**-Workflow aktiviert werden. Diese Option wird zur Analyse der Ergebnisse verwendet und ist nur für Testzwecke konzipiert. Sie darf daher nur in Entwicklungs- oder Staging-Umgebungen verwendet werden.
+   Wenn diese Option aktiviert ist, werden Arbeitstabellen auch nach Ausführung des Workflows beibehalten. Sie können sie zu Testzwecken verwenden und dürfen daher nur in Entwicklungs- oder Staging-Umgebungen verwendet werden. Sie darf nie in einem Produktions-Workflow überprüft werden.
 
 ## Workflow-Ausführungsparameter
 
