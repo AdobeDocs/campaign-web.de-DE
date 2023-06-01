@@ -4,10 +4,10 @@ title: Erste Schritte mit Workflows
 description: Erfahren Sie, wie Sie mit Workflows beginnen
 badge: label="Alpha" type="Positive"
 exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
-source-git-commit: 0703b872bb8f452773e76f2524d47bf774c687e0
+source-git-commit: 6927b92155e601656caecef1702cb774d6c895fd
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 95%
+source-wordcount: '399'
+ht-degree: 91%
 
 ---
 
@@ -47,3 +47,31 @@ Jetzt, da Sie wissen, was Workflows sind und was Sie mit ihnen in Adobe Campaign
 * Zugriff und Überwachung
 
 (Link zum Unterabschnitt TBD)
+
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td>
+<a href="access-monitor.md">
+<img alt="Zugreifen auf und Verwalten von Workflows" src="assets/do-not-localize/workflow-access.jpeg">
+</a>
+<div>
+<a href="access-monitor.md"><strong>Workflows aufrufen und verwalten</strong></a>
+</div>
+<p>
+</td>
+<td>
+<a href="create-workflow.md">
+<img alt="Lead" src="assets/do-not-localize/workflow-create.jpeg">
+</a>
+<div><a href="create-workflow.md"><strong>Erstellen und Ausführen des ersten Workflows</strong>
+</div>
+<p>
+</td>
+<td>
+<a href="activities/about-activities.md">
+<img alt="Gelegentlich" src="assets/do-not-localize/workflow-activities.jpeg">
+</a>
+<div>
+<a href="activities/about-activities.md"><strong>Arbeiten mit Workflow-Aktivitäten</strong></a>
+</div>
+<p></td>
+</tr></table>
