@@ -3,9 +3,9 @@ audience: end-user
 title: Verwenden Sie die Workflow-Aktivität Warten .
 description: Erfahren Sie, wie Sie die Workflow-Aktivität "Warten"verwenden
 badge: label="Alpha" type="Positive"
-source-git-commit: 12d87baff81298583fac12fdf04d39997e875954
+source-git-commit: 79e839a99b41f8ae918a5651990149c864f201e7
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '147'
 ht-degree: 75%
 
 ---
@@ -17,6 +17,8 @@ Die **Warten**-Aktivität ermöglicht das zeitweise Aussetzen der Ausführung ei
 
 Die **Warten**-Aktivität ermöglicht es, einen bestimmten Zeitraum zwischen der Ausführung zweier Aktivitäten zu definieren. Beispielsweise kann man mehrere Tage nach einer E-Mail-Versandaktivität warten, dann die während dieser Zeitspanne erfolgten Öffnungen und Klicks analysieren, bevor man andere Verarbeitungsschritte (Erinnerungs-E-Mail, Audience-Erstellung etc.) unternimmt.
 
+## Konfiguration    
+
 Führen Sie die folgenden Schritte aus, um die **Warten** Aktivität:
 
 1. Hinzufügen einer **Warten** in Ihren Workflow ein.
@@ -25,7 +27,6 @@ Führen Sie die folgenden Schritte aus, um die **Warten** Aktivität:
 
 1. Zeiteinheit auswählen **Zeitraum**: Sekunden, Minuten, Stunden.
 
-
-
+## Beispiel
 
 
