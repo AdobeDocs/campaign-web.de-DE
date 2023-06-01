@@ -4,9 +4,9 @@ title: Erste Schritte mit Workflows
 description: Erfahren Sie, wie Sie mit Workflows beginnen
 badge: label="Alpha" type="Positive"
 exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
-source-git-commit: 6927b92155e601656caecef1702cb774d6c895fd
+source-git-commit: 5c3e76ae3c28908144a219d77d82a1b868cdbbdc
 workflow-type: tm+mt
-source-wordcount: '399'
+source-wordcount: '387'
 ht-degree: 91%
 
 ---
@@ -41,12 +41,6 @@ Im Folgenden finden Sie einige Beispiele für die Verwendung von Workflows mit A
 ## Tauchen wir tiefer in die Materie ein
 
 Jetzt, da Sie wissen, was Workflows sind und was Sie mit ihnen in Adobe Campaign tun können, ist es an der Zeit, sich näher mit den Dokumentationsabschnitten zu befassen, um mit der Funktion zu arbeiten.
-
-* Erstellen des ersten Workflows
-* Workflows entwerfen
-* Zugriff und Überwachung
-
-(Link zum Unterabschnitt TBD)
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
