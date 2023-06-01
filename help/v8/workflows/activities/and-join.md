@@ -5,8 +5,8 @@ description: Erfahren Sie, wie Sie die Workflow-Aktivität Und-Verknüpfung verw
 badge: label="Alpha" type="Positive"
 source-git-commit: 6ed2c73a5348871348ec4cbdd89fc8119fdbc718
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '152'
+ht-degree: 21%
 
 ---
 
