@@ -3,10 +3,10 @@ audience: end-user
 title: Verwenden Sie die Workflow-Aktivität Kombinieren .
 description: Erfahren Sie, wie Sie die Workflow-Aktivität Kombinieren verwenden.
 badge: label="Alpha" type="Positive"
-source-git-commit: 12d87baff81298583fac12fdf04d39997e875954
+source-git-commit: 3bbdd45571d09258bba34e22de39f5281c02d248
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 31%
+source-wordcount: '439'
+ht-degree: 27%
 
 ---
 
@@ -46,15 +46,15 @@ Für **Ausschluss**, wählen Sie die **Primärer Satz** aus den eingehenden Tran
 
 Im folgenden Beispiel wurde ein **Vereinigung** die alle Profile der beiden Abfragen abruft: Personen zwischen 18 und 27 Jahren und Personen zwischen 34 und 40 Jahren.
 
-![](../assets/wokflow-union-example.png)
+![](../assets/workflow-union-example.png)
 
 Das folgende Beispiel zeigt die **Schnittmenge** zwischen zwei Abfrageaktivitäten. Es wird hier zum Abrufen von Profilen verwendet, die zwischen 18 und 27 Jahre alt sind und deren E-Mail-Adresse angegeben wurde.
 
-![](../assets/wokflow-intersection-example.png)
+![](../assets/workflow-intersection-example.png)
 
-Folgendes **Ausschluss** Beispiel: Zwei Abfragen, die zum Filtern von Profilen konfiguriert wurden, die zwischen 18 und 27 Jahre alt sind und eine ungültige E-Mail-Adresse aufweisen. Letztere werden dann von der Hauptmenge ausgeschlossen. Auf diese Weise wird in einem eventuell angeschlossenen Versand vermieden, Nachrichten an ungültige Adressen zu versenden.
+Folgendes **Ausschluss** In diesem Beispiel werden zwei Abfragen angezeigt, die zum Filtern von Profilen konfiguriert wurden, die zwischen 18 und 27 Jahre alt sind und eine E-Mail-Domain von Adobe haben. Die Profile mit einer Adobe-E-Mail-Domain werden dann aus der ersten Gruppe ausgeschlossen.
 
-![](../assets/wokflow-exclusion-example.png)
+![](../assets/workflow-exclusion-example.png)
 
 
 

@@ -4,22 +4,22 @@ title: Erstellen von Workflows mit Adobe Campaign Web
 description: Erfahren Sie, wie Sie Workflows mit Adobe Campaign Web erstellen
 badge: label="Alpha" type="Positive"
 exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
-source-git-commit: c842829915784654b7130563d36dea188e84ff3d
+source-git-commit: b75d6efecc8d154817dee3c26d87b31f44e78c7e
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '641'
 ht-degree: 8%
 
 ---
 
 
-# Erstellen eines Workflows {#create}
+# Erstellen des ersten Workflows {#create-first-workflow}
 
 >[!CONTEXTUALHELP]
 >id="acw_workflow_creation_properties"
 >title="Workflow-Eigenschaften"
 >abstract="Noch nicht definiert"
 
-## Erstellen eines Workflows {#create-workflow}
+## Erstellen eines Workflows {#create}
 
 Der erste Schritt zur Erstellung Ihres Workflows im Campaign v8 Web besteht darin, ihn entweder als eigenständigen Workflow oder direkt in einer Kampagne zu erstellen und seine allgemeinen Eigenschaften zu definieren. Gehen Sie dazu wie folgt vor:
 
