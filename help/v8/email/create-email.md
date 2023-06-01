@@ -4,10 +4,10 @@ title: Senden Ihrer ersten E-Mail
 description: Erfahren Sie, wie Sie Ihre erste E-Mail mit der Web-Benutzeroberfläche von Campaign senden.
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Alpha" type="Positive"
-source-git-commit: 6e1f7a553bce9f359691aa4086b2daf3580cb1c6
+source-git-commit: 656ca0801757cb8e781063bed8c77c3cfbe27e99
 workflow-type: tm+mt
-source-wordcount: '1356'
-ht-degree: 92%
+source-wordcount: '1353'
+ht-degree: 93%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 92%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card2"
->title="Erste E-Mail mit Adobe Campaign senden"
+>title="Erste Schritte mit E-Mails"
 >abstract="Beginnen Sie mit einer Vorlage oder verwenden Sie den neuen Email Designer von Adobe Campaign, um E-Mails zu erstellen, ohne eine einzelne Codezeile schreiben zu müssen. Erfahren Sie, wie Sie mit Email Designer Inhalte erstellen, eine Vorschau anzeigen und testen und eine E-Mail an eine bestehende Audience senden können."
 
 
