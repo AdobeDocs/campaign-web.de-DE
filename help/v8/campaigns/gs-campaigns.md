@@ -4,10 +4,10 @@ title: Erste Schritte mit Kampagnen
 description: Erfahren Sie, wie Sie mit kanalübergreifenden Kampagnen beginnen
 badge: label="Alpha" type="Positive"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: 598caf335db5b46036c8b6da92f4a9591089a0f4
+source-git-commit: dc7555bd593efc126fa29fbb87ff6811a1e1b132
 workflow-type: tm+mt
-source-wordcount: '340'
-ht-degree: 19%
+source-wordcount: '353'
+ht-degree: 18%
 
 ---
 
@@ -16,12 +16,12 @@ ht-degree: 19%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card5"
 >title="Kanalübergreifende Kampagnen erstellen und senden"
->abstract="Mit den Orchestrierungsfunktionen der Marketing-Kampagnen können Sie Kundendaten verwalten und zentralisieren, Kundenkommunikation und Kampagnen entwerfen und personalisierte Erlebnisse über verschiedene Kanäle hinweg erstellen. Die Kanäle E-Mail, Push und SMS sind verfügbar."
+>abstract="Mit den Adobe Campaign-Funktionen können Sie zentralisierte Kundendaten verwalten, Kundenkommunikation und Kampagnen erstellen und personalisierte Erlebnisse über verschiedene Kanäle hinweg erstellen: E-Mail, Push und SMS."
 
-Verwenden Sie Adobe Campaign, um kanalübergreifende Kampagnen zu erstellen. Mit den Orchestrierungsfunktionen der Marketing-Kampagnen können Sie Kundendaten verwalten und zentralisieren, Kundenkommunikation und Kampagnen entwerfen und personalisierte Erlebnisse über verschiedene Kanäle hinweg erstellen. Die Kanäle E-Mail, Push und SMS sind verfügbar.
+Verwenden Sie Adobe Campaign, um kanalübergreifende Kampagnen zu erstellen. Mit den Orchestrierungsfunktionen der Marketing-Kampagnen können Sie Kundendaten verwalten und zentralisieren, Kundenkommunikation und Kampagnen entwerfen und personalisierte Erlebnisse über verschiedene Kanäle hinweg erstellen. In dieser Version sind die Kanäle E-Mail, Push und SMS verfügbar.
 
 Erstellen und führen Sie E-Mail-Kampagnen mit hohem Volumen aus, um personalisierte Nachrichten für alle Plattformen und Bildschirmgrößen bereitzustellen.
-<!--Measure the effectiveness of your deliveries with detailed reports including thecounts of opens, clicks, forwards, and more.--> Mit den Segmentierungsfunktionen von Adobe Campaign können Sie Abfragen für eine Datenbank mit hohem Datenvolumen ausführen und einfach dynamische Marketingsegmente definieren, die perfekt auf Ihre Kampagnen abgestimmt sind.
+Messen Sie die Effektivität Ihrer Sendungen mit detaillierten Berichten wie Öffnungen, Klicks, Weiterleitungen und mehr. Mit den Segmentierungsfunktionen von Adobe Campaign können Sie Abfragen für eine Datenbank mit hohem Datenvolumen ausführen und einfach dynamische Marketingsegmente definieren, die perfekt auf Ihre Kampagnen abgestimmt sind.
 
 ## Kanalübergreifende Kampagne erstellen {#cross-channel-campaign}
 

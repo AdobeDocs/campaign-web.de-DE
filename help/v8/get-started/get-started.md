@@ -4,9 +4,9 @@ title: Erste Schritte mit Campaign v8 Web
 description: Erste Schritte mit Campaign v8 Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 badge: label="Alpha" type="Positive"
-source-git-commit: 6e1f7a553bce9f359691aa4086b2daf3580cb1c6
+source-git-commit: dc7555bd593efc126fa29fbb87ff6811a1e1b132
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '439'
 ht-degree: 90%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 90%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card1"
 >title="Neue Funktionen"
->abstract="Entdecken Sie die neue Campaign-Webbenutzeroberfläche, die neuesten Verbesserungen, die wichtigsten Funktionen und die Verwendung dieser Funktionen zum Erstellen kanalübergreifender Kampagnen für Ihre Zielgruppen. Mit seinen benutzerfreundlichen Funktionen unterstützt Campaign Sie bei der Optimierung des Prozesses zur Erstellung personalisierter kanalübergreifender Kampagnen, der Förderung von Ergebnissen und der Erzielung eines Wettbewerbsvorteils. "
+>abstract="Entdecken Sie die neue Campaign-Webbenutzeroberfläche, die neuesten Verbesserungen und die wichtigsten Funktionen und erfahren Sie, wie Sie mit ihnen kanalübergreifende Kampagnen für Ihre Zielgruppen erstellen können. Mit seinen benutzerfreundlichen Funktionen unterstützt Campaign Sie bei der Optimierung des Prozesses zur Erstellung personalisierter kanalübergreifender Kampagnen, der Förderung von Ergebnissen und der Erzielung eines Wettbewerbsvorteils. "
 
 
 
