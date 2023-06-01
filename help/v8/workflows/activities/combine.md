@@ -3,10 +3,10 @@ audience: end-user
 title: Verwenden Sie die Workflow-Aktivität Kombinieren .
 description: Erfahren Sie, wie Sie die Workflow-Aktivität Kombinieren verwenden.
 badge: label="Alpha" type="Positive"
-source-git-commit: 2172d159b9d43b18ebb56f5bbbb806884db14346
+source-git-commit: 12d87baff81298583fac12fdf04d39997e875954
 workflow-type: tm+mt
-source-wordcount: '324'
-ht-degree: 36%
+source-wordcount: '447'
+ht-degree: 31%
 
 ---
 
@@ -23,9 +23,12 @@ The **Combine** activity can be placed after any other activity, but not at the 
 * Die **Schnittmenge** ermöglicht es, nur die Elemente beizubehalten, die den verschiedenen eingehenden Populationen in der Aktivität gemein sind.
 * Die **Ausschluss** ermöglicht den Ausschluss von Elementen aus einer Population nach bestimmten Kriterien.
 
+## Konfiguration
+
 Führen Sie die folgenden Schritte aus, um die **Kombinieren** Aktivität:
 
-1. Fügen Sie Ihre **Kombinieren** -Aktivität zu einer der vorherigen Segmentierungsübergänge hinzu.
+1. Hinzufügen mehrerer Aktivitäten wie **Audience erstellen** Aktivitäten, um mindestens zwei verschiedene Ausführungszweige zu bilden.
+1. Hinzufügen einer **Kombinieren** -Aktivität zu einer der vorherigen Segmentierungsübergänge hinzu.
 1. Wählen Sie den Segmentierungstyp aus: Vereinigung, Schnittmenge oder Ausschluss.
 1. Bestätigen Sie die Angaben mit der Schaltfläche **Fortfahren**.
 1. Im **Sets zum Verbinden** alle vorherigen Aktivitäten, denen Sie beitreten möchten.
@@ -38,3 +41,22 @@ Für **Vereinigung** und **Schnittmenge**, müssen Sie die **Abstimmtyp** zur De
 Für **Schnittmenge** und **Ausschluss**, können Sie die **Abschluss generieren** -Option, wenn Sie die verbleibende Population verarbeiten möchten. Das Komplement enthält die Vereinigung der Ergebnisse aller eingehenden Aktivitäten abzüglich der Schnittmenge. Der Aktivität wird daraufhin eine zusätzliche ausgehende Transition hinzugefügt.
 
 Für **Ausschluss**, wählen Sie die **Primärer Satz** aus den eingehenden Transitionen in der **Sets zum Verbinden** Abschnitt. aus der die Elemente der anderen eingehenden Transitionen ausgeschlossen werden sollen. Die eingehenden Transitionen müssen Populationen gleichen Typs enthalten.
+
+## Beispiele
+
+Im folgenden Beispiel wurde ein **Vereinigung** die alle Profile der beiden Abfragen abruft: Personen zwischen 18 und 27 Jahren und Personen zwischen 34 und 40 Jahren.
+
+![](../assets/wokflow-union-example.png)
+
+Das folgende Beispiel zeigt die **Schnittmenge** zwischen zwei Abfrageaktivitäten. Es wird hier zum Abrufen von Profilen verwendet, die zwischen 18 und 27 Jahre alt sind und deren E-Mail-Adresse angegeben wurde.
+
+![](../assets/wokflow-intersection-example.png)
+
+Folgendes **Ausschluss** Beispiel: Zwei Abfragen, die zum Filtern von Profilen konfiguriert wurden, die zwischen 18 und 27 Jahre alt sind und eine ungültige E-Mail-Adresse aufweisen. Letztere werden dann von der Hauptmenge ausgeschlossen. Auf diese Weise wird in einem eventuell angeschlossenen Versand vermieden, Nachrichten an ungültige Adressen zu versenden.
+
+![](../assets/wokflow-exclusion-example.png)
+
+
+
+
+
