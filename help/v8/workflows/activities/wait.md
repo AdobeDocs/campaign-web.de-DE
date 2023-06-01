@@ -3,10 +3,10 @@ audience: end-user
 title: Verwenden Sie die Workflow-Aktivität Warten .
 description: Erfahren Sie, wie Sie die Workflow-Aktivität "Warten"verwenden
 badge: label="Alpha" type="Positive"
-source-git-commit: 79e839a99b41f8ae918a5651990149c864f201e7
+source-git-commit: 9be56c3c9c7a339e1f348ac9c74d425b501c317d
 workflow-type: tm+mt
-source-wordcount: '147'
-ht-degree: 75%
+source-wordcount: '181'
+ht-degree: 72%
 
 ---
 
@@ -29,4 +29,6 @@ Führen Sie die folgenden Schritte aus, um die **Warten** Aktivität:
 
 ## Beispiel
 
+Das folgende Beispiel erläutert die **Warten**-Aktivität anhand eines typischen Fallbeispiels. Darin wird eine E-Mail mit einer Einladung zu einem Ereignis verschickt. 24 Stunden nach dem Versand wird ein SMS-Versand an dieselbe Population gesendet.
 
+![](../assets/workflow-wait-example.png)
