@@ -3,10 +3,10 @@ audience: end-user
 title: Erstellen von Workflows mit Adobe Campaign Web
 description: Erfahren Sie, wie Sie Workflows mit Adobe Campaign Web erstellen
 badge: label="Alpha" type="Positive"
-source-git-commit: 422f2d2cbef424a95540f359c4a5e978eace6c9f
+source-git-commit: 880f02c460d75c50347fb5716fbcdf7cd3908422
 workflow-type: tm+mt
-source-wordcount: '399'
-ht-degree: 7%
+source-wordcount: '518'
+ht-degree: 5%
 
 ---
 
@@ -33,6 +33,23 @@ Um eine Aktivität zu entfernen, wählen Sie sie auf der Arbeitsfläche aus und 
 >
 >Sie haben die Möglichkeit, den Namen der Transitionen zwischen den einzelnen Aktivitäten zu personalisieren. Wählen Sie dazu die Transition aus und ändern Sie deren Titel im rechten Bereich.
 
-Fügen Sie nach Abschluss des Workflows die Aktivität Ende am Ende des Diagramms hinzu. Mit dieser Aktivität können Sie das Ende eines Workflows visuell markieren und haben keine funktionalen Auswirkungen.
+Im Folgenden finden Sie ein Workflow-Beispiel, das dazu dient, eine E-Mail mit einer E-Mail an alle Kunden (außer VIP Kunden) zu senden, die an Kaffeemaschinen interessiert sind.
+
+![](assets/workflow-example.png)
+
+Zu diesem Zweck wurden die folgenden Aktivitäten hinzugefügt:
+
+* A **[!UICONTROL Verzweigung]** -Aktivität, die den Workflow in drei Pfade unterteilt (eine für jede Gruppe von Kunden),
+* **[!UICONTROL Audience erstellen]** Aktivitäten, um die drei Kundengruppen anzusprechen:
+
+   * Kunden mit einer E-Mail,
+   * Kunden, die zum bereits bestehenden Publikum &quot;Interessant an Kaffeemaschinen&quot; gehören,
+   * Kunden, die zur bereits bestehenden Zielgruppe &quot;VIP oder Belohnung&quot;gehören.
+
+* A **[!UICONTROL Kombinieren]** Aktivität, die Kunden mit einer E-Mail und Personen zusammenfasst, die an Kaffeemaschinen interessiert sind;
+* A **[!UICONTROL Kombinieren]** Aktivität, die VIP Kunden ausschließt,
+* Ein **[!UICONTROL E-Mail-Versand]** -Aktivität, die eine E-Mail an die resultierenden Kunden sendet.
+
+Fügen Sie nach Abschluss des Workflows en **[!UICONTROL Ende]** -Aktivität am Ende des Diagramms. Mit dieser Aktivität können Sie das Ende eines Workflows visuell markieren und haben keine funktionalen Auswirkungen.
 
 Nach erfolgreicher Erstellung des Workflow-Diagramms können Sie den Workflow ausführen und den Fortschritt seiner verschiedenen Aufgaben verfolgen. [Erfahren Sie, wie Sie einen Workflow starten und dessen Ausführung überwachen](start-monitor-workflows.md)

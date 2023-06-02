@@ -4,10 +4,10 @@ title: Erste Schritte mit Workflows
 description: Erfahren Sie, wie Sie mit Workflows beginnen
 badge: label="Alpha" type="Positive"
 exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
-source-git-commit: 6e1f7a553bce9f359691aa4086b2daf3580cb1c6
+source-git-commit: 880f02c460d75c50347fb5716fbcdf7cd3908422
 workflow-type: tm+mt
-source-wordcount: '403'
-ht-degree: 88%
+source-wordcount: '390'
+ht-degree: 79%
 
 ---
 
@@ -17,7 +17,6 @@ ht-degree: 88%
 >id="acw_homepage_card4"
 >title="Neu gestaltete Oberfläche der Workflow-Arbeitsfläche"
 >abstract="Unsere umfassende grafische Arbeitsfläche erleichtert Ihnen das Entwerfen von Prozessen wie Segmentierung, Kampagnenausführung und mehr. Mit diesem erweiterten Tool können Sie Ihren Workflow optimieren und Ihre Kampagnen optimieren."
-
 
 ## Was ist ein Workflow?
 
@@ -35,8 +34,9 @@ Mit der umfassenden grafischen Umgebung von Adobe Campaign können Sie Prozesse 
 
 Im Folgenden finden Sie einige Beispiele für die Verwendung von Workflows mit Adobe Campaign:
 
-* Laden Sie eine Datei von einem Server herunter, dekomprimieren Sie sie und importieren Sie dann die enthaltenen Datensätze in die Adobe Campaign-Datenbank.
-* Erstellen Sie eine Versandaktion, weisen Sie einem oder mehreren Benutzerinnen oder Benutzern eine Aufgabe zu, Inhalte zu bearbeiten, geben Sie Zielgruppen an und genehmigen Sie Testsendungen, bevor Sie mit dem Versand beginnen.
+* Starten einer Folgenachkampagne für inaktive Kunden,
+* Senden Sie eine Begrüßungs-E-Mail an alle neuen Abonnenten eines Dienstes,
+* Personalisieren Sie kanalübergreifende Sendungen anhand des Status des Treueprogramms oder der Zielpunkte der Kunden.
 
 ## Tauchen wir tiefer in die Materie ein
 
