@@ -4,10 +4,10 @@ title: Erstellen von Workflows mit Adobe Campaign Web
 description: Erfahren Sie, wie Sie Workflows mit Adobe Campaign Web erstellen
 badge: label="Alpha" type="Positive"
 exl-id: 7ac8eedf-c141-4a61-b4d3-d81f99247c6d
-source-git-commit: 1a608d2042ae257d89acbd67d99a0ce05d89f382
+source-git-commit: 7e694f46239f782131524eed6b34bff4c4d98dca
 workflow-type: tm+mt
-source-wordcount: '750'
-ht-degree: 19%
+source-wordcount: '884'
+ht-degree: 15%
 
 ---
 
@@ -25,8 +25,8 @@ Klicken Sie dazu auf die Schaltfläche **[!UICONTROL Workflow-Einstellungen]** i
 
 >[!CONTEXTUALHELP]
 >id="acw_workflow_settings_properties"
->title="Workflow-Eigenschaften"
->abstract="Noch nicht definiert"
+>title="Workflow-Eigenschaften "
+>abstract="Dieser Abschnitt enthält allgemeine Workflow-Eigenschaften, auf die auch beim Erstellen des Workflows zugegriffen werden kann. Sie können die Vorlage auswählen, die zum Erstellen des Workflows verwendet werden soll, und einen Titel angeben. Erweitern Sie den Abschnitt Zusätzliche Optionen , um bestimmte Einstellungen wie den Workflow zum Speichern von Ordnern oder Zeitzonen zu konfigurieren."
 
 Die **[!UICONTROL Eigenschaften]** enthält allgemeine Einstellungen, auf die auch bei der Erstellung des Workflows zugegriffen werden kann.
 
@@ -43,7 +43,7 @@ Die **[!UICONTROL Eigenschaften]** enthält allgemeine Einstellungen, auf die au
 >[!CONTEXTUALHELP]
 >id="acw_workflow_settings_segmentation"
 >title="Segmentierungseinstellungen"
->abstract="Noch nicht definiert"
+>abstract="In diesem Bereich können Sie die Zielgruppendimension auswählen, um Profile im Workflow auszuwählen, und die Workflow-Ergebnisse zwischen zwei Ausführungen beibehalten. Diese Option sollte nur zu Testzwecken verwendet werden und darf in einem Produktions-Workflow nie aktiviert werden."
 
 * **[!UICONTROL Zielgruppendimension]**: Wählen Sie die Zielgruppendimension aus, die für die Zielgruppenbestimmung von Profilen verwendet werden soll: Empfänger, Empfänger, Betreiber, Abonnenten usw.
 * **[!UICONTROL Zwischen zwei Ausführungen die ermittelte Population festhalten]**: Standardmäßig werden nur die Arbeitstabellen der letzten Ausführung des Workflows beibehalten. Arbeitstabellen früherer Ausführungen werden durch einen technischen Workflow bereinigt, der täglich ausgeführt wird.
@@ -54,8 +54,8 @@ Die **[!UICONTROL Eigenschaften]** enthält allgemeine Einstellungen, auf die au
 
 >[!CONTEXTUALHELP]
 >id="acw_workflow_settings_execution"
->title="Ausführungseinstellungen"
->abstract="Noch nicht definiert"
+>title="Ausführungsparameter"
+>abstract="In diesem Abschnitt können Sie Einstellungen für die Ausführung des Workflows konfigurieren, z. B. die Anzahl der Tage, in denen der Workflow-Verlauf beibehalten wird."
 
 * **[!UICONTROL Verlauf in Tagen]**: Gibt die Anzahl der Tage an, nach denen der Verlauf bereinigt werden muss. Der Verlauf enthält Elemente im Zusammenhang mit dem Workflow: Protokolle, Aufgaben, Ereignisse (technische Objekte, die mit dem Workflow-Vorgang verknüpft sind). Der Standardwert bei nativen Workflow-Vorlagen beträgt 30 Tage. Die Bereinigung des Verlaufs erfolgt durch den technischen Workflow für die Datenbankbereinigung, der standardmäßig täglich ausgeführt wird.
 
@@ -74,7 +74,7 @@ Die **[!UICONTROL Eigenschaften]** enthält allgemeine Einstellungen, auf die au
 >[!CONTEXTUALHELP]
 >id="acw_workflow_settings_error"
 >title="Einstellungen für den Umgang mit Fehlern"
->abstract="Noch nicht definiert"
+>abstract="In diesem Abschnitt erfahren Sie, wie sich der Workflow verhält, wenn während seiner Ausführung ein Fehler auftritt (Ausführung anhalten/anhalten oder Fehler ignorieren)."
 
 * **[!UICONTROL Umgang mit Fehlern]**: In diesem Feld können Sie festlegen, welche Aktionen bei einer Workflow-Aufgabe ausgeführt werden sollen. Es gibt zwei Möglichkeiten:
 
