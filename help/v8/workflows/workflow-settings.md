@@ -4,10 +4,10 @@ title: Erstellen von Workflows mit Adobe Campaign Web
 description: Erfahren Sie, wie Sie Workflows mit Adobe Campaign Web erstellen
 badge: label="Alpha" type="Positive"
 exl-id: 7ac8eedf-c141-4a61-b4d3-d81f99247c6d
-source-git-commit: 7e694f46239f782131524eed6b34bff4c4d98dca
+source-git-commit: eed308685edc00c61d59f1529f363ac9b57d25cf
 workflow-type: tm+mt
-source-wordcount: '884'
-ht-degree: 15%
+source-wordcount: '858'
+ht-degree: 16%
 
 ---
 
@@ -65,9 +65,7 @@ Die **[!UICONTROL Eigenschaften]** enthält allgemeine Einstellungen, auf die au
 
 * **[!UICONTROL Standardaffinität]**: Wenn Ihre Installation mehrere Workflow-Server umfasst, wählen Sie in diesem Feld den Computer aus, auf dem der Workflow ausgeführt werden soll. Wenn der in diesem Feld definierte Wert auf keinem Server vorhanden ist, bleibt der Workflow ausstehend.
 
-* **[!UICONTROL SQL-Abfragen im Protokoll speichern]**: dient der Speicherung der SQL-Abfragen aus dem Workflow in den Logs. Diese Funktion ist erfahrenen Benutzern vorbehalten. Sie gilt für Workflows, die Zielgruppenbestimmungsaktivitäten enthalten, wie **[!UICONTROL Audience erstellen]**. Wenn diese Option aktiviert ist, werden die während der Workflow-Ausführung an die Datenbank gesendeten SQL-Abfragen in Adobe Campaign angezeigt, sodass Sie sie analysieren können, um Abfragen zu optimieren oder Probleme zu diagnostizieren.
-
-   Abfragen werden in einer **[!UICONTROL SQL-Logs]** -Tab, der zum Workflow (außer Kampagnen-Workflows) und zum **[!UICONTROL Eigenschaften]** Aktivität, wenn die Option aktiviert ist. <!-- where?-->
+* **[!UICONTROL SQL-Abfragen im Protokoll speichern]**: dient der Speicherung der SQL-Abfragen aus dem Workflow in den Logs. Diese Funktion ist erfahrenen Benutzern vorbehalten. Sie gilt für Workflows, die Zielgruppenbestimmungsaktivitäten enthalten, wie **[!UICONTROL Audience erstellen]**. Wenn diese Option aktiviert ist, werden die während der Workflow-Ausführung an die Datenbank gesendeten SQL-Abfragen in den Logs des Workflows angezeigt, sodass Sie sie analysieren können, um Abfragen zu optimieren oder Probleme zu diagnostizieren.
 
 ## Einstellungen für den Umgang mit Fehlern
 
