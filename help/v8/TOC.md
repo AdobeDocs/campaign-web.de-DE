@@ -5,10 +5,10 @@ title: Dokumentation zu Adobe Campaign v8 Web
 description: Web-Dokumentation zu Campaign v8
 breadcrumb-title: Übersicht über Campaign
 hide: true
-source-git-commit: ec61c17d5a72b4d324d9a9a2cc71c85093c124ea
+source-git-commit: ec6a9f604c0ce06c503da36b6d8fbccd3557aded
 workflow-type: tm+mt
 source-wordcount: '307'
-ht-degree: 83%
+ht-degree: 84%
 
 ---
 
@@ -84,7 +84,7 @@ ht-degree: 83%
       + [Grundlegende Prinzipien der Workflow-Erstellung](workflows/gs-workflow-creation.md)
       + [Erstellen eines Workflows](workflows/create-workflow.md)
       + [Aktivitäten koordinieren](workflows/orchestrate-activities.md)
-      + [Erweiterte Einstellungen konfigurieren](workflows/workflow-settings.md)
+      + [Konfigurieren von Workflow-Einstellungen](workflows/workflow-settings.md)
       + [Workflow starten und überwachen](workflows/start-monitor-workflows.md)
    + Arbeiten mit Workflow-Aktivitäten {#design-workflows}
       + [Über Workflow-Aktivitäten](workflows/activities/about-activities.md)
