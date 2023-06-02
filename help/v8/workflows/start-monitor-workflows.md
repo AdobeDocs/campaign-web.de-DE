@@ -4,14 +4,14 @@ title: Erstellen von Workflows mit Adobe Campaign Web
 description: Erfahren Sie, wie Sie Workflows mit Adobe Campaign Web erstellen
 badge: label="Alpha" type="Positive"
 exl-id: 8aa76369-c9f3-4c5b-9a51-101b239727e6
-source-git-commit: 1e1f1bbdd5c1a8e659c455078b5995b23209c511
+source-git-commit: cc9566d1781d5a190b488182a8b05a99d396ac8c
 workflow-type: tm+mt
 source-wordcount: '522'
-ht-degree: 19%
+ht-degree: 18%
 
 ---
 
-# Workflow-Ausführung starten und überwachen {#start-monitor}
+# Workflow starten und überwachen {#start-monitor}
 
 Nachdem Sie Ihren Workflow erstellt und die auf der Arbeitsfläche auszuführenden Aufgaben entworfen haben, können Sie ihn starten und dessen Ausführung überwachen.
 
@@ -40,7 +40,7 @@ Visuelle Indikatoren in der oberen rechten Ecke eines jeden Aktivitätsfeldes er
 | ![](assets/activity-status-red.png) | Bei der Aktivität ist ein Fehler aufgetreten. Um das Problem zu beheben, öffnen Sie die Workflow-Protokolle , um weitere Informationen zu erhalten. |
 | ![](assets/activity-status-green.png) | Die Aktivität wurde erfolgreich ausgeführt. |
 
-## Protokolle und Aufgaben überwachen
+## Protokolle und Aufgaben überwachen {#logs-tasks}
 
 Die Überwachung der Workflow-Protokolle und -Aufgaben ist ein wichtiger Schritt, um Ihre Workflows zu analysieren und sicherzustellen, dass sie ordnungsgemäß ausgeführt werden. Sie können über die **[!UICONTROL Protokolle]** -Symbol, das in der Symbolleiste &quot;Aktion&quot;und im Eigenschaftenbereich jeder Aktivität verfügbar ist.
 
