@@ -4,10 +4,10 @@ title: Testen des E-Mail-Rendering
 description: Erfahren Sie, wie Sie Ihr E-Mail-Rendering in der Web-Benutzeroberfläche von Campaign testen können.
 exl-id: 5cdbce8b-3969-470d-8019-1edc58433146
 badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
+source-git-commit: 10259e9c071fc20ef20677033abbbfecc886d4fc
 workflow-type: tm+mt
-source-wordcount: '163'
-ht-degree: 100%
+source-wordcount: '219'
+ht-degree: 74%
 
 ---
 
@@ -18,6 +18,10 @@ ht-degree: 100%
 Vergewissern Sie sich vor dem Versand Ihrer E-Mail, dass Ihre Nachricht den Empfängern und Empfängerinnen auf einer Vielzahl von Webclients, Webmails und Geräten optimal angezeigt wird.
 
 Zu diesem Zweck können Sie mit Adobe Campaign eine Vorschau der gesendeten Nachricht in den verschiedenen Kontexten anzeigen, in denen die Nachrichten empfangen werden, und die Kompatibilität mit den wichtigsten Desktops und Anwendungen (Webmail, Messaging-Dienst, Mobilgeräte usw.) überprüfen.
+
+>[!CAUTION]
+>
+>Durch die Verwendung von E-Mail-Rendering in Campaign wird eine Test-E-Mail an ein Drittanbietersystem gesendet, das nicht unter der Kontrolle von Adobe steht. Um auf solche Daten zuzugreifen oder sie zu löschen, müssen Sie sich direkt an diesen Drittanbieter wenden. Durch die Verwendung von E-Mail-Rendering erkennen Sie an, dass Adobe für keine Daten verantwortlich ist, die Sie an dieses Drittanbietersystem senden können.
 
 Gehen Sie wie folgt vor, um das E-Mail-Rendering zu testen:
 
@@ -32,3 +36,4 @@ Gehen Sie wie folgt vor, um das E-Mail-Rendering zu testen:
    >[!NOTE]
    >
    >In der Liste der E-Mail-Clients sind die wichtigsten E-Mail-Clients aufgeführt. Zusätzliche E-Mail-Clients sind über die Filterschaltfläche neben der oberen Suchleiste verfügbar.
+
