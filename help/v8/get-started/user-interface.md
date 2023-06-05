@@ -4,7 +4,7 @@ title: Erkunden der Benutzeroberfläche
 description: Web-Benutzeroberfläche von Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: d9736ff5e6634b03d15e13ba1b0b9fdea7e779f4
+source-git-commit: 84ef79098494236d3ea2d3b46b72280603ad5c94
 workflow-type: tm+mt
 source-wordcount: '1588'
 ht-degree: 73%
@@ -97,7 +97,7 @@ Im Bereich CAMPAIGN MANAGEMENT haben Sie Zugriff auf Marketingkampagnen, Sendung
 
 * **Kampagnen** - Dies ist die Liste Ihrer Kampagnen und Kampagnenvorlagen. Standardmäßig können Sie für jede Kampagne das Start-/Ende-/Erstellungs-/Letztänderungsdatum, den aktuellen Status und den Namen des Campaign-Benutzers anzeigen, der die Kampagne erstellt hat. Sie können die Liste nach Status, Start-/Enddatum, Ordner oder erweiterten Filter filtern, um eigene Filterkriterien zu definieren. Weitere Informationen zu Kampagnen [in diesem Abschnitt](../campaigns/gs-campaigns.md).
 
-* **Sendungen**: Durchsuchen Sie Ihre Sendungenliste. Standardmäßig können Sie ihren Status, das Datum der letzten Änderung sowie wichtige KPIs sehen. Sie können die Liste nach Status, Kontaktdatum oder Kanal filtern. Klicken Sie auf einen E-Mail-Versand, um sein Dashboard zu öffnen und sich einen Überblick über die Versanddetails zu verschaffen. Sendungen über andere Kanäle sind schreibgeschützt. Weitere Informationen zu Sendungen [in diesem Abschnitt](../email/gs-messages.md).
+* **Sendungen**: Durchsuchen Sie Ihre Sendungenliste. Standardmäßig können Sie ihren Status, das Datum der letzten Änderung sowie wichtige KPIs sehen. Sie können die Liste nach Status, Kontaktdatum oder Kanal filtern. Klicken Sie auf einen E-Mail-Versand, um sein Dashboard zu öffnen und sich einen Überblick über die Versanddetails zu verschaffen. Sendungen über andere Kanäle sind schreibgeschützt. Weitere Informationen zu Sendungen [in diesem Abschnitt](../msg/gs-messages.md).
 
    Verwenden Sie die Schaltfläche **Mehr Aktionen**, um einen Versand zu löschen oder zu duplizieren.
 
