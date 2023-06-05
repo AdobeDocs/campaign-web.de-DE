@@ -4,10 +4,10 @@ title: Festlegen einer Kontrollgruppe
 description: Erfahren Sie, wie Sie in der Web-Benutzeroberfläche von Campaign eine Kontrollgruppe für Ihre Nachrichten einrichten.
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
 badge: label="Alpha" type="Positive"
-source-git-commit: 3ebe92659916cf2fa4cacb8d28b79d7b6d5359f3
+source-git-commit: 6624821f70a7ef75c97cb3f3ca233dd7446b8922
 workflow-type: tm+mt
-source-wordcount: '633'
-ht-degree: 56%
+source-wordcount: '743'
+ht-degree: 45%
 
 ---
 
@@ -53,9 +53,21 @@ Unter dem **Kontrollgruppe** wählen Sie eine **Extraktionsmodus**:
 
 * **Nach Attribut(en) sortiert**: Mit dieser Option können Sie anhand bestimmter Attribute in einer bestimmten Reihenfolge eine Gruppe von Profilen ausschließen.
 
+
+Verwenden Sie dann die **Größenbeschränkung** um die Anzahl der Profile festzulegen, die aus der Hauptzielgruppe extrahiert werden sollen. Dabei kann es sich um eine Rohanzahl (z. B. 50 Profile, die ausgeschlossen werden sollen) oder einen Prozentsatz der ursprünglichen Zielgruppe handeln (z. B. 5 % der Hauptzielgruppe).
+
+
+### Beispiel einer Kontrollgruppe
+
+Gehen Sie wie folgt vor, um beispielsweise eine Kontrollgruppe mit den 100 neuen jüngsten Empfängern zu erstellen:
+
+1. Wählen Sie das Feld **Alter** als Sortierkriterium aus. Lassen Sie die **Aufsteigend** Sortieroption.
+1. Fügen Sie die **Erstellungsdatum** -Feld. Änderung an **Absteigend** Sortieroption.
+1. Definieren Sie 100 als Schwellenwert im **Größenbeschränkung** Abschnitt.
+
    ![](assets/control-group2.png)
 
-Verwenden Sie dann die **Größenbeschränkung** um die Anzahl der Profile festzulegen, die aus der Hauptzielgruppe extrahiert werden sollen. Dabei kann es sich um eine Rohnummer oder einen Prozentsatz der ursprünglichen Zielgruppe handeln.
+Diese 100 neuen jüngsten Empfänger werden dann von der Hauptzielgruppe ausgeschlossen.
 
 ### Kontrollgruppe überprüfen {#check-extract-target}
 
@@ -89,7 +101,7 @@ Weitere Informationen über Versandlogs finden Sie in [diesem Abschnitt](../moni
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_controlgroup_extra"
 >title="Zusätzliche Population"
->abstract="Eine andere Möglichkeit, eine Kontrollgruppe zu definieren, besteht darin, eine bestimmte Population mithilfe einer bestehenden Audience oder durch Definition einer Abfrage aus der Zielgruppe auszuschließen."
+>abstract="Sie können eine bestimmte Population aus der Zielgruppe ausschließen, indem Sie eine existierende Zielgruppe auswählen oder eine Abfrage definieren."
 
 Eine andere Möglichkeit, eine Kontrollgruppe zu definieren, besteht darin, eine bestimmte Population mithilfe einer bestehenden Audience oder durch Definition einer Abfrage aus der Zielgruppe auszuschließen.
 
@@ -102,3 +114,8 @@ Klicken Sie im Abschnitt **Zusätzliche Population** des Definitionsbildschirms 
 * Um eine neue Abfrage zu definieren, wählen Sie **Eigene erstellen** aus und definieren Sie die Ausschlusskriterien mit dem Regel-Builder. Näheres dazu finden Sie in [diesem Abschnitt](segment-builder.md).
 
 Die Profile, die in der Audience enthalten sind oder mit dem Ergebnis der Abfrage übereinstimmen, werden aus der Zielgruppe ausgeschlossen.
+
+## Ergebnisse vergleichen{#control-group-results}
+
+Nach dem Versand können Sie die Versandlogs extrahieren, um das Verhalten zwischen den Profilen, die die Nachricht nicht erhalten haben, und der tatsächlichen Zielgruppe zu vergleichen. Sie können auch die Versandlogs verwenden, um eine neue Zielgruppe zu erstellen.
+
