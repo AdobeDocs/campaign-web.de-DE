@@ -4,10 +4,10 @@ title: Erste Schritte mit Audiences
 description: Erfahren Sie, wie Sie Audiences in der Web-Benutzeroberfläche von Campaign verwenden.
 badge: label="Alpha" type="Positive"
 exl-id: 21bb5082-82ce-47d6-a4d4-becf44490f13
-source-git-commit: 84ef79098494236d3ea2d3b46b72280603ad5c94
+source-git-commit: 3ebe92659916cf2fa4cacb8d28b79d7b6d5359f3
 workflow-type: tm+mt
-source-wordcount: '156'
-ht-degree: 53%
+source-wordcount: '217'
+ht-degree: 31%
 
 ---
 
@@ -36,17 +36,16 @@ control groups like acc: exract, random, based on attribute
 -->
 
 
-Die Audience ist die Hauptzielgruppe Ihres Versands: die Empfänger, die die Nachrichten erhalten. Der Audience-Typ hängt vom in der Versandvorlage definierten Zielgruppen-Mapping ab. Weitere Informationen finden Sie in [diesem Abschnitt](../msg/delivery-template.md).
+Die Audience ist die Hauptzielgruppe Ihres Versands: die Empfänger, die die Nachrichten erhalten. Der Audience-Typ hängt vom in der Versandvorlage definierten Zielgruppen-Mapping ab. Versandvorlage erfahren [in diesem Abschnitt](../msg/delivery-template.md).
 
-Erfahren Sie, wie Sie den Campaign Rule Builder verwenden und Filterkriterien definieren, um die Audience Ihrer Nachrichten auszuwählen. Sie können einfach Daten aus einer externen Datei verwenden oder Adobe Experience Platform-Zielgruppen ansprechen.
+Zur Definition der Audience-Population haben Sie folgende Möglichkeiten:
 
+* Wählen Sie eine vorhandene Zielgruppe aus, die als Liste in der Client-Konsole erstellt wurde. [Weitere Informationen](add-audience.md)
+* Wählen Sie eine Adobe Experience Platform-Zielgruppe aus. [Weitere Informationen](aep-audience.md)
+* Erstellen Sie mit dem Regel-Builder eine neue Zielgruppe, indem Sie Filterkriterien definieren und kombinieren. [Weitere Informationen](segment-builder.md)
+* Verwenden Sie eine Audience aus einer externen Datei: Diese Option steht nur für eigenständige E-Mail-Sendungen zur Verfügung und kann nicht in Kampagnensendungen verwendet werden. [Weitere Informationen](file-audience.md)
 
-Zur Definition der Audience haben Sie folgende Möglichkeiten:
-
-* Wählen Sie eine bestehende Zielgruppe aus, die in der Client-Konsole erstellt wurde. [Weitere Informationen](add-audience.md)
-* Erstellen Sie mit dem Regel-Builder eine neue Zielgruppe. [Weitere Informationen](segment-builder.md)
-* Verwenden Sie eine Audience aus einer externen Datei. [Weitere Informationen](file-audience.md)
-* Verwenden Sie eine Adobe Experience Platform-Audience. [Weitere Informationen](aep-audience.md)
+Beim Versand von Nachrichten im Rahmen eines Kampagnen-Workflows wird die Audience in einem bestimmten **Audience lesen** Workflow-Aktivität. In diesem Zusammenhang ist es nicht möglich, eine Audience aus einer Datei für einen E-Mail-Versand zu laden. Die Audience wird nur in dieser dedizierten Aktivität definiert. Hier erfahren Sie, wie Sie die Audience Ihres Versands in einem Kampagnen-Workflow definieren. [in diesem Abschnitt](../workflows/orchestrate-activities.md).
 
 Darüber hinaus können Sie Kontrollgruppen definieren, um einen Teil Ihrer Audience vom Versand von Nachrichten auszuschließen und so die Wirkung Ihrer Kampagnen zu messen. [Weitere Informationen](control-group.md)
 
