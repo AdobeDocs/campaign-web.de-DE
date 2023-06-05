@@ -6,10 +6,10 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 4a8513bb-8290-432a-8e40-822cd1337cb3
-source-git-commit: 84ef79098494236d3ea2d3b46b72280603ad5c94
+source-git-commit: 8d026a247ffe9a3568f589403e82562c51b44a49
 workflow-type: tm+mt
-source-wordcount: '921'
-ht-degree: 16%
+source-wordcount: '937'
+ht-degree: 17%
 
 ---
 
@@ -19,14 +19,13 @@ Für einen beschleunigten und verbesserten Designprozess können Sie Versandvorl
 
 Eine Vorlage kann Folgendes enthalten:
 
-<!--[Typologies](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html)?
-Sender and reply-to addresses?-->
+* [Typologien](../advanced-settings/delivery-settings.md#typology)
+* Absenderadresse
 * Ein [audience](../audience/about-audiences.md), einschließlich [Kontrollgruppen](../audience/control-group.md)
-* Benutzerdefiniert [content](../content/edit-content.md)<!--company logo, or signature-->
-* [Personalisierte Felder](../personalization/personalize.md) und [Bedingter Inhalt](../personalization/conditions.md) <!--basic [personalization blocks](../personalization/personalize.md#ootb-content-blocks)-->
+* Benutzerdefiniert [content](../content/edit-content.md)
+* [Personalisierte Felder](../personalization/personalize.md) und [Bedingter Inhalt](../personalization/conditions.md)
 * Links zu [Mirrorseite](../content/mirror-page.md) und Abmeldung [links](../content/message-tracking.md)
-
-<!--Other delivery properties, such as resource validity, retry parameters, or quarantine settings.-->
+* Andere Versandeigenschaften, z. B. die Gültigkeit der Ressource, die Parameter für erneute Versuche oder die Quarantäneeinstellungen.
 
 ## Zugreifen auf und Verwalten von Vorlagen {#access-manage-templates}
 

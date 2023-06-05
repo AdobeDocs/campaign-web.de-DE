@@ -4,10 +4,10 @@ title: Senden Ihrer ersten E-Mail
 description: Erfahren Sie, wie Sie Ihre erste E-Mail mit der Web-Benutzeroberfläche von Campaign senden.
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Alpha" type="Positive"
-source-git-commit: db3bb5c9805ce5c04ea657cf2d71c5528a9980d3
+source-git-commit: 983541f5dea47102ae9ee3c5351a7149484a1fa5
 workflow-type: tm+mt
-source-wordcount: '1329'
-ht-degree: 93%
+source-wordcount: '1326'
+ht-degree: 85%
 
 ---
 
@@ -42,7 +42,7 @@ Gehen Sie wie folgt vor, um einen neuen Versand zu erstellen:
 
 1. Navigieren Sie zum **[!UICONTROL Sendungen]** in der linken Leiste auf und klicken Sie auf das  **[!UICONTROL Versand erstellen]** Schaltfläche.
 
-1. Wählen Sie **[!UICONTROL E-Mail]** als Kanal und eine Vorlage aus.
+1. Auswählen **[!UICONTROL Email]** als Kanal verwenden und aus der Liste eine E-Mail-Versandvorlage auswählen.
 
    >[!NOTE]
    >
@@ -67,15 +67,19 @@ Gehen Sie wie folgt vor, um einen neuen Versand zu erstellen:
 
    Erweiterte Einstellungen wie Typologieregeln und Zielgruppen-Mappings sind über die Schaltfläche neben dem Versandnamen zugänglich. Diese Einstellungen sind zwar in der ausgewählten Vorlage vorkonfiguriert, können jedoch für diese E-Mail nach Bedarf bearbeitet werden.
 
-## Erstellen des E-Mail-Inhalts {#create-content}
+## Definieren des E-Mail-Inhalts {#create-content}
 
-Detaillierte Informationen zur Konfiguration von E-Mail-Inhalten finden Sie in [diesem Abschnitt](../content/edit-content.md).
+Gehen Sie wie folgt vor, um mit der Erstellung Ihres E-Mail-Inhalts zu beginnen.
 
-In diesem Anwendungsfall verwenden Sie eine vordefinierte Vorlage, um eine E-Mail zu erstellen.
+<!--Detailed instructions on how to configure the email content are available in [this section](../content/edit-content.md).-->
 
-1. Um mit der Erstellung des E-Mail-Inhalts zu beginnen, öffnen Sie den E-Mail-Versand und klicken Sie auf die Schaltfläche **[!UICONTROL Inhalt bearbeiten]**.
+In diesem Anwendungsfall verwenden Sie eine vordefinierte E-Mail [Versandvorlage](../msg/delivery-template.md) , um Ihre E-Mail zu erstellen.
 
-   Dies führt Sie zu einer speziellen Oberfläche, auf der Sie den Inhalt der E-Mail konfigurieren und mit dem E-Mail-Designer gestalten können.
+1. Klicken Sie im Dashboard des E-Mail-Versands auf die **[!UICONTROL Inhalt bearbeiten]** Schaltfläche.
+
+   ![](assets/email-edit-content.png)
+
+   Dadurch gelangen Sie zu einer dedizierten Benutzeroberfläche, über die Sie den E-Mail-Inhalt konfigurieren und auf Email Designer zugreifen können. [Weitere Informationen](../content/edit-content.md)
 
    ![](assets/edit-content.png)
 
@@ -85,7 +89,7 @@ In diesem Anwendungsfall verwenden Sie eine vordefinierte Vorlage, um eine E-Mai
 
 1. Um den Inhalt der E-Mail zu gestalten, klicken Sie auf die Schaltfläche **[!UICONTROL E-Mail-Textkörper bearbeiten]**.
 
-   Wählen Sie die Methode zur Erstellung des Inhalts Ihrer E-Mail aus. Verwenden Sie in diesem Beispiel eine vordefinierte Design-Vorlage.
+   Wählen Sie die Methode zur Erstellung des Inhalts Ihrer E-Mail aus. Verwenden Sie in diesem Beispiel einen [vordefinierte Inhaltsvorlage](../msg/delivery-template.md).
 
    ![](assets/select-template.png)
 
@@ -95,7 +99,7 @@ In diesem Anwendungsfall verwenden Sie eine vordefinierte Vorlage, um eine E-Mai
 
     ![](assets/import-folder.png)-->
 
-1. Wenn Sie die Vorlage auswählen, wird sie im E-Mail-Designer angezeigt, wo Sie alle notwendigen Änderungen vornehmen und eine Personalisierung hinzufügen können.
+1. Nachdem Sie die Vorlage ausgewählt haben, wird sie im [Email Designer](../content/create-email-content.md), wo Sie alle erforderlichen Änderungen vornehmen und Personalisierungen hinzufügen können.
 
    Um zum Beispiel dem E-Mail-Titel eine Personalisierung hinzuzufügen, wählen Sie den Komponentenblock aus und klicken Sie auf **[!UICONTROL Personalisierung hinzufügen]**.
 

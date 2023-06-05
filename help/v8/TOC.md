@@ -5,10 +5,10 @@ title: Dokumentation zu Adobe Campaign v8 Web
 description: Web-Dokumentation zu Campaign v8
 breadcrumb-title: Übersicht über Campaign
 hide: true
-source-git-commit: 6e7b5974a0e8da454d436cd220f25dac80ec726c
+source-git-commit: 983541f5dea47102ae9ee3c5351a7149484a1fa5
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 81%
+source-wordcount: '322'
+ht-degree: 78%
 
 ---
 
@@ -27,14 +27,15 @@ ht-degree: 81%
    + [Arbeiten mit Versandvorlagen](msg/delivery-template.md)
    + E-Mails {#email}
       + [Erstellen Ihrer ersten E-Mail](email/create-email.md)
-      + Erstellen des E-Mail-Inhalts {#content}
-         + [Bearbeiten des E-Mail-Inhalts](content/edit-content.md)
-         + Gestalten Ihrer E-Mail {#design-content}
-            + Beginnen Sie mit der Erstellung Ihres Inhalts {#start-design}
-               + [Beginnen von Grund auf ](content/create-email-content.md)
-               + [Importieren Ihrer E-Mail-Inhalte](content/existing-content.md)
-               + [Codieren Sie Ihre eigenen Inhalte](content/code-content.md)
-               + [Verwenden von E-Mail-Inhaltsvorlagen](content/email-sample-templates.md)
+      + E-Mail-Inhalt erstellen {#content}
+         + [E-Mail-Inhalt konfigurieren](content/edit-content.md)
+         + Gestalten der E-Mail {#start-design}
+            + [Erste Schritte mit E-Mail-Designer](content/get-started-email-designer.md)
+            + [Beginnen von Grund auf ](content/create-email-content.md)
+            + [Importieren Ihrer E-Mail-Inhalte](content/existing-content.md)
+            + [Codieren Sie Ihre eigenen Inhalte](content/code-content.md)
+            + [Verwenden von E-Mail-Inhaltsvorlagen](content/email-templates.md)
+         + Inhaltserstellung {#design-content}
             + [Verwenden von Inhaltskomponenten](content/content-components.md)
             + [Erstellen der Textversion](content/text-version-email.md)
             + [Hinzufügen eines Links zur Mirrorseite](content/mirror-page.md)
