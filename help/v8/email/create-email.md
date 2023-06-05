@@ -4,9 +4,9 @@ title: Senden Ihrer ersten E-Mail
 description: Erfahren Sie, wie Sie Ihre erste E-Mail mit der Web-Benutzeroberfläche von Campaign senden.
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Alpha" type="Positive"
-source-git-commit: 656ca0801757cb8e781063bed8c77c3cfbe27e99
+source-git-commit: db3bb5c9805ce5c04ea657cf2d71c5528a9980d3
 workflow-type: tm+mt
-source-wordcount: '1353'
+source-wordcount: '1329'
 ht-degree: 93%
 
 ---
@@ -46,7 +46,7 @@ Gehen Sie wie folgt vor, um einen neuen Versand zu erstellen:
 
    >[!NOTE]
    >
-   >Vorlagen sind vorkonfigurierte Versandeinstellungen, die für die zukünftige Verwendung gespeichert werden. Sie können von Administrierenden in der Adobe Campaign-Konsole erstellt werden. [Erfahren Sie, wie Sie mit Versandvorlagen arbeiten können](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/create-templates.html?lang=de){target="_blank"}.
+   >Vorlagen sind vorkonfigurierte Versandeinstellungen, die für die zukünftige Verwendung gespeichert werden. [Weitere Informationen](../msg/delivery-template.md)
 
    ![](assets/channel-template.png)
 
@@ -89,7 +89,7 @@ In diesem Anwendungsfall verwenden Sie eine vordefinierte Vorlage, um eine E-Mai
 
    ![](assets/select-template.png)
 
-<!--1. Select the HTML or ZIP file to import then click **[!UICONTROL Next]**.
+   <!--1. Select the HTML or ZIP file to import then click **[!UICONTROL Next]**.
 
     If your folder contains assets, choose the instance and folder where they should be stored then click **[!UICONTROL Import]**. (+ link to doc on assets?)
 
