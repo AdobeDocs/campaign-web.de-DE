@@ -3,28 +3,28 @@ audience: end-user
 title: Workflow-Aktivität "Und-Verknüpfung" verwenden
 description: Erfahren Sie, wie Sie die Workflow-Aktivität Und-Verknüpfung verwenden.
 badge: label="Alpha" type="Positive"
-source-git-commit: 6ed2c73a5348871348ec4cbdd89fc8119fdbc718
+source-git-commit: bdf569913dfcf9bee549c6ae3252f5a92a5f34e8
 workflow-type: tm+mt
-source-wordcount: '152'
-ht-degree: 21%
+source-wordcount: '189'
+ht-degree: 3%
 
 ---
 
 
 # Und-Verknüpfung {#join}
 
-Die **Und-Verknüpfung** ermöglicht die Synchronisation mehrerer Ausführungszweige eines Workflows.
+Die **Und-Verknüpfung** -Aktivität **Flusssteuerung** Aktivität. Damit können Sie mehrere Ausführungszweige eines Workflows synchronisieren.
 
-Bei einer Und-Verknüpfung wird die ausgehende Transition erst aktiviert, wenn alle eingehenden Transitionen aktiviert wurden, d. h. wenn alle vorangehenden Aktivitäten beendet sind.
+Die ausgehende Transition wird erst dann Trigger, wenn alle eingehenden Transitionen aktiviert wurden, d. h. wenn alle vorangehenden Aktivitäten beendet sind. Auf diese Weise können Sie sicherstellen, dass bestimmte Aktivitäten abgeschlossen sind, bevor Sie mit der Ausführung des Workflows fortfahren.
 
 ## Konfiguration
 
 Führen Sie die folgenden Schritte aus, um die **Und-Verknüpfung** Aktivität:
 
-1. Hinzufügen mehrerer Aktivitäten wie **Kombinieren** Aktivitäten, um mindestens zwei verschiedene Ausführungszweige zu bilden.
+1. Fügen Sie mehrere Aktivitäten wie Kanalaktivitäten hinzu, um mindestens zwei verschiedene Ausführungszweige zu bilden.
 1. Hinzufügen einer **Und-Verknüpfung** -Aktivität zu einem der Zweige.
 1. Im **Zusammenführungsoptionen** alle vorherigen Aktivitäten, denen Sie beitreten möchten.
-1. Wählen Sie die **Primärer Satz** in der ausgehenden Transition beibehalten werden.
+1. Im **Primärer Satz** auswählen, welche eingehende Transition-Population Sie beibehalten möchten. Die ausgehende Transition darf nur eine der eingehenden Populationen enthalten.
 
 ## Beispiel
 

@@ -3,17 +3,27 @@ audience: end-user
 title: Verwenden der Workflow-Aktivität Audience erstellen
 description: Erfahren Sie, wie Sie die Workflow-Aktivität Audience erstellen verwenden.
 badge: label="Alpha" type="Positive"
-source-git-commit: 9b639a533e75822570d6cc2b9752fc9380d069dd
+source-git-commit: bdf569913dfcf9bee549c6ae3252f5a92a5f34e8
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 9%
+source-wordcount: '314'
+ht-degree: 7%
 
 ---
 
 
 # Zielgruppe aufbauen {#build-audience}
 
-Mithilfe dieser Aktivität können Sie eine Audience definieren. Sie können entweder eine vorhandene Zielgruppe auswählen oder den Regel-Builder verwenden, um Ihre eigene Abfrage zu definieren.
+Die **Audience erstellen** -Aktivität **Targeting** Aktivität. Diese Aktivität ermöglicht die Bestimmung der Audience, die in den Workflow eintreten soll. Beim Versand von Nachrichten im Rahmen eines Kampagnen-Workflows wird die Nachrichtenzielgruppe nicht in der Kanalaktivität, sondern im **Audience erstellen** Aktivität.
+
+Zur Definition der Audience-Population haben Sie folgende Möglichkeiten:
+
+* Wählen Sie eine vorhandene Zielgruppe aus, die als Liste in der Client-Konsole erstellt wurde.
+* Wählen Sie eine Adobe Experience Platform-Zielgruppe aus.
+* Erstellen Sie mit dem Regel-Builder eine neue Zielgruppe, indem Sie Filterkriterien definieren und kombinieren.
+
+>[!NOTE]
+>
+>In diesem Zusammenhang können Sie keine Audience aus einer Datei laden. Dazu müssen Sie einen eigenständigen Versand erstellen. [Weitere Informationen](../../audience/about-audience.md)
 
 <!--
 The **Build audience** activity can be placed at the beginning of the workflow or after any other activity. Any activity can be placed after the **Build audience**.
@@ -23,7 +33,7 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 
 Führen Sie die folgenden Schritte aus, um die **Audience erstellen** Aktivität:
 
-1. Fügen Sie die Aktivität Audience erstellen hinzu.
+1. Hinzufügen einer **Audience erstellen** Aktivität.
 1. Titel definieren.
 1. Definieren Sie den Audience-Typ: **Erstellen eigener** oder **Audience lesen**.
 

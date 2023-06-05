@@ -3,17 +3,17 @@ audience: end-user
 title: Verwenden Sie die Workflow-Aktivität Kombinieren .
 description: Erfahren Sie, wie Sie die Workflow-Aktivität Kombinieren verwenden.
 badge: label="Alpha" type="Positive"
-source-git-commit: 98b4b43427266d5f9580733d4674db938713296d
+source-git-commit: bdf569913dfcf9bee549c6ae3252f5a92a5f34e8
 workflow-type: tm+mt
-source-wordcount: '439'
-ht-degree: 28%
+source-wordcount: '548'
+ht-degree: 25%
 
 ---
 
 
 # Kombinieren {#combine}
 
-Diese Aktivität ermöglicht die Verarbeitung von Sets für eingehende Daten. Sie können also verschiedene Populationen vereinen, einen Teil daraus ausschließen oder nur die in jeder der Populationen enthaltenen Datensätze verwenden. Im Folgenden finden Sie die verfügbaren Segmentierungstypen:
+Diese Aktivität ermöglicht die Segmentierung Ihrer eingehenden Population. Sie können also verschiedene Populationen vereinen, einen Teil daraus ausschließen oder nur die in jeder der Populationen enthaltenen Datensätze verwenden. Im Folgenden finden Sie die verfügbaren Segmentierungstypen:
 
 <!--
 The **Combine** activity can be placed after any other activity, but not at the beginning of the workflow. Any activity can be placed after the **Combine**.
@@ -23,24 +23,37 @@ The **Combine** activity can be placed after any other activity, but not at the 
 * Die **Schnittmenge** ermöglicht es, nur die Elemente beizubehalten, die den verschiedenen eingehenden Populationen in der Aktivität gemein sind.
 * Die **Ausschluss** ermöglicht den Ausschluss von Elementen aus einer Population nach bestimmten Kriterien.
 
-## Konfiguration
+## Allgemeine Konfiguration {#general}
 
-Führen Sie die folgenden Schritte aus, um die **Kombinieren** Aktivität:
+Führen Sie die folgenden Schritte aus, um mit der Konfiguration der **Kombinieren** Aktivität:
 
 1. Hinzufügen mehrerer Aktivitäten wie **Audience erstellen** Aktivitäten, um mindestens zwei verschiedene Ausführungszweige zu bilden.
-1. Hinzufügen einer **Kombinieren** -Aktivität zu einer der vorherigen Segmentierungsübergänge hinzu.
-1. Wählen Sie den Segmentierungstyp aus: Vereinigung, Schnittmenge oder Ausschluss.
+1. Hinzufügen einer **Kombinieren** -Aktivität zu einem der vorherigen Zweige.
+1. Wählen Sie den Segmentierungstyp aus: [Vereinigung](#union), [Schnittmenge](#intersection) oder [Ausschluss](#exclusion).
 1. Bestätigen Sie die Angaben mit der Schaltfläche **Fortfahren**.
 1. Im **Sets zum Verbinden** alle vorherigen Aktivitäten, denen Sie beitreten möchten.
 
-Für **Vereinigung** und **Schnittmenge**, müssen Sie die **Abstimmtyp** zur Definition des Umgangs mit Duplikaten:
+## Vereinigung {#union}
 
-* Nur die Schlüssel – Standardmodus; die Aktivität behält nur einen der Datensätze bei, wenn mehrere aus verschiedenen eingehenden Transitionen stammende Datensätze denselben Schlüssel aufweisen. Diese Option kann nur verwendet werden, wenn die eingehenden Populationen homogen sind.
-* Auswahl an Spalten – die Abstimmung erfolgt auf Basis der von Ihnen angegebenen Spalten. Wählen Sie zunächst die die Quelldaten enthaltende Hauptmenge aus und dann die für die Herstellung der Relation zu verwendenden Spalten.
+Für **Vereinigung**, müssen Sie die **Abstimmtyp** zur Definition des Umgangs mit Duplikaten:
 
-Für **Schnittmenge** und **Ausschluss**, können Sie die **Abschluss generieren** -Option, wenn Sie die verbleibende Population verarbeiten möchten. Das Komplement enthält die Vereinigung der Ergebnisse aller eingehenden Aktivitäten abzüglich der Schnittmenge. Der Aktivität wird daraufhin eine zusätzliche ausgehende Transition hinzugefügt.
+* **Nur die Schlüssel** – Standardmodus; die Aktivität behält nur einen der Datensätze bei, wenn mehrere aus verschiedenen eingehenden Transitionen stammende Datensätze denselben Schlüssel aufweisen. Diese Option kann nur verwendet werden, wenn die eingehenden Populationen homogen sind.
+* **Auswahl an Spalten** – die Abstimmung erfolgt auf Basis der von Ihnen angegebenen Spalten. Wählen Sie zunächst die die Quelldaten enthaltende Hauptmenge aus und dann die für die Herstellung der Relation zu verwendenden Spalten.
 
-Für **Ausschluss**, wählen Sie die **Primärer Satz** aus den eingehenden Transitionen in der **Sets zum Verbinden** Abschnitt. aus der die Elemente der anderen eingehenden Transitionen ausgeschlossen werden sollen. Die eingehenden Transitionen müssen Populationen gleichen Typs enthalten.
+## Schnittmenge {#intersection}
+
+Für **Schnittmenge** müssen Sie die folgenden zusätzlichen Schritte ausführen:
+
+1. Wählen Sie die **Abstimmtyp** , um festzulegen, wie Duplikate verarbeitet werden. Siehe den Abschnitt [Vereinigung](#union).
+1. Sie können die **Abschluss generieren** -Option, wenn Sie die verbleibende Population verarbeiten möchten. Das Komplement enthält die Vereinigung der Ergebnisse aller eingehenden Aktivitäten abzüglich der Schnittmenge. Der Aktivität wird daraufhin eine zusätzliche ausgehende Transition hinzugefügt.
+
+## Ausschluss {#exclusion}
+
+Für **Ausschluss** müssen Sie die folgenden zusätzlichen Schritte ausführen:
+
+1. Im **Sets zum Verbinden** auswählen, wählen Sie die **Primärer Satz** aus den eingehenden Transitionen. aus der die Elemente der anderen eingehenden Transitionen ausgeschlossen werden sollen. Die eingehenden Transitionen müssen Populationen gleichen Typs enthalten.
+1. Bei Bedarf können die eingehenden Tabellen angepasst werden. Um eine Zielgruppe aus einer anderen Dimension auszuschließen, muss diese Zielgruppe auf dieselbe Zielgruppendimension wie die Hauptzielgruppe zurückgesetzt werden. Klicken Sie dazu auf **Regel hinzufügen** im **Ausschlussregeln** und geben Sie die Bedingungen für die Dimensionsänderung an. Die Abstimmung der Daten erfolgt entweder über ein Attribut oder einen Join.
+1. Sie können die **Abschluss generieren** -Option, wenn Sie die verbleibende Population verarbeiten möchten. Siehe den Abschnitt [Schnittmenge](#intersection).
 
 ## Beispiele
 
