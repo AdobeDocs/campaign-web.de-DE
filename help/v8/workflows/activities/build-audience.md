@@ -3,7 +3,7 @@ audience: end-user
 title: Verwenden der Workflow-Aktivität Audience erstellen
 description: Erfahren Sie, wie Sie die Workflow-Aktivität Audience erstellen verwenden.
 badge: label="Alpha" type="Positive"
-source-git-commit: bdf569913dfcf9bee549c6ae3252f5a92a5f34e8
+source-git-commit: 07da5f804e25382c6202b7438e15dafaee413f27
 workflow-type: tm+mt
 source-wordcount: '314'
 ht-degree: 7%
@@ -23,7 +23,7 @@ Zur Definition der Audience-Population haben Sie folgende Möglichkeiten:
 
 >[!NOTE]
 >
->In diesem Zusammenhang können Sie keine Audience aus einer Datei laden. Dazu müssen Sie einen eigenständigen Versand erstellen. [Weitere Informationen](../../audience/about-audience.md)
+>In diesem Zusammenhang können Sie keine Audience aus einer Datei laden. Dazu müssen Sie einen eigenständigen Versand erstellen. [Weitere Informationen](../../audience/about-audiences.md)
 
 <!--
 The **Build audience** activity can be placed at the beginning of the workflow or after any other activity. Any activity can be placed after the **Build audience**.
