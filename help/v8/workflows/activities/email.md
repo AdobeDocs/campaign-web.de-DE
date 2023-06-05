@@ -3,10 +3,10 @@ audience: end-user
 title: E-Mail-Workflow-Aktivität verwenden
 description: Erfahren Sie, wie Sie die Workflow-Aktivität E-Mail verwenden.
 badge: label="Alpha" type="Positive"
-source-git-commit: fc920737aa336bbb92b2d2ef03f997ca2eefa0bb
+source-git-commit: 941e57e2ffdcaa87553fb36c66bdb3c383fe330e
 workflow-type: tm+mt
-source-wordcount: '230'
-ht-degree: 31%
+source-wordcount: '261'
+ht-degree: 32%
 
 ---
 
@@ -27,12 +27,12 @@ Im Folgenden finden Sie die Schritte zum Hinzufügen einer **Kanal** Aktivität 
 
 1. Wählen Sie eine Versandaktivität aus: **[!UICONTROL Email]**, **[!UICONTROL SMS]**, **[!UICONTROL Push-Benachrichtigung (Android)]** oder **[!UICONTROL Push-Benachrichtigung (iOS)]**.
 
+1. Wählen Sie eine **Vorlage**. Vorlagen sind vorkonfigurierte Versandeinstellungen, die für die zukünftige Verwendung gespeichert werden. [Weitere Informationen](../../msg/delivery-template.md)
+
+1. Klicken **Versand erstellen** und definieren Ihre Nachricht auf die gleiche Weise wie einen eigenständigen Versand. [Weitere Informationen](../../msg/gs-message.md)
+
+
 1. Starten Sie den Workflow und überprüfen Sie die Protokolle.
-
-
-
-
-
 
 <!--
 description, which use case you can perform (common other activities that you can link before of after the activity)
