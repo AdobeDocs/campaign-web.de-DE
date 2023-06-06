@@ -3,10 +3,10 @@ audience: end-user
 title: E-Mail-Workflow-Aktivität verwenden
 description: Erfahren Sie, wie Sie die Workflow-Aktivität E-Mail verwenden.
 badge: label="Alpha" type="Positive"
-source-git-commit: 262f3bbbacb7bf22fe288bbf65b84f544eedec3c
+source-git-commit: caa994a1f390248c9fe11da198ab73197b129263
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 31%
+source-wordcount: '365'
+ht-degree: 27%
 
 ---
 
@@ -41,7 +41,9 @@ Im Folgenden finden Sie die Schritte zum Hinzufügen einer **Kanal** Aktivität 
 
 ## Beispiel
 
+Im Folgenden finden Sie ein kanalübergreifendes Workflow-Beispiel mit einer Segmentierung und zwei Sendungen. Der Workflow richtet sich an alle Kunden, die eine E-Mail-Adresse haben und an Kaffeemaschinen interessiert sind. Unter dieser Population wird eine E-Mail an die regulären Kunden und eine SMS an die VIP gesendet.
 
+![](../assets/workflow-channel-example.png)
 <!--
 description, which use case you can perform (common other activities that you can link before of after the activity)
 
