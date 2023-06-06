@@ -4,10 +4,10 @@ title: Bearbeiten des E-Mail-Inhalts
 description: Erfahren Sie, wie Sie den E-Mail-Inhalt in der Web-Benutzeroberfläche von Campaign bearbeiten können
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 badge: label="Alpha" type="Positive"
-source-git-commit: 46f2f42f724232b15f826f01c5957c0295c61f26
+source-git-commit: 666a1c2d4b31fed8e956f0b2984c1f39d74a2221
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 54%
+source-wordcount: '495'
+ht-degree: 48%
 
 ---
 
@@ -33,21 +33,28 @@ ht-degree: 54%
 >title="Tracking-Optionen"
 >abstract="Standardmäßig ist für den Versand Tracking aktiviert. Sie können diese Option hier deaktivieren."
 
-Um den Inhalt einer E-Mail zu erstellen, klicken Sie auf die Schaltfläche **[!UICONTROL Inhalt bearbeiten]** -Schaltfläche in der [E-Mail-Versand-Dashboard](../email/create-email.md) angezeigt.
+Die E-Mail **[!UICONTROL Inhalt bearbeiten]** -Bildschirm ermöglicht Ihnen Folgendes:
+* Definieren Sie grundlegende Elemente Ihrer Nachricht, z. B. die Absenderadresse und die Betreffzeile
+* Durchführen zusätzlicher Aktionen, z. B. Hinzufügen von Anlagen oder Einrichten von Angeboten
+* Zugriff auf [Email Designer](get-started-email-designer.md) , um den korrekten Inhalt Ihrer E-Mail zu erstellen
 
-![](assets/email-edit-content.png)
+Gehen Sie wie folgt vor, um den Inhalt einer E-Mail zu konfigurieren oder zu bearbeiten.
 
-Auf dem sich öffnenden Bildschirm können Sie grundlegende Details definieren, einige zusätzliche Aktionen ausführen, wie z. B. Anlagen hinzufügen oder Angebote einrichten, und auf die [Email Designer](#start-authoring) , um Ihren Inhalt zu erstellen.
+1. Klicken Sie auf **[!UICONTROL Inhalt bearbeiten]** -Schaltfläche in der [E-Mail-Versand-Dashboard](../email/create-email.md) angezeigt.
 
-![](assets/email-edit-content-dashboard.png)
+   ![](assets/email-edit-content.png)
 
-Gehen Sie wie folgt vor, um den Inhalt Ihrer E-Mail zu bearbeiten:
+1. Der Bildschirm zur Bearbeitung des E-Mail-Inhalts wird geöffnet. Wenn Sie eine neue E-Mail konfigurieren, wird die **[!UICONTROL Name des Empfängers]** und **[!UICONTROL Aus E-Mail]** -Felder bereits ausgefüllt sind.
 
-1. Im **[!UICONTROL Name des Empfängers]** verwenden Sie einen Namen, der von den Empfängern leicht identifiziert werden kann, z. B. den Namen Ihrer Marke, um die Öffnungsrate Ihrer Sendungen zu erhöhen.
+   ![](assets/email-edit-content-dashboard.png)
 
-   Um das Benutzererlebnis zu verbessern, können Sie den Namen einer Person einfügen, wie z. B. „Emma von Megastore“.
+1. Die **[!UICONTROL Name des Empfängers]** -Feld wird in der E-Mail-Vorlage definiert. Wenn Sie Änderungen vornehmen möchten, verwenden Sie einen Namen, der von den Empfängern leicht identifiziert werden kann, z. B. den Namen Ihrer Marke, um die Öffnungsrate Ihrer Sendungen zu erhöhen.
 
-1. Im **[!UICONTROL Aus E-Mail]** -Adressfeld verwenden, stellen Sie sicher, dass die Adressdomäne mit der Subdomain übereinstimmt, die Sie der Adobe zugewiesen haben.
+   >[!NOTE]
+   >
+   >    Um das Benutzererlebnis zu verbessern, können Sie den Namen einer Person einfügen, wie z. B. „Emma von Megastore“.
+
+1. Die **[!UICONTROL Aus E-Mail]** Das Adressfeld wird auch in der E-Mail-Vorlage definiert. Stellen Sie sicher, dass die Adress-Domain mit der Subdomain übereinstimmt, die Sie Adobe zugewiesen haben.
 
    >[!NOTE]
    >
@@ -71,7 +78,7 @@ Gehen Sie wie folgt vor, um den Inhalt Ihrer E-Mail zu bearbeiten:
 
 1. Klicken Sie auf **[!UICONTROL Bearbeiten des E-Mail-Hauptteils]** -Schaltfläche, um den Inhalt der E-Mail mithilfe der [Email Designer](#start-authoring). Weitere Informationen zum Entwerfen von E-Mail-Inhalten finden Sie in diesen Abschnitten:
 
-   * [Erfahren Sie, wie Sie E-Mails entwerfen](create-email-content.md)
+   * [Erstellen von E-Mails von Grund auf](create-email-content.md)
    * [Gestalten Ihrer Inhalte](get-started-email-style.md)
 
 1. Standardmäßig ist für den Versand Tracking aktiviert. Sie können diese Option im Bereich **[!UICONTROL Optionale Funktionen]** deaktivieren. [Erfahren Sie, wie Sie Links hinzufügen und das Tracking verwalten](message-tracking.md)
