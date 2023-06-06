@@ -4,9 +4,9 @@ title: Erkunden der Benutzeroberfläche
 description: Web-Benutzeroberfläche von Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: 641b504766138830ab30352d73d5e6a82ceadc27
+source-git-commit: 7fa6a5adb22b4fc4569b93383a8e269703944582
 workflow-type: tm+mt
-source-wordcount: '1591'
+source-wordcount: '1506'
 ht-degree: 99%
 
 ---
@@ -235,20 +235,6 @@ REFER TO
 https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebUI+Contextual+Help+%3CALPHA%3E-+Official+list
 -->
 
->[!CONTEXTUALHELP]
->id="acw_deliveries_sms_audience"
->title="Definieren der SMS-Zielgruppe"
->abstract="Wählen Sie die beste Zielgruppe für Ihre SMS-Nachricht aus."
-
->[!CONTEXTUALHELP]
->id="acw_sms_report_overview"
->title="Zusammenfassung des SMS-Berichts"
->abstract="Entdecken Sie die Reporting-Metriken für Ihren SMS-Versand."
-
->[!CONTEXTUALHELP]
->id="acw_push_report_overview"
->title="Zusammenfassung des Push-Berichts"
->abstract="Entdecken Sie die Reporting-Metriken für Ihren Push-Versand."
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_properties_advanced"
@@ -264,21 +250,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_deliveries_email_metrics_errors"
 >title="Fehlermetriken"
 >abstract="Anzahl der E-Mails mit dem Fehlerstatus."
-
->[!CONTEXTUALHELP]
->id="acw_deliveries_push_android_content"
->title="Pushen von Android-Inhalten"
->abstract="Definieren Sie den Push-Inhalt für Android."
-
->[!CONTEXTUALHELP]
->id="acw_deliveries_push_ios_content"
->title="Pushen von iOS-Inhalten"
->abstract="Definieren Sie den Push-Inhalt für iOS."
-
->[!CONTEXTUALHELP]
->id="acw_sms_preview_option_app_target"
->title="App-Abonnentinnen und -Abonnenten"
->abstract="Erstellen Sie eine Vorschau und testen Sie die Nachricht, indem Sie Abonnentinnen und Abonnenten der App zur Hauptzielgruppe hinzufügen. "
 
 >[!CONTEXTUALHELP]
 >id="acw_email_preview_option_test_target"
@@ -366,20 +337,13 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Erweiterte Felder des Regel-Builders"
 >abstract="Konfigurieren Sie Spalten mit erweiterten Feldern."
 
->[!CONTEXTUALHELP]
->id="acw_deliveries_push_properties"
->title="Eigenschaften des Push-Versands"
->abstract="Verwalten Sie die Eigenschaften eines Push-Versands."
+
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_metrics_newquarantines"
 >title="Metrik „Neu in Quarantäne“"
 >abstract="Die Metrik „Neu in Quarantäne“."
 
->[!CONTEXTUALHELP]
->id="acw_deliveries_sms_template_selection"
->title="Auswahl von SMS-Vorlagen"
->abstract="Wählen Sie eine vordefinierte Vorlage aus, um Ihren SMS-Versand zu starten."
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_delivered"

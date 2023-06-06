@@ -4,9 +4,9 @@ title: Entwerfen eines SMS-Versands
 description: Erfahren Sie, wie Sie einen SMS-Versand entwerfen.
 badge: label="Alpha" type="Positive"
 exl-id: 1a70d033-6f1b-482b-9948-59ef75871750
-source-git-commit: ec61c17d5a72b4d324d9a9a2cc71c85093c124ea
+source-git-commit: 7fa6a5adb22b4fc4569b93383a8e269703944582
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '264'
 ht-degree: 98%
 
 ---
@@ -17,6 +17,11 @@ ht-degree: 98%
 >id="acw_deliveries_sms_content"
 >title="SMS-Inhalte"
 >abstract="Erstellen Sie die Inhalte Ihrer SMS-Sendungen und personalisieren Sie sie mit Personalisierungsfeldern, Inhaltsbausteinen und dynamischen Inhalten."
+
+>[!CONTEXTUALHELP]
+>id="acw_sms_preview_option_app_target"
+>title="App-Abonnentinnen und -Abonnenten"
+>abstract="Erstellen Sie eine Vorschau und testen Sie die Nachricht, indem Sie Abonnentinnen und Abonnenten der App zur Hauptzielgruppe hinzufügen."
 
 1. Klicken Sie auf Ihrer Versandseite auf die Schaltfläche **[!UICONTROL Inhalt bearbeiten]**, um den SMS-Inhalt zu entwerfen.
 

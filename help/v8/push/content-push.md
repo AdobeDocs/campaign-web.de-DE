@@ -3,14 +3,24 @@ audience: end-user
 title: Push-Benachrichtigungsversand erstellen
 description: Erfahren Sie, wie Sie einen Push-Benachrichtigungsversand mit Adobe Campaign Web erstellen
 badge: label="Alpha" type="Positive"
-source-git-commit: 965c2d72d81233c98beb4e4bc3c76692c7bf3990
+source-git-commit: 7fa6a5adb22b4fc4569b93383a8e269703944582
 workflow-type: tm+mt
-source-wordcount: '769'
+source-wordcount: '785'
 ht-degree: 57%
 
 ---
 
 # Push-Versand erstellen {#content-push}
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_android_content"
+>title="Pushen von Android-Inhalten"
+>abstract="Definieren Sie den Push-Inhalt für Android."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_ios_content"
+>title="Pushen von iOS-Inhalten"
+>abstract="Definieren Sie den Push-Inhalt für iOS."
 
 ## Nachricht {#push-message}
 
