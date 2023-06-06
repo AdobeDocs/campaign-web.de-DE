@@ -3,9 +3,9 @@ audience: end-user
 title: E-Mail-Workflow-Aktivität verwenden
 description: Erfahren Sie, wie Sie die Workflow-Aktivität E-Mail verwenden.
 badge: label="Alpha" type="Positive"
-source-git-commit: 40ca8ca9825706be7b82a58136627911132bc14a
+source-git-commit: 262f3bbbacb7bf22fe288bbf65b84f544eedec3c
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '316'
 ht-degree: 31%
 
 ---
@@ -29,7 +29,7 @@ Im Folgenden finden Sie die Schritte zum Hinzufügen einer **Kanal** Aktivität 
 
 1. Wählen Sie eine **Vorlage**. Vorlagen sind vorkonfigurierte Versandeinstellungen, die für die zukünftige Verwendung gespeichert werden. [Weitere Informationen](../../msg/delivery-template.md)
 
-1. Klicken **Versand erstellen** und definieren Ihre Nachricht auf die gleiche Weise wie einen eigenständigen Versand. Hier können Sie auch die Versandeinstellungen definieren, den Inhalt planen und simulieren. [Weitere Informationen](../../msg/gs-message.md)
+1. Klicken **Versand erstellen** und definieren Ihre Nachricht auf die gleiche Weise wie einen eigenständigen Versand. Hier können Sie auch die Versandeinstellungen definieren, den Inhalt planen und simulieren. [Weitere Informationen](../../msg/gs-messages.md)
 
 1. Navigieren Sie zurück zu Ihrem Workflow und klicken Sie auf **Starten** , um Ihren Workflow zu starten.
 
@@ -38,6 +38,9 @@ Im Folgenden finden Sie die Schritte zum Hinzufügen einer **Kanal** Aktivität 
 1. Klicken **Überprüfen und Senden** aus der Kanalaktivität, um den Versand zu bestätigen.
 
 1. Klicken Sie im Versand-Dashboard auf **Senden**.
+
+## Beispiel
+
 
 <!--
 description, which use case you can perform (common other activities that you can link before of after the activity)
