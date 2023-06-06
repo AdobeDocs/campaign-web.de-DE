@@ -5,10 +5,10 @@ title: Dokumentation zu Adobe Campaign v8 Web
 description: Web-Dokumentation zu Campaign v8
 breadcrumb-title: Übersicht über Campaign
 hide: true
-source-git-commit: a92066cf5cf2a8b86ebad2098624259792eb8afd
+source-git-commit: 467a2475c7610e8124c8babea6f63bd521a3aba4
 workflow-type: tm+mt
 source-wordcount: '323'
-ht-degree: 80%
+ht-degree: 79%
 
 ---
 
@@ -94,12 +94,10 @@ ht-degree: 80%
       + [Und-Verknüpfung](workflows/activities/and-join.md)
       + [Zielgruppe aufbauen](workflows/activities/build-audience.md)
       + [Kombinieren](workflows/activities/combine.md)
-      + [E-Mail](workflows/activities/email.md)
+      + [E-Mail, SMS, Push](workflows/activities/email.md)
       + [Ende](workflows/activities/end.md)
       + [Anreicherung](workflows/activities/enrichment.md)
       + [Verzweigung](workflows/activities/fork.md)
-      + [Push-Benachrichtigung](workflows/activities/push.md)
-      + [SMS](workflows/activities/sms.md)
       + [Warten](workflows/activities/wait.md)
 + Reporting {#reports}
    + [Erste Schritte mit Berichten](reporting/gs-reports.md)
