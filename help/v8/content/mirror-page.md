@@ -5,9 +5,9 @@ description: Erfahren Sie, wie Sie den Link zur Mirrorseite hinzufügen und verw
 badge: label="Alpha" type="Positive"
 exl-id: 0c22357f-0465-4fdc-833e-5fda5805fe42
 source-git-commit: 05d87fc9ff8f5e2038eba4cc9438e058566e04c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '443'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -33,11 +33,11 @@ So fügen Sie in Ihrer E-Mail einen Link zu einer Mirror-Seite hinzu:
 
    ![](assets/message-tracking-mirror-page.png)
 
-1. Wählen Sie die **[!UICONTROL Personalisierung hinzufügen]** -Symbol, um auf das Personalisierungsmenü zuzugreifen.
+1. Wählen Sie das Symbol **[!UICONTROL Personalisierung hinzufügen]** aus, um auf das Personalisierungsmenü zuzugreifen.
 
    ![](assets/message-tracking-mirror-page_2.png)
 
-1. Wählen Sie im Menü **[!UICONTROL Inhaltsbaustein]** die Option **[!UICONTROL URL der Mirror-Seite]** und klicken Sie auf **[!UICONTROL Hinzufügen]**.
+1. Wählen Sie im Menü **[!UICONTROL Inhaltsbaustein]** die Option **[!UICONTROL URL der Mirrorseite]** und klicken Sie auf **[!UICONTROL Hinzufügen]**.
 
    ![](assets/message-tracking-mirror-page_3.png)
 
