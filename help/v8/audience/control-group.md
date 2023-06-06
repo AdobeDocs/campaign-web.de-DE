@@ -4,9 +4,9 @@ title: Festlegen einer Kontrollgruppe
 description: Erfahren Sie, wie Sie in der Web-Benutzeroberfläche von Campaign eine Kontrollgruppe für Ihre Nachrichten einrichten.
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
 badge: label="Alpha" type="Positive"
-source-git-commit: 6624821f70a7ef75c97cb3f3ca233dd7446b8922
+source-git-commit: a92066cf5cf2a8b86ebad2098624259792eb8afd
 workflow-type: tm+mt
-source-wordcount: '743'
+source-wordcount: '764'
 ht-degree: 45%
 
 ---
@@ -14,6 +14,8 @@ ht-degree: 45%
 # Festlegen einer Kontrollgruppe {#control-group}
 
 Eine Kontrollgruppe ist eine vom Versand ausgeschlossene Unterpopulation. Sie können eine Kontrollgruppe definieren, um zu verhindern, dass Nachrichten an einen Teil Ihrer Audience gesendet werden, und das Verhalten nach dem Versand mit der Hauptzielgruppe vergleichen. Mit dieser Option können Sie die Wirkung Ihrer Kampagne messen.
+
+## Kontrollgruppe aktivieren{#add-a-control-group}
 
 Um eine Kontrollgruppe hinzuzufügen, aktivieren Sie die Option bei der Definition der Zielgruppe Ihres Versands. Die Kontrollgruppe kann nach dem Zufallsprinzip aus der Hauptzielgruppe extrahiert und/oder aus einer bestimmten Population ausgewählt werden. Daher gibt es zwei Möglichkeiten, eine Kontrollgruppe zu definieren:
 
@@ -57,7 +59,7 @@ Unter dem **Kontrollgruppe** wählen Sie eine **Extraktionsmodus**:
 Verwenden Sie dann die **Größenbeschränkung** um die Anzahl der Profile festzulegen, die aus der Hauptzielgruppe extrahiert werden sollen. Dabei kann es sich um eine Rohanzahl (z. B. 50 Profile, die ausgeschlossen werden sollen) oder einen Prozentsatz der ursprünglichen Zielgruppe handeln (z. B. 5 % der Hauptzielgruppe).
 
 
-### Beispiel einer Kontrollgruppe
+### Beispiel einer Kontrollgruppe{#control-group-sample}
 
 Gehen Sie wie folgt vor, um beispielsweise eine Kontrollgruppe mit den 100 neuen jüngsten Empfängern zu erstellen:
 
@@ -69,7 +71,7 @@ Gehen Sie wie folgt vor, um beispielsweise eine Kontrollgruppe mit den 100 neuen
 
 Diese 100 neuen jüngsten Empfänger werden dann von der Hauptzielgruppe ausgeschlossen.
 
-### Kontrollgruppe überprüfen {#check-extract-target}
+### Kontrollgruppe überprüfen {#check-control-group}
 
 Sie können die Protokolle anzeigen, um die ausgeschlossenen Profile zu überprüfen und zu identifizieren. Nehmen wir als Beispiel einen zufälligen Ausschluss von fünf Profilen.
 
@@ -118,4 +120,7 @@ Die Profile, die in der Audience enthalten sind oder mit dem Ergebnis der Abfrag
 ## Ergebnisse vergleichen{#control-group-results}
 
 Nach dem Versand können Sie die Versandlogs extrahieren, um das Verhalten zwischen den Profilen, die die Nachricht nicht erhalten haben, und der tatsächlichen Zielgruppe zu vergleichen. Sie können auch die Versandlogs verwenden, um eine neue Zielgruppe zu erstellen.
+
+Um zu sehen, welche Profile aus der Zielgruppe entfernt wurden, überprüfen Sie die **Versandlogs**. Weitere Informationen finden Sie in [diesem Abschnitt](#check-control-group).
+
 

@@ -5,9 +5,9 @@ title: Dokumentation zu Adobe Campaign v8 Web
 description: Web-Dokumentation zu Campaign v8
 breadcrumb-title: Übersicht über Campaign
 hide: true
-source-git-commit: 983541f5dea47102ae9ee3c5351a7149484a1fa5
+source-git-commit: a92066cf5cf2a8b86ebad2098624259792eb8afd
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '323'
 ht-degree: 78%
 
 ---
@@ -74,7 +74,7 @@ ht-degree: 78%
    + [Erste Schritte mit Audiences](audience/about-audiences.md)
    + [Auswählen einer bestehenden Audience](audience/add-audience.md)
    + [Definieren von Audiences mit dem Regel-Builder](audience/segment-builder.md)
-   + [Laden einer Audience aus einer Datei](audience/file-audience.md)
+   + [E-Mail-Audience aus einer Datei laden](audience/file-audience.md)
    + [Verwenden einer Adobe Experience Platform-Audience](audience/aep-audience.md)
    + [Festlegen einer Kontrollgruppe](audience/control-group.md)
 + Kanalübergreifende Kampagnen {#campaigns}
