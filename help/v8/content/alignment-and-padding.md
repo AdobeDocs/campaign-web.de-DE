@@ -5,9 +5,9 @@ description: Erfahren Sie, wie Sie die senkrechte Ausrichtung und das Padding an
 exl-id: 32e613e4-60ce-43b4-90a6-794af0e3976b
 badge: label="Alpha" type="Positive"
 source-git-commit: 05d87fc9ff8f5e2038eba4cc9438e058566e04c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '169'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ In diesem Beispiel passen wir den Abstand und die vertikale Ausrichtung innerhal
 
    ![](assets/alignment_2.png)
 
-1. Die bearbeitbaren Parameter für diese Spalte werden im **[!UICONTROL Stile]** Registerkarte. Passen Sie die **[!UICONTROL Ausrichtung]** über den entsprechenden Abschnitt.
+1. Die bearbeitbaren Parameter für diese Spalte werden auf der Registerkarte **[!UICONTROL Stile]** angezeigt. Passen Sie die **[!UICONTROL Ausrichtung]** im entsprechenden Abschnitt an.
 
    ![](assets/alignment_3.png)
 
