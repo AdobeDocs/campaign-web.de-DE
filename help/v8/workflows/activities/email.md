@@ -3,15 +3,15 @@ audience: end-user
 title: E-Mail-Workflow-Aktivität verwenden
 description: Erfahren Sie, wie Sie die Workflow-Aktivität E-Mail verwenden.
 badge: label="Alpha" type="Positive"
-source-git-commit: 3df57348b82b4efc871166a5b5a6163f3a950b44
+source-git-commit: 40ca8ca9825706be7b82a58136627911132bc14a
 workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 32%
+source-wordcount: '315'
+ht-degree: 31%
 
 ---
 
 
-# E-Mail, SMS, Push {#email}
+# E-Mail, SMS, Push {#channel}
 
 Mit Adobe Campaign Web können Sie Marketingkampagnen über mehrere Kanäle hinweg automatisieren und ausführen, z. B. E-Mail, SMS oder Push-Benachrichtigungen. Sie können Kanalaktivitäten in der Arbeitsfläche kombinieren, um kanalübergreifende Workflows zu erstellen, mit denen Trigger-Aktionen basierend auf dem Kundenverhalten durchgeführt werden können.
 
@@ -25,14 +25,19 @@ Im Folgenden finden Sie die Schritte zum Hinzufügen einer **Kanal** Aktivität 
 
    ![](../../msg/assets/add-delivery-in-wf.png)
 
-1. Wählen Sie eine Versandaktivität aus: **[!UICONTROL Email]**, **[!UICONTROL SMS]**, **[!UICONTROL Push-Benachrichtigung (Android)]** oder **[!UICONTROL Push-Benachrichtigung (iOS)]**.
+1. Wählen Sie eine Versandaktivität aus: **[!UICONTROL E-Mail]**, **[!UICONTROL SMS]**, **[!UICONTROL Push-Benachrichtigung (Android)]** oder **[!UICONTROL Push-Benachrichtigung (iOS)]**.
 
 1. Wählen Sie eine **Vorlage**. Vorlagen sind vorkonfigurierte Versandeinstellungen, die für die zukünftige Verwendung gespeichert werden. [Weitere Informationen](../../msg/delivery-template.md)
 
-1. Klicken **Versand erstellen** und definieren Ihre Nachricht auf die gleiche Weise wie einen eigenständigen Versand. [Weitere Informationen](../../msg/gs-messages.md)
+1. Klicken **Versand erstellen** und definieren Ihre Nachricht auf die gleiche Weise wie einen eigenständigen Versand. Hier können Sie auch die Versandeinstellungen definieren, den Inhalt planen und simulieren. [Weitere Informationen](../../msg/gs-message.md)
 
+1. Navigieren Sie zurück zu Ihrem Workflow und klicken Sie auf **Starten** , um Ihren Workflow zu starten.
 
-1. Starten Sie den Workflow und überprüfen Sie die Protokolle.
+   Beim Initiieren eines Versand-Workflows wird standardmäßig die Phase der Nachrichtenvorbereitung Trigger, ohne dass die Nachricht sofort gesendet wird.
+
+1. Klicken **Überprüfen und Senden** aus der Kanalaktivität, um den Versand zu bestätigen.
+
+1. Klicken Sie im Versand-Dashboard auf **Senden**.
 
 <!--
 description, which use case you can perform (common other activities that you can link before of after the activity)

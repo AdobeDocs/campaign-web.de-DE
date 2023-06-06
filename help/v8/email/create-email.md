@@ -7,7 +7,7 @@ badge: label="Alpha" type="Positive"
 source-git-commit: 983541f5dea47102ae9ee3c5351a7149484a1fa5
 workflow-type: tm+mt
 source-wordcount: '1326'
-ht-degree: 85%
+ht-degree: 86%
 
 ---
 
@@ -114,7 +114,7 @@ In diesem Anwendungsfall verwenden Sie eine vordefinierte E-Mail [Versandvorlage
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience"
 >title="Audience definieren"
->abstract="Die optimale Audience für Marketing-Nachrichten auswählen. Eine bestehende Audience auswählen, die bereits in einer Campaign v8-Instanz oder in Adobe Experience Platform definiert ist oder mit dem Regel-Builder eine neue Audience erstellen. Kontrollgruppen sind nicht für &quot;Aus Datei auswählen&quot;aktiviert und umgekehrt."
+>abstract="Die optimale Audience für Marketing-Nachrichten auswählen. Sie können eine bestehende Zielgruppe auswählen, die bereits in einer Campaign v8-Instanz oder in Adobe Experience Platform definiert ist, oder mit dem Regel-Builder eine neue Zielgruppe erstellen. Kontrollgruppen sind nicht für „Aus Datei auswählen“ aktiviert und umgekehrt."
 
 In diesem Anwendungsbeispiel senden Sie die E-Mail an eine bestehende Audience. Weitere Anweisungen zur Verwendung von Audiences finden Sie in [diesem Abschnitt](../audience/about-audiences.md).
 

@@ -9,7 +9,7 @@ exl-id: 4a8513bb-8290-432a-8e40-822cd1337cb3
 source-git-commit: 8d026a247ffe9a3568f589403e82562c51b44a49
 workflow-type: tm+mt
 source-wordcount: '937'
-ht-degree: 17%
+ht-degree: 22%
 
 ---
 
@@ -70,7 +70,7 @@ Um eine Versandvorlage zu erstellen, haben Sie folgende Möglichkeiten:
 
 ### Duplizieren einer bestehenden Vorlage {#copy-an-existing-template}
 
-Campaign verfügt über eine Reihe integrierter Vorlagen für jeden Kanal: E-Mail, Push, SMS. Die einfachste Möglichkeit, eine Versandvorlage zu erstellen, besteht darin, eine integrierte Vorlage zu duplizieren und anzupassen.
+Campaign verfügt über eine Reihe integrierter Vorlagen für jeden Kanal: E-Mail, Push und SMS. Die einfachste Möglichkeit, eine Versandvorlage zu erstellen, besteht darin, eine integrierte Vorlage zu duplizieren und anzupassen.
 
 >[!NOTE]
 >
@@ -78,7 +78,7 @@ Campaign verfügt über eine Reihe integrierter Vorlagen für jeden Kanal: E-Mai
 
 Gehen Sie wie folgt vor, um eine Versandvorlage zu duplizieren:
 
-1. Navigieren Sie zum **Vorlagen** auf der Registerkarte **Sendungen** Menü links. [Weitere Informationen](#access-manage-templates)
+1. Navigieren Sie über das Menü **Sendungen** auf der linken Seite zur Registerkarte **Vorlagen.** [Weitere Informationen](#access-manage-templates)
 1. Klicken Sie auf **[!UICONTROL Mehr Aktionen]** rechts neben dem gewünschten Vorlagennamen und wählen Sie  **[!UICONTROL Duplizieren]**.
 
    Sie können auch eine Vorlage aus der Liste auswählen und diese Option im Bildschirm zur Vorlagenbearbeitung auswählen.
@@ -128,8 +128,8 @@ Die neue Vorlage wird der [**Vorlagen** Liste](#access-manage-templates). Sie k�
 
 Gehen Sie wie folgt vor, um eine Versandvorlage von Grund auf zu konfigurieren:
 
-1. Navigieren Sie zum **Vorlagen** auf der Registerkarte **Sendungen** Menü links. [Weitere Informationen](#access-manage-templates)
-1. Klicken Sie auf **[!UICONTROL Vorlage erstellen]** Schaltfläche.
+1. Navigieren Sie über das Menü **Sendungen** auf der linken Seite zur Registerkarte **Vorlagen.** [Weitere Informationen](#access-manage-templates)
+1. Klicken Sie auf die Schaltfläche **[!UICONTROL Vorlage erstellen]**.
 
    ![](assets/templates-create-button.png)
 
@@ -147,7 +147,7 @@ Gehen Sie wie folgt vor, um eine Versandvorlage von Grund auf zu konfigurieren:
    >In den folgenden Abschnitten erfahren Sie mehr über Versandkanäle und wie Sie entsprechende Inhalte erstellen:
    >
    > * [E-Mail-Kanal](../email/create-email.md)
-   > * [Push-Benachrichtigungskanal](../push/gs-push.md)
+   > * [Push-Benachrichtigungs-Kanal](../push/gs-push.md)
    > * [SMS-Kanal](../sms/create-sms.md)
 
 

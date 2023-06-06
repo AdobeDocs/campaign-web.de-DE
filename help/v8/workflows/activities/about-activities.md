@@ -4,10 +4,10 @@ title: Arbeiten mit Workflow-Aktivitäten
 description: Erfahren Sie, wie Workflow-Aktivitäten ausgeführt werden
 badge: label="Alpha" type="Positive"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: 07da5f804e25382c6202b7438e15dafaee413f27
+source-git-commit: 40ca8ca9825706be7b82a58136627911132bc14a
 workflow-type: tm+mt
-source-wordcount: '303'
-ht-degree: 26%
+source-wordcount: '307'
+ht-degree: 27%
 
 ---
 
@@ -38,9 +38,11 @@ Mit Adobe Campaign Web können Sie Marketingkampagnen über mehrere Kanäle hinw
 
 Folgendes **Kanal** sind verfügbar:
 
-* [E-Mail](email.md)
-* [Push-Benachrichtigung](push.md)
-* [SMS](sms.md)
+* E-Mail
+* Push-Benachrichtigung
+* SMS
+
+Näheres dazu finden Sie in [diesem Abschnitt](enrichment.md).
 
 ## Flusssteuerungsaktivitäten {#flow-control}
 
