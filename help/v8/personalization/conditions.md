@@ -1,6 +1,6 @@
 ---
-title: Bedingte Inhalte erstellen
-description: Erfahren Sie, wie Sie Bedingungen zur Personalisierung Ihres Inhalts in der Adobe Campaign-Web-Benutzeroberfläche definieren.
+title: Erstellen bedingter Inhalte
+description: Erfahren Sie, wie Sie in der Web-Benutzeroberfläche von Adobe Campaign Bedingungen definieren, um Ihre Inhalte zu personalisieren
 feature: Personalization
 topic: Personalization
 role: Data Engineer
@@ -10,7 +10,7 @@ exl-id: b650a859-e27d-4a36-a725-a1f5bb31e014
 source-git-commit: 5598a82bf745659b8c1db8cb51b1a82cfd184093
 workflow-type: tm+mt
 source-wordcount: '314'
-ht-degree: 3%
+ht-degree: 8%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 3%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card3"
->title="Bedingte Inhalte erstellen"
+>title="Erstellen bedingter Inhalte"
 >abstract="Erstellen bedingter Inhalte zur Definition einer dynamischen Personalisierung basierend auf dem Empfängerprofil und zum automatischen Ersetzen von Textbausteinen und Bildern, wenn bestimmte Bedingungen erfüllt sind. Diese Funktion kann Ihre Kampagnen auf neue Höhen bringen und zielgerichtete, personalisierte Erlebnisse für Ihre Zielgruppe bereitstellen."
 
 

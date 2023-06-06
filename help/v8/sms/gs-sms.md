@@ -7,21 +7,21 @@ exl-id: 642c4180-0439-43dd-ba3f-0c4843bbfe84
 source-git-commit: ec61c17d5a72b4d324d9a9a2cc71c85093c124ea
 workflow-type: tm+mt
 source-wordcount: '136'
-ht-degree: 22%
+ht-degree: 93%
 
 ---
 
 # Erste Schritte mit SMS-Sendungen {#sms}
 
-SMS-Sendungen bieten eine praktische und effiziente Möglichkeit, Textnachrichten an die Mobilgeräte Ihrer Kunden zu senden. Mit dieser Funktion können Sie textbasierte Nachrichten erstellen, personalisieren und in der Vorschau anzeigen, um eine effektive Kommunikation zu gewährleisten.
+SMS-Sendungen bieten eine praktische und effiziente Möglichkeit, Textnachrichten an die Mobilgeräte Ihrer Kundinnen und Kunden zu senden. Mit dieser Funktion können Sie textbasierte Nachrichten erstellen, personalisieren und in der Vorschau anzeigen, um eine effektive Kommunikation zu gewährleisten.
 
 Der SMS-Kanal bietet drei Methoden zur Erstellung von SMS-Sendungen:
 
-* Workflows: Fügen Sie eine SMS-Aktivität hinzu, definieren Sie grundlegende Einstellungen und erstellen Sie Ihren SMS-Inhalt in einer größeren Automatisierungssequenz.
+* Workflows: Fügen Sie eine SMS-Aktivität hinzu, definieren Sie grundlegende Einstellungen und erstellen Sie Ihren SMS-Inhalt innerhalb einer größeren Automatisierungssequenz.
 
 * Kampagnen: Integrieren Sie SMS-Sendungen in dedizierte Kampagnen, indem Sie Parameter wie Zielgruppe und Versandzeitplan festlegen.
 
-* Eigenständige Sendungen: Erstellen Sie individuelle SMS-Sendungen, um schnell und direkt mit Ihren Kunden kommunizieren zu können, ohne dass Workflows oder Kampagnen erforderlich sind.
+* Eigenständige Sendungen: Erstellen Sie individuelle SMS-Sendungen, um schnell und direkt mit Ihren Kundinnen und Kunden kommunizieren zu können, ohne dass Workflows oder Kampagnen erforderlich sind.
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>

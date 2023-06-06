@@ -1,13 +1,13 @@
 ---
 audience: end-user
-title: SMS-Versand erstellen
-description: Erfahren Sie, wie Sie Ihren SMS-Versand entwerfen.
+title: Entwerfen eines SMS-Versands
+description: Erfahren Sie, wie Sie einen SMS-Versand entwerfen.
 badge: label="Alpha" type="Positive"
 exl-id: 1a70d033-6f1b-482b-9948-59ef75871750
 source-git-commit: ec61c17d5a72b4d324d9a9a2cc71c85093c124ea
 workflow-type: tm+mt
 source-wordcount: '249'
-ht-degree: 2%
+ht-degree: 98%
 
 ---
 
@@ -16,28 +16,28 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_content"
 >title="SMS-Inhalte"
->abstract="Erstellen Sie den Inhalt Ihrer SMS-Sendungen und personalisieren Sie ihn mit Personalisierungsfeldern, Inhaltsbausteinen und dynamischen Inhalten."
+>abstract="Erstellen Sie die Inhalte Ihrer SMS-Sendungen und personalisieren Sie sie mit Personalisierungsfeldern, Inhaltsbausteinen und dynamischen Inhalten."
 
-1. Klicken Sie auf Ihrer Versandseite auf die **[!UICONTROL Inhalt bearbeiten]** zur Erstellung Ihres SMS-Inhalts.
+1. Klicken Sie auf Ihrer Versandseite auf die Schaltfläche **[!UICONTROL Inhalt bearbeiten]**, um den SMS-Inhalt zu entwerfen.
 
-1. Im **[!UICONTROL Inhalt bearbeiten]** -Seite können Sie den Absendernamen ändern, indem Sie die Variable **[!UICONTROL Absenderfeld]**. Geben Sie den Namen ein, den Sie verwenden möchten. Sie können auch auf die **[!UICONTROL Personalisierungsdialogfeld öffnen]** um Personalisierungsfelder, Inhaltsbausteine und dynamische Inhalte hinzuzufügen.
+1. Auf der Seite **[!UICONTROL Inhalt bearbeiten]** können Sie im Feld **[!UICONTROL Absender]** den Absendernamen ändern. Wählen Sie den Namen aus, den Sie verwenden möchten. Sie können auch auf **[!UICONTROL Personalisierungsdialog öffnen]** klicken, um Personalisierungsfelder, Inhaltsbausteine und dynamische Inhalte hinzuzufügen.
 
-1. Im **[!UICONTROL Inhalt bearbeiten]** -Seite können Sie den Absendernamen anpassen, indem Sie auf die **[!UICONTROL Absenderfeld]** und geben Sie den bevorzugten Namen ein.
+1. Auf der Seite **[!UICONTROL Inhalt bearbeiten]** können Sie den Absendernamen anpassen, indem Sie auf das Feld **[!UICONTROL Absender]** zugreifen und den bevorzugten Namen eingeben.
 
-   Außerdem können Sie durch Klicken auf **[!UICONTROL Personalisierungsdialogfeld öffnen]**, können Sie Personalisierungsfelder, Inhaltsbausteine und dynamischen Inhalt in Ihre Nachricht einfügen.
+   Durch Klicken auf **[!UICONTROL Personalisierungsdialog öffnen]** können Sie außerdem Personalisierungsfelder, Inhaltsbausteine und dynamische Inhalte in Ihre Nachricht einfügen.
 
-1. Geben Sie Ihre Textnachricht im **[!UICONTROL Nachricht]** oder klicken Sie auf **[!UICONTROL Personalisierungsdialogfeld öffnen]** -Option, um Inhalte zu definieren und dynamischen Inhalt hinzuzufügen.
+1. Geben Sie Ihre Textnachricht im Feld **[!UICONTROL Nachricht]** ein oder klicken Sie auf die Option **[!UICONTROL Personalisierungsdialog öffnen]**, um Inhalte zu definieren und dynamische Inhalte hinzuzufügen.
 
-1. Standardmäßig ist das Tracking für Sendungen aktiviert. Sie können diese Option im **[!UICONTROL Optionaler Abschnitt zu Funktionen]**.
+1. Standardmäßig ist für Sendungen das Tracking aktiviert. Sie können diese Option im **[!UICONTROL Abschnitt „Optionale Funktionen“]** deaktivieren.
 
-1. Klicken **[!UICONTROL Speichern]** und überprüfen Sie Ihre Nachricht in der Vorschau.
+1. Klicken Sie auf **[!UICONTROL Speichern]** und überprüfen Sie Ihre Nachricht in der Vorschau.
 
-1. Sie können **[!UICONTROL Inhalt simulieren]** um eine Vorschau Ihres personalisierten Inhalts anzuzeigen.
+1. Sie können **[!UICONTROL Inhalt simulieren]** verwenden, um eine Vorschau Ihres personalisierten Inhalts anzuzeigen.
 
-1. Klicken **[!UICONTROL Hinzufügen von Testprofilen]** , um ein oder mehrere Testprofile auszuwählen.
+1. Klicken Sie auf **[!UICONTROL Testprofil(e) hinzufügen]**, um ein oder mehrere Testprofile auszuwählen.
 
-1. Nachdem Sie Ihre Testprofile ausgewählt haben, klicken Sie auf **[!UICONTROL Auswählen]**.
+1. Wenn Sie Ihre Testprofile ausgewählt haben, klicken Sie auf **[!UICONTROL Auswählen]**.
 
-1. Im rechten Bereich finden Sie eine Vorschau der E-Mail, in der personalisierte Elemente dynamisch durch Daten aus dem ausgewählten Profil ersetzt werden.
+1. Im rechten Bereich sehen Sie eine Vorschau der E-Mail, in der personalisierte Elemente dynamisch durch Daten aus dem ausgewählten Profil ersetzt werden.
 
-Jetzt können Sie Ihre SMS-Nachricht überprüfen und an Ihre Audience senden.
+Jetzt können Sie Ihre SMS-Nachricht überprüfen und an Ihre Zielgruppe senden.

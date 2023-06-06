@@ -7,7 +7,7 @@ badge: label="Alpha" type="Positive"
 source-git-commit: 641b504766138830ab30352d73d5e6a82ceadc27
 workflow-type: tm+mt
 source-wordcount: '1591'
-ht-degree: 73%
+ht-degree: 99%
 
 ---
 
@@ -86,24 +86,24 @@ Navtree view depends on permissions (same as console).
 >[!CONTEXTUALHELP]
 >id="acw_campaigns_list"
 >title="Kampagnen"
->abstract="Dies ist die Liste Ihrer Kampagnen. Sie können nützliche Informationen wie das Anfangsdatum/Enddatum/Datum der letzten Änderung sowie ihren Status anzeigen. Sie können die Liste nach Status oder Anfangsdatum/Enddatum filtern. Klicken Sie auf die Schaltfläche &quot;Kampagne erstellen&quot;, um eine neue Kampagne hinzuzufügen. Wählen Sie eine Kampagne aus, um Inhalt, Sendungen und Details anzuzeigen. Navigieren Sie zum Tab &quot;Vorlagen&quot;, um Vorlagen anzuzeigen und zu erstellen."
+>abstract="Dies ist die Liste Ihrer Kampagnen. Sie können nützliche Informationen wie das Anfangsdatum/Enddatum/Datum der letzten Änderung sowie ihren Status anzeigen. Sie können die Liste nach Status oder Anfangsdatum/Enddatum filtern. Klicken Sie auf die Schaltfläche „Kampagne erstellen“, um eine neue Kampagne hinzuzufügen. Wählen Sie eine Kampagne aus, um Inhalt, Sendungen und Details anzuzeigen. Navigieren Sie zur Registerkarte „Vorlagen“, um Vorlagen anzuzeigen oder zu erstellen."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_list"
 >title="Sendungen"
->abstract="Durchsuchen Sie Ihre Sendungenliste. Sie können Status, Kontakt- und Änderungsdaten sowie wichtige KPIs anzeigen. Sie können die Liste nach Status, Kontaktdatum oder Kanal filtern. Klicken Sie auf die Schaltfläche &#39;Versand erstellen&#39;, um einen neuen Versand hinzuzufügen. Wählen Sie einen Versand aus, um seinen Inhalt, seine Audience und Details anzuzeigen."
+>abstract="Durchsuchen Sie Ihre Sendungenliste. Sie können Status, Kontakt- und Änderungsdaten sowie wichtige KPIs anzeigen. Sie können die Liste nach Status, Kontaktdatum oder Kanal filtern. Klicken Sie auf die Schaltfläche „Versand erstellen“, um einen neuen Versand hinzuzufügen. Wählen Sie einen Versand aus, um seinen Inhalt, seine Zielgruppe und Details anzuzeigen."
 
-Im Bereich CAMPAIGN MANAGEMENT haben Sie Zugriff auf Marketingkampagnen, Sendungen und Workflows.
+Im Abschnitt KAMPAGNEN-MANAGEMENT haben Sie Zugriff auf Marketing-Kampagnen, Sendungen und Workflows.
 
-* **Kampagnen** - Dies ist die Liste Ihrer Kampagnen und Kampagnenvorlagen. Standardmäßig können Sie für jede Kampagne das Start-/Ende-/Erstellungs-/Letztänderungsdatum, den aktuellen Status und den Namen des Campaign-Benutzers anzeigen, der die Kampagne erstellt hat. Sie können die Liste nach Status, Start-/Enddatum, Ordner oder erweiterten Filter filtern, um eigene Filterkriterien zu definieren. Weitere Informationen zu Kampagnen [in diesem Abschnitt](../campaigns/gs-campaigns.md).
+* **Kampagnen** – Dies ist die Liste Ihrer Kampagnen und Kampagnenvorlagen. Standardmäßig können Sie für jede Kampagne die Datumsangaben für Start, Ende, Erstellung und letzte Änderung, den aktuellen Status und den Namen der Campaign-Benutzerin bzw. des -Benutzers anzeigen, die bzw. der die Kampagne erstellt hat. Sie können die Liste nach Status, Start-/Enddatum oder Ordner filtern oder einen erweiterten Filter erstellen, um eigene Filterkriterien zu definieren. Weiterführende Informationen zu Marketing-Kampagnen finden Sie in [diesem Abschnitt](../campaigns/gs-campaigns.md).
 
-* **Sendungen**: Durchsuchen Sie Ihre Sendungenliste. Standardmäßig können Sie ihren Status, das Datum der letzten Änderung sowie wichtige KPIs sehen. Sie können die Liste nach Status, Kontaktdatum oder Kanal filtern. Klicken Sie auf einen E-Mail-Versand, um sein Dashboard zu öffnen und sich einen Überblick über die Versanddetails zu verschaffen. Sendungen über andere Kanäle sind schreibgeschützt. Weitere Informationen zu Sendungen [in diesem Abschnitt](../msg/gs-messages.md).
+* **Sendungen**: Durchsuchen Sie Ihre Sendungenliste. Standardmäßig können Sie ihren Status, das Datum der letzten Änderung sowie wichtige KPIs sehen. Sie können die Liste nach Status, Kontaktdatum oder Kanal filtern. Klicken Sie auf einen E-Mail-Versand, um sein Dashboard zu öffnen und sich einen Überblick über die Versanddetails zu verschaffen. Sendungen über andere Kanäle sind schreibgeschützt. Weitere Informationen zu Sendungen finden Sie in [diesem Abschnitt](../msg/gs-messages.md).
 
    Verwenden Sie die Schaltfläche **Mehr Aktionen**, um einen Versand zu löschen oder zu duplizieren.
 
    ![](assets/more-actions.png){width="70%" align="left"}
 
-* **Workflows** - In diesem Bildschirm können Sie auf die vollständige Liste der Workflows und Workflow-Vorlagen zugreifen. Sie können den Status, das letzte oder nächste Ausführungsdatum überprüfen und einen neuen Workflow oder eine neue Workflow-Vorlage erstellen. Sie können die Liste nach denselben Kriterien filtern wie für andere Objekte. Darüber hinaus können Sie Workflows filtern, die zu einer Kampagne gehören oder nicht. Weitere Informationen zu Workflows [in diesem Abschnitt](../workflows/gs-workflows.md).
+* **Workflows** – Auf diesem Bildschirm können Sie auf die vollständige Liste der Workflows und Workflow-Vorlagen zugreifen. Sie können den Status und das letzte bzw. nächste Ausführungsdatum überprüfen und einen neuen Workflow oder eine neue Workflow-Vorlage erstellen. Sie können die Liste nach denselben Kriterien filtern wie für andere Objekte. Darüber hinaus können Sie Workflows filtern, die zu einer Kampagne gehören oder nicht. Weiterführende Informationen zu Workflows finden Sie [in diesem Abschnitt](../workflows/gs-workflows.md).
 
 
 ### Kunden-Management
@@ -237,18 +237,18 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_audience"
->title="SMS-Audience definieren"
+>title="Definieren der SMS-Zielgruppe"
 >abstract="Wählen Sie die beste Zielgruppe für Ihre SMS-Nachricht aus."
 
 >[!CONTEXTUALHELP]
 >id="acw_sms_report_overview"
 >title="Zusammenfassung des SMS-Berichts"
->abstract="Hier erhalten Sie Informationen zu den Berichtsmetriken für Ihren SMS-Versand."
+>abstract="Entdecken Sie die Reporting-Metriken für Ihren SMS-Versand."
 
 >[!CONTEXTUALHELP]
 >id="acw_push_report_overview"
 >title="Zusammenfassung des Push-Berichts"
->abstract="Entdecken Sie die Berichtsmetriken für Ihren Push-Versand."
+>abstract="Entdecken Sie die Reporting-Metriken für Ihren Push-Versand."
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_properties_advanced"
@@ -257,28 +257,28 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_sent"
->title="Gesendete Metriken"
+>title="Gesendet-Metriken"
 >abstract="Anzahl der zugestellten E-Mails."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_errors"
 >title="Fehlermetriken"
->abstract="Anzahl der E-Mails mit Fehlerstatus."
+>abstract="Anzahl der E-Mails mit dem Fehlerstatus."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_android_content"
 >title="Pushen von Android-Inhalten"
->abstract="Definieren Sie den Push-Android-Inhalt."
+>abstract="Definieren Sie den Push-Inhalt für Android."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_ios_content"
 >title="Pushen von iOS-Inhalten"
->abstract="Definieren Sie den Push-iOS-Inhalt."
+>abstract="Definieren Sie den Push-Inhalt für iOS."
 
 >[!CONTEXTUALHELP]
 >id="acw_sms_preview_option_app_target"
->title="App-Abonnenten"
->abstract="Erstellen Sie eine Vorschau und testen Sie die Nachricht, indem Sie App-Abonnenten zur Hauptzielgruppe hinzufügen. "
+>title="App-Abonnentinnen und -Abonnenten"
+>abstract="Erstellen Sie eine Vorschau und testen Sie die Nachricht, indem Sie Abonnentinnen und Abonnenten der App zur Hauptzielgruppe hinzufügen. "
 
 >[!CONTEXTUALHELP]
 >id="acw_email_preview_option_test_target"
@@ -288,7 +288,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_email_preview_mode"
 >title="Vorschaumodus"
->abstract="Vorschau und Testen der Nachricht durch Einbeziehung der Testpopulation in die Hauptzielgruppe."
+>abstract="Erstellen Sie eine Vorschau und testen Sie die Nachricht, indem Sie die Testpopulation zur Hauptzielgruppe hinzufügen."
 
 >[!CONTEXTUALHELP]
 >id="acw_targetdata_personalization_enrichmentdata"
@@ -309,12 +309,12 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_tracking"
 >title="Tracking-Berichte"
->abstract="Prüfen Sie die Trackingindikatoren für die Kampagnenberichte."
+>abstract="Prüfen Sie die Tracking-Indikatoren für die Kampagnenberichte."
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_overview"
 >title="Berichte – Übersicht"
->abstract="Schlüsselmetriken für Ihren Versand."
+>abstract="Schlüsselmetriken für den Versand."
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_target"
@@ -349,32 +349,32 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_push_permission_for_segment"
 >title="Berechtigung erforderlich"
->abstract="Ihr Administrator muss Ihnen die Berechtigung erteilen, bevor Sie ein Segment erstellen können."
+>abstract="Ihre Admins müssen Ihnen die Berechtigung erteilen, bevor Sie ein Segment erstellen können."
 
 >[!CONTEXTUALHELP]
 >id="acw_push_overview_edit"
 >title="Berechtigung erforderlich"
->abstract="Ihr Administrator muss Ihnen die Berechtigung erteilen, bevor Sie ein Segment erstellen können."
+>abstract="Ihre Admins müssen Ihnen die Berechtigung erteilen, bevor Sie ein Segment erstellen können."
 
 >[!CONTEXTUALHELP]
 >id="acw_attributepicker_advancedfields"
->title="Erweiterte Attributauswahl-Felder"
+>title="Erweiterte Felder der Attributauswahl"
 >abstract="Konfigurieren Sie Spalten mit erweiterten Feldern."
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_advancedfields"
->title="Erweiterte Felder im Regel-Builder"
+>title="Erweiterte Felder des Regel-Builders"
 >abstract="Konfigurieren Sie Spalten mit erweiterten Feldern."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_properties"
->title="Eigenschaften von Push-Sendungen"
->abstract="Verwalten Sie die Eigenschaften des Push-Versands."
+>title="Eigenschaften des Push-Versands"
+>abstract="Verwalten Sie die Eigenschaften eines Push-Versands."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_metrics_newquarantines"
->title="Neue Quarantäne-Metrik"
->abstract="Neue Quarantänemetrik."
+>title="Metrik „Neu in Quarantäne“"
+>abstract="Die Metrik „Neu in Quarantäne“."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_template_selection"

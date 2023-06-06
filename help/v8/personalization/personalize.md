@@ -10,7 +10,7 @@ badge: label="Alpha" type="Positive"
 source-git-commit: 48d5684201f006add0ceb467129dbbcf98465c5b
 workflow-type: tm+mt
 source-wordcount: '824'
-ht-degree: 78%
+ht-degree: 82%
 
 ---
 
@@ -78,7 +78,7 @@ Um den E-Mail-Inhalt zu personalisieren, öffnen Sie die Nachricht im E-Mail-Des
 
    ![](assets/perso-insert-block.png)
 
-1. Nach dem Einfügen wird der Inhaltsbaustein dem E-Mail-Inhalt hinzugefügt. Er wird bei der Versandvorbereitung automatisch an das Empfängerprofil angepasst, wenn eine Personalisierung erstellt wird.
+1. Nach dem Einfügen wird der Inhaltsbaustein dem E-Mail-Inhalt hinzugefügt. Er wird bei der Versandvorbereitung automatisch an das Empfängerprofil angepasst, wenn die Personalisierung generiert wird.
 
    ![](assets/perso-content-block-in-email.png)
 

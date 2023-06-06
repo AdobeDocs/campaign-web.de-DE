@@ -7,7 +7,7 @@ badge: label="Alpha" type="Positive"
 source-git-commit: a92066cf5cf2a8b86ebad2098624259792eb8afd
 workflow-type: tm+mt
 source-wordcount: '764'
-ht-degree: 45%
+ht-degree: 47%
 
 ---
 
@@ -28,7 +28,7 @@ Alle Profile, die bei der Versandvorbereitung zur Kontrollgruppe gehören, werde
 
 >[!CAUTION]
 >
->Kontrollgruppen können beim Laden der Zielpopulation nicht verwendet werden [aus einer externen Datei](file-audience.md).
+>Sie können keine Kontrollgruppen verwenden, wenn Sie die Zielgruppen-Population [aus einer externen Datei](file-audience.md) laden.
 
 Um einem Versand eine Kontrollgruppe hinzuzufügen, aktivieren Sie die **[!UICONTROL Kontrollgruppe aktivieren]** Umschalten von der **Zielgruppe** im Bereich der Versanderstellung.
 

@@ -7,7 +7,7 @@ badge: label="Alpha" type="Positive"
 source-git-commit: 05d87fc9ff8f5e2038eba4cc9438e058566e04c8
 workflow-type: tm+mt
 source-wordcount: '203'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Gehen Sie wie folgt vor, um den Preheader einer E-Mail zu definieren:
 
    ![](assets/preheader_body.png)
 
-1. Aus dem **[!UICONTROL Einstellungen]** -Registerkarte, fügen Sie Ihren Preheader hinzu. Sie können diesen weiter personalisieren, indem Sie auf das Symbol **[!UICONTROL Personalisierung hinzufügen]** klicken.
+1. Fügen Sie auf der Registerkarte **[!UICONTROL Einstellungen]** Ihren Preheader hinzu. Sie können diesen weiter personalisieren, indem Sie auf das Symbol **[!UICONTROL Personalisierung hinzufügen]** klicken.
 
    ![](assets/preheader_body_settings.png)
 
