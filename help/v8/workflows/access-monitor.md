@@ -7,16 +7,16 @@ exl-id: 51648665-8400-426c-85cf-dbf5f4f81d20
 source-git-commit: be7cdfbffbe5c3b1a7ec58e5c60856a6bdc56200
 workflow-type: tm+mt
 source-wordcount: '366'
-ht-degree: 6%
+ht-degree: 10%
 
 ---
 
-# Workflows aufrufen und verwalten {#access-monitor}
+# Aufrufen und Verwalten von Workflows {#access-monitor}
 
 >[!CONTEXTUALHELP]
 >id="acw_targeting_workflow_list"
 >title="Workflows"
->abstract="In diesem Bildschirm haben Sie Zugriff auf die vollständige Liste der standalone- und campaign-Workflows, können den aktuellen Status sowie das letzte/nächste Ausführungsdatum überprüfen und einen neuen Workflow erstellen. Navigieren Sie zum Tab &quot;Vorlage&quot;, um auf verfügbare Workflow-Vorlagen zuzugreifen."
+>abstract="In diesem Bildschirm haben Sie Zugriff auf die vollständige Liste der standalone- und campaign-Workflows, können den aktuellen Status sowie das letzte/nächste Ausführungsdatum überprüfen und einen neuen Workflow erstellen. Navigieren Sie zur Registerkarte „Vorlage“, um auf verfügbare Workflow-Vorlagen zuzugreifen."
 
 Die **[!UICONTROL Workflows]** bietet Zugriff auf die vollständige Liste der Workflows. Diese Liste enthält beide **Standalone-Workflows** die auf diesem Bildschirm erstellt wurden und **Kampagnen-Workflows**, die in einer Kampagne erstellt wurden.
 
