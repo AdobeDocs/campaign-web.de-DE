@@ -5,9 +5,9 @@ description: Erfahren Sie, wie Sie Inline-Styling-Attribute hinzufügen
 exl-id: 856e144a-cfd4-4931-86c9-0c1793ae399d
 badge: label="Alpha" type="Positive"
 source-git-commit: 05d87fc9ff8f5e2038eba4cc9438e058566e04c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '127'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ Wenn Sie in der Benutzeroberfläche von E-Mail-Designer ein Element auswählen u
 
 1. Wählen Sie eine Komponente direkt in Ihrem Inhalt aus oder verwenden Sie den **[!UICONTROL Navigationsbaum]** im linken Bereich.
 
-1. Aus dem **[!UICONTROL Stile]** klicken Sie auf die **[!UICONTROL Erweitert]** Dropdown-Liste.
+1. Klicken Sie auf der Registerkarte **[!UICONTROL Stile]** auf die Dropdown-Liste **[!UICONTROL Erweitert]**.
 
    ![](assets/styles_1.png)
 
