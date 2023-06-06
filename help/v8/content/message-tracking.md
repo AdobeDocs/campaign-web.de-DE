@@ -5,9 +5,9 @@ description: Erfahren Sie, wie Sie Links hinzufügen und gesendete Nachrichten v
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
 badge: label="Alpha" type="Positive"
 source-git-commit: 0703b872bb8f452773e76f2524d47bf774c687e0
-workflow-type: tm+mt
-source-wordcount: '369'
-ht-degree: 96%
+workflow-type: ht
+source-wordcount: '0'
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ Gehen Sie wie folgt vor, um Links in Ihren E-Mail-Inhalt einzufügen:
 
 1. Speichern Sie Ihre Änderungen.
 
-1. Nachdem der Link erstellt wurde, können Sie ihn dennoch im **[!UICONTROL Einstellungen]** Registerkarte.
+1. Sobald er erstellt wurde, können Sie den Link immer noch über die Registerkarte **[!UICONTROL Einstellungen]** ändern.
 
    * Sie können den Link bearbeiten und seine **[!UICONTROL Zielgruppe]** ändern.
    * Sie können den Link unterstreichen oder nicht, indem Sie die entsprechende Option auswählen.
