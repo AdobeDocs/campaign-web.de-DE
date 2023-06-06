@@ -5,8 +5,8 @@ description: Erfahren Sie, wie Sie auf Vesandberichte zugreifen und diese verwen
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
 badge: label="Alpha" type="Positive"
 source-git-commit: 0703b872bb8f452773e76f2524d47bf774c687e0
-workflow-type: tm+mt
-source-wordcount: '389'
+workflow-type: ht
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
