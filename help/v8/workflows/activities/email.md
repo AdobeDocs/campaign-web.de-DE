@@ -3,10 +3,10 @@ audience: end-user
 title: E-Mail-Workflow-Aktivität verwenden
 description: Erfahren Sie, wie Sie die Workflow-Aktivität E-Mail verwenden.
 badge: label="Alpha" type="Positive"
-source-git-commit: caa994a1f390248c9fe11da198ab73197b129263
+source-git-commit: 55a5d09dcd8d98f7a848b2e4ace388e54f6f896e
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 27%
+source-wordcount: '347'
+ht-degree: 23%
 
 ---
 
@@ -41,7 +41,7 @@ Im Folgenden finden Sie die Schritte zum Hinzufügen einer **Kanal** Aktivität 
 
 ## Beispiel
 
-Im Folgenden finden Sie ein kanalübergreifendes Workflow-Beispiel mit einer Segmentierung und zwei Sendungen. Der Workflow richtet sich an alle Kunden, die eine E-Mail-Adresse haben und an Kaffeemaschinen interessiert sind. Unter dieser Population wird eine E-Mail an die regulären Kunden und eine SMS an die VIP gesendet.
+Im Folgenden finden Sie ein kanalübergreifendes Workflow-Beispiel mit einer Segmentierung und zwei Sendungen. Der Workflow richtet sich an alle Kunden, die in Paris leben und an Kaffeemaschinen interessiert sind. Unter dieser Population wird eine E-Mail an die regulären Kunden und eine SMS an die VIP gesendet.
 
 ![](../assets/workflow-channel-example.png)
 <!--
@@ -62,8 +62,10 @@ This can be a single send email and sent just once, or it can be a recurring ema
 * Single send emails are standard emails, sent once.
 * Recurring emails allow you to send the same email multiple times to different targets over a defined period. You can aggregate the deliveries per period in order to get reports that correspond to your needs.
 
-When linked to a scheduler, you can define recurring emails.-->
+When linked to a scheduler, you can define recurring emails.
+Email recipients are defined upstream of the activity in the same workflow, via an Audience targeting activity.
 
-Die Empfängerinnen und Empfänger der E-Mails werden im Vorfeld der Aktivität im selben Workflow mithilfe einer Audience-Zielgruppenbestimmungsaktivität definiert.
+-->
+
 
 <!--The message preparation is triggered according to the workflow execution parameters. From the message dashboard, you can select whether to request or not a manual confirmation to send the message (required by default). You can start the workflow manually or place a scheduler activity in the workflow to automate execution.-->
