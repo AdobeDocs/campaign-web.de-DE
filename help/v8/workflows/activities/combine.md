@@ -3,9 +3,9 @@ audience: end-user
 title: Verwenden Sie die Workflow-Aktivität Kombinieren .
 description: Erfahren Sie, wie Sie die Workflow-Aktivität Kombinieren verwenden.
 badge: label="Alpha" type="Positive"
-source-git-commit: bdf569913dfcf9bee549c6ae3252f5a92a5f34e8
+source-git-commit: 773d2476232f4e0609346f4f4518c3250c26985a
 workflow-type: tm+mt
-source-wordcount: '548'
+source-wordcount: '547'
 ht-degree: 25%
 
 ---
@@ -65,11 +65,8 @@ Das folgende Beispiel zeigt die **Schnittmenge** zwischen zwei Abfrageaktivität
 
 ![](../assets/workflow-intersection-example.png)
 
-Folgendes **Ausschluss** In diesem Beispiel werden zwei Abfragen angezeigt, die zum Filtern von Profilen konfiguriert wurden, die zwischen 18 und 27 Jahre alt sind und eine E-Mail-Domain von Adobe haben. Die Profile mit einer Adobe-E-Mail-Domain werden dann aus der ersten Gruppe ausgeschlossen.
+Folgendes **Ausschluss** zeigt zwei Abfragen, die zum Filtern von Profilen konfiguriert wurden, die zwischen 18 und 27 Jahre alt sind und die eine E-Mail-Domain der Adobe haben. Die Profile mit einer Adobe-E-Mail-Domain werden dann aus der ersten Gruppe ausgeschlossen.
 
 ![](../assets/workflow-exclusion-example.png)
-
-
-
 
 
