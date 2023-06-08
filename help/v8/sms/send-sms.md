@@ -3,14 +3,30 @@ audience: end-user
 title: SMS-Versand senden
 description: Erfahren Sie, wie Sie SMS mit Adobe Campaign Web senden
 badge: label="Alpha" type="Positive"
-source-git-commit: ec61c17d5a72b4d324d9a9a2cc71c85093c124ea
+source-git-commit: 0f292bd597905dcd4a7295c639d6dbe488b511e2
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '258'
+ht-degree: 24%
 
 ---
 
-# SMS-Versand senden {#send-sms}
+# SMS-Versand in der Vorschau ansehen und senden {#send-sms}
+
+## SMS-Versand in der Vorschau anzeigen{#preview-push}
+
+Nachdem Sie den Nachrichteninhalt definiert haben, können Sie Testprofile verwenden, um ihn in der Vorschau anzuzeigen und zu testen. Wenn Sie personalisierten Inhalt eingefügt haben, können Sie mithilfe von Testprofildaten untersuchen, wie dieser Inhalt in der Nachricht angezeigt wird. Dadurch können Sie sicherstellen, dass die Nachricht wie gewünscht angezeigt und personalisierte Informationen korrekt angezeigt werden.
+
+1. Auf der Inhaltsseite Ihres Versands können Sie **[!UICONTROL Inhalt simulieren]** um eine Vorschau Ihres personalisierten Inhalts anzuzeigen.
+
+1. Klicken Sie auf **[!UICONTROL Testprofil(e) hinzufügen]**, um ein oder mehrere Testprofile auszuwählen.
+
+1. Wenn Sie Ihre Testprofile ausgewählt haben, klicken Sie auf **[!UICONTROL Auswählen]**.
+
+1. Im rechten Bereich sehen Sie eine Vorschau der E-Mail, in der personalisierte Elemente dynamisch durch Daten aus dem ausgewählten Profil ersetzt werden.
+
+Jetzt können Sie Ihre SMS-Nachricht überprüfen und an Ihre Zielgruppe senden.
+
+## SMS-Versand senden {#preview-send-push}
 
 1. Nachdem Sie Ihren SMS-Inhalt personalisiert haben, klicken Sie auf **[!UICONTROL Überprüfen und Senden]** von **[!UICONTROL Versand]** Seite.
 
