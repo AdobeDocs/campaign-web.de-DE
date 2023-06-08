@@ -7,27 +7,33 @@ role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
 badge: label="Alpha" type="Positive"
-source-git-commit: d12c3019fb47164864259ecc40225fcb04de0e6c
+source-git-commit: 17a6b7af67cfc9ded7f98c9497a5242cbb9e5d47
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: '400'
 ht-degree: 8%
 
 ---
 
 
-# Personalisieren von Inhalten{#add-personalization}
+# Personalisieren von Inhalten {#add-personalization}
 
-Die Personalisierung kann jedem Versand mithilfe des Ausdruckseditors hinzugefügt werden.
+Die Personalisierung kann jedem Versand mithilfe des Ausdruckseditors hinzugefügt werden, auf den in allen Feldern mit der **[!UICONTROL Personalisierungsdialogfeld öffnen]** -Symbol, z. B. das Betreffzeilenfeld oder E-Mail-Links und Text-/Schaltflächeninhaltskomponenten. [Erfahren Sie, wo dynamische Inhalte hinzugefügt werden](gs-personalization.md/#access)
 
-Ein Personalisierungs-Tag verwendet immer die folgende Syntax: `<%=table.field%>`.Um beispielsweise den in der Empfängertabelle gespeicherten Empfängernamen einzufügen, verwendet das Personalisierungs-Tag die Syntax &lt;%= recipient.lastName %> .
+## Personalisierungssyntax {#syntax}
+
+Ein Personalisierungs-Tag hat immer die folgende Syntax: `<%=table.field%>`. Um beispielsweise den in der Empfängertabelle gespeicherten Empfängernamen einzufügen, verwendet das Personalisierungs-Tag die Syntax &lt;%= recipient.lastName %> .
 
 Bei der Vorbereitung eines Versands werden diese Tags automatisch von Adobe Campaign interpretiert und durch den Feldwert für einen bestimmten Empfänger ersetzt. Der physische Austausch kann dann bei der Simulation Ihres Inhalts angezeigt werden.
 
-Um einem Versand Personalisierungs-Tags hinzuzufügen, klicken Sie auf das Symbol Personalisierungsdialogfeld öffnen , auf das über Textbearbeitungsfelder wie die Betreffzeile oder den SMS-Textkörper zugegriffen werden kann.
+## Personalisierungs-Tags hinzufügen {#add}
+
+Um einem Versand Personalisierungs-Tags hinzuzufügen, öffnen Sie den Ausdruckseditor mit der **[!UICONTROL Personalisierungsdialogfeld öffnen]** -Symbol, auf das über Textbearbeitungsfelder wie die Betreffzeile oder den SMS-Textkörper zugegriffen werden kann. [Erfahren Sie, wo dynamische Inhalte hinzugefügt werden](gs-personalization.md/#access)
 
 ![](assets/perso-access.png)
 
 Der Ausdruckseditor wird angezeigt. Personalisierungsfelder sind in drei Menüs auf der linken Bildschirmseite unterteilt. Über diese Menüs haben Sie Zugriff auf alle in der Adobe Campaign-Datenbank verfügbaren Felder.
+
+![](assets/perso-insert-field.png)
 
 | Menü | Beschreibung |
 |-----|------------|
@@ -37,8 +43,16 @@ Der Ausdruckseditor wird angezeigt. Personalisierungsfelder sind in drei Menüs 
 
 >[!NOTE]
 >
->Standardmäßig enthält die Liste alle Felder der ausgewählten Tabelle (Empfänger, / Nachricht / Versand). Wenn Sie Felder aus mit der ausgewählten Tabelle verknüpften Tabellen einbeziehen möchten, aktivieren Sie die **[!UICONTROL Erweiterte Attribute anzeigen]** Option unterhalb der Liste.
+>Standardmäßig werden in jedem Menü alle Felder der ausgewählten Tabelle angezeigt (Empfänger, / Nachricht / Versand). Wenn Sie Felder aus mit der ausgewählten Tabelle verknüpften Tabellen einbeziehen möchten, aktivieren Sie die **[!UICONTROL Erweiterte Attribute anzeigen]** Option unterhalb der Liste.
 
 Um ein Personalisierungsfeld hinzuzufügen, platzieren Sie den Cursor an der gewünschten Stelle in Ihrem Inhalt und klicken Sie auf die Schaltfläche + , um es einzufügen.
 
-![](assets/perso-insert-field.png)
+Sobald Ihr Inhalt fertig ist, können Sie ihn speichern und das Rendering der Personalisierung testen, indem Sie Ihren Inhalt simulieren. Im folgenden Beispiel wird eine SMS mit den Vornamen der Zielgruppenprofile personalisiert.
+
+*Personalisierungs-Tag im Nachrichteninhalt hinzufügen*
+
+![](assets/perso-preview1.png)
+
+*Simulieren des Renderings der Personalisierung für ein bestimmtes Testprofil*
+
+![](assets/perso-preview2.png)
