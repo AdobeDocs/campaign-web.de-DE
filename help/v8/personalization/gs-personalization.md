@@ -8,10 +8,10 @@ context-tags: workflow,overview;workflow,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-source-git-commit: b8b1cb62c11b66eaade5937fa798d58a9c376127
+source-git-commit: 0b50c0d136bb5e9a7074d570cafe69a7b5ae061b
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 36%
+source-wordcount: '471'
+ht-degree: 26%
 
 ---
 
@@ -24,37 +24,37 @@ Verwenden Sie Campaign, um dynamische Inhalte zu erstellen und personalisierte N
 
 Der Nachrichteninhalt kann dynamisch gestaltet werden, indem Sie Folgendes einfügen:
 
-* **Personalisierungsfelder**
-
-   Personalisierungsfelder werden für die oberste Ebene der Nachrichtenpersonalisierung verwendet. Sie können jedes in der Datenbank verfügbare Feld aus dem Personalisierungseditor auswählen. Für einen Versand können Sie jedes Feld auswählen, das sich auf die Empfängerin oder den Empfänger, die Nachricht oder den Versand bezieht. Diese Personalisierungsattribute können in die Betreffzeile oder in den Text Ihrer Nachrichten eingefügt werden.
-
-   ![](assets/perso-subject-line.png)
+* **Personalisierungsfelder**: Personalisierungsfelder werden zur Personalisierung Ihrer Nachrichten auf erster Ebene verwendet. Sie können jedes in der Datenbank verfügbare Feld aus dem Personalisierungseditor auswählen. Für einen Versand können Sie jedes Feld auswählen, das sich auf die Empfängerin oder den Empfänger, die Nachricht oder den Versand bezieht. Diese Personalisierungsattribute können in die Betreffzeile oder in den Text Ihrer Nachrichten eingefügt werden.
 
    Mit der folgenden Syntax wird die Stadt des Empfängers bzw. der Empfängerin in Ihren Inhalt eingefügt: &lt;%= recipient.location.city %>.
 
-* **Bedingte Inhalte**
+   ![](assets/perso-subject-line.png)
 
-   Konfigurieren Sie bedingte Inhalte, um beispielsweise Inhalte basierend auf dem Empfängerprofil hinzuzufügen. Textblöcke und/oder Bilder werden eingefügt, wenn eine bestimmte Bedingung erfüllt ist. Sie können die alternative Version des Inhalts definieren, wenn die Bedingung nicht wahr ist.
+* **Bedingter Inhalt**: Konfigurieren Sie bedingte Inhalte, um beispielsweise Inhalte basierend auf dem Empfängerprofil hinzuzufügen. Textblöcke und/oder Bilder werden eingefügt, wenn eine bestimmte Bedingung erfüllt ist. Sie können die alternative Version des Inhalts definieren, wenn die Bedingung nicht wahr ist.
 
-* **Integrierte Inhaltsbausteine**
-
-   Campaign verfügt über eine Reihe von Gestaltungsbausteinen, die ein bestimmtes Rendering ermöglichen, das Sie in Ihre Sendungen einfügen können. Sie können beispielsweise ein Logo, eine Grußnachricht oder einen Link zur Mirrorseite einer E-Mail-Nachricht hinzufügen. Inhaltsbausteine sind über einen eigenen Eintrag im Personalisierungs-Editor verfügbar.
+* **Integrierte Inhaltsbausteine**: Campaign verfügt über eine Reihe von Gestaltungsbausteinen, die ein bestimmtes Rendering enthalten, das Sie in Ihre Sendungen einfügen können. Sie können beispielsweise ein Logo, eine Grußnachricht oder einen Link zur Mirrorseite einer E-Mail-Nachricht hinzufügen. Inhaltsbausteine sind über einen eigenen Eintrag im Personalisierungs-Editor verfügbar.
 
    ![](assets/perso-content-blocks.png)
 
 ## Wo kann ich dynamische Inhalte hinzufügen?
 
-Adobe Campaign V8 Web bietet einen Ausdruckseditor, in dem Sie alle Daten auswählen, anordnen, anpassen und validieren können, um ein benutzerdefiniertes Erlebnis für Ihren Inhalt zu erstellen.
+Adobe Campaign V8 Web bietet einen Ausdruckseditor, in dem Sie alle Daten auswählen, anordnen, anpassen und validieren können, um ein benutzerdefiniertes Erlebnis für Ihren Inhalt zu erstellen. Der Ausdruckseditor steht für alle Kanäle in allen Feldern mit dem **[!UICONTROL Personalisierungsdialogfeld öffnen]** -Symbol, z. B. das Betreffzeilenfeld oder E-Mail-Links und Text-/Schaltflächeninhaltskomponenten.
 
-Der Ausdruckseditor ist für alle Kanäle und in allen Feldern mit dem Symbol Personalisierungsdialogfeld öffnen verfügbar, z. B. im Betreffzeilenfeld oder in E-Mail-Links und Text-/Schaltflächeninhaltskomponenten.
+>[!NOTE]
+>
+>Zusätzlich zum Ausdruckseditor können Sie beim Entwerfen einer E-Mail auch einen dedizierten Builder für bedingte Inhalte verwenden. [Erfahren Sie, wie Sie bedingte Inhalte in E-Mails erstellen](conditions.md)
+
+*Zugriff auf den Ausdruckseditor über das Feld Absendername*
 
 ![](assets/expression-editor-access.png)
 
+*Zugriff auf den Ausdruckseditor über eine E-Mail-Textkomponente*
+
 ![](assets/expression-editor-access-email.png)
 
-![](assets/perso-link-insert-icon.png)
+*Zugriff auf den Ausdruckseditor über einen Link in einer E-Mail*
 
-Darüber hinaus steht beim Entwerfen einer E-Mail ein dedizierter Builder für bedingte Inhalte zur Verfügung. [Erfahren Sie, wie Sie bedingte Inhalte in E-Mails erstellen](conditions.md)
+![](assets/perso-link-insert-icon.png)
 
 ## Tauchen wir tiefer in die Materie ein
 
