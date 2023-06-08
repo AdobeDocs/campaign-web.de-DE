@@ -8,10 +8,10 @@ context-tags: workflow,overview;workflow,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-source-git-commit: 218f433eb72a0ed928732c96ebee64294daee852
+source-git-commit: b8b1cb62c11b66eaade5937fa798d58a9c376127
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 39%
+source-wordcount: '437'
+ht-degree: 36%
 
 ---
 
@@ -34,7 +34,7 @@ Der Nachrichteninhalt kann dynamisch gestaltet werden, indem Sie Folgendes einf�
 
 * **Bedingte Inhalte**
 
-   Konfigurieren Sie bedingte Inhalte, um beispielsweise eine dynamische Personalisierung basierend auf dem Empfängerprofil hinzuzufügen. Textblöcke und/oder Bilder werden eingefügt, wenn eine bestimmte Bedingung erfüllt ist. Sie können die alternative Version des Inhalts definieren, wenn die Bedingung nicht wahr ist.
+   Konfigurieren Sie bedingte Inhalte, um beispielsweise Inhalte basierend auf dem Empfängerprofil hinzuzufügen. Textblöcke und/oder Bilder werden eingefügt, wenn eine bestimmte Bedingung erfüllt ist. Sie können die alternative Version des Inhalts definieren, wenn die Bedingung nicht wahr ist.
 
 * **Integrierte Inhaltsbausteine**
 
@@ -46,11 +46,13 @@ Der Nachrichteninhalt kann dynamisch gestaltet werden, indem Sie Folgendes einf�
 
 Adobe Campaign V8 Web bietet einen Ausdruckseditor, in dem Sie alle Daten auswählen, anordnen, anpassen und validieren können, um ein benutzerdefiniertes Erlebnis für Ihren Inhalt zu erstellen.
 
-Der Ausdruckseditor ist für alle Kanäle und in allen Feldern mit dem Symbol Personalisierungsdialogfeld öffnen verfügbar, z. B. im Betreffzeilenfeld oder in den Komponenten für Text- und Schaltflächeninhalte in E-Mails.
+Der Ausdruckseditor ist für alle Kanäle und in allen Feldern mit dem Symbol Personalisierungsdialogfeld öffnen verfügbar, z. B. im Betreffzeilenfeld oder in E-Mail-Links und Text-/Schaltflächeninhaltskomponenten.
 
 ![](assets/expression-editor-access.png)
 
 ![](assets/expression-editor-access-email.png)
+
+![](assets/perso-link-insert-icon.png)
 
 Darüber hinaus steht beim Entwerfen einer E-Mail ein dedizierter Builder für bedingte Inhalte zur Verfügung. [Erfahren Sie, wie Sie bedingte Inhalte in E-Mails erstellen](conditions.md)
 
