@@ -4,10 +4,10 @@ title: Festlegen einer Kontrollgruppe
 description: Erfahren Sie, wie Sie in der Web-Benutzeroberfläche von Campaign eine Kontrollgruppe für Ihre Nachrichten einrichten.
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
 badge: label="Alpha" type="Positive"
-source-git-commit: a92066cf5cf2a8b86ebad2098624259792eb8afd
+source-git-commit: 00d4e8a16161541f6e1801d2d326dd174c437886
 workflow-type: tm+mt
-source-wordcount: '764'
-ht-degree: 47%
+source-wordcount: '752'
+ht-degree: 48%
 
 ---
 
@@ -86,11 +86,12 @@ Nach der Versandvorbereitung können Sie überprüfen, wie die Ausschlüsse ange
 * In den Versandlogs wird im Tab Logs der Ausschlussschritt angezeigt.
 
    ![](assets/control-group-sample-logs.png)
+<!--
 
+ * The **Exclusion logs** tab displays each profile and the related exclusion **Reason**.
 
-* Die **Ausschlusslogs** -Tab zeigt jedes Profil und den zugehörigen Ausschluss an **Grund**.
-
-   ![](assets/control-group6.png)
+    ![](assets/control-group6.png)
+-->
 
 * Die **Ausschlussgründe** zeigt die Anzahl der ausgeschlossenen Profile für jede Typologieregel an.
 
