@@ -7,10 +7,10 @@ role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
 badge: label="Alpha" type="Positive"
-source-git-commit: 17a6b7af67cfc9ded7f98c9497a5242cbb9e5d47
+source-git-commit: fc9f6ffd8b242f608e05e51dee8299035518c533
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 8%
+source-wordcount: '432'
+ht-degree: 7%
 
 ---
 
@@ -37,6 +37,7 @@ Der Ausdruckseditor wird angezeigt. Personalisierungsfelder sind in drei Menüs 
 
 | Menü | Beschreibung |
 |-----|------------|
+| ![](assets/do-not-localize/perso-subscribers-menu.png) | Die **[!UICONTROL Abonnentenanwendung]** enthält alle Felder, die mit den Abonnenten einer Anwendung in Verbindung stehen, wie z. B. das Terminal oder das Betriebssystem. *Dieses Menü ist nur für Push-Benachrichtigungen verfügbar* |
 | ![](assets/do-not-localize/perso-recipients-menu.png) | Die **[!UICONTROL Empfänger]** listet alle in der Empfängertabelle definierten Felder auf, z. B. den Namen, das Alter oder die Adresse des Empfängers. |
 | ![](assets/do-not-localize/perso-message-menu.png) | Die **[!UICONTROL Nachricht]** enthält alle Felder, die mit den Versandlogs in Verbindung stehen, d. h. alle Nachrichten, die über alle Kanäle an Empfänger oder Geräte gesendet werden, z. B. das Datum des letzten Ereignisses mit einem bestimmten Empfänger |
 | ![](assets/do-not-localize/perso-delivery-menu.png) | Die **[!UICONTROL Versand]** listet alle Felder auf, die mit den für die Durchführung des Versands erforderlichen Parametern verknüpft sind, wie z. B. den Versandkanal, den Titel usw. |
