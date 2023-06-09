@@ -3,10 +3,10 @@ audience: end-user
 title: Verwenden Sie die Workflow-Aktivität Kombinieren .
 description: Erfahren Sie, wie Sie die Workflow-Aktivität Kombinieren verwenden.
 badge: label="Alpha" type="Positive"
-source-git-commit: 773d2476232f4e0609346f4f4518c3250c26985a
+source-git-commit: 1ac80ffaabea210bbc02588475ad6e81af4820b1
 workflow-type: tm+mt
-source-wordcount: '547'
-ht-degree: 25%
+source-wordcount: '690'
+ht-degree: 20%
 
 ---
 
@@ -25,6 +25,16 @@ The **Combine** activity can be placed after any other activity, but not at the 
 
 ## Allgemeine Konfiguration {#general}
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_intersection_merging_options"
+>title="Optionen für die Schnittstellenzusammenführung"
+>abstract="Die Schnittmenge dient der Extraktion der gemeinsamen Population aus den eingehenden Aktivitäten. Aktivieren Sie im Abschnitt Join-Sets alle vorherigen Aktivitäten, denen Sie beitreten möchten."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_exclusion_merging_options"
+>title="Optionen zum Zusammenführen von Ausschlüssen"
+>abstract="Der Ausschluss ermöglicht es, nach bestimmten Kriterien Elemente aus einer Population auszuschließen. Aktivieren Sie im Abschnitt Join-Sets alle vorherigen Aktivitäten, denen Sie beitreten möchten."
+
 Führen Sie die folgenden Schritte aus, um mit der Konfiguration der **Kombinieren** Aktivität:
 
 1. Hinzufügen mehrerer Aktivitäten wie **Audience erstellen** Aktivitäten, um mindestens zwei verschiedene Ausführungszweige zu bilden.
@@ -34,6 +44,11 @@ Führen Sie die folgenden Schritte aus, um mit der Konfiguration der **Kombinier
 1. Im **Sets zum Verbinden** alle vorherigen Aktivitäten, denen Sie beitreten möchten.
 
 ## Vereinigung {#union}
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_intersection_reconciliation_options"
+>title="Abstimmoptionen für Schnittmengen"
+>abstract="Wählen Sie den Abstimmtyp aus, um den Umgang mit Duplikaten zu definieren."
 
 Für **Vereinigung**, müssen Sie die **Abstimmtyp** zur Definition des Umgangs mit Duplikaten:
 
@@ -48,6 +63,11 @@ Für **Schnittmenge** müssen Sie die folgenden zusätzlichen Schritte ausführe
 1. Sie können die **Abschluss generieren** -Option, wenn Sie die verbleibende Population verarbeiten möchten. Das Komplement enthält die Vereinigung der Ergebnisse aller eingehenden Aktivitäten abzüglich der Schnittmenge. Der Aktivität wird daraufhin eine zusätzliche ausgehende Transition hinzugefügt.
 
 ## Ausschluss {#exclusion}
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_exclusion_options"
+>title="Ausschluss Regeln"
+>abstract="Bei Bedarf können die eingehenden Tabellen angepasst werden. Um eine Zielgruppe aus einer anderen Dimension auszuschließen, muss diese Zielgruppe auf dieselbe Zielgruppendimension wie die Hauptzielgruppe zurückgesetzt werden. Klicken Sie dazu im Abschnitt Ausschlussregeln auf Regel hinzufügen und geben Sie die Bedingungen für die Dimensionsänderung an. Die Abstimmung der Daten erfolgt entweder über ein Attribut oder einen Join."
 
 Für **Ausschluss** müssen Sie die folgenden zusätzlichen Schritte ausführen:
 
