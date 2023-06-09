@@ -3,9 +3,9 @@ audience: end-user
 title: SMS-Versandberichte
 description: Erfahren Sie, wie Sie auf SMS-Versandberichte zugreifen und diese verwenden
 badge: label="Alpha" type="Positive"
-source-git-commit: fbedfc5d1886b86932c156574037549270480f44
+source-git-commit: 4b218f0811b53c4f6f89663f4336a73c61e03dfd
 workflow-type: tm+mt
-source-wordcount: '216'
+source-wordcount: '254'
 ht-degree: 7%
 
 ---
@@ -46,3 +46,10 @@ ht-degree: 7%
    * **[!UICONTROL Neue Quarantäne]**: Anzahl der Profile, die ausgeschlossen und der Quarantäne hinzugefügt wurden.
 
 * **[!UICONTROL Ausnahmen]** Diagramm und Tabelle zeigen die verschiedenen Gründe an, die verhindert haben, dass aus den Zielgruppenprofilen ausgeschlossene Benutzerprofile die Nachricht empfangen.
+
+## Versanddurchsatz {#delivery-throughput}
+
+Dieser Bericht enthält detaillierte Informationen zum Versanddurchsatz der gesamten Plattform innerhalb eines bestimmten Zeitraums. Die Hauptmetrik, mit der die Geschwindigkeit des Nachrichtenversands gemessen wird, ist die Anzahl der pro Stunde gesendeten Nachrichten.
+
+![](assets/reporting_sms_2.png)
+
