@@ -3,10 +3,10 @@ audience: end-user
 title: SMS-Versandberichte
 description: Erfahren Sie, wie Sie auf SMS-Versandberichte zugreifen und diese verwenden
 badge: label="Alpha" type="Positive"
-source-git-commit: 4b218f0811b53c4f6f89663f4336a73c61e03dfd
+source-git-commit: 0463bc48bcee20b9f97d5b98053b77956dc4ef53
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 7%
+source-wordcount: '272'
+ht-degree: 6%
 
 ---
 
@@ -21,7 +21,9 @@ ht-degree: 7%
 
 ![](assets/reporting_sms.png)
 
-* **[!UICONTROL Versandübersicht]** bietet wichtige Leistungsindikatoren (Key Performance Indicators, KPIs), die detaillierte Informationen darüber enthalten, wie Ihre Besucher mit Ihren SMS-Nachrichten interagieren. Zu diesen KPIs gehören:
+* **[!UICONTROL Versandübersicht]** bietet wichtige Leistungsindikatoren (Key Performance Indicators, KPIs), die detaillierte Informationen darüber enthalten, wie Ihre Besucher mit Ihren SMS-Nachrichten interagieren.
+
+  +++ Erfahren Sie mehr über die Metriken des SMS-Versandberichts.
 
    * **[!UICONTROL Gesendete Summe]**: Gesamtzahl der bei der Versandanalyse verarbeiteten Nachrichten.
 
@@ -30,20 +32,33 @@ ht-degree: 7%
    * **[!UICONTROL Clickthrough-Rate]**: Prozentsatz der Benutzer, die mit Links in Ihrem SMS-Versand interagiert haben
 
    * **[!UICONTROL Fehler]**: Gesamtzahl der bei einem Versand aufgetretenen Fehler, die den Versand an Profile verhinderten.
++++
 
-* **Zielgruppe** Diagramme und Tabellen zeigen Daten in Bezug auf Ihre Zielgruppe an:
+  ![](assets/reporting_sms_3.png)
+
+* **Zielgruppe** Diagramm und Tabelle zeigen Daten in Bezug auf Ihre Zielgruppe an.
+
+  +++ Erfahren Sie mehr über die Metriken des SMS-Versandberichts.
 
    * **[!UICONTROL Zu liefern]**: Gesamtzahl der bei der Versandanalyse verarbeiteten Nachrichten.
 
    * **[!UICONTROL Ausnahmen]**: Anzahl der Profile, die aus der Analyse ausgeschlossen wurden.
++++
+
+  ![](assets/reporting_sms_4.png)
 
 * **Gesamtstatistik** enthält Daten zu den gesendeten SMS-Nachrichten, einschließlich:
+
+  +++ Erfahren Sie mehr über die Metriken des SMS-Versandberichts.
 
    * **[!UICONTROL Erfolg]**: Anzahl erfolgreich verarbeiteter Nachrichten.
 
    * **[!UICONTROL Fehler]**: Gesamtzahl der beim Versand aufgetretenen Fehler, die den Versand der Nachrichten an bestimmte Profile verhinderten.
 
    * **[!UICONTROL Neue Quarantäne]**: Anzahl der Profile, die ausgeschlossen und der Quarantäne hinzugefügt wurden.
++++
+
+  ![](assets/reporting_sms_5.png)
 
 * **[!UICONTROL Ausnahmen]** Diagramm und Tabelle zeigen die verschiedenen Gründe an, die verhindert haben, dass aus den Zielgruppenprofilen ausgeschlossene Benutzerprofile die Nachricht empfangen.
 

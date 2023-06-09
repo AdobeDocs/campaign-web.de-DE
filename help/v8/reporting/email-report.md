@@ -3,9 +3,9 @@ audience: end-user
 title: E-Mail-Versandberichte
 description: Erfahren Sie, wie Sie auf E-Mail-Versandberichte zugreifen und diese verwenden
 badge: label="Alpha" type="Positive"
-source-git-commit: d44cbd6b9bd417f79b07b735ac571a9bcf7a04f4
+source-git-commit: 0463bc48bcee20b9f97d5b98053b77956dc4ef53
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '337'
 ht-degree: 95%
 
 ---
@@ -15,10 +15,6 @@ ht-degree: 95%
 ## Versand
 
 * **Versandzusammenfassung** Dieser Bericht enthält die wichtigsten Informationen zu einem Versand. Zielgruppen-Population, Ausschlussgründe, Versandstatistiken.
-
-  +++Konfigurieren Sie die folgenden Einstellungen entsprechend Ihren Anforderungen.
-Test
-+++
 
   ![](assets/reporting3.png)
 

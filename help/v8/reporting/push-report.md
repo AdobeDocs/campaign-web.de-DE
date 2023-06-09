@@ -3,9 +3,9 @@ audience: end-user
 title: Push-Versandberichte
 description: Erfahren Sie, wie Sie auf Push-Versandberichte zugreifen und diese verwenden
 badge: label="Alpha" type="Positive"
-source-git-commit: 4b218f0811b53c4f6f89663f4336a73c61e03dfd
+source-git-commit: 0463bc48bcee20b9f97d5b98053b77956dc4ef53
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '269'
 ht-degree: 7%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 7%
 
 * **[!UICONTROL Versandübersicht]** bietet wichtige Leistungsindikatoren (Key Performance Indicators, KPIs), die detaillierte Informationen darüber enthalten, wie Ihre Besucher mit Ihren Push-Nachrichten interagieren.
 
-  +++Weitere Informationen zu Metriken.
+  +++ Erfahren Sie mehr über die Metriken des Berichts &quot;Push-Versand&quot;.
 
    * **[!UICONTROL Gesendete Summe]**: Gesamtzahl der bei der Versandanalyse verarbeiteten Nachrichten.
 
@@ -37,7 +37,7 @@ ht-degree: 7%
 
 * **Zielgruppe** Diagramme und Tabellen zeigen Daten in Bezug auf Ihre Zielgruppe an:
 
-  +++Weitere Informationen zu Metriken.
+  +++ Erfahren Sie mehr über die Metriken des Berichts &quot;Push-Versand&quot;.
 
    * **[!UICONTROL Zu liefern]**: Gesamtzahl der bei der Versandanalyse verarbeiteten Nachrichten.
 
@@ -49,7 +49,7 @@ ht-degree: 7%
 
 * **Gesamtstatistik** enthält Daten zu den gesendeten Push-Benachrichtigungen, einschließlich:
 
-  +++Weitere Informationen zu Metriken.
+  +++ Erfahren Sie mehr über die Metriken des Berichts &quot;Push-Versand&quot;.
 
    * **[!UICONTROL Erfolg]**: Anzahl erfolgreich verarbeiteter Nachrichten.
 
