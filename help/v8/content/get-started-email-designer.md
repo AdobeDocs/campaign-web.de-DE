@@ -3,16 +3,22 @@ audience: end-user
 title: Bearbeiten des E-Mail-Inhalts
 description: Erfahren Sie, wie Sie mit der Erstellung Ihres Inhalts mit Email Designer in der Web-Benutzeroberfläche von Campaign beginnen
 badge: label="Alpha" type="Positive"
-source-git-commit: 983541f5dea47102ae9ee3c5351a7149484a1fa5
+source-git-commit: 97c65771f9302bb188de0a8dae05f0d607519d4a
 workflow-type: tm+mt
-source-wordcount: '336'
-ht-degree: 5%
+source-wordcount: '382'
+ht-degree: 9%
 
 ---
 
 # Erste Schritte mit E-Mail-Designer {#get-started-email-designer}
 
-Sie können vorhandenen Inhalt in [!DNL Journey Optimizer] oder nutzen Sie die Funktionen zur Inhaltserstellung:
+Nach der Erstellung einer E-Mail in Adobe Campaign müssen Sie deren Inhalt definieren.
+
+Mit Email Designer können Sie durch eine intuitive Drag &amp; Drop-Oberfläche faszinierende, individuell zugeschnittene E-Mails erstellen. Egal ob Sie mit einer leeren Vorlage beginnen, einen vorhandenen Inhalt importieren oder vorhandene Vorlagen nutzen, alle Inhalte für jede E-Mail erstellen und verfeinern, ob für Werbung oder Transaktionen.
+
+<!--Built to deliver HTML optimized for responsive design, the Email Designer allows you to easily define and apply visibility conditions and dynamic content to an email, template, or fragment directly through the user interface. You can seamlessly switch between the drag and drop interface and HTML code at the click of a button.
+
+The Email Designer allows you to create email content and email content templates. It is compatible with simple emails, transactional emails, A/B test emails, multilingual emails, and recurring emails.-->
 
 * Verwendung [!DNL Campaign] Funktionen zum einfachen Erstellen responsiver E-Mails. [Weitere Informationen](create-email-content.md)
 
@@ -38,5 +44,5 @@ Gehen Sie im Dashboard des E-Mail-Versands durch den [Inhalt bearbeiten](edit-co
 
 * **Existierenden Inhalt auswählen** aus einer Liste integrierter oder benutzerdefinierter Vorlagen. Erfahren Sie, wie Sie mit E-Mail-Vorlagen arbeiten. [diesem Abschnitt](email-templates.md).
 
-   ![](assets/email_designer_create_options.png)
+  ![](assets/email_designer_create_options.png)
 

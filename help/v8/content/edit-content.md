@@ -4,10 +4,10 @@ title: Bearbeiten des E-Mail-Inhalts
 description: Erfahren Sie, wie Sie den E-Mail-Inhalt in der Web-Benutzeroberfläche von Campaign bearbeiten können
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 badge: label="Alpha" type="Positive"
-source-git-commit: 666a1c2d4b31fed8e956f0b2984c1f39d74a2221
+source-git-commit: 3aee085da2031a497469fa826bbca3498d3dd0aa
 workflow-type: tm+mt
-source-wordcount: '495'
-ht-degree: 48%
+source-wordcount: '508'
+ht-degree: 43%
 
 ---
 
@@ -36,29 +36,33 @@ ht-degree: 48%
 Die E-Mail **[!UICONTROL Inhalt bearbeiten]** -Bildschirm ermöglicht Ihnen Folgendes:
 * Definieren Sie grundlegende Elemente Ihrer Nachricht, z. B. die Absenderadresse und die Betreffzeile
 * Durchführen zusätzlicher Aktionen, z. B. Hinzufügen von Anlagen oder Einrichten von Angeboten
-* Zugriff auf [Email Designer](get-started-email-designer.md) , um den korrekten Inhalt Ihrer E-Mail zu erstellen
+* Zugriff auf [Email Designer](get-started-email-designer.md#start-authoring) , um den korrekten Inhalt Ihrer E-Mail zu erstellen
 
 Gehen Sie wie folgt vor, um den Inhalt einer E-Mail zu konfigurieren oder zu bearbeiten.
 
 1. Klicken Sie auf **[!UICONTROL Inhalt bearbeiten]** -Schaltfläche in der [E-Mail-Versand-Dashboard](../email/create-email.md) angezeigt.
 
-   ![](assets/email-edit-content.png)
+   ![](assets/email-edit-content-button.png)
 
-1. Der Bildschirm zur Bearbeitung des E-Mail-Inhalts wird geöffnet. Wenn Sie eine neue E-Mail konfigurieren, wird die **[!UICONTROL Name des Empfängers]** und **[!UICONTROL Aus E-Mail]** -Felder bereits ausgefüllt sind.
+1. Der Bildschirm zur Bearbeitung des E-Mail-Inhalts wird geöffnet.
 
    ![](assets/email-edit-content-dashboard.png)
+
+   >[!NOTE]
+   >
+   >Wenn Sie eine neue E-Mail konfigurieren, wird die **[!UICONTROL Name des Empfängers]** und **[!UICONTROL Aus E-Mail]** -Felder bereits ausgefüllt sind.
 
 1. Die **[!UICONTROL Name des Empfängers]** -Feld wird in der E-Mail-Vorlage definiert. Wenn Sie Änderungen vornehmen möchten, verwenden Sie einen Namen, der von den Empfängern leicht identifiziert werden kann, z. B. den Namen Ihrer Marke, um die Öffnungsrate Ihrer Sendungen zu erhöhen.
 
    >[!NOTE]
    >
-   >    Um das Benutzererlebnis zu verbessern, können Sie den Namen einer Person einfügen, wie z. B. „Emma von Megastore“.
+   >Um das Benutzererlebnis zu verbessern, können Sie den Namen einer Person hinzufügen, z. B. &quot;Aus Luma essen&quot;.
 
 1. Die **[!UICONTROL Aus E-Mail]** Das Adressfeld wird auch in der E-Mail-Vorlage definiert. Stellen Sie sicher, dass die Adress-Domain mit der Subdomain übereinstimmt, die Sie Adobe zugewiesen haben.
 
    >[!NOTE]
    >
-   >    Sie können den Teil vor dem &quot;@&quot; ändern, aber nicht die Domain-Adresse.
+   >Sie können den Teil vor dem &quot;@&quot; ändern, aber nicht die Domain-Adresse.
 
    <!--In the Reply address text fields, the sender's address is used by default for replies. However, Adobe recommends using an existing real address such as your brand's customer care. In this case, if a recipient sends a reply, the customer care will be able to handle it.-->
 
@@ -80,6 +84,10 @@ Gehen Sie wie folgt vor, um den Inhalt einer E-Mail zu konfigurieren oder zu bea
 
    * [Erstellen von E-Mails von Grund auf](create-email-content.md)
    * [Gestalten Ihrer Inhalte](get-started-email-style.md)
+
+   >[!NOTE]
+   >
+   >Sie können auch den Mauszeiger über die E-Mail-Vorschau bewegen und **[!UICONTROL Email Designer öffnen]**.
 
 1. Standardmäßig ist für den Versand Tracking aktiviert. Sie können diese Option im Bereich **[!UICONTROL Optionale Funktionen]** deaktivieren. [Erfahren Sie, wie Sie Links hinzufügen und das Tracking verwalten](message-tracking.md)
 

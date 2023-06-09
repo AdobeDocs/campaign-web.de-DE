@@ -5,7 +5,7 @@ title: Dokumentation zu Adobe Campaign v8 Web
 description: Web-Dokumentation zu Campaign v8
 breadcrumb-title: Übersicht über Campaign
 hide: true
-source-git-commit: 0944c19e75aa7f074aff3898b66fec1f253ecbdc
+source-git-commit: 8d558e39f30c21cd64ab89d14020076232c6b567
 workflow-type: tm+mt
 source-wordcount: '339'
 ht-degree: 76%
@@ -31,16 +31,16 @@ ht-degree: 76%
          + [E-Mail-Inhalt konfigurieren](content/edit-content.md)
          + Gestalten der E-Mail {#start-design}
             + [Erste Schritte mit E-Mail-Designer](content/get-started-email-designer.md)
-            + [Beginnen von Grund auf ](content/create-email-content.md)
+            + [Beginnen von Grund auf](content/create-email-content.md)
             + [Importieren Ihrer E-Mail-Inhalte](content/existing-content.md)
             + [Codieren Sie Ihre eigenen Inhalte](content/code-content.md)
             + [Verwenden von E-Mail-Inhaltsvorlagen](content/email-templates.md)
          + Inhaltserstellung {#design-content}
             + [Verwenden von Inhaltskomponenten](content/content-components.md)
-            + [Erstellen der Textversion](content/text-version-email.md)
+            + [Hinzufügen von Links und Verfolgen von Nachrichten](content/message-tracking.md)
             + [Hinzufügen eines Links zur Mirrorseite](content/mirror-page.md)
             + [Hinzufügen eines Preheaders](content/preheader.md)
-            + [Hinzufügen von Links und Verfolgen von Nachrichten](content/message-tracking.md)
+            + [Erstellen der Textversion](content/text-version-email.md)
          + Gestalten von Inhalten {#style}
             + [Erste Schritte mit E-Mail-Stil](content/get-started-email-style.md)
             + [Bearbeiten von Hintergrundeinstellungen](content/backgrounds.md)
@@ -65,8 +65,8 @@ ht-degree: 76%
    + SMS {#sms}
       + [Erste Schritte mit SMS-Sendungen](sms/gs-sms.md)
       + [Erstellen eines SMS-Versands](sms/create-sms.md)
-      + [SMS-Versand erstellen ](sms/content-sms.md)
-      + [SMS-Versand senden ](sms/send-sms.md)
+      + [SMS-Versand erstellen](sms/content-sms.md)
+      + [SMS-Versand senden](sms/send-sms.md)
    + Dynamische Inhalte erstellen {#dynamic-content}
       + [Erste Schritte mit dynamischen Inhalten](personalization/gs-personalization.md)
       + [Hinzufügen von Personalisierung](personalization/personalize.md)

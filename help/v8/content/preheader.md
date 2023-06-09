@@ -4,10 +4,10 @@ title: Hinzufügen eines Preheaders in E-Mail-Designer
 description: Erfahren Sie, wie Sie E-Mail-Inhalte erstellen
 exl-id: 8513b069-7155-45ac-8c98-38576c9ddeda
 badge: label="Alpha" type="Positive"
-source-git-commit: 05d87fc9ff8f5e2038eba4cc9438e058566e04c8
+source-git-commit: 0272475635bb1376b62e3904551e02a5f86d4046
 workflow-type: tm+mt
 source-wordcount: '203'
-ht-degree: 100%
+ht-degree: 66%
 
 ---
 
@@ -18,17 +18,17 @@ ht-degree: 100%
 >title="Hinzufügen eines Preheaders"
 >abstract="Ein Preheader ist ein kurzer Zusammenfassungstext, der beim Anzeigen einer E-Mail über Ihren E-Mail-Client der Betreffzeile folgt. In vielen Fällen handelt es sich um eine kurze Zusammenfassung der E-Mail, die in der Regel einen Satz lang ist."
 
-Ein Preheader ist ein kurzer Zusammenfassungstext, der beim Anzeigen einer E-Mail über Ihren E-Mail-Client der Betreffzeile folgt.
+Ein Preheader ist ein kurzer Text, der beim Anzeigen einer E-Mail von einem gängigen E-Mail-Client der Betreffzeile folgt.
 
-In vielen Fällen handelt es sich um eine kurze Zusammenfassung der E-Mail, die in der Regel einen Satz lang ist.
+In vielen Fällen bietet es eine kurze Zusammenfassung des Inhalts und ist normalerweise ein Satz lang.
 
 >[!NOTE]
 >
 >Preheader werden nicht von allen E-Mail-Clients unterstützt. Wenn der Preheader nicht unterstützt wird, wird er nicht angezeigt.
 
-Gehen Sie wie folgt vor, um den Preheader einer E-Mail zu definieren:
+Gehen Sie wie folgt vor, um den Preheader einer E-Mail zu definieren.
 
-1. Fügen Sie in E-Mail-Designer mindestens eine **[!UICONTROL Strukturkomponente]** hinzu, um mit der Erstellung Ihrer E-Mail zu beginnen.
+1. Fügen Sie in Email Designer mindestens eine **[!UICONTROL Struktur]** -Komponente, um mit der Erstellung Ihrer E-Mail zu beginnen.
 
 1. Klicken Sie auf das Symbol **[!UICONTROL Navigationsbaum]** im linken Bereich und wählen Sie **[!UICONTROL Text]**.
 
@@ -38,7 +38,7 @@ Gehen Sie wie folgt vor, um den Preheader einer E-Mail zu definieren:
 
    ![](assets/preheader_body_settings.png)
 
-1. Im Fenster **[!UICONTROL Personalisierung bearbeiten]** können Sie **[!UICONTROL Inhaltsbausteine]**, **[!UICONTROL dynamische Inhalte]** oder **[!UICONTROL Personalisierungsfelder]** hinzufügen.
+1. Aus dem **[!UICONTROL Personalisierung bearbeiten]** Fenster, können Sie **[!UICONTROL Inhaltsbausteine]**, **[!UICONTROL Dynamische Inhalte]** oder **[!UICONTROL Personalisierungsfelder]**.
 
 1. Klicken Sie auf **[!UICONTROL Validieren]**, um Ihre Personalisierungssyntax zu überprüfen.
 

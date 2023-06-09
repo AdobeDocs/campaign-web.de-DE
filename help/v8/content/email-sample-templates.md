@@ -3,7 +3,7 @@ audience: end-user
 product: campaign
 title: Arbeiten mit E-Mail-Vorlagen
 badge: label="Alpha" type="Positive"
-source-git-commit: 6e7b5974a0e8da454d436cd220f25dac80ec726c
+source-git-commit: 1d6f61c3e39459d1e82fee15c5b6b903feb5b42f
 workflow-type: tm+mt
 source-wordcount: '122'
 ht-degree: 11%
@@ -12,7 +12,7 @@ ht-degree: 11%
 
 # Arbeiten mit E-Mail-Vorlagen {#email-saved-content-templates}
 
-Wann [E-Mail erstellen](#create-email), verwenden Sie die **[!UICONTROL Designvorlage auswählen]** Abschnitt **[!UICONTROL E-Mail erstellen]** -Oberfläche, um Ihren Inhalt aus einer Vorlage zu erstellen.
+Wann [E-Mail erstellen](../email/create-email.md), verwenden Sie die **[!UICONTROL Designvorlage auswählen]** Abschnitt **[!UICONTROL E-Mail erstellen]** -Oberfläche, um Ihren Inhalt aus einer Vorlage zu erstellen.
 
 ![](assets/email_designer-sample-templates.png)
 
