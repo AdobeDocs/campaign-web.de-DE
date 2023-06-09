@@ -3,10 +3,10 @@ audience: end-user
 title: Workflow-Aktivität Anreicherung verwenden
 description: Erfahren Sie, wie Sie die Workflow-Aktivität Anreicherung verwenden.
 badge: label="Alpha" type="Positive"
-source-git-commit: 773d2476232f4e0609346f4f4518c3250c26985a
+source-git-commit: 3fb46f0535c8511f21b62949e7604bd54f9993f7
 workflow-type: tm+mt
-source-wordcount: '626'
-ht-degree: 28%
+source-wordcount: '628'
+ht-degree: 27%
 
 ---
 
@@ -24,17 +24,17 @@ Anreicherungsdaten können verschiedene Ursprünge haben:
 
 * **Aus derselben Arbeitstabelle** wie die Zielgruppe in Ihrem Workflow:
 
-   *Targeting einer Kundengruppe und Hinzufügen des Felds „Geburtsdatum“ zur aktuellen Arbeitstabelle*
+  *Targeting einer Kundengruppe und Hinzufügen des Felds „Geburtsdatum“ zur aktuellen Arbeitstabelle*
 
 * **Aus einer anderen Arbeitstabelle**:
 
-   *Targeting einer Kundengruppe und Hinzufügen der Felder „Betrag“ und „Produkttyp“ aus der „Kauf“-Tabelle*.
+  *Targeting einer Kundengruppe und Hinzufügen der Felder „Betrag“ und „Produkttyp“ aus der „Kauf“-Tabelle*.
 
 Nachdem die Anreicherungsdaten zum Workflow hinzugefügt wurden, können sie in den Aktivitäten verwendet werden, die nach dem **Anreicherung** Aktivität , um Kunden basierend auf ihren Verhaltensweisen, Vorlieben und Anforderungen in verschiedene Gruppen zu unterteilen oder um personalisierte Marketing-Nachrichten und -Kampagnen zu erstellen, die mit größerer Wahrscheinlichkeit bei Ihrer Zielgruppe ankommen.
 
 Sie können beispielsweise der Workflow-Arbeitstabelle Informationen zu Käufen von Kundinnen und Kunden hinzufügen und diese Daten verwenden, um E-Mails mit ihrem neuesten Kauf oder dem für diese Käufe ausgegebenen Betrag zu personalisieren.
 
-## Allgemeine Konfiguration
+## Allgemeine Konfiguration {#general}
 
 Führen Sie die folgenden Schritte aus, um die **Anreicherung** Aktivität:
 
@@ -44,9 +44,9 @@ Führen Sie die folgenden Schritte aus, um die **Anreicherung** Aktivität:
 
 ![](../assets/workflow-enrichment1.png)
 
-Sie können zwei Datentypen auswählen: ein einzelnes Attribut aus der Zieldimension oder einen Sammlungslink.
+Sie können zwei Anreicherungsdaten auswählen: a [Single-Anreicherungsattribut](#single-attribute) aus der Zieldimension oder [Sammlungslink](#collection-link).
 
-## Einzelattribut
+## Einzelanreicherungsattribut {#single-attribute}
 
 Hier fügen wir nur ein einziges Anreicherungsattribut hinzu, z. B. das Geburtsdatum. Führen Sie folgende Schritte aus:
 
@@ -56,16 +56,14 @@ Hier fügen wir nur ein einziges Anreicherungsattribut hinzu, z. B. das Geburtsd
 
 ![](../assets/workflow-enrichment2.png)
 
-## Sammlungslink
+## Sammlungslink {#collection-link}
 
 In diesem komplexeren Anwendungsfall wählen wir eine Kollektionsrelation aus, die eine 1:n-Relation zwischen Tabellen aufweist. Rufen wir die drei neuesten Käufe ab, die weniger als 100$ betragen. Dazu müssen Sie Folgendes definieren:
 
-* ein Attribut: die **Gesamtbetrag** field
+* Anreicherungsattribut: die **Gesamtbetrag** field
 * die Anzahl der abzurufenden Zeilen: 3
 * Filter: Elemente herausfiltern, die größer als 100$ sind
 * eine Sortierung: Nachfolgende Sortierung auf der **Bestelldatum** -Feld.
-
-Führen Sie folgende Schritte aus:
 
 ### Attribut hinzufügen
 
@@ -92,7 +90,7 @@ Wenn Sie beispielsweise den durchschnittlichen Einkaufsbetrag für einen Kunden 
 
 ### Filter definieren
 
-Hier definieren wir den Maximalwert für das Attribut. Wir filtern Elemente heraus, die größer als 100$ sind.
+Hier definieren wir den Maximalwert für das Anreicherungsattribut. Wir filtern Elemente heraus, die größer als 100$ sind.
 
 1. Klicken **Filter bearbeiten**.
 1. Fügen Sie die beiden folgenden Filter hinzu: **Gesamtbetrag** vorhanden UND **Gesamtbetrag** ist kleiner als 100. Der erste Filter filtert NULL-Werte so, wie sie als größter Wert erscheinen würden.
@@ -113,6 +111,11 @@ Jetzt müssen wir die Sortierung anwenden, um die drei abzurufen **latest** Eink
 ![](../assets/workflow-enrichment7.png)
 
 <!--
+
+Add other fields
+use it in delivery
+
+
 cardinality between the tables (1-N)
 1. select attribute to use as enrichment data
 
