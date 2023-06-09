@@ -8,7 +8,7 @@ context-tags: workflow,overview;workflow,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-source-git-commit: dbb86e2e835ce114cd47380cd256c5873a9eae43
+source-git-commit: 3dc7f1f6522a7dbd2edadcb0f7b8841e30fd8af0
 workflow-type: tm+mt
 source-wordcount: '495'
 ht-degree: 25%
@@ -40,7 +40,7 @@ Der Nachrichteninhalt kann dynamisch gestaltet werden, indem Sie Folgendes einf�
 
 Adobe Campaign V8 Web bietet einen Ausdruckseditor, in dem Sie alle Daten auswählen, anordnen, anpassen und validieren können, um ein benutzerdefiniertes Erlebnis für Ihren Inhalt zu erstellen. Der Ausdruckseditor steht für alle Kanäle in allen Feldern mit dem **[!UICONTROL Personalisierungsdialogfeld öffnen]** -Symbol, z. B. das Betreffzeilenfeld oder E-Mail-Links und Text-/Schaltflächeninhaltskomponenten.
 
-Im Folgenden finden Sie einige Beispiele für den Zugriff auf den Ausdruckseditor in Abhängigkeit vom Inhalt, den Sie dynamisch gestalten möchten
+Im Folgenden finden Sie einige Beispiele für den Zugriff auf den Ausdruckseditor in Abhängigkeit vom Inhalt, den Sie dynamisch gestalten möchten:
 
 * *Zugriff auf den Ausdruckseditor über das Feld Absendername*
 

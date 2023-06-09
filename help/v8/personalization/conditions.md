@@ -7,7 +7,7 @@ role: Data Engineer
 level: Beginner
 badge: label="Alpha" type="Positive"
 exl-id: b650a859-e27d-4a36-a725-a1f5bb31e014
-source-git-commit: dbb86e2e835ce114cd47380cd256c5873a9eae43
+source-git-commit: 3dc7f1f6522a7dbd2edadcb0f7b8841e30fd8af0
 workflow-type: tm+mt
 source-wordcount: '918'
 ht-degree: 3%
@@ -59,11 +59,11 @@ Gehen Sie wie folgt vor, um bedingte Inhalte für einen Versand mit dem Ausdruck
 
    1. Ersetzen `Ìnsert content here` mit dem Inhalt, den Sie den Profilen anzeigen möchten, die die If -Funktion-Bedingung nicht erfüllen.
 
-      ![](assets/condition-sample2.png){width="800" align="center"}
+   ![](assets/condition-sample2.png){width="800" align="center"}
 
-      Sie können auch die **else if** Hilfsfunktion zum Erstellen von Bedingungen mit mehreren Inhaltsvarianten. Der folgende Ausdruck zeigt beispielsweise drei Varianten einer Nachricht in Abhängigkeit von der Sprache der Empfänger:
+   Sie können auch die **else if** Hilfsfunktion zum Erstellen von Bedingungen mit mehreren Inhaltsvarianten. Der folgende Ausdruck zeigt beispielsweise drei Varianten einer Nachricht in Abhängigkeit von der Sprache der Empfänger:
 
-      ![](assets/condition-sample3.png){width="800" align="center"}
+   ![](assets/condition-sample3.png){width="800" align="center"}
 
    >[!NOTE]
    >
