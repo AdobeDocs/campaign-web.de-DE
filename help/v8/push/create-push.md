@@ -3,7 +3,7 @@ audience: end-user
 title: Push-Benachrichtigungsversand erstellen
 description: Erfahren Sie, wie Sie mit Adobe Campaign Web einen Push-Benachrichtigungsversand erstellen
 badge: label="Alpha" type="Positive"
-source-git-commit: 0463bc48bcee20b9f97d5b98053b77956dc4ef53
+source-git-commit: b18fb70aa498e3592f88f698bb6b526c9fb1439b
 workflow-type: tm+mt
 source-wordcount: '317'
 ht-degree: 68%
@@ -59,6 +59,8 @@ ht-degree: 68%
 
 1. Um den Versand für ein bestimmtes Datum und eine bestimmte Uhrzeit zu planen, aktivieren Sie die Option **[!UICONTROL Zeitplan aktivieren]**. Nachdem der Versand initiiert wurde, wird die Nachricht automatisch an dem Datum und zu der Uhrzeit gesendet, die Sie für die Empfängerin bzw. den Empfänger festgelegt haben.
 
+   ![](assets/push_create_3.png)
+
 1. Klicken **[!UICONTROL Konfigurieren der Versandeinstellungen]** , um auf erweiterte Optionen zu Ihrer Versandvorlage zuzugreifen. [Weitere Informationen](../advanced-settings/delivery-settings.md)
 
-   ![](assets/push_create_3.png)
+   ![](assets/push_create_4.png)
