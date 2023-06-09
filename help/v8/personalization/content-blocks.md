@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 badge: label="Alpha" type="Positive"
-source-git-commit: c1ee83b456f47424f8032aaaca52a5e7c68a4077
+source-git-commit: dbb86e2e835ce114cd47380cd256c5873a9eae43
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 68%
@@ -24,13 +24,13 @@ Gehen Sie wie folgt vor, um einen Inhaltsbaustein zu einem Versand hinzuzufügen
 
 1. Suchen Sie das Feld, in dem Sie einen Inhaltsbaustein hinzufügen möchten, und klicken Sie auf die Schaltfläche **[!UICONTROL Personalisierungsdialogfeld öffnen]** -Symbol, um den Ausdruckseditor zu öffnen.
 
-   ![](assets/content-block-access.png)
+   ![](assets/content-block-access.png){width="800" align="center"}
 
 1. Navigieren Sie im Ausdruckseditor zum **[!UICONTROL Inhaltsbausteine]** Menü links.
 
 1. Um einen Inhaltsbaustein hinzuzufügen, platzieren Sie den Cursor an der gewünschten Stelle in Ihrem Inhalt und klicken Sie auf die Schaltfläche &quot;+&quot;, um ihn einzufügen.
 
-   ![](assets/content-blocks.png)
+   ![](assets/content-blocks.png){width="800" align="center"}
 
 Integrierte Inhaltsbausteine sind:
 
