@@ -7,9 +7,9 @@ role: Data Engineer
 level: Beginner
 badge: label="Alpha" type="Positive"
 exl-id: b650a859-e27d-4a36-a725-a1f5bb31e014
-source-git-commit: 1dfd557b22de9888ab8d3a1f0479b45d59a86f93
+source-git-commit: 548bc638ed24433550c322bce5fc55439e8d938d
 workflow-type: tm+mt
-source-wordcount: '906'
+source-wordcount: '910'
 ht-degree: 3%
 
 ---
@@ -27,28 +27,29 @@ Durch die Konfiguration bedingter Inhaltsfelder können Sie beispielsweise eine 
 
 ## Erstellen bedingter Inhalte
 
-Um bedingte Inhalte zu erstellen, müssen Sie Bedingungen im Ausdruckseditor mithilfe einer bestimmten Hilfsfunktion erstellen. Diese Methode ist für alle Versandkanäle verfügbar, und zwar in allen Feldern, in denen Sie auf den Ausdruckseditor zugreifen können, z. B. im Betreffzeilenfeld oder in E-Mail-Links und Text-/Schaltflächeninhaltskomponenten. [Erfahren Sie, wo dynamische Inhalte hinzugefügt werden](gs-personalization.md/#access)
+Um bedingte Inhalte zu erstellen, müssen Sie Bedingungen im **Ausdruckseditor** Verwendung einer bestimmten Hilfsfunktion. Diese Methode steht für alle Versandkanäle zur Verfügung und steht in jedem Feld zur Verfügung, in dem Sie auf den Ausdruckseditor zugreifen können, z. B. die Betreffzeile oder E-Mail-Links und Text-/Schaltflächeninhaltskomponenten. [Erfahren Sie, wo dynamische Inhalte hinzugefügt werden](gs-personalization.md/#access)
 
-Zusätzlich zum Ausdruckseditor können Sie einen dedizierten Builder für bedingte Inhalte bei der Erstellung einer E-Mail verwenden, mit der Sie Bedingungen mithilfe von Profilattributen erstellen können.
+Zusätzlich zum Ausdruckseditor können Sie eine dedizierte **Bedingter Content Builder** beim Entwerfen einer E-Mail, die es Ihnen ermöglicht, Bedingungen nur mithilfe von Profilattributen zu erstellen.
 
 ## Erstellen von Bedingungen im Ausdruckseditor {#condition-perso-editor}
 
-Gehen Sie wie folgt vor, um einen bedingten Inhalt für einen Versand zu definieren: In diesem Beispiel möchten wir bedingte Inhalte basierend auf der Sprache der Empfänger (Französisch oder Englisch) erstellen.
+Gehen Sie wie folgt vor, um bedingte Inhalte für einen Versand mit dem Ausdruckseditor zu definieren. In diesem Beispiel möchten wir bedingte Inhalte basierend auf der Sprache der Empfänger (Französisch oder Englisch) erstellen.
 
-1. Öffnen Sie einen Versand und bearbeiten Sie den Inhalt.
+1. Öffnen Sie einen Versand und navigieren Sie zum Abschnitt Inhaltsbearbeitung .
 
-1. Suchen Sie das Feld, dem bedingte Inhalte hinzugefügt werden sollen, und klicken Sie auf die Schaltfläche **[!UICONTROL Personalisierungsdialogfeld öffnen]** -Symbol, um den Ausdruckseditor zu öffnen. In diesem Beispiel möchten wir einer SMS-Nachricht bedingten Inhalt hinzufügen:
+1. Suchen Sie das Feld, dem bedingte Inhalte hinzugefügt werden sollen. Beispielsweise können Sie einer SMS-Nachricht bedingte Inhalte hinzufügen.
+
+1. Klicken Sie auf **[!UICONTROL Personalisierungsdialogfeld öffnen]** neben dem Feld, um den Ausdruckseditor zu öffnen.
 
    ![](assets/open-perso-editor-sms.png)
 
-1. Navigieren Sie im Personalisierungs-Editor zum **[!UICONTROL Hilfsfunktionen]** Menü links.
+1. Navigieren Sie im Personalisierungs-Editor zum **[!UICONTROL Hilfsfunktionen]** auf der linken Seite.
 
-1. Klicken Sie auf das &quot;+&quot;-Symbol neben dem **Wenn** -Funktion, um Ihre Bedingung zu starten. Die folgende Zeile wird zum mittleren Bildschirm hinzugefügt:
-   `<% if (<FIELD>==<VALUE>) { %>Insert content here<% } %>`
+* Um mit der Erstellung Ihrer Bedingung zu beginnen, klicken Sie auf das &quot;+&quot;-Symbol neben dem **Wenn** -Funktion. Die folgende Zeile wird zum mittleren Bildschirm hinzugefügt:`<% if (<FIELD>==<VALUE>) { %>Insert content here<% } %>`
 
-   * Ersetzen `<FIELD>` durch ein Personalisierungsfeld. Beispielsweise die Sprache des Empfängers: `recipient.language`.
-   * Ersetzen `<VALUE>` durch den Wert, der erfüllt werden soll. Beispiel, `'French'`.
-   * Ersetzen `Ìnsert content here` durch den Inhalt, den Sie den Profilen anzeigen möchten, die die oben angegebene Bedingung erfüllen.
+   * Ersetzen `<FIELD>` mit einem Personalisierungsfeld, z. B. der Sprache des Empfängers: `recipient.language`.
+   * Ersetzen `<VALUE>` mit dem Wert, der erfüllt werden soll. Beispiel, `'French'`.
+   * Ersetzen `Ìnsert content here` mit dem Inhalt, den Sie den Profilen anzeigen möchten, die die angegebene Bedingung erfüllen.
 
      ![](assets/condition-sample1.png)
 
@@ -62,11 +63,11 @@ Gehen Sie wie folgt vor, um einen bedingten Inhalt für einen Versand zu definie
       >
       >`<% if (<FIELD>==<VALUE>) { %>Insert content here<% } <% else { %> Insert content here<% } %>%>`
       >
-      >Entfernen Sie diese Tags unbedingt, um Syntaxfehler zu vermeiden. In diesem Beispiel wurde der Ausdruck nach dem Entfernen der **Else** -Funktions-Tags:
+      >Entfernen Sie diese Tags, um Syntaxfehler zu vermeiden. In diesem Beispiel wurde der korrigierte Ausdruck nach dem Entfernen der **else** -Funktions-Tags:
       >
       >`<% if (<FIELD>==<VALUE>) { %>Insert content here<% } else { %> Insert content here<% } %>`
 
-   1. Ersetzen `Ìnsert content here` durch den Inhalt, den Sie den Profilen anzeigen möchten, die die Bedingung nicht erfüllen.
+   1. Ersetzen `Ìnsert content here` mit dem Inhalt, den Sie den Profilen anzeigen möchten, die die If -Funktion-Bedingung nicht erfüllen.
 
       ![](assets/condition-sample2.png)
 
@@ -79,34 +80,34 @@ Gehen Sie wie folgt vor, um einen bedingten Inhalt für einen Versand zu definie
 ## Bedingten Inhalt in E-Mails erstellen  {#condition-condition-builder}
 
 Bedingte Inhalte in E-Mails können auf zwei Arten erstellt werden:
-* Im Ausdruckseditor durch Erstellen einer Bedingung mithilfe von Hilfsfunktionen,
+* Im Ausdruckseditor durch Erstellen einer Bedingung mit Hilfsfunktionen,
 * In einem dedizierten Builder für bedingte Inhalte, auf den beim Entwerfen einer E-Mail zugegriffen werden kann.
 
 Detaillierte Informationen zum Erstellen von Bedingungen mithilfe des Ausdruckseditors finden Sie unter [here](#condition-perso-editor).
 
-Der folgende Abschnitt führt Sie durch die Schritte zum Erstellen von Bedingungen mithilfe des Builders für bedingte Inhalte für E-Mail-Designer. In diesem Beispiel erstellen wir eine E-Mail-Nachricht, die je nach Sprache der Empfänger mehrere Varianten enthält. Gehen Sie dazu wie folgt vor:
+Im folgenden Abschnitt finden Sie eine schrittweise Anleitung zum Erstellen von Bedingungen mithilfe der Funktion für bedingte Inhalte des E-Mail-Designers. In diesem Beispiel möchten wir eine E-Mail-Nachricht mit mehreren Varianten erstellen, die auf der Sprache der Empfänger basieren. Führen Sie folgende Schritte aus:
 
 1. Erstellen oder öffnen Sie einen E-Mail-Versand, bearbeiten Sie seinen Inhalt und klicken Sie auf die Schaltfläche **[!UICONTROL Bearbeiten des E-Mail-Hauptteils]** -Schaltfläche, um den Arbeitsbereich zum Erstellen von E-Mails zu öffnen.
 
-1. Wählen Sie eine Inhaltskomponente aus und klicken Sie auf **[!UICONTROL Bedingten Inhalt aktivieren]**.
+1. Wählen Sie eine Inhaltskomponente aus und klicken Sie auf die **[!UICONTROL Bedingten Inhalt aktivieren]** Symbol.
 
    ![](assets/condition-email-enable.png)
 
 1. Die **[!UICONTROL Bedingter Inhalt]** wird auf der linken Bildschirmseite geöffnet. In diesem Bereich können Sie mithilfe von Bedingungen mehrere Varianten der ausgewählten Inhaltskomponente erstellen.
 
-1. Konfigurieren Sie Ihre erste Variante. Bewegen Sie dazu den Mauszeiger über **[!UICONTROL Variante - 1]** im **[!UICONTROL Bedingter Inhalt]** und klicken Sie auf **[!UICONTROL Bedingung hinzufügen]** Symbol.
+1. Konfigurieren Sie Ihre erste Variante. Bewegen **[!UICONTROL Variante - 1]** im **[!UICONTROL Bedingter Inhalt]** und klicken Sie auf **[!UICONTROL Bedingung hinzufügen]** Symbol.
 
-1. Ein Regel-Builder wird angezeigt. Verwenden Sie die Profilattribute, um die Bedingung für die erste Variante der Nachricht zu erstellen, und klicken Sie auf **[!UICONTROL Bestätigen]**. In diesem Beispiel wird eine Regel erstellt, die sich an Empfänger richtet, deren Sprache &#39;Französisch&#39; lautet.
+1. Ein Regel-Builder wird angezeigt. Verwenden Sie Profilattribute, um die Bedingung für die erste Variante der Nachricht zu erstellen, und klicken Sie auf **[!UICONTROL Bestätigen]**. In diesem Beispiel wird eine Regel erstellt, die sich an Empfänger richtet, deren Sprache &#39;Französisch&#39; lautet.
 
    ![](assets/condition-email-rule.png)
 
-1. Die Regel ist nun mit der Variante verknüpft. Um die Lesbarkeit zu verbessern, wird empfohlen, die Variante umzubenennen, indem Sie auf das Menü mit den Auslassungspunkten klicken.
+1. Die Regel ist nun mit der Variante verknüpft. Um die Lesbarkeit zu verbessern, wird empfohlen, die Variante umzubenennen, indem Sie auf das Suchmenü klicken.
 
-   Konfigurieren Sie jetzt, wie die Komponente angezeigt werden soll, wenn die Regel beim Senden der Nachricht erfüllt ist. In diesem Beispiel soll der Text auf Französisch angezeigt werden, wenn er die bevorzugte Sprache des Empfängers ist.
+1. Konfigurieren Sie, wie die Komponente angezeigt werden soll, wenn die Regel beim Senden der Nachricht erfüllt ist. In diesem Beispiel soll der Text auf Französisch angezeigt werden, wenn er die bevorzugte Sprache des Empfängers ist.
 
    ![](assets/condition-email-variant1.png)
 
-1. Fügen Sie so viele Varianten hinzu, wie für die Inhaltskomponente erforderlich sind. Sie können jederzeit zwischen den verschiedenen Varianten wechseln, um zu überprüfen, wie die Inhaltskomponente je nach den bedingten Regeln dargestellt wird.
+1. Fügen Sie so viele Varianten hinzu, wie für die Inhaltskomponente erforderlich sind. Sie können jederzeit zwischen den Varianten wechseln, um zu überprüfen, wie die Inhaltskomponente basierend auf ihren bedingten Regeln angezeigt wird.
 
    >[!NOTE]
    >Wenn keine der in den Varianten definierten Regeln beim Versand der Nachricht erfüllt ist, zeigt die Inhaltskomponente den in der Variablen **[!UICONTROL Standardvariante]** von **[!UICONTROL Bedingter Inhalt]** -Bereich.
