@@ -4,7 +4,7 @@ description: Hilfe-Center zu Campaign Web v8
 title: Produkt-Dokumentation zu Adobe Campaign Web v8
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 badge: label="Alpha" type="Positive"
-source-git-commit: 39b4ec268ba7b1383ad887ab35e66b67d1d4a2ef
+source-git-commit: 45f56870bc823b4f620063cd1a64d69e91c4e0a8
 workflow-type: tm+mt
 source-wordcount: '310'
 ht-degree: 30%
@@ -69,19 +69,19 @@ Campaign bietet jetzt eine neue Web-Benutzeroberfläche mit verbesserter Benutze
 
 <table style="table-layout:fixed">
 <tr style="border: 0;"><td><a href="get-started/user-interface.md">
-<img alt="neue Benutzeroberfläche" src="assets/do-not-localize/menu-ui.jpeg">
+<img alt="neue Benutzeroberfläche" src="assets/do-not-localize/menu-ui.jpeg" width="150px">
 </a></td><td>Entdecken Sie die neue Campaign-Web-Benutzeroberfläche, die neuesten Verbesserungen und die wichtigsten Funktionen. Erfahren Sie, wie Sie mit ihnen kanalübergreifende Kampagnen für Ihre Zielgruppen erstellen können. Mit seinen benutzerfreundlichen Funktionen unterstützt Campaign Sie bei der Optimierung des Prozesses zur Erstellung personalisierter kanalübergreifender Kampagnen, der Förderung von Ergebnissen und der Erzielung eines Wettbewerbsvorteils.</td></tr>
 <tr style="border: 0;"><td><a href="get-started/user-interface.md">
-<img alt="neue Benutzeroberfläche" src="assets/do-not-localize/menu-workflows.jpeg">
+<img alt="neue Benutzeroberfläche" src="assets/do-not-localize/menu-workflows.jpeg" width="150px">
 </a></td><td>Unsere umfassende grafische Arbeitsfläche erleichtert Ihnen das Entwerfen von Prozessen wie Segmentierung, Kampagnenausführung und mehr. Mit diesem erweiterten Tool können Sie Ihren Workflow optimieren und Ihre Kampagnen optimieren.</td></tr>
 <tr style="border: 0;"><td><a href="get-started/user-interface.md">
-<img alt="neue Benutzeroberfläche" src="assets/do-not-localize/menu-design.jpg">
+<img alt="neue Benutzeroberfläche" src="assets/do-not-localize/menu-design.jpg" width="150px">
 </a></td><td>Beginnen Sie mit einer Vorlage oder verwenden Sie den neuen Email Designer von Adobe Campaign, um E-Mails zu erstellen, ohne eine einzelne Codezeile schreiben zu müssen. Erfahren Sie, wie Sie mit Email Designer Inhalte erstellen, eine Vorschau anzeigen und testen und eine E-Mail an eine bestehende Audience senden können.</td></tr>
 <tr style="border: 0;"><td><a href="get-started/user-interface.md">
-<img alt="neue Benutzeroberfläche" src="assets/do-not-localize/menu-dynamic.jpg">
+<img alt="neue Benutzeroberfläche" src="assets/do-not-localize/menu-dynamic.jpg" width="150px">
 </a></td><td>Erstellen bedingter Inhalte zur Definition einer dynamischen Personalisierung basierend auf dem Empfängerprofil und zum automatischen Ersetzen von Textbausteinen und Bildern, wenn bestimmte Bedingungen erfüllt sind. Diese Funktion kann Ihre Kampagnen auf neue Höhen bringen und zielgerichtete, personalisierte Erlebnisse für Ihre Zielgruppe bereitstellen</td></tr>
 <tr style="border: 0;"><td><a href="get-started/user-interface.md">
-<img alt="neue Benutzeroberfläche" src="assets/do-not-localize/menu-campaign.jpeg">
+<img alt="neue Benutzeroberfläche" src="assets/do-not-localize/menu-campaign.jpeg" width="150px">
 </a></td><td>Mit den Adobe Campaign-Funktionen können Sie zentralisierte Kundendaten verwalten, Kundenkommunikation und Kampagnen erstellen und personalisierte Erlebnisse über verschiedene Kanäle hinweg erstellen: E-Mail, Push und SMS.</td></tr>
 </table>
 
