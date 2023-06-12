@@ -8,33 +8,33 @@ context-tags: workflow,overview;workflow,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-source-git-commit: 3dc7f1f6522a7dbd2edadcb0f7b8841e30fd8af0
+source-git-commit: bf5ff77b695a5a8584bad7784597bf1521bcb23e
 workflow-type: tm+mt
-source-wordcount: '495'
-ht-degree: 25%
+source-wordcount: '486'
+ht-degree: 12%
 
 ---
 
 
 # Erste Schritte mit dynamischen Inhalten
 
-Um jede Marketing-Kampagne optimal zu nutzen, bietet Ihnen Adobe Campaign eine Möglichkeit, benutzerdefinierte dynamische Inhalte bereitzustellen, die Kunden auf ihrer Ebene ansprechen. Verwenden Sie auf der Basis von Profildaten Personalisierungsfunktionen, um ein benutzerdefiniertes Erlebnis für verschiedene Gruppen und Personen zu erstellen: Sie können Ihre Nachrichten an jeden einzelnen Empfänger anpassen, indem Sie die vorhandenen Daten und Informationen nutzen. Dies können Vornamen, Interessen, Wohnorte, bisherige Käufe und vieles mehr sein.
+Die Bereitstellung relevanter Inhalte für Ihre Kunden ist entscheidend, um sicherzustellen, dass Sie an eine Vielzahl von Kunden appellieren und deren Interesse wecken, damit Ihre Marketing-Inhalte gelesen werden.
 
-Verwenden Sie Campaign, um dynamische Inhalte zu erstellen und personalisierte Nachrichten zu versenden. Personalisierungsfunktionen können kombiniert werden, um Ihre Nachrichten zu verbessern und ein individuelles Benutzererlebnis zu schaffen.
+Um jede Marketing-Kampagne optimal zu nutzen, bietet Ihnen Adobe Campaign die Möglichkeit, ein benutzerdefiniertes Erlebnis für verschiedene Gruppen und Einzelpersonen zu erstellen, indem Sie benutzerdefinierte dynamische Inhalte bereitstellen, die mit Kunden auf ihrer Ebene kommunizieren, indem Sie die Informationen nutzen, die Sie zu ihnen gesammelt haben.
 
-## Wie wird Ihr Inhalt dynamisch?
+* **Nachrichten personalisieren** für jeden einzelnen Empfänger durch Nutzung von Profildaten wie Vorname, Interessen, Wohnort, Einkauf und vieles mehr.
 
-Der Nachrichteninhalt kann dynamisch gestaltet werden, indem Sie Folgendes einfügen:
-
-* **Personalisierungsfelder**: Personalisierungsfelder werden zur Personalisierung Ihrer Nachrichten auf erster Ebene verwendet. Sie können jedes in der Datenbank verfügbare Feld aus dem Personalisierungseditor auswählen. Für einen Versand können Sie jedes Feld auswählen, das sich auf die Empfängerin oder den Empfänger, die Nachricht oder den Versand bezieht. Diese Personalisierungsattribute können in die Betreffzeile oder in den Text Ihrer Nachrichten eingefügt werden. Mit der folgenden Syntax wird die Stadt des Empfängers bzw. der Empfängerin in Ihren Inhalt eingefügt: &lt;%= recipient.location.city %>.
+  Sie können jedes in der Datenbank verfügbare Feld aus dem Personalisierungseditor auswählen, das sich auf den Empfänger, die Nachricht oder den Versand bezieht. Diese Personalisierungsattribute können in die Betreffzeile oder in den Text Ihrer Nachrichten eingefügt werden. Mit der folgenden Syntax wird die Stadt des Empfängers bzw. der Empfängerin in Ihren Inhalt eingefügt: &lt;%= recipient.location.city %>.
 
   ![](assets/perso-subject-line.png){width="800" align="center"}
 
-* **Bedingter Inhalt**: Konfigurieren Sie bedingte Inhalte, um beispielsweise Inhalte basierend auf dem Empfängerprofil hinzuzufügen. Textblöcke und/oder Bilder werden eingefügt, wenn eine bestimmte Bedingung erfüllt ist. Sie können die alternative Version des Inhalts definieren, wenn die Bedingung nicht wahr ist.
+* **Bedingten Inhalt erstellen** , um Ihre Sendungen an jeden Empfänger anzupassen und nur den Inhalt anzuzeigen, der für einen bestimmten Kunden aufgrund der ihm zur Verfügung stehenden Informationen relevant ist. Auf diese Weise können Sie bestimmte Textblöcke und/oder Bilder basierend auf Bedingungen anzeigen. Passen Sie beispielsweise ein E-Mail-Banner an, indem Sie die Anmeldung der Empfänger für einen bestimmten Dienst berücksichtigen.
 
-* **Integrierte Inhaltsbausteine**: Campaign verfügt über eine Reihe von Gestaltungsbausteinen, die ein bestimmtes Rendering enthalten, das Sie in Ihre Sendungen einfügen können. Sie können beispielsweise ein Logo, eine Grußnachricht oder einen Link zur Mirrorseite einer E-Mail-Nachricht hinzufügen. Inhaltsbausteine sind über einen eigenen Eintrag im Personalisierungs-Editor verfügbar.
+  ![](assets/condition-sample.png){width="800" align="center"}
 
-  ![](assets/perso-content-blocks.png){width="800" align="center"}
+* **Verwenden von Gestaltungsbausteinen** um Zeit zu sparen und leicht wiederverwendbare personalisierte Inhalte in Ihren Nachrichten zu nutzen. Campaign verfügt über eine Reihe von Gestaltungsbausteinen, die ein bestimmtes Rendering ermöglichen, das Sie in Ihre Sendungen einfügen können. Sie können beispielsweise ein Logo, eine Grußnachricht oder einen Link zur Mirrorseite einer E-Mail-Nachricht hinzufügen. Inhaltsbausteine sind über einen eigenen Eintrag im Personalisierungs-Editor verfügbar.
+
+  ![](assets/content-blocks.png){width="800" align="center"}
 
 ## Auf den Ausdruckseditor zugreifen {#access}
 
