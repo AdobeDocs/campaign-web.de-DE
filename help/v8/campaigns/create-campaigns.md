@@ -4,7 +4,7 @@ title: Erstellen von Kampagnen mit Adobe Campaign Web
 description: Erfahren Sie, wie Sie mit Adobe Campaign Web Cross-Channel-Kampagnen erstellen
 badge: label="Alpha" type="Positive"
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
-source-git-commit: 9ccc69844c813f5c8828fade442c766e9331bfbb
+source-git-commit: 7cc8f08293d88a896e80038d83d7cd47d9273a10
 workflow-type: tm+mt
 source-wordcount: '263'
 ht-degree: 34%
@@ -27,7 +27,7 @@ ht-degree: 34%
 Gehen Sie wie folgt vor, um eine neue Kampagne zu erstellen:
 
 1. Klicken Sie auf **[!UICONTROL Kampagnen]** und klicken Sie auf das **[!UICONTROL Kampagne erstellen]** Schaltfläche.
-1. Wählen Sie die **Vorlage** , um die Kampagne zu verwenden und einen Titel anzugeben. Kampagnenvorlagen werden vorkonfiguriert, sodass sie zur Erstellung neuer Kampagnen wiederverwendet werden können. Sie werden über die Client-Konsole erstellt.
+1. Wählen Sie die **Vorlage** , um die Kampagne zu verwenden und einen Titel anzugeben. Kampagnenvorlagen sind so vorkonfiguriert, dass sie zur Erstellung neuer Kampagnen wiederverwendet werden können. Sie werden über die Client-Konsole erstellt.
    [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html?lang=de)
 1. Bei Bedarf können Sie die **Zusätzliche Optionen**. Weitere Informationen finden Sie in [diesem Abschnitt](#campaign-options).
 1. Definieren Sie die **Zeitplan** Ihrer Kampagne. Die Kampagne beginnt mit Erreichen des Startdatums. Start- und Enddaten werden in der Kampagnenliste angezeigt und können als Filter verwendet werden. Weitere Informationen finden Sie in [diesem Abschnitt](gs-campaigns.md#access-campaigns).
@@ -40,7 +40,7 @@ Gehen Sie wie folgt vor, um eine neue Kampagne zu erstellen:
 
 1. Wählen Sie **Erstellen** aus.
 1. Fügen Sie Ihrer Kampagne einen Workflow oder einen eigenständigen Versand hinzu.
-   * Aus dem **Workflows** Registerkarte, klicken Sie auf **Workflow erstellen**. Ein standardmäßiger Workflow wird automatisch hinzugefügt, wenn Sie Ihre Kampagne erstellen. Weitere Informationen zum [Workflow erstellen](../workflows/create-workflow.md)
+   * Aus dem **Workflows** Registerkarte, klicken Sie auf **Workflow erstellen**. Beim Erstellen Ihrer Kampagne wird automatisch ein Standard-Workflow hinzugefügt. Weitere Informationen zum [Workflow erstellen](../workflows/create-workflow.md)
    * Aus dem **Sendungen** Registerkarte, klicken Sie auf **Versand erstellen**. [Weitere Informationen](../msg/gs-messages.md)
 
 ## Zusätzliche Optionen {#campaign-options}

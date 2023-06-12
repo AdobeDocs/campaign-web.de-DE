@@ -4,9 +4,9 @@ title: Erste Schritte mit Kampagnen
 description: Erfahren Sie, wie Sie mit kanalübergreifenden Kampagnen beginnen
 badge: label="Alpha" type="Positive"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: 7324098ba401f471b988e2df33022f0f898833b4
+source-git-commit: 7cc8f08293d88a896e80038d83d7cd47d9273a10
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '513'
 ht-degree: 15%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 15%
 Verwenden Sie Adobe Campaign, um kanalübergreifende Kampagnen zu erstellen. Mit den Orchestrierungsfunktionen der Marketing-Kampagnen können Sie Kundendaten verwalten und zentralisieren, Kundenkommunikation und Kampagnen entwerfen und personalisierte Erlebnisse über verschiedene Kanäle hinweg erstellen. In dieser Version sind die Kanäle E-Mail, Push und SMS verfügbar.
 
 Erstellen und führen Sie E-Mail-Kampagnen mit hohem Volumen aus, um personalisierte Nachrichten für alle Plattformen und Bildschirmgrößen bereitzustellen.
-Messen Sie die Effektivität Ihrer Sendungen mit detaillierten Berichten wie Öffnungen, Klicks, Weiterleitungen und mehr. Mit den Segmentierungsfunktionen von Adobe Campaign können Sie Abfragen für eine Datenbank mit hohem Datenvolumen ausführen und einfach Segmente für dynamisches Marketing definieren, die perfekt auf Ihre Kampagnen abgestimmt sind.
+Messen Sie die Effektivität Ihrer Sendungen mit detaillierten Berichten, einschließlich der Anzahl der Öffnungen, Klicks, Weiterleitungen und mehr. Mit den Segmentierungsfunktionen von Adobe Campaign können Sie Abfragen für eine Datenbank mit hohem Datenvolumen ausführen und einfach Segmente für dynamisches Marketing definieren, die perfekt auf Ihre Kampagnen abgestimmt sind.
 
 <!--
 Get Started with campaigns
@@ -37,7 +37,7 @@ Um eine neue Kampagne zu erstellen oder Ihre bestehenden Kampagnen zu verwalten,
 
 * Die **Durchsuchen** enthält alle vorhandenen Kampagnen. Sie können auf eine Kampagne klicken, um ihr Dashboard zu öffnen oder eine neue Kampagne zu erstellen, indem Sie auf **Kampagne erstellen** Schaltfläche. Siehe diesen [Abschnitt](create-campaigns.md#create-campaigns)
 
-* Die **Vorlagen** im Tab werden alle verfügbaren Kampagnenvorlagen aufgelistet. Kampagnenvorlagen werden vorkonfiguriert, sodass sie zur Erstellung neuer Kampagnen wiederverwendet werden können. Sie werden über die Client-Konsole erstellt. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html?lang=de)
+* Die **Vorlagen** im Tab werden alle verfügbaren Kampagnenvorlagen aufgelistet. Kampagnenvorlagen sind so vorkonfiguriert, dass sie zur Erstellung neuer Kampagnen wiederverwendet werden können. Sie werden über die Client-Konsole erstellt. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html?lang=de)
 
 Sie können die angezeigten Spalten anpassen, indem Sie auf die **Spalte für ein benutzerdefiniertes Layout konfigurieren** in der oberen rechten Ecke der Liste. Auf diese Weise können Sie der Liste zusätzliche Informationen hinzufügen. Darüber hinaus stehen eine Suchleiste und Filter zur Verfügung, um die einfache Suche innerhalb der Liste zu erleichtern. [Weitere Informationen](../get-started/user-interface.md#list-screens)
 
@@ -56,7 +56,7 @@ Im **Durchsuchen** klicken Sie auf eine Kampagne, um ihr Dashboard anzuzeigen. Z
 
 Die **Kampagneneinstellungen konfigurieren** Mit diesem Symbol können Sie die Eigenschaften der Kampagne ändern, die bei der Erstellung der Kampagne definiert wurden. Siehe diesen [Abschnitt](create-campaigns.md#create-campaigns)
 
-## Monitoring- und Tracking-Dauer{#campaign-monitoring}
+## Monitoring- und Trackinglogs{#campaign-monitoring}
 
 Die Überwachung von Kampagnen ist ein wichtiger Schritt zur Analyse Ihrer Kampagnen. Sie können über die **Protokolle** Schaltfläche.
 
