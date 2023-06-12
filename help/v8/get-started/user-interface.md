@@ -4,10 +4,10 @@ title: Erkunden der Benutzeroberfläche
 description: Web-Benutzeroberfläche von Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: 3d1d52fd91ed22c4e024bed0f5ae2f9a71e7d7f0
+source-git-commit: 1d4ee5a10eb1a739bb11f45e8ca1232f740ecfa2
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1772'
+ht-degree: 66%
 
 ---
 
@@ -129,29 +129,75 @@ Verwenden Sie die obere Leiste der Benutzeroberfläche, um:
 Org / Sub-org switcher to switch between instances. Only one for Alpha. Later: intermerdiate screen with Control Panel (beta). if v8 + ACS with one card per ACS instance. Maybe quickly explain the menu for Alpha?
 -->
 
-## Konfigurieren von Listenbildschirmen {#list-screens}
+## Listen durchsuchen und filtern {#list-screens}
 
-Verschiedene Links aus dem linken Navigationsmenü, z. B. **Sendungen** oder **Kampagnen**, zeigen Listen von Objekten an. Alle Listenbildschirme sind mit Ausnahme der E-Mail-Versandliste schreibgeschützt.
+Die meisten Links im linken Navigationsmenü zeigen Listen von Objekten an, z. B. die Liste der **Sendungen** oder **Kampagnen**. Einige dieser Listenbildschirme sind schreibgeschützt. Sie können die Listenanzeige anpassen und diese Listen wie unten beschrieben filtern.
 
-Um Elemente schneller zu finden, können Sie die Suchleiste verwenden oder die Liste nach kontextuellen Kriterien filtern.
+Um einen Filter zu entfernen, klicken Sie auf das **Alle löschen** Schaltfläche.
 
-![](assets/filter.png){width="70%" align="left"}
+### Anpassen von Listenbildschirmen {#custom-lists}
 
-Listen werden in Spalten angezeigt. Sie können auch zusätzliche Informationen anzeigen, indem Sie die Spaltenkonfiguration ändern. Klicken Sie dazu auf das Symbol oben rechts in der Liste. Sie können Spalten hinzufügen oder entfernen und die Reihenfolge ändern, in der sie angezeigt werden.
+Listen werden in Spalten angezeigt. Sie können auch zusätzliche Informationen anzeigen, indem Sie die Spaltenkonfiguration ändern. Klicken Sie dazu auf die Schaltfläche **Spalte für ein benutzerdefiniertes Layout konfigurieren** in der oberen rechten Ecke der Liste.
+
+![](assets/config-columns.png){width="70%" align="left"}
+
+Im **Spalten konfigurieren** -Bildschirm anzeigen, Spalten hinzufügen oder entfernen und die Reihenfolge ändern, in der sie angezeigt werden.
+
+Für diese Einstellungen beispielsweise:
 
 ![](assets/columns.png){width="70%" align="left"}
 
-Sie können Elemente in der Liste sortieren, indem Sie auf eine beliebige Spaltenüberschrift klicken. Ein Aufwärts- oder Abwärtspfeil zeigt an, dass die Liste in dieser Spalte sortiert ist. Bei numerischen Spalten oder Datumsspalten bedeutet der Aufwärtspfeil, dass die Liste in aufsteigender Reihenfolge sortiert ist, während ein Abwärtspfeil eine absteigende Reihenfolge kennzeichnet. Bei Zeichenfolge- oder alphanumerischen Spalten werden die Werte in alphabetischer Reihenfolge aufgeführt.
+Die Liste enthält die folgenden Spalten:
 
-## Kontextuelle Hilfe und Onboarding-Handbuch {#contextual-help}
+![](assets/column-sample.png){width="70%" align="left"}
 
-Eine kontextuelle Hilfe ist in der Benutzeroberfläche verfügbar. Sofern verfügbar, auf das Symbol **?** klicken, um Hilfeinformationen und Links zur zugehörigen Dokumentation anzuzeigen.
+Verwenden Sie die **Erweiterte Attribute anzeigen** umschalten, um alle Attribute für die aktuelle Liste anzuzeigen. [Weitere Informationen](#adv-attributes)
+
+### Daten sortieren {#sort-lists}
+
+Sie können Elemente in der Liste auch sortieren, indem Sie auf eine beliebige Spaltenüberschrift klicken. Ein Aufwärts- oder Abwärtspfeil zeigt an, dass die Liste in dieser Spalte sortiert ist.
+
+Bei numerischen Spalten oder Datumsspalten wird die **up** Der Pfeil zeigt an, dass die Liste in aufsteigender Reihenfolge sortiert wird, während die Variable **Nach** Der Pfeil zeigt eine absteigende Reihenfolge an. Bei Zeichenfolge- oder alphanumerischen Spalten werden die Werte in alphabetischer Reihenfolge aufgeführt.
+
+### Integrierte Filter {#list-built-in-filters}
+
+Um Elemente schneller zu finden, können Sie die Suchleiste verwenden oder die Liste nach Kontextkriterien filtern.
+
+![](assets/filter.png){width="70%" align="left"}
+
+Sie können beispielsweise Sendungen nach Status, Kanal, Kontaktdatum oder Ordner filtern. Sie können auch Tests ausblenden.
+
+### Benutzerdefinierte Filter{#list-custom-filters}
+
+Um benutzerdefinierte Datenfilter zu erstellen, navigieren Sie zum unteren Rand der Filter und klicken Sie auf die Schaltfläche **Regeln hinzufügen** Schaltfläche.
+
+Ziehen Sie Attribute per Drag-and-Drop, um Ihre Filterkriterien in der **Erweiterte Filter** angezeigt.
+
+![](assets/custom-filter.png){width="70%" align="left"}
+
+Verwenden Sie die **Erweiterte Attribute anzeigen** umschalten, um alle Attribute für die aktuelle Liste anzuzeigen. [Weitere Informationen](#adv-attributes)
+
+### Erweiterte Attribute verwenden {#adv-attributes}
+
+>[!CONTEXTUALHELP]
+>id="acw_attributepicker_advancedfields"
+>title="Erweiterte Attribute anzeigen"
+>abstract="In der Attributliste werden standardmäßig nur die häufigsten Attribute angezeigt. Verwenden Sie diesen Umschalter, um einen Filter mit erweiterten Attributen zu erstellen."
+
+Standardmäßig werden in den Konfigurationsbildschirmen der Attributliste und der Filter nur die häufigsten Attribute angezeigt.
+
+Verwenden Sie die **Erweiterte Attribute anzeigen** umschalten, um unter der Liste alle verfügbaren Attribute für die aktuelle Liste anzuzeigen.
+
+
+## Kontextuelle Hilfe {#contextual-help}
+
+Eine kontextuelle Hilfe ist in der Benutzeroberfläche verfügbar. Wenn verfügbar, klicken Sie auf die `?` -Symbol, um Hilfeinformationen und zugehörige Dokumentationslinks anzuzeigen.
 
 ![](assets/context-help.png){width="70%" align="left"}
 
-Darüber hinaus ist ein Onboarding-Handbuch verfügbar, das Ihnen bei den ersten Schritten mit Campaign v8 Web hilft. Klicken Sie auf das Symbol unten rechts, wählen Sie eines der verfügbaren schrittweisen Szenarien aus und befolgen Sie einfach die Anweisungen.
+<!--An on-boarding guide is also available to help you get started with Campaign v8 Web. Click the icon in the bottom right corner, choose one of the available step-by-step scenarios, and simply follow the instructions.
 
-![](assets/onboarding.png){width="70%" align="left"}
+![](assets/onboarding.png){width="70%" align="left"}-->
 
 ## Unterstützte Browser {#browsers}
 
@@ -187,17 +233,8 @@ Die Standardsprache der Benutzeroberfläche wird von der in Ihrem Benutzerprofil
 So ändern Sie Ihre Sprache:
 
 1. Klicken Sie auf das Profilsymbol oben rechts und wählen Sie dann **Voreinstellungen**.
-
-   ![](assets/preferences.png){width="70%" align="left"}
-
-1. Klicken Sie dann auf die Sprache, die unter Ihrer E-Mail-Adresse angezeigt wird.
-
-   ![](assets/preferences2.png)
-
+1. Klicken Sie dann auf den Sprachlink, der unter Ihrer E-Mail-Adresse angezeigt wird.
 1. Wählen Sie Ihre bevorzugte Sprache aus und klicken Sie auf **Speichern**. Sie können eine zweite Sprache auswählen, falls die von Ihnen verwendete Komponente nicht in Ihrer gewählten Sprache lokalisiert ist.
-
-   ![](assets/select-language.png)
-
 
 
 <!--
@@ -208,6 +245,11 @@ REFER TO
 https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebUI+Contextual+Help+%3CALPHA%3E-+Official+list
 -->
 
+
+>[!CONTEXTUALHELP]
+>id="acw_rulebuilder_advancedfields"
+>title="Erweiterte Felder des Regel-Builders"
+>abstract="Konfigurieren Sie Spalten mit erweiterten Feldern."
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_properties_advanced"
@@ -300,15 +342,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Berechtigung erforderlich"
 >abstract="Ihre Admins müssen Ihnen die Berechtigung erteilen, bevor Sie ein Segment erstellen können."
 
->[!CONTEXTUALHELP]
->id="acw_attributepicker_advancedfields"
->title="Erweiterte Felder der Attributauswahl"
->abstract="Konfigurieren Sie Spalten mit erweiterten Feldern."
 
->[!CONTEXTUALHELP]
->id="acw_rulebuilder_advancedfields"
->title="Erweiterte Felder des Regel-Builders"
->abstract="Konfigurieren Sie Spalten mit erweiterten Feldern."
+
 
 
 
