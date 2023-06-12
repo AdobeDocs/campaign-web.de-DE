@@ -8,23 +8,25 @@ context-tags: workflow,overview;workflow,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-source-git-commit: bf5ff77b695a5a8584bad7784597bf1521bcb23e
+source-git-commit: e241226cacbc366aa884eb7781ce60188913d7b1
 workflow-type: tm+mt
-source-wordcount: '486'
-ht-degree: 12%
+source-wordcount: '592'
+ht-degree: 10%
 
 ---
 
 
 # Erste Schritte mit dynamischen Inhalten
 
-Die Bereitstellung relevanter Inhalte für Ihre Kunden ist entscheidend, um sicherzustellen, dass Sie an eine Vielzahl von Kunden appellieren und deren Interesse wecken, damit Ihre Marketing-Inhalte gelesen werden.
+Als Marketing-Experte ist es entscheidend, Kunden anzusprechen, die sich wirklich für Ihre Angebote interessieren, und sie durch die Bereitstellung effektiver und relevanter Inhalte einzubinden. Angesichts der vielfältigen Empfängervielfalt können Sie zeitaufwendige und verschwenderische Marketinginhalte erstellen, die verschiedene Personen ansprechen. Hier kommt dynamischer Inhalt ins Spiel.
 
-Um jede Marketing-Kampagne optimal zu nutzen, bietet Ihnen Adobe Campaign die Möglichkeit, ein benutzerdefiniertes Erlebnis für verschiedene Gruppen und Einzelpersonen zu erstellen, indem Sie benutzerdefinierte dynamische Inhalte bereitstellen, die mit Kunden auf ihrer Ebene kommunizieren, indem Sie die Informationen nutzen, die Sie zu ihnen gesammelt haben.
+Mit den Web-dynamischen Inhaltsfunktionen von Adobe Campaign können Sie Ihren Inhalt auf der Grundlage der Informationen anpassen, die Sie über Ihre Empfänger erfasst haben. Durch die Verwendung dynamischer Inhalte stellen Sie sicher, dass Ihre Marketing-Maßnahmen relevanter sind, und vermeiden Sie unerwünschte oder unnötige Produkte oder Services im Marketing. Dieser Ansatz macht Ihre Inhalte attraktiver und erhöht die Wahrscheinlichkeit, dass sie gelesen werden. Darüber hinaus können Sie Ihren Inhalt personalisieren, sodass Empfänger das Gefühl haben, Informationen von einer Person und nicht von einem Computer zu erhalten.
 
-* **Nachrichten personalisieren** für jeden einzelnen Empfänger durch Nutzung von Profildaten wie Vorname, Interessen, Wohnort, Einkauf und vieles mehr.
+## Wie wird Ihr Inhalt dynamisch?
 
-  Sie können jedes in der Datenbank verfügbare Feld aus dem Personalisierungseditor auswählen, das sich auf den Empfänger, die Nachricht oder den Versand bezieht. Diese Personalisierungsattribute können in die Betreffzeile oder in den Text Ihrer Nachrichten eingefügt werden. Mit der folgenden Syntax wird die Stadt des Empfängers bzw. der Empfängerin in Ihren Inhalt eingefügt: &lt;%= recipient.location.city %>.
+Sie können den Nachrichteninhalt dynamisch gestalten, indem Sie im Campaign-Web-Ausdruckseditor JavaScript-Konstrukte einfügen. Beim Nachrichtenversand werden diese Ausdrücke von Adobe Campaign interpretiert, um jedem Ihrer Empfänger den richtigen Inhalt bereitzustellen:
+
+* **Nachrichten personalisieren** für jeden einzelnen Empfänger durch Nutzung von Profildaten wie Vorname, Interessen, Wohnort, Einkauf und vieles mehr. Sie können jedes in der Datenbank verfügbare Feld aus dem Personalisierungseditor auswählen, das sich auf den Empfänger, die Nachricht oder den Versand bezieht. Diese Personalisierungsattribute können in die Betreffzeile oder in den Text Ihrer Nachrichten eingefügt werden. Mit der folgenden Syntax wird die Stadt des Empfängers bzw. der Empfängerin in Ihren Inhalt eingefügt: &lt;%= recipient.location.city %>.
 
   ![](assets/perso-subject-line.png){width="800" align="center"}
 

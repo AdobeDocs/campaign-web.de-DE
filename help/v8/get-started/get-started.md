@@ -4,10 +4,10 @@ title: Erste Schritte mit Campaign v8 Web
 description: Erste Schritte mit Campaign v8 Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 badge: label="Alpha" type="Positive"
-source-git-commit: 7a58b8323dbecc7cca0ba513d98a5afb213d3bc2
+source-git-commit: c801a96605eac09cd1b1753c3a22e4b61f81e97e
 workflow-type: tm+mt
-source-wordcount: '488'
-ht-degree: 72%
+source-wordcount: '469'
+ht-degree: 71%
 
 ---
 
@@ -34,19 +34,6 @@ Wenn Sie auf Campaign v8-Funktionen zugreifen müssen, die nicht in der Web-Benu
 >
 >Campaign v8 Web befindet sich derzeit in der Alpha-Version. Der Zugriff ist auf eine kleine Gruppe von Alpha-Kunden beschränkt. Beachten Sie, dass sich die Produktoberfläche, die Funktionen und die Nutzungsflüsse ohne Vorankündigung ändern können.
 
-## Über die Campaign-Client-Konsole{#ac-client}
-
-Die Campaign-Client-Konsole ist eine Browser-basierte Anwendung, die auf Ihrem System installiert ist. Sie nutzt die Web-Services-API, um eine Verbindung zu Ihrem Campaign-Anwendungs-Server herzustellen.
-
-In [diesem Abschnitt](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/connect.html?lang=de) erfahren Sie, wie Sie die Client-Konsole herunterladen und installieren.{target="_blank"}
-
-Weitere Informationen zur Verwendung von Campaign v8 finden Sie unter [Dokumentation zu Campaign v8 (Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=de){target="_blank"}.
-
-Kampagnendaten werden auf dem Anwendungs-Server gespeichert. Daten sind sowohl über die Client-Konsole als auch über die Web-Benutzeroberfläche verfügbar. Wenn Sie beispielsweise eine Versandvorlage mithilfe der Client-Konsole erstellen, ist diese ebenfalls in der Web-Benutzeroberfläche verfügbar. Ist in der Web-Benutzeroberfläche ein E-Mail-Versand eingerichtet, kann diese Versandart auch über die Client-Konsole aufgerufen werden.
-
-
-Einige Objekte können nur in der Clientkonsole erstellt und verwaltet werden. Sie können in der Web-Benutzeroberfläche von Campaign angezeigt und verwendet werden, können jedoch nicht in dieser Umgebung erstellt oder geändert werden. Alle Campaign-Objekte und -Komponenten sind in der Explorer-Ansicht verfügbar, die im linken Navigationsbereich verfügbar ist.
-
 ## Herstellen einer Verbindung zu Campaign
 
 
@@ -63,3 +50,13 @@ Sie sind jetzt mit Campaign verbunden. Auf [dieser Seite](user-interface.md) erf
 -> or Campaign v8 web if direct URL
 -->
 
+
+## Über die Campaign-Client-Konsole{#ac-client}
+
+Die Campaign-Client-Konsole ist eine Browser-basierte Anwendung, die auf Ihrem System installiert ist. Sie nutzt die Web-Services-API, um eine Verbindung zu Ihrem Campaign-Anwendungs-Server herzustellen.
+
+Kampagnendaten werden auf dem Anwendungs-Server gespeichert. Daten sind sowohl über die Client-Konsole als auch über die Web-Benutzeroberfläche verfügbar. Wenn Sie beispielsweise eine Versandvorlage mithilfe der Client-Konsole erstellen, ist diese ebenfalls in der Web-Benutzeroberfläche verfügbar. Ist in der Web-Benutzeroberfläche ein E-Mail-Versand eingerichtet, kann diese Versandart auch über die Client-Konsole aufgerufen werden.
+
+Einige Objekte können nur in der Clientkonsole erstellt und verwaltet werden. Sie können in der Web-Benutzeroberfläche von Campaign angezeigt und verwendet werden, können jedoch nicht in dieser Umgebung erstellt oder geändert werden. Alle Campaign-Objekte und -Komponenten sind in der Explorer-Ansicht verfügbar, die im linken Navigationsbereich verfügbar ist.
+
+Weitere Informationen zur Verwendung von Campaign v8 finden Sie unter [Dokumentation zu Campaign v8 (Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=de){target="_blank"}.
