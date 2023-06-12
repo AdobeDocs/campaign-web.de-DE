@@ -4,12 +4,13 @@ title: Erste Schritte mit Kampagnen
 description: Erfahren Sie, wie Sie mit kanalübergreifenden Kampagnen beginnen
 badge: label="Alpha" type="Positive"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: dc7555bd593efc126fa29fbb87ff6811a1e1b132
+source-git-commit: 7324098ba401f471b988e2df33022f0f898833b4
 workflow-type: tm+mt
-source-wordcount: '353'
-ht-degree: 76%
+source-wordcount: '512'
+ht-degree: 15%
 
 ---
+
 
 # Erste Schritte mit Kampagnen {#campaigns}
 
@@ -23,52 +24,49 @@ Verwenden Sie Adobe Campaign, um kanalübergreifende Kampagnen zu erstellen. Mit
 Erstellen und führen Sie E-Mail-Kampagnen mit hohem Volumen aus, um personalisierte Nachrichten für alle Plattformen und Bildschirmgrößen bereitzustellen.
 Messen Sie die Effektivität Ihrer Sendungen mit detaillierten Berichten wie Öffnungen, Klicks, Weiterleitungen und mehr. Mit den Segmentierungsfunktionen von Adobe Campaign können Sie Abfragen für eine Datenbank mit hohem Datenvolumen ausführen und einfach Segmente für dynamisches Marketing definieren, die perfekt auf Ihre Kampagnen abgestimmt sind.
 
-## Erstellen einer Cross-Channel-Kampagne {#cross-channel-campaign}
+<!--
+Get Started with campaigns
+Adobe Campaign offers a set of solutions that help you personalize and deliver campaigns across all of your online and offline channels. You can create, configure, execute and analyze marketing campaigns. All marketing campaigns can be managed from a unified control center. Discover how to browse and create marketing campaigns in this section.
 
+Campaigns include actions (deliveries) and processes (importing or extracting files), as well as resources (marketing documents, delivery outlines). They are used in marketing campaigns. Campaigns are part of a program, and programs are included in a campaign plan.
+-->
 
->[!CONTEXTUALHELP]
->id="acw_campaign_creation_workflow"
->title="Liste der Workflows"
->abstract="Liste der für Ihre Kampagne verfügbaren Workflows. Verwenden Sie die Schaltfläche „Workflow erstellen“, um einen Workflow zu Ihrer Kampagne hinzuzufügen."
+## Zugriff und Verwaltung von Kampagnen{#access-campaigns}
 
-In einer Cross-Channel-Kampagne nutzt eine einzelne Marketing-Kommunikation verschiedene Kanäle. Daten werden zwischen den Kanälen übergeben. Der Kunde erhält die Kommunikation über mehrere Kanäle, beispielsweise aufgrund seiner Interaktion mit der vorherigen Kommunikation.
+Um eine neue Kampagne zu erstellen oder Ihre bestehenden Kampagnen zu verwalten, klicken Sie auf die Schaltfläche **[!UICONTROL Kampagnen]** Menü. Zwei Registerkarten sind verfügbar:
 
-## Definieren von Kampagneneigenschaften {#campaign-properties}
+* Die **Durchsuchen** enthält alle vorhandenen Kampagnen. Sie können auf eine Kampagne klicken, um ihr Dashboard zu öffnen oder eine neue Kampagne zu erstellen, indem Sie auf **Kampagne erstellen** Schaltfläche. Siehe diesen [Abschnitt](create-campaigns.md#create-campaigns)
 
->[!CONTEXTUALHELP]
->id="acw_campaign_creation_properties"
->title="Kampagnenerstellungs-Eigenschaften"
->abstract="Definieren Sie Eigenschaften und Metadaten für die Kampagne."
+* Die **Vorlagen** im Tab werden alle verfügbaren Kampagnenvorlagen aufgelistet. Kampagnenvorlagen werden vorkonfiguriert, sodass sie zur Erstellung neuer Kampagnen wiederverwendet werden können. Sie werden über die Client-Konsole erstellt. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html?lang=de)
 
->[!CONTEXTUALHELP]
->id="acw_campaign_properties"
->title="Eigenschaften der Kampagne"
->abstract="Definieren Sie Kampagneneinstellungen und Metadaten."
+Sie können die angezeigten Spalten anpassen, indem Sie auf die **Spalte für ein benutzerdefiniertes Layout konfigurieren** in der oberen rechten Ecke der Liste. Auf diese Weise können Sie der Liste zusätzliche Informationen hinzufügen. Darüber hinaus stehen eine Suchleiste und Filter zur Verfügung, um die einfache Suche innerhalb der Liste zu erleichtern. [Weitere Informationen](../get-started/user-interface.md#list-screens)
 
-Die Kampagneneigenschaften werden bei der Erstellung einer neuen Kampagne angezeigt.
-
-![Definieren von Kampagneneigenschaften](assets/campaign-properties.png)
-
-Sie können auf die Kampagneneigenschaften auch über das Symbol **Kampagneneinstellungen konfigurieren** neben dem Kampagnentitel zugreifen.
-
-Auf diesem Bildschirm können Sie Folgendes ändern:
-
-
-
-## Definieren des Kampagnenkalenders {#campaign-schedule}
-
->[!CONTEXTUALHELP]
->id="acw_campaign_creation_schedule"
->title="Kampagnenerstellungs-Zeitplan"
->abstract="Wählen Sie im Bereich „Planung“ Ihrer Kampagneneigenschaften den gewünschten Zeitraum aus. Die Kampagne beginnt, wenn das Anfangsdatum erreicht wird."
-
-Verwenden Sie den Bereich **Planung** in den Kampagneneigenschaften, um den Zeitrahmen auszuwählen. Die Kampagne beginnt, wenn das Anfangsdatum erreicht wird.
-
-Anfangs- und Enddatum werden in der Kampagnenliste angezeigt und können als Filter verwendet werden.
-
-![Liste der Kampagnen](assets/campaign-list.png)
-
-Um Ihren Kampagnenkalender zu filtern, öffnen Sie die Filter und verwenden Sie den Abschnitt **Anfangsdatum – Enddatum**:
+Sie können beispielsweise nach Ihrem Kampagnenkalender filtern. Öffnen Sie das Filterbedienfeld und verwenden Sie die **Start - Enddatum** Abschnitt:
 
 ![Liste der Kampagnen](assets/campaign-filter-on-dates.png)
+
+Jede Kampagne in der Liste enthält Informationen zum aktuellen Status, zum Erstellungsdatum, zum letzten Änderungszeitpunkt usw.
+
+## Das Kampagnen-Dashboard{#campaign-dashboard}
+
+Im **Durchsuchen** klicken Sie auf eine Kampagne, um ihr Dashboard anzuzeigen. Zwei Registerkarten sind verfügbar:
+
+* Die **Workflows** enthält alle mit der Kampagne verknüpften Workflows. In diesem Tab können Sie auch einen neuen Workflow innerhalb der Kampagne erstellen. Siehe diesen [Abschnitt](create-campaigns.md#create-campaigns)
+* Die **Sendungen** im Tab werden alle mit der Kampagne verknüpften Sendungen aufgelistet. In diesem Tab können Sie auch einen neuen Versand innerhalb der Kampagne erstellen. Siehe diesen [Abschnitt](create-campaigns.md#create-campaigns)
+
+Die **Kampagneneinstellungen konfigurieren** Mit diesem Symbol können Sie die Eigenschaften der Kampagne ändern, die bei der Erstellung der Kampagne definiert wurden. Siehe diesen [Abschnitt](create-campaigns.md#create-campaigns)
+
+## Monitoring- und Tracking-Dauer{#campaign-monitoring}
+
+Die Überwachung von Kampagnen ist ein wichtiger Schritt zur Analyse Ihrer Kampagnen. Sie können über die **Protokolle** Schaltfläche.
+
+Sie können auch die entsprechenden Berichte anzeigen, indem Sie auf **Berichte** Schaltfläche . Siehe diesen [Abschnitt](../reporting/campaign-reports.md)
+
+## Duplizieren und löschen
+
+Um eine Kampagne zu duplizieren oder zu löschen, klicken Sie auf die Suchschaltfläche und wählen Sie **Duplizieren** oder **Löschen**. Sie können auch einen Workflow oder einen Versand im Dashboard einer Kampagne duplizieren oder löschen.
+
+>[!NOTE]
+>
+>Um einen Versand innerhalb eines Workflows zu löschen, müssen Sie ihn aus dem Workflow löschen.
 
