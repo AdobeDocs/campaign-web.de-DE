@@ -3,54 +3,170 @@ audience: end-user
 title: E-Mail-Versandberichte
 description: Erfahren Sie, wie Sie auf E-Mail-Versandberichte zugreifen und diese verwenden
 badge: label="Alpha" type="Positive"
-source-git-commit: 0463bc48bcee20b9f97d5b98053b77956dc4ef53
+source-git-commit: 988350e5117b8593823cb59f9b999b0d7c1d5cff
 workflow-type: tm+mt
-source-wordcount: '337'
-ht-degree: 95%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Email-Versandbericht {#email-report}
 
-## Versand
+## Versandzusammenfassung {#delivery-summary-email}
 
-* **Versandzusammenfassung** Dieser Bericht enthält die wichtigsten Informationen zu einem Versand. Zielgruppen-Population, Ausschlussgründe, Versandstatistiken.
+* **[!UICONTROL Ursprüngliche Zielgruppenstatistiken]** -Tabelle zeigt Daten zu Ihren Empfängern an:
 
-  ![](assets/reporting3.png)
+  +++ Erfahren Sie mehr über E-Mail-Versandberichtsmetriken.
 
-* **Versanddurchsatz**: Dieser Bericht enthält Informationen zum Versanddurchsatz in einem bestimmten Zeitraum. Zur Messung der Versandgeschwindigkeit von Nachrichten werden als Kriterien die Anzahl der pro Stunde gesendeten Nachrichten und die gesendete Nachrichtengröße in Bits pro Sekunde herangezogen. Im folgenden Beispiel zeigt das erste Diagramm die erfolgreichen Sendungen in Blau und die Anzahl der fehlerhaften Sendungen in Orange an.
+   * **[!UICONTROL Ursprüngliche Zielgruppe]**: Gesamtzahl der Zielgruppenempfänger
 
-  ![](assets/reporting3bis.png)
+   * **[!UICONTROL Zu liefern]**: Gesamtzahl der nach erfolgter Versandanalyse zu versendenden Nachrichten.
 
-* **Broadcast-Statistiken**: Dieser Bericht enthält die Anzahl der verarbeiteten E-Mails sowie den prozentualen Anteil an zugestellten Nachrichten, Hard- und Softbounces, Öffnungen, Klicks und Abmeldungen aufgeschlüsselt nach Internet-Domain.
+   * **[!UICONTROL Ausschluss]**: Gesamtzahl der vom Versand an die Zielgruppe ausgeschlossenen Nachrichten.
++++
 
-  ![](assets/reporting4.png)
+* **[!UICONTROL Versandstatistiken]** -Tabelle zeigt den Erfolg Ihres Versands.
 
-* **Fehler und Bounces**: Dieser Bericht zeigt die Aufschlüsselung der nicht zustellbaren E-Mails sowie eine Aufschlüsselung der Bounces pro Internet-Domain.
+  +++ Erfahren Sie mehr über E-Mail-Kampagnen-Berichtsmetriken.
 
-  ![](assets/reporting5.png)
+   * **[!UICONTROL Nachricht gesendet]**: Gesamtzahl der nach erfolgter Versandanalyse zu versendenden Nachrichten.
 
-## Tracking
+   * **[!UICONTROL Erfolg]**: Anzahl der erfolgreich verarbeiteten Nachrichten in Bezug auf die Anzahl der zu sendenden Nachrichten.
 
-* **Tracking-Indikatoren**: Dieser Bericht kombiniert die wichtigsten Indikatoren zur Verfolgung des Empfängerverhaltens beim Erhalt des Versands. Er bietet Zugriff auf Versand- und Empfangsstatistiken, Öffnungs- und Klickraten, generierte Clickstreams, Webtracking sowie Teilungsaktivitäten in sozialen Netzwerken.
+   * **[!UICONTROL Fehler]**: Gesamtzahl der über alle Sendungen hinweg kumulierten Fehler und der automatischen Bounce-Verarbeitung in Bezug auf die Zahl der zu sendenden Nachrichten.
 
-  ![](assets/reporting6.png)
+   * **[!UICONTROL Neue Quarantänen]**: Gesamtzahl der Adressen, die infolge eines fehlgeschlagenen Versands unter Quarantäne gestellt wurden (unbekannter Nutzer, ungültige Domain), in Bezug auf die Zahl der zu sendenden Nachrichten.
 
-* **URLs und Clickstreams**: Dieser Bericht zeigt die nach einem Versand besuchten Seiten an.
++++
 
-  ![](assets/reporting7.png)
+* **[!UICONTROL Ausschlussgründe]** Diagramm und Tabelle zeigen die Verteilung der im Zuge der Analyse zurückgewiesenen Nachrichten nach Regeln.
 
-* **Nutzeraktivitäten**: Dieser Bericht zeigt die Aufschlüsselung der Öffnungen und Klicks pro halbe Stunde, Stunde oder Tag in Form eines Diagramms.
+## Versanddurchsatz {#delivery-throughtput}
 
-  ![](assets/reporting8.png)
+Dieser Bericht enthält detaillierte Informationen zum Versanddurchsatz der gesamten Plattform innerhalb eines bestimmten Zeitraums. Die Hauptmetrik, mit der die Geschwindigkeit des Nachrichtenversands gemessen wird, ist die Anzahl der pro Stunde gesendeten Nachrichten.
 
-* **Tracking-Statistiken**: Dieser Bericht enthält Statistiken über Öffnungen und Klicks.
+## Broadcast-Statistiken {#broadcast-statistics}
 
-  ![](assets/reporting9.png)
+* **[!UICONTROL Versandstatistiken]** enthält die verfügbaren Daten zu Fehlern, die bei jeder Domain aufgetreten sind.
 
-* **Öffnungsverteilung**: Dieser Bericht zeigt die Verteilung der Öffnungen nach Betriebssystem, Gerät und Browser im betreffenden Zeitraum. Für jede Kategorie werden zwei Diagramme verwendet. Das erste zeigt Statistiken zu Öffnungen auf Computern und Mobilgeräten. Das zweite stellt Statistiken dar, die sich nur auf Öffnungen auf Mobilgeräten beziehen.
+  +++ Erfahren Sie mehr über E-Mail-Versandberichtsmetriken.
 
-  ![](assets/reporting10.png)
+   * **[!UICONTROL Verarbeitete E-Mails]**: Gesamtzahl der vom Versandserver verarbeiteten Nachrichten.
+
+   * **[!UICONTROL Zugestellt]**: Prozentualer Anteil der erfolgreich verarbeiteten E-Mails in Bezug auf die Gesamtzahl der verarbeiteten E-Mails.
+
+   * **[!UICONTROL Hardbounces]**: Prozentualer Anteil der Hardbounces, permanenten Fehler wie eine falsche E-Mail-Adresse in Bezug auf die Gesamtzahl der verarbeiteten E-Mails.
+
+   * **[!UICONTROL Softbounces]**: Prozentualer Anteil der Softbounces, temporäre Fehler wie einen vollständigen Posteingang in Bezug auf die Gesamtzahl der verarbeiteten E-Mails
+
+   * **[!UICONTROL Öffnungen]**: Prozentualer Anteil der Zielgruppenempfänger, die mindestens einmal die betreffende Nachricht geöffnet haben, in Bezug auf die Gesamtzahl der verarbeiteten E-Mails.
+
+   * **[!UICONTROL Klicks]**: Prozentualer Anteil der Personen, die mindestens einmal im betreffenden Versand geklickt haben, in Bezug auf die Gesamtzahl der verarbeiteten E-Mails.
+
+   * **[!UICONTROL Abmeldungen]**: Prozentualer Anteil der Klicks auf einen Abmelde-Link in Bezug auf die Gesamtzahl der verarbeiteten E-Mails.
++++
+
+## Fehler und Bounces {#non-deliverables-email}
+
+* **[!UICONTROL Verteilung der Fehler nach Typ]** und **[!UICONTROL Verteilung der Fehler nach Domain]** Tabellen und Diagramme enthalten die verfügbaren Daten zu Fehlern, die bei jeder Domain aufgetreten sind.
+
+  +++ Erfahren Sie mehr über E-Mail-Versandberichtsmetriken.
+
+   * **[!UICONTROL Fehler]**: Gesamtzahl der über alle Sendungen hinweg kumulierten Fehler und der automatischen Bounce-Verarbeitung in Bezug auf die Zahl der zu sendenden Nachrichten.
+
+   * **[!UICONTROL Beitrag]**:
+
+   * **[!UICONTROL Verteilung]**:
+
++++
+
+## Tracking-Indikatoren {#tracking-indicators-email}
+
+* **[!UICONTROL Versandstatistiken]** bietet wichtige Leistungsindikatoren (Key Performance Indicators, KPIs), die detaillierte Informationen zu den für gesendete E-Mails verfügbaren Daten enthalten.
+
+  +++ Erfahren Sie mehr über E-Mail-Versandberichtsmetriken.
+
+   * **[!UICONTROL Erfolg]**: Anzahl der erfolgreich verarbeiteten Nachrichten in Bezug auf die Anzahl der zu sendenden Nachrichten.
+
+   * **[!UICONTROL Unique Opens]**: Gesamtzahl der Zielgruppenempfänger, die mindestens einmal die betreffende Nachricht geöffnet haben.
+
+   * **[!UICONTROL Öffnungen]**: Anzahl unterschiedlicher Zielgruppenempfänger dieser Domain, die mindestens einmal die betreffende Nachricht geöffnet haben.
+
+   * **[!UICONTROL Klicks auf den Ausschluss-Link]**: Anzahl der Klicks auf den Abmelde-Link.
+
+   * **[!UICONTROL Klicks auf den Mirrorlink]**: Anzahl der Klicks auf den Mirrorseite-Link.
+
+   * **[!UICONTROL Schätzung der Weiterleitungen]**: Schätzung der Anzahl der E-Mails, die von den Zielgruppenempfängern weitergeleitet werden.
++++
+
+* **[!UICONTROL Öffnungs- und Klickrate]** zeigt Daten zu Ihren Empfängern an.
+
+  +++ Erfahren Sie mehr über E-Mail-Versandberichtsmetriken.
+
+   * **[!UICONTROL Gesendet]**: Gesamtzahl der gesendeten Nachrichten
+
+   * **[!UICONTROL Beschwerden]**: Anzahl der Nachrichten für diese Domain, die vom Empfänger als unerwünscht gemeldet wurden.
+
+   * **[!UICONTROL Öffnungen]**: Anzahl unterschiedlicher Zielgruppenempfänger dieser Domain, die mindestens einmal die betreffende Nachricht geöffnet haben.
+
+   * **[!UICONTROL Klicks]**: Anzahl unterschiedlicher Zielgruppenempfänger, die mindestens einmal im betreffenden Versand geklickt haben.
+
+   * **[!UICONTROL Brutto-Reaktionsrate]**: Prozentualer Anteil der Empfänger, die mindestens einmal im betreffenden Versand geklickt haben, in Bezug auf die Empfänger, die mindestens einmal den betreffenden Versand geöffnet haben.
++++
+
+## URLs und Clickstreams {#url-email}
+
+* **[!UICONTROL URLs und Clickstreams]** bietet wichtige Leistungsindikatoren (Key Performance Indicators, KPIs), die detaillierte Informationen zu den URLs enthalten, auf die während eines Versands am häufigsten geklickt wurde.
+
+  +++ Erfahren Sie mehr über E-Mail-Versandberichtsmetriken.
+
+   * **[!UICONTROL Reaktivität]**: Prozentualer Anteil der Zielgruppenempfänger, die in einen Versand geklickt haben, in Bezug auf die geschätzte Anzahl der Zielgruppenempfänger, die einen Versand geöffnet haben.
+
+   * **[!UICONTROL Unique Clicks]**: Gesamtzahl unterschiedlicher Empfänger, die mindestens einmal im betreffenden Versand geklickt haben.
+
+   * **[!UICONTROL Klicks]**: Gesamtzahl der Klicks auf Links in Sendungen.
+
++++
+
+* **[!UICONTROL Die 10 am häufigsten besuchten Links]** Diagramm und Tabelle enthalten die verfügbaren Daten für das Empfängerverhalten pro Link.
+
+  +++ Erfahren Sie mehr über E-Mail-Versandberichtsmetriken.
+
+   * **[!UICONTROL Klicks]**: Gesamtzahl der Klicks auf Links in Sendungen.
+
+   * **[!UICONTROL Prozentsatz]**: Prozentsatz der Benutzer, die mit dem Versand interagiert haben
+
++++
+
+* **[!UICONTROL Zeitliche Klickverteilung]** -Diagramm enthält die verfügbaren Daten zum Empfängerverhalten pro Link.
+
+## Benutzeraktivitäten {#user-activities-email}
+
+* **[!UICONTROL Benutzeraktivitäten]** zeigt die Verteilung der Öffnungen und Klicks in Form eines Diagramms.
+
+  +++ Erfahren Sie mehr über E-Mail-Versandberichtsmetriken.
+
+   * **[!UICONTROL Klicks]**: Gesamtzahl der Klicks auf Links in Sendungen.
+
+   * **[!UICONTROL Öffnungen]**: Anzahl unterschiedlicher Zielgruppenempfänger dieser Domain, die mindestens einmal die betreffende Nachricht geöffnet haben.
+
++++
+
+## Tracking-Statistiken {#tracking-statistics}
+
+* **[!UICONTROL Trackingstatistiken]** -Diagramm bietet Statistiken zu Öffnungen und Klicks.
+
+  +++ Erfahren Sie mehr über E-Mail-Versandberichtsmetriken.
+
+   * **[!UICONTROL Klicks]**: Gesamtzahl der Klicks auf Links in Sendungen.
+
+   * **[!UICONTROL Öffnungen]**: Anzahl unterschiedlicher Zielgruppenempfänger dieser Domain, die mindestens einmal die betreffende Nachricht geöffnet haben.
+
++++
+
+## Öffnungsverteilung {#breakdown-opens}
+
+Dieser Bericht zeigt die Öffnungsverteilung nach Betriebssystem, Geräteart und Browser für den ausgewählten Zeitraum. Für jede Kategorie stehen zwei Diagramme zur Verfügung. Das erste zeigt die Öffnungsstatistiken für Computer und Mobilgeräte an, das zweite nur für Mobilgeräte.
 
 ## Hotclicks
 

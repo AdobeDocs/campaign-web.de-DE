@@ -3,10 +3,10 @@ audience: end-user
 title: Kampagnenberichte
 description: Erfahren Sie, wie Sie auf Kampagnenberichte zugreifen und diese verwenden können
 badge: label="Alpha" type="Positive"
-source-git-commit: 00f6c8622fbeb740a354d612e866f603139dfee0
+source-git-commit: 988350e5117b8593823cb59f9b999b0d7c1d5cff
 workflow-type: tm+mt
-source-wordcount: '1336'
-ht-degree: 7%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -17,6 +17,8 @@ ht-degree: 7%
 ### Versandzusammenfassung {#delivery-summary-email}
 
 * **[!UICONTROL Versandübersicht]** bietet wichtige Leistungsindikatoren (Key Performance Indicators, KPIs), die detaillierte Informationen darüber enthalten, wie Ihre Besucher mit Ihrem E-Mail-Versand interagieren.
+
+  ![](assets/campaign_report_email_1.png)
 
   +++ Erfahren Sie mehr über E-Mail-Kampagnen-Berichtsmetriken.
 
@@ -32,9 +34,9 @@ ht-degree: 7%
 
 +++
 
-  ![](assets/campaign_report_email_1.png)
+* **[!UICONTROL Ursprüngliche Zielgruppenstatistiken]** -Tabelle zeigt Daten zu Ihren Empfängern an:
 
-* **[!UICONTROL Statistiken der ursprünglichen Zielgruppen-Audience]**
+  ![](assets/campaign_report_email_2.png)
 
   +++ Erfahren Sie mehr über E-Mail-Kampagnen-Berichtsmetriken.
 
@@ -46,9 +48,9 @@ ht-degree: 7%
 
 +++
 
-  ![](assets/campaign_report_email_2.png)
+* **[!UICONTROL Ausführungsstatistiken]** -Tabelle zeigt den Erfolg Ihres Versands.
 
-* **[!UICONTROL Ausführungsstatistiken]**
+  ![](assets/campaign_report_email_3.png)
 
   +++ Erfahren Sie mehr über E-Mail-Kampagnen-Berichtsmetriken.
 
@@ -62,9 +64,9 @@ ht-degree: 7%
 
 +++
 
-  ![](assets/campaign_report_email_3.png)
+* **[!UICONTROL Reaktionsstatistiken]** enthält die verfügbaren Daten zur Empfängeraktivität für Ihren Versand.
 
-* **[!UICONTROL Reaktionsstatistik]**
+  ![](assets/campaign_report_email_4.png)
 
   +++ Erfahren Sie mehr über E-Mail-Kampagnen-Berichtsmetriken.
 
@@ -77,11 +79,9 @@ ht-degree: 7%
    * **[!UICONTROL Mirrorseite]**: Anzahl der Empfänger, die auf den Mirrorseiten-Link geklickt haben
 
    * **[!UICONTROL Forwards]**: Anzahl der Empfänger, die geklickt haben, die die E-Mail weitergeleitet haben
-
-  ![](assets/campaign_report_email_4.png)
 +++
 
-* **[!UICONTROL Erzeugte Clickstreams]**
+* **[!UICONTROL Erzeugte Clickstreams]** zeigt Daten dazu an, wie Ihre Empfänger mit Ihrem Versand interagiert haben.
 
   ![](assets/campaign_report_email_5.png)
 
@@ -97,7 +97,9 @@ ht-degree: 7%
 
 ### Unzustellbare E-Mails {#non-deliverables-email}
 
-* **[!UICONTROL Verteilung der Fehler nach Typ]** und **[!UICONTROL Verteilung der Fehler nach Browsern]**
+* **[!UICONTROL Verteilung der Fehler nach Typ]** und **[!UICONTROL Verteilung der Fehler nach Domain]** Tabellen und Diagramme enthalten die verfügbaren Daten zu Fehlern, die bei jeder Domain aufgetreten sind.
+
+  ![](assets/campaign_report_email_6.png)
 
   +++ Erfahren Sie mehr über E-Mail-Kampagnen-Berichtsmetriken.
 
@@ -109,11 +111,11 @@ ht-degree: 7%
 
 +++
 
-  ![](assets/campaign_report_email_6.png)
-
 ### Tracking-Indikatoren {#tracking-indicators-email}
 
-* **[!UICONTROL Versandstatistiken]**
+* **[!UICONTROL Versandstatistiken]** bietet wichtige Leistungsindikatoren (Key Performance Indicators, KPIs), die detaillierte Informationen zu den für gesendete E-Mails verfügbaren Daten enthalten.
+
+  ![](assets/campaign_report_email_7.png)
 
   +++ Erfahren Sie mehr über E-Mail-Kampagnen-Berichtsmetriken.
 
@@ -130,9 +132,9 @@ ht-degree: 7%
    * **[!UICONTROL Schätzung der Weiterleitungen]**: Schätzung der Anzahl der E-Mails, die von den Zielgruppenempfängern weitergeleitet werden.
 +++
 
-  ![](assets/campaign_report_email_7.png)
+* **[!UICONTROL Ursprüngliche Zielgruppenstatistiken]** zeigt Daten zu Ihren Empfängern an.
 
-* **[!UICONTROL Öffnungs- und Klickrate]**
+  ![](assets/campaign_report_email_8.png)
 
   +++ Erfahren Sie mehr über E-Mail-Kampagnen-Berichtsmetriken.
 
@@ -147,11 +149,11 @@ ht-degree: 7%
    * **[!UICONTROL Brutto-Reaktionsrate]**: Prozentualer Anteil der Empfänger, die mindestens einmal im betreffenden Versand geklickt haben, in Bezug auf die Empfänger, die mindestens einmal den betreffenden Versand geöffnet haben.
 +++
 
-  ![](assets/campaign_report_email_8.png)
-
 ### URLs und Clickstreams {#url-email}
 
-* **[!UICONTROL URLs und Clickstreams]**
+* **[!UICONTROL URLs und Clickstreams]** bietet wichtige Leistungsindikatoren (Key Performance Indicators, KPIs), die detaillierte Informationen zu den URLs enthalten, auf die während eines Versands am häufigsten geklickt wurde.
+
+  ![](assets/campaign_report_email_9.png)
 
   +++ Erfahren Sie mehr über E-Mail-Kampagnen-Berichtsmetriken.
 
@@ -163,9 +165,9 @@ ht-degree: 7%
 
 +++
 
-  ![](assets/campaign_report_email_9.png)
+* **[!UICONTROL Die 10 am häufigsten besuchten Links]** Diagramm und Tabelle enthalten die verfügbaren Daten für das Empfängerverhalten pro Link.
 
-* **[!UICONTROL Die 10 meistbesuchten Links]**
+  ![](assets/campaign_report_email_10.png)
 
   +++ Erfahren Sie mehr über E-Mail-Kampagnen-Berichtsmetriken.
 
@@ -175,23 +177,23 @@ ht-degree: 7%
 
 +++
 
-  ![](assets/campaign_report_email_10.png)
-
-* **[!UICONTROL Zeitliche Klickverteilung]**, Anzahl der Klicks
+* **[!UICONTROL Zeitliche Klickverteilung]** -Diagramm enthält die verfügbaren Daten zum Empfängerverhalten pro Link.
 
   ![](assets/campaign_report_email_11.png)
 
 ### Benutzeraktivitäten {#user-activities-email}
 
-* **[!UICONTROL Nutzer-Aktivitäten]**
+* **[!UICONTROL Benutzeraktivitäten]** zeigt die Verteilung der Öffnungen und Klicks in Form eines Diagramms.
+
+  ![](assets/campaign_report_email_12.png)
+
+  +++ Erfahren Sie mehr über E-Mail-Kampagnen-Berichtsmetriken.
 
    * **[!UICONTROL Klicks]**: Gesamtzahl der Klicks auf Links in Sendungen.
 
    * **[!UICONTROL Öffnungen]**: Anzahl unterschiedlicher Zielgruppenempfänger dieser Domain, die mindestens einmal die betreffende Nachricht geöffnet haben.
 
 +++
-
-  ![](assets/campaign_report_email_12.png)
 
 ## SMS-Kanal {#sms-channel}
 
@@ -211,7 +213,7 @@ ht-degree: 7%
 
 +++
 
-* **[!UICONTROL Statistiken der ursprünglichen Zielgruppen-Audience]**
+* **[!UICONTROL Ursprüngliche Zielgruppenstatistiken]** -Tabelle zeigt Daten zu Ihren Empfängern an:
 
   +++ Erfahren Sie mehr über SMS-Kampagnenberichtsmetriken.
 
@@ -223,7 +225,7 @@ ht-degree: 7%
 
 +++
 
-* **[!UICONTROL Ausführungsstatistiken]**
+* **[!UICONTROL Ausführungsstatistiken]** -Tabelle zeigt den Erfolg Ihres Versands:
 
   +++ Erfahren Sie mehr über SMS-Kampagnenberichtsmetriken.
 
@@ -237,7 +239,7 @@ ht-degree: 7%
 
 +++
 
-* **[!UICONTROL Erzeugte Clickstreams]**
+* **[!UICONTROL Erzeugte Clickstreams]** -Tabelle zeigt Daten dazu an, wie Ihre Empfänger mit Ihrem Versand interagiert haben:
 
   +++ Erfahren Sie mehr über SMS-Kampagnenberichtsmetriken.
 
@@ -267,7 +269,7 @@ ht-degree: 7%
 
 +++
 
-* **[!UICONTROL Statistiken der ursprünglichen Zielgruppen-Audience]**
+* **[!UICONTROL Ursprüngliche Zielgruppenstatistiken]** -Tabelle zeigt Daten zu Ihren Empfängern an:
 
   +++ Erfahren Sie mehr über die Metriken des Push-Kampagnen-Berichts.
 
@@ -279,7 +281,7 @@ ht-degree: 7%
 
 +++
 
-* **[!UICONTROL Ausführungsstatistiken]**
+* **[!UICONTROL Ausführungsstatistiken]** -Tabelle zeigt den Erfolg Ihres Versands:
 
   +++ Erfahren Sie mehr über die Metriken des Push-Kampagnen-Berichts.
 
@@ -293,7 +295,7 @@ ht-degree: 7%
 
 +++
 
-* **[!UICONTROL Erzeugte Clickstreams]**
+* **[!UICONTROL Erzeugte Clickstreams]** -Tabelle zeigt Daten dazu an, wie Ihre Empfänger mit Ihrem Versand interagiert haben:
 
   +++ Erfahren Sie mehr über die Metriken des Push-Kampagnen-Berichts.
 
