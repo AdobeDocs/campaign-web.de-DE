@@ -4,10 +4,10 @@ title: Senden von Test-E-Mails
 description: Erfahren Sie, wie Sie Test-E-Mails definieren und senden
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Alpha" type="Positive"
-source-git-commit: c6ebdf23c22cb197a816684108c782aa2180dc1e
+source-git-commit: acc6cdd89b78a26f7c2435e19fba148a71e4f18f
 workflow-type: tm+mt
-source-wordcount: '558'
-ht-degree: 41%
+source-wordcount: '563'
+ht-degree: 40%
 
 ---
 
@@ -23,7 +23,7 @@ Die Empfänger eines Tests können verschiedene Elemente wie Links, Opt-out-Link
 
 Test-E-Mails können an zwei Empfängertypen gesendet werden:
 
-* **Testprofile** - Testadressen, die zusätzliche fiktive Empfänger in der Datenbank sind. Sie können im [!DNL Campaign] in die **[!UICONTROL Ressourcen]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Testadressen]** Ordner. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/creating-seed-addresses.html){target="_blank"}
+* **Testprofile** - Testadressen, die zusätzliche fiktive Empfänger in der Datenbank sind. Sie können im [!DNL Campaign] in die **[!UICONTROL Ressourcen]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Testadressen]** Ordner. Weitere Informationen finden Sie unter [Dokumentation zu Campaign v8 (Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
 
 * **Ersatz aus Hauptzielgruppe** - Senden von Test-E-Mails an eine bestimmte E-Mail-Adresse, während die Identität eines vorhandenen Profils übernommen wird. Auf diese Weise wird Ihnen die E-Mail so angezeigt wie Ihren Empfängerinnen und Empfängern und Sie erhalten eine genaue Darstellung der Nachricht, die Ihre Profile empfangen werden.
 

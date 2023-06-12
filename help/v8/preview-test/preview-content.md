@@ -4,7 +4,7 @@ title: Vorschau von E-Mail-Inhalten
 description: Erfahren Sie, wie Sie mit der Web-Benutzeroberfläche von Campaign eine Vorschau Ihres E-Mail-Inhalts anzeigen können.
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
 badge: label="Alpha" type="Positive"
-source-git-commit: 7a58b8323dbecc7cca0ba513d98a5afb213d3bc2
+source-git-commit: acc6cdd89b78a26f7c2435e19fba148a71e4f18f
 workflow-type: tm+mt
 source-wordcount: '313'
 ht-degree: 22%
@@ -32,7 +32,7 @@ Gehen Sie wie folgt vor, um eine Vorschau des Inhalts Ihrer E-Mail anzuzeigen.
 
      >[!NOTE]
      >
-     >Testprofile können im Abschnitt [!DNL Campaign] in die **[!UICONTROL Ressourcen]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Testadressen]** Ordner. Weitere Informationen finden Sie unter [Dokumentation zu Campaign v8 (Konsole)](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/creating-seed-addresses.html){target="_blank"}
+     >Testprofile können im Abschnitt [!DNL Campaign] in die **[!UICONTROL Ressourcen]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Testadressen]** Ordner. Weitere Informationen finden Sie unter [Dokumentation zu Campaign v8 (Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
 
    * Die **[!UICONTROL Profile]** enthält alle Empfänger, die im **[!UICONTROL Profile und Zielgruppen]** Ordner aus dem [!DNL Campaign] Konsole. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/view-profiles.html){target="_blank"}
 
