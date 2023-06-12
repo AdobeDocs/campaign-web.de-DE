@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 badge: label="Alpha" type="Positive"
-source-git-commit: dbb86e2e835ce114cd47380cd256c5873a9eae43
+source-git-commit: 7a58b8323dbecc7cca0ba513d98a5afb213d3bc2
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 68%
+source-wordcount: '445'
+ht-degree: 66%
 
 ---
 
@@ -55,4 +55,5 @@ Integrierte Inhaltsbausteine sind:
 
 >[!NOTE]
 >
->Sie können in der Adobe Campaign V8-Konsole neue Bausteine definieren, mit denen Sie die Personalisierung Ihrer Sendungen optimieren können. [Weitere Informationen finden Sie in der Dokumentation zur Konsole .](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/personalization-blocks.html?lang=de)
+>Sie können in der Adobe Campaign v8-Konsole neue Bausteine definieren, mit denen Sie die Personalisierung Ihrer Sendungen optimieren können. Weitere Informationen finden Sie unter [Dokumentation zu Campaign v8 (Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/personalize/personalization-blocks.html#create-custom-personalization-blocks){target="_blank"}.
+
