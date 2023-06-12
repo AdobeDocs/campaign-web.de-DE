@@ -3,10 +3,10 @@ audience: end-user
 title: Push-Benachrichtigungsversand senden
 description: Erfahren Sie, wie Sie mit Adobe Campaign Web einen Push-Benachrichtigungsversand senden.
 badge: label="Alpha" type="Positive"
-source-git-commit: 0463bc48bcee20b9f97d5b98053b77956dc4ef53
+source-git-commit: 73af561b5609b0f538969d96173fc61751c4812a
 workflow-type: tm+mt
-source-wordcount: '273'
-ht-degree: 22%
+source-wordcount: '275'
+ht-degree: 23%
 
 ---
 
@@ -50,4 +50,4 @@ Jetzt können Sie Ihre SMS-Nachricht überprüfen und an Ihre Zielgruppe senden.
 
 Nach dem Versand können Sie Ihre KPI-Daten (Key Performance Indicator) von Ihrer Versandseite und Daten aus dem Menü Protokolle verfolgen.
 
-Jetzt können Sie mit integrierten Berichten die Wirkung Ihrer Nachricht messen.
+Jetzt können Sie mit integrierten Berichten die Wirkung Ihrer Nachricht messen. [Weitere Informationen](../reporting/push-report.md)
