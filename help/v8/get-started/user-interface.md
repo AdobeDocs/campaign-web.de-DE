@@ -4,9 +4,9 @@ title: Erkunden der Benutzeroberfläche
 description: Web-Benutzeroberfläche von Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: 1d4ee5a10eb1a739bb11f45e8ca1232f740ecfa2
+source-git-commit: fe1afdc3995d09058bcffe85a54af6ccfea93bb8
 workflow-type: tm+mt
-source-wordcount: '1772'
+source-wordcount: '1769'
 ht-degree: 66%
 
 ---
@@ -186,8 +186,7 @@ Verwenden Sie die **Erweiterte Attribute anzeigen** umschalten, um alle Attribut
 
 Standardmäßig werden in den Konfigurationsbildschirmen der Attributliste und der Filter nur die häufigsten Attribute angezeigt.
 
-Verwenden Sie die **Erweiterte Attribute anzeigen** umschalten, um unter der Liste alle verfügbaren Attribute für die aktuelle Liste anzuzeigen.
-
+Verwenden Sie die **Erweiterte Attribute anzeigen** umschalten, um alle verfügbaren Attribute für die aktuelle Liste anzuzeigen.
 
 ## Kontextuelle Hilfe {#contextual-help}
 
