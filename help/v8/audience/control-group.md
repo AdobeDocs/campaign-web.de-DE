@@ -4,10 +4,10 @@ title: Festlegen einer Kontrollgruppe
 description: Erfahren Sie, wie Sie in der Web-Benutzeroberfläche von Campaign eine Kontrollgruppe für Ihre Nachrichten einrichten.
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
 badge: label="Alpha" type="Positive"
-source-git-commit: 00d4e8a16161541f6e1801d2d326dd174c437886
+source-git-commit: 89865d8994c77d017bdebea726db5c8c97075d90
 workflow-type: tm+mt
-source-wordcount: '752'
-ht-degree: 48%
+source-wordcount: '759'
+ht-degree: 42%
 
 ---
 
@@ -81,11 +81,11 @@ Nach der Versandvorbereitung können Sie überprüfen, wie die Ausschlüsse ange
 
 * Aktivieren Sie im Versand-Dashboard vor dem Versand die Option **Ausschließen** KPI.
 
-   ![](assets/control-group5.png)
+  ![](assets/control-group5.png)
 
 * In den Versandlogs wird im Tab Logs der Ausschlussschritt angezeigt.
 
-   ![](assets/control-group-sample-logs.png)
+  ![](assets/control-group-sample-logs.png)
 <!--
 
  * The **Exclusion logs** tab displays each profile and the related exclusion **Reason**.
@@ -95,7 +95,7 @@ Nach der Versandvorbereitung können Sie überprüfen, wie die Ausschlüsse ange
 
 * Die **Ausschlussgründe** zeigt die Anzahl der ausgeschlossenen Profile für jede Typologieregel an.
 
-   ![](assets/control-group7.png)
+  ![](assets/control-group7.png)
 
 Weitere Informationen über Versandlogs finden Sie in [diesem Abschnitt](../monitor/delivery-logs.md).
 
@@ -104,19 +104,19 @@ Weitere Informationen über Versandlogs finden Sie in [diesem Abschnitt](../moni
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_controlgroup_extra"
 >title="Zusätzliche Population"
->abstract="Sie können eine bestimmte Population aus der Zielgruppe ausschließen, indem Sie eine existierende Zielgruppe auswählen oder eine Abfrage definieren."
+>abstract="Sie können eine bestimmte Population aus der Versand-Audience ausschließen, indem Sie eine existierende Audience auswählen oder eine Abfrage definieren."
 
-Eine andere Möglichkeit, eine Kontrollgruppe zu definieren, besteht darin, eine bestimmte Population mithilfe einer bestehenden Audience oder durch Definition einer Abfrage aus der Zielgruppe auszuschließen.
+Eine andere Möglichkeit, eine Kontrollgruppe zu definieren, besteht darin, eine bestimmte Population in einer existierenden Audience auszuwählen oder eine Abfrage zu definieren.
 
 Klicken Sie im Abschnitt **Zusätzliche Population** des Definitionsbildschirms der **Kontrollgruppe** auf die Schaltfläche **[!UICONTROL Audience auswählen]**.
 
 ![](assets/control-group3.png)
 
-* Um eine vorhandene Audience zu verwenden, klicken Sie auf **Audience auswählen**. Näheres dazu finden Sie in [diesem Abschnitt](add-audience.md).
+* Um eine vorhandene Audience zu verwenden, klicken Sie auf **Audience auswählen**. Weiterführende Informationen finden Sie in [diesem Abschnitt](add-audience.md).
 
-* Um eine neue Abfrage zu definieren, wählen Sie **Eigene erstellen** aus und definieren Sie die Ausschlusskriterien mit dem Regel-Builder. Näheres dazu finden Sie in [diesem Abschnitt](segment-builder.md).
+* Um eine neue Abfrage zu definieren, wählen Sie **Eigene erstellen** aus und definieren Sie die Ausschlusskriterien mit dem Regel-Builder. Weiterführende Informationen finden Sie in [diesem Abschnitt](segment-builder.md).
 
-Die Profile, die in der Audience enthalten sind oder mit dem Ergebnis der Abfrage übereinstimmen, werden aus der Zielgruppe ausgeschlossen.
+Die in der Audience enthaltenen Profile oder die Ergebnisse der Abfrage entsprechen dem **ausgeschlossen** aus der Versandzielgruppe: sie keine Nachricht erhalten.
 
 ## Ergebnisse vergleichen{#control-group-results}
 
