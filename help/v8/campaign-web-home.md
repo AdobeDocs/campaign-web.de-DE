@@ -4,10 +4,10 @@ description: Hilfe-Center zu Campaign Web v8
 title: Produkt-Dokumentation zu Adobe Campaign Web v8
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 badge: label="Alpha" type="Positive"
-source-git-commit: 6b695eab0c58b655ead91ef07c9cae4972eeb82a
+source-git-commit: 563b5d78a48938a44f7d4bdcf89d2a0180b95920
 workflow-type: tm+mt
-source-wordcount: '371'
-ht-degree: 34%
+source-wordcount: '484'
+ht-degree: 38%
 
 ---
 
@@ -27,7 +27,7 @@ Die neue Web-Oberfläche von Campaign v8 bietet ein modernes und intuitives Benu
 
 **Neu gestaltete Oberfläche der Workflow-Arbeitsfläche**
 
-Unsere umfassende grafische Arbeitsfläche erleichtert Ihnen das Entwerfen von Prozessen wie Segmentierung, Kampagnenausführung und mehr. Mit diesem erweiterten Tool können Sie Ihren Workflow optimieren und Ihre Kampagnen optimieren.
+Unsere umfassende grafische Umgebung ermöglicht Ihnen, komplexe Prozesse zu entwerfen, die Ihnen bei der einfachen Verwaltung Ihrer Marketingkampagnen helfen. Mit Workflows können Sie das gesamte Spektrum an Prozessen und Aufgaben koordinieren, die Geschwindigkeit und Skalierung Ihrer Marketing-Kampagnen steigern, von der Segmenterstellung über die Vorbereitung von Nachrichten bis hin zum Versand. Außerdem können Sie Ihre Kanäle mit einer einzigen, benutzerfreundlichen Benutzeroberfläche für die Kampagnenorchestrierung synchronisieren.
 
 **Email Designer erfüllen**
 
@@ -35,11 +35,11 @@ Beginnen Sie mit einer Vorlage oder verwenden Sie den neuen Email Designer von A
 
 **Dynamische Inhalte erstellen**
 
-Erstellen bedingter Inhalte zur Definition einer dynamischen Personalisierung basierend auf dem Empfängerprofil und zum automatischen Ersetzen von Textbausteinen und Bildern, wenn bestimmte Bedingungen erfüllt sind. Diese Funktion kann Ihre Kampagnen auf neue Höhen bringen und zielgerichtete, personalisierte Erlebnisse für Ihre Zielgruppe bereitstellen
+Passen Sie den Inhalt entsprechend den Informationen an, die Sie über Ihre Empfänger gesammelt haben. Die Verwendung dynamischer Inhalte macht Ihren Inhalt attraktiver und erhöht die Wahrscheinlichkeit, dass er gelesen wird. Personalisieren Sie Ihre Nachrichten für jeden einzelnen Empfänger, indem Sie Profildaten wie Vorname, Interessen, Wohnort, Einkauf und vieles mehr nutzen. Erstellen Sie bedingte Inhalte, um Ihre Sendungen an jeden Empfänger anzupassen, und zeigen Sie nur den Inhalt an, der für einen bestimmten Kunden aufgrund der Ihnen zur Verfügung stehenden Informationen relevant ist.
 
 **Kanalübergreifenden Versand senden**
 
-Mit den Adobe Campaign-Funktionen können Sie zentralisierte Kundendaten verwalten, Kundenkommunikation und Kampagnen erstellen und personalisierte Erlebnisse über verschiedene Kanäle hinweg erstellen: E-Mail, Push und SMS.
+Verwenden Sie Adobe Campaign, um kanalübergreifende Kampagnen zu erstellen. Mit den Orchestrierungsfunktionen der Marketing-Kampagnen können Sie Kundendaten verwalten und zentralisieren, Kundenkommunikation und Kampagnen entwerfen und personalisierte Erlebnisse über verschiedene Kanäle hinweg erstellen. In dieser Version sind die Kanäle E-Mail, Push und SMS verfügbar. Messen Sie die Effektivität Ihrer Sendungen mit detaillierten Berichten, einschließlich der Anzahl der Öffnungen, Klicks, Weiterleitungen und mehr.
 
 ## Tauchen wir tiefer in die Materie ein
 
