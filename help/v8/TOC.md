@@ -5,10 +5,10 @@ title: Dokumentation zu Adobe Campaign v8 Web
 description: Web-Dokumentation zu Campaign v8
 breadcrumb-title: Übersicht über Campaign
 hide: true
-source-git-commit: 9f9cb4423d098ae57f429fb2a49e335d413399c1
+source-git-commit: dea30dcf033306e90f5838370e3970a0d833ecd9
 workflow-type: tm+mt
-source-wordcount: '346'
-ht-degree: 74%
+source-wordcount: '350'
+ht-degree: 73%
 
 ---
 
@@ -61,12 +61,12 @@ ht-degree: 74%
       + [Erste Schritte mit Push-Benachrichtigungen](push/gs-push.md)
       + [Push-Benachrichtigungsversand erstellen](push/create-push.md)
       + [Push-Versand erstellen](push/content-push.md)
-      + [Push-Benachrichtigungsversand senden](push/send-push.md)
+      + [Push-Benachrichtigungsversand in der Vorschau ansehen und senden](push/send-push.md)
    + SMS {#sms}
       + [Erste Schritte mit SMS-Sendungen](sms/gs-sms.md)
       + [Erstellen eines SMS-Versands](sms/create-sms.md)
       + [SMS-Versand erstellen](sms/content-sms.md)
-      + [SMS-Versand senden](sms/send-sms.md)
+      + [SMS-Versand in der Vorschau ansehen und senden](sms/send-sms.md)
    + Dynamische Inhalte erstellen {#dynamic-content}
       + [Erste Schritte mit dynamischen Inhalten](personalization/gs-personalization.md)
       + [Hinzufügen von Personalisierung](personalization/personalize.md)
