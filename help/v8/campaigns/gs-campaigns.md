@@ -4,10 +4,10 @@ title: Erste Schritte mit Kampagnen
 description: Erfahren Sie, wie Sie mit kanalübergreifenden Kampagnen beginnen
 badge: label="Alpha" type="Positive"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: 7daead11e097f6179c99adb0e9496dec567cb29a
+source-git-commit: 6e9c9133a3ac3c8e6a47e01afc4d32f7bed81ab1
 workflow-type: tm+mt
-source-wordcount: '429'
-ht-degree: 10%
+source-wordcount: '465'
+ht-degree: 9%
 
 ---
 
@@ -41,9 +41,13 @@ Campaigns include actions (deliveries) and processes (importing or extracting fi
 
 ## Zugriff und Verwaltung von Kampagnen{#access-campaigns}
 
-Um eine neue Kampagne zu erstellen oder Ihre bestehenden Kampagnen zu verwalten, klicken Sie auf die Schaltfläche **[!UICONTROL Kampagnen]** Menü. Zwei Registerkarten sind verfügbar:
+Um eine neue Kampagne zu erstellen oder Ihre bestehenden Kampagnen zu verwalten, klicken Sie auf die Schaltfläche **[!UICONTROL Kampagnen]** Menü.
 
-* Die **Durchsuchen** enthält alle vorhandenen Kampagnen. Sie können auf eine Kampagne klicken, um ihr Dashboard zu öffnen oder eine neue Kampagne zu erstellen, indem Sie auf **Kampagne erstellen** Schaltfläche. Siehe diesen [Abschnitt](create-campaigns.md#create-campaigns)
+![Liste der Kampagnen](assets/campaign-list.png)
+
+Zwei Registerkarten sind verfügbar:
+
+* Die **Durchsuchen** enthält alle vorhandenen Kampagnen. Sie können auf eine Kampagne klicken, um ihr Dashboard zu öffnen oder eine neue Kampagne zu erstellen, indem Sie auf **Kampagne erstellen** Schaltfläche. Weitere Informationen finden Sie in [diesem Abschnitt](create-campaigns.md#create-campaigns).
 
 * Die **Vorlagen** im Tab werden alle verfügbaren Kampagnenvorlagen aufgelistet. Kampagnenvorlagen sind so vorkonfiguriert, dass sie zur Erstellung neuer Kampagnen wiederverwendet werden können. Sie werden über die Client-Konsole erstellt. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html?lang=de)
 
@@ -53,14 +57,18 @@ Sie können die angezeigten Spalten anpassen, indem Sie auf die **Spalte für ei
 
 Sie können beispielsweise nach Ihrem Kampagnenkalender filtern. Öffnen Sie das Filterbedienfeld und verwenden Sie die **Start - Enddatum** Abschnitt:
 
-![Liste der Kampagnen](assets/campaign-filter-on-dates.png)
+![Kampagnenfilter](assets/campaign-filter-on-dates.png)
 
 ## Das Kampagnen-Dashboard{#campaign-dashboard}
 
-Im **Durchsuchen** auf der Kampagnenliste klicken, um das Dashboard der Kampagne anzuzeigen. Zwei Registerkarten sind verfügbar:
+Im **Durchsuchen** auf der Kampagnenliste klicken, um das Dashboard der Kampagne anzuzeigen.
+
+![Kampagnen-Dashboard](assets/campaign-dashboard.png)
+
+Der Status und der Zeitplan der Kampagne werden oben im Bildschirm angezeigt. Sie können die **Kampagneneinstellungen konfigurieren** -Symbol, um die Eigenschaften der Kampagne zu ändern, die bei der Erstellung der Kampagne definiert wurden. Es stehen drei Schaltflächen zur Verfügung, mit denen Sie Protokolle anzeigen, Berichte erstellen, die Kampagne duplizieren oder löschen können. Siehe diesen [Abschnitt](create-campaigns.md#create-campaigns)
+
+Zwei Registerkarten sind verfügbar:
 
 * Die **Workflows** enthält alle mit der Kampagne verknüpften Workflows. In diesem Tab können Sie auch einen neuen Workflow innerhalb der Kampagne erstellen. Siehe diesen [Abschnitt](create-campaigns.md#create-campaigns)
 * Die **Sendungen** im Tab werden alle mit der Kampagne verknüpften Sendungen aufgelistet. Sie können auch einen neuen Versand innerhalb der Kampagne erstellen. Siehe diesen [Abschnitt](create-campaigns.md#create-campaigns)
-
-Die **Kampagneneinstellungen konfigurieren** Mit diesem Symbol können Sie die Eigenschaften der Kampagne ändern, die bei der Erstellung der Kampagne definiert wurden. Siehe diesen [Abschnitt](create-campaigns.md#create-campaigns)
 

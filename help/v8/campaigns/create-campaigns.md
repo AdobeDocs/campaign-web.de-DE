@@ -4,7 +4,7 @@ title: Erstellen von Kampagnen mit Adobe Campaign Web
 description: Erfahren Sie, wie Sie mit Adobe Campaign Web Cross-Channel-Kampagnen erstellen
 badge: label="Alpha" type="Positive"
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
-source-git-commit: 7daead11e097f6179c99adb0e9496dec567cb29a
+source-git-commit: 3f2fc84132eab0f75aa405ba16f996601b21b784
 workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 18%
@@ -45,6 +45,7 @@ Gehen Sie wie folgt vor, um eine neue Kampagne zu erstellen:
 
    * Aus dem **Workflows** Registerkarte, klicken Sie auf **Workflow erstellen**. Beim Erstellen Ihrer Kampagne wird automatisch ein Standard-Workflow hinzugefügt. Weitere Informationen zum [Workflow erstellen](../workflows/create-workflow.md)
    * Aus dem **Sendungen** Registerkarte, klicken Sie auf **Versand erstellen**. [Weitere Informationen](../msg/gs-messages.md)
+
 1. Verwenden Sie die **Protokolle** und **Berichterstellung** Schaltflächen zur Analyse Ihrer Kampagne.
 
 ## Monitoring- und Trackinglogs{#campaign-monitoring}
@@ -62,7 +63,7 @@ Sie können eine Kampagne duplizieren oder löschen:
 
 >[!NOTE]
 >
->Die **Versand** alle mit der Kampagne verknüpften Sendungen, aber die in einem Workflow erstellten Sendungen können nicht gelöscht werden. Um einen im Rahmen eines Workflows erstellten Versand zu löschen, ist die Löschung der Versandaktivität im Workflow erforderlich.
+>Die **Versand** alle mit der Kampagne verknüpften Sendungen anzeigen. In einem Workflow erstellte Sendungen können jedoch nicht von dort gelöscht werden. Um einen im Rahmen eines Workflows erstellten Versand zu löschen, ist die Löschung der Versandaktivität im Workflow erforderlich.
 
 
 <!--
