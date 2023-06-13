@@ -3,7 +3,7 @@ audience: end-user
 title: Erste Schritte mit Kampagnen
 description: Erfahren Sie, wie Sie mit kanalübergreifenden Kampagnen beginnen
 badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: 97322acd2a1cdb4584118875be0bf2fa0da4f82b
 workflow-type: tm+mt
 source-wordcount: '414'
 ht-degree: 8%
@@ -19,11 +19,11 @@ Um eine neue Kampagne zu erstellen oder Ihre bestehenden Kampagnen zu verwalten,
 
 In der Kampagnenliste stehen zwei Tabs zur Verfügung:
 
-![Liste der Kampagnen](assets/campaign-list.png)
-
 * Die **Durchsuchen** enthält alle vorhandenen Kampagnen. Sie können auf eine Kampagne klicken, um ihr Dashboard zu öffnen oder eine neue Kampagne zu erstellen, indem Sie auf **Kampagne erstellen** Schaltfläche. Weitere Informationen finden Sie in [diesem Abschnitt](create-campaigns.md#create-campaigns).
 
 * Die **Vorlagen** im Tab werden alle verfügbaren Kampagnenvorlagen aufgelistet. Kampagnenvorlagen sind so vorkonfiguriert, dass sie bei der Erstellung neuer Kampagnen wiederverwendet werden können. Sie werden über die Client-Konsole erstellt. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html?lang=de)
+
+![Liste der Kampagnen](assets/campaign-list.png)
 
 Jede Kampagne in der Liste enthält Informationen zum aktuellen Status, zum Erstellungsdatum, zum letzten Änderungszeitpunkt usw.
 
@@ -43,9 +43,9 @@ Der Status und der Zeitplan der Kampagne werden oben im Bildschirm angezeigt. Si
 
 Zwei Registerkarten sind verfügbar:
 
-* Die **Workflows** enthält alle mit der Kampagne verknüpften Workflows. In diesem Tab können Sie auch einen neuen Workflow innerhalb der Kampagne erstellen. Siehe diesen [Abschnitt](create-campaigns.md#create-campaigns)
+* Die **Workflows** enthält alle mit der Kampagne verknüpften Workflows. In diesem Tab können Sie auch einen neuen Workflow innerhalb der Kampagne erstellen. Weitere Informationen finden Sie in [diesem Abschnitt](create-campaigns.md#create-campaigns).
 
-* Die **Sendungen** im Tab werden alle mit der Kampagne verknüpften Sendungen aufgelistet. Sie können auch einen neuen Versand innerhalb der Kampagne erstellen. Siehe diesen [Abschnitt](create-campaigns.md#create-campaigns)
+* Die **Sendungen** im Tab werden alle mit der Kampagne verknüpften Sendungen aufgelistet. Sie können auch einen neuen Versand innerhalb der Kampagne erstellen. Weitere Informationen finden Sie in [diesem Abschnitt](create-campaigns.md#create-campaigns).
 
 ## Kampagnen duplizieren und löschen
 
