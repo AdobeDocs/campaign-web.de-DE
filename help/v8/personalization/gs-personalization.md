@@ -8,7 +8,7 @@ context-tags: workflow,overview;workflow,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-source-git-commit: 323dc9ccb9d04d2d7085a26a17f6944e999b1dec
+source-git-commit: 234537017b1bd990be1540d28b8a618e242eaafc
 workflow-type: tm+mt
 source-wordcount: '660'
 ht-degree: 9%
@@ -16,7 +16,7 @@ ht-degree: 9%
 ---
 
 
-# Erste Schritte mit dynamischen Inhalten
+# Erste Schritte mit dynamischen Inhalten {#gs-dynamic-content}
 
 >[!CONTEXTUALHELP]
 >id="acw_targetdata_personalization_dashboard"
@@ -27,7 +27,7 @@ Als Marketing-Experte ist es entscheidend, Kunden anzusprechen, die sich wirklic
 
 Mit den Web-dynamischen Inhaltsfunktionen von Adobe Campaign können Sie Ihren Inhalt auf der Grundlage der Informationen anpassen, die Sie über Ihre Empfänger erfasst haben. Durch die Verwendung dynamischer Inhalte stellen Sie sicher, dass Ihre Marketing-Maßnahmen relevanter sind, und vermeiden Sie unerwünschte oder unnötige Produkte oder Services im Marketing. Dieser Ansatz macht Ihre Inhalte attraktiver und erhöht die Wahrscheinlichkeit, dass sie gelesen werden. Darüber hinaus können Sie Ihren Inhalt personalisieren, sodass Empfänger das Gefühl haben, Informationen von einer Person und nicht von einem Computer zu erhalten.
 
-## Wie wird Ihr Inhalt dynamisch?
+## Wie lässt sich der Inhalt dynamisch gestalten? {#make-content-dyn}
 
 Sie können den Nachrichteninhalt dynamisch gestalten, indem Sie im Campaign-Web-Ausdruckseditor JavaScript-Konstrukte einfügen. Beim Nachrichtenversand werden diese Ausdrücke von Adobe Campaign interpretiert, um jedem Ihrer Empfänger den richtigen Inhalt bereitzustellen:
 
@@ -65,7 +65,7 @@ Im Folgenden finden Sie einige Beispiele für den Zugriff auf den Ausdrucksedito
 >
 >Zusätzlich zum Ausdruckseditor können Sie beim Entwerfen einer E-Mail auch einen dedizierten Builder für bedingte Inhalte verwenden. [Erfahren Sie, wie Sie bedingte Inhalte in E-Mails erstellen](conditions.md)
 
-## Tauchen wir tiefer in die Materie ein
+## Tauchen wir tiefer in die Materie ein {#dive-deeper}
 
 Nachdem Sie nun wissen, wie Sie Ihren Inhalt dynamisch gestalten können, ist es an der Zeit, diese Dokumentationsabschnitte näher zu untersuchen, um mit der Funktion zu beginnen.
 
