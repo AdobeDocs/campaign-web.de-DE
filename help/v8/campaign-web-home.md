@@ -4,10 +4,10 @@ description: Hilfe-Center zu Campaign Web v8
 title: Produkt-Dokumentation zu Adobe Campaign Web v8
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 badge: label="Alpha" type="Positive"
-source-git-commit: 795e9ae41ac7f021e30262985240bb43dbb52e54
+source-git-commit: 01759418cd193de0a83a7758ee6620a2ad74ff38
 workflow-type: tm+mt
 source-wordcount: '484'
-ht-degree: 38%
+ht-degree: 39%
 
 ---
 
@@ -37,7 +37,7 @@ Beginnen Sie mit einer Vorlage oder verwenden Sie den neuen Email Designer von A
 
 Passen Sie den Inhalt entsprechend den Informationen an, die Sie über Ihre Empfänger gesammelt haben. Die Verwendung dynamischer Inhalte macht Ihren Inhalt attraktiver und erhöht die Wahrscheinlichkeit, dass er gelesen wird. Personalisieren Sie Ihre Nachrichten für jeden einzelnen Empfänger, indem Sie Profildaten wie Vorname, Interessen, Wohnort, Einkauf und vieles mehr nutzen. Erstellen Sie bedingte Inhalte, um Ihre Sendungen an jeden Empfänger anzupassen, und zeigen Sie nur den Inhalt an, der für einen bestimmten Kunden aufgrund der Ihnen zur Verfügung stehenden Informationen relevant ist.
 
-**Kanalübergreifenden Versand senden**
+**Erstellen von Cross-Channel-Kampagnen**
 
 Verwenden Sie Adobe Campaign, um kanalübergreifende Kampagnen zu erstellen. Mit den Orchestrierungsfunktionen der Marketing-Kampagnen können Sie Kundendaten verwalten und zentralisieren, Kundenkommunikation und Kampagnen entwerfen und personalisierte Erlebnisse über verschiedene Kanäle hinweg erstellen. In dieser Version sind die Kanäle E-Mail, Push und SMS verfügbar. Messen Sie die Effektivität Ihrer Sendungen mit detaillierten Berichten, einschließlich der Anzahl der Öffnungen, Klicks, Weiterleitungen und mehr.
 
@@ -55,37 +55,37 @@ Nachdem Sie nun wissen, was Sie im Adobe Campaign Web tun können, ist es an der
 <p>
 </td>
 <td>
-<a href="preview-test/proofs.md">
+<a href="workflows/gs-workflows.md">
 <img alt="Validierung" src="assets/do-not-localize/menu-workflows.jpeg">
 </a>
 <div>
-<a href="preview-test/proofs.md"><strong>Neu gestaltete Oberfläche der Workflow-Arbeitsfläche</strong></a>
+<a href="workflows/gs-workflows.md"><strong>Neu gestaltete Oberfläche der Workflow-Arbeitsfläche</strong></a>
 </div>
 <p>
 </td>
 <td>
-<a href="content/create-email-content.md">
+<a href="content/get-started-email-designer.md">
 <img alt="Gelegentlich" src="assets/do-not-localize/menu-design.jpg">
 </a>
 <div>
-<a href="content/create-email-content.md"><strong>Email Designer erfüllen</strong></a>
+<a href="content/get-started-email-designer.md"><strong>Email Designer erfüllen</strong></a>
 </div>
 <p></td>
 <td>
-<a href="audience/about-audiences.md">
+<a href="personalization/gs-personalization.md">
 <img alt="Audiences" src="assets/do-not-localize/menu-dynamic.jpg">
 </a>
 <div>
-<a href="audience/about-audiences.md"><strong>Dynamische Inhalte erstellen</strong></a>
+<a href="personalization/gs-personalization.md"><strong>Dynamische Inhalte erstellen</strong></a>
 </div>
 <p>
 </td>
 <td>
-<a href="preview-test/proofs.md">
+<a href="campaigns/gs-campaigns.md">
 <img alt="Validierung" src="assets/do-not-localize/menu-campaign.jpeg">
 </a>
 <div>
-<a href="preview-test/proofs.md"><strong>Kanalübergreifenden Versand senden</strong></a>
+<a href="campaigns/gs-campaigns.md"><strong>Erstellen von Cross-Channel-Kampagnen</strong></a>
 </div>
 <p>
 </td>
