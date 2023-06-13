@@ -4,9 +4,9 @@ description: Hilfe-Center zu Campaign Web v8
 title: Produkt-Dokumentation zu Adobe Campaign Web v8
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 badge: label="Alpha" type="Positive"
-source-git-commit: 8c3d379152188bedae97d50cdf774b6937b54884
+source-git-commit: 6b695eab0c58b655ead91ef07c9cae4972eeb82a
 workflow-type: tm+mt
-source-wordcount: '369'
+source-wordcount: '371'
 ht-degree: 34%
 
 ---
@@ -29,7 +29,7 @@ Die neue Web-Oberfläche von Campaign v8 bietet ein modernes und intuitives Benu
 
 Unsere umfassende grafische Arbeitsfläche erleichtert Ihnen das Entwerfen von Prozessen wie Segmentierung, Kampagnenausführung und mehr. Mit diesem erweiterten Tool können Sie Ihren Workflow optimieren und Ihre Kampagnen optimieren.
 
-**E-Mails erstellen**
+**Email Designer erfüllen**
 
 Beginnen Sie mit einer Vorlage oder verwenden Sie den neuen Email Designer von Adobe Campaign, um E-Mails zu erstellen, ohne eine einzelne Codezeile schreiben zu müssen. Erfahren Sie, wie Sie mit Email Designer Inhalte erstellen, eine Vorschau anzeigen und testen und eine E-Mail an eine bestehende Audience senden können.
 
@@ -51,6 +51,15 @@ Nachdem Sie nun wissen, was Sie im Adobe Campaign Web tun können, ist es an der
 <img alt="neue Benutzeroberfläche" src="assets/do-not-localize/menu-ui.jpeg">
 </a>
 <div><a href="get-started/user-interface.md"><strong>Entdecken Sie die neue Benutzeroberfläche</strong>
+</div>
+<p>
+</td>
+<td>
+<a href="preview-test/proofs.md">
+<img alt="Validierung" src="assets/do-not-localize/menu-workflows.jpeg">
+</a>
+<div>
+<a href="preview-test/proofs.md"><strong>Neu gestaltete Oberfläche der Workflow-Arbeitsfläche</strong></a>
 </div>
 <p>
 </td>
@@ -77,15 +86,6 @@ Nachdem Sie nun wissen, was Sie im Adobe Campaign Web tun können, ist es an der
 </a>
 <div>
 <a href="preview-test/proofs.md"><strong>Kanalübergreifenden Versand senden</strong></a>
-</div>
-<p>
-</td>
-<td>
-<a href="preview-test/proofs.md">
-<img alt="Validierung" src="assets/do-not-localize/menu-workflows.jpeg">
-</a>
-<div>
-<a href="preview-test/proofs.md"><strong>Neu gestaltete Oberfläche der Workflow-Arbeitsfläche</strong></a>
 </div>
 <p>
 </td>
