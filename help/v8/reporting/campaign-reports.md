@@ -3,10 +3,10 @@ audience: end-user
 title: Kampagnenberichte
 description: Erfahren Sie, wie Sie auf Kampagnenberichte zugreifen und diese verwenden können
 badge: label="Alpha" type="Positive"
-source-git-commit: 875b7edac9696af227273a02357d5431f6a1e8ab
+source-git-commit: 1833f4eafced860592c8419938bc09fe0fe27351
 workflow-type: tm+mt
-source-wordcount: '1682'
-ht-degree: 8%
+source-wordcount: '1753'
+ht-degree: 11%
 
 ---
 
@@ -111,6 +111,8 @@ Um auf Ihren Kampagnenbericht zuzugreifen, klicken Sie im Dashboard Ihrer Kampag
 
 * **[!UICONTROL Verteilung der Fehler nach Typ]** und **[!UICONTROL Verteilung der Fehler nach Domain]** Tabellen und Diagramme enthalten die verfügbaren Daten zu Fehlern, die bei jeder Domain aufgetreten sind.
 
+  Die in diesem Bericht dargestellten Fehler lösen eine Quarantäne der betroffenen Adressen aus. Weiterführende Informationen zur Quarantäneverwaltung finden Sie im Abschnitt [Quarantäneverwaltung](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=de).
+
   ![](assets/campaign_report_email_6.png)
 
   +++ Erfahren Sie mehr über E-Mail-Kampagnen-Berichtsmetriken.
@@ -183,6 +185,7 @@ Um auf Ihren Kampagnenbericht zuzugreifen, klicken Sie im Dashboard Ihrer Kampag
 
    * **[!UICONTROL Klicks]**: Gesamtzahl der Klicks auf Links in Sendungen.
 
+   * **[!UICONTROL Plattform-Durchschnitt]**: Dieser unter allen Raten (Reaktivität, Unique Clicks und aufaddierte Klicks) angezeigte Wert bezieht sich auf die Gesamtheit der in den letzten sechs Monaten gesendeten Nachrichten. Nur Sendungen, die dieselbe Typologie aufweisen und die auf demselben Kanal gesendet wurden, werden berücksichtigt. Testsendungen sind von der Statistik ausgenommen.
 +++
 
 * **[!UICONTROL Die 10 am häufigsten besuchten Links]** Diagramm und Tabelle enthalten die verfügbaren Daten für das Empfängerverhalten pro Link.
