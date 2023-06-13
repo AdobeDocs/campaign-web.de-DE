@@ -3,7 +3,7 @@ audience: end-user
 title: Push-Versandberichte
 description: Erfahren Sie, wie Sie auf Push-Versandberichte zugreifen und diese verwenden
 badge: label="Alpha" type="Positive"
-source-git-commit: 0463bc48bcee20b9f97d5b98053b77956dc4ef53
+source-git-commit: 535ab4238c9937d716a20ac8019b44da091bdd6c
 workflow-type: tm+mt
 source-wordcount: '269'
 ht-degree: 7%
@@ -21,6 +21,8 @@ ht-degree: 7%
 
 * **[!UICONTROL Versandübersicht]** bietet wichtige Leistungsindikatoren (Key Performance Indicators, KPIs), die detaillierte Informationen darüber enthalten, wie Ihre Besucher mit Ihren Push-Nachrichten interagieren.
 
+  ![](assets/reporting_push_3.png)
+
   +++ Erfahren Sie mehr über die Metriken des Berichts &quot;Push-Versand&quot;.
 
    * **[!UICONTROL Gesendete Summe]**: Gesamtzahl der bei der Versandanalyse verarbeiteten Nachrichten.
@@ -33,9 +35,9 @@ ht-degree: 7%
 
 +++
 
-  ![](assets/reporting_push_3.png)
-
 * **Zielgruppe** Diagramme und Tabellen zeigen Daten in Bezug auf Ihre Zielgruppe an:
+
+  ![](assets/reporting_push_4.png)
 
   +++ Erfahren Sie mehr über die Metriken des Berichts &quot;Push-Versand&quot;.
 
@@ -45,9 +47,11 @@ ht-degree: 7%
 
 +++
 
-  ![](assets/reporting_push_4.png)
+
 
 * **Gesamtstatistik** enthält Daten zu den gesendeten Push-Benachrichtigungen, einschließlich:
+
+  ![](assets/reporting_push_5.png)
 
   +++ Erfahren Sie mehr über die Metriken des Berichts &quot;Push-Versand&quot;.
 
@@ -58,8 +62,6 @@ ht-degree: 7%
    * **[!UICONTROL Neue Quarantäne]**: Anzahl der Profile, die ausgeschlossen und der Quarantäne hinzugefügt wurden.
 
 +++
-
-  ![](assets/reporting_push_5.png)
 
 * **[!UICONTROL Ausnahmen]** Diagramm und Tabelle zeigen die verschiedenen Gründe an, die verhindert haben, dass aus den Zielgruppenprofilen ausgeschlossene Benutzerprofile die Nachricht empfangen.
 

@@ -3,7 +3,7 @@ audience: end-user
 title: SMS-Versandberichte
 description: Erfahren Sie, wie Sie auf SMS-Versandberichte zugreifen und diese verwenden
 badge: label="Alpha" type="Positive"
-source-git-commit: b18fb70aa498e3592f88f698bb6b526c9fb1439b
+source-git-commit: 535ab4238c9937d716a20ac8019b44da091bdd6c
 workflow-type: tm+mt
 source-wordcount: '272'
 ht-degree: 6%
@@ -21,6 +21,8 @@ ht-degree: 6%
 
 * **[!UICONTROL Versandübersicht]** bietet wichtige Leistungsindikatoren (Key Performance Indicators, KPIs), die detaillierte Informationen darüber enthalten, wie Ihre Besucher mit Ihren SMS-Nachrichten interagieren.
 
+  ![](assets/reporting_sms_3.png)
+
   +++ Erfahren Sie mehr über die Metriken des SMS-Versandberichts.
 
    * **[!UICONTROL Gesendete Summe]**: Gesamtzahl der bei der Versandanalyse verarbeiteten Nachrichten.
@@ -32,9 +34,9 @@ ht-degree: 6%
    * **[!UICONTROL Fehler]**: Gesamtzahl der bei einem Versand aufgetretenen Fehler, die den Versand an Profile verhinderten.
 +++
 
-  ![](assets/reporting_sms_3.png)
-
 * **Zielgruppe** Diagramm und Tabelle zeigen Daten in Bezug auf Ihre Zielgruppe an.
+
+  ![](assets/reporting_sms_4.png)
 
   +++ Erfahren Sie mehr über die Metriken des SMS-Versandberichts.
 
@@ -43,9 +45,10 @@ ht-degree: 6%
    * **[!UICONTROL Ausnahmen]**: Anzahl der Profile, die aus der Analyse ausgeschlossen wurden.
 +++
 
-  ![](assets/reporting_sms_4.png)
 
 * **Gesamtstatistik** enthält Daten zu den gesendeten SMS-Nachrichten, einschließlich:
+
+  ![](assets/reporting_sms_5.png)
 
   +++ Erfahren Sie mehr über die Metriken des SMS-Versandberichts.
 
@@ -55,8 +58,6 @@ ht-degree: 6%
 
    * **[!UICONTROL Neue Quarantäne]**: Anzahl der Profile, die ausgeschlossen und der Quarantäne hinzugefügt wurden.
 +++
-
-  ![](assets/reporting_sms_5.png)
 
 * **[!UICONTROL Ausnahmen]** Diagramm und Tabelle zeigen die verschiedenen Gründe an, die verhindert haben, dass aus den Zielgruppenprofilen ausgeschlossene Benutzerprofile die Nachricht empfangen.
 

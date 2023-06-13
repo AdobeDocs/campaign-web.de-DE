@@ -3,7 +3,7 @@ audience: end-user
 title: E-Mail-Versandberichte
 description: Erfahren Sie, wie Sie auf E-Mail-Versandberichte zugreifen und diese verwenden
 badge: label="Alpha" type="Positive"
-source-git-commit: 988350e5117b8593823cb59f9b999b0d7c1d5cff
+source-git-commit: 535ab4238c9937d716a20ac8019b44da091bdd6c
 workflow-type: tm+mt
 source-wordcount: '985'
 ht-degree: 15%
@@ -16,6 +16,8 @@ ht-degree: 15%
 
 * **[!UICONTROL Ursprüngliche Zielgruppenstatistiken]** -Tabelle zeigt Daten zu Ihren Empfängern an:
 
+  ![](assets/reporting_email_1.png){align="center"}
+
   +++ Erfahren Sie mehr über E-Mail-Versandberichtsmetriken.
 
    * **[!UICONTROL Ursprüngliche Zielgruppe]**: Gesamtzahl der Zielgruppenempfänger
@@ -26,6 +28,8 @@ ht-degree: 15%
 +++
 
 * **[!UICONTROL Versandstatistiken]** -Tabelle zeigt den Erfolg Ihres Versands.
+
+  ![](assets/reporting_email_2.png){align="center"}
 
   +++ Erfahren Sie mehr über E-Mail-Kampagnen-Berichtsmetriken.
 
@@ -41,6 +45,8 @@ ht-degree: 15%
 
 * **[!UICONTROL Ausschlussgründe]** Diagramm und Tabelle zeigen die Verteilung der im Zuge der Analyse zurückgewiesenen Nachrichten nach Regeln.
 
+  ![](assets/reporting_email_3.png){align="center"}
+
 ## Versanddurchsatz {#delivery-throughtput}
 
 Dieser Bericht enthält detaillierte Informationen zum Versanddurchsatz der gesamten Plattform innerhalb eines bestimmten Zeitraums. Die Hauptmetrik, mit der die Geschwindigkeit des Nachrichtenversands gemessen wird, ist die Anzahl der pro Stunde gesendeten Nachrichten.
@@ -48,6 +54,8 @@ Dieser Bericht enthält detaillierte Informationen zum Versanddurchsatz der gesa
 ## Broadcast-Statistiken {#broadcast-statistics}
 
 * **[!UICONTROL Versandstatistiken]** enthält die verfügbaren Daten zu Fehlern, die bei jeder Domain aufgetreten sind.
+
+  ![](assets/reporting_email_4.png){align="center"}
 
   +++ Erfahren Sie mehr über E-Mail-Versandberichtsmetriken.
 
@@ -84,6 +92,8 @@ Dieser Bericht enthält detaillierte Informationen zum Versanddurchsatz der gesa
 
 * **[!UICONTROL Versandstatistiken]** bietet wichtige Leistungsindikatoren (Key Performance Indicators, KPIs), die detaillierte Informationen zu den für gesendete E-Mails verfügbaren Daten enthalten.
 
+  ![](assets/reporting_email_5.png){align="center"}
+
   +++ Erfahren Sie mehr über E-Mail-Versandberichtsmetriken.
 
    * **[!UICONTROL Erfolg]**: Anzahl der erfolgreich verarbeiteten Nachrichten in Bezug auf die Anzahl der zu sendenden Nachrichten.
@@ -100,6 +110,8 @@ Dieser Bericht enthält detaillierte Informationen zum Versanddurchsatz der gesa
 +++
 
 * **[!UICONTROL Öffnungs- und Klickrate]** zeigt Daten zu Ihren Empfängern an.
+
+  ![](assets/reporting_email_6.png){align="center"}
 
   +++ Erfahren Sie mehr über E-Mail-Versandberichtsmetriken.
 
@@ -118,6 +130,8 @@ Dieser Bericht enthält detaillierte Informationen zum Versanddurchsatz der gesa
 
 * **[!UICONTROL URLs und Clickstreams]** bietet wichtige Leistungsindikatoren (Key Performance Indicators, KPIs), die detaillierte Informationen zu den URLs enthalten, auf die während eines Versands am häufigsten geklickt wurde.
 
+  ![](assets/reporting_email_7.png){align="center"}
+
   +++ Erfahren Sie mehr über E-Mail-Versandberichtsmetriken.
 
    * **[!UICONTROL Reaktivität]**: Prozentualer Anteil der Zielgruppenempfänger, die in einen Versand geklickt haben, in Bezug auf die geschätzte Anzahl der Zielgruppenempfänger, die einen Versand geöffnet haben.
@@ -130,6 +144,8 @@ Dieser Bericht enthält detaillierte Informationen zum Versanddurchsatz der gesa
 
 * **[!UICONTROL Die 10 am häufigsten besuchten Links]** Diagramm und Tabelle enthalten die verfügbaren Daten für das Empfängerverhalten pro Link.
 
+  ![](assets/reporting_email_8.png){align="center"}
+
   +++ Erfahren Sie mehr über E-Mail-Versandberichtsmetriken.
 
    * **[!UICONTROL Klicks]**: Gesamtzahl der Klicks auf Links in Sendungen.
@@ -140,9 +156,13 @@ Dieser Bericht enthält detaillierte Informationen zum Versanddurchsatz der gesa
 
 * **[!UICONTROL Zeitliche Klickverteilung]** -Diagramm enthält die verfügbaren Daten zum Empfängerverhalten pro Link.
 
+  ![](assets/reporting_email_9.png){align="center"}
+
 ## Benutzeraktivitäten {#user-activities-email}
 
 * **[!UICONTROL Benutzeraktivitäten]** zeigt die Verteilung der Öffnungen und Klicks in Form eines Diagramms.
+
+  ![](assets/reporting_email_10.png){align="center"}
 
   +++ Erfahren Sie mehr über E-Mail-Versandberichtsmetriken.
 
@@ -156,6 +176,8 @@ Dieser Bericht enthält detaillierte Informationen zum Versanddurchsatz der gesa
 
 * **[!UICONTROL Trackingstatistiken]** -Diagramm bietet Statistiken zu Öffnungen und Klicks.
 
+  ![](assets/reporting_email_11.png){align="center"}
+
   +++ Erfahren Sie mehr über E-Mail-Versandberichtsmetriken.
 
    * **[!UICONTROL Klicks]**: Gesamtzahl der Klicks auf Links in Sendungen.
@@ -167,6 +189,8 @@ Dieser Bericht enthält detaillierte Informationen zum Versanddurchsatz der gesa
 ## Öffnungsverteilung {#breakdown-opens}
 
 Dieser Bericht zeigt die Öffnungsverteilung nach Betriebssystem, Geräteart und Browser für den ausgewählten Zeitraum. Für jede Kategorie stehen zwei Diagramme zur Verfügung. Das erste zeigt die Öffnungsstatistiken für Computer und Mobilgeräte an, das zweite nur für Mobilgeräte.
+
+![](assets/reporting_email_13.png){align="center"}
 
 ## Hotclicks
 

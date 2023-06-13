@@ -4,24 +4,27 @@ title: Versandberichte
 description: Erfahren Sie, wie Sie auf Vesandberichte zugreifen und diese verwenden können
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
 badge: label="Alpha" type="Positive"
-source-git-commit: 7fa6a5adb22b4fc4569b93383a8e269703944582
+source-git-commit: 535ab4238c9937d716a20ac8019b44da091bdd6c
 workflow-type: tm+mt
-source-wordcount: '71'
-ht-degree: 100%
+source-wordcount: '91'
+ht-degree: 65%
 
 ---
 
-# Versandberichte {#reports}
+# Auf Versandberichte zugreifen {#reports}
 
 Adobe Campaign bietet verschiedene Berichtstypen für jeden Versand. Mit diesen Berichten können Sie die Wirkung und Leistung Ihrer Nachrichten in einem integrierten Dashboard messen und visualisieren.
 
 Führen Sie folgende Schritte aus, um Berichte anzuzeigen:
 
-1. Greifen Sie auf Ihren E-Mail-Versand zu und klicken Sie auf die Schaltfläche **Bericht**.
+1. Um einen Bericht für einen bestimmten Versand zu erstellen, navigieren Sie zu **[!UICONTROL Sendungen]** und wählen Sie den gewünschten Versand aus.
 
-   ![](assets/reporting.png)
+1. Von Ihrem **[!UICONTROL Versand]** Dashboard, klicken Sie auf **[!UICONTROL Berichte]**.
+
+   ![](assets/reporting2.png)
 
 1. Wählen Sie im linken Menü einen Bericht aus der Liste aus.
 
-   ![](assets/reporting2.png){width="70%" align="left"}
+   ![](assets/reporting.png)
+
 

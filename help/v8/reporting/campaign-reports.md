@@ -3,14 +3,26 @@ audience: end-user
 title: Kampagnenberichte
 description: Erfahren Sie, wie Sie auf Kampagnenberichte zugreifen und diese verwenden können
 badge: label="Alpha" type="Positive"
-source-git-commit: 988350e5117b8593823cb59f9b999b0d7c1d5cff
+source-git-commit: 535ab4238c9937d716a20ac8019b44da091bdd6c
 workflow-type: tm+mt
-source-wordcount: '1520'
+source-wordcount: '1562'
 ht-degree: 3%
 
 ---
 
 # Kampagnenberichte {#campaign-reports}
+
+Der Kampagnenbericht ist in verschiedene Widgets unterteilt, die den Erfolg und die Fehler Ihrer Kampagne detailliert beschreiben.
+
+Die Seite Kampagnenbericht wird mit den folgenden Tabs angezeigt:
+
+* [E-Mail-Kanal](#email-channel)
+* [SMS-Kanal](#sms-channel)
+* [Push-Kanal](#push-channel)
+
+Um auf Ihren Kampagnenbericht zuzugreifen, klicken Sie im Dashboard Ihrer Kampagne auf Berichte .
+
+![](assets/campaign_report_email_13.png)
 
 ## E-Mail-Kanal {#email-channel}
 
