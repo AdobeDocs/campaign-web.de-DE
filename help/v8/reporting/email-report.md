@@ -5,8 +5,8 @@ description: Erfahren Sie, wie Sie auf E-Mail-Versandberichte zugreifen und dies
 badge: label="Alpha" type="Positive"
 source-git-commit: 988350e5117b8593823cb59f9b999b0d7c1d5cff
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '985'
+ht-degree: 15%
 
 ---
 
