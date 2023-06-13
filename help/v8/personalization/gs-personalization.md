@@ -8,15 +8,20 @@ context-tags: workflow,overview;workflow,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-source-git-commit: e241226cacbc366aa884eb7781ce60188913d7b1
+source-git-commit: 323dc9ccb9d04d2d7085a26a17f6944e999b1dec
 workflow-type: tm+mt
-source-wordcount: '592'
-ht-degree: 10%
+source-wordcount: '660'
+ht-degree: 9%
 
 ---
 
 
 # Erste Schritte mit dynamischen Inhalten
+
+>[!CONTEXTUALHELP]
+>id="acw_targetdata_personalization_dashboard"
+>title="Personalisierung"
+>abstract="Mit dem Ausdruckseditor können Sie alle Daten auswählen, anordnen, anpassen und validieren, um ein benutzerdefiniertes Erlebnis für Ihren Inhalt zu erstellen. Sie können Ihre Nachrichten für jeden Empfänger personalisieren, indem Sie Profildaten nutzen und bedingte Inhalte erstellen, um Ihre Nachricht an jeden Empfänger anzupassen und nur die relevanten Inhalte anzuzeigen. Darüber hinaus stehen Gestaltungsbausteine zur Verfügung, mit denen Sie Ihren Sendungen vordefinierten personalisierten Inhalt hinzufügen können."
 
 Als Marketing-Experte ist es entscheidend, Kunden anzusprechen, die sich wirklich für Ihre Angebote interessieren, und sie durch die Bereitstellung effektiver und relevanter Inhalte einzubinden. Angesichts der vielfältigen Empfängervielfalt können Sie zeitaufwendige und verschwenderische Marketinginhalte erstellen, die verschiedene Personen ansprechen. Hier kommt dynamischer Inhalt ins Spiel.
 
