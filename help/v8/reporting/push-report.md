@@ -3,10 +3,10 @@ audience: end-user
 title: Push-Versandberichte
 description: Erfahren Sie, wie Sie auf Push-Versandberichte zugreifen und diese verwenden
 badge: label="Alpha" type="Positive"
-source-git-commit: 875b7edac9696af227273a02357d5431f6a1e8ab
+source-git-commit: 3647cea1728d96ef5d65c767ba5dca97152e6d92
 workflow-type: tm+mt
-source-wordcount: '269'
-ht-degree: 7%
+source-wordcount: '300'
+ht-degree: 6%
 
 ---
 
@@ -16,6 +16,8 @@ ht-degree: 7%
 >id="acw_push_report_overview"
 >title="Zusammenfassung des Push-Berichts"
 >abstract="Entdecken Sie die Reporting-Metriken für Ihren Push-Versand."
+
+Die **Bericht zum Push-Versand** bietet einen umfassenden Überblick über den Push-Kanal mit umfassenden Einblicken und spezifischen Daten. Es bietet umfassende Informationen über Leistung, Effektivität und Ergebnisse jedes Versands.
 
 ## Push-Zusammenfassung {#push-summary}
 

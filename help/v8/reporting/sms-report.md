@@ -3,9 +3,9 @@ audience: end-user
 title: SMS-Versandberichte
 description: Erfahren Sie, wie Sie auf SMS-Versandberichte zugreifen und diese verwenden
 badge: label="Alpha" type="Positive"
-source-git-commit: 875b7edac9696af227273a02357d5431f6a1e8ab
+source-git-commit: 3647cea1728d96ef5d65c767ba5dca97152e6d92
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '303'
 ht-degree: 6%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 6%
 >id="acw_sms_report_overview"
 >title="Zusammenfassung des SMS-Berichts"
 >abstract="Entdecken Sie die Reporting-Metriken für Ihren SMS-Versand."
+
+Die **SMS-Versandbericht** bietet einen umfassenden Überblick über den SMS-Kanal mit umfassenden Einblicken und spezifischen Daten. Es bietet umfassende Informationen über Leistung, Effektivität und Ergebnisse jedes Versands.
 
 ## Versandzusammenfassung {#delivery-summary}
 
