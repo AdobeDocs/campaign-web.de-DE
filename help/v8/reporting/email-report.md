@@ -3,20 +3,22 @@ audience: end-user
 title: E-Mail-Versandberichte
 description: Erfahren Sie, wie Sie auf E-Mail-Versandberichte zugreifen und diese verwenden
 badge: label="Alpha" type="Positive"
-source-git-commit: 875b7edac9696af227273a02357d5431f6a1e8ab
+source-git-commit: a8bc3317bc97d429ab6c9abdf5f503a5123f591e
 workflow-type: tm+mt
-source-wordcount: '1256'
-ht-degree: 23%
+source-wordcount: '1407'
+ht-degree: 26%
 
 ---
 
 # Email-Versandbericht {#email-report}
 
+Die **Email-Versandbericht** bietet umfassende Einblicke und Daten, die speziell für den E-Mail-Kanal gelten. Er bietet detaillierte Informationen über Leistung, Effektivität und Ergebnisse Ihrer Sendungen und bietet Ihnen einen umfassenden Überblick.
+
 ## Versandzusammenfassung {#delivery-summary-email}
 
 * **[!UICONTROL Ursprüngliche Zielgruppenstatistiken]** -Tabelle zeigt Daten zu Ihren Empfängern an:
 
-  ![](assets/reporting_email_1.png){align="left"}
+  ![](assets/reporting_email_1.png){align="left" zoomable="yes"}
 
   +++ Erfahren Sie mehr über E-Mail-Versandberichtsmetriken.
 
@@ -96,6 +98,8 @@ Dieser Bericht enthält detaillierte Informationen zum Versanddurchsatz der gesa
 
 * **[!UICONTROL Verteilung der Fehler nach Typ]** und **[!UICONTROL Verteilung der Fehler nach Domain]** Tabellen und Diagramme enthalten die verfügbaren Daten zu Fehlern, die bei jeder Domain aufgetreten sind.
 
+  Die in diesem Bericht dargestellten Fehler lösen eine Quarantäne der betroffenen Adressen aus. Weiterführende Informationen zur Quarantäneverwaltung finden Sie im Abschnitt [Quarantäneverwaltung](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=de)
+
   ![](assets/campaign_report_email_6.png)
 
   +++ Erfahren Sie mehr über E-Mail-Versandberichtsmetriken.
@@ -168,6 +172,8 @@ Dieser Bericht enthält detaillierte Informationen zum Versanddurchsatz der gesa
 
    * **[!UICONTROL Klicks]**: Gesamtzahl der Klicks auf Links in Sendungen.
 
+   * **[!UICONTROL Plattform-Durchschnitt]**: Dieser unter allen Raten (Reaktivität, Unique Clicks und aufaddierte Klicks) angezeigte Wert bezieht sich auf die Gesamtheit der in den letzten sechs Monaten gesendeten Nachrichten. Nur Sendungen, die dieselbe Typologie aufweisen und die auf demselben Kanal gesendet wurden, werden berücksichtigt. Testsendungen sind von der Statistik ausgenommen.
+
 +++
 
 * **[!UICONTROL Die 10 am häufigsten besuchten Links]** Diagramm und Tabelle enthalten die verfügbaren Daten für das Empfängerverhalten pro Link.
@@ -188,7 +194,7 @@ Dieser Bericht enthält detaillierte Informationen zum Versanddurchsatz der gesa
 
 ## Benutzeraktivitäten {#user-activities-email}
 
-* **[!UICONTROL Benutzeraktivitäten]** zeigt die Verteilung der Öffnungen und Klicks in Form eines Diagramms.
+* **[!UICONTROL Benutzeraktivitäten]** zeigt die Verteilung der Öffnungen und Klicks in Form eines Diagramms. Sie können den Zeitraum für die Zielgruppenbestimmung von Daten auswählen: letzten Tag oder Stunde oder 30 Minuten.
 
   ![](assets/reporting_email_10.png){align="center"}
 
@@ -202,7 +208,7 @@ Dieser Bericht enthält detaillierte Informationen zum Versanddurchsatz der gesa
 
 ## Tracking-Statistiken {#tracking-statistics}
 
-* **[!UICONTROL Trackingstatistiken]** -Diagramm bietet Statistiken zu Öffnungen und Klicks.
+* **[!UICONTROL Trackingstatistiken]** -Diagramm bietet Statistiken zu Öffnungen und Klicks. Sie haben die Möglichkeit, den spezifischen Zeitrahmen für die Zielgruppendaten auszuwählen.
 
   ![](assets/reporting_email_11.png){align="center"}
 
@@ -217,10 +223,11 @@ Dieser Bericht enthält detaillierte Informationen zum Versanddurchsatz der gesa
 ## Öffnungsverteilung {#breakdown-opens}
 
 Dieser Bericht zeigt die Öffnungsverteilung nach Betriebssystem, Geräteart und Browser für den ausgewählten Zeitraum. Für jede Kategorie stehen zwei Diagramme zur Verfügung. Das erste zeigt die Öffnungsstatistiken für Computer und Mobilgeräte an, das zweite nur für Mobilgeräte.
+Sie haben die Flexibilität, von **[!UICONTROL Fehlerbehebung und mobil]** ausschließlich Zielgruppe **[!UICONTROL Nur für Mobilgeräte]** für eine präzisere Zielgruppenbestimmung.
 
 ![](assets/reporting_email_13.png){align="center"}
 
-## Hotclicks
+## Hotclicks {#hotclicks}
 
 Dieser Bericht zeigt den Nachrichteninhalt (HTML und/oder Text) mit dem prozentualen Klickanteil für jeden Link. Abmelde-Links in Gestaltungsbausteinen sowie Mirror-Seiten-Links und Angebots-Links werden in der Gesamtklickzahl berücksichtigt, in diesem Bericht jedoch nicht angezeigt.
 
