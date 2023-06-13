@@ -4,35 +4,31 @@ title: Codieren Ihrer eigenen E-Mail-Inhalte
 description: Erfahren Sie, wie Sie Ihre eigenen E-Mail-Inhalte codieren
 exl-id: a387bff6-3dc8-421c-9efd-043c16694ef0
 badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: f59194334d5262e4270e2caef276b71b27d1b81f
 workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 98%
+source-wordcount: '109'
+ht-degree: 60%
 
 ---
 
 # Codieren Ihrer eigenen E-Mail-Inhalte {#code-content}
 
-Verwenden Sie den Modus **[!UICONTROL Eigenen Code erstellen]**, um unformatierte HTML zu importieren und/oder Ihren E-Mail-Inhalt zu codieren. Diese Methode erfordert HTML-Kenntnisse.
+Verwenden Sie den Modus **[!UICONTROL Eigenen Code erstellen]**, um unformatierte HTML zu importieren und/oder Ihren E-Mail-Inhalt zu codieren.
 
-1. Wählen Sie auf der Startseite von E-Mail-Designer die Option **[!UICONTROL Eigenen Code schreiben]**.
+>[!CAUTION]
+>
+>Diese Methode erfordert HTML-Kenntnisse.
+
+1. Im [Email Designer](get-started-email-designer.md) Startseite auswählen **[!UICONTROL Eigene Code]**.
 
    ![](assets/code-your-own.png)
 
-1. Geben Sie Ihren rohen HTML-Code ein oder fügen Sie ihn ein.
+1. Geben Sie Ihren rohen HTML-Code ein oder fügen Sie ihn in die Arbeitsfläche ein.
 
-1. Verwenden Sie den linken Bereich, um die Personalisierungsfunktionen zu nutzen.
+1. Verwenden Sie den linken Bereich, um die Personalisierungsfunktionen zu nutzen. [Weitere Informationen](../personalization/gs-personalization.md)
 
-1. Wenn Sie den E-Mail-Designer öffnen möchten, um Ihre E-Mail von einem neuen Design aus zu beginnen, wählen Sie **[!UICONTROL Design ändern]** aus dem Optionen-Menü aus.
+   ![](assets/code-editor-personalization.png)
 
-   ![](assets/code-editor-change-design.png)
+1. Klicken Sie auf die Schaltfläche **[!UICONTROL Inhalt simulieren]**, um Design und Personalisierung der Nachricht mithilfe von Testprofilen zu überprüfen. [Weitere Informationen](../preview-test/preview-test.md)
 
-   >[!NOTE]
-   >
-   >Dadurch wird die ausgewählte Vorlage im E-Mail-Designer geöffnet. Dort können Sie entweder das Design Ihrer E-Mail abschließen oder mit der Option **[!UICONTROL Zum Code-Editor wechseln]** zurück zum Code-Editor gehen.
-
-1. Klicken Sie auf die Schaltfläche **[!UICONTROL Inhalt simulieren]**, um Design und Personalisierung der Nachricht mithilfe von Testprofilen zu überprüfen.
-
-1. Sobald Ihr Code fertig ist, klicken Sie auf **[!UICONTROL Speichern]**. Gehen Sie dann zurück zum Bildschirm zur Nachrichtenerstellung, um Ihre Nachricht fertigzustellen.
-
-   ![](assets/code-editor-save.png)
+1. Sobald Ihr Code fertig ist, klicken Sie auf **[!UICONTROL Speichern und schließen]** , um zum Bildschirm zur Nachrichtenerstellung zurückzukehren und Ihre Nachricht abzuschließen.

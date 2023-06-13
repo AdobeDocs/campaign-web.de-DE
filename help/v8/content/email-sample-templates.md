@@ -3,7 +3,7 @@ audience: end-user
 product: campaign
 title: Arbeiten mit E-Mail-Vorlagen
 badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: f59194334d5262e4270e2caef276b71b27d1b81f
 workflow-type: tm+mt
 source-wordcount: '120'
 ht-degree: 8%
@@ -20,7 +20,7 @@ Campaign verfügt über eine Reihe integrierter Vorlagen, aus denen Sie auswähl
 
 Gehen Sie wie folgt vor, um mit der Erstellung Ihres Inhalts mit einer der Beispielvorlagen zu beginnen.
 
-1. Öffnen Sie die [Email Designer](create-email-content.md).
+1. Öffnen Sie die [Email Designer](get-started-email-designer.md).
 
 1. Im **[!UICONTROL E-Mail erstellen]** Bildschirm, die Liste der **[!UICONTROL Beispielvorlagen]**  angezeigt.
 
