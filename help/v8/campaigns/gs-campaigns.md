@@ -4,10 +4,10 @@ title: Erste Schritte mit Kampagnen
 description: Erfahren Sie, wie Sie mit kanalübergreifenden Kampagnen beginnen
 badge: label="Alpha" type="Positive"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: 7cc8f08293d88a896e80038d83d7cd47d9273a10
+source-git-commit: 7daead11e097f6179c99adb0e9496dec567cb29a
 workflow-type: tm+mt
-source-wordcount: '513'
-ht-degree: 15%
+source-wordcount: '429'
+ht-degree: 10%
 
 ---
 
@@ -19,10 +19,18 @@ ht-degree: 15%
 >title="Kanalübergreifende Kampagnen erstellen und senden"
 >abstract="Mit den Adobe Campaign-Funktionen können Sie zentralisierte Kundendaten verwalten, Kundenkommunikation und Kampagnen erstellen und personalisierte Erlebnisse über verschiedene Kanäle hinweg erstellen: E-Mail, Push und SMS."
 
-Verwenden Sie Adobe Campaign, um kanalübergreifende Kampagnen zu erstellen. Mit den Orchestrierungsfunktionen der Marketing-Kampagnen können Sie Kundendaten verwalten und zentralisieren, Kundenkommunikation und Kampagnen entwerfen und personalisierte Erlebnisse über verschiedene Kanäle hinweg erstellen. In dieser Version sind die Kanäle E-Mail, Push und SMS verfügbar.
+Mit Adobe Campaign können Sie Ihre zielgerichteten Marketinginitiativen mithilfe der integrierten Kampagnenverwaltungsfunktion einfach koordinieren. Mit der Fähigkeit, einen Zeitplan festzulegen, können Sie die Dauer und den Zeitpunkt Ihrer Kampagnen so planen, dass sie mit strategischen Zielen übereinstimmen und die Interaktion der Zielgruppe maximieren.
 
-Erstellen und führen Sie E-Mail-Kampagnen mit hohem Volumen aus, um personalisierte Nachrichten für alle Plattformen und Bildschirmgrößen bereitzustellen.
-Messen Sie die Effektivität Ihrer Sendungen mit detaillierten Berichten, einschließlich der Anzahl der Öffnungen, Klicks, Weiterleitungen und mehr. Mit den Segmentierungsfunktionen von Adobe Campaign können Sie Abfragen für eine Datenbank mit hohem Datenvolumen ausführen und einfach Segmente für dynamisches Marketing definieren, die perfekt auf Ihre Kampagnen abgestimmt sind.
+Durch das Hinzufügen mehrerer kampagnenspezifischer Workflows und Sendungen können Sie personalisierte Erlebnisse über verschiedene Kanäle hinweg erstellen und so sicherstellen, dass jeder Touchpoint mit der gewünschten Zielgruppe abgestimmt wird.
+
+Kampagnen bieten dedizierte Berichterstellungsmetriken, um einen umfassenden Einblick in die Leistung Ihrer gesamten Kampagne zu erhalten. So können Sie deren Effektivität bewerten, Trends identifizieren und datengesteuerte Entscheidungen treffen, um zukünftige Bemühungen zu optimieren.
+
+<!--
+Use Adobe Campaign to create cross-channel campaigns. With its marketing campaign orchestration capabilities, you can manage and centralize customer data, design customer communications and campaigns, and create personalized experiences across different channels. In this version, email, push and SMS channels are available.
+
+Design and execute high-volume email campaigns to deliver personalized messages, for all platforms and screen sizes. 
+Measure the effectiveness of your deliveries with detailed reports including the counts of opens, clicks, forwards, and more. With Adobe Campaign segmentation capabilities, you can run queries against a high-volume database, and easily define dynamic marketing segments which perfectly target your campaigns.
+-->
 
 <!--
 Get Started with campaigns
@@ -39,34 +47,20 @@ Um eine neue Kampagne zu erstellen oder Ihre bestehenden Kampagnen zu verwalten,
 
 * Die **Vorlagen** im Tab werden alle verfügbaren Kampagnenvorlagen aufgelistet. Kampagnenvorlagen sind so vorkonfiguriert, dass sie zur Erstellung neuer Kampagnen wiederverwendet werden können. Sie werden über die Client-Konsole erstellt. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html?lang=de)
 
+Jede Kampagne in der Liste enthält Informationen zum aktuellen Status, zum Erstellungsdatum, zum letzten Änderungszeitpunkt usw.
+
 Sie können die angezeigten Spalten anpassen, indem Sie auf die **Spalte für ein benutzerdefiniertes Layout konfigurieren** in der oberen rechten Ecke der Liste. Auf diese Weise können Sie der Liste zusätzliche Informationen hinzufügen. Darüber hinaus stehen eine Suchleiste und Filter zur Verfügung, um die einfache Suche innerhalb der Liste zu erleichtern. [Weitere Informationen](../get-started/user-interface.md#list-screens)
 
 Sie können beispielsweise nach Ihrem Kampagnenkalender filtern. Öffnen Sie das Filterbedienfeld und verwenden Sie die **Start - Enddatum** Abschnitt:
 
 ![Liste der Kampagnen](assets/campaign-filter-on-dates.png)
 
-Jede Kampagne in der Liste enthält Informationen zum aktuellen Status, zum Erstellungsdatum, zum letzten Änderungszeitpunkt usw.
-
 ## Das Kampagnen-Dashboard{#campaign-dashboard}
 
-Im **Durchsuchen** klicken Sie auf eine Kampagne, um ihr Dashboard anzuzeigen. Zwei Registerkarten sind verfügbar:
+Im **Durchsuchen** auf der Kampagnenliste klicken, um das Dashboard der Kampagne anzuzeigen. Zwei Registerkarten sind verfügbar:
 
 * Die **Workflows** enthält alle mit der Kampagne verknüpften Workflows. In diesem Tab können Sie auch einen neuen Workflow innerhalb der Kampagne erstellen. Siehe diesen [Abschnitt](create-campaigns.md#create-campaigns)
-* Die **Sendungen** im Tab werden alle mit der Kampagne verknüpften Sendungen aufgelistet. In diesem Tab können Sie auch einen neuen Versand innerhalb der Kampagne erstellen. Siehe diesen [Abschnitt](create-campaigns.md#create-campaigns)
+* Die **Sendungen** im Tab werden alle mit der Kampagne verknüpften Sendungen aufgelistet. Sie können auch einen neuen Versand innerhalb der Kampagne erstellen. Siehe diesen [Abschnitt](create-campaigns.md#create-campaigns)
 
 Die **Kampagneneinstellungen konfigurieren** Mit diesem Symbol können Sie die Eigenschaften der Kampagne ändern, die bei der Erstellung der Kampagne definiert wurden. Siehe diesen [Abschnitt](create-campaigns.md#create-campaigns)
-
-## Monitoring- und Trackinglogs{#campaign-monitoring}
-
-Die Überwachung von Kampagnen ist ein wichtiger Schritt zur Analyse Ihrer Kampagnen. Sie können über die **Protokolle** Schaltfläche.
-
-Sie können auch die entsprechenden Berichte anzeigen, indem Sie auf **Berichte** Schaltfläche . Siehe diesen [Abschnitt](../reporting/campaign-reports.md)
-
-## Duplizieren und löschen
-
-Um eine Kampagne zu duplizieren oder zu löschen, klicken Sie auf die Suchschaltfläche und wählen Sie **Duplizieren** oder **Löschen**. Sie können auch einen Workflow oder einen Versand im Dashboard einer Kampagne duplizieren oder löschen.
-
->[!NOTE]
->
->Um einen Versand innerhalb eines Workflows zu löschen, müssen Sie ihn aus dem Workflow löschen.
 

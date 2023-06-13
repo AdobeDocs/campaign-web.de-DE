@@ -4,10 +4,10 @@ title: Erstellen von Kampagnen mit Adobe Campaign Web
 description: Erfahren Sie, wie Sie mit Adobe Campaign Web Cross-Channel-Kampagnen erstellen
 badge: label="Alpha" type="Positive"
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
-source-git-commit: 7cc8f08293d88a896e80038d83d7cd47d9273a10
+source-git-commit: 7daead11e097f6179c99adb0e9496dec567cb29a
 workflow-type: tm+mt
-source-wordcount: '263'
-ht-degree: 34%
+source-wordcount: '356'
+ht-degree: 18%
 
 ---
 
@@ -24,36 +24,46 @@ ht-degree: 34%
 >title="Eigenschaften der Kampagne"
 >abstract="Definieren Sie Kampagneneinstellungen und Metadaten."
 
+Kampagnen können Workflows und eigenständige Sendungen umfassen.
+
 Gehen Sie wie folgt vor, um eine neue Kampagne zu erstellen:
 
 1. Klicken Sie auf **[!UICONTROL Kampagnen]** und klicken Sie auf das **[!UICONTROL Kampagne erstellen]** Schaltfläche.
 1. Wählen Sie die **Vorlage** , um die Kampagne zu verwenden und einen Titel anzugeben. Kampagnenvorlagen sind so vorkonfiguriert, dass sie zur Erstellung neuer Kampagnen wiederverwendet werden können. Sie werden über die Client-Konsole erstellt.
    [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html?lang=de)
-1. Bei Bedarf können Sie die **Zusätzliche Optionen**. Weitere Informationen finden Sie in [diesem Abschnitt](#campaign-options).
+1. Bei Bedarf können Sie Folgendes ändern: **Zusätzliche Optionen**: interner Name, Ordner, Bevollmächtigter, Beschreibung und Art.
 1. Definieren Sie die **Zeitplan** Ihrer Kampagne. Die Kampagne beginnt mit Erreichen des Startdatums. Start- und Enddaten werden in der Kampagnenliste angezeigt und können als Filter verwendet werden. Weitere Informationen finden Sie in [diesem Abschnitt](gs-campaigns.md#access-campaigns).
 
    ![Definieren von Kampagneneigenschaften](assets/campaign-properties.png)
 
    >[!NOTE]
    >
-   >Sie können auf die Kampagneneigenschaften auch über das Symbol **Kampagneneinstellungen konfigurieren** neben dem Kampagnentitel zugreifen. Siehe diesen [Abschnitt](gs-campaigns.md#campaign-dashboard)
+   >Sie können diese Eigenschaften jederzeit ändern, indem Sie die **Kampagneneinstellungen konfigurieren** neben dem Kampagnentitel. Siehe diesen [Abschnitt](gs-campaigns.md#campaign-dashboard)
 
 1. Wählen Sie **Erstellen** aus.
-1. Fügen Sie Ihrer Kampagne einen Workflow oder einen eigenständigen Versand hinzu.
+1. Fügen Sie Ihrer Kampagne Workflows und Sendungen hinzu.
+
    * Aus dem **Workflows** Registerkarte, klicken Sie auf **Workflow erstellen**. Beim Erstellen Ihrer Kampagne wird automatisch ein Standard-Workflow hinzugefügt. Weitere Informationen zum [Workflow erstellen](../workflows/create-workflow.md)
    * Aus dem **Sendungen** Registerkarte, klicken Sie auf **Versand erstellen**. [Weitere Informationen](../msg/gs-messages.md)
+1. Verwenden Sie die **Protokolle** und **Berichterstellung** Schaltflächen zur Analyse Ihrer Kampagne.
 
-## Zusätzliche Optionen {#campaign-options}
+## Monitoring- und Trackinglogs{#campaign-monitoring}
 
-Die Kampagneneigenschaften werden beim Erstellen einer neuen Kampagne angezeigt.
+Die Überwachung von Kampagnen ist ein wichtiger Schritt zur Analyse Ihrer Kampagnen. Öffnen Sie die Kampagne und klicken Sie auf die Schaltfläche **Protokolle** Schaltfläche.
 
-under **Zusätzliche Optionen** können Sie die folgenden Einstellungen konfigurieren:
+Sie können auch die entsprechenden Berichte anzeigen, indem Sie auf die **Berichte** Schaltfläche. Weitere Informationen finden Sie in [diesem Abschnitt](../reporting/campaign-reports.md).
 
-* Interner Name:
-* Ordner: den Ordner auswählen, in dem die Kampagne gespeichert werden soll
-* Zugewiesen zu:
-* Beschreibung:
-* Art: die Art der Kampagne zu Classification-Zwecken angeben
+## Kampagnen duplizieren und löschen
+
+Sie können eine Kampagne duplizieren oder löschen:
+
+* Klicken Sie in der Kampagnenliste auf die Suchschaltfläche und wählen Sie **Duplizieren** oder **Löschen**.
+* Klicken Sie in der Kampagne selbst auf die **Mehr** Schaltfläche und wählen Sie **Duplizieren** oder **Löschen**.
+
+>[!NOTE]
+>
+>Die **Versand** alle mit der Kampagne verknüpften Sendungen, aber die in einem Workflow erstellten Sendungen können nicht gelöscht werden. Um einen im Rahmen eines Workflows erstellten Versand zu löschen, ist die Löschung der Versandaktivität im Workflow erforderlich.
+
 
 <!--
 ## Create a cross-channel campaign {#cross-channel-campaign}
