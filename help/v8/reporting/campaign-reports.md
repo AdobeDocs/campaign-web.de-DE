@@ -3,10 +3,10 @@ audience: end-user
 title: Kampagnenberichte
 description: Erfahren Sie, wie Sie auf Kampagnenberichte zugreifen und diese verwenden können
 badge: label="Alpha" type="Positive"
-source-git-commit: 535ab4238c9937d716a20ac8019b44da091bdd6c
+source-git-commit: 875b7edac9696af227273a02357d5431f6a1e8ab
 workflow-type: tm+mt
-source-wordcount: '1562'
-ht-degree: 3%
+source-wordcount: '1682'
+ht-degree: 8%
 
 ---
 
@@ -115,11 +115,19 @@ Um auf Ihren Kampagnenbericht zuzugreifen, klicken Sie im Dashboard Ihrer Kampag
 
   +++ Erfahren Sie mehr über E-Mail-Kampagnen-Berichtsmetriken.
 
-   * **[!UICONTROL Fehler]**: Gesamtzahl der über alle Sendungen hinweg kumulierten Fehler und der automatischen Bounce-Verarbeitung in Bezug auf die Zahl der zu sendenden Nachrichten.
+   * **[!UICONTROL Unbekannter Nutzer]**: Fehler bei ungültigen E-Mail-Adressen.
 
-   * **[!UICONTROL Beitrag]**:
+   * **[!UICONTROL Ungültige Domain]**: Fehler bei ungültigen oder inexistenten E-Mail-Domains.
 
-   * **[!UICONTROL Verteilung]**:
+   * **[!UICONTROL Postfach voll]**: Fehlertyp, der nach fünf fehlgeschlagenen Zustellversuchen erzeugt wird, wenn der Posteingang der Empfänger zu viele Nachrichten enthält.
+
+   * **[!UICONTROL Konto deaktiviert]**: Fehler, wenn eine Adresse nicht mehr existiert.
+
+   * **[!UICONTROL Abgelehnt]**: Fehlertyp, der erzeugt wird, wenn eine Adresse von einem ISP (Internet Access Provider) z. B. aufgrund der Anwendung einer Sicherheitsregel (Anti-Spam-Software) zurückgewiesen wird.
+
+   * **[!UICONTROL Unerreichbar]**: Fehler in der Verteilungskette der Nachricht (Vorfall beim SMTP-Server, zeitweilig unerreichbare Domain usw.).
+
+   * **[!UICONTROL Nicht angemeldet]**: Fehlertyp, der angibt, dass das Mobiltelefon des Empfängers zum Zeitpunkt des Versands ausgeschaltet war oder vom Netzwerk getrennt war.
 
 +++
 
@@ -213,6 +221,8 @@ Um auf Ihren Kampagnenbericht zuzugreifen, klicken Sie im Dashboard Ihrer Kampag
 
 * **[!UICONTROL Versandübersicht]** bietet wichtige Leistungsindikatoren (KPIs), die detaillierte Informationen zur Interaktion Ihrer Besucher mit Ihrem SMS-Versand enthalten.
 
+  ![](assets/campaign_report_sms_1.png)
+
   +++ Erfahren Sie mehr über SMS-Kampagnenberichtsmetriken.
 
    * **[!UICONTROL Gesendete Summe]**: Gesamtzahl der bei der Versandanalyse verarbeiteten Nachrichten.
@@ -227,6 +237,8 @@ Um auf Ihren Kampagnenbericht zuzugreifen, klicken Sie im Dashboard Ihrer Kampag
 
 * **[!UICONTROL Ursprüngliche Zielgruppenstatistiken]** -Tabelle zeigt Daten zu Ihren Empfängern an:
 
+  ![](assets/campaign_report_sms_2.png)
+
   +++ Erfahren Sie mehr über SMS-Kampagnenberichtsmetriken.
 
    * **[!UICONTROL Ursprüngliche Zielgruppe]**: Gesamtzahl der Zielgruppenempfänger
@@ -238,6 +250,8 @@ Um auf Ihren Kampagnenbericht zuzugreifen, klicken Sie im Dashboard Ihrer Kampag
 +++
 
 * **[!UICONTROL Ausführungsstatistiken]** -Tabelle zeigt den Erfolg Ihres Versands:
+
+  ![](assets/campaign_report_sms_3.png)
 
   +++ Erfahren Sie mehr über SMS-Kampagnenberichtsmetriken.
 
@@ -252,6 +266,8 @@ Um auf Ihren Kampagnenbericht zuzugreifen, klicken Sie im Dashboard Ihrer Kampag
 +++
 
 * **[!UICONTROL Erzeugte Clickstreams]** -Tabelle zeigt Daten dazu an, wie Ihre Empfänger mit Ihrem Versand interagiert haben:
+
+  ![](assets/campaign_report_sms_4.png)
 
   +++ Erfahren Sie mehr über SMS-Kampagnenberichtsmetriken.
 

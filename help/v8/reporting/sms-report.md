@@ -3,7 +3,7 @@ audience: end-user
 title: SMS-Versandberichte
 description: Erfahren Sie, wie Sie auf SMS-Versandberichte zugreifen und diese verwenden
 badge: label="Alpha" type="Positive"
-source-git-commit: 535ab4238c9937d716a20ac8019b44da091bdd6c
+source-git-commit: 875b7edac9696af227273a02357d5431f6a1e8ab
 workflow-type: tm+mt
 source-wordcount: '272'
 ht-degree: 6%
@@ -60,6 +60,8 @@ ht-degree: 6%
 +++
 
 * **[!UICONTROL Ausnahmen]** Diagramm und Tabelle zeigen die verschiedenen Gründe an, die verhindert haben, dass aus den Zielgruppenprofilen ausgeschlossene Benutzerprofile die Nachricht empfangen.
+
+  ![](assets/reporting_sms_6.png)
 
 ## Versanddurchsatz {#delivery-throughput}
 

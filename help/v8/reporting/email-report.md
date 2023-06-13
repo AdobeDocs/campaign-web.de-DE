@@ -3,10 +3,10 @@ audience: end-user
 title: E-Mail-Versandberichte
 description: Erfahren Sie, wie Sie auf E-Mail-Versandberichte zugreifen und diese verwenden
 badge: label="Alpha" type="Positive"
-source-git-commit: 535ab4238c9937d716a20ac8019b44da091bdd6c
+source-git-commit: 875b7edac9696af227273a02357d5431f6a1e8ab
 workflow-type: tm+mt
-source-wordcount: '985'
-ht-degree: 15%
+source-wordcount: '1256'
+ht-degree: 23%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 15%
 
 * **[!UICONTROL Ursprüngliche Zielgruppenstatistiken]** -Tabelle zeigt Daten zu Ihren Empfängern an:
 
-  ![](assets/reporting_email_1.png){align="center"}
+  ![](assets/reporting_email_1.png){align="left"}
 
   +++ Erfahren Sie mehr über E-Mail-Versandberichtsmetriken.
 
@@ -29,7 +29,7 @@ ht-degree: 15%
 
 * **[!UICONTROL Versandstatistiken]** -Tabelle zeigt den Erfolg Ihres Versands.
 
-  ![](assets/reporting_email_2.png){align="center"}
+  ![](assets/reporting_email_2.png){align="left"}
 
   +++ Erfahren Sie mehr über E-Mail-Kampagnen-Berichtsmetriken.
 
@@ -46,6 +46,24 @@ ht-degree: 15%
 * **[!UICONTROL Ausschlussgründe]** Diagramm und Tabelle zeigen die Verteilung der im Zuge der Analyse zurückgewiesenen Nachrichten nach Regeln.
 
   ![](assets/reporting_email_3.png){align="center"}
+
+  +++ Erfahren Sie mehr über E-Mail-Versandberichtsmetriken.
+
+   * **[!UICONTROL Unbekannter Nutzer]**: Fehler bei ungültigen E-Mail-Adressen.
+
+   * **[!UICONTROL Ungültige Domain]**: Fehler bei ungültigen oder inexistenten E-Mail-Domains.
+
+   * **[!UICONTROL Postfach voll]**: Fehlertyp, der nach fünf fehlgeschlagenen Zustellversuchen erzeugt wird, wenn der Posteingang der Empfänger zu viele Nachrichten enthält.
+
+   * **[!UICONTROL Konto deaktiviert]**: Fehler, wenn eine Adresse nicht mehr existiert.
+
+   * **[!UICONTROL Abgelehnt]**: Fehlertyp, der erzeugt wird, wenn eine Adresse von einem ISP (Internet Access Provider) z. B. aufgrund der Anwendung einer Sicherheitsregel (Anti-Spam-Software) zurückgewiesen wird.
+
+   * **[!UICONTROL Unerreichbar]**: Fehler in der Verteilungskette der Nachricht (Vorfall beim SMTP-Server, zeitweilig unerreichbare Domain usw.).
+
+   * **[!UICONTROL Nicht angemeldet]**: Fehlertyp, der angibt, dass das Mobiltelefon des Empfängers zum Zeitpunkt des Versands ausgeschaltet war oder vom Netzwerk getrennt war.
+
++++
 
 ## Versanddurchsatz {#delivery-throughtput}
 
@@ -78,13 +96,23 @@ Dieser Bericht enthält detaillierte Informationen zum Versanddurchsatz der gesa
 
 * **[!UICONTROL Verteilung der Fehler nach Typ]** und **[!UICONTROL Verteilung der Fehler nach Domain]** Tabellen und Diagramme enthalten die verfügbaren Daten zu Fehlern, die bei jeder Domain aufgetreten sind.
 
+  ![](assets/campaign_report_email_6.png)
+
   +++ Erfahren Sie mehr über E-Mail-Versandberichtsmetriken.
 
-   * **[!UICONTROL Fehler]**: Gesamtzahl der über alle Sendungen hinweg kumulierten Fehler und der automatischen Bounce-Verarbeitung in Bezug auf die Zahl der zu sendenden Nachrichten.
+   * **[!UICONTROL Unbekannter Nutzer]**: Fehler bei ungültigen E-Mail-Adressen.
 
-   * **[!UICONTROL Beitrag]**:
+   * **[!UICONTROL Ungültige Domain]**: Fehler bei ungültigen oder inexistenten E-Mail-Domains.
 
-   * **[!UICONTROL Verteilung]**:
+   * **[!UICONTROL Postfach voll]**: Fehlertyp, der nach fünf fehlgeschlagenen Zustellversuchen erzeugt wird, wenn der Posteingang der Empfänger zu viele Nachrichten enthält.
+
+   * **[!UICONTROL Konto deaktiviert]**: Fehler, wenn eine Adresse nicht mehr existiert.
+
+   * **[!UICONTROL Abgelehnt]**: Fehlertyp, der erzeugt wird, wenn eine Adresse von einem ISP (Internet Access Provider) z. B. aufgrund der Anwendung einer Sicherheitsregel (Anti-Spam-Software) zurückgewiesen wird.
+
+   * **[!UICONTROL Unerreichbar]**: Fehler in der Verteilungskette der Nachricht (Vorfall beim SMTP-Server, zeitweilig unerreichbare Domain usw.).
+
+   * **[!UICONTROL Nicht angemeldet]**: Fehlertyp, der angibt, dass das Mobiltelefon des Empfängers zum Zeitpunkt des Versands ausgeschaltet war oder vom Netzwerk getrennt war.
 
 +++
 
