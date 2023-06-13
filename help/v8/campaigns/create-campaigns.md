@@ -4,7 +4,7 @@ title: Erstellen von Kampagnen mit Adobe Campaign Web
 description: Erfahren Sie, wie Sie mit Adobe Campaign Web Cross-Channel-Kampagnen erstellen
 badge: label="Alpha"
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: 5dec05aeffa1268ec3d9b371f4ea91f830247a4f
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 22%
@@ -12,7 +12,7 @@ ht-degree: 22%
 ---
 
 
-# Erstellen Ihrer ersten Kampagne {#create-campaigns}
+# Erstellen Ihrer ersten Kampagne {#create-first-campaigns}
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_properties"
@@ -24,9 +24,9 @@ ht-degree: 22%
 >title="Eigenschaften der Kampagne"
 >abstract="Definieren Sie Kampagneneinstellungen und Metadaten."
 
-Kampagnen können Workflows und eigenständige Sendungen umfassen. Eigenschaften, Zeitplan, Arbeit, Bereitstellung und Aufrufen eines Jahrgangszeitplans
+Um eine neue Kampagne zu erstellen, müssen Sie deren Eigenschaften definieren, Workflows und Sendungen planen und einschließen.
 
-## Kampagne erstellen
+## Kampagne erstellen{#campaign-create}
 
 Gehen Sie wie folgt vor, um eine neue Kampagne zu erstellen:
 
@@ -40,25 +40,27 @@ Gehen Sie wie folgt vor, um eine neue Kampagne zu erstellen:
 
    >[!NOTE]
    >
-   >Sie können diese Eigenschaften jederzeit ändern, indem Sie die **Kampagneneinstellungen konfigurieren** neben dem Kampagnentitel. Siehe diesen [Abschnitt](gs-campaigns.md#campaign-dashboard)
+   >Sie können diese Eigenschaften jederzeit ändern, indem Sie die **Kampagneneinstellungen konfigurieren** neben dem Kampagnentitel. Weitere Informationen finden Sie in [diesem Abschnitt](gs-campaigns.md#campaign-dashboard).
 
 1. Wählen Sie **Erstellen** aus.
 1. Fügen Sie Ihrer Kampagne Workflows und Sendungen hinzu:
 
-   * Aus dem **Workflows** Registerkarte, klicken Sie auf **Workflow erstellen**. Beim Erstellen Ihrer Kampagne wird automatisch ein Standard-Workflow hinzugefügt. Weitere Informationen zum [Workflow erstellen](../workflows/create-workflow.md)
+   * Aus dem **Workflows** Registerkarte, klicken Sie auf **Workflow erstellen**. Beim Erstellen Ihrer Kampagne wird automatisch ein Standard-Workflow hinzugefügt. Weitere Informationen zum [Workflow erstellen](../workflows/create-workflow.md).
    * Aus dem **Sendungen** Registerkarte, klicken Sie auf **Versand erstellen**. [Weitere Informationen](../msg/gs-messages.md)
 
 1. Verwenden Sie die **Protokolle** und **Berichterstellung** -Schaltflächen, um die Leistung Ihrer Kampagne zu analysieren.
 
 ## Kampagne beobachten und verfolgen{#campaign-monitoring}
 
-Die Überwachung von Kampagnen ist ein wichtiger Schritt zur Analyse Ihrer Kampagnen. Öffnen Sie die Kampagne und klicken Sie auf die Schaltfläche **Protokolle** Schaltfläche.
+Die Überwachung von Kampagnen ist ein wichtiger Schritt zur Analyse der Effektivität Ihrer Kampagne. Öffnen Sie die Kampagne und klicken Sie auf die Schaltfläche **Protokolle** Schaltfläche.
 
 Sie können auch die entsprechenden Berichte anzeigen, indem Sie auf die **Berichte** Schaltfläche. Weitere Informationen finden Sie in [diesem Abschnitt](../reporting/campaign-reports.md).
 
-+++WORKF ++Bildschirm
+
 
 <!--
+	+++WORKF
+++screen
 ## Create a cross-channel campaign {#cross-channel-campaign}
 
 
