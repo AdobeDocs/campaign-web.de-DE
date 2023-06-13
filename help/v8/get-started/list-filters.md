@@ -2,11 +2,11 @@
 audience: end-user
 title: Listen durchsuchen, durchsuchen und filtern
 description: Erfahren Sie, wie Sie Listen in Campaign Web v8 durchsuchen und filtern
-badge: label="Alpha" type="Positive"
-source-git-commit: 7c8aa54fc267ca4db3ed5e77a0d86af2f242f4fe
+badge: label="Alpha"
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 14%
+source-wordcount: '415'
+ht-degree: 18%
 
 ---
 
@@ -65,6 +65,17 @@ Verwenden Sie die **Erweiterte Attribute anzeigen** umschalten, um alle Attribut
 >id="acw_attributepicker_advancedfields"
 >title="Erweiterte Attribute anzeigen"
 >abstract="In der Attributliste werden standardmäßig nur die häufigsten Attribute angezeigt. Verwenden Sie diesen Umschalter, um einen Filter mit erweiterten Attributen zu erstellen."
+
+>[!CONTEXTUALHELP]
+>id="acw_rulebuilder_advancedfields"
+>title="Erweiterte Felder des Regel-Builders"
+>abstract="Konfigurieren Sie Spalten mit erweiterten Feldern."
+
+>[!CONTEXTUALHELP]
+>id="acw_rulebuilder_properties_advanced"
+>title="Erweiterte Attribute des Regel-Builders"
+>abstract="Verwenden Sie erweiterte Attribute, um Ihre Regel zu definieren."
+
 
 Standardmäßig werden in den Konfigurationsbildschirmen der Attributliste und der Filter nur die häufigsten Attribute angezeigt. Attribute, die als `advanced` -Attribute im Datenschema sind in den Konfigurationsbildschirmen ausgeblendet.
 

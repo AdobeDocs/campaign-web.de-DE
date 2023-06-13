@@ -2,17 +2,17 @@
 audience: end-user
 title: Erstellen von Kampagnen mit Adobe Campaign Web
 description: Erfahren Sie, wie Sie mit Adobe Campaign Web Cross-Channel-Kampagnen erstellen
-badge: label="Alpha" type="Positive"
+badge: label="Alpha"
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
-source-git-commit: 4619cffbe2f172637357668b2b4f50cebc27af09
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 18%
+source-wordcount: '290'
+ht-degree: 22%
 
 ---
 
 
-# Erstellen von Cross-Channel-Kampagnen {#create-campaigns}
+# Erstellen Ihrer ersten Kampagne {#create-campaigns}
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_properties"
@@ -24,7 +24,9 @@ ht-degree: 18%
 >title="Eigenschaften der Kampagne"
 >abstract="Definieren Sie Kampagneneinstellungen und Metadaten."
 
-Kampagnen können Workflows und eigenständige Sendungen umfassen.
+Kampagnen können Workflows und eigenständige Sendungen umfassen. Eigenschaften, Zeitplan, Arbeit, Bereitstellung und Aufrufen eines Jahrgangszeitplans
+
+## Kampagne erstellen
 
 Gehen Sie wie folgt vor, um eine neue Kampagne zu erstellen:
 
@@ -32,7 +34,7 @@ Gehen Sie wie folgt vor, um eine neue Kampagne zu erstellen:
 1. Wählen Sie die **Vorlage** , um die Kampagne zu verwenden und einen Titel anzugeben. Kampagnenvorlagen sind so vorkonfiguriert, dass sie zur Erstellung neuer Kampagnen wiederverwendet werden können. Sie werden über die Client-Konsole erstellt.
    [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html?lang=de)
 1. Bei Bedarf können Sie Folgendes ändern: **Zusätzliche Optionen**: interner Name, Ordner, Bevollmächtigter, Beschreibung und Art.
-1. Definieren Sie die **Zeitplan** Ihrer Kampagne. Die Kampagne beginnt mit Erreichen des Startdatums. Start- und Enddaten werden in der Kampagnenliste angezeigt und können als Filter verwendet werden. Weitere Informationen finden Sie in [diesem Abschnitt](gs-campaigns.md#access-campaigns).
+1. Definieren Sie die **Zeitplan** Ihrer Kampagne. Die Kampagne beginnt mit Erreichen des Startdatums. Start- und Enddaten werden in der Kampagnenliste angezeigt und können als Filter verwendet werden. Weitere Informationen finden Sie in [diesem Abschnitt](manage-campaigns.md#access-campaigns).
 
    ![Definieren von Kampagneneigenschaften](assets/campaign-properties.png)
 
@@ -48,23 +50,13 @@ Gehen Sie wie folgt vor, um eine neue Kampagne zu erstellen:
 
 1. Verwenden Sie die **Protokolle** und **Berichterstellung** -Schaltflächen, um die Leistung Ihrer Kampagne zu analysieren.
 
-## Monitoring- und Trackinglogs{#campaign-monitoring}
+## Kampagne beobachten und verfolgen{#campaign-monitoring}
 
 Die Überwachung von Kampagnen ist ein wichtiger Schritt zur Analyse Ihrer Kampagnen. Öffnen Sie die Kampagne und klicken Sie auf die Schaltfläche **Protokolle** Schaltfläche.
 
 Sie können auch die entsprechenden Berichte anzeigen, indem Sie auf die **Berichte** Schaltfläche. Weitere Informationen finden Sie in [diesem Abschnitt](../reporting/campaign-reports.md).
 
-## Kampagnen duplizieren und löschen
-
-Sie können eine Kampagne duplizieren oder löschen:
-
-* Klicken Sie in der Kampagnenliste auf die Suchschaltfläche und wählen Sie **Duplizieren** oder **Löschen**.
-* Klicken Sie in der Kampagne selbst auf die **Mehr** Schaltfläche und wählen Sie **Duplizieren** oder **Löschen**.
-
->[!NOTE]
->
->Die **Sendungen** alle mit der Kampagne verknüpften Sendungen anzeigen. In einem Workflow erstellte Sendungen können jedoch nicht von dort gelöscht werden. Um einen im Rahmen eines Workflows erstellten Versand zu löschen, ist die Löschung der Versandaktivität im Workflow erforderlich.
-
++++WORKF ++Bildschirm
 
 <!--
 ## Create a cross-channel campaign {#cross-channel-campaign}
