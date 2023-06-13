@@ -2,11 +2,11 @@
 audience: end-user
 title: Ansprechen von Empfängerinnen und Empfängern aus einer Datei
 description: Erfahren Sie, wie Sie mit Empfängerinnen und Empfängern aus einer externen Datei eine E-Mail-Zielgruppe erstellen können.
-badge: label="Alpha" type="Positive"
+badge: label="Alpha"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: f60f0e34dc5d85808c208223d83d234e22a41c34
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '326'
 ht-degree: 64%
 
 ---
@@ -35,7 +35,6 @@ Sie können Kontakte aus einer externen Datei hochladen. Profile werden nicht zu
 >* Diese Funktion ist nur verfügbar für **Einzelne E-Mail-Sendungen**. Sie kann nicht in Workflows oder in SMS- oder Push-Sendungen verwendet werden.
 >
 >* Sie können keine [Kontrollgruppen](control-group.md) verwenden, wenn Sie die Zielgruppen-Population aus einer externen Datei laden.
-
 
 
 Gehen Sie wie folgt vor, um Profile aus einer lokalen Datei direkt über die E-Mail-Oberfläche auszuwählen:

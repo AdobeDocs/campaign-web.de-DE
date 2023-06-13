@@ -2,11 +2,11 @@
 audience: end-user
 title: Bearbeiten des E-Mail-Inhalts
 description: Erfahren Sie, wie Sie mit der Erstellung Ihres Inhalts mit Email Designer in der Web-Benutzeroberfläche von Campaign beginnen
-badge: label="Alpha" type="Positive"
-source-git-commit: 208647ea17f6e0d824ff119a4d046c8041a04777
+badge: label="Alpha"
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '382'
-ht-degree: 9%
+source-wordcount: '380'
+ht-degree: 8%
 
 ---
 

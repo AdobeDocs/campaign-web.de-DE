@@ -2,12 +2,12 @@
 audience: end-user
 title: Erste Schritte mit Workflows
 description: Erfahren Sie, wie Sie mit Workflows beginnen
-badge: label="Alpha" type="Positive"
+badge: label="Alpha"
 exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
-source-git-commit: 880f02c460d75c50347fb5716fbcdf7cd3908422
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '390'
-ht-degree: 79%
+source-wordcount: '388'
+ht-degree: 81%
 
 ---
 
@@ -48,7 +48,7 @@ Jetzt, da Sie wissen, was Workflows sind und was Sie mit ihnen in Adobe Campaign
 <img alt="Zugreifen auf und Verwalten von Workflows" src="assets/do-not-localize/workflow-access.jpeg">
 </a>
 <div>
-<a href="access-monitor.md"><strong>Workflows aufrufen und verwalten</strong></a>
+<a href="access-monitor.md"><strong>Aufrufen und Verwalten von Workflows</strong></a>
 </div>
 <p>
 </td>

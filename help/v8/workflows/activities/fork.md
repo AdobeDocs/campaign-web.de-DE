@@ -2,11 +2,11 @@
 audience: end-user
 title: Workflow-Aktivität Verzweigung verwenden
 description: Erfahren Sie, wie Sie die Workflow-Aktivität Verzweigung verwenden.
-badge: label="Alpha" type="Positive"
-source-git-commit: 1ac80ffaabea210bbc02588475ad6e81af4820b1
+badge: label="Alpha"
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '113'
-ht-degree: 23%
+source-wordcount: '111'
+ht-degree: 19%
 
 ---
 

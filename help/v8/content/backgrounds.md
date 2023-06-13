@@ -3,11 +3,11 @@ audience: end-user
 title: Personalisieren Ihres E-Mail-Hintergrunds
 description: Erfahren Sie, wie Sie Ihren E-Mail-Hintergrund personalisieren
 exl-id: 180e61d3-bc1e-4dde-84cf-06bd8ba4d724
-badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
+badge: label="Alpha"
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '304'
-ht-degree: 100%
+source-wordcount: '302'
+ht-degree: 99%
 
 ---
 
@@ -28,34 +28,34 @@ Unten finden Sie die verfügbaren Einstellungen für den Hintergrund.
 
 * Legen Sie eine **[!UICONTROL Hintergrundfarbe]** für die gesamte E-Mail fest. Wählen Sie die Einstellungen für den Hauptteil im Navigationsbaum aus, auf den Sie über den linken Bereich zugreifen können.
 
-   ![](assets/background_1.png)
+  ![](assets/background_1.png)
 
 * Legen Sie dieselbe Hintergrundfarbe für alle Strukturkomponenten fest, indem Sie **[!UICONTROL Viewport-Hintergrundfarbe auswählen]**. Mit dieser Option können Sie eine andere Einstellung als die Hintergrundfarbe auswählen.
 
-   ![](assets/background_2.png)
+  ![](assets/background_2.png)
 
 * Legen Sie für jede Strukturkomponente eine andere Hintergrundfarbe fest. Wählen Sie im linken Bereich eine Struktur im Navigationsbaum aus, um eine bestimmte Hintergrundfarbe nur dieser Struktur zuzuweisen.
 
-   ![](assets/background_3.png)
+  ![](assets/background_3.png)
 
-   >[!NOTE]
-   >
-   >Wählen Sie aber keine Viewport-Hintergrundfarbe aus, da diese die Struktur-Hintergrundfarben verdecken könnte.
+  >[!NOTE]
+  >
+  >Wählen Sie aber keine Viewport-Hintergrundfarbe aus, da diese die Struktur-Hintergrundfarben verdecken könnte.
 
 * Legen Sie für den Inhalt einer Strukturkomponente ein **[!UICONTROL Hintergrundbild]** fest.
 
-   ![](assets/background_4.png)
+  ![](assets/background_4.png)
 
-   >[!NOTE]
-   >
-   >Manche E-Mail-Programme unterstützen keine Hintergrundbilder. Wenn dies nicht unterstützt wird, wird stattdessen die Hintergrundfarbe der Zeile verwendet. Wählen Sie daher eine passende Fallback-Hintergrundfarbe auf, falls das Bild nicht dargestellt werden kann.
+  >[!NOTE]
+  >
+  >Manche E-Mail-Programme unterstützen keine Hintergrundbilder. Wenn dies nicht unterstützt wird, wird stattdessen die Hintergrundfarbe der Zeile verwendet. Wählen Sie daher eine passende Fallback-Hintergrundfarbe auf, falls das Bild nicht dargestellt werden kann.
 
 * Legen Sie auf Spaltenebene eine Hintergrundfarbe fest.
 
-   ![](assets/background_5.png)
+  ![](assets/background_5.png)
 
-   >[!NOTE]
-   >
-   >Dies ist der häufigste Anwendungsfall. Adobe empfiehlt, Hintergrundfarben auf Spaltenebene festzulegen, da dies mehr Flexibilität bietet, wenn der gesamte E-Mail-Inhalt bearbeitet wird.
+  >[!NOTE]
+  >
+  >Dies ist der häufigste Anwendungsfall. Adobe empfiehlt, Hintergrundfarben auf Spaltenebene festzulegen, da dies mehr Flexibilität bietet, wenn der gesamte E-Mail-Inhalt bearbeitet wird.
 
-   Sie können auch ein Hintergrundbild auf Spaltenebene einrichten, was aber nur selten verwendet wird.
+  Sie können auch ein Hintergrundbild auf Spaltenebene einrichten, was aber nur selten verwendet wird.
