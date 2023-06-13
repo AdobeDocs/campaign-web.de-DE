@@ -3,7 +3,7 @@ audience: end-user
 title: Listen durchsuchen, durchsuchen und filtern
 description: Erfahren Sie, wie Sie Listen in Campaign Web v8 durchsuchen und filtern
 badge: label="Alpha" type="Positive"
-source-git-commit: 9f9cb4423d098ae57f429fb2a49e335d413399c1
+source-git-commit: 1503f07f72bf654594422fd861233d871047be4d
 workflow-type: tm+mt
 source-wordcount: '390'
 ht-degree: 14%
@@ -21,7 +21,7 @@ Um einen Filter zu entfernen, klicken Sie auf das **Alle löschen** Schaltfläch
 
 Listen werden in Spalten angezeigt. Sie können auch zusätzliche Informationen anzeigen, indem Sie die Spaltenkonfiguration ändern. Klicken Sie dazu auf die Schaltfläche **Spalte für ein benutzerdefiniertes Layout konfigurieren** in der oberen rechten Ecke der Liste.
 
-![](assets/config-columns.png){width="70%" align="left"}
+![](assets/config-columns.png){width="70%" align="left" zoomable="yes"}
 
 Im **Spalten konfigurieren** -Bildschirm anzeigen, Spalten hinzufügen oder entfernen und die Reihenfolge ändern, in der sie angezeigt werden.
 
