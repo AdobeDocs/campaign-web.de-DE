@@ -2,12 +2,12 @@
 audience: end-user
 title: Arbeiten mit Workflow-Aktivitäten
 description: Erfahren Sie, wie Workflow-Aktivitäten ausgeführt werden
-badge: label="Alpha" type="Positive"
+badge: label="Alpha"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: 40ca8ca9825706be7b82a58136627911132bc14a
+source-git-commit: b66afeedbfcb342102c833899756afc35de9d504
 workflow-type: tm+mt
-source-wordcount: '307'
-ht-degree: 27%
+source-wordcount: '305'
+ht-degree: 25%
 
 ---
 
@@ -49,7 +49,7 @@ Näheres dazu finden Sie in [diesem Abschnitt](enrichment.md).
 Die folgenden Aktivitäten dienen der Anordnung und Ausführung von Workflows. Sie ermöglichen die Koordinierung der anderen Aktivitäten:
 
 * Die [Und-Verknüpfung](and-join.md) ermöglicht die Synchronisation mehrerer Ausführungszweige eines Workflows.
-* Die [Ende](end.md) -Aktivität können Sie das Ende eines Workflows grafisch markieren. Diese Aktivität hat keine funktionalen Auswirkungen und ist daher optional.
+* Die **Ende** -Aktivität können Sie das Ende eines Workflows grafisch markieren. Diese Aktivität hat keine funktionalen Auswirkungen und ist daher optional.
 * Eine [Verzweigung](fork.md) erzeugt ausgehende Transitionen, um mehrere Workflow-Aktivitäten parallel zu starten.
 * Die [Warten](wait.md)-Aktivität ermöglicht das zeitweise Aussetzen der Ausführung eines Teils eines Workflows.
 
