@@ -4,7 +4,7 @@ title: Erste Schritte mit Campaign v8 Web
 description: Erste Schritte mit Campaign v8 Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 badge: label="Alpha" type="Positive"
-source-git-commit: c4b06445c23c82d02bd34b64f96445ca994c0a24
+source-git-commit: c0dd90540e4347612bf60ba8c6d4a739aed502cb
 workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 64%
@@ -50,7 +50,7 @@ Gehen Sie wie folgt vor, um eine Verbindung zum Adobe Campaign-Web herzustellen:
 
 Wenn Sie bereits mit einer anderen Adobe Experience Cloud-Lösung verbunden sind, können Sie über den Lösungsschalter oben rechts auf Ihrem Bildschirm zu Ihrer Campaign-Umgebung navigieren.
 
-## Über die Campaign-Client-Konsole{#ac-client}
+## Über die Campaign-Client-Konsole {#ac-client}
 
 Die Campaign-Client-Konsole ist eine Browser-basierte Anwendung, die auf Ihrem System installiert ist. Sie nutzt die Web-Services-API, um eine Verbindung zu Ihrem Campaign-Anwendungs-Server herzustellen.
 
