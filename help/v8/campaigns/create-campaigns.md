@@ -4,7 +4,7 @@ title: Erstellen von Kampagnen mit Adobe Campaign Web
 description: Erfahren Sie, wie Sie mit Adobe Campaign Web Cross-Channel-Kampagnen erstellen
 badge: label="Alpha" type="Positive"
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
-source-git-commit: 3f2fc84132eab0f75aa405ba16f996601b21b784
+source-git-commit: 4619cffbe2f172637357668b2b4f50cebc27af09
 workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 18%
@@ -41,12 +41,12 @@ Gehen Sie wie folgt vor, um eine neue Kampagne zu erstellen:
    >Sie können diese Eigenschaften jederzeit ändern, indem Sie die **Kampagneneinstellungen konfigurieren** neben dem Kampagnentitel. Siehe diesen [Abschnitt](gs-campaigns.md#campaign-dashboard)
 
 1. Wählen Sie **Erstellen** aus.
-1. Fügen Sie Ihrer Kampagne Workflows und Sendungen hinzu.
+1. Fügen Sie Ihrer Kampagne Workflows und Sendungen hinzu:
 
    * Aus dem **Workflows** Registerkarte, klicken Sie auf **Workflow erstellen**. Beim Erstellen Ihrer Kampagne wird automatisch ein Standard-Workflow hinzugefügt. Weitere Informationen zum [Workflow erstellen](../workflows/create-workflow.md)
    * Aus dem **Sendungen** Registerkarte, klicken Sie auf **Versand erstellen**. [Weitere Informationen](../msg/gs-messages.md)
 
-1. Verwenden Sie die **Protokolle** und **Berichterstellung** Schaltflächen zur Analyse Ihrer Kampagne.
+1. Verwenden Sie die **Protokolle** und **Berichterstellung** -Schaltflächen, um die Leistung Ihrer Kampagne zu analysieren.
 
 ## Monitoring- und Trackinglogs{#campaign-monitoring}
 
@@ -63,7 +63,7 @@ Sie können eine Kampagne duplizieren oder löschen:
 
 >[!NOTE]
 >
->Die **Versand** alle mit der Kampagne verknüpften Sendungen anzeigen. In einem Workflow erstellte Sendungen können jedoch nicht von dort gelöscht werden. Um einen im Rahmen eines Workflows erstellten Versand zu löschen, ist die Löschung der Versandaktivität im Workflow erforderlich.
+>Die **Sendungen** alle mit der Kampagne verknüpften Sendungen anzeigen. In einem Workflow erstellte Sendungen können jedoch nicht von dort gelöscht werden. Um einen im Rahmen eines Workflows erstellten Versand zu löschen, ist die Löschung der Versandaktivität im Workflow erforderlich.
 
 
 <!--
