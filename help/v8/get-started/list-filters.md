@@ -3,7 +3,7 @@ audience: end-user
 title: Listen durchsuchen, durchsuchen und filtern
 description: Erfahren Sie, wie Sie Listen in Campaign Web v8 durchsuchen und filtern
 badge: label="Alpha" type="Positive"
-source-git-commit: 31e5d314ed0b7792d6a28614699fbe6a41b8a783
+source-git-commit: 7c8aa54fc267ca4db3ed5e77a0d86af2f242f4fe
 workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 14%
@@ -69,3 +69,6 @@ Verwenden Sie die **Erweiterte Attribute anzeigen** umschalten, um alle Attribut
 Standardmäßig werden in den Konfigurationsbildschirmen der Attributliste und der Filter nur die häufigsten Attribute angezeigt. Attribute, die als `advanced` -Attribute im Datenschema sind in den Konfigurationsbildschirmen ausgeblendet.
 
 Aktivieren Sie die **Erweiterte Attribute anzeigen** umschalten, um alle verfügbaren Attribute für die aktuelle Liste anzuzeigen: die Attributliste sofort aktualisiert wird.
+
+
+![](assets/adv-toggle.png){width="70%" align="left" zoomable="yes"}
