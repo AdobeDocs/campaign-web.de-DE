@@ -4,10 +4,10 @@ title: Verwenden einer Adobe Experience Platform-Audience
 description: Erfahren Sie, wie Sie eine Audience aus Adobe Experience Platform verwenden
 badge: label="Alpha" type="Positive"
 exl-id: beb73107-3d27-40ac-afef-ac2b66ae8d34
-source-git-commit: f7d59309979a063f4491f24c4a9e6deab83a4351
+source-git-commit: 958d3ca6ab7eb05a3201ed3344d4659a8756e3ef
 workflow-type: tm+mt
-source-wordcount: '330'
-ht-degree: 56%
+source-wordcount: '291'
+ht-degree: 47%
 
 ---
 
@@ -22,13 +22,13 @@ Nachdem Sie eine Adobe Experience Platform-Audience erstellt haben und diese in 
 >Um Adobe Experience Platform-Zielgruppen in Campaign verwenden zu können, müssen Sie die Integration mit Adobe-Quellen und -Zielen konfigurieren. Siehe [Dokumentation zu Campaign v8 (Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html?lang=de){target="_blank"}.
 
 
-Außerdem haben Sie folgende Möglichkeiten:
+Zur Auswahl der Zielgruppe eines Versands haben Sie außerdem folgende Möglichkeiten:
 
 * Erstellen Sie eine neue Zielgruppe. [Weitere Informationen](segment-builder.md)
 * Laden einer Audience aus einer externen Datei. [Weitere Informationen](file-audience.md)
 * Verwenden Sie eine vorhandene Campaign-Zielgruppe. [Weitere Informationen](add-audience.md).
 
-Gehen Sie wie folgt vor, um eine Adobe Experience Platform-Audience für Ihre Nachricht auszuwählen:
+Gehen Sie wie folgt vor, um eine Adobe Experience Platform-Audience für Ihren Versand auszuwählen:
 
 1. Klicken Sie im Abschnitt **Audience** des Assistenten zur Versanderstellung auf die Schaltfläche **[!UICONTROL Audience auswählen]**.
 
@@ -54,5 +54,4 @@ Gehen Sie wie folgt vor, um eine Adobe Experience Platform-Audience für Ihre Na
 
 1. Klicken Sie auf **Speichern**.
 
-Sie können auch eine Kontrollgruppe einrichten, um die Wirkung Ihrer Kampagnen zu messen. Die Kontrollgruppe erhält die Nachricht nicht. Dadurch lässt sich das Verhalten der Population, die die Nachricht erhalten hat, mit dem Verhalten der Kontakte vergleichen, die die Nachricht nicht erhalten haben. Siehe [diesen Abschnitt](control-group.md).
 

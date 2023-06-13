@@ -4,7 +4,7 @@ title: Erste Schritte mit Audiences
 description: Erfahren Sie, wie Sie Audiences in der Web-Benutzeroberfläche von Campaign verwenden.
 badge: label="Alpha" type="Positive"
 exl-id: 21bb5082-82ce-47d6-a4d4-becf44490f13
-source-git-commit: 3ebe92659916cf2fa4cacb8d28b79d7b6d5359f3
+source-git-commit: bbebd9dc462a189618cbf6e71467bb0935e1317a
 workflow-type: tm+mt
 source-wordcount: '217'
 ht-degree: 31%
@@ -40,7 +40,7 @@ Die Audience ist die Hauptzielgruppe Ihres Versands: die Empfänger, die die Nac
 
 Zur Definition der Audience-Population haben Sie folgende Möglichkeiten:
 
-* Wählen Sie eine vorhandene Zielgruppe aus, die als Liste in der Client-Konsole erstellt wurde. [Weitere Informationen](add-audience.md)
+* Wählen Sie eine vorhandene Zielgruppe aus, die als Liste in der Clientkonsole erstellt wurde. [Weitere Informationen](add-audience.md)
 * Wählen Sie eine Adobe Experience Platform-Zielgruppe aus. [Weitere Informationen](aep-audience.md)
 * Erstellen Sie mit dem Regel-Builder eine neue Zielgruppe, indem Sie Filterkriterien definieren und kombinieren. [Weitere Informationen](segment-builder.md)
 * Verwenden Sie eine Audience aus einer externen Datei: Diese Option steht nur für eigenständige E-Mail-Sendungen zur Verfügung und kann nicht in Kampagnensendungen verwendet werden. [Weitere Informationen](file-audience.md)

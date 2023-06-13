@@ -4,10 +4,10 @@ title: Neue Funktionen in Campaign Web v8
 description: Entdecken Sie neue Funktionen von Campaign Web v8.
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Alpha" type="Positive"
-source-git-commit: c0dd90540e4347612bf60ba8c6d4a739aed502cb
+source-git-commit: bbebd9dc462a189618cbf6e71467bb0935e1317a
 workflow-type: tm+mt
 source-wordcount: '511'
-ht-degree: 65%
+ht-degree: 62%
 
 ---
 
@@ -56,13 +56,13 @@ Darüber hinaus sind alle Daten und Einstellungen, die bereits in der Clientkons
 
 ## Aktualisierungen der Terminologie {#terminology-updates}
 
-Bestehende Campaign-Benutzende sollten beachten, dass einige Konzepte entsprechend den aktuellen Terminologiestandards umbenannt wurden. Diese Änderungen gelten nur für die Web-Benutzeroberfläche von Campaign und werden nicht in der Client-Konsole übernommen. Sie sind unten zusammengefasst.
+Bestehende Campaign-Benutzende sollten beachten, dass einige Konzepte entsprechend den aktuellen Terminologiestandards umbenannt wurden. Diese Änderungen gelten nur für die Campaign-Webbenutzeroberfläche und werden nicht in der Clientkonsole übernommen. Sie sind unten zusammengefasst.
 
-* Testsendungen heißen jetzt **Test-E-Mails**: verwenden Sie zum Testversand die Schaltfläche **Test** in der Benutzeroberfläche des E-Mail-Versands. Die Zielgruppe des Testversands wird jetzt als **Testprofile** bezeichnet
-* Testadressen werden jetzt als **Testprofile** verwendet: Senden Sie die Test-E-Mail an Testadressen, bei denen es sich um zusätzliche, fiktive Empfänger in der Datenbank handelt
-* Die Versandanalyse heißt jetzt **Versandvorbereitung**. Wenn Sie die Analyse starten möchten, klicken Sie auf die Schaltfläche **Vorbereiten**
-* Die E-Mail-Vorschau ist jetzt über die Schaltfläche **Inhalt simulieren** verfügbar
-* Listen heißen jetzt **Audiences**
+* Testsendungen heißen jetzt **Test-E-Mails**: verwenden Sie zum Testversand die Schaltfläche **Test** in der Benutzeroberfläche des E-Mail-Versands. Die Zielgruppe des Testversands wird jetzt als **Testprofile** bezeichnet.
+* Testadressen werden jetzt als **Testprofile** verwendet: Senden Sie die Test-E-Mail an Testadressen, bei denen es sich um zusätzliche, fiktive Empfänger in der Datenbank handelt.
+* Die Versandanalyse heißt jetzt **Versandvorbereitung**. Wenn Sie die Analyse starten möchten, klicken Sie auf die Schaltfläche **Vorbereiten**.
+* Die E-Mail-Vorschau ist jetzt über die Schaltfläche **Inhalt simulieren** verfügbar.
+* Listen heißen jetzt **Audiences**.
 
 ## Einschränkungen{#limitations-alpha}
 

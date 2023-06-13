@@ -3,7 +3,7 @@ audience: end-user
 title: Verwenden der Workflow-Aktivität Audience erstellen
 description: Erfahren Sie, wie Sie die Workflow-Aktivität Audience erstellen verwenden.
 badge: label="Alpha" type="Positive"
-source-git-commit: 773d2476232f4e0609346f4f4518c3250c26985a
+source-git-commit: bbebd9dc462a189618cbf6e71467bb0935e1317a
 workflow-type: tm+mt
 source-wordcount: '314'
 ht-degree: 7%
@@ -17,7 +17,7 @@ Die **Audience erstellen** -Aktivität **Targeting** Aktivität. Diese Aktivitä
 
 Zur Definition der Audience-Population haben Sie folgende Möglichkeiten:
 
-* Wählen Sie eine vorhandene Zielgruppe aus, die als Liste in der Client-Konsole erstellt wurde.
+* Wählen Sie eine vorhandene Zielgruppe aus, die als Liste in der Clientkonsole erstellt wurde.
 * Wählen Sie eine Adobe Experience Platform-Zielgruppe aus.
 * Erstellen Sie mit dem Regel-Builder eine neue Zielgruppe, indem Sie Filterkriterien definieren und kombinieren.
 
