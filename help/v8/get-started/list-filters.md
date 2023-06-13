@@ -3,7 +3,7 @@ audience: end-user
 title: Listen durchsuchen, durchsuchen und filtern
 description: Erfahren Sie, wie Sie Listen in Campaign Web v8 durchsuchen und filtern
 badge: label="Alpha" type="Positive"
-source-git-commit: 1503f07f72bf654594422fd861233d871047be4d
+source-git-commit: ee93f052e297c205cac3894acd2b04b1ba46ebdc
 workflow-type: tm+mt
 source-wordcount: '390'
 ht-degree: 14%
@@ -27,11 +27,11 @@ Im **Spalten konfigurieren** -Bildschirm anzeigen, Spalten hinzufügen oder entf
 
 Für diese Einstellungen beispielsweise:
 
-![](assets/columns.png){width="70%" align="left"}
+![](assets/columns.png){width="70%" align="left" zoomable="yes"}
 
 Die Liste enthält die folgenden Spalten:
 
-![](assets/column-sample.png){width="70%" align="left"}
+![](assets/column-sample.png){width="70%" align="left" zoomable="yes"}
 
 Verwenden Sie die **Erweiterte Attribute anzeigen** umschalten, um alle Attribute für die aktuelle Liste anzuzeigen. [Weitere Informationen](#adv-attributes)
 
@@ -45,7 +45,7 @@ Bei numerischen Spalten oder Datumsspalten wird die **up** Der Pfeil zeigt an, d
 
 Um Elemente schneller zu finden, können Sie die Suchleiste verwenden oder die Liste nach Kontextkriterien filtern.
 
-![](assets/filter.png){width="70%" align="left"}
+![](assets/filter.png){width="70%" align="left" zoomable="yes"}
 
 Sie können beispielsweise Sendungen nach Status, Kanal, Kontaktdatum oder Ordner filtern. Sie können auch Tests ausblenden.
 
@@ -55,7 +55,7 @@ Um benutzerdefinierte Datenfilter zu erstellen, navigieren Sie zum unteren Rand 
 
 Ziehen Sie Attribute per Drag-and-Drop, um Ihre Filterkriterien in der **Erweiterte Filter** angezeigt.
 
-![](assets/custom-filter.png){width="70%" align="left"}
+![](assets/custom-filter.png){width="70%" align="left" zoomable="yes"}
 
 Verwenden Sie die **Erweiterte Attribute anzeigen** umschalten, um alle Attribute für die aktuelle Liste anzuzeigen. [Weitere Informationen](#adv-attributes)
 
