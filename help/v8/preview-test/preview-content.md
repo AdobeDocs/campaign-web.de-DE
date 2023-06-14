@@ -4,9 +4,9 @@ title: Vorschau des Versandinhalts
 description: Erfahren Sie, wie Sie mit der Campaign-Web-Benutzeroberfläche eine Vorschau Ihres Versandinhalts anzeigen können.
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
 badge: label="Alpha"
-source-git-commit: 861a16500b5faf947dd1545976f3c4bbe6548467
+source-git-commit: 890141a65fcacd0362acda49ff4066961d5ea371
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '337'
 ht-degree: 5%
 
 ---
@@ -28,9 +28,9 @@ Gehen Sie wie folgt vor, um eine Vorschau des Versandinhalts anzuzeigen.
 
 1. Um die Profile auszuwählen, die für die Vorschau Ihres personalisierten Inhalts verwendet werden, verwenden Sie:
 
-   * **[!UICONTROL Hinzufügen von Testprofilen]** für die Vorschau von E-Mail- und SMS-Nachrichten
+   * **[!UICONTROL Hinzufügen von Testprofilen]** für die Vorschau von E-Mail- und SMS-Sendungen
 
-   * **[!UICONTROL Abonnenten hinzufügen]** für die Vorschau von Push-Sendungen
+   * **[!UICONTROL Abonnenten hinzufügen]** für die Vorschau von Push-Benachrichtigungen
 
 1. Sie können Testprofile und Profile kombinieren, um eine Vorschau Ihrer E-Mail- oder SMS-Nachricht anzuzeigen.
 
