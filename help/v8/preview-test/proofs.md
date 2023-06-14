@@ -4,7 +4,7 @@ title: Testsendungen durchführen
 description: Erfahren Sie, wie Sie Testsendungen definieren und senden
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Alpha"
-source-git-commit: 861a16500b5faf947dd1545976f3c4bbe6548467
+source-git-commit: 27ea0847bfeee3d99347e0dafa5d0f8eb92446b1
 workflow-type: tm+mt
 source-wordcount: '867'
 ht-degree: 1%
@@ -27,11 +27,11 @@ Je nach verwendetem Kanal können Testnachrichten an drei Empfängertypen gesend
 
   Sie können im [!DNL Campaign] in die **[!UICONTROL Ressourcen]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Testadressen]** Ordner. Weitere Informationen finden Sie unter [Dokumentation zu Campaign v8 (Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
 
-* **[Ersatz aus Hauptzielgruppe](#substitution-profiles)** - Senden **Test-E-Mails und SMS** auf eine bestimmte E-Mail-Adresse oder Telefonnummer zu setzen, während die Identität eines vorhandenen Profils übernommen wird.
+* [Ersatz aus Hauptzielgruppe](#substitution-profiles) - Senden **Test-E-Mails und SMS** auf eine bestimmte E-Mail-Adresse oder Telefonnummer zu setzen, während die Identität eines vorhandenen Profils übernommen wird.
 
   Auf diese Weise können Sie die Nachricht so erleben, wie es die Empfänger tun, und den Inhalt, den das Profil empfangen wird, präzise wiedergeben.
 
-* **[Abonnenten](#subscribers)** - Senden **Test-Push-Benachrichtigungen** fiktiven Abonnenten, die zur Datenbank hinzugefügt wurden.
+* [Abonnenten](#subscribers) - Senden **Test-Push-Benachrichtigungen** fiktiven Abonnenten, die zur Datenbank hinzugefügt wurden.
 
   Genau wie Testprofile können auch sie im [!DNL Campaign] in die **[!UICONTROL Ressourcen]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Testadressen]** Ordner. Weitere Informationen finden Sie unter [Dokumentation zu Campaign v8 (Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
 
