@@ -4,7 +4,7 @@ title: Senden von Angeboten
 description: Senden von Angeboten
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
 badge: label="Alpha"
-source-git-commit: 3de1ff02f095abf49a5ac23ad291408a81f80b51
+source-git-commit: a66fe155aa1543d53c3ba1b5620159240d50bf3a
 workflow-type: tm+mt
 source-wordcount: '552'
 ht-degree: 94%
@@ -45,7 +45,7 @@ Die wichtigsten Schritte zum Senden von Angeboten mit einer E-Mail sind:
 
    Wenn keine Kategorie spezifiziert wird, werden alle in der Umgebung enthaltenen Angebote von der Angebots-Engine berücksichtigt, es sei denn, es wurde ein **[!UICONTROL Angebotsthema]** ausgewählt.
 
-1. (Optional) Geben Sie ein Design zum Filtern von Kategorien ein. Themen sind Schlüsselwörter, die zuvor in den Kategorien definiert wurden. Sie dienen als Filter und ermöglichen es Ihnen, die Anzahl der zu unterbreitenden Angebote durch Auswahl in einer Reihe von Kategorien zu verfeinern.
+1. (Optional) Geben Sie ein Design ein, nach dem Kategorien gefiltert werden sollen. Themen sind Schlüsselwörter, die zuvor in den Kategorien definiert wurden. Sie dienen als Filter und ermöglichen es Ihnen, die Anzahl der zu unterbreitenden Angebote durch Auswahl in einer Reihe von Kategorien zu verfeinern.
 
 1. Verwenden Sie das Feld **[!UICONTROL Vorschläge]**, um die Anzahl der Angebote anzugeben, die Sie in die E-Mail einfügen möchten.
 
