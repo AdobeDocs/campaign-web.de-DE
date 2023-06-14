@@ -1,32 +1,38 @@
 ---
 audience: end-user
-title: Vorschau von E-Mail-Inhalten
-description: Erfahren Sie, wie Sie mit der Web-Benutzeroberfläche von Campaign eine Vorschau Ihres E-Mail-Inhalts anzeigen können.
+title: Vorschau des Versandinhalts
+description: Erfahren Sie, wie Sie mit der Campaign-Web-Benutzeroberfläche eine Vorschau Ihres Versandinhalts anzeigen können.
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
 badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: 861a16500b5faf947dd1545976f3c4bbe6548467
 workflow-type: tm+mt
-source-wordcount: '311'
-ht-degree: 21%
+source-wordcount: '336'
+ht-degree: 5%
 
 ---
 
 
-# Vorschau von E-Mail-Inhalten {#preview-content}
+# Vorschau des Versandinhalts {#preview-content}
 
-Verwenden Sie die [!DNL Campaign] Inhaltssimulation , um vor dem Versand eine Vorschau des Inhalts Ihrer E-Mail anzuzeigen. Auf diese Weise können Sie die Personalisierung steuern und überprüfen, wie sie Ihren Empfängern angezeigt wird.
+Verwenden Sie die [!DNL Campaign] Inhaltssimulation , um den Inhalt Ihrer Nachricht vor dem Versand in einer Vorschau anzuzeigen. Auf diese Weise können Sie die Personalisierung steuern und überprüfen, wie sie Ihren Empfängern angezeigt wird.
 
-Gehen Sie wie folgt vor, um eine Vorschau des Inhalts Ihrer E-Mail anzuzeigen.
+Gehen Sie wie folgt vor, um eine Vorschau des Versandinhalts anzuzeigen.
 
-1. E-Mail durchsuchen [Inhalt bearbeiten](../content/edit-content.md) oder auf [Email Designer](../content/get-started-email-designer.md).
+1. Navigieren Sie zum Bildschirm Inhalt bearbeiten Ihres Versands.
+
+   <!--email [Edit content](../content/edit-content.md) screen or to the [Email Designer](../content/get-started-email-designer.md).-->
 
 1. Klicken Sie auf **[!UICONTROL Inhalt simulieren]** Schaltfläche.
 
    ![](assets/simulate-button.png)
 
-1. Verwenden Sie die **[!UICONTROL Hinzufügen von Testprofilen]** zur Auswahl der Profile, die für die Vorschau Ihres personalisierten Inhalts verwendet werden.
+1. Um die Profile auszuwählen, die für die Vorschau Ihres personalisierten Inhalts verwendet werden, verwenden Sie:
 
-1. Sie können Testprofile und Profile miteinander kombinieren, um eine Vorschau der E-Mail anzuzeigen.
+   * **[!UICONTROL Hinzufügen von Testprofilen]** für die Vorschau von E-Mail- und SMS-Nachrichten
+
+   * **[!UICONTROL Abonnenten hinzufügen]** für die Vorschau von Push-Sendungen
+
+1. Sie können Testprofile und Profile kombinieren, um eine Vorschau Ihrer E-Mail- oder SMS-Nachricht anzuzeigen.
 
    * Die Registerkarte **[!UICONTROL Testprofile]** enthält Testadressen für zusätzliche, fiktive Empfangende in der Datenbank.
 
@@ -38,19 +44,20 @@ Gehen Sie wie folgt vor, um eine Vorschau des Inhalts Ihrer E-Mail anzuzeigen.
 
    ![](assets/simulate-select-profiles.png)
 
-1. Klicken **[!UICONTROL Auswählen]** um Ihre Auswahl auf beiden Registerkarten zu bestätigen.
+1. Klicken **[!UICONTROL Auswählen]** um Ihre Auswahl zu bestätigen.
 
-   Eine Vorschau der E-Mail wird im rechten Bereich des **[!UICONTROL Simulieren]** angezeigt. Personalisierte Elemente werden durch Daten aus dem Profil ersetzt, das im linken Bereich ausgewählt wurde.
+   Eine Vorschau des Versandinhalts wird im rechten Bereich des **[!UICONTROL Simulieren]** angezeigt. Personalisierte Elemente werden durch Daten aus dem Profil ersetzt, das im linken Bereich ausgewählt wurde.
 
    ![](assets/simulate-preview.png)
 
-1. Wenn mehrere Profile hinzugefügt wurden, können Sie in der Liste zwischen ihnen wechseln, um eine Vorschau der entsprechenden E-Mail anzuzeigen. Sie können auch weitere Testprofile hinzufügen und Ihre Auswahl mithilfe der entsprechenden Schaltflächen im linken Bereich löschen.
+1. Wenn Sie mehrere Profile hinzugefügt haben, können Sie in der Liste zwischen ihnen wechseln, um die Vorschau des entsprechenden Versandinhalts anzuzeigen. Sie können auch weitere Testprofile hinzufügen und Ihre Auswahl mithilfe der entsprechenden Schaltflächen im linken Bereich löschen.
 
-1. Sie können die **[!UICONTROL Zoomfaktor]** und zeigen Sie Ihre Inhalte auf dem Desktop oder Mobilgerät mithilfe des entsprechenden Symbols oben rechts an.
+1. Bei E-Mail-Sendungen können Sie die **[!UICONTROL Zoomfaktor]** und zeigen Sie Ihre Inhalte auf dem Desktop oder Mobilgerät mithilfe des entsprechenden Symbols oben rechts an.
 
 1. Aus dem **[!UICONTROL Simulieren]** -Bildschirm haben Sie auch folgende Möglichkeiten:
-   * Prüfen Sie das E-Mail-Rendering in beliebten E-Mail-Clients - [Weitere Infos](email-rendering.md)
-   * Senden von Test-E-Mails zur Validierung an bestimmte Empfänger - [Weitere Infos](proofs.md)
+   * Testsendungen zur Validierung an bestimmte Empfänger senden - [Weitere Infos](proofs.md)
+   * Zugriff auf die Protokolle der gesendeten Testsendungen - [Weitere Infos](proofs.md#access-proofs)
+   * Nur für E-Mail: Überprüfen Sie das Rendering des Nachrichteninhalts in gängigen E-Mail-Clients - [Weitere Infos](email-rendering.md)
 
 
 

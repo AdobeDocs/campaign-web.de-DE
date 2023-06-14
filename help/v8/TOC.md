@@ -5,10 +5,10 @@ title: Dokumentation zu Adobe Campaign v8 Web
 description: Web-Dokumentation zu Campaign v8
 breadcrumb-title: Übersicht über Campaign
 hide: true
-source-git-commit: 26d9f35e724f3f692e7f75dd74da7d6fae4cb310
+source-git-commit: 304956e6de9f4f092e994c168f075f3555f53b38
 workflow-type: tm+mt
-source-wordcount: '351'
-ht-degree: 72%
+source-wordcount: '352'
+ht-degree: 69%
 
 ---
 
@@ -48,11 +48,6 @@ ht-degree: 72%
             + [Definieren eines Stils für Links](content/styling-links.md)
             + [Hinzufügen von Inline-Styling-Attributen](content/inline-styling.md)
          + [Senden von Angeboten](content/offers.md)
-      + Erstellen einer E-Mail-Vorschau und Testen einer E-Mail {#preview-test}
-         + [Über die Vorschau und Tests](preview-test/preview-test.md)
-         + [Vorschau von E-Mail-Inhalten](preview-test/preview-content.md)
-         + [E-Mail rendern](preview-test/email-rendering.md)
-         + [Senden von Test-E-Mails](preview-test/proofs.md)
       + Senden und Überwachen der E-Mail {#monitor}
          + [Vorbereiten und Senden einer E-Mail](monitor/prepare-send.md)
          + [Überwachen von Versandlogs](monitor/delivery-logs.md)
@@ -72,6 +67,11 @@ ht-degree: 72%
       + [Hinzufügen von Personalisierung](personalization/personalize.md)
       + [Hinzufügen bedingter Inhalte](personalization/conditions.md)
       + [Hinzufügen integrierter Inhaltsbausteine](personalization/content-blocks.md)
+   + Versand in der Vorschau ansehen und testen {#preview-test}
+      + [Über die Vorschau und Tests](preview-test/preview-test.md)
+      + [Vorschau des Nachrichteninhalts anzeigen](preview-test/preview-content.md)
+      + [Testsendungen durchführen](preview-test/proofs.md)
+      + [E-Mail rendern](preview-test/email-rendering.md)
 + Audiences und Empfänger {#audiences}
    + [Erste Schritte mit Audiences](audience/about-audiences.md)
    + [Auswählen einer bestehenden Audience](audience/add-audience.md)
