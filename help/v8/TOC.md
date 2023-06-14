@@ -5,7 +5,7 @@ title: Dokumentation zu Adobe Campaign v8 Web
 description: Web-Dokumentation zu Campaign v8
 breadcrumb-title: Übersicht über Campaign
 hide: true
-source-git-commit: 304956e6de9f4f092e994c168f075f3555f53b38
+source-git-commit: 34bed4f276fd0eeb54ad23ddd02e833a0547f707
 workflow-type: tm+mt
 source-wordcount: '352'
 ht-degree: 69%
@@ -47,7 +47,6 @@ ht-degree: 69%
             + [Anpassen der senkrechten Ausrichtung und des Abstands](content/alignment-and-padding.md)
             + [Definieren eines Stils für Links](content/styling-links.md)
             + [Hinzufügen von Inline-Styling-Attributen](content/inline-styling.md)
-         + [Senden von Angeboten](content/offers.md)
       + Senden und Überwachen der E-Mail {#monitor}
          + [Vorbereiten und Senden einer E-Mail](monitor/prepare-send.md)
          + [Überwachen von Versandlogs](monitor/delivery-logs.md)
@@ -67,6 +66,7 @@ ht-degree: 69%
       + [Hinzufügen von Personalisierung](personalization/personalize.md)
       + [Hinzufügen bedingter Inhalte](personalization/conditions.md)
       + [Hinzufügen integrierter Inhaltsbausteine](personalization/content-blocks.md)
+   + [Senden von Angeboten](content/offers.md)
    + Versand in der Vorschau ansehen und testen {#preview-test}
       + [Über die Vorschau und Tests](preview-test/preview-test.md)
       + [Vorschau des Nachrichteninhalts anzeigen](preview-test/preview-content.md)
