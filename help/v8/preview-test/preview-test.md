@@ -4,10 +4,10 @@ title: Über die E-Mail-Vorschau und Tests
 description: Erfahren Sie, wie Sie E-Mails in der Vorschau anzeigen und testen können.
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
 badge: label="Alpha"
-source-git-commit: 861a16500b5faf947dd1545976f3c4bbe6548467
+source-git-commit: 6edc22b574e3a655774a8ecb5e8e6c0fab5c89c8
 workflow-type: tm+mt
-source-wordcount: '185'
-ht-degree: 21%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -17,8 +17,8 @@ ht-degree: 21%
 >id="acw_deliveries_simulate"
 >title="Vorschau erstellen und Nachrichten testen"
 >abstract="Sobald der Nachrichteninhalt definiert worden ist, können Sie ihn mithilfe von Testprofilen in der Vorschau sehen und testen."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/preview-test/preview-content.html?lang=en" text="Versandinhalt in der Vorschau ansehen"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/preview-test/proofs.html?lang=en" text="Testnachrichten senden"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/preview-content.html" text="Versandinhalt in der Vorschau ansehen"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/preview-test.html" text="Testnachrichten senden"
 
 Nachdem der Versandinhalt definiert wurde, können Sie Testprofile verwenden, um eine Vorschau anzuzeigen und zu testen, bevor Sie die Nachricht senden.
 
