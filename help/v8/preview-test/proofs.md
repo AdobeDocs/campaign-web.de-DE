@@ -4,9 +4,9 @@ title: Testsendungen durchführen
 description: Erfahren Sie, wie Sie Testsendungen definieren und senden
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Alpha"
-source-git-commit: 27ea0847bfeee3d99347e0dafa5d0f8eb92446b1
+source-git-commit: b4598f8c1574330bc14b3f100d4ab66190353843
 workflow-type: tm+mt
-source-wordcount: '867'
+source-wordcount: '894'
 ht-degree: 1%
 
 ---
@@ -49,13 +49,9 @@ Um die Empfänger eines Testversands auszuwählen, gehen Sie entsprechend dem ge
 
    ![](assets/simulate-test-button-email.png)
 
-1. Verwenden Sie die **[!UICONTROL Modus]** Dropdown-Liste zur Auswahl des Empfängertyps, der den Test-E-Mail- oder SMS-Versand erhält:
+1. Aus dem **[!UICONTROL Modus]** Dropdown-Liste auswählen **Testprofile** , um fiktive Empfänger auszuwählen, die den Test-E-Mail- oder SMS-Versand erhalten.
 
-   * **Testprofile** Zielgruppe fiktiver Empfänger
-
-   Wenn Sie bereits Profile in [Vorschau der Nachricht erzeugen](preview-content.md) im Bildschirm der Inhaltsimulation werden diese Profile vorab als Testempfänger ausgewählt. Sie können Ihre Auswahl löschen und/oder zusätzliche Empfänger hinzufügen, indem Sie die **[!UICONTROL Hinzufügen von Testprofilen]** Schaltfläche.
-
-   * **Ersatz aus Hauptzielgruppe** , um einen Test an eine bestimmte E-Mail-Adresse oder Telefonnummer zu senden und dabei Daten aus einem vorhandenen Profil anzuzeigen. [Weitere Informationen](#substitution-profiles)
+1. Wenn Sie bereits Profile in [Vorschau der Nachricht erzeugen](preview-content.md) im Bildschirm der Inhaltsimulation werden diese Profile vorab als Testempfänger ausgewählt. Sie können Ihre Auswahl löschen und/oder zusätzliche Empfänger hinzufügen, indem Sie die **[!UICONTROL Hinzufügen von Testprofilen]** Schaltfläche.
 
    ![](assets/simulate-profile-mode.png)
 
@@ -69,9 +65,21 @@ Um die Empfänger eines Testversands auszuwählen, gehen Sie entsprechend dem ge
 
 ### Ersatzprofile {#substitution-profiles}
 
-Verwenden Sie Ersatzprofile, um eine Test-E-Mail oder SMS an eine bestimmte E-Mail-Adresse oder Telefonnummer zu senden und dabei Daten aus einem vorhandenen Profil der Campaign-Datenbank anzuzeigen.
+So senden Sie eine Test-E-Mail oder SMS an eine bestimmte E-Mail-Adresse oder Telefonnummer, während Daten aus einem vorhandenen Profil der [!DNL Campaign] -Datenbank verwenden Ersatzprofile.
 
-Die ersten Schritte entsprechen denen bei der Auswahl von [Testprofile](#test-profiles), aber wählen Sie die **[!UICONTROL Aus Zielgruppe ersetzen]** und führen Sie die folgenden Schritte aus.
+1. Stellen Sie vor dem Versand eines Tests sicher, dass Sie eine Audience für Ihren Versand definieren. [Weitere Informationen](../audience/about-audiences.md)
+
+1. Navigieren Sie zum Bildschirm Inhalt bearbeiten Ihres E-Mail- oder SMS-Versands und klicken Sie auf die Schaltfläche **[!UICONTROL Inhalt simulieren]** Schaltfläche.
+
+1. Klicken Sie auf **[!UICONTROL Test]** Schaltfläche.
+
+   >[!NOTE]
+   >
+   >Wenn Sie bereits Profile in [Vorschau des Versands anzeigen](preview-content.md), werden sie im linken Bereich aufgelistet.
+
+   ![](assets/simulate-test-button-email.png)
+
+1. Aus dem **[!UICONTROL Modus]** Dropdown-Liste auswählen **Ersatz aus Hauptzielgruppe** , um einen Test an eine bestimmte E-Mail-Adresse oder Telefonnummer zu senden und dabei Daten aus einem vorhandenen Profil anzuzeigen.
 
 1. Klicken Sie auf **[!UICONTROL Adresse hinzufügen]** und geben Sie die E-Mail-Adresse oder Telefonnummer an, an die der Testversand gesendet werden soll.
 
