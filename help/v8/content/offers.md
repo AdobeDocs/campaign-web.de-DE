@@ -4,17 +4,17 @@ title: Senden von Angeboten
 description: Senden von Angeboten
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
 badge: label="Alpha"
-source-git-commit: 9203d2bcfbe75b584ecab65637b5ded202435d29
+source-git-commit: a653fe4329f449a94f8056e4b5f2247bd839b87a
 workflow-type: tm+mt
-source-wordcount: '638'
-ht-degree: 52%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # Senden von Angeboten {#offers-content}
 
-Mit Adobe Campaign v8 Web können Sie Sendungen mit Ihren Versandangeboten durchführen, die in der Konsole mithilfe der **[!UICONTROL Interaction]** -Modul. Weitere Informationen zu Interaction und zur Verwaltung eines Angebotskatalogs in der Konsole finden Sie in der [Dokumentation zu Campaign V8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=de){target="_blank"}.
+Mit Adobe Campaign v8 Web können Sie Sendungen mit Ihren Versandangeboten durchführen, die in der Konsole mithilfe der **[!UICONTROL Interaction]** -Modul. Weiterführende Informationen zu Interaction und zur Verwaltung eines Angebotskatalogs in der Konsole finden Sie im Abschnitt [Dokumentation zu Campaign v8 (Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=de){target="_blank"}.
 
 Gehen Sie wie folgt vor, um Angebote mit einem Versand zu versenden:
 
@@ -39,7 +39,7 @@ Gehen Sie wie folgt vor, um Angebote mit einem Versand zu versenden:
 
 1. Konfigurieren Sie, welche Angebote den Empfängerinnen und Empfängern unterbreitet werden sollen.
 
-   Wählen Sie zunächst die **[!UICONTROL Platzierung]** entsprechend Ihrer Angebotsumgebung. Erfahren Sie, wie Sie eine Platzierung im [Dokumentation zu Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-settings/interaction-offer-spaces.html){target="_blank"}
+   Wählen Sie zunächst die **[!UICONTROL Platzierung]** entsprechend Ihrer Angebotsumgebung. Erfahren Sie, wie Sie eine Platzierung im [Dokumentation zu Campaign v8 (Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-settings/interaction-offer-spaces.html){target="_blank"}
 
    ![](assets/create-content-offers.png)
 

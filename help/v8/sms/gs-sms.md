@@ -4,10 +4,10 @@ title: Erste Schritte mit SMS-Sendungen
 description: Erfahren Sie, wie Sie SMS mit Adobe Campaign Web erstellen und senden
 badge: label="Alpha"
 exl-id: 642c4180-0439-43dd-ba3f-0c4843bbfe84
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: a653fe4329f449a94f8056e4b5f2247bd839b87a
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 43%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -23,7 +23,7 @@ Der SMS-Kanal bietet drei Methoden zur Erstellung von SMS-Sendungen:
 
 * **Eigenständige Sendungen**: Erstellen Sie individuelle SMS-Sendungen, um schnell und direkt mit Ihren Kunden kommunizieren zu können, ohne dass Workflows oder Kampagnen erforderlich sind.
 
-![](../assets/do-not-localize/book.png) Informationen zur Konfiguration des SMS-Kanals finden Sie in diesem Abschnitt [page](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/sms.html?lang=en).
+![](../assets/do-not-localize/book.png) Erfahren Sie, wie Sie den SMS-Kanal in konfigurieren [Dokumentation zu Campaign v8 (Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/sms.html){target="_blank"}.
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
