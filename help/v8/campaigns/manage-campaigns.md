@@ -3,10 +3,10 @@ audience: end-user
 title: Erste Schritte mit Kampagnen
 description: Erfahren Sie, wie Sie mit kanalübergreifenden Kampagnen beginnen
 badge: label="Alpha"
-source-git-commit: 97322acd2a1cdb4584118875be0bf2fa0da4f82b
+source-git-commit: f8d3e227d99387cc82b8db2ab602cd58404ee7ee
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 8%
+source-wordcount: '416'
+ht-degree: 9%
 
 ---
 
@@ -56,4 +56,4 @@ Sie können eine Kampagne duplizieren oder löschen:
 
 >[!NOTE]
 >
->Die **Sendungen** alle mit der Kampagne verknüpften Sendungen anzeigen. In einem Workflow erstellte Sendungen können jedoch nicht von dort gelöscht werden. Um einen im Rahmen eines Workflows erstellten Versand zu löschen, ist die Löschung der Versandaktivität im Workflow erforderlich.
+>Die **Sendungen** alle mit der Kampagne verknüpften Sendungen anzeigen. In einem Workflow erstellte Sendungen können jedoch nicht von dort gelöscht werden. Um einen im Rahmen eines Workflows erstellten Versand zu löschen, ist die Löschung der Versandaktivität im Workflow erforderlich. [Weitere Informationen](../msg/gs-messages.md#delivery-delete).
