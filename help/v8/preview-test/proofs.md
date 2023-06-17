@@ -4,9 +4,9 @@ title: Testsendungen durchführen
 description: Erfahren Sie, wie Sie Testsendungen definieren und senden
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Alpha"
-source-git-commit: b4598f8c1574330bc14b3f100d4ab66190353843
+source-git-commit: 0e06e5aa066b7b8fd49352dee4b5f85d0fb6e1ce
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '907'
 ht-degree: 1%
 
 ---
@@ -49,11 +49,11 @@ Um die Empfänger eines Testversands auszuwählen, gehen Sie entsprechend dem ge
 
    ![](assets/simulate-test-button-email.png)
 
-1. Aus dem **[!UICONTROL Modus]** Dropdown-Liste auswählen **Testprofile** , um fiktive Empfänger auszuwählen, die den Test-E-Mail- oder SMS-Versand erhalten.
-
-1. Wenn Sie bereits Profile in [Vorschau der Nachricht erzeugen](preview-content.md) im Bildschirm der Inhaltsimulation werden diese Profile vorab als Testempfänger ausgewählt. Sie können Ihre Auswahl löschen und/oder zusätzliche Empfänger hinzufügen, indem Sie die **[!UICONTROL Hinzufügen von Testprofilen]** Schaltfläche.
+1. Aus dem **[!UICONTROL Modus]** Dropdown-Liste auswählen **[!UICONTROL Testprofile]** , um fiktive Empfänger auszuwählen, die den Test-E-Mail- oder SMS-Versand erhalten.
 
    ![](assets/simulate-profile-mode.png)
+
+1. Wenn Sie bereits Profile in [Vorschau der Nachricht erzeugen](preview-content.md) im Bildschirm der Inhaltsimulation werden diese Profile vorab als Testempfänger ausgewählt. Sie können Ihre Auswahl löschen und/oder zusätzliche Empfänger hinzufügen, indem Sie die **[!UICONTROL Hinzufügen von Testprofilen]** Schaltfläche.
 
    >[!NOTE]
    >
@@ -73,17 +73,21 @@ So senden Sie eine Test-E-Mail oder SMS an eine bestimmte E-Mail-Adresse oder Te
 
 1. Klicken Sie auf **[!UICONTROL Test]** Schaltfläche.
 
-   >[!NOTE]
-   >
-   >Wenn Sie bereits Profile in [Vorschau des Versands anzeigen](preview-content.md), werden sie im linken Bereich aufgelistet.
-
    ![](assets/simulate-test-button-email.png)
 
-1. Aus dem **[!UICONTROL Modus]** Dropdown-Liste auswählen **Ersatz aus Hauptzielgruppe** , um einen Test an eine bestimmte E-Mail-Adresse oder Telefonnummer zu senden und dabei Daten aus einem vorhandenen Profil anzuzeigen.
+1. Aus dem **[!UICONTROL Modus]** Dropdown-Liste auswählen **[!UICONTROL Ersatz aus Hauptzielgruppe]** , um einen Test an eine bestimmte E-Mail-Adresse oder Telefonnummer zu senden und dabei Daten aus einem vorhandenen Profil anzuzeigen.
+
+   >[!CAUTION]
+   >
+   >Wenn Sie keine Auswahl für eine [audience](../audience/about-audiences.md) für Ihren Versand die Variable **[!UICONTROL Ersatz aus Hauptzielgruppe]** wird ausgegraut und Sie können keine Ersatzprofile auswählen.
 
 1. Klicken Sie auf **[!UICONTROL Adresse hinzufügen]** und geben Sie die E-Mail-Adresse oder Telefonnummer an, an die der Testversand gesendet werden soll.
 
-   Sie können eine beliebige E-Mail-Adresse oder Telefonnummer eingeben. Auf diese Weise können Sie Testsendungen an beliebige Empfänger senden, auch wenn diese keine Benutzer von sind [!DNL Adobe Campaign].
+   ![](assets/simulate-add-substitution-address.png)
+
+   >[!NOTE]
+   >
+   >Sie können eine beliebige E-Mail-Adresse oder Telefonnummer eingeben. Auf diese Weise können Sie Testsendungen an beliebige Empfänger senden, auch wenn diese keine Benutzer von sind [!DNL Adobe Campaign].
 
 1. Wählen Sie das Profil aus der Datenbank aus, das als Ersatz verwendet werden soll. Sie können auch [!DNL Adobe Campaign] Wählen Sie ein zufälliges Profil aus. Die Profildaten des ausgewählten Profils werden im Testversand angezeigt.
 
@@ -105,7 +109,9 @@ Beim Arbeiten mit Push-Benachrichtigungen können Testsendungen nur an Abonnente
 
    ![](assets/simulate-test-button-push.png)
 
-1. Wenn Sie bereits Abonnenten ausgewählt haben [Versandvorschau](preview-content.md) im Bildschirm der Inhaltsimulation werden diese Profile vorab als Testabonnenten ausgewählt. Über die dedizierte Schaltfläche können Sie Ihre Auswahl löschen und/oder zusätzliche Abonnenten hinzufügen.
+1. Wenn Sie bereits Abonnenten ausgewählt haben [Versandvorschau](preview-content.md) im Bildschirm der Inhaltsimulation werden diese Profile vorab als Testabonnenten ausgewählt.
+
+   Über die dedizierte Schaltfläche können Sie Ihre Auswahl löschen und/oder zusätzliche Abonnenten hinzufügen.
 
    ![](assets/simulate-test-subscribers.png)
 
