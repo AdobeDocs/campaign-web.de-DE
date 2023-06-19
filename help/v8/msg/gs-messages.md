@@ -4,14 +4,20 @@ title: Erste Schritte mit Nachrichten und Sendungen in Campaign v8 Web
 description: Erfahren Sie, wie Sie Campaign Web verwenden, um mit Sendungen zu arbeiten und Nachrichten zu senden
 badge: label="Alpha"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: 22134d69721796f43bab74ccf411300d411a5d90
 workflow-type: tm+mt
-source-wordcount: '1070'
-ht-degree: 83%
+source-wordcount: '1119'
+ht-degree: 84%
 
 ---
 
 # Erste Schritte mit Nachrichten{#gs-messages}
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_list"
+>title="Sendungen"
+>abstract="Durchsuchen Sie Ihre Sendungenliste. Sie können Status, Kontakt- und Änderungsdaten sowie wichtige KPIs anzeigen. Sie können die Liste nach Status, Kontaktdatum oder Kanal filtern. Klicken Sie auf die Schaltfläche „Versand erstellen“, um einen neuen Versand hinzuzufügen. Wählen Sie einen Versand aus, um seinen Inhalt, seine Zielgruppe und Details anzuzeigen."
+
 
 Mit Adobe Campaign können Sie Cross-Channel-Kampagnen einschließlich E-Mails, SMS und Push-Benachrichtigungen senden und deren Effektivität mithilfe verschiedener dedizierter Berichte messen.
 
@@ -52,6 +58,7 @@ Adobe Campaign v8 enthält die folgenden Versandkanäle: E-Mail-, SMS- und Mobil
 
 
 ## Erstellen eines Versands {#create-delivery}
+
 
 Sie können eigenständige Sendungen über das linke Menü **[!UICONTROL Sendungen]** erstellen oder Sendungen im Kontext einer Marketing-Kampagne über das linke Menü **[!UICONTROL Kampagnen]** erstellen.
 
