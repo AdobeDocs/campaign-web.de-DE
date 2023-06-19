@@ -4,14 +4,19 @@ title: Testsendungen durchführen
 description: Erfahren Sie, wie Sie Testsendungen definieren und senden
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Alpha"
-source-git-commit: 0e06e5aa066b7b8fd49352dee4b5f85d0fb6e1ce
+source-git-commit: 7c9388d5a406779f91180835e39e6dd2408d8a90
 workflow-type: tm+mt
-source-wordcount: '907'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Testsendungen durchführen {#send-test-deliveries}
+
+>[!CONTEXTUALHELP]
+>id="acw_email_preview_mode"
+>title="Vorschaumodus"
+>abstract="Erstellen Sie eine Vorschau und testen Sie die Nachricht, indem Sie die Testpopulation zur Hauptzielgruppe hinzufügen."
 
 **[!UICONTROL Adobe Campaign]** ermöglicht es Ihnen, eine Nachricht zu testen, bevor Sie sie an die Hauptzielgruppe senden.
 
@@ -20,6 +25,15 @@ Der Versand von Testsendungen ist ein wichtiger Schritt zur Validierung Ihrer Ka
 Die Testempfänger können verschiedene Elemente wie Links, Opt-out-Links, Bilder oder Mirrorseiten überprüfen und Fehler in Rendering, Inhalt, Personalisierungseinstellungen und Versandkonfiguration erkennen.
 
 ## Auswählen der Empfängerinnen und Empfänger des Testversands {#test-recipients}
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_email_preview_option_test_target"
+>title="Testpopulation"
+>abstract="Wählen Sie einen Testpopulationsmodus aus."
+
+
 
 Je nach verwendetem Kanal können Testnachrichten an drei Empfängertypen gesendet werden:
 
@@ -38,6 +52,7 @@ Je nach verwendetem Kanal können Testnachrichten an drei Empfängertypen gesend
 Um die Empfänger eines Testversands auszuwählen, gehen Sie entsprechend dem gewünschten Profiltyp wie folgt vor:
 
 ### Testprofile {#test-profiles}
+
 
 1. Navigieren Sie zum Bildschirm Inhalt bearbeiten Ihres E-Mail- oder SMS-Versands und klicken Sie auf die Schaltfläche **[!UICONTROL Inhalt simulieren]** Schaltfläche.
 

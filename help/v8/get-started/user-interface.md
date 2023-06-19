@@ -4,10 +4,10 @@ title: Erkunden der Benutzeroberfläche
 description: Web-Benutzeroberfläche von Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: 7c9388d5a406779f91180835e39e6dd2408d8a90
 workflow-type: tm+mt
-source-wordcount: '1390'
-ht-degree: 79%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -62,10 +62,7 @@ Weitere Informationen zum Campaign-Explorer, zur Ordnerhierarchie und zu den Res
 >title="Kampagnen"
 >abstract="Dies ist die Liste Ihrer Kampagnen. Sie können nützliche Informationen wie das Anfangsdatum/Enddatum/Datum der letzten Änderung sowie ihren Status anzeigen. Sie können die Liste nach Status oder Anfangsdatum/Enddatum filtern. Klicken Sie auf die Schaltfläche „Kampagne erstellen“, um eine neue Kampagne hinzuzufügen. Wählen Sie eine Kampagne aus, um Inhalt, Sendungen und Details anzuzeigen. Navigieren Sie zur Registerkarte „Vorlagen“, um Vorlagen anzuzeigen oder zu erstellen."
 
->[!CONTEXTUALHELP]
->id="acw_deliveries_list"
->title="Sendungen"
->abstract="Durchsuchen Sie Ihre Sendungenliste. Sie können Status, Kontakt- und Änderungsdaten sowie wichtige KPIs anzeigen. Sie können die Liste nach Status, Kontaktdatum oder Kanal filtern. Klicken Sie auf die Schaltfläche „Versand erstellen“, um einen neuen Versand hinzuzufügen. Wählen Sie einen Versand aus, um seinen Inhalt, seine Zielgruppe und Details anzuzeigen."
+
 
 Im Abschnitt CAMPAIGN MANAGEMENT haben Sie Zugriff auf Marketingkampagnen, Sendungen und Workflows.
 
@@ -196,15 +193,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Fehlermetriken"
 >abstract="Anzahl der E-Mails mit dem Fehlerstatus."
 
->[!CONTEXTUALHELP]
->id="acw_email_preview_option_test_target"
->title="Testpopulation"
->abstract="Wählen Sie einen Testpopulationsmodus aus."
 
->[!CONTEXTUALHELP]
->id="acw_email_preview_mode"
->title="Vorschaumodus"
->abstract="Erstellen Sie eine Vorschau und testen Sie die Nachricht, indem Sie die Testpopulation zur Hauptzielgruppe hinzufügen."
 
 >[!CONTEXTUALHELP]
 >id="acw_targetdata_personalization_enrichmentdata"
