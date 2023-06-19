@@ -4,10 +4,10 @@ title: Erste Schritte mit Kampagnen
 description: Erfahren Sie, wie Sie mit kanalübergreifenden Kampagnen beginnen
 badge: label="Alpha"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: 5dec05aeffa1268ec3d9b371f4ea91f830247a4f
+source-git-commit: d73deb59ef6b4b4833da42b62515c474ba154f2c
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 11%
+source-wordcount: '182'
+ht-degree: 10%
 
 ---
 
@@ -23,11 +23,11 @@ Mit Adobe Campaign können Sie Ihre zielgerichteten Marketinginitiativen mithilf
 
 Durch das Hinzufügen mehrerer kampagnenspezifischer Workflows und Sendungen können Sie personalisierte Erlebnisse über verschiedene Kanäle hinweg erstellen und so sicherstellen, dass jeder Touchpoint mit der gewünschten Zielgruppe abgestimmt wird.
 
-Kampagnen bieten dedizierte Berichterstellungsmetriken, um einen umfassenden Einblick in die Leistung Ihrer gesamten Kampagne zu erhalten. So können Sie deren Effektivität bewerten, Trends identifizieren und datengesteuerte Entscheidungen treffen, um zukünftige Bemühungen zu optimieren.
+Kampagnen bieten dedizierte Berichterstellungsmetriken, um einen umfassenden Einblick in die Leistung Ihrer gesamten Kampagne zu erhalten. So können Sie deren Effektivität bewerten, Trends identifizieren und datengesteuerte Entscheidungen treffen, um zukünftige Bemühungen zu optimieren. Erfahren Sie, wie Sie auf Kampagnenberichte zugreifen und diese verstehen in [diesem Abschnitt](../reporting/campaign-reports.md).
 
 ![Kampagnenfluss](assets/campaign-flow.png)
 
-Siehe folgende Abschnitte:
+In den folgenden Abschnitten erfahren Sie, wie Sie Kampagnen erstellen und verwalten:
 
 * [Zugriff und Verwaltung von Kampagnen](manage-campaigns.md)
 * [Erstellen Ihrer ersten Kampagne](create-campaigns.md)

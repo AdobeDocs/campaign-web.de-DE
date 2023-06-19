@@ -3,17 +3,17 @@ audience: end-user
 title: Erste Schritte mit Kampagnen
 description: Erfahren Sie, wie Sie mit kanalübergreifenden Kampagnen beginnen
 badge: label="Alpha"
-source-git-commit: f8d3e227d99387cc82b8db2ab602cd58404ee7ee
+source-git-commit: d73deb59ef6b4b4833da42b62515c474ba154f2c
 workflow-type: tm+mt
-source-wordcount: '416'
-ht-degree: 9%
+source-wordcount: '423'
+ht-degree: 8%
 
 ---
 
 
 # Zugriff und Verwaltung von Kampagnen{#manage-campaigns}
 
-Um eine neue Kampagne zu erstellen oder Ihre bestehenden Kampagnen zu verwalten, klicken Sie auf die Schaltfläche **[!UICONTROL Kampagnen]** Menü.
+Um eine neue Kampagne zu erstellen oder Ihre vorhandenen Kampagnen zu verwalten, klicken Sie auf die Schaltfläche **[!UICONTROL Kampagnen]** im linken Navigationsmenü.
 
 ## Die Kampagnenliste{#access-campaigns}
 
@@ -25,9 +25,9 @@ In der Kampagnenliste stehen zwei Tabs zur Verfügung:
 
 ![Liste der Kampagnen](assets/campaign-list.png)
 
-Jede Kampagne in der Liste enthält Informationen zum aktuellen Status, zum Erstellungsdatum, zum letzten Änderungszeitpunkt usw.
+Standardmäßig zeigt jede Kampagne in der Liste Informationen zum aktuellen Status, zum Erstellungsdatum, zum letzten Mal, dass sie geändert wurde usw.
 
-Sie können die angezeigten Spalten anpassen, indem Sie auf die **Spalte für ein benutzerdefiniertes Layout konfigurieren** in der oberen rechten Ecke der Liste. Auf diese Weise können Sie der Liste zusätzliche Informationen hinzufügen. Darüber hinaus stehen eine Suchleiste und Filter zur Verfügung, um die einfache Suche innerhalb der Liste zu erleichtern. [Weitere Informationen](../get-started/user-interface.md#list-screens)
+Sie können die angezeigten Spalten anpassen, indem Sie auf die **Spalte für ein benutzerdefiniertes Layout konfigurieren** in der oberen rechten Ecke der Liste. Auf diese Weise können Sie der Liste zusätzliche Informationen hinzufügen. Darüber hinaus stehen eine Suchleiste und Filter zur Verfügung, um die einfache Suche innerhalb der Liste zu erleichtern. [Weitere Informationen](../get-started/user-interface.md#list-screens).
 
 Sie können beispielsweise nach Ihrem Kampagnenkalender filtern. Öffnen Sie das Filterbedienfeld und verwenden Sie die **Start - Enddatum** Abschnitt:
 
@@ -45,7 +45,7 @@ Zwei Registerkarten sind verfügbar:
 
 * Die **Workflows** enthält alle mit der Kampagne verknüpften Workflows. In diesem Tab können Sie auch einen neuen Workflow innerhalb der Kampagne erstellen. Weitere Informationen finden Sie in [diesem Abschnitt](create-campaigns.md#create-campaigns).
 
-* Die **Sendungen** im Tab werden alle mit der Kampagne verknüpften Sendungen aufgelistet. Sie können auch einen neuen Versand innerhalb der Kampagne erstellen. Weitere Informationen finden Sie in [diesem Abschnitt](create-campaigns.md#create-campaigns).
+* Die **Sendungen** im Tab werden alle Sendungen aufgelistet, die mit der aktuellen Kampagne verknüpft sind. Sie können auch einen neuen Versand innerhalb der Kampagne erstellen. Weitere Informationen finden Sie in [diesem Abschnitt](create-campaigns.md#create-campaigns).
 
 ## Kampagnen duplizieren und löschen
 
