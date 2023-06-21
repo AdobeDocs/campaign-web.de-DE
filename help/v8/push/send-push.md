@@ -3,7 +3,7 @@ audience: end-user
 title: Push-Benachrichtigungsversand senden
 description: Erfahren Sie, wie Sie mit Adobe Campaign Web einen Push-Benachrichtigungsversand senden.
 badge: label="Alpha"
-source-git-commit: 4a439abca9c7b1f2cc5d82214efb0aae033a996c
+source-git-commit: 1b8657b7f91a1d83e3b65801b6593dfe3dfbac82
 workflow-type: tm+mt
 source-wordcount: '371'
 ht-degree: 0%
@@ -49,7 +49,7 @@ Testempfänger können Elemente wie Links, Bilder und Personalisierungseinstellu
 
    ![](assets/push_send_2.png)
 
-1. Klicken Sie auf **[!UICONTROL Vorbereiten]**und überwachen Sie den Fortschritt und die Statistiken.
+1. Klicken **[!UICONTROL Vorbereiten]** und überwachen den Fortschritt und die Statistiken.
 
    Wenn Fehler auftreten, finden Sie im Menü Protokolle detaillierte Informationen zum Fehler.
 

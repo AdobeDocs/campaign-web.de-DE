@@ -4,10 +4,10 @@ title: Senden Ihrer ersten E-Mail
 description: Erfahren Sie, wie Sie Ihre erste E-Mail mit der Web-Benutzeroberfläche von Campaign senden.
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Alpha"
-source-git-commit: a653fe4329f449a94f8056e4b5f2247bd839b87a
+source-git-commit: 09a05a886b0ef509cf0e0178609315264c8f56a1
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1329'
+ht-degree: 85%
 
 ---
 
@@ -18,7 +18,6 @@ ht-degree: 0%
 >id="acw_homepage_card2"
 >title="Erste Schritte mit E-Mails"
 >abstract="Beginnen Sie mit einer Vorlage oder verwenden Sie den neuen Email Designer von Adobe Campaign, um E-Mails zu erstellen, ohne eine einzelne Codezeile schreiben zu müssen. Erfahren Sie, wie Sie mit Email Designer Inhalte erstellen, eine Vorschau anzeigen und testen und eine E-Mail an eine bestehende Audience senden können."
-
 
 Erfahren Sie, wie Sie Ihre erste E-Mail an eine bestimmte Zielgruppe senden. In diesem Anwendungsfall planen Sie den Versand einer E-Mail an Silber- und Gold-Mitglieder des Treueprogramms zu einem bestimmten Datum.
 
@@ -93,12 +92,6 @@ In diesem Anwendungsfall verwenden Sie eine vordefinierte E-Mail [Versandvorlage
 
    ![](assets/select-template.png)
 
-   <!--1. Select the HTML or ZIP file to import then click **[!UICONTROL Next]**.
-
-    If your folder contains assets, choose the instance and folder where they should be stored then click **[!UICONTROL Import]**. (+ link to doc on assets?)
-
-    ![](assets/import-folder.png)-->
-
 1. Nachdem Sie die Vorlage ausgewählt haben, wird sie im [Email Designer](../content/create-email-content.md), wo Sie alle erforderlichen Änderungen vornehmen und Personalisierungen hinzufügen können.
 
    Um zum Beispiel dem E-Mail-Titel eine Personalisierung hinzuzufügen, wählen Sie den Komponentenblock aus und klicken Sie auf **[!UICONTROL Personalisierung hinzufügen]**.
@@ -169,9 +162,8 @@ Weitere Informationen zum Anzeigen einer Vorschau und zum Testen von E-Mails fin
 
    ![](assets/preview.png)
 
-   <!-- !NOTE
-    >
-    >Additionally, the **[!UICONTROL Render email]** button allows you to preview the email using mutiple devices or mail providers. Learn on how to preview email rendering-->
+   <!--Additionally, the **[!UICONTROL Render email]** button allows you to preview the email using mutiple devices or mail providers. Learn on how to preview email rendering
+    -->
 
 1. Um Testversionen Ihrer E-Mail zu senden, klicken Sie auf die Schaltfläche **[!UICONTROL Test]** und wählen Sie den gewünschten Modus aus.
 

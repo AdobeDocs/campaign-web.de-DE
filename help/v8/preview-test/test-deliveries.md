@@ -4,9 +4,9 @@ title: Testsendungen durchführen
 description: Erfahren Sie, wie Sie Testsendungen definieren und senden
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Alpha"
-source-git-commit: 0a4d4295f8c460298dcc61fcfc78e8cb09fe963e
+source-git-commit: 1b8657b7f91a1d83e3b65801b6593dfe3dfbac82
 workflow-type: tm+mt
-source-wordcount: '932'
+source-wordcount: '941'
 ht-degree: 4%
 
 ---
@@ -82,7 +82,7 @@ Um die Empfänger eines Testversands auszuwählen, gehen Sie entsprechend dem ge
 
 So senden Sie eine Test-E-Mail oder SMS an eine bestimmte E-Mail-Adresse oder Telefonnummer, während Daten aus einem vorhandenen Profil der [!DNL Campaign] -Datenbank verwenden Ersatzprofile.
 
-1. Stellen Sie vor dem Versand eines Tests sicher, dass Sie eine Audience für Ihren Versand definieren. [Weitere Informationen](../audience/about-audiences.md)
+1. Stellen Sie vor dem Versand eines Tests sicher, dass Sie eine Zielgruppe für Ihren Versand definieren. [Weitere Informationen](../audience/about-audiences.md)
 
 1. Navigieren Sie zum Bildschirm Inhalt bearbeiten Ihres E-Mail- oder SMS-Versands und klicken Sie auf die Schaltfläche **[!UICONTROL Inhalt simulieren]** Schaltfläche.
 
@@ -104,7 +104,7 @@ So senden Sie eine Test-E-Mail oder SMS an eine bestimmte E-Mail-Adresse oder Te
    >
    >Sie können eine beliebige E-Mail-Adresse oder Telefonnummer eingeben. Auf diese Weise können Sie Testsendungen an beliebige Empfänger senden, auch wenn diese keine Benutzer von sind [!DNL Adobe Campaign].
 
-1. Wählen Sie das Profil aus der Datenbank aus, das als Ersatz verwendet werden soll. Sie können auch [!DNL Adobe Campaign] Wählen Sie ein zufälliges Profil aus. Die Profildaten des ausgewählten Profils werden im Testversand angezeigt.
+1. Wählen Sie das Profil aus der Zielgruppe aus, die Sie für Ihren Versand als Ersatz definiert haben. Sie können auch [!DNL Adobe Campaign] Wählen Sie ein zufälliges Profil aus der Zielgruppe aus. Die Profildaten des ausgewählten Profils werden im Testversand angezeigt.
 
 1. Bestätigen Sie den Empfänger und wiederholen Sie den Vorgang, um beliebig viele E-Mail-Adressen oder Telefonnummern hinzuzufügen.
 
