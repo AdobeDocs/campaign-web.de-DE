@@ -4,10 +4,10 @@ title: Vorschau des Versandinhalts
 description: Erfahren Sie, wie Sie mit der Campaign-Web-Benutzeroberfläche eine Vorschau Ihres Versandinhalts anzeigen können.
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
 badge: label="Alpha"
-source-git-commit: a653fe4329f449a94f8056e4b5f2247bd839b87a
+source-git-commit: 4a439abca9c7b1f2cc5d82214efb0aae033a996c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '342'
+ht-degree: 4%
 
 ---
 
@@ -55,8 +55,8 @@ Gehen Sie wie folgt vor, um eine Vorschau des Versandinhalts anzuzeigen.
 1. Bei E-Mail-Sendungen können Sie die **[!UICONTROL Zoomfaktor]** und zeigen Sie Ihre Inhalte auf dem Desktop oder Mobilgerät mithilfe des entsprechenden Symbols oben rechts an.
 
 1. Aus dem **[!UICONTROL Simulieren]** -Bildschirm haben Sie auch folgende Möglichkeiten:
-   * Testsendungen zur Validierung an bestimmte Empfänger senden - [Weitere Infos](proofs.md)
-   * Zugriff auf die Protokolle der gesendeten Testsendungen - [Weitere Infos](proofs.md#access-proofs)
+   * Testsendungen zur Validierung an bestimmte Empfänger senden - [Weitere Infos](test-deliveries.md)
+   * Zugriff auf die Protokolle der gesendeten Testsendungen - [Weitere Infos](test-deliveries.md#access-proofs)
    * Nur für E-Mail: Überprüfen Sie das Rendering des Nachrichteninhalts in gängigen E-Mail-Clients - [Weitere Infos](email-rendering.md)
 
 

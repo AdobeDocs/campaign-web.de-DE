@@ -4,9 +4,9 @@ title: Über die E-Mail-Vorschau und Tests
 description: Erfahren Sie, wie Sie E-Mails in der Vorschau anzeigen und testen können.
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
 badge: label="Alpha"
-source-git-commit: 6edc22b574e3a655774a8ecb5e8e6c0fab5c89c8
+source-git-commit: 4a439abca9c7b1f2cc5d82214efb0aae033a996c
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: '180'
 ht-degree: 22%
 
 ---
@@ -27,7 +27,7 @@ Dies ist ein wichtiger Schritt, um sicherzustellen, dass es korrekt, aber auch f
 Gehen Sie dazu folgendermaßen vor: [!DNL Adobe Campaign] ermöglicht Ihnen Folgendes:
 
 * [Nachrichteninhalt und Personalisierung in der Vorschau ansehen](preview-content.md)
-* [Testsendungen durchführen](proofs.md) an bestimmte Empfänger oder Abonnenten für Tests und Validierung
+* [Testsendungen durchführen](test-deliveries.md) (Testsendungen) an bestimmte Empfänger oder Abonnenten zum Testen und Validieren
 * [Überprüfen Sie das E-Mail-Rendering](email-rendering.md) in beliebten Desktop-, Mobile- und Web-basierten Clients
 
 Diese Aktionen können mit der Variablen **[!UICONTROL Inhalt simulieren]** auf die im Bildschirm Inhalt bearbeiten Ihres Versands zugegriffen werden kann.

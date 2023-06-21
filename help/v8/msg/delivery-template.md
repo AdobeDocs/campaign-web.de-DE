@@ -6,7 +6,7 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 4a8513bb-8290-432a-8e40-822cd1337cb3
-source-git-commit: 8d026a247ffe9a3568f589403e82562c51b44a49
+source-git-commit: 4a439abca9c7b1f2cc5d82214efb0aae033a996c
 workflow-type: tm+mt
 source-wordcount: '937'
 ht-degree: 22%
@@ -150,7 +150,6 @@ Gehen Sie wie folgt vor, um eine Versandvorlage von Grund auf zu konfigurieren:
    > * [Push-Benachrichtigungs-Kanal](../push/gs-push.md)
    > * [SMS-Kanal](../sms/create-sms.md)
 
-
 1. Klicken Sie auf **[!UICONTROL Überprüfen]** zum Speichern und Überprüfen Ihrer Vorlage. Sie können weiterhin alle Einstellungen bearbeiten, löschen und duplizieren.
 
 1. Testen Sie bei Bedarf das Vorlagen-Rendering. [Weitere Informationen](#test-template)
@@ -171,7 +170,7 @@ Sie können das Rendering einer beliebigen Versandvorlage testen, unabhängig da
 
 1. Zwischen den verschiedenen Profilen wechseln, um eine personalisierte Darstellung der Nachricht entsprechend dem ausgewählten Profil zu erhalten.
 
-   <!--[Learn moreon test profiles](../preview-test/proofs.md#recipients)-->
+   <!--[Learn moreon test profiles](../preview-test/test-deliveries.md#recipients)-->
 
    Sie können auch den Zoomfaktor anpassen und die Desktop- oder Mobilansicht auswählen.
 

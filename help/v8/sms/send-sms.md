@@ -3,7 +3,7 @@ audience: end-user
 title: SMS-Versand senden
 description: Erfahren Sie, wie Sie SMS mit Adobe Campaign Web senden
 badge: label="Alpha"
-source-git-commit: c24b53ee17e81805f0717682202d2d4154c96c1e
+source-git-commit: 4a439abca9c7b1f2cc5d82214efb0aae033a996c
 workflow-type: tm+mt
 source-wordcount: '375'
 ht-degree: 7%
@@ -41,7 +41,7 @@ Mit **Adobe Campaign** können Sie eine Nachricht testen, bevor Sie sie an die H
 
 Der Versand von Test-SMS ist ein wichtiger Schritt, um die Qualität und Effektivität Ihres Versands sicherzustellen. Testempfänger können verschiedene Elemente wie Links, Opt-out-Links und Bilder überprüfen sowie Fehler bei Rendering, Inhalt, Personalisierungseinstellungen und SMS-Konfiguration identifizieren. Dieser Prozess hilft Ihnen, Ihre SMS gründlich zu evaluieren und zu optimieren, bevor Sie Ihre Hauptzielgruppe erreichen.
 
-![](../assets/do-not-localize/book.png) Erfahren Sie, wie Sie Test-SMS in senden [diesem Abschnitt](../preview-test/proofs.md).
+![](../assets/do-not-localize/book.png) Erfahren Sie, wie Sie Test-SMS in senden [diesem Abschnitt](../preview-test/test-deliveries.md).
 
 ![](assets/sms_send_6.png)
 
