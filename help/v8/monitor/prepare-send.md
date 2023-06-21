@@ -4,9 +4,9 @@ title: Vorbereiten und Senden einer E-Mail
 description: Erfahren Sie, wie Sie eine E-Mail mit der Web-Benutzeroberfläche von Campaign vorbereiten und senden.
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
 badge: label="Alpha"
-source-git-commit: deea4e3c7b870e6cce589fa836be2b88292d739c
+source-git-commit: d1a56f48e1b4253bad053745a3771a9527816d6b
 workflow-type: tm+mt
-source-wordcount: '839'
+source-wordcount: '840'
 ht-degree: 48%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 48%
 
 ## Versandvorbereitung {#prepare}
 
-Wenn Sie Ihre [content](../content/edit-content.md), [audience](../audience/add-audience.md) und planen, können Sie Ihre Nachricht vorbereiten.
+Wenn Sie Ihre [content](../content/edit-content.md), [audience](../audience/add-audience.md) und planen, sind Sie bereit, Ihren E-Mail-Versand vorzubereiten.
 
 Während der Vorbereitung wird die Zielpopulation berechnet und der Nachrichteninhalt für jedes Profil in der Zielgruppe erzeugt. Nachdem die Vorbereitung abgeschlossen ist, können die Nachrichten entweder sofort oder am geplanten Datum und zur geplanten Uhrzeit gesendet werden.
 
