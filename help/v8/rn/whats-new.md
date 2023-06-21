@@ -4,10 +4,10 @@ title: Neue Funktionen in Campaign Web v8
 description: Entdecken Sie neue Funktionen von Campaign Web v8.
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Alpha"
-source-git-commit: 4a439abca9c7b1f2cc5d82214efb0aae033a996c
+source-git-commit: 0a4d4295f8c460298dcc61fcfc78e8cb09fe963e
 workflow-type: tm+mt
-source-wordcount: '510'
-ht-degree: 59%
+source-wordcount: '516'
+ht-degree: 55%
 
 ---
 
@@ -59,10 +59,10 @@ Darüber hinaus sind alle Daten und Einstellungen, die bereits in der Clientkons
 Bestehende Campaign-Benutzende sollten beachten, dass einige Konzepte entsprechend den aktuellen Terminologiestandards umbenannt wurden. Diese Änderungen gelten nur für die Campaign-Webbenutzeroberfläche und werden nicht in der Clientkonsole übernommen. Sie sind unten zusammengefasst.
 
 * Testsendungen heißen jetzt **Test-E-Mails**: verwenden Sie zum Testversand die Schaltfläche **Test** in der Benutzeroberfläche des E-Mail-Versands. Die Zielgruppe der Testsendungen wird jetzt als **Testprofile**. [Weitere Informationen](../preview-test/test-deliveries.md).
-* Testadressen werden jetzt als **Testprofile** verwendet: Senden Sie die Test-E-Mail an Testadressen, bei denen es sich um zusätzliche, fiktive Empfänger in der Datenbank handelt.
-* Die Versandanalyse heißt jetzt **Versandvorbereitung**. Wenn Sie die Analyse starten möchten, klicken Sie auf die Schaltfläche **Vorbereiten**.
-* Die E-Mail-Vorschau ist jetzt über die Schaltfläche **Inhalt simulieren** verfügbar.
-* Listen heißen jetzt **Audiences**.
+* Testadressen werden jetzt als **Testprofile**: die Test-E-Mail an Testadressen senden, bei denen es sich um zusätzliche Empfänger in der Datenbank handelt. [Weitere Informationen](../preview-test/test-deliveries.md).
+* Die Versandanalyse heißt jetzt **Versandvorbereitung**. Wenn Sie die Analyse starten möchten, klicken Sie auf die Schaltfläche **Vorbereiten**. [Weitere Informationen](../monitor/prepare-send.md).
+* Die E-Mail-Vorschau ist jetzt über die Schaltfläche **Inhalt simulieren** verfügbar. [Weitere Informationen](../preview-test/preview-test.md)
+* Listen heißen jetzt **Audiences**. [Weitere Informationen](../audience/about-audiences.md).
 
 ## Einschränkungen{#limitations-alpha}
 

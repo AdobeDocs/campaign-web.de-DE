@@ -4,9 +4,9 @@ title: Testsendungen durchführen
 description: Erfahren Sie, wie Sie Testsendungen definieren und senden
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Alpha"
-source-git-commit: 4a439abca9c7b1f2cc5d82214efb0aae033a996c
+source-git-commit: 0a4d4295f8c460298dcc61fcfc78e8cb09fe963e
 workflow-type: tm+mt
-source-wordcount: '934'
+source-wordcount: '932'
 ht-degree: 4%
 
 ---
@@ -37,7 +37,7 @@ Die Testempfänger können verschiedene Elemente wie Links, Opt-out-Links, Bilde
 
 Je nach verwendetem Kanal können Testnachrichten an drei Empfängertypen gesendet werden:
 
-* [Testprofile](#test-profiles) - Senden **Test-E-Mails und SMS** Testadressen, die zusätzliche fiktive Empfänger in der Datenbank sind.
+* [Testprofile](#test-profiles) - Senden **Test-E-Mails und SMS** an Testadressen, bei denen es sich um zusätzliche Empfänger in der Datenbank handelt.
 
   Sie können im [!DNL Campaign] in die **[!UICONTROL Ressourcen]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Testadressen]** Ordner. Weitere Informationen finden Sie unter [Dokumentation zu Campaign v8 (Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
 
