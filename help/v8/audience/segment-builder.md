@@ -1,17 +1,17 @@
 ---
 audience: end-user
-title: Erstellen einer Zielgruppe mit dem Campaign Rule Builder
-description: Erfahren Sie, wie Sie mit dem Regel-Builder arbeiten.
+title: Erstellen einer Zielgruppe mit dem Campaign-Regel-Builder
+description: Erfahren Sie, wie Sie mit dem Regel-Builder arbeiten
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
 badge: label="Alpha"
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
 source-wordcount: '547'
-ht-degree: 96%
+ht-degree: 99%
 
 ---
 
-# Definieren von Audiences mit dem Regel-Builder {#segment-builder}
+# Definieren einer Zielgruppe mit dem Regel-Builder {#segment-builder}
 
 In diesem Abschnitt wird beschrieben, wie Sie beim Entwerfen einer neuen E-Mail eine Audience erstellen. Die erstellte Audience kann nur in dieser E-Mail verwendet werden.
 
@@ -66,7 +66,7 @@ Auf der rechten Seite können Sie im Bereich **Regeleigenschaften** die folgende
 
 ## Beispiel
 
-In diesem Beispiel erstellen wir eine Audience für alle Kunden und Kundinnen, die in Atlanta oder Seattle leben und nach 1980 geboren wurden.
+In diesem Beispiel erstellen wir eine Zielgruppe für alle Kunden und Kundinnen, die in Atlanta oder Seattle leben und nach 1980 geboren wurden.
 
 1. Suchen Sie in der Registerkarte **Attribute** der Palette nach dem Feld **Geburtsdatum**. Ziehen Sie die Kachel und legen Sie sie auf der Arbeitsfläche ab.
 

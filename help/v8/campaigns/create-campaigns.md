@@ -7,7 +7,7 @@ exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
 source-git-commit: 5dec05aeffa1268ec3d9b371f4ea91f830247a4f
 workflow-type: tm+mt
 source-wordcount: '290'
-ht-degree: 22%
+ht-degree: 86%
 
 ---
 
@@ -28,33 +28,33 @@ Um eine neue Kampagne zu erstellen, müssen Sie deren Eigenschaften definieren, 
 
 ## Kampagne erstellen{#campaign-create}
 
-Gehen Sie wie folgt vor, um eine neue Kampagne zu erstellen:
+Um eine neue Kampagne zu erstellen, gehen Sie folgendermaßen vor:
 
-1. Klicken Sie auf **[!UICONTROL Kampagnen]** und klicken Sie auf das **[!UICONTROL Kampagne erstellen]** Schaltfläche.
-1. Wählen Sie die **Vorlage** , um die Kampagne zu verwenden und einen Titel anzugeben. Kampagnenvorlagen sind so vorkonfiguriert, dass sie zur Erstellung neuer Kampagnen wiederverwendet werden können. Sie werden über die Client-Konsole erstellt.
+1. Klicken Sie auf das Menü **[!UICONTROL Kampagnen]** und dann auf die Schaltfläche **[!UICONTROL Kampagne erstellen]**.
+1. Wählen Sie die zu verwendende **Vorlage** und geben Sie eine Bezeichnung für die Kampagne ein. Kampagnenvorlagen sind so vorkonfiguriert, dass sie zur Erstellung neuer Kampagnen wiederverwendet werden können. Sie werden über die Client-Konsole erstellt.
    [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html?lang=de)
-1. Bei Bedarf können Sie Folgendes ändern: **Zusätzliche Optionen**: interner Name, Ordner, Bevollmächtigter, Beschreibung und Art.
-1. Definieren Sie die **Zeitplan** Ihrer Kampagne. Die Kampagne beginnt mit Erreichen des Startdatums. Start- und Enddaten werden in der Kampagnenliste angezeigt und können als Filter verwendet werden. Weitere Informationen finden Sie in [diesem Abschnitt](manage-campaigns.md#access-campaigns).
+1. Bei Bedarf können Sie die folgenden **zusätzlichen Optionen** ändern: interner Name, Ordner, Zuweisung, Beschreibung und Art.
+1. Definieren Sie den **Zeitplan** für Ihre Kampagne. Die Kampagne beginnt, wenn das Startdatum erreicht ist. Start- und Enddatum werden in der Kampagnenliste angezeigt und können als Filter verwendet werden. Weitere Informationen finden Sie in [diesem Abschnitt](manage-campaigns.md#access-campaigns).
 
    ![Definieren von Kampagneneigenschaften](assets/campaign-properties.png)
 
    >[!NOTE]
    >
-   >Sie können diese Eigenschaften jederzeit ändern, indem Sie die **Kampagneneinstellungen konfigurieren** neben dem Kampagnentitel. Weitere Informationen finden Sie in [diesem Abschnitt](gs-campaigns.md#campaign-dashboard).
+   >Sie können diese Eigenschaften später jederzeit über das Symbol **Kampagneneinstellungen konfigurieren** neben der Kampagnenbezeichnung ändern. Siehe diesen [Abschnitt](gs-campaigns.md#campaign-dashboard).
 
 1. Wählen Sie **Erstellen** aus.
-1. Fügen Sie Ihrer Kampagne Workflows und Sendungen hinzu:
+1. Fügen Sie Workflows und Sendungen zu Ihrer Kampagne hinzu:
 
-   * Aus dem **Workflows** Registerkarte, klicken Sie auf **Workflow erstellen**. Beim Erstellen Ihrer Kampagne wird automatisch ein Standard-Workflow hinzugefügt. Weitere Informationen zum [Workflow erstellen](../workflows/create-workflow.md).
-   * Aus dem **Sendungen** Registerkarte, klicken Sie auf **Versand erstellen**. [Weitere Informationen](../msg/gs-messages.md)
+   * Klicken Sie auf der Registerkarte **Workflows** auf **Workflow erstellen**. Beim Erstellen Ihrer Kampagne wird automatisch ein Standard-Workflow hinzugefügt. Weitere Informationen zum [Erstellen eines Workflows](../workflows/create-workflow.md).
+   * Klicken Sie auf der Registerkarte **Sendungen** auf **Versand erstellen**. [Weitere Informationen](../msg/gs-messages.md)
 
-1. Verwenden Sie die **Protokolle** und **Berichterstellung** -Schaltflächen, um die Leistung Ihrer Kampagne zu analysieren.
+1. Verwenden Sie die Schaltflächen **Protokolle** und **Berichte**, um die Leistung Ihrer Kampagne zu analysieren.
 
 ## Kampagne beobachten und verfolgen{#campaign-monitoring}
 
-Die Überwachung von Kampagnen ist ein wichtiger Schritt zur Analyse der Effektivität Ihrer Kampagne. Öffnen Sie die Kampagne und klicken Sie auf die Schaltfläche **Protokolle** Schaltfläche.
+Die Überwachung von Kampagnen ist ein wichtiger Schritt zur Analyse der Effektivität Ihrer Kampagne. Öffnen Sie Ihre Kampagne und klicken Sie auf die Schaltfläche **Protokolle**.
 
-Sie können auch die entsprechenden Berichte anzeigen, indem Sie auf die **Berichte** Schaltfläche. Weitere Informationen finden Sie in [diesem Abschnitt](../reporting/campaign-reports.md).
+Sie können auch die entsprechenden Berichte anzeigen, indem Sie auf die Schaltfläche **Berichte** klicken. Weitere Informationen finden Sie in [diesem Abschnitt](../reporting/campaign-reports.md).
 
 
 

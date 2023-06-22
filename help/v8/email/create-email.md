@@ -7,7 +7,7 @@ badge: label="Alpha"
 source-git-commit: 09a05a886b0ef509cf0e0178609315264c8f56a1
 workflow-type: tm+mt
 source-wordcount: '1329'
-ht-degree: 85%
+ht-degree: 98%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 85%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card2"
 >title="Erste Schritte mit E-Mails"
->abstract="Beginnen Sie mit einer Vorlage oder verwenden Sie den neuen Email Designer von Adobe Campaign, um E-Mails zu erstellen, ohne eine einzelne Codezeile schreiben zu müssen. Erfahren Sie, wie Sie mit Email Designer Inhalte erstellen, eine Vorschau anzeigen und testen und eine E-Mail an eine bestehende Audience senden können."
+>abstract="Beginnen Sie mit einer Vorlage oder verwenden Sie den neuen E-Mail-Designer von Adobe Campaign, um E-Mails zu erstellen, ohne eine einzelne Code-Zeile schreiben zu müssen. Erfahren Sie in einem durchgängigen Anwendungsfall, wie Sie mit dem E-Mail-Designer Ihre Inhalte erstellen, in der Vorschau anzeigen und testen und eine E-Mail an eine bestehende Zielgruppe senden können."
 
 Erfahren Sie, wie Sie Ihre erste E-Mail an eine bestimmte Zielgruppe senden. In diesem Anwendungsfall planen Sie den Versand einer E-Mail an Silber- und Gold-Mitglieder des Treueprogramms zu einem bestimmten Datum.
 
@@ -25,11 +25,11 @@ Die E-Mail basiert auf einer vordefinierten Design-Vorlage und enthält auch per
 
 ![](assets/delivery-list.png)
 
-## E-Mail-Versand erstellen {#create-email}
+## Erstellen des E-Mail-Versands {#create-email}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_template_selection"
->title="Wählen Sie eine E-Mail-Vorlage aus"
+>title="Auswählen einer E-Mail-Vorlage"
 >abstract="Eine E-Mail-Vorlage ist eine spezifische Versandkonfiguration, die vordefinierte Einstellungen wie Typologieregeln, Personalisierungs- oder Routing-Parameter enthält. Vorlagen werden in der Campaign-Clientkonsole definiert."
 
 >[!CONTEXTUALHELP]
@@ -39,9 +39,9 @@ Die E-Mail basiert auf einer vordefinierten Design-Vorlage und enthält auch per
 
 Gehen Sie wie folgt vor, um einen neuen Versand zu erstellen:
 
-1. Navigieren Sie zum **[!UICONTROL Sendungen]** in der linken Leiste auf und klicken Sie auf das  **[!UICONTROL Versand erstellen]** Schaltfläche.
+1. Gehen Sie zum Menü **[!UICONTROL Sendungen]** in der linken Leiste, und klicken Sie auf die Schaltfläche **[!UICONTROL Versand erstellen]**.
 
-1. Auswählen **[!UICONTROL Email]** als Kanal verwenden und aus der Liste eine E-Mail-Versandvorlage auswählen.
+1. Wählen Sie **[!UICONTROL E-Mail]** als Kanal und wählen Sie eine E-Mail-Versandvorlage aus der Liste.
 
    >[!NOTE]
    >
@@ -72,13 +72,13 @@ Gehen Sie wie folgt vor, um mit der Erstellung Ihres E-Mail-Inhalts zu beginnen.
 
 <!--Detailed instructions on how to configure the email content are available in [this section](../content/edit-content.md).-->
 
-In diesem Anwendungsfall verwenden Sie eine vordefinierte E-Mail [Versandvorlage](../msg/delivery-template.md) , um Ihre E-Mail zu erstellen.
+In diesem Anwendungsfall verwenden Sie eine vordefinierte E-Mail-[Versandvorlage](../msg/delivery-template.md) zur Gestaltung Ihrer E-Mail.
 
-1. Klicken Sie im Dashboard des E-Mail-Versands auf die **[!UICONTROL Inhalt bearbeiten]** Schaltfläche.
+1. Klicken Sie im Dashboard des E-Mail-Versands auf die Schaltfläche **[!UICONTROL Inhalt bearbeiten]**.
 
    ![](assets/email-edit-content.png)
 
-   Dadurch gelangen Sie zu einer dedizierten Benutzeroberfläche, über die Sie den E-Mail-Inhalt konfigurieren und auf Email Designer zugreifen können. [Weitere Informationen](../content/edit-content.md)
+   Dadurch gelangen Sie zu einer dedizierten Oberfläche, auf der Sie den E-Mail-Inhalt konfigurieren und auf den E-Mail-Designer zugreifen können. [Weitere Informationen](../content/edit-content.md)
 
    ![](assets/edit-content.png)
 
@@ -88,11 +88,11 @@ In diesem Anwendungsfall verwenden Sie eine vordefinierte E-Mail [Versandvorlage
 
 1. Um den Inhalt der E-Mail zu gestalten, klicken Sie auf die Schaltfläche **[!UICONTROL E-Mail-Textkörper bearbeiten]**.
 
-   Wählen Sie die Methode zur Erstellung des Inhalts Ihrer E-Mail aus. Verwenden Sie in diesem Beispiel einen [vordefinierte Inhaltsvorlage](../msg/delivery-template.md).
+   Wählen Sie die Methode zur Erstellung des Inhalts Ihrer E-Mail aus. Verwenden Sie in diesem Beispiel eine [vordefinierte Inhaltsvorlage](../msg/delivery-template.md).
 
    ![](assets/select-template.png)
 
-1. Nachdem Sie die Vorlage ausgewählt haben, wird sie im [Email Designer](../content/create-email-content.md), wo Sie alle erforderlichen Änderungen vornehmen und Personalisierungen hinzufügen können.
+1. Sobald Sie die Vorlage auswählen, wird sie im [E-Mail-Designer](../content/create-email-content.md) angezeigt, wo Sie alle notwendigen Änderungen vornehmen und eine Personalisierung hinzufügen können.
 
    Um zum Beispiel dem E-Mail-Titel eine Personalisierung hinzuzufügen, wählen Sie den Komponentenblock aus und klicken Sie auf **[!UICONTROL Personalisierung hinzufügen]**.
 

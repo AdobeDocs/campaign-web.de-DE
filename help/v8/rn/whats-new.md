@@ -1,20 +1,20 @@
 ---
 audience: end-user
-title: Neue Funktionen in Campaign Web v8
+title: Neue Funktionen in Campaign Web v8
 description: Entdecken Sie neue Funktionen von Campaign Web v8.
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Alpha"
 source-git-commit: 0a4d4295f8c460298dcc61fcfc78e8cb09fe963e
 workflow-type: tm+mt
 source-wordcount: '516'
-ht-degree: 55%
+ht-degree: 93%
 
 ---
 
 
 # Neue Funktionen {#new}
 
-## Alpha 2.0-Version{#alpha-release}
+## Alpha-Version 2.0{#alpha-release}
 
 Diese moderne Web-Benutzeroberfläche von Campaign ist derzeit nur für **Alpha-Anwendende** verfügbar und enthält die folgenden Funktionen:
 
@@ -22,7 +22,7 @@ Diese moderne Web-Benutzeroberfläche von Campaign ist derzeit nur für **Alpha-
 
 Die neue Web-Benutzeroberfläche von Campaign bietet ein neues Benutzererlebnis, das mit allen Adobe Experience Cloud-Lösungen und -Programmen abgestimmt ist. Sie bietet:
 
-* Zugriff auf die neue Benutzeroberfläche und Ihre anderen Adobe-Lösungen mit einer einzigen und freigegebenen Benutzersitzung
+* Zugriff auf die neue Benutzeroberfläche und Ihre anderen Adobe-Lösungen mit einer einzigen, gemeinsamen Benutzersitzung
 * Neues Navigationserlebnis mit Zugriff auf alle Menüs und Ordner in der linken Leiste
 * Umschalter für Lösungen und Organisationen in der oberen Leiste
 * Unified Shell-Integration mit direktem Zugriff auf die Community, die Hilfe und den Support
@@ -36,33 +36,33 @@ Die neue Web-Benutzeroberfläche von Campaign bietet ein neues Benutzererlebnis,
 
 Weitere Informationen über die neue Benutzeroberfläche finden Sie auf [dieser Seite](../get-started/user-interface.md).
 
-**Kampagne erstellen, starten und messen**
+**Erstellen, Starten und Messen Ihrer Kampagnen**
 
 Verwenden Sie die neue Web-Benutzeroberfläche von Campaign für Folgendes:
 
 * Erstellen personalisierter E-Mail-Inhalte mit dem E-Mail-Designer – [Weitere Informationen](../content/edit-content.md)
 * Senden Sie kanalübergreifende Kampagnen, einschließlich SMS- und Push-Benachrichtigungen.
-* Definieren von Audiences mit dem Regel-Builder – [Weitere Informationen](../audience/about-audiences.md)
+* Definieren von Zielgruppen mit dem Regel-Builder – [Weitere Informationen](../audience/about-audiences.md)
 * Vorschau, Testen und Senden Ihrer E-Mail-Nachrichten – [Weitere Informationen](../monitor/prepare-send.md)
 * Überwachen, Senden und Messen von Ergebnissen mit integrierten Berichten – [Weitere Informationen](../reporting/delivery-reports.md)
 
 
-## Übergang zur Campaign-Web-Benutzeroberfläche
+## Übergang zur Campaign Web-Benutzeroberfläche
 
-Als Campaign-Benutzer können Sie weiterhin auf die Client-Konsole zugreifen, um Campaign-Ressourcen und -Komponenten zu erstellen und zu verwalten. Daten und Einstellungen werden von einer Umgebung zu einer anderen synchronisiert. Weiterführende Informationen finden Sie in [diesem Abschnitt](../get-started/get-started.md#about-campaign-client-consoleac-client).
+Als Benutzerin oder Benutzer von Campaign können Sie weiterhin auf die Client-Konsole zugreifen, um Campaign-Ressourcen und -Komponenten zu erstellen und zu verwalten. Daten und Einstellungen werden von einer Umgebung zu einer anderen synchronisiert. Weiterführende Informationen finden Sie in [diesem Abschnitt](../get-started/get-started.md#about-campaign-client-consoleac-client).
 
-Darüber hinaus sind alle Daten und Einstellungen, die bereits in der Clientkonsole verfügbar sind, in der Web-Benutzeroberfläche von Campaign im linken Navigationsbereich des Explorers sichtbar. Weitere Informationen zur Explorer-Ansicht finden Sie unter [diesem Abschnitt](../get-started/user-interface.md#explorer-user-interface-explorer).
+Darüber hinaus sind alle Daten und Einstellungen, die bereits in der Client-Konsole verfügbar sind, in der Campaign Web-Benutzeroberfläche im linken Navigationsbereich des Explorers sichtbar. Weitere Informationen zur Explorer-Ansicht finden Sie in [diesem Abschnitt](../get-started/user-interface.md#explorer-user-interface-explorer).
 
 
 ## Aktualisierungen der Terminologie {#terminology-updates}
 
-Bestehende Campaign-Benutzende sollten beachten, dass einige Konzepte entsprechend den aktuellen Terminologiestandards umbenannt wurden. Diese Änderungen gelten nur für die Campaign-Webbenutzeroberfläche und werden nicht in der Clientkonsole übernommen. Sie sind unten zusammengefasst.
+Bestehende Campaign-Benutzende sollten beachten, dass einige Konzepte entsprechend den aktuellen Terminologiestandards umbenannt wurden. Diese Änderungen gelten nur für die Campaign Web-Benutzeroberfläche und werden nicht in der Client-Konsole übernommen. Sie sind unten zusammengefasst.
 
 * Testsendungen heißen jetzt **Test-E-Mails**: verwenden Sie zum Testversand die Schaltfläche **Test** in der Benutzeroberfläche des E-Mail-Versands. Die Zielgruppe der Testsendungen wird jetzt als **Testprofile**. [Weitere Informationen](../preview-test/test-deliveries.md).
 * Testadressen werden jetzt als **Testprofile**: die Test-E-Mail an Testadressen senden, bei denen es sich um zusätzliche Empfänger in der Datenbank handelt. [Weitere Informationen](../preview-test/test-deliveries.md).
 * Die Versandanalyse heißt jetzt **Versandvorbereitung**. Wenn Sie die Analyse starten möchten, klicken Sie auf die Schaltfläche **Vorbereiten**. [Weitere Informationen](../monitor/prepare-send.md).
 * Die E-Mail-Vorschau ist jetzt über die Schaltfläche **Inhalt simulieren** verfügbar. [Weitere Informationen](../preview-test/preview-test.md)
-* Listen heißen jetzt **Audiences**. [Weitere Informationen](../audience/about-audiences.md).
+* Listen heißen jetzt **Zielgruppen**. [Weitere Informationen](../audience/about-audiences.md).
 
 ## Einschränkungen{#limitations-alpha}
 

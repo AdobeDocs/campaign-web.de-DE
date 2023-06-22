@@ -1,24 +1,24 @@
 ---
 audience: end-user
 title: Erste Schritte mit Berichten
-description: Erfahren Sie, wie Sie im Campaign Web auf Berichte zugreifen und diese verwalten können.
+description: Erfahren Sie, wie Sie in Campaign Web auf Berichte zugreifen und diese verwalten können.
 badge: label="Alpha"
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
 source-wordcount: '173'
-ht-degree: 6%
+ht-degree: 98%
 
 ---
 
 # Erste Schritte mit Berichten {#get-started-reports}
 
-Unsere umfassende Suite an Reporting-Tools bietet wertvolle Einblicke in die Effektivität Ihrer Marketing-Maßnahmen, sodass Sie Ihre Kampagnen für maximale Wirkung optimieren können. Von Versandraten über Öffnungs- und Klickraten bis hin zu Clickthrough-Raten: Unsere Report Suite verfügt über alles, was Sie benötigen, um datenbasierte Entscheidungen zu treffen, die zu Ergebnissen führen. &#x200B;
+Unsere umfassende Suite an Reporting-Tools bietet wertvolle Einblicke in die Effektivität Ihrer Marketing-Maßnahmen, sodass Sie Ihre Kampagnen für eine maximale Wirkung optimieren können. Von Versandraten bis hin zu Öffnungs- und Klickraten bietet unsere Reporting-Suite alles, was Sie benötigen, um datengestützte Entscheidungen zu treffen, die zu Ergebnissen führen.
 
-Adobe Campaign bietet zwei verschiedene Berichte:
+Adobe Campaign bietet zwei unterschiedliche Berichte:
 
-* **Versandbericht**: Die **Versandbericht** bietet umfassende Einblicke und für jeden Kanal spezifische Daten. Er bietet detaillierte Informationen über Leistung, Effektivität und Ergebnisse Ihrer Sendungen und bietet Ihnen einen umfassenden Überblick.
+* **Versandbericht**: Der **Versandbericht** bietet für jeden speziellen Kanal umfassende Einblicke und Daten. Er bietet detaillierte Informationen über Leistung, Effektivität und Ergebnisse Ihrer einzelnen Sendungen und verschafft Ihnen einen umfassenden Überblick.
 
-* **Kampagnenbericht**: Die **Kampagnenbericht** bietet einen umfassenden Überblick über Ihre Kampagne, der alle relevanten Informationen zu den verschiedenen Sendungen enthält. Dieser Bericht bietet eine gründliche Analyse der Leistung jedes Versands, der Erfolgsraten, der Interaktion mit der Zielgruppe und anderer wichtiger Metriken, sodass Sie die Gesamtwirksamkeit und die Wirkung Ihrer Kampagne evaluieren können.
+* **Kampagnenbericht**: Der **Kampagnenbericht** bietet einen umfassenden Überblick über Ihre Kampagne, der alle relevanten Informationen zu den verschiedenen zugehörigen Sendungen enthält. Dieser Bericht ermöglicht eine gründliche Analyse der Leistung jedes Versands, der Erfolgsraten, der Interaktion mit den Zielgruppen und anderer wichtiger Metriken, sodass Sie die Wirksamkeit und die Wirkung Ihrer Kampagne insgesamt auswerten können.
 
 
 
@@ -27,7 +27,7 @@ Adobe Campaign bietet zwei verschiedene Berichte:
 <a href="email-report.md">
 <img alt="Lead" src="assets/do-not-localize/email_report.jpeg">
 </a>
-<div><a href="email-report.md"><strong>Email-Versandbericht</strong>
+<div><a href="email-report.md"><strong>E-Mail-Versandbericht</strong>
 </div>
 <p>
 </td>
@@ -36,7 +36,7 @@ Adobe Campaign bietet zwei verschiedene Berichte:
 <img alt="Gelegentlich" src="assets/do-not-localize/push_report.jpeg">
 </a>
 <div>
-<a href="push-report.md"><strong> Push-Versand-Referenz<strong></strong></a>
+<a href="push-report.md"><strong>Push-Versandbericht<strong></strong></a>
 </div>
 <p></td>
 <td>

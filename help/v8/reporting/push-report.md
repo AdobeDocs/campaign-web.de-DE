@@ -1,74 +1,74 @@
 ---
 audience: end-user
 title: Push-Versandberichte
-description: Erfahren Sie, wie Sie auf Push-Versandberichte zugreifen und diese verwenden
+description: Erfahren Sie, wie Sie auf Push-Versandberichte zugreifen und diese verwenden können
 badge: label="Alpha"
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
 source-wordcount: '298'
-ht-degree: 5%
+ht-degree: 99%
 
 ---
 
-# Bericht zum Push-Versand {#push-report}
+# Push-Versandbericht {#push-report}
 
 >[!CONTEXTUALHELP]
 >id="acw_push_report_overview"
 >title="Zusammenfassung des Push-Berichts"
 >abstract="Entdecken Sie die Reporting-Metriken für Ihren Push-Versand."
 
-Die **Bericht zum Push-Versand** bietet einen umfassenden Überblick über den Push-Kanal mit umfassenden Einblicken und spezifischen Daten. Es bietet umfassende Informationen über Leistung, Effektivität und Ergebnisse jedes Versands.
+Der **Push-Versandbericht** bietet einen umfassenden Überblick über den Push-Kanal mit umfangreichen Einblicken und spezifischen Daten. Er bietet umfassende Informationen über Leistung, Effektivität und Ergebnisse jedes Versands.
 
 ## Push-Zusammenfassung {#push-summary}
 
-* **[!UICONTROL Versandübersicht]** bietet wichtige Leistungsindikatoren (Key Performance Indicators, KPIs), die detaillierte Informationen darüber enthalten, wie Ihre Besucher mit Ihren Push-Nachrichten interagieren.
+* Die **[!UICONTROL Versandübersicht]** bietet wichtige Leistungsindikatoren (KPIs), die detaillierte Informationen darüber enthalten, wie Ihre Besucherinnen und Besucher mit Ihren Push-Nachrichten interagieren.
 
   ![](assets/reporting_push_3.png)
 
-  +++ Erfahren Sie mehr über die Metriken des Berichts &quot;Push-Versand&quot;.
+  +++ Erfahren Sie mehr über die Metriken des Push-Versandberichts.
 
-   * **[!UICONTROL Gesendete Summe]**: Gesamtzahl der bei der Versandanalyse verarbeiteten Nachrichten.
+   * **[!UICONTROL Insgesamt gesendet]**: Gesamtzahl der während der Versandanalyse verarbeiteten Nachrichten.
 
-   * **[!UICONTROL Zugestellt]**: Anzahl der erfolgreich gesendeten Nachrichten in Bezug auf die Gesamtzahl der gesendeten Nachrichten
+   * **[!UICONTROL Zugestellt]**: Anzahl der erfolgreich gesendeten Nachrichten im Verhältnis zur Gesamtzahl der gesendeten Nachrichten.
 
-   * **[!UICONTROL Klicks]**: Gesamtzahl der Empfänger, die mit der Push-Nachricht interagiert haben.
+   * **[!UICONTROL Klicks]**: Gesamtzahl der Empfängerinnen und Empfänger, die mit der Push-Nachricht interagiert haben.
 
-   * **[!UICONTROL Fehler]**: Gesamtzahl der bei einem Versand aufgetretenen Fehler, die den Versand an Profile verhinderten.
+   * **[!UICONTROL Fehler]**: Gesamtzahl der bei einem Versand aufgetretenen Fehler, die den Versand an Profile verhindert haben.
 
 +++
 
-* **Zielgruppe** Diagramme und Tabellen zeigen Daten in Bezug auf Ihre Zielgruppe an:
+* Diagramm und Tabelle **Zielgruppenpopulation** zeigen Daten in Bezug auf Ihre Zielgruppe an:
 
   ![](assets/reporting_push_4.png)
 
-  +++ Erfahren Sie mehr über die Metriken des Berichts &quot;Push-Versand&quot;.
+  +++ Erfahren Sie mehr über die Metriken des Push-Versandberichts.
 
-   * **[!UICONTROL Zu liefern]**: Gesamtzahl der bei der Versandanalyse verarbeiteten Nachrichten.
+   * **[!UICONTROL Zu versenden]**: Gesamtzahl der während der Versandanalyse verarbeiteten Nachrichten.
 
    * **[!UICONTROL Ausnahmen]**: Anzahl der Profile, die aus der Analyse ausgeschlossen wurden.
 
 +++
 
-* **Gesamtstatistik** enthält Daten zu den gesendeten Push-Benachrichtigungen, einschließlich:
+* Die **Gesamtstatistik** enthält Daten zu den gesendeten Push-Benachrichtigungen, einschließlich:
 
   ![](assets/reporting_push_5.png)
 
-  +++ Erfahren Sie mehr über die Metriken des Berichts &quot;Push-Versand&quot;.
+  +++ Erfahren Sie mehr über die Metriken des Push-Versandberichts.
 
-   * **[!UICONTROL Erfolg]**: Anzahl erfolgreich verarbeiteter Nachrichten.
+   * **[!UICONTROL Erfolg]**: Anzahl der erfolgreich verarbeiteten Nachrichten.
 
-   * **[!UICONTROL Fehler]**: Gesamtzahl der beim Versand aufgetretenen Fehler, die den Versand der Nachrichten an bestimmte Profile verhinderten.
+   * **[!UICONTROL Fehler]**: Gesamtzahl der beim Versand aufgetretenen Fehler, die den Versand der Nachrichten an bestimmte Profile verhindert haben.
 
    * **[!UICONTROL Neue Quarantäne]**: Anzahl der Profile, die ausgeschlossen und der Quarantäne hinzugefügt wurden.
 
 +++
 
-* **[!UICONTROL Ausnahmen]** Diagramm und Tabelle zeigen die verschiedenen Gründe an, die verhindert haben, dass aus den Zielgruppenprofilen ausgeschlossene Benutzerprofile die Nachricht empfangen.
+* Diagramm und Tabelle **[!UICONTROL Ausschlüsse]** zeigen die verschiedenen Gründe an, die verhindert haben, dass Benutzerprofile, die von den Zielgruppenprofilen ausgeschlossen wurden, die Nachricht erhalten haben.
 
   ![](assets/reporting_push_6.png)
 
 ## Versanddurchsatz {#delivery-throughput}
 
-Dieser Bericht enthält detaillierte Informationen zum Versanddurchsatz der gesamten Plattform innerhalb eines bestimmten Zeitraums. Die Hauptmetrik, mit der die Geschwindigkeit des Nachrichtenversands gemessen wird, ist die Anzahl der pro Stunde gesendeten Nachrichten.
+Dieser Bericht enthält detaillierte Informationen zum Versanddurchsatz der gesamten Plattform innerhalb eines bestimmten Zeitraums. Die wichtigste Kennzahl, mit der die Geschwindigkeit des Nachrichtenversands gemessen wird, ist die Anzahl der pro Stunde gesendeten Nachrichten.
 
 ![](assets/reporting_push_2.png)

@@ -8,7 +8,7 @@ hide: true
 source-git-commit: 4a439abca9c7b1f2cc5d82214efb0aae033a996c
 workflow-type: tm+mt
 source-wordcount: '352'
-ht-degree: 69%
+ht-degree: 93%
 
 ---
 
@@ -27,15 +27,15 @@ ht-degree: 69%
    + [Arbeiten mit Versandvorlagen](msg/delivery-template.md)
    + E-Mails {#email}
       + [Erstellen Ihrer ersten E-Mail](email/create-email.md)
-      + E-Mail-Inhalt erstellen {#content}
-         + [E-Mail-Inhalt konfigurieren](content/edit-content.md)
-         + Gestalten der E-Mail {#start-design}
-            + [Erste Schritte mit E-Mail-Designer](content/get-started-email-designer.md)
+      + Erstellen der E-Mail-Inhalte {#content}
+         + [Konfigurieren der E-Mail-Inhalte](content/edit-content.md)
+         + Beginnen Sie mit der Gestaltung Ihrer E-Mail {#start-design}
+            + [Erste Schritte mit dem E-Mail-Designer](content/get-started-email-designer.md)
             + [Beginnen von Grund auf](content/create-email-content.md)
             + [Importieren Ihrer E-Mail-Inhalte](content/existing-content.md)
             + [Codieren Sie Ihre eigenen Inhalte](content/code-content.md)
             + [Verwenden von E-Mail-Inhaltsvorlagen](content/email-sample-templates.md)
-         + Inhaltserstellung {#design-content}
+         + Gestalten Ihres Inhalts {#design-content}
             + [Verwenden von Inhaltskomponenten](content/content-components.md)
             + [Hinzufügen von Links und Verfolgen von Nachrichten](content/message-tracking.md)
             + [Hinzufügen eines Links zur Mirrorseite](content/mirror-page.md)
@@ -53,30 +53,30 @@ ht-degree: 69%
          + [E-Mail-Versandeinstellungen](advanced-settings/delivery-settings.md)
    + Push-Benachrichtigungen {#push}
       + [Erste Schritte mit Push-Benachrichtigungen](push/gs-push.md)
-      + [Push-Benachrichtigungsversand erstellen](push/create-push.md)
-      + [Push-Versand erstellen](push/content-push.md)
-      + [Push-Benachrichtigungsversand in der Vorschau ansehen und senden](push/send-push.md)
+      + [Erstellen eines Push-Benachrichtigungs-Versands](push/create-push.md)
+      + [Entwerfen eines Push-Versands](push/content-push.md)
+      + [Vorschau und Senden eines Push-Benachrichtigungs-Versands](push/send-push.md)
    + SMS {#sms}
       + [Erste Schritte mit SMS-Sendungen](sms/gs-sms.md)
       + [Erstellen eines SMS-Versands](sms/create-sms.md)
-      + [SMS-Versand erstellen](sms/content-sms.md)
-      + [SMS-Versand in der Vorschau ansehen und senden](sms/send-sms.md)
-   + Dynamische Inhalte erstellen {#dynamic-content}
+      + [Gestalten eines SMS-Versands](sms/content-sms.md)
+      + [Vorschau und Senden eines SMS-Versands](sms/send-sms.md)
+   + Inhalte dynamisch gestalten {#dynamic-content}
       + [Erste Schritte mit dynamischen Inhalten](personalization/gs-personalization.md)
       + [Hinzufügen von Personalisierung](personalization/personalize.md)
       + [Hinzufügen bedingter Inhalte](personalization/conditions.md)
-      + [Hinzufügen integrierter Inhaltsbausteine](personalization/content-blocks.md)
+      + [Hinzufügen von integrierten Inhaltsbausteinen](personalization/content-blocks.md)
    + [Senden von Angeboten](content/offers.md)
    + Versand in der Vorschau ansehen und testen {#preview-test}
       + [Über die Vorschau und Tests](preview-test/preview-test.md)
       + [Vorschau des Nachrichteninhalts anzeigen](preview-test/preview-content.md)
       + [Testsendungen durchführen](preview-test/test-deliveries.md)
-      + [E-Mail rendern](preview-test/email-rendering.md)
+      + [Rendern Ihrer E-Mail](preview-test/email-rendering.md)
 + Audiences und Empfänger {#audiences}
-   + [Erste Schritte mit Audiences](audience/about-audiences.md)
-   + [Auswählen einer bestehenden Audience](audience/add-audience.md)
-   + [Definieren von Audiences mit dem Regel-Builder](audience/segment-builder.md)
-   + [E-Mail-Audience aus einer Datei laden](audience/file-audience.md)
+   + [Erste Schritte mit Zielgruppen](audience/about-audiences.md)
+   + [Auswählen einer bestehenden Zielgruppe](audience/add-audience.md)
+   + [Definieren einer Zielgruppe mit dem Regel-Builder](audience/segment-builder.md)
+   + [Laden einer E-Mail-Zielgruppe aus einer Datei](audience/file-audience.md)
    + [Verwenden einer Adobe Experience Platform-Audience](audience/aep-audience.md)
    + [Festlegen einer Kontrollgruppe](audience/control-group.md)
 + Kanalübergreifende Kampagnen {#campaigns}
@@ -85,17 +85,17 @@ ht-degree: 69%
    + [Erstellen Ihrer ersten Kampagne](campaigns/create-campaigns.md)
 + Workflows {#wf}
    + [Erste Schritte mit Workflows](workflows/gs-workflows.md)
-   + [Aufrufen und Verwalten von Workflows](workflows/access-monitor.md)
+   + [Zugriff und Verwaltung von Workflows](workflows/access-monitor.md)
    + Erstellen und Ausführen des ersten Workflows {#create-workflow}
       + [Grundlegende Prinzipien der Workflow-Erstellung](workflows/gs-workflow-creation.md)
-      + [Erstellen eines Workflows](workflows/create-workflow.md)
-      + [Aktivitäten koordinieren](workflows/orchestrate-activities.md)
+      + [Erstellen des Workflows](workflows/create-workflow.md)
+      + [Orchestrieren von Aktivitäten](workflows/orchestrate-activities.md)
       + [Konfigurieren von Workflow-Einstellungen](workflows/workflow-settings.md)
-      + [Workflow starten und überwachen](workflows/start-monitor-workflows.md)
+      + [Starten und Überwachen des Workflows](workflows/start-monitor-workflows.md)
    + Arbeiten mit Workflow-Aktivitäten {#design-workflows}
       + [Über Workflow-Aktivitäten](workflows/activities/about-activities.md)
       + [Und-Verknüpfung](workflows/activities/and-join.md)
-      + [Zielgruppe aufbauen](workflows/activities/build-audience.md)
+      + [Aufbauen einer Zielgruppe](workflows/activities/build-audience.md)
       + [Kombinieren](workflows/activities/combine.md)
       + [E-Mail, SMS, Push](workflows/activities/channels.md)
       + [Anreicherung](workflows/activities/enrichment.md)
@@ -104,8 +104,8 @@ ht-degree: 69%
 + Reporting {#reports}
    + [Erste Schritte mit Berichten](reporting/gs-reports.md)
    + Versandberichte {#delivery-report}
-      + [Auf Versandberichte zugreifen](reporting/delivery-reports.md)
-      + [Email-Versandbericht](reporting/email-report.md)
-      + [Bericht zum Push-Versand](reporting/push-report.md)
+      + [Zugreifen auf Versandberichte](reporting/delivery-reports.md)
+      + [E-Mail-Versandbericht](reporting/email-report.md)
+      + [Push-Versandbericht](reporting/push-report.md)
       + [SMS-Versandbericht](reporting/sms-report.md)
    + [Kampagnenberichte](reporting/campaign-reports.md)

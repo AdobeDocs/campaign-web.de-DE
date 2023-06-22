@@ -1,16 +1,16 @@
 ---
 audience: end-user
-title: Push-Benachrichtigungsversand erstellen
-description: Erfahren Sie, wie Sie mit Adobe Campaign Web einen Push-Benachrichtigungsversand erstellen
+title: Erstellen eines Push-Benachrichtigungs-Versands
+description: Erfahren Sie, wie Sie mit Adobe Campaign Web einen Push-Benachrichtigungs-Versand erstellen
 badge: label="Alpha"
 source-git-commit: 4f7cedc4197a983d4d13294744e30836a0263d3a
 workflow-type: tm+mt
 source-wordcount: '330'
-ht-degree: 65%
+ht-degree: 95%
 
 ---
 
-# Push-Benachrichtigungsversand erstellen {#create-push}
+# Erstellen eines Push-Benachrichtigungs-Versands {#create-push}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_audience"
@@ -29,7 +29,7 @@ ht-degree: 65%
 
 1. Klicken Sie auf der **[!UICONTROL Sendungen]**-Startseite auf **[!UICONTROL Versand erstellen]**.
 
-1. Unter dem **[!UICONTROL Kanal]** Wählen Sie den Kanal Push-Benachrichtigung aus und wählen Sie je nach gewähltem Betriebssystem eine Vorlage aus: Android oder iOS. [Weitere Informationen zu Vorlagen](../msg/delivery-template.md)
+1. Wählen Sie im Abschnitt **[!UICONTROL Kanal]** die Push-Benachrichtigung als Kanal und wählen Sie eine Vorlage je nach dem gewählten Betriebssystem: Android oder iOS. [Weitere Informationen zu Vorlagen](../msg/delivery-template.md)
 
 1. Klicken Sie zur Bestätigung auf **[!UICONTROL Versand erstellen]**.
 
@@ -45,17 +45,17 @@ ht-degree: 65%
    * **[!UICONTROL Art]**: Geben Sie die Art der E-Mail zu Klassifizierungszwecken an.
 +++
 
-1. Aus dem **[!UICONTROL Zielgruppe]** auswählen, wählen Sie die Anwendung aus, die Sie für diesen Versand verwenden möchten.
+1. Wählen Sie im Menü **[!UICONTROL Zielgruppe]** die Anwendung aus, die Sie für diesen Versand verwenden möchten.
 
 1. Klicken Sie auf die Schaltfläche **[!UICONTROL Zielgruppe auswählen]**, um eine vorhandene Zielgruppe anzusprechen oder eine eigene zu erstellen. [Weitere Informationen](../audience/about-audiences.md)
 
-   Beachten Sie, dass Ihre Push-Benachrichtigung standardmäßig an alle Abonnenten der Anwendung gesendet wird.
+   Beachten Sie, dass Ihre Push-Benachrichtigung standardmäßig an alle Abonnentinnen und Abonnenten der Anwendung gesendet wird.
 
    ![](assets/push_create_2.png)
 
-1. Schalten Sie die Gruppenoption **[!UICONTROL Kontrollgruppe aktivieren]** ein, um zur Messung der Wirkung Ihres Versands eine Kontrollgruppe einzurichten, durch die Sie das Verhalten der Population, die die Nachricht erhalten hat, mit dem Verhalten der Kontakte vergleichen können, die die Nachricht nicht erhalten haben. [Weitere Informationen](../audience/control-group.md)
+1. Schalten Sie die Gruppenoption **[!UICONTROL Kontrollgruppe aktivieren]** ein, um zur Messung der Wirkung Ihres Versands eine Kontrollgruppe einzurichten, durch die Sie das Verhalten der Population, die die Nachricht erhalten hat, mit dem Verhalten der Kontakte vergleichen können, die sie nicht erhalten haben. [Weitere Informationen](../audience/control-group.md)
 
-1. Klicken **[!UICONTROL Inhalt bearbeiten]** , um mit der Erstellung des Inhalts Ihrer Push-Benachrichtigung zu beginnen. [Weitere Informationen](content-push.md)
+1. Klicken Sie auf **[!UICONTROL Inhalt bearbeiten]**, um mit der Gestaltung des Inhalts Ihrer Push-Benachrichtigung zu beginnen. [Weitere Informationen](content-push.md)
 
    ![](assets/push_create_5.png)
 
@@ -65,6 +65,6 @@ ht-degree: 65%
 
    ![](assets/push_create_3.png)
 
-1. Klicken **[!UICONTROL Konfigurieren der Versandeinstellungen]** , um auf erweiterte Optionen zu Ihrer Versandvorlage zuzugreifen. [Weitere Informationen](../advanced-settings/delivery-settings.md)
+1. Klicken Sie auf **[!UICONTROL Versandeinstellungen konfigurieren]**, um auf erweiterte Optionen in Bezug auf Ihre Versandvorlage zuzugreifen. [Weitere Informationen](../advanced-settings/delivery-settings.md)
 
    ![](assets/push_create_4.png)

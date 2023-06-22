@@ -7,7 +7,7 @@ badge: label="Alpha"
 source-git-commit: f59194334d5262e4270e2caef276b71b27d1b81f
 workflow-type: tm+mt
 source-wordcount: '209'
-ht-degree: 51%
+ht-degree: 68%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 51%
 >title="Hinzufügen eines Preheaders"
 >abstract="Ein Preheader ist ein kurzer Zusammenfassungstext, der beim Anzeigen einer E-Mail über Ihren E-Mail-Client der Betreffzeile folgt. In vielen Fällen handelt es sich um eine kurze Zusammenfassung der E-Mail, die in der Regel einen Satz lang ist."
 
-Ein Preheader ist ein kurzer Text, der beim Anzeigen einer E-Mail von einem gängigen E-Mail-Client der Betreffzeile folgt.
+Ein Preheader ist ein kurzer Text, der unter der Betreffzeile zu sehen ist, wenn Sie eine E-Mail in einem beliebigen E-Mail-Client öffnen.
 
-In vielen Fällen bietet es eine kurze Zusammenfassung des Inhalts und ist normalerweise ein Satz lang.
+In vielen Fällen handelt es sich um eine kurze Zusammenfassung des Inhalts, die in der Regel einen Satz lang ist.
 
 >[!NOTE]
 >

@@ -7,11 +7,11 @@ exl-id: e6e0dd01-5573-4261-aace-fd173827c383
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
 source-wordcount: '326'
-ht-degree: 64%
+ht-degree: 99%
 
 ---
 
-# E-Mail-Audience aus einer Datei laden {#audience-from-file}
+# Laden einer E-Mail-Zielgruppe aus einer Datei {#audience-from-file}
 
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_select"
@@ -28,29 +28,29 @@ ht-degree: 64%
 >title="Formatierungsparameter"
 >abstract="Überprüfen Sie die Formatierungsparameter für Ihre Datei."
 
-Sie können Kontakte aus einer externen Datei hochladen. Profile werden nicht zur Datenbank hinzugefügt, aber alle Felder in der Eingabedatei stehen zur Verfügung für [Personalisierung](../personalization/gs-personalization.md). Unterstützte Dateiformate sind: Text (TXT) und kommagetrennte Werte (CSV).
+Sie können Kontakte aus einer externen Datei hochladen. Profile werden nicht zur Datenbank hinzugefügt, aber alle Felder in der Eingabedatei können [personalisiert](../personalization/gs-personalization.md) werden. Unterstützte Dateiformate sind: Text (TXT) und kommagetrennte Werte (CSV).
 
 >[!CAUTION]
 >
->* Diese Funktion ist nur verfügbar für **Einzelne E-Mail-Sendungen**. Sie kann nicht in Workflows oder in SMS- oder Push-Sendungen verwendet werden.
+>* Diese Funktion ist nur für **eigenständige E-Mail-Sendungen** verfügbar. Sie kann nicht in Workflows oder in SMS- oder Push-Sendungen verwendet werden.
 >
 >* Sie können keine [Kontrollgruppen](control-group.md) verwenden, wenn Sie die Zielgruppen-Population aus einer externen Datei laden.
 
 
-Gehen Sie wie folgt vor, um Profile aus einer lokalen Datei direkt über die E-Mail-Oberfläche auszuwählen:
+Gehen Sie wie folgt vor, um Profile aus einer lokalen Datei direkt über die E-Mail-Benutzeroberfläche anzuvisieren:
 
-1. Öffnen Sie einen vorhandenen E-Mail-Versand oder [Erstellen eines neuen E-Mail-Versands](../email/create-email.md).
+1. Öffnen Sie einen vorhandenen E-Mail-Versand oder [erstellen Sie einen neuen](../email/create-email.md).
 1. Klicken Sie im Fenster zur Erstellung des E-Mail-Versands im Abschnitt **Zielgruppe** auf die Schaltfläche **Zielgruppe auswählen** und wählen Sie die Option **Aus Datei auswählen** aus.
 
    ![](assets/select-from-file.png)
 
-1. Wählen Sie die hochzuladende lokale Datei aus. Das Format muss mit der [Beispieldatei](#sample-file).
+1. Wählen Sie die hochzuladende lokale Datei aus. Das Format muss der [Beispieldatei](#sample-file) entsprechen.
 1. Im mittleren Abschnitt des Bildschirms können Sie eine Vorschau der Datenzuordnung anzeigen, um sie zu überprüfen.
 1. Wählen Sie in der Dropdown-Liste **Adressfeld** die Spalte aus, die die E-Mail-Adresse enthält. Sie können auch die Spalte „Blockierungsliste“ auswählen, wenn diese Informationen in der Eingabedatei enthalten sind.
 1. Passen Sie die Spalteneinstellungen an und wählen Sie aus den verfügbaren Optionen aus, wie Daten formatiert werden.
 1. Klicken Sie auf **Bestätigen**, wenn die Einstellungen korrekt sind.
 
-Bei der Erstellung und Personalisierung des Nachrichteninhalts können Sie Felder aus der Eingabedatei im [Personalisierungseditor](../personalization/gs-personalization.md).
+Bei der Erstellung und Personalisierung des Nachrichteninhalts können Sie im [Personalisierungseditor](../personalization/gs-personalization.md) Felder aus der Eingabedatei auswählen.
 
 ![](assets/select-external-perso.png)
 
@@ -64,7 +64,7 @@ Bei der Erstellung und Personalisierung des Nachrichteninhalts können Sie Felde
 
 Unterstützte Formate sind TXT und CSV. Die erste Zeile ist die Spaltenüberschrift.
 
-Passen Sie Ihr Dateiformat an die folgende Beispieldatei an:
+Passen Sie Ihr Dateiformat an die unten stehende Beispieldatei an:
 
 ```javascript
 {

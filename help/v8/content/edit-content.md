@@ -7,11 +7,11 @@ badge: label="Alpha"
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
 source-wordcount: '506'
-ht-degree: 42%
+ht-degree: 99%
 
 ---
 
-# E-Mail-Inhalt konfigurieren {#edit-content}
+# Konfigurieren der E-Mail-Inhalte {#edit-content}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_content"
@@ -21,26 +21,26 @@ ht-degree: 42%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_header"
 >title="E-Mail-Parameter"
->abstract="Die Werte Von Name und Von E-Mail werden in der E-Mail-Vorlage definiert. Die Betreffzeile kann mit dem Ausdruckseditor personalisiert werden."
+>abstract="Die Werte „Absendername“ und „Absender-E-Mail“ sind in der E-Mail-Vorlage definiert. Die Betreffzeile kann mit dem Ausdruckseditor personalisiert werden."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_attachment"
 >title="E-Mail-Anhang"
->abstract="Wählen Sie eine oder mehrere Dateien aus, die in Ihre Nachricht eingefügt werden sollen."
+>abstract="Wählen Sie eine oder mehrere Dateien aus, die Sie Ihrer Nachricht anfügen möchten."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_options"
 >title="Tracking-Optionen"
 >abstract="Standardmäßig ist für den Versand Tracking aktiviert. Sie können diese Option hier deaktivieren."
 
-Die E-Mail **[!UICONTROL Inhalt bearbeiten]** -Bildschirm ermöglicht Ihnen Folgendes:
-* Definieren Sie grundlegende Elemente Ihrer Nachricht, z. B. die Absenderadresse und die Betreffzeile
-* Durchführen zusätzlicher Aktionen, z. B. Hinzufügen von Anlagen oder Einrichten von Angeboten
-* Zugriff auf [Email Designer](get-started-email-designer.md#start-authoring) , um den korrekten Inhalt Ihrer E-Mail zu erstellen
+Der E-Mail-Bildschirm **[!UICONTROL Inhalt bearbeiten]** ermöglicht Ihnen Folgendes:
+* Definieren der grundlegenden Elemente Ihrer Nachricht, z. B. die Absenderadresse und die Betreffzeile
+* Durchführen zusätzlicher Aktionen, z. B. Hinzufügen von Anlagen oder Einrichten von Angeboten
+* Zugriff auf den [E-Mail-Designer](get-started-email-designer.md#start-authoring), um mit der Erstellung des eigentlichen Inhalts Ihrer E-Mail zu beginnen
 
 Gehen Sie wie folgt vor, um den Inhalt einer E-Mail zu konfigurieren oder zu bearbeiten.
 
-1. Klicken Sie auf **[!UICONTROL Inhalt bearbeiten]** -Schaltfläche in der [E-Mail-Versand-Dashboard](../email/create-email.md) angezeigt.
+1. Klicken Sie auf die Schaltfläche **[!UICONTROL Inhalt bearbeiten]** im Bildschirm [E-Mail-Versand-Dashboard](../email/create-email.md).
 
    ![](assets/email-edit-content-button.png)
 
@@ -50,23 +50,23 @@ Gehen Sie wie folgt vor, um den Inhalt einer E-Mail zu konfigurieren oder zu bea
 
    >[!NOTE]
    >
-   >Wenn Sie eine neue E-Mail konfigurieren, wird die **[!UICONTROL Name des Empfängers]** und **[!UICONTROL Aus E-Mail]** -Felder bereits ausgefüllt sind.
+   >Wenn Sie eine neue E-Mail konfigurieren, sind die Felder **[!UICONTROL Absendername]** und **[!UICONTROL Absender-E-Mail]** bereits ausgefüllt.
 
-1. Die **[!UICONTROL Name des Empfängers]** -Feld wird in der E-Mail-Vorlage definiert. Wenn Sie Änderungen vornehmen möchten, verwenden Sie einen Namen, der von den Empfängern leicht identifiziert werden kann, z. B. den Namen Ihrer Marke, um die Öffnungsrate Ihrer Sendungen zu erhöhen.
-
-   >[!NOTE]
-   >
-   >Um das Benutzererlebnis zu verbessern, können Sie den Namen einer Person hinzufügen, z. B. &quot;Aus Luma essen&quot;.
-
-1. Die **[!UICONTROL Aus E-Mail]** Das Adressfeld wird auch in der E-Mail-Vorlage definiert. Stellen Sie sicher, dass die Adress-Domain mit der Subdomain übereinstimmt, die Sie Adobe zugewiesen haben.
+1. Das Feld **[!UICONTROL Absendername]** wird in der E-Mail-Vorlage definiert. Wenn Sie ihn ändern möchten, verwenden Sie einen Namen, der von den Empfängerinnen und Empfängern leicht erkannt werden kann, z. B. den Namen Ihrer Marke, um die Öffnungsrate Ihrer Sendungen zu erhöhen.
 
    >[!NOTE]
    >
-   >Sie können den Teil vor dem &quot;@&quot; ändern, aber nicht die Domain-Adresse.
+   >Um das Erlebnis der Empfängerinnen und Empfänger weiter zu verbessern, können Sie den Namen einer Person hinzufügen, z. B. „Eva von Luma“.
+
+1. Das Adressfeld **[!UICONTROL Absender-E-Mail]** wird ebenfalls in der E-Mail-Vorlage definiert. Stellen Sie sicher, dass die Adress-Domain mit der Subdomain übereinstimmt, die Sie an Adobe delegiert haben.
+
+   >[!NOTE]
+   >
+   >Sie können den Teil vor dem „@“ ändern, nicht aber die Domain-Adresse.
 
    <!--In the Reply address text fields, the sender's address is used by default for replies. However, Adobe recommends using an existing real address such as your brand's customer care. In this case, if a recipient sends a reply, the customer care will be able to handle it.-->
 
-1. Definieren Sie den **[!UICONTROL Betreff]** der E-Mail. Geben Sie Ihren Betreff direkt in das dedizierte Feld ein oder öffnen Sie den Ausdruckseditor, um eine Personalisierung mit verschiedenen Attributen und Inhaltsbausteinen oder Angeboten hinzuzufügen. [Erfahren Sie, wie Sie Inhalte personalisieren](../personalization/personalize.md)
+1. Definieren Sie den **[!UICONTROL Betreff]** der E-Mail. Geben Sie Ihren Betreff direkt in das entsprechende Feld ein oder öffnen Sie den Ausdruckseditor, um das Hinzufügen einer Personalisierung mit verschiedenen Attributen und Inhaltsbausteinen oder Angeboten vorzunehmen. [Erfahren Sie, wie Sie Inhalte personalisieren](../personalization/personalize.md)
 
 1. Wenn Sie eine Datei an die E-Mail anhängen möchten, klicken Sie auf die Schaltfläche **[!UICONTROL Anlage hinzufügen]** und wählen Sie eine oder mehrere Dateien aus.
 
@@ -80,14 +80,14 @@ Gehen Sie wie folgt vor, um den Inhalt einer E-Mail zu konfigurieren oder zu bea
 
    Sie können sie dann mithilfe von Personalisierungsfeldern in die E-Mail einfügen. [Erfahren Sie, wie Sie Angebote senden](offers.md)
 
-1. Klicken Sie auf **[!UICONTROL Bearbeiten des E-Mail-Hauptteils]** -Schaltfläche, um den Inhalt der E-Mail mithilfe der [Email Designer](#start-authoring). Weitere Informationen zum Entwerfen von E-Mail-Inhalten finden Sie in diesen Abschnitten:
+1. Klicken Sie auf die Schaltfläche **[!UICONTROL E-Mail-Text bearbeiten]**, um den Inhalt der E-Mail mithilfe des [E-Mail-Designers](#start-authoring) zu strukturieren und zu gestalten. Weitere Informationen zum Entwerfen von E-Mail-Inhalten finden Sie in diesen Abschnitten:
 
-   * [Erstellen von E-Mails von Grund auf](create-email-content.md)
+   * [Verfassen von E-Mails von Grund auf neu](create-email-content.md)
    * [Gestalten Ihrer Inhalte](get-started-email-style.md)
 
    >[!NOTE]
    >
-   >Sie können auch den Mauszeiger über die E-Mail-Vorschau bewegen und **[!UICONTROL Email Designer öffnen]**.
+   >Sie können auch den Mauszeiger über die E-Mail-Vorschau bewegen und **[!UICONTROL E-Mail-Designer öffnen]** auswählen.
 
 1. Standardmäßig ist für den Versand Tracking aktiviert. Sie können diese Option im Bereich **[!UICONTROL Optionale Funktionen]** deaktivieren. [Erfahren Sie, wie Sie Links hinzufügen und das Tracking verwalten](message-tracking.md)
 

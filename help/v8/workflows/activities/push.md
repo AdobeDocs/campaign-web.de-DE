@@ -1,27 +1,27 @@
 ---
 audience: end-user
-title: Verwenden der Workflow-Aktivität Push-Benachrichtigung
-description: Erfahren Sie, wie Sie die Workflow-Aktivität "Push-Benachrichtigung"verwenden
+title: Verwenden der Workflow-Aktivität „Push-Benachrichtigung“
+description: Erfahren Sie, wie Sie die Workflow-Aktivität „Push-Benachrichtigung“ verwenden
 badge: label="Alpha"
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
 source-wordcount: '324'
-ht-degree: 4%
+ht-degree: 99%
 
 ---
 
 
-# Push notification {#push-activity}
+# Push-Benachrichtigung {#push-activity}
 
-Die **Push-Benachrichtigung** Die Versandaktivität ermöglicht den Versand von Push-Benachrichtigungen innerhalb eines Workflows.
+Die Versandaktivität **Push-Benachrichtigung** ermöglicht es Ihnen, das Senden einer Push-Benachrichtigung in einem Workflow zu konfigurieren.
 
 >[!BEGINTABS]
 
 >[!TAB Push-Benachrichtigung (Android)]
 
-1. Fügen Sie nach dem Erstellen und Konfigurieren eines neuen Workflows die Aktivität Audience erstellen hinzu, um eine vorhandene Audience auszuwählen, oder verwenden Sie den Regel-Builder, um Ihre eigene Abfrage zu definieren.
+1. Fügen Sie nach dem Erstellen und Konfigurieren eines neuen Workflows die Aktivität „Zielgruppe aufbauen“ hinzu, um eine vorhandene Zielgruppe auszuwählen, oder verwenden Sie den Regel-Builder, um Ihre eigene Abfrage zu definieren.
 
-1. Fügen Sie die Aktivität Push-Benachrichtigung (Android) in Ihren Workflow ein.
+1. Fügen Sie eine Kanalaktivität „Push-Benachrichtigung (Android)“ in Ihren Workflow ein.
 
 <!--
 1. Select the Type of delivery:
@@ -33,21 +33,21 @@ Die **Push-Benachrichtigung** Die Versandaktivität ermöglicht den Versand von 
 
 1. Wählen Sie Ihre Aktivität aus. Wählen Sie im Versandmenü die Vorlagen aus, die Sie für diesen Versand verwenden möchten. Weitere Informationen zu Vorlagen
 
-1. Klicken Sie auf Versand erstellen , um Ihren Push-Benachrichtigungsversand zu konfigurieren. Weiterführende Informationen zum Versand von Push-Benachrichtigungen (Android) finden Sie auf dieser Seite.
+1. Klicken Sie auf „Versand erstellen“, um Ihren Push-Benachrichtigungs-Versand zu konfigurieren. Weiterführende Informationen zum Versand von Push-Benachrichtigungen (Android) finden Sie auf dieser Seite.
 
-1. Sobald der Versand fertig ist, navigieren Sie zu Ihrem Workflow und klicken Sie auf Starten , um den Workflow zu starten.
+1. Sobald der Versand fertig ist, navigieren Sie zu Ihrem Workflow und klicken Sie auf „Starten“, um den Workflow zu starten.
 
-1. Beim Initiieren eines Versand-Workflows wird standardmäßig die Phase der Nachrichtenvorbereitung Trigger, ohne dass die Nachricht sofort gesendet wird.
+1. Standardmäßig wird durch die Initiierung eines Versand-Workflows die Vorbereitungsphase der Nachricht ausgelöst, ohne dass die Nachricht sofort versendet wird.
 
-   Klicken Sie im erweiterten Menü der Aktivität Android-Kanal (Push notification) auf Überprüfen und senden , um den Versand zu bestätigen.
+   Klicken Sie im erweiterten Menü Ihrer Kanalaktivität der Push-Benachrichtigung (Android) auf „Überprüfen und Senden“, um den Versand zu bestätigen.
 
-1. Klicken Sie im Dashboard Ihres Push-Benachrichtigungsversands auf Senden.
+1. Klicken Sie im Dashboard Ihres Push-Benachrichtigungs-Versands auf „Senden“.
 
 >[!TAB Push-Benachrichtigung (iOS)]
 
-1. Fügen Sie nach dem Erstellen und Konfigurieren eines neuen Workflows die Aktivität Audience erstellen hinzu, um eine vorhandene Audience auszuwählen, oder verwenden Sie den Regel-Builder, um Ihre eigene Abfrage zu definieren.
+1. Fügen Sie nach dem Erstellen und Konfigurieren eines neuen Workflows die Aktivität „Zielgruppe aufbauen“ hinzu, um eine vorhandene Zielgruppe auszuwählen, oder verwenden Sie den Regel-Builder, um Ihre eigene Abfrage zu definieren.
 
-1. Fügen Sie die Aktivität Push-Benachrichtigung (iOS) in Ihren Workflow ein.
+1. Fügen Sie eine Kanalaktivität „Push-Benachrichtigung (iOS)“ in Ihren Workflow ein.
 
 <!--
 1. Select the Type of delivery:
@@ -59,14 +59,14 @@ Die **Push-Benachrichtigung** Die Versandaktivität ermöglicht den Versand von 
 
 1. Wählen Sie Ihre Aktivität aus. Wählen Sie im Versandmenü die Vorlagen aus, die Sie für diesen Versand verwenden möchten. Weitere Informationen zu Vorlagen
 
-1. Klicken Sie auf Versand erstellen , um Ihren Push-Benachrichtigungsversand zu konfigurieren. Weiterführende Informationen zum Versand von Push-Benachrichtigungen (iOS) finden Sie auf dieser Seite.
+1. Klicken Sie auf „Versand erstellen“, um Ihren Push-Benachrichtigungs-Versand zu konfigurieren. Weiterführende Informationen zum Versand von Push-Benachrichtigungen (iOS) finden Sie auf dieser Seite.
 
-1. Sobald der Versand fertig ist, navigieren Sie zu Ihrem Workflow und klicken Sie auf Starten , um den Workflow zu starten.
+1. Sobald der Versand fertig ist, navigieren Sie zu Ihrem Workflow und klicken Sie auf „Starten“, um den Workflow zu starten.
 
-1. Beim Initiieren eines Versand-Workflows wird standardmäßig die Phase der Nachrichtenvorbereitung Trigger, ohne dass die Nachricht sofort gesendet wird.
+1. Standardmäßig wird durch die Initiierung eines Versand-Workflows die Vorbereitungsphase der Nachricht ausgelöst, ohne dass die Nachricht sofort versendet wird.
 
-   Klicken Sie im erweiterten Menü der Aktivität Push-Benachrichtigung (iOS) auf Überprüfen und senden , um den Versand zu bestätigen.
+   Klicken Sie im erweiterten Menü der Kanalaktivität Push-Benachrichtigung (iOS) auf „Überprüfen und senden“, um den Versand zu bestätigen.
 
-1. Klicken Sie im Dashboard Ihres Push-Benachrichtigungsversands auf Senden.
+1. Klicken Sie im Dashboard Ihres Push-Benachrichtigungs-Versands auf „Senden“.
 
 >[!ENDTABS]

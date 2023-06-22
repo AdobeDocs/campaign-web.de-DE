@@ -1,13 +1,13 @@
 ---
 audience: end-user
 title: Arbeiten mit Workflow-Aktivitäten
-description: Erfahren Sie, wie Workflow-Aktivitäten ausgeführt werden
+description: Erfahren Sie, wie Sie Workflow-Aktivitäten durchführen
 badge: label="Alpha"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
 source-git-commit: b66afeedbfcb342102c833899756afc35de9d504
 workflow-type: tm+mt
 source-wordcount: '305'
-ht-degree: 25%
+ht-degree: 99%
 
 ---
 
@@ -18,7 +18,7 @@ Workflow-Aktivitäten sind in drei Kategorien unterteilt. Je nach Kontext könne
 
 Alle Aktivitäten werden in den folgenden Abschnitten beschrieben:
 
-* [Zielgruppenaktivitäten](#targeting)
+* [Zielgruppenbestimmungsaktivitäten](#targeting)
 * [Kanalaktivitäten](#channel)
 * [Flusssteuerungsaktivitäten](#flow-control)
 
@@ -26,32 +26,32 @@ Alle Aktivitäten werden in den folgenden Abschnitten beschrieben:
 
 ## Zielgruppenbestimmungsaktivitäten {#targeting}
 
-Diese Aktivitäten dienen der Zielgruppenbestimmung, Manipulation und Anreicherung von Populationsdaten. Damit können Sie eine oder mehrere Zielgruppen erstellen, indem Sie eine Zielgruppe definieren und diese mithilfe von Schnittmengen-, Vereinigungs- oder Ausschlussvorgängen teilen oder kombinieren.
+Diese Aktivitäten dienen der Zielgruppenbestimmung, Manipulation und Anreicherung von Populationsdaten. Sie ermöglichen es Ihnen, ein oder mehrere Ziele zu erstellen, indem Sie eine Zielgruppe definieren und diese Zielgruppen mithilfe von Schnittmenge, Vereinigung oder Ausschluss aufteilen oder kombinieren.
 
-* Die [Audience erstellen](build-audience.md) ermöglicht die Bestimmung der Zielpopulation. Sie können entweder eine vorhandene Zielgruppe auswählen oder den Regel-Builder verwenden, um Ihre eigene Abfrage zu definieren.
-* Die [Kombinieren](combine.md) -Aktivität ermöglicht die Segmentierung Ihrer eingehenden Population. Sie können eine Vereinigung, eine Schnittmenge oder einen Ausschluss verwenden.
-* Die [Anreicherung](enrichment.md) -Aktivität können Sie zusätzliche Daten definieren, die in Ihrem Workflow verarbeitet werden sollen. Mit dieser Aktivität können Sie die eingehende Transition nutzen und die Aktivität so konfigurieren, dass die ausgehende Transition mit zusätzlichen Daten ergänzt wird.
+* Mit der Aktivität [Zielgruppe aufbauen](build-audience.md) können Sie Ihre Zielgruppenpopulation definieren. Sie können entweder eine vorhandene Zielgruppe auswählen oder den Regel-Builder verwenden, um Ihre eigene Abfrage zu definieren.
+* Die Aktivität [Kombinieren](combine.md) ermöglicht die Segmentierung Ihrer eingehenden Population. Sie können eine Vereinigung, eine Schnittmenge oder einen Ausschluss verwenden.
+* Mit der Aktivität [Anreicherung](enrichment.md) können Sie zusätzliche Daten definieren, die in Ihrem Workflow verarbeitet werden sollen. Mit dieser Aktivität können Sie die eingehende Transition nutzen und entsprechend der Konfiguration der Aktivität die ausgehende Transition mit Zusatzdaten ergänzen.
 
 ## Kanalaktivitäten {#channel}
 
-Mit Adobe Campaign Web können Sie Marketingkampagnen über mehrere Kanäle hinweg automatisieren und ausführen, z. B. E-Mail, SMS oder Push-Benachrichtigungen. Sie können Kanalaktivitäten in der Arbeitsfläche kombinieren, um kanalübergreifende Workflows zu erstellen, mit denen Trigger-Aktionen basierend auf dem Kundenverhalten durchgeführt werden können.
+Mit Adobe Campaign Web können Sie Marketing-Kampagnen über mehrere Kanäle wie E-Mail, SMS oder Push automatisieren und durchführen. Sie können Kanalaktivitäten in der Arbeitsfläche kombinieren, um kanalübergreifende Workflows zu erstellen, mit denen basierend auf dem Kundenverhalten Aktionen ausgelöst werden können.
 
-Folgendes **Kanal** sind verfügbar:
+Die folgenden **Kanalaktivitäten** sind verfügbar:
 
 * E-Mail
-* Push-Benachrichtigung
+* Push
 * SMS
 
 Näheres dazu finden Sie in [diesem Abschnitt](enrichment.md).
 
 ## Flusssteuerungsaktivitäten {#flow-control}
 
-Die folgenden Aktivitäten dienen der Anordnung und Ausführung von Workflows. Sie ermöglichen die Koordinierung der anderen Aktivitäten:
+Die folgenden Aktivitäten dienen der Anordnung und Ausführung von Workflows. Ihre Hauptaufgabe ist es, die anderen Aktivitäten zu koordinieren:
 
-* Die [Und-Verknüpfung](and-join.md) ermöglicht die Synchronisation mehrerer Ausführungszweige eines Workflows.
-* Die **Ende** -Aktivität können Sie das Ende eines Workflows grafisch markieren. Diese Aktivität hat keine funktionalen Auswirkungen und ist daher optional.
+* Die Aktivität [Und-Verknüpfung](and-join.md) ermöglicht es, die Ausführung verschiedener Workflow-Zweige zu synchronisieren.
+* Mit der **Endaktivität** können Sie das Ende eines Workflows grafisch markieren. Diese Aktivität hat keine funktionalen Auswirkungen und ist daher optional.
 * Eine [Verzweigung](fork.md) erzeugt ausgehende Transitionen, um mehrere Workflow-Aktivitäten parallel zu starten.
-* Die [Warten](wait.md)-Aktivität ermöglicht das zeitweise Aussetzen der Ausführung eines Teils eines Workflows.
+* Die Aktivität [Warten](wait.md) unterbricht vorübergehend die Ausführung eines Teils eines Workflows.
 
 <!--
 ## Data management activities {#data-management}

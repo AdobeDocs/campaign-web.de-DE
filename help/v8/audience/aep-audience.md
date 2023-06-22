@@ -7,7 +7,7 @@ exl-id: beb73107-3d27-40ac-afef-ac2b66ae8d34
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
 source-wordcount: '289'
-ht-degree: 46%
+ht-degree: 99%
 
 ---
 
@@ -15,20 +15,20 @@ ht-degree: 46%
 
 Die Ziel- und Quell-Connectoren für Adobe Campaign Managed Cloud Service ermöglichen eine nahtlose Integration zwischen Adobe Campaign und Adobe Experience Platform.
 
-Nachdem Sie eine Adobe Experience Platform-Audience erstellt haben und diese in der Clientkonsole verfügbar ist, können Sie sie auf die gleiche Weise wie für eine Campaign-Audience verwenden, um Nachrichten zu personalisieren und zu senden.
+Nachdem Sie eine Adobe Experience Platform-Zielgruppe erstellt haben und sie in der Client-Konsole verfügbar ist, können Sie diese wie eine Campaign-Zielgruppe verwenden, um Nachrichten zu personalisieren und zu senden.
 
 >[!NOTE]
 >
->Um Adobe Experience Platform-Zielgruppen in Campaign verwenden zu können, müssen Sie die Integration mit Adobe-Quellen und -Zielen konfigurieren. Siehe [Dokumentation zu Campaign v8 (Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html?lang=de){target="_blank"}.
+>Um Adobe Experience Platform-Zielgruppen in Campaign verwenden zu können, müssen Sie die Integration mit Adobe-Quellen und -Zielen konfigurieren. Weitere Informationen finden Sie in der [Dokumentation zu Campaign v8 (Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html?lang=de){target="_blank"}.
 
 
 Zur Auswahl der Zielgruppe eines Versands haben Sie außerdem folgende Möglichkeiten:
 
 * Erstellen Sie eine neue Zielgruppe. [Weitere Informationen](segment-builder.md)
-* Laden einer Audience aus einer externen Datei. [Weitere Informationen](file-audience.md)
+* Laden Sie eine Zielgruppe aus einer externen Datei. [Weitere Informationen](file-audience.md)
 * Verwenden Sie eine vorhandene Campaign-Zielgruppe. [Weitere Informationen](add-audience.md).
 
-Gehen Sie wie folgt vor, um eine Adobe Experience Platform-Audience für Ihren Versand auszuwählen:
+Gehen Sie wie folgt vor, um eine Adobe Experience Platform-Zielgruppe für Ihren Versand auszuwählen:
 
 1. Klicken Sie im Abschnitt **Audience** des Assistenten zur Versanderstellung auf die Schaltfläche **[!UICONTROL Audience auswählen]**.
 
@@ -36,7 +36,7 @@ Gehen Sie wie folgt vor, um eine Adobe Experience Platform-Audience für Ihren V
 
 1. Klicken Sie auf **[!UICONTROL Audience auswählen]**, um eine bestehende Audience zu verwenden. Um eine neue Audience zu erstellen, die in dieser E-Mail verwendet werden soll, wählen Sie **Eigene erstellen**. Näheres dazu finden Sie in [diesem Abschnitt](segment-builder.md).
 
-   In diesem Bildschirm werden alle in der Adobe Campaign-Clientkonsole definierten Zielgruppen für den aktuellen Ordner angezeigt. Um eine Zielgruppe aus Adobe Experience Platform auszuwählen, navigieren Sie zum `AEP Audiences folder` aus dem Filterbereich des Bildschirms.
+   Dieser Bildschirm zeigt alle bestehenden Zielgruppen an, die in der Adobe Campaign Client-Konsole für den aktuellen Ordner definiert sind. Um eine Zielgruppe aus Adobe Experience Platform auszuwählen, navigieren Sie im Filterabschnitt des Bildschirms zum `AEP Audiences folder`.
 
    ![](assets/select-audience-folder.png)
 

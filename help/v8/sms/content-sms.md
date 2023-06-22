@@ -7,11 +7,11 @@ exl-id: 1a70d033-6f1b-482b-9948-59ef75871750
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
 source-wordcount: '180'
-ht-degree: 91%
+ht-degree: 98%
 
 ---
 
-# SMS-Versand erstellen {#design-sms}
+# Gestalten eines SMS-Versands {#design-sms}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_content"
@@ -37,7 +37,7 @@ ht-degree: 91%
 
 1. Standardmäßig ist für Sendungen das Tracking aktiviert. Sie können diese Option im **[!UICONTROL Abschnitt „Optionale Funktionen“]** deaktivieren.
 
-1. Zugriff auf **[!UICONTROL Inhalt simulieren]** Menü, um eine Vorschau Ihres personalisierten Inhalts anzuzeigen. [Weitere Informationen](send-sms.md#preview-sms)
+1. Greifen Sie auf das Menü **[!UICONTROL Inhalt simulieren]** zu, um eine Vorschau Ihres personalisierten Inhalts anzuzeigen. [Weitere Informationen](send-sms.md#preview-sms)
 
 1. Klicken Sie auf **[!UICONTROL Speichern]** und überprüfen Sie Ihre Nachricht in der Vorschau.
 

@@ -7,7 +7,7 @@ exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
 source-git-commit: d73deb59ef6b4b4833da42b62515c474ba154f2c
 workflow-type: tm+mt
 source-wordcount: '182'
-ht-degree: 10%
+ht-degree: 85%
 
 ---
 
@@ -16,10 +16,10 @@ ht-degree: 10%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card5"
->title="Kanalübergreifende Kampagnen erstellen und senden"
->abstract="Mit den Adobe Campaign-Funktionen können Sie zentralisierte Kundendaten verwalten, Kundenkommunikation und Kampagnen erstellen und personalisierte Erlebnisse über verschiedene Kanäle hinweg erstellen: E-Mail, Push und SMS."
+>title="Gestalten und Senden von kanalübergreifenden Kampagnen"
+>abstract="Mit den Funktionen von Adobe Campaign können Sie zentralisierte Kundendaten verwalten, Kundenkommunikation und Kampagnen gestalten und personalisierte Erlebnisse über verschiedene Kanäle hinweg erstellen: E-Mail, Push und SMS."
 
-Mit Adobe Campaign können Sie Ihre zielgerichteten Marketinginitiativen mithilfe der integrierten Kampagnenverwaltungsfunktion einfach koordinieren. Mit der Fähigkeit, einen Zeitplan festzulegen, können Sie die Dauer und den Zeitpunkt Ihrer Kampagnen so planen, dass sie mit strategischen Zielen übereinstimmen und die Interaktion der Zielgruppe maximieren.
+Mit Adobe Campaign können Sie Ihre zielgerichteten Marketinginitiativen mithilfe der integrierten Kampagnenverwaltungsfunktion einfach koordinieren. Mit der Fähigkeit, einen Zeitplan zu definieren, können Sie die Dauer und den Zeitpunkt Ihrer Kampagnen so planen, dass sie mit strategischen Zielen übereinstimmen und die Interaktion der Zielgruppe maximieren.
 
 Durch das Hinzufügen mehrerer kampagnenspezifischer Workflows und Sendungen können Sie personalisierte Erlebnisse über verschiedene Kanäle hinweg erstellen und so sicherstellen, dass jeder Touchpoint mit der gewünschten Zielgruppe abgestimmt wird.
 
@@ -29,7 +29,7 @@ Kampagnen bieten dedizierte Berichterstellungsmetriken, um einen umfassenden Ein
 
 In den folgenden Abschnitten erfahren Sie, wie Sie Kampagnen erstellen und verwalten:
 
-* [Zugriff und Verwaltung von Kampagnen](manage-campaigns.md)
+* [Zugreifen und Verwalten Ihrer Kampagnen](manage-campaigns.md)
 * [Erstellen Ihrer ersten Kampagne](create-campaigns.md)
 
 

@@ -7,7 +7,7 @@ badge: label="Alpha"
 source-git-commit: d1a56f48e1b4253bad053745a3771a9527816d6b
 workflow-type: tm+mt
 source-wordcount: '840'
-ht-degree: 48%
+ht-degree: 51%
 
 ---
 
@@ -20,7 +20,7 @@ Wenn Sie Ihre [content](../content/edit-content.md), [audience](../audience/add-
 
 Während der Vorbereitung wird die Zielpopulation berechnet und der Nachrichteninhalt für jedes Profil in der Zielgruppe erzeugt. Nachdem die Vorbereitung abgeschlossen ist, können die Nachrichten entweder sofort oder am geplanten Datum und zur geplanten Uhrzeit gesendet werden.
 
-Die bei der Versandvorbereitung verwendeten Validierungsregeln werden im Abschnitt [Dokumentation zu Campaign v8 (Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/validate/delivery-analysis.html){target="_blank"}.
+Die bei der Versandvorbereitung verwendeten Validierungsregeln sind in der Dokumentation zur [Campaign v8-Konsole](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/validate/delivery-analysis.html?lang=de){target="_blank"} beschrieben.
 
 Die wichtigsten Schritte zur Versandvorbereitung sind unten aufgeführt.
 

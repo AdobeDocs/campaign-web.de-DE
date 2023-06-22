@@ -7,7 +7,7 @@ exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
 source-git-commit: 22134d69721796f43bab74ccf411300d411a5d90
 workflow-type: tm+mt
 source-wordcount: '1119'
-ht-degree: 84%
+ht-degree: 99%
 
 ---
 
@@ -23,7 +23,7 @@ Mit Adobe Campaign können Sie Cross-Channel-Kampagnen einschließlich E-Mails, 
 
 Diese Nachrichten werden mittels Sendungen entworfen und gesendet und können für jede Empfängerin und jeden Empfänger personalisiert werden. Diese Sendungen können einzeln oder im Rahmen einer Marketing-Kampagne durchgeführt werden.
 
-Adobe Campaign v8 enthält die folgenden Versandkanäle: E-Mail-, SMS- und Mobile-Apps.
+Adobe Campaign v8 enthält die folgenden Versandkanäle: E-Mail, SMS und Mobile Apps.
 
 <table style="table-layout:fixed">
     <tr style="border: 0;">
@@ -31,16 +31,16 @@ Adobe Campaign v8 enthält die folgenden Versandkanäle: E-Mail-, SMS- und Mobil
     <a href="../email/create-email.md">
     <img alt="E-Mail" src="assets/do-not-localize/email.jpg">
     </a>
-    <div><a href="../email/create-email.md"><strong>E-Mails erstellen</strong>
+    <div><a href="../email/create-email.md"><strong>Erstellen von E-Mails</strong>
     </div>
     <p>
     </td>
     <td>
     <a href="../push/create-push.md">
-      <img alt="Push-Benachrichtigung" src="assets/do-not-localize/push.jpg">
+      <img alt="Push" src="assets/do-not-localize/push.jpg">
     </a>
     <div>
-    <a href="../push/gs-push.md"><strong>Push-Benachrichtigungen erstellen</strong></a>
+    <a href="../push/gs-push.md"><strong>Erstellen von Push-Benachrichtigungen</strong></a>
     </div>
     <p>
     </td>
@@ -49,7 +49,7 @@ Adobe Campaign v8 enthält die folgenden Versandkanäle: E-Mail-, SMS- und Mobil
       <img alt="SMS" src="assets/do-not-localize/sms.jpg">
     </a>
     <div>
-    <a href="../sms/create-sms.md"><strong>SMS-Nachrichten erstellen</strong></a>
+    <a href="../sms/create-sms.md"><strong>Erstellen von SMS-Nachrichten</strong></a>
     </div>
     <p>
     </td>
@@ -129,7 +129,7 @@ Sie können den Nachrichteninhalt wie folgt personalisieren:
 
 * Einfügen von vordefinierten **Inhaltsbausteinen**
 
-  Campaign verfügt über eine Reihe von Gestaltungsbausteinen, die ein bestimmtes Rendering ermöglichen, das Sie in Ihre Sendungen einfügen können. Sie können zum Beispiel ein Logo, eine Grußbotschaft oder einen Link zur Mirror-Seite der Nachricht hinzufügen. Inhaltsbausteine sind über einen eigenen Eintrag im Personalisierungseditor verfügbar. [Weitere Informationen](../personalization/personalize.md#ootb-content-blocks)
+  Campaign verfügt über eine Reihe von Gestaltungsbausteinen, die ein bestimmtes Rendering enthalten, das Sie in Ihre Sendungen einfügen können. Sie können zum Beispiel ein Logo, eine Grußbotschaft oder einen Link zur Mirror-Seite der Nachricht hinzufügen. Inhaltsbausteine sind über einen eigenen Eintrag im Personalisierungseditor verfügbar. [Weitere Informationen](../personalization/personalize.md#ootb-content-blocks)
 
 * Erstellen **bedingter Inhalte**
 
@@ -145,13 +145,13 @@ Sie können den Nachrichteninhalt wie folgt personalisieren:
 Nachdem der Nachrichteninhalt definiert wurde, können Sie eine Vorschau davon anzeigen, um das Rendering Ihrer Nachrichten zu steuern, und die Personalisierungseinstellungen mit Testprofilen überprüfen. [Weitere Informationen](../preview-test/preview-test.md)
 
 
-## Monitoring- und Trackinglogs{#gs-tracking-logs}
+## Überwachung und Trackinglogs{#gs-tracking-logs}
 
-Die Überwachung Ihrer Sendungen nach deren Versand ist ein wichtiger Schritt, um sicherzustellen, dass Ihre Marketing-Kampagnen effizient sind und Ihre Kunden erreichen.
+Die Überwachung Ihrer Sendungen nach deren Versand ist ein wichtiger Schritt, um sicherzustellen, dass Ihre Marketing-Kampagnen effizient sind und Ihre Kundschaft auch erreichen.
 
 Sie können nach dem Versand überwachen sowie nachvollziehen, wie Zustellungsfehler und Quarantänen gehandhabt werden.
 
-Erfahren Sie mehr über die Überwachungs- und Tracking-Funktionen in [diesem Abschnitt](../reporting/gs-reports.md).
+Weitere Informationen zu den Überwachungs- und Tracking-Funktionen finden Sie in [diesem Abschnitt](../reporting/gs-reports.md).
 
 ## Duplizieren eines Versands {#delivery-duplicate}
 
@@ -169,24 +169,24 @@ Gehen Sie wie folgt vor, um einen Versand über sein Dashboard zu duplizieren:
 1. Wählen Sie **[!UICONTROL Duplizieren]** aus.
 1. Nachdem Sie die Duplizierung bestätigt haben, ersetzt der neue Versand den aktuellen Versand im mittleren Bereich des Bildschirms.
 
-## Versand löschen {#delivery-delete}
+## Löschen eines Versands {#delivery-delete}
 
-Sendungen werden aus der Versandliste gelöscht - entweder aus dem Haupteintrag des Versands in der linken Leiste oder aus der Versandliste einer Kampagne.
+Sendungen werden aus der Versandliste gelöscht: entweder aus dem Haupteintrag des Versands in der linken Leiste oder aus der Versandliste einer Kampagne.
 
-Gehen Sie wie folgt vor, um einen Versand aus der Versandliste zu löschen:
+Gehen Sie wie folgt vor, um einen Versand aus der Liste der Sendungen zu löschen:
 
 1. Klicken Sie auf die Schaltfläche mit den drei Punkten rechts neben dem Namen des zu duplizierenden Versands.
-1. Auswählen  **[!UICONTROL Löschen]**.
-1. Löschbestätigung.
+1. Wählen Sie  **[!UICONTROL Löschen]**.
+1. Bestätigen Sie den Löschvorgang.
 
 ![Löschen eines Versands aus der Versandliste](assets/delete-delivery-from-list.png)
 
-Alle Sendungen sind in diesen Listen verfügbar, Sendungen, die in einem Workflow erstellt wurden, können dort jedoch nicht gelöscht werden. Um einen im Rahmen eines Workflows erstellten Versand zu löschen, ist die Löschung der Versandaktivität im Workflow erforderlich.
+Alle Sendungen sind in diesen Listen verfügbar, Sendungen, die in einem Workflow erstellt wurden, können dort jedoch nicht gelöscht werden. Um einen im Rahmen eines Workflows erstellten Versand zu löschen, ist die Löschung der Versandaktivität aus dem Workflow erforderlich.
 
 Gehen Sie wie folgt vor, um einen Versand aus einem Workflow zu löschen:
 
 1. Wählen Sie die Versandaktivität aus.
-1. Klicken Sie auf  **[!UICONTROL Löschen]** im rechten Bereich.
-1. Löschbestätigung. Wenn der Versand untergeordnete Knoten hat, können Sie auch diese löschen oder beibehalten.
+1. Klicken Sie auf das Symbol **[!UICONTROL Löschen]** im rechten Panel.
+1. Bestätigen Sie den Löschvorgang. Wenn der Versand untergeordnete Knoten hat, haben Sie die Wahl, diese ebenfalls zu löschen oder sie beizubehalten.
 
 ![Löschen eines Versands in einem Workflow](assets/delete-delivery-from-wf.png)

@@ -7,16 +7,16 @@ badge: label="Alpha"
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
 source-wordcount: '1106'
-ht-degree: 69%
+ht-degree: 99%
 
 ---
 
-# Verwenden des Inhalts von Email Designer {#content-components}
+# Verwenden der Inhalte von E-Mail-Designer {#content-components}
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_email"
 >title="Über Inhalte"
->abstract="Inhaltskomponenten sind leere Platzhalter für Inhalte, mit denen Sie das Layout einer E-Mail erstellen können."
+>abstract="Inhaltskomponenten sind leere Platzhalter für Inhalte, mit denen Sie das Layout einer E-Mail gestalten können."
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_landing_page"
@@ -33,31 +33,31 @@ ht-degree: 69%
 >title="Über Inhalte"
 >abstract="Inhaltskomponenten sind leere Platzhalter für Inhalte, mit denen Sie das Layout einer Vorlage gestalten können."
 
-Wenn Sie E-Mail-Inhalt erstellen, **[!UICONTROL Inhalt]** -Komponenten ermöglichen es Ihnen, Ihre E-Mail mit leeren, rohen Komponenten weiter zu personalisieren, die Sie verwenden können, nachdem Sie sie in einer E-Mail platziert haben.
+Wenn Sie Ihre E-Mail-Inhalte erstellen, können Sie mithilfe von **[!UICONTROL Inhaltskomponenten]** Ihre E-Mail mit unbearbeiteten, leeren Komponenten personalisieren, die Sie verwenden können, sobald sie in einer E-Mail platziert wurden.
 
-Sie können beliebig viele **[!UICONTROL Inhalt]** wie in einem **[!UICONTROL Struktur]** definiert das Layout Ihrer E-Mail.
+Sie können so viele **[!UICONTROL Inhalte]** wie nötig in eine **[!UICONTROL Struktur]** einfügen, die das Layout Ihrer E-Mail definiert.
 
-## Inhaltskomponenten hinzufügen {#add-content-components}
+## Hinzufügen von Inhaltskomponenten {#add-content-components}
 
 Gehen Sie wie folgt vor, um Ihrer E-Mail Inhaltskomponenten hinzuzufügen und diese an Ihre Anforderungen anzupassen.
 
-1. Verwenden Sie in Email Designer eine [vorhandener Inhalt](existing-content.md) oder ziehen Sie eine **[!UICONTROL Struktur]** in Ihren leeren Inhalt, um das Layout Ihrer E-Mail zu definieren. [Weitere Informationen](create-email-content.md)
+1. Verwenden Sie im E-Mail-Designer einen [vorhandenen Inhalt](existing-content.md) oder ziehen Sie per Drag-and-Drop eine **[!UICONTROL Struktur]** in einen leeren Inhalt, um das Layout Ihrer E-Mail zu definieren. [Weitere Informationen dazu](create-email-content.md)
 
-1. Ziehen Sie die **[!UICONTROL Inhalt]** Ihrer Wahl innerhalb der entsprechenden Strukturen.
+1. Ziehen Sie die **[!UICONTROL Inhalte]** Ihrer Wahl per Drag-and-Drop in die entsprechenden Strukturen.
 
    ![](assets/email_designer_add_content_components.png)
 
    >[!NOTE]
    >
-   >Sie können mehrere Komponenten zu einer Struktur und zu jeder Spalte einer Struktur hinzufügen.
+   >Sie können zu einer einzelnen Struktur und zu jeder Spalte einer Struktur mehrere Komponenten hinzufügen.
 
-1. Passen Sie die Optionen für jede Komponente mithilfe des Kontextes an **[!UICONTROL Einstellungen]** Registerkarte. Beispielsweise können Sie festlegen, ob die Anzeige nur auf Desktop- oder Mobilgeräten oder beidem erfolgen soll. Sie können auch Link-Optionen auf dieser Registerkarte verwalten. [Weitere Informationen zum Verwalten von Links](message-tracking.md)
+1. Passen Sie die Optionen für jede Komponente über die kontextabhängige Registerkarte **[!UICONTROL Einstellungen]** an. Beispielsweise können Sie festlegen, ob die Anzeige nur auf Desktop- oder Mobilgeräten oder beidem erfolgen soll. Sie können auf dieser Registerkarte auch Link-Optionen verwalten. [Weitere Informationen zum Verwalten von Links](message-tracking.md)
 
-1. Passen Sie die Stilattribute für jede Komponente mithilfe der **[!UICONTROL Stil]** Registerkarte. Beispielsweise können Sie den Textstil, den Abstand oder den Rand jeder Komponente ändern. [Weitere Informationen über Ausrichtung und Abstand](alignment-and-padding.md)
+1. Passen Sie die Stilattribute für jede Komponente mithilfe der Registerkarte **[!UICONTROL Stil]** an. Beispielsweise können Sie den Textstil, den Abstand oder den Rand jeder Komponente ändern. [Weitere Informationen über Ausrichtung und Abstand](alignment-and-padding.md)
 
    ![](assets/email_designer_content_components_settings.png)
 
-1. Im erweiterten Menü Ihrer **[!UICONTROL Inhalt]** im rechten Bereich können Sie jede Inhaltskomponente nach Bedarf einfach löschen oder duplizieren.
+1. Über das erweiterte Menü Ihres **[!UICONTROL Inhalts]** auf der rechten Seite können Sie jede Inhaltskomponente bei Bedarf einfach löschen oder duplizieren.
 
 ## Container {#container}
 
@@ -91,19 +91,19 @@ Verwenden Sie die Komponente **[!UICONTROL Schaltfläche]**, um eine oder mehrer
 
    ![](assets/email_designer_15.png)
 
-1. Sie können Ihre Schaltfläche weiter personalisieren, indem Sie Stilattribute wie **[!UICONTROL Rahmen]**, **[!UICONTROL Größe]**,**[!UICONTROL Rand]** usw. von **[!UICONTROL Stile]** Registerkarte.
+1. Sie können Ihre Schaltfläche weiter personalisieren, indem Sie Stilattribute wie **[!UICONTROL Rahmen]**, **[!UICONTROL Größe]**,**[!UICONTROL Rand]** usw. auf der Registerkarte **[!UICONTROL Stile]** ändern.
 
 ## Text {#text}
 
 Verwenden Sie die Komponente **[!UICONTROL Text]**, um Text in Ihre E-Mail einzufügen und den Stil (Rahmen, Größe, Abstand usw.) mithilfe der Registerkarten **[!UICONTROL Einstellungen]** und **[!UICONTROL Stile]** anzupassen.
 
-1. Aus dem **[!UICONTROL Inhalt]** Menü, per Drag &amp; Drop **[!UICONTROL Text]** in **[!UICONTROL Struktur]** -Komponente.
+1. Ziehen Sie **[!UICONTROL Text]** aus dem Menü **[!UICONTROL Inhalte]** per Drag-and-Drop in eine **[!UICONTROL Strukturkomponente]**.
 
    ![](assets/email_designer_11.png)
 
 1. Klicken Sie auf die neu hinzugefügte Komponente, um den Text zu personalisieren und Zugriff auf die Registerkarten **[!UICONTROL Einstellungen]** und **[!UICONTROL Stile]** zu erhalten.
 
-1. Ändern Sie den Text mit den folgenden Optionen, die in der dedizierten Symbolleiste verfügbar sind:
+1. Ändern Sie Ihren Text mit den folgenden Optionen, die in der kontextbezogenen Symbolleiste verfügbar sind:
 
    ![](assets/email_designer_27.png)
 
@@ -119,7 +119,7 @@ Verwenden Sie die Komponente **[!UICONTROL Text]**, um Text in Ihre E-Mail einzu
    * **[!UICONTROL Personalisierung hinzufügen]**: Personalisierungsfelder hinzufügen, um den Inhalt aus Ihren Profildaten anzupassen.
    * **[!UICONTROL Bedingten Inhalt aktivieren]**: Einen bedingten Inhalt hinzufügen, um den Inhalt der Komponente an die Zielprofile anzupassen.
 
-1. Andere Stilattribute wie Textfarbe, Schriftfamilie, Rahmen, Abstand, Rand usw. von **[!UICONTROL Stile]** Registerkarte.
+1. Andere Stilattribute wie Textfarbe, Schriftfamilie, Rahmen, Abstand, Rand usw. können Sie auf der Registerkarte **[!UICONTROL Stile]** anpassen.
 
    ![](assets/email_designer_12.png)
 
@@ -127,7 +127,7 @@ Verwenden Sie die Komponente **[!UICONTROL Text]**, um Text in Ihre E-Mail einzu
 
 Verwenden Sie die Komponente **[!UICONTROL Trennlinie]**, um das Layout und den Inhalt Ihrer E-Mail durch eine Trennlinie zu strukturieren.
 
-Sie können Stilattribute wie Zeilenfarbe, Stil und Höhe von **[!UICONTROL Stile]** Registerkarte.
+Sie können Stilattribute wie Zeilenfarbe, Stil und Höhe in der Registerkarte **[!UICONTROL Stile]** anpassen.
 
 ![](assets/email_designer_16.png)
 
@@ -145,7 +145,7 @@ Verwenden Sie die Komponente **[!UICONTROL HTML]**, um die unterschiedlichen Tei
 
 >[!NOTE]
 >
->Um nur externe Inhalte mit Email Designer kompatibel zu machen, empfiehlt Adobe [Nachricht von Grund auf neu erstellen](create-email-content.md) und kopieren Sie den Inhalt aus Ihrer vorhandenen E-Mail in Komponenten.
+>Um einen externen Inhalt einfach mit dem E-Mail-Designer kompatibel zu machen, empfiehlt Adobe, [eine Nachricht von Grund auf neu zu erstellen](create-email-content.md) und den Inhalt aus Ihrer bestehenden E-Mail in Komponenten zu kopieren.
 
 ## Bild {#image}
 
@@ -157,16 +157,16 @@ Verwenden Sie die Komponente **[!UICONTROL Bild]**, um eine Bilddatei von Ihrem 
 
 1. Klicken Sie auf **[!UICONTROL Durchsuchen]**, um eine Bilddatei aus Ihren Assets auszuwählen.
 
-1. Klicken Sie auf die neu hinzugefügte Komponente und richten Sie Ihre Bildeigenschaften mithilfe der **[!UICONTROL Einstellungen]** tab:
+1. Klicken Sie auf die neu hinzugefügte Komponente und legen Sie die Bildeigenschaften auf der Registerkarte **[!UICONTROL Einstellungen]** fest:
 
    * **[!UICONTROL Bildtitel]** ermöglicht Ihnen, den Titel für das Bild zu definieren.
    * **[!UICONTROL Alternativtext]** ermöglicht Ihnen, die zugeordnete Beschriftung zu Ihrem Bild zu definieren. Dies entspricht dem Alt-HTML-Attribut.
 
    ![](assets/email_designer_10.png)
 
-1. Sie können einen Link hinzufügen, um Ihre Zielgruppe zu einem anderen Inhalt umzuleiten. [Weitere Informationen](message-tracking.md)
+1. Sie können einen Link hinzufügen, um Ihre Zielgruppe zu einem anderen Inhalt weiterzuleiten. [Weitere Informationen](message-tracking.md)
 
-1. Über den Bereich mithilfe der **[!UICONTROL Stile]** Registerkarte.
+1. Passen Sie die anderen Stilattribute wie Rand, Rahmen usw. mithilfe der Registerkarte **[!UICONTROL Stile]** an.
 
 ## Social {#social}
 
@@ -186,6 +186,6 @@ Verwenden Sie die Komponente **[!UICONTROL Social]**, um Links zu Social-Media-S
 
    ![](assets/email_designer_21.png)
 
-1. Sie können bei Bedarf auch die Symbole der einzelnen sozialen Medien im **[!UICONTROL Quelle]** -Feld.
+1. Sie können bei Bedarf auch die Symbole für jedes Ihrer sozialen Medien im Feld **[!UICONTROL Quelle]** ändern.
 
-1. Passen Sie die anderen Stilattribute wie Stil, Rand, Rahmen usw. an, von **[!UICONTROL Stile]** Registerkarte.
+1. Passen Sie die anderen Stilattribute wie Stil, Rand, Rahmen usw. mithilfe der Registerkarte **[!UICONTROL Stile]** an.

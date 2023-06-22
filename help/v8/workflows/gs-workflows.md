@@ -7,7 +7,7 @@ exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
 source-wordcount: '388'
-ht-degree: 81%
+ht-degree: 99%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 81%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card4"
 >title="Neu gestaltete Oberfläche der Workflow-Arbeitsfläche"
->abstract="Unsere umfassende grafische Arbeitsfläche erleichtert Ihnen das Entwerfen von Prozessen wie Segmentierung, Kampagnenausführung und mehr. Mit diesem erweiterten Tool können Sie Ihren Workflow optimieren und Ihre Kampagnen optimieren."
+>abstract="Unsere umfassende grafische Arbeitsfläche erleichtert Ihnen das Gestalten von Prozessen wie Segmentierung, Kampagnenausführung und mehr. Mit diesem erweiterten Tool können Sie Ihren Workflow optimieren und Ihre Kampagnen aufwerten."
 
 ## Was ist ein Workflow?
 
@@ -34,9 +34,9 @@ Mit der umfassenden grafischen Umgebung von Adobe Campaign können Sie Prozesse 
 
 Im Folgenden finden Sie einige Beispiele für die Verwendung von Workflows mit Adobe Campaign:
 
-* Starten einer Folgenachkampagne für inaktive Kunden,
-* Senden Sie eine Begrüßungs-E-Mail an alle neuen Abonnenten eines Dienstes,
-* Personalisieren Sie kanalübergreifende Sendungen anhand des Status des Treueprogramms oder der Zielpunkte der Kunden.
+* Starten einer Folgekampagne für inaktive Kundinnen und Kunden,
+* Senden einer Begrüßungs-E-Mail an alle neuen Abonnentinnen und Abonnenten eines Dienstes,
+* Personalisieren von kanalübergreifenden Sendungen anhand der Status der Kundinnen und Kunden im Treueprogramm oder ihrer Points of Interest.
 
 ## Tauchen wir tiefer in die Materie ein
 
@@ -45,10 +45,10 @@ Jetzt, da Sie wissen, was Workflows sind und was Sie mit ihnen in Adobe Campaign
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="access-monitor.md">
-<img alt="Zugreifen auf und Verwalten von Workflows" src="assets/do-not-localize/workflow-access.jpeg">
+<img alt="Zugriff und Verwaltung von Workflows" src="assets/do-not-localize/workflow-access.jpeg">
 </a>
 <div>
-<a href="access-monitor.md"><strong>Aufrufen und Verwalten von Workflows</strong></a>
+<a href="access-monitor.md"><strong>Zugriff und Verwaltung von Workflows</strong></a>
 </div>
 <p>
 </td>

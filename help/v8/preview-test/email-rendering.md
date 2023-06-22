@@ -7,35 +7,35 @@ badge: label="Alpha"
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
 source-wordcount: '227'
-ht-degree: 7%
+ht-degree: 99%
 
 ---
 
 
 # Testen des E-Mail-Rendering {#email-rendering}
 
-Bevor Sie Ihre E-Mail versenden, stellen Sie sicher, dass Ihre Nachricht den Empfängern in verschiedenen Web-Clients und Geräten optimal angezeigt wird.
+Vergewissern Sie sich vor dem Versand Ihrer E-Mail, dass Ihre Nachricht den Empfängerinnen und Empfängern auf einer Vielzahl von Webclients und Geräten optimal angezeigt wird.
 
-Dazu können Sie Ihre **Litmus** Konto [!DNL Adobe Campaign] um sofort eine Vorschau Ihres E-Mail-Renderings in verschiedenen Kontexten anzuzeigen und die Kompatibilität mit den wichtigsten Desktops und Anwendungen (Webmail, Nachrichtendienst, Mobilgeräte usw.) zu überprüfen.
+Zu diesem Zweck können Sie Ihr **Litmus**-Konto in [!DNL Adobe Campaign] einbinden, um eine sofortige Vorschau Ihres E-Mail-Renderings in verschiedenen Kontexten zu erhalten und die Kompatibilität mit den wichtigsten Desktops und Anwendungen (Webmail, Nachrichten-Service, Mobilgerät usw.) zu überprüfen.
 
 >[!CAUTION]
 >
->Die Verwendung von E-Mail-Rendering in Campaign sendet eine Test-E-Mail an ein Drittanbietersystem. Indem Sie Ihr Litmus-Konto mit [!DNL Campaign], erkennen Sie an, dass Adobe nicht für die Daten verantwortlich ist, die Sie an diesen Dritten senden können. Die Litmus-E-Mail-Richtlinie zur Datenaufbewahrung gilt für diese E-Mails, einschließlich der Personalisierungsdaten, die in diese Testnachrichten aufgenommen werden können. Um auf solche Daten zuzugreifen oder sie zu löschen, müssen Sie sich direkt an Litmus wenden.
+>Bei der Verwendung von E-Mail-Rendering in Campaign wird eine Test-E-Mail an ein Fremdsystem gesendet. Indem Sie Ihr Litmus-Konto mit [!DNL Campaign] verbinden, erkennen Sie an, dass Adobe nicht für Daten verantwortlich ist, die Sie an diesen Drittanbieter senden. Die Litmus-E-Mail-Richtlinie zur Datenaufbewahrung gilt für diese E-Mails, einschließlich der Personalisierungsdaten, die in diese Testnachrichten aufgenommen werden können. Um auf solche Daten zuzugreifen oder sie zu löschen, müssen Sie sich direkt an Litmus wenden.
 
-Für den Zugriff auf E-Mail-Rendering-Funktionen müssen Sie:
+Für den Zugriff auf E-Mail-Rendering-Funktionen müssen Sie folgende Voraussetzungen erfüllen:
 
-* Sie haben ein Litmus-Konto
-* Auswählen von Testprofilen - Erfahren Sie mehr über [diesem Abschnitt](preview-content.md)
+* Ein Litmus-Konto besitzen
+* Testprofile auswählen: Erfahren Sie mehr darüber in [diesem Abschnitt](preview-content.md)
 
 Gehen Sie dann wie folgt vor:
 
-1. Im [Inhalt bearbeiten](../content/edit-content.md) oder im [Email Designer](../content/get-started-email-designer.md), klicken Sie auf die **[!UICONTROL Inhalt simulieren]** Schaltfläche.
+1. Klicken Sie im Bildschirm [Inhalt bearbeiten](../content/edit-content.md) oder im [E-Mail-Designer](../content/get-started-email-designer.md) auf die Schaltfläche **[!UICONTROL Inhalt simulieren]**.
 
-1. Wählen Sie die **[!UICONTROL E-Mail rendern]** Schaltfläche.
+1. Wählen Sie die Schaltfläche **[!UICONTROL E-Mail rendern]** aus.
 
    ![](assets/simulate-rendering-button.png)
 
-1. Klicken **Verbinden Ihres Litmus-Kontos** oben rechts.
+1. Klicken Sie im oberen rechten Bereich auf **Litmus-Konto verbinden**.
 
    ![](assets/simulate-rendering-litmus.png)
 
@@ -43,9 +43,9 @@ Gehen Sie dann wie folgt vor:
 
    ![](assets/simulate-rendering-credentials.png)
 
-1. Klicken Sie auf **Ausführen eines Tests** Schaltfläche zum Generieren einer E-Mail-Vorschau.
+1. Klicken Sie auf die Schaltfläche **Test ausführen**, um eine E-Mail-Vorschau zu erstellen.
 
-1. Prüfen Sie Ihren E-Mail-Inhalt in bevorzugten Desktop-, Mobile- und Web-basierten Clients.
+1. Überprüfen Sie Ihre E-Mail-Inhalte in gängigen Desktop-, Mobile- und Web-basierten Clients.
 
    ![](assets/simulate-rendering-previews.png)
 

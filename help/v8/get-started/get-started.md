@@ -7,7 +7,7 @@ badge: label="Alpha"
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
 source-wordcount: '506'
-ht-degree: 64%
+ht-degree: 99%
 
 ---
 
@@ -16,12 +16,12 @@ ht-degree: 64%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card1"
 >title="Neue Funktionen"
->abstract="Entdecken Sie die neue Campaign-Web-Benutzeroberfläche, die neuesten Verbesserungen und die wichtigsten Funktionen. Erfahren Sie, wie Sie mit ihnen kanalübergreifende Kampagnen für Ihre Zielgruppen erstellen können. Mit seinen benutzerfreundlichen Funktionen unterstützt Campaign Sie bei der Optimierung des Prozesses zur Erstellung personalisierter kanalübergreifender Kampagnen, der Förderung von Ergebnissen und der Erzielung eines Wettbewerbsvorteils. "
+>abstract="Entdecken Sie die neue Benutzeroberfläche von Campaign Web, die neuesten Verbesserungen und die wichtigsten Funktionen. Erfahren Sie, wie Sie damit kanalübergreifende Kampagnen für Ihre Zielgruppen erstellen können. Mit seinen benutzerfreundlichen Funktionen hilft Ihnen Campaign, den Prozess der personalisierten, kanalübergreifenden Kampagnenerstellung zu optimieren, die Ergebnisse zu steigern und einen Wettbewerbsvorteil zu erzielen. "
 
 
 Adobe Campaign bietet eine Plattform für die Gestaltung kanalübergreifender Kundenerlebnisse und eine Umgebung für die visuelle Kampagnenorchestrierung, die Verwaltung von Interaktionen in Echtzeit und die kanalübergreifende Ausführung.
 
-Zunächst nur über einen Rich verfügbar [Clientkonsole](#ac-client)bietet Campaign jetzt eine neue Web-Benutzeroberfläche mit verbesserter Benutzerfreundlichkeit, Barrierefreiheit und einem neuen Design, um Ihr Benutzererlebnis erheblich zu verbessern. Diese neue, moderne Benutzeroberfläche vereinfacht die Gestaltung und den Versand von Marketing-Kampagnen und sorgt für Konsistenz mit anderen Adobe-Lösungen, einschließlich Adobe Experience Platform.
+Ursprünglich nur über eine umfangreiche [Client-Konsole](#ac-client) verfügbar, bietet Campaign jetzt eine neue Web-Benutzeroberfläche (UI) mit verbesserter Benutzerfreundlichkeit, Barrierefreiheit und einem neuen Design, um das Anwendererlebnis deutlich zu verbessern. Diese neue, moderne Benutzeroberfläche vereinfacht die Gestaltung und den Versand von Marketing-Kampagnen und sorgt für Konsistenz mit anderen Adobe-Lösungen, einschließlich Adobe Experience Platform.
 
 ![](assets/home.png)
 
@@ -36,7 +36,7 @@ Wenn Sie auf Campaign v8-Funktionen zugreifen müssen, die nicht in der Web-Benu
 
 ## Herstellen einer Verbindung zu Campaign
 
-Gehen Sie wie folgt vor, um eine Verbindung zum Adobe Campaign-Web herzustellen:
+Gehen Sie wie folgt vor, um eine Verbindung zu Adobe Campaign Web herzustellen:
 
 1. Navigieren Sie zu [Adobe Experience Cloud](https://experience.adobe.com){target="_blank"}.
 1. Melden Sie sich mit Ihren Adobe-Anmeldeinformationen an.
@@ -56,6 +56,6 @@ Die Campaign-Client-Konsole ist eine Browser-basierte Anwendung, die auf Ihrem S
 
 Kampagnendaten werden auf dem Anwendungs-Server gespeichert. Daten sind sowohl über die Client-Konsole als auch über die Web-Benutzeroberfläche verfügbar. Wenn Sie beispielsweise eine Versandvorlage mithilfe der Client-Konsole erstellen, ist diese ebenfalls in der Web-Benutzeroberfläche verfügbar. Ist in der Web-Benutzeroberfläche ein E-Mail-Versand eingerichtet, kann diese Versandart auch über die Client-Konsole aufgerufen werden.
 
-Einige Objekte können nur in der Clientkonsole erstellt und verwaltet werden. Sie können in der Web-Benutzeroberfläche von Campaign angezeigt und verwendet werden, können jedoch nicht in dieser Umgebung erstellt oder geändert werden. Alle Campaign-Objekte und -Komponenten sind in der Explorer-Ansicht verfügbar, die im linken Navigationsbereich verfügbar ist.
+Einige Objekte können nur in der Client-Konsole erstellt und verwaltet werden. Sie können in der Web-Benutzeroberfläche von Campaign angezeigt und verwendet werden, können jedoch nicht in dieser Umgebung erstellt oder geändert werden. Alle Campaign-Objekte und -Komponenten stehen in der Explorer-Ansicht zur Verfügung, die im linken Navigationsbereich verfügbar ist.
 
-Weitere Informationen zur Verwendung von Campaign v8 finden Sie unter [Dokumentation zu Campaign v8 (Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=de){target="_blank"}.
+Weitere Informationen zur Verwendung von Campaign v8 finden Sie in der [Dokumentation zu Campaign v8 (Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=de){target="_blank"}.

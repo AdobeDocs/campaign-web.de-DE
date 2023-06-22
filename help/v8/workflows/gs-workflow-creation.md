@@ -7,7 +7,7 @@ exl-id: 687b13a4-7ec8-4d07-9d20-53eb4ebefd28
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
 source-wordcount: '228'
-ht-degree: 76%
+ht-degree: 99%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 76%
 
 Mit Campaign v8 Web können Sie Workflows in einer visuellen Arbeitsfläche erstellen, um kanalübergreifende Prozesse wie Segmentierung, Kampagnenausführung und Dateiverarbeitung zu entwerfen.
 
-Workflows können entweder als eigenständige Workflows, im Menü Workflows oder direkt in einer Kampagne erstellt werden. In diesem Fall wird der Workflow mit der Kampagne verknüpft und zusammen mit allen anderen Kampagnen-Workflows ausgeführt.
+Workflows können entweder als eigenständige Workflows, im Menü „Workflows“ oder direkt in einer Kampagne erstellt werden. In diesem Fall wird der Workflow mit der Kampagne verknüpft und zusammen mit allen anderen Kampagnen-Workflows ausgeführt.
 
 ## Was befindet sich in einem Workflow?
 

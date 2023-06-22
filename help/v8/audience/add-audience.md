@@ -1,22 +1,22 @@
 ---
 audience: end-user
-title: Auswählen einer bestehenden Audience
-description: Erfahren Sie, wie Sie eine Audience auswählen
+title: Auswählen einer bestehenden Zielgruppe
+description: Erfahren Sie, wie Sie eine Zielgruppe auswählen
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
 badge: label="Alpha"
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
 source-wordcount: '275'
-ht-degree: 89%
+ht-degree: 99%
 
 ---
 
 
-# Auswählen einer bestehenden Audience {#add-audience}
+# Auswählen einer bestehenden Zielgruppe {#add-audience}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience_select"
->title="Auswählen einer bestehenden Audience"
+>title="Auswählen einer bestehenden Zielgruppe"
 >abstract="Die Audiences werden in der Adobe Campaign v8-Konsole definiert. Wenn Sie über eine Adobe Experience Platform-Integration verfügen, sollten Sie auch in Platform definierte Audiences anzeigen können."
 
 In diesem Abschnitt wird beschrieben, wie Sie bei der Definition der Zielgruppe eines E-Mail-Versands eine bestehende Audience auswählen.
@@ -24,7 +24,7 @@ In diesem Abschnitt wird beschrieben, wie Sie bei der Definition der Zielgruppe 
 Außerdem haben Sie folgende Möglichkeiten:
 
 * Erstellen Sie eine neue Zielgruppe. [Weitere Informationen](segment-builder.md)
-* Laden einer Audience aus einer externen Datei. [Weitere Informationen](file-audience.md)
+* Laden Sie eine Zielgruppe aus einer externen Datei. [Weitere Informationen](file-audience.md)
 * Verwenden Sie eine Adobe Experience Platform-Audience. [Weitere Informationen](aep-audience.md).
 
 
@@ -36,7 +36,7 @@ Gehen Sie wie folgt vor, um eine vorhandene Audience für Ihre Nachricht auszuw�
 
 1. Klicken Sie auf **[!UICONTROL Audience auswählen]**, um eine bestehende Audience zu verwenden. Um eine neue Audience zu erstellen, die in dieser E-Mail verwendet werden soll, wählen Sie **Eigene erstellen**. Näheres dazu finden Sie in [diesem Abschnitt](segment-builder.md).
 
-   In diesem Bildschirm werden alle in der Adobe Campaign-Clientkonsole definierten Zielgruppen für den aktuellen Ordner angezeigt.
+   Dieser Bildschirm zeigt alle bestehenden Zielgruppen an, die in der Adobe Campaign Client-Konsole für den aktuellen Ordner definiert sind.
 
    ![](assets/create-audience2.png)
 

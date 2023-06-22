@@ -1,20 +1,20 @@
 ---
 audience: end-user
-title: SMS-Versand senden
+title: Senden eines SMS-Versands
 description: Erfahren Sie, wie Sie SMS mit Adobe Campaign Web senden
 badge: label="Alpha"
 source-git-commit: 4a439abca9c7b1f2cc5d82214efb0aae033a996c
 workflow-type: tm+mt
 source-wordcount: '375'
-ht-degree: 7%
+ht-degree: 66%
 
 ---
 
-# SMS-Versand in der Vorschau ansehen und senden {#send-sms-delivery}
+# Vorschau und Senden eines SMS-Versands {#send-sms-delivery}
 
-## SMS-Versand in der Vorschau anzeigen{#preview-sms}
+## Vorschau Ihres SMS-Versands{#preview-sms}
 
-Nachdem Sie den Nachrichteninhalt definiert haben, können Sie Testprofile verwenden, um ihn in der Vorschau anzuzeigen und zu testen. Wenn Sie personalisierten Inhalt eingefügt haben, können Sie mithilfe von Testprofildaten untersuchen, wie dieser Inhalt in der Nachricht angezeigt wird. Dadurch können Sie sicherstellen, dass die Nachricht wie gewünscht angezeigt und personalisierte Informationen korrekt angezeigt werden.
+Nachdem Sie den Nachrichteninhalt definiert haben, können Sie mithilfe von Testprofilen eine Vorschau anzeigen und einen Testversand durchführen. Wenn Sie personalisierten Inhalt eingefügt haben, können Sie mithilfe von Testprofildaten untersuchen, wie dieser Inhalt in der Nachricht angezeigt wird. Auf diese Weise können Sie sicherstellen, dass die Nachricht wie beabsichtigt erscheint und alle personalisierten Informationen korrekt dargestellt werden.
 
 Die wichtigsten Schritte zur Vorschau Ihres SMS-Versands sind: Weitere Informationen zur Versandvorschau finden Sie unter [diesem Abschnitt](../preview-test/preview-content.md).
 
@@ -35,35 +35,35 @@ Die wichtigsten Schritte zur Vorschau Ihres SMS-Versands sind: Weitere Informati
 
 Jetzt können Sie Ihre SMS-Nachricht überprüfen und an Ihre Zielgruppe senden.
 
-## SMS-Versand testen {#test-sms}
+## Testen Ihres SMS-Versands {#test-sms}
 
-Mit **Adobe Campaign** können Sie eine Nachricht testen, bevor Sie sie an die Hauptzielgruppe senden. Dies ist ein wichtiger Schritt bei der Validierung Ihrer E-Mail-Kampagne und bei der Identifizierung potenzieller Probleme.
+Mit **Adobe Campaign** können Sie eine Nachricht testen, bevor Sie sie an die Hauptzielgruppe senden. Dies ist ein wichtiger Schritt beim Validieren Ihrer E-Mail-Kampagne und beim Identifizieren potenzieller Probleme.
 
-Der Versand von Test-SMS ist ein wichtiger Schritt, um die Qualität und Effektivität Ihres Versands sicherzustellen. Testempfänger können verschiedene Elemente wie Links, Opt-out-Links und Bilder überprüfen sowie Fehler bei Rendering, Inhalt, Personalisierungseinstellungen und SMS-Konfiguration identifizieren. Dieser Prozess hilft Ihnen, Ihre SMS gründlich zu evaluieren und zu optimieren, bevor Sie Ihre Hauptzielgruppe erreichen.
+Der Versand von Test-SMS ist ein wichtiger Schritt, um die Qualität und Effektivität Ihres Versands sicherzustellen. Empfängerinnen und Empfänger von Testsendungen können verschiedene Elemente wie Links, Opt-out-Links und Bilder überprüfen sowie Fehler bei Rendering, Inhalt, Personalisierungseinstellungen und SMS-Konfiguration identifizieren. Dieser Prozess hilft Ihnen, Ihre SMS gründlich auszuwerten und zu optimieren, bevor sie Ihre Hauptzielgruppe erreichen.
 
 ![](../assets/do-not-localize/book.png) Erfahren Sie, wie Sie Test-SMS in senden [diesem Abschnitt](../preview-test/test-deliveries.md).
 
 ![](assets/sms_send_6.png)
 
-## SMS-Versand senden {#send-sms}
+## Senden Ihres SMS-Versands {#send-sms}
 
-1. Nachdem Sie Ihren SMS-Inhalt personalisiert haben, klicken Sie auf **[!UICONTROL Überprüfen und Senden]** von **[!UICONTROL Versand]** Seite.
+1. Nachdem Sie den Inhalt Ihrer SMS personalisiert haben, klicken Sie auf der Seite **[!UICONTROL Versand]** auf **[!UICONTROL Überprüfen und versenden]**.
 
    ![](assets/sms_send_4.png)
 
 1. Klicken **[!UICONTROL Vorbereiten]** und überwachen den Fortschritt und die Statistiken.
 
-   Wenn Fehler auftreten, finden Sie im Menü Protokolle detaillierte Informationen zum Fehler.
+   Wenn Fehler auftreten, finden Sie im Menü „Protokolle“ detaillierte Informationen zum Fehler.
 
-1. Nachrichten senden, indem Sie auf **[!UICONTROL Senden]** um mit dem endgültigen Versand fortzufahren.
+1. Senden Sie die Nachrichten, indem Sie auf **[!UICONTROL Senden]** klicken, um mit dem endgültigen Versandprozess fortzufahren.
 
    ![](assets/sms_send_5.png)
 
-1. Bestätigen Sie den Versand durch Auswahl der **[!UICONTROL Senden]** Schaltfläche.
+1. Bestätigen Sie den Sendevorgang durch Auswahl der Schaltfläche **[!UICONTROL Senden]**.
 
 Nach dem Versand können Sie Ihre KPI-Daten (Key Performance Indicator) von Ihrer Versandseite und Daten aus der **[!UICONTROL Protokolle]** Menü.
 
-Jetzt können Sie mit integrierten Berichten die Wirkung Ihrer Nachricht messen. [Weitere Informationen](../reporting/sms-report.md)
+Nun können Sie beginnen, mit integrierten Berichten die Wirkung Ihrer Nachricht zu messen. [Weitere Informationen](../reporting/sms-report.md)
 
 
 

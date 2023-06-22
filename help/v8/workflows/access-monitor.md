@@ -7,28 +7,28 @@ exl-id: 51648665-8400-426c-85cf-dbf5f4f81d20
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
 source-wordcount: '364'
-ht-degree: 9%
+ht-degree: 99%
 
 ---
 
-# Aufrufen und Verwalten von Workflows {#access-monitor}
+# Zugriff und Verwaltung von Workflows {#access-monitor}
 
 >[!CONTEXTUALHELP]
 >id="acw_targeting_workflow_list"
 >title="Workflows"
->abstract="In diesem Bildschirm haben Sie Zugriff auf die vollständige Liste der standalone- und campaign-Workflows, können den aktuellen Status sowie das letzte/nächste Ausführungsdatum überprüfen und einen neuen Workflow erstellen. Navigieren Sie zur Registerkarte „Vorlage“, um auf verfügbare Workflow-Vorlagen zuzugreifen."
+>abstract="In diesem Bildschirm können Sie auf die vollständige Liste der Einzel- und Kampagnen-Workflows zugreifen, ihren aktuellen Status sowie das letzte/nächste Ausführungsdatum überprüfen und einen neuen Workflow erstellen. Navigieren Sie zur Registerkarte „Vorlage“, um auf verfügbare Workflow-Vorlagen zuzugreifen."
 
-Die **[!UICONTROL Workflows]** bietet Zugriff auf die vollständige Liste der Workflows. Diese Liste enthält beide **Standalone-Workflows** die auf diesem Bildschirm erstellt wurden und **Kampagnen-Workflows**, die in einer Kampagne erstellt wurden.
+Das Menü **[!UICONTROL Workflows]** bietet Zugriff auf die vollständige Liste der Workflows. Diese Liste enthält die beiden **eigenständigen Workflows**, die auf diesem Bildschirm erstellt wurden, und **Kampagnen-Workflows**, die in einer Kampagne erstellt wurden.
 
 ![](assets/workflow-list.png)
 
-Jeder Workflow in der Liste zeigt Informationen zur aktuellen [status](#status), das letzte Mal, dass sie ausgeführt oder geändert wurde, sowie das nächste geplante Ausführungsdatum und die nächste geplante Ausführungszeit.
+Jeder Workflow in der Liste zeigt Informationen zum aktuellen [Status](#status), das letzte Mal, wann er ausgeführt oder geändert wurde, sowie das Datum und die Uhrzeit der nächsten geplanten Ausführung an.
 
-Sie können die angezeigten Spalten anpassen, indem Sie auf die **[!UICONTROL Spalte für ein benutzerdefiniertes Layout konfigurieren]** in der oberen rechten Ecke der Liste. Auf diese Weise können Sie zusätzliche Informationen zur Liste hinzufügen, z. B. die letzte fehlerhafte Aktivität eines Workflows oder die angewendete Zielgruppendimension.
+Sie können die angezeigten Spalten anpassen, indem Sie auf das Symbol **[!UICONTROL Spalte für ein benutzerdefiniertes Layout konfigurieren]** in der rechten oberen Ecke der Liste klicken. Auf diese Weise können Sie zusätzliche Informationen zur Liste hinzufügen, z. B. die letzte fehlerhafte Aktivität eines Workflows oder die angewendete Zielgruppendimension.
 
-Darüber hinaus stehen eine Suchleiste und Filter zur Verfügung, um die einfache Suche innerhalb der Liste zu erleichtern. Sie können beispielsweise die Workflows so filtern, dass nur die einer Kampagne angehörenden oder die in einem bestimmten Datumsbereich verarbeiteten Workflows angezeigt werden.
+Darüber hinaus stehen eine Suchleiste und Filter zur Verfügung, um die Suche innerhalb der Liste zu erleichtern. Sie können beispielsweise die Workflows so filtern, dass nur die einer Kampagne angehörenden oder die während eines bestimmten Datumsbereichs verarbeiteten Workflows angezeigt werden.
 
-Um einen Workflow zu duplizieren oder zu löschen, klicken Sie auf die Suchschaltfläche und wählen Sie **[!UICONTROL Duplizieren]** oder **[!UICONTROL Löschen]**.
+Um einen Workflow zu duplizieren oder zu löschen, klicken Sie auf die Schaltfläche mit den Auslassungspunkten und wählen Sie **[!UICONTROL Duplizieren]** bzw. **[!UICONTROL Löschen]**.
 
 >[!NOTE]
 >
@@ -41,13 +41,13 @@ Workflows können mehrere Status aufweisen:
 * **[!UICONTROL Entwurf]**: Der Workflow wurde erstellt und gespeichert.
 * **[!UICONTROL In Bearbeitung]**: Der Workflow wird derzeit ausgeführt.
 * **[!UICONTROL Abgeschlossen]**: Die Ausführung des Workflows ist abgeschlossen.
-* **[!UICONTROL Angehalten]**: Der Workflow wurde angehalten.
+* **[!UICONTROL Ausgesetzt]**: Der Workflow wurde angehalten.
 * **[!UICONTROL Fehlerhaft]**: Beim Workflow ist ein Fehler aufgetreten. Öffnen Sie den Workflow und greifen Sie auf die Protokolle und Aufgaben zu, um den Fehler zu identifizieren und zu beheben. [Erfahren Sie, wie Sie Protokolle und Aufgaben überwachen.](start-monitor-workflows.md#logs-tasks)
 
-Ausführliche Informationen zum Starten und Überwachen der Workflow-Ausführung finden Sie unter [diese Seite](start-monitor-workflows.md).
+Ausführliche Informationen zum Starten und Überwachen der Workflow-Ausführung finden Sie auf [dieser Seite](start-monitor-workflows.md).
 
 ## Workflow-Vorlagen {#templates}
 
-Die **[!UICONTROL Vorlagen]** enthält alle verfügbaren Workflow-Vorlagen.
+Die Registerkarte **[!UICONTROL Vorlagen]** enthält alle verfügbaren Workflow-Vorlagen.
 
-Workflow-Vorlagen enthalten vorkonfigurierte Aktivitäten und allgemeine Eigenschaftskonfigurationen, die zur Erstellung neuer Workflows wiederverwendet werden können. Sie werden über die Client-Konsole erstellt. [Erfahren Sie, wie Sie mit Vorlagen arbeiten.](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html#workflow-templates)
+Workflow-Vorlagen enthalten vorkonfigurierte Aktivitäten und allgemeine Eigenschaftskonfigurationen, die zur Erstellung neuer Workflows wiederverwendet werden können. Sie werden über die Client-Konsole erstellt. [Erfahren Sie, wie Sie mit Vorlagen arbeiten können](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=de#workflow-templates)

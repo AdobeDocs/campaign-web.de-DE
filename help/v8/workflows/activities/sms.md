@@ -1,25 +1,25 @@
 ---
 audience: end-user
-title: SMS-Workflow-Aktivität verwenden
+title: Verwenden der SMS-Workflow-Aktivität
 description: Erfahren Sie, wie Sie die SMS-Workflow-Aktivität verwenden
 badge: label="Alpha"
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
 source-wordcount: '204'
-ht-degree: 3%
+ht-degree: 99%
 
 ---
 
 
 # SMS {#sms}
 
-Die **SMS** -Aktivität bietet die Möglichkeit, innerhalb eines Workflows SMS-Nachrichten zu senden. Sie ermöglicht die Automatisierung des SMS-Versands an eine bestimmte Zielgruppe, die innerhalb desselben Workflows bestimmt wird.
+Die **SMS**-Aktivität bietet die Möglichkeit, innerhalb eines Workflows SMS-Nachrichten zu senden. Sie ermöglicht die Automatisierung des SMS-Versands an eine bestimmte Zielgruppe, die innerhalb desselben Workflows bestimmt wird.
 
-Um die Empfänger der SMS zu definieren, können Sie diese im Workflow vor der SMS-Versandaktivität mithilfe der Aktivität Audience erstellen einrichten. Weitere Informationen.
+Um die Empfängerinnen und Empfänger der SMS zu definieren, können Sie diese im Workflow vor der SMS-Versandaktivität mithilfe der Aktivität „Zielgruppe aufbauen“ einrichten. Weitere Informationen.
 
-1. Fügen Sie nach dem Erstellen und Konfigurieren eines neuen Workflows die Aktivität Audience erstellen hinzu, um eine vorhandene Audience auszuwählen, oder verwenden Sie den Regel-Builder, um Ihre eigene Abfrage zu definieren.
+1. Fügen Sie nach dem Erstellen und Konfigurieren eines neuen Workflows die Aktivität „Zielgruppe aufbauen“ hinzu, um eine vorhandene Zielgruppe auszuwählen, oder verwenden Sie den Regel-Builder, um Ihre eigene Abfrage zu definieren.
 
-1. Fügen Sie eine SMS-Kanal -Aktivität in Ihren Workflow ein.
+1. Fügen Sie eine SMS-Kanal-Aktivität in Ihren Workflow ein.
 
    ![](../assets/activity-sms-1.png)
 <!--
@@ -32,12 +32,12 @@ Um die Empfänger der SMS zu definieren, können Sie diese im Workflow vor der S
 
 1. Wählen Sie Ihre Aktivität aus. Wählen Sie im Versandmenü die Vorlagen aus, die Sie für diesen Versand verwenden möchten. Weitere Informationen zu Vorlagen
 
-1. Wählen Sie Versand erstellen aus, um Ihren SMS-Versand zu konfigurieren. Weiterführende Informationen zum SMS-Versand finden Sie auf dieser Seite.
+1. Wählen Sie „Versand erstellen“ aus, um Ihren SMS-Versand zu konfigurieren. Weitere Informationen zum SMS-Versand finden Sie auf dieser Seite.
 
-1. Sobald der Versand fertig ist, navigieren Sie zu Ihrem Workflow und klicken Sie auf Starten , um den Workflow zu starten.
+1. Sobald der Versand fertig ist, navigieren Sie zu Ihrem Workflow und klicken Sie auf „Starten“, um den Workflow zu starten.
 
-1. Beim Initiieren eines Versand-Workflows wird standardmäßig die Phase der Nachrichtenvorbereitung Trigger, ohne dass die Nachricht sofort gesendet wird.
+1. Standardmäßig wird durch die Initiierung eines Versand-Workflows die Vorbereitungsphase der Nachricht ausgelöst, ohne dass die Nachricht sofort versendet wird.
 
-   Klicken Sie im erweiterten Menü Ihrer SMS-Aktivität auf Überprüfen und senden , um den Versand zu bestätigen.
+   Klicken Sie im erweiterten Menü Ihrer SMS-Aktivität auf „Überprüfen und senden“, um das Senden zu bestätigen.
 
-1. Klicken Sie im Dashboard Ihres SMS-Versands auf Senden.
+1. Klicken Sie im Dashboard Ihres SMS-Versands auf „Senden“.
