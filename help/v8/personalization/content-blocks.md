@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: d3ee5ac080e810cf6d9db6240f88079490d4af9a
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '437'
 ht-degree: 66%
 
 ---
@@ -34,10 +34,8 @@ Gehen Sie wie folgt vor, um einen Inhaltsbaustein zu einem Versand hinzuzufügen
 
 Integrierte Inhaltsbausteine sind:
 
-* **[!UICONTROL Validierung der Purl-Personalisierung]**
 * **[!UICONTROL Standard-Opt-out-Banner]**
 * **[!UICONTROL Ermöglicht durch Adobe Campaign]**: Hiermit wird das Logo „Ermöglicht durch Adobe Campaign“ eingefügt.
-* **[!UICONTROL Facebook-Vorausfüllung]**
 * **[!UICONTROL Formatierungsfunktion für Eigennamen]**: Hiermit wird die JavaScript-Funktion **[!UICONTROL toSmartCase]** generiert, mit der der erste Buchstabe eines jeden Worts in einen Großbuchstaben umgewandelt wird.
 * **[!UICONTROL Grußformeln]**: fügt Grußformeln mit dem vollständigen Namen der Empfängerin bzw. des Empfängers ein, gefolgt von einem Komma. Beispiel: „Sehr geehrter Herr Mustermann,“.
 * **[!UICONTROL Logo einfügen]**: fügt ein Logo ein, das in den Instanzeinstellungen definiert ist.
