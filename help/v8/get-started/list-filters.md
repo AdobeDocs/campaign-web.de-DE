@@ -3,10 +3,10 @@ audience: end-user
 title: Durchsuchen, Suchen und Filtern von Listen
 description: Erfahren Sie, wie Sie Listen in Campaign Web v8 durchsuchen und filtern
 badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: 065108e7ac4d682dc3f3de63303be8353b145757
 workflow-type: tm+mt
-source-wordcount: '415'
-ht-degree: 93%
+source-wordcount: '416'
+ht-degree: 91%
 
 ---
 
@@ -69,7 +69,7 @@ Verwenden Sie den Umschalter **Erweiterte Attribute anzeigen**, um alle Attribut
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_advancedfields"
 >title="Erweiterte Felder des Regel-Builders"
->abstract="Konfigurieren Sie Spalten mit erweiterten Feldern."
+>abstract="Konfigurieren Sie erweiterte Filter mit erweiterten Feldern."
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_properties_advanced"
