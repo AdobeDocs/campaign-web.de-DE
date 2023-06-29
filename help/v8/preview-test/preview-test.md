@@ -1,24 +1,24 @@
 ---
 audience: end-user
-title: Über die E-Mail-Vorschau und Tests
-description: Erfahren Sie, wie Sie E-Mails in der Vorschau anzeigen und testen können.
+title: Über Versandvorschau und -test
+description: Erfahren Sie, wie Sie Sendungen in der Vorschau anzeigen und testen können.
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
 badge: label="Alpha"
-source-git-commit: 4a439abca9c7b1f2cc5d82214efb0aae033a996c
+source-git-commit: 8ab2324bdc7b5c56a8b9f5369db24c5c32272707
 workflow-type: tm+mt
-source-wordcount: '180'
-ht-degree: 49%
+source-wordcount: '179'
+ht-degree: 45%
 
 ---
 
-# Über Versandvorschau und -test {#about-preview-test}
+# Über die Vorschau und Tests {#about-preview-test}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate"
 >title="Anzeigen einer Vorschau und Testen von Nachrichten"
 >abstract="Sobald der Nachrichteninhalt definiert worden ist, können Sie ihn mithilfe von Testprofilen in der Vorschau sehen und testen."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/preview-content.html" text="Versandinhalt in der Vorschau ansehen"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/preview-test.html" text="Testnachrichten senden"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/preview-content.html" text="Vorschau des Nachrichteninhalts anzeigen"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/test-deliveries.html" text="Testsendungen durchführen"
 
 Nachdem der Versandinhalt definiert wurde, können Sie Testprofile verwenden, um eine Vorschau anzuzeigen und zu testen, bevor Sie die Nachricht senden.
 
