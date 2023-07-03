@@ -5,26 +5,26 @@ description: Erfahren Sie, wie Sie E-Mail-Inhalte importieren
 exl-id: ef9c8e6f-f422-404e-9ebb-a89d1bd45e7f
 badge: label="Alpha"
 source-git-commit: f59194334d5262e4270e2caef276b71b27d1b81f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '131'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
 # Importieren Ihrer E-Mail-Inhalte {#existing-content}
 
-Email Designer ermöglicht den Import vorhandener HTML-Inhalte. Dieser Inhalt kann Folgendes sein:
+Der E-Mail-Designer ermöglicht den Import vorhandener HTML-Inhalte. Dieser Inhalt kann Folgendes sein:
 
 * Eine **HTML-Datei** mit integriertem Stylesheet,
 * Ein **komprimierter Ordner** (.zip) mit HTML-Datei, Stylesheet (.css) und Bildern.
 
   >[!NOTE]
   >
-  >Die Struktur des komprimierten Ordners ist freigestellt. Verweise müssen jedoch relativ sein und in die Baumstruktur des Ordners .zip passen.
+  >Die Struktur des komprimierten Ordners ist freigestellt. Verweise müssen jedoch relativ sein und zur Baumstruktur des ZIP-Ordners passen.
 
 Gehen Sie wie folgt vor, um eine Datei mit HTML-Inhalt zu importieren:
 
-1. Im [Email Designer](get-started-email-designer.md) Startseite auswählen **[!UICONTROL HTML importieren]**.
+1. Wählen Sie auf der Startseite des [E-Mail-Designers](get-started-email-designer.md) die Option **[!UICONTROL HTML importieren]** aus.
 
    ![](assets/html-import.png)
 
