@@ -5,9 +5,9 @@ description: Erfahren Sie, wie Sie mit Adobe Campaign Web Cross-Channel-Kampagne
 badge: label="Alpha"
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
 source-git-commit: 5dec05aeffa1268ec3d9b371f4ea91f830247a4f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '290'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -24,9 +24,9 @@ ht-degree: 86%
 >title="Eigenschaften der Kampagne"
 >abstract="Definieren Sie Kampagneneinstellungen und Metadaten."
 
-Um eine neue Kampagne zu erstellen, müssen Sie deren Eigenschaften definieren, Workflows und Sendungen planen und einschließen.
+Um eine neue Kampagne zu erstellen, müssen Sie deren Eigenschaften definieren, Workflows und Versandvorgänge planen und einschließen.
 
-## Kampagne erstellen{#campaign-create}
+## Erstellen der Kampagne{#campaign-create}
 
 Um eine neue Kampagne zu erstellen, gehen Sie folgendermaßen vor:
 
@@ -50,9 +50,9 @@ Um eine neue Kampagne zu erstellen, gehen Sie folgendermaßen vor:
 
 1. Verwenden Sie die Schaltflächen **Protokolle** und **Berichte**, um die Leistung Ihrer Kampagne zu analysieren.
 
-## Kampagne beobachten und verfolgen{#campaign-monitoring}
+## Überwachen und Nachverfolgen Ihrer Kampagne{#campaign-monitoring}
 
-Die Überwachung von Kampagnen ist ein wichtiger Schritt zur Analyse der Effektivität Ihrer Kampagne. Öffnen Sie Ihre Kampagne und klicken Sie auf die Schaltfläche **Protokolle**.
+Die Überwachung von Kampagnen ist ein wichtiger Schritt zur Analyse der Effektivität Ihrer Kampagnen. Öffnen Sie Ihre Kampagne und klicken Sie auf die Schaltfläche **Protokolle**.
 
 Sie können auch die entsprechenden Berichte anzeigen, indem Sie auf die Schaltfläche **Berichte** klicken. Weitere Informationen finden Sie in [diesem Abschnitt](../reporting/campaign-reports.md).
 
