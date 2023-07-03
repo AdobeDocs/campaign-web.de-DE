@@ -5,18 +5,18 @@ description: Senden von Angeboten
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
 badge: label="Alpha"
 source-git-commit: a653fe4329f449a94f8056e4b5f2247bd839b87a
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '640'
+ht-degree: 100%
 
 ---
 
 
 # Senden von Angeboten {#offers-content}
 
-Mit Adobe Campaign v8 Web können Sie Sendungen mit Ihren Versandangeboten durchführen, die in der Konsole mithilfe der **[!UICONTROL Interaction]** -Modul. Weiterführende Informationen zu Interaction und zur Verwaltung eines Angebotskatalogs in der Konsole finden Sie im Abschnitt [Dokumentation zu Campaign v8 (Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=de){target="_blank"}.
+Adobe Campaign v8 Web ermöglicht es Ihnen, Angebote in den Versand einzuschließen, die in der Konsole mithilfe des Moduls **[!UICONTROL Interaction]** erstellt wurden. Weitere Informationen zu Interaction und zum Verwalten eines Angebotskatalogs in der Konsole finden Sie in der [Dokumentation zu Campaign v8 (Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=de){target="_blank"}.
 
-Gehen Sie wie folgt vor, um Angebote mit einem Versand zu versenden:
+Die wichtigsten Schritte zum Einschließen von Angeboten in einen Versand sind:
 
 1. [Zu unterbreitende Angebote konfigurieren](#configure)
 1. [Angebote in den Versand einfügen](#insert)
@@ -30,30 +30,30 @@ Gehen Sie wie folgt vor, um Angebote mit einem Versand zu versenden:
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_offers_advanced_settings"
->title="Bietet erweiterte Einstellungen"
+>title="Erweiterte Einstellungen für Angebote"
 >abstract="Konfigurieren Sie die erweiterten Optionen für Angebote."
 
-1. Klicken Sie auf die Schaltfläche **[!UICONTROL Angebote einrichten]** im Bildschirm zur Inhaltsbearbeitung des Versands.
+1. Um die Angebote auszuwählen, die im Rahmen des Versands unterbreitet werden sollen, klicken Sie im Bildschirm zum Bearbeiten des Versandinhalts auf die Schaltfläche **[!UICONTROL Angebote einrichten]**.
 
    ![](assets/setup-offers.png)
 
 1. Konfigurieren Sie, welche Angebote den Empfängerinnen und Empfängern unterbreitet werden sollen.
 
-   Wählen Sie zunächst die **[!UICONTROL Platzierung]** entsprechend Ihrer Angebotsumgebung. Erfahren Sie, wie Sie eine Platzierung im [Dokumentation zu Campaign v8 (Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-settings/interaction-offer-spaces.html){target="_blank"}
+   Wählen Sie zunächst die **[!UICONTROL Platzierung]** entsprechend Ihrer Angebotsumgebung. Wie Sie eine Platzierung erstellen, erfahren Sie in der [Dokumentation zu Campaign v8 (Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-settings/interaction-offer-spaces.html?lang=de){target="_blank"}.
 
    ![](assets/create-content-offers.png)
 
 1. Um die Angebotsauswahl des Moduls zu verfeinern, wählen Sie eine spezifische **[!UICONTROL Angebotskategorie]**, in der die Angebote gruppiert sind.
 
-   Bei der Auswahl eines Ordners werden alle Unterordner automatisch eingeschlossen und können nicht entfernt werden. Beachten Sie Folgendes: [!DNL Campaign] -Schnittstelle spiegelt dieses Verhalten nicht wider.
+   Bei der Auswahl eines Ordners werden alle Unterordner automatisch eingeschlossen und können nicht entfernt werden. Beachten Sie, dass dieses Verhalten in der [!DNL Campaign]-Schnittstelle nicht widergespiegelt wird.
 
    >[!NOTE]
    >
    >Wenn keine Kategorie spezifiziert wird, werden alle in der Umgebung enthaltenen Angebote von der Angebots-Engine berücksichtigt, es sei denn, es wurde ein **[!UICONTROL Angebotsthema]** ausgewählt.
 
-1. (Optional) Geben Sie ein Design ein, nach dem Kategorien gefiltert werden sollen. Themen sind Schlüsselwörter, die zuvor in den Kategorien definiert wurden. Sie dienen als Filter und ermöglichen es Ihnen, die Anzahl der zu unterbreitenden Angebote durch Auswahl in einer Reihe von Kategorien zu verfeinern.
+1. (Optional) Geben Sie ein Thema ein, um nach Kategorien zu filtern. Themen sind Schlüsselwörter, die zuvor in den Kategorien definiert wurden. Sie dienen als Filter und ermöglichen es Ihnen, die Anzahl der zu unterbreitenden Angebote durch Auswahl in einer Reihe von Kategorien zu verfeinern.
 
-1. Verwenden Sie die **[!UICONTROL Vorschläge]** um die Anzahl der Angebote anzugeben, die Sie in den Versand einfügen möchten.
+1. Verwenden Sie das Feld **[!UICONTROL Vorschläge]**, um die Anzahl der Angebote anzugeben, die in den Versand eingefügt werden sollen.
 
 1. Wählen Sie bei Bedarf die Option **[!UICONTROL Nicht infrage kommende Empfänger ausschließen]** aus.
 
@@ -69,31 +69,31 @@ Gehen Sie wie folgt vor, um Angebote mit einem Versand zu versenden:
    * Wenn die Option aktiviert ist, wird keine Darstellung des fehlenden Vorschlags angezeigt und es wird auch kein Inhalt für diesen Vorschlag in der Nachricht angezeigt.
    * Wenn die Option deaktiviert ist, wird die der Versand der Nachricht abgebrochen und die Empfänger und Empfängerinnen können keine Nachrichten mehr empfangen.
 
-Nachdem Sie die für Ihren Versand vorzuschlagenden Angebote konfiguriert haben, können Sie sie mithilfe des Ausdruckseditors in den Versandinhalt einfügen.
+Nachdem Sie die Angebote konfiguriert haben, die im Rahmen des Versands vorgeschlagen werden sollen, können Sie sie mit dem Ausdruckseditor in den Versandinhalt einfügen.
 
-## Angebote in den Versand einfügen {#insert}
+## Einfügen von Angeboten in den Versand {#insert}
 
-Angebote können im Versand mit der Variablen [Ausdruckseditor](../personalization/gs-personalization.md#access). Sie können entweder in die Betreffzeile oder in den Versandtext eingefügt werden.
+Angebote können mit dem [Ausdruckseditor](../personalization/gs-personalization.md#access) zum Versand hinzugefügt werden. Sie können entweder in die Betreffzeile oder in den Versandtext eingefügt werden.
 
 >[!CAUTION]
 >
->Bevor Sie ein Angebot in einen Versand einfügen, stellen Sie sicher, dass Sie [konfiguriert, welche Angebote mit diesem Versand vorgeschlagen werden](#configure).
+>Bevor Sie ein Angebot in den Versand einfügen, stellen Sie sicher, dass Sie [konfiguriert haben, welche Angebote mit diesem Versand vorgeschlagen werden sollen](#configure).
 
 Gehen Sie wie folgt vor, um ein Angebot mit dem Ausdruckseditor einzufügen.
 
-1. Rufen Sie die Betreffzeile oder den Inhalt eines Versands auf.
+1. Rufen Sie die Betreffzeile oder den Inhalt für einen Versand auf.
 
-1. Platzieren Sie den Cursor an der Stelle, an der das Angebot eingefügt werden soll, und öffnen Sie den Ausdruckseditor über das Personalisierungssymbol.
+1. Platzieren Sie den Mauszeiger an der Stelle, an der das Angebot eingefügt werden soll, und öffnen Sie den Ausdruckseditor über das Personalisierungssymbol.
 
-1. Wählen Sie die **[!UICONTROL Vorschläge]** Menü. Die verfügbaren Vorschläge werden in der Liste angezeigt.
+1. Wählen Sie das Menü **[!UICONTROL Vorschläge]** aus. Die verfügbaren Vorschläge werden in der Liste angezeigt.
 
    >[!NOTE]
    >
-   >Die Anzahl der Vorschläge wird definiert, wenn [Angebote einrichten](#configure) für den aktuellen Versand.
+   >Die Anzahl der Vorschläge wird beim [Einrichten von Angeboten](#configure) für den aktuellen Versand definiert.
 
    ![](assets/offer-insertion.png)
 
-1. Fügen Sie die Vorschläge mithilfe der Personalisierungsfelder, Rendering-Funktionen oder Angebotsattribute, die für jeden Vorschlag verfügbar sind, in die Betreffzeile oder den Hauptteil des Versands ein.
+1. Fügen Sie die Vorschläge in die Betreffzeile oder den Text der Sendung ein, indem Sie die für jeden Vorschlag verfügbaren Personalisierungsfelder, Rendering-Funktionen oder Angebotsattribute verwenden.
 
    ![](assets/offer-inserted.png)
 
@@ -103,6 +103,6 @@ Gehen Sie wie folgt vor, um ein Angebot mit dem Ausdruckseditor einzufügen.
 
 1. Speichern Sie Ihre Änderungen.
 
-1. Schließen Sie den Inhalt ab, testen Sie Ihren Versand und führen Sie ihn aus.
+1. Finalisieren Sie den Inhalt, testen Sie Ihren Versand und führen Sie ihn aus.
 
-Wenn nun ein Empfänger den Versand erhält, wird diesem Profil das richtige Angebot angezeigt.
+Wenn der Versand nun bei einer Empfängerin oder einem Empfänger eingeht, wird diesem Profil das richtige Angebot angezeigt.
