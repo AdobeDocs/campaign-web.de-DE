@@ -5,7 +5,7 @@ description: Erste Schritte mit Campaign v8 Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 badge: label="Alpha"
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 100%
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card1"
 >title="Neue Funktionen"
->abstract="Entdecken Sie die neue Benutzeroberfläche von Campaign Web, die neuesten Verbesserungen und die wichtigsten Funktionen. Erfahren Sie, wie Sie damit kanalübergreifende Kampagnen für Ihre Zielgruppen erstellen können. Mit seinen benutzerfreundlichen Funktionen hilft Ihnen Campaign, den Prozess der personalisierten, kanalübergreifenden Kampagnenerstellung zu optimieren, die Ergebnisse zu steigern und einen Wettbewerbsvorteil zu erzielen. "
+>abstract="Lernen Sie die neue Benutzeroberfläche von Campaign Web, die neuesten Verbesserungen und die wichtigsten Funktionen kennen. Erfahren Sie, wie Sie damit Cross-Channel-Kampagnen für Ihre Zielgruppen erstellen können. Mit den benutzerfreundlichen Funktionen von Campaign können Sie die Erstellung personalisierter Cross-Channel-Kampagnen optimieren, bessere Ergebnisse erzielen und einen Wettbewerbsvorteil gewinnen. "
 
 
 Adobe Campaign bietet eine Plattform für die Gestaltung kanalübergreifender Kundenerlebnisse und eine Umgebung für die visuelle Kampagnenorchestrierung, die Verwaltung von Interaktionen in Echtzeit und die kanalübergreifende Ausführung.

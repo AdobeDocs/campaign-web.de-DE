@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie mit Workflows beginnen
 badge: label="Alpha"
 exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '388'
 ht-degree: 100%
 
@@ -15,8 +15,8 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card4"
->title="Neu gestaltete Oberfläche der Workflow-Arbeitsfläche"
->abstract="Unsere umfassende grafische Arbeitsfläche erleichtert Ihnen das Gestalten von Prozessen wie Segmentierung, Kampagnenausführung und mehr. Mit diesem erweiterten Tool können Sie Ihren Workflow optimieren und Ihre Kampagnen aufwerten."
+>title="Neu gestaltete Workflow-Arbeitsfläche"
+>abstract="Unsere umfassende grafische Arbeitsfläche erleichtert Ihnen das Gestalten von Prozessen wie Segmentierung, Kampagnenausführung und mehr. Mit diesem fortschrittlichen Tool können Sie Ihren Workflow optimieren und Ihre Kampagnen aufwerten."
 
 ## Was ist ein Workflow?
 

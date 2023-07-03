@@ -5,7 +5,7 @@ title: Produkt-Dokumentation zu Adobe Campaign Web v8
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 badge: label="Alpha"
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '482'
 ht-degree: 100%
 
@@ -25,13 +25,13 @@ Campaign bietet jetzt eine neue Web-Benutzeroberfläche (UI) mit verbesserter Be
 
 Die neue Web-Oberfläche von Campaign v8 bietet ein modernes und intuitives Benutzererlebnis, das die Gestaltung und den Versand von Marketing-Kampagnen vereinfacht. Diese neue Benutzeroberfläche ist in Adobe Experience Platform integriert.
 
-**Neu gestaltete Oberfläche der Workflow-Arbeitsfläche**
+**Neu gestaltete Workflow-Arbeitsfläche**
 
 Die umfassende grafische Umgebung, mit der Sie komplexe Prozesse entwerfen können, die Ihnen die Verwaltung Ihrer Marketing-Kampagnen erleichtern. Mit Workflows können Sie das gesamte Spektrum an Prozessen und Aufgaben koordinieren, die Geschwindigkeit und Skalierung Ihrer Marketing-Kampagnen steigern, von der Segmenterstellung über die Vorbereitung von Nachrichten bis hin zum Versand. Außerdem können Sie Ihre Kanäle mit einer einzigen, benutzerfreundlichen Benutzeroberfläche für die Kampagnenorchestrierung synchronisieren.
 
 **Kennenlernen von E-Mail-Designer**
 
-Beginnen Sie mit einer Vorlage oder verwenden Sie den neuen E-Mail-Designer von Adobe Campaign, um E-Mails zu erstellen, ohne eine einzelne Code-Zeile schreiben zu müssen. Erfahren Sie in einem durchgängigen Anwendungsfall, wie Sie mit dem E-Mail-Designer Ihre Inhalte erstellen, in der Vorschau anzeigen und testen und eine E-Mail an eine bestehende Zielgruppe senden können.
+Beginnen Sie mit einer Vorlage oder verwenden Sie den neuen E-Mail-Designer von Adobe Campaign, um E-Mails zu erstellen, ohne eine einzige Zeile Code schreiben zu müssen. Erfahren Sie in einem vollständigen Anwendungsfall, wie Sie mit dem E-Mail-Designer Ihre Inhalte erstellen, in der Vorschau anzeigen und testen und eine E-Mail an eine bestehende Zielgruppe senden.
 
 **Inhalte dynamisch gestalten**
 
@@ -59,7 +59,7 @@ Da Sie nun wissen, was Sie in Adobe Campaign Web tun können, ist es an der Zeit
 <img alt="Validierung" src="assets/do-not-localize/menu-workflows.jpeg">
 </a>
 <div>
-<a href="workflows/gs-workflows.md"><strong>Neu gestaltete Oberfläche der Workflow-Arbeitsfläche</strong></a>
+<a href="workflows/gs-workflows.md"><strong>Neu gestaltete Workflow-Arbeitsfläche</strong></a>
 </div>
 <p>
 </td>

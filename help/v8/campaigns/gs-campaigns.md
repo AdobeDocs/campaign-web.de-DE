@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie mit kanalübergreifenden Kampagnen beginnen
 badge: label="Alpha"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
 source-git-commit: d73deb59ef6b4b4833da42b62515c474ba154f2c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '182'
 ht-degree: 100%
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card5"
->title="Gestalten und Senden von kanalübergreifenden Kampagnen"
+>title="Gestalten und Senden von Cross-Channel-Kampagnen"
 >abstract="Mit den Funktionen von Adobe Campaign können Sie zentralisierte Kundendaten verwalten, Kundenkommunikation und Kampagnen gestalten und personalisierte Erlebnisse über verschiedene Kanäle hinweg erstellen: E-Mail, Push und SMS."
 
 Mit Adobe Campaign können Sie Ihre zielgerichteten Marketinginitiativen mithilfe der integrierten Kampagnenverwaltungsfunktion einfach koordinieren. Mit der Fähigkeit, einen Zeitplan zu definieren, können Sie die Dauer und den Zeitpunkt Ihrer Kampagnen so planen, dass sie mit strategischen Zielen übereinstimmen und die Interaktion der Zielgruppe maximieren.

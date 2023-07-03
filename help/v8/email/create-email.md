@@ -1,23 +1,23 @@
 ---
 audience: end-user
-title: Senden Ihrer ersten E-Mail
+title: Eine erste E-Mail senden
 description: Erfahren Sie, wie Sie Ihre erste E-Mail mit der Web-Benutzeroberfläche von Campaign senden.
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Alpha"
 source-git-commit: 09a05a886b0ef509cf0e0178609315264c8f56a1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1329'
 ht-degree: 100%
 
 ---
 
 
-# Senden Ihrer ersten E-Mail {#first-email}
+# Eine erste E-Mail senden {#first-email}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card2"
 >title="Erste Schritte mit E-Mails"
->abstract="Beginnen Sie mit einer Vorlage oder verwenden Sie den neuen E-Mail-Designer von Adobe Campaign, um E-Mails zu erstellen, ohne eine einzelne Code-Zeile schreiben zu müssen. Erfahren Sie in einem durchgängigen Anwendungsfall, wie Sie mit dem E-Mail-Designer Ihre Inhalte erstellen, in der Vorschau anzeigen und testen und eine E-Mail an eine bestehende Zielgruppe senden können."
+>abstract="Beginnen Sie mit einer Vorlage oder verwenden Sie den neuen E-Mail-Designer von Adobe Campaign, um E-Mails zu erstellen, ohne eine einzige Zeile Code schreiben zu müssen. Erfahren Sie in einem vollständigen Anwendungsfall, wie Sie mit dem E-Mail-Designer Ihre Inhalte erstellen, in der Vorschau anzeigen und testen und eine E-Mail an eine bestehende Zielgruppe senden."
 
 Erfahren Sie, wie Sie Ihre erste E-Mail an eine bestimmte Zielgruppe senden. In diesem Anwendungsfall planen Sie den Versand einer E-Mail an Silber- und Gold-Mitglieder des Treueprogramms zu einem bestimmten Datum.
 
