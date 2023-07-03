@@ -5,9 +5,9 @@ description: Erfahren Sie, wie Sie E-Mail-Inhalte erstellen
 exl-id: 8513b069-7155-45ac-8c98-38576c9ddeda
 badge: label="Alpha"
 source-git-commit: f59194334d5262e4270e2caef276b71b27d1b81f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '209'
-ht-degree: 68%
+ht-degree: 100%
 
 ---
 
@@ -28,19 +28,19 @@ In vielen Fällen handelt es sich um eine kurze Zusammenfassung des Inhalts, die
 
 Gehen Sie wie folgt vor, um den Preheader einer E-Mail zu definieren.
 
-1. Aus dem [Email Designer](create-email-content.md)Fügen Sie mindestens eine **[!UICONTROL Struktur]** -Komponente, um mit der Erstellung Ihrer E-Mail zu beginnen.
+1. Fügen Sie im [E-Mail-Designer](create-email-content.md) mindestens eine **[!UICONTROL Struktur]**-Komponente hinzu, um mit der Gestaltung Ihrer E-Mail zu beginnen.
 
 1. Klicken Sie auf das Symbol **[!UICONTROL Navigationsbaum]** im linken Bereich und wählen Sie **[!UICONTROL Text]**.
 
    ![](assets/preheader_body.png)
 
-1. Aus dem **[!UICONTROL Einstellungen]** eingeben, geben Sie Text für Ihren Preheader ein.
+1. Geben Sie auf der Registerkarte **[!UICONTROL Einstellungen]** Text für Ihren Preheader ein.
 
-1. Klicken Sie auf die Schaltfläche **[!UICONTROL Personalisierung hinzufügen]** Symbol links neben dem **[!UICONTROL Preheader]** -Feld.
+1. Klicken Sie links neben dem Feld **[!UICONTROL Preheader]** auf das Symbol **[!UICONTROL Personalisierung hinzufügen]**, um eine weitere Personalisierung vorzunehmen.
 
    ![](assets/preheader_body_settings.png)
 
-1. Aus dem **[!UICONTROL Personalisierung bearbeiten]** Fenster, können Sie [Personalisierungsfelder](../personalization/personalize.md), [Inhaltsbausteine](../personalization/content-blocks.md) und [Bedingter Inhalt](../personalization/conditions.md) mithilfe der entsprechenden Einträge auf der linken Seite.
+1. Über das Fenster **[!UICONTROL Personalisierung bearbeiten]** können Sie [Personalisierungsfelder](../personalization/personalize.md), [Inhaltsbausteine](../personalization/content-blocks.md) und [bedingten Inhalt](../personalization/conditions.md) mithilfe der entsprechenden Einträge auf der linken Seite hinzufügen.
 
    ![](assets/preheader_body_personalization.png)
 
