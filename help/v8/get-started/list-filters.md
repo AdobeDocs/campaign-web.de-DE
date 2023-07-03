@@ -6,12 +6,12 @@ badge: label="Alpha"
 source-git-commit: 065108e7ac4d682dc3f3de63303be8353b145757
 workflow-type: tm+mt
 source-wordcount: '416'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
 
-# Listen durchsuchen, durchsuchen und filtern {#list-screens}
+# Durchsuchen, Suchen und Filtern von Listen {#list-screens}
 
 Die meisten Links aus dem linken Navigationsmenü zeigen Listen von Objekten an, wie zum Beispiel die Liste der **Sendungen** oder **Kampagnen**. Einige dieser Listenbildschirme sind schreibgeschützt. Sie können die Listenanzeige anpassen und diese Listen wie unten beschrieben filtern.
 
@@ -79,7 +79,7 @@ Verwenden Sie den Umschalter **Erweiterte Attribute anzeigen**, um alle Attribut
 
 Standardmäßig werden in den Konfigurationsbildschirmen der Attributliste und der Filter nur die häufigsten Attribute angezeigt. Attribute, die im Datenschema als `advanced`-Attribute gesetzt wurden, werden in den Konfigurationsbildern ausgeblendet.
 
-Aktivieren Sie die **Erweiterte Attribute anzeigen** umschalten, um alle verfügbaren Attribute für die aktuelle Liste anzuzeigen: die Attributliste sofort aktualisiert wird.
+Aktivieren Sie den Umschalter **Erweiterte Attribute anzeigen**, um alle verfügbaren Attribute für die aktuelle Liste anzuzeigen: Die Attributliste wird sofort aktualisiert.
 
 
 ![](assets/adv-toggle.png){width="70%" align="left" zoomable="yes"}
