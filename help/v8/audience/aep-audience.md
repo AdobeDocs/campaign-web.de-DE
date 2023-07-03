@@ -1,17 +1,17 @@
 ---
 audience: end-user
-title: Verwenden einer Adobe Experience Platform-Audience
+title: Verwenden einer Adobe Experience Platform-Zielgruppe
 description: Erfahren Sie, wie Sie eine Audience aus Adobe Experience Platform verwenden
 badge: label="Alpha"
 exl-id: beb73107-3d27-40ac-afef-ac2b66ae8d34
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '289'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
-# Verwenden einer Adobe Experience Platform-Audience{#aep-audience}
+# Verwenden einer Adobe Experience Platform-Zielgruppe{#aep-audience}
 
 Die Ziel- und Quell-Connectoren für Adobe Campaign Managed Cloud Service ermöglichen eine nahtlose Integration zwischen Adobe Campaign und Adobe Experience Platform.
 
