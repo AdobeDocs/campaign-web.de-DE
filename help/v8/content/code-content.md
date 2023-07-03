@@ -5,9 +5,9 @@ description: Erfahren Sie, wie Sie Ihre eigenen E-Mail-Inhalte codieren
 exl-id: a387bff6-3dc8-421c-9efd-043c16694ef0
 badge: label="Alpha"
 source-git-commit: f59194334d5262e4270e2caef276b71b27d1b81f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '109'
-ht-degree: 60%
+ht-degree: 100%
 
 ---
 
@@ -19,11 +19,11 @@ Verwenden Sie den Modus **[!UICONTROL Eigenen Code erstellen]**, um unformatiert
 >
 >Diese Methode erfordert HTML-Kenntnisse.
 
-1. Im [Email Designer](get-started-email-designer.md) Startseite auswählen **[!UICONTROL Eigene Code]**.
+1. Wählen Sie auf der Startseite von [E-Mail-Designer](get-started-email-designer.md) die Option **[!UICONTROL Eigenen Code schreiben]** aus.
 
    ![](assets/code-your-own.png)
 
-1. Geben Sie Ihren rohen HTML-Code ein oder fügen Sie ihn in die Arbeitsfläche ein.
+1. Geben oder fügen Sie Ihren rohen HTML-Code in die Hauptarbeitsfläche ein.
 
 1. Verwenden Sie den linken Bereich, um die Personalisierungsfunktionen zu nutzen. [Weitere Informationen](../personalization/gs-personalization.md)
 
@@ -31,4 +31,4 @@ Verwenden Sie den Modus **[!UICONTROL Eigenen Code erstellen]**, um unformatiert
 
 1. Klicken Sie auf die Schaltfläche **[!UICONTROL Inhalt simulieren]**, um Design und Personalisierung der Nachricht mithilfe von Testprofilen zu überprüfen. [Weitere Informationen](../preview-test/preview-test.md)
 
-1. Sobald Ihr Code fertig ist, klicken Sie auf **[!UICONTROL Speichern und schließen]** , um zum Bildschirm zur Nachrichtenerstellung zurückzukehren und Ihre Nachricht abzuschließen.
+1. Sobald Ihr Code fertig ist, klicken Sie auf **[!UICONTROL Speichern und schließen]**. Gehen Sie dann zurück zum Bildschirm zur Nachrichtenerstellung, um Ihre Nachricht fertigzustellen.
