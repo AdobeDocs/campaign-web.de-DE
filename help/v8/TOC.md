@@ -1,19 +1,19 @@
 ---
 audience: end-user
 user-guide-title: Campaign v8 Web
-title: Dokumentation zu Adobe Campaign v8 Web
+title: Adobe Campaign v8 – Web-Dokumentation
 description: Web-Dokumentation zu Campaign v8
 breadcrumb-title: Übersicht über Campaign
 hide: true
 source-git-commit: 4a439abca9c7b1f2cc5d82214efb0aae033a996c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '352'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
 
-# Dokumentation zu Adobe Campaign v8 Web {#v8}
+# Adobe Campaign v8 – Web-Dokumentation {#v8}
 
 + [Web-Dokumentation zu Campaign v8](campaign-web-home.md)
 + [Neue Funktionen](rn/whats-new.md)
@@ -21,7 +21,7 @@ ht-degree: 93%
 + Erste Schritte mit Adobe Campaign {#start}
    + [Erste Schritte](get-started/get-started.md)
    + [Erkunden der Benutzeroberfläche](get-started/user-interface.md)
-   + [Listen durchsuchen, durchsuchen und filtern](get-started/list-filters.md)
+   + [Durchsuchen, Suchen und Filtern von Listen](get-started/list-filters.md)
 + Nachrichten und Sendungen {#msg}
    + [Erste Schritte mit Nachrichten](msg/gs-messages.md)
    + [Arbeiten mit Versandvorlagen](msg/delivery-template.md)
@@ -67,21 +67,21 @@ ht-degree: 93%
       + [Hinzufügen bedingter Inhalte](personalization/conditions.md)
       + [Hinzufügen von integrierten Inhaltsbausteinen](personalization/content-blocks.md)
    + [Senden von Angeboten](content/offers.md)
-   + Versand in der Vorschau ansehen und testen {#preview-test}
+   + Vorschau und Testen eines Versands{#preview-test}
       + [Über die Vorschau und Tests](preview-test/preview-test.md)
-      + [Vorschau des Nachrichteninhalts anzeigen](preview-test/preview-content.md)
-      + [Testsendungen durchführen](preview-test/test-deliveries.md)
+      + [Vorschau des Nachrichteninhalts](preview-test/preview-content.md)
+      + [Durchführen von Testsendungen](preview-test/test-deliveries.md)
       + [Rendern Ihrer E-Mail](preview-test/email-rendering.md)
 + Audiences und Empfänger {#audiences}
    + [Erste Schritte mit Zielgruppen](audience/about-audiences.md)
    + [Auswählen einer bestehenden Zielgruppe](audience/add-audience.md)
    + [Definieren einer Zielgruppe mit dem Regel-Builder](audience/segment-builder.md)
    + [Laden einer E-Mail-Zielgruppe aus einer Datei](audience/file-audience.md)
-   + [Verwenden einer Adobe Experience Platform-Audience](audience/aep-audience.md)
+   + [Verwenden einer Adobe Experience Platform-Zielgruppe](audience/aep-audience.md)
    + [Festlegen einer Kontrollgruppe](audience/control-group.md)
-+ Kanalübergreifende Kampagnen {#campaigns}
++ Cross-Channel-Kampagnen {#campaigns}
    + [Erste Schritte mit Kampagnen](campaigns/gs-campaigns.md)
-   + [Zugriff und Verwaltung von Kampagnen](campaigns/manage-campaigns.md)
+   + [Zugreifen auf und Verwalten von Kampagnen](campaigns/manage-campaigns.md)
    + [Erstellen Ihrer ersten Kampagne](campaigns/create-campaigns.md)
 + Workflows {#wf}
    + [Erste Schritte mit Workflows](workflows/gs-workflows.md)
