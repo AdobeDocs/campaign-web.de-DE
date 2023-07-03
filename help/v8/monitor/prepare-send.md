@@ -5,9 +5,9 @@ description: Erfahren Sie, wie Sie eine E-Mail mit der Web-Benutzeroberfläche v
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
 badge: label="Alpha"
 source-git-commit: d1a56f48e1b4253bad053745a3771a9527816d6b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '840'
-ht-degree: 51%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 51%
 
 ## Versandvorbereitung {#prepare}
 
-Wenn Sie Ihre [content](../content/edit-content.md), [audience](../audience/add-audience.md) und planen, sind Sie bereit, Ihren E-Mail-Versand vorzubereiten.
+Wenn Sie [Inhalt](../content/edit-content.md), [Zielgruppe](../audience/add-audience.md) und Zeitplan definiert haben, können Sie den E-Mail-Versand vorbereiten.
 
 Während der Vorbereitung wird die Zielpopulation berechnet und der Nachrichteninhalt für jedes Profil in der Zielgruppe erzeugt. Nachdem die Vorbereitung abgeschlossen ist, können die Nachrichten entweder sofort oder am geplanten Datum und zur geplanten Uhrzeit gesendet werden.
 
@@ -24,18 +24,18 @@ Die bei der Versandvorbereitung verwendeten Validierungsregeln sind in der Dokum
 
 Die wichtigsten Schritte zur Versandvorbereitung sind unten aufgeführt.
 
-1. Klicken Sie im Versand-Dashboard auf **[!UICONTROL Überprüfen und Senden]**.
+1. Klicken Sie im Versand-Dashboard auf **[!UICONTROL Überprüfen und senden]**.
 
    ![](assets/email-review-and-send.png)
 
 
-1. Klicken Sie auf **[!UICONTROL Vorbereiten]** -Schaltfläche oben rechts klicken und bestätigen.
+1. Klicken Sie oben rechts auf die Schaltfläche **[!UICONTROL Vorbereiten]** und bestätigen Sie den Vorgang.
 
    ![](assets/email-prepare.png)
 
    >[!NOTE]
    >
-   >Wenn Sie Ihren Versand geplant und die **[!UICONTROL Vor dem Senden Bestätigung aktivieren]** -Option, werden die Vorbereitungs- und Versandschritte unter der **[!UICONTROL Vorbereiten und Senden]** Schaltfläche. [Weitere Informationen zur Planung](../email/create-email.md#schedule)
+   >Wenn Sie den Versand geplant und die Option **[!UICONTROL Bestätigung vor dem Senden aktivieren]** deaktiviert haben, werden die Vorbereitungs- und Versandschritte unter der Schaltfläche **[!UICONTROL Vorbereiten und senden]** gruppiert. [Weitere Informationen zur Zeitplanung](../email/create-email.md#schedule)
 
 1. Der Vorbereitungsfortschritt wird angezeigt. Abhängig von der Größe der Ziel-Population kann dieser Vorgang einige Zeit in Anspruch nehmen.
 
@@ -64,7 +64,7 @@ Die wichtigsten Schritte zur Versandvorbereitung sind unten aufgeführt.
 
    ![](assets/email-prepare-error.png)
 
-1. Wenn Sie nach der Vorbereitung Änderungen an Ihrem Versand vornehmen, müssen Sie die Vorbereitung neu starten, damit diese Änderungen berücksichtigt werden.
+1. Wenn Sie nach der Vorbereitung Änderungen am Versand vornehmen möchten, müssen Sie die Vorbereitung erneut starten, damit diese Änderungen berücksichtigt werden.
 
 Nachdem die Vorbereitung fehlerfrei abgeschlossen wurde, kann Ihre Nachricht gesendet werden.
 
@@ -85,15 +85,15 @@ Nachdem die Vorbereitung fehlerfrei abgeschlossen wurde, kann Ihre Nachricht ges
 >title="Klicks"
 >abstract="Die Anzahl der Empfangenden, die mindestens einmal auf die E-Mail geklickt haben. Dieser Indikator wird alle 5 Minuten aktualisiert. Der angezeigte Prozentsatz ist das Verhältnis der Anzahl der eindeutigen Klicks im Vergleich zur Anzahl der zugestellten Nachrichten."
 
-Einmal [Vorbereitung](#prepare) abgeschlossen ist, können Sie nun Ihre E-Mail senden.
+Nach abgeschlossener [Vorbereitung](#prepare) können Sie Ihre E-Mail senden.
 
-Wenn die Nachricht terminiert ist, wird sie zum definierten Zeitpunkt gesendet. [Weitere Informationen](#schedule-the-send)
+Eine geplante Nachricht wird zum definierten Zeitpunkt gesendet. [Weitere Informationen](#schedule-the-send)
 
-### Sofort senden {#send-immediately}
+### Sofortiges Senden {#send-immediately}
 
 Gehen Sie wie folgt vor, um eine E-Mail sofort zu senden.
 
-1. Klicken Sie im Versand-Dashboard auf die **[!UICONTROL Senden]** in der oberen rechten Ecke.
+1. Klicken Sie im Versand-Dashboard oben rechts auf die Schaltfläche **[!UICONTROL Senden]**.
 
    ![](assets/email-send.png)
 
@@ -103,48 +103,48 @@ Gehen Sie wie folgt vor, um eine E-Mail sofort zu senden.
 
 ### Planen Sie den Versand {#schedule-the-send}
 
-Wenn Sie den Versand Ihrer E-Mail zu einem späteren Zeitpunkt geplant haben, gehen Sie wie folgt vor:
+Gehen Sie wie folgt vor, wenn Sie den Versand Ihrer E-Mail für einen späteren Zeitpunkt geplant haben.
 
-1. Bevor Sie die **[!UICONTROL Überprüfen und Senden]** auf, stellen Sie sicher, dass Sie einen Zeitplan für Ihre E-Mail definiert haben. [Weitere Informationen](../email/create-email.md#schedule)
+1. Bevor Sie auf die Schaltfläche **[!UICONTROL Überprüfen und senden]** klicken, stellen Sie sicher, dass Sie einen Zeitplan für Ihre E-Mail definiert haben. [Weitere Informationen](../email/create-email.md#schedule)
 
-1. Klicken Sie im Versand-Dashboard auf die **[!UICONTROL Senden als geplante Schaltfläche]** in der oberen rechten Ecke.
+1. Klicken Sie im Versand-Dashboard oben rechts auf die Schaltfläche **[!UICONTROL Nach Zeitplan senden]**.
 
    ![](assets/email-send-as-scheduled.png)
 
-1. Klicken **[!UICONTROL Versand bestätigen]**. Der Versand erfolgt am geplanten Datum an die Hauptzielgruppe.
+1. Klicken Sie auf **[!UICONTROL Senden bestätigen]**. Der Versand erfolgt zum geplanten Datum an die Hauptzielgruppe.
 
    >[!NOTE]
    >
-   >Wenn Sie die **[!UICONTROL Vor dem Senden Bestätigung aktivieren]** -Option, werden die Vorbereitungs- und Versandschritte unter der **[!UICONTROL Vorbereiten und Senden]** Schaltfläche. [Weitere Informationen zur Planung](../email/create-email.md#schedule)
+   >Wenn Sie die Option **[!UICONTROL Bestätigung vor dem Senden aktivieren]** deaktiviert haben, werden die Vorbereitungs- und Versandschritte unter der Schaltfläche **[!UICONTROL Vorbereiten und senden]** gruppiert. [Weitere Informationen zur Zeitplanung](../email/create-email.md#schedule)
 
-## Anhalten oder Anhalten des Versands {#pause-stop-sending}
+## Anhalten oder Beenden des Sendevorgangs {#pause-stop-sending}
 
-Unabhängig davon, ob der Versand geplant ist oder nicht, können während des Versandvorgangs zwei Aktionen ausgeführt werden:
+Unabhängig davon, ob es sich um einen geplanten oder ungeplanten Versand handelt, können während des Sendevorgangs immer zwei Aktionen ausgeführt werden:
 
-* Klicken **[!UICONTROL Versand anhalten]** um den Versand der Nachrichten zu unterbrechen. Sie können den Versand jederzeit fortsetzen.
+* Klicken Sie auf **[!UICONTROL Senden anhalten]**, um den Nachrichtenversand zu unterbrechen. Sie können den Sendevorgang jederzeit fortsetzen.
 
-* Klicken **[!UICONTROL Versand beenden]** , um den Versand sofort zu unterbrechen. Die Vorbereitung und der Versand können nicht fortgesetzt werden.
+* Klicken Sie auf **[!UICONTROL Senden beenden]**, um den Sendevorgang sofort abzubrechen. Vorbereitung und Sendevorgang können nicht fortgesetzt werden.
 
 ![](assets/email-send-pause-or-stop.png)
 
 ## Überprüfen der KPIs {#check-kpis}
 
-Nach Abschluss des Versands können Sie die angezeigten KPIs überprüfen:
+Nach abgeschlossenem Sendevorgang können Sie die angezeigten KPIs überprüfen:
 
 ![](assets/email-send-kpis.png)
 
-* **[!UICONTROL Gesendet]**: die Anzahl der zugestellten Nachrichten. Der angezeigte Prozentsatz basiert auf der Gesamtzahl der zu sendenden Nachrichten.
+* **[!UICONTROL Gesendet]**: die Anzahl der zugestellten Nachrichten. Der angezeigte Prozentsatz bezieht sich auf die Gesamtzahl der zuzustellenden Nachrichten.
 
 * **[!UICONTROL Zugestellt]**: die Anzahl der erfolgreich zugestellten Nachrichten. Der angezeigte Prozentsatz bezieht sich auf die Gesamtzahl der gesendeten Nachrichten.
 
-* **[!UICONTROL Öffnungen]**: die Anzahl der geöffneten Nachrichten. Der angezeigte Prozentsatz ist die Anzahl unterschiedlicher Öffnungen in Bezug auf die Anzahl der zugestellten Nachrichten.
+* **[!UICONTROL Öffnungen]**: die Anzahl der geöffneten Nachrichten. Der angezeigte Prozentsatz entspricht der Anzahl der einzelnen Öffnungen im Vergleich mit der Anzahl der zugestellten Nachrichten.
 
-* **[!UICONTROL Klicks]**: die Anzahl der Empfänger, die mindestens einmal in der E-Mail geklickt haben. Der angezeigte Prozentsatz ist die Anzahl unterschiedlicher Klicks in Bezug auf die Anzahl der zugestellten Nachrichten.
+* **[!UICONTROL Klicks]**: die Anzahl der Empfängerinnen und Empfänger, die mindestens einmal auf die E-Mail geklickt haben. Der angezeigte Prozentsatz entspricht der Anzahl der einzelnen Klicks im Vergleich mit der Anzahl der zugestellten Nachrichten.
 
-* **[!UICONTROL Fehler]**: die Anzahl der E-Mails mit dem Fehlerstatus. Der angezeigte Prozentsatz bezieht sich auf die Gesamtzahl der gesendeten Nachrichten.
+* **[!UICONTROL Fehler]**: die Anzahl der E-Mails mit Fehlerstatus. Der angezeigte Prozentsatz bezieht sich auf die Gesamtzahl der gesendeten Nachrichten.
 
 >[!NOTE]
 >
->Alle Indikatoren werden alle 5 Minuten nach dem Versandstart aktualisiert. Die Indikatoren für die Versandvorbereitung sind in Echtzeit.
+>Alle Indikatoren werden alle fünf Minuten nach dem Versandstart aktualisiert. Die Indikatoren für die Versandvorbereitung entsprechen der Echtzeit.
 
 Sie können auch die Protokolle überprüfen. [Weitere Informationen](delivery-logs.md)
