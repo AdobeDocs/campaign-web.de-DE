@@ -1,54 +1,54 @@
 ---
 audience: end-user
-title: Versand-Workflow-Aktivität verwenden
-description: Erfahren Sie, wie Sie eine Versand-Workflow-Aktivität hinzufügen (E-Mail, Push, SMS)
+title: Verwenden der Workflow-Aktivität „Versand“
+description: Erfahren Sie, wie Sie eine Workflow-Aktivität „Versand“ hinzufügen (E-Mail, Push-Benachrichtigung, SMS).
 badge: label="Alpha"
 source-git-commit: d70c671e558613a27acc5252091e1e2836b675c7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '425'
-ht-degree: 12%
+ht-degree: 100%
 
 ---
 
 
 # E-Mail, SMS, Push {#channel}
 
-Adobe Campaign Web ermöglicht die Automatisierung und Ausführung von Marketingkampagnen über E-Mail-, SMS- und Push-Kanäle hinweg. Sie können Kanalaktivitäten in der Workflow-Arbeitsfläche kombinieren, um kanalübergreifende Workflows zu erstellen, mit denen Trigger-Aktionen basierend auf dem Kundenverhalten und den Daten erstellt werden können.
+Mit Adobe Campaign Web können Sie Marketing-Kampagnen über E-Mail-, SMS- oder Push-Kanäle automatisieren und durchführen. Sie können Kanalaktivitäten in die Workflow-Arbeitsfläche kombinieren, um Cross-Channel-Workflows zu erstellen, mit denen basierend auf Kundenverhalten und Daten Aktionen ausgelöst werden können.
 
-Sie können beispielsweise eine Begrüßungs-E-Mail-Kampagne erstellen, die eine Reihe von Nachrichten über verschiedene Kanäle wie E-Mail, SMS und Push-Benachrichtigungen enthält. Sie können auch eine Folgenachricht senden, nachdem ein Kunde einen Kauf getätigt hat, oder eine personalisierte Geburtstagsnachricht per SMS an einen Kunden senden.
+Sie können beispielsweise eine Begrüßungs-E-Mail-Kampagne erstellen, die eine Reihe von Nachrichten über verschiedene Kanäle wie E-Mail, SMS und Push-Benachrichtigungen enthält. Sie können auch eine Folge-E-Mail senden, nachdem eine Kundin oder ein Kunde einen Kauf getätigt hat, oder eine personalisierte Geburtstagsnachricht per SMS an eine Kundin bzw. einen Kunden senden.
 
-Mithilfe von Kanalaktivitäten können Sie umfassende und personalisierte Kampagnen erstellen, die Kunden über mehrere Touchpoints hinweg ansprechen und Konversionen fördern.
+Mithilfe von Kanalaktivitäten können Sie umfassende und personalisierte Kampagnen erstellen, die Kundinnen und Kunden über mehrere Touchpoints hinweg ansprechen und Konversionen fördern.
 
-Im Folgenden finden Sie die Schritte zum Hinzufügen einer **Kanal** Aktivität in einem Workflow:
+Im Folgenden finden Sie die Schritte zum Hinzufügen einer **Kanalaktivität** in einem Workflow:
 
-1. Stellen Sie sicher, dass Sie einen **Audience erstellen** Aktivität. Die Audience ist die Hauptzielgruppe Ihres Versands: die Empfänger, die die Nachrichten erhalten. Beim Versand von Nachrichten im Rahmen eines Kampagnen-Workflows wird die Nachrichtenzielgruppe nicht in der Kanalaktivität, sondern im **Audience erstellen** Aktivität. Weitere Informationen finden Sie in [diesem Abschnitt](build-audience.md).
+1. Stellen Sie sicher, dass Sie eine Aktivität vom Typ **Zielgruppe aufbauen** hinzugefügt haben. Die Zielgruppe ist das wichtigste Ziel Ihres Versands: die Empfängerinnen und Empfänger, die die Nachrichten erhalten. Beim Senden von Nachrichten im Rahmen eines Kampagnen-Workflows wird die Nachrichtenzielgruppe nicht in der Kanalaktivität, sondern in der Aktivität **Zielgruppe aufbauen** definiert. Weitere Informationen finden Sie in [diesem Abschnitt](build-audience.md).
 
    ![](../../msg/assets/add-delivery-in-wf.png)
 
 1. Wählen Sie eine Versandaktivität aus: **[!UICONTROL E-Mail]**, **[!UICONTROL SMS]**, **[!UICONTROL Push-Benachrichtigung (Android)]** oder **[!UICONTROL Push-Benachrichtigung (iOS)]**.
 
-1. Versand auswählen **Vorlage**. Vorlagen sind vorkonfigurierte, kanalspezifische Versandeinstellungen. Für jeden Kanal ist eine integrierte Vorlage verfügbar, die standardmäßig vorausgefüllt ist. [Weitere Informationen](../../msg/delivery-template.md)
+1. Wählen Sie eine **Versandvorlage** aus. Vorlagen sind vorkonfigurierte, kanalspezifische Versandeinstellungen. Für jeden Kanal ist eine integrierte Vorlage verfügbar, die standardmäßig vorausgefüllt ist. [Weitere Informationen](../../msg/delivery-template.md)
 
    ![](../assets/delivery-activity-in-wf.png)
 
 
-   Sie können im linken Bereich der Konfiguration der Kanalaktivität eine andere Vorlage auswählen. Wenn die zuvor ausgewählte Audience nicht mit dem Kanal kompatibel ist, können Sie keine Vorlage auswählen. Um dies zu beheben, aktualisieren Sie die **Audience erstellen** -Aktivität, um eine Zielgruppe mit dem richtigen Zielgruppen-Mapping auszuwählen. Weitere Informationen zu Zielgruppen-Mappings finden Sie unter [Dokumentation zu Adobe Campaign v8 (Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=de){target="_blank"}.
+   Sie können im linken Bereich zur Konfiguration der Kanalaktivität eine andere Vorlage auswählen. Wenn die zuvor ausgewählte Zielgruppe nicht mit dem Kanal kompatibel ist, können Sie keine Vorlage auswählen. Um dies zu beheben, aktualisieren Sie die Aktivität **Zielgruppe aufbauen**, um eine Zielgruppe mit dem richtigen Zielgruppen-Mapping auszuwählen. Weitere Informationen zu Zielgruppen-Mappings finden Sie in der [Dokumentation zu Adobe Campaign v8 (Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=de){target="_blank"}.
 
-1. Klicken **Versand erstellen**. Definieren Sie Ihre Nachrichteneinstellungen und den Inhalt auf die gleiche Weise wie einen eigenständigen Versand. Sie können den Inhalt auch planen und simulieren. [Weitere Informationen](../../msg/gs-messages.md).
+1. Klicken Sie auf **Versand erstellen**. Definieren Sie Ihre Nachrichteneinstellungen und den Inhalt so wie einen eigenständigen Versand. Sie können den Inhalt auch planen und simulieren. [Weitere Informationen](../../msg/gs-messages.md).
 
 1. Navigieren Sie zurück zu Ihrem Workflow und speichern Sie Ihre Änderungen.
 
-1. Klicken **Starten** , um Ihren Workflow zu starten.
+1. Klicken Sie auf **Starten**, um Ihren Workflow zu starten.
 
-   Standardmäßig wird beim Starten eines Workflows die Phase der Nachrichtenvorbereitung Trigger, ohne dass die Nachricht sofort gesendet wird.
+   Standardmäßig wird durch Starten eines Workflows die Vorbereitungsphase der Nachricht ausgelöst, ohne dass die Nachricht sofort versendet wird.
 
-1. Öffnen Sie Ihre Versandaktivität, um den Versand über die **Überprüfen und Senden** Schaltfläche.
+1. Öffnen Sie die Versandaktivität, um den Versand über die Schaltfläche **Überprüfen und senden** zu bestätigen.
 
 1. Klicken Sie im Versand-Dashboard auf **Senden**.
 
 ## Beispiel
 
-Im Folgenden finden Sie ein kanalübergreifendes Workflow-Beispiel mit einer Segmentierung und zwei Sendungen. Der Workflow richtet sich an alle Kunden, die in Paris leben und an Kaffeemaschinen interessiert sind. Unter dieser Population wird eine E-Mail an die regulären Kunden und eine SMS an die VIP gesendet.
+Im Folgenden finden Sie ein Beispiel eines kanalübergreifenden Workflows mit einer Segmentierung und zwei Sendungen. Der Workflow richtet sich an alle Kundinnen und Kunden, die in Paris leben und an Kaffeemaschinen interessiert sind. Innerhalb dieser Population wird eine E-Mail an die regulären Kundinnen und Kunden und eine SMS an diejenigen mit VIP-Status gesendet.
 
 ![](../assets/workflow-channel-example.png)
 <!--
