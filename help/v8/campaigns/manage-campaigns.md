@@ -3,15 +3,20 @@ audience: end-user
 title: Erste Schritte mit Kampagnen
 description: Erfahren Sie, wie Sie mit kanalübergreifenden Kampagnen beginnen
 badge: label="Alpha"
-source-git-commit: d73deb59ef6b4b4833da42b62515c474ba154f2c
-workflow-type: ht
-source-wordcount: '423'
-ht-degree: 100%
+source-git-commit: c9954ce69e50e1c8db2532be3292f71ff20f9f74
+workflow-type: tm+mt
+source-wordcount: '431'
+ht-degree: 98%
 
 ---
 
 
 # Zugreifen auf und Verwalten von Kampagnen{#manage-campaigns}
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_schedule"
+>title="Kampagnenplanung"
+>abstract="Legen Sie den Kampagnenkalender fest oder ändern Sie ihn."
 
 Um eine neue Kampagne zu erstellen oder bestehende Kampagnen zu verwalten, klicken Sie im linken Navigationsbereich auf das Menü **[!UICONTROL Kampagnen]**.
 
