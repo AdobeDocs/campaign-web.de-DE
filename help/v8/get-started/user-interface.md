@@ -4,9 +4,9 @@ title: Erkunden der Benutzeroberfläche
 description: Web-Benutzeroberfläche von Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha"
-source-git-commit: 7c9388d5a406779f91180835e39e6dd2408d8a90
+source-git-commit: 99e66a77c3451a4a43fa3e29f080191b2b51c074
 workflow-type: tm+mt
-source-wordcount: '1318'
+source-wordcount: '1525'
 ht-degree: 100%
 
 ---
@@ -295,3 +295,48 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_keyindicators_errors"
 >title="Fehler"
 >abstract="Fehler-KPI"
+
+
+
+
+<!-- delivery template settings-->
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_template_settings_tracking_validity"
+>title="Gültigkeitszeitraum"
+>abstract="Diese Option legt die Dauer fest, für die das Tracking für die URLs aktiviert wird."
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_template_settings_delivery_duration"
+>title="Versandlaufzeit"
+>abstract="Im Feld „Versandlaufzeit“ können Sie die Zeitspanne angeben, in der erneute Zustellversuche unternommen werden sollen. Dies bedeutet konkret, dass Adobe Campaign die Nachrichten ab dem Startdatum versendet und bis nach Ablauf der angegebenen Spanne nicht zustellbare Nachrichten in regelmäßigen Abständen erneut sendet."
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_template_settings_resources_validity"
+>title="Gültigkeit von Ressourcen"
+>abstract="Das Feld „Gültigkeitsdauer“ wird für hochgeladene Ressourcen verwendet, wie etwa die Mirrorseite oder Bilder. Diese Ressourcen sind für eine begrenzte Zeit gültig: Nach Erreichen des Grenzwerts sind keine Ressourcen mehr verfügbar."
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_template_settings_approval"
+>title="Validierungsmodus"
+>abstract="Jeder Schritt eines Versands kann einer Validierung unterzogen werden, um eine vollständige Überwachung und Kontrolle der verschiedenen Prozesse zu gewährleisten."
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_template_settings_retries"
+>title="Maximale Anzahl der weiteren Zustellversuche"
+>abstract="Wenn ein Nachrichtenversand aufgrund eines temporären Fehlers fehlschlägt, werden weitere Zustellversuche bis zum Ende der Versandlaufzeit durchgeführt."
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_template_settings_recipient_importance"
+>title="Wichtigkeit des Empfängers bzw. der Empfängerin"
+>abstract="Mit der Wichtigkeit des Empfängers bzw. der Empfängerin wird festgelegt, welche Empfangenden im Falle einer Kapazitätsüberlastung der Typologieregeln beibehalten werden."
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_template_settings_delivery_weight"
+>title="Versandgewichtung"
+>abstract="Die Versandgewichtung ermöglicht es Ihnen, im Rahmen der Druckverwaltung diejenigen Sendungen festzulegen, die vorrangig durchgeführt werden sollen. Die Nachrichten mit der höchsten Gewichtung haben Vorrang."
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_template_settings_typology"
+>title="Typologie"
+>abstract="Mit einer Typologie können Sie die Durchführung von Sendungen steuern, filtern und überwachen."
