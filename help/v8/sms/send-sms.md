@@ -5,8 +5,8 @@ description: Erfahren Sie, wie Sie SMS mit Adobe Campaign Web senden
 badge: label="Alpha"
 source-git-commit: 554e839c2ac715ddc69ed6acfea0844c5436c07a
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 94%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
