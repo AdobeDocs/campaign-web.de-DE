@@ -4,9 +4,9 @@ title: Vorbereiten und Senden einer E-Mail
 description: Erfahren Sie, wie Sie eine E-Mail mit der Web-Benutzeroberfläche von Campaign vorbereiten und senden.
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
 badge: label="Alpha"
-source-git-commit: d1a56f48e1b4253bad053745a3771a9527816d6b
-workflow-type: ht
-source-wordcount: '840'
+source-git-commit: 768484c1fc67ac9aa2a2fbac6d00183fb81dbe63
+workflow-type: tm+mt
+source-wordcount: '871'
 ht-degree: 100%
 
 ---
@@ -128,6 +128,16 @@ Unabhängig davon, ob es sich um einen geplanten oder ungeplanten Versand handel
 ![](assets/email-send-pause-or-stop.png)
 
 ## Überprüfen der KPIs {#check-kpis}
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_metrics_sent"
+>title="Gesendet-Metriken"
+>abstract="Gesamtzahl der bei der Analyse verarbeiteten Nachrichten."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_metrics_errors"
+>title="Fehlermetriken"
+>abstract="Gesamtzahl der über alle Sendungen hinweg kumulierten Fehler und der automatischen Bounce-Verarbeitung in Bezug auf die Gesamtzahl der gesendeten Nachrichten."
 
 Nach abgeschlossenem Sendevorgang können Sie die angezeigten KPIs überprüfen:
 
