@@ -3,14 +3,19 @@ audience: end-user
 title: Senden eines SMS-Versands
 description: Erfahren Sie, wie Sie SMS mit Adobe Campaign Web senden
 badge: label="Alpha"
-source-git-commit: 4a439abca9c7b1f2cc5d82214efb0aae033a996c
-workflow-type: ht
-source-wordcount: '375'
-ht-degree: 100%
+source-git-commit: 554e839c2ac715ddc69ed6acfea0844c5436c07a
+workflow-type: tm+mt
+source-wordcount: '400'
+ht-degree: 94%
 
 ---
 
 # Vorschau und Senden eines SMS-Versands {#send-sms-delivery}
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_metrics_newquarantines"
+>title="Metrik „Neu in Quarantäne“"
+>abstract="Gesamtzahl der Adressen, die infolge eines fehlgeschlagenen Versands unter Quarantäne gestellt wurden (unbekannter Nutzer, ungültige Domain), in Bezug auf die Zahl der zu sendenden Nachrichten."
 
 ## Vorschau Ihres SMS-Versands{#preview-sms}
 

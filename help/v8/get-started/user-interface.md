@@ -4,9 +4,9 @@ title: Erkunden der Benutzeroberfläche
 description: Web-Benutzeroberfläche von Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha"
-source-git-commit: 768484c1fc67ac9aa2a2fbac6d00183fb81dbe63
+source-git-commit: 554e839c2ac715ddc69ed6acfea0844c5436c07a
 workflow-type: tm+mt
-source-wordcount: '1536'
+source-wordcount: '1530'
 ht-degree: 99%
 
 ---
@@ -245,17 +245,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_push_overview_edit"
 >title="Berechtigung erforderlich"
 >abstract="Ihre Admins müssen Ihnen die Berechtigung erteilen, bevor Sie ein Segment erstellen können."
-
-
-
-
-
-
->[!CONTEXTUALHELP]
->id="acw_deliveries_metrics_newquarantines"
->title="Metrik „Neu in Quarantäne“"
->abstract="Die Metrik „Neu in Quarantäne“."
-
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_delivered"
