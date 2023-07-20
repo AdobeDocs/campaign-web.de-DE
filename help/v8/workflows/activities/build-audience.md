@@ -1,7 +1,7 @@
 ---
 audience: end-user
-title: Verwenden der Workflow-Aktivität „Zielgruppe aufbauen“
-description: Erfahren Sie, wie Sie die Workflow-Aktivität „Zielgruppe aufbauen“ verwenden.
+title: Verwenden der Workflow-Aktivität „Zielgruppe erstellen“
+description: Erfahren Sie, wie Sie die Workflow-Aktivität „Zielgruppe erstellen“ verwenden.
 badge: label="Alpha"
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: ht
@@ -11,9 +11,9 @@ ht-degree: 100%
 ---
 
 
-# Aufbauen einer Zielgruppe {#build-audience}
+# Erstellen einer Zielgruppe {#build-audience}
 
-Die Aktivität **Zielgruppe aufbauen** ist eine Aktivität zur **Zielgruppenbestimmung**. Diese Aktivität ermöglicht Ihnen die Bestimmung der Zielgruppe, die in den Workflow aufgenommen wird. Beim Senden von Nachrichten im Rahmen eines Kampagnen-Workflows wird die Nachrichtenzielgruppe nicht in der Kanalaktivität, sondern in der Aktivität **Zielgruppe aufbauen** definiert.
+Die Aktivität **Zielgruppe erstellen** ist eine Aktivität zur **Zielgruppenbestimmung**. Diese Aktivität ermöglicht Ihnen die Definition der Zielgruppe, die in den Workflow aufgenommen wird. Beim Senden von Nachrichten im Rahmen eines Kampagnen-Workflows wird die Nachrichtenzielgruppe nicht in der Kanalaktivität, sondern in der Aktivität **Zielgruppe erstellen** definiert.
 
 Zur Definition der Zielgruppenpopulation haben Sie folgende Möglichkeiten:
 
@@ -31,9 +31,9 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 
 ## Konfiguration
 
-Führen Sie die folgenden Schritte aus, um die Aktivität **Zielgruppe aufbauen** zu konfigurieren:
+Führen Sie die folgenden Schritte aus, um die Aktivität **Zielgruppe erstellen** zu konfigurieren:
 
-1. Fügen Sie die Aktivität **Zielgruppe aufbauen** hinzu.
+1. Fügen Sie die Aktivität **Zielgruppe erstellen** hinzu.
 1. Definieren Sie einen Titel.
 1. Definieren Sie die Art der Zielgruppe: **Eigene erstellen** oder **Zielgruppe lesen**.
 
@@ -52,6 +52,6 @@ Gehen Sie wie folgt vor, um eine vorhandene Zielgruppe auszuwählen:
 
 ## Beispiel
 
-Im Folgenden finden Sie ein Beispiel für einen Workflow mit zwei Aktivitäten vom Typ **Zielgruppe aufbauen**. Die erste Version richtet sich an die Zielgruppe derjenigen, sie Poker spielen, gefolgt von einem E-Mail-Versand. Die zweite Zielgruppe ist die Zielgruppe der VIP-Kundinnen und -Kunden, gefolgt von einem SMS-Versand.
+Im Folgenden finden Sie ein Beispiel für einen Workflow mit zwei Aktivitäten vom Typ **Zielgruppe erstellen**. Die erste Version richtet sich an die Zielgruppe derjenigen, die Poker spielen, gefolgt von einem E-Mail-Versand. Die zweite Version ist die Zielgruppe der VIP-Kundinnen und -Kunden, gefolgt von einem SMS-Versand.
 
 ![](../assets/workflow-audience-example.png)
