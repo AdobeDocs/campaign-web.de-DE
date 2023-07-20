@@ -1,7 +1,7 @@
 ---
 audience: end-user
 title: Verwenden der Workflow-Aktivität „Verzweigung“
-description: Erfahren Sie, wie Sie die Workflow-Aktivität „Verzweigung“ verwenden
+description: Erfahren Sie, wie Sie die Workflow-Aktivität „Verzweigung“ verwenden.
 badge: label="Alpha"
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: ht
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_fork_transitions"
->title="Verzweigung Aktivität"
+>title="Verzweigung  Aktivität"
 >abstract="Die Aktivität „Verzweigung“ ermöglicht es Ihnen, ausgehende Transitionen zu erstellen, um mehrere Aktivitäten gleichzeitig zu starten."
 
 ## Konfiguration
@@ -31,7 +31,7 @@ Führen Sie die folgenden Schritte aus, um die Aktivität **Verzweigung** zu kon
 Im folgenden Beispiel verwenden wir zwei Aktivitäten vom Typ **Verzweigung**:
 
 * Eine vor den beiden Abfragen, damit sie gleichzeitig ausgeführt werden.
-* Eine nach dem Verzweigungspunkt, um eine E-Mail und eine SMS gleichzeitig an die Zielpopulation zu senden.
+* Eine nach dem Schnittpunkt, um eine E-Mail und eine SMS gleichzeitig an die Zielpopulation zu senden.
 
 ![](../assets/workflow-fork-example.png)
 
