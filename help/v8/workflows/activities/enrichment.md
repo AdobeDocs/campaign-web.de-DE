@@ -1,7 +1,7 @@
 ---
 audience: end-user
 title: Verwendung der Workflow-Aktivität „Anreicherung“
-description: Erfahren Sie, wie Sie die Workflow-Aktivität „Anreicherung“ verwenden
+description: Erfahren Sie, wie Sie die Workflow-Aktivität „Anreicherung“ verwenden.
 badge: label="Alpha"
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: ht
@@ -15,22 +15,22 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment_data"
->title="Anreicherung Aktivität"
->abstract="Die Anreicherungsaktivität ermöglicht es Ihnen, die Zielgruppendaten um zusätzliche Informationen aus der Datenbank zu erweitern. Sie wird in einem Workflow häufig nach den Zielgruppenbestimmungsaktivitäten verwendet.<br/>Nachdem Anreicherungsdaten zum Workflow hinzugefügt wurden, können sie in den Aktivitäten verwendet werden, die nach der Anreicherungsaktivität hinzugefügt wurden, um Kundinnen und Kunden basierend auf ihren Verhaltensweisen, Voreinstellungen und Anforderungen in verschiedene Gruppen zu unterteilen oder um personalisierte Marketing-Nachrichten und -Kampagnen zu erstellen, die Ihre Zielgruppe mit größerer Wahrscheinlichkeit ansprechen."
+>title="Anreicherung  Aktivität"
+>abstract="Die Anreicherungsaktivität ermöglicht es Ihnen, die Zielgruppendaten um zusätzliche Informationen aus der Datenbank zu erweitern. Sie wird in einem Workflow häufig nach den Zielgruppenbestimmungs-Aktivitäten verwendet.<br/>Nachdem Anreicherungsdaten zum Workflow hinzugefügt wurden, können sie in den Aktivitäten verwendet werden, die nach der Anreicherungsaktivität hinzugefügt wurden, um Kundinnen und Kunden basierend auf ihren Verhaltensweisen, Vorlieben und Bedürfnissen in verschiedene Gruppen zu unterteilen oder um personalisierte Marketing-Nachrichten und -Kampagnen zu erstellen, die Ihre Zielgruppe mit größerer Wahrscheinlichkeit ansprechen."
 
-Die Aktivität der **Anreicherung** ist eine **Zielgruppenbestimmungsaktivität**. Sie ermöglicht Ihnen, die Zielgruppendaten um zusätzliche Informationen aus der Datenbank zu erweitern. Sie wird in einem Workflow häufig nach den Segmentierungsaktivitäten verwendet.
+Die Aktivität der **Anreicherung** ist eine **Zielgruppenbestimmungs-Aktivität**. Sie ermöglicht Ihnen, die Zielgruppendaten um zusätzliche Informationen aus der Datenbank zu erweitern. Sie wird in einem Workflow häufig nach den Segmentierungsaktivitäten verwendet.
 
 Anreicherungsdaten können verschiedene Ursprünge haben:
 
 * **Aus derselben Arbeitstabelle** wie die Zielgruppe in Ihrem Workflow:
 
-  *Targeting einer Kundengruppe und Hinzufügen des Felds „Geburtsdatum“ zur aktuellen Arbeitstabelle*
+  *Zielgruppenbestimmung einer Kundengruppe und Hinzufügen des Felds „Geburtsdatum“ zur aktuellen Arbeitstabelle*
 
 * **Aus einer anderen Arbeitstabelle**:
 
-  *Targeting einer Kundengruppe und Hinzufügen der Felder „Betrag“ und „Produkttyp“ aus der „Kauf“-Tabelle*.
+  *Zielgruppenbestimmung einer Kundengruppe und Hinzufügen der Felder „Betrag“ und „Produkttyp“ aus der „Kauf“-Tabelle*.
 
-Nachdem die Anreicherungsdaten zum Workflow hinzugefügt wurden, können sie in den Aktivitäten verwendet werden, die im Anschluss an die Aktivität **Anreicherung** hinzugefügt wurden, um Kundinnen und Kunden basierend auf ihren Verhaltensweisen, Vorlieben und Anforderungen in verschiedene Gruppen zu unterteilen oder um personalisierte Marketing-Nachrichten und -Kampagnen zu erstellen, die Ihre Zielgruppe mit größerer Wahrscheinlichkeit ansprechen.
+Nachdem die Anreicherungsdaten zum Workflow hinzugefügt wurden, können sie in den Aktivitäten verwendet werden, die im Anschluss an die Aktivität **Anreicherung** hinzugefügt wurden, um Kundinnen und Kunden basierend auf ihren Verhaltensweisen, Vorlieben und Bedürfnissen in verschiedene Gruppen zu unterteilen oder um personalisierte Marketing-Nachrichten und -Kampagnen zu erstellen, die Ihre Zielgruppe mit größerer Wahrscheinlichkeit ansprechen.
 
 Sie können beispielsweise der Workflow-Arbeitstabelle Informationen zu Käufen von Kundinnen und Kunden hinzufügen und diese Daten verwenden, um E-Mails mit ihrem neuesten Kauf oder dem für diese Käufe ausgegebenen Betrag zu personalisieren.
 
@@ -38,7 +38,7 @@ Sie können beispielsweise der Workflow-Arbeitstabelle Informationen zu Käufen 
 
 Führen Sie die folgenden Schritte aus, um die Aktivität **Anreicherung** zu konfigurieren:
 
-1. Fügen Sie Aktivitäten wie **Zielgruppe aufbauen** und **Kombinieren** hinzu.
+1. Fügen Sie Aktivitäten wie **Zielgruppe erstellen** und **Kombinieren** hinzu.
 1. Fügen Sie eine Aktivität vom Typ **Anreicherung** hinzu.
 1. Klicken Sie auf **Anreicherungsdaten hinzufügen**.
 
@@ -65,26 +65,26 @@ In diesem komplexeren Anwendungsfall wählen wir eine Sammlungsrelation aus, die
 * einen Filter: Elemente herausfiltern, die über 100 € liegen
 * eine Sortierung: absteigende Sortierung nach dem Feld **Bestelldatum**.
 
-### Fügen Sie ein Attribut hinzu
+### Fügen Sie das Attribut hinzu.
 
 Hier wählen Sie die Sammlungsrelation aus, um sie als Anreicherungsdaten zu verwenden.
 
 1. Klicken Sie in das Feld **Attribut**.
 1. Klicken Sie auf **Erweiterte Attribute anzeigen**.
-1. Wählen Sie das Feld **Gesamtbetrag** aus der Tabelle **Bestellungen**.
+1. Wählen Sie das Feld **Gesamtbetrag** aus der Tabelle **Käufe**.
 
 ![](../assets/workflow-enrichment3.png)
 
-### Definieren Sie die Sammlungseinstellungen
+### Definieren Sie die Sammlungseinstellungen.
 
-Definieren Sie dann, wie die Daten erfasst werden und wie viele Datensätze abgerufen werden sollen.
+Definieren Sie dann, wie die Daten erfasst werden und wie viele Einträge abgerufen werden sollen.
 
-1. Wählen Sie **Daten sammeln** in der Dropdown-Liste **Art der Datenerhebung auswählen**.
-1. Geben Sie „3“ in das Feld **Abzurufende Zeilen (Zu erstellende Spalten)** ein.
+1. Wählen Sie **Daten erfassen** in der Dropdown-Liste **Auswählen, wie die Daten erfasst werden**.
+1. Geben Sie „3“ in das Feld **Abzurufende Zeilen (zu erstellende Spalten)** ein.
 
 ![](../assets/workflow-enrichment4.png)
 
-Wenn Sie beispielsweise die durchschnittliche Anzahl der Bestellungen für eine Person abrufen möchten, wählen Sie stattdessen **Aggregierte Daten** und wählen Sie **Durchschnitt** in der Dropdown-Liste **Aggregatfunktion**.
+Wenn Sie beispielsweise die durchschnittliche Anzahl der Käufe für eine Person abrufen möchten, wählen Sie stattdessen **Aggregierte Daten** und wählen Sie **Durchschnitt** in der Dropdown-Liste **Aggregatfunktion**.
 
 ![](../assets/workflow-enrichment5.png)
 
@@ -93,14 +93,14 @@ Wenn Sie beispielsweise die durchschnittliche Anzahl der Bestellungen für eine 
 Hier definieren wir den Maximalwert für das Anreicherungsattribut. Wir filtern Elemente heraus, die mehr als 100 € betragen.
 
 1. Klicken Sie auf **Filter bearbeiten**.
-1. Fügen Sie die beiden folgenden Filter hinzu: **Gesamtbetrag** vorhanden UND **Gesamtbetrag** ist kleiner als 100. Die erste filtert NULL-Werte, da sie als größter Wert erscheinen würden.
+1. Fügen Sie die beiden folgenden Filter hinzu: **Gesamtbetrag** vorhanden UND **Gesamtbetrag** ist kleiner als 100. Der erste filtert NULL-Werte, da sie als größter Wert erscheinen würden.
 1. Klicken Sie auf **Bestätigen**.
 
 ![](../assets/workflow-enrichment6.png)
 
 ### Definieren der Sortierung
 
-Jetzt müssen wir eine Sortierung anwenden, um die drei **letzten** Bestellungen abzurufen.
+Jetzt müssen wir eine Sortierung anwenden, um die drei **letzten** Käufe abzurufen.
 
 1. Aktivieren Sie die Option **Sortierung aktivieren**.
 1. Klicken Sie in das Feld **Attribut**.
