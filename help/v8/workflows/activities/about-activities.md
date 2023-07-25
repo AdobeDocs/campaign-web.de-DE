@@ -4,10 +4,10 @@ title: Arbeiten mit Workflow-Aktivitäten
 description: Erfahren Sie, wie Sie Workflow-Aktivitäten durchführen.
 badge: label="Alpha"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: b66afeedbfcb342102c833899756afc35de9d504
-workflow-type: ht
-source-wordcount: '305'
-ht-degree: 100%
+source-git-commit: 1527d9474e7b3d42d8c6db00f67cbfe927c1348c
+workflow-type: tm+mt
+source-wordcount: '316'
+ht-degree: 96%
 
 ---
 
@@ -31,6 +31,7 @@ Diese Aktivitäten dienen der Zielgruppenbestimmung, Manipulation und Anreicheru
 * Mit der Aktivität [Zielgruppe erstellen](build-audience.md) können Sie Ihre Zielgruppenpopulation definieren. Sie können entweder eine vorhandene Zielgruppe auswählen oder den Regel-Builder verwenden, um Ihre eigene Abfrage zu definieren.
 * Die Aktivität [Kombinieren](combine.md) ermöglicht die Segmentierung Ihrer eingehenden Population. Sie können eine Vereinigung, eine Schnittmenge oder einen Ausschluss verwenden.
 * Mit der Aktivität [Anreicherung](enrichment.md) können Sie zusätzliche Daten definieren, die in Ihrem Workflow verarbeitet werden sollen. Mit dieser Aktivität können Sie die eingehende Transition nutzen und entsprechend der Konfiguration der Aktivität die ausgehende Transition mit Zusatzdaten ergänzen.
+* Die [Aufspaltung](split.md) ermöglicht die Segmentierung der eingehenden Population in mehrere Teilmengen.
 
 ## Kanalaktivitäten {#channel}
 
