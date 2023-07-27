@@ -3,10 +3,10 @@ audience: end-user
 title: Erstellen eines Push-Benachrichtigungs-Versands
 description: Erfahren Sie, wie Sie einen Push-Benachrichtigungs-Versand mit Adobe Campaign Web erstellen
 badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
-workflow-type: ht
-source-wordcount: '1068'
-ht-degree: 100%
+source-git-commit: 1873e6105d9880295a3ace8f8be9ff7c02a3e683
+workflow-type: tm+mt
+source-wordcount: '1285'
+ht-degree: 82%
 
 ---
 
@@ -22,7 +22,19 @@ ht-degree: 100%
 >title="Pushen von iOS-Inhalten"
 >abstract="Definieren Sie den Push-Inhalt für iOS."
 
-## Nachricht {#push-message}
+## Inhalt der Benachrichtigung definieren {#push-message}
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_ios_msg"
+>title="Push-iOS-Nachricht"
+>abstract="Definieren Sie den Titel und den Inhalt Ihrer Push-iOS-Nachricht. Verwenden Sie das Personalisierungsdialogfeld, um Inhalte zu personalisieren und Bedingungen hinzuzufügen."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_ios_silent"
+>title="Stille Benachrichtigung für iOS"
+>abstract="Im Modus Silent Push kann eine &quot;stille&quot; Benachrichtigung an eine Mobile App gesendet werden. Dem Benutzer wird das Eintreffen der Benachrichtigung nicht mitgeteilt. Sie wird direkt an die Mobile App übertragen."
+
+
 
 >[!BEGINTABS]
 
@@ -30,18 +42,17 @@ ht-degree: 100%
 
 Bei Firebase Cloud Messaging stehen Ihnen zwei Nachrichtentypen zur Auswahl:
 
-* Die **[!UICONTROL Datenmeldung]** wird von der Client-App verarbeitet. Diese Meldungen werden direkt an die App gesendet, die auf dem Gerät eine Android-Benachrichtigung generiert und anzeigt. Datennachrichten enthalten nur die von Ihnen definierten Anwendungsvariablen.
+* Die **[!UICONTROL Datennachricht]** wird von der Client-App verarbeitet. Diese Meldungen werden direkt an die App gesendet, die auf dem Gerät eine Android-Benachrichtigung generiert und anzeigt. Datennachrichten enthalten nur die von Ihnen definierten Anwendungsvariablen.
 
-  Um den Inhalt zu definieren, Daten zu personalisieren und dynamische Inhalte hinzuzufügen, klicken Sie auf das Feld **[!UICONTROL Nachricht]** und verwenden Sie den Ausdruckseditor. Sie können diesen Editor aufrufen, um Ihre Nachrichten anzupassen.
-Im Menü **[!UICONTROL Anwendungsvariablen]** werden Ihre Anwendungsvariablen automatisch hinzugefügt. Mit diesen Variablen können Sie das Verhalten von Benachrichtigungen definieren. Sie können beispielsweise einen bestimmten Anwendungsbildschirm konfigurieren, der angezeigt wird, wenn die Benutzerin bzw. der Benutzer die Benachrichtigung aktiviert.
+  Um den Inhalt zu definieren, Daten zu personalisieren und dynamische Inhalte hinzuzufügen, klicken Sie auf das Feld **[!UICONTROL Nachricht]** und verwenden Sie den Ausdruckseditor. Sie können auf diesen Editor zugreifen, um Ihre Nachrichten anzupassen. Im **[!UICONTROL Anwendungsvariablen]** -Menü, werden Ihre Anwendungsvariablen automatisch hinzugefügt. Mit diesen Variablen können Sie das Verhalten von Benachrichtigungen definieren. Sie können beispielsweise einen bestimmten Anwendungsbildschirm konfigurieren, der angezeigt wird, wenn die Benutzerin bzw. der Benutzer die Benachrichtigung aktiviert.
 
   ![](assets/push_content_4.png)
 
-* Die **[!UICONTROL Benachrichtigungsmeldung]** wird automatisch vom FCM SDK verarbeitet. FCM übernimmt für die Client-App automatisch das Anzeigen der Nachricht auf den Geräten Ihrer Benutzerinnen und Benutzer. Benachrichtigungsinhalte enthalten einen vordefinierten Satz von Parametern und Optionen, können aber mit benutzerspezifischen Anwendungsvariablen weiter personalisiert werden.
+* Die **[!UICONTROL Benachrichtigungsmeldung]** wird automatisch vom FCM SDK verarbeitet. FCM übernimmt für die Client-Mobile-App automatisch das Anzeigen der Nachricht auf den Geräten Ihrer Benutzer. Benachrichtigungsinhalte enthalten einen vordefinierten Satz von Parametern und Optionen, können aber mit benutzerspezifischen Anwendungsvariablen weiter personalisiert werden.
 
   Um Ihre Nachricht zu verfassen, klicken Sie auf die Felder **[!UICONTROL Titel]** und **[!UICONTROL Hauptteil]**. Verwenden Sie den Ausdruckseditor, um Inhalte zu definieren, Daten zu personalisieren und dynamische Inhalte hinzuzufügen.
 
-  Um Ihre Push-Benachrichtigung weiter zu personalisieren, können Sie ein Bild auswählen, das Ihrer Push-Benachrichtigung hinzugefügt werden soll, sowie das Symbol der Benachrichtigung, das auf den Geräten Ihrer Profile angezeigt werden soll, und ihre Farbe.
+  Um Ihre Push-Benachrichtigung weiter zu personalisieren, können Sie ein Bild auswählen, das zu Ihrer Push-Benachrichtigung hinzugefügt werden soll, das auf den Geräten Ihrer Profile angezeigte Benachrichtigungssymbol und die Farbe auswählen.
 
   ![](assets/push_content_3.png)
 
@@ -51,13 +62,43 @@ Um Ihre Nachricht zu verfassen, klicken Sie auf die Felder **[!UICONTROL Titel]*
 
 Sie können einen **[!UICONTROL Untertitel]** als Wert des Parameters „subtitle“ der iOS-Benachrichtigungs-Payload hinzufügen. Weitere Informationen finden Sie in diesem Abschnitt.
 
-Im Modus „Stilles Pushen“ kann eine „stille“ Benachrichtigung an eine App gesendet werden. Der Benutzerin bzw. dem Benutzer wird das Eintreffen der Benachrichtigung nicht mitgeteilt. Sie wird direkt an die App übertragen.
+Im Modus Silent Push kann eine &quot;stille&quot; Benachrichtigung an eine Mobile App gesendet werden. Dem Benutzer wird das Eintreffen der Benachrichtigung nicht mitgeteilt. Sie wird direkt an die Mobile App übertragen.
 
 ![](assets/push_content_1.png)
 
 >[!ENDTABS]
 
-## Erweiterte Einstellungen {#push-advanced}
+## Erweiterte Einstellungen für Push-Benachrichtigungen {#push-advanced}
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_advanced_settings_critical"
+>title="Kritischer Warnmodus für iOS"
+>abstract="Aktivieren Sie diese Option, um Ihrer Benachrichtigung Ton hinzuzufügen, selbst wenn das Telefon des Benutzers auf den Fokusmodus eingestellt ist oder das Gerät stummgeschaltet ist. Dadurch wird sichergestellt, dass Benutzer auf jeden Fall über wichtige Warnhinweise informiert werden."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_advanced_settings_count"
+>title="Badnummer für iOS"
+>abstract="Verwenden Sie diese Option, um die Anzahl der neuen ungelesenen Informationen festzulegen, die direkt auf dem App-Symbol angezeigt werden sollen. Dadurch können die Benutzenden die Anzahl der ausstehenden Benachrichtigungen schnell sehen."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_advanced_settings_mutable"
+>title="Veränderlicher Inhalt für iOS"
+>abstract="Verwenden Sie diese Option, damit die Mobile App mit der Benachrichtigung verknüpfte Medieninhalte herunterladen kann."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_advanced_settings_score"
+>title="Relevanzwert für iOS"
+>abstract="Legen Sie einen Relevanzwert von 0 bis 100 fest, um die Reihenfolge der Benachrichtigungen in der Zusammenfassung der Benachrichtigungen zu priorisieren. Höhere Werte weisen auf wichtigere Benachrichtigungen hin."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_advanced_settings_app_variables"
+>title="Anwendungsvariablen für iOS"
+>abstract="Verwenden Sie Anwendungsvariablen, um das Benachrichtigungsverhalten zu definieren. Diese Variablen sind vollständig anpassbar und Teil der an das Mobilgerät gesendeten Nachrichten-Payload."
+
+
 
 >[!BEGINTABS]
 
@@ -83,7 +124,7 @@ Im Modus „Stilles Pushen“ kann eine „stille“ Benachrichtigung an eine Ap
 
 | Parameter | Beschreibung |
 |---------|---------|
-| **[!UICONTROL Kritischer Alarmmodus]** | Aktivieren Sie diese Option, um Ihrer Benachrichtigung einen Ton hinzuzufügen, selbst wenn das Handy auf den Fokusmodus festgelegt oder das iPhone stummgeschaltet ist. Dadurch wird sichergestellt, dass wichtige Warnhinweise wahrgenommen werden. |
+| **[!UICONTROL Kritischer Alarmmodus]** | Aktivieren Sie diese Option, um Ihrer Benachrichtigung Ton hinzuzufügen, selbst wenn das Telefon des Benutzers auf den Fokusmodus eingestellt ist oder das Gerät stummgeschaltet ist. Dadurch wird sichergestellt, dass wichtige Warnhinweise wahrgenommen werden. |
 | **[!UICONTROL Badge entfernen]** | Aktivieren Sie diese Option, um den auf dem Anwendungssymbol angezeigten Badge-Wert zu aktualisieren. Dadurch wird sichergestellt, dass das Badge die Anzahl der neuen ungelesenen Informationen genau wiedergibt. |
 | **[!UICONTROL Anzahl der Benachrichtigungen]** | Damit wird eine Zahl festgelegt, die direkt auf dem App-Symbol angezeigt wird und die Anzahl der neuen, ungelesenen Informationen angibt. Dies bietet eine schnelle visuelle Referenz für die Benutzenden. |
 | **[!UICONTROL Lautstärke]** | Lautstärke Ihres Tons auf einer Skala von 0 bis 100. |
