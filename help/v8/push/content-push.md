@@ -3,10 +3,10 @@ audience: end-user
 title: Erstellen eines Push-Benachrichtigungs-Versands
 description: Erfahren Sie, wie Sie einen Push-Benachrichtigungs-Versand mit Adobe Campaign Web erstellen
 badge: label="Alpha"
-source-git-commit: 1873e6105d9880295a3ace8f8be9ff7c02a3e683
+source-git-commit: 2caa3e55812c4176946dc5998efb6d5e9ba50d32
 workflow-type: tm+mt
-source-wordcount: '1285'
-ht-degree: 82%
+source-wordcount: '1309'
+ht-degree: 80%
 
 ---
 
@@ -69,6 +69,13 @@ Im Modus Silent Push kann eine &quot;stille&quot; Benachrichtigung an eine Mobil
 >[!ENDTABS]
 
 ## Erweiterte Einstellungen für Push-Benachrichtigungen {#push-advanced}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_advanced_settings"
+>title="Erweiterte Einstellungen für Push-Benachrichtigungen"
+>abstract="Definieren Sie erweiterte Einstellungen für Ihre Push-Benachrichtigung, z. B. ihre Priorität, die zugehörige Anzahl an Benachrichtigungen, Anwendungsvariablen und mehr."
+
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_critical"
