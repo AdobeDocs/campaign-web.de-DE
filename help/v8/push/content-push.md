@@ -3,10 +3,10 @@ audience: end-user
 title: Erstellen eines Push-Benachrichtigungs-Versands
 description: Erfahren Sie, wie Sie einen Push-Benachrichtigungs-Versand mit Adobe Campaign Web erstellen
 badge: label="Alpha"
-source-git-commit: 2caa3e55812c4176946dc5998efb6d5e9ba50d32
+source-git-commit: 20a518d846d046aed92648fa0cdcd89b7731bca6
 workflow-type: tm+mt
-source-wordcount: '1309'
-ht-degree: 80%
+source-wordcount: '1346'
+ht-degree: 81%
 
 ---
 
@@ -105,6 +105,11 @@ Im Modus Silent Push kann eine &quot;stille&quot; Benachrichtigung an eine Mobil
 >title="Anwendungsvariablen für iOS"
 >abstract="Verwenden Sie Anwendungsvariablen, um das Benachrichtigungsverhalten zu definieren. Diese Variablen sind vollständig anpassbar und Teil der an das Mobilgerät gesendeten Nachrichten-Payload."
 
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_advanced_settings_category"
+>title="Kategorie-ID für iOS"
+>abstract="Geben Sie den Namen der Kategorie-ID an, die mit der Benachrichtigung verknüpft ist. Dies ermöglicht die Anzeige von Aktionsschaltflächen, mit denen Sie direkt über die Benachrichtigung verschiedene Aufgaben ausführen können, ohne die Anwendung zu öffnen."
 
 
 >[!BEGINTABS]
