@@ -4,10 +4,10 @@ title: Erkunden der Benutzeroberfläche
 description: Web-Benutzeroberfläche von Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha"
-source-git-commit: d98c7d9edce5971e01ec983f0d1d3e0a55004c1b
+source-git-commit: b2f10ef260826d3655d80c7a3ddce2eb218dbab8
 workflow-type: tm+mt
-source-wordcount: '1541'
-ht-degree: 96%
+source-wordcount: '1582'
+ht-degree: 94%
 
 ---
 
@@ -174,6 +174,11 @@ So ändern Sie Ihre Sprache:
 1. Wählen Sie Ihre bevorzugte Sprache aus und klicken Sie auf **Speichern**. Sie können eine zweite Sprache auswählen, falls die von Ihnen verwendete Komponente nicht in Ihrer gewählten Sprache lokalisiert ist.
 
 
+## Weitere Informationen {#learn-more}
+
+Erfahren Sie, wie Sie in Ihrer Campaign-Umgebung verfügbare Listen durchsuchen, durchsuchen und filtern können. [auf dieser Seite](list-filters.md).
+
+
 <!--
 ######## This part stores the contextualHelp definition for WebUI BETA ###########
 ######## These blocks should be dispatched in the appropriate pages when available ###########
@@ -181,9 +186,6 @@ So ändern Sie Ihre Sprache:
 REFER TO 
 https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebUI+Contextual+Help+%3CALPHA%3E-+Official+list
 -->
-
-
-
 
 
 >[!CONTEXTUALHELP]
@@ -276,6 +278,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Fehler"
 >abstract="Fehler-KPI"
 
+<!-- Workflows-->
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_workflow"
@@ -292,6 +295,11 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Audience speichern"
 >abstract="Speichern Sie mithilfe dieser Aktivität die Workflow-Audience."
 
+
+>[!CONTEXTUALHELP]
+>id="acw_wf_read_only"
+>title="Dieser Workflow ist schreibgeschützt"
+>abstract="Sie sind nicht berechtigt, diesen Workflow zu bearbeiten. Wenden Sie sich bei Bedarf an Ihren Administrator, um Ihnen Zugriff zu gewähren."
 
 <!-- delivery template settings-->
 
