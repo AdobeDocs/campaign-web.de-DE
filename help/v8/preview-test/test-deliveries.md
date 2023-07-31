@@ -4,10 +4,10 @@ title: Durchführen von Testsendungen
 description: Erfahren Sie, wie Sie Testsendungen definieren und durchführen.
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Alpha"
-source-git-commit: 1b8657b7f91a1d83e3b65801b6593dfe3dfbac82
+source-git-commit: 31f74f1a0cb04ca08abc9f455183f7ea1cbb1cb5
 workflow-type: tm+mt
-source-wordcount: '940'
-ht-degree: 100%
+source-wordcount: '1000'
+ht-degree: 94%
 
 ---
 
@@ -26,14 +26,10 @@ Die Empfängerinnen und Empfänger eines Tests können verschiedene Elemente wie
 
 ## Auswählen der Empfängerinnen und Empfänger des Tests {#test-recipients}
 
-
-
 >[!CONTEXTUALHELP]
 >id="acw_email_preview_option_test_target"
 >title="Testpopulation"
 >abstract="Wählen Sie einen Testpopulationsmodus aus."
-
-
 
 Je nach verwendetem Kanal können Testnachrichten an drei Empfängertypen gesendet werden:
 
@@ -53,6 +49,15 @@ Um die Empfängerinnen und Empfänger für einen Testversand auszuwählen, gehen
 
 ### Testprofile {#test-profiles}
 
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_simulate_test_mode"
+>title="Zielgruppe des Testversands"
+>abstract="Sie können eine zweite Datei als &#39;Testversand-Zielgruppe&#39; hochladen, wenn Sie Ihren Versand testen möchten, bevor Sie ihn an die Hauptzielgruppe senden."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_simulate_test_upload"
+>title="Profile hochladen"
+>abstract="Sie können eine zweite Datei mit zusätzlichen Profilen hochladen, wenn Sie Ihren Versand mit einem anderen Satz als dem für die Hauptzielgruppe verwendeten testen möchten."
 
 1. Navigieren Sie zum Bildschirm „Inhalt bearbeiten“ für den E-Mail- oder SMS-Versand und klicken Sie dann auf die Schaltfläche **[!UICONTROL Inhalt simulieren]**.
 
