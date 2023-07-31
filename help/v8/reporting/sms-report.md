@@ -4,8 +4,8 @@ title: SMS-Versandberichte
 description: Erfahren Sie, wie Sie auf SMS-Vesandberichte zugreifen und diese verwenden können
 badge: label="Alpha"
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
-workflow-type: ht
-source-wordcount: '301'
+workflow-type: tm+mt
+source-wordcount: '300'
 ht-degree: 100%
 
 ---

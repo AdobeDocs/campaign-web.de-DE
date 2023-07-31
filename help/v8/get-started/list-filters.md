@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie Listen in Campaign Web v8 durchsuchen und fil
 badge: label="Alpha"
 source-git-commit: 065108e7ac4d682dc3f3de63303be8353b145757
 workflow-type: tm+mt
-source-wordcount: '416'
+source-wordcount: '415'
 ht-degree: 100%
 
 ---

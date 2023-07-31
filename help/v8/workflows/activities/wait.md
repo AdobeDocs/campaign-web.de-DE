@@ -4,8 +4,8 @@ title: Verwenden der Workflow-Aktivität „Warten“
 description: Erfahren Sie, wie Sie die Workflow-Aktivität „Warten“ verwenden.
 badge: label="Alpha"
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
-workflow-type: ht
-source-wordcount: '147'
+workflow-type: tm+mt
+source-wordcount: '146'
 ht-degree: 100%
 
 ---

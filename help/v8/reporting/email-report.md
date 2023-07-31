@@ -4,8 +4,8 @@ title: E-Mail-Versandberichte
 description: Erfahren Sie, wie Sie auf E-Mail-Versandberichte zugreifen und diese verwenden können
 badge: label="Alpha"
 source-git-commit: a653fe4329f449a94f8056e4b5f2247bd839b87a
-workflow-type: ht
-source-wordcount: '1407'
+workflow-type: tm+mt
+source-wordcount: '1406'
 ht-degree: 100%
 
 ---

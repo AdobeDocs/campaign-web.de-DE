@@ -5,8 +5,8 @@ description: Erfahren Sie mehr über die Einstellungen für den E-Mail-Versand i
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="Alpha"
 source-git-commit: a653fe4329f449a94f8056e4b5f2247bd839b87a
-workflow-type: ht
-source-wordcount: '1475'
+workflow-type: tm+mt
+source-wordcount: '1474'
 ht-degree: 100%
 
 ---
@@ -56,11 +56,11 @@ Im Feld **Gewichtungstyp** stehen drei Optionen zur Verfügung:
 Verwenden Sie das Feld **Versandgewichtung**, um die Versandpriorität zu definieren. Jeder Versand verfügt über eine Gewichtung, die die jeweilige Priorität darstellt. Standardmäßig ist die Versandgewichtung auf den Wert 5 festgelegt. Mit Druckregeln können Sie die Gewichtung der Sendungen festlegen, auf die sie angewendet werden. Die Gewichtung kann konstant sein oder mithilfe einer Formel empfängerabhängig berechnet werden. Beispielsweise kann die Gewichtung eines Versands den Interessen eines Empfängers bzw. einer Empfängerin entsprechend bestimmt werden.
 
 
-Verwenden Sie das Feld **Versandmodus**, um den Zielgruppenevaluierungsmodus auszuwählen. Drei Modi sind verfügbar:
+Verwenden Sie das Feld **Versandmodus**, um den Zielgruppenauswertungsmodus auszuwählen. Drei Modi sind verfügbar:
 
 * **Zielgruppenschätzung und Nachrichtenpersonalisierung**
 * **Schätzung und Validierung der geplanten Zielgruppe**
-* **Zielgruppenevaluierung**
+* **Zielgruppenauswertung**
 
 Die Ermüdungsverwaltung wird mit dem Add-on **Kampagnenoptimierung** bereitgestellt. Weitere Informationen über Druckregeln und die Konfiguration der Ermüdungsverwaltung finden Sie in der [Dokumentation zu Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=de){target="_blank"}.
 

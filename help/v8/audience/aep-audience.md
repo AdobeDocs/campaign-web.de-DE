@@ -5,8 +5,8 @@ description: Erfahren Sie, wie Sie eine Audience aus Adobe Experience Platform v
 badge: label="Alpha"
 exl-id: beb73107-3d27-40ac-afef-ac2b66ae8d34
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
-workflow-type: ht
-source-wordcount: '289'
+workflow-type: tm+mt
+source-wordcount: '288'
 ht-degree: 100%
 
 ---

@@ -39,7 +39,7 @@ Führen Sie die folgenden Schritte aus, um die **Aufspaltung** Aktivität:
 
    1. Um eine Filterbedingung auf die Teilmenge anzuwenden, klicken Sie auf **[!UICONTROL Filter erstellen]** und konfigurieren Sie die gewünschte Filterregel. Schließen Sie beispielsweise Profile aus der eingehenden Population ein, deren E-Mail-Adresse in der Datenbank vorhanden ist.
 
-   1. Um die Anzahl der von der Teilmenge ausgewählten Profile zu begrenzen, aktivieren Sie die Option **[!UICONTROL Begrenzung aktivieren]** und geben Sie die Anzahl oder den Prozentsatz der einzuschließenden Population an.
+   1. Um die Anzahl der von der Teilmenge ausgewählten Profile zu begrenzen, aktivieren Sie die **[!UICONTROL Begrenzung aktivieren]** und geben Sie die Anzahl oder den Prozentsatz der einzuschließenden Population an.
 
       >[!NOTE]
       >
@@ -58,7 +58,7 @@ Die Aktivität ist jetzt konfiguriert. Bei der Ausführung des Workflows wird di
 Im folgenden Beispiel wird die **[!UICONTROL Aufspaltung]** -Aktivität wird verwendet, um eine Zielgruppe basierend auf dem Kommunikationskanal, den wir verwenden möchten, in verschiedene Teilmengen zu unterteilen:
 
 * **Untergruppe 1 &quot;Push&quot;**: Diese Teilmenge umfasst alle Profile, die unsere Mobile App installiert haben.
-* **Untergruppe 2 &quot;sms&quot;**: Mobiltelefonbenutzer: Für die verbleibende Population, die nicht in Teilmenge 1 fällt, wendet Untergruppe 2 eine Filterregel an, um Profile mit Mobiltelefonen in der Datenbank auszuwählen.
+* **Untergruppe 2 &quot;sms&quot;**: Mobiltelefon-Benutzer: Für die verbleibende Population, die nicht in Untergruppe 1 fiel, wendet Untergruppe 2 eine Filterregel an, um Profile mit Mobiltelefonen in der Datenbank auszuwählen.
 * **Komplement-Transition**: Diese Transition erfasst alle verbleibenden Profile, die nicht mit Untergruppe 1 oder Untergruppe 2 übereinstimmten. Insbesondere enthält es Profile, die weder die Mobile App installiert noch über ein Mobiltelefon verfügen, z. B. Benutzer, die die Mobile App nicht installiert haben oder keine registrierte Mobiltelefonnummer haben.
 
 ![](../assets/workflow-split-example.png)

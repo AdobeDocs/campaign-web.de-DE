@@ -5,8 +5,8 @@ description: Erfahren Sie, wie Sie E-Mail-Inhalte erstellen
 exl-id: 8513b069-7155-45ac-8c98-38576c9ddeda
 badge: label="Alpha"
 source-git-commit: f59194334d5262e4270e2caef276b71b27d1b81f
-workflow-type: ht
-source-wordcount: '209'
+workflow-type: tm+mt
+source-wordcount: '208'
 ht-degree: 100%
 
 ---

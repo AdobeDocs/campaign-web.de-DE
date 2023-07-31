@@ -5,8 +5,8 @@ description: Erfahren Sie, wie Sie mit Empfängerinnen und Empfängern aus einer
 badge: label="Alpha"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
-workflow-type: ht
-source-wordcount: '326'
+workflow-type: tm+mt
+source-wordcount: '325'
 ht-degree: 100%
 
 ---

@@ -5,8 +5,8 @@ description: Erfahren Sie, wie Sie Workflows mit Adobe Campaign Web erstellen
 badge: label="Alpha"
 exl-id: 8aa76369-c9f3-4c5b-9a51-101b239727e6
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
-workflow-type: ht
-source-wordcount: '520'
+workflow-type: tm+mt
+source-wordcount: '519'
 ht-degree: 100%
 
 ---
@@ -27,7 +27,7 @@ Anhand eines visuellen Flusses können Sie den Fortschritt von Zielgruppenprofil
 
 >[!NOTE]
 >
->Sie können den visuellen Fluss mithilfe der Schaltfläche **[!UICONTROL Progression ausblenden]** in der oberen Symbolleiste der Arbeitsfläche deaktivieren.
+>Sie können den visuellen Fluss mithilfe der Schaltfläche **[!UICONTROL Progression ausblenden]** in der oberen Aktionsleiste der Arbeitsfläche deaktivieren.
 
 ## Überwachen der Aktivitätsausführung {#activities}
 
@@ -57,7 +57,7 @@ In beiden Registerkarten können Sie die angezeigten Spalten und ihre Reihenfolg
 
 ## Workflow-Ausführungsbefehle {#execution-commands}
 
-Die Symbolleiste oben rechts enthält Befehle, mit denen Sie die Ausführung des Workflows verwalten können. Sie haben folgende Möglichkeiten:
+Die Aktionsleiste oben rechts enthält Befehle, mit denen Sie die Ausführung des Workflows verwalten können. Sie haben folgende Möglichkeiten:
 
 * **[!UICONTROL Starten]**/**[!UICONTROL Fortsetzen]** der Ausführung des Workflows, der daraufhin den Status „In Bearbeitung“ annimmt. Wenn der Workflow zuvor ausgesetzt war, handelt es sich um eine Wiederaufnahme, ansonsten werden die Anfangsaktivitäten aktiviert.
 

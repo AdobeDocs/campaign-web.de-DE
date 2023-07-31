@@ -5,8 +5,8 @@ description: Erfahren Sie, wie Sie die Textversion einer E-Mail erstellen
 exl-id: 8d0ce346-64a6-4adf-9f2d-36a900db797f
 badge: label="Alpha"
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
-workflow-type: ht
-source-wordcount: '168'
+workflow-type: tm+mt
+source-wordcount: '167'
 ht-degree: 100%
 
 ---
