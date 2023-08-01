@@ -4,10 +4,10 @@ title: Erkunden der Benutzeroberfläche
 description: Web-Benutzeroberfläche von Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha"
-source-git-commit: b2f10ef260826d3655d80c7a3ddce2eb218dbab8
+source-git-commit: 1d811a854b95caa556152a9c9923f53483a3bde9
 workflow-type: tm+mt
-source-wordcount: '1582'
-ht-degree: 94%
+source-wordcount: '1628'
+ht-degree: 91%
 
 ---
 
@@ -277,6 +277,16 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_keyindicators_errors"
 >title="Fehler"
 >abstract="Fehler-KPI"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_read_only"
+>title="Diese Kampagne ist schreibgeschützt"
+>abstract="Sie sind nicht berechtigt, diese Kampagne zu bearbeiten. Wenden Sie sich bei Bedarf an Ihren Administrator, um Ihnen Zugriff zu gewähren."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_read_only"
+>title="Dieser Versand ist schreibgeschützt"
+>abstract="Sie sind nicht berechtigt, diesen Versand zu bearbeiten. Wenden Sie sich bei Bedarf an Ihren Administrator, um Ihnen Zugriff zu gewähren."
 
 <!-- Workflows-->
 
