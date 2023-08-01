@@ -4,10 +4,10 @@ title: Erkunden der Benutzeroberfläche
 description: Web-Benutzeroberfläche von Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha"
-source-git-commit: 1d811a854b95caa556152a9c9923f53483a3bde9
+source-git-commit: 1fee200c84e121978c5a6787107a30a89c027b57
 workflow-type: tm+mt
-source-wordcount: '1628'
-ht-degree: 91%
+source-wordcount: '1667'
+ht-degree: 89%
 
 ---
 
@@ -288,6 +288,11 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Dieser Versand ist schreibgeschützt"
 >abstract="Sie sind nicht berechtigt, diesen Versand zu bearbeiten. Wenden Sie sich bei Bedarf an Ihren Administrator, um Ihnen Zugriff zu gewähren."
 
+>[!CONTEXTUALHELP]
+>id="acw_subscription_services_read_only"
+>title="Dieser Dienst ist schreibgeschützt"
+>abstract="Sie sind nicht berechtigt, diesen Dienst zu bearbeiten. Wenden Sie sich bei Bedarf an Ihren Administrator, um Ihnen Zugriff zu gewähren."
+
 <!-- Workflows-->
 
 >[!CONTEXTUALHELP]
@@ -310,6 +315,11 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_wf_read_only"
 >title="Dieser Workflow ist schreibgeschützt"
 >abstract="Sie sind nicht berechtigt, diesen Workflow zu bearbeiten. Wenden Sie sich bei Bedarf an Ihren Administrator, um Ihnen Zugriff zu gewähren."
+
+>[!CONTEXTUALHELP]
+>id="acw_wf_read_only_canvas"
+>title="Dieser Workflow ist schreibgeschützt"
+>abstract="Sie können diesen Workflow aufgrund nicht unterstützter oder inkompatibler Arbeitsfläche nicht bearbeiten."
 
 <!-- delivery template settings-->
 
