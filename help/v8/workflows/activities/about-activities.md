@@ -7,7 +7,7 @@ exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
 source-git-commit: 1527d9474e7b3d42d8c6db00f67cbfe927c1348c
 workflow-type: tm+mt
 source-wordcount: '316'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Alle Aktivitäten werden in den folgenden Abschnitten beschrieben:
 
 * [Zielgruppenbestimmungs-Aktivitäten](#targeting)
 * [Kanalaktivitäten](#channel)
-* [Flusskontroll-Aktivitäten](#flow-control)
+* [Aktivitäten zur Flusskontrolle](#flow-control)
 
 ![](../assets/workflow-activities.png)
 
@@ -31,7 +31,7 @@ Diese Aktivitäten dienen der Zielgruppenbestimmung, Manipulation und Anreicheru
 * Mit der Aktivität [Zielgruppe erstellen](build-audience.md) können Sie Ihre Zielgruppenpopulation definieren. Sie können entweder eine vorhandene Zielgruppe auswählen oder den Regel-Builder verwenden, um Ihre eigene Abfrage zu definieren.
 * Die Aktivität [Kombinieren](combine.md) ermöglicht die Segmentierung Ihrer eingehenden Population. Sie können eine Vereinigung, eine Schnittmenge oder einen Ausschluss verwenden.
 * Mit der Aktivität [Anreicherung](enrichment.md) können Sie zusätzliche Daten definieren, die in Ihrem Workflow verarbeitet werden sollen. Mit dieser Aktivität können Sie die eingehende Transition nutzen und entsprechend der Konfiguration der Aktivität die ausgehende Transition mit Zusatzdaten ergänzen.
-* Die [Aufspaltung](split.md) ermöglicht die Segmentierung der eingehenden Population in mehrere Teilmengen.
+* Die Aktivität [Aufspaltung](split.md) ermöglicht das Segmentieren der eingehenden Population in mehrere Teilmengen.
 
 ## Kanalaktivitäten {#channel}
 
@@ -45,7 +45,7 @@ Die folgenden **Kanalaktivitäten** sind verfügbar:
 
 Näheres dazu finden Sie in [diesem Abschnitt](enrichment.md).
 
-## Flussskontroll-Aktivitäten {#flow-control}
+## Aktivitäten zur Flusskontrolle {#flow-control}
 
 Die folgenden Aktivitäten dienen der Anordnung und Ausführung von Workflows. Ihre Hauptaufgabe ist es, die anderen Aktivitäten zu koordinieren:
 

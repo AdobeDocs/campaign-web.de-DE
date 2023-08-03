@@ -6,7 +6,7 @@ badge: label="Alpha"
 source-git-commit: 1527d9474e7b3d42d8c6db00f67cbfe927c1348c
 workflow-type: tm+mt
 source-wordcount: '111'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Führen Sie die folgenden Schritte aus, um die Aktivität **Verzweigung** zu kon
 
 ## Beispiel
 
-Im folgenden Beispiel verwenden wir zwei **Verzweigung** Aktivitäten:
+Im folgenden Beispiel verwenden wir zwei Aktivitäten vom Typ **Verzweigung**:
 
 * Eine vor den beiden Abfragen, damit sie gleichzeitig ausgeführt werden.
 * Eine nach dem Schnittpunkt, um eine E-Mail und eine SMS gleichzeitig an die Zielpopulation zu senden.

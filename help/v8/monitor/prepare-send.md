@@ -132,12 +132,12 @@ Unabhängig davon, ob es sich um einen geplanten oder ungeplanten Versand handel
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_sent"
 >title="Gesendet-Metriken"
->abstract="Gesamtzahl der bei der Analyse verarbeiteten Nachrichten."
+>abstract="Gesamtzahl der während der Versandanalyse verarbeiteten Nachrichten."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_errors"
 >title="Fehlermetriken"
->abstract="Gesamtzahl der über alle Sendungen hinweg kumulierten Fehler und der automatischen Bounce-Verarbeitung in Bezug auf die Gesamtzahl der gesendeten Nachrichten."
+>abstract="Gesamtzahl der beim Versand und bei der automatischen Rücksendung kumulierten Fehler im Verhältnis zur Gesamtzahl der gesendeten Nachrichten."
 
 Nach abgeschlossenem Sendevorgang können Sie die angezeigten KPIs überprüfen:
 

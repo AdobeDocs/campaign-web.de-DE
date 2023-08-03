@@ -7,7 +7,7 @@ badge: label="Alpha"
 source-git-commit: f7ffa5daaff1ad57bba365bc09ed24fa08a277f0
 workflow-type: tm+mt
 source-wordcount: '358'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
@@ -16,13 +16,13 @@ ht-degree: 72%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_preparation_logs"
 >title="Versandlogs"
->abstract="Die Versandlogs zeigen die Details des Versands an. In ihnen werden Details zum Versand dargestellt und Sie erfahren, welche Zielgruppe warum ausgeschlossen wurde, und erhalten Tracking-Informationen wie z. B. Öffnungen und Klicks."
+>abstract="Die Versandlogs zeigen die Details des Versands an. Sie zeigen die Details des Versands, welche Zielgruppe ausgeschlossen wurde und warum, sowie die Tracking-Informationen wie Öffnungen und Klicks."
 
-Nachdem der Versand vorbereitet wurde und Sie auf die **Senden** in den Versandlogs, um die Warnungen, Fehler, Status, Ausschlüsse und Tracking-Daten zu überprüfen. Diese Logs können direkt über das Nachrichten-Dashboard aufgerufen werden. In ihnen werden Details zum Versand dargestellt und Sie erfahren, welche Zielgruppe warum ausgeschlossen wurde, und erhalten Tracking-Informationen wie z. B. Öffnungen und Klicks.
+Nachdem der Versand vorbereitet wurde und Sie auf die Schaltfläche **Senden** geklickt haben, können Sie in den Versandlogs die Warnungen, Fehler, Status, Ausschlüsse und Tracking-Daten überprüfen. Diese Logs können direkt über das Nachrichten-Dashboard aufgerufen werden. Sie zeigen die Details des Versands, welche Zielgruppe ausgeschlossen wurde und warum, sowie die Tracking-Informationen wie Öffnungen und Klicks.
 
 Um die Logs anzuzeigen, rufen Sie Ihr Versand-Dashboard auf und klicken Sie auf die Schaltfläche **Protokolle**.
 
-Die folgenden Registerkarten sind verfügbar:
+Folgende Registerkarten stehen zur Verfügung:
 
 * [Logs](#logs-tab)
 * [Sendungen](#deliveries-tab)
@@ -46,7 +46,7 @@ Alle Validierungsschritte, Warnungen und Fehler werden aufgelistet. Farbige Symb
 
 ## Sendungen {#deliveries-tab}
 
-Der Tab **Versandlogs** zeigt die Liste der einzelnen Nachrichten eines Versands. sowie deren Status an. Für jeden einzelnen Empfänger können Sie anhand des Status das Ergebnis des Versands verfolgen.
+Der Tab **Versandlogs** zeigt die Liste der einzelnen Nachrichten eines Versands. Hier wird die Liste der gesendeten Nachrichten und deren Status gespeichert. Für jeden einzelnen Empfänger können Sie anhand des Status das Ergebnis des Versands verfolgen.
 
 ![](assets/logs2.png)
 
@@ -58,13 +58,13 @@ Die Registerkarte **Ausschlusslogs** zeigt die Liste aller aus der Zielgruppe au
 
 ## Ausschlussgründe {#exclusion-causes-tab}
 
-Die **Ausschlussgründe** zeigt für jede mögliche Ursache die Anzahl der Nachrichten an, die von der Zielgruppe ausgeschlossen wurden.
+Die Registerkarte **Ausschlussgründe** zeigt für jede mögliche Ursache die Anzahl der Nachrichten an, die von der Zielgruppe ausgeschlossen wurden.
 
 ![](assets/logs4.png)
 
 ## Getrackte URLs {#tracked-urls-tab}
 
-Die **Getrackte URLs** enthält die URLs, die in den gesendeten Nachrichten enthalten sind, einschließlich des URL-Typs und der Quell-URL.
+Die Registerkarte **Getrackte URLs** gibt Auskunft über die in den gesendeten Nachrichten enthaltenen URLs, ihren Typ sowie ihre Quell-URLs.
 
 ![](assets/logs5.png)
 

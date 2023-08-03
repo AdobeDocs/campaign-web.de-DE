@@ -6,7 +6,7 @@ badge: label="Alpha"
 source-git-commit: c9954ce69e50e1c8db2532be3292f71ff20f9f74
 workflow-type: tm+mt
 source-wordcount: '430'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -15,8 +15,8 @@ ht-degree: 98%
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_schedule"
->title="Kampagnenplanung"
->abstract="Legen Sie den Kampagnenkalender fest oder ändern Sie ihn."
+>title="Kampagnenzeitplan"
+>abstract="Legen Sie Ihren Kampagnenzeitplan fest oder ändern Sie ihn."
 
 Um eine neue Kampagne zu erstellen oder bestehende Kampagnen zu verwalten, klicken Sie im linken Navigationsbereich auf das Menü **[!UICONTROL Kampagnen]**.
 

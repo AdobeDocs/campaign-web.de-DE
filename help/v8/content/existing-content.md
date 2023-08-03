@@ -7,7 +7,7 @@ badge: label="Alpha"
 source-git-commit: 01f6becfdfbdbb071f4ddc275d9b0907e42143ce
 workflow-type: tm+mt
 source-wordcount: '171'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 81%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_import_content"
->title="Vorhandenen E-Mail-Inhalt verwenden"
+>title="Verwenden eines vorhandenen E-Mail-Inhalts"
 >abstract="Der E-Mail-Designer ermöglicht den Import vorhandener HTML-Inhalte. Dieser Inhalt kann eine HTML-Datei mit einem integrierten Stylesheet oder ein ZIP-Ordner mit der HTML-Datei, dem Stylesheet (.css) und Bildern sein."
 
 Der E-Mail-Designer ermöglicht den Import vorhandener HTML-Inhalte. Dieser Inhalt kann Folgendes sein:

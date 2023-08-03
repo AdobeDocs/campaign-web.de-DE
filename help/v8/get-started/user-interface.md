@@ -7,7 +7,7 @@ badge: label="Alpha"
 source-git-commit: 1fee200c84e121978c5a6787107a30a89c027b57
 workflow-type: tm+mt
 source-wordcount: '1667'
-ht-degree: 89%
+ht-degree: 92%
 
 ---
 
@@ -106,9 +106,9 @@ Im Bereich KUNDENVERWALTUNG können Sie Ihre Empfängerinnen und Empfänger, Zie
 >[!CONTEXTUALHELP]
 >id="acw_offers_list"
 >title="Angebote"
->abstract="Durchsuchen Sie Ihre Liste von Interaktionsangeboten. Standardmäßig können Sie den Status, das Start-/Enddatum und die Umgebung sehen. Sie können die Liste nach Status und Start-/Enddatum filtern. Angebotsvorlagen sind ebenfalls verfügbar. Diese Listen sind schreibgeschützt."
+>abstract="Durchsuchen Sie Ihre Liste von Interaktionsangeboten. Standardmäßig können Sie den Status, das Start-/Enddatum und die Umgebung sehen. Sie können die Liste nach Status oder Start-/Enddatum filtern. Angebotsvorlagen sind ebenfalls verfügbar. Diese Listen sind schreibgeschützt."
 
-* **Angebote**: Durchsuchen Sie Ihre Liste von Interaktionsangeboten. Standardmäßig können Sie den Status, das Start-/Enddatum und die Umgebung sehen. Sie können die Liste nach Status und Start-/Enddatum filtern. Angebotsvorlagen sind ebenfalls verfügbar. Diese Listen sind schreibgeschützt.
+* **Angebote**: Durchsuchen Sie Ihre Liste von Interaktionsangeboten. Standardmäßig können Sie den Status, das Start-/Enddatum und die Umgebung sehen. Sie können die Liste nach Status oder Start-/Enddatum filtern. Angebotsvorlagen sind ebenfalls verfügbar. Diese Listen sind schreibgeschützt.
 
 Erfahren Sie in der [Dokumentation zu Adobe Campaign v8 (Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=de){target="_blank"}, wie Sie Angebote verwalten und erstellen können.
 
@@ -302,13 +302,13 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_saveaudience_outbound"
->title="Ausgehende Transition zur Audience-Speicherung"
+>title="Ausgehende Transition zur Speicherung der Zielgruppe"
 >abstract="tbc"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_saveaudience_activity"
->title="Audience speichern"
->abstract="Speichern Sie mithilfe dieser Aktivität die Workflow-Audience."
+>title="Speichern einer Zielgruppe"
+>abstract="Verwenden Sie diese Aktivität, um die Workflow-Zielgruppe zu speichern."
 
 
 >[!CONTEXTUALHELP]
