@@ -64,7 +64,7 @@ Verwenden Sie den Umschalter **Erweiterte Attribute anzeigen**, um alle Attribut
 >[!CONTEXTUALHELP]
 >id="acw_attributepicker_advancedfields"
 >title="Anzeigen von erweiterten Attributen"
->abstract="In der Attributliste werden standardmäßig nur die häufigsten Attribute angezeigt. Verwenden Sie diesen Umschalter, um einen Filter mit erweiterten Attributen zu erstellen."
+>abstract="In der Attributliste werden standardmäßig nur die häufigsten Attribute angezeigt. Diesen Umschalter verwenden, um einen Filter mit erweiterten Attributen zu erstellen."
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_advancedfields"
