@@ -19,7 +19,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card3"
 >title="Erstellen bedingter Inhalte"
->abstract="Erstellen Sie bedingte Inhalte als Grundlage für dynamische Personalisierung anhand des Empfängerprofils und zur automatischen Ersetzung von Textblöcken und Bildern, wenn bestimmte Bedingungen erfüllt sind. Mit dieser Funktion bringen Sie Ihre Kampagnen auf eine neue Ebene und können zielgerichtete, personalisierte Erlebnisse für Ihre Zielgruppe bereitstellen."
+>abstract="Erstellen Sie bedingte Inhalte als Grundlage für dynamische Personalisierung anhand des Empfängerprofils und zur automatischen Ersetzung von Textblöcken und Bildern, wenn bestimmte Bedingungen erfüllt sind. Mit dieser Funktion bringen Sie Ihre Kampagnen auf eine neue Ebene und können Ihrer Zielgruppe zielgerichtete, personalisierte Erlebnisse bieten."
 
 
 
@@ -28,7 +28,7 @@ ht-degree: 100%
 >title="Hinzufügen bedingter Inhalte"
 >abstract="Konfigurieren Sie bedingte Inhaltsfelder, um eine erweiterte dynamische Personalisierung basierend auf den Daten des Empfängerprofils zu erstellen. Textblöcke, Links, Betreffzeile und/oder Bilder werden im Nachrichteninhalt ersetzt, wenn eine bestimmte Bedingung erfüllt ist."
 
-Bedingter Inhalt ist eine leistungsstarke Funktion, mit der Sie eine dynamische Personalisierung erstellen können, die auf dem Empfängerprofil basiert. Dabei werden Textblöcke und Bilder automatisch ersetzt, wenn bestimmte Bedingungen erfüllt sind. Mit dieser Funktion bringen Sie Ihre Kampagnen auf eine neue Ebene und können zielgerichtete, personalisierte Erlebnisse für Ihre Zielgruppe bereitstellen.
+Bedingter Inhalt ist eine leistungsstarke Funktion, mit der Sie eine dynamische Personalisierung erstellen können, die auf dem Empfängerprofil basiert. Dabei werden Textblöcke und Bilder automatisch ersetzt, wenn bestimmte Bedingungen erfüllt sind. Mit dieser Funktion bringen Sie Ihre Kampagnen auf eine neue Ebene und können Ihrer Zielgruppe zielgerichtete, personalisierte Erlebnisse bieten.
 
 Durch die Konfiguration bedingter Inhalte können Sie beispielsweise eine erweiterte dynamische Personalisierung erstellen, die auf dem Empfängerprofil basiert. Textblöcke, Links, Betreffzeile und/oder Bilder werden im Nachrichteninhalt ersetzt, wenn eine bestimmte Bedingung erfüllt ist. Beispielsweise kann „Herr“ oder „Frau“ entsprechend dem Wert für das Feld „Geschlecht“ in der Adobe Campaign-Datenbank eingesetzt oder je nach bevorzugter Empfängersprache ein anderer Link eingefügt werden.
 
