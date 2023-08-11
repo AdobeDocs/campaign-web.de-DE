@@ -5,9 +5,9 @@ description: Erfahren Sie, wie Sie Testsendungen definieren und durchführen.
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Alpha"
 source-git-commit: f7921a1baf5564fc59ecaa1e16370ec2670576ce
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1030'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -51,8 +51,8 @@ Um die Empfängerinnen und Empfänger für einen Testversand auszuwählen, gehen
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_test_mode"
->title="Zielgruppe des Testversands"
->abstract="Sie können eine zweite Datei als &#39;Testversand-Zielgruppe&#39; hochladen, wenn Sie Ihren Versand testen möchten, bevor Sie ihn an die Hauptzielgruppe senden."
+>title="Testversand-Zielgruppe"
+>abstract="Sie können eine zweite Datei als „Testversand-Zielgruppe“ hochladen, wenn Sie Ihren Versand testen möchten, bevor Sie ihn an die Hauptzielgruppe senden."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_test_upload"
@@ -62,7 +62,7 @@ Um die Empfängerinnen und Empfänger für einen Testversand auszuwählen, gehen
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_test_sample"
 >title="Vorlagendatei"
->abstract="Die Formatierung der Datei muss mit der der Originaldatei übereinstimmen.<br/>Unterstützte Dateiformate: txt, csv. Maximale Dateigröße: 15 MB. Verwenden Sie die erste Zeile für Spaltentitel."
+>abstract="Hinweis: Die Formatierung der Datei muss mit der Originaldatei übereinstimmen.<br/>Unterstützte Dateiformate: txt, csv. Maximale Dateigröße: 15 MB. Verwenden Sie die erste Zeile für Spaltentitel."
 
 1. Navigieren Sie zum Bildschirm „Inhalt bearbeiten“ für den E-Mail- oder SMS-Versand und klicken Sie dann auf die Schaltfläche **[!UICONTROL Inhalt simulieren]**.
 
@@ -112,7 +112,7 @@ Verwenden Sie Ersatzprofile, um eine Test-E-Mail oder Test-SMS an eine bestimmte
 
    >[!NOTE]
    >
-   >Sie können eine beliebige E-Mail-Adresse oder Telefonnummer eingeben. So können Sie Tests an beliebige Empfängerinnen und Empfänger senden, auch wenn es sich bei diesen um keine [!DNL Adobe Campaign]-Benutzerinnen und -Benutzer handelt.
+   >Sie können eine beliebige E-Mail-Adresse oder Telefonnummer eingeben. Damit können Sie Testsendungen an beliebige Empfängerinnen und Empfänger senden, auch wenn diese keine Benutzerinnen und Benutzer von [!DNL Adobe Campaign] sind.
 
 1. Wählen Sie das Profil aus der Zielgruppe aus, die Sie für den Versand als Ersatz definiert haben. Sie können auch [!DNL Adobe Campaign] ein zufälliges Profil aus der Zielgruppe auswählen lassen. Die Profildaten aus dem ausgewählten Profil werden beim Testversand angezeigt.
 
@@ -126,7 +126,7 @@ Verwenden Sie Ersatzprofile, um eine Test-E-Mail oder Test-SMS an eine bestimmte
 
 ### Abonnentinnen und Abonnenten {#subscribers}
 
-Beim Arbeiten mit Push-Benachrichtigungen ist ein Testversand nur an Abonnentinnen oder Abonnenten möglich. Gehen Sie wie folgt vor, um diese auszuwählen.
+Bei der Arbeit mit Push-Benachrichtigungen können Testsendungen nur an Abonnentinnen oder Abonnenten gesendet werden. Gehen Sie wie folgt vor, um diese auszuwählen.
 
 1. Navigieren Sie zum Bildschirm „Inhalt bearbeiten“ für den Versand und klicken Sie dann auf die Schaltfläche **[!UICONTROL Inhalt simulieren]**.
 
@@ -170,6 +170,6 @@ Diese Protokolle ermöglichen den Zugriff auf alle gesendeten Tests für den aus
 
 ![](assets/simulate-test-log.png)
 
-Wie bei jedem Versand können Sie auch über die [Versandliste](../msg/gs-messages.md) auf gesendete Tests zugreifen.
+Wie bei jedem Versand können Sie auch über die [Sendungsliste](../msg/gs-messages.md) auf gesendete Tests zugreifen.
 
 ![](assets/simulate-deliveries-list.png)
