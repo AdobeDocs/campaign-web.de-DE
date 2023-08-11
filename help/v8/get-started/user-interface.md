@@ -5,9 +5,9 @@ description: Web-Benutzeroberfläche von Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha"
 source-git-commit: 1fee200c84e121978c5a6787107a30a89c027b57
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1667'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Die neue Web-Oberfläche von Campaign v8 bietet ein modernes und intuitives Benu
 
 ## Linkes Navigationsmenü {#user-interface-left-nav}
 
-Mithilfe der Links auf der linken Seite können Sie auf die Campaign v8 Web-Funktionen zugreifen. Mehrere Links zeigen Listen von Objekten an, die sortiert und gefiltert werden können. Sie können auch Spalten so konfigurieren, dass alle benötigten Informationen angezeigt werden. Weitere Informationen finden Sie in [diesem Abschnitt](#list-screens). Alle Listenbildschirme mit Ausnahme der E-Mail-Versandliste sind schreibgeschützt. Das Klicken auf ein Listenelement zur Bearbeitung/Anzeige ist in Alpha nicht verfügbar. In künftigen Versionen werden alle Listen bearbeitbar sein. Welche Elemente im linken Navigationsmenü angezeigt werden, hängt von Ihren Benutzerberechtigungen ab.
+Mithilfe der Links auf der linken Seite können Sie auf die Campaign v8 Web-Funktionen zugreifen. Mehrere Links zeigen Listen von Objekten an, die sortiert und gefiltert werden können. Sie können auch Spalten so konfigurieren, dass alle benötigten Informationen angezeigt werden. Weitere Informationen finden Sie in [diesem Abschnitt](#list-screens). Alle Listenbildschirme mit Ausnahme der E-Mail-Sendungsliste sind schreibgeschützt. Das Klicken auf ein Listenelement zur Bearbeitung/Anzeige ist in Alpha nicht verfügbar. In künftigen Versionen werden alle Listen bearbeitbar sein. Welche Elemente im linken Navigationsmenü angezeigt werden, hängt von Ihren Benutzerberechtigungen ab.
 
 ![](assets/home.png)
 
@@ -176,7 +176,7 @@ So ändern Sie Ihre Sprache:
 
 ## Weitere Informationen {#learn-more}
 
-Erfahren Sie, wie Sie in Ihrer Campaign-Umgebung verfügbare Listen durchsuchen, durchsuchen und filtern können. [auf dieser Seite](list-filters.md).
+Erfahren Sie [auf dieser Seite](list-filters.md), wie Sie in Ihrer Campaign-Umgebung verfügbare Listen lesen, durchsuchen und filtern können.
 
 
 <!--
@@ -281,17 +281,17 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_campaign_read_only"
 >title="Diese Kampagne ist schreibgeschützt"
->abstract="Sie sind nicht berechtigt, diese Kampagne zu bearbeiten. Wenden Sie sich bei Bedarf an Ihren Administrator, um Ihnen Zugriff zu gewähren."
+>abstract="Keine Berechtigung, diese Kampagne zu bearbeiten. Bei Bedarf Admin kontaktieren, um Zugriff zu erhalten."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_read_only"
 >title="Dieser Versand ist schreibgeschützt"
->abstract="Sie sind nicht berechtigt, diesen Versand zu bearbeiten. Wenden Sie sich bei Bedarf an Ihren Administrator, um Ihnen Zugriff zu gewähren."
+>abstract="Keine Berechtigung, diesen Versand zu bearbeiten. Bei Bedarf Admin kontaktieren, um Zugriff zu erhalten."
 
 >[!CONTEXTUALHELP]
 >id="acw_subscription_services_read_only"
->title="Dieser Dienst ist schreibgeschützt"
->abstract="Sie sind nicht berechtigt, diesen Dienst zu bearbeiten. Wenden Sie sich bei Bedarf an Ihren Administrator, um Ihnen Zugriff zu gewähren."
+>title="Dieser Service ist schreibgeschützt"
+>abstract="Keine Berechtigung, diesen Service zu bearbeiten. Bei Bedarf Admin kontaktieren, um Zugriff zu erhalten."
 
 <!-- Workflows-->
 
@@ -314,12 +314,12 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_wf_read_only"
 >title="Dieser Workflow ist schreibgeschützt"
->abstract="Sie sind nicht berechtigt, diesen Workflow zu bearbeiten. Wenden Sie sich bei Bedarf an Ihren Administrator, um Ihnen Zugriff zu gewähren."
+>abstract="Keine Berechtigung, diesen Workflow zu bearbeiten. Bei Bedarf Admin kontaktieren, um Zugriff zu erhalten."
 
 >[!CONTEXTUALHELP]
 >id="acw_wf_read_only_canvas"
 >title="Dieser Workflow ist schreibgeschützt"
->abstract="Sie können diesen Workflow aufgrund nicht unterstützter oder inkompatibler Arbeitsfläche nicht bearbeiten."
+>abstract="Dieser Workflow kann aufgrund einer nicht unterstützten oder nicht kompatiblen Arbeitsfläche nicht bearbeitet werden."
 
 <!-- delivery template settings-->
 
