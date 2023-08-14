@@ -266,7 +266,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_unsubscriptions"
 >title="Abmeldungen"
->abstract="Abmeldungen KPI"
+>abstract="Abmeldungen-KPI"
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_spam"
