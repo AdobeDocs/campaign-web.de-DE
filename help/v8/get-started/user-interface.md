@@ -4,10 +4,10 @@ title: Erkunden der Benutzeroberfläche
 description: Web-Benutzeroberfläche von Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha"
-source-git-commit: 2e0e63e4a120ffb7a377b403c4bd912fdf40ed92
+source-git-commit: 25cae1698334403e18f6dbede90b3c50b270d30b
 workflow-type: tm+mt
-source-wordcount: '1675'
-ht-degree: 99%
+source-wordcount: '2263'
+ht-degree: 73%
 
 ---
 
@@ -39,6 +39,98 @@ Dieser Bildschirm enthält wichtige Links und Ressourcen für den Schnellzugriff
 Die Liste **Zuletzt ausgewertet** enthält Verknüpfungen zu den kürzlich erstellten und geänderten Sendungen. Diese Liste zeigt den Kanal, den Status, die Besitzerin bzw. den Besitzer sowie das Erstellungs- und Änderungsdatum.
 
 Greifen Sie über den Abschnitt **Lernen** auf der Startseite auf die wichtigsten Hilfeseiten von Campaign v8 Web zu.
+
+
+#### KPI {#user-interface-key-indicators}
+
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_spam"
+>title="Spam"
+>abstract="Spam-KPI"
+
+Navigieren Sie zur Startseite, um die wichtigsten Leistungsindikatoren für Ihre Plattform zu überprüfen. Diese Indikatoren zeigen die Anzahl und den Prozentsatz der zugestellten, geöffneten, angeklickten, abgemeldeten und fehlerhaften Nachrichten sowie deren Fehlerraten an.
+
+Die Metriken werden standardmäßig für die Sendungen der letzten sieben Tage berechnet. Sie können den Zeitraum in der Dropdown-Liste oben rechts auf der Karte ändern. Nachrichten, die an Testprofile gesendet werden, sind ausgeschlossen.
+
+Sie können den anzuzeigenden Kanal auswählen. Standardmäßig beziehen sich diese Indikatoren auf Metriken für den E-Mail-Kanal.
+
+![](assets/kpi.png)
+
+#### Nachrichtenzustellung {#ui-delivered-kpi}
+
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_delivered"
+>title="Zugestellt"
+>abstract="Diese Metrik zeigt für den ausgewählten Kanal die Summe aller erfolgreich verarbeiteten Nachrichten und den Prozentsatz der erfolgreich zugestellten Nachrichten in Bezug auf die Gesamtzahl der gesendeten Nachrichten an."
+
+
+Die **Zugestellt** zeigt die folgenden KPIs für jeden Kanal an:
+
+* Prozentualer Anteil der erfolgreich zugestellten Nachrichten in Bezug auf die Gesamtzahl der zu sendenden Nachrichten.
+
+* Summe aller erfolgreich verarbeiteten Nachrichten.
+
+In Adobe Campaign lautet die Regel zum Markieren einer Nachricht als &quot;Zugestellt&quot;:
+
+Zählung aller Nachrichten mit Feld &quot;Testadresse&quot; gleich &quot;Nein&quot; und Status &quot;Vom Dienstleister berücksichtigt&quot;(für SMS) oder &quot;Gesendet&quot;(für E-Mails) oder &quot;Auf Mobiltelefon erhalten&quot;(für Push-Benachrichtigungen).
+
+
+#### Öffnungen gesamt {#ui-open-kpi}
+
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_opens"
+>title="Öffnungen"
+>abstract="Diese Metrik zeigt für den ausgewählten Kanal die Summe aller geöffneten Nachrichten und den Prozentsatz der geöffneten Nachrichten im Vergleich zur Gesamtzahl der erfolgreich zugestellten Nachrichten an."
+
+Die **Öffnungen** zeigt die folgenden KPIs für jeden Kanal an:
+
+* Prozentualer Anteil der geöffneten Nachrichten in Bezug auf die Gesamtzahl der erfolgreich zugestellten Nachrichten.
+
+* Summe aller geöffneten Nachrichten pro Kanal.
+
+Adobe Campaign erkennt das Öffnen einer Nachricht, wenn der Empfänger die Bilder in der E-Mail herunterlädt. HTML und Multipart/Alternative E-Mails enthalten ein 0-Pixel-Bild, mit dem Sie geöffnete Nachrichten erkennen können. Da Nachrichten im Textformat keine Bilder enthalten, ist es nicht möglich festzustellen, ob sie geöffnet wurden oder nicht. Die auf der Basis von Öffnungen berechneten Werte sind immer nur Schätzungen. Dies hängt mit der mit der Bildanzeige verbundenen Fehlerspanne zusammen.
+
+#### Klickraten {#ui-click-kpi}
+
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_clicks"
+>title="Klicks"
+>abstract="Diese Metrik zeigt für den ausgewählten Kanal die Summe aller in Nachrichten angeklickten URLs und den Prozentsatz der Klicks in Bezug auf die Gesamtzahl der erfolgreich zugestellten Nachrichten an."
+
+Die **Klicks** zeigt die folgenden KPIs für jeden Kanal an:
+
+* Prozentualer Anteil der Klicks in Bezug auf die Gesamtzahl erfolgreich zugestellter Nachrichten.
+
+* Anzahl unterschiedlicher Personen, die mindestens einmal im betreffenden Versand geklickt haben. Abmelde-Links und Links zur Mirrorseite werden ausgeschlossen.
+
+Diese Metriken basieren auf der Konsolidierten Trackingtabelle (`nms:trackingStats`). Diese Aggregattabelle wird aus Leistungsgründen bei der Anzeige von Berichten anstelle der Tabelle Trackinglogs der Empfänger (`nms:trackingLogRcp`) und wird nicht in Echtzeit berechnet. Die Tabelle wird einige Minuten nach dem Abrufen der Trackinglogs generiert.
+
+
+#### Abmelderaten {#ui-unsub-kpi}
+
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_unsubscriptions"
+>title="Abmeldungen"
+>abstract="Diese Metrik zeigt für den ausgewählten Kanal die Summe aller Abmeldungen von einem Dienst und den Prozentsatz der Abmeldungen im Vergleich zur Gesamtzahl der erfolgreich zugestellten Nachrichten an."
+
+Die **Abmeldungen** zeigt die folgenden KPIs für jeden Kanal an:
+
+* Prozentualer Anteil der Abmeldungen in Bezug auf die Gesamtzahl der erfolgreich zugestellten Nachrichten.
+
+* Summe aller Klicks auf einen Abmelde-Link, d. h. mit URL-Kategorie &quot;Abmeldung&quot;.
+
+
+#### Fehlerquoten {#ui-error-kpi}
+
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_errors"
+>title="Fehler"
+>abstract="Gesamtzahl an Fehlern in Sendungen und der automatischen Bounce-Verarbeitung. Die zugeordnete Rate wird in Bezug auf die Anzahl zu versendender Nachrichten berechnet."
+
+* Prozentualer Anteil der fehlerhaften Nachrichten in Bezug auf die Gesamtzahl der zu sendenden Nachrichten.
+
+* Gesamtzahl an Fehlern in Sendungen und der automatischen Bounce-Verarbeitung.
+
 
 ### Explorer {#user-interface-explorer}
 
@@ -248,35 +340,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Berechtigung erforderlich"
 >abstract="Ihre Admins müssen Ihnen die Berechtigung erteilen, bevor Sie ein Segment erstellen können."
 
->[!CONTEXTUALHELP]
->id="acw_keyindicators_delivered"
->title="Zugestellt"
->abstract="Zugestellt-KPI"
-
->[!CONTEXTUALHELP]
->id="acw_keyindicators_opens"
->title="Öffnungen"
->abstract="Öffnungen-KPI"
-
->[!CONTEXTUALHELP]
->id="acw_keyindicators_clicks"
->title="Klicks"
->abstract="Klicks-KPI"
-
->[!CONTEXTUALHELP]
->id="acw_keyindicators_unsubscriptions"
->title="Abmeldungen"
->abstract="Abmeldungen-KPI"
-
->[!CONTEXTUALHELP]
->id="acw_keyindicators_spam"
->title="Spam"
->abstract="Spam-KPI"
-
->[!CONTEXTUALHELP]
->id="acw_keyindicators_errors"
->title="Fehler"
->abstract="Fehler-KPI"
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_read_only"
