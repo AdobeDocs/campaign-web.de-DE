@@ -4,9 +4,9 @@ title: Erkunden der Benutzeroberfläche
 description: Web-Benutzeroberfläche von Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha"
-source-git-commit: 25cae1698334403e18f6dbede90b3c50b270d30b
+source-git-commit: 2ce793e148866e1f4c1a36d365e8aacb319a1dfb
 workflow-type: tm+mt
-source-wordcount: '2263'
+source-wordcount: '2286'
 ht-degree: 73%
 
 ---
@@ -38,10 +38,12 @@ Dieser Bildschirm enthält wichtige Links und Ressourcen für den Schnellzugriff
 
 Die Liste **Zuletzt ausgewertet** enthält Verknüpfungen zu den kürzlich erstellten und geänderten Sendungen. Diese Liste zeigt den Kanal, den Status, die Besitzerin bzw. den Besitzer sowie das Erstellungs- und Änderungsdatum.
 
+Die **Wichtige Leistungsindikatoren** ermöglicht es Ihnen, die Effektivität Ihrer Plattform mithilfe gängiger KPIs zu überprüfen.
+
 Greifen Sie über den Abschnitt **Lernen** auf der Startseite auf die wichtigsten Hilfeseiten von Campaign v8 Web zu.
 
 
-#### KPI {#user-interface-key-indicators}
+### KPI {#user-interface-key-indicators}
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_spam"
@@ -126,6 +128,8 @@ Die **Abmeldungen** zeigt die folgenden KPIs für jeden Kanal an:
 >id="acw_keyindicators_errors"
 >title="Fehler"
 >abstract="Gesamtzahl an Fehlern in Sendungen und der automatischen Bounce-Verarbeitung. Die zugeordnete Rate wird in Bezug auf die Anzahl zu versendender Nachrichten berechnet."
+
+Die **Fehler** zeigt die folgenden KPIs für jeden Kanal an:
 
 * Prozentualer Anteil der fehlerhaften Nachrichten in Bezug auf die Gesamtzahl der zu sendenden Nachrichten.
 
