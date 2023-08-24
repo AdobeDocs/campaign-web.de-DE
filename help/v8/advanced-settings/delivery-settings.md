@@ -4,10 +4,10 @@ title: E-Mail-Versandeinstellungen
 description: Erfahren Sie mehr über die Einstellungen für den E-Mail-Versand in der Web-Benutzeroberfläche von Campaign
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="Alpha"
-source-git-commit: a653fe4329f449a94f8056e4b5f2247bd839b87a
+source-git-commit: 761a6d318ccb8b4075d5a25e2c9de573b998d424
 workflow-type: tm+mt
-source-wordcount: '1474'
-ht-degree: 100%
+source-wordcount: '1392'
+ht-degree: 94%
 
 ---
 
@@ -37,12 +37,12 @@ Wenn Sie eine Typologie mit einer Nachricht oder Nachrichtenvorlage verknüpfen,
 
 
 ### Druckparameter {#pressure-parameters}
-
+<!--
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_delivery_weight"
->title="Versandgewichtung"
->abstract="Die Versandgewichtung ermöglicht es Ihnen, im Rahmen der Druckverwaltung diejenigen Sendungen festzulegen, die vorrangig durchgeführt werden sollen. Die Nachrichten mit der höchsten Gewichtung haben Vorrang."
-
+>title="Delivery weight"
+>abstract="Delivery weights let you identify top-priority deliveries within the framework of pressure management. Messages with the highest weight have priority."
+-->
 In diesem Abschnitt können Sie mithilfe von Druckparametern einen **Schwellenwert** definieren. Dies ist die maximale Anzahl von Nachrichten, die an ein Profil in einem bestimmten Zeitraum gesendet werden können. Sobald diese Schwelle erreicht ist, können keine Sendungen mehr durchgeführt werden, bis der Zeitraum abgelaufen ist. Durch dieses Verfahren kann ein Profil aus einem Versand automatisch ausgeschlossen werden, wenn eine Nachricht die festgelegte Schwelle übersteigt. Dadurch wird verhindert, dass ein Profil zu oft angesprochen wird.
 
 Schwellenwerte können konstant oder variabel sein. Das bedeutet, dass unterschiedliche Profile in einem bestimmten Zeitraum unterschiedliche Schwellen aufweisen können oder Schwellen sogar innerhalb desselben Profils variieren können.
@@ -67,9 +67,9 @@ Die Ermüdungsverwaltung wird mit dem Add-on **Kampagnenoptimierung** bereitgest
 ### Kapazitätseinstellungen {#capacity-settings}
 
 >[!CONTEXTUALHELP]
->id="acw_email_settings_recipient_importance"
->title="Wichtigkeit des Empfängers bzw. der Empfängerin"
->abstract="Mit der Wichtigkeit des Empfängers bzw. der Empfängerin wird festgelegt, welche Empfangenden im Falle einer Kapazitätsüberlastung der Typologieregeln beibehalten werden."
+>id="acw_email_settings_capacity_settings"
+>title="Kapazitätseinstellungen"
+>abstract="Wählen Sie eine Kapazitätsregel aus, die in der Adobe Campaign v8-Konsole definiert ist. Diese Regel ist mit dem E-Mail-Kanal verknüpft."
 
 In diesem Bereich können Sie eine Kapazitätsregel auswählen, die in der Adobe Campaign v8-Konsole definiert ist. Diese Regel ist mit dem E-Mail-Kanal verknüpft.
 
@@ -86,6 +86,11 @@ Weitere Informationen zu Zielgruppen-Mappings finden Sie in der [Dokumentation z
 
 ## Versand {#delivery}
 
+>[!CONTEXTUALHELP]
+>id="acw_email_settings_delivery"
+>title="Versand settings"
+>abstract="Versandparameter sind technische Einstellungen, die für Ihren Versand gelten."
+
 Versandparameter sind technische Einstellungen, die für Ihren Versand gelten.
 
 * **Routing**: Das integrierte externe E-Mail-Routing-Konto wird standardmäßig bereitgestellt. Es enthält die technischen Parameter, die es der Anwendung erlauben, E-Mails zu senden.
@@ -98,21 +103,18 @@ Versandparameter sind technische Einstellungen, die für Ihren Versand gelten.
 
 ### Weitere Zustellversuche {#retries}
 
->[!CONTEXTUALHELP]
->id="acw_email_settings_retries"
->title="Maximale Anzahl der weiteren Zustellversuche"
->abstract="Wenn ein Nachrichtenversand aufgrund eines temporären Fehlers fehlschlägt, werden weitere Zustellversuche bis zum Ende der Versandlaufzeit durchgeführt."
-
 <!--Temporarily undelivered messages due to a Soft or Ignored error are subject to an automatic retry. By default, five retries are scheduled for the first day of the delivery with a minimum interval of one hour spread out over the 24 hours of the day. -->
 
 Weitere Informationen zur Verwaltung von weiteren Zustellversuchen finden Sie in der [Dokumentation zu Campaign v8 (Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html?lang=de){target="_blank"}.
 
 ## Validierung {#approval}
 
+<!--
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_approval"
->title="Validierungsmodus"
->abstract="Jeder Schritt eines Versands kann einer Validierung unterzogen werden, um eine vollständige Überwachung und Kontrolle der verschiedenen Prozesse zu gewährleisten."
+>title="Approval mode"
+>abstract="Each step of a delivery can be subject to approval in order to ensure full monitoring and control of the various processes."
+-->
 
 Wenn bei der Versandvorbereitung Warnungen erzeugt werden, können Sie den Versand so konfigurieren, dass definiert wird, ob er trotzdem ausgeführt werden soll. Standardmäßig müssen Benutzende den Nachrichtenversand am Ende der Analysephase bestätigen: Hierbei handelt es sich um eine **manuelle** Validierung.
 
@@ -128,15 +130,16 @@ Sie können im entsprechenden Feld einen anderen Validierungsmodus auswählen. F
 ## Gültigkeit {#validity}
 
 >[!CONTEXTUALHELP]
->id="acw_email_settings_delivery_duration"
->title="Versandlaufzeit"
->abstract="Im Feld „Versandlaufzeit“ können Sie die Zeitspanne angeben, in der erneute Zustellversuche unternommen werden sollen. Dies bedeutet konkret, dass Adobe Campaign die Nachrichten ab dem Startdatum versendet und bis nach Ablauf der angegebenen Spanne nicht zustellbare Nachrichten in regelmäßigen Abständen erneut sendet."
+>id="acw_email_settings_validity"
+>title="Gültigkeit der Einstellungen"
+>abstract="Im Feld Versandlaufzeit können Sie die Zeitspanne angeben, in der erneute Zustellversuche unternommen werden. Das bedeutet, dass Adobe Campaign die Nachrichten ab dem Startdatum versendet. Bei Nachrichten, die nur einen Fehler zurückgeben, werden bis zum Erreichen der Gültigkeitsgrenze regelmäßig konfigurierbare erneute Versuche durchgeführt. Das Feld Gültigkeit wird für hochgeladene Ressourcen wie die Mirrorseite oder Bilder verwendet. Diese Ressourcen sind für eine begrenzte Zeit gültig: Nach Erreichen des Grenzwerts sind keine Ressourcen mehr verfügbar."
 
+<!--
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_resources_validity"
->title="Gültigkeit von Ressourcen"
->abstract="Das Feld „Gültigkeitsdauer“ wird für hochgeladene Ressourcen verwendet, wie etwa die Mirrorseite oder Bilder. Diese Ressourcen sind für eine begrenzte Zeit gültig: Nach Erreichen des Grenzwerts sind keine Ressourcen mehr verfügbar."
-
+>title="Resources validity limit"
+>abstract="The Validity limit field is used for uploaded resources, such as the mirror page or images. These resources are valid for a limited time: once the limit is reached, resources are no longer available."
+-->
 
 Im Feld **Versandlaufzeit** können Sie die Zeitspanne angeben, in der erneute Zustellversuche unternommen werden. Dies bedeutet konkret, dass Adobe Campaign die Nachrichten ab dem Startdatum versendet und bis nach Ablauf der angegebenen Spanne nicht zustellbare Nachrichten in regelmäßigen Abständen erneut sendet.
 
@@ -163,10 +166,12 @@ Zusätzlich zum Standardmodus stehen die folgenden Optionen zur Verfügung:
 
 ### Tracking {#tracking}
 
+<!--
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_tracking_validity"
->title="Gültigkeitszeitraum"
->abstract="Diese Option legt die Dauer fest, für die das Tracking für die URLs aktiviert wird."
+>title="Validity period"
+>abstract="This option defines the duration for which the tracking is activated on the URLs."
+-->
 
 Tracking-Parameter werden im entsprechenden Abschnitt definiert. Mögliche Optionen sind:
 
