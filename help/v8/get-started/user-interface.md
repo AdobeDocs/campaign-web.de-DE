@@ -4,10 +4,10 @@ title: Erkunden der Benutzeroberfläche
 description: Web-Benutzeroberfläche von Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha"
-source-git-commit: 2ce793e148866e1f4c1a36d365e8aacb319a1dfb
+source-git-commit: bbe4ed0ce05048cf22a18a36967b9a4c0422d93f
 workflow-type: tm+mt
-source-wordcount: '2286'
-ht-degree: 73%
+source-wordcount: '2567'
+ht-degree: 66%
 
 ---
 
@@ -65,10 +65,11 @@ Sie können den anzuzeigenden Kanal auswählen. Standardmäßig beziehen sich di
 >title="Zugestellt"
 >abstract="Diese Metrik zeigt für den ausgewählten Kanal die Summe aller erfolgreich verarbeiteten Nachrichten und den Prozentsatz der erfolgreich zugestellten Nachrichten in Bezug auf die Gesamtzahl der gesendeten Nachrichten an."
 
+Die Anzahl der zugestellten Nachrichten spiegelt Ihre Zustellrate wider. Aus folgenden Gründen kann es nie zu 100 % kommen: Manche Adressen oder Telefonnummern liegen falsch, Spam-Blocker von E-Mail-Anbietern können Ihre Nachrichten ablehnen oder Zustellbarkeitsprobleme können auftreten.
 
 Die **Zugestellt** zeigt die folgenden KPIs für jeden Kanal an:
 
-* Prozentualer Anteil der erfolgreich zugestellten Nachrichten in Bezug auf die Gesamtzahl der zu sendenden Nachrichten.
+* Prozentualer Anteil der erfolgreich zugestellten Nachrichten in Bezug auf die Gesamtzahl der gesendeten Nachrichten.
 
 * Summe aller erfolgreich verarbeiteten Nachrichten.
 
@@ -84,6 +85,8 @@ Zählung aller Nachrichten mit Feld &quot;Testadresse&quot; gleich &quot;Nein&qu
 >title="Öffnungen"
 >abstract="Diese Metrik zeigt für den ausgewählten Kanal die Summe aller geöffneten Nachrichten und den Prozentsatz der geöffneten Nachrichten im Vergleich zur Gesamtzahl der erfolgreich zugestellten Nachrichten an."
 
+Die Öffnungen insgesamt werden anhand der Anzahl der Öffnungen in einer Nachricht berechnet, unabhängig davon, von wie vielen einzelnen Empfängern diese Öffnungen generiert wurden. Dieser Indikator ist nur für E-Mails verfügbar.
+
 Die **Öffnungen** zeigt die folgenden KPIs für jeden Kanal an:
 
 * Prozentualer Anteil der geöffneten Nachrichten in Bezug auf die Gesamtzahl der erfolgreich zugestellten Nachrichten.
@@ -92,18 +95,22 @@ Die **Öffnungen** zeigt die folgenden KPIs für jeden Kanal an:
 
 Adobe Campaign erkennt das Öffnen einer Nachricht, wenn der Empfänger die Bilder in der E-Mail herunterlädt. HTML und Multipart/Alternative E-Mails enthalten ein 0-Pixel-Bild, mit dem Sie geöffnete Nachrichten erkennen können. Da Nachrichten im Textformat keine Bilder enthalten, ist es nicht möglich festzustellen, ob sie geöffnet wurden oder nicht. Die auf der Basis von Öffnungen berechneten Werte sind immer nur Schätzungen. Dies hängt mit der mit der Bildanzeige verbundenen Fehlerspanne zusammen.
 
-#### Klickraten {#ui-click-kpi}
+
+
+#### Clickthrough-Rate {#ui-click-kpi}
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_clicks"
 >title="Klicks"
 >abstract="Diese Metrik zeigt für den ausgewählten Kanal die Summe aller in Nachrichten angeklickten URLs und den Prozentsatz der Klicks in Bezug auf die Gesamtzahl der erfolgreich zugestellten Nachrichten an."
 
+Sie können Ihrem Nachrichteninhalt URLs hinzufügen, die Empfänger zu einer bestimmten Seite weiterleiten. Die Durchklickrate misst die Anzahl und den Prozentsatz der Empfänger, die auf einen Link in der Nachricht geklickt haben.
+
 Die **Klicks** zeigt die folgenden KPIs für jeden Kanal an:
 
 * Prozentualer Anteil der Klicks in Bezug auf die Gesamtzahl erfolgreich zugestellter Nachrichten.
 
-* Anzahl unterschiedlicher Personen, die mindestens einmal im betreffenden Versand geklickt haben. Abmelde-Links und Links zur Mirrorseite werden ausgeschlossen.
+* Anzahl unterschiedlicher Personen, die mindestens einmal im betreffenden Versand geklickt haben. Abmelde-Links und Links zur E-Mail-Mirrorseite werden ausgeschlossen.
 
 Diese Metriken basieren auf der Konsolidierten Trackingtabelle (`nms:trackingStats`). Diese Aggregattabelle wird aus Leistungsgründen bei der Anzeige von Berichten anstelle der Tabelle Trackinglogs der Empfänger (`nms:trackingLogRcp`) und wird nicht in Echtzeit berechnet. Die Tabelle wird einige Minuten nach dem Abrufen der Trackinglogs generiert.
 
@@ -114,6 +121,8 @@ Diese Metriken basieren auf der Konsolidierten Trackingtabelle (`nms:trackingSta
 >id="acw_keyindicators_unsubscriptions"
 >title="Abmeldungen"
 >abstract="Diese Metrik zeigt für den ausgewählten Kanal die Summe aller Abmeldungen von einem Dienst und den Prozentsatz der Abmeldungen im Vergleich zur Gesamtzahl der erfolgreich zugestellten Nachrichten an."
+
+Empfänger müssen die Möglichkeit haben, sich von E-Mails und SMS über einen dedizierten Abmelde-Link im E-Mail-Inhalt abzumelden oder STOP auf eine SMS zu antworten.
 
 Die **Abmeldungen** zeigt die folgenden KPIs für jeden Kanal an:
 
@@ -128,6 +137,10 @@ Die **Abmeldungen** zeigt die folgenden KPIs für jeden Kanal an:
 >id="acw_keyindicators_errors"
 >title="Fehler"
 >abstract="Gesamtzahl an Fehlern in Sendungen und der automatischen Bounce-Verarbeitung. Die zugeordnete Rate wird in Bezug auf die Anzahl zu versendender Nachrichten berechnet."
+
+Einige von Ihrer Adobe Campaign-Plattform gesendete Nachrichten erreichen möglicherweise nicht ihr Ziel. Es kann vorkommen, wenn die Benutzeradresse oder das Telefon Tippfehler aufweist, der Empfänger seine E-Mail-Adresse geändert hat oder sein Postfach voll ist. Wenn eine Nachricht nicht an ein Profil gesendet werden kann, sendet der Remote-Server automatisch eine Fehlermeldung an Adobe Campaign. Dieser Fehler wird qualifiziert, um festzustellen, ob die E-Mail-Adresse, die Telefonnummer oder das Gerät unter Quarantäne gestellt werden soll.
+
+Daher sollten Sie Ihre Datenbank immer überprüfen und aktualisieren und sicherstellen, dass alle Profile aktiv und real sind. Versandfehler können vorübergehend oder dauerhaft sein - Softbounce oder Hardbounce - je nachdem, warum die Nachricht nicht zugestellt wurde.
 
 Die **Fehler** zeigt die folgenden KPIs für jeden Kanal an:
 
@@ -435,3 +448,34 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Export"
 >abstract="Sie können nur die ausgewählte Seite exportieren."
 
+>[!CONTEXTUALHELP]
+>id="acw_campaign_delivery_list"
+>title="Versandliste in einer Kampagne"
+>abstract="Versandliste in einer Kampagne"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_workflow_list"
+>title="Workflow-Liste in einer Kampagne"
+>abstract="Workflow-Liste in einer Kampagne"
+
+<!-- delivery settings-->
+
+>[!CONTEXTUALHELP]
+>id="acw_email_settings_audience"
+>title="Audience für Versandeinstellungen"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_email_settings_approval"
+>title="Validierung der Versandeinstellungen"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_email_settings_testsettings"
+>title="Testeinstellungen für Versandeinstellungen"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_email_settings_webanalytics"
+>title="Webanalyse zu Versandeinstellungen"
+>abstract="TBC"
