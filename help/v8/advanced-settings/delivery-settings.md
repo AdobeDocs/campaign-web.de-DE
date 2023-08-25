@@ -4,7 +4,7 @@ title: E-Mail-Versandeinstellungen
 description: Erfahren Sie mehr über die Einstellungen für den E-Mail-Versand in der Web-Benutzeroberfläche von Campaign
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="Alpha"
-source-git-commit: 761a6d318ccb8b4075d5a25e2c9de573b998d424
+source-git-commit: 64b947fe6fc18f7452058de26a88444120c5af4b
 workflow-type: tm+mt
 source-wordcount: '1392'
 ht-degree: 94%
@@ -37,12 +37,14 @@ Wenn Sie eine Typologie mit einer Nachricht oder Nachrichtenvorlage verknüpfen,
 
 
 ### Druckparameter {#pressure-parameters}
+
 <!--
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_delivery_weight"
 >title="Delivery weight"
 >abstract="Delivery weights let you identify top-priority deliveries within the framework of pressure management. Messages with the highest weight have priority."
 -->
+
 In diesem Abschnitt können Sie mithilfe von Druckparametern einen **Schwellenwert** definieren. Dies ist die maximale Anzahl von Nachrichten, die an ein Profil in einem bestimmten Zeitraum gesendet werden können. Sobald diese Schwelle erreicht ist, können keine Sendungen mehr durchgeführt werden, bis der Zeitraum abgelaufen ist. Durch dieses Verfahren kann ein Profil aus einem Versand automatisch ausgeschlossen werden, wenn eine Nachricht die festgelegte Schwelle übersteigt. Dadurch wird verhindert, dass ein Profil zu oft angesprochen wird.
 
 Schwellenwerte können konstant oder variabel sein. Das bedeutet, dass unterschiedliche Profile in einem bestimmten Zeitraum unterschiedliche Schwellen aufweisen können oder Schwellen sogar innerhalb desselben Profils variieren können.
