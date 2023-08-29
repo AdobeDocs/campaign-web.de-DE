@@ -7,7 +7,7 @@ badge: label="Alpha"
 source-git-commit: cc3209d8aba62ff4492e71eaaa641e77f5a27e93
 workflow-type: tm+mt
 source-wordcount: '2577'
-ht-degree: 66%
+ht-degree: 99%
 
 ---
 
@@ -38,19 +38,19 @@ Dieser Bildschirm enthält wichtige Links und Ressourcen für den Schnellzugriff
 
 Die Liste **Zuletzt ausgewertet** enthält Verknüpfungen zu den kürzlich erstellten und geänderten Sendungen. Diese Liste zeigt den Kanal, den Status, die Besitzerin bzw. den Besitzer sowie das Erstellungs- und Änderungsdatum.
 
-Die **Wichtige Leistungsindikatoren** ermöglicht es Ihnen, die Effektivität Ihrer Plattform mithilfe gängiger KPIs zu überprüfen.
+Die **wichtigen Leistungsindikatoren** ermöglichen es Ihnen, die Effektivität Ihrer Plattform mithilfe gängiger KPIs zu überprüfen.
 
 Greifen Sie über den Abschnitt **Lernen** auf der Startseite auf die wichtigsten Hilfeseiten von Campaign v8 Web zu.
 
 
-### KPI {#user-interface-key-indicators}
+### Wichtige Leistungsindikatoren (KPIs) {#user-interface-key-indicators}
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_spam"
 >title="Spam"
 >abstract="Spam-KPI"
 
-Navigieren Sie zur Startseite, um die wichtigsten Leistungsindikatoren für Ihre Plattform zu überprüfen. Diese Indikatoren zeigen die Anzahl und den Prozentsatz der zugestellten, geöffneten, angeklickten, abgemeldeten und fehlerhaften Nachrichten sowie deren Fehlerraten an.
+Navigieren Sie zur Startseite, um die wichtigsten Leistungsindikatoren für Ihre Plattform zu überprüfen. Diese Indikatoren zeigen die Anzahl und den Prozentsatz der zugestellten, geöffneten und angeklickten Nachrichten, Abmeldungen und Fehlerraten an.
 
 Die Metriken werden standardmäßig für die Sendungen der letzten sieben Tage berechnet. Sie können den Zeitraum in der Dropdown-Liste oben rechts auf der Karte ändern. Nachrichten, die an Testprofile gesendet werden, sind ausgeschlossen.
 
@@ -58,42 +58,42 @@ Sie können den anzuzeigenden Kanal auswählen. Standardmäßig beziehen sich di
 
 ![](assets/kpi.png)
 
-#### Nachrichtenzustellung {#ui-delivered-kpi}
+#### Nachricht zugestellt {#ui-delivered-kpi}
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_delivered"
 >title="Zugestellt"
 >abstract="Diese Metrik zeigt für den ausgewählten Kanal die Summe aller erfolgreich verarbeiteten Nachrichten und den Prozentsatz der erfolgreich zugestellten Nachrichten in Bezug auf die Gesamtzahl der gesendeten Nachrichten an."
 
-Die Anzahl der zugestellten Nachrichten spiegelt Ihre Zustellrate wider. Aus folgenden Gründen kann es nie zu 100 % kommen: Manche Adressen oder Telefonnummern liegen falsch, Spam-Blocker von E-Mail-Anbietern können Ihre Nachrichten ablehnen oder Zustellbarkeitsprobleme können auftreten.
+Die Anzahl der zugestellten Nachrichten spiegelt Ihre Zustellbarkeit wider. Aus folgenden Gründen kann es nie zu 100 % kommen: Manche Adressen oder Telefonnummern können fehlerhaft sein, durch Spam-Blocker von E-Mail-Anbietern können Ihre Nachrichten abgelehnt werden oder es können Zustellbarkeitsprobleme auftreten.
 
-Die **Zugestellt** zeigt die folgenden KPIs für jeden Kanal an:
+Der Indikator **Zugestellt** zeigt die folgenden KPIs für jeden Kanal an:
 
 * Prozentualer Anteil der erfolgreich zugestellten Nachrichten in Bezug auf die Gesamtzahl der gesendeten Nachrichten.
 
 * Summe aller erfolgreich verarbeiteten Nachrichten.
 
-In Adobe Campaign lautet die Regel zum Markieren einer Nachricht als &quot;Zugestellt&quot;:
+In Adobe Campaign lautet die Regel, nach der eine Nachricht als „zugestellt“ gilt, wie folgt:
 
-Zählung aller Nachrichten mit Feld &quot;Testadresse&quot; gleich &quot;Nein&quot; und Status &quot;Vom Dienstleister berücksichtigt&quot;(für SMS) oder &quot;Gesendet&quot;(für E-Mails) oder &quot;Auf Mobiltelefon erhalten&quot;(für Push-Benachrichtigungen).
+Anzahl der Nachrichten mit Feld „Testadresse“ gleich „Nein“ und Status „Vom Dienstleister berücksichtigt“ (für SMS) oder „Auf Mobilgerät erhalten“ (für Push-Benachrichtigungen).
 
 
-#### Öffnungen gesamt {#ui-open-kpi}
+#### Öffnungen insgesamt {#ui-open-kpi}
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_opens"
 >title="Öffnungen"
 >abstract="Diese Metrik zeigt für den ausgewählten Kanal die Summe aller geöffneten Nachrichten und den Prozentsatz der geöffneten Nachrichten im Vergleich zur Gesamtzahl der erfolgreich zugestellten Nachrichten an."
 
-Die Öffnungen insgesamt werden anhand der Anzahl der Öffnungen in einer Nachricht berechnet, unabhängig davon, von wie vielen einzelnen Empfängern diese Öffnungen generiert wurden. Dieser Indikator ist nur für E-Mails verfügbar.
+Die Gesamtzahl der Öffnungen wird berechnet, indem die Gesamtzahl der Öffnungen einer Nachricht verfolgt wird, unabhängig davon, von wie vielen einzelnen Kontakten diese Öffnungen generiert wurden. Dieser Indikator ist nur für E-Mails verfügbar.
 
-Die **Öffnungen** zeigt die folgenden KPIs für jeden Kanal an:
+Der Indikator **Öffnungen** zeigt die folgenden KPIs für jeden Kanal an:
 
 * Prozentualer Anteil der geöffneten Nachrichten in Bezug auf die Gesamtzahl der erfolgreich zugestellten Nachrichten.
 
 * Summe aller geöffneten Nachrichten pro Kanal.
 
-Adobe Campaign erkennt das Öffnen einer Nachricht, wenn der Empfänger die Bilder in der E-Mail herunterlädt. HTML und Multipart/Alternative E-Mails enthalten ein 0-Pixel-Bild, mit dem Sie geöffnete Nachrichten erkennen können. Da Nachrichten im Textformat keine Bilder enthalten, ist es nicht möglich festzustellen, ob sie geöffnet wurden oder nicht. Die auf der Basis von Öffnungen berechneten Werte sind immer nur Schätzungen. Dies hängt mit der mit der Bildanzeige verbundenen Fehlerspanne zusammen.
+Adobe Campaign erkennt das Öffnen einer Nachricht, wenn die Empfängerin bzw. der Empfänger die Bilder in der E-Mail herunterlädt. HTML- und Multipart/Alternative-E-Mails enthalten ein 0-Pixel-Bild, mit dem Sie geöffnete Nachrichten erkennen können. Da Nachrichten im Textformat keine Bilder enthalten, ist es hier nicht möglich festzustellen, ob sie geöffnet wurden oder nicht. Bei den auf der Grundlage der geöffneten Nachrichten berechneten Werten handelt es sich aufgrund der mit der Bildanzeige verbundenen Fehlerspanne immer um Schätzungen.
 
 
 
@@ -104,15 +104,15 @@ Adobe Campaign erkennt das Öffnen einer Nachricht, wenn der Empfänger die Bild
 >title="Klicks"
 >abstract="Diese Metrik zeigt für den ausgewählten Kanal die Summe aller in Nachrichten angeklickten URLs und den Prozentsatz der Klicks in Bezug auf die Gesamtzahl der erfolgreich zugestellten Nachrichten an."
 
-Sie können Ihrem Nachrichteninhalt URLs hinzufügen, die Empfänger zu einer bestimmten Seite weiterleiten. Die Durchklickrate misst die Anzahl und den Prozentsatz der Empfänger, die auf einen Link in der Nachricht geklickt haben.
+Sie können Ihrem Nachrichteninhalt URLs hinzufügen, die Empfängerinnen und Empfänger zu einer bestimmten Seite weiterleiten. Die Clickthrough-Rate misst die Anzahl und den Prozentsatz der Empfängerinnen und Empfänger, die auf einen Link in der Nachricht geklickt haben.
 
-Die **Klicks** zeigt die folgenden KPIs für jeden Kanal an:
+Der Indikator **Klicks** zeigt für jeden Kanal die folgenden KPIs an:
 
-* Prozentualer Anteil der Klicks in Bezug auf die Gesamtzahl erfolgreich zugestellter Nachrichten.
+* Prozentualer Anteil der Klicks in Bezug auf die Gesamtzahl der erfolgreich zugestellten Nachrichten.
 
-* Anzahl unterschiedlicher Personen, die mindestens einmal im betreffenden Versand geklickt haben. Abmelde-Links und Links zur E-Mail-Mirrorseite werden ausgeschlossen.
+* Die Anzahl unterschiedlicher Personen, die bei einem jeweiligen Versand mindestens einmal geklickt haben. Abmelde-Links und Links zur E-Mail-Mirrorseite werden ausgeschlossen.
 
-Diese Metriken basieren auf der Konsolidierten Trackingtabelle (`nms:trackingStats`). Diese Aggregattabelle wird aus Leistungsgründen bei der Anzeige von Berichten anstelle der Tabelle Trackinglogs der Empfänger (`nms:trackingLogRcp`) und wird nicht in Echtzeit berechnet. Die Tabelle wird einige Minuten nach dem Abrufen der Trackinglogs generiert.
+Diese Metriken basieren auf der konsolidierten Tracking-Tabelle (`nms:trackingStats`). Diese Aggregattabelle wird aus Leistungsgründen bei der Anzeige von Berichten anstelle der Tabelle „Trackinglogs der Empfänger“ (`nms:trackingLogRcp`) verwendet und wird nicht in Echtzeit berechnet. Die Tabelle wird einige Minuten nach dem Abrufen der Trackinglogs generiert.
 
 
 #### Abmelderaten {#ui-unsub-kpi}
@@ -122,13 +122,13 @@ Diese Metriken basieren auf der Konsolidierten Trackingtabelle (`nms:trackingSta
 >title="Abmeldungen"
 >abstract="Diese Metrik zeigt für den ausgewählten Kanal die Summe aller Abmeldungen von einem Dienst und den Prozentsatz der Abmeldungen im Vergleich zur Gesamtzahl der erfolgreich zugestellten Nachrichten an."
 
-Empfänger müssen die Möglichkeit haben, sich von E-Mails und SMS über einen dedizierten Abmelde-Link im E-Mail-Inhalt abzumelden oder STOP auf eine SMS zu antworten.
+Empfängerinnen und Empfänger müssen die Möglichkeit haben, sich von E-Mails und SMS über einen dedizierten Abmelde-Link im E-Mail-Inhalt abzumelden oder STOPP auf eine SMS zu antworten.
 
-Die **Abmeldungen** zeigt die folgenden KPIs für jeden Kanal an:
+Der Indikator **Abmeldungen** zeigt die folgenden KPIs für jeden Kanal an:
 
 * Prozentualer Anteil der Abmeldungen in Bezug auf die Gesamtzahl der erfolgreich zugestellten Nachrichten.
 
-* Summe aller Klicks auf einen Abmelde-Link, d. h. mit URL-Kategorie &quot;Abmeldung&quot;.
+* Die Summe aller Klicks auf einen Abmelde-Link, d. h. mit der entsprechenden URL-Kategorie für „Abmeldung“.
 
 
 #### Fehlerquoten {#ui-error-kpi}
@@ -136,13 +136,13 @@ Die **Abmeldungen** zeigt die folgenden KPIs für jeden Kanal an:
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_errors"
 >title="Fehler"
->abstract="Gesamtzahl an Fehlern in Sendungen und der automatischen Bounce-Verarbeitung. Die zugeordnete Rate wird in Bezug auf die Anzahl zu versendender Nachrichten berechnet."
+>abstract="Gesamtzahl an Fehlern in Sendungen und der automatischen Bounce-Verarbeitung. Die zugehörige Rate wird in Bezug auf die Anzahl der zu versendenden Nachrichten berechnet."
 
-Einige von Ihrer Adobe Campaign-Plattform gesendete Nachrichten erreichen möglicherweise nicht ihr Ziel. Es kann vorkommen, wenn die Benutzeradresse oder das Telefon Tippfehler aufweist, der Empfänger seine E-Mail-Adresse geändert hat oder sein Postfach voll ist. Wenn eine Nachricht nicht an ein Profil gesendet werden kann, sendet der Remote-Server automatisch eine Fehlermeldung an Adobe Campaign. Dieser Fehler wird qualifiziert, um festzustellen, ob die E-Mail-Adresse, die Telefonnummer oder das Gerät unter Quarantäne gestellt werden soll.
+Einige von Ihrer Adobe Campaign-Plattform gesendete Nachrichten erreichen möglicherweise nicht ihr Ziel. Es kann vorkommen, wenn die Benutzeradresse oder die Telefonnummer Tippfehler aufweist, die Empfängerin oder der Empfänger ihre bzw. seine E-Mail-Adresse geändert hat oder das Postfach voll ist. Wenn eine Nachricht nicht an ein Profil gesendet werden kann, sendet der Remote-Server automatisch eine Fehlermeldung an Adobe Campaign. Dieser Fehler wird qualifiziert, um festzustellen, ob die E-Mail-Adresse, die Telefonnummer oder das Gerät unter Quarantäne gestellt werden soll.
 
-Daher sollten Sie Ihre Datenbank immer überprüfen und aktualisieren und sicherstellen, dass alle Profile aktiv und real sind. Versandfehler können vorübergehend oder dauerhaft sein - Softbounce oder Hardbounce - je nachdem, warum die Nachricht nicht zugestellt wurde.
+Daher sollten Sie Ihre Datenbank immer überprüfen und aktualisieren und sicherstellen, dass alle Profile aktiv und real sind. Versandfehler können vorübergehend oder dauerhaft sein – Softbounce oder Hardbounce –, je nachdem, warum die Nachricht nicht zugestellt wurde.
 
-Die **Fehler** zeigt die folgenden KPIs für jeden Kanal an:
+Der Indikator **Fehler** zeigt für jeden Kanal die folgenden KPIs an:
 
 * Prozentualer Anteil der fehlerhaften Nachrichten in Bezug auf die Gesamtzahl der zu sendenden Nachrichten.
 
