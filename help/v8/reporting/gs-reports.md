@@ -4,7 +4,7 @@ title: Erste Schritte mit Berichten
 description: Erfahren Sie, wie Sie in Campaign Web auf Berichte zugreifen und diese verwalten können.
 badge: label="Alpha"
 source-git-commit: 12578ed208ba9261b69ba5907c0083e483248a49
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '172'
 ht-degree: 100%
 
