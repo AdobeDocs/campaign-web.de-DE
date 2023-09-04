@@ -3,11 +3,11 @@ audience: end-user
 title: Auswählen einer bestehenden Zielgruppe
 description: Erfahren Sie, wie Sie eine Zielgruppe auswählen
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
-badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+badge: label="Beta"
+source-git-commit: 334014d3d89c878617b8e43ea73c9ff4e957f6d7
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 100%
+source-wordcount: '294'
+ht-degree: 58%
 
 ---
 
@@ -17,14 +17,14 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience_select"
 >title="Auswählen einer bestehenden Zielgruppe"
->abstract="Die Audiences werden in der Adobe Campaign v8-Konsole definiert. Wenn Sie über eine Adobe Experience Platform-Integration verfügen, sollten Sie auch in Platform definierte Audiences anzeigen können."
+>abstract="Durchsuchen Sie die Liste, um eine vorhandene Zielgruppe auszuwählen. Verwenden Sie das Symbol Filter anzeigen , um die Liste zu filtern, oder wählen Sie einen bestimmten Ordner aus."
 
 In diesem Abschnitt wird beschrieben, wie Sie bei der Definition der Zielgruppe eines E-Mail-Versands eine bestehende Audience auswählen.
 
 Außerdem haben Sie folgende Möglichkeiten:
 
 * Erstellen Sie eine neue Zielgruppe. [Weitere Informationen](segment-builder.md)
-* Laden Sie eine Zielgruppe aus einer externen Datei. [Weitere Informationen](file-audience.md)
+* Laden Sie eine Audience aus einer externen Datei (nur für E-Mails). [Weitere Informationen](file-audience.md)
 * Verwenden Sie eine Adobe Experience Platform-Audience. [Weitere Informationen](aep-audience.md).
 
 
@@ -36,21 +36,16 @@ Gehen Sie wie folgt vor, um eine vorhandene Audience für Ihre Nachricht auszuw�
 
 1. Klicken Sie auf **[!UICONTROL Audience auswählen]**, um eine bestehende Audience zu verwenden. Um eine neue Audience zu erstellen, die in dieser E-Mail verwendet werden soll, wählen Sie **Eigene erstellen**. Näheres dazu finden Sie in [diesem Abschnitt](segment-builder.md).
 
-   Dieser Bildschirm zeigt alle bestehenden Zielgruppen an, die in der Adobe Campaign Client-Konsole für den aktuellen Ordner definiert sind.
+   Auf diesem Bildschirm werden alle vorhandenen Zielgruppen für den aktuellen Ordner angezeigt.
 
    ![](assets/create-audience2.png)
 
-   >[!NOTE]
-   >
-   >Um Adobe Experience Platform-Audiences zu nutzen, müssen Sie die Integration mit Zielen konfigurieren. Weiterführende Informationen finden Sie in der [Dokumentation zu Zielen](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=de){target="_blank"}.
+   Zielgruppen werden aus dem **Zielgruppe** Menü links. Sie können auch in der Client-Konsole erstellt werden.
+
+   Um Adobe Experience Platform-Zielgruppen zu verwenden, müssen Sie die Integration mit Zielen konfigurieren. Siehe Abschnitt [Dokumentation zu Adobe Experience Platform-Zielen](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=de){target="_blank"}.
 
 1. Wählen Sie eine Audience aus und klicken Sie auf **Auswählen**.
-
-1. Klicken Sie auf **Regeln bearbeiten**, wenn Sie Ihre Audience einschränken möchten.
-
-   ![](assets/create-audience3.png)
-
-1. Mit dem Regel-Builder können Sie Ihre Audience mit zusätzlichen Filtern oder durch die Kombination verschiedener Audiences anreichern. Weitere Informationen finden Sie in [diesem Abschnitt](segment-builder.md).
+1. Verwenden Sie die **Filter anzeigen** -Symbol, um Filteroptionen anzuzeigen. Klicks **Regeln hinzufügen** Zugriff auf den Regel-Builder: Mithilfe des Regel-Builders können Sie erweiterte Filter für die Liste der Zielgruppen erstellen. In diesem Abschnitt erfahren Sie, wie Sie den Regel-Builder verwenden. [Abschnitt](segment-builder.md).
 
    ![](assets/create-audience4.png)
 

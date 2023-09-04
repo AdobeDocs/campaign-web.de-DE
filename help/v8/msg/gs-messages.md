@@ -2,12 +2,12 @@
 audience: end-user
 title: Erste Schritte mit Nachrichten und Sendungen in Campaign v8 Web
 description: Erfahren Sie, wie Sie Campaign Web verwenden, um mit Sendungen zu arbeiten und Nachrichten zu senden
-badge: label="Alpha"
+badge: label="Beta"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: eaa45c6801ddcc5f4cdc3ec944a61b348ab57603
+source-git-commit: 334014d3d89c878617b8e43ea73c9ff4e957f6d7
 workflow-type: tm+mt
-source-wordcount: '1118'
-ht-degree: 100%
+source-wordcount: '1131'
+ht-degree: 95%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_list"
 >title="Sendungen"
->abstract="Durchsuchen Sie Ihre Sendungenliste. Sie können Status, Kontakt- und Änderungsdaten sowie wichtige KPIs anzeigen. Sie können die Liste nach Status, Kontaktdatum oder Kanal filtern. Klicken Sie auf die Schaltfläche „Versand erstellen“, um einen neuen Versand hinzuzufügen. Wählen Sie einen Versand aus, um seinen Inhalt, seine Zielgruppe und Details anzuzeigen."
+>abstract="Ein Versand ist eine Marketing-Kommunikation, die an eine Audience über einen bestimmten Kanal gesendet wird: E-Mail, SMS oder Push-Benachrichtigung. In Ihrer Versandliste können Sie vorhandene Sendungen bearbeiten und ihren Status, ihr Kontakt- und Änderungsdatum sowie ihre KPIs überprüfen. Klicken Sie auf die Schaltfläche „Versand erstellen“, um einen neuen Versand hinzuzufügen. Wählen Sie einen Versand aus, um dessen Inhalt, Zeitplan, Zielgruppe und Details anzuzeigen."
 
 
 Mit Adobe Campaign können Sie Cross-Channel-Kampagnen einschließlich E-Mails, SMS und Push-Benachrichtigungen senden und deren Effektivität mithilfe verschiedener dedizierter Berichte messen.

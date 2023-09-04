@@ -3,11 +3,11 @@ audience: end-user
 title: Durchführen von Testsendungen
 description: Erfahren Sie, wie Sie Testsendungen definieren und durchführen.
 exl-id: b2677579-c95d-443d-b207-466af364c208
-badge: label="Alpha"
-source-git-commit: f7921a1baf5564fc59ecaa1e16370ec2670576ce
+badge: label="Beta"
+source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
 workflow-type: tm+mt
-source-wordcount: '1030'
-ht-degree: 100%
+source-wordcount: '1032'
+ht-degree: 98%
 
 ---
 
@@ -35,7 +35,7 @@ Je nach verwendetem Kanal können Testnachrichten an drei Empfängertypen gesend
 
 * [Testprofile](#test-profiles): Senden von **Test-E-Mails und Test-SMS** an Testadressen, bei denen es sich um zusätzliche Empfängerinnen und Empfänger in der Datenbank handelt.
 
-  Diese können in der [!DNL Campaign]-Konsole im Ordner **[!UICONTROL Ressourcen]** > **[!UICONTROL Kampagnen-Management]** > **[!UICONTROL Testadressen]** erstellt werden. Weitere Informationen finden Sie in der [Dokumentation zu Campaign v8 (Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html?lang=de){target="_blank"}
+  Diese können in der [!DNL Campaign]-Konsole im Ordner **[!UICONTROL Ressourcen]** > **[!UICONTROL Kampagnen-Management]** > **[!UICONTROL Testadressen]** erstellt werden. Weitere Informationen finden Sie unter [Dokumentation zu Campaign v8 (Clientkonsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html?lang=de){target="_blank"}
 
 * [Aus Hauptzielgruppe ersetzen](#substitution-profiles): Senden von **Test-E-Mails und Test-SMS** an eine bestimmte E-Mail-Adresse oder Telefonnummer, wobei die Identität eines vorhandenen Profils angenommen wird.
 
@@ -43,7 +43,7 @@ Je nach verwendetem Kanal können Testnachrichten an drei Empfängertypen gesend
 
 * [Abonnentinnen und Abonnenten](#subscribers): Senden von **Test-Push-Benachrichtigungen** an fiktive Abonnentinnen oder Abonnenten, die zur Datenbank hinzugefügt wurden.
 
-  Sie können wie Testprofile in der [!DNL Campaign]-Konsole im Ordner **[!UICONTROL Ressourcen]** > **[!UICONTROL Kampagnen-Management]** > **[!UICONTROL Testadressen]** erstellt werden. Weitere Informationen finden Sie in der [Dokumentation zu Campaign v8 (Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html?lang=de){target="_blank"}
+  Sie können wie Testprofile in der [!DNL Campaign]-Konsole im Ordner **[!UICONTROL Ressourcen]** > **[!UICONTROL Kampagnen-Management]** > **[!UICONTROL Testadressen]** erstellt werden. Weitere Informationen finden Sie unter [Dokumentation zu Campaign v8 (Clientkonsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html?lang=de){target="_blank"}
 
 Um die Empfängerinnen und Empfänger für einen Testversand auszuwählen, gehen Sie entsprechend dem gewünschten Profiltyp wie folgt vor:
 

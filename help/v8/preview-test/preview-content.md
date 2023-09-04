@@ -3,11 +3,11 @@ audience: end-user
 title: Anzeigen des Versandinhalts in einer Vorschau
 description: Erfahren Sie, wie Sie mit der Web-Benutzeroberfläche von Campaign den Versandinhalt in einer Vorschau anzeigen können.
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
-badge: label="Alpha"
-source-git-commit: 4a439abca9c7b1f2cc5d82214efb0aae033a996c
+badge: label="Beta"
+source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 100%
+source-wordcount: '343'
+ht-degree: 95%
 
 ---
 
@@ -38,9 +38,9 @@ Gehen Sie wie folgt vor, um den Versandinhalt in einer Vorschau anzuzeigen.
 
      >[!NOTE]
      >
-     >Testprofile können in der [!DNL Campaign]-Konsole im Ordner **[!UICONTROL Ressourcen]** > **[!UICONTROL Kampagnen-Management]** > **[!UICONTROL Testadressen]** erstellt werden. Weitere Informationen finden Sie in der Dokumentation zu [Campaign v8 (Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html?lang=de){target="_blank"}.
+     >Testprofile können in der [!DNL Campaign]-Konsole im Ordner **[!UICONTROL Ressourcen]** > **[!UICONTROL Kampagnen-Management]** > **[!UICONTROL Testadressen]** erstellt werden. Weitere Informationen finden Sie unter [Dokumentation zu Campaign v8 (Clientkonsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html?lang=de){target="_blank"}.
 
-   * Die Registerkarte **[!UICONTROL Profile]** listet alle Empfängerinnen und Empfänger auf, die über die [!DNL Campaign]-Konsole im Ordner **[!UICONTROL Profile und Zielgruppen]** gespeichert wurden. Weitere Informationen finden Sie in der [Dokumentation zu Campaign v8 (Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/view-profiles.html?lang=de){target="_blank"}.
+   * Die Registerkarte **[!UICONTROL Profile]** listet alle Empfängerinnen und Empfänger auf, die über die [!DNL Campaign]-Konsole im Ordner **[!UICONTROL Profile und Zielgruppen]** gespeichert wurden. Weitere Informationen finden Sie unter [Dokumentation zu Campaign v8 (Clientkonsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/view-profiles.html?lang=de){target="_blank"}.
 
    ![](assets/simulate-select-profiles.png)
 

@@ -3,20 +3,20 @@ audience: end-user
 title: Neue Funktionen in Campaign Web v8
 description: Entdecken Sie neue Funktionen von Campaign Web v8.
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-badge: label="Alpha"
-source-git-commit: 0a4d4295f8c460298dcc61fcfc78e8cb09fe963e
+badge: label="Beta"
+source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
 workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 100%
+source-wordcount: '536'
+ht-degree: 90%
 
 ---
 
 
 # Neue Funktionen {#new}
 
-## Alpha-Version 2.0{#alpha-release}
+## Beta-Version{#beta-release}
 
-Diese moderne Web-Benutzeroberfläche von Campaign ist derzeit nur für **Alpha-Anwendende** verfügbar und enthält die folgenden Funktionen:
+Diese neue Campaign-Webschnittstelle ist derzeit nur für **Beta-Fachkräfte** mit den folgenden Funktionen:
 
 **Modernes, intuitives und einheitliches Erlebnis**
 
@@ -53,6 +53,7 @@ Als Benutzerin oder Benutzer von Campaign können Sie weiterhin auf die Client-K
 
 Darüber hinaus sind alle Daten und Einstellungen, die bereits in der Client-Konsole verfügbar sind, in der Campaign Web-Benutzeroberfläche im linken Navigationsbereich des Explorers sichtbar. Weitere Informationen zur Explorer-Ansicht finden Sie in [diesem Abschnitt](../get-started/user-interface.md#explorer-user-interface-explorer).
 
+In der Campaign Web Beta-Version spiegelt die Benutzeroberfläche die Berechtigungen des Benutzers wider. Weitere Informationen zu Berechtigungen finden Sie unter [diese Seite](../get-started/permissions.md)
 
 ## Aktualisierungen der Terminologie {#terminology-updates}
 
@@ -68,7 +69,7 @@ Bestehende Campaign-Benutzende sollten beachten, dass einige Konzepte entspreche
 
 Für diese Alpha-Version gelten die folgenden Einschränkungen:
 
-* Die einzigen bearbeitbaren Objekte sind Sendungen, Kampagnen, Workflows, Zielgruppen und Vorlagen. Alle weiteren sind schreibgeschützt. Verwenden Sie Filter, um alle zu durchsuchen.
+* Bearbeitbare Objekte sind: Sendungen, Kampagnen, Workflows, Zielgruppen, An-/Abmeldedienst, vordefinierte Filter und Vorlagen. Alle weiteren sind schreibgeschützt. Verwenden Sie Filter, um alle zu durchsuchen.
 * Zielgruppen können nicht für die zukünftige Verwendung gespeichert werden.
 * Die Benutzeroberfläche „Administration“ ist nicht verfügbar.
 * Reporting-Metriken (wie Öffnungen und Tracking-Daten) werden stündlich aktualisiert.

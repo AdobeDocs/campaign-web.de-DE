@@ -3,11 +3,11 @@ audience: end-user
 title: Erste Schritte mit Campaign v8 Web
 description: Erste Schritte mit Campaign v8 Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
-badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+badge: label="Beta"
+source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
 workflow-type: tm+mt
-source-wordcount: '505'
-ht-degree: 100%
+source-wordcount: '506'
+ht-degree: 96%
 
 ---
 
@@ -58,4 +58,4 @@ Kampagnendaten werden auf dem Anwendungs-Server gespeichert. Daten sind sowohl �
 
 Einige Objekte können nur in der Client-Konsole erstellt und verwaltet werden. Sie können in der Web-Benutzeroberfläche von Campaign angezeigt und verwendet werden, können jedoch nicht in dieser Umgebung erstellt oder geändert werden. Alle Campaign-Objekte und -Komponenten stehen in der Explorer-Ansicht zur Verfügung, die im linken Navigationsbereich verfügbar ist.
 
-Weitere Informationen zur Verwendung von Campaign v8 finden Sie in der [Dokumentation zu Campaign v8 (Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=de){target="_blank"}.
+Weitere Informationen zur Verwendung von Campaign v8 finden Sie unter [Dokumentation zu Campaign v8 (Clientkonsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=de){target="_blank"}.

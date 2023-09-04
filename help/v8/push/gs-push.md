@@ -2,12 +2,12 @@
 audience: end-user
 title: Erste Schritte mit Push-Benachrichtigungen
 description: Erfahren Sie, wie Sie Push-Benachrichtigungen mit Adobe Campaign Web erstellen und senden
-badge: label="Alpha"
+badge: label="Beta"
 exl-id: f90d915f-d357-4309-bef5-0dedc30280d7
-source-git-commit: a653fe4329f449a94f8056e4b5f2247bd839b87a
+source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 100%
+source-wordcount: '201'
+ht-degree: 93%
 
 ---
 
@@ -23,7 +23,7 @@ Um Push-Benachrichtigungen zu erstellen, haben Sie drei Möglichkeiten:
 
 * Eigenständige Sendungen: Binden Sie Kundinnen und Kunden direkt und sofort mit individuellen Push-Benachrichtigungen ein, ohne dass Workflows oder Kampagnen erforderlich sind.
 
-![](../assets/do-not-localize/book.png) Weitere Informationen zum Konfigurieren eines Kanals für Push-Benachrichtigungen finden Sie in der [Dokumentation zu Campaign v8 (Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/push.html?lang=de){target="_blank"}.
+![](../assets/do-not-localize/book.png) Erfahren Sie, wie Sie den Kanal für Push-Benachrichtigungen in konfigurieren [Dokumentation zu Campaign v8 (Clientkonsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/push.html?lang=de){target="_blank"}.
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>

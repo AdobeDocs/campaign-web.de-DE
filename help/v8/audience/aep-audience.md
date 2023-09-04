@@ -2,12 +2,12 @@
 audience: end-user
 title: Verwenden einer Adobe Experience Platform-Zielgruppe
 description: Erfahren Sie, wie Sie eine Audience aus Adobe Experience Platform verwenden
-badge: label="Alpha"
+badge: label="Beta"
 exl-id: beb73107-3d27-40ac-afef-ac2b66ae8d34
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
 workflow-type: tm+mt
-source-wordcount: '288'
-ht-degree: 100%
+source-wordcount: '289'
+ht-degree: 97%
 
 ---
 
@@ -19,7 +19,7 @@ Nachdem Sie eine Adobe Experience Platform-Zielgruppe erstellt haben und sie in 
 
 >[!NOTE]
 >
->Um Adobe Experience Platform-Zielgruppen in Campaign verwenden zu können, müssen Sie die Integration mit Adobe-Quellen und -Zielen konfigurieren. Weitere Informationen finden Sie in der [Dokumentation zu Campaign v8 (Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html?lang=de){target="_blank"}.
+>Um Adobe Experience Platform-Zielgruppen in Campaign verwenden zu können, müssen Sie die Integration mit Adobe-Quellen und -Zielen konfigurieren. Siehe Abschnitt [Dokumentation zu Campaign v8 (Clientkonsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html?lang=de){target="_blank"}.
 
 
 Zur Auswahl der Zielgruppe eines Versands haben Sie außerdem folgende Möglichkeiten:
