@@ -5,15 +5,15 @@ description: Liste der nicht unterstützten Funktionen in der Campaign-Web-Benut
 badge: label="Beta"
 hide: true
 hidefromtoc: true
-source-git-commit: 86934e4f00ddde2edb1ef4fd3b162f0b6e514db6
+source-git-commit: e72790238d9a8e23fe18131af436ffea9bacc3cc
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '350'
 ht-degree: 12%
 
 ---
 
 
-# Nicht unterstützte Funktionen in der Campaign-Web-Benutzeroberfläche {#unsupported-capabilities}
+# Nicht unterstützte Funktionen im Campaign Web {#unsupported-capabilities}
 
 Die folgenden Funktionen sind in der Campaign-Client-Konsole verfügbar, aber noch nicht in der Web-Benutzeroberfläche. Einige werden in einer späteren Version verfügbar sein, andere jedoch nicht.
 
@@ -22,17 +22,13 @@ Die folgenden Funktionen sind in der Campaign-Client-Konsole verfügbar, aber no
 * Startseiten-Dashboard
 * Anpassung der Startseite
 
-
 **Kampagnen-Management**
 
 * Marketingkalender/Timeline
 * Verwaltung von Budgets und Kosten
 * Aufgabenverwaltung
-* Dezentrales Marketing
+* Dezentrales Marketing (zentrales/lokales Marketing)
 * Reaktionsverwaltung
-
-**Kampagnenoptimierung**
-
 * A/B-Tests
 * Marketing Resource Management (MRM), Ziele, Simulationen, Budget und Kosten
 
@@ -46,6 +42,7 @@ Die folgenden Funktionen sind in der Campaign-Client-Konsole verfügbar, aber no
 **Webinhalt**
 
 * Erstellung und Veröffentlichung von Landingpages
+* Web-Apps, Web-Formulare
 * Survey Management
 
 **Profile und Empfänger**
@@ -66,16 +63,16 @@ Die folgenden Funktionen sind in der Campaign-Client-Konsole verfügbar, aber no
 
 * Inhalt aus öffentlichen Mitteln
 * Schleifen/Sammlungsverwaltung
-* HTML-Inhalt als Vorlage speichern (nicht in der Client-Konsole verfügbar)
+* HTML-Inhalt als Vorlage speichern`*`
 * E-Mail-Vorlagensynchronisation von Adobe Experience Manager
 * Assets aus Adobe Experience Manager 6.5 in E-Mail-Inhalten
 * Erstellung von Inhaltsbausteinen
 * Inhalt aus benutzerdefinierten Formularen
-* Inhalt von einer URL (nicht in der Client-Konsole verfügbar)
+* Inhalt aus einer URL`*`
 * E-Mail-Fragmente
 * AMP für E-Mails
-* E-Mail-Fragmente (nicht in der Client-Konsole verfügbar)
-* Anwendungsfall für Multivarianz-/Mehrsprachigkeit (nicht in der Client-Konsole verfügbar)
+* E-Mail-Fragmente`*`
+* Anwendungsfall: Multivarianz/Mehrsprachig`*`
 
 **Typologieregeln**
 
@@ -125,3 +122,4 @@ Die folgenden Funktionen sind in der Campaign-Client-Konsole verfügbar, aber no
 * Validierung der Zielgruppe
 
 
+`*` Nicht in der Client-Konsole verfügbar
