@@ -4,10 +4,10 @@ title: Erstellen von Kampagnen mit Adobe Campaign Web
 description: Erfahren Sie, wie Sie mit Adobe Campaign Web Cross-Channel-Kampagnen erstellen
 badge: label="Beta"
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: b2ac88aba987086c9e2893d48beb03ff57075270
 workflow-type: tm+mt
-source-wordcount: '298'
-ht-degree: 100%
+source-wordcount: '478'
+ht-degree: 58%
 
 ---
 
@@ -17,21 +17,16 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_properties"
 >title="Kampagnenerstellungs-Eigenschaften"
->abstract="Eigenschaften und Metadaten für die Kampagne definieren."
+>abstract="Definieren Sie in diesem Bildschirm die Kampagnenparameter: Wählen Sie eine Vorlage aus und geben Sie einen Titel für die Kampagne ein. Navigieren Sie zu den zusätzlichen Einstellungen, um den standardmäßigen internen Namen und Ordner zu ändern, eine Beschreibung hinzuzufügen und den Verantwortlichen auszuwählen."
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_properties"
 >title="Eigenschaften der Kampagne"
->abstract="Definieren Sie Kampagneneinstellungen und Metadaten."
+>abstract="In diesem Bildschirm können Sie Ihre Kampagneneinstellungen überprüfen und aktualisieren: Titel, interner Name, Ordner und Beschreibung. Sie können auch anzeigen, welchem Benutzer er zugewiesen ist."
 
-Um eine neue Kampagne zu erstellen, müssen Sie deren Eigenschaften definieren, Workflows und Versandvorgänge planen und einschließen.
+Um eine neue Kampagne zu erstellen, müssen Sie deren Eigenschaften definieren, Workflows planen und Sendungen einschließen.
 
 ## Erstellen der Kampagne{#campaign-create}
-
->[!CONTEXTUALHELP]
->id="acw_campaign_creation_schedule"
->title="Kampagnenzeitplan"
->abstract="Kampagnenkalender während der Kampagnenerstellung definieren."
 
 Um eine neue Kampagne zu erstellen, gehen Sie folgendermaßen vor:
 
@@ -39,14 +34,7 @@ Um eine neue Kampagne zu erstellen, gehen Sie folgendermaßen vor:
 1. Wählen Sie die zu verwendende **Vorlage** und geben Sie eine Bezeichnung für die Kampagne ein. Kampagnenvorlagen sind so vorkonfiguriert, dass sie zur Erstellung neuer Kampagnen wiederverwendet werden können. Sie werden über die Client-Konsole erstellt.
    [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html?lang=de)
 1. Bei Bedarf können Sie die folgenden **zusätzlichen Optionen** ändern: interner Name, Ordner, Zuweisung, Beschreibung und Art.
-1. Definieren Sie den **Zeitplan** für Ihre Kampagne. Die Kampagne beginnt, wenn das Startdatum erreicht ist. Start- und Enddatum werden in der Kampagnenliste angezeigt und können als Filter verwendet werden. Weitere Informationen finden Sie in [diesem Abschnitt](manage-campaigns.md#access-campaigns).
-
-   ![Definieren von Kampagneneigenschaften](assets/campaign-properties.png)
-
-   >[!NOTE]
-   >
-   >Sie können diese Eigenschaften später jederzeit über das Symbol **Kampagneneinstellungen konfigurieren** neben der Kampagnenbezeichnung ändern. Siehe diesen [Abschnitt](gs-campaigns.md#campaign-dashboard).
-
+1. Definieren Sie den **Zeitplan** für Ihre Kampagne. Erfahren Sie, wie Sie den Kampagnenkalender in [diesem Abschnitt](#campaign-schedule)
 1. Wählen Sie **Erstellen** aus.
 1. Fügen Sie Workflows und Sendungen zu Ihrer Kampagne hinzu:
 
@@ -61,6 +49,29 @@ Die Überwachung von Kampagnen ist ein wichtiger Schritt zur Analyse der Effekti
 
 Sie können auch die entsprechenden Berichte anzeigen, indem Sie auf die Schaltfläche **Berichte** klicken. Weitere Informationen finden Sie in [diesem Abschnitt](../reporting/campaign-reports.md).
 
+
+## Kampagnenkalender definieren {#campaign-schedule}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_creation_schedule"
+>title="Kampagnenzeitplan"
+>abstract="Wählen Sie den Kampagnenkalender aus. Sie können die Kampagne erstellen, die mit Erreichen des Anfangsdatums beginnt. Standardmäßig ist das Kampagnenstartdatum das Erstellungsdatum und dauert fünf Tage. Start- und Enddatum werden in der Kampagnenliste angezeigt und können als Filter verwendet werden."
+
+
+Die Kampagne beginnt, wenn das Startdatum erreicht ist. Solange das Startdatum nicht erreicht ist, verfügt die Kampagne über die **[!UICONTROL Entwurf]** -Status. Wenn das Startdatum erreicht ist, wird **[!UICONTROL Gestartet]**. Sobald das Enddatum erreicht ist, wird die Kampagne auf **[!UICONTROL Abgeschlossen]**.
+
+Start- und Enddatum werden in der Kampagnenliste angezeigt und können als Filter verwendet werden. Weitere Informationen finden Sie in [diesem Abschnitt](manage-campaigns.md#access-campaigns).
+
+![Definieren von Kampagneneigenschaften](assets/campaign-properties.png)
+
+>[!NOTE]
+>
+>Sie können diese Eigenschaften später jederzeit über das Symbol **Kampagneneinstellungen konfigurieren** neben der Kampagnenbezeichnung ändern. Siehe diesen [Abschnitt](gs-campaigns.md#campaign-dashboard).
+
+
+
+Sobald das Datum erreicht ist, werden in der Kampagne im Rahmen eines Workflows erstellte Sendungen, die versandbereit sind, tatsächlich gesendet. Dazu muss der Workflow gestartet worden sein.
 
 
 <!--
