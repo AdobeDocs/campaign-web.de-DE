@@ -4,10 +4,10 @@ title: Eine erste E-Mail senden
 description: Erfahren Sie, wie Sie Ihre erste E-Mail mit der Web-Benutzeroberfläche von Campaign senden.
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Beta"
-source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
+source-git-commit: 351b60464d8623c34dea2c19bf86b2fa7b4fa45a
 workflow-type: tm+mt
-source-wordcount: '1329'
-ht-degree: 98%
+source-wordcount: '1324'
+ht-degree: 95%
 
 ---
 
@@ -16,8 +16,8 @@ ht-degree: 98%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card2"
->title="Erste Schritte mit E-Mails"
->abstract="Beginnen Sie mit einer Vorlage oder verwenden Sie den neuen E-Mail-Designer von Adobe Campaign, um E-Mails zu erstellen, ohne eine einzige Zeile Code schreiben zu müssen. Erfahren Sie in einem vollständigen Anwendungsfall, wie Sie mit dem E-Mail-Designer Ihre Inhalte erstellen, in der Vorschau anzeigen und testen und eine E-Mail an eine bestehende Zielgruppe senden."
+>title="Gen-KI für E-Mail-Inhalt"
+>abstract="Unsere Gen-KI-Technologie nutzt fortschrittliche Algorithmen, um sehr ansprechende und personalisierte Inhalte zu generieren. Steigern Sie Öffnungsraten, Clickthrough-Raten und Konversionen mit der intelligenten Inhaltserstellung von Gen AI. Bleiben Sie dem Wettbewerb voraus und heben Sie Ihr E-Mail-Marketing-Spiel mit Gen AI auf E-Mail-Inhalt auf."
 
 Erfahren Sie, wie Sie Ihre erste E-Mail an eine bestimmte Zielgruppe senden. In diesem Anwendungsfall planen Sie den Versand einer E-Mail an Silber- und Gold-Mitglieder des Treueprogramms zu einem bestimmten Datum.
 

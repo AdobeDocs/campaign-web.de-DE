@@ -7,21 +7,14 @@ role: Data Engineer
 level: Beginner
 badge: label="Beta"
 exl-id: b650a859-e27d-4a36-a725-a1f5bb31e014
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: 351b60464d8623c34dea2c19bf86b2fa7b4fa45a
 workflow-type: tm+mt
-source-wordcount: '953'
+source-wordcount: '909'
 ht-degree: 100%
 
 ---
 
 # Bedingte Inhalte erstellen{#add-conditions}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_card3"
->title="Erstellen bedingter Inhalte"
->abstract="Erstellen Sie bedingte Inhalte als Grundlage für dynamische Personalisierung anhand des Empfängerprofils und zur automatischen Ersetzung von Textblöcken und Bildern, wenn bestimmte Bedingungen erfüllt sind. Mit dieser Funktion bringen Sie Ihre Kampagnen auf eine neue Ebene und können Ihrer Zielgruppe zielgerichtete, personalisierte Erlebnisse bieten."
-
-
 
 >[!CONTEXTUALHELP]
 >id="acw_conditional_content"

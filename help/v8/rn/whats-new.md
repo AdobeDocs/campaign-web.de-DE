@@ -4,15 +4,18 @@ title: Neue Funktionen in Campaign Web v8
 description: Entdecken Sie neue Funktionen von Campaign Web v8.
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Beta"
-source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
+source-git-commit: 351b60464d8623c34dea2c19bf86b2fa7b4fa45a
 workflow-type: tm+mt
-source-wordcount: '536'
-ht-degree: 90%
+source-wordcount: '960'
+ht-degree: 50%
 
 ---
 
 
 # Neue Funktionen {#new}
+
+
+Wir freuen uns, die BETA-Version der Adobe Campaign-Web-Benutzeroberfläche vorstellen zu können. Unsere neueste Version enthält intuitive Funktionen, die die Erstellung personalisierter kanalübergreifender Kampagnen vereinfachen, außergewöhnliche Ergebnisse erzielen und Ihnen einen Wettbewerbsvorteil über alle Kanäle hinweg bieten.
 
 ## Beta-Version{#beta-release}
 
@@ -46,6 +49,54 @@ Verwenden Sie die neue Web-Benutzeroberfläche von Campaign für Folgendes:
 * Vorschau, Testen und Senden Ihrer E-Mail-Nachrichten – [Weitere Informationen](../monitor/prepare-send.md)
 * Überwachen, Senden und Messen von Ergebnissen mit integrierten Berichten – [Weitere Informationen](../reporting/delivery-reports.md)
 
+
+## Neueste Aktualisierungen
+
+
+**Beta-Zusammenfassung**
+
+* Aktivieren Sie die Zusammenstellung (Federated) von Daten für Zielgruppen und Personalisierung.
+* Nutzen Sie die KI-Technologie, um die Erstellung von E-Mail-Inhalten zu verbessern.
+* Synchronisieren Sie Assets und vollständige HTML-Vorlagen nahtlos.
+* Effiziente Organisation und Verwaltung Ihrer Ordner und Ressourcen
+* Erstellen Sie ansprechende und effektive Landingpages.
+* Mehr Workflow-Aktivitäten: Greifen Sie auf zusätzliche Aktivitäten wie Dimensionsänderung, Deduplizierung und wiederkehrende Sendungen zu, um die Kampagnen-Workflows zu verbessern.
+
+**Wichtige neue Funktionen**
+
+* Mehr Kampagnen-Workflow-Aktivitäten
+
+  Überlagern Sie Ihre Marketingkampagnen mit unseren erweiterten Workflow-Aktivitäten. Erschließen Sie neue Automatisierungs- und Optimierungsmöglichkeiten, um dynamischere und personalisiertere Journey zu erstellen.
+
+  Von der erweiterten Segmentierung bis hin zu bedingten Triggern ermöglichen unsere zusätzlichen Workflow-Aktivitäten den Versand zielgerichteter Nachrichten und die Verbesserung der Kampagnenleistung.
+
+* Gen-KI für E-Mail-Inhalt
+
+  Verabschieden Sie sich von der manuellen Inhaltserstellung und Hallo zu effizienten, datengesteuerten Kampagnen mit der Kraft der Gen AI.  Unsere Gen-KI-Technologie nutzt fortschrittliche Algorithmen, um sehr ansprechende und personalisierte Inhalte zu generieren. Steigern Sie Öffnungsraten, Clickthrough-Raten und Konversionen mit der intelligenten Inhaltserstellung von Gen AI.
+
+  Bleiben Sie dem Wettbewerb voraus und heben Sie Ihr E-Mail-Marketing-Spiel mit Gen AI auf E-Mail-Inhalt auf.
+
+
+* Vordefinierte Filterverwaltung
+
+  Einführung der vordefinierten Filterverwaltung. Die Campaign-Web-Benutzeroberfläche bietet Ihnen jetzt eine benutzerfreundliche Oberfläche, mit der Sie vordefinierte Filter mühelos verwalten und an Ihre spezifischen Anforderungen anpassen können. Erstellen Sie einmal und speichern Sie für die zukünftige Verwendung.
+
+
+* Zielgruppe
+
+  Das Erstellen einer Versandzielgruppe war nie einfacher! Mit unserem aktuellen Regel-Builder können Sie jetzt Filterkriterien für Empfänger oder eine andere Zielgruppendimension aus der Datenbank definieren. Darüber hinaus können Sie Ihre AEP (Adobe Experience Platform)-Zielgruppe nutzen, um Ihre Zielgruppe weiter zu verfeinern und die Wirkung Ihrer Kampagne zu maximieren.
+
+* Angebote mit SMS und Push-Benachrichtigungen
+
+  Die neue Web-Benutzeroberfläche ermöglicht jetzt die Integration von Angeboten mit SMS- und Push-Benachrichtigungen sowie E-Mail-Benachrichtigungen. Erreichen Sie Ihre Zielgruppe auf ihren Mobilgeräten, indem Sie Promotions und rechtzeitige Benachrichtigungen bereitstellen.
+
+  Steigern Sie Ihre Marketing-Maßnahmen, indem Sie die Leistungsfähigkeit integrierter Angebote durch SMS und Push-Benachrichtigungen auf unserer erweiterten Web-Plattform nutzen.
+
+* Adobe Experience Manager (AEM)-Integration
+
+  Dank unserer AEM-Integration, die auf die Web-Benutzeroberfläche erweitert wurde, können Sie einfach Assets verwalten und vollständige HTML-Vorlagen synchronisieren, sodass Sie ohne Probleme faszinierende digitale Erlebnisse erstellen können.
+
+  Dank dieser Integration können Sie Ihre Inhaltsverwaltungsfunktionen auf der Web-Benutzeroberfläche erweitern und optimieren, um die Produktivität zu steigern.
 
 ## Übergang zur Campaign Web-Benutzeroberfläche
 
