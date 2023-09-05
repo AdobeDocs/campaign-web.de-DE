@@ -12,7 +12,7 @@ ht-degree: 100%
 ---
 
 
-# Erstellen einer ersten Kampagne {#create-first-campaigns}
+# Erste Kampagne erstellen {#create-first-campaigns}
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_properties"
@@ -31,7 +31,7 @@ Um eine neue Kampagne zu erstellen, müssen Sie deren Eigenschaften definieren, 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_schedule"
 >title="Kampagnenzeitplan"
->abstract="Definieren des Kampagnenkalenders während der Kampagnenerstellung."
+>abstract="Kampagnenkalender während der Kampagnenerstellung definieren."
 
 Um eine neue Kampagne zu erstellen, gehen Sie folgendermaßen vor:
 

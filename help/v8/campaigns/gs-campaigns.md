@@ -26,7 +26,7 @@ Kampagnen bieten dedizierte Reporting-Metriken, mit denen Sie einen umfassenden 
 In den folgenden Abschnitten erfahren Sie, wie Sie Kampagnen erstellen und verwalten:
 
 * [Zugreifen auf und Verwalten von Kampagnen](manage-campaigns.md)
-* [Erstellen einer ersten Kampagne](create-campaigns.md)
+* [Erste Kampagne erstellen](create-campaigns.md)
 
 
 

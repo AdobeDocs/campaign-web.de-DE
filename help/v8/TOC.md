@@ -85,7 +85,7 @@ ht-degree: 97%
 + Cross-Channel-Kampagnen {#campaigns}
    + [Erste Schritte mit Kampagnen](campaigns/gs-campaigns.md)
    + [Zugreifen auf und Verwalten von Kampagnen](campaigns/manage-campaigns.md)
-   + [Erstellen einer ersten Kampagne](campaigns/create-campaigns.md)
+   + [Erste Kampagne erstellen](campaigns/create-campaigns.md)
 + Workflows {#wf}
    + [Erste Schritte mit Workflows](workflows/gs-workflows.md)
    + [Zugriff und Verwaltung von Workflows](workflows/access-monitor.md)
