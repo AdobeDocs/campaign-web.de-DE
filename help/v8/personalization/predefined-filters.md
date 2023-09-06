@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 badge: label="Beta"
-source-git-commit: 60362fadc63546158a6a6e7f7067f3dd520993a4
+source-git-commit: 8c99e49e6c75fc25699636ac1dfd803178c109c6
 workflow-type: tm+mt
-source-wordcount: '308'
+source-wordcount: '331'
 ht-degree: 2%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 2%
 >title="Vordefinierte Filter"
 >abstract="Campaign Web bietet Ihnen jetzt eine benutzerfreundliche Oberfläche, mit der Sie vordefinierte Filter mühelos verwalten und an Ihre spezifischen Anforderungen anpassen können. Erstellen Sie einmal und speichern Sie für die zukünftige Verwendung."
 
-Vordefinierte Filter sind benutzerdefinierte Filter, die für die zukünftige Verwendung verfügbar sind. Sie können bei Filtervorgängen mit dem Regel-Builder als Verknüpfungen verwendet werden.
+Vordefinierte Filter sind benutzerdefinierte Filter, die für die zukünftige Verwendung verfügbar sind. Sie können bei Filtervorgängen mit dem Regel-Builder als Verknüpfungen verwendet werden. Sie können vorhandene integrierte Filter verwenden, um auf einen bestimmten Teil Ihrer Daten zuzugreifen, oder Sie können einen eigenen vordefinierten Filter erstellen.
 
 
 ## Vordefinierten Filter erstellen {#create-predefined-filter}
@@ -65,3 +65,5 @@ Ihr benutzerdefinierter Filter ist jetzt im **Vordefinierte Filter** und für al
 
 ## Vordefinierte Filter verwalten {#manage-predefined-filter}
 
+
+## Vordefinierte Filter {#ootb-predefined-filter}
