@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 badge: label="Beta"
-source-git-commit: 00296b2a540f6e04c805e8bd1a057d9d127c6104
+source-git-commit: 60362fadc63546158a6a6e7f7067f3dd520993a4
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '308'
 ht-degree: 2%
 
 ---
@@ -25,13 +25,39 @@ ht-degree: 2%
 >title="Vordefinierte Filter"
 >abstract="Campaign Web bietet Ihnen jetzt eine benutzerfreundliche Oberfläche, mit der Sie vordefinierte Filter mühelos verwalten und an Ihre spezifischen Anforderungen anpassen können. Erstellen Sie einmal und speichern Sie für die zukünftige Verwendung."
 
-## Vordefinierten Filter erstellen {#create-predefined-filter}
+Vordefinierte Filter sind benutzerdefinierte Filter, die für die zukünftige Verwendung verfügbar sind. Sie können bei Filtervorgängen mit dem Regel-Builder als Verknüpfungen verwendet werden.
 
+
+## Vordefinierten Filter erstellen {#create-predefined-filter}
 
 >[!CONTEXTUALHELP]
 >id="acw_predefined-filters-creation"
 >title="Vordefinierten Filter erstellen"
->abstract="Geben Sie einen Titel für den vordefinierten Filter ein und wählen Sie die Tabelle aus, auf die er angewendet werden soll. Öffnen Sie die zusätzlichen Optionen, um eine Beschreibung hinzuzufügen und diesen Filter als Favoriten festzulegen. Definieren Sie dann mithilfe der Schaltfläche &#39;Regel erstellen&#39; die Filterbedingungen. "
+>abstract="Geben Sie einen Titel für den vordefinierten Filter ein und wählen Sie die Tabelle aus, auf die er angewendet werden soll. Öffnen Sie die zusätzlichen Optionen, um eine Beschreibung hinzuzufügen und diesen Filter als Favoriten festzulegen. Definieren Sie dann mithilfe der Schaltfläche &#39;Regel erstellen&#39; die Filterbedingungen."
+
+Beim Erstellen eines Filters mit dem Regel-Builder können Sie ihn für eine zukünftige Verwendung speichern. Wenn sie als benutzerdefinierter Filter gespeichert werden, ist sie für die zukünftige Verwendung verfügbar. Sie können auch vordefinierte Filter aus dem dedizierten Menü im linken Navigationsbereich erstellen und bearbeiten.
+
+![](assets/predefined-filters-menu.png)
+
+Gehen Sie wie folgt vor, um einen benutzerdefinierten Filter im Regel-Builder zu speichern:
+
+1. Öffnen Sie den Regel-Builder und definieren Sie Ihre Filterbedingungen. Im folgenden Beispiel filtern Sie die Empfänger, die in Madrid leben.
+1. Klicken Sie auf **Filter auswählen oder speichern** und wählen Sie **Als Filter speichern**.
+
+   ![](assets/predefined-filters-save.png)
+
+1. Auswählen **Neuen Filter erstellen** und geben Sie einen Namen und eine Beschreibung für diesen Filter ein.
+
+   ![](assets/predefined-filters-save-filter.png)
+
+1. (optional) Aktivieren Sie die **Als Favoriten speichern** auswählen, wenn Sie diesen vordefinierten Filter in Ihren Favoriten sehen möchten.
+
+   ![](assets/predefined-filters-favorite.png)
+
+1. Klicken Sie auf **Bestätigen**, um Ihre Änderungen zu speichern.
+
+Ihr benutzerdefinierter Filter ist jetzt im **Vordefinierte Filter** und für alle Campaign-Benutzer zugänglich sein.
+
 
 ## Vordefinierten Filter verwenden {#use-predefined-filter}
 
