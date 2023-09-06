@@ -5,9 +5,9 @@ title: Adobe Campaign v8 – Web-Dokumentation
 description: Web-Dokumentation zu Campaign v8
 breadcrumb-title: Übersicht über Campaign
 hide: true
-source-git-commit: 351b60464d8623c34dea2c19bf86b2fa7b4fa45a
+source-git-commit: e2ff9efcedbfc46f9d943c30fabb1b3b39c43b74
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '365'
 ht-degree: 97%
 
 ---
@@ -68,7 +68,7 @@ ht-degree: 97%
       + [Hinzufügen von Personalisierung](personalization/personalize.md)
       + [Hinzufügen bedingter Inhalte](personalization/conditions.md)
       + [Hinzufügen von integrierten Inhaltsbausteinen](personalization/content-blocks.md)
-      + [Vordefinierte Filter erstellen und verwenden](personalization/predefined-filters.md)
+      + [Arbeiten mit vordefinierten Filtern](personalization/predefined-filters.md)
    + [Senden von Angeboten](content/offers.md)
    + Vorschau und Testen eines Versands{#preview-test}
       + [Über die Vorschau und Tests](preview-test/preview-test.md)
