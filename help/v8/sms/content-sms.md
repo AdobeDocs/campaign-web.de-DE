@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie einen SMS-Versand entwerfen.
 badge: label="Beta"
 exl-id: 1a70d033-6f1b-482b-9948-59ef75871750
 source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '179'
 ht-degree: 100%
 

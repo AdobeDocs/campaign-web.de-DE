@@ -1,15 +1,15 @@
 ---
-title: Key Performance Indicators
-description: Erfahren Sie, wie Sie die wichtigsten Leistungsindikatoren verstehen.
+title: Wichtige Leistungsindikatoren
+description: Lernen Sie, die wichtigsten Leistungsindikatoren zu verstehen.
 badge: label="Beta"
 source-git-commit: e784f9aeb0805269561065c10ccbbf6756e62e44
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '869'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# Key Performance Indicators {#kpis}
+# Wichtige Leistungsindikatoren {#kpis}
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_spam"

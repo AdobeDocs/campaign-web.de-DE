@@ -5,7 +5,7 @@ description: Entdecken Sie neue Funktionen von Campaign Web v8.
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Beta"
 source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '506'
 ht-degree: 100%
 

@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie mit Empfängerinnen und Empfängern aus einer
 badge: label="Beta"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
 source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '325'
 ht-degree: 100%
 

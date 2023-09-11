@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie Links hinzufügen und gesendete Nachrichten v
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
 badge: label="Beta"
 source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '366'
 ht-degree: 100%
 

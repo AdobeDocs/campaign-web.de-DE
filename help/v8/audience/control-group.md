@@ -5,9 +5,9 @@ description: Erfahren Sie, wie Sie in der Web-Benutzeroberfläche von Campaign e
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
 badge: label="Beta"
 source-git-commit: 334014d3d89c878617b8e43ea73c9ff4e957f6d7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '780'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ Um eine Kontrollgruppe zu einem Versand hinzuzufügen, aktivieren Sie den Umscha
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_controlgroup_target"
 >title="Extraktionsmodus"
->abstract="Eine Kontrollgruppe ist eine Gruppe von Profilen, die vom Versand ausgeschlossen sind. Um eine Kontrollgruppe zu definieren, können Sie nach dem Zufallsprinzip oder basierend auf einer Sortierung einen Prozentsatz oder eine feste Anzahl von Profilen aus der Zielgruppenpopulation extrahieren."
+>abstract="Eine Kontrollgruppe ist ein Satz von Profilen, die vom Versand ausgeschlossen sind. Um eine Kontrollgruppe zu definieren, können Sie nach dem Zufallsprinzip oder basierend auf einer Sortierung einen Prozentsatz oder eine feste Anzahl von Profilen aus der Zielgruppenpopulation extrahieren."
 
 
 ### Erstellen einer Kontrollgruppe {#build-extract-target}
@@ -104,7 +104,7 @@ Weitere Informationen über Versandlogs finden Sie in [diesem Abschnitt](../moni
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_controlgroup_extra"
 >title="Zusätzliche Population"
->abstract="Eine Kontrollgruppe ist eine Gruppe von Profilen, die vom Versand ausgeschlossen sind. Sie können eine bestimmte Population aus der Versand-Zielgruppe ausschließen, indem Sie eine existierende Zielgruppe auswählen oder eine Abfrage definieren."
+>abstract="Eine Kontrollgruppe ist ein Satz von Profilen, die vom Versand ausgeschlossen sind. Sie können eine bestimmte Population aus der Versand-Zielgruppe ausschließen, indem Sie eine existierende Zielgruppe auswählen oder eine Abfrage definieren."
 
 Eine andere Möglichkeit, eine Kontrollgruppe zu definieren, ist die Auswahl einer bestimmten Population in einer bestehenden Zielgruppe oder die Definition einer Abfrage.
 

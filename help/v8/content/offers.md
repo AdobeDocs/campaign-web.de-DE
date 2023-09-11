@@ -5,16 +5,16 @@ description: Senden von Angeboten
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
 badge: label="Beta"
 source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '641'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
 
 # Senden von Angeboten {#offers-content}
 
-Adobe Campaign v8 Web ermöglicht es Ihnen, Angebote in den Versand einzuschließen, die in der Konsole mithilfe des Moduls **[!UICONTROL Interaction]** erstellt wurden. Weiterführende Informationen zu Interaction und zur Verwaltung eines Angebotskatalogs in der Konsole finden Sie im Abschnitt [Dokumentation zu Campaign v8 (Clientkonsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=de){target="_blank"}.
+Adobe Campaign v8 Web ermöglicht es Ihnen, Angebote in den Versand einzuschließen, die in der Konsole mithilfe des Moduls **[!UICONTROL Interaction]** erstellt wurden. Weitere Informationen zur Interaktion und Verwaltung eines Angebotskatalogs in der Konsole finden Sie in der [Dokumentation zu Campaign v8 (Client-Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=de){target="_blank"}.
 
 Die wichtigsten Schritte zum Einschließen von Angeboten in einen Versand sind:
 
@@ -39,7 +39,7 @@ Die wichtigsten Schritte zum Einschließen von Angeboten in einen Versand sind:
 
 1. Konfigurieren Sie, welche Angebote den Empfängerinnen und Empfängern unterbreitet werden sollen.
 
-   Wählen Sie zunächst die **[!UICONTROL Platzierung]** entsprechend Ihrer Angebotsumgebung. Erfahren Sie, wie Sie eine Platzierung im [Dokumentation zu Campaign v8 (Clientkonsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-settings/interaction-offer-spaces.html?lang=de){target="_blank"}
+   Wählen Sie zunächst die **[!UICONTROL Platzierung]** entsprechend Ihrer Angebotsumgebung. Wie Sie eine Platzierung erstellen, erfahren Sie in der [Dokumentation zu Campaign v8 (Client-Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-settings/interaction-offer-spaces.html?lang=de){target="_blank"}
 
    ![](assets/create-content-offers.png)
 

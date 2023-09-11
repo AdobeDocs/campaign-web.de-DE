@@ -5,9 +5,9 @@ description: Erfahren Sie, wie Sie eine E-Mail mit der Web-Benutzeroberfläche v
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
 badge: label="Beta"
 source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '872'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Wenn Sie [Inhalt](../content/edit-content.md), [Zielgruppe](../audience/add-audi
 
 Während der Vorbereitung wird die Zielpopulation berechnet und der Nachrichteninhalt für jedes Profil in der Zielgruppe erzeugt. Nachdem die Vorbereitung abgeschlossen ist, können die Nachrichten entweder sofort oder am geplanten Datum und zur geplanten Uhrzeit gesendet werden.
 
-Die bei der Versandvorbereitung verwendeten Validierungsregeln werden im Abschnitt [Dokumentation zu Campaign v8 (Clientkonsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/validate/delivery-analysis.html?lang=de){target="_blank"}.
+Die bei der Versandvorbereitung verwendeten Validierungsregeln sind in der Dokumentation zu [Campaign v8 (Client-Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/validate/delivery-analysis.html?lang=de){target="_blank"} beschrieben.
 
 Die wichtigsten Schritte zur Versandvorbereitung sind unten aufgeführt.
 

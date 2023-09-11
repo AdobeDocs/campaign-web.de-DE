@@ -5,9 +5,9 @@ description: Erfahren Sie, wie Sie eine Zielgruppe auswählen
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
 badge: label="Beta"
 source-git-commit: 334014d3d89c878617b8e43ea73c9ff4e957f6d7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '294'
-ht-degree: 58%
+ht-degree: 100%
 
 ---
 
@@ -17,14 +17,14 @@ ht-degree: 58%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience_select"
 >title="Auswählen einer bestehenden Zielgruppe"
->abstract="Durchsuchen Sie die Liste, um eine vorhandene Zielgruppe auszuwählen. Verwenden Sie das Symbol Filter anzeigen , um die Liste zu filtern, oder wählen Sie einen bestimmten Ordner aus."
+>abstract="Durchsuchen Sie die Liste, um eine vorhandene Zielgruppe auszuwählen. Verwenden Sie das Symbol „Filter anzeigen“, um die Liste zu filtern, oder wählen Sie einen bestimmten Ordner aus."
 
 In diesem Abschnitt wird beschrieben, wie Sie bei der Definition der Zielgruppe eines E-Mail-Versands eine bestehende Audience auswählen.
 
 Außerdem haben Sie folgende Möglichkeiten:
 
 * Erstellen Sie eine neue Zielgruppe. [Weitere Informationen](segment-builder.md)
-* Laden Sie eine Audience aus einer externen Datei (nur für E-Mails). [Weitere Informationen](file-audience.md)
+* Laden Sie eine Zielgruppe aus einer externen Datei (nur für E-Mails). [Weitere Informationen](file-audience.md)
 * Verwenden Sie eine Adobe Experience Platform-Audience. [Weitere Informationen](aep-audience.md).
 
 
@@ -40,12 +40,12 @@ Gehen Sie wie folgt vor, um eine vorhandene Audience für Ihre Nachricht auszuw�
 
    ![](assets/create-audience2.png)
 
-   Zielgruppen werden aus dem **Zielgruppe** Menü links. Sie können auch in der Client-Konsole erstellt werden.
+   Zielgruppen werden über das linke Menü **Zielgruppen** erstellt. Sie können auch in der Client-Konsole erstellt werden.
 
-   Um Adobe Experience Platform-Zielgruppen zu verwenden, müssen Sie die Integration mit Zielen konfigurieren. Siehe Abschnitt [Dokumentation zu Adobe Experience Platform-Zielen](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=de){target="_blank"}.
+   Um Adobe Experience Platform-Zielgruppen zu nutzen, müssen Sie die Integration mit Zielen konfigurieren. Weitere Informationen finden Sie in der Dokumentation zu [Adobe Experience Platform-Zielen](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=de){target="_blank"}.
 
-1. Wählen Sie eine Audience aus und klicken Sie auf **Auswählen**.
-1. Verwenden Sie die **Filter anzeigen** -Symbol, um Filteroptionen anzuzeigen. Klicks **Regeln hinzufügen** Zugriff auf den Regel-Builder: Mithilfe des Regel-Builders können Sie erweiterte Filter für die Liste der Zielgruppen erstellen. In diesem Abschnitt erfahren Sie, wie Sie den Regel-Builder verwenden. [Abschnitt](segment-builder.md).
+1. Wählen Sie eine Zielgruppe aus und klicken Sie auf **Auswählen**.
+1. Verwenden Sie das Symbol **Filter anzeigen**, um die Filteroptionen anzuzeigen. Klicken Sie auf **Regeln hinzufügen**, um auf den Regel-Builder zuzugreifen: Mit dem Regel-Builder können Sie erweiterte Filter für die Liste der Zielgruppen erstellen. In diesem [Abschnitt](segment-builder.md) erfahren Sie, wie Sie den Regel-Builder verwenden.
 
    ![](assets/create-audience4.png)
 

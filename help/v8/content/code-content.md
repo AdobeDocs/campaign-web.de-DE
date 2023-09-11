@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie Ihre eigenen E-Mail-Inhalte codieren
 exl-id: a387bff6-3dc8-421c-9efd-043c16694ef0
 badge: label="Beta"
 source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '108'
 ht-degree: 100%
 

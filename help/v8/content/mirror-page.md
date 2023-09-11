@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie den Link zur Mirrorseite hinzufügen und verw
 badge: label="Beta"
 exl-id: 0c22357f-0465-4fdc-833e-5fda5805fe42
 source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '440'
 ht-degree: 100%
 
