@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 badge: label="Beta"
-source-git-commit: 23a8f5521fd5acd88c0f7ae852ff7e54a081e03a
+source-git-commit: 52b41f27da9c43c935c5a33c3f836b0030941dbd
 workflow-type: tm+mt
-source-wordcount: '711'
-ht-degree: 3%
+source-wordcount: '778'
+ht-degree: 5%
 
 ---
 
@@ -39,14 +39,14 @@ Sie können vorhandene integrierte Filter verwenden, um auf einen bestimmten Tei
 >title="Vordefinierten Filter erstellen"
 >abstract="Geben Sie einen Titel für den vordefinierten Filter ein und wählen Sie die Tabelle aus, auf die er angewendet werden soll. Öffnen Sie die zusätzlichen Optionen, um eine Beschreibung hinzuzufügen und diesen Filter als Favoriten festzulegen. Definieren Sie dann mithilfe der Schaltfläche &#39;Regel erstellen&#39; die Filterbedingungen."
 
-
 >[!CONTEXTUALHELP]
 >id="acw_predefined-filters-rules"
 >title="Vordefinierte Filterregeln erstellen"
 >abstract="Um die Filterbedingungen Ihres benutzerspezifischen Filters zu definieren, wählen Sie die Schaltfläche &#39;Regel erstellen&#39; aus."
 
+### Erstellen eines Filters aus dem Regel-Builder {#create-from-rule-builder}
 
-Gehen Sie wie folgt vor, um einen benutzerdefinierten Filter im Regel-Builder zu speichern:
+Sie können einen benutzerdefinierten Filter aus dem Regel-Builder speichern, damit er für die zukünftige Verwendung verfügbar ist. Führen Sie folgende Schritte aus:
 
 1. Öffnen Sie den Regel-Builder und definieren Sie Ihre Filterbedingungen. Im folgenden Beispiel filtern Sie die Empfänger, die in Madrid leben.
 1. Klicken Sie auf **Filter auswählen oder speichern** und wählen Sie **Als Filter speichern**.
@@ -57,28 +57,40 @@ Gehen Sie wie folgt vor, um einen benutzerdefinierten Filter im Regel-Builder zu
 
    ![](assets/predefined-filters-save-filter.png)
 
-1. (optional) Aktivieren Sie die **Als Favoriten speichern** auswählen, wenn Sie diesen vordefinierten Filter in Ihren Favoriten sehen möchten.
-
-
-   Wenn ein Filter als Favorit gespeichert wird, steht er allen Benutzern im **Favoritenfilter** -Abschnitt der Filtererstellungsliste, wie unten dargestellt:
-
-   ![](assets/predefined-filters-favorite.png)
-
+   Sie können den Filter bei Bedarf als Favoriten speichern. Weiterführende Informationen finden Sie in [diesem Abschnitt](#fav-filter).
 
 1. Klicken Sie auf **Bestätigen**, um Ihre Änderungen zu speichern.
 
 Ihr benutzerdefinierter Filter ist jetzt im **Vordefinierte Filter** und für alle Campaign-Benutzer zugänglich sein.
 
-Sie können auch einen Filter aus dem **Vordefinierte Filter** im linken Menü. Gehen Sie dazu wie folgt vor:
+
+### Filter aus der Filterliste erstellen {#create-filter-from-list}
+
+
+Sie können einen Filter aus dem **Vordefinierte Filter** im linken Menü. Gehen Sie dazu wie folgt vor:
 
 1. Navigieren Sie zum **Vordefinierte Filter** im linken Menü.
 1. Klicken Sie auf **Filter erstellen** Schaltfläche.
 1. Geben Sie den Namen des Filters ein und wählen Sie im **Dokumenttyp** -Feld das Schema auswählen, auf das es angewendet wird. Das Standardschema lautet `Recipients(nms)`.
+
+   Sie können den Filter bei Bedarf als Favoriten speichern. Weiterführende Informationen finden Sie in [diesem Abschnitt](#fav-filter).
+
 1. Definieren Sie die Regel für den Filter. Profile, die älter als 30 sind.
 
    ![](assets/filter-30+.png)
 
 1. Speichern Sie Ihre Änderungen. Der Filter wird der vordefinierten Filterliste hinzugefügt.
+
+
+## Filter als Favoriten speichern {#fav-filter}
+
+Bei der Erstellung eines vordefinierten Filters können Sie die **Als Favoriten speichern** auswählen, wenn Sie diesen vordefinierten Filter in Ihren Favoriten sehen möchten.
+
+
+Wenn ein Filter als Favorit gespeichert wird, steht er allen Benutzern im **Favoritenfilter** -Abschnitt der Filtererstellungsliste, wie unten dargestellt:
+
+![](assets/predefined-filters-favorite.png)
+
 
 ## Vordefinierten Filter verwenden {#use-predefined-filter}
 
@@ -86,7 +98,7 @@ Vordefinierte Filter sind beim Definieren von Regeleigenschaften verfügbar. Um 
 
 Sie können dann auf die vollständige Liste der für den aktuellen Kontext verfügbaren vordefinierten Filter zugreifen.
 
-Sie können auch die im Abschnitt **Favoritenfilter** des Dropdown-Menüs aus.
+Sie können auch die im Abschnitt **Favoritenfilter** des Dropdown-Menüs aus. Weitere Informationen zu Favoriten finden Sie in [diesem Abschnitt](#fav-filter).
 
 Gehen Sie wie folgt vor, um beispielsweise eine Audience aus einem vordefinierten Filter zu erstellen:
 
@@ -125,7 +137,7 @@ Aus dieser Liste können Sie einen neuen Filter erstellen, wie oben beschrieben,
 * Vordefinierten Filter duplizieren
 * Löschen eines vordefinierten Filters
 
-Sie können beim Erstellen Ihrer Regeln einen vordefinierten Filter als Favoriten für einen schnellen Zugriff hinzufügen. Diese Funktion wird unter [diesem Abschnitt](#create-predefined-filter).
+Sie können beim Erstellen Ihrer Regeln einen vordefinierten Filter als Favoriten für einen schnellen Zugriff hinzufügen. Weiterführende Informationen finden Sie in [diesem Abschnitt](#fav-filter).
 
 ## Vordefinierte Filter {#ootb-predefined-filter}
 
