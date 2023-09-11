@@ -7,7 +7,7 @@ badge: label="Alpha"
 source-git-commit: 3e57815403274df8e164c21270d0fcd916623d6d
 workflow-type: tm+mt
 source-wordcount: '1747'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -343,7 +343,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_sending"
->title="Globale Berichte senden"
+>title="Senden von globalen Berichten"
 >abstract="TBC"
 
 >[!CONTEXTUALHELP]
@@ -365,22 +365,22 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_audience"
->title="Audience für Versandeinstellungen"
+>title="Zielgruppen der Versandeinstellungen"
 >abstract="TBC"
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_approval"
->title="Validierung der Versandeinstellungen"
+>title="Genehmigung der Versandeinstellungen"
 >abstract="TBC"
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_testsettings"
->title="Testeinstellungen für Versandeinstellungen"
+>title="Testeinstellungen der Versandeinstellungen"
 >abstract="TBC"
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_webanalytics"
->title="Webanalyse zu Versandeinstellungen"
+>title="Web-Analyse der Versandeinstellungen"
 >abstract="TBC"
 
 >[!CONTEXTUALHELP]

@@ -7,7 +7,7 @@ badge: label="Beta"
 source-git-commit: 351b60464d8623c34dea2c19bf86b2fa7b4fa45a
 workflow-type: tm+mt
 source-wordcount: '602'
-ht-degree: 89%
+ht-degree: 91%
 
 ---
 
@@ -49,7 +49,7 @@ Die Palette auf der linken Seite enthält alle Elemente, nach denen Sie filtern 
 
   >[!NOTE]
   >
-  >Um Adobe Experience Platform-Audiences zu nutzen, müssen Sie die Integration mit Zielen konfigurieren. Siehe Abschnitt [Dokumentation zu Adobe Experience Platform-Zielen](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=de){target="_blank"}.
+  >Um Adobe Experience Platform-Audiences zu nutzen, müssen Sie die Integration mit Zielen konfigurieren. Weitere Informationen finden Sie in der Dokumentation zu [Adobe Experience Platform-Zielen](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=de){target="_blank"}.
 
 Sie können die Suchleiste verwenden, um Elemente schnell zu finden.
 

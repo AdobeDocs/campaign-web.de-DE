@@ -7,7 +7,7 @@ badge: label="Beta"
 source-git-commit: e2ff9efcedbfc46f9d943c30fabb1b3b39c43b74
 workflow-type: tm+mt
 source-wordcount: '962'
-ht-degree: 50%
+ht-degree: 56%
 
 ---
 
@@ -19,7 +19,7 @@ Wir freuen uns, die BETA-Version der Adobe Campaign-Web-Benutzeroberfläche vors
 
 ## Beta-Version{#beta-release}
 
-Diese neue Campaign-Webschnittstelle ist derzeit nur für **Beta-Fachkräfte** mit den folgenden Funktionen:
+Diese moderne Web-Benutzeroberfläche von Campaign ist derzeit nur für **Beta-Anwendende** verfügbar und enthält die folgenden Funktionen:
 
 **Modernes, intuitives und einheitliches Erlebnis**
 
@@ -104,7 +104,7 @@ Als Benutzerin oder Benutzer von Campaign können Sie weiterhin auf die Client-K
 
 Darüber hinaus sind alle Daten und Einstellungen, die bereits in der Client-Konsole verfügbar sind, in der Campaign Web-Benutzeroberfläche im linken Navigationsbereich des Explorers sichtbar. Weitere Informationen zur Explorer-Ansicht finden Sie in [diesem Abschnitt](../get-started/user-interface.md#explorer-user-interface-explorer).
 
-In der Campaign Web Beta-Version spiegelt die Benutzeroberfläche die Berechtigungen des Benutzers wider. Weitere Informationen zu Berechtigungen finden Sie unter [diese Seite](../get-started/permissions.md)
+In der Campaign Web Beta-Version spiegelt die Benutzeroberfläche die Berechtigungen der Benutzenden wider. Weitere Informationen über Berechtigungen finden Sie hier [auf dieser Seite](../get-started/permissions.md)
 
 ## Aktualisierungen der Terminologie {#terminology-updates}
 
@@ -120,7 +120,7 @@ Bestehende Campaign-Benutzende sollten beachten, dass einige Konzepte entspreche
 
 Für diese Alpha-Version gelten die folgenden Einschränkungen:
 
-* Bearbeitbare Objekte sind: Sendungen, Kampagnen, Workflows, Zielgruppen, An-/Abmeldedienst, vordefinierte Filter und Vorlagen. Alle weiteren sind schreibgeschützt. Verwenden Sie Filter, um alle zu durchsuchen.
+* Bearbeitbare Objekte sind: Sendungen, Kampagnen, Workflows, Zielgruppen, Abonnementdienste, vordefinierte Filter und Vorlagen. Alle weiteren sind schreibgeschützt. Verwenden Sie Filter, um alle zu durchsuchen.
 * Zielgruppen können nicht für die zukünftige Verwendung gespeichert werden.
 * Die Benutzeroberfläche „Administration“ ist nicht verfügbar.
 * Reporting-Metriken (wie Öffnungen und Tracking-Daten) werden stündlich aktualisiert.
