@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 badge: label="Beta"
-source-git-commit: 8c99e49e6c75fc25699636ac1dfd803178c109c6
+source-git-commit: 5c7d60b3f59de2a5176a55d9556a3f1c6d2a7651
 workflow-type: tm+mt
-source-wordcount: '331'
-ht-degree: 2%
+source-wordcount: '712'
+ht-degree: 3%
 
 ---
 
@@ -25,7 +25,9 @@ ht-degree: 2%
 >title="Vordefinierte Filter"
 >abstract="Campaign Web bietet Ihnen jetzt eine benutzerfreundliche Oberfläche, mit der Sie vordefinierte Filter mühelos verwalten und an Ihre spezifischen Anforderungen anpassen können. Erstellen Sie einmal und speichern Sie für die zukünftige Verwendung."
 
-Vordefinierte Filter sind benutzerdefinierte Filter, die für die zukünftige Verwendung verfügbar sind. Sie können bei Filtervorgängen mit dem Regel-Builder als Verknüpfungen verwendet werden. Sie können vorhandene integrierte Filter verwenden, um auf einen bestimmten Teil Ihrer Daten zuzugreifen, oder Sie können einen eigenen vordefinierten Filter erstellen.
+Vordefinierte Filter sind benutzerdefinierte Filter, die erstellt und gespeichert werden und für die zukünftige Verwendung verfügbar sind. Sie können bei allen Filtervorgängen mit dem Regel-Builder als Verknüpfungen verwendet werden, z. B. beim Filtern einer Datenliste oder beim Erstellen der Zielgruppe eines Versands.
+
+Sie können vorhandene integrierte Filter verwenden, um auf einen bestimmten Teil Ihrer Daten zuzugreifen, oder eigene vordefinierte Filter erstellen und speichern.
 
 
 ## Vordefinierten Filter erstellen {#create-predefined-filter}
@@ -52,18 +54,73 @@ Gehen Sie wie folgt vor, um einen benutzerdefinierten Filter im Regel-Builder zu
 
 1. (optional) Aktivieren Sie die **Als Favoriten speichern** auswählen, wenn Sie diesen vordefinierten Filter in Ihren Favoriten sehen möchten.
 
+
+   Wenn ein Filter als Favorit gespeichert wird, steht er allen Benutzern im **Favoritenfilter** -Abschnitt der Filtererstellungsliste, wie unten dargestellt:
+
    ![](assets/predefined-filters-favorite.png)
+
 
 1. Klicken Sie auf **Bestätigen**, um Ihre Änderungen zu speichern.
 
 Ihr benutzerdefinierter Filter ist jetzt im **Vordefinierte Filter** und für alle Campaign-Benutzer zugänglich sein.
 
+Sie können auch einen Filter aus dem **Vordefinierte Filter** im linken Menü. Gehen Sie dazu wie folgt vor:
+
+1. Navigieren Sie zum **Vordefinierte Filter** im linken Menü.
+1. Klicken Sie auf **Filter erstellen** Schaltfläche.
+1. Geben Sie den Namen des Filters ein und wählen Sie im **Dokumenttyp** -Feld das Schema auswählen, auf das es angewendet wird. Das Standardschema lautet `Recipients(nms)`.
+1. Definieren Sie die Regel für den Filter. Profile, die älter als 30 sind.
+
+   ![](assets/filter-30+.png)
+
+1. Speichern Sie Ihre Änderungen. Der Filter wird der vordefinierten Filterliste hinzugefügt.
 
 ## Vordefinierten Filter verwenden {#use-predefined-filter}
 
+Vordefinierte Filter sind beim Definieren von Regeleigenschaften verfügbar. Um auf vordefinierte Filter zuzugreifen, wählen Sie die **Benutzerspezifischen Filter auswählen** in der Dropdown-Liste des Regel-Builders.
 
+Sie können dann auf die vollständige Liste der für den aktuellen Kontext verfügbaren vordefinierten Filter zugreifen.
+
+Sie können auch die im Abschnitt **Favoritenfilter** des Dropdown-Menüs aus.
+
+
+Gehen Sie wie folgt vor, um beispielsweise eine Audience aus einem vordefinierten Filter zu erstellen:
+
+1. Navigieren Sie zum **Zielgruppen** im linken Menü.
+1. Klicken Sie auf **Zielgruppe erstellen** Schaltfläche.
+1. Geben Sie den Namen der Audience ein und klicken Sie auf **Zielgruppe erstellen** Schaltfläche.
+1. Wählen Sie die **Abfrage** und klicken Sie im rechten Bereich auf **Erstellen einer Zielgruppe** Schaltfläche.
+
+   ![](assets//build-audience-from-filter.png)
+
+1. Aus dem **Schaltfläche zum Auswählen oder Speichern von Filtern**, wählen Sie die **Benutzerspezifischen Filter auswählen** -Option.
+
+   ![](assets/build-audience-select-custom-filter.png)
+
+1. Navigieren Sie zum vordefinierten Filter, der zum Erstellen der Audience verwendet werden soll, wählen Sie ihn aus und bestätigen Sie ihn.
+
+   ![](assets/build-audience-filter-list.png)
+
+1. Überprüfen Sie die Regeleigenschaften für diesen Filter und bestätigen Sie.
+
+   ![](assets/build-audience-check.png)
+
+   Der Filter wird jetzt als Abfrage im **Abfrage** -Aktivität.
+
+   ![](assets/build-audience-confirm.png)
+
+1. Speichern Sie Ihre Änderungen und klicken Sie auf das **Starten** -Schaltfläche, um die Audience zu erstellen und in der Audience-Liste verfügbar zu machen.
 
 ## Vordefinierte Filter verwalten {#manage-predefined-filter}
 
+Vordefinierte Filter werden alle im dedizierten Eintrag des linken Navigationsmenüs gruppiert.
+
+Aus dieser Liste können Sie einen neuen Filter erstellen, wie oben beschrieben, und:
+
+* Bearbeiten eines vorhandenen Filters und Ändern dieser Regeln und Eigenschaften
+* Vordefinierten Filter duplizieren
+* Löschen eines vordefinierten Filters
 
 ## Vordefinierte Filter {#ootb-predefined-filter}
+
+Campaign verfügt über eine Reihe vordefinierter Filter, die über die Clientkonsole erstellt werden. Mit diesen Filtern können Sie Ihre Zielgruppen und Regeln definieren. Sie dürfen nicht geändert werden.
