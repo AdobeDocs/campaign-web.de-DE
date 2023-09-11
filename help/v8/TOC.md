@@ -5,9 +5,9 @@ title: Adobe Campaign v8 – Web-Dokumentation
 description: Web-Dokumentation zu Campaign v8
 breadcrumb-title: Übersicht über Campaign
 hide: true
-source-git-commit: e2ff9efcedbfc46f9d943c30fabb1b3b39c43b74
+source-git-commit: 11ebb88d44733d3bebddd4d28268a77c2489e867
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '367'
 ht-degree: 97%
 
 ---
@@ -24,6 +24,7 @@ ht-degree: 97%
    + [Durchsuchen, Suchen und Filtern von Listen](get-started/list-filters.md)
    + [Zugriff und Berechtigungen](get-started/permissions.md)
    + [Nicht unterstützte Funktionen](get-started/unsupported.md)
+   + [Verwenden von KI](get-started/using-ai.md)
 + Nachrichten und Sendungen {#msg}
    + [Erste Schritte mit Nachrichten](msg/gs-messages.md)
    + [Arbeiten mit Versandvorlagen](msg/delivery-template.md)
