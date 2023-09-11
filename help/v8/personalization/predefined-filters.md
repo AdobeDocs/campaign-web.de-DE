@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 badge: label="Beta"
-source-git-commit: 5c7d60b3f59de2a5176a55d9556a3f1c6d2a7651
+source-git-commit: 23a8f5521fd5acd88c0f7ae852ff7e54a081e03a
 workflow-type: tm+mt
-source-wordcount: '712'
+source-wordcount: '711'
 ht-degree: 3%
 
 ---
@@ -29,6 +29,8 @@ Vordefinierte Filter sind benutzerdefinierte Filter, die erstellt und gespeicher
 
 Sie können vorhandene integrierte Filter verwenden, um auf einen bestimmten Teil Ihrer Daten zuzugreifen, oder eigene vordefinierte Filter erstellen und speichern.
 
+![](assets/predefined-filters-menu.png)
+
 
 ## Vordefinierten Filter erstellen {#create-predefined-filter}
 
@@ -37,9 +39,12 @@ Sie können vorhandene integrierte Filter verwenden, um auf einen bestimmten Tei
 >title="Vordefinierten Filter erstellen"
 >abstract="Geben Sie einen Titel für den vordefinierten Filter ein und wählen Sie die Tabelle aus, auf die er angewendet werden soll. Öffnen Sie die zusätzlichen Optionen, um eine Beschreibung hinzuzufügen und diesen Filter als Favoriten festzulegen. Definieren Sie dann mithilfe der Schaltfläche &#39;Regel erstellen&#39; die Filterbedingungen."
 
-Beim Erstellen eines Filters mit dem Regel-Builder können Sie ihn für eine zukünftige Verwendung speichern. Wenn sie als benutzerdefinierter Filter gespeichert werden, ist sie für die zukünftige Verwendung verfügbar. Sie können auch vordefinierte Filter aus dem dedizierten Menü im linken Navigationsbereich erstellen und bearbeiten.
 
-![](assets/predefined-filters-menu.png)
+>[!CONTEXTUALHELP]
+>id="acw_predefined-filters-rules"
+>title="Vordefinierte Filterregeln erstellen"
+>abstract="Um die Filterbedingungen Ihres benutzerspezifischen Filters zu definieren, wählen Sie die Schaltfläche &#39;Regel erstellen&#39; aus."
+
 
 Gehen Sie wie folgt vor, um einen benutzerdefinierten Filter im Regel-Builder zu speichern:
 
@@ -83,7 +88,6 @@ Sie können dann auf die vollständige Liste der für den aktuellen Kontext verf
 
 Sie können auch die im Abschnitt **Favoritenfilter** des Dropdown-Menüs aus.
 
-
 Gehen Sie wie folgt vor, um beispielsweise eine Audience aus einem vordefinierten Filter zu erstellen:
 
 1. Navigieren Sie zum **Zielgruppen** im linken Menü.
@@ -120,6 +124,8 @@ Aus dieser Liste können Sie einen neuen Filter erstellen, wie oben beschrieben,
 * Bearbeiten eines vorhandenen Filters und Ändern dieser Regeln und Eigenschaften
 * Vordefinierten Filter duplizieren
 * Löschen eines vordefinierten Filters
+
+Sie können beim Erstellen Ihrer Regeln einen vordefinierten Filter als Favoriten für einen schnellen Zugriff hinzufügen. Diese Funktion wird unter [diesem Abschnitt](#create-predefined-filter).
 
 ## Vordefinierte Filter {#ootb-predefined-filter}
 
