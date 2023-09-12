@@ -4,10 +4,10 @@ title: Ansprechen von Empfängerinnen und Empfängern aus einer Datei
 description: Erfahren Sie, wie Sie mit Empfängerinnen und Empfängern aus einer externen Datei eine E-Mail-Zielgruppe erstellen können.
 badge: label="Beta"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
-workflow-type: ht
-source-wordcount: '325'
-ht-degree: 100%
+source-git-commit: d14a461d558dec06613d7f009b347e1191c3400f
+workflow-type: tm+mt
+source-wordcount: '344'
+ht-degree: 94%
 
 ---
 
@@ -59,8 +59,8 @@ Bei der Erstellung und Personalisierung des Nachrichteninhalts können Sie im [P
 
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_samplefile"
->title="Beispieldatei"
->abstract="Unterstützte Dateiformate: txt, csv. Verwenden Sie die erste Zeile für Spaltentitel."
+>title="Laden einer Zielgruppe aus einer Datei"
+>abstract="Unterstützte Dateiformate sind TXT und CSV. Verwenden Sie die erste Zeile für Spaltentitel. Passen Sie Ihr Dateiformat an die Beispieldatei an, die im folgenden Link bereitgestellt wird."
 
 Unterstützte Formate sind TXT und CSV. Die erste Zeile ist die Spaltenüberschrift.
 
