@@ -5,10 +5,10 @@ title: Adobe Campaign v8 – Web-Dokumentation
 description: Web-Dokumentation zu Campaign v8
 breadcrumb-title: Übersicht über Campaign
 hide: true
-source-git-commit: 95848730772a2dd3d09a299ab9856f22e21d287b
+source-git-commit: ba449ee0b5a4b41db8efbbabeb37ce7cd7cc3720
 workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 97%
+source-wordcount: '374'
+ht-degree: 96%
 
 ---
 
@@ -79,10 +79,12 @@ ht-degree: 97%
 + Audiences und Empfänger {#audiences}
    + [Erste Schritte mit Zielgruppen](audience/about-audiences.md)
    + [Arbeiten mit Empfängern](audience/about-recipients.md)
-   + [Auswählen einer bestehenden Zielgruppe](audience/add-audience.md)
-   + [Definieren einer Zielgruppe mit dem Regel-Builder](audience/segment-builder.md)
-   + [Laden einer E-Mail-Zielgruppe aus einer Datei](audience/file-audience.md)
-   + [Verwenden einer Adobe Experience Platform-Zielgruppe](audience/aep-audience.md)
+   + [Audiences erstellen](audience/create-audience.md)
+   + Zielgruppen {#target-audiences}
+      + [Auswählen einer bestehenden Zielgruppe](audience/add-audience.md)
+      + [Definieren einer Zielgruppe mit dem Regel-Builder](audience/segment-builder.md)
+      + [Laden einer E-Mail-Zielgruppe aus einer Datei](audience/file-audience.md)
+      + [Verwenden einer Adobe Experience Platform-Zielgruppe](audience/aep-audience.md)
    + [Festlegen einer Kontrollgruppe](audience/control-group.md)
 + Cross-Channel-Kampagnen {#campaigns}
    + [Erste Schritte mit Kampagnen](campaigns/gs-campaigns.md)
