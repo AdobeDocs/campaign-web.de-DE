@@ -4,10 +4,10 @@ title: Ansprechen von Empfängerinnen und Empfängern aus einer Datei
 description: Erfahren Sie, wie Sie mit Empfängerinnen und Empfängern aus einer externen Datei eine E-Mail-Zielgruppe erstellen können.
 badge: label="Beta"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: d14a461d558dec06613d7f009b347e1191c3400f
+source-git-commit: ed9d67c5d84826035785e9543f4ed7655aa094f1
 workflow-type: tm+mt
-source-wordcount: '344'
-ht-degree: 94%
+source-wordcount: '442'
+ht-degree: 75%
 
 ---
 
@@ -36,6 +36,7 @@ Sie können Kontakte aus einer externen Datei hochladen. Profile werden nicht zu
 >
 >* Sie können keine [Kontrollgruppen](control-group.md) verwenden, wenn Sie die Zielgruppen-Population aus einer externen Datei laden.
 
+## Datei hochladen {#upload}
 
 Gehen Sie wie folgt vor, um Profile aus einer lokalen Datei direkt über die E-Mail-Benutzeroberfläche anzuvisieren:
 
@@ -54,6 +55,22 @@ Bei der Erstellung und Personalisierung des Nachrichteninhalts können Sie im [P
 
 ![](assets/select-external-perso.png)
 
+## Vorschau erstellen und E-Mail testen {#test}
+
+Mit Campaign Web können Sie sich Test-E-Mails in der Vorschau ansehen und senden, wenn Sie eine aus einer Datei hochgeladene Audience verwenden. Gehen Sie dazu wie folgt vor:
+
+1. Inhalte simulieren
+1. Öffnet die Vorschau. Klicken Sie auf Profil(e) auswählen: Wählen Sie Profile aus der zu verwendenden Datei aus.
+1. zum Senden der Test-E-Mail klicken Sie auf Test .
+1. Testmodus: Definieren Sie die Zielgruppe der Testsendungen.
+1. Laden Sie die Zielgruppe der Test-E-Mail von einer zweiten Datei hoch (oder verwenden Sie die gleiche). Die Dateiformatierung entspricht der der hochgeladenen Datei.
+1. Prüfungen im Dateiformat
+1. Klickversand
+
++ Link zum Vorschau- und Testabschnitt
+
+**Fragen:**
+* keine Ersetzung durch die verfügbare Datei?
 
 ## Beispieldatei {#sample-file}
 
