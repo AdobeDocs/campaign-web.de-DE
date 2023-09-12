@@ -4,7 +4,7 @@ title: Erstellen von Kampagnen mit Adobe Campaign Web
 description: Erfahren Sie, wie Sie mit Adobe Campaign Web Cross-Channel-Kampagnen erstellen
 badge: label="Beta"
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
-source-git-commit: b2ac88aba987086c9e2893d48beb03ff57075270
+source-git-commit: 95848730772a2dd3d09a299ab9856f22e21d287b
 workflow-type: tm+mt
 source-wordcount: '478'
 ht-degree: 58%
@@ -68,8 +68,6 @@ Start- und Enddatum werden in der Kampagnenliste angezeigt und können als Filte
 >[!NOTE]
 >
 >Sie können diese Eigenschaften später jederzeit über das Symbol **Kampagneneinstellungen konfigurieren** neben der Kampagnenbezeichnung ändern. Siehe diesen [Abschnitt](gs-campaigns.md#campaign-dashboard).
-
-
 
 Sobald das Datum erreicht ist, werden in der Kampagne im Rahmen eines Workflows erstellte Sendungen, die versandbereit sind, tatsächlich gesendet. Dazu muss der Workflow gestartet worden sein.
 
