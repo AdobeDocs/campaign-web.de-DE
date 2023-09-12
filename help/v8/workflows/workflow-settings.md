@@ -4,10 +4,10 @@ title: Erstellen von Workflows mit Adobe Campaign Web
 description: Erfahren Sie, wie Sie Workflows mit Adobe Campaign Web erstellen
 badge: label="Beta"
 exl-id: 7ac8eedf-c141-4a61-b4d3-d81f99247c6d
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
-workflow-type: ht
-source-wordcount: '855'
-ht-degree: 100%
+source-git-commit: 3e4cdd2ece8fc000bc71b366549fd63f18201ff7
+workflow-type: tm+mt
+source-wordcount: '907'
+ht-degree: 90%
 
 ---
 
@@ -35,7 +35,13 @@ Der Abschnitt **[!UICONTROL Eigenschaften]** enthält allgemeine Einstellungen, 
 * **[!UICONTROL Ordner]**: Der Ordner, in dem der Workflow gespeichert werden soll.
 * **[!UICONTROL Verknüpfte Kampagne]**: Dieses Feld wird angezeigt, wenn der Workflow innerhalb einer Kampagne erstellt wurde. Damit können Sie die zugehörige Kampagne öffnen.
 * **[!UICONTROL Zeitzone]**: Definieren Sie eine bestimmte Zeitzone, die standardmäßig für alle Aktivitäten des Workflows verwendet werden soll. Standardmäßig ist die Zeitzone des Workflows die für die aktuelle Campaign-Benutzerin bzw. den aktuellen Campaign-Benutzer definierte Zeitzone.
-* **[!UICONTROL Verantwortliche(r)]**: Wenn ein Workflow einen Fehler aufweist, werden die Benutzerinnen und Benutzer, die zur Workflow-Aufsichtsgruppe gehören, per E-Mail benachrichtigt, solange ihre E-Mail-Adresse in ihrem Profil aufgeführt ist.
+Andere mögliche Werte sind:
+   * **Zeitzone des Servers** zur Verwendung der Zeitzone des Adobe Campaign-Anwendungsservers
+   * **Zeitzone des Benutzers** , um die Zeitzone des Adobe Campaign-Benutzers zu verwenden, der den Workflow entsprechend der Definition im Benutzerprofil in der Clientkonsole ausführt.
+   * **Zeitzone der Datenbank** zur Verwendung der Zeitzone des Datenbankservers
+   * Eine bestimmte Zeitzone
+
+* **[!UICONTROL Supervisor(en)]**: Wenn ein Workflow fehlschlägt, werden die Benutzer der in diesem Feld ausgewählten Benutzergruppe per E-Mail benachrichtigt.
 * **[!UICONTROL Beschreibung]**: Verwenden Sie dieses Feld, um eine Beschreibung Ihres Workflows anzugeben.
 
 ## Segmentierungseinstellungen
