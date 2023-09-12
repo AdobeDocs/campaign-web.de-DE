@@ -4,10 +4,10 @@ title: Versandberichte
 description: Erfahren Sie, wie Sie auf Vesandberichte zugreifen und diese verwenden können
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
-workflow-type: ht
-source-wordcount: '88'
-ht-degree: 100%
+source-git-commit: 9c8677038dcf91a7476da4c09ba5ae22c26f2822
+workflow-type: tm+mt
+source-wordcount: '121'
+ht-degree: 72%
 
 ---
 
@@ -27,4 +27,8 @@ Führen Sie folgende Schritte aus, um Berichte anzuzeigen:
 
    ![](assets/reporting.png)
 
+1. Wenn Ihr Versand wiederkehrend ist, können Sie einen bestimmten Versand auswählen, zu dem ein Bericht erstellt werden soll, indem Sie auf **[!UICONTROL Sendungen auswählen]**.
 
+   Sie können auch einen Zeitraum auf Ihren Bericht anwenden, indem Sie die **[!UICONTROL Kontaktdatum]**.
+
+   ![](assets/delivery-recurring.png)
