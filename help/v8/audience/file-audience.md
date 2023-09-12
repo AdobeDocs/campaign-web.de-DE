@@ -4,10 +4,10 @@ title: Ansprechen von Empfängerinnen und Empfängern aus einer Datei
 description: Erfahren Sie, wie Sie mit Empfängerinnen und Empfängern aus einer externen Datei eine E-Mail-Zielgruppe erstellen können.
 badge: label="Beta"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: ed9d67c5d84826035785e9543f4ed7655aa094f1
+source-git-commit: 77ff2714db5640aca367c41b717e4d20d672767a
 workflow-type: tm+mt
-source-wordcount: '442'
-ht-degree: 75%
+source-wordcount: '443'
+ht-degree: 74%
 
 ---
 
@@ -67,7 +67,7 @@ Mit Campaign Web können Sie sich Test-E-Mails in der Vorschau ansehen und sende
 1. Prüfungen im Dateiformat
 1. Klickversand
 
-+ Link zum Vorschau- und Testabschnitt
+Link zum Vorschau- und Testabschnitt hinzufügen
 
 **Fragen:**
 * keine Ersetzung durch die verfügbare Datei?
