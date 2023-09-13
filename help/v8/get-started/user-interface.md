@@ -3,11 +3,11 @@ audience: end-user
 title: Erkunden der Benutzeroberfläche
 description: Web-Benutzeroberfläche von Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-badge: label="Alpha"
-source-git-commit: 371055202d9d3e2f4ded9fe4d3c43acd9498728e
+badge: label="Beta"
+source-git-commit: 2e1f7f2a0f3e7116c57c56d9abb6866113402401
 workflow-type: tm+mt
-source-wordcount: '1760'
-ht-degree: 90%
+source-wordcount: '1758'
+ht-degree: 88%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 90%
 >title="Erkunden der Benutzeroberfläche"
 >abstract="Die neue Web-Benutzeroberfläche von Campaign v8 bietet ein integriertes, intuitives und konsistentes Anwendererlebnis."
 
-Die neue Web-Oberfläche von Campaign v8 bietet ein modernes und intuitives Benutzererlebnis, das die Gestaltung und den Versand von Marketing-Kampagnen vereinfacht. Diese neue Benutzeroberfläche ist in Adobe Experience Platform integriert.
+Die neue Web-Oberfläche von Campaign v8 bietet ein modernes und intuitives Benutzererlebnis, das die Gestaltung und den Versand von Marketing-Kampagnen vereinfacht. Diese neue Benutzeroberfläche ist in Adobe Experience Cloud-Apps und -Lösungen integriert.
 
 
 >[!NOTE]
@@ -114,13 +114,13 @@ Im Bereich KUNDENVERWALTUNG können Sie Ihre Empfängerinnen und Empfänger, Zie
 
 * **Angebote**: Durchsuchen Sie Ihre Liste von Interaktionsangeboten. Standardmäßig können Sie den Status, das Start-/Enddatum und die Umgebung sehen. Sie können die Liste nach Status oder Start-/Enddatum filtern. Angebotsvorlagen sind ebenfalls verfügbar. Diese Listen sind schreibgeschützt.
 
-Erfahren Sie in der [Dokumentation zu Adobe Campaign v8 (Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=de){target="_blank"}, wie Sie Angebote verwalten und erstellen können.
+Erfahren Sie, wie Sie Angebote in E-Mails und SMS erstellen und senden in [diesem Abschnitt](../content/offers.md).
 
 ## Obere Leiste
 
 Verwenden Sie die obere Leiste der Benutzeroberfläche, um folgende Aktionen durchzuführen:
 
-* Ihr Feedback als Alpha-Testerin oder -Tester teilen
+* Feedback als Beta-Tester freigeben
 * zwischen Organisationen und Instanzen wechseln
 * zwischen Adobe Experience Cloud-Anwendungen wechseln
 * auf Hilfeseiten zugreifen, den Support kontaktieren und Feedback geben. Sie können Hilfe-Artikel und Videos mithilfe des Suchfelds suchen.

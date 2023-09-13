@@ -4,10 +4,10 @@ title: Neue Funktionen in Campaign Web v8
 description: Entdecken Sie neue Funktionen von Campaign Web v8.
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Beta"
-source-git-commit: 371055202d9d3e2f4ded9fe4d3c43acd9498728e
+source-git-commit: 2e1f7f2a0f3e7116c57c56d9abb6866113402401
 workflow-type: tm+mt
-source-wordcount: '903'
-ht-degree: 59%
+source-wordcount: '895'
+ht-degree: 60%
 
 ---
 
@@ -77,18 +77,18 @@ Verwenden Sie die neue Web-Benutzeroberfläche von Campaign für Folgendes:
 
 * Vordefinierte Filterverwaltung
 
-  Einführung der vordefinierten Filterverwaltung. Die Campaign-Web-Benutzeroberfläche bietet Ihnen jetzt eine benutzerfreundliche Oberfläche, mit der Sie vordefinierte Filter mühelos verwalten und an Ihre spezifischen Anforderungen anpassen können. Erstellen Sie einmal und speichern Sie für die zukünftige Verwendung. [Weitere Informationen](../personalization/predefined-filters.md)
+  Einführung der vordefinierten Filterverwaltung. Die Campaign-Web-Benutzeroberfläche bietet Ihnen jetzt eine benutzerfreundliche Oberfläche, mit der Sie vordefinierte Filter mühelos verwalten und an Ihre spezifischen Anforderungen anpassen können. Erstellen Sie einmal und speichern Sie für die zukünftige Verwendung. [Weitere Informationen](predefined-filters.md)
 
 
 * Zielgruppe
 
   Das Erstellen einer Versandzielgruppe war nie einfacher! Mit unserem aktuellen Regel-Builder können Sie jetzt Filterkriterien für Empfänger oder eine andere Zielgruppendimension aus der Datenbank definieren. Darüber hinaus können Sie Ihre AEP (Adobe Experience Platform)-Zielgruppe nutzen, um Ihre Zielgruppe weiter zu verfeinern und die Wirkung Ihrer Kampagne zu maximieren.
 
-* Angebote mit SMS und Push-Benachrichtigungen
+* Angebote mit SMS
 
-  Die neue Web-Benutzeroberfläche ermöglicht jetzt die Integration von Angeboten mit SMS- und Push-Benachrichtigungen sowie E-Mail-Benachrichtigungen. Erreichen Sie Ihre Zielgruppe auf ihren Mobilgeräten, indem Sie Promotions und rechtzeitige Benachrichtigungen bereitstellen.
+  Die neue Web-Benutzeroberfläche ermöglicht jetzt die Integration von Angeboten mit SMS zusätzlich zu E-Mail. Erreichen Sie Ihre Zielgruppe auf ihren Mobilgeräten, senden Sie Promotions und senden Sie rechtzeitig Benachrichtigungen.
 
-  Steigern Sie Ihre Marketing-Maßnahmen, indem Sie die Leistungsfähigkeit integrierter Angebote durch SMS und Push-Benachrichtigungen auf unserer erweiterten Web-Plattform nutzen.
+  Steigern Sie Ihre Marketingbemühungen, indem Sie die Leistungsfähigkeit integrierter Angebote per SMS auf unserer erweiterten Web-Plattform nutzen.
 
 <!--
 * Adobe Experience Manager (AEM) Integration
