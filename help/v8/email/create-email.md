@@ -4,10 +4,10 @@ title: Eine erste E-Mail senden
 description: Erfahren Sie, wie Sie Ihre erste E-Mail mit der Web-Benutzeroberfläche von Campaign senden.
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Beta"
-source-git-commit: 351b60464d8623c34dea2c19bf86b2fa7b4fa45a
+source-git-commit: e934bc041b76511c0f4fec22b6abc41c647e1cb3
 workflow-type: tm+mt
-source-wordcount: '1324'
-ht-degree: 96%
+source-wordcount: '1224'
+ht-degree: 95%
 
 ---
 
@@ -131,16 +131,11 @@ In diesem Anwendungsbeispiel senden Sie die E-Mail an eine bestehende Audience. 
 
 ## Terminieren des Versands {#schedule}
 
->[!CONTEXTUALHELP]
->id="acw_deliveries_email_schedule"
->title="Terminieren des Versands"
->abstract="Definieren Sie das Datum und die genaue Uhrzeit für Ihren Versand. Indem Sie den günstigsten Zeitpunkt für Ihre Werbenachricht wählen, maximieren Sie die Öffnungsraten."
-
-Um den Versand der E-Mail zu planen, öffnen Sie den E-Mail-Versand und navigieren Sie zum Abschnitt **Zeitplan**. Verwenden Sie den Umschalter **[!UICONTROL Zeitplan aktivieren]**, um ihn zu aktivieren, und legen Sie das gewünschte Datum und die gewünschte Uhrzeit für den Versand fest. Nach dem Versand beginnt der eigentliche Versand am von Ihnen definierten Kontaktdatum.
-
-Standardmäßig ist die Option **[!UICONTROL Bestätigung vor dem Senden aktivieren]** aktiviert. Für diese Option müssen Sie den Versand bestätigen, bevor die E-Mail zum geplanten Zeitpunkt gesendet wird. Wenn Sie die E-Mail automatisch zum geplanten Zeitpunkt versenden müssen, können Sie diese Option deaktivieren.
+Um den Versand der E-Mail zu planen, öffnen Sie den E-Mail-Versand und navigieren Sie zum Abschnitt **Zeitplan.**
 
 ![](assets/schedule.png)
+
+Erfahren Sie, wie Sie den Versand planen [diesem Abschnitt](../msg/gs-messages.md#gs-schedule)
 
 ## Anzeigen der Vorschau und Testen der E-Mail {#preview-test}
 

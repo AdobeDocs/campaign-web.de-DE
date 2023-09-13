@@ -4,10 +4,10 @@ title: Erste Schritte mit Nachrichten und Sendungen in Campaign v8 Web
 description: Erfahren Sie, wie Sie Campaign Web verwenden, um mit Sendungen zu arbeiten und Nachrichten zu senden
 badge: label="Beta"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: 334014d3d89c878617b8e43ea73c9ff4e957f6d7
+source-git-commit: e934bc041b76511c0f4fec22b6abc41c647e1cb3
 workflow-type: tm+mt
-source-wordcount: '1131'
-ht-degree: 95%
+source-wordcount: '1300'
+ht-degree: 87%
 
 ---
 
@@ -82,7 +82,7 @@ Gehen Sie wie folgt vor, um einen eigenständigen Versand zu erstellen:
 
 1. Definieren Sie die Versandzielgruppe sowohl für die Hauptzielgruppe als auch für die Kontrollgruppe. Weitere Informationen zu Zielgruppen finden Sie in [diesem Abschnitt](../audience/about-audiences.md).
 1. Definieren des Nachrichteninhalts.
-1. (Optional) Definieren Sie den Zeitplan für den Versand. Wenn kein Zeitplan definiert ist, werden Nachrichten sofort nach dem Klicken auf die Schaltfläche **[!UICONTROL Senden]** gesendet.
+1. (optional) Versand definieren [Zeitplan](#gs-schedule). Wenn kein Zeitplan definiert ist, werden Nachrichten sofort nach dem Klicken auf die Schaltfläche **[!UICONTROL Senden]** gesendet.
 1. Klicken Sie auf die Schaltfläche **[!UICONTROL Überprüfen und senden]**, um Ihre Einstellungen zu überprüfen.
 1. Verwenden Sie die Schaltfläche **[!UICONTROL Inhalt simulieren]**, um Ihren Versand und die Personalisierungseinstellungen zu testen. Weitere Informationen zur Simulation von Nachrichten finden Sie in [diesem Abschnitt](../preview-test/preview-test.md).
 1. Klicken Sie auf die Schaltfläche **[!UICONTROL Vorbereiten]**, um die Zielgruppen-Population zu berechnen und die Nachrichten zu erstellen. Der Vorbereitungsschritt kann einige Minuten dauern. Nach Abschluss der Vorbereitung sind die Nachrichten versandbereit. Im Falle eines Fehlers können Sie zu den **Protokollen** navigieren, um Benachrichtigungen und Warnungen einzusehen.
@@ -144,8 +144,24 @@ Sie können den Nachrichteninhalt wie folgt personalisieren:
 
 Nachdem der Nachrichteninhalt definiert wurde, können Sie eine Vorschau davon anzeigen, um das Rendering Ihrer Nachrichten zu steuern, und die Personalisierungseinstellungen mit Testprofilen überprüfen. [Weitere Informationen](../preview-test/preview-test.md)
 
+## Planen des Versandzeitpunkts {#gs-schedule}
 
-## Überwachung und Trackinglogs{#gs-tracking-logs}
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_schedule"
+>title="Terminieren des Versands"
+>abstract="Definieren Sie das Datum und die genaue Uhrzeit für den Nachrichtenversand. Indem Sie den günstigsten Zeitpunkt für Ihre Werbenachricht wählen, maximieren Sie die Öffnungsraten."
+
+Sie können das Datum und die genaue Uhrzeit des Nachrichtenversands festlegen. Indem Sie den günstigsten Zeitpunkt für Ihre Werbenachricht wählen, maximieren Sie die Öffnungsraten.
+
+Um den Versand eines Versands zu planen, öffnen Sie den Versand und navigieren Sie zum **Zeitplan** Abschnitt. Verwenden Sie die **[!UICONTROL Aktivieren der Planung]** aktivieren und das gewünschte Datum und die gewünschte Uhrzeit für den Versand festlegen. Nach dem Versand beginnt der eigentliche Versand am von Ihnen definierten Kontaktdatum.
+
+![](assets/schedule.png)
+
+Standardmäßig ist die Option **[!UICONTROL Bestätigung vor dem Senden aktivieren]** aktiviert. Für diese Option müssen Sie den Versand bestätigen, bevor der Versand zum geplanten Zeitpunkt durchgeführt wird. Wenn Sie den Versand am geplanten Datum und zur geplanten Uhrzeit automatisch durchführen müssen, können Sie diese Option deaktivieren.
+
+Erfahren Sie, wie Sie einen geplanten Versand in [diesem Abschnitt](../monitor/prepare-send.md#schedule-the-send).
+
+## Überwachung und Trackinglogs {#gs-tracking-logs}
 
 Die Überwachung Ihrer Sendungen nach deren Versand ist ein wichtiger Schritt, um sicherzustellen, dass Ihre Marketing-Kampagnen effizient sind und Ihre Kundschaft auch erreichen.
 

@@ -4,8 +4,8 @@ title: Vorbereiten und Senden einer E-Mail
 description: Erfahren Sie, wie Sie eine E-Mail mit der Web-Benutzeroberfläche von Campaign vorbereiten und senden.
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
 badge: label="Beta"
-source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
-workflow-type: ht
+source-git-commit: e934bc041b76511c0f4fec22b6abc41c647e1cb3
+workflow-type: tm+mt
 source-wordcount: '872'
 ht-degree: 100%
 
@@ -35,7 +35,7 @@ Die wichtigsten Schritte zur Versandvorbereitung sind unten aufgeführt.
 
    >[!NOTE]
    >
-   >Wenn Sie den Versand geplant und die Option **[!UICONTROL Bestätigung vor dem Senden aktivieren]** deaktiviert haben, werden die Vorbereitungs- und Versandschritte unter der Schaltfläche **[!UICONTROL Vorbereiten und senden]** gruppiert. [Weitere Informationen zur Zeitplanung](../email/create-email.md#schedule)
+   >Wenn Sie den Versand geplant und die Option **[!UICONTROL Bestätigung vor dem Senden aktivieren]** deaktiviert haben, werden die Vorbereitungs- und Versandschritte unter der Schaltfläche **[!UICONTROL Vorbereiten und senden]** gruppiert. [Weitere Informationen zur Zeitplanung](../msg/gs-messages.md#gs-schedule)
 
 1. Der Vorbereitungsfortschritt wird angezeigt. Abhängig von der Größe der Ziel-Population kann dieser Vorgang einige Zeit in Anspruch nehmen.
 
@@ -87,7 +87,7 @@ Nachdem die Vorbereitung fehlerfrei abgeschlossen wurde, kann Ihre Nachricht ges
 
 Nach abgeschlossener [Vorbereitung](#prepare) können Sie Ihre E-Mail senden.
 
-Eine geplante Nachricht wird zum definierten Zeitpunkt gesendet. [Weitere Informationen](#schedule-the-send)
+Eine geplante Nachricht wird zum definierten Zeitpunkt gesendet. [Weitere Informationen](../msg/gs-messages.md#gs-schedule)
 
 ### Sofortiges Senden {#send-immediately}
 
@@ -105,7 +105,7 @@ Gehen Sie wie folgt vor, um eine E-Mail sofort zu senden.
 
 Gehen Sie wie folgt vor, wenn Sie den Versand Ihrer E-Mail für einen späteren Zeitpunkt geplant haben.
 
-1. Bevor Sie auf die Schaltfläche **[!UICONTROL Überprüfen und senden]** klicken, stellen Sie sicher, dass Sie einen Zeitplan für Ihre E-Mail definiert haben. [Weitere Informationen](../email/create-email.md#schedule)
+1. Bevor Sie auf die Schaltfläche **[!UICONTROL Überprüfen und senden]** klicken, stellen Sie sicher, dass Sie einen Zeitplan für Ihre E-Mail definiert haben. [Weitere Informationen](../msg/gs-messages.md#gs-schedule)
 
 1. Klicken Sie im Versand-Dashboard oben rechts auf die Schaltfläche **[!UICONTROL Nach Zeitplan senden]**.
 
@@ -115,7 +115,7 @@ Gehen Sie wie folgt vor, wenn Sie den Versand Ihrer E-Mail für einen späteren 
 
    >[!NOTE]
    >
-   >Wenn Sie die Option **[!UICONTROL Bestätigung vor dem Senden aktivieren]** deaktiviert haben, werden die Vorbereitungs- und Versandschritte unter der Schaltfläche **[!UICONTROL Vorbereiten und senden]** gruppiert. [Weitere Informationen zur Zeitplanung](../email/create-email.md#schedule)
+   >Wenn Sie die Option **[!UICONTROL Bestätigung vor dem Senden aktivieren]** deaktiviert haben, werden die Vorbereitungs- und Versandschritte unter der Schaltfläche **[!UICONTROL Vorbereiten und senden]** gruppiert. [Weitere Informationen zur Zeitplanung](../msg/gs-messages.md#gs-schedule)
 
 ## Anhalten oder Beenden des Sendevorgangs {#pause-stop-sending}
 
