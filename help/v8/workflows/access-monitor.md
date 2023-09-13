@@ -4,8 +4,8 @@ title: Erstellen von Workflows mit Adobe Campaign Web
 description: Erfahren Sie, wie Sie Workflows mit Adobe Campaign Web erstellen
 badge: label="Beta"
 exl-id: 51648665-8400-426c-85cf-dbf5f4f81d20
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
-workflow-type: ht
+source-git-commit: 2cd46f37ed59d252c2c39da46274d970c9aaf5cf
+workflow-type: tm+mt
 source-wordcount: '363'
 ht-degree: 100%
 
@@ -24,7 +24,7 @@ Das Menü **[!UICONTROL Workflows]** bietet Zugriff auf die vollständige Liste 
 
 Jeder Workflow in der Liste zeigt Informationen zum aktuellen [Status](#status), das letzte Mal, wann er ausgeführt oder geändert wurde, sowie das Datum und die Uhrzeit der nächsten geplanten Ausführung an.
 
-Sie können die angezeigten Spalten anpassen, indem Sie auf das Symbol **[!UICONTROL Spalte für ein benutzerdefiniertes Layout konfigurieren]** in der rechten oberen Ecke der Liste klicken. Auf diese Weise können Sie zusätzliche Informationen zur Liste hinzufügen, z. B. die letzte fehlerhafte Aktivität eines Workflows oder die angewendete Zielgruppendimension.
+Sie können die angezeigten Spalten anpassen, indem Sie auf das Symbol **[!UICONTROL Spalte für ein benutzerdefiniertes Layout konfigurieren]** in der oberen rechten Ecke der Liste klicken. Auf diese Weise können Sie zusätzliche Informationen zur Liste hinzufügen, z. B. die letzte fehlerhafte Aktivität eines Workflows oder die angewendete Zielgruppendimension.
 
 Darüber hinaus stehen eine Suchleiste und Filter zur Verfügung, um die Suche innerhalb der Liste zu erleichtern. Sie können beispielsweise die Workflows so filtern, dass nur die einer Kampagne angehörenden oder die während eines bestimmten Datumsbereichs verarbeiteten Workflows angezeigt werden.
 
