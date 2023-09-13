@@ -4,10 +4,10 @@ title: Erkunden der Benutzeroberfläche
 description: Web-Benutzeroberfläche von Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha"
-source-git-commit: 3cd540af6ccccdecc4d41983d4d11ffb1ea72c43
+source-git-commit: 371055202d9d3e2f4ded9fe4d3c43acd9498728e
 workflow-type: tm+mt
-source-wordcount: '1701'
-ht-degree: 93%
+source-wordcount: '1760'
+ht-degree: 90%
 
 ---
 
@@ -56,6 +56,12 @@ Die in der **Explorer** hängen von Ihren Benutzerberechtigungen ab.  Wenn Sie �
 Wie bei jedem Listenbildschirm können Sie die Spalten so konfigurieren, dass alle von Ihnen benötigten Informationen angezeigt werden. Weitere Informationen finden Sie in [diesem Abschnitt](#list-screens).
 
 Weitere Informationen zum Campaign-Explorer, zur Ordnerhierarchie und zu den Ressourcen finden Sie in dieser [Dokumentation zu Campaign v8 (Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/campaign-ui.html?lang=de#ac-explorer-ui){target="_blank"}.
+
+
+### Kontextuelle Hilfe {#user-interface-help}
+
+Stellen Sie Fragen und finden Sie Hinweise direkt in der Benutzeroberfläche des Produkts. Der neue KI-gestützte Wissensassistent, der in die Popup-Fenster der kontextuellen Hilfe eingebettet ist, hilft Ihnen, Ihr Know-how in Bezug auf neue Campaign-Funktionen kennenzulernen und auszubauen. Basierend auf der neuesten Produktdokumentation hilft es Ihnen, beim Erstellen Ihrer Anwendungsfälle sofort Hilfe zu erhalten und schrittweise Anleitungen zu erhalten.
+
 
 ### Kampagnen-Management {#user-interface-campaign-management}
 

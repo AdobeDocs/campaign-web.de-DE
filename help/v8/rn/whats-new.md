@@ -4,10 +4,10 @@ title: Neue Funktionen in Campaign Web v8
 description: Entdecken Sie neue Funktionen von Campaign Web v8.
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Beta"
-source-git-commit: e2ff9efcedbfc46f9d943c30fabb1b3b39c43b74
+source-git-commit: 371055202d9d3e2f4ded9fe4d3c43acd9498728e
 workflow-type: tm+mt
-source-wordcount: '962'
-ht-degree: 56%
+source-wordcount: '903'
+ht-degree: 59%
 
 ---
 
@@ -52,15 +52,13 @@ Verwenden Sie die neue Web-Benutzeroberfläche von Campaign für Folgendes:
 
 ## Neueste Aktualisierungen
 
-
 **Beta-Zusammenfassung**
 
-* Aktivieren Sie die Zusammenstellung (Federated) von Daten für Zielgruppen und Personalisierung.
-* Nutzen Sie die KI-Technologie, um die Erstellung von E-Mail-Inhalten zu verbessern.
-* Synchronisieren Sie Assets und vollständige HTML-Vorlagen nahtlos.
-* Effiziente Organisation und Verwaltung Ihrer Ordner und Ressourcen
-* Erstellen Sie ansprechende und effektive Landingpages.
-* Mehr Workflow-Aktivitäten: Greifen Sie auf zusätzliche Aktivitäten wie Dimensionsänderung, Deduplizierung und wiederkehrende Sendungen zu, um die Kampagnen-Workflows zu verbessern.
+* Aktivieren der Datenzusammensetzung (federt) für Zielgruppen und Personalisierung
+* Verwenden der KI-Technologie zur Verbesserung der Erstellung von E-Mail-Inhalten
+* Nahtlose Synchronisierung von Assets und vollständigen HTML-Vorlagen
+* Effiziente Organisation und Verwaltung von Ordnern und Ressourcen
+* Zugriff auf zusätzliche Aktivitäten wie Dimensionsänderung, Deduplizierung und wiederkehrende Sendungen zur Verbesserung der Kampagnen-Workflows
 
 **Wichtige neue Funktionen**
 
@@ -92,11 +90,14 @@ Verwenden Sie die neue Web-Benutzeroberfläche von Campaign für Folgendes:
 
   Steigern Sie Ihre Marketing-Maßnahmen, indem Sie die Leistungsfähigkeit integrierter Angebote durch SMS und Push-Benachrichtigungen auf unserer erweiterten Web-Plattform nutzen.
 
-* Adobe Experience Manager (AEM)-Integration
+<!--
+* Adobe Experience Manager (AEM) Integration
+    
+    With our AEM integration extended to web UI, you can easily manage assets and synchronize full HTML templates, empowering you to create captivating digital experiences without any hassle. 
+    
+    Elevate and streamline your content management capabilities on the web UI with this integration to boost productivity.
+-->
 
-  Dank unserer AEM-Integration, die auf die Web-Benutzeroberfläche erweitert wurde, können Sie einfach Assets verwalten und vollständige HTML-Vorlagen synchronisieren, sodass Sie ohne Probleme faszinierende digitale Erlebnisse erstellen können.
-
-  Dank dieser Integration können Sie Ihre Inhaltsverwaltungsfunktionen auf der Web-Benutzeroberfläche erweitern und optimieren, um die Produktivität zu steigern.
 
 ## Übergang zur Campaign Web-Benutzeroberfläche
 
