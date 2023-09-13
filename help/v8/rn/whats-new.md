@@ -4,7 +4,7 @@ title: Neue Funktionen in Campaign Web v8
 description: Entdecken Sie neue Funktionen von Campaign Web v8.
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Beta"
-source-git-commit: 2e1f7f2a0f3e7116c57c56d9abb6866113402401
+source-git-commit: dc8c43868b932d956ccb8693ba2152a32c3b4011
 workflow-type: tm+mt
 source-wordcount: '895'
 ht-degree: 60%
@@ -77,7 +77,7 @@ Verwenden Sie die neue Web-Benutzeroberfläche von Campaign für Folgendes:
 
 * Vordefinierte Filterverwaltung
 
-  Einführung der vordefinierten Filterverwaltung. Die Campaign-Web-Benutzeroberfläche bietet Ihnen jetzt eine benutzerfreundliche Oberfläche, mit der Sie vordefinierte Filter mühelos verwalten und an Ihre spezifischen Anforderungen anpassen können. Erstellen Sie einmal und speichern Sie für die zukünftige Verwendung. [Weitere Informationen](predefined-filters.md)
+  Einführung der vordefinierten Filterverwaltung. Die Campaign-Web-Benutzeroberfläche bietet Ihnen jetzt eine benutzerfreundliche Oberfläche, mit der Sie vordefinierte Filter mühelos verwalten und an Ihre spezifischen Anforderungen anpassen können. Erstellen Sie einmal und speichern Sie für die zukünftige Verwendung. [Weitere Informationen](../get-started/predefined-filters.md)
 
 
 * Zielgruppe
