@@ -3,7 +3,7 @@ audience: end-user
 title: Erstellen von Diensten
 description: Erfahren Sie, wie Sie Dienste im Adobe Campaign Web erstellen
 badge: label="Beta"
-source-git-commit: 20de61c502c205adbb87505a36b5fcd264bb938c
+source-git-commit: 6a8556dd531484a99d153a2aaf2058dc7e8b3a62
 workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 19%
@@ -11,7 +11,7 @@ ht-degree: 19%
 ---
 
 
-# Erstellen von Diensten {#create-service}
+# Erstellen von Diensten {#create-services}
 
 Verwenden Sie Adobe Campaign, um Informationsdienste wie Newsletter zu erstellen und zu überwachen und die An- und Abmeldungen dieser Dienste zu überprüfen.
 
