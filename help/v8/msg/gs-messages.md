@@ -4,9 +4,9 @@ title: Erste Schritte mit Nachrichten und Sendungen in Campaign v8 Web
 description: Erfahren Sie, wie Sie Campaign Web verwenden, um mit Sendungen zu arbeiten und Nachrichten zu senden
 badge: label="Beta"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: 207328a32ba74159d555616f046240100787f20e
+source-git-commit: 220eddacdc15266d12e511285ecb306cbd9aa42f
 workflow-type: tm+mt
-source-wordcount: '1303'
+source-wordcount: '1289'
 ht-degree: 85%
 
 ---
@@ -88,11 +88,10 @@ Gehen Sie wie folgt vor, um einen eigenständigen Versand zu erstellen:
 1. Überprüfen Sie die Ergebnisse und klicken Sie auf die Schaltfläche **[!UICONTROL Senden]**, um mit dem Senden von Nachrichten zu beginnen.
 1. Sobald Nachrichten gesendet wurden, gehen Sie zum Abschnitt **Berichte**, um auf Schlüsselmetriken zuzugreifen. Weitere Informationen zu Versandberichten finden Sie in [diesem Abschnitt](../reporting/delivery-reports.md).
 
->[!TAB Versand in einem Kampagnen-Workflow erstellen]
+>[!TAB Versand in einem Workflow erstellen]
 
-Gehen Sie wie folgt vor, um einen Versand in einer Kampagne zu erstellen:
+Gehen Sie wie folgt vor, um einen Versand in einem Workflow zu erstellen:
 
-1. Erstellen Sie eine neue Kampagne oder öffnen Sie eine vorhandene Kampagne. Erfahren Sie mehr über [Marketing-Kampagnen](../campaigns/gs-campaigns.md).
 1. Erstellen Sie einen Workflow oder öffnen Sie einen vorhandenen Workflow.
 1. Fügen Sie die Aktivität **[!UICONTROL Zielgruppe aufbauen]** hinzu, konfigurieren Sie sie und klicken Sie auf die Schaltfläche `+`.
 
@@ -100,7 +99,7 @@ Gehen Sie wie folgt vor, um einen Versand in einer Kampagne zu erstellen:
 
    Die Aktivität **[!UICONTROL Zielgruppe aufbauen]** wird in [diesem Abschnitt](../workflows/activities/build-audience.md) detailliert beschrieben.
 
-1. Wählen Sie eine Versandaktivität aus: **[!UICONTROL E-Mail]**, **[!UICONTROL SMS]**, **[!UICONTROL Push-Benachrichtigung (Android)]** oder **[!UICONTROL Push-Benachrichtigung (iOS)]**. Erfahren Sie in [diesem Abschnitt](../workflows/activities/about-activities.md#channel) mehr über die Versandkanalaktivitäten in einem Workflow und darüber, wie Sie Versandinhalte definieren.
+1. Wählen Sie eine Versandaktivität aus: **[!UICONTROL E-Mail]**, **[!UICONTROL SMS]**, **[!UICONTROL Push-Benachrichtigung (Android)]** oder **[!UICONTROL Push-Benachrichtigung (iOS)]**. Erfahren Sie in [diesem Abschnitt](../workflows/activities/channels.md) mehr über die Versandkanalaktivitäten in einem Workflow und darüber, wie Sie Versandinhalte definieren.
 1. Starten Sie den Workflow und überprüfen Sie die Protokolle.
 
 Sie können Sendungen auch in einer Kampagne hinzufügen, ohne einen Workflow zu erstellen. Navigieren Sie dazu zur Registerkarte **[!UICONTROL Sendungen]** Ihrer Kampagne und klicken Sie auf die Schaltfläche **[!UICONTROL Versand erstellen]**.

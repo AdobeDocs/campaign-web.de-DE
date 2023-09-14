@@ -4,8 +4,8 @@ title: Arbeiten mit Workflow-Aktivitäten
 description: Erfahren Sie, wie Sie Workflow-Aktivitäten durchführen.
 badge: label="Beta"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
-workflow-type: ht
+source-git-commit: 220eddacdc15266d12e511285ecb306cbd9aa42f
+workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 100%
 
@@ -43,7 +43,7 @@ Die folgenden **Kanalaktivitäten** sind verfügbar:
 * Push
 * SMS
 
-Näheres dazu finden Sie in [diesem Abschnitt](enrichment.md).
+Näheres dazu finden Sie in [diesem Abschnitt](channels.md).
 
 ## Aktivitäten zur Flusskontrolle {#flow-control}
 
