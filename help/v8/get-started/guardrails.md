@@ -2,10 +2,10 @@
 title: Limits und Einschränkungen in der Web-Benutzeroberfläche von Campaign
 description: Limits und Einschränkungen in der Web-Benutzeroberfläche von Campaign
 badge: label="Beta"
-source-git-commit: ff95b563784ae507245e6690feedda33ea6a111b
+source-git-commit: 2ce9dc99fd88f4731ed0d5ac934e66d4934a2c02
 workflow-type: tm+mt
-source-wordcount: '323'
-ht-degree: 2%
+source-wordcount: '443'
+ht-degree: 7%
 
 ---
 
@@ -47,7 +47,48 @@ In der Campaign-Clientkonsole wird die **Anreicherung** -Aktivität kann sowohl 
 
 ## Vordefinierte Filter {#filters-guardrails-limitations}
 
-
 Bei der Auswahl der Audience eines Versands oder beim Erstellen einer Audience in einem Workflow stehen einige vordefinierte Filter nicht zur Verfügung. Eine spezifische Fehlermeldung wird angezeigt. Sie können weiterhin die Abfrage und die Anzeige verwenden: die Filterbedingung und die Ergebnisse, aber Sie können die genaue Abfrage nicht im Regel-Builder anzeigen und den Filter nicht bearbeiten.
 
-![](assets/filter-unavailable.png)
+![](assets/filter-unavailable.png){width="70%" align="left"}
+
+
+### Nicht unterstützte Datentypen {#unsupported-data-type}
+
+Die folgenden in der Clientkonsole verfügbaren Datentypen werden beim Anzeigen eines Filters oder einer Regel in der Webschnittstelle nicht unterstützt:
+
+* datetime
+* Zeit
+* timespan
+* double
+* float
+
+### Nicht unterstützte Filterfunktionen {#unsupported-filtering-capabilities}
+
+Wenn ein Filter mit komplexen Ausdrücken und Funktionen in der Clientkonsole erstellt wurde, kann er nicht in der Webschnittstelle bearbeitet werden.
+
+Darüber hinaus werden die folgenden Operatoren nicht unterstützt:
+
+* Numerischer Typ
+   * ist enthalten in
+   * nein
+
+* String type
+   * größer als
+   * kleiner als
+   * größer als oder gleich
+   * kleiner oder gleich
+   * ist wie
+   * ist nicht wie
+
+* Datum Typ
+   * später als
+   * früher als
+   * ist nicht gleich
+   * ist leer
+   * ist nicht leer
+   * ist enthalten in
+   * ist nicht enthalten in
+   * letzten
+
+* 1:N-Links
+   * COUNT, SUM, AVG, MIN, MAX
