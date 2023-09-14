@@ -3,10 +3,10 @@ audience: end-user
 title: Senden eines SMS-Versands
 description: Erfahren Sie, wie Sie SMS mit Adobe Campaign Web senden
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
-workflow-type: ht
-source-wordcount: '400'
-ht-degree: 100%
+source-git-commit: 51d237a2651cc4a24630138b5761b4b14e7cac4f
+workflow-type: tm+mt
+source-wordcount: '421'
+ht-degree: 95%
 
 ---
 
@@ -63,6 +63,9 @@ Der Versand von Test-SMS ist ein wichtiger Schritt, um die Qualität und Effekti
 1. Senden Sie die Nachrichten, indem Sie auf **[!UICONTROL Senden]** klicken, um mit dem endgültigen Versandprozess fortzufahren.
 
    ![](assets/sms_send_5.png)
+
+   Wenn der SMS-Versand geplant wurde, klicken Sie auf die Schaltfläche **[!UICONTROL Senden als geplant]** Schaltfläche. Weitere Informationen zur Versandplanung finden Sie unter [diesem Abschnitt](../msg/gs-messages.md#schedule-the-delivery-sending).
+
 
 1. Bestätigen Sie den Sendevorgang durch Auswahl der Schaltfläche **[!UICONTROL Senden]**.
 
