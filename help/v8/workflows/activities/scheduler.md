@@ -3,9 +3,9 @@ audience: end-user
 title: Verwenden der Workflow-Aktivität Planung
 description: Erfahren Sie, wie Sie die Workflow-Aktivität Planung verwenden.
 badge: label="Beta"
-source-git-commit: ea57053910aa98e79ceb7ef683f890a366a9001b
+source-git-commit: bbb22de6ff1398dbb1431f51a55350d206b4690a
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '333'
 ht-degree: 37%
 
 ---
@@ -13,10 +13,12 @@ ht-degree: 37%
 
 # Planung {#scheduler}
 
+<!--
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_schedule_options"
->title="Planungsaktivität"
->abstract="Die Aktivität Planung ..."
+>title="Scheduler activity"
+>abstract="The Scheduler activity allows you..."
+-->
 
 Die **Planung** -Aktivität **Flusssteuerung** -Aktivität. Damit können Sie den Beginn des Workflows planen. Diese Aktivität sollte als geplanter Start betrachtet werden. Sie kann nur als erste Aktivität des Workflows verwendet werden.
 

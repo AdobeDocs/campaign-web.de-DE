@@ -3,9 +3,9 @@ audience: end-user
 title: Workflow-Aktivität "Deduplizierung" verwenden
 description: Erfahren Sie, wie Sie die Workflow-Aktivität Deduplizierung verwenden.
 badge: label="Beta"
-source-git-commit: ea57053910aa98e79ceb7ef683f890a366a9001b
+source-git-commit: bbb22de6ff1398dbb1431f51a55350d206b4690a
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '273'
 ht-degree: 27%
 
 ---
@@ -13,10 +13,12 @@ ht-degree: 27%
 
 # Deduplizierung {#deduplication}
 
+<!--
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_fields"
->title="Verzweigung  Aktivität"
->abstract="Die Aktivität Deduplizierung ermöglicht ..."
+>title="Fork activity"
+>abstract="The Deduplication activity allows you to..."
+-->
 
 Die **Deduplizierung** -Aktivität **Targeting** -Aktivität. Mithilfe dieser Aktivität lassen sich Dubletten in Ergebnissen aus eingehenden Aktivitäten löschen. Die **Deduplizierung** -Aktivitäten werden im Allgemeinen im Anschluss an Zielgruppenbestimmungsaktivitäten und vor Aktivitäten verwendet, die die Verwendung von Zieldaten ermöglichen.
 

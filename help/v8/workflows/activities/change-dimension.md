@@ -3,20 +3,22 @@ audience: end-user
 title: Workflow-Aktivität Dimensionsänderung verwenden
 description: Erfahren Sie, wie Sie die Workflow-Aktivität Dimensionsänderung verwenden
 badge: label="Beta"
-source-git-commit: ea57053910aa98e79ceb7ef683f890a366a9001b
+source-git-commit: bbb22de6ff1398dbb1431f51a55350d206b4690a
 workflow-type: tm+mt
-source-wordcount: '130'
-ht-degree: 39%
+source-wordcount: '118'
+ht-degree: 40%
 
 ---
 
 
-# Dimensionsänderung {#change-dimension}
+# Ändern der Dimension {#change-dimension}
 
+<!--
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_dimension_complement"
->title="Dimensionsänderung Aktivität"
->abstract="Die Dimensionsänderung ermöglicht Ihnen Folgendes:"
+>title="Change dimension activity"
+>abstract="The Change dimension activity allows you to..."
+-->
 
 Die **Dimensionsänderung** -Aktivität **Targeting** -Aktivität. Mithilfe dieser Aktivität können Sie die Zielgruppendimension beim Erstellen einer Audience ändern. Diese Aktivität verschiebt die Achse je nach Datenvorlage und der eingegebenen Dimension. Sie können beispielsweise von der Dimension &quot;Verträge&quot;zur Dimension &quot;Kunden&quot;wechseln.
 
@@ -28,8 +30,8 @@ Führen Sie die folgenden Schritte aus, um die **Dimensionsänderung** Aktivitä
 
 1. Hinzufügen einer **Dimensionsänderung** -Aktivität zu Ihrem Workflow hinzu.
 
-       ![](../assets/workflow-change-dimension.png)
-   
+   ![](../assets/workflow-change-dimension.png)
+
 1. Wählen Sie im Feld Dimensionsänderung die neue Zielgruppendimension aus.
 
 Nichts anderes?

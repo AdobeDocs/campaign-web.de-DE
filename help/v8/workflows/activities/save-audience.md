@@ -3,9 +3,9 @@ audience: end-user
 title: Verwenden der Workflow-Aktivität Audience-Speicherung
 description: Erfahren Sie, wie Sie die Workflow-Aktivität „Verzweigung“ verwenden.
 badge: label="Beta"
-source-git-commit: 058327a9beaca30a2d5ac84d71a8fef2333732ab
+source-git-commit: bbb22de6ff1398dbb1431f51a55350d206b4690a
 workflow-type: tm+mt
-source-wordcount: '333'
+source-wordcount: '323'
 ht-degree: 17%
 
 ---
@@ -13,10 +13,12 @@ ht-degree: 17%
 
 # Audience-Speicherung {#save-audience}
 
+<!--
 >[!CONTEXTUALHELP]
 >id="???"
->title="Audience-Speicherung Aktivität"
->abstract="Die Audience-Speicherung ermöglicht..."
+>title="Save audience activity"
+>abstract="The Save audience activity allows you to..."
+-->
 
 Die **Audience-Speicherung** -Aktivität **Targeting** -Aktivität. Diese Aktivität ermöglicht die Aktualisierung einer existierenden Audience oder die Erstellung einer neuen Audience aus der zuvor durch einen Workflow berechneten Population. Die erstellten Audiences werden der Liste der Anwendungszielgruppen hinzugefügt und über die **Zielgruppen** Menü.
 
