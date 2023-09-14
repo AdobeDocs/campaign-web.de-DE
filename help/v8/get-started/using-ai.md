@@ -4,9 +4,9 @@ description: Verwenden eines KI-gestützten wissensbasierten Assistenten im Camp
 badge: label="Beta"
 hide: true
 hidefromtoc: true
-source-git-commit: c110c118cc45da0fa0db4249f4f24ebf7c3c21a8
+source-git-commit: 368f716e72abfe9ac22893798cf11f6fd90f2cd4
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '399'
 ht-degree: 2%
 
 ---
@@ -33,5 +33,15 @@ Antworten können ungenau oder irreführend sein. Infolgedessen kann ein Adobe-W
 
 Künstliche Intelligenz und Modelle des maschinellen Lernens werden im Laufe der Zeit verbessert, um bestimmte Anwendungsfälle besser anzugehen. Kampagnen-KI-gestützte Wissensassistent wird in den kommenden Monaten weiter besser werden. Wir empfehlen Ihnen dringend, das ?? ?? Schaltflächen immer wenn Sie eine Antwort lesen, um unangemessene Antworten auf unsere Ingenieure zu kennzeichnen.
 
+## Empfehlungen  {#recommendations-ai}
 
+Bei Fragen in der kontextuellen Hilfe wird der aktuelle Produktkontext berücksichtigt.
+
+Um das Beste aus der Assistenzkraft zu erhalten, raten wir Ihnen bei der Beantwortung einer Frage:
+
+* So präzise und spezifisch wie möglich sein und Unklarheiten vermeiden. Die Antwort wird genauer und hilfreicher sein.
+* Um der Wissensassistenten bei der Suche nach den richtigen Informationen zu helfen, fügen Sie so viele Details wie möglich zu dem hinzu, was Sie versuchen zu lernen.
+* Nehmen Sie Ihre Fragen neu auf und verfeinern Sie sie, um bessere Antworten zu erhalten. Wenn die Antwort nicht präzise oder nützlich ist, versuchen Sie verschiedene Ansätze und fügen Sie Kontext hinzu, um bessere Ergebnisse zu erzielen.
+* Verwenden Sie geeignete Begriffe und Formulierungen mit einem neutralen Ton.
+* Bewerten Sie die Antworten und geben Sie Feedback, damit unsere Ingenieure aus Ihren Erfahrungen lernen und die Ergebnisse verbessern können.
 
