@@ -3,9 +3,9 @@ audience: end-user
 title: Verwenden der Workflow-Aktivität „Versand“
 description: Erfahren Sie, wie Sie eine Workflow-Aktivität „Versand“ hinzufügen (E-Mail, Push-Benachrichtigung, SMS).
 badge: label="Beta"
-source-git-commit: 6788290e21f18794c028769bd09f83b99b1dd1ad
+source-git-commit: 48e4baa2cc0e37537c75214f84df3d2e08d771a9
 workflow-type: tm+mt
-source-wordcount: '493'
+source-wordcount: '491'
 ht-degree: 82%
 
 ---
@@ -27,9 +27,9 @@ Mithilfe von Kanalaktivitäten können Sie umfassende und personalisierte Kampag
 >* [Erstellen eines eigenständigen Push-Versands](../../push/create-push.md)
 >
 
-## Versand in einem Kampagnen-Workflow erstellen{#create-a-delivery-in-a-workflow}
+## Versand in einem Workflow erstellen{#create-a-delivery-in-a-workflow}
 
-Gehen Sie wie folgt vor, um im Rahmen eines Kampagnen-Workflows eine E-Mail, eine SMS oder einen Push-Versand zu erstellen:
+Gehen Sie wie folgt vor, um im Rahmen eines Workflows eine E-Mail, eine SMS oder einen Push-Versand zu erstellen:
 
 1. Stellen Sie sicher, dass Sie eine Aktivität vom Typ **Zielgruppe erstellen** hinzugefügt haben. Die Zielgruppe ist das wichtigste Ziel Ihres Versands: die Empfängerinnen und Empfänger, die die Nachrichten erhalten. Beim Senden von Nachrichten im Rahmen eines Kampagnen-Workflows wird die Nachrichtenzielgruppe nicht in der Kanalaktivität, sondern in der Aktivität **Zielgruppe erstellen** definiert. Weitere Informationen finden Sie in [diesem Abschnitt](build-audience.md).
 
@@ -56,7 +56,7 @@ Gehen Sie wie folgt vor, um im Rahmen eines Kampagnen-Workflows eine E-Mail, ein
 
 1. Klicken Sie im Versand-Dashboard auf **Senden**.
 
-## Beispiel{#cross-channel-workflow-sample}
+## Beispiel {#cross-channel-workflow-sample}
 
 Im Folgenden finden Sie ein Beispiel eines Cross-Channel-Workflows mit einer Segmentierung und zwei Sendungen. Der Workflow richtet sich an alle Kundinnen und Kunden, die in Paris leben und an Kaffeemaschinen interessiert sind. Innerhalb dieser Population wird eine E-Mail an die regulären Kundinnen und Kunden und eine SMS an diejenigen mit VIP-Status gesendet.
 
