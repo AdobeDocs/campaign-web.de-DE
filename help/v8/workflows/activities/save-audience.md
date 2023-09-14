@@ -3,10 +3,10 @@ audience: end-user
 title: Verwenden der Workflow-Aktivität Audience-Speicherung
 description: Erfahren Sie, wie Sie die Workflow-Aktivität „Verzweigung“ verwenden.
 badge: label="Beta"
-source-git-commit: 4924653e67f77a2108574e743c9016c6fc95a7e6
+source-git-commit: 7c8acd17fec3f6aa3d12346c2daaac9f64755098
 workflow-type: tm+mt
-source-wordcount: '17'
-ht-degree: 64%
+source-wordcount: '323'
+ht-degree: 17%
 
 ---
 
@@ -18,57 +18,37 @@ ht-degree: 64%
 >id="acw_orchestration_saveaudience_activity"
 >title="Save an audience"
 >abstract="Use this activity to save the workflow audience."
+-->
 
->[!CONTEXTUALHELP]
->id="acw_orchestration_saveaudience_outbound"
->title="Outbound transition for save audience"
->abstract="tbc"
+Die **Audience-Speicherung** -Aktivität **Targeting** -Aktivität. Diese Aktivität ermöglicht die Aktualisierung einer existierenden Audience oder die Erstellung einer neuen Audience aus der zuvor durch einen Workflow berechneten Population. Die erstellten Audiences werden der Liste der Anwendungszielgruppen hinzugefügt und über die **Zielgruppen** Menü.
 
-Mode
-Audience label
-Adobe Campaign is going to match this label against existing audiences. If it finds a match, it will update that audience, otherwise it will create a new audience.
-Update method
+Diese Aktivität dient im Wesentlichen dazu, innerhalb desselben Workflows berechnete Populationen in wiederverwendbare Audiences umzuwandeln. Verbinden Sie ihn mit anderen Targeting-Aktivitäten, z. B. einer **Audience erstellen** oder **Kombinieren** -Aktivität.
 
-Replace audience with new data
+## Konfiguration
 
-Complete audience with new data
-Folder
-Lists (/Profiles and Targets/Lists/)
+Führen Sie die folgenden Schritte aus, um die **Audience-Speicherung** Aktivität:
 
-Generate an outbound transition
-
-
-The **Save audience** activity is a **Targeting** activity. This activity allows you to update an existing audience or create a new audience from the population computed upstream in a workflow. The audiences created are added to the list of application audiences, and are made available via the **Audiences** menu.
-
-This activity is essentially used to keep population groups computed in the same workflow, by converting them into reusable audiences. Connect it to other targeting activities such as a **Build audience** or a **Combine** activity. 
-
-## Configuration
-
-Follow these steps to configure the **Save audience** activity:
-
-1. Add a **Save audience** activity to your workflow.
+1. Hinzufügen einer **Audience-Speicherung** -Aktivität zu Ihrem Workflow hinzu.
 
    ![](../assets/workflow-save-audience.png)
 
-1. In the **Mode** drop-down, select the action that you would like to carry out:
+1. Im **Modus** in der Dropdown-Liste die gewünschte Aktion auswählen:
 
-    * **Create or update an existing audience**: define an **Audience label**. If the audience already exists, it will be updated, otherwise a new audience will be created.
+   * **Erstellen oder Aktualisieren einer vorhandenen Zielgruppe**: Definieren Sie eine **Zielgruppenbezeichnung**. Wenn die Audience bereits existiert, wird sie aktualisiert. Andernfalls wird eine neue Audience erstellt.
 
-    * **Update an existing audience**: choose the **Audience** you wish to update among the list of existing audiences. 
+   * **Vorhandene Audience aktualisieren**: Wählen Sie die **Zielgruppe** Sie möchten die Liste der existierenden Zielgruppen aktualisieren.
 
-1. Select the **Update mode** which will apply for existing audiences:
+1. Wählen Sie die **Aktualisierungsmodus** wird für bestehende Zielgruppen gelten:
 
-    * **Replace audience content with new data**: all audience content is replaced. The old data is lost. Only the data from the inbound transition of the save audience activity is kept. This option erases the audience type and the targeting dimension of the updated audience.
+   * **Audience-Inhalt durch neue Daten ersetzen**: Der gesamte Inhalt der Audience wird ersetzt. die zuvor enthaltenen Daten gehen verloren. Nur die in der eingehenden Transition an die Audience-Speicherung-Aktivität übermittelten Daten werden beibehalten. Mit dieser Option werden der Audience-Typ und die Zielgruppendimension der aktualisierten Audience gelöscht.
 
-    * **Complete audience with new data**: the old audience content is kept and the data from the save audience activity's inbound transition is added to it.
+   * **Vollständige Audience mit neuen Daten**: Der alte Inhalt der Audience wird beibehalten und die Daten aus der eingehenden Transition der Aktivität Audience speichern werden hinzugefügt.
 
-1. Check the **Generate complement** option if you wish to exploit the remaining population. An additional transition will then be added to the activity.
+1. Überprüfen Sie die **Komplement erzeugen** , wenn Sie die verbleibende Population ausnutzen möchten. Der Aktivität wird daraufhin eine zusätzliche Transition hinzugefügt.
 
-The content of the saved audience is then available in the detail view of the audience, which can be accessed from the **Audiences** menu. The columns available from this view correspond to the columns of the inbound transition of the workflow's **SAve audience** activity. 
-
-
-## Example
+Der Inhalt der gespeicherten Audience ist anschließend in der Detailansicht der Audience verfügbar, auf die Sie im Menü **Audiences** zugreifen können. Die in dieser Ansicht verfügbaren Spalten entsprechen den Spalten der in den Workflow eingehenden Transition. **SAve-Zielgruppe** -Aktivität.
 
 
+## Beispiel
 
--->
+
