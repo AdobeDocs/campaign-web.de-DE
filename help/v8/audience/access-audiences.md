@@ -3,9 +3,9 @@ audience: end-user
 title: Zielgruppen überwachen und verwalten
 description: Erfahren Sie, wie Sie Zielgruppen im Adobe Campaign Web überwachen und verwalten.
 badge: label="Beta"
-source-git-commit: b2cd72ce06e1b18689be4c40c80f3abde85f922e
+source-git-commit: f9693c08e1f0a5b5644e8026b7dfe788ee6499c4
 workflow-type: tm+mt
-source-wordcount: '253'
+source-wordcount: '250'
 ht-degree: 0%
 
 ---
@@ -19,9 +19,9 @@ Die Liste der Zielgruppen, die im Campaign Web verwendet werden können, ist üb
 
 Zielgruppen können aus mehreren Quellen stammen. Die **[!UICONTROL Origin]** gibt an, wo eine bestimmte Zielgruppe erstellt wurde:
 
-* **[!UICONTROL Adobe Experience Platform:]** Diese Zielgruppen wurden in Adobe Experience Platform erstellt und mithilfe der Integration mit Adobe-Quellen und Zielen im Campaign-Web bereitgestellt. Erfahren Sie, wie Sie diese Integration in [Dokumentation zu Campaign v8 (Clientkonsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html)
+* **[!UICONTROL Adobe Experience Platform:]** Diese Zielgruppen werden in Adobe Experience Platform erstellt und mithilfe der Adobe-Quellen- und Zielintegration in Campaign Web integriert. Erfahren Sie, wie Sie diese Integration in [Dokumentation zu Campaign v8 (Clientkonsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html)
 
-* **[!UICONTROL Adobe Campaign]**: Diese Zielgruppen wurden mithilfe eines Campaign-Web-Workflows erstellt. [Erfahren Sie, wie Sie Audiences erstellen](create-audiences.md)
+* **[!UICONTROL Adobe Campaign]**: Diese Zielgruppen wurden mithilfe von Workflows für Campaign-Webzielgruppen erstellt. [Erfahren Sie, wie Sie Audiences erstellen](create-audience.md)
 
 *Was sind die anderen Ursprünge? Sind sie benutzerspezifisch? Wo werden sie definiert?*
 
@@ -29,7 +29,7 @@ Zielgruppen können aus mehreren Quellen stammen. Die **[!UICONTROL Origin]** gi
 
 Um weitere Informationen zu einer Audience zu erhalten, öffnen Sie sie in der Liste. Die Eigenschaften der Audience werden zusammen mit der Anzahl der in der Audience enthaltenen Profile angezeigt. Sie können die Anzahl der Zielgruppen jederzeit mit der Funktion **[!UICONTROL berechnen]** Schaltfläche.
 
-Im Tab Daten können die Profile der Audience visualisiert werden. Sie können diese Ansicht personalisieren, indem Sie weitere Spalten hinzufügen. Sie können auch erweiterte Filter verwenden, um die angezeigten Daten zu verfeinern.
+Die **[!UICONTROL Daten]** -Tab ermöglicht die Visualisierung der Profile, die Teil der Audience sind. Sie können diese Ansicht anpassen, indem Sie weitere Spalten hinzufügen oder erweiterte Filter nutzen, um die angezeigten Daten zu verfeinern.
 
 ![](assets/audiences-details.png)
 
