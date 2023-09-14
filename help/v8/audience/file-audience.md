@@ -4,10 +4,10 @@ title: Ansprechen von Empfängerinnen und Empfängern aus einer Datei
 description: Erfahren Sie, wie Sie mit Empfängerinnen und Empfängern aus einer externen Datei eine E-Mail-Zielgruppe erstellen können.
 badge: label="Beta"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: 77ff2714db5640aca367c41b717e4d20d672767a
+source-git-commit: 56909f59e0bd9d18bb6df9610b376f6a3a1a2bad
 workflow-type: tm+mt
-source-wordcount: '443'
-ht-degree: 74%
+source-wordcount: '548'
+ht-degree: 62%
 
 ---
 
@@ -55,23 +55,6 @@ Bei der Erstellung und Personalisierung des Nachrichteninhalts können Sie im [P
 
 ![](assets/select-external-perso.png)
 
-## Vorschau erstellen und E-Mail testen {#test}
-
-Mit Campaign Web können Sie sich Test-E-Mails in der Vorschau ansehen und senden, wenn Sie eine aus einer Datei hochgeladene Audience verwenden. Gehen Sie dazu wie folgt vor:
-
-1. Inhalte simulieren
-1. Öffnet die Vorschau. Klicken Sie auf Profil(e) auswählen: Wählen Sie Profile aus der zu verwendenden Datei aus.
-1. zum Senden der Test-E-Mail klicken Sie auf Test .
-1. Testmodus: Definieren Sie die Zielgruppe der Testsendungen.
-1. Laden Sie die Zielgruppe der Test-E-Mail von einer zweiten Datei hoch (oder verwenden Sie die gleiche). Die Dateiformatierung entspricht der der hochgeladenen Datei.
-1. Prüfungen im Dateiformat
-1. Klickversand
-
-Link zum Vorschau- und Testabschnitt hinzufügen
-
-**Fragen:**
-* keine Ersetzung durch die verfügbare Datei?
-
 ## Beispieldatei {#sample-file}
 
 >[!CONTEXTUALHELP]
@@ -92,3 +75,29 @@ Smith,Clara,Roma,08/02/1979,clara.smith@example.com,0
 Durance,Allison,San Francisco,15/12/2000,allison.durance@example.com,1
 }
 ```
+
+## Vorschau erstellen und E-Mail testen {#test}
+
+Mit Campaign Web können Sie sich Test-E-Mails in der Vorschau ansehen und senden, wenn Sie eine aus einer Datei hochgeladene Audience verwenden. Gehen Sie dazu wie folgt vor:
+
+1. Klicken Sie auf **[!UICONTROL Schaltfläche &quot;Inhalt simulieren&quot;]** Wählen Sie im Bearbeitungsbildschirm des Versandinhalts die Option **[!UICONTROL Hinzufügen von Testprofilen]** Schaltfläche.
+
+1. Die in der hochgeladenen Datei enthaltenen Profile werden angezeigt. Wählen Sie die Profile aus, die Sie für die Vorschau Ihres Inhalts verwenden möchten, und klicken Sie auf **[!UICONTROL Auswählen]**.
+
+1. Im rechten Bereich des Bildschirms wird eine Vorschau des Versandinhalts angezeigt. Personalisierte Elemente werden durch die Daten aus dem Profil ersetzt, das im linken Bereich ausgewählt wurde. [Weitere Informationen zur Inhaltsvorschau eines Versands](../preview-test/preview-content.md)
+
+   ![](assets/file-upload-preview.png)
+
+1. Um Test-E-Mails zu senden, klicken Sie auf die Schaltfläche **[!UICONTROL Test]** Schaltfläche.
+
+1. Klicken Sie auf **[!UICONTROL Hochladen von Testprofilen]** und wählen Sie die .txt - oder .csv -Datei aus, die Ihre Testversand-Empfänger enthält.
+
+   >[!CAUTION]
+   >
+   >Stellen Sie sicher, dass das Dateiformat mit dem für das Hochladen der Audience verwendeten Format übereinstimmt. Bei Formatfehlern wird ein Warnhinweis angezeigt.
+
+1. Wenn die Testversand-Empfänger hinzugefügt werden und Sie bereit sind, die Testsendungen durchzuführen, klicken Sie auf die Schaltfläche **[!UICONTROL Test-E-Mail senden]** und bestätigen Sie den Versand.
+
+   ![](assets/file-upload-test.png)
+
+1. Sie können den Versand der Test-E-Mail jederzeit mithilfe der Schaltfläche Test-E-Mail-Protokoll anzeigen überwachen. [Erfahren Sie mehr über die Überwachung von E-Mails beim Testen](../preview-test/test-deliveries.md#access-sent-test-deliveries-access-proofs)
