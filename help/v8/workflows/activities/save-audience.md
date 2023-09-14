@@ -3,10 +3,10 @@ audience: end-user
 title: Verwenden der Workflow-Aktivität Audience-Speicherung
 description: Erfahren Sie, wie Sie die Workflow-Aktivität „Verzweigung“ verwenden.
 badge: label="Beta"
-source-git-commit: ea57053910aa98e79ceb7ef683f890a366a9001b
+source-git-commit: 058327a9beaca30a2d5ac84d71a8fef2333732ab
 workflow-type: tm+mt
-source-wordcount: '386'
-ht-degree: 18%
+source-wordcount: '333'
+ht-degree: 17%
 
 ---
 
@@ -17,16 +17,6 @@ ht-degree: 18%
 >id="???"
 >title="Audience-Speicherung Aktivität"
 >abstract="Die Audience-Speicherung ermöglicht..."
-
-Bezeichnung der Modus-Zielgruppe Adobe Campaign wird diese Bezeichnung mit bestehenden Zielgruppen abgleichen. Wenn eine Übereinstimmung gefunden wird, wird diese Zielgruppe aktualisiert, andernfalls wird eine neue Zielgruppe erstellt.
-Update-Methode
-
-Zielgruppe durch neue Daten ersetzen
-
-Vollständige Audience mit neuen Datenordnerlisten (/Profile und Zielgruppen/Listen/)
-
-Ausgehende Transition erzeugen
-
 
 Die **Audience-Speicherung** -Aktivität **Targeting** -Aktivität. Diese Aktivität ermöglicht die Aktualisierung einer existierenden Audience oder die Erstellung einer neuen Audience aus der zuvor durch einen Workflow berechneten Population. Die erstellten Audiences werden der Liste der Anwendungszielgruppen hinzugefügt und über die **Zielgruppen** Menü.
 
