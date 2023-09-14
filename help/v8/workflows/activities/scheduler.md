@@ -3,10 +3,10 @@ audience: end-user
 title: Verwenden der Workflow-Aktivität Planung
 description: Erfahren Sie, wie Sie die Workflow-Aktivität Planung verwenden.
 badge: label="Beta"
-source-git-commit: bbb22de6ff1398dbb1431f51a55350d206b4690a
+source-git-commit: 0d3a20aa02a48af5ffd34843295ed53afd61acde
 workflow-type: tm+mt
-source-wordcount: '333'
-ht-degree: 37%
+source-wordcount: '367'
+ht-degree: 34%
 
 ---
 
@@ -55,6 +55,13 @@ Führen Sie die folgenden Schritte aus, um die **Planung** Aktivität:
    * **Dauerhaft (nie abläuft)**: Der Workflow wird in der angegebenen Häufigkeit ausgeführt, wobei der Zeitraum und die Anzahl der Ausführungen unbegrenzt sind.
 
    * **Gültigkeitszeitraum**: Der Workflow wird in der angegebenen Häufigkeit bis zu einem bestimmten Datum ausgeführt. Sie müssen Start- und Enddaten angeben.
+
+>[!NOTE]
+>
+>Wenn Sie den Workflow sofort starten möchten, können Sie auf die Schaltfläche **Ausstehende Aufgabe ausführen** in der oberen Symbolleiste der Planung. Diese Schaltfläche ist nur verfügbar, wenn Sie den Workflow gestartet haben.
+
+Anmerkungen:
+
 
 ## Beispiel
 
