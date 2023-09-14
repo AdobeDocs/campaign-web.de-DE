@@ -3,10 +3,10 @@ audience: end-user
 title: Erstellen eines Push-Benachrichtigungs-Versands
 description: Erfahren Sie, wie Sie mit Adobe Campaign Web einen Push-Benachrichtigungs-Versand erstellen
 badge: label="Beta"
-source-git-commit: e934bc041b76511c0f4fec22b6abc41c647e1cb3
+source-git-commit: 207328a32ba74159d555616f046240100787f20e
 workflow-type: tm+mt
-source-wordcount: '337'
-ht-degree: 97%
+source-wordcount: '406'
+ht-degree: 77%
 
 ---
 
@@ -27,9 +27,14 @@ ht-degree: 97%
 >title="Eigenschaften des Push-Versands"
 >abstract="Verwalten Sie die Eigenschaften eines Push-Versands."
 
-1. Klicken Sie auf der **[!UICONTROL Sendungen]**-Startseite auf **[!UICONTROL Versand erstellen]**.
+Sie können einen eigenständigen Push-Benachrichtigungsversand erstellen oder eine Push-Benachrichtigung im Rahmen eines Kampagnen-Workflows erstellen. Die folgenden Schritte beschreiben die Vorgehensweise für einen eigenständigen (einmaligen) Push-Versand. Wenn Sie im Kontext eines Kampagnen-Workflows arbeiten, finden Sie die Erstellungsschritte im Abschnitt [diesem Abschnitt](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
 
-1. Wählen Sie im Abschnitt **[!UICONTROL Kanal]** die Push-Benachrichtigung als Kanal und wählen Sie eine Vorlage je nach dem gewählten Betriebssystem: Android oder iOS. [Weitere Informationen zu Vorlagen](../msg/delivery-template.md)
+
+Gehen Sie wie folgt vor, um einen neuen eigenständigen Push-Versand zu erstellen:
+
+1. Gehen Sie zum Menü **[!UICONTROL Sendungen]** in der linken Leiste, und klicken Sie auf die Schaltfläche **[!UICONTROL Versand erstellen]**.
+
+1. Unter dem **[!UICONTROL Kanal]** auswählen **Push-Benachrichtigung** als Kanal verwenden und je nach gewähltem Betriebssystem des Geräts eine Vorlage auswählen: Android oder iOS. [Weitere Informationen zu Vorlagen](../msg/delivery-template.md)
 
 1. Klicken Sie zur Bestätigung auf **[!UICONTROL Versand erstellen]**.
 

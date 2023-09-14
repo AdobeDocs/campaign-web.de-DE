@@ -4,10 +4,10 @@ title: Erstellen eines SMS-Versands
 description: Erfahren Sie, wie Sie SMS mit Adobe Campaign Web erstellen und senden
 badge: label="Beta"
 exl-id: 89c9da76-1e04-41cd-9636-0d3b957875b6
-source-git-commit: e934bc041b76511c0f4fec22b6abc41c647e1cb3
+source-git-commit: 207328a32ba74159d555616f046240100787f20e
 workflow-type: tm+mt
-source-wordcount: '320'
-ht-degree: 97%
+source-wordcount: '386'
+ht-degree: 82%
 
 ---
 
@@ -28,7 +28,12 @@ ht-degree: 97%
 >title="Auswahl von SMS-Vorlagen"
 >abstract="Wählen Sie eine vordefinierte Vorlage aus, um Ihren SMS-Versand zu starten."
 
-1. Klicken Sie auf der **[!UICONTROL Sendungen]**-Startseite auf **[!UICONTROL Versand erstellen]**.
+Sie können einen eigenständigen SMS-Versand erstellen oder im Rahmen eines Kampagnen-Workflows eine SMS erstellen. Die folgenden Schritte beschreiben die Vorgehensweise für einen eigenständigen (einmaligen) SMS-Versand. Wenn Sie im Kontext eines Kampagnen-Workflows arbeiten, finden Sie die Erstellungsschritte im Abschnitt [diesem Abschnitt](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
+
+
+Gehen Sie wie folgt vor, um einen neuen eigenständigen SMS-Versand zu erstellen:
+
+1. Gehen Sie zum Menü **[!UICONTROL Sendungen]** in der linken Leiste, und klicken Sie auf die Schaltfläche **[!UICONTROL Versand erstellen]**.
 
 1. Wählen Sie im Abschnitt **[!UICONTROL Kanal]** den Kanal SMS aus und wählen Sie eine Vorlage aus. [Weitere Informationen zu Vorlagen](../msg/delivery-template.md)
 

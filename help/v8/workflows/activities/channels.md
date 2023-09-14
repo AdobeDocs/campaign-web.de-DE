@@ -3,15 +3,15 @@ audience: end-user
 title: Verwenden der Workflow-Aktivität „Versand“
 description: Erfahren Sie, wie Sie eine Workflow-Aktivität „Versand“ hinzufügen (E-Mail, Push-Benachrichtigung, SMS).
 badge: label="Beta"
-source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
-workflow-type: ht
-source-wordcount: '425'
-ht-degree: 100%
+source-git-commit: 207328a32ba74159d555616f046240100787f20e
+workflow-type: tm+mt
+source-wordcount: '495'
+ht-degree: 82%
 
 ---
 
 
-# E-Mail, SMS, Push {#channel}
+# E-Mail, SMS, Push-Aktivitäten {#channel}
 
 Mit Adobe Campaign Web können Sie Marketing-Kampagnen über E-Mail-, SMS- oder Push-Kanäle automatisieren und durchführen. Sie können Kanalaktivitäten in die Workflow-Arbeitsfläche kombinieren, um Cross-Channel-Workflows zu erstellen, mit denen basierend auf Kundenverhalten und Daten Aktionen ausgelöst werden können.
 
@@ -19,7 +19,17 @@ Sie können beispielsweise eine Begrüßungs-E-Mail-Kampagne erstellen, die eine
 
 Mithilfe von Kanalaktivitäten können Sie umfassende und personalisierte Kampagnen erstellen, die Kundinnen und Kunden über mehrere Touchpoints hinweg ansprechen und Konversionen fördern.
 
-Im Folgenden finden Sie die Schritte zum Hinzufügen einer **Kanalaktivität** in einem Workflow:
+>[!NOTE]
+>
+>Sie können auch einen einmaligen Versand außerhalb des Kampagnen-Workflows erstellen. Weitere Informationen finden Sie in den folgenden Abschnitten:
+>* [Erstellen eines eigenständigen E-Mail-Versands](../../email/create-email.md
+>* [Erstellen eines eigenständigen SMS-Versands](../../sms/create-sms.md)
+>* [Erstellen eines eigenständigen Push-Versands](../../push/create-push.md)
+>
+
+## Versand in einem Kampagnen-Workflow erstellen{#create-a-delivery-in-a-workflow}
+
+Gehen Sie wie folgt vor, um im Rahmen eines Kampagnen-Workflows eine E-Mail, eine SMS oder einen Push-Versand zu erstellen:
 
 1. Stellen Sie sicher, dass Sie eine Aktivität vom Typ **Zielgruppe erstellen** hinzugefügt haben. Die Zielgruppe ist das wichtigste Ziel Ihres Versands: die Empfängerinnen und Empfänger, die die Nachrichten erhalten. Beim Senden von Nachrichten im Rahmen eines Kampagnen-Workflows wird die Nachrichtenzielgruppe nicht in der Kanalaktivität, sondern in der Aktivität **Zielgruppe erstellen** definiert. Weitere Informationen finden Sie in [diesem Abschnitt](build-audience.md).
 
@@ -36,7 +46,7 @@ Im Folgenden finden Sie die Schritte zum Hinzufügen einer **Kanalaktivität** i
 
 1. Klicken Sie auf **Versand erstellen**. Definieren Sie Ihre Nachrichteneinstellungen und den Inhalt so wie einen eigenständigen Versand. Sie können den Inhalt auch planen und simulieren. [Weitere Informationen](../../msg/gs-messages.md).
 
-1. Navigieren Sie zurück zu Ihrem Workflow und speichern Sie Ihre Änderungen.
+1. Navigieren Sie zurück zu Ihrem Workflow. Entscheiden Sie, ob Sie den Workflow fortsetzen möchten **Ausgehende Transition erzeugen** , wenn Sie eine Transition nach der Kanalaktivität hinzufügen möchten.
 
 1. Klicken Sie auf **Starten**, um Ihren Workflow zu starten.
 
@@ -46,7 +56,7 @@ Im Folgenden finden Sie die Schritte zum Hinzufügen einer **Kanalaktivität** i
 
 1. Klicken Sie im Versand-Dashboard auf **Senden**.
 
-## Beispiel
+## Beispiel{#cross-channel-workflow-sample}
 
 Im Folgenden finden Sie ein Beispiel eines Cross-Channel-Workflows mit einer Segmentierung und zwei Sendungen. Der Workflow richtet sich an alle Kundinnen und Kunden, die in Paris leben und an Kaffeemaschinen interessiert sind. Innerhalb dieser Population wird eine E-Mail an die regulären Kundinnen und Kunden und eine SMS an diejenigen mit VIP-Status gesendet.
 

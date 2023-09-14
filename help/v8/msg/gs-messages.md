@@ -4,10 +4,10 @@ title: Erste Schritte mit Nachrichten und Sendungen in Campaign v8 Web
 description: Erfahren Sie, wie Sie Campaign Web verwenden, um mit Sendungen zu arbeiten und Nachrichten zu senden
 badge: label="Beta"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: e934bc041b76511c0f4fec22b6abc41c647e1cb3
+source-git-commit: 207328a32ba74159d555616f046240100787f20e
 workflow-type: tm+mt
-source-wordcount: '1300'
-ht-degree: 87%
+source-wordcount: '1303'
+ht-degree: 85%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 87%
 
 Mit Adobe Campaign können Sie Cross-Channel-Kampagnen einschließlich E-Mails, SMS und Push-Benachrichtigungen senden und deren Effektivität mithilfe verschiedener dedizierter Berichte messen.
 
-Diese Nachrichten werden mittels Sendungen entworfen und gesendet und können für jede Empfängerin und jeden Empfänger personalisiert werden. Diese Sendungen können einzeln oder im Rahmen einer Marketing-Kampagne durchgeführt werden.
+Diese Nachrichten werden mittels Sendungen entworfen und gesendet und können für jede Empfängerin und jeden Empfänger personalisiert werden. Diese Sendungen können im Rahmen einer Marketingkampagne einzeln oder in Workflows durchgeführt werden.
 
 Adobe Campaign v8 enthält die folgenden Versandkanäle: E-Mail, SMS und Mobile Apps.
 
@@ -59,7 +59,6 @@ Adobe Campaign v8 enthält die folgenden Versandkanäle: E-Mail, SMS und Mobile 
 
 ## Erstellen eines Versands {#create-delivery}
 
-
 Sie können eigenständige Sendungen über das linke Menü **[!UICONTROL Sendungen]** erstellen oder Sendungen im Kontext einer Marketing-Kampagne über das linke Menü **[!UICONTROL Kampagnen]** erstellen.
 
 Auf den folgenden Registerkarten erfahren Sie, wie Sie einen Versand erstellen:
@@ -89,7 +88,7 @@ Gehen Sie wie folgt vor, um einen eigenständigen Versand zu erstellen:
 1. Überprüfen Sie die Ergebnisse und klicken Sie auf die Schaltfläche **[!UICONTROL Senden]**, um mit dem Senden von Nachrichten zu beginnen.
 1. Sobald Nachrichten gesendet wurden, gehen Sie zum Abschnitt **Berichte**, um auf Schlüsselmetriken zuzugreifen. Weitere Informationen zu Versandberichten finden Sie in [diesem Abschnitt](../reporting/delivery-reports.md).
 
->[!TAB Erstellen eines Versands in einer Kampagne]
+>[!TAB Versand in einem Kampagnen-Workflow erstellen]
 
 Gehen Sie wie folgt vor, um einen Versand in einer Kampagne zu erstellen:
 

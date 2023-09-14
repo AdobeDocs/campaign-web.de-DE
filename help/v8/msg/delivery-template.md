@@ -6,10 +6,10 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 4a8513bb-8290-432a-8e40-822cd1337cb3
-source-git-commit: 4a439abca9c7b1f2cc5d82214efb0aae033a996c
+source-git-commit: 207328a32ba74159d555616f046240100787f20e
 workflow-type: tm+mt
-source-wordcount: '937'
-ht-degree: 100%
+source-wordcount: '941'
+ht-degree: 98%
 
 ---
 
@@ -27,7 +27,7 @@ Eine Vorlage kann Folgendes enthalten:
 * Links zur [Mirrorseite](../content/mirror-page.md) und [Links](../content/message-tracking.md) zur Abmeldung
 * Andere Versandeigenschaften, z. B. die Gültigkeit der Ressource, die Parameter für erneute Versuche oder die Quarantäneeinstellungen.
 
-## Aufrufen und Verwalten von Vorlagen {#access-manage-templates}
+## Auf Versandvorlagen zugreifen und diese verwalten {#access-manage-templates}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_templates"
@@ -61,14 +61,14 @@ Zum Löschen oder [Duplizieren](#copy-an-existing-template) eine Vorlage, wähle
 >
 >Wenn eine Vorlage bearbeitet oder gelöscht wird, sind die mit dieser Vorlage bereits erstellten Sendungen nicht betroffen.
 
-## Erstellen einer Vorlage {#create-a-delivery-template}
+## Erstellen einer Versandvorlage {#create-a-delivery-template}
 
 Um eine Versandvorlage zu erstellen, haben Sie folgende Möglichkeiten:
 * Duplizieren einer vorhandenen Vorlage: [Weitere Infos](#copy-an-existing-template)
 * Konvertieren eines bestehenden Versands in eine Vorlage: [Weitere Infos](#convert-an-existing-delivery)
 * Erstellen einer neuen Versandvorlage: [Weitere Infos](#create-a-new-template)
 
-### Duplizieren einer bestehenden Vorlage {#copy-an-existing-template}
+### Vorhandene Versandvorlage duplizieren {#copy-an-existing-template}
 
 Campaign verfügt über eine Reihe integrierter Vorlagen für jeden Kanal: E-Mail, Push und SMS. Die einfachste Möglichkeit, eine Versandvorlage zu erstellen, besteht darin, eine integrierte Vorlage zu duplizieren und anzupassen.
 
@@ -120,7 +120,7 @@ Um einen Versand als Vorlage zu speichern, gehen Sie wie folgt vor:
 
 Die neue Vorlage wird der Liste [**Vorlagen** hinzugefügt](#access-manage-templates). Sie können sie jetzt bei der Erstellung eines neuen Versands auswählen.
 
-### Erstellen einer neuen Vorlage {#create-a-new-template}
+### Neue Versandvorlage erstellen {#create-a-new-template}
 
 >[!NOTE]
 >
