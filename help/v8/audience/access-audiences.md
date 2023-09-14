@@ -1,17 +1,17 @@
 ---
 audience: end-user
-title: Auf Zielgruppen zugreifen
-description: Erfahren Sie, wie Sie in Adobe Campaign Web auf Zielgruppen zugreifen können.
+title: Zielgruppen überwachen und verwalten
+description: Erfahren Sie, wie Sie Zielgruppen im Adobe Campaign Web überwachen und verwalten.
 badge: label="Beta"
-source-git-commit: 44a280446f9e7f801607dd40326b56fd79ec34e9
+source-git-commit: b2cd72ce06e1b18689be4c40c80f3abde85f922e
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '253'
 ht-degree: 0%
 
 ---
 
 
-# Auf Zielgruppen zugreifen {#create-audiences}
+# Zielgruppen überwachen und verwalten {#create-audiences}
 
 Die Liste der Zielgruppen, die im Campaign Web verwendet werden können, ist über den Link **[!UICONTROL Zielgruppen]** Menü.
 

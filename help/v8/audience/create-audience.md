@@ -3,9 +3,9 @@ audience: end-user
 title: Audiences erstellen
 description: Erfahren Sie, wie Sie Zielgruppen im Adobe Campaign Web erstellen
 badge: label="Beta"
-source-git-commit: 44a280446f9e7f801607dd40326b56fd79ec34e9
+source-git-commit: b2cd72ce06e1b18689be4c40c80f3abde85f922e
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '270'
 ht-degree: 1%
 
 ---
@@ -46,4 +46,4 @@ Gehen Sie wie folgt vor, um eine Audience zu erstellen:
 
 1. Wenn Ihr Workflow fertig ist, klicken Sie auf **[!UICONTROL Starten]** um es auszuführen.
 
-1. Der Workflow wird im **[!UICONTROL Workflows]** und die resultierenden Zielgruppen in der **[!UICONTROL Zielgruppen]** Liste. [Erfahren Sie, wie Sie auf Zielgruppen zugreifen können](access-audiences.md)
+1. Der Workflow wird im **[!UICONTROL Workflows]** und die resultierenden Zielgruppen in der **[!UICONTROL Zielgruppen]** Liste. [Erfahren Sie, wie Sie Audiences überwachen und verwalten.](access-audiences.md)

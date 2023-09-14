@@ -5,9 +5,9 @@ title: Adobe Campaign v8 – Web-Dokumentation
 description: Web-Dokumentation zu Campaign v8
 breadcrumb-title: Übersicht über Campaign
 hide: true
-source-git-commit: 2e1f7f2a0f3e7116c57c56d9abb6866113402401
+source-git-commit: b2cd72ce06e1b18689be4c40c80f3abde85f922e
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '389'
 ht-degree: 95%
 
 ---
@@ -81,6 +81,7 @@ ht-degree: 95%
    + [Erste Schritte mit Zielgruppen](audience/about-audiences.md)
    + [Arbeiten mit Empfängern](audience/about-recipients.md)
    + [Audiences erstellen](audience/create-audience.md)
+   + [Zielgruppen überwachen und verwalten](audience/access-audiences.md)
    + Zielgruppen {#target-audiences}
       + [Auswählen einer bestehenden Zielgruppe](audience/add-audience.md)
       + [Definieren einer Zielgruppe mit dem Regel-Builder](audience/segment-builder.md)
@@ -105,10 +106,14 @@ ht-degree: 95%
       + [Über Workflow-Aktivitäten](workflows/activities/about-activities.md)
       + [Und-Verknüpfung](workflows/activities/and-join.md)
       + [Aufbauen einer Zielgruppe](workflows/activities/build-audience.md)
+      + [Ändern der Dimension](workflows/activities/change-dimension.md)
       + [Kombinieren](workflows/activities/combine.md)
+      + [Deduplizierung](workflows/activities/deduplication.md)
       + [E-Mail, SMS, Push](workflows/activities/channels.md)
       + [Anreicherung](workflows/activities/enrichment.md)
       + [Verzweigung](workflows/activities/fork.md)
+      + [Audience-Speicherung](workflows/activities/save-audience.md)
+      + [Planung](workflows/activities/scheduler.md)
       + [Aufspaltung](workflows/activities/split.md)
       + [Warten](workflows/activities/wait.md)
 + Reporting {#reports}
