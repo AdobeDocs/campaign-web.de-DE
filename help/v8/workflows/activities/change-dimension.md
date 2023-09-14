@@ -3,7 +3,7 @@ audience: end-user
 title: Workflow-Aktivität Dimensionsänderung verwenden
 description: Erfahren Sie, wie Sie die Workflow-Aktivität Dimensionsänderung verwenden
 badge: label="Beta"
-source-git-commit: 62343d35cab4ad78821fb96951557e9de58766e0
+source-git-commit: ea57053910aa98e79ceb7ef683f890a366a9001b
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 39%
@@ -28,7 +28,7 @@ Führen Sie die folgenden Schritte aus, um die **Dimensionsänderung** Aktivitä
 
 1. Hinzufügen einer **Dimensionsänderung** -Aktivität zu Ihrem Workflow hinzu.
 
-       &lt;!—![](../assets/workflow-change-dimension.png)—>
+       ![](../assets/workflow-change-dimension.png)
    
 1. Wählen Sie im Feld Dimensionsänderung die neue Zielgruppendimension aus.
 

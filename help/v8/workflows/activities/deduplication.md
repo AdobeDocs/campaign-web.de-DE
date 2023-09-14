@@ -3,7 +3,7 @@ audience: end-user
 title: Workflow-Aktivität "Deduplizierung" verwenden
 description: Erfahren Sie, wie Sie die Workflow-Aktivität Deduplizierung verwenden.
 badge: label="Beta"
-source-git-commit: 0aa5778a79fda55005096dc680a02903cf1b4508
+source-git-commit: ea57053910aa98e79ceb7ef683f890a366a9001b
 workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 27%
@@ -26,7 +26,7 @@ Führen Sie die folgenden Schritte aus, um die **Planung** Aktivität:
 
 1. Hinzufügen einer **Deduplizierung** -Aktivität zu Ihrem Workflow hinzu.
 
-   <!--![](../assets/workflow-deduplication.png)-->
+   ![](../assets/workflow-deduplication.png)
 
 1. Im **Felder zur Identifizierung von Duplikaten** klicken Sie auf die **Attribut hinzufügen** -Schaltfläche, um die Felder anzugeben, für die die Identifizierung der Dubletten aufgrund identischer Werte möglich ist: E-Mail-Adresse, Vorname, Nachname etc. In der Reihenfolge der Felder können Sie angeben, welche Felder zuerst verarbeitet werden sollen.
 

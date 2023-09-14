@@ -3,7 +3,7 @@ audience: end-user
 title: Verwenden der Workflow-Aktivität Planung
 description: Erfahren Sie, wie Sie die Workflow-Aktivität Planung verwenden.
 badge: label="Beta"
-source-git-commit: b2cd72ce06e1b18689be4c40c80f3abde85f922e
+source-git-commit: ea57053910aa98e79ceb7ef683f890a366a9001b
 workflow-type: tm+mt
 source-wordcount: '340'
 ht-degree: 37%
@@ -30,7 +30,7 @@ Führen Sie die folgenden Schritte aus, um die **Planung** Aktivität:
 
 1. Hinzufügen einer **Planung** -Aktivität zu Ihrem Workflow hinzu.
 
-   <!--![](../assets/workflow-scheduler.png)-->
+   ![](../assets/workflow-scheduler.png)
 
 1. Konfigurieren Sie die **Ausführungsfrequenz**:
 
@@ -58,7 +58,7 @@ Führen Sie die folgenden Schritte aus, um die **Planung** Aktivität:
 
 Im folgenden Beispiel wird die Aktivität so konfiguriert, dass der Workflow mehrmals täglich um 9 und 12 Uhr, jeden Wochentag vom 1. Oktober 2023 bis zum 1. Januar 2024 gestartet wird.
 
-<!--![](../assets/workflow-scheduler2.png)-->
+![](../assets/workflow-scheduler2.png)
 
 
 

@@ -3,7 +3,7 @@ audience: end-user
 title: Verwenden der Workflow-Aktivität Audience-Speicherung
 description: Erfahren Sie, wie Sie die Workflow-Aktivität „Verzweigung“ verwenden.
 badge: label="Beta"
-source-git-commit: b2cd72ce06e1b18689be4c40c80f3abde85f922e
+source-git-commit: ea57053910aa98e79ceb7ef683f890a366a9001b
 workflow-type: tm+mt
 source-wordcount: '386'
 ht-degree: 18%
@@ -38,7 +38,7 @@ Führen Sie die folgenden Schritte aus, um die **Audience-Speicherung** Aktivit�
 
 1. Hinzufügen einer **Audience-Speicherung** -Aktivität zu Ihrem Workflow hinzu.
 
-   <!--![](../assets/workflow-save-audience.png)-->
+   ![](../assets/workflow-save-audience.png)
 
 1. Im **Modus** in der Dropdown-Liste die gewünschte Aktion auswählen:
 
