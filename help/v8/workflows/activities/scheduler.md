@@ -3,10 +3,10 @@ audience: end-user
 title: Verwenden der Workflow-Aktivität Planung
 description: Erfahren Sie, wie Sie die Workflow-Aktivität Planung verwenden.
 badge: label="Beta"
-source-git-commit: 0d3a20aa02a48af5ffd34843295ed53afd61acde
+source-git-commit: 2bb086fdf8ad3f6df767343c2a4c66b5af325c10
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 34%
+source-wordcount: '435'
+ht-degree: 29%
 
 ---
 
@@ -24,7 +24,9 @@ Die **Planung** -Aktivität **Flusssteuerung** -Aktivität. Damit können Sie de
 
 ## Best Practices
 
-Es wird empfohlen, Workflows nicht öfter als alle 15 Minuten auszuführen, da die Gesamtleistung des Systems beeinträchtigt werden kann und Blöcke in der Datenbank entstehen können.
+* Es wird empfohlen, Workflows nicht öfter als alle 15 Minuten auszuführen, da die Gesamtleistung des Systems beeinträchtigt werden kann und Blöcke in der Datenbank entstehen können.
+* Wenn Sie in Ihrem Workflow einen einmaligen Versand senden möchten, können Sie eine Planungsaktivität hinzufügen und diese auf die Ausführung einstellen **Einmal**. Sie können auch die **Zeitplan** in den Versandeinstellungen.
+* Wenn Sie einen wiederkehrenden Versand in Ihrem Workflow durchführen möchten, müssen Sie eine **Planung** und legen Sie die Ausführungshäufigkeit fest. Die Aktivität Wiederkehrender Versand ermöglicht es nicht, einen Zeitplan festzulegen.
 
 ## Konfiguration
 
@@ -65,7 +67,7 @@ Anmerkungen:
 
 ## Beispiel
 
-Im folgenden Beispiel wird die Aktivität so konfiguriert, dass der Workflow mehrmals täglich um 9 und 12 Uhr, jeden Wochentag vom 1. Oktober 2023 bis zum 1. Januar 2024 gestartet wird.
+Im folgenden Beispiel wird die Aktivität so konfiguriert, dass der Workflow mehrmals am Tag um 9 Uhr und 12 Uhr jeden Wochentag vom 1. Oktober 2023 bis zum 1. Januar 2024 ausgeführt wird.
 
 ![](../assets/workflow-scheduler2.png)
 

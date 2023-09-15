@@ -3,10 +3,10 @@ audience: end-user
 title: Verwenden der Workflow-Aktivität „Versand“
 description: Erfahren Sie, wie Sie eine Workflow-Aktivität „Versand“ hinzufügen (E-Mail, Push-Benachrichtigung, SMS).
 badge: label="Beta"
-source-git-commit: 48e4baa2cc0e37537c75214f84df3d2e08d771a9
+source-git-commit: 2bb086fdf8ad3f6df767343c2a4c66b5af325c10
 workflow-type: tm+mt
-source-wordcount: '491'
-ht-degree: 82%
+source-wordcount: '642'
+ht-degree: 61%
 
 ---
 
@@ -25,17 +25,27 @@ Mithilfe von Kanalaktivitäten können Sie umfassende und personalisierte Kampag
 >* [Erstellen eines eigenständigen E-Mail-Versands](../../email/create-email.md)
 >* [Erstellen eines eigenständigen SMS-Versands](../../sms/create-sms.md)
 >* [Erstellen eines eigenständigen Push-Versands](../../push/create-push.md)
->
 
-## Versand in einem Workflow erstellen{#create-a-delivery-in-a-workflow}
+## Workflow erstellen{#build-your-workflow}
 
-Gehen Sie wie folgt vor, um im Rahmen eines Workflows eine E-Mail, eine SMS oder einen Push-Versand zu erstellen:
+Beginnen Sie mit der Erstellung Ihres Workflows mit den entsprechenden Aktivitäten, bevor Sie den Versand abschließen:
 
-1. Stellen Sie sicher, dass Sie eine Aktivität vom Typ **Zielgruppe erstellen** hinzugefügt haben. Die Zielgruppe ist das wichtigste Ziel Ihres Versands: die Empfängerinnen und Empfänger, die die Nachrichten erhalten. Beim Senden von Nachrichten im Rahmen eines Kampagnen-Workflows wird die Nachrichtenzielgruppe nicht in der Kanalaktivität, sondern in der Aktivität **Zielgruppe erstellen** definiert. Weitere Informationen finden Sie in [diesem Abschnitt](build-audience.md).
+* Wenn Sie einen wiederkehrenden Versand senden möchten, starten Sie Ihren Workflow mit einem **Planung** -Aktivität. Wenn Sie einen einmaligen Versand durchführen möchten, können Sie das Kontaktdatum mithilfe einer **Planung** oder legen Sie den Zeitplan in den Versandeinstellungen fest. Weitere Informationen finden Sie in [diesem Abschnitt](scheduler.md).
 
-   ![](../../msg/assets/add-delivery-in-wf.png)
+* Fügen Sie die Aktivität **Zielgruppe erstellen** hinzu. Die Zielgruppe ist das wichtigste Ziel Ihres Versands: die Empfängerinnen und Empfänger, die die Nachrichten erhalten. Beim Senden von Nachrichten im Rahmen eines Kampagnen-Workflows wird die Nachrichtenzielgruppe nicht in der Kanalaktivität, sondern in der Aktivität **Zielgruppe erstellen** definiert. Weitere Informationen finden Sie in [diesem Abschnitt](build-audience.md).
 
-1. Wählen Sie eine Versandaktivität aus: **[!UICONTROL E-Mail]**, **[!UICONTROL SMS]**, **[!UICONTROL Push-Benachrichtigung (Android)]** oder **[!UICONTROL Push-Benachrichtigung (iOS)]**.
+  ![](../../msg/assets/add-delivery-in-wf.png)
+
+## Versand einrichten {#create-a-delivery-in-a-workflow}
+
+Gehen Sie wie folgt vor, um einen Versand im Rahmen eines Workflows einzurichten:
+
+1. Hinzufügen einer Kanalaktivität: **[!UICONTROL Email]**, **[!UICONTROL SMS]**, **[!UICONTROL Push-Benachrichtigung (Android)]** oder **[!UICONTROL Push-Benachrichtigung (iOS)]**.
+
+1. Wählen Sie die **Art des Versands**: einmalig oder wiederkehrend.
+
+   * **Einzelversand**: Dies ist ein einmaliger Versand, der nur einmal gesendet wird, z. B. eine Black Friday-E-Mail.
+   * **Wiederkehrender Versand**: Bei diesem Versandtyp wird die Ausführungshäufigkeit mithilfe einer [Planungsaktivität](scheduler.md). Bei jeder Ausführung des Workflows wird die Audience neu berechnet und der Versand mit dem aktualisierten Inhalt durchgeführt. Dabei kann es sich um einen wöchentlichen Newsletter oder eine wiederkehrende Geburtstags-E-Mail handeln.
 
 1. Wählen Sie eine **Versandvorlage** aus. Vorlagen sind vorkonfigurierte, kanalspezifische Versandeinstellungen. Für jeden Kanal ist eine integrierte Vorlage verfügbar, die standardmäßig vorausgefüllt ist. [Weitere Informationen](../../msg/delivery-template.md)
 
@@ -56,7 +66,7 @@ Gehen Sie wie folgt vor, um im Rahmen eines Workflows eine E-Mail, eine SMS oder
 
 1. Klicken Sie im Versand-Dashboard auf **Senden**.
 
-## Beispiel {#cross-channel-workflow-sample}
+## Beispiele {#cross-channel-workflow-sample}
 
 Im Folgenden finden Sie ein Beispiel eines Cross-Channel-Workflows mit einer Segmentierung und zwei Sendungen. Der Workflow richtet sich an alle Kundinnen und Kunden, die in Paris leben und an Kaffeemaschinen interessiert sind. Innerhalb dieser Population wird eine E-Mail an die regulären Kundinnen und Kunden und eine SMS an diejenigen mit VIP-Status gesendet.
 
@@ -71,7 +81,7 @@ The Email delivery activity allows you to configure the sending an email in a wo
 
 -->
 
-
+Sie können auch einen wiederkehrenden Workflow erstellen, um jeden ersten Tag des Monats um 20 Uhr eine personalisierte Push-Benachrichtigung an die Abonnenten Ihrer Mobile App zu senden, je nach Zeitzone.
 
 <!-- Scheduled emails available?
 
