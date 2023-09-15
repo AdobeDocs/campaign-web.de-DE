@@ -4,10 +4,10 @@ title: Auswählen einer bestehenden Zielgruppe
 description: Erfahren Sie, wie Sie eine Zielgruppe auswählen
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
 badge: label="Beta"
-source-git-commit: 334014d3d89c878617b8e43ea73c9ff4e957f6d7
-workflow-type: ht
-source-wordcount: '294'
-ht-degree: 100%
+source-git-commit: d05b6f9fec0e56f90d3fe51014fc11d2ed87bb66
+workflow-type: tm+mt
+source-wordcount: '334'
+ht-degree: 88%
 
 ---
 
@@ -43,6 +43,10 @@ Gehen Sie wie folgt vor, um eine vorhandene Audience für Ihre Nachricht auszuw�
    Zielgruppen werden über das linke Menü **Zielgruppen** erstellt. Sie können auch in der Client-Konsole erstellt werden.
 
    Um Adobe Experience Platform-Zielgruppen zu nutzen, müssen Sie die Integration mit Zielen konfigurieren. Weitere Informationen finden Sie in der Dokumentation zu [Adobe Experience Platform-Zielen](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=de){target="_blank"}.
+
+   >[!IMPORTANT]
+   >
+   >In dieser Produktversion sind beim Erstellen von Regeln, beim Auswählen der Zielgruppe eines Versands oder beim Erstellen einer Zielgruppe in einem Workflow einige vordefinierte Filter nicht in der Benutzeroberfläche verfügbar. Sie können sie weiterhin verwenden. [Weitere Informationen](../get-started/guardrails.md#predefined-filters-filters-guardrails-limitations)
 
 1. Wählen Sie eine Zielgruppe aus und klicken Sie auf **Auswählen**.
 1. Verwenden Sie das Symbol **Filter anzeigen**, um die Filteroptionen anzuzeigen. Klicken Sie auf **Regeln hinzufügen**, um auf den Regel-Builder zuzugreifen: Mit dem Regel-Builder können Sie erweiterte Filter für die Liste der Zielgruppen erstellen. In diesem [Abschnitt](segment-builder.md) erfahren Sie, wie Sie den Regel-Builder verwenden.
