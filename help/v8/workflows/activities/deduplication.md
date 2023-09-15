@@ -3,7 +3,7 @@ audience: end-user
 title: Workflow-Aktivität "Deduplizierung" verwenden
 description: Erfahren Sie, wie Sie die Workflow-Aktivität Deduplizierung verwenden.
 badge: label="Beta"
-source-git-commit: ff3edc4aa7a8150e5f68865c9c27ca7e44e7024a
+source-git-commit: 73387436eeb67645a7ba1fc48ffd13a22a739259
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 29%
@@ -34,7 +34,7 @@ Die **Deduplizierung** -Aktivität **Targeting** -Aktivität. Mithilfe dieser Ak
 
 ## Konfiguration
 
-Führen Sie die folgenden Schritte aus, um die **Planung** Aktivität:
+Führen Sie die folgenden Schritte aus, um die **Deduplizierung** Aktivität:
 
 1. Hinzufügen einer **Deduplizierung** -Aktivität zu Ihrem Workflow hinzu.
 
