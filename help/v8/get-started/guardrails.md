@@ -2,9 +2,9 @@
 title: Limits und Einschränkungen in der Web-Benutzeroberfläche von Campaign
 description: Limits und Einschränkungen in der Web-Benutzeroberfläche von Campaign
 badge: label="Beta"
-source-git-commit: 68eb1529f6780682256f4b36bd77d336cf560d21
+source-git-commit: 9ab03458bbd9606537c0b42d72643cf1efefcc81
 workflow-type: tm+mt
-source-wordcount: '540'
+source-wordcount: '526'
 ht-degree: 6%
 
 ---
@@ -16,11 +16,13 @@ Bei der Arbeit mit in der Campaign-Webbenutzeroberfläche erstellten oder geänd
 
 ## Workflows {#wf-guardrails-limitations}
 
-Auf denselben Workflow kann sowohl in der Konsole als auch in der Web-Benutzeroberfläche zugegriffen werden. Beachten Sie jedoch, dass bestimmte Einschränkungen gelten.
-
 **Activity Edition**
 
-* Beim Zugriff auf einen Konsolen-Workflow in der Web-Benutzeroberfläche können Sie nur kompatible Aktivitäten ändern.
+* Workflow-Aktivitäten, die noch nicht in der Web-Benutzeroberfläche unterstützt werden, sind schreibgeschützt. Sie können weiterhin den Workflow ausführen, Nachrichten senden, die Protokolle überprüfen usw.
+
+| Konsole | Web-Benutzeroberfläche |
+| --- | --- |
+| ![](assets/limitations-activities-console.png) | ![](assets/limitations-activities-web.png) |
 
 **Leinwandbearbeitung**
 
@@ -41,17 +43,6 @@ Auf denselben Workflow kann sowohl in der Konsole als auch in der Web-Benutzerob
 | Konsole | Web-Benutzeroberfläche |
 | --- | --- |
 | ![](assets/limitations-loops-console.png) | ![](assets/limitations-loops-web.png) |
-
-<table>
-<tr>
-<th>Konsole</th>
-<th>Web-Benutzeroberfläche</th>
-</tr>
-<tr>
-<td><img src="assets/limitations-loops-console.png"></td>
-<td><img src="assets/limitations-loops-web.png"></td>
-</tr>
-</table>
 
 **Abstimmung und Anreicherung**
 
