@@ -4,9 +4,9 @@ title: Arbeiten mit Workflow-Aktivitäten
 description: Erfahren Sie, wie Sie Workflow-Aktivitäten durchführen.
 badge: label="Beta"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: 220eddacdc15266d12e511285ecb306cbd9aa42f
+source-git-commit: 74e64ded74db7aa69a059b785a8b29387c446648
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '341'
 ht-degree: 100%
 
 ---
@@ -46,6 +46,12 @@ Die folgenden **Kanalaktivitäten** sind verfügbar:
 Näheres dazu finden Sie in [diesem Abschnitt](channels.md).
 
 ## Aktivitäten zur Flusskontrolle {#flow-control}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_end"
+>title="Endaktivität"
+>abstract="Mit der Aktivität **Ende** können Sie das Ende eines Workflows grafisch markieren. Diese Aktivität hat keine funktionalen Auswirkungen und ist daher optional."
 
 Die folgenden Aktivitäten dienen der Anordnung und Ausführung von Workflows. Ihre Hauptaufgabe ist es, die anderen Aktivitäten zu koordinieren:
 
