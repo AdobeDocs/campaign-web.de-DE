@@ -4,10 +4,10 @@ title: Erkunden der Benutzeroberfläche
 description: Web-Benutzeroberfläche von Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: a6d3f7dccbf862017d7dde61ac138ef6a59f05f8
+source-git-commit: 0af85ae6c368ff3e04c55e88eb5b66437294aece
 workflow-type: tm+mt
-source-wordcount: '1471'
-ht-degree: 84%
+source-wordcount: '1487'
+ht-degree: 82%
 
 ---
 
@@ -57,21 +57,6 @@ Wie bei jedem Listenbildschirm können Sie die Spalten so konfigurieren, dass al
 
 Weitere Informationen zum Campaign-Explorer, zur Ordnerhierarchie und zu den Ressourcen finden Sie in dieser [Dokumentation zu Campaign v8 (Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/campaign-ui.html?lang=de#ac-explorer-ui){target="_blank"}.
 
-
-### Kontextuelle Hilfe {#user-interface-help}
-
-Eine kontextuelle Hilfe ist in der Benutzeroberfläche verfügbar. Wenn verfügbar, klicken Sie auf das `?`-Symbol, um Hilfeinformationen und zugehörige Dokumentations-Links anzuzeigen.
-
-![](assets/context-help.png){width="40%" align="left"}
-
-Mit der neuen Beta-Version wird die **Knowledge Assistant bei Gen AI** eingebettet in die kontextuelle Hilfe revolutioniert die Dokumentationssuche und Beantwortung von Fragen durch mühelose Durchblättern von umfangreichen Dokumentations-Repositorys und zeigt sofort die benötigten Informationen an.
-
-![](assets/ask-a-question.png)
-
-
-Dank der Funktionen von Campaign Gen AI verändert dieser Assistent Ihr Erlebnis, indem er Informationen abruft und Probleme löst. Unsere Wissensassistentin mit Gen AI ist Ihr ultimativer Begleiter für komplexe Aufgaben oder für die Navigation in umfangreichen Dokumenten. Sie bietet Ihnen dabei höchste Effizienz und Genauigkeit in jeder Interaktion.
-
-Weiterführende Informationen finden Sie in [diesem Abschnitt](using-ai.md).
 
 
 ### Kampagnen-Management {#user-interface-campaign-management}
@@ -141,6 +126,22 @@ Verwenden Sie die obere Leiste der Benutzeroberfläche, um folgende Aktionen dur
 Org / Sub-org switcher to switch between instances. Only one for Alpha. Later: intermerdiate screen with Control Panel (beta). if v8 + ACS with one card per ACS instance. Maybe quickly explain the menu for Alpha?
 -->
 
+
+### Kontextuelle Hilfe {#user-interface-help}
+
+Eine kontextuelle Hilfe ist in der Benutzeroberfläche verfügbar. Wenn verfügbar, klicken Sie auf das `?`-Symbol, um Hilfeinformationen und zugehörige Dokumentations-Links anzuzeigen.
+
+![](assets/context-help.png){width="40%" align="left"}
+
+Mit der neuen Beta-Version wird die **Knowledge Assistant bei Gen AI** eingebettet in die kontextuelle Hilfe revolutioniert die Dokumentationssuche und Beantwortung von Fragen durch mühelose Durchblättern von umfangreichen Dokumentations-Repositorys und zeigt sofort die benötigten Informationen an.
+
+![](assets/ask-a-question.png)
+
+
+Dank der Funktionen von Campaign Gen AI verändert dieser Assistent Ihr Erlebnis, indem er Informationen abruft und Probleme löst. Unsere Wissensassistentin mit Gen AI ist Ihr ultimativer Begleiter für komplexe Aufgaben oder für die Navigation in umfangreichen Dokumenten. Sie bietet Ihnen dabei höchste Effizienz und Genauigkeit in jeder Interaktion.
+
+Weiterführende Informationen finden Sie in [diesem Abschnitt](using-ai.md).
+
 ## Unterstützte Browser {#browsers}
 
 Campaign v8 Web ist so konzipiert, dass es mit den neuesten Versionen von Google Chrome, Safari und Microsoft Edge optimal funktioniert. Bei der Verwendung bestimmter Funktionen in älteren Versionen oder anderen Browsern können Probleme auftreten.
@@ -149,28 +150,19 @@ Campaign v8 Web ist so konzipiert, dass es mit den neuesten Versionen von Google
 
 Campaign v8 Web ist derzeit in den folgenden Sprachen verfügbar:
 
-<table>
-<tr>
-<td>
-<p>Englisch (US) – EN-US</p>
-<p>Französisch – FR</p>
-<p>Deutsch – DE</p>
-<p>Italienisch – IT</p>
-</td>
-<td>
-<p>Spanisch – ES</p>
-<p>Portugiesisch (Brasilianisch) – PTBR</p>
-<p>Japanisch – JP</p>
-</td>
-<td>
-<p>Koreanisch – KR</p>
-<p>Vereinfachtes Chinesisch – CHS</p>
-<p>Traditionelles Chinesisch – CHT</p>
-</td>
-</tr>
-</table>
+* Englisch (US) – EN-US
+* Französisch – FR
+* Deutsch – DE
+* Italienisch – IT
+* Spanisch – ES
+* Portugiesisch (Brasilianisch) – PTBR
+* Japanisch – JP
+* Koreanisch – KR
+* Vereinfachtes Chinesisch – CHS
+* Traditionelles Chinesisch – CHT
 
-Die Standardsprache der Benutzeroberfläche wird von der in Ihrem Benutzerprofil angegebenen bevorzugten Sprache bestimmt.
+
+Ihre Standardsprache für Campaign Web wird von der in Ihrem Benutzerprofil angegebenen bevorzugten Sprache bestimmt. Sie bezieht sich nicht auf die Sprache Ihres Campaign-Servers und Ihrer Client-Konsole.
 
 So ändern Sie Ihre Sprache:
 
