@@ -3,10 +3,10 @@ audience: end-user
 product: campaign
 title: Arbeiten mit E-Mail-Vorlagen
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
-workflow-type: ht
-source-wordcount: '119'
-ht-degree: 100%
+source-git-commit: 2fcebcdeb11a950a7441369341b3b8ba26048cda
+workflow-type: tm+mt
+source-wordcount: '121'
+ht-degree: 87%
 
 ---
 
@@ -16,7 +16,7 @@ Wenn Sie [eine E-Mail erstellen](../email/create-email.md), verwenden Sie den Ab
 
 ![](assets/email_designer-sample-templates.png)
 
-Campaign verfügt über eine Reihe integrierter Vorlagen, aus denen Sie auswählen können.
+Campaign verfügt über eine Reihe integrierter E-Mail-Inhaltsvorlagen, aus denen Sie auswählen können.
 
 Gehen Sie wie folgt vor, um mit der Erstellung Ihres Inhalts mit einer der Beispielvorlagen zu beginnen.
 

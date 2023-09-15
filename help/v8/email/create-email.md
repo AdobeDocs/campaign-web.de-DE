@@ -4,10 +4,10 @@ title: Eine erste E-Mail senden
 description: Erfahren Sie, wie Sie Ihre erste E-Mail mit der Web-Benutzeroberfläche von Campaign senden.
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Beta"
-source-git-commit: 48e4baa2cc0e37537c75214f84df3d2e08d771a9
+source-git-commit: 2fcebcdeb11a950a7441369341b3b8ba26048cda
 workflow-type: tm+mt
-source-wordcount: '1274'
-ht-degree: 90%
+source-wordcount: '1350'
+ht-degree: 72%
 
 ---
 
@@ -21,9 +21,7 @@ ht-degree: 90%
 
 Erfahren Sie, wie Sie Ihre erste E-Mail an eine bestimmte Zielgruppe senden. In diesem Anwendungsfall planen Sie den Versand einer E-Mail an Silber- und Gold-Mitglieder des Treueprogramms zu einem bestimmten Datum.
 
-Die E-Mail basiert auf einer vordefinierten Design-Vorlage und enthält auch personalisierte Inhalte, die anhand von Kundenprofilattributen erstellt werden.
-
-![](assets/delivery-list.png)
+Auf Basis einer vordefinierten [Designvorlage](../content/email-templates.md)enthält die E-Mail auch personalisierte Inhalte, die auf Kundenprofilattributen basieren.
 
 ## Erstellen des E-Mail-Versands {#create-email}
 
@@ -34,14 +32,16 @@ Die E-Mail basiert auf einer vordefinierten Design-Vorlage und enthält auch per
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_properties"
->title="E-Mail-Eigenschaften"
->abstract="Die Eigenschaften sind die üblichen Versandparameter, nach denen ein Versand benannt und klassifiziert werden kann. Wenn der Versand auf einem erweiterten Schema basiert, das in der Adobe Campaign v8-Konsole definiert ist, stehen einige bestimmte **benutzerdefinierte Optionen** zur Verfügung."
+>title="E-Mail-Eigenschaften definieren"
+>abstract="Die Eigenschaften sind die üblichen Versandparameter, nach denen ein Versand benannt und klassifiziert werden kann. Die zusätzlichen Einstellungen sind optional. Wenn der Versand auf einem erweiterten Schema basiert, das in der Adobe Campaign v8-Konsole definiert ist, stehen einige bestimmte **benutzerdefinierte Optionen** zur Verfügung."
 
 Sie können einen eigenständigen E-Mail-Versand erstellen oder eine E-Mail im Rahmen eines Kampagnen-Workflows erstellen. Die folgenden Schritte beschreiben die Vorgehensweise für einen eigenständigen (einmaligen) E-Mail-Versand. Wenn Sie im Kontext eines Kampagnen-Workflows arbeiten, finden Sie die Erstellungsschritte im Abschnitt [diesem Abschnitt](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
 
-Gehen Sie wie folgt vor, um einen neuen eigenständigen E-Mail-Versand zu erstellen:
+Gehen Sie wie folgt vor, um einen neuen eigenständigen E-Mail-Versand zu erstellen.
 
 1. Gehen Sie zum Menü **[!UICONTROL Sendungen]** in der linken Leiste, und klicken Sie auf die Schaltfläche **[!UICONTROL Versand erstellen]**.
+
+   ![](assets/delivery-list.png)
 
 1. Wählen Sie **[!UICONTROL E-Mail]** als Kanal und wählen Sie eine E-Mail-Versandvorlage aus der Liste.
 
@@ -54,10 +54,10 @@ Gehen Sie wie folgt vor, um einen neuen eigenständigen E-Mail-Versand zu erstel
 1. Klicken Sie zur Bestätigung auf **[!UICONTROL Versand erstellen]**.
 1. Geben Sie einen Titel für den Versand ein und konfigurieren Sie zusätzliche Optionen entsprechend Ihren Anforderungen:
 
-   * **[!UICONTROL Interner Name]**: Weisen Sie dem Versand eine eindeutige Kennung zu,
-   * **[!UICONTROL Ordner]**: Speichern Sie den Versand in einem bestimmten Ordner,
-   * **[!UICONTROL Versand-Code]**: Verwenden Sie dieses Feld, um Ihre Sendungen basierend auf Ihrer eigenen Namenskonvention zu organisieren.
-   * **[!UICONTROL Beschreibung]**: Geben Sie eine Beschreibung für den Versand an,
+   * **[!UICONTROL Interner Name]**: Weisen Sie dem Versand eine eindeutige Kennung zu.
+   * **[!UICONTROL Ordner]**: Speichern Sie den Versand in einem bestimmten Ordner.
+   * **[!UICONTROL Versandcode]**: Verwenden Sie dieses Feld, um Ihre Sendungen nach Ihrer eigenen Namenskonvention zu organisieren.
+   * **[!UICONTROL Beschreibung]**: Geben Sie eine Beschreibung für den Versand an.
    * **[!UICONTROL Art]**: Geben Sie die Art der E-Mail zu Klassifizierungszwecken an.<!--The content of the list is defined in the delivery template selected when creating the email.-->
 
    >[!NOTE]
@@ -66,15 +66,42 @@ Gehen Sie wie folgt vor, um einen neuen eigenständigen E-Mail-Versand zu erstel
 
    ![](assets/email-properties.png)
 
-   Erweiterte Einstellungen wie Typologieregeln und Zielgruppen-Mappings sind über die Schaltfläche neben dem Versandnamen zugänglich. Diese Einstellungen sind zwar in der ausgewählten Vorlage vorkonfiguriert, können jedoch für diese E-Mail nach Bedarf bearbeitet werden.
+5. Erweiterte Einstellungen wie Typologieregeln und Zielgruppen-Mappings sind darüber hinaus über die **[!UICONTROL Einstellungen]** Schaltfläche oben rechts im Bildschirm. Diese Einstellungen sind zwar in der ausgewählten Vorlage vorkonfiguriert, können jedoch für diese E-Mail nach Bedarf bearbeitet werden.
+
+## Audience definieren {#define-audience}
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_audience"
+>title="Zielgruppe für Ihren Versand auswählen"
+>abstract="Die optimale Audience für Marketing-Nachrichten auswählen. Sie können eine existierende Zielgruppe auswählen (die bereits in einer Campaign v8-Instanz oder in Adobe Experience Platform definiert ist), mit dem Rule Builder eine neue Zielgruppe erstellen oder eine Datei mit Ihrer Zielgruppe hochladen. Kontrollgruppen sind nicht für die **Aus Datei auswählen** und umgekehrt."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/add-audience.html" text="Zielgruppen"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/control-group.html" text="Festlegen einer Kontrollgruppe"
+
+In diesem Anwendungsbeispiel senden Sie die E-Mail an eine bestehende Audience.
+
+Weitere Anweisungen zur Verwendung von Audiences finden Sie in [diesem Abschnitt](../audience/about-audiences.md).
+
+1. Um die Audience für die E-Mail auszuwählen, klicken Sie auf die Schaltfläche **[!UICONTROL Audience auswählen]** und wählen eine vorhandene Audience aus der Liste aus.
+
+   In diesem Beispiel möchten wir eine bestehende Audience verwenden, die auf Kunden der Treuepunktestufen Silber und Gold abzielt.
+
+   ![](assets/create-audience.png)
+
+   >[!NOTE]
+   >
+   >Die in der Liste verfügbaren Zielgruppen stammen entweder aus Ihrer Campaign v8-Instanz oder aus Adobe Experience Platform, wenn die Ziel-/Quellintegration für Ihre Instanz konfiguriert wurde. Durch diese Integration können Sie Experience Platform-Segmente an Adobe Campaign senden und Kampagnenversand- und -verfolgungslogs an Adobe Experience Platform senden. Erfahren Sie, wie Sie mit Campaign und Adobe Experience Platform im [Dokumentation zu Campaign v8 (Clientkonsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}.
+
+1. Nach Auswahl der Audience können Sie die Zielgruppe durch Anwendung zusätzlicher Regeln weiter verfeinern.
+
+   ![](assets/audience-selected.png)
+
+1. Sie können auch eine Kontrollgruppe einrichten, um das Verhalten der E-Mail-Empfängerinnen und -Empfänger im Vergleich zum Verhalten von nicht angesprochenen Profilen zu analysieren. [Erfahren Sie, wie Sie mit Kontrollgruppen arbeiten](../audience/control-group.md)
 
 ## Definieren des E-Mail-Inhalts {#create-content}
 
-Gehen Sie wie folgt vor, um mit der Erstellung Ihres E-Mail-Inhalts zu beginnen.
+Gehen Sie wie folgt vor, um mit der Erstellung Ihres E-Mail-Inhalts zu beginnen. In diesem Anwendungsfall verwenden Sie eine vordefinierte E-Mail-[Versandvorlage](../msg/delivery-template.md) zur Gestaltung Ihrer E-Mail.<!--TBC delivery template or email content template?-->
 
 <!--Detailed instructions on how to configure the email content are available in [this section](../content/edit-content.md).-->
-
-In diesem Anwendungsfall verwenden Sie eine vordefinierte E-Mail-[Versandvorlage](../msg/delivery-template.md) zur Gestaltung Ihrer E-Mail.
 
 1. Klicken Sie im Dashboard des E-Mail-Versands auf die Schaltfläche **[!UICONTROL Inhalt bearbeiten]**.
 
@@ -104,40 +131,21 @@ In diesem Anwendungsfall verwenden Sie eine vordefinierte E-Mail-[Versandvorlage
 
    ![](assets/save-content.png)
 
-## Audience definieren {#define-audience}
-
->[!CONTEXTUALHELP]
->id="acw_deliveries_email_audience"
->title="Audience definieren"
->abstract="Die optimale Audience für Marketing-Nachrichten auswählen. Sie können eine bestehende Zielgruppe auswählen, die bereits in einer Campaign v8-Instanz oder in Adobe Experience Platform definiert ist, oder mit dem Regel-Builder eine neue Zielgruppe erstellen. Kontrollgruppen sind nicht für „Aus Datei auswählen“ aktiviert und umgekehrt."
-
-In diesem Anwendungsbeispiel senden Sie die E-Mail an eine bestehende Audience. Weitere Anweisungen zur Verwendung von Audiences finden Sie in [diesem Abschnitt](../audience/about-audiences.md).
-
-1. Um die Audience für die E-Mail auszuwählen, klicken Sie auf die Schaltfläche **[!UICONTROL Audience auswählen]** und wählen eine vorhandene Audience aus der Liste aus.
-
-   In diesem Beispiel möchten wir eine bestehende Audience verwenden, die auf Kunden der Treuepunktestufen Silber und Gold abzielt.
-
-   ![](assets/create-audience.png)
-
-   >[!NOTE]
-   >
-   >Die in der Liste verfügbaren Audiences stammen entweder von Ihrer Campaign v8-Instanz oder von Adobe Experience Platform, wenn die Integration von Zielen und Quellen in Ihrer Instanz konfiguriert wurde.
-   >
-   >Die Ziel-/Quellen-Integration ermöglicht es Ihnen, Experience Platform-Segmente an Adobe Campaign zu senden und Versand- und -Trackinglogs von Campaign an Adobe Experience Platform zu senden. Erfahren Sie mehr über die Arbeit mit Campaign und Adobe Experience Platform in der [Dokumentation zu Campaign v8 (Client-Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html?lang=de){target="_blank"}.
-
-1. Nach Auswahl der Audience können Sie die Zielgruppe durch Anwendung zusätzlicher Regeln weiter verfeinern.
-
-   Sie können auch eine Kontrollgruppe einrichten, um das Verhalten der E-Mail-Empfängerinnen und -Empfänger im Vergleich zum Verhalten von nicht angesprochenen Profilen zu analysieren. [Erfahren Sie, wie Sie mit Kontrollgruppen arbeiten](../audience/control-group.md)
-
-   ![](assets/audience-selected.png)
-
 ## Terminieren des Versands {#schedule}
 
-Um den Versand der E-Mail zu planen, öffnen Sie den E-Mail-Versand und navigieren Sie zum Abschnitt **Zeitplan.**
+Gehen Sie wie folgt vor, um den Versand der E-Mail zu planen.
 
-![](assets/schedule.png)
+Weitere Anweisungen zum Planen des Versands finden Sie unter [diesem Abschnitt](../msg/gs-messages.md#gs-schedule).
 
-Erfahren Sie, wie Sie den Versand planen [diesem Abschnitt](../msg/gs-messages.md#gs-schedule)
+1. Navigieren Sie zum **[!UICONTROL Zeitplan]** Abschnitt.
+
+1. Verwenden Sie die **[!UICONTROL Aktivieren der Planung]** aktivieren.
+
+1. Legen Sie Datum und Uhrzeit für den Versand fest.
+
+   ![](assets/schedule.png)
+
+Nach dem Versand beginnt der eigentliche Versand am von Ihnen definierten Kontaktdatum.
 
 ## Anzeigen der Vorschau und Testen der E-Mail {#preview-test}
 

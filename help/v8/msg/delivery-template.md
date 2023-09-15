@@ -6,16 +6,16 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 4a8513bb-8290-432a-8e40-822cd1337cb3
-source-git-commit: 207328a32ba74159d555616f046240100787f20e
+source-git-commit: 2fcebcdeb11a950a7441369341b3b8ba26048cda
 workflow-type: tm+mt
-source-wordcount: '941'
-ht-degree: 98%
+source-wordcount: '962'
+ht-degree: 93%
 
 ---
 
 # Arbeiten mit Versandvorlagen {#work-with-delivery-templates}
 
-Um den Design-Prozess zu beschleunigen und zu verbessern, können Sie Versandvorlagen erstellen, um benutzerdefinierte Inhalte in Ihren Kampagnen einfach wiederzuverwenden. Diese Funktion ermöglicht es Ihnen, das kreative Look-and-Feel zu standardisieren, um Kampagnen schneller durchführen und starten zu können.
+Für einen beschleunigten und verbesserten Designprozess können Sie Versandvorlagen erstellen, um benutzerdefinierte Inhalte und Einstellungen in allen Ihren Kampagnen einfach wiederzuverwenden. Diese Funktion ermöglicht es Ihnen, das kreative Look-and-Feel zu standardisieren, um Kampagnen schneller durchführen und starten zu können.
 
 Eine Vorlage kann Folgendes enthalten:
 
@@ -26,6 +26,10 @@ Eine Vorlage kann Folgendes enthalten:
 * [Personalisierte Felder](../personalization/personalize.md) und [bedingte Inhalte](../personalization/conditions.md)
 * Links zur [Mirrorseite](../content/mirror-page.md) und [Links](../content/message-tracking.md) zur Abmeldung
 * Andere Versandeigenschaften, z. B. die Gültigkeit der Ressource, die Parameter für erneute Versuche oder die Quarantäneeinstellungen.
+
+>[!NOTE]
+>
+>Versandvorlagen unterscheiden sich von [E-Mail-Inhaltsvorlagen](../content/email-templates.md), mit denen Sie nur den Inhalt Ihrer Nachrichten wiederverwenden können.
 
 ## Auf Versandvorlagen zugreifen und diese verwalten {#access-manage-templates}
 
@@ -162,7 +166,7 @@ Sie können das Rendering einer beliebigen Versandvorlage testen, unabhängig da
 
 1. Wechseln Sie über das Menü **[!UICONTROL Kampagnenverwaltung]** > **[!UICONTROL Sendungen]** zur Registerkarte **Vorlagen** und wählen Sie eine Vorlage aus. [Weitere Informationen](#access-manage-templates)
 
-1. Klicken Sie auf die Schaltfläche **[!UICONTROL Inhalt simulieren]** oben rechts auf dem Bildschirm.
+1. Klicken Sie auf **[!UICONTROL Inhalt simulieren]** rechts oben auf dem Bildschirm.
 
    ![](assets/templates-simulate-button.png)
 
@@ -170,7 +174,7 @@ Sie können das Rendering einer beliebigen Versandvorlage testen, unabhängig da
 
 1. Wechseln Sie zwischen den verschiedenen Profilen, um eine personalisierte Darstellung der Nachricht entsprechend dem ausgewählten Profil zu erhalten.
 
-   <!--[Learn moreon test profiles](../preview-test/test-deliveries.md#recipients)-->
+   <!--[Learn more on test profiles](../preview-test/test-deliveries.md#recipients)-->
 
    Sie können auch den Zoom-Faktor anpassen und die Desktop- oder Mobilansicht auswählen.
 

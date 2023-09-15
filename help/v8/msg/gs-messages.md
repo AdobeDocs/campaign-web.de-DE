@@ -4,9 +4,9 @@ title: Erste Schritte mit Nachrichten und Sendungen in Campaign v8 Web
 description: Erfahren Sie, wie Sie Campaign Web verwenden, um mit Sendungen zu arbeiten und Nachrichten zu senden
 badge: label="Beta"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: 2aa3413f0b20c50e328d54a66288b94e1476676f
+source-git-commit: 2fcebcdeb11a950a7441369341b3b8ba26048cda
 workflow-type: tm+mt
-source-wordcount: '1296'
+source-wordcount: '1302'
 ht-degree: 82%
 
 ---
@@ -113,7 +113,7 @@ Weiterführende Informationen zur Konfiguration einer Kampagne und zur Verwaltun
 >[!ENDTABS]
 
 
-## Hinzufügen von Personalisierung{#personalization}
+## Hinzufügen von Personalisierung {#personalization}
 
 Nachrichten, die von Adobe Campaign versendet werden, können auf verschiedene Weise personalisiert werden. [Weitere Informationen zu Personalisierungsfunktionen](../personalization/gs-personalization.md).
 
@@ -135,8 +135,7 @@ Sie können den Nachrichteninhalt wie folgt personalisieren:
 
 * Hinzufügen von **personalisierten Angeboten**
 
-  Fügen Sie je nach Empfängerstandort, aktuellem Wetter oder letzter Bestellung personalisierte Angebote in Ihren Nachrichteninhalt ein.
-
+  Fügen Sie je nach Empfängerstandort, aktuellem Wetter oder letzter Bestellung personalisierte Angebote in Ihren Nachrichteninhalt ein. [Weitere Informationen](../content/offers.md)
 
 ## Anzeigen einer Vorschau und Testen Ihrer Sendungen
 
@@ -146,12 +145,12 @@ Nachdem der Nachrichteninhalt definiert wurde, können Sie eine Vorschau davon a
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_schedule"
->title="Terminieren des Versands"
->abstract="Definieren Sie das Datum und die genaue Uhrzeit für den Nachrichtenversand. Indem Sie den günstigsten Zeitpunkt für Ihre Werbenachricht wählen, maximieren Sie die Öffnungsraten."
+>title="Kontaktdatum und -zeit festlegen"
+>abstract="Definieren Sie das Datum und den Zeitpunkt des Versands. Indem Sie den günstigsten Zeitpunkt für Ihre Werbenachricht wählen, maximieren Sie die Öffnungsraten."
 
 Sie können das Datum und die genaue Uhrzeit des Nachrichtenversands festlegen. Indem Sie den günstigsten Zeitpunkt für Ihre Werbenachricht wählen, maximieren Sie die Öffnungsraten.
 
-Um den Versand eines Versands zu planen, öffnen Sie den Versand und navigieren Sie zum **Zeitplan** Abschnitt. Verwenden Sie die **[!UICONTROL Aktivieren der Planung]** aktivieren und das gewünschte Datum und die gewünschte Uhrzeit für den Versand festlegen. Nach dem Versand beginnt der eigentliche Versand am von Ihnen definierten Kontaktdatum.
+Um den Versand eines Versands zu planen, öffnen Sie den Versand und navigieren Sie zum **[!UICONTROL Zeitplan]** Abschnitt. Verwenden Sie die **[!UICONTROL Aktivieren der Planung]** aktivieren und das gewünschte Datum und die gewünschte Uhrzeit für den Versand festlegen. Nach dem Versand beginnt der eigentliche Versand am von Ihnen definierten Kontaktdatum.
 
 ![](assets/schedule.png)
 

@@ -4,10 +4,10 @@ title: Bearbeiten des E-Mail-Inhalts
 description: Erfahren Sie, wie Sie den E-Mail-Inhalt in der Web-Benutzeroberfläche von Campaign bearbeiten können
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
-workflow-type: ht
-source-wordcount: '505'
-ht-degree: 100%
+source-git-commit: 2fcebcdeb11a950a7441369341b3b8ba26048cda
+workflow-type: tm+mt
+source-wordcount: '570'
+ht-degree: 90%
 
 ---
 
@@ -15,8 +15,8 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_content"
->title="Erstellen des E-Mail-Inhalts"
->abstract="In diesem Abschnitt können Sie den Inhalt Ihrer E-Mail erstellen und mit dem E-Mail-Designer ein optimiertes Aussehen kreieren."
+>title="Definieren des E-Mail-Inhalts"
+>abstract="Die **Inhalt bearbeiten** -Bildschirm können Sie grundlegende Elemente Ihrer Nachricht definieren, wie z. B. die Absenderadresse und die Betreffzeile, zusätzliche Aktionen durchführen, wie z. B. Anhänge oder Angebote hinzufügen, und auf Email Designer zugreifen, um Ihrer Nachricht einen optimierten Look zu verleihen."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_header"
@@ -64,7 +64,9 @@ Gehen Sie wie folgt vor, um den Inhalt einer E-Mail zu konfigurieren oder zu bea
    >
    >Sie können den Teil vor dem „@“ ändern, nicht aber die Domain-Adresse.
 
-   <!--In the Reply address text fields, the sender's address is used by default for replies. However, Adobe recommends using an existing real address such as your brand's customer care. In this case, if a recipient sends a reply, the customer care will be able to handle it.-->
+1. Erweitern Sie die **[!UICONTROL Antwortfelder]** Abschnitt. Die Absenderadresse wird standardmäßig für Antworten verwendet. Adobe empfiehlt, eine echte Adresse zu verwenden, wie etwa den Kundendienst Ihrer Marke. So kann sich dieser gegebenenfalls um etwaige Antworten kümmern.
+
+   ![](assets/email-edit-content-reply-to.png)
 
 1. Definieren Sie den **[!UICONTROL Betreff]** der E-Mail. Geben Sie Ihren Betreff direkt in das entsprechende Feld ein oder öffnen Sie den Ausdruckseditor, um das Hinzufügen einer Personalisierung mit verschiedenen Attributen und Inhaltsbausteinen oder Angeboten vorzunehmen. [Erfahren Sie, wie Sie Inhalte personalisieren](../personalization/personalize.md)
 
