@@ -4,10 +4,10 @@ title: Neue Funktionen in Campaign Web v8
 description: Entdecken Sie neue Funktionen von Campaign Web v8.
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Beta"
-source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
+source-git-commit: ed12d289c1180fe8705d2c143bd9dce4ed96e313
 workflow-type: tm+mt
-source-wordcount: '947'
-ht-degree: 56%
+source-wordcount: '991'
+ht-degree: 54%
 
 ---
 
@@ -102,6 +102,12 @@ Die wichtigsten Funktionen von Campaign Web Beta sind unten aufgeführt.
   Stellen Sie Fragen und finden Sie Hinweise direkt in der Benutzeroberfläche des Produkts. Der neue KI-gestützte Wissensassistent, der in die Popup-Fenster der kontextuellen Hilfe eingebettet ist, hilft Ihnen, Ihr Know-how in Bezug auf neue Campaign-Funktionen kennenzulernen und auszubauen. Basierend auf der neuesten Produktdokumentation hilft es Ihnen, beim Erstellen Ihrer Anwendungsfälle sofort Hilfe zu erhalten und schrittweise Anleitungen zu erhalten.
 
   Weiterführende Informationen finden Sie in [diesem Abschnitt](../get-started/using-ai.md).
+
+* **HTML Converter für E-Mail-Design**
+
+  Sie können jetzt alle HTML-Inhalte im E-Mail-Editor von Campaign importieren und konvertieren. Inhaltsbausteine werden automatisch identifiziert und stehen im E-Mail-Designer zur Verfügung: Nutzen Sie die leistungsstarken Designfunktionen, um sie zu aktualisieren und zu personalisieren!
+
+  Weiterführende Informationen finden Sie in [diesem Abschnitt](../content/existing-content.md).
 
 
 ## Übergang zur Campaign Web-Benutzeroberfläche

@@ -4,22 +4,21 @@ title: Importieren Ihrer E-Mail-Inhalte
 description: Erfahren Sie, wie Sie E-Mail-Inhalte importieren
 exl-id: ef9c8e6f-f422-404e-9ebb-a89d1bd45e7f
 badge: label="Beta"
-source-git-commit: f83bdea5c051bfec52e6df71f0edd0258827815a
+source-git-commit: ed12d289c1180fe8705d2c143bd9dce4ed96e313
 workflow-type: tm+mt
 source-wordcount: '239'
-ht-degree: 62%
+ht-degree: 58%
 
 ---
 
 # Importieren Ihrer E-Mail-Inhalte {#existing-content}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_import_content"
 >title="Verwenden eines vorhandenen E-Mail-Inhalts"
 >abstract="Der E-Mail-Designer ermöglicht den Import vorhandener HTML-Inhalte. Dieser Inhalt kann eine HTML-Datei mit einem integrierten Stylesheet oder ein ZIP-Ordner mit der HTML-Datei, dem Stylesheet (.css) und Bildern sein."
 
-Der E-Mail-Designer ermöglicht den Import vorhandener HTML-Inhalte. Dieser Inhalt kann Folgendes sein:
+Sie können vorhandenen HTML-Inhalt in Email Designer importieren. Dieser Inhalt kann Folgendes sein:
 
 * Eine **HTML-Datei** mit integriertem Stylesheet,
 * Ein **komprimierter Ordner** (.zip) mit HTML-Datei, Stylesheet (.css) und Bildern.
