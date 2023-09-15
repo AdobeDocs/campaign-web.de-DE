@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 badge: label="Beta"
-source-git-commit: 2ce9dc99fd88f4731ed0d5ac934e66d4934a2c02
+source-git-commit: 332e4963e7124c36d2cefa91156372c4773c633b
 workflow-type: tm+mt
-source-wordcount: '778'
-ht-degree: 5%
+source-wordcount: '786'
+ht-degree: 4%
 
 ---
 
@@ -30,6 +30,10 @@ Vordefinierte Filter sind benutzerdefinierte Filter, die erstellt und gespeicher
 Sie können vorhandene integrierte Filter verwenden, um auf einen bestimmten Teil Ihrer Daten zuzugreifen, oder eigene vordefinierte Filter erstellen und speichern.
 
 ![](assets/predefined-filters-menu.png)
+
+>[!CAUTION]
+>
+>In dieser Produktversion sind beim Erstellen von Regeln, beim Auswählen der Zielgruppe eines Versands oder beim Erstellen einer Zielgruppe in einem Workflow einige vordefinierte Filter nicht in der Benutzeroberfläche verfügbar. Sie können sie weiterhin verwenden. [Weitere Informationen](guardrails.md#predefined-filters-filters-guardrails-limitations)
 
 
 ## Vordefinierten Filter erstellen {#create-predefined-filter}
@@ -55,7 +59,7 @@ Sie können einen benutzerdefinierten Filter aus dem Regel-Builder speichern, da
 
 1. Auswählen **Neuen Filter erstellen** und geben Sie einen Namen und eine Beschreibung für diesen Filter ein.
 
-   ![](assets/predefined-filters-save-filter.png)
+   ![](assets/predefined-filters-save-filter.png){width="70%" align="left"}
 
    Sie können den Filter bei Bedarf als Favoriten speichern. Weiterführende Informationen finden Sie in [diesem Abschnitt](#fav-filter).
 
@@ -89,7 +93,7 @@ Bei der Erstellung eines vordefinierten Filters können Sie die **Als Favoriten 
 
 Wenn ein Filter als Favorit gespeichert wird, steht er allen Benutzern im **Favoritenfilter** -Abschnitt der Filtererstellungsliste, wie unten dargestellt:
 
-![](assets/predefined-filters-favorite.png){width="70%" align="left"}
+![](assets/predefined-filters-favorite.png){width="30%" align="left"}
 
 
 ## Vordefinierten Filter verwenden {#use-predefined-filter}
@@ -139,6 +143,8 @@ Aus dieser Liste können Sie einen neuen Filter erstellen, wie oben beschrieben,
 
 Sie können beim Erstellen Ihrer Regeln einen vordefinierten Filter als Favoriten für einen schnellen Zugriff hinzufügen. Weiterführende Informationen finden Sie in [diesem Abschnitt](#fav-filter).
 
-## Vordefinierte Filter {#ootb-predefined-filter}
+<!--
+## Built-in predefined filters {#ootb-predefined-filter}
 
-Campaign verfügt über eine Reihe vordefinierter Filter, die über die Clientkonsole erstellt werden. Mit diesen Filtern können Sie Ihre Zielgruppen und Regeln definieren. Sie dürfen nicht geändert werden.
+Campaign comes with a set of predefined filters, built from the client console. These filters can be used to define your audiences, and rules. They must not be modified.
+-->

@@ -2,9 +2,9 @@
 title: Limits und Einschränkungen in der Web-Benutzeroberfläche von Campaign
 description: Limits und Einschränkungen in der Web-Benutzeroberfläche von Campaign
 badge: label="Beta"
-source-git-commit: 9ab03458bbd9606537c0b42d72643cf1efefcc81
+source-git-commit: 86d87e9a3ac9028634a08c2c0969cd232dff15f5
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '605'
 ht-degree: 6%
 
 ---
@@ -16,17 +16,29 @@ Bei der Arbeit mit in der Campaign-Webbenutzeroberfläche erstellten oder geänd
 
 ## Workflows {#wf-guardrails-limitations}
 
-**Activity Edition**
+**Activities**
 
-* Workflow-Aktivitäten, die noch nicht in der Web-Benutzeroberfläche unterstützt werden, sind schreibgeschützt. Sie können weiterhin den Workflow ausführen, Nachrichten senden, die Protokolle überprüfen usw.
+* Workflow-Aktivitäten, die noch nicht in der Web-Benutzeroberfläche unterstützt werden, sind schreibgeschützt. Sie können weiterhin den Workflow ausführen, Nachrichten senden, die Protokolle überprüfen usw. Workflow-Aktivitäten, die sowohl in der Web-Benutzeroberfläche als auch in der Client-Konsole verfügbar sind, können bearbeitet werden.
 
 | Konsole | Web-Benutzeroberfläche |
 | --- | --- |
-| ![](assets/limitations-activities-console.png) | ![](assets/limitations-activities-web.png) |
+| ![](assets/limitations-activities-console.png){width="50%" align="left" zoomable="yes"} | ![](assets/limitations-activities-web.png){width="50%" align="left" zoomable="yes"} |
 
-**Leinwandbearbeitung**
+**Arbeitsfläche**
 
-* Wenn ein Konsolen-Workflow über mehrere Startknoten/Zweige oder schwebende Aktivitäten verfügt, müssen Sie eine Startaktivität und eine Abspaltung hinzufügen, um Startknoten mit dem Hauptknoten zu verbinden. Sie müssen auch schwebende Aktivitäten entfernen.
+* Beim Erstellen eines neuen Workflows in der Web-Benutzeroberfläche unterstützt die Arbeitsfläche nur einen Einstiegspunkt. Wenn Sie jedoch einen Workflow in der Konsole mit mehreren Einstiegspunkten erstellt haben,
+
+Selbst wenn Ihr Workflow auf der Arbeitsfläche der Clientkonsole mit mehreren Einstiegspunkten erstellt wurde, kann er auch in der Web-Benutzeroberfläche bearbeitet werden. Sie können weiterhin öffnen und bearbeiten
+
+
+
+Erstellen Sie dazu einen Workflow aus der Clientkonsole mit mehreren Einstiegspunkten und öffnen Sie ihn über die Web-Benutzeroberfläche, um das Ergebnis anzuzeigen.
+
+
+
+Natürlich können Sie die Aktivitäten bearbeiten und den Workflow wie gewohnt starten und ausführen.
+
+
 
 **Aktivitätspositionierung**
 
@@ -38,11 +50,11 @@ Bei der Arbeit mit in der Campaign-Webbenutzeroberfläche erstellten oder geänd
 
 **Schleifen**
 
-* Schleifen sind in der Web-Benutzeroberfläche noch nicht verfügbar. Wenn Sie einen Workflow mit einer Schleife über die Konsole erstellt haben, kann dieser nicht über die Web-Benutzeroberfläche aufgerufen werden. Eine Fehlermeldung wird angezeigt.
+* Schleifen sind in der Web-Benutzeroberfläche noch nicht verfügbar. Wenn Sie einen Workflow mit einer Schleife mithilfe der Konsole erstellt haben, können Sie nicht über die Web-Benutzeroberfläche darauf zugreifen. Eine Fehlermeldung wird angezeigt.
 
 | Konsole | Web-Benutzeroberfläche |
 | --- | --- |
-| ![](assets/limitations-loops-console.png) | ![](assets/limitations-loops-web.png) |
+| ![](assets/limitations-loops-console.png){width="50%" align="left" zoomable="yes"} | ![](assets/limitations-loops-web.png){width="50%" align="left" zoomable="yes"} |
 
 **Abstimmung und Anreicherung**
 
@@ -53,12 +65,11 @@ In der Campaign-Clientkonsole wird die **Anreicherung** -Aktivität kann sowohl 
 
 ## Vordefinierte Filter {#filters-guardrails-limitations}
 
-Bei der Auswahl der Zielgruppe eines Versands oder beim Erstellen einer Zielgruppe in einem Workflow stehen in dieser Produktversion einige vordefinierte Filter nicht in der Benutzeroberfläche zur Verfügung.
+In dieser Produktversion, bei der Auswahl der Zielgruppe eines Versands oder beim Erstellen einer Zielgruppe in einem Workflow stehen in der Benutzeroberfläche keine vordefinierten Filter zur Verfügung.
 
 Eine spezifische Fehlermeldung wird angezeigt. Auch wenn Sie die grafische Darstellung der Abfrage im Regel-Builder nicht anzeigen und den Filter nicht bearbeiten können, können Sie ihn dennoch verwenden und die Filterbedingungen sowie die Ergebnisse anzeigen. Sie können auch auf die SQL-Abfrage zugreifen, um die genauen Einstellungen zu überprüfen.
 
 ![](assets/filter-unavailable.png){width="70%" align="left"}
-
 
 Beachten Sie, dass beim Erstellen eines Filters in der Web-Oberfläche und dessen Änderung in der Konsole mit nicht unterstützten Attributen die grafische Darstellung nicht mehr in der Web-Oberfläche verfügbar sein kann. In jedem Fall können Sie den Filter weiterhin verwenden.
 
