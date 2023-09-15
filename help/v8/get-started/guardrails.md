@@ -2,9 +2,9 @@
 title: Limits und Einschränkungen in der Web-Benutzeroberfläche von Campaign
 description: Limits und Einschränkungen in der Web-Benutzeroberfläche von Campaign
 badge: label="Beta"
-source-git-commit: 4b01e31edeadfa76546da1f906f5e3d2eb74ec13
+source-git-commit: 492d49c37c8d63d3e3867f897b76a54ebe8bdb11
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '537'
 ht-degree: 6%
 
 ---
@@ -36,7 +36,18 @@ Auf denselben Workflow kann sowohl in der Konsole als auch in der Web-Benutzerob
 
 **Schleifen**
 
-* Workflows einschließlich Schleifen werden nicht in der Web-Benutzeroberfläche angezeigt. Eine Fehlermeldung wird angezeigt.
+* Schleifen sind in der Web-Benutzeroberfläche noch nicht verfügbar. Wenn Sie einen Workflow mit einer Schleife über die Konsole erstellt haben, kann dieser nicht über die Web-Benutzeroberfläche aufgerufen werden. Eine Fehlermeldung wird angezeigt.
+
+<table>
+<tr>
+<th>Konsole</th>
+<th>Web-Benutzeroberfläche</th>
+</tr>
+<tr>
+<td><img src="assets/limitations-loops-console.png"></td>
+<td><img src="assets/limitations-loops-web.png"></td>
+</tr>
+</table>
 
 **Abstimmung und Anreicherung**
 
