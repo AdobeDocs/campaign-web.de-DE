@@ -3,10 +3,10 @@ audience: end-user
 title: Erste Schritte mit Kampagnen
 description: Erfahren Sie, wie Sie mit kanalübergreifenden Kampagnen beginnen
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
-workflow-type: ht
-source-wordcount: '430'
-ht-degree: 100%
+source-git-commit: 2afec0260566c2393c96063037adbf1902497289
+workflow-type: tm+mt
+source-wordcount: '468'
+ht-degree: 93%
 
 ---
 
@@ -20,7 +20,8 @@ ht-degree: 100%
 
 Um eine neue Kampagne zu erstellen oder bestehende Kampagnen zu verwalten, klicken Sie im linken Navigationsbereich auf das Menü **[!UICONTROL Kampagnen]**.
 
-## Die Kampagnenliste{#access-campaigns}
+## Kampagnenliste {#access-campaigns}
+
 
 In der Kampagnenliste stehen zwei Registerkarten zur Verfügung:
 
@@ -38,7 +39,13 @@ Sie können beispielsweise nach Ihrem Kampagnenkalender filtern. Öffnen Sie das
 
 ![Kampagnenfilter](assets/campaign-filter-on-dates.png)
 
-## Das Kampagnen-Dashboard{#campaign-dashboard}
+## Kampagnen-Dashboard{#campaign-dashboard}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_delivery_list"
+>title="Liste der Sendungen in der Kampagne"
+>abstract="Die Registerkarte **Sendungen** listet jeden mit der Kampagne verbundenen Versand auf. Klicken Sie auf den Namen eines Versands, um ihn zu bearbeiten. Verwenden Sie die Schaltfläche Versand erstellen , um einen neuen Versand für diese Kampagne hinzuzufügen."
 
 Klicken Sie in der Kampagnenliste auf der Registerkarte **Durchsuchen** auf eine Kampagne, um deren Details anzuzeigen.
 

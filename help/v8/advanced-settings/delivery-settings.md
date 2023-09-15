@@ -4,10 +4,10 @@ title: E-Mail-Versandeinstellungen
 description: Erfahren Sie mehr über die Einstellungen für den E-Mail-Versand in der Web-Benutzeroberfläche von Campaign
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="Beta"
-source-git-commit: b2ac88aba987086c9e2893d48beb03ff57075270
+source-git-commit: 2afec0260566c2393c96063037adbf1902497289
 workflow-type: tm+mt
-source-wordcount: '1643'
-ht-degree: 86%
+source-wordcount: '1829'
+ht-degree: 80%
 
 ---
 
@@ -22,18 +22,18 @@ Bei diesen Einstellungen handelt es sich um **technische Versandparameter**, die
 >
 > Diese Einstellungen werden hier nur zur Information beschrieben. Einige sind von Ihrer Konfiguration und Ihren Berechtigungen abhängig. Sie dürfen in dieser Version des Produkts nicht geändert werden.
 
-## Typologie {#typology}
+## Typologieregeln {#typology}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_typology"
 >title="Typologie"
->abstract="Typologieregeln ermöglichen es Marketing-Experten, Geschäftspraktiken für alle Sendungen zu standardisieren. Eine Typologie ist eine Sammlung von Typologieregeln, mit denen Sie den Versand von Nachrichten steuern, filtern und priorisieren können. Profile, die den Kriterien einer Typologieregel entsprechen, werden in der Vorbereitungsphase von den Versandzielgruppen ausgeschlossen."
+>abstract="Typologie -Regeln ermöglichen es Marketing-Experten, Geschäftspraktiken für alle Sendungen zu standardisieren. Eine Typologie ist eine Sammlung von Typologieregeln, mit denen Sie den Versand von Nachrichten steuern, filtern und priorisieren können. Profile, die den Kriterien einer Typologieregel entsprechen, werden in der Vorbereitungsphase von den Versandzielgruppen ausgeschlossen."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_typology"
->title="Typologie"
->abstract="Typologie -Regeln ermöglichen es Marketing-Experten, Geschäftspraktiken für alle Sendungen zu standardisieren. Eine Typologie ist eine Sammlung von Typologieregeln, mit denen Sie den Versand von Nachrichten steuern, filtern und priorisieren können. Profile, die den Kriterien einer Typologieregel entsprechen, werden in der Vorbereitungsphase von den Versandzielgruppen ausgeschlossen."
+>title="Typologieeinstellungen für den Versand"
+>abstract="Typologieregeln ermöglichen es Marketing-Experten, Geschäftspraktiken für alle Sendungen zu standardisieren. Eine Typologie ist eine Sammlung von Typologieregeln, mit denen Sie den Versand von Nachrichten steuern, filtern und priorisieren können. Profile, die den Kriterien einer Typologieregel entsprechen, werden in der Vorbereitungsphase von den Versandzielgruppen ausgeschlossen."
 
 
 Typologien sind Gruppen von **Typologieregeln**, die während der Vorbereitungsphase ausgeführt werden. Typologieregeln ermöglichen es Marketing-Experten, Geschäftspraktiken für alle Sendungen zu standardisieren. Eine Typologie ist eine Sammlung von Typologieregeln, mit denen Sie den Versand von Nachrichten steuern, filtern und priorisieren können. Profile, die den Kriterien einer Typologieregel entsprechen, werden in der Versandvorbereitungsphase von den Versandzielgruppen ausgeschlossen.  Damit können Sie sicherstellen, dass Ihre E-Mails immer bestimmte Elemente enthalten (z. B. einen Abmelde-Link oder eine Betreffzeile) oder Filterregeln anwenden, um Gruppen aus Ihrer Zielgruppe auszuschließen (z. B. abgemeldete Abonnenten, Konkurrenten oder Kunden, die nicht Mitglied im Treueprogramm sind).
@@ -52,7 +52,7 @@ Wenn Sie eine Typologie mit einer Nachricht oder Nachrichtenvorlage verknüpfen,
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_pressure_parameters"
->title="Druckparameter"
+>title="Druckparameter für den Versand"
 >abstract="Die Versandgewichtung ermöglicht die Identifizierung von Sendungen mit der höchsten Priorität im Rahmen der Ermüdungsverwaltung. Nachrichten mit der höchsten Gewichtung haben Priorität."
 
 
@@ -81,7 +81,7 @@ Die Ermüdungsverwaltung wird mit dem Add-on **Kampagnenoptimierung** bereitgest
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_capacity_settings"
->title="Kapazitätseinstellungen"
+>title="Kapazitätseinstellungen für den Versand"
 >abstract="Verwenden Sie vor dem Versand von Nachrichten Kapazitätsregeln, um sicherzustellen, dass Ihr Unternehmen den Versand verarbeiten kann, und festzulegen, welche eingehenden Nachrichten der Versand erzeugen kann und wie viele Aufrufe beispielsweise an Abonnierende getätigt werden. Kapazitätsregeln werden in der Adobe Campaign v8-Konsole definiert. Wählen Sie in diesem Bildschirm eine Regel aus, die dem E-Mail-Kanal zugeordnet ist."
 
 In diesem Bereich können Sie eine Kapazitätsregel auswählen, die in der Adobe Campaign v8-Konsole definiert ist. Diese Regel ist mit dem E-Mail-Kanal verknüpft.
@@ -91,7 +91,14 @@ Mit dem Feld **Wichtigkeit des Empfängers** wird festgelegt, welche Empfangende
 Weitere Informationen über Konsistenz- und Kapazitätsregeln und deren Konfiguration finden Sie in der [Dokumentation zu Campaign v8 (Client-Konsole)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html?lang=de){target="_blank"}.
 
 
-## Audience {#audience}
+## Zielgruppeneinstellungen {#audience}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_email_settings_audience"
+>title="Zielgruppeneinstellungen für den Versand"
+>abstract="Wählen Sie eine **Zielgruppen-Mapping** unter denen, die verfügbar sind. Zielgruppen-Mappings sind in der Adobe Campaign v8-Konsole definiert. Sie können auch die Ausschlussparameter für den Versand festlegen. "
+
 
 In diesem Abschnitt können Sie ein verfügbares **Zielgruppen-Mapping** auswählen. Zielgruppen-Mappings sind in der Adobe Campaign v8-Konsole definiert.
 
@@ -101,7 +108,7 @@ Weitere Informationen zu Zielgruppen-Mappings finden Sie in der [Dokumentation z
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_delivery"
->title="Versand Einstellungen       "
+>title="Versandeinstellungen für den Versand"
 >abstract="Versandparameter sind technische Einstellungen, die für Ihren Versand gelten. Sie können für den Versand BCC aktivieren und die Versand- sowie die Routinemodi ändern. Diese Optionen sind erfahrenen Benutzerinnen und Benutzern vorbehalten."
 
 Versandparameter sind technische Einstellungen, die für Ihren Versand gelten.
@@ -112,6 +119,19 @@ Versandparameter sind technische Einstellungen, die für Ihren Versand gelten.
 
 * **E-Mail-BCC**: Diese Option wird verwendet, um mit der BCC-Funktion E-Mails in einem externen System zu speichern, indem einfach eine E-Mail-Adresse als BCC zu Ihrer Nachrichtzielgruppe hinzugefügt wird. Weitere Informationen zu E-Mail-BCC finden Sie in der [Dokumentation zu Campaign v8 (Client-Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html?lang=de){target="_blank"}.
 
+### Web Analytics {#web-analytics}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_email_settings_webanalytics"
+>title="Webanalyseeinstellungen für den Versand"
+>abstract="Wählen Sie ein Webanalysekonto aus. Dieses Konto wird in der Campaign-Clientkonsole konfiguriert. Sie können auch die Tags definieren, die für das von Ihnen verwendete Analytics-Tool freigegeben wurden."
+
+In diesem Abschnitt können Sie ein Web-Analytics-Konto auswählen. Dieses Konto wird in der Campaign-Clientkonsole konfiguriert.
+
+Sie können auch die Tags definieren, die für das von Ihnen verwendete Analytics-Tool freigegeben wurden.
+
+Weitere Informationen zu Web Analytics und Campaign finden Sie unter [Dokumentation zu Campaign v8 (Clientkonsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html?lang=de){target="_blank"}.
 
 
 ### Weitere Zustellversuche {#retries}
@@ -122,12 +142,10 @@ Weitere Informationen zur Verwaltung von weiteren Zustellversuchen finden Sie in
 
 ## Validierung {#approval}
 
-<!--
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_approval"
->title="Approval mode"
->abstract="Each step of a delivery can be subject to approval in order to ensure full monitoring and control of the various processes."
--->
+>title="Validierungsmodus für den Versand"
+>abstract="Wählen Sie den Validierungsmodus aus. Wenn bei der Versandvorbereitung Warnungen erzeugt werden, können Sie den Versand so konfigurieren, dass definiert wird, ob er trotzdem ausgeführt werden soll. "
 
 Wenn bei der Versandvorbereitung Warnungen erzeugt werden, können Sie den Versand so konfigurieren, dass definiert wird, ob er trotzdem ausgeführt werden soll. Standardmäßig müssen Benutzende den Nachrichtenversand am Ende der Analysephase bestätigen: Hierbei handelt es sich um eine **manuelle** Validierung.
 
@@ -193,6 +211,11 @@ Tracking-Parameter werden im entsprechenden Abschnitt definiert. Mögliche Optio
 **Ersatz-URL für abgelaufene URLs**: Verwenden Sie diese Option, um eine Fallback-URL für eine Web-Seite einzugeben: Sie wird angezeigt, wenn das Tracking abgelaufen ist.
 
 ## Testeinstellungen {#test-setttings}
+
+>[!CONTEXTUALHELP]
+>id="acw_email_settings_testsettings"
+>title="Versandtest-Einstellungen"
+>abstract="Wählen Sie die Ausschlussparameter aus und passen Sie den Titel der Test-E-Mails an."
 
 Sie können die Ausschlussparameter in diesem Abschnitt festlegen. Folgende Optionen sind verfügbar: 
 
