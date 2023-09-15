@@ -4,10 +4,10 @@ title: Erstellen von Workflows mit Adobe Campaign Web
 description: Erfahren Sie, wie Sie Workflows mit Adobe Campaign Web erstellen
 badge: label="Beta"
 exl-id: 687b13a4-7ec8-4d07-9d20-53eb4ebefd28
-source-git-commit: 5c4ace1fc8d299048c398fcce14900c797ef6207
+source-git-commit: 53148300ecb5d52d89875519c44ae979d29a4d76
 workflow-type: tm+mt
-source-wordcount: '257'
-ht-degree: 62%
+source-wordcount: '281'
+ht-degree: 57%
 
 ---
 
@@ -16,7 +16,6 @@ ht-degree: 62%
 
 Mit Campaign v8 Web können Sie Workflows in einer visuellen Arbeitsfläche erstellen, um kanalübergreifende Prozesse wie Segmentierung, Kampagnenausführung und Dateiverarbeitung zu entwerfen.
 
-Workflows können entweder als eigenständige Workflows über die **Workflows** -Menü oder direkt in einer Kampagne. In diesem Fall wird der Workflow mit der Kampagne verknüpft und zusammen mit allen anderen Kampagnen-Workflows ausgeführt.
 
 ## Was befindet sich in einem Workflow? {#gs-workflow-inside}
 
@@ -35,6 +34,18 @@ Jeder Workflow besteht aus:
 * **Arbeitstabellen**: Die Arbeitstabelle enthält alle von der Transition übermittelten Informationen. Jeder Workflow verwendet mehrere Arbeitstabellen. Die in diesen Tabellen übermittelten Daten können während des gesamten Lebenszyklus des Workflows verwendet werden.
 
 ## Wichtige Schritte zum Erstellen eines Workflows {#gs-workflow-steps}
+
+
+Campaign bietet zwei Möglichkeiten, einen Workflow zu erstellen:
+
+1. Workflows können als eigenständige Workflows aus dem **Workflows** Menü.
+
+   ![](assets/create-a-standalone-wf.png)
+
+1. Workflows können direkt in einer Kampagne erstellt werden, indem Sie über die **Workflow** der Kampagne. Wenn der Workflow in einer Kampagne enthalten ist, wird er mit allen anderen Kampagnen-Workflows ausgeführt, und die Berichtsmetriken werden alle auf Kampagnenebene gruppiert.
+
+   ![](assets/create-a-wf-from-a-campaign.png)
+
 
 Die wichtigsten Schritte zum Erstellen von Workflows sind:
 
