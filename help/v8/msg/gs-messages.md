@@ -4,10 +4,10 @@ title: Erste Schritte mit Nachrichten und Sendungen in Campaign v8 Web
 description: Erfahren Sie, wie Sie Campaign Web verwenden, um mit Sendungen zu arbeiten und Nachrichten zu senden
 badge: label="Beta"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: 220eddacdc15266d12e511285ecb306cbd9aa42f
+source-git-commit: 2aa3413f0b20c50e328d54a66288b94e1476676f
 workflow-type: tm+mt
-source-wordcount: '1289'
-ht-degree: 85%
+source-wordcount: '1296'
+ht-degree: 82%
 
 ---
 
@@ -59,7 +59,7 @@ Adobe Campaign v8 enthält die folgenden Versandkanäle: E-Mail, SMS und Mobile 
 
 ## Erstellen eines Versands {#create-delivery}
 
-Sie können eigenständige Sendungen über das linke Menü **[!UICONTROL Sendungen]** erstellen oder Sendungen im Kontext einer Marketing-Kampagne über das linke Menü **[!UICONTROL Kampagnen]** erstellen.
+Sie können eigenständige Sendungen über die **[!UICONTROL Sendungen]** im linken Menü oder im Kontext eines Workflows Sendungen erstellen, die in einer Kampagne enthalten sind oder nicht.
 
 Auf den folgenden Registerkarten erfahren Sie, wie Sie einen Versand erstellen:
 
@@ -92,7 +92,7 @@ Gehen Sie wie folgt vor, um einen eigenständigen Versand zu erstellen:
 
 Gehen Sie wie folgt vor, um einen Versand in einem Workflow zu erstellen:
 
-1. Erstellen Sie einen Workflow oder öffnen Sie einen vorhandenen Workflow.
+1. Erstellen Sie einen Workflow oder öffnen Sie einen vorhandenen Workflow. Weitere Informationen zu Workflows finden Sie unter [diese Seite](../workflows/gs-workflow-creation.md#gs-workflow-steps)
 1. Fügen Sie die Aktivität **[!UICONTROL Zielgruppe aufbauen]** hinzu, konfigurieren Sie sie und klicken Sie auf die Schaltfläche `+`.
 
    ![](assets/add-delivery-in-wf.png)
