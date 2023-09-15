@@ -4,9 +4,9 @@ title: Erkunden der Benutzeroberfläche
 description: Web-Benutzeroberfläche von Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: a04fcf79f8c60afa9ffc7428526e36d930db34c4
+source-git-commit: 4b005f3feb70b8c5cf0f4cd9c5ba54547bd9261a
 workflow-type: tm+mt
-source-wordcount: '1509'
+source-wordcount: '1490'
 ht-degree: 81%
 
 ---
@@ -88,11 +88,6 @@ Im Abschnitt KAMPAGNEN-MANAGEMENT haben Sie Zugriff auf Marketing-Kampagnen, Sen
 >id="acw_audiences_list"
 >title="Zielgruppen"
 >abstract="Dies ist die Liste Ihrer Audiences. Sie können den Typ, die Herkunft, das Erstellungsdatum/Datum der letzten Änderung und das Label anzeigen. Sie können die Liste nach Herkunft filtern. Diese Liste ist schreibgeschützt."
-
->[!CONTEXTUALHELP]
->id="acw_subscriptions_list"
->title="Abonnementlisten"
->abstract="Durchsuchen Sie Ihre Abonnementlisten. Sie können ihren Typ, Modus und ihre Beschriftung anzeigen. Diese Liste ist schreibgeschützt."
 
 
 Im Bereich KUNDENVERWALTUNG können Sie Ihre Empfängerinnen und Empfänger, Zielgruppen und Abonnements anzeigen. Diese Listen sind schreibgeschützt.

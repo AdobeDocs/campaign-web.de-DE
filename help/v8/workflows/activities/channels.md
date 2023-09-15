@@ -3,15 +3,38 @@ audience: end-user
 title: Verwenden der Workflow-Aktivität „Versand“
 description: Erfahren Sie, wie Sie eine Workflow-Aktivität „Versand“ hinzufügen (E-Mail, Push-Benachrichtigung, SMS).
 badge: label="Beta"
-source-git-commit: 2bb086fdf8ad3f6df767343c2a4c66b5af325c10
+source-git-commit: 4b005f3feb70b8c5cf0f4cd9c5ba54547bd9261a
 workflow-type: tm+mt
-source-wordcount: '642'
+source-wordcount: '786'
 ht-degree: 61%
 
 ---
 
 
 # E-Mail, SMS, Push-Aktivitäten {#channel}
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_email"
+>title="E-Mail-Aktivität"
+>abstract="Automatisieren und Ausführen von Marketing-Kampagnen über E-Mail-, SMS- und Push-Kanäle hinweg. Sie können Kanalaktivitäten in die Workflow-Arbeitsfläche kombinieren, um Cross-Channel-Workflows zu erstellen, mit denen basierend auf Kundenverhalten und Daten Aktionen ausgelöst werden können. "
+
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_sms"
+>title="E-Mail-Aktivität"
+>abstract="Automatisieren und Ausführen von Marketing-Kampagnen über E-Mail-, SMS- und Push-Kanäle hinweg. Sie können Kanalaktivitäten in die Workflow-Arbeitsfläche kombinieren, um Cross-Channel-Workflows zu erstellen, mit denen basierend auf Kundenverhalten und Daten Aktionen ausgelöst werden können. "
+
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_push_ios"
+>title="E-Mail-Aktivität"
+>abstract="Automatisieren und Ausführen von Marketing-Kampagnen über E-Mail-, SMS- und Push-Kanäle hinweg. Sie können Kanalaktivitäten in die Workflow-Arbeitsfläche kombinieren, um Cross-Channel-Workflows zu erstellen, mit denen basierend auf Kundenverhalten und Daten Aktionen ausgelöst werden können. "
+
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_push_android"
+>title="E-Mail-Aktivität"
+>abstract="Automatisieren und Ausführen von Marketing-Kampagnen über E-Mail-, SMS- und Push-Kanäle hinweg. Sie können Kanalaktivitäten in die Workflow-Arbeitsfläche kombinieren, um Cross-Channel-Workflows zu erstellen, mit denen basierend auf Kundenverhalten und Daten Aktionen ausgelöst werden können. "
 
 Mit Adobe Campaign Web können Sie Marketing-Kampagnen über E-Mail-, SMS- oder Push-Kanäle automatisieren und durchführen. Sie können Kanalaktivitäten in die Workflow-Arbeitsfläche kombinieren, um Cross-Channel-Workflows zu erstellen, mit denen basierend auf Kundenverhalten und Daten Aktionen ausgelöst werden können.
 

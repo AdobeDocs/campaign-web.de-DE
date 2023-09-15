@@ -3,17 +3,23 @@ audience: end-user
 title: Audiences erstellen
 description: Erfahren Sie, wie Sie Zielgruppen im Adobe Campaign Web erstellen
 badge: label="Beta"
-source-git-commit: 1b17dcbdaadcbf45b2c26d9099e6d139143d253c
+source-git-commit: 4b005f3feb70b8c5cf0f4cd9c5ba54547bd9261a
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 1%
+source-wordcount: '285'
+ht-degree: 2%
 
 ---
 
 
 # Audiences erstellen {#create-audiences}
 
-Mit Campaign Web können Sie Workflows erstellen, in denen Sie bestehende Audiences in einer visuellen Arbeitsfläche kombinieren können. Durch die Integration verschiedener Workflow-Aktivitäten wie Aufspaltung oder Ausschließen können Sie neue und erweiterte Zielgruppen erstellen.
+
+>[!CONTEXTUALHELP]
+>id="acw_audiences_create_settings"
+>title="Zielgruppeneinstellungen"
+>abstract="Geben Sie den Namen der Audience und zusätzliche Optionen ein."
+
+Mit Campaign Web können Sie Workflows erstellen, in denen Sie bestehende Audiences in einer visuellen Arbeitsfläche kombinieren können. Durch die Integration verschiedener Workflow-Aktivitäten, z. B. **Aufspaltung** oder **Ausschließen** können Sie neue und eingegrenzte Zielgruppen erstellen.
 
 Nachdem Sie Ihren Workflow erstellt haben, werden die resultierenden Zielgruppen automatisch im Campaign Web gespeichert und mit den bereits vorhandenen gespeichert. Diese Zielgruppen können dann in Kampagnen oder eigenständigen Sendungen ausgewählt werden.
 

@@ -3,9 +3,9 @@ audience: end-user
 title: Verwendung der Workflow-Aktivität „Anreicherung“
 description: Erfahren Sie, wie Sie die Workflow-Aktivität „Anreicherung“ verwenden.
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: 4b005f3feb70b8c5cf0f4cd9c5ba54547bd9261a
 workflow-type: tm+mt
-source-wordcount: '625'
+source-wordcount: '658'
 ht-degree: 100%
 
 ---
@@ -14,9 +14,17 @@ ht-degree: 100%
 # Anreicherung  {#enrichment}
 
 >[!CONTEXTUALHELP]
+>id="acw_orchestration_enrichment"
+>title="Aktivität „Anreicherung“"
+>abstract="Die Aktivität der **Anreicherung** ist eine **Zielgruppenbestimmungs-Aktivität**. Sie ermöglicht Ihnen, die Zielgruppendaten um zusätzliche Informationen aus der Datenbank zu erweitern. Sie wird in einem Workflow häufig nach den Segmentierungsaktivitäten verwendet."
+
+
+>[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment_data"
 >title="Aktivität „Anreicherung“"
 >abstract="Die Aktivität „Anreicherung“ ermöglicht es Ihnen, die Zielgruppendaten um zusätzliche Informationen aus der Datenbank zu erweitern. Sie wird in einem Workflow häufig nach den Zielgruppenbestimmungs-Aktivitäten verwendet.<br/>Nachdem Anreicherungsdaten zum Workflow hinzugefügt wurden, können sie in den Aktivitäten verwendet werden, die nach der Aktivität „Anreicherung“ hinzugefügt wurden, um Kundinnen und Kunden basierend auf ihren Verhaltensweisen, Voreinstellungen und Anforderungen in verschiedene Gruppen zu unterteilen oder um personalisierte Marketing-Nachrichten und -Kampagnen zu erstellen, die Ihre Zielgruppe mit größerer Wahrscheinlichkeit ansprechen."
+
+
 
 Die Aktivität der **Anreicherung** ist eine **Zielgruppenbestimmungs-Aktivität**. Sie ermöglicht Ihnen, die Zielgruppendaten um zusätzliche Informationen aus der Datenbank zu erweitern. Sie wird in einem Workflow häufig nach den Segmentierungsaktivitäten verwendet.
 

@@ -3,10 +3,10 @@ audience: end-user
 title: Verwenden der Workflow-Aktivität „Kombinieren“.
 description: Erfahren Sie, wie Sie die Workflow-Aktivität „Kombinieren“ verwenden.
 badge: label="Beta"
-source-git-commit: 74e64ded74db7aa69a059b785a8b29387c446648
+source-git-commit: 4b005f3feb70b8c5cf0f4cd9c5ba54547bd9261a
 workflow-type: tm+mt
-source-wordcount: '829'
-ht-degree: 80%
+source-wordcount: '891'
+ht-degree: 82%
 
 ---
 
@@ -89,6 +89,12 @@ Im **Kombinieren** -Aktivität, können Sie eine **Schnittmenge**. Gehen Sie daz
 >id="acw_orchestration_combine_sets"
 >title="Sets auswählen, die kombiniert werden sollen"
 >abstract="Wählen Sie im Abschnitt **Zusammenzuführende Mengen** die **Hauptmenge** aus den eingehenden Transitionen. Dies ist die Menge, aus der Elemente ausgeschlossen werden. Die anderen Mengen stimmen mit Elementen überein, bevor sie aus der Primärmenge ausgeschlossen werden."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_combine_exclusion"
+>title="Ausschluss  Regeln"
+>abstract="Bei Bedarf können die eingehenden Tabellen angepasst werden. Um eine Zielgruppe aus einer anderen Dimension auszuschließen, muss diese Zielgruppe tatsächlich auf dieselbe Zielgruppendimension wie die Hauptzielgruppe zurückgesetzt werden. Klicken Sie dazu im Abschnitt „Ausschlussregeln“ auf „Regel hinzufügen“ und geben Sie die Bedingungen für die Dimensionsänderung an. Die Datenabstimmung wird entweder über ein Attribut oder einen Join durchgeführt."
+
 
 
 Im **Kombinieren** -Aktivität, können Sie eine **Ausschluss**. Gehen Sie dazu wie folgt vor:
