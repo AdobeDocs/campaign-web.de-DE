@@ -2,10 +2,10 @@
 title: Limits und Einschränkungen in der Web-Benutzeroberfläche von Campaign
 description: Limits und Einschränkungen in der Web-Benutzeroberfläche von Campaign
 badge: label="Beta"
-source-git-commit: f286fa73d0d2643dbe9b2887a59b33c15bd2bb03
+source-git-commit: 29fbfa9bb802ba1dff26dee8898fcb728309983d
 workflow-type: tm+mt
-source-wordcount: '550'
-ht-degree: 7%
+source-wordcount: '586'
+ht-degree: 6%
 
 ---
 
@@ -60,10 +60,21 @@ Die Positionierung der Knoten wird bei jedem Hinzufügen oder Entfernen einer Ak
 
 Bei der Auswahl der Zielgruppe eines Versands oder beim Erstellen einer Zielgruppe in einem Workflow stehen in dieser Produktversion einige vordefinierte Filter nicht in der Benutzeroberfläche zur Verfügung.
 
-Eine spezifische Fehlermeldung wird angezeigt. Auch wenn Sie die grafische Darstellung der Abfrage im Regel-Builder nicht anzeigen und den Filter nicht bearbeiten können, können Sie ihn dennoch verwenden und die Filterbedingungen sowie die Ergebnisse anzeigen. Sie können auch auf die SQL-Abfrage zugreifen, um die genauen Einstellungen zu überprüfen.
+Eine spezifische Fehlermeldung wird angezeigt.
 
 ![](assets/filter-unavailable.png){width="70%" align="left"}
 
+Selbst wenn Sie die grafische Darstellung der Abfrage im Rule Builder nicht anzeigen und den Filter nicht bearbeiten können, können Sie ihn dennoch verwenden und die Filterbedingungen im **Attribute** des Bildschirms.
+
+![](assets/rule-view-results.png){width="70%" align="left"}
+
+Sie können auch auf die SQL-Abfrage zugreifen, um die genauen Einstellungen zu überprüfen. Klicken Sie dazu auf die Schaltfläche **Codeansicht** Schaltfläche.
+
+![](assets/rule-code-view.png){width="70%" align="left"}
+
+Klicken Sie auf **berechnen** -Schaltfläche, um zu überprüfen, wie viele Elemente den Kriterien des Filters entsprechen. Verwenden Sie die **Ergebnisse anzeigen** -Schaltfläche, um diese Elemente anzuzeigen.
+
+![](assets/rule-view-results.png){width="70%" align="left"}
 
 Beachten Sie, dass beim Erstellen eines Filters in der Web-Oberfläche und dessen Änderung in der Konsole mit nicht unterstützten Attributen die grafische Darstellung nicht mehr in der Web-Oberfläche verfügbar sein kann. In jedem Fall können Sie den Filter weiterhin verwenden.
 

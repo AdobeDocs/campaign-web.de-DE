@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 badge: label="Beta"
-source-git-commit: 332e4963e7124c36d2cefa91156372c4773c633b
+source-git-commit: 29fbfa9bb802ba1dff26dee8898fcb728309983d
 workflow-type: tm+mt
 source-wordcount: '786'
 ht-degree: 4%
@@ -31,7 +31,7 @@ Sie können vorhandene integrierte Filter verwenden, um auf einen bestimmten Tei
 
 ![](assets/predefined-filters-menu.png)
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >In dieser Produktversion sind beim Erstellen von Regeln, beim Auswählen der Zielgruppe eines Versands oder beim Erstellen einer Zielgruppe in einem Workflow einige vordefinierte Filter nicht in der Benutzeroberfläche verfügbar. Sie können sie weiterhin verwenden. [Weitere Informationen](guardrails.md#predefined-filters-filters-guardrails-limitations)
 
