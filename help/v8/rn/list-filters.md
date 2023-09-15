@@ -4,10 +4,10 @@ title: Neue Funktionen in Campaign Web v8
 description: Entdecken Sie neue Funktionen von Campaign Web v8.
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
-workflow-type: ht
+source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
+workflow-type: tm+mt
 source-wordcount: '506'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -64,9 +64,9 @@ Bestehende Campaign-Benutzende sollten beachten, dass einige Konzepte entspreche
 * Die E-Mail-Vorschau ist jetzt über die Schaltfläche **Inhalt simulieren** verfügbar
 * Listen heißen jetzt **Audiences**
 
-## Einschränkungen{#limitations-alpha}
+## Einschränkungen{#limitations-beta}
 
-Für diese Alpha-Version gelten die folgenden Einschränkungen:
+Die folgenden Einschränkungen gelten für diese Beta-Version:
 
 * Die einzigen bearbeitbaren Objekte sind Sendungen, Kampagnen, Workflows, Zielgruppen und Vorlagen. Alle weiteren sind schreibgeschützt. Verwenden Sie Filter, um alle zu durchsuchen.
 * Zielgruppen können nicht für die zukünftige Verwendung gespeichert werden.

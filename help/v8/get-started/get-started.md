@@ -4,10 +4,10 @@ title: Erste Schritte mit Campaign v8 Web
 description: Erste Schritte mit Campaign v8 Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 badge: label="Beta"
-source-git-commit: 351b60464d8623c34dea2c19bf86b2fa7b4fa45a
+source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
 workflow-type: tm+mt
 source-wordcount: '493'
-ht-degree: 94%
+ht-degree: 90%
 
 ---
 
@@ -32,7 +32,7 @@ Wenn Sie auf Campaign v8-Funktionen zugreifen müssen, die nicht in der Web-Benu
 
 >[!NOTE]
 >
->Campaign v8 Web befindet sich derzeit in der Alpha-Version. Der Zugriff ist auf eine kleine Gruppe von Alpha-Kunden beschränkt. Beachten Sie, dass sich die Produktoberfläche, die Funktionen und die Nutzungsflüsse ohne Vorankündigung ändern können.
+>Campaign v8 Web befindet sich derzeit in der Beta-Version. Der Zugriff ist auf eine kleine Gruppe von Beta-Kunden beschränkt. Beachten Sie, dass sich die Produktoberfläche, die Funktionen und die Nutzungsflüsse ohne Vorankündigung ändern können.
 
 ## Herstellen einer Verbindung zu Campaign
 

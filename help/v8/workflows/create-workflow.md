@@ -4,9 +4,9 @@ title: Erstellen von Workflows mit Adobe Campaign Web
 description: Erfahren Sie, wie Sie einen Workflow mit Adobe Campaign Web erstellen
 badge: label="Beta"
 exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
-source-git-commit: 2afec0260566c2393c96063037adbf1902497289
+source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: '753'
 ht-degree: 8%
 
 ---
@@ -51,6 +51,12 @@ Gehen Sie dazu wie folgt vor:
 Ihr Workflow wurde jetzt erstellt und ist in der Liste der Workflows verfügbar. Sie können jetzt auf die visuelle Arbeitsfläche zugreifen und mit dem Hinzufügen, Konfigurieren und Orchestrieren der Aufgaben beginnen, die ausgeführt werden sollen. Erfahren Sie, wie Sie Workflow-Aktivitäten in [diese Seite](orchestrate-activities.md).
 
 ## Arbeiten mit Workflow-Vorlagen {#workflow-templates}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_template_for_campaign"
+>title="Workflow-Vorlagen"
+>abstract="Workflow-Vorlagen enthalten vorkonfigurierte Einstellungen und Aktivitäten, die zur Erstellung neuer Workflows wiederverwendet werden können."
 
 Workflow-Vorlagen enthalten vorkonfigurierte Einstellungen und Aktivitäten, die zur Erstellung neuer Workflows wiederverwendet werden können. Bei der Erstellung eines Workflows können Sie die Vorlage Ihres Workflows aus den Workflow-Eigenschaften auswählen. Standardmäßig wird eine leere Vorlage bereitgestellt.
 

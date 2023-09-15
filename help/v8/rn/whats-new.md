@@ -4,20 +4,19 @@ title: Neue Funktionen in Campaign Web v8
 description: Entdecken Sie neue Funktionen von Campaign Web v8.
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Beta"
-source-git-commit: dc8c43868b932d956ccb8693ba2152a32c3b4011
+source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
 workflow-type: tm+mt
-source-wordcount: '895'
-ht-degree: 60%
+source-wordcount: '947'
+ht-degree: 56%
 
 ---
 
 
 # Neue Funktionen {#new}
 
-
 Wir freuen uns, die BETA-Version der Adobe Campaign-Web-Benutzeroberfläche vorstellen zu können. Unsere neueste Version enthält intuitive Funktionen, die die Erstellung personalisierter kanalübergreifender Kampagnen vereinfachen, außergewöhnliche Ergebnisse erzielen und Ihnen einen Wettbewerbsvorteil über alle Kanäle hinweg bieten.
 
-## Beta-Version{#beta-release}
+## Wichtigste Funktionen {#key-features}
 
 Diese moderne Web-Benutzeroberfläche von Campaign ist derzeit nur für **Beta-Anwendende** verfügbar und enthält die folgenden Funktionen:
 
@@ -44,51 +43,51 @@ Weitere Informationen über die neue Benutzeroberfläche finden Sie auf [dieser 
 Verwenden Sie die neue Web-Benutzeroberfläche von Campaign für Folgendes:
 
 * Erstellen personalisierter E-Mail-Inhalte mit dem E-Mail-Designer – [Weitere Informationen](../content/edit-content.md)
-* Senden Sie kanalübergreifende Kampagnen, einschließlich SMS- und Push-Benachrichtigungen.
+* Senden von kanalübergreifenden Kampagnen, einschließlich SMS- und Push-Benachrichtigungen - [Weitere Infos](../workflows/activities/channels.md)
 * Definieren von Zielgruppen mit dem Regel-Builder – [Weitere Informationen](../audience/about-audiences.md)
 * Vorschau, Testen und Senden Ihrer E-Mail-Nachrichten – [Weitere Informationen](../monitor/prepare-send.md)
 * Überwachen, Senden und Messen von Ergebnissen mit integrierten Berichten – [Weitere Informationen](../reporting/delivery-reports.md)
 
 
-## Neueste Aktualisierungen
+## Beta-Versionsupdates {#beta-release}
 
-**Beta-Zusammenfassung**
+Die wichtigsten Funktionen von Campaign Web Beta sind unten aufgeführt.
 
-* Aktivieren der Datenzusammensetzung (federt) für Zielgruppen und Personalisierung
-* Verwenden der KI-Technologie zur Verbesserung der Erstellung von E-Mail-Inhalten
-* Nahtlose Synchronisierung von Assets und vollständigen HTML-Vorlagen
-* Effiziente Organisation und Verwaltung von Ordnern und Ressourcen
-* Zugriff auf zusätzliche Aktivitäten wie Dimensionsänderung, Deduplizierung und wiederkehrende Sendungen zur Verbesserung der Kampagnen-Workflows
-
-**Wichtige neue Funktionen**
-
-* Mehr Kampagnen-Workflow-Aktivitäten
+* **Mehr Kampagnen-Workflow-Aktivitäten**
 
   Überlagern Sie Ihre Marketingkampagnen mit unseren erweiterten Workflow-Aktivitäten. Erschließen Sie neue Automatisierungs- und Optimierungsmöglichkeiten, um dynamischere und personalisiertere Journey zu erstellen.
 
   Von der erweiterten Segmentierung bis hin zu bedingten Triggern ermöglichen unsere zusätzlichen Workflow-Aktivitäten den Versand zielgerichteter Nachrichten und die Verbesserung der Kampagnenleistung.
 
-* Gen-KI für E-Mail-Inhalt
+  Weiterführende Informationen finden Sie in [diesem Abschnitt](../workflows/gs-workflows.md).
+
+* **Gen-KI für E-Mail-Inhalt**
 
   Verabschieden Sie sich von der manuellen Inhaltserstellung und Hallo zu effizienten, datengesteuerten Kampagnen mit der Kraft der Gen AI.  Unsere Gen-KI-Technologie nutzt fortschrittliche Algorithmen, um sehr ansprechende und personalisierte Inhalte zu generieren. Steigern Sie Öffnungsraten, Clickthrough-Raten und Konversionen mit der intelligenten Inhaltserstellung von Gen AI.
 
   Bleiben Sie dem Wettbewerb voraus und heben Sie Ihr E-Mail-Marketing-Spiel mit Gen AI auf E-Mail-Inhalt auf.
 
+  Weiterführende Informationen finden Sie in [diesem Abschnitt](../content/generative-gs.md).
 
-* Vordefinierte Filterverwaltung
+* **Vordefinierte Filter**
 
-  Einführung der vordefinierten Filterverwaltung. Die Campaign-Web-Benutzeroberfläche bietet Ihnen jetzt eine benutzerfreundliche Oberfläche, mit der Sie vordefinierte Filter mühelos verwalten und an Ihre spezifischen Anforderungen anpassen können. Erstellen Sie einmal und speichern Sie für die zukünftige Verwendung. [Weitere Informationen](../get-started/predefined-filters.md)
+  Einführung der vordefinierten Filterverwaltung. Die Campaign-Web-Benutzeroberfläche bietet Ihnen jetzt eine benutzerfreundliche Oberfläche, mit der Sie vordefinierte Filter mühelos verwalten und an Ihre spezifischen Anforderungen anpassen können. Erstellen Sie einmal und speichern Sie für die zukünftige Verwendung.
 
+  Weiterführende Informationen finden Sie in [diesem Abschnitt](../get-started/predefined-filters.md).
 
-* Zielgruppe
+* **Zielgruppe mit dem Regel-Builder**
 
   Das Erstellen einer Versandzielgruppe war nie einfacher! Mit unserem aktuellen Regel-Builder können Sie jetzt Filterkriterien für Empfänger oder eine andere Zielgruppendimension aus der Datenbank definieren. Darüber hinaus können Sie Ihre AEP (Adobe Experience Platform)-Zielgruppe nutzen, um Ihre Zielgruppe weiter zu verfeinern und die Wirkung Ihrer Kampagne zu maximieren.
 
-* Angebote mit SMS
+  Weiterführende Informationen finden Sie in [diesem Abschnitt](../audience/segment-builder.md).
+
+* **SMS mit Angeboten**
 
   Die neue Web-Benutzeroberfläche ermöglicht jetzt die Integration von Angeboten mit SMS zusätzlich zu E-Mail. Erreichen Sie Ihre Zielgruppe auf ihren Mobilgeräten, senden Sie Promotions und senden Sie rechtzeitig Benachrichtigungen.
 
   Steigern Sie Ihre Marketingbemühungen, indem Sie die Leistungsfähigkeit integrierter Angebote per SMS auf unserer erweiterten Web-Plattform nutzen.
+
+  Weiterführende Informationen finden Sie in [diesem Abschnitt](../content/offers.md).
 
 <!--
 * Adobe Experience Manager (AEM) Integration
@@ -97,6 +96,12 @@ Verwenden Sie die neue Web-Benutzeroberfläche von Campaign für Folgendes:
     
     Elevate and streamline your content management capabilities on the web UI with this integration to boost productivity.
 -->
+
+* **Knowledge Assistant bei Gen AI**
+
+  Stellen Sie Fragen und finden Sie Hinweise direkt in der Benutzeroberfläche des Produkts. Der neue KI-gestützte Wissensassistent, der in die Popup-Fenster der kontextuellen Hilfe eingebettet ist, hilft Ihnen, Ihr Know-how in Bezug auf neue Campaign-Funktionen kennenzulernen und auszubauen. Basierend auf der neuesten Produktdokumentation hilft es Ihnen, beim Erstellen Ihrer Anwendungsfälle sofort Hilfe zu erhalten und schrittweise Anleitungen zu erhalten.
+
+  Weiterführende Informationen finden Sie in [diesem Abschnitt](../get-started/using-ai.md).
 
 
 ## Übergang zur Campaign Web-Benutzeroberfläche
@@ -117,12 +122,11 @@ Bestehende Campaign-Benutzende sollten beachten, dass einige Konzepte entspreche
 * Die E-Mail-Vorschau ist jetzt über die Schaltfläche **Inhalt simulieren** verfügbar. [Weitere Informationen](../preview-test/preview-test.md)
 * Listen heißen jetzt **Zielgruppen**. [Weitere Informationen](../audience/about-audiences.md).
 
-## Einschränkungen{#limitations-alpha}
+## Einschränkungen{#limitations-beta}
 
-Für diese Alpha-Version gelten die folgenden Einschränkungen:
+Die folgenden Einschränkungen gelten für diese Beta-Version:
 
-* Bearbeitbare Objekte sind: Sendungen, Kampagnen, Workflows, Zielgruppen, Abonnementdienste, vordefinierte Filter und Vorlagen. Alle weiteren sind schreibgeschützt. Verwenden Sie Filter, um alle zu durchsuchen.
-* Zielgruppen können nicht für die zukünftige Verwendung gespeichert werden.
+* Bearbeitbare Objekte sind: Sendungen, Kampagnen, Workflows, Zielgruppen, Abonnementdienste, vordefinierte Filter und Vorlagen. Alle weiteren sind schreibgeschützt. Verwenden Sie Filter und erstellen Sie Regeln, um sie alle zu durchsuchen.
 * Die Benutzeroberfläche „Administration“ ist nicht verfügbar.
 * Reporting-Metriken (wie Öffnungen und Tracking-Daten) werden stündlich aktualisiert.
 * Die KPIs im Versand-Dashboard werden alle 5 Minuten aktualisiert. – aber die Versandvorbereitung erfolgt in Echtzeit.

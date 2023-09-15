@@ -6,14 +6,20 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 4a8513bb-8290-432a-8e40-822cd1337cb3
-source-git-commit: 2fcebcdeb11a950a7441369341b3b8ba26048cda
+source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
 workflow-type: tm+mt
-source-wordcount: '962'
+source-wordcount: '984'
 ht-degree: 93%
 
 ---
 
 # Arbeiten mit Versandvorlagen {#work-with-delivery-templates}
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_template_for_campaign"
+>title="Versandvorlagen"
+>abstract="Verwenden Sie Versandvorlagen, um das kreative Erscheinungsbild zu standardisieren und so Kampagnen schneller ausführen und starten zu können"
+
 
 Für einen beschleunigten und verbesserten Designprozess können Sie Versandvorlagen erstellen, um benutzerdefinierte Inhalte und Einstellungen in allen Ihren Kampagnen einfach wiederzuverwenden. Diese Funktion ermöglicht es Ihnen, das kreative Look-and-Feel zu standardisieren, um Kampagnen schneller durchführen und starten zu können.
 

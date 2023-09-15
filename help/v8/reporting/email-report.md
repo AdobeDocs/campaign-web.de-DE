@@ -3,10 +3,10 @@ audience: end-user
 title: E-Mail-Versandberichte
 description: Erfahren Sie, wie Sie auf E-Mail-Versandberichte zugreifen und diese verwenden können
 badge: label="Beta"
-source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
-workflow-type: ht
+source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
+workflow-type: tm+mt
 source-wordcount: '1407'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -55,7 +55,7 @@ Der **E-Mail-Versandbericht** bietet umfassende Einblicke und Daten, die speziel
 
    * **[!UICONTROL Ungültige Domain]**: Fehlertyp, der beim Senden eines Versands erzeugt wird, um anzuzeigen, dass die Domain der E-Mail-Adresse falsch ist oder nicht existiert.
 
-   * **[!UICONTROL Postfach voll]**: Fehlertyp, der nach fünf fehlgeschlagenen Zustellversuchen erzeugt wird, wenn das Postfach zu viele Nachrichten enthält.
+   * **[!UICONTROL Postfach voll]**: Fehler, der nach fünf fehlgeschlagenen Zustellversuchen erzeugt wird, wenn der Posteingang der Empfänger zu viele Nachrichten enthält.
 
    * **[!UICONTROL Account deaktiviert]**: Fehlertyp, der beim Senden eines Versands erzeugt wird, um anzuzeigen, dass die Adresse nicht mehr existiert.
 
@@ -63,7 +63,7 @@ Der **E-Mail-Versandbericht** bietet umfassende Einblicke und Daten, die speziel
 
    * **[!UICONTROL Unerreichbar]**: Fehlertyp, der in der Verteilungskette der Nachricht auftritt: Vorfall im SMTP-Relais, Domain vorübergehend unerreichbar, usw.
 
-   * **[!UICONTROL Nicht angemeldet]**: Fehlertyp, wenn das Mobiltelefon der Empfängerin bzw. des Empfängers zum Zeitpunkt des Versands ausgeschaltet war oder über keinen Netzempfang verfügte.
+   * **[!UICONTROL Nicht angemeldet]**: Fehler, wenn das Mobiltelefon des Empfängers bei Versand der Nachricht ausgeschaltet war oder über keinen Netzempfang verfügte.
 
 +++
 
@@ -83,9 +83,9 @@ Dieser Bericht enthält detaillierte Informationen zum Versanddurchsatz der gesa
 
    * **[!UICONTROL Zugestellt]**: Prozentualer Anteil der erfolgreich verarbeiteten Nachrichten im Vergleich zur Gesamtzahl der verarbeiteten Nachrichten.
 
-   * **[!UICONTROL Hardbounces]**: Prozentualer Anteil der „Hardbounces“, d. h. permanente Fehler wie etwa eine falsche E-Mail-Adresse, im Vergleich zur Gesamtzahl der verarbeiteten Nachrichten.
+   * **[!UICONTROL Hardbounces]**: Prozentualer Anteil der Hardbounces, permanenten Fehler wie eine falsche E-Mail-Adresse in Bezug auf die Gesamtzahl der verarbeiteten E-Mails.
 
-   * **[!UICONTROL Softbounces]**: Prozentualer Anteil der „Softbounces“, d. h. temporäre Fehler wie etwa ein voller Posteingang, im Vergleich zur Gesamtzahl der verarbeiteten Nachrichten
+   * **[!UICONTROL Softbounces]**: Prozentualer Anteil der Softbounces, temporäre Fehler wie einen vollständigen Posteingang in Bezug auf die Gesamtzahl der verarbeiteten E-Mails
 
    * **[!UICONTROL Öffnungen]**: Prozentualer Anteil der Zielgruppenempfängerinnen und -empfänger, die mindestens einmal eine Nachricht geöffnet haben, im Vergleich zur Gesamtzahl der erfolgreich verarbeiteten Nachrichten.
 
@@ -108,7 +108,7 @@ Dieser Bericht enthält detaillierte Informationen zum Versanddurchsatz der gesa
 
    * **[!UICONTROL Ungültige Domain]**: Fehlertyp, der beim Senden eines Versands erzeugt wird, um anzuzeigen, dass die Domain der E-Mail-Adresse falsch ist oder nicht existiert.
 
-   * **[!UICONTROL Postfach voll]**: Fehlertyp, der nach fünf fehlgeschlagenen Zustellversuchen erzeugt wird, wenn das Postfach zu viele Nachrichten enthält.
+   * **[!UICONTROL Postfach voll]**: Fehler, der nach fünf fehlgeschlagenen Zustellversuchen erzeugt wird, wenn der Posteingang der Empfänger zu viele Nachrichten enthält.
 
    * **[!UICONTROL Account deaktiviert]**: Fehlertyp, der beim Senden eines Versands erzeugt wird, um anzuzeigen, dass die Adresse nicht mehr existiert.
 
@@ -116,11 +116,13 @@ Dieser Bericht enthält detaillierte Informationen zum Versanddurchsatz der gesa
 
    * **[!UICONTROL Unerreichbar]**: Fehlertyp, der in der Verteilungskette der Nachricht auftritt: Vorfall im SMTP-Relais, Domain vorübergehend unerreichbar, usw.
 
-   * **[!UICONTROL Nicht angemeldet]**: Fehlertyp, wenn das Mobiltelefon der Empfängerin bzw. des Empfängers zum Zeitpunkt des Versands ausgeschaltet war oder über keinen Netzempfang verfügte.
+   * **[!UICONTROL Nicht angemeldet]**: Fehler, wenn das Mobiltelefon des Empfängers bei Versand der Nachricht ausgeschaltet war oder über keinen Netzempfang verfügte.
 
 +++
 
 ## Tracking-Indikatoren {#tracking-indicators-email}
+
+
 
 * **[!UICONTROL Versandstatistiken]** bieten wichtige Leistungsindikatoren (KPIs), die detaillierte Informationen zu den für gesendete E-Mails verfügbaren Daten enthalten.
 
@@ -207,6 +209,7 @@ Dieser Bericht enthält detaillierte Informationen zum Versanddurchsatz der gesa
 +++
 
 ## Tracking-Statistiken {#tracking-statistics}
+
 
 * **[!UICONTROL Tracking-Statistiken]**: Das Diagramm enthält Statistiken über Öffnungen und Klicks. Sie haben die Möglichkeit, den spezifischen Zeitrahmen für die Zielgruppendaten auszuwählen.
 

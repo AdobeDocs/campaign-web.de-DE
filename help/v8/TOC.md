@@ -5,9 +5,9 @@ title: Adobe Campaign v8 – Web-Dokumentation
 description: Web-Dokumentation zu Campaign v8
 breadcrumb-title: Übersicht über Campaign
 hide: true
-source-git-commit: bf2f38b9a484376e21b0b6ac05ac03f4044bd9c8
+source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '422'
 ht-degree: 88%
 
 ---
@@ -94,7 +94,7 @@ ht-degree: 88%
       + [Laden einer E-Mail-Zielgruppe aus einer Datei](audience/file-audience.md)
       + [Verwenden einer Adobe Experience Platform-Zielgruppe](audience/aep-audience.md)
    + [Festlegen einer Kontrollgruppe](audience/control-group.md)
-   + [Abonnement-Dienste erstellen](audience/create-service.md)
+   + [Arbeiten mit Abonnementdiensten](audience/create-service.md)
 + Cross-Channel-Kampagnen {#campaigns}
    + [Erste Schritte mit Kampagnen](campaigns/gs-campaigns.md)
    + [Zugreifen auf und Verwalten von Kampagnen](campaigns/manage-campaigns.md)
