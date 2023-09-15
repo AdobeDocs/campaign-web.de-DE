@@ -3,10 +3,10 @@ audience: end-user
 title: Verwenden der Workflow-Aktivität Planung
 description: Erfahren Sie, wie Sie die Workflow-Aktivität Planung verwenden.
 badge: label="Beta"
-source-git-commit: 74e64ded74db7aa69a059b785a8b29387c446648
+source-git-commit: 9c48a6e02eed7ac14bfa42de59932d6cbd6e8534
 workflow-type: tm+mt
-source-wordcount: '476'
-ht-degree: 27%
+source-wordcount: '499'
+ht-degree: 26%
 
 ---
 
@@ -30,6 +30,10 @@ Die **Planung** -Aktivität **Flusssteuerung** -Aktivität. Damit können Sie de
 
 ## Konfiguration
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_schedule_validity"
+>title="Gültigkeit der Planung"
+>abstract="Sie können einen Gültigkeitszeitraum für die Planung definieren. Sie kann dauerhaft sein oder bis zu einem bestimmten Datum gültig sein."
 
 Führen Sie die folgenden Schritte aus, um die **Planung** Aktivität:
 
