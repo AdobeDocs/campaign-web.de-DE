@@ -3,17 +3,17 @@ audience: end-user
 title: Verwenden der Workflow-Aktivität „Kombinieren“.
 description: Erfahren Sie, wie Sie die Workflow-Aktivität „Kombinieren“ verwenden.
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
-workflow-type: ht
-source-wordcount: '687'
-ht-degree: 100%
+source-git-commit: d5b0777ba51f595733c6b7e366d0a9a21a13d84a
+workflow-type: tm+mt
+source-wordcount: '727'
+ht-degree: 85%
 
 ---
 
 
 # Kombinieren {#combine}
 
-Diese Aktivität ermöglicht die Segmentierung Ihrer eingehenden Population. Sie können also verschiedene Populationen vereinen, einen Teil daraus ausschließen oder nur die in mehreren Zielgruppen enthaltenen Datensätze verwenden. Im Folgenden finden Sie die verfügbaren Segmentierungstypen:
+Die **Kombinieren** -Aktivität **Targeting** -Aktivität. Diese Aktivität ermöglicht die Segmentierung Ihrer eingehenden Population. Sie können also verschiedene Populationen vereinen, einen Teil daraus ausschließen oder nur die in mehreren Zielgruppen enthaltenen Datensätze verwenden. Im Folgenden finden Sie die verfügbaren Segmentierungstypen:
 
 <!--
 The **Combine** activity can be placed after any other activity, but not at the beginning of the workflow. Any activity can be placed after the **Combine**.
@@ -50,14 +50,14 @@ Führen Sie die folgenden Schritte aus, um mit der Konfiguration der Aktivität 
 >title="Abstimmoptionen für Schnittmengen"
 >abstract="Wählen Sie den Abstimmtyp aus, um den Umgang mit Duplikaten zu definieren."
 
-Für die **Vereinigung** müssen Sie den **Abstimmtyp** auswählen, um festzulegen, wie Duplikate behandelt werden:
+Im **Kombinieren** -Aktivität, können Sie eine **Vereinigung**. Dazu müssen Sie die **Abstimmtyp** zur Definition des Umgangs mit Duplikaten:
 
 * **Nur die Schlüssel** – Standardmodus; die Aktivität behält nur eines der Elemente bei, wenn mehrere aus verschiedenen eingehenden Transitionen stammende Elemente denselben Schlüssel aufweisen. Diese Option kann nur verwendet werden, wenn die eingehenden Populationen homogen sind.
 * **Auswahl an Spalten** – Wählen Sie diese Option, um die Liste der Spalten zu definieren, auf die die Datenabstimmung angewendet werden soll. Wählen Sie zunächst die die Quelldaten enthaltende Hauptmenge aus und dann die für die Herstellung der Verknüpfung zu verwendenden Spalten.
 
 ## Schnittmenge {#intersection}
 
-Für die **Schnittmenge** müssen Sie die folgenden zusätzlichen Schritte ausführen:
+Im **Kombinieren** -Aktivität, können Sie eine **Schnittmenge**. Gehen Sie dazu wie folgt vor:
 
 1. Wählen Sie den **Abstimmtyp**, um festzulegen, wie Duplikate behandelt werden. Siehe den Abschnitt [Vereinigung](#union).
 1. Sie können die Option **Komplement erzeugen** aktivieren, wenn Sie die verbleibende Population verarbeiten möchten. Das Komplement enthält die Vereinigung der Ergebnisse aller eingehenden Aktivitäten abzüglich der Schnittmenge. Der Aktivität wird daraufhin eine zusätzliche ausgehende Transition hinzugefügt.
@@ -69,7 +69,7 @@ Für die **Schnittmenge** müssen Sie die folgenden zusätzlichen Schritte ausf�
 >title="Ausschluss  Regeln"
 >abstract="Bei Bedarf können die eingehenden Tabellen angepasst werden. Um eine Zielgruppe aus einer anderen Dimension auszuschließen, muss diese Zielgruppe tatsächlich auf dieselbe Zielgruppendimension wie die Hauptzielgruppe zurückgesetzt werden. Klicken Sie dazu im Abschnitt „Ausschlussregeln“ auf „Regel hinzufügen“ und geben Sie die Bedingungen für die Dimensionsänderung an. Die Datenabstimmung wird entweder über ein Attribut oder einen Join durchgeführt."
 
-Für den **Ausschluss** müssen Sie die folgenden zusätzlichen Schritte ausführen:
+Im **Kombinieren** -Aktivität, können Sie eine **Ausschluss**. Gehen Sie dazu wie folgt vor:
 
 1. Wählen Sie im Abschnitt **Zusammenzuführende Mengen** die **Hauptmenge** aus den eingehenden Transitionen. Dies ist die Menge, aus der Elemente ausgeschlossen werden. Die anderen Mengen stimmen mit Elementen überein, bevor sie aus der Primärmenge ausgeschlossen werden.
 1. Bei Bedarf können die eingehenden Tabellen angepasst werden. Um eine Zielgruppe aus einer anderen Dimension auszuschließen, muss diese Zielgruppe tatsächlich auf dieselbe Zielgruppendimension wie die Hauptzielgruppe zurückgesetzt werden. Klicken Sie dazu im Abschnitt **Ausschlussregeln** auf **Regel hinzufügen** und geben Sie die Bedingungen für die Dimensionsänderung an. Die Datenabstimmung wird entweder über ein Attribut oder einen Join durchgeführt.
@@ -77,7 +77,7 @@ Für den **Ausschluss** müssen Sie die folgenden zusätzlichen Schritte ausfüh
 
 ## Beispiele
 
-Im folgenden Beispiel haben wir eine **Vereinigung** hinzugefügt, die alle Profile der beiden Abfragen abruft: Personen zwischen 18 und 27 Jahren und Personen zwischen 34 und 40 Jahren.
+Im folgenden Beispiel verwenden wir eine **Kombinieren** und wir fügen eine **Vereinigung** alle Profile der beiden Abfragen abzurufen: Personen zwischen 18 und 27 Jahren und Personen zwischen 34 und 40 Jahren.
 
 ![](../assets/workflow-union-example.png)
 
