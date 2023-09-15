@@ -4,10 +4,10 @@ title: Erkunden der Benutzeroberfläche
 description: Web-Benutzeroberfläche von Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 0af85ae6c368ff3e04c55e88eb5b66437294aece
+source-git-commit: a04fcf79f8c60afa9ffc7428526e36d930db34c4
 workflow-type: tm+mt
-source-wordcount: '1487'
-ht-degree: 82%
+source-wordcount: '1509'
+ht-degree: 81%
 
 ---
 
@@ -170,6 +170,9 @@ So ändern Sie Ihre Sprache:
 1. Klicken Sie dann auf den Sprach-Link, der unter Ihrer E-Mail-Adresse angezeigt wird.
 1. Wählen Sie Ihre bevorzugte Sprache aus und klicken Sie auf **Speichern**. Sie können eine zweite Sprache auswählen, falls die von Ihnen verwendete Komponente nicht in Ihrer gewählten Sprache lokalisiert ist.
 
+## Dunkles Design {#dark-theme}
+
+Sie können über Ihr Profilsymbol zum dunklen Design wechseln. Verwenden Sie die **Dunkles Thema** aktivieren/deaktivieren.
 
 ## Weitere Informationen {#learn-more}
 
