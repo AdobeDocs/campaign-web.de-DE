@@ -3,9 +3,9 @@ audience: end-user
 title: Text mit dem Inhaltsassistenten
 description: Erste Schritte mit dem Inhaltsassistenten
 badge: label="Beta"
-source-git-commit: 900d2e2870d176726ba26e98e2a1231a499c9641
+source-git-commit: c1eff2fdf8687704e2eb98a2626fdb3532d093e2
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '327'
 ht-degree: 6%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 6%
 
 # Texterstellung mit dem Inhaltsassistenten {#generative-content}
 
-Nachdem Sie Ihre E-Mails erstellt und personalisiert haben, verwenden Sie den Inhaltsassistenten, um Ihren Inhalt auf die nächste Stufe zu bringen.
+Nachdem Sie Ihre E-Mails erstellt und personalisiert haben, verwenden Sie den Inhaltsassistenten mit generativer KI, um Ihren Inhalt auf die nächste Stufe zu bringen.
 
 Der Inhaltsassistent kann Ihnen dabei helfen, die Wirkung Ihrer Sendungen zu optimieren, indem Sie verschiedene Inhalte vorschlagen, die mit größerer Wahrscheinlichkeit bei Ihrer Zielgruppe ankommen.
 
