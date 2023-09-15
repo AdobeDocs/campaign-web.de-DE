@@ -2,10 +2,10 @@
 title: Limits und Einschränkungen in der Web-Benutzeroberfläche von Campaign
 description: Limits und Einschränkungen in der Web-Benutzeroberfläche von Campaign
 badge: label="Beta"
-source-git-commit: 2ce9dc99fd88f4731ed0d5ac934e66d4934a2c02
+source-git-commit: 4b01e31edeadfa76546da1f906f5e3d2eb74ec13
 workflow-type: tm+mt
-source-wordcount: '443'
-ht-degree: 7%
+source-wordcount: '514'
+ht-degree: 6%
 
 ---
 
@@ -47,10 +47,16 @@ In der Campaign-Clientkonsole wird die **Anreicherung** -Aktivität kann sowohl 
 
 ## Vordefinierte Filter {#filters-guardrails-limitations}
 
-Bei der Auswahl der Audience eines Versands oder beim Erstellen einer Audience in einem Workflow stehen einige vordefinierte Filter nicht zur Verfügung. Eine spezifische Fehlermeldung wird angezeigt. Sie können weiterhin die Abfrage und die Anzeige verwenden: die Filterbedingung und die Ergebnisse, aber Sie können die genaue Abfrage nicht im Regel-Builder anzeigen und den Filter nicht bearbeiten.
+Bei der Auswahl der Zielgruppe eines Versands oder beim Erstellen einer Zielgruppe in einem Workflow stehen in dieser Produktversion einige vordefinierte Filter nicht in der Benutzeroberfläche zur Verfügung.
+
+Eine spezifische Fehlermeldung wird angezeigt. Auch wenn Sie die grafische Darstellung der Abfrage im Regel-Builder nicht anzeigen und den Filter nicht bearbeiten können, können Sie ihn dennoch verwenden und die Filterbedingungen sowie die Ergebnisse anzeigen. Sie können auch auf die SQL-Abfrage zugreifen, um die genauen Einstellungen zu überprüfen.
 
 ![](assets/filter-unavailable.png){width="70%" align="left"}
 
+
+Beachten Sie, dass beim Erstellen eines Filters in der Web-Oberfläche und dessen Änderung in der Konsole mit nicht unterstützten Attributen die grafische Darstellung nicht mehr in der Web-Oberfläche verfügbar sein kann. In jedem Fall können Sie den Filter weiterhin verwenden.
+
+Ununterstützte Attribute sind unten aufgeführt.
 
 ### Nicht unterstützte Datentypen {#unsupported-data-type}
 
