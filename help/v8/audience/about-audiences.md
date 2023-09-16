@@ -4,10 +4,10 @@ title: Erste Schritte mit Zielgruppen
 description: Erfahren Sie, wie Sie Audiences in der Web-Benutzeroberfläche von Campaign verwenden.
 badge: label="Beta"
 exl-id: 21bb5082-82ce-47d6-a4d4-becf44490f13
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
-workflow-type: ht
-source-wordcount: '214'
-ht-degree: 100%
+source-git-commit: a61eb527f22346c51b935e4170e1a56bed428f78
+workflow-type: tm+mt
+source-wordcount: '220'
+ht-degree: 98%
 
 ---
 
@@ -40,6 +40,7 @@ Die Zielgruppe ist das wichtigste Ziel Ihres Versands: die Empfängerinnen und E
 
 Zur Definition der Zielgruppenpopulation haben Sie folgende Möglichkeiten:
 
+* Erstellen und kombinieren Sie Zielgruppen. [Weitere Informationen](create-audience.md)
 * Wählen Sie eine vorhandene Zielgruppe aus, die als Liste in der Client-Konsole erstellt wurde. [Weitere Informationen](add-audience.md)
 * Wählen Sie eine Adobe Experience Platform-Zielgruppe aus. [Weitere Informationen](aep-audience.md)
 * Erstellen Sie mit dem Regel-Builder eine neue Zielgruppe, indem Sie Filterkriterien definieren und kombinieren. [Weitere Informationen](segment-builder.md)
