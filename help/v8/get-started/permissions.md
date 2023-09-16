@@ -3,16 +3,15 @@ audience: end-user
 title: Berechtigungsverwaltung in Campaign Web
 description: Erfahren Sie mehr über Berechtigungen in Campaign Web v8
 badge: label="Beta"
-source-git-commit: 3cd540af6ccccdecc4d41983d4d11ffb1ea72c43
+source-git-commit: dce8351463f898ccf02816a521d9db3f80ce3dbc
 workflow-type: tm+mt
-source-wordcount: '473'
-ht-degree: 33%
+source-wordcount: '604'
+ht-degree: 45%
 
 ---
 
 
 # Zugriff und Berechtigungen {#access-and-permissions}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_explorer_permissions_create"
@@ -20,6 +19,38 @@ ht-degree: 33%
 >abstract="Ihr Administrator muss Ihnen die Berechtigung erteilen, bevor Sie dieses Objekt erstellen können."
 
 
+>[!CONTEXTUALHELP]
+>id="acw_audiences_read_only"
+>title="Diese Zielgruppe ist schreibgeschützt"
+>abstract="Sie sind nicht berechtigt, diese Zielgruppe zu bearbeiten. Bei Bedarf Admin kontaktieren, um Zugriff zu erhalten."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_subscription_services_read_only"
+>title="Dieser Service ist schreibgeschützt"
+>abstract="Keine Berechtigung, diesen Service zu bearbeiten. Bei Bedarf Admin kontaktieren, um Zugriff zu erhalten."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_read_only"
+>title="Diese Kampagne ist schreibgeschützt"
+>abstract="Keine Berechtigung, diese Kampagne zu bearbeiten. Bei Bedarf Admin kontaktieren, um Zugriff zu erhalten."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_read_only"
+>title="Dieser Versand ist schreibgeschützt"
+>abstract="Keine Berechtigung, diesen Versand zu bearbeiten. Bei Bedarf Admin kontaktieren, um Zugriff zu erhalten."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_wf_read_only"
+>title="Dieser Workflow ist schreibgeschützt"
+>abstract="Keine Berechtigung, diesen Workflow zu bearbeiten. Bei Bedarf Admin kontaktieren, um Zugriff zu erhalten."
+
+>[!CONTEXTUALHELP]
+>id="acw_wf_read_only_canvas"
+>title="Dieser Workflow ist schreibgeschützt"
+>abstract="Dieser Workflow kann aufgrund einer nicht unterstützten oder nicht kompatiblen Arbeitsfläche nicht bearbeitet werden."
 
 Die Zugriffskontrolle kann den Zugriff auf Objekte und Daten aus Hauptlisten, wie Sendungen, Empfängerinnen bzw. Empfänger oder Workflows, einschränken. Diese Einschränkungen gelten auch für die Navigationsstruktur des Explorers. Darüber hinaus benötigen Sie Berechtigungen zum Erstellen, Löschen, Duplizieren und Bearbeiten von Objekten über die Benutzeroberfläche.
 
@@ -30,7 +61,6 @@ Wenn Sie die Campaign-Webbenutzeroberfläche durchsuchen, können Sie abhängig 
 ## Berechtigungen anzeigen {#view-permissions}
 
 Aus dem **Explorer** können Sie die Berechtigungen für die einzelnen Ordner durchsuchen. Diese Berechtigungen werden in der Clientkonsole festgelegt und zum Organisieren und Steuern des Zugriffs auf Campaign-Daten verwendet.
-
 
 Gehen Sie wie folgt vor, um Berechtigungen für einen Ordner anzuzeigen:
 

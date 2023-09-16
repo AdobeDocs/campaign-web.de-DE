@@ -3,20 +3,15 @@ audience: end-user
 title: Zielgruppen überwachen und verwalten
 description: Erfahren Sie, wie Sie Zielgruppen im Adobe Campaign Web überwachen und verwalten.
 badge: label="Beta"
-source-git-commit: 4924653e67f77a2108574e743c9016c6fc95a7e6
+source-git-commit: dce8351463f898ccf02816a521d9db3f80ce3dbc
 workflow-type: tm+mt
-source-wordcount: '262'
-ht-degree: 9%
+source-wordcount: '239'
+ht-degree: 7%
 
 ---
 
 
 # Zielgruppen überwachen und verwalten {#create-audiences}
-
->[!CONTEXTUALHELP]
->id="acw_audiences_read_only"
->title="Diese Zielgruppe ist schreibgeschützt"
->abstract="Sie sind nicht berechtigt, diese Zielgruppe zu bearbeiten. Bei Bedarf Admin kontaktieren, um Zugriff zu erhalten."
 
 Die Liste der Zielgruppen, die im Campaign Web verwendet werden können, ist über den Link **[!UICONTROL Zielgruppen]** Menü.
 
