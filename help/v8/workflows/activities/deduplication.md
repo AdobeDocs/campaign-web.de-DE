@@ -3,10 +3,10 @@ audience: end-user
 title: Workflow-Aktivität "Deduplizierung" verwenden
 description: Erfahren Sie, wie Sie die Workflow-Aktivität Deduplizierung verwenden.
 badge: label="Beta"
-source-git-commit: 73387436eeb67645a7ba1fc48ffd13a22a739259
+source-git-commit: bf98ca98510f51fb7496a380f6547b0d3e954006
 workflow-type: tm+mt
-source-wordcount: '279'
-ht-degree: 29%
+source-wordcount: '353'
+ht-degree: 24%
 
 ---
 
@@ -22,13 +22,13 @@ ht-degree: 29%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_complement"
->title="Deduplizierungskomplement"
->abstract="Noch nicht definiert"
+>title="Komplement erzeugen"
+>abstract="Sie können eine zusätzliche ausgehende Transition mit der verbleibenden Population generieren, die als Duplikat ausgeschlossen wurde. Schalten Sie dazu die Option **Komplement erzeugen** ein"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_settings"
 >title="Deduplizierungseinstellungen"
->abstract="Noch nicht definiert"
+>abstract="Um Duplikate in den eingehenden Daten zu löschen, definieren Sie die Deduplizierungsmethode in den unten stehenden Feldern. Standardmäßig wird nur ein Datensatz beibehalten. Sie sollten auch die Deduplizierungsmethode anhand eines Ausdrucks oder Attributs auswählen. Standardmäßig wird der Datensatz, der nicht aus den Duplikaten bestehen soll, zufällig ausgewählt."
 
 Die **Deduplizierung** -Aktivität **Targeting** -Aktivität. Mithilfe dieser Aktivität lassen sich Dubletten in Ergebnissen aus eingehenden Aktivitäten löschen. Die **Deduplizierung** -Aktivitäten werden im Allgemeinen im Anschluss an Zielgruppenbestimmungsaktivitäten und vor Aktivitäten verwendet, die die Verwendung von Zieldaten ermöglichen.
 
