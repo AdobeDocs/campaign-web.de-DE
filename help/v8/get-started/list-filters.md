@@ -3,10 +3,10 @@ audience: end-user
 title: Durchsuchen, Suchen und Filtern von Listen
 description: Erfahren Sie, wie Sie Listen in Campaign Web v8 durchsuchen und filtern
 badge: label="Beta"
-source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
+source-git-commit: f9c780b5e832badb64ec0ee0a3514769c3e49b1e
 workflow-type: tm+mt
-source-wordcount: '415'
-ht-degree: 100%
+source-wordcount: '412'
+ht-degree: 98%
 
 ---
 
@@ -64,7 +64,7 @@ Verwenden Sie den Umschalter **Erweiterte Attribute anzeigen**, um alle Attribut
 >[!CONTEXTUALHELP]
 >id="acw_attributepicker_advancedfields"
 >title="Anzeigen von erweiterten Attributen"
->abstract="In der Attributliste werden standardmäßig nur die häufigsten Attribute angezeigt. Diesen Umschalter verwenden, um einen Filter mit erweiterten Attributen zu erstellen."
+>abstract="In der Attributliste werden standardmäßig nur die häufigsten Attribute angezeigt. Verwenden Sie diesen Umschalter, um erweiterte Attribute anzuzeigen."
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_advancedfields"
