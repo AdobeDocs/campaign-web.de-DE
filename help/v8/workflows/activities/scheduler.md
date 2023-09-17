@@ -3,10 +3,10 @@ audience: end-user
 title: Verwenden der Workflow-Aktivität Planung
 description: Erfahren Sie, wie Sie die Workflow-Aktivität Planung verwenden.
 badge: label="Beta"
-source-git-commit: 9c48a6e02eed7ac14bfa42de59932d6cbd6e8534
+source-git-commit: 173141ec198b4d451a7b388f0e28a29230a11396
 workflow-type: tm+mt
-source-wordcount: '499'
-ht-degree: 26%
+source-wordcount: '519'
+ht-degree: 25%
 
 ---
 
@@ -15,9 +15,9 @@ ht-degree: 26%
 
 
 >[!CONTEXTUALHELP]
->id="acw_orchestration_schedule_options"
+>id="acw_orchestration_scheduler"
 >title="Planungsaktivität"
->abstract="Die **Planung** -Aktivität **Flusssteuerung** -Aktivität. Damit können Sie den Beginn des Workflows planen. Diese Aktivität sollte als geplanter Start betrachtet werden. Sie kann nur als erste Aktivität des Workflows verwendet werden."
+>abstract="Die **Planung** -Aktivität können Sie den Beginn des Workflows planen. Diese Aktivität sollte als geplanter Start betrachtet werden. Sie kann nur als erste Aktivität des Workflows verwendet werden."
 
 
 Die **Planung** -Aktivität **Flusssteuerung** -Aktivität. Damit können Sie den Beginn des Workflows planen. Diese Aktivität sollte als geplanter Start betrachtet werden. Sie kann nur als erste Aktivität des Workflows verwendet werden.
@@ -33,7 +33,13 @@ Die **Planung** -Aktivität **Flusssteuerung** -Aktivität. Damit können Sie de
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_schedule_validity"
 >title="Gültigkeit der Planung"
->abstract="Sie können einen Gültigkeitszeitraum für die Planung definieren. Sie kann dauerhaft sein oder bis zu einem bestimmten Datum gültig sein."
+>abstract="Sie können einen Gültigkeitszeitraum für die Planung definieren. Er kann dauerhaft sein (Standard) oder bis zu einem bestimmten Datum gültig sein."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_schedule_options"
+>title="Planungsoptionen"
+>abstract="Definieren Sie die Häufigkeit der Planung. Er kann zu einem bestimmten Zeitpunkt, einmal oder mehrmals pro Tag, Woche oder Monat ausgeführt werden."
 
 Führen Sie die folgenden Schritte aus, um die **Planung** Aktivität:
 

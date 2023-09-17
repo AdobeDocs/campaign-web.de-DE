@@ -3,10 +3,10 @@ audience: end-user
 title: Verwenden der Workflow-Aktivität „Verzweigung“
 description: Erfahren Sie, wie Sie die Workflow-Aktivität „Verzweigung“ verwenden.
 badge: label="Beta"
-source-git-commit: 4b005f3feb70b8c5cf0f4cd9c5ba54547bd9261a
+source-git-commit: 173141ec198b4d451a7b388f0e28a29230a11396
 workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 71%
+source-wordcount: '162'
+ht-degree: 68%
 
 ---
 
@@ -16,13 +16,13 @@ ht-degree: 71%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_fork"
 >title="Verzweigung  Aktivität"
->abstract="Die **Verzweigung** -Aktivität **Flusssteuerung** -Aktivität. Sie können ausgehende Transitionen erstellen, um mehrere Aktivitäten gleichzeitig zu starten."
+>abstract="Eine **Verzweigung** erzeugt ausgehende Transitionen, um mehrere Workflow-Aktivitäten parallel zu starten."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_fork_transitions"
->title="Verzweigung  Aktivität"
->abstract="Die Aktivität „Verzweigung“ ermöglicht es Ihnen, ausgehende Transitionen zu erstellen, um mehrere Aktivitäten gleichzeitig zu starten."
+>title="Transitionen von Verzweigungsaktivitäten"
+>abstract="Standardmäßig werden zwei Transitionen mit einem **Verzweigung** -Aktivität. Klicken Sie auf **Transition hinzufügen** -Schaltfläche, um eine zusätzliche ausgehende Transition zu definieren, und geben Sie deren Titel ein."
 
 Die **Verzweigung** -Aktivität **Flusssteuerung** -Aktivität. Sie können ausgehende Transitionen erstellen, um mehrere Aktivitäten gleichzeitig zu starten.
 

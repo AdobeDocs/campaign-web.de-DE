@@ -3,10 +3,10 @@ audience: end-user
 title: Verwenden der Workflow-Aktivität „Aufspaltung“
 description: Weitere Informationen zur Verwendung der Workflow-Aktivität „Aufspaltung“
 badge: label="Beta"
-source-git-commit: 4b005f3feb70b8c5cf0f4cd9c5ba54547bd9261a
+source-git-commit: 173141ec198b4d451a7b388f0e28a29230a11396
 workflow-type: tm+mt
-source-wordcount: '654'
-ht-degree: 98%
+source-wordcount: '649'
+ht-degree: 94%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 98%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split"
 >title="Aufspaltung Aktivität"
->abstract="Die Aktivität **Aufspaltung** ist eine Aktivität zur **Zielgruppenbestimmung**, mit der eingehende Populationen basierend auf unterschiedlichen Auswahlkriterien in mehrere Teilmengen segmentieren können, z. B. Filterregeln oder Populationsgröße."
+>abstract="Die **Aufspaltung** ermöglicht die Segmentierung eingehender Populationen in mehrere Teilmengen, die auf unterschiedlichen Auswahlkriterien basieren, z. B. Filterregeln oder Populationsgröße."
 
 
 Die Aktivität **Aufspaltung** ist eine Aktivität zur **Zielgruppenbestimmung**, mit der eingehende Populationen basierend auf unterschiedlichen Auswahlkriterien in mehrere Teilmengen segmentieren können, z. B. Filterregeln oder Populationsgröße.

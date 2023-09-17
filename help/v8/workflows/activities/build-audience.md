@@ -3,10 +3,10 @@ audience: end-user
 title: Verwenden der Workflow-Aktivität „Zielgruppe erstellen“
 description: Erfahren Sie, wie Sie die Workflow-Aktivität „Zielgruppe erstellen“ verwenden.
 badge: label="Beta"
-source-git-commit: 253889459de03cf4df72be5a5fbc223588e9b86c
+source-git-commit: 173141ec198b4d451a7b388f0e28a29230a11396
 workflow-type: tm+mt
-source-wordcount: '388'
-ht-degree: 78%
+source-wordcount: '389'
+ht-degree: 77%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 78%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_build_audience"
->title="Erstellen einer Zielgruppe"
+>title="Erstellen der Zielgruppenaktivität"
 >abstract="Die **Audience erstellen** ermöglicht die Bestimmung der Audience, die in den Workflow eintreten soll. Beim Versand von Nachrichten im Rahmen eines Workflows wird die Audience der Nachricht nicht in der Kanalaktivität, sondern im **Audience erstellen** -Aktivität."
 
 

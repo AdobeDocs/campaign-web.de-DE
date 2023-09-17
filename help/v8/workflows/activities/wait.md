@@ -3,10 +3,10 @@ audience: end-user
 title: Verwenden der Workflow-Aktivität „Warten“
 description: Erfahren Sie, wie Sie die Workflow-Aktivität „Warten“ verwenden.
 badge: label="Beta"
-source-git-commit: 74e64ded74db7aa69a059b785a8b29387c446648
+source-git-commit: 173141ec198b4d451a7b388f0e28a29230a11396
 workflow-type: tm+mt
-source-wordcount: '172'
-ht-degree: 100%
+source-wordcount: '162'
+ht-degree: 91%
 
 ---
 
@@ -16,8 +16,8 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_wait"
->title="Warten"
->abstract="Die Aktivität **Warten** ist eine Aktivität zur **Flusskontrolle**. Sie wird verwendet, um einen bestimmten Zeitraum zwischen der Ausführung zweier Aktivitäten zu definieren."
+>title="Warteaktivität"
+>abstract="Die **Warten** -Aktivität wird verwendet, um die Transition von einer Aktivität zu einer anderen zu verzögern."
 
 
 Die Aktivität **Warten** ist eine Aktivität zur **Flusskontrolle**. Sie wird verwendet, um einen bestimmten Zeitraum zwischen der Ausführung zweier Aktivitäten zu definieren. Beispielsweise kann man mehrere Tage nach einer E-Mail-Versandaktivität warten, dann die während dieses Zeitraums erfolgten Öffnungen und Klicks analysieren, bevor man weitere Verarbeitungsschritte (Erinnerungs-E-Mail, Zielgruppenerstellung etc.) unternimmt.
