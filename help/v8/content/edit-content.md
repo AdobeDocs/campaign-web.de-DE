@@ -4,10 +4,10 @@ title: Bearbeiten des E-Mail-Inhalts
 description: Erfahren Sie, wie Sie den E-Mail-Inhalt in der Web-Benutzeroberfläche von Campaign bearbeiten können
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 badge: label="Beta"
-source-git-commit: d584683de8c64849e103667ee1ca0c1d24c910a6
+source-git-commit: 694fc312ddf9e31e0a4a993954b0fb8d85b64fbe
 workflow-type: tm+mt
-source-wordcount: '572'
-ht-degree: 90%
+source-wordcount: '593'
+ht-degree: 82%
 
 ---
 
@@ -20,18 +20,19 @@ ht-degree: 90%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_header"
->title="E-Mail-Parameter"
->abstract="Die Werte „Absendername“ und „Absender-E-Mail“ sind in der E-Mail-Vorlage definiert. Die Betreffzeile kann mit dem Ausdruckseditor personalisiert werden."
+>title="E-Mail-Grundeigenschaften festlegen"
+>abstract="Die **Grundlegende Details** können Sie die Adresse und Antwort-Adresse des Absenders aktualisieren und die Betreffzeile mithilfe des Ausdruckseditors definieren."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_attachment"
->title="E-Mail-Anhang"
+>title="Anhängen von Dateien an Ihre E-Mail"
 >abstract="Wählen Sie eine oder mehrere Dateien aus, die Sie Ihrer Nachricht anfügen möchten."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_options"
->title="Tracking-Optionen"
+>title="Tracking bearbeiten"
 >abstract="Standardmäßig ist für den Versand Tracking aktiviert. Sie können diese Option hier deaktivieren."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/content/design-content/message-tracking.html" text="Hinzufügen von Links und Verfolgen von Nachrichten"
 
 Der E-Mail-Bildschirm **[!UICONTROL Inhalt bearbeiten]** ermöglicht Ihnen Folgendes:
 * Definieren der grundlegenden Elemente Ihrer Nachricht, z. B. die Absenderadresse und die Betreffzeile
