@@ -6,10 +6,10 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 4a8513bb-8290-432a-8e40-822cd1337cb3
-source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
+source-git-commit: d584683de8c64849e103667ee1ca0c1d24c910a6
 workflow-type: tm+mt
-source-wordcount: '984'
-ht-degree: 93%
+source-wordcount: '1014'
+ht-degree: 89%
 
 ---
 
@@ -25,12 +25,12 @@ Für einen beschleunigten und verbesserten Designprozess können Sie Versandvorl
 
 Eine Vorlage kann Folgendes enthalten:
 
-* [Typologien](../advanced-settings/delivery-settings.md#typology)
-* Die Absenderadresse
-* Eine [Zielgruppe](../audience/about-audiences.md), einschließlich [Kontrollgruppen](../audience/control-group.md)
-* Benutzerdefinierte [Inhalte](../content/edit-content.md)
-* [Personalisierte Felder](../personalization/personalize.md) und [bedingte Inhalte](../personalization/conditions.md)
-* Links zur [Mirrorseite](../content/mirror-page.md) und [Links](../content/message-tracking.md) zur Abmeldung
+* [Typologien](../advanced-settings/delivery-settings.md#typology),
+* Die Absenderadresse,
+* Eine [Zielgruppe](../audience/about-audiences.md), einschließlich [Kontrollgruppen](../audience/control-group.md),
+* Benutzerdefinierte [Inhalte](../content/edit-content.md),
+* [Personalisierte Felder](../personalization/personalize.md) und [bedingte Inhalte](../personalization/conditions.md),
+* Links zu [Mirrorseite](../content/mirror-page.md) und Abmeldung [links](../content/message-tracking.md),
 * Andere Versandeigenschaften, z. B. die Gültigkeit der Ressource, die Parameter für erneute Versuche oder die Quarantäneeinstellungen.
 
 >[!NOTE]
@@ -160,7 +160,9 @@ Gehen Sie wie folgt vor, um eine Versandvorlage von Grund auf zu konfigurieren:
    > * [Push-Benachrichtigungs-Kanal](../push/gs-push.md)
    > * [SMS-Kanal](../sms/create-sms.md)
 
-1. Klicken Sie auf die Schaltfläche **[!UICONTROL Überprüfen]**, um Ihre Vorlage zu speichern und zu überprüfen. Sie können weiterhin alle Einstellungen bearbeiten, löschen und duplizieren.
+1. Für E-Mail-Vorlagen sind darüber hinaus erweiterte Einstellungen wie Typologieregeln und Zielgruppen-Mappings über die **[!UICONTROL Einstellungen]** Schaltfläche oben rechts im Bildschirm. [Weitere Informationen](../advanced-settings/delivery-settings.md)
+
+1. Klicken Sie auf die Schaltfläche **[!UICONTROL Überprüfen]** zum Speichern und Überprüfen Ihrer Vorlage. Sie können weiterhin alle Einstellungen bearbeiten, löschen und duplizieren.
 
 1. Testen Sie bei Bedarf das Rendering der Vorlagen. [Weitere Informationen](#test-template)
 
