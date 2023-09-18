@@ -4,7 +4,7 @@ title: Eine erste E-Mail senden
 description: Erfahren Sie, wie Sie Ihre erste E-Mail mit der Web-Benutzeroberfläche von Campaign senden.
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Beta"
-source-git-commit: d584683de8c64849e103667ee1ca0c1d24c910a6
+source-git-commit: 9ca961b9e4536f6809129a6bafd496c5c191ce43
 workflow-type: tm+mt
 source-wordcount: '1354'
 ht-degree: 71%
@@ -21,7 +21,7 @@ ht-degree: 71%
 
 Erfahren Sie, wie Sie Ihre erste E-Mail an eine bestimmte Zielgruppe senden. In diesem Anwendungsfall planen Sie den Versand einer E-Mail an Silber- und Gold-Mitglieder des Treueprogramms zu einem bestimmten Datum.
 
-Auf Basis einer vordefinierten [Designvorlage](../content/email-templates.md)enthält die E-Mail auch personalisierte Inhalte, die auf Kundenprofilattributen basieren.
+Auf Basis einer vordefinierten [Designvorlage](../content/email-sample-templates.md)enthält die E-Mail auch personalisierte Inhalte, die auf Kundenprofilattributen basieren.
 
 ## Erstellen des E-Mail-Versands {#create-email}
 
