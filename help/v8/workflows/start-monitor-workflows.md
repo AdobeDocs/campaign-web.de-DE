@@ -4,10 +4,10 @@ title: Erstellen von Workflows mit Adobe Campaign Web
 description: Erfahren Sie, wie Sie Workflows mit Adobe Campaign Web erstellen
 badge: label="Beta"
 exl-id: 8aa76369-c9f3-4c5b-9a51-101b239727e6
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
-workflow-type: ht
-source-wordcount: '519'
-ht-degree: 100%
+source-git-commit: d4326498669e190bbc0a6ec087c44ac713ae97ca
+workflow-type: tm+mt
+source-wordcount: '588'
+ht-degree: 88%
 
 ---
 
@@ -29,16 +29,27 @@ Anhand eines visuellen Flusses können Sie den Fortschritt von Zielgruppenprofil
 >
 >Sie können den visuellen Fluss mithilfe der Schaltfläche **[!UICONTROL Progression ausblenden]** in der oberen Aktionsleiste der Arbeitsfläche deaktivieren.
 
+## Workflow-Transitionen {#transitions}
+
+In Workflows werden Daten, die von einer Aktivität zur anderen über Transitionen übertragen werden, in einer temporären Arbeitstabelle gespeichert.
+
+Diese Daten können für jede Transition angezeigt werden. Wählen Sie dazu eine Transition aus, um ihre Eigenschaften auf der rechten Seite des Bildschirms zu öffnen.
+
+* Klicks **[!UICONTROL Schema-Vorschau]** , um das Schema der Arbeitstabelle anzuzeigen.
+* Klicks **[!UICONTROL Ergebnisvorschau]** um die in der ausgewählten Transition übertragenen Daten zu visualisieren.
+
+![](assets/transition.png)
+
 ## Überwachen der Aktivitätsausführung {#activities}
 
 Visuelle Indikatoren in der rechten oberen Ecke eines jeden Aktivitätsfeldes ermöglichen es, die Ausführung zu überprüfen:
 
 | Visueller Indikator | Beschreibung |
 |-----|------------|
-| ![](assets/activity-status-pending.png) | Die Aktivität wird derzeit ausgeführt. |
-| ![](assets/activity-status-orange.png) | Die Aktivität erfordert Ihre Aufmerksamkeit. Dies kann die Bestätigung eines Versands oder die Ergreifung einer notwendigen Maßnahme beinhalten. |
-| ![](assets/activity-status-red.png) | Bei der Aktivität ist ein Fehler aufgetreten. Um das Problem zu beheben, öffnen Sie die Workflow-Protokolle, um weitere Informationen zu erhalten. |
-| ![](assets/activity-status-green.png) | Die Aktivität wurde erfolgreich ausgeführt. |
+| ![](assets/activity-status-pending.png){width="70%"} | Die Aktivität wird derzeit ausgeführt. |
+| ![](assets/activity-status-orange.png){width="70%"} | Die Aktivität erfordert Ihre Aufmerksamkeit. Dies kann die Bestätigung eines Versands oder die Ergreifung einer notwendigen Maßnahme beinhalten. |
+| ![](assets/activity-status-red.png){width="70%"} | Bei der Aktivität ist ein Fehler aufgetreten. Um das Problem zu beheben, öffnen Sie die Workflow-Protokolle, um weitere Informationen zu erhalten. |
+| ![](assets/activity-status-green.png){width="70%"} | Die Aktivität wurde erfolgreich ausgeführt. |
 
 ## Überwachen der Protokolle und Aufgaben {#logs-tasks}
 
