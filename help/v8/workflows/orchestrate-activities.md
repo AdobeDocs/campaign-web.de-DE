@@ -3,10 +3,10 @@ audience: end-user
 title: Erstellen von Workflows mit Adobe Campaign Web
 description: Erfahren Sie, wie Sie Workflows mit Adobe Campaign Web erstellen
 badge: label="Beta"
-source-git-commit: 72faa94a1a63042f6a275ca3252ad0fa5b57e51c
+source-git-commit: a71bb945a9206c73043235b05732ec83ee851ca6
 workflow-type: tm+mt
-source-wordcount: '625'
-ht-degree: 82%
+source-wordcount: '633'
+ht-degree: 81%
 
 ---
 
@@ -40,7 +40,7 @@ Um eine Aktivität zu entfernen, wählen Sie sie auf der Arbeitsfläche aus und 
 Beim Hinzufügen von Aktivitäten sind im Eigenschaftenbereich Aktionsschaltflächen verfügbar, mit denen Sie mehrere Vorgänge ausführen können. Sie haben folgende Möglichkeiten:
 
 * **Löschen** die Aktivität von der Arbeitsfläche aus.
-* **Deaktivieren/Aktivieren** die Aktivität. Wenn der Workflow ausgeführt wird, werden deaktivierte Aktivitäten nicht ausgeführt und der Workflow wird angehalten?
+* **Deaktivieren/Aktivieren** die Aktivität. Wenn der Workflow ausgeführt wird, werden deaktivierte Aktivitäten und die folgenden Aktivitäten auf demselben Pfad nicht ausgeführt und der Workflow wird angehalten.
 * **Kopieren** die Aktivität. Sie können sie dann in einen beliebigen Workflow einfügen, indem Sie auf die Schaltfläche &quot;+&quot; in einer Transition klicken und &quot;Aktivität einfügen 1&quot;auswählen.
 * Auf die Aktivität zugreifen **Protokolle und Aufgaben**.
 * **Anhalten/Fortsetzen** die Aktivität. Wenn der Workflow ausgeführt wird, wird er mit der angehaltenen Aktivität angehalten. Die entsprechende Aufgabe sowie alle im selben Pfad folgenden Aufgaben werden nicht ausgeführt.
