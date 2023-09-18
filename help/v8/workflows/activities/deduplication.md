@@ -3,23 +3,20 @@ audience: end-user
 title: Workflow-Aktivität "Deduplizierung" verwenden
 description: Erfahren Sie, wie Sie die Workflow-Aktivität Deduplizierung verwenden.
 badge: label="Beta"
-source-git-commit: 253889459de03cf4df72be5a5fbc223588e9b86c
+source-git-commit: d9273f383e2301ea761ac67eeb47f6d9fd769d44
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 22%
+source-wordcount: '427'
+ht-degree: 21%
 
 ---
 
 
 # Deduplizierung {#deduplication}
 
-<!--
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_fields"
->title="Fork activity"
->abstract="The Deduplication activity allows you to..."
--->
-
+>title="Deduplizierung Attribute"
+>abstract="Auf diese Weise können Sie die Felder angeben, für die die Duplikate identifiziert werden können (E-Mail-Adresse, Vorname, Nachname etc.). In der Reihenfolge der Felder können Sie angeben, welche Felder zuerst verarbeitet werden sollen."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication"

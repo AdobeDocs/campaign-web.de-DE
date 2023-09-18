@@ -3,10 +3,10 @@ audience: end-user
 title: Erste Schritte mit Kampagnen
 description: Erfahren Sie, wie Sie mit kanalübergreifenden Kampagnen beginnen
 badge: label="Beta"
-source-git-commit: 2afec0260566c2393c96063037adbf1902497289
+source-git-commit: d9273f383e2301ea761ac67eeb47f6d9fd769d44
 workflow-type: tm+mt
-source-wordcount: '468'
-ht-degree: 93%
+source-wordcount: '451'
+ht-degree: 90%
 
 ---
 
@@ -27,7 +27,7 @@ In der Kampagnenliste stehen zwei Registerkarten zur Verfügung:
 
 * Die Registerkarte **Durchsuchen** enthält alle vorhandenen Kampagnen. Sie können auf eine Kampagne klicken, um ihr Dashboard zu öffnen, oder eine neue Kampagne erstellen, indem Sie auf die Schaltfläche **Kampagne erstellen** klicken. Weitere Informationen finden Sie in [diesem Abschnitt](create-campaigns.md#create-campaigns).
 
-* Auf der Registerkarte **Vorlagen** sind alle verfügbaren Kampagnenvorlagen aufgeführt. Kampagnenvorlagen sind so vorkonfiguriert, dass sie bei der Erstellung neuer Kampagnen wiederverwendet werden können. Sie werden über die Client-Konsole erstellt. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html?lang=de)
+* Auf der Registerkarte **Vorlagen** sind alle verfügbaren Kampagnenvorlagen aufgeführt. Sie können eine vorhandene Vorlage anzeigen oder eine neue erstellen. [Weitere Informationen](manage-campaign-templates.md)
 
 ![Liste der Kampagnen](assets/campaign-list.png)
 

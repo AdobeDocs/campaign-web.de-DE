@@ -3,26 +3,24 @@ audience: end-user
 title: Workflow-Aktivität Dimensionsänderung verwenden
 description: Erfahren Sie, wie Sie die Workflow-Aktivität Dimensionsänderung verwenden
 badge: label="Beta"
-source-git-commit: 253889459de03cf4df72be5a5fbc223588e9b86c
+source-git-commit: d9273f383e2301ea761ac67eeb47f6d9fd769d44
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 25%
+source-wordcount: '191'
+ht-degree: 24%
 
 ---
 
 
-# Dimensionsänderung {#change-dimension}
+# Ändern der Dimension {#change-dimension}
 
-<!--
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_dimension_complement"
->title="Generate Complement"
->abstract="TBD"
--->
+>title="Komplement erzeugen"
+>abstract="Sie können eine zusätzliche ausgehende Transition mit der verbleibenden Population generieren, die als Duplikat ausgeschlossen wurde. Schalten Sie dazu die Option **Komplement erzeugen** ein"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_change_dimension"
->title="Dimensionsänderung Aktivität"
+>title="Dimensionsaktivität ändern"
 >abstract="Mithilfe dieser Aktivität können Sie die Zielgruppendimension beim Erstellen einer Audience ändern. Die Achse wird entsprechend der Datenvorlage und der Eingabedimension verschoben. Sie können beispielsweise von der Dimension &quot;Verträge&quot;zur Dimension &quot;Kunden&quot;wechseln."
 
 
