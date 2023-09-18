@@ -3,10 +3,10 @@ audience: end-user
 title: Arbeiten mit Abonnementdiensten
 description: Erfahren Sie, wie Sie Dienste im Adobe Campaign Web erstellen und verwalten
 badge: label="Beta"
-source-git-commit: 79fe928453af15743546a4bb28cdc992c9a2058b
+source-git-commit: 47c00b3520ea38d4afa173f8a221ae5e127dd7a9
 workflow-type: tm+mt
-source-wordcount: '931'
-ht-degree: 3%
+source-wordcount: '1019'
+ht-degree: 4%
 
 ---
 
@@ -30,7 +30,9 @@ Weiterführende Informationen zur Verwaltung von An- und Abmeldungen finden Sie 
 
 ## Anmeldedienste aufrufen {#access-services}
 
-1. Um auf die für Ihre Plattform verfügbaren Anmeldedienste zuzugreifen, navigieren Sie zu **[!UICONTROL Abonnementdienste]** in der linken Navigationsleiste.
+Gehen Sie wie folgt vor, um auf die für Ihre Plattform verfügbaren Anmeldedienste zuzugreifen.
+
+1. Navigieren Sie zum **[!UICONTROL Abonnementdienste]** in der linken Navigationsleiste.
 
    ![](assets/service-list.png)
 
@@ -54,7 +56,7 @@ Weiterführende Informationen zur Verwaltung von An- und Abmeldungen finden Sie 
 >title="Bestätigungsnachricht auswählen"
 >abstract="Wenn sich ein Benutzer für einen Dienst anmeldet oder diesen abmeldet, können Sie eine Bestätigungsnachricht senden. Wählen Sie die für diese Nachricht zu verwendenden Vorlagen aus."
 
-Gehen Sie wie folgt vor, um einen Abonnementdienst zu erstellen:
+Gehen Sie wie folgt vor, um einen Abonnementdienst zu erstellen.
 
 1. Wählen Sie die **[!UICONTROL Abonnement-Dienst erstellen]** Schaltfläche.
 
@@ -66,7 +68,7 @@ Gehen Sie wie folgt vor, um einen Abonnementdienst zu erstellen:
 
    ![](assets/service-create-properties.png)
 
-1. Standardmäßig sind Abonnements unbegrenzt. Sie können die **[!UICONTROL Unbegrenzte Gültigkeitsdauer]** -Option, um eine Gültigkeitsdauer für den Dienst festzulegen. Im folgenden Beispiel kann sich nach 20 Tagen niemand mehr für diesen Dienst anmelden.
+1. Standardmäßig sind Abonnements unbegrenzt. Sie können die **[!UICONTROL Unbegrenzte Gültigkeitsdauer]** -Option, um eine Gültigkeitsdauer für den Dienst festzulegen. Im folgenden Beispiel können sich nach 20 Tagen keine Benutzer mehr für diesen Dienst anmelden.
 
    ![](assets/service-create-validity-period.png)
 
@@ -76,13 +78,13 @@ Gehen Sie wie folgt vor, um einen Abonnementdienst zu erstellen:
 
 1. Klicks **[!UICONTROL Speichern und überprüfen]**. Der neue Dienst wird zum **[!UICONTROL Abonnementdienste]** Liste.
 
-### Bestätigungsnachricht erstellen {#create-confirmation-message}
+## Bestätigungsnachricht erstellen {#create-confirmation-message}
 
 Um den Benutzern, die sich für Ihren Dienst anmelden oder von ihm abmelden, eine Bestätigungsnachricht zu senden, müssen Sie eine Versandvorlage mit dem **[!UICONTROL Abonnements]** Zielgruppen-Mapping ohne definierte Zielgruppe. Gehen Sie dazu wie folgt vor.
 
 1. Erstellen Sie eine Versandvorlage für die Anmeldebestätigung. [Weitere Informationen dazu](../msg/delivery-template.md)
 
-1. Wählen Sie keine Zielgruppe für diesen Versand aus. Greifen Sie stattdessen auf die **[!UICONTROL Versandeinstellungen]**, navigieren Sie zu [Zielgruppe](../advanced-settings/delivery-settings.md#audience) und wählen Sie die **[!UICONTROL Abonnements]** Zielgruppen-Mapping.
+1. Wählen Sie keine Zielgruppe für diesen Versand aus. Greifen Sie stattdessen auf die **[!UICONTROL Versandeinstellungen]**, navigieren Sie zu [Zielgruppe](../advanced-settings/delivery-settings.md#audience) und wählen Sie die **[!UICONTROL Abonnements]** Zielgruppen-Mapping aus der Liste.
 
    ![](assets/service-confirmation-template-mapping.png)
 
@@ -102,7 +104,7 @@ Um den Benutzern, die sich für Ihren Dienst anmelden oder von ihm abmelden, ein
 
 Sie können diese Nachrichten jetzt auswählen, wenn [Abonnement-Dienst erstellen](#create-service). Benutzer, die diesen Dienst abonnieren oder sich von ihm abmelden, erhalten die ausgewählte Bestätigungsnachricht.
 
-## Abonnenten zu Ihrem Dienst hinzufügen
+## Abonnenten zu Ihrem Dienst hinzufügen {#add-subscribers}
 
 Nachdem Sie einen Dienst erstellt haben, können Sie Abonnenten manuell hinzufügen. Gehen Sie dazu wie folgt vor.
 
@@ -116,11 +118,27 @@ Nachdem Sie einen Dienst erstellt haben, können Sie Abonnenten manuell hinzufü
 
    ![](assets/service-subscribers-select-profiles.png)
 
-1. Die ausgewählten Empfänger erhalten das Abonnement [Bestätigungsnachricht](#create-confirmation-message) die Sie beim [Erstellen des Dienstes](#create-service). Klicks **[!UICONTROL Senden]**.
+1. Klicks **[!UICONTROL Senden]**. Die ausgewählten Empfänger erhalten das Abonnement [Bestätigungsnachricht](#create-confirmation-message) die Sie beim [Erstellen des Dienstes](#create-service).
 
    ![](assets/service-subscribers-confirmation-msg.png)
 
 Die hinzugefügten Profile werden im Abschnitt **[!UICONTROL Abonnenten]** Liste. Sie haben jetzt Ihren Dienst abonniert.
+
+## Entfernen von Abonnenten aus Ihrem Dienst {#remove-subscribers}
+
+Nachdem Sie Abonnenten zu Ihrem Dienst hinzugefügt haben, können Sie sie entfernen. Gehen Sie dazu wie folgt vor.
+
+1. Wählen Sie einen vorhandenen Dienst aus der **[!UICONTROL Abonnementdienste]** Liste.
+
+1. Klicken Sie auf das Drei-Punkte-Symbol neben dem gewünschten Empfängernamen und wählen Sie **[!UICONTROL Löschen]**.
+
+   ![](assets/service-subscribers-delete.png)
+
+1. Löschen bestätigen und auf **[!UICONTROL Senden]**. Die ausgewählten Empfänger erhalten die Abmeldung [Bestätigungsnachricht](#create-confirmation-message) die Sie beim [Erstellen des Dienstes](#create-service).
+
+   ![](assets/service-subscribers-delete-confirmation.png)
+
+Der Empfänger wird aus der **[!UICONTROL Abonnenten]** und Ihr Dienst nicht mehr abonniert hat.
 
 ## Protokolle und Berichte des Abonnementdienstes {#logs-and-reports}
 
@@ -142,7 +160,7 @@ Um die Effektivität Ihrer Abonnementdienste für SMS- und E-Mail-Kanäle zu mes
 
      ![](assets/service-reports.png)
 
-   * Die **[!UICONTROL Gesamtentwicklung der Anmeldungen]** Das Diagramm zeigt die Aufschlüsselung nach Zeitraum, einschließlich Anmeldungen, Abmeldungen, die Entwicklung der Zahlen und des Treueprozentsatzes.
+   * Die **[!UICONTROL Gesamtentwicklung der Anmeldungen]** Das Diagramm zeigt die Aufschlüsselung nach Zeitraum, einschließlich Anmeldungen, Abmeldungen, die Entwicklung der Zahlen und des Treueprozentsatzes.<!--what is Registered?-->
 
    * Verwenden Sie die **[!UICONTROL Neu laden]** -Schaltfläche, um die letzten Werte aus der Ausführung und Planung des Tracking-Workflows abzurufen.
 
