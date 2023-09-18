@@ -3,10 +3,10 @@ audience: end-user
 title: Erstellen von Workflows mit Adobe Campaign Web
 description: Erfahren Sie, wie Sie Workflows mit Adobe Campaign Web erstellen
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
-workflow-type: ht
-source-wordcount: '515'
-ht-degree: 100%
+source-git-commit: 1adcfdaaf2752173911182ac8241706f878a12a1
+workflow-type: tm+mt
+source-wordcount: '625'
+ht-degree: 82%
 
 ---
 
@@ -14,6 +14,8 @@ ht-degree: 100%
 # Orchestrieren von Aktivitäten {#orchestrate}
 
 Sobald Sie einen [Workflow](create-workflow.md) erstellt haben, sei es über das Workflow-Menü oder innerhalb einer Kampagne, können Sie mit der Orchestrierung der verschiedenen Aufgaben beginnen, die er ausführen soll. Zu diesem Zweck wird eine visuelle Arbeitsfläche bereitgestellt, über die Sie ein Workflow-Diagramm erstellen können. Innerhalb dieses Diagramms können Sie verschiedene Aktivitäten hinzufügen und sie in einer sequentiellen Reihenfolge miteinander verbinden.
+
+## Aktivitäten hinzufügen {#add}
 
 In diesem Schritt der Konfiguration wird das Diagramm mit einem Startsymbol angezeigt, das den Anfang Ihres Workflows darstellt. Um Ihre erste Aktivität hinzuzufügen, klicken Sie auf die Schaltfläche „+“, die mit dem Startsymbol verbunden ist.
 
@@ -32,6 +34,20 @@ Um eine Aktivität zu entfernen, wählen Sie sie auf der Arbeitsfläche aus und 
 >[!TIP]
 >
 >Sie haben die Möglichkeit, den Namen der Transitionen zwischen den einzelnen Aktivitäten zu personalisieren. Wählen Sie dazu die Transition aus und ändern Sie die Bezeichnung im rechten Bereich.
+
+## Aktivitäten verwalten {#manage}
+
+Beim Hinzufügen von Aktivitäten sind im Eigenschaftenbereich Aktionsschaltflächen verfügbar, mit denen Sie mehrere Vorgänge ausführen können. Sie haben folgende Möglichkeiten:
+
+* **Löschen** die Aktivität von der Arbeitsfläche aus.
+* **Deaktivieren/Aktivieren** die Aktivität. Wenn der Workflow ausgeführt wird, werden deaktivierte Aktivitäten nicht ausgeführt und der Workflow wird angehalten?
+* **Kopieren** die Aktivität. Sie können sie dann in einen beliebigen Workflow einfügen, indem Sie auf die Schaltfläche &quot;+&quot; in einer Transition klicken und &quot;Aktivität einfügen 1&quot;auswählen.
+* Auf die Aktivität zugreifen **Protokolle und Aufgaben**.
+* **Anhalten/Fortsetzen** die Aktivität. Wenn der Workflow ausgeführt wird, wird er mit der angehaltenen Aktivität angehalten. Die entsprechende Aufgabe sowie alle im selben Pfad folgenden Aufgaben werden nicht ausgeführt.
+
+![](assets/activity-action.png){width="70%"}
+
+## Beispiel {#example}
 
 Hier ist ein Beispiel für einen Workflow, der eine E-Mail an alle Kundinnen und Kunden (außer VIP) sendet, die an Kaffeemaschinen interessiert sind.
 
