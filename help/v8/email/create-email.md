@@ -4,7 +4,7 @@ title: Eine erste E-Mail senden
 description: Erfahren Sie, wie Sie Ihre erste E-Mail mit der Web-Benutzeroberfläche von Campaign senden.
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Beta"
-source-git-commit: 9ca961b9e4536f6809129a6bafd496c5c191ce43
+source-git-commit: 4fdeaacaa2998bf66b53fd93857bd14d65b98b33
 workflow-type: tm+mt
 source-wordcount: '1354'
 ht-degree: 71%
@@ -117,7 +117,7 @@ Gehen Sie wie folgt vor, um mit der Erstellung Ihres E-Mail-Inhalts zu beginnen.
 
 1. Um den Inhalt der E-Mail zu gestalten, klicken Sie auf die Schaltfläche **[!UICONTROL E-Mail-Textkörper bearbeiten]**.
 
-   Wählen Sie die Methode zur Erstellung des Inhalts Ihrer E-Mail aus. Verwenden Sie in diesem Beispiel eine [vordefinierte Inhaltsvorlage](../msg/delivery-template.md).
+   Wählen Sie die Methode zur Erstellung des Inhalts Ihrer E-Mail aus. Verwenden Sie in diesem Beispiel eine [vordefinierte Inhaltsvorlage](../content/email-sample-templates.md).
 
    ![](assets/select-template.png)
 
@@ -202,7 +202,10 @@ Nachdem Sie Ihre E-Mail geprüft und getestet haben, können Sie die Vorbereitun
 
 1. Während des Sendevorgangs können Sie seinen Fortschritt verfolgen und Statistiken in Echtzeit direkt in diesem Bildschirm einsehen.
 
-   ![](assets/sent-mail.png)
+   ![](assets/sending-email.png)
+
+   <!--
+    ![](assets/sent-email.png)-->
 
    Sie können auch detaillierte Informationen über die Sendung abrufen, indem Sie auf die Schaltfläche **[!UICONTROL Logs]** klicken. [Erfahren Sie, wie Sie Versandlogs überwachen](../monitor/delivery-logs.md)
 

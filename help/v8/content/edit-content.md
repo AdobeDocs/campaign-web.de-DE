@@ -4,10 +4,10 @@ title: Bearbeiten des E-Mail-Inhalts
 description: Erfahren Sie, wie Sie den E-Mail-Inhalt in der Web-Benutzeroberfläche von Campaign bearbeiten können
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 badge: label="Beta"
-source-git-commit: 694fc312ddf9e31e0a4a993954b0fb8d85b64fbe
+source-git-commit: 4fdeaacaa2998bf66b53fd93857bd14d65b98b33
 workflow-type: tm+mt
-source-wordcount: '593'
-ht-degree: 82%
+source-wordcount: '618'
+ht-degree: 80%
 
 ---
 
@@ -20,18 +20,18 @@ ht-degree: 82%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_header"
->title="E-Mail-Grundeigenschaften festlegen"
+>title="E-Mail-Eigenschaften festlegen"
 >abstract="Die **Grundlegende Details** können Sie die Adresse und Antwort-Adresse des Absenders aktualisieren und die Betreffzeile mithilfe des Ausdruckseditors definieren."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_attachment"
 >title="Anhängen von Dateien an Ihre E-Mail"
->abstract="Wählen Sie eine oder mehrere Dateien aus, die Sie Ihrer Nachricht anfügen möchten."
+>abstract="Wählen Sie eine oder mehrere Dateien aus, die Sie Ihrer Nachricht anfügen möchten. Zur Vermeidung von Leistungsproblemen wird empfohlen, nicht mehr als einen Anhang pro E-Mail hinzuzufügen."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_options"
 >title="Tracking bearbeiten"
->abstract="Standardmäßig ist für den Versand Tracking aktiviert. Sie können diese Option hier deaktivieren."
+>abstract="Standardmäßig ist das Tracking für den Versand aktiviert, d. h. alle im Nachrichteninhalt enthaltenen Links werden verfolgt. Sie können diese Option hier deaktivieren."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/content/design-content/message-tracking.html" text="Hinzufügen von Links und Verfolgen von Nachrichten"
 
 Der E-Mail-Bildschirm **[!UICONTROL Inhalt bearbeiten]** ermöglicht Ihnen Folgendes:
