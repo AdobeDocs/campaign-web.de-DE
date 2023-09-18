@@ -1,14 +1,14 @@
 ---
 product: campaign
 title: Arbeiten mit Versandvorlagen
-description: Erfahren Sie, wie Sie in Campaign Versandvorlagen erstellen und verwenden
+description: Erfahren Sie, wie Sie in Campaign Versandvorlagen erstellen und verwenden Web
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 4a8513bb-8290-432a-8e40-822cd1337cb3
-source-git-commit: d584683de8c64849e103667ee1ca0c1d24c910a6
+source-git-commit: 7a9e5f36bbf4f0e478d48f88cf2c96fa63517118
 workflow-type: tm+mt
-source-wordcount: '1014'
+source-wordcount: '1015'
 ht-degree: 89%
 
 ---
@@ -19,7 +19,6 @@ ht-degree: 89%
 >id="acw_delivery_template_for_campaign"
 >title="Versandvorlagen"
 >abstract="Verwenden Sie Versandvorlagen, um das kreative Erscheinungsbild zu standardisieren und so Kampagnen schneller ausführen und starten zu können"
-
 
 Für einen beschleunigten und verbesserten Designprozess können Sie Versandvorlagen erstellen, um benutzerdefinierte Inhalte und Einstellungen in allen Ihren Kampagnen einfach wiederzuverwenden. Diese Funktion ermöglicht es Ihnen, das kreative Look-and-Feel zu standardisieren, um Kampagnen schneller durchführen und starten zu können.
 

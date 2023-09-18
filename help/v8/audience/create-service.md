@@ -1,11 +1,11 @@
 ---
 audience: end-user
 title: Arbeiten mit Abonnementdiensten
-description: Erfahren Sie, wie Sie Dienste im Adobe Campaign Web erstellen
+description: Erfahren Sie, wie Sie Dienste im Adobe Campaign Web erstellen und verwalten
 badge: label="Beta"
-source-git-commit: dd8e8acb37cf9a68768c5da48335275c09d67cc8
+source-git-commit: 307d1e65850fcbdb51ca0016e4f3f30ca74997be
 workflow-type: tm+mt
-source-wordcount: '335'
+source-wordcount: '344'
 ht-degree: 0%
 
 ---
@@ -44,14 +44,13 @@ Um einen vorhandenen Dienst zu bearbeiten, klicken Sie auf seinen Namen.
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_list_properties"
->title="Eigenschaften des Anmeldedienstes"
->abstract="Geben Sie den Titel des Anmeldedienstes ein und definieren Sie zusätzliche Optionen."
+>title="Diensteigenschaften definieren"
+>abstract="Geben Sie den Titel des Anmeldedienstes ein und definieren Sie zusätzliche Optionen, z. B. einen Gültigkeitszeitraum für Ihren Dienst."
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_list_confirm"
->title="Bestätigungsnachrichten für den Abonnementdienst"
->abstract="Wenn sich ein Benutzer für einen Dienst anmeldet oder sich von einem Dienst abmeldet, können Sie eine Bestätigungsnachricht senden. Wählen Sie die für diese Nachrichten zu verwendenden Vorlagen aus."
-
+>title="Bestätigungsnachricht auswählen"
+>abstract="Wenn sich ein Benutzer für einen Dienst anmeldet oder diesen abmeldet, können Sie eine Bestätigungsnachricht senden. Wählen Sie die für diese Nachricht zu verwendenden Vorlagen aus."
 
 Gehen Sie wie folgt vor, um einen Abonnementdienst zu erstellen:
 
