@@ -3,10 +3,10 @@ audience: end-user
 title: Arbeiten mit Abonnementdiensten
 description: Erfahren Sie, wie Sie Dienste im Adobe Campaign Web erstellen und verwalten
 badge: label="Beta"
-source-git-commit: 6e48c44b7c192b0d401d75dedbac24f21ee2e78f
+source-git-commit: 79fe928453af15743546a4bb28cdc992c9a2058b
 workflow-type: tm+mt
-source-wordcount: '909'
-ht-degree: 4%
+source-wordcount: '931'
+ht-degree: 3%
 
 ---
 
@@ -158,7 +158,15 @@ Einmal [Abonnement-Dienst erstellt](#create-service), können Sie die Abonnenten
 
    ![](assets/service-audience-subscribers.png)
 
-1. Erstellen Sie eine Kampagne und wählen Sie die erstellte Zielgruppe aus.
+1. [Versand erstellen](../msg/gs-messages.md) und wählen Sie die zuvor erstellte Audience aus.
+
+   ![](assets/service-delivery-targeting-subscribers.png)
+
+1. Bearbeiten Sie den Inhalt Ihrer Nachricht nach Bedarf und senden Sie ihn.
+
+   ![](assets/service-delivery-ready.png)
+
+Ihre Nachricht wird nur an die Abonnenten dieses Dienstes gesendet.
 
 
 
