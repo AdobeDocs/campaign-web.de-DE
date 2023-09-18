@@ -3,10 +3,10 @@ audience: end-user
 title: Verwenden der Workflow-Aktivität „Zielgruppe erstellen“
 description: Erfahren Sie, wie Sie die Workflow-Aktivität „Zielgruppe erstellen“ verwenden.
 badge: label="Beta"
-source-git-commit: 2be8b4143edb720dea85dad352072028c36f0aca
+source-git-commit: d43d32f8ba6177e27f53bbe3297495cfde8cd3b9
 workflow-type: tm+mt
-source-wordcount: '488'
-ht-degree: 61%
+source-wordcount: '485'
+ht-degree: 62%
 
 ---
 
@@ -64,7 +64,7 @@ Gehen Sie wie folgt vor, um eine vorhandene Zielgruppe auszuwählen:
 
 >[!IMPORTANT]
 >
->Wenn Sie mehrere **[!UICONTROL Audience erstellen]** Aktivitäten in einem Workflow, die eine Experience Platform-Audience enthalten, müssen Sie eine **[!UICONTROL Dimensionsänderung]** Aktivität an, um sicherzustellen, dass alle Zielgruppen zur Zielgruppendimension &quot;Empfänger&quot;gehören. Unten auf dieser Seite finden Sie ein Workflow-Beispiel.
+>Wenn Sie eine **[!UICONTROL Audience erstellen]** Aktivität, die auf eine Experience Platform-Audience abzielt, müssen Sie eine **[!UICONTROL Dimensionsänderung]** -Aktivität anschließend, um sicherzustellen, dass die Zielgruppendimension der Zielgruppe auf &quot;Empfänger&quot;gesetzt ist. Unten auf dieser Seite finden Sie ein Workflow-Beispiel.
 
 ## Beispiele
 
