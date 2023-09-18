@@ -4,10 +4,10 @@ title: Bearbeiten des E-Mail-Inhalts
 description: Erfahren Sie, wie Sie den E-Mail-Inhalt in der Web-Benutzeroberfläche von Campaign bearbeiten können
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 badge: label="Beta"
-source-git-commit: 4fdeaacaa2998bf66b53fd93857bd14d65b98b33
+source-git-commit: 26c1322a17e3659301982daadc7eadb45efdd2b0
 workflow-type: tm+mt
-source-wordcount: '618'
-ht-degree: 80%
+source-wordcount: '633'
+ht-degree: 75%
 
 ---
 
@@ -39,6 +39,10 @@ Der E-Mail-Bildschirm **[!UICONTROL Inhalt bearbeiten]** ermöglicht Ihnen Folge
 * Durchführen zusätzlicher Aktionen, z. B. Hinzufügen von Anlagen oder Einrichten von Angeboten
 * Zugriff auf den [E-Mail-Designer](get-started-email-designer.md#start-authoring), um mit der Erstellung des eigentlichen Inhalts Ihrer E-Mail zu beginnen
 
+>[!NOTE]
+>
+>Alle bearbeitbaren Textfelder dieses Bildschirms können mithilfe von Personalisierungsfeldern ausgefüllt werden. [Erfahren Sie, wie Sie Inhalte personalisieren](../personalization/personalize.md)
+
 Gehen Sie wie folgt vor, um den Inhalt einer E-Mail zu konfigurieren oder zu bearbeiten.
 
 1. Klicken Sie auf die Schaltfläche **[!UICONTROL Inhalt bearbeiten]** im Bildschirm [E-Mail-Versand-Dashboard](../email/create-email.md).
@@ -69,7 +73,7 @@ Gehen Sie wie folgt vor, um den Inhalt einer E-Mail zu konfigurieren oder zu bea
 
    ![](assets/email-edit-content-reply-to.png)
 
-1. Definieren Sie den **[!UICONTROL Betreff]** der E-Mail. Geben Sie Ihren Betreff direkt in das entsprechende Feld ein oder öffnen Sie den Ausdruckseditor, um das Hinzufügen einer Personalisierung mit verschiedenen Attributen und Inhaltsbausteinen oder Angeboten vorzunehmen. [Erfahren Sie, wie Sie Inhalte personalisieren](../personalization/personalize.md)
+1. Definieren Sie den **[!UICONTROL Betreff]** der E-Mail. Geben Sie Ihren Betreff direkt in das entsprechende Feld ein oder öffnen Sie den Ausdruckseditor, um ihn hinzuzufügen. [Personalisierung](../personalization/personalize.md) Verwendung verschiedener Attribute und Inhaltsbausteine oder Angebote.
 
 1. Wenn Sie eine Datei an die E-Mail anhängen möchten, klicken Sie auf die Schaltfläche **[!UICONTROL Anlage hinzufügen]** und wählen Sie eine oder mehrere Dateien aus.
 
