@@ -4,10 +4,10 @@ title: Senden von Angeboten
 description: Senden von Angeboten
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
 badge: label="Beta"
-source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
-workflow-type: ht
-source-wordcount: '641'
-ht-degree: 100%
+source-git-commit: 9b672c3a0cc71e417a894f3d775070b13871d337
+workflow-type: tm+mt
+source-wordcount: '771'
+ht-degree: 80%
 
 ---
 
@@ -25,15 +25,19 @@ Die wichtigsten Schritte zum Einschließen von Angeboten in einen Versand sind:
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_offers_settings"
->title="Angebotseinstellungen"
->abstract="Konfigurieren Sie, welche Angebote den Empfängerinnen und Empfängern unterbreitet werden sollen."
+>title="Parameter für Angebote definieren"
+>abstract="Konfigurieren Sie, welche Angebote den Empfängern unterbreitet werden sollen, indem Sie eine Platzierung, optional eine Kategorie und ein Thema definieren und die Anzahl der Angebote angeben, die in den Versand eingefügt werden sollen."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_offers_advanced_settings"
->title="Erweiterte Einstellungen für Angebote"
->abstract="Konfigurieren Sie die erweiterten Optionen für Angebote."
+>title="Erweiterte Angebotseinstellungen festlegen"
+>abstract="Sie können den Ausschluss von Empfängern aktivieren, für die nicht genügend geeignete Angebote vorhanden sind, und festlegen, wie die Nachricht verarbeitet werden soll, falls ein Vorschlag nicht vorhanden ist."
 
-1. Um die Angebote auszuwählen, die im Rahmen des Versands unterbreitet werden sollen, klicken Sie im Bildschirm zum Bearbeiten des Versandinhalts auf die Schaltfläche **[!UICONTROL Angebote einrichten]**.
+Mit Adobe Campaign können Sie einem bestimmten Kontakt ein oder mehrere spezifische Angebote unterbreiten. Interaction-Modul, mit dem Sie während einer Interaktion mit einem bestimmten Kontakt in Echtzeit reagieren können, indem Sie ihm ein oder mehrere spezifische Angebote unterbreiten. Bei diesen Angeboten kann es sich um einfache Kommunikationsnachrichten, Sonderangebote für ein oder mehrere Produkte oder einen Service handeln.
+
+Gehen Sie wie folgt vor, um die zu Ihrem Versand hinzuzufügenden Angebote auszuwählen.
+
+1. Klicken Sie auf **[!UICONTROL Angebote einrichten]** im Bildschirm zur Inhaltsbearbeitung des Versands.
 
    ![](assets/setup-offers.png)
 
@@ -99,7 +103,7 @@ Gehen Sie wie folgt vor, um ein Angebot mit dem Ausdruckseditor einzufügen.
 
    >[!NOTE]
    >
-   >Die Anzahl der verfügbaren Vorschläge hängt von der Konfiguration des Angebotsmodul-Aufrufs ab und ihre Reihenfolge hängt von der Priorität der Angebote ab.
+   >Die Anzahl der verfügbaren Vorschläge hängt von der Konfiguration des Angebotsmodul-Aufrufs ab und ihre Reihenfolge hängt von der Priorität der Angebote ab. Weitere Informationen finden Sie unter [Dokumentation zu Campaign v8 (Clientkonsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-best-practices.html){target="_blank"}.
 
 1. Speichern Sie Ihre Änderungen.
 
