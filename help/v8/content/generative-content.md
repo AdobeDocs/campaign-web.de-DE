@@ -3,9 +3,9 @@ audience: end-user
 title: Text mit dem Inhaltsassistenten
 description: Erste Schritte mit dem Inhaltsassistenten
 badge: label="Beta"
-source-git-commit: c1eff2fdf8687704e2eb98a2626fdb3532d093e2
+source-git-commit: 54012ba8df59600298ba8f2f9bca19ea56808466
 workflow-type: tm+mt
-source-wordcount: '327'
+source-wordcount: '344'
 ht-degree: 6%
 
 ---
@@ -31,13 +31,13 @@ Der Inhaltsassistent kann Ihnen dabei helfen, die Wirkung Ihrer Sendungen zu opt
 
 1. Passen Sie den Inhalt an, indem Sie beschreiben, was Sie generieren möchten.
 
-   Aktivieren Sie die **[!UICONTROL Erweiterung mit aktuellem Inhalt]** Option für den Inhaltsassistenten, um neuen Inhalt basierend auf Ihrem Versand, dem Versandnamen und der ausgewählten Zielgruppe zu personalisieren.
+   Aktivieren Sie die **[!UICONTROL Verbesserung mit aktuellem Kontext]** Option für den Inhaltsassistenten, um neuen Inhalt basierend auf Ihrem Versand, dem Versandnamen und der ausgewählten Zielgruppe zu personalisieren.
 
    ![](assets/text-genai-3.png)
 
-1. Auswählen **[!UICONTROL Datei hochladen]** wenn Sie eine Marketing-Kurzbeschreibung hinzufügen möchten, um mehr Kontext für den Content-Assistenten zu schaffen.
+1. Auswählen **[!UICONTROL Datei hochladen]** wenn Sie ein Marken-Asset hinzufügen möchten, das Inhalte enthält, die zusätzlichen Kontext bieten können, den der Inhaltsassistent bietet.
 
-   Sie können auch auf **[!UICONTROL Hochgeladene Inhalte]** um zuvor aktualisierte Dateien zu finden.
+   Sie können auch auf **[!UICONTROL Hochgeladene Inhalte]** um zuvor aktualisierte Dateien zu finden. Beachten Sie, dass der hochgeladene Inhalt ausschließlich für die Wiederverwendung durch den aktuellen Benutzer verfügbar ist.
 
 1. Wählen Sie die **[!UICONTROL Kommunikationsstrategie]** das Ihren Bedürfnissen am besten entspricht. Dies wirkt sich auf den Ton und den Stil des generierten Textes aus.
 

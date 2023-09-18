@@ -3,9 +3,9 @@ audience: end-user
 title: Generieren von Bildern mit dem Inhaltsassistenten
 description: Erste Schritte mit dem Inhaltsassistenten
 badge: label="Beta"
-source-git-commit: c1eff2fdf8687704e2eb98a2626fdb3532d093e2
+source-git-commit: 54012ba8df59600298ba8f2f9bca19ea56808466
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: '315'
 ht-degree: 2%
 
 ---
@@ -33,9 +33,9 @@ Im folgenden Beispiel erfahren Sie, wie Sie den Inhaltsassistenten nutzen könne
 
    ![](assets/image-genai-2.png)
 
-1. Auswählen **[!UICONTROL Datei hochladen]** wenn Sie eine Marketing-Kurzbeschreibung hinzufügen möchten, um mehr Kontext für den Content-Assistenten zu schaffen.
+1. Auswählen **[!UICONTROL Datei hochladen]** wenn Sie ein Marken-Asset hinzufügen möchten, das Inhalte enthält, die zusätzlichen Kontext bieten können, den der Inhaltsassistent bietet.
 
-   Sie können auch auf **[!UICONTROL Hochgeladene Inhalte]** um zuvor aktualisierte Dateien zu finden.
+   Sie können auch auf **[!UICONTROL Hochgeladene Inhalte]** um zuvor aktualisierte Dateien zu finden. Beachten Sie, dass der hochgeladene Inhalt ausschließlich für die Wiederverwendung durch den aktuellen Benutzer verfügbar ist.
 
 1. Wählen Sie die **[!UICONTROL Seitenverhältnis]** des Assets. Dadurch wird die Breite und Höhe des Assets bestimmt.
 

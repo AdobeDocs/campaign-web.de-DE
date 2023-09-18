@@ -3,9 +3,9 @@ audience: end-user
 title: E-Mail-Generierung mit dem Inhaltsassistenten
 description: Erste Schritte mit dem Inhaltsassistenten
 badge: label="Beta"
-source-git-commit: c1eff2fdf8687704e2eb98a2626fdb3532d093e2
+source-git-commit: 54012ba8df59600298ba8f2f9bca19ea56808466
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '411'
 ht-degree: 2%
 
 ---
@@ -32,13 +32,17 @@ Mit Generative KI können Sie mühelos ansprechende E-Mails erstellen, die mit I
 
 1. Passen Sie den Inhalt an, indem Sie beschreiben, was Sie generieren möchten.
 
-   Aktivieren Sie die **[!UICONTROL Erweiterung mit aktuellem Inhalt]** Option für den Inhaltsassistenten, um neuen Inhalt basierend auf Ihrem Versand, dem Versandnamen und der ausgewählten Zielgruppe zu personalisieren.
+   Im Folgenden finden Sie einige Beispiele für Eingabeaufforderungen:
+
+   * Für einen Newsletter: Generieren Sie einen monatlichen Newsletter mit Reiseartikeln, Destination Highlights und exklusiven Abonnentenangeboten.
+   * Für Feedbacks und Umfragen: Erstellen Sie eine E-Mail, in der Kunden eingeladen werden, Feedback zu ihrer neuesten Software-Erfahrung zu geben und an einer Umfrage zur Produktverbesserung teilzunehmen.
+   * Für Geburtstags- oder Geburtstags-E-Mails: Generieren Sie eine Geburtstags-E-Mail, feiern Sie den Sondertag des Kunden und bieten Sie ihm einen Geburtstagsrabatt.
 
    ![](assets/email-genai-2.png)
 
-1. Auswählen **[!UICONTROL Datei hochladen]** wenn Sie eine Marketing-Kurzbeschreibung hinzufügen möchten, um mehr Kontext für den Content-Assistenten zu schaffen.
+1. Auswählen **[!UICONTROL Datei hochladen]** wenn Sie ein Marken-Asset hinzufügen möchten, das Inhalte enthält, die zusätzlichen Kontext bieten können, den der Inhaltsassistent bietet.
 
-   Sie können auch auf **[!UICONTROL Hochgeladene Inhalte]** um zuvor aktualisierte Dateien zu finden.
+   Sie können auch auf **[!UICONTROL Hochgeladene Inhalte]** um zuvor aktualisierte Dateien zu finden. Beachten Sie, dass der hochgeladene Inhalt ausschließlich für die Wiederverwendung durch den aktuellen Benutzer verfügbar ist.
 
 1. Wählen Sie die **[!UICONTROL Kommunikationsstrategie]** das Ihren Bedürfnissen am besten entspricht. Dies wirkt sich auf den Ton und den Stil der generierten E-Mail aus.
 
@@ -46,7 +50,7 @@ Mit Generative KI können Sie mühelos ansprechende E-Mails erstellen, die mit I
 
    ![](assets/email-genai-3.png)
 
-1. Anpassen der **[!UICONTROL Inhaltstyp]** -Einstellungen, um Ihre gewünschten Asset-Eigenschaften anzupassen.
+1. Anpassen der **[!UICONTROL Inhaltstyp]** Asset-Einstellungen, um sie Ihren gewünschten Asset-Eigenschaften anzupassen.
 
 1. Sobald die Eingabeaufforderung fertig ist, klicken Sie auf **[!UICONTROL Erzeugen]**.
 
