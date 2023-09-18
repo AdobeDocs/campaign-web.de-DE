@@ -4,7 +4,7 @@ title: Verwenden einer Adobe Experience Platform-Zielgruppe
 description: Erfahren Sie, wie Sie eine Audience aus Adobe Experience Platform verwenden
 badge: label="Beta"
 exl-id: beb73107-3d27-40ac-afef-ac2b66ae8d34
-source-git-commit: d66305f656d127f6480567462c998ab18fecbcc3
+source-git-commit: 3ea9f885511bb7d192ae9004f6257c10f163cbb5
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 97%
@@ -52,5 +52,3 @@ Gehen Sie wie folgt vor, um eine Adobe Experience Platform-Zielgruppe für Ihren
 1. Mit dem Regel-Builder können Sie Ihre Audience mit zusätzlichen Filtern oder durch die Kombination verschiedener Audiences anreichern. Weitere Informationen finden Sie in [diesem Abschnitt](segment-builder.md).
 
 1. Klicken Sie auf **Speichern**.
-
-
