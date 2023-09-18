@@ -3,10 +3,10 @@ audience: end-user
 title: Durchsuchen, Suchen und Filtern von Listen
 description: Erfahren Sie, wie Sie Listen in Campaign Web v8 durchsuchen und filtern
 badge: label="Beta"
-source-git-commit: f9c780b5e832badb64ec0ee0a3514769c3e49b1e
+source-git-commit: 8612e29aa16bce609a822e42d15e2f92a6874383
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 98%
+source-wordcount: '448'
+ht-degree: 86%
 
 ---
 
@@ -51,13 +51,15 @@ Sie können beispielsweise Sendungen nach Status, Kanal, Kontaktdatum oder Ordne
 
 ## Benutzerdefinierte Filter{#list-custom-filters}
 
-Um benutzerdefinierte Datenfilter zu erstellen, navigieren Sie zum unteren Rand der Filter und klicken Sie auf die Schaltfläche **Regeln hinzufügen**.
+Um benutzerdefinierte Datenfilter zu erstellen, navigieren Sie zum unteren Rand der Filter und klicken Sie auf die Schaltfläche **Regeln hinzufügen** -Schaltfläche, um auf den Regel-Builder zuzugreifen.
 
 Ziehen Sie auf dem Bildschirm **Erweiterte Filter** Attribute per Drag-and-Drop, um Ihre Filterkriterien zu erstellen.
 
 ![](assets/custom-filter.png){width="70%" align="left" zoomable="yes"}
 
 Verwenden Sie den Umschalter **Erweiterte Attribute anzeigen**, um alle Attribute für die aktuelle Liste anzuzeigen. [Weitere Informationen](#adv-attributes)
+
+Das Prinzip des Regel-Builders für benutzerdefinierte Filter ähnelt dem Regel-Builder, der zum Erstellen von Zielgruppen verwendet wird. Ausführliche Informationen zur Verwendung des Arzneimittels finden Sie im Abschnitt [Dokumentation zu Zielgruppen](../audience/segment-builder.md).
 
 ## Verwenden von erweiterten Attributen {#adv-attributes}
 
