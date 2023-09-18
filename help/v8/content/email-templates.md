@@ -4,7 +4,7 @@ product: campaign
 title: Arbeiten mit E-Mail-Vorlagen
 exl-id: 114c482f-8291-418a-bd81-667f40267a7d
 badge: label="Beta"
-source-git-commit: 2fcebcdeb11a950a7441369341b3b8ba26048cda
+source-git-commit: 2156ad1929e1f17abd1ceff81107fb9305943219
 workflow-type: tm+mt
 source-wordcount: '344'
 ht-degree: 88%
@@ -28,7 +28,6 @@ In den folgenden Abschnitten erfahren Sie, wie Sie Vorlagen verwenden und E-Mail
 >[!NOTE]
 >
 >E-Mail-Inhaltsvorlagen unterscheiden sich von [Versandvorlagen](../msg/delivery-template.md). Sie ermöglichen die Wiederverwendung nur von E-Mail-Inhalten, während Versandvorlagen die Wiederverwendung von Versandinhalten, aber auch von allen Versandeinstellungen und Eigenschaften wie Typologien, Absenderadressen, Zielgruppen usw. ermöglichen.
-
 
 ## Verwenden einer Vorlage {#use-templates}
 
