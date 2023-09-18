@@ -4,10 +4,10 @@ title: Erkunden der Benutzeroberfläche
 description: Web-Benutzeroberfläche von Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 9b672c3a0cc71e417a894f3d775070b13871d337
+source-git-commit: 173bed2c5651e09965a92a848b07d3368c10bb42
 workflow-type: tm+mt
-source-wordcount: '1331'
-ht-degree: 74%
+source-wordcount: '1278'
+ht-degree: 73%
 
 ---
 
@@ -172,30 +172,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Anreicherungsdaten"
 >abstract="Noch nicht definiert"
 
->[!CONTEXTUALHELP]
->id="acw_campaign_reporting_sending"
->title="Versandberichte"
->abstract="Prüfen Sie die Versandindikatoren für die Kampagnenberichte."
 
->[!CONTEXTUALHELP]
->id="acw_campaign_reporting_tracking"
->title="Tracking-Berichte"
->abstract="Prüfen Sie die Tracking-Indikatoren für die Kampagnenberichte."
-
->[!CONTEXTUALHELP]
->id="acw_campaign_reporting_deliveries_overview"
->title="Berichte – Übersicht"
->abstract="Schlüsselmetriken für den Versand."
-
->[!CONTEXTUALHELP]
->id="acw_campaign_reporting_deliveries_target"
->title="Berichte für Zielgruppenstatistiken"
->abstract="In diesem Abschnitt werden spezifische Metriken entsprechend den Zielgruppen angezeigt."
-
->[!CONTEXTUALHELP]
->id="acw_campaign_reporting_deliveries_selection"
->title="Aggregierte Berichte für Sendungen"
->abstract="Wählen Sie mindestens zwei Sendungen aus, um einen aggregierten Datenbericht anzuzeigen."
 
 >[!CONTEXTUALHELP]
 >id="acw_push_permission_for_segment"
@@ -227,8 +204,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_global_reporting_tracking"
 >title="Tracking globaler Berichte"
 >abstract="In diesem Bildschirm werden Tracking-Berichtsmetriken angezeigt"
-
-
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_workflow_list"

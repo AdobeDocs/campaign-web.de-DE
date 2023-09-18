@@ -3,14 +3,34 @@ audience: end-user
 title: Kampagnenberichte
 description: Erfahren Sie, wie Sie auf Kampagnenberichte zugreifen und diese verwenden können
 badge: label="Beta"
-source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
-workflow-type: ht
-source-wordcount: '1753'
-ht-degree: 100%
+source-git-commit: 173bed2c5651e09965a92a848b07d3368c10bb42
+workflow-type: tm+mt
+source-wordcount: '1853'
+ht-degree: 95%
 
 ---
 
 # Kampagnenberichte {#campaign-reports}
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_sending"
+>title="Versandberichte"
+>abstract="Der Tab Versand in Ihrem Bericht bietet einen umfassenden Einblick in die Interaktionen Ihrer Besucher mit Ihren Sendungen und mögliche Fehler, die bei ihnen aufgetreten sind."
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_tracking"
+>title="Tracking-Berichte"
+>abstract="Der Tab Versand innerhalb Ihres Berichts enthält wertvolle Daten, darunter das Verhalten der Empfänger pro Link, die Öffnungs- und Klickverteilung sowie detaillierte Informationen zu den am häufigsten angeklickten URLs während eines Versands."
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_deliveries_overview"
+>title="Versandübersicht"
+>abstract="Die Versandübersicht bietet wichtige Leistungsindikatoren (KPIs), die detaillierte Informationen darüber enthalten, wie Ihre Besucher mit Ihrem E-Mail-Versand interagieren."
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_deliveries_target"
+>title="Statistiken der ursprünglichen Zielgruppe"
+>abstract="In der Tabelle Statistiken der ursprünglichen Zielgruppe werden Daten zu Ihren Empfängern angezeigt"
 
 Der Kampagnenbericht ist in verschiedene Widgets unterteilt, die den Erfolg und die Fehler Ihrer Kampagne detailliert beschreiben.
 
