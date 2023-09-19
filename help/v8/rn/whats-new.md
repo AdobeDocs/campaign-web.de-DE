@@ -4,10 +4,10 @@ title: Neue Funktionen in Campaign Web v8
 description: Entdecken Sie neue Funktionen von Campaign Web v8.
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Beta"
-source-git-commit: ed12d289c1180fe8705d2c143bd9dce4ed96e313
+source-git-commit: f38c4e53275e5d5feb4d93957995dc962cefb03b
 workflow-type: tm+mt
-source-wordcount: '991'
-ht-degree: 54%
+source-wordcount: '1006'
+ht-degree: 52%
 
 ---
 
@@ -45,7 +45,7 @@ Verwenden Sie die neue Web-Benutzeroberfläche von Campaign für Folgendes:
 * Erstellen personalisierter E-Mail-Inhalte mit dem E-Mail-Designer – [Weitere Informationen](../content/edit-content.md)
 * Senden von kanalübergreifenden Kampagnen, einschließlich SMS- und Push-Benachrichtigungen - [Weitere Infos](../workflows/activities/channels.md)
 * Definieren von Zielgruppen mit dem Regel-Builder – [Weitere Informationen](../audience/about-audiences.md)
-* Vorschau, Testen und Senden Ihrer E-Mail-Nachrichten – [Weitere Informationen](../monitor/prepare-send.md)
+* Vorschau, Testen und Senden Ihrer Nachrichten - [Weitere Infos](../monitor/prepare-send.md)
 * Überwachen, Senden und Messen von Ergebnissen mit integrierten Berichten – [Weitere Informationen](../reporting/delivery-reports.md)
 
 
@@ -63,9 +63,7 @@ Die wichtigsten Funktionen von Campaign Web Beta sind unten aufgeführt.
 
 * **Gen-KI für E-Mail-Inhalt**
 
-  Verabschieden Sie sich von der manuellen Inhaltserstellung und Hallo zu effizienten, datengesteuerten Kampagnen mit der Kraft der Gen AI.  Unsere Gen-KI-Technologie nutzt fortschrittliche Algorithmen, um sehr ansprechende und personalisierte Inhalte zu generieren. Steigern Sie Öffnungsraten, Clickthrough-Raten und Konversionen mit der intelligenten Inhaltserstellung von Gen AI.
-
-  Bleiben Sie dem Wettbewerb voraus und heben Sie Ihr E-Mail-Marketing-Spiel mit Gen AI auf E-Mail-Inhalt auf.
+  Verabschieden Sie sich von der manuellen Inhaltserstellung und Hallo zu effizienten, datengesteuerten Kampagnen mit der Kraft der Gen AI.  Unsere Gen-KI-Technologie nutzt fortschrittliche Algorithmen, um sehr ansprechende und personalisierte Inhalte zu generieren. Steigern Sie Öffnungsraten, Clickthrough-Raten und Konversionen mit der intelligenten Inhaltserstellung von Gen AI. Bleiben Sie dem Wettbewerb voraus und heben Sie Ihr E-Mail-Marketing-Spiel mit Gen AI auf E-Mail-Inhalt auf. Diese Funktion wird ab Anfang Oktober verfügbar sein.
 
   Weiterführende Informationen finden Sie in [diesem Abschnitt](../content/generative-gs.md).
 
@@ -99,7 +97,7 @@ Die wichtigsten Funktionen von Campaign Web Beta sind unten aufgeführt.
 
 * **Knowledge Assistant bei Gen AI**
 
-  Stellen Sie Fragen und finden Sie Hinweise direkt in der Benutzeroberfläche des Produkts. Der neue KI-gestützte Wissensassistent, der in die Popup-Fenster der kontextuellen Hilfe eingebettet ist, hilft Ihnen, Ihr Know-how in Bezug auf neue Campaign-Funktionen kennenzulernen und auszubauen. Basierend auf der neuesten Produktdokumentation hilft es Ihnen, beim Erstellen Ihrer Anwendungsfälle sofort Hilfe zu erhalten und schrittweise Anleitungen zu erhalten.
+  Stellen Sie Fragen und finden Sie Hinweise direkt in der Benutzeroberfläche des Produkts. Der neue KI-gestützte Wissensassistent, der in die Popup-Fenster der kontextuellen Hilfe eingebettet ist, hilft Ihnen, Ihr Know-how in Bezug auf neue Campaign-Funktionen kennenzulernen und auszubauen. Basierend auf der neuesten Produktdokumentation hilft es Ihnen, beim Erstellen Ihrer Anwendungsfälle sofort Hilfe zu erhalten und schrittweise Anleitungen zu erhalten. Diese Funktion wird ab Anfang Oktober verfügbar sein.
 
   Weiterführende Informationen finden Sie in [diesem Abschnitt](../get-started/using-ai.md).
 
