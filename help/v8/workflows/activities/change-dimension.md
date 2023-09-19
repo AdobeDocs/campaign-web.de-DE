@@ -3,10 +3,10 @@ audience: end-user
 title: Workflow-Aktivität Dimensionsänderung verwenden
 description: Erfahren Sie, wie Sie die Workflow-Aktivität Dimensionsänderung verwenden
 badge: label="Beta"
-source-git-commit: 9b945dcd4151e536e8a8be904100730c86e483b7
+source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
 workflow-type: tm+mt
-source-wordcount: '205'
-ht-degree: 13%
+source-wordcount: '210'
+ht-degree: 12%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 13%
 
 Die **Dimensionsänderung** -Aktivität **Targeting** -Aktivität. Mithilfe dieser Aktivität können Sie die Zielgruppendimension beim Erstellen einer Audience ändern. Diese Aktivität verschiebt die Achse je nach Datenvorlage und der eingegebenen Dimension. Sie können beispielsweise von der Dimension &quot;Verträge&quot;zur Dimension &quot;Kunden&quot;wechseln.
 
-## Konfiguration
+## Konfigurieren der Aktivität Dimensionsänderung {#configure}
 
 Führen Sie die folgenden Schritte aus, um die **Dimensionsänderung** Aktivität:
 
@@ -37,5 +37,6 @@ Führen Sie die folgenden Schritte aus, um die **Dimensionsänderung** Aktivitä
 
 1. Führen Sie den Workflow aus, um das Ergebnis anzuzeigen. Vergleichen Sie die Daten in den Tabellen vor und nach der Dimensionsänderung-Aktivität und vergleichen Sie die Struktur der Workflow-Tabellen.
 
+## Beispiel {#example}
 
 

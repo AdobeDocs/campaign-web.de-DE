@@ -4,7 +4,7 @@ title: Neue Funktionen in Campaign Web v8
 description: Entdecken Sie neue Funktionen von Campaign Web v8.
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Beta"
-source-git-commit: 9903074ba5da52d2aedd02d60bc56f0e0df91b26
+source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
 workflow-type: tm+mt
 source-wordcount: '1007'
 ht-degree: 51%
@@ -44,7 +44,7 @@ Verwenden Sie die neue Web-Benutzeroberfläche von Campaign für Folgendes:
 
 * Erstellen personalisierter E-Mail-Inhalte mit dem E-Mail-Designer – [Weitere Informationen](../content/edit-content.md)
 * Senden von kanalübergreifenden Kampagnen, einschließlich SMS- und Push-Benachrichtigungen - [Weitere Infos](../workflows/activities/channels.md)
-* Definieren von Zielgruppen mit dem Regel-Builder – [Weitere Informationen](../audience/about-audiences.md)
+* Definieren von Zielgruppen mit dem Regel-Builder – [Weitere Informationen](../audience/about-recipients.md)
 * Vorschau, Testen und Senden Ihrer Nachrichten - [Weitere Infos](../monitor/prepare-send.md)
 * Überwachen, Senden und Messen von Ergebnissen mit integrierten Berichten – [Weitere Informationen](../reporting/delivery-reports.md)
 
@@ -124,7 +124,7 @@ Bestehende Campaign-Benutzende sollten beachten, dass einige Konzepte entspreche
 * Testadressen werden jetzt als **Testprofile** verwendet: Senden Sie die Test-E-Mail an Testadressen, bei denen es sich um zusätzliche Empfängerinnen und Empfänger in der Datenbank handelt. [Weitere Informationen](../preview-test/test-deliveries.md).
 * Die Versandanalyse heißt jetzt **Versandvorbereitung**. Wenn Sie die Nachrichtenvorbereitung starten müssen, klicken Sie auf die Schaltfläche **Vorbereiten** Schaltfläche. [Weitere Informationen](../monitor/prepare-send.md).
 * Die E-Mail-Vorschau ist jetzt über die Schaltfläche **Inhalt simulieren** verfügbar. [Weitere Informationen](../preview-test/preview-test.md)
-* Listen heißen jetzt **Zielgruppen**. [Weitere Informationen](../audience/about-audiences.md).
+* Listen heißen jetzt **Zielgruppen**. [Weitere Informationen](../audience/about-recipients.md).
 
 ## Einschränkungen{#limitations-beta}
 

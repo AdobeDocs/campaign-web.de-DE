@@ -6,7 +6,7 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 4a8513bb-8290-432a-8e40-822cd1337cb3
-source-git-commit: 2156ad1929e1f17abd1ceff81107fb9305943219
+source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
 workflow-type: tm+mt
 source-wordcount: '1020'
 ht-degree: 89%
@@ -26,7 +26,7 @@ Eine Vorlage kann Folgendes enthalten:
 
 * [Typologien](../advanced-settings/delivery-settings.md#typology),
 * Die Absenderadresse,
-* Eine [Zielgruppe](../audience/about-audiences.md), einschließlich [Kontrollgruppen](../audience/control-group.md),
+* Eine [Zielgruppe](../audience/about-recipients.md), einschließlich [Kontrollgruppen](../audience/control-group.md),
 * Benutzerdefinierte [Inhalte](../content/edit-content.md),
 * [Personalisierte Felder](../personalization/personalize.md) und [bedingte Inhalte](../personalization/conditions.md),
 * Links zu [Mirrorseite](../content/mirror-page.md) und Abmeldung [links](../content/message-tracking.md),
