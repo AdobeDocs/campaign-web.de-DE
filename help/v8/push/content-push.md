@@ -3,10 +3,10 @@ audience: end-user
 title: Erstellen eines Push-Benachrichtigungs-Versands
 description: Erfahren Sie, wie Sie einen Push-Benachrichtigungs-Versand mit Adobe Campaign Web erstellen
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
-workflow-type: ht
+source-git-commit: b29d8601b69bfec9e4b153a13dadb590f1cee9a1
+workflow-type: tm+mt
 source-wordcount: '1347'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -51,7 +51,7 @@ Im Menü **[!UICONTROL Anwendungsvariablen]** werden Ihre Anwendungsvariablen au
 
 * Die **[!UICONTROL Benachrichtigungsmeldung]** wird automatisch vom FCM SDK verarbeitet. FCM übernimmt für die Client-App automatisch das Anzeigen der Nachricht auf den Geräten Ihrer Benutzenden. Benachrichtigungsinhalte enthalten einen vordefinierten Satz von Parametern und Optionen, können aber mit benutzerspezifischen Anwendungsvariablen weiter personalisiert werden.
 
-  Um Ihre Nachricht zu verfassen, klicken Sie auf die Felder **[!UICONTROL Titel]** und **[!UICONTROL Hauptteil]**. Verwenden Sie den Ausdruckseditor, um Inhalte zu definieren, Daten zu personalisieren und dynamische Inhalte hinzuzufügen.
+  Um Ihre Nachricht zu erstellen, klicken Sie auf die Schaltfläche **[!UICONTROL Titel]** und **[!UICONTROL Nachricht]** -Felder. Verwenden Sie den Ausdruckseditor, um Inhalte zu definieren, Daten zu personalisieren und dynamische Inhalte hinzuzufügen.
 
   Push-Benachrichtigungen können weiter personalisiert werden. Dazu können Sie ein Bild auswählen, das der Push-Benachrichtigung hinzugefügt werden soll, sowie das Symbol der Benachrichtigung, das auf den Geräten der Profile angezeigt werden soll, und ihre Farbe.
 
@@ -59,7 +59,7 @@ Im Menü **[!UICONTROL Anwendungsvariablen]** werden Ihre Anwendungsvariablen au
 
 >[!TAB iOS]
 
-Um Ihre Nachricht zu verfassen, klicken Sie auf die Felder **[!UICONTROL Titel]** und **[!UICONTROL Hauptteil]**. Verwenden Sie den Ausdruckseditor, um Inhalte zu definieren, Daten zu personalisieren und dynamische Inhalte hinzuzufügen.
+Um Ihre Nachricht zu erstellen, klicken Sie auf die Schaltfläche **[!UICONTROL Titel]** und **[!UICONTROL Nachricht]** -Felder. Verwenden Sie den Ausdruckseditor, um Inhalte zu definieren, Daten zu personalisieren und dynamische Inhalte hinzuzufügen.
 
 Sie können einen **[!UICONTROL Untertitel]** als Wert des Parameters „subtitle“ der iOS-Benachrichtigungs-Payload hinzufügen. Weitere Informationen finden Sie in diesem Abschnitt.
 
