@@ -3,9 +3,9 @@ audience: end-user
 title: Verwenden der Workflow-Aktivität „Versand“
 description: Erfahren Sie, wie Sie eine Workflow-Aktivität „Versand“ hinzufügen (E-Mail, Push-Benachrichtigung, SMS).
 badge: label="Beta"
-source-git-commit: 58abba55328480cd6cd47c8666146acdf637204e
+source-git-commit: f5d2cb68b3df42105da9d6b346e6e9c57e14723a
 workflow-type: tm+mt
-source-wordcount: '788'
+source-wordcount: '781'
 ht-degree: 61%
 
 ---
@@ -36,7 +36,7 @@ Beginnen Sie mit der Erstellung Ihres Workflows mit den entsprechenden Aktivitä
 
   ![](../../msg/assets/add-delivery-in-wf.png)
 
-## Versand einrichten {#create-a-delivery-in-a-workflow}
+## Konfigurieren der Kanalaktivität {#create-a-delivery-in-a-workflow}
 
 
 >[!CONTEXTUALHELP]
@@ -75,7 +75,6 @@ Gehen Sie wie folgt vor, um einen Versand im Rahmen eines Workflows einzurichten
 
    ![](../assets/delivery-activity-in-wf.png)
 
-
    Sie können im linken Bereich zur Konfiguration der Kanalaktivität eine andere Vorlage auswählen. Wenn die zuvor ausgewählte Zielgruppe nicht mit dem Kanal kompatibel ist, können Sie keine Vorlage auswählen. Um dies zu beheben, aktualisieren Sie die Aktivität **Zielgruppe erstellen**, um eine Zielgruppe mit dem richtigen Zielgruppen-Mapping auszuwählen. Weitere Informationen zu Zielgruppen-Mappings finden Sie in der [Dokumentation zu Adobe Campaign v8 (Client-Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=de){target="_blank"}.
 
 1. Klicken Sie auf **Versand erstellen**. Definieren Sie Ihre Nachrichteneinstellungen und den Inhalt so wie einen eigenständigen Versand. Sie können den Inhalt auch planen und simulieren. [Weitere Informationen](../../msg/gs-messages.md).
@@ -95,6 +94,7 @@ Gehen Sie wie folgt vor, um einen Versand im Rahmen eines Workflows einzurichten
 Im Folgenden finden Sie ein Beispiel eines Cross-Channel-Workflows mit einer Segmentierung und zwei Sendungen. Der Workflow richtet sich an alle Kundinnen und Kunden, die in Paris leben und an Kaffeemaschinen interessiert sind. Innerhalb dieser Population wird eine E-Mail an die regulären Kundinnen und Kunden und eine SMS an diejenigen mit VIP-Status gesendet.
 
 ![](../assets/workflow-channel-example.png)
+
 <!--
 description, which use case you can perform (common other activities that you can link before of after the activity)
 
@@ -105,7 +105,9 @@ The Email delivery activity allows you to configure the sending an email in a wo
 
 -->
 
-Sie können auch einen wiederkehrenden Workflow erstellen, um jeden ersten Tag des Monats um 20 Uhr eine personalisierte Push-Benachrichtigung an die Abonnenten Ihrer Mobile App zu senden, je nach Zeitzone.
+Sie können auch einen wiederkehrenden Workflow erstellen, um jeden ersten Tag des Monats um 20 Uhr eine personalisierte SMS an alle in Paris lebenden Kunden zu senden.
+
+![](../assets/workflow-channel-example2.png)
 
 <!-- Scheduled emails available?
 

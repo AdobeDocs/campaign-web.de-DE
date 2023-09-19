@@ -4,7 +4,7 @@ title: Erkunden der Benutzeroberfläche
 description: Web-Benutzeroberfläche von Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
+source-git-commit: c48b0a7dc897e169180586492a991b189453b1fb
 workflow-type: tm+mt
 source-wordcount: '1275'
 ht-degree: 73%
@@ -88,7 +88,7 @@ Im Bereich KUNDENVERWALTUNG können Sie Ihre Empfängerinnen und Empfänger, Zie
 >abstract="Durchsuchen Sie die Listen mit Angeboten und Angebotsvorlagen, die in der Konsole mithilfe der **Interaction** -Modul. Diese Listen sind schreibgeschützt."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/offers.html" text="Hinzufügen von Angeboten zu einem Versand"
 
-Im Bereich KUNDENMANAGEMENT können Sie die Angebote und Angebotsvorlagen anzeigen. Diese Listen sind schreibgeschützt.
+Im Bereich DECISION MANAGEMENT können Sie die Angebote und Angebotsvorlagen anzeigen. Diese Listen sind schreibgeschützt.
 
 * **Angebote** - Durchsuchen Sie die Liste der Angebote und Angebotsvorlagen, die in der Konsole mithilfe der **Interaction** -Modul. Standardmäßig können Sie den Status, das Start-/Enddatum und die Umgebung sehen. Sie können die Liste nach Status oder Start-/Enddatum filtern. Angebotsvorlagen sind ebenfalls verfügbar.
 
