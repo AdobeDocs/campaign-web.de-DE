@@ -2,7 +2,7 @@
 title: Limits und Einschränkungen in der Web-Benutzeroberfläche von Campaign
 description: Limits und Einschränkungen in der Web-Benutzeroberfläche von Campaign
 badge: label="Beta"
-source-git-commit: 29fbfa9bb802ba1dff26dee8898fcb728309983d
+source-git-commit: 9d1f6579d380352d6cc237cfcfdd4dc4171f2085
 workflow-type: tm+mt
 source-wordcount: '586'
 ht-degree: 6%
@@ -66,13 +66,17 @@ Eine spezifische Fehlermeldung wird angezeigt.
 
 Selbst wenn Sie die grafische Darstellung der Abfrage im Rule Builder nicht anzeigen und den Filter nicht bearbeiten können, können Sie ihn dennoch verwenden und die Filterbedingungen im **Attribute** des Bildschirms.
 
-![](assets/rule-view-results.png){width="70%" align="left"}
+![](assets/rule-edit.png){width="70%" align="left"}
 
 Sie können auch auf die SQL-Abfrage zugreifen, um die genauen Einstellungen zu überprüfen. Klicken Sie dazu auf die Schaltfläche **Codeansicht** Schaltfläche.
 
 ![](assets/rule-code-view.png){width="70%" align="left"}
 
-Klicken Sie auf **berechnen** -Schaltfläche, um zu überprüfen, wie viele Elemente den Kriterien des Filters entsprechen. Verwenden Sie die **Ergebnisse anzeigen** -Schaltfläche, um diese Elemente anzuzeigen.
+Klicken Sie auf **berechnen** -Schaltfläche, um zu überprüfen, wie viele Elemente den Kriterien des Filters entsprechen.
+
+![](assets/rule-calculate.png){width="70%" align="left"}
+
+Verwenden Sie die **Ergebnisse anzeigen** -Schaltfläche, um diese Elemente anzuzeigen.
 
 ![](assets/rule-view-results.png){width="70%" align="left"}
 
