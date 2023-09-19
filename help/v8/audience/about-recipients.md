@@ -2,17 +2,17 @@
 title: Arbeiten mit Empfängern und Zielgruppen
 description: Erfahren Sie, wie Sie mit Empfängern im Campaign-Web arbeiten.
 badge: label="Beta"
-source-git-commit: 269cbb51f070b0f9f771691497ffa07bb94e2d49
+source-git-commit: fb144e4b7186717dd0c4049d8ce884998a1adefe
 workflow-type: tm+mt
-source-wordcount: '582'
-ht-degree: 19%
+source-wordcount: '883'
+ht-degree: 25%
 
 ---
 
 
 # Arbeiten mit Empfängern und Zielgruppen {#about-recipients}
 
-## Empfänger {#recipients}
+## Was sind Empfänger? {#recipients}
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"
@@ -47,7 +47,7 @@ Empfänger können auch über die **Explorer** Anzeigen, Durchsuchen und Erstell
 
 Darüber hinaus können Sie die An- und Abmeldung Ihrer Empfänger für Dienste wie Newsletter verwalten. [Erfahren Sie, wie Sie mit Abonnementdiensten arbeiten können.](create-service.md)
 
-## Zielgruppen {#audiences}
+## Was sind Zielgruppen? {#audiences}
 
 Die Zielgruppe ist das wichtigste Ziel Ihres Versands: die Empfängerinnen und Empfänger, die die Nachrichten erhalten. Der Zielgruppentyp hängt vom in der Versandvorlage definierten Zielgruppen-Mapping ab. [Versandvorlage erfahren](../msg/delivery-template.md).
 
@@ -64,3 +64,27 @@ Beim Targeting einer Audience können Sie auch **Kontrollgruppen** um zu vermeid
 >[!NOTE]
 >
 >Beim Versand von Nachrichten im Rahmen eines Kampagnen-Workflows wird die Audience in einem bestimmten **Audience erstellen** Workflow-Aktivität. In diesem Zusammenhang ist es nicht möglich, eine Zielgruppe aus einer Datei für einen E-Mail-Versand zu laden. Die Zielgruppe wird nur in dieser dedizierten Aktivität definiert. [In diesem Abschnitt](../workflows/activities/build-audience.md) erfahren Sie, wie Sie die Zielgruppe Ihres Versands in einem Kampagnen-Workflow definieren
+
+## Zielgruppendimensionen {#targeting-dimensions}
+
+Die Zielgruppendimension ist der Datentyp, den ein Vorgang verarbeitet. Sie ermöglicht die Bestimmung der Zielpopulation: Empfänger, Vertragsempfänger, Benutzer, Abonnenten etc.
+
+Die Zielgruppendimension eines Workflows wird durch die erste **[!UICONTROL Audience erstellen]** und wird bis zum Ende des Workflows für alle weiteren Aktivitäten verwendet. Wenn Sie beispielsweise eine Abfrage an die aus der Datenbank stammenden Empfänger durchführen, enthält die ausgehende Transition Daten vom Typ Empfänger und wird an die nächste Aktivität übermittelt.
+
+Beachten Sie, dass Sie die Zielgruppendimension in einem Workflow mithilfe einer **[!UICONTROL Dimensionsänderung]** -Aktivität. [Weitere Informationen](../workflows/activities/change-dimension.md)
+
+Standardmäßig haben die E-Mail- und SMS-Versandvorlagen **[!UICONTROL Empfänger]** als Zielgruppe. Ihre Zieldimension verwendet daher die Felder der **nms:recipient** Tabelle. Für Push-Benachrichtigungen lautet die standardmäßige Zieldimension **Abonnentenanwendungen nms:appSubscriptionRcp**, der mit der Empfängertabelle verknüpft ist.
+
+Sie können auch andere integrierte Zielgruppen-Mappings für Ihre Sendungen verwenden, die im Folgenden aufgeführt sind:
+
+| Name | Verwendung Verwendungszweck | Schema |
+|---|---|---|
+| Empfänger | Versand an Empfänger (integrierte Empfängertabelle) | nms:recipient |
+| Besucher | Versand an Besucher, deren Profile beispielsweise über Empfehlungen (Viral Marketing) erfasst wurden. | mns:visitor |
+| Abonnements  | Versand richtet sich an Abonnenten eines Informationsdienstes wie z. B. einen Newsletter | nms:subscription |
+| Besucher-Abonnements | Versand richtet sich an Besucher, die einen Informationsdienst beziehen | nms:visitorSub |
+| Benutzer | Versand richtet sich an Adobe-Campaign-Benutzer | nms:operator |
+| Externe Datei | Versand basiert auf einer Datei, die alle notwendigen Informationen enthält | Ohne Schema oder Zielgruppe |
+| Abonnierte Anwendungen | Versand an Empfänger, die eine Anwendung abonniert haben | nms:appSubscriptionRcp |
+
+Zusätzlich können Sie je nach Bedarf ein neues Zielgruppen-Mapping erstellen. Dies erfolgt über die Clientkonsole. Weitere Informationen finden Sie in der [Dokumentation zu Campaign v8 (Client-Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html#new-mapping){target="_blank"}.

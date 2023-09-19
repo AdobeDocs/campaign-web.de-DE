@@ -3,10 +3,10 @@ audience: end-user
 title: Workflow-Aktivität Dimensionsänderung verwenden
 description: Erfahren Sie, wie Sie die Workflow-Aktivität Dimensionsänderung verwenden
 badge: label="Beta"
-source-git-commit: 9bb80d10f20bb36162b74982d51ed67c1600f831
+source-git-commit: fb144e4b7186717dd0c4049d8ce884998a1adefe
 workflow-type: tm+mt
-source-wordcount: '292'
-ht-degree: 9%
+source-wordcount: '296'
+ht-degree: 4%
 
 ---
 
@@ -23,10 +23,9 @@ ht-degree: 9%
 >title="Dimensionsaktivität ändern"
 >abstract="Mithilfe dieser Aktivität können Sie die Zielgruppendimension beim Erstellen einer Audience ändern. Die Achse wird entsprechend der Datenvorlage und der Eingabedimension verschoben. Sie können beispielsweise von der Dimension &quot;Verträge&quot;zur Dimension &quot;Kunden&quot;wechseln."
 
-Die **Dimensionsänderung** -Aktivität **Targeting** -Aktivität. Mithilfe dieser Aktivität können Sie die Zielgruppendimension bei der Workflow-Erstellung ändern.
-Diese Aktivität verschiebt die Achse je nach Datenvorlage und der eingegebenen Dimension.
+Die **Dimensionsänderung** -Aktivität **Targeting** -Aktivität. Mithilfe dieser Aktivität können Sie die Zielgruppendimension bei der Workflow-Erstellung ändern. Die Achse wird entsprechend der Datenvorlage und der Eingabedimension verschoben. [Weitere Informationen zu Zielgruppendimensionen](../../audience/about-recipients.md#targeting-dimensions)
 
-Sie können beispielsweise die Zielgruppendimension eines Workflows von &quot;Empfänger&quot;in &quot;Abonnentenanwendung&quot;ändern, um Push-Benachrichtigungen an die Zielempfänger zu senden.
+Sie können beispielsweise die Zielgruppendimension eines Workflows von &quot;Empfänger&quot; in &quot;Abonnentenanwendung&quot; ändern, um Push-Benachrichtigungen an die Zielempfänger zu senden.
 
 ## Konfigurieren der Aktivität Dimensionsänderung {#configure}
 
@@ -47,4 +46,3 @@ In diesem Beispiel möchten wir einen SMS-Versand an alle Profile senden, die ei
 Wir verwenden dann eine **[!UICONTROL Dimensionsänderung]** -Aktivität, um die Zielgruppendimension des Workflows in &quot;Empfänger&quot;zu ändern. Auf diese Weise können wir die Empfänger ansprechen, die der Abfrage entsprechen.
 
 ![](../assets/workflow-change-dimension-example.png)
-
