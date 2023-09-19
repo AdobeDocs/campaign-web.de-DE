@@ -2,10 +2,10 @@
 title: Arbeiten mit Empfängern und Zielgruppen
 description: Erfahren Sie, wie Sie mit Empfängern im Campaign-Web arbeiten.
 badge: label="Beta"
-source-git-commit: fb144e4b7186717dd0c4049d8ce884998a1adefe
+source-git-commit: cf614cbbd726cd7b12510812c49068e9ed31b631
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '883'
+ht-degree: 25%
 
 ---
 
@@ -45,7 +45,7 @@ Empfänger können auch über die **Explorer** Anzeigen, Durchsuchen und Erstell
 >
 >Abhängig von Ihren Berechtigungen haben Sie möglicherweise keinen Zugriff auf die vollständige Liste der in der Datenbank gespeicherten Empfänger. Weiterführende Informationen zu Berechtigungen finden Sie in [diesem Abschnitt](../get-started/permissions.md).
 
-Darüber hinaus können Sie die An- und Abmeldung Ihrer Empfänger für Dienste wie Newsletter verwalten. [Erfahren Sie, wie Sie mit Abonnementdiensten arbeiten können.](create-service.md)
+Darüber hinaus können Sie die An- und Abmeldung Ihrer Empfänger für Dienste wie Newsletter verwalten. [Erfahren Sie, wie Sie mit Abonnementdiensten arbeiten können.](manage-services.md)
 
 ## Was sind Zielgruppen? {#audiences}
 
