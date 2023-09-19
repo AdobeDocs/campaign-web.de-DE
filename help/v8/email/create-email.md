@@ -4,9 +4,9 @@ title: Eine erste E-Mail senden
 description: Erfahren Sie, wie Sie Ihre erste E-Mail mit der Web-Benutzeroberfläche von Campaign senden.
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Beta"
-source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
+source-git-commit: ef705291649c1223cb3ea8df8e803bde04e06102
 workflow-type: tm+mt
-source-wordcount: '1354'
+source-wordcount: '1355'
 ht-degree: 71%
 
 ---
@@ -75,7 +75,7 @@ Gehen Sie wie folgt vor, um einen neuen eigenständigen E-Mail-Versand zu erstel
 >title="Zielgruppe für Ihren Versand auswählen"
 >abstract="Die optimale Audience für Marketing-Nachrichten auswählen. Sie können eine existierende Zielgruppe auswählen (die bereits in einer Campaign v8-Instanz oder in Adobe Experience Platform definiert ist), mit dem Rule Builder eine neue Zielgruppe erstellen oder eine Datei mit Ihrer Zielgruppe hochladen. Kontrollgruppen sind nicht für die **Aus Datei auswählen** und umgekehrt."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/add-audience.html" text="Hauptzielgruppen auswählen"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/control-group.html" text="Festlegen einer Kontrollgruppe"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html" text="Festlegen einer Kontrollgruppe"
 
 In diesem Anwendungsbeispiel senden Sie die E-Mail an eine bestehende Audience.
 
