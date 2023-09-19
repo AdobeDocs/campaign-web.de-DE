@@ -3,9 +3,9 @@ audience: end-user
 title: Generieren von Bildern mit dem Inhaltsassistenten
 description: Erste Schritte mit dem Inhaltsassistenten
 badge: label="Beta"
-source-git-commit: 54012ba8df59600298ba8f2f9bca19ea56808466
+source-git-commit: b597f6a03d89d478e7cf80c1dee99bf846c8c915
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '322'
 ht-degree: 2%
 
 ---
@@ -14,6 +14,10 @@ ht-degree: 2%
 # Generieren von Bildern mit dem Inhaltsassistenten {#generative-image}
 
 Nachdem Sie Ihre E-Mails erstellt und personalisiert haben, können Sie Ihren Inhalt mit dem Inhaltsassistenten erweitern, der auf generativen KI basiert. Diese Funktion vereinfacht den Prozess der Personalisierung und Inhaltsverbesserung.
+
+>[!AVAILABILITY]
+>
+>Diese Funktion wird Anfang Oktober verfügbar sein.
 
 Im folgenden Beispiel erfahren Sie, wie Sie den Inhaltsassistenten nutzen können, um Ihren Inhalt zu optimieren und zu verbessern und so ein benutzerfreundlicheres Erlebnis zu gewährleisten. Führen Sie folgende Schritte aus:
 
