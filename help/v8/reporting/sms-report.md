@@ -5,8 +5,8 @@ description: Erfahren Sie, wie Sie auf SMS-Vesandberichte zugreifen und diese ve
 badge: label="Beta"
 source-git-commit: 8531bbe867e0d2fc42edef1a98b5a8ccc29be11c
 workflow-type: tm+mt
-source-wordcount: '398'
-ht-degree: 25%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
