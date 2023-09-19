@@ -2,16 +2,16 @@
 title: Verwenden eines KI-gestützten wissensbasierten Assistenten im Campaign Web
 description: Verwenden eines KI-gestützten wissensbasierten Assistenten im Campaign Web
 badge: label="Beta"
-source-git-commit: 4203c828c1f112b0c50c06e2b76ba30e89d6cb54
+source-git-commit: f1351a4955605b82c6eddef441f3f76ec4850d9d
 workflow-type: tm+mt
-source-wordcount: '337'
+source-wordcount: '348'
 ht-degree: 0%
 
 ---
 
-# Verwenden des KI-gestützten Wissens-Assistenten {#using-ai}
+# Verwenden des KI-gestützten Knowledge Assistant {#using-ai}
 
-Erhalten Sie schnelle, KI-generierte Antworten auf Basis der Produktdokumentation und Ihres aktuellen Produktkontexts mit dem KI-gestützten Know-how-Assistenten in den kontextbezogenen Hilfefeldern des Produkts.
+Mit dem KI-gestützten Knowkedge-Assistenten erhalten Sie auf der Basis der Produktdokumentation und Ihres aktuellen Produktkontexts schnelle und KI-generierte Antworten, die in den kontextbezogenen Hilfefeldern des Produkts verfügbar sind.
 
 >[!AVAILABILITY]
 >
@@ -45,12 +45,12 @@ Künstliche Intelligenz und Modelle des maschinellen Lernens werden im Laufe der
 
 ## Empfehlungen  {#recommendations-ai}
 
-Bei Fragen in der kontextuellen Hilfe wird der aktuelle Produktkontext berücksichtigt.
+Bei der Frage im KI-gestützten Knowledge Assistant wird der aktuelle Produktkontext, d. h. der Kampagnenbildschirm, in dem Sie sich befinden, berücksichtigt.
 
-Um das Beste aus der Assistenzkraft zu erhalten, raten wir Ihnen bei der Beantwortung einer Frage:
+Wenn Sie eine Frage stellen, empfehlen wir Ihnen Folgendes, um das Beste aus der KI-gestützten Knowledge Assistant zu erhalten:
 
 * So präzise und spezifisch wie möglich sein und Unklarheiten vermeiden. Die Antwort wird genauer und hilfreicher sein.
-* Um der Wissensassistenten bei der Suche nach den richtigen Informationen zu helfen, fügen Sie so viele Details wie möglich zu dem hinzu, was Sie versuchen zu lernen.
+* Um den KI-gestützten Wissensassistenten bei der Suche nach den richtigen Informationen zu unterstützen, fügen Sie so viele Details wie möglich zu dem hinzu, was Sie versuchen zu lernen.
 * Nehmen Sie Ihre Fragen neu auf und verfeinern Sie sie, um bessere Antworten zu erhalten. Wenn die Antwort nicht präzise oder nützlich ist, versuchen Sie verschiedene Ansätze und fügen Sie Kontext hinzu, um bessere Ergebnisse zu erzielen.
 * Verwenden Sie geeignete Begriffe und Formulierungen mit einem neutralen Ton.
 * Bewerten Sie die Antworten und geben Sie Feedback, damit unsere Ingenieure aus Ihren Erfahrungen lernen und die Ergebnisse verbessern können.
