@@ -3,10 +3,10 @@ audience: end-user
 title: E-Mail-Versandberichte
 description: Erfahren Sie, wie Sie auf E-Mail-Versandberichte zugreifen und diese verwenden können
 badge: label="Beta"
-source-git-commit: f80a224665e8c70c2efce3af9a8f60a07fadd5dc
+source-git-commit: 5307387d63df5ae3af1b849fa0a1181c42cc1879
 workflow-type: tm+mt
-source-wordcount: '1407'
-ht-degree: 92%
+source-wordcount: '1787'
+ht-degree: 73%
 
 ---
 
@@ -16,7 +16,27 @@ Der **E-Mail-Versandbericht** bietet umfassende Einblicke und Daten, die speziel
 
 ## Versandzusammenfassung {#delivery-summary-email}
 
-* Die Tabelle **[!UICONTROL Ursprüngliche Zielgruppenstatistiken]** zeigt Daten zu Ihren Empfängerinnen und Empfängern an:
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_sending_email"
+>title="Berichterstellung"
+>abstract="Das Versandmenü in Ihrem Bericht bietet einen umfassenden Einblick in die Interaktionen Ihrer Besucher mit Ihren Sendungen und mögliche Fehler, die bei ihnen aufgetreten sind."
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_initial_target"
+>title="anfängliches Zielgruppen-Widget"
+>abstract="Das Populationsdiagramm Ursprüngliche Zielgruppe zeigt Daten zu Ihren Empfängern und zum Erfolg Ihres Versands an."
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_delivery_statistics_summary"
+>title="Widget &quot;Versandstatistiken&quot;"
+>abstract="Das Diagramm Versandstatistiken zeigt den Erfolg Ihres Versands und die aufgetretenen Fehler."
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_exclusion"
+>title="Widget &quot;Versandstatistiken&quot;"
+>abstract="Die Tabelle Ausschlussgründe zeigt die Verteilung der während der Vorbereitung zurückgewiesenen Nachrichten nach Regeln."
+
+* **[!UICONTROL Ursprungspopulation der Zielgruppe]** -Diagramm zeigt Daten zu Ihren Empfängern an:
 
   ![](assets/reporting_email_1.png){align="left" zoomable="yes"}
 
@@ -29,7 +49,7 @@ Der **E-Mail-Versandbericht** bietet umfassende Einblicke und Daten, die speziel
    * **[!UICONTROL Ausschluss]**: Gesamtzahl der vom Versand an die Zielgruppe ausgeschlossenen Nachrichten.
 +++
 
-* **[!UICONTROL Versandstatistiken]**: Die Tabelle gibt Auskunft über den Erfolg Ihres Versands.
+* **[!UICONTROL Versandstatistiken]** -Diagramm zeigt den Erfolg Ihres Versands an.
 
   ![](assets/reporting_email_2.png){align="left"}
 
@@ -69,9 +89,19 @@ Der **E-Mail-Versandbericht** bietet umfassende Einblicke und Daten, die speziel
 
 ## Versanddurchsatz {#delivery-throughtput}
 
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_throughput_email"
+>title="Versanddurchsatz Widget"
+>abstract="Der Bericht zum Versanddurchsatz enthält detaillierte Informationen zum Versanddurchsatz der gesamten Plattform innerhalb eines bestimmten Zeitraums."
+
 Dieser Bericht enthält detaillierte Informationen zum Versanddurchsatz der gesamten Plattform innerhalb eines bestimmten Zeitraums. Die wichtigste Kennzahl, mit der die Geschwindigkeit des Nachrichtenversands gemessen wird, ist die Anzahl der pro Stunde gesendeten Nachrichten.
 
 ## Versandstatistiken {#broadcast-statistics}
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_broadcast_statistics"
+>title="Widget &quot;Versandstatistiken&quot;"
+>abstract="Die Tabelle Versandstatistiken enthält die verfügbaren Daten zu Fehlern, die bei jeder Domain aufgetreten sind."
 
 * Die Tabelle **[!UICONTROL Versandstatistiken]** enthält die verfügbaren Daten zu Fehlern, die bei jeder Domain aufgetreten sind.
 
@@ -95,6 +125,16 @@ Dieser Bericht enthält detaillierte Informationen zum Versanddurchsatz der gesa
 +++
 
 ## Unzustellbare Nachrichten und Bounces {#non-deliverables-email}
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_error_type"
+>title="Verteilung der Fehler nach Typ-Widget"
+>abstract="Die Verteilung der Fehler nach Typ, Tabelle und Grafik enthält die verfügbaren Daten für jeden aufgetretenen Fehlertyp."
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_error_domain"
+>title="Verteilung der Fehler nach Domain-Widget"
+>abstract="Die Verteilung der Fehler nach Typ, Tabelle und Grafik enthält die verfügbaren Daten für jeden Fehlertyp, der je nach Domain aufgetreten ist."
 
 * Die Tabellen und Diagramme **[!UICONTROL Aufschlüsselung der Fehler nach Typ]** und **[!UICONTROL Aufschlüsselung der Fehler nach Domain]** enthalten die verfügbaren Daten zu möglichen Fehlern, die bei jeder Domain aufgetreten sind.
 
@@ -122,7 +162,20 @@ Dieser Bericht enthält detaillierte Informationen zum Versanddurchsatz der gesa
 
 ## Tracking-Indikatoren {#tracking-indicators-email}
 
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_tracking_email"
+>title="Tracking-Berichte"
+>abstract="Der Tab Verfolgung in Ihrem Bericht enthält wertvolle Daten, darunter das Empfängerverhalten pro Link, die Öffnungs- und Klickverteilung sowie detaillierte Informationen zu den am häufigsten angeklickten URLs während eines Versands."
 
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_delivery_statistics_indicators"
+>title=" Widget &quot;Versandstatistiken&quot;"
+>abstract="Das Widget Versandstatistiken bietet wichtige Leistungsindikatoren (KPIs), die detaillierte Informationen zu den für gesendete E-Mails verfügbaren Daten enthalten."
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_open_clickthrough"
+>title="Widget zur Öffnungs- und Klickrate"
+>abstract="Die Tabelle Öffnungen und Clickthrough-Rate zeigt Daten zu Ihrer Empfängerinteraktion mit Ihrem Versand an."
 
 * **[!UICONTROL Versandstatistiken]** bieten wichtige Leistungsindikatoren (KPIs), die detaillierte Informationen zu den für gesendete E-Mails verfügbaren Daten enthalten.
 
@@ -162,6 +215,11 @@ Dieser Bericht enthält detaillierte Informationen zum Versanddurchsatz der gesa
 
 ## URLs und Clickstreams {#url-email}
 
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_urls_clickstreams"
+>title="URLs und Clickstreams Widget"
+>abstract="Die URLs und Clickstreams enthalten wichtige Leistungsindikatoren (KPIs), die detaillierte Informationen zu den URLs enthalten, auf die während eines Versands am häufigsten geklickt wurde."
+
 * **[!UICONTROL URLs und Clickstreams]**: Bietet wichtige Leistungsindikatoren (KPIs), die detaillierte Informationen zu den URLs enthalten, auf die während eines Versands am häufigsten geklickt wurde.
 
   ![](assets/reporting_email_7.png){align="center"}
@@ -196,6 +254,11 @@ Dieser Bericht enthält detaillierte Informationen zum Versanddurchsatz der gesa
 
 ## Benutzeraktivitäten {#user-activities-email}
 
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_user_activities"
+>title="Widget &quot;Benutzeraktivitäten&quot;"
+>abstract="Das Diagramm Benutzeraktivitäten zeigt die Verteilung der Öffnungen und Klicks in Form eines Diagramms. Sie können den Zeitraum der Zielgruppendaten auswählen: letzter Tag, letzte Stunde oder letzte 30 Minuten."
+
 * **[!UICONTROL Benutzeraktivitäten]**: Zeigt die Aufschlüsselung der Öffnungen und Klicks in Form eines Diagramms. Sie können den Zeitraum der Zielgruppendaten auswählen: letzter Tag, letzte Stunde oder letzte 30 Minuten.
 
   ![](assets/reporting_email_10.png){align="center"}
@@ -210,6 +273,10 @@ Dieser Bericht enthält detaillierte Informationen zum Versanddurchsatz der gesa
 
 ## Tracking-Statistiken {#tracking-statistics}
 
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_statistics"
+>title="Trackingstatistiken-Widget"
+>abstract="Das Diagramm Trackingstatistiken enthält Statistiken zu Öffnungen und Klicks. Sie haben die Möglichkeit, den spezifischen Zeitrahmen für die Zielgruppendaten auszuwählen."
 
 * **[!UICONTROL Tracking-Statistiken]**: Das Diagramm enthält Statistiken über Öffnungen und Klicks. Sie haben die Möglichkeit, den spezifischen Zeitrahmen für die Zielgruppendaten auszuwählen.
 
@@ -225,12 +292,27 @@ Dieser Bericht enthält detaillierte Informationen zum Versanddurchsatz der gesa
 
 ## Aufschlüsselung der Öffnungen {#breakdown-opens}
 
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_breakdown_device"
+>title="Aufschlüsselung nach Geräte-Widget"
+>abstract="Die Aufschlüsselung nach Gerät"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_breakdown_os"
+>title="Verteilung nach Betriebssystem-Widget"
+>abstract="Die Aufschlüsselung nach Betriebssystem"
+
 Dieser Bericht zeigt die Aufschlüsselung der Öffnungen nach Betriebssystem, Gerät und Browser für den betreffenden Zeitraum. Für jede Kategorie stehen zwei Diagramme zur Verfügung. Das erste zeigt die Öffnungsstatistiken für Computer und Mobilgeräte an, das zweite nur für Mobilgeräte.
 Sie haben die Möglichkeit, von **[!UICONTROL Desktop-Computer und Mobilgeräte]** auf ausschließlich **[!UICONTROL Nur Mobilgeräte]** umzuschalten, um die Genauigkeit der Zielgruppenbestimmung zu erhöhen.
 
 ![](assets/reporting_email_13.png){align="center"}
 
 ## Hotclicks {#hotclicks}
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_hotclicks"
+>title="Hotclicks-Bericht"
+>abstract="Der Bericht Hotclicks zeigt den Nachrichteninhalt mit dem Prozentsatz der Klicks auf jeden Link an."
 
 Dieser Bericht zeigt den Nachrichteninhalt (HTML und/oder Text) mit dem prozentualen Klickanteil für jeden Link. Abmelde-Links in Gestaltungsbausteinen sowie Mirror-Seiten-Links und Angebots-Links werden in der Gesamtklickzahl berücksichtigt, in diesem Bericht jedoch nicht angezeigt.
 

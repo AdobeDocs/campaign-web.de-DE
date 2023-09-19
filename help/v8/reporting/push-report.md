@@ -3,10 +3,10 @@ audience: end-user
 title: Push-Versandberichte
 description: Erfahren Sie, wie Sie auf Push-Versandberichte zugreifen und diese verwenden können
 badge: label="Beta"
-source-git-commit: f80a224665e8c70c2efce3af9a8f60a07fadd5dc
+source-git-commit: 5307387d63df5ae3af1b849fa0a1181c42cc1879
 workflow-type: tm+mt
-source-wordcount: '297'
-ht-degree: 92%
+source-wordcount: '345'
+ht-degree: 80%
 
 ---
 
@@ -16,6 +16,11 @@ ht-degree: 92%
 >id="acw_push_report_overview"
 >title="Zusammenfassung des Push-Berichts"
 >abstract="Entdecken Sie die Reporting-Metriken für Ihren Push-Versand."
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_sending_push"
+>title="Berichterstellung"
+>abstract="Der Tab Versand in Ihrem Bericht bietet einen umfassenden Einblick in die Interaktionen Ihrer Besucher mit Ihren Sendungen und mögliche Fehler, die bei ihnen aufgetreten sind."
 
 Der **Push-Versandbericht** bietet einen umfassenden Überblick über den Push-Kanal mit umfangreichen Einblicken und spezifischen Daten. Er bietet umfassende Informationen über Leistung, Effektivität und Ergebnisse jedes Versands.
 
@@ -68,6 +73,11 @@ Der **Push-Versandbericht** bietet einen umfassenden Überblick über den Push-K
   ![](assets/reporting_push_6.png)
 
 ## Versanddurchsatz {#delivery-throughput}
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_throughput_push"
+>title="Versanddurchsatz Bericht"
+>abstract="Der Bericht zum Versanddurchsatz enthält detaillierte Informationen zum Versanddurchsatz der gesamten Plattform innerhalb eines bestimmten Zeitraums."
 
 Dieser Bericht enthält detaillierte Informationen zum Versanddurchsatz der gesamten Plattform innerhalb eines bestimmten Zeitraums. Die wichtigste Kennzahl, mit der die Geschwindigkeit des Nachrichtenversands gemessen wird, ist die Anzahl der pro Stunde gesendeten Nachrichten.
 

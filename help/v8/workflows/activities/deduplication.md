@@ -3,10 +3,10 @@ audience: end-user
 title: Workflow-Aktivität "Deduplizierung" verwenden
 description: Erfahren Sie, wie Sie die Workflow-Aktivität Deduplizierung verwenden.
 badge: label="Beta"
-source-git-commit: d9273f383e2301ea761ac67eeb47f6d9fd769d44
+source-git-commit: 6baf29f6012eb35e247291289160cb1dd3db5d6f
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 21%
+source-wordcount: '430'
+ht-degree: 20%
 
 ---
 
@@ -36,13 +36,13 @@ ht-degree: 21%
 
 Die **Deduplizierung** -Aktivität **Targeting** -Aktivität. Mithilfe dieser Aktivität lassen sich Dubletten in Ergebnissen aus eingehenden Aktivitäten löschen. Die **Deduplizierung** -Aktivitäten werden im Allgemeinen im Anschluss an Zielgruppenbestimmungsaktivitäten und vor Aktivitäten verwendet, die die Verwendung von Zieldaten ermöglichen.
 
-## Konfiguration
+## Konfigurieren der Aktivität Deduplizierung{#deduplication-configuration}
 
 Führen Sie die folgenden Schritte aus, um die **Deduplizierung** Aktivität:
 
-1. Hinzufügen einer **Deduplizierung** -Aktivität zu Ihrem Workflow hinzu.
+![](../assets/workflow-deduplication.png)
 
-   ![](../assets/workflow-deduplication.png)
+1. Hinzufügen einer **Deduplizierung** -Aktivität zu Ihrem Workflow hinzu.
 
 1. Im **Felder zur Identifizierung von Duplikaten** klicken Sie auf die **Attribut hinzufügen** -Schaltfläche, um die Felder anzugeben, für die die Identifizierung der Dubletten aufgrund identischer Werte möglich ist: E-Mail-Adresse, Vorname, Nachname etc. In der Reihenfolge der Felder können Sie angeben, welche Felder zuerst verarbeitet werden sollen.
 
@@ -65,5 +65,5 @@ Führen Sie die folgenden Schritte aus, um die **Deduplizierung** Aktivität:
 
 1. Überprüfen Sie die **Komplement erzeugen** , wenn Sie die verbleibende Population ausnutzen möchten. Das Komplement besteht aus allen Duplikaten. Der Aktivität wird daraufhin eine zusätzliche Transition hinzugefügt.
 
-## Beispiel
+## Beispiel{#example}
 
