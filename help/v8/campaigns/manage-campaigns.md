@@ -3,10 +3,10 @@ audience: end-user
 title: Erste Schritte mit Kampagnen
 description: Erfahren Sie, wie Sie mit kanalübergreifenden Kampagnen beginnen
 badge: label="Beta"
-source-git-commit: d9273f383e2301ea761ac67eeb47f6d9fd769d44
+source-git-commit: 9b945dcd4151e536e8a8be904100730c86e483b7
 workflow-type: tm+mt
-source-wordcount: '451'
-ht-degree: 90%
+source-wordcount: '604'
+ht-degree: 77%
 
 ---
 
@@ -69,3 +69,22 @@ Sie können eine Kampagne duplizieren oder löschen:
 >[!NOTE]
 >
 >Auf der Registerkarte **Sendungen** werden alle mit der Kampagne verbundenen Sendungen angezeigt. Sendungen, die in einem Workflow erstellt wurden, können dort jedoch nicht gelöscht werden. Um einen im Rahmen eines Workflows erstellten Versand zu löschen, ist die Löschung der Versandaktivität aus dem Workflow erforderlich. [Weitere Informationen](../msg/gs-messages.md#delivery-delete).
+
+## Verwenden von Kampagnenvorlagen{#manage-campaign-templates}
+
+Kampagnenvorlagen enthalten vorkonfigurierte Einstellungen, die zur Erstellung neuer Workflows wiederverwendet werden können. Für die ersten Schritte steht Ihnen eine Reihe integrierter Vorlagen zur Verfügung. Sie können Ihre Kampagnenvorlagen erstellen und konfigurieren und dann Kampagnen aus diesen Vorlagen erstellen.
+
+Eine Kampagnenvorlage kann die folgenden Informationen speichern:
+
+* der Kampagne **Eigenschaften** und **Zeitplan** settings
+* Workflow-Vorlagen
+* Versandvorlagen
+
+Gehen Sie wie folgt vor, um eine Kampagnenvorlage zu erstellen:
+
+1. Klicken Sie auf **[!UICONTROL Kampagnen]** Menü, navigieren Sie zum **Vorlagen** und klicken Sie auf die **[!UICONTROL Vorlage erstellen]** Schaltfläche.
+1. Wählen Sie die zu verwendende **Vorlage** und geben Sie eine Bezeichnung für die Kampagne ein. Auf diese Weise können Sie Ihre neue Vorlage auf einer bereits erstellten Vorlage basieren.
+1. Bei Bedarf können Sie die folgenden **zusätzlichen Optionen** ändern: interner Name, Ordner, Zuweisung, Beschreibung und Art.
+1. Definieren Sie den **Zeitplan** für Ihre Kampagne. Erfahren Sie, wie Sie den Kampagnenkalender in [diesem Abschnitt](create-campaigns.md#campaign-schedule)
+1. Wählen Sie **Erstellen** aus.
+1. Fügen Sie Ihrer Kampagne Workflows und Versandvorlagen hinzu.

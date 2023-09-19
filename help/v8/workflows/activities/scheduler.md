@@ -3,7 +3,7 @@ audience: end-user
 title: Verwenden der Workflow-Aktivität Planung
 description: Erfahren Sie, wie Sie die Workflow-Aktivität Planung verwenden.
 badge: label="Beta"
-source-git-commit: 173141ec198b4d451a7b388f0e28a29230a11396
+source-git-commit: 9b945dcd4151e536e8a8be904100730c86e483b7
 workflow-type: tm+mt
 source-wordcount: '519'
 ht-degree: 25%
@@ -74,7 +74,6 @@ Führen Sie die folgenden Schritte aus, um die **Planung** Aktivität:
 >Wenn Sie den Workflow sofort starten möchten, können Sie auf die Schaltfläche **Ausstehende Aufgabe ausführen** in der oberen Symbolleiste der Planung. Diese Schaltfläche ist nur verfügbar, wenn Sie den Workflow gestartet haben.
 
 Anmerkungen:
-
 
 ## Beispiel
 
