@@ -1,16 +1,18 @@
 ---
-title: Arbeiten mit Empfängern
+title: Arbeiten mit Empfängern und Zielgruppen
 description: Erfahren Sie, wie Sie mit Empfängern im Campaign-Web arbeiten.
 badge: label="Beta"
-source-git-commit: 0dc5d7d32c743a4e01f539b9c1fc1733ce1fcffe
+source-git-commit: 269cbb51f070b0f9f771691497ffa07bb94e2d49
 workflow-type: tm+mt
-source-wordcount: '352'
-ht-degree: 6%
+source-wordcount: '582'
+ht-degree: 19%
 
 ---
 
 
-# Arbeiten mit Empfängern {#about-recipients}
+# Arbeiten mit Empfängern und Zielgruppen {#about-recipients}
+
+## Empfänger {#recipients}
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"
@@ -43,3 +45,22 @@ Empfänger können auch über die **Explorer** Anzeigen, Durchsuchen und Erstell
 >
 >Abhängig von Ihren Berechtigungen haben Sie möglicherweise keinen Zugriff auf die vollständige Liste der in der Datenbank gespeicherten Empfänger. Weiterführende Informationen zu Berechtigungen finden Sie in [diesem Abschnitt](../get-started/permissions.md).
 
+Darüber hinaus können Sie die An- und Abmeldung Ihrer Empfänger für Dienste wie Newsletter verwalten. [Erfahren Sie, wie Sie mit Abonnementdiensten arbeiten können.](create-service.md)
+
+## Zielgruppen {#audiences}
+
+Die Zielgruppe ist das wichtigste Ziel Ihres Versands: die Empfängerinnen und Empfänger, die die Nachrichten erhalten. Der Zielgruppentyp hängt vom in der Versandvorlage definierten Zielgruppen-Mapping ab. [Versandvorlage erfahren](../msg/delivery-template.md).
+
+Zur Bestimmung der Audience-Population haben Sie folgende Möglichkeiten:
+
+* [Neue Zielgruppen erstellen](create-audience.md) aus dem **[!UICONTROL Zielgruppen]** Menü,
+* [Existierende Zielgruppe auswählen](add-audience.md) als Liste in der Clientkonsole erstellt wurde,
+* [Wählen Sie eine Adobe Experience Platform-Zielgruppe aus](aep-audience.md),
+* [Erstellen Sie mit dem Regel-Builder eine neue Zielgruppe, indem Sie Filterkriterien definieren und kombinieren,](segment-builder.md)
+* [Verwenden einer Audience aus einer externen Datei](file-audience.md). Diese Option ist nur für Einzelsendungen von E-Mails verfügbar und kann nicht in Kampagnensendungen verwendet werden.
+
+Beim Targeting einer Audience können Sie auch **Kontrollgruppen** um zu vermeiden, dass Nachrichten an einen Teil Ihrer Audience gesendet werden, und messen Sie die Wirkung Ihrer Kampagnen. [Erfahren Sie, wie Sie eine Kontrollgruppe festlegen.](control-group.md)
+
+>[!NOTE]
+>
+>Beim Versand von Nachrichten im Rahmen eines Kampagnen-Workflows wird die Audience in einem bestimmten **Audience erstellen** Workflow-Aktivität. In diesem Zusammenhang ist es nicht möglich, eine Zielgruppe aus einer Datei für einen E-Mail-Versand zu laden. Die Zielgruppe wird nur in dieser dedizierten Aktivität definiert. [In diesem Abschnitt](../workflows/activities/build-audience.md) erfahren Sie, wie Sie die Zielgruppe Ihres Versands in einem Kampagnen-Workflow definieren

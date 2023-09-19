@@ -5,9 +5,9 @@ title: Adobe Campaign v8 – Web-Dokumentation
 description: Web-Dokumentation zu Campaign v8
 breadcrumb-title: Übersicht über Campaign
 hide: true
-source-git-commit: 5ea7ee7cc9046c80d28ea413cd11641e0b213ccf
+source-git-commit: 269cbb51f070b0f9f771691497ffa07bb94e2d49
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '415'
 ht-degree: 88%
 
 ---
@@ -83,8 +83,7 @@ ht-degree: 88%
       + [Durchführen von Testsendungen](preview-test/test-deliveries.md)
       + [Rendern Ihrer E-Mail](preview-test/email-rendering.md)
 + Audiences und Empfänger {#audiences}
-   + [Erste Schritte mit Zielgruppen](audience/about-audiences.md)
-   + [Arbeiten mit Empfängern](audience/about-recipients.md)
+   + [Arbeiten mit Empfängern und Zielgruppen](audience/about-recipients.md)
    + [Audiences erstellen](audience/create-audience.md)
    + [Zielgruppen überwachen und verwalten](audience/access-audiences.md)
    + Zielgruppen {#target-audiences}
@@ -92,7 +91,7 @@ ht-degree: 88%
       + [Definieren einer Zielgruppe mit dem Regel-Builder](audience/segment-builder.md)
       + [Laden einer E-Mail-Zielgruppe aus einer Datei](audience/file-audience.md)
       + [Verwenden einer Adobe Experience Platform-Zielgruppe](audience/aep-audience.md)
-   + [Festlegen einer Kontrollgruppe](audience/control-group.md)
+      + [Festlegen einer Kontrollgruppe](audience/control-group.md)
    + [Arbeiten mit Abonnementdiensten](audience/create-service.md)
 + Cross-Channel-Kampagnen {#campaigns}
    + [Erste Schritte mit Kampagnen](campaigns/gs-campaigns.md)
