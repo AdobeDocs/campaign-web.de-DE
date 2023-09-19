@@ -3,10 +3,10 @@ audience: end-user
 title: SMS-Versandberichte
 description: Erfahren Sie, wie Sie auf SMS-Vesandberichte zugreifen und diese verwenden können
 badge: label="Beta"
-source-git-commit: 5307387d63df5ae3af1b849fa0a1181c42cc1879
+source-git-commit: 8531bbe867e0d2fc42edef1a98b5a8ccc29be11c
 workflow-type: tm+mt
-source-wordcount: '348'
-ht-degree: 80%
+source-wordcount: '398'
+ht-degree: 25%
 
 ---
 
@@ -14,31 +14,31 @@ ht-degree: 80%
 
 >[!CONTEXTUALHELP]
 >id="acw_sms_report_overview"
->title="Zusammenfassung des SMS-Berichts"
->abstract="Entdecken Sie die Reporting-Metriken für Ihren SMS-Versand."
+>title="Übersicht über den SMS-Versand"
+>abstract="Die **Übersicht über den SMS-Versand** bietet einen umfassenden Überblick über Ihren SMS-Versand mit umfassenden Einblicken und spezifischen Daten. Es bietet umfassende Informationen über Leistung, Effektivität und Ergebnisse Ihres Versands."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sending_sms"
 >title="Berichterstellung"
->abstract="Der Tab Versand in Ihrem Bericht bietet einen umfassenden Einblick in die Interaktionen Ihrer Besucher mit Ihren Sendungen und mögliche Fehler, die bei ihnen aufgetreten sind."
+>abstract="Die **Senden** -Tab Ihres Berichts erhalten Sie einen umfassenden Einblick in die Interaktionen Ihrer Besucher mit Ihren Sendungen und in etwaige Fehler, die bei ihnen aufgetreten sind."
 
-Der **SMS-Versandbericht** bietet einen umfassenden Überblick über den SMS-Kanal mit umfangreichen Einblicken und spezifischen Daten. Er bietet umfassende Informationen über Leistung, Effektivität und Ergebnisse jedes Versands.
+Die **Übersicht über den SMS-Versand** bietet einen umfassenden Überblick über Ihren SMS-Versand mit umfassenden Einblicken und spezifischen Daten. Es bietet umfassende Informationen über Leistung, Effektivität und Ergebnisse Ihres Versands.
 
 ## Versandzusammenfassung {#delivery-summary}
 
-* Die **[!UICONTROL Versandübersicht]** bietet wichtige Leistungsindikatoren (KPIs), die detaillierte Informationen darüber enthalten, wie Ihre Besucherinnen und Besucher mit Ihren SMS-Nachrichten interagieren.
+* **[!UICONTROL Versandübersicht]** bietet wichtige Leistungsindikatoren (Key Performance Indicators, KPIs), die detaillierte Informationen zu Erfolgs- und Fehlerraten sowie zur Interaktion Ihrer Besucher mit Ihren SMS-Nachrichten enthalten.
 
   ![](assets/reporting_sms_3.png)
 
   +++ Erfahren Sie mehr über die Metriken des SMS-Versandberichts.
 
-   * **[!UICONTROL Gesendete Summe]**: Gesamtzahl der bei der Versandvorbereitung verarbeiteten Nachrichten.
+   * **[!UICONTROL Gesendete Summe]**: Prozentsatz und Gesamtzahl der bei der Versandvorbereitung verarbeiteten Nachrichten.
 
-   * **[!UICONTROL Erfolg]**: Anzahl der erfolgreich gesendeten Nachrichten im Verhältnis zur Gesamtzahl der gesendeten Nachrichten.
+   * **[!UICONTROL Erfolg]**: Prozentsatz und Anzahl der erfolgreich gesendeten Nachrichten in Bezug auf die Gesamtzahl der gesendeten Nachrichten
 
-   * **[!UICONTROL Klickrate]**: Prozentsatz der Benutzerinnen und Benutzer, die mit Links in Ihrem SMS-Versand interagiert haben
+   * **[!UICONTROL Clickthrough-Rate]**: Prozentsatz und Anzahl der Benutzer, die mit Links in Ihrem SMS-Versand interagiert haben.
 
-   * **[!UICONTROL Fehler]**: Gesamtzahl der bei einem Versand aufgetretenen Fehler, die den Versand an Profile verhindert haben.
+   * **[!UICONTROL Fehler]**: Prozentsatz und Gesamtzahl der Fehler, die während eines Versands aufgetreten sind und die den Versand an Profile verhinderten.
 +++
 
 * Diagramm und Tabelle **Zielgruppenpopulation** zeigen Daten in Bezug auf Ihre Zielgruppe an:
@@ -47,9 +47,9 @@ Der **SMS-Versandbericht** bietet einen umfassenden Überblick über den SMS-Kan
 
   +++ Erfahren Sie mehr über die Metriken des SMS-Versandberichts.
 
-   * **[!UICONTROL Zu liefern]**: Gesamtzahl der bei der Versandvorbereitung verarbeiteten Nachrichten.
+   * **[!UICONTROL Zu liefern]**: Gesamtzahl und Prozentsatz der bei der Versandvorbereitung verarbeiteten Nachrichten.
 
-   * **[!UICONTROL Ausnahmen]**: Anzahl der Profile, die aus der Analyse ausgeschlossen wurden.
+   * **[!UICONTROL Ausnahmen]**: Anzahl und Prozentsatz der Profile, die von der Analyse ausgeschlossen wurden.
 +++
 
 
@@ -59,14 +59,14 @@ Der **SMS-Versandbericht** bietet einen umfassenden Überblick über den SMS-Kan
 
   +++ Erfahren Sie mehr über die Metriken des SMS-Versandberichts.
 
-   * **[!UICONTROL Erfolg]**: Anzahl der erfolgreich verarbeiteten Nachrichten.
+   * **[!UICONTROL Erfolg]**: Anzahl und Prozentsatz der erfolgreich verarbeiteten Nachrichten.
 
-   * **[!UICONTROL Fehler]**: Gesamtzahl der beim Versand aufgetretenen Fehler, die den Versand der Nachrichten an bestimmte Profile verhindert haben.
+   * **[!UICONTROL Fehler]**: Gesamtzahl und prozentuale Fehlerrate, die beim Versand aufgetreten sind, was den Versand von Nachrichten an bestimmte Profile verhindert hat.
 
-   * **[!UICONTROL Neue Quarantäne]**: Anzahl der Profile, die ausgeschlossen und der Quarantäne hinzugefügt wurden.
+   * **[!UICONTROL Neue Quarantäne]**: Anzahl und Prozentsatz der Profile, die ausgeschlossen und zur Quarantäne hinzugefügt wurden.
 +++
 
-* Diagramm und Tabelle **[!UICONTROL Ausschlüsse]** zeigen die verschiedenen Gründe an, die verhindert haben, dass Benutzerprofile, die von den Zielgruppenprofilen ausgeschlossen wurden, die Nachricht erhalten haben.
+* **[!UICONTROL Ausnahmen]** Diagramm und Tabelle zeigen die Gründe an, aus denen verhindert wurde, dass aus den Zielgruppenprofilen ausgeschlossene Benutzerprofile die Nachricht empfangen.
 
   ![](assets/reporting_sms_6.png)
 
