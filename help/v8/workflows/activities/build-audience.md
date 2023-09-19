@@ -3,7 +3,7 @@ audience: end-user
 title: Verwenden der Workflow-Aktivität „Zielgruppe erstellen“
 description: Erfahren Sie, wie Sie die Workflow-Aktivität „Zielgruppe erstellen“ verwenden.
 badge: label="Beta"
-source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
+source-git-commit: a69fff5f071ca0d5fbdb2bca0714695724190cde
 workflow-type: tm+mt
 source-wordcount: '485'
 ht-degree: 62%
@@ -35,7 +35,7 @@ Zur Definition der Zielgruppenpopulation haben Sie folgende Möglichkeiten:
 The **Build audience** activity can be placed at the beginning of the workflow or after any other activity. Any activity can be placed after the **Build audience**.
 -->
 
-## Konfigurieren der Aktivität Audience erstellen
+## Konfigurieren der Aktivität Audience erstellen{#build-audience-configuration}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_build_audience_dimension"
@@ -44,6 +44,8 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 
 
 Führen Sie die folgenden Schritte aus, um die Aktivität **Zielgruppe erstellen** zu konfigurieren:
+
+![](../assets/workflow-audience.png)
 
 1. Fügen Sie die Aktivität **Zielgruppe erstellen** hinzu.
 1. Definieren Sie einen Titel.
@@ -66,7 +68,7 @@ Gehen Sie wie folgt vor, um eine vorhandene Zielgruppe auszuwählen:
 >
 >Wenn Sie eine **[!UICONTROL Audience erstellen]** Aktivität, die auf eine Experience Platform-Audience abzielt, müssen Sie eine **[!UICONTROL Dimensionsänderung]** -Aktivität anschließend, um sicherzustellen, dass die Zielgruppendimension der Zielgruppe auf &quot;Empfänger&quot;gesetzt ist. Unten auf dieser Seite finden Sie ein Workflow-Beispiel.
 
-## Beispiele
+## Beispiele{#build-audience-examples}
 
 Im Folgenden finden Sie ein Beispiel für einen Workflow mit zwei Aktivitäten vom Typ **Zielgruppe erstellen**. Die erste Version richtet sich an die Zielgruppe derjenigen, die Poker spielen, gefolgt von einem E-Mail-Versand. Die zweite Version ist die Zielgruppe der VIP-Kundinnen und -Kunden, gefolgt von einem SMS-Versand.
 
