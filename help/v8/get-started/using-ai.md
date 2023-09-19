@@ -2,9 +2,9 @@
 title: Verwenden eines KI-gestützten wissensbasierten Assistenten im Campaign Web
 description: Verwenden eines KI-gestützten wissensbasierten Assistenten im Campaign Web
 badge: label="Beta"
-source-git-commit: f1351a4955605b82c6eddef441f3f76ec4850d9d
+source-git-commit: ece1f62e3c1e1378c576e55d8918ee145e17271f
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '356'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ Künstliche Intelligenz und Modelle des maschinellen Lernens werden im Laufe der
 
 ## Empfehlungen  {#recommendations-ai}
 
-Bei der Frage im KI-gestützten Knowledge Assistant wird der aktuelle Produktkontext, d. h. der Kampagnenbildschirm, in dem Sie sich befinden, berücksichtigt.
+Bei der Beantwortung einer Frage im KI-gestützten Knowledge Assistant werden der aktuelle Produktkontext, d. h. der Kampagnenbildschirm, in dem Sie sich befinden, und der Inhalt der aktuellen Hilfeseite berücksichtigt.
 
 Wenn Sie eine Frage stellen, empfehlen wir Ihnen Folgendes, um das Beste aus der KI-gestützten Knowledge Assistant zu erhalten:
 
