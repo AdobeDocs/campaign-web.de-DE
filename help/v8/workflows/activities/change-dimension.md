@@ -3,10 +3,10 @@ audience: end-user
 title: Workflow-Aktivität Dimensionsänderung verwenden
 description: Erfahren Sie, wie Sie die Workflow-Aktivität Dimensionsänderung verwenden
 badge: label="Beta"
-source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
+source-git-commit: 524d690ad5dbaa1d63c53cece05207eb0d745540
 workflow-type: tm+mt
-source-wordcount: '210'
-ht-degree: 12%
+source-wordcount: '292'
+ht-degree: 9%
 
 ---
 
@@ -23,7 +23,10 @@ ht-degree: 12%
 >title="Dimensionsaktivität ändern"
 >abstract="Mithilfe dieser Aktivität können Sie die Zielgruppendimension beim Erstellen einer Audience ändern. Die Achse wird entsprechend der Datenvorlage und der Eingabedimension verschoben. Sie können beispielsweise von der Dimension &quot;Verträge&quot;zur Dimension &quot;Kunden&quot;wechseln."
 
-Die **Dimensionsänderung** -Aktivität **Targeting** -Aktivität. Mithilfe dieser Aktivität können Sie die Zielgruppendimension beim Erstellen einer Audience ändern. Diese Aktivität verschiebt die Achse je nach Datenvorlage und der eingegebenen Dimension. Sie können beispielsweise von der Dimension &quot;Verträge&quot;zur Dimension &quot;Kunden&quot;wechseln.
+Die **Dimensionsänderung** -Aktivität **Targeting** -Aktivität. Mithilfe dieser Aktivität können Sie die Zielgruppendimension bei der Workflow-Erstellung ändern.
+Diese Aktivität verschiebt die Achse je nach Datenvorlage und der eingegebenen Dimension.
+
+Sie können beispielsweise die Zielgruppendimension eines Workflows von &quot;Empfänger&quot;in &quot;Abonnentenanwendung&quot;ändern, um Push-Benachrichtigungen an die Zielempfänger zu senden.
 
 ## Konfigurieren der Aktivität Dimensionsänderung {#configure}
 
@@ -39,4 +42,8 @@ Führen Sie die folgenden Schritte aus, um die **Dimensionsänderung** Aktivitä
 
 ## Beispiel {#example}
 
+In diesem Beispiel möchten wir einen SMS-Versand an alle Profile senden, die einen Kauf getätigt haben. Dazu verwenden wir zunächst eine **[!UICONTROL Audience erstellen]** Aktivität, die mit einer benutzerdefinierten Zielgruppendimension &quot;Kauf&quot;verknüpft ist, um alle erfolgten Käufe auszuwählen.
 
+Wir verwenden dann eine **[!UICONTROL Dimensionsänderung]** -Aktivität, um die Zielgruppendimension des Workflows in &quot;Empfänger&quot;zu ändern. Auf diese Weise können wir die Empfänger ansprechen, die der Abfrage entsprechen.
+
+![](assets/workflow-change-dimension-example.png)
