@@ -3,9 +3,9 @@ audience: end-user
 title: E-Mail-Generierung mit dem Inhaltsassistenten
 description: Erste Schritte mit dem Inhaltsassistenten
 badge: label="Beta"
-source-git-commit: 54012ba8df59600298ba8f2f9bca19ea56808466
+source-git-commit: 4203c828c1f112b0c50c06e2b76ba30e89d6cb54
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '418'
 ht-degree: 2%
 
 ---
@@ -15,6 +15,12 @@ ht-degree: 2%
 Der Inhaltsassistent verbessert die Wirkung Ihrer Kommunikation, indem er automatisch komplette E-Mail-Inhalte generiert, Zeit spart und eine konsistente Qualität gewährleistet.
 
 Mit Generative KI können Sie mühelos ansprechende E-Mails erstellen, die mit Ihrer Zielgruppe abgestimmt sind, und so Ihre Kommunikation effektiver und effizienter gestalten.
+
+
+>[!AVAILABILITY]
+>
+>Diese Funktion wird Anfang Oktober verfügbar sein.
+
 
 1. Nachdem Sie Ihren E-Mail-Versand erstellt und konfiguriert haben, klicken Sie auf **[!UICONTROL Inhalt erstellen]**.
 

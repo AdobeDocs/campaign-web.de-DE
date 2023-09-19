@@ -3,9 +3,9 @@ audience: end-user
 title: Text mit dem Inhaltsassistenten
 description: Erste Schritte mit dem Inhaltsassistenten
 badge: label="Beta"
-source-git-commit: 54012ba8df59600298ba8f2f9bca19ea56808466
+source-git-commit: 4203c828c1f112b0c50c06e2b76ba30e89d6cb54
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '351'
 ht-degree: 6%
 
 ---
@@ -16,6 +16,11 @@ ht-degree: 6%
 Nachdem Sie Ihre E-Mails erstellt und personalisiert haben, verwenden Sie den Inhaltsassistenten mit generativer KI, um Ihren Inhalt auf die nächste Stufe zu bringen.
 
 Der Inhaltsassistent kann Ihnen dabei helfen, die Wirkung Ihrer Sendungen zu optimieren, indem Sie verschiedene Inhalte vorschlagen, die mit größerer Wahrscheinlichkeit bei Ihrer Zielgruppe ankommen.
+
+
+>[!AVAILABILITY]
+>
+>Diese Funktion wird Anfang Oktober verfügbar sein.
 
 1. Nachdem Sie Ihren E-Mail-Versand erstellt und konfiguriert haben, klicken Sie auf **[!UICONTROL Inhalt bearbeiten]**.
 

@@ -2,10 +2,10 @@
 title: Verwenden eines KI-gestützten wissensbasierten Assistenten im Campaign Web
 description: Verwenden eines KI-gestützten wissensbasierten Assistenten im Campaign Web
 badge: label="Beta"
-source-git-commit: 4062288a3e215a9d178cdc20099180ad77374d4f
+source-git-commit: 4203c828c1f112b0c50c06e2b76ba30e89d6cb54
 workflow-type: tm+mt
-source-wordcount: '478'
-ht-degree: 1%
+source-wordcount: '337'
+ht-degree: 0%
 
 ---
 
@@ -13,24 +13,29 @@ ht-degree: 1%
 
 Erhalten Sie schnelle, KI-generierte Antworten auf Basis der Produktdokumentation und Ihres aktuellen Produktkontexts mit dem KI-gestützten Know-how-Assistenten in den kontextbezogenen Hilfefeldern des Produkts.
 
+>[!AVAILABILITY]
+>
+>Diese Funktion wird Anfang Oktober verfügbar sein.
+
 Die **Knowledge Assistant bei Gen AI** eingebettet in die kontextuelle Hilfe revolutioniert die Dokumentationssuche und Beantwortung von Fragen durch mühelose Durchblättern von umfangreichen Dokumentations-Repositorys und zeigt sofort die benötigten Informationen an.
 
 Dank der Funktionen von Campaign Gen AI verändert dieser Assistent Ihr Erlebnis, indem er Informationen abruft und Probleme löst. Unsere Wissensassistentin mit Gen AI ist Ihr ultimativer Begleiter für komplexe Aufgaben oder für die Navigation in umfangreichen Dokumenten. Sie bietet Ihnen dabei höchste Effizienz und Genauigkeit in jeder Interaktion.
 
-![](assets/ask-a-question.png)
+![](assets/ask-a-question.png){width="70%" align="left"}
 
+<!--
+## Consent {#consent-ai}
 
-## Einverständnis {#consent-ai}
+Campaign knowledge assistant embeeded in the contextual help boxes uses AI. Your use of this capability constitutes consent that the information you provide in your session will be collected, used, disclosed, and retained by Adobe in accordance with the terms of Adobe's Customer Feedback Program. Please do not provide any personal information about yourself or other parties (including your name or contact information) in the knowledge assistant.
 
-Kampagnenkenntnis-Assistent, der in die kontextuellen Hilfeseiten eingebettet ist, verwendet KI. Ihre Nutzung dieser Funktion bedeutet, dass die von Ihnen in Ihrer Sitzung bereitgestellten Informationen von Adobe gemäß den Bestimmungen des Adobe Feedback-Programms erfasst, verwendet, offen gelegt und aufbewahrt werden. Bitte machen Sie keine persönlichen Informationen über Sie oder andere Personen (einschließlich Ihres Namens oder Ihrer Kontaktdaten) in der Wissensassistenten-Einrichtung.
+## Privacy {#privacy-ai}
 
-## Datenschutz {#privacy-ai}
+Your data is encrypted and private following our standard data protection practices. Learn more about [Adobe Privacy Policies](https://www.adobe.com/privacy/policy.html){target="_blank"}.
 
-Ihre Daten sind verschlüsselt und privat nach unseren Standard-Datenschutzpraktiken. Weitere Informationen [Adobe-Datenschutzrichtlinien](https://www.adobe.com/de/privacy/policy.html){target="_blank"}.
+The knowledge assistant AI capability does not use your data to train our models. We do not allow any partners or 3rd parties to use your data for training their models or any other purpose.
 
-Die KI-Funktion des Wissensassistenten verwendet Ihre Daten nicht zum Trainieren unserer Modelle. Wir erlauben es keinem Partner oder Dritten, Ihre Daten für die Schulung seiner Modelle oder für andere Zwecke zu verwenden.
-
-Spezifische Informationen zu Adobe AI-Richtlinien in Experience Cloud-Apps und -Lösungen finden Sie unter [diese Seite](https://business.adobe.com/products/sensei/adobe-sensei.html){target="_blank"}.
+For information specific to Adobe AI policies in Experience Cloud apps and solutions, refer to [this page](https://business.adobe.com/products/sensei/adobe-sensei.html){target="_blank"}.
+-->
 
 ## Antworten {#answers-ai}
 

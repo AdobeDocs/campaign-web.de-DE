@@ -3,9 +3,9 @@ audience: end-user
 title: Erste Schritte mit dem Inhaltsassistenten
 description: Erste Schritte mit dem Inhaltsassistenten
 badge: label="Beta"
-source-git-commit: 9e47edb0b38390a9afd7a1ad2d4b25050d0b1306
+source-git-commit: 4203c828c1f112b0c50c06e2b76ba30e89d6cb54
 workflow-type: tm+mt
-source-wordcount: '150'
+source-wordcount: '157'
 ht-degree: 3%
 
 ---
@@ -21,6 +21,10 @@ ht-degree: 3%
 Der Inhaltsassistent, der auf generativer KI basiert, ist ein wertvolles Werkzeug zur Verbesserung von E-Mail-Inhalten. Sie vereinfacht die Personalisierung und Inhaltsverbesserung und optimiert Ihre E-Mail-Sendungen, um besser auf Ihre Zielgruppe einzugehen.
 
 Diese Funktion spart Zeit und gewährleistet konsistente Qualität, indem automatisch vollständige E-Mail-Inhalte generiert werden. Mit Generative AI können Sie mühelos ansprechende E-Mails erstellen und so die Effektivität und Effizienz Ihrer Kommunikation steigern.
+
+>[!AVAILABILITY]
+>
+>Diese Funktion wird Anfang Oktober verfügbar sein.
 
 
 <table style="table-layout:fixed"><tr style="border: 0;">
