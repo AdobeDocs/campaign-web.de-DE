@@ -3,7 +3,7 @@ audience: end-user
 title: Arbeiten mit Abonnementdiensten
 description: Erfahren Sie, wie Sie Dienste im Adobe Campaign Web erstellen und verwalten
 badge: label="Beta"
-source-git-commit: 7a8057a0d57b28092711ca2d7f47fffefdc06df3
+source-git-commit: b811ce7649e833c5df2e73ca787e0c314c28035e
 workflow-type: tm+mt
 source-wordcount: '1099'
 ht-degree: 3%
@@ -28,7 +28,7 @@ Es können mehrere Dienste parallel definiert werden, z. B. Newsletter für best
 
 Weiterführende Informationen zur Verwaltung von An- und Abmeldungen finden Sie im Abschnitt [Dokumentation zu Campaign v8 (Clientkonsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/subscriptions.html){target="_blank"}.
 
-## Anmeldedienste aufrufen {#access-services}
+## Zugriff auf Abonnementdienste {#access-services}
 
 Gehen Sie wie folgt vor, um auf die für Ihre Plattform verfügbaren Anmeldedienste zuzugreifen.
 
