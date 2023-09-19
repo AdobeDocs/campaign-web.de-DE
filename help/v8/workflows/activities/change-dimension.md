@@ -3,7 +3,7 @@ audience: end-user
 title: Workflow-Aktivität Dimensionsänderung verwenden
 description: Erfahren Sie, wie Sie die Workflow-Aktivität Dimensionsänderung verwenden
 badge: label="Beta"
-source-git-commit: 524d690ad5dbaa1d63c53cece05207eb0d745540
+source-git-commit: dbe1bc0653c5c486b6277384a9cb7dddda51ee82
 workflow-type: tm+mt
 source-wordcount: '292'
 ht-degree: 9%
@@ -46,4 +46,7 @@ In diesem Beispiel möchten wir einen SMS-Versand an alle Profile senden, die ei
 
 Wir verwenden dann eine **[!UICONTROL Dimensionsänderung]** -Aktivität, um die Zielgruppendimension des Workflows in &quot;Empfänger&quot;zu ändern. Auf diese Weise können wir die Empfänger ansprechen, die der Abfrage entsprechen.
 
+<!--
 ![](assets/workflow-change-dimension-example.png)
+-->
+
