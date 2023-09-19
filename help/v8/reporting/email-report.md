@@ -3,10 +3,10 @@ audience: end-user
 title: E-Mail-Versandberichte
 description: Erfahren Sie, wie Sie auf E-Mail-Versandberichte zugreifen und diese verwenden können
 badge: label="Beta"
-source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
+source-git-commit: f80a224665e8c70c2efce3af9a8f60a07fadd5dc
 workflow-type: tm+mt
 source-wordcount: '1407'
-ht-degree: 93%
+ht-degree: 92%
 
 ---
 
@@ -24,7 +24,7 @@ Der **E-Mail-Versandbericht** bietet umfassende Einblicke und Daten, die speziel
 
    * **[!UICONTROL Ursprüngliche Zielgruppe]**: Gesamtzahl der Zielgruppenempfängerinnen und -empfänger.
 
-   * **[!UICONTROL Zu versenden]**: Gesamtzahl der nach erfolgter Versandanalyse zu versendenden Nachrichten.
+   * **[!UICONTROL Zu liefern]**: Gesamtzahl der nach der Versandvorbereitung zu versendenden Nachrichten.
 
    * **[!UICONTROL Ausschluss]**: Gesamtzahl der vom Versand an die Zielgruppe ausgeschlossenen Nachrichten.
 +++
@@ -35,7 +35,7 @@ Der **E-Mail-Versandbericht** bietet umfassende Einblicke und Daten, die speziel
 
   +++ Erfahren Sie mehr über die Metriken des E-Mail-Kampagnen-Berichts.
 
-   * **[!UICONTROL Gesendete Nachricht]**: Gesamtzahl der nach erfolgter Versandanalyse zu versendenden Nachrichten.
+   * **[!UICONTROL Nachricht gesendet]**: Gesamtzahl der nach der Versandvorbereitung zu versendenden Nachrichten.
 
    * **[!UICONTROL Erfolg]**: Anzahl der erfolgreich verarbeiteten Nachrichten im Verhältnis zur Anzahl der zu versendenden Nachrichten.
 

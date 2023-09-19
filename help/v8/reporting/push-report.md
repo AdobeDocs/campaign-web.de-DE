@@ -3,10 +3,10 @@ audience: end-user
 title: Push-Versandberichte
 description: Erfahren Sie, wie Sie auf Push-Versandberichte zugreifen und diese verwenden können
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
-workflow-type: ht
+source-git-commit: f80a224665e8c70c2efce3af9a8f60a07fadd5dc
+workflow-type: tm+mt
 source-wordcount: '297'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
@@ -27,7 +27,7 @@ Der **Push-Versandbericht** bietet einen umfassenden Überblick über den Push-K
 
   +++ Erfahren Sie mehr über die Metriken des Push-Versandberichts.
 
-   * **[!UICONTROL Insgesamt gesendet]**: Gesamtzahl der während der Versandanalyse verarbeiteten Nachrichten.
+   * **[!UICONTROL Gesendete Summe]**: Gesamtzahl der bei der Versandvorbereitung verarbeiteten Nachrichten.
 
    * **[!UICONTROL Zugestellt]**: Anzahl der erfolgreich gesendeten Nachrichten im Verhältnis zur Gesamtzahl der gesendeten Nachrichten.
 
@@ -43,7 +43,7 @@ Der **Push-Versandbericht** bietet einen umfassenden Überblick über den Push-K
 
   +++ Erfahren Sie mehr über die Metriken des Push-Versandberichts.
 
-   * **[!UICONTROL Zu versenden]**: Gesamtzahl der während der Versandanalyse verarbeiteten Nachrichten.
+   * **[!UICONTROL Zu liefern]**: Gesamtzahl der bei der Versandvorbereitung verarbeiteten Nachrichten.
 
    * **[!UICONTROL Ausnahmen]**: Anzahl der Profile, die aus der Analyse ausgeschlossen wurden.
 

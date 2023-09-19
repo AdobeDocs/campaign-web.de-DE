@@ -3,10 +3,10 @@ audience: end-user
 title: Kampagnenberichte
 description: Erfahren Sie, wie Sie auf Kampagnenberichte zugreifen und diese verwenden können
 badge: label="Beta"
-source-git-commit: 173bed2c5651e09965a92a848b07d3368c10bb42
+source-git-commit: f80a224665e8c70c2efce3af9a8f60a07fadd5dc
 workflow-type: tm+mt
 source-wordcount: '1853'
-ht-degree: 95%
+ht-degree: 89%
 
 ---
 
@@ -54,7 +54,7 @@ Um auf Ihren Kampagnenbericht zuzugreifen, klicken Sie im Dashboard Ihrer Kampag
 
   +++ Erfahren Sie mehr über die Metriken des E-Mail-Kampagnen-Berichts.
 
-   * **[!UICONTROL Insgesamt gesendet]**: Gesamtzahl der während der Versandanalyse verarbeiteten Nachrichten.
+   * **[!UICONTROL Gesendete Summe]**: Gesamtzahl der bei der Versandvorbereitung verarbeiteten Nachrichten.
 
    * **[!UICONTROL Zugestellt]**: Anzahl der erfolgreich gesendeten Nachrichten im Verhältnis zur Gesamtzahl der gesendeten Nachrichten.
 
@@ -74,7 +74,7 @@ Um auf Ihren Kampagnenbericht zuzugreifen, klicken Sie im Dashboard Ihrer Kampag
 
    * **[!UICONTROL Ursprüngliche Zielgruppe]**: Gesamtzahl der Zielgruppenempfängerinnen und -empfänger.
 
-   * **[!UICONTROL Zu versendende Nachricht]**: Gesamtzahl der nach erfolgter Versandanalyse zu versendenden Nachrichten.
+   * **[!UICONTROL Zu sendende Nachricht]**: Gesamtzahl der nach der Versandvorbereitung zu versendenden Nachrichten.
 
    * **[!UICONTROL Aufgrund von Regeln abgelehnt]**: Gesamtzahl der Adressen, die während der Analyse beim Anwenden von Regeln ignoriert wurden: fehlende Adresse, in Quarantäne, auf Blockierungsliste usw.
 
@@ -86,7 +86,7 @@ Um auf Ihren Kampagnenbericht zuzugreifen, klicken Sie im Dashboard Ihrer Kampag
 
   +++ Erfahren Sie mehr über die Metriken des E-Mail-Kampagnen-Berichts.
 
-   * **[!UICONTROL Zu versendende Nachricht]**: Gesamtzahl der nach erfolgter Versandanalyse zu versendenden Nachrichten.
+   * **[!UICONTROL Zu sendende Nachricht]**: Gesamtzahl der nach der Versandvorbereitung zu versendenden Nachrichten.
 
    * **[!UICONTROL Erfolg]**: Anzahl der erfolgreich verarbeiteten Nachrichten im Verhältnis zur Anzahl der zu versendenden Nachrichten.
 
@@ -248,7 +248,7 @@ Um auf Ihren Kampagnenbericht zuzugreifen, klicken Sie im Dashboard Ihrer Kampag
 
   +++ Erfahren Sie mehr über die Metriken des SMS-Kampagnenberichts.
 
-   * **[!UICONTROL Insgesamt gesendet]**: Gesamtzahl der während der Versandanalyse verarbeiteten Nachrichten.
+   * **[!UICONTROL Gesendete Summe]**: Gesamtzahl der bei der Versandvorbereitung verarbeiteten Nachrichten.
 
    * **[!UICONTROL Zugestellt]**: Anzahl der erfolgreich gesendeten Nachrichten im Verhältnis zur Gesamtzahl der gesendeten Nachrichten.
 
@@ -266,7 +266,7 @@ Um auf Ihren Kampagnenbericht zuzugreifen, klicken Sie im Dashboard Ihrer Kampag
 
    * **[!UICONTROL Ursprüngliche Zielgruppe]**: Gesamtzahl der Zielgruppenempfängerinnen und -empfänger.
 
-   * **[!UICONTROL Zu versendende Nachricht]**: Gesamtzahl der nach erfolgter Versandanalyse zu versendenden Nachrichten.
+   * **[!UICONTROL Zu sendende Nachricht]**: Gesamtzahl der nach der Versandvorbereitung zu versendenden Nachrichten.
 
    * **[!UICONTROL Aufgrund von Regeln abgelehnt]**: Gesamtzahl der Adressen, die während der Analyse beim Anwenden von Regeln ignoriert wurden: fehlende Adresse, in Quarantäne, auf Blockierungsliste usw.
 
@@ -278,7 +278,7 @@ Um auf Ihren Kampagnenbericht zuzugreifen, klicken Sie im Dashboard Ihrer Kampag
 
   +++ Erfahren Sie mehr über die Metriken des SMS-Kampagnenberichts.
 
-   * **[!UICONTROL Zu versendende Nachricht]**: Gesamtzahl der nach erfolgter Versandanalyse zu versendenden Nachrichten.
+   * **[!UICONTROL Zu sendende Nachricht]**: Gesamtzahl der nach der Versandvorbereitung zu versendenden Nachrichten.
 
    * **[!UICONTROL Erfolg]**: Anzahl der erfolgreich verarbeiteten Nachrichten im Verhältnis zur Anzahl der zu versendenden Nachrichten.
 
@@ -310,7 +310,7 @@ Um auf Ihren Kampagnenbericht zuzugreifen, klicken Sie im Dashboard Ihrer Kampag
 
   +++ Erfahren Sie mehr über die Metriken des Push-Kampagnenberichts.
 
-   * **[!UICONTROL Insgesamt gesendet]**: Gesamtzahl der während der Versandanalyse verarbeiteten Nachrichten.
+   * **[!UICONTROL Gesendete Summe]**: Gesamtzahl der bei der Versandvorbereitung verarbeiteten Nachrichten.
 
    * **[!UICONTROL Zugestellt]**: Anzahl der erfolgreich gesendeten Nachrichten im Verhältnis zur Gesamtzahl der gesendeten Nachrichten.
 
@@ -326,7 +326,7 @@ Um auf Ihren Kampagnenbericht zuzugreifen, klicken Sie im Dashboard Ihrer Kampag
 
    * **[!UICONTROL Ursprüngliche Zielgruppe]**: Gesamtzahl der Zielgruppenempfängerinnen und -empfänger.
 
-   * **[!UICONTROL Zu versendende Nachricht]**: Gesamtzahl der nach erfolgter Versandanalyse zu versendenden Nachrichten.
+   * **[!UICONTROL Zu sendende Nachricht]**: Gesamtzahl der nach der Versandvorbereitung zu versendenden Nachrichten.
 
    * **[!UICONTROL Aufgrund von Regeln abgelehnt]**: Gesamtzahl der Adressen, die während der Analyse beim Anwenden von Regeln ignoriert wurden: fehlende Adresse, in Quarantäne, auf Blockierungsliste usw.
 
@@ -336,7 +336,7 @@ Um auf Ihren Kampagnenbericht zuzugreifen, klicken Sie im Dashboard Ihrer Kampag
 
   +++ Erfahren Sie mehr über die Metriken des Push-Kampagnenberichts.
 
-   * **[!UICONTROL Zu versendende Nachricht]**: Gesamtzahl der nach erfolgter Versandanalyse zu versendenden Nachrichten.
+   * **[!UICONTROL Zu sendende Nachricht]**: Gesamtzahl der nach der Versandvorbereitung zu versendenden Nachrichten.
 
    * **[!UICONTROL Erfolg]**: Anzahl der erfolgreich verarbeiteten Nachrichten im Verhältnis zur Anzahl der zu versendenden Nachrichten.
 
