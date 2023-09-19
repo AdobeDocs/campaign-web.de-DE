@@ -3,7 +3,7 @@ audience: end-user
 title: Verwenden der Workflow-Aktivität „Zielgruppe erstellen“
 description: Erfahren Sie, wie Sie die Workflow-Aktivität „Zielgruppe erstellen“ verwenden.
 badge: label="Beta"
-source-git-commit: a69fff5f071ca0d5fbdb2bca0714695724190cde
+source-git-commit: 2894766336d5ac52625175981c6969a0ac5882d8
 workflow-type: tm+mt
 source-wordcount: '485'
 ht-degree: 62%
@@ -74,6 +74,6 @@ Im Folgenden finden Sie ein Beispiel für einen Workflow mit zwei Aktivitäten v
 
 ![](../assets/workflow-audience-example.png)
 
-Hier ist ein weiteres Workflow-Beispiel, bei dem eine Adobe Experience Platform-Audience mit einer Adobe Campaign-Audience kombiniert wird. Damit diese Zielgruppen kombiniert werden können, muss eine **[!UICONTROL Dimensionsänderung]** Aktivität mit der Zielgruppendimension &quot;Empfänger&quot; wird nach der Adobe Experience Platform-Zielgruppe hinzugefügt. [Erfahren Sie, wie Sie eine Dimensionsänderungsaktivität konfigurieren](change-dimension.md)
+Hier ist ein weiteres Workflow-Beispiel, bei dem eine Adobe Experience Platform-Audience mit einer Adobe Campaign-Audience kombiniert wird. Damit diese Zielgruppen kombiniert werden können, muss eine **[!UICONTROL Dimensionsänderung]** Aktivität mit der Zielgruppendimension &quot;Empfänger&quot; wird nach der Adobe Experience Platform-Zielgruppe hinzugefügt. [Erfahren Sie, wie Sie die Aktivität Dimensionsänderung konfigurieren](change-dimension.md)
 
 ![](../assets/workflow-audience-aep.png)

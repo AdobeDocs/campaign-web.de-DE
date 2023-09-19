@@ -3,7 +3,7 @@ audience: end-user
 title: Verwenden der Workflow-Aktivität Audience-Speicherung
 description: Erfahren Sie, wie Sie die Workflow-Aktivität „Verzweigung“ verwenden.
 badge: label="Beta"
-source-git-commit: a8b73ba5664eedf473f09050602a61895993663e
+source-git-commit: 2894766336d5ac52625175981c6969a0ac5882d8
 workflow-type: tm+mt
 source-wordcount: '385'
 ht-degree: 21%
@@ -46,7 +46,7 @@ Führen Sie die folgenden Schritte aus, um die **Audience-Speicherung** Aktivit�
 
 1. Überprüfen Sie die **Ausgehende Transition erzeugen** , wenn Sie eine Transition nach der **Audience-Speicherung** -Aktivität.
 
-Der Inhalt der gespeicherten Audience ist anschließend in der Detailansicht der Audience verfügbar, auf die Sie im Menü **Audiences** zugreifen können. Die in dieser Ansicht verfügbaren Spalten entsprechen den Spalten der in den Workflow eingehenden Transition. **SAve-Zielgruppe** -Aktivität.
+Der Inhalt der gespeicherten Audience ist anschließend in der Detailansicht der Audience verfügbar, auf die Sie im Menü **Audiences** zugreifen können. Die in dieser Ansicht verfügbaren Spalten entsprechen den Spalten der in den Workflow eingehenden Transition. **Audience-Speicherung** -Aktivität.
 
 
 ## Beispiel{#save-audience-example}

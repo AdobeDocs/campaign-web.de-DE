@@ -3,10 +3,10 @@ audience: end-user
 title: Workflow-Aktivität Dimensionsänderung verwenden
 description: Erfahren Sie, wie Sie die Workflow-Aktivität Dimensionsänderung verwenden
 badge: label="Beta"
-source-git-commit: fb144e4b7186717dd0c4049d8ce884998a1adefe
+source-git-commit: 2894766336d5ac52625175981c6969a0ac5882d8
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '296'
+ht-degree: 4%
 
 ---
 

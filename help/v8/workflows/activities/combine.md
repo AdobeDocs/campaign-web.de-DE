@@ -3,7 +3,7 @@ audience: end-user
 title: Verwenden der Workflow-Aktivität „Kombinieren“.
 description: Erfahren Sie, wie Sie die Workflow-Aktivität „Kombinieren“ verwenden.
 badge: label="Beta"
-source-git-commit: 6baf29f6012eb35e247291289160cb1dd3db5d6f
+source-git-commit: 2894766336d5ac52625175981c6969a0ac5882d8
 workflow-type: tm+mt
 source-wordcount: '887'
 ht-degree: 81%
@@ -29,7 +29,7 @@ The **Combine** activity can be placed after any other activity, but not at the 
 * Eine **Schnittmenge** dient dazu, nur die Elemente zu behalten, die den verschiedenen eingehenden Populationen in der Aktivität gemeinsam sind.
 * Ein **Ausschluss** dient dazu, gemäß bestimmten Kriterien entsprechende Elemente aus einer Population auszuschließen.
 
-## Konfigurieren der Kombinationsaktivität {#combine-configuration}
+## Konfigurieren der Aktivität Kombinieren {#combine-configuration}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_intersection_merging_options"

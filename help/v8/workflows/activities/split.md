@@ -3,10 +3,10 @@ audience: end-user
 title: Verwenden der Workflow-Aktivität „Aufspaltung“
 description: Weitere Informationen zur Verwendung der Workflow-Aktivität „Aufspaltung“
 badge: label="Beta"
-source-git-commit: dfd3c62a8eeb6be3e5e63e7a1fdf352c280adbd0
+source-git-commit: 2894766336d5ac52625175981c6969a0ac5882d8
 workflow-type: tm+mt
 source-wordcount: '652'
-ht-degree: 94%
+ht-degree: 92%
 
 ---
 
@@ -54,7 +54,7 @@ Folgen Sie diesen Schritten, um die Aktivität **Aufspaltung** zu konfigurieren:
    >
    > Stellen Sie vor der Konfiguration Ihrer Teilmengen sicher, dass Sie sie in der richtigen Reihenfolge hinzugefügt haben, da ihre Position nicht geändert werden kann.
 
-1. Sobald die Teilmengen hinzugefügt wurden, zeigt die Aktivität für jede Teilmenge eine ausgehende Transition. Es wird dringend empfohlen, die Titel jeder Teilmenge zu ändern, um sie in der Workflow-Arbeitsfläche leicht zu identifizieren.
+1. Sobald die Teilmengen hinzugefügt wurden, zeigt die Aktivität für jede Teilmenge eine ausgehende Transition. Es wird dringend empfohlen, die Beschriftung jeder Teilmenge zu ändern, um sie in der Arbeitsfläche des Workflows leicht zu identifizieren.
 
 1. Konfigurieren Sie, wie jede Teilmenge die eingehende Population filtern soll. Gehen Sie dazu wie folgt vor:
 
