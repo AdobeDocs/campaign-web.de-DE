@@ -3,7 +3,7 @@ audience: end-user
 title: Erste Schritte mit Kampagnen
 description: Erfahren Sie, wie Sie mit kanalübergreifenden Kampagnen beginnen
 badge: label="Beta"
-source-git-commit: a7a7a345e7e01f30516d2925afc46cfe32738aa4
+source-git-commit: 1bbbcd0ad2e83bad2e35c28184d13a63da77c081
 workflow-type: tm+mt
 source-wordcount: '604'
 ht-degree: 77%
@@ -26,7 +26,7 @@ In der Kampagnenliste stehen zwei Registerkarten zur Verfügung:
 
 * Die Registerkarte **Durchsuchen** enthält alle vorhandenen Kampagnen. Sie können auf eine Kampagne klicken, um ihr Dashboard zu öffnen, oder eine neue Kampagne erstellen, indem Sie auf die Schaltfläche **Kampagne erstellen** klicken. Weitere Informationen finden Sie in [diesem Abschnitt](create-campaigns.md#create-campaigns).
 
-* Auf der Registerkarte **Vorlagen** sind alle verfügbaren Kampagnenvorlagen aufgeführt. Sie können eine vorhandene Vorlage anzeigen oder eine neue erstellen. [Weitere Informationen](manage-campaign-templates.md)
+* Auf der Registerkarte **Vorlagen** sind alle verfügbaren Kampagnenvorlagen aufgeführt. Sie können eine vorhandene Vorlage anzeigen oder eine neue erstellen. [Weitere Informationen](#manage-campaign-templates)
 
 ![Liste der Kampagnen](assets/campaign-list.png)
 
