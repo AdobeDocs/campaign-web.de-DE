@@ -3,9 +3,9 @@ audience: end-user
 title: Verwenden der Workflow-Aktivität „Aufspaltung“
 description: Weitere Informationen zur Verwendung der Workflow-Aktivität „Aufspaltung“
 badge: label="Beta"
-source-git-commit: 173141ec198b4d451a7b388f0e28a29230a11396
+source-git-commit: dfd3c62a8eeb6be3e5e63e7a1fdf352c280adbd0
 workflow-type: tm+mt
-source-wordcount: '649'
+source-wordcount: '652'
 ht-degree: 94%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 94%
 
 Die Aktivität **Aufspaltung** ist eine Aktivität zur **Zielgruppenbestimmung**, mit der eingehende Populationen basierend auf unterschiedlichen Auswahlkriterien in mehrere Teilmengen segmentieren können, z. B. Filterregeln oder Populationsgröße.
 
-## Konfiguration {#general}
+## Konfigurieren der Aufspaltungsaktivität {#split-configuration}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_filter"
@@ -78,7 +78,7 @@ Folgen Sie diesen Schritten, um die Aktivität **Aufspaltung** zu konfigurieren:
 
 Der Aktivität ist jetzt konfiguriert. Bei der Ausführung des Workflows wird die Population in die verschiedenen Teilmengen segmentiert, und zwar in der Reihenfolge, in der diese der Aktivität hinzugefügt wurden.
 
-## Beispiel
+## Beispiel{#split-example}
 
 Im folgenden Beispiel wird die Aktivität **[!UICONTROL Aufspaltung]** verwendet, um eine Zielgruppe basierend auf dem Kommunikationskanal, den wir verwenden möchten, in verschiedene Teilmengen zu unterteilen:
 

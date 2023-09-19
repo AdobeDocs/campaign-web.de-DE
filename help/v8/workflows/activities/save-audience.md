@@ -3,10 +3,10 @@ audience: end-user
 title: Verwenden der Workflow-Aktivität Audience-Speicherung
 description: Erfahren Sie, wie Sie die Workflow-Aktivität „Verzweigung“ verwenden.
 badge: label="Beta"
-source-git-commit: d0bfb97c3c06f80a6c429fc0c924b339397447d2
+source-git-commit: a8b73ba5664eedf473f09050602a61895993663e
 workflow-type: tm+mt
-source-wordcount: '319'
-ht-degree: 17%
+source-wordcount: '385'
+ht-degree: 21%
 
 ---
 
@@ -24,13 +24,13 @@ Die **Audience-Speicherung** -Aktivität **Targeting** -Aktivität. Diese Aktivi
 
 Diese Aktivität dient im Wesentlichen dazu, innerhalb desselben Workflows berechnete Populationen in wiederverwendbare Audiences umzuwandeln. Verbinden Sie ihn mit anderen Targeting-Aktivitäten, z. B. einer **Audience erstellen** oder **Kombinieren** -Aktivität.
 
-## Konfiguration
+## Konfigurieren Sie die Aktivität Audience-Speicherung .{#save-audience-configuration}
 
 Führen Sie die folgenden Schritte aus, um die **Audience-Speicherung** Aktivität:
 
-1. Hinzufügen einer **Audience-Speicherung** -Aktivität zu Ihrem Workflow hinzu.
+![](../assets/workflow-save-audience.png)
 
-   ![](../assets/workflow-save-audience.png)
+1. Hinzufügen einer **Audience-Speicherung** -Aktivität zu Ihrem Workflow hinzu.
 
 1. Im **Modus** in der Dropdown-Liste die gewünschte Aktion auswählen:
 
@@ -49,6 +49,8 @@ Führen Sie die folgenden Schritte aus, um die **Audience-Speicherung** Aktivit�
 Der Inhalt der gespeicherten Audience ist anschließend in der Detailansicht der Audience verfügbar, auf die Sie im Menü **Audiences** zugreifen können. Die in dieser Ansicht verfügbaren Spalten entsprechen den Spalten der in den Workflow eingehenden Transition. **SAve-Zielgruppe** -Aktivität.
 
 
-## Beispiel
+## Beispiel{#save-audience-example}
+
+Im folgenden Beispiel wird eine einfache Zielgruppenaktualisierung anhand der Zielgruppenbestimmung veranschaulicht. Eine Planung wird hinzugefügt, um den Workflow einmal monatlich auszuführen. Eine Abfrage ruft alle Profile ab, die für die verschiedenen verfügbaren Anwendungsdienste angemeldet sind. Die **Audience-Speicherung** aktualisiert in diesem Fall die angegebene Audience, indem die Profile, die seit der letzten Ausführung des Workflows den Informationsdienst abbestellt haben, gelöscht und die neuen Abonnenten hinzugefügt werden.
 
 

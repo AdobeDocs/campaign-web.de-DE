@@ -3,9 +3,9 @@ audience: end-user
 title: Verwendung der Workflow-Aktivität „Anreicherung“
 description: Erfahren Sie, wie Sie die Workflow-Aktivität „Anreicherung“ verwenden.
 badge: label="Beta"
-source-git-commit: 1c99f8cecea8d53af463f5d37e6f28f227f93d6a
+source-git-commit: dfd3c62a8eeb6be3e5e63e7a1fdf352c280adbd0
 workflow-type: tm+mt
-source-wordcount: '668'
+source-wordcount: '670'
 ht-degree: 91%
 
 ---
@@ -45,7 +45,7 @@ Nachdem die Anreicherungsdaten zum Workflow hinzugefügt wurden, können sie in 
 
 Sie können beispielsweise der Workflow-Arbeitstabelle Informationen zu Käufen von Kundinnen und Kunden hinzufügen und diese Daten verwenden, um E-Mails mit ihrem neuesten Kauf oder dem für diese Käufe ausgegebenen Betrag zu personalisieren.
 
-## Allgemeine Konfiguration {#general}
+## Konfigurieren der Anreicherungsaktivität {#enrichment-configuration}
 
 Führen Sie die folgenden Schritte aus, um die Aktivität **Anreicherung** zu konfigurieren:
 
@@ -76,7 +76,7 @@ In diesem komplexeren Anwendungsfall wählen wir eine Sammlungsrelation aus, die
 * einen Filter: Elemente herausfiltern, die über 100 € liegen
 * eine Sortierung: absteigende Sortierung nach dem Feld **Bestelldatum**.
 
-### Fügen Sie das Attribut hinzu.
+### Fügen Sie das Attribut hinzu. {#add-attribute}
 
 Hier wählen Sie die Sammlungsrelation aus, um sie als Anreicherungsdaten zu verwenden.
 
@@ -86,7 +86,7 @@ Hier wählen Sie die Sammlungsrelation aus, um sie als Anreicherungsdaten zu ver
 
 ![](../assets/workflow-enrichment3.png)
 
-### Definieren Sie die Sammlungseinstellungen.
+### Definieren Sie die Sammlungseinstellungen.{#collection-settings}
 
 Definieren Sie dann, wie die Daten erfasst werden und wie viele Einträge abgerufen werden sollen.
 
@@ -99,7 +99,7 @@ Wenn Sie beispielsweise die durchschnittliche Anzahl der Käufe für eine Person
 
 ![](../assets/workflow-enrichment5.png)
 
-### Definieren von Filtern
+### Definieren von Filtern{#collection-filters}
 
 Hier definieren wir den Maximalwert für das Anreicherungsattribut. Wir filtern Elemente heraus, die mehr als 100 € betragen.
 
@@ -109,7 +109,7 @@ Hier definieren wir den Maximalwert für das Anreicherungsattribut. Wir filtern 
 
 ![](../assets/workflow-enrichment6.png)
 
-### Definieren der Sortierung
+### Definieren der Sortierung{#collection-sorting}
 
 Jetzt müssen wir eine Sortierung anwenden, um die drei **letzten** Käufe abzurufen.
 

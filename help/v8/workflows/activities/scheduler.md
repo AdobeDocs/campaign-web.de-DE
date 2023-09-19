@@ -3,10 +3,10 @@ audience: end-user
 title: Verwenden der Workflow-Aktivität Planung
 description: Erfahren Sie, wie Sie die Workflow-Aktivität Planung verwenden.
 badge: label="Beta"
-source-git-commit: 9b945dcd4151e536e8a8be904100730c86e483b7
+source-git-commit: 4f53f8765aeb2254a52eb48591d5e14250afc69d
 workflow-type: tm+mt
-source-wordcount: '519'
-ht-degree: 25%
+source-wordcount: '518'
+ht-degree: 24%
 
 ---
 
@@ -22,13 +22,13 @@ ht-degree: 25%
 
 Die **Planung** -Aktivität **Flusssteuerung** -Aktivität. Damit können Sie den Beginn des Workflows planen. Diese Aktivität sollte als geplanter Start betrachtet werden. Sie kann nur als erste Aktivität des Workflows verwendet werden.
 
-## Best Practices
+## Best Practices{#scheduler-best-practices}
 
 * Es wird empfohlen, Workflows nicht öfter als alle 15 Minuten auszuführen, da die Gesamtleistung des Systems beeinträchtigt werden kann und Blöcke in der Datenbank entstehen können.
 * Wenn Sie in Ihrem Workflow einen einmaligen Versand senden möchten, können Sie eine Planungsaktivität hinzufügen und diese auf die Ausführung einstellen **Einmal**. Sie können auch die **Zeitplan** in den Versandeinstellungen.
-* Wenn Sie einen wiederkehrenden Versand in Ihrem Workflow durchführen möchten, müssen Sie eine **Planung** und legen Sie die Ausführungshäufigkeit fest. Die Aktivität Wiederkehrender Versand ermöglicht es nicht, einen Zeitplan festzulegen.
+* Wenn Sie einen wiederkehrenden Versand in Ihrem Workflow durchführen möchten, müssen Sie eine **Planung** und legen Sie die Ausführungshäufigkeit fest. Die Aktivität Wiederkehrender Versand ermöglicht die Festlegung eines Zeitplans nicht.
 
-## Konfiguration
+## Konfiguration{#scheduler-configuration}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_schedule_validity"
@@ -43,9 +43,9 @@ Die **Planung** -Aktivität **Flusssteuerung** -Aktivität. Damit können Sie de
 
 Führen Sie die folgenden Schritte aus, um die **Planung** Aktivität:
 
-1. Hinzufügen einer **Planung** -Aktivität zu Ihrem Workflow hinzu.
+![](../assets/workflow-scheduler.png)
 
-   ![](../assets/workflow-scheduler.png)
+1. Hinzufügen einer **Planung** -Aktivität zu Ihrem Workflow hinzu.
 
 1. Konfigurieren Sie die **Ausführungsfrequenz**:
 
@@ -73,9 +73,7 @@ Führen Sie die folgenden Schritte aus, um die **Planung** Aktivität:
 >
 >Wenn Sie den Workflow sofort starten möchten, können Sie auf die Schaltfläche **Ausstehende Aufgabe ausführen** in der oberen Symbolleiste der Planung. Diese Schaltfläche ist nur verfügbar, wenn Sie den Workflow gestartet haben.
 
-Anmerkungen:
-
-## Beispiel
+## Beispiel{#scheduler-example}
 
 Im folgenden Beispiel wird die Aktivität so konfiguriert, dass der Workflow mehrmals am Tag um 9 Uhr und 12 Uhr jeden Wochentag vom 1. Oktober 2023 bis zum 1. Januar 2024 ausgeführt wird.
 

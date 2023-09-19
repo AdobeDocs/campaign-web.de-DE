@@ -3,9 +3,9 @@ audience: end-user
 title: Workflow-Aktivität "Deduplizierung" verwenden
 description: Erfahren Sie, wie Sie die Workflow-Aktivität Deduplizierung verwenden.
 badge: label="Beta"
-source-git-commit: 1f23eafc80e21b63485a774fd9052c8d03051685
+source-git-commit: dfd3c62a8eeb6be3e5e63e7a1fdf352c280adbd0
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '481'
 ht-degree: 18%
 
 ---
@@ -65,8 +65,8 @@ Führen Sie die folgenden Schritte aus, um die **Deduplizierung** Aktivität:
 
 1. Überprüfen Sie die **Komplement erzeugen** , wenn Sie die verbleibende Population ausnutzen möchten. Das Komplement besteht aus allen Duplikaten. Der Aktivität wird daraufhin eine zusätzliche Transition hinzugefügt.
 
-## Beispiel{#example}
+## Beispiel{#deduplication-example}
 
-Im folgenden Beispiel wird eine Deduplizierungsaktivität verwendet, um Dubletten von der Zielgruppe auszuschließen, bevor ein Versand durchgeführt wird. Die identifizierten Dubletten werden einer dedizierten duplizierten Audience hinzugefügt, die bei Bedarf wiederverwendet werden kann. Wir verwenden die **Email** -Feld zur Identifizierung der Dubletten. Wir wählen, 1 Eintrag beizubehalten, und wählen die **Random** Deduplizierungsmethode.
+Im folgenden Beispiel wird eine Deduplizierungsaktivität verwendet, um Dubletten von der Zielgruppe auszuschließen, bevor ein Versand durchgeführt wird. Die identifizierten Dubletten werden einer dedizierten Audience hinzugefügt, die bei Bedarf wiederverwendet werden kann. Wir verwenden die **Email** -Feld zur Identifizierung der Dubletten. Wir wählen, 1 Eintrag beizubehalten, und wählen die **Random** Deduplizierungsmethode.
 
 ![](../assets/workflow-deduplication-example.png)
