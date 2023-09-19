@@ -3,7 +3,7 @@ audience: end-user
 title: Erste Schritte mit Kampagnen
 description: Erfahren Sie, wie Sie mit kanalübergreifenden Kampagnen beginnen
 badge: label="Beta"
-source-git-commit: 9b945dcd4151e536e8a8be904100730c86e483b7
+source-git-commit: a7a7a345e7e01f30516d2925afc46cfe32738aa4
 workflow-type: tm+mt
 source-wordcount: '604'
 ht-degree: 77%
@@ -22,7 +22,6 @@ Um eine neue Kampagne zu erstellen oder bestehende Kampagnen zu verwalten, klick
 
 ## Kampagnenliste {#access-campaigns}
 
-
 In der Kampagnenliste stehen zwei Registerkarten zur Verfügung:
 
 * Die Registerkarte **Durchsuchen** enthält alle vorhandenen Kampagnen. Sie können auf eine Kampagne klicken, um ihr Dashboard zu öffnen, oder eine neue Kampagne erstellen, indem Sie auf die Schaltfläche **Kampagne erstellen** klicken. Weitere Informationen finden Sie in [diesem Abschnitt](create-campaigns.md#create-campaigns).
@@ -40,7 +39,6 @@ Sie können beispielsweise nach Ihrem Kampagnenkalender filtern. Öffnen Sie das
 ![Kampagnenfilter](assets/campaign-filter-on-dates.png)
 
 ## Kampagnen-Dashboard{#campaign-dashboard}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_delivery_list"
