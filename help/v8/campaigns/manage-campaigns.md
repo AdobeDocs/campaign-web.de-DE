@@ -3,10 +3,10 @@ audience: end-user
 title: Erste Schritte mit Kampagnen
 description: Erfahren Sie, wie Sie mit kanalübergreifenden Kampagnen beginnen
 badge: label="Beta"
-source-git-commit: 1bbbcd0ad2e83bad2e35c28184d13a63da77c081
+source-git-commit: 7a04eb8c5b60b9a2545723fcb6a748c57e9d98e6
 workflow-type: tm+mt
-source-wordcount: '604'
-ht-degree: 77%
+source-wordcount: '603'
+ht-degree: 75%
 
 ---
 
@@ -70,7 +70,7 @@ Sie können eine Kampagne duplizieren oder löschen:
 
 ## Verwenden von Kampagnenvorlagen{#manage-campaign-templates}
 
-Kampagnenvorlagen enthalten vorkonfigurierte Einstellungen, die zur Erstellung neuer Workflows wiederverwendet werden können. Für die ersten Schritte steht Ihnen eine Reihe integrierter Vorlagen zur Verfügung. Sie können Ihre Kampagnenvorlagen erstellen und konfigurieren und dann Kampagnen aus diesen Vorlagen erstellen.
+Kampagnenvorlagen enthalten vorkonfigurierte Einstellungen, die zur Erstellung neuer Kampagnen wiederverwendet werden können. Für die ersten Schritte steht Ihnen eine Reihe integrierter Vorlagen zur Verfügung. Sie können Ihre Kampagnenvorlagen erstellen und konfigurieren und dann Kampagnen aus diesen Vorlagen erstellen.
 
 Eine Kampagnenvorlage kann die folgenden Informationen speichern:
 
@@ -81,7 +81,8 @@ Eine Kampagnenvorlage kann die folgenden Informationen speichern:
 Gehen Sie wie folgt vor, um eine Kampagnenvorlage zu erstellen:
 
 1. Klicken Sie auf **[!UICONTROL Kampagnen]** Menü, navigieren Sie zum **Vorlagen** und klicken Sie auf die **[!UICONTROL Vorlage erstellen]** Schaltfläche.
-1. Wählen Sie die zu verwendende **Vorlage** und geben Sie eine Bezeichnung für die Kampagne ein. Auf diese Weise können Sie Ihre neue Vorlage auf einer bereits erstellten Vorlage basieren.
+1. Wählen Sie die **Vorlage** verwendet werden. Auf diese Weise können Sie Ihre neue Vorlage auf einer zuvor erstellten Vorlage basieren.
+1. Geben Sie einen Titel für Ihre Vorlage an.
 1. Bei Bedarf können Sie die folgenden **zusätzlichen Optionen** ändern: interner Name, Ordner, Zuweisung, Beschreibung und Art.
 1. Definieren Sie den **Zeitplan** für Ihre Kampagne. Erfahren Sie, wie Sie den Kampagnenkalender in [diesem Abschnitt](create-campaigns.md#campaign-schedule)
 1. Wählen Sie **Erstellen** aus.
