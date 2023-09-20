@@ -2,9 +2,9 @@
 title: Arbeiten mit Empfängern und Zielgruppen
 description: Erfahren Sie, wie Sie mit Empfängern im Campaign-Web arbeiten.
 badge: label="Beta"
-source-git-commit: c46f144441dcfec08ac1ccb2171d63c2772bc051
+source-git-commit: 899d6306e1de90c4c9b38a30061f97fa72fe7123
 workflow-type: tm+mt
-source-wordcount: '919'
+source-wordcount: '946'
 ht-degree: 24%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 24%
 
 Ein Empfänger ist ein Profil, das für den Empfang von Nachrichten bestimmt ist, die von Adobe Campaign gesendet werden. In Adobe Campaign sind die Standardprofile für Sendungen (E-Mails, SMS usw.) die Empfänger. Die in der Datenbank gespeicherten Empfängerdaten ermöglichen die Erstellung von Audiences, die einen bestimmten Versand erhalten, sowie das Hinzufügen von Personalisierungsdaten zu den Versandinhalten. Andere Typen von Profilen werden in der Datenbank gespeichert. Sie sind für unterschiedliche Verwendungszwecke konzipiert: Beispielsweise werden Testprofile erstellt, um Ihre Sendungen zu testen, bevor sie an die endgültige Audience gesendet werden.
 
-Empfänger können nur über die Campaign-Clientkonsole hinzugefügt werden. Sie sind jedoch im Campaign-Web über die **Empfänger** Eintrag der linken Navigationsleiste.
+Empfänger können nur über die Campaign-Clientkonsole hinzugefügt werden. Sie sind jedoch im Campaign-Web über die **Empfänger** Eintrag der linken Navigationsleiste. Sie können die Attribute des Empfängers auch von diesem Bildschirm aus bearbeiten.
 
 Um die Empfängerdaten zu bearbeiten, klicken Sie auf die drei Punkte neben ihrem Namen und wählen Sie **Bearbeiten...**.
 
@@ -46,6 +46,8 @@ Empfänger können auch über die **Explorer** Anzeigen, Durchsuchen und Erstell
 >Abhängig von Ihren Berechtigungen haben Sie möglicherweise keinen Zugriff auf die vollständige Liste der in der Datenbank gespeicherten Empfänger. Weiterführende Informationen zu Berechtigungen finden Sie in [diesem Abschnitt](../get-started/permissions.md).
 
 Darüber hinaus können Sie die An- und Abmeldung Ihrer Empfänger für Dienste wie Newsletter verwalten. [Erfahren Sie, wie Sie mit Abonnementdiensten arbeiten können.](manage-services.md)
+
+Sie können Workflows erstellen, um Profile zu deduplizieren, anzureichern, zu kombinieren und Audiences zu erstellen. Weiterführende Informationen finden Sie in [diesem Abschnitt](../workflows/gs-workflows.md).
 
 ## Was sind Zielgruppen? {#audiences}
 
