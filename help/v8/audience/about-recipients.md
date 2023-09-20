@@ -2,10 +2,10 @@
 title: Arbeiten mit Empfängern und Zielgruppen
 description: Erfahren Sie, wie Sie mit Empfängern im Campaign-Web arbeiten.
 badge: label="Beta"
-source-git-commit: cf614cbbd726cd7b12510812c49068e9ed31b631
+source-git-commit: c46f144441dcfec08ac1ccb2171d63c2772bc051
 workflow-type: tm+mt
-source-wordcount: '883'
-ht-degree: 25%
+source-wordcount: '919'
+ht-degree: 24%
 
 ---
 
@@ -71,11 +71,11 @@ Die Zielgruppendimension ist der Datentyp, den ein Vorgang verarbeitet. Sie erm�
 
 Die Zielgruppendimension eines Workflows wird durch die erste **[!UICONTROL Audience erstellen]** und wird bis zum Ende des Workflows für alle weiteren Aktivitäten verwendet. Wenn Sie beispielsweise eine Abfrage an die aus der Datenbank stammenden Empfänger durchführen, enthält die ausgehende Transition Daten vom Typ Empfänger und wird an die nächste Aktivität übermittelt.
 
-Beachten Sie, dass Sie die Zielgruppendimension in einem Workflow mithilfe einer **[!UICONTROL Dimensionsänderung]** -Aktivität. [Weitere Informationen](../workflows/activities/change-dimension.md)
+Beachten Sie, dass Sie die Zielgruppendimension in einem Workflow mithilfe einer **[!UICONTROL Dimensionsänderung]** -Aktivität. [Weitere Informationen](../workflows/activities/change-dimension.md). Auf diese Weise können Sie beispielsweise die Datenbank in einer bestimmten Tabelle (z. B. bei Käufen oder Abonnements) abfragen und die Zielgruppendimension in Empfänger ändern, um Sendungen an die entsprechenden Empfänger durchzuführen.
 
 Standardmäßig haben die E-Mail- und SMS-Versandvorlagen **[!UICONTROL Empfänger]** als Zielgruppe. Ihre Zieldimension verwendet daher die Felder der **nms:recipient** Tabelle. Für Push-Benachrichtigungen lautet die standardmäßige Zieldimension **Abonnentenanwendungen nms:appSubscriptionRcp**, der mit der Empfängertabelle verknüpft ist.
 
-Sie können auch andere integrierte Zielgruppen-Mappings für Ihre Sendungen verwenden, die im Folgenden aufgeführt sind:
+Sie können auch andere integrierte Zielgruppen-Mappings in Ihren Workflows und Sendungen verwenden, die unten aufgeführt sind:
 
 | Name | Verwendung Verwendungszweck | Schema |
 |---|---|---|
