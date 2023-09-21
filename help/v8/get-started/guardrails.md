@@ -2,9 +2,9 @@
 title: Limits und Einschränkungen in der Web-Benutzeroberfläche von Campaign
 description: Limits und Einschränkungen in der Web-Benutzeroberfläche von Campaign
 badge: label="Beta"
-source-git-commit: f1351a4955605b82c6eddef441f3f76ec4850d9d
+source-git-commit: 65ae0d382f82e1acb1f66bc1140b4f7e857180d6
 workflow-type: tm+mt
-source-wordcount: '585'
+source-wordcount: '588'
 ht-degree: 6%
 
 ---
@@ -50,7 +50,7 @@ Schleifen sind in der Web-Benutzeroberfläche noch nicht verfügbar. Wenn Sie ei
 | --- | --- |
 | ![](assets/limitations-loops-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-loops-web.png){width="800px" align="left" zoomable="yes"} |
 
-Die Positionierung der Knoten wird bei jedem Hinzufügen oder Entfernen einer Aktivität aktualisiert. Wenn Sie einen Workflow in der Konsole erstellen, ihn über die Web-Benutzeroberfläche ändern und in der Konsole erneut öffnen, treten möglicherweise kleinere Positionierungsfehler auf. Dies hat keine Auswirkungen auf die
+Die Positionierung der Knoten wird bei jedem Hinzufügen oder Entfernen einer Aktivität aktualisiert. Wenn Sie einen Workflow in der Konsole erstellen, ihn über die Web-Benutzeroberfläche ändern und in der Konsole erneut öffnen, treten möglicherweise kleinere Positionierungsfehler auf. Dies hat keine Auswirkungen auf die Prozesse und Aufgaben des Workflows.
 
 | Anfänglicher Workflow | Positionsänderung |
 | --- | --- |
