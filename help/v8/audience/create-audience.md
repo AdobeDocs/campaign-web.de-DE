@@ -3,9 +3,9 @@ audience: end-user
 title: Erstellen und Verwalten von Zielgruppen
 description: Erfahren Sie, wie Sie Zielgruppen im Adobe Campaign Web erstellen und verwalten
 badge: label="Beta"
-source-git-commit: 0db6b464ddad0226f7fdf53fa1eb62ba44024b3b
+source-git-commit: d81c143b5ba45bf02558856a250868d43679a63a
 workflow-type: tm+mt
-source-wordcount: '756'
+source-wordcount: '765'
 ht-degree: 2%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="acw_audiences_list"
 >title="Zielgruppen"
->abstract="Auf diesem Bildschirm können Sie Zielgruppen erstellen und in einer visuellen Arbeitsfläche kombinieren. Hinzufügen verschiedener Workflow-Aktivitäten, z. B. **Aufspaltung** oder **Ausschließen** , um neue und erweiterte Zielgruppen zu erstellen."
+>abstract="Auf diesem Bildschirm können Sie die Liste aller Zielgruppen aufrufen, die in Ihren Sendungen ausgewählt werden können. Klicks **Erstellen** , um mithilfe verschiedener Workflow-Aktivitäten, wie z. B. **Aufspaltung** oder **Ausschließen**."
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_create_settings"

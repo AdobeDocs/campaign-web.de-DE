@@ -4,10 +4,10 @@ title: Ansprechen von Empfängerinnen und Empfängern aus einer Datei
 description: Erfahren Sie, wie Sie mit Empfängerinnen und Empfängern aus einer externen Datei eine E-Mail-Zielgruppe erstellen können.
 badge: label="Beta"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: 56909f59e0bd9d18bb6df9610b376f6a3a1a2bad
+source-git-commit: 27023835804d11e169b87239d6fe67c20bc987e5
 workflow-type: tm+mt
-source-wordcount: '548'
-ht-degree: 62%
+source-wordcount: '580'
+ht-degree: 57%
 
 ---
 
@@ -28,15 +28,17 @@ ht-degree: 62%
 >title="Formatierungsparameter"
 >abstract="Überprüfen Sie die Formatierungsparameter für Ihre Datei."
 
-Sie können Kontakte aus einer externen Datei hochladen. Profile werden nicht zur Datenbank hinzugefügt, aber alle Felder in der Eingabedatei können [personalisiert](../personalization/gs-personalization.md) werden. Unterstützte Dateiformate sind: Text (TXT) und kommagetrennte Werte (CSV).
+Es ist nicht möglich, Profile direkt über die Benutzeroberfläche in Campaign hochzuladen. Sie können jedoch auch Profile auswählen, die in einer externen Datei gespeichert sind. Profile werden nicht zur Datenbank hinzugefügt, aber alle Felder in der Eingabedatei können [personalisiert](../personalization/gs-personalization.md) werden. Unterstützte Dateiformate sind: Text (TXT) und kommagetrennte Werte (CSV).
 
 >[!CAUTION]
 >
 >* Diese Funktion ist nur für **eigenständige E-Mail-Sendungen** verfügbar. Sie kann nicht in Workflows oder in SMS- oder Push-Sendungen verwendet werden.
 >
 >* Sie können keine [Kontrollgruppen](control-group.md) verwenden, wenn Sie die Zielgruppen-Population aus einer externen Datei laden.
+>
+>* Profile werden nicht zur Datenbank hinzugefügt, sondern nur für diesen speziellen E-Mail-Versand geladen und verfügbar.
 
-## Datei hochladen {#upload}
+## Datei auswählen und konfigurieren {#upload}
 
 Gehen Sie wie folgt vor, um Profile aus einer lokalen Datei direkt über die E-Mail-Benutzeroberfläche anzuvisieren:
 
@@ -45,7 +47,7 @@ Gehen Sie wie folgt vor, um Profile aus einer lokalen Datei direkt über die E-M
 
    ![](assets/select-from-file.png)
 
-1. Wählen Sie die hochzuladende lokale Datei aus. Das Format muss der [Beispieldatei](#sample-file) entsprechen.
+1. Wählen Sie die zu verwendende lokale Datei aus. Das Format muss der [Beispieldatei](#sample-file) entsprechen.
 1. Im mittleren Abschnitt des Bildschirms können Sie eine Vorschau der Datenzuordnung anzeigen, um sie zu überprüfen.
 1. Wählen Sie in der Dropdown-Liste **Adressfeld** die Spalte aus, die die E-Mail-Adresse enthält. Sie können auch die Spalte „Blockierungsliste“ auswählen, wenn diese Informationen in der Eingabedatei enthalten sind.
 1. Passen Sie die Spalteneinstellungen an und wählen Sie aus den verfügbaren Optionen aus, wie Daten formatiert werden.

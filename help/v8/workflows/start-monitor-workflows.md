@@ -4,10 +4,10 @@ title: Erstellen von Workflows mit Adobe Campaign Web
 description: Erfahren Sie, wie Sie Workflows mit Adobe Campaign Web erstellen
 badge: label="Beta"
 exl-id: 8aa76369-c9f3-4c5b-9a51-101b239727e6
-source-git-commit: 1adcfdaaf2752173911182ac8241706f878a12a1
+source-git-commit: 5305880fed452ce07b168c0001386c1836c5afda
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 87%
+source-wordcount: '569'
+ht-degree: 86%
 
 ---
 
@@ -24,10 +24,6 @@ Nach Ausführung des Workflows wird jede Aktivität auf der Arbeitsfläche in se
 Anhand eines visuellen Flusses können Sie den Fortschritt von Zielgruppenprofilen in Echtzeit verfolgen. Auf diese Weise können Sie den Status jeder Aktivität und die Anzahl der Profile, die zwischen ihnen wechseln, schnell identifizieren.
 
 ![](assets/workflow-execution.png)
-
->[!NOTE]
->
->Sie können den visuellen Fluss mithilfe der Schaltfläche **[!UICONTROL Progression ausblenden]** in der oberen Aktionsleiste der Arbeitsfläche deaktivieren.
 
 ## Workflow-Transitionen {#transitions}
 

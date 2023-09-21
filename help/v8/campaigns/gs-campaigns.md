@@ -4,10 +4,10 @@ title: Erste Schritte mit Kampagnen
 description: Erfahren Sie, wie Sie mit kanalübergreifenden Kampagnen beginnen
 badge: label="Beta"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: 925f797b79ec1b42a613373f8af1931a8aff3319
+source-git-commit: 74f333a74eab3fbb7dce1f184270ed36284b959b
 workflow-type: tm+mt
-source-wordcount: '218'
-ht-degree: 100%
+source-wordcount: '207'
+ht-degree: 78%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_campaigns_list"
 >title="Kampagnen"
->abstract="Dies ist die Liste Ihrer Kampagnen. Sie können nützliche Informationen wie das Anfangsdatum/Enddatum/Datum der letzten Änderung sowie ihren Status anzeigen. Sie können die Liste nach Status oder Anfangsdatum/Enddatum filtern. Klicken Sie auf die Schaltfläche „Kampagne erstellen“, um eine neue Kampagne hinzuzufügen. Wählen Sie eine Kampagne aus, um Inhalt, Sendungen und Details anzuzeigen. Navigieren Sie zur Registerkarte „Vorlagen“, um Vorlagen anzuzeigen oder zu erstellen."
+>abstract="Durchsuchen Sie die Liste der Kampagnen. Wählen Sie eine Kampagne aus, um Inhalt, Sendungen und Details anzuzeigen. Sie können nach Status, Start-/Enddatum oder nach benutzerdefinierten Regeln filtern. Sie können auch Berichte für abgeschlossene Kampagnen anzeigen. Klicken Sie auf **Kampagne erstellen** Schaltfläche, um eine neue Kampagne hinzuzufügen. Navigieren Sie zum **Vorlagen** , um Vorlagen anzuzeigen und zu erstellen."
 
 
 Mit Adobe Campaign können Sie Ihre zielgerichteten Marketinginitiativen mithilfe der integrierten Kampagnenverwaltungsfunktion einfach koordinieren. Mit der Fähigkeit, einen Zeitplan zu definieren, können Sie die Dauer und den Zeitpunkt Ihrer Kampagnen so planen, dass sie mit strategischen Zielen übereinstimmen und die Interaktion der Zielgruppe maximieren.
