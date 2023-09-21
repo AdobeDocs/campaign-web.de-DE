@@ -2,7 +2,7 @@
 title: Verwenden eines KI-gestützten wissensbasierten Assistenten im Campaign Web
 description: Verwenden eines KI-gestützten wissensbasierten Assistenten im Campaign Web
 badge: label="Beta"
-source-git-commit: ece1f62e3c1e1378c576e55d8918ee145e17271f
+source-git-commit: 6ac2e49f4171b78c5e6a7ab94cb8fd0f9f380965
 workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 0%
@@ -55,3 +55,4 @@ Wenn Sie eine Frage stellen, empfehlen wir Ihnen Folgendes, um das Beste aus der
 * Verwenden Sie geeignete Begriffe und Formulierungen mit einem neutralen Ton.
 * Bewerten Sie die Antworten und geben Sie Feedback, damit unsere Ingenieure aus Ihren Erfahrungen lernen und die Ergebnisse verbessern können.
 
+<img src="assets/AI_CH.gif"/>
