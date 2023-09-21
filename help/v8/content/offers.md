@@ -1,18 +1,18 @@
 ---
 audience: end-user
-title: Senden von Angeboten
-description: Senden von Angeboten
+title: Hinzufügen von Angeboten in Nachrichten
+description: Erfahren Sie, wie Sie Angebote hinzufügen und senden.
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
 badge: label="Beta"
-source-git-commit: 9b672c3a0cc71e417a894f3d775070b13871d337
+source-git-commit: 6406be82c2bad9346f6743e18535fdfe132b2bd0
 workflow-type: tm+mt
-source-wordcount: '771'
-ht-degree: 80%
+source-wordcount: '782'
+ht-degree: 78%
 
 ---
 
 
-# Senden von Angeboten {#offers-content}
+# Hinzufügen von Angeboten in Nachrichten {#offers-content}
 
 Adobe Campaign v8 Web ermöglicht es Ihnen, Angebote in den Versand einzuschließen, die in der Konsole mithilfe des Moduls **[!UICONTROL Interaction]** erstellt wurden. Weitere Informationen zur Interaktion und Verwaltung eines Angebotskatalogs in der Konsole finden Sie in der [Dokumentation zu Campaign v8 (Client-Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=de){target="_blank"}.
 

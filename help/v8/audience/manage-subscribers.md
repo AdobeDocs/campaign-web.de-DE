@@ -3,17 +3,19 @@ audience: end-user
 title: Dienstabonnenten verwalten
 description: Erfahren Sie, wie Sie Abonnenten eines Dienstes im Adobe Campaign Web verwalten und übermitteln können.
 badge: label="Beta"
-source-git-commit: 5125de258edd4e3eda9a8507228156ee40215532
+source-git-commit: 6406be82c2bad9346f6743e18535fdfe132b2bd0
 workflow-type: tm+mt
-source-wordcount: '371'
-ht-degree: 2%
+source-wordcount: '292'
+ht-degree: 1%
 
 ---
 
 
 # Dienstabonnenten verwalten {#manage-subscribers}
 
-Einmal [Dienst erstellt](manage-services.md#create-service)können Sie Abonnenten hinzufügen, Empfänger abmelden und an die Abonnenten dieses Dienstes senden.
+Einmal [Dienst erstellt](manage-services.md#create-service)können Sie Abonnenten hinzufügen, Empfänger abmelden und Nachrichten an die Abonnenten dieses Dienstes senden.
+
+Die Abonnentenverwaltung wird auf dieser Seite beschrieben. Informationen zum Senden von Nachrichten an Ihre Abonnenten finden Sie unter [diesem Abschnitt](../content/send-to-subscribers.md).
 
 ## Abonnenten zu Ihrem Dienst hinzufügen {#add-subscribers}
 
@@ -62,25 +64,3 @@ Dieser Zeitraum wird angegeben, wenn [Erstellen des Dienstes](manage-services.md
 ![](assets/service-create-validity-period.png)
 
 Nach Ablauf der angegebenen Dauer werden alle Abonnenten automatisch von diesem Dienst abgemeldet.
-
-## An Abonnenten eines Dienstes versenden
-
-Einmal [Abonnement-Dienst erstellt](manage-services.md#create-service), können Sie die Abonnenten in einem Versand gezielt ansprechen. Gehen Sie dazu wie folgt vor.
-
-1. [Erstellen einer Zielgruppe](../audience/create-audience.md) einschließlich der Abonnenten des von Ihnen erstellten Dienstes:
-
-   * Im **[!UICONTROL Audience erstellen]** Aktivität, erweiterte Attribute anzeigen und **[!UICONTROL Empfänger]** > **[!UICONTROL Abonnements]** > **[!UICONTROL Dienst]**.
-
-   * Wählen Sie in diesem Beispiel die Benutzer aus, die den Dienst abonniert haben, der über die **Luma-Newsletter** Beschriftung.
-
-   ![](assets/service-audience-subscribers.png)
-
-1. [Versand erstellen](../msg/gs-messages.md#create-delivery) und wählen Sie die zuvor erstellte Audience aus.
-
-   ![](assets/service-delivery-targeting-subscribers.png)
-
-1. Bearbeiten Sie den Inhalt Ihrer Nachricht nach Bedarf und senden Sie ihn.
-
-   ![](assets/service-delivery-ready.png)
-
-Ihre Nachricht wird nur an die Abonnenten dieses Dienstes gesendet.

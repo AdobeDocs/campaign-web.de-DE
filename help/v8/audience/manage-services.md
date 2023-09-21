@@ -3,9 +3,9 @@ audience: end-user
 title: Arbeiten mit Abonnementdiensten
 description: Erfahren Sie, wie Sie in Adobe Campaign Web auf Abonnementdienste zugreifen, diese erstellen und verwalten können.
 badge: label="Beta"
-source-git-commit: 5125de258edd4e3eda9a8507228156ee40215532
+source-git-commit: 6406be82c2bad9346f6743e18535fdfe132b2bd0
 workflow-type: tm+mt
-source-wordcount: '772'
+source-wordcount: '771'
 ht-degree: 4%
 
 ---
@@ -108,7 +108,7 @@ Um den Benutzern, die sich für Ihren Dienst angemeldet haben oder sich von ihm 
 
 Sie können diese Nachrichten jetzt auswählen, wenn [Abonnement-Dienst erstellen](#create-service). Benutzer, die diesen Dienst abonnieren oder sich von ihm abmelden, erhalten die ausgewählten Bestätigungsnachrichten.
 
-## Protokolle und Berichte des Abonnementdienstes {#logs-and-reports}
+## Überwachen von Anmeldediensten {#logs-and-reports}
 
 Um die Effektivität Ihrer Abonnementdienste für SMS- und E-Mail-Kanäle zu messen, können Sie auf die Protokolle und Berichte für einen bestimmten Dienst zugreifen.
 
