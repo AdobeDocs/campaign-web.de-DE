@@ -2,17 +2,17 @@
 title: Arbeiten mit Empfängern und Zielgruppen
 description: Erfahren Sie, wie Sie mit Empfängern im Campaign-Web arbeiten.
 badge: label="Beta"
-source-git-commit: c4d1558f766e3e686a035e8e26adcdc3a978765a
+source-git-commit: 424caa898ff9d73f3520aa6d682eb1963d992069
 workflow-type: tm+mt
 source-wordcount: '1022'
-ht-degree: 22%
+ht-degree: 21%
 
 ---
 
 
 # Arbeiten mit Empfängern und Zielgruppen {#about-recipients}
 
-In Adobe Campaign ist die Zielpopulation eines Versands eine Zielgruppe. Eine Zielgruppe aus Personen, die ähnliche Verhaltensweisen und/oder Merkmale aufweisen. Diese Personengruppe kann entweder generiert, ausgewählt oder geladen werden [wie unten beschrieben](#audiences). In den meisten Fällen besteht die Audience aus Profilen, die als [Empfänger](#recipients) in Adobe Campaign. Sie können auch mit anderen Zielgruppen-Mappings arbeiten, indem Sie die Dimension wie beschrieben ändern [in diesem Abschnitt](#targeting-dimensions).
+In Adobe Campaign ist die Zielpopulation eines Versands eine Zielgruppe. Eine Zielgruppe ist eine Gruppe von Personen, die ähnliche Verhaltensweisen und/oder Merkmale aufweisen. Diese Personengruppe kann entweder generiert, ausgewählt oder geladen werden [wie unten beschrieben](#audiences). In den meisten Fällen besteht die Audience aus Profilen, die als [Empfänger](#recipients) in Adobe Campaign. Sie können auch mit anderen Zielgruppen-Mappings arbeiten, indem Sie die Dimension wie beschrieben ändern [in diesem Abschnitt](#targeting-dimensions).
 
 ## Was sind Empfänger? {#recipients}
 
@@ -58,8 +58,7 @@ Die Zielgruppe ist das wichtigste Ziel Ihres Versands: die Empfängerinnen und E
 Zur Bestimmung der Audience-Population haben Sie folgende Möglichkeiten:
 
 * [Neue Zielgruppen erstellen](create-audience.md) aus dem **[!UICONTROL Zielgruppen]** Menü,
-* [Existierende Zielgruppe auswählen](add-audience.md) als Liste in der Clientkonsole erstellt wurde,
-* [Wählen Sie eine Adobe Experience Platform-Zielgruppe aus](aep-audience.md),
+* [Existierende Zielgruppe auswählen](add-audience.md) als Liste in der Client-Konsole erstellt wurde oder aus Adobe Experience Platform stammt,
 * [Erstellen Sie mit dem Regel-Builder eine neue Zielgruppe, indem Sie Filterkriterien definieren und kombinieren,](segment-builder.md)
 * [Verwenden einer Audience aus einer externen Datei](file-audience.md). Diese Option ist nur für Einzelsendungen von E-Mails verfügbar und kann nicht in Kampagnensendungen verwendet werden.
 
@@ -75,7 +74,7 @@ Die Zielgruppendimension, auch bekannt als Zielgruppen-Mapping ist der Datentyp,
 
 Die Zielgruppendimension eines Workflows wird durch die erste **[!UICONTROL Audience erstellen]** und wird bis zum Ende des Workflows für alle weiteren Aktivitäten verwendet. Wenn Sie beispielsweise eine Abfrage an die aus der Datenbank stammenden Empfänger durchführen, enthält die ausgehende Transition Daten vom Typ Empfänger und wird an die nächste Aktivität übermittelt.
 
-Beachten Sie, dass Sie die Zielgruppendimension in einem Workflow mithilfe einer **[!UICONTROL Dimensionsänderung]** -Aktivität. [Weitere Informationen](../workflows/activities/change-dimension.md). Auf diese Weise können Sie beispielsweise die Datenbank in einer bestimmten Tabelle (z. B. bei Käufen oder Abonnements) abfragen und die Zielgruppendimension in Empfänger ändern, um Sendungen an die entsprechenden Empfänger durchzuführen.
+Beachten Sie, dass Sie die Zielgruppendimension in einem Workflow mithilfe einer [Dimensionsaktivität ändern](../workflows/activities/change-dimension.md). Auf diese Weise können Sie beispielsweise die Datenbank in einer bestimmten Tabelle (z. B. bei Käufen oder Abonnements) abfragen und die Zielgruppendimension in Empfänger ändern, um Sendungen an die entsprechenden Empfänger durchzuführen.
 
 Standardmäßig haben die E-Mail- und SMS-Versandvorlagen **[!UICONTROL Empfänger]** als Zielgruppe. Ihre Zieldimension verwendet daher die Felder der **nms:recipient** Tabelle. Für Push-Benachrichtigungen lautet die standardmäßige Zieldimension **Abonnentenanwendungen nms:appSubscriptionRcp**, der mit der Empfängertabelle verknüpft ist.
 

@@ -1,12 +1,12 @@
 ---
 audience: end-user
-title: Erstellen und Verwalten von Zielgruppen
-description: Erfahren Sie, wie Sie Zielgruppen im Adobe Campaign Web erstellen und verwalten
+title: Audiences erstellen
+description: Erfahren Sie, wie Sie Zielgruppen im Adobe Campaign Web erstellen
 badge: label="Beta"
-source-git-commit: ab445f332b62baa98f9f9e84a80cc336cd88efe0
+source-git-commit: 424caa898ff9d73f3520aa6d682eb1963d992069
 workflow-type: tm+mt
-source-wordcount: '780'
-ht-degree: 2%
+source-wordcount: '557'
+ht-degree: 1%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 2%
 
 Mit Campaign Web können Sie neue Zielgruppen in einer Arbeitsfläche für visuelle Workflows erstellen. Sie können nicht nur von Grund auf eine einfache Zielgruppe erstellen, sondern auch Workflow-Aktivitäten nutzen, um Ihre Zielgruppe zu verfeinern. Sie können beispielsweise mehrere Zielgruppen zu einer einzigen zusammenfassen, Ihre Zielgruppe mit externen Attributen anreichern oder eine Zielgruppe basierend auf Regeln Ihrer Wahl in mehrere Zielgruppen unterteilen.
 
-Nachdem Sie Ihren Workflow erstellt haben, werden die resultierenden Zielgruppen automatisch in der Campaign-Datenbank und den bereits vorhandenen gespeichert. Diese Zielgruppen können dann in Kampagnen oder eigenständigen Sendungen ausgewählt werden.
+Nachdem Sie Ihren Workflow erstellt haben, werden die resultierenden Zielgruppen automatisch in der Campaign-Datenbank und den bereits vorhandenen gespeichert. Diese Zielgruppen können dann in Workflows oder in eigenständigen Sendungen ausgewählt werden.
 
 ## Erstellen der ersten Zielgruppe {#create}
 
@@ -59,7 +59,9 @@ Gehen Sie wie folgt vor, um eine Audience zu erstellen:
 
 1. Wenn Ihr Workflow fertig ist, klicken Sie auf **[!UICONTROL Starten]** um es auszuführen.
 
-Der Workflow wird im **[!UICONTROL Workflows]** Liste, während die resultierenden Zielgruppen in der **[!UICONTROL Zielgruppen]** Liste.
+Der Workflow wird im **[!UICONTROL Workflows]** Liste, während die resultierenden Zielgruppen in der **[!UICONTROL Zielgruppen]** Liste. [Erfahren Sie, wie Sie Zielgruppen überwachen und verwalten.](manage-audience.md)
+
+Jetzt können Sie diese Zielgruppe als Hauptzielgruppe eines Versands verwenden. [Weitere Informationen](add-audience.md)
 
 ## Beispiel für Zielgruppen-Workflow {#example}
 
@@ -71,30 +73,3 @@ Das folgende Beispiel zeigt einen Zielgruppen-Workflow, der so konfiguriert ist,
 1. Die **[!UICONTROL Anreicherung]** -Aktivität erweitert die Zielgruppe um Informationen aus der Verkauf -Tabelle, um zu ermitteln, welcher Produkttyp von den Kunden gekauft wurde.
 1. Die **[!UICONTROL Aufspaltung]** -Aktivität unterteilt den Workflow in zwei Pfade, die auf dem aktuellen Kauf des Kunden basieren.
 1. Die **[!UICONTROL Audience-Speicherung]** Aktivitäten am Ende jedes Pfads erstellen zwei neue Zielgruppen in die Datenbank, einschließlich der in jedem Pfad berechneten Population.
-
-## Zielgruppen überwachen und verwalten {#monitor}
-
->[!CONTEXTUALHELP]
->id="acw_audiences_workflow_error_data_execution"
->title="Zielgruppenfehler"
->abstract="Zielgruppendaten sind nicht verfügbar. Warten Sie bis zum Ende der Workflow-Ausführung."
-
-Die Liste der Zielgruppen, die im Campaign Web verwendet werden können, ist über den Link **[!UICONTROL Zielgruppen]** Menü.
-
-![](assets/audiences-list.png)
-
-Zielgruppen können aus mehreren Quellen stammen. Die **[!UICONTROL Origin]** gibt an, wo eine bestimmte Zielgruppe erstellt wurde:
-
-* **[!UICONTROL Adobe Campaign]**: Diese Zielgruppen werden in der Adobe Campaign V8-Konsole erstellt. Weitere Informationen finden Sie in der [Dokumentation zu Campaign v8 (Client-Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/create-audiences/create-audiences.html?lang=de){target="_blank"}.
-
-* **[!UICONTROL Adobe Experience Platform:]** Diese Zielgruppen werden in Adobe Experience Platform erstellt und mithilfe der Adobe-Quellen- und Zielintegration in Campaign Web integriert. Erfahren Sie, wie Sie diese Integration in [Dokumentation zu Campaign v8 (Clientkonsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html)
-
-* **[!UICONTROL Adobe Campaign WebUI]**: Diese Zielgruppen werden mithilfe von Workflows für Campaign-Webzielgruppen erstellt. [Erfahren Sie, wie Sie Audiences erstellen](create-audience.md)
-
-Um weitere Informationen zu einer Audience zu erhalten, öffnen Sie sie in der Liste. Die Eigenschaften der Audience werden zusammen mit der Anzahl der in der Audience enthaltenen Profile angezeigt. Sie können die Anzahl der Zielgruppen jederzeit mit der Funktion **[!UICONTROL berechnen]** Schaltfläche.
-
-Die **[!UICONTROL Daten]** -Tab ermöglicht die Visualisierung der Profile, die Teil der Audience sind. Sie können diese Ansicht anpassen, indem Sie weitere Spalten hinzufügen oder erweiterte Filter nutzen, um die angezeigten Daten zu verfeinern.
-
-![](assets/audiences-details.png)
-
-Um eine Zielgruppe zu duplizieren oder zu löschen, klicken Sie auf die Schaltfläche **[!UICONTROL Mehr Aktionen]** in der Zielgruppenliste neben dem Zielgruppennamen oder im Bildschirm mit den Zielgruppendetails verfügbar.
