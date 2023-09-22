@@ -2,7 +2,7 @@
 title: Verwenden eines KI-gestützten wissensbasierten Assistenten im Campaign Web
 description: Verwenden eines KI-gestützten wissensbasierten Assistenten im Campaign Web
 badge: label="Beta"
-source-git-commit: 6ac2e49f4171b78c5e6a7ab94cb8fd0f9f380965
+source-git-commit: ab445f332b62baa98f9f9e84a80cc336cd88efe0
 workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 0%
@@ -21,7 +21,7 @@ Die **Knowledge Assistant bei Gen AI** eingebettet in die kontextuelle Hilfe rev
 
 Dank der Funktionen von Campaign Gen AI verändert dieser Assistent Ihr Erlebnis, indem er Informationen abruft und Probleme löst. Unsere Wissensassistentin mit Gen AI ist Ihr ultimativer Begleiter für komplexe Aufgaben oder für die Navigation in umfangreichen Dokumenten. Sie bietet Ihnen dabei höchste Effizienz und Genauigkeit in jeder Interaktion.
 
-![](assets/ask-a-question.png){width="70%" align="left"}
+<img src="assets/AI_CH.gif" width="80%"/>
 
 <!--
 ## Consent {#consent-ai}
@@ -55,4 +55,4 @@ Wenn Sie eine Frage stellen, empfehlen wir Ihnen Folgendes, um das Beste aus der
 * Verwenden Sie geeignete Begriffe und Formulierungen mit einem neutralen Ton.
 * Bewerten Sie die Antworten und geben Sie Feedback, damit unsere Ingenieure aus Ihren Erfahrungen lernen und die Ergebnisse verbessern können.
 
-<img src="assets/AI_CH.gif"/>
+

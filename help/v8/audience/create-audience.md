@@ -3,9 +3,9 @@ audience: end-user
 title: Erstellen und Verwalten von Zielgruppen
 description: Erfahren Sie, wie Sie Zielgruppen im Adobe Campaign Web erstellen und verwalten
 badge: label="Beta"
-source-git-commit: d81c143b5ba45bf02558856a250868d43679a63a
+source-git-commit: ab445f332b62baa98f9f9e84a80cc336cd88efe0
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '780'
 ht-degree: 2%
 
 ---
@@ -73,6 +73,11 @@ Das folgende Beispiel zeigt einen Zielgruppen-Workflow, der so konfiguriert ist,
 1. Die **[!UICONTROL Audience-Speicherung]** Aktivitäten am Ende jedes Pfads erstellen zwei neue Zielgruppen in die Datenbank, einschließlich der in jedem Pfad berechneten Population.
 
 ## Zielgruppen überwachen und verwalten {#monitor}
+
+>[!CONTEXTUALHELP]
+>id="acw_audiences_workflow_error_data_execution"
+>title="Zielgruppenfehler"
+>abstract="Zielgruppendaten sind nicht verfügbar. Warten Sie bis zum Ende der Workflow-Ausführung."
 
 Die Liste der Zielgruppen, die im Campaign Web verwendet werden können, ist über den Link **[!UICONTROL Zielgruppen]** Menü.
 
