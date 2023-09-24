@@ -2,7 +2,7 @@
 title: Verwenden eines KI-gestützten wissensbasierten Assistenten im Campaign Web
 description: Verwenden eines KI-gestützten wissensbasierten Assistenten im Campaign Web
 badge: label="Beta"
-source-git-commit: ab445f332b62baa98f9f9e84a80cc336cd88efe0
+source-git-commit: 943f328d33ba482a4264386cf17e73b32fbe47de
 workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 0%
@@ -19,7 +19,7 @@ Mit dem KI-gestützten Knowkedge-Assistenten erhalten Sie auf der Basis der Prod
 
 Die **Knowledge Assistant bei Gen AI** eingebettet in die kontextuelle Hilfe revolutioniert die Dokumentationssuche und Beantwortung von Fragen durch mühelose Durchblättern von umfangreichen Dokumentations-Repositorys und zeigt sofort die benötigten Informationen an.
 
-Dank der Funktionen von Campaign Gen AI verändert dieser Assistent Ihr Erlebnis, indem er Informationen abruft und Probleme löst. Unsere Wissensassistentin mit Gen AI ist Ihr ultimativer Begleiter für komplexe Aufgaben oder für die Navigation in umfangreichen Dokumenten. Sie bietet Ihnen dabei höchste Effizienz und Genauigkeit in jeder Interaktion.
+Dank der Funktionen von Campaign Gen AI verändert dieser Assistent Ihr Erlebnis, indem er Informationen abruft und Probleme löst. Unabhängig davon, ob Sie in einer komplexen Aufgabe Anleitungen suchen oder ob Sie in umfangreichen Dokumenten navigieren, ist unser KI-gestützter Knowledge Assistant Ihr ultimativer Begleiter, der Ihnen bei jeder Interaktion eine unübertroffene Effizienz und Genauigkeit bietet.
 
 <img src="assets/AI_CH.gif" width="80%"/>
 
@@ -39,7 +39,7 @@ For information specific to Adobe AI policies in Experience Cloud apps and solut
 
 ## Antworten {#answers-ai}
 
-Antworten können ungenau oder irreführend sein. Infolgedessen kann ein Adobe-Wissensassistent falsche Informationen ausgeben. Überprüfen Sie die Produktdokumentation, die in jedem Hilfesystem verknüpft ist.
+Antworten können ungenau oder irreführend sein. Daher kann der KI-gestützte Knowledge Assistant von Adobe Campaign falsche Informationen ausgeben. Überprüfen Sie die Produktdokumentation, die in jedem Hilfesystem verknüpft ist.
 
 Künstliche Intelligenz und Modelle des maschinellen Lernens werden im Laufe der Zeit verbessert, um bestimmte Anwendungsfälle besser anzugehen. Kampagnen-KI-gestützte Wissensassistent wird in den kommenden Monaten weiter besser werden. Wir empfehlen Ihnen dringend, das ?? ?? Schaltflächen immer wenn Sie eine Antwort lesen, um unangemessene Antworten auf unsere Ingenieure zu kennzeichnen.
 

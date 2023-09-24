@@ -4,9 +4,9 @@ title: Erkunden der Benutzeroberfläche
 description: Web-Benutzeroberfläche von Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 5e2af07f54fae9b0d64d173388be14639e6aaaa2
+source-git-commit: 943f328d33ba482a4264386cf17e73b32fbe47de
 workflow-type: tm+mt
-source-wordcount: '1275'
+source-wordcount: '1263'
 ht-degree: 73%
 
 ---
@@ -115,9 +115,9 @@ Eine kontextuelle Hilfe ist in der Benutzeroberfläche verfügbar. Wenn verfügb
 
 ![](assets/context-help.png){width="40%" align="left"}
 
-Mit der neuen Beta-Version wird die **Knowledge Assistant bei Gen AI** eingebettet in die kontextuelle Hilfe revolutioniert die Dokumentationssuche und Beantwortung von Fragen durch mühelose Durchblättern von umfangreichen Dokumentations-Repositorys und zeigt sofort die benötigten Informationen an.
+Mit der neuen Beta-Version wird die **KI-gestützter Knowledge Assistant** eingebettet in die kontextuelle Hilfe revolutioniert die Dokumentationssuche und Beantwortung von Fragen durch mühelose Durchblättern von umfangreichen Dokumentations-Repositorys und zeigt sofort die benötigten Informationen an.
 
-Dank der Funktionen von Campaign Gen AI verändert dieser Assistent Ihr Erlebnis, indem er Informationen abruft und Probleme löst. Unsere Wissensassistentin mit Gen AI ist Ihr ultimativer Begleiter für komplexe Aufgaben oder für die Navigation in umfangreichen Dokumenten. Sie bietet Ihnen dabei höchste Effizienz und Genauigkeit in jeder Interaktion.
+Dank der Funktionen von Campaign Gen AI verändert dieser Assistent Ihr Erlebnis, indem er Informationen abruft und Probleme löst. Unabhängig davon, ob Sie in einer komplexen Aufgabe Anleitungen suchen oder ob Sie in umfangreichen Dokumenten navigieren, ist unser KI-gestützter Knowledge Assistant Ihr ultimativer Begleiter, der Ihnen bei jeder Interaktion eine unübertroffene Effizienz und Genauigkeit bietet.
 
 Weiterführende Informationen finden Sie in [diesem Abschnitt](using-ai.md).
 
@@ -182,11 +182,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 <!-- delivery template settings-->
 
-
->[!CONTEXTUALHELP]
->id="acw_reporting_email_exportation"
->title="Export"
->abstract="Sie können nur die ausgewählte Seite exportieren."
 
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_sending"
