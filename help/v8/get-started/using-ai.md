@@ -1,15 +1,21 @@
 ---
-title: Verwenden eines KI-gestützten wissensbasierten Assistenten im Campaign Web
-description: Verwenden eines KI-gestützten wissensbasierten Assistenten im Campaign Web
+title: Verwenden eines KI-gestützten Wissens-Assistenten im Campaign Web
+description: Verwenden eines KI-gestützten Wissens-Assistenten im Campaign Web
 badge: label="Beta"
-source-git-commit: 943f328d33ba482a4264386cf17e73b32fbe47de
+source-git-commit: 2744c62136af0c594452e35d7aa0eb79d0878efe
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '407'
 ht-degree: 0%
 
 ---
 
 # Verwenden des KI-gestützten Knowledge Assistant {#using-ai}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_card6"
+>title="KI-gestützter Knowledge Assistant"
+>abstract="Mit dem KI-gestützten Knowledge Assistant erhalten Sie auf der Grundlage der Produktdokumentation und Ihres aktuellen Produktkontexts schnelle und KI-generierte Antworten. In den kontextuellen Hilfeboxen des Produkts ist es eine revolutionäre Lösung für die Dokumentationssuche und die Beantwortung von Anleitungsfragen, die durch mühelose Durchblättern von umfangreichen Dokumentations-Repositorys ermöglicht wird, sodass Sie sofort genau die benötigten Informationen finden."
+
 
 Mit dem KI-gestützten Knowkedge-Assistenten erhalten Sie auf der Basis der Produktdokumentation und Ihres aktuellen Produktkontexts schnelle und KI-generierte Antworten, die in den kontextbezogenen Hilfefeldern des Produkts verfügbar sind.
 
@@ -19,7 +25,7 @@ Mit dem KI-gestützten Knowkedge-Assistenten erhalten Sie auf der Basis der Prod
 
 Die **Knowledge Assistant bei Gen AI** eingebettet in die kontextuelle Hilfe revolutioniert die Dokumentationssuche und Beantwortung von Fragen durch mühelose Durchblättern von umfangreichen Dokumentations-Repositorys und zeigt sofort die benötigten Informationen an.
 
-Dank der Funktionen von Campaign Gen AI verändert dieser Assistent Ihr Erlebnis, indem er Informationen abruft und Probleme löst. Unabhängig davon, ob Sie in einer komplexen Aufgabe Anleitungen suchen oder ob Sie in umfangreichen Dokumenten navigieren, ist unser KI-gestützter Knowledge Assistant Ihr ultimativer Begleiter, der Ihnen bei jeder Interaktion eine unübertroffene Effizienz und Genauigkeit bietet.
+Dank der Funktionen von Campaign Gen AI verändert dieser Assistent Ihr Erlebnis, indem er Informationen abruft und Probleme löst. Unabhängig davon, ob Sie in einer komplexen Aufgabe Anleitungen suchen oder in umfangreichen Dokumenten navigieren, ist der KI-gestützte Knowledge Assistant Ihr ultimativer Begleiter, der für jede Interaktion eine unübertroffene Effizienz und Genauigkeit bietet.
 
 <img src="assets/AI_CH.gif" width="80%"/>
 
