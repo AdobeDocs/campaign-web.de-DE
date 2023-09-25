@@ -3,9 +3,9 @@ audience: end-user
 title: SMS-Versandberichte
 description: Erfahren Sie, wie Sie auf SMS-Vesandberichte zugreifen und diese verwenden können
 badge: label="Beta"
-source-git-commit: 7ad4e011305eca7bad9a0f504543a25b155cfe59
+source-git-commit: dfa5e38945e40758f9e3aaa89576bdd2789525fd
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '503'
 ht-degree: 17%
 
 ---
@@ -95,7 +95,7 @@ Die **Gesamtstatistik** zeigt Daten für die gesendeten SMS-Nachrichten an. Die 
 >abstract="Die **Ausnahmen** Diagramm und Tabelle zeigen die verschiedenen Gründe an, die verhindert haben, dass aus den Zielgruppenprofilen ausgeschlossene Benutzerprofile die Nachricht empfangen."
 
 
-* **[!UICONTROL Ausnahmen]** Diagramm und Tabelle zeigen die Gründe an, aus denen verhindert wurde, dass aus den Zielgruppenprofilen ausgeschlossene Benutzerprofile die Nachricht empfangen.
+Die **[!UICONTROL Ausnahmen]** Diagramm und Tabelle zeigen die Gründe an, aus denen verhindert wurde, dass aus den Zielgruppenprofilen ausgeschlossene Benutzerprofile die Nachricht empfangen. Ausschlussregeln werden im Abschnitt [Dokumentation zu Campaign v8 (Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#sms-quarantines){_blank}.
 
 ![](assets/reporting_sms_6.png)
 

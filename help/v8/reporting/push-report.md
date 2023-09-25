@@ -3,10 +3,10 @@ audience: end-user
 title: Push-Versandberichte
 description: Erfahren Sie, wie Sie auf Push-Versandberichte zugreifen und diese verwenden können
 badge: label="Beta"
-source-git-commit: 7ad4e011305eca7bad9a0f504543a25b155cfe59
+source-git-commit: dfa5e38945e40758f9e3aaa89576bdd2789525fd
 workflow-type: tm+mt
-source-wordcount: '467'
-ht-degree: 41%
+source-wordcount: '487'
+ht-degree: 39%
 
 ---
 
@@ -94,7 +94,8 @@ Die **Gesamtstatistik** Der Bericht enthält Daten zu den gesendeten Push-Benach
 >title="Push-Gesamtstatistik"
 >abstract="Die **Ausnahmen** Diagramm und Tabelle zeigen die verschiedenen Gründe an, die verhindert haben, dass aus den Zielgruppenprofilen ausgeschlossene Benutzerprofile die Nachricht empfangen."
 
-Die **[!UICONTROL Ausnahmen]** Diagramm und Tabelle zeigen die verschiedenen Gründe an, die verhindert haben, dass aus den Zielgruppenprofilen ausgeschlossene Benutzerprofile die Nachricht empfangen.
+Die **[!UICONTROL Ausnahmen]** Diagramm und Tabelle zeigen die verschiedenen Gründe an, die verhindert haben, dass aus den Zielgruppenprofilen ausgeschlossene Benutzerprofile die Nachricht empfangen. Ausschlussregeln werden im Abschnitt [Dokumentation zu Campaign v8 (Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types){_blank}.
+
 
 ![](assets/reporting_push_6.png)
 
