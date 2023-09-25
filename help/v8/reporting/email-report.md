@@ -3,10 +3,10 @@ audience: end-user
 title: E-Mail-Versandberichte
 description: Erfahren Sie, wie Sie auf E-Mail-Versandberichte zugreifen und diese verwenden können
 badge: label="Beta"
-source-git-commit: 9693d4b0ca6f870b8f23b950050a68ac2674db5d
+source-git-commit: f2ae73ce56e2e5128fecd8b74a6bdb096b8b75ec
 workflow-type: tm+mt
-source-wordcount: '1932'
-ht-degree: 67%
+source-wordcount: '2205'
+ht-degree: 52%
 
 ---
 
@@ -21,69 +21,84 @@ Der **E-Mail-Versandbericht** bietet umfassende Einblicke und Daten, die speziel
 >title="Berichterstellung"
 >abstract="he **Senden** -Tab Ihres Berichts erhalten Sie einen umfassenden Einblick in die Interaktionen Ihrer Besucher mit Ihren Sendungen und in etwaige Fehler, die bei ihnen aufgetreten sind."
 
+### Anfängliche Zielpopulation {#email-delivery-targeted-population}
+
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_initial_target"
->title="anfängliches Zielgruppen-Widget"
->abstract="Die **Ursprungspopulation der Zielgruppe** -Diagramm zeigt Daten zu Ihren Empfängern und zum Erfolg Ihres Versands an."
+>title="Anfängliche Zielpopulation"
+>abstract="Die **Ursprungspopulation** -Diagramm zeigt Daten zu Ihren Empfängern und Nachrichten basierend auf den Ergebnissen der Versandvorbereitung an."
+
+Die **[!UICONTROL Ursprungspopulation]** -Diagramm zeigt Daten zu Ihren Empfängern an. Die Metriken werden bei der Versandvorbereitung berechnet und zeigen: die Anfangs-Audience, die Anzahl der zu sendenden Nachrichten und die Anzahl der ausgeschlossenen Empfänger.
+
+![](assets/reporting_email_1.png){align="center" zoomable="yes"}
+
+Bewegen Sie den Mauszeiger über einen Abschnitt des Diagramms, um die genaue Zahl anzuzeigen.
+
+![](assets/reporting_email_1.1.png){align="center" zoomable="yes"}
+
+
++++ Erfahren Sie mehr über die Metriken des E-Mail-Versandberichts.
+
+* **[!UICONTROL Ursprüngliche Zielgruppe]**: Gesamtzahl der Zielgruppenempfängerinnen und -empfänger.
+
+* **[!UICONTROL Zu liefern]**: Gesamtzahl der nach der Versandvorbereitung zu versendenden Nachrichten.
+
+* **[!UICONTROL Ausschluss]**: Gesamtzahl der von der Zielpopulation ausgeschlossen Empfänger.
++++
+
+### Versandstatistiken {#email-delivery-stats}
+
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_delivery_statistics_summary"
->title="Widget &quot;Versandstatistiken&quot;"
+>title="Versandstatistiken"
 >abstract="Die **Versandstatistiken** -Diagramm zeigt den Erfolg Ihres Versands und die aufgetretenen Fehler."
+
+
+Die **[!UICONTROL Versandstatistiken]** -Diagramm zeigt den Erfolg Ihres Versands an. Die Metriken werden nachfolgend beschrieben.
+
+![](assets/reporting_email_2.png){align="center" zoomable="yes"}
+
++++ Erfahren Sie mehr über die Metriken des E-Mail-Kampagnen-Berichts.
+
+* **[!UICONTROL Nachricht gesendet]**: Gesamtzahl der nach der Versandvorbereitung zu versendenden Nachrichten.
+
+* **[!UICONTROL Erfolg]**: Anzahl der erfolgreich verarbeiteten Nachrichten im Verhältnis zur Anzahl der zu versendenden Nachrichten.
+
+* **[!UICONTROL Fehler]**: Gesamtzahl der über alle Sendungen hinweg kumulierten Fehler und der automatischen Bounce-Verarbeitungen im Verhältnis zur Anzahl der zu versendenden Nachrichten.
+
+* **[!UICONTROL Neue Quarantänen]**: Gesamtzahl der Adressen, die infolge eines fehlgeschlagenen Versands unter Quarantäne gestellt wurden (unbekannter Nutzer, ungültige Domain), im Verhältnis zur Anzahl der zu versendenden Nachrichten.
+
++++
+
+### Ausschlussgründe  {#email-delivery-exclusions}
+
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_exclusion"
->title="Widget &quot;Versandstatistiken&quot;"
->abstract="Die Tabelle Ausschlussgründe zeigt die Verteilung der während der Vorbereitung zurückgewiesenen Nachrichten nach Regeln."
+>title="Versandstatistiken"
+>abstract="Die **Ausschlussgründe** Diagramm und Tabelle zeigen die Verteilung der bei der Versandvorbereitung zurückgewiesenen Nachrichten nach Regeln."
 
-* **[!UICONTROL Ursprungspopulation der Zielgruppe]** -Diagramm zeigt Daten zu Ihren Empfängern an:
 
-  ![](assets/reporting_email_1.png){align="left" zoomable="yes"}
+Die **[!UICONTROL Ausschlussgründe]** Diagramm und Tabelle zeigen die Verteilung der bei der Versandvorbereitung zurückgewiesenen Nachrichten nach Regeln. Ausschlussregeln werden im Abschnitt [Dokumentation zu Campaign v8 (Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){_blank}.
 
-  +++ Erfahren Sie mehr über die Metriken des E-Mail-Versandberichts.
+![](assets/reporting_email_3.png){align="center" zoomable="yes"}
 
-   * **[!UICONTROL Ursprüngliche Zielgruppe]**: Gesamtzahl der Zielgruppenempfängerinnen und -empfänger.
++++ Erfahren Sie mehr über die Metriken des E-Mail-Versandberichts.
 
-   * **[!UICONTROL Zu liefern]**: Gesamtzahl der nach der Versandvorbereitung zu versendenden Nachrichten.
+* **[!UICONTROL Unbekannter Nutzer]**: Fehlertyp, der während des Versands erzeugt wird, um anzuzeigen, dass die E-Mail-Adresse ungültig ist.
 
-   * **[!UICONTROL Ausschluss]**: Gesamtzahl der vom Versand an die Zielgruppe ausgeschlossenen Nachrichten.
-+++
+* **[!UICONTROL Ungültige Domain]**: Fehlertyp, der beim Senden eines Versands erzeugt wird, um anzuzeigen, dass die Domain der E-Mail-Adresse falsch ist oder nicht existiert.
 
-* **[!UICONTROL Versandstatistiken]** -Diagramm zeigt den Erfolg Ihres Versands an.
+* **[!UICONTROL Postfach voll]**: Fehler, der nach fünf fehlgeschlagenen Zustellversuchen erzeugt wird, wenn der Posteingang der Empfänger zu viele Nachrichten enthält.
 
-  ![](assets/reporting_email_2.png){align="left"}
+* **[!UICONTROL Account deaktiviert]**: Fehlertyp, der beim Senden eines Versands erzeugt wird, um anzuzeigen, dass die Adresse nicht mehr existiert.
 
-  +++ Erfahren Sie mehr über die Metriken des E-Mail-Kampagnen-Berichts.
+* **[!UICONTROL Verweigert]**: Fehlertyp, der erzeugt wird, wenn eine Adresse vom IAP (Internet Access Provider) abgelehnt wird, z. B. nach Anwendung einer Sicherheitsregel (Anti-Spam-Software).
 
-   * **[!UICONTROL Nachricht gesendet]**: Gesamtzahl der nach der Versandvorbereitung zu versendenden Nachrichten.
+* **[!UICONTROL Unerreichbar]**: Fehlertyp, der in der Verteilungskette der Nachricht auftritt: Vorfall im SMTP-Relais, Domain vorübergehend unerreichbar, usw.
 
-   * **[!UICONTROL Erfolg]**: Anzahl der erfolgreich verarbeiteten Nachrichten im Verhältnis zur Anzahl der zu versendenden Nachrichten.
-
-   * **[!UICONTROL Fehler]**: Gesamtzahl der über alle Sendungen hinweg kumulierten Fehler und der automatischen Bounce-Verarbeitungen im Verhältnis zur Anzahl der zu versendenden Nachrichten.
-
-   * **[!UICONTROL Neue Quarantänen]**: Gesamtzahl der Adressen, die infolge eines fehlgeschlagenen Versands unter Quarantäne gestellt wurden (unbekannter Nutzer, ungültige Domain), im Verhältnis zur Anzahl der zu versendenden Nachrichten.
-
-+++
-
-* **[!UICONTROL Ausschlussgründe]**: Diagramm und Tabelle zeigen die Aufschlüsselung der im Zuge der Analyse abgelehnten Nachrichten nach Regeln.
-
-  ![](assets/reporting_email_3.png){align="center"}
-
-  +++ Erfahren Sie mehr über die Metriken des E-Mail-Versandberichts.
-
-   * **[!UICONTROL Unbekannter Nutzer]**: Fehlertyp, der während des Versands erzeugt wird, um anzuzeigen, dass die E-Mail-Adresse ungültig ist.
-
-   * **[!UICONTROL Ungültige Domain]**: Fehlertyp, der beim Senden eines Versands erzeugt wird, um anzuzeigen, dass die Domain der E-Mail-Adresse falsch ist oder nicht existiert.
-
-   * **[!UICONTROL Postfach voll]**: Fehler, der nach fünf fehlgeschlagenen Zustellversuchen erzeugt wird, wenn der Posteingang der Empfänger zu viele Nachrichten enthält.
-
-   * **[!UICONTROL Account deaktiviert]**: Fehlertyp, der beim Senden eines Versands erzeugt wird, um anzuzeigen, dass die Adresse nicht mehr existiert.
-
-   * **[!UICONTROL Verweigert]**: Fehlertyp, der erzeugt wird, wenn eine Adresse vom IAP (Internet Access Provider) abgelehnt wird, z. B. nach Anwendung einer Sicherheitsregel (Anti-Spam-Software).
-
-   * **[!UICONTROL Unerreichbar]**: Fehlertyp, der in der Verteilungskette der Nachricht auftritt: Vorfall im SMTP-Relais, Domain vorübergehend unerreichbar, usw.
-
-   * **[!UICONTROL Nicht angemeldet]**: Fehler, wenn das Mobiltelefon des Empfängers bei Versand der Nachricht ausgeschaltet war oder über keinen Netzempfang verfügte.
+* **[!UICONTROL Nicht angemeldet]**: Fehler, wenn das Mobiltelefon des Empfängers bei Versand der Nachricht ausgeschaltet war oder über keinen Netzempfang verfügte.
 
 +++
 
@@ -96,6 +111,9 @@ Der **E-Mail-Versandbericht** bietet umfassende Einblicke und Daten, die speziel
 
 Dieser Bericht enthält detaillierte Informationen zum Versanddurchsatz der gesamten Plattform innerhalb eines bestimmten Zeitraums. Die wichtigste Kennzahl, mit der die Geschwindigkeit des Nachrichtenversands gemessen wird, ist die Anzahl der pro Stunde gesendeten Nachrichten.
 
+![](assets/reporting_email_3.1.png){align="center" zoomable="yes"}
+
+
 ## Versandstatistiken {#broadcast-statistics}
 
 >[!CONTEXTUALHELP]
@@ -103,62 +121,79 @@ Dieser Bericht enthält detaillierte Informationen zum Versanddurchsatz der gesa
 >title="Widget &quot;Versandstatistiken&quot;"
 >abstract="Die **Versandstatistiken** enthält die verfügbaren Daten zu Fehlern, die bei jeder Domain aufgetreten sind."
 
-* Die Tabelle **[!UICONTROL Versandstatistiken]** enthält die verfügbaren Daten zu Fehlern, die bei jeder Domain aufgetreten sind.
+Die **[!UICONTROL Versandstatistiken]** enthält die verfügbaren Daten zu Fehlern, die bei jeder Domain aufgetreten sind. Die Metriken werden nachfolgend beschrieben.
 
-  ![](assets/reporting_email_4.png){align="center"}
+![](assets/reporting_email_4.png){align="center" zoomable="yes"}
 
-  +++ Erfahren Sie mehr über die Metriken des E-Mail-Versandberichts.
++++ Erfahren Sie mehr über die Metriken des E-Mail-Versandberichts.
 
-   * **[!UICONTROL Verarbeitete E-Mails]**: Gesamtzahl der Nachrichten, die vom Versand-Server verarbeitet wurden.
+* **[!UICONTROL Verarbeitete E-Mails]**: Gesamtzahl der Nachrichten, die vom Versand-Server verarbeitet wurden.
 
-   * **[!UICONTROL Zugestellt]**: Prozentualer Anteil der erfolgreich verarbeiteten Nachrichten im Vergleich zur Gesamtzahl der verarbeiteten Nachrichten.
+* **[!UICONTROL Zugestellt]**: Prozentualer Anteil der erfolgreich verarbeiteten Nachrichten im Vergleich zur Gesamtzahl der verarbeiteten Nachrichten.
 
-   * **[!UICONTROL Hardbounces]**: Prozentualer Anteil der Hardbounces, permanenten Fehler wie eine falsche E-Mail-Adresse in Bezug auf die Gesamtzahl der verarbeiteten E-Mails.
+* **[!UICONTROL Hardbounces]**: Prozentualer Anteil der Hardbounces, permanenten Fehler wie eine falsche E-Mail-Adresse in Bezug auf die Gesamtzahl der verarbeiteten E-Mails.
 
-   * **[!UICONTROL Softbounces]**: Prozentualer Anteil der Softbounces, temporäre Fehler wie einen vollständigen Posteingang in Bezug auf die Gesamtzahl der verarbeiteten E-Mails
+* **[!UICONTROL Softbounces]**: Prozentualer Anteil der Softbounces, temporäre Fehler wie einen vollständigen Posteingang in Bezug auf die Gesamtzahl der verarbeiteten E-Mails
 
-   * **[!UICONTROL Öffnungen]**: Prozentualer Anteil der Zielgruppenempfängerinnen und -empfänger, die mindestens einmal eine Nachricht geöffnet haben, im Vergleich zur Gesamtzahl der erfolgreich verarbeiteten Nachrichten.
+* **[!UICONTROL Öffnungen]**: Prozentualer Anteil der Zielgruppenempfängerinnen und -empfänger, die mindestens einmal eine Nachricht geöffnet haben, im Vergleich zur Gesamtzahl der erfolgreich verarbeiteten Nachrichten.
 
-   * **[!UICONTROL Klicks]**: Prozentsatz der Anzahl der Personen, die mindestens einmal auf einen Versand geklickt haben, im Vergleich zur Anzahl der erfolgreich verarbeiteten Nachrichten.
+* **[!UICONTROL Klicks]**: Prozentsatz der Anzahl der Personen, die mindestens einmal auf einen Versand geklickt haben, im Vergleich zur Anzahl der erfolgreich verarbeiteten Nachrichten.
 
-   * **[!UICONTROL Abmeldungen]**: Prozentualer Anteil der Klicks auf einen Abmelde-Link in Bezug auf die Gesamtzahl der verarbeiteten Nachrichten.
+* **[!UICONTROL Abmeldungen]**: Prozentualer Anteil der Klicks auf einen Abmelde-Link in Bezug auf die Gesamtzahl der verarbeiteten Nachrichten.
 +++
 
-## Unzustellbare Nachrichten und Bounces {#non-deliverables-email}
+## Unzustellbare Nachrichten {#non-deliverables-email}
+
+### Aufschlüsselung der Fehler nach Typ {#email-delivery-breakdown-type}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_error_type"
->title="Verteilung der Fehler nach Typ-Widget"
->abstract="Die **Verteilung der Fehler nach Typ** Tabelle und Diagramm enthalten die verfügbaren Daten für jeden aufgetretenen Fehlertyp."
+>title="Aufschlüsselung der Fehler nach Typ"
+>abstract="Die **Verteilung der Fehler nach Typ** -Tabelle und -Diagramm enthalten die verfügbaren Daten für jeden aufgetretenen Fehlertyp: unbekannter Nutzer, Postfach voll, ungültige Domäne und mehr."
+
+Die **[!UICONTROL Verteilung der Fehler nach Typ]** Tabelle und Diagramm enthalten die verfügbaren Daten für den Fehlertyp. Die Metriken werden nachfolgend beschrieben.
+
+Die in diesem Bericht angezeigten Fehler lösen einen Quarantäneprozess aus. Weitere Informationen zur Quarantäneverwaltung finden Sie in der [Dokumentation zu Campaign v8 (Client-Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=de){target="_blank"}.
+
+![](assets/campaign_report_email_6.png){align="left" zoomable="yes"}
+
++++ Erfahren Sie mehr über die Metriken des E-Mail-Versandberichts.
+
+* **[!UICONTROL Unbekannter Nutzer]**: Fehlertyp, der während des Versands erzeugt wird, um anzuzeigen, dass die E-Mail-Adresse ungültig ist.
+
+* **[!UICONTROL Ungültige Domain]**: Fehlertyp, der beim Senden eines Versands erzeugt wird, um anzuzeigen, dass die Domain der E-Mail-Adresse falsch ist oder nicht existiert.
+
+* **[!UICONTROL Postfach voll]**: Fehler, der nach fünf fehlgeschlagenen Zustellversuchen erzeugt wird, wenn der Posteingang der Empfänger zu viele Nachrichten enthält.
+
+* **[!UICONTROL Account deaktiviert]**: Fehlertyp, der beim Senden eines Versands erzeugt wird, um anzuzeigen, dass die Adresse nicht mehr existiert.
+
+* **[!UICONTROL Verweigert]**: Fehlertyp, der erzeugt wird, wenn eine Adresse vom IAP (Internet Access Provider) abgelehnt wird, z. B. nach Anwendung einer Sicherheitsregel (Anti-Spam-Software).
+
+* **[!UICONTROL Unerreichbar]**: Fehlertyp, der in der Verteilungskette der Nachricht auftritt: Vorfall im SMTP-Relais, Domain vorübergehend unerreichbar, usw.
+
+* **[!UICONTROL Nicht angemeldet]**: Fehler, wenn das Mobiltelefon des Empfängers bei Versand der Nachricht ausgeschaltet war oder über keinen Netzempfang verfügte.
+
++++
+
+
+### Verteilung der Fehler nach Domain {#email-delivery-breakdown-domain}
+
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_error_domain"
->title="Verteilung der Fehler nach Domain-Widget"
->abstract="Die **Verteilung der Fehler nach Domain** -Tabelle und -Diagramm enthalten die verfügbaren Daten für jeden Fehlertyp, der je nach Domäne aufgetreten ist."
+>title="Verteilung der Fehler nach Domain"
+>abstract="Die **Verteilung der Fehler nach Domain** -Tabelle und -diagramm zeigen die verfügbaren Daten für jeden aufgetretenen Fehlertyp in Abhängigkeit von der jeweiligen Domäne an."
 
-* Die Tabellen und Diagramme **[!UICONTROL Aufschlüsselung der Fehler nach Typ]** und **[!UICONTROL Aufschlüsselung der Fehler nach Domain]** enthalten die verfügbaren Daten zu möglichen Fehlern, die bei jeder Domain aufgetreten sind.
 
-  Die in diesem Bericht angezeigten Fehler lösen einen Quarantäneprozess aus. Weitere Informationen zur Quarantäneverwaltung finden Sie in der [Dokumentation zu Campaign v8 (Client-Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=de){target="_blank"}.
+Die **[!UICONTROL Verteilung der Fehler nach Domain]** -Tabelle und -Diagramm zeigen die verfügbaren Daten zu Fehlern an, die bei jeder Domäne aufgetreten sind.
 
-  ![](assets/campaign_report_email_6.png)
+![](assets/campaign_report_email_6.1.png){align="left" zoomable="yes"}
 
-  +++ Erfahren Sie mehr über die Metriken des E-Mail-Versandberichts.
+Klicken Sie auf das Symbol neben dem Namen der einzelnen Domänen, um Details anzuzeigen.
 
-   * **[!UICONTROL Unbekannter Nutzer]**: Fehlertyp, der während des Versands erzeugt wird, um anzuzeigen, dass die E-Mail-Adresse ungültig ist.
+![](assets/campaign_report_email_6.1.png){align="left" zoomable="yes"}
 
-   * **[!UICONTROL Ungültige Domain]**: Fehlertyp, der beim Senden eines Versands erzeugt wird, um anzuzeigen, dass die Domain der E-Mail-Adresse falsch ist oder nicht existiert.
-
-   * **[!UICONTROL Postfach voll]**: Fehler, der nach fünf fehlgeschlagenen Zustellversuchen erzeugt wird, wenn der Posteingang der Empfänger zu viele Nachrichten enthält.
-
-   * **[!UICONTROL Account deaktiviert]**: Fehlertyp, der beim Senden eines Versands erzeugt wird, um anzuzeigen, dass die Adresse nicht mehr existiert.
-
-   * **[!UICONTROL Verweigert]**: Fehlertyp, der erzeugt wird, wenn eine Adresse vom IAP (Internet Access Provider) abgelehnt wird, z. B. nach Anwendung einer Sicherheitsregel (Anti-Spam-Software).
-
-   * **[!UICONTROL Unerreichbar]**: Fehlertyp, der in der Verteilungskette der Nachricht auftritt: Vorfall im SMTP-Relais, Domain vorübergehend unerreichbar, usw.
-
-   * **[!UICONTROL Nicht angemeldet]**: Fehler, wenn das Mobiltelefon des Empfängers bei Versand der Nachricht ausgeschaltet war oder über keinen Netzempfang verfügte.
-
-+++
+Die verfügbaren Metriken sind mit denen der Variablen [Verteilung der Fehler nach Typ](#email-delivery-breakdown-type) weiter oben beschrieben.
 
 ## Tracking-Indikatoren {#tracking-indicators-email}
 
@@ -168,49 +203,55 @@ Dieser Bericht enthält detaillierte Informationen zum Versanddurchsatz der gesa
 >abstract="Die **Tracking** -Tab Ihres Berichts enthält wertvolle Daten, darunter das Empfängerverhalten pro Link, die Öffnungs- und Klickverteilung sowie detaillierte Informationen zu den am häufigsten angeklickten URLs während eines Versands."
 
 >[!CONTEXTUALHELP]
->id="acw_delivery_reporting_delivery_statistics_indicators"
->title=" Widget &quot;Versandstatistiken&quot;"
->abstract="Die **Versandstatistiken** Widget bietet wichtige Leistungsindikatoren (KPIs), die detaillierte Informationen zu den für gesendete E-Mails verfügbaren Daten enthalten."
-
->[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_open_clickthrough"
 >title="Widget zur Öffnungs- und Klickrate"
 >abstract="Die **Öffnungs- und Klickrate** zeigt Daten bezüglich der Interaktion Ihrer Empfänger mit Ihrem Versand an."
 
-* **[!UICONTROL Versandstatistiken]** bieten wichtige Leistungsindikatoren (KPIs), die detaillierte Informationen zu den für gesendete E-Mails verfügbaren Daten enthalten.
+### Versandstatistiken  {#email-tracking-delivery-stats}
 
-  ![](assets/reporting_email_5.png){align="center"}
 
-  +++ Erfahren Sie mehr über die Metriken des E-Mail-Versandberichts.
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_delivery_statistics_indicators"
+>title=" Versandstatistiken"
+>abstract="Die **Versandstatistiken** bietet wichtige Leistungsindikatoren (KPIs), die detaillierte Informationen zu den für gesendete E-Mails verfügbaren Daten liefern: Erfolg, Öffnungen, Klicks und mehr."
 
-   * **[!UICONTROL Erfolg]**: Anzahl der erfolgreich verarbeiteten Nachrichten im Verhältnis zur Anzahl der zu versendenden Nachrichten.
 
-   * **[!UICONTROL Unterschiedliche Öffnungen (Unique Opens)]**: Gesamtzahl der Zielgruppenempfängerinnen und -empfänger, die mindestens einmal eine Nachricht geöffnet haben.
+Die **[!UICONTROL Versandstatistiken]** bietet wichtige Leistungsindikatoren (KPIs), die detaillierte Informationen zu den für gesendete E-Mails verfügbaren Daten enthalten. Die Metriken werden nachfolgend beschrieben.
 
-   * **[!UICONTROL Öffnungen]**: Anzahl der unterschiedlichen Zielgruppenempfängerinnen und -empfänger dieser Domain, die mindestens einmal eine Nachricht geöffnet haben.
+![](assets/reporting_email_5.png){align="center"}
 
-   * **[!UICONTROL Klicks auf den Abmelde-Link]**: Anzahl der Klicks auf den Abmelde-Link.
++++ Erfahren Sie mehr über die Metriken des E-Mail-Versandberichts.
 
-   * **[!UICONTROL Klicks auf den Mirror-Link]**: Anzahl der Klicks auf den Link der Mirrorseite.
+* **[!UICONTROL Erfolg]**: Anzahl der erfolgreich verarbeiteten Nachrichten im Verhältnis zur Anzahl der zu versendenden Nachrichten.
 
-   * **[!UICONTROL Schätzung der Weiterleitungen]**: Schätzung der Anzahl der E-Mails, die von den Zielgruppenempfängerinnen und -empfängern weitergeleitet werden.
+* **[!UICONTROL Unterschiedliche Öffnungen (Unique Opens)]**: Gesamtzahl der Zielgruppenempfängerinnen und -empfänger, die mindestens einmal eine Nachricht geöffnet haben.
+
+* **[!UICONTROL Öffnungen]**: Anzahl der unterschiedlichen Zielgruppenempfängerinnen und -empfänger dieser Domain, die mindestens einmal eine Nachricht geöffnet haben.
+
+* **[!UICONTROL Klicks auf den Abmelde-Link]**: Anzahl der Klicks auf den Abmelde-Link.
+
+* **[!UICONTROL Klicks auf den Mirror-Link]**: Anzahl der Klicks auf den Link der Mirrorseite.
+
+* **[!UICONTROL Schätzung der Weiterleitungen]**: Schätzung der Anzahl der E-Mails, die von den Zielgruppenempfängerinnen und -empfängern weitergeleitet werden.
 +++
 
-* Die Tabelle **[!UICONTROL Öffnungs- und Klickrate]** zeigt Daten zu Ihren Empfängerinnen und Empfängern an.
+### Öffnungs- und Klickrate {#email-tracking-click-through}
 
-  ![](assets/reporting_email_6.png){align="center"}
+Die **[!UICONTROL Öffnungs- und Klickrate]** zeigt Daten zu Ihren Empfängern an. Die Metriken werden nachfolgend beschrieben.
 
-  +++ Erfahren Sie mehr über die Metriken des E-Mail-Versandberichts.
+![](assets/reporting_email_6.png){align="center"}
 
-   * **[!UICONTROL Gesendet]**: Gesamtzahl der gesendeten Nachrichten.
++++ Erfahren Sie mehr über die Metriken des E-Mail-Versandberichts.
 
-   * **[!UICONTROL Beschwerden]**: Anzahl der Nachrichten für diese Domain, die von der Empfängerin oder vom Empfänger als unerwünscht gemeldet wurden.
+* **[!UICONTROL Gesendet]**: Gesamtzahl der gesendeten Nachrichten.
 
-   * **[!UICONTROL Öffnungen]**: Anzahl der unterschiedlichen Zielgruppenempfängerinnen und -empfänger dieser Domain, die mindestens einmal eine Nachricht geöffnet haben.
+* **[!UICONTROL Beschwerden]**: Anzahl der Nachrichten für diese Domain, die von der Empfängerin oder vom Empfänger als unerwünscht gemeldet wurden.
 
-   * **[!UICONTROL Klicks]**: Anzahl der unterschiedlichen Zielgruppenempfängerinnen und -empfänger, die mindestens einmal in einem Versand geklickt haben.
+* **[!UICONTROL Öffnungen]**: Anzahl der unterschiedlichen Zielgruppenempfängerinnen und -empfänger dieser Domain, die mindestens einmal eine Nachricht geöffnet haben.
 
-   * **[!UICONTROL Brutto-Reaktionsrate]**: Prozentualer Anteil der Empfängerinnen und Empfänger, die mindestens einmal in einem Versand geklickt haben, in Bezug auf die Empfängerinnen und Empfänger, die mindestens einmal einen Versand geöffnet haben.
+* **[!UICONTROL Klicks]**: Anzahl der unterschiedlichen Zielgruppenempfängerinnen und -empfänger, die mindestens einmal in einem Versand geklickt haben.
+
+* **[!UICONTROL Brutto-Reaktionsrate]**: Prozentualer Anteil der Empfängerinnen und Empfänger, die mindestens einmal in einem Versand geklickt haben, in Bezug auf die Empfängerinnen und Empfänger, die mindestens einmal einen Versand geöffnet haben.
 +++
 
 ## URLs und Clickstreams {#url-email}
@@ -218,9 +259,9 @@ Dieser Bericht enthält detaillierte Informationen zum Versanddurchsatz der gesa
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_urls_clickstreams"
 >title="URLs und Clickstreams Widget"
->abstract="Die **URLs und Clickstreams** bietet wichtige Leistungsindikatoren (Key Performance Indicators, KPIs), die detaillierte Informationen zu den URLs enthalten, auf die während eines Versands am häufigsten geklickt wurde."
+>abstract="Die **URLs und Clickstreams** liefert wichtige Leistungsindikatoren (KPIs), die detaillierte Informationen zu den URLs enthalten, auf die während eines Versands am häufigsten geklickt wurde."
 
-* **[!UICONTROL URLs und Clickstreams]**: Bietet wichtige Leistungsindikatoren (KPIs), die detaillierte Informationen zu den URLs enthalten, auf die während eines Versands am häufigsten geklickt wurde.
+* Die **[!UICONTROL URLs und Clickstreams]** liefert wichtige Leistungsindikatoren (KPIs), die detaillierte Informationen zu den URLs enthalten, auf die während eines Versands am häufigsten geklickt wurde.
 
   ![](assets/reporting_email_7.png){align="center"}
 
@@ -259,15 +300,15 @@ Dieser Bericht enthält detaillierte Informationen zum Versanddurchsatz der gesa
 >title="Widget &quot;Benutzeraktivitäten&quot;"
 >abstract="Die **Benutzeraktivitäten** -Diagramm zeigt die Verteilung der Öffnungen und Klicks in Form eines Diagramms. Sie können den Zeitraum der Zielgruppendaten auswählen: letzter Tag, letzte Stunde oder letzte 30 Minuten."
 
-* **[!UICONTROL Benutzeraktivitäten]**: Zeigt die Aufschlüsselung der Öffnungen und Klicks in Form eines Diagramms. Sie können den Zeitraum der Zielgruppendaten auswählen: letzter Tag, letzte Stunde oder letzte 30 Minuten.
+Die **[!UICONTROL Benutzeraktivitäten]** zeigt die Öffnungs- und Klickverteilung in Form eines Diagramms an. Sie können den Zeitraum der Zielgruppendaten auswählen: letzter Tag, letzte Stunde oder letzte 30 Minuten.
 
-  ![](assets/reporting_email_10.png){align="center"}
+![](assets/reporting_email_10.png){align="center"}
 
-  +++ Erfahren Sie mehr über die Metriken des E-Mail-Versandberichts.
++++ Erfahren Sie mehr über die Metriken des E-Mail-Versandberichts.
 
-   * **[!UICONTROL Klicks]**: Gesamtzahl der Klicks auf Links in Sendungen.
+* **[!UICONTROL Klicks]**: Gesamtzahl der Klicks auf Links in Sendungen.
 
-   * **[!UICONTROL Öffnungen]**: Anzahl der unterschiedlichen Zielgruppenempfängerinnen und -empfänger dieser Domain, die mindestens einmal eine Nachricht geöffnet haben.
+* **[!UICONTROL Öffnungen]**: Anzahl der unterschiedlichen Zielgruppenempfängerinnen und -empfänger dieser Domain, die mindestens einmal eine Nachricht geöffnet haben.
 
 +++
 
@@ -278,41 +319,61 @@ Dieser Bericht enthält detaillierte Informationen zum Versanddurchsatz der gesa
 >title="Trackingstatistiken-Widget"
 >abstract="Die **Trackingstatistiken** -Diagramm bietet Statistiken zu Öffnungen und Klicks. Sie haben die Möglichkeit, den spezifischen Zeitrahmen für die Zielgruppendaten auszuwählen."
 
-* **[!UICONTROL Tracking-Statistiken]**: Das Diagramm enthält Statistiken über Öffnungen und Klicks. Sie haben die Möglichkeit, den spezifischen Zeitrahmen für die Zielgruppendaten auszuwählen.
+Die **[!UICONTROL Trackingstatistiken]** -Diagramm bietet Statistiken zu Öffnungen und Klicks. Sie haben die Möglichkeit, den spezifischen Zeitrahmen für die Zielgruppendaten auszuwählen.
 
-  ![](assets/reporting_email_11.png){align="center"}
+![](assets/reporting_email_11.png){align="center"}
 
-  +++ Erfahren Sie mehr über die Metriken des E-Mail-Versandberichts.
++++ Erfahren Sie mehr über die Metriken des E-Mail-Versandberichts.
 
-   * **[!UICONTROL Klicks]**: Gesamtzahl der Klicks auf Links in Sendungen.
+* **[!UICONTROL Klicks]**: Gesamtzahl der Klicks auf Links in Sendungen.
 
-   * **[!UICONTROL Öffnungen]**: Anzahl der unterschiedlichen Zielgruppenempfängerinnen und -empfänger dieser Domain, die mindestens einmal eine Nachricht geöffnet haben.
+* **[!UICONTROL Öffnungen]**: Anzahl der unterschiedlichen Zielgruppenempfängerinnen und -empfänger dieser Domain, die mindestens einmal eine Nachricht geöffnet haben.
 
 +++
 
 ## Aufschlüsselung der Öffnungen {#breakdown-opens}
 
+
+### Öffnungsverteilung nach Gerät {#breakdown-opens-devices}
+
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_breakdown_device"
 >title="Aufschlüsselung nach Gerät"
->abstract="Die **Aufschlüsselung nach Gerät** zeigt die Verteilung der Öffnungen nach Gerätetyp für den betreffenden Zeitraum an. Das erste Diagramm zeigt Statistiken über Öffnungen auf einem Computer und Mobilgeräten. Das zweite stellt Statistiken dar, die sich nur auf Öffnungen auf Mobilgeräten beziehen."
+>abstract="Die **Aufschlüsselung nach Gerät** zeigt die Verteilung der Öffnungen nach Gerät für den Zeitraum an. Für jede Kategorie werden zwei Diagramme verwendet. Das erste zeigt Statistiken zu Öffnungen auf Computern und Mobilgeräten. Die zweite zeigt die genaue Anzahl und den genauen Prozentsatz für jeden Gerätetyp an."
+
+Die **Aufschlüsselung nach Gerät** zeigt die Verteilung der Öffnungen nach Gerät für den jeweiligen Zeitraum an: PCs, Android-Geräte, Apple-Geräte usw.
+
+Für jede Kategorie werden zwei Diagramme verwendet. Das erste zeigt Statistiken zu Öffnungen auf Computern und Mobilgeräten. Die zweite zeigt die genaue Anzahl und den genauen Prozentsatz für jeden Gerätetyp an.
+
+![](assets/reporting_email_13.png){align="center"}
+
+
+### Öffnungsverteilung nach Betriebssystem {#breakdown-opens-os}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_breakdown_os"
->title="Aufschlüsselung nach Betriebssystem"
->abstract="Die **Aufschlüsselung nach Betriebssystem** zeigt die Verteilung der Öffnungen nach Betriebssystem für den betreffenden Zeitraum an. Das erste Diagramm zeigt Statistiken über Öffnungen auf einem Computer und Mobilgeräten. Das zweite stellt Statistiken dar, die sich nur auf Öffnungen auf Mobilgeräten beziehen."
+>title="Verteilung nach Betriebssystem"
+>abstract="Die **Aufschlüsselung nach Betriebssystem** zeigt die Verteilung der Öffnungen nach Betriebssystem für den betreffenden Zeitraum an. Das erste Diagramm zeigt Statistiken über Öffnungen auf einem Computer und Mobilgeräten. Die zweite zeigt die genaue Anzahl und den genauen Prozentsatz für jedes Betriebssystem an."
+
+Die **Aufschlüsselung nach Betriebssystem** zeigt die Verteilung der Öffnungen nach Betriebssystem für den jeweiligen Zeitraum an: Windows-Systeme, Android-Systeme, iOS-Systeme usw.
+
+Für jede Kategorie werden zwei Diagramme verwendet. Die erste zeigt Statistiken über Öffnungen auf einem Computer und mobilen Betriebssystemen an. Die zweite zeigt die genaue Anzahl und den genauen Prozentsatz für jedes Betriebssystem an.
+
+![](assets/reporting_email_13.1.png){align="center"}
+
+### Öffnungsverteilung nach Browser {#breakdown-opens-browser}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_breakdown_browser"
 >title="Aufschlüsselung nach Browser"
->abstract="Die **Aufschlüsselung nach Browser** zeigt die Verteilung der Öffnungen nach Browser für den betreffenden Zeitraum an. Das erste Diagramm zeigt Statistiken über Öffnungen auf einem Computer und Mobilgeräten. Das zweite stellt Statistiken dar, die sich nur auf Öffnungen auf Mobilgeräten beziehen."
+>abstract="Die **Aufschlüsselung nach Browser** zeigt die Verteilung der Öffnungen nach Browser für den Zeitraum an. Das erste Diagramm zeigt Statistiken über Öffnungen auf einem Computer und Mobilgeräten. Die zweite zeigt die genaue Anzahl und den genauen Prozentsatz für jeden Browser an."
 
+Die **Aufschlüsselung nach Browser** zeigt die Öffnungsverteilung nach Browser an: Chrome, Safari, Internet Explorer usw.
 
-Dieser Bericht zeigt die Öffnungsverteilung nach Betriebssystem, Geräteart und Browser für den ausgewählten Zeitraum. Für jede Kategorie stehen zwei Diagramme zur Verfügung. Das erste zeigt die Öffnungsstatistiken für Computer und Mobilgeräte an, das zweite nur für Mobilgeräte.
+Für jede Kategorie werden zwei Diagramme verwendet. Die erste zeigt Statistiken über Öffnungen auf einem Computer und mobilen Betriebssystemen an. Die zweite zeigt die genaue Anzahl und den genauen Prozentsatz für jeden Browser an.
 
-Sie haben die Möglichkeit, von **[!UICONTROL Desktop-Computer und Mobilgeräte]** auf ausschließlich **[!UICONTROL Nur Mobilgeräte]** umzuschalten, um die Genauigkeit der Zielgruppenbestimmung zu erhöhen.
+![](assets/reporting_email_13.2.png){align="center"}
 
-![](assets/reporting_email_13.png){align="center"}
 
 ## Hotclicks {#hotclicks}
 
