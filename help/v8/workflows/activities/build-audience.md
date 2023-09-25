@@ -3,10 +3,10 @@ audience: end-user
 title: Verwenden der Workflow-Aktivität „Zielgruppe erstellen“
 description: Erfahren Sie, wie Sie die Workflow-Aktivität „Zielgruppe erstellen“ verwenden.
 badge: label="Beta"
-source-git-commit: 2894766336d5ac52625175981c6969a0ac5882d8
+source-git-commit: 47cc61510ae0dba139e0cb4d547fc4e737525931
 workflow-type: tm+mt
-source-wordcount: '485'
-ht-degree: 62%
+source-wordcount: '478'
+ht-degree: 60%
 
 ---
 
@@ -54,7 +54,7 @@ Führen Sie die folgenden Schritte aus, um die Aktivität **Zielgruppe erstellen
 Um Ihre eigene Abfrage zu erstellen, führen Sie diese zusätzlichen Schritte aus:
 
 1. Wählen Sie **Eigene erstellen (Abfrage)** aus.
-1. Wählen Sie die **Zielgruppendimension**. Die Zielgruppendimension ermöglicht die Bestimmung der vom Vorgang betroffenen Population: Empfängerinnen und Empfänger, Vertragsbegünstigte, Benutzerinnen und Benutzer, Abonnentinnen und Abonnenten usw. Standardmäßig wird die Zielgruppe aus den Empfängerinnen und Empfängern ausgewählt. Weiterführende Informationen finden Sie in der [v8-Dokumentation](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html?lang=de#targeting-and-filtering-dimensions){target="_blank"}.
+1. Wählen Sie die **Zielgruppendimension**. Die Zielgruppendimension ermöglicht die Bestimmung der vom Vorgang betroffenen Population: Empfängerinnen und Empfänger, Vertragsbegünstigte, Benutzerinnen und Benutzer, Abonnentinnen und Abonnenten usw. Standardmäßig wird die Zielgruppe aus den Empfängerinnen und Empfängern ausgewählt. Erfahren Sie mehr über Zielgruppendimensionen in [diesem Abschnitt](../../audience/about-recipients.md#targeting-dimensions).
 1. Klicken Sie auf **Fortfahren**.
 1. Verwenden Sie den Regel-Builder, um Ihre Abfrage zu definieren, genauso wie Sie eine Zielgruppe beim Entwerfen einer neuen E-Mail erstellen. Näheres dazu finden Sie in [diesem Abschnitt](../../audience/segment-builder.md).
 
