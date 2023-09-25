@@ -3,10 +3,10 @@ audience: end-user
 title: E-Mail-Versandberichte
 description: Erfahren Sie, wie Sie auf E-Mail-Versandberichte zugreifen und diese verwenden können
 badge: label="Beta"
-source-git-commit: c8bce23d78960fcc5c9adbb37d376d60319d8df9
+source-git-commit: 9693d4b0ca6f870b8f23b950050a68ac2674db5d
 workflow-type: tm+mt
-source-wordcount: '1890'
-ht-degree: 68%
+source-wordcount: '1932'
+ht-degree: 67%
 
 ---
 
@@ -301,6 +301,12 @@ Dieser Bericht enthält detaillierte Informationen zum Versanddurchsatz der gesa
 >id="acw_delivery_reporting_breakdown_os"
 >title="Aufschlüsselung nach Betriebssystem"
 >abstract="Die **Aufschlüsselung nach Betriebssystem** zeigt die Verteilung der Öffnungen nach Betriebssystem für den betreffenden Zeitraum an. Das erste Diagramm zeigt Statistiken über Öffnungen auf einem Computer und Mobilgeräten. Das zweite stellt Statistiken dar, die sich nur auf Öffnungen auf Mobilgeräten beziehen."
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_breakdown_browser"
+>title="Aufschlüsselung nach Browser"
+>abstract="Die **Aufschlüsselung nach Browser** zeigt die Verteilung der Öffnungen nach Browser für den betreffenden Zeitraum an. Das erste Diagramm zeigt Statistiken über Öffnungen auf einem Computer und Mobilgeräten. Das zweite stellt Statistiken dar, die sich nur auf Öffnungen auf Mobilgeräten beziehen."
+
 
 Dieser Bericht zeigt die Öffnungsverteilung nach Betriebssystem, Geräteart und Browser für den ausgewählten Zeitraum. Für jede Kategorie stehen zwei Diagramme zur Verfügung. Das erste zeigt die Öffnungsstatistiken für Computer und Mobilgeräte an, das zweite nur für Mobilgeräte.
 
