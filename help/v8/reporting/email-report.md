@@ -3,7 +3,7 @@ audience: end-user
 title: E-Mail-Versandberichte
 description: Erfahren Sie, wie Sie auf E-Mail-Versandberichte zugreifen und diese verwenden können
 badge: label="Beta"
-source-git-commit: f2ae73ce56e2e5128fecd8b74a6bdb096b8b75ec
+source-git-commit: cc58e6bcf030885ba364df7dfd51de797117120c
 workflow-type: tm+mt
 source-wordcount: '2205'
 ht-degree: 52%
@@ -30,11 +30,11 @@ Der **E-Mail-Versandbericht** bietet umfassende Einblicke und Daten, die speziel
 
 Die **[!UICONTROL Ursprungspopulation]** -Diagramm zeigt Daten zu Ihren Empfängern an. Die Metriken werden bei der Versandvorbereitung berechnet und zeigen: die Anfangs-Audience, die Anzahl der zu sendenden Nachrichten und die Anzahl der ausgeschlossenen Empfänger.
 
-![](assets/reporting_email_1.png){align="center" zoomable="yes"}
+![](assets/reporting_email_1.png){width="50%" align="center" zoomable="yes"}
 
 Bewegen Sie den Mauszeiger über einen Abschnitt des Diagramms, um die genaue Zahl anzuzeigen.
 
-![](assets/reporting_email_1.1.png){align="center" zoomable="yes"}
+![](assets/reporting_email_1.1.png){width="50%" align="center" zoomable="yes"}
 
 
 +++ Erfahren Sie mehr über die Metriken des E-Mail-Versandberichts.
@@ -57,7 +57,7 @@ Bewegen Sie den Mauszeiger über einen Abschnitt des Diagramms, um die genaue Za
 
 Die **[!UICONTROL Versandstatistiken]** -Diagramm zeigt den Erfolg Ihres Versands an. Die Metriken werden nachfolgend beschrieben.
 
-![](assets/reporting_email_2.png){align="center" zoomable="yes"}
+![](assets/reporting_email_2.png){width="50%" align="center" zoomable="yes"}
 
 +++ Erfahren Sie mehr über die Metriken des E-Mail-Kampagnen-Berichts.
 
