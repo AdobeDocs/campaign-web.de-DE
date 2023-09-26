@@ -7,7 +7,7 @@ badge: label="Beta"
 source-git-commit: 6406be82c2bad9346f6743e18535fdfe132b2bd0
 workflow-type: tm+mt
 source-wordcount: '782'
-ht-degree: 78%
+ht-degree: 97%
 
 ---
 
@@ -25,19 +25,19 @@ Die wichtigsten Schritte zum Einschließen von Angeboten in einen Versand sind:
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_offers_settings"
->title="Parameter für Angebote definieren"
->abstract="Konfigurieren Sie, welche Angebote den Empfängern unterbreitet werden sollen, indem Sie eine Platzierung, optional eine Kategorie und ein Thema definieren und die Anzahl der Angebote angeben, die in den Versand eingefügt werden sollen."
+>title="Definieren der Angebotsparameter"
+>abstract="Konfigurieren Sie, welche Angebote den Empfängerinnen und Empfängern unterbreitet werden sollen, indem Sie eine Platzierung, optional eine Kategorie sowie ein Thema definieren und die Anzahl der Angebote angeben, die in den Versand eingefügt werden sollen."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_offers_advanced_settings"
->title="Erweiterte Angebotseinstellungen festlegen"
->abstract="Sie können den Ausschluss von Empfängern aktivieren, für die nicht genügend geeignete Angebote vorhanden sind, und festlegen, wie die Nachricht verarbeitet werden soll, falls ein Vorschlag nicht vorhanden ist."
+>title="Festlegen der erweiterten Angebotseinstellungen"
+>abstract="Sie können den Ausschluss von Empfängerinnen und Empfängern aktivieren, für die nicht genügend geeignete Angebote vorhanden sind, und festlegen, wie die Nachricht verarbeitet werden soll, falls einer der Vorschläge nicht vorhanden ist."
 
-Mit Adobe Campaign können Sie einem bestimmten Kontakt ein oder mehrere spezifische Angebote unterbreiten. Interaction-Modul, mit dem Sie während einer Interaktion mit einem bestimmten Kontakt in Echtzeit reagieren können, indem Sie ihm ein oder mehrere spezifische Angebote unterbreiten. Bei diesen Angeboten kann es sich um einfache Kommunikationsnachrichten, Sonderangebote für ein oder mehrere Produkte oder einen Service handeln.
+Mit Adobe Campaign können Sie einem bestimmten Kontakt ein oder mehrere spezifische Angebote unterbreiten.  Das Modul „Interaktion“, mit dem Sie während einer Interaktion mit einem gegebenem Kontakt antworten können, indem Sie ihm ein einzelnes oder mehrere spezifische Angebote unterbreiten. Bei diesen Angeboten kann es sich um einfache Kommunikationsnachrichten, Sonderangebote für ein oder mehrere Produkte oder einen Service handeln.
 
-Gehen Sie wie folgt vor, um die zu Ihrem Versand hinzuzufügenden Angebote auszuwählen.
+Gehen Sie wie folgt vor, um Angebote auszuwählen, die zu Ihrem Versand hinzugefügt werden sollen.
 
-1. Klicken Sie auf **[!UICONTROL Angebote einrichten]** im Bildschirm zur Inhaltsbearbeitung des Versands.
+1. Klicken Sie auf die Schaltfläche **[!UICONTROL Angebote einrichten]** auf dem Bearbeitungsbildschirm für den Inhalt des Versands.
 
    ![](assets/setup-offers.png)
 
@@ -97,13 +97,13 @@ Gehen Sie wie folgt vor, um ein Angebot mit dem Ausdruckseditor einzufügen.
 
    ![](assets/offer-insertion.png)
 
-1. Fügen Sie die Vorschläge in die Betreffzeile oder den Text der Sendung ein, indem Sie die für jeden Vorschlag verfügbaren Personalisierungsfelder, Rendering-Funktionen oder Angebotsattribute verwenden.
+1. Fügen Sie die Vorschläge in die Betreffzeile oder den Text des Versands ein, indem Sie die für jeden Vorschlag verfügbaren Personalisierungsfelder, Rendering-Funktionen oder Angebotsattribute verwenden.
 
    ![](assets/offer-inserted.png)
 
    >[!NOTE]
    >
-   >Die Anzahl der verfügbaren Vorschläge hängt von der Konfiguration des Angebotsmodul-Aufrufs ab und ihre Reihenfolge hängt von der Priorität der Angebote ab. Weitere Informationen finden Sie unter [Dokumentation zu Campaign v8 (Clientkonsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-best-practices.html){target="_blank"}.
+   >Die Anzahl der verfügbaren Vorschläge hängt von der Konfiguration des Engine-Aufrufs ab, und ihre Reihenfolge hängt von der Priorität der Angebote ab. Weitere Informationen finden Sie in der [Dokumentation zu Campaign v8 (Client-Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-best-practices.html?lang=de){target="_blank"}.
 
 1. Speichern Sie Ihre Änderungen.
 

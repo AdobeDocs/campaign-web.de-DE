@@ -7,7 +7,7 @@ badge: label="Beta"
 source-git-commit: 424caa898ff9d73f3520aa6d682eb1963d992069
 workflow-type: tm+mt
 source-wordcount: '614'
-ht-degree: 66%
+ht-degree: 75%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 66%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card5"
 >title="Zielgruppen"
->abstract="Das Erstellen einer Versandzielgruppe war nie einfacher! Mit unserem aktuellen Regel-Builder können Sie jetzt Filterkriterien für Empfänger oder eine andere Zielgruppendimension aus der Datenbank definieren. Nutzen Sie die Vorteile Ihrer Adobe Experience Platform-Zielgruppe, um Ihre Zielgruppe weiter zu verfeinern und die Wirkung Ihrer Kampagne zu maximieren."
+>abstract="Das Aufbauen einer Zielgruppe für einen Versand war nie einfacher! Mit unserem aktuellen Regel-Builder können Sie jetzt Filterkriterien für Empfängerinnen und Empfänger oder eine andere Zielgruppendimension von der Datenbank aus definieren. Machen Sie sich Ihre Adobe Experience Platform-Zielgruppe zunutze, um Ihre Zielgruppe weiter zu präzisieren und die Wirkung Ihrer Kampagne zu maximieren."
 
 Mit dem Rule Builder können Sie die Zielgruppe Ihres Versands definieren, indem Sie in der Datenbank enthaltene Daten filtern. Sie können damit eine Audience aus einem Workflow erstellen, indem Sie eine **[!UICONTROL Audience erstellen]** oder direkt bei der Erstellung eines Versands zur Erstellung einer einmaligen Zielgruppe.
 
@@ -59,7 +59,7 @@ Auf der rechten Seite wird die **Regeleigenschaften** können Sie die unten aufg
 
   >[!IMPORTANT]
   >
-  >In dieser Produktversion sind einige vordefinierte Filter nicht in der Benutzeroberfläche verfügbar. Sie können sie weiterhin verwenden. [Weitere Informationen](../get-started/guardrails.md#predefined-filters-filters-guardrails-limitations)
+  >In dieser Produktversion sind einige vordefinierte Filter nicht in der Benutzeroberfläche verfügbar. Sie können sie dennoch verwenden. [Weitere Informationen](../get-started/guardrails.md#predefined-filters-filters-guardrails-limitations)
 
 * **Attribute**: zeigt eine Beschreibung der erstellten Audience an.
 

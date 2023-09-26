@@ -6,20 +6,20 @@ badge: label="Beta"
 source-git-commit: 47cc61510ae0dba139e0cb4d547fc4e737525931
 workflow-type: tm+mt
 source-wordcount: '478'
-ht-degree: 60%
+ht-degree: 98%
 
 ---
 
 
-# Erstellen einer Zielgruppe {#build-audience}
+# Zielgruppe erstellen {#build-audience}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_build_audience"
->title="Erstellen der Zielgruppenaktivität"
->abstract="Die **Audience erstellen** ermöglicht die Bestimmung der Audience, die in den Workflow eintreten soll. Beim Versand von Nachrichten im Rahmen eines Workflows wird die Audience der Nachricht nicht in der Kanalaktivität, sondern im **Audience erstellen** -Aktivität."
+>title="Aktivität „Zielgruppe erstellen“"
+>abstract="Die Aktivität **Zielgruppe erstellen** ermöglicht Ihnen das Definieren der Zielgruppe, die in den Workflow aufgenommen wird. Beim Senden von Nachrichten im Kontext eines Kampagnen-Workflows wird die Nachrichtenzielgruppe nicht in der Kanalaktivität, sondern in der Aktivität **Zielgruppe erstellen** definiert."
 
 
-Die Aktivität **Zielgruppe erstellen** ist eine Aktivität zur **Zielgruppenbestimmung**. Diese Aktivität ermöglicht Ihnen die Definition der Zielgruppe, die in den Workflow aufgenommen wird. Beim Versand von Nachrichten im Rahmen eines Workflows wird die Audience der Nachricht nicht in der Kanalaktivität, sondern im **Audience erstellen** -Aktivität.
+Die Aktivität **Zielgruppe erstellen** ist eine Aktivität zur **Zielgruppenbestimmung**. Diese Aktivität ermöglicht Ihnen die Definition der Zielgruppe, die in den Workflow aufgenommen wird. Beim Senden von Nachrichten im Kontext eines Kampagnen-Workflows wird die Nachrichtenzielgruppe nicht in der Kanalaktivität, sondern in der Aktivität **Zielgruppe erstellen** definiert.
 
 Zur Definition der Zielgruppenpopulation haben Sie folgende Möglichkeiten:
 
@@ -29,17 +29,17 @@ Zur Definition der Zielgruppenpopulation haben Sie folgende Möglichkeiten:
 
 >[!NOTE]
 >
->In diesem Zusammenhang können Sie keine Zielgruppe aus einer Datei laden. Dazu müssen Sie einen eigenständigen E-Mail-Versand erstellen. [Weitere Informationen](../../audience/about-recipients.md)
+>In diesem Zusammenhang können Sie keine Zielgruppe aus einer Datei laden. Dazu müssen Sie einen eigenständigen Versand erstellen. [Weitere Informationen](../../audience/about-recipients.md)
 
 <!--
 The **Build audience** activity can be placed at the beginning of the workflow or after any other activity. Any activity can be placed after the **Build audience**.
 -->
 
-## Konfigurieren der Aktivität Audience erstellen{#build-audience-configuration}
+## Konfigurieren der Aktivität „Zielgruppe erstellen“{#build-audience-configuration}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_build_audience_dimension"
->title="Zielgruppendimension auswählen"
+>title="Auswählen der Zielgruppendimension"
 >abstract="Die Zielgruppendimension ermöglicht die Bestimmung der vom Vorgang betroffenen Population: Empfängerinnen und Empfänger, Vertragsbegünstigte, Benutzerinnen und Benutzer, Abonnentinnen und Abonnenten usw. Standardmäßig wird die Zielgruppe aus den Empfängerinnen und Empfängern ausgewählt."
 
 
@@ -66,7 +66,7 @@ Gehen Sie wie folgt vor, um eine vorhandene Zielgruppe auszuwählen:
 
 >[!IMPORTANT]
 >
->Wenn Sie eine **[!UICONTROL Audience erstellen]** Aktivität, die auf eine Experience Platform-Audience abzielt, müssen Sie eine **[!UICONTROL Dimensionsänderung]** -Aktivität anschließend, um sicherzustellen, dass die Zielgruppendimension der Zielgruppe auf &quot;Empfänger&quot;gesetzt ist. Unten auf dieser Seite finden Sie ein Workflow-Beispiel.
+>Wenn Sie die Aktivität **[!UICONTROL Zielgruppe erstellen]** verwenden möchten, die auf eine Experience Platform-Zielgruppe abzielt, müssen Sie danach eine Aktivität **[!UICONTROL Dimensionsänderung]** hinzufügen, um sicherzustellen, dass die Zielgruppendimension der Zielgruppe auf „Empfängerinnen und Empfänger“ gesetzt ist. Unten auf dieser Seite finden Sie ein Workflow-Beispiel.
 
 ## Beispiele{#build-audience-examples}
 
@@ -74,6 +74,6 @@ Im Folgenden finden Sie ein Beispiel für einen Workflow mit zwei Aktivitäten v
 
 ![](../assets/workflow-audience-example.png)
 
-Hier ist ein weiteres Workflow-Beispiel, bei dem eine Adobe Experience Platform-Audience mit einer Adobe Campaign-Audience kombiniert wird. Damit diese Zielgruppen kombiniert werden können, muss eine **[!UICONTROL Dimensionsänderung]** Aktivität mit der Zielgruppendimension &quot;Empfänger&quot; wird nach der Adobe Experience Platform-Zielgruppe hinzugefügt. [Erfahren Sie, wie Sie die Aktivität Dimensionsänderung konfigurieren](change-dimension.md)
+Hier ist ein weiteres Workflow-Beispiel, bei dem eine Adobe Experience Platform-Zielgruppe mit einer Adobe Campaign-Zielgruppe kombiniert wird. Damit diese Zielgruppen kombiniert werden können, muss eine Aktivität **[!UICONTROL Dimensionsänderung]** mit der Zielgruppendimension „Empfängerinnen und Empfänger“ nach der Adobe Experience Platform-Zielgruppe hinzugefügt werden. [Erfahren Sie, wie Sie eine Aktivität „Dimensionsänderung“ konfigurieren können](change-dimension.md)
 
 ![](../assets/workflow-audience-aep.png)

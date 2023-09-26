@@ -6,7 +6,7 @@ badge: label="Beta"
 source-git-commit: dfa5e38945e40758f9e3aaa89576bdd2789525fd
 workflow-type: tm+mt
 source-wordcount: '487'
-ht-degree: 39%
+ht-degree: 63%
 
 ---
 
@@ -15,12 +15,12 @@ ht-degree: 39%
 >[!CONTEXTUALHELP]
 >id="acw_push_report_overview"
 >title="Zusammenfassung des Push-Versandberichts"
->abstract="Die **Übersicht über den Push-Versand** bietet einen umfassenden Überblick über Ihren Push-Versand mit umfassenden Einblicken und spezifischen Daten. Es bietet umfassende Informationen über Leistung, Effektivität und Ergebnisse Ihrer Bereitstellung."
+>abstract="Die **Übersicht über den Push-Versand** bietet einen umfassenden Überblick über Ihren Push-Versand, mit umfassenden Einblicken und spezifischen Daten. Sie bietet umfassende Informationen über Leistung, Effektivität und Ergebnisse Ihres Versands."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sending_push"
->title="Berichterstellung"
->abstract="he **Senden** -Tab Ihres Berichts erhalten Sie einen umfassenden Einblick in die Interaktionen Ihrer Besucher mit Ihren Sendungen und in etwaige Fehler, die bei ihnen aufgetreten sind."
+>title="Versandberichte"
+>abstract="Auf der Registerkarte **Senden** Ihres Berichts erhalten Sie einen umfassenden Einblick in die Interaktionen Ihrer Besucherinnen und Besucher mit Ihren Sendungen sowie in etwaige Fehler, die bei ihnen aufgetreten sind."
 
 Der **Push-Versandbericht** bietet einen umfassenden Überblick über den Push-Kanal mit umfangreichen Einblicken und spezifischen Daten. Er bietet umfassende Informationen über Leistung, Effektivität und Ergebnisse jedes Versands.
 
@@ -32,9 +32,9 @@ Die **[!UICONTROL Versandübersicht]** liefert wichtige Leistungsindikatoren (KP
 
 ![](assets/reporting_push_3.png)
 
-+++ Erfahren Sie mehr über die Metriken des Push-Versandberichts.
++++Erfahren Sie mehr über die Metriken des Push-Versandberichts.
 
-* **[!UICONTROL Gesendete Summe]**: Gesamtzahl der bei der Versandvorbereitung verarbeiteten Nachrichten.
+* **[!UICONTROL Insgesamt gesendet]**: Gesamtzahl der während der Versandvorbereitung verarbeiteten Nachrichten.
 
 * **[!UICONTROL Zugestellt]**: Anzahl der erfolgreich gesendeten Nachrichten im Verhältnis zur Gesamtzahl der gesendeten Nachrichten.
 
@@ -56,9 +56,9 @@ Die **Zielgruppe** Diagramme und Tabellen zeigen Daten relativ zu Ihrer Zielgrup
 
 ![](assets/reporting_push_4.png)
 
-+++ Erfahren Sie mehr über die Metriken des Push-Versandberichts.
++++Erfahren Sie mehr über die Metriken des Push-Versandberichts.
 
-* **[!UICONTROL Zu liefern]**: Gesamtzahl der bei der Versandvorbereitung verarbeiteten Nachrichten.
+* **[!UICONTROL Zu versenden]**: Gesamtzahl der während der Versandvorbereitung verarbeiteten Nachrichten.
 
 * **[!UICONTROL Ausnahmen]**: Anzahl der Profile, die aus der Analyse ausgeschlossen wurden.
 
@@ -76,7 +76,7 @@ Die **Gesamtstatistik** Der Bericht enthält Daten zu den gesendeten Push-Benach
 
 ![](assets/reporting_push_5.png)
 
-+++ Erfahren Sie mehr über die Metriken des Push-Versandberichts.
++++Erfahren Sie mehr über die Metriken des Push-Versandberichts.
 
 * **[!UICONTROL Erfolg]**: Anzahl der erfolgreich verarbeiteten Nachrichten.
 
@@ -104,8 +104,8 @@ Die **[!UICONTROL Ausnahmen]** Diagramm und Tabelle zeigen die verschiedenen Gr�
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_throughput_push"
 >title="Versanddurchsatz Bericht"
->abstract="Der Bericht zum Versanddurchsatz enthält detaillierte Informationen zum Versanddurchsatz der gesamten Plattform innerhalb eines bestimmten Zeitraums."
+>abstract="Der Bericht „Versanddurchsatz“ enthält detaillierte Informationen zum Versanddurchsatz der gesamten Plattform innerhalb eines bestimmten Zeitraums."
 
-Die **Versanddurchsatz** enthält detaillierte Informationen zum Versanddurchsatz der gesamten Plattform innerhalb eines bestimmten Zeitraums. Die wichtigste Kennzahl, mit der die Geschwindigkeit des Nachrichtenversands gemessen wird, ist die Anzahl der pro Stunde gesendeten Nachrichten.
+Der Bericht **Versanddurchsatz** enthält detaillierte Informationen zum Versanddurchsatz der gesamten Plattform innerhalb eines bestimmten Zeitraums. Die wichtigste Kennzahl, mit der die Geschwindigkeit des Nachrichtenversands gemessen wird, ist die Anzahl der pro Stunde gesendeten Nachrichten.
 
 ![](assets/reporting_push_2.png)
