@@ -4,33 +4,33 @@ title: Verwenden der Workflow-Aktivität „Versand“
 description: Erfahren Sie, wie Sie eine Workflow-Aktivität „Versand“ hinzufügen (E-Mail, Push-Benachrichtigung, SMS).
 badge: label="Beta"
 source-git-commit: 2894766336d5ac52625175981c6969a0ac5882d8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '781'
-ht-degree: 61%
+ht-degree: 100%
 
 ---
 
 
-# E-Mail, SMS, Push-Aktivitäten {#channel}
+# E-Mail-, SMS- und Push-Aktivitäten {#channel}
 
-Mit Adobe Campaign Web können Sie Marketing-Kampagnen über E-Mail-, SMS- oder Push-Kanäle automatisieren und durchführen. Sie können Kanalaktivitäten in die Workflow-Arbeitsfläche kombinieren, um Cross-Channel-Workflows zu erstellen, mit denen basierend auf Kundenverhalten und Daten Aktionen ausgelöst werden können.
+Mit Adobe Campaign Web können Sie Marketing-Kampagnen über E-Mail-, SMS- oder Push-Kanäle automatisieren und durchführen. Sie können Kanalaktivitäten in die Workflow-Arbeitsfläche kombinieren, um kanalübergreifende Workflows zu erstellen, mit denen basierend auf Kundenverhalten und Daten Aktionen ausgelöst werden können.
 
 Sie können beispielsweise eine Begrüßungs-E-Mail-Kampagne erstellen, die eine Reihe von Nachrichten über verschiedene Kanäle wie E-Mail, SMS und Push-Benachrichtigungen enthält. Sie können auch eine Folge-E-Mail senden, nachdem eine Kundin oder ein Kunde einen Kauf getätigt hat, oder eine personalisierte Geburtstagsnachricht per SMS an eine Kundin bzw. einen Kunden senden.
 
-Mithilfe von Kanalaktivitäten können Sie umfassende und personalisierte Kampagnen erstellen, die Kundinnen und Kunden über mehrere Touchpoints hinweg ansprechen und Konversionen fördern.
+Mithilfe von Kanalaktivitäten können Sie umfassende und personalisierte Kampagnen erstellen, die Kundinnen und Kunden über mehrere Touchpoints hinweg ansprechen, und Konversionen fördern.
 
 >[!NOTE]
 >
->Sie können auch einen einmaligen Versand außerhalb des Kampagnen-Workflows erstellen. Weitere Informationen finden Sie in den folgenden Abschnitten:
+>Sie können auch einen eigenständigen Versand außerhalb des Kampagnen-Workflows erstellen. Weitere Informationen finden Sie in den folgenden Abschnitten:
 >* [Erstellen eines eigenständigen E-Mail-Versands](../../email/create-email.md)
 >* [Erstellen eines eigenständigen SMS-Versands](../../sms/create-sms.md)
 >* [Erstellen eines eigenständigen Push-Versands](../../push/create-push.md)
 
-## Workflow erstellen{#build-your-workflow}
+## Erstellen eines Workflows{#build-your-workflow}
 
-Beginnen Sie mit der Erstellung Ihres Workflows mit den entsprechenden Aktivitäten, bevor Sie den Versand abschließen:
+Beginnen Sie das Erstellen Ihres Workflows mit den entsprechenden Aktivitäten, bevor Sie den Versand durchführen:
 
-* Wenn Sie einen wiederkehrenden Versand senden möchten, starten Sie Ihren Workflow mit einem **Planung** -Aktivität. Wenn Sie einen einmaligen Versand durchführen möchten, können Sie das Kontaktdatum mithilfe einer **Planung** oder legen Sie den Zeitplan in den Versandeinstellungen fest. Weitere Informationen finden Sie in [diesem Abschnitt](scheduler.md).
+* Wenn Sie einen wiederkehrenden Versand durchführen möchten, starten Sie Ihren Workflow mit einer **Planungsaktivität**. Wenn Sie einen einmaligen Versand durchführen möchten, können Sie das Kontaktdatum mithilfe einer **Planungsaktivität** festlegen oder den Zeitplan in den Versandeinstellungen festlegen. Weitere Informationen finden Sie in [diesem Abschnitt](scheduler.md).
 
 * Fügen Sie die Aktivität **Zielgruppe erstellen** hinzu. Die Zielgruppe ist das wichtigste Ziel Ihres Versands: die Empfängerinnen und Empfänger, die die Nachrichten erhalten. Beim Senden von Nachrichten im Rahmen eines Kampagnen-Workflows wird die Nachrichtenzielgruppe nicht in der Kanalaktivität, sondern in der Aktivität **Zielgruppe erstellen** definiert. Weitere Informationen finden Sie in [diesem Abschnitt](build-audience.md).
 
@@ -42,34 +42,34 @@ Beginnen Sie mit der Erstellung Ihres Workflows mit den entsprechenden Aktivitä
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_email"
 >title="E-Mail-Aktivität"
->abstract="Automatisieren und Ausführen von Marketing-Kampagnen über E-Mail-, SMS- und Push-Kanäle hinweg. Sie können Kanalaktivitäten in die Workflow-Arbeitsfläche kombinieren, um Cross-Channel-Workflows zu erstellen, mit denen basierend auf Kundenverhalten und Daten Aktionen ausgelöst werden können."
+>abstract="Automatisieren und führen Sie Marketing-Kampagnen kanalübergreifend über E-Mail, SMS und Push-Benachrichtigungen aus Sie können Kanalaktivitäten in die Workflow-Arbeitsfläche kombinieren, um kanalübergreifende Workflows zu erstellen, mit denen basierend auf Kundenverhalten und Daten Aktionen ausgelöst werden können."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_sms"
 >title="SMS-Aktivität"
->abstract="Automatisieren und Ausführen von Marketing-Kampagnen über E-Mail-, SMS- und Push-Kanäle hinweg. Sie können Kanalaktivitäten in die Workflow-Arbeitsfläche kombinieren, um Cross-Channel-Workflows zu erstellen, mit denen basierend auf Kundenverhalten und Daten Aktionen ausgelöst werden können."
+>abstract="Automatisieren und führen Sie Marketing-Kampagnen kanalübergreifend über E-Mail, SMS und Push-Benachrichtigungen aus Sie können Kanalaktivitäten in die Workflow-Arbeitsfläche kombinieren, um kanalübergreifende Workflows zu erstellen, mit denen basierend auf Kundenverhalten und Daten Aktionen ausgelöst werden können."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_push_ios"
->title="Aktivität &quot;Push iOS&quot;"
->abstract="Automatisieren und Ausführen von Marketing-Kampagnen über E-Mail-, SMS- und Push-Kanäle hinweg. Sie können Kanalaktivitäten in die Workflow-Arbeitsfläche kombinieren, um Cross-Channel-Workflows zu erstellen, mit denen basierend auf Kundenverhalten und Daten Aktionen ausgelöst werden können."
+>title="Push-iOS-Aktivität"
+>abstract="Automatisieren und führen Sie Marketing-Kampagnen kanalübergreifend über E-Mail, SMS und Push-Benachrichtigungen aus Sie können Kanalaktivitäten in die Workflow-Arbeitsfläche kombinieren, um kanalübergreifende Workflows zu erstellen, mit denen basierend auf Kundenverhalten und Daten Aktionen ausgelöst werden können."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_push_android"
->title="Aktivität &quot;Android pushen&quot;"
->abstract="Automatisieren und Ausführen von Marketing-Kampagnen über E-Mail-, SMS- und Push-Kanäle hinweg. Sie können Kanalaktivitäten in die Workflow-Arbeitsfläche kombinieren, um Cross-Channel-Workflows zu erstellen, mit denen basierend auf Kundenverhalten und Daten Aktionen ausgelöst werden können."
+>title="Push-Android-Aktivität"
+>abstract="Automatisieren und führen Sie Marketing-Kampagnen kanalübergreifend über E-Mail, SMS und Push-Benachrichtigungen aus Sie können Kanalaktivitäten in die Workflow-Arbeitsfläche kombinieren, um kanalübergreifende Workflows zu erstellen, mit denen basierend auf Kundenverhalten und Daten Aktionen ausgelöst werden können."
 
-Gehen Sie wie folgt vor, um einen Versand im Rahmen eines Workflows einzurichten:
+Gehen Sie wie folgt vor, um einen Versand im Kontext eines Workflows einzurichten:
 
-1. Hinzufügen einer Kanalaktivität: **[!UICONTROL Email]**, **[!UICONTROL SMS]**, **[!UICONTROL Push-Benachrichtigung (Android)]** oder **[!UICONTROL Push-Benachrichtigung (iOS)]**.
+1. Fügen Sie eine Kanalaktivität hinzu: **[!UICONTROL E-Mail]**, **[!UICONTROL SMS]**, **[!UICONTROL Push-Benachrichtigung (Android)]** oder **[!UICONTROL Push-Benachrichtigung (iOS)]**.
 
-1. Wählen Sie die **Art des Versands**: einmalig oder wiederkehrend.
+1. Wählen Sie den **Versandtyp** aus: einmalig oder wiederkehrend.
 
-   * **Einzelversand**: Dies ist ein einmaliger Versand, der nur einmal gesendet wird, z. B. eine Black Friday-E-Mail.
-   * **Wiederkehrender Versand**: Bei diesem Versandtyp wird die Ausführungshäufigkeit mithilfe einer [Planungsaktivität](scheduler.md). Bei jeder Ausführung des Workflows wird die Audience neu berechnet und der Versand mit dem aktualisierten Inhalt durchgeführt. Dabei kann es sich um einen wöchentlichen Newsletter oder eine wiederkehrende Geburtstags-E-Mail handeln.
+   * **Einzelversand**: Dies ist ein einmaliger Versand, der nur einmal gesendet wird, z. B. eine E-Mail zum „Black Friday“.
+   * **Wiederkehrender Versand**: Bei diesem Versandtyp wird die Ausführungshäufigkeit mithilfe einer [Planungsaktivität](scheduler.md) eingerichtet. Bei jeder Ausführung des Workflows wird die Zielgruppe neu berechnet und der Versand mit dem aktualisierten Inhalt durchgeführt. Dabei kann es sich etwa um einen wöchentlichen Newsletter oder eine wiederkehrende Geburtstags-E-Mail handeln.
 
 1. Wählen Sie eine **Versandvorlage** aus. Vorlagen sind vorkonfigurierte, kanalspezifische Versandeinstellungen. Für jeden Kanal ist eine integrierte Vorlage verfügbar, die standardmäßig vorausgefüllt ist. [Weitere Informationen](../../msg/delivery-template.md)
 
@@ -79,7 +79,7 @@ Gehen Sie wie folgt vor, um einen Versand im Rahmen eines Workflows einzurichten
 
 1. Klicken Sie auf **Versand erstellen**. Definieren Sie Ihre Nachrichteneinstellungen und den Inhalt so wie einen eigenständigen Versand. Sie können den Inhalt auch planen und simulieren. [Weitere Informationen](../../msg/gs-messages.md).
 
-1. Navigieren Sie zurück zu Ihrem Workflow. Entscheiden Sie, ob Sie den Workflow fortsetzen möchten **Ausgehende Transition erzeugen** , wenn Sie eine Transition nach der Kanalaktivität hinzufügen möchten.
+1. Navigieren Sie zurück zu Ihrem Workflow. Entscheiden Sie, ob Sie den Workflow **Ausgehende Transition erzeugen** fortsetzen möchten, wenn Sie eine Transition nach der Kanalaktivität hinzufügen möchten.
 
 1. Klicken Sie auf **Starten**, um Ihren Workflow zu starten.
 
@@ -105,7 +105,7 @@ The Email delivery activity allows you to configure the sending an email in a wo
 
 -->
 
-Sie können auch einen wiederkehrenden Workflow erstellen, um jeden ersten Tag des Monats um 20 Uhr eine personalisierte SMS an alle in Paris lebenden Kunden zu senden.
+Sie können auch einen wiederkehrenden Workflow erstellen, um jeden ersten Tag des Monats um 20 Uhr eine personalisierte SMS an alle in Paris lebenden Kundinnen und Kunden zu senden.
 
 ![](../assets/workflow-channel-example2.png)
 

@@ -1,17 +1,17 @@
 ---
 audience: end-user
-title: Verwenden der Workflow-Aktivität Audience-Speicherung
+title: Verwenden der Workflow-Aktivität „Zielgruppe speichern“
 description: Erfahren Sie, wie Sie die Workflow-Aktivität „Verzweigung“ verwenden.
 badge: label="Beta"
 source-git-commit: 2894766336d5ac52625175981c6969a0ac5882d8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '385'
-ht-degree: 21%
+ht-degree: 100%
 
 ---
 
 
-# Audience-Speicherung {#save-audience}
+# Zielgruppe speichern {#save-audience}
 
 <!--
 >[!CONTEXTUALHELP]
@@ -20,37 +20,37 @@ ht-degree: 21%
 >abstract="Use this activity to save the workflow audience."
 -->
 
-Die **Audience-Speicherung** -Aktivität **Targeting** -Aktivität. Diese Aktivität ermöglicht die Aktualisierung einer existierenden Audience oder die Erstellung einer neuen Audience aus der zuvor durch einen Workflow berechneten Population. Die erstellten Audiences werden der Liste der Anwendungszielgruppen hinzugefügt und über die **Zielgruppen** Menü.
+Die Aktivität **Zielgruppe speichern** ist eine Aktivität zur **Zielgruppenbestimmung**. Mit dieser Aktivität können Sie eine vorhandene Zielgruppe aktualisieren oder eine neue Zielgruppe aus der Population erstellen, die im Vorfeld durch andere Workflow-Aktivitäten ermittelt wurde. Die Zielgruppen werden zur bereits bestehenden Zielgruppenliste in Adobe Campaign hinzugefügt und sind über das Menü **Zielgruppen** zugänglich.
 
-Diese Aktivität dient im Wesentlichen dazu, innerhalb desselben Workflows berechnete Populationen in wiederverwendbare Audiences umzuwandeln. Verbinden Sie ihn mit anderen Targeting-Aktivitäten, z. B. einer **Audience erstellen** oder **Kombinieren** -Aktivität.
+Die Aktivität wird im Wesentlichen verwendet, um Populationsgruppen beizubehalten, die im selben Workflow ermittelt wurden, indem sie in wiederverwendbare Zielgruppen umgewandelt werden. Verbinden Sie sie mit anderen Zielgruppenbestimmungsaktivitäten, wie etwa den Aktivitäten **Zielgruppe aufbauen** oder **Kombinieren**.
 
-## Konfigurieren Sie die Aktivität Audience-Speicherung .{#save-audience-configuration}
+## Konfigurieren der Aktivität „Zielgruppe speichern“{#save-audience-configuration}
 
-Führen Sie die folgenden Schritte aus, um die **Audience-Speicherung** Aktivität:
+Führen Sie die folgenden Schritte aus, um die Aktivität **Zielgruppe aufbauen** zu konfigurieren:
 
 ![](../assets/workflow-save-audience.png)
 
-1. Hinzufügen einer **Audience-Speicherung** -Aktivität zu Ihrem Workflow hinzu.
+1. Fügen Sie die Aktivität **Zielgruppe speichern** zum Workflow hinzu.
 
-1. Im **Modus** in der Dropdown-Liste die gewünschte Aktion auswählen:
+1. Wählen Sie im Dropdown-Menü **Modus** die Aktion aus, die Sie ausführen möchten:
 
-   * **Erstellen oder Aktualisieren einer vorhandenen Zielgruppe**: Definieren Sie eine **Zielgruppenbezeichnung**. Wenn die Audience bereits existiert, wird sie aktualisiert. Andernfalls wird eine neue Audience erstellt.
+   * **Erstellen oder Aktualisieren einer vorhandenen Zielgruppe**: Definieren Sie eine **Zielgruppenbezeichnung**. Wenn die Zielgruppe bereits existiert, wird sie aktualisiert, andernfalls wird eine neue Zielgruppe erstellt.
 
-   * **Vorhandene Audience aktualisieren**: Wählen Sie die **Zielgruppe** Sie möchten die Liste der existierenden Zielgruppen aktualisieren.
+   * **Vorhandene Zielgruppe aktualisieren**: Wählen Sie die **Zielgruppe**, die Sie aktualisieren möchten, in der Liste der vorhandenen Zielgruppen aus.
 
-1. Wählen Sie die **Aktualisierungsmodus** wird für bestehende Zielgruppen gelten:
+1. Wählen Sie den **Aktualisierungsmodus** aus, der für vorhandene Zielgruppen gelten soll:
 
-   * **Audience-Inhalt durch neue Daten ersetzen**: Der gesamte Inhalt der Audience wird ersetzt. die zuvor enthaltenen Daten gehen verloren. Nur die in der eingehenden Transition an die Audience-Speicherung-Aktivität übermittelten Daten werden beibehalten. Mit dieser Option werden der Audience-Typ und die Zielgruppendimension der aktualisierten Audience gelöscht.
+   * **Zielgruppeninhalt durch neue Daten ersetzen**: Der gesamte Inhalt der Zielgruppe wird ersetzt. Die zuvor enthaltenen Daten gehen dabei verloren. Nur die in der eingehenden Transition der Aktivität „Zielgruppe speichern“ übermittelten Daten werden beibehalten. Bei dieser Option werden Zielgruppendimension und -typ der aktualisierten Zielgruppe gelöscht.
 
-   * **Vollständige Audience mit neuen Daten**: Der alte Inhalt der Audience wird beibehalten und die Daten aus der eingehenden Transition der Aktivität Audience speichern werden hinzugefügt.
+   * **Zielgruppeninhalt mit den neuen Daten ergänzen**: Der alte Zielgruppeninhalt wird beibehalten und die Daten der eingehenden Transition der Aktivität „Zielgruppe speichern“ wird hinzugefügt.
 
-1. Überprüfen Sie die **Ausgehende Transition erzeugen** , wenn Sie eine Transition nach der **Audience-Speicherung** -Aktivität.
+1. Markieren Sie die Option **Ausgehende Transition erzeugen**, wenn Sie eine Transition nach der Aktivität **Zielgruppe speichern** hinzufügen möchten.
 
-Der Inhalt der gespeicherten Audience ist anschließend in der Detailansicht der Audience verfügbar, auf die Sie im Menü **Audiences** zugreifen können. Die in dieser Ansicht verfügbaren Spalten entsprechen den Spalten der in den Workflow eingehenden Transition. **Audience-Speicherung** -Aktivität.
+Der Inhalt der gespeicherten Zielgruppe ist anschließend in der Detailansicht der Zielgruppe verfügbar, auf die Sie im Menü **Zielgruppen** zugreifen können. Die in dieser Ansicht verfügbaren Spalten entsprechen den Spalten in der eingehenden Transition der Aktivität **Zielgruppe speichern** des Workflows.
 
 
 ## Beispiel{#save-audience-example}
 
-Im folgenden Beispiel wird eine einfache Zielgruppenaktualisierung anhand der Zielgruppenbestimmung veranschaulicht. Eine Planung wird hinzugefügt, um den Workflow einmal monatlich auszuführen. Eine Abfrage ruft alle Profile ab, die für die verschiedenen verfügbaren Anwendungsdienste angemeldet sind. Die **Audience-Speicherung** aktualisiert in diesem Fall die angegebene Audience, indem die Profile, die seit der letzten Ausführung des Workflows den Informationsdienst abbestellt haben, gelöscht und die neuen Abonnenten hinzugefügt werden.
+Im folgenden Beispiel wird eine einfache Zielgruppenaktualisierung von der Zielgruppenbestimmung aus gezeigt. Eine Planung wird hinzugefügt, um den Workflow einmal monatlich auszuführen. Eine Abfrage ruft alle Profile ab, die für die verschiedenen verfügbaren Anwendungsdienste angemeldet sind. Die Aktivität **Zielgruppe speichern** aktualisiert in diesem Fall die angegebene Zielgruppe, indem die Profile, die seit der letzten Ausführung des Workflows den Informationsdienst abbestellt haben, gelöscht und die neu abonnierten Profile hinzugefügt werden.
 
 

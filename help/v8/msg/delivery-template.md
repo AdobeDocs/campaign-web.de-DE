@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 4a8513bb-8290-432a-8e40-822cd1337cb3
 source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1020'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -20,17 +20,17 @@ ht-degree: 89%
 >title="Versandvorlagen"
 >abstract="Verwenden Sie Versandvorlagen, um das kreative Erscheinungsbild zu standardisieren und so Kampagnen schneller ausführen und starten zu können"
 
-Für einen beschleunigten und verbesserten Designprozess können Sie Versandvorlagen erstellen, um benutzerdefinierte Inhalte und Einstellungen in allen Ihren Kampagnen einfach wiederzuverwenden. Diese Funktion ermöglicht es Ihnen, das kreative Look-and-Feel zu standardisieren, um Kampagnen schneller durchführen und starten zu können.
+Um den Design-Prozess zu beschleunigen und zu verbessern, können Sie Versandvorlagen erstellen, um benutzerdefinierte Inhalte und Einstellungen in Ihren Kampagnen einfach wiederzuverwenden. Diese Funktion ermöglicht es Ihnen, das kreative Look-and-Feel zu standardisieren, um Kampagnen schneller durchführen und starten zu können.
 
 Eine Vorlage kann Folgendes enthalten:
 
 * [Typologien](../advanced-settings/delivery-settings.md#typology),
-* Die Absenderadresse,
-* Eine [Zielgruppe](../audience/about-recipients.md), einschließlich [Kontrollgruppen](../audience/control-group.md),
-* Benutzerdefinierte [Inhalte](../content/edit-content.md),
-* [Personalisierte Felder](../personalization/personalize.md) und [bedingte Inhalte](../personalization/conditions.md),
-* Links zu [Mirrorseite](../content/mirror-page.md) und Abmeldung [links](../content/message-tracking.md),
-* Andere Versandeigenschaften, z. B. die Gültigkeit der Ressource, die Parameter für erneute Versuche oder die Quarantäneeinstellungen.
+* die Absenderadresse,
+* eine [Zielgruppe](../audience/about-recipients.md), einschließlich [Kontrollgruppen](../audience/control-group.md),
+* benutzerdefinierte [Inhalte](../content/edit-content.md),
+* [personalisierte Felder](../personalization/personalize.md) und [bedingte Inhalte](../personalization/conditions.md),
+* Links zur [Mirrorseite](../content/mirror-page.md) und [Links](../content/message-tracking.md) zur Abmeldung,
+* Andere Versandeigenschaften, z. B. die Gültigkeit der Ressource, die Parameter für erneute Zustellversuche oder die Quarantäneeinstellungen.
 
 <!--
 >[!NOTE]
@@ -39,10 +39,10 @@ Eine Vorlage kann Folgendes enthalten:
 
 >[!NOTE]
 >
->Versandvorlagen unterscheiden sich von [Inhaltsvorlagen](../content/email-sample-templates.md), mit dem Sie mit der Erstellung Ihres Inhalts mit einer der standardmäßig bereitgestellten E-Mail-Beispielvorlagen beginnen können.
+>Versandvorlagen unterscheiden sich von [Inhaltsvorlagen](../content/email-sample-templates.md) darin, dass Sie bei letzteren damit beginnen können, Ihren Inhalt mit einer der standardmäßig bereitgestellten Beispiel-E-Mail-Vorlagen zu erstellen.
 
 
-## Auf Versandvorlagen zugreifen und diese verwalten {#access-manage-templates}
+## Aufrufen und Verwalten von Versandvorlagen {#access-manage-templates}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_templates"
@@ -83,7 +83,7 @@ Um eine Versandvorlage zu erstellen, haben Sie folgende Möglichkeiten:
 * Konvertieren eines bestehenden Versands in eine Vorlage: [Weitere Infos](#convert-an-existing-delivery)
 * Erstellen einer neuen Versandvorlage: [Weitere Infos](#create-a-new-template)
 
-### Vorhandene Versandvorlage duplizieren {#copy-an-existing-template}
+### Duplizieren einer vorhandene Versandvorlage {#copy-an-existing-template}
 
 Campaign verfügt über eine Reihe integrierter Vorlagen für jeden Kanal: E-Mail, Push und SMS. Die einfachste Möglichkeit, eine Versandvorlage zu erstellen, besteht darin, eine integrierte Vorlage zu duplizieren und anzupassen.
 
@@ -135,7 +135,7 @@ Um einen Versand als Vorlage zu speichern, gehen Sie wie folgt vor:
 
 Die neue Vorlage wird der Liste [**Vorlagen** hinzugefügt](#access-manage-templates). Sie können sie jetzt bei der Erstellung eines neuen Versands auswählen.
 
-### Neue Versandvorlage erstellen {#create-a-new-template}
+### Erstellen einer neuen Versandvorlage {#create-a-new-template}
 
 >[!NOTE]
 >
@@ -165,7 +165,7 @@ Gehen Sie wie folgt vor, um eine Versandvorlage von Grund auf zu konfigurieren:
    > * [Push-Benachrichtigungs-Kanal](../push/gs-push.md)
    > * [SMS-Kanal](../sms/create-sms.md)
 
-1. Für E-Mail-Vorlagen sind darüber hinaus erweiterte Einstellungen wie Typologieregeln und Zielgruppen-Mappings über die **[!UICONTROL Einstellungen]** Schaltfläche oben rechts im Bildschirm. [Weitere Informationen](../advanced-settings/delivery-settings.md)
+1. Darüber hinaus können sind für E-Mail-Vorlagen erweiterte Einstellungen wie Typologieregeln und Zielgruppen-Mappings über die Schaltfläche **[!UICONTROL Einstellungen]** oben rechts im Bildschirm zugänglich. [Weitere Informationen](../advanced-settings/delivery-settings.md)
 
 1. Klicken Sie auf die Schaltfläche **[!UICONTROL Überprüfen]** zum Speichern und Überprüfen Ihrer Vorlage. Sie können weiterhin alle Einstellungen bearbeiten, löschen und duplizieren.
 
@@ -179,7 +179,7 @@ Sie können das Rendering einer beliebigen Versandvorlage testen, unabhängig da
 
 1. Wechseln Sie über das Menü **[!UICONTROL Kampagnenverwaltung]** > **[!UICONTROL Sendungen]** zur Registerkarte **Vorlagen** und wählen Sie eine Vorlage aus. [Weitere Informationen](#access-manage-templates)
 
-1. Klicken Sie auf **[!UICONTROL Inhalt simulieren]** rechts oben auf dem Bildschirm.
+1. Klicken Sie auf die Schaltfläche **[!UICONTROL Inhalt simulieren]** oben rechts auf dem Bildschirm.
 
    ![](assets/templates-simulate-button.png)
 

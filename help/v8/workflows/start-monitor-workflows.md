@@ -5,9 +5,9 @@ description: Erfahren Sie, wie Sie Workflows mit Adobe Campaign Web erstellen
 badge: label="Beta"
 exl-id: 8aa76369-c9f3-4c5b-9a51-101b239727e6
 source-git-commit: 5305880fed452ce07b168c0001386c1836c5afda
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '569'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -27,12 +27,12 @@ Anhand eines visuellen Flusses können Sie den Fortschritt von Zielgruppenprofil
 
 ## Workflow-Transitionen {#transitions}
 
-In Workflows werden Daten, die von einer Aktivität zur anderen über Transitionen übertragen werden, in einer temporären Arbeitstabelle gespeichert.
+In einem Workflow werden die von einer Aktivität zur anderen übertragenen Daten in temporären Arbeitstabellen gespeichert.
 
 Diese Daten können für jede Transition angezeigt werden. Wählen Sie dazu eine Transition aus, um ihre Eigenschaften auf der rechten Seite des Bildschirms zu öffnen.
 
-* Klicks **[!UICONTROL Schema-Vorschau]** , um das Schema der Arbeitstabelle anzuzeigen.
-* Klicks **[!UICONTROL Ergebnisvorschau]** um die in der ausgewählten Transition übertragenen Daten zu visualisieren.
+* Klicken Sie auf **[!UICONTROL Vorschau für Schema]**, um das Schema der Arbeitstabelle anzuzeigen.
+* Klicken Sie auf **[!UICONTROL Ergebnisvorschau]**, um die in der ausgewählten Transition übertragenen Daten zu visualisieren.
 
 ![](assets/transition.png)
 

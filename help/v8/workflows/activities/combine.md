@@ -4,9 +4,9 @@ title: Verwenden der Workflow-Aktivität „Kombinieren“.
 description: Erfahren Sie, wie Sie die Workflow-Aktivität „Kombinieren“ verwenden.
 badge: label="Beta"
 source-git-commit: 4ef1ac4c8af16c3b83a2df8f903dccc1629339e3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '886'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -15,11 +15,11 @@ ht-degree: 78%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_combine"
->title="Aktivität kombinieren"
->abstract="Die **Kombinieren** -Aktivität ermöglicht die Segmentierung Ihrer eingehenden Population. Sie können also mehrere Populationen kombinieren, einen Teil davon ausschließen oder nur Daten gemeinsam mit mehreren Zielgruppen speichern."
+>title="Die Aktivität „Kombinieren“"
+>abstract="Die Aktivität **Kombinieren** ermöglicht die Segmentierung Ihrer eingehenden Population. Sie können also verschiedene Populationen vereinen, einen Teil daraus ausschließen oder nur die in mehreren Zielgruppen enthaltenen Datensätze verwenden."
 
 
-Die **Kombinieren** -Aktivität **Targeting** -Aktivität. Diese Aktivität ermöglicht die Segmentierung Ihrer eingehenden Population. Sie können also verschiedene Populationen vereinen, einen Teil daraus ausschließen oder nur die in mehreren Zielgruppen enthaltenen Datensätze verwenden. Im Folgenden finden Sie die verfügbaren Segmentierungstypen:
+Die Aktivität **Kombinieren** ist eine Aktivität zur **Zielgruppenbestimmung**. Diese Aktivität ermöglicht die Segmentierung Ihrer eingehenden Population. Sie können also verschiedene Populationen vereinen, einen Teil daraus ausschließen oder nur die in mehreren Zielgruppen enthaltenen Datensätze verwenden. Im Folgenden finden Sie die verfügbaren Segmentierungstypen:
 
 <!--
 The **Combine** activity can be placed after any other activity, but not at the beginning of the workflow. Any activity can be placed after the **Combine**.
@@ -29,7 +29,7 @@ The **Combine** activity can be placed after any other activity, but not at the 
 * Eine **Schnittmenge** dient dazu, nur die Elemente zu behalten, die den verschiedenen eingehenden Populationen in der Aktivität gemeinsam sind.
 * Ein **Ausschluss** dient dazu, gemäß bestimmten Kriterien entsprechende Elemente aus einer Population auszuschließen.
 
-## Konfigurieren der Aktivität Kombinieren {#combine-configuration}
+## Konfigurieren der Aktivität „Kombinieren“ {#combine-configuration}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_intersection_merging_options"
@@ -43,8 +43,8 @@ The **Combine** activity can be placed after any other activity, but not at the 
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_combine_options"
->title="Segmentierungstyp auswählen"
->abstract="Wählen Sie aus, wie Audiences kombiniert werden sollen: Vereinigung, Schnittmenge oder Ausschluss."
+>title="Auswählen des Segmentierungstyps"
+>abstract="Wählen Sie aus, wie Zielgruppen kombiniert werden sollen: Vereinigung, Schnittmenge oder Ausschluss."
 
 Führen Sie die folgenden Schritte aus, um mit der Konfiguration der Aktivität **Kombinieren** zu beginnen:
 
@@ -66,16 +66,16 @@ Führen Sie die folgenden Schritte aus, um mit der Konfiguration der Aktivität 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_combine_reconciliation"
 >title="Abstimmoptionen"
->abstract="Wählen Sie die **Abstimmtyp** , um festzulegen, wie Duplikate verarbeitet werden."
+>abstract="Wählen Sie den **Abstimmtyp** aus, um festzulegen, wie Dubletten behandelt werden."
 
-Im **Kombinieren** -Aktivität, können Sie eine **Vereinigung**. Dazu müssen Sie die **Abstimmtyp** zur Definition des Umgangs mit Duplikaten:
+In der Aktivität **Kombinieren** können Sie eine **Vereinigung** konfigurieren. Für die Vereinigung müssen Sie den **Abstimmtyp** auswählen, um festzulegen, wie Dubletten behandelt werden:
 
 * **Nur die Schlüssel** – Standardmodus; die Aktivität behält nur eines der Elemente bei, wenn mehrere aus verschiedenen eingehenden Transitionen stammende Elemente denselben Schlüssel aufweisen. Diese Option kann nur verwendet werden, wenn die eingehenden Populationen homogen sind.
-* **Auswahl an Spalten**: Wählen Sie diese Option, um die Liste der Spalten zu definieren, auf die die Abstimmung der Daten angewendet wird. Wählen Sie zunächst die die Quelldaten enthaltende Hauptmenge aus und dann die für die Herstellung der Verknüpfung zu verwendenden Spalten.
+* **Auswahl an Spalten** – Wählen Sie diese Option, um die Liste der Spalten zu definieren, auf die die Datenabstimmung angewendet werden soll. Wählen Sie zunächst die die Quelldaten enthaltende Hauptmenge aus und dann die für die Herstellung der Verknüpfung zu verwendenden Spalten.
 
 ## Schnittmenge {#combine-intersection}
 
-Im **Kombinieren** -Aktivität, können Sie eine **Schnittmenge**. Gehen Sie dazu wie folgt vor:
+In der Aktivität **Kombinieren** können Sie eine **Schnittmenge** konfigurieren. Dafür müssen Sie die folgenden zusätzlichen Schritte ausführen:
 
 1. Wählen Sie den **Abstimmtyp**, um festzulegen, wie Duplikate behandelt werden. Siehe den Abschnitt [Vereinigung](#union).
 1. Sie können die Option **Komplement erzeugen** aktivieren, wenn Sie die verbleibende Population verarbeiten möchten. Das Komplement enthält die Vereinigung der Ergebnisse aller eingehenden Aktivitäten abzüglich der Schnittmenge. Der Aktivität wird daraufhin eine zusätzliche ausgehende Transition hinzugefügt.
@@ -89,7 +89,7 @@ Im **Kombinieren** -Aktivität, können Sie eine **Schnittmenge**. Gehen Sie daz
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_combine_sets"
->title="Sets auswählen, die kombiniert werden sollen"
+>title="Auswählen von Sets, die kombiniert werden sollen"
 >abstract="Wählen Sie im Abschnitt **Zusammenzuführende Mengen** die **Hauptmenge** aus den eingehenden Transitionen. Dies ist die Menge, aus der Elemente ausgeschlossen werden. Die anderen Mengen stimmen mit Elementen überein, bevor sie aus der Primärmenge ausgeschlossen werden."
 
 >[!CONTEXTUALHELP]
@@ -99,7 +99,7 @@ Im **Kombinieren** -Aktivität, können Sie eine **Schnittmenge**. Gehen Sie daz
 
 
 
-Im **Kombinieren** -Aktivität, können Sie eine **Ausschluss**. Gehen Sie dazu wie folgt vor:
+In der Aktivität **Kombinieren** können Sie einen **Ausschluss** konfigurieren. Dafür müssen Sie die folgenden zusätzlichen Schritte ausführen:
 
 1. Wählen Sie im Abschnitt **Zusammenzuführende Mengen** die **Hauptmenge** aus den eingehenden Transitionen. Dies ist die Menge, aus der Elemente ausgeschlossen werden. Die anderen Mengen stimmen mit Elementen überein, bevor sie aus der Primärmenge ausgeschlossen werden.
 1. Bei Bedarf können die eingehenden Tabellen angepasst werden. Um eine Zielgruppe aus einer anderen Dimension auszuschließen, muss diese Zielgruppe tatsächlich auf dieselbe Zielgruppendimension wie die Hauptzielgruppe zurückgesetzt werden. Klicken Sie dazu im Abschnitt **Ausschlussregeln** auf **Regel hinzufügen** und geben Sie die Bedingungen für die Dimensionsänderung an. Die Datenabstimmung wird entweder über ein Attribut oder einen Join durchgeführt.
@@ -107,7 +107,7 @@ Im **Kombinieren** -Aktivität, können Sie eine **Ausschluss**. Gehen Sie dazu 
 
 ## Beispiele{#combine-examples}
 
-Im folgenden Beispiel verwenden wir eine **Kombinieren** und wir fügen eine **Vereinigung** alle Profile der beiden Abfragen abzurufen: Personen zwischen 18 und 27 Jahren und Personen zwischen 34 und 40 Jahren.
+Im folgenden Beispiel verwenden wir die Aktivität **Kombinieren**, und wir fügen die Aktivität **Vereinigung** hinzu, um alle Profile der beiden Abfragen abzurufen: Personen zwischen 18 und 27 Jahren und Personen zwischen 34 und 40 Jahren.
 
 ![](../assets/workflow-union-example.png)
 

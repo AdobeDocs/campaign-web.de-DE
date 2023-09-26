@@ -4,9 +4,9 @@ title: Senden eines Push-Benachrichtigungs-Versands
 description: Erfahren Sie, wie Sie mit Adobe Campaign Web einen Push-Benachrichtigungs-Versand senden.
 badge: label="Beta"
 source-git-commit: 51d237a2651cc4a24630138b5761b4b14e7cac4f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '386'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -57,9 +57,9 @@ Empfängerinnen und Empfänger von Testsendungen können Elemente wie Links, Bil
 
 1. Senden Sie die Nachrichten, indem Sie auf **[!UICONTROL Senden]** klicken, um mit dem endgültigen Versandprozess fortzufahren.
 
-1. Bestätigen Sie den Versand durch Auswahl der **[!UICONTROL Senden]**.
+1. Bestätigen Sie den Sendevorgang durch Auswahl der Schaltfläche **[!UICONTROL Senden]**.
 
-   Wenn der Push-Versand geplant wurde, klicken Sie auf die Schaltfläche **[!UICONTROL Senden als geplant]** Schaltfläche. Weitere Informationen zur Versandplanung finden Sie unter [diesem Abschnitt](../msg/gs-messages.md#schedule-the-delivery-sending).
+   Wenn der Push-Versand geplant wurde, klicken Sie auf die Schaltfläche **[!UICONTROL Nach Zeitplan senden]**. Weitere Informationen zur Versandplanung finden Sie in [diesem Abschnitt](../msg/gs-messages.md#schedule-the-delivery-sending)
 
    ![](assets/push_send_4.png)
 

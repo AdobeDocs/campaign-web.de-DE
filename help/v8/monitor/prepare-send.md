@@ -5,9 +5,9 @@ description: Erfahren Sie, wie Sie eine E-Mail mit der Web-Benutzeroberfläche v
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
 badge: label="Beta"
 source-git-commit: 1fef8cd125d2688c70997bb44681f0832277f7fd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '925'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 90%
 
 ## Versandvorbereitung {#prepare}
 
-Wenn Sie Ihre [content](../content/edit-content.md), [audience](../audience/add-audience.md), und [Zeitplan](../msg/gs-messages.md#schedule-the-delivery-sending-gs-schedule), sind Sie bereit, Ihren E-Mail-Versand vorzubereiten.
+Wenn Sie [Inhalt](../content/edit-content.md), [Zielgruppe](../audience/add-audience.md) und [Zeitplan](../msg/gs-messages.md#schedule-the-delivery-sending-gs-schedule) definiert haben, können Sie den E-Mail-Versand vorbereiten.
 
 Während der Versandvorbereitung wird die Zielpopulation berechnet und der Nachrichteninhalt für jedes Profil in der Zielgruppe erzeugt. Nachdem die Vorbereitung abgeschlossen ist, können die Nachrichten entweder sofort oder am geplanten Datum und zur geplanten Uhrzeit gesendet werden.
 
@@ -119,34 +119,34 @@ Unabhängig davon, ob es sich um einen geplanten oder ungeplanten Versand handel
 >id="acw_deliveries_email_metrics_delivered"
 >title="Zugestellt"
 >abstract="Die Anzahl der erfolgreich zugestellten Nachrichten. Dieser Indikator wird alle 5 Minuten aktualisiert. Der angezeigte Prozentsatz bezieht sich auf die Gesamtzahl der gesendeten Nachrichten."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/reports/kpis.html" text="Grundlegendes zu KPIs"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/reports/kpis.html?lang=de" text="Grundlegendes zu KPIs"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_opens"
 >title="Öffnungen"
 >abstract="Die Anzahl der geöffneten Nachrichten. Dieser Indikator wird alle 5 Minuten aktualisiert. Der angezeigte Prozentsatz ist das Verhältnis zwischen der Anzahl der Einzelöffnungen und der Anzahl der zugestellten Nachrichten."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/reports/kpis.html" text="Grundlegendes zu KPIs"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/reports/kpis.html?lang=de" text="Grundlegendes zu KPIs"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_clicks"
 >title="Klicks"
 >abstract="Die Anzahl der Empfangenden, die mindestens einmal auf die E-Mail geklickt haben. Dieser Indikator wird alle 5 Minuten aktualisiert. Der angezeigte Prozentsatz ist das Verhältnis der Anzahl der eindeutigen Klicks im Vergleich zur Anzahl der zugestellten Nachrichten."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/reports/kpis.html" text="Grundlegendes zu KPIs"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/reports/kpis.html?lang=de" text="Grundlegendes zu KPIs"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_sent"
 >title="Gesendet-Metriken"
 >abstract="Gesamtzahl der während der Versandanalyse verarbeiteten Nachrichten."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/reports/kpis.html" text="Grundlegendes zu KPIs"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/reports/kpis.html?lang=de" text="Grundlegendes zu KPIs"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_errors"
 >title="Fehlermetriken"
 >abstract="Gesamtzahl der beim Versand und bei der automatischen Rücksendung kumulierten Fehler im Verhältnis zur Gesamtzahl der gesendeten Nachrichten."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/reports/kpis.html" text="Grundlegendes zu KPIs"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/reports/kpis.html?lang=de" text="Grundlegendes zu KPIs"
 
 
 Nach abgeschlossenem Sendevorgang können Sie die angezeigten KPIs überprüfen:
@@ -167,6 +167,6 @@ Nach abgeschlossenem Sendevorgang können Sie die angezeigten KPIs überprüfen:
 >
 >Alle Indikatoren werden alle fünf Minuten nach dem Versandstart aktualisiert. Die Indikatoren für die Versandvorbereitung entsprechen der Echtzeit.
 
-Weitere Informationen zu KPIs finden Sie unter [diese Seite](../reporting/kpis.md).
+Weitere Informationen über KPIs finden Sie auf [dieser Seite](../reporting/kpis.md).
 
 Sie können auch die Protokolle überprüfen. [Weitere Informationen](delivery-logs.md)

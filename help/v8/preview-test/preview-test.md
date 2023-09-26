@@ -5,9 +5,9 @@ description: Weitere Informationen dazu, wie Sendungen in der Vorschau angezeigt
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
 badge: label="Beta"
 source-git-commit: 5c99883215d89c72d1076df1b379c91c49ed9551
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '201'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -40,4 +40,4 @@ Diese Aktionen können mithilfe der Schaltfläche **[!UICONTROL Inhalt simuliere
 >
 >Die Inhaltssimulation ist auch in der [Versandzusammenfassung](../monitor/prepare-send.md) verfügbar, nachdem Sie auf die Schaltfläche **[!UICONTROL Überprüfen und senden]** geklickt haben.
 >
->Wenn Sie eine Audience auswählen, die aus einer Datei hochgeladen wurde, lesen Sie [diesem Abschnitt](../audience/file-audience.md#preview--test-your-email-test) , um zu erfahren, wie Sie einen Versand in der Vorschau anzeigen und testen können.
+>Wenn Sie eine Zielgruppe auswählen, die aus einer Datei hochgeladen wurde, lesen Sie [diesen Abschnitt](../audience/file-audience.md#preview--test-your-email-test), um zu erfahren, wie Sie einen Versand in der Vorschau anzeigen und testen können.

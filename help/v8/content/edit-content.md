@@ -5,34 +5,34 @@ description: Erfahren Sie, wie Sie den E-Mail-Inhalt in der Web-Benutzeroberflä
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 badge: label="Beta"
 source-git-commit: 26c1322a17e3659301982daadc7eadb45efdd2b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '633'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
-# Konfigurieren der E-Mail-Inhalte {#edit-content}
+# Konfigurieren des E-Mail-Inhalts {#edit-content}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_content"
 >title="Definieren des E-Mail-Inhalts"
->abstract="Die **Inhalt bearbeiten** -Bildschirm können Sie grundlegende Elemente Ihrer Nachricht definieren, wie z. B. die Absenderadresse und die Betreffzeile, zusätzliche Aktionen durchführen, wie z. B. Anhänge oder Angebote hinzufügen, und auf Email Designer zugreifen, um Ihrer Nachricht einen optimierten Look zu verleihen."
+>abstract="Auf dem Bildschirm **Inhalt bearbeiten** können Sie grundlegende Elemente Ihrer Nachricht definieren, wie z. B. die Absenderadresse und die Betreffzeile, zusätzliche Aktionen durchführen, wie z. B. Anhänge oder Angebote hinzufügen, und auf den E-Mail-Designer zugreifen, um Ihrer Nachricht einen optimierten Look zu verleihen."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_header"
->title="E-Mail-Eigenschaften festlegen"
->abstract="Die **Grundlegende Details** können Sie die Adresse und Antwort-Adresse des Absenders aktualisieren und die Betreffzeile mithilfe des Ausdruckseditors definieren."
+>title="Festlegen der E-Mail-Eigenschaften"
+>abstract="Im Abschnitt **Grundlegende Details** können Sie die Adresse der Absenderin bzw. des Absenders und die Antwortadresse aktualisieren und die Betreffzeile mithilfe des Ausdruckseditors definieren."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_attachment"
->title="Anhängen von Dateien an Ihre E-Mail"
+>title="Anhängen von Dateien an eine E-Mail"
 >abstract="Wählen Sie eine oder mehrere Dateien aus, die Sie Ihrer Nachricht anfügen möchten. Zur Vermeidung von Leistungsproblemen wird empfohlen, nicht mehr als einen Anhang pro E-Mail hinzuzufügen."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_options"
->title="Tracking bearbeiten"
->abstract="Standardmäßig ist das Tracking für den Versand aktiviert, d. h. alle im Nachrichteninhalt enthaltenen Links werden verfolgt. Sie können diese Option hier deaktivieren."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/content/design-content/message-tracking.html" text="Hinzufügen von Links und Verfolgen von Nachrichten"
+>title="Bearbeiten des Trackings"
+>abstract="Standardmäßig ist das Tracking für den Versand aktiviert, d. h. alle im Nachrichteninhalt enthaltenen Links werden verfolgt. Sie können diese Option hier deaktivieren."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/content/design-content/message-tracking.html?lang=de" text="Hinzufügen von Links und Nachverfolgen von Nachrichten"
 
 Der E-Mail-Bildschirm **[!UICONTROL Inhalt bearbeiten]** ermöglicht Ihnen Folgendes:
 * Definieren der grundlegenden Elemente Ihrer Nachricht, z. B. die Absenderadresse und die Betreffzeile
@@ -69,11 +69,11 @@ Gehen Sie wie folgt vor, um den Inhalt einer E-Mail zu konfigurieren oder zu bea
    >
    >Sie können den Teil vor dem „@“ ändern, nicht aber die Domain-Adresse.
 
-1. Erweitern Sie die **[!UICONTROL Antwortfelder]** Abschnitt. Name und Adresse des Absenders werden standardmäßig für Antworten verwendet. Adobe empfiehlt, eine echte Adresse zu verwenden, wie etwa den Kundendienst Ihrer Marke. So kann sich dieser gegebenenfalls um etwaige Antworten kümmern.
+1. Erweitern Sie den Abschnitt **[!UICONTROL Antwortfelder]**. Name und Adresse der Absenderin bzw. des Absenders werden standardmäßig für Antworten verwendet. Adobe empfiehlt, eine echte Adresse zu verwenden, wie etwa den Kundendienst Ihrer Marke. So kann sich dieser gegebenenfalls um etwaige Antworten kümmern.
 
    ![](assets/email-edit-content-reply-to.png)
 
-1. Definieren Sie den **[!UICONTROL Betreff]** der E-Mail. Geben Sie Ihren Betreff direkt in das entsprechende Feld ein oder öffnen Sie den Ausdruckseditor, um ihn hinzuzufügen. [Personalisierung](../personalization/personalize.md) Verwendung verschiedener Attribute und Inhaltsbausteine oder Angebote.
+1. Definieren Sie die **[!UICONTROL Betreffzeile]** der E-Mail. Geben Sie Ihren Betreff direkt in das entsprechende Feld ein oder öffnen Sie den Ausdruckseditor, um das Hinzufügen einer [Personalisierung](../personalization/personalize.md) mit verschiedenen Attributen und Inhaltsbausteinen oder Angeboten vorzunehmen.
 
 1. Wenn Sie eine Datei an die E-Mail anhängen möchten, klicken Sie auf die Schaltfläche **[!UICONTROL Anlage hinzufügen]** und wählen Sie eine oder mehrere Dateien aus.
 

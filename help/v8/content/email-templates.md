@@ -5,9 +5,9 @@ title: Arbeiten mit E-Mail-Vorlagen
 exl-id: 114c482f-8291-418a-bd81-667f40267a7d
 badge: label="Beta"
 source-git-commit: 2156ad1929e1f17abd1ceff81107fb9305943219
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '344'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 

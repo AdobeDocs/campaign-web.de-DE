@@ -5,9 +5,9 @@ description: Erfahren Sie, wie Sie mit Empfängerinnen und Empfängern aus einer
 badge: label="Beta"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
 source-git-commit: 27023835804d11e169b87239d6fe67c20bc987e5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '580'
-ht-degree: 57%
+ht-degree: 100%
 
 ---
 
@@ -36,9 +36,9 @@ Es ist nicht möglich, Profile direkt über die Benutzeroberfläche in Campaign 
 >
 >* Sie können keine [Kontrollgruppen](control-group.md) verwenden, wenn Sie die Zielgruppen-Population aus einer externen Datei laden.
 >
->* Profile werden nicht zur Datenbank hinzugefügt, sondern nur für diesen speziellen E-Mail-Versand geladen und verfügbar.
+>* Profile werden nicht zur Datenbank hinzugefügt, sondern werden geladen und sind nur für diesen speziellen E-Mail-Versand verfügbar.
 
-## Datei auswählen und konfigurieren {#upload}
+## Auswählen und Konfigurieren der Datei {#upload}
 
 Gehen Sie wie folgt vor, um Profile aus einer lokalen Datei direkt über die E-Mail-Benutzeroberfläche anzuvisieren:
 
@@ -78,28 +78,28 @@ Durance,Allison,San Francisco,15/12/2000,allison.durance@example.com,1
 }
 ```
 
-## Vorschau erstellen und E-Mail testen {#test}
+## Erstellen einer Vorschau und Testen einer E-Mail {#test}
 
-Mit Campaign Web können Sie sich Test-E-Mails in der Vorschau ansehen und senden, wenn Sie eine aus einer Datei hochgeladene Audience verwenden. Gehen Sie dazu wie folgt vor:
+Mit Campaign Web können Sie sich Test-E-Mails in der Vorschau ansehen und sie senden, wenn Sie eine aus einer Datei hochgeladene Zielgruppe verwenden. Gehen Sie dazu wie folgt vor:
 
-1. Klicken Sie auf **[!UICONTROL Schaltfläche &quot;Inhalt simulieren&quot;]** Wählen Sie im Bearbeitungsbildschirm des Versandinhalts die Option **[!UICONTROL Hinzufügen von Testprofilen]** Schaltfläche.
+1. Klicken Sie auf die **[!UICONTROL Schaltfläche „Inhalt simulieren“]** im Bearbeitungsbildschirm des Versandinhalts und klicken Sie dann auf die Schaltfläche **[!UICONTROL Testprofil(e) hinzufügen]**.
 
 1. Die in der hochgeladenen Datei enthaltenen Profile werden angezeigt. Wählen Sie die Profile aus, die Sie für die Vorschau Ihres Inhalts verwenden möchten, und klicken Sie auf **[!UICONTROL Auswählen]**.
 
-1. Im rechten Bereich des Bildschirms wird eine Vorschau des Versandinhalts angezeigt. Personalisierte Elemente werden durch die Daten aus dem Profil ersetzt, das im linken Bereich ausgewählt wurde. [Weitere Informationen zur Inhaltsvorschau eines Versands](../preview-test/preview-content.md)
+1. Eine Vorschau des Versandinhalts wird im rechten Bereich des Bildschirms angezeigt. Personalisierte Elemente werden durch die Daten aus dem Profil ersetzt, das im linken Bereich ausgewählt wurde. [Weitere Informationen zur Inhaltsvorschau eines Versands](../preview-test/preview-content.md)
 
    ![](assets/file-upload-preview.png)
 
-1. Um Test-E-Mails zu senden, klicken Sie auf die Schaltfläche **[!UICONTROL Test]** Schaltfläche.
+1. Um Test-E-Mails zu senden, klicken Sie auf die Schaltfläche **[!UICONTROL Testen]**.
 
-1. Klicken Sie auf **[!UICONTROL Hochladen von Testprofilen]** und wählen Sie die .txt - oder .csv -Datei aus, die Ihre Testversand-Empfänger enthält.
+1. Klicken Sie auf die Schaltfläche **[!UICONTROL Testprofile hochladen]** und wählen Sie die TXT- oder CSV-Datei aus, die Ihre Testversand-Empfängerinnen und -Empfänger enthält.
 
    >[!CAUTION]
    >
-   >Stellen Sie sicher, dass das Dateiformat mit dem für das Hochladen der Audience verwendeten Format übereinstimmt. Bei Formatfehlern wird ein Warnhinweis angezeigt.
+   >Stellen Sie sicher, dass das Dateiformat mit dem Format übereinstimmt, das für das Hochladen Ihrer Zielgruppe verwendet wird. Bei Formatfehlern wird ein Warnhinweis angezeigt.
 
-1. Wenn die Testversand-Empfänger hinzugefügt werden und Sie bereit sind, die Testsendungen durchzuführen, klicken Sie auf die Schaltfläche **[!UICONTROL Test-E-Mail senden]** und bestätigen Sie den Versand.
+1. Wenn die Testversand-Empfängerinnen und -Empfänger hinzugefügt wurden und Sie bereit sind, die Testsendungen durchzuführen, klicken Sie auf die Schaltfläche **[!UICONTROL Test-E-Mail senden]** und bestätigen Sie den Versand.
 
    ![](assets/file-upload-test.png)
 
-1. Sie können den Versand der Test-E-Mail jederzeit mithilfe der Schaltfläche Test-E-Mail-Protokoll anzeigen überwachen. [Erfahren Sie mehr über die Überwachung von E-Mails beim Testen](../preview-test/test-deliveries.md#access-sent-test-deliveries-access-proofs)
+1. Sie können den Versand der Test-E-Mail jederzeit mithilfe der Schaltfläche „Test-E-Mail-Protokoll anzeigen“ überwachen. [Erfahren Sie mehr über das Überwachen von Test-E-Mails](../preview-test/test-deliveries.md#access-sent-test-deliveries-access-proofs)

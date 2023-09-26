@@ -5,9 +5,9 @@ description: Erfahren Sie, wie Sie Workflow-Aktivitäten durchführen.
 badge: label="Beta"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
 source-git-commit: a8b73ba5664eedf473f09050602a61895993663e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '410'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -28,13 +28,13 @@ Alle Aktivitäten werden in den folgenden Abschnitten beschrieben:
 
 Diese Aktivitäten dienen der Zielgruppenbestimmung, Manipulation und Anreicherung von Populationsdaten. Sie ermöglichen es Ihnen, ein oder mehrere Ziele zu erstellen, indem Sie eine Zielgruppe definieren und diese Zielgruppen mithilfe von Schnittmenge, Vereinigung oder Ausschluss aufteilen oder kombinieren.
 
-* Mithilfe der [Audience-Speicherung](save-audience.md) können existierende Audiences aktualisiert oder neue erstellt werden. Die hierfür erforderlichen Populationen werden im Vorfeld durch andere Workflow-Aktivitäten ermittelt.
+* Mithilfe der Aktivität [Zielgruppe speichern](save-audience.md) können existierende Zielgruppen aktualisiert oder neue erstellt werden. Die hierfür erforderlichen Populationen werden im Vorfeld durch andere Workflow-Aktivitäten ermittelt.
 * Mit der Aktivität [Zielgruppe erstellen](build-audience.md) können Sie Ihre Zielgruppenpopulation definieren. Sie können entweder eine vorhandene Zielgruppe auswählen oder den Regel-Builder verwenden, um Ihre eigene Abfrage zu definieren.
 * Die Aktivität [Kombinieren](combine.md) ermöglicht die Segmentierung Ihrer eingehenden Population. Sie können eine Vereinigung, eine Schnittmenge oder einen Ausschluss verwenden.
 * Die Aktivität [Aufspaltung](split.md) ermöglicht das Segmentieren der eingehenden Population in mehrere Teilmengen.
 * Mit der Aktivität [Anreicherung](enrichment.md) können Sie zusätzliche Daten definieren, die in Ihrem Workflow verarbeitet werden sollen. Mit dieser Aktivität können Sie die eingehende Transition nutzen und entsprechend der Konfiguration der Aktivität die ausgehende Transition mit Zusatzdaten ergänzen.
 * Mithilfe der Aktivität [Deduplizierung](deduplication.md) lassen sich Dubletten in Ergebnissen aus eingehenden Aktivitäten löschen.
-* Die [Dimensionsänderung](change-dimension.md) ermöglicht es Ihnen, die Zielgruppendimension während der Workflow-Erstellung zu ändern.
+* Die Aktivität [Dimensionsänderung](change-dimension.md) ermöglicht es Ihnen, die Zielgruppendimension während der Workflow-Erstellung zu ändern.
 
 ## Kanalaktivitäten {#channel}
 
@@ -58,7 +58,7 @@ Näheres dazu finden Sie in [diesem Abschnitt](channels.md).
 
 Die folgenden Aktivitäten dienen der Anordnung und Ausführung von Workflows. Ihre Hauptaufgabe ist es, die anderen Aktivitäten zu koordinieren:
 
-* Die [Planung](scheduler.md) -Aktivität können Sie den Beginn des Workflows planen.
+* Die Aktivität [Planung](scheduler.md) ermöglicht es Ihnen, zu planen, wann der Workflow gestartet wird.
 * Die Aktivität [Und-Verknüpfung](and-join.md) ermöglicht es, die Ausführung verschiedener Workflow-Verzweigungen zu synchronisieren.
 * Mit der Aktivität **Ende** können Sie das Ende eines Workflows grafisch markieren. Diese Aktivität hat keine funktionalen Auswirkungen und ist daher optional.
 * Eine [Verzweigung](fork.md) erzeugt ausgehende Transitionen, um mehrere Workflow-Aktivitäten parallel zu starten.

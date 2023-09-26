@@ -1,12 +1,12 @@
 ---
 audience: end-user
-title: Workflow-Aktivität Dimensionsänderung verwenden
-description: Erfahren Sie, wie Sie die Workflow-Aktivität Dimensionsänderung verwenden
+title: Verwenden der Workflow-Aktivität „Dimensionsänderung“
+description: Erfahren Sie, wie Sie die Workflow-Aktivität „Dimensionsänderung“ verwenden
 badge: label="Beta"
 source-git-commit: 2894766336d5ac52625175981c6969a0ac5882d8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '296'
-ht-degree: 4%
+ht-degree: 100%
 
 ---
 
@@ -15,34 +15,34 @@ ht-degree: 4%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_dimension_complement"
->title="Komplement erzeugen"
+>title="Erzeugen eines Komplements"
 >abstract="Sie können eine zusätzliche ausgehende Transition mit der verbleibenden Population generieren, die als Duplikat ausgeschlossen wurde. Schalten Sie dazu die Option **Komplement erzeugen** ein"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_change_dimension"
->title="Dimensionsaktivität ändern"
->abstract="Mithilfe dieser Aktivität können Sie die Zielgruppendimension beim Erstellen einer Audience ändern. Die Achse wird entsprechend der Datenvorlage und der Eingabedimension verschoben. Sie können beispielsweise von der Dimension &quot;Verträge&quot;zur Dimension &quot;Kunden&quot;wechseln."
+>title="Aktivität „Dimensionsänderung“"
+>abstract="Mithilfe dieser Aktivität können Sie die Zielgruppendimension beim Erstellen einer Zielgruppe ändern. Diese Aktivität verschiebt die Achse je nach Datenvorlage und der Eingabedimension. Beispielsweise können Sie von der Dimension „Verträge“ zur Dimension „Kundinnen und Kunden“ wechseln."
 
-Die **Dimensionsänderung** -Aktivität **Targeting** -Aktivität. Mithilfe dieser Aktivität können Sie die Zielgruppendimension bei der Workflow-Erstellung ändern. Die Achse wird entsprechend der Datenvorlage und der Eingabedimension verschoben. [Weitere Informationen zu Zielgruppendimensionen](../../audience/about-recipients.md#targeting-dimensions)
+Die Aktivität **Dimensionsänderung** ist eine Aktivität zur **Zielgruppenbestimmung**. Mithilfe dieser Aktivität können Sie die Zielgruppendimension beim Erstellen des Workflows ändern. Diese Aktivität verschiebt die Achse je nach Datenvorlage und der Eingabedimension. [Weitere Informationen zu Zielgruppendimensionen](../../audience/about-recipients.md#targeting-dimensions)
 
-Sie können beispielsweise die Zielgruppendimension eines Workflows von &quot;Empfänger&quot; in &quot;Abonnentenanwendung&quot; ändern, um Push-Benachrichtigungen an die Zielempfänger zu senden.
+Sie können beispielsweise die Zielgruppendimension eines Workflows von „Empfängerinnen und Empfänger“ in „Abonnentenanwendung“ ändern, um Push-Benachrichtigungen an die angesprochenen Empfängerinnen und Empfänger zu senden.
 
-## Konfigurieren der Aktivität Dimensionsänderung {#configure}
+## Konfigurieren der Aktivität „Dimensionsänderung“ {#configure}
 
-Führen Sie die folgenden Schritte aus, um die **Dimensionsänderung** Aktivität:
+Gehen Sie folgendermaßen vor, um die Aktivität **Dimensionsänderung** zu konfigurieren:
 
-1. Hinzufügen einer **Dimensionsänderung** -Aktivität zu Ihrem Workflow hinzu.
+1. Fügen Sie die Aktivität **Dimensionsänderung** zu Ihrem Workflow hinzu.
 
    ![](../assets/workflow-change-dimension.png)
 
-1. Definieren Sie die **Neue Zieldimension**. Bei Dimensionsänderung werden alle Datensätze beibehalten. Andere Optionen sind noch nicht verfügbar.
+1. Definieren Sie die **neue Zielgruppendimension**. Bei einer Dimensionsänderung werden alle Einträge beibehalten. Andere Optionen sind noch nicht verfügbar.
 
-1. Führen Sie den Workflow aus, um das Ergebnis anzuzeigen. Vergleichen Sie die Daten in den Tabellen vor und nach der Dimensionsänderung-Aktivität und vergleichen Sie die Struktur der Workflow-Tabellen.
+1. Starten Sie den Workflow, um das Ergebnis zu prüfen. Die folgenden Abbildungen zeigen die Tabellen vor und nach der Dimensionsänderung sowie die Struktur der Workflow-Tabellen.
 
 ## Beispiel {#example}
 
-In diesem Beispiel möchten wir einen SMS-Versand an alle Profile senden, die einen Kauf getätigt haben. Dazu verwenden wir zunächst eine **[!UICONTROL Audience erstellen]** Aktivität, die mit einer benutzerdefinierten Zielgruppendimension &quot;Kauf&quot;verknüpft ist, um alle erfolgten Käufe auszuwählen.
+In diesem Beispiel möchten wir einen SMS-Versand an alle Profile senden, die einen Kauf getätigt haben. Dazu verwenden wir zunächst die Aktivität **[!UICONTROL Zielgruppe erstellen]**, die mit einer benutzerdefinierten Zielgruppendimension „Kauf“ verknüpft ist, um alle erfolgten Käufe auszuwählen.
 
-Wir verwenden dann eine **[!UICONTROL Dimensionsänderung]** -Aktivität, um die Zielgruppendimension des Workflows in &quot;Empfänger&quot;zu ändern. Auf diese Weise können wir die Empfänger ansprechen, die der Abfrage entsprechen.
+Wir verwenden dann die Aktivität **[!UICONTROL Dimensionsänderung]**, um die Zielgruppendimension des Workflows in „Empfängerinnen und Empfänger“ zu ändern. Auf diese Weise können wir die Empfängerinnen und Empfänger ansprechen, die der Abfrage entsprechen.
 
 ![](../assets/workflow-change-dimension-example.png)

@@ -5,9 +5,9 @@ description: Erfahren Sie, wie Sie Workflows mit Adobe Campaign Web erstellen
 badge: label="Beta"
 exl-id: 7ac8eedf-c141-4a61-b4d3-d81f99247c6d
 source-git-commit: 140c12fbfb40ec2df2c25aacc762f344f78d9a5a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '903'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ Bei der Orchestrierung von Workflow-Aktivitäten auf der Arbeitsfläche können 
 
 Diese Einstellungen sind in der bei der Workflow-Erstellung ausgewählten Vorlage vorkonfiguriert, können aber bei Bedarf für diesen spezifischen Workflow bearbeitet werden.
 
-Klicken Sie dazu auf die Schaltfläche **[!UICONTROL Einstellungen]** in der Aktionsleiste über der Arbeitsfläche des Workflows verfügbar.
+Klicken Sie dazu auf die Schaltfläche **[!UICONTROL Einstellungen]** in der Aktionsleiste über der Workflow-Arbeitsfläche.
 
 ![](assets/workflow-settings.png)
 
@@ -36,12 +36,12 @@ Der Abschnitt **[!UICONTROL Eigenschaften]** enthält allgemeine Einstellungen, 
 * **[!UICONTROL Verknüpfte Kampagne]**: Dieses Feld wird angezeigt, wenn der Workflow innerhalb einer Kampagne erstellt wurde. Damit können Sie die zugehörige Kampagne öffnen.
 * **[!UICONTROL Zeitzone]**: Definieren Sie eine bestimmte Zeitzone, die standardmäßig für alle Aktivitäten des Workflows verwendet werden soll. Standardmäßig ist die Zeitzone des Workflows die für die aktuelle Campaign-Benutzerin bzw. den aktuellen Campaign-Benutzer definierte Zeitzone.
 Andere mögliche Werte sind:
-   * **Zeitzone des Servers** zur Verwendung der Zeitzone des Adobe Campaign-Anwendungsservers
-   * **Zeitzone des Benutzers** , um die Zeitzone des Adobe Campaign-Benutzers zu verwenden, der den Workflow entsprechend der Definition im Benutzerprofil in der Clientkonsole ausführt.
-   * **Zeitzone der Datenbank** zur Verwendung der Zeitzone des Datenbankservers
+   * **Server-Zeitzone**, um die Zeitzone des Anwendungs-Servers von Adobe Campaign zu verwenden
+   * **Benutzer-Zeitzone**, um die Zeitzone der Benutzerin bzw. des Benutzers von Adobe Campaign zu verwenden, die bzw. der den Workflow entsprechend der Definition im Benutzerprofil in der Client-Konsole ausführt.
+   * **Zeitzone der Datenbank**, um die Zeitzone des Datenbank-Servers zu verwenden.
    * Eine bestimmte Zeitzone
 
-* **[!UICONTROL Supervisor(en)]**: Wenn ein Workflow fehlschlägt, werden die Benutzer der in diesem Feld ausgewählten Benutzergruppe per E-Mail benachrichtigt.
+* **[!UICONTROL Supervisor(en)]**: Wenn ein Workflow fehlschlägt, werden die Benutzenden der in diesem Feld ausgewählten Benutzergruppe per E-Mail benachrichtigt.
 * **[!UICONTROL Beschreibung]**: Verwenden Sie dieses Feld, um eine Beschreibung Ihres Workflows anzugeben.
 
 ## Segmentierungseinstellungen

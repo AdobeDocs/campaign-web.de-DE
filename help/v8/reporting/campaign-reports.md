@@ -4,9 +4,9 @@ title: Kampagnenberichte
 description: Erfahren Sie, wie Sie auf Kampagnenberichte zugreifen und diese verwenden können
 badge: label="Beta"
 source-git-commit: 5307387d63df5ae3af1b849fa0a1181c42cc1879
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1853'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -15,22 +15,22 @@ ht-degree: 87%
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_sending"
 >title="Versandberichte"
->abstract="Der Tab Versand in Ihrem Bericht bietet einen umfassenden Einblick in die Interaktionen Ihrer Besucher mit Ihren Sendungen und mögliche Fehler, die bei ihnen aufgetreten sind."
+>abstract="Auf der Registerkarte „Senden“ Ihres Berichts erhalten Sie einen umfassenden Einblick in die Interaktionen Ihrer Besucherinnen und Besucher mit Ihren Sendungen sowie in etwaige Fehler, die bei ihnen aufgetreten sind."
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_tracking"
 >title="Tracking-Berichte"
->abstract="Der Tab Verfolgung in Ihrem Bericht enthält wertvolle Daten, darunter das Empfängerverhalten pro Link, die Öffnungs- und Klickverteilung sowie detaillierte Informationen zu den am häufigsten angeklickten URLs während eines Versands."
+>abstract="Die Registerkarte „Tracking“ Ihres Berichts enthält wertvolle Daten, darunter das Empfängerverhalten pro Link, die Aufschlüsselung von Öffnungen und Klicks sowie detaillierte Informationen zu den am häufigsten angeklickten URLs während eines Versands."
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_overview"
 >title="Versandübersicht"
->abstract="Die Versandübersicht bietet wichtige Leistungsindikatoren (KPIs), die detaillierte Informationen darüber enthalten, wie Ihre Besucher mit Ihrem E-Mail-Versand interagieren."
+>abstract="Die Versandübersicht bietet wichtige Leistungsindikatoren (KPIs), die detaillierte Informationen darüber enthalten, wie Ihre Besucherinnen und Besucher mit Ihrem E-Mail-Versand interagieren."
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_target"
 >title="Statistiken der ursprünglichen Zielgruppe"
->abstract="In der Tabelle Statistiken der ursprünglichen Zielgruppe werden Daten zu Ihren Empfängern angezeigt"
+>abstract="Die Tabelle „Statistiken der ursprünglichen Zielgruppe“ zeigt Daten zu Ihren Empfängerinnen und Empfängern an"
 
 Der Kampagnenbericht ist in verschiedene Widgets unterteilt, die den Erfolg und die Fehler Ihrer Kampagne detailliert beschreiben.
 
@@ -52,9 +52,9 @@ Um auf Ihren Kampagnenbericht zuzugreifen, klicken Sie im Dashboard Ihrer Kampag
 
   ![](assets/campaign_report_email_1.png)
 
-  +++ Erfahren Sie mehr über die Metriken des E-Mail-Kampagnen-Berichts.
+  +++Erfahren Sie mehr über die Metriken des E-Mail-Kampagnen-Berichts.
 
-   * **[!UICONTROL Gesendete Summe]**: Gesamtzahl der bei der Versandvorbereitung verarbeiteten Nachrichten.
+   * **[!UICONTROL Insgesamt gesendet]**: Gesamtzahl der während der Versandvorbereitung verarbeiteten Nachrichten.
 
    * **[!UICONTROL Zugestellt]**: Anzahl der erfolgreich gesendeten Nachrichten im Verhältnis zur Gesamtzahl der gesendeten Nachrichten.
 
@@ -70,11 +70,11 @@ Um auf Ihren Kampagnenbericht zuzugreifen, klicken Sie im Dashboard Ihrer Kampag
 
   ![](assets/campaign_report_email_2.png)
 
-  +++ Erfahren Sie mehr über die Metriken des E-Mail-Kampagnen-Berichts.
+  +++Erfahren Sie mehr über die Metriken des E-Mail-Kampagnen-Berichts.
 
    * **[!UICONTROL Ursprüngliche Zielgruppe]**: Gesamtzahl der Zielgruppenempfängerinnen und -empfänger.
 
-   * **[!UICONTROL Zu sendende Nachricht]**: Gesamtzahl der nach der Versandvorbereitung zu versendenden Nachrichten.
+   * **[!UICONTROL Zu versendende Nachricht]**: Gesamtzahl der nach erfolgter Versandvorbereitung zu versendenden Nachrichten.
 
    * **[!UICONTROL Aufgrund von Regeln abgelehnt]**: Gesamtzahl der Adressen, die während der Analyse beim Anwenden von Regeln ignoriert wurden: fehlende Adresse, in Quarantäne, auf Blockierungsliste usw.
 
@@ -84,9 +84,9 @@ Um auf Ihren Kampagnenbericht zuzugreifen, klicken Sie im Dashboard Ihrer Kampag
 
   ![](assets/campaign_report_email_3.png)
 
-  +++ Erfahren Sie mehr über die Metriken des E-Mail-Kampagnen-Berichts.
+  +++Erfahren Sie mehr über die Metriken des E-Mail-Kampagnen-Berichts.
 
-   * **[!UICONTROL Zu sendende Nachricht]**: Gesamtzahl der nach der Versandvorbereitung zu versendenden Nachrichten.
+   * **[!UICONTROL Zu versendende Nachricht]**: Gesamtzahl der nach erfolgter Versandvorbereitung zu versendenden Nachrichten.
 
    * **[!UICONTROL Erfolg]**: Anzahl der erfolgreich verarbeiteten Nachrichten im Verhältnis zur Anzahl der zu versendenden Nachrichten.
 
@@ -100,7 +100,7 @@ Um auf Ihren Kampagnenbericht zuzugreifen, klicken Sie im Dashboard Ihrer Kampag
 
   ![](assets/campaign_report_email_4.png)
 
-  +++ Erfahren Sie mehr über die Metriken des E-Mail-Kampagnen-Berichts.
+  +++Erfahren Sie mehr über die Metriken des E-Mail-Kampagnen-Berichts.
 
    * **[!UICONTROL Unterschiedliche Öffnungen (Unique Opens)]**: Gesamtzahl der Zielgruppenempfängerinnen und -empfänger, die mindestens einmal eine Nachricht geöffnet haben.
 
@@ -117,7 +117,7 @@ Um auf Ihren Kampagnenbericht zuzugreifen, klicken Sie im Dashboard Ihrer Kampag
 
   ![](assets/campaign_report_email_5.png)
 
-  +++ Erfahren Sie mehr über die Metriken des E-Mail-Kampagnen-Berichts.
+  +++Erfahren Sie mehr über die Metriken des E-Mail-Kampagnen-Berichts.
 
    * **[!UICONTROL Unterschiedliche Klicks (Unique Clicks)]**: Gesamtzahl der unterschiedlichen Empfängerinnen und Empfänger, die einen Versand mindestens einmal angeklickt haben.
 
@@ -135,13 +135,13 @@ Um auf Ihren Kampagnenbericht zuzugreifen, klicken Sie im Dashboard Ihrer Kampag
 
   ![](assets/campaign_report_email_6.png)
 
-  +++ Erfahren Sie mehr über die Metriken des E-Mail-Kampagnen-Berichts.
+  +++Erfahren Sie mehr über die Metriken des E-Mail-Kampagnen-Berichts.
 
    * **[!UICONTROL Unbekannter Nutzer]**: Fehlertyp, der während des Versands erzeugt wird, um anzuzeigen, dass die E-Mail-Adresse ungültig ist.
 
    * **[!UICONTROL Ungültige Domain]**: Fehlertyp, der beim Senden eines Versands erzeugt wird, um anzuzeigen, dass die Domain der E-Mail-Adresse falsch ist oder nicht existiert.
 
-   * **[!UICONTROL Postfach voll]**: Fehler, der nach fünf fehlgeschlagenen Zustellversuchen erzeugt wird, wenn der Posteingang der Empfänger zu viele Nachrichten enthält.
+   * **[!UICONTROL Postfach voll]**: Fehlertyp, der nach fünf fehlgeschlagenen Versandversuchen erzeugt wird, wenn das Empfängerpostfach zu viele Nachrichten enthält.
 
    * **[!UICONTROL Account deaktiviert]**: Fehlertyp, der beim Senden eines Versands erzeugt wird, um anzuzeigen, dass die Adresse nicht mehr existiert.
 
@@ -149,7 +149,7 @@ Um auf Ihren Kampagnenbericht zuzugreifen, klicken Sie im Dashboard Ihrer Kampag
 
    * **[!UICONTROL Unerreichbar]**: Fehlertyp, der in der Verteilungskette der Nachricht auftritt: Vorfall im SMTP-Relais, Domain vorübergehend unerreichbar, usw.
 
-   * **[!UICONTROL Nicht angemeldet]**: Fehler, wenn das Mobiltelefon des Empfängers bei Versand der Nachricht ausgeschaltet war oder über keinen Netzempfang verfügte.
+   * **[!UICONTROL Nicht angemeldet]**: Fehlertyp, wenn das Mobiltelefon der Empfängerin bzw. des Empfängers zum Zeitpunkt des Versands ausgeschaltet war oder über keinen Netzempfang verfügte.
 
 +++
 
@@ -159,7 +159,7 @@ Um auf Ihren Kampagnenbericht zuzugreifen, klicken Sie im Dashboard Ihrer Kampag
 
   ![](assets/campaign_report_email_7.png)
 
-  +++ Erfahren Sie mehr über die Metriken des E-Mail-Kampagnen-Berichts.
+  +++Erfahren Sie mehr über die Metriken des E-Mail-Kampagnen-Berichts.
 
    * **[!UICONTROL Erfolg]**: Anzahl der erfolgreich verarbeiteten Nachrichten im Verhältnis zur Anzahl der zu versendenden Nachrichten.
 
@@ -178,7 +178,7 @@ Um auf Ihren Kampagnenbericht zuzugreifen, klicken Sie im Dashboard Ihrer Kampag
 
   ![](assets/campaign_report_email_8.png)
 
-  +++ Erfahren Sie mehr über die Metriken des E-Mail-Kampagnen-Berichts.
+  +++Erfahren Sie mehr über die Metriken des E-Mail-Kampagnen-Berichts.
 
    * **[!UICONTROL Gesendet]**: Gesamtzahl der gesendeten Nachrichten.
 
@@ -197,7 +197,7 @@ Um auf Ihren Kampagnenbericht zuzugreifen, klicken Sie im Dashboard Ihrer Kampag
 
   ![](assets/campaign_report_email_9.png)
 
-  +++ Erfahren Sie mehr über die Metriken des E-Mail-Kampagnen-Berichts.
+  +++Erfahren Sie mehr über die Metriken des E-Mail-Kampagnen-Berichts.
 
    * **[!UICONTROL Reaktionsrate]**: Verhältnis der Anzahl an Zielgruppenempfängerinnen und -empfängern, die auf einen Versand geklickt haben, in Bezug zur geschätzten Anzahl der Zielgruppenempfängerinnen und -empfänger, die einen Versand geöffnet haben.
 
@@ -212,7 +212,7 @@ Um auf Ihren Kampagnenbericht zuzugreifen, klicken Sie im Dashboard Ihrer Kampag
 
   ![](assets/campaign_report_email_10.png)
 
-  +++ Erfahren Sie mehr über die Metriken des E-Mail-Kampagnen-Berichts.
+  +++Erfahren Sie mehr über die Metriken des E-Mail-Kampagnen-Berichts.
 
    * **[!UICONTROL Klicks]**: Gesamtzahl der Klicks auf Links in Sendungen.
 
@@ -230,7 +230,7 @@ Um auf Ihren Kampagnenbericht zuzugreifen, klicken Sie im Dashboard Ihrer Kampag
 
   ![](assets/campaign_report_email_12.png)
 
-  +++ Erfahren Sie mehr über die Metriken des E-Mail-Kampagnen-Berichts.
+  +++Erfahren Sie mehr über die Metriken des E-Mail-Kampagnen-Berichts.
 
    * **[!UICONTROL Klicks]**: Gesamtzahl der Klicks auf Links in Sendungen.
 
@@ -246,9 +246,9 @@ Um auf Ihren Kampagnenbericht zuzugreifen, klicken Sie im Dashboard Ihrer Kampag
 
   ![](assets/campaign_report_sms_1.png)
 
-  +++ Erfahren Sie mehr über die Metriken des SMS-Kampagnenberichts.
+  +++Erfahren Sie mehr über die Metriken des SMS-Kampagnenberichts.
 
-   * **[!UICONTROL Gesendete Summe]**: Gesamtzahl der bei der Versandvorbereitung verarbeiteten Nachrichten.
+   * **[!UICONTROL Insgesamt gesendet]**: Gesamtzahl der während der Versandvorbereitung verarbeiteten Nachrichten.
 
    * **[!UICONTROL Zugestellt]**: Anzahl der erfolgreich gesendeten Nachrichten im Verhältnis zur Gesamtzahl der gesendeten Nachrichten.
 
@@ -262,11 +262,11 @@ Um auf Ihren Kampagnenbericht zuzugreifen, klicken Sie im Dashboard Ihrer Kampag
 
   ![](assets/campaign_report_sms_2.png)
 
-  +++ Erfahren Sie mehr über die Metriken des SMS-Kampagnenberichts.
+  +++Erfahren Sie mehr über die Metriken des SMS-Kampagnenberichts.
 
    * **[!UICONTROL Ursprüngliche Zielgruppe]**: Gesamtzahl der Zielgruppenempfängerinnen und -empfänger.
 
-   * **[!UICONTROL Zu sendende Nachricht]**: Gesamtzahl der nach der Versandvorbereitung zu versendenden Nachrichten.
+   * **[!UICONTROL Zu versendende Nachricht]**: Gesamtzahl der nach erfolgter Versandvorbereitung zu versendenden Nachrichten.
 
    * **[!UICONTROL Aufgrund von Regeln abgelehnt]**: Gesamtzahl der Adressen, die während der Analyse beim Anwenden von Regeln ignoriert wurden: fehlende Adresse, in Quarantäne, auf Blockierungsliste usw.
 
@@ -276,9 +276,9 @@ Um auf Ihren Kampagnenbericht zuzugreifen, klicken Sie im Dashboard Ihrer Kampag
 
   ![](assets/campaign_report_sms_3.png)
 
-  +++ Erfahren Sie mehr über die Metriken des SMS-Kampagnenberichts.
+  +++Erfahren Sie mehr über die Metriken des SMS-Kampagnenberichts.
 
-   * **[!UICONTROL Zu sendende Nachricht]**: Gesamtzahl der nach der Versandvorbereitung zu versendenden Nachrichten.
+   * **[!UICONTROL Zu versendende Nachricht]**: Gesamtzahl der nach erfolgter Versandvorbereitung zu versendenden Nachrichten.
 
    * **[!UICONTROL Erfolg]**: Anzahl der erfolgreich verarbeiteten Nachrichten im Verhältnis zur Anzahl der zu versendenden Nachrichten.
 
@@ -292,7 +292,7 @@ Um auf Ihren Kampagnenbericht zuzugreifen, klicken Sie im Dashboard Ihrer Kampag
 
   ![](assets/campaign_report_sms_4.png)
 
-  +++ Erfahren Sie mehr über die Metriken des SMS-Kampagnenberichts.
+  +++Erfahren Sie mehr über die Metriken des SMS-Kampagnenberichts.
 
    * **[!UICONTROL Unterschiedliche Klicks (Unique Clicks)]**: Gesamtzahl der unterschiedlichen Empfängerinnen und Empfänger, die einen Versand mindestens einmal angeklickt haben.
 
@@ -308,9 +308,9 @@ Um auf Ihren Kampagnenbericht zuzugreifen, klicken Sie im Dashboard Ihrer Kampag
 
 * **[!UICONTROL Versandübersicht]**: bietet wichtige Leistungsindikatoren (KPIs), die detaillierte Informationen darüber enthalten, wie Ihre Besucherinnen und Besucher mit Ihrem Push-Benachrichtigungs-Versand interagieren.
 
-  +++ Erfahren Sie mehr über die Metriken des Push-Kampagnenberichts.
+  +++Erfahren Sie mehr über die Metriken des Push-Kampagnenberichts.
 
-   * **[!UICONTROL Gesendete Summe]**: Gesamtzahl der bei der Versandvorbereitung verarbeiteten Nachrichten.
+   * **[!UICONTROL Insgesamt gesendet]**: Gesamtzahl der während der Versandvorbereitung verarbeiteten Nachrichten.
 
    * **[!UICONTROL Zugestellt]**: Anzahl der erfolgreich gesendeten Nachrichten im Verhältnis zur Gesamtzahl der gesendeten Nachrichten.
 
@@ -322,11 +322,11 @@ Um auf Ihren Kampagnenbericht zuzugreifen, klicken Sie im Dashboard Ihrer Kampag
 
 * Die Tabelle **[!UICONTROL Ursprüngliche Zielgruppenstatistiken]** zeigt Daten zu Ihren Empfängerinnen und Empfängern an:
 
-  +++ Erfahren Sie mehr über die Metriken des Push-Kampagnenberichts.
+  +++Erfahren Sie mehr über die Metriken des Push-Kampagnenberichts.
 
    * **[!UICONTROL Ursprüngliche Zielgruppe]**: Gesamtzahl der Zielgruppenempfängerinnen und -empfänger.
 
-   * **[!UICONTROL Zu sendende Nachricht]**: Gesamtzahl der nach der Versandvorbereitung zu versendenden Nachrichten.
+   * **[!UICONTROL Zu versendende Nachricht]**: Gesamtzahl der nach erfolgter Versandvorbereitung zu versendenden Nachrichten.
 
    * **[!UICONTROL Aufgrund von Regeln abgelehnt]**: Gesamtzahl der Adressen, die während der Analyse beim Anwenden von Regeln ignoriert wurden: fehlende Adresse, in Quarantäne, auf Blockierungsliste usw.
 
@@ -334,9 +334,9 @@ Um auf Ihren Kampagnenbericht zuzugreifen, klicken Sie im Dashboard Ihrer Kampag
 
 * Die Tabelle **[!UICONTROL Ausführungsstatistiken]** zeigt den Erfolg Ihres Versands im Detail.
 
-  +++ Erfahren Sie mehr über die Metriken des Push-Kampagnenberichts.
+  +++Erfahren Sie mehr über die Metriken des Push-Kampagnenberichts.
 
-   * **[!UICONTROL Zu sendende Nachricht]**: Gesamtzahl der nach der Versandvorbereitung zu versendenden Nachrichten.
+   * **[!UICONTROL Zu versendende Nachricht]**: Gesamtzahl der nach erfolgter Versandvorbereitung zu versendenden Nachrichten.
 
    * **[!UICONTROL Erfolg]**: Anzahl der erfolgreich verarbeiteten Nachrichten im Verhältnis zur Anzahl der zu versendenden Nachrichten.
 
@@ -348,7 +348,7 @@ Um auf Ihren Kampagnenbericht zuzugreifen, klicken Sie im Dashboard Ihrer Kampag
 
 * Die Tabelle **[!UICONTROL Erzeugte Clickstreams]** zeigt Daten dazu an, wie Ihre Empfängerinnen und Empfänger mit Ihrem Versand interagiert haben:
 
-  +++ Erfahren Sie mehr über die Metriken des Push-Kampagnenberichts.
+  +++Erfahren Sie mehr über die Metriken des Push-Kampagnenberichts.
 
    * **[!UICONTROL Unterschiedliche Klicks (Unique Clicks)]**: Gesamtzahl der unterschiedlichen Empfängerinnen und Empfänger, die einen Versand mindestens einmal angeklickt haben.
 

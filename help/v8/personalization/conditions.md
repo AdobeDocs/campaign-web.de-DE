@@ -8,13 +8,13 @@ level: Beginner
 badge: label="Beta"
 exl-id: b650a859-e27d-4a36-a725-a1f5bb31e014
 source-git-commit: 351b60464d8623c34dea2c19bf86b2fa7b4fa45a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '909'
 ht-degree: 100%
 
 ---
 
-# Bedingte Inhalte erstellen{#add-conditions}
+# Erstellen bedingter Inhalte{#add-conditions}
 
 >[!CONTEXTUALHELP]
 >id="acw_conditional_content"
