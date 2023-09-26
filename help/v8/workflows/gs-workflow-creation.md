@@ -5,9 +5,9 @@ description: Erfahren Sie, wie Sie Workflows mit Adobe Campaign Web erstellen
 badge: label="Beta"
 exl-id: 687b13a4-7ec8-4d07-9d20-53eb4ebefd28
 source-git-commit: 53148300ecb5d52d89875519c44ae979d29a4d76
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '281'
-ht-degree: 57%
+ht-degree: 100%
 
 ---
 
@@ -38,23 +38,23 @@ Jeder Workflow besteht aus:
 
 Campaign bietet zwei Möglichkeiten, einen Workflow zu erstellen:
 
-1. Workflows können als eigenständige Workflows aus dem **Workflows** Menü.
+1. Workflows können als eigenständige Workflows über das Menü **Workflows** erstellt werden.
 
    ![](assets/create-a-standalone-wf.png)
 
-1. Workflows können direkt in einer Kampagne erstellt werden, indem Sie über die **Workflow** der Kampagne. Wenn der Workflow in einer Kampagne enthalten ist, wird er mit allen anderen Kampagnen-Workflows ausgeführt, und die Berichtsmetriken werden alle auf Kampagnenebene gruppiert.
+1. Workflows können direkt in einer Kampagne erstellt werden, und zwar über die Registerkarte **Workflow** der Kampagne. Wenn der Workflow in einer Kampagne enthalten ist, wird er mit allen anderen Kampagnen-Workflows ausgeführt, und die Berichtsmetriken werden alle auf Kampagnenebene gruppiert.
 
    ![](assets/create-a-wf-from-a-campaign.png)
 
 
-Die wichtigsten Schritte zum Erstellen von Workflows sind:
+Die wichtigsten Schritte zum Erstellen von Workflows sehen wie folgt aus:
 
 ![](assets/workflow-creation-process.png)
 
-Diese Schritte werden im folgenden Abschnitt beschrieben:
+Ausführliche Schritte dazu finden Sie im folgenden Abschnitt:
 
-1. [Workflow erstellen und Eigenschaften definieren](create-workflow.md)
-1. [Aktivitäten koordinieren und konfigurieren](orchestrate-activities.md)
-1. [Erweiterte Workflow-Einstellungen konfigurieren](workflow-settings.md)
-1. [Workflow starten und die Ausführung überwachen](start-monitor-workflows.md)
+1. [Erstellen eines Workflows und Definieren seiner Eigenschaften](create-workflow.md)
+1. [Koordinieren und Konfigurieren von Aktivitäten](orchestrate-activities.md)
+1. [Konfigurieren von erweiterten Workflow-Einstellungen](workflow-settings.md)
+1. [Starten des Workflows und Überwachen der Ausführung](start-monitor-workflows.md)
 

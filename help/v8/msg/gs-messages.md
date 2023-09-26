@@ -5,9 +5,9 @@ description: Erfahren Sie, wie Sie Campaign Web verwenden, um mit Sendungen zu a
 badge: label="Beta"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
 source-git-commit: e28b39c391259a06002506410d88245195d0ee8e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1289'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 82%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_list"
 >title="Sendungen"
->abstract="Ein Versand ist eine Kommunikation, die an eine Audience über einen bestimmten Kanal gesendet wird: E-Mail, SMS oder Push-Benachrichtigung. Auf diesem Bildschirm können Sie bestehende Sendungen bearbeiten, duplizieren und löschen. Sie können auch Berichte zu abgeschlossenen Sendungen anzeigen. Klicken Sie auf **Versand erstellen** um einen neuen Versand hinzuzufügen."
+>abstract="Ein Versand ist eine Kommunikation, die an eine Zielgruppe über einen bestimmten Kanal gesendet wird: E-Mail, SMS oder Push-Benachrichtigung. Auf diesem Bildschirm können Sie vorhandene Sendungen bearbeiten, duplizieren und löschen. Sie können außerdem Berichte zu abgeschlossenen Sendungen anzeigen. Klicken Sie auf die Schaltfläche **Versand erstellen**, um einen neuen Versand hinzuzufügen."
 
 Mit Adobe Campaign können Sie Cross-Channel-Kampagnen einschließlich E-Mails, SMS und Push-Benachrichtigungen senden und deren Effektivität mithilfe verschiedener dedizierter Berichte messen.
 
-Diese Nachrichten werden mittels Sendungen entworfen und gesendet und können für jede Empfängerin und jeden Empfänger personalisiert werden. Diese Sendungen können im Rahmen einer Marketingkampagne einzeln oder in Workflows durchgeführt werden.
+Diese Nachrichten werden mittels Sendungen entworfen und gesendet und können für jede Empfängerin und jeden Empfänger personalisiert werden. Diese Sendungen können einzeln oder im Rahmen einer Marketing-Kampagne durch Workflows durchgeführt werden.
 
 Adobe Campaign v8 enthält die folgenden Versandkanäle: E-Mail, SMS und Mobile Apps.
 
@@ -58,7 +58,7 @@ Adobe Campaign v8 enthält die folgenden Versandkanäle: E-Mail, SMS und Mobile 
 
 ## Erstellen eines Versands {#create-delivery}
 
-Sie können eigenständige Sendungen über die **[!UICONTROL Sendungen]** im linken Menü oder im Kontext eines Workflows Sendungen erstellen, die in einer Kampagne enthalten sind oder nicht.
+Sie können eigenständige Sendungen über das linke Menü **[!UICONTROL Sendungen]** oder im Kontext eines Workflows erstellen, egal ob er in einer Kampagne enthalten ist oder nicht.
 
 Auf den folgenden Registerkarten erfahren Sie, wie Sie einen Versand erstellen:
 
@@ -80,18 +80,18 @@ Gehen Sie wie folgt vor, um einen eigenständigen Versand zu erstellen:
 
 1. Definieren Sie die Versandzielgruppe sowohl für die Hauptzielgruppe als auch für die Kontrollgruppe. Weitere Informationen zu Zielgruppen finden Sie in [diesem Abschnitt](../audience/about-recipients.md).
 1. Definieren des Nachrichteninhalts.
-1. (optional) Versand definieren [Zeitplan](#gs-schedule). Wenn kein Zeitplan definiert ist, werden Nachrichten sofort nach dem Klicken auf die Schaltfläche **[!UICONTROL Senden]** gesendet.
+1. (Optional) Definieren Sie den [Zeitplan](#gs-schedule) für den Versand. Wenn kein Zeitplan definiert ist, werden Nachrichten sofort nach dem Klicken auf die Schaltfläche **[!UICONTROL Senden]** gesendet.
 1. Klicken Sie auf die Schaltfläche **[!UICONTROL Überprüfen und senden]**, um Ihre Einstellungen zu überprüfen.
 1. Verwenden Sie die Schaltfläche **[!UICONTROL Inhalt simulieren]**, um Ihren Versand und die Personalisierungseinstellungen zu testen. Weitere Informationen zur Simulation von Nachrichten finden Sie in [diesem Abschnitt](../preview-test/preview-test.md).
 1. Klicken Sie auf die Schaltfläche **[!UICONTROL Vorbereiten]**, um die Zielgruppen-Population zu berechnen und die Nachrichten zu erstellen. Der Vorbereitungsschritt kann einige Minuten dauern. Nach Abschluss der Vorbereitung sind die Nachrichten versandbereit. Im Falle eines Fehlers können Sie zu den **Protokollen** navigieren, um Benachrichtigungen und Warnungen einzusehen.
 1. Überprüfen Sie die Ergebnisse und klicken Sie auf die Schaltfläche **[!UICONTROL Senden]**, um mit dem Senden von Nachrichten zu beginnen.
 1. Sobald Nachrichten gesendet wurden, gehen Sie zum Abschnitt **Berichte**, um auf Schlüsselmetriken zuzugreifen. Weitere Informationen zu Versandberichten finden Sie in [diesem Abschnitt](../reporting/delivery-reports.md).
 
->[!TAB Versand in einem Workflow erstellen]
+>[!TAB Erstellen eines Versands in einem Workflow]
 
 Gehen Sie wie folgt vor, um einen Versand in einem Workflow zu erstellen:
 
-1. Erstellen Sie einen Workflow oder öffnen Sie einen vorhandenen Workflow. Weitere Informationen zu Workflows finden Sie unter [diese Seite](../workflows/gs-workflow-creation.md#gs-workflow-steps)
+1. Erstellen Sie einen neuen Workflow oder öffnen Sie einen vorhandenen. Weitere Informationen zu technischen Workflows finden Sie auf [dieser Seite](../workflows/gs-workflow-creation.md#gs-workflow-steps)
 1. Fügen Sie die Aktivität **[!UICONTROL Zielgruppe aufbauen]** hinzu, konfigurieren Sie sie und klicken Sie auf die Schaltfläche `+`.
 
    ![](assets/add-delivery-in-wf.png)
@@ -144,18 +144,18 @@ Nachdem der Nachrichteninhalt definiert wurde, können Sie eine Vorschau davon a
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_schedule"
->title="Kontaktdatum und -zeit festlegen"
->abstract="Definieren Sie das Datum und den Zeitpunkt des Versands. Indem Sie den günstigsten Zeitpunkt für Ihre Werbenachricht wählen, maximieren Sie die Öffnungsraten."
+>title="Festlegen eines Kontaktdatums und einer Kontaktzeit"
+>abstract="Legen Sie das Datum und die genaue Uhrzeit für Ihren Versand fest. Indem Sie den günstigsten Zeitpunkt für Ihre Werbenachricht wählen, maximieren Sie die Öffnungsraten."
 
-Sie können das Datum und die genaue Uhrzeit des Nachrichtenversands festlegen. Indem Sie den günstigsten Zeitpunkt für Ihre Werbenachricht wählen, maximieren Sie die Öffnungsraten.
+Sie können für das Senden Ihrer Nachrichten das Datum und die genaue Uhrzeit festlegen. Indem Sie den günstigsten Zeitpunkt für Ihre Werbenachricht wählen, maximieren Sie die Öffnungsraten.
 
-Um den Versand eines Versands zu planen, öffnen Sie den Versand und navigieren Sie zum **[!UICONTROL Zeitplan]** Abschnitt. Verwenden Sie die **[!UICONTROL Aktivieren der Planung]** aktivieren und das gewünschte Datum und die gewünschte Uhrzeit für den Versand festlegen. Nach dem Versand beginnt der eigentliche Versand am von Ihnen definierten Kontaktdatum.
+Um einen Versand zeitlich zu planen, öffnen Sie den Versand und navigieren Sie zum Abschnitt **[!UICONTROL Zeitplan]**. Verwenden Sie den Umschalter **[!UICONTROL Zeitplanung aktivieren]**, um dies zu aktivieren, und legen Sie das gewünschte Datum und die gewünschte Uhrzeit für den Versand fest. Nach dem Versand beginnt der eigentliche Versand am von Ihnen definierten Kontaktdatum.
 
 ![](assets/schedule.png)
 
-Standardmäßig ist die Option **[!UICONTROL Bestätigung vor dem Senden aktivieren]** aktiviert. Für diese Option müssen Sie den Versand bestätigen, bevor der Versand zum geplanten Zeitpunkt durchgeführt wird. Wenn Sie den Versand am geplanten Datum und zur geplanten Uhrzeit automatisch durchführen müssen, können Sie diese Option deaktivieren.
+Standardmäßig ist die Option **[!UICONTROL Bestätigung vor dem Senden aktivieren]** aktiviert. Für diese Option müssen Sie das Senden bestätigen, bevor der Versand zum geplanten Zeitpunkt gesendet wird. Wenn Sie den Versand automatisch zum geplanten Zeitpunkt durchführen lassen möchten, können Sie diese Option deaktivieren.
 
-Erfahren Sie, wie Sie einen geplanten Versand in [diesem Abschnitt](../monitor/prepare-send.md#schedule-the-send).
+Erfahren Sie Schritte für die Durchführung eines zeitlich geplanten Versands in [diesem Abschnitt](../monitor/prepare-send.md#schedule-the-send).
 
 ## Überwachung und Trackinglogs {#gs-tracking-logs}
 

@@ -4,9 +4,9 @@ title: Berechtigungsverwaltung in Campaign Web
 description: Erfahren Sie mehr über Berechtigungen in Campaign Web v8
 badge: label="Beta"
 source-git-commit: 5e2af07f54fae9b0d64d173388be14639e6aaaa2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '605'
-ht-degree: 42%
+ht-degree: 100%
 
 ---
 
@@ -16,13 +16,13 @@ ht-degree: 42%
 >[!CONTEXTUALHELP]
 >id="acw_explorer_permissions_create"
 >title="Berechtigung erforderlich"
->abstract="Ihr Administrator muss Ihnen die Berechtigung erteilen, bevor Sie dieses Objekt erstellen können."
+>abstract="Ihre Admins müssen Ihnen die Berechtigung erteilen, bevor Sie ein Segment erstellen können."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_read_only"
 >title="Diese Zielgruppe ist schreibgeschützt"
->abstract="Sie sind nicht berechtigt, diese Zielgruppe zu bearbeiten. Bei Bedarf Admin kontaktieren, um Zugriff zu erhalten."
+>abstract="Sie haben keine Berechtigungen, diese Zielgruppe zu bearbeiten. Bei Bedarf Admin kontaktieren, um Zugriff zu erhalten."
 
 
 >[!CONTEXTUALHELP]
@@ -52,39 +52,39 @@ ht-degree: 42%
 >title="Dieser Workflow ist schreibgeschützt"
 >abstract="Dieser Workflow kann aufgrund einer nicht unterstützten oder nicht kompatiblen Arbeitsfläche nicht bearbeitet werden."
 
-Die Zugriffskontrolle kann den Zugriff auf Objekte und Daten aus Hauptlisten, wie Sendungen, Empfängerinnen bzw. Empfänger oder Workflows, einschränken. Diese Beschränkungen gelten auch für **Explorer** Navigationsstruktur. Darüber hinaus benötigen Sie Berechtigungen zum Erstellen, Löschen, Duplizieren und Bearbeiten von Objekten über die Benutzeroberfläche.
+Die Zugriffskontrolle kann den Zugriff auf Objekte und Daten aus Hauptlisten, wie Sendungen, Empfängerinnen bzw. Empfänger oder Workflows, einschränken. Diese Einschränkungen gelten auch für die **Navigationsstruktur** des Explorers. Darüber hinaus benötigen Sie Berechtigungen zum Erstellen, Löschen, Duplizieren und Bearbeiten von Objekten über die Benutzeroberfläche.
 
-Die Zugriffskontrolle wird in der Campaign Client Console verwaltet. Alle Berechtigungen in Campaign Web werden mit den Berechtigungen der Campaign-Client-Konsole synchronisiert. Nur Campaign-Admins können Benutzerberechtigungen definieren und ändern. Weitere Informationen zu Benutzerberechtigungen finden Sie in der [Dokumentation zu Campaign v8 (Client-Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/admin/permissions/gs-permissions.html?lang=de){target="_blank"}.
+Die Zugriffskontrolle wird in der Client-Konsole von Campaign verwaltet. Alle Berechtigungen in Campaign Web werden mit den Berechtigungen der Campaign-Client-Konsole synchronisiert. Nur Campaign-Admins können Benutzerberechtigungen definieren und ändern. Weitere Informationen zu Benutzerberechtigungen finden Sie in der [Dokumentation zu Campaign v8 (Client-Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/admin/permissions/gs-permissions.html?lang=de){target="_blank"}.
 
-Wenn Sie die Campaign-Webbenutzeroberfläche durchsuchen, können Sie abhängig von Ihren Berechtigungen auf Daten, Objekte und Funktionen zugreifen. Wenn Sie beispielsweise keine Zugriffsberechtigungen für einen Ordner haben, können Sie ihn nicht sehen. Ihre Berechtigungen wirken sich auch auf die Objekte- und Datenverwaltung aus. Ohne Schreibberechtigungen für einen bestimmten Ordner können Sie einen Versand nicht in diesem Ordner erstellen, selbst wenn er in der Benutzeroberfläche angezeigt wird.
+Wenn Sie die Benutzeroberfläche von Campaign Web durchsuchen, können Sie abhängig von Ihren Berechtigungen auf Daten, Objekte und Funktionen zugreifen. Wenn Sie beispielsweise keine Zugriffsberechtigungen für einen Ordner haben, können Sie ihn nicht sehen. Ihre Berechtigungen wirken sich auch auf die Objekte- und Datenverwaltung aus. Ohne Schreibberechtigungen für einen bestimmten Ordner können Sie einen Versand nicht in diesem Ordner erstellen, selbst wenn er in der Benutzeroberfläche angezeigt wird.
 
-## Berechtigungen anzeigen {#view-permissions}
+## Anzeigen von Berechtigungen {#view-permissions}
 
-Aus dem **Explorer** können Sie die Berechtigungen für die einzelnen Ordner durchsuchen. Diese Berechtigungen werden in der Clientkonsole festgelegt und zum Organisieren und Steuern des Zugriffs auf Campaign-Daten verwendet.
+Im **Explorer** können Sie die Berechtigungen für die einzelnen Ordner durchsuchen. Diese Berechtigungen werden in der Client-Konsole festgelegt und zum Organisieren und Steuern des Zugriffs auf Campaign-Daten verwendet.
 
 Gehen Sie wie folgt vor, um Berechtigungen für einen Ordner anzuzeigen:
 
-1. Aus dem **Explorer** Wählen Sie im linken Navigationsmenü einen Ordner aus.
-1. Klicken Sie auf die drei Punkte oben rechts und wählen Sie **Ordnerberechtigungen**.
+1. Wählen Sie im linken Navigationsmenü des **Explorers** einen Ordner aus.
+1. Klicken Sie auf die drei Punkte oben rechts und wählen Sie **Ordnerberechtigungen** aus.
 
    ![](assets/permissions-view-menu.png){width="70%" align="left" zoomable="yes"}
 
-1. Überprüfen Sie die Details im Bildschirm wie unten gezeigt:
+1. Überprüfen Sie die Details im Bildschirm, wie im Folgenden gezeigt:
 
    ![](assets/permissions-view-screen.png){width="70%" align="left" zoomable="yes"}
 
-   Eine Gruppe oder ein Benutzer kann Lese-, Schreib- und/oder Löschberechtigungen für Daten erhalten, die im ausgewählten Ordner gespeichert sind.
+   Eine Gruppe oder eine Benutzerin bzw. ein Benutzer kann Lese-, Schreib- und/oder Löschberechtigungen für Daten erhalten, die im ausgewählten Ordner gespeichert sind.
 
-   Wenn die Variable **Propagat** aktiviert ist, werden alle für einen Ordner definierten Berechtigungen auf alle zugehörigen Unterordner angewendet. Diese Berechtigungen können für jeden Unterordner überschrieben werden.
+   Wenn die Variable **Ausdehnen** aktiviert ist, werden alle für einen Ordner definierten Berechtigungen auf alle zugehörigen Unterordner angewendet. Diese Berechtigungen können für jeden Unterordner überschrieben werden.
 
-   Wenn die Variable **Systemordner** aktiviert ist, ist der Zugriff für alle Benutzer unabhängig von deren Berechtigungen zulässig.
+   Wenn die Option **Systemordner** aktiviert ist, haben alle Benutzenden Zugriff, unabhängig von ihren Berechtigungen.
 
-Erfahren Sie mehr über die Ordnerberechtigungen in [Dokumentation zu Campaign v8 (Clientkonsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/admin/permissions/folder-permissions.html){target="_blank"}.
+Weitere Informationen zu Benutzerberechtigungen finden Sie in der [Dokumentation zu Campaign v8 (Client-Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/admin/permissions/folder-permissions.html?lang=de){target="_blank"}.
 
 
 ## Arbeiten mit Ordnern {#folders}
 
-Sie können Ordner erstellen, umbenennen, neu anordnen und verschieben, um Ihre Komponenten und Daten zu organisieren. Sie können Ordner auch aus demselben Menü löschen.
+Sie können Ordner erstellen, umbenennen, neu anordnen und verschieben, um Ihre Komponenten und Daten zu organisieren. Über das gleiche Menü können Sie auch Ordner löschen.
 
 >[!CAUTION]
 >
@@ -92,13 +92,13 @@ Sie können Ordner erstellen, umbenennen, neu anordnen und verschieben, um Ihre 
 
 Gehen Sie wie folgt vor, um einen Ordner zu erstellen:
 
-1. Aus dem **Explorer** Wählen Sie im linken Navigationsmenü einen Ordner aus.
-1. Klicken Sie auf die drei Punkte oben rechts und wählen Sie **Erstellen neuer Unterordner**.
+1. Wählen Sie im linken Navigationsmenü des **Explorers** einen Ordner aus.
+1. Klicken Sie auf die drei Punkte oben rechts und wählen Sie **Neuen Unterordner erstellen** aus.
 1. Geben Sie den Namen des Ordners ein und speichern Sie ihn.
 
    ![](assets/create-new-subfolder.png){width="70%" align="left" zoomable="yes"}
 
-   Der Ordner wird als Unterordner des aktuellen Ordners hinzugefügt. Navigieren Sie zu diesem neuen Ordner, um Komponenten direkt darin zu erstellen. Sie können eine Komponente auch aus einem beliebigen Ordner erstellen und in diesem neuen Ordner speichern, indem Sie die **Zusätzliche Optionen** -Abschnitt der Eigenschaften, wie unten für einen Versand dargestellt:
+   Der Ordner wird als Unterordner des aktuellen Ordners hinzugefügt. Navigieren Sie zu diesem neuen Ordner, um Komponenten direkt darin zu erstellen. Sie können auch eine Komponente aus einem Ordner erstellen und sie in dem neuen Ordner speichern, und zwar über den Abschnitt **Zusätzliche Optionen** der Eigenschaften, wie unten für einen Versand dargestellt:
 
    ![](assets/delivery-properties-folder.png){width="70%" align="left" zoomable="yes"}
 

@@ -4,9 +4,9 @@ title: Durchsuchen, Suchen und Filtern von Listen
 description: Erfahren Sie, wie Sie Listen in Campaign Web v8 durchsuchen und filtern
 badge: label="Beta"
 source-git-commit: 8612e29aa16bce609a822e42d15e2f92a6874383
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '448'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -51,7 +51,7 @@ Sie können beispielsweise Sendungen nach Status, Kanal, Kontaktdatum oder Ordne
 
 ## Benutzerdefinierte Filter{#list-custom-filters}
 
-Um benutzerdefinierte Datenfilter zu erstellen, navigieren Sie zum unteren Rand der Filter und klicken Sie auf die Schaltfläche **Regeln hinzufügen** -Schaltfläche, um auf den Regel-Builder zuzugreifen.
+Um benutzerdefinierte Datenfilter zu erstellen, navigieren Sie zum unteren Rand der Filter und klicken Sie auf die Schaltfläche **Regeln hinzufügen**, um auf den Regel-Builder zuzugreifen.
 
 Ziehen Sie auf dem Bildschirm **Erweiterte Filter** Attribute per Drag-and-Drop, um Ihre Filterkriterien zu erstellen.
 
@@ -59,14 +59,14 @@ Ziehen Sie auf dem Bildschirm **Erweiterte Filter** Attribute per Drag-and-Drop,
 
 Verwenden Sie den Umschalter **Erweiterte Attribute anzeigen**, um alle Attribute für die aktuelle Liste anzuzeigen. [Weitere Informationen](#adv-attributes)
 
-Das Prinzip des Regel-Builders für benutzerdefinierte Filter ähnelt dem Regel-Builder, der zum Erstellen von Zielgruppen verwendet wird. Ausführliche Informationen zur Verwendung des Arzneimittels finden Sie im Abschnitt [Dokumentation zu Zielgruppen](../audience/segment-builder.md).
+Das Arbeitsprinzip des Regel-Builders für benutzerdefinierte Filter ähnelt dem Regel-Builder, der zum Erstellen von Zielgruppen verwendet wird. Ausführliche Informationen dazu, wie der Regel-Builder verwendet wird, finden Sie in der [Dokumentation zu Zielgruppen](../audience/segment-builder.md).
 
 ## Verwenden von erweiterten Attributen {#adv-attributes}
 
 >[!CONTEXTUALHELP]
 >id="acw_attributepicker_advancedfields"
 >title="Anzeigen von erweiterten Attributen"
->abstract="In der Attributliste werden standardmäßig nur die häufigsten Attribute angezeigt. Verwenden Sie diesen Umschalter, um erweiterte Attribute anzuzeigen."
+>abstract="In der Attributliste werden standardmäßig nur die häufigsten Attribute angezeigt. Verwenden Sie diesen Umschalter, um die erweiterten Attribute anzuzeigen."
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_advancedfields"
