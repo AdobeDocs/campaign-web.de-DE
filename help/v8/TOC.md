@@ -8,7 +8,7 @@ hide: true
 source-git-commit: 424caa898ff9d73f3520aa6d682eb1963d992069
 workflow-type: tm+mt
 source-wordcount: '422'
-ht-degree: 82%
+ht-degree: 93%
 
 ---
 
@@ -24,9 +24,9 @@ ht-degree: 82%
    + [Durchsuchen, Suchen und Filtern von Listen](get-started/list-filters.md)
    + [Arbeiten mit vordefinierten Filtern](get-started/predefined-filters.md)
    + [Zugriff und Berechtigungen](get-started/permissions.md)
-   + [Limits und Einschränkungen](get-started/guardrails.md)
+   + [Schutzmechanismen und Einschränkungen](get-started/guardrails.md)
    + [Nicht unterstützte Funktionen](get-started/unsupported.md)
-   + [Hilfe und Anleitung finden](get-started/using-ai.md)
+   + [Hilfe und Anleitung](get-started/using-ai.md)
 + Nachrichten und Sendungen {#msg}
    + [Erste Schritte mit Nachrichten](msg/gs-messages.md)
    + [Arbeiten mit Versandvorlagen](msg/delivery-template.md)
@@ -48,8 +48,8 @@ ht-degree: 82%
             + [Erstellen der Textversion](content/text-version-email.md)
          + Inhaltsassistent {#content-assistant}
             + [Erste Schritte mit dem Inhaltsassistenten](content/generative-gs.md)
-            + [Texterstellung mit dem Inhaltsassistenten](content/generative-content.md)
-            + [Generieren von Bildern mit dem Inhaltsassistenten](content/generative-image.md)
+            + [Textgenerierung mit dem Inhaltsassistenten](content/generative-content.md)
+            + [Bildgenerierung mit dem Inhaltsassistenten](content/generative-image.md)
             + [E-Mail-Generierung mit dem Inhaltsassistenten](content/generative-email.md)
          + Gestalten von Inhalten {#style}
             + [Erste Schritte mit E-Mail-Stil](content/get-started-email-style.md)
@@ -83,8 +83,8 @@ ht-degree: 82%
       + [Vorschau des Nachrichteninhalts](preview-test/preview-content.md)
       + [Durchführen von Testsendungen](preview-test/test-deliveries.md)
       + [Rendern Ihrer E-Mail](preview-test/email-rendering.md)
-+ Audiences und Empfänger {#audiences}
-   + [Arbeiten mit Empfängern und Zielgruppen](audience/about-recipients.md)
++ Zielgruppen und Empfängerinnen bzw. Empfänger {#audiences}
+   + [Arbeiten mit Empfängerinnen bzw. Empfängern und Zielgruppen](audience/about-recipients.md)
    + [Audiences erstellen](audience/create-audience.md)
    + Empfänger des Versands auswählen {#target-audiences}
       + [Auswählen einer bestehenden Zielgruppe](audience/add-audience.md)
@@ -95,7 +95,7 @@ ht-degree: 82%
    + [Zielgruppen überwachen und verwalten](audience/manage-audience.md)
    + Arbeiten mit Abonnementdiensten {#work-with-services}
       + [Verwalten von Diensten](audience/manage-services.md)
-      + [Abonnenten verwalten](audience/manage-subscribers.md)
+      + [Verwalten von Abonnenten](audience/manage-subscribers.md)
 + Cross-Channel-Kampagnen {#campaigns}
    + [Erste Schritte mit Kampagnen](campaigns/gs-campaigns.md)
    + [Zugreifen auf und Verwalten von Kampagnen](campaigns/manage-campaigns.md)
@@ -113,19 +113,19 @@ ht-degree: 82%
       + [Über Workflow-Aktivitäten](workflows/activities/about-activities.md)
       + [Und-Verknüpfung](workflows/activities/and-join.md)
       + [Aufbauen einer Zielgruppe](workflows/activities/build-audience.md)
-      + [Ändern der Dimension](workflows/activities/change-dimension.md)
+      + [Dimensionsänderung](workflows/activities/change-dimension.md)
       + [Kombinieren](workflows/activities/combine.md)
       + [Deduplizierung](workflows/activities/deduplication.md)
       + [E-Mail, SMS, Push](workflows/activities/channels.md)
       + [Anreicherung](workflows/activities/enrichment.md)
       + [Verzweigung](workflows/activities/fork.md)
-      + [Audience-Speicherung](workflows/activities/save-audience.md)
+      + [Zielgruppe speichern](workflows/activities/save-audience.md)
       + [Planung](workflows/activities/scheduler.md)
       + [Aufspaltung](workflows/activities/split.md)
       + [Warten](workflows/activities/wait.md)
 + Reporting {#reports}
    + [Erste Schritte mit Berichten](reporting/gs-reports.md)
-   + [Wichtige Leistungsindikatoren (KPIs)](reporting/kpis.md)
+   + [Wichtige Leistungsindikatoren](reporting/kpis.md)
    + Versandberichte {#delivery-report}
       + [Zugreifen auf Versandberichte](reporting/delivery-reports.md)
       + [E-Mail-Versandbericht](reporting/email-report.md)

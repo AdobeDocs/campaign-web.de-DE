@@ -7,7 +7,7 @@ badge: label="Beta"
 source-git-commit: 943f328d33ba482a4264386cf17e73b32fbe47de
 workflow-type: tm+mt
 source-wordcount: '1263'
-ht-degree: 73%
+ht-degree: 95%
 
 ---
 
@@ -28,7 +28,7 @@ Die neue Web-Oberfläche von Campaign v8 bietet ein modernes und intuitives Benu
 
 ## Linkes Navigationsmenü {#user-interface-left-nav}
 
-Mithilfe der Links auf der linken Seite können Sie auf die Campaign v8 Web-Funktionen zugreifen. Mehrere Links zeigen Listen von Objekten an, die sortiert und gefiltert werden können. Sie können auch Spalten so konfigurieren, dass alle benötigten Informationen angezeigt werden. Weitere Informationen finden Sie in [diesem Abschnitt](#list-screens). Einige Listenbildschirme sind schreibgeschützt. Die im linken Navigationsmenü und in den Listen angezeigten Elemente hängen von Ihren Benutzerberechtigungen ab. Weiterführende Informationen zu Berechtigungen finden Sie in [diesem Abschnitt](permissions.md).
+Mithilfe der Links auf der linken Seite können Sie auf die Campaign v8 Web-Funktionen zugreifen. Mehrere Links zeigen Listen von Objekten an, die sortiert und gefiltert werden können. Sie können auch Spalten so konfigurieren, dass alle benötigten Informationen angezeigt werden. Weitere Informationen finden Sie in [diesem Abschnitt](#list-screens). Einige Listenbildschirme sind schreibgeschützt. Welche Elemente im linken Navigationsmenü und in den Listen angezeigt werden, hängt von Ihren Benutzerberechtigungen ab. Weiterführende Informationen zu Berechtigungen finden Sie in [diesem Abschnitt](permissions.md).
 
 ![](assets/home.png)
 
@@ -38,7 +38,7 @@ Dieser Bildschirm enthält wichtige Links und Ressourcen für den Schnellzugriff
 
 Die Liste **Zuletzt ausgewertet** enthält Verknüpfungen zu den kürzlich erstellten und geänderten Sendungen. Diese Liste zeigt den Kanal, den Status, die Besitzerin bzw. den Besitzer sowie das Erstellungs- und Änderungsdatum.
 
-Die **wichtigen Leistungsindikatoren** ermöglichen es Ihnen, die Effektivität Ihrer Plattform mithilfe gängiger KPIs zu überprüfen. Weitere Informationen zu diesen KPIs finden Sie unter [diese Seite](../reporting/kpis.md).
+Die **wichtigen Leistungsindikatoren** ermöglichen es Ihnen, die Effektivität Ihrer Plattform mithilfe gängiger KPIs zu überprüfen. Weitere Informationen über diese KPIs finden Sie auf [dieser Seite](../reporting/kpis.md).
 
 Greifen Sie über den Abschnitt **Lernen** auf der Startseite auf die wichtigsten Hilfeseiten von Campaign v8 Web zu.
 
@@ -51,7 +51,7 @@ Greifen Sie über den Abschnitt **Lernen** auf der Startseite auf die wichtigste
 
 Das Menü **Explorer** zeigt alle Campaign-Ressourcen und -Objekte mit derselben Ordnerhierarchie an wie in der Client-Konsole. Durchsuchen Sie alle Ihre Komponenten, Ordner und Schemata in Campaign v8 und erstellen Sie Sendungen, Workflows und Kampagnen.
 
-Die in der **Explorer** hängen von Ihren Benutzerberechtigungen ab. Wenn Sie über entsprechende Berechtigungen verfügen, können Sie auch Ordner und Unterordner hinzufügen. Weiterführende Informationen zu Berechtigungen finden Sie in [diesem Abschnitt](permissions.md).
+Welche Elemente im **Explorer** angezeigt werden, hängt von Ihren Benutzerberechtigungen ab. Wenn Sie über entsprechende Berechtigungen verfügen, können Sie auch Ordner und Unterordner hinzufügen. Weiterführende Informationen zu Berechtigungen finden Sie in [diesem Abschnitt](permissions.md).
 
 Wie bei jedem Listenbildschirm können Sie die Spalten so konfigurieren, dass alle von Ihnen benötigten Informationen angezeigt werden. Weitere Informationen finden Sie in [diesem Abschnitt](#list-screens).
 
@@ -74,10 +74,10 @@ Im Abschnitt KAMPAGNEN-MANAGEMENT haben Sie Zugriff auf Marketing-Kampagnen, Sen
 
 ### Kunden-Management {#user-interface-customer-management}
 
-Im Bereich KUNDENVERWALTUNG können Sie Ihre Empfängerinnen und Empfänger, Zielgruppen und Abonnements anzeigen. Diese Listen sind schreibgeschützt.
+Im Abschnitt KUNDEN-MANAGEMENT können Sie Ihre Empfängerinnen und Empfänger, Zielgruppen und Abonnements anzeigen. Diese Listen sind schreibgeschützt.
 
-* **Empfänger**: Greifen Sie auf Ihre Empfängerdatenbank zu. Standardmäßig können Sie die E-Mail-Adresse sowie den Vor- und Nachnamen sehen. Weitere Informationen zu Empfängern finden Sie in [diesem Abschnitt](../audience/about-recipients.md).
-* **Zielgruppen**: Dies ist die Liste Ihrer Zielgruppen. Standardmäßig können Sie den Typ, die Herkunft, das Erstellungsdatum/Datum der letzten Änderung und die Kennzeichnung sehen. Sie können die Liste nach Herkunft filtern. Weitere Informationen zu Zielgruppen und Listen finden Sie unter [diesem Abschnitt](../audience/about-recipients.md).
+* **Empfänger**: Greifen Sie auf Ihre Empfängerdatenbank zu. Standardmäßig können Sie die E-Mail-Adresse sowie den Vor- und Nachnamen sehen. Weitere Informationen zu Empfängerinnen und Empfängern finden Sie in [diesem Abschnitt](../audience/about-recipients.md).
+* **Zielgruppen**: Dies ist die Liste Ihrer Zielgruppen. Standardmäßig können Sie den Typ, die Herkunft, das Erstellungsdatum/Datum der letzten Änderung und die Kennzeichnung sehen. Sie können die Liste nach Herkunft filtern. Weitere Informationen zu Zielgruppen und Listen finden Sie in [diesem Abschnitt](../audience/about-recipients.md).
 * **Abonnements**: Durchsuchen Sie Ihre Abonnements. Standardmäßig können Sie den Typ, den Modus und die Kennzeichnung sehen. Erfahren Sie mehr über die Verwaltung von Abonnements und Abmeldungen in der [Dokumentation zu Adobe Campaign v8 (Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/subscriptions.html?lang=de){target="_blank"}.
 
 ### Entscheidungs-Management {#decision-management}
@@ -85,20 +85,20 @@ Im Bereich KUNDENVERWALTUNG können Sie Ihre Empfängerinnen und Empfänger, Zie
 >[!CONTEXTUALHELP]
 >id="acw_offers_list"
 >title="Angebote"
->abstract="Durchsuchen Sie die Listen mit Angeboten und Angebotsvorlagen, die in der Konsole mithilfe der **Interaction** -Modul. Diese Listen sind schreibgeschützt."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/offers.html" text="Hinzufügen von Angeboten zu einem Versand"
+>abstract="Durchsuchen Sie die Listen mit Angeboten und Angebotsvorlagen, die in der Konsole erstellt wurden, mithilfe des Moduls **Interaktion**. Diese Listen sind schreibgeschützt."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/offers.html?lang=de" text="Hinzufügen von Angeboten zu einem Versand"
 
-Im Bereich DECISION MANAGEMENT können Sie die Angebote und Angebotsvorlagen anzeigen. Diese Listen sind schreibgeschützt.
+Im Abschnitt ENTSCHEIDUNGS-MANAGEMENT können Sie die Angebote und Angebotsvorlagen anzeigen. Diese Listen sind schreibgeschützt.
 
-* **Angebote** - Durchsuchen Sie die Liste der Angebote und Angebotsvorlagen, die in der Konsole mithilfe der **Interaction** -Modul. Standardmäßig können Sie den Status, das Start-/Enddatum und die Umgebung sehen. Sie können die Liste nach Status oder Start-/Enddatum filtern. Angebotsvorlagen sind ebenfalls verfügbar.
+* **Angebote** – Durchsuchen Sie die Liste der Angebote und Angebotsvorlagen, die in der Konsole erstellt wurden, mithilfe des Moduls **Interaktion**. Standardmäßig können Sie den Status, das Start-/Enddatum und die Umgebung sehen. Sie können die Liste nach Status oder Start-/Enddatum filtern. Angebotsvorlagen sind ebenfalls verfügbar.
 
-Erfahren Sie, wie Sie Angebote in E-Mails und SMS erstellen und senden in [diesem Abschnitt](../content/offers.md).
+Erfahren Sie, wie Sie in E-Mails und SMS Angebote erstellen und senden, in [diesem Abschnitt](../content/offers.md).
 
 ## Obere Leiste {#top-bar}
 
 Verwenden Sie die obere Leiste der Benutzeroberfläche, um folgende Aktionen durchzuführen:
 
-* Feedback als Beta-Tester freigeben
+* Freigeben Ihres Feedbacks als Beta-Testerin oder Beta-Tester
 * zwischen Organisationen und Instanzen wechseln
 * zwischen Adobe Experience Cloud-Anwendungen wechseln
 * auf Hilfeseiten zugreifen, den Support kontaktieren und Feedback geben. Sie können Hilfe-Artikel und Videos mithilfe des Suchfelds suchen.
@@ -117,7 +117,7 @@ Eine kontextuelle Hilfe ist in der Benutzeroberfläche verfügbar. Wenn verfügb
 
 Mit der neuen Beta-Version wird die **KI-gestützter Knowledge Assistant** eingebettet in die kontextuelle Hilfe revolutioniert die Dokumentationssuche und Beantwortung von Fragen durch mühelose Durchblättern von umfangreichen Dokumentations-Repositorys und zeigt sofort die benötigten Informationen an.
 
-Dank der Funktionen von Campaign Gen AI verändert dieser Assistent Ihr Erlebnis, indem er Informationen abruft und Probleme löst. Unabhängig davon, ob Sie in einer komplexen Aufgabe Anleitungen suchen oder ob Sie in umfangreichen Dokumenten navigieren, ist unser KI-gestützter Knowledge Assistant Ihr ultimativer Begleiter, der Ihnen bei jeder Interaktion eine unübertroffene Effizienz und Genauigkeit bietet.
+Dank der Funktionen der generativen KI von Campaign verwandelt dieser Assistent Ihr Erlebnis völlig und macht das Abrufen von Informationen und die Problembehebung zu einem Kinderspiel. Unabhängig davon, ob Sie in einer komplexen Aufgabe Anleitungen suchen oder ob Sie in umfangreichen Dokumenten navigieren, ist unser KI-gestützter Knowledge Assistant Ihr ultimativer Begleiter, der Ihnen bei jeder Interaktion eine unübertroffene Effizienz und Genauigkeit bietet.
 
 Weiterführende Informationen finden Sie in [diesem Abschnitt](using-ai.md).
 
@@ -141,7 +141,7 @@ Campaign v8 Web ist derzeit in den folgenden Sprachen verfügbar:
 * Traditionelles Chinesisch – CHT
 
 
-Ihre Standardsprache für Campaign Web wird von der in Ihrem Benutzerprofil angegebenen bevorzugten Sprache bestimmt. Sie bezieht sich nicht auf die Sprache Ihres Campaign-Servers und Ihrer Client-Konsole.
+Die Standardsprache von Campaign Web wird durch die in Ihrem Benutzerprofil angegebene bevorzugte Sprache bestimmt. Sie ist unabhängig von der Sprache Ihres Campaign-Servers und Ihrer Client-Konsole.
 
 So ändern Sie Ihre Sprache:
 
@@ -151,7 +151,7 @@ So ändern Sie Ihre Sprache:
 
 ## Dunkles Design {#dark-theme}
 
-Sie können über Ihr Profilsymbol zum dunklen Design wechseln. Verwenden Sie die **Dunkles Thema** aktivieren/deaktivieren.
+Sie können über Ihr Profilsymbol zum dunklen Design wechseln. Sie können es über den Umschalter **Dunkles Design** aktivieren/deaktivieren.
 
 ## Weitere Informationen {#learn-more}
 
@@ -186,12 +186,12 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_sending"
 >title="Senden von globalen Berichten"
->abstract="In diesem Bildschirm werden Tracking-Berichtsmetriken angezeigt"
+>abstract="Auf diesem Bildschirm werden Tracking-Berichtsmetriken angezeigt"
 
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_tracking"
 >title="Tracking globaler Berichte"
->abstract="In diesem Bildschirm werden Tracking-Berichtsmetriken angezeigt"
+>abstract="Auf diesem Bildschirm werden Tracking-Berichtsmetriken angezeigt"
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_workflow_list"
