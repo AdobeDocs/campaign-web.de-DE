@@ -4,15 +4,21 @@ title: Neue Funktionen in Campaign Web v8
 description: Entdecken Sie neue Funktionen von Campaign Web v8.
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Beta"
-source-git-commit: f1351a4955605b82c6eddef441f3f76ec4850d9d
-workflow-type: ht
-source-wordcount: '1016'
-ht-degree: 100%
+source-git-commit: 21436695f6f4bc9e99bb7983e4705cbbe40f07eb
+workflow-type: tm+mt
+source-wordcount: '1062'
+ht-degree: 98%
 
 ---
 
 
 # Neue Funktionen {#new}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_card1"
+>title="Neue Funktionen"
+>abstract="Unsere neueste Version enthält intuitive Funktionen, die es einfacher machen, personalisierte kanalübergreifende Kampagnen zu erstellen und außergewöhnliche Ergebnisse zu erzielen, und die Ihnen einen Wettbewerbsvorteil über alle Kanäle hinweg bieten."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/start/using-ai.html" text="Hier erhalten Sie Anleitungen mit dem neuen KI-gestützten Knowledge Assistant."
 
 Wir freuen uns, die BETA-Version der Web-Benutzeroberfläche von Adobe Campaign vorstellen zu können. Unsere neueste Version enthält intuitive Funktionen, die es einfacher machen, personalisierte kanalübergreifende Kampagnen zu erstellen und außergewöhnliche Ergebnisse zu erzielen, und die Ihnen einen Wettbewerbsvorteil über alle Kanäle hinweg bieten.
 
