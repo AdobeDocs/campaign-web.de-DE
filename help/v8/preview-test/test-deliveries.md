@@ -4,10 +4,10 @@ title: Durchführen von Testsendungen
 description: Erfahren Sie, wie Sie Testsendungen definieren und durchführen.
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Beta"
-source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
+source-git-commit: f5e7f354735416f828d4b0e065cb8c424a9b4fc8
 workflow-type: tm+mt
-source-wordcount: '1032'
-ht-degree: 100%
+source-wordcount: '1145'
+ht-degree: 84%
 
 ---
 
@@ -18,11 +18,9 @@ ht-degree: 100%
 >title="Vorschaumodus"
 >abstract="Erstellen Sie eine Vorschau und testen Sie die Nachricht, indem Sie die Testpopulation zur Hauptzielgruppe hinzufügen."
 
-**[!UICONTROL Adobe Campaign]** ermöglicht es Ihnen, eine Nachricht zu testen, bevor Sie sie an die Hauptzielgruppe senden.
+Nachdem der Nachrichteninhalt definiert wurde, können Sie ihn in der Vorschau ansehen und testen, indem Sie Testsendungen (auch Testsendungen genannt) durchführen. &#39;proofs&#39;), um Profile zu testen. Wenn Sie personalisierte Inhalte eingefügt haben, können Sie mithilfe von Testprofildaten überprüfen, wie diese Inhalte in der Nachricht angezeigt werden.
 
-Testsendungen (früher als „Testversand“ bezeichnet) sind ein wichtiger Schritt bei der Validierung Ihrer Kampagne und Identifizierung potenzieller Probleme.
-
-Die Empfängerinnen und Empfänger eines Tests können verschiedene Elemente wie Links, Opt-out-Links, Bilder oder Mirrorseiten überprüfen sowie Fehler bei Rendering, Inhalt, Personalisierungseinstellungen und Versandkonfiguration erkennen.
+Um mögliche Fehler im Nachrichteninhalt oder in den Personalisierungseinstellungen zu erkennen, senden Sie Testnachrichten an Testprofile, bevor Sie sie an die Zielgruppe senden. Bei jeder Änderung sollte eine Testnachricht gesendet werden, um den neuesten Inhalt zu validieren. Testsendungen (früher als „Testversand“ bezeichnet) sind ein wichtiger Schritt bei der Validierung Ihrer Kampagne und Identifizierung potenzieller Probleme. Die Empfänger einer Testnachricht können verschiedene Elemente wie Links, Opt-out-Links, Bilder oder Mirrorseiten prüfen sowie Fehler in Rendering, Inhalt, Personalisierungseinstellungen und Versandkonfiguration erkennen.
 
 ## Auswählen der Empfängerinnen und Empfänger des Tests {#test-recipients}
 
@@ -58,6 +56,10 @@ Um die Empfängerinnen und Empfänger für einen Testversand auszuwählen, gehen
 >title="Vorlagendatei"
 >abstract="Hinweis: Die Formatierung der Datei muss mit der Originaldatei übereinstimmen.<br/>Unterstützte Dateiformate: txt, csv. Maximale Dateigröße: 15 MB. Verwenden Sie die erste Zeile für Spaltentitel."
 
+
+Testprofile sind Testadressen, also zusätzliche Empfänger in der Datenbank. Sie können im [!DNL Adobe Campaign] Client-Konsole in **[!UICONTROL Ressourcen]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Testadressen]** Ordner. Die Schritte zum Senden von Testnachrichten an Testadressen werden nachfolgend beschrieben.
+
+
 1. Navigieren Sie zum Bildschirm „Inhalt bearbeiten“ für den E-Mail- oder SMS-Versand und klicken Sie dann auf die Schaltfläche **[!UICONTROL Inhalt simulieren]**.
 
 1. Klicken Sie auf die Schaltfläche **[!UICONTROL Test]**.
@@ -84,7 +86,7 @@ Um die Empfängerinnen und Empfänger für einen Testversand auszuwählen, gehen
 
 ### Ersatzprofile {#substitution-profiles}
 
-Verwenden Sie Ersatzprofile, um eine Test-E-Mail oder Test-SMS an eine bestimmte E-Mail-Adresse oder Telefonnummer zu senden und dabei Daten aus einem vorhandenen Profil der [!DNL Campaign]-Datenbank anzuzeigen.
+So senden Sie eine Test-E-Mail oder SMS an eine bestimmte E-Mail-Adresse oder Telefonnummer, während Daten aus einem vorhandenen Profil der [!DNL Adobe Campaign] -Datenbank verwenden Ersatzprofile, wie unten beschrieben:
 
 1. Stellen Sie vor einem Testversand sicher, dass Sie eine Zielgruppe für den Versand definieren. [Weitere Informationen](../audience/about-recipients.md)
 
@@ -120,7 +122,7 @@ Verwenden Sie Ersatzprofile, um eine Test-E-Mail oder Test-SMS an eine bestimmte
 
 ### Abonnentinnen und Abonnenten {#subscribers}
 
-Bei der Arbeit mit Push-Benachrichtigungen können Testsendungen nur an Abonnentinnen oder Abonnenten gesendet werden. Gehen Sie wie folgt vor, um diese auszuwählen.
+Beim Arbeiten mit Push-Benachrichtigungen können Testsendungen nur an Ihre App-Abonnenten gesendet werden. Gehen Sie wie folgt vor, um diese auszuwählen.
 
 1. Navigieren Sie zum Bildschirm „Inhalt bearbeiten“ für den Versand und klicken Sie dann auf die Schaltfläche **[!UICONTROL Inhalt simulieren]**.
 
