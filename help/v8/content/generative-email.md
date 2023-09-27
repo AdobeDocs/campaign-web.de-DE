@@ -3,24 +3,28 @@ audience: end-user
 title: E-Mail-Generierung mit dem Inhaltsassistenten
 description: Erste Schritte mit dem Inhaltsassistenten
 badge: label="Beta"
-source-git-commit: 4203c828c1f112b0c50c06e2b76ba30e89d6cb54
+source-git-commit: fb5e2efea2d67f5911eaf376306630183c422a0c
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '453'
 ht-degree: 2%
 
 ---
 
-# Erstellen einer E-Mail mit dem Inhaltsassistenten {#generative-email}
+# E-Mail mit dem Inhaltsassistenten erstellen {#generative-email}
 
-Der Inhaltsassistent verbessert die Wirkung Ihrer Kommunikation, indem er automatisch komplette E-Mail-Inhalte generiert, Zeit spart und eine konsistente Qualität gewährleistet.
-
-Mit Generative KI können Sie mühelos ansprechende E-Mails erstellen, die mit Ihrer Zielgruppe abgestimmt sind, und so Ihre Kommunikation effektiver und effizienter gestalten.
+Der Inhaltsassistent verbessert die Wirkung Ihrer Kommunikation, indem er automatisch komplette E-Mail-Inhalte generiert, Zeit spart und eine konsistente Qualität gewährleistet. Mit Generative KI können Sie mühelos ansprechende E-Mails erstellen, die mit Ihrer Zielgruppe abgestimmt sind, und so Ihre Kommunikation effektiver und effizienter gestalten.
 
 
 >[!AVAILABILITY]
 >
 >Diese Funktion wird Anfang Oktober verfügbar sein.
 
+
+
+
+## HTML-Inhalt mit KI generieren {#generative-email-generate}
+
+Gehen Sie wie folgt vor, um mit dem Inhaltsassistenten E-Mail-Inhalte zu erstellen. Sie können vorhandenen Inhalt auch mit dem Inhaltsassistenten verbessern, wie im Abschnitt [diese Seite](generative-content.md).
 
 1. Nachdem Sie Ihren E-Mail-Versand erstellt und konfiguriert haben, klicken Sie auf **[!UICONTROL Inhalt erstellen]**.
 
@@ -46,7 +50,7 @@ Mit Generative KI können Sie mühelos ansprechende E-Mails erstellen, die mit I
 
    ![](assets/email-genai-2.png)
 
-1. Auswählen **[!UICONTROL Datei hochladen]** wenn Sie ein Marken-Asset hinzufügen möchten, das Inhalte enthält, die zusätzlichen Kontext bieten können, den der Inhaltsassistent bietet.
+1. Auswählen **[!UICONTROL Datei hochladen]** Wenn Sie ein Marken-Asset hinzufügen möchten, das Inhalte enthält, die zusätzlichen Kontext für den Inhaltsassistenten bieten können.
 
    Sie können auch auf **[!UICONTROL Hochgeladene Inhalte]** um zuvor aktualisierte Dateien zu finden. Beachten Sie, dass der hochgeladene Inhalt ausschließlich für die Wiederverwendung durch den aktuellen Benutzer verfügbar ist.
 
@@ -75,4 +79,5 @@ Mit Generative KI können Sie mühelos ansprechende E-Mails erstellen, die mit I
    ![](assets/email-genai-6.png)
 
 1. Wenn Sie Inhalt, Zielgruppe und Zeitplan definiert haben, können Sie Ihren E-Mail-Versand vorbereiten. [Weitere Informationen](../monitor/prepare-send.md)
+
 
