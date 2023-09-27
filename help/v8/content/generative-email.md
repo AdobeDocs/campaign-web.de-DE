@@ -3,9 +3,9 @@ audience: end-user
 title: E-Mail-Generierung mit dem Inhaltsassistenten
 description: Erste Schritte mit dem Inhaltsassistenten
 badge: label="Beta"
-source-git-commit: fb5e2efea2d67f5911eaf376306630183c422a0c
+source-git-commit: 18dd8ef29c3feb1884a46f433b608ad4cf295703
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '451'
 ht-degree: 2%
 
 ---
@@ -14,15 +14,10 @@ ht-degree: 2%
 
 Der Inhaltsassistent verbessert die Wirkung Ihrer Kommunikation, indem er automatisch komplette E-Mail-Inhalte generiert, Zeit spart und eine konsistente Qualität gewährleistet. Mit Generative KI können Sie mühelos ansprechende E-Mails erstellen, die mit Ihrer Zielgruppe abgestimmt sind, und so Ihre Kommunikation effektiver und effizienter gestalten.
 
-
->[!AVAILABILITY]
+>[!NOTE]
 >
->Diese Funktion wird Anfang Oktober verfügbar sein.
+>Bevor Sie mit der Verwendung dieser Funktion beginnen, lesen Sie die entsprechenden Informationen [Limits und Limits](generative-gs.md#guardrails-and-limitations).
 
-
-
-
-## HTML-Inhalt mit KI generieren {#generative-email-generate}
 
 Gehen Sie wie folgt vor, um mit dem Inhaltsassistenten E-Mail-Inhalte zu erstellen. Sie können vorhandenen Inhalt auch mit dem Inhaltsassistenten verbessern, wie im Abschnitt [diese Seite](generative-content.md).
 

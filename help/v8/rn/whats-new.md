@@ -4,9 +4,9 @@ title: Neue Funktionen in Campaign Web v8
 description: Entdecken Sie neue Funktionen von Campaign Web v8.
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Beta"
-source-git-commit: 21436695f6f4bc9e99bb7983e4705cbbe40f07eb
+source-git-commit: 18dd8ef29c3feb1884a46f433b608ad4cf295703
 workflow-type: tm+mt
-source-wordcount: '1062'
+source-wordcount: '1046'
 ht-degree: 98%
 
 ---
@@ -67,7 +67,7 @@ Im Folgenden sind die wichtigsten Funktionen aufgeführt, die mit Campaign Web B
 
 * **Generative KI für E-Mail-Inhalte**
 
-  Verabschieden Sie sich mit den Möglichkeiten der generativen KI von der manuellen Inhaltserstellung und heißen Sie effiziente, datengesteuerte Kampagnen willkommen. Unsere Technologie der generativen KI nutzt erweiterte Algorithmen, um **extrem ansprechende und personalisierte Inhalte zu erstellen**. Steigern Sie Öffnungsraten, Klickraten und Konversionen mit der intelligenten Inhaltserstellung durch generative KI. Bleiben Sie der Konkurrenz voraus und heben Sie Ihr E-Mail-Marketing mit generativer KI für E-Mail-Inhalte auf ein neues Niveau. Diese Funktion wird ab Anfang Oktober verfügbar sein.
+  Verabschieden Sie sich mit den Möglichkeiten der generativen KI von der manuellen Inhaltserstellung und heißen Sie effiziente, datengesteuerte Kampagnen willkommen. Unsere Technologie der generativen KI nutzt erweiterte Algorithmen, um **extrem ansprechende und personalisierte Inhalte zu erstellen**. Steigern Sie Öffnungsraten, Klickraten und Konversionen mit der intelligenten Inhaltserstellung durch generative KI. Bleiben Sie der Konkurrenz voraus und heben Sie Ihr E-Mail-Marketing mit generativer KI für E-Mail-Inhalte auf ein neues Niveau. 
 
   Weiterführende Informationen finden Sie in [diesem Abschnitt](../content/generative-gs.md).
 
@@ -99,7 +99,7 @@ Im Folgenden sind die wichtigsten Funktionen aufgeführt, die mit Campaign Web B
 
 * **Wissensassistent mit generativer KI**
 
-  Stellen Sie Fragen und erhalten Sie Hilfestellungen direkt in der Benutzeroberfläche des Produkts. Mit dem neuen **KI-gestützten Wissensassistenten**, der in die Popup-Fenster der Kontexthilfe eingebettet ist, können Sie Ihr Wissen bezüglich der neuen Campaign-Funktionen erweitern und vertiefen. Er basiert auf der neuesten Produktdokumentation und liefert Ihnen beim Erstellen Ihrer Anwendungsfälle sofortige Hilfe und Schritt-für-Schritt-Anleitungen. Diese Funktion wird ab Anfang Oktober verfügbar sein.
+  Stellen Sie Fragen und erhalten Sie Hilfestellungen direkt in der Benutzeroberfläche des Produkts. Mit dem neuen **KI-gestützten Wissensassistenten**, der in die Popup-Fenster der Kontexthilfe eingebettet ist, können Sie Ihr Wissen bezüglich der neuen Campaign-Funktionen erweitern und vertiefen. Er basiert auf der neuesten Produktdokumentation und liefert Ihnen beim Erstellen Ihrer Anwendungsfälle sofortige Hilfe und Schritt-für-Schritt-Anleitungen.
 
   Weiterführende Informationen finden Sie in [diesem Abschnitt](../get-started/using-ai.md).
 

@@ -3,9 +3,9 @@ audience: end-user
 title: Generieren von Bildern mit dem Inhaltsassistenten
 description: Erste Schritte mit dem Inhaltsassistenten
 badge: label="Beta"
-source-git-commit: fb5e2efea2d67f5911eaf376306630183c422a0c
+source-git-commit: 18dd8ef29c3feb1884a46f433b608ad4cf295703
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '370'
 ht-degree: 2%
 
 ---
@@ -15,13 +15,15 @@ ht-degree: 2%
 
 Nachdem Sie Ihre E-Mails erstellt und personalisiert haben, können Sie Ihren Inhalt mit dem Inhaltsassistenten erweitern, der auf generativen KI basiert. Diese Funktion vereinfacht den Prozess der Personalisierung und Inhaltsverbesserung.
 
->[!AVAILABILITY]
+Gehen Sie wie folgt vor, um mit dem Inhaltsassistenten Bilder in E-Mails zu erstellen und zu verbessern. Sie können den vollständigen HTML-Inhalt auch mit dem Inhaltsassistenten erstellen, wie im Abschnitt [diese Seite](generative-email.md), oder generieren Sie einen Textinhalt, wie hier beschrieben: [diese Seite](generative-content.md).
+
+>[!NOTE]
 >
->Diese Funktion wird Anfang Oktober verfügbar sein.
+>Bevor Sie mit der Verwendung dieser Funktion beginnen, lesen Sie die entsprechenden Informationen [Limits und Limits](generative-gs.md#guardrails-and-limitations).
 
 Im folgenden Beispiel erfahren Sie, wie Sie den Inhaltsassistenten nutzen können, um Ihren Inhalt zu optimieren und zu verbessern und so ein benutzerfreundlicheres Erlebnis zu gewährleisten. Führen Sie folgende Schritte aus:
 
-1. Nachdem Sie Ihren E-Mail-Versand erstellt und konfiguriert haben, klicken Sie auf **[!UICONTROL Inhalt bearbeiten]**.
+1. Klicken Sie nach der Erstellung und Konfiguration Ihres E-Mail-Versands auf **[!UICONTROL Inhalt bearbeiten]**.
 
    Weitere Informationen zur Konfiguration Ihres E-Mail-Versands finden Sie unter [diese Seite](../content/create-email-content.md).
 

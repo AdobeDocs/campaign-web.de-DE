@@ -3,9 +3,9 @@ audience: end-user
 title: Text mit dem Inhaltsassistenten
 description: Erste Schritte mit dem Inhaltsassistenten
 badge: label="Beta"
-source-git-commit: fb5e2efea2d67f5911eaf376306630183c422a0c
+source-git-commit: 18dd8ef29c3feb1884a46f433b608ad4cf295703
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '384'
 ht-degree: 5%
 
 ---
@@ -17,10 +17,9 @@ Nachdem Sie Ihre E-Mails erstellt und personalisiert haben, verwenden Sie den In
 
 Der Inhaltsassistent kann Ihnen dabei helfen, die Wirkung Ihrer Sendungen zu optimieren, indem Sie verschiedene Inhalte vorschlagen, die mit größerer Wahrscheinlichkeit bei Ihrer Zielgruppe ankommen.
 
-
->[!AVAILABILITY]
+>[!NOTE]
 >
->Diese Funktion wird Anfang Oktober verfügbar sein.
+>Bevor Sie mit der Verwendung dieser Funktion beginnen, lesen Sie die entsprechenden Informationen [Limits und Limits](generative-gs.md#guardrails-and-limitations).
 
 Gehen Sie wie folgt vor, um mit dem Inhaltsassistenten E-Mail-Inhalte zu erstellen und zu verbessern. Sie können den vollständigen HTML-Inhalt auch mit dem Inhaltsassistenten erstellen, wie im Abschnitt [diese Seite](generative-email.md).
 
@@ -42,7 +41,7 @@ Gehen Sie wie folgt vor, um mit dem Inhaltsassistenten E-Mail-Inhalte zu erstell
 
    ![](assets/text-genai-3.png)
 
-1. Auswählen **[!UICONTROL Datei hochladen]** Wenn Sie ein Marken-Asset hinzufügen möchten, das Inhalte enthält, die zusätzlichen Kontext für den Inhaltsassistenten bieten können.
+1. Auswählen **[!UICONTROL Datei hochladen]** um jedes Marken-Asset hinzuzufügen, das Inhalte enthält, die zusätzlichen Kontext für den Inhaltsassistenten bieten können.
 
    Sie können auch auf **[!UICONTROL Hochgeladene Inhalte]** um zuvor aktualisierte Dateien zu finden. Beachten Sie, dass der hochgeladene Inhalt ausschließlich für die Wiederverwendung durch den aktuellen Benutzer verfügbar ist.
 
