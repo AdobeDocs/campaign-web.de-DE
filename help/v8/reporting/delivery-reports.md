@@ -1,13 +1,13 @@
 ---
 audience: end-user
 title: Versandberichte
-description: Erfahren Sie, wie Sie auf Vesandberichte zugreifen und diese verwenden können
+description: Erfahren Sie, wie Sie auf Versandberichte zugreifen und diese verwenden können
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
 badge: label="Beta"
-source-git-commit: 173bed2c5651e09965a92a848b07d3368c10bb42
+source-git-commit: 91d61dffbc66590a0326ba3ac3c8b9d8cece91de
 workflow-type: tm+mt
-source-wordcount: '136'
-ht-degree: 75%
+source-wordcount: '149'
+ht-degree: 91%
 
 ---
 
@@ -17,6 +17,12 @@ ht-degree: 75%
 >id="acw_campaign_reporting_deliveries_selection"
 >title="Aggregierte Berichte für Sendungen"
 >abstract="Wählen Sie mindestens zwei Sendungen aus, um einen aggregierten Datenbericht anzuzeigen."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_reporting_email_exportation"
+>title="Neu laden"
+>abstract="Klicken Sie auf **Neu laden** -Schaltfläche, um die letzten Metriken abzurufen und Daten zu aktualisieren."
 
 Adobe Campaign bietet verschiedene Berichtstypen für jeden Versand. Mit diesen Berichten können Sie die Wirkung und Leistung Ihrer Nachrichten in einem integrierten Dashboard messen und visualisieren.
 
@@ -32,8 +38,8 @@ Führen Sie folgende Schritte aus, um Berichte anzuzeigen:
 
    ![](assets/reporting.png)
 
-1. Wenn Ihr Versand wiederkehrend ist, können Sie einen bestimmten Versand auswählen, zu dem ein Bericht erstellt werden soll, indem Sie auf **[!UICONTROL Sendungen auswählen]**.
+1. Wenn Ihr Versand wiederkehrend ist, können Sie einen bestimmten Versand auswählen, zu dem ein Bericht erstellt werden soll, indem Sie auf **[!UICONTROL Sendungen auswählen]** klicken.
 
-   Sie können auch einen Zeitraum auf Ihren Bericht anwenden, indem Sie die **[!UICONTROL Kontaktdatum]**.
+   Sie können auch einen Zeitraum auf Ihren Bericht anwenden, indem Sie das **[!UICONTROL Kontaktdatum]** auswählen.
 
    ![](assets/delivery-recurring.png)
