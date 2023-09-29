@@ -3,7 +3,7 @@ audience: end-user
 title: Kampagnenberichte für den Push-Kanal
 description: Kampagnenberichte für den Push-Kanal verstehen
 badge: label="Beta"
-source-git-commit: 420a97b4f831eefdf12a867af6ca333d432f98e3
+source-git-commit: 8529f1b21469111fc8e72161d342c862d3e4fcbc
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 58%
@@ -23,6 +23,9 @@ Jeder Kampagnenbericht ist in verschiedene Widgets unterteilt, die den Erfolg un
 >abstract="Die **Versandübersicht** liefert wichtige Leistungsindikatoren (KPIs), die detaillierte Informationen darüber enthalten, wie Ihre Besucher mit Ihrem Push-Benachrichtigungsversand interagieren."
 
 Die **[!UICONTROL Versandübersicht]** liefert wichtige Leistungsindikatoren (KPIs), die detaillierte Informationen darüber enthalten, wie Ihre Besucher mit Ihrem Push-Benachrichtigungsversand interagieren. Die Metriken werden nachfolgend beschrieben.
+
+![](assets/campaign-reporting-push-summary.png)
+
 
 +++Erfahren Sie mehr über die Metriken des Push-Kampagnenberichts.
 
@@ -46,6 +49,9 @@ Die **[!UICONTROL Versandübersicht]** liefert wichtige Leistungsindikatoren (KP
 
 Die **[!UICONTROL Ursprüngliche Zielgruppenstatistiken]** zeigt Daten zu Ihren Empfängern an. Die Metriken werden nachfolgend beschrieben.
 
+![](assets/campaign-reporting-push-target.png)
+
+
 +++Erfahren Sie mehr über die Metriken des Push-Kampagnenberichts.
 
 * **[!UICONTROL Ursprüngliche Zielgruppe]**: Gesamtzahl der Zielgruppenempfängerinnen und -empfänger.
@@ -64,6 +70,9 @@ Die **[!UICONTROL Ursprüngliche Zielgruppenstatistiken]** zeigt Daten zu Ihren 
 >abstract="Die **Ausführungsstatistiken** -Tabelle zeigt den Erfolg Ihres Versands: Zu sendende Nachrichten, Erfolg, Fehler und neue Quarantänen."
 
 Die **[!UICONTROL Ausführungsstatistiken]** -Tabelle zeigt den Erfolg Ihres Versands. Die Metriken werden nachfolgend beschrieben.
+
+![](assets/campaign-reporting-push-exec.png)
+
 
 +++Erfahren Sie mehr über die Metriken des Push-Kampagnenberichts.
 
@@ -85,6 +94,8 @@ Die **[!UICONTROL Ausführungsstatistiken]** -Tabelle zeigt den Erfolg Ihres Ver
 >abstract="Die **Erzeugte Clickstreams** zeigt die verfügbaren Daten in Bezug auf die Interaktion der Empfänger mit Ihrem Versand an."
 
 Die **[!UICONTROL Erzeugte Clickstreams]** zeigt Daten dazu an, wie Ihre Empfänger mit Ihrem Versand interagiert haben. Die Metriken werden nachfolgend beschrieben.
+
+![](assets/campaign-reporting-push-clicks.png)
 
 +++Erfahren Sie mehr über die Metriken des Push-Kampagnenberichts.
 
