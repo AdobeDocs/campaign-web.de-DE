@@ -3,7 +3,7 @@ title: Wichtige Leistungsindikatoren
 description: Lernen Sie, die wichtigsten Leistungsindikatoren zu verstehen.
 badge: label="Beta"
 source-git-commit: e784f9aeb0805269561065c10ccbbf6756e62e44
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '869'
 ht-degree: 100%
 

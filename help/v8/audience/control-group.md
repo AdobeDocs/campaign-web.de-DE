@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie in der Web-Benutzeroberfläche von Campaign e
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
 badge: label="Beta"
 source-git-commit: 334014d3d89c878617b8e43ea73c9ff4e957f6d7
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '780'
 ht-degree: 100%
 

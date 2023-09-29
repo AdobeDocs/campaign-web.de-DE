@@ -4,7 +4,7 @@ title: Berechtigungsverwaltung in Campaign Web
 description: Erfahren Sie mehr über Berechtigungen in Campaign Web v8
 badge: label="Beta"
 source-git-commit: 5e2af07f54fae9b0d64d173388be14639e6aaaa2
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '605'
 ht-degree: 100%
 

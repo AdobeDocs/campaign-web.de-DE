@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie Versandlogs überwachen
 exl-id: 2eb7457e-32f7-4729-99c8-91bf287f0192
 badge: label="Beta"
 source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 100%
 

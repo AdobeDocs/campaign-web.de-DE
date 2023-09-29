@@ -4,7 +4,7 @@ title: Erstellen eines Push-Benachrichtigungs-Versands
 description: Erfahren Sie, wie Sie einen Push-Benachrichtigungs-Versand mit Adobe Campaign Web erstellen
 badge: label="Beta"
 source-git-commit: b29d8601b69bfec9e4b153a13dadb590f1cee9a1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1347'
 ht-degree: 100%
 

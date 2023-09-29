@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie mit Adobe Campaign Web Cross-Channel-Kampagne
 badge: label="Beta"
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
 source-git-commit: 72065d4cbc3ce18caf88c7032660d944459463ed
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '450'
 ht-degree: 100%
 
@@ -34,7 +34,7 @@ Um eine neue Kampagne zu erstellen, gehen Sie folgendermaßen vor:
 1. Wählen Sie die zu verwendende **Vorlage** und geben Sie eine Bezeichnung für die Kampagne ein. [Weitere Informationen](manage-campaigns.md#manage-campaign-templates)
 1. Bei Bedarf können Sie die folgenden **zusätzlichen Optionen** ändern: interner Name, Ordner, Zuweisung, Beschreibung und Art.
 1. Definieren Sie den **Zeitplan** für Ihre Kampagne. Erfahren Sie in [diesem Abschnitt](#campaign-schedule), wie Sie Ihren Kampagnenzeitplan festlegen.
-1. Wählen Sie **Erstellen** aus.
+1. Klicken Sie auf **Erstellen**.
 1. Fügen Sie Workflows und Sendungen zu Ihrer Kampagne hinzu:
 
    * Klicken Sie auf der Registerkarte **Workflows** auf **Workflow erstellen**. Beim Erstellen Ihrer Kampagne wird automatisch ein Standard-Workflow hinzugefügt. Weitere Informationen zum [Erstellen eines Workflows](../workflows/create-workflow.md).

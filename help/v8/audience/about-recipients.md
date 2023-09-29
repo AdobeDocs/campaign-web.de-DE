@@ -1,16 +1,16 @@
 ---
-title: Arbeiten mit Empfängern und Zielgruppen
+title: Arbeiten mit Empfängerinnen bzw. Empfängern und Zielgruppen
 description: Erfahren Sie, wie Sie mit Empfängern im Campaign-Web arbeiten.
 badge: label="Beta"
 source-git-commit: 424caa898ff9d73f3520aa6d682eb1963d992069
 workflow-type: tm+mt
 source-wordcount: '1022'
-ht-degree: 21%
+ht-degree: 22%
 
 ---
 
 
-# Arbeiten mit Empfängern und Zielgruppen {#about-recipients}
+# Arbeiten mit Empfängerinnen bzw. Empfängern und Zielgruppen {#about-recipients}
 
 In Adobe Campaign ist die Zielpopulation eines Versands eine Zielgruppe. Eine Zielgruppe ist eine Gruppe von Personen, die ähnliche Verhaltensweisen und/oder Merkmale aufweisen. Diese Personengruppe kann entweder generiert, ausgewählt oder geladen werden [wie unten beschrieben](#audiences). In den meisten Fällen besteht die Audience aus Profilen, die als [Empfänger](#recipients) in Adobe Campaign. Sie können auch mit anderen Zielgruppen-Mappings arbeiten, indem Sie die Dimension wie beschrieben ändern [in diesem Abschnitt](#targeting-dimensions).
 

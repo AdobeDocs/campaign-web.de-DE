@@ -4,7 +4,7 @@ title: Durchsuchen, Suchen und Filtern von Listen
 description: Erfahren Sie, wie Sie Listen in Campaign Web v8 durchsuchen und filtern
 badge: label="Beta"
 source-git-commit: 8612e29aa16bce609a822e42d15e2f92a6874383
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '448'
 ht-degree: 100%
 

@@ -9,7 +9,7 @@ badge: label="Beta"
 source-git-commit: 29fbfa9bb802ba1dff26dee8898fcb728309983d
 workflow-type: tm+mt
 source-wordcount: '786'
-ht-degree: 4%
+ht-degree: 12%
 
 ---
 
@@ -18,12 +18,12 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card3"
 >title="Vordefinierte Filterverwaltung"
->abstract="Campaign Web bietet Ihnen jetzt eine benutzerfreundliche Oberfläche, mit der Sie vordefinierte Filter mühelos verwalten und an Ihre spezifischen Anforderungen anpassen können. Erstellen Sie einmal und speichern Sie für die zukünftige Verwendung."
+>abstract="Campaign Web bietet Ihnen jetzt eine benutzerfreundliche Oberfläche, mit der Sie vordefinierte Filter mühelos verwalten und an Ihre spezifischen Anforderungen anpassen können. Erstellen Sie Filter einmal und speichern Sie sie für zukünftige Verwendungen."
 
 >[!CONTEXTUALHELP]
 >id="acw_predefined-filters-dashboard"
 >title="Vordefinierte Filter"
->abstract="Campaign Web bietet Ihnen jetzt eine benutzerfreundliche Oberfläche, mit der Sie vordefinierte Filter mühelos verwalten und an Ihre spezifischen Anforderungen anpassen können. Erstellen Sie einmal und speichern Sie für die zukünftige Verwendung."
+>abstract="Campaign Web bietet Ihnen jetzt eine benutzerfreundliche Oberfläche, mit der Sie vordefinierte Filter mühelos verwalten und an Ihre spezifischen Anforderungen anpassen können. Erstellen Sie Filter einmal und speichern Sie sie für zukünftige Verwendungen."
 
 Vordefinierte Filter sind benutzerdefinierte Filter, die erstellt und gespeichert werden und für die zukünftige Verwendung verfügbar sind. Sie können bei allen Filtervorgängen mit dem Regel-Builder als Verknüpfungen verwendet werden, z. B. beim Filtern einer Datenliste oder beim Erstellen der Zielgruppe eines Versands.
 
@@ -33,7 +33,7 @@ Sie können vorhandene integrierte Filter verwenden, um auf einen bestimmten Tei
 
 >[!IMPORTANT]
 >
->In dieser Produktversion sind beim Erstellen von Regeln, beim Auswählen der Zielgruppe eines Versands oder beim Erstellen einer Zielgruppe in einem Workflow einige vordefinierte Filter nicht in der Benutzeroberfläche verfügbar. Sie können sie weiterhin verwenden. [Weitere Informationen](guardrails.md#predefined-filters-filters-guardrails-limitations)
+>In dieser Produktversion sind beim Erstellen von Regeln, beim Auswählen der Zielgruppe eines Versands oder beim Erstellen einer Zielgruppe in einem Workflow einige vordefinierte Filter nicht in der Benutzeroberfläche verfügbar. Sie können sie dennoch verwenden. [Weitere Informationen](guardrails.md#predefined-filters-filters-guardrails-limitations)
 
 
 ## Vordefinierten Filter erstellen {#create-predefined-filter}

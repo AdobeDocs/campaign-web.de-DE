@@ -4,7 +4,7 @@ title: Verwenden der Workflow-Aktivität „Aufspaltung“
 description: Weitere Informationen zur Verwendung der Workflow-Aktivität „Aufspaltung“
 badge: label="Beta"
 source-git-commit: 2894766336d5ac52625175981c6969a0ac5882d8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '652'
 ht-degree: 100%
 
