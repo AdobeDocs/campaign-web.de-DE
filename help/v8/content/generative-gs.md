@@ -3,9 +3,9 @@ audience: end-user
 title: Erste Schritte mit dem Inhaltsassistenten
 description: Erste Schritte mit dem Inhaltsassistenten
 badge: label="Beta"
-source-git-commit: 8c9c74423d1b034271c96239322dd369336d0df6
+source-git-commit: 2da9bdab7e8a5050d0e4e0531fc30f85870de70f
 workflow-type: tm+mt
-source-wordcount: '349'
+source-wordcount: '402'
 ht-degree: 1%
 
 ---
@@ -17,6 +17,12 @@ ht-degree: 1%
 >id="acw_generation_settings"
 >title="Inhaltsassistent"
 >abstract="Nachdem Sie Ihren Versand erstellt und personalisiert haben, können Sie den Inhaltsassistenten verwenden, um Ihren Inhalt zu verbessern. Diese Funktion vereinfacht den Prozess der Personalisierung und Inhaltsverbesserung, indem Sie den Inhalt durch eine Beschreibung dessen, was Sie generieren möchten, anpassen können."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_generation_context"
+>title="Kontext für die Inhaltserstellung definieren"
+>abstract="Um den ausgewählten Inhalt als Eingabe für die Inhaltserstellung zu verwenden, aktivieren Sie die **Erweiterung mit aktuellem Inhalt** umschalten. Sie können Ihre Marken-Assets auch hochladen, um sie als Quelle zu verwenden. Wenn Sie den ausgewählten Inhalt nicht verwenden, ist das Hochladen und Auswählen von Marken-Assets obligatorisch."
 
 Der Inhaltsassistent, der auf generativer KI basiert, ist ein wertvolles Werkzeug zur Verbesserung von E-Mail-Inhalten. Sie vereinfacht die Personalisierung und Inhaltsverbesserung und optimiert Ihre E-Mail-Sendungen, um besser auf Ihre Zielgruppe einzugehen.
 
