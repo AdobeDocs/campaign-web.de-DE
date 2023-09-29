@@ -3,22 +3,24 @@ audience: end-user
 title: Kampagnenberichte für den E-Mail-Kanal
 description: Weitere Informationen zu Kampagnenberichten für den E-Mail-Kanal
 badge: label="Beta"
-source-git-commit: bd7d478d76c04d7dd644514ab08641b9e797f715
+source-git-commit: 0fee0bd74be36e2c5defc14021505f169776dcd3
 workflow-type: tm+mt
-source-wordcount: '1475'
-ht-degree: 67%
+source-wordcount: '1546'
+ht-degree: 64%
 
 ---
 
 
 # Kampagnenberichte für den E-Mail-Kanal {#campaign-reports-email-channel}
 
+Jeder Kampagnenbericht ist in verschiedene Widgets unterteilt, die den Erfolg und die Fehler Ihrer Kampagne detailliert beschreiben. Für den E-Mail-Kanal werden die Berichte und Metriken nachfolgend beschrieben. Erfahren Sie, wie Sie auf Ihre Kampagnenberichte zugreifen können in [diese Seite](campaign-reports.md).
+
 ## Versandzusammenfassung {#delivery-summary-email}
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_overview"
 >title="Versandübersicht"
->abstract="Die Versandübersicht bietet wichtige Leistungsindikatoren (KPIs), die detaillierte Informationen darüber enthalten, wie Ihre Besucherinnen und Besucher mit Ihrem E-Mail-Versand interagieren."
+>abstract="Die **Versandübersicht** bietet wichtige Leistungsindikatoren (Key Performance Indicators, KPIs), die detaillierte Informationen darüber enthalten, wie Ihre Besucher mit Ihrem E-Mail-Versand interagieren."
 
 ### Versandübersicht {#delivery-summary-email-ovv}
 
@@ -87,7 +89,6 @@ Die **[!UICONTROL Ausführungsstatistiken]** -Tabelle zeigt den Erfolg Ihres Ver
 +++
 
 ### Reaktionsstatistik {#delivery-summary-email-reaction-stats}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_email_reaction_stats"
@@ -183,6 +184,12 @@ Die **[!UICONTROL Verteilung der Fehler nach Domain]** -Tabelle und -Diagramm en
 
 ### Versandstatistiken {#delivery-summary-email-statistics}
 
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_campaign_delivery_statistics_summary"
+>title="Versandstatistiken"
+>abstract="Die **Versandstatistiken** -Diagramm zeigt den Erfolg Ihres Versands und die aufgetretenen Fehler."
+
 Die **[!UICONTROL Versandstatistiken]** Metriken bieten wichtige Leistungsindikatoren (KPIs), die detaillierte Informationen zu den für gesendete E-Mails verfügbaren Daten enthalten. Die Metriken werden nachfolgend beschrieben.
 
 ![](assets/campaign_report_email_7.png)
@@ -207,7 +214,7 @@ Die **[!UICONTROL Versandstatistiken]** Metriken bieten wichtige Leistungsindika
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_open_clickthrough"
->title="Widget „Öffnungs- und Klickrate“"
+>title="Öffnungs- und Klickrate"
 >abstract="Die Tabelle **Öffnungs- und Klickrate** zeigt Daten bezüglich der Interaktionen Ihrer Empfängerinnen und Empfänger mit dem Versand an."
 
 
@@ -253,8 +260,6 @@ Die **[!UICONTROL URLs und Clickstreams]** liefert wichtige Leistungsindikatoren
 
 ### Die 10 meistbesuchten Links {#top10-campaign-report-email}
 
-
-
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_urls_clickstreams_top10"
 >title="Die 10 meistbesuchten Links"
@@ -286,13 +291,19 @@ die **[!UICONTROL Zeitliche Klickverteilung]** -Diagramm enthält die verfügbar
 
 ![](assets/campaign_report_email_11.png)
 
+
 ## Benutzeraktivitäten {#user-activities-email}
 
-Die  **[!UICONTROL Benutzeraktivitäten]** zeigt die Öffnungs- und Klickverteilung in Form eines Diagramms an. Die Metriken werden nachfolgend beschrieben.
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_user_activities"
+>title="Nutzer-Aktivitäten"
+>abstract="Das Diagramm **Benutzeraktivitäten** zeigt die Aufschlüsselung der Öffnungen und Klicks in Form eines Diagramms."
 
-![](assets/campaign_report_email_12.png)
+Die **[!UICONTROL Benutzeraktivitäten]** zeigt die Öffnungs- und Klickverteilung in Form eines Diagramms an. Die Metriken für diesen Bericht werden nachfolgend beschrieben.
 
-+++Erfahren Sie mehr über die Metriken des E-Mail-Kampagnen-Berichts.
+![](assets/campaign_report_email_10.png){align="center"}
+
++++Erfahren Sie mehr über die Metriken des E-Mail-Versandberichts.
 
 * **[!UICONTROL Klicks]**: Gesamtzahl der Klicks auf Links in Sendungen.
 

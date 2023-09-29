@@ -3,17 +3,24 @@ audience: end-user
 title: Kampagnenberichte für den Push-Kanal
 description: Kampagnenberichte für den Push-Kanal verstehen
 badge: label="Beta"
-source-git-commit: 939ac543398568bfd72392860f90226b0b21a717
+source-git-commit: 420a97b4f831eefdf12a867af6ca333d432f98e3
 workflow-type: tm+mt
-source-wordcount: '363'
-ht-degree: 73%
+source-wordcount: '479'
+ht-degree: 58%
 
 ---
 
 
 # Kampagnenberichte für den Push-Kanal {#campaign-reports-push-channel}
 
+Jeder Kampagnenbericht ist in verschiedene Widgets unterteilt, die den Erfolg und die Fehler Ihrer Kampagne detailliert beschreiben. Für den Push-Kanal werden die Berichte und Metriken unten beschrieben. Erfahren Sie, wie Sie auf Ihre Kampagnenberichte zugreifen können in [diese Seite](campaign-reports.md).
+
 ## Versandzusammenfassung {#delivery-summary-push}
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_push_deliveries_overview"
+>title="Versandübersicht"
+>abstract="Die **Versandübersicht** liefert wichtige Leistungsindikatoren (KPIs), die detaillierte Informationen darüber enthalten, wie Ihre Besucher mit Ihrem Push-Benachrichtigungsversand interagieren."
 
 Die **[!UICONTROL Versandübersicht]** liefert wichtige Leistungsindikatoren (KPIs), die detaillierte Informationen darüber enthalten, wie Ihre Besucher mit Ihrem Push-Benachrichtigungsversand interagieren. Die Metriken werden nachfolgend beschrieben.
 
@@ -31,6 +38,12 @@ Die **[!UICONTROL Versandübersicht]** liefert wichtige Leistungsindikatoren (KP
 
 ### Statistiken der ursprünglichen Zielgruppe {#delivery-summary-push-initial-target}
 
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_push_target"
+>title="Statistiken der ursprünglichen Zielgruppe"
+>abstract="Die **Ursprüngliche Zielgruppenstatistiken** zeigt Daten zu Ihren Empfängern an"
+
 Die **[!UICONTROL Ursprüngliche Zielgruppenstatistiken]** zeigt Daten zu Ihren Empfängern an. Die Metriken werden nachfolgend beschrieben.
 
 +++Erfahren Sie mehr über die Metriken des Push-Kampagnenberichts.
@@ -44,6 +57,11 @@ Die **[!UICONTROL Ursprüngliche Zielgruppenstatistiken]** zeigt Daten zu Ihren 
 +++
 
 ### Ausführungsstatistiken {#delivery-summary-push-exec-stats}
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_push_exec_stats"
+>title="Ausführungsstatistiken"
+>abstract="Die **Ausführungsstatistiken** -Tabelle zeigt den Erfolg Ihres Versands: Zu sendende Nachrichten, Erfolg, Fehler und neue Quarantänen."
 
 Die **[!UICONTROL Ausführungsstatistiken]** -Tabelle zeigt den Erfolg Ihres Versands. Die Metriken werden nachfolgend beschrieben.
 
@@ -60,6 +78,11 @@ Die **[!UICONTROL Ausführungsstatistiken]** -Tabelle zeigt den Erfolg Ihres Ver
 +++
 
 ### Erzeugte Clickstreams {#delivery-summary-push-click-streams}
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_push_click_streams"
+>title="Erzeugte Clickstreams"
+>abstract="Die **Erzeugte Clickstreams** zeigt die verfügbaren Daten in Bezug auf die Interaktion der Empfänger mit Ihrem Versand an."
 
 Die **[!UICONTROL Erzeugte Clickstreams]** zeigt Daten dazu an, wie Ihre Empfänger mit Ihrem Versand interagiert haben. Die Metriken werden nachfolgend beschrieben.
 
