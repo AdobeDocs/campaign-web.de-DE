@@ -3,10 +3,10 @@ audience: end-user
 title: Erste Schritte mit Berichten
 description: Erfahren Sie, wie Sie in Campaign Web auf Berichte zugreifen und diese verwalten können.
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
-workflow-type: ht
-source-wordcount: '172'
-ht-degree: 100%
+source-git-commit: b7f43e5d3434da63a05c5c76d2edef960ee3a826
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -16,10 +16,9 @@ Unsere umfassende Suite an Reporting-Tools bietet wertvolle Einblicke in die Eff
 
 Adobe Campaign bietet zwei unterschiedliche Berichte:
 
-* **Versandbericht**: Der **Versandbericht** bietet für jeden speziellen Kanal umfassende Einblicke und Daten. Er bietet detaillierte Informationen über Leistung, Effektivität und Ergebnisse Ihrer einzelnen Sendungen und verschafft Ihnen einen umfassenden Überblick.
+* **Versandberichte**: Die **Versandberichte** bietet umfassende Einblicke und für jeden Kanal spezifische Daten. Diese Berichte enthalten detaillierte Informationen über Leistung, Effektivität und Ergebnisse Ihrer Sendungen und bieten Ihnen einen umfassenden Überblick.
 
-* **Kampagnenbericht**: Der **Kampagnenbericht** bietet einen umfassenden Überblick über Ihre Kampagne, der alle relevanten Informationen zu den verschiedenen zugehörigen Sendungen enthält. Dieser Bericht ermöglicht eine gründliche Analyse der Leistung jedes Versands, der Erfolgsraten, der Interaktion mit den Zielgruppen und anderer wichtiger Metriken, sodass Sie die Wirksamkeit und die Wirkung Ihrer Kampagne insgesamt auswerten können.
-
+* **Kampagnenberichte**: Die **Kampagnenberichte** einen umfassenden Überblick über Ihre Kampagne mit allen relevanten Informationen zu den verschiedenen Sendungen bieten. Diese Berichte bieten eine gründliche Analyse der Leistung jedes Versands pro Kanal: Erfolgsraten, Zielgruppeninteraktion und andere wichtige Metriken. Sie ermöglichen es Ihnen, die Effektivität und Wirkung Ihrer Kampagne insgesamt zu bewerten.
 
 
 <table style="table-layout:fixed"><tr style="border: 0;">
@@ -27,7 +26,7 @@ Adobe Campaign bietet zwei unterschiedliche Berichte:
 <a href="email-report.md">
 <img alt="Lead" src="assets/do-not-localize/email_report.jpeg">
 </a>
-<div><a href="email-report.md"><strong>E-Mail-Versandbericht</strong>
+<div><a href="email-report.md"><strong>E-Mail-Versandberichte</strong>
 </div>
 <p>
 </td>
@@ -36,7 +35,7 @@ Adobe Campaign bietet zwei unterschiedliche Berichte:
 <img alt="Gelegentlich" src="assets/do-not-localize/push_report.jpeg">
 </a>
 <div>
-<a href="push-report.md"><strong>Push-Versandbericht<strong></strong></a>
+<a href="push-report.md"><strong> Push-Versandberichte<strong></strong></a>
 </div>
 <p></td>
 <td>
@@ -44,7 +43,7 @@ Adobe Campaign bietet zwei unterschiedliche Berichte:
 <img alt="Validierung" src="assets/do-not-localize/sms_report.png">
 </a>
 <div>
-<a href="sms-report.md"><strong> SMS-Versandbericht</strong></a>
+<a href="sms-report.md"><strong> SMS-Versandberichte</strong></a>
 </div>
 <p>
 </td>
@@ -53,7 +52,7 @@ Adobe Campaign bietet zwei unterschiedliche Berichte:
 <img alt="Validierung" src="assets/do-not-localize/campaign_report.jpeg">
 </a>
 <div>
-<a href="campaign-reports.md"><strong>Kampagnenbericht</strong></a>
+<a href="campaign-reports.md"><strong>Kampagnenberichte</strong></a>
 </div>
 <p>
 </td>
