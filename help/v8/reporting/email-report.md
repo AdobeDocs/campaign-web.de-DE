@@ -3,10 +3,10 @@ audience: end-user
 title: E-Mail-Versandberichte
 description: Erfahren Sie, wie Sie auf E-Mail-Versandberichte zugreifen und diese verwenden können
 badge: label="Beta"
-source-git-commit: 36a3753a332d92ba4156770ccd6d37f4b404bd43
+source-git-commit: bd7d478d76c04d7dd644514ab08641b9e797f715
 workflow-type: tm+mt
-source-wordcount: '2205'
-ht-degree: 70%
+source-wordcount: '2257'
+ht-degree: 68%
 
 ---
 
@@ -202,10 +202,6 @@ Die verfügbaren Metriken sind mit denen der Variablen [Verteilung der Fehler na
 >title="Tracking-Berichte"
 >abstract="Die Registerkarte **Tracking** Ihres Berichts enthält wertvolle Daten, darunter das Empfängerverhalten pro Link, die Aufschlüsselung von Öffnungen und Klicks sowie detaillierte Informationen zu den am häufigsten angeklickten URLs während eines Versands."
 
->[!CONTEXTUALHELP]
->id="acw_delivery_reporting_open_clickthrough"
->title="Widget „Öffnungs- und Klickrate“"
->abstract="Die Tabelle **Öffnungs- und Klickrate** zeigt Daten bezüglich der Interaktionen Ihrer Empfängerinnen und Empfänger mit dem Versand an."
 
 ### Versandstatistiken  {#email-tracking-delivery-stats}
 
@@ -237,6 +233,13 @@ Die **[!UICONTROL Versandstatistiken]** bietet wichtige Leistungsindikatoren (KP
 
 ### Öffnungs- und Klickrate {#email-tracking-click-through}
 
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_open_clickthrough"
+>title="Widget „Öffnungs- und Klickrate“"
+>abstract="Die Tabelle **Öffnungs- und Klickrate** zeigt Daten bezüglich der Interaktionen Ihrer Empfängerinnen und Empfänger mit dem Versand an."
+
+
+
 Die **[!UICONTROL Öffnungs- und Klickrate]** zeigt Daten zu Ihren Empfängern an. Die Metriken werden nachfolgend beschrieben.
 
 ![](assets/reporting_email_6.png){align="center"}
@@ -258,40 +261,59 @@ Die **[!UICONTROL Öffnungs- und Klickrate]** zeigt Daten zu Ihren Empfängern a
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_urls_clickstreams"
->title="URLs und Clickstreams Widget"
+>title="URLs und Clickstreams"
 >abstract="Die **URLs und Clickstreams** liefert wichtige Leistungsindikatoren (KPIs), die detaillierte Informationen zu den URLs enthalten, auf die während eines Versands am häufigsten geklickt wurde."
 
-* Die **[!UICONTROL URLs und Clickstreams]** liefert wichtige Leistungsindikatoren (KPIs), die detaillierte Informationen zu den URLs enthalten, auf die während eines Versands am häufigsten geklickt wurde.
 
-  ![](assets/reporting_email_7.png){align="center"}
+Die **[!UICONTROL URLs und Clickstreams]** liefert wichtige Leistungsindikatoren (KPIs), die detaillierte Informationen zu den URLs enthalten, auf die während eines Versands am häufigsten geklickt wurde.
 
-  +++Erfahren Sie mehr über die Metriken des E-Mail-Versandberichts.
+![](assets/reporting_email_7.png){align="center"}
 
-   * **[!UICONTROL Reaktionsrate]**: Verhältnis der Anzahl an Zielgruppenempfängerinnen und -empfängern, die auf einen Versand geklickt haben, in Bezug zur geschätzten Anzahl der Zielgruppenempfängerinnen und -empfänger, die einen Versand geöffnet haben.
++++Erfahren Sie mehr über die Metriken des E-Mail-Versandberichts.
 
-   * **[!UICONTROL Unterschiedliche Klicks (Unique Clicks)]**: Gesamtzahl der unterschiedlichen Empfängerinnen und Empfänger, die einen Versand mindestens einmal angeklickt haben.
+* **[!UICONTROL Reaktionsrate]**: Verhältnis der Anzahl an Zielgruppenempfängerinnen und -empfängern, die auf einen Versand geklickt haben, in Bezug zur geschätzten Anzahl der Zielgruppenempfängerinnen und -empfänger, die einen Versand geöffnet haben.
 
-   * **[!UICONTROL Klicks]**: Gesamtzahl der Klicks auf Links in Sendungen.
+* **[!UICONTROL Unterschiedliche Klicks (Unique Clicks)]**: Gesamtzahl der unterschiedlichen Empfängerinnen und Empfänger, die einen Versand mindestens einmal angeklickt haben.
 
-   * **[!UICONTROL Plattform-Durchschnitt]**: Dieser unter jeder Rate (Reaktivität, Unique Clicks und Klicks insgesamt) angezeigte Wert bezieht sich auf die Gesamtheit der in den letzten sechs Monaten gesendeten Sendungen. Nur Sendungen, die dieselbe Typologie aufweisen und die auf demselben Kanal gesendet wurden, werden berücksichtigt. Testsendungen sind von der Statistik ausgenommen.
+* **[!UICONTROL Klicks]**: Gesamtzahl der Klicks auf Links in Sendungen.
 
-+++
-
-* **[!UICONTROL Die 10 meistbesuchten Links]**: Diagramm und Tabelle mit den verfügbaren Daten für das Empfängerverhalten pro Link.
-
-  ![](assets/reporting_email_8.png){align="center"}
-
-  +++Erfahren Sie mehr über die Metriken des E-Mail-Versandberichts.
-
-   * **[!UICONTROL Klicks]**: Gesamtzahl der Klicks auf Links in Sendungen.
-
-   * **[!UICONTROL Prozentsatz]**: Prozentsatz der Benutzerinnen und Benutzer, die mit dem Versand interagiert haben
+* **[!UICONTROL Plattform-Durchschnitt]**: Dieser unter jeder Rate (Reaktivität, Unique Clicks und Klicks insgesamt) angezeigte Wert bezieht sich auf die Gesamtheit der in den letzten sechs Monaten gesendeten Sendungen. Nur Sendungen, die dieselbe Typologie aufweisen und die auf demselben Kanal gesendet wurden, werden berücksichtigt. Testsendungen sind von der Statistik ausgenommen.
 
 +++
 
-* **[!UICONTROL Aufschlüsselung der Klicks im Zeitverlauf]**: Das Diagramm enthält die verfügbaren Daten zum Empfängerverhalten pro Link.
+### Die 10 meistbesuchten Links {#email-tracking-top10}
 
-  ![](assets/reporting_email_9.png){align="center"}
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_urls_clickstreams_top10"
+>title="Die 10 meistbesuchten Links"
+>abstract="Die **Die 10 am häufigsten besuchten Links** Diagramm und Tabelle enthalten die verfügbaren Daten für das Empfängerverhalten pro Link."
+
+
+Die **[!UICONTROL Die 10 am häufigsten besuchten Links]** Diagramm und Tabelle enthalten die verfügbaren Daten für das Empfängerverhalten pro Link.
+
+![](assets/reporting_email_8.png){align="center"}
+
++++Erfahren Sie mehr über die Metriken des E-Mail-Versandberichts.
+
+* **[!UICONTROL Klicks]**: Gesamtzahl der Klicks auf Links in Sendungen.
+
+* **[!UICONTROL Prozentsatz]**: Prozentsatz der Benutzerinnen und Benutzer, die mit dem Versand interagiert haben
+
++++
+
+### Aufschlüsselung der Klicks im Zeitverlauf {#email-tracking-breakdown-over-time}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_urls_clickstreams_breakdown"
+>title="Aufschlüsselung der Klicks im Zeitverlauf"
+>abstract="Die **Zeitliche Klickverteilung** -Diagramm zeigt die verfügbaren Daten für das Empfängerverhalten pro Link."
+
+
+Die **[!UICONTROL Zeitliche Klickverteilung]** -Diagramm enthält die verfügbaren Daten zum Empfängerverhalten pro Link.
+
+![](assets/reporting_email_9.png){align="center"}
 
 ## Benutzeraktivitäten {#user-activities-email}
 
@@ -332,7 +354,6 @@ Das Diagramm **[!UICONTROL Tracking-Statistiken]** liefert Statistiken über Öf
 +++
 
 ## Aufschlüsselung der Öffnungen {#breakdown-opens}
-
 
 ### Öffnungsverteilung nach Gerät {#breakdown-opens-devices}
 
