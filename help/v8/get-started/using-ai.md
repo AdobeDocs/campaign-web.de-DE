@@ -2,9 +2,9 @@
 title: Verwenden eines KI-gestützten Wissens-Assistenten im Campaign Web
 description: Verwenden eines KI-gestützten Wissens-Assistenten im Campaign Web
 badge: label="Beta"
-source-git-commit: 18dd8ef29c3feb1884a46f433b608ad4cf295703
+source-git-commit: c29864901482c226351fdde8521aebb65a9d673a
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '418'
 ht-degree: 5%
 
 ---
@@ -41,9 +41,12 @@ Künstliche Intelligenz und Modelle des maschinellen Lernens werden im Laufe der
 
 ## Empfehlungen  {#recommendations-ai}
 
-Bei der Beantwortung einer Frage im KI-gestützten Knowledge Assistant werden der aktuelle Produktkontext, d. h. der Kampagnenbildschirm, in dem Sie sich befinden, und der Inhalt der aktuellen Hilfeseite berücksichtigt.
+Bei der Beantwortung einer Frage im KI-gestützten Knowledge Assistant werden der aktuelle Produktkontext, d. h. der Bildschirm, in dem Sie sich befinden, und der Inhalt der aktuellen Hilfebox berücksichtigt.
 
-Wenn Sie eine Frage stellen, empfehlen wir Ihnen Folgendes, um das Beste aus der KI-gestützten Knowledge Assistant zu erhalten:
+Daher empfiehlt es sich, Fragen zum Kontext der Benutzeroberfläche zu stellen. Wenn Sie beispielsweise erfahren müssen, wie Sie einen Push-Versand in einem Workflow senden, navigieren Sie zu **Workflow** Menüeintrag links und verwenden Sie in diesem Kontext ein kontextbezogenes Hilfefeld. Um mehr über Berichtsmetriken zu erfahren, navigieren Sie zu den Kampagnen- oder Versandberichten und beginnen Sie von dort aus.
+
+
+Um das Beste aus der KI-gestützten Wissensassistenten zu erhalten, empfehlen wir Ihnen außerdem, bei Fragen Folgendes zu beachten:
 
 * So präzise und spezifisch wie möglich sein und Unklarheiten vermeiden. Die Antwort wird genauer und hilfreicher sein.
 * Um den KI-gestützten Wissensassistenten bei der Suche nach den richtigen Informationen zu unterstützen, fügen Sie so viele Details wie möglich zu dem hinzu, was Sie versuchen zu lernen.

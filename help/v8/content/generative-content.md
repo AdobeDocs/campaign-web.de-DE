@@ -3,7 +3,7 @@ audience: end-user
 title: Text mit dem Inhaltsassistenten
 description: Erste Schritte mit dem Inhaltsassistenten
 badge: label="Beta"
-source-git-commit: 18dd8ef29c3feb1884a46f433b608ad4cf295703
+source-git-commit: 4c6cb39e33ac781cbb2cfe3a0945ef12ab39a243
 workflow-type: tm+mt
 source-wordcount: '384'
 ht-degree: 5%
@@ -12,6 +12,8 @@ ht-degree: 5%
 
 
 # Texterstellung mit dem Inhaltsassistenten {#generative-content}
+
+
 
 Nachdem Sie Ihre E-Mails erstellt und personalisiert haben, verwenden Sie den Inhaltsassistenten mit generativer KI, um Ihren Inhalt auf die nächste Stufe zu bringen.
 
