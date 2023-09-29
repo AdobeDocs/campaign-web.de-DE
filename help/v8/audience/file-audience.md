@@ -4,10 +4,10 @@ title: Ansprechen von Empfängerinnen und Empfängern aus einer Datei
 description: Erfahren Sie, wie Sie mit Empfängerinnen und Empfängern aus einer externen Datei eine E-Mail-Zielgruppe erstellen können.
 badge: label="Beta"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: 27023835804d11e169b87239d6fe67c20bc987e5
-workflow-type: ht
-source-wordcount: '580'
-ht-degree: 100%
+source-git-commit: 92882488c33cd0d7d8449ddfc6c50d2c37b47752
+workflow-type: tm+mt
+source-wordcount: '596'
+ht-degree: 97%
 
 ---
 
@@ -27,6 +27,14 @@ ht-degree: 100%
 >id="acw_audience_fromfile_formatting"
 >title="Formatierungsparameter"
 >abstract="Überprüfen Sie die Formatierungsparameter für Ihre Datei."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_audience_fromfile_preview"
+>title="Vorschau der Datei anzeigen"
+>abstract="Überprüfen Sie die Vorschau Ihrer Datei. Dieser Bildschirm zeigt nur bis zu 30 Datensätze an."
+
+
 
 Es ist nicht möglich, Profile direkt über die Benutzeroberfläche in Campaign hochzuladen. Sie können jedoch auch Profile auswählen, die in einer externen Datei gespeichert sind. Profile werden nicht zur Datenbank hinzugefügt, aber alle Felder in der Eingabedatei können [personalisiert](../personalization/gs-personalization.md) werden. Unterstützte Dateiformate sind: Text (TXT) und kommagetrennte Werte (CSV).
 
