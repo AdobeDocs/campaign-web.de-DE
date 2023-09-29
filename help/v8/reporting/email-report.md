@@ -3,9 +3,9 @@ audience: end-user
 title: E-Mail-Versandberichte
 description: Erfahren Sie, wie Sie auf E-Mail-Versandberichte zugreifen und diese verwenden können
 badge: label="Beta"
-source-git-commit: bd7d478d76c04d7dd644514ab08641b9e797f715
+source-git-commit: 3c679ad284f15a46885829b68c8ebea1e99e2b98
 workflow-type: tm+mt
-source-wordcount: '2257'
+source-wordcount: '2254'
 ht-degree: 68%
 
 ---
@@ -19,7 +19,7 @@ Der **E-Mail-Versandbericht** bietet umfassende Einblicke und Daten, die speziel
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sending_email"
 >title="Versandberichte"
->abstract="Auf der Registerkarte **Senden** Ihres Berichts erhalten Sie einen umfassenden Einblick in die Interaktionen Ihrer Besucherinnen und Besucher mit Ihren Sendungen sowie in etwaige Fehler, die bei ihnen aufgetreten sind."
+>abstract="Auf der Registerkarte **Senden** Ihres Berichts erhalten Sie einen umfassenden Einblick in die Interaktionen Ihrer Besucherinnen und Besucher mit Ihren Sendungen und in etwaige Fehler, die bei ihnen aufgetreten sind."
 
 ### Anfängliche Zielpopulation {#email-delivery-targeted-population}
 
@@ -106,7 +106,7 @@ Die **[!UICONTROL Ausschlussgründe]** Diagramm und Tabelle zeigen die Verteilun
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_throughput_email"
->title="Versanddurchsatz Widget"
+>title="Versanddurchsatz"
 >abstract="Der Bericht **Versanddurchsatz** enthält detaillierte Informationen zum Versanddurchsatz der gesamten Plattform innerhalb eines bestimmten Zeitraums."
 
 Dieser Bericht enthält detaillierte Informationen zum Versanddurchsatz der gesamten Plattform innerhalb eines bestimmten Zeitraums. Die wichtigste Kennzahl, mit der die Geschwindigkeit des Nachrichtenversands gemessen wird, ist die Anzahl der pro Stunde gesendeten Nachrichten.
@@ -118,7 +118,7 @@ Dieser Bericht enthält detaillierte Informationen zum Versanddurchsatz der gesa
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_broadcast_statistics"
->title="Widget „Broadcast-Statistiken“"
+>title="Versandstatistiken"
 >abstract="Die **Versandstatistiken** enthält die verfügbaren Daten zu Fehlern, die bei jeder Domain aufgetreten sind."
 
 Die Tabelle **[!UICONTROL Broadcast-Statistiken]** enthält die verfügbaren Daten zu Fehlern, die bei jeder Domain aufgetreten sind. Die Metriken werden nachfolgend beschrieben.
@@ -235,7 +235,7 @@ Die **[!UICONTROL Versandstatistiken]** bietet wichtige Leistungsindikatoren (KP
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_open_clickthrough"
->title="Widget „Öffnungs- und Klickrate“"
+>title="Öffnungs- und Klickrate"
 >abstract="Die Tabelle **Öffnungs- und Klickrate** zeigt Daten bezüglich der Interaktionen Ihrer Empfängerinnen und Empfänger mit dem Versand an."
 
 
@@ -306,7 +306,7 @@ Die **[!UICONTROL Die 10 am häufigsten besuchten Links]** Diagramm und Tabelle 
 
 
 >[!CONTEXTUALHELP]
->id="acw_delivery_reporting_urls_clickstreams_breakdown"
+>id="acw_delivery_reporting_urls_click_breakdown"
 >title="Aufschlüsselung der Klicks im Zeitverlauf"
 >abstract="Die **Zeitliche Klickverteilung** -Diagramm zeigt die verfügbaren Daten für das Empfängerverhalten pro Link."
 

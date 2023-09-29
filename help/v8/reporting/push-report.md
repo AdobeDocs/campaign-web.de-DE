@@ -3,7 +3,7 @@ audience: end-user
 title: Push-Versandberichte
 description: Erfahren Sie, wie Sie auf Push-Versandberichte zugreifen und diese verwenden können
 badge: label="Beta"
-source-git-commit: dfa5e38945e40758f9e3aaa89576bdd2789525fd
+source-git-commit: 3c679ad284f15a46885829b68c8ebea1e99e2b98
 workflow-type: tm+mt
 source-wordcount: '487'
 ht-degree: 63%
@@ -11,11 +11,6 @@ ht-degree: 63%
 ---
 
 # Push-Versandberichte {#push-report}
-
->[!CONTEXTUALHELP]
->id="acw_push_report_overview"
->title="Zusammenfassung des Push-Versandberichts"
->abstract="Die **Übersicht über den Push-Versand** bietet einen umfassenden Überblick über Ihren Push-Versand, mit umfassenden Einblicken und spezifischen Daten. Sie bietet umfassende Informationen über Leistung, Effektivität und Ergebnisse Ihres Versands."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sending_push"
@@ -27,6 +22,11 @@ Der **Push-Versandbericht** bietet einen umfassenden Überblick über den Push-K
 ## Push-Zusammenfassung {#push-summary}
 
 ### Versandübersicht {#push-delivery-overview}
+
+>[!CONTEXTUALHELP]
+>id="acw_push_report_overview"
+>title="Zusammenfassung des Push-Versandberichts"
+>abstract="Die **Übersicht über den Push-Versand** bietet einen umfassenden Überblick über Ihren Push-Versand, mit umfassenden Einblicken und spezifischen Daten. Sie bietet umfassende Informationen über Leistung, Effektivität und Ergebnisse Ihres Versands."
 
 Die **[!UICONTROL Versandübersicht]** liefert wichtige Leistungsindikatoren (KPIs), die detaillierte Informationen zur Interaktion Ihrer Besucher mit Ihren Push-Nachrichten enthalten.
 
@@ -45,7 +45,6 @@ Die **[!UICONTROL Versandübersicht]** liefert wichtige Leistungsindikatoren (KP
 +++
 
 ### Zielpopulation {#push-delivery-targeted-population}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_push_targeted_population"

@@ -3,7 +3,7 @@ audience: end-user
 title: Kampagnenberichte für den E-Mail-Kanal
 description: Weitere Informationen zu Kampagnenberichten für den E-Mail-Kanal
 badge: label="Beta"
-source-git-commit: 0fee0bd74be36e2c5defc14021505f169776dcd3
+source-git-commit: 3c679ad284f15a46885829b68c8ebea1e99e2b98
 workflow-type: tm+mt
 source-wordcount: '1546'
 ht-degree: 64%
@@ -282,7 +282,7 @@ Die **[!UICONTROL Die 10 am häufigsten besuchten Links]** Diagramm und Tabelle 
 
 
 >[!CONTEXTUALHELP]
->id="acw_delivery_campaign_urls_clickstreams_breakdown"
+>id="acw_delivery_campaign_urls_click_breakdown"
 >title="Aufschlüsselung der Klicks im Zeitverlauf"
 >abstract="Die **Zeitliche Klickverteilung** -Diagramm zeigt die verfügbaren Daten für das Empfängerverhalten pro Link."
 

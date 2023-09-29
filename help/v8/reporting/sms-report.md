@@ -3,7 +3,7 @@ audience: end-user
 title: SMS-Versandberichte
 description: Erfahren Sie, wie Sie auf SMS-Versandberichte zugreifen und diese verwenden können
 badge: label="Beta"
-source-git-commit: dfa5e38945e40758f9e3aaa89576bdd2789525fd
+source-git-commit: 3c679ad284f15a46885829b68c8ebea1e99e2b98
 workflow-type: tm+mt
 source-wordcount: '503'
 ht-degree: 66%
@@ -13,11 +13,6 @@ ht-degree: 66%
 # SMS-Versandberichte {#sms-report}
 
 >[!CONTEXTUALHELP]
->id="acw_sms_report_overview"
->title="SMS-Versand – Überblick"
->abstract="Der **Überblick über den SMS-Versand** bietet einen umfassenden Überblick über Ihren SMS-Versand, mit umfangreichen Einblicken und spezifischen Daten. Er bietet umfassende Informationen über Leistung, Effektivität und Ergebnisse jedes Versands."
-
->[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sending_sms"
 >title="Versandberichte"
 >abstract="Auf der Registerkarte **Senden** Ihres Berichts erhalten Sie einen umfassenden Einblick in die Interaktionen Ihrer Besucherinnen und Besucher mit Ihren Sendungen und in etwaige Fehler, die bei ihnen aufgetreten sind."
@@ -25,6 +20,11 @@ ht-degree: 66%
 Die **Übersicht über den SMS-Versand** bietet einen umfassenden Überblick über Ihren SMS-Versand, mit umfangreichen Einblicken und spezifischen Daten. Er bietet umfassende Informationen über Leistung, Effektivität und Ergebnisse jedes Versands.
 
 ## Versandzusammenfassung {#delivery-summary}
+
+>[!CONTEXTUALHELP]
+>id="acw_sms_report_overview"
+>title="SMS-Versand – Überblick"
+>abstract="Der **Überblick über den SMS-Versand** bietet einen umfassenden Überblick über Ihren SMS-Versand, mit umfangreichen Einblicken und spezifischen Daten. Er bietet umfassende Informationen über Leistung, Effektivität und Ergebnisse jedes Versands."
 
 ### Versandübersicht {#sms-delivery-overview}
 
