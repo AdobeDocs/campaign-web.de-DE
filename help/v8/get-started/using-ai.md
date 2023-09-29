@@ -1,17 +1,22 @@
 ---
 title: Verwenden eines KI-gestützten Wissens-Assistenten im Campaign Web
 description: Verwenden eines KI-gestützten Wissens-Assistenten im Campaign Web
-badge: label="Beta"
-source-git-commit: c29864901482c226351fdde8521aebb65a9d673a
+badge: label="Alpha"
+source-git-commit: 2b499b854110cd317b47b9a7d3884467869624f1
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 5%
+source-wordcount: '433'
+ht-degree: 4%
 
 ---
 
 # Verwenden des KI-gestützten Knowledge Assistant {#using-ai}
 
 Mit dem KI-gestützten Knowkedge-Assistenten erhalten Sie auf der Basis der Produktdokumentation und Ihres aktuellen Produktkontexts schnelle und KI-generierte Antworten, die in den kontextbezogenen Hilfefeldern des Produkts verfügbar sind.
+
+>[!NOTE]
+>
+>Diese Funktion ist in ihrer Alpha-Version verfügbar und kann ohne vorherige Ankündigung geändert werden.
+
 
 Die **Knowledge Assistant bei Gen AI** eingebettet in die kontextuelle Hilfe revolutioniert die Dokumentationssuche und Beantwortung von Fragen durch mühelose Durchblättern von umfangreichen Dokumentations-Repositorys und zeigt sofort die benötigten Informationen an.
 

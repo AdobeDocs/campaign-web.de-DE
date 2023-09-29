@@ -2,8 +2,10 @@
 audience: end-user
 title: Generieren von Bildern mit dem Inhaltsassistenten
 description: Erste Schritte mit dem Inhaltsassistenten
-badge: label="Beta"
-source-git-commit: 18dd8ef29c3feb1884a46f433b608ad4cf295703
+badge: label="Alpha"
+hide: true
+hidefromtoc: true
+source-git-commit: 2b499b854110cd317b47b9a7d3884467869624f1
 workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 2%

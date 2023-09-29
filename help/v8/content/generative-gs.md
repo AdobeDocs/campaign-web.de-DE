@@ -2,10 +2,10 @@
 audience: end-user
 title: Erste Schritte mit dem Inhaltsassistenten
 description: Erste Schritte mit dem Inhaltsassistenten
-badge: label="Beta"
-source-git-commit: 2da9bdab7e8a5050d0e4e0531fc30f85870de70f
+badge: label="Alpha"
+source-git-commit: 2b499b854110cd317b47b9a7d3884467869624f1
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '379'
 ht-degree: 1%
 
 ---
@@ -28,8 +28,12 @@ Der Inhaltsassistent, der auf generativer KI basiert, ist ein wertvolles Werkzeu
 
 Diese Funktion spart Zeit und gewährleistet konsistente Qualität, indem automatisch vollständige E-Mail-Inhalte generiert werden. Mit Generative AI können Sie mühelos ansprechende E-Mails erstellen und so die Effektivität und Effizienz Ihrer Kommunikation steigern.
 
-Sie können den Campaign-Inhaltsassistenten in Ihren E-Mails wie folgt einrichten: [Bilder generieren](generative-image.md), [Textinhalt generieren](generative-content.md), [den vollständigen HTML-Inhalt generieren](generative-email.md).
+<!--
+You can the Campaign Content Assistant in your emails to: [generate images](generative-image.md), [generate text content](generative-content.md), [generate the full HTML content](generative-email.md).-->
 
+>[!NOTE]
+>
+>Diese Funktion ist in ihrer Alpha-Version verfügbar und kann ohne vorherige Ankündigung geändert werden. Sie wird Anfang Oktober aktiviert.
 
 ## Schutzmechanismen und Begrenzungen {#generative-guardrails}
 
@@ -48,31 +52,34 @@ Die folgenden Einschränkungen gelten für den Campaign Content Assistant:
 * GenAI-Inhalte sind möglicherweise nicht immer genau: Teilen Sie bitte Ihr Feedback mit, damit unsere Ingenieure die Modelle verfeinern können.
 * Sie können mehrere Marken-Assets hochladen, jedoch nur eines für eine bestimmte Generation verwenden
 
+
+<!--
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="generative-content.md">
-<img alt="Texterzeugung" src="assets/do-not-localize/text-genai.jpeg">
+<img alt="Text generation" src="assets/do-not-localize/text-genai.jpeg">
 </a>
 <div>
-<a href="generative-content.md"><strong>Texterstellung mit dem Inhaltsassistenten</strong></a>
+<a href="generative-content.md"><strong>Text generation with the Content Assistant</strong></a>
 </div>
 <p>
 </td>
 <td>
 <a href="generative-image.md">
-<img alt="Bildgenerierung" src="assets/do-not-localize/image-genai.jpeg">
+<img alt="Image generation" src="assets/do-not-localize/image-genai.jpeg">
 </a>
-<div><a href="generative-image.md"><strong>Generieren von Bildern mit dem Inhaltsassistenten</strong>
+<div><a href="generative-image.md"><strong>Image generation with the Content Assistant</strong>
 </div>
 <p>
 </td>
 <td>
 <a href="generative-email.md">
-<img alt="E-Mail-Erzeugung" src="assets/do-not-localize/email-genai.jpeg">
+<img alt="Email generation" src="assets/do-not-localize/email-genai.jpeg">
 </a>
 <div>
-<a href="generative-email.md"><strong>E-Mail-Generierung mit dem Inhaltsassistenten</strong></a>
+<a href="generative-email.md"><strong>Email generation with the Content Assistant</strong></a>
 </div>
 <p></td>
 </tr></table>
+-->
 
