@@ -4,10 +4,10 @@ title: Versandberichte
 description: Erfahren Sie, wie Sie auf Versandberichte zugreifen und diese verwenden können
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
 badge: label="Beta"
-source-git-commit: 91d61dffbc66590a0326ba3ac3c8b9d8cece91de
+source-git-commit: 3a7b273f23590c60313b4deb4b141223699d14e3
 workflow-type: tm+mt
-source-wordcount: '149'
-ht-degree: 91%
+source-wordcount: '195'
+ht-degree: 65%
 
 ---
 
@@ -34,12 +34,22 @@ Führen Sie folgende Schritte aus, um Berichte anzuzeigen:
 
    ![](assets/reporting2.png)
 
+   Alternativ können Sie die drei Punkte verwenden **Mehr Aktionen** neben dem Versandnamen in der Kampagnenliste, wie unten dargestellt:
+
+   ![](assets/campaign-reports-view.png){width="50%" align="left" zoomable="yes"}
+
 1. Wählen Sie im linken Menü einen Bericht aus der Liste aus.
 
    ![](assets/reporting.png)
 
-1. Wenn Ihr Versand wiederkehrend ist, können Sie einen bestimmten Versand auswählen, zu dem ein Bericht erstellt werden soll, indem Sie auf **[!UICONTROL Sendungen auswählen]** klicken.
+1. Wenn Ihr Versand wiederkehrend ist, wählen Sie einen bestimmten Versand aus, über den ein Bericht erstellt werden soll, indem Sie auf **[!UICONTROL Sendungen auswählen]**.
 
    Sie können auch einen Zeitraum auf Ihren Bericht anwenden, indem Sie das **[!UICONTROL Kontaktdatum]** auswählen.
 
    ![](assets/delivery-recurring.png)
+
+Die vollständige Liste der Berichte und zugehörigen Metriken für jeden Kanal finden Sie auf den folgenden Seiten:
+
+* [E-Mail-Versandberichte](email-report.md)
+* [SMS-Versandberichte](sms-report.md)
+* [Push-Versandberichte](push-report.md)
