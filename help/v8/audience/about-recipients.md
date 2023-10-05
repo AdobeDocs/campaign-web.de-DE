@@ -2,13 +2,13 @@
 title: Arbeiten mit Empfängerinnen bzw. Empfängern und Zielgruppen
 description: Erfahren Sie, wie Sie mit Empfängern im Campaign-Web arbeiten.
 badge: label="Beta"
-source-git-commit: 424caa898ff9d73f3520aa6d682eb1963d992069
+exl-id: 71a1ec92-cd79-4654-9ae3-9a92a01c6279
+source-git-commit: 332bcd3788ac137a60e7973d4e54b8cea22a9333
 workflow-type: tm+mt
-source-wordcount: '1022'
-ht-degree: 22%
+source-wordcount: '1027'
+ht-degree: 20%
 
 ---
-
 
 # Arbeiten mit Empfängerinnen bzw. Empfängern und Zielgruppen {#about-recipients}
 
@@ -47,13 +47,13 @@ Empfänger können auch über die **Explorer** Anzeigen, Durchsuchen und Erstell
 >
 >Abhängig von Ihren Berechtigungen haben Sie möglicherweise keinen Zugriff auf die vollständige Liste der in der Datenbank gespeicherten Empfänger. Weiterführende Informationen zu Berechtigungen finden Sie in [diesem Abschnitt](../get-started/permissions.md).
 
-Darüber hinaus können Sie die An- und Abmeldung Ihrer Empfänger für Dienste wie Newsletter verwalten. [Erfahren Sie, wie Sie mit Abonnementdiensten arbeiten können.](manage-services.md)
+Darüber hinaus können Sie die An- und Abmeldung Ihrer Empfänger für Dienste wie Newsletter verwalten. Erfahren Sie, wie Sie mit Abonnementdiensten in arbeiten können. [diese Seite](manage-services.md)
 
 Sie können Workflows erstellen, um Profile zu deduplizieren, anzureichern, zu kombinieren und Audiences zu erstellen. Weiterführende Informationen finden Sie in [diesem Abschnitt](../workflows/gs-workflows.md).
 
 ## Was sind Zielgruppen? {#audiences}
 
-Die Zielgruppe ist das wichtigste Ziel Ihres Versands: die Empfängerinnen und Empfänger, die die Nachrichten erhalten. Der Zielgruppentyp hängt vom in der Versandvorlage definierten Zielgruppen-Mapping ab. [Versandvorlage erfahren](../msg/delivery-template.md).
+Die Zielgruppe ist das wichtigste Ziel Ihres Versands: die Empfängerinnen und Empfänger, die die Nachrichten erhalten. Der Zielgruppentyp hängt vom in der Versandvorlage definierten Zielgruppen-Mapping ab. Weitere Informationen zu Versandvorlagen finden Sie in [diese Seite](../msg/delivery-template.md).
 
 Zur Bestimmung der Audience-Population haben Sie folgende Möglichkeiten:
 
@@ -66,7 +66,7 @@ Beim Targeting einer Audience können Sie auch **Kontrollgruppen** um zu vermeid
 
 >[!NOTE]
 >
->Beim Versand von Nachrichten im Rahmen eines Kampagnen-Workflows wird die Audience in einem bestimmten **Audience erstellen** Workflow-Aktivität. In diesem Zusammenhang ist es nicht möglich, eine Zielgruppe aus einer Datei für einen E-Mail-Versand zu laden. Die Zielgruppe wird nur in dieser dedizierten Aktivität definiert. [In diesem Abschnitt](../workflows/activities/build-audience.md) erfahren Sie, wie Sie die Zielgruppe Ihres Versands in einem Kampagnen-Workflow definieren
+>Beim Versand von Nachrichten im Rahmen eines Kampagnen-Workflows wird die Audience in einem bestimmten **Audience erstellen** Workflow-Aktivität. In diesem Zusammenhang ist es nicht möglich, eine Zielgruppe aus einer Datei für einen E-Mail-Versand zu laden. Die Zielgruppe wird nur in dieser dedizierten Aktivität definiert. Erfahren Sie, wie Sie die Audience Ihres Versands in einem Kampagnen-Workflow definieren können in [diesem Abschnitt](../workflows/activities/build-audience.md)
 
 ## Zielgruppendimensionen {#targeting-dimensions}
 
