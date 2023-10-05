@@ -4,10 +4,10 @@ title: Versandberichte
 description: Erfahren Sie, wie Sie auf Versandberichte zugreifen und diese verwenden können
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
 badge: label="Beta"
-source-git-commit: 3a7b273f23590c60313b4deb4b141223699d14e3
+source-git-commit: 4ba96c4407f95588630956bc9f38e5da66602fee
 workflow-type: tm+mt
-source-wordcount: '195'
-ht-degree: 65%
+source-wordcount: '204'
+ht-degree: 62%
 
 ---
 
@@ -21,8 +21,8 @@ ht-degree: 65%
 
 >[!CONTEXTUALHELP]
 >id="acw_reporting_email_exportation"
->title="Neu laden"
->abstract="Klicken Sie auf **Neu laden** -Schaltfläche, um die letzten Metriken abzurufen und Daten zu aktualisieren."
+>title="Exportieren"
+>abstract="Klicken Sie auf **Export** -Schaltfläche, um diese Metriken in PDF- oder CSV-Formate zu exportieren, mit denen Sie sie freigeben oder drucken können. "
 
 Adobe Campaign bietet verschiedene Berichtstypen für jeden Versand. Mit diesen Berichten können Sie die Wirkung und Leistung Ihrer Nachrichten in einem integrierten Dashboard messen und visualisieren.
 
