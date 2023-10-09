@@ -2,20 +2,23 @@
 title: Verwenden eines KI-gestützten Wissens-Assistenten im Campaign Web
 description: Verwenden eines KI-gestützten Wissens-Assistenten im Campaign Web
 badge: label="Alpha"
-source-git-commit: 2b499b854110cd317b47b9a7d3884467869624f1
+exl-id: 577f4652-b3e5-4fa1-9a98-91815fe92d83
+source-git-commit: 26472ea4bedd256fd4c63a691656373e7d08cafc
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '450'
 ht-degree: 4%
 
 ---
 
 # Verwenden des KI-gestützten Knowledge Assistant {#using-ai}
 
-Mit dem KI-gestützten Knowkedge-Assistenten erhalten Sie auf der Basis der Produktdokumentation und Ihres aktuellen Produktkontexts schnelle und KI-generierte Antworten, die in den kontextbezogenen Hilfefeldern des Produkts verfügbar sind.
+Mit dem KI-gestützten Knowkedge-Assistenten für Fragen und Antworten, der in den kontextuellen Hilfefeldern für Produkte verfügbar ist, erhalten Sie schnelle, KI-generierte Antworten auf Basis der Produktdokumentation und Ihres aktuellen Produktkontexts.
 
->[!NOTE]
+>[!CAUTION]
 >
 >Diese Funktion ist in ihrer Alpha-Version verfügbar und kann ohne vorherige Ankündigung geändert werden.
+>
+>Diese Funktion ist nur verfügbar in **englisch**. Andere Sprachen werden in dieser Version nicht unterstützt.
 
 
 Die **Knowledge Assistant bei Gen AI** eingebettet in die kontextuelle Hilfe revolutioniert die Dokumentationssuche und Beantwortung von Fragen durch mühelose Durchblättern von umfangreichen Dokumentations-Repositorys und zeigt sofort die benötigten Informationen an.
@@ -58,5 +61,3 @@ Um das Beste aus der KI-gestützten Wissensassistenten zu erhalten, empfehlen wi
 * Nehmen Sie Ihre Fragen neu auf und verfeinern Sie sie, um bessere Antworten zu erhalten. Wenn die Antwort nicht präzise oder nützlich ist, versuchen Sie verschiedene Ansätze und fügen Sie Kontext hinzu, um bessere Ergebnisse zu erzielen.
 * Verwenden Sie geeignete Begriffe und Formulierungen mit einem neutralen Ton.
 * Bewerten Sie die Antworten und geben Sie Feedback, damit unsere Ingenieure aus Ihren Erfahrungen lernen und die Ergebnisse verbessern können.
-
-
