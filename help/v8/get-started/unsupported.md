@@ -1,19 +1,19 @@
 ---
 audience: end-user
-title: Nicht unterstützte Funktionen in der Campaign-Web-Benutzeroberfläche
-description: Liste der nicht unterstützten Funktionen in der Campaign-Web-Benutzeroberfläche
+title: Nicht unterstützte Funktionen in der Campaign Web-Benutzeroberfläche
+description: Liste der nicht unterstützten Funktionen in der Campaign Web-Benutzeroberfläche
 badge: label="Beta"
 hide: true
 hidefromtoc: true
-source-git-commit: e72790238d9a8e23fe18131af436ffea9bacc3cc
-workflow-type: tm+mt
+exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+workflow-type: ht
 source-wordcount: '350'
-ht-degree: 12%
+ht-degree: 100%
 
 ---
 
-
-# Nicht unterstützte Funktionen im Campaign Web {#unsupported-capabilities}
+# Nicht unterstützte Funktionen in Campaign Web {#unsupported-capabilities}
 
 Die folgenden Funktionen sind in der Campaign-Client-Konsole verfügbar, aber noch nicht in der Web-Benutzeroberfläche. Einige werden in einer späteren Version verfügbar sein, andere jedoch nicht.
 
@@ -24,10 +24,10 @@ Die folgenden Funktionen sind in der Campaign-Client-Konsole verfügbar, aber no
 
 **Kampagnen-Management**
 
-* Marketingkalender/Timeline
-* Verwaltung von Budgets und Kosten
+* Marketing-Kalender/Timeline
+* Verwaltung von Budget und Kosten
 * Aufgabenverwaltung
-* Dezentrales Marketing (zentrales/lokales Marketing)
+* Verteiltes Marketing (zentrales/lokales Marketing)
 * Reaktionsverwaltung
 * A/B-Tests
 * Marketing Resource Management (MRM), Ziele, Simulationen, Budget und Kosten
@@ -39,13 +39,13 @@ Die folgenden Funktionen sind in der Campaign-Client-Konsole verfügbar, aber no
 * Callcenter
 * Benutzerspezifischer Kanal
 
-**Webinhalt**
+**Web-Inhalt**
 
 * Erstellung und Veröffentlichung von Landingpages
 * Web-Apps, Web-Formulare
-* Survey Management
+* Umfrage-Management
 
-**Profile und Empfänger**
+**Profile und Empfängerinnen bzw. Empfänger**
 
 * Profilerstellung
 * Profil-Dashboard
@@ -54,16 +54,16 @@ Die folgenden Funktionen sind in der Campaign-Client-Konsole verfügbar, aber no
 
 **Transaktionsnachrichten**
 
-* Erstellung und Ausführung von Echtzeitnachrichten in E-Mails, SMS und Push-Benachrichtigungen
+* Echtzeit-Erstellung und -Ausführung von Nachrichten in E-Mails, SMS und Push-Benachrichtigungen
 * Anreicherung und Personalisierung von Nachrichten
-* Trigger (Adobe Analytics Warenkorbabbruch)
+* Trigger (Adobe Analytics-Warenkorbabbruch)
 * Berichterstattung und Überwachung von Transaktionsnachrichten
 
-**Inhaltserstellung**
+**Inhaltsgestaltung**
 
-* Inhalt aus öffentlichen Mitteln
-* Schleifen/Sammlungsverwaltung
-* HTML-Inhalt als Vorlage speichern`*`
+* Inhalt aus öffentlichen Ressourcen
+* Schleifen-/Sammlungsverwaltung
+* Speichern eines HTML-Inhalts als Vorlage`*`
 * E-Mail-Vorlagensynchronisation von Adobe Experience Manager
 * Assets aus Adobe Experience Manager 6.5 in E-Mail-Inhalten
 * Erstellung von Inhaltsbausteinen
@@ -72,7 +72,7 @@ Die folgenden Funktionen sind in der Campaign-Client-Konsole verfügbar, aber no
 * E-Mail-Fragmente
 * AMP für E-Mails
 * E-Mail-Fragmente`*`
-* Anwendungsfall: Multivarianz/Mehrsprachig`*`
+* Multivarianz-/Mehrsprachiger Anwendungsfall`*`
 
 **Typologieregeln**
 
@@ -80,16 +80,16 @@ Die folgenden Funktionen sind in der Campaign-Client-Konsole verfügbar, aber no
 * Erstellung von Ermüdungsregeln
 * Erstellung von Filterregeln
 * Verwaltung von Typologieregeln
-* JavaScript-Kodierung für die Erstellung von Typologieregeln
+* JavaScript-Codierung für die Erstellung von Typologieregeln
 
 **Workflows**
 
 * Skripterstellung in Workflows
-* ETL-Aktivitäten: Exportieren, Schema bearbeiten, Laden, Datenextraktion, SQL-Code
+* ETL-Aktivitäten: exportieren, Schema bearbeiten, laden, Datenextraktion, SQL-Code
 
-**Angebotsverwaltung**
+**Offer Decisioning**
 
-* Angebote mit Eignungsregeln erstellen
+* Entwerfen von Angeboten mit Eignungsregeln
 
 **Integrationen mit Adobe Experience Cloud-Lösungen***
 
@@ -97,29 +97,29 @@ Die folgenden Funktionen sind in der Campaign-Client-Konsole verfügbar, aber no
 * Freigabe von Adobe Analytics-KPIs
 * Verwendung von Adobe Audience Manager-Segmenten
 * Integration mit Adobe Target
-* Integration mit Adobe-Triggern
+* Integration mit Adobe Triggers
 
 **Reporting**
 
-* Im Zustellbarkeitsbericht integriert
+* Integrierter Zustellbarkeitsbericht
 * Integrierter globaler Bericht
 * Berichtsanpassungen
-* Berichtfreigabe planmäßig als PDF und CSV oder Link
-* Einen Bericht als CSV- oder PDF-Datei exportieren/herunterladen
+* Planmäßige Berichtfreigabe als PDF und CSV oder Link
+* Exportieren/Herunterladen eines Berichts als CSV- oder PDF-Datei 
 
-**Datenmodellierung und Datenerfassung**
+**Datenmodellierung und Datenaufnahme**
 
 * Externe Konten
 * Schemaerweiterung
-* Workflow-Aktivitäten für das Daten-Management: Laden, Extraktion (Datei), Daten-Update, Schema-Bearbeitung, Technische Workflows zum Import/Export
-* Kampagnenkonfiguration und -verbindung zu externen Systemen
+* Workflow-Aktivitäten für das Daten-Management: Laden, Extraktion (Datei), Daten-Update, Schemabearbeitung, technische Workflows zum Import/Export
+* Kampagnenkonfiguration und -verbindung mit externen Systemen
 
-**Validierungen**
+**Genehmigungen**
 
-* Inhaltsvalidierung
-* Versandvalidierung
-* Validierung der Kampagne
-* Validierung der Zielgruppe
+* Inhaltsgenehmigung
+* Versandgenehmigung
+* Kampagnengenehmigung
+* Genehmigung der Zielgruppe
 
 
 `*` Nicht in der Client-Konsole verfügbar

@@ -3,10 +3,11 @@ audience: end-user
 title: Erste Schritte mit Berichten
 description: Erfahren Sie, wie Sie in Campaign Web auf Berichte zugreifen und diese verwalten können.
 badge: label="Beta"
-source-git-commit: b7f43e5d3434da63a05c5c76d2edef960ee3a826
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+exl-id: b353bc86-2228-4e02-879c-ae9425c48489
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+workflow-type: ht
+source-wordcount: '176'
+ht-degree: 100%
 
 ---
 
@@ -16,9 +17,9 @@ Unsere umfassende Suite an Reporting-Tools bietet wertvolle Einblicke in die Eff
 
 Adobe Campaign bietet zwei unterschiedliche Berichte:
 
-* **Versandberichte**: Die **Versandberichte** bietet umfassende Einblicke und für jeden Kanal spezifische Daten. Diese Berichte enthalten detaillierte Informationen über Leistung, Effektivität und Ergebnisse Ihrer Sendungen und bieten Ihnen einen umfassenden Überblick.
+* **Versandberichte**: Die **Versandberichte** bieten für jeden speziellen Kanal umfassende Einblicke und Daten. Diese Berichte enthalten detaillierte Informationen über Leistung, Effektivität und Ergebnisse Ihrer einzelnen Sendungen und verschaffen Ihnen einen umfassenden Überblick.
 
-* **Kampagnenberichte**: Die **Kampagnenberichte** einen umfassenden Überblick über Ihre Kampagne mit allen relevanten Informationen zu den verschiedenen Sendungen bieten. Diese Berichte bieten eine gründliche Analyse der Leistung jedes Versands pro Kanal: Erfolgsraten, Zielgruppeninteraktion und andere wichtige Metriken. Sie ermöglichen es Ihnen, die Effektivität und Wirkung Ihrer Kampagne insgesamt zu bewerten.
+* **Kampagnenberichte**: Die **Kampagnenberichte** bieten einen umfassenden Überblick über Ihre Kampagne und enthalten alle relevanten Informationen zu den verschiedenen zugehörigen Sendungen. Diese Berichte enthalten eine gründliche Analyse der Leistung jedes Versands pro Kanal: Erfolgsraten, Zielgruppeninteraktion und andere wichtige Metriken. Sie ermöglichen es Ihnen, die Effektivität und Wirkung Ihrer Kampagne insgesamt zu bewerten.
 
 
 <table style="table-layout:fixed"><tr style="border: 0;">

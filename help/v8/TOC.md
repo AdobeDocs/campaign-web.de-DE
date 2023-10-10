@@ -6,9 +6,9 @@ description: Web-Dokumentation zu Campaign v8
 breadcrumb-title: Übersicht über Campaign
 hide: true
 source-git-commit: 8ddda0d230598a58e1b611bdf75e2322e64c529d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '434'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -48,8 +48,8 @@ ht-degree: 85%
             + [Erstellen der Textversion](content/text-version-email.md)
          + Inhaltsassistent {#content-assistant}
             + [Erste Schritte mit dem Inhaltsassistenten](content/generative-gs.md)
-            + [Texterstellung mit dem Inhaltsassistenten](content/generative-content.md)
-            + [Generieren von Bildern mit dem Inhaltsassistenten](content/generative-image.md)
+            + [Textgenerierung mit dem Inhaltsassistenten](content/generative-content.md)
+            + [Bildgenerierung mit dem Inhaltsassistenten](content/generative-image.md)
             + [E-Mail-Generierung mit dem Inhaltsassistenten](content/generative-email.md)
          + Gestalten von Inhalten {#style}
             + [Erste Schritte mit E-Mail-Stil](content/get-started-email-style.md)
@@ -77,7 +77,7 @@ ht-degree: 85%
       + [Hinzufügen bedingter Inhalte](personalization/conditions.md)
       + [Hinzufügen von integrierten Inhaltsbausteinen](personalization/content-blocks.md)
    + [Hinzufügen von Angeboten zu Ihren Nachrichten](content/offers.md)
-   + [Nachrichten an Ihre Abonnenten senden](content/send-to-subscribers.md)
+   + [Versenden von Nachrichten an Ihre Abonnentinnen und Abonnenten](content/send-to-subscribers.md)
    + Vorschau und Testen eines Versands{#preview-test}
       + [Über die Vorschau und Tests](preview-test/preview-test.md)
       + [Vorschau des Nachrichteninhalts](preview-test/preview-content.md)
@@ -85,14 +85,14 @@ ht-degree: 85%
       + [Rendern Ihrer E-Mail](preview-test/email-rendering.md)
 + Zielgruppen und Empfängerinnen bzw. Empfänger {#audiences}
    + [Arbeiten mit Empfängerinnen bzw. Empfängern und Zielgruppen](audience/about-recipients.md)
-   + [Audiences erstellen](audience/create-audience.md)
-   + Empfänger des Versands auswählen {#target-audiences}
+   + [Erstellen von Zielgruppen](audience/create-audience.md)
+   + Auswählen der Empfängerinnen und Empfänger des Versands {#target-audiences}
       + [Auswählen einer bestehenden Zielgruppe](audience/add-audience.md)
       + [Erstellen einer einmaligen Zielgruppe](audience/one-time-audience.md)
       + [Laden einer Zielgruppe aus einer Datei](audience/file-audience.md)
       + [Festlegen einer Kontrollgruppe](audience/control-group.md)
    + [Arbeiten mit dem Regel-Builder](audience/segment-builder.md)
-   + [Zielgruppen überwachen und verwalten](audience/manage-audience.md)
+   + [Überwachen und Verwalten von Zielgruppen](audience/manage-audience.md)
    + Arbeiten mit Abonnementdiensten {#work-with-services}
       + [Verwalten von Diensten](audience/manage-services.md)
       + [Verwalten von Abonnenten](audience/manage-subscribers.md)
@@ -132,7 +132,7 @@ ht-degree: 85%
       + [Push-Versandbericht](reporting/push-report.md)
       + [SMS-Versandbericht](reporting/sms-report.md)
    + Kampagnenberichte {#campaign-report}
-      + [Auf Kampagnenberichte zugreifen](reporting/campaign-reports.md)
+      + [Zugriff auf Kampagnenberichte](reporting/campaign-reports.md)
       + [E-Mail-Kampagnenberichte](reporting/campaign-reports-email.md)
       + [Push-Kampagnenberichte](reporting/campaign-reports-push.md)
       + [SMS-Kampagnenberichte](reporting/campaign-reports-sms.md)
