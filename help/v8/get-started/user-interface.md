@@ -7,7 +7,7 @@ badge: label="Beta"
 source-git-commit: 86a343aae763e753bc63ca2cab3c22cda07d7c16
 workflow-type: tm+mt
 source-wordcount: '1253'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -48,7 +48,7 @@ Das Menü **Explorer** zeigt alle Campaign-Ressourcen und -Objekte mit derselben
 
 Welche Elemente im **Explorer** angezeigt werden, hängt von Ihren Benutzerberechtigungen ab. Wenn Sie über entsprechende Berechtigungen verfügen, können Sie auch Ordner und Unterordner hinzufügen. Weiterführende Informationen zu Berechtigungen finden Sie in [diesem Abschnitt](permissions.md).
 
-Sie können Spalten konfigurieren, um die Anzeige anzupassen und so alle benötigten Informationen anzuzeigen. Weitere Informationen finden Sie in [diesem Abschnitt](#list-screens). Sie können auch Ordner und Unterordner hinzufügen, wie im Abschnitt [diesem Abschnitt](permissions.md#folders).
+Sie können Spalten konfigurieren, um die Anzeige anzupassen und so alle benötigten Informationen anzuzeigen. Weitere Informationen finden Sie in [diesem Abschnitt](#list-screens). Sie können auch Ordner und Unterordner hinzufügen, wie in [diesem Abschnitt](permissions.md#folders) ausführlich beschrieben wird.
 
 Weitere Informationen zum Campaign-Explorer, zur Ordnerhierarchie und zu den Ressourcen finden Sie in dieser [Dokumentation zu Campaign v8 (Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/campaign-ui.html?lang=de#ac-explorer-ui){target="_blank"}.
 
@@ -110,9 +110,9 @@ Eine kontextuelle Hilfe ist in der Benutzeroberfläche verfügbar. Wenn verfügb
 
 ![](assets/context-help.png){width="40%" align="left"}
 
-Mit der neuen Beta-Version wird die **KI-gestützter Knowledge Assistant** eingebettet in die kontextuelle Hilfe revolutioniert die Dokumentationssuche und Beantwortung von Fragen durch mühelose Durchblättern von umfangreichen Dokumentations-Repositorys und zeigt sofort die benötigten Informationen an.
+In der neuen Beta-Version revolutioniert der **Wissensassistent mit generativer KI**, der in der kontextuellen Hilfe eingebettet ist, das Suchen in der Dokumentation und das Beantworten von Fragen zu Problemlösungen, indem er mühelos riesige Dokumentations-Repositorys durchkämmt und sofort die Informationen anzeigt, die Sie benötigen.
 
-Dank der Funktionen der generativen KI von Campaign verwandelt dieser Assistent Ihr Erlebnis völlig und macht das Abrufen von Informationen und die Problembehebung zu einem Kinderspiel. Unabhängig davon, ob Sie in einer komplexen Aufgabe Anleitungen suchen oder ob Sie in umfangreichen Dokumenten navigieren, ist unser KI-gestützter Knowledge Assistant Ihr ultimativer Begleiter, der Ihnen bei jeder Interaktion eine unübertroffene Effizienz und Genauigkeit bietet.
+Dank der Funktionen der generativen KI von Campaign verwandelt dieser Assistent Ihr Erlebnis völlig und macht das Abrufen von Informationen und die Problembehebung zu einem Kinderspiel. Unser Wissensassistent mit generativer KI ist Ihr ultimativer Begleiter bei Fragen zu komplexen Aufgaben oder zur Navigation in umfangreichen Dokumenten und bietet Ihnen bei jeder Interaktion höchste Effizienz und Genauigkeit.
 
 Weiterführende Informationen finden Sie in [diesem Abschnitt](using-ai.md).
 

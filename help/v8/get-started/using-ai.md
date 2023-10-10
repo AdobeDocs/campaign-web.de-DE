@@ -1,29 +1,29 @@
 ---
-title: Verwenden eines KI-gestützten Wissens-Assistenten im Campaign Web
-description: Verwenden eines KI-gestützten Wissens-Assistenten im Campaign Web
+title: Verwenden des KI-gestützten Wissensassistenten in Campaign Web
+description: Verwenden des KI-gestützten Wissensassistenten in Campaign Web
 badge: label="Alpha"
 exl-id: 577f4652-b3e5-4fa1-9a98-91815fe92d83
 source-git-commit: 26472ea4bedd256fd4c63a691656373e7d08cafc
 workflow-type: tm+mt
 source-wordcount: '450'
-ht-degree: 4%
+ht-degree: 90%
 
 ---
 
-# Verwenden des KI-gestützten Knowledge Assistant {#using-ai}
+# Verwenden des KI-gestützten Wissensassistenten {#using-ai}
 
 Mit dem KI-gestützten Knowkedge-Assistenten für Fragen und Antworten, der in den kontextuellen Hilfefeldern für Produkte verfügbar ist, erhalten Sie schnelle, KI-generierte Antworten auf Basis der Produktdokumentation und Ihres aktuellen Produktkontexts.
 
 >[!CAUTION]
 >
->Diese Funktion ist in ihrer Alpha-Version verfügbar und kann ohne vorherige Ankündigung geändert werden.
+>Diese Funktion ist in der Alpha-Version verfügbar und kann ohne vorherige Ankündigung geändert werden.
 >
 >Diese Funktion ist nur verfügbar in **englisch**. Andere Sprachen werden in dieser Version nicht unterstützt.
 
 
-Die **Knowledge Assistant bei Gen AI** eingebettet in die kontextuelle Hilfe revolutioniert die Dokumentationssuche und Beantwortung von Fragen durch mühelose Durchblättern von umfangreichen Dokumentations-Repositorys und zeigt sofort die benötigten Informationen an.
+Der **Wissensassistent mit generativer KI**, der in der kontextuellen Hilfe eingebettet ist, revolutioniert das Suchen in der Dokumentation und das Beantworten von Fragen zu Problemlösungen, indem er mühelos riesige Dokumentations-Repositorys durchkämmt und sofort die Informationen anzeigt, die Sie benötigen.
 
-Dank der Funktionen der generativen KI von Campaign verwandelt dieser Assistent Ihr Erlebnis völlig und macht das Abrufen von Informationen und die Problembehebung zu einem Kinderspiel. Unabhängig davon, ob Sie in einer komplexen Aufgabe Anleitungen suchen oder in umfangreichen Dokumenten navigieren, ist der KI-gestützte Knowledge Assistant Ihr ultimativer Begleiter, der für jede Interaktion eine unübertroffene Effizienz und Genauigkeit bietet.
+Dank der Funktionen der generativen KI von Campaign verwandelt dieser Assistent Ihr Erlebnis völlig und macht das Abrufen von Informationen und die Problembehebung zu einem Kinderspiel. Ob Sie Anleitung bei einer komplexen Aufgabe oder beim Navigieren durch umfangreiche Dokumente brauchen – unser Wissensassistent mit generativer KI ist Ihr ultimativer Begleiter und bietet Ihnen bei jeder Interaktion höchste Effizienz und Genauigkeit.
 
 <img src="assets/AI_CH.gif" width="80%"/>
 
@@ -43,21 +43,21 @@ For information specific to Adobe AI policies in Experience Cloud apps and solut
 
 ## Antworten {#answers-ai}
 
-Der KI-gestützte Knowledgebase-Assistent von Adobe Campaign bietet Unterstützung, Sie sollten jedoch die Fakten überprüfen. Sie kann falsche Informationen, ungenaue oder irreführende Antworten ausgeben. Überprüfen Sie die Produktdokumentation, die in jedem Hilfesystem verknüpft ist.
+Der KI-gestützte Wissenassistent von Adobe Campaign bietet Unterstützung, Sie sollten jedoch die Fakten überprüfen. Er kann falsche Informationen, ungenaue oder irreführende Antworten ausgeben. Überprüfen Sie die Produktdokumentation, die in jedem Hilfefeld verlinkt ist.
 
-Künstliche Intelligenz und Modelle des maschinellen Lernens werden im Laufe der Zeit verbessert, um bestimmte Anwendungsfälle besser anzugehen. Kampagnen-KI-gestützte Knowledge Assistant wird in den kommenden Monaten weiter besser werden. Wir empfehlen Ihnen dringend, das ?? ?? Schaltflächen immer wenn Sie eine Antwort lesen, um unangemessene Antworten auf unsere Ingenieure zu kennzeichnen.
+Künstliche Intelligenz und Modelle des maschinellen Lernens werden im Laufe der Zeit verbessert, um bestimmte Anwendungsfälle besser zu lösen. Der KI-gestützte Wissenassistent von Campaign wird in den kommenden Monaten immer besser werden. Wir empfehlen Ihnen dringend, die ?? ??-Schaltflächen immer zu verwenden, wenn Sie eine Antwort lesen, um alle unangemessenen Antworten an unser technisches Personal weiterzuleiten.
 
 ## Empfehlungen  {#recommendations-ai}
 
-Bei der Beantwortung einer Frage im KI-gestützten Knowledge Assistant werden der aktuelle Produktkontext, d. h. der Bildschirm, in dem Sie sich befinden, und der Inhalt der aktuellen Hilfebox berücksichtigt.
+Bei der Beantwortung einer Frage im KI-gestützten Wissensassistent werden der aktuelle Produktkontext, d. h. der Bildschirm, auf dem Sie sich befinden, und der Inhalt des aktuellen Hilfefelds berücksichtigt.
 
-Daher empfiehlt es sich, Fragen zum Kontext der Benutzeroberfläche zu stellen. Wenn Sie beispielsweise erfahren müssen, wie Sie einen Push-Versand in einem Workflow senden, navigieren Sie zu **Workflow** Menüeintrag links und verwenden Sie in diesem Kontext ein kontextbezogenes Hilfefeld. Um mehr über Berichtsmetriken zu erfahren, navigieren Sie zu den Kampagnen- oder Versandberichten und beginnen Sie von dort aus.
+Daher lautet die Best Practice, Fragen in Bezug auf den Kontext der Benutzeroberfläche zu stellen. Wenn Sie beispielsweise erfahren wollen, wie Sie einen Push-Versand in einem Workflow senden, navigieren Sie zum **Workflow**-Menüeintrag links und verwenden Sie in diesem Kontext ein kontextbezogenes Hilfefeld. Um mehr über Berichtsmetriken zu erfahren, navigieren Sie zu den Kampagnen- oder Versandberichten und beginnen Sie von dort aus.
 
 
-Um das Beste aus der KI-gestützten Wissensassistenten zu erhalten, empfehlen wir Ihnen außerdem, bei Fragen Folgendes zu beachten:
+Um das Beste aus dem KI-gesteuerten Wissensassistenten herauszuholen, empfehlen wir Ihnen außerdem, bei Fragen Folgendes zu beachten:
 
-* So präzise und spezifisch wie möglich sein und Unklarheiten vermeiden. Die Antwort wird genauer und hilfreicher sein.
-* Um den KI-gestützten Wissensassistenten bei der Suche nach den richtigen Informationen zu unterstützen, fügen Sie so viele Details wie möglich zu dem hinzu, was Sie versuchen zu lernen.
-* Nehmen Sie Ihre Fragen neu auf und verfeinern Sie sie, um bessere Antworten zu erhalten. Wenn die Antwort nicht präzise oder nützlich ist, versuchen Sie verschiedene Ansätze und fügen Sie Kontext hinzu, um bessere Ergebnisse zu erzielen.
-* Verwenden Sie geeignete Begriffe und Formulierungen mit einem neutralen Ton.
-* Bewerten Sie die Antworten und geben Sie Feedback, damit unsere Ingenieure aus Ihren Erfahrungen lernen und die Ergebnisse verbessern können.
+* Seien Sie so präzise und spezifisch wie möglich und vermeiden Sie Zweideutigkeiten. Die Antwort wird genauer und hilfreicher.
+* Um den KI-gestützten Wissensassistenten bei der Suche nach den richtigen Informationen zu unterstützen, fügen Sie so viele Details wie möglich zu dem hinzu, was Sie lernen wollen.
+* Formulieren Sie Ihre Fragen neu und spezifizieren Sie sie, um bessere Antworten zu erhalten. Wenn die Antwort nicht präzise oder nützlich ist, versuchen Sie verschiedene Ansätze und fügen Sie mehr Kontext hinzu, um bessere Ergebnisse zu erzielen.
+* Verwenden Sie geeignete Begriffe und Formulierungen mit neutralem Ton.
+* Bewerten Sie die Antworten und geben Sie Feedback, damit unsere Ingenieure und Ingenieurinnen aus Ihren Erfahrungen lernen und die Ergebnisse verbessern können.
