@@ -2,10 +2,10 @@
 title: Verbindung zur Adobe Campaign-Webschnittstelle herstellen
 description: Erfahren Sie, wie Sie eine Verbindung zur Web-Benutzeroberfläche von Adobe Campaign v8 herstellen.
 badge: label="Beta"
-source-git-commit: f420ba4a63be82227121e06a664381add97a1ea1
+source-git-commit: 47a7eeceb6a25aba483dc0017235f50652c9682b
 workflow-type: tm+mt
-source-wordcount: '492'
-ht-degree: 50%
+source-wordcount: '474'
+ht-degree: 32%
 
 ---
 
@@ -31,35 +31,34 @@ Die Anmeldung bei Adobe Experience Cloud erfolgt anhand der folgenden grundlegen
 
    ![](assets/exc-orgs.png){width="50%" align="left"}
 
-   Weitere Informationen zur Organisation in Adobe Experience Cloud in [diesem Artikel](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=de){target="_blank"}.
+   Erfahren Sie mehr über Organisationen in Adobe Experience Cloud in [diesem Artikel](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=de){target="_blank"}.
 
 
 ## Zugriff auf Adobe Campaign {#access-to-campaign}
 
 Um auf Ihre Campaign-Umgebung zuzugreifen, wählen Sie **Kampagne** von der Adobe Experience Cloud-Homepage aus.
 
-Wenn Sie Zugriff auf mehrere Umgebungen haben, einschließlich des Campaign Control Panels, klicken Sie auf die Schaltfläche **Launch** in Ihrer Organisationskarte.
-
-![](assets/launch-campaign.png)
-
 Sie können auch den Lösungsschalter verwenden, um zwischen Ihren Adobe Experience Cloud-Lösungen und -Apps zu suchen.
 
 ![](assets/solution-switcher.png)
+
+Wenn Sie Zugriff auf mehrere Umgebungen haben, einschließlich des Campaign Control Panels, klicken Sie auf die Schaltfläche **Launch** für die richtige Instanz.
+
+![](assets/launch-campaign.png)
 
 ## Obere Adobe Experience Cloud-Navigation {#top-bar}
 
 Verwenden Sie die obere Leiste der Benutzeroberfläche, um folgende Aktionen durchzuführen:
 
-* Freigeben Ihres Feedbacks als Beta-Testerin oder Beta-Tester
-* zwischen Organisationen und Instanzen wechseln
-* zwischen Adobe Experience Cloud-Anwendungen wechseln
-* auf Hilfeseiten zugreifen, den Support kontaktieren und Feedback geben. Sie können Hilfe-Artikel und Videos mithilfe des Suchfelds suchen.
+* Freigeben Ihres Feedbacks als Beta-Benutzer
+* Zwischen Organisationen wechseln
+* Zwischen Ihren Adobe Experience Cloud-Lösungen und -Apps wechseln
 
 ![](assets/unified-shell.png){width="50%" align="left"}
 
 ## Unterstützte Browser {#browsers}
 
-Campaign v8 Web ist so konzipiert, dass es mit den neuesten Versionen von Google Chrome, Safari und Microsoft Edge optimal funktioniert. Bei der Verwendung bestimmter Funktionen in älteren Versionen oder anderen Browsern können Probleme auftreten.
+Campaign v8 Web ist so konzipiert, dass es in der neuesten Version von Google Chrome, Safari und Microsoft Edge optimal funktioniert. Bei der Verwendung bestimmter Funktionen in älteren Versionen oder anderen Browsern kann es zu Problemen kommen.
 
 ## Sprachvoreinstellungen {#language-pref}
 
@@ -83,7 +82,7 @@ So ändern Sie Ihre Sprache:
 
 1. Klicken Sie auf das Profilsymbol oben rechts und wählen Sie dann **Voreinstellungen**.
 1. Klicken Sie dann auf den Sprach-Link, der unter Ihrer E-Mail-Adresse angezeigt wird.
-1. Wählen Sie Ihre bevorzugte Sprache aus und klicken Sie auf **Speichern**. Sie können eine zweite Sprache auswählen, falls die von Ihnen verwendete Komponente nicht in Ihrer gewählten Sprache lokalisiert ist.
+1. Wählen Sie Ihre bevorzugte Sprache aus und klicken Sie auf **Speichern**. Sie können eine zweite Sprache auswählen, falls die von Ihnen verwendete Komponente nicht in Ihre Muttersprache lokalisiert ist.
 
 ## Dunkles Design {#dark-theme}
 
