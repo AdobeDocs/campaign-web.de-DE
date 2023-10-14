@@ -2,10 +2,10 @@
 title: Verbindung zur Adobe Campaign-Webschnittstelle herstellen
 description: Erfahren Sie, wie Sie eine Verbindung zur Web-Benutzeroberfläche von Adobe Campaign v8 herstellen.
 badge: label="Beta"
-source-git-commit: 47a7eeceb6a25aba483dc0017235f50652c9682b
+source-git-commit: 2a2bd37461d2218b5187d2a0dd202df6c0724fee
 workflow-type: tm+mt
-source-wordcount: '474'
-ht-degree: 32%
+source-wordcount: '510'
+ht-degree: 39%
 
 ---
 
@@ -36,15 +36,17 @@ Die Anmeldung bei Adobe Experience Cloud erfolgt anhand der folgenden grundlegen
 
 ## Zugriff auf Adobe Campaign {#access-to-campaign}
 
-Um auf Ihre Campaign-Umgebung zuzugreifen, wählen Sie **Kampagne** von der Adobe Experience Cloud-Homepage aus.
+Um auf Ihre Campaign-Umgebung zuzugreifen, wählen Sie **Kampagne** aus dem **Schnellzugriff** auf der Adobe Experience Cloud-Startseite.
 
-Sie können auch den Lösungsschalter verwenden, um zwischen Ihren Adobe Experience Cloud-Lösungen und -Apps zu suchen.
+Wenn Sie bereits mit einer anderen Adobe Experience Cloud-Lösung verbunden sind, können Sie über den Lösungsschalter oben rechts auf Ihrem Bildschirm zu Ihrer Campaign-Umgebung navigieren.
 
 ![](assets/solution-switcher.png)
 
 Wenn Sie Zugriff auf mehrere Umgebungen haben, einschließlich des Campaign Control Panels, klicken Sie auf die Schaltfläche **Launch** für die richtige Instanz.
 
 ![](assets/launch-campaign.png)
+
+Sie sind jetzt mit Campaign verbunden. Auf [dieser Seite](user-interface.md) erfahren Sie, wie Sie die Benutzeroberfläche verwenden.
 
 ## Obere Adobe Experience Cloud-Navigation {#top-bar}
 
