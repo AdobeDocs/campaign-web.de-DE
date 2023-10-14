@@ -4,9 +4,9 @@ title: Erkunden der Benutzeroberfläche
 description: Web-Benutzeroberfläche von Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: a0e0ebfb1a1bedc0429183cc246b7d1140d3b8b4
+source-git-commit: f420ba4a63be82227121e06a664381add97a1ea1
 workflow-type: tm+mt
-source-wordcount: '1063'
+source-wordcount: '1029'
 ht-degree: 100%
 
 ---
@@ -103,9 +103,7 @@ Dank der Funktionen der generativen KI von Campaign verwandelt dieser Assistent 
 
 Weiterführende Informationen finden Sie in [diesem Abschnitt](using-ai.md).
 
-## Unterstützte Browser {#browsers}
 
-Campaign v8 Web ist so konzipiert, dass es mit den neuesten Versionen von Google Chrome, Safari und Microsoft Edge optimal funktioniert. Bei der Verwendung bestimmter Funktionen in älteren Versionen oder anderen Browsern können Probleme auftreten.
 
 ## Weitere Informationen {#learn-more}
 
