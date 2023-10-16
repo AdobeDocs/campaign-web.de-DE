@@ -7,7 +7,7 @@ badge: label="Beta"
 source-git-commit: 4ba96c4407f95588630956bc9f38e5da66602fee
 workflow-type: tm+mt
 source-wordcount: '204'
-ht-degree: 62%
+ht-degree: 89%
 
 ---
 
@@ -34,7 +34,7 @@ Führen Sie folgende Schritte aus, um Berichte anzuzeigen:
 
    ![](assets/reporting2.png)
 
-   Alternativ können Sie die drei Punkte verwenden **Mehr Aktionen** neben dem Versandnamen in der Kampagnenliste, wie unten dargestellt:
+   Alternativ können Sie die Schaltfläche mit den drei Punkten **Mehr Aktionen** neben dem Versandnamen in der Kampagnenliste verwenden, wie unten dargestellt:
 
    ![](assets/campaign-reports-view.png){width="50%" align="left" zoomable="yes"}
 
@@ -42,7 +42,7 @@ Führen Sie folgende Schritte aus, um Berichte anzuzeigen:
 
    ![](assets/reporting.png)
 
-1. Wenn Ihr Versand wiederkehrend ist, wählen Sie einen bestimmten Versand aus, über den ein Bericht erstellt werden soll, indem Sie auf **[!UICONTROL Sendungen auswählen]**.
+1. Wenn Ihr Versand wiederkehrend ist, können Sie einen bestimmten Versand auswählen, zu dem ein Bericht erstellt werden soll, indem Sie auf **[!UICONTROL Sendungen auswählen]** klicken.
 
    Sie können auch einen Zeitraum auf Ihren Bericht anwenden, indem Sie das **[!UICONTROL Kontaktdatum]** auswählen.
 

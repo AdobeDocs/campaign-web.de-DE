@@ -1,93 +1,93 @@
 ---
 title: Arbeiten mit Empfängerinnen bzw. Empfängern und Zielgruppen
-description: Erfahren Sie, wie Sie mit Empfängern im Campaign-Web arbeiten.
+description: Erfahren Sie, wie Sie mit Empfängerinnen und Empfängern in Campaign Web arbeiten.
 badge: label="Beta"
 exl-id: 71a1ec92-cd79-4654-9ae3-9a92a01c6279
 source-git-commit: 332bcd3788ac137a60e7973d4e54b8cea22a9333
 workflow-type: tm+mt
 source-wordcount: '1027'
-ht-degree: 20%
+ht-degree: 96%
 
 ---
 
 # Arbeiten mit Empfängerinnen bzw. Empfängern und Zielgruppen {#about-recipients}
 
-In Adobe Campaign ist die Zielpopulation eines Versands eine Zielgruppe. Eine Zielgruppe ist eine Gruppe von Personen, die ähnliche Verhaltensweisen und/oder Merkmale aufweisen. Diese Personengruppe kann entweder generiert, ausgewählt oder geladen werden [wie unten beschrieben](#audiences). In den meisten Fällen besteht die Audience aus Profilen, die als [Empfänger](#recipients) in Adobe Campaign. Sie können auch mit anderen Zielgruppen-Mappings arbeiten, indem Sie die Dimension wie beschrieben ändern [in diesem Abschnitt](#targeting-dimensions).
+In Adobe Campaign ist die Zielpopulation eines Versands eine Zielgruppe. Eine Zielgruppe ist eine Gruppe von Personen, die ähnliche Verhaltensweisen und/oder Merkmale aufweisen. Diese Sammlung von Leuten kann entweder generiert, ausgewählt oder geladen werden, [wie im Folgenden beschrieben](#audiences). In den meisten Fällen besteht die Zielgruppe aus Profilen, die als [Empfängerinnen und Empfänger](#recipients) in Adobe Campaign gespeichert werden. Sie können auch mit anderen Zielgruppen-Mappings arbeiten, indem Sie die Dimension ändern, wie [in diesem Abschnitt](#targeting-dimensions) beschrieben.
 
-## Was sind Empfänger? {#recipients}
+## Was sind Empfängerinnen und Empfänger? {#recipients}
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"
->title="Empfänger"
->abstract="Ein Empfänger ist ein Profil, das für den Empfang von Nachrichten bestimmt ist, die von Adobe Campaign gesendet werden. In Adobe Campaign sind Empfänger die Standardprofile für den Versand von Nachrichten (E-Mails, SMS). In dieser Liste können Sie das Empfängerprofil anhand Ihrer Berechtigungen anzeigen. Verwenden Sie die Filteroptionen, um diese Liste zu durchsuchen. Sie können eine kleine Gruppe von Empfängerattributen bearbeiten und aktualisieren."
+>title="Empfängerinnen und Empfänger"
+>abstract="Eine Empfängerin bzw. ein Empfänger ist ein Profil, das für den Empfang von Nachrichten bestimmt ist, die von Adobe Campaign gesendet werden. In Adobe Campaign sind Empfängerinnen und Empfänger die Standardprofile, an die sich Sendungen richten (E-Mails oder SMS). In dieser Liste können Sie basierend auf Ihren Berechtigungen das Empfängerprofil anzeigen. Verwenden Sie die Filteroptionen, um diese Liste zu durchsuchen. Sie können einen kleinen Satz von Empfängerattributen bearbeiten und aktualisieren."
 
-Ein Empfänger ist ein Profil, das für den Empfang von Nachrichten bestimmt ist, die von Adobe Campaign gesendet werden. In Adobe Campaign sind die Standardprofile für Sendungen (E-Mails, SMS usw.) die Empfänger. Die in der Datenbank gespeicherten Empfängerdaten ermöglichen die Erstellung von Audiences, die einen bestimmten Versand erhalten, sowie das Hinzufügen von Personalisierungsdaten zu den Versandinhalten. Andere Typen von Profilen werden in der Datenbank gespeichert. Sie sind für unterschiedliche Verwendungszwecke konzipiert: Beispielsweise werden Testprofile erstellt, um Ihre Sendungen zu testen, bevor sie an die endgültige Audience gesendet werden.
+Eine Empfängerin bzw. ein Empfänger ist ein Profil, das für den Empfang von Nachrichten bestimmt ist, die von Adobe Campaign gesendet werden. In Adobe Campaign sind Empfängerinnen und Empfänger die Standardprofile, an die sich Sendungen richten (E-Mails, SMS usw.). Mit den in der Datenbank gespeicherten Empfängerdaten können Sie die Zielgruppen erstellen, die einen bestimmten Versand erhalten sollen, und Personalisierungsdaten in die Versandinhalte einfügen. In der Datenbank sind weitere Arten von Profilen gespeichert. Sie sind für unterschiedliche Verwendungszwecke konzipiert: Beispielsweise werden Testprofile erstellt, um Ihre Sendungen zu testen, bevor sie an die endgültige Zielgruppe gesendet werden.
 
-Empfänger können nur über die Campaign-Clientkonsole hinzugefügt werden. Sie sind jedoch im Campaign-Web über die **Empfänger** Eintrag der linken Navigationsleiste. Sie können die Attribute des Empfängers auch von diesem Bildschirm aus bearbeiten.
+Empfängerinnen und Empfänger können nur über die Campaign-Client-Konsole hinzugefügt werden. Sie sind jedoch in Campaign Web über den Eintrag **Empfänger** in der linken Navigationsleiste sichtbar. Sie können die Attribute der Empfängerin bzw. des Empfängers auch von diesem Bildschirm aus bearbeiten.
 
-Um die Empfängerdaten zu bearbeiten, klicken Sie auf die drei Punkte neben ihrem Namen und wählen Sie **Bearbeiten...**.
+Um die Empfängerdaten zu bearbeiten, klicken Sie auf die drei Punkte neben einem Namen und wählen Sie **Bearbeiten…**.
 
-![Empfängerprofil bearbeiten](assets/recipient-edit.png)
+![Bearbeiten eines Empfängerprofils](assets/recipient-edit.png)
 
-Sie können eine begrenzte Anzahl von Attributen aktualisieren, nämlich: Vorname, Nachname, E-Mail-Adresse und Telefonnummer.
+Sie können einen begrenzten Satz von Attributen aktualisieren, nämlich: Vorname, Nachname, E-Mail-Adresse und Telefonnummer.
 
-![Empfängerprofil aktualisieren](assets/recipient-update.png)
+![Aktualisieren eines Empfängerprofils](assets/recipient-update.png)
 
 >[!NOTE]
 >
->Dieses eingeschränkte Formular zur Profilbearbeitung wird nur für Beta-Programmtests bereitgestellt. Sie wird in der zukünftigen Version verbessert. Dadurch kann der Benutzer jedem Profil schnell eine E-Mail-Adresse und eine Telefonnummer hinzufügen, damit er die E-Mail- und SMS-Kanäle testen und die gesendeten Nachrichten empfangen kann.
+>Dieses eingeschränkte Formular zur Profilbearbeitung wird nur für Beta-Programmtests bereitgestellt. Es wird in der zukünftigen Version verbessert. Dadurch kann die Benutzerin bzw. der Benutzer jedem Profil schnell eine E-Mail-Adresse und eine Telefonnummer hinzufügen, damit sie bzw. er die E-Mail- und SMS-Kanäle testen und die gesendeten Nachrichten empfangen kann.
 
-Sie können die Empfänger mithilfe des Suchfelds über das **Filter anzeigen** Schaltfläche.
+Sie können die Empfängerinnen und Empfänger mithilfe des Suchfelds über die Schaltfläche **Filter anzeigen** filtern.
 
-Empfänger können auch über die **Explorer** Anzeigen, Durchsuchen und Erstellen von Ordnern und Unterordnern sowie Überprüfen der zugehörigen Berechtigungen.
+Sie können über die **Explorer**-Ansicht außerdem auf Empfängerinnen und Empfänger zugreifen, Ordner und Unterordner durchsuchen und erstellen und zugehörige Berechtigungen überprüfen.
 
 ![Empfängerliste aus der Explorer-Ansicht](assets/recipients-from-explorer.png)
 
 >[!NOTE]
 >
->Abhängig von Ihren Berechtigungen haben Sie möglicherweise keinen Zugriff auf die vollständige Liste der in der Datenbank gespeicherten Empfänger. Weiterführende Informationen zu Berechtigungen finden Sie in [diesem Abschnitt](../get-started/permissions.md).
+>Abhängig von Ihren Berechtigungen haben Sie möglicherweise keinen Zugriff auf die vollständige Liste der in der Datenbank gespeicherten Empfängerinnen und Empfänger. Weiterführende Informationen zu Berechtigungen finden Sie in [diesem Abschnitt](../get-started/permissions.md).
 
-Darüber hinaus können Sie die An- und Abmeldung Ihrer Empfänger für Dienste wie Newsletter verwalten. Erfahren Sie, wie Sie mit Abonnementdiensten in arbeiten können. [diese Seite](manage-services.md)
+Darüber hinaus können Sie die An- und Abmeldung Ihrer Empfängerinnen und Empfänger für Dienste wie beispielsweise Newsletter verwalten. Erfahren Sie, wie Sie mit Abonnementdiensten in arbeiten können. [diese Seite](manage-services.md)
 
-Sie können Workflows erstellen, um Profile zu deduplizieren, anzureichern, zu kombinieren und Audiences zu erstellen. Weiterführende Informationen finden Sie in [diesem Abschnitt](../workflows/gs-workflows.md).
+Sie können Workflows erstellen, um Profile zu deduplizieren, anzureichern, zu kombinieren und Zielgruppen zu erstellen. Weiterführende Informationen finden Sie in [diesem Abschnitt](../workflows/gs-workflows.md).
 
 ## Was sind Zielgruppen? {#audiences}
 
 Die Zielgruppe ist das wichtigste Ziel Ihres Versands: die Empfängerinnen und Empfänger, die die Nachrichten erhalten. Der Zielgruppentyp hängt vom in der Versandvorlage definierten Zielgruppen-Mapping ab. Weitere Informationen zu Versandvorlagen finden Sie in [diese Seite](../msg/delivery-template.md).
 
-Zur Bestimmung der Audience-Population haben Sie folgende Möglichkeiten:
+Um die Population Ihrer Zielgruppe zu bestimmen, können Sie:
 
-* [Neue Zielgruppen erstellen](create-audience.md) aus dem **[!UICONTROL Zielgruppen]** Menü,
-* [Existierende Zielgruppe auswählen](add-audience.md) als Liste in der Client-Konsole erstellt wurde oder aus Adobe Experience Platform stammt,
-* [Erstellen Sie mit dem Regel-Builder eine neue Zielgruppe, indem Sie Filterkriterien definieren und kombinieren,](segment-builder.md)
-* [Verwenden einer Audience aus einer externen Datei](file-audience.md). Diese Option ist nur für Einzelsendungen von E-Mails verfügbar und kann nicht in Kampagnensendungen verwendet werden.
+* [neue Zielgruppen erstellen](create-audience.md) über das Menü **[!UICONTROL Zielgruppen]**,
+* [eine vorhandene Zielgruppe auswählen](add-audience.md), die als Liste in der Client-Konsole erstellt wurde oder aus Adobe Experience Platform stammt,
+* [mit dem Regel-Builder eine neue Zielgruppe erstellen](segment-builder.md), indem Sie Filterkriterien definieren und kombinieren,
+* [eine Zielgruppe aus einer externen Datei verwenden](file-audience.md). Diese Option steht nur für eigenständige E-Mail-Sendungen zur Verfügung und kann nicht in Kampagnensendungen verwendet werden.
 
-Beim Targeting einer Audience können Sie auch **Kontrollgruppen** um zu vermeiden, dass Nachrichten an einen Teil Ihrer Audience gesendet werden, und messen Sie die Wirkung Ihrer Kampagnen. [Erfahren Sie, wie Sie eine Kontrollgruppe festlegen.](control-group.md)
+Wenn Sie eine Zielgruppe ansprechen, können Sie außerdem **Kontrollgruppen** definieren, um einen Teil Ihrer Zielgruppe vom Versand von Nachrichten auszuschließen und so die Wirkung Ihrer Kampagnen zu messen. [Erfahren Sie, wie Sie eine Kontrollgruppe festlegen](control-group.md)
 
 >[!NOTE]
 >
->Beim Versand von Nachrichten im Rahmen eines Kampagnen-Workflows wird die Audience in einem bestimmten **Audience erstellen** Workflow-Aktivität. In diesem Zusammenhang ist es nicht möglich, eine Zielgruppe aus einer Datei für einen E-Mail-Versand zu laden. Die Zielgruppe wird nur in dieser dedizierten Aktivität definiert. Erfahren Sie, wie Sie die Audience Ihres Versands in einem Kampagnen-Workflow definieren können in [diesem Abschnitt](../workflows/activities/build-audience.md)
+>Beim Versand von Nachrichten im Rahmen eines Kampagnen-Workflows wird die Zielgruppe in der speziellen Workflow-Aktivität **Zielgruppe erstellen** definiert. In diesem Zusammenhang ist es nicht möglich, eine Zielgruppe aus einer Datei für einen E-Mail-Versand zu laden. Die Zielgruppe wird nur in dieser dedizierten Aktivität definiert. Erfahren Sie, wie Sie die Audience Ihres Versands in einem Kampagnen-Workflow definieren können in [diesem Abschnitt](../workflows/activities/build-audience.md)
 
 ## Zielgruppendimensionen {#targeting-dimensions}
 
-Die Zielgruppendimension, auch bekannt als Zielgruppen-Mapping ist der Datentyp, den ein Vorgang verarbeitet. Sie ermöglicht die Bestimmung der Zielpopulation: Empfänger, Vertragsempfänger, Benutzer, Abonnenten etc.
+Die Zielgruppendimension, auch bekannt als Zielgruppen-Mapping, ist der Datentyp, den ein Vorgang verarbeitet. Sie ermöglicht die Bestimmung der Zielpopulation: Empfängerinnen und Empfänger, Vertragsbegünstigte, Benutzerinnen und Benutzer, Abonnentinnen und Abonnenten usw.
 
-Die Zielgruppendimension eines Workflows wird durch die erste **[!UICONTROL Audience erstellen]** und wird bis zum Ende des Workflows für alle weiteren Aktivitäten verwendet. Wenn Sie beispielsweise eine Abfrage an die aus der Datenbank stammenden Empfänger durchführen, enthält die ausgehende Transition Daten vom Typ Empfänger und wird an die nächste Aktivität übermittelt.
+Die Zielgruppendimension eines Workflows wird durch die erste Aktivität **[!UICONTROL Zielgruppe erstellen]** definiert und wird bis zum Ende des Workflows für alle weiteren Aktivitäten verwendet. Wenn Sie beispielsweise eine Abfrage an die aus der Datenbank stammenden Empfängerinnen und Empfänger durchführen, enthält die ausgehende Transition Daten vom Typ Empfängerinnen und Empfänger und wird an die nächste Aktivität übermittelt.
 
-Beachten Sie, dass Sie die Zielgruppendimension in einem Workflow mithilfe einer [Dimensionsaktivität ändern](../workflows/activities/change-dimension.md). Auf diese Weise können Sie beispielsweise die Datenbank in einer bestimmten Tabelle (z. B. bei Käufen oder Abonnements) abfragen und die Zielgruppendimension in Empfänger ändern, um Sendungen an die entsprechenden Empfänger durchzuführen.
+Beachten Sie, dass Sie die Zielgruppendimension in einem Workflow mithilfe der Aktivität [Dimensionsaktivität ändern](../workflows/activities/change-dimension.md) wechseln können. Auf diese Weise können Sie beispielsweise die Datenbank in einer bestimmten Tabelle (z. B. zu Käufen oder Abonnements) abfragen und die Zielgruppendimension in Empfängerinnen und Empfänger ändern, um Sendungen an die entsprechenden Empfängerinnen und Empfänger durchzuführen.
 
-Standardmäßig haben die E-Mail- und SMS-Versandvorlagen **[!UICONTROL Empfänger]** als Zielgruppe. Ihre Zieldimension verwendet daher die Felder der **nms:recipient** Tabelle. Für Push-Benachrichtigungen lautet die standardmäßige Zieldimension **Abonnentenanwendungen nms:appSubscriptionRcp**, der mit der Empfängertabelle verknüpft ist.
+Standardmäßig haben die E-Mail- und SMS-Versandvorlagen **[!UICONTROL Empfängerinnen und Empfänger]** als Zielgruppe. Ihr Zielgruppen-Mapping verwendet daher die Felder der Tabelle **nms:recipient**. Für Push-Benachrichtigungen ist die standardmäßige Zielgruppendimension **Abonnierte Anwendungen (nms:appSubscriptionRcp)**, das mit der Empfängertabelle verknüpft ist.
 
 Sie können auch andere integrierte Zielgruppen-Mappings in Ihren Workflows und Sendungen verwenden, die unten aufgeführt sind:
 
 | Name | Verwendung Verwendungszweck | Schema |
 |---|---|---|
-| Empfänger | Versand an Empfänger (integrierte Empfängertabelle) | nms:recipient |
+| Empfängerinnen und Empfänger | Versand an Empfänger (integrierte Empfängertabelle) | nms:recipient |
 | Besucher | Versand an Besucher, deren Profile beispielsweise über Empfehlungen (Viral Marketing) erfasst wurden. | mns:visitor |
 | Abonnements  | Versand richtet sich an Abonnenten eines Informationsdienstes wie z. B. einen Newsletter | nms:subscription |
 | Besucher-Abonnements | Versand richtet sich an Besucher, die einen Informationsdienst beziehen | nms:visitorSub |
 | Benutzer | Versand richtet sich an Adobe-Campaign-Benutzer | nms:operator |
 | Externe Datei | Versand basiert auf einer Datei, die alle notwendigen Informationen enthält | Ohne Schema oder Zielgruppe |
-| Abonnierte Anwendungen | Versand an Empfänger, die eine Anwendung abonniert haben | nms:appSubscriptionRcp |
+| Abonnierte Anwendungen | Versand an Empfängerinnen und Empfänger, die eine Anwendung abonniert haben | nms:appSubscriptionRcp |
 
-Zusätzlich können Sie je nach Bedarf ein neues Zielgruppen-Mapping erstellen. Dies erfolgt über die Clientkonsole. Weitere Informationen finden Sie in der [Dokumentation zu Campaign v8 (Client-Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html#new-mapping){target="_blank"}.
+Zusätzlich können Sie je nach Bedarf ein neues Zielgruppen-Mapping erstellen. Dies erfolgt über die Client-Konsole. Weitere Informationen finden Sie in der [Dokumentation zu Campaign v8 (Client-Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=de#new-mapping){target="_blank"}.
