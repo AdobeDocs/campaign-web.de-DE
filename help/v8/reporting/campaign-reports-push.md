@@ -1,33 +1,33 @@
 ---
 audience: end-user
 title: Kampagnenberichte für den Push-Kanal
-description: Kampagnenberichte für den Push-Kanal verstehen
+description: Grundlegendes zu Kampagnenberichten für den Push-Kanal
 badge: label="Beta"
-source-git-commit: 72a7cb2577512b9b3dbf239ca664aa8410918ba2
-workflow-type: tm+mt
+exl-id: 5e7ac2b8-b543-427b-846c-7c0b489cc21c
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+workflow-type: ht
 source-wordcount: '507'
-ht-degree: 42%
+ht-degree: 100%
 
 ---
 
-
 # Kampagnenberichte für den Push-Kanal {#campaign-reports-push-channel}
 
-Jeder Kampagnenbericht ist in verschiedene Widgets unterteilt, die den Erfolg und die Fehler Ihrer Kampagne detailliert beschreiben. Für den Push-Kanal werden die Berichte und Metriken unten beschrieben. Erfahren Sie, wie Sie auf Ihre Kampagnenberichte zugreifen können in [diese Seite](campaign-reports.md).
+Jeder Kampagnenbericht ist in verschiedene Widgets unterteilt, die den Erfolg und die Fehler Ihrer Kampagne detailliert beschreiben. Im Folgenden werden die Berichte und Metriken für den Push-Kanal beschrieben. Erfahren Sie auf [dieser Seite](campaign-reports.md), wie Sie auf Ihre Kampagnenberichte zugreifen können.
 
 ## Versandzusammenfassung {#delivery-summary-push}
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_push_deliveries_overview"
 >title="Versandübersicht"
->abstract="Die **Versandübersicht** liefert wichtige Leistungsindikatoren (KPIs), die detaillierte Informationen darüber enthalten, wie Ihre Besucher mit Ihrem Push-Benachrichtigungsversand interagieren."
+>abstract="Der Bericht **Versandübersicht** bietet wichtige Leistungsindikatoren (KPIs), die detaillierte Informationen darüber enthalten, wie Ihre Besucherinnen und Besucher mit dem Versand Ihrer Push-Benachrichtigunen interagieren."
 
-Die **[!UICONTROL Versandübersicht]** liefert wichtige Leistungsindikatoren (KPIs), die detaillierte Informationen darüber enthalten, wie Ihre Besucher mit Ihrem Push-Benachrichtigungsversand interagieren. Die Metriken werden nachfolgend beschrieben.
+Der Bericht **[!UICONTROL Versandübersicht]** bietet wichtige Leistungsindikatoren (KPIs), die detaillierte Informationen darüber enthalten, wie Ihre Besucherinnen und Besucher mit dem Versand Ihrer Push-Benachrichtigungen interagieren. Metriken werden nachfolgend beschrieben.
 
 ![](assets/campaign-reporting-push-summary.png)
 
 
-+++Erfahren Sie mehr über die Metriken des Push-Kampagnenberichts.
++++Erfahren Sie mehr über die Metriken der Push-Kampagnenberichte.
 
 * **[!UICONTROL Insgesamt gesendet]**: Gesamtzahl der während der Versandvorbereitung verarbeiteten Nachrichten.
 
@@ -35,7 +35,7 @@ Die **[!UICONTROL Versandübersicht]** liefert wichtige Leistungsindikatoren (KP
 
 * **[!UICONTROL Fehler]**: Summe der Fehler, die beim Versand und bei der automatischen Rücksendung kumuliert wurden, bezogen auf die Gesamtzahl der gesendeten Nachrichten.
 
-* **[!UICONTROL Klicks insgesamt]**: Gesamtzahl der unterschiedlichen Empfänger, die mindestens einmal im betreffenden Versand geklickt haben.
+* **[!UICONTROL Klicks gesamt]**: Gesamtzahl der unterschiedlichen Empfängerinnen und Empfänger, die einen Versand mindestens einmal angeklickt haben.
 
 +++
 
@@ -45,14 +45,14 @@ Die **[!UICONTROL Versandübersicht]** liefert wichtige Leistungsindikatoren (KP
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_push_target"
 >title="Statistiken der ursprünglichen Zielgruppe"
->abstract="Die **Ursprüngliche Zielgruppenstatistiken** zeigt Daten zu Ihren Empfängern an"
+>abstract="Die Tabelle **Statistiken der anfänglichen Zielgruppe** zeigt Daten zu Ihren Empfängerinnen und Empfängern an."
 
-Die **[!UICONTROL Ursprüngliche Zielgruppenstatistiken]** zeigt Daten zu Ihren Empfängern an. Die Metriken werden nachfolgend beschrieben.
+Die Tabelle **[!UICONTROL Statistiken der anfänglichen Zielgruppe]** zeigt Daten zu Ihren Empfängerinnen und Empfängern an. Metriken werden nachfolgend beschrieben.
 
 ![](assets/campaign-reporting-push-target.png)
 
 
-+++Erfahren Sie mehr über die Metriken des Push-Kampagnenberichts.
++++Erfahren Sie mehr über die Metriken der Push-Kampagnenberichte.
 
 * **[!UICONTROL Ursprüngliche Zielgruppe]**: Gesamtzahl der Zielgruppenempfängerinnen und -empfänger.
 
@@ -67,14 +67,14 @@ Die **[!UICONTROL Ursprüngliche Zielgruppenstatistiken]** zeigt Daten zu Ihren 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_push_exec_stats"
 >title="Ausführungsstatistiken"
->abstract="Die **Ausführungsstatistiken** -Tabelle zeigt den Erfolg Ihres Versands: Zu sendende Nachrichten, Erfolg, Fehler und neue Quarantänen."
+>abstract="Die Tabelle **Ausführungsstatistiken** zeigt den Erfolg Ihres Versands: Zu sendende Nachrichten, Erfolg, Fehler und Neu in Quarantäne."
 
-Die **[!UICONTROL Ausführungsstatistiken]** -Tabelle zeigt den Erfolg Ihres Versands. Die Metriken werden nachfolgend beschrieben.
+Die Tabelle **[!UICONTROL Ausführungsstatistiken]** zeigt den Erfolg Ihres Versands im Detail. Metriken werden nachfolgend beschrieben.
 
 ![](assets/campaign-reporting-push-exec.png)
 
 
-+++Erfahren Sie mehr über die Metriken des Push-Kampagnenberichts.
++++Erfahren Sie mehr über die Metriken der Push-Kampagnenberichte.
 
 * **[!UICONTROL Zu versendende Nachricht]**: Gesamtzahl der nach erfolgter Versandvorbereitung zu versendenden Nachrichten.
 
@@ -82,28 +82,28 @@ Die **[!UICONTROL Ausführungsstatistiken]** -Tabelle zeigt den Erfolg Ihres Ver
 
 * **[!UICONTROL Fehler]**: Gesamtzahl der über alle Sendungen hinweg kumulierten Fehler und der automatischen Bounce-Verarbeitungen im Verhältnis zur Anzahl der zu versendenden Nachrichten.
 
-* **[!UICONTROL Neue Quarantänen]**: Gesamtzahl der Adressen, die infolge eines fehlgeschlagenen Versands unter Quarantäne gestellt wurden (ungültige Registrierung, Zurückweisung von Nachrichten, Payload-Fehler z. B.) in Bezug auf die Anzahl zu sendender Nachrichten.
+* **[!UICONTROL Neu in Quarantäne]**: Gesamtzahl der Adressen, die infolge eines fehlgeschlagenen Versands unter Quarantäne gestellt wurden (ungültige Registrierung, Zurückweisung von Nachrichten, Payload-Fehler usw.), in Bezug auf die Anzahl der zu sendenden Nachrichten.
 
-  Die Fehlertypen von Push-Benachrichtigungen werden im Abschnitt [Dokumentation zu Adobe Campaign v8 (Clientkonsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types){target="_blank"}.
+  Die Fehlertypen von Push-Benachrichtigungen werden im Abschnitt [Dokumentation zu Adobe Campaign v8 (Client-Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=de#push-error-types){target="_blank"} aufgelistet.
 
 +++
 
-### Erzeugte Clickstreams {#delivery-summary-push-click-streams}
+### Generierte Clickstreams {#delivery-summary-push-click-streams}
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_push_click_streams"
->title="Erzeugte Clickstreams"
->abstract="Die **Erzeugte Clickstreams** zeigt die verfügbaren Daten in Bezug auf die Interaktion der Empfänger mit Ihrem Versand an."
+>title="Generierte Clickstreams"
+>abstract="Die Tabelle **Generierte Clickstreams** zeigt Daten dazu an, wie Ihre Empfängerinnen und Empfänger mit Ihrem Versand interagiert haben."
 
-Die **[!UICONTROL Erzeugte Clickstreams]** zeigt Daten dazu an, wie Ihre Empfänger mit Ihrem Versand interagiert haben. Die Metriken werden nachfolgend beschrieben.
+Die Tabelle **[!UICONTROL Generierte Clickstreams]** zeigt Daten dazu an, wie Ihre Empfängerinnen und Empfänger mit Ihrem Versand interagiert haben. Metriken werden nachfolgend beschrieben.
 
 ![](assets/campaign-reporting-push-clicks.png)
 
-+++Erfahren Sie mehr über die Metriken des Push-Kampagnenberichts.
++++Erfahren Sie mehr über die Metriken der Push-Kampagnenberichte.
 
-* **[!UICONTROL Einzelklicks]**: Gesamtzahl der unterschiedlichen Empfänger, die mindestens einmal im betreffenden Versand geklickt haben.
+* **[!UICONTROL Einzelklicks]**: Gesamtzahl der unterschiedlichen Empfängerinnen und Empfänger, die einen Versand mindestens einmal angeklickt haben.
 
-* **[!UICONTROL Klicks insgesamt]**: Gesamtzahl der Klicks auf Links in Sendungen.
+* **[!UICONTROL Klicks gesamt]**: Gesamtzahl der Klicks auf Links in Sendungen.
 
 * **[!UICONTROL Reaktionsrate]**: Verhältnis der Anzahl an Zielgruppenempfängerinnen und -empfängern, die auf einen Versand geklickt haben, in Bezug zur geschätzten Anzahl der Zielgruppenempfängerinnen und -empfänger, die einen Versand geöffnet haben.
 

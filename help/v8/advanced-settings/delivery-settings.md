@@ -5,9 +5,9 @@ description: Erfahren Sie mehr über die Versandeinstellungen in Campaign Web
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="Beta"
 source-git-commit: 47cc61510ae0dba139e0cb4d547fc4e737525931
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2112'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -111,12 +111,12 @@ Weitere Informationen über Konsistenz- und Kapazitätsregeln und deren Konfigur
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_audience"
 >title="Zielgruppeneinstellungen für den Versand"
->abstract="Wählen Sie ein **Zielgruppen-Mapping** unter den verfügbaren Optionen aus. Zielgruppen-Mappings sind in der Adobe Campaign v8-Konsole definiert. Sie können außerdem die Ausschlussparameter für den Versand festlegen. "
+>abstract="Wählen Sie ein **Zielgruppen-Mapping** unter den verfügbaren Optionen aus. Zielgruppen-Mappings werden in der Adobe Campaign v8-Konsole definiert. Sie können außerdem die Ausschlussparameter für den Versand festlegen. "
 
-In diesem Abschnitt können Sie ein verfügbares **Zielgruppen-Mapping** auswählen. Zielgruppen-Mappings sind in der Adobe Campaign v8-Konsole definiert. Die Zielgruppendimension oder das Zielgruppen-Mapping ist der Datentyp, den ein Vorgang verarbeitet. Sie ermöglicht die Bestimmung der Zielpopulation: Empfänger, Vertragsempfänger, Benutzer, Abonnenten etc.
+In diesem Abschnitt können Sie ein verfügbares **Zielgruppen-Mapping** auswählen. Zielgruppen-Mappings werden in der Adobe Campaign v8-Konsole definiert. Die Zielgruppendimension oder das Zielgruppen-Mapping ist der Datentyp, den ein Vorgang verarbeitet. Sie ermöglicht die Bestimmung der Zielpopulation: Empfängerinnen und Empfänger, Vertragsbegünstigte, Benutzerinnen und Benutzer, Abonnentinnen und Abonnenten usw.
 
 
-Weitere Informationen zu Zielgruppen-Mappings finden Sie unter [diesem Abschnitt](../audience/about-recipients.md#targeting-dimensions).
+Weitere Informationen über Zielgruppen-Mapping finden Sie in [diesem Abschnitt](../audience/about-recipients.md#targeting-dimensions).
 
 ## Versand {#delivery}
 

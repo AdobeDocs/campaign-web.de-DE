@@ -3,10 +3,11 @@ audience: end-user
 title: SMS-Versandberichte
 description: Erfahren Sie, wie Sie auf SMS-Versandberichte zugreifen und diese verwenden können
 badge: label="Beta"
-source-git-commit: 3c679ad284f15a46885829b68c8ebea1e99e2b98
-workflow-type: tm+mt
+exl-id: 153d3a85-0d39-42db-9906-1e7f2d1d5bae
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+workflow-type: ht
 source-wordcount: '503'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +29,7 @@ Die **Übersicht über den SMS-Versand** bietet einen umfassenden Überblick üb
 
 ### Versandübersicht {#sms-delivery-overview}
 
-Die **[!UICONTROL Versandübersicht]** bietet wichtige Leistungsindikatoren (KPIs), die detaillierte Informationen zu Erfolgs- und Fehlerraten sowie zur Interaktion Ihrer Besucher mit Ihren SMS-Nachrichten enthalten.
+Die **[!UICONTROL Versandübersicht]** bietet wichtige Leistungsindikatoren (KPIs), die detaillierte Informationen über Erfolgs- und Fehlerraten enthalten und Auskunft darüber geben, wie Ihre Besucherinnen und Besucher mit Ihren SMS-Nachrichten interagieren.
 
 ![](assets/reporting_sms_3.png)
 
@@ -51,9 +52,9 @@ Die **[!UICONTROL Versandübersicht]** bietet wichtige Leistungsindikatoren (KPI
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sms_targeted_population"
 >title="SMS-Zielpopulation"
->abstract="Die **Zielgruppe** Diagramm und Tabelle zeigen Daten in Bezug auf Ihre SMS-Zielgruppe an: Zu sendende Nachrichten und Ausschlüsse."
+>abstract="Das Diagramm und die Tabelle zur **Zielpopulation** zeigen Daten in Bezug auf Ihre SMS-Zielgruppe an: zu sendende Nachrichten und Ausschlüsse."
 
-Die **Zielgruppe** Diagramm und Tabelle zeigen Daten in Bezug auf Ihre Zielgruppe an. Die Metriken werden nachfolgend beschrieben.
+Das Diagramm und die Tabelle zur **Zielpopulation** zeigen Daten in Bezug auf Ihre Zielgruppe an: Metriken werden nachfolgend beschrieben.
 
 ![](assets/reporting_sms_4.png)
 
@@ -73,7 +74,7 @@ Die **Zielgruppe** Diagramm und Tabelle zeigen Daten in Bezug auf Ihre Zielgrupp
 >title="Push-Gesamtstatistik"
 >abstract="Die **Gesamtstatistik** zeigt Daten für die gesendete SMS an: Erfolg, Fehler und Quarantänen."
 
-Die **Gesamtstatistik** zeigt Daten für die gesendeten SMS-Nachrichten an. Die Metriken werden nachfolgend beschrieben.
+Die **Gesamtstatistik** enthält Daten zu den gesendeten SMS-Benachrichtigungen, einschließlich. Metriken werden nachfolgend beschrieben.
 
 ![](assets/reporting_sms_5.png)
 
@@ -91,11 +92,11 @@ Die **Gesamtstatistik** zeigt Daten für die gesendeten SMS-Nachrichten an. Die 
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sms_exclusions"
->title="Gesamtstatistik für SMS"
->abstract="Die **Ausnahmen** Diagramm und Tabelle zeigen die verschiedenen Gründe an, die verhindert haben, dass aus den Zielgruppenprofilen ausgeschlossene Benutzerprofile die Nachricht empfangen."
+>title="SMS-Gesamtstatistik"
+>abstract="Der Graph und die Tabelle **Ausschlüsse** zeigen die verschiedenen Gründe an, die verhindert haben, dass Benutzerprofile, die von den Zielgruppenprofilen ausgeschlossen wurden, die Nachricht erhalten haben."
 
 
-Die **[!UICONTROL Ausnahmen]** Diagramm und Tabelle zeigen die Gründe an, aus denen verhindert wurde, dass aus den Zielgruppenprofilen ausgeschlossene Benutzerprofile die Nachricht empfangen. Ausschlussregeln werden im Abschnitt [Dokumentation zu Campaign v8 (Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#sms-quarantines){_blank}.
+Der Graph und die Tabelle **[!UICONTROL Ausschlüsse]** zeigen die verschiedenen Gründe an, die verhindert haben, dass Benutzerprofile, die von den Zielgruppenprofilen ausgeschlossen wurden, die Nachricht erhalten haben. Ausschlussregeln werden in der[Dokumentation zu Campaign v8 (Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=de#sms-quarantines){_blank} detailliert beschrieben.
 
 ![](assets/reporting_sms_6.png)
 
@@ -109,4 +110,3 @@ Die **[!UICONTROL Ausnahmen]** Diagramm und Tabelle zeigen die Gründe an, aus d
 Dieser Bericht enthält detaillierte Informationen zum Versanddurchsatz der gesamten Plattform innerhalb eines bestimmten Zeitraums. Die wichtigste Kennzahl, mit der die Geschwindigkeit des Nachrichtenversands gemessen wird, ist die Anzahl der pro Stunde gesendeten Nachrichten.
 
 ![](assets/reporting_sms_2.png)
-

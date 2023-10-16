@@ -3,10 +3,11 @@ audience: end-user
 title: E-Mail-Versandberichte
 description: Erfahren Sie, wie Sie auf E-Mail-Versandberichte zugreifen und diese verwenden können
 badge: label="Beta"
-source-git-commit: 3c679ad284f15a46885829b68c8ebea1e99e2b98
-workflow-type: tm+mt
+exl-id: 2a0bd3e9-5d75-47c8-bd6a-b3e0b1ce0a01
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+workflow-type: ht
 source-wordcount: '2254'
-ht-degree: 68%
+ht-degree: 100%
 
 ---
 
@@ -21,18 +22,18 @@ Der **E-Mail-Versandbericht** bietet umfassende Einblicke und Daten, die speziel
 >title="Versandberichte"
 >abstract="Auf der Registerkarte **Senden** Ihres Berichts erhalten Sie einen umfassenden Einblick in die Interaktionen Ihrer Besucherinnen und Besucher mit Ihren Sendungen und in etwaige Fehler, die bei ihnen aufgetreten sind."
 
-### Anfängliche Zielpopulation {#email-delivery-targeted-population}
+### Anfängliche Zielgruppenpopulation {#email-delivery-targeted-population}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_initial_target"
->title="Anfängliche Zielpopulation"
->abstract="Die **Ursprungspopulation** -Diagramm zeigt Daten zu Ihren Empfängern und Nachrichten basierend auf den Ergebnissen der Versandvorbereitung an."
+>title="Anfängliche Zielgruppenpopulation"
+>abstract="Der Graph **Anfängliche Zielgruppenpopulation** zeigt Daten zu Ihren Empfängerinnen und Empfängern sowie Nachrichten basierend auf den Ergebnissen der Versandvorbereitung an."
 
-Die **[!UICONTROL Ursprungspopulation]** -Diagramm zeigt Daten zu Ihren Empfängern an. Die Metriken werden bei der Versandvorbereitung berechnet und zeigen: die Anfangs-Audience, die Anzahl der zu sendenden Nachrichten und die Anzahl der ausgeschlossenen Empfänger.
+Der Graph **[!UICONTROL Anfängliche Zielgruppenpopulation]** zeigt Daten zu Ihren Empfängerinnen und Empfängern an. Die Metriken werden bei der Versandvorbereitung berechnet und zeigen: die anfängliche Zielgruppe, die Anzahl der zu sendenden Nachrichten und die Anzahl der ausgeschlossenen Empfängerinnen und Empfänger.
 
 ![](assets/reporting_email_1.png){width="50%" align="left" zoomable="yes"}
 
-Bewegen Sie den Mauszeiger über einen Abschnitt des Diagramms, um die genaue Zahl anzuzeigen.
+Bewegen Sie den Mauszeiger über einen Abschnitt des Graphen, um die genaue Zahl anzuzeigen.
 
 ![](assets/reporting_email_1.1.png){width="50%" align="left" zoomable="yes"}
 
@@ -43,7 +44,7 @@ Bewegen Sie den Mauszeiger über einen Abschnitt des Diagramms, um die genaue Za
 
 * **[!UICONTROL Zu versenden]**: Gesamtzahl der nach erfolgter Versandanalyse zu versendenden Nachrichten.
 
-* **[!UICONTROL Ausschluss]**: Gesamtzahl der von der Zielpopulation ausgeschlossen Empfänger.
+* **[!UICONTROL Ausschluss]**: Gesamtzahl der vom Versand an die Zielgruppe ausgeschlossenen Nachrichten.
 +++
 
 ### Versandstatistiken {#email-delivery-stats}
@@ -52,10 +53,10 @@ Bewegen Sie den Mauszeiger über einen Abschnitt des Diagramms, um die genaue Za
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_delivery_statistics_summary"
 >title="Versandstatistiken"
->abstract="Die **Versandstatistiken** -Diagramm zeigt den Erfolg Ihres Versands und die aufgetretenen Fehler."
+>abstract="Der Graph **Versandstatistiken** zeigt den Erfolg Ihres Versands und die aufgetretenen Fehler an."
 
 
-Die **[!UICONTROL Versandstatistiken]** -Diagramm zeigt den Erfolg Ihres Versands an. Die Metriken werden nachfolgend beschrieben.
+Der Graph **[!UICONTROL Versandstatistiken]** gibt Auskunft über den Erfolg Ihres Versands. Metriken werden nachfolgend beschrieben.
 
 ![](assets/reporting_email_2.png){width="50%" align="left" zoomable="yes"}
 
@@ -77,10 +78,10 @@ Die **[!UICONTROL Versandstatistiken]** -Diagramm zeigt den Erfolg Ihres Versand
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_exclusion"
 >title="Versandstatistiken"
->abstract="Die **Ausschlussgründe** Diagramm und Tabelle zeigen die Verteilung der bei der Versandvorbereitung zurückgewiesenen Nachrichten nach Regeln."
+>abstract="Der Graph und die Tabelle zu den **Ausschlussgründen** zeigen die Aufschlüsselung der im Zuge der Versandvorbereitung abgelehnten Nachrichten nach Regeln."
 
 
-Die **[!UICONTROL Ausschlussgründe]** Diagramm und Tabelle zeigen die Verteilung der bei der Versandvorbereitung zurückgewiesenen Nachrichten nach Regeln. Ausschlussregeln werden im Abschnitt [Dokumentation zu Campaign v8 (Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){_blank}.
+Der Graph und die Tabelle zu den **[!UICONTROL Ausschlussgründen]** zeigen die Aufschlüsselung der im Zuge der Versandvorbereitung abgelehnten Nachrichten nach Regeln. Ausschlussregeln werden in der[Dokumentation zu Campaign v8 (Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=de#email-error-types){_blank} detailliert beschrieben.
 
 ![](assets/reporting_email_3.png){align="center" zoomable="yes"}
 
@@ -114,14 +115,14 @@ Dieser Bericht enthält detaillierte Informationen zum Versanddurchsatz der gesa
 ![](assets/reporting_email_3.1.png){align="center" zoomable="yes"}
 
 
-## Versandstatistiken {#broadcast-statistics}
+## Broadcast-Statistiken {#broadcast-statistics}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_broadcast_statistics"
->title="Versandstatistiken"
->abstract="Die **Versandstatistiken** enthält die verfügbaren Daten zu Fehlern, die bei jeder Domain aufgetreten sind."
+>title="Broadcast-Statistiken"
+>abstract="Der Bericht **Broadcast-Statistiken** enthält die verfügbaren Daten zu möglichen Fehlern, die bei jeder einzelnen Domain aufgetreten sind."
 
-Die Tabelle **[!UICONTROL Broadcast-Statistiken]** enthält die verfügbaren Daten zu Fehlern, die bei jeder Domain aufgetreten sind. Die Metriken werden nachfolgend beschrieben.
+Die Tabelle **[!UICONTROL Broadcast-Statistiken]** enthält die verfügbaren Daten zu Fehlern, die bei jeder Domain aufgetreten sind. Metriken werden nachfolgend beschrieben.
 
 ![](assets/reporting_email_4.png){align="center" zoomable="yes"}
 
@@ -144,14 +145,14 @@ Die Tabelle **[!UICONTROL Broadcast-Statistiken]** enthält die verfügbaren Dat
 
 ## Unzustellbare Nachrichten {#non-deliverables-email}
 
-###  zur Aufschlüsselung der Fehler nach Typ {#email-delivery-breakdown-type}
+### Aufschlüsselung der Fehler nach Typen {#email-delivery-breakdown-type}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_error_type"
->title=" zur Aufschlüsselung der Fehler nach Typ"
->abstract="Die **Verteilung der Fehler nach Typ** -Tabelle und -Diagramm enthalten die verfügbaren Daten für jeden aufgetretenen Fehlertyp: unbekannter Nutzer, Postfach voll, ungültige Domäne und mehr."
+>title="Aufschlüsselung der Fehler nach Typen"
+>abstract="Die Tabelle und der Graph zur **Aufschlüsselung der Fehler nach Typen** enthalten die verfügbaren Daten für jeden aufgetretenen Fehlertyp: Benutzerin oder Benutzer unbekannt, Postfach voll, ungültige Domain und mehr."
 
-Die **[!UICONTROL Verteilung der Fehler nach Typ]** Tabelle und Diagramm enthalten die verfügbaren Daten für den Fehlertyp. Die Metriken werden nachfolgend beschrieben.
+Die Tabelle und der Graph zur **[!UICONTROL Aufschlüsselung der Fehler nach Typen]** enthalten die verfügbaren Daten für jeden Fehlertyp. Metriken werden nachfolgend beschrieben.
 
 Die in diesem Bericht angezeigten Fehler lösen einen Quarantäneprozess aus. Weitere Informationen zur Quarantäneverwaltung finden Sie in der [Dokumentation zu Campaign v8 (Client-Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=de){target="_blank"}.
 
@@ -176,24 +177,24 @@ Die in diesem Bericht angezeigten Fehler lösen einen Quarantäneprozess aus. We
 +++
 
 
-### Verteilung der Fehler nach Domain {#email-delivery-breakdown-domain}
+### Aufschlüsselung der Fehler nach Domain {#email-delivery-breakdown-domain}
 
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_error_domain"
->title="Verteilung der Fehler nach Domain"
->abstract="Die **Verteilung der Fehler nach Domain** -Tabelle und -diagramm zeigen die verfügbaren Daten für jeden aufgetretenen Fehlertyp in Abhängigkeit von der jeweiligen Domäne an."
+>title="Aufschlüsselung der Fehler nach Domain"
+>abstract="Die Tabelle und der Graph zur **Aufschlüsselung der Fehler nach Domain** enthalten die verfügbaren Daten für jeden Fehlertyp, der für die einzelnen Domains aufgetreten ist."
 
 
-Die **[!UICONTROL Verteilung der Fehler nach Domain]** -Tabelle und -Diagramm zeigen die verfügbaren Daten zu Fehlern an, die bei jeder Domäne aufgetreten sind.
-
-![](assets/campaign_report_email_6.1.png){align="left" zoomable="yes"}
-
-Klicken Sie auf das Symbol neben dem Namen der einzelnen Domänen, um Details anzuzeigen.
+Die Tabelle und der Graph zur **[!UICONTROL Aufschlüsselung der Fehler nach Domain]** zeigen die verfügbaren Daten zu Fehlern an, die bei den einzelnen Domains aufgetreten sind.
 
 ![](assets/campaign_report_email_6.1.png){align="left" zoomable="yes"}
 
-Die verfügbaren Metriken sind mit denen der Variablen [Verteilung der Fehler nach Typ](#email-delivery-breakdown-type) weiter oben beschrieben.
+Klicken Sie auf das Symbol neben dem Namen der einzelnen Domains, um Details anzuzeigen.
+
+![](assets/campaign_report_email_6.1.png){align="left" zoomable="yes"}
+
+Die verfügbaren Metriken sind die gleichen wie die für die weiter oben beschriebene [Aufschlüsselung der Fehler nach Typen](#email-delivery-breakdown-type).
 
 ## Tracking-Indikatoren {#tracking-indicators-email}
 
@@ -209,10 +210,10 @@ Die verfügbaren Metriken sind mit denen der Variablen [Verteilung der Fehler na
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_delivery_statistics_indicators"
 >title=" Versandstatistiken"
->abstract="Die **Versandstatistiken** bietet wichtige Leistungsindikatoren (KPIs), die detaillierte Informationen zu den für gesendete E-Mails verfügbaren Daten liefern: Erfolg, Öffnungen, Klicks und mehr."
+>abstract="Der Bericht **Versandstatistiken** bietet wichtige Leistungsindikatoren (KPIs), die detaillierte Informationen zu den Daten liefern, die für gesendete E-Mails verfügbar sind: Erfolg, Öffnungen, Klicks und mehr."
 
 
-Die **[!UICONTROL Versandstatistiken]** bietet wichtige Leistungsindikatoren (KPIs), die detaillierte Informationen zu den für gesendete E-Mails verfügbaren Daten enthalten. Die Metriken werden nachfolgend beschrieben.
+Der Bericht **[!UICONTROL Versandstatistiken]** bietet wichtige Leistungsindikatoren (KPIs), die detaillierte Informationen zu den Daten liefern, die für gesendete E-Mails verfügbar sind. Metriken werden nachfolgend beschrieben.
 
 ![](assets/reporting_email_5.png){align="center"}
 
@@ -231,16 +232,16 @@ Die **[!UICONTROL Versandstatistiken]** bietet wichtige Leistungsindikatoren (KP
 * **[!UICONTROL Schätzung der Weiterleitungen]**: Schätzung der Anzahl der E-Mails, die von den Zielgruppenempfängerinnen und -empfängern weitergeleitet werden.
 +++
 
-### Öffnungs- und Klickrate {#email-tracking-click-through}
+### Öffnungs- und Clickthrough-Rate {#email-tracking-click-through}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_open_clickthrough"
->title="Öffnungs- und Klickrate"
->abstract="Die Tabelle **Öffnungs- und Klickrate** zeigt Daten bezüglich der Interaktionen Ihrer Empfängerinnen und Empfänger mit dem Versand an."
+>title="Öffnungs- und Clickthrough-Rate"
+>abstract="Die Tabelle **Öffnungs- und Clickthrough-Rate** zeigt Daten bezüglich der Interaktionen Ihrer Empfängerinnen und Empfänger mit dem Versand an."
 
 
 
-Die **[!UICONTROL Öffnungs- und Klickrate]** zeigt Daten zu Ihren Empfängern an. Die Metriken werden nachfolgend beschrieben.
+Die Tabelle **[!UICONTROL Öffnungs- und Clickthrough-Rate]** zeigt Daten zu Ihren Empfängerinnen und Empfängern an. Metriken werden nachfolgend beschrieben.
 
 ![](assets/reporting_email_6.png){align="center"}
 
@@ -262,10 +263,10 @@ Die **[!UICONTROL Öffnungs- und Klickrate]** zeigt Daten zu Ihren Empfängern a
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_urls_clickstreams"
 >title="URLs und Clickstreams"
->abstract="Die **URLs und Clickstreams** liefert wichtige Leistungsindikatoren (KPIs), die detaillierte Informationen zu den URLs enthalten, auf die während eines Versands am häufigsten geklickt wurde."
+>abstract="Der Bericht **URLs und Clickstreams** bietet wichtige Leistungsindikatoren (KPIs), die detaillierte Informationen zu den URLs enthalten, auf die während eines Versands am häufigsten geklickt wurde."
 
 
-Die **[!UICONTROL URLs und Clickstreams]** liefert wichtige Leistungsindikatoren (KPIs), die detaillierte Informationen zu den URLs enthalten, auf die während eines Versands am häufigsten geklickt wurde.
+Der Bericht **[!UICONTROL URLs und Clickstreams]** bietet wichtige Leistungsindikatoren (KPIs), die detaillierte Informationen zu den URLs enthalten, auf die während eines Versands am häufigsten geklickt wurde.
 
 ![](assets/reporting_email_7.png){align="center"}
 
@@ -287,10 +288,10 @@ Die **[!UICONTROL URLs und Clickstreams]** liefert wichtige Leistungsindikatoren
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_urls_clickstreams_top10"
 >title="Die 10 meistbesuchten Links"
->abstract="Die **Die 10 am häufigsten besuchten Links** Diagramm und Tabelle enthalten die verfügbaren Daten für das Empfängerverhalten pro Link."
+>abstract="Der Graph und die Tabelle zu den **10 meistbesuchten Links** enthalten die verfügbaren Daten für das Empfängerverhalten für die einzelnen Links."
 
 
-Die **[!UICONTROL Die 10 am häufigsten besuchten Links]** Diagramm und Tabelle enthalten die verfügbaren Daten für das Empfängerverhalten pro Link.
+Der Graph und die Tabelle zu den **[!UICONTROL 10 meistbesuchten Links]** enthalten die verfügbaren Daten für das Empfängerverhalten für die einzelnen Links.
 
 ![](assets/reporting_email_8.png){align="center"}
 
@@ -308,10 +309,10 @@ Die **[!UICONTROL Die 10 am häufigsten besuchten Links]** Diagramm und Tabelle 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_urls_click_breakdown"
 >title="Aufschlüsselung der Klicks im Zeitverlauf"
->abstract="Die **Zeitliche Klickverteilung** -Diagramm zeigt die verfügbaren Daten für das Empfängerverhalten pro Link."
+>abstract="Der Graph zur **Aufschlüsselung der Klicks im Zeitverlauf** zeigt die verfügbaren Daten zum Empfängerverhalten für jeden Link."
 
 
-Die **[!UICONTROL Zeitliche Klickverteilung]** -Diagramm enthält die verfügbaren Daten zum Empfängerverhalten pro Link.
+Der Graph zur **[!UICONTROL Aufschlüsselung der Klicks im Zeitverlauf]** enthält die verfügbaren Daten zum Empfängerverhalten für jeden Link.
 
 ![](assets/reporting_email_9.png){align="center"}
 
@@ -322,7 +323,7 @@ Die **[!UICONTROL Zeitliche Klickverteilung]** -Diagramm enthält die verfügbar
 >title="Widget „Benutzeraktivitäten“"
 >abstract="Das Diagramm **Benutzeraktivitäten** zeigt die Aufschlüsselung der Öffnungen und Klicks in Form eines Diagramms. Sie können den Zeitraum der Zielgruppendaten auswählen: letzter Tag, letzte Stunde oder letzte 30 Minuten."
 
-Die **[!UICONTROL Benutzeraktivitäten]** zeigt die Öffnungs- und Klickverteilung in Form eines Diagramms an. Sie können den Zeitraum der Zielgruppendaten auswählen: letzter Tag, letzte Stunde oder letzte 30 Minuten.
+Der Bericht **[!UICONTROL Benutzeraktivitäten]** zeigt die Aufschlüsselung der Öffnungen und Klicks in Form eines Diagramms. Sie können den Zeitraum der Zielgruppendaten auswählen: letzter Tag, letzte Stunde oder letzte 30 Minuten.
 
 ![](assets/reporting_email_10.png){align="center"}
 
@@ -355,43 +356,43 @@ Das Diagramm **[!UICONTROL Tracking-Statistiken]** liefert Statistiken über Öf
 
 ## Aufschlüsselung der Öffnungen {#breakdown-opens}
 
-### Öffnungsverteilung nach Gerät {#breakdown-opens-devices}
+### Aufschlüsselung der Öffnungen nach Gerät {#breakdown-opens-devices}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_breakdown_device"
 >title="Aufschlüsselung nach Gerät"
->abstract="Die **Aufschlüsselung nach Gerät** zeigt die Verteilung der Öffnungen nach Gerät für den Zeitraum an. Für jede Kategorie werden zwei Diagramme verwendet. Das erste zeigt Statistiken zu Öffnungen auf Computern und Mobilgeräten. Die zweite zeigt die genaue Anzahl und den genauen Prozentsatz für jeden Gerätetyp an."
+>abstract="Der Bericht **Aufschlüsselung nach Gerät** zeigt die Aufschlüsselung der Öffnungen nach Gerät für den betreffenden Zeitraum an. Für jede Kategorie werden zwei Diagramme verwendet. Das erste zeigt Statistiken zu Öffnungen auf Computern und Mobilgeräten. Das zweite zeigt die genaue Anzahl und den genauen Prozentsatz für jeden Gerätetyp an."
 
-Die **Aufschlüsselung nach Gerät** zeigt die Verteilung der Öffnungen nach Gerät für den jeweiligen Zeitraum an: PCs, Android-Geräte, Apple-Geräte usw.
+Der Bericht **Aufschlüsselung nach Gerät** zeigt die Aufschlüsselung der Öffnungen nach Gerät für den jeweiligen Zeitraum an: Android-Geräte, Apple-Geräte usw.
 
-Für jede Kategorie werden zwei Diagramme verwendet. Das erste zeigt Statistiken zu Öffnungen auf Computern und Mobilgeräten. Die zweite zeigt die genaue Anzahl und den genauen Prozentsatz für jeden Gerätetyp an.
+Für jede Kategorie werden zwei Diagramme verwendet. Das erste zeigt Statistiken zu Öffnungen auf Computern und Mobilgeräten. Das zweite zeigt die genaue Anzahl und den genauen Prozentsatz für jeden Gerätetyp an.
 
 ![](assets/reporting_email_13.png){align="center"}
 
 
-### Öffnungsverteilung nach Betriebssystem {#breakdown-opens-os}
+### Aufschlüsselung der Öffnungen nach Betriebssystem {#breakdown-opens-os}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_breakdown_os"
->title="Verteilung nach Betriebssystem"
->abstract="Die **Aufschlüsselung nach Betriebssystem** zeigt die Verteilung der Öffnungen nach Betriebssystem für den betreffenden Zeitraum an. Das erste Diagramm zeigt Statistiken zu Öffnungen auf Computern und Mobilgeräten. Die zweite zeigt die genaue Anzahl und den genauen Prozentsatz für jedes Betriebssystem an."
+>title="Aufschlüsselung nach Betriebssystem"
+>abstract="Die **Aufschlüsselung nach Betriebssystem** zeigt die Aufschlüsselung der Öffnungen nach Betriebssystem für den betreffenden Zeitraum an. Das erste Diagramm zeigt Statistiken zu Öffnungen auf Computern und Mobilgeräten. Das zweite zeigt die genaue Anzahl und den genauen Prozentsatz für jedes Betriebssystem an."
 
-Die **Aufschlüsselung nach Betriebssystem** zeigt die Verteilung der Öffnungen nach Betriebssystem für den jeweiligen Zeitraum an: Windows-Systeme, Android-Systeme, iOS-Systeme usw.
+Der Bericht **Aufschlüsselung nach Betriebssystem** zeigt die Aufschlüsselung der Öffnungen nach Betriebssystem für den jeweiligen Zeitraum an: Windows-Systeme, Android-Systeme, iOS-Systeme usw.
 
-Für jede Kategorie werden zwei Diagramme verwendet. Die erste zeigt Statistiken über Öffnungen auf einem Computer und mobilen Betriebssystemen an. Die zweite zeigt die genaue Anzahl und den genauen Prozentsatz für jedes Betriebssystem an.
+Für jede Kategorie werden zwei Diagramme verwendet. Das erste zeigt Statistiken zu Öffnungen auf Betriebssystemen von Computern und Mobilgeräten. Das zweite zeigt die genaue Anzahl und den genauen Prozentsatz für jedes Betriebssystem an.
 
 ![](assets/reporting_email_13.1.png){align="center"}
 
-### Öffnungsverteilung nach Browser {#breakdown-opens-browser}
+### Aufschlüsselung der Öffnungen nach Browser {#breakdown-opens-browser}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_breakdown_browser"
 >title="Aufschlüsselung nach Browser"
->abstract="Die **Aufschlüsselung nach Browser** zeigt die Verteilung der Öffnungen nach Browser für den Zeitraum an. Das erste Diagramm zeigt Statistiken zu Öffnungen auf Computern und Mobilgeräten. Die zweite zeigt die genaue Anzahl und den genauen Prozentsatz für jeden Browser an."
+>abstract="Der Bericht **Aufschlüsselung nach Browser** zeigt die Aufschlüsselung der Öffnungen nach Browser für den betreffenden Zeitraum an. Das erste Diagramm zeigt Statistiken zu Öffnungen auf Computern und Mobilgeräten. Das zweite zeigt die genaue Anzahl und den genauen Prozentsatz für jeden Browser an."
 
-Die **Aufschlüsselung nach Browser** zeigt die Öffnungsverteilung nach Browser an: Chrome, Safari, Internet Explorer usw.
+Der Bericht **Aufschlüsselung nach Browser** zeigt die Aufschlüsselung der Öffnungen nach Browser an: Chrome, Safari, Internet Explorer usw.
 
-Für jede Kategorie werden zwei Diagramme verwendet. Die erste zeigt Statistiken über Öffnungen auf einem Computer und mobilen Betriebssystemen an. Die zweite zeigt die genaue Anzahl und den genauen Prozentsatz für jeden Browser an.
+Für jede Kategorie werden zwei Diagramme verwendet. Das erste zeigt Statistiken zu Öffnungen auf Betriebssystemen von Computern und Mobilgeräten. Das zweite zeigt die genaue Anzahl und den genauen Prozentsatz für jeden Browser an.
 
 ![](assets/reporting_email_13.2.png){align="center"}
 

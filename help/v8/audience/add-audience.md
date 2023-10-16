@@ -5,9 +5,9 @@ description: Erfahren Sie, wie Sie eine Zielgruppe auswählen
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
 badge: label="Beta"
 source-git-commit: 424caa898ff9d73f3520aa6d682eb1963d992069
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '308'
-ht-degree: 43%
+ht-degree: 100%
 
 ---
 
@@ -19,20 +19,20 @@ ht-degree: 43%
 >title="Auswählen einer bestehenden Zielgruppe"
 >abstract="Durchsuchen Sie die Liste, um eine vorhandene Zielgruppe auszuwählen. Verwenden Sie das Symbol „Filter anzeigen“, um die Liste zu filtern, oder wählen Sie einen bestimmten Ordner aus."
 
-In diesem Abschnitt wird beschrieben, wie Sie bei der Definition der Zielpopulation eines Versands eine existierende Zielgruppe auswählen. Bei der Bestimmung der Hauptzielgruppe eines Versands haben Sie außerdem folgende Möglichkeiten:
+In diesem Abschnitt wird beschrieben, wie Sie bei der Definition der Zielgruppe eines E-Mail-Versands eine bestehende Zielgruppe auswählen. Bei der Bestimmung der Hauptzielgruppe eines Versands haben Sie außerdem folgende Möglichkeiten:
 
-* [Erstellen einer einmaligen Zielgruppe](one-time-audience.md) Verwenden des Regel-Builders.
-* [Laden einer Audience aus einer externen Datei](file-audience.md) (nur für E-Mails).
+* [Erstellen einer einmaligen Zielgruppe](one-time-audience.md) mithilfe des Regel-Builders.
+* [Laden einer Zielgruppe aus einer externen Datei](file-audience.md) (nur für E-Mails).
 
-Auf Zielgruppen, die in Sendungen ausgewählt werden können, kann über das **Zielgruppe** Menü links. Sie stammen aus verschiedenen Quellen, wie z. B. der Client-Konsole, den Workflows für Campaign-Webzielgruppen oder Adobe Experience Platform. [Erfahren Sie, wie Sie Zielgruppen überwachen und verwalten.](manage-audience.md)
+Auf Zielgruppen, die in Sendungen ausgewählt werden können, kann über das Menü **Zielgruppen** links zugegriffen werden. Sie stammen aus verschiedenen Quellen, wie z. B. der Client-Konsole, den Zielgruppen-Workflows für Campaign Web oder Adobe Experience Platform. [Erfahren Sie, wie Sie Zielgruppen überwachen und verwalten.](manage-audience.md)
 
-Gehen Sie wie folgt vor, um eine vorhandene Audience für Ihre Nachricht auszuwählen:
+Gehen Sie wie folgt vor, um eine vorhandene Zielgruppe für Ihre Nachricht auszuwählen:
 
-1. Aus dem **Zielgruppe** Klicken Sie im Abschnitt des Assistenten zur Versanderstellung auf die Schaltfläche **[!UICONTROL Zielgruppe auswählen]** Schaltfläche auswählen
+1. Klicken Sie im Abschnitt **Zielgruppe** des Assistenten zur Versanderstellung auf die Schaltfläche **[!UICONTROL Zielgruppe auswählen]**
 
    ![](assets/create-audience.png)
 
-1. Klicken Sie auf **[!UICONTROL Audience auswählen]**, um eine bestehende Audience zu verwenden. Auf diesem Bildschirm werden alle vorhandenen Zielgruppen für den aktuellen Ordner angezeigt.
+1. Klicken Sie auf **[!UICONTROL Zielgruppe auswählen]**, um eine bestehende Zielgruppe zu verwenden. Auf diesem Bildschirm werden alle vorhandenen Zielgruppen für den aktuellen Ordner angezeigt.
 
    ![](assets/create-audience2.png)
 
@@ -40,11 +40,11 @@ Gehen Sie wie folgt vor, um eine vorhandene Audience für Ihre Nachricht auszuw�
 
    ![](assets/select-audience-folder.png)
 
-1. Im Filterbereich können Sie auf Filteroptionen zugreifen, um die Zielgruppenliste zu verfeinern. Klicken Sie dazu auf **Regeln hinzufügen** , um auf den Regel-Builder zuzugreifen, mit dem Sie erweiterte Filter für die Liste der Zielgruppen erstellen können. [Erfahren Sie, wie Sie den Regel-Builder verwenden](segment-builder.md)
+1. Im Filterbereich können Sie auf Filteroptionen zugreifen, um die Zielgruppenliste zu präzisieren. Klicken Sie dazu auf **Regeln hinzufügen**, um auf den Regel-Builder zuzugreifen, mit dem Sie erweiterte Filter für die Liste der Zielgruppen erstellen können. [Erfahren Sie, wie Sie den Regel-Builder verwenden](segment-builder.md)
 
    ![](assets/create-audience4.png)
 
-1. Klicks **Bestätigen** , um Ihre Audience als Hauptzielgruppe des Versands hinzuzufügen. Danach können Sie die Zielgruppe mit dem Regel-Builder weiter einschränken, indem Sie auf die **Regeln bearbeiten** Schaltfläche.
+1. Klicken Sie auf **Bestätigen**, um Ihre Zielgruppe als Hauptzielgruppe des Versands hinzuzufügen. Danach können Sie die Zielgruppe mit dem Regel-Builder weiter einschränken, indem Sie auf die Schaltfläche **Regeln bearbeiten** klicken.
 
    ![](assets/refine-audience.png)
 

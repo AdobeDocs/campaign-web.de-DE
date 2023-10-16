@@ -3,10 +3,11 @@ audience: end-user
 title: Kampagnenberichte
 description: Erfahren Sie, wie Sie auf Kampagnenberichte zugreifen und diese verwenden können
 badge: label="Beta"
-source-git-commit: 3a7b273f23590c60313b4deb4b141223699d14e3
-workflow-type: tm+mt
+exl-id: 6a25a636-35d6-44c8-8635-7aec683af1f6
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+workflow-type: ht
 source-wordcount: '85'
-ht-degree: 22%
+ht-degree: 100%
 
 ---
 
@@ -24,11 +25,11 @@ ht-degree: 22%
 >abstract="The Tracking tab within your report offers valuable data, including recipient behavior per link, breakdown of opens and clicks, as well as detailed information about the most frequently clicked URLs during a delivery."
 -->
 
-Klicken Sie auf die Schaltfläche **Berichte** im Dashboard Ihrer Kampagne.
+Klicken Sie im Dashboard Ihrer Kampagne auf die Schaltfläche **Berichte**.
 
 ![](assets/campaign_report_email_13.png)
 
-Alternativ können Sie die drei Punkte verwenden **Mehr Aktionen** neben dem Kampagnennamen in der Kampagnenliste, wie unten dargestellt:
+Alternativ können Sie die Schaltfläche mit den drei Punkten **Mehr Aktionen** neben dem Kampagnennamen in der Kampagnenliste verwenden, wie unten dargestellt:
 
 ![](assets/campaign-reports-view.png){width="50%" align="left" zoomable="yes"}
 
@@ -39,4 +40,3 @@ Die vollständige Liste der Berichte und zugehörigen Metriken für jeden Kanal 
 * [E-Mail-Kanal](campaign-reports-email.md)
 * [SMS-Kanal](campaign-reports-sms.md)
 * [Push-Kanal](campaign-reports-push.md)
-

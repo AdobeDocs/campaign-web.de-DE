@@ -5,9 +5,9 @@ description: Erfahren Sie, wie Sie mit dem Regel-Builder arbeiten
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
 badge: label="Beta"
 source-git-commit: 424caa898ff9d73f3520aa6d682eb1963d992069
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '614'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 75%
 >title="Zielgruppen"
 >abstract="Das Aufbauen einer Zielgruppe für einen Versand war nie einfacher! Mit unserem aktuellen Regel-Builder können Sie jetzt Filterkriterien für Empfängerinnen und Empfänger oder eine andere Zielgruppendimension von der Datenbank aus definieren. Machen Sie sich Ihre Adobe Experience Platform-Zielgruppe zunutze, um Ihre Zielgruppe weiter zu präzisieren und die Wirkung Ihrer Kampagne zu maximieren."
 
-Mit dem Rule Builder können Sie die Zielgruppe Ihres Versands definieren, indem Sie in der Datenbank enthaltene Daten filtern. Sie können damit eine Audience aus einem Workflow erstellen, indem Sie eine **[!UICONTROL Audience erstellen]** oder direkt bei der Erstellung eines Versands zur Erstellung einer einmaligen Zielgruppe.
+Mit dem Regel-Builder können Sie die Population definieren, die mit Ihrem Versand angesprochen werden soll, indem Sie in der Datenbank enthaltene Daten filtern. Sie können damit eine Zielgruppe aus einem Workflow erstellen, indem Sie die Aktivität **[!UICONTROL Zielgruppe erstellen]** verwenden, oder beim Erstellen eines Versands eine Zielgruppe direkt als einmalige Zielgruppe erstellen.
 
-* [Erfahren Sie, wie Sie eine Zielgruppe erstellen](create-audience.md)
+* [Erfahren Sie, wie Sie eine Zielgruppe auswählen](create-audience.md)
 * [Erfahren Sie, wie Sie eine einmalige Zielgruppe für einen Versand erstellen.](one-time-audience.md)
 
 ## Die Palette
@@ -33,11 +33,11 @@ Die Palette ist in zwei Registerkarten unterteilt:
 
 * **Attribute**: Auf dieser Registerkarte können Sie auf alle verfügbaren Felder des Schemas zugreifen. Die Liste der Felder hängt von dem in der E-Mail-Vorlage definierten Zielgruppenbestimmungsschema ab.
 
-* **Audiences**: Auf dieser Registerkarte können Sie über einen Filter eine der vorhandenen Audiences auswählen, die in der Campaign Classic-Konsole oder in Adobe Experience Platform definiert sind. [Erfahren Sie, wie Sie Audiences überwachen und verwalten.](manage-audience.md)
+* **Zielgruppen**: Auf dieser Registerkarte können Sie über einen Filter eine der vorhandenen Zielgruppen auswählen, die in der Campaign Classic-Konsole oder in Adobe Experience Platform definiert sind. [Erfahren Sie, wie Sie Zielgruppen überwachen und verwalten](manage-audience.md)
 
   >[!NOTE]
   >
-  >Um Adobe Experience Platform-Audiences zu nutzen, müssen Sie die Integration mit Zielen konfigurieren. Weitere Informationen finden Sie in der Dokumentation zu [Adobe Experience Platform-Zielen](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=de){target="_blank"}.
+  >Um Adobe Experience Platform-Zielgruppen zu nutzen, müssen Sie die Integration mit Zielen konfigurieren. Weitere Informationen finden Sie in der Dokumentation zu [Adobe Experience Platform-Zielen](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=de){target="_blank"}.
 
 ## Die Arbeitsfläche
 
@@ -47,15 +47,15 @@ Die Arbeitsfläche ist der zentrale Bereich des Bildschirms, in dem Sie die Rege
 
 ## Der Bereich mit den Regeleigenschaften
 
-Auf der rechten Seite wird die **Regeleigenschaften** können Sie die unten aufgeführten Aktionen ausführen.
+Auf der rechten Seite können Sie im Bereich **Regeleigenschaften** die folgenden Aktionen ausführen.
 
 ![](assets/segment-builder5.png){width="70%" align="left"}
 
-* **Ergebnisse anzeigen:** zeigt die Liste der von der Audience angesprochenen Empfänger an.
+* **Ergebnisse anzeigen:** zeigt die Liste der von der Zielgruppe angesprochenen Empfänger an.
 * **Code-Ansicht**: Zeigt eine Code-basierte Version der Audience in SQL an.
 * **Erweiterte Attribute anzeigen**: Aktivieren Sie diese Option, wenn Sie die vollständige Liste der Attribute in der linken Palette anzeigen möchten: Knoten, Gruppierungen, 1:1-Links, 1:n-Links.
-* **berechnen**: aktualisiert die Anzahl der Profile, die in der Zielgruppe Ihrer Abfrage enthalten sind, und zeigt sie an.
-* **Filter auswählen oder speichern**: Verwenden Sie einen vordefinierten Filter, um Ihre Abfrage zu filtern, oder speichern Sie Ihre Abfrage als neuen Filter, um sie später erneut zu verwenden. [Erfahren Sie, wie Sie mit vordefinierten Filtern arbeiten.](../get-started/predefined-filters.md)
+* **Berechnen**: Aktualisiert und zeigt die Anzahl der Profile an, die von Ihrer Abfrage angesprochen werden.
+* **Filter auswählen oder speichern**: Verwenden Sie einen vordefinierten Filter, um Ihre Abfrage zu filtern, oder speichern Sie Ihre Abfrage als neuen Filter, um sie später erneut zu verwenden. [Erfahren Sie, wie Sie mit vordefinierten Filtern arbeiten](../get-started/predefined-filters.md)
 
   >[!IMPORTANT]
   >

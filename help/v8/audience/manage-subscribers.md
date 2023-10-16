@@ -1,29 +1,29 @@
 ---
 audience: end-user
-title: Dienstabonnenten verwalten
-description: Erfahren Sie, wie Sie Abonnenten eines Dienstes im Adobe Campaign Web verwalten und übermitteln können.
+title: Verwalten der Abonnentinnen und Abonnenten eines Dienstes
+description: Erfahren Sie, wie Sie Abonnentinnen und Abonnenten eines Dienstes im Adobe Campaign Web verwalten und an sie etwas senden können.
 badge: label="Beta"
-source-git-commit: 6406be82c2bad9346f6743e18535fdfe132b2bd0
-workflow-type: tm+mt
+exl-id: cf72d27e-365c-4edc-b661-a67c148f0eeb
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+workflow-type: ht
 source-wordcount: '292'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
+# Verwalten der Abonnentinnen und Abonnenten eines Dienstes {#manage-subscribers}
 
-# Dienstabonnenten verwalten {#manage-subscribers}
+Wenn Sie einmal einen [Dienst erstellt](manage-services.md#create-service) haben, können Sie Abonnentinnen und Abonnenten hinzufügen, Empfängerinnen und Empfänger abmelden und Nachrichten an die Abonnentinnen und Abonnenten dieses Dienstes senden.
 
-Einmal [Dienst erstellt](manage-services.md#create-service)können Sie Abonnenten hinzufügen, Empfänger abmelden und Nachrichten an die Abonnenten dieses Dienstes senden.
+Die Abonnentenverwaltung wird auf dieser Seite beschrieben. Informationen zum Senden von Nachrichten an Ihre Abonnentinnen und Abonnenten finden Sie in [diesem Abschnitt](../content/send-to-subscribers.md).
 
-Die Abonnentenverwaltung wird auf dieser Seite beschrieben. Informationen zum Senden von Nachrichten an Ihre Abonnenten finden Sie unter [diesem Abschnitt](../content/send-to-subscribers.md).
+## Hinzufügen von Abonnentinnen und Abonnenten zu Ihrem Dienst {#add-subscribers}
 
-## Abonnenten zu Ihrem Dienst hinzufügen {#add-subscribers}
+Gehen Sie wie folgt vor, um Abonnentinnen und Abonnenten manuell hinzuzufügen.
 
-Gehen Sie wie folgt vor, um Abonnenten manuell hinzuzufügen.
+1. Wählen Sie einen vorhandenen Dienst aus der Liste **[!UICONTROL Anmeldedienste]** aus.
 
-1. Wählen Sie einen vorhandenen Dienst aus der **[!UICONTROL Abonnementdienste]** Liste.
-
-1. Wählen Sie die **[!UICONTROL Abonnenten]** Registerkarte und klicken Sie auf **[!UICONTROL Profile hinzufügen]**.
+1. Wählen Sie die Registerkarte **[!UICONTROL Abonnenten]** aus und klicken Sie auf **[!UICONTROL Profile hinzufügen]**.
 
    ![](assets/service-subscribers-tab.png)
 
@@ -31,36 +31,36 @@ Gehen Sie wie folgt vor, um Abonnenten manuell hinzuzufügen.
 
    ![](assets/service-subscribers-select-profiles.png)
 
-1. Klicks **[!UICONTROL Senden]**.<!--if you click cancel, does it mean that no message is sent but recipients are still subscribed, or they are not subscribed? it's 2 different actions in the console)--> Die ausgewählten Empfänger erhalten das Abonnement [Bestätigungsnachricht](manage-services.md#create-confirmation-message) die Sie beim [Erstellen des Dienstes](manage-services.md#create-service).
+1. Klicken Sie auf **[!UICONTROL Senden]**.<!--if you click cancel, does it mean that no message is sent but recipients are still subscribed, or they are not subscribed? it's 2 different actions in the console)--> Die ausgewählten Empfängerinnen und Empfänger erhalten die [Bestätigungsnachricht](manage-services.md#create-confirmation-message) für das Abonnement, das Sie ausgewählt haben, als sie den [Dienst erstellt](manage-services.md#create-service) haben.
 
    ![](assets/service-subscribers-confirmation-msg.png)
 
-Die hinzugefügten Profile werden im Abschnitt **[!UICONTROL Abonnenten]** Liste. Sie haben jetzt Ihren Dienst abonniert.
+Die hinzugefügten Profile werden in der Liste **[!UICONTROL Abonnenten]** angezeigt. Sie haben jetzt Ihren Dienst abonniert.
 
-## Entfernen von Abonnenten aus Ihrem Dienst {#remove-subscribers}
+## Entfernen von Abonnentinnen und Abonnenten aus Ihrem Dienst {#remove-subscribers}
 
-### Empfänger manuell abmelden {#manual-unsubscription}
+### Manuelles Abmelden von Empfängerinnen und Empfängern {#manual-unsubscription}
 
-Einmal [Abonnenten hinzugefügt](#add-subscribers) für Ihren Dienst verwenden, können Sie die Anmeldung manuell abmelden. Gehen Sie dazu wie folgt vor.
+Wenn Sie für Ihren Dienst [Abonnentinnen und Abonnenten](#add-subscribers) hinzugefügt haben, können Sie jeden von Ihnen manuell abmelden. Gehen Sie dazu wie folgt vor.
 
-1. Wählen Sie einen vorhandenen Dienst aus der **[!UICONTROL Abonnementdienste]** Liste.
+1. Wählen Sie einen vorhandenen Dienst aus der Liste **[!UICONTROL Anmeldedienste]** aus.
 
-1. Klicken Sie auf das Drei-Punkte-Symbol neben dem gewünschten Empfängernamen und wählen Sie **[!UICONTROL Löschen]**.
+1. Klicken Sie auf das Drei-Punkte-Symbol neben dem Namen der gewünschten Empfängerin bzw. des gewünschten Empfängers und klicken Sie auf **[!UICONTROL Löschen]**.
 
    ![](assets/service-subscribers-delete.png)
 
-1. Löschen bestätigen und auf **[!UICONTROL Senden]**. Der ausgewählte Empfänger erhält die Abmeldung [Bestätigungsnachricht](manage-services.md#create-confirmation-message) die Sie beim [Erstellen des Dienstes](manage-services.md#create-service).
+1. Bestätigen Sie die Löschung und klicken Sie auf **[!UICONTROL Senden]**. Die ausgewählte Person erhält die [Bestätigungsnachricht](manage-services.md#create-confirmation-message) für die Abmeldung, die Sie beim [Erstellen des Dienstes](manage-services.md#create-service) ausgewählt haben.
 
    ![](assets/service-subscribers-delete-confirmation.png)
 
-Der Empfänger wird aus der **[!UICONTROL Abonnenten]** und Ihr Dienst nicht mehr abonniert hat.
+Die Empfängerin bzw. der Empfänger wird aus der **[!UICONTROL Abonnentenliste]** entfernt und hat Ihren Dienst nicht mehr abonniert.
 
-### Empfänger automatisch abmelden {#automatic-unsubscription}
+### Automatisches Abmelden von Empfängerinnen und Empfängern {#automatic-unsubscription}
 
-Ein Anmeldedienst kann eine begrenzte Dauer haben. Die Abmeldung erfolgt automatisch, wenn die Gültigkeitsdauer abgelaufen ist.
+Ein Anmeldedienst kann von begrenzter Dauer sein. Die Abmeldung von Abonnentinnen und Abonnenten erfolgt automatisch, wenn der Gültigkeitszeitraum abgelaufen ist.
 
-Dieser Zeitraum wird angegeben, wenn [Erstellen des Dienstes](manage-services.md#create-service). Aus dem **[!UICONTROL Zusätzliche Optionen]**, deaktivieren Sie die **[!UICONTROL Unbegrenzte Gültigkeitsdauer]** und legen Sie einen Gültigkeitszeitraum für den Dienst fest.
+Dieser Zeitraum wird angegeben, wenn der [Dienst erstellt](manage-services.md#create-service) wird. Deaktivieren Sie in **[!UICONTROL Zusätzliche Optionen]** die Option **[!UICONTROL Unbegrenzter Gültigkeitszeitraum]** und legen Sie einen Gültigkeitszeitraum für den Dienst fest.
 
 ![](assets/service-create-validity-period.png)
 
-Nach Ablauf der angegebenen Dauer werden alle Abonnenten automatisch von diesem Dienst abgemeldet.
+Nach Ablauf der angegebenen Dauer werden alle Abonnentinnen und Abonnenten automatisch von diesem Dienst abgemeldet.

@@ -1,38 +1,38 @@
 ---
 audience: end-user
-title: Arbeiten mit Abonnementdiensten
-description: Erfahren Sie, wie Sie in Adobe Campaign Web auf Abonnementdienste zugreifen, diese erstellen und verwalten können.
+title: Arbeiten mit Anmeldediensten
+description: Erfahren Sie, wie Sie in Adobe Campaign Web auf Anmeldedienste zugreifen, diese erstellen und sie verwalten können.
 badge: label="Beta"
-source-git-commit: 6406be82c2bad9346f6743e18535fdfe132b2bd0
-workflow-type: tm+mt
+exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+workflow-type: ht
 source-wordcount: '771'
-ht-degree: 5%
+ht-degree: 100%
 
 ---
 
-
-# Arbeiten mit Abonnementdiensten {#manage-services}
+# Arbeiten mit Anmeldediensten {#manage-services}
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_list"
 >title="Erstellen und Verwalten Ihrer Dienste"
->abstract="Verwenden Sie Adobe Campaign, um Ihre Dienste wie z. B. Newsletter zu erstellen und zu überwachen und die An- und Abmeldungen für diese Dienste zu überprüfen. Abonnements gelten nur für E-Mail- und SMS-Sendungen."
+>abstract="Mit Adobe Campaign können Sie Informationsdienste wie Newsletter erstellen und überwachen und Abonnements sowie Abmeldungen für sie verwalten. Abonnements gelten nur für den E-Mail- und SMS-Versand."
 
-Verwenden Sie das Adobe Campaign-Web, um Ihre Dienste wie z. B. Newsletter zu verwalten und zu erstellen und die An- und Abmeldungen für diese Dienste zu überprüfen.
+Verwenden Sie Adobe Campaign Web, um Ihre Dienste wie z. B. Newsletter zu verwalten und zu erstellen und die Abonnements und Abmeldungen für diese Dienste zu überprüfen.
 
 >[!NOTE]
 >
->Abonnements gelten nur für E-Mail- und SMS-Sendungen.
+>Abonnements gelten nur für den E-Mail- und SMS-Versand.
 
-Es können mehrere Dienste parallel definiert werden, z. B. Newsletter für bestimmte Produktkategorien, Themen oder Bereiche einer Website, Abonnements für verschiedene Arten von Warnhinweisen und Echtzeit-Benachrichtigungen.
+Dabei können mehrere Dienste parallel definiert werden, z. B. Newsletter für bestimmte Produktkategorien, Themen oder Bereiche einer Website, Abonnements zu verschiedenen Arten von Warnmeldungen und Echtzeitbenachrichtigungen.
 
-Weiterführende Informationen zur Verwaltung von An- und Abmeldungen finden Sie im Abschnitt [Dokumentation zu Campaign v8 (Clientkonsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/subscriptions.html){target="_blank"}.
+Weiterführende Informationen zur Verwaltung von Abonnements und Abmeldungen finden Sie im Abschnitt [Dokumentation zu Campaign v8 (Client-Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/subscriptions.html?lang=de){target="_blank"}.
 
-## Zugriff auf Abonnementdienste {#access-services}
+## Zugreifen auf Anmeldedienste {#access-services}
 
 Gehen Sie wie folgt vor, um auf die für Ihre Plattform verfügbaren Anmeldedienste zuzugreifen.
 
-1. Navigieren Sie zum **[!UICONTROL Abonnementdienste]** in der linken Navigationsleiste.
+1. Navigieren Sie zum Menü **[!UICONTROL Anmeldedienste]** in der linken Navigationsleiste.
 
    ![](assets/service-list.png)
 
@@ -42,59 +42,59 @@ Gehen Sie wie folgt vor, um auf die für Ihre Plattform verfügbaren Anmeldedien
 
 1. Um einen vorhandenen Dienst zu bearbeiten, klicken Sie auf seinen Namen.
 
-1. Sie können jeden Dienst löschen oder duplizieren, indem Sie das Symbol mit den drei Punkten neben diesem Dienstnamen verwenden.<!--so all subscribers are unsuibscribed - need to mention?-->
+1. Sie können jeden Dienst löschen oder duplizieren, indem Sie das Symbol mit den drei Punkten neben dem Namen des Dienstes verwenden.<!--so all subscribers are unsuibscribed - need to mention?-->
 
-## Erstellen des ersten Abonnementdienstes {#create-service}
+## Erstellen Ihres ersten Anmeldedienstes {#create-service}
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_list_properties"
->title="Diensteigenschaften definieren"
->abstract="Geben Sie den Titel des Anmeldedienstes ein und definieren Sie zusätzliche Optionen, z. B. einen Gültigkeitszeitraum für Ihren Dienst."
+>title="Definieren der Eigenschaften Ihres Dienstes"
+>abstract="Geben Sie den Titel des Anmeldedienstes ein und definieren Sie zusätzliche Optionen, z. B. einen Gültigkeitszeitraum für Ihren Dienst."
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_list_confirm"
->title="Bestätigungsnachricht auswählen"
->abstract="Wenn sich ein Benutzer für einen Dienst anmeldet oder diesen abmeldet, können Sie eine Bestätigungsnachricht senden. Wählen Sie die für diese Nachricht zu verwendenden Vorlagen aus."
+>title="Auswählen einer Bestätigungsnachricht"
+>abstract="Wenn sich eine Benutzerin bzw. ein Benutzer für einen Dienst anmeldet oder sich von ihm abmeldet, können Sie eine Bestätigungsnachricht senden. Wählen Sie die Vorlagen aus, die für diese Nachricht verwendet werden sollen."
 
-Gehen Sie wie folgt vor, um einen Abonnementdienst zu erstellen.
+Gehen Sie wie folgt vor, um einen Anmeldedienst zu erstellen.
 
-1. Wählen Sie die **[!UICONTROL Abonnement-Dienst erstellen]** Schaltfläche.
+1. Klicken Sie auf die Schaltfläche **[!UICONTROL Anmeldedienst erstellen]**.
 
    ![](assets/service-create-button.png)
 
-1. Kanal auswählen: **[!UICONTROL Email]** oder **[!UICONTROL SMS]**.
+1. Wählen Sie einen Kanal aus: **[!UICONTROL E-Mail]** oder **[!UICONTROL SMS]**.
 
 1. Geben Sie in den Diensteigenschaften einen Titel ein und definieren Sie nach Bedarf zusätzliche Optionen.
 
    ![](assets/service-create-properties.png)
 
-1. Standardmäßig sind Abonnements unbegrenzt. Sie können die **[!UICONTROL Unbegrenzte Gültigkeitsdauer]** -Option, um eine Gültigkeitsdauer für den Dienst festzulegen.
+1. Standardmäßig sind Abonnements unbegrenzt. Sie können die Option **[!UICONTROL Unbegrenzter Gültigkeitszeitraum]** deaktivieren, um einen Gültigkeitszeitraum für den Dienst festzulegen.
 
-   Im folgenden Beispiel nach 20 Tagen:
-   * Empfänger können sich nicht mehr für diesen Dienst anmelden.
-   * Alle Abonnenten dieses Dienstes werden nach 20 Tagen automatisch abgemeldet. [Weitere Informationen](#automatic-unsubscription)
+   Im folgenden Beispiel wäre nach 20 Tagen Folgendes der Fall:
+   * Empfängerinnen und Empfänger können sich nicht mehr für einen Dienst anmelden.
+   * Alle Abonnentinnen und Abonnenten dieses Dienstes werden nach 20 Tagen automatisch abgemeldet. [Weitere Informationen](#automatic-unsubscription)
 
    ![](assets/service-create-validity-period.png)
 
-1. Wenn sich ein Benutzer für einen Dienst anmeldet oder diesen abmeldet, können Sie eine Bestätigungsnachricht senden. Wählen Sie je nach Anwendungsfall die Vorlagen aus, die für diese Nachricht verwendet werden sollen. Diese Vorlagen müssen mit dem **[!UICONTROL Abonnements]** Zielgruppen-Mapping. [Weitere Informationen](#create-confirmation-message)
+1. Wenn sich eine Benutzerin bzw. ein Benutzer für einen Dienst anmeldet oder sich von ihm abmeldet, können Sie eine Bestätigungsnachricht senden. Wählen Sie je nach Anwendungsfall die Vorlagen aus, die für diese Nachricht verwendet werden sollen. Diese Vorlagen müssen mit dem Zielgruppen-Mapping für die  **[!UICONTROL Abonnements]** konfiguriert werden. [Weitere Informationen](#create-confirmation-message)
 
    ![](assets/service-create-confirmation-msg.png)
 
-1. Klicks **[!UICONTROL Speichern und überprüfen]**. Der neue Dienst wird zum **[!UICONTROL Abonnementdienste]** Liste.
+1. Klicken Sie auf **[!UICONTROL Speichern und überprüfen]**. Der neue Dienst wird zur Liste **[!UICONTROL Anmeldedienste]** hinzugefügt.
 
-## Bestätigungsnachricht erstellen {#create-confirmation-message}
+## Erstellen einer Bestätigungsnachricht {#create-confirmation-message}
 
-Um den Benutzern, die sich für Ihren Dienst angemeldet haben oder sich von ihm abmelden, Bestätigungsnachrichten zu senden, müssen Sie eine Versandvorlage mit dem **[!UICONTROL Abonnements]** Zielgruppen-Mapping ohne definierte Zielgruppe. Gehen Sie dazu wie folgt vor.
+Um den Benutzerinnen und Benutzern, die sich für Ihren Dienst angemeldet haben oder sich von ihm abmelden, Bestätigungsnachrichten zu senden, müssen Sie eine Versandvorlage mit dem Zielgruppen-Mapping für die **[!UICONTROL Abonnements]** erstellen, und zwar ohne eine definierte Zielgruppe. Gehen Sie dazu wie folgt vor.
 
-1. Erstellen Sie eine Versandvorlage für die Anmeldebestätigung. [Weitere Informationen dazu](../msg/delivery-template.md)
+1. Erstellen Sie eine Versandvorlage für die Abonnementbestätigung. [Weitere Informationen dazu](../msg/delivery-template.md)
 
-1. Wählen Sie keine Zielgruppe für diesen Versand aus. Greifen Sie stattdessen auf die **[!UICONTROL Versandeinstellungen]**, navigieren Sie zu [Zielgruppe](../advanced-settings/delivery-settings.md#audience) und wählen Sie die **[!UICONTROL Abonnements]** Zielgruppen-Mapping aus der Liste.
+1. Wählen Sie für diesen Versand keine Zielgruppe aus. Greifen Sie stattdessen auf die **[!UICONTROL Versandeinstellungen]** zu, navigieren Sie zur Registerkarte [Zielgruppe](../advanced-settings/delivery-settings.md#audience) und wählen Sie das Zielgruppen-Mapping für **[!UICONTROL Abonnements]** aus der Liste aus.
 
    ![](assets/service-confirmation-template-mapping.png)
 
    >[!NOTE]
    >
-   >Wenn Sie die  **[!UICONTROL Abonnements]** Zielgruppen-Mapping verwenden, erhalten Ihre Abonnenten keine Bestätigungsnachricht. Zielgruppen-Mappings sind in der Campaign v8-Konsole definiert. Weitere Informationen finden Sie unter [Dokumentation zu Adobe Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=de){target="_blank"}.
+   >Wenn Sie das Zielgruppen-Mapping für **[!UICONTROL Abonnements]** nicht auswählen, erhalten Ihre Abonnentinnen und Abonnenten keine Bestätigungsnachricht. Zielgruppen-Mappings werden in der Campaign v8-Konsole definiert. Weitere Informationen finden Sie in der [Dokumentation zu Adobe Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=de){target="_blank"}.
 
 1. Bearbeiten Sie den Inhalt Ihrer Versandvorlage, speichern und schließen Sie sie.
 
@@ -102,40 +102,32 @@ Um den Benutzern, die sich für Ihren Dienst angemeldet haben oder sich von ihm 
 
    >[!NOTE]
    >
-   >Erfahren Sie mehr über Versandkanäle und wie Sie Versandinhalte im Abschnitt [Email-Kanal](../email/create-email.md) und [SMS Kanal](../sms/create-sms.md) Abschnitte.
+   >Erfahren Sie in den Abschnitten [E-Mail-Kanal](../email/create-email.md) und [SMS-Kanal](../sms/create-sms.md) mehr über Versandkanäle und darüber, wie Sie Versandinhalte definieren.
 
 1. Wiederholen Sie die obigen Schritte, um eine Versandvorlage für die Abmeldebestätigung zu erstellen.
 
-Sie können diese Nachrichten jetzt auswählen, wenn [Abonnement-Dienst erstellen](#create-service). Benutzer, die diesen Dienst abonnieren oder sich von ihm abmelden, erhalten die ausgewählten Bestätigungsnachrichten.
+Sie können diese Nachrichten jetzt auswählen, wenn Sie einen [Anmeldedienst erstellen](#create-service). Benutzende, die diesen Dienst abonnieren oder sich von ihm abmelden, erhalten die ausgewählten Bestätigungsnachrichten.
 
 ## Überwachen von Anmeldediensten {#logs-and-reports}
 
-Um die Effektivität Ihrer Abonnementdienste für SMS- und E-Mail-Kanäle zu messen, können Sie auf die Protokolle und Berichte für einen bestimmten Dienst zugreifen.
+Um die Effektivität Ihrer Anmeldedienste für die Kanäle SMS und E-Mail zu messen, können Sie auf die Protokolle und Berichte für einen bestimmten Dienst zugreifen.
 
-1. Wählen Sie einen vorhandenen Dienst aus der **[!UICONTROL Abonnementdienste]** Liste. Klicks **[!UICONTROL berechnen]** Rufen Sie die Anzahl der Abonnenten insgesamt ab.
+1. Wählen Sie einen vorhandenen Dienst aus der Liste **[!UICONTROL Anmeldedienste]** aus. Klicken Sie auf **[!UICONTROL Berechnen]**, um die Anzahl aller Abonnenten zu erhalten.
 
    ![](assets/service-logs-reports-buttons.png)
 
-1. Wählen Sie im Dienst-Dashboard **[!UICONTROL Protokolle]** um die Liste der Abonnenten dieses Dienstes anzuzeigen. Sie können die Gesamtzahl der Abonnenten, den Namen und die Adresse jedes Empfängers sowie den Zeitpunkt seiner An- oder Abmeldung überprüfen. Sie können auch danach filtern.
+1. Wählen Sie im Dashboard des Dienstes **[!UICONTROL Protokolle]** aus, um die Liste der Abonnentinnen und Abonnenten dieses Dienstes anzuzeigen. Sie können die Gesamtzahl der Abonnentinnen und Abonnenten, den Namen und die Adresse jeder Empfängerin bzw. jedes Empfängers sowie den Zeitpunkt der An- oder Abmeldung überprüfen. Sie können auch danach filtern.
 
    ![](assets/service-logs.png)
 
-1. Wählen Sie im Dienst-Dashboard **[!UICONTROL Berichte]**. Überprüfen Sie die folgenden Indikatoren:
+1. Wählen Sie im Dashboard des Dienstes die Option **[!UICONTROL Berichte]** aus. Überprüfen Sie die folgenden Indikatoren:
 
-   * Die **[!UICONTROL Gesamtzahl der Abonnenten]** angezeigt.
+   * Die **[!UICONTROL Gesamtzahl der Abonnentinnen und Abonnenten]** wird angezeigt.
 
-   * Sie können die Anzahl der An- und Abmeldungen in einem ausgewählten Zeitraum anzeigen. Verwenden Sie die Dropdownliste, um den Zeitraum zu ändern.
+   * Sie können die Anzahl der Abonnierungen und Abmeldungen in einem ausgewählten Zeitraum anzeigen. Verwenden Sie die Dropdown-Liste, um den Zeitraum zu ändern.
 
      ![](assets/service-reports.png)
 
-   * Die **[!UICONTROL Gesamtentwicklung der Anmeldungen]** Das Diagramm zeigt die Aufschlüsselung nach Zeitraum, einschließlich Anmeldungen, Abmeldungen, die Entwicklung der Zahlen und des Treueprozentsatzes.<!--what is Registered?-->
+   * Der Graph **[!UICONTROL Gesamtentwicklung der Abonnements]** zeigt die Aufschlüsselung nach Zeitraum, einschließlich Abonnierungen, Abmeldungen, Entwicklung der Zahlen und Prozentsatz der Kundentreue.<!--what is Registered?-->
 
-1. Verwenden Sie die **[!UICONTROL Neu laden]** -Schaltfläche, um die letzten Werte aus der Ausführung und Planung des Tracking-Workflows abzurufen.
-
-
-
-
-
-
-
-
+1. Klicken Sie auf **[!UICONTROL Neu laden]**, um die letzten Werte aus der Ausführung und Planung des Tracking-Workflow abzurufen.

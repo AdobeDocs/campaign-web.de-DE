@@ -1,42 +1,42 @@
 ---
 audience: end-user
-title: Nachrichten an Abonnenten eines Dienstes senden
-description: Hier erfahren Sie, wie Sie Nachrichten an die Abonnenten eines Dienstes senden.
+title: Senden von Nachrichten an Abonnentinnen und Abonnenten eines Dienstes
+description: Hier erfahren Sie, wie Sie Nachrichten an die Abonnentinnen und Abonnenten eines Dienstes senden.
 badge: label="Beta"
-source-git-commit: e5ef71de970468fce418cc06cb9d2c25c0c40306
-workflow-type: tm+mt
+exl-id: f6e14db5-261c-4fa6-bd19-fd8bdc04aaf1
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+workflow-type: ht
 source-wordcount: '185'
-ht-degree: 5%
+ht-degree: 100%
 
 ---
 
+# Senden von Nachrichten an Abonnentinnen und Abonnenten eines Dienstes
 
-# Nachrichten an Abonnenten eines Dienstes senden
+Sie können in Adobe Campaign Anmeldedienste erstellen und Nachrichten an Ihre Abonnentinnen und Abonnenten senden. Erfahren Sie auf [dieser Seite](../audience//manage-services.md#create-service), wie Sie Abonnementdienste erstellen.
 
-Sie können in Adobe Campaign Anmeldedienste erstellen und Nachrichten an Ihre Abonnenten senden. Erfahren Sie, wie Sie Abonnementdienste in erstellen [diese Seite](../audience//manage-services.md#create-service).
+Um Nachrichten an Ihre Abonnentinnen und Abonnenten zu senden, erstellen Sie eine bestimmte Zielgruppe, um die Abonnentinnen und Abonnenten zu identifizieren, und erstellen Sie dann den Versand wie unten beschrieben.
 
-Um Nachrichten an Ihre Abonnenten zu senden, erstellen Sie eine bestimmte Audience, um die Abonnenten zu identifizieren, und erstellen Sie dann den Versand wie unten beschrieben.
+1. Erstellen einer Zielgruppe. Weitere Informationen über Zielgruppen finden Sie auf [dieser Seite](../audience/create-audience.md).
 
-1. Erstellen einer Zielgruppe. Weitere Informationen zu Zielgruppen finden Sie in [diese Seite](../audience/create-audience.md).
+1. Zeigen Sie in der Aktivität **[!UICONTROL Zielgruppe erstellen]** die erweiterten Attribute an und wählen Sie **[!UICONTROL Empfänger]** > **[!UICONTROL Abonnements]** > **[!UICONTROL Dienst]**.
 
-1. Im **[!UICONTROL Audience erstellen]** Aktivität, erweiterte Attribute anzeigen und **[!UICONTROL Empfänger]** > **[!UICONTROL Abonnements]** > **[!UICONTROL Dienst]**.
-
-   Wählen Sie in diesem Beispiel die Benutzer aus, die den Dienst abonniert haben, der über die **Luma-Newsletter** Beschriftung.
+   Wählen Sie in diesem Beispiel die Benutzenden aus, die den Dienst mit der Kennzeichnung **Luma-Newsletter** abonnieren.
 
    ![](assets/service-audience-subscribers.png)
 
-1. Speichern Sie die Audience.
-1. Erstellen eines Versands. Die Schritte zum Erstellen eines Versands werden im Abschnitt [diese Seite](../msg/gs-messages.md#create-delivery).
+1. Speichern Sie die Zielgruppe.
+1. Erstellen Sie einen Versand. Die Schritte zum Erstellen eines Versands werden auf [dieser Seite](../msg/gs-messages.md#create-delivery) ausgeführt.
 1. Navigieren Sie zu Ihren Versandeinstellungen und ändern Sie das standardmäßige Zielgruppen-Mapping in **Abonnements (nms:subscriptions)**.
 
    ![](assets/service-delivery-change-mapping.png)
 
-1. Wählen Sie im Hauptzielbereich des Versands die zuvor erstellte Audience aus.
+1. Wählen Sie im Hauptzielbereich des Versands die zuvor erstellte Zielgruppe aus.
 
    ![](assets/service-delivery-targeting-subscribers.png)
 
-1. Erstellen Sie den Nachrichteninhalt, testen und senden Sie den Versand, wie im Abschnitt [diesem Abschnitt](../preview-test/preview-test.md).
+1. Erstellen Sie den Nachrichteninhalt und testen und senden Sie den Versand, wie in [diesem Abschnitt](../preview-test/preview-test.md) ausgeführt.
 
    ![](assets/service-delivery-ready.png)
 
-Ihre Nachricht wird nur an die Abonnenten dieses Dienstes gesendet.
+Ihre Versand wird nur den Abonnentinnen und Abonnenten dieses Dienstes zugestellt.

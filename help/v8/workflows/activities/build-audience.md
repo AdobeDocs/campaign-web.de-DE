@@ -3,13 +3,13 @@ audience: end-user
 title: Verwenden der Workflow-Aktivität „Zielgruppe erstellen“
 description: Erfahren Sie, wie Sie die Workflow-Aktivität „Zielgruppe erstellen“ verwenden.
 badge: label="Beta"
-source-git-commit: 47cc61510ae0dba139e0cb4d547fc4e737525931
-workflow-type: tm+mt
+exl-id: c07bb025-51b7-428e-ba00-cd552f0db9d4
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+workflow-type: ht
 source-wordcount: '478'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
-
 
 # Zielgruppe erstellen {#build-audience}
 
@@ -54,7 +54,7 @@ Führen Sie die folgenden Schritte aus, um die Aktivität **Zielgruppe erstellen
 Um Ihre eigene Abfrage zu erstellen, führen Sie diese zusätzlichen Schritte aus:
 
 1. Wählen Sie **Eigene erstellen (Abfrage)** aus.
-1. Wählen Sie die **Zielgruppendimension**. Die Zielgruppendimension ermöglicht die Bestimmung der vom Vorgang betroffenen Population: Empfängerinnen und Empfänger, Vertragsbegünstigte, Benutzerinnen und Benutzer, Abonnentinnen und Abonnenten usw. Standardmäßig wird die Zielgruppe aus den Empfängerinnen und Empfängern ausgewählt. Erfahren Sie mehr über Zielgruppendimensionen in [diesem Abschnitt](../../audience/about-recipients.md#targeting-dimensions).
+1. Wählen Sie die **Zielgruppendimension**. Die Zielgruppendimension ermöglicht die Bestimmung der vom Vorgang betroffenen Population: Empfängerinnen und Empfänger, Vertragsbegünstigte, Benutzerinnen und Benutzer, Abonnentinnen und Abonnenten usw. Standardmäßig wird die Zielgruppe aus den Empfängerinnen und Empfängern ausgewählt. Weitere Informationen zu Zielgruppendimensionen finden Sie in [diesem Abschnitt](../../audience/about-recipients.md#targeting-dimensions).
 1. Klicken Sie auf **Fortfahren**.
 1. Verwenden Sie den Regel-Builder, um Ihre Abfrage zu definieren, genauso wie Sie eine Zielgruppe beim Entwerfen einer neuen E-Mail erstellen. Näheres dazu finden Sie in [diesem Abschnitt](../../audience/segment-builder.md).
 
@@ -74,6 +74,6 @@ Im Folgenden finden Sie ein Beispiel für einen Workflow mit zwei Aktivitäten v
 
 ![](../assets/workflow-audience-example.png)
 
-Hier ist ein weiteres Workflow-Beispiel, bei dem eine Adobe Experience Platform-Zielgruppe mit einer Adobe Campaign-Zielgruppe kombiniert wird. Damit diese Zielgruppen kombiniert werden können, muss eine Aktivität **[!UICONTROL Dimensionsänderung]** mit der Zielgruppendimension „Empfängerinnen und Empfänger“ nach der Adobe Experience Platform-Zielgruppe hinzugefügt werden. [Erfahren Sie, wie Sie eine Aktivität „Dimensionsänderung“ konfigurieren können](change-dimension.md)
+Hier ist ein weiteres Workflow-Beispiel, bei dem eine Adobe Experience Platform-Zielgruppe mit einer Adobe Campaign-Zielgruppe kombiniert wird. Damit diese Zielgruppen kombiniert werden können, muss eine Aktivität **[!UICONTROL Dimensionsänderung]** mit der Zielgruppendimension „Empfängerinnen und Empfänger“ nach der Adobe Experience Platform-Zielgruppe hinzugefügt werden. [Erfahren Sie, wie Sie eine Aktivität „Zielgruppe erstellen“ konfigurieren können](change-dimension.md)
 
 ![](../assets/workflow-audience-aep.png)

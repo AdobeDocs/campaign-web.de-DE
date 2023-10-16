@@ -3,10 +3,11 @@ audience: end-user
 title: Push-Versandberichte
 description: Erfahren Sie, wie Sie auf Push-Versandberichte zugreifen und diese verwenden können
 badge: label="Beta"
-source-git-commit: 3c679ad284f15a46885829b68c8ebea1e99e2b98
-workflow-type: tm+mt
+exl-id: 4187b553-8de7-40f4-8f30-f62e43323862
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+workflow-type: ht
 source-wordcount: '487'
-ht-degree: 63%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +29,7 @@ Der **Push-Versandbericht** bietet einen umfassenden Überblick über den Push-K
 >title="Zusammenfassung des Push-Versandberichts"
 >abstract="Die **Übersicht über den Push-Versand** bietet einen umfassenden Überblick über Ihren Push-Versand, mit umfassenden Einblicken und spezifischen Daten. Sie bietet umfassende Informationen über Leistung, Effektivität und Ergebnisse Ihres Versands."
 
-Die **[!UICONTROL Versandübersicht]** liefert wichtige Leistungsindikatoren (KPIs), die detaillierte Informationen zur Interaktion Ihrer Besucher mit Ihren Push-Nachrichten enthalten.
+Der **[!UICONTROL Versandübersichtsbericht]** bietet wichtige Leistungsindikatoren (KPIs), die detaillierte Informationen darüber enthalten, wie Ihre Besucherinnen und Besucher mit Ihren Push-Nachrichten interagieren.
 
 ![](assets/reporting_push_3.png)
 
@@ -49,9 +50,9 @@ Die **[!UICONTROL Versandübersicht]** liefert wichtige Leistungsindikatoren (KP
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_push_targeted_population"
 >title="Push-Zielpopulation"
->abstract="Die **Zielgruppe** Diagramm und Tabelle zeigen Daten in Bezug auf Ihre Push-Nachrichten-Audience an: zu sendende Nachrichten und Ausschlüsse."
+>abstract="Der Graph und die Tabelle zur **Zielpopulation** zeigen Daten in Bezug auf Ihre Push-Nachrichten-Zielgruppe an: zu sendende Nachrichten und Ausschlüsse."
 
-Die **Zielgruppe** Diagramme und Tabellen zeigen Daten relativ zu Ihrer Zielgruppe an: zu sendende Nachrichten und Ausschlüsse. Die Metriken werden nachfolgend beschrieben.
+Der Graph und die Tabelle zur **Zielpopulation** zeigen Daten in Bezug auf Ihre Zielgruppe an: zu sendende Nachrichten und Ausschlüsse. Metriken werden nachfolgend beschrieben.
 
 ![](assets/reporting_push_4.png)
 
@@ -69,9 +70,9 @@ Die **Zielgruppe** Diagramme und Tabellen zeigen Daten relativ zu Ihrer Zielgrup
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_push_overall_stats"
 >title="Push-Gesamtstatistik"
->abstract="Die **Gesamtstatistik** Der Bericht enthält Daten zu den gesendeten Push-Benachrichtigungen: Erfolg, Fehler und Quarantänen."
+>abstract="Der **Gesamtstatistikbericht** enthält Daten zu den gesendeten Push-Benachrichtigungen: Erfolge, Fehler und Quarantänen."
 
-Die **Gesamtstatistik** Der Bericht enthält Daten zu den gesendeten Push-Benachrichtigungen: Erfolg, Fehler und Quarantänen. Die Metriken werden nachfolgend beschrieben.
+Der **Gesamtstatistikbericht** enthält Daten zu den gesendeten Push-Benachrichtigungen: Erfolge, Fehler und Quarantänen. Metriken werden nachfolgend beschrieben.
 
 ![](assets/reporting_push_5.png)
 
@@ -91,9 +92,9 @@ Die **Gesamtstatistik** Der Bericht enthält Daten zu den gesendeten Push-Benach
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_push_exclusions"
 >title="Push-Gesamtstatistik"
->abstract="Die **Ausnahmen** Diagramm und Tabelle zeigen die verschiedenen Gründe an, die verhindert haben, dass aus den Zielgruppenprofilen ausgeschlossene Benutzerprofile die Nachricht empfangen."
+>abstract="Der Graph und die Tabelle **Ausschlüsse** zeigen die verschiedenen Gründe an, die verhindert haben, dass Benutzerprofile, die von den Zielgruppenprofilen ausgeschlossen wurden, die Nachricht erhalten haben."
 
-Die **[!UICONTROL Ausnahmen]** Diagramm und Tabelle zeigen die verschiedenen Gründe an, die verhindert haben, dass aus den Zielgruppenprofilen ausgeschlossene Benutzerprofile die Nachricht empfangen. Ausschlussregeln werden im Abschnitt [Dokumentation zu Campaign v8 (Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types){_blank}.
+Der Graph und die Tabelle **[!UICONTROL Ausschlüsse]** zeigen die verschiedenen Gründe an, die verhindert haben, dass Benutzerprofile, die von den Zielgruppenprofilen ausgeschlossen wurden, die Nachricht erhalten haben. Ausschlussregeln werden in der[Dokumentation zu Campaign v8 (Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=de#push-error-types){_blank} detailliert beschrieben.
 
 
 ![](assets/reporting_push_6.png)
