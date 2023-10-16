@@ -4,10 +4,10 @@ title: SMS-Versandberichte
 description: Erfahren Sie, wie Sie auf SMS-Versandberichte zugreifen und diese verwenden können
 badge: label="Beta"
 exl-id: 153d3a85-0d39-42db-9906-1e7f2d1d5bae
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
-workflow-type: ht
-source-wordcount: '503'
-ht-degree: 100%
+source-git-commit: 23ca6ee9008587923fe0102612abf41a764214cc
+workflow-type: tm+mt
+source-wordcount: '513'
+ht-degree: 93%
 
 ---
 
@@ -71,7 +71,7 @@ Das Diagramm und die Tabelle zur **Zielpopulation** zeigen Daten in Bezug auf Ih
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sms_overall_stats"
->title="Push-Gesamtstatistik"
+>title="SMS-Gesamtstatistik"
 >abstract="Die **Gesamtstatistik** zeigt Daten für die gesendete SMS an: Erfolg, Fehler und Quarantänen."
 
 Die **Gesamtstatistik** enthält Daten zu den gesendeten SMS-Benachrichtigungen, einschließlich. Metriken werden nachfolgend beschrieben.
@@ -92,7 +92,7 @@ Die **Gesamtstatistik** enthält Daten zu den gesendeten SMS-Benachrichtigungen,
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sms_exclusions"
->title="SMS-Gesamtstatistik"
+>title="SMS-Ausschlüsse"
 >abstract="Der Graph und die Tabelle **Ausschlüsse** zeigen die verschiedenen Gründe an, die verhindert haben, dass Benutzerprofile, die von den Zielgruppenprofilen ausgeschlossen wurden, die Nachricht erhalten haben."
 
 
@@ -104,9 +104,9 @@ Der Graph und die Tabelle **[!UICONTROL Ausschlüsse]** zeigen die verschiedenen
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_throughput_sms"
->title="Versanddurchsatz Menü"
->abstract="Der Bericht „Versanddurchsatz“ enthält detaillierte Informationen zum Versanddurchsatz der gesamten Plattform innerhalb eines bestimmten Zeitraums."
+>title="SMS-Versanddurchsatz"
+>abstract="Die **Versanddurchsatz** enthält detaillierte Informationen zum Versanddurchsatz innerhalb eines bestimmten Zeitraums.  Die wichtigste Kennzahl, mit der die Geschwindigkeit des Nachrichtenversands gemessen wird, ist die Anzahl der pro Stunde gesendeten Nachrichten."
 
-Dieser Bericht enthält detaillierte Informationen zum Versanddurchsatz der gesamten Plattform innerhalb eines bestimmten Zeitraums. Die wichtigste Kennzahl, mit der die Geschwindigkeit des Nachrichtenversands gemessen wird, ist die Anzahl der pro Stunde gesendeten Nachrichten.
+Dieser Bericht enthält detaillierte Informationen zum Versanddurchsatz innerhalb eines bestimmten Zeitraums. Die wichtigste Kennzahl, mit der die Geschwindigkeit des Nachrichtenversands gemessen wird, ist die Anzahl der pro Stunde gesendeten Nachrichten.
 
 ![](assets/reporting_sms_2.png)
