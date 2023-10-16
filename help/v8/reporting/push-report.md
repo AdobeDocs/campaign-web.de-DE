@@ -4,10 +4,10 @@ title: Push-Versandberichte
 description: Erfahren Sie, wie Sie auf Push-Versandberichte zugreifen und diese verwenden können
 badge: label="Beta"
 exl-id: 4187b553-8de7-40f4-8f30-f62e43323862
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
-workflow-type: ht
-source-wordcount: '487'
-ht-degree: 100%
+source-git-commit: dcd8dfe76a69305bb2aca4d2e94d447bea2668db
+workflow-type: tm+mt
+source-wordcount: '485'
+ht-degree: 98%
 
 ---
 
@@ -26,7 +26,7 @@ Der **Push-Versandbericht** bietet einen umfassenden Überblick über den Push-K
 
 >[!CONTEXTUALHELP]
 >id="acw_push_report_overview"
->title="Zusammenfassung des Push-Versandberichts"
+>title="Übersicht über den Push-Versand"
 >abstract="Die **Übersicht über den Push-Versand** bietet einen umfassenden Überblick über Ihren Push-Versand, mit umfassenden Einblicken und spezifischen Daten. Sie bietet umfassende Informationen über Leistung, Effektivität und Ergebnisse Ihres Versands."
 
 Der **[!UICONTROL Versandübersichtsbericht]** bietet wichtige Leistungsindikatoren (KPIs), die detaillierte Informationen darüber enthalten, wie Ihre Besucherinnen und Besucher mit Ihren Push-Nachrichten interagieren.
@@ -91,7 +91,7 @@ Der **Gesamtstatistikbericht** enthält Daten zu den gesendeten Push-Benachricht
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_push_exclusions"
->title="Push-Gesamtstatistik"
+>title="Push-Ausschlüsse"
 >abstract="Der Graph und die Tabelle **Ausschlüsse** zeigen die verschiedenen Gründe an, die verhindert haben, dass Benutzerprofile, die von den Zielgruppenprofilen ausgeschlossen wurden, die Nachricht erhalten haben."
 
 Der Graph und die Tabelle **[!UICONTROL Ausschlüsse]** zeigen die verschiedenen Gründe an, die verhindert haben, dass Benutzerprofile, die von den Zielgruppenprofilen ausgeschlossen wurden, die Nachricht erhalten haben. Ausschlussregeln werden in der[Dokumentation zu Campaign v8 (Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=de#push-error-types){_blank} detailliert beschrieben.
