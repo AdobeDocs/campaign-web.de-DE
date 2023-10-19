@@ -16,7 +16,7 @@ ht-degree: 97%
 >[!CONTEXTUALHELP]
 >id="acw_targeting_workflow_list"
 >title="Workflows"
->abstract="In diesem Bildschirm können Sie auf die vollständige Liste der Einzel- und Kampagnen-Workflows zugreifen, ihren aktuellen Status sowie das letzte/nächste Ausführungsdatum überprüfen und einen neuen Workflow erstellen. Navigieren Sie zum Tab &quot;Vorlagen&quot;, um auf verfügbare Workflow-Vorlagen zuzugreifen."
+>abstract="In diesem Bildschirm kannn auf die vollständige Liste der Einzel- und Kampagnen-Workflows zugegriffen und ihr aktueller Status sowie das letzte/nächste Ausführungsdatum überprüft und ein neuer Workflow erstellt werden. Navigieren Sie zum Tab &quot;Vorlagen&quot;, um auf verfügbare Workflow-Vorlagen zuzugreifen."
 
 Das Menü **[!UICONTROL Workflows]** bietet Zugriff auf die vollständige Liste der Workflows. Diese Liste enthält die beiden **eigenständigen Workflows**, die auf diesem Bildschirm erstellt wurden, und **Kampagnen-Workflows**, die in einer Kampagne erstellt wurden.
 

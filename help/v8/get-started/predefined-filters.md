@@ -19,12 +19,12 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card3"
 >title="Verwaltung von vordefinierten Filtern"
->abstract="Campaign Web bietet Ihnen jetzt eine benutzerfreundliche Oberfläche zur mühelosen Verwaltung und Anpassung vordefinierter Filter an Ihre spezifischen Anforderungen. Erstellen Sie Filter einmal und speichern Sie sie für zukünftige Verwendungen."
+>abstract="Campaign Web bietet jetzt eine benutzerfreundliche Oberfläche, mit der man vordefinierte Filter mühelos verwalten und an Ihre spezifischen Anforderungen anpassen kann. Filter einmal erstellen und für zukünftige Verwendungen speichern."
 
 >[!CONTEXTUALHELP]
 >id="acw_predefined-filters-dashboard"
 >title="Vordefinierte Filter"
->abstract="Campaign Web bietet Ihnen jetzt eine benutzerfreundliche Oberfläche zur mühelosen Verwaltung und Anpassung vordefinierter Filter an Ihre spezifischen Anforderungen. Erstellen Sie Filter einmal und speichern Sie sie für zukünftige Verwendungen."
+>abstract="Campaign Web bietet jetzt eine benutzerfreundliche Oberfläche, mit der man vordefinierte Filter mühelos verwalten und an Ihre spezifischen Anforderungen anpassen kann. Filter einmal erstellen und für zukünftige Verwendungen speichern."
 
 Vordefinierte Filter sind benutzerdefinierte Filter, die für zukünftige Verwendungen erstellt und gespeichert werden. Sie können bei allen Filtervorgängen mit dem Regel-Builder als Verknüpfungen verwendet werden, z. B. beim Filtern einer Datenliste oder beim Erstellen der Zielgruppe eines Versands.
 

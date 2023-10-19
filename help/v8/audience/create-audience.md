@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie Zielgruppen in Adobe Campaign Web erstellen.
 badge: label="Beta"
 exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
 source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '557'
 ht-degree: 100%
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_audiences_list"
 >title="Zielgruppen"
->abstract="Auf diesem Bildschirm können Sie die Liste aller Zielgruppen aufrufen, die in Ihren Sendungen ausgewählt werden können. Klicken Sie auf **Erstellen**, um mithilfe verschiedener Workflow-Aktivitäten, wie z. B. **Aufspaltung** oder **Ausschließen**, neue Zielgruppen in einer visuellen Arbeitsfläche zu erstellen."
+>abstract="Auf diesem Bildschirm kann die Liste aller Zielgruppen aufgerufen werden, die in Ihren Sendungen ausgewählt werden können. Auf **Erstellen** klicken, um mithilfe verschiedener Workflow-Aktivitäten, wie z. B. **Aufspaltung** oder **Ausschließen**, neue Zielgruppen zu erstellen."
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_create_settings"
