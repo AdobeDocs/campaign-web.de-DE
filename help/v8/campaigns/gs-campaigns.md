@@ -17,7 +17,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_campaigns_list"
 >title="Kampagnen"
->abstract="Durchsuchen Sie die Liste der Kampagnen. Wählen Sie eine Kampagne aus, um Inhalte, Sendungen und Details anzuzeigen. Sie können nach Status, Start-/Enddatum oder nach benutzerdefinierten Regeln filtern. Sie können auch Berichte für abgeschlossene Kampagnen anzeigen. Klicken Sie auf die Schaltfläche **Kampagne erstellen**, um eine neue Kampagne hinzuzufügen. Navigieren Sie zur Registerkarte **Vorlagen**, um Vorlagen anzuzeigen oder zu erstellen."
+>abstract="Die Liste der Kampagnen kann durchsucht werden. Eine Kampagne auswählen, um Inhalte, Sendungen und Details anzuzeigen. Es kann nach Status, Start-/Enddatum oder nach benutzerdefinierten Regeln gefiltert werdn. Es kann nach Status, Start-/Enddatum oder nach benutzerdefinierten Regeln gefiltert werdn. Klicken Sie auf die Schaltfläche **Kampagne erstellen**, um eine neue Kampagne hinzuzufügen. Navigieren Sie zur Registerkarte **Vorlagen**, um Vorlagen anzuzeigen oder zu erstellen."
 
 
 Mit Adobe Campaign können Sie Ihre zielgerichteten Marketinginitiativen mithilfe der integrierten Kampagnenverwaltungsfunktion einfach koordinieren. Mit der Fähigkeit, einen Zeitplan zu definieren, können Sie die Dauer und den Zeitpunkt Ihrer Kampagnen so planen, dass sie mit strategischen Zielen übereinstimmen und die Interaktion der Zielgruppe maximieren.

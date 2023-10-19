@@ -16,7 +16,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_list"
 >title="Erstellen und Verwalten Ihrer Dienste"
->abstract="Mit Adobe Campaign können Sie Informationsdienste wie Newsletter erstellen und überwachen und Abonnements sowie Abmeldungen für sie verwalten. Abonnements gelten nur für den E-Mail- und SMS-Versand."
+>abstract="Adobe Campaign verwenden, um Dienste wie z. B. Newsletter zu erstellen und zu überwachen und die An- und Abmeldungen für diese Dienste zu überprüfen. Abonnements gelten nur für den E-Mail- und SMS-Versand."
 
 Verwenden Sie Adobe Campaign Web, um Ihre Dienste wie z. B. Newsletter zu verwalten und zu erstellen und die Abonnements und Abmeldungen für diese Dienste zu überprüfen.
 
