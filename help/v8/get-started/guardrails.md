@@ -3,10 +3,10 @@ title: Schutzmechanismen und Einschränkungen in der Web-Benutzeroberfläche von
 description: Schutzmechanismen und Einschränkungen in der Web-Benutzeroberfläche von Campaign
 badge: label="Beta"
 exl-id: 9c8c67ce-9823-4082-b0bd-5613f3feb6e3
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
-workflow-type: ht
-source-wordcount: '588'
-ht-degree: 100%
+source-git-commit: 441add3d624ab730c3dce39a4305107998c5cc62
+workflow-type: tm+mt
+source-wordcount: '657'
+ht-degree: 95%
 
 ---
 
@@ -58,7 +58,12 @@ Die Positionierung der Knoten wird bei jedem Hinzufügen oder Entfernen einer Ak
 
 ## Vordefinierte Filter {#filters-guardrails-limitations}
 
-Bei der Auswahl der Zielgruppe eines Versands oder beim Erstellen einer Zielgruppe in einem Workflow stehen in dieser Produktversion einige vordefinierte Filter nicht in der Benutzeroberfläche zur Verfügung.
+>[!CONTEXTUALHELP]
+>id="acw_predefined_filter_read_only"
+>title="Dieser Filter ist schreibgeschützt"
+>abstract="Einige vordefinierte Filter sind in dieser Produktversion nicht in der Benutzeroberfläche verfügbar. Diese Filter sind als schreibgeschützt markiert. Selbst wenn Sie die grafische Darstellung der Abfrage im Regel-Builder nicht anzeigen und den Filter nicht bearbeiten können, können Sie ihn dennoch verwenden und die Filterbedingungen im Abschnitt **Attribute** des Bildschirms sehen."
+
+Bei der Auswahl der Zielgruppe eines Versands oder beim Erstellen einer Zielgruppe in einem Workflow stehen in dieser Produktversion einige vordefinierte Filter nicht in der Benutzeroberfläche zur Verfügung. Diese Filter sind als schreibgeschützt markiert.
 
 Es wird ggf. eine spezifische Fehlermeldung angezeigt.
 
