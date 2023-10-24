@@ -4,10 +4,10 @@ title: Erkunden der Benutzeroberfläche
 description: Web-Benutzeroberfläche von Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: c4d0b67ced6877ec38506b9083c843d09172a000
+source-git-commit: f1b8354edbaa8989f6c86015497e458deff2a6a8
 workflow-type: tm+mt
-source-wordcount: '1073'
-ht-degree: 97%
+source-wordcount: '1204'
+ht-degree: 90%
 
 ---
 
@@ -154,6 +154,16 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 <!-- delivery settings-->
 
 
+
+
+
+
+<!-- FOR BETA (alignment) -->
+<!--https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CBETA%3E-+Official+list-->
+
+
+
+
 <!-- FOR GA -->
 <!-- Aligned with https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CGA%3E-+Official+list -->
 
@@ -216,3 +226,205 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_recipients_offers_preview_proposition"
 >title="Vorschau der Angebote für Empfänger"
 >abstract="TBC"
+
+
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_subscriptions_delivery_template"
+>title="Vorlage für den Abonnement-Versand"
+>abstract="TBC"
+
+
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_landingpages_menu"
+>title="Landingpages"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_landingpages_properties"
+>title="Eigenschaften von Landingpages"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_landingpages_pages_list"
+>title="Landingpages"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_landingpages_schedule"
+>title="Landingpage-Zeitplan"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_landingpages_primarypage"
+>title="Landing Pages primary page"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_landingpages_subscription"
+>title="Landingpage-Abonnement"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_landingpages_calltoaction"
+>title="Landingpage-Aktionsaufruf"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_landingpages_simulate"
+>title="Landingpage-Simulation"
+>abstract="TBC"
+
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_query_enrichment_noneditable"
+>title="Aktivität nicht bearbeitbar"
+>abstract="TBC"
+
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_fragments_menu"
+>title="Fragmente"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_fragments_save"
+>title="Fragmente speichern"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_fragments_create"
+>title="Fragmenterstellung"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_fragments_properties"
+>title="Fragmenteigenschaften"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_fragments_type"
+>title="Fragmenttyp"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_fragments_list"
+>title="Fragmentliste"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_fragments_details"
+>title="Fragmentdetails"
+>abstract="TBC"
+
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_contenttemplate_menu"
+>title="Inhaltsvorlage"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_contenttemplate_properties"
+>title="Eigenschaften der Inhaltsvorlage"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_contenttemplate_design"
+>title="Entwurf von Inhaltsvorlagen"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_contenttemplate_selection"
+>title="Auswahl der Inhaltsvorlagen"
+>abstract="TBC"
+
+
+
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_loadfile"
+>title="Datei laden  Aktivität"
+>abstract="TBC"
+
+
+
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_reconciliation"
+>title="Aktivität &quot;Abstimmung&quot;"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_reconciliation_targeting"
+>title="Abstimmung der Zielgruppe"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_reconciliation_rules"
+>title="Abstimmregeln"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_reconciliation_targeting_selection"
+>title="Zielgruppendimension der Abstimmung"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_reconciliation_field"
+>title="Abstimmungsauswahlfeld"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_reconciliation_attribute"
+>title="Attribut zur Abstimmauswahl"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_reconciliation_condition"
+>title="Bedingung zur Erstellung der Abstimmung"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_reconciliation_complement"
+>title="Komplement abstimmen"
+>abstract="TBC"
+
+
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_conditionalcontent_savefilter"
+>title="Filter zum Speichern bedingter Inhalte"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_conditionalcontent_selectfilter"
+>title="Filter zur Auswahl bedingter Inhalte"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_conditionalcontent_subjectline"
+>title="Bedingter Inhalt in der Betreffzeile"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_conditionalcontent_subjectlinecondition"
+>title="Bedingung der Subjektlinie für bedingten Inhalt"
+>abstract="TBC"
+
