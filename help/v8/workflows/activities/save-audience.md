@@ -3,13 +3,13 @@ audience: end-user
 title: Verwenden der Workflow-Aktivität „Zielgruppe speichern“
 description: Erfahren Sie, wie Sie die Workflow-Aktivität „Verzweigung“ verwenden.
 badge: label="Beta"
-source-git-commit: 2894766336d5ac52625175981c6969a0ac5882d8
+exl-id: 0f7cbc34-0536-493e-bb3b-0b1ac93d1232
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '385'
 ht-degree: 100%
 
 ---
-
 
 # Zielgruppe speichern {#save-audience}
 
@@ -52,5 +52,3 @@ Der Inhalt der gespeicherten Zielgruppe ist anschließend in der Detailansicht d
 ## Beispiel{#save-audience-example}
 
 Im folgenden Beispiel wird eine einfache Zielgruppenaktualisierung von der Zielgruppenbestimmung aus gezeigt. Eine Planung wird hinzugefügt, um den Workflow einmal monatlich auszuführen. Eine Abfrage ruft alle Profile ab, die für die verschiedenen verfügbaren Anwendungsdienste angemeldet sind. Die Aktivität **Zielgruppe speichern** aktualisiert in diesem Fall die angegebene Zielgruppe, indem die Profile, die seit der letzten Ausführung des Workflows den Informationsdienst abbestellt haben, gelöscht und die neu abonnierten Profile hinzugefügt werden.
-
-

@@ -2,7 +2,8 @@
 title: Wichtige Leistungsindikatoren
 description: Lernen Sie, die wichtigsten Leistungsindikatoren zu verstehen.
 badge: label="Beta"
-source-git-commit: e784f9aeb0805269561065c10ccbbf6756e62e44
+exl-id: 4b182219-100b-4101-919b-b0b770dd8515
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '869'
 ht-degree: 100%
@@ -113,4 +114,3 @@ Der Indikator **Fehler** zeigt für jeden Kanal die folgenden KPIs an:
 * Prozentualer Anteil der fehlerhaften Nachrichten in Bezug auf die Gesamtzahl der zu sendenden Nachrichten.
 
 * Gesamtzahl an Fehlern in Sendungen und der automatischen Bounce-Verarbeitung.
-

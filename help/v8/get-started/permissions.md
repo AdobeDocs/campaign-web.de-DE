@@ -3,13 +3,13 @@ audience: end-user
 title: Berechtigungsverwaltung in Campaign Web
 description: Erfahren Sie mehr über Berechtigungen in Campaign Web v8
 badge: label="Beta"
-source-git-commit: 5e2af07f54fae9b0d64d173388be14639e6aaaa2
+exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '605'
 ht-degree: 100%
 
 ---
-
 
 # Zugriff und Berechtigungen {#access-and-permissions}
 
@@ -101,4 +101,3 @@ Gehen Sie wie folgt vor, um einen Ordner zu erstellen:
    Der Ordner wird als Unterordner des aktuellen Ordners hinzugefügt. Navigieren Sie zu diesem neuen Ordner, um Komponenten direkt darin zu erstellen. Sie können auch eine Komponente aus einem Ordner erstellen und sie in dem neuen Ordner speichern, und zwar über den Abschnitt **Zusätzliche Optionen** der Eigenschaften, wie unten für einen Versand dargestellt:
 
    ![](assets/delivery-properties-folder.png){width="70%" align="left" zoomable="yes"}
-

@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie auf Kampagnenberichte zugreifen und diese ver
 badge: label="Beta"
 exl-id: 6a25a636-35d6-44c8-8635-7aec683af1f6
 source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '85'
 ht-degree: 100%
 

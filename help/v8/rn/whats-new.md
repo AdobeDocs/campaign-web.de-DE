@@ -72,7 +72,7 @@ Im Folgenden sind die wichtigsten Funktionen aufgeführt, die mit Campaign Web B
 
 * **Vordefinierte Filter**
 
-  Wir stellen vor: Verwaltung von vordefinierten Filtern. Die Web-Benutzeroberfläche von Campaign bietet Ihnen jetzt eine benutzerfreundliche Oberfläche zur mühelosen **Verwaltung und Anpassung vordefinierter Filter** an Ihre spezifischen Anforderungen. Erstellen Sie Filter einmal und speichern Sie sie für zukünftige Verwendungen.
+  Wir stellen vor: Verwaltung von vordefinierten Filtern. Die Web-Benutzeroberfläche von Campaign bietet Ihnen jetzt eine benutzerfreundliche Oberfläche zur mühelosen **Verwaltung und Anpassung vordefinierter Filter** an Ihre spezifischen Anforderungen. Filter einmal erstellen und für zukünftige Verwendungen speichern.
 
   Weiterführende Informationen finden Sie in [diesem Abschnitt](../get-started/predefined-filters.md).
 

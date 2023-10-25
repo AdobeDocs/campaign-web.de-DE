@@ -3,7 +3,8 @@ audience: end-user
 title: Senden eines SMS-Versands
 description: Erfahren Sie, wie Sie SMS mit Adobe Campaign Web senden
 badge: label="Beta"
-source-git-commit: 51d237a2651cc4a24630138b5761b4b14e7cac4f
+exl-id: 901faf3b-fcdd-4a4e-8de7-7d088686250f
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 100%
@@ -72,7 +73,3 @@ Der Versand von Test-SMS ist ein wichtiger Schritt, um die Qualität und Effekti
 Nach dem Versand können Sie Ihre KPI(Key Performance Indicator)-Daten über Ihre Versandseite und weitere Daten über das Menü **[!UICONTROL Protokolle]** verfolgen.
 
 Nun können Sie beginnen, mit integrierten Berichten die Wirkung Ihrer Nachricht zu messen. [Weitere Informationen](../reporting/sms-report.md)
-
-
-
-

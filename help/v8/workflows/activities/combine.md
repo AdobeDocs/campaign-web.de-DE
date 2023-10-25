@@ -3,13 +3,13 @@ audience: end-user
 title: Verwenden der Workflow-Aktivität „Kombinieren“.
 description: Erfahren Sie, wie Sie die Workflow-Aktivität „Kombinieren“ verwenden.
 badge: label="Beta"
-source-git-commit: 4ef1ac4c8af16c3b83a2df8f903dccc1629339e3
+exl-id: 7e821678-e6a2-4613-b05e-6ccbe4df41c3
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '886'
 ht-degree: 100%
 
 ---
-
 
 # Kombinieren {#combine}
 
@@ -118,5 +118,3 @@ Das folgende Beispiel zeigt die **Schnittmenge** zwischen zwei Abfrageaktivität
 Folgendes **Ausschluss**-Beispiel zeigt zwei Abfragen, die zum Filtern von Profilen konfiguriert wurden, die zwischen 18 und 27 Jahre alt sind und die eine Adobe-E-Mail-Domain haben. Die Profile mit einer Adobe-E-Mail-Domain werden dann aus der ersten Menge ausgeschlossen.
 
 ![](../assets/workflow-exclusion-example.png)
-
-

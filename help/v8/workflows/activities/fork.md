@@ -3,13 +3,13 @@ audience: end-user
 title: Verwenden der Workflow-Aktivität „Verzweigung“
 description: Erfahren Sie, wie Sie die Workflow-Aktivität „Verzweigung“ verwenden.
 badge: label="Beta"
-source-git-commit: dfd3c62a8eeb6be3e5e63e7a1fdf352c280adbd0
+exl-id: 5c7ff58b-5504-4b8e-879f-44754b7dcf8a
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '165'
 ht-degree: 100%
 
 ---
-
 
 # Verzweigung {#fork}
 
@@ -44,4 +44,3 @@ Im folgenden Beispiel verwenden wir zwei Aktivitäten vom Typ **Verzweigung**:
 * Eine nach dem Schnittpunkt, um eine E-Mail und eine SMS gleichzeitig an die Zielpopulation zu senden.
 
 ![](../assets/workflow-fork-example.png)
-
