@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie die Workflow-Aktivität „Verzweigung“ ver
 badge: label="Beta"
 exl-id: 5c7ff58b-5504-4b8e-879f-44754b7dcf8a
 source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '165'
 ht-degree: 100%
 

@@ -5,7 +5,7 @@ description: Erfahren Sie mehr über Berechtigungen in Campaign Web v8
 badge: label="Beta"
 exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
 source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '605'
 ht-degree: 100%
 

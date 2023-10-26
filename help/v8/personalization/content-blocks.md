@@ -6,13 +6,13 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 badge: label="Beta"
-source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
+exl-id: 45cdd310-7c0c-4b57-bb7f-0576d8eca19d
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: ht
 source-wordcount: '437'
 ht-degree: 100%
 
 ---
-
 
 # Integrierte Inhaltsbausteine {#ootb-content-blocks}
 
@@ -54,4 +54,3 @@ Integrierte Inhaltsbausteine sind:
 >[!NOTE]
 >
 >Sie können in der Konsole von Adobe Campaign v8 neue Bausteine definieren, mit denen Sie die Personalisierung Ihrer Sendungen optimieren können. Weitere Informationen finden Sie in der [Dokumentation zu Campaign v8 (Client-Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/personalize/personalization-blocks.html?lang=de#create-custom-personalization-blocks){target="_blank"}.
-

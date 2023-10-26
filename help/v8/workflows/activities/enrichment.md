@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie die Workflow-Aktivität „Anreicherung“ ve
 badge: label="Beta"
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
 source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '670'
 ht-degree: 100%
 

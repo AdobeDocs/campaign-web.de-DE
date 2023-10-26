@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie einen Push-Benachrichtigungs-Versand mit Adob
 badge: label="Beta"
 exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
 source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1347'
 ht-degree: 100%
 

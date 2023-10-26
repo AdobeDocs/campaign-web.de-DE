@@ -3,13 +3,13 @@ audience: end-user
 title: Erstellen von Workflows mit Adobe Campaign Web
 description: Erfahren Sie, wie Sie Workflows mit Adobe Campaign Web erstellen
 badge: label="Beta"
-source-git-commit: a71bb945a9206c73043235b05732ec83ee851ca6
+exl-id: 0c8e2158-518c-4620-9971-00ed2eccdd4f
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: ht
 source-wordcount: '633'
 ht-degree: 100%
 
 ---
-
 
 # Orchestrieren von Aktivitäten {#orchestrate}
 

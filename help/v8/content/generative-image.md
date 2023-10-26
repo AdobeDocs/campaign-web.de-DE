@@ -41,7 +41,7 @@ Im folgenden Beispiel erfahren Sie, wie Sie den Inhaltsassistenten nutzen könne
 
 1. Wählen Sie **[!UICONTROL Datei hochladen]** aus, wenn Sie ein Marken-Asset hinzufügen möchten, das Inhalte enthält, die zusätzlichen Kontext für den Inhaltsassistenten bieten können.
 
-   Sie können auch auf **[!UICONTROL hochgeladene Inhalte]** klicken, um zuvor aktualisierte Dateien zu finden. Beachten Sie, dass der hochgeladene Inhalt ausschließlich für die Wiederverwendung durch die aktuelle Benutzerin bzw. den aktuellen Benutzer verfügbar ist.
+   Sie können auch auf **[!UICONTROL Hochgeladene Inhalte]** klicken, um zuvor aktualisierte Dateien zu finden. Beachten Sie, dass der hochgeladene Inhalt ausschließlich für die Wiederverwendung durch die aktuelle Benutzerin bzw. den aktuellen Benutzer verfügbar ist.
 
 1. Wählen Sie das **[!UICONTROL Seitenverhältnis]** des Assets aus. Dadurch wird die Breite und Höhe des Assets bestimmt.
 

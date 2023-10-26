@@ -29,7 +29,7 @@ Gehen Sie wie folgt vor, um mit dem Inhaltsassistenten E-Mail-Inhalte zu erstell
 
    Weitere Informationen zur Konfiguration Ihres E-Mail-Versands finden Sie auf [dieser Seite](../content/create-email-content.md).
 
-1. Füllen Sie die **[!UICONTROL grundlegenden Details]** für Ihren Versand aus. Klicken Sie abschließend auf **[!UICONTROL E-Mail-Inhalt bearbeiten]**.
+1. Geben Sie die **[!UICONTROL grundlegenden Details]** für Ihren Versand ein. Klicken Sie abschließend auf **[!UICONTROL E-Mail-Inhalt bearbeiten]**.
 
 1. Personalisieren Sie Ihre E-Mail nach Bedarf.
 

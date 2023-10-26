@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie SMS mit Adobe Campaign Web erstellen und send
 badge: label="Beta"
 exl-id: 54181498-8164-4600-8b3f-20892b77d5d7
 source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '386'
 ht-degree: 100%
 
