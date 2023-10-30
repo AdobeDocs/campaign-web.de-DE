@@ -4,10 +4,10 @@ title: Erkunden der Benutzeroberfläche
 description: Web-Benutzeroberfläche von Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 6bca060efec14d287fac46fa7e7e721af7bfcb13
+source-git-commit: 41d426b97dc836f60f21e80ce149ce93aec77d69
 workflow-type: tm+mt
-source-wordcount: '1397'
-ht-degree: 78%
+source-wordcount: '1376'
+ht-degree: 79%
 
 ---
 
@@ -32,24 +32,14 @@ Mithilfe der Links auf der linken Seite können Sie auf die Campaign v8 Web-Funk
 Dieser Bildschirm enthält wichtige Links und Ressourcen für den Schnellzugriff auf die wichtigsten Campaign v8 Web-Funktionen.
 
 >[!CONTEXTUALHELP]
->id="acw_home_recent"
+>id="acw_homepage_recent"
 >title="Zuletzt ausgewertet"
 >abstract="Die Liste **Zuletzt ausgewertet** enthält Verknüpfungen zu den kürzlich erstellten und geänderten Sendungen. Diese Liste zeigt den Kanal, den Status, die Besitzerin bzw. den Besitzer sowie das Erstellungs- und Änderungsdatum."
 
-#### Zugriff auf aktuelle Sendungen {#user-interface-recent}
-
 Die Liste **Zuletzt ausgewertet** enthält Verknüpfungen zu den kürzlich erstellten und geänderten Sendungen. Diese Liste zeigt den Kanal, den Status, die Besitzerin bzw. den Besitzer sowie das Erstellungs- und Änderungsdatum. Klicken Sie auf **Mehr anzeigen** -Link, um weitere Sendungen zu laden.
-
-#### Schlüsselmetriken überprüfen {#user-interface-kpi}
 
 Die **wichtigen Leistungsindikatoren** ermöglichen es Ihnen, die Effektivität Ihrer Plattform mithilfe gängiger KPIs zu überprüfen. Weitere Informationen über diese KPIs finden Sie auf [dieser Seite](../reporting/kpis.md).
 
-#### Zugriffsdokumentation {#user-interface-learn}
-
->[!CONTEXTUALHELP]
->id="acw_home_learn"
->title="Lernvorgang läuft"
->abstract="Auf Hilfeseiten für Web-Schlüssel in Campaign v8 zugreifen über **Lernen** unten."
 
 Greifen Sie über den Abschnitt **Lernen** auf der Startseite auf die wichtigsten Hilfeseiten von Campaign v8 Web zu.
 
