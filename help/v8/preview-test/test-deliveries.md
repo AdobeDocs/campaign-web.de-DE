@@ -4,10 +4,10 @@ title: Durchführen von Testsendungen
 description: Erfahren Sie, wie Sie Testsendungen definieren und durchführen.
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Beta"
-source-git-commit: 2f065c6a0d4daef1cafbcb5f9d8d666fbe716932
-workflow-type: ht
-source-wordcount: '1108'
-ht-degree: 100%
+source-git-commit: 2618e36b5f42ca7e5c3791a15ac92847cdf3397a
+workflow-type: tm+mt
+source-wordcount: '1146'
+ht-degree: 97%
 
 ---
 
@@ -79,6 +79,10 @@ Testprofile sind Testadressen, also zusätzliche Empfängerinnen und Empfänger 
    ![](assets/simulate-profile-mode.png)
 
 1. Wenn Sie bereits Profile ausgewählt haben, um eine [Vorschau der Nachricht](preview-content.md) im Bildschirm zur Inhaltsimulation anzuzeigen, werden diese Profile als Testempfängerinnen und Testempfänger vorausgewählt. Sie können Ihre Auswahl löschen und/oder zusätzliche Empfängerinnen und Empfänger über die Schaltfläche **[!UICONTROL Testprofil(e) hinzufügen]** hinzufügen.
+
+   >[!NOTE]
+   >
+   >Testprofile werden im Abschnitt [!DNL Campaign] Client-Konsole in **[!UICONTROL Ressourcen]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Testadressen]** Ordner. Erfahren Sie, wie Sie Testadressen in erstellen und verwalten [Dokumentation zu Campaign v8 (Clientkonsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html?lang=de){target="_blank"}.
 
 1. Um die endgültige Nachricht auch an die Empfängerinnen und Empfänger des Testversands zu senden, wählen Sie die Option **[!UICONTROL Testpopulation in Hauptzielgruppe einbeziehen]** aus.
 
