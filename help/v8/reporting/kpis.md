@@ -3,10 +3,10 @@ title: Wichtige Leistungsindikatoren
 description: Lernen Sie, die wichtigsten Leistungsindikatoren zu verstehen.
 badge: label="Beta"
 exl-id: 4b182219-100b-4101-919b-b0b770dd8515
-source-git-commit: 41d426b97dc836f60f21e80ce149ce93aec77d69
+source-git-commit: 3c6d086c1941b5f2e29b2eb18f58ab1fc541464a
 workflow-type: tm+mt
-source-wordcount: '886'
-ht-degree: 98%
+source-wordcount: '936'
+ht-degree: 93%
 
 ---
 
@@ -93,6 +93,10 @@ Diese Metriken basieren auf der konsolidierten Tracking-Tabelle (`nms:trackingSt
 >id="acw_keyindicators_unsubscriptions"
 >title="Abmeldungen"
 >abstract="Diese Metrik zeigt für den ausgewählten Kanal die Summe aller Abmeldungen von einem Dienst und den Prozentsatz der Abmeldungen im Vergleich zur Gesamtzahl der erfolgreich zugestellten Nachrichten an."
+
+>[!NOTE]
+>
+> Die KPIs für An- und Abmeldung variieren je nach Servicetyp. E-Mail-Abonnements und -Abmeldungen umfassen beispielsweise alle E-Mail-bezogenen Dienste, unabhängig davon, ob sie aus manuellen Aktionen oder Webformularen resultieren. Es ist wichtig, diesen Ansatz von der Abmeldemetrik auf Versandebene zu unterscheiden, die Abmelde-Link-Klicks statt der tatsächlichen Abmelde-Benutzer verfolgt.
 
 Empfängerinnen und Empfänger müssen die Möglichkeit haben, sich von E-Mails und SMS über einen dedizierten Abmelde-Link im E-Mail-Inhalt abzumelden oder STOPP auf eine SMS zu antworten.
 
