@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie Campaign Web verwenden, um mit Sendungen zu a
 badge: label="Beta"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
 source-git-commit: e28b39c391259a06002506410d88245195d0ee8e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1289'
 ht-degree: 100%
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_list"
 >title="Sendungen"
->abstract="Ein Versand ist eine Kommunikation, die an eine Zielgruppe über einen bestimmten Kanal gesendet wird: E-Mail, SMS oder Push-Benachrichtigung. Auf diesem Bildschirm können Sie vorhandene Sendungen bearbeiten, duplizieren und löschen. Sie können außerdem Berichte zu abgeschlossenen Sendungen anzeigen. Klicken Sie auf die Schaltfläche **Versand erstellen**, um einen neuen Versand hinzuzufügen."
+>abstract="Ein Versand ist eine Kommunikation, die an eine Zielgruppe über einen bestimmten Kanal gesendet wird: E-Mail, SMS oder Push-Benachrichtigung. Auf diesem Bildschirm können vorhandene Sendungen bearbeitet, dupliziert und gelöscht werden. Außerdem können Berichte zu abgeschlossenen Sendungen angezeigt werden. Auf die Schaltfläche **Versand erstellen** klicken, um einen neuen Versand hinzuzufügen."
 
 Mit Adobe Campaign können Sie Cross-Channel-Kampagnen einschließlich E-Mails, SMS und Push-Benachrichtigungen senden und deren Effektivität mithilfe verschiedener dedizierter Berichte messen.
 
