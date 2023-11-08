@@ -4,10 +4,10 @@ title: Erkunden der Benutzeroberfläche
 description: Web-Benutzeroberfläche von Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 41d426b97dc836f60f21e80ce149ce93aec77d69
+source-git-commit: c5f57d85a65a4f17189586f7b83df5d45eed0781
 workflow-type: tm+mt
-source-wordcount: '1376'
-ht-degree: 79%
+source-wordcount: '1396'
+ht-degree: 78%
 
 ---
 
@@ -410,6 +410,21 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Komplement abstimmen"
 >abstract="Komplement abstimmen"
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_split_complement"
+>title="Aufspaltungs-Komplement"
+>abstract="Aufspaltungs-Komplement"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_combine_complement"
+>title="Komplement kombinieren"
+>abstract="Komplement kombinieren"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_split_segments"
+>title="Segmente für Aufspaltungsaktivitäten"
+>abstract="Segmente für Aufspaltungsaktivitäten"
+
 
 
 
@@ -483,3 +498,5 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_subscriptions_overallevolution_subscribers"
 >title="Gesamtentwicklung der Abonnements"
 >abstract="Gesamtentwicklung der Abonnements"
+
+
