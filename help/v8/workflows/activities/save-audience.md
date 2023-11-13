@@ -4,21 +4,21 @@ title: Verwenden der Workflow-Aktivität „Zielgruppe speichern“
 description: Erfahren Sie, wie Sie die Workflow-Aktivität „Verzweigung“ verwenden.
 badge: label="Beta"
 exl-id: 0f7cbc34-0536-493e-bb3b-0b1ac93d1232
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
-workflow-type: ht
-source-wordcount: '385'
-ht-degree: 100%
+source-git-commit: 08aaceb5a5c8747e92b9ff6fe4bd69049c178f0c
+workflow-type: tm+mt
+source-wordcount: '425'
+ht-degree: 91%
 
 ---
 
 # Zielgruppe speichern {#save-audience}
 
-<!--
+
 >[!CONTEXTUALHELP]
->id="acw_orchestration_saveaudience_activity"
->title="Save an audience"
->abstract="Use this activity to save the workflow audience."
--->
+>id="acw_orchestration_saveaudience"
+>title="Speichern einer Zielgruppe"
+>abstract="Verwenden Sie diese Aktivität, um eine existierende Audience zu aktualisieren oder eine neue Audience aus der zuvor im Workflow berechneten Population zu erstellen. Die erstellten Audiences werden der Liste der Audiences hinzugefügt und sind über die **Zielgruppen** Menü."
+
 
 Die Aktivität **Zielgruppe speichern** ist eine Aktivität zur **Zielgruppenbestimmung**. Mit dieser Aktivität können Sie eine vorhandene Zielgruppe aktualisieren oder eine neue Zielgruppe aus der Population erstellen, die im Vorfeld durch andere Workflow-Aktivitäten ermittelt wurde. Die Zielgruppen werden zur bereits bestehenden Zielgruppenliste in Adobe Campaign hinzugefügt und sind über das Menü **Zielgruppen** zugänglich.
 
