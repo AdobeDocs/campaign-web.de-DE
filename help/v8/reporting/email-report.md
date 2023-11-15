@@ -5,9 +5,9 @@ description: Erfahren Sie, wie Sie auf E-Mail-Versandberichte zugreifen und dies
 badge: label="Beta"
 exl-id: 2a0bd3e9-5d75-47c8-bd6a-b3e0b1ce0a01
 source-git-commit: fa68c32b61583e41819cfe4e31bc17305126396c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2254'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -77,7 +77,7 @@ Der Graph **[!UICONTROL Versandstatistiken]** gibt Auskunft über den Erfolg Ihr
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_exclusion"
->title="Versandgründe"
+>title="Versand – Ausschlussgründe"
 >abstract="Der Graph und die Tabelle zu den **Ausschlussgründen** zeigen die Aufschlüsselung der im Zuge der Versandvorbereitung abgelehnten Nachrichten nach Regeln."
 
 

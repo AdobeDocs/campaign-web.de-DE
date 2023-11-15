@@ -5,9 +5,9 @@ description: Erfahren Sie, wie Sie auf SMS-Versandberichte zugreifen und diese v
 badge: label="Beta"
 exl-id: 153d3a85-0d39-42db-9906-1e7f2d1d5bae
 source-git-commit: 23ca6ee9008587923fe0102612abf41a764214cc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '513'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -105,7 +105,7 @@ Der Graph und die Tabelle **[!UICONTROL Ausschlüsse]** zeigen die verschiedenen
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_throughput_sms"
 >title="SMS-Versanddurchsatz"
->abstract="Die **Versanddurchsatz** enthält detaillierte Informationen zum Versanddurchsatz innerhalb eines bestimmten Zeitraums.  Die wichtigste Kennzahl, mit der die Geschwindigkeit des Nachrichtenversands gemessen wird, ist die Anzahl der pro Stunde gesendeten Nachrichten."
+>abstract="Der **Versanddurchsatz**-Bericht enthält detaillierte Informationen zum Versanddurchsatz innerhalb eines bestimmten Zeitraums. Die wichtigste Kennzahl, mit der die Geschwindigkeit des Nachrichtenversands gemessen wird, ist die Anzahl der pro Stunde gesendeten Nachrichten."
 
 Dieser Bericht enthält detaillierte Informationen zum Versanddurchsatz innerhalb eines bestimmten Zeitraums. Die wichtigste Kennzahl, mit der die Geschwindigkeit des Nachrichtenversands gemessen wird, ist die Anzahl der pro Stunde gesendeten Nachrichten.
 

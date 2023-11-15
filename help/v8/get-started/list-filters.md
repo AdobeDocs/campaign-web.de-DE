@@ -5,9 +5,9 @@ description: Erfahren Sie, wie Sie Listen in Campaign Web v8 durchsuchen und fil
 badge: label="Beta"
 exl-id: 46b83e8c-6c8c-40a1-a08b-9d0b438b80cb
 source-git-commit: 3e94514060a501a3a359c38606e5532beaf20f10
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '559'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
@@ -66,22 +66,22 @@ Das Arbeitsprinzip des Regel-Builders für benutzerdefinierte Filter ähnelt dem
 >[!CONTEXTUALHELP]
 >id="acw_attributepicker_advancedfields"
 >title="Anzeigen von erweiterten Attributen"
->abstract="Standardmäßig werden nur die häufigsten Attribute in der Attributliste angezeigt. Aktivieren Sie die **Erweiterte Attribute anzeigen** Umschalten, um alle verfügbaren Attribute für die aktuelle Liste in der linken Palette des Regel-Builders anzuzeigen, z. B. Knoten, Gruppierungen, 1:1-Links, 1:n-Links."
+>abstract="In der Attributliste werden standardmäßig nur die häufigsten Attribute angezeigt. Aktivieren Sie den Umschalter **Erweiterte Attribute anzeigen**, um alle verfügbaren Attribute für die aktuelle Liste in der linken Palette des Regel-Builders anzuzeigen, z. B. Knoten, Gruppierungen, 1:1-Links und 1:n-Links."
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_advancedfields"
 >title="Erweiterte Felder des Regel-Builders"
->abstract="Standardmäßig werden nur die häufigsten Attribute in der Attributliste angezeigt. Aktivieren Sie die **Erweiterte Attribute anzeigen** Umschalten, um alle verfügbaren Attribute für die aktuelle Liste in der linken Palette des Regel-Builders anzuzeigen, z. B. Knoten, Gruppierungen, 1:1-Links, 1:n-Links."
+>abstract="In der Attributliste werden standardmäßig nur die häufigsten Attribute angezeigt. Aktivieren Sie den Umschalter **Erweiterte Attribute anzeigen**, um alle verfügbaren Attribute für die aktuelle Liste in der linken Palette des Regel-Builders anzuzeigen, z. B. Knoten, Gruppierungen, 1:1-Links und 1:n-Links."
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_properties_advanced"
 >title="Erweiterte Attribute des Regel-Builders"
->abstract="Standardmäßig werden nur die häufigsten Attribute in der Attributliste angezeigt. Aktivieren Sie die **Erweiterte Attribute anzeigen** Umschalten, um alle verfügbaren Attribute für die aktuelle Liste in der linken Palette des Regel-Builders anzuzeigen, z. B. Knoten, Gruppierungen, 1:1-Links, 1:n-Links."
+>abstract="In der Attributliste werden standardmäßig nur die häufigsten Attribute angezeigt. Aktivieren Sie den Umschalter **Erweiterte Attribute anzeigen**, um alle verfügbaren Attribute für die aktuelle Liste in der linken Palette des Regel-Builders anzuzeigen, z. B. Knoten, Gruppierungen, 1:1-Links und 1:n-Links."
 
 
 Standardmäßig werden in den Konfigurationsbildschirmen der Attributliste und der Filter nur die häufigsten Attribute angezeigt. Attribute, die im Datenschema als `advanced`-Attribute gesetzt wurden, werden in den Konfigurationsbildern ausgeblendet.
 
-Aktivieren Sie die **Erweiterte Attribute anzeigen** Umschalten, um alle verfügbaren Attribute für die aktuelle Liste in der linken Palette des Regel-Builders anzuzeigen, z. B. Knoten, Gruppierungen, 1:1-Links, 1:n-Links. Die Attributliste wird sofort aktualisiert.
+Aktivieren Sie den Umschalter **Erweiterte Attribute anzeigen**, um alle verfügbaren Attribute für die aktuelle Liste in der linken Palette des Regel-Builders anzuzeigen, z. B. Knoten, Gruppierungen, 1:1-Links und 1:n-Links. Die Attributliste wird sofort aktualisiert.
 
 
 ![](assets/adv-toggle.png){width="70%" align="left" zoomable="yes"}

@@ -5,9 +5,9 @@ description: Erfahren Sie, wie Sie Workflows mit Adobe Campaign Web erstellen
 badge: label="Beta"
 exl-id: 2a9b7e52-2b8b-4293-9b4d-a228ba95bed3
 source-git-commit: 5649745c4c1c43d8d4e02dc0fc98d0ea365fb83e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '363'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 97%
 >[!CONTEXTUALHELP]
 >id="acw_targeting_workflow_list"
 >title="Workflows"
->abstract="In diesem Bildschirm kannn auf die vollständige Liste der Einzel- und Kampagnen-Workflows zugegriffen und ihr aktueller Status sowie das letzte/nächste Ausführungsdatum überprüft und ein neuer Workflow erstellt werden. Navigieren Sie zum Tab &quot;Vorlagen&quot;, um auf verfügbare Workflow-Vorlagen zuzugreifen."
+>abstract="In diesem Bildschirm kannn auf die vollständige Liste der Einzel- und Kampagnen-Workflows zugegriffen und ihr aktueller Status sowie das letzte/nächste Ausführungsdatum überprüft und ein neuer Workflow erstellt werden. Navigieren Sie zur Registerkarte „Vorlagen“, um auf verfügbare Workflow-Vorlagen zuzugreifen."
 
 Das Menü **[!UICONTROL Workflows]** bietet Zugriff auf die vollständige Liste der Workflows. Diese Liste enthält die beiden **eigenständigen Workflows**, die auf diesem Bildschirm erstellt wurden, und **Kampagnen-Workflows**, die in einer Kampagne erstellt wurden.
 

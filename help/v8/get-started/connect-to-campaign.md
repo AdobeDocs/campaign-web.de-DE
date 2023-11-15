@@ -1,27 +1,28 @@
 ---
-title: Verbindung zur Adobe Campaign-Webschnittstelle herstellen
-description: Erfahren Sie, wie Sie eine Verbindung zur Web-Benutzeroberfläche von Adobe Campaign v8 herstellen.
+title: Herstellen einer Verbindung zur Adobe Campaign Web-Benutzeroberfläche
+description: Erfahren Sie, wie Sie eine Verbindung zur Benutzeroberfläche von Adobe Campaign v8 Web herstellen.
 badge: label="Beta"
-source-git-commit: 2a2bd37461d2218b5187d2a0dd202df6c0724fee
-workflow-type: tm+mt
+exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
+source-git-commit: 7bed2a1a40da7f709daba1f91d1b3ffa3a2aa57f
+workflow-type: ht
 source-wordcount: '510'
-ht-degree: 39%
+ht-degree: 100%
 
 ---
 
-# Verbindung mit Adobe Campaign herstellen {#connect-to-campaign}
+# Herstellen einer Verbindung zu Adobe Campaign {#connect-to-campaign}
 
-Experience Cloud ist eine integrierte Produktfamilie für digitale Marketinganwendungen und Dienstleistungen. Über die intuitive Benutzeroberfläche können Sie schnell auf Ihre Cloud-Anwendungen, Produktfunktionen und Dienste zugreifen. Auf dieser Seite erfahren Sie, wie Sie eine Verbindung zu Adobe Experience Cloud herstellen und auf die Adobe Campaign v8-Webschnittstelle zugreifen.
+Experience Cloud ist die integrierte Familie von Anwendungen, Produkten und Diensten von Adobe für das digitale Marketing. Über die intuitive Benutzeroberfläche können Sie schnell auf Ihre Cloud-Anwendungen, Produktfunktionen und Dienste zugreifen. Auf dieser Seite erfahren Sie, wie Sie eine Verbindung zu Adobe Experience Cloud herstellen und auf die Benutzeroberfläche von Adobe Campaign v8 Web zugreifen.
 
-## Bei Adobe Experience Cloud anmelden {#sign-in-to-exc}
+## Anmeldung bei Adobe Experience Cloud {#sign-in-to-exc}
 
-Normalerweise gewähren Experience Cloud-Administratoren Zugriff auf Anwendungen und Dienste. Führen Sie die Schritte in Ihrer E-Mail-Einladung zum Experience Cloud aus.
+Normalerweise gewähren die Admins von Experience Cloud Zugriff auf Anwendungen und Dienste. Führen Sie die Schritte in der per E-Mail gesendeten Einladung zur Experience Cloud aus.
 
-Die Anmeldung bei Adobe Experience Cloud erfolgt anhand der folgenden grundlegenden Schritte:
+Die Anmeldung bei Adobe Experience Cloud erfolgt anhand der folgenden einfachen Schritte:
 
 1. Navigieren Sie zu [Adobe Experience Cloud](https://experience.adobe.com/){target="_blank"}.
 
-1. Melden Sie sich mit Ihrer Adobe ID oder Enterprise ID an. Weitere Informationen zu Identitätstypen finden Sie unter Adobe unter [diesem Artikel](https://helpx.adobe.com/de/enterprise/using/identity.html){target="_blank"}.
+1. Melden Sie sich mit Ihrer Adobe ID oder Enterprise ID an. Weitere Informationen zu Identitätstypen bei Adobe finden Sie in [diesem Artikel](https://helpx.adobe.com/de/enterprise/using/identity.html){target="_blank"}.
 
    Nach der Anmeldung bei Experience Cloud können Sie schnell auf alle Ihre Lösungen und Apps zugreifen.
 
@@ -36,31 +37,31 @@ Die Anmeldung bei Adobe Experience Cloud erfolgt anhand der folgenden grundlegen
 
 ## Zugriff auf Adobe Campaign {#access-to-campaign}
 
-Um auf Ihre Campaign-Umgebung zuzugreifen, wählen Sie **Kampagne** aus dem **Schnellzugriff** auf der Adobe Experience Cloud-Startseite.
+Um auf Ihre Campaign-Umgebung zuzugreifen, wählen Sie **Campaign** aus dem Bereich **Schnellzugriff** auf der Adobe Experience Cloud-Startseite aus.
 
-Wenn Sie bereits mit einer anderen Adobe Experience Cloud-Lösung verbunden sind, können Sie über den Lösungsschalter oben rechts auf Ihrem Bildschirm zu Ihrer Campaign-Umgebung navigieren.
+Wenn Sie bereits mit einer anderen Adobe Experience Cloud-Lösung verbunden sind, können Sie über den Lösungsumschalter oben rechts auf Ihrem Bildschirm zu Ihrer Campaign-Umgebung navigieren.
 
 ![](assets/solution-switcher.png)
 
-Wenn Sie Zugriff auf mehrere Umgebungen haben, einschließlich des Campaign Control Panels, klicken Sie auf die Schaltfläche **Launch** für die richtige Instanz.
+Wenn Sie Zugriff auf mehrere Umgebungen haben, einschließlich des Control Panels für Campaign, klicken Sie auf den **Launch**-Button für die richtige Instanz.
 
 ![](assets/launch-campaign.png)
 
 Sie sind jetzt mit Campaign verbunden. Auf [dieser Seite](user-interface.md) erfahren Sie, wie Sie die Benutzeroberfläche verwenden.
 
-## Obere Adobe Experience Cloud-Navigation {#top-bar}
+## Obere Navigationsleiste in Adobe Experience Cloud {#top-bar}
 
 Verwenden Sie die obere Leiste der Benutzeroberfläche, um folgende Aktionen durchzuführen:
 
-* Freigeben Ihres Feedbacks als Beta-Benutzer
-* Zwischen Organisationen wechseln
-* Zwischen Ihren Adobe Experience Cloud-Lösungen und -Apps wechseln
+* Teilen Ihres Feedbacks als Beta-Benutzerin oder Beta-Benutzer
+* Wechseln zwischen Ihren Organisationen
+* Wechseln zwischen Ihren Adobe Experience Cloud-Lösungen und -Apps
 
 ![](assets/unified-shell.png){width="50%" align="left"}
 
 ## Unterstützte Browser {#browsers}
 
-Campaign v8 Web ist so konzipiert, dass es in der neuesten Version von Google Chrome, Safari und Microsoft Edge optimal funktioniert. Bei der Verwendung bestimmter Funktionen in älteren Versionen oder anderen Browsern kann es zu Problemen kommen.
+Campaign v8 Web ist so konzipiert, dass es mit den neuesten Versionen von Google Chrome, Safari und Microsoft Edge optimal funktioniert. Bei der Verwendung bestimmter Funktionen in älteren Versionen oder anderen Browsern können Probleme auftreten.
 
 ## Sprachvoreinstellungen {#language-pref}
 
@@ -84,13 +85,12 @@ So ändern Sie Ihre Sprache:
 
 1. Klicken Sie auf das Profilsymbol oben rechts und wählen Sie dann **Voreinstellungen**.
 1. Klicken Sie dann auf den Sprach-Link, der unter Ihrer E-Mail-Adresse angezeigt wird.
-1. Wählen Sie Ihre bevorzugte Sprache aus und klicken Sie auf **Speichern**. Sie können eine zweite Sprache auswählen, falls die von Ihnen verwendete Komponente nicht in Ihre Muttersprache lokalisiert ist.
+1. Wählen Sie Ihre bevorzugte Sprache aus und klicken Sie auf **Speichern**. Sie können eine zweite Sprache auswählen, falls die von Ihnen verwendete Komponente nicht in Ihrer gewählten Sprache lokalisiert ist.
 
 ## Dunkles Design {#dark-theme}
 
 Sie können über Ihr Profilsymbol zum dunklen Design wechseln. Sie können es über den Umschalter **Dunkles Design** aktivieren/deaktivieren.
 
-Benutzerprofileinstellungen und Kontovoreinstellungen werden im Abschnitt [diesem Abschnitt](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html#preferences){target="_blank"}.
+Benutzerprofileinstellungen und Kontovoreinstellungen werden in [diesem Abschnitt](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=de#preferences) genauer beschrieben{target="_blank"}.
 
-Weitere Informationen zu Experience Cloud Central Interface-Komponenten finden Sie unter [diese Dokumentation](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html){target="_blank"}.
-
+Weitere Informationen zu den zentralen Benutzeroberflächen-Komponenten in Experience Cloud finden Sie in [dieser Dokumentation](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=de){target="_blank"}.

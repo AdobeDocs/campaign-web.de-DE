@@ -5,9 +5,9 @@ description: Erfahren Sie, wie Sie mit Empfängerinnen und Empfängern aus einer
 badge: label="Beta"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
 source-git-commit: 5dada8e96ff5b1db7ecc18b5a442fae56a4a31f2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '596'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 98%
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_preview"
 >title="Anzeige der Datei in der Vorschau"
->abstract="Überprüfen Sie die Vorschau Ihrer Datei. Auf diesem Bildschirm werden nur bis zu 30 Datensätze angezeigt."
+>abstract="Überprüfen Sie die Vorschau Ihrer Datei. Dieser Bildschirm zeigt nur maximal 30 Einträge an."
 
 
 

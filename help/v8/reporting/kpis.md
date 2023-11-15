@@ -4,9 +4,9 @@ description: Lernen Sie, die wichtigsten Leistungsindikatoren zu verstehen.
 badge: label="Beta"
 exl-id: 4b182219-100b-4101-919b-b0b770dd8515
 source-git-commit: 3c6d086c1941b5f2e29b2eb18f58ab1fc541464a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '936'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 93%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_kpi"
 >title="Wichtige Leistungsindikatoren"
->abstract="Die **Wichtige Leistungsindikatoren** -Abschnitt ermöglicht Ihnen, die Effektivität Ihrer Plattform mithilfe gängiger KPIs zu überprüfen."
+>abstract="Mit dem Abschnitt **Wichtige Leistungsindikatoren** können Sie die Effektivität Ihrer Plattform anhand gängiger KPIs überprüfen."
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_spam"
@@ -96,7 +96,7 @@ Diese Metriken basieren auf der konsolidierten Tracking-Tabelle (`nms:trackingSt
 
 >[!NOTE]
 >
-> Die KPIs für An- und Abmeldung variieren je nach Servicetyp. E-Mail-Abonnements und -Abmeldungen umfassen beispielsweise alle E-Mail-bezogenen Dienste, unabhängig davon, ob sie aus manuellen Aktionen oder Webformularen resultieren. Es ist wichtig, diesen Ansatz von der Abmeldemetrik auf Versandebene zu unterscheiden, die Abmelde-Link-Klicks statt der tatsächlichen Abmelde-Benutzer verfolgt.
+> Die KPIs für An- und Abmeldung variieren je nach Diensttyp. E-Mail-Abonnements und -Abmeldungen umfassen beispielsweise alle E-Mail-bezogenen Dienste, unabhängig davon, ob sie aus manuellen Aktionen oder Web-Formularen resultieren. Es ist wichtig, diesen Ansatz von der Abmeldemetrik auf Versandebene zu unterscheiden, die Klicks auf Abmelde-Links statt tatsächlich abgemeldeten Benutzenden verfolgt.
 
 Empfängerinnen und Empfänger müssen die Möglichkeit haben, sich von E-Mails und SMS über einen dedizierten Abmelde-Link im E-Mail-Inhalt abzumelden oder STOPP auf eine SMS zu antworten.
 

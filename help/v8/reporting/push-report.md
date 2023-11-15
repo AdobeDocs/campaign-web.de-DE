@@ -5,9 +5,9 @@ description: Erfahren Sie, wie Sie auf Push-Versandberichte zugreifen und diese 
 badge: label="Beta"
 exl-id: 4187b553-8de7-40f4-8f30-f62e43323862
 source-git-commit: dcd8dfe76a69305bb2aca4d2e94d447bea2668db
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '485'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Der **Push-Versandbericht** bietet einen umfassenden Überblick über den Push-K
 
 >[!CONTEXTUALHELP]
 >id="acw_push_report_overview"
->title="Übersicht über den Push-Versand"
+>title="Push-Versand – Übersicht"
 >abstract="Die **Übersicht über den Push-Versand** bietet einen umfassenden Überblick über Ihren Push-Versand, mit umfassenden Einblicken und spezifischen Daten. Sie bietet umfassende Informationen über Leistung, Effektivität und Ergebnisse Ihres Versands."
 
 Der **[!UICONTROL Versandübersichtsbericht]** bietet wichtige Leistungsindikatoren (KPIs), die detaillierte Informationen darüber enthalten, wie Ihre Besucherinnen und Besucher mit Ihren Push-Nachrichten interagieren.
