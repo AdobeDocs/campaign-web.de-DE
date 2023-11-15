@@ -7,7 +7,7 @@ badge: label="Beta"
 source-git-commit: 08aaceb5a5c8747e92b9ff6fe4bd69049c178f0c
 workflow-type: tm+mt
 source-wordcount: '1405'
-ht-degree: 78%
+ht-degree: 99%
 
 ---
 
@@ -36,7 +36,7 @@ Dieser Bildschirm enthält wichtige Links und Ressourcen für den Schnellzugriff
 >title="Zuletzt ausgewertet"
 >abstract="Die Liste **Zuletzt ausgewertet** enthält Verknüpfungen zu den kürzlich erstellten und geänderten Sendungen. Diese Liste zeigt den Kanal, den Status, die Besitzerin bzw. den Besitzer sowie das Erstellungs- und Änderungsdatum."
 
-Die Liste **Zuletzt ausgewertet** enthält Verknüpfungen zu den kürzlich erstellten und geänderten Sendungen. Diese Liste zeigt den Kanal, den Status, die Besitzerin bzw. den Besitzer sowie das Erstellungs- und Änderungsdatum. Klicken Sie auf **Mehr anzeigen** -Link, um weitere Sendungen zu laden.
+Die Liste **Zuletzt ausgewertet** enthält Verknüpfungen zu den kürzlich erstellten und geänderten Sendungen. Diese Liste zeigt den Kanal, den Status, die Besitzerin bzw. den Besitzer sowie das Erstellungs- und Änderungsdatum. Klicken Sie auf den Link **Mehr anzeigen**, um weitere Sendungen zu laden.
 
 Die **wichtigen Leistungsindikatoren** ermöglichen es Ihnen, die Effektivität Ihrer Plattform mithilfe gängiger KPIs zu überprüfen. Weitere Informationen über diese KPIs finden Sie auf [dieser Seite](../reporting/kpis.md).
 
@@ -175,63 +175,63 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_list"
->title="Empfängererstellung"
->abstract="Empfängererstellung"
+>title="Empfänger – Erstellung"
+>abstract="Empfänger – Erstellung"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_details"
->title="Empfängerdetails"
->abstract="Empfängerdetails"
+>title="Empfänger – Details"
+>abstract="Empfänger – Details"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_contactinformation"
->title="Kontaktinformationen der Empfänger"
->abstract="Kontaktinformationen der Empfänger"
+>title="Empfänger – Kontaktinformationen"
+>abstract="Empfänger – Kontaktinformationen"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_address"
->title="Empfängeradresse"
->abstract="Empfängeradresse"
+>title="Empfänger – Adresse"
+>abstract="Empfänger – Adresse"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_account"
->title="Empfängerkonto"
->abstract="Empfängerkonto"
+>title="Empfänger – Konto"
+>abstract="Empfänger – Konto"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_customfields"
->title="Benutzerdefinierte Felder für Empfänger"
->abstract="Benutzerdefinierte Felder für Empfänger"
+>title="Empfänger – Benutzerdefinierte Felder"
+>abstract="Empfänger – Benutzerdefinierte Felder"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_cardoverview"
->title="Übersicht über die Empfängerkarte"
->abstract="Übersicht über die Empfängerkarte"
+>title="Empfängerkarte – Übersicht"
+>abstract="Empfängerkarte – Übersicht"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_touchpoints"
->title="Touchpoints der Empfänger"
->abstract="Touchpoints der Empfänger"
+>title="Empfänger – Touchpoints"
+>abstract="Empfänger – Touchpoints"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_subscription_list"
->title="Abonnementliste der Empfänger"
->abstract="Abonnementliste der Empfänger"
+>title="Emfänger – Abonnementliste"
+>abstract="Emfänger – Abonnementliste"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_subscription_selection"
->title="Auswahl der Empfänger-Abonnements"
->abstract="Auswahl der Empfänger-Abonnements"
+>title="Empfänger – Abonnementauswahl"
+>abstract="Empfänger – Abonnementauswahl"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_offers_eligible_list"
->title="Empfängerangebote auf der Liste"
->abstract="Empfängerangebote auf der Liste"
+>title="Empfängerangebote – Liste geeigneter Angebote"
+>abstract="Empfängerangebote – Liste geeigneter Angebote"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_offers_preview_proposition"
->title="Vorschau der Angebote für Empfänger"
->abstract="Vorschau der Angebote für Empfänger"
+>title="Empfängerangebote – Vorschau"
+>abstract="Empfängerangebote – Vorschau"
 
 
 
@@ -239,8 +239,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_delivery_template"
->title="Vorlage für den Abonnement-Versand"
->abstract="Vorlage für den Abonnement-Versand"
+>title="Abonnements – Versandvorlage"
+>abstract="Abonnements – Versandvorlage"
 
 
 
@@ -253,38 +253,38 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_properties"
->title="Eigenschaften von Landingpages"
->abstract="Eigenschaften von Landingpages"
+>title="Landingpages – Eigenschaften"
+>abstract="Landingpages – Eigenschaften"
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_pages_list"
->title="Landingpages"
->abstract="Landingpages"
+>title="Landingpages – Seiten"
+>abstract="Landingpages – Seiten"
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_schedule"
->title="Landingpage-Zeitplan"
->abstract="Landingpage-Zeitplan"
+>title="Landingpages – Zeitplan"
+>abstract="Landingpages – Zeitplan"
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_primarypage"
->title="Landing Pages primary page"
->abstract="Landing Pages primary page"
+>title="Landingpages – Primärseite"
+>abstract="Landingpages – Primärseite"
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_subscription"
->title="Landingpage-Abonnement"
->abstract="Landingpage-Abonnement"
+>title="Landingpages – Abonnement"
+>abstract="Landingpages – Abonnement"
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_calltoaction"
->title="Landingpage-Aktionsaufruf"
->abstract="Landingpage-Aktionsaufruf"
+>title="Landingpages – Aktionsaufruf"
+>abstract="Landingpages – Aktionsaufruf"
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_simulate"
->title="Landingpage-Simulation"
->abstract="Landingpage-Simulation"
+>title="Landingpages – Simulieren"
+>abstract="Landingpages – Simulieren"
 
 
 
@@ -304,33 +304,33 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_save"
->title="Fragmente speichern"
->abstract="Fragmente speichern"
+>title="Fragmente – Speichern"
+>abstract="Fragmente – Speichern"
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_create"
->title="Fragmenterstellung"
->abstract="Fragmenterstellung"
+>title="Fragmente – Erstellung"
+>abstract="Fragmente – Erstellung"
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_properties"
->title="Fragmenteigenschaften"
->abstract="Fragmenteigenschaften"
+>title="Fragmente – Eigenschaften"
+>abstract="Fragmente – Eigenschaften"
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_type"
->title="Fragmenttyp"
->abstract="Fragmenttyp"
+>title="Fragmente – Typ"
+>abstract="Fragmente – Typ"
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_list"
->title="Fragmentliste"
->abstract="Fragmentliste"
+>title="Fragmente – Liste"
+>abstract="Fragmente – Liste"
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_details"
->title="Fragmentdetails"
->abstract="Fragmentdetails"
+>title="Fragmente – Details"
+>abstract="Fragmente – Details"
 
 
 
@@ -347,13 +347,13 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_design"
->title="Entwurf von Inhaltsvorlagen"
->abstract="Entwurf von Inhaltsvorlagen"
+>title="Inhaltsvorlage – Design"
+>abstract="Inhaltsvorlage – Design"
 
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_selection"
->title="Auswahl der Inhaltsvorlagen"
->abstract="Auswahl der Inhaltsvorlagen"
+>title="Inhaltsvorlage – Auswahl"
+>abstract="Inhaltsvorlage – Auswahl"
 
 
 
@@ -369,81 +369,81 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation"
->title="Aktivität &quot;Abstimmung&quot;"
+>title="Aktivität „Abstimmung“"
 >abstract="Verwenden Sie die **Abstimmung** -Aktivität zum Verknüpfen nicht identifizierter Daten mit vorhandenen Ressourcen."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_targeting"
->title="Abstimmung der Zielgruppe"
->abstract="Abstimmung der Zielgruppe"
+>title="Abstimmung – Zielgruppenbestimmung"
+>abstract="Abstimmung – Zielgruppenbestimmung"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_rules"
->title="Abstimmregeln"
->abstract="Abstimmregeln"
+>title="Abstimmungsregeln"
+>abstract="Abstimmungsregeln"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_targeting_selection"
->title="Zielgruppendimension der Abstimmung"
->abstract="Zielgruppendimension der Abstimmung"
+>title="Abstimmung – Zielgruppendimension"
+>abstract="Abstimmung – Zielgruppendimension"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_field"
->title="Abstimmungsauswahlfeld"
->abstract="Abstimmungsauswahlfeld"
+>title="Abstimmung – Feld auswählen"
+>abstract="Abstimmung – Feld auswählen"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_attribute"
->title="Attribut zur Abstimmauswahl"
->abstract="Attribut zur Abstimmauswahl"
+>title="Abstimmung – Attribut auswählen"
+>abstract="Abstimmung – Attribut auswählen"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_condition"
->title="Bedingung zur Erstellung der Abstimmung"
->abstract="Bedingung zur Erstellung der Abstimmung"
+>title="Abstimmung – Bedingung erstellen"
+>abstract="Abstimmung – Bedingung erstellen"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_complement"
->title="Komplement abstimmen"
->abstract="Komplement abstimmen"
+>title="Abstimmung – Komplement erzeugen"
+>abstract="Abstimmung – Komplement erzeugen"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_complement"
->title="Aufspaltungs-Komplement"
->abstract="Aufspaltungs-Komplement"
+>title="Aufspaltung – Komplement erzeugen"
+>abstract="Aufspaltung – Komplement erzeugen"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_combine_complement"
->title="Komplement kombinieren"
->abstract="Komplement kombinieren"
+>title="Kombinieren – Komplement erzeugen"
+>abstract="Kombinieren – Komplement erzeugen"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_segments"
->title="Segmente für Aufspaltungsaktivitäten"
->abstract="Segmente für Aufspaltungsaktivitäten"
+>title="Segmente für Aufspaltungsaktivität"
+>abstract="Segmente für Aufspaltungsaktivität"
 
 
 
 
 >[!CONTEXTUALHELP]
 >id="acw_conditionalcontent_savefilter"
->title="Filter zum Speichern bedingter Inhalte"
->abstract="Filter zum Speichern bedingter Inhalte"
+>title="Bedingter Inhalt – Filter speichern"
+>abstract="Bedingter Inhalt – Filter speichern"
 
 >[!CONTEXTUALHELP]
 >id="acw_conditionalcontent_selectfilter"
->title="Filter zur Auswahl bedingter Inhalte"
->abstract="Filter zur Auswahl bedingter Inhalte"
+>title="Bedingter Inhalt – Filter auswählen"
+>abstract="Bedingter Inhalt – Filter auswählen"
 
 >[!CONTEXTUALHELP]
 >id="acw_conditionalcontent_subjectline"
->title="Bedingter Inhalt in der Betreffzeile"
->abstract="Bedingter Inhalt in der Betreffzeile"
+>title="Bedingter Inhalt in Betreffzeile"
+>abstract="Bedingter Inhalt in Betreffzeile"
 
 >[!CONTEXTUALHELP]
 >id="acw_conditionalcontent_subjectlinecondition"
->title="Bedingung der Subjektlinie für bedingten Inhalt"
->abstract="Bedingung der Subjektlinie für bedingten Inhalt"
+>title="Bedingter Inhalt – Betreffzeilenbedingung"
+>abstract="Bedingter Inhalt – Betreffzeilenbedingung"
 
 
 
@@ -455,8 +455,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_count"
->title="Zielgruppen-Anzahl"
->abstract="Zielgruppen-Anzahl"
+>title="Zielgruppengröße"
+>abstract="Zielgruppengröße"
 
 
 >[!CONTEXTUALHELP]
@@ -466,13 +466,13 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_profiles_selection"
->title="Testprofilauswahl simulieren"
->abstract="Testprofilauswahl simulieren"
+>title="Testprofile simulieren – Auswahl"
+>abstract="Testprofile simulieren – Auswahl"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_send_testprofiles"
->title="Senden von Testprofilen simulieren"
->abstract="Senden von Testprofilen simulieren"
+>title="Testprofile simulieren – Versand"
+>abstract="Testprofile simulieren – Versand"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_email_log"
@@ -482,8 +482,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_totalnumber_subscribers"
->title="Gesamtzahl der Abonnements"
->abstract="Gesamtzahl der Abonnements"
+>title="Abonnements – Gesamtzahl"
+>abstract="Abonnements – Gesamtzahl"
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_overtheperiod_subscribers"
@@ -492,7 +492,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_overallevolution_subscribers"
->title="Gesamtentwicklung der Abonnements"
->abstract="Gesamtentwicklung der Abonnements"
+>title="Abonnements – Gesamtentwicklung"
+>abstract="Abonnements – Gesamtentwicklung"
 
 
