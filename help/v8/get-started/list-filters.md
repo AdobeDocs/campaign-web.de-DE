@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie Listen in Campaign Web v8 durchsuchen und fil
 badge: label="Beta"
 exl-id: 46b83e8c-6c8c-40a1-a08b-9d0b438b80cb
 source-git-commit: 3e94514060a501a3a359c38606e5532beaf20f10
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '559'
 ht-degree: 100%
 

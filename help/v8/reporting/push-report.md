@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie auf Push-Versandberichte zugreifen und diese 
 badge: label="Beta"
 exl-id: 4187b553-8de7-40f4-8f30-f62e43323862
 source-git-commit: dcd8dfe76a69305bb2aca4d2e94d447bea2668db
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '485'
 ht-degree: 100%
 

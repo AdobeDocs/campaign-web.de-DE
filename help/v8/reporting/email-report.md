@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie auf E-Mail-Versandberichte zugreifen und dies
 badge: label="Beta"
 exl-id: 2a0bd3e9-5d75-47c8-bd6a-b3e0b1ce0a01
 source-git-commit: fa68c32b61583e41819cfe4e31bc17305126396c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2254'
 ht-degree: 100%
 
