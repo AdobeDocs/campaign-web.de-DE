@@ -3,10 +3,10 @@ title: Wichtige Leistungsindikatoren
 description: Lernen Sie, die wichtigsten Leistungsindikatoren zu verstehen.
 badge: label="Beta"
 exl-id: 4b182219-100b-4101-919b-b0b770dd8515
-source-git-commit: 69550de063ad1713e78ab7e61e7ca073d6fc02c6
+source-git-commit: 53f1cc7776d56a42b4027f73cb3399a8c630cdfa
 workflow-type: tm+mt
-source-wordcount: '1054'
-ht-degree: 93%
+source-wordcount: '1196'
+ht-degree: 82%
 
 ---
 
@@ -141,3 +141,23 @@ Der Indikator **Fehler** zeigt für jeden Kanal die folgenden KPIs an:
 * Prozentualer Anteil der fehlerhaften Nachrichten in Bezug auf die Gesamtzahl der zu sendenden Nachrichten.
 
 * Gesamtzahl an Fehlern in Sendungen und der automatischen Bounce-Verarbeitung.
+
+## Nachricht gesendet {#ui-sent-kpi}
+
+<!--DRAFT - This section requires a validation-->
+
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_sent"
+>title="Gesendet"
+>abstract="Diese Metrik zeigt für den Briefpost-Kanal die Summe aller gesendeten Nachrichten und den Prozentsatz der an den Provider gesendeten Nachrichten in Bezug auf die Gesamtzahl der in der Versandvorbereitungsphase vorbereiteten Nachrichten an."
+
+Während der Vorbereitungsphase wird die Extraktionsdatei der Briefpost erzeugt, die Empfängerinformationen (d. h. die Versandlogs) werden jedoch nicht aktualisiert.  Der Status eines Versands, der von &quot;Ausstehender Versand&quot;zu &quot;Gesendet&quot;verschoben wurde, wenn der Campaign-Benutzer den Versand bestätigt. Dann wird der Versand auf Abgeschlossen eingestellt.
+
+Dabei kann es sich nicht um 100 % der gesendeten Nachrichten im Vergleich zur Gesamtzahl der vorbereiteten Nachrichten handeln, da einige Adressen fehlen oder unvollständig sein können.
+
+Die **Gesendet** zeigt die folgenden KPIs für den Briefpost-Kanal an:
+
+* Prozentualer Anteil der gesendeten Nachrichten in Bezug auf die Gesamtzahl der vorbereiteten Nachrichten.
+
+* Summe aller gesendeten Nachrichten.
+
