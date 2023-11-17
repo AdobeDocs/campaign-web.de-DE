@@ -3,10 +3,10 @@ title: Wichtige Leistungsindikatoren
 description: Lernen Sie, die wichtigsten Leistungsindikatoren zu verstehen.
 badge: label="Beta"
 exl-id: 4b182219-100b-4101-919b-b0b770dd8515
-source-git-commit: 3c6d086c1941b5f2e29b2eb18f58ab1fc541464a
-workflow-type: ht
-source-wordcount: '936'
-ht-degree: 100%
+source-git-commit: 69550de063ad1713e78ab7e61e7ca073d6fc02c6
+workflow-type: tm+mt
+source-wordcount: '1054'
+ht-degree: 93%
 
 ---
 
@@ -87,6 +87,23 @@ Der Indikator **Klicks** zeigt für jeden Kanal die folgenden KPIs an:
 Diese Metriken basieren auf der konsolidierten Tracking-Tabelle (`nms:trackingStats`). Diese Aggregattabelle wird aus Leistungsgründen bei der Anzeige von Berichten anstelle der Tabelle „Trackinglogs der Empfänger“ (`nms:trackingLogRcp`) verwendet und wird nicht in Echtzeit berechnet. Die Tabelle wird einige Minuten nach dem Abrufen der Trackinglogs generiert.
 
 
+## Abonnementraten {#ui-sub-kpi}
+
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_subscriptions"
+>title="Abonnements    "
+>abstract="Diese Metrik zeigt für den ausgewählten Kanal die Summe aller Abonnements für einen Dienst und den Prozentsatz der Anmeldungen im Vergleich zur Gesamtzahl der erfolgreich zugestellten Nachrichten an."
+
+
+Empfänger können sich für E-Mail- und SMS-Nachrichten anmelden.
+
+Die **Abonnements** zeigt die folgenden KPIs an, wobei für jeden Kanal der Prozentsatz der Anzahl der Anmeldungen in Bezug auf die Gesamtzahl der erfolgreich zugestellten Nachrichten angezeigt wird.
+
+
+>[!NOTE]
+>
+> Die KPIs für An- und Abmeldung variieren je nach Diensttyp. E-Mail-Abonnements und -Abmeldungen umfassen beispielsweise alle E-Mail-bezogenen Dienste, unabhängig davon, ob sie aus manuellen Aktionen oder Web-Formularen resultieren. Es ist wichtig, diesen Ansatz von der Abmeldemetrik auf Versandebene zu unterscheiden, die Klicks auf Abmelde-Links statt tatsächlich abgemeldeten Benutzenden verfolgt.
+
 ## Abmelderaten {#ui-unsub-kpi}
 
 >[!CONTEXTUALHELP]
@@ -94,9 +111,6 @@ Diese Metriken basieren auf der konsolidierten Tracking-Tabelle (`nms:trackingSt
 >title="Abmeldungen"
 >abstract="Diese Metrik zeigt für den ausgewählten Kanal die Summe aller Abmeldungen von einem Dienst und den Prozentsatz der Abmeldungen im Vergleich zur Gesamtzahl der erfolgreich zugestellten Nachrichten an."
 
->[!NOTE]
->
-> Die KPIs für An- und Abmeldung variieren je nach Diensttyp. E-Mail-Abonnements und -Abmeldungen umfassen beispielsweise alle E-Mail-bezogenen Dienste, unabhängig davon, ob sie aus manuellen Aktionen oder Web-Formularen resultieren. Es ist wichtig, diesen Ansatz von der Abmeldemetrik auf Versandebene zu unterscheiden, die Klicks auf Abmelde-Links statt tatsächlich abgemeldeten Benutzenden verfolgt.
 
 Empfängerinnen und Empfänger müssen die Möglichkeit haben, sich von E-Mails und SMS über einen dedizierten Abmelde-Link im E-Mail-Inhalt abzumelden oder STOPP auf eine SMS zu antworten.
 
@@ -106,6 +120,10 @@ Der Indikator **Abmeldungen** zeigt die folgenden KPIs für jeden Kanal an:
 
 * Die Summe aller Klicks auf einen Abmelde-Link, d. h. mit der entsprechenden URL-Kategorie für „Abmeldung“.
 
+
+>[!NOTE]
+>
+> Die KPIs für An- und Abmeldung variieren je nach Diensttyp. E-Mail-Abonnements und -Abmeldungen umfassen beispielsweise alle E-Mail-bezogenen Dienste, unabhängig davon, ob sie aus manuellen Aktionen oder Web-Formularen resultieren. Es ist wichtig, diesen Ansatz von der Abmeldemetrik auf Versandebene zu unterscheiden, die Klicks auf Abmelde-Links statt tatsächlich abgemeldeten Benutzenden verfolgt.
 
 ## Fehlerquoten {#ui-error-kpi}
 
