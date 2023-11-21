@@ -4,9 +4,9 @@ title: Entwerfen eines SMS-Versands
 description: Erfahren Sie, wie Sie einen SMS-Versand entwerfen.
 badge: label="Beta"
 exl-id: 54288448-d568-4be4-ab6c-d0f8fa7bc2cb
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
-workflow-type: ht
-source-wordcount: '190'
+source-git-commit: 969401ab1258eb60697d16b3dc0470620abd346d
+workflow-type: tm+mt
+source-wordcount: '175'
 ht-degree: 100%
 
 ---
@@ -18,10 +18,6 @@ ht-degree: 100%
 >title="SMS-Inhalte"
 >abstract="Erstellen Sie die Inhalte Ihrer SMS-Sendungen und personalisieren Sie sie mit Personalisierungsfeldern, Inhaltsbausteinen und dynamischen Inhalten."
 
->[!CONTEXTUALHELP]
->id="acw_sms_preview_option_app_target"
->title="App-Abonnentinnen und -Abonnenten"
->abstract="Erstellen Sie eine Vorschau und testen Sie die Nachricht, indem Sie Abonnentinnen und Abonnenten der App zur Hauptzielgruppe hinzufügen."
 
 
 Gehen Sie wie folgt vor, um den Inhalt eines SMS-Versands zu erstellen:
