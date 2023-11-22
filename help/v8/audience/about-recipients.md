@@ -3,10 +3,10 @@ title: Arbeiten mit Empfängerinnen bzw. Empfängern und Zielgruppen
 description: Erfahren Sie, wie Sie mit Empfängerinnen und Empfängern in Campaign Web arbeiten.
 badge: label="Beta"
 exl-id: 71a1ec92-cd79-4654-9ae3-9a92a01c6279
-source-git-commit: 332bcd3788ac137a60e7973d4e54b8cea22a9333
-workflow-type: ht
+source-git-commit: b06debf7fb36984ccd957125ad5597b5720d657a
+workflow-type: tm+mt
 source-wordcount: '1027'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -18,8 +18,8 @@ In Adobe Campaign ist die Zielpopulation eines Versands eine Zielgruppe. Eine Zi
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"
->title="Empfängerinnen und Empfänger"
->abstract="Eine Empfängerin bzw. ein Empfänger ist ein Profil, das für den Empfang von Nachrichten bestimmt ist, die von Adobe Campaign gesendet werden. In Adobe Campaign sind Empfängerinnen und Empfänger die Standardprofile, an die sich Sendungen richten (E-Mails oder SMS). In dieser Liste kann das Empfängerprofil anhand der Berechtigungen angezeigt werden. Die Filteroptionen verwenden, um diese Liste zu durchsuchen. Es kann eine kleine Gruppe von Empfängerattributen bearbeitet und aktualisiert werden."
+>title="Profile"
+>abstract="Ein Profil ist eine Person, die für den Empfang von Nachrichten durch Adobe Campaign bestimmt ist. In Adobe Campaign sind Empfängerinnen und Empfänger die Standardprofile, an die sich Sendungen richten (E-Mails oder SMS). In dieser Liste kann das Empfängerprofil anhand der Berechtigungen angezeigt werden. Die Filteroptionen verwenden, um diese Liste zu durchsuchen. Es kann eine kleine Gruppe von Empfängerattributen bearbeitet und aktualisiert werden."
 
 Eine Empfängerin bzw. ein Empfänger ist ein Profil, das für den Empfang von Nachrichten bestimmt ist, die von Adobe Campaign gesendet werden. In Adobe Campaign sind Empfängerinnen und Empfänger die Standardprofile, an die sich Sendungen richten (E-Mails, SMS usw.). Mit den in der Datenbank gespeicherten Empfängerdaten können Sie die Zielgruppen erstellen, die einen bestimmten Versand erhalten sollen, und Personalisierungsdaten in die Versandinhalte einfügen. In der Datenbank sind weitere Arten von Profilen gespeichert. Sie sind für unterschiedliche Verwendungszwecke konzipiert: Beispielsweise werden Testprofile erstellt, um Ihre Sendungen zu testen, bevor sie an die endgültige Zielgruppe gesendet werden.
 
