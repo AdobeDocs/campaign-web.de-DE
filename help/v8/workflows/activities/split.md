@@ -4,9 +4,9 @@ title: Verwenden der Workflow-Aktivität „Aufspaltung“
 description: Weitere Informationen zur Verwendung der Workflow-Aktivität „Aufspaltung“
 badge: label="Beta"
 exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
-workflow-type: ht
-source-wordcount: '652'
+source-git-commit: 490debae92986e55f83fb42f34a629c16ab3d991
+workflow-type: tm+mt
+source-wordcount: '694'
 ht-degree: 100%
 
 ---
@@ -39,6 +39,10 @@ Die Aktivität **Aufspaltung** ist eine Aktivität zur **Zielgruppenbestimmung**
 >title="Sortierung der Aufspaltungsaktivität"
 >abstract="Beim Festlegen einer Populationsbegrenzung für eine Teilmenge können die ausgewählten Profile anhand eines bestimmten Profilattributs in auf- oder absteigender Reihenfolge sortiert werden. Schalten Sie dazu die Option **Sortierung aktivieren** ein. Teilmengen können z. B. so eingeschränkt werden, dass nur die 50 Top-Profile mit dem höchsten Einkaufsbetrag einbezogen werden."
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_split_complement"
+>title="Aufspaltung – Komplement erzeugen"
+>abstract="Nachdem Sie alle Teilmengen konfiguriert haben, kann die verbleibende Population ausgewählt werden, die keiner der Teilmengen entspricht, und in eine zusätzliche ausgehende Transition eingeschlossen werden. Schalten Sie dazu die Option **Komplement erzeugen** ein."
 
 Folgen Sie diesen Schritten, um die Aktivität **Aufspaltung** zu konfigurieren:
 
