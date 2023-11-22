@@ -4,10 +4,10 @@ title: Versandeinstellungen
 description: Erfahren Sie mehr über die Versandeinstellungen in Campaign Web
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="Beta"
-source-git-commit: 47cc61510ae0dba139e0cb4d547fc4e737525931
-workflow-type: ht
-source-wordcount: '2112'
-ht-degree: 100%
+source-git-commit: fdb0d424fa7cb41bccba8283b8e07e038c2c6515
+workflow-type: tm+mt
+source-wordcount: '2159'
+ht-degree: 97%
 
 ---
 
@@ -30,13 +30,13 @@ Diese Einstellungen sind über das Symbol **Konfigurieren der Versandeinstellung
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_typology"
 >title="Typologie"
->abstract="Typologieregeln ermöglichen es Marketing-Fachleuten, Geschäftspraktiken für alle Sendungen zu standardisieren. Eine Typologie ist eine Sammlung von Typologieregeln, mit denen Sie den Versand von Sendungen steuern, filtern und priorisieren können. Profile, die den Kriterien einer Typologieregel entsprechen, werden in der Vorbereitungsphase von den Versandzielgruppen ausgeschlossen."
+>abstract="Typologieregeln ermöglichen es Marketing-Fachleuten, Geschäftspraktiken für alle Sendungen zu standardisieren. Eine Typologie ist eine Sammlung von Typologieregeln, mit denen Sie den Versand von Sendungen steuern, filtern und priorisieren können. Profile, die den Kriterien einer Typologieregel entsprechen, werden in der Vorbereitungsphase von den Versandzielgruppen ausgeschlossen. Typologien und Typologieregeln werden in der Campaign Client Console erstellt."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_typology"
 >title="Typologieeinstellungen für den Versand"
->abstract="Typologieregeln ermöglichen es Marketing-Fachleuten, Geschäftspraktiken für alle Sendungen zu standardisieren. Eine Typologie ist eine Sammlung von Typologieregeln, mit denen Sie den Versand von Sendungen steuern, filtern und priorisieren können. Profile, die den Kriterien einer Typologieregel entsprechen, werden in der Vorbereitungsphase von den Versandzielgruppen ausgeschlossen."
+>abstract="Typologieregeln ermöglichen es Marketing-Fachleuten, Geschäftspraktiken für alle Sendungen zu standardisieren. Eine Typologie ist eine Sammlung von Typologieregeln, mit denen Sie den Versand von Sendungen steuern, filtern und priorisieren können. Profile, die den Kriterien einer Typologieregel entsprechen, werden in der Vorbereitungsphase von den Versandzielgruppen ausgeschlossen. Typologien und Typologieregeln werden in der Campaign Client Console erstellt."
 
 
 Typologien sind Gruppen von **Typologieregeln**, die während der Nachrichtenvorbereitung ausgeführt werden. Typologieregeln ermöglichen es Marketing-Fachleuten, Geschäftspraktiken für alle Sendungen zu standardisieren. Eine Typologie ist eine Sammlung von Typologieregeln, mit denen Sie den Versand von Sendungen steuern, filtern und priorisieren können. Profile, die den Kriterien einer Typologieregel entsprechen, werden in der Versandvorbereitungsphase von den Versandzielgruppen ausgeschlossen.  Damit können Sie sicherstellen, dass Ihre E-Mails immer bestimmte Elemente enthalten (z. B. einen Abmelde-Link oder eine Betreffzeile) oder Filterregeln anwenden, um Gruppen aus Ihrer Zielgruppe auszuschließen (z. B. Menschen, die sich abgemeldet haben, Wettbewerber oder Kundinnen und Kunden, die nicht Mitglied im Treueprogramm sind).
@@ -48,7 +48,9 @@ Wenn Sie eine Typologie mit einer Nachricht oder Nachrichtenvorlage verknüpfen,
 ![](assets/delivery-settings-1.png)
 
 
-
+>[!NOTE]
+>
+>Typologien und Typologieregeln werden in der Campaign Client Console erstellt. Weitere Informationen über Druckregeln und die Konfiguration der Ermüdungsverwaltung finden Sie in der [Dokumentation zu Campaign v8 (Client-Konsole)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html?lang=de){target="_blank"}.
 
 ### Druckparameter {#pressure-parameters}
 
@@ -83,7 +85,9 @@ Verwenden Sie das Feld **Versandmodus**, um den Zielgruppenauswertungsmodus ausz
 * **Schätzung und Validierung der geplanten Zielgruppe**
 * **Zielgruppenauswertung**
 
-Die Ermüdungsverwaltung wird mit dem Add-on **Kampagnenoptimierung** bereitgestellt. Weitere Informationen über Druckregeln und die Konfiguration der Ermüdungsverwaltung finden Sie in der [Dokumentation zu Campaign v8 (Client-Konsole)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=de){target="_blank"}.
+>[!NOTE]
+>
+>Die Ermüdungsverwaltung wird in der Campaign Client Console konfiguriert. Weitere Informationen finden Sie in der [Dokumentation zu Campaign v8 (Client-Konsole)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=de){target="_blank"}.
 
 ### Kapazitätseinstellungen {#capacity-settings}
 
@@ -103,7 +107,9 @@ In diesem Bereich können Sie eine Kapazitätsregel auswählen, die in der Adobe
 
 Mit dem Feld **Wichtigkeit des Empfängers** wird festgelegt, welche Empfangenden im Falle einer Kapazitätsüberlastung der Typologieregeln beibehalten werden.
 
-Weitere Informationen über Konsistenz- und Kapazitätsregeln und deren Konfiguration finden Sie in der [Dokumentation zu Campaign v8 (Client-Konsole)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html?lang=de){target="_blank"}.
+>[!NOTE]
+>
+>Typologieregeln werden in der Campaign Client Console konfiguriert. Weitere Informationen finden Sie in der [Dokumentation zu Campaign v8 (Client-Konsole)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html?lang=de){target="_blank"}.
 
 
 ## Zielgruppeneinstellungen {#audience}
@@ -139,13 +145,15 @@ Versandparameter sind technische Einstellungen, die für Ihren Versand gelten.
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_webanalytics"
 >title="Web-Analyse-Einstellungen für den Versand"
->abstract="Wählen Sie ein Web-Analyse-Konto aus. Dieses Konto wird in der Campaign-Client-Konsole konfiguriert. Sie können außerdem die Tags definieren, die für das von Ihnen verwendete Analyse-Tool freigegeben wurden."
+>abstract="Wählen Sie ein Web-Analyse-Konto aus. Dieses Konto wird in der Client-Konsole von Campaign konfiguriert. Sie können außerdem die Tags definieren, die für das von Ihnen verwendete Analyse-Tool freigegeben wurden."
 
 In diesem Abschnitt können Sie ein Web-Analyse-Konto auswählen. Dieses Konto wird in der Campaign-Client-Konsole konfiguriert.
 
 Sie können außerdem die Tags definieren, die für das von Ihnen verwendete Analyse-Tool freigegeben wurden.
 
-Weitere Informationen zu Web-Analyse und Campaign finden Sie in der [Dokumentation zu Campaign v8 (Client-Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html?lang=de){target="_blank"}.
+>[!NOTE]
+>
+>Web-Analytics-Funktionen werden in der Campaign Client Console konfiguriert. Weitere Informationen finden Sie in der [Dokumentation zu Campaign v8 (Client-Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html?lang=de){target="_blank"}.
 
 
 ### Weitere Zustellversuche {#retries}
