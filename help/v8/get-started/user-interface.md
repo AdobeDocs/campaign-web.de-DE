@@ -4,10 +4,10 @@ title: Erkunden der Benutzeroberfläche
 description: Web-Benutzeroberfläche von Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 490debae92986e55f83fb42f34a629c16ab3d991
+source-git-commit: 1f6fc0e2764fc4e083fe983f32f83ebe93594df1
 workflow-type: tm+mt
-source-wordcount: '1437'
-ht-degree: 96%
+source-wordcount: '1501'
+ht-degree: 93%
 
 ---
 
@@ -512,3 +512,47 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_directmail_properties_content"
 >title="Inhaltseigenschaften für Briefpost"
 >abstract="Inhaltseigenschaften für Briefpost"
+
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile"
+>title="Datei laden  Aktivität"
+>abstract="Datei laden  Aktivität"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_samplefile"
+>title="Beispieldatei"
+>abstract="Beispieldatei"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_nameofthefile"
+>title="Name der Datei"
+>abstract="Name der Datei"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_targetdb"
+>title="Zieldatenbank"
+>abstract="Zieldatenbank"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_rejectmgt"
+>title="Zurückweisungsverwaltung für die Aktivität &quot;Datei laden&quot;"
+>abstract="Zurückweisungsverwaltung für die Aktivität &quot;Datei laden&quot;"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_outboundtransition"
+>title="Ausgehende Transition von der Verwaltung zurückweisen"
+>abstract="Ausgehende Transition von der Verwaltung zurückweisen"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_outboundtransition_reject"
+>title="Ausgehende Transition für Zurückweisungen von der Verwaltung zurückweisen"
+>abstract="Ausgehende Transition für Zurückweisungen von der Verwaltung zurückweisen"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_formatting"
+>title="Aktivität &quot;Formatierung für Datei laden&quot;"
+>abstract="Aktivität &quot;Formatierung für Datei laden&quot;"
+
