@@ -4,10 +4,10 @@ title: Verwenden der Workflow-Aktivität „Versand“
 description: Erfahren Sie, wie Sie eine Workflow-Aktivität „Versand“ hinzufügen (E-Mail, Push-Benachrichtigung, SMS).
 badge: label="Beta"
 exl-id: 155b40e2-1aa2-4251-bbaa-7e16e36f649e
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
-workflow-type: ht
-source-wordcount: '781'
-ht-degree: 100%
+source-git-commit: 3c77120c5936f647514969644f59833e97d56232
+workflow-type: tm+mt
+source-wordcount: '885'
+ht-degree: 83%
 
 ---
 
@@ -42,25 +42,25 @@ Beginnen Sie das Erstellen Ihres Workflows mit den entsprechenden Aktivitäten, 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_email"
 >title="E-Mail-Aktivität"
->abstract="Automatisieren und führen Sie Marketing-Kampagnen kanalübergreifend über E-Mail, SMS und Push-Benachrichtigungen aus Sie können Kanalaktivitäten in die Workflow-Arbeitsfläche kombinieren, um kanalübergreifende Workflows zu erstellen, mit denen basierend auf Kundenverhalten und Daten Aktionen ausgelöst werden können."
+>abstract="Die E-Mail-Aktivität erleichtert den E-Mail-Versand innerhalb Ihres Workflows und ermöglicht sowohl einmalige als auch wiederkehrende Nachrichten. Damit wird der Versand von E-Mails an eine innerhalb desselben Workflows berechnete Zielgruppe automatisiert. Sie können Kanalaktivitäten in die Workflow-Arbeitsfläche kombinieren, um kanalübergreifende Workflows zu erstellen, mit denen basierend auf Kundenverhalten und Daten Aktionen ausgelöst werden können."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_sms"
 >title="SMS-Aktivität"
->abstract="Automatisieren und führen Sie Marketing-Kampagnen kanalübergreifend über E-Mail, SMS und Push-Benachrichtigungen aus Sie können Kanalaktivitäten in die Workflow-Arbeitsfläche kombinieren, um kanalübergreifende Workflows zu erstellen, mit denen basierend auf Kundenverhalten und Daten Aktionen ausgelöst werden können."
+>abstract="Die SMS-Aktivität erleichtert den SMS-Versand innerhalb Ihres Workflows und ermöglicht sowohl einmalige als auch wiederkehrende Nachrichten. Damit wird der SMS-Versand an eine innerhalb desselben Workflows berechnete Zielgruppe automatisiert. Sie können Kanalaktivitäten in die Workflow-Arbeitsfläche kombinieren, um kanalübergreifende Workflows zu erstellen, mit denen basierend auf Kundenverhalten und Daten Aktionen ausgelöst werden können."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_push_ios"
 >title="Push-iOS-Aktivität"
->abstract="Automatisieren und führen Sie Marketing-Kampagnen kanalübergreifend über E-Mail, SMS und Push-Benachrichtigungen aus Sie können Kanalaktivitäten in die Workflow-Arbeitsfläche kombinieren, um kanalübergreifende Workflows zu erstellen, mit denen basierend auf Kundenverhalten und Daten Aktionen ausgelöst werden können."
+>abstract="Die Aktivität Push iOS optimiert den Versand von iOS-Push-Benachrichtigungen im Rahmen Ihres Workflows. Dies ermöglicht den Versand einmaliger und wiederkehrender Nachrichten und automatisiert den Versand von iOS-Push-Benachrichtigungen an eine vordefinierte Zielgruppe innerhalb desselben Workflows. Sie können Kanalaktivitäten in die Workflow-Arbeitsfläche kombinieren, um kanalübergreifende Workflows zu erstellen, mit denen basierend auf Kundenverhalten und Daten Aktionen ausgelöst werden können."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_push_android"
 >title="Push-Android-Aktivität"
->abstract="Automatisieren und führen Sie Marketing-Kampagnen kanalübergreifend über E-Mail, SMS und Push-Benachrichtigungen aus Sie können Kanalaktivitäten in die Workflow-Arbeitsfläche kombinieren, um kanalübergreifende Workflows zu erstellen, mit denen basierend auf Kundenverhalten und Daten Aktionen ausgelöst werden können."
+>abstract="Die Aktivität Push-Android optimiert den Prozess des Versands von Android-Push-Benachrichtigungen im Rahmen Ihres Workflows. Dadurch wird der Versand einmaliger und wiederkehrender Nachrichten ermöglicht, wodurch der Versand von Android-Push-Benachrichtigungen an eine vordefinierte Zielgruppe innerhalb desselben Workflows automatisiert wird. Sie können Kanalaktivitäten in die Workflow-Arbeitsfläche kombinieren, um kanalübergreifende Workflows zu erstellen, mit denen basierend auf Kundenverhalten und Daten Aktionen ausgelöst werden können."
 
 Gehen Sie wie folgt vor, um einen Versand im Kontext eines Workflows einzurichten:
 
