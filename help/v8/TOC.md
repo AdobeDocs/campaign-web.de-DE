@@ -5,10 +5,10 @@ title: Adobe Campaign v8 – Web-Dokumentation
 description: Web-Dokumentation zu Campaign v8
 breadcrumb-title: Übersicht über Campaign
 hide: true
-source-git-commit: a0e0ebfb1a1bedc0429183cc246b7d1140d3b8b4
-workflow-type: ht
-source-wordcount: '448'
-ht-degree: 100%
+source-git-commit: 2c0f2135752a873f151443a1123a58c7c84d632f
+workflow-type: tm+mt
+source-wordcount: '450'
+ht-degree: 98%
 
 ---
 
@@ -30,7 +30,8 @@ ht-degree: 100%
    + [Hilfe und Anleitung](get-started/using-ai.md)
 + Nachrichten und Sendungen {#msg}
    + [Erste Schritte mit Nachrichten](msg/gs-messages.md)
-   + [Arbeiten mit Versandvorlagen](msg/delivery-template.md)
+   + [Mit Sendungen arbeiten](msg/gs-deliveries.md)
+   + [Verwenden von Versandvorlagen](msg/delivery-template.md)
    + E-Mails {#email}
       + [Erstellen Ihrer ersten E-Mail](email/create-email.md)
       + Erstellen der E-Mail-Inhalte {#content}
@@ -87,7 +88,7 @@ ht-degree: 100%
       + [Rendern Ihrer E-Mail](preview-test/email-rendering.md)
 + Zielgruppen und Empfängerinnen bzw. Empfänger {#audiences}
    + [Arbeiten mit Empfängerinnen bzw. Empfängern und Zielgruppen](audience/about-recipients.md)
-   + [Erstellen von Zielgruppen](audience/create-audience.md)
+   + [Zielgruppen erstellen](audience/create-audience.md)
    + Auswählen der Empfängerinnen und Empfänger des Versands {#target-audiences}
       + [Auswählen einer bestehenden Zielgruppe](audience/add-audience.md)
       + [Erstellen einer einmaligen Zielgruppe](audience/one-time-audience.md)
