@@ -5,8 +5,8 @@ description: Erfahren Sie, wie Sie die Workflow-Aktivität „Kombinieren“ ver
 badge: label="Beta"
 exl-id: 7e821678-e6a2-4613-b05e-6ccbe4df41c3
 source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
-workflow-type: ht
-source-wordcount: '886'
+workflow-type: tm+mt
+source-wordcount: '894'
 ht-degree: 100%
 
 ---
@@ -80,11 +80,11 @@ In der Aktivität **Kombinieren** können Sie eine **Schnittmenge** konfiguriere
 1. Wählen Sie den **Abstimmtyp**, um festzulegen, wie Duplikate behandelt werden. Siehe den Abschnitt [Vereinigung](#union).
 1. Sie können die Option **Komplement erzeugen** aktivieren, wenn Sie die verbleibende Population verarbeiten möchten. Das Komplement enthält die Vereinigung der Ergebnisse aller eingehenden Aktivitäten abzüglich der Schnittmenge. Der Aktivität wird daraufhin eine zusätzliche ausgehende Transition hinzugefügt.
 
-## Ausschluss {#combine-exclusion}
+## Ausschluss  {#combine-exclusion}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_exclusion_options"
->title="Ausschluss  Regeln"
+>title="Ausschlussregeln"
 >abstract="Bei Bedarf können die eingehenden Tabellen angepasst werden. Um eine Zielgruppe aus einer anderen Dimension auszuschließen, muss diese Zielgruppe tatsächlich auf dieselbe Zielgruppendimension wie die Hauptzielgruppe zurückgesetzt werden. Klicken Sie dazu im Abschnitt „Ausschlussregeln“ auf „Regel hinzufügen“ und geben Sie die Bedingungen für die Dimensionsänderung an. Die Datenabstimmung wird entweder über ein Attribut oder einen Join durchgeführt."
 
 >[!CONTEXTUALHELP]
@@ -94,7 +94,7 @@ In der Aktivität **Kombinieren** können Sie eine **Schnittmenge** konfiguriere
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_combine_exclusion"
->title="Ausschluss  Regeln"
+>title="Ausschlussregeln"
 >abstract="Bei Bedarf können die eingehenden Tabellen angepasst werden. Um eine Zielgruppe aus einer anderen Dimension auszuschließen, muss diese Zielgruppe tatsächlich auf dieselbe Zielgruppendimension wie die Hauptzielgruppe zurückgesetzt werden. Klicken Sie dazu im Abschnitt „Ausschlussregeln“ auf „Regel hinzufügen“ und geben Sie die Bedingungen für die Dimensionsänderung an. Die Datenabstimmung wird entweder über ein Attribut oder einen Join durchgeführt."
 
 

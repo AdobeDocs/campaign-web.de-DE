@@ -6,7 +6,7 @@ badge: label="Beta"
 exl-id: 4187b553-8de7-40f4-8f30-f62e43323862
 source-git-commit: dcd8dfe76a69305bb2aca4d2e94d447bea2668db
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '477'
 ht-degree: 100%
 
 ---
@@ -103,7 +103,7 @@ Der Graph und die Tabelle **[!UICONTROL Ausschlüsse]** zeigen die verschiedenen
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_throughput_push"
->title="Versanddurchsatz Bericht"
+>title="Bericht &quot;Versanddurchsatz&quot;"
 >abstract="Der Bericht „Versanddurchsatz“ enthält detaillierte Informationen zum Versanddurchsatz der gesamten Plattform innerhalb eines bestimmten Zeitraums."
 
 Der Bericht **Versanddurchsatz** enthält detaillierte Informationen zum Versanddurchsatz der gesamten Plattform innerhalb eines bestimmten Zeitraums. Die wichtigste Kennzahl, mit der die Geschwindigkeit des Nachrichtenversands gemessen wird, ist die Anzahl der pro Stunde gesendeten Nachrichten.

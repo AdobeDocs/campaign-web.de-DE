@@ -5,17 +5,17 @@ description: Erfahren Sie, wie Sie die Workflow-Aktivität „Verzweigung“ ver
 badge: label="Beta"
 exl-id: 5c7ff58b-5504-4b8e-879f-44754b7dcf8a
 source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '165'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
-# Verzweigung {#fork}
+# Verzweigung  {#fork}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_fork"
->title="Verzweigung  Aktivität"
+>title="Verzweigung"
 >abstract="Eine **Verzweigung** erzeugt ausgehende Transitionen, um mehrere Workflow-Aktivitäten parallel zu starten."
 
 

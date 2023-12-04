@@ -5,9 +5,9 @@ description: Erfahren Sie, wie Sie eine E-Mail mit der Web-Benutzeroberfläche v
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
 badge: label="Beta"
 source-git-commit: 1fef8cd125d2688c70997bb44681f0832277f7fd
-workflow-type: ht
-source-wordcount: '925'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '891'
+ht-degree: 99%
 
 ---
 
@@ -46,13 +46,13 @@ Die wichtigsten Schritte zur Versandvorbereitung sind unten aufgeführt.
    >[!NOTE]
    >Dies ist mit keinerlei Risiko verbunden, da in dieser Phase keine Nachrichten gesendet werden. Je nach Größe der Zielgruppe kann die Dauer der Versandvorbereitung variieren.
 
-1. Wenn die Vorbereitung abgeschlossen ist, überprüfen Sie die KPIs. Wenn die Anzahl zu sendender Nachrichten nicht Ihren Erwartungen entspricht, ändern Sie Ihre Audience und starten Sie die Vorbereitung erneut.
+1. Wenn die Vorbereitung abgeschlossen ist, überprüfen Sie die KPIs. Wenn die Anzahl zu sendender Nachrichten nicht Ihren Erwartungen entspricht, ändern Sie Ihre Zielgruppe und starten Sie die Vorbereitung erneut.
 
    ![](assets/email-preparation-complete.png)
 
    Im Folgenden werden die verschiedenen KPIs angezeigt:
 
-   * **[!UICONTROL Targeting]**: Anzahl der Zielgruppenempfänger.
+   * **[!UICONTROL Targeting]**: die Anzahl der Zielgruppenempfänger.
    * **[!UICONTROL Zu versenden]**: die Anzahl der zu sendenden Nachrichten.
    * **[!UICONTROL Auszuschließen]**[: Anzahl der Nachrichten, die durch eine Typologieregel ausgeschlossen werden](../advanced-settings/delivery-settings.md#typology).
 
