@@ -4,10 +4,10 @@ title: Erkunden der Benutzeroberfläche
 description: Web-Benutzeroberfläche von Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: e2b8fb6607fbcf1c347e8926a167296812945d4e
+source-git-commit: 24d62bab783e8a00b71d01e5bf44b206d52d6a4e
 workflow-type: tm+mt
-source-wordcount: '1475'
-ht-degree: 92%
+source-wordcount: '1503'
+ht-degree: 91%
 
 ---
 
@@ -204,6 +204,16 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >abstract="Empfänger – Benutzerdefinierte Felder"
 
 >[!CONTEXTUALHELP]
+>id="acw_recipients_creation_nolongercontact"
+>title="Empfänger nicht mehr kontaktieren"
+>abstract="Empfänger nicht mehr kontaktieren"
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_creation_othersfields"
+>title="Empfänger Sonstige"
+>abstract="Empfänger Sonstige"
+
+>[!CONTEXTUALHELP]
 >id="acw_recipients_creation_cardoverview"
 >title="Empfängerkarte – Übersicht"
 >abstract="Empfängerkarte – Übersicht"
@@ -233,6 +243,19 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Empfängerangebote – Vorschau"
 >abstract="Empfängerangebote – Vorschau"
 
+>[!CONTEXTUALHELP]
+>id="acw_recipients_readonlyprofile"
+>title="Empfänger schreibgeschützt Profil"
+>abstract="Empfänger schreibgeschützt Profil"
+
+
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_testprofiles_additionaldata"
+>title="Zusätzliche Daten zu Testprofilen"
+>abstract="Zusätzliche Daten zu Testprofilen"
 
 
 
