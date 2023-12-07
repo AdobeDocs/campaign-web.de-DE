@@ -4,10 +4,10 @@ title: Kampagnenberichte für den E-Mail-Kanal
 description: Weitere Informationen zu Kampagnenberichten für den E-Mail-Kanal
 badge: label="Beta"
 exl-id: c44c91f8-1f88-4087-8417-34be64a2ab19
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
-workflow-type: ht
-source-wordcount: '1568'
-ht-degree: 100%
+source-git-commit: 928af170b0f2de1d1d397a32bdd6c0d9c3621bce
+workflow-type: tm+mt
+source-wordcount: '1572'
+ht-degree: 86%
 
 ---
 
@@ -30,15 +30,15 @@ Der Bericht **[!UICONTROL Versandübersicht]** bietet wichtige Leistungsindikato
 
 +++Erfahren Sie mehr über die Metriken des E-Mail-Kampagnen-Berichts.
 
-* **[!UICONTROL Insgesamt gesendet]**: Gesamtzahl der während der Versandvorbereitung verarbeiteten Nachrichten.
+* **[!UICONTROL Zu sendende Nachrichten]**: Gesamtzahl der bei der Versandvorbereitung verarbeiteten Nachrichten.
 
 * **[!UICONTROL Zugestellt]**: Anzahl der erfolgreich gesendeten Nachrichten im Verhältnis zur Gesamtzahl der gesendeten Nachrichten.
 
 * **[!UICONTROL Bounces]**: Summe der Fehler, die beim Versand und bei der automatischen Rücksendung kumuliert wurden, bezogen auf die Gesamtzahl der gesendeten Nachrichten.
 
-* **[!UICONTROL Unterschiedliche Öffnungen (Unique Opens)]**: Gesamtzahl der Zielgruppenempfängerinnen und -empfänger, die mindestens einmal eine Nachricht geöffnet haben.
+* **[!UICONTROL Öffnungen insgesamt]**: Gesamtzahl der Zielgruppenempfänger, die mindestens einmal die betreffende Nachricht geöffnet haben.
 
-* **[!UICONTROL Unterschiedliche Klicks (Unique Clicks)]**: Gesamtzahl der unterschiedlichen Empfängerinnen und Empfänger, die einen Versand mindestens einmal angeklickt haben.
+* **[!UICONTROL Klicks gesamt]**: Gesamtzahl der unterschiedlichen Empfängerinnen und Empfänger, die einen Versand mindestens einmal angeklickt haben.
 
 +++
 
@@ -48,7 +48,6 @@ Der Bericht **[!UICONTROL Versandübersicht]** bietet wichtige Leistungsindikato
 >id="acw_campaign_reporting_deliveries_target"
 >title="Statistiken der ursprünglichen Zielgruppe"
 >abstract="Die Tabelle „Statistiken der ursprünglichen Zielgruppe“ zeigt Daten zu Ihren Empfängerinnen und Empfängern an"
-
 
 Die Tabelle **[!UICONTROL Statistiken der anfänglichen Zielgruppe]** zeigt Daten zu Ihren Empfängerinnen und Empfängern an. Metriken werden nachfolgend beschrieben.
 
@@ -65,7 +64,6 @@ Die Tabelle **[!UICONTROL Statistiken der anfänglichen Zielgruppe]** zeigt Date
 +++
 
 ### Ausführungsstatistiken {#delivery-summary-email-exec-stats}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_email_exec_stats"
@@ -88,7 +86,6 @@ Die Tabelle **[!UICONTROL Ausführungsstatistiken]** zeigt den Erfolg Ihres Vers
 
   Die E-Mail-Fehlertypen werden in der [Dokumentation zu Adobe Campaign v8 (Client-Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=de#email-error-types){target="_blank"} aufgelistet.
 
-
 +++
 
 ### Reaktionsstatistik {#delivery-summary-email-reaction-stats}
@@ -98,16 +95,15 @@ Die Tabelle **[!UICONTROL Ausführungsstatistiken]** zeigt den Erfolg Ihres Vers
 >title="Reaktionsstatistik"
 >abstract="Die Tabelle **Reaktionsstatistik** zeigt die verfügbaren Daten zur Empfängeraktivität Ihres Versands an: Anzahl der Öffnungen, Abonnements, Abmeldungen, Klicks auf Mirrorseiten-Link."
 
-
 Die Tabelle **[!UICONTROL Reaktionsstatistik]** enthält die verfügbaren Daten zur Empfängeraktivität für Ihren Versand. Metriken werden nachfolgend beschrieben.
 
 ![](assets/campaign_report_email_4.png)
 
 +++Erfahren Sie mehr über die Metriken des E-Mail-Kampagnen-Berichts.
 
-* **[!UICONTROL Unterschiedliche Öffnungen (Unique Opens)]**: Gesamtzahl der Zielgruppenempfängerinnen und -empfänger, die mindestens einmal eine Nachricht geöffnet haben.
+* **[!UICONTROL Einzelöffnungen]**: Gesamtzahl der Zielgruppenempfänger, die mindestens einmal die betreffende Nachricht geöffnet haben.
 
-* **[!UICONTROL Öffnungen]**: Anzahl der unterschiedlichen Zielgruppenempfängerinnen und -empfänger dieser Domain, die mindestens einmal eine Nachricht geöffnet haben.
+* **[!UICONTROL Öffnungen insgesamt]**: Anzahl unterschiedlicher Zielgruppenempfänger dieser Domain, die mindestens einmal die betreffende Nachricht geöffnet haben.
 
 * **[!UICONTROL Abmeldungen]**: Anzahl der Empfängerinnen und Empfänger, die in dem betreffenden Zeitraum auf Abmeldungen geklickt haben
 
@@ -129,9 +125,9 @@ Die Tabelle **[!UICONTROL Generierte Clickstreams]** zeigt Daten dazu an, wie Ih
 
 +++Erfahren Sie mehr über die Metriken des E-Mail-Kampagnen-Berichts.
 
-* **[!UICONTROL Unterschiedliche Klicks (Unique Clicks)]**: Gesamtzahl der unterschiedlichen Empfängerinnen und Empfänger, die einen Versand mindestens einmal angeklickt haben.
+* **[!UICONTROL Einzelklicks]**: Gesamtzahl der Unique Users, die mindestens einmal im betreffenden Versand geklickt haben.
 
-* **[!UICONTROL Klicks]**: Gesamtzahl der Klicks auf Links in Sendungen.
+* **[!UICONTROL Klicks insgesamt]**: Gesamtzahl der Klicks auf Links in Sendungen.
 
 * **[!UICONTROL Reaktionsrate]**: Verhältnis der Anzahl an Zielgruppenempfängerinnen und -empfängern, die auf einen Versand geklickt haben, in Bezug zur geschätzten Anzahl der Zielgruppenempfängerinnen und -empfänger, die einen Versand geöffnet haben.
 
@@ -140,7 +136,6 @@ Die Tabelle **[!UICONTROL Generierte Clickstreams]** zeigt Daten dazu an, wie Ih
 ## Unzustellbare Nachrichten {#non-deliverables-email}
 
 ### Aufschlüsselung der Fehler nach Typen {#delivery-summary-email-breakdown-per-type}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_error_type"
@@ -171,7 +166,6 @@ Die in diesem Bericht angezeigten Fehler lösen einen Quarantäneprozess aus. We
 
 +++
 
-
 ### Aufschlüsselung der Fehler nach Domain {#delivery-summary-email-breakdown-per-domain}
 
 >[!CONTEXTUALHELP]
@@ -179,14 +173,11 @@ Die in diesem Bericht angezeigten Fehler lösen einen Quarantäneprozess aus. We
 >title="Aufschlüsselung der Fehler nach Domain"
 >abstract="Die Tabelle und der Graph zur **Aufschlüsselung der Fehler nach Domain** enthalten die verfügbaren Daten für jeden Fehlertyp, der für die einzelnen Domains aufgetreten ist."
 
-
 Die Tabelle und der Graph zur **[!UICONTROL Aufschlüsselung der Fehler nach Domain]** enthalten die verfügbaren Daten für mögliche Fehler, die bei den einzelnen Domains aufgetreten sind. Die Metriken sind dieselben wie die der Tabelle und des Graphen **[!UICONTROL Aufschlüsselung der Fehler nach Typen]** weiter oben.
-
 
 ## Tracking-Indikatoren {#tracking-indicators-email}
 
 ### Versandstatistiken {#delivery-summary-email-statistics}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_campaign_delivery_statistics_summary"
@@ -199,11 +190,11 @@ Die Metriken der **[!UICONTROL Versandstatistiken]** bieten wichtige Leistungsin
 
 +++Erfahren Sie mehr über die Metriken des E-Mail-Kampagnen-Berichts.
 
-* **[!UICONTROL Erfolg]**: Anzahl der erfolgreich verarbeiteten Nachrichten im Verhältnis zur Anzahl der zu versendenden Nachrichten.
+* **[!UICONTROL Zu sendende(n) Nachricht(en)]**: Anzahl der erfolgreich verarbeiteten Nachrichten in Bezug auf die Anzahl der zu sendenden Nachrichten.
 
-* **[!UICONTROL Unterschiedliche Öffnungen (Unique Opens)]**: Gesamtzahl der Zielgruppenempfängerinnen und -empfänger, die mindestens einmal eine Nachricht geöffnet haben.
+* **[!UICONTROL Einzelöffnungen]**: Gesamtzahl der Zielgruppenempfänger, die mindestens einmal die betreffende Nachricht geöffnet haben.
 
-* **[!UICONTROL Öffnungen]**: Anzahl der unterschiedlichen Zielgruppenempfängerinnen und -empfänger dieser Domain, die mindestens einmal eine Nachricht geöffnet haben.
+* **[!UICONTROL Öffnungen insgesamt]**: Anzahl unterschiedlicher Zielgruppenempfänger dieser Domain, die mindestens einmal die betreffende Nachricht geöffnet haben.
 
 * **[!UICONTROL Klicks auf den Abmelde-Link]**: Anzahl der Klicks auf den Abmelde-Link.
 
@@ -214,29 +205,27 @@ Die Metriken der **[!UICONTROL Versandstatistiken]** bieten wichtige Leistungsin
 
 ### Öffnungs- und Clickthrough-Rate {#delivery-summary-open-rate}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_open_clickthrough"
 >title="Öffnungs- und Clickthrough-Rate"
 >abstract="Die Tabelle **Öffnungs- und Clickthrough-Rate** zeigt Daten bezüglich der Interaktionen Ihrer Empfängerinnen und Empfänger mit dem Versand an."
 
-
-
 Die Tabelle **[!UICONTROL Öffnungs- und Clickthrough-Rate]** zeigt Daten zu Ihren Empfängerinnen und Empfängern an. Metriken werden nachfolgend beschrieben.
 
 ![](assets/campaign_report_email_8.png)
 
-+++Erfahren Sie mehr über die Metriken des E-Mail-Kampagnen-Berichts.
++++ Weitere Informationen zu Berichtsmetriken für E-Mail-Kampagnen.
 
 * **[!UICONTROL Gesendet]**: Gesamtzahl der gesendeten Nachrichten.
 
-* **[!UICONTROL Beschwerden]**: Anzahl der Nachrichten für diese Domain, die von der Empfängerin oder vom Empfänger als unerwünscht gemeldet wurden.
+* **[!UICONTROL Beschwerden]**: Anzahl und Prozentsatz der Nachrichten für diese Domain, die vom Empfänger als unerwünscht gemeldet wurden.
 
-* **[!UICONTROL Öffnungen]**: Anzahl der unterschiedlichen Zielgruppenempfängerinnen und -empfänger dieser Domain, die mindestens einmal eine Nachricht geöffnet haben.
+* **[!UICONTROL Einzelöffnungen]**: Anzahl und Prozentsatz der unterschiedlichen Zielgruppenempfänger dieser Domain, die mindestens einmal die betreffende Nachricht geöffnet haben.
 
-* **[!UICONTROL Klicks]**: Anzahl der unterschiedlichen Zielgruppenempfängerinnen und -empfänger, die mindestens einmal in einem Versand geklickt haben.
+* **[!UICONTROL Einzelklicks]**: Anzahl und Prozentsatz der unterschiedlichen Zielgruppenempfänger, die mindestens einmal im betreffenden Versand geklickt haben.
 
 * **[!UICONTROL Brutto-Reaktionsrate]**: Prozentualer Anteil der Empfängerinnen und Empfänger, die mindestens einmal in einem Versand geklickt haben, in Bezug auf die Empfängerinnen und Empfänger, die mindestens einmal einen Versand geöffnet haben.
+
 +++
 
 ## URLs und Clickstreams {#url-email}
@@ -250,15 +239,16 @@ Der Bericht **[!UICONTROL URLs und Clickstreams]** bietet wichtige Leistungsindi
 
 ![](assets/campaign_report_email_9.png)
 
-+++Erfahren Sie mehr über die Metriken des E-Mail-Kampagnen-Berichts.
++++ Weitere Informationen zu Berichtsmetriken für E-Mail-Kampagnen.
 
 * **[!UICONTROL Reaktionsrate]**: Verhältnis der Anzahl an Zielgruppenempfängerinnen und -empfängern, die auf einen Versand geklickt haben, in Bezug zur geschätzten Anzahl der Zielgruppenempfängerinnen und -empfänger, die einen Versand geöffnet haben.
 
-* **[!UICONTROL Unterschiedliche Klicks (Unique Clicks)]**: Gesamtzahl der unterschiedlichen Empfängerinnen und Empfänger, die einen Versand mindestens einmal angeklickt haben.
+* **[!UICONTROL Einzelklicks]**: Gesamtzahl der unterschiedlichen Empfängerinnen und Empfänger, die einen Versand mindestens einmal angeklickt haben.
 
-* **[!UICONTROL Klicks]**: Gesamtzahl der Klicks auf Links in Sendungen.
+* **[!UICONTROL Klicks insgesamt]**: Gesamtzahl der Klicks auf Links in Sendungen.
 
 * **[!UICONTROL Plattform-Durchschnitt]**: Dieser unter jeder Rate (Reaktivität, Unique Clicks und Klicks insgesamt) angezeigte Wert bezieht sich auf die Gesamtheit der in den letzten sechs Monaten gesendeten Sendungen. Nur Sendungen, die dieselbe Typologie aufweisen und die auf demselben Kanal gesendet wurden, werden berücksichtigt. Testsendungen sind von der Statistik ausgenommen.
+
 +++
 
 ### Die 10 meistbesuchten Links {#top10-campaign-report-email}
@@ -267,7 +257,6 @@ Der Bericht **[!UICONTROL URLs und Clickstreams]** bietet wichtige Leistungsindi
 >id="acw_campaign_reporting_urls_clickstreams_top10"
 >title="Die 10 meistbesuchten Links"
 >abstract="Der Graph und die Tabelle zu den **10 meistbesuchten Links** enthalten die verfügbaren Daten zum Empfängerverhalten für die einzelnen Links."
-
 
 Der Graph und die Tabelle zu den **[!UICONTROL 10 meistbesuchten Links]** enthalten die verfügbaren Daten zum Empfängerverhalten für die einzelnen Links. Metriken werden nachfolgend beschrieben.
 
@@ -283,17 +272,14 @@ Der Graph und die Tabelle zu den **[!UICONTROL 10 meistbesuchten Links]** enthal
 
 ### Aufschlüsselung der Klicks im Zeitverlauf {#campaign-report-email-breakdown-clicks}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_delivery_campaign_urls_click_breakdown"
 >title="Aufschlüsselung der Klicks im Zeitverlauf"
->abstract="Der Graph zur **Aufschlüsselung der Klicks im Zeitverlauf** enthält die verfügbaren Daten zum Empfängerverhalten für die einzelnen Links."
+>abstract="Der Graph zur **Aufschlüsselung der Klicks im Zeitverlauf** zeigt die verfügbaren Daten zum Empfängerverhalten für jeden Link."
 
-
-Der Graph zur **[!UICONTROL Aufschlüsselung der Klicks im Zeitverlauf]** enthält die verfügbaren Daten zum Empfängerverhalten für die einzelnen Links.
+Der Graph zur **[!UICONTROL Aufschlüsselung der Klicks im Zeitverlauf]** enthält die verfügbaren Daten zum Empfängerverhalten für jeden Link.
 
 ![](assets/campaign_report_email_11.png)
-
 
 ## Benutzeraktivitäten {#user-activities-email}
 
