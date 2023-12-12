@@ -2,10 +2,10 @@
 audience: end-user
 title: Erstellen Sie Ihre erste Abfrage mithilfe des Abfragemodells
 description: Erfahren Sie, wie Sie Ihre erste Abfrage in Adobe Campaign Web Query Modeler erstellen.
-source-git-commit: 119b7a65cb39d3cdfb225a673ae6452d2a5359fc
+source-git-commit: a974221fa5b46ea9463c98724b1f49a7edb0adb7
 workflow-type: tm+mt
-source-wordcount: '1336'
-ht-degree: 13%
+source-wordcount: '1354'
+ht-degree: 15%
 
 ---
 
@@ -35,7 +35,12 @@ Filterkomponenten ermöglichen es Ihnen, Ihre Abfrage mithilfe von:
 * **Zielgruppen**: Filtern Sie Ihre Abfrage mit einer vorhandenen Zielgruppe.
 * **Vordefinierter Filter**: Filtern Sie Ihre Abfrage mit vorhandenen vordefinierten Filtern.
 
-### Benutzerdefinierte Bedingung erstellen
+### Benutzerdefinierte Bedingung konfigurieren
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_querymodeler_customcondition"
+>title="Benutzerdefinierte Bedingung"
+>abstract="Benutzerdefinierte Bedingung"
 
 Gehen Sie wie folgt vor, um Ihre Abfrage mit einer benutzerdefinierten Bedingung zu filtern:
 
@@ -96,6 +101,11 @@ aggregates: Define a calculation mode for the field to be added, such as an aggr
 
 ### Auswählen einer Zielgruppe
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_querymodeler_selectaudience"
+>title="Zielgruppe auswählen"
+>abstract="Zielgruppe auswählen"
+
 Gehen Sie wie folgt vor, um Ihre Abfrage nach einer existierenden Audience zu filtern:
 
 1. Klicken Sie auf die Schaltfläche + auf dem gewünschten Knoten und wählen Sie **[!UICONTROL Zielgruppe auswählen]**.
@@ -108,6 +118,11 @@ Gehen Sie wie folgt vor, um Ihre Abfrage nach einer existierenden Audience zu fi
 
 ### Verwenden eines vordefinierten Filters
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_querymodeler_predefinedfilter"
+>title="Vordefinierter Filter"
+>abstract="Vordefinierter Filter"
+
 Gehen Sie wie folgt vor, um Ihre Abfrage mithilfe eines vordefinierten Filters zu filtern:
 
 1. Klicken Sie auf die Schaltfläche + auf dem gewünschten Knoten und wählen Sie **[!UICONTROL Vordefinierter Filter]**.
@@ -119,6 +134,11 @@ Gehen Sie wie folgt vor, um Ihre Abfrage mithilfe eines vordefinierten Filters z
    ![](assets/query-predefined-filter.png)
 
 ## Kombinieren von Filterkomponenten mit Operatoren
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_querymodeler_group"
+>title="Gruppe"
+>abstract="Gruppe"
 
 Beim Hinzufügen einer Filterkomponente zu Ihrer Abfrage wird automatisch eine neue Transition auf der Arbeitsfläche der Abfrage erstellt und die neue Filterkomponente wird durch einen UND -Operator mit der ersten Komponente verknüpft. Dies bedeutet, dass die Ergebnisse aus beiden Filterkomponenten in den Abfrageergebnissen kombiniert werden.
 
@@ -137,6 +157,11 @@ Die verfügbaren Operatoren sind:
 * AUSSER (Ausschluss): Schließt Ergebnisse aus allen Filterkomponenten der ausgehenden Transition aus.
 
 ## Abfrage überprüfen und validieren
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_querymodeler_ruleproperties"
+>title="Eigenschaften der Regel"
+>abstract="Eigenschaften der Regel"
 
 Nachdem Sie Ihre Abfrage auf der Arbeitsfläche erstellt haben, können Sie sie über den Bereich Regeleigenschaften auf der rechten Seite überprüfen. Folgende Vorgänge sind verfügbar:
 

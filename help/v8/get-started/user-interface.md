@@ -4,9 +4,9 @@ title: Erkunden der Benutzeroberfläche
 description: Web-Benutzeroberfläche von Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: c5eaa8f5db6135c6d921258f7e047c1ff1cc975d
+source-git-commit: a974221fa5b46ea9463c98724b1f49a7edb0adb7
 workflow-type: tm+mt
-source-wordcount: '1521'
+source-wordcount: '1503'
 ht-degree: 91%
 
 ---
@@ -570,31 +570,3 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_orchestration_loadfile_formatting"
 >title="Aktivität &quot;Formatierung für Datei laden&quot;"
 >abstract="Aktivität &quot;Formatierung für Datei laden&quot;"
-
-
-
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_querymodeler_customcondition"
->title="Benutzerdefinierte Bedingung"
->abstract="Benutzerdefinierte Bedingung"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_querymodeler_ruleproperties"
->title="Eigenschaften der Regel"
->abstract="Eigenschaften der Regel"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_querymodeler_selectaudience"
->title="Zielgruppe auswählen"
->abstract="Zielgruppe auswählen"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_querymodeler_predefinedfilter"
->title="Vordefinierter Filter"
->abstract="Vordefinierter Filter"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_querymodeler_group"
->title="Gruppe"
->abstract="Gruppe"
