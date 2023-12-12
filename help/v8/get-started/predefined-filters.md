@@ -7,9 +7,9 @@ role: Data Engineer
 level: Beginner
 badge: label="Beta"
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: 119b7a65cb39d3cdfb225a673ae6452d2a5359fc
 workflow-type: tm+mt
-source-wordcount: '786'
+source-wordcount: '787'
 ht-degree: 100%
 
 ---
@@ -68,9 +68,7 @@ Sie können einen benutzerdefinierten Filter im Regel-Builder speichern, damit e
 
 Ihr benutzerdefinierter Filter ist jetzt in der Liste der **vordefinierten Filter** verfügbar und für alle Campaign-Benutzenden zugänglich.
 
-
 ### Erstellen eines Filters in der Filterliste {#create-filter-from-list}
-
 
 Sie können einen Filter im Eintrag **Vordefinierte Filter** im linken Menü erstellen. Gehen Sie dazu wie folgt vor:
 
@@ -86,7 +84,6 @@ Sie können einen Filter im Eintrag **Vordefinierte Filter** im linken Menü ers
 
 1. Speichern Sie Ihre Änderungen. Der Filter wird zur Liste der vordefinierten Filter hinzugefügt.
 
-
 ## Speichern des Filters als Favorit {#fav-filter}
 
 Bei der Erstellung eines vordefinierten Filters können Sie die Option **Als Favorit speichern** aktivieren, wenn Sie diesen vordefinierten Filter in Ihren Favoriten sehen möchten.
@@ -95,7 +92,6 @@ Bei der Erstellung eines vordefinierten Filters können Sie die Option **Als Fav
 Wenn ein Filter als Favorit gespeichert wird, steht er allen Benutzenden im Abschnitt **Favoritenfilter** der Filtererstellungsliste zur Verfügung, wie unten dargestellt:
 
 ![](assets/predefined-filters-favorite.png){width="30%" align="left"}
-
 
 ## Verwenden eines vordefinierten Filters {#use-predefined-filter}
 
