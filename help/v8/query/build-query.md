@@ -2,32 +2,34 @@
 audience: end-user
 title: Erstellen Sie Ihre erste Abfrage mithilfe des Abfragemodells
 description: Erfahren Sie, wie Sie Ihre erste Abfrage in Adobe Campaign Web Query Modeler erstellen.
-source-git-commit: a974221fa5b46ea9463c98724b1f49a7edb0adb7
+source-git-commit: cc909bdf7507e66e000297440e31f9b5260f1257
 workflow-type: tm+mt
-source-wordcount: '1354'
+source-wordcount: '1319'
 ht-degree: 15%
 
 ---
 
 # Erste Abfrage erstellen {#build-query}
 
-Um mit der Erstellung einer Abfrage zu beginnen, greifen Sie je nach gewünschter Aktion vom gewünschten Speicherort auf das Abfragemodell zu. Das Abfragemodell wird mit einer leeren Arbeitsfläche geöffnet. Klicken Sie auf die Schaltfläche + , um den ersten Knoten Ihrer Abfrage hinzuzufügen.
-
-![](assets/query-add-component.png)
+Um mit der Erstellung einer Abfrage zu beginnen, greifen Sie je nach gewünschter Aktion vom gewünschten Speicherort auf das Abfragemodell zu. Das Abfragemodell wird mit einer leeren Arbeitsfläche geöffnet. Klicken Sie auf **+** -Schaltfläche, um den ersten Knoten Ihrer Abfrage zu konfigurieren.
 
 Sie können zwei Elementtypen hinzufügen:
 
-* Filterkomponenten (benutzerdefinierte Bedingung, Zielgruppe auswählen, vordefinierter Filter) ermöglichen es Ihnen, eigene Regeln zu erstellen, eine Zielgruppe auszuwählen oder einen vordefinierten Filter zu wählen, um Ihre Abfrage zu verfeinern.
+* **Komponenten filtern** (Benutzerdefinierte Bedingung, Zielgruppe auswählen, vordefinierter Filter) ermöglichen es Ihnen, eigene Regeln zu erstellen, eine Zielgruppe oder einen vordefinierten Filter auszuwählen, um Ihre Abfrage zu verfeinern. [Erfahren Sie, wie Sie mit Filterkomponenten arbeiten](#filtering)
 
-  Beispiel *Empfänger, die den Newsletter &quot;Sport&quot;abonniert haben*. *Empfänger mit Wohnsitz in New York*, *Empfänger mit Wohnsitz in San Francisco*
+  Beispiel:
 
-* Mit Gruppenoperatoren (AND, OR, EXCEPT) können Sie Filterkomponenten im Diagramm nach Bedarf gruppieren.
+  *Empfänger, die den Newsletter &quot;Sport&quot;abonniert haben*. *Empfänger mit Wohnsitz in New York*, *Empfänger mit Wohnsitz in San Francisco*
 
-  Beispiel: *Empfänger, die den Newsletter &quot;Sport&quot;abonniert haben **UND**die in New York leben **ODER**San Francisco*.
+* **Gruppenoperatoren** (AND, OR, EXCEPT) ermöglichen es Ihnen, die Filterkomponenten im Diagramm nach Ihren Bedürfnissen zu gruppieren. [Erfahren Sie, wie Sie mit Operatoren arbeiten.](#filtering)
 
-Im Folgenden finden Sie detaillierte Schritte zum Hinzufügen und Kombinieren von Filterkomponenten und Gruppenoperatoren.
+  Beispiel:
 
-## Hinzufügen von Filterkomponenten
+  *Empfänger, die den Newsletter &quot;Sport&quot;abonniert haben **UND**die in New York leben **ODER**San Francisco*.
+
+![](assets/query-add-component.png)
+
+## Hinzufügen von Filterkomponenten {#filtering}
 
 Filterkomponenten ermöglichen es Ihnen, Ihre Abfrage mithilfe von:
 
@@ -44,10 +46,9 @@ Filterkomponenten ermöglichen es Ihnen, Ihre Abfrage mithilfe von:
 
 Gehen Sie wie folgt vor, um Ihre Abfrage mit einer benutzerdefinierten Bedingung zu filtern:
 
-1. Klicken Sie auf die Schaltfläche + auf dem gewünschten Knoten und wählen Sie **[!UICONTROL Benutzerdefinierte Bedingung]**.
-1. Der Bereich mit den benutzerdefinierten Bedingungseigenschaften wird auf der rechten Seite geöffnet. Wählen Sie im Feld Attribut das Attribut aus der Datenbank aus, das Sie zum Erstellen Ihrer Bedingung verwenden möchten.
+1. Klicken Sie auf **+** auf dem gewünschten Knoten klicken und **[!UICONTROL Benutzerdefinierte Bedingung]**. Der Bereich mit den benutzerdefinierten Bedingungseigenschaften wird auf der rechten Seite geöffnet.
 
-   Die verfügbaren Attribute stellen alle Felder aus Ihrer Campaign-Datenbank dar, einschließlich der Felder aus Tabellen, die mit der Empfängertabelle verknüpft sind.
+1. Im **Attribut** -Feld das Attribut aus der Datenbank auswählen, das Sie zum Erstellen Ihrer Bedingung verwenden möchten. Die Attributliste enthält alle Attribute aus Ihrer Campaign-Datenbank, einschließlich der mit Ihrer Tabelle verknüpften Attribute.
 
    ![](assets/query-custom-condition-fields.png)
 
@@ -55,13 +56,9 @@ Gehen Sie wie folgt vor, um Ihre Abfrage mit einer benutzerdefinierten Bedingung
    >
    >Die Schaltfläche Ausdruck bearbeiten ermöglicht die Verwendung des Ausdruckseditors für Campaign-Webausdrücke, um mithilfe von Feldern aus der Datenbank und Hilfsfunktionen einen Ausdruck manuell zu definieren.
 
-1. Wählen Sie in der Dropdown-Liste den anzuwendenden Operator aus.
+1. Wählen Sie in der Dropdown-Liste den anzuwendenden Operator aus. Es stehen verschiedene Operatoren zur Verfügung. Beachten Sie, dass die in der Dropdown-Liste verfügbaren Operatoren vom Datentyp des ausgewählten Attributs abhängen.
 
    ++ + Liste der verfügbaren Operatoren
-
-   >[!NOTE]
-   >
-   >Die verfügbaren Operatoren in der Dropdown-Liste hängen vom Datentyp des ausgewählten Attributs ab.
 
    | Operator | Zweck | Beispiel |
    |  ---  |  ---  |  ---  |
@@ -84,20 +81,11 @@ Gehen Sie wie folgt vor, um Ihre Abfrage mit einer benutzerdefinierten Bedingung
 
 +++
 
-1. Wählen Sie im Feld Wert den erwarteten Wert aus.
+1. Im **Wert** -Feld den erwarteten Wert festlegen. Sie können auch den Campaign-Web-Ausdruckseditor verwenden, um einen Ausdruck manuell mithilfe von Feldern aus der Datenbank und Hilfsfunktionen zu definieren. Klicken Sie dazu auf die Schaltfläche **Ausdruck bearbeiten** Schaltfläche.
 
-   Sie können auch den Campaign-Web-Ausdruckseditor verwenden, um einen Ausdruck manuell mithilfe von Feldern aus der Datenbank und Hilfsfunktionen zu definieren. Klicken Sie dazu auf die Schaltfläche Ausdruck bearbeiten .
-
-   *Beispiel: Abfrage, die alle Profile im Alter von 21 Jahren oder älter zurückgibt*
+   *Abfragebeispiel, in dem alle Profile im Alter von 21 Jahren oder älter zurückgegeben werden:*
 
    ![](assets/query-custom-condition.png)
-
-<!--
-querying linked tables
-collect additional information on the targeted population, e.g. contract numbers, subscriptions to newsletters or origin.
-Select the type of data you want to add. This can be data belonging to the filtering dimension or data stored in linked tables. Select the table which contains the information you want to collect and click Next.
-
-aggregates: Define a calculation mode for the field to be added, such as an aggregate for example.-->
 
 ### Auswählen einer Zielgruppe
 
@@ -108,11 +96,11 @@ aggregates: Define a calculation mode for the field to be added, such as an aggr
 
 Gehen Sie wie folgt vor, um Ihre Abfrage nach einer existierenden Audience zu filtern:
 
-1. Klicken Sie auf die Schaltfläche + auf dem gewünschten Knoten und wählen Sie **[!UICONTROL Zielgruppe auswählen]**.
+1. Klicken Sie auf **+** Schaltfläche auf dem gewünschten Knoten und wählen Sie **[!UICONTROL Zielgruppe auswählen]**.
 
-1. Der Bereich Zielgruppeneigenschaften auswählen wird auf der rechten Seite geöffnet. Wählen Sie die Zielgruppe aus, die zum Filtern Ihrer Abfrage verwendet werden soll.
+1. Die **Zielgruppe auswählen** Eigenschaftenfenster wird auf der rechten Seite geöffnet. Wählen Sie die Zielgruppe aus, die Sie zum Filtern Ihrer Abfrage verwenden möchten.
 
-   *Beispiel: Abfrage, die alle Profile der Audience &quot;Festival Goers&quot; zurückgibt*
+   *Abfragebeispiel, in dem alle Profile der Audience &quot;Festival Goers&quot;zurückgegeben werden:*
 
    ![](assets/query-audience.png)
 
@@ -125,36 +113,36 @@ Gehen Sie wie folgt vor, um Ihre Abfrage nach einer existierenden Audience zu fi
 
 Gehen Sie wie folgt vor, um Ihre Abfrage mithilfe eines vordefinierten Filters zu filtern:
 
-1. Klicken Sie auf die Schaltfläche + auf dem gewünschten Knoten und wählen Sie **[!UICONTROL Vordefinierter Filter]**.
+1. Klicken Sie auf **+** auf dem gewünschten Knoten klicken und **[!UICONTROL Vordefinierter Filter]**.
 
-1. Der Bereich Zielgruppeneigenschaften auswählen wird auf der rechten Seite geöffnet. Wählen Sie einen vordefinierten Filter aus der Liste der benutzerdefinierten Filter oder aus Favoriten aus.
+1. Die **Vordefinierter Filter** Eigenschaftenfenster wird auf der rechten Seite geöffnet. Wählen Sie einen vordefinierten Filter aus der Liste der benutzerdefinierten Filter oder aus Favoriten aus.
 
-   *Beispiel: Abfrage, die alle Profile zurückgibt, die dem vordefinierten Filter &quot;Inaktive Kunden&quot;entsprechen.*
+   *Abfragebeispiel, das alle Profile zurückgibt, die dem vordefinierten Filter &quot;Inaktive Kunden&quot;entsprechen:*
 
    ![](assets/query-predefined-filter.png)
 
-## Kombinieren von Filterkomponenten mit Operatoren
+## Kombinieren von Filterkomponenten mit Operatoren {#operators}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_group"
 >title="Gruppe"
 >abstract="Gruppe"
 
-Beim Hinzufügen einer Filterkomponente zu Ihrer Abfrage wird automatisch eine neue Transition auf der Arbeitsfläche der Abfrage erstellt und die neue Filterkomponente wird durch einen UND -Operator mit der ersten Komponente verknüpft. Dies bedeutet, dass die Ergebnisse aus beiden Filterkomponenten in den Abfrageergebnissen kombiniert werden.
+Jedes Mal, wenn Sie Ihrer Abfrage eine neue Filterkomponente hinzufügen, wird diese von einem AND-Operator automatisch mit der anderen Komponente verknüpft. Dies bedeutet, dass die Ergebnisse aus beiden Filterkomponenten in den Abfrageergebnissen kombiniert werden.
 
-In diesem Beispiel wird der Arbeitsfläche eine neue Filterkomponente vom Typ Zielgruppe hinzugefügt. Sie wird automatisch bei einer neuen Transition hinzugefügt und mit der vordefinierten Filtertypbedingung mit einem AND -Operator verknüpft. In diesem Fall enthalten die Abfrageergebnisse die Empfänger, die dem vordefinierten Filter &quot;Madrider&quot; UND der Audience &quot;Rabattjäger&quot; angehören.
+In diesem Beispiel haben wir für die zweite Transition eine neue Filterkomponente vom Typ Zielgruppe hinzugefügt. Die Komponente ist mit der vordefinierten Filtertypbedingung mit einem AND -Operator verknüpft, d. h. die Abfrageergebnisse enthalten Empfänger, die auf den vordefinierten Filter &quot;Madrider&quot; UND der Audience &quot;Rabattjäger&quot; ausgerichtet sind.
 
 ![](assets/query-operator.png)
 
-Um den Operator zu ändern, der für die Verknüpfung der Filterbedingungen verwendet wird, klicken Sie darauf und wählen Sie den gewünschten Operator im Feld Den Operator können Sie ändern, indem Sie darauf klicken und im rechts geöffneten Gruppenbereich den gewünschten Operator auswählen.
-
-![](assets/query-operator-change.png)
+Um den Operator zu ändern, der für die Verknüpfung der Filterbedingungen verwendet wird, klicken Sie darauf und wählen Sie den gewünschten Operator im rechten Bereich Gruppieren aus.
 
 Die verfügbaren Operatoren sind:
 
-* AND (Schnittmenge): kombiniert Ergebnisse aus allen Filterkomponenten der ausgehenden Transitionen.
-* ODER (Vereinigung): enthält Ergebnisse aus mindestens einer der Filterkomponenten in den ausgehenden Transitionen.
-* AUSSER (Ausschluss): Schließt Ergebnisse aus allen Filterkomponenten der ausgehenden Transition aus.
+* **AND (Schnittmenge)**: Kombiniert Ergebnisse aus allen Filterkomponenten in den ausgehenden Transitionen.
+* **ODER (Vereinigung)**: Umfasst Ergebnisse aus mindestens einer der Filterkomponenten in die ausgehenden Transitionen.
+* **AUSSER (Ausschluss)**: Schließt Ergebnisse aus allen Filterkomponenten in der ausgehenden Transition aus.
+
+![](assets/query-operator-change.png)
 
 ## Abfrage überprüfen und validieren
 
@@ -163,11 +151,11 @@ Die verfügbaren Operatoren sind:
 >title="Eigenschaften der Regel"
 >abstract="Eigenschaften der Regel"
 
-Nachdem Sie Ihre Abfrage auf der Arbeitsfläche erstellt haben, können Sie sie über den Bereich Regeleigenschaften auf der rechten Seite überprüfen. Folgende Vorgänge sind verfügbar:
+Nachdem Sie Ihre Abfrage auf der Arbeitsfläche erstellt haben, können Sie sie mit der **Regeleigenschaften** Bereich auf der rechten Seite. Verfügbare Vorgänge sind:
 
-* **Ergebnisse anzeigen:** zeigt die aus Ihrer Abfrage resultierenden Daten an.
-* **Codeansicht**: zeigt eine code-basierte Version der Abfrage in SQL an.
-* **berechnen**: aktualisiert die Anzahl der Datensätze und zeigt sie an, auf die die Abfrage zutrifft.
+* **Ergebnisse anzeigen:** Zeigt die aus Ihrer Abfrage resultierenden Daten an.
+* **Codeansicht**: Zeigt eine code-basierte Version der Abfrage in SQL an.
+* **berechnen**: Aktualisiert und zeigt die Anzahl der Datensätze an, auf die Ihre Abfrage zutrifft.
 * **Filter auswählen oder speichern**: Wählen Sie einen vorhandenen vordefinierten Filter aus, der auf der Arbeitsfläche verwendet werden soll, oder speichern Sie Ihre Abfrage als vordefinierten Filter, um sie später erneut zu verwenden. [Erfahren Sie, wie Sie mit vordefinierten Filtern arbeiten](../get-started/predefined-filters.md)
 
   >[!IMPORTANT]
