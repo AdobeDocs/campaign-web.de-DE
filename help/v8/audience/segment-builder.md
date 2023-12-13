@@ -1,54 +1,94 @@
 ---
 audience: end-user
-title: Verwenden einer Adobe Experience Platform-Zielgruppe
-description: Erfahren Sie, wie Sie eine Zielgruppe aus Adobe Experience Platform verwenden
+title: Erstellen einer Zielgruppe mit dem Campaign-Regel-Builder
+description: Erfahren Sie, wie Sie mit dem Regel-Builder arbeiten
+exl-id: 167ad4ce-3760-413c-9949-9649245766e3
 badge: label="Beta"
-exl-id: beb73107-3d27-40ac-afef-ac2b66ae8d34
-source-git-commit: cbf1021c722aeff5f7ce384a29467576d5f83ab2
+source-git-commit: 6425ad62b3176e07516bf61473cc1a76fdfe7a7e
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '612'
 ht-degree: 100%
 
 ---
 
-# Verwenden einer Adobe Experience Platform-Zielgruppe{#aep-audience}
+# Arbeiten mit dem Regel-Builder {#segment-builder}
 
-Die Ziel- und Quell-Connectoren für Adobe Campaign Managed Cloud Service ermöglichen eine nahtlose Integration zwischen Adobe Campaign und Adobe Experience Platform.
+>[!CONTEXTUALHELP]
+>id="acw_homepage_card5"
+>title="Zielgruppen"
+>abstract="Das Aufbauen einer Zielgruppe für einen Versand war nie einfacher! Mit unserem aktuellen Regel-Builder können Sie jetzt Filterkriterien für Empfängerinnen und Empfänger oder eine andere Zielgruppendimension von der Datenbank aus definieren. Machen Sie sich Ihre Adobe Experience Platform-Zielgruppe zunutze, um Ihre Zielgruppe weiter zu präzisieren und die Wirkung Ihrer Kampagne zu maximieren."
 
-Nachdem Sie eine Adobe Experience Platform-Zielgruppe erstellt haben und sie in der Client-Konsole verfügbar ist, können Sie diese wie eine Campaign-Zielgruppe verwenden, um Nachrichten zu personalisieren und zu senden.
+Mit dem Regel-Builder können Sie die Population definieren, die mit Ihrem Versand angesprochen werden soll, indem Sie in der Datenbank enthaltene Daten filtern. Sie können damit eine Zielgruppe aus einem Workflow erstellen, indem Sie die Aktivität **[!UICONTROL Zielgruppe erstellen]** verwenden, oder beim Erstellen eines Versands eine Zielgruppe direkt als einmalige Zielgruppe erstellen.
 
->[!NOTE]
->
->Um Adobe Experience Platform-Zielgruppen in Campaign verwenden zu können, müssen Sie die Integration mit Adobe-Quellen und -Zielen konfigurieren. Weitere Informationen finden Sie in der [Dokumentation zu Campaign v8 (Client-Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html?lang=de){target="_blank"}.
+* [Erfahren Sie, wie Sie eine Zielgruppe auswählen](create-audience.md)
+* [Erfahren Sie, wie Sie eine einmalige Zielgruppe für einen Versand erstellen.](one-time-audience.md)
 
-Zur Auswahl der Zielgruppe eines Versands haben Sie außerdem folgende Möglichkeiten:
+## Die Palette
 
-* Erstellen Sie eine neue Zielgruppe. [Weitere Informationen](segment-builder.md)
-* Laden Sie eine Zielgruppe aus einer externen Datei. [Weitere Informationen](file-audience.md)
-* Verwenden Sie eine vorhandene Campaign-Zielgruppe. [Weitere Informationen](add-audience.md).
+Die Palette auf der linken Seite enthält alle Elemente, nach denen Sie filtern können, um Ihre Zielgruppe zu erstellen. Sie können die Suchleiste verwenden, um Elemente schnell zu finden. Die in der Palette enthaltenen Kacheln müssen in die mittlere Arbeitsfläche verschoben werden, damit sie konfiguriert und berücksichtigt werden können.
 
-Gehen Sie wie folgt vor, um eine Adobe Experience Platform-Zielgruppe für Ihren Versand auszuwählen:
+![](assets/segment-builder2.png){width="70%" align="left"}
 
-1. Klicken Sie im Abschnitt **Zielgruppe** des Assistenten zur Versanderstellung auf die Schaltfläche **[!UICONTROL Zielgruppe auswählen]**.
+Die Palette ist in zwei Registerkarten unterteilt:
 
-   ![](assets/create-audience.png)
+* **Attribute**: Auf dieser Registerkarte können Sie auf alle verfügbaren Felder des Schemas zugreifen. Die Liste der Felder hängt von dem in der E-Mail-Vorlage definierten Zielgruppenbestimmungsschema ab.
 
-1. Klicken Sie auf **[!UICONTROL Zielgruppe auswählen]**, um eine bestehende Zielgruppe zu verwenden. Um eine neue Zielgruppe zu erstellen, die in dieser E-Mail verwendet werden soll, wählen Sie **Eigene erstellen**. Näheres dazu finden Sie in [diesem Abschnitt](segment-builder.md).
+* **Zielgruppen**: Auf dieser Registerkarte können Sie über einen Filter eine der vorhandenen Zielgruppen auswählen, die in der Campaign Classic-Konsole oder in Adobe Experience Platform definiert sind. [Erfahren Sie, wie Sie Zielgruppen überwachen und verwalten](manage-audience.md)
 
-   Dieser Bildschirm zeigt alle bestehenden Zielgruppen an, die in der Adobe Campaign Client-Konsole für den aktuellen Ordner definiert sind. Um eine Zielgruppe aus Adobe Experience Platform auszuwählen, navigieren Sie im Filterabschnitt des Bildschirms zum `AEP Audiences folder`.
+  >[!NOTE]
+  >
+  >Um Adobe Experience Platform-Zielgruppen zu nutzen, müssen Sie die Integration mit Zielen konfigurieren. Weitere Informationen finden Sie in der Dokumentation zu [Adobe Experience Platform-Zielen](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=de){target="_blank"}.
 
-   ![](assets/select-audience-folder.png)
+## Die Arbeitsfläche
 
-   Sie können auch eine Regel definieren, um nach der Herkunft der Zielgruppen zu filtern, wie unten dargestellt:
+Die Arbeitsfläche ist der zentrale Bereich des Bildschirms, in dem Sie die Regeln basierend auf den aus der Palette hier abgelegten Elementen konfigurieren und kombinieren können. Um eine neue Regel hinzuzufügen, ziehen Sie eine Kachel aus der Palette auf die Arbeitsfläche. Je nach Art der hinzuzufügenden Daten werden Ihnen dann kontextspezifische Optionen angezeigt.
 
-   ![](assets/filter-on-aep-audience.png)
+![](assets/segment-builder4.png){width="70%" align="left"}
 
-1. Wählen Sie eine Zielgruppe aus und klicken Sie auf **Auswählen**.
+## Der Bereich mit den Regeleigenschaften
 
-1. Klicken Sie auf **Regeln bearbeiten**, wenn Sie Ihre Zielgruppe einschränken möchten.
+Auf der rechten Seite können Sie im Bereich **Regeleigenschaften** die folgenden Aktionen ausführen.
 
-   ![](assets/refine-audience.png)
+![](assets/segment-builder5.png){width="70%" align="left"}
 
-1. Mit dem Regel-Builder können Sie Ihre Zielgruppe mit zusätzlichen Filtern oder durch die Kombination verschiedener Zielgruppen anreichern. Weitere Informationen finden Sie in [diesem Abschnitt](segment-builder.md).
+* **Ergebnisse anzeigen:** zeigt die Liste der von der Zielgruppe angesprochenen Empfänger an.
+* **Code-Ansicht**: Zeigt eine Code-basierte Version der Zielgruppe in SQL an.
+* **Erweiterte Attribute anzeigen**: Aktivieren Sie diese Option, wenn Sie die vollständige Liste der Attribute in der linken Palette anzeigen möchten: Knoten, Gruppierungen, 1:1-Links, 1:n-Links.
+* **Berechnen**: Aktualisiert und zeigt die Anzahl der Profile an, die von Ihrer Abfrage angesprochen werden.
+* **Filter auswählen oder speichern**: Verwenden Sie einen vordefinierten Filter, um Ihre Abfrage zu filtern, oder speichern Sie Ihre Abfrage als neuen Filter, um sie später erneut zu verwenden. [Erfahren Sie, wie Sie mit vordefinierten Filtern arbeiten](../get-started/predefined-filters.md)
 
-1. Klicken Sie auf **Speichern**.
+  >[!IMPORTANT]
+  >
+  >In dieser Produktversion sind einige vordefinierte Filter nicht in der Benutzeroberfläche verfügbar. Sie können sie dennoch verwenden. [Weitere Informationen](../get-started/guardrails.md#predefined-filters-filters-guardrails-limitations)
+
+* **Attribute**: zeigt eine Beschreibung der erstellten Zielgruppe an.
+
+## Beispiel
+
+In diesem Beispiel erstellen wir eine Zielgruppe für alle Kunden und Kundinnen, die in Atlanta oder Seattle leben und nach 1980 geboren wurden.
+
+1. Suchen Sie in der Registerkarte **Attribute** der Palette nach dem Feld **Geburtsdatum**. Ziehen Sie die Kachel und legen Sie sie auf der Arbeitsfläche ab.
+
+   ![](assets/segment-builder6.png)
+
+1. Wählen Sie auf der Arbeitsfläche den Operator **Nach** und geben Sie das gewünschte Datum ein.
+
+   ![](assets/segment-builder7.png)
+
+1. Suchen Sie in der Palette nach dem Feld **Ort** und fügen Sie es unterhalb der ersten Regel zur Arbeitsfläche hinzu.
+
+   ![](assets/segment-builder8.png)
+
+1. Geben Sie im Textfeld den Vornamen des Ortes ein und drücken Sie dann die Eingabetaste.
+
+   ![](assets/segment-builder9.png)
+
+1. Wiederholen Sie diese Aktion für den zweiten Stadtnamen.
+
+   ![](assets/segment-builder10.png)
+
+1. Klicken Sie auf **Ergebnisse anzeigen**, um die Liste und die Anzahl der Empfangenen anzuzeigen, die der Abfrage entsprechen. Sie können auch Spalten hinzufügen, um die Daten zu visualisieren und zu überprüfen. Fügen Sie für unser Beispiel die Spalte **Stadt** hinzu. Atlanta und Seattle sollten hier zu sehen sein.
+
+   ![](assets/segment-builder11.png)
+
+1. Klicken Sie auf **Bestätigen**.
