@@ -1,24 +1,27 @@
 ---
 audience: end-user
-title: Arbeiten mit dem Abfragemodell
+title: Mit dem Abfrage-Modeler arbeiten
 description: Erfahren Sie, wie Sie mit dem Adobe Campaign-Webabfragenmodell arbeiten.
-source-git-commit: 9262db778deb20bcb1b1e4496bbd55e551a5769f
+source-git-commit: c60b1c99b520b862b4dc0ee2ea63053dcd38104d
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 0%
+source-wordcount: '240'
+ht-degree: 4%
 
 ---
 
-# Arbeiten mit dem Abfragemodell {#segment-builder}
+# Mit dem Abfrage-Modeler arbeiten {#segment-builder}
 
-## Übersicht über Query Modeler {#overview}
+Adobe Campaign Web verfügt über einen Abfragemodellierer, der den Prozess der Filterung von Datenbanken vereinfacht, um spezifische Ziele auf der Grundlage verschiedener Kriterien auszuwählen. Dies schließt die Verwendung erweiterter Ausdrücke und Operatoren ein.
 
-Adobe Campaign Web verfügt über einen Abfragemodellierer, der den Prozess der Filterung von Datenbanken vereinfacht, um spezifische Ziele auf der Grundlage verschiedener Kriterien auszuwählen. Dies schließt die Verwendung erweiterter Ausdrücke und Operatoren ein. Das Abfragemodell ist nahtlos in die Benutzeroberfläche integriert, sodass Sie auf einfache Weise Filtervorgänge durchführen und Regeln erstellen können:
+## Zugriff auf das Abfragemodell {#access}
 
-* Zielgruppen definieren: Geben Sie die Population an, die Sie in Ihren Nachrichten oder Workflows ansprechen möchten, und erstellen Sie mühelos neue Zielgruppen, die auf Ihre Anforderungen zugeschnitten sind.
-* Workflow-Aktivitäten anpassen: Wenden Sie Regeln innerhalb von Workflow-Aktivitäten wie Aufspaltung und Abstimmung an, um sie an Ihre spezifischen Anforderungen anzupassen.
-* Inhalt dynamisch gestalten: Erstellen Sie Bedingungen, die festlegen, welche Inhalte verschiedenen Empfängern angezeigt werden sollen, und stellen Sie so personalisierte und relevante Nachrichten sicher.
-* Vordefinierte Filter: Erstellen Sie vordefinierte Filter, die bei verschiedenen Filtervorgängen als Kurzbefehle dienen, unabhängig davon, ob Sie mit Datenlisten arbeiten oder die Audience für einen Versand bilden.
+Der Abfragemodellierer ist in jedem Kontext verfügbar, in dem Sie Regeln zum Filtern von Daten definieren müssen.
+
+* **Zielgruppen definieren**: Geben Sie die Population an, die Sie in Ihren Nachrichten oder Workflows ansprechen möchten, und erstellen Sie mühelos neue Zielgruppen, die auf Ihre Anforderungen zugeschnitten sind.
+* **Workflow-Aktivitäten anpassen**: Regeln innerhalb von Workflow-Aktivitäten wie Aufspaltung und Abstimmung anwenden, um Ihre spezifischen Anforderungen zu erfüllen,
+* **Inhalt dynamisch**: Dynamik des Inhalts durch Erstellung von Bedingungen, die festlegen, welche Inhalte verschiedenen Empfängern angezeigt werden sollen, und die Sicherstellung personalisierter und relevanter Nachrichten.
+* **Vordefinierte Filter**: Erstellen Sie vordefinierte Filter, die bei verschiedenen Filtervorgängen als Kurzbefehle dienen, unabhängig davon, ob Sie mit Datenlisten arbeiten oder die Audience für einen Versand bilden.
+* **Berichtsdaten filtern**: Fügen Sie eine Regel hinzu, um die in Berichten angezeigten Daten zu filtern.
 
 ## Benutzeroberfläche des Abfragemodells {#interface}
 
