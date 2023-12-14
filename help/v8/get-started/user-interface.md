@@ -4,9 +4,9 @@ title: Erkunden der Benutzeroberfläche
 description: Web-Benutzeroberfläche von Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: a974221fa5b46ea9463c98724b1f49a7edb0adb7
+source-git-commit: e239f86570014a56519f0e221cd04113ed4618d6
 workflow-type: tm+mt
-source-wordcount: '1503'
+source-wordcount: '1545'
 ht-degree: 91%
 
 ---
@@ -378,7 +378,10 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Inhaltsvorlage – Auswahl"
 >abstract="Inhaltsvorlage – Auswahl"
 
-
+>[!CONTEXTUALHELP]
+>id="acw_contenttemplate_edition"
+>title="Bearbeitung von Inhaltsvorlagen"
+>abstract="Bearbeitung von Inhaltsvorlagen"
 
 
 
@@ -570,3 +573,11 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_orchestration_loadfile_formatting"
 >title="Aktivität &quot;Formatierung für Datei laden&quot;"
 >abstract="Aktivität &quot;Formatierung für Datei laden&quot;"
+
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_querymodeler_querymessage"
+>title="Abfrage-Modeler"
+>abstract="Filterkriterien für Empfängerinnen und Empfänger oder jede andere Zielgruppendimension aus der Datenbank definieren. Vorteile der Adobe Experience Platform-Zielgruppe nutzen, um die Zielgruppe weiter zu verfeinern und die Wirkung der Kampagne zu maximieren."
