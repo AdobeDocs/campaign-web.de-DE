@@ -2,10 +2,10 @@
 audience: end-user
 title: Erstellen Sie Ihre erste Abfrage mithilfe des Abfragemodells
 description: Erfahren Sie, wie Sie Ihre erste Abfrage in Adobe Campaign Web Query Modeler erstellen.
-source-git-commit: e78122b0788c04c39eac27231272cb96ad019bdc
+source-git-commit: e620df0ff9af0d32fc353a904e3dde37501495d0
 workflow-type: tm+mt
-source-wordcount: '927'
-ht-degree: 85%
+source-wordcount: '922'
+ht-degree: 80%
 
 ---
 
@@ -20,7 +20,7 @@ Diese Vorgänge sind über die Schaltfläche Ausdruck bearbeiten des Abfragemode
 Der Ausdruckseditor bietet Folgendes:
 
 * Eingabefeld, in dem der Ausdruck erstellt wird;
-* Liste der verfügbaren Felder, die im Ausdruck verwendet werden können und die der Zielgruppendimension der Abfrage entsprechen (siehe auch [Zielgruppendimensionen und Ressourcen](../../automating/using/query.md#targeting-dimensions-and-resources)).
+* Liste der verfügbaren Felder, die im Ausdruck verwendet werden können und der Zielgruppendimension der Abfrage entsprechen.
 * Liste der verfügbaren Funktionen mit verschiedenen Unterkategorien.
 
 Bearbeiten Sie den Ausdruck, indem Sie ihn direkt in das Eingabefeld eingeben oder die Liste der verfügbaren Felder und Funktionen verwenden. Platzieren Sie dazu den Cursor in den Ausdruck, an dem Sie das Element hinzufügen möchten, und doppelklicken Sie auf das gewünschte Feld oder den gewünschten Ausdruck.
@@ -36,7 +36,7 @@ Standardausdrücke bestehen aus einer oder mehreren Bedingungen, die die folgend
 * Jede Bedingung hat die Form **&lt;Wert 1> &lt;Vergleichsoperator> &lt;Wert 2>**, wobei
 
    * **&lt;Wert 1>** ein Feld oder eine Funktion ist. Das Feld **@created** z. B. steht für das Erstellungsdatum eines Profils, die Funktion **Year(@created)** gibt das Jahr der Erstellung eines Profils aus.
-   * **&lt;Vergleichsoperator>** ist einer der im Abschnitt [Vergleichsoperatoren](../../automating/using/advanced-expression-editing.md#comparison-operators) aufgelisteten Operatoren. Der Operator definiert die Art des Vergleichs zwischen **&lt;Wert 1>** und **&lt;Wert 2>**.
+   * **&lt;comparison operator=&quot;&quot;>** ist einer der im Abschnitt Vergleichsoperatoren aufgelisteten Operatoren. Der Operator definiert die Art des Vergleichs zwischen **&lt;Wert 1>** und **&lt;Wert 2>**.
    * **&lt;Wert 2>** ein Feld, eine Funktion oder ein manuell angegebener Wert ist.
 
   >[!NOTE]
@@ -65,7 +65,7 @@ JavaScript-Ausdrücke bestehen aus einer oder mehreren Bedingungen, die die folg
 * Jede Bedingung hat die Form **&lt;Kontext> &lt;Vergleichsoperator> &lt;Wert 2>**, wobei
 
    * **&lt;Kontext>** einem Feld oder einer Funktion entspricht, die es ermöglichen, den Kontext anzugeben. Beispiel **context.profile.@email** steht für die E-Mail-Adresse eines Profils und **context.profile.firstName.length()** für die Anzahl an Zeichen des Vornamens eines Profils.
-   * **&lt;Vergleichsoperator>** ist einer der im Abschnitt [Vergleichsoperatoren](../../automating/using/advanced-expression-editing.md#comparison-operators) aufgelisteten Operatoren. Der Operator definiert die Art des Vergleichs zwischen **&lt;Kontext>** und **&lt;Wert 2>**.
+   * **&lt;comparison operator=&quot;&quot;>** ist einer der im Abschnitt Vergleichsoperatoren aufgelisteten Operatoren. Der Operator definiert die Art des Vergleichs zwischen **&lt;Kontext>** und **&lt;Wert 2>**.
    * **&lt;Wert 2>** ein Feld, eine Funktion oder ein manuell angegebener Wert ist.
 
   >[!NOTE]
