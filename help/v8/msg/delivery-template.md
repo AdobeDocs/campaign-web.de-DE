@@ -6,10 +6,10 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
-source-git-commit: 2c0f2135752a873f151443a1123a58c7c84d632f
+source-git-commit: 54f91769daff0a6043a345ee44ccd84229336c36
 workflow-type: tm+mt
-source-wordcount: '1045'
-ht-degree: 91%
+source-wordcount: '1068'
+ht-degree: 92%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 91%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_for_campaign"
 >title="Versandvorlagen"
->abstract="Verwenden Sie Versandvorlagen, um das kreative Erscheinungsbild zu standardisieren und so Kampagnen schneller ausführen und starten zu können"
+>abstract="Um den Design-Prozess zu beschleunigen und zu verbessern, können Sie Versandvorlagen erstellen, um benutzerdefinierte Inhalte und Einstellungen in Ihren Kampagnen einfach wiederzuverwenden. Diese Funktion ermöglicht es Ihnen, das kreative Look-and-Feel zu standardisieren, um Kampagnen schneller durchführen und starten zu können."
 
 Um den Design-Prozess zu beschleunigen und zu verbessern, können Sie Versandvorlagen erstellen, um benutzerdefinierte Inhalte und Einstellungen in Ihren Kampagnen einfach wiederzuverwenden. Diese Funktion ermöglicht es Ihnen, das kreative Look-and-Feel zu standardisieren, um Kampagnen schneller durchführen und starten zu können.
 
@@ -79,6 +79,7 @@ Zum Löschen oder [Duplizieren](#copy-an-existing-template) eine Vorlage, wähle
 ## Erstellen einer Versandvorlage {#create-a-delivery-template}
 
 Um eine Versandvorlage zu erstellen, haben Sie folgende Möglichkeiten:
+
 * Duplizieren einer vorhandenen Vorlage: [Weitere Infos](#copy-an-existing-template)
 * Konvertieren eines bestehenden Versands in eine Vorlage: [Weitere Infos](#convert-an-existing-delivery)
 * Erstellen einer neuen Versandvorlage: [Weitere Infos](#create-a-new-template)

@@ -4,10 +4,10 @@ title: Erstellen eines Push-Benachrichtigungs-Versands
 description: Erfahren Sie, wie Sie einen Push-Benachrichtigungs-Versand mit Adobe Campaign Web erstellen
 badge: label="Beta"
 exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
-source-git-commit: dc42d01fa33de79ebee92910d6d236449d749fd5
+source-git-commit: 54f91769daff0a6043a345ee44ccd84229336c36
 workflow-type: tm+mt
-source-wordcount: '1317'
-ht-degree: 98%
+source-wordcount: '1484'
+ht-degree: 87%
 
 ---
 
@@ -16,12 +16,12 @@ ht-degree: 98%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_android_content"
 >title="Pushen von Android-Inhalten"
->abstract="Definieren Sie den Push-Inhalt für Android."
+>abstract="Definieren Sie den Inhalt Ihrer Push-Benachrichtigung für Android-Geräte. Um Ihre Nachricht zu verfassen, klicken Sie auf die Felder **Titel** und **Nachricht**. Verwenden Sie den Ausdruckseditor, um Daten zu personalisieren und dynamische Inhalte hinzuzufügen. Um Ihre Push-Benachrichtigung weiter zu personalisieren, können Sie ein Bild auswählen, das zu Ihrer Push-Benachrichtigung hinzugefügt werden soll, das auf den Geräten Ihrer Profile angezeigte Benachrichtigungssymbol und die Farbe auswählen. Weitere benutzerdefinierte Konfigurationen finden Sie unter **Erweiterte Einstellungen** Abschnitt."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_ios_content"
 >title="Pushen von iOS-Inhalten"
->abstract="Definieren Sie den Push-Inhalt für iOS."
+>abstract="Definieren Sie den Inhalt Ihrer Push-Benachrichtigung für iOS-Geräte. Um Ihre Nachricht zu verfassen, klicken Sie auf die Felder **Titel** und **Nachricht**. Verwenden Sie den Ausdruckseditor, um Daten zu personalisieren und dynamische Inhalte hinzuzufügen. Weitere benutzerdefinierte Konfigurationen finden Sie unter **Erweiterte Einstellungen** Abschnitt."
 
 ## Festlegen des Inhalts der Benachrichtigung {#push-message}
 
@@ -35,7 +35,7 @@ ht-degree: 98%
 >title="Stille Benachrichtigung für iOS"
 >abstract="Im Modus „Stilles Pushen“ kann eine „stille“ Benachrichtigung an eine Mobile App gesendet werden. Dem Benutzer wird das Eintreffen der Benachrichtigung nicht mitgeteilt. Sie wird direkt an die Mobile App übertragen."
 
-
+Nach der Erstellung Ihres Push-Versands können Sie dessen Inhalt definieren. Parameter und Einstellungen hängen vom mobilen Betriebssystem ab: Android oder iOS. Auf den folgenden Registerkarten erfahren Sie, wie Sie Ihre Nachricht für jedes Betriebssystem erstellen.
 
 >[!BEGINTABS]
 
@@ -113,6 +113,7 @@ Im Modus „Stilles Pushen“ kann eine „stille“ Benachrichtigung an eine Mo
 >title="Kategoriekennung"
 >abstract="Geben Sie den Namen der Kategorie-ID an, die mit der Benachrichtigung verknüpft ist. Dies ermöglicht die Anzeige von Aktionsschaltflächen, mit denen Sie direkt über die Benachrichtigung verschiedene Aufgaben ausführen können, ohne die Anwendung zu öffnen."
 
+Erweiterte Optionen hängen vom mobilen Betriebssystem ab: Android oder iOS. Auf den folgenden Registerkarten erfahren Sie, wie Sie Optionen für Ihre Nachricht für jedes Betriebssystem definieren.
 
 >[!BEGINTABS]
 
