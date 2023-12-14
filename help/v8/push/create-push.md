@@ -4,10 +4,10 @@ title: Erstellen eines Push-Benachrichtigungs-Versands
 description: Erfahren Sie, wie Sie mit Adobe Campaign Web einen Versand für eine Push-Benachrichtigung erstellen
 badge: label="Beta"
 exl-id: 49a3c05c-5806-4269-a98d-915eee216f90
-source-git-commit: 54f91769daff0a6043a345ee44ccd84229336c36
+source-git-commit: 057a6b360093bc314aed6d6b0d84bfba7af3f464
 workflow-type: tm+mt
-source-wordcount: '621'
-ht-degree: 40%
+source-wordcount: '638'
+ht-degree: 39%
 
 ---
 
@@ -43,7 +43,7 @@ Gehen Sie wie folgt vor, um einen eigenständigen Push-Versand zu erstellen:
 
 Konfigurieren Sie Ihre Versandeinstellungen wie unten beschrieben:
 
-1. Geben Sie einen **[!UICONTROL Titel]** für den Versand
+1. Geben Sie einen **[!UICONTROL Titel]** für den Versand. Standardmäßig wird der Titel mit dem Titel der ausgewählten Vorlage festgelegt. Sie sollte aktualisiert werden.
 
 1. Durchsuchen Sie die **[!UICONTROL Zusätzliche Optionen]** -Dropdown, um bei Bedarf die Optionen anzupassen.
 
