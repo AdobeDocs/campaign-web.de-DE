@@ -4,10 +4,10 @@ title: Erstellen eines Push-Benachrichtigungs-Versands
 description: Erfahren Sie, wie Sie einen Push-Benachrichtigungs-Versand mit Adobe Campaign Web erstellen
 badge: label="Beta"
 exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
-source-git-commit: 54f91769daff0a6043a345ee44ccd84229336c36
+source-git-commit: 70307edb288e9ce14aeb00870a2438aa92b74e1e
 workflow-type: tm+mt
-source-wordcount: '1484'
-ht-degree: 87%
+source-wordcount: '1605'
+ht-degree: 80%
 
 ---
 
@@ -28,7 +28,15 @@ ht-degree: 87%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_ios_msg"
 >title="Push-Nachricht für iOS"
->abstract="Legen Sie den Titel und den Inhalt Ihrer Push-Nachricht für iOS fest. Verwenden Sie den Personalisierungsdialog, um Inhalte zu personalisieren und Bedingungen hinzuzufügen."
+>abstract="Definieren Sie den Inhalt Ihrer Push-Benachrichtigung für iOS-Geräte. Um Ihre Nachricht zu verfassen, klicken Sie auf die Felder **Titel** und **Nachricht**. Verwenden Sie den Ausdruckseditor, um Daten zu personalisieren und dynamische Inhalte hinzuzufügen. Weitere benutzerdefinierte Konfigurationen finden Sie unter **Erweiterte Einstellungen** Abschnitt."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_android_msg"
+>title="Push-Nachricht für iOS"
+>abstract="Definieren Sie den Inhalt Ihrer Push-Benachrichtigung für Android-Geräte. Um Ihre Nachricht zu verfassen, klicken Sie auf die Felder **Titel** und **Nachricht**. Verwenden Sie den Ausdruckseditor, um Daten zu personalisieren und dynamische Inhalte hinzuzufügen. Um Ihre Push-Benachrichtigung weiter zu personalisieren, können Sie ein Bild auswählen, das zu Ihrer Push-Benachrichtigung hinzugefügt werden soll, das auf den Geräten Ihrer Profile angezeigte Benachrichtigungssymbol und die Farbe auswählen. Weitere benutzerdefinierte Konfigurationen finden Sie unter **Erweiterte Einstellungen** Abschnitt."
+
+
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_ios_silent"
@@ -87,7 +95,7 @@ Im Modus „Stilles Pushen“ kann eine „stille“ Benachrichtigung an eine Mo
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_count"
->title="Badge-Nummer"
+>title="Anzahl der Benachrichtigungen"
 >abstract="Verwenden Sie diese Option, damit die Zahl der neuen, ungelesenen Informationen direkt auf dem Symbol der App angezeigt wird. Dadurch können die Benutzenden die Anzahl der ausstehenden Benachrichtigungen schnell sehen."
 
 
@@ -139,7 +147,7 @@ Erweiterte Optionen hängen vom mobilen Betriebssystem ab: Android oder iOS. Auf
 
 | Parameter | Beschreibung |
 |---------|---------|
-| **[!UICONTROL Kritischer Alarmmodus]** | Aktivieren Sie diese Option, um Ihrer Benachrichtigung einen Ton hinzuzufügen, selbst wenn das Handy der Person auf den Fokusmodus festgelegt oder das Gerät stummgeschaltet ist. Dadurch wird sichergestellt, dass wichtige Warnhinweise wahrgenommen werden. |
+| **[!UICONTROL Kritischer Alarmmodus]** | Aktivieren Sie diese Option, um Ihrer Benachrichtigung einen Ton hinzuzufügen, selbst wenn das Handy der Person auf den Fokusmodus festgelegt oder das Gerät stummgeschaltet ist. Dadurch wird sichergestellt, dass wichtige Warnhinweise vom Benutzer wahrgenommen werden. Wenn diese Option aktiviert ist, können Sie das Volumen der Benachrichtigung über die Leiste Lautstärke anpassen. Eine Zahl zwischen 0 und 100 über der Leiste spiegelt Ihre Einstellungen wider. |
 | **[!UICONTROL Badge entfernen]** | Aktivieren Sie diese Option, um den auf dem Anwendungssymbol angezeigten Badge-Wert zu aktualisieren. Dadurch wird sichergestellt, dass das Badge die Anzahl der neuen ungelesenen Informationen genau wiedergibt. |
 | **[!UICONTROL Anzahl der Benachrichtigungen]** | Damit wird eine Zahl festgelegt, die direkt auf dem App-Symbol angezeigt wird und die Anzahl der neuen, ungelesenen Informationen angibt. Dies bietet eine schnelle visuelle Referenz für die Benutzenden. |
 | **[!UICONTROL Lautstärke]** | Lautstärke Ihres Tons auf einer Skala von 0 bis 100. |
