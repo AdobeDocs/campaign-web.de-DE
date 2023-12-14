@@ -4,10 +4,10 @@ title: Erstellen eines Push-Benachrichtigungs-Versands
 description: Erfahren Sie, wie Sie einen Push-Benachrichtigungs-Versand mit Adobe Campaign Web erstellen
 badge: label="Beta"
 exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
-source-git-commit: 70307edb288e9ce14aeb00870a2438aa92b74e1e
+source-git-commit: 77742622a185a5105757a6823ed2c3169acd30b7
 workflow-type: tm+mt
-source-wordcount: '1605'
-ht-degree: 80%
+source-wordcount: '1534'
+ht-degree: 83%
 
 ---
 
@@ -16,12 +16,12 @@ ht-degree: 80%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_android_content"
 >title="Pushen von Android-Inhalten"
->abstract="Definieren Sie den Inhalt Ihrer Push-Benachrichtigung für Android-Geräte. Um Ihre Nachricht zu verfassen, klicken Sie auf die Felder **Titel** und **Nachricht**. Verwenden Sie den Ausdruckseditor, um Daten zu personalisieren und dynamische Inhalte hinzuzufügen. Um Ihre Push-Benachrichtigung weiter zu personalisieren, können Sie ein Bild auswählen, das zu Ihrer Push-Benachrichtigung hinzugefügt werden soll, das auf den Geräten Ihrer Profile angezeigte Benachrichtigungssymbol und die Farbe auswählen. Weitere benutzerdefinierte Konfigurationen finden Sie unter **Erweiterte Einstellungen** Abschnitt."
+>abstract="Definieren Sie den Inhalt Ihrer Push-Benachrichtigung für Android-Geräte. Um Ihre Nachricht zu erstellen, klicken Sie auf die Schaltfläche **Inhalt bearbeiten** Schaltfläche."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_ios_content"
 >title="Pushen von iOS-Inhalten"
->abstract="Definieren Sie den Inhalt Ihrer Push-Benachrichtigung für iOS-Geräte. Um Ihre Nachricht zu verfassen, klicken Sie auf die Felder **Titel** und **Nachricht**. Verwenden Sie den Ausdruckseditor, um Daten zu personalisieren und dynamische Inhalte hinzuzufügen. Weitere benutzerdefinierte Konfigurationen finden Sie unter **Erweiterte Einstellungen** Abschnitt."
+>abstract="Definieren Sie den Inhalt Ihrer Push-Benachrichtigung für iOS-Geräte. Um Ihre Nachricht zu erstellen, klicken Sie auf die Schaltfläche **Inhalt bearbeiten** Schaltfläche."
 
 ## Festlegen des Inhalts der Benachrichtigung {#push-message}
 

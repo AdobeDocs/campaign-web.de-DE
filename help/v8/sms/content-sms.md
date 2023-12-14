@@ -4,10 +4,10 @@ title: Entwerfen eines SMS-Versands
 description: Erfahren Sie, wie Sie einen SMS-Versand entwerfen.
 badge: label="Beta"
 exl-id: 54288448-d568-4be4-ab6c-d0f8fa7bc2cb
-source-git-commit: 969401ab1258eb60697d16b3dc0470620abd346d
+source-git-commit: 77742622a185a5105757a6823ed2c3169acd30b7
 workflow-type: tm+mt
-source-wordcount: '175'
-ht-degree: 100%
+source-wordcount: '185'
+ht-degree: 84%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_content"
 >title="SMS-Inhalte"
->abstract="Erstellen Sie die Inhalte Ihrer SMS-Sendungen und personalisieren Sie sie mit Personalisierungsfeldern, Inhaltsbausteinen und dynamischen Inhalten."
+>abstract="Erstellen Sie den Inhalt Ihrer SMS-Sendungen und personalisieren Sie ihn mit Personalisierungsfeldern, Inhaltsbausteinen und dynamischen Inhalten. Um Ihre Nachricht zu erstellen, klicken Sie auf die Schaltfläche **Inhalt bearbeiten** Schaltfläche."
 
 
 
