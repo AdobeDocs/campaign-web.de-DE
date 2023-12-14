@@ -2,10 +2,10 @@
 audience: end-user
 title: Erstellen Sie Ihre erste Abfrage mithilfe des Abfragemodells
 description: Erfahren Sie, wie Sie Ihre erste Abfrage in Adobe Campaign Web Query Modeler erstellen.
-source-git-commit: cc909bdf7507e66e000297440e31f9b5260f1257
+source-git-commit: e78122b0788c04c39eac27231272cb96ad019bdc
 workflow-type: tm+mt
-source-wordcount: '1319'
-ht-degree: 15%
+source-wordcount: '1462'
+ht-degree: 14%
 
 ---
 
@@ -56,7 +56,7 @@ Gehen Sie wie folgt vor, um Ihre Abfrage mit einer benutzerdefinierten Bedingung
    >
    >Die Schaltfläche Ausdruck bearbeiten ermöglicht die Verwendung des Ausdruckseditors für Campaign-Webausdrücke, um mithilfe von Feldern aus der Datenbank und Hilfsfunktionen einen Ausdruck manuell zu definieren.
 
-1. Wählen Sie in der Dropdown-Liste den anzuwendenden Operator aus. Es stehen verschiedene Operatoren zur Verfügung. Beachten Sie, dass die in der Dropdown-Liste verfügbaren Operatoren vom Datentyp des ausgewählten Attributs abhängen.
+1. Wählen Sie in der Dropdown-Liste den anzuwendenden Operator aus. Es stehen verschiedene Operatoren zur Verfügung. Beachten Sie, dass die in der Dropdown-Liste verfügbaren Operatoren vom Datentyp des Attributs abhängen.
 
    ++ + Liste der verfügbaren Operatoren
 
@@ -86,6 +86,32 @@ Gehen Sie wie folgt vor, um Ihre Abfrage mit einer benutzerdefinierten Bedingung
    *Abfragebeispiel, in dem alle Profile im Alter von 21 Jahren oder älter zurückgegeben werden:*
 
    ![](assets/query-custom-condition.png)
+
+**Benutzerdefinierte Bedingungen für entfernte Tabellen (1-1- und 1-N-Links)**
+
+Benutzerdefinierte Bedingungen ermöglichen die Abfrage entfernter, mit der Empfängertabelle verknüpfter Tabellen.
+
+Für **1-1-Link** mit einer anderen Datenbank-Ressource verwenden, wählen Sie den Wert direkt aus der Zieltabelle aus.
+
++++Abfragebeispiel
+
+Im vorliegenden Beispiel zielt die Abfrage auf Empfänger ab, deren Land oder Region in den angegebenen Werten enthalten ist (UK und wir).
+
+![](assets/custom-condition-1-1.png)
+
++++
+
+Für **1-N-Link** mit einer anderen Datenbank-Ressource verwenden, können Sie Unterbedingungen für die Felder dieser zweiten Ressource definieren.
+
+Sie können beispielsweise den Operator Existiert für die Profilkäufe auswählen, um alle Profile auszuwählen, für die Käufe getätigt wurden. Fügen Sie anschließend eine benutzerdefinierte Bedingung für die ausgehende Transition hinzu und erstellen Sie einen Filter, der Ihren Anforderungen entspricht.
+
++++Abfragebeispiel
+
+In unserem Beispiel zielt die Abfrage auf Empfänger ab, die im Zusammenhang mit dem BrewMaster-Produkt Einkäufe getätigt haben, und zwar für einen Gesamtbetrag von mindestens 100$.
+
+![](assets/custom-condition-1-N.png)
+
++++
 
 ### Auswählen einer Zielgruppe
 
@@ -138,9 +164,9 @@ Um den Operator zu ändern, der für die Verknüpfung der Filterbedingungen verw
 
 Die verfügbaren Operatoren sind:
 
-* **AND (Schnittmenge)**: Kombiniert Ergebnisse aus allen Filterkomponenten in den ausgehenden Transitionen.
-* **ODER (Vereinigung)**: Umfasst Ergebnisse aus mindestens einer der Filterkomponenten in die ausgehenden Transitionen.
-* **AUSSER (Ausschluss)**: Schließt Ergebnisse aus allen Filterkomponenten in der ausgehenden Transition aus.
+* **AND (Schnittmenge)**: Kombiniert Ergebnisse, die allen Filterkomponenten in den ausgehenden Transitionen entsprechen.
+* **ODER (Vereinigung)**: Umfasst Ergebnisse, die mindestens einer der Filterkomponenten in den ausgehenden Transitionen entsprechen.
+* **AUSSER (Ausschluss)**: Schließt Ergebnisse aus, die allen Filterkomponenten in der ausgehenden Transition entsprechen.
 
 ![](assets/query-operator-change.png)
 

@@ -2,14 +2,20 @@
 audience: end-user
 title: Mit dem Abfrage-Modeler arbeiten
 description: Erfahren Sie, wie Sie mit dem Adobe Campaign-Webabfragenmodell arbeiten.
-source-git-commit: c60b1c99b520b862b4dc0ee2ea63053dcd38104d
+source-git-commit: e78122b0788c04c39eac27231272cb96ad019bdc
 workflow-type: tm+mt
-source-wordcount: '240'
-ht-degree: 4%
+source-wordcount: '276'
+ht-degree: 16%
 
 ---
 
 # Mit dem Abfrage-Modeler arbeiten {#segment-builder}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_querymodeler_querymessage"
+>title="Abfrage-Modeler"
+>abstract="Filterkriterien für Empfängerinnen und Empfänger oder jede andere Zielgruppendimension aus der Datenbank definieren. Vorteile der Adobe Experience Platform-Zielgruppe nutzen, um die Zielgruppe weiter zu verfeinern und die Wirkung der Kampagne zu maximieren."
 
 Adobe Campaign Web verfügt über einen Abfragemodellierer, der den Prozess der Filterung von Datenbanken vereinfacht, um spezifische Ziele auf der Grundlage verschiedener Kriterien auszuwählen. Dies schließt die Verwendung erweiterter Ausdrücke und Operatoren ein.
 
