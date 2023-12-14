@@ -4,10 +4,10 @@ title: Entwerfen eines SMS-Versands
 description: Erfahren Sie, wie Sie einen SMS-Versand entwerfen.
 badge: label="Beta"
 exl-id: 54288448-d568-4be4-ab6c-d0f8fa7bc2cb
-source-git-commit: 77742622a185a5105757a6823ed2c3169acd30b7
+source-git-commit: 4ea25f0877fd3f0ab02f3023f041bd040e0530a3
 workflow-type: tm+mt
-source-wordcount: '185'
-ht-degree: 84%
+source-wordcount: '244'
+ht-degree: 64%
 
 ---
 
@@ -18,6 +18,12 @@ ht-degree: 84%
 >title="SMS-Inhalte"
 >abstract="Erstellen Sie den Inhalt Ihrer SMS-Sendungen und personalisieren Sie ihn mit Personalisierungsfeldern, Inhaltsbausteinen und dynamischen Inhalten. Um Ihre Nachricht zu erstellen, klicken Sie auf die Schaltfläche **Inhalt bearbeiten** Schaltfläche."
 
+
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_sms_msg"
+>title="SMS-Nachrichteninhalt"
+>abstract="Definieren Sie den Inhalt Ihrer SMS. Um Ihre Nachricht zu erstellen, klicken Sie auf die Schaltfläche **Nachricht** und geben Sie den Nachrichteninhalt ein. Verwenden Sie den Ausdruckseditor, um personalisierte Daten und dynamische Inhalte hinzuzufügen. Sie können auch den Absendernamen anpassen. Standardmäßig ist das Tracking für alle SMS-Sendungen aktiviert, damit Sie messen können, wann Empfänger auf Links klicken."
 
 
 Gehen Sie wie folgt vor, um den Inhalt eines SMS-Versands zu erstellen:

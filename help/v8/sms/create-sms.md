@@ -4,10 +4,10 @@ title: Erstellen eines SMS-Versands
 description: Erfahren Sie, wie Sie SMS mit Adobe Campaign Web erstellen und senden
 badge: label="Beta"
 exl-id: 54181498-8164-4600-8b3f-20892b77d5d7
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
-workflow-type: ht
-source-wordcount: '386'
-ht-degree: 100%
+source-git-commit: 4ea25f0877fd3f0ab02f3023f041bd040e0530a3
+workflow-type: tm+mt
+source-wordcount: '479'
+ht-degree: 64%
 
 ---
 
@@ -21,12 +21,15 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_audience"
 >title="Definieren der SMS-Zielgruppe"
->abstract="Wählen Sie die beste Zielgruppe für Ihre SMS-Nachricht aus."
+>abstract="Sie können eine neue Zielgruppe erstellen oder eine bestehende auswählen, indem Sie auf die **Zielgruppe auswählen** Schaltfläche. Fügen Sie bei Bedarf eine Kontrollgruppe hinzu, um die Wirkung Ihres Versands zu messen."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html?lang=de" text="Festlegen einer Kontrollgruppe"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_template_selection"
 >title="Auswahl von SMS-Vorlagen"
->abstract="Wählen Sie eine vordefinierte Vorlage aus, um Ihren SMS-Versand zu starten."
+>abstract="Wählen Sie eine vordefinierte Vorlage aus, um Ihren SMS-Versand zu starten. Versandvorlagen ermöglichen die einfache Wiederverwendung benutzerdefinierter Inhalte und Einstellungen in allen Kampagnen und Sendungen."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html" text="Verwenden von Versandvorlagen"
+
 
 Sie können einen eigenständigen SMS-Versand erstellen oder eine SMS im Kontext eines Kampagnen-Workflows erstellen. Die folgenden Schritte beschreiben die Vorgehensweise für einen eigenständigen (einmaligen) SMS-Versand. Wenn Sie im Kontext eines Kampagnen-Workflows arbeiten, finden Sie in [diesem Abschnitt](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow) detaillierte Schritte, um einen solchen Versand zu erstellen.
 
@@ -35,13 +38,13 @@ Gehen Sie wie folgt vor, um einen eigenständigen SMS-Versand zu erstellen:
 
 1. Gehen Sie zum Menü **[!UICONTROL Sendungen]** in der linken Leiste, und klicken Sie auf die Schaltfläche **[!UICONTROL Versand erstellen]**.
 
-1. Wählen Sie im Abschnitt **[!UICONTROL Kanal]** als Kanal SMS aus und wählen Sie eine Vorlage aus. [Weitere Informationen zu Vorlagen](../msg/delivery-template.md)
+1. Unter dem **[!UICONTROL Kanal]** wählen Sie den Kanal SMS und eine Vorlage aus. [Weitere Informationen zu Vorlagen](../msg/delivery-template.md)
 
 1. Klicken Sie zur Bestätigung auf **[!UICONTROL Versand erstellen]**.
 
    ![](assets/sms_create_1.png)
 
-1. Geben Sie eine **[!UICONTROL Kennzeichnung]** für den Versand ein und greifen Sie auf die Dropdown-Liste **[!UICONTROL Zusätzliche Optionen]** zu.
+1. Geben Sie einen **[!UICONTROL Titel]** für den Versand und Zugriff auf die **[!UICONTROL Zusätzliche Optionen]** angezeigt. Wenn Ihr Versand auf einem erweiterten Schema basiert, muss **Benutzerdefinierte Optionen** verfügbar sind.
 
    +++Konfigurieren Sie die folgenden Einstellungen entsprechend Ihren Anforderungen.
    * **[!UICONTROL Interner Name]**: Weisen Sie dem Versand eine eindeutige Kennung zu.
@@ -51,11 +54,15 @@ Gehen Sie wie folgt vor, um einen eigenständigen SMS-Versand zu erstellen:
    * **[!UICONTROL Art]**: Geben Sie die Art der E-Mail zu Klassifizierungszwecken an.
 +++
 
-1. Klicken Sie auf die Schaltfläche **[!UICONTROL Zielgruppe auswählen]**, um eine vorhandene Zielgruppe anzusprechen oder eine eigene zu erstellen. [Weitere Informationen](../audience/about-recipients.md).
+1. Klicken Sie auf die Schaltfläche **[!UICONTROL Zielgruppe auswählen]**, um eine vorhandene Zielgruppe anzusprechen oder eine eigene zu erstellen. [Weitere Informationen zu Zielgruppen](../audience/about-recipients.md).
 
    ![](assets/sms_create_2.png)
 
-1. Schalten Sie die Gruppenoption **[!UICONTROL Kontrollgruppe aktivieren]** ein, um zur Messung der Wirkung Ihres Versands eine Kontrollgruppe einzurichten, durch die Sie das Verhalten der Population, die die Nachricht erhalten hat, mit dem Verhalten der Kontakte vergleichen können, die sie nicht erhalten haben. [Weitere Informationen](../audience/control-group.md)
+   Erfahren Sie, wie Sie eine vorhandene Zielgruppe in [diese Seite](../audience/add-audience.md)
+
+   Erfahren Sie, wie Sie eine neue Zielgruppe in erstellen [diese Seite](../audience/one-time-audience.md)
+
+1. Schalten Sie die **[!UICONTROL Kontrollgruppe aktivieren]** -Option, um eine Kontrollgruppe zur Messung der Wirkung Ihres Versands einzurichten. Nachrichten werden nicht an diese Kontrollgruppe gesendet, sodass Sie das Verhalten der Population, die die Nachricht erhalten hat, mit dem Verhalten der Kontakte vergleichen können, die die Nachricht erhalten haben. [Weitere Informationen](../audience/control-group.md)
 
 1. Klicken Sie auf **[!UICONTROL Inhalt bearbeiten]**, um mit der Erstellung des Inhalts Ihrer SMS-Nachricht zu beginnen. [Weitere Informationen](content-sms.md)
 

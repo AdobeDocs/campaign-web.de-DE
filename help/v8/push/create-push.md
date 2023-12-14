@@ -4,10 +4,10 @@ title: Erstellen eines Push-Benachrichtigungs-Versands
 description: Erfahren Sie, wie Sie mit Adobe Campaign Web einen Versand für eine Push-Benachrichtigung erstellen
 badge: label="Beta"
 exl-id: 49a3c05c-5806-4269-a98d-915eee216f90
-source-git-commit: 057a6b360093bc314aed6d6b0d84bfba7af3f464
+source-git-commit: 4ea25f0877fd3f0ab02f3023f041bd040e0530a3
 workflow-type: tm+mt
-source-wordcount: '638'
-ht-degree: 39%
+source-wordcount: '653'
+ht-degree: 38%
 
 ---
 
@@ -33,7 +33,7 @@ Gehen Sie wie folgt vor, um einen eigenständigen Push-Versand zu erstellen:
 
 1. Gehen Sie zum Menü **[!UICONTROL Sendungen]** in der linken Leiste, und klicken Sie auf die Schaltfläche **[!UICONTROL Versand erstellen]**.
 
-1. Unter dem **[!UICONTROL Kanal]** auswählen **Push-Benachrichtigung** als Kanal verwenden und je nach gewähltem Betriebssystem des Geräts eine Vorlage auswählen: Android oder iOS. [Weitere Informationen zu Vorlagen](../msg/delivery-template.md)
+1. Unter dem **[!UICONTROL Kanal]** auswählen **Push-Benachrichtigung** als Kanal verwenden und je nach gewähltem Gerätebetriebssystem eine Vorlage auswählen: Android oder iOS. [Weitere Informationen zu Vorlagen](../msg/delivery-template.md)
 
 1. Klicken Sie zur Bestätigung auf **[!UICONTROL Versand erstellen]**.
 
@@ -45,7 +45,7 @@ Konfigurieren Sie Ihre Versandeinstellungen wie unten beschrieben:
 
 1. Geben Sie einen **[!UICONTROL Titel]** für den Versand. Standardmäßig wird der Titel mit dem Titel der ausgewählten Vorlage festgelegt. Sie sollte aktualisiert werden.
 
-1. Durchsuchen Sie die **[!UICONTROL Zusätzliche Optionen]** -Dropdown, um bei Bedarf die Optionen anzupassen.
+1. Durchsuchen Sie die **[!UICONTROL Zusätzliche Optionen]** -Dropdown, um bei Bedarf die Optionen anzupassen. Wenn Ihr Versand auf einem erweiterten Schema basiert, muss **Benutzerdefinierte Optionen** verfügbar sind.
 
    +++Konfigurieren Sie die folgenden Einstellungen entsprechend Ihren Anforderungen.
    * **[!UICONTROL Interner Name]**: Weisen Sie dem Versand eine eindeutige Kennung zu.
