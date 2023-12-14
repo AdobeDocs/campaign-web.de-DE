@@ -4,9 +4,9 @@ title: Erkunden der Benutzeroberfläche
 description: Web-Benutzeroberfläche von Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: e239f86570014a56519f0e221cd04113ed4618d6
+source-git-commit: 4bdf23ab5905602608f3982692c88d3a399ca76a
 workflow-type: tm+mt
-source-wordcount: '1545'
+source-wordcount: '1549'
 ht-degree: 91%
 
 ---
@@ -257,7 +257,10 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Zusätzliche Daten zu Testprofilen"
 >abstract="Zusätzliche Daten zu Testprofilen"
 
-
+>[!CONTEXTUALHELP]
+>id="acw_recipients_testprofiles_menu"
+>title="Testprofile"
+>abstract="Testprofile"
 
 
 >[!CONTEXTUALHELP]
