@@ -2,14 +2,16 @@
 audience: end-user
 title: Erstellen Sie Ihre erste Abfrage mithilfe des Abfragemodells
 description: Erfahren Sie, wie Sie Ihre erste Abfrage in Adobe Campaign Web Query Modeler erstellen.
-source-git-commit: e620df0ff9af0d32fc353a904e3dde37501495d0
+source-git-commit: 7f491df76460e982c144c7ea324c9afa14901259
 workflow-type: tm+mt
-source-wordcount: '922'
-ht-degree: 80%
+source-wordcount: '1797'
+ht-degree: 83%
 
 ---
 
 # Ausdrücke bearbeiten {#expression}
+
+## Ausdruck bearbeiten  {#edit}
 
 Zum Bearbeiten eines Ausdrucks müssen Bedingungen manuell eingegeben werden, um eine Regel zu bilden. Diese Vorgehensweise ermöglicht die Verwendung fortgeschrittener Funktionen, über die Sie die verwendeten Werte (Datumsangaben, Strings, numerische Felder etc.) bearbeiten können, um spezifische Abfragen zu erstellen.
 
@@ -25,152 +27,666 @@ Der Ausdruckseditor bietet Folgendes:
 
 Bearbeiten Sie den Ausdruck, indem Sie ihn direkt in das Eingabefeld eingeben oder die Liste der verfügbaren Felder und Funktionen verwenden. Platzieren Sie dazu den Cursor in den Ausdruck, an dem Sie das Element hinzufügen möchten, und doppelklicken Sie auf das gewünschte Feld oder den gewünschten Ausdruck.
 
-Es ist möglich, Workflow-Ereignisvariablen zur Erstellung eines Ausdrucks zu verwenden. Weitere Informationen hierzu finden Sie unter xxxx.
+## Hilfsfunktionen
 
-## Syntax von Ausdrücken  {#expression-syntax}
+Das Abfragetool ermöglicht die Verwendung erweiterter Funktionen, um je nach den gewünschten Ergebnissen und den Datentypen komplexe Filter durchzuführen. Die folgenden Funktionen sind verfügbar:
 
-### Standardsyntax {#standard-syntax}
+### Aggregat
 
-Standardausdrücke bestehen aus einer oder mehreren Bedingungen, die die folgende Syntax beachten müssen:
-
-* Jede Bedingung hat die Form **&lt;Wert 1> &lt;Vergleichsoperator> &lt;Wert 2>**, wobei
-
-   * **&lt;Wert 1>** ein Feld oder eine Funktion ist. Das Feld **@created** z. B. steht für das Erstellungsdatum eines Profils, die Funktion **Year(@created)** gibt das Jahr der Erstellung eines Profils aus.
-   * **&lt;comparison operator=&quot;&quot;>** ist einer der im Abschnitt Vergleichsoperatoren aufgelisteten Operatoren. Der Operator definiert die Art des Vergleichs zwischen **&lt;Wert 1>** und **&lt;Wert 2>**.
-   * **&lt;Wert 2>** ein Feld, eine Funktion oder ein manuell angegebener Wert ist.
-
-  >[!NOTE]
-  >
-  >Die Datentypen von **&lt;Wert 1>** und **&lt;Wert 2>** müssen identisch sein. Wenn **&lt;Wert 1>** beispielsweise ein Datum ist, muss **&lt;Wert 2>** auch ein Datum sein.
-
-* Mithilfe von logischen Operatoren können verschiedene Bedingungen miteinander kombiniert werden.
-
-   * **[!UICONTROL AND]**: erstellt die Schnittmenge aus zwei Bedingungen;
-   * **[!UICONTROL OR]**: vereinigt die aus zwei Bedingungen resultierenden Elemente.
-
-Beispiel:
-
-```
-Year(@created) = Year(GetDate()) AND Month(@created) = Month(GetDate())
-```
-
-In diesem Beispiel werden die Profile ausgegeben, bei denen das Erstellungsdatum mit dem aktuellen Jahr und Monat übereinstimmt.
-
-### JavaScript-Syntax  {#javascript-syntax}
-
-Bei der Definition von Sichtbarkeitsbedingungen in einem Textblock des HTML-Inhaltseditiors sind Ausdrücke mit JavaScript-Syntax zu verwenden.
-
-JavaScript-Ausdrücke bestehen aus einer oder mehreren Bedingungen, die die folgende Syntax beachten müssen:
-
-* Jede Bedingung hat die Form **&lt;Kontext> &lt;Vergleichsoperator> &lt;Wert 2>**, wobei
-
-   * **&lt;Kontext>** einem Feld oder einer Funktion entspricht, die es ermöglichen, den Kontext anzugeben. Beispiel **context.profile.@email** steht für die E-Mail-Adresse eines Profils und **context.profile.firstName.length()** für die Anzahl an Zeichen des Vornamens eines Profils.
-   * **&lt;comparison operator=&quot;&quot;>** ist einer der im Abschnitt Vergleichsoperatoren aufgelisteten Operatoren. Der Operator definiert die Art des Vergleichs zwischen **&lt;Kontext>** und **&lt;Wert 2>**.
-   * **&lt;Wert 2>** ein Feld, eine Funktion oder ein manuell angegebener Wert ist.
-
-  >[!NOTE]
-  >
-  Die Datentypen von **&lt;Kontext>** und **&lt;Wert 2>** müssen identisch sein. Wenn **&lt;Kontext>** beispielsweise ein Datum ist, muss **&lt;Wert 2>** auch ein Datum sein.
-
-* Mithilfe von logischen Operatoren können verschiedene Bedingungen miteinander kombiniert werden.
-
-   * **[!UICONTROL &amp;&amp;]**: erstellt die Schnittmenge aus zwei Bedingungen;
-   * **[!UICONTROL ||]**: vereinigt die aus zwei Bedingungen resultierenden Elemente.
-
-Beispiel:
-
-```
-context.profile.age > 21 && context.profile.firstName.length() > 0
-```
-
-In diesem Beispiel werden die Profile ausgegeben, die über 21 Jahre alt sind und deren Vorname angegeben ist (das Feld **firstName** enthält mindestens ein Zeichen).
-
-## Vergleichsoperatoren  {#comparison-operators}
-
-Bei manchen Regeln können Sie über den Abfrageeditor einen Wert auswählen.
-
-Bedingung müssen mithilfe eines der folgenden Operatoren mit Werten verknüpft werden.
+Die Aggregatfunktionen dienen der Durchführung von Berechnungen zu einer Reihe von Werten.
 
 <table> 
- <thead> 
-  <tr> 
-   <th> Operator<br /> </th> 
-   <th> Standardsyntax<br /> </th> 
-   <th> JavaScript-Syntax<br /> </th> 
-   <th> Beschreibung<br /> </th> 
-   <th> Beispiel<br /> </th> 
-  </tr> 
- </thead> 
  <tbody> 
   <tr> 
-   <td> <span class="uicontrol">Gleich</span> <br /> </td> 
-   <td> =<br /> </td> 
-   <td> ==<br /> </td> 
-   <td> Der erste Wert muss mit dem zweiten identisch sein.<br /> </td> 
-   <td> <strong>@lastName = Martin</strong> ruft die Profile ab, deren Nachname exakt 'Martin' ist.<br /> </td> 
+   <td> <strong>Name</strong><br /> </td> 
+   <td> <strong>Beschreibung</strong><br /> </td> 
+   <td> <strong>Syntax</strong><br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">Größer als</span> <br /> </td> 
-   <td> &gt;<br /> </td> 
-   <td> &gt;<br /> </td> 
-   <td> Der erste Wert muss streng größer als der zweite sein.<br /> </td> 
-   <td> <strong>@age &gt; 50</strong> ruft Profile ab, deren Alter '50' übersteigt, also '51', '52' etc.<br /> </td> 
+   <td> <strong>Avg</strong><br /> </td> 
+   <td> Gibt den Durchschnittswert einer Spalte vom Typ Zahl aus<br /> </td> 
+   <td> Avg(&lt;Wert&gt;)<br /></td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">Niedriger als</span> <br /> </td> 
-   <td> &lt;<br /> </td> 
-   <td> &lt;<br /> </td> 
-   <td> Der erste Wert muss streng kleiner als der zweite sein.<br /> </td> 
-   <td> <strong>@created &lt; DaysAgo(100)</strong> ruft Profile ab, die vor weniger als 100 Tagen in der Datenbank erstellt wurden.<br /> </td> 
+   <td> <strong>Count</strong><br /> </td> 
+   <td> Zählt die Werte ungleich null einer Spalte<br /> </td> 
+   <td> Count(&lt;Wert&gt;)<br /></td>  
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">Größer oder gleich</span> <br /> </td> 
-   <td> &gt;=<br /> </td> 
-   <td> &gt;=<br /> </td> 
-   <td> Der erste Wert muss größer oder gleich dem zweiten sein.<br /> </td> 
-   <td> <strong>@age &gt;= 30</strong> ruft Profile mit einem Alter von 30 Jahren und älter ab.<br /> </td> 
+   <td> <strong>CountAll</strong><br /> </td> 
+   <td> Zählt die ausgegebenen Werte (alle Felder)<br /> </td> 
+   <td> CountAll()<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">Kleiner oder gleich</span> <br /> </td> 
-   <td> &lt;=<br /> </td> 
-   <td> &lt;=<br /> </td> 
-   <td> Der erste Wert muss kleiner oder gleich dem zweiten sein.<br /> </td> 
-   <td> <strong>@age &lt;= 60</strong> ruft Profile mit einem Alter von 60 Jahren und jünger ab.<br /> </td> 
+   <td> <strong>Countdistinct</strong><br /> </td> 
+   <td> Zählt die unterschiedlichen Werte ungleich null einer Spalte<br /> </td> 
+   <td> Countdistinct(&lt;Wert&gt;)<br /></td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">Unterschiedlich </span> <br /> </td> 
-   <td> !=<br /> </td> 
-   <td> !=<br /> </td> 
-   <td> Der erste Wert muss sich vom zweiten unterscheiden.<br /> </td> 
-   <td> <strong>@Sprache != Englisch</strong> ruft Profile ab, für die im Feld „Sprache“ nicht Englisch angegeben ist.<br /> </td> 
+   <td> <strong>Max</strong><br /> </td> 
+   <td> Gibt den Höchstwert einer Spalte vom Typ Zahl, String oder Datum aus<br /> </td> 
+   <td> Max(&lt;Wert&gt;)<br /></td>  
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">Enthält</span> <br /> </td> 
-   <td> IN<br /> </td> 
-   <td> K. A.<br /> </td> 
-   <td> Der erste Wert muss den zweiten enthalten.<br /> </td> 
-   <td> <strong>@domain IN mail</strong>. Hier werden alle Domains ausgegeben, deren Name den Wert 'mail' enthält. 'gmail.com' z. B. wird also in der Ergebnismenge enthalten sein.<br /> </td> 
+   <td> <strong>Min</strong><br /> </td> 
+   <td> Gibt den Mindestwert einer Spalte vom Typ Zahl, String oder Datum aus<br /> </td> 
+   <td> Min(&lt;Wert&gt;)<br /></td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">Ist wie</span> <br /> </td> 
-   <td> LIKE<br /> </td> 
-   <td> K. A.<br /> </td> 
-   <td> <span class="uicontrol">Ist wie</span> erzielt ähnliche Ergebnisse wie der Operator <span class="uicontrol">enthält. </span> Er ermöglicht jedoch die Verwendung des Platzhalters <span class="uicontrol">%</span> im gesuchten Wert.<br /> </td> 
-   <td> <strong>@lastName LIKE Me%er</strong>. Hier erlaubt die Verwendung des Zeichens <strong>%</strong> die Ausgabe aller Profile mit Nachnamen Meyer, Meier, Meiser etc.<br /> </td> 
+   <td> <strong>StdDev</strong><br /> </td> 
+   <td> Gibt die Standardabweichung der Werte einer Spalte vom Typ Zahl aus<br /> </td> 
+   <td> StdDev(&lt;Wert&gt;)<br /></td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">Ist nicht wie</span> <br /> </td> 
-   <td> NOT<br /> </td> 
-   <td> K. A.<br /> </td> 
-   <td> Negative Form des Operators <span class="uicontrol">ist wie</span>. Hier dürfen die ausgegebenen Daten nicht dem angegebenen Wert ähneln. Auch in diesem Fall ist der Platzhalter <span class="uicontrol">%</span> zu verwenden.<br /> </td> 
-   <td> <strong>@lastName NOT Schmi%t</strong>. Hier entsprechen die Empfänger dem Namen 'Schmied%h' (also Smith usw.) als Ergebnis nicht zurückgegeben werden.<br /> </td> 
+   <td> <strong>Sum</strong><br /> </td> 
+   <td> Gibt die Summe der Werte einer Spalte vom Typ Zahl, String oder Datum aus<br /> </td> 
+   <td> Sum(&lt;Wert&gt;)<br /></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### Datum
+
+Die Datumsfunktionen dienen der Manipulation von Datums- oder Uhrzeitwerten.
+
+<table> 
+ <tbody> 
+  <tr> 
+   <td> <strong>Name</strong><br /> </td> 
+   <td> <strong>Beschreibung</strong><br /> </td> 
+   <td> <strong>Syntax</strong><br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">Ist leer</span> <br /> </td> 
-   <td> IS NULL<br /> </td> 
-   <td> K. A.<br /> </td> 
-   <td> Der erste Wert muss einen Nullwert ausgeben.<br /> </td> 
-   <td> <strong>@mobilePhone IS NULL</strong> ruft Profile ab, für die keine Mobiltelefonnummer angegeben wurde.<br /> </td> 
+   <td> <strong>AddDays</strong><br /> </td> 
+   <td> Fügt dem Datum eine Anzahl an Tagen hinzu<br /> </td> 
+   <td> AddDays(&lt;Datum&gt;, &lt;Zahl&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>AddHours</strong><br /> </td> 
+   <td> Fügt dem Datum eine Anzahl an Stunden hinzu<br /> </td> 
+   <td> AddHours(&lt;Datum&gt;, &lt;Zahl&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>AddMinutes</strong><br /> </td> 
+   <td> Fügt dem Datum eine Anzahl an Minuten hinzu<br /> </td> 
+   <td> AddMinutes(&lt;Datum&gt;, &lt;Zahl&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>AddMonths</strong><br /> </td> 
+   <td> Fügt dem Datum eine Anzahl an Monaten hinzu<br /> </td> 
+   <td> AddMonths(&lt;Datum&gt;, &lt;Zahl&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>AddSeconds</strong><br /> </td> 
+   <td> Fügt dem Datum eine Anzahl an Sekunden hinzu<br /> </td> 
+   <td> AddSeconds(&lt;Datum&gt;, &lt;Zahl&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>AddYears</strong><br /> </td> 
+   <td> Fügt dem Datum eine Anzahl an Jahren hinzu<br /> </td> 
+   <td> AddYears(&lt;Datum&gt;, &lt;Zahl&gt;)<br /> </td>  
+  </tr>
+  <tr> 
+   <td> <strong>DateOnly</strong><br /> </td> 
+   <td> Gibt nur das Datum aus (mit Uhrzeit = 00:00 Uhr)*<br /> </td> 
+   <td> DateOnly(&lt;Datum&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>Day</strong><br /> </td> 
+   <td> Gibt die Zahl aus, die dem Tag des Datums entspricht<br /> </td> 
+   <td> Day(&lt;Datum&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>DayOfYear</strong><br /> </td> 
+   <td> Gibt die Zahl des Tages im Jahr des angegebenen Datums aus<br /> </td> 
+   <td> DayOfYear(&lt;Datum&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>DaysAgo</strong><br /> </td> 
+   <td> Gibt das Datum aus, das dem aktuellen Datum abzüglich n Tage entspricht<br /> </td> 
+   <td> DaysAgo(&lt;Zahl&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>DaysAgoInt</strong><br /> </td> 
+   <td> Gibt das Datum (Integer JJJJMMTT) aus, das dem aktuellen Datum abzüglich n Tage entspricht<br /> </td> 
+   <td> DaysAgoInt(&lt;Zahl&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>DaysDiff</strong><br /> </td> 
+   <td> Anzahl von Tagen zwischen zwei Daten<br /> </td> 
+   <td> DaysDiff(&lt;Enddatum&gt;, &lt;Startdatum&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>DaysOld</strong><br /> </td> 
+   <td> Gibt das Alter in Tagen in Bezug auf ein Datum aus<br /> </td> 
+   <td> DaysOld(&lt;Datum&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>GetDate</strong><br /> </td> 
+   <td> Gibt das aktuelle Systemdatum des Servers aus<br /> </td> 
+   <td> GetDate()<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Hour</strong><br /> </td> 
+   <td> Gibt die Stunde der im Datum angegebenen Uhrzeit aus<br /> </td> 
+   <td> Hour(&lt;Datum&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>HoursDiff</strong><br /> </td> 
+   <td> Gibt die Anzahl von Stunden zwischen zwei Daten aus<br /> </td> 
+   <td> HoursDiff(&lt;Enddatum&gt;, &lt;Startdatum&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>Minute</strong><br /> </td> 
+   <td> Gibt die Minuten der im Datum angegebenen Uhrzeit aus<br /> </td> 
+   <td> Minute(&lt;Datum&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>MinutesDiff</strong><br /> </td> 
+   <td> Gibt die Anzahl von Minuten zwischen zwei Daten aus<br /> </td> 
+   <td> MinutesDiff(&lt;Enddatum&gt;, &lt;Startdatum&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>Month</strong><br /> </td> 
+   <td> Gibt die Zahl aus, die dem Monat des Datums entspricht<br /> </td> 
+   <td> Month(&lt;Datum&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>MonthsAgo</strong><br /> </td> 
+   <td> Gibt das Datum aus, das dem aktuellen Datum abzüglich n Monate entspricht<br /> </td> 
+   <td> MonthsAgo(&lt;Zahl&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>MonthsDiff</strong><br /> </td> 
+   <td> Gibt die Anzahl von Monaten zwischen zwei Daten aus<br /> </td> 
+   <td> MonthsDiff(&lt;Enddatum&gt;, &lt;Startdatum&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>MonthsOld</strong><br /> </td> 
+   <td> Gibt das Alter in Monaten in Bezug auf ein Datum aus<br /> </td> 
+   <td> MonthsOld(&lt;Datum&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>Second</strong><br /> </td> 
+   <td> Gibt die Sekunden der im Datum angegebenen Uhrzeit aus<br /> </td> 
+   <td> Second(&lt;Datum&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>SecondsDiff</strong><br /> </td> 
+   <td> Gibt die Anzahl von Sekunden zwischen zwei Daten aus<br /> </td> 
+   <td> SecondsDiff(&lt;Enddatum&gt;, &lt;Startdatum&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>SubDays</strong><br /> </td> 
+   <td> Zieht die angegebene Anzahl von Tagen vom Datum ab<br /> </td> 
+   <td> SubDays(&lt;Datum&gt;, &lt;Zahl&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>SubHours</strong><br /> </td> 
+   <td> Zieht die angegebene Anzahl von Stunden vom Datum ab<br /> </td> 
+   <td> SubHours(&lt;Datum&gt;, &lt;Zahl&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>SubMinutes</strong><br /> </td> 
+   <td> Zieht die angegebene Anzahl von Minuten vom Datum ab<br /> </td> 
+   <td> SubMinutes(&lt;Datum&gt;, &lt;Zahl&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>SubMonths</strong><br /> </td> 
+   <td> Zieht die angegebene Anzahl von Monaten vom Datum ab<br /> </td> 
+   <td> SubMonths(&lt;Datum&gt;, &lt;Zahl&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>SubSeconds</strong><br /> </td> 
+   <td> Zieht die angegebene Anzahl von Sekunden vom Datum ab<br /> </td> 
+   <td> SubSeconds(&lt;Datum&gt;, &lt;Zahl&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>SubYears</strong><br /> </td> 
+   <td> Zieht die angegebene Anzahl von Jahren vom Datum ab<br /> </td> 
+   <td> SubYears(&lt;Datum&gt;, &lt;Zahl&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>ToDate</strong><br /> </td> 
+   <td> Konvertiert eine Angabe Datum+Uhrzeit in Datum alleine<br /> </td> 
+   <td> ToDate(&lt;Datum + Uhrzeit&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>ToDateTime</strong><br /> </td> 
+   <td> Konvertiert einen String in Datum+Uhrzeit<br /> </td> 
+   <td> ToDateTime(&lt;String&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>TruncDate</strong><br /> </td> 
+   <td> Kürzt die Angabe Datum+Uhrzeit auf Sekunden<br /> </td> 
+   <td> TruncDate(@lastModified, &lt;Anzahl Sekunden&gt;)<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <strong>TruncDateTZ</strong><br /> </td> 
+   <td> Kürzt die Angabe Datum+Uhrzeit auf Sekunden<br /> </td> 
+   <td> TruncDateTZ(&lt;Datum&gt;, &lt;Anzahl Sekunden&gt;, &lt;Zeitzone&gt;)<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <strong>TruncQuarter</strong><br /> </td> 
+   <td> Kürzt die Angabe des Datums auf den ersten Tag des Quartals<br /> </td> 
+   <td> TruncQuarter(&lt;Datum&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>TruncTime</strong><br /> </td> 
+   <td> Kürzt die Uhrzeitangabe auf Sekunden<br /> </td> 
+   <td> TruncTime(&lt;Datum&gt;, &lt;Anzahl Sekunden&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>TruncWeek</strong><br /> </td> 
+   <td> Kürzt ein Datum auf die Woche<br /> </td> 
+   <td> TruncWeek(&lt;Datum&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>TruncYear</strong><br /> </td> 
+   <td> Kürzt die Angabe Datum+Uhrzeit auf den ersten Januar des Jahres<br /> </td> 
+   <td> TruncYear(&lt;Datum&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>TruncWeek</strong><br /> </td> 
+   <td> Gibt die Zahl des Wochentags in Bezug auf das Datum aus (0=Montag, 6=Sonntag)<br /> </td> 
+   <td> WeekDay(&lt;Datum&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>Year</strong><br /> </td> 
+   <td> Gibt die Zahl aus, die dem Jahr des Datums entspricht<br /> </td> 
+   <td> Year(&lt;Datum&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>YearAndMonth</strong><br /> </td> 
+   <td> Gibt Jahr und Monat eines Datums aus<br /> </td> 
+   <td> YearAndMonth(&lt;Datum&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>YearsDiff</strong><br /> </td> 
+   <td> Gibt die Anzahl von Jahren zwischen zwei Daten aus<br /> </td> 
+   <td> YearsDiff(&lt;Enddatum&gt;, &lt;Startdatum&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>YearsOld</strong><br /> </td> 
+   <td> Gibt das Alter in Jahren in Bezug auf ein Datum aus<br /> </td> 
+   <td> YearsOld(&lt;Datum&gt;)<br /> </td>  
+  </tr> 
+ </tbody> 
+</table>
+
+>[!NOTE]
+>
+>Beachten Sie, dass die Funktion **Dateonly** nicht die Zeitzone des Benutzers, sondern des Servers verwendet.
+
+### Geomarketing
+
+Die Geomarketing-Funktionen dienen der Manipulation von geografischen Werten.
+
+<table> 
+ <tbody> 
+  <tr> 
+   <td> <strong>Name</strong><br /> </td> 
+   <td> <strong>Beschreibung</strong><br /> </td> 
+   <td> <strong>Syntax</strong><br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Distance</strong><br /> </td> 
+   <td> Gibt den Abstand zwischen zwei durch Längen- und Breitengrad definierten Punkten in Grad zurück.<br /> </td> 
+   <td> Distance(&lt;Längengrad A&gt;, &lt;Breitengrad A&gt;, &lt;Längengrad B&gt;, &lt;Breitengrad B&gt;)<br /> </td>  
+  </tr> 
+ </tbody> 
+</table>
+
+### Nummerisch
+
+Die numerischen Funktionen dienen der Konvertierung von Text in Zahlen.
+
+<table> 
+ <tbody> 
+  <tr> 
+   <td> <strong>Name</strong><br /> </td> 
+   <td> <strong>Beschreibung</strong><br /> </td> 
+   <td> <strong>Syntax</strong><br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Abs</strong><br /> </td> 
+   <td> Gibt den absoluten Wert einer Zahl aus<br /> </td> 
+   <td> Abs(&lt;Zahl&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>Ceil</strong><br /> </td> 
+   <td> Gibt die kleinste ganze Zahl aus, die größer oder gleich der angegebenen Zahl ist<br /> </td> 
+   <td> Ceil(&lt;Zahl&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>Floor</strong><br /> </td> 
+   <td> Gibt die größte ganze Zahl aus, die kleiner oder gleich der angegebenen Zahl ist<br /> </td> 
+   <td> Floor(&lt;Zahl&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>Greatest</strong><br /> </td> 
+   <td> Gibt die größere von zwei Zahlen aus<br /> </td> 
+   <td> Greatest(&lt;Zahl 1&gt;, &lt;Zahl 2&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>Least</strong><br /> </td> 
+   <td> Gibt die kleinere von zwei Zahlen aus<br /> </td> 
+   <td> Least(&lt;Zahl 1&gt;, &lt;Zahl 2&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>Mod</strong><br /> </td> 
+   <td> Gibt den Rest der ganzzahligen Division von n1 durch n2 aus<br /> </td> 
+   <td> Mod(&lt;Zahl 1&gt;, &lt;Zahl 2&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>Percent</strong><br /> </td> 
+   <td> Gibt das Verhältnis zwischen zwei Werten in Prozent aus<br /> </td> 
+   <td> Percent(&lt;Zahl 1&gt;, &lt;Zahl 2&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>Random</strong><br /> </td> 
+   <td> Gibt einen Zufallswert aus<br /> </td> 
+   <td> Random()<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Round</strong><br /> </td> 
+   <td> Rundet eine Zahl auf n Dezimalstellen<br /> </td> 
+   <td> Round(&lt;Zahl&gt;, &lt;Anzahl Dezimalstellen&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>Sign</strong><br /> </td> 
+   <td> Gibt das Vorzeichen einer Zahl aus<br /> </td> 
+   <td> Sign(&lt;Zahl&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>ToDouble</strong><br /> </td> 
+   <td> Konvertiert einen Integer in einen Real<br /> </td> 
+   <td> ToDouble(&lt;Zahl&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>ToInt64</strong><br /> </td> 
+   <td> Konvertiert einen Real in einen 64-Bit-Integer<br /> </td> 
+   <td> ToInt64(&lt;Zahl&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>ToInteger</strong><br /> </td> 
+   <td> Konvertiert einen Real in einen Integer<br /> </td> 
+   <td> ToInteger(&lt;Zahl&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>Trunc</strong><br /> </td> 
+   <td> Kürzt n1 auf n2 Dezimalstellen<br /> </td> 
+   <td> Trunc(&lt;n1&gt;, &lt;n2&gt;)<br /> </td>  
+  </tr> 
+ </tbody> 
+</table>
+
+### Sonstige
+
+In dieser Tabelle sind die restlichen verfügbaren Funktionen enthalten.
+
+<table> 
+ <tbody> 
+  <tr> 
+   <td> <strong>Name</strong><br /> </td> 
+   <td> <strong>Beschreibung</strong><br /> </td> 
+   <td> <strong>Syntax</strong><br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Case</strong><br /> </td> 
+   <td> Gibt den Wert 1 aus, wenn die Bedingung wahr ist. Wenn nicht, wird der Wert 2 zurückgegeben.<br /> </td> 
+   <td> Case(When(&lt;Bedingung&gt;, &lt;Wert 1&gt;), Else(&lt;Wert 2&gt;))<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <strong>ClearBit</strong><br /> </td> 
+   <td> Löscht das Flag aus dem Wert<br /> </td> 
+   <td> ClearBit(&lt;Kennung&gt;, &lt;Flag&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>Coalesce</strong><br /> </td> 
+   <td> Gibt den Wert 2 aus, wenn der Wert 1 gleich null oder leer ist, sonst den Wert 1<br /> </td> 
+   <td> Coalesce(&lt;Wert 1&gt;, &lt;Wert 2&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>Decode</strong><br /> </td> 
+   <td> Gibt den Wert 3 aus, wenn der Wert 1 = Wert 2. Wenn nicht den Wert 4 zurückgibt.<br /> </td> 
+   <td> Decode(&lt;Wert 1&gt;, &lt;Wert 2&gt;, &lt;Wert 3&gt;, &lt;Wert 4&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>Else</strong><br /> </td> 
+   <td> Gibt den Wert 1 aus (kann nur als Parameter der 'Case'-Funktion verwendet werden)<br /> </td> 
+   <td> Else(&lt;Wert 1&gt;, &lt;Wert 2&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>GetEmailDomain</strong><br /> </td> 
+   <td> Extrahiert die Domain einer E-Mail-Adresse<br /> </td> 
+   <td> GetEmailDomain(&lt;Wert&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>GetMirrorURL</strong><br /> </td> 
+   <td> Ruft die URL des Mirrorseiten-Servers ab<br /> </td> 
+   <td> GetMirrorURL(&lt;Wert&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>Iif</strong><br /> </td> 
+   <td> Gibt den Wert 1 aus, wenn der Ausdruck wahr ist. Wenn nicht, gibt den Wert 2 zurück<br /> </td> 
+   <td> Iif(&lt;Bedingung&gt;, &lt;Wert 1&gt;, &lt;Wert 2&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>IsBitSet</strong><br /> </td> 
+   <td> Gibt an, ob das Flag im Wert vorkommt<br /> </td> 
+   <td> IsBitSet(&lt;Kennung&gt;, &lt;Flag&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>IsEmptyString</strong><br /> </td> 
+   <td> Gibt den Wert 2 aus, wenn der String 1 leer ist, sonst den Wert 3<br /> </td> 
+   <td> IsEmptyString(&lt;Wert 1&gt;, &lt;Wert 2&gt;, &lt;Wert 3&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>NoNull</strong><br /> </td> 
+   <td> Gibt einen Leerstring aus, wenn das Argument gleich null ist<br /> </td> 
+   <td> NoNull(&lt;Wert&gt;)<br /> </td>   
+  </tr> 
+  <tr> 
+   <td> <strong>RowId</strong><br /> </td> 
+   <td> Gibt die Zeilennummer aus<br /> </td> 
+   <td> RowId<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <strong>SetBit</strong><br /> </td> 
+   <td> Setzt das Flag im Wert<br /> </td> 
+   <td> SetBit(&lt;Kennung&gt;, &lt;Flag&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>ToBoolean</strong><br /> </td> 
+   <td> Konvertiert eine Zahl in einen booleschen Wert<br /> </td> 
+   <td> ToBoolean(&lt;Zahl&gt;)<br /> </td>   
+  </tr> 
+  <tr> 
+   <td> <strong>When</strong><br /> </td> 
+   <td> Gibt den Wert 1 aus, wenn der Ausdruck wahr ist. Wenn nicht, wird der Wert 2 zurückgegeben (kann nur als Parameter der 'Case'-Funktion verwendet werden).<br /> </td> 
+   <td> When(&lt;Bedingung&gt;, &lt;Wert 1&gt;)<br /> </td>  
+  </tr> 
+ </tbody> 
+</table>
+
+### String
+
+Die String-Funktionen dienen der Manipulation einer Reihe von Strings.
+
+<table> 
+ <tbody> 
+  <tr> 
+   <td> <strong>Name</strong><br /> </td> 
+   <td> <strong>Beschreibung</strong><br /> </td> 
+   <td> <strong>Syntax</strong><br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <strong>AllNonNull2</strong><br /> </td> 
+   <td> Gibt an, ob alle Parameter ungleich null und nicht leer sind<br /> </td> 
+   <td> AllNonNull2(&lt;String&gt;, &lt;String&gt;)<br /></td> 
+  </tr> 
+  <tr> 
+   <td> <strong>AllNonNull3</strong><br /> </td> 
+   <td> Gibt an, ob alle Parameter ungleich null und nicht leer sind<br /> </td> 
+   <td> AllNonNull3(&lt;String&gt;, &lt;String&gt;, &lt;String&gt;)<br /></td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Ascii</strong><br /> </td> 
+   <td> Gibt den ASCII-Wert des ersten Zeichens des Strings aus.<br /> </td> 
+   <td> Ascii(&lt;String&gt;)<br /></td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Char</strong><br /> </td> 
+   <td> Gibt das ASCII-Code-Zeichen 'n' aus<br /> </td> 
+   <td> Char(&lt;Zahl&gt;)<br /></td>  
+  </tr> 
+  <tr> 
+   <td> <strong>Charindex</strong><br /> </td> 
+   <td> Gibt die Position des Strings 2 im String 1 zurück.<br /> </td> 
+   <td> Charindex(&lt;String&gt;, &lt;String&gt;)<br /></td> 
+  </tr> 
+  <tr> 
+   <td> <strong>GetLine</strong><br /> </td> 
+   <td> Gibt die n-te Zeile (beginnend bei 1) des Strings aus<br /> </td> 
+   <td> GetLine(&lt;String&gt;)<br /></td> 
+  </tr> 
+  <tr> 
+   <td> <strong>IfEquals</strong><br /> </td> 
+   <td> Gibt den dritten Parameter zurück, wenn die ersten beiden Parameter identisch sind. Wenn nicht, wird der letzte Parameter zurückgegeben<br /> </td> 
+   <td> IfEquals(&lt;String&gt;, &lt;String&gt;, &lt;String&gt;, &lt;String&gt;)<br /></td> 
+  </tr> 
+  <tr> 
+   <td> <strong>IsMemoNull</strong><br /> </td> 
+   <td> Gibt an, ob das als Parameter ausgegebene Memo gleich null ist<br /> </td> 
+   <td> IsMemoNull(&lt;Memo&gt;)<br /></td> 
+  </tr> 
+  <tr> 
+   <td> <strong>JuxtWords</strong><br /> </td> 
+   <td> Verkettet die als Parameter übergebenen Strings. Fügt bei Bedarf Leerzeichen zwischen den Zeichenfolgen hinzu.<br /> </td> 
+   <td> JuxtWords(&lt;String&gt;, &lt;String&gt;)<br /></td> 
+  </tr> 
+  <tr> 
+   <td> <strong>JuxtWords3</strong><br /> </td> 
+   <td> Verkettet die als Parameter übergebenen Strings. Fügt bei Bedarf Leerstellen zwischen den Zeichenfolgen hinzu<br /> </td> 
+   <td> JuxtWords3(&lt;String&gt;, &lt;String&gt;, &lt;String&gt;)<br /></td>  
+  </tr> 
+  <tr> 
+   <td> <strong>LPad</strong><br /> </td> 
+   <td> Gibt den String linksseitig aufgefüllt aus<br /> </td> 
+   <td> LPad(&lt;String&gt;, &lt;Zahl&gt;, &lt;Zeichen&gt;)<br /></td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Left</strong><br /> </td> 
+   <td> Gibt die n ersten Zeichen des Strings aus<br /> </td> 
+   <td> Left(&lt;String&gt;, &lt;Zahl&gt;)<br /></td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Length</strong><br /> </td> 
+   <td> Gibt die Länge des Strings aus<br /> </td> 
+   <td> Length(&lt;String&gt;)<br /></td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Lower</strong><br /> </td> 
+   <td> Gibt den String in Kleinbuchstaben aus<br /> </td> 
+   <td> Lower(&lt;String&gt;)<br /></td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Ltrim</strong><br /> </td> 
+   <td> Löscht die Leerstellen links vom String<br /> </td> 
+   <td> Ltrim(&lt;String&gt;)<br /></td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Md5Digest</strong><br /> </td> 
+   <td> Gibt eine hexadezimale Darstellung des MD5-Schlüssels eines Strings aus<br /> </td> 
+   <td> Md5Digest(&lt;String&gt;)<br /></td> 
+  </tr> 
+  <tr> 
+   <td> <strong>MemoContains</strong><br /> </td> 
+   <td> Gibt an, ob das Memo den als Parameter übergebenen String enthält<br /> </td> 
+   <td> MemoContains(&lt;Memo&gt;, &lt;String&gt;)<br /></td> 
+  </tr> 
+  <tr> 
+   <td> <strong>RPad</strong><br /> </td> 
+   <td> Gibt den String rechtsseitig aufgefüllt aus<br /> </td> 
+   <td> RPad(&lt;String&gt;, &lt;Zahl&gt;, &lt;Zeichen&gt;)<br /></td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Right</strong><br /> </td> 
+   <td> Gibt die n letzten Zeichen des Strings aus<br /> </td> 
+   <td> Right(&lt;String&gt;)<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Rtrim</strong><br /> </td> 
+   <td> Löscht die Leerstellen rechts vom String<br /> </td> 
+   <td> Rtrim(&lt;String&gt;)<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Smart</strong><br /> </td> 
+   <td> Gibt jedes Wort des Strings beginnend mit einem Großbuchstaben aus<br /> </td> 
+   <td> Smart(&lt;String&gt;)<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Substring</strong><br /> </td> 
+   <td> Extrahiert aus dem String den Teilstring, der mit dem Zeichen n1 beginnt und die Länge n2 aufweist<br /> </td> 
+   <td> Substring(&lt;String&gt;, &lt;Start&gt;, &lt;Länge&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>ToString</strong><br /> </td> 
+   <td> Konvertiert eine Zahl in einen String<br /> </td> 
+   <td> ToString(&lt;Zahl&gt;, &lt;Zahl&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>Upper</strong><br /> </td> 
+   <td> Gibt den String in Großbuchstaben aus<br /> </td> 
+   <td> Upper(&lt;String&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>VirtualLink</strong><br /> </td> 
+   <td> Gibt den Fremdschlüssel einer als erster Parameter übergebenen Relation aus, wenn die beiden anderen Parameter identisch sind<br /> </td> 
+   <td> VirtualLink(&lt;Zahl&gt;, &lt;Zahl&gt;, &lt;Zahl&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>VirtualLinkStr</strong><br /> </td> 
+   <td> Gibt den Fremdschlüssel (Text) einer als erster Parameter übergebenen Relation aus, wenn die beiden anderen Parameter identisch sind<br /> </td> 
+   <td> VirtualLinkStr(&lt;String&gt;, &lt;Zahl&gt;, &lt;Zahl&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>dataLength</strong><br /> </td> 
+   <td> Gibt die Größe des Strings in Byte aus<br /> </td> 
+   <td> dataLength(&lt;String&gt;)<br /> </td>  
+  </tr> 
+ </tbody> 
+</table>
+
+### Fenster
+
+<table> 
+ <tbody> 
+  <tr> 
+   <td> <strong>Name</strong><br /> </td> 
+   <td> <strong>Beschreibung</strong><br /> </td> 
+   <td> <strong>Syntax</strong><br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Desc</strong><br /> </td> 
+   <td> Absteigende Sortierung<br /> </td> 
+   <td> Desc(&lt;Wert 1&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>OrderBy</strong><br /> </td> 
+   <td> Sortiert das Ergebnis innerhalb der Partition<br /> </td> 
+   <td> OrderBy(&lt;Wert 1&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>PartitionBy</strong><br /> </td> 
+   <td> Partitioniert das Ergebnis einer Abfrage<br /> </td> 
+   <td> PartitionBy(&lt;Wert 1&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>RowNum</strong><br /> </td> 
+   <td> Erzeugt eine Zeilennummer in Abhängigkeit von der Tabellenpartition und der Sortierreihenfolge<br /> </td> 
+   <td> RowNum(PartitionBy(&lt;Wert 1&gt;), OrderBy(&lt;Wert 1&gt;))<br /> </td> 
   </tr> 
  </tbody> 
 </table>
