@@ -22,7 +22,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_reporting_email_exportation"
 >title="Exportieren"
->abstract="Klicken Sie auf die Schaltfläche **Exportieren**, um diese Metriken in PDF- oder CSV-Formaten zu exportieren, sodass Sie sie freigeben oder drucken können. "
+>abstract="Auf die Schaltfläche **Exportieren** klicken, um diese Metriken in PDF- oder CSV-Formaten zu exportieren, sodass sie freigegeben oder gedruckt werden können. "
 
 Adobe Campaign bietet verschiedene Berichtstypen für jeden Versand. Mit diesen Berichten können Sie die Wirkung und Leistung Ihrer Nachrichten in einem integrierten Dashboard messen und visualisieren.
 
