@@ -4,23 +4,23 @@ title: Durchführen von Testsendungen
 description: Erfahren Sie, wie Sie Testsendungen definieren und durchführen.
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Beta"
-source-git-commit: 969401ab1258eb60697d16b3dc0470620abd346d
+source-git-commit: 2ea6a9b93dc2a37101d6b404d637a3c3655cb493
 workflow-type: tm+mt
-source-wordcount: '1190'
-ht-degree: 94%
+source-wordcount: '1157'
+ht-degree: 78%
 
 ---
 
-# Durchführen von Testsendungen {#send-test-deliveries}
+# Durchführen eines Testversands {#send-test-deliveries}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_preview_mode"
 >title="Vorschaumodus"
 >abstract="Erstellen Sie eine Vorschau und testen Sie die Nachricht, indem Sie die Testpopulation zur Hauptzielgruppe hinzufügen."
 
-Nachdem der Nachrichteninhalt definiert wurde, können Sie ihn in der Vorschau anzeigen und testen, indem Sie Testsendungen an Testprofile senden. Wenn Sie personalisierte Inhalte eingefügt haben, können Sie mithilfe von Testprofildaten überprüfen, wie diese Inhalte in der Nachricht angezeigt werden.
+Nachdem der Nachrichteninhalt definiert wurde, können Sie ihn in der Vorschau anzeigen und testen, indem Sie Testsendungen an Testprofile durchführen. Wenn Sie personalisierte Inhalte eingefügt haben, können Sie mithilfe von Testprofildaten überprüfen, wie diese Inhalte in der Nachricht angezeigt werden.
 
-Um mögliche Fehler im Nachrichteninhalt oder in den Personalisierungseinstellungen zu erkennen, senden Sie Testnachrichten an Testprofile, bevor Sie sie an die Zielgruppe senden. Bei jeder Änderung sollte eine Testnachricht gesendet werden, um den neuesten Inhalt zu überprüfen. Testsendungen sind ein wichtiger Schritt bei der Validierung Ihrer Kampagne und Identifizierung potenzieller Probleme. Die Empfängerinnen und Empfänger einer Testnachricht können verschiedene Elemente wie Links, Opt-out-Links, Bilder oder Mirrorseiten überprüfen sowie Fehler bei Rendering, Inhalt, Personalisierungseinstellungen und Versandkonfiguration erkennen.
+Um mögliche Fehler im Nachrichteninhalt oder in den Personalisierungseinstellungen zu erkennen, senden Sie Testprofile, bevor Sie sie an die Zielgruppe senden. Bei jeder Änderung sollte ein Testversand durchgeführt werden, um den aktuellen Inhalt zu validieren. Testsendungen sind ein wichtiger Schritt bei der Validierung Ihrer Kampagne und Identifizierung potenzieller Probleme. Die Testversand-Empfänger können verschiedene Elemente wie Links, Opt-out-Links, Bilder oder Mirrorseiten überprüfen sowie Fehler in Rendering, Inhalt, Personalisierungseinstellungen und Versandkonfiguration erkennen.
 
 ## Simulieren von Inhalten mit Testempfängerinnen und -empfängern {#simulate-content-test-deliveries}
 
@@ -31,22 +31,21 @@ Um mögliche Fehler im Nachrichteninhalt oder in den Personalisierungseinstellun
 
 Stellen Sie vor einem Testversand sicher, dass Sie eine Zielgruppe für den Versand definieren. [Weitere Informationen](../audience/about-recipients.md)
 
-
 So testen Sie Ihre Nachrichteninhalte:
 
 1. Bearbeiten Sie den Inhalt Ihres Versands.
 1. Klicken Sie auf die Schaltfläche **[!UICONTROL Inhalt simulieren]**.
-1. Klicken Sie auf die Schaltfläche **[!UICONTROL Testen]**, um Testnachrichten zu senden.
+1. Klicken Sie auf **[!UICONTROL Test]** zum Senden von Testsendungen.
 
    ![](assets/simulate-test-button-email.png)
 
 1. Wählen Sie Ihre Testempfängerinnen und Testempfänger aus.
 
-   Je nach Nachrichtenkanal können Testnachrichten an die folgenden Empfängertypen gesendet werden:
+   Je nach Nachrichtenkanal können Testsendungen an die folgenden Empfängertypen gesendet werden:
 
    * Für SMS und E-Mails können Sie [Testprofile](#test-profiles) verwenden, die bestimmte zusätzliche Empfängerinnen und Empfänger in der Datenbank sind. Diese Empfängerinnen und Empfänger werden in der Client-Konsole von [!DNL Campaign] erstellt. Weitere Informationen finden Sie in der [Dokumentation zu Campaign v8 (Client-Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html?lang=de){target="_blank"}
 
-   * Für SMS und E-Mails können Sie auch den Modus [Ersatz durch Hauptzielgruppe](#substitution-profiles) verwenden, der die Testnachrichten an die E-Mail-Testadresse bzw. Telefonnummer sendet und Personalisierungsdaten eines vorhandenen Profils verwendet. Auf diese Weise wird Ihnen die Nachricht so wie Ihren Empfängerinnen und Empfängern angezeigt. Sie erhalten so eine genaue Darstellung des Inhalts, den das Profil empfangen wird.
+   * Für SMS und E-Mails können Sie auch die [Substitution durch Hauptzielgruppe](#substitution-profiles) -Modus, der die Testsendungen an die E-Mail-Testadresse oder Telefonnummer sendet und Personalisierungsdaten eines vorhandenen Profils verwendet. Auf diese Weise wird Ihnen die Nachricht so wie Ihren Empfängerinnen und Empfängern angezeigt. Sie erhalten so eine genaue Darstellung des Inhalts, den das Profil empfangen wird.
 
    * Für Push-Nachrichten können Sie [Abonnenten](#subscribers) verwenden: fiktive Abonnentinnen und Abonnenten, die zur Datenbank hinzugefügt werden. Sie werden in der [!DNL Campaign]-Konsole angezeigt. Weitere Informationen finden Sie in der [Dokumentation zu Campaign v8 (Client-Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html?lang=de){target="_blank"}
 
@@ -74,7 +73,7 @@ So testen Sie Ihre Nachrichteninhalte:
 >title="Testprofile in die Hauptzielgruppe einschließen"
 >abstract="Aktivieren Sie diese Option, um die endgültige Nachricht auch an die Empfänger des Testversands zu senden."
 
-Testprofile sind Testadressen, also zusätzliche Empfängerinnen und Empfänger in der Datenbank. Sie können auch in der Client-Konsole von [!DNL Adobe Campaign] erstellt werden. Die Schritte zum Senden von Testnachrichten an Testadressen werden nachfolgend beschrieben.
+Testprofile sind Testadressen, also zusätzliche Empfängerinnen und Empfänger in der Datenbank. Sie können auch in der Client-Konsole von [!DNL Adobe Campaign] erstellt werden. Die Schritte zum Senden von Testsendungen an Testadressen werden nachfolgend beschrieben.
 
 1. Klicken Sie im Versandinhalt auf die Schaltfläche **[!UICONTROL Inhalt simulieren]** und dann auf **[!UICONTROL Testen]**.
 
@@ -94,7 +93,7 @@ Testprofile sind Testadressen, also zusätzliche Empfängerinnen und Empfänger 
 
 ## Ersetzen von Profildaten {#substitution-profiles}
 
-Verwenden Sie die Profilersetzung, um Testnachrichten an eine bestimmte E-Mail-Adresse bzw. Telefonnummer zu senden und dabei Daten aus einem vorhandenen Profil der [!DNL Adobe Campaign]-Datenbank anzuzeigen. Dieser Modus kann nur ausgewählt werden, wenn die Audience des Versands definiert wurde.
+Verwenden Sie die Profilersetzung, um Testsendungen an eine bestimmte E-Mail-Adresse oder Telefonnummer zu senden und gleichzeitig Daten aus einem vorhandenen Profil der [!DNL Adobe Campaign] Datenbank. Dieser Modus kann nur ausgewählt werden, wenn die Audience des Versands definiert wurde.
 
 Gehen Sie wie folgt vor, um Profildaten aus der Hauptzielgruppe zu ersetzen:
 
