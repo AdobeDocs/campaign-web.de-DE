@@ -2,10 +2,10 @@
 audience: end-user
 title: Mit dem Abfrage-Modeler arbeiten
 description: Erfahren Sie, wie Sie mit dem Adobe Campaign-Webabfragenmodell arbeiten.
-source-git-commit: 35b5901c65bde0ca58de7849b5fad374abb28b83
+source-git-commit: 94350335df08ae9c24d88843c77554db1890ab4d
 workflow-type: tm+mt
-source-wordcount: '394'
-ht-degree: 12%
+source-wordcount: '270'
+ht-degree: 17%
 
 ---
 
@@ -25,31 +25,13 @@ Der Abfragemodellierer ist in jedem Kontext verfügbar, in dem Sie Regeln zum Fi
 
 | Verwendung | Beispiel |
 |  ---  |  ---  |
-| **Zielgruppen definieren**: Geben Sie die Population an, die Sie in Ihren Nachrichten oder Workflows ansprechen möchten, und erstellen Sie mühelos neue Zielgruppen, die auf Ihre Anforderungen zugeschnitten sind. <!--(LINK TBD)--> | ![](assets/access-audience.png){width="50" align="center" zoomable="yes"} |
-| **Workflow-Aktivitäten anpassen**: Wenden Sie Regeln innerhalb von Workflow-Aktivitäten an, z. B. Aufspaltung und Abstimmung, um sie an Ihre spezifischen Anforderungen anzupassen. | ![](assets/access-workflow.png){width="50" align="center" zoomable="yes"} |
-| **Vordefinierte Filter**: Erstellen Sie vordefinierte Filter, die bei verschiedenen Filtervorgängen als Kurzbefehle dienen, unabhängig davon, ob Sie mit Datenlisten arbeiten oder die Audience für einen Versand bilden. | ![](assets/access-predefined-filter.png){width="50" align="center" zoomable="yes"} |
-| **Berichtsdaten filtern**: Fügen Sie eine Regel hinzu, um die in Berichten angezeigten Daten zu filtern. | ![](assets/access-reports.png){width="50" align="center" zoomable="yes"} |
-| **Listen anpassen**: Erstellen Sie benutzerdefinierte Regeln, um die in Listen angezeigten Daten zu filtern, wie z. B. Empfänger, Versandlisten usw. | ![](assets/access-lists.png){width="50" align="center" zoomable="yes"} |
+| **Zielgruppen definieren**: Geben Sie die Population an, die Sie in Ihren Nachrichten oder Workflows ansprechen möchten, und erstellen Sie mühelos neue Zielgruppen, die auf Ihre Anforderungen zugeschnitten sind. | ![](assets/access-audience.png){width="200" align="center" zoomable="yes"} |
+| **Workflow-Aktivitäten anpassen**: Wenden Sie Regeln innerhalb von Workflow-Aktivitäten an, z. B. Aufspaltung und Abstimmung, um sie an Ihre spezifischen Anforderungen anzupassen. | ![](assets/access-workflow.png){width="200" align="center" zoomable="yes"} |
+| **Vordefinierte Filter**: Erstellen Sie vordefinierte Filter, die bei verschiedenen Filtervorgängen als Kurzbefehle dienen, unabhängig davon, ob Sie mit Datenlisten arbeiten oder die Audience für einen Versand bilden. | ![](assets/access-predefined-filter.png){width="200" align="center" zoomable="yes"} |
+| **Berichtsdaten filtern**: Fügen Sie eine Regel hinzu, um die in Berichten angezeigten Daten zu filtern. | ![](assets/access-reports.png){width="200" align="center" zoomable="yes"} |
+| **Listen anpassen**: Erstellen Sie benutzerdefinierte Regeln, um die in Listen angezeigten Daten zu filtern, wie z. B. Empfänger, Versandlisten usw. | ![](assets/access-lists.png){width="200" align="center" zoomable="yes"} |
 
-## Zugriff auf das Abfragemodell {#access}
 
-Der Abfragemodellierer ist in jedem Kontext verfügbar, in dem Sie Regeln zum Filtern von Daten definieren müssen.
-
-**Zielgruppen definieren**: Geben Sie die Population an, die Sie in Ihren Nachrichten oder Workflows ansprechen möchten, und erstellen Sie mühelos neue Zielgruppen, die auf Ihre Anforderungen zugeschnitten sind. <!--(LINK TBD)-->
-
-+++Beispiel
-
-![](assets/access-audience.png)
-
-+++
-
-**Workflow-Aktivitäten anpassen**: Wenden Sie Regeln innerhalb von Workflow-Aktivitäten an, z. B. Aufspaltung und Abstimmung, um sie an Ihre spezifischen Anforderungen anzupassen. <!--(LINK TBD)-->
-
-+++Beispiel
-
-![](assets/access-workflow.png)
-
-+++
 
 <!--**Dynamize content**: make your content dynamic by creating conditions that define which content should be displayed to different recipients, ensuring personalized and relevant messaging.
 
@@ -60,29 +42,6 @@ Der Abfragemodellierer ist in jedem Kontext verfügbar, in dem Sie Regeln zum Fi
  +++
 -->
 
-**Vordefinierte Filter**: Erstellen Sie vordefinierte Filter, die bei verschiedenen Filtervorgängen als Kurzbefehle dienen, unabhängig davon, ob Sie mit Datenlisten arbeiten oder die Audience für einen Versand bilden. <!--(LINK TBD)-->
-
-+++Beispiel
-
-![](assets/access-predefined-filter.png)
-
-+++
-
-**Berichtsdaten filtern**: Fügen Sie eine Regel hinzu, um die in Berichten angezeigten Daten zu filtern. <!--(LINK TBD)-->
-
-+++Beispiel
-
-![](assets/access-reports.png)
-
-+++
-
-**Listen anpassen**: Erstellen Sie benutzerdefinierte Regeln, um die in Listen angezeigten Daten zu filtern, wie z. B. Empfänger, Versandlisten usw. <!--(LINK TBD)-->
-
-+++Beispiel
-
-![](assets/access-lists.png)
-
-+++
 
 ## Benutzeroberfläche des Abfragemodells {#interface}
 
