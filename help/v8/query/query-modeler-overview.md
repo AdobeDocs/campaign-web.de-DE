@@ -2,7 +2,7 @@
 audience: end-user
 title: Mit dem Abfrage-Modeler arbeiten
 description: Erfahren Sie, wie Sie mit dem Adobe Campaign-Webabfragenmodell arbeiten.
-source-git-commit: c89760f342c270a9bb775db1c0b5ba2e92fd64f7
+source-git-commit: 3ee80257ded04bce0333396916df71ff296f3eca
 workflow-type: tm+mt
 source-wordcount: '273'
 ht-degree: 16%
@@ -23,52 +23,52 @@ Adobe Campaign Web verfügt über einen Abfragemodellierer, der den Prozess der 
 
 Der Abfragemodellierer ist in jedem Kontext verfügbar, in dem Sie Regeln zum Filtern von Daten definieren müssen.
 
-* **Zielgruppen definieren**: Geben Sie die Population an, die Sie in Ihren Nachrichten oder Workflows ansprechen möchten, und erstellen Sie mühelos neue Zielgruppen, die auf Ihre Anforderungen zugeschnitten sind.
+**Zielgruppen definieren**: Geben Sie die Population an, die Sie in Ihren Nachrichten oder Workflows ansprechen möchten, und erstellen Sie mühelos neue Zielgruppen, die auf Ihre Anforderungen zugeschnitten sind. <!--(LINK TBD)-->
 
-  +++Beispiel
++++Beispiel
 
-  ![](assets/access-audience.png)
-
-+++
-
-* **Workflow-Aktivitäten anpassen**: Regeln innerhalb von Workflow-Aktivitäten wie Aufspaltung und Abstimmung anwenden, um Ihre spezifischen Anforderungen zu erfüllen,
-
-  +++Beispiel
-
-  ![](assets/access-workflow.png)
+![](assets/access-audience.png)
 
 +++
 
-<!--* **Dynamize content**: make your content dynamic by creating conditions that define which content should be displayed to different recipients, ensuring personalized and relevant messaging.
+**Workflow-Aktivitäten anpassen**: Wenden Sie Regeln innerhalb von Workflow-Aktivitäten an, z. B. Aufspaltung und Abstimmung, um sie an Ihre spezifischen Anforderungen anzupassen. <!--(LINK TBD)-->
 
-    +++Example
++++Beispiel
 
-    ![](assets/access-audience.png)
+![](assets/access-workflow.png)
 
-    +++
++++
+
+<!--**Dynamize content**: make your content dynamic by creating conditions that define which content should be displayed to different recipients, ensuring personalized and relevant messaging.
+
++++Example
+
+![](assets/access-audience.png)
+
+ +++
 -->
 
-* **Vordefinierte Filter**: Erstellen Sie vordefinierte Filter, die bei verschiedenen Filtervorgängen als Kurzbefehle dienen, unabhängig davon, ob Sie mit Datenlisten arbeiten oder die Audience für einen Versand bilden.
+**Vordefinierte Filter**: Erstellen Sie vordefinierte Filter, die bei verschiedenen Filtervorgängen als Kurzbefehle dienen, unabhängig davon, ob Sie mit Datenlisten arbeiten oder die Audience für einen Versand bilden. <!--(LINK TBD)-->
 
-  +++Beispiel
++++Beispiel
 
-  ![](assets/access-predefined-filter.png)
-
-+++
-
-* **Berichtsdaten filtern**: Fügen Sie eine Regel hinzu, um die in Berichten angezeigten Daten zu filtern.
-
-  +++Beispiel
-
-  ![](assets/access-reports.png)
+![](assets/access-predefined-filter.png)
 
 +++
 
-* **Listen anpassen**: Erstellen Sie benutzerdefinierte Regeln, um die in Listen angezeigten Daten zu filtern, wie z. B. Empfänger, Versandlisten usw.
+**Berichtsdaten filtern**: Fügen Sie eine Regel hinzu, um die in Berichten angezeigten Daten zu filtern. <!--(LINK TBD)-->
 
-  +++Beispiel
++++Beispiel
 
-  ![](assets/access-lists.png)
+![](assets/access-reports.png)
+
++++
+
+**Listen anpassen**: Erstellen Sie benutzerdefinierte Regeln, um die in Listen angezeigten Daten zu filtern, wie z. B. Empfänger, Versandlisten usw. <!--(LINK TBD)-->
+
++++Beispiel
+
+![](assets/access-lists.png)
 
 +++
 
