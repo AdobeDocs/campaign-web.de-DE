@@ -2,9 +2,9 @@
 audience: end-user
 title: Mit dem Abfrage-Modeler arbeiten
 description: Erfahren Sie, wie Sie mit dem Adobe Campaign-Webabfragenmodell arbeiten.
-source-git-commit: e78122b0788c04c39eac27231272cb96ad019bdc
+source-git-commit: c89760f342c270a9bb775db1c0b5ba2e92fd64f7
 workflow-type: tm+mt
-source-wordcount: '276'
+source-wordcount: '273'
 ht-degree: 16%
 
 ---
@@ -24,15 +24,58 @@ Adobe Campaign Web verfügt über einen Abfragemodellierer, der den Prozess der 
 Der Abfragemodellierer ist in jedem Kontext verfügbar, in dem Sie Regeln zum Filtern von Daten definieren müssen.
 
 * **Zielgruppen definieren**: Geben Sie die Population an, die Sie in Ihren Nachrichten oder Workflows ansprechen möchten, und erstellen Sie mühelos neue Zielgruppen, die auf Ihre Anforderungen zugeschnitten sind.
+
+  +++Beispiel
+
+  ![](assets/access-audience.png)
+
++++
+
 * **Workflow-Aktivitäten anpassen**: Regeln innerhalb von Workflow-Aktivitäten wie Aufspaltung und Abstimmung anwenden, um Ihre spezifischen Anforderungen zu erfüllen,
-* **Inhalt dynamisch**: Dynamik des Inhalts durch Erstellung von Bedingungen, die festlegen, welche Inhalte verschiedenen Empfängern angezeigt werden sollen, und die Sicherstellung personalisierter und relevanter Nachrichten.
+
+  +++Beispiel
+
+  ![](assets/access-workflow.png)
+
++++
+
+<!--* **Dynamize content**: make your content dynamic by creating conditions that define which content should be displayed to different recipients, ensuring personalized and relevant messaging.
+
+    +++Example
+
+    ![](assets/access-audience.png)
+
+    +++
+-->
+
 * **Vordefinierte Filter**: Erstellen Sie vordefinierte Filter, die bei verschiedenen Filtervorgängen als Kurzbefehle dienen, unabhängig davon, ob Sie mit Datenlisten arbeiten oder die Audience für einen Versand bilden.
+
+  +++Beispiel
+
+  ![](assets/access-predefined-filter.png)
+
++++
+
 * **Berichtsdaten filtern**: Fügen Sie eine Regel hinzu, um die in Berichten angezeigten Daten zu filtern.
+
+  +++Beispiel
+
+  ![](assets/access-reports.png)
+
++++
+
+* **Listen anpassen**: Erstellen Sie benutzerdefinierte Regeln, um die in Listen angezeigten Daten zu filtern, wie z. B. Empfänger, Versandlisten usw.
+
+  +++Beispiel
+
+  ![](assets/access-lists.png)
+
++++
 
 ## Benutzeroberfläche des Abfragemodells {#interface}
 
 Das Abfragemodell bietet eine zentrale Arbeitsfläche, auf der Sie die verschiedenen Komponenten hinzufügen und kombinieren können, um Ihre Abfrage zu erstellen.
 
-Auf der rechten Seite enthält der Bereich Regeleigenschaften Informationen zu Ihrer Abfrage. Damit können Sie verschiedene Vorgänge ausführen, um Ihre Abfrage zu überprüfen und sicherzustellen, dass sie Ihren Anforderungen entspricht. Erfahren Sie, wie Sie Ihre Abfrage überprüfen und validieren (Link TBD)
+Auf der rechten Seite enthält der Bereich Regeleigenschaften Informationen zu Ihrer Abfrage. Damit können Sie verschiedene Vorgänge ausführen, um Ihre Abfrage zu überprüfen und sicherzustellen, dass sie Ihren Anforderungen entspricht. Erfahren Sie, wie Sie Ihre Abfrage überprüfen und validieren
 
 ![](assets/query-interface.png)
