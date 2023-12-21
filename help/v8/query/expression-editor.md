@@ -2,10 +2,10 @@
 audience: end-user
 title: Erstellen Sie Ihre erste Abfrage mithilfe des Abfragemodells
 description: Erfahren Sie, wie Sie Ihre erste Abfrage in Adobe Campaign Web Query Modeler erstellen.
-source-git-commit: 7f491df76460e982c144c7ea324c9afa14901259
+source-git-commit: fdc86a99ce629a0fe2df1b5287a828b9bed3f1d5
 workflow-type: tm+mt
-source-wordcount: '1797'
-ht-degree: 83%
+source-wordcount: '1846'
+ht-degree: 80%
 
 ---
 
@@ -127,6 +127,11 @@ Die Datumsfunktionen dienen der Manipulation von Datums- oder Uhrzeitwerten.
    <td> AddYears(&lt;Datum&gt;, &lt;Zahl&gt;)<br /> </td>  
   </tr>
   <tr> 
+   <td> <strong>ConvertNTZ</strong><br /> </td> 
+   <td> Konvertiert Zeitstempel NTZ (Zeitstempel ohne Zeitzone) in TZ (Zeitstempel mit Zeitzone) mit definierter Sitzungs-TZ<br/> </td> 
+   <td> ConvertNTZ (&lt;date time=""&gt;)<br /> </td>  
+  </tr>
+  <tr> 
    <td> <strong>DateOnly</strong><br /> </td> 
    <td> Gibt nur das Datum aus (mit Uhrzeit = 00:00 Uhr)*<br /> </td> 
    <td> DateOnly(&lt;Datum&gt;)<br /> </td>  
@@ -205,6 +210,11 @@ Die Datumsfunktionen dienen der Manipulation von Datums- oder Uhrzeitwerten.
    <td> <strong>MonthsOld</strong><br /> </td> 
    <td> Gibt das Alter in Monaten in Bezug auf ein Datum aus<br /> </td> 
    <td> MonthsOld(&lt;Datum&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>Oldest</strong><br /> </td> 
+   <td> Gibt das älteste Datum in einem Bereich aus<br /> </td> 
+   <td> Oldest (&lt;date date=""&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Second</strong><br /> </td> 
@@ -287,8 +297,8 @@ Die Datumsfunktionen dienen der Manipulation von Datums- oder Uhrzeitwerten.
    <td> TruncYear(&lt;Datum&gt;)<br /> </td>  
   </tr> 
   <tr> 
-   <td> <strong>TruncWeek</strong><br /> </td> 
-   <td> Gibt die Zahl des Wochentags in Bezug auf das Datum aus (0=Montag, 6=Sonntag)<br /> </td> 
+   <td> <strong>WeekDay</strong><br /> </td> 
+   <td> Gibt eine Zahl zurück, die dem Wochentag des Datums entspricht (0=Montag, 6=Sonntag)<br /> </td> 
    <td> WeekDay(&lt;Datum&gt;)<br /> </td>  
   </tr> 
   <tr> 
@@ -300,6 +310,11 @@ Die Datumsfunktionen dienen der Manipulation von Datums- oder Uhrzeitwerten.
    <td> <strong>YearAndMonth</strong><br /> </td> 
    <td> Gibt Jahr und Monat eines Datums aus<br /> </td> 
    <td> YearAndMonth(&lt;Datum&gt;)<br /> </td>  
+  </tr>
+  <tr> 
+   <td> <strong>YearsAgo</strong><br /> </td> 
+   <td> Gibt die Anzahl von Jahren zwischen zwei angegebenen Daten aus<br /> </td> 
+   <td> YearsAgo(&lt;end date=""&gt;, &lt;start date=""&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>YearsDiff</strong><br /> </td> 
