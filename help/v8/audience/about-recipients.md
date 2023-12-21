@@ -3,10 +3,10 @@ title: Arbeiten mit Empfängerinnen bzw. Empfängern und Zielgruppen
 description: Erfahren Sie, wie Sie mit Empfängerinnen und Empfängern in Campaign Web arbeiten.
 badge: label="Beta"
 exl-id: 71a1ec92-cd79-4654-9ae3-9a92a01c6279
-source-git-commit: b06debf7fb36984ccd957125ad5597b5720d657a
+source-git-commit: 686bcc06591d56c2827a6826286503659ee6b26c
 workflow-type: tm+mt
-source-wordcount: '1027'
-ht-degree: 98%
+source-wordcount: '1049'
+ht-degree: 95%
 
 ---
 
@@ -15,6 +15,12 @@ ht-degree: 98%
 In Adobe Campaign ist die Zielpopulation eines Versands eine Zielgruppe. Eine Zielgruppe ist eine Gruppe von Personen, die ähnliche Verhaltensweisen und/oder Merkmale aufweisen. Diese Sammlung von Leuten kann entweder generiert, ausgewählt oder geladen werden, [wie im Folgenden beschrieben](#audiences). In den meisten Fällen besteht die Zielgruppe aus Profilen, die als [Empfängerinnen und Empfänger](#recipients) in Adobe Campaign gespeichert werden. Sie können auch mit anderen Zielgruppen-Mappings arbeiten, indem Sie die Dimension ändern, wie [in diesem Abschnitt](#targeting-dimensions) beschrieben.
 
 ## Was sind Empfängerinnen und Empfänger? {#recipients}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_rn4"
+>title="Empfängerinnen und Empfänger"
+>abstract="Erstellen Sie neue Empfänger und überwachen Sie sie mithilfe leistungsstarker Berichte und Tools. Greifen Sie auf das Empfängerprofil zu, verwenden Sie die Filteroptionen, um die Empfängerliste zu durchsuchen, die Attribute zu bearbeiten und zu aktualisieren."
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"
@@ -80,7 +86,7 @@ Standardmäßig haben die E-Mail- und SMS-Versandvorlagen **[!UICONTROL Empfäng
 
 Sie können auch andere integrierte Zielgruppen-Mappings in Ihren Workflows und Sendungen verwenden, die unten aufgeführt sind:
 
-| Name | Verwendung Verwendungszweck | Schema |
+| Name | Verwenden Sie | Schema |
 |---|---|---|
 | Empfängerinnen und Empfänger | Versand an Empfänger (integrierte Empfängertabelle) | nms:recipient |
 | Besucher | Versand an Besucher, deren Profile beispielsweise über Empfehlungen (Viral Marketing) erfasst wurden. | mns:visitor |

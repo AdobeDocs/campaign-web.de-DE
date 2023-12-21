@@ -4,18 +4,18 @@ title: Erste Schritte mit Workflows
 description: Erfahren Sie, wie Sie mit Workflows beginnen
 badge: label="Beta"
 exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
-source-git-commit: 351b60464d8623c34dea2c19bf86b2fa7b4fa45a
-workflow-type: ht
-source-wordcount: '390'
-ht-degree: 100%
+source-git-commit: 686bcc06591d56c2827a6826286503659ee6b26c
+workflow-type: tm+mt
+source-wordcount: '388'
+ht-degree: 99%
 
 ---
 
 # Erste Schritte mit Workflows {#workflows}
 
 >[!CONTEXTUALHELP]
->id="acw_homepage_card4"
->title="Weitere Kampagnen-Workflow-Aktivitäten"
+>id="acw_homepage_rn2"
+>title="Kanalübergreifende Workflows"
 >abstract="Erschließen Sie neue Automatisierungs- und Optimierungsmöglichkeiten, um dynamischere und stärker personalisierte Journeys zu erstellen. Von der erweiterten Segmentierung bis hin zu bedingten Triggern ermöglichen unsere zusätzlichen Workflow-Aktivitäten den Versand zielgerichteter Nachrichten und die Verbesserung der Kampagnenleistung."
 
 ## Was ist ein Workflow?
