@@ -4,19 +4,15 @@ title: Erstellen einer Zielgruppe mit dem Campaign-Regel-Builder
 description: Erfahren Sie, wie Sie mit dem Regel-Builder arbeiten
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
 badge: label="Beta"
-source-git-commit: 6425ad62b3176e07516bf61473cc1a76fdfe7a7e
+source-git-commit: 9992ae7007b5af80e927dd96b6fff25840d8c3e1
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '559'
 ht-degree: 100%
 
 ---
 
 # Arbeiten mit dem Regel-Builder {#segment-builder}
 
->[!CONTEXTUALHELP]
->id="acw_homepage_card5"
->title="Zielgruppen"
->abstract="Das Aufbauen einer Zielgruppe für einen Versand war nie einfacher! Mit unserem aktuellen Regel-Builder können Sie jetzt Filterkriterien für Empfängerinnen und Empfänger oder eine andere Zielgruppendimension von der Datenbank aus definieren. Machen Sie sich Ihre Adobe Experience Platform-Zielgruppe zunutze, um Ihre Zielgruppe weiter zu präzisieren und die Wirkung Ihrer Kampagne zu maximieren."
 
 Mit dem Regel-Builder können Sie die Population definieren, die mit Ihrem Versand angesprochen werden soll, indem Sie in der Datenbank enthaltene Daten filtern. Sie können damit eine Zielgruppe aus einem Workflow erstellen, indem Sie die Aktivität **[!UICONTROL Zielgruppe erstellen]** verwenden, oder beim Erstellen eines Versands eine Zielgruppe direkt als einmalige Zielgruppe erstellen.
 
