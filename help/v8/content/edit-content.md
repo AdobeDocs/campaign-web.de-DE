@@ -4,9 +4,9 @@ title: Bearbeiten des E-Mail-Inhalts
 description: Erfahren Sie, wie Sie den E-Mail-Inhalt in der Web-Benutzeroberfläche von Campaign bearbeiten können
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 badge: label="Beta"
-source-git-commit: 26c1322a17e3659301982daadc7eadb45efdd2b0
-workflow-type: ht
-source-wordcount: '633'
+source-git-commit: 686bcc06591d56c2827a6826286503659ee6b26c
+workflow-type: tm+mt
+source-wordcount: '624'
 ht-degree: 100%
 
 ---
@@ -35,8 +35,9 @@ ht-degree: 100%
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/content/design-content/message-tracking.html?lang=de" text="Hinzufügen von Links und Nachverfolgen von Nachrichten"
 
 Der E-Mail-Bildschirm **[!UICONTROL Inhalt bearbeiten]** ermöglicht Ihnen Folgendes:
+
 * Definieren der grundlegenden Elemente Ihrer Nachricht, z. B. die Absenderadresse und die Betreffzeile
-* Durchführen zusätzlicher Aktionen, z. B. Hinzufügen von Anlagen oder Einrichten von Angeboten
+* Durchführen zusätzlicher Aktionen, z. B. Hinzufügen von Anhängen oder Einrichten von Angeboten
 * Zugriff auf den [E-Mail-Designer](get-started-email-designer.md#start-authoring), um mit der Erstellung des eigentlichen Inhalts Ihrer E-Mail zu beginnen
 
 >[!NOTE]
@@ -87,7 +88,7 @@ Gehen Sie wie folgt vor, um den Inhalt einer E-Mail zu konfigurieren oder zu bea
 
    Sie können sie dann mithilfe von Personalisierungsfeldern in die E-Mail einfügen. [Erfahren Sie, wie Sie Angebote senden](offers.md)
 
-1. Klicken Sie auf die Schaltfläche **[!UICONTROL E-Mail-Text bearbeiten]**, um den Inhalt der E-Mail mithilfe des [E-Mail-Designers](#start-authoring) zu strukturieren und zu gestalten. Weitere Informationen zum Entwerfen von E-Mail-Inhalten finden Sie in diesen Abschnitten:
+1. Klicken Sie auf die Schaltfläche **[!UICONTROL E-Mail-Text bearbeiten]**, um den Inhalt der E-Mail mithilfe des [E-Mail-Designers](get-started-email-designer.md#start-authoring) zu strukturieren und zu gestalten. Weitere Informationen zum Entwerfen von E-Mail-Inhalten finden Sie in diesen Abschnitten:
 
    * [Verfassen von E-Mails von Grund auf neu](create-email-content.md)
    * [Gestalten Ihrer Inhalte](get-started-email-style.md)
