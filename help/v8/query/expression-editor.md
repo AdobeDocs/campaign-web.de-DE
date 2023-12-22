@@ -2,10 +2,10 @@
 audience: end-user
 title: Erstellen Sie Ihre erste Abfrage mithilfe des Abfragemodells
 description: Erfahren Sie, wie Sie Ihre erste Abfrage in Adobe Campaign Web Query Modeler erstellen.
-source-git-commit: fdc86a99ce629a0fe2df1b5287a828b9bed3f1d5
+source-git-commit: c3b9ab8cd9b234695f4aa730ca6cbd5d5bc4b186
 workflow-type: tm+mt
-source-wordcount: '1846'
-ht-degree: 80%
+source-wordcount: '1917'
+ht-degree: 77%
 
 ---
 
@@ -313,8 +313,8 @@ Die Datumsfunktionen dienen der Manipulation von Datums- oder Uhrzeitwerten.
   </tr>
   <tr> 
    <td> <strong>YearsAgo</strong><br /> </td> 
-   <td> Gibt die Anzahl von Jahren zwischen zwei angegebenen Daten aus<br /> </td> 
-   <td> YearsAgo(&lt;end date=""&gt;, &lt;start date=""&gt;)<br /> </td>  
+   <td> Gibt die Anzahl von Jahren zwischen einem bestimmten Datum und dem aktuellen Datum aus<br /> </td> 
+   <td> YearsAgo(&lt;date&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>YearsDiff</strong><br /> </td> 
@@ -447,6 +447,11 @@ In dieser Tabelle sind die restlichen verfügbaren Funktionen enthalten.
    <td> <strong>Beschreibung</strong><br /> </td> 
    <td> <strong>Syntax</strong><br /> </td> 
   </tr> 
+  <!--MISSING INFO<tr> 
+   <td> <strong>AESEncrypt</strong><br /> </td> 
+   <td> Returns value 1 if the condition is true. If not, it returns value 2.<br /> </td> 
+   <td> Case(When(&lt;condition&gt;, &lt;value 1&gt;), Else(&lt;value 2&gt;))<br /> </td> 
+  </tr> -->
   <tr> 
    <td> <strong>Case</strong><br /> </td> 
    <td> Gibt den Wert 1 aus, wenn die Bedingung wahr ist. Wenn nicht, wird der Wert 2 zurückgegeben.<br /> </td> 
@@ -467,6 +472,11 @@ In dieser Tabelle sind die restlichen verfügbaren Funktionen enthalten.
    <td> Gibt den Wert 3 aus, wenn der Wert 1 = Wert 2. Wenn nicht den Wert 4 zurückgibt.<br /> </td> 
    <td> Decode(&lt;Wert 1&gt;, &lt;Wert 2&gt;, &lt;Wert 3&gt;, &lt;Wert 4&gt;)<br /> </td>  
   </tr> 
+  <!--<tr> 
+   <td> <strong>DefaultFolder</strong><br /> </td> 
+   <td> Returns value 3 if value 1 = value 2. If not returns value 4.<br /> </td> 
+   <td> Decode(&lt;value 1&gt;, &lt;value 2&gt;, &lt;value 3&gt;, &lt;value 4&gt;)<br /> </td>  
+  </tr> -->
   <tr> 
    <td> <strong>Else</strong><br /> </td> 
    <td> Gibt den Wert 1 aus (kann nur als Parameter der 'Case'-Funktion verwendet werden)<br /> </td> 
@@ -497,6 +507,11 @@ In dieser Tabelle sind die restlichen verfügbaren Funktionen enthalten.
    <td> Gibt den Wert 2 aus, wenn der String 1 leer ist, sonst den Wert 3<br /> </td> 
    <td> IsEmptyString(&lt;Wert 1&gt;, &lt;Wert 2&gt;, &lt;Wert 3&gt;)<br /> </td>  
   </tr> 
+  <!--<tr> 
+   <td> <strong>NewUUID</strong><br /> </td> 
+   <td> Returns the empty string if the argument is NULL<br /> </td> 
+   <td> NoNull(&lt;value&gt;)<br /> </td>  
+  </tr> -->
   <tr> 
    <td> <strong>NoNull</strong><br /> </td> 
    <td> Gibt einen Leerstring aus, wenn das Argument gleich null ist<br /> </td> 
@@ -562,6 +577,11 @@ Die String-Funktionen dienen der Manipulation einer Reihe von Strings.
    <td> Charindex(&lt;String&gt;, &lt;String&gt;)<br /></td> 
   </tr> 
   <tr> 
+   <td> <strong>dataLength</strong><br /> </td> 
+   <td> Gibt die Größe des Strings in Byte aus<br /> </td> 
+   <td> dataLength(&lt;String&gt;)<br /></td> 
+  </tr> 
+  <tr> 
    <td> <strong>GetLine</strong><br /> </td> 
    <td> Gibt die n-te Zeile (beginnend bei 1) des Strings aus<br /> </td> 
    <td> GetLine(&lt;String&gt;)<br /></td> 
@@ -587,11 +607,6 @@ Die String-Funktionen dienen der Manipulation einer Reihe von Strings.
    <td> JuxtWords3(&lt;String&gt;, &lt;String&gt;, &lt;String&gt;)<br /></td>  
   </tr> 
   <tr> 
-   <td> <strong>LPad</strong><br /> </td> 
-   <td> Gibt den String linksseitig aufgefüllt aus<br /> </td> 
-   <td> LPad(&lt;String&gt;, &lt;Zahl&gt;, &lt;Zeichen&gt;)<br /></td> 
-  </tr> 
-  <tr> 
    <td> <strong>Left</strong><br /> </td> 
    <td> Gibt die n ersten Zeichen des Strings aus<br /> </td> 
    <td> Left(&lt;String&gt;, &lt;Zahl&gt;)<br /></td> 
@@ -601,10 +616,20 @@ Die String-Funktionen dienen der Manipulation einer Reihe von Strings.
    <td> Gibt die Länge des Strings aus<br /> </td> 
    <td> Length(&lt;String&gt;)<br /></td> 
   </tr> 
+  <!--<tr> 
+   <td> <strong>Line</strong><br /> </td> 
+   <td> Returns the string in lowercase<br /> </td> 
+   <td> Lower(&lt;string&gt;)<br /></td> 
+  </tr> -->
   <tr> 
    <td> <strong>Lower</strong><br /> </td> 
    <td> Gibt den String in Kleinbuchstaben aus<br /> </td> 
    <td> Lower(&lt;String&gt;)<br /></td> 
+  </tr> 
+  <tr> 
+   <td> <strong>LPad</strong><br /> </td> 
+   <td> Gibt den String linksseitig aufgefüllt aus<br /> </td> 
+   <td> LPad (&lt;string&gt;, &lt;number&gt;, &lt;char&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Ltrim</strong><br /> </td> 
@@ -622,9 +647,9 @@ Die String-Funktionen dienen der Manipulation einer Reihe von Strings.
    <td> MemoContains(&lt;Memo&gt;, &lt;String&gt;)<br /></td> 
   </tr> 
   <tr> 
-   <td> <strong>RPad</strong><br /> </td> 
-   <td> Gibt den String rechtsseitig aufgefüllt aus<br /> </td> 
-   <td> RPad(&lt;String&gt;, &lt;Zahl&gt;, &lt;Zeichen&gt;)<br /></td> 
+   <td> <strong>NodeValue</strong><br /> </td> 
+   <td> Extrahiert den Wert eines XML-Felds aus seinem XPath und den Felddaten<br /> </td> 
+   <td> NodeValue (&lt;string&gt;, &lt;string&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Right</strong><br /> </td> 
@@ -632,9 +657,24 @@ Die String-Funktionen dienen der Manipulation einer Reihe von Strings.
    <td> Right(&lt;String&gt;)<br /> </td> 
   </tr> 
   <tr> 
+   <td> <strong>RPad</strong><br /> </td> 
+   <td> Gibt den String rechtsseitig aufgefüllt aus<br /> </td> 
+   <td> RPad(&lt;String&gt;, &lt;Zahl&gt;, &lt;Zeichen&gt;)<br /></td> 
+  </tr> 
+  <tr> 
    <td> <strong>Rtrim</strong><br /> </td> 
    <td> Löscht die Leerstellen rechts vom String<br /> </td> 
    <td> Rtrim(&lt;String&gt;)<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Sha256Digest</strong><br /> </td> 
+   <td> Hexadezimale Darstellung des SHA256-Schlüssels einer Zeichenfolge.<br /> </td> 
+   <td> Sha256Digest (&lt;string&gt;)<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Sha512Digest</strong><br /> </td> 
+   <td> Hexadezimale Darstellung des SHA512-Schlüssels einer Zeichenfolge.<br /> </td> 
+   <td> Sha512Digest (&lt;string&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Smart</strong><br /> </td> 
@@ -666,11 +706,6 @@ Die String-Funktionen dienen der Manipulation einer Reihe von Strings.
    <td> Gibt den Fremdschlüssel (Text) einer als erster Parameter übergebenen Relation aus, wenn die beiden anderen Parameter identisch sind<br /> </td> 
    <td> VirtualLinkStr(&lt;String&gt;, &lt;Zahl&gt;, &lt;Zahl&gt;)<br /> </td>  
   </tr> 
-  <tr> 
-   <td> <strong>dataLength</strong><br /> </td> 
-   <td> Gibt die Größe des Strings in Byte aus<br /> </td> 
-   <td> dataLength(&lt;String&gt;)<br /> </td>  
-  </tr> 
  </tbody> 
 </table>
 
@@ -682,6 +717,11 @@ Die String-Funktionen dienen der Manipulation einer Reihe von Strings.
    <td> <strong>Name</strong><br /> </td> 
    <td> <strong>Beschreibung</strong><br /> </td> 
    <td> <strong>Syntax</strong><br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <strong>_Over__</strong><br /> </td> 
+   <td> Ausführen des SQL-Funktionsaufrufs, der als 1. Parameter über Partition oder Reihenfolge eingegeben wurde Von den als 2. Parameter eingegebenen Feldern<br /> </td> 
+   <td> _Over_ (&lt;value&gt;, &lt;value&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Desc</strong><br /> </td> 
