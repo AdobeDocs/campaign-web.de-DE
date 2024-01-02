@@ -6,10 +6,10 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
-source-git-commit: 54f91769daff0a6043a345ee44ccd84229336c36
-workflow-type: ht
-source-wordcount: '1068'
-ht-degree: 100%
+source-git-commit: d52b3c31cbb3a045e9fab4b15b0e69e3303f16d2
+workflow-type: tm+mt
+source-wordcount: '1075'
+ht-degree: 97%
 
 ---
 
@@ -33,14 +33,9 @@ Eine Vorlage kann Folgendes enthalten:
 * Links zur [Mirrorseite](../content/mirror-page.md) und [Links](../content/message-tracking.md) zur Abmeldung,
 * Andere Versandeigenschaften, z. B. die Gültigkeit der Ressource, die Parameter für erneute Zustellversuche oder die Quarantäneeinstellungen.
 
-<!--
 >[!NOTE]
 >
->Delivery templates are different from email content templates, which allow you to reuse only the content of your messages.-->
-
->[!NOTE]
->
->Versandvorlagen unterscheiden sich von [Inhaltsvorlagen](../content/email-sample-templates.md) darin, dass Sie bei letzteren damit beginnen können, Ihren Inhalt mit einer der standardmäßig bereitgestellten Beispiel-E-Mail-Vorlagen zu erstellen.
+>Versandvorlagen unterscheiden sich von [Inhaltsvorlagen](../content/create-email-templates.md), mit dem Sie nur den Inhalt Ihrer E-Mails wiederverwenden und mit der Erstellung von Inhalten mit einer der vordefinierten E-Mail-Vorlagen beginnen können.
 
 
 ## Aufrufen und Verwalten von Versandvorlagen {#access-manage-templates}

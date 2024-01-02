@@ -5,10 +5,10 @@ title: Adobe Campaign v8 – Web-Dokumentation
 description: Web-Dokumentation zu Campaign v8
 breadcrumb-title: Übersicht über Campaign
 hide: true
-source-git-commit: e78122b0788c04c39eac27231272cb96ad019bdc
+source-git-commit: d52b3c31cbb3a045e9fab4b15b0e69e3303f16d2
 workflow-type: tm+mt
-source-wordcount: '466'
-ht-degree: 96%
+source-wordcount: '473'
+ht-degree: 98%
 
 ---
 
@@ -30,18 +30,19 @@ ht-degree: 96%
    + [Hilfe und Anleitung](get-started/using-ai.md)
 + Nachrichten und Sendungen {#msg}
    + [Erste Schritte mit Nachrichten](msg/gs-messages.md)
-   + [Mit Sendungen arbeiten](msg/gs-deliveries.md)
+   + [Arbeiten mit Sendungen](msg/gs-deliveries.md)
    + [Verwenden von Versandvorlagen](msg/delivery-template.md)
    + E-Mails {#email}
       + [Erstellen Ihrer ersten E-Mail](email/create-email.md)
       + Erstellen der E-Mail-Inhalte {#content}
          + [Konfigurieren der E-Mail-Inhalte](content/edit-content.md)
+         + [Arbeiten mit Inhaltsvorlagen](content/create-email-templates.md)
          + Beginnen Sie mit der Gestaltung Ihrer E-Mail {#start-design}
             + [Erste Schritte mit dem E-Mail-Designer](content/get-started-email-designer.md)
             + [Beginnen von Grund auf](content/create-email-content.md)
             + [Importieren Ihrer E-Mail-Inhalte](content/existing-content.md)
             + [Codieren Sie Ihre eigenen Inhalte](content/code-content.md)
-            + [Verwenden von E-Mail-Inhaltsvorlagen](content/email-sample-templates.md)
+            + [Verwenden von E-Mail-Inhaltsvorlagen](content/use-email-templates.md)
          + Gestalten Ihres Inhalts {#design-content}
             + [Verwenden von Inhaltskomponenten](content/content-components.md)
             + [Hinzufügen von Links und Verfolgen von Nachrichten](content/message-tracking.md)
@@ -122,14 +123,16 @@ ht-degree: 96%
       + [E-Mail, SMS, Push](workflows/activities/channels.md)
       + [Anreicherung](workflows/activities/enrichment.md)
       + [Verzweigung](workflows/activities/fork.md)
+      + [Datei laden ](workflows/activities/load-file.md)
+      + [Abstimmung](workflows/activities/reconciliation.md)
       + [Zielgruppe speichern](workflows/activities/save-audience.md)
       + [Planung](workflows/activities/scheduler.md)
       + [Aufspaltung](workflows/activities/split.md)
       + [Warten](workflows/activities/wait.md)
 + Datenbank abfragen {#query-database}
-   + [Mit dem Abfrage-Modeler arbeiten](query/query-modeler-overview.md)
-   + [Erste Abfrage erstellen](query/build-query.md)
-   + [Ausdrücke bearbeiten](query/expression-editor.md)
+   + [Arbeiten mit dem Abfrage-Modeler](query/query-modeler-overview.md)
+   + [Erstellen Ihrer ersten Abfrage](query/build-query.md)
+   + [Bearbeitung von Ausdrücken](query/expression-editor.md)
    + [Beispiele für Abfragen](query/query-samples.md)
 + Reporting {#reports}
    + [Erste Schritte mit Berichten](reporting/gs-reports.md)

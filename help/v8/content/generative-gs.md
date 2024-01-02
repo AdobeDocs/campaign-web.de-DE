@@ -4,7 +4,7 @@ title: Erste Schritte mit dem Inhaltsassistenten
 description: Erste Schritte mit dem Inhaltsassistenten
 badge: label="Alpha"
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
-source-git-commit: bc1b4186b5869d104c6b14e09160f28bf3e28f95
+source-git-commit: d52b3c31cbb3a045e9fab4b15b0e69e3303f16d2
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 99%
@@ -50,7 +50,7 @@ Im Folgenden sind die allgemeine Richtlinien zur Verwendung des Inhaltsassistent
 * Die Qualität des generierten Inhalts wird stark durch das von Ihnen definierte Marketing-Ziel bzw. die von Ihnen definierte Eingabeaufforderung beeinflusst. Verwenden Sie eine gut definierte Eingabeaufforderung, damit das generative KI-Modell korrekt implementiert wird. 
 * Laden Sie Marken-Assets hoch, um genaue Informationen zu Markeninhalten zu haben. Andernfalls basieren Inhalte auf öffentlich verfügbaren Informationen. Der hochgeladene Inhalt kann folgende Formate haben: PDF-, JPEG-, PNG- oder ZIP-Dateien (mit unterstützten Dateiformaten).
 * Die empfohlene maximale Größe für hochgeladene Marken-Assets beträgt 10 MB. Größere Dateien oder viele Bilder können funktionieren, aber die Verarbeitungszeit verlängert sich.
-* Verwenden Sie eine von Adobe Campaign erstellte E-Mail-Vorlage oder vorzugsweise [integrierte E-Mail-Vorlagen](../content/email-sample-templates.md), um Ihren E-Mail-Inhalt zu erstellen. Es wird eine E-Mail-Vorlage mit 8 bis 10 Bildern empfohlen.
+* Verwenden Sie eine von Adobe Campaign erstellte E-Mail-Vorlage oder vorzugsweise [integrierte E-Mail-Vorlagen](../content/create-email-templates.md), um Ihren E-Mail-Inhalt zu erstellen. Es wird eine E-Mail-Vorlage mit 8 bis 10 Bildern empfohlen.
 
 
 Es gelten die folgenden Einschränkungen für den Campaign-Inhaltsassistenten:
