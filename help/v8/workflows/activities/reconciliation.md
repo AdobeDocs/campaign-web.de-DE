@@ -3,10 +3,10 @@ audience: end-user
 title: Die Workflow-Aktivität Abstimmung verwenden
 description: Erfahren Sie, wie Sie die Workflow-Aktivität Abstimmung verwenden.
 badge: label="Eingeschränkte Verfügbarkeit"
-source-git-commit: 88daf84e617595a80c5cd3fd536969618f0fdcf5
+source-git-commit: 1336690b8abe4c3697341ee1d1d704f21f7ece20
 workflow-type: tm+mt
-source-wordcount: '801'
-ht-degree: 20%
+source-wordcount: '840'
+ht-degree: 19%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation"
 >title="Aktivität „Abstimmung“"
->abstract="Die **Abstimmung** -Aktivität **Targeting** -Aktivität, mit der Sie nicht identifizierte Daten mit vorhandenen Campaign-Daten verknüpfen können. Beispiel: die **Abstimmung** -Aktivität platziert werden, nachdem eine **Audience laden** -Aktivität, um nicht standardmäßige Daten in die Datenbank zu importieren. In diesem Fall wird die **Abstimmung** ermöglicht die Definition der Relation zwischen den Daten der Adobe Campaign-Datenbank und den Daten der externen Tabelle."
+>abstract="Die **Abstimmung** -Aktivität **Targeting** -Aktivität, mit der Sie die Relation zwischen den Daten in der Adobe Campaign-Datenbank und den Daten in einer Arbeitstabelle definieren können, z. B. aus einer externen Datei geladene Daten. Beispiel: die **Abstimmung** -Aktivität platziert werden, nachdem eine **Audience laden** -Aktivität, um nicht standardmäßige Daten in die Datenbank zu importieren. In diesem Fall wird die **Abstimmung** ermöglicht die Definition der Relation zwischen den Daten der Adobe Campaign-Datenbank und den Daten der externen Tabelle."
 
 
 >[!CONTEXTUALHELP]
@@ -36,7 +36,7 @@ ht-degree: 20%
 
 
 
-Die **Abstimmung** -Aktivität **Targeting** -Aktivität, mit der Sie nicht identifizierte Daten mit vorhandenen Ressourcen verknüpfen können. Beispiel: die **Abstimmung** -Aktivität platziert werden, nachdem eine **Audience laden** -Aktivität, um nicht standardmäßige Daten in die Datenbank zu importieren. In diesem Fall wird die **Abstimmung** ermöglicht die Definition der Relation zwischen den Daten der Adobe Campaign-Datenbank und den Daten der Arbeitstabelle.
+Die **Abstimmung** -Aktivität **Targeting** -Aktivität, mit der Sie die Relation zwischen den Daten in der Adobe Campaign-Datenbank und den Daten in einer Arbeitstabelle definieren können, z. B. aus einer externen Datei geladene Daten. Beispiel: die **Abstimmung** -Aktivität platziert werden, nachdem eine **Audience laden** -Aktivität, um nicht standardmäßige Daten in die Datenbank zu importieren. In diesem Fall wird die **Abstimmung** ermöglicht die Definition der Relation zwischen den Daten der Adobe Campaign-Datenbank und den Daten der Arbeitstabelle.
 
 
 ## Best Practices {#reconciliation-best-practices}
