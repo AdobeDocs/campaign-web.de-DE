@@ -1,15 +1,15 @@
 ---
 product: campaign
 title: Verwenden von Versandvorlagen
-description: Erfahren Sie, wie Sie Versandvorlagen im Campaign Web erstellen und verwenden
+description: Erfahren Sie, wie Sie in Campaign Web Versandvorlagen erstellen und verwenden.
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
 source-git-commit: 54f91769daff0a6043a345ee44ccd84229336c36
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1068'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Um den Design-Prozess zu beschleunigen und zu verbessern, können Sie Versandvor
 
 Eine Vorlage kann Folgendes enthalten:
 
-* Die **Ordner** und **Ausführungsordner** der Vorlage. Der Ordner ist der Speicherort der Versandvorlage. Der Ausführungsordner ist der Ordner, in dem auf dieser Vorlage basierende Sendungen gespeichert werden.
+* Den **Ordner** und den **Ausführungsordner** der Vorlage. Der Ordner ist der Speicherort, an dem die Versandvorlage gespeichert wird. Der Ausführungsordner ist der Ordner, in dem die Sendungen gespeichert werden, die auf dieser Vorlage basieren.
 * [Typologien](../advanced-settings/delivery-settings.md#typology),
 * die Absenderadresse,
 * eine [Zielgruppe](../audience/about-recipients.md), einschließlich [Kontrollgruppen](../audience/control-group.md),
@@ -48,7 +48,7 @@ Eine Vorlage kann Folgendes enthalten:
 >[!CONTEXTUALHELP]
 >id="acw_delivery_templates"
 >title="Arbeiten mit Versandvorlagen"
->abstract="Verwenden Sie Versandvorlagen, um Versandeinstellungen zu erstellen und zu speichern, damit Sie sie in Ihren Kampagnen künftig verwenden können. Sie können Versandvorlagen von Grund auf neu erstellen, existierende Vorlagen duplizieren oder einen Versand in eine Vorlage umwandeln."
+>abstract="Verwenden Sie Versandvorlagen, um Versandeinstellungen zu erstellen und zu speichern, damit Sie sie in zukünftigen Kampagnen verwenden können. Sie können Versandvorlagen von Grund auf neu erstellen, existierende Vorlagen duplizieren oder einen Versand in eine Vorlage umwandeln."
 
 
 Um auf die Liste der Inhaltsvorlagen zuzugreifen, wählen Sie **[!UICONTROL Kampagnenverwaltung]** > **[!UICONTROL Sendungen]** aus dem linken Menü und wechseln Sie zur Registerkarte **Vorlagen**.
@@ -121,7 +121,7 @@ Jeder Versand kann in eine Vorlage für zukünftige, wiederholte Versandaktionen
 
 Um einen Versand als Vorlage zu speichern, gehen Sie wie folgt vor:
 
-1. Navigieren Sie zum **[!UICONTROL Kampagnenverwaltung]** > **[!UICONTROL Sendungen]** Menü.
+1. Navigieren Sie zum Menü **[!UICONTROL Kampagnenverwaltung]** > **[!UICONTROL Sendungen]**.
 1. Klicken Sie auf der Registerkarte **[!UICONTROL Durchsuchen]** auf die Schaltfläche **[!UICONTROL Mehr Aktionen]** rechts neben dem Namen des gewünschten Versands und wählen Sie **[!UICONTROL Als Vorlage kopieren]**.
 
    ![](assets/templates-convert-delivery.png)

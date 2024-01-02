@@ -6,7 +6,7 @@ exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
 badge: label="Beta"
 source-git-commit: 334014d3d89c878617b8e43ea73c9ff4e957f6d7
 workflow-type: ht
-source-wordcount: '780'
+source-wordcount: '785'
 ht-degree: 100%
 
 ---
@@ -108,11 +108,11 @@ Weitere Informationen über Versandlogs finden Sie in [diesem Abschnitt](../moni
 
 Eine andere Möglichkeit, eine Kontrollgruppe zu definieren, ist die Auswahl einer bestimmten Population in einer bestehenden Zielgruppe oder die Definition einer Abfrage.
 
-Klicken Sie im Abschnitt **Zusätzliche Population** des Definitionsbildschirms der **Kontrollgruppe** auf die Schaltfläche **[!UICONTROL Audience auswählen]**.
+Klicken Sie im Abschnitt **Zusätzliche Population** des Definitionsbildschirms der **Kontrollgruppe** auf die Schaltfläche **[!UICONTROL Zielgruppe auswählen]**.
 
 ![](assets/control-group3.png)
 
-* Um eine vorhandene Audience zu verwenden, klicken Sie auf **Audience auswählen**. Weiterführende Informationen finden Sie in [diesem Abschnitt](add-audience.md).
+* Um eine vorhandene Zielgruppe zu verwenden, klicken Sie auf **Zielgruppe auswählen**. Weiterführende Informationen finden Sie in [diesem Abschnitt](add-audience.md).
 
 * Um eine neue Abfrage zu definieren, wählen Sie **Eigene erstellen** aus und definieren Sie die Ausschlusskriterien mit dem Regel-Builder. Weiterführende Informationen finden Sie in [diesem Abschnitt](segment-builder.md).
 

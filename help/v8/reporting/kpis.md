@@ -4,9 +4,9 @@ description: Lernen Sie, die wichtigsten Leistungsindikatoren zu verstehen.
 badge: label="Beta"
 exl-id: 4b182219-100b-4101-919b-b0b770dd8515
 source-git-commit: 53f1cc7776d56a42b4027f73cb3399a8c630cdfa
-workflow-type: tm+mt
-source-wordcount: '1196'
-ht-degree: 82%
+workflow-type: ht
+source-wordcount: '1200'
+ht-degree: 100%
 
 ---
 
@@ -87,17 +87,17 @@ Der Indikator **Klicks** zeigt für jeden Kanal die folgenden KPIs an:
 Diese Metriken basieren auf der konsolidierten Tracking-Tabelle (`nms:trackingStats`). Diese Aggregattabelle wird aus Leistungsgründen bei der Anzeige von Berichten anstelle der Tabelle „Trackinglogs der Empfänger“ (`nms:trackingLogRcp`) verwendet und wird nicht in Echtzeit berechnet. Die Tabelle wird einige Minuten nach dem Abrufen der Trackinglogs generiert.
 
 
-## Abonnementraten {#ui-sub-kpi}
+## Abo-Raten {#ui-sub-kpi}
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_subscriptions"
 >title="Abonnements    "
->abstract="Diese Metrik zeigt für den ausgewählten Kanal die Summe aller Abonnements für einen Dienst und den Prozentsatz der Anmeldungen im Vergleich zur Gesamtzahl der erfolgreich zugestellten Nachrichten an."
+>abstract="Diese Metrik zeigt für den ausgewählten Kanal die Summe aller Abonnements für einen Dienst und den Prozentsatz der Abonnements im Vergleich zur Gesamtzahl der erfolgreich zugestellten Nachrichten an."
 
 
-Empfänger können sich für E-Mail- und SMS-Nachrichten anmelden.
+Empfängerinnen und Empfänger können sich für E-Mail- und SMS-Nachrichten anmelden.
 
-Die **Abonnements** zeigt die folgenden KPIs an, wobei für jeden Kanal der Prozentsatz der Anzahl der Anmeldungen in Bezug auf die Gesamtzahl der erfolgreich zugestellten Nachrichten angezeigt wird.
+Der **Abonnements**-Indikator zeigt die folgenden KPIs für jeden Kanal an: Den Prozentsatz der Anzahl der Abonnements im Vergleich zur Gesamtzahl der erfolgreich zugestellten Nachrichten.
 
 
 >[!NOTE]
@@ -149,15 +149,15 @@ Der Indikator **Fehler** zeigt für jeden Kanal die folgenden KPIs an:
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_sent"
 >title="Gesendet"
->abstract="Diese Metrik zeigt für den Briefpost-Kanal die Summe aller gesendeten Nachrichten und den Prozentsatz der an den Provider gesendeten Nachrichten in Bezug auf die Gesamtzahl der in der Versandvorbereitungsphase vorbereiteten Nachrichten an."
+>abstract="Diese Metrik zeigt für den Briefpost-Kanal die Summe aller gesendeten Nachrichten und den Prozentsatz der an den Anbieter gesendeten Nachrichten im Vergleich zur Gesamtzahl der in der Versandvorbereitungsphase vorbereiteten Nachrichten an."
 
-Während der Vorbereitungsphase wird die Extraktionsdatei der Briefpost erzeugt, die Empfängerinformationen (d. h. die Versandlogs) werden jedoch nicht aktualisiert.  Der Status eines Versands, der von &quot;Ausstehender Versand&quot;zu &quot;Gesendet&quot;verschoben wurde, wenn der Campaign-Benutzer den Versand bestätigt. Dann wird der Versand auf Abgeschlossen eingestellt.
+Während der Vorbereitungsphase wird die Extraktionsdatei der Briefpost erzeugt, die Empfängerinformationen (d. h. die Versandlogs) werden jedoch nicht aktualisiert. Der Status eines Versands wird von „Versand ausstehend“ auf „Versendet“ geändert, wenn der oder die Campaign-Benutzende den Versand bestätigt. Dann wird der Status des Versands in „Abgeschlossen“ geändert.
 
-Dabei kann es sich nicht um 100 % der gesendeten Nachrichten im Vergleich zur Gesamtzahl der vorbereiteten Nachrichten handeln, da einige Adressen fehlen oder unvollständig sein können.
+Dabei wird es nie 100 % gesendete Nachrichten im Vergleich zur Gesamtzahl der vorbereiteten Nachrichten geben, da einige Adressen möglicherweise fehlen oder unvollständig sind.
 
-Die **Gesendet** zeigt die folgenden KPIs für den Briefpost-Kanal an:
+Der Indikator **Gesendet** zeigt die folgenden KPIs für den Briefpost-Kanal an:
 
-* Prozentualer Anteil der gesendeten Nachrichten in Bezug auf die Gesamtzahl der vorbereiteten Nachrichten.
+* Prozentualer Anteil der gesendeten Nachrichten im Vergleich zur Gesamtzahl der vorbereiteten Nachrichten.
 
 * Summe aller gesendeten Nachrichten.
 

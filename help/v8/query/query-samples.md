@@ -3,9 +3,9 @@ audience: end-user
 title: Beispiele für Abfragen
 description: Erfahren Sie, wie Sie mit dem Regel-Builder arbeiten
 source-git-commit: e78122b0788c04c39eac27231272cb96ad019bdc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '177'
-ht-degree: 37%
+ht-degree: 100%
 
 ---
 
@@ -13,20 +13,20 @@ ht-degree: 37%
 
 ## Empfängerabfragen {#querying-recipient-table}
 
-* Rufen Sie die Namen und E-Mails der Empfänger ab, deren E-Mail-Domain &quot;orange.co.uk&quot; lautet und die nicht in London leben.
+* die Namen und E-Mails der Empfängerinnen und Empfänger abrufen, deren E-Mail-Domain „orange.co.uk“ lautet und die nicht in London leben.
 
-* Empfänger, die in den letzten sieben Tagen nicht kontaktiert wurden.
+* Empfängerinnen und Empfänger, die in den letzten sieben Tagen nicht kontaktiert wurden.
 
 * E-Mail-Domains, die in früheren Sendungen mehr als 30-mal kontaktiert wurden.
 
-## Sendungen {#number-of-clicks-for-a-specific-delivery}
+## Sendungsabfragen {#number-of-clicks-for-a-specific-delivery}
 
 * Anzahl der Klicks für einen bestimmten Versand.
 
-* Empfänger, die in den letzten sieben Tagen keine E-Mail geöffnet haben.
+* Empfängerinnen und Empfänger, die in den letzten sieben Tagen keine E-Mail geöffnet haben.
 
-* Profile, die in den letzten zwei Wochen einen Versand geöffnet haben:
+* Profile, die in den vergangenen zwei Wochen einen Versand geöffnet haben.
 
-* Folgen Sie einem früheren Versand.
+* Senden Sie einen Folgeversand.
 
-  Ein Versand &quot;Sommersport-Angebote&quot; wird versendet. Vier Tage nach dem Versand werden zwei weitere Sendungen gesendet. Eines davon ist &quot;Wassersport-Angebot&quot;, das andere ist eine Nachbereitung des ersten Sommersport-Angebots. Der Versand &quot;Wassersport-Angebote&quot; richtet sich an Empfänger, die in der ersten E-Mail auf Inhalte zum Thema Wassersport geklickt haben. Diese Klicks zeugen vom Interesse der Empfänger. Ähnliche Angebote könnten daher ebenfalls für diese Interessenten infrage kommen. Empfänger hingegen, die die &quot;Sommersport-Angebote&quot;-E-Mail nicht angeklickt haben, bekommen dieselben Angebote wie zuvor.
+  Ein „Sommersport-Angebot“ wird versendet. Vier Tage nach dem Versand werden zwei weitere Sendungen gesendet. Eine davon ist ein „Wassersport-Angebot“, die andere ist ein Folgeversand für das erste Sommersport-Angebot. Der Versand „Wassersport-Angebot“ richtet sich an Empfängerinnen und Empfänger, die im ersten Versand auf den Link zum Thema Wassersport geklickt haben. Diese Klicks zeugen vom Interesse der Person, sodass ähnliche Angebote ebenfalls für sie infrage kommen könnten. Empfängerinnen und Empfänger hingegen, die im „Sommersport-Angebot“ nicht darauf geklickt haben, bekommen dieselben Angebote wie zuvor.

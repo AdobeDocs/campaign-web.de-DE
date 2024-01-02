@@ -5,9 +5,9 @@ description: Erfahren Sie, wie Sie einen Push-Benachrichtigungs-Versand mit Adob
 badge: label="Beta"
 exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
 source-git-commit: 77742622a185a5105757a6823ed2c3169acd30b7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1534'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -16,25 +16,25 @@ ht-degree: 83%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_android_content"
 >title="Pushen von Android-Inhalten"
->abstract="Definieren Sie den Inhalt Ihrer Push-Benachrichtigung für Android-Geräte. Um Ihre Nachricht zu erstellen, klicken Sie auf die Schaltfläche **Inhalt bearbeiten** Schaltfläche."
+>abstract="Definieren Sie den Inhalt Ihrer Push-Benachrichtigung für Android-Geräte. Um mit der Erstellung Ihrer Nachricht zu beginnen, klicken Sie auf die Schaltfläche **Inhalt bearbeiten**."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_ios_content"
 >title="Pushen von iOS-Inhalten"
->abstract="Definieren Sie den Inhalt Ihrer Push-Benachrichtigung für iOS-Geräte. Um Ihre Nachricht zu erstellen, klicken Sie auf die Schaltfläche **Inhalt bearbeiten** Schaltfläche."
+>abstract="Definieren Sie den Inhalt Ihrer Push-Benachrichtigung für iOS-Geräte. Um mit der Erstellung Ihrer Nachricht zu beginnen, klicken Sie auf die Schaltfläche **Inhalt bearbeiten**."
 
 ## Festlegen des Inhalts der Benachrichtigung {#push-message}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_ios_msg"
 >title="Push-Nachricht für iOS"
->abstract="Definieren Sie den Inhalt Ihrer Push-Benachrichtigung für iOS-Geräte. Um Ihre Nachricht zu verfassen, klicken Sie auf die Felder **Titel** und **Nachricht**. Verwenden Sie den Ausdruckseditor, um Daten zu personalisieren und dynamische Inhalte hinzuzufügen. Weitere benutzerdefinierte Konfigurationen finden Sie unter **Erweiterte Einstellungen** Abschnitt."
+>abstract="Definieren Sie den Inhalt Ihrer Push-Benachrichtigung für iOS-Geräte. Um Ihre Nachricht zu verfassen, klicken Sie auf die Felder **Titel** und **Nachricht**. Verwenden Sie den Ausdruckseditor, um Daten zu personalisieren und dynamische Inhalte hinzuzufügen. Weitere benutzerdefinierte Konfigurationen finden Sie im Abschnitt **Erweiterte Einstellungen**."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_android_msg"
 >title="Push-Nachricht für iOS"
->abstract="Definieren Sie den Inhalt Ihrer Push-Benachrichtigung für Android-Geräte. Um Ihre Nachricht zu verfassen, klicken Sie auf die Felder **Titel** und **Nachricht**. Verwenden Sie den Ausdruckseditor, um Daten zu personalisieren und dynamische Inhalte hinzuzufügen. Um Ihre Push-Benachrichtigung weiter zu personalisieren, können Sie ein Bild auswählen, das zu Ihrer Push-Benachrichtigung hinzugefügt werden soll, das auf den Geräten Ihrer Profile angezeigte Benachrichtigungssymbol und die Farbe auswählen. Weitere benutzerdefinierte Konfigurationen finden Sie unter **Erweiterte Einstellungen** Abschnitt."
+>abstract="Definieren Sie den Inhalt Ihrer Push-Benachrichtigung für Android-Geräte. Um Ihre Nachricht zu verfassen, klicken Sie auf die Felder **Titel** und **Nachricht**. Verwenden Sie den Ausdruckseditor, um Daten zu personalisieren und dynamische Inhalte hinzuzufügen. Push-Benachrichtigungen können weiter personalisiert werden. Dazu können Sie etwa ein Bild auswählen, das der Push-Benachrichtigung hinzugefügt werden soll, sowie das Symbol der Benachrichtigung, das auf den Geräten der Profile angezeigt werden soll, und dessen Farbe. Weitere benutzerdefinierte Konfigurationen finden Sie im Abschnitt **Erweiterte Einstellungen**."
 
 
 
@@ -43,7 +43,7 @@ ht-degree: 83%
 >title="Stille Benachrichtigung für iOS"
 >abstract="Im Modus „Stilles Pushen“ kann eine „stille“ Benachrichtigung an eine Mobile App gesendet werden. Dem Benutzer wird das Eintreffen der Benachrichtigung nicht mitgeteilt. Sie wird direkt an die Mobile App übertragen."
 
-Nach der Erstellung Ihres Push-Versands können Sie dessen Inhalt definieren. Parameter und Einstellungen hängen vom mobilen Betriebssystem ab: Android oder iOS. Auf den folgenden Registerkarten erfahren Sie, wie Sie Ihre Nachricht für jedes Betriebssystem erstellen.
+Sobald Ihr Push-Versand erstellt ist, können Sie seinen Inhalt festlegen. Parameter und Einstellungen hängen vom mobilen Betriebssystem ab: Android oder iOS. Auf den folgenden Registerkarten erfahren Sie, wie Sie eine Nachricht für jedes Betriebssystem erstellen.
 
 >[!BEGINTABS]
 
@@ -54,7 +54,7 @@ Bei Firebase Cloud Messaging stehen Ihnen zwei Nachrichtentypen zur Auswahl:
 * Die **[!UICONTROL Datenmeldung]** wird von der Client-App verarbeitet. Diese Meldungen werden direkt an die App gesendet, die auf dem Gerät eine Android-Benachrichtigung generiert und anzeigt. Datennachrichten enthalten nur die von Ihnen definierten Anwendungsvariablen.
 
   Um den Inhalt zu definieren, Daten zu personalisieren und dynamische Inhalte hinzuzufügen, klicken Sie auf das Feld **[!UICONTROL Nachricht]** und verwenden Sie den Ausdruckseditor. Sie können auf diesen Editor zugreifen, um Ihre Nachrichten anzupassen.
-Im **[!UICONTROL Anwendungsvariablen]** -Menü, werden Ihre Anwendungsvariablen automatisch hinzugefügt. Mit diesen Variablen können Sie das Verhalten von Benachrichtigungen definieren. Sie können beispielsweise einen bestimmten Anwendungsbildschirm konfigurieren, der angezeigt wird, wenn die Benutzerin bzw. der Benutzer die Benachrichtigung aktiviert.
+Ihre Anwendungsvariablen werden automatisch im Menü **[!UICONTROL Anwendungsvariablen]** hinzugefügt. Mit diesen Variablen können Sie das Verhalten von Benachrichtigungen definieren. Sie können beispielsweise einen bestimmten Anwendungsbildschirm konfigurieren, der angezeigt wird, wenn die Benutzerin bzw. der Benutzer die Benachrichtigung aktiviert.
 
   ![](assets/push_content_4.png)
 
@@ -118,10 +118,10 @@ Im Modus „Stilles Pushen“ kann eine „stille“ Benachrichtigung an eine Mo
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_category"
->title="Kategoriekennung"
+>title="Kategorie-ID"
 >abstract="Geben Sie den Namen der Kategorie-ID an, die mit der Benachrichtigung verknüpft ist. Dies ermöglicht die Anzeige von Aktionsschaltflächen, mit denen Sie direkt über die Benachrichtigung verschiedene Aufgaben ausführen können, ohne die Anwendung zu öffnen."
 
-Erweiterte Optionen hängen vom mobilen Betriebssystem ab: Android oder iOS. Auf den folgenden Registerkarten erfahren Sie, wie Sie Optionen für Ihre Nachricht für jedes Betriebssystem definieren.
+Die erweiterten Optionen hängen vom mobilen Betriebssystem ab: Android oder iOS. Auf den folgenden Registerkarten erfahren Sie, wie Sie für jedes Betriebssystem Optionen für Ihre Nachricht definieren.
 
 >[!BEGINTABS]
 
@@ -147,7 +147,7 @@ Erweiterte Optionen hängen vom mobilen Betriebssystem ab: Android oder iOS. Auf
 
 | Parameter | Beschreibung |
 |---------|---------|
-| **[!UICONTROL Kritischer Alarmmodus]** | Aktivieren Sie diese Option, um Ihrer Benachrichtigung einen Ton hinzuzufügen, selbst wenn das Handy der Person auf den Fokusmodus festgelegt oder das Gerät stummgeschaltet ist. Dadurch wird sichergestellt, dass wichtige Warnhinweise vom Benutzer wahrgenommen werden. Wenn diese Option aktiviert ist, können Sie das Volumen der Benachrichtigung über die Leiste Lautstärke anpassen. Eine Zahl zwischen 0 und 100 über der Leiste spiegelt Ihre Einstellungen wider. |
+| **[!UICONTROL Kritischer Alarmmodus]** | Aktivieren Sie diese Option, um Ihrer Benachrichtigung einen Ton hinzuzufügen, selbst wenn das Handy der Person auf den Fokusmodus festgelegt oder das Gerät stummgeschaltet ist. Dadurch wird sichergestellt, dass wichtige Warnhinweise auf Benutzerseite wahrgenommen werden. Wenn diese Option aktiviert ist, können Sie das Volumen der Benachrichtigung über die Leiste für die Lautstärke anpassen. Eine Zahl zwischen 0 und 100 über der Leiste spiegelt Ihre Einstellungen wider. |
 | **[!UICONTROL Badge entfernen]** | Aktivieren Sie diese Option, um den auf dem Anwendungssymbol angezeigten Badge-Wert zu aktualisieren. Dadurch wird sichergestellt, dass das Badge die Anzahl der neuen ungelesenen Informationen genau wiedergibt. |
 | **[!UICONTROL Anzahl der Benachrichtigungen]** | Damit wird eine Zahl festgelegt, die direkt auf dem App-Symbol angezeigt wird und die Anzahl der neuen, ungelesenen Informationen angibt. Dies bietet eine schnelle visuelle Referenz für die Benutzenden. |
 | **[!UICONTROL Lautstärke]** | Lautstärke Ihres Tons auf einer Skala von 0 bis 100. |

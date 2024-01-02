@@ -5,9 +5,9 @@ description: Erfahren Sie, wie Sie Ihre erste E-Mail mit der Web-Benutzeroberfl�
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Beta"
 source-git-commit: 686bcc06591d56c2827a6826286503659ee6b26c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1314'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 98%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card3"
 >title="Erste Schritte mit E-Mails"
->abstract="Sie können einen eigenständigen E-Mail-Versand erstellen oder eine E-Mail im Rahmen eines Kampagnen-Workflows erstellen. Hier erfahren Sie, wie Sie den Versand erstellen, die Audience auswählen und den E-Mail-Inhalt erstellen."
+>abstract="Sie können einen eigenständigen E-Mail-Versand erstellen oder eine E-Mail im Rahmen eines Kampagnen-Workflows erstellen. Hier erfahren Sie, wie Sie den Versand erstellen, die Zielgruppe auswählen und den E-Mail-Inhalt entwerfen."
 
 
 Erfahren Sie, wie Sie Ihre erste E-Mail an eine bestimmte Zielgruppe senden. In diesem Anwendungsfall planen Sie den Versand einer E-Mail an Silber- und Gold-Mitglieder des Treueprogramms zu einem bestimmten Datum.
@@ -38,7 +38,7 @@ Die E-Mail basiert auf einer vordefinierten [Design-Vorlage](../content/email-sa
 >title="Definieren von E-Mail-Eigenschaften"
 >abstract="Die Eigenschaften sind die üblichen Versandparameter, nach denen Sie Ihren Versand benennen und klassifizieren können. Die zusätzlichen Einstellungen sind optional. Wenn der Versand auf einem erweiterten Schema basiert, das in der Adobe Campaign v8-Konsole definiert ist, stehen einige bestimmte **benutzerdefinierte Optionen** zur Verfügung."
 
-Sie können einen eigenständigen E-Mail-Versand erstellen oder eine E-Mail im Rahmen eines Kampagnen-Workflows erstellen. Die folgenden Schritte beschreiben die Vorgehensweise für einen eigenständigen (einmaligen) E-Mail-Versand. Erfahren Sie mehr über die Schritte zur Versanderstellung in Adobe Campaign in [diese Seite](../msg/gs-deliveries.md).
+Sie können einen eigenständigen E-Mail-Versand erstellen oder eine E-Mail im Rahmen eines Kampagnen-Workflows erstellen. Die folgenden Schritte beschreiben die Vorgehensweise für einen eigenständigen (einmaligen) E-Mail-Versand. Mehr über die Schritte zur Erstellung von Sendungen in Adobe Campaign erfahren Sie auf [dieser Seite](../msg/gs-deliveries.md).
 
 Gehen Sie wie folgt vor, um einen neuen E-Mail-Versand zu erstellen.
 

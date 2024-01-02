@@ -1,18 +1,19 @@
 ---
 product: campaign
 title: Arbeiten mit Sendungen
-description: Erfahren Sie, wie Sie Ihren ersten Versand im Campaign-Web erstellen
+description: Erfahren Sie, wie Sie Ihren ersten Versand in Campaign Web erstellen
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
-source-git-commit: 2c0f2135752a873f151443a1123a58c7c84d632f
-workflow-type: tm+mt
+exl-id: 3afff35c-c15f-46f8-b791-9bad5e38ea44
+source-git-commit: 62887b8ba24163885ad0a42c790f3d4dc8f9499e
+workflow-type: ht
 source-wordcount: '1200'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# Mit Sendungen arbeiten {#work-with-deliveries}
+# Arbeiten mit Sendungen {#work-with-deliveries}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_list"
@@ -77,7 +78,7 @@ Weiterführende Informationen zur Konfiguration einer Kampagne und zur Verwaltun
 
 ## Hinzufügen von Personalisierung {#personalization}
 
-Nachrichten, die von Adobe Campaign versendet werden, können auf verschiedene Weise personalisiert werden. [Weitere Informationen zu Personalisierungsfunktionen](../personalization/gs-personalization.md).
+Nachrichten, die von Adobe Campaign versendet werden, können auf verschiedene Weise personalisiert werden. [Weitere Informationen zu Personalisierungsfunktionen](../personalization/gs-personalization.md)
 
 Verwenden Sie Campaign, um dynamische Inhalte zu erstellen und personalisierte Nachrichten zu versenden. Personalisierungsfunktionen können kombiniert werden, um Ihre Nachrichten zu verbessern und ein individuelles Benutzererlebnis zu schaffen.
 

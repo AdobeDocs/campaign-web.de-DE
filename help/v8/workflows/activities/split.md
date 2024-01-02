@@ -5,8 +5,8 @@ description: Weitere Informationen zur Verwendung der Workflow-Aktivität „Auf
 badge: label="Beta"
 exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
 source-git-commit: 490debae92986e55f83fb42f34a629c16ab3d991
-workflow-type: tm+mt
-source-wordcount: '694'
+workflow-type: ht
+source-wordcount: '704'
 ht-degree: 100%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split"
->title="Aufspaltung Aktivität"
+>title="Aktivität „Aufspaltung“"
 >abstract="Mit der Aktivität **Aufspaltung** können Sie eingehende Populationen basierend auf unterschiedlichen Auswahlkriterien in mehrere Teilmengen segmentieren, z. B. Filterregeln oder Populationsgröße."
 
 

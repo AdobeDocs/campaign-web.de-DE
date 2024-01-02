@@ -5,9 +5,9 @@ description: Web-Benutzeroberfläche von Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
 source-git-commit: e78122b0788c04c39eac27231272cb96ad019bdc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1513'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -205,13 +205,13 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_nolongercontact"
->title="Empfänger nicht mehr kontaktieren"
->abstract="Empfänger nicht mehr kontaktieren"
+>title="Empfänger – Nicht mehr kontaktieren"
+>abstract="Empfänger – Nicht mehr kontaktieren"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_othersfields"
->title="Empfänger Sonstige"
->abstract="Empfänger Sonstige"
+>title="Empfänger – Sonstige"
+>abstract="Empfänger – Sonstige"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_cardoverview"
@@ -245,8 +245,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_readonlyprofile"
->title="Empfänger schreibgeschützt Profil"
->abstract="Empfänger schreibgeschützt Profil"
+>title="Empfänger – Schreibgeschütztes Profil"
+>abstract="Empfänger – Schreibgeschütztes Profil"
 
 
 
@@ -383,15 +383,15 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_edition"
->title="Bearbeitung von Inhaltsvorlagen"
->abstract="Bearbeitung von Inhaltsvorlagen"
+>title="Inhaltsvorlage – Bearbeitung"
+>abstract="Inhaltsvorlage – Bearbeitung"
 
 
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation"
 >title="Aktivität „Abstimmung“"
->abstract="Verwenden Sie die **Abstimmung** -Aktivität zum Verknüpfen nicht identifizierter Daten mit vorhandenen Ressourcen."
+>abstract="Mithilfe der Aktivität **Abstimmung** können Sie eine Verbindung zwischen nicht-identifizierten Daten und bereits vorhandenen Ressourcen herstellen."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_targeting"
@@ -430,8 +430,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_keep_unreconciled_data"
->title="Option &quot;Nicht abgestimmte Daten beibehalten&quot;"
->abstract="Option &quot;Nicht abgestimmte Daten beibehalten&quot;"
+>title="Option „Nicht abgestimmte Daten beibehalten“"
+>abstract="Option „Nicht abgestimmte Daten beibehalten“"
 
 
 
@@ -539,8 +539,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile"
->title="Aktivität &quot;Datei laden&quot;"
->abstract="Aktivität &quot;Datei laden&quot;"
+>title="Aktivität „Datei laden“"
+>abstract="Aktivität „Datei laden“"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_samplefile"
@@ -559,20 +559,20 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_rejectmgt"
->title="Zurückweisungsverwaltung für die Aktivität &quot;Datei laden&quot;"
->abstract="Zurückweisungsverwaltung für die Aktivität &quot;Datei laden&quot;"
+>title="Zurückweisungsverwaltung für die Aktivität „Datei laden“"
+>abstract="Zurückweisungsverwaltung für die Aktivität „Datei laden“"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_outboundtransition"
->title="Ausgehende Transition von der Verwaltung zurückweisen"
->abstract="Ausgehende Transition von der Verwaltung zurückweisen"
+>title="Ausgehende Transition von der Zurückweisungsverwaltung"
+>abstract="Ausgehende Transition von der Zurückweisungsverwaltung"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_outboundtransition_reject"
->title="Ausgehende Transition für Zurückweisungen von der Verwaltung zurückweisen"
->abstract="Ausgehende Transition für Zurückweisungen von der Verwaltung zurückweisen"
+>title="Ausgehende Transition für Zurückweisungen der Zurückweisungsverwaltung"
+>abstract="Ausgehende Transition für Zurückweisungen der Zurückweisungsverwaltung"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_formatting"
->title="Aktivität &quot;Formatierung für Datei laden&quot;"
->abstract="Aktivität &quot;Formatierung für Datei laden&quot;"
+>title="Formatierung der Aktivität „Datei laden“"
+>abstract="Formatierung der Aktivität „Datei laden“"

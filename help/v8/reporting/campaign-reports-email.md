@@ -5,9 +5,9 @@ description: Weitere Informationen zu Kampagnenberichten für den E-Mail-Kanal
 badge: label="Beta"
 exl-id: c44c91f8-1f88-4087-8417-34be64a2ab19
 source-git-commit: 928af170b0f2de1d1d397a32bdd6c0d9c3621bce
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1572'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -28,15 +28,15 @@ Der Bericht **[!UICONTROL Versandübersicht]** bietet wichtige Leistungsindikato
 
 ![](assets/campaign_report_email_1.png)
 
-+++Erfahren Sie mehr über die Metriken des E-Mail-Kampagnen-Berichts.
++++Erfahren Sie mehr über die Metriken der E-Mail-Kampagnen-Berichte.
 
-* **[!UICONTROL Zu sendende Nachrichten]**: Gesamtzahl der bei der Versandvorbereitung verarbeiteten Nachrichten.
+* **[!UICONTROL Zu sendende Nachrichten]**: Gesamtzahl der während der Versandvorbereitung verarbeiteten Nachrichten.
 
 * **[!UICONTROL Zugestellt]**: Anzahl der erfolgreich gesendeten Nachrichten im Verhältnis zur Gesamtzahl der gesendeten Nachrichten.
 
 * **[!UICONTROL Bounces]**: Summe der Fehler, die beim Versand und bei der automatischen Rücksendung kumuliert wurden, bezogen auf die Gesamtzahl der gesendeten Nachrichten.
 
-* **[!UICONTROL Öffnungen insgesamt]**: Gesamtzahl der Zielgruppenempfänger, die mindestens einmal die betreffende Nachricht geöffnet haben.
+* **[!UICONTROL Öffnungen insgesamt]**: Gesamtzahl der Zielgruppenempfängerinnen und -empfänger, die mindestens einmal eine Nachricht geöffnet haben.
 
 * **[!UICONTROL Klicks gesamt]**: Gesamtzahl der unterschiedlichen Empfängerinnen und Empfänger, die einen Versand mindestens einmal angeklickt haben.
 
@@ -53,7 +53,7 @@ Die Tabelle **[!UICONTROL Statistiken der anfänglichen Zielgruppe]** zeigt Date
 
 ![](assets/campaign_report_email_2.png)
 
-+++Erfahren Sie mehr über die Metriken des E-Mail-Kampagnen-Berichts.
++++Erfahren Sie mehr über die Metriken der E-Mail-Kampagnen-Berichte.
 
 * **[!UICONTROL Ursprüngliche Zielgruppe]**: Gesamtzahl der Zielgruppenempfängerinnen und -empfänger.
 
@@ -74,7 +74,7 @@ Die Tabelle **[!UICONTROL Ausführungsstatistiken]** zeigt den Erfolg Ihres Vers
 
 ![](assets/campaign_report_email_3.png)
 
-+++Erfahren Sie mehr über die Metriken des E-Mail-Kampagnen-Berichts.
++++Erfahren Sie mehr über die Metriken der E-Mail-Kampagnen-Berichte.
 
 * **[!UICONTROL Zu versendende Nachricht]**: Gesamtzahl der nach erfolgter Versandvorbereitung zu versendenden Nachrichten.
 
@@ -99,11 +99,11 @@ Die Tabelle **[!UICONTROL Reaktionsstatistik]** enthält die verfügbaren Daten 
 
 ![](assets/campaign_report_email_4.png)
 
-+++Erfahren Sie mehr über die Metriken des E-Mail-Kampagnen-Berichts.
++++Erfahren Sie mehr über die Metriken der E-Mail-Kampagnen-Berichte.
 
-* **[!UICONTROL Einzelöffnungen]**: Gesamtzahl der Zielgruppenempfänger, die mindestens einmal die betreffende Nachricht geöffnet haben.
+* **[!UICONTROL Einzelöffnungen]**: Gesamtzahl der Zielgruppenempfängerinnen und -empfänger, die mindestens einmal eine Nachricht geöffnet haben.
 
-* **[!UICONTROL Öffnungen insgesamt]**: Anzahl unterschiedlicher Zielgruppenempfänger dieser Domain, die mindestens einmal die betreffende Nachricht geöffnet haben.
+* **[!UICONTROL Öffnungen insgesamt]**: Anzahl der unterschiedlichen Zielgruppenempfängerinnen und -empfänger dieser Domain, die mindestens einmal eine Nachricht geöffnet haben.
 
 * **[!UICONTROL Abmeldungen]**: Anzahl der Empfängerinnen und Empfänger, die in dem betreffenden Zeitraum auf Abmeldungen geklickt haben
 
@@ -123,9 +123,9 @@ Die Tabelle **[!UICONTROL Generierte Clickstreams]** zeigt Daten dazu an, wie Ih
 
 ![](assets/campaign_report_email_5.png)
 
-+++Erfahren Sie mehr über die Metriken des E-Mail-Kampagnen-Berichts.
++++Erfahren Sie mehr über die Metriken der E-Mail-Kampagnen-Berichte.
 
-* **[!UICONTROL Einzelklicks]**: Gesamtzahl der Unique Users, die mindestens einmal im betreffenden Versand geklickt haben.
+* **[!UICONTROL Einzelklicks]**: Gesamtzahl der eindeutigen Empfängerinnen und Empfänger, die einen Versand mindestens einmal angeklickt haben.
 
 * **[!UICONTROL Klicks insgesamt]**: Gesamtzahl der Klicks auf Links in Sendungen.
 
@@ -148,7 +148,7 @@ Die in diesem Bericht angezeigten Fehler lösen einen Quarantäneprozess aus. We
 
 ![](assets/campaign_report_email_6.png)
 
-+++Erfahren Sie mehr über die Metriken des E-Mail-Kampagnen-Berichts.
++++Erfahren Sie mehr über die Metriken der E-Mail-Kampagnen-Berichte.
 
 * **[!UICONTROL Unbekannter Nutzer]**: Fehlertyp, der während des Versands erzeugt wird, um anzuzeigen, dass die E-Mail-Adresse ungültig ist.
 
@@ -188,13 +188,13 @@ Die Metriken der **[!UICONTROL Versandstatistiken]** bieten wichtige Leistungsin
 
 ![](assets/campaign_report_email_7.png)
 
-+++Erfahren Sie mehr über die Metriken des E-Mail-Kampagnen-Berichts.
++++Erfahren Sie mehr über die Metriken der E-Mail-Kampagnen-Berichte.
 
-* **[!UICONTROL Zu sendende(n) Nachricht(en)]**: Anzahl der erfolgreich verarbeiteten Nachrichten in Bezug auf die Anzahl der zu sendenden Nachrichten.
+* **[!UICONTROL Zu übermittelnde Nachricht(en)]**: Anzahl der erfolgreich verarbeiteten Nachrichten im Verhältnis zur Anzahl der zu versendenden Nachrichten.
 
-* **[!UICONTROL Einzelöffnungen]**: Gesamtzahl der Zielgruppenempfänger, die mindestens einmal die betreffende Nachricht geöffnet haben.
+* **[!UICONTROL Einzelöffnungen]**: Gesamtzahl der Zielgruppenempfängerinnen und -empfänger, die mindestens einmal eine Nachricht geöffnet haben.
 
-* **[!UICONTROL Öffnungen insgesamt]**: Anzahl unterschiedlicher Zielgruppenempfänger dieser Domain, die mindestens einmal die betreffende Nachricht geöffnet haben.
+* **[!UICONTROL Öffnungen insgesamt]**: Anzahl der unterschiedlichen Zielgruppenempfängerinnen und -empfänger dieser Domain, die mindestens einmal eine Nachricht geöffnet haben.
 
 * **[!UICONTROL Klicks auf den Abmelde-Link]**: Anzahl der Klicks auf den Abmelde-Link.
 
@@ -214,15 +214,15 @@ Die Tabelle **[!UICONTROL Öffnungs- und Clickthrough-Rate]** zeigt Daten zu Ihr
 
 ![](assets/campaign_report_email_8.png)
 
-+++ Weitere Informationen zu Berichtsmetriken für E-Mail-Kampagnen.
++++ Erfahren Sie mehr über die Metriken von E-Mail-Kampagnen-Berichten.
 
 * **[!UICONTROL Gesendet]**: Gesamtzahl der gesendeten Nachrichten.
 
-* **[!UICONTROL Beschwerden]**: Anzahl und Prozentsatz der Nachrichten für diese Domain, die vom Empfänger als unerwünscht gemeldet wurden.
+* **[!UICONTROL Beschwerden]**: Anzahl und Prozentsatz der Nachrichten für diese Domain, die von der Empfängerin oder vom Empfänger als unerwünscht gemeldet wurden.
 
-* **[!UICONTROL Einzelöffnungen]**: Anzahl und Prozentsatz der unterschiedlichen Zielgruppenempfänger dieser Domain, die mindestens einmal die betreffende Nachricht geöffnet haben.
+* **[!UICONTROL Einzelöffnungen]**: Anzahl und Prozentsatz der unterschiedlichen Zielgruppenempfängerinnen und -empfänger dieser Domain, die mindestens einmal eine Nachricht geöffnet haben.
 
-* **[!UICONTROL Einzelklicks]**: Anzahl und Prozentsatz der unterschiedlichen Zielgruppenempfänger, die mindestens einmal im betreffenden Versand geklickt haben.
+* **[!UICONTROL Einzelklicks]**: Anzahl und Prozentsatz der unterschiedlichen Zielgruppenempfängerinnen und -empfänger, die mindestens einmal im betreffenden Versand geklickt haben.
 
 * **[!UICONTROL Brutto-Reaktionsrate]**: Prozentualer Anteil der Empfängerinnen und Empfänger, die mindestens einmal in einem Versand geklickt haben, in Bezug auf die Empfängerinnen und Empfänger, die mindestens einmal einen Versand geöffnet haben.
 
@@ -239,15 +239,15 @@ Der Bericht **[!UICONTROL URLs und Clickstreams]** bietet wichtige Leistungsindi
 
 ![](assets/campaign_report_email_9.png)
 
-+++ Weitere Informationen zu Berichtsmetriken für E-Mail-Kampagnen.
++++ Erfahren Sie mehr über die Metriken von E-Mail-Kampagnen-Berichten.
 
-* **[!UICONTROL Reaktionsrate]**: Verhältnis der Anzahl an Zielgruppenempfängerinnen und -empfängern, die auf einen Versand geklickt haben, in Bezug zur geschätzten Anzahl der Zielgruppenempfängerinnen und -empfänger, die einen Versand geöffnet haben.
+* **[!UICONTROL Reaktionsrate]**: Verhältnis der Anzahl an Zielgruppenempfängerinnen und -empfängern, die auf einen Versand geklickt haben, im Verhältnis zur geschätzten Anzahl der Zielgruppenempfängerinnen und -empfänger, die einen Versand geöffnet haben.
 
 * **[!UICONTROL Einzelklicks]**: Gesamtzahl der unterschiedlichen Empfängerinnen und Empfänger, die einen Versand mindestens einmal angeklickt haben.
 
 * **[!UICONTROL Klicks insgesamt]**: Gesamtzahl der Klicks auf Links in Sendungen.
 
-* **[!UICONTROL Plattform-Durchschnitt]**: Dieser unter jeder Rate (Reaktivität, Unique Clicks und Klicks insgesamt) angezeigte Wert bezieht sich auf die Gesamtheit der in den letzten sechs Monaten gesendeten Sendungen. Nur Sendungen, die dieselbe Typologie aufweisen und die auf demselben Kanal gesendet wurden, werden berücksichtigt. Testsendungen sind von der Statistik ausgenommen.
+* **[!UICONTROL Plattform-Durchschnitt]**: Dieser unter jeder Rate (Reaktivität, unterschiedliche Klicks und Klicks insgesamt) angezeigte Durchschnittswert bezieht sich auf die Gesamtheit der in den letzten sechs Monaten gesendeten Sendungen. Nur Sendungen, die dieselbe Typologie aufweisen und die auf demselben Kanal gesendet wurden, werden berücksichtigt. Testsendungen sind von der Statistik ausgenommen.
 
 +++
 
@@ -262,7 +262,7 @@ Der Graph und die Tabelle zu den **[!UICONTROL 10 meistbesuchten Links]** enthal
 
 ![](assets/campaign_report_email_10.png)
 
-+++Erfahren Sie mehr über die Metriken des E-Mail-Kampagnen-Berichts.
++++Erfahren Sie mehr über die Metriken der E-Mail-Kampagnen-Berichte.
 
 * **[!UICONTROL Klicks]**: Gesamtzahl der Klicks auf Links in Sendungen.
 
