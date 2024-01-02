@@ -6,7 +6,7 @@ exl-id: 71a1ec92-cd79-4654-9ae3-9a92a01c6279
 source-git-commit: 30786dd96dbe74c12d9af19d1c1b46b67e3d909d
 workflow-type: tm+mt
 source-wordcount: '1060'
-ht-degree: 94%
+ht-degree: 97%
 
 ---
 
@@ -20,14 +20,14 @@ In Adobe Campaign ist die Zielpopulation eines Versands eine Zielgruppe. Eine Zi
 >[!CONTEXTUALHELP]
 >id="acw_homepage_rn4"
 >title="360 Ansicht Ihrer Empfänger"
->abstract="Erstellen Sie neue Empfänger und überwachen Sie sie mithilfe leistungsstarker Berichte und Tools. Zugriff auf die Attribute, Interaktionen und Protokolle Ihres Empfängers. Verwenden Sie die Filteroptionen, um die Empfängerliste zu durchsuchen, ihr Profil zu bearbeiten und zu aktualisieren."
+>abstract="Erstellen Sie neue Empfängerinnen und Empfänger und überwachen Sie sie mithilfe leistungsstarker Berichte und Tools. Zugriff auf die Attribute, Interaktionen und Protokolle Ihres Empfängers. Verwenden Sie die Filteroptionen, um die Empfängerliste zu durchsuchen, ihr Profil zu bearbeiten und zu aktualisieren."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="Siehe Versionshinweise"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"
 >title="Profile"
->abstract="Ein Profil ist eine Person, die für den Empfang von Nachrichten durch Adobe Campaign bestimmt ist. In Adobe Campaign sind Empfängerinnen und Empfänger die Standardprofile, an die sich Sendungen richten (E-Mails oder SMS). In dieser Liste kann das Empfängerprofil anhand der Berechtigungen angezeigt werden. Die Filteroptionen verwenden, um diese Liste zu durchsuchen. Es kann eine kleine Gruppe von Empfängerattributen bearbeitet und aktualisiert werden."
+>abstract="Ein Profil ist ein Kontakt, der mit den von Adobe Campaign gesendeten Nachrichten angesprochen wird. In Adobe Campaign sind Empfängerinnen und Empfänger die Standardprofile, an die sich Sendungen richten (E-Mails oder SMS). In dieser Liste kann das Empfängerprofil anhand der Berechtigungen angezeigt werden. Die Filteroptionen verwenden, um diese Liste zu durchsuchen. Es kann eine kleine Gruppe von Empfängerattributen bearbeitet und aktualisiert werden."
 
 Eine Empfängerin bzw. ein Empfänger ist ein Profil, das für den Empfang von Nachrichten bestimmt ist, die von Adobe Campaign gesendet werden. In Adobe Campaign sind Empfängerinnen und Empfänger die Standardprofile, an die sich Sendungen richten (E-Mails, SMS usw.). Mit den in der Datenbank gespeicherten Empfängerdaten können Sie die Zielgruppen erstellen, die einen bestimmten Versand erhalten sollen, und Personalisierungsdaten in die Versandinhalte einfügen. In der Datenbank sind weitere Arten von Profilen gespeichert. Sie sind für unterschiedliche Verwendungszwecke konzipiert: Beispielsweise werden Testprofile erstellt, um Ihre Sendungen zu testen, bevor sie an die endgültige Zielgruppe gesendet werden.
 
@@ -88,7 +88,7 @@ Standardmäßig haben die E-Mail- und SMS-Versandvorlagen **[!UICONTROL Empfäng
 
 Sie können auch andere integrierte Zielgruppen-Mappings in Ihren Workflows und Sendungen verwenden, die unten aufgeführt sind:
 
-| Name | Verwenden Sie | Schema |
+| Name | Verwendungszweck | Schema |
 |---|---|---|
 | Empfängerinnen und Empfänger | Versand an Empfänger (integrierte Empfängertabelle) | nms:recipient |
 | Besucher | Versand an Besucher, deren Profile beispielsweise über Empfehlungen (Viral Marketing) erfasst wurden. | mns:visitor |

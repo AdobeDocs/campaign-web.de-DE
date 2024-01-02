@@ -1,35 +1,35 @@
 ---
 audience: end-user
-title: Erstellen Sie Ihre erste Abfrage mithilfe des Abfragemodells
-description: Erfahren Sie, wie Sie Ihre erste Abfrage in Adobe Campaign Web Query Modeler erstellen.
+title: Erstellen Ihrer erste Abfrage mithilfe des Abfrage-Modelers
+description: Erfahren Sie, wie Sie Ihre erste Abfrage im Abfrage-Modeler in Adobe Campaign Web erstellen.
 source-git-commit: c3b9ab8cd9b234695f4aa730ca6cbd5d5bc4b186
 workflow-type: tm+mt
 source-wordcount: '1917'
-ht-degree: 77%
+ht-degree: 95%
 
 ---
 
-# Ausdrücke bearbeiten {#expression}
+# Bearbeitung von Ausdrücken {#expression}
 
-## Ausdruck bearbeiten  {#edit}
+## Bearbeitung eines Ausdrucks {#edit}
 
-Zum Bearbeiten eines Ausdrucks müssen Bedingungen manuell eingegeben werden, um eine Regel zu bilden. Diese Vorgehensweise ermöglicht die Verwendung fortgeschrittener Funktionen, über die Sie die verwendeten Werte (Datumsangaben, Strings, numerische Felder etc.) bearbeiten können, um spezifische Abfragen zu erstellen.
+Die Bearbeitung von Ausdrücken erfolgt durch die manuelle Eingabe von Bedingungen, die in ihrer Gesamtheit eine Regel bilden. Diese Vorgehensweise ermöglicht die Verwendung fortgeschrittener Funktionen, über die Sie die verwendeten Werte (Datumsangaben, Strings, numerische Felder etc.) bearbeiten können, um spezifische Abfragen zu erstellen.
 
-Diese Vorgänge sind über die Schaltfläche Ausdruck bearbeiten des Abfragemodells verfügbar, die bei der Konfiguration einer benutzerdefinierten Bedingung für die Attribute- und Wertfelder verfügbar ist.
+Diese Vorgänge sind beim Konfigurieren einer benutzerdefinierten Bedingung über die Schaltfläche „Ausdruck bearbeiten“ im Abfrage-Modeler für die Attribut- und Wertfelder verfügbar.
 
 ![](assets/edit-expression.png)
 
 Der Ausdruckseditor bietet Folgendes:
 
-* Eingabefeld, in dem der Ausdruck erstellt wird;
-* Liste der verfügbaren Felder, die im Ausdruck verwendet werden können und der Zielgruppendimension der Abfrage entsprechen.
-* Liste der verfügbaren Funktionen mit verschiedenen Unterkategorien.
+* Ein Eingabefeld, in dem der Ausdruck definiert wird;
+* Die Liste der verfügbaren Felder, die im Ausdruck verwendet werden können und die der Zielgruppendimension der Abfrage entsprechen.
+* Die Liste der verfügbaren Funktionen, sortiert nach Kategorie.
 
-Bearbeiten Sie den Ausdruck, indem Sie ihn direkt in das Eingabefeld eingeben oder die Liste der verfügbaren Felder und Funktionen verwenden. Platzieren Sie dazu den Cursor in den Ausdruck, an dem Sie das Element hinzufügen möchten, und doppelklicken Sie auf das gewünschte Feld oder den gewünschten Ausdruck.
+Bearbeiten Sie den Ausdruck, indem Sie ihn direkt in das Eingabefeld eingeben, oder unter Zuhilfenahme der verfügbaren Felder und der Funktionsliste. Platzieren Sie dazu den Cursor in den Ausdruck, an dem Sie das Element hinzufügen möchten und doppelklicken Sie auf das gewünschte Feld oder den gewünschten Ausdruck.
 
 ## Hilfsfunktionen
 
-Das Abfragetool ermöglicht die Verwendung erweiterter Funktionen, um je nach den gewünschten Ergebnissen und den Datentypen komplexe Filter durchzuführen. Die folgenden Funktionen sind verfügbar:
+Der Abfrageeditor bietet die Möglichkeit, fortgeschrittene Funktionen zur Erstellung komplexer Filter zu verwenden, je nach den gewünschten Ergebnissen und den Datentypen. Folgende Funktionen stehen zur Verfügung:
 
 ### Aggregat
 
@@ -128,8 +128,8 @@ Die Datumsfunktionen dienen der Manipulation von Datums- oder Uhrzeitwerten.
   </tr>
   <tr> 
    <td> <strong>ConvertNTZ</strong><br /> </td> 
-   <td> Konvertiert Zeitstempel NTZ (Zeitstempel ohne Zeitzone) in TZ (Zeitstempel mit Zeitzone) mit definierter Sitzungs-TZ<br/> </td> 
-   <td> ConvertNTZ (&lt;date time=""&gt;)<br /> </td>  
+   <td> Konvertiert NTZ-Zeitstempel (Zeitstempel ohne Zeitzone) in TZ (Zeitstempel mit Zeitzone) unter Anwendung der definierten Sitzungs-Zeitzone<br/> </td> 
+   <td> ConvertNTZ (&lt;date+time&gt;)<br /> </td>  
   </tr>
   <tr> 
    <td> <strong>DateOnly</strong><br /> </td> 
@@ -213,8 +213,8 @@ Die Datumsfunktionen dienen der Manipulation von Datums- oder Uhrzeitwerten.
   </tr> 
   <tr> 
    <td> <strong>Oldest</strong><br /> </td> 
-   <td> Gibt das älteste Datum in einem Bereich aus<br /> </td> 
-   <td> Oldest (&lt;date date=""&gt;)<br /> </td>  
+   <td> Gibt das älteste Datum in einem Bereich zurück<br /> </td> 
+   <td> Oldest(&lt;Datum, Datum&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Second</strong><br /> </td> 
@@ -298,7 +298,7 @@ Die Datumsfunktionen dienen der Manipulation von Datums- oder Uhrzeitwerten.
   </tr> 
   <tr> 
    <td> <strong>WeekDay</strong><br /> </td> 
-   <td> Gibt eine Zahl zurück, die dem Wochentag des Datums entspricht (0=Montag, 6=Sonntag)<br /> </td> 
+   <td> Gibt die Zahl des Wochentages in Bezug auf das Datum aus (0=Montag, 6=Sonntag)<br /> </td> 
    <td> WeekDay(&lt;Datum&gt;)<br /> </td>  
   </tr> 
   <tr> 
@@ -346,15 +346,15 @@ Die Geomarketing-Funktionen dienen der Manipulation von geografischen Werten.
   </tr> 
   <tr> 
    <td> <strong>Distance</strong><br /> </td> 
-   <td> Gibt den Abstand zwischen zwei durch Längen- und Breitengrad definierten Punkten in Grad zurück.<br /> </td> 
+   <td> Gibt die Entfernung zwischen zwei durch Längen- und Breitengrad bezeichneten Punkten aus (in Grad).<br /> </td> 
    <td> Distance(&lt;Längengrad A&gt;, &lt;Breitengrad A&gt;, &lt;Längengrad B&gt;, &lt;Breitengrad B&gt;)<br /> </td>  
   </tr> 
  </tbody> 
 </table>
 
-### Nummerisch
+### Numerisch
 
-Die numerischen Funktionen dienen der Konvertierung von Text in Zahlen.
+Die numerischen Funktionen dienen der Konversion von Text in Zahlen.
 
 <table> 
  <tbody> 
@@ -454,7 +454,7 @@ In dieser Tabelle sind die restlichen verfügbaren Funktionen enthalten.
   </tr> -->
   <tr> 
    <td> <strong>Case</strong><br /> </td> 
-   <td> Gibt den Wert 1 aus, wenn die Bedingung wahr ist. Wenn nicht, wird der Wert 2 zurückgegeben.<br /> </td> 
+   <td> Gibt Wert 1 zurück, wenn die Bedingung zutrifft. Wenn nicht, wird Wert 2 zurückgegeben.<br /> </td> 
    <td> Case(When(&lt;Bedingung&gt;, &lt;Wert 1&gt;), Else(&lt;Wert 2&gt;))<br /> </td> 
   </tr> 
   <tr> 
@@ -469,7 +469,7 @@ In dieser Tabelle sind die restlichen verfügbaren Funktionen enthalten.
   </tr> 
   <tr> 
    <td> <strong>Decode</strong><br /> </td> 
-   <td> Gibt den Wert 3 aus, wenn der Wert 1 = Wert 2. Wenn nicht den Wert 4 zurückgibt.<br /> </td> 
+   <td> Gibt Wert 3 zurück, wenn Wert 1 = Wert 2 ist. Wenn nicht, wird Wert 4 zurückgegeben.<br /> </td> 
    <td> Decode(&lt;Wert 1&gt;, &lt;Wert 2&gt;, &lt;Wert 3&gt;, &lt;Wert 4&gt;)<br /> </td>  
   </tr> 
   <!--<tr> 
@@ -494,7 +494,7 @@ In dieser Tabelle sind die restlichen verfügbaren Funktionen enthalten.
   </tr> 
   <tr> 
    <td> <strong>Iif</strong><br /> </td> 
-   <td> Gibt den Wert 1 aus, wenn der Ausdruck wahr ist. Wenn nicht, gibt den Wert 2 zurück<br /> </td> 
+   <td> Gibt Wert 1 aus, wenn die Bedingung zutrifft. Wenn nicht, wird Wert 2 zurückgegeben<br /> </td> 
    <td> Iif(&lt;Bedingung&gt;, &lt;Wert 1&gt;, &lt;Wert 2&gt;)<br /> </td>  
   </tr> 
   <tr> 
@@ -534,7 +534,7 @@ In dieser Tabelle sind die restlichen verfügbaren Funktionen enthalten.
   </tr> 
   <tr> 
    <td> <strong>When</strong><br /> </td> 
-   <td> Gibt den Wert 1 aus, wenn der Ausdruck wahr ist. Wenn nicht, wird der Wert 2 zurückgegeben (kann nur als Parameter der 'Case'-Funktion verwendet werden).<br /> </td> 
+   <td> Gibt Wert 1 aus, wenn die Bedingung zutrifft. Falls nicht, wird Wert 2 zurückgegeben (kann nur als Parameter der Case-Funktion verwendet werden)<br /> </td> 
    <td> When(&lt;Bedingung&gt;, &lt;Wert 1&gt;)<br /> </td>  
   </tr> 
  </tbody> 
@@ -573,7 +573,7 @@ Die String-Funktionen dienen der Manipulation einer Reihe von Strings.
   </tr> 
   <tr> 
    <td> <strong>Charindex</strong><br /> </td> 
-   <td> Gibt die Position des Strings 2 im String 1 zurück.<br /> </td> 
+   <td> Gibt die Position von Zeichenfolge 2 in Zeichenfolge 1 zurück.<br /> </td> 
    <td> Charindex(&lt;String&gt;, &lt;String&gt;)<br /></td> 
   </tr> 
   <tr> 
@@ -598,12 +598,12 @@ Die String-Funktionen dienen der Manipulation einer Reihe von Strings.
   </tr> 
   <tr> 
    <td> <strong>JuxtWords</strong><br /> </td> 
-   <td> Verkettet die als Parameter übergebenen Strings. Fügt bei Bedarf Leerzeichen zwischen den Zeichenfolgen hinzu.<br /> </td> 
+   <td> Verkettet die zwei als Parameter übergebenen Zeichenfolgen. Fügt bei Bedarf Leerzeichen zwischen den Zeichenfolgen hinzu.<br /> </td> 
    <td> JuxtWords(&lt;String&gt;, &lt;String&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>JuxtWords3</strong><br /> </td> 
-   <td> Verkettet die als Parameter übergebenen Strings. Fügt bei Bedarf Leerstellen zwischen den Zeichenfolgen hinzu<br /> </td> 
+   <td> Verkettet die zwei als Parameter übergebenen Zeichenfolgen. Fügt bei Bedarf Leerzeichen zwischen den Zeichenfolgen hinzu<br /> </td> 
    <td> JuxtWords3(&lt;String&gt;, &lt;String&gt;, &lt;String&gt;)<br /></td>  
   </tr> 
   <tr> 
@@ -709,7 +709,7 @@ Die String-Funktionen dienen der Manipulation einer Reihe von Strings.
  </tbody> 
 </table>
 
-### Fenster
+### Window
 
 <table> 
  <tbody> 
