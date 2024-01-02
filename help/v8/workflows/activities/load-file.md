@@ -3,10 +3,10 @@ audience: end-user
 title: Workflow-Aktivität "Datei laden"verwenden
 description: Erfahren Sie, wie Sie die Workflow-Aktivität Datei laden verwenden
 badge: label="Eingeschränkte Verfügbarkeit"
-source-git-commit: 6068e3695ebed22a94a75b9aded59d1e5fb6b47a
+source-git-commit: 88daf84e617595a80c5cd3fd536969618f0fdcf5
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 40%
+source-wordcount: '294'
+ht-degree: 39%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 40%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile"
 >title="Aktivität „Datei laden“"
->abstract="Die **Datei laden** -Aktivität **Data Management** -Aktivität. Verwenden Sie diese Aktivität, um mit Profilen zu arbeiten, die in einer externen Datei gespeichert sind."
+>abstract="Die **Datei laden** -Aktivität **Data Management** -Aktivität. Verwenden Sie diese Aktivität, um mit Daten zu arbeiten, die in einer externen Datei gespeichert sind."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_samplefile"
@@ -53,7 +53,7 @@ ht-degree: 40%
 >abstract="Formatierung der Aktivität „Datei laden“"
 
 
-Die **Datei laden** -Aktivität **Data Management** -Aktivität. Verwenden Sie diese Aktivität, um mit Profilen zu arbeiten, die in einer externen Datei gespeichert sind. Profile werden nicht zur Datenbank hinzugefügt, aber alle Felder in der Eingabedatei stehen zur Verfügung für [Personalisierung](../../personalization/gs-personalization.md)oder um Profile zu aktualisieren.
+Die **Datei laden** -Aktivität **Data Management** -Aktivität. Verwenden Sie diese Aktivität, um mit Profilen und Daten zu arbeiten, die in einer externen Datei gespeichert sind. Profile und Daten werden nicht zur Datenbank hinzugefügt, aber alle Felder in der Eingabedatei sind verfügbar für [Personalisierung](../../personalization/gs-personalization.md)oder um Profile oder andere Tabellen zu aktualisieren.
 
 
 >[!NOTE]
@@ -69,7 +69,7 @@ Führen Sie die folgenden Schritte aus, um die **Datei laden** Aktivität:
 
 
 1. Ziehen und Ablegen eines **Datei laden** in Ihren Workflow ein. Klicken Sie auf **Aus Datei auswählen** Schaltfläche.
-1. Wählen Sie die zu verwendende lokale Datei aus. Das Format muss an der [Beispieldatei](../../audience/file-audience.md#sample-file).
+1. Wählen Sie die zu verwendende lokale Datei aus. Das Format muss mit diesem [Beispieldatei](../../audience/file-audience.md#sample-file).
 1. Im mittleren Abschnitt des Bildschirms können Sie eine Vorschau der Datenzuordnung anzeigen, um sie zu überprüfen.
 1. Passen Sie die Spalteneinstellungen an und wählen Sie aus den verfügbaren Optionen aus, wie Daten formatiert werden.
 1. Klicken Sie auf **Bestätigen**, wenn die Einstellungen korrekt sind.

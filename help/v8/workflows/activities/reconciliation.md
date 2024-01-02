@@ -3,9 +3,9 @@ audience: end-user
 title: Die Workflow-Aktivität Abstimmung verwenden
 description: Erfahren Sie, wie Sie die Workflow-Aktivität Abstimmung verwenden.
 badge: label="Eingeschränkte Verfügbarkeit"
-source-git-commit: 89372e4a6c60937c646de59eb1a65b86fa1b2528
+source-git-commit: 88daf84e617595a80c5cd3fd536969618f0fdcf5
 workflow-type: tm+mt
-source-wordcount: '796'
+source-wordcount: '801'
 ht-degree: 20%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation"
 >title="Aktivität „Abstimmung“"
->abstract="Die **Abstimmung** -Aktivität **Targeting** -Aktivität. Dadurch können Sie nicht identifizierte Daten mit vorhandenen Ressourcen verknüpfen. Beispiel: die **Abstimmung** -Aktivität platziert werden, nachdem eine **Audience laden** -Aktivität, um nicht standardmäßige Daten in die Datenbank zu importieren. In diesem Fall wird die **Abstimmung** ermöglicht die Definition der Relation zwischen den Daten der Adobe Campaign-Datenbank und den Daten der Arbeitstabelle."
+>abstract="Die **Abstimmung** -Aktivität **Targeting** -Aktivität, mit der Sie nicht identifizierte Daten mit vorhandenen Campaign-Daten verknüpfen können. Beispiel: die **Abstimmung** -Aktivität platziert werden, nachdem eine **Audience laden** -Aktivität, um nicht standardmäßige Daten in die Datenbank zu importieren. In diesem Fall wird die **Abstimmung** ermöglicht die Definition der Relation zwischen den Daten der Adobe Campaign-Datenbank und den Daten der externen Tabelle."
 
 
 >[!CONTEXTUALHELP]
@@ -36,7 +36,7 @@ ht-degree: 20%
 
 
 
-Die **Abstimmung** -Aktivität **Targeting** -Aktivität. Dadurch können Sie nicht identifizierte Daten mit vorhandenen Ressourcen verknüpfen. Beispiel: die **Abstimmung** -Aktivität platziert werden, nachdem eine **Audience laden** -Aktivität, um nicht standardmäßige Daten in die Datenbank zu importieren. In diesem Fall wird die **Abstimmung** ermöglicht die Definition der Relation zwischen den Daten der Adobe Campaign-Datenbank und den Daten der Arbeitstabelle.
+Die **Abstimmung** -Aktivität **Targeting** -Aktivität, mit der Sie nicht identifizierte Daten mit vorhandenen Ressourcen verknüpfen können. Beispiel: die **Abstimmung** -Aktivität platziert werden, nachdem eine **Audience laden** -Aktivität, um nicht standardmäßige Daten in die Datenbank zu importieren. In diesem Fall wird die **Abstimmung** ermöglicht die Definition der Relation zwischen den Daten der Adobe Campaign-Datenbank und den Daten der Arbeitstabelle.
 
 
 ## Best Practices {#reconciliation-best-practices}
@@ -85,7 +85,7 @@ Führen Sie die folgenden Schritte aus, um die **Abstimmung** Aktivität:
 
 1. Wählen Sie die für die Deduplizierung zu verwendenden Abstimmfelder aus. Es können mehrere Abstimmkriterien definiert werden.
 
-   1. Um Attribute zur Abstimmung von Daten zu verwenden, wählen Sie die **Einfache Attribute** -Option. Wählen Sie beispielsweise die **Email** -Felder, um Profile anhand ihrer E-Mail-Adresse zu deduplizieren. Die **Quelle** enthält die in der eingehenden Transition zur Verfügung stehenden Felder, die abgestimmt werden sollen. Die **Ziel** den Feldern der ausgewählten Zielgruppendimension entspricht. Daten werden abgestimmt, wenn Quelle und Ziel gleich sind.
+   1. Um Attribute zur Abstimmung von Daten zu verwenden, wählen Sie die **Einfache Attribute** -Option. Die **Quelle** enthält die in der eingehenden Transition zur Verfügung stehenden Felder, die abgestimmt werden sollen. Die **Ziel** den Feldern der ausgewählten Zielgruppendimension entspricht. Daten werden abgestimmt, wenn Quelle und Ziel gleich sind. Wählen Sie beispielsweise die **Email** -Felder, um Profile anhand ihrer E-Mail-Adresse zu deduplizieren.
 
       Um weitere Abstimmkriterien hinzuzufügen, klicken Sie auf die Schaltfläche **Regel hinzufügen** Schaltfläche. Bei mehreren Abstimmkriterien müssen ALLE erfüllt sein, damit die Relation hergestellt werden kann.
 
@@ -121,7 +121,7 @@ Er wird mit den folgenden Aktivitäten erstellt:
   REESE;Richard;rreese@testmail.com;02/08/1987;
   ```
 
-* A **Abstimmung** -Aktivität, die die eingehenden Daten als Profile identifiziert, indem die **email** als Abstimmkriterien.
+* A **Abstimmung** -Aktivität, die die eingehenden Daten als Profile identifiziert, indem die **email** und **Geburtsdatum** -Felder als Abstimmkriterien.
 
   ![](../assets/workflow-reconciliation-sample-1.1.png)
 
