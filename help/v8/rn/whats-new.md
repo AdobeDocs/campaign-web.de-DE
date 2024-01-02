@@ -4,10 +4,10 @@ title: Neue Funktionen in Campaign Web v8
 description: Entdecken Sie neue Funktionen von Campaign Web v8.
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Eingeschränkte Verfügbarkeit"
-source-git-commit: 544e56a43b03e954d5c9a1f8cce155212c1be180
+source-git-commit: 29d230374230bc3da73f0cb113265facd2331b8a
 workflow-type: tm+mt
-source-wordcount: '1322'
-ht-degree: 67%
+source-wordcount: '1337'
+ht-degree: 66%
 
 ---
 
@@ -83,6 +83,8 @@ Die wichtigsten Funktionen der Campaign Web Limited Availability-Version sind un
 * **Weitere Kampagnen-Workflow-Aktivitäten**
 
   Bringen Sie Ihre Marketing-Kampagnen mit unserem **erweiterten Satz von Workflow-Aktivitäten** auf die Überholspur. Erschließen Sie neue Automatisierungs- und Optimierungsmöglichkeiten, um dynamischere und stärker personalisierte Journeys zu erstellen. Von der erweiterten Segmentierung bis hin zu bedingten Triggern ermöglichen unsere zusätzlichen Workflow-Aktivitäten den Versand zielgerichteter Nachrichten und die Verbesserung der Kampagnenleistung.
+
+  Die neuen Aktivitäten, die mit der neuesten LA-Version eingeführt werden, sind: **Abstimmung**, **Audience laden**, und **Audience-Speicherung**.
 
   Weiterführende Informationen finden Sie in [diesem Abschnitt](../workflows/gs-workflows.md).
 

@@ -4,10 +4,10 @@ title: Erstellen eines Push-Benachrichtigungs-Versands
 description: Erfahren Sie, wie Sie einen Push-Benachrichtigungs-Versand mit Adobe Campaign Web erstellen
 badge: label="Beta"
 exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
-source-git-commit: 77742622a185a5105757a6823ed2c3169acd30b7
-workflow-type: ht
-source-wordcount: '1534'
-ht-degree: 100%
+source-git-commit: 29d230374230bc3da73f0cb113265facd2331b8a
+workflow-type: tm+mt
+source-wordcount: '1533'
+ht-degree: 98%
 
 ---
 
@@ -96,7 +96,7 @@ Im Modus „Stilles Pushen“ kann eine „stille“ Benachrichtigung an eine Mo
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_count"
 >title="Anzahl der Benachrichtigungen"
->abstract="Verwenden Sie diese Option, damit die Zahl der neuen, ungelesenen Informationen direkt auf dem Symbol der App angezeigt wird. Dadurch können die Benutzenden die Anzahl der ausstehenden Benachrichtigungen schnell sehen."
+>abstract="Verwenden Sie diese Option, um die Anzahl der ungelesenen Benachrichtigungen festzulegen, die direkt auf dem App-Symbol angezeigt werden sollen. Dadurch können die Benutzenden die Anzahl der ausstehenden Benachrichtigungen schnell sehen."
 
 
 >[!CONTEXTUALHELP]
