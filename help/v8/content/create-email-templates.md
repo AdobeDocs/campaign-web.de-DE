@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 badge: label="LA"
-source-git-commit: d52b3c31cbb3a045e9fab4b15b0e69e3303f16d2
+source-git-commit: 28b6253cfd257c5522b728222aadc92a1736200d
 workflow-type: tm+mt
 source-wordcount: '739'
 ht-degree: 12%
@@ -140,7 +140,7 @@ Gehen Sie wie folgt vor, um eine neue Inhaltsvorlage zu erstellen.
 
 Diese Vorlage kann jetzt beim Erstellen von E-Mails in verwendet werden [!DNL Adobe Campaign]. [Weitere Informationen dazu](use-email-templates.md)
 
-## Speichern von E-Mail-Inhalten als Vorlage {#save-as-template}
+### Speichern von E-Mail-Inhalten als Vorlage {#save-as-template}
 
 Sobald Sie [eine E-Mail gestaltet haben](create-email-content.md), können Sie diesen Inhalt als Vorlage speichern, um ihn später wiederzuverwenden. Gespeicherte Vorlagen stehen allen in Ihrer Adobe Campaign-Umgebung zur Verfügung.
 
