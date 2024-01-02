@@ -4,10 +4,10 @@ title: Ansprechen von Empfängerinnen und Empfängern aus einer Datei
 description: Erfahren Sie, wie Sie mit Empfängerinnen und Empfängern aus einer externen Datei eine E-Mail-Zielgruppe erstellen können.
 badge: label="Beta"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: 5dada8e96ff5b1db7ecc18b5a442fae56a4a31f2
+source-git-commit: b36de9228725e199497720d3fb3bc46427ca7663
 workflow-type: tm+mt
-source-wordcount: '597'
-ht-degree: 100%
+source-wordcount: '612'
+ht-degree: 86%
 
 ---
 
@@ -21,26 +21,25 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_columns"
 >title="Spaltendefinition"
->abstract="Überprüfen Sie das Format der Spalten, die aus Ihrer lokalen Datei eingefügt werden sollen."
+>abstract="Überprüfen Sie das Format der Spalten in der externen Datei."
 
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_formatting"
 >title="Formatierungsparameter"
->abstract="Überprüfen Sie die Formatierungsparameter für Ihre Datei."
+>abstract="Überprüfen Sie die Formatierungsparameter für die externe Datei."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_preview"
 >title="Anzeige der Datei in der Vorschau"
->abstract="Überprüfen Sie die Vorschau Ihrer Datei. Dieser Bildschirm zeigt nur maximal 30 Einträge an."
+>abstract="Überprüfen Sie die Vorschau der Spalten der externen Datei. Dieser Bildschirm zeigt nur maximal 30 Einträge an."
 
 
-
-Es ist nicht möglich, Profile direkt über die Benutzeroberfläche in Campaign hochzuladen. Sie können jedoch auch Profile auswählen, die in einer externen Datei gespeichert sind. Profile werden nicht zur Datenbank hinzugefügt, aber alle Felder in der Eingabedatei können [personalisiert](../personalization/gs-personalization.md) werden. Unterstützte Dateiformate sind: Text (TXT) und kommagetrennte Werte (CSV).
+Sie können Profile auswählen, die in einer externen Datei gespeichert sind. Profile werden nicht zur Datenbank hinzugefügt, aber alle Felder in der Eingabedatei können [personalisiert](../personalization/gs-personalization.md) werden. Unterstützte Dateiformate sind: Text (TXT) und kommagetrennte Werte (CSV). In diesem Artikel wird beschrieben, wie Sie beim Erstellen eines eigenständigen E-Mail-Versands ein externes Profil laden. Informationen zum Laden von Daten aus einer Datei in einen Workflow finden Sie unter [diese Seite](../workflows/activities/load-file.md).
 
 >[!CAUTION]
 >
->* Diese Funktion ist nur für **eigenständige E-Mail-Sendungen** verfügbar. Sie kann nicht in Workflows oder in SMS- oder Push-Sendungen verwendet werden.
+>* Diese Funktion ist nur verfügbar für **E-Mail-Sendungen**. Sie kann nicht mit SMS- oder Push-Sendungen verwendet werden.
 >
 >* Sie können keine [Kontrollgruppen](control-group.md) verwenden, wenn Sie die Zielgruppen-Population aus einer externen Datei laden.
 >

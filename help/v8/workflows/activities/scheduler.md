@@ -4,10 +4,10 @@ title: Verwenden der Workflow-Aktivität „Planung“
 description: Erfahren Sie, wie Sie die Workflow-Aktivität „Planung“ verwenden.
 badge: label="Beta"
 exl-id: 84142fbe-fd8a-4329-88a5-cf7a8f4e8b8f
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
-workflow-type: ht
-source-wordcount: '518'
-ht-degree: 100%
+source-git-commit: dfe2360d4a05b959b1094ccffd131fd703650f3e
+workflow-type: tm+mt
+source-wordcount: '526'
+ht-degree: 99%
 
 ---
 
@@ -28,7 +28,7 @@ Die Aktivität **Planung** ist eine Aktivität zur **Flusssteuerung**. Damit kö
 * Wenn Sie in Ihrem Workflow einen einmaligen Versand senden möchten, können Sie eine Planungsaktivität hinzufügen und für sie festlegen, dass sie **einmal** ausgeführt wird. Sie können außerdem den **Zeitplan** in den Versandeinstellungen festlegen.
 * Wenn Sie einen wiederkehrenden Versand in Ihrem Workflow durchführen möchten, müssen Sie eine **Planungsaktivität** verwenden und die Ausführungshäufigkeit festlegen. Die Aktivität „Wiederkehrender Versand“ ermöglicht keine Festlegung eines Zeitplans.
 
-## Konfiguration{#scheduler-configuration}
+## Planungsaktivität konfigurieren {#scheduler-configuration}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_schedule_validity"
