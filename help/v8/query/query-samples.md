@@ -1,11 +1,12 @@
 ---
 audience: end-user
 title: Beispiele für Abfragen
-description: Erfahren Sie, wie Sie mit dem Regel-Builder arbeiten
-source-git-commit: e78122b0788c04c39eac27231272cb96ad019bdc
-workflow-type: ht
-source-wordcount: '177'
-ht-degree: 100%
+description: Erfahren Sie, wie Sie mit dem Regel-Builder arbeiten.
+badge: label="Eingeschränkte Verfügbarkeit"
+source-git-commit: a53f33360f0dc7ca80b235bd5814fd3ccc0ff698
+workflow-type: tm+mt
+source-wordcount: '179'
+ht-degree: 95%
 
 ---
 
