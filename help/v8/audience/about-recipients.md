@@ -2,9 +2,9 @@
 title: Profile überwachen und verwalten
 description: Erfahren Sie, wie Sie Profile im Campaign Web überwachen und verwalten.
 badge: label="Eingeschränkte Verfügbarkeit"
-source-git-commit: e61878f325575377865186fb9cb63b831ac843fd
+source-git-commit: 41c38ff3b18c28fbcb6fd07dd398600a207f53cb
 workflow-type: tm+mt
-source-wordcount: '662'
+source-wordcount: '663'
 ht-degree: 9%
 
 ---
@@ -50,7 +50,7 @@ Sie können die Profilliste mithilfe des Suchfelds filtern oder die in der **Fil
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_address"
->title= "Address"
+>title="Adresse"
 >abstract="Dieser Abschnitt bietet Einblicke in die Postanschrift des Profils und die Adressenqualität. Um Informationen zu ändern, nehmen Sie die gewünschten Änderungen direkt im entsprechenden Feld vor und klicken Sie auf **Speichern** -Schaltfläche in der oberen rechten Ecke des Bildschirms."
 
 >[!CONTEXTUALHELP]
