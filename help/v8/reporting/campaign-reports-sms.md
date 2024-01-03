@@ -2,11 +2,11 @@
 audience: end-user
 title: Kampagnenberichte für den SMS-Kanal
 description: Grundlegendes zu Kampagnenberichten für den SMS-Kanal
-badge: label="Beta"
+badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: 0df9b999-84c8-4e42-b5da-857b2ef0dd75
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
-workflow-type: ht
-source-wordcount: '499'
+source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
+workflow-type: tm+mt
+source-wordcount: '492'
 ht-degree: 100%
 
 ---

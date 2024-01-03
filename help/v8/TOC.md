@@ -5,10 +5,10 @@ title: Adobe Campaign v8 – Web-Dokumentation
 description: Web-Dokumentation zu Campaign v8
 breadcrumb-title: Übersicht über Campaign
 hide: true
-source-git-commit: 6fbc6d477aac54e8cb7a1eeba40f7c32903c261f
+source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
 workflow-type: tm+mt
-source-wordcount: '502'
-ht-degree: 90%
+source-wordcount: '508'
+ht-degree: 88%
 
 ---
 
@@ -143,17 +143,17 @@ ht-degree: 90%
    + [Erste Schritte mit Berichten](reporting/gs-reports.md)
    + [Wichtige Leistungsindikatoren](reporting/kpis.md)
    + Versandberichte {#delivery-report}
-      + [Zugreifen auf Versandberichte](reporting/delivery-reports.md)
+      + [Erste Schritte mit Versandberichten](reporting/delivery-reports.md)
       + [E-Mail-Versandbericht](reporting/email-report.md)
       + [Push-Versandbericht](reporting/push-report.md)
       + [SMS-Versandbericht](reporting/sms-report.md)
    + Kampagnenberichte {#campaign-report}
-      + [Zugriff auf Kampagnenberichte](reporting/campaign-reports.md)
+      + [Erste Schritte mit Kampagnenberichten](reporting/campaign-reports.md)
       + [E-Mail-Kampagnenbericht](reporting/campaign-reports-email.md)
       + [Push-Kampagnenbericht](reporting/campaign-reports-push.md)
       + [SMS-Kampagnenbericht](reporting/campaign-reports-sms.md)
    + Allgemeine Berichte {#global-report}
-      + [Zugriff auf globale Berichte](reporting/global-reports.md)
+      + [Erste Schritte mit globalen Berichten](reporting/global-reports.md)
       + [Globaler E-Mail-Bericht](reporting/global-report-email.md)
       + [Push global report](reporting/global-report-push.md)
       + [Globaler SMS-Bericht](reporting/global-report-sms.md)

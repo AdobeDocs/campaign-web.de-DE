@@ -2,11 +2,11 @@
 audience: end-user
 title: E-Mail-Versandberichte
 description: Erfahren Sie, wie Sie auf E-Mail-Versandberichte zugreifen und diese verwenden können
-badge: label="Beta"
+badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: 2a0bd3e9-5d75-47c8-bd6a-b3e0b1ce0a01
-source-git-commit: fa68c32b61583e41819cfe4e31bc17305126396c
+source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
 workflow-type: tm+mt
-source-wordcount: '2254'
+source-wordcount: '2245'
 ht-degree: 100%
 
 ---
@@ -60,7 +60,7 @@ Der Graph **[!UICONTROL Versandstatistiken]** gibt Auskunft über den Erfolg Ihr
 
 ![](assets/reporting_email_2.png){width="50%" align="left" zoomable="yes"}
 
-+++Erfahren Sie mehr über die Metriken des E-Mail-Kampagnen-Berichts.
++++Erfahren Sie mehr über die Metriken der E-Mail-Kampagnen-Berichte.
 
 * **[!UICONTROL Gesendete Nachricht]**: Gesamtzahl der nach erfolgter Versandvorbereitung zu versendenden Nachrichten.
 
@@ -278,7 +278,7 @@ Der Bericht **[!UICONTROL URLs und Clickstreams]** bietet wichtige Leistungsindi
 
 * **[!UICONTROL Klicks]**: Gesamtzahl der Klicks auf Links in Sendungen.
 
-* **[!UICONTROL Plattform-Durchschnitt]**: Dieser unter jeder Rate (Reaktivität, Unique Clicks und Klicks insgesamt) angezeigte Wert bezieht sich auf die Gesamtheit der in den letzten sechs Monaten gesendeten Sendungen. Nur Sendungen, die dieselbe Typologie aufweisen und die auf demselben Kanal gesendet wurden, werden berücksichtigt. Testsendungen sind von der Statistik ausgenommen.
+* **[!UICONTROL Plattform-Durchschnitt]**: Dieser unter jeder Rate (Reaktivität, unterschiedliche Klicks und Klicks insgesamt) angezeigte Durchschnittswert bezieht sich auf die Gesamtheit der in den letzten sechs Monaten gesendeten Sendungen. Nur Sendungen, die dieselbe Typologie aufweisen und die auf demselben Kanal gesendet wurden, werden berücksichtigt. Testsendungen sind von der Statistik ausgenommen.
 
 +++
 

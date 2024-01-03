@@ -3,7 +3,7 @@ audience: end-user
 title: Allgemeine Berichte für den SMS-Kanal
 description: Allgemeine Berichte für den SMS-Kanal
 badge: label="Eingeschränkte Verfügbarkeit"
-source-git-commit: 6fbc6d477aac54e8cb7a1eeba40f7c32903c261f
+source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
 workflow-type: tm+mt
 source-wordcount: '401'
 ht-degree: 26%

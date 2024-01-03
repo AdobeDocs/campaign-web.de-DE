@@ -2,11 +2,11 @@
 audience: end-user
 title: SMS-Versandberichte
 description: Erfahren Sie, wie Sie auf SMS-Versandberichte zugreifen und diese verwenden können
-badge: label="Beta"
+badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: 153d3a85-0d39-42db-9906-1e7f2d1d5bae
-source-git-commit: 23ca6ee9008587923fe0102612abf41a764214cc
+source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '506'
 ht-degree: 100%
 
 ---
