@@ -2,9 +2,10 @@
 audience: end-user
 title: Filterlisten
 description: Erfahren Sie, wie Sie Adobe Campaign-Weblisten mithilfe integrierter und benutzerdefinierter Filter filtern.
-source-git-commit: 843f3ad906d81892f45281ef5734d512b4c8f3d6
+badge: label="Eingeschränkte Verfügbarkeit"
+source-git-commit: 7f4d8a2c2b0592515c25628f35234311dc61b4fd
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '308'
 ht-degree: 6%
 
 ---
