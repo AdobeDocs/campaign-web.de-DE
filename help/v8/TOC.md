@@ -5,10 +5,10 @@ title: Adobe Campaign v8 – Web-Dokumentation
 description: Web-Dokumentation zu Campaign v8
 breadcrumb-title: Übersicht über Campaign
 hide: true
-source-git-commit: 5183dd0045c7f13e79f65eca5b31dfd4cde2f31d
+source-git-commit: 6ea9ab9a69f0eff5d996926e25dc679a43eca918
 workflow-type: tm+mt
-source-wordcount: '482'
-ht-degree: 95%
+source-wordcount: '488'
+ht-degree: 94%
 
 ---
 
@@ -89,7 +89,9 @@ ht-degree: 95%
       + [Rendern Ihrer E-Mail](preview-test/email-rendering.md)
 + Zielgruppen und Empfängerinnen bzw. Empfänger {#audiences}
    + [Erste Schritte mit Empfängern und Zielgruppen](audience/gs-audiences-recipients.md)
-   + [Arbeiten mit Empfängern](audience/about-recipients.md)
+   + Arbeiten mit Empfängern {#work-with-recipients}
+      + [Verwalten von Profilen](audience/about-recipients.md)
+      + [Testprofile erstellen und verwalten](audience/test-profiles.md)
    + Arbeiten mit Zielgruppen {#audiences}
       + [Zielgruppen erstellen](audience/create-audience.md)
       + [Verwalten und Überwachen von Zielgruppen](audience/manage-audience.md)
