@@ -3,7 +3,7 @@ audience: end-user
 title: Die Workflow-Aktivität Abstimmung verwenden
 description: Erfahren Sie, wie Sie die Workflow-Aktivität Abstimmung verwenden.
 badge: label="Eingeschränkte Verfügbarkeit"
-source-git-commit: 1336690b8abe4c3697341ee1d1d704f21f7ece20
+source-git-commit: edd8ab0705bfdd0228c9c651787ce289283469f2
 workflow-type: tm+mt
 source-wordcount: '840'
 ht-degree: 19%
@@ -64,7 +64,7 @@ Während **Anreicherung** Mithilfe der Aktivität können Sie zusätzliche Daten
 >id="acw_orchestration_reconciliation_targeting_selection"
 >title="Auswählen der Zielgruppendimension"
 >abstract="Wählen Sie die Zielgruppendimension für Ihre eingehenden Daten aus, mit der abgestimmt werden soll."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/about-recipients.html?lang=en#targeting-dimensions" text="Zielgruppendimensionen"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/gs-audiences-recipients.html#targeting-dimensions" text="Zielgruppendimensionen"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_keep_unreconciled_data"
