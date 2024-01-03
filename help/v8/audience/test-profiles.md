@@ -5,9 +5,9 @@ feature: Audiences, Profiles, Seed Address, Proofs
 role: User
 level: Beginner
 badge: label="Eingeschränkte Verfügbarkeit"
-source-git-commit: 59094528cb3683dba7264e6b63b5166a0a91f8ed
+source-git-commit: 78f9bba52f33fac0e444afb3476873d931a873d1
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '544'
 ht-degree: 14%
 
 ---
@@ -31,13 +31,19 @@ Die Schritte zum Senden von Testnachrichten an Testadressen werden im Abschnitt 
 
 ## Testprofile aufrufen und verwalten {#access-test-profiles}
 
-Um auf die Liste der Inhaltsvorlagen zuzugreifen, wählen Sie **[!UICONTROL Kundenverwaltung]** > **[!UICONTROL Profile]** Wählen Sie im linken Menü die Option **[!UICONTROL Testprofile]** Registerkarte.
+Um auf die Testprofilliste zuzugreifen, wählen Sie **[!UICONTROL Kundenverwaltung]** > **[!UICONTROL Profile]** Klicken Sie im linken Menü auf die Schaltfläche **[!UICONTROL Testprofile]** Registerkarte.
+
+![](assets/test-profile-list.png)
 
 Sie können nach [Ordner](../get-started/permissions.md#folders) über die Dropdown-Liste oder das Hinzufügen von Regeln mithilfe der [Abfragemodellierung](../query/query-modeler-overview.md).
+
+![](assets/test-profile-list-filters.png)
 
 Um ein Testprofil zu bearbeiten, klicken Sie in der Liste auf das gewünschte Element.
 
 Um ein Testprofil zu löschen, wählen Sie die entsprechende Option aus dem **[!UICONTROL Mehr Aktionen]** Menü.
+
+![](assets/test-profile-list-delete.png)
 
 ## Erstellen eines Testprofils {#create-test-profile}
 
@@ -48,11 +54,7 @@ Um ein Testprofil zu löschen, wählen Sie die entsprechende Option aus dem **[!
 
 Gehen Sie wie folgt vor, um ein Testprofil zu erstellen.
 
-1. Navigieren Sie zu **[!UICONTROL Kundenverwaltung]** > **[!UICONTROL Profile]**.
-
-1. Wählen Sie die **[!UICONTROL Testprofile]** Registerkarte.
-
-   ![](assets/test-profile-list.png)
+1. Navigieren Sie zu **[!UICONTROL Kundenverwaltung]** > **[!UICONTROL Profile]** und wählen Sie die **[!UICONTROL Testprofile]** Registerkarte.
 
 1. Klicken Sie auf **[!UICONTROL Testprofil erstellen]** Schaltfläche.
 
@@ -62,7 +64,7 @@ Gehen Sie wie folgt vor, um ein Testprofil zu erstellen.
 
    >[!NOTE]
    >
-   >Der Titel der Adresse wird automatisch mit dem von Ihnen definierten Vor- und Nachnamen ausgefüllt.
+   >Die **[!UICONTROL Titel]** automatisch den von Ihnen definierten Vor- und Nachnamen eingeben.
 
 1. Standardmäßig werden Testprofile im **[!UICONTROL Testadressen]** Ordner. Sie können sie ändern, indem Sie zur gewünschten Position navigieren. [Weitere Informationen](#seed-addresses-folders)
 
