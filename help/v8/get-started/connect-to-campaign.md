@@ -1,12 +1,12 @@
 ---
 title: Herstellen einer Verbindung zur Adobe Campaign Web-Benutzeroberfläche
 description: Erfahren Sie, wie Sie eine Verbindung zur Benutzeroberfläche von Adobe Campaign v8 Web herstellen.
-badge: label="Beta"
+badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
-source-git-commit: 7bed2a1a40da7f709daba1f91d1b3ffa3a2aa57f
-workflow-type: ht
-source-wordcount: '510'
-ht-degree: 100%
+source-git-commit: 3b90fa26ff015b3a74044782a1cf5d979657c853
+workflow-type: tm+mt
+source-wordcount: '535'
+ht-degree: 84%
 
 ---
 
@@ -51,11 +51,13 @@ Sie sind jetzt mit Campaign verbunden. Auf [dieser Seite](user-interface.md) erf
 
 ## Obere Navigationsleiste in Adobe Experience Cloud {#top-bar}
 
-Verwenden Sie die obere Leiste der Benutzeroberfläche, um folgende Aktionen durchzuführen:
+Navigieren Sie in der oberen Leiste der Benutzeroberfläche zu:
 
-* Teilen Ihres Feedbacks als Beta-Benutzerin oder Beta-Benutzer
 * Wechseln zwischen Ihren Organisationen
 * Wechseln zwischen Ihren Adobe Experience Cloud-Lösungen und -Apps
+* Suchen Sie nach Hilfe zu [Adobe Experience League](https://experienceleague.adobe.com/docs/){target="_blank"}
+* Produktbenachrichtigungen überprüfen
+* Bearbeiten Sie Ihr Adobe-Profil und verwalten Sie Einstellungen wie [Lieblingssprache aktualisieren](#language-pref) oder [Umschalten auf helles/dunkles Design](#dark-theme)
 
 ![](assets/unified-shell.png){width="50%" align="left"}
 
@@ -87,9 +89,9 @@ So ändern Sie Ihre Sprache:
 1. Klicken Sie dann auf den Sprach-Link, der unter Ihrer E-Mail-Adresse angezeigt wird.
 1. Wählen Sie Ihre bevorzugte Sprache aus und klicken Sie auf **Speichern**. Sie können eine zweite Sprache auswählen, falls die von Ihnen verwendete Komponente nicht in Ihrer gewählten Sprache lokalisiert ist.
 
-## Dunkles Design {#dark-theme}
+## Dunkle und helle Themen {#dark-theme}
 
-Sie können über Ihr Profilsymbol zum dunklen Design wechseln. Sie können es über den Umschalter **Dunkles Design** aktivieren/deaktivieren.
+Adobe Campaign ist in hellen und dunklen Themen erhältlich. Standardmäßig ist die Benutzeroberfläche im hellen Design aktiviert. Um zum dunklen Design zu wechseln, klicken Sie auf das Profilsymbol und verwenden Sie die **Dunkles Thema** aktivieren/deaktivieren.
 
 Benutzerprofileinstellungen und Kontovoreinstellungen werden in [diesem Abschnitt](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=de#preferences) genauer beschrieben{target="_blank"}.
 

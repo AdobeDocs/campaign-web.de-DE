@@ -1,16 +1,12 @@
 ---
 title: Erstellen und Verwenden vordefinierter Filter
 description: Erfahren Sie, wie Sie vordefinierte Filter in der Web-Benutzeroberfläche von Adobe Campaign erstellen und verwalten
-feature: Personalization
-topic: Personalization
-role: Data Engineer
-level: Beginner
-badge: label="Beta"
+badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
-source-git-commit: 686bcc06591d56c2827a6826286503659ee6b26c
+source-git-commit: 3b90fa26ff015b3a74044782a1cf5d979657c853
 workflow-type: tm+mt
-source-wordcount: '787'
-ht-degree: 100%
+source-wordcount: '793'
+ht-degree: 86%
 
 ---
 
@@ -26,7 +22,7 @@ ht-degree: 100%
 >title="Vordefinierte Filter"
 >abstract="Campaign Web bietet jetzt eine benutzerfreundliche Oberfläche, mit der man vordefinierte Filter mühelos verwalten und an Ihre spezifischen Anforderungen anpassen kann. Filter einmal erstellen und für zukünftige Verwendungen speichern."
 
-Vordefinierte Filter sind benutzerdefinierte Filter, die für zukünftige Verwendungen erstellt und gespeichert werden. Sie können bei allen Filtervorgängen mit dem Regel-Builder als Verknüpfungen verwendet werden, z. B. beim Filtern einer Datenliste oder beim Erstellen der Zielgruppe eines Versands.
+Vordefinierte Filter sind benutzerdefinierte Filter, die für zukünftige Verwendungen erstellt und gespeichert werden. Sie können bei allen Filtervorgängen mit dem Abfragemodell als Verknüpfungen verwendet werden, z. B. beim Filtern einer Datenliste oder beim Erstellen der Zielgruppe eines Versands.
 
 Sie können vorhandene integrierte Filter verwenden, um auf einen bestimmten Teil Ihrer Daten zuzugreifen, oder eigene vordefinierte Filter erstellen und speichern.
 
@@ -49,24 +45,25 @@ Sie können vorhandene integrierte Filter verwenden, um auf einen bestimmten Tei
 >title="Erstellen der vordefinierten Filterregeln"
 >abstract="Um die Filterbedingungen Ihres benutzerspezifischen Filters zu definieren, klicken Sie auf die Schaltfläche „Regel erstellen“."
 
-### Erstellen eines Filters im Regel-Builder {#create-from-rule-builder}
+### Erstellen eines Filters aus dem Abfragemodell {#create-from-rule-builder}
 
-Sie können einen benutzerdefinierten Filter im Regel-Builder speichern, damit er für die zukünftige Verwendung verfügbar ist. Führen Sie folgende Schritte aus:
+Sie können einen benutzerdefinierten Filter aus dem [Abfragemodellierung](../query/query-modeler-overview.md) , um es für die zukünftige Verwendung verfügbar zu machen. Führen Sie folgende Schritte aus:
 
-1. Öffnen Sie den Regel-Builder und definieren Sie Ihre Filterbedingungen. Im folgenden Beispiel filtern Sie die Empfängerinnen und Empfänger, die in Madrid leben.
+1. Öffnen Sie das Abfragemodell und definieren Sie Ihre Filterbedingungen. Im folgenden Beispiel filtern Sie Empfänger, die in Madrid leben und einen Newsletter abonniert haben.
 1. Klicken Sie auf die Schaltfläche **Filter auswählen oder speichern** und wählen Sie **Als Filter speichern**.
 
    ![](assets/predefined-filters-save.png)
 
 1. Wählen Sie **Neuen Filter erstellen** und geben Sie einen Namen und eine Beschreibung für diesen Filter ein.
 
-   ![](assets/predefined-filters-save-filter.png){width="70%" align="left"}
+   ![](assets/predefined-filters-save-filter.png)
 
    Sie können den Filter bei Bedarf als Favorit speichern. Weiterführende Informationen finden Sie in [diesem Abschnitt](#fav-filter).
 
 1. Klicken Sie auf **Bestätigen**, um Ihre Änderungen zu speichern.
 
 Ihr benutzerdefinierter Filter ist jetzt in der Liste der **vordefinierten Filter** verfügbar und für alle Campaign-Benutzenden zugänglich.
+
 
 ### Erstellen eines Filters in der Filterliste {#create-filter-from-list}
 
@@ -76,13 +73,19 @@ Sie können einen Filter im Eintrag **Vordefinierte Filter** im linken Menü ers
 1. Klicken Sie auf die Schaltfläche **Erstellen**.
 1. Geben Sie den Namen des Filters ein und wählen Sie im Feld **Dokumenttyp** das Schema aus, auf das er angewendet wird. Das Standardschema lautet `Recipients(nms)`.
 
-   Sie können den Filter bei Bedarf als Favorit speichern. Weiterführende Informationen finden Sie in [diesem Abschnitt](#fav-filter).
 
 1. Definieren Sie die Regel für den Filter. Zum Beispiel Profile, die älter als 30 sind.
 
    ![](assets/filter-30+.png)
 
-1. Speichern Sie Ihre Änderungen. Der Filter wird zur Liste der vordefinierten Filter hinzugefügt.
+
+1. Speichern Sie Ihre Änderungen.
+
+   ![](assets/new-filter.png)
+
+
+Der Filter wird der vordefinierten Filterliste hinzugefügt. Sie können den Filter bei Bedarf als Favorit speichern. Weiterführende Informationen finden Sie in [diesem Abschnitt](#fav-filter).
+
 
 ## Speichern des Filters als Favorit {#fav-filter}
 
@@ -108,7 +111,7 @@ Gehen Sie wie folgt vor, um beispielsweise eine Zielgruppe aus einem vordefinier
 1. Geben Sie den Namen der Zielgruppe ein und klicken Sie auf die Schaltfläche **Zielgruppe erstellen**.
 1. Wählen Sie die **Abfrage**-Aktivität und klicken Sie im rechten Fenster auf die Schaltfläche **Zielgruppe erstellen**.
 
-   ![](assets//build-audience-from-filter.png)
+   ![](assets/build-audience-from-filter.png)
 
 1. Wählen Sie aus der **Schaltfläche zum Auswählen oder Speichern von Filtern** die Option **Benutzerdefinierten Filter auswählen**.
 
@@ -120,8 +123,6 @@ Gehen Sie wie folgt vor, um beispielsweise eine Zielgruppe aus einem vordefinier
 
 1. Überprüfen Sie die Regeleigenschaften für diesen Filter und bestätigen Sie sie.
 
-   ![](assets/build-audience-check.png)
-
    Der Filter wird jetzt als Abfrage in der **Abfrage**-Aktivität genutzt.
 
    ![](assets/build-audience-confirm.png)
@@ -132,13 +133,15 @@ Gehen Sie wie folgt vor, um beispielsweise eine Zielgruppe aus einem vordefinier
 
 Die vordefinierten Filter werden alle im dedizierten Eintrag des linken Navigationsmenüs gruppiert.
 
+![](assets/list-of-filters.png)
+
 Von dieser Liste ausgehend können Sie einen neuen Filter erstellen, wie oben beschrieben, und:
 
 * einen vorhandenen Filter bearbeiten und seine Regeln und Eigenschaften ändern
 * einen vordefinierten Filter duplizieren
 * einen vordefinierten Filter löschen
 
-Sie können beim Erstellen Ihrer Regeln einen vordefinierten Filter für einen schnellen Zugriff als Favorit hinzufügen. Weiterführende Informationen finden Sie in [diesem Abschnitt](#fav-filter).
+Sie können beim Erstellen Ihrer Zielgruppen einen vordefinierten Filter als Favoriten für einen schnellen Zugriff hinzufügen. Weiterführende Informationen finden Sie in [diesem Abschnitt](#fav-filter).
 
 <!--
 ## Built-in predefined filters {#ootb-predefined-filter}

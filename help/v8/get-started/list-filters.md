@@ -2,12 +2,12 @@
 audience: end-user
 title: Durchsuchen, Suchen und Filtern von Listen
 description: Erfahren Sie, wie Sie Listen in Campaign Web v8 durchsuchen und filtern
-badge: label="Beta"
+badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: 46b83e8c-6c8c-40a1-a08b-9d0b438b80cb
-source-git-commit: 3e94514060a501a3a359c38606e5532beaf20f10
+source-git-commit: 3b90fa26ff015b3a74044782a1cf5d979657c853
 workflow-type: tm+mt
-source-wordcount: '559'
-ht-degree: 100%
+source-wordcount: '538'
+ht-degree: 93%
 
 ---
 
@@ -53,13 +53,11 @@ Sie können beispielsweise Sendungen nach Status, Kanal, Kontaktdatum oder Ordne
 
 Um benutzerdefinierte Datenfilter zu erstellen, navigieren Sie zum unteren Rand der Filter und klicken Sie auf die Schaltfläche **Regeln hinzufügen**, um auf den Regel-Builder zuzugreifen.
 
-Ziehen Sie auf dem Bildschirm **Erweiterte Filter** Attribute per Drag-and-Drop, um Ihre Filterkriterien zu erstellen.
+Definieren und kombinieren Sie Ihre Filterkriterien im **Erweiterte Filter** angezeigt.
 
 ![](assets/custom-filter.png){width="70%" align="left" zoomable="yes"}
 
-Verwenden Sie den Umschalter **Erweiterte Attribute anzeigen**, um alle Attribute für die aktuelle Liste anzuzeigen. [Weitere Informationen](#adv-attributes)
-
-Das Arbeitsprinzip des Regel-Builders für benutzerdefinierte Filter ähnelt dem Regel-Builder, der zum Erstellen von Zielgruppen verwendet wird. Ausführliche Informationen dazu, wie der Regel-Builder verwendet wird, finden Sie in der [Dokumentation zu Zielgruppen](../audience/segment-builder.md).
+Benutzerdefinierte Filter werden mit dem Campaign-Abfragemodell entwickelt. Ausführliche Informationen zur Verwendung finden Sie unter [diesem Abschnitt](../query/query-modeler-overview.md).
 
 ## Verwenden von erweiterten Attributen {#adv-attributes}
 
