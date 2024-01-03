@@ -5,10 +5,10 @@ title: Adobe Campaign v8 – Web-Dokumentation
 description: Web-Dokumentation zu Campaign v8
 breadcrumb-title: Übersicht über Campaign
 hide: true
-source-git-commit: 843f3ad906d81892f45281ef5734d512b4c8f3d6
+source-git-commit: 5183dd0045c7f13e79f65eca5b31dfd4cde2f31d
 workflow-type: tm+mt
-source-wordcount: '475'
-ht-degree: 97%
+source-wordcount: '482'
+ht-degree: 95%
 
 ---
 
@@ -88,15 +88,17 @@ ht-degree: 97%
       + [Durchführen von Testsendungen](preview-test/test-deliveries.md)
       + [Rendern Ihrer E-Mail](preview-test/email-rendering.md)
 + Zielgruppen und Empfängerinnen bzw. Empfänger {#audiences}
-   + [Arbeiten mit Empfängerinnen bzw. Empfängern und Zielgruppen](audience/about-recipients.md)
-   + [Zielgruppen erstellen](audience/create-audience.md)
+   + [Erste Schritte mit Empfängern und Zielgruppen](audience/gs-audiences-recipients.md)
+   + [Arbeiten mit Empfängern](audience/about-recipients.md)
+   + Arbeiten mit Zielgruppen {#audiences}
+      + [Zielgruppen erstellen](audience/create-audience.md)
+      + [Verwalten und Überwachen von Zielgruppen](audience/manage-audience.md)
    + Auswählen der Empfängerinnen und Empfänger des Versands {#target-audiences}
       + [Auswählen einer bestehenden Zielgruppe](audience/add-audience.md)
       + [Erstellen einer einmaligen Zielgruppe](audience/one-time-audience.md)
       + [Laden einer Zielgruppe aus einer Datei](audience/file-audience.md)
       + [Festlegen einer Kontrollgruppe](audience/control-group.md)
    + [Arbeiten mit dem Regel-Builder](audience/segment-builder.md)
-   + [Überwachen und Verwalten von Zielgruppen](audience/manage-audience.md)
    + Arbeiten mit Abonnementdiensten {#work-with-services}
       + [Verwalten von Diensten](audience/manage-services.md)
       + [Verwalten von Abonnenten](audience/manage-subscribers.md)
