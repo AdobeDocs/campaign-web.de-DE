@@ -4,10 +4,10 @@ title: Ansprechen von Empfängerinnen und Empfängern aus einer Datei
 description: Erfahren Sie, wie Sie mit Empfängerinnen und Empfängern aus einer externen Datei eine E-Mail-Zielgruppe erstellen können.
 badge: label="Beta"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: b36de9228725e199497720d3fb3bc46427ca7663
+source-git-commit: 6dcdfae8aa6d6346fc02217db77a96cf6d219fdc
 workflow-type: tm+mt
 source-wordcount: '612'
-ht-degree: 86%
+ht-degree: 83%
 
 ---
 
@@ -109,4 +109,4 @@ Mit Campaign Web können Sie sich Test-E-Mails in der Vorschau ansehen und sie s
 
    ![](assets/file-upload-test.png)
 
-1. Sie können den Versand der Test-E-Mail jederzeit mithilfe der Schaltfläche „Test-E-Mail-Protokoll anzeigen“ überwachen. [Erfahren Sie mehr über das Überwachen von Test-E-Mails](../preview-test/test-deliveries.md#access-sent-test-deliveries-access-proofs)
+1. Sie können den Versand der Test-E-Mail mithilfe der **[!UICONTROL Anzeigen des E-Mail-Testprotokolls]** -Schaltfläche zu einem beliebigen Zeitpunkt. [Erfahren Sie mehr über das Überwachen von Test-E-Mails](../preview-test/test-deliveries.md#access-test-deliveries)

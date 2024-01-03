@@ -3,11 +3,11 @@ audience: end-user
 title: Anzeigen des Versandinhalts in einer Vorschau
 description: Erfahren Sie, wie Sie mit der Web-Benutzeroberfläche von Campaign den Versandinhalt in einer Vorschau anzeigen können.
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
-badge: label="Beta"
-source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
-workflow-type: ht
-source-wordcount: '343'
-ht-degree: 100%
+badge: label="Eingeschränkte Verfügbarkeit"
+source-git-commit: 6dcdfae8aa6d6346fc02217db77a96cf6d219fdc
+workflow-type: tm+mt
+source-wordcount: '342'
+ht-degree: 88%
 
 ---
 
@@ -18,9 +18,7 @@ Verwenden Sie die Inhaltssimulationsfunktion von [!DNL Campaign], um den Nachric
 
 Gehen Sie wie folgt vor, um den Versandinhalt in einer Vorschau anzuzeigen.
 
-1. Navigieren Sie zum Bildschirm „Inhalt bearbeiten“ Ihres Versands.
-
-   <!--email [Edit content](../content/edit-content.md) screen or to the [Email Designer](../content/get-started-email-designer.md).-->
+1. Navigieren Sie zum Bildschirm Inhalt bearbeiten Ihres Versands oder zum [Email Designer](../content/get-started-email-designer.md).
 
 1. Klicken Sie auf die Schaltfläche **[!UICONTROL Inhalt simulieren]**.
 
@@ -36,13 +34,17 @@ Gehen Sie wie folgt vor, um den Versandinhalt in einer Vorschau anzuzeigen.
 
    * Die Registerkarte **[!UICONTROL Testprofile]** enthält Testadressen für zusätzliche, fiktive Personen in der Datenbank.
 
+     ![](assets/simulate-select-profiles.png)
+
      >[!NOTE]
      >
-     >Testprofile können in der [!DNL Campaign]-Konsole im Ordner **[!UICONTROL Ressourcen]** > **[!UICONTROL Kampagnen-Management]** > **[!UICONTROL Testadressen]** erstellt werden. Weitere Informationen finden Sie in der [Dokumentation zu Campaign v8 (Client-Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html?lang=de){target="_blank"}.
+     >Testprofile können über die **[!UICONTROL Kundenverwaltung]** > **[!UICONTROL Profile]** Menü. [Weitere Informationen](../audience/test-profiles.md#create-test-profiles)
 
    * Die Registerkarte **[!UICONTROL Profile]** listet alle Empfängerinnen und Empfänger auf, die über die [!DNL Campaign]-Konsole im Ordner **[!UICONTROL Profile und Zielgruppen]** gespeichert wurden. Weitere Informationen finden Sie in der [Dokumentation zu Campaign v8 (Client-Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/view-profiles.html?lang=de){target="_blank"}.
 
-   ![](assets/simulate-select-profiles.png)
+     >[!NOTE]
+     >
+     >Sie können Profile auch über den entsprechenden Tab in der Campaign-Web-Benutzeroberfläche anzeigen und verwalten. [Weitere Informationen](../audience/about-recipients.md)
 
 1. Klicken Sie auf **[!UICONTROL Auswählen]**, um Ihre Auswahl zu bestätigen.
 
@@ -56,7 +58,7 @@ Gehen Sie wie folgt vor, um den Versandinhalt in einer Vorschau anzuzeigen.
 
 1. Auf dem Bildschirm **[!UICONTROL Simulieren]** können Sie auch folgende Aktionen durchführen:
    * Durchführen eines Testversands an bestimmte Empfängerinnen und Empfänger zu Validierungszwecken: [Weitere Informationen](test-deliveries.md)
-   * Zugreifen auf die Protokolle der durchgeführten Testsendungen: [Weitere Informationen](test-deliveries.md#access-proofs)
+   * Zugreifen auf die Protokolle der durchgeführten Testsendungen: [Weitere Informationen](test-deliveries.md#access-test-deliveries)
    * (Nur für E-Mails) Überprüfen des Renderings des Nachrichteninhalts in gängigen E-Mail-Clients: [Weitere Informationen](email-rendering.md)
 
 
