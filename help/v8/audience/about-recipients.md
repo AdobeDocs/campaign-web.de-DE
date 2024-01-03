@@ -2,10 +2,10 @@
 title: Profile überwachen und verwalten
 description: Erfahren Sie, wie Sie Profile im Campaign Web überwachen und verwalten.
 badge: label="Eingeschränkte Verfügbarkeit"
-source-git-commit: a53f33360f0dc7ca80b235bd5814fd3ccc0ff698
+source-git-commit: e61878f325575377865186fb9cb63b831ac843fd
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 11%
+source-wordcount: '662'
+ht-degree: 9%
 
 ---
 
@@ -38,12 +38,52 @@ Sie können die Profilliste mithilfe des Suchfelds filtern oder die in der **Fil
 
 ## Profilattribute aufrufen und bearbeiten {#access}
 
+>[!CONTEXTUALHELP]
+>id="acw_recipients_creation_details"
+>title="Grundlegende Details"
+>abstract="Dieser Abschnitt bietet Einblicke in die grundlegenden Details des Profils. Um Informationen zu ändern, nehmen Sie die gewünschten Änderungen direkt im entsprechenden Feld vor und klicken Sie auf **Speichern** -Schaltfläche in der oberen rechten Ecke des Bildschirms."
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_creation_contactinformation"
+>title="Kontaktinformationen"
+>abstract="Dieser Abschnitt bietet Einblicke in die Kontaktinformationen des Profils. Um Informationen zu ändern, nehmen Sie die gewünschten Änderungen direkt im entsprechenden Feld vor und klicken Sie auf **Speichern** -Schaltfläche in der oberen rechten Ecke des Bildschirms."
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_creation_address"
+>title= "Address"
+>abstract="Dieser Abschnitt bietet Einblicke in die Postanschrift des Profils und die Adressenqualität. Um Informationen zu ändern, nehmen Sie die gewünschten Änderungen direkt im entsprechenden Feld vor und klicken Sie auf **Speichern** -Schaltfläche in der oberen rechten Ecke des Bildschirms."
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_creation_account"
+>title="Kontodetails"
+>abstract="Dieser Abschnitt bietet Einblicke in die Kontodetails des Profils. Um Informationen zu ändern, nehmen Sie die gewünschten Änderungen direkt im entsprechenden Feld vor und klicken Sie auf **Speichern** -Schaltfläche in der oberen rechten Ecke des Bildschirms."
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_creation_nolongercontact"
+>title="Empfänger – Nicht mehr kontaktieren"
+>abstract="Dieser Abschnitt bietet Einblicke in die Kontakteinstellungen des Profils. Um Informationen zu ändern, nehmen Sie die gewünschten Änderungen direkt im entsprechenden Feld vor und klicken Sie auf **Speichern** -Schaltfläche in der oberen rechten Ecke des Bildschirms."
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_creation_customfields"
+>title="Benutzerdefinierte Felder"
+>abstract="Benutzerdefinierte Felder sind spezifische Attribute, die auf Ihre Anforderungen zugeschnitten sind und für Ihre Instanz konfiguriert wurden. Um Informationen zu ändern, nehmen Sie die gewünschten Änderungen direkt im entsprechenden Feld vor und klicken Sie auf **Speichern** -Schaltfläche in der oberen rechten Ecke des Bildschirms."
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_creation_othersfields"
+>title="Sonstige"
+>abstract="Dieser Abschnitt enthält zusätzliche integrierte Attribute. Um Informationen zu ändern, nehmen Sie die gewünschten Änderungen direkt im entsprechenden Feld vor und klicken Sie auf **Speichern** -Schaltfläche in der oberen rechten Ecke des Bildschirms."
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_subscription_list"
+>title="Emfänger – Abonnementliste"
+>abstract="Auf diesem Tab werden alle Dienste aufgelistet, für die das Profil angemeldet ist."
+
 Um auf die Details eines Profils zuzugreifen, klicken Sie auf dessen Namen in der Profilliste.
 
 ![](assets/profiles-details.png)
 
 Auf diesem Bildschirm können Sie auf detaillierte Informationen zum Profil zugreifen:
 
-* Die **[!UICONTROL Details]** -Tab können Sie die Attribute des Profils durchsuchen. Um ein Attribut zu bearbeiten, nehmen Sie Änderungen im gewünschten Feld vor und klicken Sie auf die Schaltfläche **[!UICONTROL Speichern]** Schaltfläche.
+* Die **[!UICONTROL Details]** -Registerkarte können Sie die integrierten und benutzerdefinierten Attribute des Profils durchsuchen. Um ein Attribut zu bearbeiten, nehmen Sie Änderungen im gewünschten Feld vor und klicken Sie auf die Schaltfläche **[!UICONTROL Speichern]** Schaltfläche.
 * Die **[!UICONTROL Abonnements]** enthält Informationen zu den Diensten, für die das Profil angemeldet ist. [Erfahren Sie, wie Sie mit Anmeldediensten arbeiten können](manage-services.md)
 * Die **[!UICONTROL Protokolle]** über die Schaltfläche rechts oben im Bildschirm können Sie einen Verlauf der Interaktionen des Profils anzeigen, indem Sie Versand-, Ausschluss- und Trackinglogs sowie die dem Profil vorgeschlagenen Vorschläge anzeigen.
