@@ -4,18 +4,16 @@ title: Durchsuchen, Suchen und Filtern von Listen
 description: Erfahren Sie, wie Sie Listen in Campaign Web v8 durchsuchen und filtern
 badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: 46b83e8c-6c8c-40a1-a08b-9d0b438b80cb
-source-git-commit: 564524185c6bea11d8159d57ee9c28b47df86f74
+source-git-commit: 843f3ad906d81892f45281ef5734d512b4c8f3d6
 workflow-type: tm+mt
-source-wordcount: '303'
-ht-degree: 89%
+source-wordcount: '241'
+ht-degree: 81%
 
 ---
 
 # Durchsuchen, Suchen und Filtern von Listen {#list-screens}
 
 Die meisten Links aus dem linken Navigationsmenü zeigen Listen von Objekten an, wie zum Beispiel die Liste der **Sendungen** oder **Kampagnen**. Einige dieser Listenbildschirme sind schreibgeschützt. Sie können die Listenanzeige anpassen und diese Listen wie unten beschrieben filtern.
-
-Um einen Filter zu entfernen, klicken Sie auf die Schaltfläche **Alle löschen**.
 
 ## Anpassen von Listenbildschirmen {#custom-lists}
 
@@ -39,23 +37,13 @@ Sie können zudem auch Elemente in der Liste sortieren, indem Sie auf eine belie
 
 Bei numerischen Spalten oder Datumsspalten bedeutet der **Aufwärtspfeil**, dass die Liste in aufsteigender Reihenfolge sortiert ist, während ein **Abwärtspfeil** eine absteigende Reihenfolge kennzeichnet. Bei Zeichenfolge- oder alphanumerischen Spalten werden die Werte in alphabetischer Reihenfolge aufgeführt.
 
-## Integrierte Filter {#list-built-in-filters}
+## Filter {#list-built-in-filters}
 
-Um Elemente schneller zu finden, können Sie die Suchleiste verwenden oder die Liste nach kontextuellen Kriterien filtern.
+Um Elemente schneller zu finden, können Sie die Suchleiste oder integrierte und benutzerdefinierte Filter verwenden, um die Liste anhand von Kontextkriterien anzupassen.
 
 ![](assets/filter.png){width="70%" align="left" zoomable="yes"}
 
-Sie können beispielsweise Sendungen nach Status, Kanal, Kontaktdatum oder Ordner filtern. Sie können auch Tests ausblenden.
-
-## Benutzerdefinierte Filter{#list-custom-filters}
-
-Um benutzerdefinierte Datenfilter zu erstellen, navigieren Sie zum unteren Rand der Filter und klicken Sie auf die Schaltfläche **Regeln hinzufügen**, um auf den Regel-Builder zuzugreifen.
-
-Definieren und kombinieren Sie Ihre Filterkriterien im **Erweiterte Filter** angezeigt.
-
-![](assets/custom-filter.png){width="70%" align="left" zoomable="yes"}
-
-Benutzerdefinierte Filter werden mit dem Campaign-Abfragemodell entwickelt. Ausführliche Informationen zur Verwendung finden Sie unter [diesem Abschnitt](../query/query-modeler-overview.md).
+Detaillierte Informationen zur Verwendung von Filtern und zur Erstellung eigener benutzerdefinierter Filter finden Sie unter [diesem Abschnitt](../query/filter.md).
 
 <!--
 ## Use advanced attributes {#adv-attributes}
