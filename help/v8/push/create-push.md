@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie mit Adobe Campaign Web einen Versand für ein
 badge: label="Beta"
 exl-id: 49a3c05c-5806-4269-a98d-915eee216f90
 source-git-commit: 4ea25f0877fd3f0ab02f3023f041bd040e0530a3
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '653'
 ht-degree: 100%
 
@@ -75,7 +75,7 @@ Sie müssen zuerst die App auswählen und können dann die Zielgruppe für Push-
 
    Weitere Informationen dazu, wie Sie eine vorhandene Zielgruppe auswählen können, finden Sie auf [dieser Seite](../audience/add-audience.md).
 
-   Weitere Informationen dazu, wie Sie neue Zielgruppen erstellen, finden Sie auf [dieser Seite](../audience/one-time-audience.md).
+   Weitere Informationen dazu, wie Sie neue Zielgruppen erstellen und verwalten, finden Sie auf [dieser Seite](../audience/one-time-audience.md).
 
 1. Aktivieren Sie die Option **[!UICONTROL Kontrollgruppe aktivieren]**, um eine Kontrollgruppe zum Messen der Wirkung Ihres Versands einzurichten. Nachrichten werden nicht an diese Kontrollgruppe gesendet, sodass Sie das Verhalten der Population, die die Nachricht erhalten hat, mit dem Verhalten der Kontakte vergleichen können, die die Nachricht nicht erhalten haben. [Weitere Informationen](../audience/control-group.md)
 
