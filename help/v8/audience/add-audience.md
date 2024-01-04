@@ -4,8 +4,8 @@ title: Auswählen einer bestehenden Zielgruppe
 description: Erfahren Sie, wie Sie eine Zielgruppe auswählen
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
 badge: label="Beta"
-source-git-commit: 424caa898ff9d73f3520aa6d682eb1963d992069
-workflow-type: ht
+source-git-commit: 7891ae64a8b5a5929a70974af317865b08cc0e68
+workflow-type: tm+mt
 source-wordcount: '308'
 ht-degree: 100%
 
@@ -40,7 +40,7 @@ Gehen Sie wie folgt vor, um eine vorhandene Zielgruppe für Ihre Nachricht auszu
 
    ![](assets/select-audience-folder.png)
 
-1. Im Filterbereich können Sie auf Filteroptionen zugreifen, um die Zielgruppenliste zu präzisieren. Klicken Sie dazu auf **Regeln hinzufügen**, um auf den Regel-Builder zuzugreifen, mit dem Sie erweiterte Filter für die Liste der Zielgruppen erstellen können. [Erfahren Sie, wie Sie den Regel-Builder verwenden](segment-builder.md)
+1. Im Filterbereich können Sie auf Filteroptionen zugreifen, um die Zielgruppenliste zu präzisieren. Klicken Sie dazu auf **Regeln hinzufügen**, um auf den Regel-Builder zuzugreifen, mit dem Sie erweiterte Filter für die Liste der Zielgruppen erstellen können. [Erfahren Sie, wie Sie den Regel-Builder verwenden](../query/query-modeler-overview.md)
 
    ![](assets/create-audience4.png)
 
