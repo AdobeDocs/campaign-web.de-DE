@@ -3,7 +3,7 @@ title: Erste Schritte mit Profilen und Audiences
 description: Erfahren Sie, wie Sie mit Profilen und Audiences in Campaign Web arbeiten.
 exl-id: 71a1ec92-cd79-4654-9ae3-9a92a01c6279
 badge: label="Eingeschränkte Verfügbarkeit"
-source-git-commit: 9fd523a04ac4bfb2d760202b1f7e9bd9e7097dfe
+source-git-commit: f3e092abff7b1c84e20cce32be1011768cc96397
 workflow-type: tm+mt
 source-wordcount: '203'
 ht-degree: 17%
@@ -26,15 +26,15 @@ Da Sie nun wissen, was Sie in Adobe Campaign Web tun können, ist es an der Zeit
 <img src="../assets/do-not-localize/profiles-audiences-profile.png">
 </a>
 <div>
-<a href="manage-audience.md"><strong>Profile überwachen und verwalten</strong></a>
+<a href="about-recipients.md"><strong>Profile überwachen und verwalten</strong></a>
 </div>
 <p>
 </td>
 <td>
-<a href="test-profiles.md">
+<a href="create-audience.md">
 <img alt="Lead" src="../assets/do-not-localize/profiles-audiences-audience.png">
 </a>
-<div><a href="conditions.md"><strong>Zielgruppen erstellen</strong>
+<div><a href="create-audience.md"><strong>Zielgruppen erstellen</strong>
 </div>
 <p>
 </td>
@@ -43,7 +43,7 @@ Da Sie nun wissen, was Sie in Adobe Campaign Web tun können, ist es an der Zeit
 <img alt="Gelegentlich" src="../assets/do-not-localize/profiles-audiences-service.png">
 </a>
 <div>
-<a href="content-blocks.md"><strong>Verwalten von Diensten</strong></a>
+<a href="manage-services.md"><strong>Verwalten von Diensten</strong></a>
 </div>
 <p></td>
 <td>
@@ -51,7 +51,7 @@ Da Sie nun wissen, was Sie in Adobe Campaign Web tun können, ist es an der Zeit
 <img alt="Gelegentlich" src="../assets/do-not-localize/profiles-audiences-deliveries.png">
 </a>
 <div>
-<a href="content-blocks.md"><strong>Empfänger des Versands auswählen</strong></a>
+<a href="add-audience.md"><strong>Empfänger des Versands auswählen</strong></a>
 </div>
 <p></td>
 </tr></table>
