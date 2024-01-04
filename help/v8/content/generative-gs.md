@@ -4,7 +4,9 @@ title: Erste Schritte mit dem Inhaltsassistenten
 description: Erste Schritte mit dem Inhaltsassistenten
 badge: label="Alpha"
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
-source-git-commit: d52b3c31cbb3a045e9fab4b15b0e69e3303f16d2
+hide: true
+hidefromtoc: true
+source-git-commit: 794b2571f44d160ce06b91b46e7e2f0c8b2eee38
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 99%
@@ -18,8 +20,6 @@ ht-degree: 99%
 >title="Generative KI für E-Mail-Inhalte"
 >abstract="Unsere generative KI-Technologie nutzt fortschrittliche Algorithmen, um extrem ansprechende und personalisierte Inhalte zu generieren. Steigern Sie Öffnungsraten, Klickraten und Konversionen mit der intelligenten Inhaltserstellung durch generative KI. Bleiben Sie der Konkurrenz voraus und heben Sie Ihr E-Mail-Marketing mit generativer KI für E-Mail-Inhalte auf ein neues Niveau. "
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="Siehe Versionshinweise"
-
-
 
 >[!CONTEXTUALHELP]
 >id="acw_generation_settings"
