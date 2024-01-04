@@ -1,12 +1,12 @@
 ---
 audience: end-user
 title: Verwenden einer Adobe Experience Platform-Zielgruppe
-description: Erfahren Sie, wie Sie eine Audience aus Adobe Experience Platform verwenden
+description: Erfahren Sie, wie Sie eine Zielgruppe aus Adobe Experience Platform verwenden
 badge: label="Beta"
 exl-id: beb73107-3d27-40ac-afef-ac2b66ae8d34
-source-git-commit: 3ea9f885511bb7d192ae9004f6257c10f163cbb5
-workflow-type: ht
-source-wordcount: '290'
+source-git-commit: 1f2a6e0944f46c0e37ce9e2b174a08e69981d143
+workflow-type: tm+mt
+source-wordcount: '283'
 ht-degree: 100%
 
 ---
@@ -23,17 +23,17 @@ Nachdem Sie eine Adobe Experience Platform-Zielgruppe erstellt haben und sie in 
 
 Zur Auswahl der Zielgruppe eines Versands haben Sie außerdem folgende Möglichkeiten:
 
-* Erstellen Sie eine neue Zielgruppe. [Weitere Informationen](segment-builder.md)
+* Erstellen Sie eine neue Zielgruppe. [Weitere Informationen](../query/query-modeler-overview.md)
 * Laden Sie eine Zielgruppe aus einer externen Datei. [Weitere Informationen](file-audience.md)
 * Verwenden Sie eine vorhandene Campaign-Zielgruppe. [Weitere Informationen](add-audience.md).
 
 Gehen Sie wie folgt vor, um eine Adobe Experience Platform-Zielgruppe für Ihren Versand auszuwählen:
 
-1. Klicken Sie im Abschnitt **Audience** des Assistenten zur Versanderstellung auf die Schaltfläche **[!UICONTROL Audience auswählen]**.
+1. Klicken Sie im Abschnitt **Zielgruppe** des Assistenten zur Versanderstellung auf die Schaltfläche **[!UICONTROL Zielgruppe auswählen]**.
 
    ![](assets/create-audience.png)
 
-1. Klicken Sie auf **[!UICONTROL Audience auswählen]**, um eine bestehende Audience zu verwenden. Um eine neue Audience zu erstellen, die in dieser E-Mail verwendet werden soll, wählen Sie **Eigene erstellen**. Näheres dazu finden Sie in [diesem Abschnitt](segment-builder.md).
+1. Klicken Sie auf **[!UICONTROL Zielgruppe auswählen]**, um eine bestehende Zielgruppe zu verwenden. Um eine neue Zielgruppe zu erstellen, die in dieser E-Mail verwendet werden soll, wählen Sie **Eigene erstellen**. Näheres dazu finden Sie in [diesem Abschnitt](../query/query-modeler-overview.md).
 
    Dieser Bildschirm zeigt alle bestehenden Zielgruppen an, die in der Adobe Campaign Client-Konsole für den aktuellen Ordner definiert sind. Um eine Zielgruppe aus Adobe Experience Platform auszuwählen, navigieren Sie im Filterabschnitt des Bildschirms zum `AEP Audiences folder`.
 
@@ -43,12 +43,12 @@ Gehen Sie wie folgt vor, um eine Adobe Experience Platform-Zielgruppe für Ihren
 
    ![](assets/filter-on-aep-audience.png)
 
-1. Wählen Sie eine Audience aus und klicken Sie auf **Auswählen**.
+1. Wählen Sie eine Zielgruppe aus und klicken Sie auf **Auswählen**.
 
-1. Klicken Sie auf **Regeln bearbeiten**, wenn Sie Ihre Audience einschränken möchten.
+1. Klicken Sie auf **Regeln bearbeiten**, wenn Sie Ihre Zielgruppe einschränken möchten.
 
    ![](assets/refine-audience.png)
 
-1. Mit dem Regel-Builder können Sie Ihre Audience mit zusätzlichen Filtern oder durch die Kombination verschiedener Audiences anreichern. Weitere Informationen finden Sie in [diesem Abschnitt](segment-builder.md).
+1. Mit dem Regel-Builder können Sie Ihre Zielgruppe mit zusätzlichen Filtern oder durch die Kombination verschiedener Zielgruppen anreichern. Weitere Informationen finden Sie in [diesem Abschnitt](../query/query-modeler-overview.md).
 
 1. Klicken Sie auf **Speichern**.
