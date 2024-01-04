@@ -4,10 +4,10 @@ title: Bearbeiten des E-Mail-Inhalts
 description: Erfahren Sie, wie Sie den E-Mail-Inhalt in der Web-Benutzeroberfläche von Campaign bearbeiten können
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 badge: label="Beta"
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+source-git-commit: 888fc53c85d0a3f1c28e7d4130cf94d48dea40c1
 workflow-type: tm+mt
 source-wordcount: '624'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 99%
 >id="acw_deliveries_email_options"
 >title="Bearbeiten des Trackings"
 >abstract="Standardmäßig ist das Tracking für den Versand aktiviert, d. h. alle im Nachrichteninhalt enthaltenen Links werden verfolgt. Sie können diese Option hier deaktivieren."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/email/design-email/message-tracking.html" text="Hinzufügen von Links und Nachverfolgen von Nachrichten"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/content/design-content/message-tracking.html?lang=de" text="Hinzufügen von Links und Nachverfolgen von Nachrichten"
 
 Der E-Mail-Bildschirm **[!UICONTROL Inhalt bearbeiten]** ermöglicht Ihnen Folgendes:
 
