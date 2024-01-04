@@ -4,10 +4,10 @@ title: Versandeinstellungen
 description: Erfahren Sie mehr über die Versandeinstellungen in Campaign Web
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="Beta"
-source-git-commit: fdb0d424fa7cb41bccba8283b8e07e038c2c6515
+source-git-commit: 7faf1e38f34184e518419a74d8c482b24a8a1ebe
 workflow-type: tm+mt
-source-wordcount: '2113'
-ht-degree: 100%
+source-wordcount: '2110'
+ht-degree: 99%
 
 ---
 
@@ -119,10 +119,9 @@ Mit dem Feld **Wichtigkeit des Empfängers** wird festgelegt, welche Empfangende
 >title="Zielgruppeneinstellungen für den Versand"
 >abstract="Wählen Sie ein **Zielgruppen-Mapping** unter den verfügbaren Optionen aus. Zielgruppen-Mappings werden in der Adobe Campaign v8-Konsole definiert. Sie können außerdem die Ausschlussparameter für den Versand festlegen. "
 
-In diesem Abschnitt können Sie ein verfügbares **Zielgruppen-Mapping** auswählen. Zielgruppen-Mappings werden in der Adobe Campaign v8-Konsole definiert. Die Zielgruppendimension oder das Zielgruppen-Mapping ist der Datentyp, den ein Vorgang verarbeitet. Sie ermöglicht die Bestimmung der Zielpopulation: Empfängerinnen und Empfänger, Vertragsbegünstigte, Benutzerinnen und Benutzer, Abonnentinnen und Abonnenten usw.
+In diesem Abschnitt können Sie ein verfügbares **Zielgruppen-Mapping** auswählen. Zielgruppen-Mappings werden in der Adobe Campaign v8-Konsole definiert. Das Zielgruppen-Mapping ist der Datentyp, den ein Vorgang verarbeitet. Sie ermöglicht die Bestimmung der Zielpopulation: Empfängerinnen und Empfänger, Vertragsbegünstigte, Benutzerinnen und Benutzer, Abonnentinnen und Abonnenten usw.
 
-
-Weitere Informationen über Zielgruppen-Mapping finden Sie in [diesem Abschnitt](../audience/about-recipients.md#targeting-dimensions).
+Weitere Informationen über Zielgruppen-Mapping finden Sie in [diesem Abschnitt](../audience/targeting-dimensions.md).
 
 ## Versand {#delivery}
 

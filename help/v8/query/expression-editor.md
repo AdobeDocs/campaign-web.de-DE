@@ -3,10 +3,10 @@ audience: end-user
 title: Erstellen Ihrer erste Abfrage mithilfe des Abfrage-Modelers
 description: Erfahren Sie, wie Sie Ihre erste Abfrage im Abfrage-Modeler in Adobe Campaign Web erstellen.
 badge: label="Eingeschränkte Verfügbarkeit"
-source-git-commit: 7f4d8a2c2b0592515c25628f35234311dc61b4fd
+source-git-commit: 7faf1e38f34184e518419a74d8c482b24a8a1ebe
 workflow-type: tm+mt
-source-wordcount: '1919'
-ht-degree: 95%
+source-wordcount: '1909'
+ht-degree: 88%
 
 ---
 
@@ -16,21 +16,23 @@ ht-degree: 95%
 
 Die Bearbeitung von Ausdrücken erfolgt durch die manuelle Eingabe von Bedingungen, die in ihrer Gesamtheit eine Regel bilden. Diese Vorgehensweise ermöglicht die Verwendung fortgeschrittener Funktionen, über die Sie die verwendeten Werte (Datumsangaben, Strings, numerische Felder etc.) bearbeiten können, um spezifische Abfragen zu erstellen.
 
-Diese Vorgänge sind beim Konfigurieren einer benutzerdefinierten Bedingung über die Schaltfläche „Ausdruck bearbeiten“ im Abfrage-Modeler für die Attribut- und Wertfelder verfügbar.
+Diese Vorgänge sind über das Abfragemodell verfügbar. **[!UICONTROL Ausdruck bearbeiten]** Schaltfläche, verfügbar für **[!UICONTROL Attribut]** und **[!UICONTROL Wert]** bei der Konfiguration einer benutzerdefinierten Bedingung.
 
 ![](assets/edit-expression.png)
 
 Der Ausdruckseditor bietet Folgendes:
 
-* Ein Eingabefeld, in dem der Ausdruck definiert wird;
-* Die Liste der verfügbaren Felder, die im Ausdruck verwendet werden können und die der Zielgruppendimension der Abfrage entsprechen.
-* Die Liste der verfügbaren Funktionen, sortiert nach Kategorie.
+* Ein **Eingabefeld (1)** in dem der Ausdruck definiert ist.
+* Die Liste der verfügbaren **fields (2)** die im Ausdruck verwendet werden können und der Zielgruppendimension der Abfrage entsprechen.
+* **Hilfsfunktionen (3)**, sortiert nach Kategorie.
 
-Bearbeiten Sie den Ausdruck, indem Sie ihn direkt in das Eingabefeld eingeben, oder unter Zuhilfenahme der verfügbaren Felder und der Funktionsliste. Platzieren Sie dazu den Cursor in den Ausdruck, an dem Sie das Element hinzufügen möchten und doppelklicken Sie auf das gewünschte Feld oder den gewünschten Ausdruck.
+![](assets/expression-editor.png)
+
+Bearbeiten Sie den Ausdruck, indem Sie ihn direkt in das Eingabefeld eingeben. Um ein Feld oder eine Hilfsfunktion hinzuzufügen, platzieren Sie den Cursor in dem Ausdruck, in dem Sie es hinzufügen möchten, und klicken Sie auf die Schaltfläche + .
 
 ## Hilfsfunktionen
 
-Der Abfrageeditor bietet die Möglichkeit, fortgeschrittene Funktionen zur Erstellung komplexer Filter zu verwenden, je nach den gewünschten Ergebnissen und den Datentypen. Folgende Funktionen stehen zur Verfügung:
+Das Abfragetool ermöglicht die Verwendung erweiterter Funktionen, um je nach den gewünschten Ergebnissen und den Datentypen komplexe Filter durchzuführen. Folgende Funktionen stehen zur Verfügung:
 
 ### Aggregat
 
