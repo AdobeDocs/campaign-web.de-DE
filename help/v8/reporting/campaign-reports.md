@@ -4,10 +4,10 @@ title: Kampagnenberichte
 description: Erfahren Sie, wie Sie auf Kampagnenberichte zugreifen und diese verwenden können
 badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: 6a25a636-35d6-44c8-8635-7aec683af1f6
-source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
+source-git-commit: e6dde233084ccd38bd3588d60e1d26d5a1ef99ed
 workflow-type: tm+mt
-source-wordcount: '89'
-ht-degree: 94%
+source-wordcount: '341'
+ht-degree: 19%
 
 ---
 
@@ -25,18 +25,55 @@ ht-degree: 94%
 >abstract="The Tracking tab within your report offers valuable data, including recipient behavior per link, breakdown of opens and clicks, as well as detailed information about the most frequently clicked URLs during a delivery."
 -->
 
-Klicken Sie im Dashboard Ihrer Kampagne auf die Schaltfläche **Berichte**.
-
-![](assets/campaign_report_email_13.png)
-
-Alternativ können Sie die Schaltfläche mit den drei Punkten **Mehr Aktionen** neben dem Kampagnennamen in der Kampagnenliste verwenden, wie unten dargestellt:
-
-![](assets/campaign-reports-view.png){width="50%" align="left" zoomable="yes"}
-
-Der Kampagnenbericht ist in verschiedene Widgets unterteilt, die den Erfolg und die Fehler Ihrer Kampagne detailliert beschreiben.
+Die **Kampagnenberichte** einen umfassenden Überblick über Ihre **Kampagne**, einschließlich aller relevanten Informationen zu den verschiedenen Sendungen. Diese Berichte enthalten eine gründliche Analyse der Leistung jedes Versands pro Kanal: Erfolgsraten, Zielgruppeninteraktion und andere wichtige Metriken. Sie ermöglichen es Ihnen, die Effektivität und Wirkung Ihrer Kampagne insgesamt zu bewerten.
 
 Die vollständige Liste der Berichte und zugehörigen Metriken für jeden Kanal finden Sie auf den folgenden Seiten:
 
-* [E-Mail-Kanal](campaign-reports-email.md)
-* [SMS-Kanal](campaign-reports-sms.md)
-* [Push-Kanal](campaign-reports-push.md)
+* [Email-Kampagnenkanal](campaign-reports-email.md)
+* [SMS-Kampagnenkanal](campaign-reports-sms.md)
+* [Push-Kampagnenkanal](campaign-reports-push.md)
+
+## Bericht-Dashboard verwalten {#manage-reports}
+
+Gehen Sie wie folgt vor, um auf Kampagnenberichte zuzugreifen und diese zu verwalten:
+
+1. Navigieren Sie zum **[!UICONTROL Kampagnen]** Menü. Klicken Sie auf **Berichte** im Dashboard Ihrer Kampagne.
+
+   ![](assets/manage_campaign_report_2.png)
+
+   Alternativ können Sie die drei Punkte verwenden **Mehr Aktionen** neben dem Kampagnennamen in der Kampagnenliste und wählen Sie **[!UICONTROL Bericht anzeigen]**.
+
+   ![](assets/manage_campaign_report_1.png)
+
+1. Wählen Sie im linken Menü einen Bericht aus der Liste aus und navigieren Sie durch die Registerkarte , um Daten aus den einzelnen Kanälen anzuzeigen.
+
+   ![](assets/manage_campaign_report_4.png)
+
+1. Klicken Sie in Ihrem Dashboard auf **[!UICONTROL Sendungen auswählen]** , wenn Sie einen bestimmten Versand in Ihrer Kampagne auswählen möchten.
+
+1. Im **[!UICONTROL Versanddurchsatz]** Menü, wählen Sie eine **Starten** und **[!UICONTROL Endzeit]** , um bestimmte Daten auszuwählen.
+
+   ![](assets/manage_campaign_report_3.png)
+
+1. Aus dem **[!UICONTROL Ordner auswählen]** auswählen, ob Sie Sendungen oder Kampagnen aus einem bestimmten Ordner in die Zielgruppe aufnehmen möchten.
+
+   Sie können auch **[!UICONTROL Regeln hinzufügen]** , um Abfragen zu erstellen und Berichtsdaten besser zu filtern. [Erfahren Sie, wie Sie das Abfragemodell verwenden](../query/query-modeler-overview.md)
+
+   ![](assets/manage_campaign_report_4.png)
+
+1. Aus dem **[!UICONTROL URLs und Clickstreams]** können Sie auch die **[!UICONTROL Top besuchte Links]** oder **[!UICONTROL Zeitraum]**.
+
+   Die **[!UICONTROL Anzeigen nach]** -Optionen ermöglichen das Filtern nach URLs, Bezeichnungen oder Kategorien.
+
+## Exportieren der Berichte {#export-reports}
+
+Sie können Ihre verschiedenen Berichte einfach in das PDF- oder CSV-Format exportieren, sodass Sie sie freigeben, bearbeiten oder drucken können.
+
+1. Klicken Sie in Ihrem Bericht auf **[!UICONTROL Export]** und wählen **[!UICONTROL Als PDF-Datei exportieren]** oder **[!UICONTROL Als CSV-Datei exportieren]**.
+
+   ![](assets/export_campaign_report.png)
+
+1. Suchen Sie den Ordner, in dem Sie die Datei speichern möchten, benennen Sie sie bei Bedarf um und klicken Sie auf **[!UICONTROL Speichern]**.
+
+Ihr Bericht kann jetzt in einer PDF- oder CSV-Datei angezeigt oder freigegeben werden.
+

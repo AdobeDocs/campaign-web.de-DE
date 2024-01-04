@@ -3,17 +3,23 @@ audience: end-user
 title: Erste Schritte mit globalen Berichten
 description: Allgemeine Berichte
 badge: label="Eingeschränkte Verfügbarkeit"
-source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
+source-git-commit: e6dde233084ccd38bd3588d60e1d26d5a1ef99ed
 workflow-type: tm+mt
-source-wordcount: '210'
-ht-degree: 2%
+source-wordcount: '258'
+ht-degree: 8%
 
 ---
 
 
 # Erste Schritte mit globalen Berichten {#global-report-gs}
 
-Globale Berichte bieten einen umfassenden Überblick über Traffic und Interaktion über alle Kanäle und bieten eine Vielzahl von Widgets, die einzigartige Einblicke in die Kampagnen- und Zustellleistung bieten.
+Die **Allgemeine Berichte** dienen als effektives Tool und bieten eine konsolidierte Zusammenfassung des Traffics und der Interaktionsmetriken für jeden Kanal in Ihrer Campaign-Instanz. Diese Berichte bestehen aus verschiedenen Widgets, von denen jede einen bestimmten Blickwinkel auf Ihre Kampagnen- oder Versandleistung bietet.
+
+Die vollständige Liste der Berichte und zugehörigen Metriken für jeden Kanal finden Sie auf den folgenden Seiten:
+
+* [Globale E-Mail-Berichte](global-report-email.md)
+* [Allgemeine SMS-Berichte](global-report-email-sms.md)
+* [Globale Push-Berichte](global-report-push.md)
 
 ## Bericht-Dashboard verwalten {#manage-reports}
 
@@ -29,7 +35,7 @@ Gehen Sie wie folgt vor, um auf Ihre globalen Berichte zuzugreifen und sie zu ve
 
    ![](assets/global_report_manage_2.png)
 
-1. Klicks **[!UICONTROL Regeln hinzufügen]** , um Abfragen zu erstellen und Berichtsdaten besser zu filtern.
+1. Klicks **[!UICONTROL Regeln hinzufügen]** , um Abfragen zu erstellen und Berichtsdaten besser zu filtern. [Erfahren Sie, wie Sie das Abfragemodell verwenden](../query/query-modeler-overview.md)
 
 1. Aus dem **[!UICONTROL URLs und Clickstreams]** können Sie auch die **[!UICONTROL Top besuchte Links]** oder **[!UICONTROL Zeitraum]**.
 
