@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 badge: label="LA"
-source-git-commit: 28b6253cfd257c5522b728222aadc92a1736200d
+source-git-commit: 1dce1bf18dd16f1e4a0f78c6b699275904de8e19
 workflow-type: tm+mt
-source-wordcount: '739'
+source-wordcount: '741'
 ht-degree: 12%
 
 ---
@@ -106,15 +106,13 @@ Gehen Sie wie folgt vor, um eine neue Inhaltsvorlage zu erstellen.
 
    ![](assets/content-template-create.png)
 
-1. Füllen Sie die Vorlagendetails aus.
+1. Füllen Sie die Vorlagendetails aus. Sie können den Ordner auswählen, in dem Sie Ihre Vorlage speichern möchten. Standardmäßig werden Inhaltsvorlagen in einem dedizierten Knoten der Adobe Campaign-Hierarchie gespeichert: **[!UICONTROL Explorer]** > **[!UICONTROL Ressourcen]** > **[!UICONTROL Vorlagen]** > **[!UICONTROL Inhaltsvorlagen]**. [Erfahren Sie, wie Sie Ordner erstellen](../get-started/permissions.md#folders)
 
    ![](assets/content-template-details.png)
 
    >[!NOTE]
    >
    >Derzeit ist nur der **Email** Kanal und **HTML** -Typen werden unterstützt.
-
-1. Wählen Sie den Ordner aus, in dem Sie Ihre Vorlage speichern möchten. Standardmäßig werden Inhaltsvorlagen in einem dedizierten Knoten der Adobe Campaign-Hierarchie gespeichert: **[!UICONTROL Explorer]** > **[!UICONTROL Ressourcen]** > **[!UICONTROL Vorlagen]** > **[!UICONTROL Inhaltsvorlagen]**. [Erfahren Sie, wie Sie Ordner erstellen](../get-started/permissions.md#folders)
 
 1. Klicks **[!UICONTROL Erstellen]** und wählen Sie aus den verschiedenen Optionen aus, wie Sie Ihre Vorlage entwerfen möchten:
 
