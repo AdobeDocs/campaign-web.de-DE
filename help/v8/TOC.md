@@ -5,9 +5,9 @@ title: Adobe Campaign v8 – Web-Dokumentation
 description: Web-Dokumentation zu Campaign v8
 breadcrumb-title: Übersicht über Campaign
 hide: true
-source-git-commit: 9fd523a04ac4bfb2d760202b1f7e9bd9e7097dfe
+source-git-commit: 2685e1eb73adc72f468985aaf80e439ae3f46d34
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '506'
 ht-degree: 87%
 
 ---
@@ -35,32 +35,32 @@ ht-degree: 87%
    + E-Mails {#email}
       + [Erstellen Ihrer ersten E-Mail](email/create-email.md)
       + Erstellen der E-Mail-Inhalte {#content}
-         + [Konfigurieren der E-Mail-Inhalte](content/edit-content.md)
-         + [Arbeiten mit Inhaltsvorlagen](content/create-email-templates.md)
+         + [Konfigurieren der E-Mail-Inhalte](email/edit-content.md)
+         + [Arbeiten mit Inhaltsvorlagen](email/create-email-templates.md)
          + Beginnen Sie mit der Gestaltung Ihrer E-Mail {#start-design}
-            + [Erste Schritte mit dem E-Mail-Designer](content/get-started-email-designer.md)
-            + [Beginnen von Grund auf](content/create-email-content.md)
-            + [Importieren Ihrer E-Mail-Inhalte](content/existing-content.md)
-            + [Codieren Sie Ihre eigenen Inhalte](content/code-content.md)
-            + [Verwenden von E-Mail-Inhaltsvorlagen](content/use-email-templates.md)
+            + [Erste Schritte mit dem E-Mail-Designer](email/get-started-email-designer.md)
+            + [Beginnen von Grund auf](email/create-email-content.md)
+            + [Importieren Ihrer E-Mail-Inhalte](email/existing-content.md)
+            + [Codieren Sie Ihre eigenen Inhalte](email/code-content.md)
+            + [Verwenden von E-Mail-Inhaltsvorlagen](email/use-email-templates.md)
          + Gestalten Ihres Inhalts {#design-content}
-            + [Verwenden von Inhaltskomponenten](content/content-components.md)
-            + [Hinzufügen von Links und Verfolgen von Nachrichten](content/message-tracking.md)
-            + [Hinzufügen eines Links zur Mirrorseite](content/mirror-page.md)
-            + [Hinzufügen eines Preheaders](content/preheader.md)
-            + [Erstellen der Textversion](content/text-version-email.md)
-            + [Verwalten von Assets mit Adobe Experience Manager Assets as a Cloud Service](content/aem-assets.md)
+            + [Verwenden von Inhaltskomponenten](email/content-components.md)
+            + [Hinzufügen von Links und Verfolgen von Nachrichten](email/message-tracking.md)
+            + [Hinzufügen eines Links zur Mirrorseite](email/mirror-page.md)
+            + [Hinzufügen eines Preheaders](email/preheader.md)
+            + [Erstellen der Textversion](email/text-version-email.md)
+            + [Verwalten von Assets mit Adobe Experience Manager Assets as a Cloud Service](email/aem-assets.md)
          + Inhaltsassistent {#content-assistant}
-            + [Erste Schritte mit dem Inhaltsassistenten](content/generative-gs.md)
-            + [Textgenerierung mit dem Inhaltsassistenten](content/generative-content.md)
-            + [Bildgenerierung mit dem Inhaltsassistenten](content/generative-image.md)
-            + [E-Mail-Generierung mit dem Inhaltsassistenten](content/generative-email.md)
+            + [Erste Schritte mit dem Inhaltsassistenten](email/generative-gs.md)
+            + [Textgenerierung mit dem Inhaltsassistenten](email/generative-content.md)
+            + [Bildgenerierung mit dem Inhaltsassistenten](email/generative-image.md)
+            + [E-Mail-Generierung mit dem Inhaltsassistenten](email/generative-email.md)
          + Gestalten von Inhalten {#style}
-            + [Erste Schritte mit E-Mail-Stil](content/get-started-email-style.md)
-            + [Bearbeiten von Hintergrundeinstellungen](content/backgrounds.md)
-            + [Anpassen der senkrechten Ausrichtung und des Abstands](content/alignment-and-padding.md)
-            + [Definieren eines Stils für Links](content/styling-links.md)
-            + [Hinzufügen von Inline-Styling-Attributen](content/inline-styling.md)
+            + [Erste Schritte mit E-Mail-Stil](email/get-started-email-style.md)
+            + [Bearbeiten von Hintergrundeinstellungen](email/backgrounds.md)
+            + [Anpassen der senkrechten Ausrichtung und des Abstands](email/alignment-and-padding.md)
+            + [Definieren eines Stils für Links](email/styling-links.md)
+            + [Hinzufügen von Inline-Styling-Attributen](email/inline-styling.md)
       + Senden und Überwachen der E-Mail {#monitor}
          + [Vorbereiten und Senden einer E-Mail](monitor/prepare-send.md)
          + [Überwachen von Versandlogs](monitor/delivery-logs.md)
@@ -80,8 +80,8 @@ ht-degree: 87%
       + [Hinzufügen von Personalisierung](personalization/personalize.md)
       + [Hinzufügen bedingter Inhalte](personalization/conditions.md)
       + [Hinzufügen von integrierten Inhaltsbausteinen](personalization/content-blocks.md)
-   + [Hinzufügen von Angeboten zu Ihren Nachrichten](content/offers.md)
-   + [Versenden von Nachrichten an Ihre Abonnentinnen und Abonnenten](content/send-to-subscribers.md)
+   + [Hinzufügen von Angeboten zu Ihren Nachrichten](msg/offers.md)
+   + [Versenden von Nachrichten an Ihre Abonnentinnen und Abonnenten](msg/send-to-subscribers.md)
    + Vorschau und Testen eines Versands{#preview-test}
       + [Über die Vorschau und Tests](preview-test/preview-test.md)
       + [Vorschau des Nachrichteninhalts](preview-test/preview-content.md)
@@ -89,6 +89,7 @@ ht-degree: 87%
       + [Rendern Ihrer E-Mail](preview-test/email-rendering.md)
 + Profile &amp; Audiences {#audiences}
    + [Erste Schritte mit Profilen und Audiences](audience/gs-audiences-recipients.md)
+   + [Zielgruppendimensionen](audience/targeting-dimensions.md)
    + Arbeiten mit Profilen {#work-with-profiles}
       + [Profile überwachen und verwalten](audience/about-recipients.md)
       + [Testprofile erstellen und verwalten](audience/test-profiles.md)
