@@ -3,7 +3,7 @@ audience: end-user
 title: Erste Schritte mit globalen Berichten
 description: Allgemeine Berichte
 badge: label="Eingeschränkte Verfügbarkeit"
-source-git-commit: e6dde233084ccd38bd3588d60e1d26d5a1ef99ed
+source-git-commit: 6470acfbba105097230b63d504f7a73c0a08484c
 workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 8%
@@ -18,7 +18,7 @@ Die **Allgemeine Berichte** dienen als effektives Tool und bieten eine konsolidi
 Die vollständige Liste der Berichte und zugehörigen Metriken für jeden Kanal finden Sie auf den folgenden Seiten:
 
 * [Globale E-Mail-Berichte](global-report-email.md)
-* [Allgemeine SMS-Berichte](global-report-email-sms.md)
+* [Allgemeine SMS-Berichte](global-report-sms.md)
 * [Globale Push-Berichte](global-report-push.md)
 
 ## Bericht-Dashboard verwalten {#manage-reports}
