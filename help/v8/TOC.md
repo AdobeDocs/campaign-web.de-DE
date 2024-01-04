@@ -5,10 +5,10 @@ title: Adobe Campaign v8 – Web-Dokumentation
 description: Web-Dokumentation zu Campaign v8
 breadcrumb-title: Übersicht über Campaign
 hide: true
-source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
+source-git-commit: 9fd523a04ac4bfb2d760202b1f7e9bd9e7097dfe
 workflow-type: tm+mt
-source-wordcount: '508'
-ht-degree: 88%
+source-wordcount: '504'
+ht-degree: 87%
 
 ---
 
@@ -87,10 +87,10 @@ ht-degree: 88%
       + [Vorschau des Nachrichteninhalts](preview-test/preview-content.md)
       + [Durchführen von Testsendungen](preview-test/test-deliveries.md)
       + [Rendern Ihrer E-Mail](preview-test/email-rendering.md)
-+ Zielgruppen und Empfängerinnen bzw. Empfänger {#audiences}
-   + [Erste Schritte mit Empfängern und Zielgruppen](audience/gs-audiences-recipients.md)
-   + Arbeiten mit Empfängern {#work-with-recipients}
-      + [Verwalten von Profilen](audience/about-recipients.md)
++ Profile &amp; Audiences {#audiences}
+   + [Erste Schritte mit Profilen und Audiences](audience/gs-audiences-recipients.md)
+   + Arbeiten mit Profilen {#work-with-profiles}
+      + [Profile überwachen und verwalten](audience/about-recipients.md)
       + [Testprofile erstellen und verwalten](audience/test-profiles.md)
    + Arbeiten mit Zielgruppen {#audiences}
       + [Zielgruppen erstellen](audience/create-audience.md)
@@ -100,7 +100,6 @@ ht-degree: 88%
       + [Erstellen einer einmaligen Zielgruppe](audience/one-time-audience.md)
       + [Laden einer Zielgruppe aus einer Datei](audience/file-audience.md)
       + [Festlegen einer Kontrollgruppe](audience/control-group.md)
-   + [Arbeiten mit dem Regel-Builder](audience/segment-builder.md)
    + Arbeiten mit Abonnementdiensten {#work-with-services}
       + [Verwalten von Diensten](audience/manage-services.md)
       + [Verwalten von Abonnenten](audience/manage-subscribers.md)
