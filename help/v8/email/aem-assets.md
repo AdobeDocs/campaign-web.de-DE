@@ -4,10 +4,10 @@ title: Verwalten von Assets mit Adobe Experience Manager Assets as a Cloud Servi
 description: Erfahren Sie, wie Sie mit Adobe Experience Manager Assets as a Cloud Service Assets verwalten können
 badge: label="Beta"
 exl-id: c1e548b1-f4c6-4672-9724-edfc418063a6
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+source-git-commit: f3295f2151c6c7d8a24bc2d7bc8bd48ebf071378
 workflow-type: tm+mt
 source-wordcount: '380'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -17,13 +17,13 @@ ht-degree: 98%
 
 [!DNL Adobe Experience Manager Assets as a Cloud Service] ist eine integrierte, kollaborative Plattform, die dazu dient, Ihre kreativen Workflows zu optimieren und digitale Assets für einen nahtlosen Versand von Erlebnissen zu zentralisieren. Sie vereinfacht die Organisation, das Tagging und den Abruf genehmigter Produktions-Assets und gewährleistet so die Markenkonsistenz in allen Teams. Mit einer benutzerfreundlichen Benutzeroberfläche ermöglicht Ihnen [!DNL Assets as Cloud Service] den sofortigen Zugriff auf und die Freigabe von Assets in Ihren Adobe Creative- und Experience Cloud-Anwendungen.
 
-Weitere Informationen finden Sie in der Dokumentation zu [Adobe Experience Manager Assets as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/email/assets/home.html){target="_blank"}.
+Weitere Informationen finden Sie in der Dokumentation zu [Adobe Experience Manager Assets as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/home.html?lang=de){target="_blank"}.
 
 ## Hochladen und Einfügen von Assets{#add-asset}
 
 Um Dateien in [!DNL Assets as Cloud Service] zu importieren, müssen Sie zunächst den Ordner suchen oder erstellen, in dem diese gespeichert werden sollen. Sie können sie dann in Ihren E-Mail-Inhalt einfügen.
 
-Weitere Informationen zum Hochladen von Assets finden Sie in der Dokumentation zu [Adobe Experience Manager Assets as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/email/assets/assets-view/add-delete-assets-view.html){target="_blank"}.
+Weitere Informationen zum Hochladen von Assets finden Sie in der Dokumentation zu [Adobe Experience Manager Assets as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/assets-view/add-delete-assets-view.html?lang=de){target="_blank"}.
 
 1. Rufen Sie von Ihrer Homepage aus das erweiterte Menü auf und wählen Sie [!DNL Experience Manager Assets].
 
@@ -47,11 +47,11 @@ Weitere Informationen zum Hochladen von Assets finden Sie in der Dokumentation z
 
 1. Wählen Sie das soeben hochgeladene Asset aus, um auf das erweiterte Menü für das Asset-Management zuzugreifen.
 
-   Weitere Informationen zum Verwalten von Assets finden Sie auf dieser [Seite](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/email/assets/assets-view/manage-organize-assets-view.html).
+   Weitere Informationen zum Verwalten von Assets finden Sie auf dieser [Seite](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/assets-view/manage-organize-assets-view.html?lang=de).
 
    ![](assets/assets_4.png)
 
-1. Um Ihre Assets mit Adobe Photoshop Express weiter zu bearbeiten, doppelklicken Sie auf die Assets. Klicken Sie dann im Menü auf der rechten Seite auf das Symbol für den **[!UICONTROL Bearbeitungsmodus]**. [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/email/assets/assets-view/edit-images-assets-view.html#edit-using-express){target="_blank"}.
+1. Um Ihre Assets mit Adobe Photoshop Express weiter zu bearbeiten, doppelklicken Sie auf die Assets. Klicken Sie dann im Menü auf der rechten Seite auf das Symbol für den **[!UICONTROL Bearbeitungsmodus]**. [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/assets-view/edit-images-assets-view.html?lang=de#edit-using-express){target="_blank"}.
 
 1. Wählen Sie unter [!DNL Adobe Campaign] das Menü **[!UICONTROL Asset-Auswahl]** im linken Bereich des E-Mail-Designers aus.
 
