@@ -3,10 +3,10 @@ audience: end-user
 title: Erstellen Ihrer erste Abfrage mithilfe des Abfrage-Modelers
 description: Erfahren Sie, wie Sie Ihre erste Abfrage im Abfrage-Modeler in Adobe Campaign Web erstellen.
 badge: label="Eingeschränkte Verfügbarkeit"
-source-git-commit: 7f4d8a2c2b0592515c25628f35234311dc61b4fd
+source-git-commit: 95be832f5f5f330bb72f9abbf780965b452e2e5e
 workflow-type: tm+mt
-source-wordcount: '1464'
-ht-degree: 100%
+source-wordcount: '1634'
+ht-degree: 89%
 
 ---
 
@@ -170,6 +170,28 @@ Die folgenden Operatoren sind verfügbar:
 * **AUSSER (Ausschluss)**: Schließt Ergebnisse aus, die allen Filterkomponenten in der ausgehenden Transition entsprechen.
 
 ![](assets/query-operator-change.png)
+
+### Filterkomponenten kopieren und einfügen {#copy}
+
+Mithilfe des Abfragemodells können Sie eine oder mehrere Filterkomponenten kopieren und am Ende einer Transition einfügen. Dieser Vorgang kann auf der aktuellen Abfragearbeitsfläche oder auf einer beliebigen Arbeitsfläche innerhalb Ihrer Instanz ausgeführt werden.
+
+>[!NOTE]
+>
+>Die kopierte Auswahl wird beibehalten, solange Sie in Ihrer Instanz arbeiten. Wenn Sie sich abmelden und sich wieder anmelden, kann Ihre Auswahl nicht mehr eingefügt werden.
+
+Gehen Sie wie folgt vor, um Filterkomponenten zu kopieren und einzufügen:
+
+1. Wählen Sie die Filterkomponente aus, die Sie kopieren möchten, indem Sie in der Arbeitsfläche der Abfrage darauf klicken. Um mehrere Komponenten auszuwählen, verwenden Sie das Tool für die Mehrfachauswahl, das in der Symbolleiste oben rechts auf der Arbeitsfläche verfügbar ist.
+
+1. Klicken Sie auf **[!UICONTROL Kopieren]** im Eigenschaftenbereich der Komponente oder im blauen Band unten im Bildschirm, wenn Sie mehrere Komponenten ausgewählt haben.
+
+   | Eine einzelne Komponente kopieren | Kopieren mehrerer Komponenten |
+   |  ---  |  ---  |
+   | ![](assets/copy-single-component.png){width="200" align="center" zoomable="yes"} | ![](assets/copy-multiple-components.png){width="200" align="center" zoomable="yes"} |
+
+1. Um die Komponente(n) einzufügen, klicken Sie auf die Schaltfläche + am Ende der gewünschten Transition und wählen Sie **In Elemente einfügen**.
+
+![](assets/copy-paste.png)
 
 ## Überprüfen und Validieren einer Abfrage
 

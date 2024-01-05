@@ -3,10 +3,10 @@ audience: end-user
 title: Arbeiten mit dem Abfrage-Modeler
 description: Lernen Sie, mit dem Abfrage-Modeler von Adobe Campaign Web zu arbeiten.
 badge: label="Eingeschränkte Verfügbarkeit"
-source-git-commit: e61878f325575377865186fb9cb63b831ac843fd
+source-git-commit: 95be832f5f5f330bb72f9abbf780965b452e2e5e
 workflow-type: tm+mt
-source-wordcount: '323'
-ht-degree: 96%
+source-wordcount: '428'
+ht-degree: 59%
 
 ---
 
@@ -37,8 +37,6 @@ Der Abfrage-Modeler ist in jedem Kontext verfügbar, in dem Sie Regeln zum Filte
 | **Berichtsdaten filtern**: Fügen Sie eine Regel hinzu, um die in Berichten angezeigten Daten zu filtern. | ![](assets/access-reports.png){width="200" align="center" zoomable="yes"} |
 | **Listen anpassen**: Erstellen Sie benutzerdefinierte Regeln, um die in Listen angezeigten Daten zu filtern, wie z. B. Empfänger, Versandlisten usw. | ![](assets/access-lists.png){width="200" align="center" zoomable="yes"} |
 
-
-
 <!--**Dynamize content**: make your content dynamic by creating conditions that define which content should be displayed to different recipients, ensuring personalized and relevant messaging.
 
 +++Example
@@ -48,11 +46,24 @@ Der Abfrage-Modeler ist in jedem Kontext verfügbar, in dem Sie Regeln zum Filte
  +++
 -->
 
-
 ## Benutzeroberfläche des Abfrage-Modelers {#interface}
 
-Der Abfrage-Modeler bietet eine zentrale Arbeitsfläche, auf der Sie die verschiedenen Komponenten hinzufügen und kombinieren können, um Ihre Abfrage zu erstellen.
-
-Auf der rechten Seite enthält der Bereich „Regeleigenschaften“ Informationen zu Ihrer Abfrage. Damit können Sie verschiedene Vorgänge ausführen, um Ihre Abfrage zu überprüfen und sicherzustellen, dass sie Ihren Anforderungen entspricht. So überprüfen und validieren Sie Ihre Abfrage
+Das Abfragemodell bietet eine zentrale Arbeitsfläche, auf der Sie Ihre Abfrage erstellen, und einen rechten Bereich, der Informationen zu Ihrer Abfrage enthält.
 
 ![](assets/query-interface.png)
+
+### Die zentrale Arbeitsfläche {#canvas}
+
+Auf der zentralen Arbeitsfläche des Abfragemodells können Sie die verschiedenen Komponenten hinzufügen und kombinieren, um Ihre Abfrage zu erstellen.
+
+Die Symbolleiste oben rechts auf der Arbeitsfläche bietet Optionen zum einfachen Bearbeiten der Abfragekomponenten und Navigieren auf der Arbeitsfläche:
+
+* Mehrfachauswahlmodus: Wählen Sie mehrere Filterkomponenten aus, um sie zu kopieren und an der gewünschten Stelle einzufügen.
+* Drehen: Schalten Sie die Arbeitsfläche vertikal.
+* Bildschirmgröße: Passen Sie den Zoomgrad der Arbeitsfläche an Ihren Bildschirm an.
+* Verkleinern/vergrößern: Verkleinern oder auf der Arbeitsfläche.
+* Landkarte anzeigen: Öffnet eine Momentaufnahme der Arbeitsfläche, in der Sie sich befinden.
+
+### Bereich &quot;Regeleigenschaften&quot; {#rule-properties}
+
+Auf der rechten Seite wird die **[!UICONTROL Regeleigenschaften]** enthält Informationen zu Ihrer Abfrage. Damit können Sie verschiedene Vorgänge ausführen, um die Abfrage zu überprüfen und sicherzustellen, dass sie Ihren Anforderungen entspricht. [Erfahren Sie, wie Sie Ihre Abfrage überprüfen und validieren](build-query.md#check-and-validate-your-query)
