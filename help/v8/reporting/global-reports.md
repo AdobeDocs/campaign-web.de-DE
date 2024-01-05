@@ -3,10 +3,10 @@ audience: end-user
 title: Erste Schritte mit globalen Berichten
 description: Allgemeine Berichte
 badge: label="Eingeschränkte Verfügbarkeit"
-source-git-commit: 6470acfbba105097230b63d504f7a73c0a08484c
+source-git-commit: ac9a7918045e7ff02ef27c348b28a6ce09802caf
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 8%
+source-wordcount: '207'
+ht-degree: 9%
 
 ---
 
@@ -27,6 +27,10 @@ Gehen Sie wie folgt vor, um auf Ihre globalen Berichte zuzugreifen und sie zu ve
 
 1. Navigieren Sie zum **[!UICONTROL Berichte]** innerhalb des **[!UICONTROL Berichterstellung]** Abschnitt.
 
+1. Wählen Sie im linken Menü einen Bericht aus der Liste aus und navigieren Sie durch die Registerkarte , um Daten aus den einzelnen Kanälen anzuzeigen.
+
+   ![](assets/global_report_manage_3.png)
+
 1. Wählen Sie im Dashboard eine **Starten** und **[!UICONTROL Endzeit]** , um bestimmte Daten auszuwählen.
 
    ![](assets/global_report_manage_1.png)
@@ -40,16 +44,3 @@ Gehen Sie wie folgt vor, um auf Ihre globalen Berichte zuzugreifen und sie zu ve
 1. Aus dem **[!UICONTROL URLs und Clickstreams]** können Sie auch die **[!UICONTROL Top besuchte Links]** oder **[!UICONTROL Zeitraum]**.
 
    Die **[!UICONTROL Anzeigen nach]** -Optionen ermöglichen das Filtern nach URLs, Bezeichnungen oder Kategorien.
-
-## Exportieren der Berichte {#export-reports}
-
-Sie können Ihre verschiedenen Berichte einfach in das PDF- oder CSV-Format exportieren, sodass Sie sie freigeben, bearbeiten oder drucken können.
-
-1. Klicken Sie in Ihrem Bericht auf **[!UICONTROL Export]** und wählen **[!UICONTROL Als PDF-Datei exportieren]** oder **[!UICONTROL Als CSV-Datei exportieren]**.
-
-   ![](assets/global_report_export.png)
-
-1. Suchen Sie den Ordner, in dem Sie die Datei speichern möchten, benennen Sie sie bei Bedarf um und klicken Sie auf **[!UICONTROL Speichern]**.
-
-Ihr Bericht kann jetzt in einer PDF- oder CSV-Datei angezeigt oder freigegeben werden.
-

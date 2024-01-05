@@ -4,10 +4,10 @@ title: Versandberichte
 description: Erfahren Sie, wie Sie auf Versandberichte zugreifen und diese verwenden können
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
 badge: label="Eingeschränkte Verfügbarkeit"
-source-git-commit: c6381387880cd967ff2c7687920c55d6936392ab
+source-git-commit: ac9a7918045e7ff02ef27c348b28a6ce09802caf
 workflow-type: tm+mt
-source-wordcount: '354'
-ht-degree: 55%
+source-wordcount: '260'
+ht-degree: 66%
 
 ---
 
@@ -17,11 +17,6 @@ ht-degree: 55%
 >id="acw_campaign_reporting_deliveries_selection"
 >title="Aggregierte Berichte für Sendungen"
 >abstract="Wählen Sie mindestens zwei Sendungen aus, um einen aggregierten Datenbericht anzuzeigen."
-
->[!CONTEXTUALHELP]
->id="acw_reporting_email_exportation"
->title="Exportieren"
->abstract="Auf die Schaltfläche **Exportieren** klicken, um diese Metriken in PDF- oder CSV-Formaten zu exportieren, sodass sie freigegeben oder gedruckt werden können."
 
 Die **Versandberichte** bietet umfassende Einblicke und Daten, die ausschließlich auf Ihre **Sendungen** über jeden Kanal hinweg. Diese Berichte enthalten detaillierte Informationen über Leistung, Effektivität und Ergebnisse Ihrer einzelnen Sendungen und verschaffen Ihnen einen umfassenden Überblick.
 
@@ -62,16 +57,3 @@ Gehen Sie wie folgt vor, um Berichte anzuzeigen und zu verwalten:
    Die **[!UICONTROL Anzeigen nach]** -Optionen ermöglichen das Filtern nach URLs, Bezeichnungen oder Kategorien.
 
    ![](assets/manage_delivery_report_5.png)
-
-## Exportieren der Berichte {#export-reports}
-
-Sie können Ihre verschiedenen Berichte einfach in das PDF- oder CSV-Format exportieren, sodass Sie sie freigeben, bearbeiten oder drucken können.
-
-1. Klicken Sie in Ihrem Bericht auf **[!UICONTROL Export]** und wählen **[!UICONTROL Als PDF-Datei exportieren]** oder **[!UICONTROL Als CSV-Datei exportieren]**.
-
-   ![](assets/export_delivery_report.png)
-
-1. Suchen Sie den Ordner, in dem Sie die Datei speichern möchten, benennen Sie sie bei Bedarf um und klicken Sie auf **[!UICONTROL Speichern]**.
-
-Ihr Bericht kann jetzt in einer PDF- oder CSV-Datei angezeigt oder freigegeben werden.
-

@@ -3,7 +3,7 @@ audience: end-user
 title: Globale Berichte für den Push-Kanal
 description: Allgemeine Berichte für den Push-Kanal
 badge: label="Eingeschränkte Verfügbarkeit"
-source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
+source-git-commit: ac9a7918045e7ff02ef27c348b28a6ce09802caf
 workflow-type: tm+mt
 source-wordcount: '406'
 ht-degree: 44%
@@ -80,7 +80,7 @@ Die Fehlertypen von Push-Benachrichtigungen werden im Abschnitt [Dokumentation z
 
 ## Versanddurchsatz {#delivery-throughput-sms}
 
-![](assets/global_report_push_delivery_statistics.png)
+![](assets/global_report_push_delivery_throughput.png)
 
 Dieser Bericht enthält umfassende Informationen zum Versanddurchsatz innerhalb eines bestimmten Zeitraums.
 
