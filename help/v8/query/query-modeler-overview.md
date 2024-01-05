@@ -3,10 +3,10 @@ audience: end-user
 title: Arbeiten mit dem Abfrage-Modeler
 description: Lernen Sie, mit dem Abfrage-Modeler von Adobe Campaign Web zu arbeiten.
 badge: label="Eingeschränkte Verfügbarkeit"
-source-git-commit: 95be832f5f5f330bb72f9abbf780965b452e2e5e
+source-git-commit: fd29d499bc84e381e7a8c016b468ce85837cac6a
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 59%
+source-wordcount: '434'
+ht-degree: 58%
 
 ---
 
@@ -54,15 +54,15 @@ Das Abfragemodell bietet eine zentrale Arbeitsfläche, auf der Sie Ihre Abfrage 
 
 ### Die zentrale Arbeitsfläche {#canvas}
 
-Auf der zentralen Arbeitsfläche des Abfragemodells können Sie die verschiedenen Komponenten hinzufügen und kombinieren, um Ihre Abfrage zu erstellen.
+Auf der zentralen Arbeitsfläche des Abfragemodells können Sie die verschiedenen Komponenten hinzufügen und kombinieren, um Ihre Abfrage zu erstellen. [Erfahren Sie, wie Sie eine Abfrage erstellen](build-query.md)
 
 Die Symbolleiste oben rechts auf der Arbeitsfläche bietet Optionen zum einfachen Bearbeiten der Abfragekomponenten und Navigieren auf der Arbeitsfläche:
 
-* Mehrfachauswahlmodus: Wählen Sie mehrere Filterkomponenten aus, um sie zu kopieren und an der gewünschten Stelle einzufügen.
-* Drehen: Schalten Sie die Arbeitsfläche vertikal.
-* Bildschirmgröße: Passen Sie den Zoomgrad der Arbeitsfläche an Ihren Bildschirm an.
-* Verkleinern/vergrößern: Verkleinern oder auf der Arbeitsfläche.
-* Landkarte anzeigen: Öffnet eine Momentaufnahme der Arbeitsfläche, in der Sie sich befinden.
+* **Mehrfach-Auswahlmodus**: Wählen Sie mehrere Filterkomponenten aus, die kopiert und am gewünschten Speicherort eingefügt werden sollen.
+* **Drehen**: Schaltet die Arbeitsfläche vertikal um.
+* **Bildschirmgröße**: Passen Sie den Zoomgrad der Arbeitsfläche an Ihren Bildschirm an.
+* **Auszoomen** / **Einzoomen**: Zoomen Sie aus oder in die Arbeitsfläche.
+* **Anzeigekarte**: Öffnet eine Momentaufnahme der Arbeitsfläche, in der Sie sich befinden.
 
 ### Bereich &quot;Regeleigenschaften&quot; {#rule-properties}
 

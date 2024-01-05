@@ -3,22 +3,28 @@ audience: end-user
 title: Erstellen Ihrer erste Abfrage mithilfe des Abfrage-Modelers
 description: Erfahren Sie, wie Sie Ihre erste Abfrage im Abfrage-Modeler in Adobe Campaign Web erstellen.
 badge: label="Eingeschränkte Verfügbarkeit"
-source-git-commit: 95be832f5f5f330bb72f9abbf780965b452e2e5e
+source-git-commit: fd29d499bc84e381e7a8c016b468ce85837cac6a
 workflow-type: tm+mt
-source-wordcount: '1909'
-ht-degree: 88%
+source-wordcount: '2008'
+ht-degree: 82%
 
 ---
 
 # Bearbeitung von Ausdrücken {#expression}
 
-## Bearbeitung eines Ausdrucks {#edit}
+Die Bearbeitung von Ausdrücken erfolgt durch die manuelle Eingabe von Bedingungen, die in ihrer Gesamtheit eine Regel bilden. In diesem Modus können Sie erweiterte Funktionen verwenden, mit denen Sie die für bestimmte Abfragen verwendeten Werte bearbeiten können, z. B. Datumsangaben, Strings, numerische Felder, Sortierung usw.
 
-Die Bearbeitung von Ausdrücken erfolgt durch die manuelle Eingabe von Bedingungen, die in ihrer Gesamtheit eine Regel bilden. Diese Vorgehensweise ermöglicht die Verwendung fortgeschrittener Funktionen, über die Sie die verwendeten Werte (Datumsangaben, Strings, numerische Felder etc.) bearbeiten können, um spezifische Abfragen zu erstellen.
+>[!IMPORTANT]
+>
+>Im folgenden Abschnitt finden Sie Informationen zum Erstellen von Regeln mit dem Ausdruckseditor. Beachten Sie, dass sich die zum Erstellen von Regeln verwendete Syntax von der für die Personalisierung verwendeten unterscheidet.
 
-Diese Vorgänge sind über das Abfragemodell verfügbar. **[!UICONTROL Ausdruck bearbeiten]** Schaltfläche, verfügbar für **[!UICONTROL Attribut]** und **[!UICONTROL Wert]** bei der Konfiguration einer benutzerdefinierten Bedingung.
+## Arbeiten mit dem Ausdruckseditor {#edit}
 
-![](assets/edit-expression.png)
+Der Ausdruckseditor ist über das Abfragemodell verfügbar. **[!UICONTROL Ausdruck bearbeiten]** Schaltfläche, verfügbar für **[!UICONTROL Attribut]** und **[!UICONTROL Wert]** bei der Konfiguration einer benutzerdefinierten Bedingung.
+
+| Zugriff über **Attribut** field | Zugriff über **Wert** field |
+|  ---  |  ---  |
+| ![](assets/expression-editor-attribute.png){width="200" align="center" zoomable="yes"} | ![](assets/edit-expression.png){width="200" align="center" zoomable="yes"} |
 
 Der Ausdruckseditor bietet Folgendes:
 
@@ -29,6 +35,12 @@ Der Ausdruckseditor bietet Folgendes:
 Bearbeiten Sie den Ausdruck, indem Sie ihn direkt in das Eingabefeld eingeben. Um ein Feld oder eine Hilfsfunktion hinzuzufügen, platzieren Sie den Cursor in dem Ausdruck, in dem Sie es hinzufügen möchten, und klicken Sie auf die Schaltfläche + .
 
 ![](assets/expression-editor.png)
+
+Wenn Ihr Ausdruck fertig ist, klicken Sie auf die **[!UICONTROL Bestätigen]** Schaltfläche. Der Ausdruck wird im ausgewählten Feld angezeigt. Öffnen Sie zum Bearbeiten den Ausdruckseditor und nehmen Sie die gewünschten Änderungen vor.
+
+Das folgende Beispiel zeigt einen für die **[!UICONTROL Wert]** -Feld. Um sie zu bearbeiten, müssen Sie den Ausdruckseditor mit dem **[!UICONTROL Ausdruck bearbeiten]** Schaltfläche.
+
+![](assets/edit-expression-value.png)
 
 ## Hilfsfunktionen
 
