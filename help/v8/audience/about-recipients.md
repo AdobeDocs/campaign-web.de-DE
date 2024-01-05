@@ -2,14 +2,14 @@
 title: Profile überwachen und verwalten
 description: Erfahren Sie, wie Sie Profile im Campaign Web überwachen und verwalten.
 badge: label="Eingeschränkte Verfügbarkeit"
-source-git-commit: ff8a8388cfe4124ccddeb789460be7845da41089
+source-git-commit: e72069956490dc0febc2835568deb99cf41ead1c
 workflow-type: tm+mt
-source-wordcount: '901'
+source-wordcount: '900'
 ht-degree: 9%
 
 ---
 
-# Profile überwachen und verwalten {#profiles}
+# Profile überwachen und bearbeiten {#profiles}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_rn4"
@@ -96,9 +96,7 @@ Gehen Sie wie folgt vor, um auf die Details eines Profils zuzugreifen und sie zu
 
 1. Navigieren Sie zu **[!UICONTROL Kundenverwaltung]** > **[!UICONTROL Profile]**.
 
-1. Klicken Sie auf das gewünschte Element aus der **[!UICONTROL Profile]** Liste.
-
-1. Sie können auf die detaillierten Informationen zum Profil zugreifen.
+1. Klicken Sie auf das gewünschte Element aus der **[!UICONTROL Profile]** Liste. Die detaillierten Informationen zum Profil werden angezeigt.
 
    ![](assets/profile-details.png)
 
