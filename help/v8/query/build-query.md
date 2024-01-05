@@ -3,7 +3,7 @@ audience: end-user
 title: Erstellen Ihrer erste Abfrage mithilfe des Abfrage-Modelers
 description: Erfahren Sie, wie Sie Ihre erste Abfrage im Abfrage-Modeler in Adobe Campaign Web erstellen.
 badge: label="Eingeschränkte Verfügbarkeit"
-source-git-commit: fd29d499bc84e381e7a8c016b468ce85837cac6a
+source-git-commit: bc3e4b0b099667ffcc8178d8c3d531a76ba135d7
 workflow-type: tm+mt
 source-wordcount: '1887'
 ht-degree: 65%
@@ -88,8 +88,6 @@ Gehen Sie wie folgt vor, um Ihre Abfrage mit einer benutzerdefinierten Bedingung
 
    ![](assets/query-custom-condition.png)
 
-
-
 #### Benutzerdefinierte Bedingungen für verknüpfte Tabellen (1-1- und 1-N-Links){#links}
 
 Mit benutzerdefinierten Bedingungen können Sie Tabellen abfragen, die mit der aktuell von Ihrer Regel verwendeten Tabelle verknüpft sind. Dazu gehören Tabellen mit einer 1:1-Relation mit Kardinalität oder Sammlungstabellen (1:n-Relation).
@@ -120,7 +118,7 @@ In unserem Beispiel zielt die Abfrage auf Empfängerinnen und Empfänger ab, die
 
 1. Wählen Sie die **Käufe** und bestätigen.
 
-   ![](assets/1-n-collection.png)
+   ![](assets/1-N-collection.png)
 
 1. Es wird eine ausgehende Transition hinzugefügt, die die Erstellung von Unterbedingungen ermöglicht.
 
@@ -136,7 +134,7 @@ In unserem Beispiel zielt die Abfrage auf Empfängerinnen und Empfänger ab, die
 
 +++
 
-#### Arbeiten mit aggregierten Daten {#aggregate}**
+#### Arbeiten mit aggregierten Daten {#aggregate}
 
 Benutzerdefinierte Bedingungen ermöglichen Aggregat-Vorgänge. Wählen Sie dazu direkt ein Attribut aus einer Kollektionstabelle aus:
 
