@@ -4,7 +4,7 @@ title: Testen des E-Mail-Rendering
 description: Erfahren Sie, wie Sie Ihr E-Mail-Rendering in der Web-Benutzeroberfläche von Campaign testen können.
 exl-id: 5cdbce8b-3969-470d-8019-1edc58433146
 badge: label="Eingeschränkte Verfügbarkeit"
-source-git-commit: 6dcdfae8aa6d6346fc02217db77a96cf6d219fdc
+source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
 workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 100%
@@ -29,7 +29,7 @@ Für den Zugriff auf E-Mail-Rendering-Funktionen müssen Sie folgende Voraussetz
 
 Gehen Sie dann wie folgt vor:
 
-1. Klicken Sie im Bildschirm [Inhalt bearbeiten](../content/edit-content.md) oder im [E-Mail-Designer](../content/get-started-email-designer.md) auf die Schaltfläche **[!UICONTROL Inhalt simulieren]**.
+1. Klicken Sie im Bildschirm [Inhalt bearbeiten](../email/edit-content.md) oder im [E-Mail-Designer](../email/get-started-email-designer.md) auf die Schaltfläche **[!UICONTROL Inhalt simulieren]**.
 
 1. Wählen Sie die Schaltfläche **[!UICONTROL E-Mail rendern]** aus.
 

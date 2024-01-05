@@ -6,7 +6,7 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
-source-git-commit: 1f2a6e0944f46c0e37ce9e2b174a08e69981d143
+source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
 workflow-type: tm+mt
 source-wordcount: '1075'
 ht-degree: 96%
@@ -28,14 +28,14 @@ Eine Vorlage kann Folgendes enthalten:
 * [Typologien](../advanced-settings/delivery-settings.md#typology),
 * die Absenderadresse,
 * eine [Zielgruppe](../audience/about-recipients.md), einschließlich [Kontrollgruppen](../audience/control-group.md),
-* benutzerdefinierte [Inhalte](../content/edit-content.md),
+* benutzerdefinierte [Inhalte](../email/edit-content.md),
 * [personalisierte Felder](../personalization/personalize.md) und [bedingte Inhalte](../personalization/conditions.md),
-* Links zur [Mirrorseite](../content/mirror-page.md) und [Links](../content/message-tracking.md) zur Abmeldung,
+* Links zur [Mirrorseite](../email/mirror-page.md) und [Links](../email/message-tracking.md) zur Abmeldung,
 * Andere Versandeigenschaften, z. B. die Gültigkeit der Ressource, die Parameter für erneute Zustellversuche oder die Quarantäneeinstellungen.
 
 >[!NOTE]
 >
->Versandvorlagen unterscheiden sich von [Inhaltsvorlagen](../content/create-email-templates.md), mit dem Sie nur den Inhalt Ihrer E-Mails wiederverwenden und mit der Erstellung von Inhalten mit einer der vordefinierten E-Mail-Vorlagen beginnen können.
+>Versandvorlagen unterscheiden sich von [Inhaltsvorlagen](../email/create-email-templates.md), mit dem Sie nur den Inhalt Ihrer E-Mails wiederverwenden und mit der Erstellung von Inhalten mit einer der vordefinierten E-Mail-Vorlagen beginnen können.
 
 
 ## Aufrufen und Verwalten von Versandvorlagen {#access-manage-templates}

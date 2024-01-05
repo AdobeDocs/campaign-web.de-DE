@@ -4,7 +4,7 @@ title: Vorbereiten und Senden einer E-Mail
 description: Erfahren Sie, wie Sie eine E-Mail mit der Web-Benutzeroberfläche von Campaign vorbereiten und senden.
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
 badge: label="Beta"
-source-git-commit: 1fef8cd125d2688c70997bb44681f0832277f7fd
+source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
 workflow-type: tm+mt
 source-wordcount: '891'
 ht-degree: 99%
@@ -16,7 +16,7 @@ ht-degree: 99%
 
 ## Versandvorbereitung {#prepare}
 
-Wenn Sie [Inhalt](../content/edit-content.md), [Zielgruppe](../audience/add-audience.md) und [Zeitplan](../msg/gs-messages.md#schedule-the-delivery-sending-gs-schedule) definiert haben, können Sie den E-Mail-Versand vorbereiten.
+Wenn Sie [Inhalt](../email/edit-content.md), [Zielgruppe](../audience/add-audience.md) und [Zeitplan](../msg/gs-messages.md#schedule-the-delivery-sending-gs-schedule) definiert haben, können Sie den E-Mail-Versand vorbereiten.
 
 Während der Versandvorbereitung wird die Zielpopulation berechnet und der Nachrichteninhalt für jedes Profil in der Zielgruppe erzeugt. Nachdem die Vorbereitung abgeschlossen ist, können die Nachrichten entweder sofort oder am geplanten Datum und zur geplanten Uhrzeit gesendet werden.
 

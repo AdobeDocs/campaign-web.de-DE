@@ -7,9 +7,9 @@ role: Data Engineer
 level: Beginner
 badge: label="Beta"
 exl-id: 45cdd310-7c0c-4b57-bb7f-0576d8eca19d
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
-workflow-type: ht
-source-wordcount: '437'
+source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+workflow-type: tm+mt
+source-wordcount: '428'
 ht-degree: 100%
 
 ---
@@ -39,7 +39,7 @@ Integrierte Inhaltsbausteine sind:
 * **[!UICONTROL Formatierungsfunktion für Eigennamen]**: Hiermit wird die JavaScript-Funktion **[!UICONTROL toSmartCase]** generiert, mit der der erste Buchstabe eines jeden Worts in einen Großbuchstaben umgewandelt wird.
 * **[!UICONTROL Grußformeln]**: fügt Grußformeln mit dem vollständigen Namen der Empfängerin bzw. des Empfängers ein, gefolgt von einem Komma. Beispiel: „Sehr geehrter Herr Mustermann,“.
 * **[!UICONTROL Logo einfügen]**: Fügt ein Logo ein, das in den Instanzeinstellungen definiert ist.
-* **[!UICONTROL Mirrorseiten-Link]**: Hiermit wird ein Link zur [Mirrorseite](../content/mirror-page.md) eingefügt. Das Standardformat lautet: „Wenn diese Nachricht nicht richtig angezeigt wird, bitte hier klicken“.
+* **[!UICONTROL Mirrorseiten-Link]**: Hiermit wird ein Link zur [Mirrorseite](../email/mirror-page.md) eingefügt. Das Standardformat lautet: „Wenn diese Nachricht nicht richtig angezeigt wird, bitte hier klicken“.
 * **[!UICONTROL Mirrorseiten-URL]**: Hiermit wird die URL der Mirrorseite eingefügt, damit Versand-Designerinnen und -Designer den Link prüfen können.
 * **[!UICONTROL Benachrichtigungsstil]**
 * **[!UICONTROL Annahme-URL eines Angebots im Einzelmodus]**: Hiermit wird eine URL eingefügt, die es ermöglicht, ein Angebot auf **[!UICONTROL Angenommen]** zu setzen. (Dieser Baustein ist verfügbar, wenn das Interaction-Modul aktiviert ist)

@@ -6,7 +6,7 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 3afff35c-c15f-46f8-b791-9bad5e38ea44
-source-git-commit: 62887b8ba24163885ad0a42c790f3d4dc8f9499e
+source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
 workflow-type: tm+mt
 source-wordcount: '1200'
 ht-degree: 100%
@@ -98,7 +98,7 @@ Sie können den Nachrichteninhalt wie folgt personalisieren:
 
 * Hinzufügen von **personalisierten Angeboten**
 
-  Fügen Sie je nach Empfängerstandort, aktuellem Wetter oder letzter Bestellung personalisierte Angebote in Ihren Nachrichteninhalt ein. [Weitere Informationen](../content/offers.md)
+  Fügen Sie je nach Empfängerstandort, aktuellem Wetter oder letzter Bestellung personalisierte Angebote in Ihren Nachrichteninhalt ein. [Weitere Informationen](../msg/offers.md)
 
 ## Anzeigen einer Vorschau und Testen Ihrer Sendungen
 

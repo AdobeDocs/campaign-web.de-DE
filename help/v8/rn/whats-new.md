@@ -4,7 +4,7 @@ title: Neue Funktionen in Campaign Web v8
 description: Entdecken Sie neue Funktionen von Campaign Web v8.
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Eingeschränkte Verfügbarkeit"
-source-git-commit: 88daf84e617595a80c5cd3fd536969618f0fdcf5
+source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
 workflow-type: tm+mt
 source-wordcount: '1337'
 ht-degree: 66%
@@ -69,7 +69,7 @@ Mit Adobe Campaign können Sie Cross-Channel-Kampagnen einschließlich E-Mails, 
 Verwenden Sie die neue Web-Benutzeroberfläche von Campaign für Folgendes:
 
 * Erstellen, entwerfen, personalisieren, planen und senden Sie E-Mail-, SMS- und Push-Benachrichtigungen - [Weitere Infos](../msg/gs-messages.md)
-* Erstellen personalisierter E-Mail-Inhalte mit dem E-Mail-Designer – [Weitere Informationen](../content/edit-content.md)
+* Erstellen personalisierter E-Mail-Inhalte mit dem E-Mail-Designer – [Weitere Informationen](../email/edit-content.md)
 * Senden Sie kanalübergreifende Kampagnen, einschließlich SMS- und Push-Benachrichtigungen – [Weitere Informationen](../workflows/activities/channels.md)
 * Definieren von Zielgruppen mit dem Regel-Builder – [Weitere Informationen](../audience/about-recipients.md)
 * Vorschau, Testen und Senden Ihrer Nachrichten – [Weitere Informationen](../monitor/prepare-send.md)
@@ -113,7 +113,7 @@ Die wichtigsten Funktionen der Campaign Web Limited Availability-Version sind un
 
   Verabschieden Sie sich mit den Möglichkeiten der generativen KI von der manuellen Inhaltserstellung und heißen Sie effiziente, datengesteuerte Kampagnen willkommen. Unsere Technologie der generativen KI nutzt erweiterte Algorithmen, um **extrem ansprechende und personalisierte Inhalte zu erstellen**. Steigern Sie Öffnungsraten, Klickraten und Konversionen mit der intelligenten Inhaltserstellung durch generative KI. Bleiben Sie der Konkurrenz voraus und heben Sie Ihr E-Mail-Marketing mit generativer KI für E-Mail-Inhalte auf ein neues Niveau. 
 
-  Weiterführende Informationen finden Sie in [diesem Abschnitt](../content/generative-gs.md).
+  Weiterführende Informationen finden Sie in [diesem Abschnitt](../email/generative-gs.md).
 
 
 * **KI-gestützte Kontexthilfe**
@@ -132,14 +132,14 @@ Die wichtigsten Funktionen der Campaign Web Limited Availability-Version sind un
 
   Sie können jetzt im E-Mail-Editor von Campaign **HTML-Inhalte importieren und konvertieren**. Inhaltsbausteine werden automatisch identifiziert und stehen im E-Mail-Designer zur Verfügung: Nutzen Sie die leistungsstarken Design-Funktionen, um sie zu aktualisieren und zu personalisieren!
 
-  Weiterführende Informationen finden Sie in [diesem Abschnitt](../content/existing-content.md).
+  Weiterführende Informationen finden Sie in [diesem Abschnitt](../email/existing-content.md).
 
 
 * **SMS mit Angeboten**
 
   Die neue Web-Benutzeroberfläche ermöglicht jetzt zusätzlich zu E-Mail die **Integration von Angeboten mit SMS**. Erreichen Sie Ihre Zielgruppe auf ihren Mobilgeräten und senden Sie Promotions und zeitlich abgestimmte Benachrichtigungen. Heben Sie Ihre Marketing-Unternehmungen auf ein neues Niveau, indem Sie die Leistungsfähigkeit integrierter Angebote per SMS auf unserer erweiterten Web-Plattform nutzen.
 
-  Weiterführende Informationen finden Sie in [diesem Abschnitt](../content/offers.md).
+  Weiterführende Informationen finden Sie in [diesem Abschnitt](../msg/offers.md).
 
 ## Übergang zur Campaign Web-Benutzeroberfläche
 

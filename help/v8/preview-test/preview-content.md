@@ -4,7 +4,7 @@ title: Anzeigen des Versandinhalts in einer Vorschau
 description: Erfahren Sie, wie Sie mit der Web-Benutzeroberfläche von Campaign den Versandinhalt in einer Vorschau anzeigen können.
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
 badge: label="Eingeschränkte Verfügbarkeit"
-source-git-commit: 6dcdfae8aa6d6346fc02217db77a96cf6d219fdc
+source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 88%
@@ -18,7 +18,7 @@ Verwenden Sie die Inhaltssimulationsfunktion von [!DNL Campaign], um den Nachric
 
 Gehen Sie wie folgt vor, um den Versandinhalt in einer Vorschau anzuzeigen.
 
-1. Navigieren Sie zum Bildschirm Inhalt bearbeiten Ihres Versands oder zum [Email Designer](../content/get-started-email-designer.md).
+1. Navigieren Sie zum Bildschirm Inhalt bearbeiten Ihres Versands oder zum [Email Designer](../email/get-started-email-designer.md).
 
 1. Klicken Sie auf die Schaltfläche **[!UICONTROL Inhalt simulieren]**.
 

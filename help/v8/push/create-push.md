@@ -4,7 +4,7 @@ title: Erstellen eines Push-Benachrichtigungs-Versands
 description: Erfahren Sie, wie Sie mit Adobe Campaign Web einen Versand für eine Push-Benachrichtigung erstellen
 badge: label="Beta"
 exl-id: 49a3c05c-5806-4269-a98d-915eee216f90
-source-git-commit: 4ea25f0877fd3f0ab02f3023f041bd040e0530a3
+source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
 workflow-type: tm+mt
 source-wordcount: '653'
 ht-degree: 100%
@@ -85,7 +85,7 @@ Um den Inhalt Ihrer Benachrichtigung zu definieren, klicken Sie auf **[!UICONTRO
 
 ![](assets/push_create_5.png)
 
-Auf diesem Bildschirm können Sie auch [Inhalte simulieren](../preview-test/preview-test.md) und [Angebote einrichten](../content/offers.md).
+Auf diesem Bildschirm können Sie auch [Inhalte simulieren](../preview-test/preview-test.md) und [Angebote einrichten](../msg/offers.md).
 
 ## Planen des Versandzeitpunkts {#schedule-push}
 

@@ -4,8 +4,8 @@ title: Verwalten der Abonnentinnen und Abonnenten eines Dienstes
 description: Erfahren Sie, wie Sie Abonnentinnen und Abonnenten eines Dienstes im Adobe Campaign Web verwalten und an sie etwas senden können.
 badge: label="Beta"
 exl-id: cf72d27e-365c-4edc-b661-a67c148f0eeb
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
-workflow-type: ht
+source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+workflow-type: tm+mt
 source-wordcount: '292'
 ht-degree: 100%
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 Wenn Sie einmal einen [Dienst erstellt](manage-services.md#create-service) haben, können Sie Abonnentinnen und Abonnenten hinzufügen, Empfängerinnen und Empfänger abmelden und Nachrichten an die Abonnentinnen und Abonnenten dieses Dienstes senden.
 
-Die Abonnentenverwaltung wird auf dieser Seite beschrieben. Informationen zum Senden von Nachrichten an Ihre Abonnentinnen und Abonnenten finden Sie in [diesem Abschnitt](../content/send-to-subscribers.md).
+Die Abonnentenverwaltung wird auf dieser Seite beschrieben. Informationen zum Senden von Nachrichten an Ihre Abonnentinnen und Abonnenten finden Sie in [diesem Abschnitt](../msg/send-to-subscribers.md).
 
 ## Hinzufügen von Abonnentinnen und Abonnenten zu Ihrem Dienst {#add-subscribers}
 

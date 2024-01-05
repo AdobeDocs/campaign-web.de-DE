@@ -4,7 +4,7 @@ title: Erkunden der Benutzeroberfläche
 description: Web-Benutzeroberfläche von Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 7f4d8a2c2b0592515c25628f35234311dc61b4fd
+source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
 workflow-type: tm+mt
 source-wordcount: '1452'
 ht-degree: 100%
@@ -93,7 +93,7 @@ Im Abschnitt ENTSCHEIDUNGS-MANAGEMENT können Sie die Angebote und Angebotsvorla
 
 * **Angebote** – Durchsuchen Sie die Liste der Angebote und Angebotsvorlagen, die in der Konsole erstellt wurden, mithilfe des Moduls **Interaktion**. Standardmäßig können Sie den Status, das Start-/Enddatum und die Umgebung sehen. Sie können die Liste nach Status oder Start-/Enddatum filtern. Angebotsvorlagen sind ebenfalls verfügbar.
 
-Erfahren Sie, wie Sie in E-Mails und SMS Angebote erstellen und senden, in [diesem Abschnitt](../content/offers.md).
+Erfahren Sie, wie Sie in E-Mails und SMS Angebote erstellen und senden, in [diesem Abschnitt](../msg/offers.md).
 
 
 

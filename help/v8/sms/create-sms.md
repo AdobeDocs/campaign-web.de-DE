@@ -4,7 +4,7 @@ title: Erstellen eines SMS-Versands
 description: Erfahren Sie, wie Sie SMS mit Adobe Campaign Web erstellen und senden
 badge: label="Beta"
 exl-id: 54181498-8164-4600-8b3f-20892b77d5d7
-source-git-commit: 4ea25f0877fd3f0ab02f3023f041bd040e0530a3
+source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 100%
@@ -68,7 +68,7 @@ Gehen Sie wie folgt vor, um einen eigenständigen SMS-Versand zu erstellen:
 
    ![](assets/sms_create_4.png)
 
-   Auf diesem Bildschirm können Sie auch [Inhalte simulieren](../preview-test/preview-test.md) und [Angebote einrichten](../content/offers.md).
+   Auf diesem Bildschirm können Sie auch [Inhalte simulieren](../preview-test/preview-test.md) und [Angebote einrichten](../msg/offers.md).
 
 1. Um den Versand für ein bestimmtes Datum und eine bestimmte Uhrzeit zu planen, aktivieren Sie die Option **[!UICONTROL Zeitplan aktivieren]**. Nachdem der Versand initiiert wurde, wird die Nachricht automatisch an dem Datum und zu der Uhrzeit gesendet, die Sie für die Empfängerin bzw. den Empfänger festgelegt haben. Weitere Informationen zur Versandplanung finden Sie in [diesem Abschnitt](../msg/gs-messages.md#gs-schedule).
 
