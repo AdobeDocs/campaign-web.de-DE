@@ -5,9 +5,9 @@ feature: Audiences, Profiles, Seed Address, Proofs
 role: User
 level: Beginner
 badge: label="Eingeschränkte Verfügbarkeit"
-source-git-commit: 78f9bba52f33fac0e444afb3476873d931a873d1
+source-git-commit: ff8a8388cfe4124ccddeb789460be7845da41089
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '516'
 ht-degree: 14%
 
 ---
@@ -35,15 +35,25 @@ Um auf die Testprofilliste zuzugreifen, wählen Sie **[!UICONTROL Kundenverwaltu
 
 ![](assets/test-profile-list.png)
 
-Sie können nach [Ordner](../get-started/permissions.md#folders) über die Dropdown-Liste oder das Hinzufügen von Regeln mithilfe der [Abfragemodellierung](../query/query-modeler-overview.md).
+* Sie können nach [Ordner](../get-started/permissions.md#folders) über die Dropdown-Liste oder das Hinzufügen von Regeln mithilfe der [Abfragemodellierung](../query/query-modeler-overview.md).
 
-![](assets/test-profile-list-filters.png)
+  ![](assets/test-profile-list-filters.png)
 
-Um ein Testprofil zu bearbeiten, klicken Sie in der Liste auf das gewünschte Element.
+* Sie können jedes Testprofil duplizieren und nach Bedarf bearbeiten.
 
-Um ein Testprofil zu löschen, wählen Sie die entsprechende Option aus dem **[!UICONTROL Mehr Aktionen]** Menü.
+* Um ein Testprofil zu löschen, wählen Sie die entsprechende Option aus dem **[!UICONTROL Mehr Aktionen]** Menü.
 
-![](assets/test-profile-list-delete.png)
+  ![](assets/test-profile-list-delete.png)
+
+* Um ein Testprofil zu bearbeiten, klicken Sie in der Liste auf das gewünschte Element.
+
+Testprofile können auch über die **[!UICONTROL Explorer]** Ansicht aus der **[!UICONTROL Ressourcen]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Testadressen]** Knoten.
+
+Dort können Sie Ordner oder Unterordner durchsuchen, erstellen und verwalten sowie die zugehörigen Berechtigungen überprüfen. [Erfahren Sie, wie Sie Ordner erstellen](../get-started/permissions.md#folders)
+
+![](assets/test-profiles-folders.png)
+
+Aus dem **[!UICONTROL Explorer]** Sie können auch filtern, löschen, bearbeiten und [erstellen](#create-test-profile) Testprofile.
 
 ## Erstellen eines Testprofils {#create-test-profile}
 
@@ -66,7 +76,7 @@ Gehen Sie wie folgt vor, um ein Testprofil zu erstellen.
    >
    >Die **[!UICONTROL Titel]** automatisch den von Ihnen definierten Vor- und Nachnamen eingeben.
 
-1. Standardmäßig werden Testprofile im **[!UICONTROL Testadressen]** Ordner. Sie können sie ändern, indem Sie zur gewünschten Position navigieren. [Weitere Informationen](#seed-addresses-folders)
+1. Standardmäßig werden Testprofile im **[!UICONTROL Testadressen]** Ordner. Sie können sie ändern, indem Sie zur gewünschten Position navigieren. [Informationen zum Arbeiten mit Ordnern](../get-started/permissions.md#folders)
 
    ![](assets/test-profile-folder.png)
 
@@ -78,7 +88,7 @@ You do not need to enter all fields of each tab when creating a seed address. Mi
 
    ![](assets/test-profile-address.png)
 
-1. Wenn Sie die **[!UICONTROL No longer contact (by any channel)]** aktivieren, befindet sich das Profil auf der Blockierungsliste. Ein solcher Empfänger ist in keinem Kanal mehr enthalten (E-Mail, SMS usw.).
+1. Wenn Sie die **[!UICONTROL No longer contact (by any channel)]** aktivieren, befindet sich das Testprofil auf der Blockierungsliste. Ein solcher Empfänger ist in keinem Kanal mehr enthalten (E-Mail, SMS usw.).
 
 1. Im **[!UICONTROL Zusätzliche Daten]** Geben Sie die Personalisierungsdaten für die in den Data Management-Workflows erstellten Sendungen ein, denen Sie einen bestimmten Wert zuweisen möchten. [Weitere Informationen zu Workflows](../workflows/gs-workflows.md)
 
@@ -92,16 +102,5 @@ Das soeben erstellte Testprofil kann jetzt zum Senden eines Tests verwendet werd
 
 <!--Use test profiles in Direct mail? cf v7/v8-->
 
-## Verwalten von Testadressenordnern {#seed-addresses-folders}
-
-Testadressen werden in einem dedizierten Knoten der Adobe Campaign-Hierarchie gespeichert: **[!UICONTROL Explorer]** > **[!UICONTROL Ressourcen]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Testadressen]**.
-
-Um Testprofile zu organisieren, können Sie in der Dropdownliste Mehr Aktionen Unterordner erstellen. [Erfahren Sie, wie Sie Ordner erstellen](../get-started/permissions.md#folders)
-
-![](assets/test-profile-sub-folders.png)
-
-Sie können ein Testprofil auch aus einer beliebigen **[!UICONTROL Testadressen]** Ordner oder Unterordner. Füllen Sie alle Details auf die gleiche Weise aus wie Sie es mit der **[!UICONTROL Kundenverwaltung]** > **[!UICONTROL Profile]** Menü. [Weitere Informationen](#create-test-profile)
-
-Um Testprofile zu bearbeiten, klicken Sie auf deren Titel entweder im **[!UICONTROL Testprofile]** oder aus dem Ordner, in dem sie gespeichert ist.
 
 
