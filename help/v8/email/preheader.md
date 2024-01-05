@@ -3,10 +3,10 @@ audience: end-user
 title: Hinzufügen eines Preheaders in E-Mail-Designer
 description: Erfahren Sie, wie Sie E-Mail-Inhalte erstellen
 exl-id: 8513b069-7155-45ac-8c98-38576c9ddeda
-badge: label="Beta"
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+badge: label="Eingeschränkte Verfügbarkeit"
+source-git-commit: ffca12b85a7de30e90b0554560a4245337b35e6b
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '209'
 ht-degree: 100%
 
 ---
