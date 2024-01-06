@@ -2,11 +2,11 @@
 audience: end-user
 title: Senden eines Push-Benachrichtigungs-Versands
 description: Erfahren Sie, wie Sie mit Adobe Campaign Web einen Push-Benachrichtigungs-Versand senden.
-badge: label="Beta"
+badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: 16b3b33b-36db-4635-8e44-707694b859db
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
-workflow-type: ht
-source-wordcount: '386'
+source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+workflow-type: tm+mt
+source-wordcount: '387'
 ht-degree: 100%
 
 ---

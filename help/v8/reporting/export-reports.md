@@ -3,10 +3,10 @@ audience: end-user
 title: Exportieren der Berichte
 description: Informationen zum Exportieren Ihrer Berichte
 badge: label="Eingeschränkte Verfügbarkeit"
-source-git-commit: ac9a7918045e7ff02ef27c348b28a6ce09802caf
+source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
 workflow-type: tm+mt
-source-wordcount: '105'
-ht-degree: 28%
+source-wordcount: '107'
+ht-degree: 29%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 28%
 
 >[!CONTEXTUALHELP]
 >id="acw_reporting_email_exportation"
->title="Exportieren"
+>title="Exportieren der Berichte"
 >abstract="Auf die Schaltfläche **Exportieren** klicken, um diese Metriken in PDF- oder CSV-Formaten zu exportieren, sodass sie freigegeben oder gedruckt werden können."
 
 Sie können Ihre verschiedenen Berichte einfach in das PDF- oder CSV-Format exportieren, sodass Sie sie freigeben, bearbeiten oder drucken können.
