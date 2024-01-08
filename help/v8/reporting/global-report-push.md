@@ -3,10 +3,10 @@ audience: end-user
 title: Globale Berichte für den Push-Kanal
 description: Allgemeine Berichte für den Push-Kanal
 badge: label="Eingeschränkte Verfügbarkeit"
-source-git-commit: ac9a7918045e7ff02ef27c348b28a6ce09802caf
+source-git-commit: c5b4e1d44977b43324e85a7b5e173ef3154a620d
 workflow-type: tm+mt
-source-wordcount: '406'
-ht-degree: 44%
+source-wordcount: '548'
+ht-degree: 34%
 
 ---
 
@@ -18,7 +18,12 @@ Navigieren Sie zum **[!UICONTROL Berichte]** innerhalb des **[!UICONTROL Bericht
 
 ## Versandzusammenfassung {#delivery-summary-push}
 
-### Versandzusammenfassung {#delivery-overview-push}
+### Versandübersicht {#delivery-overview-push}
+
+>[!CONTEXTUALHELP]
+>id="acw_push_global_report_overview"
+>title="Push-Versand – Übersicht"
+>abstract="Die Push-Benachrichtigung **Versandübersicht** KPIs bieten eine gründliche Untersuchung Ihrer Push-Sendungen und liefern detaillierte Einblicke sowie spezifische Daten. Es bietet umfassende Details zu Leistung, Effektivität und Ergebnissen der Sendungen."
 
 Die **[!UICONTROL Versandübersicht]** liefert wichtige Leistungsindikatoren (KPIs), die detaillierte Informationen darüber enthalten, wie Ihre Besucher mit jedem Push-Benachrichtigungsversand interagieren. Metriken werden nachfolgend beschrieben.
 
@@ -38,6 +43,11 @@ Die **[!UICONTROL Versandübersicht]** liefert wichtige Leistungsindikatoren (KP
 
 ### Zielgruppe {#delivery-summary-push-initial-target}
 
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_push_targeted_audience"
+>title="Push-Zielpopulation"
+>abstract="Die **Zielgruppe** Diagramm und Tabelle zeigen Daten zu Ihrer Push-Nachrichten-Audience, einschließlich Informationen zu den zu versendenden Nachrichten und Ausschlüssen."
+
 Die **[!UICONTROL Zielgruppe]** -Tabelle und -diagramm enthält Daten zu Ihren Empfängern für jeden gesendeten Push-Benachrichtigungsversand. Metriken werden nachfolgend beschrieben.
 
 ![](assets/global_report_push_targeted_audience.png)
@@ -53,6 +63,11 @@ Die **[!UICONTROL Zielgruppe]** -Tabelle und -diagramm enthält Daten zu Ihren E
 +++
 
 ### Versandstatistiken {#delivery-summary-push-exec-stats}
+
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_push_delivery_stats"
+>title="Push-Versandstatistiken"
+>abstract="Die **Gesamtstatistik** liefert Informationen zu gesendeten Push-Benachrichtigungen, einschließlich Erfolgsraten, Fehlern und Quarantänen."
 
 Die **[!UICONTROL Versandstatistiken]** in der Tabelle wird der Erfolg jedes Push-Benachrichtigungsversands beschrieben. Metriken werden nachfolgend beschrieben.
 
@@ -74,13 +89,23 @@ Die **[!UICONTROL Versandstatistiken]** in der Tabelle wird der Erfolg jedes Pus
 
 ### Ausschlussgründe {#causes-exclusion}
 
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_push_exclusion"
+>title="Push-Ausschlussgründe"
+>abstract="Die **Ausschlussgründe** Diagramm und Tabelle veranschaulichen die verschiedenen Gründe, aus denen Benutzerprofile keine Push-Benachrichtigungen erhalten konnten."
+
 Die **[!UICONTROL Ausschlussgründe]** Diagramm und Tabelle zeigen die Gründe an, aus denen verhindert wurde, dass aus den Zielgruppenprofilen ausgeschlossene Benutzerprofile die Nachricht empfangen.
 
 Die Fehlertypen von Push-Benachrichtigungen werden im Abschnitt [Dokumentation zu Adobe Campaign v8 (Client-Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=de#push-error-types){target="_blank"} aufgelistet.
 
 ## Versanddurchsatz {#delivery-throughput-sms}
 
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_throughput_push"
+>title="Bericht &quot;Versanddurchsatz&quot;"
+>abstract="Die **Versanddurchsatz** Der Bericht enthält detaillierte Informationen zum Durchsatz der Push-Benachrichtigung bei der Bereitstellung der gesamten Plattform innerhalb eines bestimmten Zeitraums."
+
 ![](assets/global_report_push_delivery_throughput.png)
 
-Dieser Bericht enthält umfassende Informationen zum Versanddurchsatz innerhalb eines bestimmten Zeitraums.
+Die **[!UICONTROL Versanddurchsatz]** Dieser Bericht bietet umfassende Einblicke in die Effektivität des Push-Benachrichtigungs-Versandsystems und bietet eine detaillierte Zusammenfassung der Erfolgs- und Fehlerquoten über einen bestimmten Zeitraum hinweg.
 

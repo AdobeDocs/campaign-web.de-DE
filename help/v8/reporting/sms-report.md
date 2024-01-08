@@ -4,10 +4,10 @@ title: SMS-Versandberichte
 description: Erfahren Sie, wie Sie auf SMS-Versandberichte zugreifen und diese verwenden können
 badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: 153d3a85-0d39-42db-9906-1e7f2d1d5bae
-source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
+source-git-commit: c5b4e1d44977b43324e85a7b5e173ef3154a620d
 workflow-type: tm+mt
 source-wordcount: '506'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -22,12 +22,12 @@ Die **Übersicht über den SMS-Versand** bietet einen umfassenden Überblick üb
 
 ## Versandzusammenfassung {#delivery-summary}
 
+### Versandübersicht {#sms-delivery-overview}
+
 >[!CONTEXTUALHELP]
 >id="acw_sms_report_overview"
 >title="SMS-Versand – Überblick"
 >abstract="Der **Überblick über den SMS-Versand** bietet einen umfassenden Überblick über Ihren SMS-Versand, mit umfangreichen Einblicken und spezifischen Daten. Er bietet umfassende Informationen über Leistung, Effektivität und Ergebnisse jedes Versands."
-
-### Versandübersicht {#sms-delivery-overview}
 
 Die **[!UICONTROL Versandübersicht]** bietet wichtige Leistungsindikatoren (KPIs), die detaillierte Informationen über Erfolgs- und Fehlerraten enthalten und Auskunft darüber geben, wie Ihre Besucherinnen und Besucher mit Ihren SMS-Nachrichten interagieren.
 
@@ -45,9 +45,7 @@ Die **[!UICONTROL Versandübersicht]** bietet wichtige Leistungsindikatoren (KPI
 
 +++
 
-
 ### Zielpopulation {#sms-delivery-targeted-population}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sms_targeted_population"
@@ -67,7 +65,6 @@ Das Diagramm und die Tabelle zur **Zielpopulation** zeigen Daten in Bezug auf Ih
 
 
 ### Gesamtstatistik {#sms-delivery-overall}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sms_overall_stats"
@@ -89,12 +86,10 @@ Die **Gesamtstatistik** enthält Daten zu den gesendeten SMS-Benachrichtigungen,
 
 ### Ausschlüsse {#sms-delivery-exclusions}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sms_exclusions"
 >title="SMS-Ausschlüsse"
 >abstract="Der Graph und die Tabelle **Ausschlüsse** zeigen die verschiedenen Gründe an, die verhindert haben, dass Benutzerprofile, die von den Zielgruppenprofilen ausgeschlossen wurden, die Nachricht erhalten haben."
-
 
 Der Graph und die Tabelle **[!UICONTROL Ausschlüsse]** zeigen die verschiedenen Gründe an, die verhindert haben, dass Benutzerprofile, die von den Zielgruppenprofilen ausgeschlossen wurden, die Nachricht erhalten haben. Ausschlussregeln werden in der[Dokumentation zu Campaign v8 (Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=de#sms-quarantines){_blank} detailliert beschrieben.
 
@@ -105,7 +100,7 @@ Der Graph und die Tabelle **[!UICONTROL Ausschlüsse]** zeigen die verschiedenen
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_throughput_sms"
 >title="SMS-Versanddurchsatz"
->abstract="Der **Versanddurchsatz**-Bericht enthält detaillierte Informationen zum Versanddurchsatz innerhalb eines bestimmten Zeitraums. Die wichtigste Kennzahl, mit der die Geschwindigkeit des Nachrichtenversands gemessen wird, ist die Anzahl der pro Stunde gesendeten Nachrichten."
+>abstract="Die **Versanddurchsatz** enthält detaillierte Informationen zum Versanddurchsatz innerhalb eines bestimmten Zeitraums. Die wichtigste Kennzahl, mit der die Geschwindigkeit des Nachrichtenversands gemessen wird, ist die Anzahl der pro Stunde gesendeten Nachrichten."
 
 Dieser Bericht enthält detaillierte Informationen zum Versanddurchsatz innerhalb eines bestimmten Zeitraums. Die wichtigste Kennzahl, mit der die Geschwindigkeit des Nachrichtenversands gemessen wird, ist die Anzahl der pro Stunde gesendeten Nachrichten.
 

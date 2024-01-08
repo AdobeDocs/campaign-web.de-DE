@@ -4,10 +4,10 @@ title: Kampagnenberichte für den E-Mail-Kanal
 description: Weitere Informationen zu Kampagnenberichten für den E-Mail-Kanal
 badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: c44c91f8-1f88-4087-8417-34be64a2ab19
-source-git-commit: ac9a7918045e7ff02ef27c348b28a6ce09802caf
+source-git-commit: c5b4e1d44977b43324e85a7b5e173ef3154a620d
 workflow-type: tm+mt
 source-wordcount: '1573'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -47,7 +47,7 @@ Der Bericht **[!UICONTROL Versandübersicht]** bietet wichtige Leistungsindikato
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_target"
 >title="Statistiken der ursprünglichen Zielgruppe"
->abstract="Die Tabelle „Statistiken der ursprünglichen Zielgruppe“ zeigt Daten zu Ihren Empfängerinnen und Empfängern an"
+>abstract="In der Tabelle Ursprüngliche Zielgruppenstatistiken werden die Daten zu Ihren Empfängern angezeigt."
 
 Die Tabelle **[!UICONTROL Statistiken der anfänglichen Zielgruppe]** zeigt Daten zu Ihren Empfängerinnen und Empfängern an. Metriken werden nachfolgend beschrieben.
 

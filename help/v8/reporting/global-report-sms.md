@@ -3,10 +3,10 @@ audience: end-user
 title: Allgemeine Berichte für den SMS-Kanal
 description: Allgemeine Berichte für den SMS-Kanal
 badge: label="Eingeschränkte Verfügbarkeit"
-source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
+source-git-commit: c5b4e1d44977b43324e85a7b5e173ef3154a620d
 workflow-type: tm+mt
-source-wordcount: '401'
-ht-degree: 26%
+source-wordcount: '585'
+ht-degree: 19%
 
 ---
 
@@ -19,6 +19,11 @@ Navigieren Sie zum **[!UICONTROL Berichte]** innerhalb des **[!UICONTROL Bericht
 ## Versandzusammenfassung {#delivery-summary-sms}
 
 ### Versandübersicht {#delivery-overview-sms}
+
+>[!CONTEXTUALHELP]
+>id="acw_sms_global_report_overview"
+>title="SMS-Versand – Überblick"
+>abstract="Die **Übersicht über den SMS-Versand** KPIs bieten eine gründliche Zusammenfassung Ihres SMS-Versands mit detaillierten Einblicken und spezifischen Daten. Es liefert umfassende Informationen über Leistung, Effektivität und Ergebnisse Ihrer Sendungen."
 
 Die **[!UICONTROL Versandübersicht]** bietet umfassende KPIs (Key Performance Indicators), die einen umfassenden Einblick in die Interaktionsmuster Ihrer Besucher bei jedem SMS-Versand bieten. Die folgenden Metriken sind unten beschrieben.
 
@@ -38,6 +43,11 @@ Die **[!UICONTROL Versandübersicht]** bietet umfassende KPIs (Key Performance I
 
 ### Zielgruppe {#delivery-summary-sms-initial-target}
 
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_sms_targeted_audience"
+>title="SMS-Zielpopulation"
+>abstract="Das Diagramm und die Tabelle für **Zielgruppenbestimmung** Daten bezüglich Ihrer SMS-Audience präsentieren, einschließlich Informationen zu den zu sendenden Nachrichten und Ausschlüssen."
+
 Die **[!UICONTROL Zielgruppe]** -Tabelle und -diagramm enthält Daten zu Ihren Empfängern für jeden gesendeten SMS-Versand. Metriken werden nachfolgend beschrieben.
 
 ![](assets/global_report_sms_targeted_audience.png)
@@ -53,6 +63,11 @@ Die **[!UICONTROL Zielgruppe]** -Tabelle und -diagramm enthält Daten zu Ihren E
 +++
 
 ### Versandstatistiken {#delivery-summary-sms-exec-stats}
+
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_sms_delivery_stats"
+>title="SMS-Versandstatistiken"
+>abstract="Die **Versandstatistiken** bietet umfassende Einblicke in die gesendete SMS und eine Aufschlüsselung verschiedener Metriken wie Erfolgsraten, Fehlerereignisse und in Quarantäne gestellte Zielgruppen. Diese detaillierte Darstellung ermöglicht eine gründliche Untersuchung der Gesamtleistung und der Ergebnisse des SMS-Versandprozesses."
 
 Die **[!UICONTROL Versandstatistiken]** in der Tabelle wird der Erfolg jedes SMS-Versands beschrieben. Metriken werden nachfolgend beschrieben.
 
@@ -74,6 +89,11 @@ Die **[!UICONTROL Versandstatistiken]** in der Tabelle wird der Erfolg jedes SMS
 
 ### Ausschlussgründe {#causes-exclusion}
 
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_sms_exclusions"
+>title="SMS-Ausschlussgründe"
+>abstract="Die **Ausschlussgründe** Diagramm und Tabelle veranschaulichen die unterschiedlichen Ursachen, aus denen Benutzerprofile keine SMS-Nachrichten erhalten konnten."
+
 Die **[!UICONTROL Ausschlussgründe]** Diagramm und Tabelle zeigen die Gründe an, aus denen verhindert wurde, dass aus den Zielgruppenprofilen ausgeschlossene Benutzerprofile Ihre SMS-Sendungen erhalten.
 
 Die Fehlertypen werden im Abschnitt [Dokumentation zu Adobe Campaign v8 (Clientkonsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=de#email-error-types){target="_blank"}.
@@ -82,6 +102,11 @@ Die Fehlertypen werden im Abschnitt [Dokumentation zu Adobe Campaign v8 (Clientk
 
 ## Versanddurchsatz {#delivery-throughput-sms}
 
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_throughput_sms"
+>title="SMS-Versanddurchsatz"
+>abstract="Die **Versanddurchsatz** bietet umfassende Einblicke in die Effizienz des SMS-Versandsystems und bietet einen detaillierten Überblick über Erfolg und Fehlerrate innerhalb eines bestimmten Zeitraums."
+
 ![](assets/global_report_sms_delivery_throughput.png)
 
-Dieser Bericht enthält umfassende Informationen zum Versanddurchsatz innerhalb eines bestimmten Zeitraums.
+Die **[!UICONTROL Versanddurchsatz]** bietet umfassende Einblicke in die Effektivität des SMS-Versandsystems und bietet eine detaillierte Zusammenfassung der Erfolgs- und Fehlerquoten über einen bestimmten Zeitraum.
