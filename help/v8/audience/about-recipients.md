@@ -2,10 +2,10 @@
 title: Profile überwachen und verwalten
 description: Erfahren Sie, wie Sie Profile im Campaign Web überwachen und verwalten.
 badge: label="Eingeschränkte Verfügbarkeit"
-source-git-commit: e72069956490dc0febc2835568deb99cf41ead1c
+source-git-commit: 1f8a6c9765350f1c39a009afd7c1852967835d73
 workflow-type: tm+mt
-source-wordcount: '900'
-ht-degree: 9%
+source-wordcount: '899'
+ht-degree: 6%
 
 ---
 
@@ -24,19 +24,19 @@ ht-degree: 9%
 
 ## Erste Schritte mit Profilen {#gs}
 
-Ein Profil im Adobe Campaign Web ist eine in der Datenbank gespeicherte Person, die als Schlüsselkomponente dient, um Zielgruppen für Sendungen zu erstellen und Ihrem Inhalt Personalisierungsdaten hinzuzufügen.
+Ein Profil im Adobe Campaign Web ist eine in der Datenbank gespeicherte Person, die als Schlüsselkomponente für [Erstellen von Zielgruppen](create-audience.md) für Sendungen und [Personalisierung hinzufügen](../personalization/personalize.md) Daten an Ihren Inhalt.
 
-Andere Profiltypen werden in der Datenbank gespeichert, z. B. **[!UICONTROL Testprofile]**, mit denen Ihre Sendungen getestet werden können, bevor sie an die endgültige Audience gesendet werden. [Erfahren Sie, wie Sie mit Testprofilen arbeiten.](test-profiles.md)
+Andere Profiltypen werden in der Datenbank gespeichert, z. B. **[!UICONTROL Testprofile]**, mit denen Ihre Sendungen getestet werden können, bevor sie an die endgültige Audience gesendet werden. [Weitere Informationen](test-profiles.md)
 
 Profile können nur über die Adobe Campaign-Clientkonsole erstellt werden - [lernen](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/create-profiles.html){target="_blank"}. Sie können jedoch über die **[!UICONTROL Kundenverwaltung]** > **Profile** in der linken Navigationsleiste.
 
 >[!NOTE]
 >
->Abhängig von Ihren Berechtigungen haben Sie möglicherweise keinen Zugriff auf die vollständige Liste der in der Datenbank gespeicherten Profile. Weiterführende Informationen zu Berechtigungen finden Sie in [diesem Abschnitt](../get-started/permissions.md).
+>Abhängig von Ihren Berechtigungen haben Sie möglicherweise keinen Zugriff auf die vollständige Liste der in der Datenbank gespeicherten Profile. [Weitere Informationen zu Berechtigungen](../get-started/permissions.md).
 
 * Sie können **[!UICONTROL Profile]** Liste mit dem Suchfeld oder den in der **Filter anzeigen** Schaltfläche. Sie können die Ergebnisse auf einen bestimmten [Ordner](../get-started/permissions.md#folders) über die Dropdown-Liste oder fügen Sie mithilfe der [Abfragemodellierung](../query/query-modeler-overview.md).
 
-  ![](assets/profiles-list.png)
+  ![](assets/profiles-list-filters.png)
 
 * Um ein Profil zu löschen, wählen Sie die entsprechende Option aus dem **[!UICONTROL Mehr Aktionen]** Menü.
 
@@ -94,13 +94,15 @@ Aus dem **[!UICONTROL Explorer]** Sie können auch filtern, löschen und [edit](
 
 Gehen Sie wie folgt vor, um auf die Details eines Profils zuzugreifen und sie zu bearbeiten.
 
-1. Navigieren Sie zu **[!UICONTROL Kundenverwaltung]** > **[!UICONTROL Profile]**.
+1. Navigieren Sie zu **[!UICONTROL Kundenverwaltung]** > **[!UICONTROL Profile]** und klicken Sie auf das gewünschte Element im **[!UICONTROL Profile]** Liste.
 
-1. Klicken Sie auf das gewünschte Element aus der **[!UICONTROL Profile]** Liste. Die detaillierten Informationen zum Profil werden angezeigt.
+   ![](assets/profiles-list-select.png)
+
+1. Die detaillierten Informationen zum Profil werden angezeigt.
+
+   Die **[!UICONTROL Details]** -Registerkarte können Sie die integrierten und benutzerdefinierten Attribute des Profils durchsuchen. Um ein Attribut zu bearbeiten, nehmen Sie Änderungen im gewünschten Feld vor und klicken Sie auf die Schaltfläche **[!UICONTROL Speichern]** Schaltfläche.
 
    ![](assets/profile-details.png)
-
-1. Die **[!UICONTROL Details]** -Registerkarte können Sie die integrierten und benutzerdefinierten Attribute des Profils durchsuchen. Um ein Attribut zu bearbeiten, nehmen Sie Änderungen im gewünschten Feld vor und klicken Sie auf die Schaltfläche **[!UICONTROL Speichern]** Schaltfläche.
 
    1. Standardmäßig werden Profile im **[!UICONTROL Empfänger]** Ordner. Sie können sie ändern, indem Sie zur gewünschten Position navigieren. [Informationen zum Arbeiten mit Ordnern](../get-started/permissions.md#folders)
 
@@ -110,7 +112,7 @@ Gehen Sie wie folgt vor, um auf die Details eines Profils zuzugreifen und sie zu
 
       ![](assets/profile-address.png)
 
-   1. Überprüfen Sie die **[!UICONTROL No longer contact]** und aktualisieren Sie sie bei Bedarf. Wenn eine dieser Optionen ausgewählt ist, befindet sich das Profil auf der Blockierungsliste. Diese Informationen werden den Kontaktdaten hinzugefügt, wenn der Empfänger beispielsweise auf einen Abmelde-Link in einem Newsletter geklickt hat. Ein solcher Empfänger ist nicht mehr auf die ausgewählten Kanäle ausgerichtet. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html){target="_blank"}
+   1. Überprüfen Sie die **[!UICONTROL No longer contact]** und aktualisieren Sie sie bei Bedarf. Wenn eine dieser Optionen ausgewählt ist, befindet sich das Profil auf der Blockierungsliste. Wenn der Empfänger beispielsweise in einem Newsletter auf einen Abmelde-Link geklickt hat, werden diese Informationen zu den Kontaktdaten hinzugefügt. Ein solcher Empfänger ist nicht mehr auf die ausgewählten Kanäle ausgerichtet. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html){target="_blank"}
 
       ![](assets/profile-no-longer-contact.png)
 
@@ -118,8 +120,12 @@ Gehen Sie wie folgt vor, um auf die Details eines Profils zuzugreifen und sie zu
 
       ![](assets/profile-custom-fields.png)
 
-1. Klicken Sie auf **[!UICONTROL Abonnements]** -Tab, um auf Informationen zu den Diensten zuzugreifen, für die das Profil angemeldet ist. [Erfahren Sie, wie Sie mit Anmeldediensten arbeiten können](manage-services.md)
+1. Klicken Sie auf **[!UICONTROL Abonnements]** -Tab, um auf Informationen zu den Diensten zuzugreifen, für die das Profil angemeldet ist. [Weitere Informationen zu Abonnementdiensten](manage-services.md)
 
-1. Klicken Sie auf **[!UICONTROL Protokolle]** in der rechten oberen Ecke des Bildschirms, um den Verlauf der Interaktionen des Profils durch Versand-, Ausschluss- und Trackinglogs sowie die dem Profil unterbreiteten Angebote anzuzeigen. [Weitere Informationen zu Versandlogs](../monitor/delivery-logs.md)
+   ![](assets/profile-subscriptions.png)
+
+1. Klicken Sie auf **[!UICONTROL Protokolle]** Schaltfläche oben rechts im Bildschirm, um den Verlauf der Interaktionen des Profils durch Versand-, Ausschluss- und Trackinglogs anzuzeigen. [Weitere Informationen zu Versandlogs](../monitor/delivery-logs.md)
+
+   Sie können auch die Angebote überprüfen, die dem Profil im **[!UICONTROL Vorschläge]** Registerkarte. [Weitere Informationen zu Angeboten](../msg/offers.md)
 
    ![](assets/profile-logs.png)

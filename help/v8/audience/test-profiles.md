@@ -5,10 +5,10 @@ feature: Audiences, Profiles, Seed Address, Proofs
 role: User
 level: Beginner
 badge: label="Eingeschränkte Verfügbarkeit"
-source-git-commit: ff8a8388cfe4124ccddeb789460be7845da41089
+source-git-commit: 1f8a6c9765350f1c39a009afd7c1852967835d73
 workflow-type: tm+mt
-source-wordcount: '516'
-ht-degree: 14%
+source-wordcount: '554'
+ht-degree: 13%
 
 ---
 
@@ -27,7 +27,7 @@ Die Schritte zum Senden von Testnachrichten an Testadressen werden im Abschnitt 
 
 >[!NOTE]
 >
->Testprofile werden automatisch aus Berichten für die folgenden Versandstatistiken ausgeschlossen: **[!UICONTROL Klicks]**, **[!UICONTROL Öffnungen]**, **[!UICONTROL Abmeldungen]**.
+>Testprofile werden automatisch aus Berichten für die folgenden Versandstatistiken ausgeschlossen: **[!UICONTROL Klicks]**, **[!UICONTROL Öffnungen]**, **[!UICONTROL Abmeldungen]**. [Weitere Informationen zu Berichten]
 
 ## Testprofile aufrufen und verwalten {#access-test-profiles}
 
@@ -39,13 +39,13 @@ Um auf die Testprofilliste zuzugreifen, wählen Sie **[!UICONTROL Kundenverwaltu
 
   ![](assets/test-profile-list-filters.png)
 
-* Sie können jedes Testprofil duplizieren und nach Bedarf bearbeiten.
+* Sie können jedes Testprofil duplizieren und nach Bedarf aktualisieren. Die Schritte zum Bearbeiten eines Testprofils sind dieselben wie beim [Testprofil erstellen](#create-test-profile).
 
 * Um ein Testprofil zu löschen, wählen Sie die entsprechende Option aus dem **[!UICONTROL Mehr Aktionen]** Menü.
 
   ![](assets/test-profile-list-delete.png)
 
-* Um ein Testprofil zu bearbeiten, klicken Sie in der Liste auf das gewünschte Element.
+* Um ein Testprofil zu bearbeiten, klicken Sie in der Liste auf das gewünschte Element. Die Schritte zum Bearbeiten eines Testprofils sind dieselben wie beim [Testprofil erstellen](#create-test-profile).
 
 Testprofile können auch über die **[!UICONTROL Explorer]** Ansicht aus der **[!UICONTROL Ressourcen]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Testadressen]** Knoten.
 
@@ -68,7 +68,9 @@ Gehen Sie wie folgt vor, um ein Testprofil zu erstellen.
 
 1. Klicken Sie auf **[!UICONTROL Testprofil erstellen]** Schaltfläche.
 
-1. Füllen Sie die Testprofildetails aus. <!--Most of the fields are the same as when creating profiles. [Learn more]-->
+   ![](assets/test-profile-create.png)
+
+1. Füllen Sie die Details des Testprofils nach Bedarf aus. <!--Most of the fields are the same as when creating profiles. [Learn more]-->
 
    ![](assets/test-profile-details.png)
 
