@@ -3,7 +3,7 @@ audience: end-user
 title: Erstellen Ihrer erste Abfrage mithilfe des Abfrage-Modelers
 description: Erfahren Sie, wie Sie Ihre erste Abfrage im Abfrage-Modeler in Adobe Campaign Web erstellen.
 badge: label="Eingeschränkte Verfügbarkeit"
-source-git-commit: ac136ed0467b2fda4b3d9ba2a05ee6878523138f
+source-git-commit: 26d4b548a7019a79826af435a90deb72e956bcde
 workflow-type: tm+mt
 source-wordcount: '2008'
 ht-degree: 82%
@@ -34,13 +34,13 @@ Der Ausdruckseditor bietet Folgendes:
 
 Bearbeiten Sie den Ausdruck, indem Sie ihn direkt in das Eingabefeld eingeben. Um ein Feld oder eine Hilfsfunktion hinzuzufügen, platzieren Sie den Cursor in dem Ausdruck, in dem Sie es hinzufügen möchten, und klicken Sie auf die Schaltfläche + .
 
-![](assets/expression-editor.png){width="70%" align="center"}
+![](assets/expression-editor.png)
 
 Wenn Ihr Ausdruck fertig ist, klicken Sie auf die **[!UICONTROL Bestätigen]** Schaltfläche. Der Ausdruck wird im ausgewählten Feld angezeigt. Öffnen Sie zum Bearbeiten den Ausdruckseditor und nehmen Sie die gewünschten Änderungen vor.
 
 Das folgende Beispiel zeigt einen für die **[!UICONTROL Wert]** -Feld. Um sie zu bearbeiten, müssen Sie den Ausdruckseditor mit dem **[!UICONTROL Ausdruck bearbeiten]** Schaltfläche.
 
-![](assets/edit-expression-value.png){width="70%" align="center"}
+![](assets/edit-expression-value.png)
 
 ## Hilfsfunktionen
 

@@ -3,9 +3,9 @@ audience: end-user
 title: Erstellen Ihrer erste Abfrage mithilfe des Abfrage-Modelers
 description: Erfahren Sie, wie Sie Ihre erste Abfrage im Abfrage-Modeler in Adobe Campaign Web erstellen.
 badge: label="Eingeschränkte Verfügbarkeit"
-source-git-commit: ac136ed0467b2fda4b3d9ba2a05ee6878523138f
+source-git-commit: 26d4b548a7019a79826af435a90deb72e956bcde
 workflow-type: tm+mt
-source-wordcount: '1860'
+source-wordcount: '1858'
 ht-degree: 64%
 
 ---
@@ -18,27 +18,23 @@ Sie können zwei Elementtypen hinzufügen:
 
 * **Komponenten filtern** (Benutzerdefinierte Bedingung, Zielgruppe auswählen, vordefinierter Filter) ermöglicht es Ihnen, eigene Regeln zu erstellen oder eine Zielgruppe oder einen vordefinierten Filter auszuwählen, um Ihre Abfrage zu verfeinern. [Erfahren Sie, wie Sie mit Filterkomponenten arbeiten können](#filtering)
 
-  Beispiel:
-
   *Empfängerinnen und Empfänger, die den Newsletter „Sport“ abonniert haben*. *Empfängerinnen und Empfänger mit Wohnsitz in New York*, *Empfängerinnen und Empfänger mit Wohnsitz in San Francisco*
 
 * **Gruppenoperatoren** (UND, ODER, AUSSER) ermöglicht es Ihnen, die Filterkomponenten im Diagramm nach Ihren Bedürfnissen zu gruppieren. [Erfahren Sie, wie man mit Operatoren arbeitet](#filtering)
 
-  Beispiel:
-
   *Empfängerinnen und Empfänger, die den Newsletter „Sport“ abonniert haben **UND**in New York **ODER**San Francisco* leben.
 
-![](assets/query-add-component.png){width="70%" align="center"}
+![](assets/query-add-component.png)
 
 ## Hinzufügen von Filterkomponenten {#filtering}
 
 Filterkomponenten ermöglichen es Ihnen, eine Abfrage mithilfe von folgenden Filtern zu verfeinern:
 
-* **Benutzerdefinierte Bedingungen**: Filtern Sie eine Abfrage, indem Sie Ihre eigene Bedingung mit Attributen aus der Datenbank und erweiterten Ausdrücken erstellen.
-* **Zielgruppen**: Filtern Sie eine Abfrage, indem Sie eine vorhandene Zielgruppe verwenden.
-* **Vordefinierter Filter**: Filtern Sie eine Abfrage mit vorhandenen vordefinierten Filtern.
+* **[Benutzerdefinierte Bedingungen](#custom-condition)**: Filtern Sie eine Abfrage, indem Sie Ihre eigene Bedingung mit Attributen aus der Datenbank und erweiterten Ausdrücken erstellen.
+* **[Zielgruppen](#audiences)**: Filtern Sie eine Abfrage, indem Sie eine vorhandene Zielgruppe verwenden.
+* **[Vordefinierter Filter](#predefined-filters)**: Filtern Sie eine Abfrage mit vorhandenen vordefinierten Filtern.
 
-### Konfigurieren einer benutzerdefinierten Bedingung
+### Konfigurieren einer benutzerdefinierten Bedingung {#custom-condition}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_customcondition"
@@ -51,7 +47,7 @@ Gehen Sie wie folgt vor, um Ihre Abfrage mit einer benutzerdefinierten Bedingung
 
 1. Wählen Sie im Feld **Attribut** das Attribut aus der Datenbank aus, das Sie zum Erstellen Ihrer Bedingung verwenden möchten. Die Attributliste enthält alle Attribute aus Ihrer Campaign-Datenbank, einschließlich der Attribute aus verknüpften Tabellen.
 
-   ![](assets/query-custom-condition-fields.png){width="70%" align="center"}
+   ![](assets/query-custom-condition-fields.png)
 
    >[!NOTE]
    >
@@ -86,7 +82,7 @@ Gehen Sie wie folgt vor, um Ihre Abfrage mit einer benutzerdefinierten Bedingung
 
    *Abfragebeispiel, in dem alle Profile im Alter von 21 Jahren oder älter zurückgegeben werden:*
 
-   ![](assets/query-custom-condition.png){width="70%" align="center"}
+   ![](assets/query-custom-condition.png)
 
 #### Benutzerdefinierte Bedingungen für verknüpfte Tabellen (1-1- und 1-N-Links){#links}
 
@@ -100,11 +96,11 @@ Hier geht es bei der Abfrage um Marken, deren Titel &quot;läuft&quot; lautet.
 
 1. Navigieren Sie in der **Marke** und wählen Sie die **Titel** -Attribut.
 
-   ![](assets/1-1-attribute.png){width="70%" align="center"}
+   ![](assets/1-1-attribute.png){width="85%" align="center"}
 
 1. Definieren Sie den erwarteten Wert für das Attribut.
 
-   ![](assets/1-1-table.png){width="70%" align="center"}
+   ![](assets/1-1-table.png){width="85%" align="center"}
 
 +++
 
@@ -116,19 +112,19 @@ In unserem Beispiel zielt die Abfrage auf Empfängerinnen und Empfänger ab, die
 
 1. Wählen Sie die **Käufe** und bestätigen.
 
-   ![](assets/1-N-collection.png){width="70%" align="center"}
+   ![](assets/1-N-collection.png){width="50%" align="center"}
 
 1. Es wird eine ausgehende Transition hinzugefügt, die die Erstellung von Unterbedingungen ermöglicht.
 
-   ![](assets/1-n-subcondition.png){width="70%" align="center"}
+   ![](assets/1-n-subcondition.png){width="85%" align="center"}
 
 1. Wählen Sie die **Preis** -Attribut- und Zielkäufe von 1000$ oder mehr
 
-   ![](assets/1-n-price.png){width="70%" align="center"}
+   ![](assets/1-n-price.png){width="85%" align="center"}
 
 1. Fügen Sie Unterbedingungen hinzu, die Ihren Anforderungen entsprechen. In unserem Beispiel haben wir eine Bedingung hinzugefügt, um Profile auszuwählen, die ein BrewMaster-Produkt erworben haben.
 
-   ![](assets/custom-condition-1-N.png){width="70%" align="center"}
+   ![](assets/custom-condition-1-N.png){width="85%" align="center"}
 
 +++
 
@@ -138,13 +134,13 @@ Benutzerdefinierte Bedingungen ermöglichen Aggregat-Vorgänge. Wählen Sie dazu
 
 1. Navigieren Sie in die gewünschte Kollektionstabelle und wählen Sie das Attribut aus, für das Sie einen Aggregat-Vorgang durchführen möchten.
 
-   ![](assets/aggregate-attribute.png){width="70%" align="center"}
+   ![](assets/aggregate-attribute.png){width="85%" align="center"}
 
 1. Schalten Sie im Eigenschaftenbereich die **Aggregieren von Daten** und wählen Sie die gewünschte Aggregatfunktion aus.
 
-   ![](assets/aggregate.png){width="70%" align="center"}
+   ![](assets/aggregate.png){width="85%" align="center"}
 
-### Auswählen einer Zielgruppe
+### Auswählen einer Zielgruppe {#audiences}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_selectaudience"
@@ -161,7 +157,7 @@ Gehen Sie wie folgt vor, um Ihre Abfrage mithilfe einer vorhandenen Zielgruppe z
 
    ![](assets/query-audience.png)
 
-### Verwenden eines vordefinierten Filters
+### Verwenden eines vordefinierten Filters {#predefined-filters}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_predefinedfilter"
@@ -176,7 +172,7 @@ Gehen Sie wie folgt vor, um Ihre Abfrage mithilfe eines vordefinierten Filters z
 
    *Abfragebeispiel, in dem alle Profile zurückgegeben werden, die dem vordefinierten Filter „Inaktive Kunden“ entsprechen:*
 
-   ![](assets/query-predefined-filter.png){width="70%" align="center"}
+   ![](assets/query-predefined-filter.png)
 
 ### Komponenten kopieren und einfügen {#copy}
 
@@ -198,7 +194,7 @@ Gehen Sie wie folgt vor, um Filterkomponenten zu kopieren und einzufügen:
 
 1. Um die Komponente(n) einzufügen, klicken Sie auf die Schaltfläche + am Ende der gewünschten Transition und wählen Sie **In Elemente einfügen**.
 
-![](assets/copy-paste.png){width="70%" align="center"}
+   ![](assets/copy-paste.png)
 
 ## Kombinieren von Filterkomponenten mit Operatoren {#operators}
 
@@ -211,7 +207,7 @@ Jedes Mal, wenn Sie Ihrer Abfrage eine neue Filterkomponente hinzufügen, wird d
 
 In diesem Beispiel haben wir für die zweite Transition neue Zielgruppentyp-Filterkomponenten hinzugefügt. Die Komponente ist mit einer vordefinierten Filtertypbedingung verknüpft, die eine **UND** -Operator, d. h., die Abfrageergebnisse enthalten Empfänger, die in die Zielgruppe &quot;Madrider&quot;(vordefinierter Filter UND zur Audience &quot;Rabattjäger&quot;) aufgenommen wurden.
 
-![](assets/query-operator.png){width="70%" align="center"}
+![](assets/query-operator.png)
 
 Um den Operator zu ändern, mit dem die Filterbedingungen verknüpft werden, klicken Sie darauf und wählen Sie den gewünschten Operator im **Gruppe** -Bereich, der auf der rechten Seite geöffnet wird.
 
@@ -221,13 +217,13 @@ Die folgenden Operatoren sind verfügbar:
 * **ODER (Vereinigung)**: Umfasst Ergebnisse, die mindestens einer der Filterkomponenten in den ausgehenden Transitionen entsprechen.
 * **AUSSER (Ausschluss)**: Schließt Ergebnisse aus, die allen Filterkomponenten in der ausgehenden Transition entsprechen.
 
-![](assets/query-operator-change.png){width="70%" align="center"}
+![](assets/query-operator-change.png)
 
 Darüber hinaus können Sie Zwischengruppen von Komponenten erstellen, indem Sie auf die **+** auf einer Transition angezeigt. Auf diese Weise können Sie einen Operator an diesem bestimmten Ort hinzufügen, um mehrere Komponenten zu gruppieren und Ihre Abfrage zu verfeinern.
 
 Im folgenden Beispiel haben wir eine Zwischengruppe erstellt, um Ergebnisse aus den Zielgruppen &quot;VIP zu belohnen&quot;oder &quot;Super VIP&quot;einzubeziehen.
 
-![](assets/query-intermediate-group.png){width="70%" align="center"}
+![](assets/query-intermediate-group.png)
 
 ## Überprüfen und Validieren einer Abfrage
 
@@ -250,3 +246,5 @@ Nachdem Sie Ihre Abfrage auf der Arbeitsfläche erstellt haben, können Sie sie 
 Wenn Ihre Abfrage fertig ist, klicken Sie auf die Schaltfläche **[!UICONTROL Bestätigen]** in der oberen rechten Ecke, um sie zu speichern.
 
 Sie können Ihre Abfrage jederzeit ändern, indem Sie sie öffnen. Beachten Sie, dass beim Öffnen einer vorhandenen Abfrage diese in einer vereinfachten Ansicht angezeigt wird, ohne dass  **+** Schaltflächen. Um der Abfrage neue Elemente hinzuzufügen, wählen Sie eine Komponente oder einen Operator auf der Arbeitsfläche aus, um die **+** Schaltflächen.
+
+![](assets/edit-audience.png)
