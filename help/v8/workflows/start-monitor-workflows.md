@@ -2,12 +2,12 @@
 audience: end-user
 title: Erstellen von Workflows mit Adobe Campaign Web
 description: Erfahren Sie, wie Sie Workflows mit Adobe Campaign Web erstellen
-badge: label="Beta"
+badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: c9c41189-0150-49a4-bdb3-317fe543eb2c
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
-workflow-type: ht
-source-wordcount: '569'
-ht-degree: 100%
+source-git-commit: a0611ac41957b4bd7796c4c42c40232fba1dfc2b
+workflow-type: tm+mt
+source-wordcount: '570'
+ht-degree: 94%
 
 ---
 
@@ -27,9 +27,7 @@ Anhand eines visuellen Flusses können Sie den Fortschritt von Zielgruppenprofil
 
 ## Workflow-Transitionen {#transitions}
 
-In einem Workflow werden die von einer Aktivität zur anderen übertragenen Daten in temporären Arbeitstabellen gespeichert.
-
-Diese Daten können für jede Transition angezeigt werden. Wählen Sie dazu eine Transition aus, um ihre Eigenschaften auf der rechten Seite des Bildschirms zu öffnen.
+In Workflows werden Daten, die von einer Aktivität zur anderen über Transitionen übertragen werden, in einer temporären Arbeitstabelle gespeichert. Diese Daten können für jede Transition angezeigt werden. Wählen Sie dazu eine Transition aus, um ihre Eigenschaften auf der rechten Seite des Bildschirms zu öffnen.
 
 * Klicken Sie auf **[!UICONTROL Vorschau für Schema]**, um das Schema der Arbeitstabelle anzuzeigen.
 * Klicken Sie auf **[!UICONTROL Ergebnisvorschau]**, um die in der ausgewählten Transition übertragenen Daten zu visualisieren.
@@ -70,4 +68,4 @@ Die Aktionsleiste oben rechts enthält Befehle, mit denen Sie die Ausführung de
 
 * **[!UICONTROL Aussetzen]** der Ausführung des Workflows, der dann den Status „Ausgesetzt“ annimmt. Bis zur Wiederaufnahme werden keine neuen Aktivitäten aktiviert, laufende Vorgänge werden jedoch fortgeführt.
 
-* **[!UICONTROL Anhalten]** Ein Workflow, der gerade ausgeführt wird und dann in den Status „Abgeschlossen“ wechselt. Die laufenden Vorgänge werden nach Möglichkeit unterbrochen. Sie können den Workflow nicht an der Stelle fortsetzen, an der er unterbrochen wurde.
+* **[!UICONTROL Anhalten]** einen Workflow, der ausgeführt wird und den Status Abgeschlossen annimmt. Die laufenden Vorgänge werden nach Möglichkeit unterbrochen. Sie können den Workflow nicht an der Stelle fortsetzen, an der er unterbrochen wurde.

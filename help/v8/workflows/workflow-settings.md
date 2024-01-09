@@ -2,12 +2,12 @@
 audience: end-user
 title: Erstellen von Workflows mit Adobe Campaign Web
 description: Erfahren Sie, wie Sie Workflows mit Adobe Campaign Web erstellen
-badge: label="Beta"
+badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: 3aef912b-086b-4aa4-9556-c09396112313
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
-workflow-type: ht
-source-wordcount: '903'
-ht-degree: 100%
+source-git-commit: a0611ac41957b4bd7796c4c42c40232fba1dfc2b
+workflow-type: tm+mt
+source-wordcount: '913'
+ht-degree: 97%
 
 ---
 
@@ -41,7 +41,7 @@ Andere mögliche Werte sind:
    * **Zeitzone der Datenbank**, um die Zeitzone des Datenbank-Servers zu verwenden.
    * Eine bestimmte Zeitzone
 
-* **[!UICONTROL Supervisor(en)]**: Wenn ein Workflow fehlschlägt, werden die Benutzenden der in diesem Feld ausgewählten Benutzergruppe per E-Mail benachrichtigt.
+* **[!UICONTROL Verantwortliche(r)]**: Wenn ein Workflow fehlschlägt, werden die Benutzenden der in diesem Feld ausgewählten Benutzergruppe per E-Mail benachrichtigt.
 * **[!UICONTROL Beschreibung]**: Verwenden Sie dieses Feld, um eine Beschreibung Ihres Workflows anzugeben.
 
 ## Segmentierungseinstellungen
@@ -51,7 +51,8 @@ Andere mögliche Werte sind:
 >title="Segmentierungseinstellungen"
 >abstract="In diesem Bereich können Sie die Zielgruppendimension auswählen, um Profile im Workflow auszuwählen, und entscheiden, ob die Workflow-Ergebnisse zwischen zwei Ausführungen beibehalten werden sollen. Diese Option sollte nur zu Testzwecken verwendet werden und darf in einem Produktions-Workflow nie aktiviert werden."
 
-* **[!UICONTROL Zielgruppendimension]**: Wählen Sie die Zielgruppendimension aus, die für die Zielgruppenbestimmung von Profilen verwendet werden soll: Empfängerinnen und Empfänger, Vertragsbegünstigte, Benutzerinnen und Benutzer, Abonnentinnen und Abonnenten usw.
+* **[!UICONTROL Zielgruppendimension]**: Wählen Sie die Zielgruppendimension aus, die für die Zielgruppenbestimmung von Profilen verwendet werden soll: Empfänger, Vertragsempfänger, Benutzer, Abonnenten usw. [Weitere Informationen zu Zielgruppendimensionen](../audience/targeting-dimensions.md)
+
 * **[!UICONTROL Zwischen zwei Ausführungen die ermittelte Population festhalten]**: Standardmäßig werden nur die Arbeitstabellen der letzten Ausführung des Workflows beibehalten. Arbeitstabellen früherer Ausführungen werden durch einen technischen Workflow bereinigt, der täglich ausgeführt wird.
 
   Wenn diese Option aktiviert ist, werden Arbeitstabellen auch nach Ausführung des Workflows beibehalten. Sie können sie zu Testzwecken verwenden, weswegen sie nur in Entwicklungs- oder Staging-Umgebungen verwendet werden darf. Sie darf niemals in einem Produktions-Workflow aktiviert sein.

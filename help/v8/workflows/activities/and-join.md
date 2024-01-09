@@ -2,12 +2,12 @@
 audience: end-user
 title: Verwendung der Workflow-Aktivität „Und-Verknüpfung“
 description: Erfahren Sie, wie Sie die Workflow-Aktivität „Und-Verknüpfung“ verwenden.
-badge: label="Beta"
+badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: 2470e5fa-5596-4441-b9b9-7e8b5d1d53aa
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
-workflow-type: ht
-source-wordcount: '257'
-ht-degree: 100%
+source-git-commit: a0611ac41957b4bd7796c4c42c40232fba1dfc2b
+workflow-type: tm+mt
+source-wordcount: '260'
+ht-degree: 99%
 
 ---
 
@@ -43,4 +43,4 @@ Führen Sie die folgenden Schritte aus, um die Aktivität **Und-Verknüpfung** z
 
 Das folgende Beispiel zeigt zwei Workflow-Verzweigungen mit einem E-Mail- und SMS-Versand. Die Und-Verknüpfung wird ausgelöst, wenn beide eingehenden Transitionen aktiviert sind. Die Push-Benachrichtigungen werden erst dann gesendet, wenn beide Sendungen abgeschlossen sind.
 
-![](../assets/workflow-andjoin-example.png)
+![](../assets/workflow-andjoin-example.png){zoomable=&quot;yes&quot;}
