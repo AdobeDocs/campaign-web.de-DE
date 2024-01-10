@@ -2,11 +2,11 @@
 audience: end-user
 title: Verwenden der Workflow-Aktivität „Dimensionsänderung“
 description: Erfahren Sie, wie Sie die Workflow-Aktivität „Dimensionsänderung“ verwenden
-badge: label="Beta"
+badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: 08870946-91c6-4ab0-84de-4d9b968884b3
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
-workflow-type: ht
-source-wordcount: '296'
+source-git-commit: fb72b943b324990f6dd82a4a05bfd28e5452480a
+workflow-type: tm+mt
+source-wordcount: '297'
 ht-degree: 100%
 
 ---

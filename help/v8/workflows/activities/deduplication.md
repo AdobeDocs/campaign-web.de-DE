@@ -2,12 +2,12 @@
 audience: end-user
 title: Verwenden der Workflow-Aktivität „Deduplizierung“
 description: Erfahren Sie, wie Sie die Workflow-Aktivität „Deduplizierung“ verwenden.
-badge: label="Beta"
+badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: 8efdc140-6cae-430d-b585-ff581993ff60
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
-workflow-type: ht
-source-wordcount: '585'
-ht-degree: 100%
+source-git-commit: fb72b943b324990f6dd82a4a05bfd28e5452480a
+workflow-type: tm+mt
+source-wordcount: '597'
+ht-degree: 97%
 
 ---
 
@@ -22,7 +22,6 @@ ht-degree: 100%
 >id="acw_orchestration_deduplication"
 >title="Aktivität „Deduplizierung“"
 >abstract="Mithilfe der Aktivität **Deduplizierung** lassen sich Dubletten in Ergebnissen aus eingehenden Aktivitäten löschen. Sie wird hauptsächlich im Anschluss an Zielgruppenbestimmungsaktivitäten und vor Aktivitäten verwendet, die die Verwendung von Zielgruppendaten zulassen."
-
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_complement"
@@ -46,7 +45,7 @@ Gehen Sie folgendermaßen vor, um die **Deduplizierungsaktivität** zu konfiguri
 
 1. Klicken Sie im Abschnitt **Felder zum Identifizieren von Dubletten** auf die Schaltfläche **Attribut hinzufügen**, um die Felder anzugeben, für die die Identifizierung von Dubletten aufgrund identischer Werte möglich ist, wie z. B. E-Mail-Adresse, Vorname, Nachname usw. Durch die Reihenfolge der Felder können Sie angeben, welche Felder zuerst verarbeitet werden sollen.
 
-1. Bestimmen Sie die Anzahl der einzigartigen **Dubletten, die beibehalten werden sollen**. Der Standardwert dieses Felds ist 1. Mittels des Werts 0 lassen sich alle Dubletten beibehalten.
+1. Im **Deduplizierungseinstellungen** die Anzahl der eindeutigen **Beizubehaltende Duplikate**. Der Standardwert dieses Felds ist 1. Mittels des Werts 0 lassen sich alle Dubletten beibehalten.
 
    Nehmen wir z. B. den Fall, dass die Datensätze A und B wie Dubletten des Datensatzes Y und ein Datensatz C wie eine Dublette des Datensatzes Z angesehen werden:
 
