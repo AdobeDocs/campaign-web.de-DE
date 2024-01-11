@@ -3,9 +3,9 @@ audience: end-user
 title: Die Workflow-Aktivität Abstimmung verwenden
 description: Erfahren Sie, wie Sie die Workflow-Aktivität Abstimmung verwenden.
 badge: label="Eingeschränkte Verfügbarkeit"
-source-git-commit: edd8ab0705bfdd0228c9c651787ce289283469f2
+source-git-commit: 47fd0ab358a28ed09d9ab0de3b9dfab5a1592634
 workflow-type: tm+mt
-source-wordcount: '840'
+source-wordcount: '836'
 ht-degree: 19%
 
 ---
@@ -17,12 +17,10 @@ ht-degree: 19%
 >title="Aktivität „Abstimmung“"
 >abstract="Die **Abstimmung** -Aktivität **Targeting** -Aktivität, mit der Sie die Relation zwischen den Daten in der Adobe Campaign-Datenbank und den Daten in einer Arbeitstabelle definieren können, z. B. aus einer externen Datei geladene Daten. Beispiel: die **Abstimmung** -Aktivität platziert werden, nachdem eine **Audience laden** -Aktivität, um nicht standardmäßige Daten in die Datenbank zu importieren. In diesem Fall wird die **Abstimmung** ermöglicht die Definition der Relation zwischen den Daten der Adobe Campaign-Datenbank und den Daten der externen Tabelle."
 
-
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_field"
 >title="Abstimmung – Feld auswählen"
 >abstract="Abstimmung – Feld auswählen"
-
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_condition"
@@ -34,10 +32,9 @@ ht-degree: 19%
 >title="Abstimmung – Komplement erzeugen"
 >abstract="Abstimmung – Komplement erzeugen"
 
+Die **Abstimmung** -Aktivität **Targeting** -Aktivität, mit der Sie die Relation zwischen den Daten in der Adobe Campaign-Datenbank und den Daten in einer Arbeitstabelle definieren können, z. B. aus einer externen Datei geladene Daten.
 
-
-Die **Abstimmung** -Aktivität **Targeting** -Aktivität, mit der Sie die Relation zwischen den Daten in der Adobe Campaign-Datenbank und den Daten in einer Arbeitstabelle definieren können, z. B. aus einer externen Datei geladene Daten. Beispiel: die **Abstimmung** -Aktivität platziert werden, nachdem eine **Audience laden** -Aktivität, um nicht standardmäßige Daten in die Datenbank zu importieren. In diesem Fall wird die **Abstimmung** ermöglicht die Definition der Relation zwischen den Daten der Adobe Campaign-Datenbank und den Daten der Arbeitstabelle.
-
+Beispiel: die **Abstimmung** -Aktivität platziert werden, nachdem eine **Audience laden** -Aktivität, um nicht standardmäßige Daten in die Datenbank zu importieren. In diesem Fall wird die **Abstimmung** ermöglicht die Definition der Relation zwischen den Daten der Adobe Campaign-Datenbank und den Daten der Arbeitstabelle.
 
 ## Best Practices {#reconciliation-best-practices}
 
@@ -45,10 +42,8 @@ Während **Anreicherung** Mithilfe der Aktivität können Sie zusätzliche Daten
 
 >[!NOTE]
 >Der Abstimmvorgang bedeutet, dass die Daten der verknüpften Dimensionen bereits in der Datenbank gespeichert sind.  Wenn Sie beispielsweise eine Verkaufsaktivitäten enthaltende Datei importieren möchten, in der verzeichnet ist, welches Produkt wann von welchem Kunden gekauft wurde, müssen sowohl das Produkt als auch der Kunde bereits in der Datenbank angelegt sein. Identifizierung der Daten:
->
 
 ## Konfigurieren der Aktivität Abstimmung {#reconciliation-configuration}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_targeting"
@@ -71,7 +66,6 @@ Während **Anreicherung** Mithilfe der Aktivität können Sie zusätzliche Daten
 >title="Nicht abgestimmte Daten beibehalten"
 >abstract="Standardmäßig werden nicht abgestimmte Daten in der ausgehenden Transition beibehalten und stehen in der Arbeitstabelle zur späteren Verwendung zur Verfügung. Um nicht abgestimmte Daten zu entfernen, deaktivieren Sie die **Nicht abgestimmte Daten beibehalten** -Option."
 
-
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_attribute"
 >title="Abstimmattribut"
@@ -81,9 +75,9 @@ Führen Sie die folgenden Schritte aus, um die **Abstimmung** Aktivität:
 
 1. Ziehen und Ablegen eines **Abstimmung** in Ihren Workflow ein. Diese Aktivität sollte im Anschluss an eine Transition mit einer Population hinzugefügt werden, deren Zielgruppendimension nicht direkt aus Adobe Campaign stammt.
 
-1. Wählen Sie die neue Zielgruppendimension aus. Eine Dimension ermöglicht die Bestimmung der Zielpopulation: Empfänger, App-Abonnenten, Benutzer, Abonnenten usw. Erfahren Sie mehr über Zielgruppendimensionen in [diese Seite](../../audience/about-recipients.md#targeting-dimensions).
+1. Wählen Sie die neue Zielgruppendimension aus. Eine Dimension ermöglicht die Bestimmung der Zielpopulation: Empfänger, App-Abonnenten, Benutzer, Abonnenten usw. [Weitere Informationen zu Zielgruppendimensionen](../../audience/about-recipients.md#targeting-dimensions).
 
-1. Wählen Sie die für die Deduplizierung zu verwendenden Abstimmfelder aus. Es können mehrere Abstimmkriterien definiert werden.
+1. Wählen Sie die für die Abstimmung zu verwendenden Felder aus. Es können mehrere Abstimmkriterien definiert werden.
 
    1. Um Attribute zur Abstimmung von Daten zu verwenden, wählen Sie die **Einfache Attribute** -Option. Die **Quelle** enthält die in der eingehenden Transition zur Verfügung stehenden Felder, die abgestimmt werden sollen. Die **Ziel** den Feldern der ausgewählten Zielgruppendimension entspricht. Daten werden abgestimmt, wenn Quelle und Ziel gleich sind. Wählen Sie beispielsweise die **Email** -Felder, um Profile anhand ihrer E-Mail-Adresse zu deduplizieren.
 

@@ -3,7 +3,7 @@ audience: end-user
 title: Workflow-Aktivität "Datei laden"verwenden
 description: Erfahren Sie, wie Sie die Workflow-Aktivität Datei laden verwenden
 badge: label="Eingeschränkte Verfügbarkeit"
-source-git-commit: 88daf84e617595a80c5cd3fd536969618f0fdcf5
+source-git-commit: 47fd0ab358a28ed09d9ab0de3b9dfab5a1592634
 workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 39%
@@ -55,23 +55,25 @@ ht-degree: 39%
 
 Die **Datei laden** -Aktivität **Data Management** -Aktivität. Verwenden Sie diese Aktivität, um mit Profilen und Daten zu arbeiten, die in einer externen Datei gespeichert sind. Profile und Daten werden nicht zur Datenbank hinzugefügt, aber alle Felder in der Eingabedatei sind verfügbar für [Personalisierung](../../personalization/gs-personalization.md)oder um Profile oder andere Tabellen zu aktualisieren.
 
-
 >[!NOTE]
 >Unterstützte Dateiformate sind: Text (TXT) und kommagetrennte Werte (CSV).
 
-
 Diese Aktivität kann mit einer [Abstimmung](reconciliation.md) -Aktivität zum Verknüpfen nicht identifizierter Daten mit vorhandenen Ressourcen. Beispiel: die **Datei laden** -Aktivität platziert werden, bevor eine **Abstimmung** Aktivität , wenn Sie nicht standardmäßige Daten in die Datenbank importieren.
-
 
 ## Konfigurieren der Aktivität Datei laden {#load-configuration}
 
 Führen Sie die folgenden Schritte aus, um die **Datei laden** Aktivität:
 
-
 1. Ziehen und Ablegen eines **Datei laden** in Ihren Workflow ein. Klicken Sie auf **Aus Datei auswählen** Schaltfläche.
+
 1. Wählen Sie die zu verwendende lokale Datei aus. Das Format muss mit diesem [Beispieldatei](../../audience/file-audience.md#sample-file).
+
 1. Im mittleren Abschnitt des Bildschirms können Sie eine Vorschau der Datenzuordnung anzeigen, um sie zu überprüfen.
+
+   ![](../assets/load-file.png)
+
 1. Passen Sie die Spalteneinstellungen an und wählen Sie aus den verfügbaren Optionen aus, wie Daten formatiert werden.
+
 1. Klicken Sie auf **Bestätigen**, wenn die Einstellungen korrekt sind.
 
 ## Beispiel{#load-example}
