@@ -4,10 +4,10 @@ title: Ansprechen von Empfängerinnen und Empfängern aus einer Datei
 description: Erfahren Sie, wie Sie mit Empfängerinnen und Empfängern aus einer externen Datei eine E-Mail-Zielgruppe erstellen können.
 badge: label="Beta"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: 6dcdfae8aa6d6346fc02217db77a96cf6d219fdc
+source-git-commit: ae925f16aa39b2e1de9b9957c380d17d299ad114
 workflow-type: tm+mt
-source-wordcount: '612'
-ht-degree: 83%
+source-wordcount: '618'
+ht-degree: 82%
 
 ---
 
@@ -26,14 +26,12 @@ ht-degree: 83%
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_formatting"
 >title="Formatierungsparameter"
->abstract="Überprüfen Sie die Formatierungsparameter für die externe Datei."
-
+>abstract="Geben Sie an, wie die externe Datei formatiert wird, um sicherzustellen, dass die Daten korrekt importiert werden."
 
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_preview"
 >title="Anzeige der Datei in der Vorschau"
 >abstract="Überprüfen Sie die Vorschau der Spalten der externen Datei. Dieser Bildschirm zeigt nur maximal 30 Einträge an."
-
 
 Sie können Profile auswählen, die in einer externen Datei gespeichert sind. Profile werden nicht zur Datenbank hinzugefügt, aber alle Felder in der Eingabedatei können [personalisiert](../personalization/gs-personalization.md) werden. Unterstützte Dateiformate sind: Text (TXT) und kommagetrennte Werte (CSV). In diesem Artikel wird beschrieben, wie Sie beim Erstellen eines eigenständigen E-Mail-Versands ein externes Profil laden. Informationen zum Laden von Daten aus einer Datei in einen Workflow finden Sie unter [diese Seite](../workflows/activities/load-file.md).
 

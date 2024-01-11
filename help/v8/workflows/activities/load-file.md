@@ -3,10 +3,10 @@ audience: end-user
 title: Workflow-Aktivität "Datei laden"verwenden
 description: Erfahren Sie, wie Sie die Workflow-Aktivität Datei laden verwenden
 badge: label="Eingeschränkte Verfügbarkeit"
-source-git-commit: 47fd0ab358a28ed09d9ab0de3b9dfab5a1592634
+source-git-commit: ae925f16aa39b2e1de9b9957c380d17d299ad114
 workflow-type: tm+mt
-source-wordcount: '294'
-ht-degree: 39%
+source-wordcount: '323'
+ht-degree: 31%
 
 ---
 
@@ -52,7 +52,6 @@ ht-degree: 39%
 >title="Formatierung der Aktivität „Datei laden“"
 >abstract="Formatierung der Aktivität „Datei laden“"
 
-
 Die **Datei laden** -Aktivität **Data Management** -Aktivität. Verwenden Sie diese Aktivität, um mit Profilen und Daten zu arbeiten, die in einer externen Datei gespeichert sind. Profile und Daten werden nicht zur Datenbank hinzugefügt, aber alle Felder in der Eingabedatei sind verfügbar für [Personalisierung](../../personalization/gs-personalization.md)oder um Profile oder andere Tabellen zu aktualisieren.
 
 >[!NOTE]
@@ -72,10 +71,12 @@ Führen Sie die folgenden Schritte aus, um die **Datei laden** Aktivität:
 
    ![](../assets/load-file.png)
 
-1. Passen Sie die Spalteneinstellungen an und wählen Sie aus den verfügbaren Optionen aus, wie Daten formatiert werden.
+1. Verwenden Sie die **Spalten** im linken Bereich, um den Datentyp und die Breite für jede Spalte anzupassen.
+
+1. Im **Formatierung** Geben Sie im Bereich unter der Spaltenkonfiguration an, wie die externe Datei formatiert wird, um sicherzustellen, dass die Daten korrekt importiert werden.
 
 1. Klicken Sie auf **Bestätigen**, wenn die Einstellungen korrekt sind.
 
 ## Beispiel{#load-example}
 
-Ein Beispiel für ein Laden einer externen Datei ist verfügbar mit der **Abstimmung** Aktivität in [diesem Abschnitt](reconciliation.md#example).
+Beispiel für ein Laden einer externen Datei, das mit der Variablen **Abstimmung** ist verfügbar unter [diesem Abschnitt](reconciliation.md#example).
