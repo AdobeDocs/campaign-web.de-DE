@@ -5,12 +5,12 @@ description: Erfahren Sie, wie Sie in Campaign Web Versandvorlagen erstellen und
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
-badge: label="Beta"
+badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
-source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
+source-git-commit: f8f29849bbd3e97b4168a0bac175a3cdc3e651df
 workflow-type: tm+mt
-source-wordcount: '1076'
-ht-degree: 95%
+source-wordcount: '1087'
+ht-degree: 92%
 
 ---
 
@@ -122,6 +122,8 @@ Um einen Versand als Vorlage zu speichern, gehen Sie wie folgt vor:
 
    ![](assets/templates-convert-delivery.png)
 
+   Sie können auch eine Vorlage aus der Liste auswählen und diese Option im Bildschirm zur Vorlagenbearbeitung auswählen.
+
 1. Bestätigen Sie die Duplizierung.
 
 1. Das Dashboard der neuen Vorlage wird nun im mittleren Bereich des Bildschirms geöffnet. Bearbeiten Sie die Vorlageneinstellungen nach Bedarf.
@@ -180,13 +182,11 @@ Sie können das Rendering einer beliebigen Versandvorlage testen, unabhängig da
 
    ![](assets/templates-simulate-button.png)
 
-1. Wählen Sie ein oder mehrere Testprofile aus, um Ihr E-Mail-Rendering zu überprüfen. Sie können auch echte Profile aus Ihrer Datenbank auswählen.
+1. Wählen Sie ein oder mehrere Testprofile aus, um Ihr E-Mail-Rendering zu überprüfen. Sie können auch echte Profile aus Ihrer Datenbank auswählen. [Weitere Informationen zu Testprofilen](../audience/test-profiles.md)
 
-1. Wechseln Sie zwischen den verschiedenen Profilen, um eine personalisierte Darstellung der Nachricht entsprechend dem ausgewählten Profil zu erhalten.
+1. Zwischen den verschiedenen Profilen wechseln, um eine personalisierte Darstellung der Nachricht entsprechend dem ausgewählten Profil zu erhalten. Sie können auch den Zoom-Faktor anpassen und die Desktop- oder Mobilansicht auswählen.
 
-   <!--[Learn more on test profiles](../preview-test/test-deliveries.md#recipients)-->
-
-   Sie können auch den Zoom-Faktor anpassen und die Desktop- oder Mobilansicht auswählen.
+[Weitere Informationen zur Vorschau von Inhalten](../preview-test/preview-content.md)
 
    ![](assets/templates-stimulate.png)
 
@@ -196,8 +196,4 @@ Sie können das Rendering einer beliebigen Versandvorlage testen, unabhängig da
 >
 >Sie können in einer Versandvorlage weder E-Mail-Rendering noch Tests durchführen.
 
-* [Weitere Informationen zur Vorschau von E-Mail-Inhalten](../preview-test/preview-content.md)
 
-* [Weitere Informationen zur Vorschau von SMS-Inhalten](../sms/content-sms.md)
-
-* [Weitere Informationen zur Vorschau von Push-Inhalten](../push/gs-push.md)
