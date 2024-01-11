@@ -3,11 +3,11 @@ audience: end-user
 title: Vorbereiten und Senden einer E-Mail
 description: Erfahren Sie, wie Sie eine E-Mail mit der Web-Benutzeroberfläche von Campaign vorbereiten und senden.
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
-badge: label="Beta"
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+badge: label="Eingeschränkte Verfügbarkeit"
+source-git-commit: 798675125820076d4e5e379a94a1d5575425f68c
 workflow-type: tm+mt
-source-wordcount: '891'
-ht-degree: 99%
+source-wordcount: '892'
+ht-degree: 97%
 
 ---
 
@@ -105,7 +105,7 @@ Gehen Sie wie folgt vor, wenn Sie den Versand Ihrer E-Mail für einen späteren 
 
 ## Anhalten oder Beenden des Sendevorgangs {#pause-stop-sending}
 
-Unabhängig davon, ob es sich um einen geplanten oder ungeplanten Versand handelt, können während des Sendevorgangs immer zwei Aktionen ausgeführt werden:
+Ob Ihr Versand geplant ist oder nicht<!--TBC-->, können während des Versandvorgangs zwei Aktionen ausgeführt werden:
 
 * Klicken Sie auf **[!UICONTROL Senden anhalten]**, um den Nachrichtenversand zu unterbrechen. Sie können den Sendevorgang jederzeit fortsetzen.
 
