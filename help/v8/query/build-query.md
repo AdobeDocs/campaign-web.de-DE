@@ -3,10 +3,10 @@ audience: end-user
 title: Erstellen Ihrer erste Abfrage mithilfe des Abfrage-Modelers
 description: Erfahren Sie, wie Sie Ihre erste Abfrage im Abfrage-Modeler in Adobe Campaign Web erstellen.
 badge: label="Eingeschränkte Verfügbarkeit"
-source-git-commit: 26d4b548a7019a79826af435a90deb72e956bcde
+source-git-commit: ed094259c71ed5da5e395d49598fe9f39980b07f
 workflow-type: tm+mt
-source-wordcount: '1858'
-ht-degree: 64%
+source-wordcount: '1920'
+ht-degree: 62%
 
 ---
 
@@ -90,6 +90,8 @@ Mit benutzerdefinierten Bedingungen können Sie Tabellen abfragen, die mit der a
 
 Für **1-1-Link**, navigieren Sie zur verknüpften Tabelle, wählen Sie das gewünschte Attribut aus und definieren Sie den erwarteten Wert.
 
+Sie können auch direkt einen Tabellenlink im **Wert** auswählen und bestätigen. In diesem Fall müssen die für die ausgewählte Tabelle verfügbaren Werte mithilfe einer dedizierten Auswahl ausgewählt werden, wie im folgenden Beispiel gezeigt.
+
 +++Abfragebeispiel
 
 Hier geht es bei der Abfrage um Marken, deren Titel &quot;läuft&quot; lautet.
@@ -101,6 +103,10 @@ Hier geht es bei der Abfrage um Marken, deren Titel &quot;läuft&quot; lautet.
 1. Definieren Sie den erwarteten Wert für das Attribut.
 
    ![](assets/1-1-table.png){width="85%" align="center"}
+
+Im Folgenden finden Sie ein Abfragebeispiel, in dem ein Tabellenlink direkt ausgewählt wurde. Die für diese Tabelle verfügbaren Werte müssen in einer dedizierten Auswahl ausgewählt werden.
+
+![](assets/1-1-table-direct.png){width="85%" align="center"}
 
 +++
 
