@@ -4,10 +4,10 @@ title: Zielgruppen erstellen
 description: Erfahren Sie, wie Sie Zielgruppen in Adobe Campaign Web erstellen.
 badge: label="Beta"
 exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
-source-git-commit: bc1b4186b5869d104c6b14e09160f28bf3e28f95
+source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
 workflow-type: tm+mt
 source-wordcount: '616'
-ht-degree: 93%
+ht-degree: 89%
 
 ---
 
@@ -54,7 +54,7 @@ Gehen Sie wie folgt vor, um eine Zielgruppe zu erstellen:
 
    * **[!UICONTROL Zielgruppe speichern]**: Dies ist der letzte Schritt in Ihrem Workflow, mit dem Sie die Workflow-Ergebnisse als neue Zielgruppe speichern können.
 
-1. Öffnen Sie die Aktivität **[!UICONTROL Zielgruppe erstellen]** und verwenden Sie den Regel-Builder, um die Population zu definieren, die in Ihre Zielgruppe aufgenommen werden soll, indem Sie die in der Datenbank enthaltenen Daten filtern. [Erfahren Sie, wie Sie eine Aktivität „Zielgruppe erstellen“ konfigurieren können](../workflows/activities/build-audience.md)
+1. Öffnen Sie die **[!UICONTROL Audience erstellen]** und verwenden Sie das Abfragemodell, um die Population zu definieren, die in Ihre Audience aufgenommen werden soll, indem Sie die in der Datenbank enthaltenen Daten filtern. [Erfahren Sie, wie Sie eine Aktivität „Zielgruppe erstellen“ konfigurieren können](../workflows/activities/build-audience.md)
 
 1. Wenn Sie mit dem Workflow zusätzliche Vorgänge für die Zielpopulation durchführen möchten, fügen Sie so viele Aktivitäten wie erforderlich hinzu und verbinden Sie sie miteinander. Weiterführende Informationen zur Konfiguration von Workflow-Aktivitäten finden Sie in der [Dokumentation zu Workflows](../workflows/activities/about-activities.md).
 

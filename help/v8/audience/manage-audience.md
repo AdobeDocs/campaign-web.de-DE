@@ -4,10 +4,10 @@ title: Verwalten und Überwachen von Zielgruppen
 description: Erfahren Sie, wie Sie Zielgruppen in Adobe Campaign Web überwachen und verwalten können.
 badge: label="Beta"
 exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
-source-git-commit: 1f2a6e0944f46c0e37ce9e2b174a08e69981d143
-workflow-type: ht
+source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
+workflow-type: tm+mt
 source-wordcount: '472'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -24,7 +24,7 @@ Um die Population Ihrer Zielgruppe zu bestimmen, können Sie:
 
 * [neue Zielgruppen erstellen](create-audience.md) über das Menü **[!UICONTROL Zielgruppen]**,
 * [eine vorhandene Zielgruppe auswählen](add-audience.md), die als Liste in der Client-Konsole erstellt wurde oder aus Adobe Experience Platform stammt,
-* [mit dem Regel-Builder eine neue Zielgruppe erstellen](../query/query-modeler-overview.md), indem Sie Filterkriterien definieren und kombinieren,
+* [Neue Zielgruppe erstellen](../query/query-modeler-overview.md) mit dem Abfragemodell durch Definition und Kombination von Filterkriterien;
 * [eine Zielgruppe aus einer externen Datei verwenden](file-audience.md). Diese Option steht nur für eigenständige E-Mail-Sendungen zur Verfügung und kann nicht in Kampagnensendungen verwendet werden.
 
 Wenn Sie eine Zielgruppe ansprechen, können Sie außerdem **Kontrollgruppen** definieren, um einen Teil Ihrer Zielgruppe vom Versand von Nachrichten auszuschließen und so die Wirkung Ihrer Kampagnen zu messen. [Erfahren Sie, wie Sie eine Kontrollgruppe festlegen](control-group.md)

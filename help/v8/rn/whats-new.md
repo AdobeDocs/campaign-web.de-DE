@@ -4,7 +4,7 @@ title: Neue Funktionen in Campaign Web v8
 description: Entdecken Sie neue Funktionen von Campaign Web v8.
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Eingeschränkte Verfügbarkeit"
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
 workflow-type: tm+mt
 source-wordcount: '1337'
 ht-degree: 66%
@@ -71,7 +71,7 @@ Verwenden Sie die neue Web-Benutzeroberfläche von Campaign für Folgendes:
 * Erstellen, entwerfen, personalisieren, planen und senden Sie E-Mail-, SMS- und Push-Benachrichtigungen - [Weitere Infos](../msg/gs-messages.md)
 * Erstellen personalisierter E-Mail-Inhalte mit dem E-Mail-Designer – [Weitere Informationen](../email/edit-content.md)
 * Senden Sie kanalübergreifende Kampagnen, einschließlich SMS- und Push-Benachrichtigungen – [Weitere Informationen](../workflows/activities/channels.md)
-* Definieren von Zielgruppen mit dem Regel-Builder – [Weitere Informationen](../audience/about-recipients.md)
+* Definieren von Zielgruppen mit dem Abfragemodell - [Weitere Infos](../audience/about-recipients.md)
 * Vorschau, Testen und Senden Ihrer Nachrichten – [Weitere Informationen](../monitor/prepare-send.md)
 * Überwachen, Senden und Messen von Ergebnissen mit integrierten Berichten – [Weitere Informationen](../reporting/delivery-reports.md)
 

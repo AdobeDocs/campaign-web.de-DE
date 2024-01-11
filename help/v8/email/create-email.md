@@ -4,10 +4,10 @@ title: Eine erste E-Mail senden
 description: Erfahren Sie, wie Sie Ihre erste E-Mail mit der Web-Benutzeroberfläche von Campaign senden.
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Eingeschränkte Verfügbarkeit"
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
 workflow-type: tm+mt
 source-wordcount: '1315'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -41,7 +41,7 @@ Gehen Sie wie folgt vor, um einen neuen E-Mail-Versand zu erstellen.
 
 1. Gehen Sie zum Menü **[!UICONTROL Sendungen]** in der linken Leiste, und klicken Sie auf die Schaltfläche **[!UICONTROL Versand erstellen]**.
 
-   ![](assets/delivery-list.png)
+   ![](../msg/assets/create-a-delivery.png)
 
 1. Wählen Sie **[!UICONTROL E-Mail]** als Kanal und wählen Sie eine E-Mail-Versandvorlage aus der Liste.
 
@@ -73,7 +73,7 @@ Gehen Sie wie folgt vor, um einen neuen E-Mail-Versand zu erstellen.
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience"
 >title="Auswählen einer Zielgruppe für Ihren Versand"
->abstract="Die optimale Zielgruppe für Marketing-Nachrichten auswählen. Sie können eine vorhandene Zielgruppe auswählen (die bereits in einer Campaign v8-Instanz oder in Adobe Experience Platform definiert ist), mit dem Regel-Builder eine neue Zielgruppe erstellen oder eine Datei hochladen, die Ihre Zielgruppe enthält. Kontrollgruppen sind nicht aktiviert für die Option **Aus Datei auswählen** und umgekehrt."
+>abstract="Die optimale Zielgruppe für Marketing-Nachrichten auswählen. Sie können eine existierende Zielgruppe auswählen (die bereits in einer Campaign v8-Instanz oder in Adobe Experience Platform definiert ist), mithilfe des Abfragemodells eine neue Zielgruppe erstellen oder eine Datei mit Ihrer Zielgruppe hochladen. Kontrollgruppen sind nicht aktiviert für die Option **Aus Datei auswählen** und umgekehrt."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/add-audience.html?lang=de" text="Auswählen der Hauptzielgruppen"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html?lang=de" text="Festlegen einer Kontrollgruppe"
 

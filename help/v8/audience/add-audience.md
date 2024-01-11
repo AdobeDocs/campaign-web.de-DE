@@ -4,10 +4,10 @@ title: Auswählen einer bestehenden Zielgruppe
 description: Erfahren Sie, wie Sie eine Zielgruppe auswählen
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
 badge: label="Beta"
-source-git-commit: 7891ae64a8b5a5929a70974af317865b08cc0e68
-workflow-type: ht
+source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
+workflow-type: tm+mt
 source-wordcount: '308'
-ht-degree: 100%
+ht-degree: 82%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 In diesem Abschnitt wird beschrieben, wie Sie bei der Definition der Zielgruppe eines E-Mail-Versands eine bestehende Zielgruppe auswählen. Bei der Bestimmung der Hauptzielgruppe eines Versands haben Sie außerdem folgende Möglichkeiten:
 
-* [Erstellen einer einmaligen Zielgruppe](one-time-audience.md) mithilfe des Regel-Builders.
+* [Erstellen einer einmaligen Zielgruppe](one-time-audience.md) Verwendung des Abfragemodells.
 * [Laden einer Zielgruppe aus einer externen Datei](file-audience.md) (nur für E-Mails).
 
 Auf Zielgruppen, die in Sendungen ausgewählt werden können, kann über das Menü **Zielgruppen** links zugegriffen werden. Sie stammen aus verschiedenen Quellen, wie z. B. der Client-Konsole, den Zielgruppen-Workflows für Campaign Web oder Adobe Experience Platform. [Erfahren Sie, wie Sie Zielgruppen überwachen und verwalten.](manage-audience.md)
@@ -40,11 +40,11 @@ Gehen Sie wie folgt vor, um eine vorhandene Zielgruppe für Ihre Nachricht auszu
 
    ![](assets/select-audience-folder.png)
 
-1. Im Filterbereich können Sie auf Filteroptionen zugreifen, um die Zielgruppenliste zu präzisieren. Klicken Sie dazu auf **Regeln hinzufügen**, um auf den Regel-Builder zuzugreifen, mit dem Sie erweiterte Filter für die Liste der Zielgruppen erstellen können. [Erfahren Sie, wie Sie den Regel-Builder verwenden](../query/query-modeler-overview.md)
+1. Im Filterbereich können Sie auf Filteroptionen zugreifen, um die Zielgruppenliste zu präzisieren. Klicken Sie dazu auf **Regeln hinzufügen** , um auf das Abfragemodell zuzugreifen, mit dem Sie erweiterte Filter für die Zielgruppenliste erstellen können. [Erfahren Sie, wie Sie das Abfragemodell verwenden](../query/query-modeler-overview.md)
 
    ![](assets/create-audience4.png)
 
-1. Klicken Sie auf **Bestätigen**, um Ihre Zielgruppe als Hauptzielgruppe des Versands hinzuzufügen. Danach können Sie die Zielgruppe mit dem Regel-Builder weiter einschränken, indem Sie auf die Schaltfläche **Regeln bearbeiten** klicken.
+1. Klicken Sie auf **Bestätigen**, um Ihre Zielgruppe als Hauptzielgruppe des Versands hinzuzufügen. Danach können Sie die Audience mithilfe des Abfragemodells weiter einschränken, indem Sie auf die **Regeln bearbeiten** Schaltfläche.
 
    ![](assets/refine-audience.png)
 

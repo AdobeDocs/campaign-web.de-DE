@@ -4,10 +4,10 @@ title: Verwenden einer Adobe Experience Platform-Zielgruppe
 description: Erfahren Sie, wie Sie eine Zielgruppe aus Adobe Experience Platform verwenden
 badge: label="Beta"
 exl-id: beb73107-3d27-40ac-afef-ac2b66ae8d34
-source-git-commit: 1f2a6e0944f46c0e37ce9e2b174a08e69981d143
-workflow-type: ht
+source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
+workflow-type: tm+mt
 source-wordcount: '283'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -49,6 +49,6 @@ Gehen Sie wie folgt vor, um eine Adobe Experience Platform-Zielgruppe für Ihren
 
    ![](assets/refine-audience.png)
 
-1. Mit dem Regel-Builder können Sie Ihre Zielgruppe mit zusätzlichen Filtern oder durch die Kombination verschiedener Zielgruppen anreichern. Weitere Informationen finden Sie in [diesem Abschnitt](../query/query-modeler-overview.md).
+1. Mithilfe des Abfragemodells können Sie Ihre Audience mit zusätzlichen Filtern oder durch die Kombination verschiedener Zielgruppen anreichern. Weitere Informationen finden Sie in [diesem Abschnitt](../query/query-modeler-overview.md).
 
 1. Klicken Sie auf **Speichern**.

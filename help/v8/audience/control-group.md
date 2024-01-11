@@ -4,10 +4,10 @@ title: Festlegen einer Kontrollgruppe
 description: Erfahren Sie, wie Sie in der Web-Benutzeroberfläche von Campaign eine Kontrollgruppe für Ihre Nachrichten einrichten.
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
 badge: label="Beta"
-source-git-commit: 2ff2411e34ef63c1ca4da355a577777394e2664f
-workflow-type: ht
+source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
+workflow-type: tm+mt
 source-wordcount: '785'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -114,7 +114,7 @@ Klicken Sie im Abschnitt **Zusätzliche Population** des Definitionsbildschirms 
 
 * Um eine vorhandene Zielgruppe zu verwenden, klicken Sie auf **Zielgruppe auswählen**. Weiterführende Informationen finden Sie in [diesem Abschnitt](add-audience.md).
 
-* Um eine neue Abfrage zu definieren, wählen Sie **Eigene erstellen** aus und definieren Sie die Ausschlusskriterien mit dem Regel-Builder. Weiterführende Informationen finden Sie in [diesem Abschnitt](../query/query-modeler-overview.md).
+* Um eine neue Abfrage zu definieren, wählen Sie **Erstellen eigener** und definieren die Ausschlusskriterien mithilfe des Abfragemodells. Weiterführende Informationen finden Sie in [diesem Abschnitt](../query/query-modeler-overview.md).
 
 Die Profile, die in der Zielgruppe enthalten sind oder mit dem Ergebnis der Abfrage übereinstimmen, werden von der Versandzielgruppe **ausgeschlossen** und erhalten keine Nachricht.
 

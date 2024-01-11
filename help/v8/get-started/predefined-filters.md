@@ -3,10 +3,10 @@ title: Erstellen und Verwenden vordefinierter Filter
 description: Erfahren Sie, wie Sie vordefinierte Filter in der Web-Benutzeroberfläche von Adobe Campaign erstellen und verwalten
 badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
-source-git-commit: 3b90fa26ff015b3a74044782a1cf5d979657c853
+source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
 workflow-type: tm+mt
 source-wordcount: '793'
-ht-degree: 86%
+ht-degree: 84%
 
 ---
 
@@ -98,7 +98,7 @@ Wenn ein Filter als Favorit gespeichert wird, steht er allen Benutzenden im Absc
 
 ## Verwenden eines vordefinierten Filters {#use-predefined-filter}
 
-Vordefinierte Filter sind beim Definieren von Regeleigenschaften verfügbar. Um auf vordefinierte Filter zuzugreifen, wählen Sie die Option **Benutzerspezifischen Filter auswählen** in der Dropdown-Liste des Regel-Builders.
+Vordefinierte Filter sind beim Definieren von Regeleigenschaften verfügbar. Um auf vordefinierte Filter zuzugreifen, wählen Sie die **Benutzerspezifischen Filter auswählen** in der Dropdown-Liste des Abfragemodells.
 
 Sie können dann auf die vollständige Liste der für den aktuellen Kontext verfügbaren vordefinierten Filter zugreifen.
 

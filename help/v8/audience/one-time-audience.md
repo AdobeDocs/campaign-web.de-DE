@@ -4,16 +4,16 @@ title: Erstellen einer einmaligen Zielgruppe für einen Versand
 description: Erfahren Sie, wie Sie eine einmalige Zielgruppe für einen Versand erstellen.
 badge: label="Beta"
 exl-id: 6f2da017-90d6-497d-bbbd-293775da00e9
-source-git-commit: 1f2a6e0944f46c0e37ce9e2b174a08e69981d143
-workflow-type: ht
+source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
+workflow-type: tm+mt
 source-wordcount: '230'
-ht-degree: 100%
+ht-degree: 85%
 
 ---
 
 # Erstellen einer einmaligen Zielgruppe für einen Versand {#sone-time}
 
-In diesem Abschnitt wird beschrieben, wie Sie beim Entwerfen eines neuen Versands eine Zielgruppe erstellen. In diesem Fall werden die Empfängerinnen und Empfänger, die in die Versandzielgruppe aufgenommen werden sollen, durch Abfrage der Datenbank mit dem Regel-Builder angesprochen.
+In diesem Abschnitt wird beschrieben, wie Sie beim Entwerfen eines neuen Versands eine Zielgruppe erstellen. In diesem Fall werden die Empfänger, die in die Versand-Audience eingeschlossen werden sollen, durch Abfrage der Datenbank mit dem Abfragemodell angesprochen.
 
 Die resultierende Zielgruppe wird nur ein einziges Mal für diesen Versand verwendet. Sie wird nicht in der Zielgruppenliste gespeichert.
 
@@ -28,7 +28,7 @@ Gehen Sie wie folgt vor, um direkt aus einem Versand eine neue Zielgruppe zu ers
 
    ![](assets/segment-builder0.png)
 
-1. Wählen Sie **Eigene erstellen** aus. Der Regel-Builder wird angezeigt. Er ermöglicht es Ihnen, die Population zu definieren, an die Ihr Versand gerichtet ist, indem Sie die in der Datenbank enthaltenen Daten filtern. [Erfahren Sie, wie Sie den Regel-Builder verwenden](../query/query-modeler-overview.md)
+1. Wählen Sie **Eigene erstellen** aus. Das Abfragemodell wird angezeigt. Er ermöglicht es Ihnen, die Population zu definieren, an die Ihr Versand gerichtet ist, indem Sie die in der Datenbank enthaltenen Daten filtern. [Erfahren Sie, wie Sie das Abfragemodell verwenden](../query/query-modeler-overview.md)
 
    ![](assets/segment-builder.png)
 
