@@ -4,10 +4,10 @@ title: Verwenden der Workflow-Aktivität „Zielgruppe erstellen“
 description: Erfahren Sie, wie Sie die Workflow-Aktivität „Zielgruppe erstellen“ verwenden.
 badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: c07bb025-51b7-428e-ba00-cd552f0db9d4
-source-git-commit: fb72b943b324990f6dd82a4a05bfd28e5452480a
+source-git-commit: 1435a8c2bc62e5064eaacf5e0cabf11d5642f152
 workflow-type: tm+mt
-source-wordcount: '498'
-ht-degree: 82%
+source-wordcount: '410'
+ht-degree: 71%
 
 ---
 
@@ -28,7 +28,7 @@ Zur Definition der Zielgruppenpopulation haben Sie folgende Möglichkeiten:
 
 >[!NOTE]
 >
->In diesem Zusammenhang können Sie keine Zielgruppe aus einer Datei laden. Dazu müssen Sie einen eigenständigen Versand erstellen. [Weitere Informationen](../../audience/about-recipients.md)
+>Zielgruppen, die aus einer Datei geladen werden, können nicht mithilfe der Aktivität Audience erstellen als Ziel ausgewählt werden. Dazu müssen Sie eine **Datei laden** -Aktivität und **Abstimmung** -Aktivität. [Weitere Informationen](../../audience/about-recipients.md)
 
 <!--
 The **Build audience** activity can be placed at the beginning of the workflow or after any other activity. Any activity can be placed after the **Build audience**.
@@ -69,10 +69,6 @@ Gehen Sie wie folgt vor, um eine vorhandene Zielgruppe auszuwählen:
 1. Klicken Sie auf **Fortfahren**.
 1. Wählen Sie Ihre Audience auf die gleiche Weise aus wie eine Audience bei der Konzeption eines neuen Versands. Näheres dazu finden Sie in [diesem Abschnitt](../../audience/add-audience.md).
 
->[!IMPORTANT]
->
->Wenn Sie die Aktivität **[!UICONTROL Zielgruppe erstellen]** verwenden möchten, die auf eine Experience Platform-Zielgruppe abzielt, müssen Sie danach eine Aktivität **[!UICONTROL Dimensionsänderung]** hinzufügen, um sicherzustellen, dass die Zielgruppendimension der Zielgruppe auf „Empfängerinnen und Empfänger“ gesetzt ist. Unten auf dieser Seite finden Sie ein Workflow-Beispiel.
-
 >[!ENDTABS]
 
 ## Beispiele{#build-audience-examples}
@@ -80,7 +76,3 @@ Gehen Sie wie folgt vor, um eine vorhandene Zielgruppe auszuwählen:
 Im Folgenden finden Sie ein Beispiel für einen Workflow mit zwei Aktivitäten vom Typ **Zielgruppe erstellen**. Die erste Version richtet sich an die Zielgruppe derjenigen, die Poker spielen, gefolgt von einem E-Mail-Versand. Die zweite Version ist die Zielgruppe der VIP-Kundinnen und -Kunden, gefolgt von einem SMS-Versand.
 
 ![](../assets/workflow-audience-example.png)
-
-Hier ist ein weiteres Workflow-Beispiel, bei dem eine Adobe Experience Platform-Zielgruppe mit einer Adobe Campaign-Zielgruppe kombiniert wird. Damit diese Zielgruppen kombiniert werden können, muss eine Aktivität **[!UICONTROL Dimensionsänderung]** mit der Zielgruppendimension „Empfängerinnen und Empfänger“ nach der Adobe Experience Platform-Zielgruppe hinzugefügt werden. [Erfahren Sie, wie Sie eine Aktivität „Zielgruppe erstellen“ konfigurieren können](change-dimension.md)
-
-![](../assets/workflow-audience-aep.png)

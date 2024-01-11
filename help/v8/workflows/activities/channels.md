@@ -4,10 +4,10 @@ title: Verwenden der Workflow-Aktivität „Versand“
 description: Erfahren Sie, wie Sie eine Workflow-Aktivität „Versand“ hinzufügen (E-Mail, Push-Benachrichtigung, SMS).
 badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: 155b40e2-1aa2-4251-bbaa-7e16e36f649e
-source-git-commit: fb72b943b324990f6dd82a4a05bfd28e5452480a
+source-git-commit: 1435a8c2bc62e5064eaacf5e0cabf11d5642f152
 workflow-type: tm+mt
-source-wordcount: '876'
-ht-degree: 96%
+source-wordcount: '901'
+ht-degree: 94%
 
 ---
 
@@ -26,7 +26,7 @@ Mithilfe von Kanalaktivitäten können Sie umfassende und personalisierte Kampag
 >* [Erstellen eines eigenständigen SMS-Versands](../../sms/create-sms.md)
 >* [Erstellen eines eigenständigen Push-Versands](../../push/create-push.md)
 
-## Erstellen eines Workflows{#build-your-workflow}
+## Erstellen eines Workflows {#build-your-workflow}
 
 Beginnen Sie das Erstellen Ihres Workflows mit den entsprechenden Aktivitäten, bevor Sie den Versand durchführen:
 
@@ -35,6 +35,10 @@ Beginnen Sie das Erstellen Ihres Workflows mit den entsprechenden Aktivitäten, 
 * Fügen Sie die Aktivität **Zielgruppe erstellen** hinzu. Die Zielgruppe ist das wichtigste Ziel Ihres Versands: die Empfängerinnen und Empfänger, die die Nachrichten erhalten. Beim Senden von Nachrichten im Rahmen eines Kampagnen-Workflows wird die Nachrichtenzielgruppe nicht in der Kanalaktivität, sondern in der Aktivität **Zielgruppe erstellen** definiert. Weitere Informationen finden Sie in [diesem Abschnitt](build-audience.md).
 
   ![](../../msg/assets/add-delivery-in-wf.png)
+
+  >[!NOTE]
+  >
+  >Sie können auch eine aus einer Datei geladene Audience als Ziel auswählen. Verwenden Sie dazu einen **Datei laden** -Aktivität und **Abstimmung** -Aktivität. [Weitere Informationen](../../audience/about-recipients.md)
 
 ## Konfigurieren der Kanalaktivität {#create-a-delivery-in-a-workflow}
 
