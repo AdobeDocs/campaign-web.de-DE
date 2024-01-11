@@ -2,12 +2,12 @@
 audience: end-user
 title: Verwenden der Workflow-Aktivität „Aufspaltung“
 description: Weitere Informationen zur Verwendung der Workflow-Aktivität „Aufspaltung“
-badge: label="Beta"
+badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
-source-git-commit: 490debae92986e55f83fb42f34a629c16ab3d991
-workflow-type: ht
-source-wordcount: '704'
-ht-degree: 100%
+source-git-commit: 023777b88fa5c80e110fcf334517f7cef1c7f1ee
+workflow-type: tm+mt
+source-wordcount: '717'
+ht-degree: 92%
 
 ---
 
@@ -17,7 +17,6 @@ ht-degree: 100%
 >id="acw_orchestration_split"
 >title="Aktivität „Aufspaltung“"
 >abstract="Mit der Aktivität **Aufspaltung** können Sie eingehende Populationen basierend auf unterschiedlichen Auswahlkriterien in mehrere Teilmengen segmentieren, z. B. Filterregeln oder Populationsgröße."
-
 
 Die Aktivität **Aufspaltung** ist eine Aktivität zur **Zielgruppenbestimmung**, mit der Sie eingehende Populationen basierend auf unterschiedlichen Auswahlkriterien in mehrere Teilmengen segmentieren können, z. B. Filterregeln oder Populationsgröße.
 
@@ -54,9 +53,9 @@ Folgen Sie diesen Schritten, um die Aktivität **Aufspaltung** zu konfigurieren:
 
    >[!IMPORTANT]
    >
-   >Bei Ausführung der Aktivität „Aufspaltung“ wird die Population sukzessive in unterschiedliche Teilmengen segmentiert, und zwar in der Reihenfolge, in der diese zur Aktivität hinzugefügt werden. Wenn beispielsweise die erste Teilmenge 70 % der Anfangspopulation abruft, werden die Auswahlkriterien der nächsten hinzugefügten Teilmenge nur auf die restlichen 30 % angewendet usw.
+   >Wenn die Variable **Aufspaltung** -Aktivität ausgeführt wird, wird die Population in der Reihenfolge segmentiert, in der sie der Aktivität hinzugefügt wird. Wenn beispielsweise die erste Teilmenge 70 % der Anfangspopulation abruft, werden die Auswahlkriterien der nächsten hinzugefügten Teilmenge nur auf die restlichen 30 % angewendet usw.
    >
-   > Stellen Sie vor der Konfiguration Ihrer Teilmengen sicher, dass Sie sie in der richtigen Reihenfolge hinzugefügt haben, da ihre Position nicht geändert werden kann.
+   >Stellen Sie vor dem Start des Workflows sicher, dass Sie die Teilmengen in der für Ihre Anforderungen geeigneten Reihenfolge sortiert haben. Verwenden Sie dazu die Pfeiltasten, um die Position einer Teilmenge zu ändern.
 
 1. Sobald die Teilmengen hinzugefügt wurden, zeigt die Aktivität für jede Teilmenge eine ausgehende Transition. Es wird dringend empfohlen, die Titel jeder Teilmenge zu ändern, um sie in der Workflow-Arbeitsfläche leicht zu identifizieren.
 
