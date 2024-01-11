@@ -4,7 +4,7 @@ title: Erstellen von Workflows mit Adobe Campaign Web
 description: Erfahren Sie, wie Sie Workflows mit Adobe Campaign Web erstellen
 badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: 2a9b7e52-2b8b-4293-9b4d-a228ba95bed3
-source-git-commit: 6694976596909226cadbb0997c6663ec17a9e39b
+source-git-commit: 24521be2c796b5714712849355c3d033537847bc
 workflow-type: tm+mt
 source-wordcount: '360'
 ht-degree: 90%
@@ -52,4 +52,4 @@ Die Registerkarte **[!UICONTROL Vorlagen]** enthält alle verfügbaren Workflow-
 
 Workflow-Vorlagen enthalten vorkonfigurierte Aktivitäten und allgemeine Eigenschaftskonfigurationen, die zur Erstellung neuer Workflows wiederverwendet werden können.
 
-Sie können Workflow-Vorlagen aus einem vorhandenen Workflow oder von Grund auf neu erstellen. [Erfahren Sie, wie Sie Workflow-Vorlagen erstellen](create-workflow.md#work-with-workflow-templates-workflow-templates)
+Sie können Workflow-Vorlagen aus einem vorhandenen Workflow oder von Grund auf neu erstellen. [Erfahren Sie, wie Sie Workflow-Vorlagen erstellen](create-workflow.md#workflow-templates)

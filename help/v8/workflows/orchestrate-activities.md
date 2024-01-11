@@ -2,12 +2,12 @@
 audience: end-user
 title: Erstellen von Workflows mit Adobe Campaign Web
 description: Erfahren Sie, wie Sie Workflows mit Adobe Campaign Web erstellen
-badge: label="Beta"
+badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: 0c8e2158-518c-4620-9971-00ed2eccdd4f
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
-workflow-type: ht
-source-wordcount: '633'
-ht-degree: 100%
+source-git-commit: 24521be2c796b5714712849355c3d033537847bc
+workflow-type: tm+mt
+source-wordcount: '637'
+ht-degree: 74%
 
 ---
 
@@ -17,9 +17,9 @@ Sobald Sie einen [Workflow](create-workflow.md) erstellt haben, sei es über das
 
 ## Hinzufügen von Aktivitäten {#add}
 
-In diesem Schritt der Konfiguration wird das Diagramm mit einem Startsymbol angezeigt, das den Anfang Ihres Workflows darstellt. Um Ihre erste Aktivität hinzuzufügen, klicken Sie auf die Schaltfläche „+“, die mit dem Startsymbol verbunden ist.
+In diesem Schritt der Konfiguration wird das Diagramm mit einem Startsymbol angezeigt, das den Anfang Ihres Workflows darstellt. Um Ihre erste Aktivität hinzuzufügen, klicken Sie auf das **+** mit dem Startsymbol verbunden.
 
-Es erscheint eine Liste von Aktivitäten, die dem Diagramm hinzugefügt werden können. Die verfügbaren Aktivitäten hängen von Ihrer Position im Workflow-Diagramm ab. Wenn Sie Ihre erste Aktivität hinzufügen, können Sie Ihren Workflow starten, indem Sie beispielsweise eine Zielgruppe ansprechen, den Workflow-Pfad aufteilen oder eine Warteaktivität festlegen, um die Ausführung des Workflows zu verzögern. Andererseits können Sie nach der Aktivität „Zielgruppe aufbauen“ Ihre Zielgruppe mit Zielgruppenbestimmungsaktivitäten verfeinern, einen Versand an Ihre Zielgruppe mit Kanalaktivitäten durchführen oder den Workflow-Prozess mit Flusssteuerungsaktivitäten organisieren.
+Es erscheint eine Liste von Aktivitäten, die dem Diagramm hinzugefügt werden können. Die verfügbaren Aktivitäten hängen von Ihrer Position im Workflow-Diagramm ab. Wenn Sie beispielsweise Ihre erste Aktivität hinzufügen, können Sie Ihren Workflow starten, indem Sie eine Audience auswählen, den Workflow-Pfad aufteilen oder eine **Warten** -Aktivität, um die Ausführung des Workflows zu verzögern. Auf der anderen Seite wird nach **Audience erstellen** Aktivität können Sie Ihre Zielgruppe mit Zielgruppenbestimmungsaktivitäten verfeinern, einen Versand mit Kanalaktivitäten an Ihre Zielgruppe senden oder den Workflow-Prozess mit Steuerungsaktivitäten organisieren.
 
 ![](assets/workflow-start.png)
 
@@ -27,9 +27,9 @@ Sobald eine Aktivität zum Diagramm hinzugefügt wurde, erscheint rechts ein Ber
 
 ![](assets/workflow-configure-activities.png)
 
-Wiederholen Sie diesen Vorgang und fügen Sie je nach den Aufgaben, die Ihr Workflow ausführen soll, beliebig viele Aktivitäten hinzu. Beachten Sie, dass Sie auch eine neue Aktivität zwischen zwei Aktivitäten einfügen können. Klicken Sie dazu auf die Schaltfläche „+“ in der Transition zwischen den Aktivitäten, wählen Sie die gewünschte Aktivität aus und konfigurieren Sie sie im rechten Bereich.
+Wiederholen Sie diesen Vorgang, um je nach den Aufgaben, die Ihr Workflow ausführen soll, beliebig viele Aktivitäten hinzuzufügen. Beachten Sie, dass Sie auch eine neue Aktivität zwischen zwei Aktivitäten einfügen können. Klicken Sie dazu auf die Schaltfläche **+** auf der Transition zwischen den Aktivitäten, wählen Sie die gewünschte Aktivität aus und konfigurieren Sie sie im rechten Bereich.
 
-Um eine Aktivität zu entfernen, wählen Sie sie auf der Arbeitsfläche aus und klicken in den Eigenschaften der Aktivität auf das Symbol „Löschen“.
+Um eine Aktivität zu entfernen, wählen Sie sie auf der Arbeitsfläche aus und klicken Sie auf **Löschen** in den Aktivitätseigenschaften.
 
 >[!TIP]
 >
@@ -41,17 +41,17 @@ Beim Hinzufügen von Aktivitäten sind im Eigenschaftenbereich Aktionsschaltflä
 
 * **Löschen** der Aktivität von der Arbeitsfläche aus.
 * **Deaktivieren/Aktivieren** der Aktivität. Wenn der Workflow ausgeführt wird, werden deaktivierte Aktivitäten und auf demselben Pfad folgende Aktivitäten nicht ausgeführt und der Workflow wird angehalten.
-* **Kopieren** der Aktivität. Sie können sie dann in einen beliebigen Workflow einfügen, indem Sie auf die Schaltfläche „+“ in einer Transition klicken und „1 Aktivität einfügen“ auswählen.
+* **Kopieren** der Aktivität. Sie können sie dann in einen beliebigen Workflow einfügen, indem Sie auf die **+** auf eine Transition klicken und &quot;Aktivität einfügen 1&quot;auswählen.
 * Zugreifen auf die **Protokolle und Aufgaben** der Aktivität.
 * **Anhalten/Fortsetzen** der Aktivität. Wenn der Workflow ausgeführt wird, wird er mit bei der angehaltenen Aktivität angehalten. Die entsprechende Aufgabe sowie alle auf demselben Pfad folgenden Aufgaben werden nicht ausgeführt.
 
-![](assets/activity-action.png){width="70%"}
+![](assets/activity-action.png){width="50%"}
 
 ## Beispiel {#example}
 
 Hier ist ein Beispiel für einen Workflow, der eine E-Mail an alle Kundinnen und Kunden (außer VIP) sendet, die an Kaffeemaschinen interessiert sind.
 
-![](assets/workflow-example.png)
+![](assets/workflow-example.png){zoomable=&quot;yes&quot;}
 
 Um dies zu bewerkstelligen, wurden die folgenden Aktivitäten hinzugefügt:
 

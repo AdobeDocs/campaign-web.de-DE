@@ -2,12 +2,12 @@
 audience: end-user
 title: Erstellen von Workflows mit Adobe Campaign Web
 description: Erfahren Sie, wie Sie Workflows mit Adobe Campaign Web erstellen
-badge: label="Beta"
+badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: ac6e63fb-34f2-474f-b364-d2af44f649b1
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
-workflow-type: ht
-source-wordcount: '281'
-ht-degree: 100%
+source-git-commit: 24521be2c796b5714712849355c3d033537847bc
+workflow-type: tm+mt
+source-wordcount: '284'
+ht-degree: 96%
 
 ---
 
@@ -20,11 +20,11 @@ Mit Campaign v8 Web können Sie Workflows in einer visuellen Arbeitsfläche erst
 
 Das Workflow-Diagramm zeigt, was passieren soll. Es beschreibt die verschiedenen Aufgaben, die ausgeführt und miteinander verknüpft werden sollen.
 
-![](assets/workflow-example.png)
+![](assets/workflow-example.png) {zoomable=&quot;yes&quot;}
 
 Jeder Workflow besteht aus:
 
-* **Activities**: Eine Aktivität ist eine Aufgabe, die ausgeführt werden soll. Die verschiedenen verfügbaren Aktivitäten werden im Diagramm durch Symbole dargestellt. Jede Aktivität verfügt über bestimmte Eigenschaften sowie andere Eigenschaften, die für alle Aktivitäten gelten.
+* **Tätigkeiten**: Eine Aktivität ist eine Aufgabe, die ausgeführt werden muss. Die verschiedenen verfügbaren Aktivitäten werden im Diagramm durch Symbole dargestellt. Jede Aktivität verfügt über bestimmte Eigenschaften sowie andere Eigenschaften, die für alle Aktivitäten gelten.
 
   In einem Workflow-Diagramm kann eine einzelne Aktivität verschiedene Aufgaben auslösen. Dies ist insbesondere der Fall bei Schleifen oder wiederkehrenden Aktionen.
 

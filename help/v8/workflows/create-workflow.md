@@ -2,12 +2,12 @@
 audience: end-user
 title: Erstellen von Workflows mit Adobe Campaign Web
 description: Erfahren Sie, wie Sie mit Adobe Campaign Web einen Workflow erstellen
-badge: label="Beta"
+badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
-source-git-commit: 6694976596909226cadbb0997c6663ec17a9e39b
+source-git-commit: 24521be2c796b5714712849355c3d033537847bc
 workflow-type: tm+mt
-source-wordcount: '753'
-ht-degree: 100%
+source-wordcount: '748'
+ht-degree: 97%
 
 ---
 
@@ -25,20 +25,17 @@ ht-degree: 100%
 >title="Liste der Workflows in der Kampagne"
 >abstract="Die Registerkarte **Workflows** enthält alle mit der Kampagne verknüpften Workflows. Klicken Sie auf den Namen eines Workflows, um ihn zu bearbeiten. Verwenden Sie die Schaltfläche **Workflow erstellen**, um einen neuen Workflow für diese Kampagne hinzuzufügen."
 
-
 Sie können eigenständige Workflows oder Workflows innerhalb einer Kampagne erstellen. Der erste Schritt besteht darin, eine Vorlage auszuwählen und ihre allgemeinen Eigenschaften zu definieren. Anschließend können Sie bei Bedarf weitere Einstellungen konfigurieren.
 
 Gehen Sie dazu wie folgt vor:
 
-1. Um einen **eigenständigen Workflow** zu erstellen, navigieren Sie zum Menü **Workflows**.
-
-   Um einen **Kampagnen-Workflow** zu erstellen, navigieren Sie zum Menü **Kampagnen** und öffnen Sie die Kampagne, für die Sie einen neuen Workflow erstellen möchten.
+1. So erstellen Sie eine **Eigenständiger Workflow**, navigieren Sie zum **Workflows** Menü. Um einen **Kampagnen-Workflow** zu erstellen, navigieren Sie zum Menü **Kampagnen** und öffnen Sie die Kampagne, für die Sie einen neuen Workflow erstellen möchten.
 
 1. Klicken Sie auf die Schaltfläche **[!UICONTROL Workflow erstellen]** in der rechten oberen rechten Ecke des Bildschirms.
 
    ![](assets/workflow-create.png)
 
-1. Wählen Sie im Dialogfeld **Eigenschaften** die Vorlage aus, die zum Erstellen des Workflows verwendet werden soll (Sie können auch die integrierte Standardvorlage verwenden). Weitere Informationen zu Vorlagen finden Sie im [folgenden Abschnitt](#work-with-workflow-templates-workflow-templates).
+1. Wählen Sie im Dialogfeld **Eigenschaften** die Vorlage aus, die zum Erstellen des Workflows verwendet werden soll (Sie können auch die integrierte Standardvorlage verwenden). [Weitere Informationen zu Workflow-Vorlagen](#workflow-templates).
 
 1. Geben Sie dem Workflow einen Titel. Darüber hinaus empfehlen wir dringend, Ihrem Workflow eine Beschreibung im dedizierten Feld im Abschnitt **[!UICONTROL Zusätzliche Optionen]** des Bildschirms hinzuzufügen.
 
@@ -48,7 +45,7 @@ Gehen Sie dazu wie folgt vor:
 
 1. Klicken Sie auf die Schaltfläche **[!UICONTROL Workflow erstellen]** zur Bestätigung der Workflow-Erstellung.
 
-Ihr Workflow wurde jetzt erstellt und ist in der Liste der Workflows verfügbar. Sie können jetzt auf die visuelle Arbeitsfläche zugreifen und mit dem Hinzufügen, Konfigurieren und Orchestrieren der Aufgaben beginnen, die ausgeführt werden sollen. Erfahren Sie auf [dieser Seite](orchestrate-activities.md), wie Sie Workflow-Aktivitäten orchestrieren.
+Ihr Workflow wurde jetzt erstellt und ist in der Liste der Workflows verfügbar. Sie können jetzt auf die visuelle Arbeitsfläche zugreifen und mit dem Hinzufügen, Konfigurieren und Orchestrieren der Aufgaben beginnen, die ausgeführt werden sollen. [Erfahren Sie, wie Sie Workflow-Aktivitäten koordinieren.](orchestrate-activities.md).
 
 ## Arbeiten mit Workflow-Vorlagen {#workflow-templates}
 
