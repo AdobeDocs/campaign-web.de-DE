@@ -3,14 +3,14 @@ title: Verwenden der KI-gestützten kontextuellen Hilfe im Campaign Web
 description: Fragen in Campaign Web-Hilfe-Popovers stellen
 badge: label="Alpha"
 exl-id: 577f4652-b3e5-4fa1-9a98-91815fe92d83
-source-git-commit: 453e19351459cc86c4cbaf671be4de7625555374
+source-git-commit: 1802cab67d8cd3d02cfe0a97010cd2c9e7bca624
 workflow-type: tm+mt
-source-wordcount: '450'
-ht-degree: 52%
+source-wordcount: '465'
+ht-degree: 49%
 
 ---
 
-# Verwenden der KI-gestützten Kontexthilfe {#using-ai}
+# KI-gestützte Kontexthilfe {#using-ai}
 
 Erhalten Sie schnelle, KI-generierte Antworten basierend auf der Produktdokumentation und Ihrem aktuellen Produktkontext mit der AI-gestützten kontextuellen Hilfe von Q&amp;A in den kontextuellen Hilfefeldern des Produkts.
 
@@ -18,7 +18,7 @@ Erhalten Sie schnelle, KI-generierte Antworten basierend auf der Produktdokument
 >
 >Diese Funktion ist in der Alpha-Version verfügbar und kann ohne vorherige Ankündigung geändert werden.
 >
->Diese Funktion ist nur auf **Englisch** verfügbar. Andere Sprachen werden in dieser Version nicht unterstützt.
+>Diese Funktion ist nur auf **Englisch** verfügbar. Andere Sprachen werden in dieser Version nicht unterstützt. Stellen Sie daher sicher, dass [Ihre bevorzugte Sprache](connect-to-campaign.md#language-pref) auf Englisch festgelegt ist, bevor Sie diese Funktion verwenden.
 
 
 Die **Kontexthilfe zu Gen AI** eingebettet in die kontextuelle Hilfe revolutioniert die Dokumentationssuche und Beantwortung von Fragen durch mühelose Durchblättern von umfangreichen Dokumentations-Repositorys und zeigt sofort die benötigten Informationen an.

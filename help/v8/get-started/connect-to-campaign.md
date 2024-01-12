@@ -3,10 +3,10 @@ title: Herstellen einer Verbindung zur Adobe Campaign Web-Benutzeroberfläche
 description: Erfahren Sie, wie Sie eine Verbindung zur Benutzeroberfläche von Adobe Campaign v8 Web herstellen.
 badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
-source-git-commit: 3b90fa26ff015b3a74044782a1cf5d979657c853
+source-git-commit: 1802cab67d8cd3d02cfe0a97010cd2c9e7bca624
 workflow-type: tm+mt
-source-wordcount: '535'
-ht-degree: 84%
+source-wordcount: '557'
+ht-degree: 81%
 
 ---
 
@@ -88,6 +88,12 @@ So ändern Sie Ihre Sprache:
 1. Klicken Sie auf das Profilsymbol oben rechts und wählen Sie dann **Voreinstellungen**.
 1. Klicken Sie dann auf den Sprach-Link, der unter Ihrer E-Mail-Adresse angezeigt wird.
 1. Wählen Sie Ihre bevorzugte Sprache aus und klicken Sie auf **Speichern**. Sie können eine zweite Sprache auswählen, falls die von Ihnen verwendete Komponente nicht in Ihrer gewählten Sprache lokalisiert ist.
+
+>[!CAUTION]
+>
+>Wenn Sie die Verwendung von KI-gestützten kontextuellen Hilfemöglichkeiten planen, müssen Sie Ihre bevorzugte Sprache auf Englisch festlegen. Andere Sprachen werden nicht unterstützt.
+>
+
 
 ## Dunkle und helle Themen {#dark-theme}
 
