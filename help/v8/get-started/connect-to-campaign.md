@@ -3,7 +3,7 @@ title: Herstellen einer Verbindung zur Adobe Campaign Web-Benutzeroberfläche
 description: Erfahren Sie, wie Sie eine Verbindung zur Benutzeroberfläche von Adobe Campaign v8 Web herstellen.
 badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
-source-git-commit: 1802cab67d8cd3d02cfe0a97010cd2c9e7bca624
+source-git-commit: a93e6e5e651935271badad51109ca57bb9232703
 workflow-type: tm+mt
 source-wordcount: '557'
 ht-degree: 81%
@@ -91,7 +91,7 @@ So ändern Sie Ihre Sprache:
 
 >[!CAUTION]
 >
->Wenn Sie die Verwendung von KI-gestützten kontextuellen Hilfemöglichkeiten planen, müssen Sie Ihre bevorzugte Sprache auf Englisch festlegen. Andere Sprachen werden nicht unterstützt.
+>Wenn Sie die Anwendung von [KI-gestützte Kontexthilfe](using-ai.md) -Funktionen verwenden, müssen Sie Ihre bevorzugte Sprache auf Englisch festlegen. Andere Sprachen werden nicht unterstützt.
 >
 
 
