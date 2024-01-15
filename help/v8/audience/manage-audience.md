@@ -1,17 +1,17 @@
 ---
 audience: end-user
-title: Verwalten und Überwachen von Zielgruppen
+title: Zielgruppen überwachen und verwalten
 description: Erfahren Sie, wie Sie Zielgruppen in Adobe Campaign Web überwachen und verwalten können.
 badge: label="Beta"
 exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
-source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
+source-git-commit: bb3df3067c78311fa0ff3b9a52fe9713552fa0cf
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 97%
+source-wordcount: '474'
+ht-degree: 95%
 
 ---
 
-# Verwalten und Überwachen von Zielgruppen {#monitor}
+# Zielgruppen überwachen und verwalten {#monitor}
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_workflow_error_data_execution"

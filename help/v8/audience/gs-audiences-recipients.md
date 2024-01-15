@@ -3,14 +3,14 @@ title: Erste Schritte mit Profilen und Audiences
 description: Erfahren Sie, wie Sie mit Profilen und Audiences in Campaign Web arbeiten.
 exl-id: 71a1ec92-cd79-4654-9ae3-9a92a01c6279
 badge: label="Eingeschränkte Verfügbarkeit"
-source-git-commit: f3e092abff7b1c84e20cce32be1011768cc96397
+source-git-commit: bb3df3067c78311fa0ff3b9a52fe9713552fa0cf
 workflow-type: tm+mt
-source-wordcount: '203'
-ht-degree: 17%
+source-wordcount: '204'
+ht-degree: 20%
 
 ---
 
-# Erste Schritte mit Profilen und Audiences {#about-profiles}
+# Erste Schritte mit Profilen und Zielgruppen {#about-profiles}
 
 Im Adobe Campaign Web wird eine **profile** ist eine in der Datenbank gespeicherte Person, die als Schlüsselkomponente dient, um Zielgruppen für Sendungen zu erstellen und Ihrem Inhalt Personalisierungsdaten hinzuzufügen. Verschiedene Typen von Profilen werden in der Datenbank gespeichert, z. B. **Testprofile**, mit denen Ihre Sendungen getestet werden können, bevor sie an die endgültige Audience gesendet werden.
 

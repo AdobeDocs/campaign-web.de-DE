@@ -6,10 +6,10 @@ title: Adobe Campaign v8 – Web-Dokumentation
 description: Web-Dokumentation zu Campaign v8
 breadcrumb-title: Campaign v8 Web
 hide: true
-source-git-commit: 1802cab67d8cd3d02cfe0a97010cd2c9e7bca624
+source-git-commit: bb3df3067c78311fa0ff3b9a52fe9713552fa0cf
 workflow-type: tm+mt
-source-wordcount: '516'
-ht-degree: 87%
+source-wordcount: '531'
+ht-degree: 81%
 
 ---
 
@@ -23,10 +23,10 @@ ht-degree: 87%
    + [Erste Schritte](get-started/get-started.md)
    + [Herstellen einer Verbindung zu Campaign](get-started/connect-to-campaign.md)
    + [Erkunden der Benutzeroberfläche](get-started/user-interface.md)
-   + [Durchsuchen, Suchen und Filtern von Listen](get-started/list-filters.md)
+   + [Listen durchsuchen und filtern](get-started/list-filters.md)
    + [Arbeiten mit vordefinierten Filtern](get-started/predefined-filters.md)
    + [Zugriff und Berechtigungen](get-started/permissions.md)
-   + [Schutzmechanismen und Einschränkungen](get-started/guardrails.md)
+   + [Schutzmechanismen und Begrenzungen](get-started/guardrails.md)
    + [Nicht unterstützte Funktionen](get-started/unsupported.md)
    + [KI-gestützte Kontexthilfe](get-started/using-ai.md)
 + Nachrichten und Sendungen {#msg}
@@ -70,7 +70,7 @@ ht-degree: 87%
       + [Erste Schritte mit Push-Benachrichtigungen](push/gs-push.md)
       + [Erstellen eines Push-Benachrichtigungs-Versands](push/create-push.md)
       + [Entwerfen eines Push-Versands](push/content-push.md)
-      + [Vorschau und Senden eines Push-Benachrichtigungs-Versands](push/send-push.md)
+      + [Vorschau erstellen und Push-Versand senden](push/send-push.md)
    + SMS {#sms}
       + [Erste Schritte mit SMS-Sendungen](sms/gs-sms.md)
       + [Erstellen eines SMS-Versands](sms/create-sms.md)
@@ -79,7 +79,7 @@ ht-degree: 87%
    + Inhalte dynamisch gestalten {#dynamic-content}
       + [Erste Schritte mit dynamischen Inhalten](personalization/gs-personalization.md)
       + [Hinzufügen von Personalisierung](personalization/personalize.md)
-      + [Hinzufügen bedingter Inhalte](personalization/conditions.md)
+      + [Erstellen bedingter Inhalte](personalization/conditions.md)
       + [Hinzufügen von integrierten Inhaltsbausteinen](personalization/content-blocks.md)
    + [Hinzufügen von Angeboten zu Ihren Nachrichten](msg/offers.md)
    + [Versenden von Nachrichten an Ihre Abonnentinnen und Abonnenten](msg/send-to-subscribers.md)
@@ -87,23 +87,23 @@ ht-degree: 87%
       + [Über die Vorschau und Tests](preview-test/preview-test.md)
       + [Vorschau des Nachrichteninhalts](preview-test/preview-content.md)
       + [Durchführen von Testsendungen](preview-test/test-deliveries.md)
-      + [Rendern Ihrer E-Mail](preview-test/email-rendering.md)
-+ Profile &amp; Audiences {#audiences}
-   + [Erste Schritte mit Profilen und Audiences](audience/gs-audiences-recipients.md)
+      + [Testen des E-Mail-Rendering](preview-test/email-rendering.md)
++ Profile und Audiences {#audiences}
+   + [Erste Schritte mit Profilen und Zielgruppen](audience/gs-audiences-recipients.md)
    + [Zielgruppendimensionen](audience/targeting-dimensions.md)
    + Arbeiten mit Profilen {#work-with-profiles}
       + [Profile überwachen und verwalten](audience/about-recipients.md)
-      + [Testprofile erstellen und verwalten](audience/test-profiles.md)
+      + [Erstellen und Verwalten von Testprofilen](audience/test-profiles.md)
    + Arbeiten mit Zielgruppen {#audiences}
       + [Zielgruppen erstellen](audience/create-audience.md)
-      + [Verwalten und Überwachen von Zielgruppen](audience/manage-audience.md)
+      + [Zielgruppen überwachen und verwalten](audience/manage-audience.md)
    + Auswählen der Empfängerinnen und Empfänger des Versands {#target-audiences}
       + [Auswählen einer bestehenden Zielgruppe](audience/add-audience.md)
       + [Erstellen einer einmaligen Zielgruppe](audience/one-time-audience.md)
-      + [Laden einer Zielgruppe aus einer Datei](audience/file-audience.md)
+      + [Laden einer E-Mail-Zielgruppe aus einer Datei](audience/file-audience.md)
       + [Festlegen einer Kontrollgruppe](audience/control-group.md)
    + Arbeiten mit Abonnementdiensten {#work-with-services}
-      + [Verwalten von Diensten](audience/manage-services.md)
+      + [Abonnement-Dienste erstellen und verwalten](audience/manage-services.md)
       + [Verwalten von Abonnenten](audience/manage-subscribers.md)
 + Cross-Channel-Kampagnen {#campaigns}
    + [Erste Schritte mit Kampagnen](campaigns/gs-campaigns.md)
@@ -117,7 +117,7 @@ ht-degree: 87%
       + [Erstellen des Workflows](workflows/create-workflow.md)
       + [Orchestrieren von Aktivitäten](workflows/orchestrate-activities.md)
       + [Konfigurieren von Workflow-Einstellungen](workflows/workflow-settings.md)
-      + [Starten und Überwachen des Workflows](workflows/start-monitor-workflows.md)
+      + [Workflows starten und überwachen](workflows/start-monitor-workflows.md)
    + Arbeiten mit Workflow-Aktivitäten {#design-workflows}
       + [Über Workflow-Aktivitäten](workflows/activities/about-activities.md)
       + [Und-Verknüpfung](workflows/activities/and-join.md)
@@ -150,7 +150,7 @@ ht-degree: 87%
       + [Push-Versandbericht](reporting/push-report.md)
       + [SMS-Versandbericht](reporting/sms-report.md)
    + Kampagnenberichte {#campaign-report}
-      + [Erste Schritte mit Campaign-Reporting](reporting/campaign-reports.md)
+      + [Erste Schritte mit Kampagnenberichten](reporting/campaign-reports.md)
       + [E-Mail-Kampagnenbericht](reporting/campaign-reports-email.md)
       + [Push-Kampagnenbericht](reporting/campaign-reports-push.md)
       + [SMS-Kampagnenbericht](reporting/campaign-reports-sms.md)

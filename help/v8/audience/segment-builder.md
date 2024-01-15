@@ -4,10 +4,10 @@ title: Erstellen einer Zielgruppe mit dem Campaign-Regel-Builder
 description: Erfahren Sie, wie Sie mit dem Regel-Builder arbeiten
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
 badge: label="Beta"
-source-git-commit: a53f33360f0dc7ca80b235bd5814fd3ccc0ff698
-workflow-type: ht
-source-wordcount: '559'
-ht-degree: 100%
+source-git-commit: bb3df3067c78311fa0ff3b9a52fe9713552fa0cf
+workflow-type: tm+mt
+source-wordcount: '563'
+ht-degree: 98%
 
 ---
 
@@ -28,7 +28,7 @@ Die Palette ist in zwei Registerkarten unterteilt:
 
 * **Attribute**: Auf dieser Registerkarte können Sie auf alle verfügbaren Felder des Schemas zugreifen. Die Liste der Felder hängt von dem in der E-Mail-Vorlage definierten Zielgruppenbestimmungsschema ab.
 
-* **Zielgruppen**: Auf dieser Registerkarte können Sie über einen Filter eine der vorhandenen Zielgruppen auswählen, die in der Campaign Classic-Konsole oder in Adobe Experience Platform definiert sind. [Erfahren Sie, wie Sie Zielgruppen überwachen und verwalten](manage-audience.md)
+* **Zielgruppen**: Auf dieser Registerkarte können Sie über einen Filter eine der vorhandenen Zielgruppen auswählen, die in der Campaign Classic-Konsole oder in Adobe Experience Platform definiert sind. Erfahren Sie, wie Sie Zielgruppen in überwachen und verwalten [diesem Abschnitt](manage-audience.md)
 
   >[!NOTE]
   >
