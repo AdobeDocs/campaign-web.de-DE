@@ -4,14 +4,14 @@ title: Verwenden der Inhaltskomponenten von E-Mail-Designer
 description: Erfahren Sie, wie Sie Inhaltskomponenten in E-Mails verwenden
 exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
 badge: label="Eingeschränkte Verfügbarkeit"
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
 workflow-type: tm+mt
-source-wordcount: '1169'
+source-wordcount: '1167'
 ht-degree: 100%
 
 ---
 
-# Verwenden der Inhalte von E-Mail-Designer {#content-components}
+# Verwenden von Inhaltskomponenten {#content-components}
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_email"
