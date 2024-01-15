@@ -4,9 +4,9 @@ title: Neue Funktionen in Campaign Web v8
 description: Entdecken Sie neue Funktionen von Campaign Web v8.
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Eingeschränkte Verfügbarkeit"
-source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
+source-git-commit: 9c72d73b5279a01492ea3ccd295e513e91f0c050
 workflow-type: tm+mt
-source-wordcount: '1337'
+source-wordcount: '1368'
 ht-degree: 66%
 
 ---
@@ -15,9 +15,17 @@ ht-degree: 66%
 # Neue Funktionen {#new}
 
 >[!CONTEXTUALHELP]
+>id="acw_homepage_learning_card2"
+>title="Versionshinweise"
+>abstract="Unsere neueste Version enthält intuitive Funktionen, die es einfacher machen, personalisierte kanalübergreifende Kampagnen zu erstellen und außergewöhnliche Ergebnisse zu erzielen, und die Ihnen einen Wettbewerbsvorteil über alle Kanäle hinweg bieten."
+
+<!--TO REMOVE BELOW-->
+>[!CONTEXTUALHELP]
 >id="acw_homepage_card2"
 >title="Versionshinweise"
 >abstract="Unsere neueste Version enthält intuitive Funktionen, die es einfacher machen, personalisierte kanalübergreifende Kampagnen zu erstellen und außergewöhnliche Ergebnisse zu erzielen, und die Ihnen einen Wettbewerbsvorteil über alle Kanäle hinweg bieten."
+
+<!--TO REMOVE ABOVE-->
 
 
 Wir freuen uns, Ihnen die neue Version der Adobe Campaign Web-Benutzeroberfläche vorstellen zu können. Unsere neueste Version enthält intuitive Funktionen, die es einfacher machen, personalisierte kanalübergreifende Kampagnen zu erstellen und außergewöhnliche Ergebnisse zu erzielen, und die Ihnen einen Wettbewerbsvorteil über alle Kanäle hinweg bieten.

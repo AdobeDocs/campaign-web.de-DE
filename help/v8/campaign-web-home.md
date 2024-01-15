@@ -4,19 +4,85 @@ description: Hilfe-Center zu Campaign Web v8
 title: Produkt-Dokumentation zu Adobe Campaign Web v8
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 badge: label="Eingeschränkte Verfügbarkeit"
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+source-git-commit: 9c72d73b5279a01492ea3ccd295e513e91f0c050
 workflow-type: tm+mt
-source-wordcount: '528'
-ht-degree: 92%
+source-wordcount: '668'
+ht-degree: 86%
 
 ---
 
 # Adobe Campaign v8 – Web-Dokumentation {#campaign-documentation}
 
 >[!CONTEXTUALHELP]
+>id="acw_homepage_learning_card1"
+>title="Hilfe und Dokumentation"
+>abstract="Campaign bietet jetzt eine neue Web-Benutzeroberfläche (UI) mit verbesserter Benutzerfreundlichkeit, Barrierefreiheit und einem neuen Design, um das Anwendererlebnis deutlich zu verbessern. Diese neue, moderne Benutzeroberfläche vereinfacht das Design und die Bereitstellung von Marketingkampagnen und sorgt für Konsistenz zusammen mit anderen Adobe-Lösungen."
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_title"
+>title="Erleben Sie die neue Adobe Campaign-Benutzeroberfläche"
+>abstract="Moderner, intuitiver und dynamischer."
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_list1"
+>title="Posten 1"
+>abstract="Neues Design für E-Mail-, SMS- und Push-Benachrichtigungen"
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_list2"
+>title="Posten 2"
+>abstract="Vereinfachte Oberfläche der Workflow-Arbeitsfläche"
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_list3"
+>title="Posten 3"
+>abstract="Neu gestaltete UX für Zielgruppen, Abonnement und Services, AEM-Assets"
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_list4"
+>title="Posten 4"
+>abstract="Generative KI für E-Mails: Auf Prompts basierende E-Mail-Generierung"
+
+<!--
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_list5"
+>title="Item 5"
+>abstract="Additional Item"-->
+
+<!-- TO REMOVE BELOW-->
+
+>[!CONTEXTUALHELP]
 >id="acw_homepage_card1"
 >title="Hilfe und Dokumentation"
 >abstract="Campaign bietet jetzt eine neue Web-Benutzeroberfläche (UI) mit verbesserter Benutzerfreundlichkeit, Barrierefreiheit und einem neuen Design, um das Anwendererlebnis deutlich zu verbessern. Diese neue, moderne Benutzeroberfläche vereinfacht das Design und die Bereitstellung von Marketingkampagnen und sorgt für Konsistenz zusammen mit anderen Adobe-Lösungen."
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_title"
+>title="Erleben Sie die neue Adobe Campaign-Benutzeroberfläche"
+>abstract="Moderner, intuitiver und dynamischer."
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_list1"
+>title="Posten 1"
+>abstract="Neues Design für E-Mail-, SMS- und Push-Benachrichtigungen"
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_list2"
+>title="Posten 2"
+>abstract="Vereinfachte Oberfläche der Workflow-Arbeitsfläche"
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_list3"
+>title="Posten 3"
+>abstract="Neu gestaltete UX für Zielgruppen, Abonnement und Services, AEM-Assets"
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_list4"
+>title="Posten 4"
+>abstract="Generative KI für E-Mails: Auf Prompts basierende E-Mail-Generierung"
+
+<!--TO REMOVE ABOVE-->
+
 
 Campaign bietet jetzt eine neue Web-Benutzeroberfläche (UI) mit verbesserter Benutzerfreundlichkeit, Barrierefreiheit und einem neuen Design, um das Anwendererlebnis deutlich zu verbessern. Diese neue, moderne Benutzeroberfläche vereinfacht die Gestaltung und den Versand von Marketing-Kampagnen und sorgt für Konsistenz mit anderen Adobe-Lösungen, einschließlich Adobe Experience Platform. [Weitere Informationen](get-started/get-started.md)
 
