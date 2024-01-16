@@ -1,22 +1,22 @@
 ---
 audience: end-user
 product: campaign
-title: Verwenden von E-Mail-Vorlagen
-description: Erfahren Sie, wie Sie E-Mail-Vorlagen in Adobe Campaign verwenden
+title: Verwenden von E-Mail-Inhaltsvorlagen
+description: Erfahren Sie, wie Sie E-Mail-Inhaltsvorlagen in Adobe Campaign verwenden
 feature: Templates
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 114c482f-8291-418a-bd81-667f40267a7d
 badge: label="Eingeschränkte Verfügbarkeit"
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '254'
 ht-degree: 96%
 
 ---
 
-# Verwenden von E-Mail-Vorlagen {#use-email-templates}
+# Verwenden von E-Mail-Inhaltsvorlagen {#use-email-templates}
 
 Wenn Sie [eine E-Mail erstellen](../email/create-email.md), verwenden Sie den Abschnitt **[!UICONTROL Design-Vorlage auswählen]** der Schnittstelle **[!UICONTROL E-Mail erstellen]**, um Ihren Inhalt anhand einer Vorlage zu erstellen.
 

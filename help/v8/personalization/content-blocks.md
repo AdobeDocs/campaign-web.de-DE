@@ -7,14 +7,14 @@ role: Data Engineer
 level: Beginner
 badge: label="Beta"
 exl-id: 45cdd310-7c0c-4b57-bb7f-0576d8eca19d
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
-workflow-type: ht
-source-wordcount: '428'
+source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
+workflow-type: tm+mt
+source-wordcount: '429'
 ht-degree: 100%
 
 ---
 
-# Integrierte Inhaltsbausteine {#ootb-content-blocks}
+# Hinzufügen von integrierten Inhaltsbausteinen {#ootb-content-blocks}
 
 Adobe Campaign bietet eine Reihe von vorkonfigurierten Inhaltsbausteinen. Diese Inhaltsbausteine sind dynamisch und personalisiert und enthalten ein spezifisches Rendering, das Sie in Ihre Sendungen einfügen können. Sie können zum Beispiel ein Logo, eine Grußbotschaft oder einen Link zur Mirrorseite hinzufügen.
 

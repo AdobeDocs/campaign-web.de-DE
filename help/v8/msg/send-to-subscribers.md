@@ -4,14 +4,14 @@ title: Senden von Nachrichten an Abonnentinnen und Abonnenten eines Dienstes
 description: Hier erfahren Sie, wie Sie Nachrichten an die Abonnentinnen und Abonnenten eines Dienstes senden.
 badge: label="Beta"
 exl-id: f6e14db5-261c-4fa6-bd19-fd8bdc04aaf1
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
-workflow-type: ht
+source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
+workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 100%
 
 ---
 
-# Senden von Nachrichten an Abonnentinnen und Abonnenten eines Dienstes
+# Senden von Nachrichten an Abonnentinnen und Abonnenten eines Dienstes {#send-to-subscribers}
 
 Sie können in Adobe Campaign Anmeldedienste erstellen und Nachrichten an Ihre Abonnentinnen und Abonnenten senden. Erfahren Sie auf [dieser Seite](../audience//manage-services.md#create-service), wie Sie Abonnementdienste erstellen.
 

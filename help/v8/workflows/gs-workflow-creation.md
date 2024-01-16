@@ -1,15 +1,16 @@
 ---
 audience: end-user
-title: Erstellen von Workflows mit Adobe Campaign Web
-description: Erfahren Sie, wie Sie Workflows mit Adobe Campaign Web erstellen
+title: Grundlegende Prinzipien der Workflow-Erstellung
+description: Wichtige Grundlagen von Workflows mit Adobe Campaign Web
 badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: ac6e63fb-34f2-474f-b364-d2af44f649b1
-source-git-commit: 24521be2c796b5714712849355c3d033537847bc
+source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
 workflow-type: tm+mt
-source-wordcount: '284'
-ht-degree: 96%
+source-wordcount: '283'
+ht-degree: 92%
 
 ---
+
 
 # Grundlegende Prinzipien der Workflow-Erstellung {#gs-workflow-creation}
 

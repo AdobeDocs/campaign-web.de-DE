@@ -3,14 +3,14 @@ title: Schutzmechanismen und Einschränkungen in der Web-Benutzeroberfläche von
 description: Schutzmechanismen und Einschränkungen in der Web-Benutzeroberfläche von Campaign
 badge: label="Beta"
 exl-id: 9c8c67ce-9823-4082-b0bd-5613f3feb6e3
-source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
+source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
 workflow-type: tm+mt
-source-wordcount: '657'
+source-wordcount: '658'
 ht-degree: 88%
 
 ---
 
-# Schutzmechanismen und Einschränkungen {#guardrails-limitations}
+# Schutzmechanismen und Begrenzungen {#guardrails-limitations}
 
 Wenn Sie in der Campaign-Web-Benutzeroberfläche mit Komponenten arbeiten, die in der Campaign-Client-Konsole erstellt oder geändert wurden, gelten die unten aufgeführten Schutzmechanismen und Einschränkungen.
 

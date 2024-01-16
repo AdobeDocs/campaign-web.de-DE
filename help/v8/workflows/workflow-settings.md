@@ -1,15 +1,16 @@
 ---
 audience: end-user
-title: Erstellen von Workflows mit Adobe Campaign Web
-description: Erfahren Sie, wie Sie Workflows mit Adobe Campaign Web erstellen
+title: Konfigurieren von Workflow-Einstellungen
+description: Erfahren Sie, wie Sie Workflow-Einstellungen mit Adobe Campaign Web konfigurieren
 badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: 3aef912b-086b-4aa4-9556-c09396112313
-source-git-commit: a0611ac41957b4bd7796c4c42c40232fba1dfc2b
+source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
 workflow-type: tm+mt
-source-wordcount: '913'
-ht-degree: 97%
+source-wordcount: '911'
+ht-degree: 96%
 
 ---
+
 
 # Konfigurieren von Workflow-Einstellungen {#workflow-settings}
 
