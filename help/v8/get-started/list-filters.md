@@ -7,7 +7,7 @@ exl-id: 46b83e8c-6c8c-40a1-a08b-9d0b438b80cb
 source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
 workflow-type: tm+mt
 source-wordcount: '239'
-ht-degree: 78%
+ht-degree: 96%
 
 ---
 
@@ -39,11 +39,11 @@ Bei numerischen Spalten oder Datumsspalten bedeutet der **Aufwärtspfeil**, dass
 
 ## Filter {#list-built-in-filters}
 
-Um Elemente schneller zu finden, können Sie die Suchleiste oder integrierte und benutzerdefinierte Filter verwenden, um die Liste anhand von Kontextkriterien anzupassen.
+Um Elemente schneller zu finden, können Sie die Suchleiste verwenden oder die Liste nach Kontextkriterien filtern.
 
 ![](assets/filter.png){width="70%" align="left" zoomable="yes"}
 
-Detaillierte Informationen zur Verwendung von Filtern und zur Erstellung eigener benutzerdefinierter Filter finden Sie unter [diesem Abschnitt](../query/filter.md).
+Detaillierte Informationen zur Verwendung von Filtern und zur Erstellung eigener benutzerdefinierter Filter finden Sie in [diesem Abschnitt](../query/filter.md).
 
 <!--
 ## Use advanced attributes {#adv-attributes}

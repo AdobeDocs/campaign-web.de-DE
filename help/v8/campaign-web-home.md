@@ -7,7 +7,7 @@ badge: label="Eingeschränkte Verfügbarkeit"
 source-git-commit: 9c72d73b5279a01492ea3ccd295e513e91f0c050
 workflow-type: tm+mt
 source-wordcount: '668'
-ht-degree: 86%
+ht-degree: 96%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 86%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_card1"
 >title="Hilfe und Dokumentation"
->abstract="Campaign bietet jetzt eine neue Web-Benutzeroberfläche (UI) mit verbesserter Benutzerfreundlichkeit, Barrierefreiheit und einem neuen Design, um das Anwendererlebnis deutlich zu verbessern. Diese neue, moderne Benutzeroberfläche vereinfacht das Design und die Bereitstellung von Marketingkampagnen und sorgt für Konsistenz zusammen mit anderen Adobe-Lösungen."
+>abstract="Campaign bietet jetzt eine neue Web-Benutzeroberfläche (UI) mit verbesserter Benutzerfreundlichkeit, Barrierefreiheit und einem neuen Design, um das Anwendererlebnis deutlich zu verbessern. Diese neue, moderne Benutzeroberfläche vereinfacht die Gestaltung und den Versand von Marketing-Kampagnen und sorgt für Konsistenz mit anderen Adobe-Lösungen."
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_title"
@@ -54,7 +54,7 @@ ht-degree: 86%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card1"
 >title="Hilfe und Dokumentation"
->abstract="Campaign bietet jetzt eine neue Web-Benutzeroberfläche (UI) mit verbesserter Benutzerfreundlichkeit, Barrierefreiheit und einem neuen Design, um das Anwendererlebnis deutlich zu verbessern. Diese neue, moderne Benutzeroberfläche vereinfacht das Design und die Bereitstellung von Marketingkampagnen und sorgt für Konsistenz zusammen mit anderen Adobe-Lösungen."
+>abstract="Campaign bietet jetzt eine neue Web-Benutzeroberfläche (UI) mit verbesserter Benutzerfreundlichkeit, Barrierefreiheit und einem neuen Design, um das Anwendererlebnis deutlich zu verbessern. Diese neue, moderne Benutzeroberfläche vereinfacht die Gestaltung und den Versand von Marketing-Kampagnen und sorgt für Konsistenz mit anderen Adobe-Lösungen."
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_title"
@@ -87,7 +87,7 @@ ht-degree: 86%
 Campaign bietet jetzt eine neue Web-Benutzeroberfläche (UI) mit verbesserter Benutzerfreundlichkeit, Barrierefreiheit und einem neuen Design, um das Anwendererlebnis deutlich zu verbessern. Diese neue, moderne Benutzeroberfläche vereinfacht die Gestaltung und den Versand von Marketing-Kampagnen und sorgt für Konsistenz mit anderen Adobe-Lösungen, einschließlich Adobe Experience Platform. [Weitere Informationen](get-started/get-started.md)
 
 >[!AVAILABILITY]
-> Campaign v8 Web befindet sich derzeit in der eingeschränkten Verfügbarkeit (LA). Der Zugriff ist auf eine kleine Gruppe von LA-Kunden beschränkt. Beachten Sie, dass sich die Produktoberfläche, die Funktionen und die Nutzungsflüsse ohne Vorankündigung ändern können. [Weitere Informationen](rn/whats-new.md)
+> Campaign v8 Web ist derzeit nur als eingeschränkt verfügbare Version (LA) erhältlich. Der Zugriff ist auf eine kleine Gruppe von LA-Kundinnen und -Kunden beschränkt. Beachten Sie, dass sich die Produktoberfläche, die Funktionen und die Nutzungsflüsse ohne Vorankündigung ändern können. [Weitere Informationen](rn/whats-new.md)
 
 ## Neue Campaign Web-Funktionen
 
