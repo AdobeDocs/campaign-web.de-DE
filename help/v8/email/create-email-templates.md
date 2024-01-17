@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 badge: label="Eingeschränkte Verfügbarkeit"
-source-git-commit: 929edb45cb8f0c79b878e8b5e9f1f62e3679688b
+source-git-commit: 0d9d61e8561d21bca00cb5c274884624119eaa53
 workflow-type: tm+mt
-source-wordcount: '742'
+source-wordcount: '802'
 ht-degree: 13%
 
 ---
@@ -106,7 +106,7 @@ Gehen Sie wie folgt vor, um eine neue Inhaltsvorlage zu erstellen.
 
    ![](assets/content-template-create.png)
 
-1. Füllen Sie die Vorlagendetails aus. Sie können den Ordner auswählen, in dem Sie Ihre Vorlage speichern möchten. Standardmäßig werden Inhaltsvorlagen in einem dedizierten Knoten der Adobe Campaign-Hierarchie gespeichert: **[!UICONTROL Explorer]** > **[!UICONTROL Ressourcen]** > **[!UICONTROL Vorlagen]** > **[!UICONTROL Inhaltsvorlagen]**. [Erfahren Sie, wie Sie Ordner erstellen](../get-started/permissions.md#folders)
+1. Füllen Sie die Vorlagendetails aus. Sie können den Ordner auswählen, in dem Sie Ihre Vorlage speichern möchten. Standardmäßig werden Inhaltsvorlagen in einem dedizierten Ordner der Adobe Campaign-Hierarchie gespeichert: **[!UICONTROL Explorer]** > **[!UICONTROL Ressourcen]** > **[!UICONTROL Vorlagen]** > **[!UICONTROL Inhaltsvorlagen]**. [Erfahren Sie, wie Sie Ordner erstellen](../get-started/permissions.md#folders)
 
    ![](assets/content-template-details.png)
 
@@ -136,7 +136,11 @@ Gehen Sie wie folgt vor, um eine neue Inhaltsvorlage zu erstellen.
 
    ![](assets/content-template-save-back.png)
 
-Diese Vorlage kann jetzt beim Erstellen von E-Mails in verwendet werden [!DNL Adobe Campaign]. [Weitere Informationen dazu](use-email-templates.md)
+Die Vorlage wird im Standardordner der Adobe Campaign-Hierarchie (**[!UICONTROL Explorer]** > **[!UICONTROL Ressourcen]** > **[!UICONTROL Vorlagen]** > **[!UICONTROL Inhaltsvorlagen]**). [Weitere Informationen zu Ordnern](../get-started/permissions.md#folders)
+
+Sie wird auch im **[!UICONTROL Inhaltsvorlagen]** Liste. [Weitere Informationen](#access-manage-templates)
+
+Sie können diese Vorlage nun verwenden, um einen neuen Inhalt zu erstellen. Sie ist im Abschnitt **[!UICONTROL Gespeicherte Vorlagen]** in Email Designer. [Weitere Informationen dazu](use-email-templates.md)
 
 ### Speichern von E-Mail-Inhalten als Vorlage {#save-as-template}
 
@@ -154,11 +158,13 @@ Gehen Sie wie folgt vor, um E-Mail-Inhalte als Vorlage zu speichern:
 
    ![](assets/email_designer-template-name.png)
 
+Die Vorlage wird im Standardordner der Adobe Campaign-Hierarchie (**[!UICONTROL Explorer]** > **[!UICONTROL Ressourcen]** > **[!UICONTROL Vorlagen]** > **[!UICONTROL Inhaltsvorlagen]**). [Weitere Informationen zu Ordnern](../get-started/permissions.md#folders)
+
+Sie wird auch im **[!UICONTROL Inhaltsvorlagen]** Liste. Es wird zu einer eigenständigen Inhaltsvorlage, auf die wie jedes andere Element in der Liste zugegriffen, bearbeitet und gelöscht werden kann. [Weitere Informationen](#access-manage-templates)
+
 Sie können diese Vorlage nun verwenden, um einen neuen Inhalt zu erstellen. Sie ist im Abschnitt **[!UICONTROL Gespeicherte Vorlagen]** in Email Designer. [Weitere Informationen dazu](use-email-templates.md)
 
 ![](assets/email_designer-saved-template.png)
-
-Die Vorlage wird im **[!UICONTROL Inhaltsvorlagen]** Liste, auf die über die [!DNL Adobe Campaign] dediziertes Menü. Es wird zu einer eigenständigen Inhaltsvorlage, auf die wie jedes andere Element in der Liste zugegriffen, bearbeitet und gelöscht werden kann. [Weitere Informationen](#access-manage-templates)
 
 >[!NOTE]
 >
