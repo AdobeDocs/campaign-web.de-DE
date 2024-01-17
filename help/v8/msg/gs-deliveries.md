@@ -8,9 +8,9 @@ level: Beginner
 badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: 3afff35c-c15f-46f8-b791-9bad5e38ea44
 source-git-commit: 74048d2e6001d2d9b4813a78096a481374233ea6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1203'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ Gehen Sie wie folgt vor, um einen eigenständigen Versand zu erstellen:
 
    ![](assets/create-a-delivery.png)
 
-1. Wählen Sie einen Kanal für den Versand.
+1. Wählen Sie einen Kanal für den Versand aus. 
 1. Definieren Sie die Versandzielgruppe sowohl für die Hauptzielgruppe als auch für die Kontrollgruppe. Weitere Informationen zu Zielgruppen finden Sie in [diesem Abschnitt](../audience/about-recipients.md).
 
    ![](assets/select-audience.png){width="70%" align="left"}
@@ -60,8 +60,8 @@ Gehen Sie wie folgt vor, um einen eigenständigen Versand zu erstellen:
 Gehen Sie wie folgt vor, um einen Versand in einem Workflow zu erstellen:
 
 1. Erstellen Sie einen neuen Workflow oder öffnen Sie einen vorhandenen. Weitere Informationen zu technischen Workflows finden Sie auf [dieser Seite](../workflows/gs-workflow-creation.md#gs-workflow-steps)
-1. Hinzufügen und Konfigurieren eines **[!UICONTROL Audience erstellen]** -Aktivität. Weitere Informationen zum **[!UICONTROL Audience erstellen]** Aktivität in [diesem Abschnitt](../workflows/activities/build-audience.md).
-1. Klicken Sie auf `+` und wählen Sie eine Versandaktivität aus: **[!UICONTROL Email]**, **[!UICONTROL SMS]**, **[!UICONTROL Push-Benachrichtigung (Android)]** oder **[!UICONTROL Push-Benachrichtigung (iOS)]**. Erfahren Sie in [diesem Abschnitt](../workflows/activities/channels.md) mehr über die Versandkanalaktivitäten in einem Workflow und darüber, wie Sie Versandinhalte definieren.
+1. Fügen Sie eine Aktivität **[!UICONTROL Zielgruppe erstellen]** hinzu und konfigurieren Sie sie. Weitere Informationen zur Aktivität **[!UICONTROL Zielgruppe erstellen]** finden Sie in [diesem Abschnitt](../workflows/activities/build-audience.md).
+1. Klicken Sie auf das `+`-Symbol und wählen Sie eine Versandaktivität aus: **[!UICONTROL E-Mail]**, **[!UICONTROL SMS]**, **[!UICONTROL Push-Benachrichtigung (Android)]** oder **[!UICONTROL Push-Benachrichtigung (iOS)]**. Erfahren Sie in [diesem Abschnitt](../workflows/activities/channels.md) mehr über die Versandkanalaktivitäten in einem Workflow und darüber, wie Sie Versandinhalte definieren.
 
    ![](assets/add-delivery-in-wf.png)
 

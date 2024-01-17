@@ -5,9 +5,9 @@ description: Erfahren Sie, wie Sie in Campaign Web auf Berichte zugreifen und di
 badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: b353bc86-2228-4e02-879c-ae9425c48489
 source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '223'
-ht-degree: 60%
+ht-degree: 100%
 
 ---
 
@@ -16,21 +16,21 @@ ht-degree: 60%
 
 Unsere umfassende Suite an Reporting-Tools bietet wertvolle Einblicke in die Effektivität Ihrer Marketing-Maßnahmen, sodass Sie Ihre Kampagnen für eine maximale Wirkung optimieren können. Von Versandraten bis hin zu Öffnungs- und Klickraten bietet unsere Reporting-Suite alles, was Sie benötigen, um datengestützte Entscheidungen zu treffen, die zu Ergebnissen führen.
 
-Adobe Campaign bietet drei verschiedene Berichte:
+Adobe Campaign bietet drei unterschiedliche Berichte:
 
 * **Versandberichte**
 
-  Die **Versandberichte** bietet umfassende Einblicke und Daten, die ausschließlich auf Ihre **Sendungen** über jeden Kanal hinweg. Diese Berichte enthalten detaillierte Informationen über Leistung, Effektivität und Ergebnisse Ihrer einzelnen Sendungen und verschaffen Ihnen einen umfassenden Überblick.
+  Die **Versandberichte** bieten umfassende Einblicke und Daten ausschließlich zu Ihren **Sendungen** über alle Kanäle hinweg. Diese Berichte enthalten detaillierte Informationen über Leistung, Effektivität und Ergebnisse Ihrer einzelnen Sendungen und verschaffen Ihnen einen umfassenden Überblick.
 
 
 * **Kampagnenberichte**
 
-  Die **Kampagnenberichte** einen umfassenden Überblick über Ihre **Kampagne**, einschließlich aller relevanten Informationen zu den verschiedenen Sendungen. Diese Berichte enthalten eine gründliche Analyse der Leistung jedes Versands pro Kanal: Erfolgsraten, Zielgruppeninteraktion und andere wichtige Metriken. Sie ermöglichen es Ihnen, die Effektivität und Wirkung Ihrer Kampagne insgesamt zu bewerten.
+  **Kampagnenberichte** bieten einen umfassenden Überblick über Ihre **Kampagne** und enthalten alle relevanten Informationen zu den verschiedenen zugehörigen Sendungen. Diese Berichte enthalten eine gründliche Analyse der Leistung jedes Versands pro Kanal: Erfolgsraten, Zielgruppeninteraktion und andere wichtige Metriken. Sie ermöglichen es Ihnen, die Effektivität und Wirkung Ihrer Kampagne insgesamt zu bewerten.
 
 
 * **Allgemeine Berichte**
 
-  Die **Allgemeine Berichte** dienen als effektives Tool und bieten eine konsolidierte Zusammenfassung des Traffics und der Interaktionsmetriken für jeden Kanal in Ihrer Campaign-Instanz. Diese Berichte bestehen aus verschiedenen Widgets, von denen jede einen bestimmten Blickwinkel auf Ihre Kampagnen- oder Versandleistung bietet.
+  Die **allgemeinen Berichte** bieten als effektives Tool eine konsolidierte Zusammenfassung des Traffics und der Interaktionsmetriken aller Kanäle in Ihrer Campaign-Instanz. Diese Berichte bestehen aus verschiedenen Widgets, von denen jedes einen bestimmten Blickwinkel auf Ihre Kampagnen- oder Versandleistung bietet.
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
@@ -63,7 +63,7 @@ Adobe Campaign bietet drei verschiedene Berichte:
 <img alt="Validierung" src="assets/do-not-localize/kpis.jpeg">
 </a>
 <div>
-<a href="kpis.md"><strong>Key Performance Indicators</strong></a>
+<a href="kpis.md"><strong>Wichtige Leistungsindikatoren</strong></a>
 </div>
 <p>
 </td>
