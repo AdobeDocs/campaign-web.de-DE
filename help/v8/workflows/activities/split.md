@@ -4,10 +4,10 @@ title: Verwenden der Workflow-Aktivität „Aufspaltung“
 description: Weitere Informationen zur Verwendung der Workflow-Aktivität „Aufspaltung“
 badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
-source-git-commit: 023777b88fa5c80e110fcf334517f7cef1c7f1ee
+source-git-commit: 523a43bef4f179740a96039ac2fc5f4f858aa1dc
 workflow-type: tm+mt
-source-wordcount: '717'
-ht-degree: 92%
+source-wordcount: '777'
+ht-degree: 85%
 
 ---
 
@@ -23,6 +23,11 @@ Die Aktivität **Aufspaltung** ist eine Aktivität zur **Zielgruppenbestimmung**
 ## Konfigurieren der Aufspaltungsaktivität {#split-configuration}
 
 >[!CONTEXTUALHELP]
+>id="acw_orchestration_split_segments"
+>title="Segmente für Aufspaltungsaktivität"
+>abstract="Fügen Sie beliebig viele Teilmengen hinzu, um die Eingangspopulation zu segmentieren.<br/></br>Wenn die Variable **Aufspaltung** -Aktivität ausgeführt wird, wird die Population in der Reihenfolge segmentiert, in der sie der Aktivität hinzugefügt wird. Stellen Sie vor dem Start des Workflows sicher, dass Sie die Teilmengen mithilfe der Pfeiltasten in der gewünschten Reihenfolge sortiert haben."
+
+>[!CONTEXTUALHELP]
 >id="acw_orchestration_split_filter"
 >title="Filter „Aufspaltungsaktivität“"
 >abstract="Um eine Filterbedingung auf die Teilmenge anzuwenden, klicken Sie auf **[!UICONTROL Filter erstellen]** und konfigurieren Sie die gewünschte Filterregel. Es können beispielsweise Profile aus der eingehenden Population eingeschlossen werden, deren E-Mail-Adresse in der Datenbank vorhanden ist."
@@ -31,7 +36,6 @@ Die Aktivität **Aufspaltung** ist eine Aktivität zur **Zielgruppenbestimmung**
 >id="acw_orchestration_split_limit"
 >title="Begrenzung der Aufspaltungsaktivität"
 >abstract="Um die Anzahl der von der Teilmenge ausgewählten Profile zu begrenzen, muss **[!UICONTROL Grenzwert aktivieren]** aktiviert und die Anzahl oder der Prozentsatz der einzuschließenden Population angegeben werden."
-
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_sorting"

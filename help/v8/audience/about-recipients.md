@@ -2,7 +2,7 @@
 title: Profile überwachen und verwalten
 description: Erfahren Sie, wie Sie Profile im Campaign Web überwachen und verwalten.
 badge: label="Eingeschränkte Verfügbarkeit"
-source-git-commit: 9c72d73b5279a01492ea3ccd295e513e91f0c050
+source-git-commit: 523a43bef4f179740a96039ac2fc5f4f858aa1dc
 workflow-type: tm+mt
 source-wordcount: '943'
 ht-degree: 5%
@@ -15,14 +15,14 @@ ht-degree: 5%
 >id="acw_homepage_welcome_rn4"
 >title="360-Grad-Ansicht Ihrer Profile"
 >abstract="Erstellen Sie neue Profile und überwachen Sie sie mithilfe leistungsstarker Berichte und Tools. Greifen Sie auf die Attribute, Interaktionen und Protokolle Ihrer Profile zu. Verwenden Sie die Filteroptionen, um die Profilliste zu durchsuchen, ihr Profil zu bearbeiten und zu aktualisieren."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="Siehe Versionshinweise"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=de" text="Siehe Versionshinweise"
 
 <!--TO REMOVE BELOW-->
 >[!CONTEXTUALHELP]
 >id="acw_homepage_rn4"
 >title="360-Grad-Ansicht Ihrer Profile"
 >abstract="Erstellen Sie neue Profile und überwachen Sie sie mithilfe leistungsstarker Berichte und Tools. Greifen Sie auf die Attribute, Interaktionen und Protokolle Ihrer Profile zu. Verwenden Sie die Filteroptionen, um die Profilliste zu durchsuchen, ihr Profil zu bearbeiten und zu aktualisieren."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="Siehe Versionshinweise"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=de" text="Siehe Versionshinweise"
 
 <!--TO REMOVE ABOVE-->
 
@@ -30,7 +30,7 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"
 >title="Profile"
->abstract="Ein Profil ist ein Kontakt, der mit den von Adobe Campaign gesendeten Nachrichten angesprochen wird. In dieser Liste können Sie die Details der Profile anhand Ihrer Berechtigungen anzeigen. Die Filteroptionen verwenden, um diese Liste zu durchsuchen. Sie können eine kleine Gruppe von Profilattributen bearbeiten und aktualisieren."
+>abstract="Ein Profil ist eine Person, die für den Empfang von Nachrichten durch Adobe Campaign ausgewählt wurde. In dieser Liste können Sie die Details der Profile anhand Ihrer Berechtigungen anzeigen. Die Filteroptionen verwenden, um diese Liste zu durchsuchen. Sie können eine kleine Gruppe von Profilattributen bearbeiten und aktualisieren."
 
 ## Erste Schritte mit Profilen {#gs}
 

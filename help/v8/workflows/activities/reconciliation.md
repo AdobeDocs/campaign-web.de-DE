@@ -3,7 +3,7 @@ audience: end-user
 title: Die Workflow-Aktivität Abstimmung verwenden
 description: Erfahren Sie, wie Sie die Workflow-Aktivität Abstimmung verwenden.
 badge: label="Eingeschränkte Verfügbarkeit"
-source-git-commit: 1435a8c2bc62e5064eaacf5e0cabf11d5642f152
+source-git-commit: 523a43bef4f179740a96039ac2fc5f4f858aa1dc
 workflow-type: tm+mt
 source-wordcount: '828'
 ht-degree: 19%
@@ -34,7 +34,7 @@ ht-degree: 19%
 
 Die **Abstimmung** -Aktivität **Targeting** -Aktivität, mit der Sie die Relation zwischen den Daten in der Adobe Campaign-Datenbank und den Daten in einer Arbeitstabelle definieren können, z. B. aus einer externen Datei geladene Daten.
 
-Beispiel: die **Abstimmung** -Aktivität platziert werden, nachdem eine **Audience laden** -Aktivität, um nicht standardmäßige Daten in die Datenbank zu importieren. In diesem Fall wird die **Abstimmung** ermöglicht die Definition der Relation zwischen den Daten der Adobe Campaign-Datenbank und den Daten der Arbeitstabelle.
+Beispiel: die **Abstimmung** -Aktivität platziert werden, nachdem eine **Datei laden** -Aktivität, um nicht standardmäßige Daten in die Datenbank zu importieren. In diesem Fall wird die **Abstimmung** ermöglicht die Definition der Relation zwischen den Daten der Adobe Campaign-Datenbank und den Daten der Arbeitstabelle.
 
 ## Best Practices {#reconciliation-best-practices}
 

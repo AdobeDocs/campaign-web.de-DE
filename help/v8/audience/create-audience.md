@@ -4,34 +4,30 @@ title: Zielgruppen erstellen
 description: Erfahren Sie, wie Sie Zielgruppen in Adobe Campaign Web erstellen.
 badge: label="Beta"
 exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
-source-git-commit: e968d63133adf5d5cc52124ce684047039f7232f
+source-git-commit: 523a43bef4f179740a96039ac2fc5f4f858aa1dc
 workflow-type: tm+mt
 source-wordcount: '678'
-ht-degree: 83%
+ht-degree: 84%
 
 ---
 
 # Zielgruppen erstellen {#create-audiences}
 
-
-
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn1"
 >title="Zielgruppenkomposition"
 >abstract="Erstellen Sie neue Zielgruppen in einer Arbeitsfläche für visuelle Workflows. Sie können nicht nur von Grund auf eine einfache Zielgruppe erstellen, sondern auch Workflow-Aktivitäten nutzen, um Ihre Zielgruppe zu präzisieren. Kombinieren Sie mehrere Zielgruppen zu einer einzigen, ergänzen Sie Ihre Zielgruppe mit externen Attributen oder teilen Sie sie basierend auf Ihren eigenen Regeln in mehrere Zielgruppen auf."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="Siehe Versionshinweise"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=de" text="Siehe Versionshinweise"
 
 <!--TO REMOVE BELOW-->
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_rn1"
->title="Zielgruppenkomposition"
+>title="Zielgruppen-Komposition"
 >abstract="Erstellen Sie neue Zielgruppen in einer Arbeitsfläche für visuelle Workflows. Sie können nicht nur von Grund auf eine einfache Zielgruppe erstellen, sondern auch Workflow-Aktivitäten nutzen, um Ihre Zielgruppe zu präzisieren. Kombinieren Sie mehrere Zielgruppen zu einer einzigen, ergänzen Sie Ihre Zielgruppe mit externen Attributen oder teilen Sie sie basierend auf Ihren eigenen Regeln in mehrere Zielgruppen auf."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="Siehe Versionshinweise"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=de" text="Siehe Versionshinweise"
 
 <!--TO REMOVE ABOVE-->
-
-
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_list"

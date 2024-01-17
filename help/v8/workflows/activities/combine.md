@@ -4,10 +4,10 @@ title: Verwenden der Workflow-Aktivität „Kombinieren“.
 description: Erfahren Sie, wie Sie die Workflow-Aktivität „Kombinieren“ verwenden.
 badge: label="Beta"
 exl-id: 7e821678-e6a2-4613-b05e-6ccbe4df41c3
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: 523a43bef4f179740a96039ac2fc5f4f858aa1dc
 workflow-type: tm+mt
-source-wordcount: '894'
-ht-degree: 100%
+source-wordcount: '912'
+ht-degree: 98%
 
 ---
 
@@ -97,7 +97,10 @@ In der Aktivität **Kombinieren** können Sie eine **Schnittmenge** konfiguriere
 >title="Ausschlussregeln"
 >abstract="Bei Bedarf können die eingehenden Tabellen angepasst werden. Um eine Zielgruppe aus einer anderen Dimension auszuschließen, muss diese Zielgruppe tatsächlich auf dieselbe Zielgruppendimension wie die Hauptzielgruppe zurückgesetzt werden. Klicken Sie dazu im Abschnitt „Ausschlussregeln“ auf „Regel hinzufügen“ und geben Sie die Bedingungen für die Dimensionsänderung an. Die Datenabstimmung wird entweder über ein Attribut oder einen Join durchgeführt."
 
-
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_combine_complement"
+>title="Kombinieren – Komplement erzeugen"
+>abstract="Aktivieren Sie die Option Komplement erzeugen , um die verbleibende Population in einer weiteren Transition zu verarbeiten."
 
 In der Aktivität **Kombinieren** können Sie einen **Ausschluss** konfigurieren. Dafür müssen Sie die folgenden zusätzlichen Schritte ausführen:
 

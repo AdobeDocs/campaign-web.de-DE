@@ -4,9 +4,9 @@ title: Erkunden der Benutzeroberfläche
 description: Web-Benutzeroberfläche von Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
-workflow-type: ht
-source-wordcount: '1452'
+source-git-commit: 523a43bef4f179740a96039ac2fc5f4f858aa1dc
+workflow-type: tm+mt
+source-wordcount: '1430'
 ht-degree: 100%
 
 ---
@@ -300,15 +300,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >abstract="Fragmente – Details"
 
 
->[!CONTEXTUALHELP]
->id="acw_orchestration_combine_complement"
->title="Kombinieren – Komplement erzeugen"
->abstract="Kombinieren – Komplement erzeugen"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_split_segments"
->title="Segmente für Aufspaltungsaktivität"
->abstract="Segmente für Aufspaltungsaktivität"
 
 
 
@@ -335,16 +326,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 
 
-
->[!CONTEXTUALHELP]
->id="acw_audiences_properties"
->title="Zielgruppen-Eigenschaften"
->abstract="Zielgruppen-Eigenschaften"
-
->[!CONTEXTUALHELP]
->id="acw_audiences_count"
->title="Zielgruppengröße"
->abstract="Zielgruppengröße"
 
 
 >[!CONTEXTUALHELP]
