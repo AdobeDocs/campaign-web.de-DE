@@ -4,10 +4,10 @@ title: Anzeigen des Versandinhalts in einer Vorschau
 description: Erfahren Sie, wie Sie mit der Web-Benutzeroberfläche von Campaign den Versandinhalt in einer Vorschau anzeigen können.
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
 badge: label="Eingeschränkte Verfügbarkeit"
-source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
+source-git-commit: 7b42927b689bfc762c61fa52e4af23e8c283f486
 workflow-type: tm+mt
-source-wordcount: '343'
-ht-degree: 88%
+source-wordcount: '384'
+ht-degree: 78%
 
 ---
 
@@ -45,6 +45,12 @@ Gehen Sie wie folgt vor, um den Versandinhalt in einer Vorschau anzuzeigen.
      >[!NOTE]
      >
      >Sie können Profile auch über den entsprechenden Tab in der Campaign-Web-Benutzeroberfläche anzeigen und verwalten. [Weitere Informationen](../audience/about-recipients.md)
+
+1. Beim Durchsuchen der Testprofil- oder Profillisten können Sie Filter verwenden, um Ihre Suche zu verfeinern.
+
+   ![](assets/simulate-test-profile-filter.png)
+
+   Sie können beispielsweise eine Regel definieren, um alle Testprofile mit dem **[!UICONTROL Perspektive]** -Status. Erfahren Sie, wie Sie Regeln mithilfe des [Abfragemodellierung](../query/query-modeler-overview.md).
 
 1. Klicken Sie auf **[!UICONTROL Auswählen]**, um Ihre Auswahl zu bestätigen.
 
