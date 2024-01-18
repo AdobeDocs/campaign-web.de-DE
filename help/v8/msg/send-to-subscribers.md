@@ -2,11 +2,11 @@
 audience: end-user
 title: Senden von Nachrichten an Abonnentinnen und Abonnenten eines Dienstes
 description: Hier erfahren Sie, wie Sie Nachrichten an die Abonnentinnen und Abonnenten eines Dienstes senden.
-badge: label="Beta"
+badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: f6e14db5-261c-4fa6-bd19-fd8bdc04aaf1
-source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
+source-git-commit: 08554d835175cd81f4df057ebfb7952500a12ba4
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '186'
 ht-degree: 100%
 
 ---
