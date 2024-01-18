@@ -4,7 +4,7 @@ title: Push-Versandberichte
 description: Erfahren Sie, wie Sie auf Push-Versandberichte zugreifen und diese verwenden können
 badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: 4187b553-8de7-40f4-8f30-f62e43323862
-source-git-commit: c5b4e1d44977b43324e85a7b5e173ef3154a620d
+source-git-commit: 9d3485293a6576e87e03d8691c403fcaeafbbeb1
 workflow-type: tm+mt
 source-wordcount: '478'
 ht-degree: 100%
@@ -16,7 +16,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sending_push"
 >title="Versandberichte"
->abstract="Auf der Registerkarte **Senden** Ihres Berichts erhalten Sie einen umfassenden Einblick in die Interaktionen Ihrer Besucherinnen und Besucher mit Ihren Sendungen sowie in etwaige Fehler, die bei ihnen aufgetreten sind."
+>abstract="Auf der Registerkarte **Senden** Ihres Berichts erhalten Sie einen umfassenden Einblick in die Interaktionen Ihrer Besucherinnen und Besucher mit Ihren Sendungen und in etwaige Fehler, die bei ihnen aufgetreten sind."
 
 Der **Push-Versandbericht** bietet einen umfassenden Überblick über den Push-Kanal mit umfangreichen Einblicken und spezifischen Daten. Er bietet umfassende Informationen über Leistung, Effektivität und Ergebnisse jedes Versands.
 
