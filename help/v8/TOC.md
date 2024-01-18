@@ -9,7 +9,7 @@ hide: true
 source-git-commit: bb3df3067c78311fa0ff3b9a52fe9713552fa0cf
 workflow-type: tm+mt
 source-wordcount: '531'
-ht-degree: 81%
+ht-degree: 89%
 
 ---
 
@@ -95,7 +95,7 @@ ht-degree: 81%
       + [Profile überwachen und verwalten](audience/about-recipients.md)
       + [Erstellen und Verwalten von Testprofilen](audience/test-profiles.md)
    + Arbeiten mit Zielgruppen {#audiences}
-      + [Zielgruppen erstellen](audience/create-audience.md)
+      + [Erstellen von Zielgruppen](audience/create-audience.md)
       + [Zielgruppen überwachen und verwalten](audience/manage-audience.md)
    + Auswählen der Empfängerinnen und Empfänger des Versands {#target-audiences}
       + [Auswählen einer bestehenden Zielgruppe](audience/add-audience.md)
@@ -134,7 +134,7 @@ ht-degree: 81%
       + [Planung](workflows/activities/scheduler.md)
       + [Aufspaltung](workflows/activities/split.md)
       + [Warten](workflows/activities/wait.md)
-+ Datenbank abfragen {#query-database}
++ Abfragen der Datenbank {#query-database}
    + [Arbeiten mit dem Abfrage-Modeler](query/query-modeler-overview.md)
    + [Erstellen Ihrer ersten Abfrage](query/build-query.md)
    + [Bearbeitung von Ausdrücken](query/expression-editor.md)
@@ -157,5 +157,5 @@ ht-degree: 81%
    + Allgemeine Berichte {#global-report}
       + [Erste Schritte mit globalen Berichten](reporting/global-reports.md)
       + [Globaler E-Mail-Bericht](reporting/global-report-email.md)
-      + [Push global report](reporting/global-report-push.md)
+      + [Globaler Push-Bericht](reporting/global-report-push.md)
       + [Globaler SMS-Bericht](reporting/global-report-sms.md)

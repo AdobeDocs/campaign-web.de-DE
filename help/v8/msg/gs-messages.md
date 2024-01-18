@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie Campaign Web verwenden, um mit Sendungen zu a
 badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
 source-git-commit: 51cde630b5867662c40f79109f40f78a08eb758f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '131'
 ht-degree: 100%
 

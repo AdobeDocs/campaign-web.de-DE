@@ -5,9 +5,9 @@ description: Erfahren Sie, wie Sie mit Adobe Campaign Web Cross-Channel-Kampagne
 badge: label="Beta"
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
 source-git-commit: 72065d4cbc3ce18caf88c7032660d944459463ed
-workflow-type: ht
-source-wordcount: '450'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '451'
+ht-degree: 98%
 
 ---
 
@@ -37,7 +37,7 @@ Um eine neue Kampagne zu erstellen, gehen Sie folgendermaßen vor:
 1. Klicken Sie auf **Erstellen**.
 1. Fügen Sie Workflows und Sendungen zu Ihrer Kampagne hinzu:
 
-   * Klicken Sie auf der Registerkarte **Workflows** auf **Workflow erstellen**. Beim Erstellen Ihrer Kampagne wird automatisch ein Standard-Workflow hinzugefügt. Weitere Informationen zum [Erstellen eines Workflows](../workflows/create-workflow.md).
+   * Klicken Sie auf der Registerkarte **Workflows** auf **Workflow erstellen**. Beim Erstellen Ihrer Kampagne wird automatisch ein Standard-Workflow hinzugefügt. Weitere Informationen zum [Workflow erstellen](../workflows/create-workflow.md).
    * Klicken Sie auf der Registerkarte **Sendungen** auf **Versand erstellen**. [Weitere Informationen](../msg/gs-messages.md)
 
 1. Verwenden Sie die Schaltflächen **Protokolle** und **Berichte**, um die Leistung Ihrer Kampagne zu analysieren.
@@ -66,7 +66,7 @@ Start- und Enddatum werden in der Kampagnenliste angezeigt und können als Filte
 
 >[!NOTE]
 >
->Sie können diese Eigenschaften später jederzeit über das Symbol **Kampagneneinstellungen konfigurieren** neben der Kampagnenbezeichnung ändern. Siehe diesen [Abschnitt](gs-campaigns.md#campaign-dashboard).
+>Sie können diese Eigenschaften später jederzeit über das Symbol **Kampagneneinstellungen konfigurieren** neben der Kampagnenbezeichnung ändern. Weitere Informationen finden Sie in [diesem Abschnitt](gs-campaigns.md#campaign-dashboard).
 
 Sobald das Datum erreicht ist, werden Sendungen, die in dieser Kampagne im Kontext eines Workflows erstellt wurden und versandbereit sind, tatsächlich gesendet. Dazu muss der Workflow gestartet worden sein.
 

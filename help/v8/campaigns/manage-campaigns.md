@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie mit kanalübergreifenden Kampagnen beginnen
 badge: label="Beta"
 exl-id: 690229e7-73e1-4cc1-b69a-f3e5d8de58af
 source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '603'
 ht-degree: 100%
 
@@ -53,7 +53,7 @@ Der Status und der Zeitplan der Kampagne werden oben im Bildschirm angezeigt. Ü
 
 Zwei Registerkarten sind verfügbar:
 
-* Die Registerkarte **Workflows** enthält alle mit der Kampagne verknüpften Workflows. In dieser Registerkarte können Sie auch einen neuen Workflow innerhalb der Kampagne erstellen. Siehe diesen [Abschnitt](create-campaigns.md#create-campaigns).
+* Die Registerkarte **Workflows** enthält alle mit der Kampagne verknüpften Workflows. In dieser Registerkarte können Sie auch einen neuen Workflow innerhalb der Kampagne erstellen. Weitere Informationen finden Sie in [diesem Abschnitt](create-campaigns.md#create-campaigns).
 
 * Die Registerkarte **Sendungen** listet jeden mit der Kampagne verbundenen Versand auf. Sie können auch einen neuen Versand innerhalb der Kampagne erstellen. Weitere Informationen finden Sie in [diesem Abschnitt](create-campaigns.md#create-campaigns).
 

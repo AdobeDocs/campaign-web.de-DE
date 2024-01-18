@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie Push-Benachrichtigungen mit Adobe Campaign We
 badge: label="Beta"
 exl-id: f90d915f-d357-4309-bef5-0dedc30280d7
 source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '194'
 ht-degree: 100%
 

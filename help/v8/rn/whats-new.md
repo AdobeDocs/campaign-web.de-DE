@@ -7,7 +7,7 @@ badge: label="Eingeschränkte Verfügbarkeit"
 source-git-commit: 9c72d73b5279a01492ea3ccd295e513e91f0c050
 workflow-type: tm+mt
 source-wordcount: '1368'
-ht-degree: 66%
+ht-degree: 99%
 
 ---
 
@@ -28,27 +28,27 @@ ht-degree: 66%
 <!--TO REMOVE ABOVE-->
 
 
-Wir freuen uns, Ihnen die neue Version der Adobe Campaign Web-Benutzeroberfläche vorstellen zu können. Unsere neueste Version enthält intuitive Funktionen, die es einfacher machen, personalisierte kanalübergreifende Kampagnen zu erstellen und außergewöhnliche Ergebnisse zu erzielen, und die Ihnen einen Wettbewerbsvorteil über alle Kanäle hinweg bieten.
+Wir freuen uns, die neue Version der Adobe Campaign Web-Benutzeroberfläche vorstellen zu können. Unsere neueste Version enthält intuitive Funktionen, die es einfacher machen, personalisierte kanalübergreifende Kampagnen zu erstellen und außergewöhnliche Ergebnisse zu erzielen, und die Ihnen einen Wettbewerbsvorteil über alle Kanäle hinweg bieten.
 
 ## Wichtigste Funktionen {#key-features}
 
-Diese neue Campaign-Webschnittstelle ist derzeit in verfügbar. **Eingeschränkte Verfügbarkeit** mit den folgenden Funktionen:
+Diese moderne Campaign Web-Benutzeroberfläche ist derzeit nur mit **eingeschränkter Verfügbarkeit** und folgenden Funktionen erhältlich:
 
-**Modernes, freundliches und einheitliches Erlebnis**
+**Modernes, intuitives und einheitliches Erlebnis**
 
 Die neue Web-Benutzeroberfläche von Campaign bietet ein neues Benutzererlebnis, das mit allen Adobe Experience Cloud-Lösungen und -Programmen abgestimmt ist. Sie bietet:
 
-* Zugriff auf die neue Campaign-Benutzeroberfläche und Ihre anderen Adobe-Lösungen mit einer einzigen und freigegebenen Benutzersitzung
+* Greifen Sie auf die neue Benutzeroberfläche und Ihre anderen Adobe-Lösungen mit einer einzigen, gemeinsamen Benutzersitzung zu
 * Neues Navigationserlebnis mit Zugriff auf alle Menüs und Ordner in der linken Leiste
 * Umschalter für Lösungen und Organisationen in der oberen Leiste
 * Unified Shell-Integration mit direktem Zugriff auf die Community, die Hilfe und den Support
 
-Erfahren Sie, wie Sie sich bei Adobe Experience Cloud anmelden und eine Verbindung zu Campaign herstellen in [diese Seite](../get-started/connect-to-campaign.md).
+[Auf dieser Seite](../get-started/connect-to-campaign.md) erfahren Sie, wie Sie sich bei Adobe Experience Cloud anmelden und eine Verbindung zu Campaign herstellen.
 
 
 **Neue leistungsstarke Funktionen und nahtlose Prozesse**
 
-Die Web-Benutzeroberfläche von Adobe Campaign bietet eine umfassende grafische Umgebung, mit der Sie komplexe Prozesse entwerfen können, mit denen Sie Ihre Marketing-Kampagnen einfach verwalten können. Sie umfasst:
+Die Adobe Campaign Web-Benutzeroberfläche ist eine umfassende grafische Umgebung, mit der Sie komplexe Prozesse entwerfen können, um sich die Verwaltung Ihrer Marketing-Kampagnen zu erleichtern. Sie umfasst:
 
 * Neu gestaltete Workflow-Arbeitsfläche zum Entwerfen und Verwalten Ihrer Prozesse
 * Dynamische Inhalte zur Bereitstellung zielgerichteter und personalisierter Erlebnisse für Ihre Zielgruppe
@@ -57,55 +57,55 @@ Die Web-Benutzeroberfläche von Adobe Campaign bietet eine umfassende grafische 
 
 Weitere Informationen über die neue Benutzeroberfläche finden Sie auf [dieser Seite](../get-started/user-interface.md).
 
-**Neues vereinfachtes und intuitives Abfragemodell**
+**Einen neuen vereinfachten und intuitiven Abfrage-Modeler**
 
-Adobe Campaign Web verfügt über einen leistungsstarken Abfragemodellierer, der den Prozess der Filterung von Datenbanken vereinfacht, um bestimmte Zielgruppen basierend auf verschiedenen Kriterien auszuwählen. Sie können das Abfragemodell wie folgt verwenden:
+Adobe Campaign Web verfügt über einen Abfrage-Modeler, der dass Filtern von Datenbanken zur Auswahl spezifischer Zielgruppen anhand verschiedener Kriterien vereinfacht. Der Abfrage-Modeler ermöglicht Ihnen Folgendes:
 
-* Definieren Sie Zielgruppen, die in Ihren Nachrichten oder Workflows ausgewählt werden sollen, und erstellen Sie mühelos neue Zielgruppen, die auf Ihre Anforderungen zugeschnitten sind.
-* Anwenden von Regeln innerhalb von Workflow-Aktivitäten wie Aufspaltung und Abstimmung, um sie an Ihre spezifischen Anforderungen anzupassen
-* Vordefinierte Filter erstellen, die bei verschiedenen Filtervorgängen als Verknüpfungen dienen, unabhängig davon, ob Sie mit Datenlisten arbeiten oder die Audience für einen Versand bilden
-* Fügen Sie eine Regel hinzu, um die in Berichten angezeigten Daten zu filtern.
-* Erstellen Sie benutzerdefinierte Regeln, um die in Listen angezeigten Daten zu filtern, wie z. B. Empfänger, Versandlisten usw.
+* Definieren Sie Zielgruppen für Ihre Nachrichten und Workflows und erstellen Sie bequem neue, speziell auf Ihre Bedürfnisse abgestimmte Zielgruppen
+* Wenden Sie innerhalb Ihrer Workflow-Aktivitäten Regeln wie Aufspaltung und Abstimmung an, um sie an Ihre spezifischen Vorgaben anzupassen
+* Erstellen Sie vordefinierte Filter als Abkürzungen für verschiedene Filtervorgänge, unabhängig davon, ob Sie mit Datenlisten arbeiten oder die Zielgruppe für einen Versand zusammenstellen
+* Fügen Sie eine Regel zum Filtern der in Berichten angezeigten Daten hinzu.
+* Erstellen Sie benutzerdefinierte Regeln zum Filtern der in Listen angezeigten Daten, wie Empfängerinnen und Empfänger, Versandlisten usw.
 
 Weiterführende Informationen finden Sie in [diesem Abschnitt](../query/query-modeler-overview.md).
 
 
-**Integrierte kanalübergreifende Kampagnenverwaltungsfunktionen**
+**Integrierte Funktionen zum Cross-Channel-Kampagnen-Management**
 
-Mit Adobe Campaign können Sie Cross-Channel-Kampagnen einschließlich E-Mails, SMS und Push-Benachrichtigungen senden und deren Effektivität mithilfe verschiedener dedizierter Berichte messen. Durch das Hinzufügen mehrerer kampagnenspezifischer Workflows und Sendungen können Sie personalisierte Erlebnisse über verschiedene Kanäle hinweg erstellen und so sicherstellen, dass jeder Touchpoint mit der gewünschten Zielgruppe abgestimmt wird.
+Mit Adobe Campaign können Sie kanalübergreifende Kampagnen einschließlich E-Mails, SMS und Push-Benachrichtigungen senden und deren Effektivität mithilfe verschiedener dedizierter Berichte messen. Durch das Hinzufügen mehrerer kampagnenspezifischer Workflows und Sendungen können Sie personalisierte Erlebnisse über verschiedene Kanäle hinweg erstellen und so sicherstellen, dass jeder Touchpoint mit der gewünschten Zielgruppe abgestimmt wird.
 
 Verwenden Sie die neue Web-Benutzeroberfläche von Campaign für Folgendes:
 
-* Erstellen, entwerfen, personalisieren, planen und senden Sie E-Mail-, SMS- und Push-Benachrichtigungen - [Weitere Infos](../msg/gs-messages.md)
-* Erstellen personalisierter E-Mail-Inhalte mit dem E-Mail-Designer – [Weitere Informationen](../email/edit-content.md)
+* Erstellen, entwerfen, personalisieren, planen und senden Sie E-Mail-, SMS- und Push-Benachrichtigungen – [Weitere Informationen](../msg/gs-messages.md)
+* Erstellen Sie personalisierte E-Mail-Inhalte mit dem E-Mail-Designer – [Weitere Informationen](../email/edit-content.md)
 * Senden Sie kanalübergreifende Kampagnen, einschließlich SMS- und Push-Benachrichtigungen – [Weitere Informationen](../workflows/activities/channels.md)
 * Definieren von Zielgruppen mit dem Abfragemodell - [Weitere Infos](../audience/about-recipients.md)
 * Vorschau, Testen und Senden Ihrer Nachrichten – [Weitere Informationen](../monitor/prepare-send.md)
 * Überwachen, Senden und Messen von Ergebnissen mit integrierten Berichten – [Weitere Informationen](../reporting/delivery-reports.md)
 
 
-## Neueste Veröffentlichungsaktualisierungen {#latest-release}
+## Aktualisierungen der aktuellen Version {#latest-release}
 
-Die wichtigsten Funktionen der Campaign Web Limited Availability-Version sind unten aufgeführt.
+Nachfolgend sind die wichtigsten Funktionen aufgeführt, die mit der limitierten Version von Campaign Web eingeführt werden.
 
 * **Weitere Kampagnen-Workflow-Aktivitäten**
 
   Bringen Sie Ihre Marketing-Kampagnen mit unserem **erweiterten Satz von Workflow-Aktivitäten** auf die Überholspur. Erschließen Sie neue Automatisierungs- und Optimierungsmöglichkeiten, um dynamischere und stärker personalisierte Journeys zu erstellen. Von der erweiterten Segmentierung bis hin zu bedingten Triggern ermöglichen unsere zusätzlichen Workflow-Aktivitäten den Versand zielgerichteter Nachrichten und die Verbesserung der Kampagnenleistung.
 
-  Die neuen Aktivitäten, die mit der neuesten LA-Version eingeführt werden, sind: **Abstimmung**, **Datei laden**, und **Audience-Speicherung**.
+  Die neuen Aktivitäten, die mit der aktuellen limitierten Version eingeführt werden, sind: **Abstimmung**, **Datei laden**, und **Zielgruppe speichern**.
 
   Weiterführende Informationen finden Sie in [diesem Abschnitt](../workflows/gs-workflows.md).
 
 
-* **Zielgruppe mit dem Abfragemodell**
+* **Erstellen einer Zielgruppe mit dem Abfrage-Modeler**
 
-  Adobe Campaign Web-Funktionen a **leistungsstarkes und intuitives Abfragemodell** die den Prozess der Filterung von Datenbanken vereinfacht, um spezifische Zielgruppen auf der Grundlage verschiedener Kriterien auszuwählen. Dies schließt die Verwendung erweiterter Ausdrücke und Operatoren ein. Der Abfrage-Modeler ist in jedem Kontext verfügbar, in dem Sie Regeln zum Filtern von Daten definieren müssen.
+  Adobe Campaign Weg bietet einen **leistungsstarken und intuitiven Abfrage-Modeler**, der das Filtern von Datenbanken zur Auswahl spezifischer Ziele anhand verschiedener Kriterien vereinfacht. Dies schließt die Verwendung erweiterter Ausdrücke und Operatoren ein. Der Abfrage-Modeler ist in jedem Kontext verfügbar, in dem Sie Regeln zum Filtern von Daten definieren müssen.
 
   Weiterführende Informationen finden Sie in [diesem Abschnitt](../query/query-modeler-overview.md).
 
 * **Einfache Erstellung und Verwaltung von Profilen**
 
-  Sie können die neue Web-Benutzeroberfläche für **Erstellen und Aktualisieren von Empfängern** in der Datenbank direkt über das Menü Empfänger . Mit einem vereinfachten Formular zur Profilbearbeitung können Sie die Kontaktinformationen und -attribute des Empfängers eingeben und einen vorhandenen Empfänger aktualisieren, ohne die Clientkonsole zu verwenden.
+  Mit der neue Web-Benutzeroberfläche können Sie direkt in der Datenbank über das Menü „Empfänger“ **Empfängerinnen und Empfänger erstellen und aktualisieren**. Mit einem vereinfachten Formular zur Profilbearbeitung können Sie die Kontaktinformationen und -attribute der Person eingeben und vorhandene Empfängerinnen und Empfänger aktualisieren, ohne die Client-Konsole zu verwenden.
 
   Weiterführende Informationen finden Sie in [diesem Abschnitt](../audience/about-recipients.md).
 
@@ -126,7 +126,7 @@ Die wichtigsten Funktionen der Campaign Web Limited Availability-Version sind un
 
 * **KI-gestützte Kontexthilfe**
 
-  Stellen Sie Fragen und erhalten Sie Hilfestellungen direkt in der Benutzeroberfläche des Produkts. Die neue **KI-gestützte Kontexthilfe** hilft Ihnen, Ihr Know-how über neue Campaign-Funktionen zu erlernen und zu erweitern. Er basiert auf der neuesten Produktdokumentation und liefert Ihnen beim Erstellen Ihrer Anwendungsfälle sofortige Hilfe und Schritt-für-Schritt-Anleitungen. Diese Funktion ist derzeit in der Betaversion für eine begrenzte Anzahl von Benutzern verfügbar.
+  Stellen Sie Fragen und erhalten Sie Hilfestellungen direkt in der Benutzeroberfläche des Produkts. Die neue **KI-gestützte Kontexthilfe** hilft Ihnen, Ihr Know-how über neue Campaign-Funktionen zu verbessern und zu erweitern. Sie basiert auf der neuesten Produktdokumentation und liefert Ihnen beim Erstellen Ihrer Anwendungsfälle sofortige Hilfe und Schritt-für-Schritt-Anleitungen. Diese Funktion ist derzeit in der Beta-Version für eine begrenzte Anzahl von Benutzenden verfügbar.
 
   Weiterführende Informationen finden Sie in [diesem Abschnitt](../get-started/using-ai.md).
 
@@ -155,7 +155,7 @@ Als Benutzerin oder Benutzer von Campaign können Sie weiterhin auf die Client-K
 
 Darüber hinaus sind alle Daten und Einstellungen, die bereits in der Client-Konsole verfügbar sind, in der Campaign Web-Benutzeroberfläche im linken Navigationsbereich des Explorers sichtbar. Weitere Informationen zur Explorer-Ansicht finden Sie in [diesem Abschnitt](../get-started/user-interface.md#explorer-user-interface-explorer).
 
-In der Version der Campaign-Web-Benutzeroberfläche spiegelt die Benutzeroberfläche die Berechtigungen des Benutzers wider. Weitere Informationen über Berechtigungen finden Sie hier [auf dieser Seite](../get-started/permissions.md)
+Die Campaign Web-Benutzeroberfläche spiegelt die Berechtigungen der Person wider. Weitere Informationen über Berechtigungen finden Sie hier [auf dieser Seite](../get-started/permissions.md)
 
 ## Aktualisierungen der Terminologie {#terminology-updates}
 
@@ -169,12 +169,12 @@ Bestehende Campaign-Benutzende sollten beachten, dass einige Konzepte entspreche
 
 ## Einschränkungen{#limitations-beta}
 
-Die folgenden Einschränkungen gelten für diese Version:
+Für diese Version gelten folgende Einschränkungen:
 
-* Bearbeitbare Objekte sind: Empfänger, Sendungen, Kampagnen, Workflows, Zielgruppen, An-/Abmeldedienst, vordefinierte Filter und Vorlagen. Alle übrigen sind schreibgeschützt. Verwenden Sie Filter und erstellen Sie Regeln, um sie alle zu durchsuchen.
+* Bearbeitbare Objekte sind: Empfängerinnen und Empfänger, Sendungen, Kampagnen, Workflows, Zielgruppen, Abonnementdienste, vordefinierte Filter und Vorlagen. Alle übrigen sind schreibgeschützt. Verwenden Sie Filter und erstellen Sie Regeln, um sie alle zu durchsuchen.
 * Die Benutzeroberfläche „Administration“ ist nicht verfügbar.
 * Reporting-Metriken (wie Öffnungen und Tracking-Daten) werden stündlich aktualisiert.
 * Die KPIs im Versand-Dashboard werden alle 5 Minuten aktualisiert. – aber die Versandvorbereitung erfolgt in Echtzeit.
 * Benachrichtigungen von Adobe Experience Cloud und die in der Symbolleiste verfügbare einheitliche Hilfe sind noch nicht integriert.
 
-Weitere Limits und Einschränkungen finden Sie unter [diese Seite](../get-started/guardrails.md).
+Weiterführende Informationen und Einschränkungen finden Sie auf [dieser Seite](../get-started/guardrails.md).

@@ -6,7 +6,7 @@ exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
 source-git-commit: 9c72d73b5279a01492ea3ccd295e513e91f0c050
 workflow-type: tm+mt
 source-wordcount: '822'
-ht-degree: 85%
+ht-degree: 97%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 85%
 >title="Vordefinierte Filter"
 >abstract="Campaign Web bietet jetzt eine benutzerfreundliche Oberfläche, mit der man vordefinierte Filter mühelos verwalten und an Ihre spezifischen Anforderungen anpassen kann. Filter einmal erstellen und für zukünftige Verwendungen speichern."
 
-Vordefinierte Filter sind benutzerdefinierte Filter, die für zukünftige Verwendungen erstellt und gespeichert werden. Sie können bei allen Filtervorgängen mit dem Abfragemodell als Verknüpfungen verwendet werden, z. B. beim Filtern einer Datenliste oder beim Erstellen der Zielgruppe eines Versands.
+Vordefinierte Filter sind benutzerdefinierte Filter, die für zukünftige Verwendungen erstellt und gespeichert werden. Sie können bei allen Filtervorgängen mit dem Abfrage-Modeler als Tastaturbefehl verwendet werden, z. B. beim Filtern einer Datenliste oder beim Erstellen der Zielgruppe eines Versands.
 
 Sie können vorhandene integrierte Filter verwenden, um auf einen bestimmten Teil Ihrer Daten zuzugreifen, oder eigene vordefinierte Filter erstellen und speichern.
 
@@ -55,11 +55,11 @@ Sie können vorhandene integrierte Filter verwenden, um auf einen bestimmten Tei
 >title="Erstellen der vordefinierten Filterregeln"
 >abstract="Um die Filterbedingungen Ihres benutzerspezifischen Filters zu definieren, klicken Sie auf die Schaltfläche „Regel erstellen“."
 
-### Erstellen eines Filters aus dem Abfragemodell {#create-from-rule-builder}
+### Erstellen eines Filters mit dem Abfrage-Modeler {#create-from-rule-builder}
 
-Sie können einen benutzerdefinierten Filter aus dem [Abfragemodellierung](../query/query-modeler-overview.md) , um es für die zukünftige Verwendung verfügbar zu machen. Führen Sie folgende Schritte aus:
+Sie können einen benutzerdefinierten Filter im [Abfrage-Modeler](../query/query-modeler-overview.md) speichern, damit er für zukünftige Verwendungen verfügbar ist. Führen Sie folgende Schritte aus:
 
-1. Öffnen Sie das Abfragemodell und definieren Sie Ihre Filterbedingungen. Im folgenden Beispiel filtern Sie Empfänger, die in Madrid leben und einen Newsletter abonniert haben.
+1. Öffnen Sie den Abfrage-Modeler und definieren Sie Ihre Filterbedingungen. Im folgenden Beispiel filtern Sie Empfängerinnen und Empfänger, die in Madrid leben und einen Newsletter abonniert haben.
 1. Klicken Sie auf die Schaltfläche **Filter auswählen oder speichern** und wählen Sie **Als Filter speichern**.
 
    ![](assets/predefined-filters-save.png)
@@ -94,7 +94,7 @@ Sie können einen Filter im Eintrag **Vordefinierte Filter** im linken Menü ers
    ![](assets/new-filter.png)
 
 
-Der Filter wird der vordefinierten Filterliste hinzugefügt. Sie können den Filter bei Bedarf als Favorit speichern. Weiterführende Informationen finden Sie in [diesem Abschnitt](#fav-filter).
+Der Filter wird zur Liste der vordefinierten Filter hinzugefügt. Sie können den Filter bei Bedarf als Favorit speichern. Weiterführende Informationen finden Sie in [diesem Abschnitt](#fav-filter).
 
 
 ## Speichern des Filters als Favorit {#fav-filter}
@@ -151,7 +151,7 @@ Von dieser Liste ausgehend können Sie einen neuen Filter erstellen, wie oben be
 * einen vordefinierten Filter duplizieren
 * einen vordefinierten Filter löschen
 
-Sie können beim Erstellen Ihrer Zielgruppen einen vordefinierten Filter als Favoriten für einen schnellen Zugriff hinzufügen. Weiterführende Informationen finden Sie in [diesem Abschnitt](#fav-filter).
+Sie können beim Erstellen Ihrer Zielgruppen einen vordefinierten Filter als Favoriten hinzufügen, um schnell darauf zugreifen zu können. Weiterführende Informationen finden Sie in [diesem Abschnitt](#fav-filter).
 
 <!--
 ## Built-in predefined filters {#ootb-predefined-filter}

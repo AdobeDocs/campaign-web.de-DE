@@ -7,7 +7,7 @@ badge: label="Eingeschränkte Verfügbarkeit"
 source-git-commit: ac9a7918045e7ff02ef27c348b28a6ce09802caf
 workflow-type: tm+mt
 source-wordcount: '260'
-ht-degree: 66%
+ht-degree: 72%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 66%
 >title="Aggregierte Berichte für Sendungen"
 >abstract="Wählen Sie mindestens zwei Sendungen aus, um einen aggregierten Datenbericht anzuzeigen."
 
-Die **Versandberichte** bietet umfassende Einblicke und Daten, die ausschließlich auf Ihre **Sendungen** über jeden Kanal hinweg. Diese Berichte enthalten detaillierte Informationen über Leistung, Effektivität und Ergebnisse Ihrer einzelnen Sendungen und verschaffen Ihnen einen umfassenden Überblick.
+Die **Versandberichte** bieten umfassende Einblicke und Daten ausschließlich zu Ihren **Sendungen** über alle Kanäle hinweg. Diese Berichte enthalten detaillierte Informationen über Leistung, Effektivität und Ergebnisse Ihrer einzelnen Sendungen und verschaffen Ihnen einen umfassenden Überblick.
 
 Die vollständige Liste der Berichte und zugehörigen Metriken für jeden Kanal finden Sie auf den folgenden Seiten:
 

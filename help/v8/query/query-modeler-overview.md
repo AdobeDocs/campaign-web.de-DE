@@ -6,7 +6,7 @@ badge: label="Eingeschränkte Verfügbarkeit"
 source-git-commit: 9c72d73b5279a01492ea3ccd295e513e91f0c050
 workflow-type: tm+mt
 source-wordcount: '485'
-ht-degree: 60%
+ht-degree: 63%
 
 ---
 

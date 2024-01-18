@@ -6,14 +6,14 @@ badge: label="Eingeschränkte Verfügbarkeit"
 source-git-commit: fb72b943b324990f6dd82a4a05bfd28e5452480a
 workflow-type: tm+mt
 source-wordcount: '207'
-ht-degree: 9%
+ht-degree: 31%
 
 ---
 
 
 # Erste Schritte mit globalen Berichten {#global-report-gs}
 
-Die **Allgemeine Berichte** dienen als effektives Tool und bieten eine konsolidierte Zusammenfassung des Traffics und der Interaktionsmetriken für jeden Kanal in Ihrer Campaign-Instanz. Diese Berichte bestehen aus verschiedenen Widgets, von denen jede einen bestimmten Blickwinkel auf Ihre Kampagnen- oder Versandleistung bietet.
+Die **allgemeinen Berichte** bieten als effektives Tool eine konsolidierte Zusammenfassung des Traffics und der Interaktionsmetriken aller Kanäle in Ihrer Campaign-Instanz. Diese Berichte bestehen aus verschiedenen Widgets, von denen jedes einen bestimmten Blickwinkel auf Ihre Kampagnen- oder Versandleistung bietet.
 
 Die vollständige Liste der Berichte und zugehörigen Metriken für jeden Kanal finden Sie auf den folgenden Seiten:
 
