@@ -7,7 +7,7 @@ badge: label="Eingeschränkte Verfügbarkeit"
 source-git-commit: 119060c56d8541724871a5e4f0289ca775bc0039
 workflow-type: tm+mt
 source-wordcount: '428'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ Wenn Sie auf Campaign v8-Funktionen zugreifen müssen, die nicht in der Web-Benu
 
 >[!NOTE]
 >
->Campaign v8 Web befindet sich derzeit in der eingeschränkten Verfügbarkeit (LA). Der Zugriff ist auf eine kleine Gruppe von LA-Kunden beschränkt. Beachten Sie, dass sich die Produktoberfläche, die Funktionen und die Nutzungsflüsse ohne Vorankündigung ändern können.
+>Campaign v8 Web ist derzeit nur als eingeschränkt verfügbare Version (LA) erhältlich. Der Zugriff ist auf eine kleine Gruppe von LA-Kundinnen und -Kunden beschränkt. Beachten Sie, dass sich die Produktoberfläche, die Funktionen und die Nutzungsflüsse ohne Vorankündigung ändern können.
 
 Erfahren Sie auf [dieser Seite](connect-to-campaign.md), wie Sie eine Verbindung zu Adobe Campaign Web herstellen können.
 
