@@ -29,12 +29,12 @@ Diese Einstellungen sind im Abschnitt **Einstellungen** bei der Bearbeitung eine
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_typology"
 >title="Typologie"
->abstract="Typologieregeln ermöglichen es Marketing-Fachleuten, Geschäftspraktiken für alle Sendungen zu standardisieren. Eine Typologie ist eine Sammlung von Typologieregeln, mit denen Sie den Versand von Sendungen steuern, filtern und priorisieren können. Profile, die den Kriterien einer Typologieregel entsprechen, werden in der Vorbereitungsphase von den Versandzielgruppen ausgeschlossen. Typologien und Typologieregeln werden in der Campaign-Clientkonsole erstellt."
+>abstract="Typologieregeln ermöglichen es Marketing-Fachleuten, Geschäftspraktiken für alle Sendungen zu standardisieren. Eine Typologie ist eine Sammlung von Typologieregeln, mit denen der Versand von Sendungen gesteuert, gefiltert und priorisiert werden kann. Profile, die den Kriterien einer Typologieregel entsprechen, werden in der Vorbereitungsphase von den Versandzielgruppen ausgeschlossen. Typologien und Typologieregeln werden in der Campaign-Clientkonsole erstellt."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_typology"
 >title="Typologieeinstellungen für den Versand"
->abstract="Typologieregeln ermöglichen es Marketing-Fachleuten, Geschäftspraktiken für alle Sendungen zu standardisieren. Eine Typologie ist eine Sammlung von Typologieregeln, mit denen Sie den Versand von Sendungen steuern, filtern und priorisieren können. Profile, die den Kriterien einer Typologieregel entsprechen, werden in der Vorbereitungsphase von den Versandzielgruppen ausgeschlossen. Typologien und Typologieregeln werden in der Campaign-Clientkonsole erstellt."
+>abstract="Typologieregeln ermöglichen es Marketing-Fachleuten, Geschäftspraktiken für alle Sendungen zu standardisieren. Eine Typologie ist eine Sammlung von Typologieregeln, mit denen der Versand von Sendungen gesteuert, gefiltert und priorisiert werden kann. Profile, die den Kriterien einer Typologieregel entsprechen, werden in der Vorbereitungsphase von den Versandzielgruppen ausgeschlossen. Typologien und Typologieregeln werden in der Campaign-Clientkonsole erstellt."
 
 
 Typologien sind Gruppen von **Typologieregeln** die während der Vorbereitungsphase ausgeführt werden, um auf einen Versand einfach mehrere Filterregeln anzuwenden. Sie ermöglichen es Marketing-Experten, Geschäftspraktiken für alle Sendungen zu standardisieren, da sie den Versand von Nachrichten steuern, filtern und priorisieren können.
@@ -91,7 +91,7 @@ Verwenden Sie das Feld **[!UICONTROL Versandmodus]**, um den Zielgruppenauswertu
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_capacity_settings"
 >title="Kapazitätseinstellungen für den Versand"
->abstract="Verwenden Sie vor dem Versand von Nachrichten Kapazitätsregeln, um sicherzustellen, dass Ihr Unternehmen den Versand verarbeiten kann, und festzulegen, welche eingehenden Nachrichten der Versand erzeugen kann und wie viele Aufrufe beispielsweise an Abonnierende getätigt werden. Kapazitätsregeln werden in der Adobe Campaign v8-Konsole definiert. Wählen Sie in diesem Bildschirm eine Regel aus, die dem E-Mail-Kanal zugeordnet ist."
+>abstract="Vor dem Versand von Nachrichten sind Kapazitätsregeln zu verwenden, um sicherzustellen, dass das Unternehmen den Versand verarbeiten kann, und festzulegen, welche eingehenden Nachrichten der Versand erzeugen kann und wie viele Aufrufe beispielsweise an Abonnierende getätigt werden. Kapazitätsregeln werden in der Adobe Campaign v8-Konsole definiert. In diesem Bildschirm eine Regel auswählen, die dem E-Mail-Kanal zugeordnet ist."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_recipient_importance"

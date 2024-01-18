@@ -8,7 +8,7 @@ level: Beginner
 badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: 3afff35c-c15f-46f8-b791-9bad5e38ea44
 source-git-commit: 74048d2e6001d2d9b4813a78096a481374233ea6
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1203'
 ht-degree: 100%
 
@@ -111,9 +111,9 @@ Nachdem der Nachrichteninhalt definiert wurde, können Sie eine Vorschau davon a
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_schedule"
 >title="Festlegen eines Kontaktdatums und einer Kontaktzeit"
->abstract="Legen Sie das Datum und die genaue Uhrzeit für Ihren Versand fest. Indem Sie den günstigsten Zeitpunkt für Ihre Werbenachricht wählen, maximieren Sie die Öffnungsraten."
+>abstract="Das Datum und die genaue Uhrzeit für den Versand festlegen. Die Auswahl des günstigsten Zeitpunkts für die Werbenachricht führt zur Maximierung der Öffnungsraten."
 
-Sie können für das Senden Ihrer Nachrichten das Datum und die genaue Uhrzeit festlegen. Indem Sie den günstigsten Zeitpunkt für Ihre Werbenachricht wählen, maximieren Sie die Öffnungsraten.
+Sie können für das Senden Ihrer Nachrichten das Datum und die genaue Uhrzeit festlegen. Die Auswahl des günstigsten Zeitpunkts für die Werbenachricht führt zur Maximierung der Öffnungsraten.
 
 Um einen Versand zeitlich zu planen, öffnen Sie den Versand und navigieren Sie zum Abschnitt **[!UICONTROL Zeitplan]**. Verwenden Sie den Umschalter **[!UICONTROL Zeitplanung aktivieren]**, um dies zu aktivieren, und legen Sie das gewünschte Datum und die gewünschte Uhrzeit für den Versand fest. Nach dem Versand beginnt der eigentliche Versand am von Ihnen definierten Kontaktdatum.
 

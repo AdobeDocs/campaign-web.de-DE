@@ -9,7 +9,7 @@ hidefromtoc: true
 source-git-commit: 9c72d73b5279a01492ea3ccd295e513e91f0c050
 workflow-type: tm+mt
 source-wordcount: '499'
-ht-degree: 92%
+ht-degree: 94%
 
 ---
 
@@ -19,14 +19,14 @@ ht-degree: 92%
 >id="acw_homepage_welcome_rn5"
 >title="Generative KI für E-Mail-Inhalte"
 >abstract="Unsere generative KI-Technologie nutzt fortschrittliche Algorithmen, um extrem ansprechende und personalisierte Inhalte zu generieren. Steigern Sie Öffnungsraten, Clickthrough-Raten und Konversionen mit der intelligenten Inhaltserstellung von Gen AI."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="Siehe Versionshinweise"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=de" text="Siehe Versionshinweise"
 
 <!--TO REMOVE BELOW-->
 >[!CONTEXTUALHELP]
 >id="acw_homepage_rn5"
 >title="Generative KI für E-Mail-Inhalte"
 >abstract="Unsere generative KI-Technologie nutzt fortschrittliche Algorithmen, um extrem ansprechende und personalisierte Inhalte zu generieren. Steigern Sie Öffnungsraten, Clickthrough-Raten und Konversionen mit der intelligenten Inhaltserstellung von Gen AI."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="Siehe Versionshinweise"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=de" text="Siehe Versionshinweise"
 
 <!--TO REMOVE ABOVE-->
 
