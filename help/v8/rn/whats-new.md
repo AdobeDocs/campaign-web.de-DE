@@ -4,9 +4,9 @@ title: Neue Funktionen in Campaign Web v8
 description: Entdecken Sie neue Funktionen von Campaign Web v8.
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Eingeschränkte Verfügbarkeit"
-source-git-commit: 9c72d73b5279a01492ea3ccd295e513e91f0c050
+source-git-commit: f92ab1561bc4ed06276b6fd8bc9c329999e4410c
 workflow-type: tm+mt
-source-wordcount: '1368'
+source-wordcount: '1295'
 ht-degree: 99%
 
 ---
@@ -116,13 +116,13 @@ Nachfolgend sind die wichtigsten Funktionen aufgeführt, die mit der limitierten
     
     Elevate and streamline your content management capabilities on the web UI with this integration to boost productivity.
 -->
+<!--
+* **Gen AI for Email content**
 
-* **Generative KI für E-Mail-Inhalte**
+    Say goodbye to manual content creation and hello to efficient, data-driven campaigns with the power of Gen AI.  Our Gen AI technology utilizes advanced algorithms to **generate highly engaging and personalized content**. Drive higher open rates, click-through rates, and conversions with Gen AI's intelligent content generation. Stay ahead of the competition and elevate your email marketing game with Gen AI on email content.
 
-  Verabschieden Sie sich mit den Möglichkeiten der generativen KI von der manuellen Inhaltserstellung und heißen Sie effiziente, datengesteuerte Kampagnen willkommen. Unsere Technologie der generativen KI nutzt erweiterte Algorithmen, um **extrem ansprechende und personalisierte Inhalte zu erstellen**. Steigern Sie Öffnungsraten, Klickraten und Konversionen mit der intelligenten Inhaltserstellung durch generative KI. Bleiben Sie der Konkurrenz voraus und heben Sie Ihr E-Mail-Marketing mit generativer KI für E-Mail-Inhalte auf ein neues Niveau. 
-
-  Weiterführende Informationen finden Sie in [diesem Abschnitt](../email/generative-gs.md).
-
+    Learn more in [this section](../email/generative-gs.md).
+-->
 
 * **KI-gestützte Kontexthilfe**
 
