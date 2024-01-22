@@ -3,10 +3,10 @@ title: Herstellen einer Verbindung zur Adobe Campaign Web-Benutzeroberfläche
 description: Erfahren Sie, wie Sie eine Verbindung zur Benutzeroberfläche von Adobe Campaign v8 Web herstellen.
 badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
-source-git-commit: a93e6e5e651935271badad51109ca57bb9232703
+source-git-commit: 7e2345327e613a9606598fefd440ae97f5aac24b
 workflow-type: tm+mt
-source-wordcount: '557'
-ht-degree: 96%
+source-wordcount: '563'
+ht-degree: 95%
 
 ---
 
@@ -53,13 +53,14 @@ Sie sind jetzt mit Campaign verbunden. Auf [dieser Seite](user-interface.md) erf
 
 Verwenden Sie die obere Leiste der Benutzeroberfläche, um folgende Aktionen durchzuführen:
 
+* Feedback zur Campaign-Web-Benutzeroberfläche freigeben
 * Wechseln zwischen Ihren Organisationen
 * Wechseln zwischen Ihren Adobe Experience Cloud-Lösungen und -Apps
 * nach Hilfe zu [Adobe Experience League](https://experienceleague.adobe.com/docs/?lang=de){target="_blank"} suchen
 * Produktbenachrichtigungen überprüfen
 * Ihr Adobe-Profil bearbeiten und Einstellungen verwalten wie [Ihre Lieblingssprache aktualisieren](#language-pref) oder [Umschalten zwischen hellem/dunklem Design](#dark-theme)
 
-![](assets/unified-shell.png){width="50%" align="left"}
+![](assets/do-not-localize/unified-shell.png){width="50%" align="left"}
 
 ## Unterstützte Browser {#browsers}
 
