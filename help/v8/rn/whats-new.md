@@ -4,10 +4,10 @@ title: Neue Funktionen in Campaign Web v8
 description: Entdecken Sie neue Funktionen von Campaign Web v8.
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Eingeschränkte Verfügbarkeit"
-source-git-commit: f92ab1561bc4ed06276b6fd8bc9c329999e4410c
+source-git-commit: 80e9937fcac0f1e66c317d3d31efab0d5f6ae2d8
 workflow-type: tm+mt
 source-wordcount: '1295'
-ht-degree: 99%
+ht-degree: 98%
 
 ---
 
@@ -64,7 +64,7 @@ Adobe Campaign Web verfügt über einen Abfrage-Modeler, der dass Filtern von Da
 * Definieren Sie Zielgruppen für Ihre Nachrichten und Workflows und erstellen Sie bequem neue, speziell auf Ihre Bedürfnisse abgestimmte Zielgruppen
 * Wenden Sie innerhalb Ihrer Workflow-Aktivitäten Regeln wie Aufspaltung und Abstimmung an, um sie an Ihre spezifischen Vorgaben anzupassen
 * Erstellen Sie vordefinierte Filter als Abkürzungen für verschiedene Filtervorgänge, unabhängig davon, ob Sie mit Datenlisten arbeiten oder die Zielgruppe für einen Versand zusammenstellen
-* Fügen Sie eine Regel zum Filtern der in Berichten angezeigten Daten hinzu.
+* Regel hinzufügen, um die in Berichten angezeigten Daten zu filtern
 * Erstellen Sie benutzerdefinierte Regeln zum Filtern der in Listen angezeigten Daten, wie Empfängerinnen und Empfänger, Versandlisten usw.
 
 Weiterführende Informationen finden Sie in [diesem Abschnitt](../query/query-modeler-overview.md).

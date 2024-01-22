@@ -2,12 +2,12 @@
 audience: end-user
 title: Erstellen von Kampagnen mit Adobe Campaign Web
 description: Erfahren Sie, wie Sie mit Adobe Campaign Web Cross-Channel-Kampagnen erstellen
-badge: label="Beta"
+badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
-source-git-commit: 72065d4cbc3ce18caf88c7032660d944459463ed
+source-git-commit: 80e9937fcac0f1e66c317d3d31efab0d5f6ae2d8
 workflow-type: tm+mt
-source-wordcount: '451'
-ht-degree: 98%
+source-wordcount: '444'
+ht-degree: 92%
 
 ---
 
@@ -24,23 +24,28 @@ ht-degree: 98%
 >title="Eigenschaften der Kampagne"
 >abstract="Auf diesem Bildschirm können Sie Ihre Kampagneneinstellungen überprüfen und aktualisieren: Titel, interner Name, Ordner und Beschreibung. Sie können auch anzeigen, welcher Benutzerin oder welchem Benutzer er zugewiesen ist."
 
-Um eine neue Kampagne zu erstellen, müssen Sie ihre Eigenschaften und den Zeitplan festlegen sowie Workflows und Sendungen einschließen.
+Um eine neue Kampagne zu erstellen, müssen Sie ihre Einstellungen definieren, Workflows planen und Sendungen einbeziehen.
 
-## Erstellen der Kampagne{#campaign-create}
+## Erstellen der Kampagne {#campaign-create}
 
 Um eine neue Kampagne zu erstellen, gehen Sie folgendermaßen vor:
 
 1. Klicken Sie auf das Menü **[!UICONTROL Kampagnen]** und dann auf die Schaltfläche **[!UICONTROL Kampagne erstellen]**.
+
+   ![Neue Kampagne erstellen](assets/create-campaign-button.png)
+
 1. Wählen Sie die zu verwendende **Vorlage** und geben Sie eine Bezeichnung für die Kampagne ein. [Weitere Informationen](manage-campaigns.md#manage-campaign-templates)
 1. Bei Bedarf können Sie die folgenden **zusätzlichen Optionen** ändern: interner Name, Ordner, Zuweisung, Beschreibung und Art.
 1. Definieren Sie den **Zeitplan** für Ihre Kampagne. Erfahren Sie in [diesem Abschnitt](#campaign-schedule), wie Sie Ihren Kampagnenzeitplan festlegen.
 1. Klicken Sie auf **Erstellen**.
+
+   ![Erstellen von Kampagneneigenschaften](assets/create-a-campaign-properties.png)
+
 1. Fügen Sie Workflows und Sendungen zu Ihrer Kampagne hinzu:
 
    * Klicken Sie auf der Registerkarte **Workflows** auf **Workflow erstellen**. Beim Erstellen Ihrer Kampagne wird automatisch ein Standard-Workflow hinzugefügt. Weitere Informationen zum [Workflow erstellen](../workflows/create-workflow.md).
-   * Klicken Sie auf der Registerkarte **Sendungen** auf **Versand erstellen**. [Weitere Informationen](../msg/gs-messages.md)
 
-1. Verwenden Sie die Schaltflächen **Protokolle** und **Berichte**, um die Leistung Ihrer Kampagne zu analysieren.
+   * Klicken Sie auf der Registerkarte **Sendungen** auf **Versand erstellen**. [Weitere Informationen](../msg/gs-messages.md)
 
 ## Überwachen und Nachverfolgen Ihrer Kampagne{#campaign-monitoring}
 
@@ -51,7 +56,6 @@ Sie können auch die entsprechenden Berichte anzeigen, indem Sie auf die Schaltf
 
 ## Definieren des Kampagnenzeitplans {#campaign-schedule}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_schedule"
 >title="Kampagnenzeitplan"
@@ -61,8 +65,6 @@ Sie können auch die entsprechenden Berichte anzeigen, indem Sie auf die Schaltf
 Die Kampagne beginnt, wenn das Startdatum erreicht ist. Solange das Startdatum nicht erreicht ist, verfügt die Kampagne über den Status **[!UICONTROL Entwurf]**. Wenn das Startdatum erreicht ist, ändert sich der Status zu **[!UICONTROL In Bearbeitung]**. Sobald das Enddatum erreicht ist, wechselt die Kampagne in den Status **[!UICONTROL Abgeschlossen]**.
 
 Start- und Enddatum werden in der Kampagnenliste angezeigt und können als Filter verwendet werden. Weitere Informationen finden Sie in [diesem Abschnitt](manage-campaigns.md#access-campaigns).
-
-![Definieren von Kampagneneigenschaften](assets/campaign-properties.png)
 
 >[!NOTE]
 >

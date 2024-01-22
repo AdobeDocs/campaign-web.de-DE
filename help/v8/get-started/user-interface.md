@@ -4,9 +4,9 @@ title: Erkunden der Benutzeroberfläche
 description: Web-Benutzeroberfläche von Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Eingeschränkte Verfügbarkeit"
-source-git-commit: 7e2345327e613a9606598fefd440ae97f5aac24b
+source-git-commit: 80e9937fcac0f1e66c317d3d31efab0d5f6ae2d8
 workflow-type: tm+mt
-source-wordcount: '1632'
+source-wordcount: '1640'
 ht-degree: 81%
 
 ---
@@ -31,7 +31,7 @@ Erfahren Sie, wie Sie eine Verbindung zu Adobe Campaign herstellen, und lernen S
 
 Auf der Kampagnen-Startseite können Sie schnell und einfach die wichtigsten Ressourcen, Indikatoren und Komponenten durchsuchen.
 
-Der obere Abschnitt der Startseite enthält Details zu den neuesten Updates und neuen Funktionen, die im Produkt verfügbar sind, sowie Links zu Versionshinweisen und der zugehörigen Dokumentation.
+Der obere Abschnitt der Startseite enthält Details zu den neuesten Updates und neuen Funktionen, die im Produkt verfügbar sind, mit einem Link zu Versionshinweisen und einer detaillierten Dokumentation. Verwenden Sie den linken Pfeil, um die Funktionskarten zu scrollen.
 
 ![](assets/home.png)
 
