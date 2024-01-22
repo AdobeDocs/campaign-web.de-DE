@@ -2,16 +2,16 @@
 audience: end-user
 title: Zielgruppen erstellen
 description: Erfahren Sie, wie Sie Zielgruppen in Adobe Campaign Web erstellen.
-badge: label="Beta"
+badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
-source-git-commit: 523a43bef4f179740a96039ac2fc5f4f858aa1dc
+source-git-commit: 1206da29f9987b55b957b6845e3dbf1e71ef03ed
 workflow-type: tm+mt
-source-wordcount: '678'
-ht-degree: 84%
+source-wordcount: '896'
+ht-degree: 50%
 
 ---
 
-# Zielgruppen erstellen {#create-audiences}
+# Erstellen von Zielgruppen {#create-audiences}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn1"
@@ -48,18 +48,20 @@ Nachdem Sie Ihren Workflow erstellt haben, werden die resultierenden Zielgruppen
 Gehen Sie wie folgt vor, um eine Zielgruppe zu erstellen:
 
 1. Navigieren Sie zum Menü **[!UICONTROL Zielgruppen]** und klicken Sie auf die Schaltfläche **[!UICONTROL Zielgruppe erstellen]** oben rechts.
-1. Geben Sie einen Titel für Ihre Zielgruppe an.
-1. Erweitern Sie den Abschnitt **[!UICONTROL Zusätzliche Optionen]**, um die erweiterten Zielgruppenparameter zu konfigurieren.
 
-   Standardmäßig werden Zielgruppen im Explorer-Menü **[!UICONTROL Profile und Zielgruppen]**/**[!UICONTROL Listen]** erstellt. Sie können den standardmäßigen Speicherort mithilfe des Feldes **[!UICONTROL Ordner]** ändern.
+1. Ein neuer Workflow wird automatisch erstellt, mit dem Sie Aktivitäten zur Erstellung Ihrer Audience kombinieren können. Die Arbeitsfläche enthält standardmäßig zwei Hauptaktivitäten:
 
-   ![](assets/audiences-settings.png)
+   * Die &quot;Abfrage&quot; **[!UICONTROL Audience erstellen]** -Aktivität ist der Ausgangspunkt Ihres Workflows, über den Sie eine Audience erstellen und diese als Grundlage für Ihren Workflow verwenden können.
 
-1. Nachdem Sie die Zielgruppeneinstellungen konfiguriert haben, klicken Sie auf die Schaltfläche **[!UICONTROL Zielgruppe erstellen]**. Es wird eine Workflow-Arbeitsfläche mit zwei Standardaktivitäten angezeigt:
+   * Die &quot;neue Zielgruppe&quot; **[!UICONTROL Audience-Speicherung]** -Aktivität stellt den letzten Schritt in Ihrem Workflow dar, mit dem Sie die Ergebnisse als neue Zielgruppe speichern können.
 
-   * **[!UICONTROL Zielgruppe erstellen]**: Dies ist der Ausgangspunkt Ihres Workflows, mit dem Sie eine Zielgruppe erstellen und als Grundlage für Ihren Workflow verwenden können.
+   ![](assets/create-audience-blank.png)
 
-   * **[!UICONTROL Zielgruppe speichern]**: Dies ist der letzte Schritt in Ihrem Workflow, mit dem Sie die Workflow-Ergebnisse als neue Zielgruppe speichern können.
+   >[!IMPORTANT]
+   >
+   >Zielgruppen-Workflows werden im **Workflows** neben Ihren anderen Campaign-Workflows. Sie sind speziell für die Erstellung von Zielgruppen konzipiert und können anhand ihrer vertikalen Arbeitsfläche identifiziert werden.
+
+1. Für eine bessere Lesbarkeit empfehlen wir, den Namen des Workflows in den Workflow-Einstellungen zu ändern. **Titel** -Feld. [Erfahren Sie, wie Sie Workflow-Einstellungen konfigurieren](../workflows/workflow-settings.md)
 
 1. Öffnen Sie die **[!UICONTROL Audience erstellen]** und verwenden Sie das Abfragemodell, um die Population zu definieren, die in Ihre Audience aufgenommen werden soll, indem Sie die in der Datenbank enthaltenen Daten filtern. [Erfahren Sie, wie Sie eine Aktivität „Zielgruppe erstellen“ konfigurieren können](../workflows/activities/build-audience.md)
 
@@ -75,7 +77,7 @@ Gehen Sie wie folgt vor, um eine Zielgruppe zu erstellen:
 
 1. Wenn Ihr Workflow bereit ist, klicken Sie auf **[!UICONTROL Starten]**, um ihn auszuführen.
 
-Der Workflow wird in der Liste **[!UICONTROL Workflows]** gespeichert, während die resultierenden Zielgruppen in der Liste **[!UICONTROL Zielgruppen]** gespeichert werden. Erfahren Sie, wie Sie Zielgruppen überwachen und verwalten können. [diesem Abschnitt](manage-audience.md)
+Der Workflow wird im **[!UICONTROL Workflows]** Liste, während die resultierenden Zielgruppen in der **[!UICONTROL Zielgruppen]** Liste mit dem in der **Audience-Speicherung** -Aktivität. Erfahren Sie, wie Sie Zielgruppen in überwachen und verwalten [diesem Abschnitt](manage-audience.md)
 
 Jetzt können Sie diese Zielgruppe als Hauptzielgruppe eines Versands verwenden. [Weitere Informationen](add-audience.md)
 
@@ -89,3 +91,17 @@ Das folgende Beispiel zeigt einen Zielgruppen-Workflow, der so konfiguriert ist,
 1. Die Aktivität **[!UICONTROL Anreicherung]** erweitert die Zielgruppe um Informationen aus der Tabelle „Käufe“, um zu ermitteln, welcher Produkttyp von den Kundinnen gekauft wurde.
 1. Die Aktivität **[!UICONTROL Aufspaltung]** unterteilt den Workflow in zwei Pfade, die auf dem aktuellen Kauf der Kundinnen basieren.
 1. Die Aktivitäten **[!UICONTROL Zielgruppe speichern]** am Ende jedes Pfads erstellen zwei neue Zielgruppen in der Datenbank, einschließlich der in jedem Pfad berechneten Population.
+
+## Bearbeiten einer Zielgruppe {#edit}
+
+Sie können eine aus einem Workflow generierte Audience bei Bedarf ändern, indem Sie den entsprechenden Workflow erneut ausführen. Auf diese Weise können Sie Zielgruppendaten mühelos aktualisieren oder die Zielgruppe verfeinern, indem Sie die Abfrage an Ihre Anforderungen anpassen.
+
+1. Navigieren Sie zum **Zielgruppen** und öffnen Sie die Zielgruppe, die Sie bearbeiten möchten.
+1. Im **Übersicht** Registerkarte, die **Letzter Workflow** enthält einen Link zum Workflow, der zur Erstellung der Audience verwendet wird. Klicken Sie darauf, um auf den Workflow zuzugreifen.
+1. Nehmen Sie die gewünschten Änderungen vor und klicken Sie auf die **Starten** Schaltfläche, um den Workflow erneut auszuführen. Nach Abschluss des Workflows wird die aus dem Workflow resultierende Audience automatisch mit den neuesten Workflow-Ergebnissen aktualisiert.
+
+Standardmäßig ersetzt die erneute Ausführung eines Zielgruppen-Workflows den gesamten Inhalt der Audience durch neue Daten, wodurch frühere Daten verloren gehen.
+
+Wenn Sie die vorhandenen Zielgruppenergebnisse nicht ersetzen möchten, konfigurieren Sie die **Audience-Speicherung** Aktivitäten an Ihre Anforderungen anzupassen. Sie können beispielsweise die **Zielgruppenbezeichnung** um die neuen Ergebnisse in einer neuen Audience zu speichern oder die neuen Ergebnisse zum vorhandenen Audience-Inhalt hinzuzufügen, ohne vorherige Daten zu löschen. [Erfahren Sie, wie Sie die Aktivität Audience-Speicherung konfigurieren](../workflows/activities/save-audience.md)
+
+![](assets/edit-audience-save.png)
