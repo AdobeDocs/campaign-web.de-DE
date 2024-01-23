@@ -4,9 +4,9 @@ title: Verwenden der Workflow-Aktivität „Versand“
 description: Erfahren Sie, wie Sie eine Workflow-Aktivität „Versand“ hinzufügen (E-Mail, Push-Benachrichtigung, SMS).
 badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: 155b40e2-1aa2-4251-bbaa-7e16e36f649e
-source-git-commit: 74102899efa10e37705cbd3c7c6796eb6ac0b18e
+source-git-commit: f77b0771d51506d6685fd2c9c4135ef57352fc27
 workflow-type: tm+mt
-source-wordcount: '900'
+source-wordcount: '898'
 ht-degree: 70%
 
 ---
@@ -26,7 +26,7 @@ Mithilfe von Kanalaktivitäten können Sie umfassende und personalisierte Kampag
 >* [Erstellen eines eigenständigen SMS-Versands](../../sms/create-sms.md)
 >* [Erstellen eines eigenständigen Push-Versands](../../push/create-push.md)
 
-## Erstellen eines Workflows {#build-your-workflow}
+## Voraussetzungen {#channel-activity-prereq}
 
 Beginnen Sie mit der Erstellung Ihres Workflows mit den entsprechenden Aktivitäten:
 
