@@ -1,23 +1,24 @@
 ---
 title: Zielgruppendimensionen
-description: Weitere Informationen zu Zielgruppendimensionen im Adobe Campaign Web
+description: Erfahren Sie mehr über Zielgruppendimensionen in Adobe Campaign Web
 badge: label="Eingeschränkte Verfügbarkeit"
-source-git-commit: 2770ddc3d0253d40c4432f71d2b192570e632a8e
+exl-id: b910649a-7300-4f99-8f40-3a8965572ee9
+source-git-commit: 0f420559fa49efbe7eea79474d2db7341e51fca8
 workflow-type: tm+mt
 source-wordcount: '397'
-ht-degree: 61%
+ht-degree: 85%
 
 ---
 
 # Zielgruppendimensionen {#targeting-dimensions}
 
-Die Zielgruppendimension, auch bekannt als Zielgruppen-Mapping, ist der Datentyp, den ein Vorgang verarbeitet. Sie ermöglicht die Bestimmung der Zielpopulation: Profile, Vertragsempfänger, Benutzer, Abonnenten etc.
+Die Zielgruppendimension, auch bekannt als Zielgruppen-Mapping, ist der Datentyp, den ein Vorgang verarbeitet. Hier können Sie die Zielpopulation festlegen: Profile, Vertragsbegünstigte, Benutzerinnen und Benutzern, Abonnierende, usw.
 
 ## Zielgruppendimensionen von Workflows {#workflow}
 
-Die Zielgruppendimension eines Workflows wird durch die erste Aktivität **[!UICONTROL Zielgruppe erstellen]** definiert und wird bis zum Ende des Workflows für alle weiteren Aktivitäten verwendet. Wenn Sie beispielsweise eine Abfrage bezüglich der Profile aus der Datenbank durchführen, enthält die ausgehende Transition Daten vom Typ &#39;recipient&#39; und wird an die nächste Aktivität übermittelt.
+Die Zielgruppendimension eines Workflows wird durch die erste Aktivität **[!UICONTROL Zielgruppe erstellen]** definiert und wird bis zum Ende des Workflows für alle weiteren Aktivitäten verwendet. Wenn Sie z. B. Profile aus der Datenbank abfragen, enthält die ausgehende Transition Daten vom Typ „Empfänger“ und wird an die nächste Aktivität weitergeleitet.
 
-Beachten Sie, dass Sie die Zielgruppendimension in einem Workflow mithilfe der Aktivität [Dimensionsaktivität ändern](../workflows/activities/change-dimension.md) wechseln können. Auf diese Weise können Sie beispielsweise die Datenbank in einer bestimmten Tabelle (z. B. bei Käufen oder Abonnements) abfragen und dann die Zielgruppendimension in Empfänger ändern, um Sendungen an die entsprechenden Profile durchzuführen.
+Beachten Sie, dass Sie die Zielgruppendimension in einem Workflow mithilfe der Aktivität [Dimensionsänderung](../workflows/activities/change-dimension.md) wechseln können. Auf diese Weise können Sie beispielsweise die Datenbank in einer bestimmten Tabelle (z. B. zu Käufen oder Abonnements) abfragen und die Zielgruppendimension in „Empfänger“ ändern, um Sendungen an die entsprechenden Profile durchzuführen.
 
 Bei der Auswahl einer Zielgruppendimension (in den Workflow-Einstellungen oder in Aktivitäten wie **Audience erstellen**, **Abstimmung** oder **Dimensionsänderung**), wird eine Auswahl häufig verwendeter Schemata standardmäßig in der Liste angezeigt. Um alle verfügbaren Schemata anzuzeigen, aktivieren Sie die **[!UICONTROL Alle Schemata anzeigen]** Schaltfläche. Die Auswahl der Optionen wird für jeden Benutzer gespeichert.
 
@@ -25,7 +26,7 @@ Bei der Auswahl einer Zielgruppendimension (in den Workflow-Einstellungen oder i
 
 ## Zielgruppendimensionen {#list}
 
-Standardmäßig sind die Zielprofile für E-Mail- und SMS-Versandvorlagen ausgewählt. Ihr Zielgruppen-Mapping verwendet daher die Felder der Tabelle **nms:recipient**. Für Push-Benachrichtigungen ist die standardmäßige Zielgruppendimension **Abonnierte Anwendungen (nms:appSubscriptionRcp)**, das mit der Empfängertabelle verknüpft ist.
+Standardmäßig haben die E-Mail- und SMS-Versandvorlagen Profile als Zielgruppe. Ihr Zielgruppen-Mapping verwendet daher die Felder der Tabelle **nms:recipient**. Für Push-Benachrichtigungen ist die standardmäßige Zielgruppendimension **Abonnierte Anwendungen (nms:appSubscriptionRcp)**, das mit der Empfängertabelle verknüpft ist.
 
 Sie können auch andere integrierte Zielgruppen-Mappings in Ihren Workflows und Sendungen verwenden, die unten aufgeführt sind:
 
