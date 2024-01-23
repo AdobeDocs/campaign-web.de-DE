@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie Links hinzufügen und gesendete Nachrichten v
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
 badge: label="Eingeschränkte Verfügbarkeit"
 source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '367'
 ht-degree: 100%
 

@@ -5,9 +5,9 @@ description: Erfahren Sie, wie Sie auf Kampagnenberichte zugreifen und diese ver
 badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: 6a25a636-35d6-44c8-8635-7aec683af1f6
 source-git-commit: ac9a7918045e7ff02ef27c348b28a6ce09802caf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '269'
-ht-degree: 30%
+ht-degree: 100%
 
 ---
 
@@ -25,42 +25,42 @@ ht-degree: 30%
 >abstract="The Tracking tab within your report offers valuable data, including recipient behavior per link, breakdown of opens and clicks, as well as detailed information about the most frequently clicked URLs during a delivery."
 -->
 
-**Kampagnenberichte** bieten einen umfassenden Überblick über Ihre **Kampagne** und enthalten alle relevanten Informationen zu den verschiedenen zugehörigen Sendungen. Diese Berichte enthalten eine gründliche Analyse der Leistung jedes Versands pro Kanal: Erfolgsraten, Zielgruppeninteraktion und andere wichtige Metriken. Sie ermöglichen es Ihnen, die Effektivität und Wirkung Ihrer Kampagne insgesamt zu bewerten.
+Die **Kampagnenberichte** bieten einen umfassenden Überblick über Ihre **Kampagne** und alle relevanten Informationen zu den verschiedenen zugehörigen Sendungen. Diese Berichte enthalten eine gründliche Analyse der Leistung jedes Versands pro Kanal: Erfolgsraten, Zielgruppeninteraktion und andere wichtige Metriken. Sie ermöglichen es Ihnen, die Effektivität und Wirkung Ihrer Kampagne insgesamt zu bewerten.
 
 Die vollständige Liste der Berichte und zugehörigen Metriken für jeden Kanal finden Sie auf den folgenden Seiten:
 
-* [Email-Kampagnenkanal](campaign-reports-email.md)
+* [E-Mail-Kampagnenkanal](campaign-reports-email.md)
 * [SMS-Kampagnenkanal](campaign-reports-sms.md)
 * [Push-Kampagnenkanal](campaign-reports-push.md)
 
-## Bericht-Dashboard verwalten {#manage-reports}
+## Verwalten Ihres Bericht-Dashboards {#manage-reports}
 
 Gehen Sie wie folgt vor, um auf Kampagnenberichte zuzugreifen und diese zu verwalten:
 
-1. Navigieren Sie zum **[!UICONTROL Kampagnen]** Menü. Klicken Sie auf **Berichte** im Dashboard Ihrer Kampagne.
+1. Navigieren Sie zum Menü **[!UICONTROL Kampagnen]**. Klicken Sie auf die Schaltfläche **Berichte** im Dashboard Ihrer Kampagne.
 
    ![](assets/manage_campaign_report_2.png)
 
-   Alternativ können Sie die drei Punkte verwenden **Mehr Aktionen** neben dem Kampagnennamen in der Kampagnenliste und wählen Sie **[!UICONTROL Bericht anzeigen]**.
+   Alternativ können Sie auch in der Kampagnenliste auf die Schaltfläche mit den drei Punkten **Mehr Aktionen** neben dem Kampagnennamen klicken und **[!UICONTROL Bericht anzeigen]** auswählen.
 
    ![](assets/manage_campaign_report_1.png)
 
-1. Wählen Sie im linken Menü einen Bericht aus der Liste aus und navigieren Sie durch die Registerkarte , um Daten aus den einzelnen Kanälen anzuzeigen.
+1. Wählen Sie im linken Menü einen Bericht aus der Liste aus und navigieren Sie durch die Registerkarte, um Daten aus den einzelnen Kanälen anzuzeigen.
 
    ![](assets/manage_campaign_report_4.png)
 
-1. Klicken Sie in Ihrem Dashboard auf **[!UICONTROL Sendungen auswählen]** , wenn Sie einen bestimmten Versand in Ihrer Kampagne auswählen möchten.
+1. Klicken Sie in Ihrem Dashboard auf **[!UICONTROL Sendungen auswählen]**, um einen bestimmten Versand in Ihrer Kampagne auszuwählen.
 
-1. Im **[!UICONTROL Versanddurchsatz]** Menü, wählen Sie eine **Starten** und **[!UICONTROL Endzeit]** , um bestimmte Daten auszuwählen.
+1. Wählen Sie im Menü **[!UICONTROL Versanddurchsatz]** eine **Startzeit** und eine **[!UICONTROL Endzeit]** aus, um bestimmte Daten einzuschließen.
 
    ![](assets/manage_campaign_report_3.png)
 
-1. Aus dem **[!UICONTROL Ordner auswählen]** auswählen, ob Sie Sendungen oder Kampagnen aus einem bestimmten Ordner in die Zielgruppe aufnehmen möchten.
+1. Geben Sie im Feld **[!UICONTROL Ordner auswählen]** an, ob Sie Sendungen oder Kampagnen aus einem bestimmten Ordner als Ziel verwenden möchten.
 
-   Sie können auch **[!UICONTROL Regeln hinzufügen]** , um Abfragen zu erstellen und Berichtsdaten besser zu filtern. [Erfahren Sie, wie Sie das Abfragemodell verwenden](../query/query-modeler-overview.md)
+   Sie können auch mit **[!UICONTROL Regeln hinzufügen]** Abfragen erstellen, um die Berichtsdaten besser zu filtern. [So verwenden Sie den Abfrage-Modeler](../query/query-modeler-overview.md)
 
    ![](assets/manage_campaign_report_4.png)
 
-1. Aus dem **[!UICONTROL URLs und Clickstreams]** können Sie auch die **[!UICONTROL Top besuchte Links]** oder **[!UICONTROL Zeitraum]**.
+1. Unter **[!UICONTROL URLs und Clickstreams]** können Sie auch die Option **[!UICONTROL Am häufigsten besuchte Links]** oder **[!UICONTROL Zeitraum]** auswählen.
 
-   Die **[!UICONTROL Anzeigen nach]** -Optionen ermöglichen das Filtern nach URLs, Bezeichnungen oder Kategorien.
+   Mit der Option **[!UICONTROL Anzeigen nach]** können Sie nach URLs, Bezeichnungen oder Kategorien filtern.

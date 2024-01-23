@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie auf E-Mail-Versandberichte zugreifen und dies
 badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: 2a0bd3e9-5d75-47c8-bd6a-b3e0b1ce0a01
 source-git-commit: c5b4e1d44977b43324e85a7b5e173ef3154a620d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2245'
 ht-degree: 100%
 

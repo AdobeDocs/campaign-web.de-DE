@@ -5,9 +5,9 @@ description: Erfahren Sie, wie Sie mit Adobe Campaign Web einen Workflow erstell
 badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
 source-git-commit: 24521be2c796b5714712849355c3d033537847bc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '748'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -29,13 +29,13 @@ Sie können eigenständige Workflows oder Workflows innerhalb einer Kampagne ers
 
 Gehen Sie dazu wie folgt vor:
 
-1. So erstellen Sie eine **Eigenständiger Workflow**, navigieren Sie zum **Workflows** Menü. Um einen **Kampagnen-Workflow** zu erstellen, navigieren Sie zum Menü **Kampagnen** und öffnen Sie die Kampagne, für die Sie einen neuen Workflow erstellen möchten.
+1. Um einen **eigenständigen Workflow** zu erstellen, navigieren Sie zum Menü **Workflows**. Um einen **Kampagnen-Workflow** zu erstellen, navigieren Sie zum Menü **Kampagnen** und öffnen Sie die Kampagne, für die Sie einen neuen Workflow erstellen möchten.
 
 1. Klicken Sie auf die Schaltfläche **[!UICONTROL Workflow erstellen]** in der rechten oberen rechten Ecke des Bildschirms.
 
    ![](assets/workflow-create.png)
 
-1. Wählen Sie im Dialogfeld **Eigenschaften** die Vorlage aus, die zum Erstellen des Workflows verwendet werden soll (Sie können auch die integrierte Standardvorlage verwenden). [Weitere Informationen zu Workflow-Vorlagen](#workflow-templates).
+1. Wählen Sie im Dialogfeld **Eigenschaften** die Vorlage aus, die zum Erstellen des Workflows verwendet werden soll (Sie können auch die integrierte Standardvorlage verwenden). [Erfahren Sie mehr über Workflow-Vorlagen](#workflow-templates).
 
 1. Geben Sie dem Workflow einen Titel. Darüber hinaus empfehlen wir dringend, Ihrem Workflow eine Beschreibung im dedizierten Feld im Abschnitt **[!UICONTROL Zusätzliche Optionen]** des Bildschirms hinzuzufügen.
 
@@ -45,7 +45,7 @@ Gehen Sie dazu wie folgt vor:
 
 1. Klicken Sie auf die Schaltfläche **[!UICONTROL Workflow erstellen]** zur Bestätigung der Workflow-Erstellung.
 
-Ihr Workflow wurde jetzt erstellt und ist in der Liste der Workflows verfügbar. Sie können jetzt auf die visuelle Arbeitsfläche zugreifen und mit dem Hinzufügen, Konfigurieren und Orchestrieren der Aufgaben beginnen, die ausgeführt werden sollen. [Erfahren Sie, wie Sie Workflow-Aktivitäten koordinieren.](orchestrate-activities.md).
+Ihr Workflow wurde jetzt erstellt und ist in der Liste der Workflows verfügbar. Sie können jetzt auf die visuelle Arbeitsfläche zugreifen und mit dem Hinzufügen, Konfigurieren und Orchestrieren der Aufgaben beginnen, die ausgeführt werden sollen. [Erfahren Sie, wie Sie Workflow-Aktivitäten orchestrieren](orchestrate-activities.md)
 
 ## Arbeiten mit Workflow-Vorlagen {#workflow-templates}
 

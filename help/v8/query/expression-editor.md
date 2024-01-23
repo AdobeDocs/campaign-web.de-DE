@@ -4,15 +4,15 @@ title: Erstellen Ihrer erste Abfrage mithilfe des Abfrage-Modelers
 description: Erfahren Sie, wie Sie Ihre erste Abfrage im Abfrage-Modeler in Adobe Campaign Web erstellen.
 badge: label="Eingeschränkte Verfügbarkeit"
 source-git-commit: 26d4b548a7019a79826af435a90deb72e956bcde
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2008'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
-# Bearbeitung von Ausdrücken {#expression}
+# Bearbeiten von Ausdrücken {#expression}
 
-Die Bearbeitung von Ausdrücken erfolgt durch die manuelle Eingabe von Bedingungen, die in ihrer Gesamtheit eine Regel bilden. In diesem Modus können Sie erweiterte Funktionen verwenden, mit denen Sie die für bestimmte Abfragen verwendeten Werte bearbeiten können, z. B. Datumsangaben, Strings, numerische Felder, Sortierung usw.
+Die Bearbeitung von Ausdrücken erfolgt durch die manuelle Eingabe von Bedingungen, die in ihrer Gesamtheit eine Regel bilden. Dieser Modus bietet erweiterte Funktionen, mit denen Sie die Werte zur Durchführung bestimmter Abfragen ändern können, z. B. Bearbeitung von Daten, Zeichenfolgen, Nummernfeldern, Sortierungen, usw.
 
 >[!IMPORTANT]
 >
@@ -20,31 +20,31 @@ Die Bearbeitung von Ausdrücken erfolgt durch die manuelle Eingabe von Bedingung
 
 ## Arbeiten mit dem Ausdruckseditor {#edit}
 
-Der Ausdruckseditor ist über das Abfragemodell verfügbar. **[!UICONTROL Ausdruck bearbeiten]** Schaltfläche, verfügbar für **[!UICONTROL Attribut]** und **[!UICONTROL Wert]** bei der Konfiguration einer benutzerdefinierten Bedingung.
+Der Ausdruckseditor steht bei der Konfiguration einer benutzerdefinierten Bedingung im Abfrage-Modeler unter **[!UICONTROL Ausdruck bearbeiten]** für die Felder **[!UICONTROL Attribut]** und **[!UICONTROL Wert]** zur Verfügung.
 
-| Zugriff über **Attribut** field | Zugriff über **Wert** field |
+| Zugriff über das Feld **Attribut** | Zugriff über das Feld **Wert** |
 |  ---  |  ---  |
 | ![](assets/expression-editor-attribute.png){width="200" align="center" zoomable="yes"} | ![](assets/edit-expression.png){width="200" align="center" zoomable="yes"} |
 
 Der Ausdruckseditor bietet Folgendes:
 
-* Ein **Eingabefeld (1)** in dem der Ausdruck definiert ist.
-* Die Liste der verfügbaren **fields (2)** die im Ausdruck verwendet werden können und der Zielgruppendimension der Abfrage entsprechen.
+* Ein **Eingabefeld (1)**, in dem der Ausdruck definiert wird.
+* Die Liste der verfügbaren **Felder (2)**, die im Ausdruck verwendet werden können und die der Zielgruppendimension der Abfrage entsprechen.
 * **Hilfsfunktionen (3)**, sortiert nach Kategorie.
 
-Bearbeiten Sie den Ausdruck, indem Sie ihn direkt in das Eingabefeld eingeben. Um ein Feld oder eine Hilfsfunktion hinzuzufügen, platzieren Sie den Cursor in dem Ausdruck, in dem Sie es hinzufügen möchten, und klicken Sie auf die Schaltfläche + .
+Bearbeiten Sie den Ausdruck, indem Sie ihn direkt in das Eingabefeld eingeben. Um ein Feld oder eine Hilfsfunktion hinzuzufügen, gehen Sie mit dem Cursor zu dem Ausdruck, zu dem Sie es/sie hinzufügen möchten, und klicken Sie auf die Schaltfläche „+“.
 
 ![](assets/expression-editor.png)
 
-Wenn Ihr Ausdruck fertig ist, klicken Sie auf die **[!UICONTROL Bestätigen]** Schaltfläche. Der Ausdruck wird im ausgewählten Feld angezeigt. Öffnen Sie zum Bearbeiten den Ausdruckseditor und nehmen Sie die gewünschten Änderungen vor.
+Wenn Ihr Ausdruck fertig ist, klicken Sie auf **[!UICONTROL Bestätigen]**. Der Ausdruck wird im ausgewählten Feld angezeigt. Öffnen Sie zum Bearbeiten den Ausdruckseditor und nehmen Sie die gewünschten Änderungen vor.
 
-Das folgende Beispiel zeigt einen für die **[!UICONTROL Wert]** -Feld. Um sie zu bearbeiten, müssen Sie den Ausdruckseditor mit dem **[!UICONTROL Ausdruck bearbeiten]** Schaltfläche.
+Das folgende Beispiel zeigt einen für das Feld **[!UICONTROL Wert]** konfigurierten Ausdruck. Um ihn zu bearbeiten, müssen Sie den Ausdruckseditor über die Schaltfläche **[!UICONTROL Ausdruck bearbeiten]** öffnen.
 
 ![](assets/edit-expression-value.png)
 
 ## Hilfsfunktionen
 
-Das Abfragetool ermöglicht die Verwendung erweiterter Funktionen, um je nach den gewünschten Ergebnissen und den Datentypen komplexe Filter durchzuführen. Folgende Funktionen stehen zur Verfügung:
+Der Abfrageeditor bietet fortgeschrittene Funktionen zur Erstellung komplexer Filter, je nach den gewünschten Ergebnissen und der Art der bearbeiteten Daten. Folgende Funktionen stehen zur Verfügung:
 
 ### Aggregat
 
@@ -328,7 +328,7 @@ Die Datumsfunktionen dienen der Manipulation von Datums- oder Uhrzeitwerten.
   </tr>
   <tr> 
    <td> <strong>YearsAgo</strong><br /> </td> 
-   <td> Gibt die Anzahl von Jahren zwischen einem bestimmten Datum und dem aktuellen Datum aus<br /> </td> 
+   <td> Gibt die Anzahl von Jahren zwischen einem bestimmten Datum und dem aktuellen Datum wieder<br /> </td> 
    <td> YearsAgo(&lt;date&gt;)<br /> </td>  
   </tr> 
   <tr> 
@@ -589,12 +589,12 @@ Die String-Funktionen dienen der Manipulation einer Reihe von Strings.
   <tr> 
    <td> <strong>Charindex</strong><br /> </td> 
    <td> Gibt die Position von Zeichenfolge 2 in Zeichenfolge 1 zurück.<br /> </td> 
-   <td> Charindex(&lt;String&gt;, &lt;String&gt;)<br /></td> 
+   <td> Charindex(&lt;string&gt;, &lt;string&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>dataLength</strong><br /> </td> 
-   <td> Gibt die Größe des Strings in Byte aus<br /> </td> 
-   <td> dataLength(&lt;String&gt;)<br /></td> 
+   <td> Gibt die Größe der Zeichenfolge in Bytes zurück<br /> </td> 
+   <td> dataLength(&lt;string&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>GetLine</strong><br /> </td> 
@@ -619,7 +619,7 @@ Die String-Funktionen dienen der Manipulation einer Reihe von Strings.
   <tr> 
    <td> <strong>JuxtWords3</strong><br /> </td> 
    <td> Verkettet die zwei als Parameter übergebenen Zeichenfolgen. Fügt bei Bedarf Leerzeichen zwischen den Zeichenfolgen hinzu<br /> </td> 
-   <td> JuxtWords3(&lt;String&gt;, &lt;String&gt;, &lt;String&gt;)<br /></td>  
+   <td> JuxtWords3(&lt;string&gt;, &lt;string&gt;, &lt;string&gt;)<br /></td>  
   </tr> 
   <tr> 
    <td> <strong>Left</strong><br /> </td> 
@@ -644,7 +644,7 @@ Die String-Funktionen dienen der Manipulation einer Reihe von Strings.
   <tr> 
    <td> <strong>LPad</strong><br /> </td> 
    <td> Gibt den String linksseitig aufgefüllt aus<br /> </td> 
-   <td> LPad (&lt;string&gt;, &lt;number&gt;, &lt;char&gt;)<br /></td> 
+   <td> LPad (&lt;String&gt;, &lt;Number&gt;, &lt;Char&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Ltrim</strong><br /> </td> 
@@ -664,7 +664,7 @@ Die String-Funktionen dienen der Manipulation einer Reihe von Strings.
   <tr> 
    <td> <strong>NodeValue</strong><br /> </td> 
    <td> Extrahiert den Wert eines XML-Felds aus seinem XPath und den Felddaten<br /> </td> 
-   <td> NodeValue (&lt;string&gt;, &lt;string&gt;)<br /></td> 
+   <td> NodeValue (&lt;String&gt;, &lt;String&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Right</strong><br /> </td> 
@@ -684,12 +684,12 @@ Die String-Funktionen dienen der Manipulation einer Reihe von Strings.
   <tr> 
    <td> <strong>Sha256Digest</strong><br /> </td> 
    <td> Hexadezimale Darstellung des SHA256-Schlüssels einer Zeichenfolge.<br /> </td> 
-   <td> Sha256Digest (&lt;string&gt;)<br /> </td> 
+   <td> Sha256Digest (&lt;String&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Sha512Digest</strong><br /> </td> 
    <td> Hexadezimale Darstellung des SHA512-Schlüssels einer Zeichenfolge.<br /> </td> 
-   <td> Sha512Digest (&lt;string&gt;)<br /> </td> 
+   <td> Sha512Digest (&lt;String&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Smart</strong><br /> </td> 
@@ -735,8 +735,8 @@ Die String-Funktionen dienen der Manipulation einer Reihe von Strings.
   </tr> 
   <tr> 
    <td> <strong>_Over__</strong><br /> </td> 
-   <td> Ausführen des SQL-Funktionsaufrufs, der als 1. Parameter über Partition oder Reihenfolge eingegeben wurde Von den als 2. Parameter eingegebenen Feldern<br /> </td> 
-   <td> _Over_ (&lt;value&gt;, &lt;value&gt;)<br /> </td>  
+   <td> Ruft die als ersten Parameter eingegebene SQL-Funktion über die als zweiten Parameter eingegebenen Felder „Partition“ oder „Anordnen nach“ aus<br /> </td> 
+   <td> _Over_ (&lt;Value&gt;, &lt;Value&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Desc</strong><br /> </td> 

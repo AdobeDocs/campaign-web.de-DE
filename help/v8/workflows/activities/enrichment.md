@@ -5,9 +5,9 @@ description: Erfahren Sie, wie Sie die Workflow-Aktivität „Anreicherung“ ve
 badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
 source-git-commit: fb72b943b324990f6dd82a4a05bfd28e5452480a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '724'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -34,13 +34,13 @@ Anreicherungsdaten können verschiedene Ursprünge haben:
 
 * **Aus derselben Arbeitstabelle** wie die Zielgruppe in Ihrem Workflow:
 
-  *Targeting einer Kundengruppe und Hinzufügen des Felds &quot;Geburtsdatum&quot;zur aktuellen Arbeitstabelle*.
+  *Bestimmung einer Kundenzielgruppe und Hinzufügen des Felds „Geburtsdatum“ zur aktuellen Arbeitstabelle*
 
 * **Aus einer anderen Arbeitstabelle**:
 
   *Zielgruppenbestimmung einer Kundengruppe und Hinzufügen der Felder „Betrag“ und „Produkttyp“ aus der „Kauf“-Tabelle*.
 
-Nachdem die Anreicherungsdaten zum Workflow hinzugefügt wurden, können sie in den Aktivitäten verwendet werden, die nach dem **Anreicherung** Aktivität , um Kunden basierend auf ihren Verhaltensweisen, Vorlieben und Anforderungen in verschiedene Gruppen zu unterteilen oder um personalisierte Marketing-Nachrichten und -Kampagnen zu erstellen, die mit größerer Wahrscheinlichkeit bei Ihrer Zielgruppe ankommen.
+Nachdem die Anreicherungsdaten zum Workflow hinzugefügt wurden, können sie in den Aktivitäten verwendet werden, die im Anschluss an die Aktivität **Anreicherung** hinzugefügt wurden, um Kundinnen und Kunden basierend auf ihren Verhaltensweisen, Vorlieben und Bedürfnissen in verschiedene Gruppen zu unterteilen oder um personalisierte Marketing-Nachrichten und -Kampagnen zu erstellen, die Ihre Zielgruppe mit größerer Wahrscheinlichkeit ansprechen.
 
 Sie können beispielsweise der Workflow-Arbeitstabelle Informationen zu Käufen von Kundinnen und Kunden hinzufügen und diese Daten verwenden, um E-Mails mit ihrem neuesten Kauf oder dem für diese Käufe ausgegebenen Betrag zu personalisieren.
 
@@ -50,13 +50,13 @@ Führen Sie die folgenden Schritte aus, um die Aktivität **Anreicherung** zu ko
 
 1. Fügen Sie Aktivitäten wie **Zielgruppe erstellen** und **Kombinieren** hinzu.
 1. Fügen Sie eine Aktivität vom Typ **Anreicherung** hinzu.
-1. Klicks **Anreicherungsdaten hinzufügen** und wählen Sie das Attribut zur Anreicherung der Daten aus.
+1. Klicken Sie auf **Anreicherungsdaten hinzufügen** und wählen Sie das Attribut zur Datenanreicherung aus.
 
    Sie können zwei Arten von Anreicherungsdaten auswählen: ein [einzelnes Anreicherungsattribut](#single-attribute) aus der Zielgruppendimension oder eine [Sammlungsrelation](#collection-link).
 
    >[!NOTE]
    >
-   >Die **Schaltfläche &quot;Ausdruck bearbeiten&quot;** im Bildschirm zur Attributauswahl können Sie erweiterte Ausdrücke erstellen, um das Attribut auszuwählen. [Erfahren Sie, wie Sie mit dem Ausdruckseditor arbeiten.](../../query/expression-editor.md)
+   >Über die **Schaltfläche „Ausdruck bearbeiten“** im Attributauswahl-Bildschirm können Sie erweiterte Ausdrücke zur Attributauswahl erstellen. [Erfahren Sie mehr über die Arbeit mit dem Ausdruckseditor](../../query/expression-editor.md)
 
    ![](../assets/workflow-enrichment1.png)
 
@@ -104,7 +104,7 @@ Wenn Sie beispielsweise die durchschnittliche Anzahl der Käufe für eine Person
 
 ### Definieren von Filtern{#collection-filters}
 
-Hier definieren wir den Maximalwert für das Anreicherungsattribut. Wir filtern Elemente heraus, die größer als 100$ sind. [Erfahren Sie, wie Sie mit dem Abfragemodell arbeiten.](../../query/query-modeler-overview.md)
+Hier definieren wir den Maximalwert für das Anreicherungsattribut. Wir filtern Elemente mit einem Preis von mehr als 100 USD heraus. [Erfahren Sie mehr über die Arbeit mit dem Abfrage-Modeler](../../query/query-modeler-overview.md)
 
 1. Klicken Sie auf **Filter bearbeiten**.
 1. Fügen Sie die beiden folgenden Filter hinzu: **Gesamtbetrag** vorhanden UND **Gesamtbetrag** ist kleiner als 100. Der erste filtert NULL-Werte, da sie als größter Wert erscheinen würden.

@@ -5,9 +5,9 @@ description: Erfahren Sie, wie Sie einen SMS-Versand entwerfen.
 badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: 54288448-d568-4be4-ab6c-d0f8fa7bc2cb
 source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '258'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ Gehen Sie wie folgt vor, um den Inhalt eines SMS-Versands zu erstellen:
 
 1. Standardmäßig ist für Sendungen das Tracking aktiviert. Sie können diese Option im **[!UICONTROL Abschnitt „Optionale Funktionen“]** deaktivieren.
 
-1. Klicks **[!UICONTROL Einstellungen]** , um auf erweiterte Optionen zu Ihrer Versandvorlage zuzugreifen. [Weitere Informationen](../advanced-settings/delivery-settings.md)
+1. Klicken Sie auf **[!UICONTROL Einstellungen]**, um auf erweiterte Optionen für Ihre Versandvorlage zuzugreifen. [Weitere Informationen](../advanced-settings/delivery-settings.md)
 
 1. Greifen Sie auf das Menü **[!UICONTROL Inhalt simulieren]** zu, um eine Vorschau Ihres personalisierten Inhalts anzuzeigen. [Weitere Informationen](send-sms.md#preview-sms)
 

@@ -5,9 +5,9 @@ description: Erfahren Sie, wie Sie auf Versandberichte zugreifen und diese verwe
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
 badge: label="Eingeschränkte Verfügbarkeit"
 source-git-commit: ac9a7918045e7ff02ef27c348b28a6ce09802caf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '260'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 72%
 >title="Aggregierte Berichte für Sendungen"
 >abstract="Wählen Sie mindestens zwei Sendungen aus, um einen aggregierten Datenbericht anzuzeigen."
 
-Die **Versandberichte** bieten umfassende Einblicke und Daten ausschließlich zu Ihren **Sendungen** über alle Kanäle hinweg. Diese Berichte enthalten detaillierte Informationen über Leistung, Effektivität und Ergebnisse Ihrer einzelnen Sendungen und verschaffen Ihnen einen umfassenden Überblick.
+Die **Versandberichte** bieten umfassende Einblicke und Daten, die sich ausschließlich auf Ihre **Sendungen** in jedem Kanal beziehen. Diese Berichte enthalten detaillierte Informationen über Leistung, Effektivität und Ergebnisse Ihrer einzelnen Sendungen und verschaffen Ihnen einen umfassenden Überblick.
 
 Die vollständige Liste der Berichte und zugehörigen Metriken für jeden Kanal finden Sie auf den folgenden Seiten:
 
@@ -26,11 +26,11 @@ Die vollständige Liste der Berichte und zugehörigen Metriken für jeden Kanal 
 * [SMS-Versandberichte](sms-report.md)
 * [Push-Versandberichte](push-report.md)
 
-## Bericht-Dashboard verwalten {#manage-reports}
+## Verwalten Ihres Bericht-Dashboards {#manage-reports}
 
 Adobe Campaign bietet verschiedene Berichtstypen für jeden Versand. Mit diesen Berichten können Sie die Wirkung und Leistung Ihrer Nachrichten in einem integrierten Dashboard messen und visualisieren.
 
-Gehen Sie wie folgt vor, um Berichte anzuzeigen und zu verwalten:
+Führen Sie folgende Schritte aus, um Berichte anzuzeigen und zu verwalten:
 
 1. Um einen Bericht für einen bestimmten Versand zu erstellen, navigieren Sie zum Menü **[!UICONTROL Sendungen]** und wählen Sie den Versand aus, für den Sie einen Bericht erstellen möchten.
 
@@ -38,7 +38,7 @@ Gehen Sie wie folgt vor, um Berichte anzuzeigen und zu verwalten:
 
    ![](assets/manage_delivery_report_1.png)
 
-   Alternativ können Sie die drei Punkte verwenden **Mehr Aktionen** neben dem Versandnamen in der Versandliste und wählen Sie **[!UICONTROL Bericht anzeigen]**.
+   Alternativ können Sie auch in der Versandliste auf die Schaltfläche mit den drei Punkten **Mehr Aktionen** neben dem Versandnamen klicken und **[!UICONTROL Bericht anzeigen]** auswählen.
 
    ![](assets/manage_delivery_report_2.png)
 
@@ -52,8 +52,8 @@ Gehen Sie wie folgt vor, um Berichte anzuzeigen und zu verwalten:
 
    ![](assets/delivery-recurring.png)
 
-1. Aus dem **[!UICONTROL URLs und Clickstreams]** können Sie auch die **[!UICONTROL Top besuchte Links]** oder **[!UICONTROL Zeitraum]**.
+1. Unter **[!UICONTROL URLs und Clickstreams]** können Sie auch die Option **[!UICONTROL Am häufigsten besuchte Links]** oder **[!UICONTROL Zeitraum]** auswählen.
 
-   Die **[!UICONTROL Anzeigen nach]** -Optionen ermöglichen das Filtern nach URLs, Bezeichnungen oder Kategorien.
+   Mit **[!UICONTROL Anzeigen nach]** können Sie nach URLs, Bezeichnungen oder Kategorien filtern.
 
    ![](assets/manage_delivery_report_5.png)
