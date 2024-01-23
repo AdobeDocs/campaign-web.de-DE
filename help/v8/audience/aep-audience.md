@@ -2,12 +2,12 @@
 audience: end-user
 title: Verwenden einer Adobe Experience Platform-Zielgruppe
 description: Erfahren Sie, wie Sie eine Zielgruppe aus Adobe Experience Platform verwenden
-badge: label="Beta"
+badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: beb73107-3d27-40ac-afef-ac2b66ae8d34
-source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
+source-git-commit: 703196ad2bb504eb1d50008af110f952d8045eaa
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 93%
+source-wordcount: '327'
+ht-degree: 85%
 
 ---
 
@@ -40,6 +40,8 @@ Gehen Sie wie folgt vor, um eine Adobe Experience Platform-Zielgruppe für Ihren
    ![](assets/select-audience-folder.png)
 
    Sie können auch eine Regel definieren, um nach der Herkunft der Zielgruppen zu filtern, wie unten dargestellt:
+
+   Im Filterbereich können Sie auf Filteroptionen zugreifen, um die Zielgruppenliste zu präzisieren. Klicken Sie dazu auf **Regeln hinzufügen** , um auf das Abfragemodell zuzugreifen, mit dem Sie erweiterte Filter für die Zielgruppenliste erstellen können. [Erfahren Sie, wie Sie das Abfragemodell verwenden](../query/query-modeler-overview.md)
 
    ![](assets/filter-on-aep-audience.png)
 

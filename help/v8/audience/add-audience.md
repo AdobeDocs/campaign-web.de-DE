@@ -3,11 +3,11 @@ audience: end-user
 title: Auswählen einer bestehenden Zielgruppe
 description: Erfahren Sie, wie Sie eine Zielgruppe auswählen
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
-badge: label="Beta"
-source-git-commit: 68c3a19122912d730b739549ed5b37e8a34a61df
+badge: label="Eingeschränkte Verfügbarkeit"
+source-git-commit: 703196ad2bb504eb1d50008af110f952d8045eaa
 workflow-type: tm+mt
-source-wordcount: '308'
-ht-degree: 82%
+source-wordcount: '317'
+ht-degree: 66%
 
 ---
 
@@ -28,15 +28,15 @@ Auf Zielgruppen, die in Sendungen ausgewählt werden können, kann über das Men
 
 Gehen Sie wie folgt vor, um eine vorhandene Zielgruppe für Ihre Nachricht auszuwählen:
 
-1. Klicken Sie im Abschnitt **Zielgruppe** des Assistenten zur Versanderstellung auf die Schaltfläche **[!UICONTROL Zielgruppe auswählen]**
+1. Aus dem **Zielgruppe** Klicken Sie im Abschnitt des Assistenten zur Versanderstellung auf die Schaltfläche **[!UICONTROL Zielgruppe auswählen]** Schaltfläche auswählen **[!UICONTROL Zielgruppe auswählen]** , um eine bestehende Zielgruppe zu verwenden.
 
    ![](assets/create-audience.png)
 
-1. Klicken Sie auf **[!UICONTROL Zielgruppe auswählen]**, um eine bestehende Zielgruppe zu verwenden. Auf diesem Bildschirm werden alle vorhandenen Zielgruppen für den aktuellen Ordner angezeigt.
+1. Auf diesem Bildschirm werden alle vorhandenen Zielgruppen für den aktuellen Ordner angezeigt.
 
    ![](assets/create-audience2.png)
 
-   Um eine Zielgruppe aus Adobe Experience Platform auszuwählen, navigieren Sie im Filterabschnitt des Bildschirms zum `AEP Audiences folder`.
+   Um eine Zielgruppe aus Adobe Experience Platform auszuwählen, navigieren Sie zum `AEP Audiences folder` aus dem Filterbereich des Bildschirms. [Erfahren Sie, wie Sie eine Adobe Experience Platform-Zielgruppe verwenden](aep-audience.md)
 
    ![](assets/select-audience-folder.png)
 
