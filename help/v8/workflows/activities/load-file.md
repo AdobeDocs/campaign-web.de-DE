@@ -1,12 +1,13 @@
 ---
 audience: end-user
-title: Workflow-Aktivität "Datei laden"verwenden
-description: Erfahren Sie, wie Sie die Workflow-Aktivität Datei laden verwenden
+title: Verwenden der Workflow-Aktivität „Datei laden“
+description: So verwenden Sie die Workflow-Aktivität „Datei laden“
 badge: label="Eingeschränkte Verfügbarkeit"
-source-git-commit: f88c3cd200aa92f4db7a2ab36c85d778a07a4dc3
+exl-id: 230177e2-1926-451a-8a66-0db962ada514
+source-git-commit: 74102899efa10e37705cbd3c7c6796eb6ac0b18e
 workflow-type: tm+mt
 source-wordcount: '323'
-ht-degree: 31%
+ht-degree: 82%
 
 ---
 
@@ -15,7 +16,7 @@ ht-degree: 31%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile"
 >title="Aktivität „Datei laden“"
->abstract="Die **Datei laden** -Aktivität **Data Management** -Aktivität. Verwenden Sie diese Aktivität, um mit Daten zu arbeiten, die in einer externen Datei gespeichert sind."
+>abstract="Die Aktivität **Datei laden** ist eine **Daten-Management**-Aktivität Mit dieser Aktivität können Sie mit Daten arbeiten, die in einer externen Datei gespeichert sind."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_samplefile"
@@ -52,20 +53,20 @@ ht-degree: 31%
 >title="Formatierung der Aktivität „Datei laden“"
 >abstract="Formatierung der Aktivität „Datei laden“"
 
-Die **Datei laden** -Aktivität **Data Management** -Aktivität. Verwenden Sie diese Aktivität, um mit Profilen und Daten zu arbeiten, die in einer externen Datei gespeichert sind. Profile und Daten werden nicht zur Datenbank hinzugefügt, aber alle Felder in der Eingabedatei sind verfügbar für [Personalisierung](../../personalization/gs-personalization.md)oder um Profile oder andere Tabellen zu aktualisieren.
+Die Aktivität **Datei laden** ist eine **Daten-Management**-Aktivität. Mit dieser Aktivität können Sie mit Profilen und Daten arbeiten, die in einer externen Datei gespeichert sind. Profile und Daten werden nicht zur Datenbank hinzugefügt, aber alle Felder in der Eingabedatei sind verfügbar zur [Personalisierung](../../personalization/gs-personalization.md) oder um Profile oder andere Tabellen zu aktualisieren.
 
 >[!NOTE]
 >Unterstützte Dateiformate sind: Text (TXT) und kommagetrennte Werte (CSV).
 
-Diese Aktivität kann mit einer [Abstimmung](reconciliation.md) -Aktivität zum Verknüpfen nicht identifizierter Daten mit vorhandenen Ressourcen. Beispiel: die **Datei laden** -Aktivität platziert werden, bevor eine **Abstimmung** Aktivität , wenn Sie nicht standardmäßige Daten in die Datenbank importieren.
+Diese Aktivität kann mit einer [Abstimmungs](reconciliation.md)-Aktivität verwendet werden, um nicht identifizierte Daten mit vorhandenen Ressourcen zu verknüpfen. Zum Beispiel kann die Aktivität **Datei laden** vor dem Import nicht standardmäßiger Daten in die Datenbank vor einer **Abstimmungs**-Aktivität platziert werden.
 
-## Konfigurieren der Aktivität Datei laden {#load-configuration}
+## Konfigurieren der Aktivität „Datei laden“ {#load-configuration}
 
-Führen Sie die folgenden Schritte aus, um die **Datei laden** Aktivität:
+Gehen Sie wie folgt vor, um die Aktivität **Datei laden** zu konfigurieren:
 
-1. Ziehen und Ablegen eines **Datei laden** in Ihren Workflow ein. Klicken Sie auf **Aus Datei auswählen** Schaltfläche.
+1. Verschieben Sie eine Aktivität **Datei laden** per Drag-and-Drop in Ihren Workflow. Klicken Sie auf **Aus Datei auswählen**.
 
-1. Wählen Sie die zu verwendende lokale Datei aus. Das Format muss mit diesem [Beispieldatei](../../audience/file-audience.md#sample-file).
+1. Wählen Sie die zu verwendende lokale Datei aus. Das Format muss dieser [Beispieldatei](../../audience/file-audience.md#sample-file) entsprechen.
 
 1. Im mittleren Abschnitt des Bildschirms können Sie eine Vorschau der Datenzuordnung anzeigen, um sie zu überprüfen.
 
@@ -79,4 +80,4 @@ Führen Sie die folgenden Schritte aus, um die **Datei laden** Aktivität:
 
 ## Beispiel{#load-example}
 
-Beispiel für ein Laden einer externen Datei, das mit der Variablen **Abstimmung** ist verfügbar unter [diesem Abschnitt](reconciliation.md#example).
+Beispiel für ein Laden einer externen Datei, das mit der Variablen **Abstimmung** ist verfügbar unter [diesem Abschnitt](reconciliation.md#reconciliation-example).

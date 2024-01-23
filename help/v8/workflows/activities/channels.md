@@ -4,9 +4,9 @@ title: Verwenden der Workflow-Aktivität „Versand“
 description: Erfahren Sie, wie Sie eine Workflow-Aktivität „Versand“ hinzufügen (E-Mail, Push-Benachrichtigung, SMS).
 badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: 155b40e2-1aa2-4251-bbaa-7e16e36f649e
-source-git-commit: 0f420559fa49efbe7eea79474d2db7341e51fca8
+source-git-commit: 74102899efa10e37705cbd3c7c6796eb6ac0b18e
 workflow-type: tm+mt
-source-wordcount: '905'
+source-wordcount: '900'
 ht-degree: 70%
 
 ---
@@ -28,15 +28,18 @@ Mithilfe von Kanalaktivitäten können Sie umfassende und personalisierte Kampag
 
 ## Erstellen eines Workflows {#build-your-workflow}
 
-Beginnen Sie mit der Erstellung Ihres Workflows mit den relevanten Aktivitäten, bevor Sie die Kanalaktivität einfügen:
+Beginnen Sie mit der Erstellung Ihres Workflows mit den entsprechenden Aktivitäten:
 
-* Bevor Sie eine Versandaktivität einfügen, müssen Sie die Zielgruppe definieren. Die Audience ist die Hauptzielgruppe Ihres Versands: die Profile, an die die Nachrichten gesendet werden. Beim Versand von Nachrichten im Rahmen eines Kampagnen-Workflows wird die Nachrichtenzielgruppe nicht in der Kanalaktivität, sondern in einer dedizierten Aktivität definiert, z. B.:
+* Bevor Sie eine Kanalaktivität einfügen, müssen Sie die Zielgruppe definieren. Die Audience ist die Hauptzielgruppe Ihres Versands: die Profile, an die die Nachrichten gesendet werden. Beim Versand von Nachrichten im Rahmen eines Kampagnen-Workflows wird die Nachrichtenzielgruppe nicht in der Kanalaktivität, sondern in einer dedizierten Aktivität definiert, z. B.:
 
    * A **Audience erstellen** -Aktivität. [Weitere Informationen](build-audience.md).
 
-  ![](../../msg/assets/add-delivery-in-wf.png)
+     ![](../../msg/assets/add-delivery-in-wf.png)
 
    * A **Datei laden** -Aktivität und **Abstimmung** -Aktivität. [Weitere Informationen](load-file.md).
+
+     ![](../assets/workflow-reconciliation-criteria.png)
+
 
 
 * Um einen wiederkehrenden Versand zu senden, starten Sie Ihren Workflow mit einem **Planung** -Aktivität. Sie können auch eine **Planung** -Aktivität für einmalige Sendungen, um das Kontaktdatum für diesen Versand festzulegen. Dieses Kontaktdatum kann auch in den Versandeinstellungen festgelegt werden. Weitere Informationen finden Sie in [diesem Abschnitt](scheduler.md).
