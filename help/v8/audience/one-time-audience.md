@@ -2,11 +2,11 @@
 audience: end-user
 title: Erstellen einer einmaligen Zielgruppe für einen Versand
 description: Erfahren Sie, wie Sie eine einmalige Zielgruppe für einen Versand erstellen.
-badge: label="Beta"
+badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: 6f2da017-90d6-497d-bbbd-293775da00e9
-source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
+source-git-commit: a3476e46c29723af8246683a005543cfd605e7df
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '228'
 ht-degree: 85%
 
 ---
@@ -30,7 +30,7 @@ Gehen Sie wie folgt vor, um direkt aus einem Versand eine neue Zielgruppe zu ers
 
 1. Wählen Sie **Eigene erstellen** aus. Das Abfragemodell wird angezeigt. Er ermöglicht es Ihnen, die Population zu definieren, an die Ihr Versand gerichtet ist, indem Sie die in der Datenbank enthaltenen Daten filtern. [Erfahren Sie, wie Sie das Abfragemodell verwenden](../query/query-modeler-overview.md)
 
-   ![](assets/segment-builder.png)
+   ![](assets/query-modeler.png)
 
 1. Wenn Ihre Abfrage bereit ist, klicken Sie auf **Bestätigen**, um die Zielgruppe als Hauptzielgruppe Ihres Versands zu verwenden.
 

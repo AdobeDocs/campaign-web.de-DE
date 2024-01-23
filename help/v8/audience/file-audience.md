@@ -2,11 +2,11 @@
 audience: end-user
 title: Ansprechen von Empfängerinnen und Empfängern aus einer Datei
 description: Erfahren Sie, wie Sie mit Empfängerinnen und Empfängern aus einer externen Datei eine E-Mail-Zielgruppe erstellen können.
-badge: label="Beta"
+badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: bb3df3067c78311fa0ff3b9a52fe9713552fa0cf
+source-git-commit: a3476e46c29723af8246683a005543cfd605e7df
 workflow-type: tm+mt
-source-wordcount: '619'
+source-wordcount: '620'
 ht-degree: 82%
 
 ---
