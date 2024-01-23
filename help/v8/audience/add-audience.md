@@ -4,7 +4,7 @@ title: Auswählen einer bestehenden Zielgruppe
 description: Erfahren Sie, wie Sie eine Zielgruppe auswählen
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
 badge: label="Beta"
-source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
+source-git-commit: 68c3a19122912d730b739549ed5b37e8a34a61df
 workflow-type: tm+mt
 source-wordcount: '308'
 ht-degree: 82%
@@ -41,8 +41,6 @@ Gehen Sie wie folgt vor, um eine vorhandene Zielgruppe für Ihre Nachricht auszu
    ![](assets/select-audience-folder.png)
 
 1. Im Filterbereich können Sie auf Filteroptionen zugreifen, um die Zielgruppenliste zu präzisieren. Klicken Sie dazu auf **Regeln hinzufügen** , um auf das Abfragemodell zuzugreifen, mit dem Sie erweiterte Filter für die Zielgruppenliste erstellen können. [Erfahren Sie, wie Sie das Abfragemodell verwenden](../query/query-modeler-overview.md)
-
-   ![](assets/create-audience4.png)
 
 1. Klicken Sie auf **Bestätigen**, um Ihre Zielgruppe als Hauptzielgruppe des Versands hinzuzufügen. Danach können Sie die Audience mithilfe des Abfragemodells weiter einschränken, indem Sie auf die **Regeln bearbeiten** Schaltfläche.
 
