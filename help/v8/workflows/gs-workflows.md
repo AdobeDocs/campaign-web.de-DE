@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie mit Workflows beginnen
 badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
 source-git-commit: 9c72d73b5279a01492ea3ccd295e513e91f0c050
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '437'
 ht-degree: 100%
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn2"
 >title="Kanalübergreifende Workflows"
->abstract="Erschließen Sie neue Automatisierungs- und Optimierungsmöglichkeiten, um dynamischere und stärker personalisierte Journeys zu erstellen. Von der erweiterten Segmentierung bis hin zu bedingten Triggern ermöglichen unsere zusätzlichen Workflow-Aktivitäten den Versand zielgerichteter Nachrichten und die Verbesserung der Kampagnenleistung."
+>abstract="Erschließen Sie neue Automatisierungs- und Optimierungsmöglichkeiten, um dynamischere und stärker personalisierte Journeys zu erstellen. Von der erweiterten Segmentierung bis hin zu bedingten Triggern ermöglichen unsere zusätzlichen Workflow-Aktivitäten den Versand zielgerichteter Nachrichten und die Verbesserung der Kampagnen-Performance."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=de" text="Siehe Versionshinweise"
 
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_rn2"
 >title="Kanalübergreifende Workflows"
->abstract="Erschließen Sie neue Automatisierungs- und Optimierungsmöglichkeiten, um dynamischere und stärker personalisierte Journeys zu erstellen. Von der erweiterten Segmentierung bis hin zu bedingten Triggern ermöglichen unsere zusätzlichen Workflow-Aktivitäten den Versand zielgerichteter Nachrichten und die Verbesserung der Kampagnenleistung."
+>abstract="Erschließen Sie neue Automatisierungs- und Optimierungsmöglichkeiten, um dynamischere und stärker personalisierte Journeys zu erstellen. Von der erweiterten Segmentierung bis hin zu bedingten Triggern ermöglichen unsere zusätzlichen Workflow-Aktivitäten den Versand zielgerichteter Nachrichten und die Verbesserung der Kampagnen-Performance."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=de" text="Siehe Versionshinweise"
 
 <!--TO REMOVE ABOVE-->
