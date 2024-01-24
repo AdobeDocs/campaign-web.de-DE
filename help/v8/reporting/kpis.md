@@ -1,10 +1,10 @@
 ---
-title: Wichtige Leistungsindikatoren
-description: Lernen Sie, die wichtigsten Leistungsindikatoren zu verstehen.
+title: Wichtige Performance-Indikatoren
+description: Lernen Sie, die wichtigsten Performance-Indikatoren zu verstehen.
 badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: 4b182219-100b-4101-919b-b0b770dd8515
 source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1201'
 ht-degree: 100%
 
@@ -14,15 +14,15 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_kpi"
->title="Wichtige Leistungsindikatoren"
->abstract="Mit dem Abschnitt **Wichtige Leistungsindikatoren** können Sie die Effektivität Ihrer Plattform anhand gängiger KPIs überprüfen."
+>title="Wichtige Performance-Indikatoren"
+>abstract="Mit dem Abschnitt **Wichtige Performance-Indikatoren** können Sie die Effektivität Ihrer Plattform anhand gängiger KPIs überprüfen."
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_spam"
 >title="Spam"
 >abstract="Spam-KPI"
 
-Navigieren Sie zur Startseite, um die wichtigsten Leistungsindikatoren für Ihre Plattform zu überprüfen. Diese Indikatoren zeigen die Anzahl und den Prozentsatz der zugestellten, geöffneten und angeklickten Nachrichten, Abmeldungen und Fehlerraten an.
+Navigieren Sie zur Startseite, um die wichtigsten Performance-Indikatoren für Ihre Plattform zu überprüfen. Diese Indikatoren zeigen die Anzahl und den Prozentsatz der zugestellten, geöffneten und angeklickten Nachrichten, Abmeldungen und Fehlerraten an.
 
 Die Metriken werden standardmäßig für die Sendungen der letzten sieben Tage berechnet. Sie können den Zeitraum in der Dropdown-Liste oben rechts auf der Karte ändern. Nachrichten, die an Testprofile gesendet werden, sind ausgeschlossen.
 
@@ -84,7 +84,7 @@ Der Indikator **Klicks** zeigt für jeden Kanal die folgenden KPIs an:
 
 * Die Anzahl unterschiedlicher Personen, die bei einem jeweiligen Versand mindestens einmal geklickt haben. Abmelde-Links und Links zur E-Mail-Mirrorseite werden ausgeschlossen.
 
-Diese Metriken basieren auf der konsolidierten Tracking-Tabelle (`nms:trackingStats`). Diese Aggregattabelle wird aus Leistungsgründen bei der Anzeige von Berichten anstelle der Tabelle „Trackinglogs der Empfänger“ (`nms:trackingLogRcp`) verwendet und wird nicht in Echtzeit berechnet. Die Tabelle wird einige Minuten nach dem Abrufen der Trackinglogs generiert.
+Diese Metriken basieren auf der konsolidierten Tracking-Tabelle (`nms:trackingStats`). Diese Aggregattabelle wird aus Performance-Gründen bei der Anzeige von Berichten anstelle der Tabelle „Trackinglogs der Empfänger“ (`nms:trackingLogRcp`) verwendet und wird nicht in Echtzeit berechnet. Die Tabelle wird einige Minuten nach dem Abrufen der Trackinglogs generiert.
 
 
 ## Abo-Raten {#ui-sub-kpi}

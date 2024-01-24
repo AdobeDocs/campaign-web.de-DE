@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie damit beginnen können, mit dem E-Mail-Design
 badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: a5b966bb-09da-4a50-98d4-010fdfbb75cf
 source-git-commit: 9c72d73b5279a01492ea3ccd295e513e91f0c050
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 100%
 

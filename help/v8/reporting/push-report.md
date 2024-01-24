@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie auf Push-Versandberichte zugreifen und diese 
 badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: 4187b553-8de7-40f4-8f30-f62e43323862
 source-git-commit: 9d3485293a6576e87e03d8691c403fcaeafbbeb1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '478'
 ht-degree: 100%
 

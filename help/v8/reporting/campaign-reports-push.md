@@ -5,7 +5,7 @@ description: Grundlegendes zu Kampagnenberichten für den Push-Kanal
 badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: 5e7ac2b8-b543-427b-846c-7c0b489cc21c
 source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '500'
 ht-degree: 100%
 
@@ -20,9 +20,9 @@ Jeder Kampagnenbericht ist in verschiedene Widgets unterteilt, die den Erfolg un
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_push_deliveries_overview"
 >title="Versandübersicht"
->abstract="Der Bericht **Versandübersicht** bietet wichtige Leistungsindikatoren (KPIs), die detaillierte Informationen darüber enthalten, wie Ihre Besucherinnen und Besucher mit dem Versand Ihrer Push-Benachrichtigunen interagieren."
+>abstract="Der Bericht **Versandübersicht** bietet wichtige Performance-Indikatoren (KPIs), die detaillierte Informationen darüber enthalten, wie Ihre Besucherinnen und Besucher mit dem Versand Ihrer Push-Benachrichtigungen interagieren."
 
-Der Bericht **[!UICONTROL Versandübersicht]** bietet wichtige Leistungsindikatoren (KPIs), die detaillierte Informationen darüber enthalten, wie Ihre Besucherinnen und Besucher mit dem Versand Ihrer Push-Benachrichtigungen interagieren. Metriken werden nachfolgend beschrieben.
+Der Bericht **[!UICONTROL Versandübersicht]** bietet wichtige Performance-Indikatoren (KPIs), die detaillierte Informationen darüber enthalten, wie Ihre Besucherinnen und Besucher mit dem Versand Ihrer Push-Benachrichtigungen interagieren. Metriken werden nachfolgend beschrieben.
 
 ![](assets/campaign-reporting-push-summary.png)
 

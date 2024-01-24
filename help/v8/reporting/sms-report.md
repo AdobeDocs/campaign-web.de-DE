@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie auf SMS-Versandberichte zugreifen und diese v
 badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: 153d3a85-0d39-42db-9906-1e7f2d1d5bae
 source-git-commit: c5b4e1d44977b43324e85a7b5e173ef3154a620d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 100%
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 >title="Versandberichte"
 >abstract="Auf der Registerkarte **Senden** Ihres Berichts erhalten Sie einen umfassenden Einblick in die Interaktionen Ihrer Besucherinnen und Besucher mit Ihren Sendungen und in etwaige Fehler, die bei ihnen aufgetreten sind."
 
-Die **Übersicht über den SMS-Versand** bietet einen umfassenden Überblick über Ihren SMS-Versand, mit umfangreichen Einblicken und spezifischen Daten. Er bietet umfassende Informationen über Leistung, Effektivität und Ergebnisse jedes Versands.
+Die **Übersicht über den SMS-Versand** bietet einen umfassenden Überblick über Ihren SMS-Versand, mit umfangreichen Einblicken und spezifischen Daten. Er bietet umfassende Informationen über Performance, Effektivität und Ergebnisse jedes Versands.
 
 ## Versandzusammenfassung {#delivery-summary}
 
@@ -27,9 +27,9 @@ Die **Übersicht über den SMS-Versand** bietet einen umfassenden Überblick üb
 >[!CONTEXTUALHELP]
 >id="acw_sms_report_overview"
 >title="SMS-Versand – Überblick"
->abstract="Der **Überblick über den SMS-Versand** bietet einen umfassenden Überblick über Ihren SMS-Versand, mit umfangreichen Einblicken und spezifischen Daten. Er bietet umfassende Informationen über Leistung, Effektivität und Ergebnisse jedes Versands."
+>abstract="Der **Überblick über den SMS-Versand** bietet einen umfassenden Überblick über Ihren SMS-Versand, mit umfangreichen Einblicken und spezifischen Daten. Er bietet umfassende Informationen über Performance, Effektivität und Ergebnisse jedes Versands."
 
-Die **[!UICONTROL Versandübersicht]** bietet wichtige Leistungsindikatoren (KPIs), die detaillierte Informationen über Erfolgs- und Fehlerraten enthalten und Auskunft darüber geben, wie Ihre Besucherinnen und Besucher mit Ihren SMS-Nachrichten interagieren.
+Die **[!UICONTROL Versandübersicht]** bietet wichtige Performance-Indikatoren (KPIs), die detaillierte Informationen über Erfolgs- und Fehlerraten enthalten und Auskunft darüber geben, wie Ihre Besucherinnen und Besucher mit Ihren SMS-Nachrichten interagieren.
 
 ![](assets/reporting_sms_3.png)
 

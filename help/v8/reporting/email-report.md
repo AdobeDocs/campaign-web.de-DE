@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie auf E-Mail-Versandberichte zugreifen und dies
 badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: 2a0bd3e9-5d75-47c8-bd6a-b3e0b1ce0a01
 source-git-commit: c5b4e1d44977b43324e85a7b5e173ef3154a620d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2245'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # E-Mail-Versandbericht {#email-report}
 
-Der **E-Mail-Versandbericht** bietet umfassende Einblicke und Daten, die speziell für den E-Mail-Kanal gelten. Er bietet detaillierte Informationen über Leistung, Effektivität und Ergebnisse Ihrer einzelnen Sendungen und verschafft Ihnen einen umfassenden Überblick.
+Der **E-Mail-Versandbericht** bietet umfassende Einblicke und Daten, die speziell für den E-Mail-Kanal gelten. Er bietet detaillierte Informationen über Performance, Effektivität und Ergebnisse Ihrer einzelnen Sendungen und verschafft Ihnen einen umfassenden Überblick.
 
 ## Versandzusammenfassung {#delivery-summary-email}
 
@@ -95,7 +95,7 @@ Der Graph und die Tabelle zu den **[!UICONTROL Ausschlussgründen]** zeigen die 
 
 * **[!UICONTROL Verweigert]**: Fehlertyp, der erzeugt wird, wenn eine Adresse vom IAP (Internet Access Provider) abgelehnt wird, z. B. nach Anwendung einer Sicherheitsregel (Anti-Spam-Software).
 
-* **[!UICONTROL Unerreichbar]**: Fehlertyp, der in der Verteilungskette der Nachricht auftritt: Vorfall im SMTP-Relais, Domain vorübergehend unerreichbar, usw.
+* **[!UICONTROL Unerreichbar]**: Fehlertyp, der in der Nachrichtenverteilungs-Zeichenfolge der Nachricht auftritt: Vorfall im SMTP-Relais, Domain vorübergehend unerreichbar, usw.
 
 * **[!UICONTROL Nicht angemeldet]**: Fehlertyp, wenn das Mobiltelefon der Empfängerin bzw. des Empfängers zum Zeitpunkt des Versands ausgeschaltet war oder über keinen Netzempfang verfügte.
 
@@ -168,7 +168,7 @@ Die in diesem Bericht angezeigten Fehler lösen einen Quarantäneprozess aus. We
 
 * **[!UICONTROL Verweigert]**: Fehlertyp, der erzeugt wird, wenn eine Adresse vom IAP (Internet Access Provider) abgelehnt wird, z. B. nach Anwendung einer Sicherheitsregel (Anti-Spam-Software).
 
-* **[!UICONTROL Unerreichbar]**: Fehlertyp, der in der Verteilungskette der Nachricht auftritt: Vorfall im SMTP-Relais, Domain vorübergehend unerreichbar, usw.
+* **[!UICONTROL Unerreichbar]**: Fehlertyp, der in der Nachrichtenverteilungs-Zeichenfolge der Nachricht auftritt: Vorfall im SMTP-Relais, Domain vorübergehend unerreichbar, usw.
 
 * **[!UICONTROL Nicht angemeldet]**: Fehlertyp, wenn das Mobiltelefon der Empfängerin bzw. des Empfängers zum Zeitpunkt des Versands ausgeschaltet war oder über keinen Netzempfang verfügte.
 
@@ -208,10 +208,10 @@ Die verfügbaren Metriken sind die gleichen wie die für die weiter oben beschri
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_delivery_statistics_indicators"
 >title=" Versandstatistiken"
->abstract="Der Bericht **Versandstatistiken** bietet wichtige Leistungsindikatoren (KPIs), die detaillierte Informationen zu den Daten liefern, die für gesendete E-Mails verfügbar sind: Erfolg, Öffnungen, Klicks und mehr."
+>abstract="Der Bericht **Versandstatistiken** bietet wichtige Performance-Indikatoren (KPIs), die detaillierte Informationen zu den Daten liefern, die für gesendete E-Mails verfügbar sind: Erfolg, Öffnungen, Klicks und mehr."
 
 
-Der Bericht **[!UICONTROL Versandstatistiken]** bietet wichtige Leistungsindikatoren (KPIs), die detaillierte Informationen zu den Daten liefern, die für gesendete E-Mails verfügbar sind. Metriken werden nachfolgend beschrieben.
+Der Bericht **[!UICONTROL Versandstatistiken]** bietet wichtige Performance-Indikatoren (KPIs), die detaillierte Informationen zu den Daten liefern, die für gesendete E-Mails verfügbar sind. Metriken werden nachfolgend beschrieben.
 
 ![](assets/reporting_email_5.png){align="center"}
 
@@ -261,10 +261,10 @@ Die Tabelle **[!UICONTROL Öffnungs- und Clickthrough-Rate]** zeigt Daten zu Ihr
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_urls_clickstreams"
 >title="URLs und Clickstreams"
->abstract="Der Bericht **URLs und Clickstreams** bietet wichtige Leistungsindikatoren (KPIs), die detaillierte Informationen zu den URLs enthalten, auf die während eines Versands am häufigsten geklickt wurde."
+>abstract="Der Bericht **URLs und Clickstreams** bietet wichtige Performance-Indikatoren (KPIs), die detaillierte Informationen zu den URLs enthalten, auf die während eines Versands am häufigsten geklickt wurde."
 
 
-Der Bericht **[!UICONTROL URLs und Clickstreams]** bietet wichtige Leistungsindikatoren (KPIs), die detaillierte Informationen zu den URLs enthalten, auf die während eines Versands am häufigsten geklickt wurde.
+Der Bericht **[!UICONTROL URLs und Clickstreams]** bietet wichtige Performance-Indikatoren (KPIs), die detaillierte Informationen zu den URLs enthalten, auf die während eines Versands am häufigsten geklickt wurde.
 
 ![](assets/reporting_email_7.png){align="center"}
 

@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie den E-Mail-Inhalt in der Web-Benutzeroberflä
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 badge: label="Eingeschränkte Verfügbarkeit"
 source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '625'
 ht-degree: 100%
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_attachment"
 >title="Anhängen von Dateien an eine E-Mail"
->abstract="Wählen Sie eine oder mehrere Dateien aus, die Sie Ihrer Nachricht anfügen möchten. Zur Vermeidung von Leistungsproblemen wird empfohlen, nicht mehr als einen Anhang pro E-Mail hinzuzufügen."
+>abstract="Wählen Sie eine oder mehrere Dateien aus, die Sie Ihrer Nachricht anfügen möchten. Zur Vermeidung von Performance-Problemen wird empfohlen, nicht mehr als einen Anhang pro E-Mail hinzuzufügen."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_options"
@@ -80,7 +80,7 @@ Gehen Sie wie folgt vor, um den Inhalt einer E-Mail zu konfigurieren oder zu bea
 
    >[!NOTE]
    >
-   >    Zur Vermeidung von Leistungsproblemen wird empfohlen, nicht mehr als einen Anhang pro E-Mail hinzuzufügen.
+   >    Zur Vermeidung von Performance-Problemen wird empfohlen, nicht mehr als einen Anhang pro E-Mail hinzuzufügen.
 
    <!--limitation on size + number of files?-->
 

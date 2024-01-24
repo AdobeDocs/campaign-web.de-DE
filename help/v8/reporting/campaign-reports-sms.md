@@ -5,7 +5,7 @@ description: Grundlegendes zu Kampagnenberichten für den SMS-Kanal
 badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: 0df9b999-84c8-4e42-b5da-857b2ef0dd75
 source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '492'
 ht-degree: 100%
 
@@ -20,10 +20,10 @@ Jeder Kampagnenbericht ist in verschiedene Widgets unterteilt, die den Erfolg un
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_sms_deliveries_overview"
 >title="Versandübersicht"
->abstract="Die **Versandübersicht** bietet wichtige Leistungsindikatoren (KPIs), die detaillierte Informationen darüber enthalten, wie Ihre Besucherinnen und Besucher mit Ihrem SMS-Versand interagieren."
+>abstract="Die **Versandübersicht** bietet wichtige Performance-Indikatoren (KPIs), die detaillierte Informationen darüber enthalten, wie Ihre Besucherinnen und Besucher mit Ihrem SMS-Versand interagieren."
 
 
-Die **[!UICONTROL Versandübersicht]** bietet wichtige Leistungsindikatoren (KPIs), die detaillierte Informationen darüber enthalten, wie Ihre Besucherinnen und Besucher mit Ihrem SMS-Versand interagieren. Metriken werden nachfolgend beschrieben.
+Die **[!UICONTROL Versandübersicht]** bietet wichtige Performance-Indikatoren (KPIs), die detaillierte Informationen darüber enthalten, wie Ihre Besucherinnen und Besucher mit Ihrem SMS-Versand interagieren. Metriken werden nachfolgend beschrieben.
 
 ![](assets/campaign_report_sms_1.png)
 
