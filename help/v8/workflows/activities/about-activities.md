@@ -7,7 +7,7 @@ exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
 source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
 workflow-type: tm+mt
 source-wordcount: '465'
-ht-degree: 35%
+ht-degree: 96%
 
 ---
 
@@ -18,30 +18,30 @@ Workflow-Aktivitäten sind in drei Kategorien unterteilt. Je nach Kontext könne
 
 Alle Aktivitäten werden in den folgenden Abschnitten beschrieben:
 
-* [Zielgruppen- und Datenverwaltungsaktivitäten](#targeting)
+* [Zielgruppenbestimmungs- und Daten-Management-Aktivitäten](#targeting)
 * [Kanalaktivitäten](#channel)
 * [Aktivitäten zur Flusskontrolle](#flow-control)
 
 ![](../assets/workflow-activities.png)
 
-## Zielgruppen- und Datenverwaltungsaktivitäten {#targeting}
+## Zielgruppenbestimmungs- und Daten-Management-Aktivitäten {#targeting}
 
 Diese Aktivitäten dienen der Zielgruppenbestimmung, Manipulation und Anreicherung von Populationsdaten. Sie ermöglichen es Ihnen, ein oder mehrere Ziele zu erstellen, indem Sie eine Zielgruppe definieren und diese Zielgruppen mithilfe von Schnittmenge, Vereinigung oder Ausschluss aufteilen oder kombinieren.
 
-* Verwenden Sie die [Audience-Speicherung](save-audience.md) -Aktivität, um eine existierende Audience zu aktualisieren oder eine neue Audience aus der zuvor durch einen Workflow berechneten Population zu erstellen.
-* Verwenden Sie die [Audience erstellen](build-audience.md) Aktivität zur Bestimmung der Zielpopulation. Sie können entweder eine vorhandene Zielgruppe auswählen oder das Abfragemodell verwenden, um Ihre eigene Abfrage zu definieren.
-* Verwenden Sie die [Kombinieren](combine.md) -Aktivität zur Segmentierung Ihrer eingehenden Population. Sie können eine Vereinigung, eine Schnittmenge oder einen Ausschluss verwenden.
-* Verwenden Sie die [Aufspaltung](split.md) Aktivität zur Segmentierung der eingehenden Population in mehrere Teilmengen.
-* Verwenden Sie die [Abstimmung](reconciliation.md) -Aktivität, um die Relation zwischen den Daten in der Adobe Campaign-Datenbank und den Daten in einer Arbeitstabelle zu definieren, z. B. Daten, die aus einer externen Datei geladen werden.
-* Verwenden Sie die [Anreicherung](enrichment.md) -Aktivität, um zusätzliche Daten zu definieren, die in Ihrem Workflow verarbeitet werden sollen. Mit dieser Aktivität können Sie die eingehende Transition nutzen und entsprechend der Konfiguration der Aktivität die ausgehende Transition mit Zusatzdaten ergänzen.
-* Verwenden Sie die [Deduplizierung](deduplication.md) Aktivität zum Löschen von Dubletten in den Ergebnissen der eingehenden Aktivitäten.
-* Verwenden Sie die [Dimensionsänderung](change-dimension.md) Aktivität , um die Zielgruppendimension während der Workflow-Erstellung zu ändern.
-* Verwenden Sie die [Datei laden](load-file.md) -Aktivität verwenden, um mit Profilen und Daten zu arbeiten, die in einer externen Datei gespeichert sind.
+* Mithilfe der Aktivität [Zielgruppe speichern](save-audience.md) können vorhandene Zielgruppen aktualisiert oder neue erstellt werden. Die hierfür erforderlichen Populationen werden im Vorfeld durch andere Workflow-Aktivitäten ermittelt.
+* Mit der Aktivität [Zielgruppe erstellen](build-audience.md) können Sie Ihre Zielgruppenpopulation definieren. Sie können entweder eine vorhandene Zielgruppe auswählen oder das Abfragemodell verwenden, um Ihre eigene Abfrage zu definieren.
+* Mit der Aktivität [Kombinieren](combine.md) können Sie Ihre eingehende Population segmentieren. Sie können eine Vereinigung, eine Schnittmenge oder einen Ausschluss verwenden.
+* Mit der Aktivität [Aufteilen](split.md) können Sie die eingehende Population in mehrere Teilmengen unterteilen.
+* Verwenden Sie die Aktivität [Abstimmung](reconciliation.md), um die Verknüpfung zwischen den Daten in der Adobe Campaign-Datenbank und den Daten in einer Arbeitstabelle zu definieren, z. B. Daten, die aus einer externen Datei geladen werden.
+* Mit der Aktivität [Anreicherung](enrichment.md) können Sie zusätzliche Daten definieren, die in Ihrem Workflow verarbeitet werden sollen. Mit dieser Aktivität können Sie die eingehende Transition nutzen und entsprechend der Konfiguration der Aktivität die ausgehende Transition mit Zusatzdaten ergänzen.
+* Mithilfe der Aktivität [Deduplizierung](deduplication.md) lassen sich Dubletten in Ergebnissen aus eingehenden Aktivitäten löschen.
+* Mit der Aktivität [Dimensionsänderung](change-dimension.md) können Sie die Zielgruppendimension ändern, während Sie Ihren Workflow erstellen.
+* Mit der Aktivität [Datei laden](load-file.md) können Sie mit Profilen und Daten arbeiten, die in einer externen Datei gespeichert sind.
 
 
 ## Kanalaktivitäten {#channel}
 
-Mit Adobe Campaign Web können Sie Marketingkampagnen über mehrere Kanäle hinweg automatisieren und ausführen. Sie können Kanalaktivitäten in der Arbeitsfläche kombinieren, um kanalübergreifende Workflows zu erstellen, mit denen Trigger-Aktionen basierend auf dem Kundenverhalten durchgeführt werden können. Die folgenden **Kanal** sind verfügbar: E-Mail-, SMS-, Android- und iOS-Push-Benachrichtigungen. [Erfahren Sie, wie Sie einen Versand im Rahmen eines Workflows einrichten.](channels.md).
+In Adobe Campaign Web können Sie Marketing-Kampagnen automatisieren und über mehrere Kanäle hinweg ausführen. Sie können Kanalaktivitäten in den Arbeitsflächen kombinieren, um kanalübergreifende Workflows zu erstellen, mit denen je nach Kundenverhalten Aktionen ausgelöst werden können. Es sind folgende **Kanalaktivitäten** verfügbar: E-Mail-, SMS-, Android- und iOS-Push-Benachrichtigungen. [Erfahren Sie, wie Sie einen Versand im Rahmen eines Workflows einrichten.](channels.md).
 
 ## Aktivitäten zur Flusskontrolle {#flow-control}
 
@@ -52,11 +52,11 @@ Mit Adobe Campaign Web können Sie Marketingkampagnen über mehrere Kanäle hinw
 
 Die folgenden Aktivitäten dienen der Anordnung und Ausführung von Workflows. Ihre Hauptaufgabe ist es, die anderen Aktivitäten zu koordinieren:
 
-* Verwenden Sie die [Planung](scheduler.md) -Aktivität, um zu planen, wann der Workflow gestartet wird.
-* Verwenden Sie die [Und-Verknüpfung](and-join.md) -Aktivität zum Synchronisieren mehrerer Ausführungszweige eines Workflows.
-* Hinzufügen einer **Ende** -Aktivität, um das Ende eines Workflows grafisch zu markieren. Diese Aktivität hat keine funktionalen Auswirkungen und ist daher optional.
-* Verwenden Sie die [Verzweigung](fork.md) -Aktivität, um ausgehende Transitionen zu erstellen und mehrere Aktivitäten gleichzeitig zu starten.
-* Hinzufügen einer [Warten](wait.md) -Aktivität die Ausführung eines Teils eines Workflows vorübergehend anhalten.
+* Mit der Aktivität [Planung](scheduler.md) können Sie planen, wann der Workflow gestartet werden soll.
+* Mit der Aktivität [Und-Verknüpfung](and-join.md) können Sie die Ausführung verschiedener Workflow-Verzweigungen synchronisieren.
+* Fügen Sie eine **End**-Aktivität hinzu, um das Ende eines Workflows grafisch zu markieren. Diese Aktivität hat keine funktionalen Auswirkungen und ist daher optional.
+* Die Aktivität [Verzweigung](fork.md) erzeugt ausgehende Transitionen, um mehrere Workflow-Aktivitäten parallel zu starten.
+* Fügen Sie eine Aktivität [Warten](wait.md) hinzu, um die Ausführung eines Teils eines Workflows vorübergehend anzuhalten.
 
 <!--
 ## Data management activities {#data-management}

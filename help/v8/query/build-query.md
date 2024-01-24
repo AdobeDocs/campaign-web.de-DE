@@ -3,10 +3,11 @@ audience: end-user
 title: Erstellen Ihrer erste Abfrage mithilfe des Abfrage-Modelers
 description: Erfahren Sie, wie Sie Ihre erste Abfrage im Abfrage-Modeler in Adobe Campaign Web erstellen.
 badge: label="Eingeschränkte Verfügbarkeit"
-source-git-commit: ed094259c71ed5da5e395d49598fe9f39980b07f
+exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
+source-git-commit: 72899742daf04a0da6e2fb3d802b7841753b8c6c
 workflow-type: tm+mt
 source-wordcount: '1920'
-ht-degree: 62%
+ht-degree: 96%
 
 ---
 
@@ -45,13 +46,13 @@ Gehen Sie wie folgt vor, um Ihre Abfrage mit einer benutzerdefinierten Bedingung
 
 1. Klicken Sie auf die Schaltfläche **+** auf dem gewünschten Knoten und wählen Sie **[!UICONTROL Benutzerdefinierte Bedingung]** aus. Der Bereich mit den benutzerdefinierten Bedingungseigenschaften wird auf der rechten Seite geöffnet.
 
-1. Wählen Sie im Feld **Attribut** das Attribut aus der Datenbank aus, das Sie zum Erstellen Ihrer Bedingung verwenden möchten. Die Attributliste enthält alle Attribute aus Ihrer Campaign-Datenbank, einschließlich der Attribute aus verknüpften Tabellen.
+1. Wählen Sie im Feld **Attribut** das Attribut aus der Datenbank aus, das Sie zum Erstellen Ihrer Bedingung verwenden möchten. Die Attributliste enthält alle Attribute aus Ihrer Campaign-Datenbank, einschließlich der mit Ihrer Tabelle verknüpften Attribute.
 
    ![](assets/query-custom-condition-fields.png)
 
    >[!NOTE]
    >
-   >Die Schaltfläche Ausdruck bearbeiten ermöglicht die Verwendung des Ausdruckseditors für Campaign-Webausdrücke, um mithilfe von Feldern aus der Datenbank und Hilfsfunktionen einen Ausdruck manuell zu definieren. [Erfahren Sie, wie Sie Ausdrücke bearbeiten](expression-editor.md)
+   >Über „Ausdruck bearbeiten“ können Sie den Campaign Web-Ausdruckseditor starten, um manuell einen Ausdruck mithilfe von Datenbankfeldern und Hilfsfunktionen festzulegen. [Erfahren Sie, wie Sie Ausdrücke bearbeiten](expression-editor.md)
 
 1. Wählen Sie in der Dropdown-Liste den anzuwendenden Operator aus. Es stehen verschiedene Operatoren zur Verfügung. Beachten Sie, dass die in der Dropdown-Liste verfügbaren Operatoren vom Datentyp des Attributs abhängen.
 
@@ -78,25 +79,25 @@ Gehen Sie wie folgt vor, um Ihre Abfrage mit einer benutzerdefinierten Bedingung
 
 +++
 
-1. Legen Sie im Feld **Wert** den erwarteten Wert fest. Sie können auch den Campaign Web-Ausdruckseditor verwenden, um einen Ausdruck manuell mithilfe von Feldern aus der Datenbank und Hilfsfunktionen zu definieren. Klicken Sie dazu auf die Schaltfläche **Ausdruck bearbeiten** Schaltfläche. [Erfahren Sie, wie Sie Ausdrücke bearbeiten](expression-editor.md)
+1. Legen Sie im Feld **Wert** den erwarteten Wert fest. Sie können auch den Campaign Web-Ausdruckseditor verwenden, um einen Ausdruck manuell mithilfe von Feldern aus der Datenbank und Hilfsfunktionen zu definieren. Klicken Sie dazu auf die Schaltfläche **Ausdruck bearbeiten**. [Erfahren Sie, wie Sie Ausdrücke bearbeiten](expression-editor.md)
 
    *Abfragebeispiel, in dem alle Profile im Alter von 21 Jahren oder älter zurückgegeben werden:*
 
    ![](assets/query-custom-condition.png)
 
-#### Benutzerdefinierte Bedingungen für verknüpfte Tabellen (1-1- und 1-N-Links){#links}
+#### Benutzerdefinierte Bedingungen für verknüpfte Tabellen (1:1- und 1:n-Relation){#links}
 
-Mit benutzerdefinierten Bedingungen können Sie Tabellen abfragen, die mit der aktuell von Ihrer Regel verwendeten Tabelle verknüpft sind. Dazu gehören Tabellen mit einer 1:1-Relation mit Kardinalität oder Sammlungstabellen (1:n-Relation).
+Mit benutzerdefinierten Bedingungen können Sie Tabellen abfragen, die mit der aktuell von Ihrer Regel verwendeten Tabelle verknüpft sind. Dazu gehören Tabellen mit einer 1:1-Relation oder Sammlungstabellen (1:n-Relation).
 
-Für **1-1-Link**, navigieren Sie zur verknüpften Tabelle, wählen Sie das gewünschte Attribut aus und definieren Sie den erwarteten Wert.
+Navigieren Sie bei einer **1:1-Relation** zur verknüpften Tabelle, wählen Sie das gewünschte Attribut aus und definieren Sie den erwarteten Wert.
 
 Sie können auch direkt einen Tabellenlink im **Wert** auswählen und bestätigen. In diesem Fall müssen die für die ausgewählte Tabelle verfügbaren Werte mithilfe einer dedizierten Auswahl ausgewählt werden, wie im folgenden Beispiel gezeigt.
 
 +++Abfragebeispiel
 
-Hier geht es bei der Abfrage um Marken, deren Titel &quot;läuft&quot; lautet.
+Hier geht es bei der Abfrage um Marken mit der Bezeichnung „Laufen“.
 
-1. Navigieren Sie in der **Marke** und wählen Sie die **Titel** -Attribut.
+1. Navigieren Sie durch die Tabelle **Marke** und wählen Sie das Attribut **Titel**.
 
    ![](assets/1-1-attribute.png){width="85%" align="center"}
 
@@ -110,13 +111,13 @@ Im Folgenden finden Sie ein Abfragebeispiel, in dem ein Tabellenlink direkt ausg
 
 +++
 
-Für **1-N-Link** können Sie Unterbedingungen definieren, um Ihre Abfrage zu verfeinern, wie im folgenden Beispiel gezeigt.
+Für eine **1:n-Relation** können Sie Unterbedingungen definieren, um Ihre Abfrage zu verfeinern, wie im folgenden Beispiel gezeigt.
 
 +++Abfragebeispiel
 
 In unserem Beispiel zielt die Abfrage auf Empfängerinnen und Empfänger ab, die im Zusammenhang mit dem BrewMaster-Produkt Einkäufe getätigt haben, und zwar für einen Gesamtbetrag von mindestens 100 USD.
 
-1. Wählen Sie die **Käufe** und bestätigen.
+1. Wählen Sie die Tabelle **Käufe** und bestätigen Sie.
 
    ![](assets/1-N-collection.png){width="50%" align="center"}
 
@@ -124,11 +125,11 @@ In unserem Beispiel zielt die Abfrage auf Empfängerinnen und Empfänger ab, die
 
    ![](assets/1-n-subcondition.png){width="85%" align="center"}
 
-1. Wählen Sie die **Preis** -Attribut- und Zielkäufe von 1000$ oder mehr
+1. Wählen Sie das Attribut **Preis** und Zielkäufe von 1000 USD oder mehr
 
    ![](assets/1-n-price.png){width="85%" align="center"}
 
-1. Fügen Sie Unterbedingungen hinzu, die Ihren Anforderungen entsprechen. In unserem Beispiel haben wir eine Bedingung hinzugefügt, um Profile auszuwählen, die ein BrewMaster-Produkt erworben haben.
+1. Fügen Sie Unterbedingungen hinzu, die Ihren Anforderungen entsprechen. In unserem Beispiel haben wir eine Bedingung für Profile hinzugefügt, die ein BrewMaster-Produkt erworben haben.
 
    ![](assets/custom-condition-1-N.png){width="85%" align="center"}
 
@@ -136,13 +137,13 @@ In unserem Beispiel zielt die Abfrage auf Empfängerinnen und Empfänger ab, die
 
 #### Arbeiten mit aggregierten Daten {#aggregate}
 
-Benutzerdefinierte Bedingungen ermöglichen Aggregat-Vorgänge. Wählen Sie dazu direkt ein Attribut aus einer Kollektionstabelle aus:
+Mit benutzerdefinierten Bedingungen können Sie Aggregierungsvorgänge ausführen. Wählen Sie dazu direkt ein Attribut aus einer Sammlungstabelle aus:
 
-1. Navigieren Sie in die gewünschte Kollektionstabelle und wählen Sie das Attribut aus, für das Sie einen Aggregat-Vorgang durchführen möchten.
+1. Navigieren Sie durch die gewünschte Sammlungstabelle und wählen Sie das Attribut aus, für das Sie einen Aggregierungsvorgang durchführen möchten.
 
    ![](assets/aggregate-attribute.png){width="85%" align="center"}
 
-1. Schalten Sie im Eigenschaftenbereich die **Aggregieren von Daten** und wählen Sie die gewünschte Aggregatfunktion aus.
+1. Aktivieren Sie im Eigenschaften-Fenster die Option **Daten aggregieren** und wählen Sie die gewünschte Aggregierungsfunktion aus.
 
    ![](assets/aggregate.png){width="85%" align="center"}
 
@@ -180,25 +181,25 @@ Gehen Sie wie folgt vor, um Ihre Abfrage mithilfe eines vordefinierten Filters z
 
    ![](assets/query-predefined-filter.png)
 
-### Komponenten kopieren und einfügen {#copy}
+### Kopieren und Einfügen von Komponenten {#copy}
 
-Mithilfe des Abfragemodells können Sie eine oder mehrere Filterkomponenten kopieren und am Ende einer Transition einfügen. Dieser Vorgang kann auf der aktuellen Abfragearbeitsfläche oder auf einer beliebigen Arbeitsfläche innerhalb Ihrer Instanz ausgeführt werden.
+Mithilfe des Abfrage-Modelers können Sie eine oder mehrere Filterkomponenten kopieren und am Ende einer Transition einfügen. Dieser Vorgang kann in der aktuellen Abfragearbeitsfläche oder in einer beliebigen Arbeitsfläche innerhalb Ihrer Instanz ausgeführt werden.
 
 >[!NOTE]
 >
->Die kopierte Auswahl wird beibehalten, solange Sie in Ihrer Instanz arbeiten. Wenn Sie sich abmelden und sich wieder anmelden, kann Ihre Auswahl nicht mehr eingefügt werden.
+>Die kopierte Auswahl wird beibehalten, solange Sie in Ihrer Instanz arbeiten. Wenn Sie sich abmelden und wieder anmelden, steht Ihre Auswahl nicht mehr zum Einfügen zur Verfügung.
 
 Gehen Sie wie folgt vor, um Filterkomponenten zu kopieren und einzufügen:
 
-1. Wählen Sie die Filterkomponente aus, die Sie kopieren möchten, indem Sie in der Arbeitsfläche der Abfrage darauf klicken. Um mehrere Komponenten auszuwählen, verwenden Sie das Tool für die Mehrfachauswahl, das in der Symbolleiste oben rechts auf der Arbeitsfläche verfügbar ist.
+1. Klicken Sie in der Abfragearbeitsfläche auf die Filterkomponente, die Sie kopieren möchten. Um mehrere Komponenten auszuwählen, verwenden Sie das Tool zur Mehrfachauswahl in der Symbolleiste oben rechts auf der Arbeitsfläche.
 
-1. Klicken Sie auf **[!UICONTROL Kopieren]** im Eigenschaftenbereich der Komponente oder im blauen Band unten im Bildschirm, wenn Sie mehrere Komponenten ausgewählt haben.
+1. Klicken Sie auf die Schaltfläche **[!UICONTROL Kopieren]** im Eigenschaften-Fenster der Komponente oder in der blauen Leiste unten im Bildschirm, wenn Sie mehrere Komponenten ausgewählt haben.
 
-   | Eine einzelne Komponente kopieren | Kopieren mehrerer Komponenten |
+   | Kopieren einer einzelnen Komponente | Kopieren mehrerer Komponenten |
    |  ---  |  ---  |
    | ![](assets/copy-single-component.png){width="200" align="center" zoomable="yes"} | ![](assets/copy-multiple-components.png){width="200" align="center" zoomable="yes"} |
 
-1. Um die Komponente(n) einzufügen, klicken Sie auf die Schaltfläche + am Ende der gewünschten Transition und wählen Sie **In Elemente einfügen**.
+1. Um die Komponente(n) einzufügen, klicken Sie auf die Schaltfläche „+“ am Ende der gewünschten Transition und wählen Sie **(n) Elemente einfügen**.
 
    ![](assets/copy-paste.png)
 
@@ -209,13 +210,13 @@ Gehen Sie wie folgt vor, um Filterkomponenten zu kopieren und einzufügen:
 >title="Gruppe"
 >abstract="Gruppe"
 
-Jedes Mal, wenn Sie Ihrer Abfrage eine neue Filterkomponente hinzufügen, wird diese automatisch durch eine **UND** Operator. Dies bedeutet, dass die Ergebnisse der beiden Filterkomponenten kombiniert werden.
+Jedes Mal, wenn Sie zu Ihrer Abfrage eine neue Filterkomponente hinzufügen, wird diese automatisch durch einen **UND**-Operator mit der anderen Komponente verknüpft. Dadurch werden die Ergebnisse der beiden Filterkomponenten kombiniert.
 
-In diesem Beispiel haben wir für die zweite Transition neue Zielgruppentyp-Filterkomponenten hinzugefügt. Die Komponente ist mit einer vordefinierten Filtertypbedingung verknüpft, die eine **UND** -Operator, d. h., die Abfrageergebnisse enthalten Empfänger, die in die Zielgruppe &quot;Madrider&quot;(vordefinierter Filter UND zur Audience &quot;Rabattjäger&quot;) aufgenommen wurden.
+In diesem Beispiel haben wir für die zweite Transition neue Zielgruppentyp-Filterkomponenten hinzugefügt. Die Komponente ist mit der vordefinierten Filtertypbedingung durch einen **UND**-Operator verknüpft, d. h. die Abfrageergebnisse enthalten Empfängerinnen und Empfänger, auf die der vordefinierte Filter „Wohnhaft in Madrid“ zutrifft UND die zur Zielgruppe „Rabattjäger“ gehören.
 
 ![](assets/query-operator.png)
 
-Um den Operator zu ändern, mit dem die Filterbedingungen verknüpft werden, klicken Sie darauf und wählen Sie den gewünschten Operator im **Gruppe** -Bereich, der auf der rechten Seite geöffnet wird.
+Um den Operator für die Verknüpfung der Filterbedingungen zu ändern, klicken Sie darauf und wählen Sie den gewünschten Operator im Bereich **Gruppe** aus, der sich rechts öffnet.
 
 Die folgenden Operatoren sind verfügbar:
 
@@ -225,9 +226,9 @@ Die folgenden Operatoren sind verfügbar:
 
 ![](assets/query-operator-change.png)
 
-Darüber hinaus können Sie Zwischengruppen von Komponenten erstellen, indem Sie auf die **+** auf einer Transition angezeigt. Auf diese Weise können Sie einen Operator an diesem bestimmten Ort hinzufügen, um mehrere Komponenten zu gruppieren und Ihre Abfrage zu verfeinern.
+Darüber hinaus können Sie Zwischengruppen von Komponenten erstellen, indem Sie auf die Schaltfläche **+** auf einer Transition klicken. Auf diese Weise können Sie einen Operator an dieser bestimmten Stelle hinzufügen, um mehrere Komponenten zu gruppieren und Ihre Abfrage zu verfeinern.
 
-Im folgenden Beispiel haben wir eine Zwischengruppe erstellt, um Ergebnisse aus den Zielgruppen &quot;VIP zu belohnen&quot;oder &quot;Super VIP&quot;einzubeziehen.
+Im folgenden Beispiel haben wir eine Zwischengruppe erstellt, um Ergebnisse aus den Zielgruppen „Zu belohnende VIP“ oder „Super VIP“ einzubeziehen.
 
 ![](assets/query-intermediate-group.png)
 
@@ -249,8 +250,8 @@ Nachdem Sie Ihre Abfrage auf der Arbeitsfläche erstellt haben, können Sie sie 
   >
   >Wählen Sie im Bereich mit den Regeleigenschaften einen vordefinierten Filter aus, um die in der Arbeitsfläche erstellte Abfrage durch den ausgewählten Filter zu ersetzen.
 
-Wenn Ihre Abfrage fertig ist, klicken Sie auf die Schaltfläche **[!UICONTROL Bestätigen]** in der oberen rechten Ecke, um sie zu speichern.
+Wenn Ihre Abfrage fertig ist, klicken Sie auf die Schaltfläche **[!UICONTROL Bestätigen]** in der rechten oberen Ecke, um sie zu speichern.
 
-Sie können Ihre Abfrage jederzeit ändern, indem Sie sie öffnen. Beachten Sie, dass beim Öffnen einer vorhandenen Abfrage diese in einer vereinfachten Ansicht angezeigt wird, ohne dass  **+** Schaltflächen. Um der Abfrage neue Elemente hinzuzufügen, wählen Sie eine Komponente oder einen Operator auf der Arbeitsfläche aus, um die **+** Schaltflächen.
+Sie können Ihre Abfrage jederzeit ändern, indem Sie sie öffnen. Beachten Sie, dass beim Öffnen einer vorhandenen Abfrage diese in einer vereinfachten Ansicht angezeigt wird, ohne dass die Schaltflächen **+** angezeigt werden. Um der Abfrage neue Elemente hinzuzufügen, wählen Sie eine Komponente oder einen Operator auf der Arbeitsfläche aus, um die Schaltflächen **+** anzuzeigen.
 
 ![](assets/edit-audience.png)

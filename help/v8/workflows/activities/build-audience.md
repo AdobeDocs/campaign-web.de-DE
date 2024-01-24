@@ -7,7 +7,7 @@ exl-id: c07bb025-51b7-428e-ba00-cd552f0db9d4
 source-git-commit: 1435a8c2bc62e5064eaacf5e0cabf11d5642f152
 workflow-type: tm+mt
 source-wordcount: '410'
-ht-degree: 71%
+ht-degree: 92%
 
 ---
 
@@ -24,7 +24,7 @@ Zur Definition der Zielgruppenpopulation haben Sie folgende Möglichkeiten:
 
 * Wählen Sie eine vorhandene Zielgruppe aus, die als Liste in der Client-Konsole erstellt wurde.
 * Wählen Sie eine Adobe Experience Platform-Zielgruppe aus.
-* Erstellen Sie mit dem Query Modeler Builder eine neue Zielgruppe, indem Sie Filterkriterien definieren und kombinieren.
+* Erstellen Sie mit dem Abfrage-Modeler eine neue Zielgruppe, indem Sie Filterkriterien definieren und kombinieren.
 
 >[!NOTE]
 >
@@ -48,26 +48,26 @@ Führen Sie die folgenden Schritte aus, um die Aktivität **Zielgruppe erstellen
 1. Fügen Sie die Aktivität **Zielgruppe erstellen** hinzu.
 1. Definieren Sie einen Titel.
 1. Definieren Sie die Art der Zielgruppe: **Eigene erstellen** oder **Zielgruppe lesen**.
-1. Konfigurieren Sie Ihre Audience anhand der unten stehenden Registerkarten.
+1. Konfigurieren Sie Ihre Zielgruppe anhand der Schritte in den unten stehenden Registerkarten.
 
 >[!BEGINTABS]
 
->[!TAB Erstellen Sie Ihre eigene (Abfrage)]
+>[!TAB Eigene erstellen (Abfrage)]
 
-Gehen Sie wie folgt vor, um eine eigene Abfrage zu erstellen:
+Gehen Sie wie folgt vor, um Ihre eigene Abfrage zu erstellen:
 
 1. Wählen Sie **Eigene erstellen (Abfrage)** aus.
-1. Wählen Sie die **Zielgruppendimension**. Die Zielgruppendimension ermöglicht die Bestimmung der vom Vorgang betroffenen Population: Empfängerinnen und Empfänger, Vertragsbegünstigte, Benutzerinnen und Benutzer, Abonnentinnen und Abonnenten usw. Standardmäßig wird die Zielgruppe aus den Empfängerinnen und Empfängern ausgewählt. [Weitere Informationen zu Zielgruppendimensionen](../../audience/about-recipients.md#targeting-dimensions)
+1. Wählen Sie die **Zielgruppendimension**. Die Zielgruppendimension ermöglicht die Bestimmung der vom Vorgang betroffenen Population: Empfängerinnen und Empfänger, Vertragsbegünstigte, Benutzerinnen und Benutzer, Abonnentinnen und Abonnenten usw. Standardmäßig wird die Zielgruppe aus den Empfängerinnen und Empfängern ausgewählt. [Erfahren Sie mehr über Zielgruppendimensionen](../../audience/about-recipients.md#targeting-dimensions)
 1. Klicken Sie auf **Fortfahren**.
-1. Verwenden Sie das Abfragemodell, um Ihre Abfrage zu definieren. Dies entspricht der Erstellung einer Audience bei der Erstellung einer neuen E-Mail. [Erfahren Sie, wie Sie mit dem Abfragemodell arbeiten.](../../audience/../query/query-modeler-overview.md)
+1. Verwenden Sie den Abfrage-Modeler, um Ihre Abfrage zu definieren, genauso wie Sie eine Zielgruppe beim Entwerfen einer neuen E-Mail erstellen. [Erfahren sie mehr über die Arbeit mit dem Abfrage-Modeler](../../audience/../query/query-modeler-overview.md)
 
->[!TAB Audience lesen]
+>[!TAB Zielgruppe lesen]
 
 Gehen Sie wie folgt vor, um eine vorhandene Zielgruppe auszuwählen:
 
 1. Wählen Sie **Zielgruppe lesen** aus.
 1. Klicken Sie auf **Fortfahren**.
-1. Wählen Sie Ihre Audience auf die gleiche Weise aus wie eine Audience bei der Konzeption eines neuen Versands. Näheres dazu finden Sie in [diesem Abschnitt](../../audience/add-audience.md).
+1. Wählen Sie Ihre Zielgruppe auf die gleiche Weise aus wie beim Entwerfen eines neuen Versands. Näheres dazu finden Sie in [diesem Abschnitt](../../audience/add-audience.md).
 
 >[!ENDTABS]
 

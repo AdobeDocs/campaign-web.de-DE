@@ -7,7 +7,7 @@ exl-id: 3aef912b-086b-4aa4-9556-c09396112313
 source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
 workflow-type: tm+mt
 source-wordcount: '911'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -52,7 +52,7 @@ Andere mögliche Werte sind:
 >title="Segmentierungseinstellungen"
 >abstract="In diesem Bereich können Sie die Zielgruppendimension auswählen, um Profile im Workflow auszuwählen, und entscheiden, ob die Workflow-Ergebnisse zwischen zwei Ausführungen beibehalten werden sollen. Diese Option sollte nur zu Testzwecken verwendet werden und darf in einem Produktions-Workflow nie aktiviert werden."
 
-* **[!UICONTROL Zielgruppendimension]**: Wählen Sie die Zielgruppendimension aus, die für die Zielgruppenbestimmung von Profilen verwendet werden soll: Empfänger, Vertragsempfänger, Benutzer, Abonnenten usw. [Weitere Informationen zu Zielgruppendimensionen](../audience/targeting-dimensions.md)
+* **[!UICONTROL Zielgruppendimension]**: Wählen Sie die Zielgruppendimension aus, die für die Zielauswahl von Profilen, Empfängerinnen und Empfängern, Vertragsbegünstigten, Benutzerinnen und Benutzern, Abonnierenden, usw. verwendet werden soll. [Erfahren Sie mehr über Zielgruppendimensionen](../audience/targeting-dimensions.md)
 
 * **[!UICONTROL Zwischen zwei Ausführungen die ermittelte Population festhalten]**: Standardmäßig werden nur die Arbeitstabellen der letzten Ausführung des Workflows beibehalten. Arbeitstabellen früherer Ausführungen werden durch einen technischen Workflow bereinigt, der täglich ausgeführt wird.
 

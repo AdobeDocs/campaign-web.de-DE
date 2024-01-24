@@ -7,7 +7,7 @@ exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
 source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
 workflow-type: tm+mt
 source-wordcount: '1533'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 98%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_android_msg"
->title="Push-Android-Nachricht"
+>title="Android-Push-Nachricht"
 >abstract="Definieren Sie den Inhalt Ihrer Push-Benachrichtigung für Android-Geräte. Um Ihre Nachricht zu verfassen, klicken Sie auf die Felder **Titel** und **Nachricht**. Verwenden Sie den Ausdruckseditor, um Daten zu personalisieren und dynamische Inhalte hinzuzufügen. Push-Benachrichtigungen können weiter personalisiert werden. Dazu können Sie etwa ein Bild auswählen, das der Push-Benachrichtigung hinzugefügt werden soll, sowie das Symbol der Benachrichtigung, das auf den Geräten der Profile angezeigt werden soll, und dessen Farbe. Weitere benutzerdefinierte Konfigurationen finden Sie im Abschnitt **Erweiterte Einstellungen**."
 
 
@@ -96,7 +96,7 @@ Im Modus „Stilles Pushen“ kann eine „stille“ Benachrichtigung an eine Mo
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_count"
 >title="Anzahl der Benachrichtigungen"
->abstract="Verwenden Sie diese Option, um die Anzahl der ungelesenen Benachrichtigungen festzulegen, die direkt auf dem App-Symbol angezeigt werden sollen. Dadurch können die Benutzenden die Anzahl der ausstehenden Benachrichtigungen schnell sehen."
+>abstract="Verwenden Sie diese Option, damit die Zahl der neuen, ungelesenen Informationen direkt auf dem Symbol der App angezeigt wird. Dadurch können die Benutzenden schnell die Anzahl der ausstehenden Benachrichtigungen sehen."
 
 
 >[!CONTEXTUALHELP]
@@ -132,7 +132,7 @@ Die erweiterten Optionen hängen vom mobilen Betriebssystem ab: Android oder iOS
 | Parameter | Beschreibung |
 |---------|---------|
 | **[!UICONTROL Ton]** | Legt den Ton fest, der abgespielt werden soll, wenn das Gerät Ihre Benachrichtigung erhält. |
-| **[!UICONTROL Anzahl der Benachrichtigungen]** | Legt die Zahl der neuen ungelesenen Informationen fest, die direkt auf dem Symbol der App angezeigt werden. Dadurch können die Benutzenden die Anzahl der ausstehenden Benachrichtigungen schnell sehen. |
+| **[!UICONTROL Anzahl der Benachrichtigungen]** | Legt die Zahl der neuen ungelesenen Informationen fest, die direkt auf dem Symbol der App angezeigt werden. Dadurch können die Benutzenden schnell die Anzahl der ausstehenden Benachrichtigungen sehen. |
 | **[!UICONTROL Kanal-ID]** | Legen Sie die Kanal-ID Ihrer Benachrichtigung fest. Die Mobile App muss einen Kanal mit dieser Kanal-ID erstellen, bevor eine Benachrichtigung mit dieser Kanal-ID empfangen werden kann. |
 | **[!UICONTROL Klick-Aktion]** | Legt die Aktion fest, die für das Klicken der Benutzenden auf Ihre Benachrichtigung zugewiesen ist. Dies bestimmt das Verhalten bei der Interaktion der Benutzenden mit der Benachrichtigung, z. B. beim Öffnen eines bestimmten Bildschirms oder beim Ausführen einer bestimmten Aktion in der App. |
 | **[!UICONTROL Tag]** | Legt eine Kennung fest, die zum Ersetzen bestehender Benachrichtigungen in der Benachrichtigungsablage verwendet wird. Dadurch wird verhindert, dass sich mehrere Benachrichtigungen ansammeln, und sichergestellt, dass nur die jeweils letzte relevante Benachrichtigung angezeigt wird. |

@@ -18,7 +18,7 @@ ht-degree: 100%
 >title="Versandberichte"
 >abstract="Auf der Registerkarte **Senden** Ihres Berichts erhalten Sie einen umfassenden Einblick in die Interaktionen Ihrer Besucherinnen und Besucher mit Ihren Sendungen und in etwaige Fehler, die bei ihnen aufgetreten sind."
 
-Der **Push-Versandbericht** bietet einen umfassenden Überblick über den Push-Kanal mit umfangreichen Einblicken und spezifischen Daten. Er bietet umfassende Informationen über Leistung, Effektivität und Ergebnisse jedes Versands.
+Der **Push-Versandbericht** bietet einen umfassenden Überblick über den Push-Kanal mit umfangreichen Einblicken und spezifischen Daten. Er bietet umfassende Informationen über Performance, Effektivität und Ergebnisse jedes Versands.
 
 ## Push-Zusammenfassung {#push-summary}
 
@@ -27,9 +27,9 @@ Der **Push-Versandbericht** bietet einen umfassenden Überblick über den Push-K
 >[!CONTEXTUALHELP]
 >id="acw_push_report_overview"
 >title="Push-Versand – Übersicht"
->abstract="Die **Übersicht über den Push-Versand** bietet einen umfassenden Überblick über Ihren Push-Versand, mit umfassenden Einblicken und spezifischen Daten. Sie bietet umfassende Informationen über Leistung, Effektivität und Ergebnisse Ihres Versands."
+>abstract="Die **Übersicht über den Push-Versand** bietet einen umfassenden Überblick über Ihren Push-Versand, mit umfassenden Einblicken und spezifischen Daten. Sie bietet umfassende Informationen über Performance, Effektivität und Ergebnisse Ihres Versands."
 
-Der **[!UICONTROL Versandübersichtsbericht]** bietet wichtige Leistungsindikatoren (KPIs), die detaillierte Informationen darüber enthalten, wie Ihre Besucherinnen und Besucher mit Ihren Push-Nachrichten interagieren.
+Der **[!UICONTROL Versandübersichtsbericht]** bietet wichtige Performance-Indikatoren (KPIs), die detaillierte Informationen darüber enthalten, wie Ihre Besucherinnen und Besucher mit Ihren Push-Nachrichten interagieren.
 
 ![](assets/reporting_push_3.png)
 
@@ -101,8 +101,8 @@ Der Graph und die Tabelle **[!UICONTROL Ausschlüsse]** zeigen die verschiedenen
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_throughput_push"
->title="Bericht &quot;Versanddurchsatz&quot;"
->abstract="Der Bericht „Versanddurchsatz“ enthält detaillierte Informationen zum Versanddurchsatz der gesamten Plattform innerhalb eines bestimmten Zeitraums."
+>title="Bericht zum Versanddurchsatz"
+>abstract="Der Bericht zum Versanddurchsatz enthält detaillierte Informationen zum Versanddurchsatz der gesamten Plattform innerhalb eines bestimmten Zeitraums."
 
 Der Bericht **Versanddurchsatz** enthält detaillierte Informationen zum Versanddurchsatz der gesamten Plattform innerhalb eines bestimmten Zeitraums. Die wichtigste Kennzahl, mit der die Geschwindigkeit des Nachrichtenversands gemessen wird, ist die Anzahl der pro Stunde gesendeten Nachrichten.
 

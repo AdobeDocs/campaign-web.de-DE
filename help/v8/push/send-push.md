@@ -38,7 +38,7 @@ Sie können nun Ihre Push-Benachrichtigung überprüfen und an Ihre Zielgruppe s
 ## Testen des Push-Benachrichtigungs-Versands {#test-push}
 
 Durch die Verwendung von **Adobe Campaign** können Sie Push-Benachrichtigungen testen, bevor Sie sie an Ihre Hauptzielgruppe senden. Dieser Schritt ist bei der Validierung Ihres Versands und der Identifizierung von Problemen wichtig.
-Empfängerinnen und Empfänger von Testsendungen können Elemente wie Links, Bilder und Personalisierungseinstellungen überprüfen, um eine optimale Leistung zu gewährleisten und Fehler zu erkennen. Dieser Prozess hilft Ihnen, Ihre Push-Benachrichtigungen zu verfeinern und zu optimieren, bevor sie Ihre Hauptzielgruppe erreichen.
+Empfängerinnen und Empfänger von Testsendungen können Elemente wie Links, Bilder und Personalisierungseinstellungen überprüfen, um eine optimale Performance zu gewährleisten und Fehler zu erkennen. Dieser Prozess hilft Ihnen, Ihre Push-Benachrichtigungen zu verfeinern und zu optimieren, bevor sie Ihre Hauptzielgruppe erreichen.
 
 ![](../assets/do-not-localize/book.png) In [diesem Abschnitt](../preview-test/test-deliveries.md#subscribers) erfahren Sie, wie Sie Test-Push-Benachrichtigungen senden.
 

@@ -7,7 +7,7 @@ exl-id: 2a9b7e52-2b8b-4293-9b4d-a228ba95bed3
 source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
 workflow-type: tm+mt
 source-wordcount: '361'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -50,6 +50,6 @@ Ausführliche Informationen zum Starten und Überwachen der Workflow-Ausführung
 
 Die Registerkarte **[!UICONTROL Vorlagen]** enthält alle verfügbaren Workflow-Vorlagen.
 
-Workflow-Vorlagen enthalten vorkonfigurierte Aktivitäten und allgemeine Eigenschaftskonfigurationen, die zur Erstellung neuer Workflows wiederverwendet werden können.
+Workflow-Vorlagen enthalten vorkonfigurierte Aktivitäten und allgemeine Eigenschaftskonfigurationen, die zur Erstellung neuer Workflows wiederverwendet werden können. 
 
-Sie können Workflow-Vorlagen aus einem vorhandenen Workflow oder von Grund auf neu erstellen. [Erfahren Sie, wie Sie Workflow-Vorlagen erstellen](create-workflow.md#workflow-templates)
+Sie können Workflow-Vorlagen aus einem vorhandenen Workflow oder von Grund auf neu erstellen. [So erstellen Sie Workflow-Vorlagen](create-workflow.md#workflow-templates)

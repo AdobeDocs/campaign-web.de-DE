@@ -7,7 +7,7 @@ exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
 source-git-commit: 1206da29f9987b55b957b6845e3dbf1e71ef03ed
 workflow-type: tm+mt
 source-wordcount: '896'
-ht-degree: 50%
+ht-degree: 57%
 
 ---
 
@@ -15,8 +15,8 @@ ht-degree: 50%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn1"
->title="Zielgruppenkomposition"
->abstract="Erstellen Sie neue Zielgruppen in einer Arbeitsfläche für visuelle Workflows. Sie können nicht nur von Grund auf eine einfache Zielgruppe erstellen, sondern auch Workflow-Aktivitäten nutzen, um Ihre Zielgruppe zu präzisieren. Kombinieren Sie mehrere Zielgruppen zu einer einzigen, ergänzen Sie Ihre Zielgruppe mit externen Attributen oder teilen Sie sie basierend auf Ihren eigenen Regeln in mehrere Zielgruppen auf."
+>title="Zielgruppen-Komposition"
+>abstract="Erstellen Sie neue Zielgruppen in einer visuellen Workflow-Arbeitsfläche. Sie können nicht nur von Grund auf eine einfache Zielgruppe erstellen, sondern auch Workflow-Aktivitäten nutzen, um Ihre Zielgruppe zu präzisieren. Sie können beispielsweise mehrere Zielgruppen zu einer einzigen zusammenfassen, Ihre Zielgruppe mit externen Attributen anreichern oder eine Zielgruppe basierend auf Regeln Ihrer Wahl in mehrere Zielgruppen unterteilen."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=de" text="Siehe Versionshinweise"
 
 <!--TO REMOVE BELOW-->
@@ -24,7 +24,7 @@ ht-degree: 50%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_rn1"
 >title="Zielgruppen-Komposition"
->abstract="Erstellen Sie neue Zielgruppen in einer Arbeitsfläche für visuelle Workflows. Sie können nicht nur von Grund auf eine einfache Zielgruppe erstellen, sondern auch Workflow-Aktivitäten nutzen, um Ihre Zielgruppe zu präzisieren. Kombinieren Sie mehrere Zielgruppen zu einer einzigen, ergänzen Sie Ihre Zielgruppe mit externen Attributen oder teilen Sie sie basierend auf Ihren eigenen Regeln in mehrere Zielgruppen auf."
+>abstract="Erstellen Sie neue Zielgruppen in einer visuellen Workflow-Arbeitsfläche. Sie können nicht nur von Grund auf eine einfache Zielgruppe erstellen, sondern auch Workflow-Aktivitäten nutzen, um Ihre Zielgruppe zu präzisieren. Sie können beispielsweise mehrere Zielgruppen zu einer einzigen zusammenfassen, Ihre Zielgruppe mit externen Attributen anreichern oder eine Zielgruppe basierend auf Regeln Ihrer Wahl in mehrere Zielgruppen unterteilen."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=de" text="Siehe Versionshinweise"
 
 <!--TO REMOVE ABOVE-->

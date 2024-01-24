@@ -7,7 +7,7 @@ exl-id: c9c41189-0150-49a4-bdb3-317fe543eb2c
 source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
 workflow-type: tm+mt
 source-wordcount: '571'
-ht-degree: 93%
+ht-degree: 99%
 
 ---
 
@@ -27,7 +27,7 @@ Anhand eines visuellen Flusses können Sie den Fortschritt von Zielgruppenprofil
 
 ## Workflow-Transitionen {#transitions}
 
-In Workflows werden Daten, die von einer Aktivität zur anderen über Transitionen übertragen werden, in einer temporären Arbeitstabelle gespeichert. Diese Daten können für jede Transition angezeigt werden. Wählen Sie dazu eine Transition aus, um ihre Eigenschaften auf der rechten Seite des Bildschirms zu öffnen.
+In einem Workflow werden die von einer Aktivität zu einer anderen übertragenen Daten in temporären Arbeitstabellen gespeichert. Diese Daten können für jede Transition angezeigt werden. Wählen Sie dazu eine Transition aus, um ihre Eigenschaften auf der rechten Seite des Bildschirms zu öffnen.
 
 * Klicken Sie auf **[!UICONTROL Vorschau für Schema]**, um das Schema der Arbeitstabelle anzuzeigen.
 * Klicken Sie auf **[!UICONTROL Ergebnisvorschau]**, um die in der ausgewählten Transition übertragenen Daten zu visualisieren.
@@ -68,4 +68,4 @@ Die Aktionsleiste oben rechts enthält Befehle, mit denen Sie die Ausführung de
 
 * **[!UICONTROL Aussetzen]** der Ausführung des Workflows, der dann den Status „Ausgesetzt“ annimmt. Bis zur Wiederaufnahme werden keine neuen Aktivitäten aktiviert, laufende Vorgänge werden jedoch fortgeführt.
 
-* **[!UICONTROL Anhalten]** einen Workflow, der ausgeführt wird und den Status Abgeschlossen annimmt. Die laufenden Vorgänge werden nach Möglichkeit unterbrochen. Sie können den Workflow nicht an der Stelle fortsetzen, an der er unterbrochen wurde.
+* **[!UICONTROL Anhalten]** eines Workflows, der gerade ausgeführt wird und der dann in den Status „Abgeschlossen“ wechselt. Die laufenden Vorgänge werden nach Möglichkeit unterbrochen. Sie können den Workflow nicht an der Stelle fortsetzen, an der er unterbrochen wurde.

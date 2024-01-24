@@ -52,7 +52,7 @@ Die wichtigsten Schritte zur Versandvorbereitung sind unten aufgeführt.
 
    Im Folgenden werden die verschiedenen KPIs angezeigt:
 
-   * **[!UICONTROL Targeting]**: die Anzahl der Zielgruppenempfänger.
+   * **[!UICONTROL Zielgruppe]**: Anzahl der Zielgruppenempfängerinnen und -empfänger.
    * **[!UICONTROL Zu versenden]**: die Anzahl der zu sendenden Nachrichten.
    * **[!UICONTROL Auszuschließen]**[: Anzahl der Nachrichten, die durch eine Typologieregel ausgeschlossen werden](../advanced-settings/delivery-settings.md#typology).
 

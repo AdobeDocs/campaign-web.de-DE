@@ -7,7 +7,7 @@ badge: label="Eingeschränkte Verfügbarkeit"
 source-git-commit: 93402a91511cff9cb6510f696238e667ec812f8d
 workflow-type: tm+mt
 source-wordcount: '2260'
-ht-degree: 67%
+ht-degree: 68%
 
 ---
 
@@ -114,11 +114,11 @@ Die **[!UICONTROL Bedeutung des Empfängers]** -Feld ist eine Formel, mit der be
 >title="Zielgruppeneinstellungen für den Versand"
 >abstract="Wählen Sie ein **Zielgruppen-Mapping** unter den verfügbaren Optionen aus. Zielgruppen-Mappings werden in der Adobe Campaign v8-Konsole definiert. Sie können außerdem die Ausschlussparameter für den Versand festlegen. "
 
-In diesem Abschnitt können Sie ein verfügbares **Zielgruppen-Mapping** auswählen. Zielgruppen-Mappings werden in der Adobe Campaign v8-Konsole definiert. Das Zielgruppen-Mapping ist der Datentyp, den ein Vorgang verarbeitet. Sie ermöglicht die Bestimmung der Zielpopulation: Empfängerinnen und Empfänger, Vertragsbegünstigte, Benutzerinnen und Benutzer, Abonnentinnen und Abonnenten usw.
+In diesem Abschnitt können Sie ein verfügbares **Zielgruppen-Mapping** auswählen. Zielgruppen-Mappings werden in der Adobe Campaign v8-Konsole definiert. Zielgruppen-Mapping ist der Datentyp, den ein Vorgang verarbeitet. Sie ermöglicht die Bestimmung der Zielpopulation: Empfängerinnen und Empfänger, Vertragsbegünstigte, Benutzerinnen und Benutzer, Abonnentinnen und Abonnenten usw.
 
 Weitere Informationen über Zielgruppen-Mapping finden Sie in [diesem Abschnitt](../audience/targeting-dimensions.md).
 
-Im **[!UICONTROL Ausschluss]** können Sie Empfänger ausschließen, die nicht mehr kontaktiert werden möchten oder in Quarantäne sind. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html){target="_blank"}
+Im **[!UICONTROL Ausschluss]** können Sie Empfänger ausschließen, die nicht mehr kontaktiert werden möchten oder in Quarantäne sind. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html?lang=de){target="_blank"}
 
 ## Versand {#delivery}
 

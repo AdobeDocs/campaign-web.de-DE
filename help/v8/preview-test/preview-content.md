@@ -7,7 +7,7 @@ badge: label="Eingeschränkte Verfügbarkeit"
 source-git-commit: 7b42927b689bfc762c61fa52e4af23e8c283f486
 workflow-type: tm+mt
 source-wordcount: '384'
-ht-degree: 78%
+ht-degree: 95%
 
 ---
 
@@ -18,7 +18,7 @@ Verwenden Sie die Inhaltssimulationsfunktion von [!DNL Campaign], um den Nachric
 
 Gehen Sie wie folgt vor, um den Versandinhalt in einer Vorschau anzuzeigen.
 
-1. Navigieren Sie zum Bildschirm Inhalt bearbeiten Ihres Versands oder zum [Email Designer](../email/get-started-email-designer.md).
+1. Navigieren Sie zum Bildschirm „Inhalt bearbeiten“ Ihres Versands und klicken Sie dann auf [E-Mail-Designer](../email/get-started-email-designer.md).
 
 1. Klicken Sie auf die Schaltfläche **[!UICONTROL Inhalt simulieren]**.
 
@@ -38,19 +38,19 @@ Gehen Sie wie folgt vor, um den Versandinhalt in einer Vorschau anzuzeigen.
 
      >[!NOTE]
      >
-     >Testprofile können über die **[!UICONTROL Kundenverwaltung]** > **[!UICONTROL Profile]** Menü. [Weitere Informationen](../audience/test-profiles.md#create-test-profiles)
+     >Testprofile können über das Menü **[!UICONTROL Kunden-Management]** > **[!UICONTROL Profile]** erstellt werden. [Weitere Informationen](../audience/test-profiles.md#create-test-profiles)
 
    * Die Registerkarte **[!UICONTROL Profile]** listet alle Empfängerinnen und Empfänger auf, die über die [!DNL Campaign]-Konsole im Ordner **[!UICONTROL Profile und Zielgruppen]** gespeichert wurden. Weitere Informationen finden Sie in der [Dokumentation zu Campaign v8 (Client-Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/view-profiles.html?lang=de){target="_blank"}.
 
      >[!NOTE]
      >
-     >Sie können Profile auch über den entsprechenden Tab in der Campaign-Web-Benutzeroberfläche anzeigen und verwalten. [Weitere Informationen](../audience/about-recipients.md)
+     >Sie können Profile auch über die entsprechende Registerkarte in der Campaign Web-Benutzeroberfläche anzeigen und verwalten. [Weitere Informationen](../audience/about-recipients.md)
 
 1. Beim Durchsuchen der Testprofil- oder Profillisten können Sie Filter verwenden, um Ihre Suche zu verfeinern.
 
    ![](assets/simulate-test-profile-filter.png)
 
-   Sie können beispielsweise eine Regel definieren, um alle Testprofile mit dem **[!UICONTROL Perspektive]** -Status. Erfahren Sie, wie Sie Regeln mithilfe des [Abfragemodellierung](../query/query-modeler-overview.md).
+   Sie können beispielsweise eine Regel definieren, um nach allen Testprofilen mit dem Status **[!UICONTROL Interessent]** zu suchen. Erfahren Sie, wie Sie Regeln mithilfe des [Abfrage-Modelers](../query/query-modeler-overview.md) hinzufügen.
 
 1. Klicken Sie auf **[!UICONTROL Auswählen]**, um Ihre Auswahl zu bestätigen.
 

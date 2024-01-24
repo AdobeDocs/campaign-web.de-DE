@@ -7,7 +7,7 @@ exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
 source-git-commit: 08554d835175cd81f4df057ebfb7952500a12ba4
 workflow-type: tm+mt
 source-wordcount: '883'
-ht-degree: 70%
+ht-degree: 74%
 
 ---
 
@@ -68,9 +68,9 @@ Gehen Sie wie folgt vor, um einen Anmeldedienst zu erstellen.
 
    ![](assets/service-create-properties.png)
 
-1. Dienste werden standardmäßig im **[!UICONTROL Dienste und Abonnements]** Ordner. Sie können sie ändern, indem Sie zur gewünschten Position navigieren. [Informationen zum Arbeiten mit Ordnern](../get-started/permissions.md#folders)
+1. Dienste werden standardmäßig im **[!UICONTROL Dienste und Abonnements]** Ordner. Sie können ihn ändern, indem Sie zum gewünschten Speicherort navigieren. [Erfahren Sie mehr über die Arbeit mit Ordnern](../get-started/permissions.md#folders)
 
-1. Standardmäßig sind Abonnements unbegrenzt. Sie können die **[!UICONTROL Unbegrenzte Gültigkeitsdauer]** -Option, um eine Gültigkeitsdauer für den Dienst festzulegen.
+1. Standardmäßig sind Abonnements unbegrenzt. Sie können die Option **[!UICONTROL Unbegrenzter Gültigkeitszeitraum]** deaktivieren, um einen Gültigkeitszeitraum für den Dienst festzulegen.
 
    Im folgenden Beispiel wäre nach 20 Tagen Folgendes der Fall:
    * Empfängerinnen und Empfänger können sich nicht mehr für einen Dienst anmelden.

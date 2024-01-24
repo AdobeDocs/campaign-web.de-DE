@@ -7,7 +7,7 @@ exl-id: e6e0dd01-5573-4261-aace-fd173827c383
 source-git-commit: a3476e46c29723af8246683a005543cfd605e7df
 workflow-type: tm+mt
 source-wordcount: '620'
-ht-degree: 82%
+ht-degree: 97%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 82%
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_columns"
 >title="Spaltendefinition"
->abstract="Überprüfen Sie das Format der Spalten in der externen Datei."
+>abstract="Überprüfen Sie das Spaltenformat der externen Datei."
 
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_formatting"
@@ -31,15 +31,15 @@ ht-degree: 82%
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_preview"
 >title="Anzeige der Datei in der Vorschau"
->abstract="Überprüfen Sie die Vorschau der Spalten der externen Datei. Dieser Bildschirm zeigt nur maximal 30 Einträge an."
+>abstract="Überprüfen Sie die Spaltenvorschau der externen Datei. Dieser Bildschirm zeigt nur maximal 30 Einträge an."
 
-Sie können Profile auswählen, die in einer externen Datei gespeichert sind. Profile werden nicht zur Datenbank hinzugefügt, aber alle Felder in der Eingabedatei können [personalisiert](../personalization/gs-personalization.md) werden. Unterstützte Dateiformate sind: Text (TXT) und kommagetrennte Werte (CSV). In diesem Artikel wird beschrieben, wie Sie beim Erstellen eines eigenständigen E-Mail-Versands ein externes Profil laden. Informationen zum Laden von Daten aus einer Datei in einen Workflow finden Sie unter [diese Seite](../workflows/activities/load-file.md).
+Zielprofile können auch in einer externen Datei gespeichert werden. Profile werden nicht zur Datenbank hinzugefügt, aber alle Felder in der Eingabedatei können [personalisiert](../personalization/gs-personalization.md) werden. Unterstützte Dateiformate sind: Text (TXT) und kommagetrennte Werte (CSV). In diesem Artikel wird beschrieben, wie Sie beim Erstellen eines eigenständigen E-Mail-Versands ein externes Profil laden. Informationen zum Laden von Daten aus einer Datei in einen Workflow finden Sie auf [dieser Seite](../workflows/activities/load-file.md).
 
 >[!CAUTION]
 >
->* Diese Funktion ist nur verfügbar für **E-Mail-Sendungen**. Sie kann nicht mit SMS- oder Push-Sendungen verwendet werden.
+>* Diese Funktion ist nur für den **E-Mail-Versand** verfügbar. Sie kann nicht bei SMS- oder Push-Sendungen verwendet werden.
 >
->* Sie können keine [Kontrollgruppen](control-group.md) verwenden, wenn Sie die Zielgruppen-Population aus einer externen Datei laden.
+>* Sie können keine [Kontrollgruppen](control-group.md) verwenden, wenn Sie die Zielgruppenpopulation aus einer externen Datei laden.
 >
 >* Profile werden nicht zur Datenbank hinzugefügt, sondern werden geladen und sind nur für diesen speziellen E-Mail-Versand verfügbar.
 
@@ -107,4 +107,4 @@ Mit Campaign Web können Sie sich Test-E-Mails in der Vorschau ansehen und sie s
 
    ![](assets/file-upload-test.png)
 
-1. Sie können den Versand der Test-E-Mail mithilfe der **[!UICONTROL Anzeigen des E-Mail-Testprotokolls]** -Schaltfläche zu einem beliebigen Zeitpunkt. [Erfahren Sie mehr über das Überwachen von Test-E-Mails](../preview-test/test-deliveries.md#access-test-deliveries)
+1. Sie können den Versand der Test-E-Mail jederzeit mithilfe der Schaltfläche **[!UICONTROL Test-E-Mail-Protokoll anzeigen]** überwachen. [Erfahren Sie mehr über das Überwachen von Test-E-Mails](../preview-test/test-deliveries.md#access-test-deliveries)

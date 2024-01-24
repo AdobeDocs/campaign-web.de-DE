@@ -10,7 +10,7 @@ exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
 source-git-commit: f8f29849bbd3e97b4168a0bac175a3cdc3e651df
 workflow-type: tm+mt
 source-wordcount: '1087'
-ht-degree: 92%
+ht-degree: 96%
 
 ---
 
@@ -36,7 +36,7 @@ Eine Vorlage kann Folgendes enthalten:
 
 >[!NOTE]
 >
->Versandvorlagen unterscheiden sich von [Inhaltsvorlagen](../email/create-email-templates.md), mit dem Sie nur den Inhalt Ihrer E-Mails wiederverwenden und mit der Erstellung von Inhalten mit einer der vordefinierten E-Mail-Vorlagen beginnen können.
+>Versandvorlagen unterscheiden sich von [Inhaltsvorlagen](../email/create-email-templates.md) darin, dass Sie in letzteren nur den Inhalt Ihrer E-Mails verwenden und Inhalte nur anhand einer der vordefinierten E-Mail-Mustervorlagen erstellen können
 
 
 ## Aufrufen und Verwalten von Versandvorlagen {#access-manage-templates}
@@ -194,6 +194,6 @@ Sie können das Rendering einer beliebigen Versandvorlage testen, unabhängig da
 
 >[!NOTE]
 >
->Sie können in einer Versandvorlage weder E-Mail-Rendering noch Tests durchführen.
+>Sie können in einer Versandvorlage kein E-Mail-Rendering und keine Testsendungen durchführen.
 
 
