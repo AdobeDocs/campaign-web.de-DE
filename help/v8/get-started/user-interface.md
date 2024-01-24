@@ -4,10 +4,10 @@ title: Erkunden der Benutzeroberfläche
 description: Web-Benutzeroberfläche von Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Eingeschränkte Verfügbarkeit"
-source-git-commit: 80e9937fcac0f1e66c317d3d31efab0d5f6ae2d8
+source-git-commit: 59929983859687081859e007b4e3b48a6279edee
 workflow-type: tm+mt
-source-wordcount: '1640'
-ht-degree: 81%
+source-wordcount: '1646'
+ht-degree: 80%
 
 ---
 
@@ -35,7 +35,7 @@ Der obere Abschnitt der Startseite enthält Details zu den neuesten Updates und 
 
 ![](assets/home.png)
 
-Die **wichtigen Leistungsindikatoren** ermöglichen es Ihnen, die Effektivität Ihrer Plattform mithilfe gängiger KPIs zu überprüfen. Weitere Informationen über diese KPIs finden Sie auf [dieser Seite](../reporting/kpis.md).
+Die **wichtigen Performance-Indikatoren** ermöglichen es Ihnen, die Effektivität Ihrer Plattform mithilfe gängiger KPIs zu überprüfen. Weitere Informationen über diese KPIs finden Sie auf [dieser Seite](../reporting/kpis.md).
 
 Die Liste **Zuletzt ausgewertet** enthält Verknüpfungen zu den kürzlich erstellten und geänderten Sendungen. Diese Liste zeigt den Kanal, den Status, die Besitzerin bzw. den Besitzer sowie das Erstellungs- und Änderungsdatum. Klicken Sie auf den Link **Mehr anzeigen**, um weitere Sendungen zu laden.
 
@@ -397,3 +397,12 @@ Deprecated IDs - to remove in GA: -->
 >id="acw_rulebuilder_properties_advanced"
 >title="Erweiterte Attribute des Regel-Builders"
 >abstract="In der Attributliste werden standardmäßig nur die häufigsten Attribute angezeigt. Aktivieren Sie den Umschalter **Erweiterte Attribute anzeigen**, um alle verfügbaren Attribute für die aktuelle Liste in der linken Palette des Regel-Builders anzuzeigen, z. B. Knoten, Gruppierungen, 1:1-Links und 1:n-Links."
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_contenttemplate_readonlymode"
+>title="Diese Vorlage ist nur bereit"
+>abstract="TBC"
+
+
