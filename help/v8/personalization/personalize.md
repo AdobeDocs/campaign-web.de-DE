@@ -1,16 +1,16 @@
 ---
 title: Personalisieren von Inhalten in Campaign
-description: Erfahren Sie, wie Sie Inhalte in der Web-Benutzeroberfläche von Adobe Campaign personalisieren.
+description: Erfahren Sie, wie Sie Ihren Inhalt im Adobe Campaign Web personalisieren können.
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
 badge: label="Eingeschränkte Verfügbarkeit"
-source-git-commit: a3476e46c29723af8246683a005543cfd605e7df
+source-git-commit: cbfd821173466c51e9073f01e8792cbdc069c6a2
 workflow-type: tm+mt
-source-wordcount: '431'
-ht-degree: 100%
+source-wordcount: '430'
+ht-degree: 97%
 
 ---
 

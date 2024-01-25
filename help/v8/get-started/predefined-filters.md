@@ -1,12 +1,12 @@
 ---
 title: Arbeiten mit vordefinierten Filtern
-description: Erfahren Sie, wie Sie vordefinierte Filter in der Web-Benutzeroberfläche von Adobe Campaign erstellen und verwalten
+description: Erfahren Sie, wie Sie vordefinierte Filter im Adobe Campaign Web erstellen und verwalten
 badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
-source-git-commit: 9c72d73b5279a01492ea3ccd295e513e91f0c050
+source-git-commit: cbfd821173466c51e9073f01e8792cbdc069c6a2
 workflow-type: tm+mt
-source-wordcount: '822'
-ht-degree: 97%
+source-wordcount: '821'
+ht-degree: 96%
 
 ---
 
