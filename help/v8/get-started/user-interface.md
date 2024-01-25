@@ -4,10 +4,10 @@ title: Erkunden der Benutzeroberfläche
 description: Web-Benutzeroberfläche von Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Eingeschränkte Verfügbarkeit"
-source-git-commit: db318411c9271688b1982acd7f0a23349f18b984
+source-git-commit: 51f29840941974f05a930023e41adb1bb2558974
 workflow-type: tm+mt
-source-wordcount: '1654'
-ht-degree: 80%
+source-wordcount: '1703'
+ht-degree: 78%
 
 ---
 
@@ -153,6 +153,22 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_push_overview_edit"
 >title="Berechtigung erforderlich"
 >abstract="Ihre Admins müssen Ihnen die Berechtigung erteilen, bevor Sie ein Segment erstellen können."
+
+
+<!-- Waves-->
+
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_waves_definition"
+>title="Waagen-Definition"
+>abstract="Definieren Sie Schübe, um Sendungen in mehrere Teilsendungen zu unterteilen, anstatt große Mengen von Nachrichten gleichzeitig zu senden."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_waves_size"
+>title="Größe der Welle"
+>abstract="Die Größe des Schubs ist erforderlich. Geben Sie entweder einen numerischen Wert (Anzahl Nachrichten) oder einen Prozentsatz (0-100 %) in das Feld &quot;Größe&quot;ein."
+
+
 
 <!-- Workflows-->
 
