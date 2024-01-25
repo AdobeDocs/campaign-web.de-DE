@@ -6,10 +6,10 @@ title: Adobe Campaign v8 – Web-Dokumentation
 description: Web-Dokumentation zu Campaign v8
 breadcrumb-title: Campaign v8 Web
 hide: true
-source-git-commit: 703196ad2bb504eb1d50008af110f952d8045eaa
+source-git-commit: 22b183a739dd92d7c4245fb4694034a247511d75
 workflow-type: tm+mt
-source-wordcount: '537'
-ht-degree: 89%
+source-wordcount: '542'
+ht-degree: 92%
 
 ---
 
@@ -92,8 +92,10 @@ ht-degree: 89%
    + [Erste Schritte mit Profilen und Zielgruppen](audience/gs-audiences-recipients.md)
    + [Zielgruppendimensionen](audience/targeting-dimensions.md)
    + Arbeiten mit Profilen {#work-with-profiles}
-      + [Profile überwachen und verwalten](audience/about-recipients.md)
-      + [Erstellen und Verwalten von Testprofilen](audience/test-profiles.md)
+      + [Erste Schritte mit Profilen](audience/about-recipients.md)
+      + [Details von Profilen](audience/profile-view.md)
+      + [Erstellen eines Profils](audience/create-profile.md)
+      + [Arbeiten mit Testprofilen](audience/test-profiles.md)
    + Arbeiten mit Zielgruppen {#audiences}
       + [Erstellen von Zielgruppen](audience/create-audience.md)
       + [Zielgruppen überwachen und verwalten](audience/manage-audience.md)
@@ -144,7 +146,7 @@ ht-degree: 89%
 + Reporting {#reports}
    + [Erste Schritte mit Berichten](reporting/gs-reports.md)
    + [Exportieren der Berichte](reporting/export-reports.md)
-   + [Wichtige Leistungsindikatoren](reporting/kpis.md)
+   + [Wichtige Performance-Indikatoren](reporting/kpis.md)
    + Versandberichte {#delivery-report}
       + [Erste Schritte mit Versandberichten](reporting/delivery-reports.md)
       + [E-Mail-Versandbericht](reporting/email-report.md)
