@@ -4,10 +4,10 @@ title: Arbeiten mit Anmeldediensten
 description: Erfahren Sie, wie Sie in Adobe Campaign Web auf Anmeldedienste zugreifen, diese erstellen und sie verwalten können.
 badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
-source-git-commit: cbfd821173466c51e9073f01e8792cbdc069c6a2
+source-git-commit: d003de806a188b1b5c20a55ee1e308d5af1a19ea
 workflow-type: tm+mt
-source-wordcount: '883'
-ht-degree: 71%
+source-wordcount: '951'
+ht-degree: 66%
 
 ---
 
@@ -91,6 +91,17 @@ Sie können jetzt:
 * Senden Sie Nachrichten an die Abonnenten dieses Dienstes. [Weitere Informationen dazu](../msg/send-to-subscribers.md)
 
 ## Erstellen einer Bestätigungsnachricht {#create-confirmation-message}
+
+>[!CONTEXTUALHELP]
+>id="acw_subscriptions_delivery_template"
+>title="Versandvorlage Abonnements auswählen"
+>abstract="Um den Benutzern, die sich für Ihren Dienst anmelden, Bestätigungsnachrichten zu senden, müssen Sie eine spezifische Versandvorlage auswählen, die auf der Variablen **[!UICONTROL Abonnements]** Zielgruppen-Mapping ohne definierte Zielgruppe."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_unsubscriptions_delivery_template"
+>title="Versandvorlage für Abmeldebestätigungen auswählen"
+>abstract="Um den Benutzern, die sich von Ihrem Dienst abmelden, Bestätigungsnachrichten zu senden, müssen Sie eine bestimmte Versandvorlage auswählen, die auf der Variablen **[!UICONTROL Abonnements]** Zielgruppen-Mapping ohne definierte Zielgruppe."
 
 Um den Benutzerinnen und Benutzern, die sich für Ihren Dienst angemeldet haben oder sich von ihm abmelden, Bestätigungsnachrichten zu senden, müssen Sie eine Versandvorlage mit dem Zielgruppen-Mapping für die **[!UICONTROL Abonnements]** erstellen, und zwar ohne eine definierte Zielgruppe. Gehen Sie dazu wie folgt vor.
 
