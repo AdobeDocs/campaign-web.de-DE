@@ -1,32 +1,32 @@
 ---
 audience: end-user
-title: Erste Schritte mit Campaign v8 Web
-description: Erste Schritte mit Campaign v8 Web
+title: Erste Schritte mit Adobe Campaign Web
+description: Erste Schritte mit Adobe Campaign Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 badge: label="Eingeschränkte Verfügbarkeit"
-source-git-commit: 7c1776f71885cc6e7cea14af6bba9ec1c0f664b2
+source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
 workflow-type: tm+mt
 source-wordcount: '570'
-ht-degree: 80%
+ht-degree: 68%
 
 ---
 
-# Erste Schritte mit Campaign v8 Web {#get-started}
+# Erste Schritte mit Adobe Campaign Web {#get-started}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_learnmore"
 >title="Erste Schritte"
->abstract="Die neue Web-Benutzeroberfläche von Campaign v8 bietet ein integriertes, intuitives und konsistentes Anwendererlebnis."
+>abstract="Die neue Adobe Campaign-Webschnittstelle bietet ein integriertes, intuitives und konsistentes Benutzererlebnis."
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_learnmore"
 >title="Erste Schritte"
->abstract="Die neue Web-Benutzeroberfläche von Campaign v8 bietet ein integriertes, intuitives und konsistentes Anwendererlebnis."
+>abstract="Die neue Adobe Campaign-Webschnittstelle bietet ein integriertes, intuitives und konsistentes Benutzererlebnis."
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learnmore"
 >title="Erste Schritte"
->abstract="Die neue Web-Benutzeroberfläche von Campaign v8 bietet ein integriertes, intuitives und konsistentes Anwendererlebnis."
+>abstract="Die neue Adobe Campaign-Webschnittstelle bietet ein integriertes, intuitives und konsistentes Benutzererlebnis."
 
 Adobe Campaign bietet eine Plattform für die Gestaltung kanalübergreifender Kundenerlebnisse und eine Umgebung für die visuelle Kampagnenorchestrierung, die Verwaltung von Interaktionen in Echtzeit und die kanalübergreifende Ausführung.
 
@@ -50,7 +50,7 @@ Wenn Sie als Administrator oder erfahrener Benutzer auf die Campaign v8-Funktion
 
 >[!NOTE]
 >
->Campaign v8 Web ist derzeit nur als eingeschränkt verfügbare Version (LA) erhältlich. Der Zugriff ist auf eine kleine Gruppe von LA-Kundinnen und -Kunden beschränkt. Beachten Sie, dass sich die Produktoberfläche, die Funktionen und die Nutzungsflüsse ohne Vorankündigung ändern können.
+>Adobe Campaign Web ist derzeit in der eingeschränkten Verfügbarkeit (LA) verfügbar. Der Zugriff ist auf eine kleine Gruppe von LA-Kundinnen und -Kunden beschränkt. Beachten Sie, dass sich die Produktoberfläche, die Funktionen und die Nutzungsflüsse ohne Vorankündigung ändern können.
 
 Erfahren Sie auf [dieser Seite](connect-to-campaign.md), wie Sie eine Verbindung zu Adobe Campaign Web herstellen können.
 

@@ -1,17 +1,17 @@
 ---
 keywords: Campaign Web;Startseite;beliebte Themen
-description: Hilfe-Center zu Campaign Web v8
-title: Produkt-Dokumentation zu Adobe Campaign Web v8
+description: Campaign Web-Hilfesystem
+title: Adobe Campaign Web-Produktdokumentation
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 badge: label="Eingeschränkte Verfügbarkeit"
-source-git-commit: ab58d8901da1b90609794ccd488b8d3a965675ec
+source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
 workflow-type: tm+mt
-source-wordcount: '692'
-ht-degree: 58%
+source-wordcount: '688'
+ht-degree: 55%
 
 ---
 
-# Adobe Campaign v8 – Web-Dokumentation {#campaign-documentation}
+# Adobe Campaign-Webdokumentation {#campaign-documentation}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_card1"
@@ -86,11 +86,11 @@ ht-degree: 58%
 Wir freuen uns, die neue Version der Adobe Campaign Web-Benutzeroberfläche vorstellen zu können. Unsere neueste Version enthält intuitive Funktionen, die die Erstellung personalisierter kanalübergreifender Kampagnen vereinfachen, außergewöhnliche Ergebnisse erzielen und Ihnen einen Wettbewerbsvorteil über alle Kanäle hinweg bieten. Diese neue, moderne Benutzeroberfläche vereinfacht die Gestaltung und den Versand von Marketing-Kampagnen und sorgt für Konsistenz mit anderen Adobe-Lösungen, einschließlich Adobe Experience Platform.
 
 >[!AVAILABILITY]
-> Campaign v8 Web ist derzeit nur als eingeschränkt verfügbare Version (LA) erhältlich. Der Zugriff ist auf eine kleine Gruppe von LA-Kundinnen und -Kunden beschränkt. Beachten Sie, dass sich die Produktoberfläche, die Funktionen und die Nutzungsflüsse ohne Vorankündigung ändern können.
+> Adobe Campaign Web ist derzeit in der eingeschränkten Verfügbarkeit (LA) verfügbar. Der Zugriff ist auf eine kleine Gruppe von LA-Kundinnen und -Kunden beschränkt. Beachten Sie, dass sich die Produktoberfläche, die Funktionen und die Nutzungsflüsse ohne Vorankündigung ändern können.
 
 ## Neue Funktionen
 
-Hier erhalten Sie einen Einblick in die neuesten Verbesserungen des Adobe Campaign v8-Webprodukts und der Dokumentation! Eine umfassende Liste der wichtigsten Funktionen und Funktionen zur Aktualisierung von Versionen finden Sie unter [diese Seite](rn/whats-new.md).
+Hier erhalten Sie einen Einblick in die neuesten Verbesserungen des Adobe Campaign-Webprodukts und der Dokumentation! Eine umfassende Liste der wichtigsten Funktionen und Funktionen zur Aktualisierung von Versionen finden Sie unter [diese Seite](rn/whats-new.md).
 
 >[!BEGINTABS]
 
@@ -126,7 +126,7 @@ Erstellen Sie neue Profile und überwachen Sie sie mithilfe leistungsstarker Ber
   <tr style="border: 0;">
     <td>
     <a href="get-started/user-interface.md"><img src="assets/do-not-localize/menu-ui.jpeg"></a>
-    <div><strong>Neue Benutzeroberfläche</strong><br/>Erfahren Sie mehr über die neue, in Adobe Experience Platform integrierte Benutzeroberfläche und Navigationserfahrung von Campaign v8.</div>
+    <div><strong>Neue Benutzeroberfläche</strong><br/>Erfahren Sie mehr über die neue, in Adobe Experience Platform integrierte Benutzeroberfläche und Navigationserfahrung von Adobe Campaign Web.</div>
     </td>
     <td>
     <a href="workflows/gs-workflows.md"><img src="assets/do-not-localize/menu-workflows.jpeg"></a>

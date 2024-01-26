@@ -1,19 +1,19 @@
 ---
 audience: end-user
 title: Erkunden der Benutzeroberfläche
-description: Web-Benutzeroberfläche von Campaign v8
+description: Adobe Campaign Web-Benutzeroberfläche
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Eingeschränkte Verfügbarkeit"
-source-git-commit: d003de806a188b1b5c20a55ee1e308d5af1a19ea
+source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
 workflow-type: tm+mt
 source-wordcount: '1697'
-ht-degree: 78%
+ht-degree: 76%
 
 ---
 
 # Erkunden der Benutzeroberfläche {#user-interface}
 
-Die neue Web-Oberfläche von Campaign v8 bietet ein modernes und intuitives Benutzererlebnis, das die Gestaltung und den Versand von Marketing-Kampagnen vereinfacht. Diese neue Benutzeroberfläche ist in Adobe Experience Cloud-Apps und -Lösungen integriert.
+Die neue Adobe Campaign-Webschnittstelle bietet ein modernes und intuitives Benutzererlebnis, um die Erstellung und Bereitstellung von Marketingkampagnen zu vereinfachen. Diese neue Benutzeroberfläche ist in Adobe Experience Cloud-Apps und -Lösungen integriert.
 
 Erfahren Sie, wie Sie eine Verbindung zu Adobe Campaign herstellen, und lernen Sie die Grundlagen der Experience Cloud-Navigation kennen. [in diesem Artikel](connect-to-campaign.md).
 
@@ -43,7 +43,7 @@ Darüber hinaus können Sie über die **Lernen** -Abschnitt der Seite.
 
 ## Linkes Navigationsmenü {#user-interface-left-nav}
 
-Mithilfe der Links auf der linken Seite können Sie auf die Campaign v8 Web-Funktionen zugreifen. Mehrere Links zeigen Listen von Objekten an, die sortiert und gefiltert werden können. Sie können auch Spalten so konfigurieren, dass alle benötigten Informationen angezeigt werden. Weitere Informationen finden Sie in [diesem Abschnitt](#list-screens). Einige Listenbildschirme sind schreibgeschützt. Welche Elemente im linken Navigationsmenü und in den Listen angezeigt werden, hängt von Ihren Benutzerberechtigungen ab. Weiterführende Informationen zu Berechtigungen finden Sie in [diesem Abschnitt](permissions.md).
+Durchsuchen Sie die Links auf der linken Seite, um auf Adobe Campaign Web-Funktionen zuzugreifen. Mehrere Links zeigen Listen von Objekten an, die sortiert und gefiltert werden können. Sie können auch Spalten so konfigurieren, dass alle benötigten Informationen angezeigt werden. Weitere Informationen finden Sie in [diesem Abschnitt](#list-screens). Einige Listenbildschirme sind schreibgeschützt. Welche Elemente im linken Navigationsmenü und in den Listen angezeigt werden, hängt von Ihren Benutzerberechtigungen ab. Weiterführende Informationen zu Berechtigungen finden Sie in [diesem Abschnitt](permissions.md).
 
 
 ### Explorer {#user-interface-explorer}

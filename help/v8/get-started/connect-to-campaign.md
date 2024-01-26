@@ -1,18 +1,18 @@
 ---
 title: Herstellen einer Verbindung zur Adobe Campaign Web-Benutzeroberfläche
-description: Erfahren Sie, wie Sie eine Verbindung zur Benutzeroberfläche von Adobe Campaign v8 Web herstellen.
+description: Erfahren Sie, wie Sie eine Verbindung zur Adobe Campaign-Web-Benutzeroberfläche herstellen.
 badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
-source-git-commit: 7e2345327e613a9606598fefd440ae97f5aac24b
+source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
 workflow-type: tm+mt
-source-wordcount: '563'
-ht-degree: 95%
+source-wordcount: '561'
+ht-degree: 85%
 
 ---
 
 # Herstellen einer Verbindung zu Adobe Campaign {#connect-to-campaign}
 
-Experience Cloud ist die integrierte Familie von Anwendungen, Produkten und Diensten von Adobe für das digitale Marketing. Über die intuitive Benutzeroberfläche können Sie schnell auf Ihre Cloud-Anwendungen, Produktfunktionen und Dienste zugreifen. Auf dieser Seite erfahren Sie, wie Sie eine Verbindung zu Adobe Experience Cloud herstellen und auf die Benutzeroberfläche von Adobe Campaign v8 Web zugreifen.
+Experience Cloud ist die integrierte Familie von Anwendungen, Produkten und Diensten von Adobe für das digitale Marketing. Über die intuitive Benutzeroberfläche können Sie schnell auf Ihre Cloud-Anwendungen, Produktfunktionen und Dienste zugreifen. Auf dieser Seite erfahren Sie, wie Sie eine Verbindung zu Adobe Experience Cloud herstellen und auf die Adobe Campaign-Webschnittstelle zugreifen.
 
 ## Anmeldung bei Adobe Experience Cloud {#sign-in-to-exc}
 
@@ -64,11 +64,11 @@ Verwenden Sie die obere Leiste der Benutzeroberfläche, um folgende Aktionen dur
 
 ## Unterstützte Browser {#browsers}
 
-Campaign v8 Web ist so konzipiert, dass es mit den neuesten Versionen von Google Chrome, Safari und Microsoft Edge optimal funktioniert. Bei der Verwendung bestimmter Funktionen in älteren Versionen oder anderen Browsern können Probleme auftreten.
+Adobe Campaign Web wurde für die optimale Funktionsweise mit der neuesten Version von Google Chrome, Safari und Microsoft Edge entwickelt. Bei der Verwendung bestimmter Funktionen in älteren Versionen oder anderen Browsern können Probleme auftreten.
 
 ## Sprachvoreinstellungen {#language-pref}
 
-Campaign v8 Web ist derzeit in den folgenden Sprachen verfügbar:
+Adobe Campaign Web ist derzeit in den folgenden Sprachen verfügbar:
 
 * Englisch (US) – EN-US
 * Französisch – FR

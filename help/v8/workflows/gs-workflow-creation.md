@@ -4,17 +4,17 @@ title: Grundlegende Prinzipien der Workflow-Erstellung
 description: Wichtige Grundlagen von Workflows mit Adobe Campaign Web
 badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: ac6e63fb-34f2-474f-b364-d2af44f649b1
-source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
+source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
 workflow-type: tm+mt
 source-wordcount: '283'
-ht-degree: 92%
+ht-degree: 84%
 
 ---
 
 
 # Grundlegende Prinzipien der Workflow-Erstellung {#gs-workflow-creation}
 
-Mit Campaign v8 Web können Sie Workflows in einer visuellen Arbeitsfläche erstellen, um kanalübergreifende Prozesse wie Segmentierung, Kampagnenausführung und Dateiverarbeitung zu entwerfen.
+Mit Adobe Campaign Web können Sie Workflows in einer visuellen Arbeitsfläche erstellen, um kanalübergreifende Prozesse wie Segmentierung, Kampagnenausführung und Dateiverarbeitung zu entwerfen.
 
 
 ## Was befindet sich in einem Workflow? {#gs-workflow-inside}
