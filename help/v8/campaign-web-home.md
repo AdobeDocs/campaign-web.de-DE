@@ -4,10 +4,10 @@ description: Hilfe-Center zu Campaign Web v8
 title: Produkt-Dokumentation zu Adobe Campaign Web v8
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 badge: label="Eingeschränkte Verfügbarkeit"
-source-git-commit: 7c1776f71885cc6e7cea14af6bba9ec1c0f664b2
+source-git-commit: ab58d8901da1b90609794ccd488b8d3a965675ec
 workflow-type: tm+mt
 source-wordcount: '692'
-ht-degree: 44%
+ht-degree: 58%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 44%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list1"
 >title="Posten 1"
->abstract="Neues Design für E-Mail-, SMS- und Push-Benachrichtigungen"
+>abstract="Neues Design-Erlebnis für E-Mail-, SMS- und Push-Benachrichtigungen"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list2"
@@ -36,12 +36,12 @@ ht-degree: 44%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list3"
 >title="Posten 3"
->abstract="Erneutes UX für Zielgruppen, Abonnements, AEM Assets, Landingpages"
+>abstract="Benutzerdefinierte Umgebung für Zielgruppen, Abonnements, AEM Assets, Landingpages"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list4"
 >title="Posten 4"
->abstract="Abfragemodellierung der nächsten Generation und Email Designer"
+>abstract="Abfragemodell der nächsten Generation und E-Mail-Designer"
 
 <!--
 >[!CONTEXTUALHELP]
@@ -96,25 +96,25 @@ Hier erhalten Sie einen Einblick in die neuesten Verbesserungen des Adobe Campai
 
 >[!TAB Kanalübergreifende Workflows]
 
-Erschließen Sie neue Automatisierungs- und Optimierungsmöglichkeiten, um dynamischere und stärker personalisierte Journeys zu erstellen. Von der erweiterten Segmentierung bis hin zu bedingten Triggern ermöglichen unsere zusätzlichen Workflow-Aktivitäten den Versand zielgerichteter Nachrichten und die Verbesserung der Kampagnenleistung.
+Erschließen Sie neue Automatisierungs- und Optimierungsmöglichkeiten, um dynamischere und stärker personalisierte Journeys zu erstellen. Von der erweiterten Segmentierung bis hin zu bedingten Triggern ermöglichen unsere zusätzlichen Workflow-Aktivitäten den Versand zielgerichteter Nachrichten und die Verbesserung der Kampagnen-Performance.
 
 [![Bild](assets/do-not-localize/learn-more-button.svg)](workflows/gs-workflows.md)
 
 >[!TAB Zielgruppenzusammensetzung]
 
-Erstellen Sie neue Zielgruppen in einer Arbeitsfläche für visuelle Workflows. Sie können nicht nur von Grund auf eine einfache Zielgruppe erstellen, sondern auch Workflow-Aktivitäten nutzen, um Ihre Zielgruppe zu präzisieren. Kombinieren Sie mehrere Zielgruppen zu einer einzigen, ergänzen Sie Ihre Zielgruppe mit externen Attributen oder teilen Sie sie basierend auf Ihren eigenen Regeln in mehrere Zielgruppen auf.
+Erstellen Sie neue Zielgruppen in einer visuellen Workflow-Arbeitsfläche. Sie können nicht nur von Grund auf eine einfache Zielgruppe erstellen, sondern auch Workflow-Aktivitäten nutzen, um Ihre Zielgruppe zu präzisieren. Sie können beispielsweise mehrere Zielgruppen zu einer einzigen zusammenfassen, Ihre Zielgruppe mit externen Attributen anreichern oder eine Zielgruppe basierend auf Regeln Ihrer Wahl in mehrere Zielgruppen unterteilen.
 
 [![Bild](assets/do-not-localize/learn-more-button.svg)](audience/create-audience.md)
 
 >[!TAB Email Designer]
 
-Mit Campaign Email Designer können Sie durch eine intuitive Drag &amp; Drop-Oberfläche faszinierende, individuell zugeschnittene E-Mails erstellen. Egal ob Sie mit einer leeren Vorlage beginnen, existierenden Inhalt importieren oder vorhandene Vorlagen nutzen, alle Inhalte für jede E-Mail entwerfen und verfeinern!
+Mit dem Campaign E-Mail-Designer können Sie über eine intuitive Drag-and-Drop-Oberfläche überzeugende, individuell zugeschnittene E-Mails erstellen. Egal ob Sie bei null anfangen, vorhandene Inhalte importieren oder Vorlagen nutzen, können Sie für jede E-Mail alle Inhalte für Werbeaktionen sowie für Transaktionen gestalten und verfeinern.
 
 [![Bild](assets/do-not-localize/learn-more-button.svg)](email/get-started-email-designer.md)
 
 >[!TAB Profil 360]
 
-Erstellen Sie neue Profile und überwachen Sie sie mithilfe leistungsstarker Berichte und Tools. Greifen Sie auf die Attribute, Interaktionen und Protokolle Ihrer Profile zu. Verwenden Sie die Filteroptionen, um die Profilliste zu durchsuchen, ihr Profil zu bearbeiten und zu aktualisieren.
+Erstellen Sie neue Profile und überwachen Sie sie mithilfe leistungsstarker Berichte und Tools. Greifen Sie auf die Attribute, Interaktionen und Protokolle Ihrer Profile zu. Verwenden Sie die Filteroptionen, um die Profilliste zu durchsuchen und ihr Profil zu bearbeiten und zu aktualisieren.
 
 [![Bild](assets/do-not-localize/learn-more-button.svg)](audience/gs-audiences-recipients.md)
 
