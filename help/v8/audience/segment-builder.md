@@ -4,10 +4,10 @@ title: Erstellen einer Zielgruppe mit dem Campaign-Regel-Builder
 description: Erfahren Sie, wie Sie mit dem Regel-Builder arbeiten
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
 badge: label="Beta"
-source-git-commit: bb3df3067c78311fa0ff3b9a52fe9713552fa0cf
+source-git-commit: 51f29840941974f05a930023e41adb1bb2558974
 workflow-type: tm+mt
-source-wordcount: '563'
-ht-degree: 98%
+source-wordcount: '565'
+ht-degree: 96%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 98%
 
 Mit dem Regel-Builder können Sie die Population definieren, die mit Ihrem Versand angesprochen werden soll, indem Sie in der Datenbank enthaltene Daten filtern. Sie können damit eine Zielgruppe aus einem Workflow erstellen, indem Sie die Aktivität **[!UICONTROL Zielgruppe erstellen]** verwenden, oder beim Erstellen eines Versands eine Zielgruppe direkt als einmalige Zielgruppe erstellen.
 
-* [Erfahren Sie, wie Sie eine Zielgruppe auswählen](create-audience.md)
+* [Erfahren Sie, wie Sie eine Zielgruppe erstellen und speichern](create-audience.md)
 * [Erfahren Sie, wie Sie eine einmalige Zielgruppe für einen Versand erstellen.](one-time-audience.md)
 
 ## Die Palette
