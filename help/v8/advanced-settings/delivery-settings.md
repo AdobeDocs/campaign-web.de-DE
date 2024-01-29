@@ -4,9 +4,9 @@ title: Versandeinstellungen
 description: Erfahren Sie mehr über die Versandeinstellungen in Campaign Web
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="Eingeschränkte Verfügbarkeit"
-source-git-commit: 93402a91511cff9cb6510f696238e667ec812f8d
+source-git-commit: 96aec85933a47c1289549ba0696874a5f82e7fd5
 workflow-type: tm+mt
-source-wordcount: '2260'
+source-wordcount: '2316'
 ht-degree: 68%
 
 ---
@@ -112,7 +112,7 @@ Die **[!UICONTROL Bedeutung des Empfängers]** -Feld ist eine Formel, mit der be
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_audience"
 >title="Zielgruppeneinstellungen für den Versand"
->abstract="Wählen Sie ein **Zielgruppen-Mapping** unter den verfügbaren Optionen aus. Zielgruppen-Mappings werden in der Adobe Campaign v8-Konsole definiert. Sie können außerdem die Ausschlussparameter für den Versand festlegen. "
+>abstract="Ein **Zielgruppen-Mapping** unter den verfügbaren Optionen auswählen. Zielgruppen-Mappings werden in der Adobe Campaign v8-Konsole definiert. Außerdem können die Ausschlussparameter für den Versand festgelegt werden. "
 
 In diesem Abschnitt können Sie ein verfügbares **Zielgruppen-Mapping** auswählen. Zielgruppen-Mappings werden in der Adobe Campaign v8-Konsole definiert. Zielgruppen-Mapping ist der Datentyp, den ein Vorgang verarbeitet. Sie ermöglicht die Bestimmung der Zielpopulation: Empfängerinnen und Empfänger, Vertragsbegünstigte, Benutzerinnen und Benutzer, Abonnentinnen und Abonnenten usw.
 
@@ -125,7 +125,7 @@ Im **[!UICONTROL Ausschluss]** können Sie Empfänger ausschließen, die nicht m
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_delivery"
 >title="Versandeinstellungen für den Versand"
->abstract="Versandparameter sind technische Einstellungen, die für Ihren Versand gelten. Sie können für den Versand BCC aktivieren und die Versand- sowie die Routinemodi ändern. Diese Optionen sind erfahrenen Benutzerinnen und Benutzern vorbehalten."
+>abstract="Versandparameter sind technische Einstellungen, die für Ihren Versand gelten. Für den Versand kann BCC aktiviert und die Versand- sowie die Routinemodi können geändert werden. Diese Optionen sind erfahrenen Benutzerinnen und Benutzern vorbehalten."
 
 **[!UICONTROL Versand]** -Parameter sind technische Einstellungen, die für Ihren Versand gelten.
 
@@ -136,6 +136,8 @@ Sie können Folgendes definieren: **[!UICONTROL Senden]** Einstellungen:
 * **[!UICONTROL SMTP-Versand testen]**: Diese Option wird zum Testen des Versands über SMTP verwendet. Der Versand wird bis zur Verbindung mit dem SMTP-Server verarbeitet, aber nicht gesendet: Für jeden Empfänger bzw. jede Empfängerin des Versands stellt Campaign eine Verbindung mit dem Server des SMTP-Anbieters her, führt den SMTP-Befehl RCPT TO aus und trennt die Verbindung vor dem SMTP-Befehl DATA.
 
 * **[!UICONTROL Email BCC]**: Mit dieser Option können Sie E-Mails in einem externen System über BCC speichern, indem Sie einfach eine BCC-E-Mail-Adresse zu Ihrer Versandzielgruppe hinzufügen. Weitere Informationen finden Sie in der [Dokumentation zu Campaign v8 (Client-Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html?lang=de){target="_blank"}.
+
+* **[!UICONTROL In mehreren Schüben versenden]**: Sie können das gesendete Volumen mithilfe von Schüben schrittweise erhöhen. Dadurch wird verhindert, dass Ihre Nachrichten als Spam gekennzeichnet werden, oder Sie können die Anzahl der pro Tag versendeten Nachrichten beschränken. Mit Schüben können Sie Sendungen in mehrere Teilsendungen unterteilen, anstatt große Mengen von Nachrichten gleichzeitig zu senden. [Weitere Informationen](send-using-waves.md)
 
 Sie können auch das Format der gesendeten E-Mail-Nachrichten ändern:
 
@@ -160,11 +162,11 @@ Sie können auch das Format der gesendeten E-Mail-Nachrichten ändern:
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_webanalytics"
 >title="Web-Analyse-Einstellungen für den Versand"
->abstract="Wählen Sie ein Web-Analyse-Konto aus. Dieses Konto wird in der Campaign-Client-Konsole konfiguriert. Sie können außerdem die Tags definieren, die für das von Ihnen verwendete Analyse-Tool freigegeben wurden."
+>abstract="Ein Web-Analyse-Konto auswählen. Dieses Konto wird in der Campaign-Client-Konsole konfiguriert. Außerdem können die Tags definiert werden, die für das verwendete Analyse-Tool freigegeben wurden."
 
 In diesem Abschnitt können Sie ein Web-Analyse-Konto auswählen. Dieses Konto wird in der Campaign-Client-Konsole konfiguriert.
 
-Sie können außerdem die Tags definieren, die für das von Ihnen verwendete Analyse-Tool freigegeben wurden.
+Außerdem können die Tags definiert werden, die für das verwendete Analyse-Tool freigegeben wurden.
 
 >[!NOTE]
 >
@@ -188,14 +190,14 @@ Weitere Informationen zur Verwaltung von weiteren Zustellversuchen finden Sie in
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_approval"
 >title="Genehmigungsmodus für den Versand"
->abstract="Wählen Sie den Genehmigungsmodus aus. Wenn bei der Versandvorbereitung Warnungen erzeugt werden, können Sie den Versand so konfigurieren, dass definiert wird, ob er trotzdem ausgeführt werden soll."
+>abstract="Den Genehmigungsmodus auswählen. Wenn bei der Versandvorbereitung Warnungen erzeugt werden, kann der Versand so konfiguriert werden, dass definiert wird, ob er trotzdem ausgeführt werden soll."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_approval"
 >title="Genehmigungsmodus für Sendungen"
->abstract="Wählen Sie den Genehmigungsmodus für Sendungen aus, die auf dieser Vorlage basieren. Wenn bei der Versandvorbereitung Warnungen erzeugt werden, können Sie den Versand so konfigurieren, dass definiert wird, ob er trotzdem ausgeführt werden soll."
+>abstract="Wählen Sie den Genehmigungsmodus für Sendungen aus, die auf dieser Vorlage basieren. Wenn bei der Versandvorbereitung Warnungen erzeugt werden, kann der Versand so konfiguriert werden, dass definiert wird, ob er trotzdem ausgeführt werden soll."
 
-Wenn bei der Versandvorbereitung Warnungen erzeugt werden, können Sie den Versand so konfigurieren, dass definiert wird, ob er trotzdem ausgeführt werden soll. Standardmäßig müssen Benutzende den Nachrichtenversand am Ende der Analysephase bestätigen: Hierbei handelt es sich um eine **manuelle** Validierung.
+Wenn bei der Versandvorbereitung Warnungen erzeugt werden, kann der Versand so konfiguriert werden, dass definiert wird, ob er trotzdem ausgeführt werden soll. Standardmäßig müssen Benutzende den Nachrichtenversand am Ende der Analysephase bestätigen: Hierbei handelt es sich um eine **manuelle** Validierung.
 
 Sie können im entsprechenden Feld einen anderen Validierungsmodus auswählen. Folgende Modi sind verfügbar: 
 
