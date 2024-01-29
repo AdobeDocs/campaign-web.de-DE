@@ -61,7 +61,7 @@ In der **[!UICONTROL Explorer]**-Ansicht können Sie Testprofile auch filtern, l
 >[!CONTEXTUALHELP]
 >id="acw_recipients_testprofiles_additionaldata"
 >title="Zusätzliche Daten zu Testprofilen"
->abstract="Geben Sie die Personalisierungsdaten ein, mit denen die Sendungen in den Daten-Management-Workflows erstellt wurden und denen Sie einen bestimmten Wert zuweisen möchten."
+>abstract="Die Personalisierungsdaten angben, die für die in den Data-Management-Workflows erstellten Sendungen verwendet werden und denen ein bestimmter Wert zugeweisen werden soll."
 
 Gehen Sie wie folgt vor, um ein Testprofil zu erstellen.
 

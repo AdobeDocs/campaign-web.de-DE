@@ -29,7 +29,7 @@ ht-degree: 68%
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"
 >title="Profile"
->abstract="Ein Profil ist eine Person, die für den Empfang von Nachrichten durch Adobe Campaign ausgewählt wurde. In dieser Liste können Sie je nach Ihren Berechtigungen die Details der Profile anzeigen. Verwenden Sie die Filteroptionen, um diese Liste zu durchsuchen. Sie können eine kleine Gruppe von Profilattributen bearbeiten und aktualisieren."
+>abstract="Ein Profil ist eine Person, die für den Empfang von Nachrichten durch Adobe Campaign ausgewählt wurde. In dieser Liste können die Details der Profile anhand der Berechtigungen angezeigt werden. Verwenden Sie die Filteroptionen, um diese Liste zu durchsuchen. Eine kleine Gruppe von Profilattributen kann bearbeitet und aktualisiert werden."
 
 ## Was ist ein Profil? {#what}
 

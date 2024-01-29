@@ -15,37 +15,37 @@ ht-degree: 56%
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_details"
 >title="Grundlegende Details"
->abstract="Dieser Abschnitt bietet Einblicke in die grundlegenden Profildetails. Um Informationen zu ändern, nehmen Sie die gewünschten Änderungen direkt im entsprechenden Feld vor und klicken Sie auf **Speichern** oben rechts im Bildschirm."
+>abstract="Dieser Abschnitt bietet Einblicke in die grundlegenden Profildetails. Um Informationen zu ändern, die gewünschten Änderungen direkt im entsprechenden Feld vornehmen und auf die **Speichern** -Schaltfläche in der oberen rechten Ecke des Bildschirms klicken."
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_contactinformation"
 >title="Kontaktinformationen"
->abstract="Dieser Abschnitt bietet Einblicke in die Kontaktinformationen des Profils. Um Informationen zu ändern, nehmen Sie die gewünschten Änderungen direkt im entsprechenden Feld vor und klicken Sie auf **Speichern** oben rechts im Bildschirm."
+>abstract="Dieser Abschnitt bietet Einblicke in die Kontaktinformationen des Profils. Um Informationen zu ändern, die gewünschten Änderungen direkt im entsprechenden Feld vornehmen und auf die **Speichern** -Schaltfläche in der oberen rechten Ecke des Bildschirms klicken."
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_address"
 >title="Adresse"
->abstract="Dieser Abschnitt bietet Einblicke in die Postanschrift und die Adressenqualität des Profils. Um Informationen zu ändern, nehmen Sie die gewünschten Änderungen direkt im entsprechenden Feld vor und klicken Sie auf **Speichern** oben rechts im Bildschirm."
+>abstract="Dieser Abschnitt bietet Einblicke in die Postanschrift und die Adressenqualität des Profils. Um Informationen zu ändern, die gewünschten Änderungen direkt im entsprechenden Feld vornehmen und auf die **Speichern** -Schaltfläche in der oberen rechten Ecke des Bildschirms klicken."
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_account"
 >title="Kontodetails"
->abstract="Dieser Abschnitt bietet Einblicke in die Kontodetails des Profils. Um Informationen zu ändern, nehmen Sie die gewünschten Änderungen direkt im entsprechenden Feld vor und klicken Sie auf **Speichern** oben rechts im Bildschirm."
+>abstract="Dieser Abschnitt bietet Einblicke in die Kontodetails des Profils. Um Informationen zu ändern, die gewünschten Änderungen direkt im entsprechenden Feld vornehmen und auf die **Speichern** -Schaltfläche in der oberen rechten Ecke des Bildschirms klicken."
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_nolongercontact"
 >title="Empfänger – Nicht mehr kontaktieren"
->abstract="Dieser Abschnitt bietet Einblicke in die Kontaktvoreinstellungen des Profils. Um Informationen zu ändern, nehmen Sie die gewünschten Änderungen direkt im entsprechenden Feld vor und klicken Sie auf **Speichern** oben rechts im Bildschirm."
+>abstract="Dieser Abschnitt bietet Einblicke in die Kontaktvoreinstellungen des Profils. Um Informationen zu ändern, die gewünschten Änderungen direkt im entsprechenden Feld vornehmen und auf die **Speichern** -Schaltfläche in der oberen rechten Ecke des Bildschirms klicken."
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_customfields"
 >title="Benutzerdefinierte Felder"
->abstract="Benutzerdefinierte Felder sind spezifische Attribute, die auf Ihre Anforderungen zugeschnitten sind und für Ihre Instanz konfiguriert wurden. Um Informationen zu ändern, nehmen Sie die gewünschten Änderungen direkt im entsprechenden Feld vor und klicken Sie auf **Speichern** oben rechts im Bildschirm."
+>abstract="Benutzerdefinierte Felder sind spezifische Attribute, die auf Ihre Anforderungen zugeschnitten sind und für Ihre Instanz konfiguriert wurden. Um Informationen zu ändern, die gewünschten Änderungen direkt im entsprechenden Feld vornehmen und auf die **Speichern** -Schaltfläche in der oberen rechten Ecke des Bildschirms klicken."
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_othersfields"
 >title="Sonstige"
->abstract="Dieser Abschnitt enthält zusätzliche integrierte Attribute. Um Informationen zu ändern, nehmen Sie die gewünschten Änderungen direkt im entsprechenden Feld vor und klicken Sie auf **Speichern** oben rechts im Bildschirm."
+>abstract="Dieser Abschnitt enthält zusätzliche integrierte Attribute. Um Informationen zu ändern, die gewünschten Änderungen direkt im entsprechenden Feld vornehmen und auf die **Speichern** -Schaltfläche in der oberen rechten Ecke des Bildschirms klicken."
 
 Gehen Sie wie folgt vor, um ein Profil zu erstellen:
 
