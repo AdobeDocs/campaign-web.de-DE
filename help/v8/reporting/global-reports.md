@@ -3,13 +3,13 @@ audience: end-user
 title: Erste Schritte mit globalen Berichten
 description: Grundlegendes zu globalen Berichten
 badge: label="Eingeschränkte Verfügbarkeit"
-source-git-commit: fb72b943b324990f6dd82a4a05bfd28e5452480a
-workflow-type: ht
+exl-id: e64d9765-f602-4fee-9923-a3665130c63a
+source-git-commit: 72899742daf04a0da6e2fb3d802b7841753b8c6c
+workflow-type: tm+mt
 source-wordcount: '207'
 ht-degree: 100%
 
 ---
-
 
 # Erste Schritte mit globalen Berichten {#global-report-gs}
 
@@ -41,6 +41,6 @@ Gehen Sie wie folgt vor, um auf Ihre globalen Berichte zuzugreifen und sie zu ve
 
 1. Klicken Sie auf **[!UICONTROL Regeln hinzufügen]**, um Abfragen zu erstellen und Berichtsdaten besser zu filtern. [Erfahren Sie, wie Sie den Abfrage-Modeler verwenden](../query/query-modeler-overview.md)
 
-1. Unter **[!UICONTROL URLs und Clickstreams]** können Sie auch die Optionen **[!UICONTROL Am häufigsten besuchte Links]** oder **[!UICONTROL Zeitraum]** auswählen.
+1. Unter **[!UICONTROL URLs und Clickstreams]** können Sie auch die Option **[!UICONTROL Am häufigsten besuchte Links]** oder **[!UICONTROL Zeitraum]** auswählen.
 
-   Mit der Option **[!UICONTROL Anzeigen nach]** können Sie nach URLs, Bezeichnungen und Kategorien filtern.
+   Mit der Option **[!UICONTROL Anzeigen nach]** können Sie nach URLs, Bezeichnungen oder Kategorien filtern.

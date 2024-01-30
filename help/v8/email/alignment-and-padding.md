@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie die senkrechte Ausrichtung und das Padding an
 exl-id: 32e613e4-60ce-43b4-90a6-794af0e3976b
 badge: label="Eingeschränkte Verfügbarkeit"
 source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '167'
 ht-degree: 100%
 

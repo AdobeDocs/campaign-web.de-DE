@@ -3,8 +3,9 @@ audience: end-user
 title: Erstellen Ihrer erste Abfrage mithilfe des Abfrage-Modelers
 description: Erfahren Sie, wie Sie Ihre erste Abfrage im Abfrage-Modeler in Adobe Campaign Web erstellen.
 badge: label="Eingeschränkte Verfügbarkeit"
-source-git-commit: 26d4b548a7019a79826af435a90deb72e956bcde
-workflow-type: ht
+exl-id: f9a365ac-c8be-423f-a99d-40ad5492223c
+source-git-commit: 72899742daf04a0da6e2fb3d802b7841753b8c6c
+workflow-type: tm+mt
 source-wordcount: '2008'
 ht-degree: 100%
 
@@ -89,7 +90,7 @@ Die Aggregatfunktionen dienen der Durchführung von Berechnungen zu einer Reihe 
   </tr> 
   <tr> 
    <td> <strong>StdDev</strong><br /> </td> 
-   <td> Gibt die Standardabweichung der Werte einer Spalte vom Typ Zahl aus<br /> </td> 
+   <td> Gibt die Standardabweichung einer Zahl, Zeichenfolge oder Datumsspalte aus<br /> </td> 
    <td> StdDev(&lt;Wert&gt;)<br /></td> 
   </tr> 
   <tr> 

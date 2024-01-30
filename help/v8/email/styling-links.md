@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie einen Stil für Links definieren
 exl-id: b4b79bd5-a96c-49ca-b3fe-95befef00dff
 badge: label="Eingeschränkte Verfügbarkeit"
 source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '141'
 ht-degree: 100%
 

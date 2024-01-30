@@ -7,7 +7,7 @@ exl-id: 6f2da017-90d6-497d-bbbd-293775da00e9
 source-git-commit: a3476e46c29723af8246683a005543cfd605e7df
 workflow-type: tm+mt
 source-wordcount: '228'
-ht-degree: 85%
+ht-degree: 88%
 
 ---
 
@@ -28,7 +28,7 @@ Gehen Sie wie folgt vor, um direkt aus einem Versand eine neue Zielgruppe zu ers
 
    ![](assets/segment-builder0.png)
 
-1. Wählen Sie **Eigene erstellen** aus. Das Abfragemodell wird angezeigt. Er ermöglicht es Ihnen, die Population zu definieren, an die Ihr Versand gerichtet ist, indem Sie die in der Datenbank enthaltenen Daten filtern. [Erfahren Sie, wie Sie das Abfragemodell verwenden](../query/query-modeler-overview.md)
+1. Wählen Sie **Eigene erstellen** aus. Das Abfragemodell wird angezeigt. Er ermöglicht es Ihnen, die Population zu definieren, an die Ihr Versand gerichtet ist, indem Sie die in der Datenbank enthaltenen Daten filtern. [So verwenden Sie den Abfrage-Modeler](../query/query-modeler-overview.md)
 
    ![](assets/query-modeler.png)
 

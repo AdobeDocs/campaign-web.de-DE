@@ -3,13 +3,13 @@ audience: end-user
 title: Filtern von Listen
 description: Erfahren Sie, wie Sie in Adobe Campaign Web-Listen mithilfe integrierter und benutzerdefinierter Filter filtern.
 badge: label="Eingeschränkte Verfügbarkeit"
-source-git-commit: 7f4d8a2c2b0592515c25628f35234311dc61b4fd
-workflow-type: ht
+exl-id: 41c3c4c3-5991-4223-ad02-e2531d76fdda
+source-git-commit: 72899742daf04a0da6e2fb3d802b7841753b8c6c
+workflow-type: tm+mt
 source-wordcount: '308'
 ht-degree: 100%
 
 ---
-
 
 # Filtern von Listen {#filter-lists}
 

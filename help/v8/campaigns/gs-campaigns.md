@@ -24,7 +24,7 @@ Mit Adobe Campaign können Sie Ihre zielgerichteten Marketinginitiativen mithilf
 
 Durch das Hinzufügen mehrerer kampagnenspezifischer Workflows und Sendungen können Sie personalisierte Erlebnisse über verschiedene Kanäle hinweg erstellen und so sicherstellen, dass jeder Touchpoint mit der gewünschten Zielgruppe abgestimmt wird.
 
-Kampagnen bieten dedizierte Reporting-Metriken, mit denen Sie einen umfassenden Einblick in die Leistung Ihrer gesamten Kampagne erhalten. So können Sie deren Effektivität bewerten, Trends identifizieren und datengestützte Entscheidungen treffen, um zukünftige Bemühungen zu optimieren. In [diesem Abschnitt](../reporting/campaign-reports.md) erfahren Sie, wie Sie auf Kampagnenberichte zugreifen können und wie diese zu verstehen sind.
+Kampagnen bieten dedizierte Reporting-Metriken, mit denen Sie einen umfassenden Einblick in die Performance Ihrer gesamten Kampagne erhalten. So können Sie deren Effektivität bewerten, Trends identifizieren und datengestützte Entscheidungen treffen, um zukünftige Bemühungen zu optimieren. In [diesem Abschnitt](../reporting/campaign-reports.md) erfahren Sie, wie Sie auf Kampagnenberichte zugreifen können und wie diese zu verstehen sind.
 
 ![Kampagnenfluss](assets/campaign-flow.png)
 

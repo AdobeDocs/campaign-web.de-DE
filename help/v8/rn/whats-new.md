@@ -90,7 +90,7 @@ Nachfolgend sind die wichtigsten Funktionen aufgeführt, die mit der limitierten
 
 * **Weitere Kampagnen-Workflow-Aktivitäten**
 
-  Bringen Sie Ihre Marketing-Kampagnen mit unserem **erweiterten Satz von Workflow-Aktivitäten** auf die Überholspur. Erschließen Sie neue Automatisierungs- und Optimierungsmöglichkeiten, um dynamischere und stärker personalisierte Journeys zu erstellen. Von der erweiterten Segmentierung bis hin zu bedingten Triggern ermöglichen unsere zusätzlichen Workflow-Aktivitäten den Versand zielgerichteter Nachrichten und die Verbesserung der Kampagnenleistung.
+  Bringen Sie Ihre Marketing-Kampagnen mit unserem **erweiterten Satz von Workflow-Aktivitäten** auf die Überholspur. Erschließen Sie neue Automatisierungs- und Optimierungsmöglichkeiten, um dynamischere und stärker personalisierte Journeys zu erstellen. Von der erweiterten Segmentierung bis hin zu bedingten Triggern ermöglichen unsere zusätzlichen Workflow-Aktivitäten den Versand zielgerichteter Nachrichten und die Verbesserung der Kampagnen-Performance.
 
   Die neuen Aktivitäten, die mit der aktuellen limitierten Version eingeführt werden, sind: **Abstimmung**, **Datei laden**, und **Zielgruppe speichern**.
 

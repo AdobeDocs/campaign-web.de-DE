@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie auf Kampagnenberichte zugreifen und diese ver
 badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: 6a25a636-35d6-44c8-8635-7aec683af1f6
 source-git-commit: ac9a7918045e7ff02ef27c348b28a6ce09802caf
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '269'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ ht-degree: 100%
 >abstract="The Tracking tab within your report offers valuable data, including recipient behavior per link, breakdown of opens and clicks, as well as detailed information about the most frequently clicked URLs during a delivery."
 -->
 
-Die **Kampagnenberichte** bieten einen umfassenden Überblick über Ihre **Kampagne** und alle relevanten Informationen zu den verschiedenen zugehörigen Sendungen. Diese Berichte enthalten eine gründliche Analyse der Leistung jedes Versands pro Kanal: Erfolgsraten, Zielgruppeninteraktion und andere wichtige Metriken. Sie ermöglichen es Ihnen, die Effektivität und Wirkung Ihrer Kampagne insgesamt zu bewerten.
+Die **Kampagnenberichte** bieten einen umfassenden Überblick über Ihre **Kampagne** und alle relevanten Informationen zu den verschiedenen zugehörigen Sendungen. Diese Berichte enthalten eine gründliche Analyse der Performance jedes Versands pro Kanal: Erfolgsraten, Zielgruppeninteraktion und andere wichtige Metriken. Sie ermöglichen es Ihnen, die Effektivität und Wirkung Ihrer Kampagne insgesamt zu bewerten.
 
 Die vollständige Liste der Berichte und zugehörigen Metriken für jeden Kanal finden Sie auf den folgenden Seiten:
 

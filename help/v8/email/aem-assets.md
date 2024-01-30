@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie mit Adobe Experience Manager Assets as a Clou
 badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: c1e548b1-f4c6-4672-9724-edfc418063a6
 source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 100%
 

@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie Ihr E-Mail-Rendering in der Web-Benutzeroberf
 exl-id: 5cdbce8b-3969-470d-8019-1edc58433146
 badge: label="Eingeschränkte Verfügbarkeit"
 source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 100%
 

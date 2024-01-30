@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie die Workflow-Aktivität „Und-Verknüpfung�
 badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: 2470e5fa-5596-4441-b9b9-7e8b5d1d53aa
 source-git-commit: a0611ac41957b4bd7796c4c42c40232fba1dfc2b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '260'
 ht-degree: 100%
 

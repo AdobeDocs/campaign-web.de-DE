@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie auf Versandberichte zugreifen und diese verwe
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
 badge: label="Eingeschränkte Verfügbarkeit"
 source-git-commit: ac9a7918045e7ff02ef27c348b28a6ce09802caf
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '260'
 ht-degree: 100%
 
@@ -28,7 +28,7 @@ Die vollständige Liste der Berichte und zugehörigen Metriken für jeden Kanal 
 
 ## Verwalten Ihres Bericht-Dashboards {#manage-reports}
 
-Adobe Campaign bietet verschiedene Berichtstypen für jeden Versand. Mit diesen Berichten können Sie die Wirkung und Leistung Ihrer Nachrichten in einem integrierten Dashboard messen und visualisieren.
+Adobe Campaign bietet verschiedene Berichtstypen für jeden Versand. Mit diesen Berichten können Sie die Wirkung und Performance Ihrer Nachrichten in einem integrierten Dashboard messen und visualisieren.
 
 Führen Sie folgende Schritte aus, um Berichte anzuzeigen und zu verwalten:
 
@@ -54,6 +54,6 @@ Führen Sie folgende Schritte aus, um Berichte anzuzeigen und zu verwalten:
 
 1. Unter **[!UICONTROL URLs und Clickstreams]** können Sie auch die Option **[!UICONTROL Am häufigsten besuchte Links]** oder **[!UICONTROL Zeitraum]** auswählen.
 
-   Mit **[!UICONTROL Anzeigen nach]** können Sie nach URLs, Bezeichnungen oder Kategorien filtern.
+   Mit der Option **[!UICONTROL Anzeigen nach]** können Sie nach URLs, Bezeichnungen oder Kategorien filtern.
 
    ![](assets/manage_delivery_report_5.png)

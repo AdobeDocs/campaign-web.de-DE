@@ -25,7 +25,7 @@ Adobe Campaign bietet drei unterschiedliche Berichte:
 
 * **Kampagnenberichte**
 
-  **Kampagnenberichte** bieten einen umfassenden Überblick über Ihre **Kampagne** und enthalten alle relevanten Informationen zu den verschiedenen zugehörigen Sendungen. Diese Berichte enthalten eine gründliche Analyse der Leistung jedes Versands pro Kanal: Erfolgsraten, Zielgruppeninteraktion und andere wichtige Metriken. Sie ermöglichen es Ihnen, die Effektivität und Wirkung Ihrer Kampagne insgesamt zu bewerten.
+  **Kampagnenberichte** bieten einen umfassenden Überblick über Ihre **Kampagne** und enthalten alle relevanten Informationen zu den verschiedenen zugehörigen Sendungen. Diese Berichte enthalten eine gründliche Analyse der Performance jedes Versands pro Kanal: Erfolgsraten, Zielgruppeninteraktion und andere wichtige Metriken. Sie ermöglichen es Ihnen, die Effektivität und Wirkung Ihrer Kampagne insgesamt zu bewerten.
 
 
 * **Allgemeine Berichte**
