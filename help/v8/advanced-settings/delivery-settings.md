@@ -212,7 +212,7 @@ Sie können im entsprechenden Feld einen anderen Validierungsmodus auswählen. F
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_validity"
 >title="Gültigkeit der Einstellungen"
->abstract="Im Feld **Versandlaufzeit** können Sie die Zeitspanne angeben, während der erneute Zustellversuche unternommen werden. Dies bedeutet konkret, dass Adobe Campaign die Nachrichten ab dem Startdatum versendet und bis zum Ablauf der angegebenen Spanne nicht zustellbare Nachrichten in regelmäßigen Abständen erneut sendet.<br>Die **Gültigkeit der Ressourcen** wird für hochgeladene Ressourcen wie Mirrorseite oder Bilder verwendet. Nach Erreichen des Grenzwerts sind keine Ressourcen mehr verfügbar."
+>abstract="Im Feld **Versandlaufzeit** kann die Zeitspanne angegeben werden, in der erneute globale Zustellversuche unternommen werden. Dies bedeutet konkret, dass Adobe Campaign die Nachrichten ab dem Startdatum versendet und bis nach Ablauf der angegebenen Spanne nicht zustellbare Nachrichten in regelmäßigen Abständen erneut sendet.<br>Die **Gültigkeit der Ressourcen** wird für hochgeladene Ressourcen wie Mirrorseite oder Bilder verwendet. Nach Erreichen des Grenzwerts sind keine Ressourcen mehr verfügbar."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_resources_validity"
@@ -222,7 +222,7 @@ Sie können im entsprechenden Feld einen anderen Validierungsmodus auswählen. F
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_delivery_duration"
 >title="Versandlaufzeit"
->abstract="Im Feld **Versandlaufzeit** können Sie die Zeitspanne angeben, während der erneute Zustellversuche unternommen werden. Dies bedeutet konkret, dass Adobe Campaign die Nachrichten ab dem Startdatum versendet und bis zum Ablauf der angegebenen Spanne nicht zustellbare Nachrichten in regelmäßigen Abständen erneut sendet."
+>abstract="Im Feld **Versandlaufzeit** kann die Zeitspanne angegeben werden, in der erneute globale Zustellversuche unternommen werden. Dies bedeutet konkret, dass Adobe Campaign die Nachrichten ab dem Startdatum versendet und bis nach Ablauf der angegebenen Spanne nicht zustellbare Nachrichten in regelmäßigen Abständen erneut sendet."
 
 <!--
 >[!CONTEXTUALHELP]
@@ -233,7 +233,7 @@ Sie können im entsprechenden Feld einen anderen Validierungsmodus auswählen. F
 
 ### Gültigkeitszeitraum {#validity-period}
 
-Im Feld **[!UICONTROL Versandlaufzeit]** können Sie die Zeitspanne angeben, während der erneute Zustellversuche unternommen werden. Dies bedeutet konkret, dass Adobe Campaign die Nachrichten ab dem Startdatum versendet und bis zum Ablauf der angegebenen Spanne nicht zustellbare Nachrichten in regelmäßigen Abständen erneut sendet.
+Im Feld **[!UICONTROL Versandlaufzeit]** kann die Zeitspanne angegeben werden, in der erneute globale Zustellversuche unternommen werden. Dies bedeutet konkret, dass Adobe Campaign die Nachrichten ab dem Startdatum versendet und bis zum Ablauf der angegebenen Spanne nicht zustellbare Nachrichten in regelmäßigen Abständen erneut sendet.
 
 Sie können alternativ auch ein genaues Datum angeben. Markieren Sie dazu die Option **[!UICONTROL Gültigkeit explizit festlegen]**. In diesem Fall kann mit den Versand- und Gültigkeitsdaten auch eine bestimmte Uhrzeit konfiguriert werden. Standardmäßig wird die aktuelle Uhrzeit eingesetzt, sie kann jedoch direkt im Eingabefeld angepasst werden.
 
