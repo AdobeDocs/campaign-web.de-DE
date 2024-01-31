@@ -6,7 +6,7 @@ exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
 source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
 workflow-type: tm+mt
 source-wordcount: '561'
-ht-degree: 85%
+ht-degree: 90%
 
 ---
 
@@ -53,7 +53,7 @@ Sie sind jetzt mit Campaign verbunden. Auf [dieser Seite](user-interface.md) erf
 
 Verwenden Sie die obere Leiste der Benutzeroberfläche, um folgende Aktionen durchzuführen:
 
-* Feedback zur Campaign-Web-Benutzeroberfläche freigeben
+* Teilen von Feedback zu Campaign Web UI
 * Wechseln zwischen Ihren Organisationen
 * Wechseln zwischen Ihren Adobe Experience Cloud-Lösungen und -Apps
 * nach Hilfe zu [Adobe Experience League](https://experienceleague.adobe.com/docs/?lang=de){target="_blank"} suchen
@@ -92,7 +92,7 @@ So ändern Sie Ihre Sprache:
 
 >[!CAUTION]
 >
->Wenn Sie die Anwendung von [KI-gestützte Kontexthilfe](using-ai.md) -Funktionen verwenden, müssen Sie Ihre bevorzugte Sprache auf Englisch festlegen. Andere Sprachen werden nicht unterstützt.
+>Wenn Sie die Möglichkeiten der [KI-gestützten kontextbezogenen Hilfe](using-ai.md) nutzen möchten, müssen Sie die bevorzugte Sprache auf Englisch einstellen. Andere Sprachen werden nicht unterstützt.
 >
 
 

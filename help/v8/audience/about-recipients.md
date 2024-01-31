@@ -5,7 +5,7 @@ badge: label="Eingeschränkte Verfügbarkeit"
 source-git-commit: 22b183a739dd92d7c4245fb4694034a247511d75
 workflow-type: tm+mt
 source-wordcount: '425'
-ht-degree: 68%
+ht-degree: 71%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 68%
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"
 >title="Profile"
->abstract="Ein Profil ist eine Person, die für den Empfang von Nachrichten durch Adobe Campaign ausgewählt wurde. In dieser Liste können die Details der Profile anhand der Berechtigungen angezeigt werden. Verwenden Sie die Filteroptionen, um diese Liste zu durchsuchen. Eine kleine Gruppe von Profilattributen kann bearbeitet und aktualisiert werden."
+>abstract="Ein Profil ist ein Kontakt, der gezielt Nachrichten von Adobe Campaign erhält. In dieser Liste können die Details der Profile anhand der Berechtigungen angezeigt werden. Verwenden Sie die Filteroptionen, um diese Liste zu durchsuchen. Eine kleine Gruppe von Profilattributen kann bearbeitet und aktualisiert werden."
 
 ## Was ist ein Profil? {#what}
 

@@ -7,7 +7,7 @@ badge: label="Eingeschränkte Verfügbarkeit"
 source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
 workflow-type: tm+mt
 source-wordcount: '733'
-ht-degree: 70%
+ht-degree: 96%
 
 ---
 
@@ -33,7 +33,7 @@ Die wichtigsten Schritte zum Einschließen von Angeboten in einen Versand sind:
 >title="Festlegen der erweiterten Angebotseinstellungen"
 >abstract="Sie können den Ausschluss von Empfängerinnen und Empfängern aktivieren, für die nicht genügend geeignete Angebote vorhanden sind, und festlegen, wie die Nachricht verarbeitet werden soll, falls einer der Vorschläge nicht vorhanden ist."
 
-Mit Adobe Campaign können Sie während einer Interaktion mit einem bestimmten Kontakt in Echtzeit reagieren, indem Sie ihm ein oder mehrere spezifische Angebote unterbreiten. Bei diesen Angeboten kann es sich um einfache Kommunikationsnachrichten, Sonderangebote für ein oder mehrere Produkte oder um einen Dienst handeln.
+Mit Adobe Campaign können Sie während einer Interaktion mit einem bestimmten Kontakt in Echtzeit reagieren, indem Sie ihm ein oder mehrere spezifische Angebote unterbreiten. Bei diesen Angeboten kann es sich um einfache Kommunikationsnachrichten, Sonderangebote für ein oder mehrere Produkte oder einen Service handeln.
 
 Gehen Sie wie folgt vor, um Angebote auszuwählen, die zu Ihrem Versand hinzugefügt werden sollen.
 
@@ -43,7 +43,7 @@ Gehen Sie wie folgt vor, um Angebote auszuwählen, die zu Ihrem Versand hinzugef
 
 1. Konfigurieren Sie, welche Angebote den Empfängerinnen und Empfängern unterbreitet werden sollen.
 
-   Wählen Sie zunächst die **[!UICONTROL Platzierung]** entsprechend Ihrer Angebotsumgebung. Erfahren Sie, wie Sie eine Platzierung im [Dokumentation zu Campaign v8 (Clientkonsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-settings/interaction-offer-spaces.html?lang=de){target="_blank"}.
+   Wählen Sie zunächst die **[!UICONTROL Platzierung]** entsprechend Ihrer Angebotsumgebung. Wie Sie eine Platzierung erstellen, erfahren Sie in der [Dokumentation zu Campaign v8 (Client-Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-settings/interaction-offer-spaces.html?lang=de){target="_blank"}.
 
    ![](assets/offer-create-content.png)
 
@@ -61,33 +61,33 @@ Gehen Sie wie folgt vor, um Angebote auszuwählen, die zu Ihrem Versand hinzugef
 
 1. Wählen Sie bei Bedarf die Option **[!UICONTROL Nicht infrage kommende Empfänger ausschließen]** aus.
 
-   Mit dieser Option können Sie den Ausschluss von Empfängern aktivieren oder deaktivieren, für die nicht genügend geeignete Angebote vorhanden sind:
+   Mit dieser Option können Sie den Ausschluss von Empfangenden aktivieren oder deaktivieren, für die nicht genügend geeignete Angebote vorhanden sind:
 
    * Wenn die Option aktiviert ist, werden Empfängerinnen und Empfänger, für die nicht genügend geeignete Angebote vorhanden sind, vom Versand ausgeschlossen.
    * Wenn die Option deaktiviert ist, werden diese Empfängerinnen und Empfänger nicht vom Versand ausgeschlossen, ihnen wird aber nicht die angefragte Anzahl von Angeboten unterbreitet.
 
 1. Wählen Sie bei Bedarf die Option **[!UICONTROL Alles ausblenden, wenn kein Angebot ausgewählt ist]**.
 
-   Mit dieser Option können Sie festlegen, wie die Nachricht verarbeitet werden soll, falls ein Vorschlag nicht existiert:
+   Mit dieser Option können Sie festlegen, wie die Nachricht verarbeitet werden soll, wenn eine der Vorschläge nicht existiert:
 
    * Wenn die Option aktiviert ist, wird keine Darstellung des fehlenden Vorschlags angezeigt und es wird auch kein Inhalt für diesen Vorschlag in der Nachricht angezeigt.
    * Wenn die Option deaktiviert ist, wird die der Versand der Nachricht abgebrochen und die Empfänger und Empfängerinnen können keine Nachrichten mehr empfangen.
 
-Nachdem Sie die Angebote für Ihren Versand konfiguriert haben, können Sie sie in den Versandinhalt einfügen.
+Nachdem Sie die Angebote konfiguriert haben, die im Rahmen des Versands vorgeschlagen werden sollen, können Sie sie in den Versandinhalt einfügen.
 
 ## Einfügen von Angeboten in den Versand {#insert}
 
-Angebote können im Versand mit der Variablen [Ausdruckseditor](../personalization/gs-personalization.md#access). Sie können entweder in die Betreffzeile oder in den Versandtext eingefügt werden.
+Angebote können mit dem [Ausdruckseditor](../personalization/gs-personalization.md#access) zum Versand hinzugefügt werden. Sie können entweder in die Betreffzeile oder in den Versandtext eingefügt werden.
 
 >[!CAUTION]
 >
 >Bevor Sie ein Angebot in den Versand einfügen, stellen Sie sicher, dass Sie [konfiguriert haben, welche Angebote mit diesem Versand vorgeschlagen werden sollen](#configure).
 
-Gehen Sie wie folgt vor, um ein Angebot mithilfe des Ausdruckseditors einzufügen.
+Gehen Sie wie folgt vor, um ein Angebot mit dem Ausdruckseditor einzufügen.
 
 1. Rufen Sie die Betreffzeile oder den Inhalt für einen Versand auf.
 
-1. Platzieren Sie den Cursor an der Stelle, an der das Angebot eingefügt werden soll, und öffnen Sie den Ausdruckseditor mithilfe des Personalisierungssymbols.
+1. Platzieren Sie den Mauszeiger an der Stelle, an der das Angebot eingefügt werden soll, und öffnen Sie den Ausdruckseditor über das Personalisierungssymbol.
 
    ![](assets/offer-insert-perso-icon.png)
 
@@ -97,7 +97,7 @@ Gehen Sie wie folgt vor, um ein Angebot mithilfe des Ausdruckseditors einzufüge
    >
    >Die Anzahl der Vorschläge wird beim [Einrichten von Angeboten](#configure) für den aktuellen Versand definiert.
 
-1. Definieren Sie jeden Vorschlag mithilfe der Personalisierungsfelder, der Rendering-Funktionen oder der verfügbaren Angebotsattribute.
+1. Definieren Sie jedes Angebot mithilfe der verfügbaren Personalisierungsfelder, Rendering-Funktionen oder Angebotsattribute.
 
    ![](assets/offer-inserted.png)
 
@@ -107,6 +107,6 @@ Gehen Sie wie folgt vor, um ein Angebot mithilfe des Ausdruckseditors einzufüge
 
 1. Speichern Sie Ihre Änderungen.
 
-1. Schließen Sie den Inhalt ab, testen Sie Ihren Versand und senden Sie ihn. [Weitere Informationen](gs-messages.md)
+1. Finalisieren Sie den Inhalt, testen Sie Ihren Versand und führen Sie ihn aus. [Weitere Informationen](gs-messages.md)
 
 Wenn der Versand nun bei einer Empfängerin oder einem Empfänger eingeht, wird diesem Profil das richtige Angebot angezeigt.

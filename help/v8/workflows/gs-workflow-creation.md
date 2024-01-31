@@ -1,13 +1,13 @@
 ---
 audience: end-user
 title: Grundlegende Prinzipien der Workflow-Erstellung
-description: Wichtige Grundlagen von Workflows mit Adobe Campaign Web
+description: Lernen Sie die wichtigsten Prinzipien von Workflows mit Adobe Campaign Web kennen
 badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: ac6e63fb-34f2-474f-b364-d2af44f649b1
 source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
 workflow-type: tm+mt
 source-wordcount: '283'
-ht-degree: 84%
+ht-degree: 91%
 
 ---
 
@@ -25,7 +25,7 @@ Das Workflow-Diagramm zeigt, was passieren soll. Es beschreibt die verschiedenen
 
 Jeder Workflow besteht aus:
 
-* **Tätigkeiten**: Eine Aktivität ist eine Aufgabe, die ausgeführt werden muss. Die verschiedenen verfügbaren Aktivitäten werden im Diagramm durch Symbole dargestellt. Jede Aktivität verfügt über bestimmte Eigenschaften sowie andere Eigenschaften, die für alle Aktivitäten gelten.
+* **Aktivitäten**: Eine Aktivität ist eine Aufgabe, die ausgeführt werden soll. Die verschiedenen verfügbaren Aktivitäten werden im Diagramm durch Symbole dargestellt. Jede Aktivität verfügt über bestimmte Eigenschaften sowie andere Eigenschaften, die für alle Aktivitäten gelten.
 
   In einem Workflow-Diagramm kann eine einzelne Aktivität verschiedene Aufgaben auslösen. Dies ist insbesondere der Fall bei Schleifen oder wiederkehrenden Aktionen.
 

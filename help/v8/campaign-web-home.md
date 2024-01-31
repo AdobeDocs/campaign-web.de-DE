@@ -7,7 +7,7 @@ badge: label="Eingeschränkte Verfügbarkeit"
 source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
 workflow-type: tm+mt
 source-wordcount: '688'
-ht-degree: 55%
+ht-degree: 84%
 
 ---
 
@@ -25,22 +25,22 @@ ht-degree: 55%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list1"
->title="Posten 1"
+>title="Element 1"
 >abstract="Neues Design-Erlebnis für E-Mail-, SMS- und Push-Benachrichtigungen"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list2"
->title="Posten 2"
+>title="Element 2"
 >abstract="Vereinfachte Oberfläche der Workflow-Arbeitsfläche"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list3"
->title="Posten 3"
+>title="Element 3"
 >abstract="Benutzerdefinierte Umgebung für Zielgruppen, Abonnements, AEM Assets, Landingpages"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list4"
->title="Posten 4"
+>title="Element 4"
 >abstract="Abfragemodell der nächsten Generation und E-Mail-Designer"
 
 <!--
@@ -63,34 +63,34 @@ ht-degree: 55%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_list1"
->title="Posten 1"
->abstract="Neues Design für E-Mail-, SMS- und Push-Benachrichtigungen"
+>title="Element 1"
+>abstract="Neues Design-Erlebnis für E-Mail-, SMS- und Push-Benachrichtigungen"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_list2"
->title="Posten 2"
+>title="Element 2"
 >abstract="Vereinfachte Oberfläche der Workflow-Arbeitsfläche"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_list3"
->title="Posten 3"
->abstract="Neu gestaltete UX für Zielgruppen, Abonnement und Services, AEM-Assets"
+>title="Element 3"
+>abstract="Neu gestaltete UX für Zielgruppen, Abonnement und Services, wie auch AEM-Assets"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_list4"
->title="Posten 4"
+>title="Element 4"
 >abstract="Generative KI für E-Mails: Auf Prompts basierende E-Mail-Generierung"
 
 <!--TO REMOVE ABOVE-->
 
-Wir freuen uns, die neue Version der Adobe Campaign Web-Benutzeroberfläche vorstellen zu können. Unsere neueste Version enthält intuitive Funktionen, die die Erstellung personalisierter kanalübergreifender Kampagnen vereinfachen, außergewöhnliche Ergebnisse erzielen und Ihnen einen Wettbewerbsvorteil über alle Kanäle hinweg bieten. Diese neue, moderne Benutzeroberfläche vereinfacht die Gestaltung und den Versand von Marketing-Kampagnen und sorgt für Konsistenz mit anderen Adobe-Lösungen, einschließlich Adobe Experience Platform.
+Wir freuen uns, die neue Version der Adobe Campaign Web-Benutzeroberfläche vorzustellen. Unsere neueste Version ist voller intuitiver Funktionen, die die Erstellung personalisierter kanalübergreifender Kampagnen vereinfachen, außergewöhnliche Ergebnisse liefern und Ihnen einen Wettbewerbsvorteil über alle Kanäle hinweg verschaffen. Diese neue, moderne Benutzeroberfläche vereinfacht das Design und den Versand von Marketing-Kampagnen und sorgt für Konsistenz mit anderen Adobe-Lösungen, einschließlich Adobe Experience Platform.
 
 >[!AVAILABILITY]
 > Adobe Campaign Web ist derzeit in der eingeschränkten Verfügbarkeit (LA) verfügbar. Der Zugriff ist auf eine kleine Gruppe von LA-Kundinnen und -Kunden beschränkt. Beachten Sie, dass sich die Produktoberfläche, die Funktionen und die Nutzungsflüsse ohne Vorankündigung ändern können.
 
 ## Neue Funktionen
 
-Hier erhalten Sie einen Einblick in die neuesten Verbesserungen des Adobe Campaign-Webprodukts und der Dokumentation! Eine umfassende Liste der wichtigsten Funktionen und Funktionen zur Aktualisierung von Versionen finden Sie unter [diese Seite](rn/whats-new.md).
+Hier erhalten Sie einen Einblick in die neuesten Verbesserungen des Adobe Campaign-Webprodukts und der Dokumentation! Eine umfassende Liste der wichtigsten Funktionen und Versionsaktualisierungen finden Sie auf [dieser Seite](rn/whats-new.md).
 
 >[!BEGINTABS]
 
@@ -100,13 +100,13 @@ Erschließen Sie neue Automatisierungs- und Optimierungsmöglichkeiten, um dynam
 
 [![Bild](assets/do-not-localize/learn-more-button.svg)](workflows/gs-workflows.md)
 
->[!TAB Zielgruppenzusammensetzung]
+>[!TAB Zielgruppen-Komposition]
 
 Erstellen Sie neue Zielgruppen in einer visuellen Workflow-Arbeitsfläche. Sie können nicht nur von Grund auf eine einfache Zielgruppe erstellen, sondern auch Workflow-Aktivitäten nutzen, um Ihre Zielgruppe zu präzisieren. Sie können beispielsweise mehrere Zielgruppen zu einer einzigen zusammenfassen, Ihre Zielgruppe mit externen Attributen anreichern oder eine Zielgruppe basierend auf Regeln Ihrer Wahl in mehrere Zielgruppen unterteilen.
 
 [![Bild](assets/do-not-localize/learn-more-button.svg)](audience/create-audience.md)
 
->[!TAB Email Designer]
+>[!TAB E-Mail-Designer]
 
 Mit dem Campaign E-Mail-Designer können Sie über eine intuitive Drag-and-Drop-Oberfläche überzeugende, individuell zugeschnittene E-Mails erstellen. Egal ob Sie bei null anfangen, vorhandene Inhalte importieren oder Vorlagen nutzen, können Sie für jede E-Mail alle Inhalte für Werbeaktionen sowie für Transaktionen gestalten und verfeinern.
 
@@ -130,7 +130,7 @@ Erstellen Sie neue Profile und überwachen Sie sie mithilfe leistungsstarker Ber
     </td>
     <td>
     <a href="workflows/gs-workflows.md"><img src="assets/do-not-localize/menu-workflows.jpeg"></a>
-    <div><strong>Überarbeitete Arbeitsablauffläche</strong><br/>Erfahren Sie, wie Sie Workflows erstellen, um die gesamte Bandbreite von Prozessen und Aufgaben zu koordinieren und die Geschwindigkeit und Skalierung jedes Aspekts Ihrer Marketing-Kampagnen zu verbessern.</div><br/>
+    <div><strong>Neu gestaltete Workflow-Arbeitsfläche</strong><br/>Erfahren Sie, wie Sie Workflows erstellen, um alle Prozesse und Aufgaben zu koordinieren und die Geschwindigkeit und den Umfang aller Aspekte Ihrer Marketing-Kampagnen zu verbessern.</div><br/>
     </td>
     <td>
     <a href="email/get-started-email-designer.md"><img src="assets/do-not-localize/menu-email.png"></a>
@@ -138,7 +138,7 @@ Erstellen Sie neue Profile und überwachen Sie sie mithilfe leistungsstarker Ber
     </div></td>
     <td>
     <a href="personalization/gs-personalization.md"><img src="assets/do-not-localize/menu-dynamic.png"></a>
-    <div><strong>Dynamische Inhalte erstellen</strong><br/>Erfahren Sie, wie Sie Ihren Inhalt auf der Grundlage der von Ihnen über Ihre Empfänger gesammelten Informationen anpassen können, um Ihren Inhalt attraktiver zu machen und die Wahrscheinlichkeit zu erhöhen, dass er gelesen wird.</div>
+    <div><strong>Inhalte dynamisch gestalten</strong><br/>Erfahren Sie, wie Sie Ihre Inhalte auf der Grundlage der Informationen, die Sie über Ihre Empfänger und Empfängerinnen gesammelt haben, anpassen können, um Ihre Inhalte attraktiver zu gestalten und die Wahrscheinlichkeit zu erhöhen, dass sie gelesen werden.</div>
     </td>
   </tr>
   <tr style="border: 0;">
@@ -156,27 +156,27 @@ Erstellen Sie neue Profile und überwachen Sie sie mithilfe leistungsstarker Ber
     <td>
       <img src="assets/do-not-localize/icon-start.svg" width="35px">
     <br/>
-      <strong>Erste Schritte</strong><br/><a href="get-started/user-interface.md">Benutzeroberfläche</a> - <a href="get-started/connect-to-campaign.md">Mit Campaign verbinden</a> - <a href="get-started/using-ai.md">KI-gestützte Kontexthilfe</a> - <a href="get-started/permissions.md">Zugriff und Berechtigungen</a>
+      <strong>Erste Schritte</strong><br/><a href="get-started/user-interface.md">Benutzeroberfläche</a>  <a href="get-started/connect-to-campaign.md">Herstellen einer Verbindung zu Campaign</a> – <a href="get-started/using-ai.md">KI-gestützte Kontexthilfe</a> – <a href="get-started/permissions.md">Zugriff und Berechtigungen</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-experience.svg" width="35px">
     <br/>
-      <strong>Kundenerlebnis</strong><br/><a href="workflows/gs-workflows.md" target="_blank">Automatisieren mit Workflows</a> - <a href="campaigns/gs-campaigns.md" target="_blank">Kampagnenverwaltung</a> - <a href="personalization/gs-personalization.md">Dynamische Inhalte</a> - <a href="reporting/gs-reports.md">Reports &amp; Analysen</a>
+      <strong>Kundenerlebnis</strong><br/><a href="workflows/gs-workflows.md" target="_blank">Automatisieren mit Workflows</a> – <a href="campaigns/gs-campaigns.md" target="_blank">Kampagnenorchestrierung</a> – <a href="personalization/gs-personalization.md">Dynamische Inhalte</a> – <a href="reporting/gs-reports.md">Berichte und Analysen</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-message.svg" width="35px">
     <br/>
-      <strong>Nachrichten senden</strong><br/><a href="msg/gs-deliveries.md">Versand erstellen</a> - <a href="email/create-email.md">Email</a> -  <a href="push/gs-push.md">Push-Benachrichtigungen</a> - <a href="sms/gs-sms.md">SMS</a> - <a href="msg/delivery-template.md">Versandvorlagen</a> - <a href="preview-test/preview-test.md">Vorschau und Test</a> 
+      <strong>Senden von Nachrichten</strong><br/><a href="msg/gs-deliveries.md">Erstellen eines Versands</a> – <a href="email/create-email.md">E-Mail</a> – <a href="push/gs-push.md">Push-Benachrichtigungen</a> – <a href="sms/gs-sms.md">SMS</a> – <a href="msg/delivery-template.md">Versandvorlagen</a> – <a href="preview-test/preview-test.md">Vorschau und Test</a> 
     </td>
     <td>
       <img src="assets/do-not-localize/icon_profile.svg" width="35px">
     <br/>
-      <strong>Profile und Audiences</strong><br/><a href="audience/gs-audiences-recipients.md">Erste Schritte</a> - <a href="audience/create-audience.md">Erstellen von Zielgruppen</a> - <a href="audience/test-profiles.md">Testprofile</a> - <a href="audience/manage-services.md">Abonnementdienste</a> - <a href="query/query-modeler-overview.md">Abfragemodellierung</a>
+      <strong>Profile und Zielgruppen</strong><br/><a href="audience/gs-audiences-recipients.md">Erste Schritte</a> – <a href="audience/create-audience.md">Erstellen von Zielgruppen</a> – <a href="audience/test-profiles.md">Testprofile</a> – <a href="audience/manage-services.md">Abonnements</a> – <a href="query/query-modeler-overview.md">Abfrage-Modeler</a>
     </td>
   </tr>
 </table>
 
 ## Zusätzliche Ressourcen
 
-* [Adobe Campaign-Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}
-* [Dokumentation zu Adobe Campaign V8](https://experienceleague.adobe.com/docs/campaign-v8.html?lang=de){target="_blank"}
+* [Adobe Campaign – Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}
+* [Adobe Campaign v8 – Dokumentation](https://experienceleague.adobe.com/docs/campaign-v8.html?lang=de){target="_blank"}

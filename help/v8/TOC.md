@@ -9,7 +9,7 @@ hide: true
 source-git-commit: 3bd4382d55f35427448c2d60ad5897146907c48f
 workflow-type: tm+mt
 source-wordcount: '558'
-ht-degree: 83%
+ht-degree: 89%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 83%
    + [Erste Schritte](get-started/get-started.md)
    + [Herstellen einer Verbindung zu Campaign](get-started/connect-to-campaign.md)
    + [Erkunden der Benutzeroberfläche](get-started/user-interface.md)
-   + [Listen durchsuchen und filtern](get-started/list-filters.md)
+   + [Durchsuchen und Filtern von Listen](get-started/list-filters.md)
    + [Arbeiten mit vordefinierten Filtern](get-started/predefined-filters.md)
    + [Zugriff und Berechtigungen](get-started/permissions.md)
    + [Schutzmechanismen und Begrenzungen](get-started/guardrails.md)
@@ -71,7 +71,7 @@ ht-degree: 83%
       + [Erste Schritte mit Push-Benachrichtigungen](push/gs-push.md)
       + [Erstellen eines Push-Benachrichtigungs-Versands](push/create-push.md)
       + [Entwerfen eines Push-Versands](push/content-push.md)
-      + [Vorschau erstellen und Push-Versand senden](push/send-push.md)
+      + [Vorschau und Senden eines Push-Versands](push/send-push.md)
    + SMS {#sms}
       + [Erste Schritte mit SMS-Sendungen](sms/gs-sms.md)
       + [Erstellen eines SMS-Versands](sms/create-sms.md)
@@ -104,14 +104,14 @@ ht-degree: 83%
       + [Arbeiten mit Testprofilen](audience/test-profiles.md)
    + Arbeiten mit Zielgruppen {#audiences}
       + [Erstellen von Zielgruppen](audience/create-audience.md)
-      + [Zielgruppen überwachen und verwalten](audience/manage-audience.md)
+      + [Überwachen und Verwalten von Zielgruppen](audience/manage-audience.md)
    + Auswählen der Empfängerinnen und Empfänger des Versands {#target-audiences}
       + [Auswählen einer bestehenden Zielgruppe](audience/add-audience.md)
       + [Erstellen einer einmaligen Zielgruppe](audience/one-time-audience.md)
       + [Laden einer E-Mail-Zielgruppe aus einer Datei](audience/file-audience.md)
       + [Festlegen einer Kontrollgruppe](audience/control-group.md)
    + Arbeiten mit Abonnementdiensten {#work-with-services}
-      + [Abonnement-Dienste erstellen und verwalten](audience/manage-services.md)
+      + [Erstellen und Verwalten von Abonnements](audience/manage-services.md)
       + [Verwalten von Abonnenten](audience/manage-subscribers.md)
 + Cross-Channel-Kampagnen {#campaigns}
    + [Erste Schritte mit Kampagnen](campaigns/gs-campaigns.md)
@@ -125,17 +125,17 @@ ht-degree: 83%
       + [Erstellen des Workflows](workflows/create-workflow.md)
       + [Orchestrieren von Aktivitäten](workflows/orchestrate-activities.md)
       + [Konfigurieren von Workflow-Einstellungen](workflows/workflow-settings.md)
-      + [Workflows starten und überwachen](workflows/start-monitor-workflows.md)
+      + [Starten und Überwachen Ihres Workflows](workflows/start-monitor-workflows.md)
    + Arbeiten mit Workflow-Aktivitäten {#design-workflows}
       + [Über Workflow-Aktivitäten](workflows/activities/about-activities.md)
       + [Und-Verknüpfung](workflows/activities/and-join.md)
-      + [Aufbauen einer Zielgruppe](workflows/activities/build-audience.md)
+      + [Zielgruppe erstellen](workflows/activities/build-audience.md)
       + [Dimensionsänderung](workflows/activities/change-dimension.md)
       + [Kombinieren](workflows/activities/combine.md)
       + [Deduplizierung](workflows/activities/deduplication.md)
       + [E-Mail, SMS, Push](workflows/activities/channels.md)
       + [Anreicherung](workflows/activities/enrichment.md)
-      + [Verzweigung](workflows/activities/fork.md)
+      + [Verzweigung ](workflows/activities/fork.md)
       + [Datei laden ](workflows/activities/load-file.md)
       + [Abstimmung](workflows/activities/reconciliation.md)
       + [Zielgruppe speichern](workflows/activities/save-audience.md)
