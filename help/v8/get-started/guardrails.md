@@ -4,9 +4,9 @@ description: Schutzmechanismen und Einschränkungen in der Web-Benutzeroberfläc
 badge: label="Beta"
 exl-id: 9c8c67ce-9823-4082-b0bd-5613f3feb6e3
 source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '658'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -61,15 +61,15 @@ Die Positionierung der Knoten wird bei jedem Hinzufügen oder Entfernen einer Ak
 >[!CONTEXTUALHELP]
 >id="acw_predefined_filter_read_only"
 >title="Dieser Filter ist schreibgeschützt"
->abstract="Einige vordefinierte Filter sind in dieser Produktversion nicht in der Benutzeroberfläche verfügbar. Diese Filter sind als schreibgeschützt markiert. Auch wenn Sie die grafische Darstellung der Abfrage im Abfragemodell nicht anzeigen und den Filter nicht bearbeiten können, können Sie ihn dennoch verwenden und die Filterbedingungen im **Attribute** des Bildschirms."
+>abstract="Einige vordefinierte Filter sind in dieser Produktversion nicht in der Benutzeroberfläche verfügbar. Diese Filter sind als schreibgeschützt markiert. Auch wenn Sie die grafische Darstellung der Abfrage im Abfrage-Modeler nicht sehen und den Filter nicht bearbeiten können, können Sie ihn dennoch verwenden und die Filterbedingungen im Abschnitt **Attribute** des Bildschirms sehen."
 
 Bei der Auswahl der Zielgruppe eines Versands oder beim Erstellen einer Zielgruppe in einem Workflow stehen in dieser Produktversion einige vordefinierte Filter nicht in der Benutzeroberfläche zur Verfügung. Diese Filter sind als schreibgeschützt markiert.
 
-Es wird ggf. eine spezifische Fehlermeldung angezeigt.
+Es wird eine spezifische Fehlermeldung angezeigt.
 
 ![](assets/filter-unavailable.png){width="70%" align="left"}
 
-Auch wenn Sie die grafische Darstellung der Abfrage im Abfragemodell nicht anzeigen und den Filter nicht bearbeiten können, können Sie ihn dennoch verwenden und die Filterbedingungen im **Attribute** des Bildschirms.
+Auch wenn Sie die grafische Darstellung der Abfrage im Abfrage-Modeler nicht sehen und den Filter nicht bearbeiten können, können Sie ihn dennoch verwenden und die Filterbedingungen im Abschnitt **Attribute** des Bildschirms sehen.
 
 ![](assets/rule-edit.png){width="70%" align="left"}
 

@@ -1,19 +1,19 @@
 ---
 audience: end-user
 title: Globale Berichte für den E-Mail-Kanal
-description: Weitere Informationen zu globalen Berichten für den E-Mail-Kanal
+description: Erfahren Sie mehr über globale Berichte für den E-Mail-Kanal
 badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: 37c575e5-fd18-4a35-a11a-922d5bda1bae
 source-git-commit: 72899742daf04a0da6e2fb3d802b7841753b8c6c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1594'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 # Globale Berichte für den E-Mail-Kanal {#global-report-direct}
 
-Die globalen Berichte bieten Benutzern einen umfassenden Überblick über Traffic- und Interaktionsmetriken auf Kanalebene.
+Die globalen Berichte bieten einen umfassenden Überblick über Traffic- und Interaktionsmetriken auf Kanalebene.
 
 Navigieren Sie zum Menü **[!UICONTROL Berichte]** im Abschnitt **[!UICONTROL Berichterstellung]**. Sie können Ihre Daten nach Berichtsdatum, -ordner oder -regeln filtern. [Weitere Informationen](global-reports.md)
 

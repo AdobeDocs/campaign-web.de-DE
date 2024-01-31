@@ -4,9 +4,9 @@ description: Fragen in Campaign Web-Hilfe-Popovers stellen
 badge: label="Alpha"
 exl-id: 577f4652-b3e5-4fa1-9a98-91815fe92d83
 source-git-commit: 93b2be1309e451d151a44867a3ae22b62e00c8e3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '463'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ Die KI-gestützte F&amp;A-Kontexthilfe in den Produkt-Kontexthilfefeldern liefer
 >
 >Diese Funktion ist in der Alpha-Version verfügbar und kann ohne vorherige Ankündigung geändert werden.
 >
->Diese Funktion ist nur auf **Englisch** verfügbar. Andere Sprachen werden in dieser Version nicht unterstützt. Stellen Sie daher sicher, dass [Ihre bevorzugte Sprache](connect-to-campaign.md#language-pref) auf Englisch festgelegt ist, bevor Sie diese Funktion verwenden.
+>Diese Funktion ist nur auf **Englisch** verfügbar. Andere Sprachen werden in dieser Version nicht unterstützt. Vergewissern Sie sich deshalb, dass [Ihre bevorzugte Sprache](connect-to-campaign.md#language-pref) auf Englisch eingestellt ist, bevor Sie diese Funktion nutzen.
 
 
 Die in die Kontexthilfe integrierte **Kontexthilfe mit Gen AI** revolutioniert die Durchsuchung von Dokumenten und Beantwortung von Fragen, indem sie riesige Dokumentations-Repositorys mühelos durchsucht und die gewünschten Informationen unverzüglich anzeigt.
@@ -45,7 +45,7 @@ For information specific to Adobe AI policies in Experience Cloud apps and solut
 
 Die KI-gestützte Kontexthilfe von Adobe Campaign bietet Unterstützung, aber Sie sollten dennoch die Fakten überprüfen. Er kann falsche Informationen, ungenaue oder irreführende Antworten ausgeben. Überprüfen Sie die Produktdokumentation, die in jedem Hilfefeld verlinkt ist.
 
-Künstliche Intelligenz und Modelle des maschinellen Lernens werden im Laufe der Zeit verbessert, um bestimmte Anwendungsfälle besser zu lösen. Die KI-gestützte Kontexthilfe von Campaign wird in den kommenden Monaten immer besser werden. Wir empfehlen Ihnen dringend, die <img src="assets/do-not-localize/thumb.png" width="10%"/> -Schaltflächen immer dann, wenn Sie einen Browser lesen, um unangemessene Antworten auf unsere Ingenieure zu kennzeichnen.
+Künstliche Intelligenz und Modelle des maschinellen Lernens werden im Laufe der Zeit verbessert, um bestimmte Anwendungsfälle besser zu lösen. Die KI-gestützte Kontexthilfe von Campaign wird in den kommenden Monaten immer besser werden. Wir empfehlen Ihnen dringend, jedes Mal die <img src="assets/do-not-localize/thumb.png" width="10%"/>-Schaltflächen zu verwenden, wenn Sie eine Antwort lesen, um unser technisches Personal auf unangemessene Antworten hinzuweisen.
 
 ## Empfehlungen  {#recommendations-ai}
 

@@ -5,9 +5,9 @@ description: Erfahren Sie, wie Sie Workflow-Aktivitäten durchführen.
 badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
 source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '465'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Alle Aktivitäten werden in den folgenden Abschnitten beschrieben:
 Diese Aktivitäten dienen der Zielgruppenbestimmung, Manipulation und Anreicherung von Populationsdaten. Sie ermöglichen es Ihnen, ein oder mehrere Ziele zu erstellen, indem Sie eine Zielgruppe definieren und diese Zielgruppen mithilfe von Schnittmenge, Vereinigung oder Ausschluss aufteilen oder kombinieren.
 
 * Mithilfe der Aktivität [Zielgruppe speichern](save-audience.md) können vorhandene Zielgruppen aktualisiert oder neue erstellt werden. Die hierfür erforderlichen Populationen werden im Vorfeld durch andere Workflow-Aktivitäten ermittelt.
-* Mit der Aktivität [Zielgruppe erstellen](build-audience.md) können Sie Ihre Zielgruppenpopulation definieren. Sie können entweder eine vorhandene Zielgruppe auswählen oder das Abfragemodell verwenden, um Ihre eigene Abfrage zu definieren.
+* Mit der Aktivität [Zielgruppe erstellen](build-audience.md) können Sie Ihre Zielgruppenpopulation definieren. Sie können entweder eine vorhandene Zielgruppe auswählen oder den Abfrage-Modeler verwenden, um Ihre eigene Abfrage zu definieren.
 * Mit der Aktivität [Kombinieren](combine.md) können Sie Ihre eingehende Population segmentieren. Sie können eine Vereinigung, eine Schnittmenge oder einen Ausschluss verwenden.
 * Mit der Aktivität [Aufteilen](split.md) können Sie die eingehende Population in mehrere Teilmengen unterteilen.
 * Verwenden Sie die Aktivität [Abstimmung](reconciliation.md), um die Verknüpfung zwischen den Daten in der Adobe Campaign-Datenbank und den Daten in einer Arbeitstabelle zu definieren, z. B. Daten, die aus einer externen Datei geladen werden.

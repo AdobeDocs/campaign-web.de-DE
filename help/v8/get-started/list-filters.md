@@ -1,17 +1,17 @@
 ---
 audience: end-user
-title: Listen durchsuchen und filtern
+title: Durchsuchen und Filtern von Listen
 description: Erfahren Sie, wie Sie Listen in Campaign Web v8 durchsuchen und filtern
 badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: 46b83e8c-6c8c-40a1-a08b-9d0b438b80cb
 source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '239'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
-# Listen durchsuchen und filtern {#list-screens}
+# Durchsuchen und Filtern von Listen {#list-screens}
 
 Die meisten Links aus dem linken Navigationsmenü zeigen Listen von Objekten an, wie zum Beispiel die Liste der **Sendungen** oder **Kampagnen**. Einige dieser Listenbildschirme sind schreibgeschützt. Sie können die Listenanzeige anpassen und diese Listen wie unten beschrieben filtern.
 

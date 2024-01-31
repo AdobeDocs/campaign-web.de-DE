@@ -5,9 +5,9 @@ description: Erfahren Sie, wie Sie mit Empfängerinnen und Empfängern aus einer
 badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
 source-git-commit: a3476e46c29723af8246683a005543cfd605e7df
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '620'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 97%
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_formatting"
 >title="Formatierungsparameter"
->abstract="Geben Sie an, wie die externe Datei formatiert wird, um sicherzustellen, dass die Daten korrekt importiert werden."
+>abstract="Definieren Sie das Format der externen Datei, sodass die Daten korrekt importiert werden können."
 
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_preview"

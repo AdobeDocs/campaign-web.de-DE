@@ -5,9 +5,9 @@ description: Erfahren Sie, wie Sie Ihre erste Abfrage im Abfrage-Modeler in Adob
 badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
 source-git-commit: 72899742daf04a0da6e2fb3d802b7841753b8c6c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1920'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -91,7 +91,7 @@ Mit benutzerdefinierten Bedingungen können Sie Tabellen abfragen, die mit der a
 
 Navigieren Sie bei einer **1:1-Relation** zur verknüpften Tabelle, wählen Sie das gewünschte Attribut aus und definieren Sie den erwarteten Wert.
 
-Sie können auch direkt einen Tabellenlink im **Wert** auswählen und bestätigen. In diesem Fall müssen die für die ausgewählte Tabelle verfügbaren Werte mithilfe einer dedizierten Auswahl ausgewählt werden, wie im folgenden Beispiel gezeigt.
+Sie können auch direkt eine Tabellenverknüpfung in der Auswahl **Wert** auswählen und bestätigen. In diesem Fall müssen die für die ausgewählte Tabelle verfügbaren Werte mit einer speziellen Auswahl ausgewählt werden, wie im folgenden Beispiel gezeigt.
 
 +++Abfragebeispiel
 
@@ -105,7 +105,7 @@ Hier geht es bei der Abfrage um Marken mit der Bezeichnung „Laufen“.
 
    ![](assets/1-1-table.png){width="85%" align="center"}
 
-Im Folgenden finden Sie ein Abfragebeispiel, in dem ein Tabellenlink direkt ausgewählt wurde. Die für diese Tabelle verfügbaren Werte müssen in einer dedizierten Auswahl ausgewählt werden.
+Hier ist ein Abfragebeispiel, bei dem eine Tabellenverknüpfung direkt ausgewählt wurde. Die verfügbaren Werte für diese Tabelle müssen über eine spezielle Auswahl ausgewählt werden.
 
 ![](assets/1-1-table-direct.png){width="85%" align="center"}
 

@@ -5,15 +5,15 @@ description: Erfahren Sie, wie Sie eine einmalige Zielgruppe für einen Versand 
 badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: 6f2da017-90d6-497d-bbbd-293775da00e9
 source-git-commit: a3476e46c29723af8246683a005543cfd605e7df
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '228'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
 # Erstellen einer einmaligen Zielgruppe {#one-time}
 
-In diesem Abschnitt wird beschrieben, wie Sie beim Entwerfen eines neuen Versands eine Zielgruppe erstellen. In diesem Fall werden die Empfänger, die in die Versand-Audience eingeschlossen werden sollen, durch Abfrage der Datenbank mit dem Abfragemodell angesprochen.
+In diesem Abschnitt wird beschrieben, wie Sie beim Entwerfen eines neuen Versands eine Zielgruppe erstellen. In diesem Fall werden die Empfängerinnen und Empfänger, die in die Versandzielgruppe aufgenommen werden sollen, durch Abfrage der Datenbank mit dem Abfrage-Modeler ermittelt.
 
 Die resultierende Zielgruppe wird nur ein einziges Mal für diesen Versand verwendet. Sie wird nicht in der Zielgruppenliste gespeichert.
 
@@ -28,7 +28,7 @@ Gehen Sie wie folgt vor, um direkt aus einem Versand eine neue Zielgruppe zu ers
 
    ![](assets/segment-builder0.png)
 
-1. Wählen Sie **Eigene erstellen** aus. Das Abfragemodell wird angezeigt. Er ermöglicht es Ihnen, die Population zu definieren, an die Ihr Versand gerichtet ist, indem Sie die in der Datenbank enthaltenen Daten filtern. [So verwenden Sie den Abfrage-Modeler](../query/query-modeler-overview.md)
+1. Wählen Sie **Eigene erstellen** aus. Der Abfrage-Modeler wird angezeigt. Es ermöglicht Ihnen, die Zielpopulation für Ihren Versand zu definieren, indem Sie die in der Datenbank enthaltenen Daten filtern. [So verwenden Sie den Abfrage-Modeler](../query/query-modeler-overview.md)
 
    ![](assets/query-modeler.png)
 

@@ -5,9 +5,9 @@ description: Erfahren Sie, wie Sie die Workflow-Aktivität „Abstimmung“ verw
 badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: 33f2aa76-1e75-4545-805a-016c95824e09
 source-git-commit: 72899742daf04a0da6e2fb3d802b7841753b8c6c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '828'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 85%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation"
 >title="Aktivität „Abstimmung“"
->abstract="Die **Abstimmung** -Aktivität **Targeting** -Aktivität, mit der Sie die Relation zwischen den Daten der Adobe Campaign-Datenbank und den Daten einer Arbeitstabelle definieren können. Beispiel: die **Abstimmung** -Aktivität platziert werden, nachdem eine **Datei laden** -Aktivität, um nicht standardmäßige Daten in die Datenbank zu importieren. In diesem Fall können Sie über die **Abstimmung** die Verknüpfung zwischen den Daten in der Adobe Campaign-Datenbank und den Daten in der externen Tabelle festlegen."
+>abstract="Die Aktivität **Abstimmung** ist eine Aktivität zur **Zielgruppenbestimmung**, mit der Sie die Verknüpfung zwischen den Daten in der Adobe Campaign-Datenbank und den Daten in einer Arbeitstabelle definieren können. Zum Beispiel kann die Aktivität **Abstimmung** hinter der Aktivität **Datei laden** platziert werden, um nicht standardmäßige Daten in die Datenbank zu laden. In diesem Fall können Sie über die **Abstimmung** die Verknüpfung zwischen den Daten in der Adobe Campaign-Datenbank und den Daten in der externen Tabelle festlegen."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_field"
@@ -33,9 +33,9 @@ ht-degree: 85%
 >title="Abstimmung – Komplement erzeugen"
 >abstract="Abstimmung – Komplement erzeugen"
 
-Die **Abstimmung** -Aktivität **Targeting** -Aktivität, mit der Sie die Relation zwischen den Daten in der Adobe Campaign-Datenbank und den Daten in einer Arbeitstabelle definieren können, z. B. aus einer externen Datei geladene Daten.
+Die Aktivität **Abstimmung** ist eine Aktivität zur **Zielgruppenbestimmung**, mit der Sie die Verknüpfung zwischen den Daten in der Adobe Campaign-Datenbank und den Daten in einer Arbeitstabelle definieren können, beispielsweise aus einer externen Datei geladene Daten. 
 
-Beispiel: die **Abstimmung** -Aktivität platziert werden, nachdem eine **Datei laden** -Aktivität, um nicht standardmäßige Daten in die Datenbank zu importieren. In diesem Fall wird können Sie über die Aktivität **Abstimmung** die Verknüpfung zwischen den Daten in der Adobe Campaign-Datenbank und den Daten in der Arbeitstabelle festlegen.
+Zum Beispiel kann die Aktivität **Abstimmung** hinter der Aktivität **Datei laden** platziert werden, um nicht standardmäßige Daten in die Datenbank zu laden. In diesem Fall wird können Sie über die Aktivität **Abstimmung** die Verknüpfung zwischen den Daten in der Adobe Campaign-Datenbank und den Daten in der Arbeitstabelle festlegen.
 
 ## Best Practices {#reconciliation-best-practices}
 
@@ -76,9 +76,9 @@ Gehen Sie wie folgt vor, um die Aktivität **Abstimmung** zu konfigurieren:
 
 1. Ziehen Sie eine **Abstimmungs**-Aktivität per Drag-and-Drop in Ihren Workflow. Diese Aktivität sollten nach einer Transition mit einer Population eingefügt werden, deren Zielgruppendimension nicht direkt aus Adobe Campaign stammt.
 
-1. Wählen Sie die neue Zielgruppendimension aus. Mit einer Dimension können Sie die Zielgruppen definieren: Empfängerinnen und Empfänger, Abonnentinnen und Abonnenten der App, Benutzerinnen und Benutzer, Abonnentinnen und Abonnenten usw. [Weitere Informationen zu Zielgruppendimensionen](../../audience/about-recipients.md#targeting-dimensions).
+1. Wählen Sie die neue Zielgruppendimension aus. Mit einer Dimension können Sie die Zielgruppen definieren: Empfängerinnen und Empfänger, Abonnentinnen und Abonnenten der App, Benutzerinnen und Benutzer, Abonnentinnen und Abonnenten usw. [Erfahren Sie mehr über Zielgruppendimensionen](../../audience/about-recipients.md#targeting-dimensions)
 
-1. Wählen Sie die für die Abstimmung zu verwendenden Felder aus. Es können mehrere Abstimmkriterien definiert werden.
+1. Wählen Sie die für Abstimmung zu verwendenden Felder aus. Es können mehrere Abstimmkriterien definiert werden.
 
    1. Um Datenabstimmungsattribute zu verwenden, wählen Sie die Option **Einfache Attribute**. Das Feld **Quelle** enthält die in der eingehenden Transition zur Verfügung stehenden Felder, die abgestimmt werden sollen. Das Feld **Ziel** entspricht den Feldern der ausgewählten Zielgruppendimension. Daten werden abgestimmt, wenn Quelle und Ziel gleich sind. Wählen Sie beispielsweise die **E-Mail**-Felder, um Profile anhand ihrer E-Mail-Adresse zu deduplizieren.
 

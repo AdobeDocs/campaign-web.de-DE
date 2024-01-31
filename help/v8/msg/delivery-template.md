@@ -8,9 +8,9 @@ level: Beginner
 badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
 source-git-commit: f8f29849bbd3e97b4168a0bac175a3cdc3e651df
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1087'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -53,7 +53,7 @@ Um auf die Liste der Inhaltsvorlagen zuzugreifen, wählen Sie **[!UICONTROL Kamp
 
 Es werden alle Vorlagen angezeigt, die in der aktuellen Umgebung [erstellt wurden](#create-a-delivery-template).
 
-Sie können Inhaltsvorlagen nach Kanälen und Ordnern filtern. Sie können auch erweiterte Filter festlegen, indem Sie eine Regel mit Versandattributen erstellen. [Weitere Informationen zum Abfragemodell](../audience/../query/query-modeler-overview.md)
+Sie können Inhaltsvorlagen nach Kanälen und Ordnern filtern. Sie können auch erweiterte Filter festlegen, indem Sie eine Regel mit Versandattributen erstellen. [Erfahren Sie mehr über den Abfrage-Modeler](../audience/../query/query-modeler-overview.md)
 
 ![](assets/templates-filters.png)
 
@@ -118,7 +118,7 @@ Jeder Versand kann in eine Vorlage für zukünftige, wiederholte Versandaktionen
 Um einen Versand als Vorlage zu speichern, gehen Sie wie folgt vor:
 
 1. Navigieren Sie zum Menü **[!UICONTROL Kampagnenverwaltung]** > **[!UICONTROL Sendungen]**.
-1. Klicken Sie auf der Registerkarte **[!UICONTROL Durchsuchen]** auf die Schaltfläche **[!UICONTROL Mehr Aktionen]** rechts neben dem Namen des gewünschten Versands und wählen Sie **[!UICONTROL Als Vorlage kopieren]**.
+1. Klicken Sie auf der Registerkarte **[!UICONTROL Durchsuchen]** auf die Schaltfläche **[!UICONTROL Mehr Aktionen]** rechts neben dem Namen des gewünschten Versands und wählen Sie **[!UICONTROL Als Vorlage kopieren]** aus.
 
    ![](assets/templates-convert-delivery.png)
 
@@ -182,11 +182,11 @@ Sie können das Rendering einer beliebigen Versandvorlage testen, unabhängig da
 
    ![](assets/templates-simulate-button.png)
 
-1. Wählen Sie ein oder mehrere Testprofile aus, um Ihr E-Mail-Rendering zu überprüfen. Sie können auch echte Profile aus Ihrer Datenbank auswählen. [Weitere Informationen zu Testprofilen](../audience/test-profiles.md)
+1. Wählen Sie ein oder mehrere Testprofile aus, um Ihr E-Mail-Rendering zu überprüfen. Sie können auch echte Profile aus Ihrer Datenbank auswählen. [Erfahren Sie mehr über Testprofile](../audience/test-profiles.md)
 
-1. Zwischen den verschiedenen Profilen wechseln, um eine personalisierte Darstellung der Nachricht entsprechend dem ausgewählten Profil zu erhalten. Sie können auch den Zoom-Faktor anpassen und die Desktop- oder Mobilansicht auswählen.
+1. Wechseln Sie zwischen den verschiedenen Profilen, um eine personalisierte Darstellung der Nachricht entsprechend dem ausgewählten Profil zu erhalten. Sie können auch den Zoomfaktor anpassen und die Desktop- oder Mobilansicht auswählen.
 
-[Weitere Informationen zur Vorschau von Inhalten](../preview-test/preview-content.md)
+[Erfahren Sie mehr über die Vorschau von Inhalten](../preview-test/preview-content.md)
 
    ![](assets/templates-stimulate.png)
 

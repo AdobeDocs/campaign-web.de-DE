@@ -4,9 +4,9 @@ description: Erfahren Sie mehr über Zielgruppendimensionen in Adobe Campaign We
 badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: b910649a-7300-4f99-8f40-3a8965572ee9
 source-git-commit: 0f420559fa49efbe7eea79474d2db7341e51fca8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '397'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Die Zielgruppendimension eines Workflows wird durch die erste Aktivität **[!UIC
 
 Beachten Sie, dass Sie die Zielgruppendimension in einem Workflow mithilfe der Aktivität [Dimensionsänderung](../workflows/activities/change-dimension.md) wechseln können. Auf diese Weise können Sie beispielsweise die Datenbank in einer bestimmten Tabelle (z. B. zu Käufen oder Abonnements) abfragen und die Zielgruppendimension in „Empfänger“ ändern, um Sendungen an die entsprechenden Profile durchzuführen.
 
-Bei der Auswahl einer Zielgruppendimension (in den Workflow-Einstellungen oder in Aktivitäten wie **Audience erstellen**, **Abstimmung** oder **Dimensionsänderung**), wird eine Auswahl häufig verwendeter Schemata standardmäßig in der Liste angezeigt. Um alle verfügbaren Schemata anzuzeigen, aktivieren Sie die **[!UICONTROL Alle Schemata anzeigen]** Schaltfläche. Die Auswahl der Optionen wird für jeden Benutzer gespeichert.
+Bei der Auswahl einer Zielgruppendimension (in den Workflow-Einstellungen oder in Aktivitäten wie **Zielgruppe erstellen**, **Abstimmung** oder **Dimensionsänderung**) wird in der Liste standardmäßig eine Auswahl häufig verwendeter Schemata angezeigt. Um alle verfügbaren Schemata anzuzeigen, aktivieren Sie die Schaltfläche **[!UICONTROL Alle Schemata anzeigen]**. Die Optionsauswahl wird für jeden Benutzer bzw. jede Benutzerin gespeichert.
 
 ![](assets/targeting-dimension-show-all.png)
 

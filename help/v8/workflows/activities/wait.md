@@ -5,9 +5,9 @@ description: Erfahren Sie, wie Sie die Workflow-Aktivität „Warten“ verwende
 badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: 970953a1-0091-477c-9f52-596af3a8857d
 source-git-commit: 023777b88fa5c80e110fcf334517f7cef1c7f1ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '165'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Gehen Sie folgendermaßen vor, um die Aktivität **Warten** zu konfigurieren:
 
 1. Geben Sie die **Dauer** der Wartezeit zwischen der eingehenden und der ausgehenden Transition an.
 
-1. Wählen Sie die Zeiteinheit im **Zeiträume** -Feld: Sekunden, Minuten, Stunden, Tage.
+1. Wählen Sie die Zeiteinheit im Feld **Zeiträume** aus: Sekunden, Minuten, Stunden, Tage.
 
 ## Beispiel{#wait-example}
 

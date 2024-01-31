@@ -1,27 +1,27 @@
 ---
 audience: end-user
-title: Zielgruppen überwachen und verwalten
+title: Überwachen und Verwalten von Zielgruppen
 description: Erfahren Sie, wie Sie Zielgruppen in Adobe Campaign Web überwachen und verwalten können.
 badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
 source-git-commit: a3476e46c29723af8246683a005543cfd605e7df
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '539'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
-# Zielgruppen überwachen und verwalten {#monitor}
+# Überwachen und Verwalten von Zielgruppen {#monitor}
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_properties"
 >title="Eigenschaften"
->abstract="Hier finden Sie eine Zusammenfassung der Eigenschaften der Audience, wie Ursprung, Speicherordner oder Status. Klicken Sie auf den Link im **Letzter Workflow** -Abschnitt, um den Workflow zu öffnen, der zum Erstellen der Audience verwendet wurde."
+>abstract="Hier finden Sie eine Zusammenfassung der Zielgruppen-Eigenschaften wie Herkunft, Speicherordner oder Status. Klicken Sie auf den Link im Abschnitt **Letzter Workflow**, um den Workflow zu öffnen, der zur Erstellung der Zielgruppe verwendet wurde."
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_count"
 >title="Zielgruppengröße"
->abstract="Hier finden Sie die Gesamtzahl der Profile innerhalb der Audience. Klicken Sie auf die Schaltfläche Berechnen , um die Audience-Ergebnisse zu aktualisieren und neu zu berechnen."
+>abstract="Hier finden Sie die Gesamtzahl der Profile innerhalb der Zielgruppe. Klicken Sie auf die Schaltfläche „Berechnen“, um die Zielgruppengebnisse zu aktualisieren und neu zu berechnen."
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_workflow_error_data_execution"
@@ -34,7 +34,7 @@ Um die Population Ihrer Zielgruppe zu bestimmen, können Sie:
 
 * [neue Zielgruppen erstellen](create-audience.md) über das Menü **[!UICONTROL Zielgruppen]**,
 * [eine vorhandene Zielgruppe auswählen](add-audience.md), die als Liste in der Client-Konsole erstellt wurde oder aus Adobe Experience Platform stammt,
-* [Neue Zielgruppe erstellen](../query/query-modeler-overview.md) mit dem Abfragemodell durch Definition und Kombination von Filterkriterien;
+* Mit dem Abfrage-Builder [eine neue Zielgruppe erstellen](../query/query-modeler-overview.md), indem Sie Filterkriterien definieren und kombinieren,
 * [eine Zielgruppe aus einer externen Datei verwenden](file-audience.md). Diese Option steht nur für eigenständige E-Mail-Sendungen zur Verfügung und kann nicht in Kampagnensendungen verwendet werden.
 
 Wenn Sie eine Zielgruppe ansprechen, können Sie außerdem **Kontrollgruppen** definieren, um einen Teil Ihrer Zielgruppe vom Versand von Nachrichten auszuschließen und so die Wirkung Ihrer Kampagnen zu messen. [Erfahren Sie, wie Sie eine Kontrollgruppe festlegen](control-group.md)

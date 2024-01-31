@@ -5,9 +5,9 @@ description: Erfahren Sie, wie Sie Testsendungen definieren und durchführen.
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Eingeschränkte Verfügbarkeit"
 source-git-commit: 7b42927b689bfc762c61fa52e4af23e8c283f486
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1189'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -89,7 +89,7 @@ Die Schritte zum Senden von Testsendungen an Testadressen werden nachfolgend bes
 
 1. Wenn Sie bereits Profile ausgewählt haben, um eine [Vorschau der Nachricht](preview-content.md) im Bildschirm zur Inhaltsimulation anzuzeigen, werden diese Profile als Testempfängerinnen und Testempfänger vorausgewählt. Sie können Ihre Auswahl löschen und/oder zusätzliche Empfängerinnen und Empfänger über die Schaltfläche **[!UICONTROL Testprofil(e) hinzufügen]** hinzufügen.
 
-1. Beim Durchsuchen der Testprofil- oder Profillisten können Sie Filter verwenden, um Ihre Suche zu verfeinern.
+1. Beim Durchsuchen der Testprofilliste oder Profillisten können Sie Filter verwenden, um Ihre Suche zu verfeinern.
 
    ![](assets/simulate-test-profile-filter.png)
 

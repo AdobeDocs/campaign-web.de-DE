@@ -5,9 +5,9 @@ description: Erfahren Sie, wie Sie die Workflow-Aktivität „Zielgruppe erstell
 badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: c07bb025-51b7-428e-ba00-cd552f0db9d4
 source-git-commit: 1435a8c2bc62e5064eaacf5e0cabf11d5642f152
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '410'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Zur Definition der Zielgruppenpopulation haben Sie folgende Möglichkeiten:
 
 >[!NOTE]
 >
->Zielgruppen, die aus einer Datei geladen werden, können nicht mithilfe der Aktivität Audience erstellen als Ziel ausgewählt werden. Dazu müssen Sie eine **Datei laden** -Aktivität und **Abstimmung** -Aktivität. [Weitere Informationen](../../audience/about-recipients.md)
+>Zielgruppen, die aus einer Datei geladen wurden, können nicht mit der Aktivität „Zielgruppe erstellen“ angesprochen werden. Dazu müssen Sie die Aktivitäten **Datei laden** und anschließend **Abstimmung** verwenden. [Weitere Informationen](../../audience/about-recipients.md)
 
 <!--
 The **Build audience** activity can be placed at the beginning of the workflow or after any other activity. Any activity can be placed after the **Build audience**.

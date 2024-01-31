@@ -5,9 +5,9 @@ description: Erfahren Sie, wie Sie die Workflow-Aktivität „Kombinieren“ ver
 badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: 7e821678-e6a2-4613-b05e-6ccbe4df41c3
 source-git-commit: a3476e46c29723af8246683a005543cfd605e7df
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '913'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -98,8 +98,8 @@ In der Aktivität **Kombinieren** können Sie eine **Schnittmenge** konfiguriere
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_combine_complement"
->title="Kombinieren – Komplement erzeugen"
->abstract="Aktivieren Sie die Option Komplement erzeugen , um die verbleibende Population in einer weiteren Transition zu verarbeiten."
+>title="Kombinieren von „Komplement erzeugen“"
+>abstract="Aktivieren Sie die Option „Komplement erzeugen“, um die verbleibende Population in einer zusätzlichen Transition zu verarbeiten."
 
 In der Aktivität **Kombinieren** können Sie einen **Ausschluss** konfigurieren. Dafür müssen Sie die folgenden zusätzlichen Schritte ausführen:
 

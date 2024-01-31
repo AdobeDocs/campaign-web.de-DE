@@ -10,9 +10,9 @@ level: Beginner
 badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: 23818080-d7c6-4829-8117-d6b359bd76dd
 source-git-commit: 72899742daf04a0da6e2fb3d802b7841753b8c6c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '802'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -137,9 +137,9 @@ Gehen Sie wie folgt vor, um eine Inhaltsvorlage von Grund auf neu zu erstellen.
 
    ![](assets/content-template-save-back.png)
 
-Die Vorlage wird im Standardordner der Adobe Campaign-Hierarchie (**[!UICONTROL Explorer]** > **[!UICONTROL Ressourcen]** > **[!UICONTROL Vorlagen]** > **[!UICONTROL Inhaltsvorlagen]**). [Weitere Informationen zu Ordnern](../get-started/permissions.md#folders)
+Die Vorlage wird im Standardordner der Adobe Campaign-Hierarchie gespeichert (**[!UICONTROL Explorer]** > **[!UICONTROL Ressourcen]** > **[!UICONTROL Vorlagen]** > **[!UICONTROL Inhaltsvorlagen]**). [Erfahren Sie mehr über Ordner](../get-started/permissions.md#folders)
 
-Sie wird auch im **[!UICONTROL Inhaltsvorlagen]** Liste. [Weitere Informationen](#access-manage-templates)
+Sie wird auch in der Liste **[!UICONTROL Inhaltsvorlagen]** angezeigt. [Weitere Informationen](#access-manage-templates)
 
 Anhand dieser Vorlage können Sie nun einen neuen Inhalt erstellen: Sie finden ihn in der Registerkarte **[!UICONTROL Gespeicherte Vorlagen]** des E-Mail-Designers. [Weitere Informationen dazu](use-email-templates.md)
 
@@ -159,9 +159,9 @@ Gehen Sie wie folgt vor, um E-Mail-Inhalte als Vorlage zu speichern:
 
    ![](assets/email_designer-template-name.png)
 
-Die Vorlage wird im Standardordner der Adobe Campaign-Hierarchie (**[!UICONTROL Explorer]** > **[!UICONTROL Ressourcen]** > **[!UICONTROL Vorlagen]** > **[!UICONTROL Inhaltsvorlagen]**). [Weitere Informationen zu Ordnern](../get-started/permissions.md#folders)
+Die Vorlage wird im Standardordner der Adobe Campaign-Hierarchie gespeichert (**[!UICONTROL Explorer]** > **[!UICONTROL Ressourcen]** > **[!UICONTROL Vorlagen]** > **[!UICONTROL Inhaltsvorlagen]**). [Erfahren Sie mehr über Ordner](../get-started/permissions.md#folders)
 
-Sie wird auch im **[!UICONTROL Inhaltsvorlagen]** Liste. Sie wird zu einer eigenständigen Inhaltsvorlage, die Sie wie jedes andere Element in der Liste öffnen, bearbeiten und löschen können. [Weitere Informationen](#access-manage-templates)
+Sie wird auch in der Liste **[!UICONTROL Inhaltsvorlagen]** angezeigt. Sie wird zu einer eigenständigen Inhaltsvorlage, die Sie wie jedes andere Element in der Liste öffnen, bearbeiten und löschen können. [Weitere Informationen](#access-manage-templates)
 
 Anhand dieser Vorlage können Sie nun einen neuen Inhalt erstellen: Sie finden ihn in der Registerkarte **[!UICONTROL Gespeicherte Vorlagen]** des E-Mail-Designers. [Weitere Informationen dazu](use-email-templates.md)
 

@@ -5,9 +5,9 @@ description: So verwenden Sie die Workflow-Aktivität „Datei laden“
 badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: 230177e2-1926-451a-8a66-0db962ada514
 source-git-commit: 74102899efa10e37705cbd3c7c6796eb6ac0b18e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '323'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -72,12 +72,12 @@ Gehen Sie wie folgt vor, um die Aktivität **Datei laden** zu konfigurieren:
 
    ![](../assets/load-file.png)
 
-1. Verwenden Sie die **Spalten** im linken Bereich, um den Datentyp und die Breite für jede Spalte anzupassen.
+1. Verwenden Sie den Abschnitt **Spalten** im linken Bereich, um den Datentyp und die Breite für jede Spalte anzupassen.
 
-1. Im **Formatierung** Geben Sie im Bereich unter der Spaltenkonfiguration an, wie die externe Datei formatiert wird, um sicherzustellen, dass die Daten korrekt importiert werden.
+1. Spezifizieren Sie im Abschnitt **Formatierung**, der sich unter der Spaltenkonfiguration befindet, wie die externe Datei formatiert wird, um sicherzustellen, dass die Daten korrekt importiert werden.
 
 1. Klicken Sie auf **Bestätigen**, wenn die Einstellungen korrekt sind.
 
 ## Beispiel{#load-example}
 
-Beispiel für ein Laden einer externen Datei, das mit der Variablen **Abstimmung** ist verfügbar unter [diesem Abschnitt](reconciliation.md#reconciliation-example).
+Ein Beispiel für das Laden einer externen Datei mithilfe der Aktivität **Abstimmung**, ist in [diesem Abschnitt](reconciliation.md#reconciliation-example) verfügbar.

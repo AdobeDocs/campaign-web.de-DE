@@ -5,9 +5,9 @@ description: Erfahren Sie, wie Sie mit kanalübergreifenden Kampagnen beginnen
 badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
 source-git-commit: 80e9937fcac0f1e66c317d3d31efab0d5f6ae2d8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '214'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -28,10 +28,10 @@ Kampagnen bieten dedizierte Reporting-Metriken, mit denen Sie einen umfassenden 
 
 ![Kampagnenfluss](assets/campaign-flow.png)
 
-In den folgenden Abschnitten erfahren Sie, wie Sie Kampagnen erstellen, verwalten und überwachen:
+Erfahren Sie in den folgenden Abschnitten, wie Sie Kampagnen erstellen, verwalten und überwachen:
 
 * [Zugreifen auf und Verwalten von Kampagnen](manage-campaigns.md)
 * [Erste Kampagne erstellen](create-campaigns.md)
-* [Kampagnenberichte durchsuchen](../reporting/campaign-reports.md).
+* [Durchsuchen Ihrer Kampagnenberichte](../reporting/campaign-reports.md).
 
 

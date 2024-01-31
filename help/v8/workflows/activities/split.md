@@ -5,9 +5,9 @@ description: Weitere Informationen zur Verwendung der Workflow-Aktivität „Auf
 badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
 source-git-commit: 523a43bef4f179740a96039ac2fc5f4f858aa1dc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '777'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -24,8 +24,8 @@ Die Aktivität **Aufspaltung** ist eine Aktivität zur **Zielgruppenbestimmung**
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_segments"
->title="Segmente für Aufspaltungsaktivität"
->abstract="Fügen Sie beliebig viele Teilmengen hinzu, um die Eingangspopulation zu segmentieren.<br/></br>Wenn die Variable **Aufspaltung** -Aktivität ausgeführt wird, wird die Population in der Reihenfolge segmentiert, in der sie der Aktivität hinzugefügt wird. Stellen Sie vor dem Start des Workflows sicher, dass Sie die Teilmengen mithilfe der Pfeiltasten in der gewünschten Reihenfolge sortiert haben."
+>title="Segmente für die Aktivität „Aufspaltung“"
+>abstract="Fügen Sie beliebig viele Teilmengen hinzu, um die eingehende Population zu segmentieren.<br/></br>Bei Ausführung der Aktivität **Aufspaltung** wird die Population sukzessive in unterschiedliche Teilmengen segmentiert, und zwar in der Reihenfolge, in der diese zur Aktivität hinzugefügt werden. Vergewissern Sie sich vor dem Start Ihres Workflows, dass Sie die Teilmengen mithilfe der Pfeilschaltflächen in der für Sie passenden Reihenfolge angeordnet haben."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_filter"
@@ -57,9 +57,9 @@ Folgen Sie diesen Schritten, um die Aktivität **Aufspaltung** zu konfigurieren:
 
    >[!IMPORTANT]
    >
-   >Wenn die Variable **Aufspaltung** -Aktivität ausgeführt wird, wird die Population in der Reihenfolge segmentiert, in der sie der Aktivität hinzugefügt wird. Wenn beispielsweise die erste Teilmenge 70 % der Anfangspopulation abruft, werden die Auswahlkriterien der nächsten hinzugefügten Teilmenge nur auf die restlichen 30 % angewendet usw.
+   >Bei Ausführung der Aktivität **Aufspaltung** wird die Population sukzessive in unterschiedliche Teilmengen segmentiert, und zwar in der Reihenfolge, in der diese zur Aktivität hinzugefügt werden. Wenn beispielsweise die erste Teilmenge 70 % der Anfangspopulation abruft, werden die Auswahlkriterien der nächsten hinzugefügten Teilmenge nur auf die restlichen 30 % angewendet usw.
    >
-   >Stellen Sie vor dem Start des Workflows sicher, dass Sie die Teilmengen in der für Ihre Anforderungen geeigneten Reihenfolge sortiert haben. Verwenden Sie dazu die Pfeiltasten, um die Position einer Teilmenge zu ändern.
+   >Vergewissern Sie sich vor dem Start Ihres Workflows, dass Sie die Teilmengen in der für Sie passenden Reihenfolge angeordnet haben. Verwenden Sie dazu die Pfeilschaltflächen, um die Position einer Teilmenge zu ändern.
 
 1. Sobald die Teilmengen hinzugefügt wurden, zeigt die Aktivität für jede Teilmenge eine ausgehende Transition. Es wird dringend empfohlen, die Titel jeder Teilmenge zu ändern, um sie in der Workflow-Arbeitsfläche leicht zu identifizieren.
 

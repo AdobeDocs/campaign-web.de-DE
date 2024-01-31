@@ -5,9 +5,9 @@ description: Erfahren Sie, wie Sie eine Workflow-Aktivität „Versand“ hinzuf
 badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: 155b40e2-1aa2-4251-bbaa-7e16e36f649e
 source-git-commit: f77b0771d51506d6685fd2c9c4135ef57352fc27
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '898'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
@@ -28,21 +28,21 @@ Mithilfe von Kanalaktivitäten können Sie umfassende und personalisierte Kampag
 
 ## Voraussetzungen {#channel-activity-prereq}
 
-Beginnen Sie mit der Erstellung Ihres Workflows mit den entsprechenden Aktivitäten:
+Beginnen Sie, Ihren Workflow mit den entsprechenden Aktivitäten aufzubauen:
 
-* Bevor Sie eine Kanalaktivität einfügen, müssen Sie die Zielgruppe definieren. Die Audience ist die Hauptzielgruppe Ihres Versands: die Profile, an die die Nachrichten gesendet werden. Beim Versand von Nachrichten im Rahmen eines Kampagnen-Workflows wird die Nachrichtenzielgruppe nicht in der Kanalaktivität, sondern in einer dedizierten Aktivität definiert, z. B.:
+* Bevor Sie eine Kanalaktivität einfügen, müssen Sie die Zielgruppe definieren. Die Zielgruppe ist das hauptsächliche Ziel Ihres Versands: die Profile, die die Nachrichten erhalten. Beim Senden von Nachrichten im Rahmen eines Kampagnen-Workflows wird die Zielgruppe der Nachricht nicht in der Kanalaktivität, sondern in einer speziellen Aktivität definiert.
 
-   * A **Audience erstellen** -Aktivität. [Weitere Informationen](build-audience.md).
+   * Eine Aktivität **Zielgruppe erstellen**. [Weitere Informationen](build-audience.md).
 
      ![](../../msg/assets/add-delivery-in-wf.png)
 
-   * A **Datei laden** -Aktivität und **Abstimmung** -Aktivität. [Weitere Informationen](load-file.md).
+   * Eine Aktivität **Datei laden** gefolgt von einer Aktivität **Abstimmung**. [Weitere Informationen](load-file.md).
 
      ![](../assets/workflow-reconciliation-criteria.png)
 
 
 
-* Um einen wiederkehrenden Versand zu senden, starten Sie Ihren Workflow mit einem **Planung** -Aktivität. Sie können auch eine **Planung** -Aktivität für einmalige Sendungen, um das Kontaktdatum für diesen Versand festzulegen. Dieses Kontaktdatum kann auch in den Versandeinstellungen festgelegt werden. Weitere Informationen finden Sie in [diesem Abschnitt](scheduler.md).
+* Um einen wiederkehrenden Versand durchzuführen, starten Sie Ihren Workflow mit der Aktivität **Planung**. Sie können die Aktivität **Planung** auch für einmalige Einzelsendungen verwenden, um für diese Sendungen das Kontaktdatum festzulegen. Dieses Kontaktdatum kann auch in den Versandeinstellungen festgelegt werden. Weitere Informationen finden Sie in diesem [Abschnitt](scheduler.md).
 
 
 ## Konfigurieren der Kanalaktivität {#create-a-delivery-in-a-workflow}
@@ -73,24 +73,24 @@ Gehen Sie wie folgt vor, um einen Versand im Kontext eines Workflows einzurichte
 
 1. Wählen Sie den **Versandtyp** aus: einmalig oder wiederkehrend.
 
-   * A **Einzelversand** ist ein einmaliger Versand, der nur einmal gesendet wird, beispielsweise eine Black Friday-E-Mail.
-   * A **Wiederkehrender Versand** wird mehrmals gesendet, je nachdem, welche Ausführungshäufigkeit in einer [Planungsaktivität](scheduler.md). Bei jeder Ausführung des Workflows wird die Audience neu berechnet und der Versand an die aktualisierte Audience mit dem aktualisierten Inhalt gesendet. Dies kann beispielsweise ein wöchentlicher Newsletter oder eine wiederkehrende Geburtstags-E-Mail sein.
+   * Ein **Einzelversand** ist ein einmaliger Versand, der nur einmal verschickt wird, z. B. eine E-Mail zum „Black Friday“.
+   * Ein **Wiederkehrender Versand** wird entsprechend der Ausführungshäufigkeit, die in der Aktivität [Planung](scheduler.md) definiert ist, mehrfach verschickt. Bei jeder Ausführung des Workflows wird die Zielgruppe neu berechnet, und der Versand erfolgt mit dem aktualisierten Inhalt an die aktualisierte Zielgruppe. Dabei kann es sich um einen wöchentlichen Newsletter oder eine wiederkehrende Geburtstags-E-Mail handeln.
 
 1. Wählen Sie eine **Versandvorlage** aus. Vorlagen sind vorkonfigurierte, kanalspezifische Versandeinstellungen. Für jeden Kanal ist eine integrierte Vorlage verfügbar, die standardmäßig vorausgefüllt ist. [Weitere Informationen](../../msg/delivery-template.md)
 
    ![](../assets/delivery-activity-in-wf.png)
 
-   Sie können die Vorlage im linken Bereich der Konfiguration der Kanalaktivität auswählen. Wenn die zuvor ausgewählte Zielgruppe nicht mit dem Kanal kompatibel ist, können Sie keine Vorlage auswählen. Um dies zu beheben, aktualisieren Sie die Aktivität **Zielgruppe erstellen**, um eine Zielgruppe mit dem richtigen Zielgruppen-Mapping auszuwählen. Weitere Informationen zu Zielgruppen-Mappings finden Sie unter [diesem Abschnitt](../../audience/targeting-dimensions.md)
+   Sie können die Vorlage im linken Bereich zur Konfiguration der Kanalaktivität auswählen. Wenn die zuvor ausgewählte Zielgruppe nicht mit dem Kanal kompatibel ist, können Sie keine Vorlage auswählen. Um dies zu beheben, aktualisieren Sie die Aktivität **Zielgruppe erstellen**, um eine Zielgruppe mit dem richtigen Zielgruppen-Mapping auszuwählen. Erfahren Sie mehr über Zielgruppen-Mapping in [diesem Abschnitt](../../audience/targeting-dimensions.md).
 
-1. Klicken Sie auf **Versand erstellen**. Sie können dann Ihre Nachrichteneinstellungen und Inhalte auf die gleiche Weise wie einen eigenständigen Versand definieren. Sie können den Inhalt auch testen und simulieren. [Weitere Informationen](../../msg/gs-messages.md)
+1. Klicken Sie auf **Versand erstellen**. Sie können dann Ihre Nachrichteneinstellungen und den Inhalt so wie einen eigenständigen Versand definieren. Sie können den Inhalt auch testen und simulieren. [Weitere Informationen](../../msg/gs-messages.md)
 
-1. Navigieren Sie zurück zu Ihrem Workflow. Wenn Sie mit dem Workflow fortfahren möchten, können Sie die **Ausgehende Transition erzeugen** -Option, um eine Transition nach der Kanalaktivität hinzuzufügen.
+1. Navigieren Sie zurück zu Ihrem Workflow. Entscheiden Sie, ob Sie den Workflow **Ausgehende Transition erzeugen** fortsetzen möchten, um eine Transition nach der Kanalaktivität hinzuzufügen.
 
 1. Klicken Sie auf **Starten**, um Ihren Workflow zu starten.
 
    Standardmäßig wird durch Starten eines Workflows die Vorbereitungsphase der Nachricht ausgelöst, ohne dass die Nachricht sofort versendet wird.
 
-1. Öffnen Sie Ihre Kanalaktivität, um den Versand über die **Überprüfen und Senden** Schaltfläche.
+1. Öffnen Sie die Kanalaktivität, um den Versand über die Schaltfläche **Überprüfen und senden** zu bestätigen.
 
 1. Klicken Sie im Versand-Dashboard auf **Senden**.
 

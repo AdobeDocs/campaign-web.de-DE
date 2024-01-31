@@ -5,9 +5,9 @@ description: Erfahren Sie, wie Sie in der Web-Benutzeroberfläche von Campaign e
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
 badge: label="Eingeschränkte Verfügbarkeit"
 source-git-commit: 3a5c4a02f6d3d46696e4db0f2e97d7981e2d68b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '786'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -114,7 +114,7 @@ Klicken Sie im Abschnitt **Zusätzliche Population** des Definitionsbildschirms 
 
 * Um eine vorhandene Zielgruppe zu verwenden, klicken Sie auf **Zielgruppe auswählen**. Weiterführende Informationen finden Sie in [diesem Abschnitt](add-audience.md).
 
-* Um eine neue Abfrage zu definieren, wählen Sie **Erstellen eigener** und definieren die Ausschlusskriterien mithilfe des Abfragemodells. Weiterführende Informationen finden Sie in [diesem Abschnitt](../query/query-modeler-overview.md).
+* Um eine neue Abfrage zu definieren, wählen Sie **Eigene erstellen** und definieren Sie die Ausschlusskriterien mithilfe des Abfrage-Modelers. Weiterführende Informationen finden Sie in [diesem Abschnitt](../query/query-modeler-overview.md).
 
 Die Profile, die in der Zielgruppe enthalten sind oder mit dem Ergebnis der Abfrage übereinstimmen, werden von der Versandzielgruppe **ausgeschlossen** und erhalten keine Nachricht.
 
