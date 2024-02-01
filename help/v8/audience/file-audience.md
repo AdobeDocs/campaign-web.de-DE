@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie mit Empfängerinnen und Empfängern aus einer
 badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
 source-git-commit: a3476e46c29723af8246683a005543cfd605e7df
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '620'
 ht-degree: 100%
 

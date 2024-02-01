@@ -5,7 +5,7 @@ description: Entdecken Sie neue Funktionen von Campaign Web v8.
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Eingeschränkte Verfügbarkeit"
 source-git-commit: 80e9937fcac0f1e66c317d3d31efab0d5f6ae2d8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1295'
 ht-degree: 100%
 
