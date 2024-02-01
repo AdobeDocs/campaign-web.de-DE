@@ -3,14 +3,22 @@ audience: end-user
 title: Erste Schritte mit Landingpages
 description: Informationen zu Landingpages im Campaign-Web
 badge: label="Eingeschränkte Verfügbarkeit"
-source-git-commit: cfd648013a8ae16be30603f982d122d09781cd51
+source-git-commit: 05fff2623f1ddac7c2d39794e6c6c480bbd9486c
 workflow-type: tm+mt
-source-wordcount: '154'
-ht-degree: 5%
+source-wordcount: '195'
+ht-degree: 7%
 
 ---
 
 # Erste Schritte mit Landingpages {#get-sarted-lp}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn5"
+>title="Landingpages "
+>abstract="Entdecken Sie das neue Landingpage-Erlebnis. Erstellen, entwerfen und teilen Sie Landingpages sofort, um Ihre Benutzer auf Online-Webseiten zu leiten, auf denen Sie die Profildatenerfassung verwalten und schnell und nahtlos Opt-in-/Opt-out-Flüsse durchführen können.
+."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=de" text="Siehe Versionshinweise"
+
 
 Eine Landingpage ist eine eigenständige Web-Seite, auf die ein Benutzer geleitet wird, nachdem er sich von einer E-Mail, einer Website, einer Anzeige oder einem anderen digitalen Ort aus durchgeklickt hat.
 
