@@ -3,9 +3,9 @@ audience: end-user
 title: Erste Schritte mit Landingpages
 description: Informationen zu Landingpages im Campaign-Web
 badge: label="Eingeschränkte Verfügbarkeit"
-source-git-commit: 93fe9fbaa38ae278ebbc2562e6d48c4c680cdfe8
+source-git-commit: bf4ee4b5f672dc91b7f5a494026c7df934a806f4
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '197'
 ht-degree: 7%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn5"
 >title="Landingpages "
->abstract="Entdecken Sie das neue Landingpage-Erlebnis. Erstellen, entwerfen und teilen Sie Landingpages sofort, um Ihre Benutzer auf Online-Webseiten zu leiten, auf denen Sie die Profildatenerfassung verwalten und schnell und nahtlos Opt-in-/Opt-out-Flüsse durchführen können."
+>abstract="Entdecken Sie das neue Landingpage-Erlebnis. Erstellen, entwerfen und teilen Sie Landingpages sofort, um Ihre Benutzer auf Online-Webseiten weiterzuleiten, auf denen Sie anhand integrierter Vorlagen Nutzungsszenarios für die Verwaltung, Akquise, An-/Abmeldung und Blockierungsliste verwalten können."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=de" text="Siehe Versionshinweise"
 
 
