@@ -1,22 +1,22 @@
 ---
 audience: end-user
-user-guide-title: Adobe Campaign Web
-user-guide-description: Produktdokumentation für Adobe Campaign Web.
+user-guide-title: Adobe Campaign Web-Benutzeroberfläche
+user-guide-description: Produktdokumentation für die Adobe Campaign-Webbenutzeroberfläche.
 title: Adobe Campaign-Webdokumentation
 description: Campaign-Webdokumentation
-breadcrumb-title: Campaign Web
+breadcrumb-title: Campaign-Webbenutzeroberfläche
 hide: true
-source-git-commit: 3bd4382d55f35427448c2d60ad5897146907c48f
+source-git-commit: 895494c976fbdf727b9c2a7466d83bf1a30eddfc
 workflow-type: tm+mt
-source-wordcount: '558'
-ht-degree: 89%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # Adobe Campaign-Webdokumentation {#v8}
 
-+ [Adobe Campaign-Webdokumentation](campaign-web-home.md)
++ [Dokumentation zur Adobe Campaign-Webbenutzeroberfläche](campaign-web-home.md)
 + [Neue Funktionen](rn/whats-new.md)
 + [Aktualisierungen der Dokumentation](rn/documentation-updates.md)
 + Erste Schritte mit Adobe Campaign {#start}
