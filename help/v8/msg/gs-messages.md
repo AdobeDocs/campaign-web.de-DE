@@ -4,10 +4,10 @@ title: Erste Schritte mit Nachrichten und Sendungen im Adobe Campaign Web
 description: Erfahren Sie, wie Sie Campaign Web verwenden, um mit Sendungen zu arbeiten und Nachrichten zu senden
 badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
+source-git-commit: b1aedf944058ca3aa0edd61dab8308ef46d46205
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 92%
+source-wordcount: '149'
+ht-degree: 71%
 
 ---
 
@@ -17,7 +17,9 @@ Mit Adobe Campaign können Sie kanalübergreifende Kampagnen, einschließlich E-
 
 Diese Nachrichten werden mittels Sendungen entworfen und gesendet und können für jede Empfängerin und jeden Empfänger personalisiert werden. Diese Sendungen können einzeln oder im Rahmen einer Marketing-Kampagne durch Workflows durchgeführt werden. In [diesem Abschnitt](gs-deliveries.md) erfahren Sie, wie Sie Sendungen in Adobe Campaign erstellen und verwalten.
 
-Adobe Campaign v8 enthält die folgenden Versandkanäle: E-Mail, SMS und Mobile Apps. In den folgenden Abschnitten erfahren Sie, wie Nachrichten erstellt und gesendet werden.
+Adobe Campaign v8 enthält die folgenden Versandkanäle: E-Mail, SMS und Push-Benachrichtigung. Andere Kanäle wie In-App-Messaging, Briefpost oder Social Marketing mit X (Twitter) werden noch nicht unterstützt.
+
+In den folgenden Abschnitten erfahren Sie, wie Nachrichten erstellt und gesendet werden.
 
 <table style="table-layout:fixed">
     <tr style="border: 0;">
