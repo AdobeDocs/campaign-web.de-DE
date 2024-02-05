@@ -4,10 +4,10 @@ title: Eine erste E-Mail senden
 description: Erfahren Sie, wie Sie Ihre erste E-Mail mit der Campaign-Webbenutzeroberfläche senden.
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Eingeschränkte Verfügbarkeit"
-source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
+source-git-commit: 6aacb0644e0e8aee1ea2f8ca167413aed565bec8
 workflow-type: tm+mt
-source-wordcount: '1352'
-ht-degree: 99%
+source-wordcount: '1367'
+ht-degree: 95%
 
 ---
 
@@ -144,11 +144,9 @@ Gehen Sie wie folgt vor, um mit der Erstellung Ihres E-Mail-Inhalts zu beginnen.
 
 ## Terminieren des Versands {#schedule}
 
-Gehen Sie wie folgt vor, um den Versand der E-Mail zu planen.
+Wenn ein Versand im Rahmen eines Workflows durchgeführt wird, müssen Sie die **Planung** -Aktivität. Weitere Informationen finden Sie auf [dieser Seite](../workflows/activities/scheduler.md). Die folgenden Schritte gelten nur für Einzelsendungen.
 
-Weitere Anweisungen zum Planen des Versands finden Sie in [diesem Abschnitt](../msg/gs-messages.md#gs-schedule).
-
-1. Navigieren Sie zum Abschnitt **[!UICONTROL Zeitplan]**.
+1. Navigieren Sie zum **[!UICONTROL Zeitplan]** in den Versandeigenschaften.
 
 1. Betätigen Sie den Umschalter, um **[!UICONTROL Planung aktivieren]** zu aktivieren.
 
@@ -157,6 +155,8 @@ Weitere Anweisungen zum Planen des Versands finden Sie in [diesem Abschnitt](../
    ![](assets/schedule.png)
 
 Nach dem Versand beginnt der eigentliche Versand am von Ihnen definierten Kontaktdatum.
+
+Weitere Informationen zur Versandplanung finden Sie in [diesem Abschnitt](../msg/gs-deliveries.md#schedule-the-delivery-sending).
 
 ## Anzeigen der Vorschau und Testen der E-Mail {#preview-test}
 
