@@ -4,10 +4,10 @@ title: Konfigurieren von Workflow-Einstellungen
 description: Erfahren Sie, wie Sie Workflow-Einstellungen mit Adobe Campaign Web festlegen
 badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: 3aef912b-086b-4aa4-9556-c09396112313
-source-git-commit: 34931a776ef9c7b06afb0276576da685bc54726b
+source-git-commit: 1611278f759fb29d014b918e5d1e0f792a4b05a0
 workflow-type: tm+mt
-source-wordcount: '917'
-ht-degree: 81%
+source-wordcount: '957'
+ht-degree: 75%
 
 ---
 
@@ -77,7 +77,12 @@ Wann der Workflow [mit einer Kampagne verknüpft ist](create-workflow.md), wird 
   >
   >Wenn das Feld **[!UICONTROL Verlauf in Tagen]** leer gelassen wird, wird sein Wert als „1“ betrachtet; der Verlauf wird also nach einem Tag bereinigt.
 
-* **[!UICONTROL Standardaffinität]**: Wenn Ihre Installation mehrere Workflow-Server umfasst, wählen Sie in diesem Feld den Computer aus, auf dem der Workflow ausgeführt werden soll. Wenn der in diesem Feld definierte Wert auf keinem Server vorhanden ist, bleibt der Workflow ausstehend.
+* **[!UICONTROL Standardaffinität]**: Wenn Ihre Installation mehrere Workflow-Server umfasst, geben Sie in diesem Feld den Server an, auf dem der Workflow ausgeführt werden soll. Dies erzwingt die Ausführung dieses Workflows auf einem bestimmten Server. Sie können einen beliebigen vorhandenen Affinitätsnamen auswählen, stellen Sie jedoch sicher, dass Sie keine Leerzeichen oder Satzzeichen verwenden. Wenn Sie verschiedene Server verwenden, geben Sie unterschiedliche Namen an, getrennt durch Kommas.
+
+  >[!IMPORTANT]
+  >
+  >Wenn der in diesem Feld definierte Wert auf keinem Server vorhanden ist, bleibt der Workflow ausstehend.
+
 
 * **[!UICONTROL SQL-Abfragen im Protokoll speichern]**: Aktivieren Sie diese Option, um die SQL-Abfragen aus dem Workflow in den Protokollen zu speichern. Diese Funktion ist erfahrenen Benutzerinnen und Benutzern vorbehalten. Sie gilt für Workflows, die Zielgruppenbestimmungsaktivitäten enthalten, wie **[!UICONTROL Zielgruppe aufbauen]**. Wenn diese Option aktiviert ist, werden die während der Workflow-Ausführung an die Datenbank gesendeten SQL-Abfragen in den Protokollen des Workflows angezeigt, sodass Sie sie analysieren können, um Abfragen zu optimieren oder Probleme zu diagnostizieren.
 
