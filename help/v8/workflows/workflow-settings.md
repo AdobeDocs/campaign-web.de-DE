@@ -4,10 +4,10 @@ title: Konfigurieren von Workflow-Einstellungen
 description: Erfahren Sie, wie Sie Workflow-Einstellungen mit Adobe Campaign Web festlegen
 badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: 3aef912b-086b-4aa4-9556-c09396112313
-source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
-workflow-type: ht
-source-wordcount: '911'
-ht-degree: 100%
+source-git-commit: 973ae7191e75f549cebe0eea954e9cfc29fb43c4
+workflow-type: tm+mt
+source-wordcount: '917'
+ht-degree: 80%
 
 ---
 
@@ -29,23 +29,24 @@ Klicken Sie dazu auf die Schaltfläche **[!UICONTROL Einstellungen]** in der Akt
 >title="Workflow-Eigenschaften "
 >abstract="Dieser Abschnitt enthält allgemeine Workflow-Eigenschaften, auf die auch beim Erstellen des Workflows zugegriffen werden kann. Sie können die Vorlage auswählen, die zum Erstellen des Workflows verwendet werden soll, und einen Titel angeben. Erweitern Sie den Abschnitt „zusätzliche Optionen“, um bestimmte Einstellungen zu konfigurieren, z. B. den Ordner, in dem der Workflow gespeichert wird, oder die Zeitzone."
 
-Der Abschnitt **[!UICONTROL Eigenschaften]** enthält allgemeine Einstellungen, auf die auch bei der Erstellung des Workflows zugegriffen werden kann.
+Die **[!UICONTROL Eigenschaften]** enthält allgemeine Einstellungen, auf die auch bei der Erstellung des Workflows zugegriffen werden kann. Diese Eigenschaften sind:
 
-* **[!UICONTROL Titel]**: Der Titel des Workflows, der in der Liste angezeigt wird.
-* **[!UICONTROL Name]**: Interner Name des Workflows.
-* **[!UICONTROL Ordner]**: Der Ordner, in dem der Workflow gespeichert werden soll.
-* **[!UICONTROL Verknüpfte Kampagne]**: Dieses Feld wird angezeigt, wenn der Workflow innerhalb einer Kampagne erstellt wurde. Damit können Sie die zugehörige Kampagne öffnen.
-* **[!UICONTROL Zeitzone]**: Definieren Sie eine bestimmte Zeitzone, die standardmäßig für alle Aktivitäten des Workflows verwendet werden soll. Standardmäßig ist die Zeitzone des Workflows die für die aktuelle Campaign-Benutzerin bzw. den aktuellen Campaign-Benutzer definierte Zeitzone.
-Andere mögliche Werte sind:
+* Die **[!UICONTROL Titel]** des Workflows, der in der Liste angezeigt wird.
+* Die interne **[!UICONTROL Name]** des Workflows.
+* Die **[!UICONTROL Ordner]** wo der Workflow gespeichert werden soll.
+* Die Standardeinstellung **[!UICONTROL Zeitzone]** in allen Aktivitäten des Workflows verwendet werden. Standardmäßig ist die Zeitzone des Workflows die für die aktuelle Campaign-Benutzerin bzw. den aktuellen Campaign-Benutzer definierte Zeitzone.
+Mögliche Werte:
    * **Server-Zeitzone**, um die Zeitzone des Anwendungs-Servers von Adobe Campaign zu verwenden
    * **Benutzer-Zeitzone**, um die Zeitzone der Benutzerin bzw. des Benutzers von Adobe Campaign zu verwenden, die bzw. der den Workflow entsprechend der Definition im Benutzerprofil in der Client-Konsole ausführt.
    * **Zeitzone der Datenbank**, um die Zeitzone des Datenbank-Servers zu verwenden.
    * Eine bestimmte Zeitzone
+* Wenn ein Workflow fehlschlägt, werden die Benutzer der in der **[!UICONTROL Supervisor(en)]** -Feld werden per E-Mail benachrichtigt.
+* *Sie können auch eine **[!UICONTROL Beschreibung]** Ihres Workflows.
 
-* **[!UICONTROL Verantwortliche(r)]**: Wenn ein Workflow fehlschlägt, werden die Benutzenden der in diesem Feld ausgewählten Benutzergruppe per E-Mail benachrichtigt.
-* **[!UICONTROL Beschreibung]**: Verwenden Sie dieses Feld, um eine Beschreibung Ihres Workflows anzugeben.
+Wann der Workflow [mit einer Kampagne verknüpft ist](create-workflow.md), wird sie im **[!UICONTROL Verknüpfte Kampagne]** -Feld. Sie können die zugehörige Kampagne über dieses Feld öffnen.
 
-## Segmentierungseinstellungen
+
+## Segmentierungseinstellungen  {#segmentation-settings}
 
 >[!CONTEXTUALHELP]
 >id="acw_workflow_settings_segmentation"
@@ -56,9 +57,9 @@ Andere mögliche Werte sind:
 
 * **[!UICONTROL Zwischen zwei Ausführungen die ermittelte Population festhalten]**: Standardmäßig werden nur die Arbeitstabellen der letzten Ausführung des Workflows beibehalten. Arbeitstabellen früherer Ausführungen werden durch einen technischen Workflow bereinigt, der täglich ausgeführt wird.
 
-  Wenn diese Option aktiviert ist, werden Arbeitstabellen auch nach Ausführung des Workflows beibehalten. Sie können sie zu Testzwecken verwenden, weswegen sie nur in Entwicklungs- oder Staging-Umgebungen verwendet werden darf. Sie darf niemals in einem Produktions-Workflow aktiviert sein.
+  Wenn diese Option aktiviert ist, werden Arbeitstabellen auch nach Ausführung des Workflows beibehalten. Sie können es zu Testzwecken verwenden und müssen daher verwendet werden **only** in Entwicklungs- oder Staging-Umgebungen. Sie darf niemals in einem Produktions-Workflow aktiviert sein.
 
-## Ausführungsparameter
+## Ausführungsparameter  {#exec-settings}
 
 >[!CONTEXTUALHELP]
 >id="acw_workflow_settings_execution"
@@ -73,16 +74,16 @@ Andere mögliche Werte sind:
 
 * **[!UICONTROL Standardaffinität]**: Wenn Ihre Installation mehrere Workflow-Server umfasst, wählen Sie in diesem Feld den Computer aus, auf dem der Workflow ausgeführt werden soll. Wenn der in diesem Feld definierte Wert auf keinem Server vorhanden ist, bleibt der Workflow ausstehend.
 
-* **[!UICONTROL SQL-Abfragen im Protokoll speichern]**: Hiermit können Sie die SQL-Abfragen aus dem Workflow in den Protokollen speichern. Diese Funktion ist erfahrenen Benutzerinnen und Benutzern vorbehalten. Sie gilt für Workflows, die Zielgruppenbestimmungsaktivitäten enthalten, wie **[!UICONTROL Zielgruppe aufbauen]**. Wenn diese Option aktiviert ist, werden die während der Workflow-Ausführung an die Datenbank gesendeten SQL-Abfragen in den Protokollen des Workflows angezeigt, sodass Sie sie analysieren können, um Abfragen zu optimieren oder Probleme zu diagnostizieren.
+* **[!UICONTROL SQL-Abfragen im Protokoll speichern]**: Aktivieren Sie diese Option, um die SQL-Abfragen aus dem Workflow in den Protokollen zu speichern. Diese Funktion ist erfahrenen Benutzerinnen und Benutzern vorbehalten. Sie gilt für Workflows, die Zielgruppenbestimmungsaktivitäten enthalten, wie **[!UICONTROL Zielgruppe aufbauen]**. Wenn diese Option aktiviert ist, werden die während der Workflow-Ausführung an die Datenbank gesendeten SQL-Abfragen in den Protokollen des Workflows angezeigt, sodass Sie sie analysieren können, um Abfragen zu optimieren oder Probleme zu diagnostizieren.
 
-## Einstellungen für den Umgang mit Fehlern
+## Einstellungen für den Umgang mit Fehlern  {#error-settings}
 
 >[!CONTEXTUALHELP]
 >id="acw_workflow_settings_error"
 >title="Einstellungen für den Umgang mit Fehlern"
->abstract="In diesem Abschnitt erfahren Sie, wie sich der Workflow verhalten soll, wenn während seiner Ausführung ein Fehler auftritt (Ausführung aussetzen/anhalten oder Fehler ignorieren)."
+>abstract="In diesem Abschnitt können Sie definieren, wie der Workflow Fehler während seiner Ausführung verwalten soll. Sie können den Prozess anhalten, eine bestimmte Anzahl von Fehlern ignorieren oder die Ausführung des Workflows stoppen."
 
-* **[!UICONTROL Umgang mit Fehlern]**: In diesem Feld können Sie festlegen, welche Aktionen ausgeführt werden sollen, wenn eine Workflow-Aufgabe Fehler aufweist. Es gibt zwei mögliche Optionen:
+* **[!UICONTROL Umgang mit Fehlern]**: In diesem Feld können Sie festlegen, welche Aktionen ausgeführt werden sollen, wenn eine Workflow-Aufgabe Fehler aufweist. Es gibt drei Möglichkeiten:
 
    * **[!UICONTROL Prozess aussetzen]**: Der Workflow wird automatisch ausgesetzt und der Status wechselt zu **[!UICONTROL Fehlgeschlagen]**. Sobald das Problem behoben ist, setzen Sie den Workflow mit der Schaltfläche **[!UICONTROL Fortsetzen]** fort.
    * **[!UICONTROL Ignorieren]**: Der Status der Aufgabe, die den Fehler ausgelöst hat, ändert sich in **[!UICONTROL Fehlgeschlagen]**, der Workflow behält jedoch den Status **[!UICONTROL Gestartet]**. <!-- TO ADD ONCE SCHEUDLER IS AVAILABLE This configuration is relevant for recurring tasks: if the branch includes a scheduler, it will start normally next time the workflow is executed.-->
