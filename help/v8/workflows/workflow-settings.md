@@ -4,7 +4,7 @@ title: Konfigurieren von Workflow-Einstellungen
 description: Erfahren Sie, wie Sie Workflow-Einstellungen mit Adobe Campaign Web festlegen
 badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: 3aef912b-086b-4aa4-9556-c09396112313
-source-git-commit: 1611278f759fb29d014b918e5d1e0f792a4b05a0
+source-git-commit: 55bfca002618dfae53c4a9700087daa5cfd314f2
 workflow-type: tm+mt
 source-wordcount: '957'
 ht-degree: 75%
@@ -46,7 +46,7 @@ Mögliche Werte:
    * **Zeitzone der Datenbank**, um die Zeitzone des Datenbank-Servers zu verwenden.
    * Eine bestimmte Zeitzone
 * Wenn ein Workflow fehlschlägt, werden die Benutzer der in der **[!UICONTROL Supervisor(en)]** -Feld werden per E-Mail benachrichtigt.
-* *Sie können auch eine **[!UICONTROL Beschreibung]** Ihres Workflows.
+* Sie können auch eine **[!UICONTROL Beschreibung]** Ihres Workflows.
 
 Wann der Workflow [mit einer Kampagne verknüpft ist](create-workflow.md), wird sie im **[!UICONTROL Verknüpfte Kampagne]** -Feld. Sie können die zugehörige Kampagne über dieses Feld öffnen.
 
