@@ -4,10 +4,10 @@ title: Arbeiten mit Anmeldediensten
 description: Erfahren Sie, wie Sie in Adobe Campaign Web auf Anmeldedienste zugreifen, diese erstellen und sie verwalten können.
 badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
-source-git-commit: d003de806a188b1b5c20a55ee1e308d5af1a19ea
+source-git-commit: daac6191623b9297378f3e36664cd0fa90e459aa
 workflow-type: tm+mt
-source-wordcount: '951'
-ht-degree: 90%
+source-wordcount: '940'
+ht-degree: 85%
 
 ---
 
@@ -70,11 +70,11 @@ Gehen Sie wie folgt vor, um einen Anmeldedienst zu erstellen.
 
 1. Standardmäßig werden die Dienste im Ordner **[!UICONTROL Dienste und Abonnements]** gespeichert. Sie können ihn ändern, indem Sie zum gewünschten Speicherort navigieren. [Erfahren Sie mehr über die Arbeit mit Ordnern](../get-started/permissions.md#folders)
 
-1. Standardmäßig sind Abonnements unbegrenzt. Sie können die Option **[!UICONTROL Unbegrenzter Gültigkeitszeitraum]** deaktivieren, um einen Gültigkeitszeitraum für den Dienst festzulegen.
+1. Standardmäßig sind Abonnements unbegrenzt.
 
-   Im folgenden Beispiel wäre nach 20 Tagen Folgendes der Fall:
-   * Empfängerinnen und Empfänger können sich nicht mehr für einen Dienst anmelden.
-   * Alle Abonnentinnen und Abonnenten dieses Dienstes werden nach 20 Tagen automatisch abgemeldet. [Weitere Informationen](#automatic-unsubscription)
+   Sie können die **[!UICONTROL Unbegrenzte Gültigkeitsdauer]** -Option, um eine Gültigkeitsdauer für den Dienst festzulegen. Sobald der Gültigkeitszeitraum endet:
+   * Empfänger können diesen Dienst nicht mehr abonnieren
+   * Alle Abonnenten dieses Dienstes werden automatisch abgemeldet
 
    ![](assets/service-create-validity-period.png)
 
