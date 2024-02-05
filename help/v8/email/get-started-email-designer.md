@@ -1,13 +1,13 @@
 ---
 audience: end-user
 title: Bearbeiten des E-Mail-Inhalts
-description: Erfahren Sie, wie Sie damit beginnen können, mit dem E-Mail-Designer in der Web-Benutzeroberfläche von Campaign Inhalte zu erstellen.
+description: Erfahren Sie, wie Sie mit der Erstellung Ihres Inhalts mit Email Designer in der Web-Benutzeroberfläche von Campaign beginnen
 badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: a5b966bb-09da-4a50-98d4-010fdfbb75cf
-source-git-commit: 9c72d73b5279a01492ea3ccd295e513e91f0c050
+source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 100%
+source-wordcount: '473'
+ht-degree: 96%
 
 ---
 

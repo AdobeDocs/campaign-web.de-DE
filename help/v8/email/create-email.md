@@ -1,13 +1,13 @@
 ---
 audience: end-user
 title: Eine erste E-Mail senden
-description: Erfahren Sie, wie Sie Ihre erste E-Mail mit der Web-Benutzeroberfläche von Campaign senden.
+description: Erfahren Sie, wie Sie Ihre erste E-Mail mit der Campaign-Webbenutzeroberfläche senden.
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Eingeschränkte Verfügbarkeit"
-source-git-commit: 9c72d73b5279a01492ea3ccd295e513e91f0c050
+source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
 workflow-type: tm+mt
-source-wordcount: '1351'
-ht-degree: 100%
+source-wordcount: '1352'
+ht-degree: 99%
 
 ---
 

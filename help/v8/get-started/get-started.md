@@ -4,10 +4,10 @@ title: Erste Schritte mit Adobe Campaign Web
 description: Erste Schritte mit Adobe Campaign Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 badge: label="Eingeschränkte Verfügbarkeit"
-source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
+source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
 workflow-type: tm+mt
-source-wordcount: '570'
-ht-degree: 87%
+source-wordcount: '577'
+ht-degree: 64%
 
 ---
 
@@ -43,9 +43,9 @@ Ursprünglich nur über eine umfangreiche [Client-Konsole](#ac-client) verfügba
 
 ![](assets/home.png)
 
-Diese neue Benutzeroberfläche erfüllt zunächst die Anforderungen von **Business Practitioners**. Alle typischen Administrationsaufgaben sind in dieser ersten Version noch nicht verfügbar, werden aber in späteren Versionen berücksichtigt. Beachten Sie, dass in der neuen Benutzeroberfläche derzeit nicht alle Funktionen und Optionen der Client-Konsole verfügbar sind. In zukünftigen Versionen werden neue Anwendungsfälle, Optionen und Funktionen zur Verfügung stehen.
+Diese neue Web-Benutzeroberfläche erfüllt zunächst die Anforderungen der **Geschäftsmann** - Alle typischen Verwaltungsaufgaben sind in dieser ersten Version nicht verfügbar, werden aber in nachfolgenden Versionen behandelt. Beachten Sie, dass in der neuen Benutzeroberfläche derzeit nicht alle Funktionen und Optionen der Client-Konsole verfügbar sind. In zukünftigen Versionen werden neue Anwendungsfälle, Optionen und Funktionen zur Verfügung stehen.
 
-Wenn Sie als Administrator oder erfahrener Benutzer bzw. erfahrene Benutzerin auf Funktionen von Campaign v8 zugreifen müssen, die nicht in der Web-Benutzeroberfläche verfügbar sind, können Sie sich mit der [Client-Konsole](#ac-client) verbinden.
+Wenn Sie als Administrator oder erfahrener Benutzer auf die Campaign v8-Funktionen zugreifen müssen, die nicht in der Campaign-Webbenutzeroberfläche verfügbar sind, können Sie eine Verbindung zum [Clientkonsole](#ac-client).
 
 
 >[!NOTE]
@@ -58,8 +58,8 @@ Erfahren Sie auf [dieser Seite](connect-to-campaign.md), wie Sie eine Verbindung
 
 Die Campaign-Client-Konsole ist eine Browser-basierte Anwendung, die auf Ihrem System installiert ist. Sie nutzt die Web-Services-API, um eine Verbindung zu Ihrem Campaign-Anwendungs-Server herzustellen.
 
-Kampagnendaten werden auf dem Anwendungs-Server gespeichert. Daten sind sowohl über die Client-Konsole als auch über die Web-Benutzeroberfläche verfügbar. Wenn Sie beispielsweise eine Versandvorlage mithilfe der Client-Konsole erstellen, ist diese ebenfalls in der Web-Benutzeroberfläche verfügbar. Ist in der Web-Benutzeroberfläche ein E-Mail-Versand eingerichtet, kann diese Versandart auch über die Client-Konsole aufgerufen werden.
+Kampagnendaten werden auf dem Anwendungs-Server gespeichert. Daten sind sowohl in der Client-Konsole als auch in der Campaign-Web-Benutzeroberfläche verfügbar. Wenn Sie beispielsweise eine Versandvorlage mithilfe der Client-Konsole erstellen, ist diese auch in der Web-Benutzeroberfläche von Campaign verfügbar. Wenn Sie einen E-Mail-Versand in der Campaign-Webbenutzeroberfläche erstellen, kann dieser Versand auch über die Clientkonsole aufgerufen werden.
 
-Einige Objekte können nur in der Client-Konsole erstellt und verwaltet werden. Sie können in der Web-Benutzeroberfläche von Campaign angezeigt und verwendet werden, können jedoch nicht in dieser Umgebung erstellt oder geändert werden. Alle Campaign-Objekte und -Komponenten stehen in der Explorer-Ansicht zur Verfügung, die im linken Navigationsbereich verfügbar ist.
+Einige Objekte können nur in der Client-Konsole erstellt und verwaltet werden. Sie können in der Web-Benutzeroberfläche von Campaign sichtbar und verwendet werden, können jedoch nicht in dieser Umgebung erstellt oder geändert werden. Alle Campaign-Objekte und -Komponenten stehen in der Explorer-Ansicht zur Verfügung, die im linken Navigationsbereich verfügbar ist.
 
 Weitere Informationen zur Verwendung von Campaign v8 mit der Client-Konsole finden Sie in der [Dokumentation zu Campaign v8 (Client-Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=de){target="_blank"}.

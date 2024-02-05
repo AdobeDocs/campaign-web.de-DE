@@ -1,13 +1,13 @@
 ---
 audience: end-user
 title: Anzeigen des Versandinhalts in einer Vorschau
-description: Erfahren Sie, wie Sie mit der Web-Benutzeroberfläche von Campaign den Versandinhalt in einer Vorschau anzeigen können.
+description: Erfahren Sie, wie Sie mit der Campaign-Web-Benutzeroberfläche eine Vorschau Ihres Versandinhalts anzeigen können.
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
 badge: label="Eingeschränkte Verfügbarkeit"
-source-git-commit: 7b42927b689bfc762c61fa52e4af23e8c283f486
-workflow-type: ht
-source-wordcount: '384'
-ht-degree: 100%
+source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
+workflow-type: tm+mt
+source-wordcount: '381'
+ht-degree: 85%
 
 ---
 
@@ -30,21 +30,18 @@ Gehen Sie wie folgt vor, um den Versandinhalt in einer Vorschau anzuzeigen.
 
    * **[!UICONTROL Abonnentin(nen) oder Abonnent(en) hinzufügen]** für die Vorschau von Push-Benachrichtigungen
 
-1. Sie können Testprofile und Profile miteinander kombinieren, um Ihre E-Mail- oder SMS-Nachricht in einer Vorschau anzuzeigen.
+1. Sie können Profile und Testprofile kombinieren, um eine Vorschau Ihrer E-Mail- oder SMS-Nachricht anzuzeigen.
 
    * Die Registerkarte **[!UICONTROL Testprofile]** enthält Testadressen für zusätzliche, fiktive Personen in der Datenbank.
-
      ![](assets/simulate-select-profiles.png)
 
-     >[!NOTE]
-     >
-     >Testprofile können über das Menü **[!UICONTROL Kunden-Management]** > **[!UICONTROL Profile]** erstellt werden. [Weitere Informationen](../audience/test-profiles.md#create-test-profiles)
+     Testprofile können über das Menü **[!UICONTROL Kunden-Management]** > **[!UICONTROL Profile]** erstellt werden. [Weitere Informationen](../audience/test-profiles.md#create-test-profiles)
 
-   * Die Registerkarte **[!UICONTROL Profile]** listet alle Empfängerinnen und Empfänger auf, die über die [!DNL Campaign]-Konsole im Ordner **[!UICONTROL Profile und Zielgruppen]** gespeichert wurden. Weitere Informationen finden Sie in der [Dokumentation zu Campaign v8 (Client-Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/view-profiles.html?lang=de){target="_blank"}.
 
-     >[!NOTE]
-     >
-     >Sie können Profile auch über die entsprechende Registerkarte in der Campaign Web-Benutzeroberfläche anzeigen und verwalten. [Weitere Informationen](../audience/about-recipients.md)
+   * Die **[!UICONTROL Profile]** enthält alle in der **[!UICONTROL Profile und Zielgruppen]** Ordner aus dem [!DNL Campaign] Clientkonsole. Weitere Informationen finden Sie in der [Dokumentation zu Campaign v8 (Client-Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/view-profiles.html?lang=de){target="_blank"}.
+
+     Sie können Profile über das **[!UICONTROL Profile]** Registerkarte. [Weitere Informationen](../audience/about-recipients.md)
+
 
 1. Beim Durchsuchen der Testprofilliste oder Profillisten können Sie Filter verwenden, um Ihre Suche zu verfeinern.
 

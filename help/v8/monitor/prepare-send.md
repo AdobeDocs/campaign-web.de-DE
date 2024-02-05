@@ -4,10 +4,10 @@ title: Vorbereiten und Senden einer E-Mail
 description: Erfahren Sie, wie Sie eine E-Mail mit der Web-Benutzeroberfläche von Campaign vorbereiten und senden.
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
 badge: label="Eingeschränkte Verfügbarkeit"
-source-git-commit: 798675125820076d4e5e379a94a1d5575425f68c
-workflow-type: ht
-source-wordcount: '892'
-ht-degree: 100%
+source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
+workflow-type: tm+mt
+source-wordcount: '893'
+ht-degree: 98%
 
 ---
 

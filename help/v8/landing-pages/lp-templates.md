@@ -3,7 +3,7 @@ audience: end-user
 title: Arbeiten mit Landingpage-Inhaltsvorlagen
 description: Erfahren Sie, wie Sie Landingpage-Inhalte als Designvorlage speichern und im Campaign Web wiederverwenden können.
 badge: label="Eingeschränkte Verfügbarkeit"
-source-git-commit: 2a02015d9d7a7de67f0bcffd328d37080c0f50c4
+source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 29%
@@ -56,4 +56,4 @@ Wenn Sie das nächste Mal eine Landingpage erstellen, können Sie diese Vorlage 
 
 1. Bearbeiten Sie den Inhalt nach Bedarf mit dem Landingpage-Designer.
 
-<!--Primary page templates and subpage templates are managed separately, meaning that you cannot use a primary page template to create a subpage, and vice versa. TBC in Web UI-->
+<!--Primary page templates and subpage templates are managed separately, meaning that you cannot use a primary page template to create a subpage, and vice versa. TBC in Web user interface-->

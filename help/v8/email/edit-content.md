@@ -1,13 +1,13 @@
 ---
 audience: end-user
 title: Bearbeiten des E-Mail-Inhalts
-description: Erfahren Sie, wie Sie den E-Mail-Inhalt in der Web-Benutzeroberfläche von Campaign bearbeiten können
+description: Erfahren Sie, wie Sie den E-Mail-Inhalt in der Campaign-Web-Benutzeroberfläche bearbeiten
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 badge: label="Eingeschränkte Verfügbarkeit"
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
 workflow-type: tm+mt
-source-wordcount: '625'
-ht-degree: 100%
+source-wordcount: '626'
+ht-degree: 98%
 
 ---
 

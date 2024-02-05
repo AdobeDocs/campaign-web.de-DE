@@ -4,10 +4,10 @@ title: Erkunden der Benutzeroberfläche
 description: Adobe Campaign Web-Benutzeroberfläche
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Eingeschränkte Verfügbarkeit"
-source-git-commit: 3bd4382d55f35427448c2d60ad5897146907c48f
+source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
 workflow-type: tm+mt
-source-wordcount: '1596'
-ht-degree: 96%
+source-wordcount: '1597'
+ht-degree: 93%
 
 ---
 
@@ -121,7 +121,7 @@ Eine kontextuelle Hilfe ist in der Benutzeroberfläche verfügbar. Wenn verfügb
 
 ![](assets/do-not-localize/context-help.png){width="40%" align="left"}
 
-In der momentanen Beta-Version der neuen Web-Benutzeroberfläche von Campaign revolutioniert der **KI-gestützte Wissensassistent**, der in der kontextuellen Hilfe eingebettet ist, die Suche nach Dokumentationen und die Beantwortung von Fragen zur Vorgehensweise, indem er mühelos riesige Dokumentationsbestände durchforstet und die benötigten Informationen sofort auffindbar macht.
+Derzeit als Beta-Version in der neuen Campaign-Webbenutzeroberfläche veröffentlicht, wird die **KI-gestützter Knowledge Assistant** eingebettet in die kontextuelle Hilfe revolutioniert die Dokumentationssuche und Beantwortung von Fragen durch mühelose Durchblättern von umfangreichen Dokumentations-Repositorys und zeigt sofort die benötigten Informationen an.
 
 Dank der Funktionen der generativen KI von Campaign verwandelt dieser Assistent Ihr Erlebnis völlig und macht das Abrufen von Informationen und die Problembehebung zu einem Kinderspiel. Unser Wissensassistent mit generativer KI ist Ihr ultimativer Begleiter bei Fragen zu komplexen Aufgaben oder zur Navigation in umfangreichen Dokumenten und bietet Ihnen bei jeder Interaktion höchste Effizienz und Genauigkeit.
 

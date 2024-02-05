@@ -1,56 +1,56 @@
 ---
-title: Schutzmechanismen und Einschränkungen in der Web-Benutzeroberfläche von Campaign
-description: Schutzmechanismen und Einschränkungen in der Web-Benutzeroberfläche von Campaign
+title: Limits und Einschränkungen in der Campaign-Webbenutzeroberfläche
+description: Limits und Einschränkungen in der Campaign-Webbenutzeroberfläche
 badge: label="Beta"
 exl-id: 9c8c67ce-9823-4082-b0bd-5613f3feb6e3
-source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
+source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
 workflow-type: tm+mt
-source-wordcount: '658'
-ht-degree: 100%
+source-wordcount: '671'
+ht-degree: 65%
 
 ---
 
 # Schutzmechanismen und Begrenzungen {#guardrails-limitations}
 
-Wenn Sie in der Campaign-Web-Benutzeroberfläche mit Komponenten arbeiten, die in der Campaign-Client-Konsole erstellt oder geändert wurden, gelten die unten aufgeführten Schutzmechanismen und Einschränkungen.
+Bei der Arbeit mit in der Campaign-Webbenutzeroberfläche mit in der Campaign-Clientkonsole erstellten oder geänderten Komponenten gelten die unten aufgeführten Limits und Einschränkungen.
 
 ## Workflows {#wf-guardrails-limitations}
 
 ### Aktivitäten
 
-Workflow-Aktivitäten, die noch nicht in der Web-Benutzeroberfläche unterstützt werden, sind schreibgeschützt und werden als inkompatible Aktivitäten angezeigt. Sie können weiterhin den Workflow ausführen, Nachrichten senden, die Protokolle überprüfen usw. Workflow-Aktivitäten, die sowohl in der Web-Benutzeroberfläche als auch in der Client-Konsole verfügbar sind, können bearbeitet werden.
+Workflow-Aktivitäten, die noch nicht in der Campaign-Webbenutzeroberfläche unterstützt werden, sind schreibgeschützt und werden als inkompatible Aktivitäten angezeigt. Sie können weiterhin den Workflow ausführen, Nachrichten senden, die Protokolle überprüfen usw. Workflow-Aktivitäten, die sowohl in der Campaign-Webbenutzeroberfläche als auch in der Campaign-Clientkonsole verfügbar sind, können bearbeitet werden.
 
-| Konsole | Web-Benutzeroberfläche |
+| Konsole | Web |
 | --- | --- |
 | ![](assets/limitations-activities-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-activities-web.png){width="800px" align="left" zoomable="yes"} |
 
 Workflow-Aktivitätseinstellungen, die noch nicht in der Web-Benutzeroberfläche unterstützt werden, werden nicht angezeigt. Wenn der Workflow jedoch ausgeführt wird, finden diese Einstellungen Anwendung.
 
-| Konsole | Web-Benutzeroberfläche |
+| Konsole | Web |
 | --- | --- |
 | ![](assets/limitations-options-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-options-web.png){width="800px" align="left" zoomable="yes"} |
 
-In der Konsole kann die **Anreicherungsaktivität** sowohl Abstimmungen als auch Anreicherungen durchführen. In der Web-Benutzeroberfläche sind die Abstimmungsfunktionen noch nicht verfügbar. Wenn Sie in der Konsole Abstimmeinstellungen in der **Anreicherungsaktivität** definiert haben, wird sie in der Web-Benutzeroberfläche als nicht kompatible, schreibgeschützte Aktivität angezeigt.
+In der Konsole kann die **Anreicherungsaktivität** sowohl Abstimmungen als auch Anreicherungen durchführen. In der Campaign-Webbenutzeroberfläche sind die Abstimmungsfunktionen noch nicht verfügbar. Wenn Sie in der Clientkonsole Abstimmungseinstellungen im **Anreicherung** -Aktivität, wird sie in der Campaign-Webbenutzeroberfläche als nicht kompatible schreibgeschützte Aktivität angezeigt.
 
-| Konsole | Web-Benutzeroberfläche |
+| Konsole | Web |
 | --- | --- |
 | ![](assets/limitations-options-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-options-web.png){width="800px" align="left" zoomable="yes"} |
 
 ### Arbeitsfläche
 
-Beim Erstellen eines neuen Workflows in der Web-Benutzeroberfläche unterstützt die Arbeitsfläche nur einen Einstiegspunkt. Wenn Sie jedoch in der Konsole einen Workflow mit mehreren Einstiegspunkten erstellt haben, können Sie ihn in der Web-Benutzeroberfläche öffnen und bearbeiten.
+Beim Erstellen eines neuen Workflows in der Campaign-Webbenutzeroberfläche unterstützt die Arbeitsfläche nur einen Einstiegspunkt. Wenn Sie jedoch einen Workflow in der Konsole mit mehreren Einstiegspunkten erstellt haben, können Sie ihn in der Web-Benutzeroberfläche von Campaign öffnen und bearbeiten.
 
-| Konsole | Web-Benutzeroberfläche |
+| Konsole | Web |
 | --- | --- |
 | ![](assets/limitations-multiple-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-multiple-web.png){width="800px" align="left" zoomable="yes"} |
 
-Schleifen sind in der Web-Benutzeroberfläche noch nicht verfügbar. Wenn Sie mithilfe der Konsole einen Workflow mit einer Schleife erstellt haben, können Sie darauf nicht über die Web-Benutzeroberfläche zugreifen. Es wird eine Fehlermeldung angezeigt.
+Schleifen sind in der Web-Benutzeroberfläche von Campaign noch nicht verfügbar. Wenn Sie einen Workflow mit einer Schleife über die Konsole erstellt haben, können Sie nicht über die Campaign-Web-Benutzeroberfläche darauf zugreifen. Es wird eine Fehlermeldung angezeigt.
 
-| Konsole | Web-Benutzeroberfläche |
+| Konsole | Web |
 | --- | --- |
 | ![](assets/limitations-loops-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-loops-web.png){width="800px" align="left" zoomable="yes"} |
 
-Die Positionierung der Knoten wird bei jedem Hinzufügen oder Entfernen einer Aktivität aktualisiert. Wenn Sie einen Workflow in der Konsole erstellen, ihn über die Web-Benutzeroberfläche ändern und in der Konsole erneut öffnen, treten möglicherweise kleinere Ungenauigkeiten bei der Positionierung auf. Dies hat keine Auswirkungen auf die Prozesse und Aufgaben des Workflows.
+Die Positionierung der Knoten wird bei jedem Hinzufügen oder Entfernen einer Aktivität aktualisiert. Wenn Sie einen Workflow in der Konsole erstellen, ihn über die Campaign-Webbenutzeroberfläche ändern und in der Konsole erneut öffnen, treten möglicherweise kleinere Positionierungsfehler auf. Dies hat keine Auswirkungen auf die Prozesse und Aufgaben des Workflows.
 
 | Anfangs-Workflow | Positionsänderung |
 | --- | --- |

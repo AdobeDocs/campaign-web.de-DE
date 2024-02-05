@@ -1,13 +1,13 @@
 ---
 audience: end-user
-title: Berechtigungsverwaltung in Campaign Web
-description: Erfahren Sie mehr über Berechtigungen in Campaign Web v8
+title: Berechtigungsverwaltung in der Web-Benutzeroberfläche von Campaign
+description: Erfahren Sie mehr über Berechtigungen in der Campaign-Web-Benutzeroberfläche
 badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
-source-git-commit: 3b90fa26ff015b3a74044782a1cf5d979657c853
+source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
 workflow-type: tm+mt
-source-wordcount: '592'
-ht-degree: 100%
+source-wordcount: '595'
+ht-degree: 97%
 
 ---
 

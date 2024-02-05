@@ -3,10 +3,10 @@ title: Arbeiten mit vordefinierten Filtern
 description: Erfahren Sie, wie Sie vordefinierte Filter im Adobe Campaign Web erstellen und verwalten
 badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
-source-git-commit: cbfd821173466c51e9073f01e8792cbdc069c6a2
+source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
 workflow-type: tm+mt
-source-wordcount: '821'
-ht-degree: 98%
+source-wordcount: '822'
+ht-degree: 93%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 98%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_card4"
 >title="Verwaltung von vordefinierten Filtern"
->abstract="Campaign Web bietet jetzt eine benutzerfreundliche Oberfläche, mit der man vordefinierte Filter mühelos verwalten und an Ihre spezifischen Anforderungen anpassen kann. Filter einmal erstellen und für zukünftige Verwendungen speichern."
+>abstract="Die Campaign-Webbenutzeroberfläche bietet eine benutzerfreundliche Oberfläche, mit der vordefinierte Filter einfach verwaltet und an Ihre spezifischen Anforderungen angepasst werden können. Filter einmal erstellen und für zukünftige Verwendungen speichern."
 
 
 <!--TO REMOVE BELOW-->
@@ -30,7 +30,7 @@ ht-degree: 98%
 >[!CONTEXTUALHELP]
 >id="acw_predefined-filters-dashboard"
 >title="Vordefinierte Filter"
->abstract="Campaign Web bietet jetzt eine benutzerfreundliche Oberfläche, mit der man vordefinierte Filter mühelos verwalten und an Ihre spezifischen Anforderungen anpassen kann. Filter einmal erstellen und für zukünftige Verwendungen speichern."
+>abstract="Die Campaign-Webbenutzeroberfläche bietet eine benutzerfreundliche Oberfläche, mit der Sie vordefinierte Filter mühelos verwalten und an Ihre spezifischen Anforderungen anpassen können. Filter einmal erstellen und für zukünftige Verwendungen speichern."
 
 Vordefinierte Filter sind benutzerdefinierte Filter, die für zukünftige Verwendungen erstellt und gespeichert werden. Sie können als Verknüpfungen bei allen Filtervorgängen mit dem Abfrage-Modeller verwendet werden, zum Beispiel beim Filtern einer Liste von Daten oder beim Erstellen der Zielgruppe eines Versands.
 

@@ -4,10 +4,10 @@ title: Verwenden der Workflow-Aktivität „Abstimmung“
 description: Erfahren Sie, wie Sie die Workflow-Aktivität „Abstimmung“ verwenden
 badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: 33f2aa76-1e75-4545-805a-016c95824e09
-source-git-commit: 72899742daf04a0da6e2fb3d802b7841753b8c6c
+source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
 workflow-type: tm+mt
-source-wordcount: '828'
-ht-degree: 100%
+source-wordcount: '829'
+ht-degree: 97%
 
 ---
 
@@ -125,4 +125,4 @@ Er besteht aus den folgenden Aktivitäten:
 
 ## Kompatibilität {#reconciliation-compat}
 
-Die **Abstimmungsaktivität** ist nicht in der Client-Konsole vorhanden. Alle **Anreicherungsaktivitäten**, die in der Client-Konsole mit aktivierten Abstimmungsoptionen erstellt wurden, werden als **Abstimmungsaktivitäten** in der Campaign Web-Benutzeroberfläche angezeigt.
+Die **Abstimmungsaktivität** ist nicht in der Client-Konsole vorhanden. Alle **Anreicherungen** Aktivitäten, die in der Clientkonsole mit aktivierten Abstimmungsoptionen erstellt wurden, werden als **Abstimmung** Aktivitäten in der Campaign-Webbenutzeroberfläche.

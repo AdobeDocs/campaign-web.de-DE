@@ -1,13 +1,13 @@
 ---
 audience: end-user
 title: Testen des E-Mail-Rendering
-description: Erfahren Sie, wie Sie Ihr E-Mail-Rendering in der Web-Benutzeroberfläche von Campaign testen können.
+description: Erfahren Sie, wie Sie Ihr E-Mail-Rendering in der Campaign-Web-Benutzeroberfläche testen können.
 exl-id: 5cdbce8b-3969-470d-8019-1edc58433146
 badge: label="Eingeschränkte Verfügbarkeit"
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
 workflow-type: tm+mt
-source-wordcount: '227'
-ht-degree: 100%
+source-wordcount: '228'
+ht-degree: 94%
 
 ---
 

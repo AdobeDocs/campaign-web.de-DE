@@ -3,10 +3,10 @@ title: Herstellen einer Verbindung zur Adobe Campaign Web-Benutzeroberfläche
 description: Erfahren Sie, wie Sie eine Verbindung zur Adobe Campaign-Web-Benutzeroberfläche herstellen.
 badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
-source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
+source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
 workflow-type: tm+mt
-source-wordcount: '561'
-ht-degree: 90%
+source-wordcount: '562'
+ht-degree: 88%
 
 ---
 
@@ -53,7 +53,7 @@ Sie sind jetzt mit Campaign verbunden. Auf [dieser Seite](user-interface.md) erf
 
 Verwenden Sie die obere Leiste der Benutzeroberfläche, um folgende Aktionen durchzuführen:
 
-* Teilen von Feedback zu Campaign Web UI
+* Feedback zur Campaign-Webbenutzeroberfläche freigeben
 * Wechseln zwischen Ihren Organisationen
 * Wechseln zwischen Ihren Adobe Experience Cloud-Lösungen und -Apps
 * nach Hilfe zu [Adobe Experience League](https://experienceleague.adobe.com/docs/?lang=de){target="_blank"} suchen
