@@ -4,10 +4,10 @@ title: Versandeinstellungen
 description: Erfahren Sie mehr über die Versandeinstellungen in Campaign Web
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="Eingeschränkte Verfügbarkeit"
-source-git-commit: 96aec85933a47c1289549ba0696874a5f82e7fd5
+source-git-commit: 3bfcf3c5a5e054995993d38a073733fef8ea4be9
 workflow-type: tm+mt
-source-wordcount: '2316'
-ht-degree: 99%
+source-wordcount: '2326'
+ht-degree: 98%
 
 ---
 
@@ -125,9 +125,11 @@ Im Feld **[!UICONTROL Ausschluss]** können Sie Empfängerinnen und Empfänger a
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_delivery"
 >title="Versandeinstellungen für den Versand"
->abstract="Versandparameter sind technische Einstellungen, die für Ihren Versand gelten. Für den Versand kann BCC aktiviert und die Versand- sowie die Routinemodi können geändert werden. Diese Optionen sind erfahrenen Benutzerinnen und Benutzern vorbehalten."
+>abstract="Versandparameter sind technische Einstellungen, die für Ihren Versand gelten. Sie können den Versand und die Routinemodi ändern, E-Mail-BCC aktivieren, in Schüben versenden und auch das Format der gesendeten E-Mail-Nachrichten auswählen. Diese Optionen sind erfahrenen Benutzerinnen und Benutzern vorbehalten."
 
 **[!UICONTROL Versandparameter]** sind technische Einstellungen, die für Ihren Versand gelten.
+
+![](assets/delivery-settings-delivery.png)
 
 Das externe Konto **[!UICONTROL Integriertes E-Mail-Routing]** wird standardmäßig bereitgestellt. Es enthält die technischen Parameter, die es der Anwendung erlauben, E-Mails zu senden.
 

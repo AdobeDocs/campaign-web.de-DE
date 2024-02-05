@@ -3,7 +3,7 @@ audience: end-user
 title: In Schüben versenden
 description: Erfahren Sie mehr über die Versandeinstellungen in Campaign Web
 badge: label="Eingeschränkte Verfügbarkeit"
-source-git-commit: 1d3e2ccbf4db5eb23531351572a4400754982e2d
+source-git-commit: 3bfcf3c5a5e054995993d38a073733fef8ea4be9
 workflow-type: tm+mt
 source-wordcount: '609'
 ht-degree: 53%
@@ -34,7 +34,11 @@ Um eine gleichmäßige Auslastung der Kapazitäten zu gewährleisten, können Si
 
 1. Zur Konfiguration von Schüben haben Sie die folgenden Möglichkeiten:
 
-   * **[!UICONTROL Mehrere Schübe derselben Größe planen]**. Wenn Sie beispielsweise **[!UICONTROL 30 %]** im entsprechenden Feld enthält jeder Schub 30 % der im Versand enthaltenen Nachrichten, mit Ausnahme des letzten Schubs, der 10 % der Nachrichten ausmacht.
+   * **[!UICONTROL Mehrere Schübe derselben Größe planen]**.
+
+     Wenn Sie beispielsweise **[!UICONTROL 30 %]** im entsprechenden Feld enthält jeder Schub 30 % der im Versand enthaltenen Nachrichten, mit Ausnahme des letzten Schubs, der 10 % der Nachrichten ausmacht.
+
+     ![](assets/waves-same-size.png)
 
      Im **[!UICONTROL Intervall]** den Zeitraum zwischen dem Start zweier aufeinander folgender Schübe festlegen. Wenn Sie beispielsweise **[!UICONTROL 2d]**, wird die erste Welle sofort starten, die zweite Welle wird in zwei Tagen starten, die dritte Welle in vier Tagen usw.
 
@@ -44,7 +48,9 @@ Um eine gleichmäßige Auslastung der Kapazitäten zu gewährleisten, können Si
 
      Im unten stehenden Beispiel beinhaltet der erste Schub 25 % der Gesamtzahl der im Versand enthaltenen Nachrichten und beginnt unmittelbar. Die nächsten beiden Schübe vervollständigen den Versand und starten in Intervallen von je sechs Stunden.
 
-     eine spezifische Typologieregel, **[!UICONTROL Prüfung der Wave Scheduling]**, stellt sicher, dass der letzte Schub vor der Gültigkeit des Versands geplant ist. Kampagnentypologien und ihre Regeln werden im Abschnitt **[!UICONTROL Typologie]** in den Versandeinstellungen. Weitere Informationen zu Kontrollregeln finden Sie in [Dokumentation zu Campaign v8 (Clientkonsole)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html)
+     ![](assets/waves-calendar.png)
+
+     eine spezifische Typologieregel, **[!UICONTROL Prüfung der Wave Scheduling]**, stellt sicher, dass der letzte Schub vor der Gültigkeit des Versands geplant ist. Kampagnentypologien und ihre Regeln werden im Abschnitt **[!UICONTROL Typologie]** in den Versandeinstellungen. Weitere Informationen zu Kontrollregeln finden Sie in [Dokumentation zu Campaign v8 (Clientkonsole)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html).
 
      >[!IMPORTANT]
      >
@@ -66,6 +72,8 @@ Im Folgenden finden Sie die häufigsten Anwendungsbeispiele für Schübe.
 
   Verwenden Sie dazu die Option **[!UICONTROL Schübe in einem Kalender definieren]**. Wählen Sie beispielsweise für den ersten Schub 10 %, für den zweiten 15 % usw.
 
+  ![](assets/waves-ramp-up.png)
+
 * **Kampagnen, die ein Callcenter beinhalten**
 
   Bei telefonischen Treuekampagnen verfügen Unternehmen oft über begrenzte Kapazitäten für die Verarbeitung der Anrufe an Abonnenten.
@@ -73,3 +81,5 @@ Im Folgenden finden Sie die häufigsten Anwendungsbeispiele für Schübe.
   Mithilfe von Schüben kann die Anzahl der Nachrichten auf 20 pro Tag beschränkt werden, was der täglichen Verarbeitungskapazität eines Callcenters entspricht.
 
   Wählen Sie dazu die **[!UICONTROL Mehrere Schübe derselben Größe planen]** -Option. Eingabe **[!UICONTROL 20]** als Größe der Welle und **[!UICONTROL 1 T]** im **[!UICONTROL Zeitraum]** -Feld.
+
+  ![](assets/waves-call-center.png)
