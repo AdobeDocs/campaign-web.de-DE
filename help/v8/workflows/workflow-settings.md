@@ -4,10 +4,10 @@ title: Konfigurieren von Workflow-Einstellungen
 description: Erfahren Sie, wie Sie Workflow-Einstellungen mit Adobe Campaign Web festlegen
 badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: 3aef912b-086b-4aa4-9556-c09396112313
-source-git-commit: 973ae7191e75f549cebe0eea954e9cfc29fb43c4
+source-git-commit: 34931a776ef9c7b06afb0276576da685bc54726b
 workflow-type: tm+mt
 source-wordcount: '917'
-ht-degree: 80%
+ht-degree: 81%
 
 ---
 
@@ -20,7 +20,7 @@ Diese Einstellungen sind in der bei der Workflow-Erstellung ausgewählten Vorlag
 
 Klicken Sie dazu auf die Schaltfläche **[!UICONTROL Einstellungen]** in der Aktionsleiste über der Workflow-Arbeitsfläche.
 
-![](assets/workflow-settings.png)
+![](assets/workflow-settings-button.png){width="70%" align="left"}
 
 ## Workflow-Eigenschaften  {#properties}
 
@@ -29,10 +29,15 @@ Klicken Sie dazu auf die Schaltfläche **[!UICONTROL Einstellungen]** in der Akt
 >title="Workflow-Eigenschaften "
 >abstract="Dieser Abschnitt enthält allgemeine Workflow-Eigenschaften, auf die auch beim Erstellen des Workflows zugegriffen werden kann. Sie können die Vorlage auswählen, die zum Erstellen des Workflows verwendet werden soll, und einen Titel angeben. Erweitern Sie den Abschnitt „zusätzliche Optionen“, um bestimmte Einstellungen zu konfigurieren, z. B. den Ordner, in dem der Workflow gespeichert wird, oder die Zeitzone."
 
-Die **[!UICONTROL Eigenschaften]** enthält allgemeine Einstellungen, auf die auch bei der Erstellung des Workflows zugegriffen werden kann. Diese Eigenschaften sind:
+Der Abschnitt **[!UICONTROL Eigenschaften]** enthält allgemeine Einstellungen, auf die auch bei der Erstellung des Workflows zugegriffen werden kann.
+
+![](assets/workflow-settings.png){width="70%" align="left"}
+
+
+Diese Eigenschaften sind:
 
 * Die **[!UICONTROL Titel]** des Workflows, der in der Liste angezeigt wird.
-* Die interne **[!UICONTROL Name]** des Workflows.
+* Die **[!UICONTROL Interner Name]** des Workflows.
 * Die **[!UICONTROL Ordner]** wo der Workflow gespeichert werden soll.
 * Die Standardeinstellung **[!UICONTROL Zeitzone]** in allen Aktivitäten des Workflows verwendet werden. Standardmäßig ist die Zeitzone des Workflows die für die aktuelle Campaign-Benutzerin bzw. den aktuellen Campaign-Benutzer definierte Zeitzone.
 Mögliche Werte:
