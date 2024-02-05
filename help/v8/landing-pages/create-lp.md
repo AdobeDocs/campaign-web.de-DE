@@ -2,9 +2,9 @@
 title: Erstellen einer Landingpage
 description: Erfahren Sie, wie Sie eine Landingpage im Campaign Web konfigurieren und veröffentlichen
 badge: label="Eingeschränkte Verfügbarkeit"
-source-git-commit: 2a02015d9d7a7de67f0bcffd328d37080c0f50c4
+source-git-commit: 7d28b76b824d8bac1364e29e83bc07af51c9ac56
 workflow-type: tm+mt
-source-wordcount: '1005'
+source-wordcount: '1003'
 ht-degree: 8%
 
 ---
@@ -14,9 +14,9 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_menu"
 >title="Landingpages erstellen und verwalten"
->abstract="Mit Adobe Campaign können Sie Landingpages erstellen und entwerfen, um Ihre Benutzer zu Online-Formularen zu leiten, über die sie sich für den Erhalt Ihrer Nachrichten anmelden oder abmelden oder einen bestimmten Dienst wie z. B. einen Newsletter abonnieren können."
+>abstract="Mit Adobe Campaign können Sie Landingpages erstellen, entwerfen und freigeben, um Ihre Benutzer auf Online-Webseiten weiterzuleiten, auf denen Sie anhand integrierter Vorlagen Nutzungsszenarios für die Verwaltung, Akquise, An-/Abmeldung und Blockierungsliste verwalten können."
 
-Um Ihre Kunden zu einer definierten Webseite zu leiten, die angezeigt werden soll, wenn sie auf einen bestimmten Link klicken, erstellen Sie eine Landingpage in [!DNL Adobe Campaign], entwerfen, testen und veröffentlichen Sie den Inhalt.
+Mit Adobe Campaign können Sie Landingpages erstellen, entwerfen und freigeben, um Ihre Benutzer auf Online-Webseiten weiterzuleiten, auf denen Sie anhand integrierter Vorlagen Nutzungsszenarios für die Verwaltung, Akquise, An-/Abmeldung und Blockierungsliste verwalten können.
 
 ## Auf Landingpages zugreifen {#access-landing-pages}
 
