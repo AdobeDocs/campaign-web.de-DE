@@ -1,13 +1,13 @@
 ---
 audience: end-user
-title: Neue Funktionen in Campaign Web v8
-description: Entdecken Sie neue Funktionen von Campaign Web v8.
+title: Neue Funktionen in der Campaign-Webbenutzeroberfläche
+description: Neue Funktionen der Campaign-Webbenutzeroberfläche
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Eingeschränkte Verfügbarkeit"
-source-git-commit: 4b197f29898fcdad294cd03696a907ca665909b7
+source-git-commit: 69c0ea49a4caff85cd56dbc114fbfaf888ceaf1e
 workflow-type: tm+mt
-source-wordcount: '1298'
-ht-degree: 82%
+source-wordcount: '1313'
+ht-degree: 79%
 
 ---
 
@@ -19,7 +19,12 @@ ht-degree: 82%
 >title="Versionshinweise"
 >abstract="Unsere neueste Version ist voller intuitiver Funktionen, die die Erstellung personalisierter kanalübergreifender Kampagnen vereinfachen, außergewöhnliche Ergebnisse liefern und Ihnen einen Wettbewerbsvorteil über alle Kanäle hinweg verschaffen."
 
-Wir freuen uns, die neue Version der Adobe Campaign Web-Benutzeroberfläche vorzustellen. Unsere neueste Version ist voller intuitiver Funktionen, die die Erstellung personalisierter kanalübergreifender Kampagnen vereinfachen, außergewöhnliche Ergebnisse liefern und Ihnen einen Wettbewerbsvorteil über alle Kanäle hinweg verschaffen. Die Campaign-Webbenutzeroberfläche bietet eine verbundene Arbeitsfläche mit Adobe Experience Platform für ein einheitliches Erlebnis. Diese Version steht allen Benutzern zur Verfügung, die Campaign v8.6 verwenden.
+Wir freuen uns, die neue Version von **Adobe Campaign Web-Benutzeroberfläche**. Unsere neueste Version ist voller intuitiver Funktionen, die die Erstellung personalisierter kanalübergreifender Kampagnen vereinfachen, außergewöhnliche Ergebnisse liefern und Ihnen einen Wettbewerbsvorteil über alle Kanäle hinweg verschaffen. Die Campaign-Webbenutzeroberfläche (UI) bietet eine verbundene Arbeitsfläche mit Adobe Experience Platform für ein einheitliches Erlebnis.
+
+
+>[!AVAILABILITY]
+>
+>Diese Version steht allen Benutzern zur Verfügung, die Campaign v8.6 verwenden. Weitere Informationen zu Adobe Campaign-Versionen finden Sie unter [Dokumentation zu Campaign v8 (Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html){target="_blank"}.
 
 
 ## Wichtigste Funktionen {#key-features}
@@ -28,7 +33,7 @@ Diese neue Campaign-Webbenutzeroberfläche bietet die folgenden Funktionen:
 
 **Modernes, intuitives und einheitliches Erlebnis**
 
-Die neue Webbenutzeroberfläche von Campaign bietet ein neues Benutzererlebnis, das mit allen Adobe Experience Cloud-Lösungen und -Apps abgestimmt ist. Sie bietet:
+Die neue Webbenutzeroberfläche von Campaign bietet ein neues Benutzererlebnis in Verbindung mit allen Adobe Experience Cloud-Lösungen und -Apps. Sie bietet:
 
 * Greifen Sie auf die neue Benutzeroberfläche und Ihre anderen Adobe-Lösungen mit einer einzigen, gemeinsamen Benutzersitzung zu
 * Neues Navigationserlebnis mit Zugriff auf alle Menüs und Ordner in der linken Leiste

@@ -1,0 +1,167 @@
+---
+audience: end-user
+title: Funktionsmatrix für die Webbenutzeroberfläche/Clientkonsole von Campaign
+description: Liste der in der Campaign-Webbenutzeroberfläche unterstützten Funktionen
+hide: true
+hidefromtoc: true
+exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
+source-git-commit: 69c0ea49a4caff85cd56dbc114fbfaf888ceaf1e
+workflow-type: tm+mt
+source-wordcount: '1282'
+ht-degree: 15%
+
+---
+
+# Funktionsmatrix für die Webbenutzeroberfläche/Clientkonsole von Campaign {#capabilities-matrix}
+
+Auf die folgenden Funktionen kann nur über die Campaign Client Console zugegriffen werden. Einige sind in einer späteren Version der Campaign-Webbenutzeroberfläche verfügbar.
+
+<!--
+**Homepage**
+
+* Home page dashboard
+* Home page customization-->
+
+## Kampagnen-Management {#campaign-mgt-capabilities}
+
+Über die Webbenutzeroberfläche von Campaign können Sie kanalübergreifende Kampagnen detailliert erstellen [in diesem Abschnitt](../campaigns/gs-campaigns.md). In der aktuellen Version sind die folgenden Funktionen nur in der Campaign-Clientkonsole verfügbar. Auf sie kann nicht über die Campaign-Web-Benutzeroberfläche zugegriffen werden. Einige sind jedoch über die [Explorer-Menü](user-interface.md#user-interface-explorer).
+
+Verwenden Sie die bereitgestellten Links, um die Dokumentation zu Campaign v8 (Clientkonsole) zu durchsuchen und zu erfahren, wie Sie diese Funktionen verwenden.
+
+* Marketingkalender. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html#campaign-calendar){target="_blank"}
+* Programme und Pläne. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html#work-with-plan-and-program){target="_blank"}
+* Dienstleister, Budget- und Kostenmanagement. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/providers--stocks-and-budgets.html){target="_blank"}
+* Dezentrales Marketing (zentrales/lokales Marketing). [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/automation/distributed-marketing/about-distributed-marketing.html?lang=de){target="_blank"}
+* Marketing Resource Management (MRM), Ziele, Simulationen und Kostenkontrolle. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/automation/mrm/about-marketing-resource-management.html){target="_blank"}
+* Aufgabenverwaltung. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/automation/mrm/creating-and-managing-tasks.html){target="_blank"}
+
+## Kommunikationskanäle{ #channels-capabilities}
+
+Über die Webbenutzeroberfläche von Campaign können Sie E-Mails, SMS und Push-Benachrichtigungen erstellen, entwerfen und versenden sowie ihre Wirkung mithilfe diverser Berichte messen, wie detailliert beschrieben [in diesem Abschnitt](../msg/gs-messages.md). Die folgenden Kanäle sind in dieser Version jedoch nicht verfügbar.
+
+Verwenden Sie die bereitgestellten Links, um die Dokumentation zu Campaign v8 (Clientkonsole) zu durchsuchen und mehr über diese Kanäle zu erfahren.
+
+* Briefpost. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-direct-mail/about-direct-mail-channel.html?lang=de#sending-messages){target="_blank"}
+* LINE-Messaging. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/line.html){target="_blank"}
+* Callcenter- und benutzerdefinierte Kanäle. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/communication-channels.html#other-channels){target="_blank"}
+* Social Marketing mit X (Twitter). [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html?lang=de){target="_blank"}
+
+## Landingpages und Webanwendungen {#Webapps-capabilities}
+
+Mit Adobe Campaign können Sie Landingpages erstellen, entwerfen und freigeben.  Erfahren Sie mehr über die Landingpage in der Campaign-Webbenutzeroberfläche [in diesem Abschnitt](../landing-pages/get-started-lp.md).
+
+Landingpages wurden in der Campaign-Web-Benutzeroberfläche vollständig neu gestaltet. Daher können Sie in der Campaign-Clientkonsole keine Landingpage bearbeiten, aktualisieren oder ändern, die in der Web-Oberfläche erstellt wurde - und umgekehrt.
+
+Darüber hinaus sind die folgenden Typen von Webanwendungen nicht in der Web-Benutzeroberfläche von Campaign verfügbar. Sie sind jedoch in der Liste der Landingpages sichtbar. Verwenden Sie die bereitgestellten Links, um die Campaign Classic v7-Dokumentation zu durchsuchen und mehr über diese Web-Apps zu erfahren.
+
+* Webanwendungen. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-applications/about-web-applications.html){target="_blank"}
+* Webformulare. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html?lang=de){target="_blank"}
+* Online-Umfragen. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign-classic/using/online-surveys/about-surveys.html){target="_blank"}
+
+
+## Profile, Testprofile und Audiences {#profiles-audiences-capabilities}
+
+Sie können Profile und Testprofile sowohl in der Campaign-Clientkonsole als auch in der Campaign-Webbenutzeroberfläche erstellen, verwalten und aktualisieren. Alle in einer Benutzeroberfläche vorgenommenen Änderungen sind in der anderen sichtbar. Beachten Sie, dass der Begriff &quot;Empfänger&quot;in der neuen Web-Benutzeroberfläche in &quot;Profil&quot;geändert wurde. Einige spezifische Empfängereinstellungen und erweiterte Parameter können jedoch in der neuen Campaign-Webbenutzeroberfläche fehlen.
+
+Die Komposition von Zielgruppen ist eine neue Funktion, die mit der Web-Benutzeroberfläche von Campaign bereitgestellt wird. Daher können Sie in der Campaign-Clientkonsole eine [mit dem Abfragemodell erstellte Zielgruppe](../query/query-modeler-overview.md). Alle in der Campaign-Clientkonsole oder in Adobe Experience Platform erstellten Zielgruppen sind in der Campaign-Webbenutzeroberfläche verfügbar.
+
+einmalige Import-/Exportvorgänge, wie beschrieben in [Dokumentation zu Campaign v8 (Clientkonsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/import-profiles.html#import-jobs){target="_blank"} sind nicht in der Campaign-Web-Benutzeroberfläche verfügbar. <!--To import profiles into Campaign Web user interface, you must create a workflow as detailed in [this section]().-->
+
+## Transaktionsnachrichtenversand {#mc-capabilities}
+
+In dieser Version der neuen Campaign-Webbenutzeroberfläche sind die Funktionen für Transaktionsnachrichten, die mit dem Message-Center-Produktpaket geliefert werden, nicht verfügbar. Durchsuchen Sie die [Dokumentation zu Campaign v8 (Clientkonsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/real-time/transactional.html){target="_blank"} und erfahren Sie mehr über Funktionen für Echtzeit-Messaging, z. B.:
+
+* Echtzeit-Erstellung und -Ausführung von Nachrichten in E-Mails, SMS und Push-Benachrichtigungen
+* Anreicherung und Personalisierung von Nachrichten
+* Trigger (Adobe Analytics-Warenkorbabbruch)
+* Berichterstattung und Überwachung von Transaktionsnachrichten
+
+## Inhaltserstellung {#content-capabilities}
+
+Mit dem neuen Email Designer, der mit der Web-Benutzeroberfläche von Adobe Campaign geliefert wird, können Sie durch eine intuitive Drag &amp; Drop-Benutzeroberfläche einfach faszinierende, individuell zugeschnittene E-Mails erstellen. Unabhängig davon, ob Sie mit einer leeren Vorlage beginnen, einen vorhandenen Inhalt importieren oder vorhandene Vorlagen nutzen, können Sie alle Inhalte für jede E-Mail entwerfen und verfeinern. [Weitere Informationen](../email/edit-content.md)
+
+Mit dieser neuen Benutzeroberfläche können Sie auch Assets aus Adobe Experience Manager 6.5 in E-Mail-Inhalten verwenden, die E-Mail-Vorlagensynchronisierung über Adobe Experience Manager verwalten und in Adobe Experience Manager as a Cloud Service integrieren.
+
+Beachten Sie, dass die folgenden Funktionen in dieser Version des Produkts nicht verfügbar sind. Verwenden Sie die bereitgestellten Links, um die Dokumentation zu Campaign v8 (Clientkonsole) zu durchsuchen und mehr über diese Funktionen (Funktionen mit einer `*` werden auch nicht in der Campaign-Client-Konsole unterstützt).
+
+* AMP für E-Mails.  [Weitere Informationen finden Sie in der Dokumentation zu Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/defining-interactive-content.html){target="_blank"}
+* Inhalt aus öffentlichen Ressourcen
+* Erstellung benutzerdefinierter Gestaltungsbausteine. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html#create-custom-personalization-blocks){target="_blank"}
+* Inhalte aus benutzerdefinierten Formularen (Content Management-Modul). [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/content-management/about-content-management.html){target="_blank"}
+* Inhalt aus einer URL`*`
+* Speichern eines HTML-Inhalts als Vorlage`*`
+* E-Mail-Fragmente`*`
+* Multivarianz-/Mehrsprachiger Anwendungsfall`*`
+
+## Typologieregeln {#rules-capabilities}
+
+Typologieregeln können für einen Versand oder eine Versandvorlage in der Campaign-Webbenutzeroberfläche ausgewählt werden. Die Erstellung, Verwaltung und Anpassung von Regeln und Typologieregeln ist jedoch nur in der Campaign-Clientkonsole verfügbar.
+
+Verwenden Sie die bereitgestellten Links, um die Dokumentation zu Campaign v8 (Clientkonsole) zu durchsuchen und mehr über Typologieregeln zu erfahren.
+
+* Erstellung von Kontrollregeln. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html){target="_blank"}
+* Ermüdung/Erstellung von Druckregeln. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=de){target="_blank"}
+* Erstellung von Filterregeln. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/filtering-rules.html){target="_blank"}
+* Verwaltung von Typologieregeln. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/apply-rules.html){target="_blank"}
+* Kampagnensimulation. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-simulations.html){target="_blank"}
+* JavaScript-Kodierung für die Erstellung von Typologieregeln. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html#use-cases-on-pressure-rules){target="_blank"}
+
+## Workflows {#wf-capabilities}
+
+Die neue Campaign-Webbenutzeroberfläche bietet eine neu gestaltete Arbeitsablaufoberfläche zum Entwerfen und Verwalten Ihrer Prozesse. Die wichtigsten Workflow-Aktivitäten sind bereits in ihrem neuen Design verfügbar. Einige werden in einer zukünftigen Version verfügbar sein. Erfahren Sie mehr über Workflow-Funktionen, einschließlich Limits und Einschränkungen [in diesem Abschnitt](../workflows/gs-workflows.md)
+
+Beachten Sie, dass die folgenden Funktionen nur in der Campaign-Client-Konsole verfügbar sind:
+
+* Skripterstellung in Workflows
+* ETL-Aktivitäten: exportieren, Schema bearbeiten, laden, Datenextraktion, SQL-Code
+
+## Angebotsverwaltung {#offer-capabilities}
+
+Adobe Campaign Web ermöglicht Ihnen den Versand von Angeboten, die in der Konsole mithilfe der **[!UICONTROL Interaction]** -Modul. Angebotsdesign, Eignungsregeln und Angebotsverwaltung sind nur in der Campaign-Clientkonsole verfügbar. [Weitere Informationen](../msg/offers.md)
+
+Erfahren Sie, wie Sie einen Angebotskatalog im  [Dokumentation zu Campaign v8 (Clientkonsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=de){target="_blank"}.
+
+## Integrationen mit Adobe Experience Cloud-Lösungen {#exc-capabilities}
+
+Die neue moderne Campaign-Benutzeroberfläche vereinfacht das Design und die Bereitstellung von Marketingkampagnen und sorgt für Konsistenz mit anderen Adobe-Lösungen wie Adobe Experience Platform und Adobe Experience Manager.
+
+Die folgenden Integrationen sind in der Adobe Campaign-Clientkonsole verfügbar und in dieser Version der Campaign-Webbenutzeroberfläche noch nicht verfügbar.
+
+Verwenden Sie die bereitgestellten Links, um die Dokumentation zu Campaign v8 (Clientkonsole) zu durchsuchen und mehr über Typologieregeln zu erfahren.
+
+* Nutzung von Adobe Analytics-Daten und KPI-Freigabe. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aa.html){target="_blank"}
+* Zielgruppenfreigabe mit Adobe Experience Cloud (Adobe Audience Manager). [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/audience-sharing/sharing-audiences-with-adobe-experience-cloud.html){target="_blank"}
+* Integration mit Adobe Target. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-at.html){target="_blank"}
+* Integration mit Adobe Experience Cloud Triggers. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-triggers.html){target="_blank"}
+
+## Berichte {#reporting-capabilities}
+
+Die neue Campaign-Webbenutzeroberfläche enthält eine Reihe neuer Berichte und KPIs für alle Kanäle: Versandberichte, Kampagnenberichte und globale Berichte. Weiterführende Informationen finden Sie [in diesem Abschnitt](../reporting/gs-reports.md)
+
+Einige Funktionen sind nur in der Client-Konsole verfügbar. Durchsuchen Sie die bereitgestellten Links, um die [Dokumentation zu Campaign v8 (Clientkonsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=de){target="_blank"} und mehr dazu.
+
+* Erstellt im Zustellbarkeitsbericht und Inbox Rendering. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/deliverability-management/inbox-rendering.html){target="_blank"}
+* Berichtsanpassungen. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/creating-a-new-report.html?lang=de){target="_blank"}
+* Deskriptive Analyse. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/analyzing-populations/about-descriptive-analysis.html?lang=de){target="_blank"}
+* Kampagnenanalyse/Cube-Berichte. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/campaign-v8/analytics/reports/cubes/gs-cubes.html?lang=de){target="_blank"}
+* Berichtfreigabe planmäßig als PDF und CSV oder Link. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/configuring-access-to-the-report.html?lang=de){target="_blank"}
+* Einen Bericht als CSV- oder PDF-Datei exportieren/herunterladen. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/actions-on-reports.html?lang=de){target="_blank"}
+
+## Datenmodellierung und Datenerfassung {#data-capabilities}
+
+Die Campaign-Webbenutzeroberfläche bietet nicht die folgenden Funktionen. Sie sind nur in der Clientkonsole verfügbar.
+
+* Externe Konten
+* Schemaerweiterung
+* Workflow-Aktivitäten für das Daten-Management: Laden, Extraktion (Datei), Daten-Update, Schemabearbeitung, technische Workflows zum Import/Export
+* Kampagnenkonfiguration und -verbindung mit externen Systemen
+
+## Validierungen {#approvals-capabilities}
+
+Die Campaign-Webbenutzeroberfläche bietet nicht die folgenden Funktionen. Sie sind nur in der Clientkonsole verfügbar.
+
+* Inhaltsgenehmigung
+* Versandgenehmigung
+* Kampagnengenehmigung
+* Genehmigung der Zielgruppe
+
