@@ -1,8 +1,9 @@
 ---
 title: Landingpage-spezifischen Inhalt definieren
 description: Erfahren Sie, wie Sie Landingpage-spezifischen Inhalt im Campaign-Web erstellen.
+feature: Landing Pages
 badge: label="Eingeschränkte Verfügbarkeit"
-source-git-commit: 2a02015d9d7a7de67f0bcffd328d37080c0f50c4
+source-git-commit: 5c3f02d4c95951693ac73de4a6e8810e1b662e53
 workflow-type: tm+mt
 source-wordcount: '743'
 ht-degree: 7%
