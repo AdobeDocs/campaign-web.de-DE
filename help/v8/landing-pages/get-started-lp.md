@@ -3,10 +3,10 @@ audience: end-user
 title: Erste Schritte mit Landingpages
 description: Informationen zu Landingpages im Campaign-Web
 badge: label="Eingeschränkte Verfügbarkeit"
-source-git-commit: 8d4a6e0139ee0199796ddd8c971c35a71b631e55
+source-git-commit: 2a7c7589e7b9d64c7a0f42dc5dc5d5dc01b39a3c
 workflow-type: tm+mt
-source-wordcount: '189'
-ht-degree: 7%
+source-wordcount: '223'
+ht-degree: 6%
 
 ---
 
@@ -18,10 +18,11 @@ ht-degree: 7%
 >abstract="Entdecken Sie das neue Landingpage-Erlebnis. Erstellen, entwerfen und teilen Sie Landingpages sofort, um Ihre Benutzer auf Online-Webseiten weiterzuleiten, auf denen Sie anhand integrierter Vorlagen Akquise-, Anmelde-/Abmelde- und Blockierungsliste-Anwendungsfälle verwalten können."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=de" text="Siehe Versionshinweise"
 
+Mit Adobe Campaign können Sie Landingpages erstellen, entwerfen und freigeben. Im Rahmen von Marketingkampagnen ist eine Landingpage eine eigenständige Webseite, auf die ein Besucher geleitet wird, nachdem er auf einen Link in einem E-Mail-, SMS-, Push-Versand- oder einer Website geklickt hat.
 
-Eine Landingpage ist eine eigenständige Web-Seite, auf die ein Benutzer geleitet wird, nachdem er sich von einer E-Mail, einer Website, einer Anzeige oder einem anderen digitalen Ort aus durchgeklickt hat.
+[!DNL Adobe Campaign] ermöglicht es Ihnen, Landingpages zu erstellen und zu entwerfen, um Ihre Benutzer zu Online-Formularen zu leiten, über die sie sich vom Empfang Ihrer Nachrichten abmelden oder einen bestimmten Dienst wie beispielsweise einen Newsletter abonnieren können. Adobe Campaign verfügt über vier Vorlagen zur Verwaltung von Nutzungsszenarios für Akquise, Abonnements, Abmeldungen und Blockierungsliste.
 
-[!DNL Adobe Campaign] ermöglicht es Ihnen, Landingpages zu erstellen und zu entwerfen, um Ihre Benutzer zu Online-Formularen zu leiten, über die sie sich für den Erhalt Ihrer Nachrichten anmelden oder abmelden oder einen bestimmten Dienst wie einen Newsletter abonnieren können.
+Die wichtigsten Funktionen sind unten aufgeführt:
 
 * Nutzung [!DNL Adobe Campaign] Funktionen zur Inhaltserstellung **responsive Landingpages**.
 * Einrichten **Opt-in- und Opt-out-Workflows** schnell und nahtlos.

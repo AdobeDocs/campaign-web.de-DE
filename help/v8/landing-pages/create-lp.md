@@ -2,9 +2,9 @@
 title: Erstellen einer Landingpage
 description: Erfahren Sie, wie Sie eine Landingpage im Campaign Web konfigurieren und veröffentlichen
 badge: label="Eingeschränkte Verfügbarkeit"
-source-git-commit: 7635ab284900c8a4cd5ceca5675e57dbedb39f3a
+source-git-commit: 2a7c7589e7b9d64c7a0f42dc5dc5d5dc01b39a3c
 workflow-type: tm+mt
-source-wordcount: '1006'
+source-wordcount: '1031'
 ht-degree: 8%
 
 ---
@@ -14,9 +14,9 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_menu"
 >title="Landingpages erstellen und verwalten"
->abstract="Mit Adobe Campaign können Sie Landingpages erstellen, entwerfen und freigeben, um Ihre Benutzer auf Online-Webseiten weiterzuleiten, auf denen Sie anhand integrierter Vorlagen Akquise-, Anmelde-/Abmelde- und Blockierungsliste-Anwendungsfälle verwalten können."
+>abstract="Mit Adobe Campaign können Sie Landingpages erstellen, entwerfen und freigeben, um Ihre Benutzer auf Online-Webseiten weiterzuleiten, auf denen Sie anhand integrierter Vorlagen Nutzungsszenarios für Akquise, Abonnements/Abmeldungen und Blockierungslisten verwalten können."
 
-Mit Adobe Campaign können Sie Landingpages erstellen, entwerfen und freigeben, um Ihre Benutzer auf Online-Webseiten weiterzuleiten, auf denen Sie anhand integrierter Vorlagen Akquise-, Anmelde-/Abmelde- und Blockierungsliste-Anwendungsfälle verwalten können.
+Mit Adobe Campaign können Sie Landingpages erstellen, entwerfen und freigeben. Im Rahmen von Marketing-Kampagnen ist eine Landingpage eine eigenständige Webseite, auf die Besucher weitergeleitet werden, nachdem sie auf einen Link in einer E-Mail, SMS, einem Push-Versand oder einer Website geklickt haben. Adobe Campaign verfügt über vier Vorlagen zur Verwaltung **Akquise**, **subscriptions**, **Abmeldungen**, und **Blockierungsliste** Anwendungsbeispiele.
 
 ## Auf Landingpages zugreifen {#access-landing-pages}
 
