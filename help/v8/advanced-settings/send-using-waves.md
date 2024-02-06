@@ -2,10 +2,11 @@
 audience: end-user
 title: In Schüben versenden
 description: Erfahren Sie mehr über die Versandeinstellungen in Campaign Web
+feature: Email
 badge: label="Eingeschränkte Verfügbarkeit"
-source-git-commit: 6676aa00e3ed7ea54f1ecd9b3e87d317e5208712
+source-git-commit: da41eaf9987a3a2cc35ab132709ec127218422b1
 workflow-type: tm+mt
-source-wordcount: '784'
+source-wordcount: '767'
 ht-degree: 26%
 
 ---
@@ -23,7 +24,7 @@ ht-degree: 26%
 >title="Definieren der Größe jedes Schubs"
 >abstract="Sie müssen für alle hinzugefügten Schübe eine Größe eingeben. Geben Sie entweder einen numerischen Wert (Anzahl der Nachrichten pro Schub) oder einen Prozentsatz (0-100 %) ein."
 
-Um die Auslastung auszugleichen, können Sie Sendungen in mehrere Teilsendungen unterteilen. Konfigurieren Sie die Anzahl der Batches und ihren Anteil in Bezug auf den gesamten Versand sowie das Intervall zwischen zwei Schüben.
+Um die Auslastung auszugleichen, können Sie E-Mail-Sendungen in mehrere Teilsendungen unterteilen. Konfigurieren Sie die Anzahl der Batches und ihren Anteil in Bezug auf den gesamten Versand sowie das Intervall zwischen zwei Schüben.
 
 >[!NOTE]
 >
@@ -46,15 +47,11 @@ Gehen Sie wie folgt vor, um Sendungen in Schüben durchzuführen.
 
    >[!CAUTION]
    >
-   >Achten Sie darauf, dass die letzten Schübe nicht die in der Variablen **[!UICONTROL Gültigkeit]** Registerkarte. Andernfalls werden manche Nachrichten möglicherweise nicht gesendet. [Weitere Informationen](delivery-settings.md#validity)
+   >Achten Sie darauf, dass die letzten Schübe nicht die in der Variablen [Gültigkeit](delivery-settings.md#validity) zuordnen, da andernfalls manche Nachrichten nicht gesendet werden. eine spezifische Typologieregel, **[!UICONTROL Prüfung der Wave Scheduling]**, stellt sicher, dass der letzte Schub vor der Gültigkeit des Versands geplant ist. Weitere Informationen zu Kontrollregeln finden Sie in [Dokumentation zu Campaign v8 (Clientkonsole)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html).
    >
    >Planen Sie bei der Konfiguration der letzten Schübe auch genügend Zeit für zusätzliche Versuche ein. [Weitere Informationen](delivery-settings.md#retries)
 
-1. Um Ihre Sendungen zu überwachen, rufen Sie die [Versandlogs](../monitor/delivery-logs.md).
-
-   Die Versandlogs enthalten die bereits in den verarbeiteten Schüben durchgeführten Sendungen (Status **[!UICONTROL Gesendet]**) sowie die in den restlichen Schüben durchzuführenden Sendungen (Status **[!UICONTROL Ausstehend]**).
-
-eine spezifische Typologieregel, **[!UICONTROL Prüfung der Wave Scheduling]**, stellt sicher, dass der letzte Schub vor der Gültigkeit des Versands geplant ist. Kampagnentypologien und ihre Regeln werden im Abschnitt **[!UICONTROL Typologie]** in den Versandeinstellungen. Weitere Informationen zu Kontrollregeln finden Sie in [Dokumentation zu Campaign v8 (Clientkonsole)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html).
+1. Um Ihre Sendungen zu überwachen, rufen Sie die [Versandlogs](../monitor/delivery-logs.md). Die Versandlogs enthalten die bereits in den verarbeiteten Schüben durchgeführten Sendungen (Status **[!UICONTROL Gesendet]**) sowie die in den restlichen Schüben durchzuführenden Sendungen (Status **[!UICONTROL Ausstehend]**).
 
 ## Mehrere Schübe gleicher Größe planen {#waves-same-size}
 
@@ -64,7 +61,7 @@ Wenn Sie diese Option wählen, haben alle Schübe dieselbe Größe (mit Ausnahme
 
 * Geben Sie die Größe für alle Schübe an, in die Sie den Versand unterteilen. Sie können einen Prozentsatz oder einen numerischen Wert eingeben. Nur der letzte Schub kann variieren, da er die verbleibende Nachrichtenanzahl enthalten muss.
 
-  Wenn Sie beispielsweise **[!UICONTROL 30 %]** im entsprechenden Feld entsprechen die ersten drei Schübe 30 % aller im Versand enthaltenen Nachrichten und die vierte Schübe 10 %.
+  Wenn Sie beispielsweise **[!UICONTROL 30 %]** im **[!UICONTROL Waagen-Größe]** eingeben, entsprechen die ersten drei Schübe 30 % aller im Versand enthaltenen Nachrichten, während die vierte die restlichen 10 % ausmacht.
 
 * Im **[!UICONTROL Intervall]** den Zeitraum zwischen dem Start zweier aufeinander folgender Schübe festlegen. Wenn Sie beispielsweise **[!UICONTROL 2 Tage]**, beginnt der erste Schub sofort, der zweite Schub beginnt in zwei Tagen, der dritte in vier Tagen usw.
 
@@ -80,7 +77,7 @@ Wählen Sie dazu die **[!UICONTROL Mehrere Schübe derselben Größe planen]** -
 
 Wenn Sie diese Option auswählen, müssen Sie den Starttag/-zeitpunkt für jeden gesendeten Schub sowie die Größe jedes Schubs definieren.
 
-* Im **[!UICONTROL Starten]** gibt die Verzögerung zwischen dem Start zweier aufeinander folgender Schübe an.
+* Im **[!UICONTROL Starten]** die Verzögerung zwischen dem Start zweier aufeinander folgender Schübe angeben.
 
 * Im **[!UICONTROL Größe]** eine feste Zahl oder einen Prozentsatz eingeben.
 

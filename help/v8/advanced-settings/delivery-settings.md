@@ -2,12 +2,13 @@
 audience: end-user
 title: Versandeinstellungen
 description: Erfahren Sie mehr über die Versandeinstellungen in Campaign Web
+feature: Email
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="Eingeschränkte Verfügbarkeit"
-source-git-commit: 3bfcf3c5a5e054995993d38a073733fef8ea4be9
+source-git-commit: da41eaf9987a3a2cc35ab132709ec127218422b1
 workflow-type: tm+mt
-source-wordcount: '2326'
-ht-degree: 98%
+source-wordcount: '2425'
+ht-degree: 93%
 
 ---
 
@@ -133,15 +134,23 @@ Im Feld **[!UICONTROL Ausschluss]** können Sie Empfängerinnen und Empfänger a
 
 Das externe Konto **[!UICONTROL Integriertes E-Mail-Routing]** wird standardmäßig bereitgestellt. Es enthält die technischen Parameter, die es der Anwendung erlauben, E-Mails zu senden.
 
-Sie können folgende **[!UICONTROL Versandeinstellungen]** definieren:
+Sie können die **[!UICONTROL Senden]** unten.
 
-* **[!UICONTROL SMTP-Versand testen]**: Diese Option wird verwendet, um den Versand über SMTP zu testen. Der Versand wird bis zur Verbindung mit dem SMTP-Server verarbeitet, jedoch nicht gesendet: Für jeden Empfänger bzw. jede Empfängerin des Versands stellt Campaign eine Verbindung mit dem Server des SMTP-Anbieters her, führt den SMTP-Befehl „RCPT TO“ aus und trennt die Verbindung vor dem SMTP-Befehl „DATA“.
+* **[!UICONTROL Versandpriorität]**: Verwenden Sie diese Option, um die Versandreihenfolge Ihrer Sendungen durch Festlegen der Prioritätsstufe &quot;normal&quot;, &quot;hoch&quot;oder &quot;niedrig&quot;zu ändern.
+
+* **[!UICONTROL Anzahl der Nachrichten]**: Verwenden Sie diese Option, um die Anzahl der Nachrichten zu definieren, die innerhalb desselben XML-Versandpakets gruppiert sind. Wenn der Parameter auf „0“ gesetzt ist, werden die Nachrichten automatisch gruppiert. Die Package-Größe wird durch die `<delivery size>/1024`-Berechnung definiert, mit mindestens 8 und maximal 256 Nachrichten pro Package.
+
+  >[!IMPORTANT]
+  >
+  >Wenn der Versand durch Duplizieren eines existierenden Versands erstellt wird, wird dieser Parameter zurückgesetzt.
+
+* **[!UICONTROL SMTP-Versand testen]**: Diese Option wird verwendet, um den Versand über SMTP zu testen. Der Versand wird bis zur Verbindung mit dem SMTP-Server verarbeitet, aber nicht gesendet: Für jeden Empfänger des Versands stellt Campaign eine Verbindung zum SMTP-Provider-Server her, führt den SMTP-Befehl RCPT TO aus und schließt die Verbindung vor dem SMTP-DATENbefehl.
 
 * **[!UICONTROL E-Mail-BCC]**: Diese Option wird verwendet, um mit der BCC-Funktion E-Mails in einem externen System zu speichern, indem einfach eine E-Mail-Adresse als BCC zu Ihrer Nachrichtzielgruppe hinzugefügt wird. Weitere Informationen finden Sie in der [Dokumentation zu Campaign v8 (Client-Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html?lang=de){target="_blank"}.
 
-* **[!UICONTROL In mehreren Schüben versenden]**: Sie können das gesendete Volumen mithilfe von Schüben schrittweise erhöhen. Dadurch wird verhindert, dass Ihre Nachrichten als Spam gekennzeichnet werden, oder Sie können die Anzahl der pro Tag versendeten Nachrichten beschränken. Mit Schüben können Sie Sendungen in mehrere Teilsendungen unterteilen, anstatt große Mengen von Nachrichten gleichzeitig zu senden. [Weitere Informationen](send-using-waves.md)
+Im **[!UICONTROL Wellendefinition]** auswählen, wählen Sie die **[!UICONTROL In mehreren Schüben versenden]** Option zum progressiven Erhöhen des in Schüben gesendeten Volumens. Dadurch wird verhindert, dass Ihre Nachrichten als Spam gekennzeichnet werden, oder Sie können die Anzahl der pro Tag versendeten Nachrichten beschränken. Mit Schüben können Sie Sendungen in mehrere Teilsendungen unterteilen, anstatt große Mengen von Nachrichten gleichzeitig zu senden. [Weitere Informationen](send-using-waves.md)
 
-Sie können auch das Format der gesendeten E-Mail-Nachrichten ändern:
+Sie können auch die **[!UICONTROL Mail-Formate]** der wie unten beschrieben gesendeten E-Mail-Nachrichten.
 
 * **[!UICONTROL Empfängerangaben berücksichtigen]** (Standardmodus)
 
