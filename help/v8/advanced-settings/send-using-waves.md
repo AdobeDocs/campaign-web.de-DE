@@ -4,10 +4,10 @@ title: In Schüben versenden
 description: Erfahren Sie mehr über die Versandeinstellungen in Campaign Web
 feature: Email
 badge: label="Eingeschränkte Verfügbarkeit"
-source-git-commit: da41eaf9987a3a2cc35ab132709ec127218422b1
+source-git-commit: 3f4f09ddae3a2e46adf99f288642acee561ce1f5
 workflow-type: tm+mt
-source-wordcount: '767'
-ht-degree: 26%
+source-wordcount: '790'
+ht-degree: 25%
 
 ---
 
@@ -81,7 +81,11 @@ Wenn Sie diese Option auswählen, müssen Sie den Starttag/-zeitpunkt für jeden
 
 * Im **[!UICONTROL Größe]** eine feste Zahl oder einen Prozentsatz eingeben.
 
-Fügen Sie so viele Schübe wie nötig hinzu.
+Fügen Sie so viele Schübe hinzu, wie Sie möchten. Sie können sie nach Bedarf neu anordnen.
+
+>[!NOTE]
+>
+>Wenn Sie Prozentsätze verwenden, sollte die Summe für alle Schübe 100 % nicht überschreiten.
 
 Im folgenden Beispiel entspricht der erste Schub 25 % der Gesamtzahl der im Versand enthaltenen Nachrichten und beginnt sofort. Die nächsten beiden Schübe vervollständigen den Versand und starten in Intervallen von jeweils sechs Stunden.
 
