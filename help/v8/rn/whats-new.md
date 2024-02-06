@@ -4,10 +4,10 @@ title: Neue Funktionen in Campaign Web v8
 description: Entdecken Sie neue Funktionen von Campaign Web v8.
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Eingeschränkte Verfügbarkeit"
-source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
+source-git-commit: 4b197f29898fcdad294cd03696a907ca665909b7
 workflow-type: tm+mt
-source-wordcount: '1302'
-ht-degree: 84%
+source-wordcount: '1298'
+ht-degree: 82%
 
 ---
 
@@ -19,16 +19,8 @@ ht-degree: 84%
 >title="Versionshinweise"
 >abstract="Unsere neueste Version ist voller intuitiver Funktionen, die die Erstellung personalisierter kanalübergreifender Kampagnen vereinfachen, außergewöhnliche Ergebnisse liefern und Ihnen einen Wettbewerbsvorteil über alle Kanäle hinweg verschaffen."
 
-<!--TO REMOVE BELOW-->
->[!CONTEXTUALHELP]
->id="acw_homepage_card2"
->title="Versionshinweise"
->abstract="Unsere neueste Version ist voller intuitiver Funktionen, die die Erstellung personalisierter kanalübergreifender Kampagnen vereinfachen, außergewöhnliche Ergebnisse liefern und Ihnen einen Wettbewerbsvorteil über alle Kanäle hinweg verschaffen."
+Wir freuen uns, die neue Version der Adobe Campaign Web-Benutzeroberfläche vorzustellen. Unsere neueste Version ist voller intuitiver Funktionen, die die Erstellung personalisierter kanalübergreifender Kampagnen vereinfachen, außergewöhnliche Ergebnisse liefern und Ihnen einen Wettbewerbsvorteil über alle Kanäle hinweg verschaffen. Die Campaign-Webbenutzeroberfläche bietet eine verbundene Arbeitsfläche mit Adobe Experience Platform für ein einheitliches Erlebnis. Diese Version steht allen Benutzern zur Verfügung, die Campaign v8.6 verwenden.
 
-<!--TO REMOVE ABOVE-->
-
-
-Wir freuen uns, die neue Version der Adobe Campaign Web-Benutzeroberfläche vorzustellen. Unsere neueste Version ist voller intuitiver Funktionen, die die Erstellung personalisierter kanalübergreifender Kampagnen vereinfachen, außergewöhnliche Ergebnisse liefern und Ihnen einen Wettbewerbsvorteil über alle Kanäle hinweg verschaffen.
 
 ## Wichtigste Funktionen {#key-features}
 
