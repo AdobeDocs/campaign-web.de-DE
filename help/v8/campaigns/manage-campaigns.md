@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie mit kanalübergreifenden Kampagnen beginnen
 badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: 690229e7-73e1-4cc1-b69a-f3e5d8de58af
 source-git-commit: 80e9937fcac0f1e66c317d3d31efab0d5f6ae2d8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '711'
 ht-degree: 100%
 

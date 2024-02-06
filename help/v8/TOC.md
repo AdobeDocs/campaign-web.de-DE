@@ -8,8 +8,8 @@ breadcrumb-title: Campaign-Webbenutzeroberfläche
 hide: true
 source-git-commit: 895494c976fbdf727b9c2a7466d83bf1a30eddfc
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '566'
+ht-degree: 88%
 
 ---
 

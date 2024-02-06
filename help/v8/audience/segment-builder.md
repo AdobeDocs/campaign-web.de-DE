@@ -7,7 +7,7 @@ badge: label="Beta"
 source-git-commit: 51f29840941974f05a930023e41adb1bb2558974
 workflow-type: tm+mt
 source-wordcount: '565'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -28,7 +28,7 @@ Die Palette ist in zwei Registerkarten unterteilt:
 
 * **Attribute**: Auf dieser Registerkarte können Sie auf alle verfügbaren Felder des Schemas zugreifen. Die Liste der Felder hängt von dem in der E-Mail-Vorlage definierten Zielgruppenbestimmungsschema ab.
 
-* **Zielgruppen**: Auf dieser Registerkarte können Sie über einen Filter eine der vorhandenen Zielgruppen auswählen, die in der Campaign Classic-Konsole oder in Adobe Experience Platform definiert sind. Erfahren Sie, wie Sie Zielgruppen in überwachen und verwalten [diesem Abschnitt](manage-audience.md)
+* **Zielgruppen**: Auf dieser Registerkarte können Sie über einen Filter eine der vorhandenen Zielgruppen auswählen, die in der Campaign Classic-Konsole oder in Adobe Experience Platform definiert sind. Mehr über die Erstellung und Verwaltung von Zielgruppen erfahren Sie in [diesem Abschnitt](manage-audience.md).
 
   >[!NOTE]
   >

@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie die Workflow-Aktivität „Warten“ verwende
 badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: 970953a1-0091-477c-9f52-596af3a8857d
 source-git-commit: 023777b88fa5c80e110fcf334517f7cef1c7f1ee
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '165'
 ht-degree: 100%
 

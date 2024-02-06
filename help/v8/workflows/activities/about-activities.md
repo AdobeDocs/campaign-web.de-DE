@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie Workflow-Aktivitäten durchführen.
 badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
 source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '465'
 ht-degree: 100%
 

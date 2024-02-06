@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie mit Adobe Campaign Web einen Push-Benachricht
 badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: 16b3b33b-36db-4635-8e44-707694b859db
 source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '386'
 ht-degree: 100%
 

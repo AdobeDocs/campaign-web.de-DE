@@ -5,7 +5,7 @@ description: Erfahren Sie mehr über globale Berichte für den E-Mail-Kanal
 badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: 37c575e5-fd18-4a35-a11a-922d5bda1bae
 source-git-commit: 72899742daf04a0da6e2fb3d802b7841753b8c6c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1594'
 ht-degree: 100%
 
