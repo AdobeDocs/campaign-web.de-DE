@@ -3,9 +3,9 @@ audience: end-user
 title: Erste Schritte mit Landingpages
 description: Informationen zu Landingpages im Campaign-Web
 badge: label="Eingeschränkte Verfügbarkeit"
-source-git-commit: bf4ee4b5f672dc91b7f5a494026c7df934a806f4
+source-git-commit: 8d4a6e0139ee0199796ddd8c971c35a71b631e55
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '189'
 ht-degree: 7%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn5"
 >title="Landingpages "
->abstract="Entdecken Sie das neue Landingpage-Erlebnis. Erstellen, entwerfen und teilen Sie Landingpages sofort, um Ihre Benutzer auf Online-Webseiten weiterzuleiten, auf denen Sie anhand integrierter Vorlagen Nutzungsszenarios für die Verwaltung, Akquise, An-/Abmeldung und Blockierungsliste verwalten können."
+>abstract="Entdecken Sie das neue Landingpage-Erlebnis. Erstellen, entwerfen und teilen Sie Landingpages sofort, um Ihre Benutzer auf Online-Webseiten weiterzuleiten, auf denen Sie anhand integrierter Vorlagen Akquise-, Anmelde-/Abmelde- und Blockierungsliste-Anwendungsfälle verwalten können."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=de" text="Siehe Versionshinweise"
 
 
@@ -27,7 +27,7 @@ Eine Landingpage ist eine eigenständige Web-Seite, auf die ein Benutzer geleite
 * Einrichten **Opt-in- und Opt-out-Workflows** schnell und nahtlos.
 * Erstellen von Anmeldediensten, um Benutzern die Möglichkeit zu geben, **Dienstanmeldung**. [Weitere Informationen](../audience/manage-services.md)
 * Geben Sie Ihren Empfängern die **Abmeldefähigkeit** nach Erhalt Ihrer Nachrichten.
-* Senden Sie eine **Bestätigungsnachricht** bei Opt-in- oder Opt-out-Verfahren.
+  <!--Send a **confirmation email** upon opt-in or opt-out.-->
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>

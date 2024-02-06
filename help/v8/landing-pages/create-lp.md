@@ -2,9 +2,9 @@
 title: Erstellen einer Landingpage
 description: Erfahren Sie, wie Sie eine Landingpage im Campaign Web konfigurieren und veröffentlichen
 badge: label="Eingeschränkte Verfügbarkeit"
-source-git-commit: 7d28b76b824d8bac1364e29e83bc07af51c9ac56
+source-git-commit: 7635ab284900c8a4cd5ceca5675e57dbedb39f3a
 workflow-type: tm+mt
-source-wordcount: '1003'
+source-wordcount: '1006'
 ht-degree: 8%
 
 ---
@@ -14,9 +14,9 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_menu"
 >title="Landingpages erstellen und verwalten"
->abstract="Mit Adobe Campaign können Sie Landingpages erstellen, entwerfen und freigeben, um Ihre Benutzer auf Online-Webseiten weiterzuleiten, auf denen Sie anhand integrierter Vorlagen Nutzungsszenarios für die Verwaltung, Akquise, An-/Abmeldung und Blockierungsliste verwalten können."
+>abstract="Mit Adobe Campaign können Sie Landingpages erstellen, entwerfen und freigeben, um Ihre Benutzer auf Online-Webseiten weiterzuleiten, auf denen Sie anhand integrierter Vorlagen Akquise-, Anmelde-/Abmelde- und Blockierungsliste-Anwendungsfälle verwalten können."
 
-Mit Adobe Campaign können Sie Landingpages erstellen, entwerfen und freigeben, um Ihre Benutzer auf Online-Webseiten weiterzuleiten, auf denen Sie anhand integrierter Vorlagen Nutzungsszenarios für die Verwaltung, Akquise, An-/Abmeldung und Blockierungsliste verwalten können.
+Mit Adobe Campaign können Sie Landingpages erstellen, entwerfen und freigeben, um Ihre Benutzer auf Online-Webseiten weiterzuleiten, auf denen Sie anhand integrierter Vorlagen Akquise-, Anmelde-/Abmelde- und Blockierungsliste-Anwendungsfälle verwalten können.
 
 ## Auf Landingpages zugreifen {#access-landing-pages}
 
@@ -30,9 +30,9 @@ Die **[!UICONTROL Landingpages]** inventory zeigt alle erstellten Elemente an. S
 
 <!--From this list, you can access the [landing page Live report](../reports/lp-report-live.md) or [landing page Global report](../reports/lp-report-global.md) for published items.-->
 
->[!NOTE]
+>[!CAUTION]
 >
->Landingpages, die über die Clientkonsole erstellt wurden, können nicht im Campaign-Web angezeigt werden. Weitere Informationen finden Sie unter [Dokumentation zur Campaign Console](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html){target="_blank"}.
+>Landingpages, die über die Clientkonsole im Campaign Web erstellt wurden, können nicht angezeigt oder bearbeitet werden. Weitere Informationen finden Sie unter [Dokumentation zur Campaign Console](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html){target="_blank"}.
 
 <!--If you unpublish a landing page which is referenced in a message, the link to the landing page will be broken and an error page will be displayed. You cannot delete a published landing page. To delete it, you must first unpublish it.-->
 
@@ -98,7 +98,7 @@ Sie können eine Landingpage duplizieren oder löschen. Klicken Sie auf die drei
 
    ![](assets/lp-pages.png)
 
-1. Die **[!UICONTROL Vorausgefüllten Datensatz aktualisieren]** ist standardmäßig ausgewählt. Wenn Sie die in der Datenbank gespeicherten Profile über die Landingpage aktualisieren möchten, können Sie eine Vorausfüllen-Komponente verwenden. Im Feld Vorausfüllen können Sie angeben, wie der zu aktualisierende Datensatz in der Datenbank gefunden werden soll. Sie können auch aus den Feldern wählen, die im aktuellen Kontext der Landingpage verwendet werden, um das entsprechende Profil in der Datenbank zu finden.
+1. Die **[!UICONTROL Vorausgefüllten Datensatz aktualisieren]** ist standardmäßig aktiviert. Wenn Sie die in der Datenbank gespeicherten Profile über die Landingpage aktualisieren möchten, können Sie eine Vorausfüllen-Komponente verwenden. Im Feld Vorausfüllen können Sie angeben, wie der zu aktualisierende Datensatz in der Datenbank gefunden werden soll. Sie können auch aus den Feldern wählen, die im aktuellen Kontext der Landingpage verwendet werden, um das entsprechende Profil in der Datenbank zu finden.
 
    ![](assets/lp-storage-schedule.png)
 
