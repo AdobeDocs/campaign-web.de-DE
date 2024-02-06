@@ -5,10 +5,10 @@ description: Liste der in der Campaign-Webbenutzeroberfläche unterstützten Fun
 hide: true
 hidefromtoc: true
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 69c0ea49a4caff85cd56dbc114fbfaf888ceaf1e
+source-git-commit: c7ced55fff91a480b58e033cc9a3d03d8f9f4115
 workflow-type: tm+mt
-source-wordcount: '1282'
-ht-degree: 15%
+source-wordcount: '1281'
+ht-degree: 16%
 
 ---
 
@@ -35,7 +35,7 @@ Verwenden Sie die bereitgestellten Links, um die Dokumentation zu Campaign v8 (C
 * Marketing Resource Management (MRM), Ziele, Simulationen und Kostenkontrolle. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/automation/mrm/about-marketing-resource-management.html){target="_blank"}
 * Aufgabenverwaltung. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/automation/mrm/creating-and-managing-tasks.html){target="_blank"}
 
-## Kommunikationskanäle{ #channels-capabilities}
+## Kommunikationskanäle {#channels-capabilities}
 
 Über die Webbenutzeroberfläche von Campaign können Sie E-Mails, SMS und Push-Benachrichtigungen erstellen, entwerfen und versenden sowie ihre Wirkung mithilfe diverser Berichte messen, wie detailliert beschrieben [in diesem Abschnitt](../msg/gs-messages.md). Die folgenden Kanäle sind in dieser Version jedoch nicht verfügbar.
 
