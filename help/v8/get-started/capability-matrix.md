@@ -5,9 +5,9 @@ description: Liste der in der Campaign-Webbenutzeroberfläche unterstützten Fun
 hide: true
 hidefromtoc: true
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 4d421e4cee7fe98ed94280533e6f51038c071a62
+source-git-commit: 3c011a8f0958b7d0875fc18ec59309ef4b1f4103
 workflow-type: tm+mt
-source-wordcount: '1512'
+source-wordcount: '1495'
 ht-degree: 12%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 12%
 
 Die wichtigsten Campaign-Funktionen sind in der Campaign-Web-Benutzeroberfläche verfügbar. Diese Schnittstelle wurde speziell für Marketing-Experten entwickelt, um ihre Marketing-Kampagnen zu planen, zu starten und zu messen. Alle Funktionen sind aufgelistet [auf dieser Seite](../rn/whats-new.md).
 
-Die Anpassung der Campaign-Plattform an geschäftliche und Datenanforderungen sowie die Verbindung zu anderen Systemen werden in der Campaign-Clientkonsole verwaltet. Daher können einige Einstellungen und Funktionen nur über die Campaign Client Console aufgerufen, erstellt oder verwaltet werden. Einige sind in einer späteren Version der Campaign-Webbenutzeroberfläche verfügbar.
+Die Anpassung der Campaign-Plattform an geschäftliche und Datenanforderungen sowie die Verbindung zu anderen Systemen werden in der Campaign-Clientkonsole verwaltet. Daher können einige Einstellungen und Funktionen nur über die Campaign Client Console aufgerufen, erstellt oder verwaltet werden. Einige sind in einer späteren Aktualisierung der Campaign-Webbenutzeroberfläche verfügbar.
 
 <!--
 **Homepage**
@@ -26,7 +26,7 @@ Die Anpassung der Campaign-Plattform an geschäftliche und Datenanforderungen so
 
 ## Kampagnen-Management {#campaign-mgt-capabilities}
 
-Über die Webbenutzeroberfläche von Campaign können Sie kanalübergreifende Kampagnen detailliert erstellen [in diesem Abschnitt](../campaigns/gs-campaigns.md). In der aktuellen Version sind die folgenden Funktionen nur in der Campaign-Clientkonsole verfügbar. Auf sie kann nicht über die Campaign-Web-Benutzeroberfläche zugegriffen werden. Einige sind jedoch über die [Explorer-Menü](user-interface.md#user-interface-explorer).
+Über die Webbenutzeroberfläche von Campaign können Sie kanalübergreifende Kampagnen detailliert erstellen [in diesem Abschnitt](../campaigns/gs-campaigns.md). Die folgenden Funktionen sind nur in der Campaign-Client-Konsole verfügbar. Auf sie kann nicht über die Campaign-Web-Benutzeroberfläche zugegriffen werden. Einige sind jedoch über die [Explorer-Menü](user-interface.md#user-interface-explorer).
 
 Verwenden Sie die bereitgestellten Links, um die Dokumentation zu Campaign v8 (Clientkonsole) zu durchsuchen und zu erfahren, wie Sie diese Funktionen verwenden.
 
@@ -39,7 +39,7 @@ Verwenden Sie die bereitgestellten Links, um die Dokumentation zu Campaign v8 (C
 
 ## Kommunikationskanäle {#channels-capabilities}
 
-Über die Webbenutzeroberfläche von Campaign können Sie E-Mails, SMS und Push-Benachrichtigungen erstellen, entwerfen und versenden sowie ihre Wirkung mithilfe diverser Berichte messen, wie detailliert beschrieben [in diesem Abschnitt](../msg/gs-messages.md). Die folgenden Kanäle sind in dieser Version jedoch nicht verfügbar.
+Über die Webbenutzeroberfläche von Campaign können Sie E-Mails, SMS und Push-Benachrichtigungen erstellen, entwerfen und versenden sowie ihre Wirkung mithilfe diverser Berichte messen, wie detailliert beschrieben [in diesem Abschnitt](../msg/gs-messages.md). Die folgenden Kanäle sind jedoch derzeit nicht verfügbar.
 
 Verwenden Sie die bereitgestellten Links, um die Dokumentation zu Campaign v8 (Clientkonsole) zu durchsuchen und mehr über diese Kanäle zu erfahren.
 
@@ -71,7 +71,7 @@ einmalige Import-/Exportvorgänge, wie beschrieben in [Dokumentation zu Campaign
 
 ## Transaktionsnachrichtenversand {#mc-capabilities}
 
-In dieser Version der neuen Campaign-Webbenutzeroberfläche sind die Funktionen für Transaktionsnachrichten, die mit dem Message-Center-Produktpaket geliefert werden, nicht verfügbar.
+Die Funktionen für Transaktionsnachrichten, die mit dem Message-Center-Produktpaket geliefert werden, sind derzeit nicht in der neuen Campaign-Web-Benutzeroberfläche verfügbar.
 
 Durchsuchen Sie die [Dokumentation zu Campaign v8 (Clientkonsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/real-time/transactional.html){target="_blank"} und erfahren Sie mehr über Funktionen für Echtzeit-Messaging, z. B.:
 
@@ -86,9 +86,8 @@ Mit dem neuen Email Designer, der mit der Web-Benutzeroberfläche von Adobe Camp
 
 Mit dieser neuen Benutzeroberfläche können Sie die Synchronisierung von E-Mail-Vorlagen über Adobe Experience Manager verwalten und in Adobe Experience Manager as a Cloud Service integrieren.
 
-Beachten Sie, dass die folgenden Funktionen in dieser Version des Produkts nicht verfügbar sind. Verwenden Sie die bereitgestellten Links, um die Dokumentation zu Campaign v8 (Clientkonsole) zu durchsuchen und mehr über diese Funktionen zu erfahren.
+Beachten Sie, dass die folgenden Funktionen derzeit nicht in der Campaign-Web-Benutzeroberfläche verfügbar sind. Verwenden Sie die bereitgestellten Links, um die Dokumentation zu Campaign v8 (Clientkonsole) zu durchsuchen und mehr über diese Funktionen zu erfahren.
 
-* Inhalt aus öffentlichen Mitteln - SCOPØ BIS BESTÄTIGEN
 * Erstellung benutzerdefinierter Gestaltungsbausteine. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html#create-custom-personalization-blocks){target="_blank"}
 * Inhalte aus benutzerdefinierten Formularen (Content Management-Modul). [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/content-management/about-content-management.html){target="_blank"}
 * AMP für E-Mails. [Weitere Informationen finden Sie in der Dokumentation zu Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/defining-interactive-content.html){target="_blank"}
@@ -114,7 +113,7 @@ Verwenden Sie die bereitgestellten Links, um die Dokumentation zu Campaign v8 (C
 
 ## Workflows {#wf-capabilities}
 
-Die neue Campaign-Webbenutzeroberfläche bietet eine neu gestaltete Arbeitsablaufoberfläche zum Entwerfen und Verwalten Ihrer Prozesse. Die wichtigsten Workflow-Aktivitäten sind bereits in ihrem neuen Design verfügbar. Einige werden in einer zukünftigen Version verfügbar sein. Erfahren Sie mehr über Workflow-Funktionen, einschließlich Limits und Einschränkungen [in diesem Abschnitt](../get-started/guardrails.md).
+Die neue Campaign-Webbenutzeroberfläche bietet eine neu gestaltete Arbeitsablaufoberfläche zum Entwerfen und Verwalten Ihrer Prozesse. Die wichtigsten Workflow-Aktivitäten sind bereits in ihrem neuen Design verfügbar. Einige werden in einer zukünftigen Aktualisierung verfügbar sein. Erfahren Sie mehr über Workflow-Funktionen, einschließlich Limits und Einschränkungen [in diesem Abschnitt](../get-started/guardrails.md).
 
 Beachten Sie, dass die folgenden Funktionen nur in der Campaign-Client-Konsole verfügbar sind:
 
@@ -133,7 +132,7 @@ Erfahren Sie, wie Sie einen Angebotskatalog im [Dokumentation zu Campaign v8 (Cl
 
 Die neue moderne Campaign-Benutzeroberfläche vereinfacht das Design und die Bereitstellung von Marketingkampagnen und sorgt für Konsistenz mit anderen Adobe-Lösungen wie Adobe Experience Platform und Adobe Experience Manager.
 
-Die folgenden Integrationen sind in der Adobe Campaign-Clientkonsole verfügbar und in dieser Version der Campaign-Webbenutzeroberfläche noch nicht verfügbar. Verwenden Sie die bereitgestellten Links, um die Dokumentation zu Campaign v8 (Clientkonsole) zu durchsuchen und mehr über diese Integrationen zu erfahren:
+Die folgenden Integrationen sind in der Adobe Campaign-Clientkonsole verfügbar und noch nicht in der Campaign-Webbenutzeroberfläche verfügbar. Verwenden Sie die bereitgestellten Links, um die Dokumentation zu Campaign v8 (Clientkonsole) zu durchsuchen und mehr über diese Integrationen zu erfahren:
 
 * Nutzung von Adobe Analytics-Daten und KPI-Freigabe. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aa.html){target="_blank"}
 * Zielgruppenfreigabe mit Adobe Experience Cloud (Adobe Audience Manager). [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/audience-sharing/sharing-audiences-with-adobe-experience-cloud.html){target="_blank"}
