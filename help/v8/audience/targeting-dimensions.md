@@ -3,9 +3,9 @@ title: Zielgruppendimensionen
 description: Erfahren Sie mehr über Zielgruppendimensionen in Adobe Campaign Web
 badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: b910649a-7300-4f99-8f40-3a8965572ee9
-source-git-commit: a7c640c39e04443c5925f36ce966e7b5125e9a33
+source-git-commit: d040dddb143c2dbf4e9f47d762f7359ec7a18e16
 workflow-type: tm+mt
-source-wordcount: '457'
+source-wordcount: '428'
 ht-degree: 100%
 
 ---
@@ -16,11 +16,6 @@ ht-degree: 100%
 >id="acw_orchestration_build_audience_dimension"
 >title="Auswählen der Zielgruppendimension"
 >abstract="Die Zielgruppendimension ermöglicht die Bestimmung der vom Vorgang betroffenen Population: Empfängerinnen und Empfänger, Vertragsbegünstigte, Benutzerinnen und Benutzer, Abonnentinnen und Abonnenten usw. Standardmäßig wird die Zielgruppe aus den Empfängerinnen und Empfängern ausgewählt."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_reconciliation_targeting"
->title="Zielgruppendimension"
->abstract="Wählen Sie die neue Zielgruppendimension aus. Mit einer Dimension können Sie die Zielgruppen definieren: Empfängerinnen und Empfänger, Abonnentinnen und Abonnenten der App, Benutzerinnen und Benutzer, Abonnentinnen und Abonnenten usw. Standardmäßig ist die aktuelle Zielgruppendimension ausgewählt."
 
 Die Zielgruppendimension, auch bekannt als Zielgruppen-Mapping, ist der Datentyp, den ein Vorgang verarbeitet. Hier können Sie die Zielpopulation festlegen: Profile, Vertragsbegünstigte, Benutzerinnen und Benutzern, Abonnierende, usw.
 
