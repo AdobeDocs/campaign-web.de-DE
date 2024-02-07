@@ -5,16 +5,16 @@ description: Liste der in der Campaign-Webbenutzeroberfläche unterstützten Fun
 hide: true
 hidefromtoc: true
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: eb6c1b2367c1f4d3be1b2e3e6dcc7a372d208d86
+source-git-commit: 7c48f8670f523a5ed8925ea70306af0fa99a6baa
 workflow-type: tm+mt
-source-wordcount: '1469'
+source-wordcount: '1485'
 ht-degree: 13%
 
 ---
 
 # Funktionsmatrix für die Webbenutzeroberfläche/Clientkonsole von Campaign {#capabilities-matrix}
 
-Auf die folgenden Funktionen kann nur über die Campaign Client Console zugegriffen werden. Einige sind in einer späteren Version der Campaign-Webbenutzeroberfläche verfügbar.
+Die wichtigsten Campaign-Funktionen sind in der Campaign-Web-Benutzeroberfläche verfügbar. Einige Einstellungen und Funktionen können jedoch nur über die Campaign Client Console aufgerufen, erstellt oder verwaltet werden. Einige sind in einer späteren Version der Campaign-Webbenutzeroberfläche verfügbar.
 
 <!--
 **Homepage**
