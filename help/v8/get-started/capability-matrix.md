@@ -5,7 +5,7 @@ description: Liste der in der Campaign-Webbenutzeroberfläche unterstützten Fun
 hide: true
 hidefromtoc: true
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 7c48f8670f523a5ed8925ea70306af0fa99a6baa
+source-git-commit: 9a9a788e476ffc1461aa17a9aea66377a974efa7
 workflow-type: tm+mt
 source-wordcount: '1485'
 ht-degree: 13%
@@ -59,7 +59,7 @@ Daher können Sie in der Campaign-Clientkonsole keine Landingpage bearbeiten, ak
 
 ## Profile, Testprofile und Audiences {#profiles-audiences-capabilities}
 
-Sie können Profile und Testprofile sowohl in der Campaign-Clientkonsole als auch in der Campaign-Webbenutzeroberfläche erstellen, verwalten und aktualisieren. Alle in einer Benutzeroberfläche vorgenommenen Änderungen sind in der anderen sichtbar. Einige spezifische Empfängereinstellungen und erweiterte Parameter können jedoch in der neuen Campaign-Webbenutzeroberfläche fehlen.  Beachten Sie, dass der Begriff &quot;Empfänger&quot;in der neuen Web-Benutzeroberfläche in &quot;Profil&quot;geändert wurde.
+Sie können Profile und Testprofile sowohl in der Campaign-Clientkonsole als auch in der Campaign-Webbenutzeroberfläche erstellen, verwalten und aktualisieren. Alle in einer Benutzeroberfläche vorgenommenen Änderungen sind in der anderen sichtbar. Einige spezifische Empfängereinstellungen und erweiterte Parameter können jedoch in der neuen Campaign-Webbenutzeroberfläche fehlen. Beachten Sie, dass der Begriff &quot;Empfänger&quot;in der neuen Web-Benutzeroberfläche in &quot;Profil&quot;geändert wurde.
 
 Die Komposition von Zielgruppen ist eine neue Funktion, die mit der Web-Benutzeroberfläche von Campaign bereitgestellt wird. Daher können Sie in der Campaign-Clientkonsole eine [mit dem Abfragemodell erstellte Zielgruppe](../query/query-modeler-overview.md).
 
@@ -86,10 +86,10 @@ Mit dieser neuen Benutzeroberfläche können Sie auch Assets aus Adobe Experienc
 
 Beachten Sie, dass die folgenden Funktionen in dieser Version des Produkts nicht verfügbar sind. Verwenden Sie die bereitgestellten Links, um die Dokumentation zu Campaign v8 (Clientkonsole) zu durchsuchen und mehr über diese Funktionen (Funktionen mit einer `*` werden auch nicht in der Campaign-Client-Konsole unterstützt).
 
-* AMP für E-Mails.  [Weitere Informationen finden Sie in der Dokumentation zu Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/defining-interactive-content.html){target="_blank"}
 * Inhalt aus öffentlichen Mitteln - SCOPØ BIS BESTÄTIGEN
 * Erstellung benutzerdefinierter Gestaltungsbausteine. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html#create-custom-personalization-blocks){target="_blank"}
 * Inhalte aus benutzerdefinierten Formularen (Content Management-Modul). [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/content-management/about-content-management.html){target="_blank"}
+* AMP für E-Mails. [Weitere Informationen finden Sie in der Dokumentation zu Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/defining-interactive-content.html){target="_blank"}
 * Inhalt aus einer URL`*`
 * Speichern eines HTML-Inhalts als Vorlage`*`
 * E-Mail-Fragmente`*`
@@ -125,7 +125,7 @@ Erfahren Sie mehr über verfügbare Workflow-Aktivitäten in der Dokumentation z
 
 Adobe Campaign Web ermöglicht Ihnen den Versand von Angeboten, die in der Konsole mithilfe der **[!UICONTROL Interaction]** -Modul. Angebotsdesign, Eignungsregeln und Angebotsverwaltung sind nur in der Campaign-Clientkonsole verfügbar. [Weitere Informationen](../msg/offers.md)
 
-Erfahren Sie, wie Sie einen Angebotskatalog im  [Dokumentation zu Campaign v8 (Clientkonsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=de){target="_blank"}.
+Erfahren Sie, wie Sie einen Angebotskatalog im [Dokumentation zu Campaign v8 (Clientkonsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=de){target="_blank"}.
 
 ## Integrationen mit Adobe Experience Cloud-Lösungen {#exc-capabilities}
 
@@ -166,13 +166,13 @@ Durchsuchen Sie die bereitgestellten Links, um die [Dokumentation zu Campaign v8
 
 Die Campaign-Web-Benutzeroberfläche bietet keine Oberfläche für die Validierungsverwaltung von Inhalten, Sendungen, Workflows, Kampagnen und Zielgruppen. Sie sind nur in der Clientkonsole verfügbar.
 
-Erfahren Sie im Abschnitt  [Dokumentation zu Campaign v8 (Clientkonsole)](https://experienceleague.adobe.com/docs/campaign/automation/workflows/executing-a-workflow/define-approvals.html){target="_blank"}.
+Erfahren Sie im Abschnitt [Dokumentation zu Campaign v8 (Clientkonsole)](https://experienceleague.adobe.com/docs/campaign/automation/workflows/executing-a-workflow/define-approvals.html){target="_blank"}.
 
 
 Erfahren Sie, wie Sie Versand-, Inhalts- und Zielgruppengenehmigungen in Kampagnen in der [Dokumentation zu Campaign v8 (Clientkonsole)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-approval.html?lang=de){target="_blank"}.
 
 
-## Berechtigungen  {#permissions-capabilities}
+## Berechtigungen {#permissions-capabilities}
 
 Campaign-Benutzer können nur über Adobe Identity Management System (IMS) auf die Campaign-Webbenutzeroberfläche mit ihrer Adobe ID zugreifen.
 
