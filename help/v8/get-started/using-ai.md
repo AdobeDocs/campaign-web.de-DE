@@ -1,12 +1,12 @@
 ---
 title: Verwenden der KI-gestützten Kontexthilfe in Campaign Web
 description: Fragen in Campaign Web-Hilfe-Popovers stellen
-badge: label="Alpha"
+badge: label="Beta"
 exl-id: 577f4652-b3e5-4fa1-9a98-91815fe92d83
-source-git-commit: 93b2be1309e451d151a44867a3ae22b62e00c8e3
+source-git-commit: 5588adb52157370e265fbff803b25a8c1489d565
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 100%
+source-wordcount: '476'
+ht-degree: 94%
 
 ---
 
@@ -14,18 +14,21 @@ ht-degree: 100%
 
 Die KI-gestützte F&amp;A-Kontexthilfe in den Produkt-Kontexthilfefeldern liefert Ihnen schnelle KI-gestützte Antworten auf Grundlage der Produktdokumentation und Ihres aktuellen Produktkontexts.
 
->[!CAUTION]
->
->Diese Funktion ist in der Alpha-Version verfügbar und kann ohne vorherige Ankündigung geändert werden.
->
->Diese Funktion ist nur auf **Englisch** verfügbar. Andere Sprachen werden in dieser Version nicht unterstützt. Vergewissern Sie sich deshalb, dass [Ihre bevorzugte Sprache](connect-to-campaign.md#language-pref) auf Englisch eingestellt ist, bevor Sie diese Funktion nutzen.
-
-
 Die in die Kontexthilfe integrierte **Kontexthilfe mit Gen AI** revolutioniert die Durchsuchung von Dokumenten und Beantwortung von Fragen, indem sie riesige Dokumentations-Repositorys mühelos durchsucht und die gewünschten Informationen unverzüglich anzeigt.
 
 Dank der Funktionen von Campaign Gen AI verwandelt diese Komponente Ihr Erlebnis völlig und macht das Abrufen von Informationen und die Problembehebung zu einem Kinderspiel. Ob Sie Hilfe bei einer komplexen Aufgabe oder beim Navigieren durch umfangreiche Dokumente brauchen – unsere KI-gestützte Kontexthilfe ist Ihr ultimativer Begleiter und bietet Ihnen bei jeder Interaktion höchste Effizienz und Präzision.
 
 <img src="assets/AI_CH.gif" width="80%"/>
+
+
+>[!AVAILABILITY]
+>
+>Die KI-gestützte kontextbezogene Hilfe ist in ihrer Beta-Version verfügbar und kann ohne vorherige Ankündigung geändert werden.
+>
+>Diese Funktion ist nur auf **Englisch** verfügbar. Andere Sprachen werden in dieser Version nicht unterstützt. Vergewissern Sie sich deshalb, dass [Ihre bevorzugte Sprache](connect-to-campaign.md#language-pref) auf Englisch eingestellt ist, bevor Sie diese Funktion nutzen.
+>
+>Die KI-gestützte kontextbezogene Hilfe ist derzeit in Campaign Email Designer nicht verfügbar.
+
 
 <!--
 ## Consent {#consent-ai}
@@ -46,6 +49,7 @@ For information specific to Adobe AI policies in Experience Cloud apps and solut
 Die KI-gestützte Kontexthilfe von Adobe Campaign bietet Unterstützung, aber Sie sollten dennoch die Fakten überprüfen. Er kann falsche Informationen, ungenaue oder irreführende Antworten ausgeben. Überprüfen Sie die Produktdokumentation, die in jedem Hilfefeld verlinkt ist.
 
 Künstliche Intelligenz und Modelle des maschinellen Lernens werden im Laufe der Zeit verbessert, um bestimmte Anwendungsfälle besser zu lösen. Die KI-gestützte Kontexthilfe von Campaign wird in den kommenden Monaten immer besser werden. Wir empfehlen Ihnen dringend, jedes Mal die <img src="assets/do-not-localize/thumb.png" width="10%"/>-Schaltflächen zu verwenden, wenn Sie eine Antwort lesen, um unser technisches Personal auf unangemessene Antworten hinzuweisen.
+
 
 ## Empfehlungen  {#recommendations-ai}
 
