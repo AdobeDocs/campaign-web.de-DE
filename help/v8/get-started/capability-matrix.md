@@ -5,9 +5,9 @@ description: Liste der in der Campaign-Webbenutzeroberfläche unterstützten Fun
 hide: true
 hidefromtoc: true
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 3de864b097a3754d3a1bacf4c563ad62b1b46bc0
+source-git-commit: 7fa6d8e7afadbfb74e1d764ba8314eb284ffad65
 workflow-type: tm+mt
-source-wordcount: '1503'
+source-wordcount: '1512'
 ht-degree: 12%
 
 ---
@@ -184,8 +184,13 @@ Berechtigungen werden in der Adobe Admin Console- und Adobe Campaign-Clientkonso
 
 Überwachungsfunktionen für Campaign-Plattformen sind nur in der Clientkonsole und im Campaign Control Panel verfügbar. Sie werden nicht in der Web-Benutzeroberfläche von Campaign angezeigt.
 
-Durchsuchen Sie die bereitgestellten Links zum [Dokumentation zu Campaign v8 (Clientkonsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=de){target="_blank"} , um mehr zu erfahren.
+Weitere Informationen finden Sie unter den bereitgestellten Links zur Dokumentation zu Campaign v8 (Clientkonsole) und zur Dokumentation zum Control Panel .
 
 * [Workflow-Überwachung](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-technical-workflows.html){target="_blank"}
 * [Workflow-Heatmap](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/heatmap.html){target="_blank"}
+* [Leistungsüberwachung](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=de){target="_blank"}
+* [Zustellbarkeits-Monitoring](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/deliverability-management/monitoring-deliverability.html){target="_blank"}
+
+
+
 
