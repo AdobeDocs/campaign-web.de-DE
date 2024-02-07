@@ -5,7 +5,7 @@ description: Liste der in der Campaign-Webbenutzeroberfläche unterstützten Fun
 hide: true
 hidefromtoc: true
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 7fa6d8e7afadbfb74e1d764ba8314eb284ffad65
+source-git-commit: 4d421e4cee7fe98ed94280533e6f51038c071a62
 workflow-type: tm+mt
 source-wordcount: '1512'
 ht-degree: 12%
@@ -114,7 +114,7 @@ Verwenden Sie die bereitgestellten Links, um die Dokumentation zu Campaign v8 (C
 
 ## Workflows {#wf-capabilities}
 
-Die neue Campaign-Webbenutzeroberfläche bietet eine neu gestaltete Arbeitsablaufoberfläche zum Entwerfen und Verwalten Ihrer Prozesse. Die wichtigsten Workflow-Aktivitäten sind bereits in ihrem neuen Design verfügbar. Einige werden in einer zukünftigen Version verfügbar sein. Erfahren Sie mehr über Workflow-Funktionen, einschließlich Limits und Einschränkungen [in diesem Abschnitt](../workflows/gs-workflows.md)
+Die neue Campaign-Webbenutzeroberfläche bietet eine neu gestaltete Arbeitsablaufoberfläche zum Entwerfen und Verwalten Ihrer Prozesse. Die wichtigsten Workflow-Aktivitäten sind bereits in ihrem neuen Design verfügbar. Einige werden in einer zukünftigen Version verfügbar sein. Erfahren Sie mehr über Workflow-Funktionen, einschließlich Limits und Einschränkungen [in diesem Abschnitt](../get-started/guardrails.md).
 
 Beachten Sie, dass die folgenden Funktionen nur in der Campaign-Client-Konsole verfügbar sind:
 
