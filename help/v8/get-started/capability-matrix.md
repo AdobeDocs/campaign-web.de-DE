@@ -5,16 +5,18 @@ description: Liste der in der Campaign-Webbenutzeroberfläche unterstützten Fun
 hide: true
 hidefromtoc: true
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 9a9a788e476ffc1461aa17a9aea66377a974efa7
+source-git-commit: 3de864b097a3754d3a1bacf4c563ad62b1b46bc0
 workflow-type: tm+mt
-source-wordcount: '1485'
-ht-degree: 13%
+source-wordcount: '1503'
+ht-degree: 12%
 
 ---
 
 # Funktionsmatrix für die Webbenutzeroberfläche/Clientkonsole von Campaign {#capabilities-matrix}
 
-Die wichtigsten Campaign-Funktionen sind in der Campaign-Web-Benutzeroberfläche verfügbar. Einige Einstellungen und Funktionen können jedoch nur über die Campaign Client Console aufgerufen, erstellt oder verwaltet werden. Einige sind in einer späteren Version der Campaign-Webbenutzeroberfläche verfügbar.
+Die wichtigsten Campaign-Funktionen sind in der Campaign-Web-Benutzeroberfläche verfügbar. Diese Schnittstelle wurde speziell für Marketing-Experten entwickelt, um ihre Marketing-Kampagnen zu planen, zu starten und zu messen. Alle Funktionen sind aufgelistet [auf dieser Seite](../rn/whats-new.md).
+
+Die Anpassung der Campaign-Plattform an geschäftliche und Datenanforderungen sowie die Verbindung zu anderen Systemen werden in der Campaign-Clientkonsole verwaltet. Daher können einige Einstellungen und Funktionen nur über die Campaign Client Console aufgerufen, erstellt oder verwaltet werden. Einige sind in einer späteren Version der Campaign-Webbenutzeroberfläche verfügbar.
 
 <!--
 **Homepage**
@@ -61,7 +63,7 @@ Daher können Sie in der Campaign-Clientkonsole keine Landingpage bearbeiten, ak
 
 Sie können Profile und Testprofile sowohl in der Campaign-Clientkonsole als auch in der Campaign-Webbenutzeroberfläche erstellen, verwalten und aktualisieren. Alle in einer Benutzeroberfläche vorgenommenen Änderungen sind in der anderen sichtbar. Einige spezifische Empfängereinstellungen und erweiterte Parameter können jedoch in der neuen Campaign-Webbenutzeroberfläche fehlen. Beachten Sie, dass der Begriff &quot;Empfänger&quot;in der neuen Web-Benutzeroberfläche in &quot;Profil&quot;geändert wurde.
 
-Die Komposition von Zielgruppen ist eine neue Funktion, die mit der Web-Benutzeroberfläche von Campaign bereitgestellt wird. Daher können Sie in der Campaign-Clientkonsole eine [mit dem Abfragemodell erstellte Zielgruppe](../query/query-modeler-overview.md).
+<!--Audience composition is a new capability coming with Campaign Web user interface. As a consequence, in Campaign client console, you cannot edit, update or modify an [audience created with the Query modeler](../query/query-modeler-overview.md). -->
 
 Alle in der Campaign-Clientkonsole oder in Adobe Experience Platform erstellten Zielgruppen sind in der Campaign-Webbenutzeroberfläche verfügbar.
 
@@ -82,18 +84,18 @@ Durchsuchen Sie die [Dokumentation zu Campaign v8 (Clientkonsole)](https://exper
 
 Mit dem neuen Email Designer, der mit der Web-Benutzeroberfläche von Adobe Campaign geliefert wird, können Sie durch eine intuitive Drag &amp; Drop-Benutzeroberfläche einfach faszinierende, individuell zugeschnittene E-Mails erstellen. Unabhängig davon, ob Sie mit einer leeren Vorlage beginnen, einen vorhandenen Inhalt importieren oder vorhandene Vorlagen nutzen, können Sie alle Inhalte für jede E-Mail entwerfen und verfeinern. [Weitere Informationen](../email/edit-content.md)
 
-Mit dieser neuen Benutzeroberfläche können Sie auch Assets aus Adobe Experience Manager 6.5 in E-Mail-Inhalten verwenden, die E-Mail-Vorlagensynchronisierung über Adobe Experience Manager verwalten und in Adobe Experience Manager as a Cloud Service integrieren.
+Mit dieser neuen Benutzeroberfläche können Sie die Synchronisierung von E-Mail-Vorlagen über Adobe Experience Manager verwalten und in Adobe Experience Manager as a Cloud Service integrieren.
 
-Beachten Sie, dass die folgenden Funktionen in dieser Version des Produkts nicht verfügbar sind. Verwenden Sie die bereitgestellten Links, um die Dokumentation zu Campaign v8 (Clientkonsole) zu durchsuchen und mehr über diese Funktionen (Funktionen mit einer `*` werden auch nicht in der Campaign-Client-Konsole unterstützt).
+Beachten Sie, dass die folgenden Funktionen in dieser Version des Produkts nicht verfügbar sind. Verwenden Sie die bereitgestellten Links, um die Dokumentation zu Campaign v8 (Clientkonsole) zu durchsuchen und mehr über diese Funktionen zu erfahren.
 
 * Inhalt aus öffentlichen Mitteln - SCOPØ BIS BESTÄTIGEN
 * Erstellung benutzerdefinierter Gestaltungsbausteine. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html#create-custom-personalization-blocks){target="_blank"}
 * Inhalte aus benutzerdefinierten Formularen (Content Management-Modul). [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/content-management/about-content-management.html){target="_blank"}
 * AMP für E-Mails. [Weitere Informationen finden Sie in der Dokumentation zu Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/defining-interactive-content.html){target="_blank"}
-* Inhalt aus einer URL`*`
-* Speichern eines HTML-Inhalts als Vorlage`*`
-* E-Mail-Fragmente`*`
-* Multivarianz-/Mehrsprachiger Anwendungsfall`*`
+<!--
+* Content from a URL`*`
+* Email fragments`*`
+* Multivariant / Multilingual use case`*`-->
 
 ## Typologien und Typologieregeln {#rules-capabilities}
 
@@ -149,13 +151,12 @@ Einige Funktionen sind nur in der Client-Konsole verfügbar. Durchsuchen Sie die
 * Deskriptive Analyse. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/analyzing-populations/about-descriptive-analysis.html?lang=de){target="_blank"}
 * Kampagnenanalyse/Cube-Berichte. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/campaign-v8/analytics/reports/cubes/gs-cubes.html?lang=de){target="_blank"}
 * Berichtfreigabe planmäßig als PDF und CSV oder Link. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/configuring-access-to-the-report.html?lang=de){target="_blank"}
-* Einen Bericht als CSV- oder PDF-Datei exportieren/herunterladen. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/actions-on-reports.html?lang=de){target="_blank"}
 
 ## Datenmodellierung und Datenerfassung {#data-capabilities}
 
 Die Campaign-Webbenutzeroberfläche bietet nicht die folgenden Funktionen. Sie sind nur in der Clientkonsole verfügbar.
 
-Durchsuchen Sie die bereitgestellten Links, um die [Dokumentation zu Campaign v8 (Clientkonsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=de){target="_blank"} und mehr dazu.
+Durchsuchen Sie die angegebenen Links im [Dokumentation zu Campaign v8 (Clientkonsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=de){target="_blank"} und mehr dazu.
 
 * Externe Konten. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/external-accounts.html){target="_blank"}
 * Erstellung und Erweiterung von Schemas. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/schemas.html){target="_blank"}
@@ -174,9 +175,17 @@ Erfahren Sie, wie Sie Versand-, Inhalts- und Zielgruppengenehmigungen in Kampagn
 
 ## Berechtigungen {#permissions-capabilities}
 
-Campaign-Benutzer können nur über Adobe Identity Management System (IMS) auf die Campaign-Webbenutzeroberfläche mit ihrer Adobe ID zugreifen.
+Campaign-Benutzer können nur über Adobe Identity Management System (IMS) auf die Campaign-Webbenutzeroberfläche mit ihrer Adobe ID zugreifen. Berechtigungen, die Benutzern erteilt werden, gelten auch für die Campaign-Webbenutzeroberfläche.
 
 Berechtigungen werden in der Adobe Admin Console- und Adobe Campaign-Clientkonsole im Detail definiert [in diesem Abschnitt](https://experienceleague.adobe.com/docs/campaign/campaign-v8/admin/permissions/gs-permissions.html?lang=de). Über die Adobe Campaign-Web-Benutzeroberfläche ist keine Aktion bezüglich Berechtigungen möglich.
 
 
+## Monitoring        {#monitoring-capabilities}
+
+Überwachungsfunktionen für Campaign-Plattformen sind nur in der Clientkonsole und im Campaign Control Panel verfügbar. Sie werden nicht in der Web-Benutzeroberfläche von Campaign angezeigt.
+
+Durchsuchen Sie die bereitgestellten Links zum [Dokumentation zu Campaign v8 (Clientkonsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=de){target="_blank"} , um mehr zu erfahren.
+
+* [Workflow-Überwachung](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-technical-workflows.html){target="_blank"}
+* [Workflow-Heatmap](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/heatmap.html){target="_blank"}
 
