@@ -4,10 +4,10 @@ title: Neue Funktionen in der Campaign-Webbenutzeroberfläche
 description: Neue Funktionen der Campaign-Webbenutzeroberfläche
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Eingeschränkte Verfügbarkeit"
-source-git-commit: 60fdb2d3a17bc4cd1d30d66aa7e9c5e7d624c5eb
+source-git-commit: 4666a74511c60cd006709bbfff6953669d2e2637
 workflow-type: tm+mt
-source-wordcount: '1290'
-ht-degree: 75%
+source-wordcount: '1292'
+ht-degree: 74%
 
 ---
 
@@ -168,7 +168,7 @@ Bestehende Campaign-Benutzende sollten beachten, dass einige Konzepte entspreche
 
 Für diese Version gelten folgende Einschränkungen:
 
-* Bearbeitbare Objekte sind: Empfängerinnen und Empfänger, Sendungen, Kampagnen, Workflows, Zielgruppen, Abonnementdienste, vordefinierte Filter und Vorlagen. Alle übrigen sind schreibgeschützt. Verwenden Sie Filter und erstellen Sie Regeln, um sie alle zu durchsuchen.
+* Bearbeitbare Objekte sind: Empfänger, Sendungen, Kampagnen, Workflows, Zielgruppen, An-/Abmeldedienst, vordefinierte Filter, Vorlagen und Landingpages. Alle übrigen sind schreibgeschützt. Verwenden Sie Filter und erstellen Sie Regeln, um sie alle zu durchsuchen.
 * Die Administrations- und erweiterten Konfigurationsfunktionen sind in der Campaign-Web-Benutzeroberfläche nicht verfügbar.
 * Reporting-Metriken (wie Öffnungen und Tracking-Daten) werden stündlich aktualisiert.
 * Die KPIs im Versand-Dashboard werden alle 5 Minuten aktualisiert. – aber die Versandvorbereitung erfolgt in Echtzeit.
