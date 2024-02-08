@@ -8,8 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: Landing, Landingpage, Anwendungsfall
-exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 601cc62c5640069ce9e6ee4830f924c610e0915f
+source-git-commit: 40c1ac49e9c297e0431331df612cc4a1ae804723
 workflow-type: tm+mt
 source-wordcount: '1109'
 ht-degree: 30%
@@ -170,8 +169,6 @@ Sie können eine **[!UICONTROL Blockierungsliste]** Landingpage, über die sich 
 Damit Benutzer sich von allen Sendungen abmelden können, müssen Sie eine **[!UICONTROL Blockierungsliste]** Landingpage.
 
 Sobald ein Empfänger den Link in der Landingpage auswählt, wird automatisch die Option **[!UICONTROL Nicht mehr kontaktieren (alle Kanäle)]** im Profil des Empfängers aktiviert.
-
-![](assets/blocklisting_allchannels.png)
 
 definieren **[!UICONTROL Opt-out]** und wählen Sie die Option **[!UICONTROL Kanal (E-Mail)]**: Das Profil, das das Opt-out-Feld auf Ihrer Landingpage aktiviert, wird von all Ihrer Kommunikation ausgeschlossen.
 
