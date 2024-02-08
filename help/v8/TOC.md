@@ -2,19 +2,19 @@
 audience: end-user
 user-guide-title: Adobe Campaign Web-Benutzeroberfläche
 user-guide-description: Produktdokumentation für die Adobe Campaign-Webbenutzeroberfläche.
-title: Adobe Campaign-Webdokumentation
-description: Campaign-Webdokumentation
+title: Dokumentation zu Adobe Campaign Web
+description: Dokumentation zu Campaign Web
 breadcrumb-title: Campaign-Webbenutzeroberfläche
 hide: true
 source-git-commit: 60fdb2d3a17bc4cd1d30d66aa7e9c5e7d624c5eb
 workflow-type: tm+mt
 source-wordcount: '570'
-ht-degree: 87%
+ht-degree: 94%
 
 ---
 
 
-# Adobe Campaign-Webdokumentation {#v8}
+# Dokumentation zu Adobe Campaign Web {#v8}
 
 + [Dokumentation zur Adobe Campaign-Webbenutzeroberfläche](campaign-web-home.md)
 + [Neue Funktionen](rn/whats-new.md)
@@ -65,7 +65,7 @@ ht-degree: 87%
          + [Vorbereiten und Senden einer E-Mail](monitor/prepare-send.md)
          + [E-Mail-Versandeinstellungen](advanced-settings/delivery-settings.md)
          + [Versenden in mehreren Schüben](advanced-settings/send-using-waves.md)
-         + [Versandlogs überwachen](monitor/delivery-logs.md)
+         + [Überwachen von Versandlogs](monitor/delivery-logs.md)
    + Push-Benachrichtigungen {#push}
       + [Erste Schritte mit Push-Benachrichtigungen](push/gs-push.md)
       + [Erstellen eines Push-Benachrichtigungs-Versands](push/create-push.md)
@@ -90,15 +90,15 @@ ht-degree: 87%
       + [Testen des E-Mail-Rendering](preview-test/email-rendering.md)
 + Landingpages {#landing-pages}
    + [Erste Schritte mit Landingpages](landing-pages/get-started-lp.md)
-   + [Landingpage erstellen und veröffentlichen](landing-pages/create-lp.md)
-   + [Landingpage-Inhalt erstellen](landing-pages/lp-content.md)
-   + [Landingpage-Vorlagen verwenden](landing-pages/lp-templates.md)
+   + [Erstellen und Veröffentlichen einer Landingpage](landing-pages/create-lp.md)
+   + [Entwerfen von Inhalten für eine Landingpage](landing-pages/lp-content.md)
+   + [Arbeiten mit Landingpage-Vorlagen](landing-pages/lp-templates.md)
 + Profile und Audiences {#audiences}
    + [Erste Schritte mit Profilen und Zielgruppen](audience/gs-audiences-recipients.md)
    + [Zielgruppendimensionen](audience/targeting-dimensions.md)
    + Arbeiten mit Profilen {#work-with-profiles}
       + [Erste Schritte mit Profilen](audience/about-recipients.md)
-      + [Details von Profilen](audience/profile-view.md)
+      + [Entdecken der Details von Profilen](audience/profile-view.md)
       + [Erstellen eines Profils](audience/create-profile.md)
       + [Arbeiten mit Testprofilen](audience/test-profiles.md)
    + Arbeiten mit Zielgruppen {#audiences}

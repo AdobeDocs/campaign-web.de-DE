@@ -7,7 +7,7 @@ exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
 source-git-commit: daac6191623b9297378f3e36664cd0fa90e459aa
 workflow-type: tm+mt
 source-wordcount: '940'
-ht-degree: 85%
+ht-degree: 95%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 85%
 >title="Erstellen und Verwalten von Diensten"
 >abstract="Adobe Campaign verwenden, um Dienste wie z. B. Newsletter zu erstellen und zu überwachen und die An- und Abmeldungen für diese Dienste zu überprüfen. Abonnements gelten nur für den E-Mail- und SMS-Versand."
 
-Verwenden Sie Adobe Campaign Web, um Ihre Dienste wie z. B. Newsletter zu verwalten und zu erstellen und die An- und Abmeldungen für diese Dienste zu überprüfen.
+Verwenden Sie Adobe Campaign Web, um Ihre Dienste wie z. B. Newsletter zu verwalten und zu erstellen und die Abonnements und Abmeldungen für diese Dienste zu überprüfen.
 
 >[!NOTE]
 >
@@ -94,14 +94,14 @@ Sie können jetzt:
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_delivery_template"
->title="Versandvorlage Abonnements auswählen"
->abstract="Um den Benutzern, die sich für Ihren Dienst anmelden, Bestätigungsnachrichten zu senden, müssen Sie eine spezifische Versandvorlage auswählen, die auf der Variablen **[!UICONTROL Abonnements]** Zielgruppen-Mapping ohne definierte Zielgruppe."
+>title="Auswählen der Versandvorlage für Abonnements"
+>abstract="Um den Benutzerinnen und Benutzern, die sich für Ihren Dienst angemeldet haben, Bestätigungsnachrichten zu senden, müssen Sie eine Versandvorlage mit dem Zielgruppen-Mapping für die **[!UICONTROL Abonnements]** erstellen, und zwar ohne eine definierte Zielgruppe."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_unsubscriptions_delivery_template"
->title="Versandvorlage für Abmeldebestätigungen auswählen"
->abstract="Um den Benutzern, die sich von Ihrem Dienst abmelden, Bestätigungsnachrichten zu senden, müssen Sie eine bestimmte Versandvorlage auswählen, die auf der Variablen **[!UICONTROL Abonnements]** Zielgruppen-Mapping ohne definierte Zielgruppe."
+>title="Auswählen der Versandvorlage für Abmeldungen"
+>abstract="Um den Benutzerinnen und Benutzern, die sich von Ihrem Dienst abgemeldet haben, Bestätigungsnachrichten zu senden, müssen Sie eine Versandvorlage mit dem Zielgruppen-Mapping für die **[!UICONTROL Abonnements]** erstellen, und zwar ohne eine definierte Zielgruppe. "
 
 Um den Benutzerinnen und Benutzern, die sich für Ihren Dienst angemeldet haben oder sich von ihm abmelden, Bestätigungsnachrichten zu senden, müssen Sie eine Versandvorlage mit dem Zielgruppen-Mapping für die **[!UICONTROL Abonnements]** erstellen, und zwar ohne eine definierte Zielgruppe. Gehen Sie dazu wie folgt vor.
 

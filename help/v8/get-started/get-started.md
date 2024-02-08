@@ -7,7 +7,7 @@ badge: label="Eingeschränkte Verfügbarkeit"
 source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
 workflow-type: tm+mt
 source-wordcount: '577'
-ht-degree: 64%
+ht-degree: 76%
 
 ---
 
@@ -16,17 +16,17 @@ ht-degree: 64%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_learnmore"
 >title="Erste Schritte"
->abstract="Die neue Adobe Campaign-Webschnittstelle bietet ein integriertes, intuitives und konsistentes Benutzererlebnis."
+>abstract="Die neue Adobe Campaign Web-Schnittstelle bietet ein integriertes, intuitives und konsistentes Benutzererlebnis."
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_learnmore"
 >title="Erste Schritte"
->abstract="Die neue Adobe Campaign-Webschnittstelle bietet ein integriertes, intuitives und konsistentes Benutzererlebnis."
+>abstract="Die neue Adobe Campaign Web-Schnittstelle bietet ein integriertes, intuitives und konsistentes Benutzererlebnis."
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learnmore"
 >title="Erste Schritte"
->abstract="Die neue Adobe Campaign-Webschnittstelle bietet ein integriertes, intuitives und konsistentes Benutzererlebnis."
+>abstract="Die neue Adobe Campaign Web-Schnittstelle bietet ein integriertes, intuitives und konsistentes Benutzererlebnis."
 
 Adobe Campaign bietet eine Plattform für die Gestaltung kanalübergreifender Kundenerlebnisse und eine Umgebung für die visuelle Orchestrierung von Kampagnen, die Verwaltung von Interaktionen in Echtzeit und die kanalübergreifende Ausführung.
 
@@ -50,7 +50,7 @@ Wenn Sie als Administrator oder erfahrener Benutzer auf die Campaign v8-Funktion
 
 >[!NOTE]
 >
->Adobe Campaign Web ist derzeit in der eingeschränkten Verfügbarkeit (LA) verfügbar. Der Zugriff ist auf eine kleine Gruppe von LA-Kundinnen und -Kunden beschränkt. Beachten Sie, dass sich die Produktoberfläche, die Funktionen und die Nutzungsflüsse ohne Vorankündigung ändern können.
+>Adobe Campaign Web ist derzeit nur als eingeschränkt verfügbare Version (Limited Availability, LA) erhältlich. Der Zugriff ist auf eine kleine Gruppe von LA-Kundinnen und -Kunden beschränkt. Beachten Sie, dass sich die Produktoberfläche, die Funktionen und die Nutzungsflüsse ohne Vorankündigung ändern können.
 
 Erfahren Sie auf [dieser Seite](connect-to-campaign.md), wie Sie eine Verbindung zu Adobe Campaign Web herstellen können.
 

@@ -1,13 +1,13 @@
 ---
 audience: end-user
 title: Erste Schritte mit Landingpages
-description: Informationen zu Landingpages im Campaign-Web
+description: Informationen zu Landingpages in Campaign Web
 feature: Landing Pages
 badge: label="Eingeschränkte Verfügbarkeit"
 source-git-commit: e661517d68c2fe21f4209dbec2d98648740a3a86
 workflow-type: tm+mt
 source-wordcount: '249'
-ht-degree: 5%
+ht-degree: 37%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 5%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn5"
->title="Landingpages "
+>title="Landingpages"
 >abstract="Entdecken Sie das neue Landingpage-Erlebnis. Erstellen, entwerfen und teilen Sie sofort Landingpages, um Ihre Benutzer auf Online-Webseiten weiterzuleiten, auf denen Sie anhand integrierter Vorlagen Nutzungsszenarios für Akquise, Abonnement/Abmeldung und Blockierungsliste verwalten können."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=de" text="Siehe Versionshinweise"
 
@@ -29,14 +29,14 @@ Mit Landingpages können Sie Ihre Benutzer zu Online-Formularen weiterleiten, in
 >
 >Landingpages, die Sie in der Campaign-Webbenutzeroberfläche erstellen, unterscheiden sich von den in der Clientkonsole erstellten Webformularen. Webformulare können nicht in der Campaign-Webbenutzeroberfläche angezeigt oder bearbeitet werden.
 >
->Weitere Informationen zu Webformularen finden Sie in [Dokumentation zur Campaign Console](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html){target="_blank"}.
+>Weitere Informationen zu Webformularen finden Sie in [Dokumentation zur Campaign Console](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html?lang=de){target="_blank"}.
 
 Die wichtigsten Funktionen von Landingpages sind unten aufgeführt:
 
-* Nutzung [!DNL Adobe Campaign] Funktionen zur Inhaltserstellung **responsive Landingpages**.
-* Einrichten **Opt-in- und Opt-out-Workflows** schnell und nahtlos.
-* Erstellen von Anmeldediensten, um Benutzern die Möglichkeit zu geben, **Dienstanmeldung**. [Weitere Informationen](../audience/manage-services.md)
-* Geben Sie Ihren Empfängern die **Abmeldefähigkeit** nach Erhalt Ihrer Nachrichten.
+* Verwenden Sie [!DNL Adobe Campaign]-Funktionen zur Inhaltserstellung, um mühelos **responsive Landingpages** zu erstellen.
+* Richten Sie **Opt-in- und Opt-out-Flüsse** schnell und nahtlos ein.
+* Erstellen Sie Anmeldedienste, damit sich Benutzende **für einen Dienst anmelden können**. [Weitere Informationen](../audience/manage-services.md)
+* Bieten Sie Ihren Empfängerinnen und Empfängern die Möglichkeit, sich vom Empfang Ihrer Nachrichten **abzumelden**.
   <!--Send a **confirmation email** upon opt-in or opt-out.-->
 
 <table style="table-layout:fixed"><tr style="border: 0;">
@@ -44,7 +44,7 @@ Die wichtigsten Funktionen von Landingpages sind unten aufgeführt:
 <a href="create-lp.md">
 <img alt="Lead" src="../assets/do-not-localize/lp-subscription.jpeg">
 </a>
-<div><a href="create-lp.md"><strong>Landingpages erstellen</strong>
+<div><a href="create-lp.md"><strong>Erstellen von Landingpages</strong>
 </div>
 <p>
 </td>
@@ -53,7 +53,7 @@ Die wichtigsten Funktionen von Landingpages sind unten aufgeführt:
 <img alt="Gelegentlich" src="../assets/do-not-localize/lp-list.jpg">
 </a>
 <div>
-<a href="../audience/manage-services.md"><strong>Abonnement-Dienste erstellen</strong></a>
+<a href="../audience/manage-services.md"><strong>Erstellen von Anmeldediensten</strong></a>
 </div>
 <p></td>
 <td>
@@ -61,7 +61,7 @@ Die wichtigsten Funktionen von Landingpages sind unten aufgeführt:
 <img alt="Validierung" src="../assets/do-not-localize/lp-design.jpg">
 </a>
 <div>
-<a href="lp-content.md"><strong>Landingpages erstellen</strong></a>
+<a href="lp-content.md"><strong>Entwerfen von Landingpages</strong></a>
 </div>
 <p>
 </td>

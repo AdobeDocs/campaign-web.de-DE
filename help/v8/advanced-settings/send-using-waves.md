@@ -1,18 +1,18 @@
 ---
 audience: end-user
-title: In Schüben versenden
+title: Versenden in Schüben
 description: Erfahren Sie mehr über die Versandeinstellungen in Campaign Web
 feature: Email
 badge: label="Eingeschränkte Verfügbarkeit"
 source-git-commit: 3f4f09ddae3a2e46adf99f288642acee561ce1f5
 workflow-type: tm+mt
 source-wordcount: '790'
-ht-degree: 25%
+ht-degree: 33%
 
 ---
 
 
-# In Schüben versenden {#send-using-waves}
+# Versenden in Schüben {#send-using-waves}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_waves_definition"
@@ -47,7 +47,7 @@ Gehen Sie wie folgt vor, um Sendungen in Schüben durchzuführen.
 
    >[!CAUTION]
    >
-   >Achten Sie darauf, dass die letzten Schübe nicht die in der Variablen [Gültigkeit](delivery-settings.md#validity) zuordnen, da andernfalls manche Nachrichten nicht gesendet werden. eine spezifische Typologieregel, **[!UICONTROL Prüfung der Wave Scheduling]**, stellt sicher, dass der letzte Schub vor der Gültigkeit des Versands geplant ist. Weitere Informationen zu Kontrollregeln finden Sie in [Dokumentation zu Campaign v8 (Clientkonsole)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html).
+   >Achten Sie darauf, dass die letzten Schübe nicht die in der Variablen [Gültigkeit](delivery-settings.md#validity) zuordnen, da andernfalls manche Nachrichten nicht gesendet werden. Eine spezifische Typologie-Kontrollregel (**[!UICONTROL Prüfung der Schub-Planung]**) stellt sicher, dass der letzte Schub vor dem Ablauf der Versandgültigkeit eingeplant ist. Weitere Informationen zu Kontrollregeln finden Sie in [Dokumentation zu Campaign v8 (Clientkonsole)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html?lang=de).
    >
    >Planen Sie bei der Konfiguration der letzten Schübe auch genügend Zeit für zusätzliche Versuche ein. [Weitere Informationen](delivery-settings.md#retries)
 
@@ -63,13 +63,13 @@ Wenn Sie diese Option wählen, haben alle Schübe dieselbe Größe (mit Ausnahme
 
   Wenn Sie beispielsweise **[!UICONTROL 30 %]** im **[!UICONTROL Waagen-Größe]** eingeben, entsprechen die ersten drei Schübe 30 % aller im Versand enthaltenen Nachrichten, während die vierte die restlichen 10 % ausmacht.
 
-* Im **[!UICONTROL Intervall]** den Zeitraum zwischen dem Start zweier aufeinander folgender Schübe festlegen. Wenn Sie beispielsweise **[!UICONTROL 2 Tage]**, beginnt der erste Schub sofort, der zweite Schub beginnt in zwei Tagen, der dritte in vier Tagen usw.
+* Geben Sie im Abschnitt **[!UICONTROL Intervall]** die Verzögerung zwischen dem Beginn von zwei aufeinanderfolgenden Wellen an. Wenn Sie beispielsweise **[!UICONTROL 2 Tage]**, beginnt der erste Schub sofort, der zweite Schub beginnt in zwei Tagen, der dritte in vier Tagen usw.
 
 Ein gängiges Anwendungsbeispiel für die Verwendung mehrerer Schübe gleicher Größe ist der Einsatz eines Callcenters. Bei telefonischen Treuekampagnen verfügen Unternehmen oft über begrenzte Kapazitäten für die Verarbeitung der Anrufe an Abonnenten.
 
 Mithilfe von Schüben kann die Anzahl der Nachrichten auf 20 pro Tag beschränkt werden, was der täglichen Verarbeitungskapazität eines Callcenters entspricht.
 
-Wählen Sie dazu die **[!UICONTROL Mehrere Schübe derselben Größe planen]** -Option. Eingabe **[!UICONTROL 20]** Größe der Schübe und **[!UICONTROL 1 Tag]** im **[!UICONTROL Intervall]** -Feld.
+Wählen Sie dazu die Option **[!UICONTROL Mehrere Schübe derselben Größe planen]**. Eingabe **[!UICONTROL 20]** Größe der Schübe und **[!UICONTROL 1 Tag]** im **[!UICONTROL Intervall]** -Feld.
 
 ![](assets/waves-call-center.png)
 
@@ -79,7 +79,7 @@ Wenn Sie diese Option auswählen, müssen Sie den Starttag/-zeitpunkt für jeden
 
 * Im **[!UICONTROL Starten]** die Verzögerung zwischen dem Start zweier aufeinander folgender Schübe angeben.
 
-* Im **[!UICONTROL Größe]** eine feste Zahl oder einen Prozentsatz eingeben.
+* Geben Sie in der Spalte **[!UICONTROL Größe]** eine feste Zahl oder einen Prozentsatz ein.
 
 Fügen Sie so viele Schübe hinzu, wie Sie möchten. Sie können sie nach Bedarf neu anordnen.
 

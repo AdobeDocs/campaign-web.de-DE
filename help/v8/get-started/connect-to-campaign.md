@@ -1,18 +1,18 @@
 ---
 title: Herstellen einer Verbindung zur Adobe Campaign Web-Benutzeroberfläche
-description: Erfahren Sie, wie Sie eine Verbindung zur Adobe Campaign-Web-Benutzeroberfläche herstellen.
+description: Erfahren Sie, wie Sie eine Verbindung mit der Benutzeroberfläche von Adobe Campaign Web herstellen.
 badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
 source-git-commit: eb6c1b2367c1f4d3be1b2e3e6dcc7a372d208d86
 workflow-type: tm+mt
 source-wordcount: '573'
-ht-degree: 87%
+ht-degree: 96%
 
 ---
 
 # Herstellen einer Verbindung zu Adobe Campaign {#connect-to-campaign}
 
-Experience Cloud ist die integrierte Familie von Anwendungen, Produkten und Diensten von Adobe für das digitale Marketing. Über die intuitive Benutzeroberfläche können Sie schnell auf Ihre Cloud-Anwendungen, Produktfunktionen und Dienste zugreifen. Auf dieser Seite erfahren Sie, wie Sie eine Verbindung zu Adobe Experience Cloud herstellen und auf die Adobe Campaign-Webschnittstelle zugreifen.
+Experience Cloud ist die integrierte Familie von Anwendungen, Produkten und Diensten von Adobe für das digitale Marketing. Über die intuitive Benutzeroberfläche können Sie schnell auf Ihre Cloud-Anwendungen, Produktfunktionen und Dienste zugreifen. Auf dieser Seite erfahren Sie, wie Sie eine Verbindung mit Adobe Experience Cloud herstellen und auf die Benutzeroberfläche von Adobe Campaign Web zugreifen.
 
 ## Anmeldung bei Adobe Experience Cloud {#sign-in-to-exc}
 
@@ -64,7 +64,7 @@ Verwenden Sie die obere Leiste der Benutzeroberfläche, um folgende Aktionen dur
 
 ## Unterstützte Browser {#browsers}
 
-Adobe Campaign Web wurde für die optimale Funktionsweise mit der neuesten Version von Google Chrome, Safari und Microsoft Edge entwickelt. Bei der Verwendung bestimmter Funktionen in älteren Versionen oder anderen Browsern können Probleme auftreten.
+Adobe Campaign Web ist so konzipiert, dass es mit den neuesten Versionen von Google Chrome, Safari und Microsoft Edge optimal funktioniert. Bei der Verwendung bestimmter Funktionen in älteren Versionen oder anderen Browsern können Probleme auftreten.
 
 ## Sprachvoreinstellungen {#language-pref}
 
