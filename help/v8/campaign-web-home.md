@@ -1,17 +1,17 @@
 ---
 keywords: Campaign Web;Startseite;beliebte Themen
-description: Campaign Web-Hilfesystem
-title: Adobe Campaign Web-Produktdokumentation
+description: Hilfe-Center zu Campaign Web
+title: Produktdokumentation zu Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 badge: label="Eingeschränkte Verfügbarkeit"
 source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '688'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
-# Adobe Campaign-Webdokumentation {#campaign-documentation}
+# Dokumentation zu Adobe Campaign Web {#campaign-documentation}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_card1"
@@ -36,12 +36,12 @@ ht-degree: 84%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list3"
 >title="Element 3"
->abstract="Benutzerdefinierte Umgebung für Zielgruppen, Abonnements, AEM Assets, Landingpages"
+>abstract="Neu gestaltete UX für Zielgruppen, Anmeldung, AEM-Assets und Landingpages"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list4"
 >title="Element 4"
->abstract="Abfragemodell der nächsten Generation und E-Mail-Designer"
+>abstract="Abfrage-Modeler und E-Mail-Designer der nächsten Generation"
 
 <!--
 >[!CONTEXTUALHELP]
@@ -86,11 +86,11 @@ ht-degree: 84%
 Wir freuen uns, die neue Version der Adobe Campaign Web-Benutzeroberfläche vorzustellen. Unsere neueste Version ist voller intuitiver Funktionen, die die Erstellung personalisierter kanalübergreifender Kampagnen vereinfachen, außergewöhnliche Ergebnisse liefern und Ihnen einen Wettbewerbsvorteil über alle Kanäle hinweg verschaffen. Diese neue, moderne Benutzeroberfläche vereinfacht das Design und den Versand von Marketing-Kampagnen und sorgt für Konsistenz mit anderen Adobe-Lösungen, einschließlich Adobe Experience Platform.
 
 >[!AVAILABILITY]
-> Adobe Campaign Web ist derzeit in der eingeschränkten Verfügbarkeit (LA) verfügbar. Der Zugriff ist auf eine kleine Gruppe von LA-Kundinnen und -Kunden beschränkt. Beachten Sie, dass sich die Produktoberfläche, die Funktionen und die Nutzungsflüsse ohne Vorankündigung ändern können.
+> Adobe Campaign Web ist derzeit nur als eingeschränkt verfügbare Version (Limited Availability, LA) erhältlich. Der Zugriff ist auf eine kleine Gruppe von LA-Kundinnen und -Kunden beschränkt. Beachten Sie, dass sich die Produktoberfläche, die Funktionen und die Nutzungsflüsse ohne Vorankündigung ändern können.
 
 ## Neue Funktionen
 
-Hier erhalten Sie einen Einblick in die neuesten Verbesserungen des Adobe Campaign-Webprodukts und der Dokumentation! Eine umfassende Liste der wichtigsten Funktionen und Versionsaktualisierungen finden Sie auf [dieser Seite](rn/whats-new.md).
+Hier erhalten Sie einen Einblick in die neuesten Verbesserungen in Adobe Campaign Web und die Dokumentation! Eine umfassende Liste der wichtigsten Funktionen und Versionsaktualisierungen finden Sie auf [dieser Seite](rn/whats-new.md).
 
 >[!BEGINTABS]
 
@@ -126,7 +126,7 @@ Erstellen Sie neue Profile und überwachen Sie sie mithilfe leistungsstarker Ber
   <tr style="border: 0;">
     <td>
     <a href="get-started/user-interface.md"><img src="assets/do-not-localize/menu-ui.jpeg"></a>
-    <div><strong>Neue Benutzeroberfläche</strong><br/>Erfahren Sie mehr über die neue, in Adobe Experience Platform integrierte Benutzeroberfläche und Navigationserfahrung von Adobe Campaign Web.</div>
+    <div><strong>Entdecken Sie die neue Benutzeroberfläche</strong><br/>Entdecken Sie die neue Benutzeroberfläche und Navigation von Adobe Campaign Web, die in die Adobe Experience Platform integriert ist.</div>
     </td>
     <td>
     <a href="workflows/gs-workflows.md"><img src="assets/do-not-localize/menu-workflows.jpeg"></a>
@@ -134,7 +134,7 @@ Erstellen Sie neue Profile und überwachen Sie sie mithilfe leistungsstarker Ber
     </td>
     <td>
     <a href="email/get-started-email-designer.md"><img src="assets/do-not-localize/menu-email.png"></a>
-    <div><strong>Email Designer erfüllen</strong><br/>Hier erfahren Sie, wie Sie mit einer Vorlage beginnen oder mit dem neuen Email Designer von Adobe Campaign E-Mails erstellen können, ohne eine einzelne Codezeile schreiben zu müssen.
+    <div><strong>Kennenlernen von E-Mail-Designer</strong><br/>Beginnen Sie mit einer Vorlage oder verwenden Sie den neuen E-Mail-Designer von Adobe Campaign, um E-Mails zu erstellen, ohne eine einzige Zeile Code schreiben zu müssen.
     </div></td>
     <td>
     <a href="personalization/gs-personalization.md"><img src="assets/do-not-localize/menu-dynamic.png"></a>

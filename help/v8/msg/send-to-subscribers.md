@@ -5,7 +5,7 @@ description: Hier erfahren Sie, wie Sie Nachrichten an die Abonnentinnen und Abo
 badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: f6e14db5-261c-4fa6-bd19-fd8bdc04aaf1
 source-git-commit: ad8d99ca73bebccae9ee7466bda566cdc465fb26
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '231'
 ht-degree: 100%
 

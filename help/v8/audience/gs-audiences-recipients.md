@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie in Campaign Web mit Profilen und Zielgruppen 
 exl-id: 71a1ec92-cd79-4654-9ae3-9a92a01c6279
 badge: label="Eingeschränkte Verfügbarkeit"
 source-git-commit: cbfd821173466c51e9073f01e8792cbdc069c6a2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '204'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ In Adobe Campaign Web ist ein **Profil** eine in der Datenbank gespeicherte Pers
 
 **Zielgruppen** sind Gruppen von Profilen mit ähnlichen Verhaltensweisen und/oder Merkmalen. Diese Sammlung von Personen kann entweder erstellt, ausgewählt oder geladen werden.  Nach der Erstellung können Zielgruppen als die Zielgruppe Ihrer Sendungen genutzt werden.
 
-Darüber hinaus kann Adobe Campaign Web zum Verwalten und Erstellen von **Dienstleistungen** z. B. Newsletter, und um die An- und Abmeldungen für diese Dienste zu überprüfen. Wenn Sie einmal einen Dienst erstellt haben, können Sie Abonnentinnen und Abonnenten hinzufügen, Profile abmelden und Nachrichten an die Abonnentinnen und Abonnenten Ihrer Dienste senden.
+Außerdem können Sie Adobe Campaign Web verwenden, um Ihre **Dienste**, z. B. Newsletter, zu verwalten und zu erstellen und die Anmeldungen und Abmeldungen für diese Dienste zu überprüfen. Wenn Sie einmal einen Dienst erstellt haben, können Sie Abonnentinnen und Abonnenten hinzufügen, Profile abmelden und Nachrichten an die Abonnentinnen und Abonnenten Ihrer Dienste senden.
 
 Da Sie nun wissen, was Sie in Adobe Campaign Web tun können, ist es an der Zeit, sich näher mit den Dokumentationsabschnitten zu befassen, um damit zu arbeiten.
 
