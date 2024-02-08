@@ -3,9 +3,9 @@ audience: end-user
 title: Funktionsmatrix für die Webbenutzeroberfläche/Clientkonsole von Campaign
 description: Liste der in der Campaign-Webbenutzeroberfläche unterstützten Funktionen
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 969c6c76654d4fb84cdf4a885b44924a1e46f524
+source-git-commit: 4da0df82cf95a23cce0d6bcee4e09d92833943db
 workflow-type: tm+mt
-source-wordcount: '1772'
+source-wordcount: '1779'
 ht-degree: 12%
 
 ---
@@ -42,7 +42,7 @@ Verwenden Sie die bereitgestellten Links, um die Dokumentation zu Campaign v8 (C
 Verwenden Sie die bereitgestellten Links, um die Dokumentation zu Campaign v8 (Clientkonsole) zu durchsuchen und mehr über diese Kanäle zu erfahren.
 
 * **Briefpost**. Der Briefpost-Kanal ermöglicht es Ihnen, eine physische Korrespondenz an Ihre Kunden, Kunden, Lieferanten oder andere, wie z. B. Mitteilungen, Rechnungen, Kontoauszüge, Marketingangebote und mehr, zu senden. Dieser Kanal ist nur in der Clientkonsole verfügbar.  [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-direct-mail/about-direct-mail-channel.html?lang=de#sending-messages){target="_blank"}
-* **LINE-Messaging**. LINE ist ein Programm für kostenloses Instant Messaging, Sprach- und Videoanrufe, das für alle Smartphones und für Desktop verfügbar ist. Mit Adobe Campaign können Sie LINE-Nachrichten nur aus der Clientkonsole senden.[Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/line.html){target="_blank"}
+* **LINE-Messaging**. LINE ist ein Programm für kostenloses Instant Messaging, Sprach- und Videoanrufe, das für alle Smartphones und für Desktop verfügbar ist. Mit Adobe Campaign können Sie LINE-Nachrichten nur aus der Clientkonsole senden. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/line.html){target="_blank"}
 * Callcenter- und benutzerdefinierte Kanäle. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/communication-channels.html#other-channels){target="_blank"}
 * Social Marketing mit X (Twitter). [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html?lang=de){target="_blank"}
 
@@ -124,7 +124,7 @@ Erfahren Sie mehr über verfügbare Workflow-Aktivitäten in der Dokumentation z
 
 ## Angebotsverwaltung {#offer-capabilities}
 
-Adobe Campaign Web ermöglicht Ihnen den Versand von Angeboten, die in der Konsole mithilfe der **[!UICONTROL Interaction]** -Modul. Angebotsdesign, Eignungsregeln und Angebotsverwaltung sind nur in der Campaign-Clientkonsole verfügbar. [Weitere Informationen](../msg/offers.md)
+Sie können Angebote in Ihren in der Adobe Campaign-Web-Benutzeroberfläche erstellten Sendungen senden. Diese Angebote müssen in der Clientkonsole mit dem **[!UICONTROL Interaction]** -Modul. Angebotsdesign, Eignungsregeln und Angebotsverwaltung sind nur in der Campaign-Clientkonsole verfügbar. [Weitere Informationen](../msg/offers.md)
 
 Erfahren Sie, wie Sie einen Angebotskatalog im [Dokumentation zu Campaign v8 (Clientkonsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=de){target="_blank"}.
 
