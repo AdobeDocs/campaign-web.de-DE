@@ -3,10 +3,10 @@ title: Erstellen einer Landingpage
 description: Hier erfahren Sie, wie Sie in Campaign Web eine Landingpage konfigurieren und veröffentlichen können.
 feature: Landing Pages
 badge: label="Eingeschränkte Verfügbarkeit"
-source-git-commit: 014d157e74de9f16c30c3fc364d5a89a449a2808
+source-git-commit: 601cc62c5640069ce9e6ee4830f924c610e0915f
 workflow-type: tm+mt
-source-wordcount: '1185'
-ht-degree: 51%
+source-wordcount: '1237'
+ht-degree: 49%
 
 ---
 
@@ -176,7 +176,11 @@ Nach der Veröffentlichung:
 
 * Die Landingpage wird der Landingpage-Liste mit dem **[!UICONTROL Veröffentlicht]** -Status. Es ist jetzt live und kann in Ihren Inhalten referenziert werden.
 
-* Sie können die **[!UICONTROL Landingpage-URL]** , die oben auf der Seite in einem Webbrowser angezeigt wird.
+* Sie können die **[!UICONTROL Landingpage-URL]** die oben auf der Seite in einem Webbrowser angezeigt wird, um eine Vorschau Ihrer Landingpage anzuzeigen.
+
+>[!CAUTION]
+>
+>Um Ihre Landingpage vollständig zu testen oder zu nutzen, können Sie diesen Link nicht direkt in einen Webbrowser oder in Ihre Sendungen kopieren und einfügen. Verwenden Sie stattdessen die [Inhalt simulieren](#test-landing-page) , um sie zu testen, und führen Sie die Schritte unter [diesem Abschnitt](lp-use-cases.md) , um Ihre Landingpage richtig zu nutzen.
 
 ![](assets/lp-published.png)
 

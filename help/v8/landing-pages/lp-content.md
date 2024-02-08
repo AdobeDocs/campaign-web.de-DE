@@ -3,10 +3,10 @@ title: Definieren des Inhalts für die Landingpage
 description: Erfahren Sie, wie Sie in Campaign Web Landingpage-spezifische Inhalte erstellen
 feature: Landing Pages
 badge: label="Eingeschränkte Verfügbarkeit"
-source-git-commit: 5c3f02d4c95951693ac73de4a6e8810e1b662e53
+source-git-commit: e8b59db0608e1e307c4603b32d1dde3b176fc036
 workflow-type: tm+mt
-source-wordcount: '743'
-ht-degree: 100%
+source-wordcount: '750'
+ht-degree: 85%
 
 ---
 
@@ -19,22 +19,11 @@ ht-degree: 100%
 
 Wenn Sie den Inhalt einer beliebigen Seite Ihrer Landingpage bearbeiten, ist er bereits vorausgefüllt.
 
-Die primäre Seite ist die Seite, die den Benutzenden sofort angezeigt wird, nachdem sie auf den Link zu Ihrer Landingpage geklickt haben, z. B. über eine E-Mail oder eine Website. Die primäre Seite ist bereits mit der [Landingpage-spezifischen Formularkomponente](#use-form-component) ausgefüllt, damit Benutzende ihre Auswahl treffen und übermitteln können. Sie können auch [Landingpage-spezifische Stile](#lp-form-styles) festlegen.
+Die erste Seite, die den Benutzern sofort angezeigt wird, nachdem sie auf den Link zu Ihrer Landingpage geklickt haben, ist bereits mit dem [Landingpage-spezifische Formularkomponente](#use-form-component) für die ausgewählte Vorlage, damit Benutzer ihre Auswahl treffen und ihre Auswahl übermitteln können. Sie können auch [Landingpage-spezifische Stile](#lp-form-styles) festlegen.
 
 Um den Inhalt Ihrer Landingpage weiter zu gestalten, können Sie dieselben Komponenten wie für eine E-Mail verwenden. [Weitere Informationen](../email/content-components.md#add-content-components)
 
-<!--
-The content of the **[!UICONTROL Confirmation]**, **[!UICONTROL Error]** and **[!UICONTROL Expiration]** pages is also pre-filled. Edit them as needed.
-
-Set the subscription form to the appropriate fields from the database to make sure it will work correctly.
-
-The landing page default fields are already there for the selected template.
-
->[!NOTE]
->
->You can also create a click-through landing page without a **[!UICONTROL Form]** component. In that case, the landing page will be displayed to users, but they will not be required to submit any form. This can be useful if you only want to showcase a landing page without requiring any action from your recipients such as opt-in or opt out, or want to provide information that doesn't require user input.
-
-Using the landing page content designer, you can also leverage contextual data coming from the primary page in a subpage. [Learn more](#use-primary-page-context)-->
+Der Inhalt der **[!UICONTROL Bestätigung]**, **[!UICONTROL Fehler]** und **[!UICONTROL Ablauf]** -Seiten sind ebenfalls vorausgefüllt. Bearbeiten Sie sie nach Bedarf.
 
 ## Verwenden von Formularkomponenten {#use-form-component}
 
@@ -80,7 +69,7 @@ Um bestimmte Inhalte zu definieren, mit denen Benutzende ihre Auswahl auf Ihrer 
 
    Definieren Sie, ob dieses Kontrollkästchen Benutzenden das An- oder Abmelden ermöglicht. Wählen Sie aus den beiden folgenden Optionen aus:
 
-   * **[!UICONTROL Anmelden wenn aktiviert]**: Benutzende müssen das Kontrollkästchen zum Einverständnis aktivieren (Opt-in).
+   * **[!UICONTROL Anmelden, falls aktiviert]**: Benutzer müssen das Kontrollkästchen zum Einverständnis aktivieren (Opt-in).
    * **[!UICONTROL Abmelden wenn aktiviert]**: Benutzende müssen das Kontrollkästchen aktivieren, um ihr Einverständnis zu entfernen (Opt-out).
 
 1. Sie können beliebig viele Textfelder und/oder Kontrollkästchen löschen und hinzufügen.
@@ -95,7 +84,7 @@ Um bestimmte Inhalte zu definieren, mit denen Benutzende ihre Auswahl auf Ihrer 
 
    * **[!UICONTROL Umleitungs-URL]**: Geben Sie die URL der Seite ein, zu der die Benutzenden umgeleitet werden sollen.
 
-1. Wenn Sie beim Senden des Formulars zusätzliche Aktualisierungen vornehmen möchten, wählen Sie **[!UICONTROL Zusätzliche Aktualisierungen]** und anschließend **[!UICONTROL Opt-in]** bzw. **[!UICONTROL Opt-out]** aus, und definieren Sie, ob Sie eine Abonnementliste, den Kanal oder nur die verwendete E-Mail-Adresse aktualisieren möchten.
+1. Wenn Sie beim Senden des Formulars zusätzliche Aktualisierungen vornehmen möchten, wählen Sie **[!UICONTROL Zusätzliche Aktualisierungen]** auswählen **[!UICONTROL Opt-in]** oder **[!UICONTROL Opt-out]** und definieren Sie, ob Sie eine Abonnementliste, den Kanal oder nur die verwendete E-Mail-Adresse aktualisieren möchten.
 
    ![](assets/lp-form-additionnal-updates.png)
 
