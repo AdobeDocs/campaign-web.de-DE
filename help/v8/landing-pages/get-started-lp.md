@@ -4,10 +4,10 @@ title: Erste Schritte mit Landingpages
 description: Informationen zu Landingpages in Campaign Web
 feature: Landing Pages
 badge: label="Eingeschränkte Verfügbarkeit"
-source-git-commit: b0ceaeaa3660f5723582365f78fc7870b81a4726
+source-git-commit: 7e9195929c8e408b039da9f84594f5066f0c24fb
 workflow-type: tm+mt
-source-wordcount: '249'
-ht-degree: 37%
+source-wordcount: '271'
+ht-degree: 25%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 37%
 
 [!DNL Adobe Campaign] ermöglicht die Erstellung, Konzeption und Freigabe von Landingpages.
 
-Im Rahmen von Marketing-Kampagnen ist eine Landingpage eine eigenständige Webseite, auf die Besucher weitergeleitet werden, nachdem sie auf einen Link in einer E-Mail, SMS, einem Push-Versand oder einer Website geklickt haben.
+Im Rahmen von Marketingkampagnen ist eine Landingpage eine eigenständige Webseite, auf die ein Besucher geleitet wird, nachdem er in einem Versand oder auf einer Website auf einen Link geklickt hat.
 
-Landingpages ermöglichen es Ihnen, Ihre Benutzer zu Online-Formularen zu leiten, über die sie sich vom Empfang Ihrer Nachrichten abmelden oder einen bestimmten Dienst wie beispielsweise einen Newsletter abonnieren können.
+Landingpages ermöglichen es Ihnen, Ihre Benutzer zu Online-Formularen weiterzuleiten, in denen sie ihre Daten aktualisieren, sich vom Erhalt Ihrer Nachrichten abmelden oder einen bestimmten Dienst wie einen Newsletter abonnieren können.
 
 >[!CAUTION]
 >
@@ -33,10 +33,11 @@ Landingpages ermöglichen es Ihnen, Ihre Benutzer zu Online-Formularen zu leiten
 
 Die wichtigsten Funktionen von Landingpages sind unten aufgeführt:
 
-* Verwenden Sie [!DNL Adobe Campaign]-Funktionen zur Inhaltserstellung, um mühelos **responsive Landingpages** zu erstellen.
-* Richten Sie **Opt-in- und Opt-out-Flüsse** schnell und nahtlos ein.
-* Erstellen Sie Anmeldedienste, damit sich Benutzende **für einen Dienst anmelden können**. [Weitere Informationen](../audience/manage-services.md)
-* Bieten Sie Ihren Empfängerinnen und Empfängern die Möglichkeit, sich vom Empfang Ihrer Nachrichten **abzumelden**.
+* Sofortiges Erstellen, Entwerfen und Freigeben von Landingpages mithilfe von einsatzbereiten **Vorab ausgefüllte Vorlagen** Abgleichen verschiedener Anwendungsfälle. [Weitere Informationen](create-lp.md)
+* Nutzung [!DNL Adobe Campaign] Funktionen zur Inhaltserstellung **responsive Landingpages**. [Weitere Informationen](lp-content.md)
+* Einrichten **Opt-in- und Opt-out-Workflows** schnell und nahtlos. [Weitere Informationen](lp-use-cases.md)
+* Erstellen Sie Anmeldedienste, damit sich Benutzende **für einen Dienst anmelden können**. [Weitere Informationen](lp-use-cases.md#lp-subscription)
+* Geben Sie Ihren Empfängern die **Abmeldefähigkeit** nach Erhalt Ihrer Nachrichten. [Weitere Informationen](lp-use-cases.md#lp-unsubscription)
   <!--Send a **confirmation email** upon opt-in or opt-out.-->
 
 <table style="table-layout:fixed"><tr style="border: 0;">
