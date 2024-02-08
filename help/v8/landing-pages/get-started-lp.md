@@ -4,7 +4,7 @@ title: Erste Schritte mit Landingpages
 description: Informationen zu Landingpages in Campaign Web
 feature: Landing Pages
 badge: label="Eingeschränkte Verfügbarkeit"
-source-git-commit: e661517d68c2fe21f4209dbec2d98648740a3a86
+source-git-commit: b0ceaeaa3660f5723582365f78fc7870b81a4726
 workflow-type: tm+mt
 source-wordcount: '249'
 ht-degree: 37%
@@ -23,7 +23,7 @@ ht-degree: 37%
 
 Im Rahmen von Marketing-Kampagnen ist eine Landingpage eine eigenständige Webseite, auf die Besucher weitergeleitet werden, nachdem sie auf einen Link in einer E-Mail, SMS, einem Push-Versand oder einer Website geklickt haben.
 
-Mit Landingpages können Sie Ihre Benutzer zu Online-Formularen weiterleiten, in denen sie sich vom Erhalt Ihrer Nachrichten abmelden oder einen bestimmten Dienst wie einen Newsletter abonnieren können.
+Landingpages ermöglichen es Ihnen, Ihre Benutzer zu Online-Formularen zu leiten, über die sie sich vom Empfang Ihrer Nachrichten abmelden oder einen bestimmten Dienst wie beispielsweise einen Newsletter abonnieren können.
 
 >[!CAUTION]
 >
