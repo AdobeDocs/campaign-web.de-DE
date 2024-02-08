@@ -3,10 +3,10 @@ title: Erstellen einer Landingpage
 description: Hier erfahren Sie, wie Sie in Campaign Web eine Landingpage konfigurieren und veröffentlichen können.
 feature: Landing Pages
 badge: label="Eingeschränkte Verfügbarkeit"
-source-git-commit: 601cc62c5640069ce9e6ee4830f924c610e0915f
+source-git-commit: 5e5c731fa76684407080d9a1aa6f8a81de7ebc92
 workflow-type: tm+mt
-source-wordcount: '1237'
-ht-degree: 49%
+source-wordcount: '1279'
+ht-degree: 44%
 
 ---
 
@@ -80,9 +80,13 @@ Sie können eine Landingpage duplizieren oder löschen. Klicken Sie auf das Ausl
    * **[!UICONTROL Akquise]**: Dies ist die Standardvorlage für Landingpages, mit der Sie Profildaten erfassen und aktualisieren können.
    * **[!UICONTROL Abonnement]**: Verwenden Sie diese Vorlage, damit Benutzer sich für eine bestimmte [service](../audience/manage-services.md).
    * **[!UICONTROL Abmeldung]**: Diese Vorlage kann in einem Versand verwendet werden, der an Abonnenten eines Dienstes gesendet wird, damit sie sich von dieser Abmeldung abmelden können. [service](../audience/manage-services.md).
-   * **[!UICONTROL Blockierungsliste]**: Verwenden Sie diese Vorlage, wenn ein Profil nicht mehr von Campaign kontaktiert werden möchte. Weitere Informationen zur Verwaltung von Blockierungslisten
+   * **[!UICONTROL Blockierungsliste]**: Diese Vorlage sollte verwendet werden, wenn ein Profil nicht mehr von Campaign kontaktiert werden möchte.
 
    ![](assets/lp-templates.png)
+
+   >[!NOTE]
+   >
+   >Erfahren Sie, wie Sie die verschiedenen Anwendungsfälle für jede Vorlage implementieren können in [diesem Abschnitt](lp-use-cases.md).
 
 1. Klicken Sie auf **[!UICONTROL Erstellen]**.
 
@@ -94,7 +98,7 @@ Sie können eine Landingpage duplizieren oder löschen. Klicken Sie auf das Ausl
 
 1. Im Abschnitt **[!UICONTROL Datenvorbereitung]** sind die beiden folgenden Optionen standardmäßig ausgewählt:
 
-   * Mit der Option **[!UICONTROL Mit den Daten vorausfüllen, die im Formular referenziert werden]** können Sie automatisch die Daten vorab laden, die den Eingabe- und Zusammenführungsfeldern im Formular entsprechen.
+   * Wenn die Variable **[!UICONTROL Vorausfüllen mit den im Formular referenzierten Daten]** aktiviert ist, werden die Profilinformationen automatisch im Formular vorausgefüllt, wenn der Besucher der Landingpage mit einem Profil aus der Datenbank übereinstimmt. Der Benutzer muss nur die fehlenden Felder ausfüllen und bei Bedarf die vorhandenen Werte aktualisieren. Auf diese Weise können Daten für vorhandene Profile zusammengeführt werden, anstatt Duplikate zu erstellen.
 
    * Wenn Sie keine Profile aktualisieren möchten, muss die Option **[!UICONTROL Bei nicht angegebener Identifizierung vorausgefüllte Informationen ignorieren]** ausgewählt werden. In diesem Fall wird jedes eingegebene Profil nach Genehmigung des Formulars der Datenbank hinzugefügt. Diese Option wird beispielsweise verwendet, wenn das Formular auf einer Website veröffentlicht wird.
 
@@ -118,7 +122,7 @@ Sie können eine Landingpage duplizieren oder löschen. Klicken Sie auf das Ausl
      >
      >Wenn kein Startdatum definiert ist, wird die Landingpage sofort nach der Veröffentlichung live geschaltet.
 
-   * Wenn die Seite das Enddatum erreicht, wird die Veröffentlichung der Landingpage automatisch aufgehoben und das Formular ist nicht mehr verfügbar. Die **[!UICONTROL Ablauf]** -Seite angezeigt.
+   * Wenn die Seite das Enddatum erreicht, <!--the landing page is automatically unpublished and -->das Formular nicht mehr verfügbar ist. Die **[!UICONTROL Ablauf]** -Seite angezeigt.
 
      >[!NOTE]
      >
