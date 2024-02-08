@@ -4,10 +4,10 @@ title: Über die Versandvorschau und Tests
 description: Weitere Informationen dazu, wie Sendungen in der Vorschau angezeigt und getestet werden können
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
 badge: label="Eingeschränkte Verfügbarkeit"
-source-git-commit: 17274023326462882f487c75de5df9fe2ba5df22
+source-git-commit: 462725104d28a967dd8a072ef6064b74dad91c58
 workflow-type: tm+mt
-source-wordcount: '197'
-ht-degree: 84%
+source-wordcount: '201'
+ht-degree: 72%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 84%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate"
 >title="Vorschau erstellen und Inhalt testen"
->abstract="Nachdem Ihr Inhalt definiert wurde, können Sie Testprofile verwenden, um ihn in der Vorschau anzuzeigen und zu testen."
+>abstract="Nachdem Ihr Inhalt definiert wurde, können Sie Profile und Testprofile verwenden, um ihn in der Vorschau anzuzeigen und zu testen."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/test-deliveries.html?lang=de" text="Durchführen von Testsendungen"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html#test-landing-page" text="Testen von Landingpages"
 
-Sobald der Versandinhalt definiert worden ist, können Sie ihn vor dem Senden der Nachricht mithilfe von Testprofilen in einer Vorschau anzeigen und testen.
+Nachdem der Versandinhalt definiert wurde, können Sie Profile und Testprofile verwenden, um eine Vorschau anzuzeigen und zu testen, bevor Sie die Nachricht senden.
 
 Dies ist ein entscheidender Schritt, um sicherzustellen, dass er präzise, aber auch frei von Fehlern ist, sowohl in den Inhalts- als auch in den Personalisierungseinstellungen.
 

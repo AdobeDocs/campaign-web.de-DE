@@ -4,10 +4,10 @@ title: Testen des E-Mail-Rendering
 description: Erfahren Sie, wie Sie Ihr E-Mail-Rendering in der Campaign-Web-Benutzeroberfläche testen können.
 exl-id: 5cdbce8b-3969-470d-8019-1edc58433146
 badge: label="Eingeschränkte Verfügbarkeit"
-source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
+source-git-commit: 462725104d28a967dd8a072ef6064b74dad91c58
 workflow-type: tm+mt
-source-wordcount: '228'
-ht-degree: 94%
+source-wordcount: '231'
+ht-degree: 90%
 
 ---
 
@@ -25,7 +25,7 @@ Zu diesem Zweck können Sie Ihr **Litmus**-Konto in [!DNL Adobe Campaign] einbin
 Für den Zugriff auf E-Mail-Rendering-Funktionen müssen Sie folgende Voraussetzungen erfüllen:
 
 * Ein Litmus-Konto besitzen
-* Testprofile auswählen: Erfahren Sie mehr darüber in [diesem Abschnitt](preview-content.md)
+* Profile auswählen und/oder Testprofile auswählen - Erfahren Sie mehr in [diesem Abschnitt](preview-content.md)
 
 Gehen Sie dann wie folgt vor:
 

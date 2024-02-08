@@ -2,10 +2,10 @@
 title: Erste Schritte mit Profilen
 description: Erfahren Sie, wie Sie Profile in Adobe Campaign Web überwachen und verwalten können.
 badge: label="Eingeschränkte Verfügbarkeit"
-source-git-commit: 22b183a739dd92d7c4245fb4694034a247511d75
+source-git-commit: 462725104d28a967dd8a072ef6064b74dad91c58
 workflow-type: tm+mt
-source-wordcount: '425'
-ht-degree: 71%
+source-wordcount: '527'
+ht-degree: 57%
 
 ---
 
@@ -33,17 +33,15 @@ ht-degree: 71%
 
 ## Was ist ein Profil? {#what}
 
-Ein Profil in Adobe Campaign Web ist eine in der Datenbank gespeicherte Person, die als Schlüsselkomponente zum [Erstellen von Zielgruppen](create-audience.md) für Sendungen und zum [Hinzufügen von Personalisierungsdaten](../personalization/personalize.md) zu Ihren Inhalten dient.
+A **profile**, in der Clientkonsole auch als &quot;Empfänger&quot;bezeichnet, stellt eine in der Campaign-Datenbank gespeicherte Person dar und dient als Schlüsselkomponente für [Erstellen von Zielgruppen](create-audience.md) für Sendungen und [Personalisierung hinzufügen](../personalization/personalize.md) Daten an Ihren Inhalt. Adobe Campaign ermöglicht die nahtlose Verwaltung von Profilen, von der Erstellung neuer Einträge bis hin zur umfassenden Übersicht aller Abonnements für Profile und Dienste über die Campaign-Webbenutzeroberfläche.
 
-Mit Adobe Campaign können Sie Ihre Profile direkt über die Benutzeroberfläche erstellen und überwachen. Dort können Sie Profile erstellen, auf eine detaillierte Ansicht Ihrer Profile zugreifen und sie bearbeiten.
+Darüber hinaus **[!UICONTROL Testprofile]**, in der Clientkonsole als &quot;Testprofile&quot;bezeichnet, ermöglichen es Ihnen, zusätzliche Empfänger anzusprechen, die nicht den Targeting-Kriterien eines bestimmten Versands entsprechen. Diese Profile enthalten fiktive Kontaktinformationen oder Kontaktinformationen, die vom Absender kontrolliert werden. Sie können der Audience einer Nachricht hinzugefügt werden, um beispielsweise Missbrauch bei der Nutzung Ihrer Empfängerdatenbank zu erkennen oder sicherzustellen, dass die E-Mails in den Postfächern ankommen. [Erfahren Sie, wie Sie mit Testprofilen arbeiten](test-profiles.md)
 
-Es werden auch andere Profiltypen in der Datenbank gespeichert, z. B. **[!UICONTROL Testprofile]**, mit denen Sie Ihre Sendungen testen können, bevor sie an die endgültige Zielgruppe gesendet werden. [Erfahren Sie, wie Sie mit Testprofilen arbeiten.](test-profiles.md)
+Sie können sowohl Profile als auch Testprofile verwenden, um Ihre Sendungen zu testen, bevor sie die gewünschte Zielgruppe erreichen. Auf diese Weise können Sie eine Vorschau des Nachrichteninhalts und der Personalisierung anzeigen, Testsendungen zum Testen und Validieren durchführen, das E-Mail-Rendering auf verschiedenen Plattformen und Geräten evaluieren und Ihre Landingpages testen. [Erfahren Sie, wie Sie Sendungen in der Vorschau anzeigen und testen können.](../preview-test/preview-test.md)
 
-## Auf die Profilliste zugreifen {#access}
+## Zugriff auf die Liste der Profile {#access}
 
-Die Profile können im Adobe Campaign Web über die **[!UICONTROL Kundenverwaltung]** > **Profile** in der linken Navigationsleiste.
-
-Sie können auch über die **[!UICONTROL Explorer]** Ansicht aus der **[!UICONTROL Profile und Zielgruppen]** > **[!UICONTROL Empfänger]** Knoten. Dort können Sie Ordner oder Unterordner durchsuchen, erstellen und verwalten sowie die zugehörigen Berechtigungen überprüfen. [Erfahren Sie, wie Sie Ordner erstellen](../get-started/permissions.md#folders)
+Die Profile können im Adobe Campaign Web über die **[!UICONTROL Kundenverwaltung]** > **Profile** in der linken Navigationsleiste. Sie können auch im **[!UICONTROL Explorer]** Ansicht aus der **[!UICONTROL Profile und Zielgruppen]** > **[!UICONTROL Empfänger]** Knoten. Dort können Sie Ordner oder Unterordner durchsuchen, erstellen und verwalten sowie die zugehörigen Berechtigungen überprüfen. [Erfahren Sie, wie Sie Ordner erstellen](../get-started/permissions.md#folders)
 
 >[!NOTE]
 >
@@ -53,6 +51,6 @@ Sie können die Liste der **[!UICONTROL Profile]** mit dem Suchfeld oder den unt
 
 ![](assets/profiles-list-filters.png)
 
-Um auf die Details eines Profils zuzugreifen, klicken Sie in der Liste auf dessen Namen. Eine detaillierte Ansicht des Profils wird geöffnet, in der Sie seine Attribute und die Dienste, die er abonniert hat, einsehen können. [Erfahren Sie, wie Sie die Profildetails durchsuchen können.](create-profile.md)
+Um auf die Details eines Profils zuzugreifen, klicken Sie in der Liste auf dessen Namen. Eine detaillierte Ansicht des Profils wird geöffnet, in der Sie seine Attribute und die Dienste, die es abonniert hat, einsehen können. [Erfahren Sie, wie Sie die Profildetails durchsuchen können.](create-profile.md)
 
 Um ein Profil zu löschen, wählen Sie die entsprechende Option im Menü **[!UICONTROL Mehr Aktionen]**.
