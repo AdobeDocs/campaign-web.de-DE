@@ -3,10 +3,10 @@ audience: end-user
 title: Funktionsmatrix für die Webbenutzeroberfläche/Clientkonsole von Campaign
 description: Liste der in der Campaign-Webbenutzeroberfläche unterstützten Funktionen
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 4da0df82cf95a23cce0d6bcee4e09d92833943db
+source-git-commit: a144814b4bea95d2272ccaa32de4ff49e14ac60c
 workflow-type: tm+mt
-source-wordcount: '1779'
-ht-degree: 12%
+source-wordcount: '2143'
+ht-degree: 11%
 
 ---
 
@@ -43,8 +43,8 @@ Verwenden Sie die bereitgestellten Links, um die Dokumentation zu Campaign v8 (C
 
 * **Briefpost**. Der Briefpost-Kanal ermöglicht es Ihnen, eine physische Korrespondenz an Ihre Kunden, Kunden, Lieferanten oder andere, wie z. B. Mitteilungen, Rechnungen, Kontoauszüge, Marketingangebote und mehr, zu senden. Dieser Kanal ist nur in der Clientkonsole verfügbar.  [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-direct-mail/about-direct-mail-channel.html?lang=de#sending-messages){target="_blank"}
 * **LINE-Messaging**. LINE ist ein Programm für kostenloses Instant Messaging, Sprach- und Videoanrufe, das für alle Smartphones und für Desktop verfügbar ist. Mit Adobe Campaign können Sie LINE-Nachrichten nur aus der Clientkonsole senden. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/line.html){target="_blank"}
-* Callcenter- und benutzerdefinierte Kanäle. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/communication-channels.html#other-channels){target="_blank"}
-* Social Marketing mit X (Twitter). [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html?lang=de){target="_blank"}
+* **Callcenter- und benutzerdefinierte Kanäle**. Callcenter und andere benutzerdefinierte Kanäle können in Ihrer Campaign-Umgebung implementiert werden. Diese Kanäle können nur in der Clientkonsole verfügbar sein. [Weitere Informationen finden Sie in der Dokumentation zu Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/communication-channels.html#other-channels){target="_blank"}
+* **Soziales Marketing** mit X (Twitter). Sie interagieren mit Ihren Kunden über X (Twitter), indem Sie Nachrichten posten und Direktnachrichten versenden. Diese Funktion ist in Verbindung mit dem Social Marketing-Add-on nur in der Client-Konsole verfügbar - [Weitere Infos](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html?lang=de){target="_blank"}
 
 ## Landingpages und Webanwendungen {#Webapps-capabilities}
 
@@ -52,9 +52,9 @@ Mit Adobe Campaign können Sie Landingpages erstellen, entwerfen und freigeben. 
 
 Daher können Sie in der Campaign-Clientkonsole keine Landingpage bearbeiten, aktualisieren oder ändern, die in der Web-Oberfläche erstellt wurde - und umgekehrt. Die folgenden Typen von Webanwendungen sind nicht in der Web-Benutzeroberfläche von Campaign verfügbar. Sie sind jedoch in der Liste der Landingpages sichtbar. Verwenden Sie die bereitgestellten Links, um die Campaign Classic v7-Dokumentation zu durchsuchen und mehr über diese Web-Apps zu erfahren:
 
-* Webanwendungen. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-applications/about-web-applications.html){target="_blank"}
-* Webformulare. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html?lang=de){target="_blank"}
-* Online-Umfragen. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign-classic/using/online-surveys/about-surveys.html){target="_blank"}
+* **Webanwendungen**. Mit Adobe Campaign können Sie dynamische und interaktive Webanwendungen mit vorab geladenen Daten aus der Datenbank und Inhalten erstellen und veröffentlichen, die an die jeweiligen Benutzerrechte angepasst sind. Diese Funktion ist nur in der Clientkonsole verfügbar. [Weitere Informationen finden Sie in der Dokumentation zu Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-applications/about-web-applications.html){target="_blank"}
+* **Webformulare**. In der Clientkonsole erstellte Web- und Landingpages sind in der Campaign-Webbenutzeroberfläche sichtbar, können jedoch nicht bearbeitet oder geändert werden. Einige Optionen unterscheiden sich möglicherweise zwischen dem Webseitendesigner der Clientkonsole und dem Landingpage-Designer, der mit der Campaign-Webbenutzeroberfläche geliefert wird. [Weitere Informationen finden Sie in der Dokumentation zu Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html?lang=de){target="_blank"}
+* **Online-Umfragen**. Sie können Online-Umfragen erstellen und Antworten nur über die Clientkonsole erfassen. Diese Funktion ist nicht in der Web-Benutzeroberfläche von Campaign verfügbar.  [Weitere Informationen finden Sie in der Dokumentation zu Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/online-surveys/about-surveys.html){target="_blank"}
 
 
 ## Profile, Testprofile und Audiences {#profiles-audiences-capabilities}
@@ -88,9 +88,9 @@ Mit dieser neuen Benutzeroberfläche können Sie die Synchronisierung von E-Mail
 
 Beachten Sie, dass die folgenden Funktionen derzeit nicht in der Campaign-Web-Benutzeroberfläche verfügbar sind. Verwenden Sie die bereitgestellten Links, um die Dokumentation zu Campaign v8 (Clientkonsole) zu durchsuchen und mehr über diese Funktionen zu erfahren.
 
-* Erstellung benutzerdefinierter Gestaltungsbausteine. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html#create-custom-personalization-blocks){target="_blank"}
-* Inhalte aus benutzerdefinierten Formularen (Content Management-Modul). [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/content-management/about-content-management.html){target="_blank"}
-* AMP für E-Mails. [Weitere Informationen finden Sie in der Dokumentation zu Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/defining-interactive-content.html){target="_blank"}
+* **Erstellung benutzerdefinierter Gestaltungsbausteine**. Neben den Standard-Gestaltungsbausteinen können Sie auch benutzerdefinierte Bausteine aus der Clientkonsole erstellen. Diese Funktion ist nicht in der Web-Benutzeroberfläche von Campaign verfügbar. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html#create-custom-personalization-blocks){target="_blank"}
+* **Inhalt aus benutzerdefinierten Formularen**. Mit dem Content Management-Modul können Sie Formulare erstellen und verwalten, die Ihre Benutzer bei der Erstellung von Inhalten in Campaign unterstützen. Diese Funktion ist nur in der Client-Konsole verfügbar. [Weitere Informationen finden Sie in der Dokumentation zu Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/content-management/about-content-management.html){target="_blank"}
+* **AMP für E-Mails**. Das neue Format AMP für E-Mail ermöglicht es Ihnen, AMP-Komponenten in Ihre Nachrichten einzuschließen und das E-Mail-Erlebnis mit komplexen und umsetzbaren Inhalten zu verbessern. Diese Funktion ist nur in der Clientkonsole verfügbar. [Weitere Informationen finden Sie in der Dokumentation zu Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/defining-interactive-content.html){target="_blank"}
 <!--
 * Content from a URL`*`
 * Email fragments`*`
@@ -157,10 +157,10 @@ Die Campaign-Webbenutzeroberfläche bietet nicht die folgenden Funktionen. Sie s
 
 Durchsuchen Sie die angegebenen Links im [Dokumentation zu Campaign v8 (Clientkonsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=de){target="_blank"} , um mehr zu erfahren.
 
-* Externe Konten. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/external-accounts.html){target="_blank"}
-* Erstellung und Erweiterung von Schemas. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/schemas.html){target="_blank"}
-* Workflow-Aktivitäten für das Daten-Management: Laden, Extraktion (Datei), Daten-Update, Schema-Bearbeitung, Technische Workflows zum Import/Export. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html#data-management){target="_blank"}
-* Kampagnenkonfiguration und -verbindung zu externen Systemen. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html?lang=de){target="_blank"}
+* **Externe Konten**. Adobe Campaign verfügt über eine Reihe vordefinierter externer Konten, um eine Verbindung mit externen Systemen herzustellen. Als Campaign-Systemadministrator können Sie externe Konten nur über die Clientkonsole erstellen und verwalten.[Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/external-accounts.html){target="_blank"}
+* **Schemaerstellung und -erweiterung**. Die Erstellung, Änderung und Erweiterung von Schemas sind auf erweiterte Benutzer beschränkt. Diese Funktionen sind nur in der Client-Konsole verfügbar. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/schemas.html){target="_blank"}
+* **Data Management** Workflow-Aktivitäten. Data Management kombiniert eine Reihe von Aktivitäten zur Lösung komplexer Targeting-Probleme mit effizienteren und flexibleren Tools. Zu diesen Aktivitäten gehören: Laden, Extraktion (Datei), Daten-Update, Schema-Bearbeitung, Technische Workflows zum Import/Export. Sie sind nur in der Clientkonsole verfügbar. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html#data-management){target="_blank"}
+* **Federated Data Access**. Die Konfiguration und Verbindung von Campaign mit externen Systemen ist auf erfahrene Benutzer beschränkt und nur über die Clientkonsole verfügbar. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html?lang=de){target="_blank"}
 
 ## Validierungen {#approvals-capabilities}
 
