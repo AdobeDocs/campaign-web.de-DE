@@ -3,10 +3,10 @@ audience: end-user
 title: Funktionsmatrix für die Webbenutzeroberfläche/Clientkonsole von Campaign
 description: Liste der in der Campaign-Webbenutzeroberfläche unterstützten Funktionen
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 552f9d8fb3e7a4907f9c9830920e1c311fcecd5c
+source-git-commit: 969c6c76654d4fb84cdf4a885b44924a1e46f524
 workflow-type: tm+mt
-source-wordcount: '1704'
-ht-degree: 11%
+source-wordcount: '1772'
+ht-degree: 12%
 
 ---
 
@@ -41,8 +41,8 @@ Verwenden Sie die bereitgestellten Links, um die Dokumentation zu Campaign v8 (C
 
 Verwenden Sie die bereitgestellten Links, um die Dokumentation zu Campaign v8 (Clientkonsole) zu durchsuchen und mehr über diese Kanäle zu erfahren.
 
-* Briefpost. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-direct-mail/about-direct-mail-channel.html?lang=de#sending-messages){target="_blank"}
-* LINE-Messaging. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/line.html){target="_blank"}
+* **Briefpost**. Der Briefpost-Kanal ermöglicht es Ihnen, eine physische Korrespondenz an Ihre Kunden, Kunden, Lieferanten oder andere, wie z. B. Mitteilungen, Rechnungen, Kontoauszüge, Marketingangebote und mehr, zu senden. Dieser Kanal ist nur in der Clientkonsole verfügbar.  [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-direct-mail/about-direct-mail-channel.html?lang=de#sending-messages){target="_blank"}
+* **LINE-Messaging**. LINE ist ein Programm für kostenloses Instant Messaging, Sprach- und Videoanrufe, das für alle Smartphones und für Desktop verfügbar ist. Mit Adobe Campaign können Sie LINE-Nachrichten nur aus der Clientkonsole senden.[Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/line.html){target="_blank"}
 * Callcenter- und benutzerdefinierte Kanäle. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/communication-channels.html#other-channels){target="_blank"}
 * Social Marketing mit X (Twitter). [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html?lang=de){target="_blank"}
 
