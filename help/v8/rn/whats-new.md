@@ -4,10 +4,10 @@ title: Neue Funktionen in der Campaign-Webbenutzeroberfläche
 description: Neue Funktionen der Campaign-Webbenutzeroberfläche
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Eingeschränkte Verfügbarkeit"
-source-git-commit: 69c0ea49a4caff85cd56dbc114fbfaf888ceaf1e
+source-git-commit: 60fdb2d3a17bc4cd1d30d66aa7e9c5e7d624c5eb
 workflow-type: tm+mt
-source-wordcount: '1313'
-ht-degree: 79%
+source-wordcount: '1290'
+ht-degree: 75%
 
 ---
 
@@ -158,20 +158,20 @@ In der Campaign-Webbenutzeroberfläche spiegelt die Benutzeroberfläche die Bere
 
 Bestehende Campaign-Benutzende sollten beachten, dass einige Konzepte entsprechend den aktuellen Terminologiestandards umbenannt wurden. Diese Änderungen gelten nur für die Campaign-Webbenutzeroberfläche und werden nicht in der Clientkonsole übernommen. Sie sind unten zusammengefasst.
 
-* Testsendungen heißen jetzt **Test-E-Mails**: verwenden Sie zum Testversand die Schaltfläche **Test** in der Benutzeroberfläche des E-Mail-Versands. Die Zielgruppe der Testsendungen wird jetzt als **Testprofile** bezeichnet. [Weitere Informationen](../preview-test/test-deliveries.md).
-* Testadressen werden jetzt als **Testprofile** verwendet: Senden Sie die Test-E-Mail an Testadressen, bei denen es sich um zusätzliche Empfängerinnen und Empfänger in der Datenbank handelt. [Weitere Informationen](../preview-test/test-deliveries.md).
+* Empfänger sind jetzt **Profile**. [Weitere Informationen](../audience/gs-audiences-recipients.md).
+* Testadressen sind jetzt **Testprofile**. [Weitere Informationen](../preview-test/test-deliveries.md).
 * Die Versandanalyse heißt jetzt **Versandvorbereitung**. Wenn Sie die Vorbereitung von Nachrichten starten möchten, klicken Sie auf die Schaltfläche **Vorbereiten**.  [Weitere Informationen](../monitor/prepare-send.md).
 * Die E-Mail-Vorschau ist jetzt über die Schaltfläche **Inhalt simulieren** verfügbar. [Weitere Informationen](../preview-test/preview-test.md)
-* Listen heißen jetzt **Zielgruppen**. [Weitere Informationen](../audience/about-recipients.md).
+* Listen heißen jetzt **Zielgruppen**. [Weitere Informationen](../audience/gs-audiences-recipients.md).
 
 ## Einschränkungen{#limitations-beta}
 
 Für diese Version gelten folgende Einschränkungen:
 
 * Bearbeitbare Objekte sind: Empfängerinnen und Empfänger, Sendungen, Kampagnen, Workflows, Zielgruppen, Abonnementdienste, vordefinierte Filter und Vorlagen. Alle übrigen sind schreibgeschützt. Verwenden Sie Filter und erstellen Sie Regeln, um sie alle zu durchsuchen.
-* Die Benutzeroberfläche „Administration“ ist nicht verfügbar.
+* Die Administrations- und erweiterten Konfigurationsfunktionen sind in der Campaign-Web-Benutzeroberfläche nicht verfügbar.
 * Reporting-Metriken (wie Öffnungen und Tracking-Daten) werden stündlich aktualisiert.
 * Die KPIs im Versand-Dashboard werden alle 5 Minuten aktualisiert. – aber die Versandvorbereitung erfolgt in Echtzeit.
 * Benachrichtigungen von Adobe Experience Cloud und die in der Symbolleiste verfügbare einheitliche Hilfe sind noch nicht integriert.
 
-Weiterführende Informationen und Einschränkungen finden Sie auf [dieser Seite](../get-started/guardrails.md).
+Erfahren Sie mehr über unterstützte/nicht unterstützte Funktionen und die Interoperabilität zwischen der Campaign-Webbenutzeroberfläche und der Campaign-Clientkonsole. [auf dieser Seite](../get-started/capability-matrix.md).

@@ -2,21 +2,19 @@
 audience: end-user
 title: Funktionsmatrix für die Webbenutzeroberfläche/Clientkonsole von Campaign
 description: Liste der in der Campaign-Webbenutzeroberfläche unterstützten Funktionen
-hide: true
-hidefromtoc: true
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 3c011a8f0958b7d0875fc18ec59309ef4b1f4103
+source-git-commit: 60fdb2d3a17bc4cd1d30d66aa7e9c5e7d624c5eb
 workflow-type: tm+mt
-source-wordcount: '1495'
+source-wordcount: '1500'
 ht-degree: 12%
 
 ---
 
-# Funktionsmatrix für die Webbenutzeroberfläche/Clientkonsole von Campaign {#capabilities-matrix}
+# Campaign Web und Campaign Client Console {#capabilities-matrix}
 
 Die wichtigsten Campaign-Funktionen sind in der Campaign-Web-Benutzeroberfläche verfügbar. Diese Schnittstelle wurde speziell für Marketing-Experten entwickelt, um ihre Marketing-Kampagnen zu planen, zu starten und zu messen. Alle Funktionen sind aufgelistet [auf dieser Seite](../rn/whats-new.md).
 
-Die Anpassung der Campaign-Plattform an geschäftliche und Datenanforderungen sowie die Verbindung zu anderen Systemen werden in der Campaign-Clientkonsole verwaltet. Daher können einige Einstellungen und Funktionen nur über die Campaign Client Console aufgerufen, erstellt oder verwaltet werden. Einige sind in einer späteren Aktualisierung der Campaign-Webbenutzeroberfläche verfügbar.
+Die Anpassung der Campaign-Plattform an geschäftliche und Datenanforderungen sowie die Verbindung zu anderen Systemen werden in der Campaign-Clientkonsole verwaltet. Daher können einige Einstellungen und Funktionen nur über die Campaign-Clientkonsole aufgerufen, erstellt oder verwaltet werden. Einige sind in einer späteren Aktualisierung der Campaign-Webbenutzeroberfläche verfügbar.
 
 <!--
 **Homepage**
@@ -61,7 +59,9 @@ Daher können Sie in der Campaign-Clientkonsole keine Landingpage bearbeiten, ak
 
 ## Profile, Testprofile und Audiences {#profiles-audiences-capabilities}
 
-Sie können Profile und Testprofile sowohl in der Campaign-Clientkonsole als auch in der Campaign-Webbenutzeroberfläche erstellen, verwalten und aktualisieren. Alle in einer Benutzeroberfläche vorgenommenen Änderungen sind in der anderen sichtbar. Einige spezifische Empfängereinstellungen und erweiterte Parameter können jedoch in der neuen Campaign-Webbenutzeroberfläche fehlen. Beachten Sie, dass der Begriff &quot;Empfänger&quot;in der neuen Web-Benutzeroberfläche in &quot;Profil&quot;geändert wurde.
+Sie können Profile und Testprofile sowohl in der Campaign-Clientkonsole als auch in der Campaign-Webbenutzeroberfläche erstellen, verwalten und aktualisieren. Alle in einer Benutzeroberfläche vorgenommenen Änderungen sind in der anderen sichtbar. Einige spezifische Empfängereinstellungen und erweiterte Parameter können jedoch in der neuen Campaign-Webbenutzeroberfläche fehlen.
+
+Beachten Sie, dass der Begriff &quot;Empfänger&quot;in der neuen Web-Benutzeroberfläche in &quot;Profil&quot;geändert wurde und &quot;Testadressen&quot;jetzt &quot;Testprofile&quot;sind.
 
 <!--Audience composition is a new capability coming with Campaign Web user interface. As a consequence, in Campaign client console, you cannot edit, update or modify an [audience created with the Query modeler](../query/query-modeler-overview.md). -->
 
@@ -155,7 +155,7 @@ Einige Funktionen sind nur in der Client-Konsole verfügbar. Durchsuchen Sie die
 
 Die Campaign-Webbenutzeroberfläche bietet nicht die folgenden Funktionen. Sie sind nur in der Clientkonsole verfügbar.
 
-Durchsuchen Sie die angegebenen Links im [Dokumentation zu Campaign v8 (Clientkonsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=de){target="_blank"} und mehr dazu.
+Durchsuchen Sie die angegebenen Links im [Dokumentation zu Campaign v8 (Clientkonsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=de){target="_blank"} , um mehr zu erfahren.
 
 * Externe Konten. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/external-accounts.html){target="_blank"}
 * Erstellung und Erweiterung von Schemas. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/schemas.html){target="_blank"}

@@ -6,10 +6,10 @@ title: Adobe Campaign-Webdokumentation
 description: Campaign-Webdokumentation
 breadcrumb-title: Campaign-Webbenutzeroberfläche
 hide: true
-source-git-commit: 4b50a20f2ba60017b97d49df8b3d84c44c15ea8c
+source-git-commit: 60fdb2d3a17bc4cd1d30d66aa7e9c5e7d624c5eb
 workflow-type: tm+mt
-source-wordcount: '566'
-ht-degree: 88%
+source-wordcount: '570'
+ht-degree: 87%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 88%
    + [Durchsuchen und Filtern von Listen](get-started/list-filters.md)
    + [Arbeiten mit vordefinierten Filtern](get-started/predefined-filters.md)
    + [Zugriff und Berechtigungen](get-started/permissions.md)
-   + [Nicht unterstützte Funktionen](get-started/capability-matrix.md)
+   + [Campaign-Web- und Campaign-Client-Konsole](get-started/capability-matrix.md)
    + [KI-gestützte Kontexthilfe](get-started/using-ai.md)
 + Nachrichten und Sendungen {#msg}
    + [Erste Schritte mit Nachrichten](msg/gs-messages.md)
