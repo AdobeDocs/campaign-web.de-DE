@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: Landing, Landingpage, Anwendungsfall
-source-git-commit: 4666a74511c60cd006709bbfff6953669d2e2637
+source-git-commit: 7c6a485496dcac65722375d0c55402abe1ebbf59
 workflow-type: tm+mt
-source-wordcount: '1272'
+source-wordcount: '1279'
 ht-degree: 10%
 
 ---
@@ -145,6 +145,8 @@ Wenn Ihre Empfänger nach dem Erhalt der E-Mail auf den Link zur Landingpage kli
 
 ## Abmeldung {#lp-unsubscription}
 
+Sie können Ihren Kunden über eine Landingpage die Möglichkeit geben, sich von einem Dienst abzumelden.
+
 1. Stellen Sie sicher, dass Sie eine Bestätigungsvorlage für Benutzer erstellt haben, die sich von Ihrem Dienst abmelden, damit Sie diese bei der Erstellung des Dienstes einfach auswählen können. [Weitere Informationen](../audience/manage-services.md#create-confirmation-message)
 
 1. In der [Abonnement-Dienst](../audience/manage-services.md)wählen Sie die Vorlage aus, die Sie als Bestätigungs-E-Mail erstellt haben, die die Benutzer bei der Abmeldung erhalten.
@@ -167,11 +169,11 @@ Wenn Ihre Empfänger nach dem Erhalt der E-Mail auf den Link zur Landingpage kli
 
 1. Überprüfen und [publish](create-lp.md#publish-landing-page) Ihre Landingpage.
 
-1. Erstellen Sie eine [email](../email/create-email.md) und [Link hinzufügen](../email/message-tracking.md#insert-links) um den Traffic zur Anmelde-Landingpage zu leiten.
+1. Erstellen Sie eine [email](../email/create-email.md) und [Link hinzufügen](../email/message-tracking.md#insert-links) zur Landingpage hinzufügen.
 
-Wenn Ihre Empfänger nach dem Erhalt der E-Mail auf den Link zur Landingpage klicken und das Formular übermitteln, werden sie zur Bestätigungsseite für die Abmeldung weitergeleitet und aus der Abonnementliste entfernt.
+Wenn Ihre Empfänger nach dem Erhalt der E-Mail auf den Link zur Landingpage klicken und das Formular übermitteln, werden sie zur Bestätigungsseite für die Abmeldung weitergeleitet und aus dem entsprechenden Abonnementdienst entfernt.
 
-## Opt-out-Landingpages einrichten {#lp-denylist}
+## Blockierungsliste {#lp-denylist}
 
 Es ist gesetzlich vorgeschrieben, Empfängerinnen und Empfängern die Möglichkeit zu geben, sich vom Erhalt von Nachrichten einer Marke abzumelden. Daher müssen Sie immer eine **Abmelde-Link** in jeder E-Mail, die an Empfänger gesendet wird. Durch Klicken auf diesen Link werden die Empfängerinnen und Empfänger zu einer Landingpage weitergeleitet, die eine Schaltfläche enthält, über die sich die Abbestellung bestätigen lässt.
 
