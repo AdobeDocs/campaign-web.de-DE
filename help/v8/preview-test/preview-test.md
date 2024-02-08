@@ -4,9 +4,9 @@ title: Über die Versandvorschau und Tests
 description: Weitere Informationen dazu, wie Sendungen in der Vorschau angezeigt und getestet werden können
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
 badge: label="Eingeschränkte Verfügbarkeit"
-source-git-commit: e661517d68c2fe21f4209dbec2d98648740a3a86
+source-git-commit: 17274023326462882f487c75de5df9fe2ba5df22
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '197'
 ht-degree: 84%
 
 ---
@@ -17,7 +17,6 @@ ht-degree: 84%
 >id="acw_deliveries_simulate"
 >title="Vorschau erstellen und Inhalt testen"
 >abstract="Nachdem Ihr Inhalt definiert wurde, können Sie Testprofile verwenden, um ihn in der Vorschau anzuzeigen und zu testen."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/preview-content.html?lang=de" text="Vorschau des Nachrichteninhalts"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/test-deliveries.html?lang=de" text="Durchführen von Testsendungen"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html#test-landing-page" text="Testen von Landingpages"
 
