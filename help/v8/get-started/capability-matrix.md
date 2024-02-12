@@ -3,9 +3,9 @@ audience: end-user
 title: Funktionsmatrix für die Webbenutzeroberfläche/Clientkonsole von Campaign
 description: Liste der in der Campaign-Webbenutzeroberfläche unterstützten Funktionen
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 0a7fbd4a316359915eedfc33ffb78515a233793c
+source-git-commit: 45e5b528837614cdbd537d0a92e71265f65f97db
 workflow-type: tm+mt
-source-wordcount: '2156'
+source-wordcount: '2151'
 ht-degree: 11%
 
 ---
@@ -77,7 +77,6 @@ Durchsuchen Sie die [Dokumentation zu Campaign v8 (Clientkonsole)](https://exper
 
 * Echtzeit-Erstellung und -Ausführung von Nachrichten in E-Mails, SMS und Push-Benachrichtigungen
 * Anreicherung und Personalisierung von Nachrichten
-* Trigger (Adobe Analytics-Warenkorbabbruch)
 * Berichterstattung und Überwachung von Transaktionsnachrichten
 
 ## Inhaltserstellung {#content-capabilities}
