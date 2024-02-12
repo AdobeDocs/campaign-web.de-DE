@@ -1,10 +1,10 @@
 ---
 title: Erste Schritte mit Profilen
 description: Erfahren Sie, wie Sie Profile in Adobe Campaign Web überwachen und verwalten können.
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 55441646867b7dee454a7f37c0a1b696e61926de
 workflow-type: tm+mt
 source-wordcount: '527'
-ht-degree: 57%
+ht-degree: 54%
 
 ---
 
@@ -28,11 +28,11 @@ ht-degree: 57%
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"
 >title="Profile"
->abstract="Ein Profil ist ein Kontakt, der gezielt Nachrichten von Adobe Campaign erhält. In dieser Liste können die Details der Profile anhand der Berechtigungen angezeigt werden. Verwenden Sie die Filteroptionen, um diese Liste zu durchsuchen. Eine kleine Gruppe von Profilattributen kann bearbeitet und aktualisiert werden."
+>abstract="Ein Profil ist ein Datensatz, der für den Empfang von Nachrichten bestimmt ist, die von Adobe Campaign gesendet werden. In dieser Liste können die Details der Profile anhand der Berechtigungen angezeigt werden. Verwenden Sie die Filteroptionen, um diese Liste zu durchsuchen. Eine kleine Gruppe von Profilattributen kann bearbeitet und aktualisiert werden."
 
 ## Was ist ein Profil? {#what}
 
-A **profile**, in der Clientkonsole auch als &quot;Empfänger&quot;bezeichnet, stellt eine in der Campaign-Datenbank gespeicherte Person dar und dient als Schlüsselkomponente für [Erstellen von Zielgruppen](create-audience.md) für Sendungen und [Personalisierung hinzufügen](../personalization/personalize.md) Daten an Ihren Inhalt. Adobe Campaign ermöglicht die nahtlose Verwaltung von Profilen, von der Erstellung neuer Einträge bis hin zur umfassenden Übersicht aller Abonnements für Profile und Dienste über die Campaign-Webbenutzeroberfläche.
+A **profile**, in der Client-Konsole auch als &quot;Empfänger&quot;bezeichnet, stellt einen Datensatz dar, der in der Campaign-Datenbank gespeichert ist und als Schlüsselkomponente für [Erstellen von Zielgruppen](create-audience.md) für Sendungen und [Personalisierung hinzufügen](../personalization/personalize.md) Daten an Ihren Inhalt. Adobe Campaign ermöglicht die nahtlose Verwaltung von Profilen, von der Erstellung neuer Einträge bis hin zur umfassenden Übersicht aller Abonnements für Profile und Dienste über die Campaign-Webbenutzeroberfläche.
 
 Darüber hinaus **[!UICONTROL Testprofile]**, in der Clientkonsole als &quot;Testprofile&quot;bezeichnet, ermöglichen es Ihnen, zusätzliche Empfänger anzusprechen, die nicht den Targeting-Kriterien eines bestimmten Versands entsprechen. Diese Profile enthalten fiktive Kontaktinformationen oder Kontaktinformationen, die vom Absender kontrolliert werden. Sie können der Audience einer Nachricht hinzugefügt werden, um beispielsweise Missbrauch bei der Nutzung Ihrer Empfängerdatenbank zu erkennen oder sicherzustellen, dass die E-Mails in den Posteingang eingehen. [Erfahren Sie, wie Sie mit Testprofilen arbeiten](test-profiles.md)
 
