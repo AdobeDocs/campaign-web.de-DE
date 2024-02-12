@@ -3,9 +3,9 @@ audience: end-user
 title: Funktionsmatrix für die Webbenutzeroberfläche/Clientkonsole von Campaign
 description: Liste der in der Campaign-Webbenutzeroberfläche unterstützten Funktionen
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: a144814b4bea95d2272ccaa32de4ff49e14ac60c
+source-git-commit: 0a7fbd4a316359915eedfc33ffb78515a233793c
 workflow-type: tm+mt
-source-wordcount: '2143'
+source-wordcount: '2156'
 ht-degree: 11%
 
 ---
@@ -37,7 +37,7 @@ Verwenden Sie die bereitgestellten Links, um die Dokumentation zu Campaign v8 (C
 
 ## Kommunikationskanäle {#channels-capabilities}
 
-Über die Webbenutzeroberfläche von Campaign können Sie E-Mails, SMS und Push-Benachrichtigungen erstellen, entwerfen und versenden sowie ihre Wirkung mithilfe diverser Berichte messen, wie detailliert beschrieben [in diesem Abschnitt](../msg/gs-messages.md). Die folgenden Kanäle sind jedoch derzeit nicht verfügbar.
+Über die Campaign-Webbenutzeroberfläche können Sie **email**, **SMS** und **Push-Benachrichtigungen** und ihre Wirkung mithilfe diverser spezifischer Berichte wie beschrieben messen [in diesem Abschnitt](../msg/gs-messages.md). Die folgenden Kanäle sind derzeit jedoch **not** verfügbar: In-App, Briefpost, LINE, Callcenter/Benutzerdefinierter Kanal, Social Marketing mit X (Twitter).
 
 Verwenden Sie die bereitgestellten Links, um die Dokumentation zu Campaign v8 (Clientkonsole) zu durchsuchen und mehr über diese Kanäle zu erfahren.
 
@@ -104,7 +104,7 @@ Typologieregeln können für einen Versand oder eine Versandvorlage in der Webbe
 
 Verwenden Sie die bereitgestellten Links, um die Dokumentation zu Campaign v8 (Clientkonsole) zu durchsuchen und mehr über Typologieregeln zu erfahren:
 
-* Erstellung von Kontrollregeln. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html){target="_blank"}
+* Erstellung von Kontrollregeln. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html?lang=de){target="_blank"}
 * Ermüdung/Erstellung von Druckregeln. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=de){target="_blank"}
 * Erstellung von Filterregeln. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/filtering-rules.html){target="_blank"}
 * Verwaltung von Typologieregeln. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/apply-rules.html){target="_blank"}
