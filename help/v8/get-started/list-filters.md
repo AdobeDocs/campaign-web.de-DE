@@ -2,12 +2,11 @@
 audience: end-user
 title: Durchsuchen und Filtern von Listen
 description: Erfahren Sie, wie Sie Listen in Campaign Web v8 durchsuchen und filtern
-badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: 46b83e8c-6c8c-40a1-a08b-9d0b438b80cb
-source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '239'
-ht-degree: 100%
+source-wordcount: '245'
+ht-degree: 96%
 
 ---
 
@@ -19,17 +18,17 @@ Die meisten Links aus dem linken Navigationsmenü zeigen Listen von Objekten an,
 
 Die Listen werden in Spalten angezeigt. Sie können auch zusätzliche Informationen anzeigen, indem Sie die Spaltenkonfiguration ändern. Klicken Sie dazu auf das Symbol **Spalte für ein benutzerdefiniertes Layout konfigurieren** in der oberen rechten Ecke der Liste.
 
-![](assets/config-columns.png){width="70%" align="left" zoomable="yes"}
+![](assets/config-columns.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
 
 Im Bildschirm **Spalten konfigurieren** können Sie Spalten hinzufügen oder entfernen und die Reihenfolge ändern, in der sie angezeigt werden.
 
 Für diese Einstellungen:
 
-![](assets/columns.png){width="70%" align="left" zoomable="yes"}
+![](assets/columns.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
 
 enthält die Liste beispielsweise die folgenden Spalten:
 
-![](assets/column-sample.png){width="70%" align="left" zoomable="yes"}
+![](assets/column-sample.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
 
 ## Sortieren der Daten {#sort-lists}
 
@@ -41,7 +40,7 @@ Bei numerischen Spalten oder Datumsspalten bedeutet der **Aufwärtspfeil**, dass
 
 Um Elemente schneller zu finden, können Sie die Suchleiste verwenden oder die Liste nach Kontextkriterien filtern.
 
-![](assets/filter.png){width="70%" align="left" zoomable="yes"}
+![](assets/filter.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
 
 Detaillierte Informationen zur Verwendung von Filtern und zur Erstellung eigener benutzerdefinierter Filter finden Sie in [diesem Abschnitt](../query/filter.md).
 
@@ -69,5 +68,5 @@ Only most common attributes are displayed by default in the attribute list and f
 Activate the **Display advanced attributes** toggle to see all available attributes for the current list in the left palette of the rule builder, such as nodes, groupings, 1-1 links, 1-N links. The attribute list is updated instantly.
 
 
-![](assets/adv-toggle.png){width="70%" align="left" zoomable="yes"}
+![](assets/adv-toggle.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 -->

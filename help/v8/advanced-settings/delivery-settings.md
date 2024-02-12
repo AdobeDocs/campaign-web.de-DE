@@ -4,10 +4,9 @@ title: Versandeinstellungen
 description: Erfahren Sie mehr über die Versandeinstellungen in Campaign Web
 feature: Email
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-badge: label="Eingeschränkte Verfügbarkeit"
-source-git-commit: da41eaf9987a3a2cc35ab132709ec127218422b1
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '2425'
+source-wordcount: '2429'
 ht-degree: 93%
 
 ---
@@ -44,7 +43,7 @@ Wenn Sie eine Typologie mit einer Nachricht oder Nachrichtenvorlage verknüpfen,
 
 Typologien ermöglichen es Ihnen sicherzustellen, dass Ihre E-Mails immer bestimmte Elemente enthalten (wie beispielsweise einen Abmelde-Link oder eine Betreffzeile), oder Filterregeln anzuwenden, um Gruppen aus Ihrer Zielgruppe auszuschließen (wie abgemeldete Abonnentinnen und Abonnenten, die Konkurrenz oder die Kundschaft, die nicht Mitglied im Treueprogramm sind).
 
-![](assets/delivery-settings-typology.png)
+![](assets/delivery-settings-typology.png){zoomable=&quot;yes&quot;}
 
 >[!NOTE]
 >
@@ -130,7 +129,7 @@ Im Feld **[!UICONTROL Ausschluss]** können Sie Empfängerinnen und Empfänger a
 
 **[!UICONTROL Versandparameter]** sind technische Einstellungen, die für Ihren Versand gelten.
 
-![](assets/delivery-settings-delivery.png)
+![](assets/delivery-settings-delivery.png){zoomable=&quot;yes&quot;}
 
 Das externe Konto **[!UICONTROL Integriertes E-Mail-Routing]** wird standardmäßig bereitgestellt. Es enthält die technischen Parameter, die es der Anwendung erlauben, E-Mails zu senden.
 
@@ -250,7 +249,7 @@ Sie können alternativ auch ein genaues Datum angeben. Markieren Sie dazu die Op
 
 Das Feld **[!UICONTROL Gültigkeit von Ressourcen]** wird für hochgeladene Ressourcen verwendet, insbesondere für die Mirrorseite und Bilder. Die Gültigkeitsdauer von Ressourcen auf dieser Seite ist begrenzt, um Speicherkapazität zu sparen. Nach diesem Limit sind diese Ressourcen nicht mehr verfügbar.
 
-![](assets/delivery-settings-validity.png)
+![](assets/delivery-settings-validity.png){zoomable=&quot;yes&quot;}
 
 <!--Change screenshot to be consistent with prod > not sure which version is correct-->
 

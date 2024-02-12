@@ -3,11 +3,10 @@ audience: end-user
 title: Versenden in Schüben
 description: Erfahren Sie mehr über die Versandeinstellungen in Campaign Web
 feature: Email
-badge: label="Eingeschränkte Verfügbarkeit"
-source-git-commit: 3f4f09ddae3a2e46adf99f288642acee561ce1f5
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '790'
-ht-degree: 33%
+source-wordcount: '796'
+ht-degree: 34%
 
 ---
 
@@ -57,7 +56,7 @@ Gehen Sie wie folgt vor, um Sendungen in Schüben durchzuführen.
 
 Wenn Sie diese Option wählen, haben alle Schübe dieselbe Größe (mit Ausnahme der letzten) und die Verzögerung zwischen jedem Schub ist immer gleich.
 
-![](assets/waves-same-size.png)
+![](assets/waves-same-size.png){zoomable=&quot;yes&quot;}
 
 * Geben Sie die Größe für alle Schübe an, in die Sie den Versand unterteilen. Sie können einen Prozentsatz oder einen numerischen Wert eingeben. Nur der letzte Schub kann variieren, da er die verbleibende Nachrichtenanzahl enthalten muss.
 
@@ -71,7 +70,7 @@ Mithilfe von Schüben kann die Anzahl der Nachrichten auf 20 pro Tag beschränkt
 
 Wählen Sie dazu die Option **[!UICONTROL Mehrere Schübe derselben Größe planen]**. Eingabe **[!UICONTROL 20]** Größe der Schübe und **[!UICONTROL 1 Tag]** im **[!UICONTROL Intervall]** -Feld.
 
-![](assets/waves-call-center.png)
+![](assets/waves-call-center.png){zoomable=&quot;yes&quot;}
 
 ## Schübe nach einem Kalender planen {#waves-calendar}
 
@@ -89,7 +88,7 @@ Fügen Sie so viele Schübe hinzu, wie Sie möchten. Sie können sie nach Bedarf
 
 Im folgenden Beispiel entspricht der erste Schub 25 % der Gesamtzahl der im Versand enthaltenen Nachrichten und beginnt sofort. Die nächsten beiden Schübe vervollständigen den Versand und starten in Intervallen von jeweils sechs Stunden.
 
-![](assets/waves-calendar.png)
+![](assets/waves-calendar.png){zoomable=&quot;yes&quot;}
 
 Ein gängiges Nutzungsszenario für die Verwendung mehrerer Schübe je nach Kalender ist die Anlaufphase.
 
@@ -99,7 +98,7 @@ Um zu verhindern, dass Ihre Sendungen als Spam eingestuft werden, können Sie da
 
 Verwenden Sie dazu die **[!UICONTROL Schübe nach Kalenderangaben planen]** -Option. Setzen Sie beispielsweise den ersten Schub auf 10 %, den zweiten auf 15 %, den dritten auf 20 % usw.
 
-![](assets/waves-ramp-up.png)
+![](assets/waves-ramp-up.png){zoomable=&quot;yes&quot;}
 
 
 

@@ -3,8 +3,7 @@ audience: end-user
 title: Über die Versandvorschau und Tests
 description: Weitere Informationen dazu, wie Sendungen in der Vorschau angezeigt und getestet werden können
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
-badge: label="Eingeschränkte Verfügbarkeit"
-source-git-commit: 462725104d28a967dd8a072ef6064b74dad91c58
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
 source-wordcount: '201'
 ht-degree: 72%
@@ -33,7 +32,7 @@ Dazu bietet [!DNL Adobe Campaign] folgende Möglichkeiten:
 
 Diese Aktionen können über die Schaltfläche **[!UICONTROL Inhalt simulieren]** ausgeführt werden, auf die über den Bildschirm „Inhalt bearbeiten“ des Testversands oder über den [E-Mail-Designer](../email/get-started-email-designer.md) zugegriffen werden kann.
 
-![](assets/simulate-button.png)
+![](assets/simulate-button.png){zoomable=&quot;yes&quot;}
 
 >[!NOTE]
 >

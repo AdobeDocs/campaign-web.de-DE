@@ -3,8 +3,7 @@ audience: end-user
 title: Erste Schritte mit E-Mail-Stil
 description: Hier erfahren Sie, wie Sie den Inhaltsstil Ihrer E-Mail anpassen können.
 exl-id: e0489dcc-32d9-4bee-8562-36a96e64e20b
-badge: label="Eingeschränkte Verfügbarkeit"
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
 source-wordcount: '117'
 ht-degree: 100%
@@ -17,7 +16,7 @@ Sobald Sie mit der Erstellung Ihres E-Mail-Inhalts in [!DNL Adobe Campaign] bego
 
 Sie können Ihre Änderungen entweder auf den E-Mail-Textkörper, auf eine Strukturkomponente oder auf eine Inhaltskomponente anwenden.
 
-![](assets/email_designer_content_components_settings.png)
+![](assets/email_designer_content_components_settings.png){zoomable=&quot;yes&quot;}
 
 Folgen Sie den unten stehenden Links, um zu erfahren, wie Sie einige Stileinstellungen in Ihrer E-Mail anpassen können.
 

@@ -3,10 +3,9 @@ audience: end-user
 title: Neue Funktionen in der Campaign-Webbenutzeroberfläche
 description: Neue Funktionen der Campaign-Webbenutzeroberfläche
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-badge: label="Eingeschränkte Verfügbarkeit"
-source-git-commit: 4666a74511c60cd006709bbfff6953669d2e2637
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '1292'
+source-wordcount: '1290'
 ht-degree: 74%
 
 ---

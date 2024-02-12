@@ -3,10 +3,9 @@ audience: end-user
 title: Auswählen einer bestehenden Zielgruppe
 description: Erfahren Sie, wie Sie eine Zielgruppe auswählen
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
-badge: label="Eingeschränkte Verfügbarkeit"
-source-git-commit: 2c002620fbfeba140b6f80a37116b06d2199c93c
-workflow-type: ht
-source-wordcount: '326'
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+workflow-type: tm+mt
+source-wordcount: '334'
 ht-degree: 100%
 
 ---
@@ -30,24 +29,24 @@ Gehen Sie wie folgt vor, um eine vorhandene Zielgruppe für Ihre Nachricht auszu
 
 1. Klicken Sie im Abschnitt **Zielgruppe** des Assistenten zur Versanderstellung auf die Schaltfläche **[!UICONTROL Zielgruppe auswählen]** und wählen Sie dann **[!UICONTROL Zielgruppe auswählen]**, um eine vorhandene Zielgruppe zu verwenden.
 
-   ![](assets/create-audience.png)
+   ![](assets/create-audience.png){zoomable=&quot;yes&quot;}
 
 1. Auf diesem Bildschirm werden alle vorhandenen Zielgruppen für den aktuellen Ordner angezeigt.
 
-   ![](assets/create-audience2.png)
+   ![](assets/create-audience2.png){zoomable=&quot;yes&quot;}
 
    Um eine Zielgruppe aus Adobe Experience Platform auszuwählen, navigieren Sie im Filterabschnitt des Bildschirms zum `AEP Audiences folder`.
 
-   ![](assets/select-audience-folder.png)
+   ![](assets/select-audience-folder.png){zoomable=&quot;yes&quot;}
 
 1. Im Filterbereich können Sie auf Filteroptionen zugreifen, um die Zielgruppenliste zu präzisieren. Klicken Sie auf **Regeln hinzufügen**, um auf den Abfrage-Modeler zuzugreifen, mit dem Sie erweiterte Filter für die Liste der Zielgruppen erstellen können. [So verwenden Sie den Abfrage-Modeler](../query/query-modeler-overview.md)
 
    Sie können z. B. eine Regel definieren, um nach der Herkunft der Zielgruppen zu filtern, wie unten dargestellt:
 
-   ![](assets/filter-on-aep-audience.png)
+   ![](assets/filter-on-aep-audience.png){zoomable=&quot;yes&quot;}
 
 1. Klicken Sie auf **Bestätigen**, um Ihre Zielgruppe als Hauptzielgruppe des Versands hinzuzufügen. Danach können Sie die Zielgruppe mit dem Abfrage-Modeler weiter einschränken, indem Sie auf die Schaltfläche **Regeln bearbeiten** klicken.
 
-   ![](assets/refine-audience.png)
+   ![](assets/refine-audience.png){zoomable=&quot;yes&quot;}
 
    Sie können auch eine Kontrollgruppe einrichten, um die Wirkung Ihrer Kampagnen zu messen. Die Kontrollgruppe erhält die Nachricht nicht. Dadurch lässt sich das Verhalten der Population, die die Nachricht erhalten hat, mit dem Verhalten der Kontakte vergleichen, die die Nachricht nicht erhalten haben. [Weitere Informationen](control-group.md)

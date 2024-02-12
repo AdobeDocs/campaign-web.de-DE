@@ -1,8 +1,7 @@
 ---
 title: Erste Schritte mit Profilen
 description: Erfahren Sie, wie Sie Profile in Adobe Campaign Web überwachen und verwalten können.
-badge: label="Eingeschränkte Verfügbarkeit"
-source-git-commit: 462725104d28a967dd8a072ef6064b74dad91c58
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
 source-wordcount: '527'
 ht-degree: 57%
@@ -35,7 +34,7 @@ ht-degree: 57%
 
 A **profile**, in der Clientkonsole auch als &quot;Empfänger&quot;bezeichnet, stellt eine in der Campaign-Datenbank gespeicherte Person dar und dient als Schlüsselkomponente für [Erstellen von Zielgruppen](create-audience.md) für Sendungen und [Personalisierung hinzufügen](../personalization/personalize.md) Daten an Ihren Inhalt. Adobe Campaign ermöglicht die nahtlose Verwaltung von Profilen, von der Erstellung neuer Einträge bis hin zur umfassenden Übersicht aller Abonnements für Profile und Dienste über die Campaign-Webbenutzeroberfläche.
 
-Darüber hinaus **[!UICONTROL Testprofile]**, in der Clientkonsole als &quot;Testprofile&quot;bezeichnet, ermöglichen es Ihnen, zusätzliche Empfänger anzusprechen, die nicht den Targeting-Kriterien eines bestimmten Versands entsprechen. Diese Profile enthalten fiktive Kontaktinformationen oder Kontaktinformationen, die vom Absender kontrolliert werden. Sie können der Audience einer Nachricht hinzugefügt werden, um beispielsweise Missbrauch bei der Nutzung Ihrer Empfängerdatenbank zu erkennen oder sicherzustellen, dass die E-Mails in den Postfächern ankommen. [Erfahren Sie, wie Sie mit Testprofilen arbeiten](test-profiles.md)
+Darüber hinaus **[!UICONTROL Testprofile]**, in der Clientkonsole als &quot;Testprofile&quot;bezeichnet, ermöglichen es Ihnen, zusätzliche Empfänger anzusprechen, die nicht den Targeting-Kriterien eines bestimmten Versands entsprechen. Diese Profile enthalten fiktive Kontaktinformationen oder Kontaktinformationen, die vom Absender kontrolliert werden. Sie können der Audience einer Nachricht hinzugefügt werden, um beispielsweise Missbrauch bei der Nutzung Ihrer Empfängerdatenbank zu erkennen oder sicherzustellen, dass die E-Mails in den Posteingang eingehen. [Erfahren Sie, wie Sie mit Testprofilen arbeiten](test-profiles.md)
 
 Sie können sowohl Profile als auch Testprofile verwenden, um Ihre Sendungen zu testen, bevor sie die gewünschte Zielgruppe erreichen. Auf diese Weise können Sie eine Vorschau des Nachrichteninhalts und der Personalisierung anzeigen, Testsendungen zum Testen und Validieren durchführen, das E-Mail-Rendering auf verschiedenen Plattformen und Geräten evaluieren und Ihre Landingpages testen. [Erfahren Sie, wie Sie Sendungen in der Vorschau anzeigen und testen können.](../preview-test/preview-test.md)
 
@@ -49,7 +48,7 @@ Die Profile können im Adobe Campaign Web über die **[!UICONTROL Kundenverwaltu
 
 Sie können die Liste der **[!UICONTROL Profile]** mit dem Suchfeld oder den unter **Filter anzeigen** verfügbaren Filtern durchsuchen. Sie können die Ergebnisse über die Dropdown-Liste auf einen bestimmten [Ordner](../get-started/permissions.md#folders) beschränken oder mithilfe des [Abfrage-Modelers](../query/query-modeler-overview.md) Regeln hinzufügen.
 
-![](assets/profiles-list-filters.png)
+![](assets/profiles-list-filters.png){zoomable=&quot;yes&quot;}
 
 Um auf die Details eines Profils zuzugreifen, klicken Sie in der Liste auf dessen Namen. Eine detaillierte Ansicht des Profils wird geöffnet, in der Sie seine Attribute und die Dienste, die es abonniert hat, einsehen können. [Erfahren Sie, wie Sie die Profildetails durchsuchen können.](create-profile.md)
 

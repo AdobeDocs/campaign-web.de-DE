@@ -2,11 +2,10 @@
 title: Erstellen einer Landingpage
 description: Hier erfahren Sie, wie Sie in Campaign Web eine Landingpage konfigurieren und veröffentlichen können.
 feature: Landing Pages
-badge: label="Eingeschränkte Verfügbarkeit"
-source-git-commit: 5e5c731fa76684407080d9a1aa6f8a81de7ebc92
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '1279'
-ht-degree: 44%
+source-wordcount: '1301'
+ht-degree: 45%
 
 ---
 
@@ -25,11 +24,11 @@ ht-degree: 44%
 
 Um auf die Liste der Landingpages zuzugreifen, wählen Sie **[!UICONTROL Kampagnen-Management]** > **[!UICONTROL Landingpages]** über das Menü links aus.
 
-![](assets/lp-inventory.png)
+![](assets/lp-inventory.png){zoomable=&quot;yes&quot;}
 
 Das Inventar der **[!UICONTROL Landingpages]** zeigt alle erstellten Elemente an. Sie können sie mithilfe der Schaltfläche **Filter anzeigen** filtern. Sie können die Ergebnisse über die Dropdown-Liste auf einen bestimmten [Ordner](../get-started/permissions.md#folders) beschränken oder mithilfe des [Abfrage-Modelers](../query/query-modeler-overview.md) Regeln hinzufügen.
 
-![](assets/lp-inventory-filter.png)
+![](assets/lp-inventory-filter.png){zoomable=&quot;yes&quot;}
 
 <!--From this list, you can access the [landing page Live report](../reports/lp-report-live.md) or [landing page Global report](../reports/lp-report-global.md) for published items.-->
 
@@ -70,11 +69,11 @@ Sie können eine Landingpage duplizieren oder löschen. Klicken Sie auf das Ausl
 
 <!--The main steps to create landing pages are as follows:
 
-![](assets/lp-creation-process.png)-->
+![](assets/lp-creation-process.png){zoomable="yes"}-->
 
 1. Klicken Sie im Inventar der **[!UICONTROL Landingpages]** auf **[!UICONTROL Landingpage erstellen]**.
 
-   ![](assets/lp-create-button.png)
+   ![](assets/lp-create-button.png){zoomable=&quot;yes&quot;}
 
 1. Wählen Sie eine Vorlage aus:
    * **[!UICONTROL Akquise]**: Dies ist die Standardvorlage für Landingpages, mit der Sie Profildaten erfassen und aktualisieren können.
@@ -82,7 +81,7 @@ Sie können eine Landingpage duplizieren oder löschen. Klicken Sie auf das Ausl
    * **[!UICONTROL Abmeldung]**: Diese Vorlage kann in einem Versand verwendet werden, der an Abonnenten eines Dienstes gesendet wird, damit sie sich von dieser Abmeldung abmelden können. [service](../audience/manage-services.md).
    * **[!UICONTROL Blockierungsliste]**: Diese Vorlage sollte verwendet werden, wenn ein Profil nicht mehr von Campaign kontaktiert werden möchte.
 
-   ![](assets/lp-templates.png)
+   ![](assets/lp-templates.png){zoomable=&quot;yes&quot;}
 
    >[!NOTE]
    >
@@ -94,7 +93,7 @@ Sie können eine Landingpage duplizieren oder löschen. Klicken Sie auf das Ausl
 
    Standardmäßig werden Landingpages im Ordner **[!UICONTROL Web-Anwendungen]** gespeichert. Sie können dies ändern, indem Sie unter **[!UICONTROL Zusätzliche Optionen]** zum gewünschten Speicherort wechseln. [Erfahren Sie mehr über die Arbeit mit Ordnern](../get-started/permissions.md#folders)
 
-   ![](assets/lp-properties.png)
+   ![](assets/lp-properties.png){zoomable=&quot;yes&quot;}
 
 1. Im Abschnitt **[!UICONTROL Datenvorbereitung]** sind die beiden folgenden Optionen standardmäßig ausgewählt:
 
@@ -104,17 +103,17 @@ Sie können eine Landingpage duplizieren oder löschen. Klicken Sie auf das Ausl
 
 1. Klicken Sie im Abschnitt **[!UICONTROL Seiten]** auf die Schaltfläche **[!UICONTROL Inhalt bearbeiten]** für jede Seite, die Sie für diese Landingpage entwerfen möchten. Der Inhalt jeder Seite ist bereits vorausgefüllt. Bearbeiten Sie ihn nach Bedarf. [Weitere Informationen](lp-content.md)
 
-   ![](assets/lp-pages.png)
+   ![](assets/lp-pages.png){zoomable=&quot;yes&quot;}
 
 1. Die **[!UICONTROL Vorausgefüllten Datensatz aktualisieren]** ist standardmäßig aktiviert. Dadurch können die in der Datenbank gespeicherten Profile über die Landingpage aktualisiert werden. Im Feld Vorausfüllen können Sie angeben, wie der zu aktualisierende Datensatz in der Datenbank gefunden werden soll.
 
    Sie können auch aus den Feldern wählen, die im aktuellen Kontext der Landingpage verwendet werden, um das entsprechende Profil in der Datenbank zu finden. Heben Sie dazu die Auswahl der **[!UICONTROL Vorausgefüllten Datensatz aktualisieren]** und aktivieren Sie die gewünschten Felder unter **[!UICONTROL Abstimmoptionen]**.
 
-   ![](assets/lp-storage.png)
+   ![](assets/lp-storage.png){zoomable=&quot;yes&quot;}
 
 1. Sie können ein Start- und ein Enddatum für Ihre Landingpage definieren. Auswählen **[!UICONTROL Aktivieren der Planung]** und legen Sie die Daten fest.
 
-   ![](assets/lp-schedule.png)
+   ![](assets/lp-schedule.png){zoomable=&quot;yes&quot;}
 
    * Die Landingpage wird automatisch am angegebenen Startdatum/zur festgelegten Startzeit veröffentlicht.
 
@@ -152,7 +151,7 @@ Nachdem Sie die Einstellungen und den Inhalt Ihrer Landingpage definiert haben, 
 
 1. Nachdem Sie auf **[!UICONTROL Überprüfen und veröffentlichen]**, wählen Sie die **[!UICONTROL Inhalt simulieren]** -Schaltfläche im Landingpage-Dashboard, um auf die Testprofilauswahl zuzugreifen.
 
-   ![](assets/lp-simulate-content.png)
+   ![](assets/lp-simulate-content.png){zoomable=&quot;yes&quot;}
 
 1. Wählen Sie auf dem Bildschirm **[!UICONTROL Simulieren]** ein oder mehrere Testprofile aus.
 
@@ -160,13 +159,13 @@ Nachdem Sie die Einstellungen und den Inhalt Ihrer Landingpage definiert haben, 
 
 1. Wählen Sie **[!UICONTROL Vorschau öffnen]** aus, um Ihre Landingpage zu testen.
 
-   ![](assets/lp-open-preview.png)
+   ![](assets/lp-open-preview.png){zoomable=&quot;yes&quot;}
 
 1. Die Vorschau Ihrer Landingpage wird in einer neuen Registerkarte geöffnet. Personalisierte Elemente werden durch die ausgewählten Testprofildaten ersetzt.
 
    Wenn Sie die Option **[!UICONTROL Vorausfüllen mit den im Formular referenzierten Daten]** in den Landingpage-Einstellungen automatisch die entsprechenden Testprofildaten in die Formularfelder eingefügt.<!--TBC-->
 
-   ![](assets/lp-preview.png)
+   ![](assets/lp-preview.png){zoomable=&quot;yes&quot;}
 
 1. Wählen Sie weitere Testprofile aus, um das Rendering für jede Variante Ihrer Landingpage in der Vorschau anzuzeigen.
 
@@ -186,6 +185,6 @@ Nach der Veröffentlichung:
 >
 >Um Ihre Landingpage vollständig zu testen oder zu nutzen, können Sie diesen Link nicht direkt in einen Webbrowser oder in Ihre Sendungen kopieren und einfügen. Verwenden Sie stattdessen die [Inhalt simulieren](#test-landing-page) , um sie zu testen, und führen Sie die Schritte unter [diesem Abschnitt](lp-use-cases.md) , um Ihre Landingpage richtig zu nutzen.
 
-![](assets/lp-published.png)
+![](assets/lp-published.png){zoomable=&quot;yes&quot;}
 
 Sie können die Auswirkungen Ihrer Landingpage über Protokolle überwachen<!--and specific reports-->. Klicken Sie auf **[!UICONTROL Protokolle]** Schaltfläche.

@@ -3,10 +3,9 @@ audience: end-user
 title: Vorbereiten und Senden einer E-Mail
 description: Erfahren Sie, wie Sie eine E-Mail mit der Web-Benutzeroberfläche von Campaign vorbereiten und senden.
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
-badge: label="Eingeschränkte Verfügbarkeit"
-source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '893'
+source-wordcount: '911'
 ht-degree: 98%
 
 ---
@@ -26,12 +25,12 @@ Die wichtigsten Schritte zur Versandvorbereitung sind unten aufgeführt.
 
 1. Klicken Sie im Versand-Dashboard auf **[!UICONTROL Überprüfen und senden]**.
 
-   ![](assets/email-review-and-send.png)
+   ![](assets/email-review-and-send.png){zoomable=&quot;yes&quot;}
 
 
 1. Klicken Sie oben rechts auf die Schaltfläche **[!UICONTROL Vorbereiten]** und bestätigen Sie den Vorgang.
 
-   ![](assets/email-prepare.png)
+   ![](assets/email-prepare.png){zoomable=&quot;yes&quot;}
 
    >[!NOTE]
    >
@@ -41,14 +40,14 @@ Die wichtigsten Schritte zur Versandvorbereitung sind unten aufgeführt.
 
    Sie können die Vorbereitung jederzeit mit der Schaltfläche **[!UICONTROL Vorbereitung stoppen]** anhalten.
 
-   ![](assets/email-stop-preparation.png)
+   ![](assets/email-stop-preparation.png){zoomable=&quot;yes&quot;}
 
    >[!NOTE]
    >Dies ist mit keinerlei Risiko verbunden, da in dieser Phase keine Nachrichten gesendet werden. Je nach Größe der Zielgruppe kann die Dauer der Versandvorbereitung variieren.
 
 1. Wenn die Vorbereitung abgeschlossen ist, überprüfen Sie die KPIs. Wenn die Anzahl zu sendender Nachrichten nicht Ihren Erwartungen entspricht, ändern Sie Ihre Zielgruppe und starten Sie die Vorbereitung erneut.
 
-   ![](assets/email-preparation-complete.png)
+   ![](assets/email-preparation-complete.png){zoomable=&quot;yes&quot;}
 
    Im Folgenden werden die verschiedenen KPIs angezeigt:
 
@@ -58,11 +57,11 @@ Die wichtigsten Schritte zur Versandvorbereitung sind unten aufgeführt.
 
 1. Klicken Sie auf die Schaltfläche **[!UICONTROL Protokolle]** und vergewissern Sie sich, dass kein Fehler vorliegt. Die letzte Log-Nachricht zeigt eventuelle Fehler und deren Anzahl an. [Weitere Informationen](delivery-logs.md)
 
-   ![](assets/email-prepare-logs.png)
+   ![](assets/email-prepare-logs.png){zoomable=&quot;yes&quot;}
 
 1. Wenn bei der Vorbereitung ein kritischer Fehler erkannt wird, der den Versand verhindert, wird der Vorbereitungsstatus im Versand-Dashboard als fehlgeschlagen angezeigt.
 
-   ![](assets/email-prepare-error.png)
+   ![](assets/email-prepare-error.png){zoomable=&quot;yes&quot;}
 
 1. Wenn Sie nach der Vorbereitung Änderungen am Versand vornehmen möchten, müssen Sie die Vorbereitung erneut starten, damit diese Änderungen berücksichtigt werden.
 
@@ -81,7 +80,7 @@ Gehen Sie wie folgt vor, um eine E-Mail sofort zu senden.
 
 1. Klicken Sie im Versand-Dashboard oben rechts auf die Schaltfläche **[!UICONTROL Senden]**.
 
-   ![](assets/email-send.png)
+   ![](assets/email-send.png){zoomable=&quot;yes&quot;}
 
 1. Bestätigen Sie diese Aktion, um die Nachricht sofort an die Hauptzielgruppe zu senden.
 
@@ -95,7 +94,7 @@ Gehen Sie wie folgt vor, wenn Sie den Versand Ihrer E-Mail für einen späteren 
 
 1. Klicken Sie im Versand-Dashboard oben rechts auf die Schaltfläche **[!UICONTROL Nach Zeitplan senden]**.
 
-   ![](assets/email-send-as-scheduled.png)
+   ![](assets/email-send-as-scheduled.png){zoomable=&quot;yes&quot;}
 
 1. Klicken Sie auf **[!UICONTROL Senden bestätigen]**. Der Versand erfolgt zum geplanten Datum an die Hauptzielgruppe.
 
@@ -111,7 +110,7 @@ Unabhängig davon, ob es sich um einen geplanten oder ungeplanten Versand handel
 
 * Klicken Sie auf **[!UICONTROL Senden beenden]**, um den Sendevorgang sofort abzubrechen. Vorbereitung und Sendevorgang können nicht fortgesetzt werden.
 
-![](assets/email-send-pause-or-stop.png)
+![](assets/email-send-pause-or-stop.png){zoomable=&quot;yes&quot;}
 
 ## Überprüfen der KPIs {#check-kpis}
 
@@ -151,7 +150,7 @@ Unabhängig davon, ob es sich um einen geplanten oder ungeplanten Versand handel
 
 Nach abgeschlossenem Sendevorgang können Sie die angezeigten KPIs überprüfen:
 
-![](assets/email-send-kpis.png)
+![](assets/email-send-kpis.png){zoomable=&quot;yes&quot;}
 
 * **[!UICONTROL Gesendet]**: die Anzahl der zugestellten Nachrichten. Der angezeigte Prozentsatz bezieht sich auf die Gesamtzahl der zuzustellenden Nachrichten.
 

@@ -2,11 +2,10 @@
 audience: end-user
 title: Globale Berichte für den Briefpost-Kanal
 description: Erfahren Sie mehr über globale Berichte für den Briefpost-Kanal
-badge: label="Eingeschränkte Verfügbarkeit"
-source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '628'
-ht-degree: 100%
+source-wordcount: '634'
+ht-degree: 98%
 
 ---
 
@@ -22,7 +21,7 @@ Navigieren Sie zum Menü **[!UICONTROL Berichte]** im Abschnitt **[!UICONTROL Be
 
 Die **[!UICONTROL Versandübersicht]** bietet wichtige Leistungsmetriken (KPIs) mit umfassenden Einblicken in die Interaktion Ihrer Besucherinnen und Besucher mit jedem E-Mail-Versand. Die Metriken sind unten dargestellt.
 
-![](assets/global_report_email_delivery_overview.png){align="center"}
+![](assets/global_report_email_delivery_overview.png){zoomable=&quot;yes&quot;}{align="center"}
 
 +++Erfahren Sie mehr über Versandübersichtsmetriken.
 
@@ -39,7 +38,7 @@ Die **[!UICONTROL Versandübersicht]** bietet wichtige Leistungsmetriken (KPIs) 
 
 Die Tabelle und der Graph **[!UICONTROL Zielgruppe]** zeigen Daten zu Ihren Empfängerinnen und Empfängern, mit detaillierten Metriken unten.
 
-![](assets/global_report_email_targeted_audience.png){align="center"}
+![](assets/global_report_email_targeted_audience.png){zoomable=&quot;yes&quot;}{align="center"}
 
 +++Erfahren Sie mehr über Zielgruppen-Metriken.
 
@@ -55,7 +54,7 @@ Die Tabelle und der Graph **[!UICONTROL Zielgruppe]** zeigen Daten zu Ihren Empf
 
 Die Tabelle **[!UICONTROL Versandstatistiken]** bietet eine Aufschlüsselung des Erfolgs jedes Briefpost-Versands mit folgenden detaillierten Metriken.
 
-![](assets/global_report_email_delivery_statistics.png){align="center"}
+![](assets/global_report_email_delivery_statistics.png){zoomable=&quot;yes&quot;}{align="center"}
 
 +++Erfahren Sie mehr über Versandstatistik-Metriken.
 
@@ -71,7 +70,7 @@ Die Tabelle **[!UICONTROL Versandstatistiken]** bietet eine Aufschlüsselung des
 
 ### Ausschlussgründe {#causes-exclusion}
 
-![](assets/global_report_email_exclusions.png){align="center"}
+![](assets/global_report_email_exclusions.png){zoomable=&quot;yes&quot;}{align="center"}
 
 Der Graph und die Tabelle „Ausschlüsse“ zeigen die Gründe, aus denen Benutzerprofile, die aus den Zielprofilen ausgeschlossen sind, die Benachrichtigung nicht erhalten haben.
 

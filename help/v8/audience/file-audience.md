@@ -2,11 +2,10 @@
 audience: end-user
 title: Ansprechen von Empfängerinnen und Empfängern aus einer Datei
 description: Erfahren Sie, wie Sie mit Empfängerinnen und Empfängern aus einer externen Datei eine E-Mail-Zielgruppe erstellen können.
-badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: a3476e46c29723af8246683a005543cfd605e7df
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '626'
 ht-degree: 100%
 
 ---
@@ -50,7 +49,7 @@ Gehen Sie wie folgt vor, um Profile aus einer lokalen Datei direkt über die E-M
 1. Öffnen Sie einen vorhandenen E-Mail-Versand oder [erstellen Sie einen neuen](../email/create-email.md).
 1. Klicken Sie im Fenster zur Erstellung des E-Mail-Versands im Abschnitt **Zielgruppe** auf die Schaltfläche **Zielgruppe auswählen** und wählen Sie die Option **Aus Datei auswählen** aus.
 
-   ![](assets/select-from-file.png)
+   ![](assets/select-from-file.png){zoomable=&quot;yes&quot;}
 
 1. Wählen Sie die zu verwendende lokale Datei aus. Das Format muss der [Beispieldatei](#sample-file) entsprechen.
 1. Im mittleren Abschnitt des Bildschirms können Sie eine Vorschau der Datenzuordnung anzeigen, um sie zu überprüfen.
@@ -60,7 +59,7 @@ Gehen Sie wie folgt vor, um Profile aus einer lokalen Datei direkt über die E-M
 
 Bei der Erstellung und Personalisierung des Nachrichteninhalts können Sie im [Personalisierungseditor](../personalization/gs-personalization.md) Felder aus der Eingabedatei auswählen.
 
-![](assets/select-external-perso.png)
+![](assets/select-external-perso.png){zoomable=&quot;yes&quot;}
 
 ## Beispieldatei {#sample-file}
 
@@ -93,7 +92,7 @@ Mit Campaign Web können Sie sich Test-E-Mails in der Vorschau ansehen und sie s
 
 1. Eine Vorschau des Versandinhalts wird im rechten Bereich des Bildschirms angezeigt. Personalisierte Elemente werden durch die Daten aus dem Profil ersetzt, das im linken Bereich ausgewählt wurde. [Weitere Informationen zur Inhaltsvorschau eines Versands](../preview-test/preview-content.md)
 
-   ![](assets/file-upload-preview.png)
+   ![](assets/file-upload-preview.png){zoomable=&quot;yes&quot;}
 
 1. Um Test-E-Mails zu senden, klicken Sie auf die Schaltfläche **[!UICONTROL Testen]**.
 
@@ -105,6 +104,6 @@ Mit Campaign Web können Sie sich Test-E-Mails in der Vorschau ansehen und sie s
 
 1. Wenn die Testversand-Empfängerinnen und -Empfänger hinzugefügt wurden und Sie bereit sind, die Testsendungen durchzuführen, klicken Sie auf die Schaltfläche **[!UICONTROL Test-E-Mail senden]** und bestätigen Sie den Versand.
 
-   ![](assets/file-upload-test.png)
+   ![](assets/file-upload-test.png){zoomable=&quot;yes&quot;}
 
 1. Sie können den Versand der Test-E-Mail jederzeit mithilfe der Schaltfläche **[!UICONTROL Test-E-Mail-Protokoll anzeigen]** überwachen. [Erfahren Sie mehr über das Überwachen von Test-E-Mails](../preview-test/test-deliveries.md#access-test-deliveries)

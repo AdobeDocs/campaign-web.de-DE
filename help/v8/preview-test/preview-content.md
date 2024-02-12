@@ -3,10 +3,9 @@ audience: end-user
 title: Anzeigen des Versandinhalts in einer Vorschau
 description: Erfahren Sie, wie Sie mit der Campaign-Web-Benutzeroberfläche eine Vorschau Ihres Versandinhalts anzeigen können.
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
-badge: label="Eingeschränkte Verfügbarkeit"
-source-git-commit: 462725104d28a967dd8a072ef6064b74dad91c58
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '358'
 ht-degree: 80%
 
 ---
@@ -22,7 +21,7 @@ Gehen Sie wie folgt vor, um den Versandinhalt in einer Vorschau anzuzeigen.
 
 1. Klicken Sie auf die Schaltfläche **[!UICONTROL Inhalt simulieren]**.
 
-   ![](assets/simulate-button.png)
+   ![](assets/simulate-button.png){zoomable=&quot;yes&quot;}
 
 1. Um die Profile auszuwählen, die für die Vorschau Ihres personalisierten Inhalts verwendet werden, verwenden Sie folgende Funktionen:
 
@@ -36,11 +35,11 @@ Gehen Sie wie folgt vor, um den Versandinhalt in einer Vorschau anzuzeigen.
 
    * Die **[!UICONTROL Profile]** enthält alle in Ihrer Datenbank gespeicherten Profile. [Erfahren Sie, wie Sie mit Profilen arbeiten](../audience/about-recipients.md)
 
-   ![](assets/simulate-select-profiles.png)
+   ![](assets/simulate-select-profiles.png){zoomable=&quot;yes&quot;}
 
 1. Beim Durchsuchen der Testprofilliste oder Profillisten können Sie Filter verwenden, um Ihre Suche zu verfeinern.
 
-   ![](assets/simulate-test-profile-filter.png)
+   ![](assets/simulate-test-profile-filter.png){zoomable=&quot;yes&quot;}
 
    Sie können beispielsweise eine Regel definieren, um nach allen Testprofilen mit dem Status **[!UICONTROL Interessent]** zu suchen. [Erfahren Sie, wie Sie mithilfe des Abfragemodells Regeln hinzufügen](../query/query-modeler-overview.md).
 
@@ -48,7 +47,7 @@ Gehen Sie wie folgt vor, um den Versandinhalt in einer Vorschau anzuzeigen.
 
    Eine Vorschau des Versandinhalts wird im rechten Bereich des Bildschirms **[!UICONTROL Simulieren]** angezeigt. Personalisierte Elemente werden durch die Daten aus dem Profil ersetzt, das im linken Bereich ausgewählt wurde.
 
-   ![](assets/simulate-preview.png)
+   ![](assets/simulate-preview.png){zoomable=&quot;yes&quot;}
 
 1. Wenn mehrere Profile hinzugefügt wurden, können Sie in der Liste zwischen diesen wechseln, um eine Vorschau des entsprechenden Versandinhalts anzuzeigen. Sie können auch weitere Testprofile hinzufügen und Ihre Auswahl mithilfe der entsprechenden Schaltflächen im linken Bereich löschen.
 

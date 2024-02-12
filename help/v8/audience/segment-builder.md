@@ -3,11 +3,10 @@ audience: end-user
 title: Erstellen einer Zielgruppe mit dem Campaign-Regel-Builder
 description: Erfahren Sie, wie Sie mit dem Regel-Builder arbeiten
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
-badge: label="Beta"
-source-git-commit: 51f29840941974f05a930023e41adb1bb2558974
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '565'
-ht-degree: 98%
+source-wordcount: '582'
+ht-degree: 97%
 
 ---
 
@@ -22,7 +21,7 @@ Mit dem Regel-Builder können Sie die Population definieren, die mit Ihrem Versa
 
 Die Palette auf der linken Seite enthält alle Elemente, nach denen Sie filtern können, um Ihre Zielgruppe zu erstellen. Sie können die Suchleiste verwenden, um Elemente schnell zu finden. Die in der Palette enthaltenen Kacheln müssen in die mittlere Arbeitsfläche verschoben werden, damit sie konfiguriert und berücksichtigt werden können.
 
-![](assets/segment-builder2.png){width="70%" align="left"}
+![](assets/segment-builder2.png){zoomable=&quot;yes&quot;}{width="70%" align="left"}
 
 Die Palette ist in zwei Registerkarten unterteilt:
 
@@ -38,13 +37,13 @@ Die Palette ist in zwei Registerkarten unterteilt:
 
 Die Arbeitsfläche ist der zentrale Bereich des Bildschirms, in dem Sie die Regeln basierend auf den aus der Palette hier abgelegten Elementen konfigurieren und kombinieren können. Um eine neue Regel hinzuzufügen, ziehen Sie eine Kachel aus der Palette auf die Arbeitsfläche. Je nach Art der hinzuzufügenden Daten werden Ihnen dann kontextspezifische Optionen angezeigt.
 
-![](assets/segment-builder4.png){width="70%" align="left"}
+![](assets/segment-builder4.png){zoomable=&quot;yes&quot;}{width="70%" align="left"}
 
 ## Der Bereich mit den Regeleigenschaften
 
 Auf der rechten Seite können Sie im Bereich **Regeleigenschaften** die folgenden Aktionen ausführen.
 
-![](assets/segment-builder5.png){width="70%" align="left"}
+![](assets/segment-builder5.png){zoomable=&quot;yes&quot;}{width="70%" align="left"}
 
 * **Ergebnisse anzeigen:** zeigt die Liste der von der Zielgruppe angesprochenen Empfänger an.
 * **Code-Ansicht**: Zeigt eine Code-basierte Version der Zielgruppe in SQL an.
@@ -64,26 +63,26 @@ In diesem Beispiel erstellen wir eine Zielgruppe für alle Kunden und Kundinnen,
 
 1. Suchen Sie in der Registerkarte **Attribute** der Palette nach dem Feld **Geburtsdatum**. Ziehen Sie die Kachel und legen Sie sie auf der Arbeitsfläche ab.
 
-   ![](assets/segment-builder6.png)
+   ![](assets/segment-builder6.png){zoomable=&quot;yes&quot;}
 
 1. Wählen Sie auf der Arbeitsfläche den Operator **Nach** und geben Sie das gewünschte Datum ein.
 
-   ![](assets/segment-builder7.png)
+   ![](assets/segment-builder7.png){zoomable=&quot;yes&quot;}
 
 1. Suchen Sie in der Palette nach dem Feld **Ort** und fügen Sie es unterhalb der ersten Regel zur Arbeitsfläche hinzu.
 
-   ![](assets/segment-builder8.png)
+   ![](assets/segment-builder8.png){zoomable=&quot;yes&quot;}
 
 1. Geben Sie im Textfeld den Vornamen des Ortes ein und drücken Sie dann die Eingabetaste.
 
-   ![](assets/segment-builder9.png)
+   ![](assets/segment-builder9.png){zoomable=&quot;yes&quot;}
 
 1. Wiederholen Sie diese Aktion für den zweiten Stadtnamen.
 
-   ![](assets/segment-builder10.png)
+   ![](assets/segment-builder10.png){zoomable=&quot;yes&quot;}
 
 1. Klicken Sie auf **Ergebnisse anzeigen**, um die Liste und die Anzahl der Empfangenen anzuzeigen, die der Abfrage entsprechen. Sie können auch Spalten hinzufügen, um die Daten zu visualisieren und zu überprüfen. Fügen Sie für unser Beispiel die Spalte **Stadt** hinzu. Atlanta und Seattle sollten hier zu sehen sein.
 
-   ![](assets/segment-builder11.png)
+   ![](assets/segment-builder11.png){zoomable=&quot;yes&quot;}
 
 1. Klicken Sie auf **Bestätigen**.
