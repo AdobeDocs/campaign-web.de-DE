@@ -3,7 +3,7 @@ title: Verwenden der KI-gestützten Kontexthilfe in Campaign Web
 description: Fragen in Campaign Web-Hilfe-Popovers stellen
 badge: label="Beta"
 exl-id: 577f4652-b3e5-4fa1-9a98-91815fe92d83
-source-git-commit: a37745e89a6faf9ff3e986da311cd7cf25a4f05b
+source-git-commit: 27abc0c532ce6957eae55d5db342093efc8fe0a5
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 82%
@@ -23,11 +23,11 @@ Dank der Funktionen von Campaign Gen AI verwandelt diese Komponente Ihr Erlebnis
 
 >[!AVAILABILITY]
 >
->Die KI-gestützte kontextbezogene Hilfe ist in ihrer Beta-Version verfügbar und kann ohne vorherige Ankündigung geändert werden.
+>* Die KI-gestützte kontextbezogene Hilfe ist in ihrer Beta-Version verfügbar und kann ohne vorherige Ankündigung geändert werden.
 >
->Diese Funktion ist nur auf **Englisch** verfügbar. Andere Sprachen werden in dieser Version nicht unterstützt. Vergewissern Sie sich deshalb, dass [Ihre bevorzugte Sprache](connect-to-campaign.md#language-pref) auf Englisch eingestellt ist, bevor Sie diese Funktion nutzen.
+>* Diese Funktion ist nur auf **Englisch** verfügbar. Andere Sprachen werden in dieser Version nicht unterstützt. Vergewissern Sie sich deshalb, dass [Ihre bevorzugte Sprache](connect-to-campaign.md#language-pref) auf Englisch eingestellt ist, bevor Sie diese Funktion nutzen.
 >
->Die KI-gestützte kontextbezogene Hilfe ist derzeit in Campaign Email Designer nicht verfügbar.
+>* Die KI-gestützte kontextbezogene Hilfe ist derzeit in Campaign Email Designer nicht verfügbar.
 
 
 <!--
