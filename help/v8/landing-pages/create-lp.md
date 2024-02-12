@@ -2,10 +2,10 @@
 title: Erstellen einer Landingpage
 description: Hier erfahren Sie, wie Sie in Campaign Web eine Landingpage konfigurieren und veröffentlichen können.
 feature: Landing Pages
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 26c41105a4c04b72e0aedf05a4b3268b0e475d40
 workflow-type: tm+mt
-source-wordcount: '1301'
-ht-degree: 45%
+source-wordcount: '1340'
+ht-degree: 42%
 
 ---
 
@@ -71,6 +71,8 @@ Sie können eine Landingpage duplizieren oder löschen. Klicken Sie auf das Ausl
 
 ![](assets/lp-creation-process.png){zoomable="yes"}-->
 
+Gehen Sie wie folgt vor, um eine Landingpage zu erstellen:
+
 1. Klicken Sie im Inventar der **[!UICONTROL Landingpages]** auf **[!UICONTROL Landingpage erstellen]**.
 
    ![](assets/lp-create-button.png){zoomable=&quot;yes&quot;}
@@ -79,13 +81,13 @@ Sie können eine Landingpage duplizieren oder löschen. Klicken Sie auf das Ausl
    * **[!UICONTROL Akquise]**: Dies ist die Standardvorlage für Landingpages, mit der Sie Profildaten erfassen und aktualisieren können.
    * **[!UICONTROL Abonnement]**: Verwenden Sie diese Vorlage, damit Benutzer sich für eine bestimmte [service](../audience/manage-services.md).
    * **[!UICONTROL Abmeldung]**: Diese Vorlage kann in einem Versand verwendet werden, der an Abonnenten eines Dienstes gesendet wird, damit sie sich von dieser Abmeldung abmelden können. [service](../audience/manage-services.md).
-   * **[!UICONTROL Blockierungsliste]**: Diese Vorlage sollte verwendet werden, wenn ein Profil nicht mehr von Campaign kontaktiert werden möchte.
+   * **[!UICONTROL Blockierungsliste]**: Diese Vorlage sollte verwendet werden, wenn ein Profil in einem Versand auf einen Abmelde-Link klickt und nicht mehr kontaktiert werden möchte.
 
    ![](assets/lp-templates.png){zoomable=&quot;yes&quot;}
 
    >[!NOTE]
    >
-   >Erfahren Sie, wie Sie die verschiedenen Anwendungsfälle für jede Vorlage implementieren können in [diesem Abschnitt](lp-use-cases.md).
+   >Erfahren Sie, wie Sie die verschiedenen Anwendungsfälle für jede Vorlage implementieren können in [diese Seite](lp-use-cases.md).
 
 1. Klicken Sie auf **[!UICONTROL Erstellen]**.
 
@@ -101,7 +103,7 @@ Sie können eine Landingpage duplizieren oder löschen. Klicken Sie auf das Ausl
 
    * Wenn Sie keine Profile aktualisieren möchten, muss die Option **[!UICONTROL Bei nicht angegebener Identifizierung vorausgefüllte Informationen ignorieren]** ausgewählt werden. In diesem Fall wird jedes eingegebene Profil nach Genehmigung des Formulars der Datenbank hinzugefügt. Diese Option wird beispielsweise verwendet, wenn das Formular auf einer Website veröffentlicht wird.
 
-1. Klicken Sie im Abschnitt **[!UICONTROL Seiten]** auf die Schaltfläche **[!UICONTROL Inhalt bearbeiten]** für jede Seite, die Sie für diese Landingpage entwerfen möchten. Der Inhalt jeder Seite ist bereits vorausgefüllt. Bearbeiten Sie ihn nach Bedarf. [Weitere Informationen](lp-content.md)
+1. Eine Landingpage kann über nachfolgende Seiten verfügen. Um Seiten hinzuzufügen, durchsuchen Sie die **[!UICONTROL Seiten]** und klicken Sie auf das **[!UICONTROL Inhalt bearbeiten]** für jede Seite, die Sie für diese Landingpage erstellen möchten. Der Inhalt jeder Seite ist bereits vorausgefüllt. Bearbeiten Sie ihn nach Bedarf. [Weitere Informationen](lp-content.md)
 
    ![](assets/lp-pages.png){zoomable=&quot;yes&quot;}
 
@@ -129,7 +131,7 @@ Sie können eine Landingpage duplizieren oder löschen. Klicken Sie auf das Ausl
 
 1. Klicken Sie auf **[!UICONTROL Überprüfen und veröffentlichen]**.
 
-Nachdem Sie alle Einstellungen und [entworfen](lp-content.md) alle Seiten, können Sie [test](#test-landing-page) und [publish](#publish-landing-page) Ihre Landingpage.
+Nachdem Sie alle Einstellungen und [entworfen](lp-content.md) alle Seiten, können Sie [test](#test-landing-page) und [publish](#publish-landing-page) Ihre Landingpage wie unten beschrieben.
 
 ## Testen der Landingpage {#test-landing-page}
 
@@ -148,6 +150,8 @@ Nachdem Sie die Einstellungen und den Inhalt Ihrer Landingpage definiert haben, 
 >[!CAUTION]
 >
 >Um Ihre Nachrichten in der Vorschau darzustellen und einen Testversand durchzuführen, benötigen Sie verfügbare Testprofile. [Erfahren Sie mehr über Testprofile](../audience/test-profiles.md)
+
+Gehen Sie wie folgt vor, um Ihre Landingpage zu testen:
 
 1. Nachdem Sie auf **[!UICONTROL Überprüfen und veröffentlichen]**, wählen Sie die **[!UICONTROL Inhalt simulieren]** -Schaltfläche im Landingpage-Dashboard, um auf die Testprofilauswahl zuzugreifen.
 
@@ -173,7 +177,7 @@ Nachdem Sie die Einstellungen und den Inhalt Ihrer Landingpage definiert haben, 
 
 ## Veröffentlichen der Landingpage {#publish-landing-page}
 
-Sobald Ihre Landingpage fertig ist, veröffentlichen Sie sie, um sie mithilfe der entsprechenden Schaltfläche für einen Versand verfügbar zu machen.
+Sobald Ihre Landingpage fertig und validiert ist, veröffentlichen Sie sie mit der entsprechenden Schaltfläche, um sie für einen Versand verfügbar zu machen.
 
 Nach der Veröffentlichung:
 

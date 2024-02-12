@@ -2,10 +2,10 @@
 title: Definieren des Inhalts für die Landingpage
 description: Erfahren Sie, wie Sie in Campaign Web Landingpage-spezifische Inhalte erstellen
 feature: Landing Pages
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 26c41105a4c04b72e0aedf05a4b3268b0e475d40
 workflow-type: tm+mt
-source-wordcount: '875'
-ht-degree: 49%
+source-wordcount: '872'
+ht-degree: 45%
 
 ---
 
@@ -16,13 +16,16 @@ ht-degree: 49%
 >title="Verwenden von Inhaltskomponenten"
 >abstract="Inhaltskomponenten sind leere Platzhalter für Inhalte, mit denen Sie das Layout einer Landingpage gestalten können. Verwenden Sie die Formularkomponente, um bestimmte Inhalte zu definieren, über die Benutzerinnen und Benutzer ihre Auswahl auswählen und übermitteln können."
 
-Wenn Sie den Inhalt einer beliebigen Seite Ihrer Landingpage bearbeiten, ist er bereits vorausgefüllt.
+Sie können den Inhalt einer beliebigen Seite Ihrer Landingpage bearbeiten.
 
-Die erste Seite, die den Benutzern sofort angezeigt wird, nachdem sie auf den Link zu Ihrer Landingpage geklickt haben, ist bereits mit dem [Landingpage-spezifische Formularkomponente](#use-form-component) für die ausgewählte Vorlage<!-- to enable users to select and submit their choices-->. Sie können auch [Stile für Ihre Landingpage](#lp-form-styles).
 
-Um den Inhalt Ihrer Landingpage weiter zu gestalten, können Sie dieselben Komponenten wie für eine E-Mail verwenden. [Weitere Informationen](../email/content-components.md#add-content-components)
+Die erste Seite, die den Benutzern sofort angezeigt wird, nachdem sie auf den Link zu Ihrer Landingpage geklickt haben, ist bereits mit dem [Landingpage-spezifische Formularkomponente](#use-form-component) für die ausgewählte Vorlage<!-- to enable users to select and submit their choices-->.
 
 Der Inhalt der **[!UICONTROL Bestätigung]**, **[!UICONTROL Fehler]** und **[!UICONTROL Ablauf]** -Seiten sind ebenfalls vorausgefüllt. Bearbeiten Sie sie nach Bedarf.
+
+Sie können auch [Stile für Ihre Landingpage](#lp-form-styles).
+
+Um den Inhalt Ihrer Landingpage weiter zu gestalten, können Sie dieselben Komponenten wie für eine E-Mail verwenden. [Weitere Informationen](../email/content-components.md#add-content-components)
 
 ## Verwenden von Formularkomponenten {#use-form-component}
 
@@ -36,7 +39,7 @@ Der Inhalt der **[!UICONTROL Bestätigung]**, **[!UICONTROL Fehler]** und **[!UI
 >title="Was passiert, wenn auf die Schaltfläche geklickt wird"
 >abstract="Definieren Sie, was passieren soll, wenn Benutzende das Landingpage-Formular übermitteln."
 
-Um bestimmte Inhalte zu definieren, mit denen Benutzende ihre Auswahl auf Ihrer Landingpage festlegen und übermitteln können, verwenden Sie die **[!UICONTROL Formularkomponente]**. Gehen Sie dazu wie folgt vor.
+Um bestimmte Inhalte zu definieren, mit denen Benutzer ihre Auswahl auf Ihrer Landingpage festlegen und unterbreiten können, bearbeiten Sie die **[!UICONTROL Formular]** -Komponente. Gehen Sie dazu wie folgt vor.
 
 1. Die Landingpage-spezifische **[!UICONTROL Formularkomponente]** wird bereits auf der Arbeitsfläche für die ausgewählte Vorlage angezeigt.
 

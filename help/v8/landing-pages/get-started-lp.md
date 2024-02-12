@@ -3,10 +3,10 @@ audience: end-user
 title: Erste Schritte mit Landingpages
 description: Informationen zu Landingpages in Campaign Web
 feature: Landing Pages
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 26c41105a4c04b72e0aedf05a4b3268b0e475d40
 workflow-type: tm+mt
-source-wordcount: '269'
-ht-degree: 25%
+source-wordcount: '275'
+ht-degree: 24%
 
 ---
 
@@ -26,9 +26,9 @@ Landingpages ermöglichen es Ihnen, Ihre Benutzer zu Online-Formularen weiterzul
 
 >[!CAUTION]
 >
->Landingpages, die Sie in der Campaign-Webbenutzeroberfläche erstellen, unterscheiden sich von den in der Clientkonsole erstellten Webformularen. Webformulare können nicht in der Campaign-Webbenutzeroberfläche angezeigt oder bearbeitet werden.
+>Landingpages, die Sie in der Campaign-Webbenutzeroberfläche erstellen, unterscheiden sich von den in der Clientkonsole erstellten Webformularen. Sie können keine Webformulare anzeigen oder bearbeiten, die in der Clientkonsole in der Campaign-Webbenutzeroberfläche erstellt wurden.
 >
->Weitere Informationen zu Webformularen finden Sie in [Dokumentation zur Campaign Console](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html?lang=de){target="_blank"}.
+>Weitere Informationen zu Webformularen finden Sie in [Dokumentation zu Campaign v8 (Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html?lang=de){target="_blank"}.
 
 Die wichtigsten Funktionen von Landingpages sind unten aufgeführt:
 
