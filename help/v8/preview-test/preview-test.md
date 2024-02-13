@@ -3,10 +3,10 @@ audience: end-user
 title: Über die Versandvorschau und Tests
 description: Weitere Informationen dazu, wie Sendungen in der Vorschau angezeigt und getestet werden können
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 8667de1d86428427edd9a2718218de9801b0922d
 workflow-type: tm+mt
-source-wordcount: '201'
-ht-degree: 72%
+source-wordcount: '198'
+ht-degree: 59%
 
 ---
 
@@ -19,11 +19,9 @@ ht-degree: 72%
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/test-deliveries.html?lang=de" text="Durchführen von Testsendungen"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html#test-landing-page" text="Testen von Landingpages"
 
-Nachdem der Versandinhalt definiert wurde, können Sie Profile und Testprofile verwenden, um eine Vorschau anzuzeigen und zu testen, bevor Sie die Nachricht senden.
+Nachdem der Versandinhalt definiert wurde, können Sie Profile und Testprofile verwenden, um eine Vorschau anzuzeigen und zu testen, bevor Sie die Nachricht senden. Dies ist ein wichtiger Schritt, um sicherzustellen, dass es korrekt, aber auch fehlerfrei ist, sowohl in den Inhalts- als auch in den Personalisierungseinstellungen.
 
-Dies ist ein entscheidender Schritt, um sicherzustellen, dass er präzise, aber auch frei von Fehlern ist, sowohl in den Inhalts- als auch in den Personalisierungseinstellungen.
-
-Dazu bietet [!DNL Adobe Campaign] folgende Möglichkeiten:
+[!DNL Adobe Campaign Web user interface] ermöglicht Ihnen Folgendes:
 
 * [Anzeigen des Nachrichteninhalts und der Personalisierung in einer Vorschau](preview-content.md)
 * [Durchführen von Testsendungen](test-deliveries.md) (Testversand) an bestimmte Empfängerinnen und Empfänger bzw. Abonnentinnen und Abonnenten zu Test- und Validierungszwecken

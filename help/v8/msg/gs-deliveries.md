@@ -5,12 +5,11 @@ description: Erfahren Sie, wie Sie Ihren ersten Versand in Campaign Web erstelle
 feature: Email, Push, SMS, Cross Channel Orchestration
 role: User
 level: Beginner
-badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: 3afff35c-c15f-46f8-b791-9bad5e38ea44
-source-git-commit: 74048d2e6001d2d9b4813a78096a481374233ea6
+source-git-commit: 8667de1d86428427edd9a2718218de9801b0922d
 workflow-type: tm+mt
-source-wordcount: '1203'
-ht-degree: 100%
+source-wordcount: '1195'
+ht-degree: 96%
 
 ---
 
@@ -35,12 +34,12 @@ Gehen Sie wie folgt vor, um einen eigenständigen Versand zu erstellen:
 
 1. Navigieren Sie zum Menü **[!UICONTROL Sendungen]** im linken Navigationsmenü und klicken Sie auf die Schaltfläche **[!UICONTROL Versand erstellen]**.
 
-   ![](assets/create-a-delivery.png)
+   ![](assets/create-a-delivery.png){zoomable=&quot;yes&quot;}
 
 1. Wählen Sie einen Kanal für den Versand aus. 
-1. Definieren Sie die Versandzielgruppe sowohl für die Hauptzielgruppe als auch für die Kontrollgruppe. Weitere Informationen zu Zielgruppen finden Sie in [diesem Abschnitt](../audience/about-recipients.md).
+1. Definieren Sie die Versandzielgruppe sowohl für die Hauptzielgruppe als auch für die Kontrollgruppe. [Weitere Informationen zu Zielgruppen](../audience/about-recipients.md).
 
-   ![](assets/select-audience.png){width="70%" align="left"}
+   ![](assets/select-audience.png){zoomable=&quot;yes&quot;}{width="70%" align="left"}
 
 1. Definieren Sie den Nachrichteninhalt. Weitere Informationen zu Versandkanälen und zum Definieren von Versandinhalten finden Sie in den folgenden Abschnitten:
 
@@ -52,24 +51,24 @@ Gehen Sie wie folgt vor, um einen eigenständigen Versand zu erstellen:
 1. Klicken Sie auf die Schaltfläche **[!UICONTROL Überprüfen und senden]**, um Ihre Einstellungen zu überprüfen.
 1. Verwenden Sie die Schaltfläche **[!UICONTROL Inhalt simulieren]**, um Ihren Versand und die Personalisierungseinstellungen zu testen. Weitere Informationen zur Simulation von Nachrichten finden Sie in [diesem Abschnitt](../preview-test/preview-test.md).
 1. Klicken Sie auf die Schaltfläche **[!UICONTROL Vorbereiten]**, um die Zielgruppen-Population zu berechnen und die Nachrichten zu erstellen. Der Vorbereitungsschritt kann einige Minuten dauern. Nach Abschluss der Vorbereitung sind die Nachrichten versandbereit. Im Falle eines Fehlers können Sie zu den **Protokollen** navigieren, um Benachrichtigungen und Warnungen einzusehen.
-1. Überprüfen Sie die Ergebnisse und klicken Sie auf die Schaltfläche **[!UICONTROL Senden]**, um mit dem Senden von Nachrichten zu beginnen.
+1. Überprüfen Sie die Ergebnisse und klicken Sie auf die **[!UICONTROL Senden]** Schaltfläche zum Starten des Nachrichtenversands.
 1. Sobald Nachrichten gesendet wurden, gehen Sie zum Abschnitt **Berichte**, um auf Schlüsselmetriken zuzugreifen. Weitere Informationen zu Versandberichten finden Sie in [diesem Abschnitt](../reporting/delivery-reports.md).
 
 >[!TAB Erstellen eines Versands in einem Workflow]
 
 Gehen Sie wie folgt vor, um einen Versand in einem Workflow zu erstellen:
 
-1. Erstellen Sie einen neuen Workflow oder öffnen Sie einen vorhandenen. Weitere Informationen zu technischen Workflows finden Sie auf [dieser Seite](../workflows/gs-workflow-creation.md#gs-workflow-steps)
-1. Fügen Sie eine Aktivität **[!UICONTROL Zielgruppe erstellen]** hinzu und konfigurieren Sie sie. Weitere Informationen zur Aktivität **[!UICONTROL Zielgruppe erstellen]** finden Sie in [diesem Abschnitt](../workflows/activities/build-audience.md).
-1. Klicken Sie auf das `+`-Symbol und wählen Sie eine Versandaktivität aus: **[!UICONTROL E-Mail]**, **[!UICONTROL SMS]**, **[!UICONTROL Push-Benachrichtigung (Android)]** oder **[!UICONTROL Push-Benachrichtigung (iOS)]**. Erfahren Sie in [diesem Abschnitt](../workflows/activities/channels.md) mehr über die Versandkanalaktivitäten in einem Workflow und darüber, wie Sie Versandinhalte definieren.
+1. Erstellen Sie einen neuen Workflow oder öffnen Sie einen vorhandenen. [Weitere Informationen zu Workflows](../workflows/gs-workflow-creation.md#gs-workflow-steps)
+1. Hinzufügen und Konfigurieren eines [**[!UICONTROL Audience erstellen]**](../workflows/activities/build-audience.md) -Aktivität.
+1. Klicken Sie auf das `+`-Symbol und wählen Sie eine Versandaktivität aus: **[!UICONTROL E-Mail]**, **[!UICONTROL SMS]**, **[!UICONTROL Push-Benachrichtigung (Android)]** oder **[!UICONTROL Push-Benachrichtigung (iOS)]**. Erfahren Sie mehr über die Versandkanalaktivitäten in einem Workflow und wie Sie einen Versandinhalt definieren in [diesem Abschnitt](../workflows/activities/channels.md).
 
-   ![](assets/add-delivery-in-wf.png)
+   ![](assets/add-delivery-in-wf.png){zoomable=&quot;yes&quot;}
 
 1. Starten Sie den Workflow und überprüfen Sie die Protokolle.
 
 Sie können Sendungen auch in einer Kampagne hinzufügen, ohne einen Workflow zu erstellen. Navigieren Sie dazu zur Registerkarte **[!UICONTROL Sendungen]** Ihrer Kampagne und klicken Sie auf die Schaltfläche **[!UICONTROL Versand erstellen]**.
 
-![](assets/new-campaign-delivery.png)
+![](assets/new-campaign-delivery.png){zoomable=&quot;yes&quot;}
 
 Die Konfigurationsschritte ähneln den Schritten für eigenständige Sendungen.
 
@@ -117,7 +116,7 @@ Sie können für das Senden Ihrer Nachrichten das Datum und die genaue Uhrzeit f
 
 Um einen Versand zeitlich zu planen, öffnen Sie den Versand und navigieren Sie zum Abschnitt **[!UICONTROL Zeitplan]**. Verwenden Sie den Umschalter **[!UICONTROL Zeitplanung aktivieren]**, um dies zu aktivieren, und legen Sie das gewünschte Datum und die gewünschte Uhrzeit für den Versand fest. Nach dem Versand beginnt der eigentliche Versand am von Ihnen definierten Kontaktdatum.
 
-![](assets/schedule.png)
+![](assets/schedule.png){zoomable=&quot;yes&quot;}
 
 Standardmäßig ist die Option **[!UICONTROL Bestätigung vor dem Senden aktivieren]** aktiviert. Für diese Option müssen Sie das Senden bestätigen, bevor der Versand zum geplanten Zeitpunkt gesendet wird. Wenn Sie den Versand automatisch zum geplanten Zeitpunkt durchführen lassen möchten, können Sie diese Option deaktivieren.
 

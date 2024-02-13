@@ -3,10 +3,10 @@ audience: end-user
 title: Anzeigen des Versandinhalts in einer Vorschau
 description: Erfahren Sie, wie Sie mit der Campaign-Web-Benutzeroberfläche eine Vorschau Ihres Versandinhalts anzeigen können.
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 8667de1d86428427edd9a2718218de9801b0922d
 workflow-type: tm+mt
-source-wordcount: '358'
-ht-degree: 80%
+source-wordcount: '359'
+ht-degree: 67%
 
 ---
 
@@ -23,11 +23,7 @@ Gehen Sie wie folgt vor, um den Versandinhalt in einer Vorschau anzuzeigen.
 
    ![](assets/simulate-button.png){zoomable=&quot;yes&quot;}
 
-1. Um die Profile auszuwählen, die für die Vorschau Ihres personalisierten Inhalts verwendet werden, verwenden Sie folgende Funktionen:
-
-   * **[!UICONTROL Testprofil(e) hinzufügen]** für die Vorschau von E-Mail- und SMS-Sendungen
-
-   * **[!UICONTROL Abonnentin(nen) oder Abonnent(en) hinzufügen]** für die Vorschau von Push-Benachrichtigungen
+1. Wählen Sie die Profile aus, die für die Vorschau des Inhalts verwendet werden sollen. Klicken Sie dazu auf die Schaltfläche **[!UICONTROL Hinzufügen von Testprofilen]** (für E-Mail und SMS) oder die **[!UICONTROL Abonnenten hinzufügen]** Schaltfläche (für Push-Benachrichtigungen).
 
 1. Sie können Profile und Testprofile kombinieren, um eine Vorschau Ihrer E-Mail- oder SMS-Nachricht anzuzeigen.
 
@@ -37,11 +33,9 @@ Gehen Sie wie folgt vor, um den Versandinhalt in einer Vorschau anzuzeigen.
 
    ![](assets/simulate-select-profiles.png){zoomable=&quot;yes&quot;}
 
-1. Beim Durchsuchen der Testprofilliste oder Profillisten können Sie Filter verwenden, um Ihre Suche zu verfeinern.
+1. Beim Durchsuchen der Testprofil- oder Profillisten können Sie Filter verwenden, um Ihre Suche zu verfeinern. Sie können beispielsweise eine Regel definieren, um nach allen Testprofilen mit dem Status **[!UICONTROL Interessent]** zu suchen. [Erfahren Sie, wie Sie mithilfe des Abfragemodells Regeln hinzufügen](../query/query-modeler-overview.md).
 
    ![](assets/simulate-test-profile-filter.png){zoomable=&quot;yes&quot;}
-
-   Sie können beispielsweise eine Regel definieren, um nach allen Testprofilen mit dem Status **[!UICONTROL Interessent]** zu suchen. [Erfahren Sie, wie Sie mithilfe des Abfragemodells Regeln hinzufügen](../query/query-modeler-overview.md).
 
 1. Klicken Sie auf **[!UICONTROL Auswählen]**, um Ihre Auswahl zu bestätigen.
 
