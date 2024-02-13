@@ -4,7 +4,7 @@ title: Erste Schritte mit Kampagnen
 description: Erfahren Sie, wie Sie mit kanalübergreifenden Kampagnen beginnen
 exl-id: 690229e7-73e1-4cc1-b69a-f3e5d8de58af
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '709'
 ht-degree: 100%
 
