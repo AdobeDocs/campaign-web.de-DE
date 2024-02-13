@@ -1,12 +1,11 @@
 ---
 title: Arbeiten mit vordefinierten Filtern
 description: Erfahren Sie, wie Sie in Adobe Campaign Web vordefinierte Filter erstellen und verwalten
-badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
-source-git-commit: 5e5580c8dd7ddd4d545d7e77c9ed26e9500ec313
+source-git-commit: 97b6de0763dbeb133d7d0346e6af4d056cc731e3
 workflow-type: tm+mt
-source-wordcount: '824'
-ht-degree: 95%
+source-wordcount: '816'
+ht-degree: 76%
 
 ---
 
@@ -36,12 +35,7 @@ Vordefinierte Filter sind benutzerdefinierte Filter, die für zukünftige Verwen
 
 Sie können vorhandene integrierte Filter verwenden, um auf einen bestimmten Teil Ihrer Daten zuzugreifen, oder eigene vordefinierte Filter erstellen und speichern.
 
-![](assets/predefined-filters-menu.png){zoomable=&quot;yes&quot;}
-
->[!IMPORTANT]
->
->In dieser Produktversion sind beim Erstellen von Regeln, beim Auswählen der Zielgruppe eines Versands oder beim Erstellen einer Zielgruppe in einem Workflow einige vordefinierte Filter nicht in der Benutzeroberfläche verfügbar. Sie können sie dennoch verwenden. [Weitere Informationen](guardrails.md#predefined-filters-filters-guardrails-limitations)
-
+![](assets/predefined-filters-menu.png){zoomable=&quot;yes&quot;}{zoomable=&quot;yes&quot;}
 
 ## Erstellen eines vordefinierten Filters {#create-predefined-filter}
 
@@ -62,11 +56,11 @@ Sie können einen benutzerdefinierten Filter im [Abfrage-Modeler](../query/query
 1. Öffnen Sie den Abfrage-Modeler und definieren Sie Ihre Filterbedingungen. Im folgenden Beispiel filtern Sie Empfängerinnen und Empfänger, die in Madrid leben und einen Newsletter abonniert haben.
 1. Klicken Sie auf die Schaltfläche **Filter auswählen oder speichern** und wählen Sie **Als Filter speichern**.
 
-   ![](assets/predefined-filters-save.png)
+   ![](assets/predefined-filters-save.png){zoomable=&quot;yes&quot;}
 
 1. Wählen Sie **Neuen Filter erstellen** und geben Sie einen Namen und eine Beschreibung für diesen Filter ein.
 
-   ![](assets/predefined-filters-save-filter.png)
+   ![](assets/predefined-filters-save-filter.png){zoomable=&quot;yes&quot;}
 
    Sie können den Filter bei Bedarf als Favorit speichern. Weiterführende Informationen finden Sie in [diesem Abschnitt](#fav-filter).
 
@@ -86,12 +80,12 @@ Sie können einen Filter im Eintrag **Vordefinierte Filter** im linken Menü ers
 
 1. Definieren Sie die Regel für den Filter. Zum Beispiel Profile, die älter als 30 sind.
 
-   ![](assets/filter-30+.png)
+   ![](assets/filter-30+.png){zoomable=&quot;yes&quot;}
 
 
 1. Speichern Sie Ihre Änderungen.
 
-   ![](assets/new-filter.png)
+   ![](assets/new-filter.png){zoomable=&quot;yes&quot;}
 
 
 Der Filter wird zur Liste der vordefinierten Filter hinzugefügt. Sie können den Filter bei Bedarf als Favorit speichern. Weiterführende Informationen finden Sie in [diesem Abschnitt](#fav-filter).
@@ -104,54 +98,51 @@ Bei der Erstellung eines vordefinierten Filters können Sie die Option **Als Fav
 
 Wenn ein Filter als Favorit gespeichert wird, steht er allen Benutzenden im Abschnitt **Favoritenfilter** der Filtererstellungsliste zur Verfügung, wie unten dargestellt:
 
-![](assets/predefined-filters-favorite.png){width="30%" align="left"}
+![](assets/predefined-filters-favorite.png){zoomable=&quot;yes&quot;}{width="30%" align="left"}
 
 ## Verwenden eines vordefinierten Filters {#use-predefined-filter}
 
 Vordefinierte Filter sind beim Definieren von Regeleigenschaften verfügbar. Um auf vordefinierte Filter zuzugreifen, wählen Sie die Option **Benutzerdefinierten Filter auswählen** in der Dropdown-Liste des Abfrage-Modelers.
 
-Sie können dann auf die vollständige Liste der für den aktuellen Kontext verfügbaren vordefinierten Filter zugreifen.
-
-Sie können auch die Filterabkürzungen im Abschnitt **Favoritenfilter** des Dropdown-Menüs verwenden. Weitere Informationen zu Favoriten finden Sie in [diesem Abschnitt](#fav-filter).
+Sie können dann auf die vollständige Liste vordefinierter Filter zugreifen, die für den aktuellen Kontext verfügbar sind, und die im Abschnitt verfügbaren Verknüpfungen verwenden. **Favoritenfilter** des Dropdown-Menüs aus. Weitere Informationen zu Favoriten finden Sie in [diesem Abschnitt](#fav-filter).
 
 Gehen Sie wie folgt vor, um beispielsweise eine Zielgruppe aus einem vordefinierten Filter zu erstellen:
 
-1. Navigieren Sie zum Eintrag **Zielgruppen** im linken Menü.
-1. Klicken Sie auf die Schaltfläche **Zielgruppe erstellen**.
+1. Navigieren Sie zum **Zielgruppen** im linken Menü ein und klicken Sie auf die Schaltfläche **Zielgruppe erstellen** in der oberen linken Ecke der Zielgruppenliste.
 1. Geben Sie den Namen der Zielgruppe ein und klicken Sie auf die Schaltfläche **Zielgruppe erstellen**.
-1. Wählen Sie die **Abfrage**-Aktivität und klicken Sie im rechten Fenster auf die Schaltfläche **Zielgruppe erstellen**.
+1. Wählen Sie die **Abfrage** und klicken Sie im rechten Bereich auf das **Erstellen einer Zielgruppe** Schaltfläche.
 
-   ![](assets/build-audience-from-filter.png)
+   ![](assets/build-audience-from-filter.png){zoomable=&quot;yes&quot;}
 
-1. Wählen Sie aus der **Schaltfläche zum Auswählen oder Speichern von Filtern** die Option **Benutzerdefinierten Filter auswählen**.
+1. Aus dem **Filter auswählen oder speichern** -Schaltfläche, wählen Sie die **Benutzerspezifischen Filter auswählen** -Option.
 
-   ![](assets/build-audience-select-custom-filter.png)
+   ![](assets/build-audience-select-custom-filter.png){zoomable=&quot;yes&quot;}
 
 1. Navigieren Sie zum vordefinierten Filter, der zum Erstellen der Zielgruppe verwendet werden soll, wählen Sie ihn aus und bestätigen Sie die Wahl.
 
-   ![](assets/build-audience-filter-list.png)
+   ![](assets/build-audience-filter-list.png){zoomable=&quot;yes&quot;}
 
 1. Überprüfen Sie die Regeleigenschaften für diesen Filter und bestätigen Sie sie.
 
    Der Filter wird jetzt als Abfrage in der **Abfrage**-Aktivität genutzt.
 
-   ![](assets/build-audience-confirm.png)
+   ![](assets/build-audience-confirm.png){zoomable=&quot;yes&quot;}
 
 1. Speichern Sie Ihre Änderungen und klicken Sie auf die Schaltfläche **Starten**, um die Zielgruppe zu erstellen und in der Zielgruppenliste verfügbar zu machen.
 
 ## Verwalten Ihrer vordefinierten Filter {#manage-predefined-filter}
 
-Die vordefinierten Filter werden alle im dedizierten Eintrag des linken Navigationsmenüs gruppiert.
+Alle vordefinierten Filter werden im entsprechenden Eintrag des linken Navigationsmenüs gruppiert.
 
-![](assets/list-of-filters.png)
+![](assets/list-of-filters.png){zoomable=&quot;yes&quot;}
 
-Von dieser Liste ausgehend können Sie einen neuen Filter erstellen, wie oben beschrieben, und:
+Aus dieser Liste können Sie wie oben beschrieben einen neuen Filter erstellen und die unten aufgeführten Aktionen ausführen:
 
-* einen vorhandenen Filter bearbeiten und seine Regeln und Eigenschaften ändern
-* einen vordefinierten Filter duplizieren
-* einen vordefinierten Filter löschen
+* Bearbeiten Sie einen vorhandenen Filter und ändern Sie ihn anhand von Regeln und Eigenschaften.
+* Duplizieren Sie einen vordefinierten Filter.
+* Löschen Sie einen vordefinierten Filter.
 
-Sie können beim Erstellen Ihrer Zielgruppen einen vordefinierten Filter als Favoriten hinzufügen, um schnell darauf zugreifen zu können. Weiterführende Informationen finden Sie in [diesem Abschnitt](#fav-filter).
+Sie können beim Erstellen Ihrer Zielgruppen auch einen vordefinierten Filter als Favoriten für einen schnellen Zugriff hinzufügen. Weiterführende Informationen finden Sie in [diesem Abschnitt](#fav-filter).
 
 <!--
 ## Built-in predefined filters {#ootb-predefined-filter}

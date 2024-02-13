@@ -2,12 +2,11 @@
 audience: end-user
 title: Berechtigungsverwaltung in der Web-Benutzeroberfläche von Campaign
 description: Erfahren Sie mehr über Berechtigungen in der Campaign-Web-Benutzeroberfläche
-badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
-source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
+source-git-commit: 97b6de0763dbeb133d7d0346e6af4d056cc731e3
 workflow-type: tm+mt
-source-wordcount: '595'
-ht-degree: 97%
+source-wordcount: '601'
+ht-degree: 91%
 
 ---
 
@@ -67,11 +66,11 @@ Gehen Sie wie folgt vor, um Berechtigungen für einen Ordner anzuzeigen:
 1. Wählen Sie im linken Navigationsmenü des **Explorers** einen Ordner aus.
 1. Klicken Sie auf die drei Punkte oben rechts und wählen Sie **Ordnerberechtigungen** aus.
 
-   ![](assets/permissions-view-menu.png){width="70%" align="left" zoomable="yes"}
+   ![](assets/permissions-view-menu.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
 
 1. Überprüfen Sie die Details im Bildschirm, wie im Folgenden gezeigt:
 
-   ![](assets/permissions-view-screen.png){width="70%" align="left" zoomable="yes"}
+   ![](assets/permissions-view-screen.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
 
    Eine Gruppe oder eine Benutzerin bzw. ein Benutzer kann Lese-, Schreib- und/oder Löschberechtigungen für Daten erhalten, die im ausgewählten Ordner gespeichert sind.
 
@@ -96,8 +95,8 @@ Gehen Sie wie folgt vor, um einen Ordner zu erstellen:
 1. Klicken Sie auf die drei Punkte oben rechts und wählen Sie **Neuen Unterordner erstellen** aus.
 1. Geben Sie den Namen des Ordners ein und speichern Sie ihn.
 
-   ![](assets/create-new-subfolder.png){width="70%" align="left" zoomable="yes"}
+   ![](assets/create-new-subfolder.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
 
-   Der Ordner wird als Unterordner des aktuellen Ordners hinzugefügt. Navigieren Sie zu diesem neuen Ordner, um Komponenten direkt darin zu erstellen. Sie können auch eine Komponente aus einem Ordner erstellen und sie in dem neuen Ordner speichern, und zwar über den Abschnitt **Zusätzliche Optionen** der Eigenschaften, wie unten für einen Versand dargestellt:
+   Der Ordner wird als Unterordner des aktuellen Ordners hinzugefügt. Navigieren Sie zu diesem neuen Ordner, um Komponenten direkt darin zu erstellen. Sie können eine Komponente auch aus einem beliebigen Ordner erstellen und in diesem neuen Ordner speichern, indem Sie die **Zusätzliche Optionen** -Abschnitt der Eigenschaften, wie unten für einen Versand dargestellt:
 
-   ![](assets/delivery-properties-folder.png){width="70%" align="left" zoomable="yes"}
+   ![](assets/delivery-properties-folder.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
