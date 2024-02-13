@@ -2,11 +2,10 @@
 audience: end-user
 title: Erstellen von Workflows mit Adobe Campaign Web
 description: Erfahren Sie, wie Sie Workflows mit Adobe Campaign Web erstellen
-badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: 0c8e2158-518c-4620-9971-00ed2eccdd4f
-source-git-commit: 24521be2c796b5714712849355c3d033537847bc
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: '643'
 ht-degree: 74%
 
 ---
@@ -21,11 +20,11 @@ In diesem Schritt der Konfiguration wird das Diagramm mit einem Startsymbol ange
 
 Es erscheint eine Liste von Aktivitäten, die dem Diagramm hinzugefügt werden können. Die verfügbaren Aktivitäten hängen von Ihrer Position im Workflow-Diagramm ab. Wenn Sie beispielsweise Ihre erste Aktivität hinzufügen, können Sie Ihren Workflow starten, indem Sie eine Audience auswählen, den Workflow-Pfad aufteilen oder eine **Warten** -Aktivität, um die Ausführung des Workflows zu verzögern. Auf der anderen Seite wird nach **Audience erstellen** Aktivität können Sie Ihre Zielgruppe mit Zielgruppenbestimmungsaktivitäten verfeinern, einen Versand mit Kanalaktivitäten an Ihre Zielgruppe senden oder den Workflow-Prozess mit Steuerungsaktivitäten organisieren.
 
-![](assets/workflow-start.png)
+![](assets/workflow-start.png){zoomable=&quot;yes&quot;}
 
 Sobald eine Aktivität zum Diagramm hinzugefügt wurde, erscheint rechts ein Bereich, in dem Sie die neu hinzugefügte Aktivität mit spezifischen Einstellungen konfigurieren können. Detaillierte Informationen über die Konfiguration jeder Aktivität finden Sie in [diesem Abschnitt](activities/about-activities.md).
 
-![](assets/workflow-configure-activities.png)
+![](assets/workflow-configure-activities.png){zoomable=&quot;yes&quot;}
 
 Wiederholen Sie diesen Vorgang, um je nach den Aufgaben, die Ihr Workflow ausführen soll, beliebig viele Aktivitäten hinzuzufügen. Beachten Sie, dass Sie auch eine neue Aktivität zwischen zwei Aktivitäten einfügen können. Klicken Sie dazu auf die Schaltfläche **+** auf der Transition zwischen den Aktivitäten, wählen Sie die gewünschte Aktivität aus und konfigurieren Sie sie im rechten Bereich.
 
@@ -45,13 +44,13 @@ Beim Hinzufügen von Aktivitäten sind im Eigenschaftenbereich Aktionsschaltflä
 * Zugreifen auf die **Protokolle und Aufgaben** der Aktivität.
 * **Anhalten/Fortsetzen** der Aktivität. Wenn der Workflow ausgeführt wird, wird er mit bei der angehaltenen Aktivität angehalten. Die entsprechende Aufgabe sowie alle auf demselben Pfad folgenden Aufgaben werden nicht ausgeführt.
 
-![](assets/activity-action.png){width="50%"}
+![](assets/activity-action.png){zoomable=&quot;yes&quot;}{width="50%"}
 
 ## Beispiel {#example}
 
 Hier ist ein Beispiel für einen Workflow, der eine E-Mail an alle Kundinnen und Kunden (außer VIP) sendet, die an Kaffeemaschinen interessiert sind.
 
-![](assets/workflow-example.png){zoomable=&quot;yes&quot;}
+![](assets/workflow-example.png){zoomable=&quot;yes&quot;}{zoomable=&quot;yes&quot;}
 
 Um dies zu bewerkstelligen, wurden die folgenden Aktivitäten hinzugefügt:
 

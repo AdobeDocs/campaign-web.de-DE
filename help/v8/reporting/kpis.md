@@ -1,9 +1,8 @@
 ---
 title: Wichtige Performance-Indikatoren
 description: Lernen Sie, die wichtigsten Performance-Indikatoren zu verstehen.
-badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: 4b182219-100b-4101-919b-b0b770dd8515
-source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
 source-wordcount: '1201'
 ht-degree: 100%
@@ -28,7 +27,7 @@ Die Metriken werden standardmäßig für die Sendungen der letzten sieben Tage b
 
 Sie können den anzuzeigenden Kanal auswählen. Standardmäßig beziehen sich diese Indikatoren auf Metriken für den E-Mail-Kanal.
 
-![](assets/kpi.png)
+![](assets/kpi.png){zoomable=&quot;yes&quot;}
 
 ## Nachricht zugestellt {#ui-delivered-kpi}
 
@@ -76,7 +75,7 @@ Adobe Campaign erkennt das Öffnen einer Nachricht, wenn die Empfängerin bzw. d
 >title="Klicks"
 >abstract="Diese Metrik zeigt für den ausgewählten Kanal die Summe aller in Nachrichten angeklickten URLs und den Prozentsatz der Klicks in Bezug auf die Gesamtzahl der erfolgreich zugestellten Nachrichten an."
 
-Sie können Ihrem Nachrichteninhalt URLs hinzufügen, die Empfängerinnen und Empfänger zu einer bestimmten Seite weiterleiten. Die Clickthrough-Rate misst die Anzahl und den Prozentsatz der Empfängerinnen und Empfänger, die auf einen Link in der Nachricht geklickt haben.
+Sie können Ihrem Nachrichteninhalt URLs hinzufügen, die Empfängerinnen und Empfänger zu einer bestimmten Seite umleiten. Die Clickthrough-Rate misst die Anzahl und den Prozentsatz der Empfängerinnen und Empfänger, die auf einen Link in der Nachricht geklickt haben.
 
 Der Indikator **Klicks** zeigt für jeden Kanal die folgenden KPIs an:
 

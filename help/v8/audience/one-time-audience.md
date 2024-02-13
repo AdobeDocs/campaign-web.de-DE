@@ -2,11 +2,10 @@
 audience: end-user
 title: Erstellen einer einmaligen Zielgruppe für einen Versand
 description: Erfahren Sie, wie Sie eine einmalige Zielgruppe für einen Versand erstellen.
-badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: 6f2da017-90d6-497d-bbbd-293775da00e9
-source-git-commit: a3476e46c29723af8246683a005543cfd605e7df
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '228'
+source-wordcount: '230'
 ht-degree: 100%
 
 ---
@@ -26,11 +25,11 @@ Gehen Sie wie folgt vor, um direkt aus einem Versand eine neue Zielgruppe zu ers
 
 1. Klicken Sie im Abschnitt **Zielgruppe** des Assistenten zur Versanderstellung auf die Schaltflache **[!UICONTROL Zielgruppe auswählen]** .
 
-   ![](assets/segment-builder0.png)
+   ![](assets/segment-builder0.png){zoomable=&quot;yes&quot;}
 
 1. Wählen Sie **Eigene erstellen** aus. Der Abfrage-Modeler wird angezeigt. Es ermöglicht Ihnen, die Zielpopulation für Ihren Versand zu definieren, indem Sie die in der Datenbank enthaltenen Daten filtern. [So verwenden Sie den Abfrage-Modeler](../query/query-modeler-overview.md)
 
-   ![](assets/query-modeler.png)
+   ![](assets/query-modeler.png){zoomable=&quot;yes&quot;}
 
 1. Wenn Ihre Abfrage bereit ist, klicken Sie auf **Bestätigen**, um die Zielgruppe als Hauptzielgruppe Ihres Versands zu verwenden.
 

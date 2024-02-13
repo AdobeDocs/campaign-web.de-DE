@@ -2,12 +2,11 @@
 audience: end-user
 title: Erstellen Ihrer erste Abfrage mithilfe des Abfrage-Modelers
 description: Erfahren Sie, wie Sie Ihre erste Abfrage im Abfrage-Modeler in Adobe Campaign Web erstellen.
-badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: f9a365ac-c8be-423f-a99d-40ad5492223c
-source-git-commit: 72899742daf04a0da6e2fb3d802b7841753b8c6c
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '2008'
-ht-degree: 100%
+source-wordcount: '2014'
+ht-degree: 99%
 
 ---
 
@@ -25,7 +24,7 @@ Der Ausdruckseditor steht bei der Konfiguration einer benutzerdefinierten Beding
 
 | Zugriff über das Feld **Attribut** | Zugriff über das Feld **Wert** |
 |  ---  |  ---  |
-| ![](assets/expression-editor-attribute.png){width="200" align="center" zoomable="yes"} | ![](assets/edit-expression.png){width="200" align="center" zoomable="yes"} |
+| ![](assets/expression-editor-attribute.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} | ![](assets/edit-expression.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} |
 
 Der Ausdruckseditor bietet Folgendes:
 
@@ -35,13 +34,13 @@ Der Ausdruckseditor bietet Folgendes:
 
 Bearbeiten Sie den Ausdruck, indem Sie ihn direkt in das Eingabefeld eingeben. Um ein Feld oder eine Hilfsfunktion hinzuzufügen, gehen Sie mit dem Cursor zu dem Ausdruck, zu dem Sie es/sie hinzufügen möchten, und klicken Sie auf die Schaltfläche „+“.
 
-![](assets/expression-editor.png)
+![](assets/expression-editor.png){zoomable=&quot;yes&quot;}
 
 Wenn Ihr Ausdruck fertig ist, klicken Sie auf **[!UICONTROL Bestätigen]**. Der Ausdruck wird im ausgewählten Feld angezeigt. Öffnen Sie zum Bearbeiten den Ausdruckseditor und nehmen Sie die gewünschten Änderungen vor.
 
 Das folgende Beispiel zeigt einen für das Feld **[!UICONTROL Wert]** konfigurierten Ausdruck. Um ihn zu bearbeiten, müssen Sie den Ausdruckseditor über die Schaltfläche **[!UICONTROL Ausdruck bearbeiten]** öffnen.
 
-![](assets/edit-expression-value.png)
+![](assets/edit-expression-value.png){zoomable=&quot;yes&quot;}
 
 ## Hilfsfunktionen
 

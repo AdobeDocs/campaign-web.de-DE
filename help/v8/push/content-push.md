@@ -2,11 +2,10 @@
 audience: end-user
 title: Erstellen eines Push-Benachrichtigungs-Versands
 description: Erfahren Sie, wie Sie einen Push-Benachrichtigungs-Versand mit Adobe Campaign Web erstellen
-badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
-source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '1533'
+source-wordcount: '1541'
 ht-degree: 100%
 
 ---
@@ -56,7 +55,7 @@ Bei Firebase Cloud Messaging stehen Ihnen zwei Nachrichtentypen zur Auswahl:
   Um den Inhalt zu definieren, Daten zu personalisieren und dynamische Inhalte hinzuzufügen, klicken Sie auf das Feld **[!UICONTROL Nachricht]** und verwenden Sie den Ausdruckseditor. Sie können auf diesen Editor zugreifen, um Ihre Nachrichten anzupassen.
 Ihre Anwendungsvariablen werden automatisch im Menü **[!UICONTROL Anwendungsvariablen]** hinzugefügt. Mit diesen Variablen können Sie das Verhalten von Benachrichtigungen definieren. Sie können beispielsweise einen bestimmten Anwendungsbildschirm konfigurieren, der angezeigt wird, wenn die Benutzerin bzw. der Benutzer die Benachrichtigung aktiviert.
 
-  ![](assets/push_content_4.png)
+  ![](assets/push_content_4.png){zoomable=&quot;yes&quot;}
 
 * Die **[!UICONTROL Benachrichtigungsmeldung]** wird automatisch vom FCM SDK verarbeitet. FCM übernimmt für die Client-App automatisch das Anzeigen der Nachricht auf den Geräten Ihrer Benutzenden. Benachrichtigungsmeldungen enthalten einen vordefinierten Satz von Parametern und Optionen, können aber mit benutzerspezifischen Anwendungsvariablen weiter personalisiert werden.
 
@@ -64,7 +63,7 @@ Ihre Anwendungsvariablen werden automatisch im Menü **[!UICONTROL Anwendungsvar
 
   Push-Benachrichtigungen können weiter personalisiert werden. Dazu können Sie ein Bild auswählen, das der Push-Benachrichtigung hinzugefügt werden soll, sowie das Symbol der Benachrichtigung, das auf den Geräten der Profile angezeigt werden soll, und ihre Farbe.
 
-  ![](assets/push_content_3.png)
+  ![](assets/push_content_3.png){zoomable=&quot;yes&quot;}
 
 >[!TAB iOS]
 
@@ -74,7 +73,7 @@ Sie können einen **[!UICONTROL Untertitel]** als Wert des Parameters „subtitl
 
 Im Modus „Stilles Pushen“ kann eine „stille“ Benachrichtigung an eine Mobile App gesendet werden. Dem Benutzer wird das Eintreffen der Benachrichtigung nicht mitgeteilt. Sie wird direkt an die Mobile App übertragen.
 
-![](assets/push_content_1.png)
+![](assets/push_content_1.png){zoomable=&quot;yes&quot;}
 
 >[!ENDTABS]
 
@@ -127,7 +126,7 @@ Die erweiterten Optionen hängen vom mobilen Betriebssystem ab: Android oder iOS
 
 >[!TAB Android]
 
-![](assets/push_content_5.png)
+![](assets/push_content_5.png){zoomable=&quot;yes&quot;}
 
 | Parameter | Beschreibung |
 |---------|---------|
@@ -143,7 +142,7 @@ Die erweiterten Optionen hängen vom mobilen Betriebssystem ab: Android oder iOS
 
 >[!TAB iOS]
 
-![](assets/push_content_2.png)
+![](assets/push_content_2.png){zoomable=&quot;yes&quot;}
 
 | Parameter | Beschreibung |
 |---------|---------|

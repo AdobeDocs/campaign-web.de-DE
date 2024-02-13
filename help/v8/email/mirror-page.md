@@ -26,7 +26,7 @@ Es empfiehlt sich, einen Link zur Mirrorseite einzufügen. Dieser Link kann beis
 
 In Adobe Campaign können Sie einen Link zur Mirrorseite in den E-Mail-Inhalt einfügen, indem Sie den dedizierten **Gestaltungsbaustein** verwenden. Der integrierte Gestaltungsbaustein **Link zur Mirrorseite** fügt den folgenden Code in Ihren E-Mail-Inhalt ein: `<%@ include view='MirrorPage' %>`.
 
-So fügen Sie in Ihrer E-Mail einen Link zu einer Mirror-Seite hinzu:
+So fügen Sie in Ihrer E-Mail einen Link zu einer Mirrorseite hinzu:
 
 1. Wählen Sie ein Element aus und klicken Sie in der kontextuellen Symbolleiste auf **[!UICONTROL Link einfügen]** from the contextual toolbar..
 
@@ -42,19 +42,19 @@ So fügen Sie in Ihrer E-Mail einen Link zu einer Mirror-Seite hinzu:
 
    Weitere Informationen zum Einfügen von benutzerdefinierten Inhaltsbausteinen finden Sie in [diesem Abschnitt](../personalization/personalize.md#personalize-emails).
 
-Die Mirror-Seite wird automatisch erstellt.
+Die Mirrorseite wird automatisch erstellt.
 
 >[!IMPORTANT]
 >
->Links zu Mirror-Seiten werden automatisch generiert und können nicht bearbeitet werden. Sie enthalten alle verschlüsselten personalisierten Daten, die zum Rendern der ursprünglichen E-Mail erforderlich sind. Daher kann die Verwendung personalisierter Attribute mit großen Werten zu langen Mirror-Seiten-URLs führen, wodurch der Link in Webbrowsern mit einer maximalen URL-Länge eventuell nicht funktioniert.
+>Links zu Mirrorseiten werden automatisch generiert und können nicht bearbeitet werden. Sie enthalten alle verschlüsselten personalisierten Daten, die zum Rendern der ursprünglichen E-Mail erforderlich sind. Daher kann die Verwendung personalisierter Attribute mit großen Werten zu langen Mirrorseiten-URLs führen, wodurch der Link in Webbrowsern mit einer maximalen URL-Länge eventuell nicht funktioniert.
 
-Wenn die Empfänger nach dem Versand der E-Mail auf den Link zur Mirror-Seite klicken, wird der Inhalt der E-Mail in ihrem Standard-Webbrowser angezeigt.
+Wenn die Empfänger nach dem Versand der E-Mail auf den Link zur Mirrorseite klicken, wird der Inhalt der E-Mail in ihrem Standard-Webbrowser angezeigt.
 
 >[!NOTE]
 >
->In der Test-E-Mail, die an die Testprofile gesendet wurde, ist der Link zur Mirror-Seite nicht aktiv. Er wird nur in den endgültigen Nachrichten aktiviert.
+>In der Test-E-Mail, die an die Testprofile gesendet wurde, ist der Link zur Mirrorseite nicht aktiv. Er wird nur in den endgültigen Nachrichten aktiviert.
 
-Standardmäßig beträgt die Beibehaltungsdauer für eine Mirrorseite 60 Tage. Nach dieser Verzögerung ist die Mirror-Seite nicht mehr verfügbar.
+Standardmäßig beträgt die Beibehaltungsdauer für eine Mirrorseite 60 Tage. Nach dieser Verzögerung ist die Mirrorseite nicht mehr verfügbar.
 
 
 ## Erzeugung der Mirrorseite{#mirror-page-generation}

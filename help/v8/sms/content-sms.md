@@ -2,11 +2,10 @@
 audience: end-user
 title: Entwerfen eines SMS-Versands
 description: Erfahren Sie, wie Sie einen SMS-Versand entwerfen.
-badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: 54288448-d568-4be4-ab6c-d0f8fa7bc2cb
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '260'
 ht-degree: 100%
 
 ---
@@ -31,11 +30,11 @@ Gehen Sie wie folgt vor, um den Inhalt eines SMS-Versands zu erstellen:
 
    Durch Klicken auf **[!UICONTROL Personalisierungsdialog öffnen]** können Sie außerdem Personalisierungsfelder, Inhaltsbausteine und dynamische Inhalte in Ihre Nachricht einfügen.
 
-   ![](assets/sms_content_1.png)
+   ![](assets/sms_content_1.png){zoomable=&quot;yes&quot;}
 
 1. Geben Sie Ihre Textnachricht im Feld **[!UICONTROL Nachricht]** ein oder klicken Sie auf die Option **[!UICONTROL Personalisierungsdialog öffnen]**, um Inhalte zu definieren und dynamische Inhalte hinzuzufügen. [Weitere Informationen](../personalization/gs-personalization.md)
 
-   ![](assets/sms_content_2.png)
+   ![](assets/sms_content_2.png){zoomable=&quot;yes&quot;}
 
 1. Standardmäßig ist für Sendungen das Tracking aktiviert. Sie können diese Option im **[!UICONTROL Abschnitt „Optionale Funktionen“]** deaktivieren.
 

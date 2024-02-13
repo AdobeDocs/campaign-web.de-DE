@@ -6,7 +6,7 @@ feature: Landing Pages
 source-git-commit: 26c41105a4c04b72e0aedf05a4b3268b0e475d40
 workflow-type: tm+mt
 source-wordcount: '275'
-ht-degree: 24%
+ht-degree: 35%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 24%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn5"
 >title="Landingpages"
->abstract="Entdecken Sie das neue Landingpage-Erlebnis. Erstellen, entwerfen und teilen Sie sofort Landingpages, um Ihre Benutzer auf Online-Webseiten weiterzuleiten, auf denen Sie anhand integrierter Vorlagen Nutzungsszenarios für Akquise, Abonnement/Abmeldung und Blockierungsliste verwalten können."
+>abstract="Entdecken Sie das neue Landingpage-Erlebnis. Erstellen, entwerfen und teilen Sie sofort Landingpages, um Ihre Benutzer und Benutzerinnen auf Online-Webseiten weiterzuleiten, auf denen Sie anhand integrierter Vorlagen Nutzungsszenarios für Akquise, Abonnement/Abmeldung und Blockierungsliste verwalten können."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=de" text="Siehe Versionshinweise"
 
 [!DNL Adobe Campaign] ermöglicht die Erstellung, Konzeption und Freigabe von Landingpages.

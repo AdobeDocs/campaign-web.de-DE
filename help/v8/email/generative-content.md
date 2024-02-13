@@ -6,9 +6,9 @@ badge: label="Alpha"
 exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
 hide: true
 hidefromtoc: true
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '396'
 ht-degree: 100%
 
 ---
@@ -35,13 +35,13 @@ Gehen Sie wie folgt vor, um mit dem Inhaltsassistenten E-Mail-Inhalte zu erstell
 
 1. Wählen Sie die **[!UICONTROL Textkomponente]** aus, die Sie aktualisieren möchten, und rufen Sie das Menü „Erlebnisgenerierung“ auf.
 
-   ![](assets/text-genai-1.png)
+   ![](assets/text-genai-1.png){zoomable=&quot;yes&quot;}
 
 1. Passen Sie den Inhalt an, indem Sie beschreiben, was Sie generieren möchten.
 
    Aktivieren Sie die Option **[!UICONTROL Mit aktuellem Kontext verbessern]** für den Inhaltsassistenten, um neue Inhalte basierend auf Ihrem Versand, dem Versandnamen und der ausgewählten Zielgruppe zu personalisieren.
 
-   ![](assets/text-genai-3.png)
+   ![](assets/text-genai-3.png){zoomable=&quot;yes&quot;}
 
 1. Wählen Sie **[!UICONTROL Datei hochladen]** aus, um ein beliebiges Marken-Asset hinzuzufügen, das Inhalte enthält, die zusätzlichen Kontext für den Inhaltsassistenten bieten können.
 
@@ -51,7 +51,7 @@ Gehen Sie wie folgt vor, um mit dem Inhaltsassistenten E-Mail-Inhalte zu erstell
 
 1. Wählen Sie die **[!UICONTROL Sprache]** und den **[!UICONTROL Ton]** aus. die der generierte Text haben soll. Dadurch wird sichergestellt, dass der Text für Ihre Zielgruppe und Ihren Zweck geeignet ist.
 
-   ![](assets/text-genai-4.png)
+   ![](assets/text-genai-4.png){zoomable=&quot;yes&quot;}
 
 1. Verwenden Sie den Schieberegler, um die Länge des generierten Textes festzulegen.
 
@@ -59,14 +59,14 @@ Gehen Sie wie folgt vor, um mit dem Inhaltsassistenten E-Mail-Inhalte zu erstell
 
 1. Durchsuchen Sie die generierten **[!UICONTROL Varianten]** und klicken Sie auf **[!UICONTROL Anwenden]**, wenn Sie den richtigen Inhalt gefunden haben.
 
-   ![](assets/text-genai-5.png)
+   ![](assets/text-genai-5.png){zoomable=&quot;yes&quot;}
 
 1. Fügen Sie Personalisierungsfelder ein, um Ihre E-Mail-Inhalte auf der Grundlage von Profildaten anzupassen. [Weitere Informationen über die Personalisierung von Inhalten](../personalization/personalize.md)
 
-   ![](assets/text-genai-6.png)
+   ![](assets/text-genai-6.png){zoomable=&quot;yes&quot;}
 
 1. Klicken Sie nach der Definition des Nachrichteninhalts auf die Schaltfläche **[!UICONTROL Inhalt simulieren]**, um das Rendern zu steuern, und überprüfen Sie die Personalisierungseinstellungen mit Testprofilen. [Weitere Informationen](../preview-test/preview-content.md)
 
-   ![](assets/text-genai-7.png)
+   ![](assets/text-genai-7.png){zoomable=&quot;yes&quot;}
 
 1. Wenn Sie Inhalt, Zielgruppe und Zeitplan definiert haben, können Sie den E-Mail-Versand vorbereiten. [Weitere Informationen](../monitor/prepare-send.md)

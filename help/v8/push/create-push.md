@@ -2,12 +2,11 @@
 audience: end-user
 title: Erstellen eines Push-Benachrichtigungs-Versands
 description: Erfahren Sie, wie Sie mit Adobe Campaign Web einen Versand für eine Push-Benachrichtigung erstellen
-badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: 49a3c05c-5806-4269-a98d-915eee216f90
-source-git-commit: 6aacb0644e0e8aee1ea2f8ca167413aed565bec8
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '706'
-ht-degree: 89%
+source-wordcount: '714'
+ht-degree: 90%
 
 ---
 
@@ -37,7 +36,7 @@ Gehen Sie wie folgt vor, um einen eigenständigen Push-Versand zu erstellen:
 
 1. Klicken Sie zur Bestätigung auf **[!UICONTROL Versand erstellen]**.
 
-   ![](assets/push_create_1.png)
+   ![](assets/push_create_1.png){zoomable=&quot;yes&quot;}
 
 ## Konfigurieren der Versandeinstellungen {#configure-push-settings}
 
@@ -69,7 +68,7 @@ Sie müssen zuerst die App auswählen und können dann die Zielgruppe für Push-
 
 1. Wählen Sie im Abschnitt **[!UICONTROL Zielgruppe]** die Anwendung aus, die Sie für diesen Versand verwenden möchten. Die Push-Benachrichtigung wird standardmäßig an alle Abonnentinnen und Abonnenten der Anwendung gesendet. Sie können die Auswahl auf eine bestimmte Zielgruppe einschränken, indem Sie auf die Schaltfläche **[!UICONTROL Zielgruppe auswählen]** klicken. 
 
-   ![](assets/push_create_2.png)
+   ![](assets/push_create_2.png){zoomable=&quot;yes&quot;}
 
 1. Wählen Sie eine vorhandene Zielgruppe aus oder erstellen Sie eine eigene Zielgruppe, um die Zielpopulation für Ihren Push-Versand zu verfeinern. Für Push-Benachrichtigungen ist **Abonnierte Anwendungen (nms:appSubscriptionRcp)** die standardmäßige [Zielgruppendimension](../audience/about-recipients.md#targeting-dimensions), die mit der Empfängertabelle verknüpft ist.
 
@@ -83,7 +82,7 @@ Sie müssen zuerst die App auswählen und können dann die Zielgruppe für Push-
 
 Um den Inhalt Ihrer Benachrichtigung zu definieren, klicken Sie auf **[!UICONTROL Inhalt bearbeiten]**. [Weitere Informationen](content-push.md)
 
-![](assets/push_create_5.png)
+![](assets/push_create_5.png){zoomable=&quot;yes&quot;}
 
 Auf diesem Bildschirm können Sie auch [Inhalte simulieren](../preview-test/preview-test.md) und [Angebote einrichten](../msg/offers.md).
 
@@ -101,7 +100,7 @@ Gehen Sie wie folgt vor, um einen eigenständigen Push-Versand an ein bestimmtes
 
 Nach dem Start des Versands wird die Nachricht automatisch an dem Datum und der Uhrzeit gesendet, die Sie für den Empfänger definiert haben.
 
-![](assets/push_create_3.png)
+![](assets/push_create_3.png){zoomable=&quot;yes&quot;}
 
 Weitere Informationen zur Versandplanung finden Sie in [diesem Abschnitt](../msg/gs-messages.md#gs-schedule)
 
@@ -109,4 +108,4 @@ Weitere Informationen zur Versandplanung finden Sie in [diesem Abschnitt](../msg
 
 Klicken Sie auf **[!UICONTROL Versandeinstellungen konfigurieren]**, um auf erweiterte Optionen in Bezug auf Ihre Versandvorlage zuzugreifen. [Weitere Informationen](../advanced-settings/delivery-settings.md)
 
-![](assets/push_create_4.png)
+![](assets/push_create_4.png){zoomable=&quot;yes&quot;}

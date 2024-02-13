@@ -2,11 +2,10 @@
 audience: end-user
 title: Verwenden der Workflow-Aktivität „Planung“
 description: Erfahren Sie, wie Sie die Workflow-Aktivität „Planung“ verwenden.
-badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: 84142fbe-fd8a-4329-88a5-cf7a8f4e8b8f
-source-git-commit: 023777b88fa5c80e110fcf334517f7cef1c7f1ee
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '527'
+source-wordcount: '525'
 ht-degree: 100%
 
 ---

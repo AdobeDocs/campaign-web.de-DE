@@ -2,11 +2,10 @@
 audience: end-user
 title: Erstellen eines SMS-Versands
 description: Erfahren Sie, wie Sie SMS mit Adobe Campaign Web erstellen und senden
-badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: 54181498-8164-4600-8b3f-20892b77d5d7
-source-git-commit: 6aacb0644e0e8aee1ea2f8ca167413aed565bec8
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '506'
 ht-degree: 96%
 
 ---
@@ -42,7 +41,7 @@ Gehen Sie wie folgt vor, um einen eigenständigen SMS-Versand zu erstellen:
 
 1. Klicken Sie zur Bestätigung auf **[!UICONTROL Versand erstellen]**.
 
-   ![](assets/sms_create_1.png)
+   ![](assets/sms_create_1.png){zoomable=&quot;yes&quot;}
 
 1. Geben Sie einen **[!UICONTROL Titel]** für den Versand ein und greifen Sie auf die Dropdown-Liste **[!UICONTROL Zusätzliche Optionen]** zu. Wenn Ihr Versand auf einem erweiterten Schema basiert, stehen spezifische Felder für **Benutzerdefinierte Optionen** zur Verfügung.
 
@@ -56,7 +55,7 @@ Gehen Sie wie folgt vor, um einen eigenständigen SMS-Versand zu erstellen:
 
 1. Klicken Sie auf die Schaltfläche **[!UICONTROL Zielgruppe auswählen]**, um eine vorhandene Zielgruppe anzusprechen oder eine eigene zu erstellen. [Weitere Informationen zu Zielgruppen](../audience/about-recipients.md).
 
-   ![](assets/sms_create_2.png)
+   ![](assets/sms_create_2.png){zoomable=&quot;yes&quot;}
 
    Weitere Informationen dazu, wie Sie eine vorhandene Zielgruppe auswählen können, finden Sie auf [dieser Seite](../audience/add-audience.md).
 
@@ -66,7 +65,7 @@ Gehen Sie wie folgt vor, um einen eigenständigen SMS-Versand zu erstellen:
 
 1. Klicken Sie auf **[!UICONTROL Inhalt bearbeiten]**, um mit der Erstellung des Inhalts Ihrer SMS-Nachricht zu beginnen. [Weitere Informationen](content-sms.md)
 
-   ![](assets/sms_create_4.png)
+   ![](assets/sms_create_4.png){zoomable=&quot;yes&quot;}
 
    Auf diesem Bildschirm können Sie auch [Inhalte simulieren](../preview-test/preview-test.md) und [Angebote einrichten](../msg/offers.md).
 
@@ -78,4 +77,4 @@ Gehen Sie wie folgt vor, um einen eigenständigen SMS-Versand zu erstellen:
 
 1. Klicken Sie auf **[!UICONTROL Einstellungen]**, um auf die erweiterten Optionen für Ihre Versandvorlage zuzugreifen. [Weitere Informationen](../advanced-settings/delivery-settings.md)
 
-   ![](assets/sms_create_3.png)
+   ![](assets/sms_create_3.png){zoomable=&quot;yes&quot;}

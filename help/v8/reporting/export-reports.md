@@ -2,9 +2,8 @@
 audience: end-user
 title: Exportieren der Berichte
 description: Informationen zum Exportieren Ihrer Berichte
-badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: ac48e541-7735-4961-80ee-ce9d24c8b9ad
-source-git-commit: 72899742daf04a0da6e2fb3d802b7841753b8c6c
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
 source-wordcount: '107'
 ht-degree: 100%
@@ -22,7 +21,7 @@ Sie können Ihre verschiedenen Berichte einfach in das PDF- oder CSV-Format expo
 
 1. Klicken Sie in Ihrem Bericht auf **[!UICONTROL Exportieren]** und wählen Sie **[!UICONTROL Als PDF-Datei exportieren]** bzw. **[!UICONTROL Als CSV-Datei exportieren]**.
 
-   ![](assets/global_report_export.png)
+   ![](assets/global_report_export.png){zoomable=&quot;yes&quot;}
 
 1. Suchen Sie den Ordner, in dem Sie die Datei speichern möchten, benennen Sie ihn bei Bedarf um und klicken Sie auf **[!UICONTROL Speichern]**.
 

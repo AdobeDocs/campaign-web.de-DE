@@ -2,11 +2,10 @@
 audience: end-user
 title: Erste Schritte mit globalen Berichten
 description: Grundlegendes zu globalen Berichten
-badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: e64d9765-f602-4fee-9923-a3665130c63a
-source-git-commit: 72899742daf04a0da6e2fb3d802b7841753b8c6c
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: '211'
 ht-degree: 100%
 
 ---
@@ -29,15 +28,15 @@ Gehen Sie wie folgt vor, um auf Ihre globalen Berichte zuzugreifen und sie zu ve
 
 1. Wählen Sie im linken Menü einen Bericht aus der Liste aus und durchsuchen Sie die Registerkarte nach Daten aus den einzelnen Kanälen.
 
-   ![](assets/global_report_manage_3.png)
+   ![](assets/global_report_manage_3.png){zoomable=&quot;yes&quot;}
 
 1. Wählen Sie im Dashboard eine **Startzeit** und eine **[!UICONTROL Endzeit]** aus, um bestimmte Daten einzuschließen.
 
-   ![](assets/global_report_manage_1.png)
+   ![](assets/global_report_manage_1.png){zoomable=&quot;yes&quot;}
 
-1. Legen Sie im Feld **[!UICONTROL Ordner auswählen]** fest, ob Sie Sendungen oder Kampagnen aus einem bestimmten Ordner in die Zielgruppe aufnehmen möchten.
+1. Geben Sie im Feld **[!UICONTROL Ordner auswählen]** an, ob Sie Sendungen oder Kampagnen aus einem bestimmten Ordner als Ziel verwenden möchten.
 
-   ![](assets/global_report_manage_2.png)
+   ![](assets/global_report_manage_2.png){zoomable=&quot;yes&quot;}
 
 1. Klicken Sie auf **[!UICONTROL Regeln hinzufügen]**, um Abfragen zu erstellen und Berichtsdaten besser zu filtern. [Erfahren Sie, wie Sie den Abfrage-Modeler verwenden](../query/query-modeler-overview.md)
 

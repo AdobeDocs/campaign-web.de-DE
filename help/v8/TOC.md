@@ -6,10 +6,10 @@ title: Dokumentation zu Adobe Campaign Web
 description: Dokumentation zu Campaign Web
 breadcrumb-title: Campaign-Webbenutzeroberfläche
 hide: true
-source-git-commit: 7c6a485496dcac65722375d0c55402abe1ebbf59
+source-git-commit: 46892e8033fca051db898f81f041bb3d59ecac27
 workflow-type: tm+mt
-source-wordcount: '574'
-ht-degree: 94%
+source-wordcount: '585'
+ht-degree: 92%
 
 ---
 
@@ -49,7 +49,6 @@ ht-degree: 94%
             + [Hinzufügen eines Links zur Mirrorseite](email/mirror-page.md)
             + [Hinzufügen eines Preheaders](email/preheader.md)
             + [Erstellen der Textversion](email/text-version-email.md)
-            + [Verwalten von Assets mit Adobe Experience Manager Assets as a Cloud Service](email/aem-assets.md)
          + Inhaltsassistent {#content-assistant}
             + [Erste Schritte mit dem Inhaltsassistenten](email/generative-gs.md)
             + [Textgenerierung mit dem Inhaltsassistenten](email/generative-content.md)
@@ -168,3 +167,7 @@ ht-degree: 94%
       + [Globaler E-Mail-Bericht](reporting/global-report-email.md)
       + [Globaler Push-Bericht](reporting/global-report-push.md)
       + [Globaler SMS-Bericht](reporting/global-report-sms.md)
++ Integrationen {#integrations}
+   + [Verwalten von Assets mit Adobe Experience Manager Assets as a Cloud Service](integrations/aem-assets.md)
+   + [Verwalten von Vorlagen mit Adobe Experience Manager as a Cloud Service](integrations/aem-content.md)
+

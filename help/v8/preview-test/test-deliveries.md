@@ -19,7 +19,7 @@ ht-degree: 93%
 
 Nachdem der Nachrichteninhalt definiert wurde, können Sie ihn in der Vorschau anzeigen und testen, indem Sie Testsendungen an Testprofile senden. Wenn Sie personalisierte Inhalte eingefügt haben, können Sie mithilfe von Testprofildaten überprüfen, wie diese Inhalte in der Nachricht angezeigt werden.
 
-Um mögliche Fehler im Nachrichteninhalt oder in den Personalisierungseinstellungen zu erkennen, senden Sie Testsendungen an Testprofile, bevor Sie sie an die Zielgruppe senden. Bei jeder Änderung sollte ein Testversand gesendet werden, um den neuesten Inhalt zu validieren. Testsendungen sind ein wichtiger Schritt bei der Validierung Ihrer Kampagne und Erkennung potenzieller Probleme. Die Empfängerinnen und Empfänger eines Testversands können verschiedene Elemente wie Links, Opt-out-Links, Bilder oder Spiegelseiten überprüfen sowie Fehler bei Rendering, Inhalt, Personalisierungseinstellungen und Versandkonfiguration erkennen.
+Um mögliche Fehler im Nachrichteninhalt oder in den Personalisierungseinstellungen zu erkennen, senden Sie Testsendungen an Testprofile, bevor Sie sie an die Zielgruppe senden. Bei jeder Änderung sollte ein Testversand gesendet werden, um den neuesten Inhalt zu validieren. Testsendungen sind ein wichtiger Schritt bei der Validierung Ihrer Kampagne und Erkennung potenzieller Probleme. Die Empfängerinnen und Empfänger eines Testversands können verschiedene Elemente wie Links, Opt-out-Links, Bilder oder Mirrorseiten überprüfen sowie Fehler bei Rendering, Inhalt, Personalisierungseinstellungen und Versandkonfiguration erkennen.
 
 ## Simulieren von Inhalten mit Testempfängerinnen und -empfängern {#simulate-content-test-deliveries}
 

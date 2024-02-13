@@ -2,11 +2,10 @@
 audience: end-user
 title: Erstellen von Zielgruppen
 description: Erfahren Sie, wie Sie Zielgruppen in Adobe Campaign Web erstellen.
-badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
-source-git-commit: 4b50a20f2ba60017b97d49df8b3d84c44c15ea8c
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '896'
+source-wordcount: '902'
 ht-degree: 100%
 
 ---
@@ -55,7 +54,7 @@ Gehen Sie wie folgt vor, um eine Zielgruppe zu erstellen:
 
    * Die Aktivität **[!UICONTROL Zielgruppe speichern]** von „Neue Zielgruppe“ ist der letzte Schritt in Ihrem Workflow, mit dem Sie die Workflow-Ergebnisse als neue Zielgruppe speichern können.
 
-   ![](assets/create-audience-blank.png)
+   ![](assets/create-audience-blank.png){zoomable=&quot;yes&quot;}
 
    >[!IMPORTANT]
    >
@@ -71,7 +70,7 @@ Gehen Sie wie folgt vor, um eine Zielgruppe zu erstellen:
    >
    >Kanalaktivitäten stehen nicht zur Verwendung in Zielgruppen-Workflows zur Verfügung.
 
-   ![](assets/audience-creation-canvas.png)
+   ![](assets/audience-creation-canvas.png){zoomable=&quot;yes&quot;}
 
 1. Konfigurieren Sie die Aktivität **[!UICONTROL Zielgruppe speichern]**, um anzugeben, wie die zuvor im Workflow berechnete Population gespeichert werden soll. [Erfahren Sie, wie Sie eine Aktivität „Zielgruppe speichern“ konfigurieren können](../workflows/activities/save-audience.md)
 
@@ -85,7 +84,7 @@ Jetzt können Sie diese Zielgruppe als Hauptzielgruppe eines Versands verwenden.
 
 Das folgende Beispiel zeigt einen Zielgruppen-Workflow, der so konfiguriert ist, dass Kundinnen, die in New York leben, ausgewählt werden und je nach ihrem letzten Kauf (Joga- oder Laufkleidung) zwei neue Zielgruppen erstellt werden.
 
-![](assets/audiences-example.png)
+![](assets/audiences-example.png){zoomable=&quot;yes&quot;}
 
 1. Die Aktivität **[!UICONTROL Zielgruppe erstellen]** richtet sich an alle in New York lebenden weiblichen Profile.
 1. Die Aktivität **[!UICONTROL Anreicherung]** erweitert die Zielgruppe um Informationen aus der Tabelle „Käufe“, um zu ermitteln, welcher Produkttyp von den Kundinnen gekauft wurde.
@@ -104,4 +103,4 @@ Standardmäßig wird bei der erneuten Ausführung eines Zielgruppen-Workflows de
 
 Wenn Sie die vorherigen Zielgruppenergebnisse nicht ersetzen möchten, konfigurieren Sie die Aktivitäten **Zielgruppe speichern** entsprechend dementsprechend. Sie können beispielsweise das Feld **Zielgruppentitel** ändern, um die neuen Ergebnisse in einer neuen Zielgruppe zu speichern, oder die neuen Ergebnisse zu den bestehenden Zielgruppeninhalten hinzufügen, ohne die vorherigen Daten zu löschen. [Erfahren Sie, wie Sie die Aktivität „Zielgruppe speichern“ konfigurieren](../workflows/activities/save-audience.md)
 
-![](assets/edit-audience-save.png)
+![](assets/edit-audience-save.png){zoomable=&quot;yes&quot;}

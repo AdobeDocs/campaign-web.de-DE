@@ -2,12 +2,11 @@
 audience: end-user
 title: Erstellen Ihrer erste Abfrage mithilfe des Abfrage-Modelers
 description: Erfahren Sie, wie Sie Ihre erste Abfrage im Abfrage-Modeler in Adobe Campaign Web erstellen.
-badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
-source-git-commit: 72899742daf04a0da6e2fb3d802b7841753b8c6c
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '1920'
-ht-degree: 100%
+source-wordcount: '1960'
+ht-degree: 98%
 
 ---
 
@@ -25,7 +24,7 @@ Sie können zwei Elementtypen hinzufügen:
 
   *Empfängerinnen und Empfänger, die den Newsletter „Sport“ abonniert haben **UND**in New York **ODER**San Francisco* leben.
 
-![](assets/query-add-component.png)
+![](assets/query-add-component.png){zoomable=&quot;yes&quot;}
 
 ## Hinzufügen von Filterkomponenten {#filtering}
 
@@ -48,7 +47,7 @@ Gehen Sie wie folgt vor, um Ihre Abfrage mit einer benutzerdefinierten Bedingung
 
 1. Wählen Sie im Feld **Attribut** das Attribut aus der Datenbank aus, das Sie zum Erstellen Ihrer Bedingung verwenden möchten. Die Attributliste enthält alle Attribute aus Ihrer Campaign-Datenbank, einschließlich der mit Ihrer Tabelle verknüpften Attribute.
 
-   ![](assets/query-custom-condition-fields.png)
+   ![](assets/query-custom-condition-fields.png){zoomable=&quot;yes&quot;}
 
    >[!NOTE]
    >
@@ -83,7 +82,7 @@ Gehen Sie wie folgt vor, um Ihre Abfrage mit einer benutzerdefinierten Bedingung
 
    *Abfragebeispiel, in dem alle Profile im Alter von 21 Jahren oder älter zurückgegeben werden:*
 
-   ![](assets/query-custom-condition.png)
+   ![](assets/query-custom-condition.png){zoomable=&quot;yes&quot;}
 
 #### Benutzerdefinierte Bedingungen für verknüpfte Tabellen (1:1- und 1:n-Relation){#links}
 
@@ -99,15 +98,15 @@ Hier geht es bei der Abfrage um Marken mit der Bezeichnung „Laufen“.
 
 1. Navigieren Sie durch die Tabelle **Marke** und wählen Sie das Attribut **Titel**.
 
-   ![](assets/1-1-attribute.png){width="85%" align="center"}
+   ![](assets/1-1-attribute.png){zoomable=&quot;yes&quot;}{width="85%" align="center"}
 
 1. Definieren Sie den erwarteten Wert für das Attribut.
 
-   ![](assets/1-1-table.png){width="85%" align="center"}
+   ![](assets/1-1-table.png){zoomable=&quot;yes&quot;}{width="85%" align="center"}
 
 Hier ist ein Abfragebeispiel, bei dem eine Tabellenverknüpfung direkt ausgewählt wurde. Die verfügbaren Werte für diese Tabelle müssen über eine spezielle Auswahl ausgewählt werden.
 
-![](assets/1-1-table-direct.png){width="85%" align="center"}
+![](assets/1-1-table-direct.png){zoomable=&quot;yes&quot;}{width="85%" align="center"}
 
 +++
 
@@ -119,19 +118,19 @@ In unserem Beispiel zielt die Abfrage auf Empfängerinnen und Empfänger ab, die
 
 1. Wählen Sie die Tabelle **Käufe** und bestätigen Sie.
 
-   ![](assets/1-N-collection.png){width="50%" align="center"}
+   ![](assets/1-N-collection.png){zoomable=&quot;yes&quot;}{width="50%" align="center"}
 
 1. Es wird eine ausgehende Transition hinzugefügt, die die Erstellung von Unterbedingungen ermöglicht.
 
-   ![](assets/1-n-subcondition.png){width="85%" align="center"}
+   ![](assets/1-n-subcondition.png){zoomable=&quot;yes&quot;}{width="85%" align="center"}
 
 1. Wählen Sie das Attribut **Preis** und Zielkäufe von 1000 USD oder mehr
 
-   ![](assets/1-n-price.png){width="85%" align="center"}
+   ![](assets/1-n-price.png){zoomable=&quot;yes&quot;}{width="85%" align="center"}
 
 1. Fügen Sie Unterbedingungen hinzu, die Ihren Anforderungen entsprechen. In unserem Beispiel haben wir eine Bedingung für Profile hinzugefügt, die ein BrewMaster-Produkt erworben haben.
 
-   ![](assets/custom-condition-1-N.png){width="85%" align="center"}
+   ![](assets/custom-condition-1-N.png){zoomable=&quot;yes&quot;}{width="85%" align="center"}
 
 +++
 
@@ -141,11 +140,11 @@ Mit benutzerdefinierten Bedingungen können Sie Aggregierungsvorgänge ausführe
 
 1. Navigieren Sie durch die gewünschte Sammlungstabelle und wählen Sie das Attribut aus, für das Sie einen Aggregierungsvorgang durchführen möchten.
 
-   ![](assets/aggregate-attribute.png){width="85%" align="center"}
+   ![](assets/aggregate-attribute.png){zoomable=&quot;yes&quot;}{width="85%" align="center"}
 
 1. Aktivieren Sie im Eigenschaften-Fenster die Option **Daten aggregieren** und wählen Sie die gewünschte Aggregierungsfunktion aus.
 
-   ![](assets/aggregate.png){width="85%" align="center"}
+   ![](assets/aggregate.png){zoomable=&quot;yes&quot;}{width="85%" align="center"}
 
 ### Auswählen einer Zielgruppe {#audiences}
 
@@ -162,7 +161,7 @@ Gehen Sie wie folgt vor, um Ihre Abfrage mithilfe einer vorhandenen Zielgruppe z
 
    *Abfragebeispiel, in dem alle Profile der Zielgruppe „Festivalbesuchende“ zurückgegeben werden:*
 
-   ![](assets/query-audience.png)
+   ![](assets/query-audience.png){zoomable=&quot;yes&quot;}
 
 ### Verwenden eines vordefinierten Filters {#predefined-filters}
 
@@ -179,7 +178,7 @@ Gehen Sie wie folgt vor, um Ihre Abfrage mithilfe eines vordefinierten Filters z
 
    *Abfragebeispiel, in dem alle Profile zurückgegeben werden, die dem vordefinierten Filter „Inaktive Kunden“ entsprechen:*
 
-   ![](assets/query-predefined-filter.png)
+   ![](assets/query-predefined-filter.png){zoomable=&quot;yes&quot;}
 
 ### Kopieren und Einfügen von Komponenten {#copy}
 
@@ -197,11 +196,11 @@ Gehen Sie wie folgt vor, um Filterkomponenten zu kopieren und einzufügen:
 
    | Kopieren einer einzelnen Komponente | Kopieren mehrerer Komponenten |
    |  ---  |  ---  |
-   | ![](assets/copy-single-component.png){width="200" align="center" zoomable="yes"} | ![](assets/copy-multiple-components.png){width="200" align="center" zoomable="yes"} |
+   | ![](assets/copy-single-component.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} | ![](assets/copy-multiple-components.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} |
 
 1. Um die Komponente(n) einzufügen, klicken Sie auf die Schaltfläche „+“ am Ende der gewünschten Transition und wählen Sie **(n) Elemente einfügen**.
 
-   ![](assets/copy-paste.png)
+   ![](assets/copy-paste.png){zoomable=&quot;yes&quot;}
 
 ## Kombinieren von Filterkomponenten mit Operatoren {#operators}
 
@@ -214,7 +213,7 @@ Jedes Mal, wenn Sie zu Ihrer Abfrage eine neue Filterkomponente hinzufügen, wir
 
 In diesem Beispiel haben wir für die zweite Transition neue Zielgruppentyp-Filterkomponenten hinzugefügt. Die Komponente ist mit der vordefinierten Filtertypbedingung durch einen **UND**-Operator verknüpft, d. h. die Abfrageergebnisse enthalten Empfängerinnen und Empfänger, auf die der vordefinierte Filter „Wohnhaft in Madrid“ zutrifft UND die zur Zielgruppe „Rabattjäger“ gehören.
 
-![](assets/query-operator.png)
+![](assets/query-operator.png){zoomable=&quot;yes&quot;}
 
 Um den Operator für die Verknüpfung der Filterbedingungen zu ändern, klicken Sie darauf und wählen Sie den gewünschten Operator im Bereich **Gruppe** aus, der sich rechts öffnet.
 
@@ -224,13 +223,13 @@ Die folgenden Operatoren sind verfügbar:
 * **ODER (Vereinigung)**: Umfasst Ergebnisse, die mindestens einer der Filterkomponenten in den ausgehenden Transitionen entsprechen.
 * **AUSSER (Ausschluss)**: Schließt Ergebnisse aus, die allen Filterkomponenten in der ausgehenden Transition entsprechen.
 
-![](assets/query-operator-change.png)
+![](assets/query-operator-change.png){zoomable=&quot;yes&quot;}
 
 Darüber hinaus können Sie Zwischengruppen von Komponenten erstellen, indem Sie auf die Schaltfläche **+** auf einer Transition klicken. Auf diese Weise können Sie einen Operator an dieser bestimmten Stelle hinzufügen, um mehrere Komponenten zu gruppieren und Ihre Abfrage zu verfeinern.
 
 Im folgenden Beispiel haben wir eine Zwischengruppe erstellt, um Ergebnisse aus den Zielgruppen „Zu belohnende VIP“ oder „Super VIP“ einzubeziehen.
 
-![](assets/query-intermediate-group.png)
+![](assets/query-intermediate-group.png){zoomable=&quot;yes&quot;}
 
 ## Überprüfen und Validieren einer Abfrage
 
@@ -254,4 +253,4 @@ Wenn Ihre Abfrage fertig ist, klicken Sie auf die Schaltfläche **[!UICONTROL Be
 
 Sie können Ihre Abfrage jederzeit ändern, indem Sie sie öffnen. Beachten Sie, dass beim Öffnen einer vorhandenen Abfrage diese in einer vereinfachten Ansicht angezeigt wird, ohne dass die Schaltflächen **+** angezeigt werden. Um der Abfrage neue Elemente hinzuzufügen, wählen Sie eine Komponente oder einen Operator auf der Arbeitsfläche aus, um die Schaltflächen **+** anzuzeigen.
 
-![](assets/edit-audience.png)
+![](assets/edit-audience.png){zoomable=&quot;yes&quot;}

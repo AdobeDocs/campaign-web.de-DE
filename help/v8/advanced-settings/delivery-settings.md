@@ -255,9 +255,9 @@ Das Feld **[!UICONTROL Gültigkeit von Ressourcen]** wird für hochgeladene Ress
 
 Weitere Informationen zur Gültigkeitsdauer des Versands finden Sie in der [Dokumentation zu Campaign v8 (Client-Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=de#validity-period){target="_blank"}.
 
-### Verwaltung der Mirror-Seite {#mirror}
+### Verwaltung der Mirrorseite {#mirror}
 
-Eine Mirror-Seite ist eine HTML-Seite, die über einen Webbrowser online abgerufen werden kann und deren Inhalt mit dem der E-Mail identisch ist. Standardmäßig wird die Mirror-Seite automatisch generiert, wenn der entsprechende Link in den Inhalt der E-Mail eingefügt wurde.
+Eine Mirrorseite ist eine HTML-Seite, die über einen Webbrowser online abgerufen werden kann und deren Inhalt mit dem der E-Mail identisch ist. Standardmäßig wird die Mirrorseite automatisch generiert, wenn der entsprechende Link in den Inhalt der E-Mail eingefügt wurde.
 
 Zusätzlich zum Standardmodus stehen die folgenden Optionen zur Verfügung:
 

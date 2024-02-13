@@ -2,11 +2,10 @@
 audience: end-user
 title: Kampagnenberichte
 description: Erfahren Sie, wie Sie auf Kampagnenberichte zugreifen und diese verwenden können
-badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: 6a25a636-35d6-44c8-8635-7aec683af1f6
-source-git-commit: ac9a7918045e7ff02ef27c348b28a6ce09802caf
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '277'
 ht-degree: 100%
 
 ---
@@ -39,27 +38,27 @@ Gehen Sie wie folgt vor, um auf Kampagnenberichte zuzugreifen und diese zu verwa
 
 1. Navigieren Sie zum Menü **[!UICONTROL Kampagnen]**. Klicken Sie auf die Schaltfläche **Berichte** im Dashboard Ihrer Kampagne.
 
-   ![](assets/manage_campaign_report_2.png)
+   ![](assets/manage_campaign_report_2.png){zoomable=&quot;yes&quot;}
 
    Alternativ können Sie auch in der Kampagnenliste auf die Schaltfläche mit den drei Punkten **Mehr Aktionen** neben dem Kampagnennamen klicken und **[!UICONTROL Bericht anzeigen]** auswählen.
 
-   ![](assets/manage_campaign_report_1.png)
+   ![](assets/manage_campaign_report_1.png){zoomable=&quot;yes&quot;}
 
 1. Wählen Sie im linken Menü einen Bericht aus der Liste aus und navigieren Sie durch die Registerkarte, um Daten aus den einzelnen Kanälen anzuzeigen.
 
-   ![](assets/manage_campaign_report_4.png)
+   ![](assets/manage_campaign_report_4.png){zoomable=&quot;yes&quot;}
 
 1. Klicken Sie in Ihrem Dashboard auf **[!UICONTROL Sendungen auswählen]**, um einen bestimmten Versand in Ihrer Kampagne auszuwählen.
 
 1. Wählen Sie im Menü **[!UICONTROL Versanddurchsatz]** eine **Startzeit** und eine **[!UICONTROL Endzeit]** aus, um bestimmte Daten einzuschließen.
 
-   ![](assets/manage_campaign_report_3.png)
+   ![](assets/manage_campaign_report_3.png){zoomable=&quot;yes&quot;}
 
 1. Geben Sie im Feld **[!UICONTROL Ordner auswählen]** an, ob Sie Sendungen oder Kampagnen aus einem bestimmten Ordner als Ziel verwenden möchten.
 
    Sie können auch mit **[!UICONTROL Regeln hinzufügen]** Abfragen erstellen, um die Berichtsdaten besser zu filtern. [So verwenden Sie den Abfrage-Modeler](../query/query-modeler-overview.md)
 
-   ![](assets/manage_campaign_report_4.png)
+   ![](assets/manage_campaign_report_4.png){zoomable=&quot;yes&quot;}
 
 1. Unter **[!UICONTROL URLs und Clickstreams]** können Sie auch die Option **[!UICONTROL Am häufigsten besuchte Links]** oder **[!UICONTROL Zeitraum]** auswählen.
 

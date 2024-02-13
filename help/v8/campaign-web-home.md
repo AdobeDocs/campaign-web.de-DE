@@ -104,7 +104,7 @@ Erstellen Sie neue Zielgruppen in einer visuellen Workflow-Arbeitsfläche. Sie k
 
 >[!TAB E-Mail-Designer]
 
-Mit dem Campaign E-Mail-Designer können Sie über eine intuitive Drag-and-Drop-Oberfläche überzeugende, individuell zugeschnittene E-Mails erstellen. Egal ob Sie bei null anfangen, vorhandene Inhalte importieren oder Vorlagen nutzen, können Sie für jede E-Mail alle Inhalte für Werbeaktionen sowie für Transaktionen gestalten und verfeinern.
+Mit dem Campaign E-Mail-Designer können Sie über eine intuitive Drag-and-Drop-Oberfläche überzeugende, individuell zugeschnittene E-Mails erstellen. Egal, ob Sie bei null anfangen, vorhandene Inhalte importieren oder Vorlagen nutzen, können Sie für jede E-Mail alle Inhalte für Werbeaktionen sowie für Transaktionen gestalten und verfeinern.
 
 [![Bild](assets/do-not-localize/learn-more-button.svg)](email/get-started-email-designer.md)
 

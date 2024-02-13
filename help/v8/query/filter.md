@@ -2,12 +2,11 @@
 audience: end-user
 title: Filtern von Listen
 description: Erfahren Sie, wie Sie in Adobe Campaign Web-Listen mithilfe integrierter und benutzerdefinierter Filter filtern.
-badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: 41c3c4c3-5991-4223-ad02-e2531d76fdda
-source-git-commit: 72899742daf04a0da6e2fb3d802b7841753b8c6c
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '308'
-ht-degree: 100%
+source-wordcount: '310'
+ht-degree: 98%
 
 ---
 
@@ -21,7 +20,7 @@ Um Filter auf eine Liste anzuwenden, klicken Sie auf **[!UICONTROL Filter anzeig
 
 Der Filterbereich wird geöffnet und zeigt die für die ausgewählte Liste verfügbaren Filter an. Sie können beispielsweise Kampagnen nach Status, Start- und Enddatum oder Speicherordner filtern, während die Liste der Abonnementdienste nach Kanal und Speicherordner gefiltert werden kann.
 
-![](assets/filters-pane.png){width="70%" align="left" zoomable="yes"}
+![](assets/filters-pane.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
 
 Um eine Liste nach Ihren eigenen Kriterien zu filtern, können Sie einen benutzerdefinierten Filter erstellen. Navigieren Sie dazu zum unteren Ende des Filterbereichs und klicken Sie auf **Regeln hinzufügen**. [Erfahren Sie, wie Sie vordefinierte Filter erstellen](#custom)
 
@@ -36,6 +35,6 @@ Mit benutzerdefinierten Filtern können Sie Listen anhand Ihrer eigenen spezifis
 
    Das folgende Beispiel zeigt einen benutzerdefinierten Filter, der dazu bestimmt ist, in der Kampagnenliste SMS-Kampagnen anzuzeigen, die von Benutzenden der Abteilungen „Laufen“ oder „Yoga“ ausgeführt werden.
 
-   ![](assets/filters-sample.png){width="70%" align="left" zoomable="yes"}
+   ![](assets/filters-sample.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
 
 1. Sobald Ihr benutzerdefinierter Filter konfiguriert ist, klicken Sie auf **[!UICONTROL Bestätigen]**, um ihn auf die Liste anzuwenden.

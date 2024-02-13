@@ -2,9 +2,8 @@
 audience: end-user
 title: Bearbeiten des E-Mail-Inhalts
 description: Erfahren Sie, wie Sie mit der Erstellung Ihres Inhalts mit Email Designer in der Web-Benutzeroberfläche von Campaign beginnen
-badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: a5b966bb-09da-4a50-98d4-010fdfbb75cf
-source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
 source-wordcount: '473'
 ht-degree: 96%
@@ -16,7 +15,7 @@ ht-degree: 96%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn3"
 >title="Neuer E-Mail-Designer"
->abstract="Mit dem Campaign E-Mail-Designer können Sie über eine intuitive Drag-and-Drop-Oberfläche überzeugende, individuell zugeschnittene E-Mails erstellen. Egal ob Sie bei null anfangen, vorhandene Inhalte importieren oder Vorlagen nutzen, können Sie für jede E-Mail alle Inhalte für Werbeaktionen sowie für Transaktionen gestalten und verfeinern."
+>abstract="Mit dem Campaign E-Mail-Designer können Sie über eine intuitive Drag-and-Drop-Oberfläche überzeugende, individuell zugeschnittene E-Mails erstellen. Egal, ob Sie bei null anfangen, vorhandene Inhalte importieren oder Vorlagen nutzen, können Sie für jede E-Mail alle Inhalte für Werbeaktionen sowie für Transaktionen gestalten und verfeinern."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=de" text="Siehe Versionshinweise"
 
 
@@ -24,7 +23,7 @@ ht-degree: 96%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_rn3"
 >title="Neuer E-Mail-Designer"
->abstract="Mit dem Campaign E-Mail-Designer können Sie über eine intuitive Drag-and-Drop-Oberfläche überzeugende, individuell zugeschnittene E-Mails erstellen. Egal ob Sie bei null anfangen, vorhandene Inhalte importieren oder Vorlagen nutzen, können Sie für jede E-Mail alle Inhalte für Werbeaktionen sowie für Transaktionen gestalten und verfeinern."
+>abstract="Mit dem Campaign E-Mail-Designer können Sie über eine intuitive Drag-and-Drop-Oberfläche überzeugende, individuell zugeschnittene E-Mails erstellen. Egal, ob Sie bei null anfangen, vorhandene Inhalte importieren oder Vorlagen nutzen, können Sie für jede E-Mail alle Inhalte für Werbeaktionen sowie für Transaktionen gestalten und verfeinern."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=de" text="Siehe Versionshinweise"
 
 <!--TO REMOVE ABOVE-->
@@ -61,4 +60,4 @@ Gehen Sie im Dashboard des E-Mail-Versands durch den Bildschirm [Inhalt bearbeit
 
 * **Auswählen eines vorhandenen Inhalts** aus einer Liste integrierter oder benutzerdefinierter Vorlagen. Erfahren Sie in [diesem Abschnitt](create-email-templates.md), wie Sie mit E-Mail-Vorlagen arbeiten.
 
-  ![](assets/email_designer_create_options.png)
+  ![](assets/email_designer_create_options.png){zoomable=&quot;yes&quot;}
