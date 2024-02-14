@@ -3,10 +3,10 @@ audience: end-user
 title: Neue Funktionen in der Campaign-Webbenutzeroberfläche
 description: Neue Funktionen der Campaign-Webbenutzeroberfläche
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: 45e8a863f542be862773a7ec3a49b1e94236d453
+source-git-commit: 19864179f02d39583cc90d42bf6ab677f4841600
 workflow-type: tm+mt
-source-wordcount: '1263'
-ht-degree: 65%
+source-wordcount: '1308'
+ht-degree: 62%
 
 ---
 
@@ -130,11 +130,13 @@ Weiterführende Informationen finden Sie in [diesem Abschnitt](../msg/offers.md)
 
 ## Übergang zur Campaign-Webbenutzeroberfläche
 
-Als Benutzerin oder Benutzer von Campaign können Sie weiterhin auf die Client-Konsole zugreifen, um Campaign-Ressourcen und -Komponenten zu erstellen und zu verwalten. Daten und Einstellungen werden von einer Umgebung zu einer anderen synchronisiert. Weiterführende Informationen finden Sie in [diesem Abschnitt](../get-started/get-started.md#about-campaign-client-consoleac-client).
+Als Benutzerin oder Benutzer von Campaign können Sie weiterhin auf die Client-Konsole zugreifen, um Campaign-Ressourcen und -Komponenten zu erstellen und zu verwalten. Daten und Einstellungen werden von einer Umgebung zu einer anderen synchronisiert. Weiterführende Informationen finden Sie in [diesem Abschnitt](../get-started/get-started.md#ac-client).
 
-Darüber hinaus sind alle Daten und Einstellungen, die bereits in der Clientkonsole verfügbar sind, in der Benutzeroberfläche von Campaign Web über die linke Navigationsleiste des Explorers sichtbar. Weitere Informationen zur Explorer-Ansicht finden Sie in [diesem Abschnitt](../get-started/user-interface.md#explorer-user-interface-explorer).
+Darüber hinaus sind alle Daten und Einstellungen, die bereits in der Clientkonsole verfügbar sind, in der Benutzeroberfläche von Campaign Web über die linke Navigationsleiste des Explorers sichtbar. Weitere Informationen zur Explorer-Ansicht finden Sie in [diesem Abschnitt](../get-started/user-interface.md#user-interface-explorer).
 
-In der Campaign-Webbenutzeroberfläche spiegelt die Benutzeroberfläche die Berechtigungen des Benutzers wider. Weitere Informationen über Berechtigungen finden Sie hier [auf dieser Seite](../get-started/permissions.md)
+In der Campaign-Webbenutzeroberfläche spiegelt die Benutzeroberfläche die Berechtigungen des Benutzers wider. Weitere Informationen zu Berechtigungen finden Sie unter [diese Seite](../get-started/permissions.md).
+
+Unterstützte und nicht unterstützte Funktionen und Interoperabilität zwischen der Campaign-Webbenutzeroberfläche und der Campaign-Clientkonsole [auf dieser Seite](../get-started/capability-matrix.md).
 
 ## Aktualisierungen der Terminologie {#terminology-updates}
 
@@ -156,4 +158,6 @@ Für diese Version gelten folgende Einschränkungen:
 * Die KPIs im Versand-Dashboard werden alle 5 Minuten aktualisiert. – aber die Versandvorbereitung erfolgt in Echtzeit.
 * Benachrichtigungen von Adobe Experience Cloud und die in der Symbolleiste verfügbare einheitliche Hilfe sind noch nicht integriert.
 
-Erfahren Sie mehr über unterstützte/nicht unterstützte Funktionen und die Interoperabilität zwischen der Campaign-Webbenutzeroberfläche und der Campaign-Clientkonsole. [auf dieser Seite](../get-started/capability-matrix.md).
+Beim Arbeiten in der Campaign-Web-Benutzeroberfläche mit Workflows, die in der Campaign-Clientkonsole erstellt oder geändert wurden, gelten bestimmte Limits und Einschränkungen. Sie werden aufgelistet [in diesem Abschnitt](../get-started/guardrails.md).
+
+Erfahren Sie mehr über unterstützte/nicht unterstützte Funktionen und die Interoperabilität zwischen der Campaign-Webbenutzeroberfläche und der Campaign-Clientkonsole [auf dieser Seite](../get-started/capability-matrix.md).

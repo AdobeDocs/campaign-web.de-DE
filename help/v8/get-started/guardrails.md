@@ -1,15 +1,15 @@
 ---
-title: Limits und Einschränkungen in der Campaign-Webbenutzeroberfläche
-description: Limits und Einschränkungen in der Campaign-Webbenutzeroberfläche
+title: Limits und Einschränkungen in Workflows der Campaign-Webbenutzeroberfläche
+description: Limits und Einschränkungen bei der Arbeit mit Workflows in der Campaign-Webbenutzeroberfläche
 exl-id: 9c8c67ce-9823-4082-b0bd-5613f3feb6e3
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 19864179f02d39583cc90d42bf6ab677f4841600
 workflow-type: tm+mt
-source-wordcount: '374'
-ht-degree: 20%
+source-wordcount: '381'
+ht-degree: 19%
 
 ---
 
-# Schutzmechanismen und Begrenzungen {#guardrails-limitations}
+# Limits und Einschränkungen für Workflows {#guardrails-limitations}
 
 Bei der Arbeit mit in der Campaign-Webbenutzeroberfläche erstellten oder geänderten Workflows in der Campaign-Clientkonsole gelten die unten aufgeführten Limits und Einschränkungen.
 
