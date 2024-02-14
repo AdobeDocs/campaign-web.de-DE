@@ -5,7 +5,7 @@ exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
 source-git-commit: 97b6de0763dbeb133d7d0346e6af4d056cc731e3
 workflow-type: tm+mt
 source-wordcount: '816'
-ht-degree: 76%
+ht-degree: 78%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 76%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_card4"
 >title="Verwaltung von vordefinierten Filtern"
->abstract="Die Campaign-Webbenutzeroberfläche bietet eine benutzerfreundliche Oberfläche, mit der vordefinierte Filter einfach verwaltet und an Ihre spezifischen Anforderungen angepasst werden können. Filter einmal erstellen und für zukünftige Verwendungen speichern."
+>abstract="Die Campaign-Web-Benutzeroberfläche bietet eine benutzerfreundliche Oberfläche, mit der vordefinierte Filter einfach verwaltet und an Ihre spezifischen Anforderungen angepasst werden können. Filter einmal erstellen und für zukünftige Verwendungen speichern."
 
 
 <!--TO REMOVE BELOW-->
