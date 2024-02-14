@@ -3,10 +3,10 @@ audience: end-user
 title: Neue Funktionen in der Campaign-Webbenutzeroberfläche
 description: Neue Funktionen der Campaign-Webbenutzeroberfläche
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: a516a5aba56dbbff213d9a61b47144d6b4d801ff
+source-git-commit: 45e8a863f542be862773a7ec3a49b1e94236d453
 workflow-type: tm+mt
-source-wordcount: '1291'
-ht-degree: 74%
+source-wordcount: '1263'
+ht-degree: 65%
 
 ---
 
@@ -80,30 +80,19 @@ Verwenden Sie die neue Campaign-Webbenutzeroberfläche, um:
 * Überwachen, Senden und Messen von Ergebnissen mit integrierten Berichten – [Weitere Informationen](../reporting/delivery-reports.md)
 
 
-## Aktualisierungen der aktuellen Version {#latest-release}
 
-Nachfolgend sind die wichtigsten Funktionen aufgeführt, die mit der limitierten Version von Campaign Web eingeführt werden.
+**Neue und neu gestaltete Kampagnen-Workflow-Aktivitäten**
 
-* **Weitere Kampagnen-Workflow-Aktivitäten**
-
-  Bringen Sie Ihre Marketing-Kampagnen mit unserem **erweiterten Satz von Workflow-Aktivitäten** auf die Überholspur. Erschließen Sie neue Automatisierungs- und Optimierungsmöglichkeiten, um dynamischere und stärker personalisierte Journeys zu erstellen. Von der erweiterten Segmentierung bis hin zu bedingten Triggern ermöglichen unsere zusätzlichen Workflow-Aktivitäten den Versand zielgerichteter Nachrichten und die Verbesserung der Kampagnen-Performance.
-
-  Die neuen Aktivitäten, die mit der aktuellen limitierten Version eingeführt werden, sind: **Abstimmung**, **Datei laden**, und **Zielgruppe speichern**.
-
-  Weiterführende Informationen finden Sie in [diesem Abschnitt](../workflows/gs-workflows.md).
+Bringen Sie Ihre Marketing-Kampagnen mit unserem **erweiterten Satz von Workflow-Aktivitäten** auf die Überholspur. Erschließen Sie neue Automatisierungs- und Optimierungsmöglichkeiten, um dynamischere und stärker personalisierte Journeys zu erstellen. Von der erweiterten Segmentierung bis hin zu bedingten Triggern ermöglichen unsere zusätzlichen Workflow-Aktivitäten den Versand zielgerichteter Nachrichten und die Verbesserung der Kampagnenleistung. Weiterführende Informationen finden Sie in [diesem Abschnitt](../workflows/gs-workflows.md).
 
 
-* **Erstellen einer Zielgruppe mit dem Abfrage-Modeler**
+**Erstellen einer Zielgruppe mit dem Abfrage-Modeler**
 
-  Adobe Campaign Weg bietet einen **leistungsstarken und intuitiven Abfrage-Modeler**, der das Filtern von Datenbanken zur Auswahl spezifischer Ziele anhand verschiedener Kriterien vereinfacht. Dies schließt die Verwendung erweiterter Ausdrücke und Operatoren ein. Der Abfrage-Modeler ist in jedem Kontext verfügbar, in dem Sie Regeln zum Filtern von Daten definieren müssen.
+Adobe Campaign Weg bietet einen **leistungsstarken und intuitiven Abfrage-Modeler**, der das Filtern von Datenbanken zur Auswahl spezifischer Ziele anhand verschiedener Kriterien vereinfacht. Dies schließt die Verwendung erweiterter Ausdrücke und Operatoren ein. Der Abfragemodellierer ist in jedem Kontext verfügbar, in dem Sie Regeln zum Filtern von Daten definieren müssen. Weiterführende Informationen finden Sie in [diesem Abschnitt](../query/query-modeler-overview.md).
 
-  Weiterführende Informationen finden Sie in [diesem Abschnitt](../query/query-modeler-overview.md).
+**Einfache Erstellung und Verwaltung von Profilen**
 
-* **Einfache Erstellung und Verwaltung von Profilen**
-
-  Sie können die neue Campaign-Web-Benutzeroberfläche für **Erstellen und Aktualisieren von Empfängern** in der Datenbank direkt über das Menü Empfänger . Mit einem vereinfachten Formular zur Profilbearbeitung können Sie die Kontaktinformationen und -attribute der Person eingeben und vorhandene Empfängerinnen und Empfänger aktualisieren, ohne die Client-Konsole zu verwenden.
-
-  Weiterführende Informationen finden Sie in [diesem Abschnitt](../audience/about-recipients.md).
+Sie können die neue Campaign-Web-Benutzeroberfläche für **Erstellen und Aktualisieren von Empfängern** in der Datenbank direkt über das Menü Empfänger . Mit einem vereinfachten Formular zur Profilbearbeitung können Sie die Kontaktinformationen und -attribute des Empfängers eingeben und einen vorhandenen Empfänger aktualisieren, ohne die Clientkonsole zu verwenden. Weiterführende Informationen finden Sie in [diesem Abschnitt](../audience/about-recipients.md).
 
 <!--
 * Adobe Experience Manager (AEM) Integration
@@ -120,30 +109,24 @@ Nachfolgend sind die wichtigsten Funktionen aufgeführt, die mit der limitierten
     Learn more in [this section](../email/generative-gs.md).
 -->
 
-* **KI-gestützte Kontexthilfe**
+**KI-gestützte Kontexthilfe**
 
-  Stellen Sie Fragen und erhalten Sie Hilfestellungen direkt in der Benutzeroberfläche des Produkts. Die neue **KI-gestützte Kontexthilfe** hilft Ihnen, Ihr Know-how über neue Campaign-Funktionen zu verbessern und zu erweitern. Sie basiert auf der neuesten Produktdokumentation und liefert Ihnen beim Erstellen Ihrer Anwendungsfälle sofortige Hilfe und Schritt-für-Schritt-Anleitungen. Diese Funktion ist derzeit in der Beta-Version für eine begrenzte Anzahl von Benutzenden verfügbar.
+Stellen Sie Fragen und erhalten Sie Hilfestellungen direkt in der Benutzeroberfläche des Produkts. Die neue **KI-gestützte Kontexthilfe** hilft Ihnen, Ihr Know-how über neue Campaign-Funktionen zu verbessern und zu erweitern. Sie basiert auf der neuesten Produktdokumentation und liefert Ihnen beim Erstellen Ihrer Anwendungsfälle sofortige Hilfe und Schritt-für-Schritt-Anleitungen. Diese Funktion ist derzeit in der Betaversion für eine begrenzte Anzahl von Benutzern verfügbar. Weiterführende Informationen finden Sie in [diesem Abschnitt](../get-started/using-ai.md).
 
-  Weiterführende Informationen finden Sie in [diesem Abschnitt](../get-started/using-ai.md).
+**Vordefinierte Filter**
 
-* **Vordefinierte Filter**
+Wir stellen vor: Verwaltung von vordefinierten Filtern. Die Campaign-Webbenutzeroberfläche bietet Ihnen eine benutzerfreundliche Benutzeroberfläche, die Sie mühelos ausführen können **vordefinierte Filter verwalten und anpassen** auf Ihre spezifischen Anforderungen zugeschnitten ist. Erstellen Sie einmal und speichern Sie für die zukünftige Verwendung. Weiterführende Informationen finden Sie in [diesem Abschnitt](../get-started/predefined-filters.md).
 
-  Wir stellen vor: Verwaltung von vordefinierten Filtern. Die Campaign-Webbenutzeroberfläche bietet Ihnen eine benutzerfreundliche Benutzeroberfläche, die Sie mühelos ausführen können **vordefinierte Filter verwalten und anpassen** auf Ihre spezifischen Anforderungen zugeschnitten ist. Filter einmal erstellen und für zukünftige Verwendungen speichern.
+**HTML-Konvertierer für E-Mail-Design**
 
-  Weiterführende Informationen finden Sie in [diesem Abschnitt](../get-started/predefined-filters.md).
-
-* **HTML-Konvertierer für E-Mail-Design**
-
-  Sie können jetzt im E-Mail-Editor von Campaign **HTML-Inhalte importieren und konvertieren**. Inhaltsbausteine werden automatisch identifiziert und stehen im E-Mail-Designer zur Verfügung: Nutzen Sie die leistungsstarken Design-Funktionen, um sie zu aktualisieren und zu personalisieren!
-
-  Weiterführende Informationen finden Sie in [diesem Abschnitt](../email/existing-content.md).
+Sie können jetzt im E-Mail-Editor von Campaign **HTML-Inhalte importieren und konvertieren**. Inhaltsbausteine werden automatisch identifiziert und stehen im E-Mail-Designer zur Verfügung: Nutzen Sie die leistungsstarken Designfunktionen, um sie zu aktualisieren und zu personalisieren! Weiterführende Informationen finden Sie in [diesem Abschnitt](../email/existing-content.md).
 
 
-* **SMS mit Angeboten**
+**SMS mit Angeboten**
 
-  Die neue Campaign-Webbenutzeroberfläche ermöglicht Ihnen Folgendes: **Angebote mit SMS integrieren** zusätzlich zu E-Mail. Erreichen Sie Ihre Zielgruppe auf ihren Mobilgeräten und senden Sie Promotions und zeitlich abgestimmte Benachrichtigungen. Heben Sie Ihre Marketing-Unternehmungen auf ein neues Niveau, indem Sie die Leistungsfähigkeit integrierter Angebote per SMS auf unserer erweiterten Web-Plattform nutzen.
+Die neue Campaign-Webbenutzeroberfläche ermöglicht Ihnen Folgendes: **Angebote mit SMS integrieren** zusätzlich zu E-Mail. Erreichen Sie Ihre Zielgruppe auf ihren Mobilgeräten und senden Sie Promotions und zeitlich abgestimmte Benachrichtigungen. Heben Sie Ihre Marketing-Unternehmungen auf ein neues Niveau, indem Sie die Leistungsfähigkeit integrierter Angebote per SMS auf unserer erweiterten Web-Plattform nutzen.
 
-  Weiterführende Informationen finden Sie in [diesem Abschnitt](../msg/offers.md).
+Weiterführende Informationen finden Sie in [diesem Abschnitt](../msg/offers.md).
 
 ## Übergang zur Campaign-Webbenutzeroberfläche
 
