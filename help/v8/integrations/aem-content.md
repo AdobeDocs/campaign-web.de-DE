@@ -2,9 +2,9 @@
 audience: end-user
 title: Verwalten von Assets mit Adobe Experience Manager as a Cloud Service
 description: Erfahren Sie, wie Sie Inhalte mit Adobe Experience Manager as a Cloud Service verwalten.
-source-git-commit: d1b562c346d99a94254e5a24e635c75509a6347c
+source-git-commit: 0c7c96308c5fe3516ed1fd33603c54c6da8248c1
 workflow-type: tm+mt
-source-wordcount: '501'
+source-wordcount: '508'
 ht-degree: 11%
 
 ---
@@ -81,7 +81,7 @@ Sobald die Inhaltsvorlage im Adobe Campaign Web als Inhaltsvorlage verfügbar is
 
    ![](assets/aem_8.png)
 
-1. Wenn Änderungen an Ihren Vorlagen direkt in Adobe Experience Manager vorgenommen werden, wählen Sie einfach **[!UICONTROL AEM Inhalt aktualisieren]** , um die neueste Version Ihrer Vorlage zu erhalten.
+1. Beachten Sie, dass Inhalte nicht automatisch synchronisiert werden. Wenn Änderungen an Ihren Vorlagen direkt in Adobe Experience Manager vorgenommen werden, wählen Sie einfach **[!UICONTROL AEM Inhalt aktualisieren]** , um die neueste Version Ihrer Vorlage zu erhalten.
 
 1. Um die Verknüpfung zwischen Experience Manager und Campaign zu entfernen oder Ihre Experience Manager-Vorlage in Email Designer weiter zu personalisieren, klicken Sie auf **[!UICONTROL Verknüpfung AEM Inhalts aufheben]**.
 
