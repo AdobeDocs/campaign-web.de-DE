@@ -4,9 +4,9 @@ title: Versandeinstellungen
 description: Erfahren Sie mehr über die Versandeinstellungen in Campaign Web
 feature: Email
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: a516a5aba56dbbff213d9a61b47144d6b4d801ff
 workflow-type: tm+mt
-source-wordcount: '2429'
+source-wordcount: '2417'
 ht-degree: 93%
 
 ---
@@ -145,7 +145,7 @@ Sie können die **[!UICONTROL Senden]** unten.
 
 * **[!UICONTROL SMTP-Versand testen]**: Diese Option wird verwendet, um den Versand über SMTP zu testen. Der Versand wird bis zur Verbindung mit dem SMTP-Server verarbeitet, aber nicht gesendet: Für jeden Empfänger des Versands stellt Campaign eine Verbindung zum SMTP-Provider-Server her, führt den SMTP-Befehl RCPT TO aus und schließt die Verbindung vor dem SMTP-DATENbefehl.
 
-* **[!UICONTROL E-Mail-BCC]**: Diese Option wird verwendet, um mit der BCC-Funktion E-Mails in einem externen System zu speichern, indem einfach eine E-Mail-Adresse als BCC zu Ihrer Nachrichtzielgruppe hinzugefügt wird. Weitere Informationen finden Sie in der [Dokumentation zu Campaign v8 (Client-Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html?lang=de){target="_blank"}.
+* **[!UICONTROL E-Mail-BCC]**: Diese Option wird verwendet, um mit der BCC-Funktion E-Mails in einem externen System zu speichern, indem einfach eine E-Mail-Adresse als BCC zu Ihrer Nachrichtzielgruppe hinzugefügt wird. Weitere Informationen finden Sie in der [Dokumentation zu Campaign v8 (Client-Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email-bcc.html){target="_blank"}.
 
 Im **[!UICONTROL Wellendefinition]** auswählen, wählen Sie die **[!UICONTROL In mehreren Schüben versenden]** Option zum progressiven Erhöhen des in Schüben gesendeten Volumens. Dadurch wird verhindert, dass Ihre Nachrichten als Spam gekennzeichnet werden, oder Sie können die Anzahl der pro Tag versendeten Nachrichten beschränken. Mit Schüben können Sie Sendungen in mehrere Teilsendungen unterteilen, anstatt große Mengen von Nachrichten gleichzeitig zu senden. [Weitere Informationen](send-using-waves.md)
 
@@ -192,8 +192,6 @@ Außerdem können die Tags definiert werden, die für das verwendete Analyse-Too
 <!--Currently not visible in UI > ??-->
 
 Sendungen von vorübergehend nicht zugestellten Nachrichten aufgrund eines Softbounce oder eines Ignoriert-Fehlers werden automatisch wiederholt. Standardmäßig sind innerhalb der ersten 24 Stunden des Versands fünf erneute Zustellversuche im Abstand von mindestens einer Stunde vorgesehen.
-
-Weitere Informationen zur Verwaltung von weiteren Zustellversuchen finden Sie in der [Dokumentation zu Campaign v8 (Client-Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html?lang=de){target="_blank"}.
 
 ## Validierung {#approval}
 

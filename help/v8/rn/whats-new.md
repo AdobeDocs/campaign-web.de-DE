@@ -3,9 +3,9 @@ audience: end-user
 title: Neue Funktionen in der Campaign-Webbenutzeroberfläche
 description: Neue Funktionen der Campaign-Webbenutzeroberfläche
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: a516a5aba56dbbff213d9a61b47144d6b4d801ff
 workflow-type: tm+mt
-source-wordcount: '1290'
+source-wordcount: '1291'
 ht-degree: 74%
 
 ---
@@ -23,7 +23,7 @@ Wir freuen uns, die neue Version von **Adobe Campaign Web-Benutzeroberfläche**.
 
 >[!AVAILABILITY]
 >
->Diese Version steht allen Benutzern zur Verfügung, die Campaign v8.6 verwenden. Weitere Informationen zu Adobe Campaign-Versionen finden Sie unter [Dokumentation zu Campaign v8 (Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html){target="_blank"}.
+>Diese Version steht allen Benutzern zur Verfügung, die [Campaign v8.6](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html). Weitere Informationen zu Adobe Campaign-Versionen finden Sie unter [Dokumentation zu Campaign v8 (Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/upgrades.html){target="_blank"}.
 
 
 ## Wichtigste Funktionen {#key-features}
