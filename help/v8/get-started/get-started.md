@@ -3,10 +3,10 @@ audience: end-user
 title: Erste Schritte mit Adobe Campaign Web
 description: Erste Schritte mit Adobe Campaign Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
-source-git-commit: 45e8a863f542be862773a7ec3a49b1e94236d453
+source-git-commit: a678175e34a633d5de258e64899ba4b10b6b674f
 workflow-type: tm+mt
-source-wordcount: '543'
-ht-degree: 74%
+source-wordcount: '580'
+ht-degree: 70%
 
 ---
 
@@ -37,6 +37,7 @@ Mit Campaign haben Sie folgende Möglichkeiten:
 * **E-Mail-, Mobile-, Online- und Offline-Kanäle in die Customer Journey integrieren**
 * **Automatisieren** Sie den vErsand von aussagekräftigen und rechtzeitigen Nachrichten und Angeboten
 
+## Benutzeroberfläche der Web-Nutzung von Campaign {#web}
 
 Ursprünglich nur über eine umfangreiche [Client-Konsole](#ac-client) verfügbar, bietet Campaign jetzt eine neue Web-Benutzeroberfläche (UI) mit verbesserter Benutzerfreundlichkeit, Barrierefreiheit und einem neuen Design, um das Anwendererlebnis deutlich zu verbessern. Diese neue, moderne Benutzeroberfläche vereinfacht das Design und den Versand von Marketing-Kampagnen und sorgt für Konsistenz mit anderen Adobe-Lösungen, einschließlich Adobe Experience Platform.
 
@@ -46,8 +47,9 @@ Diese neue Web-Benutzeroberfläche erfüllt zunächst die Anforderungen der **Ge
 
 Wenn Sie als Administrator oder erfahrener Benutzer auf die Campaign v8-Funktionen zugreifen müssen, die nicht in der Campaign-Webbenutzeroberfläche verfügbar sind, können Sie eine Verbindung zum [Clientkonsole](#ac-client).
 
-
 Erfahren Sie auf [dieser Seite](connect-to-campaign.md), wie Sie eine Verbindung zu Adobe Campaign Web herstellen können.
+
+➡️ [Video zu Discover Campaign Web](#video)
 
 ## Über die Campaign-Client-Konsole {#ac-client}
 
@@ -58,3 +60,9 @@ Kampagnendaten werden auf dem Anwendungs-Server gespeichert. Daten sind sowohl i
 Einige Objekte können nur in der Client-Konsole erstellt und verwaltet werden. Sie können in der Web-Benutzeroberfläche von Campaign sichtbar und verwendet werden, können jedoch nicht in dieser Umgebung erstellt oder geändert werden. Alle Campaign-Objekte und -Komponenten stehen in der Explorer-Ansicht zur Verfügung, die im linken Navigationsbereich verfügbar ist.
 
 Weitere Informationen zur Verwendung von Campaign v8 mit der Client-Konsole finden Sie in der [Dokumentation zu Campaign v8 (Client-Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=de){target="_blank"}.
+
+## Anleitungsvideo {#video}
+
+Erfahren Sie, wie Sie auf die Web-Benutzeroberfläche von Campaign zugreifen und darin navigieren und wie Sie die Inventarlisten anpassen können. Entdecken Sie den KI-gestützten Knowledge Assistant.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3427278?quality=12)
