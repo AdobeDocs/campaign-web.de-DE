@@ -1,10 +1,10 @@
 ---
 title: Erste Schritte mit Profilen
 description: Erfahren Sie, wie Sie Profile in Adobe Campaign Web überwachen und verwalten können.
-source-git-commit: 55441646867b7dee454a7f37c0a1b696e61926de
+source-git-commit: 791863c25c0e5b31cc38e1981f8b356ee0011b1c
 workflow-type: tm+mt
-source-wordcount: '527'
-ht-degree: 54%
+source-wordcount: '549'
+ht-degree: 52%
 
 ---
 
@@ -38,6 +38,8 @@ Darüber hinaus **[!UICONTROL Testprofile]**, in der Clientkonsole als &quot;Tes
 
 Sie können sowohl Profile als auch Testprofile verwenden, um Ihre Sendungen zu testen, bevor sie die gewünschte Zielgruppe erreichen. Auf diese Weise können Sie eine Vorschau des Nachrichteninhalts und der Personalisierung anzeigen, Testsendungen zum Testen und Validieren durchführen, das E-Mail-Rendering auf verschiedenen Plattformen und Geräten evaluieren und Ihre Landingpages testen. [Erfahren Sie, wie Sie Sendungen in der Vorschau anzeigen und testen können.](../preview-test/preview-test.md)
 
+➡️ [Funktion im Video kennenlernen](#video)
+
 ## Zugriff auf die Liste der Profile {#access}
 
 Die Profile können im Adobe Campaign Web über die **[!UICONTROL Kundenverwaltung]** > **Profile** in der linken Navigationsleiste. Sie können auch im **[!UICONTROL Explorer]** Ansicht aus der **[!UICONTROL Profile und Zielgruppen]** > **[!UICONTROL Empfänger]** Knoten. Dort können Sie Ordner oder Unterordner durchsuchen, erstellen und verwalten sowie die zugehörigen Berechtigungen überprüfen. [Erfahren Sie, wie Sie Ordner erstellen](../get-started/permissions.md#folders)
@@ -53,3 +55,9 @@ Sie können die Liste der **[!UICONTROL Profile]** mit dem Suchfeld oder den unt
 Um auf die Details eines Profils zuzugreifen, klicken Sie in der Liste auf dessen Namen. Eine detaillierte Ansicht des Profils wird geöffnet, in der Sie seine Attribute und die Dienste, die es abonniert hat, einsehen können. [Erfahren Sie, wie Sie die Profildetails durchsuchen können.](create-profile.md)
 
 Um ein Profil zu löschen, wählen Sie die entsprechende Option im Menü **[!UICONTROL Mehr Aktionen]**.
+
+## Anleitungsvideo {#video}
+
+Erfahren Sie, wie Sie über die Campaign-Web-Benutzeroberfläche auf Profile zugreifen, diese verwalten und untersuchen können.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3427293?quality=12)
