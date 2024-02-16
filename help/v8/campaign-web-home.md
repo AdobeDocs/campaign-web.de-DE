@@ -3,10 +3,10 @@ keywords: Campaign Web;Startseite;beliebte Themen
 description: Hilfe-Center zu Campaign Web
 title: Produktdokumentation zu Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: b497eded8ace85410e5f83d454fce7e566d8a4dc
+source-git-commit: 9849ab42d9dcbe34036f5677c674cb96aaf1a246
 workflow-type: tm+mt
-source-wordcount: '654'
-ht-degree: 99%
+source-wordcount: '672'
+ht-degree: 91%
 
 ---
 
@@ -90,6 +90,12 @@ Hier erhalten Sie einen Einblick in die neuesten Verbesserungen in Adobe Campaig
 
 >[!BEGINTABS]
 
+>[!TAB Integration von Adobe Experience Manager as a Cloud Service]
+
+Die Integration zwischen der Adobe Campaign-Webschnittstelle und Adobe Experience Manager as a Cloud Service optimiert das E-Mail-Content-Management. Sie können jetzt E-Mail-Inhalte direkt in Adobe Experience Manager erstellen und bearbeiten und dann die fertigen Vorlagen nahtlos in Adobe Campaign importieren, um Ihre Sendungen durchzuführen.
+
+[![Bild](assets/do-not-localize/learn-more-button.svg)](integrations/aem-content.md)
+
 >[!TAB Kanalübergreifende Workflows]
 
 Erschließen Sie neue Automatisierungs- und Optimierungsmöglichkeiten, um dynamischere und stärker personalisierte Journeys zu erstellen. Von der erweiterten Segmentierung bis hin zu bedingten Triggern ermöglichen unsere zusätzlichen Workflow-Aktivitäten den Versand zielgerichteter Nachrichten und die Verbesserung der Kampagnen-Performance.
@@ -107,12 +113,6 @@ Erstellen Sie neue Zielgruppen in einer visuellen Workflow-Arbeitsfläche. Sie k
 Mit dem Campaign E-Mail-Designer können Sie über eine intuitive Drag-and-Drop-Oberfläche überzeugende, individuell zugeschnittene E-Mails erstellen. Egal, ob Sie bei null anfangen, vorhandene Inhalte importieren oder Vorlagen nutzen, können Sie für jede E-Mail alle Inhalte für Werbeaktionen sowie für Transaktionen gestalten und verfeinern.
 
 [![Bild](assets/do-not-localize/learn-more-button.svg)](email/get-started-email-designer.md)
-
->[!TAB Profil 360]
-
-Erstellen Sie neue Profile und überwachen Sie sie mithilfe leistungsstarker Berichte und Tools. Greifen Sie auf die Attribute, Interaktionen und Protokolle Ihrer Profile zu. Verwenden Sie die Filteroptionen, um die Profilliste zu durchsuchen und ihr Profil zu bearbeiten und zu aktualisieren.
-
-[![Bild](assets/do-not-localize/learn-more-button.svg)](audience/gs-audiences-recipients.md)
 
 >[!ENDTABS]
 
