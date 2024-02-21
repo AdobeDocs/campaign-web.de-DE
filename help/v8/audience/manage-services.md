@@ -3,10 +3,10 @@ audience: end-user
 title: Arbeiten mit Anmeldediensten
 description: Erfahren Sie, wie Sie in Adobe Campaign Web auf Anmeldedienste zugreifen, diese erstellen und sie verwalten können.
 exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
-source-git-commit: ee105288a1e2e9671688ebe33092d92d4673a04d
+source-git-commit: 12492f1c2464a18a420e6f4dccb62debf0bb3151
 workflow-type: tm+mt
-source-wordcount: '933'
-ht-degree: 94%
+source-wordcount: '960'
+ht-degree: 92%
 
 ---
 
@@ -128,8 +128,13 @@ Sie können diese Nachrichten jetzt auswählen, wenn Sie einen [Anmeldedienst er
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_totalnumber_subscribers"
->title="Abonnierende insgesamt"
+>title="Abonnentenanzahl"
 >abstract="Klicken Sie auf **Berechnen**, um die Gesamtzahl der Abonnierenden für diesen Dienst zu ermitteln."
+
+>[!CONTEXTUALHELP]
+>id="acw_subscriptions_totalnumber_subscribers_report"
+>title="Abonnierende insgesamt"
+>abstract="Der Key Performance Indicator (KPI) bietet einen umfassenden Überblick über die Abonnentenbasis und zeigt die Gesamtzahl der Kontakte an, die diesen Dienst abonniert haben."
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_overtheperiod_subscribers"
