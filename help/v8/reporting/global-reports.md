@@ -3,16 +3,18 @@ audience: end-user
 title: Erste Schritte mit globalen Berichten
 description: Grundlegendes zu globalen Berichten
 exl-id: e64d9765-f602-4fee-9923-a3665130c63a
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: fe47c50bc257832fc9d6ddefdcb3217b73559d82
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 100%
+source-wordcount: '244'
+ht-degree: 86%
 
 ---
 
 # Erste Schritte mit globalen Berichten {#global-report-gs}
 
 **Globale Berichte** sind ein effektives Tool und bieten eine konsolidierte Zusammenfassung der Traffic- und der Interaktionsmetriken für jeden Kanal in Ihrer Campaign-Instanz. Diese Berichte bestehen aus verschiedenen Widgets, von denen jedes einen bestimmten Blickwinkel auf Ihre Kampagnen- oder Versandleistung bietet.
+
+Key Performance Indicators (KPIs) werden stündlich aktualisiert, um aktuelle Einblicke zu erhalten. Standardmäßig werden die Daten gefiltert, um die letzten 30 Tage abzudecken und eine aktuelle und relevante Sicht auf die Leistung Ihrer Kampagnen und Sendungen zu erhalten.
 
 Die vollständige Liste der Berichte und zugehörigen Metriken für jeden Kanal finden Sie auf den folgenden Seiten:
 
