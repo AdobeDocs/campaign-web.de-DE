@@ -3,16 +3,18 @@ audience: end-user
 title: Festlegen einer Kontrollgruppe
 description: Erfahren Sie, wie Sie in der Campaign-Web-Benutzeroberfläche eine Kontrollgruppe für Ihre Nachrichten einrichten.
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: cdb33c46e849a16272869913044358d344e0d6ba
 workflow-type: tm+mt
-source-wordcount: '797'
-ht-degree: 98%
+source-wordcount: '803'
+ht-degree: 97%
 
 ---
 
 # Festlegen einer Kontrollgruppe {#control-group}
 
 Eine Kontrollgruppe ist eine vom Versand ausgeschlossene Unterpopulation. Sie können eine Kontrollgruppe definieren, um zu verhindern, dass Nachrichten an einen Teil Ihrer Zielgruppe gesendet werden, und das Verhalten nach dem Versand mit der Hauptzielgruppe vergleichen. Mit dieser Option können Sie die Wirkung Ihrer Kampagne messen.
+
+➡️ [Funktion im Video kennenlernen](create-audience.md#video)
 
 ## Aktivieren einer Kontrollgruppe{#add-a-control-group}
 
@@ -122,5 +124,3 @@ Die Profile, die in der Zielgruppe enthalten sind oder mit dem Ergebnis der Abfr
 Nach dem Versand können Sie die Versandlogs extrahieren, um das Verhalten zwischen den Profilen, die die Nachricht nicht erhalten haben, und der tatsächlichen Zielgruppe zu vergleichen. Sie können die Versandlogs auch für eine neue Zielgruppenbestimmung verwenden.
 
 Um zu sehen, welche Profile aus der Zielgruppe entfernt wurden, überprüfen Sie die **Versandlogs**. Weitere Informationen finden Sie in [diesem Abschnitt](#check-control-group).
-
-

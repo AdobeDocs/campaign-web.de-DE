@@ -3,10 +3,10 @@ audience: end-user
 title: Erstellen von Zielgruppen
 description: Erfahren Sie, wie Sie Zielgruppen in Adobe Campaign Web erstellen.
 exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: cdb33c46e849a16272869913044358d344e0d6ba
 workflow-type: tm+mt
-source-wordcount: '902'
-ht-degree: 100%
+source-wordcount: '928'
+ht-degree: 97%
 
 ---
 
@@ -41,6 +41,8 @@ ht-degree: 100%
 Mit Campaign Web können Sie neue Zielgruppen in einer visuellen Workflow-Arbeitsfläche erstellen. Sie können nicht nur von Grund auf eine einfache Zielgruppe erstellen, sondern auch Workflow-Aktivitäten nutzen, um Ihre Zielgruppe zu präzisieren. Sie können beispielsweise mehrere Zielgruppen zu einer einzigen zusammenfassen, Ihre Zielgruppe mit externen Attributen anreichern oder eine Zielgruppe basierend auf Regeln Ihrer Wahl in mehrere Zielgruppen unterteilen.
 
 Nachdem Sie Ihren Workflow erstellt haben, werden die resultierenden Zielgruppen automatisch in der Campaign-Datenbank zusammen mit den bereits vorhandenen Zielgruppen gespeichert. Diese Zielgruppen können dann in Workflows oder in eigenständigen Sendungen ausgewählt werden.
+
+➡️ [Funktion im Video kennenlernen](#video)
 
 ## Erstellen Ihrer ersten Zielgruppe {#create}
 
@@ -104,3 +106,9 @@ Standardmäßig wird bei der erneuten Ausführung eines Zielgruppen-Workflows de
 Wenn Sie die vorherigen Zielgruppenergebnisse nicht ersetzen möchten, konfigurieren Sie die Aktivitäten **Zielgruppe speichern** entsprechend dementsprechend. Sie können beispielsweise das Feld **Zielgruppentitel** ändern, um die neuen Ergebnisse in einer neuen Zielgruppe zu speichern, oder die neuen Ergebnisse zu den bestehenden Zielgruppeninhalten hinzufügen, ohne die vorherigen Daten zu löschen. [Erfahren Sie, wie Sie die Aktivität „Zielgruppe speichern“ konfigurieren](../workflows/activities/save-audience.md)
 
 ![](assets/edit-audience-save.png){zoomable=&quot;yes&quot;}
+
+## Anleitungsvideo {#video}
+
+Hier erfahren Sie, wie Sie Audiences erstellen und verwalten, Audiences für einen Versand auswählen und Kontrollgruppen definieren.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3425861?quality=12)
