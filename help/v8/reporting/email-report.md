@@ -3,10 +3,10 @@ audience: end-user
 title: E-Mail-Versandberichte
 description: Erfahren Sie, wie Sie auf E-Mail-Versandberichte zugreifen und diese verwenden können
 exl-id: 2a0bd3e9-5d75-47c8-bd6a-b3e0b1ce0a01
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 60cad8248998387f1def3c48fa7673e3e4a86ca8
 workflow-type: tm+mt
-source-wordcount: '2283'
-ht-degree: 98%
+source-wordcount: '2329'
+ht-degree: 95%
 
 ---
 
@@ -30,12 +30,11 @@ Der **E-Mail-Versandbericht** bietet umfassende Einblicke und Daten, die speziel
 
 Der Graph **[!UICONTROL Anfängliche Zielgruppenpopulation]** zeigt Daten zu Ihren Empfängerinnen und Empfängern an. Die Metriken werden bei der Versandvorbereitung berechnet und zeigen: die anfängliche Zielgruppe, die Anzahl der zu sendenden Nachrichten und die Anzahl der ausgeschlossenen Empfängerinnen und Empfänger.
 
-![](assets/reporting_email_1.png){zoomable=&quot;yes&quot;}{width="50%" align="left" zoomable="yes"}
+![](assets/reporting_email_1.png){zoomable=&quot;yes&quot;}
 
 Bewegen Sie den Mauszeiger über einen Abschnitt des Graphen, um die genaue Zahl anzuzeigen.
 
-![](assets/reporting_email_1.1.png){zoomable=&quot;yes&quot;}{width="50%" align="left" zoomable="yes"}
-
+![](assets/reporting_email_1.1.png){zoomable=&quot;yes&quot;}
 
 +++Erfahren Sie mehr über die Metriken des E-Mail-Versandberichts.
 
@@ -48,16 +47,14 @@ Bewegen Sie den Mauszeiger über einen Abschnitt des Graphen, um die genaue Zahl
 
 ### Versandstatistiken {#email-delivery-stats}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_delivery_statistics_summary"
 >title="Versandstatistiken"
 >abstract="Der Graph **Versandstatistiken** zeigt den Erfolg Ihres Versands und die aufgetretenen Fehler an."
 
-
 Der Graph **[!UICONTROL Versandstatistiken]** gibt Auskunft über den Erfolg Ihres Versands. Metriken werden nachfolgend beschrieben.
 
-![](assets/reporting_email_2.png){zoomable=&quot;yes&quot;}{width="50%" align="left" zoomable="yes"}
+![](assets/reporting_email_2.png){zoomable=&quot;yes&quot;}
 
 +++Erfahren Sie mehr über die Metriken des E-Mail-Kampagnen-Berichts.
 
@@ -147,7 +144,12 @@ Die Tabelle **[!UICONTROL Broadcast-Statistiken]** enthält die verfügbaren Dat
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_error_type"
 >title="Aufschlüsselung der Fehler nach Typen"
->abstract="Die Tabelle und der Graph zur **Aufschlüsselung der Fehler nach Typen** enthalten die verfügbaren Daten für jeden aufgetretenen Fehlertyp: Benutzerin oder Benutzer unbekannt, Postfach voll, ungültige Domain und mehr."
+>abstract="Die **Verteilung der Fehler nach Typ** -Diagramm enthält die verfügbaren Daten für jeden aufgetretenen Fehlertyp: unbekannter Nutzer, Postfach voll, ungültige Domain usw."
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_error_type_table"
+>title="Aufschlüsselung der Fehler nach Typen"
+>abstract="Die **Verteilung der Fehler nach Typ** bietet eine umfassende Aufschlüsselung des Vorkommens der einzelnen Fehlertypen."
 
 Die Tabelle und der Graph zur **[!UICONTROL Aufschlüsselung der Fehler nach Typen]** enthalten die verfügbaren Daten für jeden Fehlertyp. Metriken werden nachfolgend beschrieben.
 
@@ -173,15 +175,17 @@ Die in diesem Bericht angezeigten Fehler lösen einen Quarantäneprozess aus. We
 
 +++
 
-
 ### Aufschlüsselung der Fehler nach Domain {#email-delivery-breakdown-domain}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_error_domain"
 >title="Aufschlüsselung der Fehler nach Domain"
->abstract="Die Tabelle und der Graph zur **Aufschlüsselung der Fehler nach Domain** enthalten die verfügbaren Daten für jeden Fehlertyp, der für die einzelnen Domains aufgetreten ist."
+>abstract="Die **Verteilung der Fehler nach Domain** -Diagramm zeigt die verfügbaren Daten für jeden aufgetretenen Fehlertyp in Abhängigkeit von der jeweiligen Domäne an."
 
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_error_domain_table"
+>title="Aufschlüsselung der Fehler nach Domain"
+>abstract="Die **Verteilung der Fehler nach Domain** bietet eine umfassende Aufschlüsselung des Vorkommens der einzelnen Fehler in Abhängigkeit von der verwendeten Domain."
 
 Die Tabelle und der Graph zur **[!UICONTROL Aufschlüsselung der Fehler nach Domain]** zeigen die verfügbaren Daten zu Fehlern an, die bei den einzelnen Domains aufgetreten sind.
 
