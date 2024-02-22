@@ -3,21 +3,26 @@ audience: end-user
 title: Konfigurieren von Workflow-Einstellungen
 description: Erfahren Sie, wie Sie Workflow-Einstellungen mit Adobe Campaign Web festlegen
 exl-id: 3aef912b-086b-4aa4-9556-c09396112313
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 0250ab3bd05023bddbf3a0104631cc7bb40acadc
 workflow-type: tm+mt
-source-wordcount: '959'
-ht-degree: 75%
+source-wordcount: '1025'
+ht-degree: 69%
 
 ---
 
 
 # Konfigurieren von Workflow-Einstellungen {#workflow-settings}
 
-Bei der Orchestrierung von Workflow-Aktivitäten auf der Arbeitsfläche können Sie auf erweiterte Einstellungen im Zusammenhang mit dem Workflow zugreifen. Sie können beispielsweise eine bestimmte Zeitzone für den Workflow festlegen, verwalten, wie sich der Workflow im Fehlerfall verhält, oder die Verzögerung verwalten, nach der der Workflow-Verlauf bereinigt werden soll.
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_creation_properties"
+>title="Workflow-Eigenschaften"
+>abstract="Wählen Sie in diesem Bildschirm die Vorlage aus, die zum Erstellen des Workflows verwendet werden soll, und geben Sie einen Titel an. Erweitern Sie die **Zusätzliche Optionen** um weitere Einstellungen wie den internen Namen des Workflows, seinen Ordner, seine Zeitzone und die Supervisorgruppe zu konfigurieren. Es wird dringend empfohlen, eine Gruppe von Verantwortlichen auszuwählen, damit Benutzerinnen und Benutzer benachrichtigt werden, wenn Fehler auftreten."
+
+Bei der Erstellung eines Workflows oder der Orchestrierung von Workflow-Aktivitäten auf der Arbeitsfläche haben Sie Zugriff auf erweiterte Einstellungen, die sich auf den Workflow beziehen. Sie können beispielsweise eine bestimmte Zeitzone für den Workflow festlegen, verwalten, wie sich der Workflow im Fehlerfall verhält, oder die Verzögerung verwalten, nach der der Workflow-Verlauf bereinigt werden soll.
 
 Diese Einstellungen sind in der bei der Workflow-Erstellung ausgewählten Vorlage vorkonfiguriert, können aber bei Bedarf für diesen spezifischen Workflow bearbeitet werden.
 
-Klicken Sie dazu auf die Schaltfläche **[!UICONTROL Einstellungen]** in der Aktionsleiste über der Workflow-Arbeitsfläche.
 
 ![](assets/workflow-settings-button.png){zoomable=&quot;yes&quot;}{width="70%" align="left"}
 
@@ -28,7 +33,8 @@ Klicken Sie dazu auf die Schaltfläche **[!UICONTROL Einstellungen]** in der Akt
 >title="Workflow-Eigenschaften "
 >abstract="Dieser Abschnitt enthält allgemeine Workflow-Eigenschaften, auf die auch beim Erstellen des Workflows zugegriffen werden kann. Sie können die Vorlage auswählen, die zum Erstellen des Workflows verwendet werden soll, und einen Titel angeben. Erweitern Sie den Abschnitt „zusätzliche Optionen“, um bestimmte Einstellungen zu konfigurieren, z. B. den Ordner, in dem der Workflow gespeichert wird, oder die Zeitzone."
 
-Der Abschnitt **[!UICONTROL Eigenschaften]** enthält allgemeine Einstellungen, auf die auch bei der Erstellung des Workflows zugegriffen werden kann.
+Die **[!UICONTROL Eigenschaften]** enthält allgemeine Einstellungen, die beim Erstellen eines Workflows konfiguriert werden können. Um auf die Eigenschaften eines vorhandenen Workflows zuzugreifen, klicken Sie auf die Schaltfläche **[!UICONTROL Einstellungen]** in der Aktionsleiste über der Arbeitsfläche des Workflows verfügbar.
+
 
 ![](assets/workflow-settings.png){zoomable=&quot;yes&quot;}{width="70%" align="left"}
 
