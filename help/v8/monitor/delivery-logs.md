@@ -4,7 +4,7 @@ title: Überwachen von Versandlogs
 description: Erfahren Sie, wie Sie Versandlogs überwachen
 exl-id: 2eb7457e-32f7-4729-99c8-91bf287f0192
 source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '369'
 ht-degree: 100%
 
@@ -76,4 +76,4 @@ In der Registerkarte **Tracking** wird der Tracking-Verlauf für den jeweiligen 
 
 >[!NOTE]
 >
->Sollte das Tracking für einen Versand nicht aktiviert worden sein, wird diese Registerkarte nicht angezeigt.
+>Wenn das Tracking für einen Versand nicht aktiviert ist, wird diese Registerkarte nicht angezeigt.

@@ -3,9 +3,9 @@ title: Herstellen einer Verbindung zur Adobe Campaign Web-Benutzeroberfläche
 description: Erfahren Sie, wie Sie eine Verbindung mit der Benutzeroberfläche von Adobe Campaign Web herstellen.
 exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '581'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ Experience Cloud ist die integrierte Familie von Anwendungen, Produkten und Dien
 
 ## Anmeldung bei Adobe Experience Cloud {#sign-in-to-exc}
 
-Sie können nur Single Sign-On (SSO) verwenden, um eine Verbindung zu Campaign herzustellen. Normalerweise gewähren die Admins von Experience Cloud Zugriff auf Anwendungen und Dienste. Führen Sie die Schritte in der per E-Mail gesendeten Einladung zur Experience Cloud aus.
+Sie können nur Single Sign-on (SSO) verwenden, um eine Verbindung zu Campaign herzustellen. Normalerweise gewähren die Admins von Experience Cloud Zugriff auf Anwendungen und Dienste. Führen Sie die Schritte in der per E-Mail gesendeten Einladung zur Experience Cloud aus.
 
 Die Anmeldung bei Adobe Experience Cloud erfolgt anhand der folgenden einfachen Schritte:
 
@@ -42,7 +42,7 @@ Wenn Sie bereits mit einer anderen Adobe Experience Cloud-Lösung verbunden sind
 
 ![](assets/solution-switcher.png){zoomable=&quot;yes&quot;}
 
-Wenn Sie Zugriff auf mehrere Umgebungen haben, einschließlich des Control Panels für Campaign, klicken Sie auf den **Launch**-Button für die richtige Instanz.
+Wenn Sie Zugriff auf mehrere Umgebungen haben, einschließlich des Control Panels für Campaign, klicken Sie auf die Schaltfläche **Launch** für die richtige Instanz.
 
 ![](assets/launch-campaign.png){zoomable=&quot;yes&quot;}
 
@@ -52,7 +52,7 @@ Sie sind jetzt mit Campaign verbunden. Auf [dieser Seite](user-interface.md) erf
 
 Verwenden Sie die obere Leiste der Benutzeroberfläche, um folgende Aktionen durchzuführen:
 
-* Feedback zur Campaign-Webbenutzeroberfläche freigeben
+* Geben von Feedback zur Campaign Web-Benutzeroberfläche
 * Wechseln zwischen Ihren Organisationen
 * Wechseln zwischen Ihren Adobe Experience Cloud-Lösungen und -Apps
 * nach Hilfe zu [Adobe Experience League](https://experienceleague.adobe.com/docs/?lang=de){target="_blank"} suchen

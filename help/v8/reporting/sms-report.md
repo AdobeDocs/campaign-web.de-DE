@@ -4,7 +4,7 @@ title: SMS-Versandberichte
 description: Erfahren Sie, wie Sie auf SMS-Versandberichte zugreifen und diese verwenden können
 exl-id: 153d3a85-0d39-42db-9906-1e7f2d1d5bae
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '514'
 ht-degree: 100%
 
@@ -28,7 +28,7 @@ Die **Übersicht über den SMS-Versand** bietet einen umfassenden Überblick üb
 >title="SMS-Versand – Überblick"
 >abstract="Der **Überblick über den SMS-Versand** bietet einen umfassenden Überblick über Ihren SMS-Versand, mit umfangreichen Einblicken und spezifischen Daten. Er bietet umfassende Informationen über Performance, Effektivität und Ergebnisse jedes Versands."
 
-Die **[!UICONTROL Versandübersicht]** bietet wichtige Performance-Indikatoren (KPIs), die detaillierte Informationen über Erfolgs- und Fehlerraten enthalten und Auskunft darüber geben, wie Ihre Besucherinnen und Besucher mit Ihren SMS-Nachrichten interagieren.
+Die **[!UICONTROL Versandübersicht]** bietet wichtige Leistungsindikatoren (KPIs), die detaillierte Informationen über Erfolgs- und Fehlerraten enthalten und Auskunft darüber geben, wie Ihre Besucherinnen und Besucher mit Ihren SMS-Nachrichten interagieren.
 
 ![](assets/reporting_sms_3.png){zoomable=&quot;yes&quot;}
 

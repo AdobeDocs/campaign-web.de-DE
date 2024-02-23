@@ -4,9 +4,9 @@ title: Über die Versandvorschau und Tests
 description: Weitere Informationen dazu, wie Sendungen in der Vorschau angezeigt und getestet werden können
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
 source-git-commit: 8667de1d86428427edd9a2718218de9801b0922d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '198'
-ht-degree: 59%
+ht-degree: 100%
 
 ---
 
@@ -14,21 +14,21 @@ ht-degree: 59%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate"
->title="Vorschau erstellen und Inhalt testen"
->abstract="Nachdem Ihr Inhalt definiert wurde, können Sie Profile und Testprofile verwenden, um ihn in der Vorschau anzuzeigen und zu testen."
+>title="Anzeigen einer Vorschau und Testen Ihrer Inhalte"
+>abstract="Sobald Ihre Inhalte definiert worden sind, können Sie diese mithilfe von Profilen und Testprofilen in der Vorschau ansehen und testen."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/test-deliveries.html?lang=de" text="Durchführen von Testsendungen"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html#test-landing-page" text="Testen von Landingpages"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html?lang=de#test-landing-page" text="Testen von Landingpages"
 
-Nachdem der Versandinhalt definiert wurde, können Sie Profile und Testprofile verwenden, um eine Vorschau anzuzeigen und zu testen, bevor Sie die Nachricht senden. Dies ist ein wichtiger Schritt, um sicherzustellen, dass es korrekt, aber auch fehlerfrei ist, sowohl in den Inhalts- als auch in den Personalisierungseinstellungen.
+Sobald der Versandinhalt definiert worden ist, können Sie ihn vor dem Senden der Nachricht mithilfe von Profilen und Testprofilen in einer Vorschau anzeigen und testen. Dies ist ein entscheidender Schritt, um sicherzustellen, dass er präzise, aber auch frei von Fehlern ist, sowohl in den Inhalts- als auch in den Personalisierungseinstellungen.
 
 [!DNL Adobe Campaign Web user interface] ermöglicht Ihnen Folgendes:
 
 * [Anzeigen des Nachrichteninhalts und der Personalisierung in einer Vorschau](preview-content.md)
 * [Durchführen von Testsendungen](test-deliveries.md) (Testversand) an bestimmte Empfängerinnen und Empfänger bzw. Abonnentinnen und Abonnenten zu Test- und Validierungszwecken
 * [Überprüfen des E-Mail-Renderings](email-rendering.md) in beliebten Desktop-, Mobile- und Web-basierten Clients
-* [Landingpages in der Vorschau ansehen und testen](../landing-pages/create-lp.md#test-landing-page)
+* [Erstellen einer Vorschau und Testen Ihrer Landingpages](../landing-pages/create-lp.md#test-landing-page)
 
-Diese Aktionen können über die Schaltfläche **[!UICONTROL Inhalt simulieren]** ausgeführt werden, auf die über den Bildschirm „Inhalt bearbeiten“ des Testversands oder über den [E-Mail-Designer](../email/get-started-email-designer.md) zugegriffen werden kann.
+Diese Aktionen können über die Schaltfläche **[!UICONTROL Inhalt simulieren]** ausgeführt werden, auf die über den Bildschirm „Inhalt bearbeiten“ des Versands oder über den [E-Mail-Designer](../email/get-started-email-designer.md) zugegriffen werden kann.
 
 ![](assets/simulate-button.png){zoomable=&quot;yes&quot;}
 

@@ -1,12 +1,12 @@
 ---
 audience: end-user
-title: Eine erste E-Mail senden
-description: Erfahren Sie, wie Sie Ihre erste E-Mail mit der Campaign-Webbenutzeroberfläche senden.
+title: Senden Ihrer ersten E-Mail
+description: Erfahren Sie, wie Sie Ihre erste E-Mail mit der Campaign Web-Benutzeroberfläche senden.
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1403'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -101,7 +101,7 @@ Weitere Anweisungen zur Verwendung von Zielgruppen finden Sie in [diesem Abschni
    >
    >Die in der Liste verfügbaren Zielgruppen stammen entweder von Ihrer Campaign v8-Instanz oder von Adobe Experience Platform, wenn die Integration von Ziel/Quelle in Ihrer Instanz konfiguriert wurde. Diese Integration ermöglicht es Ihnen, Experience Platform-Segmente an Adobe Campaign zu senden und Versand- und -Trackinglogs von Campaign an Adobe Experience Platform zu senden. Erfahren Sie mehr über die Arbeit mit Campaign und Adobe Experience Platform in der [Dokumentation zu Campaign v8 (Client-Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html?lang=de){target="_blank"}.
 
-1. Nach Auswahl der Audience können Sie die Zielgruppe durch Anwendung zusätzlicher Regeln weiter verfeinern.
+1. Nach Auswahl der Zielgruppe können Sie die Zielgruppe durch Anwendung zusätzlicher Regeln weiter verfeinern.
 
    ![](assets/audience-selected.png){zoomable=&quot;yes&quot;}
 
@@ -141,11 +141,11 @@ Gehen Sie wie folgt vor, um mit der Erstellung Ihres E-Mail-Inhalts zu beginnen.
 
    ![](assets/save-content.png){zoomable=&quot;yes&quot;}
 
-## Terminieren des Versands {#schedule}
+## Planen des Versands {#schedule}
 
-Wenn ein Versand im Rahmen eines Workflows durchgeführt wird, müssen Sie die **Planung** -Aktivität. Weitere Informationen finden Sie auf [dieser Seite](../workflows/activities/scheduler.md). Die folgenden Schritte gelten nur für Einzelsendungen.
+Wenn ein Versand im Rahmen eines Workflows durchgeführt wird, müssen Sie die **Planungs**-Aktivität verwenden. Weitere Informationen finden Sie auf [dieser Seite](../workflows/activities/scheduler.md). Die folgenden Schritte gelten nur für eigenständige Sendungen.
 
-1. Navigieren Sie zum **[!UICONTROL Zeitplan]** in den Versandeigenschaften.
+1. Navigieren Sie in den Versandeigenschaften zum Abschnitt **[!UICONTROL Zeitplan]**.
 
 1. Betätigen Sie den Umschalter, um **[!UICONTROL Planung aktivieren]** zu aktivieren.
 

@@ -4,9 +4,9 @@ title: Verwenden der Workflow-Aktivität „Abstimmung“
 description: Erfahren Sie, wie Sie die Workflow-Aktivität „Abstimmung“ verwenden
 exl-id: 33f2aa76-1e75-4545-805a-016c95824e09
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '827'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -124,4 +124,4 @@ Er besteht aus den folgenden Aktivitäten:
 
 ## Kompatibilität {#reconciliation-compat}
 
-Die **Abstimmungsaktivität** ist nicht in der Client-Konsole vorhanden. Alle **Anreicherungen** Aktivitäten, die in der Clientkonsole mit aktivierten Abstimmungsoptionen erstellt wurden, werden als **Abstimmung** Aktivitäten in der Campaign-Webbenutzeroberfläche.
+Die **Abstimmungsaktivität** ist nicht in der Client-Konsole vorhanden. Alle **Anreicherungsaktivitäten**, die in der Client-Konsole mit aktivierten Abstimmungsoptionen erstellt wurden, werden als **Abstimmungsaktivitäten** in der Campaign Web-Benutzeroberfläche angezeigt.

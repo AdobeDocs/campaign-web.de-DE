@@ -4,7 +4,7 @@ title: Versandberichte
 description: Erfahren Sie, wie Sie auf Versandberichte zugreifen und diese verwenden können
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
 source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '268'
 ht-degree: 100%
 
@@ -37,7 +37,7 @@ Führen Sie folgende Schritte aus, um Berichte anzuzeigen und zu verwalten:
 
    ![](assets/manage_delivery_report_1.png){zoomable=&quot;yes&quot;}
 
-   Alternativ können Sie auch in der Versandliste auf die Schaltfläche mit den drei Punkten **Mehr Aktionen** neben dem Versandnamen klicken und **[!UICONTROL Bericht anzeigen]** auswählen.
+   Alternativ können Sie auch in der Sendungslisten auf die Schaltfläche mit den drei Punkten **Mehr Aktionen** neben dem Versandnamen klicken und **[!UICONTROL Bericht anzeigen]** auswählen.
 
    ![](assets/manage_delivery_report_2.png){zoomable=&quot;yes&quot;}
 

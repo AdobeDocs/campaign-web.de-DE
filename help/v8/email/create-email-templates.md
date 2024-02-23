@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 23818080-d7c6-4829-8117-d6b359bd76dd
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '964'
-ht-degree: 50%
+ht-degree: 100%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 50%
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_menu"
 >title="Inhaltsvorlagen "
->abstract="Für einen beschleunigten und verbesserten Designprozess können Sie eigenständige E-Mail-Vorlagen erstellen, um benutzerdefinierte Inhalte in Adobe Campaign einfach wiederzuverwenden. Diese Inhaltsvorlagen können von Grund auf neu erstellt werden, basierend auf integrierten oder benutzerdefinierten Vorlagen, die aus einem vorhandenen Inhalt erstellt oder in den Inhaltsvorlagen-Editor importiert werden."
+>abstract="Um den Design-Prozess zu beschleunigen und zu verbessern, können Sie eigenständige E-Mail-Vorlagen erstellen, um benutzerdefinierte Inhalte in Adobe Campaign einfach wiederzuverwenden. Diese Inhaltsvorlagen können von Grund auf neu erstellt werden, basierend auf integrierten oder benutzerdefinierten Vorlagen, die aus einem vorhandenen Inhalt erstellt oder in den Inhaltsvorlagen-Editor importiert werden."
 
-Für einen beschleunigten und verbesserten Design-Prozess können Sie eigenständige Vorlagen erstellen, um benutzerdefinierte Inhalte einfach in allen [!DNL Adobe Campaign]. Diese Inhaltsvorlagen können von Grund auf neu erstellt werden, basierend auf integrierten oder benutzerdefinierten Vorlagen, die aus einem vorhandenen Inhalt erstellt oder in den Inhaltsvorlagen-Editor importiert werden.
+Um den Design-Prozess zu beschleunigen und zu verbessern, können Sie eigenständige Vorlagen erstellen, um benutzerdefinierte Inhalte in [!DNL Adobe Campaign] einfach wiederzuverwenden. Diese Inhaltsvorlagen können von Grund auf neu erstellt werden, basierend auf integrierten oder benutzerdefinierten Vorlagen, die aus einem vorhandenen Inhalt erstellt oder in den Inhaltsvorlagen-Editor importiert werden.
 
 Diese Funktion ermöglicht es inhaltsorientierten Benutzenden, an eigenständigen Vorlagen zu arbeiten, sodass Marketing-Benutzende diese in ihren E-Mail-Kampagnen wiederverwenden und anpassen können.
 
@@ -30,14 +30,14 @@ Diese Funktion ermöglicht es inhaltsorientierten Benutzenden, an eigenständige
 >
 >Derzeit werden nur **E-Mail**-Inhaltsvorlagen unterstützt.
 
-## Inhaltsvorlagen aufrufen {#access-templates}
+## Zugreifen auf Inhaltsvorlagen {#access-templates}
 
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_edition"
 >title="Bearbeiten des Vorlageninhalts"
 >abstract="Klicken Sie auf die Schaltfläche **Inhalt bearbeiten**, um Ihre Inhalte mit dem E-Mail-Designer zu aktualisieren."
 
-Um auf die Liste der Inhaltsvorlagen zuzugreifen, navigieren Sie zum **[!UICONTROL Content Management]** > **[!UICONTROL Inhaltsvorlagen]** in der linken Leiste.
+Um auf die Liste der Inhaltsvorlagen zuzugreifen, navigieren Sie über die linke Leiste zum Menü **[!UICONTROL Content-Management]** > **[!UICONTROL Inhaltsvorlagen]**.
 
 ![](assets/content-template-list.png){zoomable=&quot;yes&quot;}
 
@@ -60,9 +60,9 @@ In der Liste können Sie vorhandene Inhaltsvorlagen bearbeiten, duplizieren oder
 >title="Inhaltsvorlage – Auswahl"
 >abstract="Inhaltsvorlage – Auswahl"
 
-Inhaltsvorlagen können von [Speichern einer vorhandenen E-Mail als Vorlage](#save-as-template)oder aus der Liste der E-Mail-Vorlagen über die **Inhaltsvorlage erstellen** Schaltfläche, [wie unten beschrieben](#create-template-from-scratch).
+Inhaltsvorlagen können durch das [Speichern einer vorhandenen E-Mail als Vorlage](#save-as-template) oder aus der Liste der E-Mail-Vorlagen über die Schaltfläche **Inhaltsvorlage erstellen** erstellt werden, [wie unten dargestellt](#create-template-from-scratch).
 
-Nach dem Speichern können Sie diese Vorlage jetzt beim Erstellen von [email](../email/create-email.md) Innerhalb [!DNL Adobe Campaign]. [Weitere Informationen dazu](use-email-templates.md)
+Nachdem Sie diese Vorlage gespeichert haben, können Sie sie beim Erstellen eine [E-Mail](../email/create-email.md) in [!DNL Adobe Campaign] verwenden. [Weitere Informationen dazu](use-email-templates.md)
 
 >[!NOTE]
 >
@@ -70,28 +70,28 @@ Nach dem Speichern können Sie diese Vorlage jetzt beim Erstellen von [email](..
 >
 >* Wenn Vorlagen in einer E-Mail verwendet werden, wirken sich Änderungen an Ihrem E-Mail-Inhalt nicht auf die zuvor verwendete Inhaltsvorlage aus.
 
-### Neue Inhaltsvorlage erstellen {#create-template-from-scratch}
+### Erstellen einer neuen Inhaltsvorlage {#create-template-from-scratch}
 
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_properties"
 >title="Definieren von Eigenschaften für Vorlagen"
->abstract="Definieren Sie bei Bedarf die Eigenschaften Ihrer E-Mail-Inhaltsvorlage, die abgerufen werden sollen."
+>abstract="Definieren Sie die Eigenschaften Ihrer E-Mail-Inhaltsvorlage, um sie bei Bedarf ganz einfach abrufen zu können."
 
 Gehen Sie wie folgt vor, um im Dashboard für Inhaltsvorlagen eine neue Inhaltsvorlage zu erstellen:
 
-1. Navigieren Sie zur Liste der Inhaltsvorlagen aus dem **[!UICONTROL Content Management]** > **[!UICONTROL Inhaltsvorlagen]** linke Leiste.
+1. Navigieren Sie über die linke Leiste **[!UICONTROL Content-Management]** > **[!UICONTROL Inhaltsvorlagen]** zu der Liste mit den Inhaltsvorlagen.
 
 1. Wählen Sie **[!UICONTROL Vorlage erstellen]** aus.
 
    ![](assets/content-template-create.png){zoomable=&quot;yes&quot;}
 
-1. Geben Sie den Titel und die Eigenschaften der Vorlage ein. Sie können den Ordner auswählen, in dem Sie Ihre Vorlage speichern möchten. Standardmäßig werden Inhaltsvorlagen in einem dedizierten Ordner der Adobe Campaign-Hierarchie gespeichert: **[!UICONTROL Explorer]** > **[!UICONTROL Ressourcen]** > **[!UICONTROL Vorlagen]** > **[!UICONTROL Inhaltsvorlagen]**. Weitere Informationen zu Ordnern in [diese Seite](../get-started/permissions.md#folders)
+1. Geben Sie den Titel und die Eigenschaften der Vorlage ein. Sie können den Ordner auswählen, in dem Sie Ihre Vorlage speichern möchten. Standardmäßig werden Inhaltsvorlagen in einem dedizierten Ordner der Adobe Campaign-Hierarchie gespeichert: **[!UICONTROL Explorer]** > **[!UICONTROL Ressourcen]** > **[!UICONTROL Vorlagen]** > **[!UICONTROL Inhaltsvorlagen]**. Weitere Informationen über Ordner finden Sie auf [dieser Seite](../get-started/permissions.md#folders).
 
    ![](assets/content-template-details.png){zoomable=&quot;yes&quot;}
 
 1. Klicken Sie auf **[!UICONTROL Erstellen]** und wählen Sie aus den verschiedenen Optionen aus, wie Sie Ihre Vorlage entwerfen möchten:
 
-   * [Neuen Inhalt gestalten](create-email-content.md) über die Benutzeroberfläche von Email Designer.
+   * [E-Mail von Grund auf neu erstellen](create-email-content.md) über die Benutzeroberfläche des E-Mail-Designers.
 
    * [Rohes HTML kodieren oder einfügen](code-content.md) direkt im E-Mail-Designer.
 
@@ -101,7 +101,7 @@ Gehen Sie wie folgt vor, um im Dashboard für Inhaltsvorlagen eine neue Inhaltsv
 
    ![](assets/email_designer-templates.png){zoomable=&quot;yes&quot;}
 
-1. Email Designer wird angezeigt. Bearbeiten Sie den Inhalt nach Bedarf auf die gleiche Weise wie für jede E-Mail, je nach ausgewählter Option. Erfahren Sie, wie Sie Email Designer in [diesem Abschnitt](get-started-email-designer.md).
+1. Der E-Mail-Designer wird angezeigt. Bearbeiten Sie Ihren Inhalt nach Bedarf, so wie Sie es bei jeder anderen E-Mail auch tun würden, je nach der von Ihnen gewählten Option. Mehr über die Arbeit mit dem E-Mail-Designer erfahren Sie in [diesem Abschnitt](get-started-email-designer.md).
 
    <!--You can test your content if needed. [Learn how](#test-template)-->
 
@@ -111,7 +111,7 @@ Gehen Sie wie folgt vor, um im Dashboard für Inhaltsvorlagen eine neue Inhaltsv
 
    ![](assets/content-template-save-back.png){zoomable=&quot;yes&quot;}
 
-Die Vorlage ist im **[!UICONTROL Inhaltsvorlagen]** Liste. [Weitere Informationen](#access-templates)
+Die Vorlage ist in der Liste **[!UICONTROL Inhaltsvorlagen]** verfügbar. [Weitere Informationen](#access-templates)
 
 Anhand dieser Vorlage können Sie nun einen neuen Inhalt erstellen: Sie finden ihn in der Registerkarte **[!UICONTROL Gespeicherte Vorlagen]** des E-Mail-Designers. [Weitere Informationen dazu](use-email-templates.md)
 
@@ -131,7 +131,7 @@ Gehen Sie wie folgt vor, um E-Mail-Inhalte als Vorlage zu speichern:
 
    ![](assets/email_designer-template-name.png){zoomable=&quot;yes&quot;}
 
-Die Vorlage wird gespeichert und im **[!UICONTROL Inhaltsvorlagen]** Liste. Sie wird zu einer eigenständigen Inhaltsvorlage, die Sie wie jedes andere Element in der Liste öffnen, bearbeiten und löschen können. [Weitere Informationen](#access-manage-templates)
+Die Vorlage wird gespeichert und in der Liste **[!UICONTROL Inhaltsvorlagen]** angezeigt. Sie wird zu einer eigenständigen Inhaltsvorlage, die Sie wie jedes andere Element in der Liste öffnen, bearbeiten und löschen können. [Weitere Informationen](#access-manage-templates)
 
 Anhand dieser Vorlage können Sie nun einen neuen Inhalt erstellen: Sie finden ihn in der Registerkarte **[!UICONTROL Gespeicherte Vorlagen]** des E-Mail-Designers. [Weitere Informationen dazu](use-email-templates.md)
 
@@ -159,7 +159,7 @@ You can test the rendering of any email content template, whether created from s
 -->
 
 
-## Inhaltsvorlage ändern {#modify-delete}
+## Ändern einer Inhaltsvorlage {#modify-delete}
 
 Gehen Sie wie folgt vor, um eine vorhandene Inhaltsvorlage zu aktualisieren:
 
@@ -171,31 +171,31 @@ Gehen Sie wie folgt vor, um eine vorhandene Inhaltsvorlage zu aktualisieren:
 
 >[!NOTE]
 >
->Änderungen an Inhaltsvorlagen werden nicht mithilfe dieser Inhaltsvorlage an E-Mails weitergeleitet.
+>Änderungen an Inhaltsvorlagen werden bei Verwendung dieser Inhaltsvorlage nicht in E-Mails übernommen.
 
-## Inhaltsvorlage löschen {#content-delete}
+## Löschen einer Inhaltsvorlage {#content-delete}
 
 Sie haben zwei Möglichkeiten, eine Inhaltsvorlage zu löschen:
 
-* Klicken Sie in der Liste der Inhaltsvorlagen auf die Suchschaltfläche und wählen Sie **Löschen**
+* Klicken Sie in der Liste der Inhaltsvorlagen auf die Schaltfläche mit den Auslassungspunkten und wählen Sie **Löschen** aus.
 
-  ![Inhaltsvorlage aus dem Dashboard löschen](assets/content-template-list-delete.png)
+  ![Löschen einer Inhaltsvorlage aus dem Dashboard](assets/content-template-list-delete.png)
 
-* Klicken Sie in der Inhaltsvorlage selbst auf die **Mehr** Schaltfläche und wählen Sie **Löschen**
+* Klicken Sie in der Inhaltsvorlage selbst auf die Schaltfläche **Mehr** und wählen Sie dann **Löschen** aus.
 
 
 >[!NOTE]
 >
->Das Löschen einer Inhaltsvorlage hat keine Auswirkungen auf Sendungen, die mit dieser Vorlage erstellt wurden.
+>Das Löschen einer Inhaltsvorlage hat keine Auswirkungen auf Sendungen, die bereits mit dieser Vorlage erstellt wurden.
 
 
-## Inhaltsvorlage duplizieren {#content-duplicate}
+## Duplizieren einer Inhaltsvorlage {#content-duplicate}
 
 Sie haben zwei Möglichkeiten, eine Inhaltsvorlage zu duplizieren:
 
-* Klicken Sie in der Liste der Inhaltsvorlagen auf die Suchschaltfläche und wählen Sie **Duplizieren**
+* Klicken Sie in der Liste der Inhaltsvorlagen auf die Schaltfläche mit den Auslassungspunkten und wählen Sie **Duplizieren** aus.
 
-* Klicken Sie in der Inhaltsvorlage selbst auf die **Mehr** Schaltfläche und wählen Sie **Duplizieren**
+* Klicken Sie in der Inhaltsvorlage selbst auf die Schaltfläche **Mehr** und wählen Sie dann **Duplizieren** aus.
 
-Bestätigen Sie in beiden Fällen die Duplizierung, um die neue Inhaltsvorlage zu erstellen. Der Titel der neuen Inhaltsvorlage lautet **Kopie von`<label of the initial campaign`**. Navigieren Sie zu den Vorlageneinstellungen , um diesen Titel zu aktualisieren.
+Bestätigen Sie in beiden Fällen die Duplizierung, um die neue Inhaltsvorlage zu erstellen. Der Titel der neuen Inhaltsvorlage lautet **Kopie von`<label of the initial campaign`**. Gehen Sie zu den Vorlageneinstellungen, um diesen Titel zu aktualisieren.
 

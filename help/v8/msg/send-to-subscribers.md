@@ -4,7 +4,7 @@ title: Senden von Nachrichten an Abonnentinnen und Abonnenten eines Dienstes
 description: Hier erfahren Sie, wie Sie Nachrichten an die Abonnentinnen und Abonnenten eines Dienstes senden.
 exl-id: f6e14db5-261c-4fa6-bd19-fd8bdc04aaf1
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '239'
 ht-degree: 100%
 
@@ -43,4 +43,4 @@ Um Nachrichten an Ihre Abonnentinnen und Abonnenten zu senden, erstellen Sie ein
 
    ![](assets/service-delivery-ready.png){zoomable=&quot;yes&quot;}
 
-Ihre Versand wird nur den Abonnentinnen und Abonnenten dieses Dienstes zugestellt.
+Ihr Versand wird nur den Abonnentinnen und Abonnenten dieses Dienstes zugestellt.

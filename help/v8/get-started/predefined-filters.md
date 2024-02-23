@@ -3,9 +3,9 @@ title: Arbeiten mit vordefinierten Filtern
 description: Erfahren Sie, wie Sie in Adobe Campaign Web vordefinierte Filter erstellen und verwalten
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
 source-git-commit: 97b6de0763dbeb133d7d0346e6af4d056cc731e3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '816'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -14,14 +14,14 @@ ht-degree: 78%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_card4"
 >title="Verwaltung von vordefinierten Filtern"
->abstract="Die Campaign-Web-Benutzeroberfläche bietet eine benutzerfreundliche Oberfläche, mit der vordefinierte Filter einfach verwaltet und an Ihre spezifischen Anforderungen angepasst werden können. Filter einmal erstellen und für zukünftige Verwendungen speichern."
+>abstract="Die Campaign Web-Benutzeroberfläche bietet eine benutzerfreundliche Oberfläche, mit der vordefinierte Filter einfach verwaltet und an Ihre individuellen Anforderungen angepasst werden können. Erstellen Sie Filter einmal und speichern Sie sie zur zukünftigen Verwendung."
 
 
 <!--TO REMOVE BELOW-->
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card4"
 >title="Verwaltung von vordefinierten Filtern"
->abstract="Campaign Web bietet jetzt eine benutzerfreundliche Oberfläche, mit der man vordefinierte Filter mühelos verwalten und an Ihre spezifischen Anforderungen anpassen kann. Filter einmal erstellen und für zukünftige Verwendungen speichern."
+>abstract="Campaign Web bietet jetzt eine benutzerfreundliche Oberfläche, mit der man vordefinierte Filter mühelos verwalten und an Ihre spezifischen Anforderungen anpassen kann. Erstellen Sie Filter einmal und speichern Sie sie zur zukünftigen Verwendung."
 
 <!--TO REMOVE ABOVE-->
 
@@ -29,7 +29,7 @@ ht-degree: 78%
 >[!CONTEXTUALHELP]
 >id="acw_predefined-filters-dashboard"
 >title="Vordefinierte Filter"
->abstract="Die Campaign-Webbenutzeroberfläche bietet eine benutzerfreundliche Oberfläche, mit der Sie vordefinierte Filter mühelos verwalten und an Ihre spezifischen Anforderungen anpassen können. Filter einmal erstellen und für zukünftige Verwendungen speichern."
+>abstract="Die Campaign Web-Benutzeroberfläche bietet eine benutzerfreundliche Oberfläche, mit der vordefinierte Filter einfach verwaltet und an Ihre individuellen Anforderungen angepasst werden können. Erstellen Sie Filter einmal und speichern Sie sie zur zukünftigen Verwendung."
 
 Vordefinierte Filter sind benutzerdefinierte Filter, die für zukünftige Verwendungen erstellt und gespeichert werden. Sie können als Verknüpfungen bei allen Filtervorgängen mit dem Abfrage-Modeller verwendet werden, zum Beispiel beim Filtern einer Liste von Daten oder beim Erstellen der Zielgruppe eines Versands.
 
@@ -104,17 +104,17 @@ Wenn ein Filter als Favorit gespeichert wird, steht er allen Benutzenden im Absc
 
 Vordefinierte Filter sind beim Definieren von Regeleigenschaften verfügbar. Um auf vordefinierte Filter zuzugreifen, wählen Sie die Option **Benutzerdefinierten Filter auswählen** in der Dropdown-Liste des Abfrage-Modelers.
 
-Sie können dann auf die vollständige Liste vordefinierter Filter zugreifen, die für den aktuellen Kontext verfügbar sind, und die im Abschnitt verfügbaren Verknüpfungen verwenden. **Favoritenfilter** des Dropdown-Menüs aus. Weitere Informationen zu Favoriten finden Sie in [diesem Abschnitt](#fav-filter).
+Sie können dann auf die vollständige Liste vordefinierter Filter zugreifen, die für den aktuellen Kontext verfügbar sind, und die Verknüpfungen verwenden, die im Abschnitt **Favoritenfilter** des Dropdown-Menüs verfügbar sind. Weitere Informationen zu Favoriten finden Sie in [diesem Abschnitt](#fav-filter).
 
 Gehen Sie wie folgt vor, um beispielsweise eine Zielgruppe aus einem vordefinierten Filter zu erstellen:
 
-1. Navigieren Sie zum **Zielgruppen** im linken Menü ein und klicken Sie auf die Schaltfläche **Zielgruppe erstellen** in der oberen linken Ecke der Zielgruppenliste.
+1. Durchsuchen Sie den Eintrag **Zielgruppen** im linken Menü und klicken Sie auf die Schaltfläche **Zielgruppe erstellen** in der oberen linken Ecke der Zielgruppenliste.
 1. Geben Sie den Namen der Zielgruppe ein und klicken Sie auf die Schaltfläche **Zielgruppe erstellen**.
-1. Wählen Sie die **Abfrage** und klicken Sie im rechten Bereich auf das **Erstellen einer Zielgruppe** Schaltfläche.
+1. Wählen Sie die Aktivität **Abfrage** aus und klicken Sie im rechten Fenster auf die Schaltfläche **Zielgruppe erstellen**.
 
    ![](assets/build-audience-from-filter.png){zoomable=&quot;yes&quot;}
 
-1. Aus dem **Filter auswählen oder speichern** -Schaltfläche, wählen Sie die **Benutzerspezifischen Filter auswählen** -Option.
+1. Wählen Sie über die Schaltfläche zum **Auswählen oder Speichern von Filtern** die Option **Benutzerdefinierten Filter auswählen** aus.
 
    ![](assets/build-audience-select-custom-filter.png){zoomable=&quot;yes&quot;}
 
@@ -132,17 +132,17 @@ Gehen Sie wie folgt vor, um beispielsweise eine Zielgruppe aus einem vordefinier
 
 ## Verwalten Ihrer vordefinierten Filter {#manage-predefined-filter}
 
-Alle vordefinierten Filter werden im entsprechenden Eintrag des linken Navigationsmenüs gruppiert.
+Alle vordefinierten Filter werden im dedizierten Eintrag des linken Navigationsmenüs gruppiert.
 
 ![](assets/list-of-filters.png){zoomable=&quot;yes&quot;}
 
-Aus dieser Liste können Sie wie oben beschrieben einen neuen Filter erstellen und die unten aufgeführten Aktionen ausführen:
+Von dieser Liste ausgehend können Sie einen neuen Filter erstellen, wie oben beschrieben, und die unten aufgeführten Aktionen durchführen:
 
-* Bearbeiten Sie einen vorhandenen Filter und ändern Sie ihn anhand von Regeln und Eigenschaften.
-* Duplizieren Sie einen vordefinierten Filter.
-* Löschen Sie einen vordefinierten Filter.
+* einen vorhandenen Filter bearbeiten und seine Regeln und Eigenschaften ändern
+* einen vordefinierten Filter duplizieren
+* einen vordefinierten Filter löschen
 
-Sie können beim Erstellen Ihrer Zielgruppen auch einen vordefinierten Filter als Favoriten für einen schnellen Zugriff hinzufügen. Weiterführende Informationen finden Sie in [diesem Abschnitt](#fav-filter).
+Sie können beim Erstellen Ihrer Zielgruppen auch einen vordefinierten Filter als Favoriten hinzufügen, um schnell darauf zugreifen zu können. Weiterführende Informationen finden Sie in [diesem Abschnitt](#fav-filter).
 
 <!--
 ## Built-in predefined filters {#ootb-predefined-filter}

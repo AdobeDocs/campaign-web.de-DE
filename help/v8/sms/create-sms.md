@@ -4,9 +4,9 @@ title: Erstellen eines SMS-Versands
 description: Erfahren Sie, wie Sie SMS mit Adobe Campaign Web erstellen und senden
 exl-id: 54181498-8164-4600-8b3f-20892b77d5d7
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '506'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -73,7 +73,7 @@ Gehen Sie wie folgt vor, um einen eigenständigen SMS-Versand zu erstellen:
 
    >[!NOTE]
    >
-   >Wenn ein Versand im Rahmen eines Workflows durchgeführt wird, müssen Sie die **Planung** -Aktivität. Weitere Informationen finden Sie auf [dieser Seite](../workflows/activities/scheduler.md).
+   >Wenn ein Versand im Rahmen eines Workflows durchgeführt wird, müssen Sie die Aktivität **Planung** verwenden. Weitere Informationen finden Sie auf [dieser Seite](../workflows/activities/scheduler.md).
 
 1. Klicken Sie auf **[!UICONTROL Einstellungen]**, um auf die erweiterten Optionen für Ihre Versandvorlage zuzugreifen. [Weitere Informationen](../advanced-settings/delivery-settings.md)
 

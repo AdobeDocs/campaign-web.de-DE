@@ -1,12 +1,12 @@
 ---
 audience: end-user
 title: Anzeigen des Versandinhalts in einer Vorschau
-description: Erfahren Sie, wie Sie mit der Campaign-Web-Benutzeroberfläche eine Vorschau Ihres Versandinhalts anzeigen können.
+description: Erfahren Sie, wie Sie mit der Campaign Web-Benutzeroberfläche den Versandinhalt in einer Vorschau anzeigen können.
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
 source-git-commit: 8667de1d86428427edd9a2718218de9801b0922d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '359'
-ht-degree: 67%
+ht-degree: 100%
 
 ---
 
@@ -23,17 +23,17 @@ Gehen Sie wie folgt vor, um den Versandinhalt in einer Vorschau anzuzeigen.
 
    ![](assets/simulate-button.png){zoomable=&quot;yes&quot;}
 
-1. Wählen Sie die Profile aus, die für die Vorschau des Inhalts verwendet werden sollen. Klicken Sie dazu auf die Schaltfläche **[!UICONTROL Hinzufügen von Testprofilen]** (für E-Mail und SMS) oder die **[!UICONTROL Abonnenten hinzufügen]** Schaltfläche (für Push-Benachrichtigungen).
+1. Wählen Sie die Profile aus, die für die Vorschau des Inhalts verwendet werden sollen. Klicken Sie dazu auf die Schaltfläche **[!UICONTROL Hinzufügen von Testprofilen]** (für E-Mail und SMS) oder auf die Schaltfläche **[!UICONTROL Abonnenten hinzufügen]** (für Push-Benachrichtigungen).
 
-1. Sie können Profile und Testprofile kombinieren, um eine Vorschau Ihrer E-Mail- oder SMS-Nachricht anzuzeigen.
+1. Sie können Profile und Testprofile miteinander kombinieren, um Ihre E-Mail- oder SMS-Nachricht in einer Vorschau anzuzeigen.
 
-   * Die **[!UICONTROL Testprofile]** -Tab listet alle Testprofile auf, bei denen es sich um zusätzliche fiktive Empfänger in der Datenbank handelt. [Erfahren Sie, wie Sie mit Testprofilen arbeiten](../audience/test-profiles.md)
+   * Die Registerkarte **[!UICONTROL Testprofile]** enthält Testprofile für zusätzliche, fiktive Empfängerinnen und Empfänger in der Datenbank. [Erfahren Sie, wie Sie mit Testprofilen arbeiten](../audience/test-profiles.md)
 
-   * Die **[!UICONTROL Profile]** enthält alle in Ihrer Datenbank gespeicherten Profile. [Erfahren Sie, wie Sie mit Profilen arbeiten](../audience/about-recipients.md)
+   * Die Registerkarte **[!UICONTROL Profile]** enthält alle in Ihrer Datenbank gespeicherten Profile. [Erfahren Sie, wie Sie mit Profilen arbeiten](../audience/about-recipients.md)
 
    ![](assets/simulate-select-profiles.png){zoomable=&quot;yes&quot;}
 
-1. Beim Durchsuchen der Testprofil- oder Profillisten können Sie Filter verwenden, um Ihre Suche zu verfeinern. Sie können beispielsweise eine Regel definieren, um nach allen Testprofilen mit dem Status **[!UICONTROL Interessent]** zu suchen. [Erfahren Sie, wie Sie mithilfe des Abfragemodells Regeln hinzufügen](../query/query-modeler-overview.md).
+1. Beim Durchsuchen der Testprofile oder Profillisten können Sie Filter verwenden, um Ihre Suche zu verfeinern. Sie können beispielsweise eine Regel definieren, um nach allen Testprofilen mit dem Status **[!UICONTROL Interessent]** zu suchen. [Erfahren Sie, wie Sie Regeln mithilfe des Abfrage-Modelers hinzufügen](../query/query-modeler-overview.md).
 
    ![](assets/simulate-test-profile-filter.png){zoomable=&quot;yes&quot;}
 

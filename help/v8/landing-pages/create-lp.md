@@ -3,9 +3,9 @@ title: Erstellen einer Landingpage
 description: Hier erfahren Sie, wie Sie in Campaign Web eine Landingpage konfigurieren und veröffentlichen können.
 feature: Landing Pages
 source-git-commit: 26c41105a4c04b72e0aedf05a4b3268b0e475d40
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1340'
-ht-degree: 42%
+ht-degree: 100%
 
 ---
 
@@ -14,11 +14,11 @@ ht-degree: 42%
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_menu"
 >title="Erstellen und Verwalten von Landingpages"
->abstract="Mit Adobe Campaign können Sie Landingpages erstellen, entwerfen und freigeben, um Ihre Benutzer auf Online-Webseiten weiterzuleiten, auf denen Sie anhand integrierter Vorlagen Nutzungsszenarios für Akquise, Abonnement/Abmeldung und Blockierungsliste verwalten können."
+>abstract="Mit Adobe Campaign können Sie sofort Landingpages erstellen, entwerfen und teilen, um Benutzende auf Online-Web-Seiten weiterzuleiten, auf denen Sie anhand integrierter Vorlagen die Anwendungsfälle für Akquise, Abonnement/Abmeldung und Blockierungslisten verwalten können."
 
-Über die Campaign-Webbenutzeroberfläche können Sie Landingpages erstellen, entwerfen und veröffentlichen. Nach der Veröffentlichung können Sie einen Link zu Ihrem Formular in einen Versand einfügen. Nachdem die Empfänger auf diesen Link geklickt haben, werden sie zur entsprechenden Landingpage weitergeleitet.
+Über die Campaign Web-Benutzeroberfläche können Sie Landingpages erstellen, entwerfen und veröffentlichen. Nach der Veröffentlichung können Sie einen Link zu Ihrem Formular in einem Versand einfügen. Nachdem die Empfängerinnen und Empfänger auf diesen Link geklickt haben, werden sie zur entsprechenden Landingpage weitergeleitet.
 
-[!DNL Adobe Campaign] enthält vier Vorlagen zur Verwaltung der folgenden Anwendungsfälle: **Akquise**, **Abonnement**, **Abmeldung**, und **Blockierungsliste**.
+[!DNL Adobe Campaign] enthält vier Vorlagen für die folgenden Anwendungsfälle: **Akquise**, **Abonnement**, **Abmeldung** und **Blockierungsliste**.
 
 ## Zugreifen auf Landingpages {#access-landing-pages}
 
@@ -34,11 +34,11 @@ Das Inventar der **[!UICONTROL Landingpages]** zeigt alle erstellten Elemente an
 
 >[!CAUTION]
 >
->Landingpages, die über die Clientkonsole (Webformulare) in der Campaign-Webbenutzeroberfläche erstellt wurden, können nicht angezeigt oder bearbeitet werden. Weitere Informationen finden Sie in der [Dokumentation zur Campaign-Konsole](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html?lang=de){target="_blank"}.
+>Landingpages, die über die Client-Konsole (Web-Formulare) erstellt wurden, können nicht in der Campaign Web-Benutzeroberfläche angezeigt oder bearbeitet werden. Weitere Informationen finden Sie in der [Dokumentation zur Campaign-Konsole](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html?lang=de){target="_blank"}.
 
 <!--If you unpublish a landing page which is referenced in a message, the link to the landing page will be broken and an error page will be displayed. You cannot delete a published landing page. To delete it, you must first unpublish it.-->
 
-Sie können eine Landingpage duplizieren oder löschen. Klicken Sie auf das Auslassungszeichen neben einer Landingpage, um die gewünschte Aktion auszuwählen.
+Sie können eine Landingpage duplizieren oder löschen. Klicken Sie auf die Auslassungspunkte neben einer Landingpage, um die gewünschte Aktion auszuwählen.
 
 ## Erstellen einer Landingpage {#create-landing-page}
 
@@ -49,13 +49,13 @@ Sie können eine Landingpage duplizieren oder löschen. Klicken Sie auf das Ausl
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_pages_list"
->title="Inhalt der einzelnen Seiten definieren"
->abstract="Passen Sie den Inhalt jeder Seite an, die Teil dieser Landingpage ist, z. B. das Formular selbst, die Bestätigungsseite, die beim Senden des Formulars angezeigt wird, oder die Seite, auf die Benutzer im Falle eines Fehlers weitergeleitet werden."
+>title="Definieren des Inhalts jeder Seite"
+>abstract="Passen Sie den Inhalt jeder Seite an, die Teil dieser Landingpage ist, z. B. das Formular selbst, die Bestätigungsseite, die beim Senden des Formulars angezeigt wird, oder die Seite, auf die Benutzende bei einem Fehler weitergeleitet werden."
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_schedule"
 >title="Zeitliches Planen der Landingpage"
->abstract="Sie können ein Start- und ein Enddatum für Ihre Landingpage definieren. Wenn die Seite das Ende des Gültigkeitszeitraums erreicht, ist das Formular nicht mehr verfügbar. Die **Ablauf** -Seite angezeigt."
+>abstract="Sie können ein Start- und ein Enddatum für Ihre Landingpage definieren. Wenn die Seite das Ende des Gültigkeitszeitraums erreicht, ist das Formular nicht mehr verfügbar. Stattdessen wird die Seite **Ablauf** angezeigt."
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_primarypage"
@@ -79,19 +79,19 @@ Gehen Sie wie folgt vor, um eine Landingpage zu erstellen:
 
 1. Wählen Sie eine Vorlage aus:
    * **[!UICONTROL Akquise]**: Dies ist die Standardvorlage für Landingpages, mit der Sie Profildaten erfassen und aktualisieren können.
-   * **[!UICONTROL Abonnement]**: Verwenden Sie diese Vorlage, damit Benutzer sich für eine bestimmte [service](../audience/manage-services.md).
-   * **[!UICONTROL Abmeldung]**: Diese Vorlage kann in einem Versand verwendet werden, der an Abonnenten eines Dienstes gesendet wird, damit sie sich von dieser Abmeldung abmelden können. [service](../audience/manage-services.md).
+   * **[!UICONTROL Anmeldung]**: Verwenden Sie diese Vorlage, damit sich Benutzende für einen bestimmten [Dienst](../audience/manage-services.md) anmelden können.
+   * **[!UICONTROL Abmeldung]**: Diese Vorlage kann in einem Versand an Abonnentinnen und Abonnenten eines Dienstes verwendet werden, sodass sie sich von diesem [Dienst](../audience/manage-services.md) abmelden können.
    * **[!UICONTROL Blockierungsliste]**: Diese Vorlage sollte verwendet werden, wenn ein Profil in einem Versand auf einen Abmelde-Link klickt und nicht mehr kontaktiert werden möchte.
 
    ![](assets/lp-templates.png){zoomable=&quot;yes&quot;}
 
    >[!NOTE]
    >
-   >Erfahren Sie, wie Sie die verschiedenen Anwendungsfälle für jede Vorlage implementieren können in [diese Seite](lp-use-cases.md).
+   >Auf [dieser Seite](lp-use-cases.md) erfahren Sie, wie Sie die verschiedenen Anwendungsfälle für die jeweiligen Vorlagen implementieren können.
 
 1. Klicken Sie auf **[!UICONTROL Erstellen]**.
 
-1. Füllen Sie die **[!UICONTROL Eigenschaften]** -Felder, z. B. die Beschriftung.
+1. Füllen Sie die Felder **[!UICONTROL Eigenschaften]** aus, z. B. „Titel“. 
 
    Standardmäßig werden Landingpages im Ordner **[!UICONTROL Web-Anwendungen]** gespeichert. Sie können dies ändern, indem Sie unter **[!UICONTROL Zusätzliche Optionen]** zum gewünschten Speicherort wechseln. [Erfahren Sie mehr über die Arbeit mit Ordnern](../get-started/permissions.md#folders)
 
@@ -99,21 +99,21 @@ Gehen Sie wie folgt vor, um eine Landingpage zu erstellen:
 
 1. Im Abschnitt **[!UICONTROL Datenvorbereitung]** sind die beiden folgenden Optionen standardmäßig ausgewählt:
 
-   * Wenn die Variable **[!UICONTROL Vorausfüllen mit den im Formular referenzierten Daten]** aktiviert ist, werden die Profilinformationen automatisch im Formular vorausgefüllt, wenn der Besucher der Landingpage mit einem Profil aus der Datenbank übereinstimmt. Der Benutzer muss nur die fehlenden Felder ausfüllen und bei Bedarf die vorhandenen Werte aktualisieren. Auf diese Weise können Daten für vorhandene Profile zusammengeführt werden, anstatt Duplikate zu erstellen.
+   * Bei aktivierter Option **[!UICONTROL Mit den Daten vorausfüllen, die im Formular referenziert werden]** werden die Profilinformationen automatisch im Formular vorausgefüllt, wenn die Besucherin oder der Besucher der Landingpage mit einem Profil aus der Datenbank übereinstimmt. Die Benutzerin oder der Benutzer muss nur die fehlenden Felder ausfüllen und bei Bedarf die vorhandenen Werte aktualisieren. Auf diese Weise können Daten für vorhandene Profile zusammengeführt werden, anstatt Duplikate zu erstellen.
 
    * Wenn Sie keine Profile aktualisieren möchten, muss die Option **[!UICONTROL Bei nicht angegebener Identifizierung vorausgefüllte Informationen ignorieren]** ausgewählt werden. In diesem Fall wird jedes eingegebene Profil nach Genehmigung des Formulars der Datenbank hinzugefügt. Diese Option wird beispielsweise verwendet, wenn das Formular auf einer Website veröffentlicht wird.
 
-1. Eine Landingpage kann über nachfolgende Seiten verfügen. Um Seiten hinzuzufügen, durchsuchen Sie die **[!UICONTROL Seiten]** und klicken Sie auf das **[!UICONTROL Inhalt bearbeiten]** für jede Seite, die Sie für diese Landingpage erstellen möchten. Der Inhalt jeder Seite ist bereits vorausgefüllt. Bearbeiten Sie ihn nach Bedarf. [Weitere Informationen](lp-content.md)
+1. Eine Landingpage kann über nachfolgende Seiten verfügen. Um Seiten hinzuzufügen, navigieren Sie zum Abschnitt **[!UICONTROL Seiten]**. Klicken Sie dann für jede Seite, die für diese Landingpage entworfen werden soll, auf die Schaltfläche **[!UICONTROL Inhalt bearbeiten]**. Der Inhalt jeder Seite ist bereits vorausgefüllt. Bearbeiten Sie ihn nach Bedarf. [Weitere Informationen](lp-content.md)
 
    ![](assets/lp-pages.png){zoomable=&quot;yes&quot;}
 
-1. Die **[!UICONTROL Vorausgefüllten Datensatz aktualisieren]** ist standardmäßig aktiviert. Dadurch können die in der Datenbank gespeicherten Profile über die Landingpage aktualisiert werden. Im Feld Vorausfüllen können Sie angeben, wie der zu aktualisierende Datensatz in der Datenbank gefunden werden soll.
+1. Die Option **[!UICONTROL Vorausgefüllten Eintrag aktualisieren]** ist standardmäßig ausgewählt. Dadurch können die in der Datenbank gespeicherten Profile über die Landingpage aktualisiert werden. Mit der Option zum Vorausfüllen können Sie angeben, wie der zu aktualisierende Eintrag in der Datenbank gesucht werden soll. 
 
-   Sie können auch aus den Feldern wählen, die im aktuellen Kontext der Landingpage verwendet werden, um das entsprechende Profil in der Datenbank zu finden. Heben Sie dazu die Auswahl der **[!UICONTROL Vorausgefüllten Datensatz aktualisieren]** und aktivieren Sie die gewünschten Felder unter **[!UICONTROL Abstimmoptionen]**.
+   Sie können außerdem aus den Feldern im aktuellen Kontext der Landingpage auswählen. Anhand dieser Felder wird das entsprechende Profil in der Datenbank gesucht. Deaktivieren Sie hierzu die Option **[!UICONTROL Vorausgefüllten Eintrag aktualisieren]** und aktivieren Sie die gewünschten Felder unter **[!UICONTROL Abstimmoptionen]**.
 
    ![](assets/lp-storage.png){zoomable=&quot;yes&quot;}
 
-1. Sie können ein Start- und ein Enddatum für Ihre Landingpage definieren. Auswählen **[!UICONTROL Aktivieren der Planung]** und legen Sie die Daten fest.
+1. Sie können ein Start- und ein Enddatum für Ihre Landingpage definieren. Wählen Sie **[!UICONTROL Zeitplanung aktivieren]** aus und legen Sie die Daten fest. 
 
    ![](assets/lp-schedule.png){zoomable=&quot;yes&quot;}
 
@@ -123,15 +123,15 @@ Gehen Sie wie folgt vor, um eine Landingpage zu erstellen:
      >
      >Wenn kein Startdatum definiert ist, wird die Landingpage sofort nach der Veröffentlichung live geschaltet.
 
-   * Wenn die Seite das Enddatum erreicht, <!--the landing page is automatically unpublished and -->das Formular nicht mehr verfügbar ist. Die **[!UICONTROL Ablauf]** -Seite angezeigt.
+   * Wenn die Seite das Enddatum erreicht, <!--the landing page is automatically unpublished and -->ist das Formular nicht mehr verfügbar. Stattdessen wird die Seite **[!UICONTROL Ablauf]** angezeigt.
 
      >[!NOTE]
      >
-     >Aus Sicherheitsgründen und aus Gründen der Plattformleistung empfiehlt Adobe, ein Enddatum festzulegen.
+     >Aus Gründen der Sicherheit und der Plattformleistung empfiehlt Adobe, ein Enddatum festzulegen.
 
 1. Klicken Sie auf **[!UICONTROL Überprüfen und veröffentlichen]**.
 
-Nachdem Sie alle Einstellungen und [entworfen](lp-content.md) alle Seiten, können Sie [test](#test-landing-page) und [publish](#publish-landing-page) Ihre Landingpage wie unten beschrieben.
+Nachdem Sie alle Einstellungen definiert und alle Seiten [entworfen](lp-content.md) haben, können Sie Ihre Landingpage wie unten beschrieben [testen](#test-landing-page) und [veröffentlichen](#publish-landing-page).
 
 ## Testen der Landingpage {#test-landing-page}
 
@@ -153,7 +153,7 @@ Nachdem Sie die Einstellungen und den Inhalt Ihrer Landingpage definiert haben, 
 
 Gehen Sie wie folgt vor, um Ihre Landingpage zu testen:
 
-1. Nachdem Sie auf **[!UICONTROL Überprüfen und veröffentlichen]**, wählen Sie die **[!UICONTROL Inhalt simulieren]** -Schaltfläche im Landingpage-Dashboard, um auf die Testprofilauswahl zuzugreifen.
+1. Nachdem Sie auf **[!UICONTROL Überprüfen und veröffentlichen]** geklickt haben, wählen Sie im Landingpage-Dashboard die Schaltfläche **[!UICONTROL Inhalte simulieren]** aus, um auf die Testprofilauswahl zuzugreifen.
 
    ![](assets/lp-simulate-content.png){zoomable=&quot;yes&quot;}
 
@@ -167,7 +167,7 @@ Gehen Sie wie folgt vor, um Ihre Landingpage zu testen:
 
 1. Die Vorschau Ihrer Landingpage wird in einer neuen Registerkarte geöffnet. Personalisierte Elemente werden durch die ausgewählten Testprofildaten ersetzt.
 
-   Wenn Sie die Option **[!UICONTROL Vorausfüllen mit den im Formular referenzierten Daten]** in den Landingpage-Einstellungen automatisch die entsprechenden Testprofildaten in die Formularfelder eingefügt.<!--TBC-->
+   Wenn Sie in den Landingpage-Einstellungen die Option **[!UICONTROL Mit den Daten vorausfüllen, die im Formular referenziert werden]** ausgewählt haben, werden die Formularfelder automatisch mit den entsprechenden Testprofildaten vorausgefüllt.<!--TBC-->
 
    ![](assets/lp-preview.png){zoomable=&quot;yes&quot;}
 
@@ -177,18 +177,18 @@ Gehen Sie wie folgt vor, um Ihre Landingpage zu testen:
 
 ## Veröffentlichen der Landingpage {#publish-landing-page}
 
-Sobald Ihre Landingpage fertig und validiert ist, veröffentlichen Sie sie mit der entsprechenden Schaltfläche, um sie für einen Versand verfügbar zu machen.
+Veröffentlichen Sie Ihre Landingpage, sobald sie fertig und validiert ist, um sie für die Verwendung in einem Versand über die entsprechende Schaltfläche verfügbar zu machen.
 
 Nach der Veröffentlichung:
 
-* Die Landingpage wird der Landingpage-Liste mit dem **[!UICONTROL Veröffentlicht]** -Status. Es ist jetzt live und kann in Ihren Inhalten referenziert werden.
+* Die Landingpage wird mit dem Status **[!UICONTROL Veröffentlicht]** zur Liste der Landingpages hinzugefügt. Sie ist jetzt live und kann in Ihren Inhalten referenziert werden.
 
-* Sie können die **[!UICONTROL Landingpage-URL]** die oben auf der Seite in einem Webbrowser angezeigt wird, um eine Vorschau Ihrer Landingpage anzuzeigen.
+* Sie können die **[!UICONTROL Landingpage-URL]**, die oben auf der Seite angezeigt wird, in einen Webbrowser kopieren, um eine Vorschau Ihrer Landingpage anzuzeigen.
 
 >[!CAUTION]
 >
->Um Ihre Landingpage vollständig zu testen oder zu nutzen, können Sie diesen Link nicht direkt in einen Webbrowser oder in Ihre Sendungen kopieren und einfügen. Verwenden Sie stattdessen die [Inhalt simulieren](#test-landing-page) , um sie zu testen, und führen Sie die Schritte unter [diesem Abschnitt](lp-use-cases.md) , um Ihre Landingpage richtig zu nutzen.
+>Sie können diesen Link nicht direkt in einen Webbrowser oder in Ihre Sendungen kopieren und einfügen, um Ihre Landingpage vollständig zu testen oder zu nutzen. Verwenden Sie stattdessen zum Testen die Funktion [Inhalt simulieren](#test-landing-page) und führen Sie die in [diesem Abschnitt](lp-use-cases.md) beschriebenen Schritte aus, damit Ihre Landingpage ordnungsgemäß verwendet werden kann.
 
 ![](assets/lp-published.png){zoomable=&quot;yes&quot;}
 
-Sie können die Auswirkungen Ihrer Landingpage über Protokolle überwachen<!--and specific reports-->. Klicken Sie auf **[!UICONTROL Protokolle]** Schaltfläche.
+Sie können die Wirkung Ihrer Landingpage über Protokolle<!--and specific reports--> überwachen.  Klicken Sie auf die Schaltfläche **[!UICONTROL Protokolle]**.

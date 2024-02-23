@@ -1,12 +1,12 @@
 ---
 title: Verwenden der KI-gestützten Kontexthilfe in Campaign Web
-description: Fragen in Campaign Web-Hilfe-Popovers stellen
+description: Stellen von Fragen in Campaign Web-Hilfe-Popovers
 badge: label="Beta"
 exl-id: 577f4652-b3e5-4fa1-9a98-91815fe92d83
 source-git-commit: 27abc0c532ce6957eae55d5db342093efc8fe0a5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '541'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -23,11 +23,11 @@ Dank der Funktionen von Campaign Gen AI verwandelt diese Komponente Ihr Erlebnis
 
 >[!AVAILABILITY]
 >
->* Die KI-gestützte kontextbezogene Hilfe ist in ihrer Beta-Version verfügbar und kann ohne vorherige Ankündigung geändert werden.
+>* Die KI-gestützte Kontexthilfe ist als Beta-Version verfügbar und kann ohne vorherige Ankündigung geändert werden.
 >
 >* Diese Funktion ist nur auf **Englisch** verfügbar. Andere Sprachen werden in dieser Version nicht unterstützt. Vergewissern Sie sich deshalb, dass [Ihre bevorzugte Sprache](connect-to-campaign.md#language-pref) auf Englisch eingestellt ist, bevor Sie diese Funktion nutzen.
 >
->* Die KI-gestützte kontextbezogene Hilfe ist derzeit in Campaign Email Designer nicht verfügbar.
+>* Die KI-gestützte Kontexthilfe ist derzeit im E-Mail-Designer von Campaign nicht verfügbar.
 
 
 <!--
@@ -46,23 +46,23 @@ For information specific to Adobe AI policies in Experience Cloud apps and solut
 
 ## Vorgeschlagene Fragen {#questions-ai}
 
-Im Eingabefeld bietet die KI-gestützte kontextbezogene Hilfe von Adobe Campaign drei Fragen. Diese Fragen werden von KI generiert und beziehen sich auf das Hilfefeld und den aktuellen Produktkontext. Wählen Sie eine Frage aus, um die Antwort zu erhalten.
+Im Eingabefeld bietet die KI-gestützte Kontexthilfe von Adobe Campaign drei Fragen. Diese Fragen werden von KI generiert und beziehen sich auf das Hilfefeld und den aktuellen Produktkontext. Wählen Sie eine Frage aus, um die Antwort zu erhalten.
 
-![Kontexthilfe - Fragen](assets/do-not-localize/suggested-questions.png){width="600" align="left"}{zoomable="yes"}
+![Kontexthilfe – Vorgeschlagene Fragen](assets/do-not-localize/suggested-questions.png){width="600" align="left"}{zoomable="yes"}
 
 
 ## Antworten {#answers-ai}
 
 Die KI-gestützte Kontexthilfe von Adobe Campaign bietet Unterstützung, aber Sie sollten dennoch die Fakten überprüfen. Er kann falsche Informationen, ungenaue oder irreführende Antworten ausgeben. Überprüfen Sie die Produktdokumentation, die in jedem Hilfefeld verlinkt ist.
 
-Sie können eine Antwort mithilfe der **Kopieren** -Symbol am unteren Rand des Hilfe-Popup-Fensters.
+Sie können eine Antwort mithilfe des Symbols **Kopieren** am unteren Rand des Hilfe-Popups in die Zwischenablage kopieren.
 
-![Kontextbezogene Hilfe: Antwort kopieren](assets/do-not-localize/copy-answer.png){width="600" align="left"}{zoomable="yes"}
+![Kontextbezogene Hilfe: Kopieren einer Antwort](assets/do-not-localize/copy-answer.png){width="600" align="left"}{zoomable="yes"}
 
 
 ## Feedback {#feedback-ai}
 
-Künstliche Intelligenz und Modelle des maschinellen Lernens werden im Laufe der Zeit verbessert, um bestimmte Anwendungsfälle besser zu lösen. Die KI-gestützte Kontexthilfe von Campaign wird in den kommenden Monaten immer besser werden. Wir empfehlen Ihnen dringend, jedes Mal die <img src="assets/do-not-localize/thumb.png" width="10%"/>-Schaltflächen zu verwenden, wenn Sie eine Antwort lesen, um unser technisches Personal auf unangemessene Antworten hinzuweisen.
+Künstliche Intelligenz und Modelle des maschinellen Lernens werden im Laufe der Zeit verbessert, um besser auf bestimmte Anwendungsfälle einzugehen. Die KI-gestützte Kontexthilfe von Campaign wird in den kommenden Monaten immer besser werden. Wir empfehlen Ihnen dringend, jedes Mal die <img src="assets/do-not-localize/thumb.png" width="10%"/>-Schaltflächen zu verwenden, wenn Sie eine Antwort lesen, um unser technisches Personal auf unangemessene Antworten hinzuweisen.
 
 ## Empfehlungen  {#recommendations-ai}
 

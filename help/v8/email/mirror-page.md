@@ -4,7 +4,7 @@ title: Hinzufügen eines Links zur Mirrorseite
 description: Erfahren Sie, wie Sie den Link zur Mirrorseite hinzufügen und verwalten
 exl-id: 0c22357f-0465-4fdc-833e-5fda5805fe42
 source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '446'
 ht-degree: 100%
 
@@ -36,7 +36,7 @@ So fügen Sie in Ihrer E-Mail einen Link zu einer Mirrorseite hinzu:
 
    ![](assets/message-tracking-mirror-page_2.png){zoomable=&quot;yes&quot;}
 
-1. Wählen Sie im Menü **[!UICONTROL Inhaltsbaustein]** die Option **[!UICONTROL URL der Mirrorseite]** und klicken Sie auf **[!UICONTROL Hinzufügen]**.
+1. Wählen Sie im Menü **[!UICONTROL Inhaltsbaustein]** die Option **[!UICONTROL Mirrorseiten-URL]** und klicken Sie auf **[!UICONTROL Hinzufügen]**.
 
    ![](assets/message-tracking-mirror-page_3.png){zoomable=&quot;yes&quot;}
 

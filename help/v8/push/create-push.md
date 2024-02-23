@@ -4,9 +4,9 @@ title: Erstellen eines Push-Benachrichtigungs-Versands
 description: Erfahren Sie, wie Sie mit Adobe Campaign Web einen Versand für eine Push-Benachrichtigung erstellen
 exl-id: 49a3c05c-5806-4269-a98d-915eee216f90
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '714'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -88,17 +88,17 @@ Auf diesem Bildschirm können Sie auch [Inhalte simulieren](../preview-test/prev
 
 ## Planen des Versandzeitpunkts {#schedule-push}
 
-Wenn ein Versand im Rahmen eines Workflows durchgeführt wird, müssen Sie die **Planung** -Aktivität. Weitere Informationen finden Sie auf [dieser Seite](../workflows/activities/scheduler.md). Die folgenden Schritte gelten nur für Einzelsendungen.
+Wenn ein Versand im Rahmen eines Workflows durchgeführt wird, müssen Sie die **Planungs**-Aktivität verwenden. Weitere Informationen finden Sie auf [dieser Seite](../workflows/activities/scheduler.md). Die folgenden Schritte gelten nur für eigenständige Sendungen.
 
-Gehen Sie wie folgt vor, um einen eigenständigen Push-Versand an ein bestimmtes Datum und eine bestimmte Uhrzeit zu planen:
+Gehen Sie wie folgt vor, um einen eigenständigen Push-Versand für ein bestimmtes Datum und eine bestimmte Uhrzeit zu planen:
 
-1. Navigieren Sie zum **[!UICONTROL Zeitplan]** in den Versandeigenschaften.
+1. Navigieren Sie zum Abschnitt **[!UICONTROL Zeitplan]** in den Versandeigenschaften.
 
 1. Betätigen Sie den Umschalter, um **[!UICONTROL Planung aktivieren]** zu aktivieren.
 
 1. Legen Sie Datum und Uhrzeit für den Versand fest.
 
-Nach dem Start des Versands wird die Nachricht automatisch an dem Datum und der Uhrzeit gesendet, die Sie für den Empfänger definiert haben.
+Nachdem der Versand initiiert wurde, wird die Nachricht automatisch an dem Datum und zu der Uhrzeit gesendet, die Sie für die Empfängerin bzw. den Empfänger festgelegt haben.
 
 ![](assets/push_create_3.png){zoomable=&quot;yes&quot;}
 

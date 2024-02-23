@@ -3,7 +3,7 @@ title: Erstellen eines Profils
 description: Erfahren Sie, wie Sie in Campaign Web ein Profil erstellen.
 exl-id: 0680b726-8f2f-45bf-8aa0-c1d4aa1c2990
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '569'
 ht-degree: 100%
 

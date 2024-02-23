@@ -7,9 +7,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 101ad23b-7ea5-42c7-9249-7c14febe6eb7
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '994'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Durch die Konfiguration bedingter Inhalte können Sie beispielsweise eine erweit
 
 Um bedingte Inhalte zu erstellen, müssen Sie Bedingungen im **Ausdruckseditor** mithilfe spezifischer Hilfsfunktionen erstellen. Diese Methode steht für alle Versandkanäle in jedem Feld zur Verfügung, in dem Sie auf den Ausdruckseditor zugreifen können, z. B. Betreffzeile, E-Mail-Links oder Text-/Schaltflächen-Inhaltskomponenten. [Erfahren Sie, wie Sie auf den Ausdruckseditor zugreifen](gs-personalization.md/#access)
 
-Zusätzlich zum Ausdruckseditor können Sie eine dedizierte **Bedingter Content Builder** wenn Sie eine E-Mail entwerfen, mit der Sie mehrere Varianten für ein Element Ihres E-Mail-Textkörpers erstellen können. [Erfahren Sie, wie Sie bedingte Inhalte in E-Mails erstellen](#condition-condition-builder)
+Zusätzlich zum Ausdruckseditor können Sie einen speziellen **Builder für bedingte Inhalte** nutzen, wenn Sie eine E-Mail entwerfen wollen, die es Ihnen ermöglicht, mehrere Varianten für ein Element Ihres E-Mail-Texts zu erstellen [Erfahren Sie, wie Sie bedingte Inhalte in E-Mails erstellen](#condition-condition-builder)
 
 ## Erstellen von Bedingungen im Ausdruckseditor {#condition-perso-editor}
 
@@ -84,7 +84,7 @@ Bedingte Inhalte in E-Mails können auf zwei Arten erstellt werden:
 * Im Ausdruckseditor durch Erstellen einer Bedingung mit Hilfsfunktionen
 * In einem speziellen Builder für bedingte Inhalte, auf den Sie beim Entwerfen einer E-Mail zugreifen können
 
-Im folgenden Abschnitt finden Sie eine schrittweise Anleitung zum Erstellen von Bedingungen mithilfe der Funktion für bedingte Inhalte des E-Mail-Designers. Detaillierte Informationen zum Erstellen von Bedingungen mithilfe des Ausdruckseditors finden Sie unter [here](#condition-perso-editor).
+Im folgenden Abschnitt finden Sie eine schrittweise Anleitung zum Erstellen von Bedingungen mithilfe der Funktion für bedingte Inhalte des E-Mail-Designers. Detaillierte Informationen zum Erstellen von Bedingungen mithilfe des Ausdruckseditors finden Sie [hier](#condition-perso-editor).
 
 In diesem Beispiel möchten wir eine E-Mail-Nachricht mit mehreren Varianten erstellen, die auf der Empfängersprache basieren. Führen Sie folgende Schritte aus:
 
@@ -96,13 +96,13 @@ In diesem Beispiel möchten wir eine E-Mail-Nachricht mit mehreren Varianten ers
 
 1. Der Bereich **[!UICONTROL Bedingter Inhalt]** wird auf der linken Bildschirmseite geöffnet. In diesem Bereich können Sie mithilfe von Bedingungen mehrere Varianten der ausgewählten Inhaltskomponente erstellen.
 
-1. Konfigurieren Sie Ihre erste Variante. Bewegen **[!UICONTROL Variante - 1]** im **[!UICONTROL Bedingter Inhalt]** und klicken Sie auf **[!UICONTROL Bedingung hinzufügen]** Schaltfläche.
+1. Konfigurieren Sie Ihre erste Variante. Bewegen Sie den Mauszeiger über **[!UICONTROL Variante – 1]** im Bereich **[!UICONTROL Bedingter Inhalt]** und klicken Sie auf die Schaltfläche **[!UICONTROL Bedingung hinzufügen]**.
 
    ![](assets/condition-add-condition.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 
-1. Ein Regel-Builder wird angezeigt. Sie bietet **Profil**, **Nachricht**, und **Versand** -Attribute, die Sie zur Erstellung Ihrer Bedingung nutzen können.
+1. Ein Regel-Builder wird angezeigt. Er bietet die Attribute **Profil**, **Nachricht** und **Versand**, die Sie zur Erstellung Ihrer Bedingung nutzen können.
 
-   Darüber hinaus wird die **Bedingungen** bietet vordefinierte Bedingungen, die Sie der Arbeitsfläche hinzufügen können, um Ihre Variante einfach zu erstellen. Um sie zu verwenden, klicken Sie auf das **Hinzufügen** -Schaltfläche und ersetzen Sie dann die Elemente zwischen `<` und `>`-Symbole durch die gewünschten Elemente. Stellen Sie sicher, dass der Wert, den Sie für die `<value>` -Objekt in Anführungszeichen gesetzt.
+   Darüber hinaus bietet das Menü **Bedingungen** vordefinierte Bedingungen, die Sie der Arbeitsfläche hinzufügen können, um Ihre Variante einfach zu erstellen. Um sie zu verwenden, klicken Sie auf die Schaltfläche **Hinzufügen** und ersetzen Sie dann die Elemente zwischen den Symbolen `<` und `>` durch die gewünschten Elemente. Stellen Sie sicher, dass der Wert, den Sie für die `<value>`-Objekte angeben, in Anführungszeichen gesetzt ist.
 
    ![](assets/condition-syntax.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 

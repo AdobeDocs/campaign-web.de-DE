@@ -7,7 +7,7 @@ role: User
 level: Beginner
 exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1109'
 ht-degree: 100%
 
@@ -46,7 +46,7 @@ Eine Vorlage kann Folgendes enthalten:
 >abstract="Verwenden Sie Versandvorlagen, um Versandeinstellungen zu erstellen und zu speichern, damit Sie sie in zukünftigen Kampagnen verwenden können. Sie können Versandvorlagen von Grund auf neu erstellen, existierende Vorlagen duplizieren oder einen Versand in eine Vorlage umwandeln."
 
 
-Um auf die Liste der Inhaltsvorlagen zuzugreifen, wählen Sie **[!UICONTROL Kampagnenverwaltung]** > **[!UICONTROL Sendungen]** aus dem linken Menü und wechseln Sie zur Registerkarte **Vorlagen**.
+Um auf die Liste der Inhaltsvorlagen zuzugreifen, wählen Sie aus dem linken Menü **[!UICONTROL Kampagnenverwaltung]** > **[!UICONTROL Sendungen]** und wechseln Sie zur Registerkarte **Vorlagen**.
 
 ![](assets/templates-tab.png){zoomable=&quot;yes&quot;}
 
@@ -63,7 +63,7 @@ Um eine Vorlage zu bearbeiten, klicken Sie in der Liste auf das gewünschte Elem
 
 ![](assets/templates-edition.png){zoomable=&quot;yes&quot;}
 
-Zum Löschen oder [Duplizieren](#copy-an-existing-template) eine Vorlage, wählen Sie die entsprechende Aktion aus dem Menü **[!UICONTROL Mehr Aktionen]**, entweder über das Menü **[!UICONTROL Vorlagenliste]** oder von einem Bildschirm zur Vorlagenbearbeitung aus.
+Zum Löschen oder [Duplizieren](#copy-an-existing-template) einer Vorlage wählen Sie die entsprechende Aktion aus dem Menü **[!UICONTROL Mehr Aktionen]**, entweder über das Menü **[!UICONTROL Vorlagenliste]** oder von einem Bildschirm zur Vorlagenbearbeitung aus.
 
 ![](assets/templates-more-actions.png){zoomable=&quot;yes&quot;}
 
