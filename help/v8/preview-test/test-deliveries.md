@@ -4,7 +4,7 @@ title: Durchführen von Testsendungen
 description: Erfahren Sie, wie Sie Testsendungen definieren und durchführen.
 exl-id: b2677579-c95d-443d-b207-466af364c208
 source-git-commit: 8667de1d86428427edd9a2718218de9801b0922d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1178'
 ht-degree: 100%
 

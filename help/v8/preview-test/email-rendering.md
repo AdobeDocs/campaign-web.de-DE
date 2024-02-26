@@ -4,7 +4,7 @@ title: Testen des E-Mail-Renderings
 description: Hinweise zum Testen Ihres E-Mail-Renderings in der Campaign Web-Benutzeroberfläche
 exl-id: 5cdbce8b-3969-470d-8019-1edc58433146
 source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '237'
 ht-degree: 100%
 

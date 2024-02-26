@@ -4,7 +4,7 @@ title: Erste Schritte mit Nachrichten und Sendungen in Adobe Campaign Web
 description: Erfahren Sie, wie Sie Campaign Web verwenden, um mit Sendungen zu arbeiten und Nachrichten zu senden
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
 source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '147'
 ht-degree: 100%
 

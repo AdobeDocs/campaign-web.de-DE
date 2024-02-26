@@ -3,7 +3,7 @@ title: Definieren des Inhalts für die Landingpage
 description: Erfahren Sie, wie Sie in Campaign Web Landingpage-spezifische Inhalte erstellen
 feature: Landing Pages
 source-git-commit: 26c41105a4c04b72e0aedf05a4b3268b0e475d40
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '872'
 ht-degree: 100%
 

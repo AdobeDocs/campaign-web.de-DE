@@ -3,7 +3,7 @@ title: Erstellen einer Landingpage
 description: Hier erfahren Sie, wie Sie in Campaign Web eine Landingpage konfigurieren und veröffentlichen können.
 feature: Landing Pages
 source-git-commit: 26c41105a4c04b72e0aedf05a4b3268b0e475d40
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1340'
 ht-degree: 100%
 

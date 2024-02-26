@@ -4,7 +4,7 @@ title: Versenden in Schüben
 description: Erfahren Sie mehr über die Versandeinstellungen in Campaign Web
 feature: Email
 source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '796'
 ht-degree: 100%
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_waves_definition"
 >title="Aufteilen von Sendungen in mehrere Teilsendungen"
->abstract="Anstatt gleichzeitig große Mengen von Nachrichten zu senden, können Sie Schübe festlegen, um Sendungen in mehrere Teilsendungen zu unterteilen.  Sie können mehrere Schübe derselben Größe konfigurieren oder einen Kalender für die verschiedenen Schübe festlegen, die gesendet werden sollen."
+>abstract="Schübe erstellen, um Sendungen in mehrere Teilsendungen zu unterteilen, anstatt gleichzeitig große Mengen von Nachrichten zu senden. Es ist möglich, mehrere Schübe derselben Größe zu konfigurieren oder einen Kalender für die verschiedenen Schübe festzulegen, die gesendet werden sollen."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_waves_size"

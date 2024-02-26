@@ -4,7 +4,7 @@ title: Funktionsmatrix für die Benutzeroberfläche/Client-Konsole von Campaign 
 description: Liste der in der Campaign Web-Benutzeroberfläche unterstützten Funktionen
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
 source-git-commit: 45e5b528837614cdbd537d0a92e71265f65f97db
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2151'
 ht-degree: 100%
 

@@ -4,7 +4,7 @@ title: Anzeigen des Versandinhalts in einer Vorschau
 description: Erfahren Sie, wie Sie mit der Campaign Web-Benutzeroberfläche den Versandinhalt in einer Vorschau anzeigen können.
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
 source-git-commit: 8667de1d86428427edd9a2718218de9801b0922d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '359'
 ht-degree: 100%
 
