@@ -1,12 +1,12 @@
 ---
 audience: end-user
 title: Festlegen einer Kontrollgruppe
-description: Erfahren Sie, wie Sie in der Campaign-Web-Benutzeroberfläche eine Kontrollgruppe für Ihre Nachrichten einrichten.
+description: Erfahren Sie, wie Sie in der Campaign Web-Benutzeroberfläche eine Kontrollgruppe für Ihre Nachrichten einrichten
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
 source-git-commit: cdb33c46e849a16272869913044358d344e0d6ba
 workflow-type: tm+mt
 source-wordcount: '803'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -94,7 +94,7 @@ Nach der Versandvorbereitung können Sie überprüfen, wie die Ausschlüsse ange
     ![](assets/control-group6.png){zoomable="yes"}
 -->
 
-* In der Registerkarte **Ausschlussgründe** wird für jede Typologieregel die Anzahl der ausgeschlossenen Profile angegeben.
+* Auf der Registerkarte **Ausschlussgründe** wird für jede Typologieregel die Anzahl der ausgeschlossenen Profile angegeben.
 
   ![](assets/control-group7.png){zoomable=&quot;yes&quot;}
 

@@ -6,7 +6,7 @@ exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 source-git-commit: 3f47e23a40030ce11ae2389134f42f56ddf4f019
 workflow-type: tm+mt
 source-wordcount: '1687'
-ht-degree: 93%
+ht-degree: 97%
 
 ---
 
@@ -109,7 +109,7 @@ Im Abschnitt ENTSCHEIDUNGS-MANAGEMENT können Sie die Angebote und Angebotsvorla
 
 Erfahren Sie, wie Sie in E-Mails und SMS Angebote erstellen und senden, in [diesem Abschnitt](../msg/offers.md).
 
-### Berichte {#left-nav-reporting}
+### Reporting {#left-nav-reporting}
 
 * **Berichte**: Der Eintrag **Bericht** bietet eine konsolidierte Zusammenfassung von Traffic- und Interaktionsmetriken für jeden Kanal innerhalb Ihrer Campaign-Umgebungen. Diese Berichte bestehen aus verschiedenen Widgets, von denen jedes eine andere Perspektive auf Ihre Kampagnen- oder Versandleistung bietet. Weiterführende Informationen finden Sie in [diesem Abschnitt](../reporting/global-reports.md).
 
@@ -120,7 +120,7 @@ Eine kontextuelle Hilfe ist in der Benutzeroberfläche verfügbar. Wenn verfügb
 
 ![](assets/do-not-localize/context-help.png){zoomable=&quot;yes&quot;}{width="40%" align="left"}
 
-Derzeit als Beta-Version in der neuen Campaign-Webbenutzeroberfläche veröffentlicht, wird die **KI-gestützter Knowledge Assistant** eingebettet in die kontextuelle Hilfe revolutioniert die Dokumentationssuche und Beantwortung von Fragen durch mühelose Durchblättern von umfangreichen Dokumentations-Repositorys und zeigt sofort die benötigten Informationen an.
+In der aktuell verfügbaren Beta-Version der neuen Campaign Web-Benutzeroberfläche revolutioniert der **KI-gestützte Wissensassistent**, der in der kontextuellen Hilfe eingebettet ist, die Suche nach Dokumentationen und die Beantwortung von Fragen zur Vorgehensweise, indem er mühelos riesige Dokumentationsbestände durchforstet und die benötigten Informationen sofort auffindbar macht.
 
 Dank der Funktionen der generativen KI von Campaign verwandelt dieser Assistent Ihr Erlebnis völlig und macht das Abrufen von Informationen und die Problembehebung zu einem Kinderspiel. Unser Wissensassistent mit generativer KI ist Ihr ultimativer Begleiter bei Fragen zu komplexen Aufgaben oder zur Navigation in umfangreichen Dokumenten und bietet Ihnen bei jeder Interaktion höchste Effizienz und Genauigkeit.
 
@@ -319,7 +319,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_change_data_source"
 >title="Datenquelle ändern"
->abstract="Die **Datenquelle ändern** ermöglicht die Auswahl einer anderen Datenquelle für die Arbeitstabelle Ihres Workflows."
+>abstract="Die Aktivität **Datenquelle ändern** ermöglicht die Auswahl einer anderen Datenquelle für die Arbeitstabelle Ihres Workflows."
 
 
 <!--
@@ -359,17 +359,17 @@ Deprecated IDs - to remove in GA: -->
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription"
->title="Anmeldedienste"
+>title="Abonnementdienste"
 >abstract="TBC"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription_general"
->title="Parameter für Anmeldedienste"
+>title="Parameter von Abonnementdiensten"
 >abstract="TBC"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription_outboundtransition"
->title="Ausgehende Transition von Anmeldediensten"
+>title="Ausgehende Transition von Abonnementdiensten"
 >abstract="TBC"
 
 >[!CONTEXTUALHELP]

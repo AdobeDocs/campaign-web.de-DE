@@ -6,7 +6,7 @@ exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 source-git-commit: a678175e34a633d5de258e64899ba4b10b6b674f
 workflow-type: tm+mt
 source-wordcount: '580'
-ht-degree: 70%
+ht-degree: 95%
 
 ---
 
@@ -43,9 +43,9 @@ Ursprünglich nur über eine umfangreiche [Client-Konsole](#ac-client) verfügba
 
 ![](assets/home.png){zoomable=&quot;yes&quot;}
 
-Diese neue Web-Benutzeroberfläche erfüllt zunächst die Anforderungen der **Geschäftsmann** - Alle typischen Verwaltungsaufgaben sind in dieser ersten Version nicht verfügbar, werden aber in nachfolgenden Versionen behandelt. Beachten Sie, dass in der neuen Benutzeroberfläche derzeit nicht alle Funktionen und Optionen der Client-Konsole verfügbar sind. In zukünftigen Versionen werden neue Anwendungsfälle, Optionen und Funktionen zur Verfügung stehen.
+Diese neue Web-Benutzeroberfläche erfüllt zunächst die Anforderungen von **Business Practitioners**. Alle typischen Administrationsaufgaben sind in dieser ersten Version noch nicht verfügbar, werden aber in späteren Versionen berücksichtigt. Beachten Sie, dass in der neuen Benutzeroberfläche derzeit nicht alle Funktionen und Optionen der Client-Konsole verfügbar sind. In zukünftigen Versionen werden neue Anwendungsfälle, Optionen und Funktionen zur Verfügung stehen.
 
-Wenn Sie als Administrator oder erfahrener Benutzer auf die Campaign v8-Funktionen zugreifen müssen, die nicht in der Campaign-Webbenutzeroberfläche verfügbar sind, können Sie eine Verbindung zum [Clientkonsole](#ac-client).
+Wenn Sie als Admin oder erfahrene Benutzende auf Funktionen von Campaign v8 zugreifen müssen, die nicht in der Web-Benutzeroberfläche von Campaign verfügbar sind, können Sie sich mit der [Client-Konsole](#ac-client) verbinden.
 
 Erfahren Sie auf [dieser Seite](connect-to-campaign.md), wie Sie eine Verbindung zu Adobe Campaign Web herstellen können.
 
@@ -55,14 +55,14 @@ Erfahren Sie auf [dieser Seite](connect-to-campaign.md), wie Sie eine Verbindung
 
 Die Campaign-Client-Konsole ist eine Browser-basierte Anwendung, die auf Ihrem System installiert ist. Sie nutzt die Web-Services-API, um eine Verbindung zu Ihrem Campaign-Anwendungs-Server herzustellen.
 
-Kampagnendaten werden auf dem Anwendungs-Server gespeichert. Daten sind sowohl in der Client-Konsole als auch in der Campaign-Web-Benutzeroberfläche verfügbar. Wenn Sie beispielsweise eine Versandvorlage mithilfe der Client-Konsole erstellen, ist diese auch in der Web-Benutzeroberfläche von Campaign verfügbar. Wenn Sie einen E-Mail-Versand in der Campaign-Webbenutzeroberfläche erstellen, kann dieser Versand auch über die Clientkonsole aufgerufen werden.
+Kampagnendaten werden auf dem Anwendungs-Server gespeichert. Daten sind sowohl über die Client-Konsole als auch über die Campaign Web-Benutzeroberfläche verfügbar. Wenn Sie beispielsweise eine Versandvorlage mithilfe der Client-Konsole erstellen, ist diese ebenfalls in der Campaign Web-Benutzeroberfläche verfügbar. Ist in der Campaign Web-Benutzeroberfläche ein E-Mail-Versand eingerichtet, kann diese Versandart auch über die Client-Konsole aufgerufen werden.
 
-Einige Objekte können nur in der Client-Konsole erstellt und verwaltet werden. Sie können in der Web-Benutzeroberfläche von Campaign sichtbar und verwendet werden, können jedoch nicht in dieser Umgebung erstellt oder geändert werden. Alle Campaign-Objekte und -Komponenten stehen in der Explorer-Ansicht zur Verfügung, die im linken Navigationsbereich verfügbar ist.
+Einige Objekte können nur in der Client-Konsole erstellt und verwaltet werden. Sie können in der Campaign Web-Benutzeroberfläche angezeigt und verwendet werden, können jedoch nicht in dieser Umgebung erstellt oder geändert werden. Alle Campaign-Objekte und -Komponenten stehen in der Explorer-Ansicht zur Verfügung, die im linken Navigationsbereich verfügbar ist.
 
 Weitere Informationen zur Verwendung von Campaign v8 mit der Client-Konsole finden Sie in der [Dokumentation zu Campaign v8 (Client-Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=de){target="_blank"}.
 
 ## Anleitungsvideo {#video}
 
-Erfahren Sie, wie Sie auf die Web-Benutzeroberfläche von Campaign zugreifen und darin navigieren und wie Sie die Inventarlisten anpassen können. Entdecken Sie den KI-gestützten Knowledge Assistant.
+Erfahren Sie, wie Sie auf die Web-Benutzeroberfläche von Campaign zugreifen und darin navigieren und wie Sie die Inventarlisten anpassen können. Entdecken Sie den KI-gestützten Wissensassistenten.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3427278?quality=12)

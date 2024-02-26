@@ -6,11 +6,11 @@ exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 source-git-commit: 9849ab42d9dcbe34036f5677c674cb96aaf1a246
 workflow-type: tm+mt
 source-wordcount: '672'
-ht-degree: 91%
+ht-degree: 92%
 
 ---
 
-# Dokumentation zur Adobe Campaign-Webbenutzeroberfläche {#campaign-documentation}
+# Dokumentation zur Adobe Campaign Web-Benutzeroberfläche {#campaign-documentation}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_card1"
@@ -82,7 +82,7 @@ ht-degree: 91%
 
 <!--TO REMOVE ABOVE-->
 
-Wir freuen uns, die neue Version der Adobe Campaign Web-Benutzeroberfläche vorzustellen. Unsere neueste Version ist voller intuitiver Funktionen, die die Erstellung personalisierter kanalübergreifender Kampagnen vereinfachen, außergewöhnliche Ergebnisse liefern und Ihnen einen Wettbewerbsvorteil über alle Kanäle hinweg verschaffen. Diese neue, moderne Benutzeroberfläche vereinfacht das Design und den Versand von Marketing-Kampagnen und sorgt für Konsistenz mit anderen Adobe-Lösungen, einschließlich Adobe Experience Platform.
+Wir freuen uns, die neue Version der Adobe Campaign Web-Benutzeroberfläche vorzustellen. Unsere neueste Version enthält zahlreiche intuitive Funktionen, mit denen Sie einfacher personalisierte kanalübergreifende Kampagnen erstellen und außergewöhnliche Ergebnisse erzielen, was Ihnen auf allen Kanälen einen Wettbewerbsvorteil bietet. Diese neue, moderne Benutzeroberfläche vereinfacht das Design und den Versand von Marketing-Kampagnen und sorgt für Konsistenz mit anderen Adobe-Lösungen, einschließlich Adobe Experience Platform.
 
 ## Neue Funktionen
 

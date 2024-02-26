@@ -6,7 +6,7 @@ exl-id: 3aef912b-086b-4aa4-9556-c09396112313
 source-git-commit: 0250ab3bd05023bddbf3a0104631cc7bb40acadc
 workflow-type: tm+mt
 source-wordcount: '1025'
-ht-degree: 69%
+ht-degree: 92%
 
 ---
 
@@ -41,19 +41,19 @@ Die **[!UICONTROL Eigenschaften]** enthält allgemeine Einstellungen, die beim E
 
 Diese Eigenschaften sind:
 
-* Die **[!UICONTROL Titel]** des Workflows, der in der Liste angezeigt wird.
-* Die **[!UICONTROL Interner Name]** des Workflows.
-* Die **[!UICONTROL Ordner]** wo der Workflow gespeichert werden soll.
-* Die Standardeinstellung **[!UICONTROL Zeitzone]** in allen Aktivitäten des Workflows verwendet werden. Standardmäßig ist die Zeitzone des Workflows die für die aktuelle Campaign-Benutzerin bzw. den aktuellen Campaign-Benutzer definierte Zeitzone.
+* Der **[!UICONTROL Titel]** des Workflows, der in der Liste angezeigt wird.
+* Der **[!UICONTROL interne Name]** des Workflows.
+* Der **[!UICONTROL Ordner]**, in dem der Workflow gespeichert werden soll.
+* Die Standard-**[!UICONTROL Zeitzone]**, die in allen Workflow-Aktivitäten zu verwenden ist. Standardmäßig ist die Zeitzone des Workflows die für die aktuelle Campaign-Benutzerin bzw. den aktuellen Campaign-Benutzer definierte Zeitzone.
 Mögliche Werte:
    * **Server-Zeitzone**, um die Zeitzone des Anwendungs-Servers von Adobe Campaign zu verwenden
    * **Benutzer-Zeitzone**, um die Zeitzone der Benutzerin bzw. des Benutzers von Adobe Campaign zu verwenden, die bzw. der den Workflow entsprechend der Definition im Benutzerprofil in der Client-Konsole ausführt.
    * **Zeitzone der Datenbank**, um die Zeitzone des Datenbank-Servers zu verwenden.
    * Eine bestimmte Zeitzone
-* Wenn ein Workflow fehlschlägt, werden die Benutzer der in der **[!UICONTROL Supervisor(en)]** -Feld werden per E-Mail benachrichtigt.
-* Sie können auch eine **[!UICONTROL Beschreibung]** Ihres Workflows.
+* Wenn ein Workflow fehlschlägt, werden die Benutzenden der im Feld **[!UICONTROL Verantwortliche(r)]** ausgewählten Benutzergruppe per E-Mail benachrichtigt.
+* Sie können auch eine **[!UICONTROL Beschreibung]** Ihres Workflows eingeben.
 
-Wann der Workflow [mit einer Kampagne verknüpft ist](create-workflow.md), wird sie im **[!UICONTROL Verknüpfte Kampagne]** -Feld. Sie können die zugehörige Kampagne über dieses Feld öffnen.
+Wenn der Workflow [mit einer Kampagne verknüpft](create-workflow.md) ist, wird dies im Feld **[!UICONTROL Verknüpfte Kampagne]** angezeigt. Sie können die zugehörige Kampagne über dieses Feld öffnen.
 
 
 ## Segmentierungseinstellungen  {#segmentation-settings}
@@ -67,7 +67,7 @@ Wann der Workflow [mit einer Kampagne verknüpft ist](create-workflow.md), wird 
 
 * **[!UICONTROL Zwischen zwei Ausführungen die ermittelte Population festhalten]**: Standardmäßig werden nur die Arbeitstabellen der letzten Ausführung des Workflows beibehalten. Arbeitstabellen früherer Ausführungen werden durch einen technischen Workflow bereinigt, der täglich ausgeführt wird.
 
-  Wenn diese Option aktiviert ist, werden Arbeitstabellen auch nach Ausführung des Workflows beibehalten. Sie können es zu Testzwecken verwenden und müssen daher verwendet werden **only** in Entwicklungs- oder Staging-Umgebungen. Sie darf niemals in einem Produktions-Workflow aktiviert sein.
+  Wenn diese Option aktiviert ist, werden Arbeitstabellen auch nach Ausführung des Workflows beibehalten. Sie können sie zu Testzwecken verwenden; daher darf sie **nur** in Entwicklungs- oder Staging-Umgebungen genutzt werden. Sie darf niemals in einem Produktions-Workflow aktiviert sein.
 
 ## Ausführungsparameter  {#exec-settings}
 
@@ -82,23 +82,23 @@ Wann der Workflow [mit einer Kampagne verknüpft ist](create-workflow.md), wird 
   >
   >Wenn das Feld **[!UICONTROL Verlauf in Tagen]** leer gelassen wird, wird sein Wert als „1“ betrachtet; der Verlauf wird also nach einem Tag bereinigt.
 
-* **[!UICONTROL Standardaffinität]**: Wenn Ihre Installation mehrere Workflow-Server umfasst, geben Sie in diesem Feld den Server an, auf dem der Workflow ausgeführt werden soll. Dies erzwingt die Ausführung dieses Workflows auf einem bestimmten Server. Sie können einen beliebigen vorhandenen Affinitätsnamen auswählen, stellen Sie jedoch sicher, dass Sie keine Leerzeichen oder Satzzeichen verwenden. Wenn Sie verschiedene Server verwenden, geben Sie unterschiedliche Namen an, getrennt durch Kommas.
+* **[!UICONTROL Standardaffinität]**: Wenn Ihre Installation mehrere Workflow-Server umfasst, wählen Sie in diesem Feld den Computer aus, auf dem der Workflow ausgeführt werden soll. Dies erzwingt die Ausführung dieses Workflows auf einem bestimmten Server. Sie können einen beliebigen vorhandenen Affinitätsnamen auswählen. Stellen Sie jedoch sicher, dass Sie keine Leerzeichen oder Satzzeichen verwenden. Wenn Sie verschiedene Server verwenden, geben Sie unterschiedliche Namen an, getrennt durch Kommas.
 
   >[!IMPORTANT]
   >
   >Wenn der in diesem Feld definierte Wert auf keinem Server vorhanden ist, bleibt der Workflow ausstehend.
 
 
-* **[!UICONTROL SQL-Abfragen im Protokoll speichern]**: Aktivieren Sie diese Option, um die SQL-Abfragen aus dem Workflow in den Protokollen zu speichern. Diese Funktion ist erfahrenen Benutzerinnen und Benutzern vorbehalten. Sie gilt für Workflows, die Zielgruppenbestimmungsaktivitäten enthalten, wie **[!UICONTROL Zielgruppe aufbauen]**. Wenn diese Option aktiviert ist, werden die während der Workflow-Ausführung an die Datenbank gesendeten SQL-Abfragen in den Protokollen des Workflows angezeigt, sodass Sie sie analysieren können, um Abfragen zu optimieren oder Probleme zu diagnostizieren.
+* **[!UICONTROL SQL-Abfragen im Protokoll speichern]**: Mit dieser Option können Sie die SQL-Abfragen aus dem Workflow in den Protokollen speichern. Diese Funktion ist erfahrenen Benutzerinnen und Benutzern vorbehalten. Sie gilt für Workflows, die Zielgruppenbestimmungsaktivitäten enthalten, wie **[!UICONTROL Zielgruppe aufbauen]**. Wenn diese Option aktiviert ist, werden die während der Workflow-Ausführung an die Datenbank gesendeten SQL-Abfragen in den Protokollen des Workflows angezeigt, sodass Sie sie analysieren können, um Abfragen zu optimieren oder Probleme zu diagnostizieren.
 
 ## Einstellungen für den Umgang mit Fehlern  {#error-settings}
 
 >[!CONTEXTUALHELP]
 >id="acw_workflow_settings_error"
 >title="Einstellungen für den Umgang mit Fehlern"
->abstract="In diesem Abschnitt können Sie definieren, wie der Workflow Fehler während seiner Ausführung verwalten soll. Sie können den Prozess anhalten, eine bestimmte Anzahl von Fehlern ignorieren oder die Ausführung des Workflows stoppen."
+>abstract="In diesem Abschnitt können Sie definieren, wie der Workflow mit Fehlern während seiner Ausführung umgehen soll. Sie können festlegen, dass der Prozess angehalten werden soll, dass eine bestimmte Anzahl von Fehlern ignoriert werden soll oder dass die Ausführung des Workflows gestoppt werden soll."
 
-* **[!UICONTROL Umgang mit Fehlern]**: In diesem Feld können Sie festlegen, welche Aktionen ausgeführt werden sollen, wenn eine Workflow-Aufgabe Fehler aufweist. Es gibt drei Möglichkeiten:
+* **[!UICONTROL Umgang mit Fehlern]**: In diesem Feld können Sie festlegen, welche Aktionen ausgeführt werden sollen, wenn eine Workflow-Aufgabe Fehler aufweist. Es gibt drei mögliche Optionen:
 
    * **[!UICONTROL Prozess aussetzen]**: Der Workflow wird automatisch ausgesetzt und der Status wechselt zu **[!UICONTROL Fehlgeschlagen]**. Sobald das Problem behoben ist, setzen Sie den Workflow mit der Schaltfläche **[!UICONTROL Fortsetzen]** fort.
    * **[!UICONTROL Ignorieren]**: Der Status der Aufgabe, die den Fehler ausgelöst hat, ändert sich in **[!UICONTROL Fehlgeschlagen]**, der Workflow behält jedoch den Status **[!UICONTROL Gestartet]**. <!-- TO ADD ONCE SCHEUDLER IS AVAILABLE This configuration is relevant for recurring tasks: if the branch includes a scheduler, it will start normally next time the workflow is executed.-->

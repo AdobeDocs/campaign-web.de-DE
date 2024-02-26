@@ -1,21 +1,21 @@
 ---
 audience: end-user
 user-guide-title: Adobe Campaign Web-Benutzeroberfläche
-user-guide-description: Produktdokumentation für die Adobe Campaign-Webbenutzeroberfläche.
+user-guide-description: Produktdokumentation zur Adobe Campaign Web-Benutzeroberfläche.
 title: Dokumentation zu Adobe Campaign Web
 description: Dokumentation zu Campaign Web
-breadcrumb-title: Campaign-Webbenutzeroberfläche
+breadcrumb-title: Campaign Web-Benutzeroberfläche
 source-git-commit: 23127900a70e0a6e6873141448dc9f8e365ea0f5
 workflow-type: tm+mt
 source-wordcount: '585'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
 
 # Dokumentation zu Adobe Campaign Web {#v8}
 
-+ [Dokumentation zur Adobe Campaign-Webbenutzeroberfläche](campaign-web-home.md)
++ [Dokumentation zur Adobe Campaign Web-Benutzeroberfläche](campaign-web-home.md)
 + [Neue Funktionen](rn/whats-new.md)
 + [Aktualisierungen der Dokumentation](rn/documentation-updates.md)
 + Erste Schritte mit Adobe Campaign {#start}
@@ -25,7 +25,7 @@ ht-degree: 92%
    + [Durchsuchen und Filtern von Listen](get-started/list-filters.md)
    + [Arbeiten mit vordefinierten Filtern](get-started/predefined-filters.md)
    + [Zugriff und Berechtigungen](get-started/permissions.md)
-   + [Campaign-Web- und Campaign-Client-Konsole](get-started/capability-matrix.md)
+   + [Campaign Web und Campaign-Client-Konsole](get-started/capability-matrix.md)
    + [KI-gestützte Kontexthilfe](get-started/using-ai.md)
 + Nachrichten und Sendungen {#msg}
    + [Erste Schritte mit Nachrichten](msg/gs-messages.md)
@@ -91,7 +91,7 @@ ht-degree: 92%
    + [Erstellen und Veröffentlichen einer Landingpage](landing-pages/create-lp.md)
    + [Entwerfen von Inhalten für eine Landingpage](landing-pages/lp-content.md)
    + [Arbeiten mit Landingpage-Vorlagen](landing-pages/lp-templates.md)
-   + [Anwendungsbeispiele](landing-pages/lp-use-cases.md)
+   + [Lernen durch Anwendungsfälle](landing-pages/lp-use-cases.md)
 + Profile und Audiences {#audiences}
    + [Erste Schritte mit Profilen und Zielgruppen](audience/gs-audiences-recipients.md)
    + [Zielgruppendimensionen](audience/targeting-dimensions.md)

@@ -6,7 +6,7 @@ exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
 source-git-commit: 12492f1c2464a18a420e6f4dccb62debf0bb3151
 workflow-type: tm+mt
 source-wordcount: '960'
-ht-degree: 92%
+ht-degree: 97%
 
 ---
 
@@ -33,7 +33,7 @@ Gehen Sie wie folgt vor, um auf die für Ihre Plattform verfügbaren Anmeldedien
 
    ![](assets/service-list.png){zoomable=&quot;yes&quot;}
 
-1. Die Liste aller vorhandenen Anmeldedienste wird angezeigt. Sie können die Dienste durchsuchen und nach dem Kanal oder dem Ordner filtern oder Regeln hinzufügen, indem Sie den [Abfrage-Modeler](../query/query-modeler-overview.md) verwenden.
+1. Die Liste aller vorhandenen Abonnementdienste wird angezeigt. Sie können die Dienste durchsuchen und nach dem Kanal oder dem Ordner filtern oder Regeln hinzufügen, indem Sie den [Abfrage-Modeler](../query/query-modeler-overview.md) verwenden.
 
    ![](assets/service-filters.png){zoomable=&quot;yes&quot;}
 
@@ -69,9 +69,9 @@ Gehen Sie wie folgt vor, um einen Anmeldedienst zu erstellen.
 
 1. Standardmäßig sind Abonnements unbegrenzt.
 
-   Sie können die **[!UICONTROL Unbegrenzte Gültigkeitsdauer]** -Option, um eine Gültigkeitsdauer für den Dienst festzulegen. Sobald der Gültigkeitszeitraum endet:
-   * Empfänger können diesen Dienst nicht mehr abonnieren
-   * Alle Abonnenten dieses Dienstes werden automatisch abgemeldet
+   Sie können die Option **[!UICONTROL Unbegrenzter Gültigkeitszeitraum]** deaktivieren, um einen Gültigkeitszeitraum für den Dienst festzulegen. Sobald der Gültigkeitszeitraum endet:
+   * Empfängerinnen und Empfänger können sich nicht mehr für diesen Dienst anmelden.
+   * Alle Abonnentinnen und Abonnenten dieses Dienstes werden automatisch abgemeldet.
 
    ![](assets/service-create-validity-period.png){zoomable=&quot;yes&quot;}
 
@@ -110,7 +110,7 @@ Um den Benutzerinnen und Benutzern, die sich für Ihren Dienst angemeldet haben 
 
    >[!NOTE]
    >
-   >Wenn Sie das Zielgruppen-Mapping für **[!UICONTROL Abonnements]** nicht auswählen, erhalten Ihre Abonnentinnen und Abonnenten keine Bestätigungsnachricht. Weitere Informationen zu Zielgruppen-Mappings finden Sie unter [diesem Abschnitt](../audience/targeting-dimensions.md) .
+   >Wenn Sie das Zielgruppen-Mapping für **[!UICONTROL Abonnements]** nicht auswählen, erhalten Ihre Abonnentinnen und Abonnenten keine Bestätigungsnachricht. Erfahren Sie mehr über Zielgruppen-Mapping in [diesem Abschnitt](../audience/targeting-dimensions.md).
 
 1. Bearbeiten Sie den Inhalt Ihrer Versandvorlage, speichern und schließen Sie sie.
 
