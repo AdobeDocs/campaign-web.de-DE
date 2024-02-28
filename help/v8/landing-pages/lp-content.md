@@ -2,10 +2,10 @@
 title: Definieren des Inhalts für die Landingpage
 description: Erfahren Sie, wie Sie in Campaign Web Landingpage-spezifische Inhalte erstellen
 feature: Landing Pages
-source-git-commit: 26c41105a4c04b72e0aedf05a4b3268b0e475d40
+source-git-commit: 2afb8c03305262c5695121fb03936c6d738833b5
 workflow-type: tm+mt
-source-wordcount: '872'
-ht-degree: 100%
+source-wordcount: '887'
+ht-degree: 96%
 
 ---
 
@@ -16,8 +16,12 @@ ht-degree: 100%
 >title="Verwenden von Inhaltskomponenten"
 >abstract="Inhaltskomponenten sind leere Platzhalter für Inhalte, mit denen Sie das Layout einer Landingpage gestalten können. Verwenden Sie die Formularkomponente, um bestimmte Inhalte zu definieren, über die Benutzerinnen und Benutzer ihre Auswahl auswählen und übermitteln können."
 
-Sie können den Inhalt einer beliebigen Seite Ihrer Landingpage bearbeiten.
+>[!CONTEXTUALHELP]
+>id="acw_landingpages_primarypage"
+>title="Definieren der primären Seiteneinstellungen"
+>abstract="Die primäre Seite wird den Benutzenden sofort angezeigt, nachdem sie auf den Link zu Ihrer Landingpage geklickt haben, z. B. über eine E-Mail oder eine Website."
 
+Sie können den Inhalt einer beliebigen Seite Ihrer Landingpage bearbeiten.
 
 Die erste Seite, die den Benutzenden sofort angezeigt wird, nachdem sie auf den Link zu Ihrer Landingpage geklickt haben, ist bereits mit der [Landingpage-spezifischen Formularkomponente](#use-form-component) für die ausgewählte Vorlage vorausgefüllt<!-- to enable users to select and submit their choices-->.
 
@@ -49,7 +53,7 @@ Um bestimmte Inhalte zu definieren, mit denen Benutzende ihre Auswahl auf Ihrer 
 
 1. Wählen Sie sie aus. Die Registerkarte **[!UICONTROL Formularinhalt]** in der rechten Palette wird angezeigt, damit Sie die verschiedenen Felder des Formulars bearbeiten können.
 
-   ![](assets/lp-form-component.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-form-component.png)
 
    >[!NOTE]
    >
@@ -57,7 +61,7 @@ Um bestimmte Inhalte zu definieren, mit denen Benutzende ihre Auswahl auf Ihrer 
 
 1. Erweitern Sie das erste Textfeld, falls vorhanden, oder fügen Sie eines mithilfe der Schaltfläche **[!UICONTROL Hinzufügen]** hinzu. Sie können im Abschnitt **[!UICONTROL Textfeld 1]** den Feldtyp, das zu aktualisierende Datenbankfeld, den Titel und den Text bearbeiten, der im Feld angezeigt wird, bevor Benutzende einen Wert eingeben.
 
-   ![](assets/lp-form-text-field.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-form-text-field.png)
 
 1. Aktivieren Sie bei Bedarf die Option **[!UICONTROL Formularfeld zum Pflichtfeld machen]**. In diesem Fall kann das Formular der Landingpage nur gesendet werden, wenn der Benutzer dieses Feld ausgefüllt hat.
 
@@ -67,7 +71,7 @@ Um bestimmte Inhalte zu definieren, mit denen Benutzende ihre Auswahl auf Ihrer 
 
 1. Erweitern Sie das Kontrollkästchen, falls vorhanden, oder fügen Sie eines mithilfe der Schaltfläche **[!UICONTROL Hinzufügen]** hinzu. Wählen Sie aus, ob mit diesem Kontrollkästchen ein Dienst oder ein Feld aus der Datenbank aktualisiert werden soll.
 
-   ![](assets/lp-form-checkbox.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-form-checkbox.png)
 
    Wenn Sie **[!UICONTROL Abonnements und Services]** auswählen, wählen Sie einen Dienst aus der Liste aus und legen Sie eine der beiden folgenden Optionen fest:
 
@@ -76,15 +80,15 @@ Um bestimmte Inhalte zu definieren, mit denen Benutzende ihre Auswahl auf Ihrer 
 
    Wenn Sie **[!UICONTROL Feld]** auswählen, wählen Sie ein Feld aus der Attributliste aus und legen Sie eine der beiden folgenden Optionen fest:
 
-   * **[!UICONTROL Ja, wenn aktiviert]**<!--TBC-->
+   * **[!UICONTROL Ja, wenn aktiviert]**.<!--TBC-->
 
-   * **[!UICONTROL Nein, wenn aktiviert]**<!--TBC-->
+   * **[!UICONTROL Nein, überprüft]**.<!--TBC-->
 
 1. Sie können so viele Felder (z. B. Textfelder, Optionsfelder, Kontrollkästchen, Dropdown-Listen usw.) löschen und hinzufügen wie nötig.
 
 1. Nachdem alle Felder hinzugefügt oder aktualisiert wurden, klicken Sie auf **[!UICONTROL Handlungsaufforderung]**, um den entsprechenden Abschnitt zu erweitern. Damit können Sie das Verhalten der Schaltfläche in der **[!UICONTROL Formularkomponente]** festlegen.
 
-   ![](assets/lp-call-to-action.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-call-to-action.png)
 
 1. Definieren Sie, was beim Klicken auf die Schaltfläche passieren soll:
 
@@ -95,10 +99,10 @@ Um bestimmte Inhalte zu definieren, mit denen Benutzende ihre Auswahl auf Ihrer 
 1. Wenn Sie beim Senden des Formulars zusätzliche Aktualisierungen vornehmen möchten, wählen Sie **[!UICONTROL Zusätzliche Aktualisierungen]** aus und wählen Sie dann das Element aus, das Sie aktualisieren möchten:
    * Einen Abonnement-Dienst: Definieren Sie in diesem Fall, ob Sie Benutzende beim Senden des Formulars anmelden oder abmelden möchten.
    * Die beim Ausfüllen des Formulars verwendete E-Mail-Adresse.
-   * Alle Kanäle: Beim Senden des Formulars werden die Benutzenden (je nach ausgewählter Vorlage) für alle Nachrichten von Ihrer Marke auf allen Kanälen angemeldet oder abgemeldet.
+   * Alle Kanäle - Beim Senden des Formulars werden die Benutzer (je nach ausgewählter Vorlage) an/aus allen Nachrichten Ihrer Marke auf allen Kanälen angemeldet oder abgemeldet.
    * Ein Feld aus der Datenbank: Wählen Sie ein Feld aus der Attributliste aus und legen Sie fest, ob es beim Senden des Formulars auf „True“ oder „False“ gesetzt werden soll.
 
-   ![](assets/lp-form-additionnal-updates.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-form-additionnal-updates.png)
 
 1. Speichern Sie den Inhalt, um zu den [Eigenschaften der Landingpage](create-lp.md#create-landing-page) zurückzukehren.
 
@@ -108,17 +112,17 @@ Um bestimmte Inhalte zu definieren, mit denen Benutzende ihre Auswahl auf Ihrer 
 
 1. Der Abschnitt **[!UICONTROL Textfeld]** wird standardmäßig erweitert. Er ermöglicht es Ihnen, das Erscheinungsbild des Textfelds zu bearbeiten, z. B. die Schriftart für Titel, die Position der Titel, die Hintergrundfarbe des Felds oder des Feldrands.
 
-   ![](assets/lp-text-styles.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-text-styles.png)
 
 1. Klappen Sie den Abschnitt **[!UICONTROL Kontrollkästchen]** aus, um das Erscheinungsbild der Kontrollkästchen und des entsprechenden Texts zu definieren. Sie können beispielsweise die Schriftfamilie, die Schriftgröße und die Rahmenfarbe des Kontrollkästchens anpassen.
 
-   ![](assets/lp-checkbox-style.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-checkbox-style.png)
 
 1. Erweitern und bearbeiten Sie alle anderen Abschnitte, die anderen von Ihnen zum Formular hinzugefügten Feldern entsprechen (Optionsfeld, Dropdown-Liste, Datum und Uhrzeit usw.)
 
 1. Erweitern Sie den Abschnitt **[!UICONTROL Handlungsaufforderung]**, um das Erscheinungsbild der Schaltfläche im Komponentenformular zu ändern. Sie können beispielsweise die Schriftart ändern, einen Rahmen hinzufügen, die Beschriftungsfarbe beim Bewegen des Mauszeigers bearbeiten oder die Ausrichtung der Schaltfläche anpassen.
 
-   ![](assets/lp-call-to-action-style.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-call-to-action-style.png)
 
    Sie können eine Vorschau einiger Ihrer Einstellungen anzeigen, z. B. die Farbe der Schaltflächenbeschriftung beim Bewegen des Mauszeigers, indem Sie die Schaltfläche **[!UICONTROL Inhalt simulieren]** verwenden. [Weitere Informationen](create-lp.md#test-landing-page)
 

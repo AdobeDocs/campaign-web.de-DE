@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: Landing, Landingpage, Anwendungsfall
-source-git-commit: 22d9615947b1a7dbbbd4cd740ab8c91e0d388f41
+source-git-commit: 2afb8c03305262c5695121fb03936c6d738833b5
 workflow-type: tm+mt
-source-wordcount: '1309'
-ht-degree: 98%
+source-wordcount: '1381'
+ht-degree: 93%
 
 ---
 
@@ -21,11 +21,17 @@ ht-degree: 98%
 >title="Vorsicht beim Kopieren der URL"
 >abstract="Sie können diesen Link nicht direkt in einen Webbrowser oder in Ihre Sendungen kopieren und einfügen, um Ihre Landingpage vollständig zu testen oder zu nutzen. Verwenden Sie stattdessen die Funktion **Inhalt simulieren**, um sie zu testen, und führen Sie die in der Dokumentation beschriebenen Schritte aus, um Ihre Landingpage richtig zu nutzen."
 
+>[!CONTEXTUALHELP]
+>id="acw_landingpages_templates"
+>title="Vorsicht beim Kopieren der URL"
+>abstract="Bei der Erstellung einer Landingpage können Sie mit vier nativen Vorlagen verschiedene Anwendungsfälle implementieren: Hinzufügen oder Aktualisieren eines Profils zur Campaign-Datenbank, Abonnieren eines Dienstes, Abmelden von einem Dienst oder Abmelden von Benutzern."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html#create-landing-page" text="Erstellen einer Landingpage"
+
 Um Ihre Landingpage richtig zu nutzen, sollten Sie sie als Link in einem Versand mit der entsprechenden Option referenzieren.
 
 >[!CAUTION]
 >
->Um Ihre Landingpage vollständig zu nutzen, können Sie den im Dashboard des veröffentlichten Versands angezeigten Link nicht direkt in Ihre Sendungen oder auf eine Web-Seite kopieren und dort einfügen.
+>Um Ihre Landingpage vollständig zu nutzen, können Sie den im Dashboard des veröffentlichten Versands angezeigten Link nicht direkt in Ihre Sendungen oder auf eine Webseite kopieren und einfügen. In diesem Abschnitt erfahren Sie, wie Sie dies ordnungsgemäß durchführen.
 
 In der [!DNL Adobe Campaign Web]-Benutzeroberfläche stehen Ihnen vier vorkonfigurierte Vorlagen zur Verfügung, mit denen Sie verschiedene Anwendungsfälle implementieren können. Die wichtigsten Schritte sind jedoch identisch und werden im Folgenden beschrieben.
 
@@ -105,6 +111,11 @@ Wenn sie sich für den Erhalt Ihres Newsletters entschieden haben, werden sie f�
 ![](assets/lp-uc-newsletter-subscriber.png){zoomable=&quot;yes&quot;}
 
 ## Abonnement für einen Dienst {#lp-subscription}
+
+>[!CONTEXTUALHELP]
+>id="acw_landingpages_subscription"
+>title="Festlegen der Anmelde-Landingpage"
+>abstract="Über eine Anmeldeseite können Ihre Kundinnen und Kunden einen Dienst abonnieren."
 
 Einer der häufigsten Anwendungsfälle besteht darin, über eine Landingpage Ihre Kundinnen und Kunden einzuladen, einen [Dienst zu abonnieren](../audience/manage-services.md) (z. B. einen Newsletter oder eine Veranstaltung). Gehen Sie dazu wie folgt vor.
 
