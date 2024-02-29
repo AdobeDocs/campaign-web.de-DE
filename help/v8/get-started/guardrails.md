@@ -2,9 +2,9 @@
 title: Limits und Einschränkungen in Workflows der Campaign-Webbenutzeroberfläche
 description: Limits und Einschränkungen bei der Arbeit mit Workflows in der Campaign-Webbenutzeroberfläche
 exl-id: 9c8c67ce-9823-4082-b0bd-5613f3feb6e3
-source-git-commit: 19864179f02d39583cc90d42bf6ab677f4841600
+source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '374'
 ht-degree: 93%
 
 ---
@@ -17,7 +17,10 @@ Beachten Sie, dass auf dieser Seite zwar wichtige Aspekte bei der Arbeit mit Wor
 
 ## Workflow-Aktivitäten {#wkf-activities}
 
-Workflow-Aktivitäten, die noch nicht in der Campaign Web-Benutzeroberfläche unterstützt werden, sind schreibgeschützt und werden als inkompatible Aktivitäten angezeigt. Sie können weiterhin den Workflow ausführen, Nachrichten senden, die Protokolle überprüfen usw. Workflow-Aktivitäten, die sowohl in der Campaign Web-Benutzeroberfläche als auch in der Client-Konsole verfügbar sind, können bearbeitet werden.
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_query_enrichment_noneditable"
+>title="Aktivität nicht bearbeitbar"
+>abstract="Wenn eine **Abfrageaktivität** oder **Anreicherungsaktivität** mit zusätzlichen Daten in der Konsole konfiguriert ist, werden die Anreicherungsdaten im Campaign Web berücksichtigt und an die ausgehende Transition übergeben. Sie können jedoch nicht bearbeitet werden."
 
 Workflow-Aktivitäten, die noch nicht in der Campaign Web-Benutzeroberfläche unterstützt werden, sind schreibgeschützt und werden als inkompatible Aktivitäten angezeigt. Sie können weiterhin den Workflow ausführen, Nachrichten senden, die Protokolle überprüfen usw. Workflow-Aktivitäten, die sowohl in der Campaign Web-Benutzeroberfläche als auch in der Campaign-Client-Konsole verfügbar sind, können bearbeitet werden.
 

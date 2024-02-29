@@ -3,10 +3,10 @@ audience: end-user
 title: Berechtigungsverwaltung in der Campaign Web-Benutzeroberfläche
 description: Erfahren Sie mehr über Berechtigungen in der Campaign Web-Benutzeroberfläche
 exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
-source-git-commit: 97b6de0763dbeb133d7d0346e6af4d056cc731e3
+source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
 workflow-type: tm+mt
-source-wordcount: '601'
-ht-degree: 100%
+source-wordcount: '623'
+ht-degree: 98%
 
 ---
 
@@ -17,18 +17,20 @@ ht-degree: 100%
 >title="Berechtigung erforderlich"
 >abstract="Ihre Admins müssen Ihnen die Berechtigung erteilen, bevor Sie ein Segment erstellen können."
 
-
 >[!CONTEXTUALHELP]
 >id="acw_audiences_read_only"
 >title="Diese Zielgruppe ist schreibgeschützt"
 >abstract="Sie haben keine Berechtigungen, diese Zielgruppe zu bearbeiten. Bei Bedarf Admin kontaktieren, um Zugriff zu erhalten."
-
 
 >[!CONTEXTUALHELP]
 >id="acw_subscription_services_read_only"
 >title="Dieser Service ist schreibgeschützt"
 >abstract="Keine Berechtigung, diesen Service zu bearbeiten. Bei Bedarf Admin kontaktieren, um Zugriff zu erhalten."
 
+>[!CONTEXTUALHELP]
+>id="acw_recipients_readonlyprofile"
+>title="Empfänger – Schreibgeschütztes Profil"
+>abstract="Sie sind nicht berechtigt, dieses Profil zu bearbeiten. Bei Bedarf Admin kontaktieren, um Zugriff zu erhalten."
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_read_only"
