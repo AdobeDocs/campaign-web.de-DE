@@ -3,7 +3,7 @@ audience: end-user
 title: Arbeiten mit Workflow-Aktivitäten
 description: Erfahren Sie, wie Sie Workflow-Aktivitäten durchführen.
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
 workflow-type: tm+mt
 source-wordcount: '463'
 ht-degree: 100%
@@ -36,7 +36,6 @@ Diese Aktivitäten dienen der Zielgruppenbestimmung, Manipulation und Anreicheru
 * Mithilfe der Aktivität [Deduplizierung](deduplication.md) lassen sich Dubletten in Ergebnissen aus eingehenden Aktivitäten löschen.
 * Mit der Aktivität [Dimensionsänderung](change-dimension.md) können Sie die Zielgruppendimension ändern, während Sie Ihren Workflow erstellen.
 * Mit der Aktivität [Datei laden](load-file.md) können Sie mit Profilen und Daten arbeiten, die in einer externen Datei gespeichert sind.
-
 
 ## Kanalaktivitäten {#channel}
 
