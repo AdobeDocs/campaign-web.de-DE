@@ -3,10 +3,10 @@ audience: end-user
 title: Funktionsmatrix für die Benutzeroberfläche/Client-Konsole von Campaign Web
 description: Liste der in der Campaign Web-Benutzeroberfläche unterstützten Funktionen
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 45e5b528837614cdbd537d0a92e71265f65f97db
+source-git-commit: 81ee3c7ce46826089f68d2da1ff1a45e7fa93473
 workflow-type: tm+mt
-source-wordcount: '2151'
-ht-degree: 100%
+source-wordcount: '2179'
+ht-degree: 95%
 
 ---
 
@@ -152,14 +152,27 @@ Einige Funktionen sind nur in der Client-Konsole verfügbar. Nutzen Sie die bere
 
 ## Datenmodellierung und Datenaufnahme {#data-capabilities}
 
-Die Campaign Web-Benutzeroberfläche weist die folgenden Funktionen nicht auf. Sie sind nur in der Client-Konsole verfügbar.
+Die Campaign Web-Benutzeroberfläche weist die folgenden Funktionen nicht auf. Sie sind nur in der Client-Konsole verfügbar:
 
-Nutzen Sie die bereitgestellten Links in der [Dokumentation zu Campaign v8 (Client-Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=de){target="_blank"}, um mehr zu erfahren.
+### Externe Konten {#external}
 
-* **Externe Konten**. Adobe Campaign verfügt über eine Reihe vordefinierter externer Konten, um eine Verbindung mit externen Systemen herzustellen. Als Campaign-System-Admin können Sie externe Konten nur über die Client-Konsole erstellen und verwalten.[Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/external-accounts.html?lang=de){target="_blank"}
-* **Schemaerstellung und -erweiterung**. Die Erstellung, Änderung und Erweiterung von Schemata sind auf erfahrene Benutzende beschränkt. Diese Funktionen sind nur in der Client-Konsole verfügbar. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/schemas.html?lang=de){target="_blank"}
-* **Daten-Management**-Workflow-Aktivitäten. Daten-Management kombiniert eine Reihe von Aktivitäten zur Lösung komplexer Targeting-Probleme, indem es effizientere und flexiblere Tools anbietet. Zu diesen Aktivitäten gehören: Laden von Daten, Extraktion (Datei), Aktualisieren von Daten, Schemabearbeitung, technische Import-/Export-Workflows. Sie sind nur in der Client-Konsole verfügbar. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html?lang=de#data-management){target="_blank"}
-* **Federated Data Access**. Die Konfiguration und Verbindung von Campaign mit externen Systemen ist erfahrenen Benutzenden vorbehalten und nur über die Client-Konsole verfügbar. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html?lang=de){target="_blank"}
+Adobe Campaign verfügt über eine Reihe vordefinierter externer Konten, um eine Verbindung mit externen Systemen herzustellen. Als Campaign-System-Admin können Sie externe Konten nur über die Client-Konsole erstellen und verwalten.[Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/external-accounts.html?lang=de){target="_blank"}
+
+### Schemaerstellung und -erweiterung {#schema}
+
+Die Erstellung, Änderung und Erweiterung von Schemata sind auf erfahrene Benutzende beschränkt. Diese Funktionen sind nur in der Client-Konsole verfügbar. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/schemas.html?lang=de){target="_blank"}
+
+### Datenverwaltungsfunktionen von Workflows {#data}
+
+Das Data Management kombiniert eine Reihe von Aktivitäten zur Lösung komplexer Targeting-Probleme mit effizienteren und flexibleren Tools wie Laden, Extraktion (Datei), Daten-Update, Schema-Bearbeitung oder technischen Import/Export-Workflows. [Erfahren Sie mehr über die Datenverwaltungsfunktionen von Workflows in der Clientkonsole](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html?lang=de#data-management){target="_blank"}
+
+>[!NOTE]
+>
+>Während einige dieser Aktivitäten nur in der Client-Konsole verfügbar sind, sind einige in der Web-Benutzeroberfläche von Campaign verfügbar, wie zum Beispiel die **Anreicherung**, **Datei laden** oder **Dimensionsänderung** Aktivitäten. [Erfahren Sie mehr über Zielgruppen- und Datenverwaltungsaktivitäten in der Campaign-Webbenutzeroberfläche](../workflows/activities/about-activities.md#targeting)
+
+### Konfiguration des Federated Data Access {#fda}
+
+Die Konfiguration und Verbindung von Campaign mit externen Systemen ist erfahrenen Benutzenden vorbehalten und nur über die Client-Konsole verfügbar. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html?lang=de){target="_blank"}
 
 ## Genehmigungen {#approvals-capabilities}
 
