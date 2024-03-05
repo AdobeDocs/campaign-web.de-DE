@@ -3,9 +3,9 @@ audience: end-user
 title: Hinzufügen eines Links zur Mirrorseite
 description: Erfahren Sie, wie Sie den Link zur Mirrorseite hinzufügen und verwalten
 exl-id: 0c22357f-0465-4fdc-833e-5fda5805fe42
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '445'
 ht-degree: 100%
 
 ---
@@ -52,7 +52,7 @@ Wenn die Empfänger nach dem Versand der E-Mail auf den Link zur Mirrorseite kli
 
 >[!NOTE]
 >
->In der Test-E-Mail, die an die Testprofile gesendet wurde, ist der Link zur Mirrorseite nicht aktiv. Er wird nur in den endgültigen Nachrichten aktiviert.
+>Im Testversand an die Testprofile ist der Link zur Mirrorseite nicht aktiv. Er wird nur in den endgültigen Nachrichten aktiviert.
 
 Standardmäßig beträgt die Beibehaltungsdauer für eine Mirrorseite 60 Tage. Nach dieser Verzögerung ist die Mirrorseite nicht mehr verfügbar.
 

@@ -3,10 +3,10 @@ audience: end-user
 title: Ansprechen von Empfängerinnen und Empfängern aus einer Datei
 description: Erfahren Sie, wie Sie mit Empfängerinnen und Empfängern aus einer externen Datei eine E-Mail-Zielgruppe erstellen können.
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
 workflow-type: tm+mt
-source-wordcount: '626'
-ht-degree: 100%
+source-wordcount: '620'
+ht-degree: 88%
 
 ---
 
@@ -84,7 +84,7 @@ Durance,Allison,San Francisco,15/12/2000,allison.durance@example.com,1
 
 ## Erstellen einer E-Mail-Vorschau und Testen einer E-Mail {#test}
 
-Mit Campaign Web können Sie sich Test-E-Mails in der Vorschau ansehen und sie senden, wenn Sie eine aus einer Datei hochgeladene Zielgruppe verwenden. Gehen Sie dazu wie folgt vor:
+Mit Campaign Web können Sie Testsendungen in der Vorschau anzeigen und durchführen, wenn Sie eine aus einer Datei hochgeladene Audience verwenden. Gehen Sie dazu wie folgt vor:
 
 1. Klicken Sie auf die **[!UICONTROL Schaltfläche „Inhalt simulieren“]** im Bearbeitungsbildschirm des Versandinhalts und klicken Sie dann auf die Schaltfläche **[!UICONTROL Testprofil(e) hinzufügen]**.
 
@@ -94,7 +94,7 @@ Mit Campaign Web können Sie sich Test-E-Mails in der Vorschau ansehen und sie s
 
    ![](assets/file-upload-preview.png){zoomable=&quot;yes&quot;}
 
-1. Um Test-E-Mails zu senden, klicken Sie auf die Schaltfläche **[!UICONTROL Testen]**.
+1. Um Testsendungen durchzuführen, klicken Sie auf das **[!UICONTROL Testversand durchführen]** Schaltfläche.
 
 1. Klicken Sie auf die Schaltfläche **[!UICONTROL Testprofile hochladen]** und wählen Sie die TXT- oder CSV-Datei aus, die Ihre Testversand-Empfängerinnen und -Empfänger enthält.
 
@@ -102,8 +102,8 @@ Mit Campaign Web können Sie sich Test-E-Mails in der Vorschau ansehen und sie s
    >
    >Stellen Sie sicher, dass das Dateiformat mit dem Format übereinstimmt, das für das Hochladen Ihrer Zielgruppe verwendet wird. Bei Formatfehlern wird ein Warnhinweis angezeigt.
 
-1. Wenn die Testversand-Empfängerinnen und -Empfänger hinzugefügt wurden und Sie bereit sind, die Testsendungen durchzuführen, klicken Sie auf die Schaltfläche **[!UICONTROL Test-E-Mail senden]** und bestätigen Sie den Versand.
+1. Wenn die Testversand-Empfänger hinzugefügt werden und Sie bereit sind, die Testsendungen durchzuführen, klicken Sie auf die Schaltfläche **[!UICONTROL Testversand durchführen]** und bestätigen Sie den Versand.
 
    ![](assets/file-upload-test.png){zoomable=&quot;yes&quot;}
 
-1. Sie können den Versand der Test-E-Mail jederzeit mithilfe der Schaltfläche **[!UICONTROL Test-E-Mail-Protokoll anzeigen]** überwachen. [Erfahren Sie mehr über das Überwachen von Test-E-Mails](../preview-test/test-deliveries.md#access-test-deliveries)
+1. Sie können den Testversand mithilfe des **[!UICONTROL Testsendungen anzeigen]** -Schaltfläche zu einem beliebigen Zeitpunkt. [Weitere Informationen zur Überwachung von Testsendungen](../preview-test/test-deliveries.md#access-test-deliveries)

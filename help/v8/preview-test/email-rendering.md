@@ -3,10 +3,10 @@ audience: end-user
 title: Testen des E-Mail-Renderings
 description: Hinweise zum Testen Ihres E-Mail-Renderings in der Campaign Web-Benutzeroberfläche
 exl-id: 5cdbce8b-3969-470d-8019-1edc58433146
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
 workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 100%
+source-wordcount: '235'
+ht-degree: 86%
 
 ---
 
@@ -19,7 +19,7 @@ Zu diesem Zweck können Sie Ihr **Litmus**-Konto in [!DNL Adobe Campaign] einbin
 
 >[!CAUTION]
 >
->Bei der Verwendung von E-Mail-Rendering in Campaign wird eine Test-E-Mail an ein Fremdsystem gesendet. Indem Sie Ihr Litmus-Konto mit [!DNL Campaign] verbinden, erkennen Sie an, dass Adobe nicht für Daten verantwortlich ist, die Sie an diesen Drittanbieter senden. Die Litmus-E-Mail-Richtlinie zur Datenaufbewahrung gilt für diese E-Mails, einschließlich der Personalisierungsdaten, die in diese Testnachrichten aufgenommen werden können. Um auf solche Daten zuzugreifen oder sie zu löschen, müssen Sie sich direkt an Litmus wenden.
+>Die Verwendung von E-Mail-Rendering in Campaign sendet einen Testversand an ein Drittanbietersystem. Indem Sie Ihr Litmus-Konto mit [!DNL Campaign] verbinden, erkennen Sie an, dass Adobe nicht für Daten verantwortlich ist, die Sie an diesen Drittanbieter senden. Die Litmus-E-Mail-Richtlinie zur Datenaufbewahrung gilt für diese E-Mails, einschließlich der Personalisierungsdaten, die in diesen Testsendungen enthalten sein können. Um auf solche Daten zuzugreifen oder sie zu löschen, müssen Sie sich direkt an Litmus wenden.
 
 Für den Zugriff auf E-Mail-Rendering-Funktionen müssen Sie folgende Voraussetzungen erfüllen:
 

@@ -1,12 +1,12 @@
 ---
 audience: end-user
 title: Durchführen von Testsendungen
-description: Erfahren Sie, wie Sie Testsendungen definieren und durchführen.
+description: Erfahren Sie, wie Sie Testsendungen definieren und senden
 exl-id: b2677579-c95d-443d-b207-466af364c208
-source-git-commit: 8667de1d86428427edd9a2718218de9801b0922d
+source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
 workflow-type: tm+mt
-source-wordcount: '1178'
-ht-degree: 100%
+source-wordcount: '1146'
+ht-degree: 61%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 Nachdem der Nachrichteninhalt definiert wurde, können Sie ihn in der Vorschau anzeigen und testen, indem Sie Testsendungen an Testprofile senden. Wenn Sie personalisierte Inhalte eingefügt haben, können Sie mithilfe von Testprofildaten überprüfen, wie diese Inhalte in der Nachricht angezeigt werden.
 
-Um mögliche Fehler im Nachrichteninhalt oder in den Personalisierungseinstellungen zu erkennen, senden Sie Testsendungen an Testprofile, bevor Sie sie an die Zielgruppe senden. Bei jeder Änderung sollte ein Testversand gesendet werden, um den neuesten Inhalt zu validieren. Testsendungen sind ein wichtiger Schritt bei der Validierung Ihrer Kampagne und Erkennung potenzieller Probleme. Die Empfängerinnen und Empfänger eines Testversands können verschiedene Elemente wie Links, Opt-out-Links, Bilder oder Mirrorseiten überprüfen sowie Fehler bei Rendering, Inhalt, Personalisierungseinstellungen und Versandkonfiguration erkennen.
+Um mögliche Fehler im Nachrichteninhalt oder in den Personalisierungseinstellungen zu erkennen, senden Sie Testsendungen an Testprofile, bevor Sie sie an die Zielgruppe senden. Bei jeder Änderung sollte ein Testversand durchgeführt werden, um den aktuellen Inhalt zu validieren. Die Übermittlung von Testsendungen ist ein wichtiger Schritt zur Validierung Ihrer Kampagne und zur Identifizierung potenzieller Probleme. Die Empfängerinnen und Empfänger eines Testversands können verschiedene Elemente wie Links, Opt-out-Links, Bilder oder Mirrorseiten überprüfen sowie Fehler bei Rendering, Inhalt, Personalisierungseinstellungen und Versandkonfiguration erkennen.
 
 ## Simulieren von Inhalten mit Testempfängerinnen und -empfängern {#simulate-content-test-deliveries}
 
@@ -28,21 +28,21 @@ Um mögliche Fehler im Nachrichteninhalt oder in den Personalisierungseinstellun
 >title="Testpopulation"
 >abstract="Wählen Sie einen Testpopulationsmodus aus."
 
-Stellen Sie vor einem Testversand sicher, dass Sie eine Zielgruppe für den Versand definieren. [Weitere Informationen](../audience/add-audience.md)
+Stellen Sie vor dem Testversand sicher, dass Sie eine Zielgruppe für Ihren Versand definieren. [Weitere Informationen](../audience/add-audience.md)
 
 So testen Sie Ihre Nachrichteninhalte:
 
 1. Bearbeiten Sie den Inhalt Ihres Versands.
 1. Klicken Sie auf die Schaltfläche **[!UICONTROL Inhalt simulieren]**.
-1. Klicken Sie auf die Schaltfläche **[!UICONTROL Testen]**, um Testsendungen zu senden.
+1. Klicken Sie auf **[!UICONTROL Testversand durchführen]** zum Senden von Testsendungen.
 
    ![](assets/simulate-test-button-email.png){zoomable=&quot;yes&quot;}
 
-1. Wählen Sie Ihre Testempfängerinnen und Testempfänger aus.
+1. Wählen Sie die Testversand-Empfänger aus.
 
-   Je nach Nachrichtenkanal können Testsendungen an folgende Empfängertypen gesendet werden:
+   Je nach Nachrichtenkanal kann ein Testversand an die folgenden Empfängertypen gesendet werden:
 
-   * Für SMS und E-Mails können Sie [Testprofile](#test-profiles) verwenden, die bestimmte zusätzliche Empfängerinnen und Empfänger in der Datenbank sind. Sie können auch den Modus [Ersatz durch Hauptzielgruppe](#substitution-profiles) verwenden, der die Testsendungen an eine E-Mail-Testadresse bzw. Telefonnummer sendet und Personalisierungsdaten eines vorhandenen Profils verwendet. Auf diese Weise wird Ihnen die Nachricht so wie Ihren Empfängerinnen und Empfängern angezeigt. Sie erhalten so eine genaue Darstellung des Inhalts, den das Profil empfangen wird.
+   * Für SMS und E-Mails können Sie [Testprofile](#test-profiles) verwenden, die bestimmte zusätzliche Empfängerinnen und Empfänger in der Datenbank sind. Sie können auch die [Substitution durch Hauptzielgruppe](#substitution-profiles) -Modus, der den Testversand an eine E-Mail-Testadresse oder Telefonnummer sendet und Personalisierungsdaten eines vorhandenen Profils verwendet. Auf diese Weise wird Ihnen die Nachricht so wie Ihren Empfängerinnen und Empfängern angezeigt. Sie erhalten so eine genaue Darstellung des Inhalts, den das Profil empfangen wird.
 
    * Für Push-Nachrichten können Sie [Abonnenten](#subscribers) verwenden: fiktive Abonnentinnen und Abonnenten, die zur Datenbank hinzugefügt werden. Sie werden in der [!DNL Campaign]-Konsole angezeigt. Weitere Informationen finden Sie in der [Dokumentation zu Campaign v8 (Client-Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html?lang=de){target="_blank"}
 
@@ -68,29 +68,29 @@ So testen Sie Ihre Nachrichteninhalte:
 >[!CONTEXTUALHELP]
 >id="acw_sms_preview_option_app_target"
 >title="Testprofile in Hauptzielgruppe einbeziehen"
->abstract="Aktivieren Sie diese Option, um die endgültige Nachricht auch an die Empfängerinnen und Empfänger des Testversands zu senden."
+>abstract="Aktivieren Sie diese Option, um die endgültige Nachricht auch an die Testversand-Empfänger zu senden."
 
 Testprofile sind zusätzliche Empfängerinnen und Empfänger in der Datenbank. Sie können über das Menü **[!UICONTROL Kunden-Management]** > **[!UICONTROL Profile]** erstellt werden. [Weitere Informationen](../audience/test-profiles.md#create-test-profiles)
 
 Die Schritte zum Senden von Testsendungen an Testprofile werden nachfolgend beschrieben.
 
-1. Klicken Sie im Versandinhalt auf die Schaltfläche **[!UICONTROL Inhalt simulieren]** und dann auf **[!UICONTROL Testen]**.
+1. Klicken Sie im Versandinhalt auf die Schaltfläche **[!UICONTROL Inhalt simulieren]** und der **[!UICONTROL Testversand durchführen]** Schaltfläche.
 
-1. Wählen Sie aus der Dropdown-Liste **[!UICONTROL Modus]** die Option **[!UICONTROL Testprofile]** aus, um fiktive Empfängerinnen und Empfänger für den E-Mail- oder SMS-Testversand auszuwählen.
+1. Aus dem **[!UICONTROL Modus]** Dropdown-Liste auswählen **[!UICONTROL Testprofile]** , um fiktive Empfänger auszuwählen, die den Testversand oder SMS-Versand erhalten.
 
    ![](assets/simulate-profile-mode.png){zoomable=&quot;yes&quot;}
 
-1. Wenn Sie bereits Profile ausgewählt haben, um eine [Vorschau der Nachricht](preview-content.md) im Bildschirm zur Inhaltsimulation anzuzeigen, werden diese Profile als Testempfängerinnen und Testempfänger vorausgewählt. Sie können Ihre Auswahl löschen und/oder zusätzliche Empfängerinnen und Empfänger über die Schaltfläche **[!UICONTROL Testprofil(e) hinzufügen]** hinzufügen.
+1. Wenn Sie bereits Profile in [Vorschau der Nachricht erzeugen](preview-content.md) im Bildschirm der Inhaltsimulation werden diese Profile als Testversand-Empfänger vorausgewählt. Sie können Ihre Auswahl löschen und/oder zusätzliche Empfängerinnen und Empfänger über die Schaltfläche **[!UICONTROL Testprofil(e) hinzufügen]** hinzufügen.
 
 1. Beim Durchsuchen der Testprofile oder Profillisten können Sie Filter verwenden, um Ihre Suche zu verfeinern. Sie können beispielsweise eine Regel definieren, um nach allen Testprofilen mit dem Status **[!UICONTROL Interessent]** zu suchen. Erfahren Sie, wie Sie Regeln mithilfe des [Abfrage-Modelers](../query/query-modeler-overview.md) hinzufügen.
 
    ![](assets/simulate-test-profile-filter.png){zoomable=&quot;yes&quot;}
 
-1. Um die endgültige Nachricht auch an die Empfängerinnen und Empfänger des Testversands zu senden, wählen Sie die Option **[!UICONTROL Testpopulation in Hauptzielgruppe einbeziehen]** aus.
+1. Um den Testversand-Empfängern auch die endgültige Nachricht zu senden, wählen Sie die **[!UICONTROL Testpopulation in die Hauptzielgruppe einbeziehen]** -Option.
 
    ![](assets/simulate-include-test.png){zoomable=&quot;yes&quot;}
 
-1. Sobald die Testprofile ausgewählt sind, können Sie den [Testversand durchführen](#send-test).
+1. Nach Auswahl der Testprofile können Sie [Testversand durchführen](#send-test).
 
 ## Ersetzen von Profildaten {#substitution-profiles}
 
@@ -98,37 +98,37 @@ Verwenden Sie die Profilersetzung, um Testsendungen an eine bestimmte E-Mail-Adr
 
 Gehen Sie wie folgt vor, um Profildaten aus der Hauptzielgruppe zu ersetzen:
 
-1. Klicken Sie im Versandinhalt auf die Schaltfläche **[!UICONTROL Inhalt simulieren]** und dann auf **[!UICONTROL Testen]**.
+1. Klicken Sie im Versandinhalt auf die Schaltfläche **[!UICONTROL Inhalt simulieren]** und der **[!UICONTROL Testversand durchführen]** Schaltfläche.
 
-1. Wählen Sie aus der Dropdown-Liste **[!UICONTROL Modus]** die Option **[!UICONTROL Aus Hauptzielgruppe ersetzen]** aus, um einen Test an eine bestimmte E-Mail-Adresse oder Telefonnummer zu senden und dabei Daten aus einem vorhandenen Profil anzuzeigen.
+1. Aus dem **[!UICONTROL Modus]** Dropdown-Liste auswählen **[!UICONTROL Ersatz aus Hauptzielgruppe]** , um einen Testversand an eine bestimmte E-Mail-Adresse oder Telefonnummer zu senden und dabei Daten aus einem bestehenden Profil anzuzeigen.
 
    >[!CAUTION]
    >
    >Wenn Sie keine [Zielgruppe](../audience/about-recipients.md) für den Versand ausgewählt haben, ist die Option **[!UICONTROL Aus Hauptzielgruppe ersetzen]** ausgegraut und Sie können keine Ersatzprofile auswählen.
 
-1. Klicken Sie auf die Schaltfläche **[!UICONTROL Adresse hinzufügen]** und geben Sie die empfangende E-Mail-Adresse oder Telefonnummer für den Testversand an.
+1. Klicken Sie auf **[!UICONTROL Adresse hinzufügen]** und geben Sie die E-Mail-Adresse oder Telefonnummer an, an die der Testversand gesendet wird.
 
    ![](assets/simulate-add-substitution-address.png){zoomable=&quot;yes&quot;}
 
    >[!NOTE]
    >
-   >Sie können eine beliebige E-Mail-Adresse oder Telefonnummer eingeben. Damit können Sie Testsendungen an beliebige Empfängerinnen und Empfänger senden, auch wenn diese keine Benutzerinnen und Benutzer von [!DNL Adobe Campaign] sind.
+   >Sie können eine beliebige E-Mail-Adresse oder Telefonnummer eingeben. Auf diese Weise können Sie Testsendungen an alle Empfänger senden, selbst wenn diese keine Benutzer von sind [!DNL Adobe Campaign].
 
-1. Wählen Sie das Profil aus der Zielgruppe aus, die Sie für den Versand als Ersatz definiert haben. Sie können auch [!DNL Adobe Campaign] ein zufälliges Profil aus der Zielgruppe auswählen lassen. Die Profildaten aus dem ausgewählten Profil werden beim Testversand angezeigt.
+1. Wählen Sie das Profil aus der Zielgruppe aus, die Sie für den Versand als Ersatz definiert haben. Sie können auch [!DNL Adobe Campaign] ein zufälliges Profil aus der Zielgruppe auswählen lassen. Die Profildaten des ausgewählten Profils werden im Testversand angezeigt.
 
 1. Bestätigen Sie die Empfängerin oder den Empfänger und wiederholen Sie den Vorgang, um beliebig viele E-Mail-Adressen oder Telefonnummern hinzuzufügen.
 
    ![](assets/simulate-profile-substitute.png){zoomable=&quot;yes&quot;}
 
-1. Um die endgültige Nachricht auch an die Empfängerinnen und Empfänger des Testversands zu senden, wählen Sie die Option **[!UICONTROL Testpopulation in Hauptzielgruppe einbeziehen]** aus.
+1. Um den Testversand-Empfängern auch die endgültige Nachricht zu senden, wählen Sie die **[!UICONTROL Testpopulation in die Hauptzielgruppe einbeziehen]** -Option.
 
-1. Sobald die Ersatzprofile ausgewählt sind, können Sie den [Testversand durchführen](#send-test).
+1. Nach Auswahl der Ersatzprofile können Sie [Testversand durchführen](#send-test).
 
-## Testversand an App-Abonnenten senden {#subscribers}
+## Testsendungen an App-Abonnenten senden {#subscribers}
 
-Bei der Gestaltung mit Push-Benachrichtigungen können Testsendungen nur an Ihre App-Abonnentinnen und Abonennten gesendet werden. Gehen Sie wie folgt vor, um diese auszuwählen.
+Bei der Erstellung mit Push-Benachrichtigungen können Testsendungen nur an Ihre App-Abonnenten gesendet werden. Gehen Sie wie folgt vor, um diese auszuwählen.
 
-1. Klicken Sie im Inhalt Ihres Push-Versands auf die Schaltfläche **[!UICONTROL Inhalt simulieren]** und dann auf **[!UICONTROL Testen]**.
+1. Klicken Sie im Inhalt Ihres Push-Versands auf die Schaltfläche **[!UICONTROL Inhalt simulieren]** und der **[!UICONTROL Testversand durchführen]** Schaltfläche.
 
    ![](assets/simulate-test-button-push.png){zoomable=&quot;yes&quot;}
 
@@ -140,19 +140,19 @@ Bei der Gestaltung mit Push-Benachrichtigungen können Testsendungen nur an Ihre
 
 1. Um die endgültige Push-Benachrichtigung auch an die Testabonnentinnen oder Testabonnenten zu senden, wählen Sie die Option **[!UICONTROL Testpopulation in Hauptzielgruppe einbeziehen]** aus.
 
-1. Sobald die Abonnentinnen oder Abonnenten ausgewählt sind, können Sie den [Testversand durchführen](#send-test).
+1. Nach Auswahl der Abonnenten können Sie [Testversand durchführen](#send-test).
 
 ## Durchführen des Testversands {#send-test}
 
-Gehen Sie wie folgt vor, um den Testversand an die ausgewählten Empfängerinnen und Empfänger durchzuführen.
+Gehen Sie wie folgt vor, um den Testversand an die ausgewählten Empfänger zu senden.
 
-1. Klicken Sie auf die Schaltfläche **[!UICONTROL Test senden]**.
+1. Klicken Sie auf **[!UICONTROL Testversand durchführen]** Schaltfläche.
 
 1. Bestätigen Sie das Senden.
 
    ![](assets/simulate-send-test.png){zoomable=&quot;yes&quot;}
 
-1. Senden Sie so viele Tests wie nötig, bis Sie die endgültigen Inhalte für Ihren Versand festgelegt haben.
+1. Senden Sie so viele Testsendungen wie nötig, bis Sie den Inhalt Ihres Versands fertig gestellt haben.
 
 Anschließend können Sie den Versand an die Hauptzielgruppe vorbereiten und durchführen. In den folgenden Abschnitten erfahren Sie mehr dazu:
 
@@ -160,14 +160,14 @@ Anschließend können Sie den Versand an die Hauptzielgruppe vorbereiten und dur
 * [Senden der Push-Benachrichtigung](../push/send-push.md#send-push)
 * [Senden Ihres SMS-Versands](../sms/send-sms.md#send-sms)
 
-## Zugreifen auf durchgeführte Testsendungen {#access-test-deliveries}
+## Zugreifen auf Testsendungen {#access-test-deliveries}
 
-Nach den Testsendungen können Sie über die Schaltfläche **[!UICONTROL Testprotokoll anzeigen]** auf spezifische Protokolle zugreifen.
+Sobald die Testsendungen gesendet wurden, können Sie über **[!UICONTROL Inhalt simulieren]** angezeigt.
 
-Diese Protokolle ermöglichen den Zugriff auf alle gesendeten Tests für den ausgewählten Versand sowie die Visualisierung bestimmter Versandstatistiken. [Erfahren Sie, wie Sie Versandlogs überwachen](../monitor/delivery-logs.md)
+Diese Protokolle ermöglichen den Zugriff auf alle Testsendungen, die für den ausgewählten Versand durchgeführt werden, und die Visualisierung spezifischer Versandstatistiken. [Erfahren Sie, wie Sie Versandlogs überwachen](../monitor/delivery-logs.md)
 
 ![](assets/simulate-test-log.png){zoomable=&quot;yes&quot;}
 
-Wie bei jedem Versand können Sie auf gesendete Tests auch über die [Versandliste](../msg/gs-messages.md) zugreifen.
+Sie können auch auf gesendete Testsendungen über die [Versandliste](../msg/gs-messages.md), wie bei jedem Versand.
 
 ![](assets/simulate-deliveries-list.png){zoomable=&quot;yes&quot;}

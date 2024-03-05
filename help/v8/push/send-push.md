@@ -3,10 +3,10 @@ audience: end-user
 title: Senden eines Push-Benachrichtigungs-Versands
 description: Erfahren Sie, wie Sie mit Adobe Campaign Web einen Push-Benachrichtigungs-Versand senden.
 exl-id: 16b3b33b-36db-4635-8e44-707694b859db
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 100%
+source-wordcount: '390'
+ht-degree: 91%
 
 ---
 
@@ -36,10 +36,8 @@ Sie können nun Ihre Push-Benachrichtigung überprüfen und an Ihre Zielgruppe s
 
 ## Testen des Push-Benachrichtigungs-Versands {#test-push}
 
-Durch die Verwendung von **Adobe Campaign** können Sie Push-Benachrichtigungen testen, bevor Sie sie an Ihre Hauptzielgruppe senden. Dieser Schritt ist bei der Validierung Ihres Versands und der Identifizierung von Problemen wichtig.
-Empfängerinnen und Empfänger von Testsendungen können Elemente wie Links, Bilder und Personalisierungseinstellungen überprüfen, um eine optimale Performance zu gewährleisten und Fehler zu erkennen. Dieser Prozess hilft Ihnen, Ihre Push-Benachrichtigungen zu verfeinern und zu optimieren, bevor sie Ihre Hauptzielgruppe erreichen.
-
-![](../assets/do-not-localize/book.png) In [diesem Abschnitt](../preview-test/test-deliveries.md#subscribers) erfahren Sie, wie Sie Test-Push-Benachrichtigungen senden.
+Verwenden **Adobe Campaign**, können Sie Testsendungen durchführen, bevor Sie diese an Ihre Hauptzielgruppe senden. Dieser Schritt ist bei der Validierung Ihres Versands und der Identifizierung von Problemen wichtig.
+Empfängerinnen und Empfänger von Testsendungen können Elemente wie Links, Bilder und Personalisierungseinstellungen überprüfen, um eine optimale Performance zu gewährleisten und Fehler zu erkennen. Auf diese Weise können Sie Ihre Push-Benachrichtigungen verfeinern und optimieren, bevor Sie Ihre Hauptzielgruppe erreichen. [Erfahren Sie, wie Sie einen Testversand durchführen](../preview-test/test-deliveries.md#subscribers)
 
 ![](assets/push_send_6.png){zoomable=&quot;yes&quot;}
 

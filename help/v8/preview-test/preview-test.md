@@ -3,10 +3,10 @@ audience: end-user
 title: Über die Versandvorschau und Tests
 description: Weitere Informationen dazu, wie Sendungen in der Vorschau angezeigt und getestet werden können
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
-source-git-commit: 8667de1d86428427edd9a2718218de9801b0922d
+source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 100%
+source-wordcount: '196'
+ht-degree: 93%
 
 ---
 
@@ -24,7 +24,7 @@ Sobald der Versandinhalt definiert worden ist, können Sie ihn vor dem Senden de
 [!DNL Adobe Campaign Web user interface] ermöglicht Ihnen Folgendes:
 
 * [Anzeigen des Nachrichteninhalts und der Personalisierung in einer Vorschau](preview-content.md)
-* [Durchführen von Testsendungen](test-deliveries.md) (Testversand) an bestimmte Empfängerinnen und Empfänger bzw. Abonnentinnen und Abonnenten zu Test- und Validierungszwecken
+* [Testsendungen durchführen](test-deliveries.md) (Testsendungen) an bestimmte Empfänger oder Abonnenten zum Testen und Validieren
 * [Überprüfen des E-Mail-Renderings](email-rendering.md) in beliebten Desktop-, Mobile- und Web-basierten Clients
 * [Erstellen einer Vorschau und Testen Ihrer Landingpages](../landing-pages/create-lp.md#test-landing-page)
 

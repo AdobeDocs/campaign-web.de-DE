@@ -5,9 +5,9 @@ user-guide-description: Produktdokumentation zur Adobe Campaign Web-Benutzerober
 title: Dokumentation zu Adobe Campaign Web
 description: Dokumentation zu Campaign Web
 breadcrumb-title: Campaign Web-Benutzeroberfläche
-source-git-commit: 23127900a70e0a6e6873141448dc9f8e365ea0f5
-workflow-type: ht
-source-wordcount: '585'
+source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
+workflow-type: tm+mt
+source-wordcount: '584'
 ht-degree: 100%
 
 ---
@@ -82,7 +82,7 @@ ht-degree: 100%
    + [Hinzufügen von Angeboten zu Ihren Nachrichten](msg/offers.md)
    + [Versenden von Nachrichten an Ihre Abonnentinnen und Abonnenten](msg/send-to-subscribers.md)
    + Vorschau und Testen eines Versands{#preview-test}
-      + [Über die Vorschau und Tests](preview-test/preview-test.md)
+      + [Über die Vorschau und Testsendungen](preview-test/preview-test.md)
       + [Vorschau des Nachrichteninhalts](preview-test/preview-content.md)
       + [Durchführen von Testsendungen](preview-test/test-deliveries.md)
       + [Testen des E-Mail-Rendering](preview-test/email-rendering.md)
