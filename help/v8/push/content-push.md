@@ -3,10 +3,10 @@ audience: end-user
 title: Erstellen eines Push-Benachrichtigungs-Versands
 description: Erfahren Sie, wie Sie einen Push-Benachrichtigungs-Versand mit Adobe Campaign Web erstellen
 exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: a2d374012f22480ca78a20056baa2c066a0a3c19
 workflow-type: tm+mt
-source-wordcount: '1541'
-ht-degree: 100%
+source-wordcount: '1545'
+ht-degree: 99%
 
 ---
 
@@ -21,6 +21,12 @@ ht-degree: 100%
 >id="acw_deliveries_push_ios_content"
 >title="Pushen von iOS-Inhalten"
 >abstract="Definieren Sie den Inhalt Ihrer Push-Benachrichtigung für iOS-Geräte. Um mit der Erstellung Ihrer Nachricht zu beginnen, klicken Sie auf die Schaltfläche **Inhalt bearbeiten**."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_remind_later"
+>title="Schaltfläche &quot;Später erinnern&quot;"
+>abstract="Noch nicht definiert"
+
 
 ## Festlegen des Inhalts der Benachrichtigung {#push-message}
 
