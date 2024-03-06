@@ -3,10 +3,10 @@ audience: end-user
 title: Erste Schritte mit Push-Benachrichtigungen
 description: Erfahren Sie, wie Sie Push-Benachrichtigungen mit Adobe Campaign Web erstellen und senden
 exl-id: f90d915f-d357-4309-bef5-0dedc30280d7
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 933cfcdfb9ff9a176f4942e349b882c404c4e2a8
 workflow-type: tm+mt
 source-wordcount: '193'
-ht-degree: 100%
+ht-degree: 87%
 
 ---
 
@@ -16,9 +16,9 @@ Push-Benachrichtigungen sind unverzichtbar, um die Benutzerinnen und Benutzer Ih
 
 Um Push-Benachrichtigungen zu erstellen, haben Sie drei Möglichkeiten:
 
-* **Workflows**: Nachdem Sie eine Push-Kanalaktivität zu Ihrem Workflow hinzugefügt und die grundlegenden Einstellungen konfiguriert haben, können Sie den Inhalt Ihrer Push-Benachrichtigungen über das Menü im rechten Bereich erstellen. Detaillierte Anweisungen zum Konfigurieren des Workflows finden Sie auf dieser Seite.
+* **Workflows**: Nachdem Sie eine Push-Kanalaktivität zu Ihrem Workflow hinzugefügt und die grundlegenden Einstellungen konfiguriert haben, können Sie den Inhalt Ihrer Push-Benachrichtigungen über das Menü im rechten Bereich erstellen. Detaillierte Anweisungen zur Konfiguration von Workflows finden Sie unter [diese Seite](../workflows/gs-workflows.md).
 
-* **Kampagnen**: Nachdem Sie eine Kampagne erstellt haben, können Sie einen Push-Benachrichtigungsversand erstellen. Weiterführende Informationen zum Einrichten Ihrer Kampagne finden Sie auf dieser Seite.
+* **Kampagnen**: Nachdem Sie eine Kampagne erstellt haben, können Sie einen Push-Benachrichtigungsversand erstellen. Weiterführende Informationen zur Kampagneneinrichtung finden Sie im Abschnitt [diese Seite](../campaigns/gs-campaigns.md).
 
 * **Eigenständige Sendungen**: Binden Sie Kundinnen und Kunden direkt und sofort mit dem Versand individueller Push-Benachrichtigungen ein, ohne dass Workflows oder Kampagnen erforderlich sind.
 
