@@ -6,7 +6,7 @@ exl-id: 3aef912b-086b-4aa4-9556-c09396112313
 source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
 workflow-type: tm+mt
 source-wordcount: '1025'
-ht-degree: 92%
+ht-degree: 94%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 92%
 >[!CONTEXTUALHELP]
 >id="acw_workflow_creation_properties"
 >title="Workflow-Eigenschaften"
->abstract="Wählen Sie in diesem Bildschirm die Vorlage aus, die zum Erstellen des Workflows verwendet werden soll, und geben Sie einen Titel an. Erweitern Sie die **Zusätzliche Optionen** um weitere Einstellungen wie den internen Namen des Workflows, seinen Ordner, seine Zeitzone und die Supervisorgruppe zu konfigurieren. Es wird dringend empfohlen, eine Gruppe von Verantwortlichen auszuwählen, damit Benutzerinnen und Benutzer benachrichtigt werden, wenn Fehler auftreten."
+>abstract="Wählen Sie in diesem Bildschirm die Vorlage aus, die zum Erstellen des Workflows verwendet werden soll, und geben Sie einen Titel an. Erweitern Sie den Abschnitt **Zusätzliche Optionen**, um weitere Einstellungen wie den internen Namen des Workflows, seine Ordner, die Zeitzone und die Gruppe der Verantwortlichen zu konfigurieren. Es wird dringend empfohlen, eine Gruppe von Verantwortlichen auszuwählen, damit Benutzerinnen und Benutzer benachrichtigt werden, wenn Fehler auftreten."
 
 Bei der Erstellung eines Workflows oder der Orchestrierung von Workflow-Aktivitäten auf der Arbeitsfläche haben Sie Zugriff auf erweiterte Einstellungen, die sich auf den Workflow beziehen. Sie können beispielsweise eine bestimmte Zeitzone für den Workflow festlegen, verwalten, wie sich der Workflow im Fehlerfall verhält, oder die Verzögerung verwalten, nach der der Workflow-Verlauf bereinigt werden soll.
 

@@ -6,7 +6,7 @@ exl-id: 230177e2-1926-451a-8a66-0db962ada514
 source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
 workflow-type: tm+mt
 source-wordcount: '376'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -54,22 +54,22 @@ ht-degree: 86%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_targetfile"
->title="Aktivität &quot;Zieldatei für Datei laden&quot;"
->abstract="Aktivität &quot;Zieldatei für Datei laden&quot;"
+>title="Zieldatei für die Aktivität „Datei laden“"
+>abstract="Zieldatei für die Aktivität „Datei laden“"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_valueremapping"
->title="Neukodifizierung der Werte für die Aktivität &quot;Datei laden&quot;"
->abstract="Neukodifizierung der Werte für die Aktivität &quot;Datei laden&quot;"
+>title="Erneute Wertzuweisung für die Aktivität „Datei laden“"
+>abstract="Erneute Wertzuweisung für die Aktivität „Datei laden“"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_command"
->title="Befehl &quot;Datei laden&quot;"
->abstract="Das Zulassen beliebiger Befehle für die Vorverarbeitung ist ein Sicherheitsproblem. Deaktivieren Sie die Sicherheitsoption XtkSecurity_Disable_Preproc , um die Verwendung einer vordefinierten Liste von Befehlen zu erzwingen."
+>title="Befehl „Datei laden“"
+>abstract="Das Zulassen beliebiger Befehle für die Vorverarbeitung ist ein Sicherheitsproblem. Deaktivieren Sie die Sicherheitsoption „XtkSecurity_Disable_Preproc“, um die Verwendung einer vordefinierten Liste von Befehlen zu erzwingen."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_delete"
->title="Datei nach Import löschen"
+>title="Löschen von Dateien nach dem Importieren"
 >abstract="TBC"
 
 Die Aktivität **Datei laden** ist eine **Daten-Management**-Aktivität. Mit dieser Aktivität können Sie mit Profilen und Daten arbeiten, die in einer externen Datei gespeichert sind. Profile und Daten werden nicht zur Datenbank hinzugefügt, aber alle Felder in der Eingabedatei sind verfügbar zur [Personalisierung](../../personalization/gs-personalization.md) oder um Profile oder andere Tabellen zu aktualisieren.

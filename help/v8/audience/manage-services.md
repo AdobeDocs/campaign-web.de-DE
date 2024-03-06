@@ -6,7 +6,7 @@ exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
 source-git-commit: 12492f1c2464a18a420e6f4dccb62debf0bb3151
 workflow-type: tm+mt
 source-wordcount: '960'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -128,7 +128,7 @@ Sie können diese Nachrichten jetzt auswählen, wenn Sie einen [Anmeldedienst er
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_totalnumber_subscribers"
->title="Abonnentenanzahl"
+>title="Anzahl der Abonnierenden"
 >abstract="Klicken Sie auf **Berechnen**, um die Gesamtzahl der Abonnierenden für diesen Dienst zu ermitteln."
 
 >[!CONTEXTUALHELP]

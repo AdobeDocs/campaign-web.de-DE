@@ -6,7 +6,7 @@ exl-id: 2a0bd3e9-5d75-47c8-bd6a-b3e0b1ce0a01
 source-git-commit: 60cad8248998387f1def3c48fa7673e3e4a86ca8
 workflow-type: tm+mt
 source-wordcount: '2329'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -144,12 +144,12 @@ Die Tabelle **[!UICONTROL Broadcast-Statistiken]** enthält die verfügbaren Dat
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_error_type"
 >title="Aufschlüsselung der Fehler nach Typen"
->abstract="Die **Verteilung der Fehler nach Typ** -Diagramm enthält die verfügbaren Daten für jeden aufgetretenen Fehlertyp: unbekannter Nutzer, Postfach voll, ungültige Domain usw."
+>abstract="Der Graph zur **Aufschlüsselung der Fehler nach Typen** enthält die verfügbaren Daten für jeden aufgetretenen Fehlertyp: Benutzerin oder Benutzer unbekannt, Postfach voll, ungültige Domain und mehr."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_error_type_table"
 >title="Aufschlüsselung der Fehler nach Typen"
->abstract="Die **Verteilung der Fehler nach Typ** bietet eine umfassende Aufschlüsselung des Vorkommens der einzelnen Fehlertypen."
+>abstract="Die **Aufschlüsselung der Fehler nach Typen** bietet eine umfassende Aufschlüsselung des Vorkommens der einzelnen Fehlertypen."
 
 Die Tabelle und der Graph zur **[!UICONTROL Aufschlüsselung der Fehler nach Typen]** enthalten die verfügbaren Daten für jeden Fehlertyp. Metriken werden nachfolgend beschrieben.
 
@@ -180,12 +180,12 @@ Die in diesem Bericht angezeigten Fehler lösen einen Quarantäneprozess aus. We
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_error_domain"
 >title="Aufschlüsselung der Fehler nach Domain"
->abstract="Die **Verteilung der Fehler nach Domain** -Diagramm zeigt die verfügbaren Daten für jeden aufgetretenen Fehlertyp in Abhängigkeit von der jeweiligen Domäne an."
+>abstract="Der Graph zur **Aufschlüsselung der Fehler nach Domain** zeigt die verfügbaren Daten für jeden aufgetretenen Fehlertyp: abhängig von jeder Domain an."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_error_domain_table"
 >title="Aufschlüsselung der Fehler nach Domain"
->abstract="Die **Verteilung der Fehler nach Domain** bietet eine umfassende Aufschlüsselung des Vorkommens der einzelnen Fehler in Abhängigkeit von der verwendeten Domain."
+>abstract="Die **Aufschlüsselung der Fehler nach Domain** bietet eine umfassende Aufschlüsselung des Vorkommens der einzelnen Fehler entsprechend der verwendeten Domain."
 
 Die Tabelle und der Graph zur **[!UICONTROL Aufschlüsselung der Fehler nach Domain]** zeigen die verfügbaren Daten zu Fehlern an, die bei den einzelnen Domains aufgetreten sind.
 
