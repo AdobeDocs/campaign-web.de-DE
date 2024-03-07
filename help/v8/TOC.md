@@ -5,7 +5,7 @@ user-guide-description: Produktdokumentation zur Adobe Campaign Web-Benutzerober
 title: Dokumentation zu Adobe Campaign Web
 description: Dokumentation zu Campaign Web
 breadcrumb-title: Campaign Web-Benutzeroberfläche
-source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
+source-git-commit: f63df9adfba8fa571319a3bf5e32d0869240c51f
 workflow-type: tm+mt
 source-wordcount: '584'
 ht-degree: 100%
@@ -61,7 +61,6 @@ ht-degree: 100%
             + [Hinzufügen von Inline-Styling-Attributen](email/inline-styling.md)
       + Senden und Überwachen der E-Mail {#monitor}
          + [Vorbereiten und Senden einer E-Mail](monitor/prepare-send.md)
-         + [E-Mail-Versandeinstellungen](advanced-settings/delivery-settings.md)
          + [Versenden in mehreren Schüben](advanced-settings/send-using-waves.md)
          + [Überwachen von Versandlogs](monitor/delivery-logs.md)
    + Push-Benachrichtigungen {#push}
@@ -81,6 +80,7 @@ ht-degree: 100%
       + [Hinzufügen von integrierten Inhaltsbausteinen](personalization/content-blocks.md)
    + [Hinzufügen von Angeboten zu Ihren Nachrichten](msg/offers.md)
    + [Versenden von Nachrichten an Ihre Abonnentinnen und Abonnenten](msg/send-to-subscribers.md)
+   + [Versandeinstellungen konfigurieren](advanced-settings/delivery-settings.md)
    + Vorschau und Testen eines Versands{#preview-test}
       + [Über die Vorschau und Testsendungen](preview-test/preview-test.md)
       + [Vorschau des Nachrichteninhalts](preview-test/preview-content.md)
