@@ -3,10 +3,10 @@ audience: end-user
 title: Neue Funktionen in der Campaign Web-Benutzeroberfläche
 description: Entdecken Sie neue Funktionen in der Campaign Web-Benutzeroberfläche
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: 06b529083e1ff8a4378aa938960b9edd7a422b32
+source-git-commit: 34af5d6c08f79daac392e54417707456ca44438c
 workflow-type: tm+mt
 source-wordcount: '1308'
-ht-degree: 85%
+ht-degree: 84%
 
 ---
 
@@ -74,7 +74,7 @@ Verwenden Sie die neue Campaign Web-Benutzeroberfläche für Folgendes:
 
 * Erstellen, entwerfen, personalisieren, planen und senden Sie E-Mail-, SMS- und Push-Benachrichtigungen – [Weitere Informationen](../msg/gs-messages.md)
 * Erstellen Sie personalisierte E-Mail-Inhalte mit dem E-Mail-Designer – [Weitere Informationen](../email/edit-content.md)
-* Senden Sie kanalübergreifende Kampagnen, einschließlich SMS- und Push-Benachrichtigungen – [Weitere Informationen](../workflows/activities/channels.md)
+* Senden von kanalübergreifenden Kampagnen, einschließlich SMS- und Push-Benachrichtigungen - [Weitere Infos](../workflows/activities/channels.md)
 * Definieren von Zielgruppen mit dem Abfrage-Modeler – [Weitere Informationen](../audience/about-recipients.md)
 * Vorschau, Testen und Senden Ihrer Nachrichten – [Weitere Informationen](../monitor/prepare-send.md)
 * Überwachen, Senden und Messen von Ergebnissen mit integrierten Berichten – [Weitere Informationen](../reporting/delivery-reports.md)
