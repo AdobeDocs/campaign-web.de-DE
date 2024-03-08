@@ -2,9 +2,9 @@
 title: Arbeiten mit vordefinierten Filtern
 description: Erfahren Sie, wie Sie in Adobe Campaign Web vordefinierte Filter erstellen und verwalten
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
-source-git-commit: 97b6de0763dbeb133d7d0346e6af4d056cc731e3
+source-git-commit: efb5d5d9ea3b3559c57d6a0b2a250f075dabf831
 workflow-type: tm+mt
-source-wordcount: '816'
+source-wordcount: '786'
 ht-degree: 100%
 
 ---
@@ -15,15 +15,6 @@ ht-degree: 100%
 >id="acw_homepage_learning_card4"
 >title="Verwaltung von vordefinierten Filtern"
 >abstract="Die Campaign Web-Benutzeroberfläche bietet eine benutzerfreundliche Oberfläche, mit der vordefinierte Filter einfach verwaltet und an Ihre individuellen Anforderungen angepasst werden können. Erstellen Sie Filter einmal und speichern Sie sie zur zukünftigen Verwendung."
-
-
-<!--TO REMOVE BELOW-->
->[!CONTEXTUALHELP]
->id="acw_homepage_card4"
->title="Verwaltung von vordefinierten Filtern"
->abstract="Campaign Web bietet jetzt eine benutzerfreundliche Oberfläche, mit der man vordefinierte Filter mühelos verwalten und an Ihre spezifischen Anforderungen anpassen kann. Erstellen Sie Filter einmal und speichern Sie sie zur zukünftigen Verwendung."
-
-<!--TO REMOVE ABOVE-->
 
 
 >[!CONTEXTUALHELP]

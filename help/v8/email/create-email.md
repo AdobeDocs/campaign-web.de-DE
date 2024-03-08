@@ -3,9 +3,9 @@ audience: end-user
 title: Senden Ihrer ersten E-Mail
 description: Erfahren Sie, wie Sie Ihre erste E-Mail mit der Campaign Web-Benutzeroberfläche senden.
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
+source-git-commit: efb5d5d9ea3b3559c57d6a0b2a250f075dabf831
 workflow-type: tm+mt
-source-wordcount: '1393'
+source-wordcount: '1357'
 ht-degree: 88%
 
 ---
@@ -17,17 +17,6 @@ ht-degree: 88%
 >id="acw_homepage_learning_card3"
 >title="Erste Schritte mit E-Mails"
 >abstract="Sie können einen eigenständigen E-Mail-Versand erstellen oder eine E-Mail im Rahmen eines Kampagnen-Workflows erstellen. Hier erfahren Sie, wie Sie den Versand erstellen, die Zielgruppe auswählen und den E-Mail-Inhalt entwerfen."
-
-
-<!--TO REMOVE BELOW-->
->[!CONTEXTUALHELP]
->id="acw_homepage_card3"
->title="Erste Schritte mit E-Mails"
->abstract="Sie können einen eigenständigen E-Mail-Versand erstellen oder eine E-Mail im Rahmen eines Kampagnen-Workflows erstellen. Hier erfahren Sie, wie Sie den Versand erstellen, die Zielgruppe auswählen und den E-Mail-Inhalt entwerfen."
-
-<!--TO REMOVE ABOVE-->
-
-
 
 Erfahren Sie, wie Sie Ihre erste E-Mail an eine bestimmte Zielgruppe senden. In diesem Anwendungsfall planen Sie den Versand einer E-Mail an Silber- und Gold-Mitglieder des Treueprogramms zu einem bestimmten Datum.
 

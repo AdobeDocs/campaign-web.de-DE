@@ -3,9 +3,9 @@ audience: end-user
 title: Erste Schritte mit Workflows
 description: Erfahren Sie, wie Sie mit Workflows beginnen
 exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
-source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
-workflow-type: ht
-source-wordcount: '435'
+source-git-commit: efb5d5d9ea3b3559c57d6a0b2a250f075dabf831
+workflow-type: tm+mt
+source-wordcount: '391'
 ht-degree: 100%
 
 ---
@@ -18,14 +18,6 @@ ht-degree: 100%
 >abstract="Erschließen Sie neue Automatisierungs- und Optimierungsmöglichkeiten, um dynamischere und stärker personalisierte Journeys zu erstellen. Von der erweiterten Segmentierung bis hin zu bedingten Triggern ermöglichen unsere zusätzlichen Workflow-Aktivitäten den Versand zielgerichteter Nachrichten und die Verbesserung der Kampagnen-Performance."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=de" text="Siehe Versionshinweise"
 
-<!--TO REMOVE BELOW-->
->[!CONTEXTUALHELP]
->id="acw_homepage_rn2"
->title="Kanalübergreifende Workflows"
->abstract="Erschließen Sie neue Automatisierungs- und Optimierungsmöglichkeiten, um dynamischere und stärker personalisierte Journeys zu erstellen. Von der erweiterten Segmentierung bis hin zu bedingten Triggern ermöglichen unsere zusätzlichen Workflow-Aktivitäten den Versand zielgerichteter Nachrichten und die Verbesserung der Kampagnen-Performance."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=de" text="Siehe Versionshinweise"
-
-<!--TO REMOVE ABOVE-->
 
 ## Was ist ein Workflow?
 

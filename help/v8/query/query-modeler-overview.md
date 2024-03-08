@@ -3,9 +3,9 @@ audience: end-user
 title: Arbeiten mit dem Abfrage-Modeler
 description: Lernen Sie, mit dem Abfrage-Modeler von Adobe Campaign Web zu arbeiten.
 exl-id: 56708a66-f654-413a-80ed-1865077b3c0a
-source-git-commit: 32bffad5ea6641a723887ca9fa3e58b8cc428c00
+source-git-commit: efb5d5d9ea3b3559c57d6a0b2a250f075dabf831
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '500'
 ht-degree: 100%
 
 ---
@@ -16,14 +16,6 @@ ht-degree: 100%
 >id="acw_homepage_learning_card5"
 >title="Neuer Abfrage-Modeler"
 >abstract="Adobe Campaign Web verfügt über einen Abfrage-Modeler, der den Prozess des Filterns von Datenbanken vereinfacht, um spezifische Zielgruppen auf der Grundlage verschiedener Kriterien auszuwählen. Dies schließt die Verwendung erweiterter Ausdrücke und Operatoren ein. Der Abfrage-Modeler ist in jedem Kontext verfügbar, in dem Sie Regeln zum Filtern von Daten definieren müssen."
-
-<!--TO REMOVE BELOW-->
->[!CONTEXTUALHELP]
->id="acw_homepage_card5"
->title="Neuer Abfrage-Modeler"
->abstract="Adobe Campaign Web verfügt über einen Abfrage-Modeler, der den Prozess des Filterns von Datenbanken vereinfacht, um spezifische Zielgruppen auf der Grundlage verschiedener Kriterien auszuwählen. Dies schließt die Verwendung erweiterter Ausdrücke und Operatoren ein. Der Abfrage-Modeler ist in jedem Kontext verfügbar, in dem Sie Regeln zum Filtern von Daten definieren müssen."
-
-<!--TO REMOVE ABOVE-->
 
 
 >[!CONTEXTUALHELP]

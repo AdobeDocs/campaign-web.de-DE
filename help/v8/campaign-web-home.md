@@ -3,10 +3,10 @@ keywords: Campaign Web;Startseite;beliebte Themen
 description: Hilfe-Center zu Campaign Web
 title: Produktdokumentation zu Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 8e035bbf92914f17607a15c184ecf48f5c0efb13
+source-git-commit: efb5d5d9ea3b3559c57d6a0b2a250f075dabf831
 workflow-type: tm+mt
-source-wordcount: '672'
-ht-degree: 87%
+source-wordcount: '580'
+ht-degree: 85%
 
 ---
 
@@ -42,45 +42,6 @@ ht-degree: 87%
 >title="Element 4"
 >abstract="Abfrage-Modeler und E-Mail-Designer der nächsten Generation"
 
-<!--
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_list5"
->title="Item 5"
->abstract="Additional Item"-->
-
-<!-- TO REMOVE BELOW-->
-
->[!CONTEXTUALHELP]
->id="acw_homepage_card1"
->title="Hilfe und Dokumentation"
->abstract="Campaign bietet jetzt eine neue Web-Benutzeroberfläche (UI) mit verbesserter Benutzerfreundlichkeit, Barrierefreiheit und einem neuen Design, um das Anwendererlebnis deutlich zu verbessern. Diese neue, moderne Benutzeroberfläche vereinfacht die Gestaltung und den Versand von Marketing-Kampagnen und sorgt für Konsistenz mit anderen Adobe-Lösungen."
-
->[!CONTEXTUALHELP]
->id="acw_homepage_title"
->title="Erleben Sie die neue Adobe Campaign-Benutzeroberfläche"
->abstract="Moderner, intuitiver und dynamischer."
-
->[!CONTEXTUALHELP]
->id="acw_homepage_list1"
->title="Element 1"
->abstract="Neues Design-Erlebnis für E-Mail-, SMS- und Push-Benachrichtigungen"
-
->[!CONTEXTUALHELP]
->id="acw_homepage_list2"
->title="Element 2"
->abstract="Vereinfachte Oberfläche der Workflow-Arbeitsfläche"
-
->[!CONTEXTUALHELP]
->id="acw_homepage_list3"
->title="Element 3"
->abstract="Neu gestaltete UX für Zielgruppen, Abonnement und Services, wie auch AEM-Assets"
-
->[!CONTEXTUALHELP]
->id="acw_homepage_list4"
->title="Element 4"
->abstract="Generative KI für E-Mails: Auf Prompts basierende E-Mail-Generierung"
-
-<!--TO REMOVE ABOVE-->
 
 Wir freuen uns, die neue Version der Adobe Campaign Web-Benutzeroberfläche vorzustellen. Unsere neueste Version enthält zahlreiche intuitive Funktionen, mit denen Sie einfacher personalisierte kanalübergreifende Kampagnen erstellen und außergewöhnliche Ergebnisse erzielen, was Ihnen auf allen Kanälen einen Wettbewerbsvorteil bietet. Diese neue, moderne Benutzeroberfläche vereinfacht das Design und den Versand von Marketing-Kampagnen und sorgt für Konsistenz mit anderen Adobe-Lösungen, einschließlich Adobe Experience Platform.
 

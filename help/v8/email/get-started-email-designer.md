@@ -3,9 +3,9 @@ audience: end-user
 title: Bearbeiten des E-Mail-Inhalts
 description: Informationen dazu, wie Sie damit beginnen können, mit dem E-Mail-Designer in der Campaign Web-Benutzeroberfläche Inhalte zu erstellen
 exl-id: a5b966bb-09da-4a50-98d4-010fdfbb75cf
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: efb5d5d9ea3b3559c57d6a0b2a250f075dabf831
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '427'
 ht-degree: 100%
 
 ---
@@ -17,16 +17,6 @@ ht-degree: 100%
 >title="Neuer E-Mail-Designer"
 >abstract="Mit dem Campaign E-Mail-Designer können Sie über eine intuitive Drag-and-Drop-Oberfläche überzeugende, individuell zugeschnittene E-Mails erstellen. Egal, ob Sie bei null anfangen, vorhandene Inhalte importieren oder Vorlagen nutzen, können Sie für jede E-Mail alle Inhalte für Werbeaktionen sowie für Transaktionen gestalten und verfeinern."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=de" text="Siehe Versionshinweise"
-
-
-<!--TO REMOVE BELOW-->
->[!CONTEXTUALHELP]
->id="acw_homepage_rn3"
->title="Neuer E-Mail-Designer"
->abstract="Mit dem Campaign E-Mail-Designer können Sie über eine intuitive Drag-and-Drop-Oberfläche überzeugende, individuell zugeschnittene E-Mails erstellen. Egal, ob Sie bei null anfangen, vorhandene Inhalte importieren oder Vorlagen nutzen, können Sie für jede E-Mail alle Inhalte für Werbeaktionen sowie für Transaktionen gestalten und verfeinern."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=de" text="Siehe Versionshinweise"
-
-<!--TO REMOVE ABOVE-->
 
 Nach der Erstellung einer E-Mail in Adobe Campaign müssen Sie deren Inhalt definieren.
 

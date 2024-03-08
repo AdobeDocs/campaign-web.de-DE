@@ -2,10 +2,10 @@
 title: Erste Schritte mit Profilen
 description: Erfahren Sie, wie Sie Profile in Adobe Campaign Web überwachen und verwalten können.
 exl-id: 0b28741a-28f6-4f46-8c4c-820c5036aeda
-source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
+source-git-commit: efb5d5d9ea3b3559c57d6a0b2a250f075dabf831
 workflow-type: tm+mt
-source-wordcount: '538'
-ht-degree: 86%
+source-wordcount: '497'
+ht-degree: 85%
 
 ---
 
@@ -16,15 +16,6 @@ ht-degree: 86%
 >title="360-Grad-Ansicht Ihrer Profile"
 >abstract="Erstellen Sie neue Profile und überwachen Sie sie mithilfe leistungsstarker Berichte und Tools. Greifen Sie auf die Attribute, Interaktionen und Protokolle Ihrer Profile zu. Verwenden Sie die Filteroptionen, um die Profilliste zu durchsuchen und ihr Profil zu bearbeiten und zu aktualisieren."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=de" text="Siehe Versionshinweise"
-
-<!--TO REMOVE BELOW-->
->[!CONTEXTUALHELP]
->id="acw_homepage_rn4"
->title="360-Grad-Ansicht Ihrer Profile"
->abstract="Erstellen Sie neue Profile und überwachen Sie sie mithilfe leistungsstarker Berichte und Tools. Greifen Sie auf die Attribute, Interaktionen und Protokolle Ihrer Profile zu. Verwenden Sie die Filteroptionen, um die Profilliste zu durchsuchen und ihr Profil zu bearbeiten und zu aktualisieren."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=de" text="Siehe Versionshinweise"
-
-<!--TO REMOVE ABOVE-->
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"
