@@ -5,10 +5,10 @@ user-guide-description: Produktdokumentation zur Adobe Campaign Web-Benutzerober
 title: Dokumentation zu Adobe Campaign Web
 description: Dokumentation zu Campaign Web
 breadcrumb-title: Campaign Web-Benutzeroberfläche
-source-git-commit: f63df9adfba8fa571319a3bf5e32d0869240c51f
+source-git-commit: 8e035bbf92914f17607a15c184ecf48f5c0efb13
 workflow-type: tm+mt
-source-wordcount: '584'
-ht-degree: 100%
+source-wordcount: '589'
+ht-degree: 97%
 
 ---
 
@@ -167,6 +167,7 @@ ht-degree: 100%
       + [Globaler Push-Bericht](reporting/global-report-push.md)
       + [Globaler SMS-Bericht](reporting/global-report-sms.md)
 + Integrationen {#integrations}
+   + [Arbeiten mit anderen Adobe-Lösungen](integrations/integration.md)
    + [Verwalten von Assets mit Adobe Experience Manager Assets as a Cloud Service](integrations/aem-assets.md)
    + [Verwalten von Vorlagen mit Adobe Experience Manager as a Cloud Service](integrations/aem-content.md)
 

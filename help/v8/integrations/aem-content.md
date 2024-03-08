@@ -1,23 +1,24 @@
 ---
 audience: end-user
 title: Verwalten von Assets mit Adobe Experience Manager as a Cloud Service
-description: Erfahren Sie, wie Sie Inhalte mit Adobe Experience Manager as a Cloud Service verwalten können
-source-git-commit: 0c7c96308c5fe3516ed1fd33603c54c6da8248c1
+description: Erfahren Sie, wie Sie Inhalte mit Adobe Experience Manager as a Cloud Service verwalten
+exl-id: 43b186c8-294e-4cbe-b269-e127065515ed
+source-git-commit: 8e035bbf92914f17607a15c184ecf48f5c0efb13
 workflow-type: tm+mt
 source-wordcount: '508'
-ht-degree: 98%
+ht-degree: 90%
 
 ---
 
-# Verwalten von Vorlagen mit [!DNL Adobe Experience Manager as a Cloud service]{#aem-assets}
+# Verwalten von Vorlagen mit [!DNL Adobe Experience Manager as a Cloud Service]{#aem-assets}
 
-## Erste Schritte mit [!DNL Adobe Experience Manager as a Cloud service]{#create-aem}
+## Erste Schritte mit [!DNL Adobe Experience Manager as a Cloud Service]{#create-aem}
 
 Die Integration der Adobe Campaign-Web-Oberfläche in Adobe Experience Manager ermöglicht eine optimierte Verwaltung von E-Mail-Versandinhalten und Formularen direkt auf der Adobe Experience Manager-Plattform.
 
 ![](assets/do-not-localize/book.png)[Weitere Informationen zu Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/getting-started/quick-start.html?lang=de)
 
-## Erstellen einer Vorlage in [!DNL Adobe Experience Manager as a Cloud service]{#create-aem-template}
+## Erstellen einer Vorlage in [!DNL Adobe Experience Manager as a Cloud Service]{#create-aem-template}
 
 1. Navigieren Sie zu Ihrer [!DNL Adobe Experience Manager]-Autoreninstanz und klicken Sie oben links auf der Seite auf „Adobe Experience“. Wählen im Menü die Option **[!UICONTROL Sites]** aus.
 
@@ -33,21 +34,21 @@ Die Integration der Adobe Campaign-Web-Oberfläche in Adobe Experience Manager e
 
 1. Passen Sie den E-Mail-Inhalt an, indem Sie Komponenten hinzufügen, z. B. Personalisierungsfelder aus Adobe Campaign. [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-manager-65/content/sites/authoring/aem-adobe-campaign/campaign.html?lang=de#editing-email-content)
 
-1. Wenn Ihre E-Mail fertig ist, öffnen Sie das Menü **[!UICONTROL Seiteninformationen]** und klicken Sie auf **[!UICONTROL Workflow starten]**.
+1. Wenn Ihre E-Mail fertig ist, navigieren Sie zum Menü **[!UICONTROL Seiteninformationen]** und klicken Sie auf **[!UICONTROL Workflow starten]**.
 
    ![](assets/aem_3.png)
 
-1. Wählen Sie aus der ersten Dropdown-Liste **[!UICONTROL Adobe Campaign genehmigen]** als Workflow-Modell aus und klicken Sie auf **[!UICONTROL Workflow starten]**.
+1. Wählen Sie in der ersten Dropdown-Liste als Workflow-Modell **[!UICONTROL Adobe Campaign genehmigen]** aus und klicken Sie auf **[!UICONTROL Workflow starten]**.
 
-1. Oben auf Ihrer Seite erscheint ein Haftungsausschluss mit folgenden Angaben: `This page is subject to the workflow Approve for Adobe Campaign`. Klicken Sie neben dem Haftungsausschluss auf **[!UICONTROL Fertig]**, um die Überprüfung zu bestätigen. Klicken Sie dann auf **[!UICONTROL Ok]**.
+1. Oben auf Ihrer Seite erscheint ein Haftungsausschluss mit folgendem Inhalt: `This page is subject to the workflow Approve for Adobe Campaign`. Klicken Sie neben dem Haftungsausschluss auf **[!UICONTROL Fertig]**, um die Überprüfung zu bestätigen, und klicken Sie dann auf **[!UICONTROL Ok]**.
 
    ![](assets/aem_4.png)
 
-1. Klicken Sie erneut auf **[!UICONTROL Fertig]** und wählen Sie **[!UICONTROL Newsletter-Genehmigung]** in der Dropdown-Liste **[!UICONTROL Nächster Schritt]** aus.
+1. Klicken Sie erneut auf **[!UICONTROL Fertig]** und wählen Sie danach **[!UICONTROL Newsletter-Genehmigung]** in der Dropdown-Liste **[!UICONTROL Nächster Schritt]**.
 
 Ihr Newsletter ist jetzt fertig und in Adobe Campaign synchronisiert.
 
-## Importieren einer Adobe Experience Manager as a Cloud Service-Vorlage{#aem-templates-perso}
+## Adobe Experience Manager as a Cloud Service-Vorlage importieren{#aem-templates-perso}
 
 Sobald die Experience Manager-Vorlage im Adobe Campaign Web als Inhaltsvorlage verfügbar ist, können Sie den für die E-Mail erforderlichen Inhalt einschließlich Personalisierung identifizieren und integrieren.
 
