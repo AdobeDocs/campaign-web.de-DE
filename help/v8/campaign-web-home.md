@@ -3,10 +3,10 @@ keywords: Campaign Web;Startseite;beliebte Themen
 description: Hilfe-Center zu Campaign Web
 title: Produktdokumentation zu Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 9849ab42d9dcbe34036f5677c674cb96aaf1a246
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
 source-wordcount: '672'
-ht-degree: 92%
+ht-degree: 87%
 
 ---
 
@@ -134,7 +134,7 @@ Mit dem Campaign E-Mail-Designer können Sie über eine intuitive Drag-and-Drop-
     </div></td>
     <td>
     <a href="personalization/gs-personalization.md"><img src="assets/do-not-localize/menu-dynamic.png"></a>
-    <div><strong>Inhalte dynamisch gestalten</strong><br/>Erfahren Sie, wie Sie Ihre Inhalte auf der Grundlage der Informationen, die Sie über Ihre Empfänger und Empfängerinnen gesammelt haben, anpassen können, um Ihre Inhalte attraktiver zu gestalten und die Wahrscheinlichkeit zu erhöhen, dass sie gelesen werden.</div>
+    <div><strong>Dynamische Inhalte erstellen</strong><br/>Erfahren Sie, wie Sie Ihren Inhalt basierend auf den Informationen, die Sie über Ihre Profile gesammelt haben, anpassen können, um Ihren Inhalt attraktiver zu machen und die Wahrscheinlichkeit zu erhöhen, dass er gelesen wird.</div>
     </td>
   </tr>
   <tr style="border: 0;">

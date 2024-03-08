@@ -3,10 +3,10 @@ audience: end-user
 title: Erstellen einer Zielgruppe mit dem Campaign-Regel-Builder
 description: Erfahren Sie, wie Sie mit dem Regel-Builder arbeiten
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
 source-wordcount: '582'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -45,7 +45,7 @@ Auf der rechten Seite können Sie im Bereich **Regeleigenschaften** die folgende
 
 ![](assets/segment-builder5.png){zoomable=&quot;yes&quot;}{width="70%" align="left"}
 
-* **Ergebnisse anzeigen:** zeigt die Liste der von der Zielgruppe angesprochenen Empfänger an.
+* **Ergebnisse anzeigen:** zeigt die Liste der Profile an, die zur Zielgruppe gehören.
 * **Code-Ansicht**: Zeigt eine Code-basierte Version der Zielgruppe in SQL an.
 * **Erweiterte Attribute anzeigen**: Aktivieren Sie diese Option, wenn Sie die vollständige Liste der Attribute in der linken Palette anzeigen möchten: Knoten, Gruppierungen, 1:1-Links, 1:n-Links.
 * **Berechnen**: Aktualisiert und zeigt die Anzahl der Profile an, die von Ihrer Abfrage angesprochen werden.

@@ -3,7 +3,7 @@ audience: end-user
 title: Überwachen und Verwalten von Zielgruppen
 description: Erfahren Sie, wie Sie Zielgruppen in Adobe Campaign Web überwachen und verwalten können.
 exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
-source-git-commit: 0f83fa69847bbabbf725f95ff29ed9b09db915b6
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
 source-wordcount: '568'
 ht-degree: 91%
@@ -14,7 +14,7 @@ ht-degree: 91%
 
 ## Was ist eine Zielgruppe? {#what}
 
-Die Zielgruppe ist das wichtigste Ziel Ihres Versands: die Empfängerinnen und Empfänger, die die Nachrichten erhalten. Der Zielgruppentyp hängt vom in der Versandvorlage definierten Zielgruppen-Mapping ab. Weiterführende Informationen zu Versandvorlagen finden Sie auf [dieser Seite](../msg/delivery-template.md).
+Die Zielgruppe ist das hauptsächliche Ziel Ihres Versands: die Profile, die die Nachrichten erhalten. Der Zielgruppentyp hängt vom in der Versandvorlage definierten Zielgruppen-Mapping ab. Weiterführende Informationen zu Versandvorlagen finden Sie auf [dieser Seite](../msg/delivery-template.md).
 
 Um die Population Ihrer Zielgruppe zu bestimmen, können Sie:
 

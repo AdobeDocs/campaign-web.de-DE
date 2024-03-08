@@ -4,10 +4,10 @@ title: Konfigurieren der Bereitstellungseinstellungen
 description: Erfahren Sie, wie Sie Versandeinstellungen im Campaign Web konfigurieren
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: e4e1a7eee0f4a48366e711feb2a8bd107f3320bd
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
-source-wordcount: '2417'
-ht-degree: 79%
+source-wordcount: '2420'
+ht-degree: 75%
 
 ---
 
@@ -70,7 +70,9 @@ Im Feld **[!UICONTROL Gewichtungstyp]** stehen drei Optionen zur Verfügung:
 
 Verwenden Sie das Feld **[!UICONTROL Versandgewichtung]**, um die Versandpriorität zu definieren. Jeder Versand verfügt über eine Gewichtung, die die jeweilige Priorität darstellt. Standardmäßig ist die Versandgewichtung auf den Wert 5 festgelegt. Mit Druckregeln können Sie die Gewichtung der Sendungen festlegen, auf die sie angewendet werden. Die Gewichtung kann konstant sein oder mithilfe einer Formel empfängerabhängig berechnet werden. Beispielsweise kann die Gewichtung eines Versands den Interessen eines Empfängers bzw. einer Empfängerin entsprechend bestimmt werden.
 
-Verwenden Sie das Feld **[!UICONTROL Versandmodus]**, um den Zielgruppenauswertungsmodus auszuwählen. Drei Modi sind verfügbar:
+Verwenden Sie die **[!UICONTROL Versandmodus]** -Feld, um den Zielauswertungsmodus auszuwählen.
+
+Drei Modi sind verfügbar:
 
 * **[!UICONTROL Zielgruppenschätzung und Nachrichtenpersonalisierung]**
 * **[!UICONTROL Schätzung und Validierung der geplanten Zielgruppe]**
@@ -78,7 +80,7 @@ Verwenden Sie das Feld **[!UICONTROL Versandmodus]**, um den Zielgruppenauswertu
 
 >[!NOTE]
 >
->Die Ermüdungsverwaltung wird in der Campaign-Client-Konsole konfiguriert. Weitere Informationen finden Sie in der [Dokumentation zu Campaign v8 (Client-Konsole)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=de){target="_blank"}.
+>Ermüdungs- und Druckregeln werden in der Campaign-Clientkonsole konfiguriert. Weitere Informationen finden Sie in der [Dokumentation zu Campaign v8 (Client-Konsole)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=de){target="_blank"}.
 
 ### Kapazitätseinstellungen {#capacity-settings}
 
@@ -90,11 +92,11 @@ Verwenden Sie das Feld **[!UICONTROL Versandmodus]**, um den Zielgruppenauswertu
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_recipient_importance"
 >title="Wichtigkeit des Empfängers bzw. der Empfängerin"
->abstract="Mit der Wichtigkeit des Empfängers bzw. der Empfängerin wird festgelegt, welche Empfangenden im Falle einer Kapazitätsüberlastung der Typologieregeln beibehalten werden."
+>abstract="Die Wichtigkeit des Empfängers ist eine Formel, mit der bestimmt wird, welche Profile bei Überschreitung der Typologieregeln beibehalten werden."
 
 In diesem Abschnitt können Sie eine Kapazitätsregel auswählen, die in der Adobe Campaign v8-Konsole definiert ist. Diese Regel ist mit dem Kanal verknüpft.
 
-Das Feld **[!UICONTROL Wichtigkeit der bzw. des Empfangenden]** ist eine Formel, mit der definiert wird, welche Empfängerinnen und Empfänger bei Überschreitung der Kapazitätstypologie-Regeln behalten werden.
+Die **[!UICONTROL Bedeutung des Empfängers]** -Feld ist eine Formel, mit der bestimmt wird, welche Profile bei Überschreitung der Typologieregeln für die Kapazität beibehalten werden.
 
 >[!NOTE]
 >
@@ -109,7 +111,7 @@ Das Feld **[!UICONTROL Wichtigkeit der bzw. des Empfangenden]** ist eine Formel,
 
 In diesem Abschnitt können Sie ein verfügbares **Zielgruppen-Mapping** auswählen. Zielgruppen-Mappings werden in der Adobe Campaign v8-Konsole definiert. Zielgruppen-Mapping ist der Datentyp, den ein Vorgang verarbeitet. Sie ermöglicht die Bestimmung der Zielpopulation: Empfänger, Vertragsempfänger, Benutzer, Abonnenten etc. [Weitere Informationen zu Zielgruppen-Mappings](../audience/targeting-dimensions.md).
 
-Im Feld **[!UICONTROL Ausschluss]** können Sie Empfängerinnen und Empfänger ausschließen, die nicht mehr kontaktiert werden möchten oder sich in Quarantäne befinden. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html?lang=de){target="_blank"}
+Im **[!UICONTROL Ausschluss]** können Sie Profile ausschließen, die nicht mehr kontaktiert werden möchten oder in Quarantäne sind. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html?lang=de){target="_blank"}
 
 ## Versand {#delivery}
 
@@ -276,7 +278,7 @@ Zusätzlich zum Standardmodus stehen die folgenden Optionen zur Verfügung:
 
 Sie können die Ausschlussparameter in diesem Abschnitt festlegen. Folgende Optionen sind verfügbar: 
 
-* **[!UICONTROL Dubletten beibehalten]**: Ermöglicht es, mehrere Sendungen an Empfängerinnen und Empfänger zu genehmigen, die mehrere Zielgruppenbestimmungskriterien erfüllen.
+* **[!UICONTROL Beibehalten von Dubletten]** ermöglicht Ihnen, mehrere Sendungen an Profile zu erlauben, die verschiedenen Zielgruppenkriterien entsprechen.
 * **[!UICONTROL Adressen auf der Blockierungsliste behalten]**: Ermöglicht es, Zielgruppenprofile, die nicht mehr in den Versand eingeschlossen sind, beizubehalten, z. B. nach einer Abmeldung (Opt-out).
 * **[!UICONTROL Quarantäneadressen beibehalten]**: Ermöglicht es, Zielgruppenprofile mit einer Adresse beizubehalten, über die keine Reaktion erfolgt.
 

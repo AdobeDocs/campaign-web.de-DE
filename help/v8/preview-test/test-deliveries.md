@@ -3,10 +3,10 @@ audience: end-user
 title: Durchführen von Testsendungen
 description: Erfahren Sie, wie Sie Testsendungen definieren und senden
 exl-id: b2677579-c95d-443d-b207-466af364c208
-source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
 source-wordcount: '1146'
-ht-degree: 61%
+ht-degree: 60%
 
 ---
 
@@ -21,7 +21,7 @@ Nachdem der Nachrichteninhalt definiert wurde, können Sie ihn in der Vorschau a
 
 Um mögliche Fehler im Nachrichteninhalt oder in den Personalisierungseinstellungen zu erkennen, senden Sie Testsendungen an Testprofile, bevor Sie sie an die Zielgruppe senden. Bei jeder Änderung sollte ein Testversand durchgeführt werden, um den aktuellen Inhalt zu validieren. Die Übermittlung von Testsendungen ist ein wichtiger Schritt zur Validierung Ihrer Kampagne und zur Identifizierung potenzieller Probleme. Die Empfängerinnen und Empfänger eines Testversands können verschiedene Elemente wie Links, Opt-out-Links, Bilder oder Mirrorseiten überprüfen sowie Fehler bei Rendering, Inhalt, Personalisierungseinstellungen und Versandkonfiguration erkennen.
 
-## Simulieren von Inhalten mit Testempfängerinnen und -empfängern {#simulate-content-test-deliveries}
+## Inhalt mit Testprofilen simulieren {#simulate-content-test-deliveries}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_preview_option_test_target"

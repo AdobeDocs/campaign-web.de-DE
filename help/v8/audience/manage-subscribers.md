@@ -3,10 +3,10 @@ audience: end-user
 title: Verwalten von Abonnentinnen und Abonnenten
 description: Erfahren Sie, wie Sie Abonnentinnen und Abonnenten eines Dienstes i Adobe Campaign Web verwalten und wie Sie an sie versenden.
 exl-id: cf72d27e-365c-4edc-b661-a67c148f0eeb
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
 source-wordcount: '316'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -42,7 +42,7 @@ Die hinzugefügten Profile werden in der Registerkarte **[!UICONTROL Abonnierend
 
 ## Entfernen von Abonnentinnen und Abonnenten aus Ihrem Dienst {#remove-subscribers}
 
-### Manuelles Abmelden von Empfängerinnen und Empfängern {#manual-unsubscription}
+### Profile manuell abmelden {#manual-unsubscription}
 
 Wenn Sie für Ihren Dienst [Abonnentinnen und Abonnenten](#add-subscribers) hinzugefügt haben, können Sie jeden von Ihnen manuell abmelden. Gehen Sie dazu wie folgt vor.
 
@@ -62,7 +62,7 @@ Die Empfängerin bzw. der Empfänger wird aus der Registerkarte **[!UICONTROL Ab
 
 ### Automatisches Abmelden von Empfängerinnen und Empfängern {#automatic-unsubscription}
 
-Ein Anmeldedienst kann von begrenzter Dauer sein. Die Abmeldung von Abonnentinnen und Abonnenten erfolgt automatisch, wenn der Gültigkeitszeitraum abgelaufen ist.
+Ein Anmeldedienst kann von begrenzter Dauer sein. Profile werden automatisch abgemeldet, wenn der Gültigkeitszeitraum abgelaufen ist.
 
 Dieser Zeitraum wird angegeben, wenn der [Dienst erstellt](manage-services.md#create-service) wird. Deaktivieren Sie in **[!UICONTROL Zusätzliche Optionen]** die Option **[!UICONTROL Unbegrenzter Gültigkeitszeitraum]** und legen Sie einen Gültigkeitszeitraum für den Dienst fest.
 

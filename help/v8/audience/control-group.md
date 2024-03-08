@@ -3,10 +3,10 @@ audience: end-user
 title: Festlegen einer Kontrollgruppe
 description: Erfahren Sie, wie Sie in der Campaign Web-Benutzeroberfläche eine Kontrollgruppe für Ihre Nachrichten einrichten
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
-source-git-commit: cdb33c46e849a16272869913044358d344e0d6ba
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
 source-wordcount: '803'
-ht-degree: 99%
+ht-degree: 95%
 
 ---
 
@@ -62,7 +62,7 @@ Verwenden Sie dann den Abschnitt **Größenbeschränkung**, um die Anzahl der Pr
 
 ### Beispiel einer Kontrollgruppe{#control-group-sample}
 
-Gehen Sie wie folgt vor, um beispielsweise eine Kontrollgruppe mit den 100 jüngsten der neuen Empfängerinnen und Empfänger zu erstellen:
+Gehen Sie wie folgt vor, um beispielsweise eine Kontrollgruppe mit den 100 neuen jüngsten Profilen zu erstellen:
 
 1. Wählen Sie das Feld **Alter** als Sortierkriterium aus. Lassen Sie die Sortieroption **Aufsteigend**.
 1. Fügen Sie das Feld **Erstellungsdatum** hinzu. Wechseln Sie zur Sortieroption **Absteigend**.
@@ -70,7 +70,7 @@ Gehen Sie wie folgt vor, um beispielsweise eine Kontrollgruppe mit den 100 jüng
 
    ![](assets/control-group2.png){zoomable=&quot;yes&quot;}
 
-Diese 100 jüngsten, neuen Empfänger und Empfängerinnen werden dann von der Hauptzielgruppe ausgeschlossen.
+Diese 100 neuen jüngsten Profile werden dann von der Hauptzielgruppe ausgeschlossen.
 
 ### Überprüfen Sie Ihre Kontrollgruppe {#check-control-group}
 

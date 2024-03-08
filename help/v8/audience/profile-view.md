@@ -1,10 +1,11 @@
 ---
 title: Entdecken der Details von Profilen
 description: Erfahren Sie, wie Sie die Details eines Profils durchsuchen.
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+exl-id: 172dec7d-24c6-4c35-bb45-5dc3ce9fadeb
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
-source-wordcount: '180'
-ht-degree: 100%
+source-wordcount: '179'
+ht-degree: 98%
 
 ---
 
@@ -12,7 +13,7 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_subscription_list"
->title="Emfänger – Abonnementliste"
+>title="Abonnementliste"
 >abstract="In dieser Registerkarte sind alle Dienste aufgelistet, für die das Profil angemeldet ist."
 
 Um auf die Details eines Profils zuzugreifen, navigieren Sie zu **[!UICONTROL Kunden-Management]** > **[!UICONTROL Profile]** und klicken Sie dann auf das Profil, auf das Sie zugreifen möchten.
