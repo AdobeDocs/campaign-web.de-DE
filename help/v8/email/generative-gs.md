@@ -6,7 +6,7 @@ badge: label="Alpha"
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
 hide: true
 hidefromtoc: true
-source-git-commit: f9fb2adf326b093114854fd36f11a90d49c7a3d2
+source-git-commit: a404a404207b095a0745768bfe596021dcdcad56
 workflow-type: tm+mt
 source-wordcount: '536'
 ht-degree: 80%
@@ -19,7 +19,7 @@ ht-degree: 80%
 >[!CONTEXTUALHELP]
 >id="acw_emagica_generate"
 >title="Adobe Generative KI-Begriffe"
->abstract="Der Zugriff auf diese Funktion unterliegt Ihrer Zustimmung zu den Adobe Experience Cloud Generative AI-Benutzerrichtlinien und den folgenden Bedingungen:<br>Eingabeaufforderungen, Kontextdaten, zusätzliche Informationen oder andere Eingaben, die Sie für diese Funktion bereitstellen (a), müssen an einen bestimmten Kontext gebunden sein, der Ihre Branding-Materialien, Website-Inhalte, Daten, Schemata für solche Daten, Vorlagen oder andere vertrauenswürdige Dokumente umfassen kann, und (b) darf keine personenbezogenen Daten enthalten (personenbezogene Daten umfassen alles, was mit einer bestimmten Person verknüpft werden kann).<br>Sie sollten alle Ausgaben dieser Funktion auf ihre Richtigkeit hin überprüfen und sicherstellen, dass sie für Ihren Anwendungsfall geeignet sind."
+>abstract="Der Zugriff auf diese Funktion unterliegt Ihrer Zustimmung zu den Allgemeinen KI-Benutzerhandbüchern von Adobe Experience Cloud. Die folgenden Bedingungen gelten: Aufforderungen, Kontext oder zusätzliche Informationen oder andere von Ihnen für diese Funktion bereitgestellte Informationen (a) müssen an einen bestimmten Kontext gebunden sein, der Ihre Branding-Materialien, Website-Inhalte, Daten, Schemata für solche Daten, Vorlagen oder andere vertrauenswürdige Dokumente umfassen kann. (b) dürfen keine personenbezogenen Daten enthalten (personenbezogene Daten umfassen alles, was mit einer Verbindung verbunden sein kann Spezifische Person). Sie sollten alle Ausgaben dieser Funktion auf ihre Richtigkeit hin überprüfen und sicherstellen, dass sie für Ihren Anwendungsfall geeignet sind."
 >additional-url="https://www.adobe.com/legal/licenses-terms/adobe-gen-ai-user-guidelines.html" text="Adobe Generative AI-Benutzerrichtlinien"
 
 
