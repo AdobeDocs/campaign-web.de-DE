@@ -4,15 +4,15 @@ title: Filtern von Listen
 description: Erfahren Sie, wie Sie in Adobe Campaign Web-Listen mithilfe integrierter und benutzerdefinierter Filter filtern.
 exl-id: 41c3c4c3-5991-4223-ad02-e2531d76fdda
 source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '310'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 # Filtern von Listen {#filter-lists}
 
-Adobe Campaign Web bietet Filter in jeder Objektliste, mit denen Sie Informationen nach bestimmten Kontextkriterien filtern können. Sie können beispielsweise Sendungen nach Status, Kanal, Kontaktdatum oder Ordner filtern. Sie können auch Testsendungen verbergen.
+Adobe Campaign Web bietet Filter in jeder Objektliste, mit denen Sie Informationen nach bestimmten Kontextkriterien filtern können. Sie können beispielsweise Sendungen nach Status, Kanal, Kontaktdatum oder Ordner filtern. Sie können Testsendungen auch ausblenden.
 
 ## Anwenden von Filtern{#apply}
 

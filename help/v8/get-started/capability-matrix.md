@@ -4,9 +4,9 @@ title: Funktionsmatrix für die Benutzeroberfläche/Client-Konsole von Campaign 
 description: Liste der in der Campaign Web-Benutzeroberfläche unterstützten Funktionen
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
 source-git-commit: 81ee3c7ce46826089f68d2da1ff1a45e7fa93473
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2179'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -152,7 +152,7 @@ Einige Funktionen sind nur in der Client-Konsole verfügbar. Nutzen Sie die bere
 
 ## Datenmodellierung und Datenaufnahme {#data-capabilities}
 
-Die Campaign Web-Benutzeroberfläche weist die folgenden Funktionen nicht auf. Sie sind nur in der Client-Konsole verfügbar:
+Die Campaign Web-Benutzeroberfläche weist die folgenden Funktionen nicht auf. Sie sind nur in der Client-Konsole verfügbar.
 
 ### Externe Konten {#external}
 
@@ -162,15 +162,15 @@ Adobe Campaign verfügt über eine Reihe vordefinierter externer Konten, um eine
 
 Die Erstellung, Änderung und Erweiterung von Schemata sind auf erfahrene Benutzende beschränkt. Diese Funktionen sind nur in der Client-Konsole verfügbar. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/schemas.html?lang=de){target="_blank"}
 
-### Datenverwaltungsfunktionen von Workflows {#data}
+### Daten-Management-Funktionen von Workflows {#data}
 
-Das Data Management kombiniert eine Reihe von Aktivitäten zur Lösung komplexer Targeting-Probleme mit effizienteren und flexibleren Tools wie Laden, Extraktion (Datei), Daten-Update, Schema-Bearbeitung oder technischen Import/Export-Workflows. [Erfahren Sie mehr über die Datenverwaltungsfunktionen von Workflows in der Clientkonsole](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html?lang=de#data-management){target="_blank"}
+Das Daten-Management kombiniert eine Reihe von Aktivitäten zur Lösung komplexer Targeting-Probleme mit effizienteren und flexibleren Tools wie Laden der Daten, Extraktion (Datei), Daten-Update, Schemabearbeitung oder technische Import/Export-Workflows. [Weitere Informationen zu den Daten-Management-Funktionen von Workflows in der Client-Konsole](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html?lang=de#data-management){target="_blank"}
 
 >[!NOTE]
 >
->Während einige dieser Aktivitäten nur in der Client-Konsole verfügbar sind, sind einige in der Web-Benutzeroberfläche von Campaign verfügbar, wie zum Beispiel die **Anreicherung**, **Datei laden** oder **Dimensionsänderung** Aktivitäten. [Erfahren Sie mehr über Zielgruppen- und Datenverwaltungsaktivitäten in der Campaign-Webbenutzeroberfläche](../workflows/activities/about-activities.md#targeting)
+>Während einige dieser Aktivitäten nur in der Client-Konsole verfügbar sind, stehen andere in der Campaign Web-Benutzeroberfläche zur Verfügung, z. B. die Aktivitäten **Anreicherung**, **Datei laden** oder **Dimensionsänderung**. [Weitere Informationen zu Audience- und Daten-Management-Aktivitäten in der Campaign-Web-Benutzeroberfläche](../workflows/activities/about-activities.md#targeting)
 
-### Konfiguration des Federated Data Access {#fda}
+### Federated Data Access-Konfiguration {#fda}
 
 Die Konfiguration und Verbindung von Campaign mit externen Systemen ist erfahrenen Benutzenden vorbehalten und nur über die Client-Konsole verfügbar. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html?lang=de){target="_blank"}
 

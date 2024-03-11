@@ -4,9 +4,9 @@ title: Erste Schritte mit Adobe Campaign Web
 description: Erste Schritte mit Adobe Campaign Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 source-git-commit: a678175e34a633d5de258e64899ba4b10b6b674f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '580'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ Mit Campaign haben Sie folgende Möglichkeiten:
 * **E-Mail-, Mobile-, Online- und Offline-Kanäle in die Customer Journey integrieren**
 * **Automatisieren** Sie den vErsand von aussagekräftigen und rechtzeitigen Nachrichten und Angeboten
 
-## Benutzeroberfläche der Web-Nutzung von Campaign {#web}
+## Funktionsweise der Campaign Web-Benutzeroberfläche {#web}
 
 Ursprünglich nur über eine umfangreiche [Client-Konsole](#ac-client) verfügbar, bietet Campaign jetzt eine neue Web-Benutzeroberfläche (UI) mit verbesserter Benutzerfreundlichkeit, Barrierefreiheit und einem neuen Design, um das Anwendererlebnis deutlich zu verbessern. Diese neue, moderne Benutzeroberfläche vereinfacht das Design und den Versand von Marketing-Kampagnen und sorgt für Konsistenz mit anderen Adobe-Lösungen, einschließlich Adobe Experience Platform.
 
@@ -47,9 +47,9 @@ Diese neue Web-Benutzeroberfläche erfüllt zunächst die Anforderungen von **Bu
 
 Wenn Sie als Admin oder erfahrene Benutzende auf Funktionen von Campaign v8 zugreifen müssen, die nicht in der Web-Benutzeroberfläche von Campaign verfügbar sind, können Sie sich mit der [Client-Konsole](#ac-client) verbinden.
 
-Erfahren Sie auf [dieser Seite](connect-to-campaign.md), wie Sie eine Verbindung zu Adobe Campaign Web herstellen können.
+Auf [dieser Seite](connect-to-campaign.md) finden Sie Informationen dazu, wie Sie eine Verbindung zu Adobe Campaign Web herstellen können.
 
-➡️ [Video zu Discover Campaign Web](#video)
+➡️ [Video zur Funktionsweise von Campaign Web](#video)
 
 ## Über die Campaign-Client-Konsole {#ac-client}
 
@@ -63,6 +63,6 @@ Weitere Informationen zur Verwendung von Campaign v8 mit der Client-Konsole find
 
 ## Anleitungsvideo {#video}
 
-Erfahren Sie, wie Sie auf die Web-Benutzeroberfläche von Campaign zugreifen und darin navigieren und wie Sie die Inventarlisten anpassen können. Entdecken Sie den KI-gestützten Wissensassistenten.
+Hier finden Sie Informationen dazu, wie Sie auf die Campaign Web-Benutzeroberfläche zugreifen und darin navigieren können und wie Sie die Inventarlisten anpassen können. Informationen zum KI-gestützten Wissensassistenten
 
 >[!VIDEO](https://video.tv.adobe.com/v/3427278?quality=12)

@@ -3,9 +3,9 @@ title: Definieren des Inhalts für die Landingpage
 description: Erfahren Sie, wie Sie in Campaign Web Landingpage-spezifische Inhalte erstellen
 feature: Landing Pages
 source-git-commit: 2afb8c03305262c5695121fb03936c6d738833b5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '887'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -82,7 +82,7 @@ Um bestimmte Inhalte zu definieren, mit denen Benutzende ihre Auswahl auf Ihrer 
 
    * **[!UICONTROL Ja, wenn aktiviert]**.<!--TBC-->
 
-   * **[!UICONTROL Nein, überprüft]**.<!--TBC-->
+   * **[!UICONTROL Nein, wenn aktiviert]**.<!--TBC-->
 
 1. Sie können so viele Felder (z. B. Textfelder, Optionsfelder, Kontrollkästchen, Dropdown-Listen usw.) löschen und hinzufügen wie nötig.
 
@@ -99,7 +99,7 @@ Um bestimmte Inhalte zu definieren, mit denen Benutzende ihre Auswahl auf Ihrer 
 1. Wenn Sie beim Senden des Formulars zusätzliche Aktualisierungen vornehmen möchten, wählen Sie **[!UICONTROL Zusätzliche Aktualisierungen]** aus und wählen Sie dann das Element aus, das Sie aktualisieren möchten:
    * Einen Abonnement-Dienst: Definieren Sie in diesem Fall, ob Sie Benutzende beim Senden des Formulars anmelden oder abmelden möchten.
    * Die beim Ausfüllen des Formulars verwendete E-Mail-Adresse.
-   * Alle Kanäle - Beim Senden des Formulars werden die Benutzer (je nach ausgewählter Vorlage) an/aus allen Nachrichten Ihrer Marke auf allen Kanälen angemeldet oder abgemeldet.
+   * Alle Kanäle: Beim Senden des Formulars werden die Benutzenden (je nach ausgewählter Vorlage) für alle Nachrichten von Ihrer Marke auf allen Kanälen angemeldet oder abgemeldet.
    * Ein Feld aus der Datenbank: Wählen Sie ein Feld aus der Attributliste aus und legen Sie fest, ob es beim Senden des Formulars auf „True“ oder „False“ gesetzt werden soll.
 
    ![](assets/lp-form-additionnal-updates.png)

@@ -3,9 +3,9 @@ title: Erstellen einer Landingpage
 description: Hier erfahren Sie, wie Sie in Campaign Web eine Landingpage konfigurieren und veröffentlichen können.
 feature: Landing Pages
 source-git-commit: 2afb8c03305262c5695121fb03936c6d738833b5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1376'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 95%
 
 Über die Campaign Web-Benutzeroberfläche können Sie Landingpages erstellen, entwerfen und veröffentlichen. Nach der Veröffentlichung können Sie einen Link zu Ihrem Formular in einem Versand einfügen. Nachdem die Empfängerinnen und Empfänger auf diesen Link geklickt haben, werden sie zur entsprechenden Landingpage weitergeleitet.
 
-[!DNL Adobe Campaign] enthält vier Vorlagen zur Verwaltung der folgenden Anwendungsfälle: **Akquise**, **Abonnement**, **Abmeldung**, und **Blockierungsliste**. [Weitere Informationen](lp-use-cases.md)
+[!DNL Adobe Campaign] enthält vier Vorlagen für die folgenden Anwendungsfälle: **Akquise**, **Abonnement**, **Abmeldung** und **Blockierungsliste**. [Weitere Informationen](lp-use-cases.md)
 
 ## Zugreifen auf Landingpages {#access-landing-pages}
 
@@ -59,13 +59,13 @@ Sie können eine Landingpage duplizieren oder löschen. Klicken Sie auf die Ausl
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_preload"
->title="Optionen zum Vorausfüllen definieren"
->abstract="Bei aktivierter Option **Mit den Daten vorausfüllen, die im Formular referenziert werden** werden die Profilinformationen automatisch im Formular vorausgefüllt, wenn die Besucherin oder der Besucher der Landingpage mit einem Profil aus der Datenbank übereinstimmt. Mit dem **Überspringen Sie das Vorausfüllen, wenn keine ID vorhanden ist** ausgewählt ist, wird jedes eingegebene Profil zur Datenbank hinzugefügt, nachdem das Formular validiert wurde."
+>title="Definieren von Optionen zum Vorausfüllen"
+>abstract="Bei aktivierter Option **Mit den Daten vorausfüllen, die im Formular referenziert werden** werden die Profilinformationen automatisch im Formular vorausgefüllt, wenn Besuchende der Landingpage mit einem Profil aus der Datenbank übereinstimmen. Wenn Sie die Option **Vorausfüllen überspringen, wenn keine ID vorhanden** ausgewählt haben, wird jedes eingegebene Profil nach der Genehmigung des Formulars zur Datenbank hinzugefügt."
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_storage"
->title="Speicheroptionen definieren"
->abstract="Im Bereich Vorausfüllen können Sie angeben, wie der zu aktualisierende Datensatz in der Datenbank gefunden werden soll."
+>title="Definieren von Speicheroptionen"
+>abstract="Im Abschnitt „Vorausfüllen“ können Sie angeben, wie der zu aktualisierenden Eintrag in der Datenbank gesucht werden soll."
 
 <!--The main steps to create landing pages are as follows:
 

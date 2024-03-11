@@ -1,16 +1,16 @@
 ---
 solution: Campaign, Campaign v8 Web User Interface
 title: Landingpage – Anwendungsfälle
-description: Entdecken Sie die häufigsten Anwendungsfälle für Landingpages in der Campaign-Webbenutzeroberfläche.
+description: Informationen zu den häufigsten Anwendungsfällen für Landingpages in der Campaign Web-Benutzeroberfläche
 feature: Landing Pages, Subscriptions
 topic: Content Management
 role: User
 level: Intermediate
 keywords: Landing, Landingpage, Anwendungsfall
 source-git-commit: 2afb8c03305262c5695121fb03936c6d738833b5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1381'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -24,14 +24,14 @@ ht-degree: 93%
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_templates"
 >title="Vorsicht beim Kopieren der URL"
->abstract="Bei der Erstellung einer Landingpage können Sie mit vier nativen Vorlagen verschiedene Anwendungsfälle implementieren: Hinzufügen oder Aktualisieren eines Profils zur Campaign-Datenbank, Abonnieren eines Dienstes, Abmelden von einem Dienst oder Abmelden von Benutzern."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html#create-landing-page" text="Erstellen einer Landingpage"
+>abstract="Bei der Erstellung einer Landingpage können Sie mit vier nativen Vorlagen verschiedene Anwendungsfälle implementieren: Hinzufügen oder Aktualisieren eines Profils zur Campaign-Datenbank, Abonnieren eines Dienstes, Abmelden von einem Dienst oder Abmelden von Benutzenden."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html?lang=de#create-landing-page" text="Erstellen einer Landingpage"
 
 Um Ihre Landingpage richtig zu nutzen, sollten Sie sie als Link in einem Versand mit der entsprechenden Option referenzieren.
 
 >[!CAUTION]
 >
->Um Ihre Landingpage vollständig zu nutzen, können Sie den im Dashboard des veröffentlichten Versands angezeigten Link nicht direkt in Ihre Sendungen oder auf eine Webseite kopieren und einfügen. In diesem Abschnitt erfahren Sie, wie Sie dies ordnungsgemäß durchführen.
+>Um Ihre Landingpage vollständig zu nutzen, können Sie den im Dashboard des veröffentlichten Versands angezeigten Link nicht direkt in Ihre Sendungen oder auf eine Web-Seite kopieren und dort einfügen. In diesem Abschnitt erfahren Sie, wie Sie dies ordnungsgemäß durchführen.
 
 In der [!DNL Adobe Campaign Web]-Benutzeroberfläche stehen Ihnen vier vorkonfigurierte Vorlagen zur Verfügung, mit denen Sie verschiedene Anwendungsfälle implementieren können. Die wichtigsten Schritte sind jedoch identisch und werden im Folgenden beschrieben.
 
@@ -117,7 +117,7 @@ Wenn sie sich für den Erhalt Ihres Newsletters entschieden haben, werden sie f�
 >title="Festlegen der Anmelde-Landingpage"
 >abstract="Über eine Anmeldeseite können Ihre Kundinnen und Kunden einen Dienst abonnieren."
 
-Einer der häufigsten Anwendungsfälle besteht darin, über eine Landingpage Ihre Kundinnen und Kunden einzuladen, einen [Dienst zu abonnieren](../audience/manage-services.md) (z. B. einen Newsletter oder eine Veranstaltung). Gehen Sie dazu wie folgt vor.
+Einer der häufigsten Anwendungsfälle besteht darin, dass Sie über eine Landingpage Ihre Kundschaft einladen, einen [Dienst zu abonnieren](../audience/manage-services.md) (z. B. einen Newsletter oder eine Ereignis). Gehen Sie dazu wie folgt vor.
 
 <!--For example, let's say you organize an event next month and you want to launch an event registration campaign. To do this, you're going to send an email including a link to a landing page that will enable your recipients to register for this event. The users who register will be added to the subscription list that you created for this purpose.-->
 
