@@ -6,7 +6,7 @@ badge: label="Alpha"
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
 hide: true
 hidefromtoc: true
-source-git-commit: 65f041275930a0f18993b1ba37b936d8ef51d119
+source-git-commit: 832f3da044810e81f3c46f7e3dfaba835c1fabb4
 workflow-type: tm+mt
 source-wordcount: '531'
 ht-degree: 80%
@@ -28,7 +28,7 @@ ht-degree: 80%
 
 
 >[!CONTEXTUALHELP]
->id="acw_generate_emagica"
+>id="acw_emagica_generate"
 >title="Adobe Generative KI-Begriffe"
 >abstract="Der Zugriff auf diese Funktion unterliegt Ihrer Zustimmung zu den Adobe Experience Cloud Generative AI-Benutzerrichtlinien. Eingabeaufforderungen, Kontextdaten, zusätzliche Informationen oder andere Eingaben, die Sie für diese Funktion bereitstellen, müssen an einen bestimmten Kontext gebunden sein, der Ihre Branding-Materialien, Website-Inhalte, Daten, Schemata für solche Daten, Vorlagen oder andere vertrauenswürdige Dokumente umfassen kann und keine personenbezogenen Daten enthalten darf (personenbezogene Daten umfassen alles, was mit einer bestimmten Person verknüpft werden kann). Sie sollten alle Ausgaben dieser Funktion auf ihre Richtigkeit hin überprüfen und sicherstellen, dass sie für Ihren Anwendungsfall geeignet sind"
 >additional-url="https://www.adobe.com/legal/licenses-terms/adobe-gen-ai-user-guidelines.html" text="Adobe Generative AI-Benutzerrichtlinien"
