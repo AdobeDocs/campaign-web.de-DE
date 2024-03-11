@@ -6,10 +6,10 @@ badge: label="Alpha"
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
 hide: true
 hidefromtoc: true
-source-git-commit: caeea471b3ea623f7da93c17098ee33146a6af39
+source-git-commit: f9fb2adf326b093114854fd36f11a90d49c7a3d2
 workflow-type: tm+mt
-source-wordcount: '538'
-ht-degree: 83%
+source-wordcount: '536'
+ht-degree: 80%
 
 ---
 
@@ -19,10 +19,8 @@ ht-degree: 83%
 >[!CONTEXTUALHELP]
 >id="acw_emagica_generate"
 >title="Adobe Generative KI-Begriffe"
->abstract="Der Zugriff auf diese Funktion unterliegt Ihrer Zustimmung zu den Adobe Experience Cloud Generative KI-Benutzerrichtlinien und den folgenden Bedingungen:
-* Eingabeaufforderungen, Kontextdaten, zusätzliche Informationen oder andere Eingaben, die Sie für diese Funktion bereitstellen (a), müssen an einen bestimmten Kontext gebunden sein, der Ihre Branding-Materialien, Website-Inhalte, Daten, Schemata für solche Daten, Vorlagen oder andere vertrauenswürdige Dokumente umfassen kann, und (b) darf keine personenbezogenen Daten enthalten (personenbezogene Daten umfassen alles, was mit einer bestimmten Person verknüpft werden kann).
-* Sie sollten alle Ausgaben dieser Funktion auf ihre Richtigkeit hin überprüfen und sicherstellen, dass sie für Ihren Anwendungsfall geeignet sind.&quot;
->additional-url=&quot;https://www.adobe.com/legal/licenses-terms/adobe-gen-ai-user-guidelines.html&quot; text=&quot;Adobe Generative AI-Benutzerrichtlinien&quot;
+>abstract="Der Zugriff auf diese Funktion unterliegt Ihrer Zustimmung zu den Adobe Experience Cloud Generative AI-Benutzerrichtlinien und den folgenden Bedingungen:<br>Eingabeaufforderungen, Kontextdaten, zusätzliche Informationen oder andere Eingaben, die Sie für diese Funktion bereitstellen (a), müssen an einen bestimmten Kontext gebunden sein, der Ihre Branding-Materialien, Website-Inhalte, Daten, Schemata für solche Daten, Vorlagen oder andere vertrauenswürdige Dokumente umfassen kann, und (b) darf keine personenbezogenen Daten enthalten (personenbezogene Daten umfassen alles, was mit einer bestimmten Person verknüpft werden kann).<br>Sie sollten alle Ausgaben dieser Funktion auf ihre Richtigkeit hin überprüfen und sicherstellen, dass sie für Ihren Anwendungsfall geeignet sind."
+>additional-url="https://www.adobe.com/legal/licenses-terms/adobe-gen-ai-user-guidelines.html" text="Adobe Generative AI-Benutzerrichtlinien"
 
 
 >[!CONTEXTUALHELP]
