@@ -6,7 +6,7 @@ exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 source-git-commit: efb5d5d9ea3b3559c57d6a0b2a250f075dabf831
 workflow-type: tm+mt
 source-wordcount: '580'
-ht-degree: 85%
+ht-degree: 92%
 
 ---
 
@@ -53,7 +53,7 @@ Hier erhalten Sie einen Einblick in die neuesten Verbesserungen in Adobe Campaig
 
 >[!TAB Adobe Experience Manager as a Cloud Service-Integration]
 
-Die Integration zwischen der Adobe Campaign-Webschnittstelle und Adobe Experience Manager as a Cloud Service optimiert das E-Mail-Content-Management. Sie können jetzt E-Mail-Inhalte direkt in Adobe Experience Manager erstellen und bearbeiten und dann die fertigen Vorlagen nahtlos in Adobe Campaign importieren, um Ihre Sendungen durchzuführen.
+Die Integration zwischen der Adobe Campaign-Web-Schnittstelle und Adobe Experience Manager as a Cloud Service optimiert das E-Mail-Inhalts-Management. Sie können jetzt E-Mail-Inhalte direkt in Adobe Experience Manager erstellen und bearbeiten und dann die fertigen Vorlagen nahtlos in Adobe Campaign importieren, um Ihre Sendungen durchzuführen.
 
 [![Bild](assets/do-not-localize/learn-more-button.svg)](integrations/aem-content.md)
 

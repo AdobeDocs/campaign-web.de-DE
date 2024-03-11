@@ -6,7 +6,7 @@ exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 source-git-commit: efb5d5d9ea3b3559c57d6a0b2a250f075dabf831
 workflow-type: tm+mt
 source-wordcount: '1357'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -146,17 +146,17 @@ Nach dem Versand beginnt der eigentliche Versand am von Ihnen definierten Kontak
 
 Weitere Informationen zur Versandplanung finden Sie in [diesem Abschnitt](../msg/gs-deliveries.md#schedule-the-delivery-sending).
 
-## Vorschau einer E-Mail erstellen und Testsendungen durchführen {#preview-test}
+## Vorschau einer E-Mail und Durchführen von Testsendungen {#preview-test}
 
 Bevor Sie Ihre E-Mail versenden, können Sie sie in der Vorschau anzeigen und testen, um sicherzustellen, dass sie Ihren Erwartungen entspricht.
 
-In diesem Anwendungsbeispiel zeigen Sie eine Vorschau der E-Mail an und senden Testsendungen an bestimmte E-Mail-Adressen, während Sie einige der Zielgruppenprofile imitieren.
+In diesem Anwendungsbeispiel sehen Sie sich die E-Mail-Vorschau an und senden Testsendungen an bestimmte E-Mail-Adressen inklusive Identitätswechsel einiger Audience-Profile.
 
-Weitere Informationen zur Vorschau einer E-Mail und zum Durchführen von Testsendungen finden Sie unter [diesem Abschnitt](../preview-test/preview-test.md).
+Weitere Informationen über die Vorschau einer E-Mail und das Durchführen von Testsendungen finden Sie in [diesem Abschnitt](../preview-test/preview-test.md).
 
 1. Um Ihre E-Mail zu überprüfen, klicken Sie auf **[!UICONTROL Überprüfen und senden]**. Daraufhin wird eine Vorschau Ihrer E-Mail angezeigt, einschließlich der konfigurierten Eigenschaften, der Zielgruppe und des Zeitplans. Sie können jedes dieser Elemente bearbeiten, indem Sie auf die Schaltfläche „Ändern“ klicken.
 
-1. Um eine Vorschau der E-Mail anzuzeigen und Testsendungen durchzuführen, klicken Sie auf das **[!UICONTROL Inhalt simulieren]** Schaltfläche.
+1. Um eine Vorschau der E-Mail anzuzeigen und Testsendungen durchzuführen, klicken Sie auf die Schaltfläche **[!UICONTROL Inhalt simulieren]**.
 
    ![](assets/review-email.png){zoomable=&quot;yes&quot;}
 
@@ -169,25 +169,25 @@ Weitere Informationen zur Vorschau einer E-Mail und zum Durchführen von Testsen
    <!--Additionally, the **[!UICONTROL Render email]** button allows you to preview the email using mutiple devices or mail providers. Learn on how to preview email rendering
     -->
 
-1. Um Testsendungen durchzuführen, klicken Sie auf das **[!UICONTROL Testsendungen durchführen]** und wählen Sie den gewünschten Modus aus.
+1. Um Testsendungen durchzuführen, klicken Sie auf die Schaltfläche **[!UICONTROL Testsendungen durchführen]** und wählen Sie den gewünschten Modus aus.
 
-   Verwenden Sie in diesem Beispiel die **[!UICONTROL Ersatz aus Hauptzielgruppe]** -Modus, der Testsendungen an bestimmte E-Mail-Adressen sendet und dabei einige der Profile stellvertretend agiert, auf die die E-Mail zutrifft.
+   Verwenden Sie in diesem Beispiel den Modus **[!UICONTROL Aus Hauptzielgruppe ersetzen]**, der Testsendungen an bestimmte E-Mail-Adressen sendet und sich dabei stellvertretend als einige der Profile ausgibt, auf die die E-Mail abzielt.
 
    ![](assets/proof-mode.png){zoomable=&quot;yes&quot;}
 
-1. Klicks **[!UICONTROL Adresse hinzufügen]** und geben Sie die E-Mail-Adresse(n) an, die die Testsendungen erhalten.
+1. Klicken Sie auf **[!UICONTROL Adresse hinzufügen]** und geben Sie die E-Mail-Adresse(n) an, die die Testsendungen erhalten soll(en).
 
    Wählen Sie für jede E-Mail-Adresse ein Ersatzprofil aus. Sie können Adobe Campaign auch ein zufälliges Profil aus der Zielgruppe auswählen lassen.
 
    ![](assets/proof-test-profile.png){zoomable=&quot;yes&quot;}
 
-1. Klicks **[!UICONTROL Testversand durchführen]** und bestätigen Sie den Versand.
+1. Klicken Sie auf **[!UICONTROL Testsendung durchführen]** und bestätigen Sie dann den Versand.
 
-   Testsendungen werden unter Verwendung des ausgewählten Profils mit der **[Proof x]** -Präfix.
+   Es werden Testsendungen unter Verwendung des ausgewählten Profils mit dem Präfix **[Proof x]** an die angegebenen E-Mail-Adressen gesendet.
 
    ![](assets/proof-sent.png){zoomable=&quot;yes&quot;}
 
-   Sie können den Status des Versands überprüfen und jederzeit auf die gesendeten Testsendungen zugreifen, indem Sie auf die Schaltfläche **[!UICONTROL Testsendungen anzeigen]** im Bildschirm &quot;Inhalt simulieren&quot;.
+   Sie können den Status des Versands überprüfen und jederzeit auf die gesendeten Testsendungen zugreifen, indem Sie auf die Schaltfläche **[!UICONTROL Testsendungen anzeigen]** auf dem Bildschirm „Inhalt simulieren“ klicken.
 
 ## Senden und Überwachen der E-Mail {#prepare-send}
 

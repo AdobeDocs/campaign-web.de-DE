@@ -5,7 +5,7 @@ exl-id: 0b28741a-28f6-4f46-8c4c-820c5036aeda
 source-git-commit: efb5d5d9ea3b3559c57d6a0b2a250f075dabf831
 workflow-type: tm+mt
 source-wordcount: '497'
-ht-degree: 85%
+ht-degree: 89%
 
 ---
 
@@ -30,7 +30,7 @@ Außerdem können Sie mit **[!UICONTROL Testprofilen]**, die in der Client-Konso
 
 Sie können sowohl Profile als auch Testprofile verwenden, um Ihre Sendungen zu testen, bevor sie die gewünschte Zielgruppe erreichen. Auf diese Weise können Sie eine Vorschau des Nachrichteninhalts und der Personalisierung anzeigen, Testsendungen zum Testen und Validieren durchführen, das E-Mail-Rendering auf verschiedenen Plattformen und Geräten auswerten und Ihre Landingpages testen. [Weitere Informationen dazu, wie Sendungen in der Vorschau angezeigt und getestet werden können](../preview-test/preview-test.md)
 
-➡️ [Funktion im Video kennenlernen](#video)
+➡️ [Diese Funktion im Video](#video)
 
 ## Zugriff auf die Liste der Profile {#access}
 
@@ -50,6 +50,6 @@ Um ein Profil zu löschen, wählen Sie die entsprechende Option im Menü **[!UIC
 
 ## Anleitungsvideo {#video}
 
-Erfahren Sie, wie Sie über die Campaign-Web-Benutzeroberfläche auf Profile zugreifen, diese verwalten und untersuchen können.
+Informationen dazu, wie Sie mit der Campaign Web-Benutzeroberfläche auf Profile zugreifen und diese verwalten und erkunden können
 
 >[!VIDEO](https://video.tv.adobe.com/v/3427293?quality=12)

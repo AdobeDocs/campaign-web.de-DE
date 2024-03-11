@@ -8,7 +8,7 @@ exl-id: d372713d-3024-46a1-b62e-f271b8ac829f
 source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
 source-wordcount: '608'
-ht-degree: 72%
+ht-degree: 74%
 
 ---
 
@@ -102,6 +102,6 @@ You do not need to enter all fields of each tab when creating a seed address. Mi
 
 1. Klicken Sie auf die Schaltfläche **[!UICONTROL Speichern]**.
 
-Das soeben erstellte Testprofil kann jetzt zum Testversand verwendet werden. [Weitere Informationen](../preview-test/test-deliveries.md#test-profiles)
+Das soeben erstellte Testprofil kann jetzt zur Durchführung einer Testsendung verwendet werden. [Weitere Informationen](../preview-test/test-deliveries.md#test-profiles)
 
 <!--Use test profiles in Direct mail? cf v7/v8-->

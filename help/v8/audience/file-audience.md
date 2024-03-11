@@ -6,7 +6,7 @@ exl-id: e6e0dd01-5573-4261-aace-fd173827c383
 source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
 source-wordcount: '622'
-ht-degree: 86%
+ht-degree: 94%
 
 ---
 
@@ -84,7 +84,7 @@ Durance,Allison,San Francisco,15/12/2000,allison.durance@example.com,1
 
 ## Erstellen einer E-Mail-Vorschau und Testen einer E-Mail {#test}
 
-Mit Campaign Web können Sie Testsendungen in der Vorschau anzeigen und durchführen, wenn Sie eine aus einer Datei hochgeladene Audience verwenden. Gehen Sie dazu wie folgt vor:
+Campaign Web ermöglicht Ihnen die Vorschau und das Versenden von Testsendungen, wenn Sie eine Zielgruppe verwenden, die aus einer Datei hochgeladen wurde. Gehen Sie dazu wie folgt vor:
 
 1. Klicken Sie auf die **[!UICONTROL Schaltfläche „Inhalt simulieren“]** im Bearbeitungsbildschirm des Versandinhalts und klicken Sie dann auf die Schaltfläche **[!UICONTROL Testprofil(e) hinzufügen]**.
 
@@ -94,7 +94,7 @@ Mit Campaign Web können Sie Testsendungen in der Vorschau anzeigen und durchfü
 
    ![](assets/file-upload-preview.png){zoomable=&quot;yes&quot;}
 
-1. Um Testsendungen durchzuführen, klicken Sie auf das **[!UICONTROL Testversand durchführen]** Schaltfläche.
+1. Um Testsendungen durchzuführen, klicken Sie auf die Schaltfläche **[!UICONTROL Testsendung durchführen]**.
 
 1. Klicken Sie auf die Schaltfläche **[!UICONTROL Testprofile hochladen]** und wählen Sie die TXT- oder CSV-Datei aus, die Ihre Testversand-Empfängerinnen und -Empfänger enthält.
 
@@ -106,4 +106,4 @@ Mit Campaign Web können Sie Testsendungen in der Vorschau anzeigen und durchfü
 
    ![](assets/file-upload-test.png){zoomable=&quot;yes&quot;}
 
-1. Sie können den Testversand mithilfe des **[!UICONTROL Testsendungen anzeigen]** -Schaltfläche zu einem beliebigen Zeitpunkt. [Weitere Informationen zur Überwachung von Testsendungen](../preview-test/test-deliveries.md#access-test-deliveries)
+1. Sie können den Versand der Testsendung jederzeit mithilfe der Schaltfläche **[!UICONTROL Testsendung anzeigen]** überwachen. [Weitere Informationen zur Überwachung von Testsendungen](../preview-test/test-deliveries.md#access-test-deliveries)

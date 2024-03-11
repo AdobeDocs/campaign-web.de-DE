@@ -6,7 +6,7 @@ exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
 source-git-commit: efb5d5d9ea3b3559c57d6a0b2a250f075dabf831
 workflow-type: tm+mt
 source-wordcount: '869'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Mit Campaign Web können Sie neue Zielgruppen in einer visuellen Workflow-Arbeit
 
 Nachdem Sie Ihren Workflow erstellt haben, werden die resultierenden Zielgruppen automatisch in der Campaign-Datenbank zusammen mit den bereits vorhandenen Zielgruppen gespeichert. Diese Zielgruppen können dann in Workflows oder in eigenständigen Sendungen ausgewählt werden.
 
-➡️ [Funktion im Video kennenlernen](#video)
+➡️ [Diese Funktion im Video](#video)
 
 ## Erstellen Ihrer ersten Zielgruppe {#create}
 
@@ -99,6 +99,6 @@ Wenn Sie die vorherigen Zielgruppenergebnisse nicht ersetzen möchten, konfiguri
 
 ## Anleitungsvideo {#video}
 
-Hier erfahren Sie, wie Sie Audiences erstellen und verwalten, Audiences für einen Versand auswählen und Kontrollgruppen definieren.
+Erfahren Sie, wie Sie Zielgruppen erstellen und verwalten, wie Sie Zielgruppen für einen Versand auswählen und Kontrollgruppen definieren.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3425861?quality=12)

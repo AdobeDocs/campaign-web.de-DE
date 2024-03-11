@@ -82,10 +82,10 @@ ht-degree: 97%
    + [Versenden von Nachrichten an Ihre Abonnentinnen und Abonnenten](msg/send-to-subscribers.md)
    + [Versandeinstellungen konfigurieren](advanced-settings/delivery-settings.md)
    + Vorschau und Testen eines Versands{#preview-test}
-      + [Über die Vorschau und Testsendungen](preview-test/preview-test.md)
+      + [Vorschau und Testsendungen](preview-test/preview-test.md)
       + [Vorschau des Nachrichteninhalts](preview-test/preview-content.md)
       + [Durchführen von Testsendungen](preview-test/test-deliveries.md)
-      + [Testen des E-Mail-Rendering](preview-test/email-rendering.md)
+      + [Testen des E-Mail-Renderings](preview-test/email-rendering.md)
 + Landingpages {#landing-pages}
    + [Erste Schritte mit Landingpages](landing-pages/get-started-lp.md)
    + [Erstellen und Veröffentlichen einer Landingpage](landing-pages/create-lp.md)
