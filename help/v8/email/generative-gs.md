@@ -6,10 +6,10 @@ badge: label="Alpha"
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
 hide: true
 hidefromtoc: true
-source-git-commit: 6d3a891bee77ebe8e1e78d816bbec7d9bf4efc1f
+source-git-commit: 1bce844800ad82559bdefebddc96dcec58177f09
 workflow-type: tm+mt
-source-wordcount: '530'
-ht-degree: 80%
+source-wordcount: '489'
+ht-degree: 87%
 
 ---
 
@@ -19,10 +19,10 @@ ht-degree: 80%
 >[!CONTEXTUALHELP]
 >id="acw_emagica_generate"
 >title="Adobe Generative KI-Begriffe"
->abstract="Der Zugriff auf diese Funktion unterliegt Ihrer Zustimmung zu den Allgemeinen KI-Benutzerhandbüchern von Adobe Experience Cloud. Die folgenden Bedingungen gelten: Aufforderungen, Kontext oder zusätzliche Informationen oder andere von Ihnen für diese Funktion bereitgestellte Informationen (a) müssen an einen bestimmten Kontext gebunden sein, der Ihre Branding-Materialien, Website-Inhalte, Daten, Schemata für solche Daten, Vorlagen oder andere vertrauenswürdige Dokumente umfassen kann. (b) dürfen keine personenbezogenen Daten enthalten (personenbezogene Daten umfassen alles, was mit einer Verbindung verbunden sein kann Spezifische Person). Sie sollten alle Ausgaben dieser Funktion auf ihre Richtigkeit hin überprüfen und sicherstellen, dass sie für Ihren Anwendungsfall geeignet sind."
+>abstract="Der Zugriff auf diese Funktion unterliegt Ihrer Zustimmung zu den generativen Adobe Experience Cloud AI-Benutzerrichtlinien und die folgenden Bedingungen: Alle Aufforderungen, Kontexte oder zusätzlichen Informationen oder sonstigen Eingaben, die Sie für diese Funktion bereitstellen (a), müssen an einen bestimmten Kontext gebunden sein, der Ihre Branding-Materialien, Website-Inhalte, Daten, Schemata für solche Daten, Vorlagen oder andere vertrauenswürdige Dokumente umfassen kann"
 
 <!--
-"
+", and (b) must not contain any personal information (personal information includes anything that can be linked back to a specific invidual). You should review any output from this feature for accuracy and ensure that it is appropriate for your use case.
 >additional-url="https://www.adobe.com/legal/licenses-terms/adobe-gen-ai-user-guidelines.html" text="Adobe Generative AI User Guidelines"
 -->
 
