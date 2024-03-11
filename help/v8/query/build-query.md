@@ -3,10 +3,10 @@ audience: end-user
 title: Erstellen Ihrer erste Abfrage mithilfe des Abfrage-Modelers
 description: Erfahren Sie, wie Sie Ihre erste Abfrage im Abfrage-Modeler in Adobe Campaign Web erstellen.
 exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
-source-git-commit: 50780c7b551d01a088cfc88a44304b96bf120f41
+source-git-commit: decdf1619f4d5c3e5514544144086f82df6b7b21
 workflow-type: tm+mt
-source-wordcount: '2030'
-ht-degree: 96%
+source-wordcount: '2053'
+ht-degree: 95%
 
 ---
 
@@ -39,7 +39,7 @@ Filterkomponenten ermöglichen es Ihnen, eine Abfrage mithilfe von folgenden Fil
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_customcondition"
 >title="Benutzerdefinierte Bedingung"
->abstract="Benutzerdefinierte Bedingung"
+>abstract="Benutzerdefinierte Bedingungen sind Filterkomponenten, mit denen Sie Ihre Abfrage filtern können, indem Sie eine eigene Bedingung mit Attributen aus der Datenbank und erweiterten Ausdrücken erstellen."
 
 Gehen Sie wie folgt vor, um Ihre Abfrage mit einer benutzerdefinierten Bedingung zu filtern:
 
