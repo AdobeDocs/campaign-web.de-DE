@@ -308,7 +308,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_change_data_source"
 >title="Datenquelle ändern"
->abstract="Die Aktivität **Datenquelle ändern** ermöglicht die Auswahl einer anderen Datenquelle für die Arbeitstabelle Ihres Workflows."
+>abstract="Die Aktivität **Datenquelle ändern** ermöglicht die Auswahl einer anderen Datenquelle für die Arbeitstabelle des Workflows."
 
 
 <!--
