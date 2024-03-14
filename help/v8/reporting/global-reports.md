@@ -4,7 +4,7 @@ title: Erste Schritte mit globalen Berichten
 description: Grundlegendes zu globalen Berichten
 exl-id: e64d9765-f602-4fee-9923-a3665130c63a
 source-git-commit: 35e63ac1ab4be1e24a0477c4dbb3370726d8392e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '277'
 ht-degree: 100%
 
