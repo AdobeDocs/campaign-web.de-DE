@@ -3,10 +3,10 @@ audience: end-user
 title: Funktionsmatrix für die Benutzeroberfläche/Client-Konsole von Campaign Web
 description: Liste der in der Campaign Web-Benutzeroberfläche unterstützten Funktionen
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 81ee3c7ce46826089f68d2da1ff1a45e7fa93473
-workflow-type: ht
-source-wordcount: '2179'
-ht-degree: 100%
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+workflow-type: tm+mt
+source-wordcount: '2141'
+ht-degree: 96%
 
 ---
 
@@ -37,11 +37,10 @@ Verwenden Sie die bereitgestellten Links, um die Dokumentation zu Campaign v8 (C
 
 ## Kommunikationskanäle {#channels-capabilities}
 
-Mit der Campaign Web-Benutzeroberfläche können Sie **E-Mails**, **SMS** und **Push-Benachrichtigungen** erstellen, entwerfen und versenden und deren Wirkung mithilfe verschiedener spezieller Berichte messen, die [in diesem Abschnitt](../msg/gs-messages.md) beschrieben werden. Die folgenden Kanäle sind derzeit jedoch **nicht** verfügbar: In-App, Briefpost, LINE, Callcenter/Benutzerdefinierter Kanal, Social-Media-Marketing mit X (Twitter).
+Über die Campaign-Webbenutzeroberfläche können Sie **email**, **SMS**, **Push-Benachrichtigungen**, **Briefpost** und messen Sie ihre Wirkung mithilfe verschiedener spezifischer Berichte, wie detailliert beschrieben. [in diesem Abschnitt](../msg/gs-messages.md). Die folgenden Kanäle sind derzeit jedoch **not** verfügbar: In-App, LINE, Callcenter/Benutzerdefinierter Kanal, Social Marketing mit X (Twitter).
 
 Verwenden Sie die bereitgestellten Links, um die Dokumentation zu Campaign v8 (Client-Konsole) zu durchsuchen und mehr über diese Kanäle zu erfahren.
 
-* **Briefpost**. Der Briefpost-Kanal ermöglicht es Ihnen, eine physische Korrespondenz, wie z. B. Mitteilungen, Rechnungen, Kontoauszüge, Marketing-Angebote und mehr, an Ihre Kundinnen und Kunden, Auftraggeberinnen und Auftraggeber, Lieferantinnen und Lieferanten oder andere zu senden. Dieser Kanal ist nur in der Client-Konsole verfügbar. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-direct-mail/about-direct-mail-channel.html?lang=de){target="_blank"}
 * **LINE-Messaging**. LINE ist ein Programm für kostenloses Instant Messaging, Sprach- und Videoanrufe, das für alle Smartphones und für Desktop verfügbar ist. Adobe Campaign ermöglicht den Versand von LINE-Nachrichten nur von der Client-Konsole aus. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/line.html?lang=de){target="_blank"}
 * **Callcenter- und benutzerdefinierte Kanäle**. Callcenter- und andere benutzerdefinierte Kanäle können in Ihrer Campaign-Umgebung implementiert werden. Diese Kanäle sind nur in der Client-Konsole verfügbar. [Weitere Informationen finden Sie in der Dokumentation zu Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/communication-channels.html?lang=de#other-channels){target="_blank"}
 * **Social-Media-Marketing** mit X (Twitter). Sie interagieren mit Ihren Kundinnen und Kunden über X (Twitter), indem Sie Nachrichten posten und Direktnachrichten versenden. Diese Funktion ist in Verbindung mit dem Add-on für Social-Media-Marketing nur in der Client-Konsole verfügbar. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-tw.html?lang=de){target="_blank"}
@@ -168,7 +167,7 @@ Das Daten-Management kombiniert eine Reihe von Aktivitäten zur Lösung komplexe
 
 >[!NOTE]
 >
->Während einige dieser Aktivitäten nur in der Client-Konsole verfügbar sind, stehen andere in der Campaign Web-Benutzeroberfläche zur Verfügung, z. B. die Aktivitäten **Anreicherung**, **Datei laden** oder **Dimensionsänderung**. [Weitere Informationen zu Audience- und Daten-Management-Aktivitäten in der Campaign-Web-Benutzeroberfläche](../workflows/activities/about-activities.md#targeting)
+>Während einige dieser Aktivitäten nur in der Client-Konsole verfügbar sind, sind einige in der Web-Benutzeroberfläche von Campaign verfügbar, wie zum Beispiel die **Anreicherung**, **Datei laden**, **Datenquelle ändern** oder **Dimensionsänderung** Aktivitäten. [Weitere Informationen zu Audience- und Daten-Management-Aktivitäten in der Campaign-Web-Benutzeroberfläche](../workflows/activities/about-activities.md#targeting)
 
 ### Federated Data Access-Konfiguration {#fda}
 

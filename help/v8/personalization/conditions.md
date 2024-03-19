@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: 101ad23b-7ea5-42c7-9249-7c14febe6eb7
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '994'
-ht-degree: 100%
+source-wordcount: '947'
+ht-degree: 92%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 
 ## Erste Schritte mit bedingten Inhalten {#gs}
 
-Bedingter Inhalt ist eine leistungsstarke Funktion, mit der Sie eine dynamische Personalisierung erstellen können, die auf dem Empfängerprofil basiert. Dabei werden Textblöcke und Bilder automatisch ersetzt, wenn bestimmte Bedingungen erfüllt sind. Mit dieser Funktion bringen Sie Ihre Kampagnen auf eine neue Ebene und können Ihrer Zielgruppe zielgerichtete, personalisierte Erlebnisse bieten.
+Bedingter Inhalt ist eine leistungsstarke Funktion, mit der Sie eine dynamische Personalisierung erstellen können, die auf den Profildaten des Empfängers basiert und Textbausteine und Bilder automatisch ersetzt, wenn bestimmte Bedingungen erfüllt sind. Mit dieser Funktion bringen Sie Ihre Kampagnen auf eine neue Ebene und können Ihrer Zielgruppe zielgerichtete, personalisierte Erlebnisse bieten.
 
 Durch die Konfiguration bedingter Inhalte können Sie beispielsweise eine erweiterte dynamische Personalisierung erstellen, die auf dem Empfängerprofil basiert. Textblöcke, Links, Betreffzeile und/oder Bilder werden im Nachrichteninhalt ersetzt, wenn eine bestimmte Bedingung erfüllt ist. Beispielsweise kann „Herr“ oder „Frau“ entsprechend dem Wert für das Feld „Geschlecht“ in der Adobe Campaign-Datenbank eingesetzt oder je nach bevorzugter Empfängersprache ein anderer Link eingefügt werden.
 
@@ -84,7 +84,7 @@ Bedingte Inhalte in E-Mails können auf zwei Arten erstellt werden:
 * Im Ausdruckseditor durch Erstellen einer Bedingung mit Hilfsfunktionen
 * In einem speziellen Builder für bedingte Inhalte, auf den Sie beim Entwerfen einer E-Mail zugreifen können
 
-Im folgenden Abschnitt finden Sie eine schrittweise Anleitung zum Erstellen von Bedingungen mithilfe der Funktion für bedingte Inhalte des E-Mail-Designers. Detaillierte Informationen zum Erstellen von Bedingungen mithilfe des Ausdruckseditors finden Sie [hier](#condition-perso-editor).
+Im folgenden Abschnitt finden Sie eine schrittweise Anleitung zum Erstellen von Bedingungen mithilfe der Funktion für bedingte Inhalte von Email Designer. Detaillierte Informationen zum Erstellen von Bedingungen mithilfe des Ausdruckseditors finden Sie [hier](#condition-perso-editor).
 
 In diesem Beispiel möchten wir eine E-Mail-Nachricht mit mehreren Varianten erstellen, die auf der Empfängersprache basieren. Führen Sie folgende Schritte aus:
 
@@ -100,13 +100,9 @@ In diesem Beispiel möchten wir eine E-Mail-Nachricht mit mehreren Varianten ers
 
    ![](assets/condition-add-condition.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 
-1. Ein Regel-Builder wird angezeigt. Er bietet die Attribute **Profil**, **Nachricht** und **Versand**, die Sie zur Erstellung Ihrer Bedingung nutzen können.
+1. Es öffnet sich der Abfrage-Modeler. Dadurch können Sie eine Bedingung erstellen, indem Sie die Profildaten des Empfängers filtern. [Erfahren Sie, wie Sie mit dem Abfragemodell arbeiten.](../query/query-modeler-overview.md).
 
-   Darüber hinaus bietet das Menü **Bedingungen** vordefinierte Bedingungen, die Sie der Arbeitsfläche hinzufügen können, um Ihre Variante einfach zu erstellen. Um sie zu verwenden, klicken Sie auf die Schaltfläche **Hinzufügen** und ersetzen Sie dann die Elemente zwischen den Symbolen `<` und `>` durch die gewünschten Elemente. Stellen Sie sicher, dass der Wert, den Sie für die `<value>`-Objekte angeben, in Anführungszeichen gesetzt ist.
-
-   ![](assets/condition-syntax.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
-
-1. Sobald die Bedingung für die erste Variante der Nachricht vorliegt, klicken Sie auf **[!UICONTROL Bestätigen]**. In diesem Beispiel wird eine Regel erstellt, die sich an Empfängerinnen und Empfänger richtet, deren Sprache „Französisch“ ist.
+   Sobald die Bedingung für die erste Variante der Nachricht vorliegt, klicken Sie auf **[!UICONTROL Bestätigen]**. In diesem Beispiel wird eine Regel erstellt, die sich an Empfängerinnen und Empfänger richtet, deren Sprache „Französisch“ ist.
 
    ![](assets/condition-example.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 

@@ -3,10 +3,10 @@ audience: end-user
 title: Erste Schritte mit globalen Berichten
 description: Grundlegendes zu globalen Berichten
 exl-id: e64d9765-f602-4fee-9923-a3665130c63a
-source-git-commit: 35e63ac1ab4be1e24a0477c4dbb3370726d8392e
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 100%
+source-wordcount: '281'
+ht-degree: 98%
 
 ---
 
@@ -26,6 +26,7 @@ Die vollständige Liste der Berichte und zugehörigen Metriken für jeden Kanal 
 * [Globale E-Mail-Berichte](global-report-email.md)
 * [Globale SMS-Berichte](global-report-sms.md)
 * [Globale Push-Berichte](global-report-push.md)
+* [Allgemeine Briefpost-Berichte](global-report-direct.md)
 
 ## Verwalten Ihres Bericht-Dashboards {#manage-reports}
 

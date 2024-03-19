@@ -2,16 +2,16 @@
 audience: end-user
 title: Globale Berichte für den Briefpost-Kanal
 description: Erfahren Sie mehr über globale Berichte für den Briefpost-Kanal
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '634'
-ht-degree: 100%
+source-wordcount: '627'
+ht-degree: 50%
 
 ---
 
 # Globale Berichte für den Briefpost-Kanal {#global-report-direct}
 
-Die globalen Berichte bieten einen umfassenden Überblick über Traffic- und Interaktionsmetriken auf Kanalebene.
+Die globalen Briefpost-Berichte bieten Benutzern einen umfassenden Überblick über Traffic- und Interaktionsmetriken auf Kanalebene.
 
 Navigieren Sie zum Menü **[!UICONTROL Berichte]** im Abschnitt **[!UICONTROL Berichterstellung]**. Sie können Ihre Daten nach Berichtsdatum, -ordner oder -regeln filtern. [Weitere Informationen](global-reports.md)
 
@@ -19,9 +19,14 @@ Navigieren Sie zum Menü **[!UICONTROL Berichte]** im Abschnitt **[!UICONTROL Be
 
 ### Versandübersicht {#delivery-overview-direct}
 
-Die **[!UICONTROL Versandübersicht]** bietet wichtige Leistungsmetriken (KPIs) mit umfassenden Einblicken in die Interaktion Ihrer Besucherinnen und Besucher mit jedem E-Mail-Versand. Die Metriken sind unten dargestellt.
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_delivery_overview_direct_mail"
+>title="Versandübersicht"
+>abstract="Die **Versandübersicht** präsentiert wichtige Leistungsmetriken (KPIs) mit umfassenden Einblicken in die Interaktion Ihrer Besucher mit jedem Briefpost-Versand. Die Metriken sind unten dargestellt."
 
-![](assets/global_report_email_delivery_overview.png){zoomable=&quot;yes&quot;}{align="center"}
+Die **[!UICONTROL Versandübersicht]** präsentiert wichtige Leistungsmetriken (KPIs) mit umfassenden Einblicken in die Interaktion Ihrer Besucher mit jedem Briefpost-Versand. Die Metriken sind unten dargestellt.
+
+![](assets/global_report_direct_mail_delivery_overview.png){zoomable=&quot;yes&quot;}{align="center"}
 
 +++Erfahren Sie mehr über Versandübersichtsmetriken.
 
@@ -36,9 +41,19 @@ Die **[!UICONTROL Versandübersicht]** bietet wichtige Leistungsmetriken (KPIs) 
 
 ### Zielgruppe {#delivery-summary-direct-initial-target}
 
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_target_audience_direct_mail_graph"
+>title="Zielgruppe"
+>abstract="Empfängerdaten und Nachrichteninformationen werden im **Zielgruppe** Diagramm zur Analyse der Versandvorbereitung."
+
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_target_audience_direct_mail_table"
+>title="Zielgruppe"
+>abstract="Die **Zielgruppe** enthält eine detaillierte Aufschlüsselung Ihrer Empfänger und der entsprechenden Nachrichten, die auf den Ergebnissen des Versandvorbereitungsprozesses basiert."
+
 Die Tabelle und der Graph **[!UICONTROL Zielgruppe]** zeigen Daten zu Ihren Empfängerinnen und Empfängern, mit detaillierten Metriken unten.
 
-![](assets/global_report_email_targeted_audience.png){zoomable=&quot;yes&quot;}{align="center"}
+![](assets/global_report_direct_mail_targeted_audience.png){zoomable=&quot;yes&quot;}{align="center"}
 
 +++Erfahren Sie mehr über Zielgruppen-Metriken.
 
@@ -52,9 +67,17 @@ Die Tabelle und der Graph **[!UICONTROL Zielgruppe]** zeigen Daten zu Ihren Empf
 
 ### Versandstatistiken {#delivery-summary-direct-exec-stats}
 
-Die Tabelle **[!UICONTROL Versandstatistiken]** bietet eine Aufschlüsselung des Erfolgs jedes Briefpost-Versands mit folgenden detaillierten Metriken.
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_delivery_statistics_summary_direct_mail_graph"
+>title="Versandstatistiken"
+>abstract="Die **Versandstatistiken** -Diagramm bietet Einblicke in die Effektivität Ihrer Briefpostsendungen, einschließlich erfolgreicher Sendungen und aufgetretener Fehler."
 
-![](assets/global_report_email_delivery_statistics.png){zoomable=&quot;yes&quot;}{align="center"}
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_delivery_statistics_summary_direct_mail_table"
+>title="Versandstatistiken"
+>abstract="Die **Versandstatistiken** in der Tabelle werden der Erfolg Ihres Briefpost-Versands und die aufgetretenen Fehler beschrieben."
+
+Die **[!UICONTROL Versandstatistiken]** Diagramm und Tabelle enthalten eine Aufschlüsselung des Erfolgs jedes Briefpost-Versands mit detaillierten Metriken, die unten beschrieben werden.
 
 +++Erfahren Sie mehr über Versandstatistik-Metriken.
 
@@ -70,41 +93,35 @@ Die Tabelle **[!UICONTROL Versandstatistiken]** bietet eine Aufschlüsselung des
 
 ### Ausschlussgründe {#causes-exclusion}
 
-![](assets/global_report_email_exclusions.png){zoomable=&quot;yes&quot;}{align="center"}
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_exclusions_direct_mail_table"
+>title="Ausschlüsse"
+>abstract="Die **Ausschlussgründe** zeigt eine detaillierte Aufschlüsselung der während der Versandvorbereitung zurückgewiesenen Nachrichten nach Regeln an."
+
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_causes_exclusion_direct_mail_graph"
+>title="Versand – Ausschlussgründe"
+>abstract="Die **Ausschlussgründe** Diagramm zeigt die Verteilung der zurückgewiesenen Nachrichten während der Versandvorbereitung, kategorisiert nach jeder Regel."
+
+![](assets/global_report_direct_mail_exclusions.png){zoomable=&quot;yes&quot;}{align="center"}
 
 Der Graph und die Tabelle „Ausschlüsse“ zeigen die Gründe, aus denen Benutzerprofile, die aus den Zielprofilen ausgeschlossen sind, die Benachrichtigung nicht erhalten haben.
 
-## Versanddurchsatz {#delivery-throughput}
++++ Erfahren Sie mehr über Ursachen für Ausschlussmetriken.
 
-Dieser Bericht liefert umfangreiche Details zum Versanddurchsatz in einem bestimmten Zeitraum. Die zur Messung der Versandgeschwindigkeit verwendete Hauptmetrik ist die Anzahl der pro Stunde gesendeten Nachrichten.
+* **[!UICONTROL Adresse in Quarantäne]**: Fehler, der erzeugt wird, wenn eine Adresse unter Quarantäne gestellt wird.
 
-## Unzustellbare Nachrichten {#non-deliverables-direct}
+* **[!UICONTROL Adresse nicht angegeben]**: Fehler, der beim Versand erzeugt wird, um anzugeben, dass die Adresse nicht vorhanden ist.
 
-### Aufschlüsselung der Fehler nach Typen {#delivery-summary-direct-breakdown-per-type}
+* **[!UICONTROL Adresse schlechter Qualität]**: Fehler, der erzeugt wird, wenn die Qualität der Postanschrift zu niedrig ist.
 
-Die Tabelle und der Graph **[!UICONTROL Verteilung der Fehler nach Typ]** enthalten die Daten zu potenziellen Fehlern in verschiedenen Domains, deren spezifische Metriken unten angegeben sind.
+* **[!UICONTROL Auf die Blockierungsliste gesetzt Adresse]**: Fehler, der erzeugt wurde, wenn der Empfänger zum Zeitpunkt der Versanddurchführung auf die Blockierungsliste gesetzt wurde.
 
-Die in diesem Bericht angezeigten Fehler lösen einen Quarantäneprozess aus. Weitere Informationen zur Quarantäneverwaltung finden Sie in der [Dokumentation zu Campaign v8 (Client-Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=de){target="_blank"}.
+* **[!UICONTROL Double]**: Fehler, der erzeugt wurde, wenn der Empfänger ausgeschlossen wurde, da seine Schlüsselwerte nicht eindeutig waren.
 
-+++Erfahren Sie mehr über die Metriken zur Fehleraufschlüsselung nach Typ.
+* **[!UICONTROL Kontrollgruppe]**: Die Adresse des Empfängers ist Teil der Kontrollgruppe.
 
-* **[!UICONTROL Unbekannter Nutzer]**: Während des Versands ausgegebener Fehlertyp bei einer ungültigern E-Mail-Adresse.
-
-* **[!UICONTROL Ungültige Domain]**: Während des Versands ausgegebener Fehlertyp bei einer falschen oder nicht existierenden Adressen-Domain.
-
-* **[!UICONTROL Postfach voll]**: Fehlertyp, der nach fünf fehlgeschlagenen Versandversuchen erzeugt wird, wenn das Empfängerpostfach zu viele Nachrichten enthält.
-
-* **[!UICONTROL Account deaktiviert]**: Fehlertyp, der beim Senden eines Versands erzeugt wird, um anzuzeigen, dass die Adresse nicht mehr existiert.
-
-* **[!UICONTROL Verweigert]**: Fehlertyp, der erzeugt wird, wenn eine Adresse vom IAP (Internet Access Provider) abgelehnt wird, z. B. nach Anwendung einer Sicherheitsregel (Anti-Spam-Software).
-
-* **[!UICONTROL Unerreichbar]**: Fehlertyp, der in der Nachrichtenverteilungs-Zeichenfolge der Nachricht auftritt: Vorfall im SMTP-Relais, Domain vorübergehend unerreichbar, usw.
-
-* **[!UICONTROL Nicht angemeldet]**: Fehlertyp, wenn das Mobiltelefon der Empfängerin bzw. des Empfängers zum Zeitpunkt des Versands ausgeschaltet war oder über keinen Netzempfang verfügte.
+* **[!UICONTROL Größe der Zielgruppe begrenzt]**: Die maximale Versandgröße wurde für den Empfänger erreicht.
 
 +++
-
-### Aufschlüsselung der Fehler nach Domain {#delivery-summary-email-breakdown-per-domain}
-
-Die Tabelle und der Graph **[!UICONTROL Aufschlüsselung der Fehler nach Domain]** enthalten die Daten zu möglichen Fehlern in den einzelnen Domains. Die Metriken sind dieselben wie die der Tabelle und des Graphen **[!UICONTROL Aufschlüsselung der Fehler nach Typ]** weiter oben.
 

@@ -5,10 +5,10 @@ user-guide-description: Produktdokumentation zur Adobe Campaign Web-Benutzerober
 title: Dokumentation zu Adobe Campaign Web
 description: Dokumentation zu Campaign Web
 breadcrumb-title: Campaign Web-Benutzeroberfläche
-source-git-commit: 8e035bbf92914f17607a15c184ecf48f5c0efb13
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '589'
-ht-degree: 97%
+source-wordcount: '632'
+ht-degree: 93%
 
 ---
 
@@ -16,8 +16,10 @@ ht-degree: 97%
 # Dokumentation zu Adobe Campaign Web {#v8}
 
 + [Dokumentation zur Adobe Campaign Web-Benutzeroberfläche](campaign-web-home.md)
-+ [Neue Funktionen](rn/whats-new.md)
-+ [Aktualisierungen der Dokumentation](rn/documentation-updates.md)
++ Versionshinweise {#release-notes}
+   + [Neue Funktionen](rn/whats-new.md)
+   + [Aktuelle Version](rn/release-notes.md)
+   + [Aktualisierungen der Dokumentation](rn/documentation-updates.md)
 + Erste Schritte mit Adobe Campaign {#start}
    + [Erste Schritte](get-started/get-started.md)
    + [Herstellen einer Verbindung zu Campaign](get-started/connect-to-campaign.md)
@@ -73,6 +75,11 @@ ht-degree: 97%
       + [Erstellen eines SMS-Versands](sms/create-sms.md)
       + [Gestalten eines SMS-Versands](sms/content-sms.md)
       + [Vorschau und Senden eines SMS-Versands](sms/send-sms.md)
+   + Briefpost {#direct-mail}
+      + [Erste Schritte mit Briefpost-Sendungen](direct-mail/gs-direct-mail.md)
+      + [Erstellen eines Briefpostversands](direct-mail/create-direct-mail.md)
+      + [Extraktionsdatei erstellen](direct-mail/content-direct-mail.md)
+      + [Briefpost-Versand in der Vorschau ansehen und senden](direct-mail/send-direct-mail.md)
    + Inhalte dynamisch gestalten {#dynamic-content}
       + [Erste Schritte mit dynamischen Inhalten](personalization/gs-personalization.md)
       + [Hinzufügen von Personalisierung](personalization/personalize.md)
@@ -129,6 +136,7 @@ ht-degree: 97%
       + [Über Workflow-Aktivitäten](workflows/activities/about-activities.md)
       + [Und-Verknüpfung](workflows/activities/and-join.md)
       + [Zielgruppe erstellen](workflows/activities/build-audience.md)
+      + [Ändern der Datenquelle](workflows/activities/change-data-source.md)
       + [Dimensionsänderung](workflows/activities/change-dimension.md)
       + [Kombinieren](workflows/activities/combine.md)
       + [Deduplizierung](workflows/activities/deduplication.md)
@@ -156,16 +164,19 @@ ht-degree: 97%
       + [E-Mail-Versandbericht](reporting/email-report.md)
       + [Push-Versandbericht](reporting/push-report.md)
       + [SMS-Versandbericht](reporting/sms-report.md)
+      + [Briefpost-Versandbericht](reporting/direct-mail.md)
    + Kampagnenberichte {#campaign-report}
       + [Erste Schritte mit Kampagnenberichten](reporting/campaign-reports.md)
       + [E-Mail-Kampagnenbericht](reporting/campaign-reports-email.md)
       + [Push-Kampagnenbericht](reporting/campaign-reports-push.md)
       + [SMS-Kampagnenbericht](reporting/campaign-reports-sms.md)
+      + [Briefpost-Kampagnenbericht](reporting/campaign-reports-direct-mail.md)
    + Allgemeine Berichte {#global-report}
       + [Erste Schritte mit globalen Berichten](reporting/global-reports.md)
       + [Globaler E-Mail-Bericht](reporting/global-report-email.md)
       + [Globaler Push-Bericht](reporting/global-report-push.md)
       + [Globaler SMS-Bericht](reporting/global-report-sms.md)
+      + [Globaler Briefpost-Bericht](reporting/global-report-direct.md)
 + Integrationen {#integrations}
    + [Arbeiten mit anderen Adobe-Lösungen](integrations/integration.md)
    + [Verwalten von Assets mit Adobe Experience Manager Assets as a Cloud Service](integrations/aem-assets.md)
