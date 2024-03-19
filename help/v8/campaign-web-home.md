@@ -3,10 +3,10 @@ keywords: Campaign Web;Startseite;beliebte Themen
 description: Hilfe-Center zu Campaign Web
 title: Produktdokumentation zu Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: efb5d5d9ea3b3559c57d6a0b2a250f075dabf831
+source-git-commit: b1bf540f3622c11752d29aa52dad62903a6cc197
 workflow-type: tm+mt
-source-wordcount: '580'
-ht-degree: 92%
+source-wordcount: '512'
+ht-degree: 70%
 
 ---
 
@@ -51,29 +51,27 @@ Hier erhalten Sie einen Einblick in die neuesten Verbesserungen in Adobe Campaig
 
 >[!BEGINTABS]
 
->[!TAB Adobe Experience Manager as a Cloud Service-Integration]
+>[!TAB Briefpost-Kanal]
 
-Die Integration zwischen der Adobe Campaign-Web-Schnittstelle und Adobe Experience Manager as a Cloud Service optimiert das E-Mail-Inhalts-Management. Sie können jetzt E-Mail-Inhalte direkt in Adobe Experience Manager erstellen und bearbeiten und dann die fertigen Vorlagen nahtlos in Adobe Campaign importieren, um Ihre Sendungen durchzuführen.
+**Briefpost** -Kanal ist jetzt für die Verwendung in Workflows und als eigenständige Sendungen verfügbar. Briefpost ist ein Offline-Kanal, über den Sie Extraktionsdateien erstellen, personalisieren und generieren sowie diese an Ihre Briefpost-Dienstleister weitergeben können, um E-Mails an Ihre Kunden zu senden.
 
-[![Bild](assets/do-not-localize/learn-more-button.svg)](integrations/aem-content.md)
+![Bild](assets/do-not-localize/direct-mail.gif)
 
->[!TAB Kanalübergreifende Workflows]
+[![Bild](assets/do-not-localize/learn-more-button.svg)](direct-mail/gs-direct-mail.md)
 
-Erschließen Sie neue Automatisierungs- und Optimierungsmöglichkeiten, um dynamischere und stärker personalisierte Journeys zu erstellen. Von der erweiterten Segmentierung bis hin zu bedingten Triggern ermöglichen unsere zusätzlichen Workflow-Aktivitäten den Versand zielgerichteter Nachrichten und die Verbesserung der Kampagnen-Performance.
+>[!TAB Abfragemodellierung in Email Designer]
 
-[![Bild](assets/do-not-localize/learn-more-button.svg)](workflows/gs-workflows.md)
+Das Abfragemodell ist jetzt in Email Designer verfügbar. Damit können Sie Bedingungen beim Erstellen bedingter Inhalte erstellen.
 
->[!TAB Zielgruppen-Komposition]
+[![Bild](assets/do-not-localize/learn-more-button.svg)](personalization/conditions.md)
 
-Erstellen Sie neue Zielgruppen in einer visuellen Workflow-Arbeitsfläche. Sie können nicht nur von Grund auf eine einfache Zielgruppe erstellen, sondern auch Workflow-Aktivitäten nutzen, um Ihre Zielgruppe zu präzisieren. Sie können beispielsweise mehrere Zielgruppen zu einer einzigen zusammenfassen, Ihre Zielgruppe mit externen Attributen anreichern oder eine Zielgruppe basierend auf Regeln Ihrer Wahl in mehrere Zielgruppen unterteilen.
+>[!TAB Neue Workflow-Aktivität &quot;Datenquelle ändern&quot;]
 
-[![Bild](assets/do-not-localize/learn-more-button.svg)](audience/create-audience.md)
+Die **Datenquelle ändern** Die Zielgruppenbestimmungsaktivität ermöglicht die Änderung der Datenquelle, die von der Arbeitstabelle Ihres Workflows verwendet wird. Diese Aktivität bietet mehr Flexibilität, da Sie Daten in Ihren verschiedenen Datenbanken verwalten und die Leistung verbessern können.
 
->[!TAB E-Mail-Designer]
+![Bild](assets/do-not-localize/change-data-source.gif)
 
-Mit dem Campaign E-Mail-Designer können Sie über eine intuitive Drag-and-Drop-Oberfläche überzeugende, individuell zugeschnittene E-Mails erstellen. Egal, ob Sie bei null anfangen, vorhandene Inhalte importieren oder Vorlagen nutzen, können Sie für jede E-Mail alle Inhalte für Werbeaktionen sowie für Transaktionen gestalten und verfeinern.
-
-[![Bild](assets/do-not-localize/learn-more-button.svg)](email/get-started-email-designer.md)
+[![Bild](assets/do-not-localize/learn-more-button.svg)](workflows/activities/change-data-source.md)
 
 >[!ENDTABS]
 
