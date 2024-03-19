@@ -3,21 +3,14 @@ audience: end-user
 title: Erste Schritte mit Workflows
 description: Erfahren Sie, wie Sie mit Workflows beginnen
 exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
-source-git-commit: efb5d5d9ea3b3559c57d6a0b2a250f075dabf831
+source-git-commit: 980c19561c9f82a22a59b626d95d72981781af54
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '347'
 ht-degree: 100%
 
 ---
 
 # Erste Schritte mit Workflows {#workflows}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn2"
->title="Kanalübergreifende Workflows"
->abstract="Erschließen Sie neue Automatisierungs- und Optimierungsmöglichkeiten, um dynamischere und stärker personalisierte Journeys zu erstellen. Von der erweiterten Segmentierung bis hin zu bedingten Triggern ermöglichen unsere zusätzlichen Workflow-Aktivitäten den Versand zielgerichteter Nachrichten und die Verbesserung der Kampagnen-Performance."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=de" text="Siehe Versionshinweise"
-
 
 ## Was ist ein Workflow?
 
