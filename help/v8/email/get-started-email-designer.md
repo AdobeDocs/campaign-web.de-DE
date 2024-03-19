@@ -3,7 +3,7 @@ audience: end-user
 title: Bearbeiten des E-Mail-Inhalts
 description: Informationen dazu, wie Sie damit beginnen können, mit dem E-Mail-Designer in der Campaign Web-Benutzeroberfläche Inhalte zu erstellen
 exl-id: a5b966bb-09da-4a50-98d4-010fdfbb75cf
-source-git-commit: 980c19561c9f82a22a59b626d95d72981781af54
+source-git-commit: f4919f9955e098630e596cf68e2b51088fde68dc
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 99%
