@@ -1,20 +1,20 @@
 ---
 audience: end-user
-title: Konfigurieren der Bereitstellungseinstellungen
-description: Erfahren Sie, wie Sie Versandeinstellungen im Campaign Web konfigurieren
+title: Konfigurieren von Versandeinstellungen
+description: Erfahren Sie, wie Sie Versandeinstellungen in Campaign Web konfigurieren
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2420'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
 
-# Versandeinstellungen konfigurieren {#del-settings}
+# Konfigurieren der Versandeinstellungen {#del-settings}
 
-Versandeinstellungen **technische Versandparameter** die in der Versandvorlage definiert sind. Sie können bei jedem Versand überschrieben werden. Diese Einstellungen sind im Abschnitt **Einstellungen** bei der Bearbeitung eines Versands oder einer Versandvorlage verfügbar ist.
+Bei den Versandeinstellungen handelt es sich um **technische Versandparameter**, die in der Versandvorlage definiert sind. Sie können bei jedem Versand überschrieben werden.  Diese Einstellungen sind über die Schaltfläche **Einstellungen** verfügbar, wenn ein Versand oder eine Versandvorlage bearbeitet wird.
 
 >[!CAUTION]
 >
@@ -36,7 +36,7 @@ Typologien sind Gruppen von **Typologieregeln**, die während der Vorbereitungsp
 
 Wenn Sie eine Typologie mit einer Nachricht oder Nachrichtenvorlage verknüpfen, werden die in der Typologie enthaltenen Typologieregeln ausgeführt, um die Gültigkeit des Versands während der Nachrichtenvorbereitung zu überprüfen. Profile, die den Kriterien einer Typologieregel entsprechen, werden dann von den Versandzielgruppen ausgeschlossen.
 
-Mit Typologien können Sie sicherstellen, dass Ihre Sendungen immer bestimmte Elemente (z. B. einen Abmelde-Link oder eine Betreffzeile) oder Filterregeln enthalten, um Gruppen von Ihrer beabsichtigten Zielgruppe auszuschließen (z. B. Abonnenten, Konkurrenten oder Kunden ohne Treueprogramm).
+Mit Hilfe von Typologien können Sie sicherstellen, dass Ihre Sendungen immer bestimmte Elemente enthalten (z.B. einen Abmelde-Link oder eine Betreffzeile) oder Filterregeln, um bestimmte Zielgruppen auszuschließen. Dazu zählen z.B. Abonnentinnen und Abonnenten, Mitbewerberinnen und Mitbewerber oder Kundinnen und Kunden, die nicht am Treueprogramm teilnehmen.
 
 ![](assets/delivery-settings-typology.png){zoomable=&quot;yes&quot;}
 
@@ -70,7 +70,7 @@ Im Feld **[!UICONTROL Gewichtungstyp]** stehen drei Optionen zur Verfügung:
 
 Verwenden Sie das Feld **[!UICONTROL Versandgewichtung]**, um die Versandpriorität zu definieren. Jeder Versand verfügt über eine Gewichtung, die die jeweilige Priorität darstellt. Standardmäßig ist die Versandgewichtung auf den Wert 5 festgelegt. Mit Druckregeln können Sie die Gewichtung der Sendungen festlegen, auf die sie angewendet werden. Die Gewichtung kann konstant sein oder mithilfe einer Formel empfängerabhängig berechnet werden. Beispielsweise kann die Gewichtung eines Versands den Interessen eines Empfängers bzw. einer Empfängerin entsprechend bestimmt werden.
 
-Verwenden Sie die **[!UICONTROL Versandmodus]** -Feld, um den Zielauswertungsmodus auszuwählen.
+Verwenden Sie das Feld **[!UICONTROL Versandmodus]**, um den Zielgruppenauswertungsmodus auszuwählen.
 
 Drei Modi sind verfügbar:
 
@@ -80,7 +80,7 @@ Drei Modi sind verfügbar:
 
 >[!NOTE]
 >
->Ermüdungs- und Druckregeln werden in der Campaign-Clientkonsole konfiguriert. Weitere Informationen finden Sie in der [Dokumentation zu Campaign v8 (Client-Konsole)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=de){target="_blank"}.
+>Die Ermüdungsverwaltung und Druckregeln werden in der Campaign-Client-Konsole konfiguriert. Weitere Informationen finden Sie in der [Dokumentation zu Campaign v8 (Client-Konsole)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=de){target="_blank"}.
 
 ### Kapazitätseinstellungen {#capacity-settings}
 
@@ -91,12 +91,12 @@ Drei Modi sind verfügbar:
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_recipient_importance"
->title="Wichtigkeit des Empfängers bzw. der Empfängerin"
->abstract="Die Wichtigkeit des Empfängers ist eine Formel, mit der bestimmt wird, welche Profile bei Überschreitung der Typologieregeln beibehalten werden."
+>title="Wichtigkeit der Empfängerin bzw. des Empfängers"
+>abstract="Mit der Wichtigkeit der Empfängerin bzw. des Empfängers wird festgelegt, welche Profile im Falle einer Kapazitätsüberlastung der Typologieregeln beibehalten werden."
 
 In diesem Abschnitt können Sie eine Kapazitätsregel auswählen, die in der Adobe Campaign v8-Konsole definiert ist. Diese Regel ist mit dem Kanal verknüpft.
 
-Die **[!UICONTROL Bedeutung des Empfängers]** -Feld ist eine Formel, mit der bestimmt wird, welche Profile bei Überschreitung der Typologieregeln für die Kapazität beibehalten werden.
+Das Feld **[!UICONTROL Wichtigkeit der Empfängerin bzw. des Empfängers]** ist eine Formel, mit der definiert wird, welche Profile bei Überschreitung der Kapazitätstypologie-Regeln behalten werden.
 
 >[!NOTE]
 >
@@ -109,9 +109,9 @@ Die **[!UICONTROL Bedeutung des Empfängers]** -Feld ist eine Formel, mit der be
 >title="Zielgruppeneinstellungen für den Versand"
 >abstract="Ein **Zielgruppen-Mapping** unter den verfügbaren Optionen auswählen. Zielgruppen-Mappings werden in der Adobe Campaign v8-Konsole definiert. Außerdem können die Ausschlussparameter für den Versand festgelegt werden."
 
-In diesem Abschnitt können Sie ein verfügbares **Zielgruppen-Mapping** auswählen. Zielgruppen-Mappings werden in der Adobe Campaign v8-Konsole definiert. Zielgruppen-Mapping ist der Datentyp, den ein Vorgang verarbeitet. Sie ermöglicht die Bestimmung der Zielpopulation: Empfänger, Vertragsempfänger, Benutzer, Abonnenten etc. [Weitere Informationen zu Zielgruppen-Mappings](../audience/targeting-dimensions.md).
+In diesem Abschnitt können Sie ein verfügbares **Zielgruppen-Mapping** auswählen. Zielgruppen-Mappings werden in der Adobe Campaign v8-Konsole definiert. Zielgruppen-Mapping ist der Datentyp, den ein Vorgang verarbeitet. Es ermöglicht die Bestimmung der Zielpopulation: Empfängerinnen und Empfänger, Vertragsbegünstigte, Benutzerinnen und Benutzer sowie Abonnentinnen und Abonnenten.  [Weitere Informationen zu Zielgruppen-Mappings](../audience/targeting-dimensions.md).
 
-Im **[!UICONTROL Ausschluss]** können Sie Profile ausschließen, die nicht mehr kontaktiert werden möchten oder in Quarantäne sind. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html?lang=de){target="_blank"}
+Im Feld **[!UICONTROL Ausschluss]** können Sie Profile ausschließen, die nicht mehr kontaktiert werden möchten oder sich in Quarantäne befinden. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html?lang=de){target="_blank"}
 
 ## Versand {#delivery}
 
@@ -124,7 +124,7 @@ Im **[!UICONTROL Ausschluss]** können Sie Profile ausschließen, die nicht mehr
 
 ![](assets/delivery-settings-delivery.png){zoomable=&quot;yes&quot;}
 
-Die integrierte **[!UICONTROL Routing]** externes Konto wird standardmäßig bereitgestellt. Es enthält die technischen Parameter, die es der Anwendung ermöglichen, Sendungen durchzuführen.
+Das externe Konto **[!UICONTROL Integriertes Routing]** wird standardmäßig bereitgestellt. Es enthält die technischen Parameter, die es der Anwendung erlauben, Sendungen zu senden.
 
 Sie können folgende **[!UICONTROL Versandeinstellungen]** definieren:
 
@@ -136,23 +136,23 @@ Sie können folgende **[!UICONTROL Versandeinstellungen]** definieren:
   >
   >Wenn der Versand durch Duplizieren eines existierenden Versands erstellt wird, wird dieser Parameter zurückgesetzt.
 
-* **[!UICONTROL SMTP-Versand testen]** (E-Mail-Kanal): Diese Option wird zum Testen des Versands über SMTP verwendet. Die E-Mail wird bis zur Verbindung mit dem SMTP-Server verarbeitet, aber nicht gesendet: Für jeden Empfänger der E-Mail stellt Campaign eine Verbindung zum SMTP-Provider-Server her, führt den SMTP-RCPT-TO-Befehl aus und schließt die Verbindung vor dem SMTP-DATA-Befehl.
+* **[!UICONTROL SMTP-Versand testen]** (E-Mail-Kanal): Diese Option wird verwendet, um den Versand über SMTP zu testen. Die E-Mail wird bis zur Verbindung mit dem SMTP-Server verarbeitet, aber nicht gesendet: Für jede Empfängerin und jeden Empfänger der E-Mail stellt Campaign eine Verbindung mit dem Server des SMTP-Anbieters her, führt den SMTP-Befehl RCPT TO aus und trennt die Verbindung vor dem SMTP-Befehl DATA.
 
-* **[!UICONTROL Email BCC]** (E-Mail-Kanal): Mit dieser Option können Sie E-Mails über BCC in einem externen System speichern, indem Sie einfach eine BCC-E-Mail-Adresse zu Ihrer Versandzielgruppe hinzufügen. Weitere Informationen finden Sie in der [Dokumentation zu Campaign v8 (Client-Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email-bcc.html?lang=de){target="_blank"}.
+* **[!UICONTROL E-Mail-BCC]** (E-Mail-Kanal): Diese Option wird verwendet, um mit der BCC-Funktion E-Mails in einem externen System zu speichern, indem einfach eine E-Mail-Adresse als BCC zu Ihrer Nachrichtenzielgruppe hinzugefügt wird. Weitere Informationen finden Sie in der [Dokumentation zu Campaign v8 (Client-Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email-bcc.html?lang=de){target="_blank"}.
 
 Wählen Sie im Abschnitt **[!UICONTROL Wellendefinition]** die Option **[!UICONTROL In mehreren Schüben versenden]**, um das gesendete Volumen progressiv in Schüben zu erhöhen. Dadurch wird verhindert, dass Ihre Nachrichten als Spam gekennzeichnet werden, oder Sie können die Anzahl der pro Tag versendeten Nachrichten beschränken. Mit Schüben können Sie Sendungen in mehrere Teilsendungen unterteilen, anstatt große Mengen von Nachrichten gleichzeitig zu senden. [Weitere Informationen](send-using-waves.md)
 
-Bei E-Mails können Sie auch die **[!UICONTROL Mail-Formate]** der wie unten beschrieben gesendeten Nachrichten.
+Bei E-Mails können Sie auch die **[!UICONTROL Mail-Formate]** der gesendeten Nachrichten wie unten beschrieben ändern.
 
-* **[!UICONTROL Empfängereinstellungen verwenden]** (Standardmodus): Das E-Mail-Format wird entsprechend den im Empfängerprofil gespeicherten Daten definiert. Wenn ein Empfänger E-Mails in einem bestimmten Format erhalten möchte, ist dies das Format, das gesendet wird. Wenn das Feld nicht ausgefüllt ist, wird eine mehrteilige alternative E-Mail gesendet (siehe unten).
+* **[!UICONTROL Empfängereinstellungen verwenden]** (Standardmodus): Das E-Mail-Format wird entsprechend den im Empfängerprofil gespeicherten Daten definiert. Falls eine Empfängerin oder ein Empfänger Nachrichten in einem bestimmten Format erhalten möchte, werden sie in diesem Format gesendet.  Ohne Angabe in diesem Feld wird eine E-Mail vom Typ „Multipart-Alternative“ gesendet, wie im Anschluss erläutert.
 
-* **[!UICONTROL E-Mail-Client des Empfängers das beste Format wählen lassen]**: Die E-Mail enthält beide Formate: Text und HTML. Das beim Empfang angezeigte Format hängt von der Konfiguration der E-Mail-Software des Empfängers ab (Multipart-Alternative).
+* **[!UICONTROL E-Mail-Programm der Empfängerin bzw. des Empfängers das beste Format wählen lassen]**: Die E-Mail enthält sowohl das Text- als auch das HTML-Format. Welches Format beim Empfang angezeigt wird, hängt von der Konfiguration des E-Mail-Programms der Empfängerin bzw. des Empfängers ab (Multipart-Alternative).
 
   >[!IMPORTANT]
   >
-  >Diese Option umfasst beide Versionen der Nachricht. Dies wirkt sich auf die Versandrate aus, da die E-Mail-Größe größer ist.
+  >Diese Option umfasst beide Versionen der Nachricht. Dies hat Auswirkungen auf die Versandrate, da die E-Mail dadurch größer wird.
 
-* **[!UICONTROL Alle Nachrichten im Textformat senden]**: Die E-Mail wird im Textformat gesendet. Das HTML-Format wird nicht gesendet, sondern nur für die Mirrorseite verwendet, wenn der Empfänger auf die E-Mail klickt.
+* **[!UICONTROL Alle Nachrichten im Textformat senden]**: Die E-Mail wird im Textformat gesendet.  Das HTML-Format wird nicht gesendet, sondern lediglich für die Mirrorseite verwendet, wenn die Empfängerin bzw. der Empfänger auf die Nachricht klickt.
 
 ## Web-Analyse {#web-analytics}
 
@@ -192,7 +192,7 @@ Sendungen von vorübergehend nicht zugestellten Nachrichten aufgrund eines Softb
 >title="Genehmigungsmodus für Sendungen"
 >abstract="Wählen Sie den Genehmigungsmodus für Sendungen aus, die auf dieser Vorlage basieren. Wenn bei der Versandvorbereitung Warnungen erzeugt werden, kann der Versand so konfiguriert werden, dass definiert wird, ob er trotzdem ausgeführt werden soll."
 
-Wenn bei der Vorbereitung eines E-Mail-Versands Warnungen erzeugt werden, können Sie den Versand so konfigurieren, dass festgelegt wird, ob er weiterhin ausgeführt werden soll oder nicht. Standardmäßig muss der Benutzer den Versand von E-Mails nach Abschluss der Analysephase bestätigen: **Handbuch** Validierung.
+Wenn bei der Vorbereitung eines E-Mail-Versands Warnungen erzeugt werden, kann der Versand so konfiguriert werden, dass definiert wird, ob er trotzdem ausgeführt werden soll oder nicht.  Standardmäßig müssen Benutzende den E-Mail-Versand am Ende der Analysephase bestätigen: Hierbei handelt es sich um eine **manuelle** Validierung.
 
 Sie können im entsprechenden Feld einen anderen Validierungsmodus auswählen. Folgende Modi sind verfügbar: 
 
@@ -240,12 +240,12 @@ Weitere Informationen zur Gültigkeitsdauer des Versands finden Sie in der [Doku
 
 ### Verwaltung der Mirrorseite (E-Mail-Kanal) {#mirror}
 
-Eine Mirrorseite ist eine HTML-Seite, die über einen Webbrowser online abgerufen werden kann und deren Inhalt mit dem der E-Mail identisch ist. Standardmäßig wird die Mirrorseite erzeugt, wenn der Link in den Inhalt der E-Mail eingefügt wird.
+Eine Mirrorseite ist eine HTML-Seite, die über einen Webbrowser online abgerufen werden kann und deren Inhalt mit dem der E-Mail identisch ist. Standardmäßig wird die Mirrorseite automatisch generiert, wenn der entsprechende Link in den Inhalt der E-Mail eingefügt wurde.
 
 Zusätzlich zum Standardmodus stehen die folgenden Optionen zur Verfügung:
 
-* **[!UICONTROL Mirrorseitenerstellung erzwingen]**: Verwenden Sie diesen Modus, um die Mirrorseite zu erstellen, selbst wenn in die E-Mail kein Link zur Mirrorseite eingefügt wurde.
-* **[!UICONTROL Mirrorseite nicht generieren]**: Verwenden Sie diesen Modus, um das Generieren einer Mirrorseite zu vermeiden, selbst wenn der Link in der E-Mail vorhanden ist.
+* **[!UICONTROL Mirrorseitenerzeugung forcieren]**: Verwenden Sie diesen Modus, um die Mirrorseite selbst dann zu erstellen, wenn in die E-Mail kein Link zur Mirrorseite eingefügt wird.
+* **[!UICONTROL Keine Mirrorseite erzeugen]**: Verwenden Sie diesen Modus, um die Erstellung einer Mirrorseite zu vermeiden, selbst wenn der Link in der E-Mail vorhanden ist.
 * **[!UICONTROL Von der Nachrichtenkennung aus zugängliche Mirrorseite erzeugen]**: Wenn der Mirrorseite-Link nicht im E-Mail-Inhalt vorhanden ist, verwenden Sie diese Option, um den Zugriff auf den Inhalt der Mirrorseite im Versandlog-Fenster über die Client-Konsole zu aktivieren.
 
 ### Tracking {#tracking}
@@ -278,7 +278,7 @@ Zusätzlich zum Standardmodus stehen die folgenden Optionen zur Verfügung:
 
 Sie können die Ausschlussparameter in diesem Abschnitt festlegen. Folgende Optionen sind verfügbar: 
 
-* **[!UICONTROL Beibehalten von Dubletten]** ermöglicht Ihnen, mehrere Sendungen an Profile zu erlauben, die verschiedenen Zielgruppenkriterien entsprechen.
+* **[!UICONTROL Dubletten beibehalten]**: Ermöglicht es, mehrere Sendungen an Profile zu genehmigen, die mehrere Zielgruppenbestimmungskriterien erfüllen.
 * **[!UICONTROL Adressen auf der Blockierungsliste behalten]**: Ermöglicht es, Zielgruppenprofile, die nicht mehr in den Versand eingeschlossen sind, beizubehalten, z. B. nach einer Abmeldung (Opt-out).
 * **[!UICONTROL Quarantäneadressen beibehalten]**: Ermöglicht es, Zielgruppenprofile mit einer Adresse beizubehalten, über die keine Reaktion erfolgt.
 

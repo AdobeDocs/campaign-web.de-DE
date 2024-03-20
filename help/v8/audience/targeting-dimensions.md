@@ -3,9 +3,9 @@ title: Zielgruppendimensionen
 description: Erfahren Sie mehr über Zielgruppendimensionen in Adobe Campaign Web
 exl-id: b910649a-7300-4f99-8f40-3a8965572ee9
 source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '447'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 85%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_build_audience_dimension"
 >title="Auswählen der Zielgruppendimension"
->abstract="Die Zielgruppendimension ermöglicht die Bestimmung der vom Vorgang betroffenen Population: Empfängerinnen und Empfänger, Vertragsbegünstigte, Benutzerinnen und Benutzer, Abonnentinnen und Abonnenten usw. Standardmäßig wird die Zielgruppe für E-Mails und SMS in der integrierten Tabelle Empfänger ausgewählt. Bei Push-Benachrichtigungen ist die Standardzieldimension Abonnierte Anwendungen."
+>abstract="Die Zielgruppendimension ermöglicht die Bestimmung der vom Vorgang betroffenen Population: Empfängerinnen und Empfänger, Vertragsbegünstigte, Benutzerinnen und Benutzer, Abonnentinnen und Abonnenten usw. Standardmäßig wird die Zielgruppe für E-Mails und SMS in der integrierten Tabelle der Empfängerinnen und Empfänger ausgewählt. Bei Push-Benachrichtigungen ist die Standard-Zielgruppendimension „Abonnierte Anwendungen“."
 
 Die Zielgruppendimension, auch bekannt als Zielgruppen-Mapping, ist der Datentyp, den ein Vorgang verarbeitet. Hier können Sie die Zielpopulation festlegen: Profile, Vertragsbegünstigte, Benutzerinnen und Benutzern, Abonnierende, usw.
 
@@ -36,12 +36,12 @@ Sie können auch andere integrierte Zielgruppen-Mappings in Ihren Workflows und 
 
 | Name | Verwendungszweck | Schema |
 |---|---|---|
-| Empfängerinnen und Empfänger | Versand an Profile/Empfänger (integrierte Empfängertabelle) | nms:recipient |
+| Empfängerinnen und Empfänger | Versand an Profile/Empfängerinnen und Empfänger (integrierte Empfängertabelle) | nms:recipient |
 | Besucher | Versand an Besucher, deren Profile beispielsweise über Empfehlungen (Viral Marketing) erfasst wurden. | mns:visitor |
-| Abonnements  | Versand an Profile, die einen Informationsdienst abonniert haben, z. B. einen Newsletter | nms:subscription |
+| Abonnements  | Versand richtet sich an Profile, die einen Informationsdienst abonniert haben, wie z. B. einen Newsletter. | nms:subscription |
 | Besucher-Abonnements | Versand richtet sich an Besucher, die einen Informationsdienst beziehen | nms:visitorSub |
 | Benutzer | Versand richtet sich an Adobe-Campaign-Benutzer | nms:operator |
 | Externe Datei | Versand basiert auf einer Datei, die alle notwendigen Informationen enthält | Ohne Schema oder Zielgruppe |
-| Abonnierte Anwendungen | Versand an Profile, die eine Anwendung abonniert haben | nms:appSubscriptionRcp |
+| Abonnierte Anwendungen | Versand an Profile, die eine Anwendung abonniert haben. | nms:appSubscriptionRcp |
 
-Zusätzlich können Sie je nach Bedarf ein neues Zielgruppen-Mapping erstellen. Dieser Vorgang wird nur über die Clientkonsole ausgeführt. Weitere Informationen finden Sie in der [Dokumentation zu Campaign v8 (Client-Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=de#new-mapping){target="_blank"}.
+Zusätzlich können Sie je nach Bedarf ein neues Zielgruppen-Mapping erstellen. Dieser Vorgang erfolgt ausschließlich über die Client-Konsole. Weitere Informationen finden Sie in der [Dokumentation zu Campaign v8 (Client-Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=de#new-mapping){target="_blank"}.

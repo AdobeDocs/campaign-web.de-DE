@@ -4,9 +4,9 @@ title: Erstellen eines Push-Benachrichtigungs-Versands
 description: Erfahren Sie, wie Sie mit Adobe Campaign Web einen Versand für eine Push-Benachrichtigung erstellen
 exl-id: 49a3c05c-5806-4269-a98d-915eee216f90
 source-git-commit: 933cfcdfb9ff9a176f4942e349b882c404c4e2a8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '714'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -51,7 +51,7 @@ Konfigurieren Sie Ihre Versandeinstellungen wie unten beschrieben:
    * **[!UICONTROL Ordner]**: Speichern Sie den Versand in einem bestimmten Ordner.
    * **[!UICONTROL Versand-Code]**: Verwenden Sie dieses Feld, um Ihre Sendungen basierend auf Ihrer eigenen Namenskonvention zu organisieren.
    * **[!UICONTROL Beschreibung]**: Geben Sie eine Beschreibung für den Versand an.
-   * **[!UICONTROL Natur]**: Geben Sie die Art des Versands zu Classification-Zwecken an.
+   * **[!UICONTROL Art]**: Geben Sie die Art des Versands zu Klassifizierungszwecken an.
 +++
 
 

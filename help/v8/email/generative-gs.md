@@ -7,7 +7,7 @@ exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
 hide: true
 hidefromtoc: true
 source-git-commit: 832f3da044810e81f3c46f7e3dfaba835c1fabb4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '531'
 ht-degree: 100%
 
@@ -29,9 +29,9 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="acw_emagica_generate"
->title="Adobe-Begriffe zu generativer KI"
->abstract="Der Zugriff auf diese Funktion unterliegt Ihrer Zustimmung zu den Adobe Experience Cloud-Benutzerrichtlinien für generative KI. Eingabeaufforderungen, Kontext, zusätzliche Informationen oder andere Eingaben, die Sie für diese Funktion bereitstellen, müssen an einen bestimmten Kontext gebunden sein, der Ihre Branding-Materialien, Website-Inhalte, Daten, Schemata für solche Daten, Vorlagen oder andere vertrauenswürdige Dokumente umfassen kann und keine personenbezogenen Daten enthalten darf („personenbezogenen Daten“ umfasst alles, was mit einer bestimmten Person in Verbindung gebracht werden kann). Sie sollten alle Ausgaben dieser Funktion auf ihre Richtigkeit hin überprüfen und sicherstellen, dass sie für Ihren Anwendungsfall geeignet sind"
->additional-url="https://www.adobe.com/de/legal/licenses-terms/adobe-gen-ai-user-guidelines.html" text="Benutzerrichtlinien für die generative KI von Adobe"
+>title="Begriffe in Adobe Generative KI"
+>abstract="Der Zugriff auf diese Funktion unterliegt Ihrer Zustimmung zu den Adobe Experience Cloud Generative KI-Benutzerrichtlinien.  Eingabeaufforderungen, Kontextdaten, zusätzliche Informationen oder andere Eingaben, die Sie für diese Funktion bereitstellen, müssen an einen bestimmten Kontext gebunden sein, der Ihre Branding-Materialien, Website-Inhalte, Daten, Schemata für solche Daten, Vorlagen oder andere vertrauenswürdige Dokumente umfassen kann und keine personenbezogenen Daten enthalten darf (personenbezogene Daten umfassen alles, was mit einer bestimmten Person verknüpft werden kann). Sie sollten alle Ausgaben dieser Funktion auf ihre Richtigkeit hin überprüfen und sicherstellen, dass sie für Ihren Anwendungsfall geeignet sind."
+>additional-url="https://www.adobe.com/de/legal/licenses-terms/adobe-gen-ai-user-guidelines.html" text="Adobe Generative KI – Benutzungsrichtlinien"
 
 
 Der Inhaltsassistent, der auf generativer KI basiert, ist ein wertvolles Werkzeug zur Verbesserung von E-Mail-Inhalten. Er vereinfacht die Personalisierung und Inhaltsverbesserung und optimiert Ihre E-Mail-Sendungen, um besser auf Ihre Zielgruppe einzugehen.

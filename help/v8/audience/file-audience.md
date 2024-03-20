@@ -1,12 +1,12 @@
 ---
 audience: end-user
 title: Laden einer E-Mail-Zielgruppe aus einer Datei
-description: Erfahren Sie, wie Sie Profile aus einer externen Datei laden können, um Ihre E-Mail-Audience zu erstellen.
+description: Erfahren Sie, wie Sie Profile aus einer externen Datei laden, um eine E-Mail-Zielgruppe zu erstellen.
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
 source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '622'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -102,7 +102,7 @@ Campaign Web ermöglicht Ihnen die Vorschau und das Versenden von Testsendungen,
    >
    >Stellen Sie sicher, dass das Dateiformat mit dem Format übereinstimmt, das für das Hochladen Ihrer Zielgruppe verwendet wird. Bei Formatfehlern wird ein Warnhinweis angezeigt.
 
-1. Wenn die Testversand-Profile hinzugefügt wurden und Sie bereit sind, die Testsendungen durchzuführen, klicken Sie auf die Schaltfläche **[!UICONTROL Testversand durchführen]** und bestätigen Sie den Versand.
+1. Wenn die Testversand-Profile hinzugefügt wurden und Sie bereit sind, die Testsendungen durchzuführen, klicken Sie auf die Schaltfläche **[!UICONTROL Testversand durchführen]** und bestätigen dann das Senden.
 
    ![](assets/file-upload-test.png){zoomable=&quot;yes&quot;}
 

@@ -4,15 +4,15 @@ title: Erstellen einer einmaligen Zielgruppe für einen Versand
 description: Erfahren Sie, wie Sie eine einmalige Zielgruppe für einen Versand erstellen.
 exl-id: 6f2da017-90d6-497d-bbbd-293775da00e9
 source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '230'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
 # Erstellen einer einmaligen Zielgruppe {#one-time}
 
-In diesem Abschnitt wird beschrieben, wie Sie beim Entwerfen eines neuen Versands eine Zielgruppe erstellen. In diesem Fall werden die Profile, die in die Versand-Audience eingeschlossen werden sollen, durch Abfrage der Datenbank mit dem Abfragemodell abgefragt.
+In diesem Abschnitt wird beschrieben, wie Sie beim Entwerfen eines neuen Versands eine Zielgruppe erstellen. In diesem Fall werden die Profile, die in die Versandzielgruppe aufgenommen werden sollen, durch Abfrage der Datenbank mit dem Abfrage-Modeler ermittelt.
 
 Die resultierende Zielgruppe wird nur ein einziges Mal für diesen Versand verwendet. Sie wird nicht in der Zielgruppenliste gespeichert.
 

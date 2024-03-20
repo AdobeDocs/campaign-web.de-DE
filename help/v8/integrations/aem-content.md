@@ -1,12 +1,12 @@
 ---
 audience: end-user
 title: Verwalten von Assets mit Adobe Experience Manager as a Cloud Service
-description: Erfahren Sie, wie Sie Inhalte mit Adobe Experience Manager as a Cloud Service verwalten
+description: Erfahren Sie, wie Sie Inhalte mit Adobe Experience Manager as a Cloud Service verwalten können
 exl-id: 43b186c8-294e-4cbe-b269-e127065515ed
 source-git-commit: 8e035bbf92914f17607a15c184ecf48f5c0efb13
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '508'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -48,7 +48,7 @@ Die Integration der Adobe Campaign-Web-Oberfläche in Adobe Experience Manager e
 
 Ihr Newsletter ist jetzt fertig und in Adobe Campaign synchronisiert.
 
-## Adobe Experience Manager as a Cloud Service-Vorlage importieren{#aem-templates-perso}
+## Importieren einer Adobe Experience Manager as a Cloud Service-Vorlage{#aem-templates-perso}
 
 Sobald die Experience Manager-Vorlage im Adobe Campaign Web als Inhaltsvorlage verfügbar ist, können Sie den für die E-Mail erforderlichen Inhalt einschließlich Personalisierung identifizieren und integrieren.
 

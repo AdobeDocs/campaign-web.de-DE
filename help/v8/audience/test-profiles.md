@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: d372713d-3024-46a1-b62e-f271b8ac829f
 source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '608'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -17,19 +17,19 @@ ht-degree: 74%
 >[!CONTEXTUALHELP]
 >id="acw_recipients_testprofiles_menu"
 >title="Erstellen von Testprofilen"
->abstract="Testprofile sind zusätzliche Empfänger, mit denen Sie die Personalisierung und das Rendering vor dem Nachrichtenversand in der Vorschau ansehen und testen können. Sie können bei der Vorschau eines Nachrichteninhalts ein Testprofil auswählen und Testsendungen an die Testprofile durchführen, um den Nachrichteninhalt und die Einstellungen zu steuern und zu validieren."
+>abstract="Testprofile sind zusätzliche Empfängerinnen und Empfänger, die Ihnen ermöglichen, die Personalisierung und das Rendern vor dem Nachrichtenversand in der Vorschau anzusehen und zu testen. Bei der Vorschau eines Nachrichteninhalts können Sie ein Testprofil auswählen und Testsendungen an die Testprofile durchführen, um den Nachrichteninhalt und die Einstellungen zu kontrollieren und zu validieren."
 
-Testprofile werden verwendet, um Testsendungen durchzuführen und den Inhalt und die Einstellungen Ihrer Nachricht zu validieren. Bei diesen Profilen handelt es sich um zusätzliche Empfänger, mit denen Sie die Personalisierung und das Rendering vor dem Nachrichtenversand in der Vorschau ansehen und testen können. Sie können bei der Vorschau eines Nachrichteninhalts ein Testprofil auswählen und Testsendungen an die Testprofile durchführen, um den Nachrichteninhalt und die Einstellungen zu steuern und zu validieren.
+Testprofile werden verwendet, um Testsendungen durchzuführen und den Inhalt sowie die Einstellungen Ihrer Nachricht zu validieren. Diese Profile sind zusätzliche Empfängerinnen und Empfänger, die Ihnen ermöglichen, vor dem Senden Ihrer Nachrichten die Personalisierung und das Rendern in der Vorschau anzusehen und zu testen. Bei der Vorschau eines Nachrichteninhalts können Sie ein Testprofil auswählen und Testsendungen an die Testprofile durchführen, um den Nachrichteninhalt und die Einstellungen zu kontrollieren und zu validieren.
 
 <!--Learn more on test profiles in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}.-->
 
-Die Schritte zum Senden von Testsendungen an Testprofile werden im Abschnitt [diesem Abschnitt](../preview-test/test-deliveries.md#test-profiles).
+Informationen zum Versand von Testsendungen an Testprofile finden Sie in [diesem Abschnitt](../preview-test/test-deliveries.md#test-profiles).
 
 >[!NOTE]
 >
->* Testprofile werden in der Client-Konsole als Testadressen erstellt.
+>* Testprofile werden als Testadressen in der Client-Konsole erstellt. 
 >
->* Testprofile werden automatisch aus Berichten für die folgenden Versandstatistiken ausgeschlossen: **[!UICONTROL Klicks]**, **[!UICONTROL Öffnungen]**, **[!UICONTROL Abmeldungen]**.
+>* Testprofile werden aus Berichten zu folgenden Versandstatistiken automatisch ausgeschlossen: **[!UICONTROL Klicks]**, **[!UICONTROL Öffnungen]**, **[!UICONTROL Abmeldungen]**. 
 
 ## Zugreifen auf und Verwalten von Testprofilen {#access-test-profiles}
 

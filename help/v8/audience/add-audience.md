@@ -4,9 +4,9 @@ title: Auswählen einer bestehenden Zielgruppe
 description: Erfahren Sie, wie Sie eine Zielgruppe auswählen
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
 source-git-commit: 1d639f16c470297d115443b5579547419413a3d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '341'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 

@@ -4,9 +4,9 @@ title: Senden eines Push-Benachrichtigungs-Versands
 description: Erfahren Sie, wie Sie mit Adobe Campaign Web einen Push-Benachrichtigungs-Versand senden.
 exl-id: 16b3b33b-36db-4635-8e44-707694b859db
 source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '398'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ Sie können nun Ihre Push-Benachrichtigung überprüfen und an Ihre Zielgruppe s
 
 Mit **Adobe Campaign** haben Sie die Möglichkeit, Testsendungen zu verschicken, bevor Sie sie an Ihre Hauptzielgruppe senden. Dieser Schritt ist bei der Validierung Ihres Versands und der Identifizierung von Problemen wichtig.
 
-Testprofile sind die Testversand-Empfänger. Sie können Komponenten und Einstellungen wie Links, Bilder und Personalisierung überprüfen und validieren, um eine optimale Leistung zu gewährleisten und Fehler zu erkennen. Dieser Prozess hilft Ihnen, Ihre Push-Benachrichtigungen zu verfeinern und zu optimieren, bevor Sie Ihre Hauptzielgruppe erreichen. [Durchführen eines Testversands](../preview-test/test-deliveries.md#subscribers)
+Testprofile sind die Empfängerinnen und Empfänger eines Testversands. Diese können Komponenten und Einstellungen wie Links, Bilder und Personalisierungseinstellungen überprüfen, um eine optimale Leistung zu gewährleisten und Fehler zu erkennen. Dieser Prozess hilft Ihnen, Ihre Push-Benachrichtigungen zu verfeinern und zu optimieren, bevor Sie Ihre Hauptzielgruppe erreichen. [Durchführen eines Testversands](../preview-test/test-deliveries.md#subscribers)
 
 ![](assets/push_send_6.png){zoomable=&quot;yes&quot;}
 

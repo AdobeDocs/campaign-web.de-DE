@@ -4,9 +4,9 @@ title: Überwachen und Verwalten von Zielgruppen
 description: Erfahren Sie, wie Sie Zielgruppen in Adobe Campaign Web überwachen und verwalten können.
 exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
 source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '568'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -56,7 +56,7 @@ Zielgruppen können aus mehreren Quellen stammen. Die Spalte **[!UICONTROL Herku
 
 * **[!UICONTROL Adobe Experience Platform:]** Diese Zielgruppen werden in Adobe Experience Platform erstellt und mithilfe der Integration von Adobe-Quellen- und Zielen in Campaign Web integriert. Erfahren Sie in der [Dokumentation zu Campaign v8 (Client-Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html?lang=de){target="_blank"}, wie Sie diese Integration einrichten.
 
-  ➡️ [Funktion im Video kennenlernen](#video)
+  ➡️ [Entdecken Sie diese Funktion im Video](#video)
 
 * **[!UICONTROL Adobe Campaign WebUI]**: Diese Zielgruppen werden mithilfe von Zielgruppen-Workflows von Campaign Web erstellt. [Erfahren Sie, wie Sie Zielgruppen erstellen](create-audience.md)
 
@@ -70,8 +70,8 @@ Um eine Zielgruppe zu duplizieren oder zu löschen, klicken Sie auf die Schaltfl
 
 ## Anleitungsvideo {#video}
 
-Erfahren Sie, wie Sie ein Ziel für die Verwendung einer Experience Platform-Audience in der Adobe Campaign-Web-Benutzeroberfläche erstellen.
+Erfahren Sie, wie Sie ein Ziel für die Verwendung einer Experience Platform-Zielgruppe in der Benutzeroberfläche von Adobe Campaign Web erstellen.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3427635?quality=12)
 
-Detaillierte Informationen zum Einrichten der Adobe-Quell- und Zielintegration finden Sie unter [Dokumentation zu Campaign v8 (Clientkonsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html?lang=de){target="_blank"}.
+Detaillierte Informationen zum Einrichten der Adobe-Quell- und Zielintegration finden Sie in der [Dokumentation zu Campaign v8 (Client-Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html?lang=de){target="_blank"}.

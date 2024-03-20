@@ -4,9 +4,9 @@ title: Erstellen eines SMS-Versands
 description: Erfahren Sie, wie Sie SMS mit Adobe Campaign Web erstellen und senden
 exl-id: 54181498-8164-4600-8b3f-20892b77d5d7
 source-git-commit: 933cfcdfb9ff9a176f4942e349b882c404c4e2a8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '506'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -50,7 +50,7 @@ Gehen Sie wie folgt vor, um einen eigenständigen SMS-Versand zu erstellen:
    * **[!UICONTROL Ordner]**: Speichern Sie den Versand in einem bestimmten Ordner.
    * **[!UICONTROL Versand-Code]**: Verwenden Sie dieses Feld, um Ihre Sendungen basierend auf Ihrer eigenen Namenskonvention zu organisieren.
    * **[!UICONTROL Beschreibung]**: Geben Sie eine Beschreibung für den Versand an.
-   * **[!UICONTROL Natur]**: Geben Sie die Art des Versands zu Classification-Zwecken an.
+   * **[!UICONTROL Art]**: Geben Sie die Art des Versands zu Klassifizierungszwecken an.
 +++
 
 1. Klicken Sie auf die Schaltfläche **[!UICONTROL Zielgruppe auswählen]**, um eine vorhandene Zielgruppe anzusprechen oder eine eigene zu erstellen. [Weitere Informationen zu Zielgruppen](../audience/about-recipients.md).
