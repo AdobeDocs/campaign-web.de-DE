@@ -1,14 +1,22 @@
 ---
 title: Neueste Versionshinweise
 description: Entdecken Sie neue Funktionen in der Campaign Web-Benutzeroberfläche
-source-git-commit: 980c19561c9f82a22a59b626d95d72981781af54
+source-git-commit: 21d856f9651f3a392ba9d927bc26082ce9759396
 workflow-type: tm+mt
-source-wordcount: '289'
-ht-degree: 10%
+source-wordcount: '322'
+ht-degree: 9%
 
 ---
 
 # Versionshinweise {#latest-release}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_learning_card2"
+>title="Neue Funktionen"
+>abstract="Adobe Campaign Web-Benutzeroberflächen-Versionen basieren auf einem kontinuierlichen Bereitstellungsmodell, das einen skalierbareren, schrittweisen Ansatz für die Bereitstellung von Funktionen ermöglicht. Die Versionshinweise werden mehrmals im Monat aktualisiert."
+>
+>"**March release is now live**, including Direct mail channel, the new Change data source workflow activity, and other improvements."
 
 
 <!--Last update: **March 19, 2024**-->
