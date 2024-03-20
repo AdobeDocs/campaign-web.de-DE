@@ -8,7 +8,7 @@ breadcrumb-title: Campaign Web-Benutzeroberfläche
 source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
 source-wordcount: '632'
-ht-degree: 93%
+ht-degree: 95%
 
 ---
 
@@ -87,7 +87,7 @@ ht-degree: 93%
       + [Hinzufügen von integrierten Inhaltsbausteinen](personalization/content-blocks.md)
    + [Hinzufügen von Angeboten zu Ihren Nachrichten](msg/offers.md)
    + [Versenden von Nachrichten an Ihre Abonnentinnen und Abonnenten](msg/send-to-subscribers.md)
-   + [Versandeinstellungen konfigurieren](advanced-settings/delivery-settings.md)
+   + [Konfigurieren der Versandeinstellungen](advanced-settings/delivery-settings.md)
    + Vorschau und Testen eines Versands{#preview-test}
       + [Vorschau und Testsendungen](preview-test/preview-test.md)
       + [Vorschau des Nachrichteninhalts](preview-test/preview-content.md)

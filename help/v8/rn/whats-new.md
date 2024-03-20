@@ -6,7 +6,7 @@ exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 source-git-commit: da861a0777a316e210b229d823e3f15b5a13ab2f
 workflow-type: tm+mt
 source-wordcount: '1265'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -66,7 +66,7 @@ Verwenden Sie die neue Campaign Web-Benutzeroberfläche für Folgendes:
 
 * Erstellen, entwerfen, personalisieren, planen und senden Sie E-Mail-, SMS- und Push-Benachrichtigungen – [Weitere Informationen](../msg/gs-messages.md)
 * Erstellen Sie personalisierte E-Mail-Inhalte mit dem E-Mail-Designer – [Weitere Informationen](../email/edit-content.md)
-* Senden von kanalübergreifenden Kampagnen, einschließlich SMS- und Push-Benachrichtigungen - [Weitere Infos](../workflows/activities/channels.md)
+* Senden Sie kanalübergreifende Kampagnen, einschließlich SMS- und Push-Benachrichtigungen – [Weitere Informationen](../workflows/activities/channels.md)
 * Definieren von Zielgruppen mit dem Abfrage-Modeler – [Weitere Informationen](../audience/about-recipients.md)
 * Vorschau, Testen und Senden Ihrer Nachrichten – [Weitere Informationen](../monitor/prepare-send.md)
 * Überwachen, Senden und Messen von Ergebnissen mit integrierten Berichten – [Weitere Informationen](../reporting/delivery-reports.md)

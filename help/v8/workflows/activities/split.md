@@ -50,7 +50,7 @@ Die Aktivität **Aufspaltung** ist eine Aktivität zur **Zielgruppenbestimmung**
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_generatesubsets"
 >title="Alle Teilmengen in derselben Tabelle erzeugen"
->abstract="Aktivieren Sie diese Option, um alle Teilmengen in einer Ausgabetransition zusammenzufassen."
+>abstract="Aktivieren Sie diese Option, um alle Teilmengen in einer ausgehenden Transition zu gruppieren."
 
 Folgen Sie diesen Schritten, um die Aktivität **Aufspaltung** zu konfigurieren:
 

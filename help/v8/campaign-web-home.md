@@ -6,7 +6,7 @@ exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 source-git-commit: 36f13683f0a7e58dd684a69d84007136aa3132b8
 workflow-type: tm+mt
 source-wordcount: '502'
-ht-degree: 72%
+ht-degree: 78%
 
 ---
 
@@ -93,7 +93,7 @@ Die **Datenquelle ändern** Die Zielgruppenbestimmungsaktivität ermöglicht die
     </div></td>
     <td>
     <a href="personalization/gs-personalization.md"><img src="assets/do-not-localize/menu-dynamic.png"></a>
-    <div><strong>Dynamische Inhalte erstellen</strong><br/>Erfahren Sie, wie Sie Ihren Inhalt basierend auf den Informationen, die Sie über Ihre Profile gesammelt haben, anpassen können, um Ihren Inhalt attraktiver zu machen und die Wahrscheinlichkeit zu erhöhen, dass er gelesen wird.</div>
+    <div><strong>Gestalten Sie Ihre Inhalte dynamisch</strong><br/>Lernen Sie, wie Sie die Inhalte anhand der Informationen, die Sie über Profile gesammelt haben, anpassen können, um Ihre Inhalte ansprechender zu gestalten und die Wahrscheinlichkeit zu erhöhen, dass diese gelesen werden.</div>
     </td>
   </tr>
   <tr style="border: 0;">

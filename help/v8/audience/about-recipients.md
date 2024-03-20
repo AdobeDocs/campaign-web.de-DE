@@ -5,7 +5,7 @@ exl-id: 0b28741a-28f6-4f46-8c4c-820c5036aeda
 source-git-commit: 5a4bf85a1f70a0282405aededfb31038f9db17a8
 workflow-type: tm+mt
 source-wordcount: '456'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 88%
 
 ## Was ist ein Profil? {#what}
 
-A **profile**, in der Client-Konsole auch als &quot;Empfänger&quot;bezeichnet, stellt einen Datensatz dar, der in der Campaign-Datenbank gespeichert ist und als Schlüsselkomponente für [Erstellen von Zielgruppen](create-audience.md) für Sendungen und [Personalisierung hinzufügen](../personalization/personalize.md) Daten an Ihren Inhalt. Adobe Campaign ermöglicht Ihnen die nahtlose Verwaltung von Profilen, von der Erstellung neuer Einträge bis hin zum Zugriff auf eine umfassende Übersicht aller Profilattribute und Service-Abonnements, und das alles über die Campaign Web-Benutzeroberfläche.
+Ein **Profil**, in der Client-Konsole auch als „Empfänger“ bezeichnet, stellt einen Eintrag dar, der in der Campaign-Datenbank gespeichert ist und als Schlüsselkomponente zum [Erstellen von Zielgruppen](create-audience.md) für Sendungen und zum [Hinzufügen von Personalisierungsdaten](../personalization/personalize.md) zu Ihren Inhalten dient. Adobe Campaign ermöglicht Ihnen die nahtlose Verwaltung von Profilen, von der Erstellung neuer Einträge bis hin zum Zugriff auf eine umfassende Übersicht aller Profilattribute und Service-Abonnements, und das alles über die Campaign Web-Benutzeroberfläche.
 
-Außerdem können Sie mit **[!UICONTROL Testprofilen]**, die in der Client-Konsole ebenfalls als „Testprofile“ bezeichnet werden, zusätzliche Empfängerinnen und Empfänger ansprechen, die nicht den Zielkriterien eines bestimmten Versands entsprechen. Diese Profile enthalten fiktive Kontaktinformationen oder Kontaktinformationen, die von der Absenderin oder dem Absender kontrolliert werden. Testprofile sind Testversand-Empfänger, mit denen Ihre Nachrichten durch Testsendungen getestet werden können. [Erfahren Sie, wie Sie mit Testprofilen arbeiten](test-profiles.md)
+Außerdem können Sie mit **[!UICONTROL Testprofilen]**, die in der Client-Konsole ebenfalls als „Testprofile“ bezeichnet werden, zusätzliche Empfängerinnen und Empfänger ansprechen, die nicht den Zielkriterien eines bestimmten Versands entsprechen. Diese Profile enthalten fiktive Kontaktinformationen oder Kontaktinformationen, die von der Absenderin oder dem Absender kontrolliert werden. Testprofile sind Empfängerinnen und Empfänger eines Testversands, mit denen Ihre Nachrichten durch Testsendungen getestet werden können. [Erfahren Sie, wie Sie mit Testprofilen arbeiten](test-profiles.md)
 
 Sie können sowohl Profile als auch Testprofile verwenden, um Ihre Sendungen zu testen, bevor sie die gewünschte Zielgruppe erreichen. Auf diese Weise können Sie eine Vorschau des Nachrichteninhalts und der Personalisierung anzeigen, Testsendungen zum Testen und Validieren durchführen, das E-Mail-Rendering auf verschiedenen Plattformen und Geräten auswerten und Ihre Landingpages testen. [Weitere Informationen dazu, wie Sendungen in der Vorschau angezeigt und getestet werden können](../preview-test/preview-test.md)
 
