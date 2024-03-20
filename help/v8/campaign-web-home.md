@@ -3,10 +3,10 @@ keywords: Campaign Web;Startseite;beliebte Themen
 description: Hilfe-Center zu Campaign Web
 title: Produktdokumentation zu Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: b1bf540f3622c11752d29aa52dad62903a6cc197
+source-git-commit: 36f13683f0a7e58dd684a69d84007136aa3132b8
 workflow-type: tm+mt
-source-wordcount: '512'
-ht-degree: 70%
+source-wordcount: '502'
+ht-degree: 72%
 
 ---
 
@@ -51,6 +51,12 @@ Hier erhalten Sie einen Einblick in die neuesten Verbesserungen in Adobe Campaig
 
 >[!BEGINTABS]
 
+>[!TAB Die Version vom März ist live!]
+
+Entdecken Sie neue Funktionen und Verbesserungen der Adobe Campaign-Webbenutzeroberfläche-Version 24.3.
+
+[![Bild](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
+
 >[!TAB Briefpost-Kanal]
 
 **Briefpost** -Kanal ist jetzt für die Verwendung in Workflows und als eigenständige Sendungen verfügbar. Briefpost ist ein Offline-Kanal, über den Sie Extraktionsdateien erstellen, personalisieren und generieren sowie diese an Ihre Briefpost-Dienstleister weitergeben können, um E-Mails an Ihre Kunden zu senden.
@@ -58,12 +64,6 @@ Hier erhalten Sie einen Einblick in die neuesten Verbesserungen in Adobe Campaig
 ![Bild](assets/do-not-localize/direct-mail.gif)
 
 [![Bild](assets/do-not-localize/learn-more-button.svg)](direct-mail/gs-direct-mail.md)
-
->[!TAB Abfragemodellierung in Email Designer]
-
-Das Abfragemodell ist jetzt in Email Designer verfügbar. Damit können Sie Bedingungen beim Erstellen bedingter Inhalte erstellen.
-
-[![Bild](assets/do-not-localize/learn-more-button.svg)](personalization/conditions.md)
 
 >[!TAB Neue Workflow-Aktivität &quot;Datenquelle ändern&quot;]
 
