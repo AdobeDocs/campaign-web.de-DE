@@ -1,9 +1,9 @@
 ---
 title: Neueste Versionshinweise
 description: Entdecken Sie neue Funktionen in der Campaign Web-Benutzeroberfläche
-source-git-commit: 5b0e59e8bb7e4a8ee3ce648c4af7dd9e41be7a81
+source-git-commit: 9ec5483a5253d67110baf6a51b47ebe0c27574d5
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '342'
 ht-degree: 9%
 
 ---
@@ -26,19 +26,6 @@ Adobe Campaign Web-Benutzeroberflächen-Versionen basieren auf einem kontinuierl
 >Diese Version steht allen Benutzern zur Verfügung, die [Campaign (Konsole) Version 8.6](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=de). Weitere Informationen zu den Versionen und Upgrades der Adobe Campaign-Clientkonsole finden Sie unter [Dokumentation zu Campaign v8 (Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/upgrades.html?lang=de){target="_blank"}.
 
 ## März - Versionshinweise {#24-3-release}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn1"
->title="Briefpost"
->abstract="Der Briefpost-Kanal kann jetzt in Workflows und eigenständigen Sendungen verwendet werden. Verwenden Sie den Offline-Kanal Briefpost , um eine Extraktionsdatei zu erstellen, zu personalisieren und zu generieren, und geben Sie sie für Ihre Briefpost-Dienstleister frei, damit diese Ihren Kunden E-Mails senden können."
->additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/release-notes/release-notes" text="Siehe Versionshinweise"
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn2"
->title="Ändern der Datenquelle"
->abstract="Verwenden Sie die neue Workflow-Targeting-Aktivität Datenquelle ändern , um die von der Arbeitstabelle Ihres Workflows verwendete Datenquelle zu ändern. Diese Aktivität bietet mehr Flexibilität, da Sie Daten in Ihren verschiedenen Datenbanken verwalten und die Leistung verbessern können."
->additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/release-notes/release-notes" text="Siehe Versionshinweise"
-
 
 **Veröffentlichungsdatum**: 19.-20. März 2024
 
