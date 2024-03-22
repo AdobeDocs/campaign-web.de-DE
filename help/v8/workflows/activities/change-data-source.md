@@ -2,21 +2,15 @@
 audience: end-user
 title: Verwenden Sie die Workflow-Aktivität Datenquelle ändern .
 description: Erfahren Sie, wie Sie die Workflow-Aktivität Datenquelle ändern verwenden
-source-git-commit: f4919f9955e098630e596cf68e2b51088fde68dc
+source-git-commit: 5b0e59e8bb7e4a8ee3ce648c4af7dd9e41be7a81
 workflow-type: tm+mt
-source-wordcount: '343'
-ht-degree: 11%
+source-wordcount: '297'
+ht-degree: 12%
 
 ---
 
 # Ändern der Datenquelle {#change-data-source}
 
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn2"
->title="Datenquelle in Workflows ändern"
->abstract="Mit der Aktivität Datenquellen-Targeting ändern können Sie die Datenquelle ändern, die von der Arbeitstabelle Ihres Workflows verwendet wird. Diese Aktivität bietet mehr Flexibilität, da Sie Daten in Ihren verschiedenen Datenbanken verwalten und die Leistung verbessern können."
->additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/release-notes/release-notes" text="Siehe Versionshinweise"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_change_data_source"
