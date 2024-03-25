@@ -5,10 +5,10 @@ description: Erste Schritte mit dem KI-Assistenten in Campaign
 badge: label="Beta"
 hide: true
 hidefromtoc: true
-source-git-commit: af67094638cfc3c5c64385203340918f0f8f2482
+source-git-commit: 396f52cfdb482e5afdf43b5729ef37b5a634be3d
 workflow-type: tm+mt
 source-wordcount: '433'
-ht-degree: 42%
+ht-degree: 35%
 
 ---
 
@@ -75,7 +75,7 @@ Dieses praktische Tool bietet intelligente Vorschläge zur Verfeinerung Ihres In
 
    ![](assets/sms-genai-4.png){zoomable=&quot;yes&quot;}
 
-1. Fügen Sie Personalisierungsfelder ein, um Ihre E-Mail-Inhalte auf der Grundlage von Profildaten anzupassen. [Weitere Informationen über die Personalisierung von Inhalten](../personalization/personalize.md)
+1. Fügen Sie Personalisierungsfelder ein, um Ihren SMS-Inhalt auf der Basis von Profildaten anzupassen. [Weitere Informationen über die Personalisierung von Inhalten](../personalization/personalize.md)
 
    ![](assets/sms-genai-5.png){zoomable=&quot;yes&quot;}
 
@@ -83,4 +83,4 @@ Dieses praktische Tool bietet intelligente Vorschläge zur Verfeinerung Ihres In
 
    ![](assets/sms-genai-6.png){zoomable=&quot;yes&quot;}
 
-1. Wenn Sie Inhalt, Zielgruppe und Zeitplan definiert haben, können Sie den E-Mail-Versand vorbereiten. [Weitere Informationen](../monitor/prepare-send.md)
+1. Wenn Sie Inhalt, Zielgruppe und Zeitplan definiert haben, können Sie den SMS-Versand vorbereiten. [Weitere Informationen](../monitor/prepare-send.md)

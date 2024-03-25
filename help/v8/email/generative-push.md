@@ -5,10 +5,10 @@ description: Erste Schritte mit dem KI-Assistenten in Campaign
 badge: label="Beta"
 hide: true
 hidefromtoc: true
-source-git-commit: af67094638cfc3c5c64385203340918f0f8f2482
+source-git-commit: 396f52cfdb482e5afdf43b5729ef37b5a634be3d
 workflow-type: tm+mt
 source-wordcount: '435'
-ht-degree: 39%
+ht-degree: 33%
 
 ---
 
@@ -77,7 +77,7 @@ Der KI-Assistent kann Ihnen dabei helfen, die Wirkung Ihrer Sendungen zu optimie
 
    ![](assets/push-genai-5.png){zoomable=&quot;yes&quot;}
 
-1. Fügen Sie Personalisierungsfelder ein, um Ihre E-Mail-Inhalte auf der Grundlage von Profildaten anzupassen. [Weitere Informationen über die Personalisierung von Inhalten](../personalization/personalize.md)
+1. Fügen Sie Personalisierungsfelder ein, um Ihren Push-Inhalt basierend auf Profildaten anzupassen. [Weitere Informationen über die Personalisierung von Inhalten](../personalization/personalize.md)
 
    ![](assets/push-genai-6.png){zoomable=&quot;yes&quot;}
 
@@ -85,4 +85,4 @@ Der KI-Assistent kann Ihnen dabei helfen, die Wirkung Ihrer Sendungen zu optimie
 
    ![](assets/push-genai-7.png){zoomable=&quot;yes&quot;}
 
-1. Wenn Sie Inhalt, Zielgruppe und Zeitplan definiert haben, können Sie den E-Mail-Versand vorbereiten. [Weitere Informationen](../monitor/prepare-send.md)
+1. Wenn Sie Inhalt, Zielgruppe und Zeitplan definiert haben, können Sie Ihren Push-Versand vorbereiten. [Weitere Informationen](../monitor/prepare-send.md)
