@@ -1,17 +1,17 @@
 ---
 audience: end-user
 title: Rich-Push-Benachrichtigungsversand erstellen
-description: Erfahren Sie, wie Sie einen Rich-Push-Benachrichtigungsversand mit Adobe Campaign Web erstellen
+description: Erfahren Sie, wie Sie mit Adobe Campaign Web einen Rich-Push-Benachrichtigungsversand für Android erstellen
 hide: true
 hidefromtoc: true
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+source-git-commit: 23519e1d50b963761bd65a2ded6fa8c1bc7106f3
 workflow-type: tm+mt
-source-wordcount: '1407'
-ht-degree: 32%
+source-wordcount: '1394'
+ht-degree: 33%
 
 ---
 
-# Erstellen eines Rich-Push-Versands für Android {#content-push}
+# Erstellen eines Rich-Push-Versands für Android {#rich-push}
 
 Bei Firebase Cloud Messaging stehen Ihnen zwei Nachrichtentypen zur Auswahl:
 
@@ -23,9 +23,7 @@ Bei Firebase Cloud Messaging stehen Ihnen zwei Nachrichtentypen zur Auswahl:
 
 ## Festlegen des Inhalts der Benachrichtigung {#push-message}
 
-Sobald Ihr Push-Versand erstellt ist, können Sie seinen Inhalt festlegen. Auf den folgenden Registerkarten erfahren Sie, wie Sie Ihre Nachricht für jede Vorlage erstellen.
-
-Drei Vorlagen stehen zur Verfügung:
+Sobald Ihr Push-Versand erstellt ist, können Sie seinen Inhalt festlegen. Drei Vorlagen stehen zur Verfügung:
 
 * **Standardvorlage** ermöglicht den Versand von Benachrichtigungen mit einem einfachen Symbol und einem zugehörigen Bild.
 
