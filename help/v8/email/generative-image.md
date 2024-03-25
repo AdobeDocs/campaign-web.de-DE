@@ -6,14 +6,14 @@ badge: label="Alpha"
 exl-id: 896d7e9b-0fa2-435b-b191-fa5db36e7ea0
 hide: true
 hidefromtoc: true
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: af67094638cfc3c5c64385203340918f0f8f2482
 workflow-type: tm+mt
-source-wordcount: '390'
-ht-degree: 100%
+source-wordcount: '391'
+ht-degree: 98%
 
 ---
 
-# Bildgenerierung mit dem Inhaltsassistenten {#generative-image}
+# Generieren von E-Mail-Bildern mit dem Inhaltsassistenten {#generative-image}
 
 Nachdem Sie Ihre E-Mails erstellt und personalisiert haben, können Sie Ihre Inhalte mit dem Inhaltsassistenten verbessern, der auf generativer KI basiert. Diese Funktion vereinfacht den Prozess der Personalisierung und Inhaltsverbesserung.
 

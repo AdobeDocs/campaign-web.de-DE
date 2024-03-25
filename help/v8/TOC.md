@@ -5,10 +5,10 @@ user-guide-description: Produktdokumentation zur Adobe Campaign Web-Benutzerober
 title: Dokumentation zu Adobe Campaign Web
 description: Dokumentation zu Campaign Web
 breadcrumb-title: Campaign Web-Benutzeroberfläche
-source-git-commit: 464898f69be64a99ac1729c486ada95d2ea872a4
+source-git-commit: af67094638cfc3c5c64385203340918f0f8f2482
 workflow-type: tm+mt
-source-wordcount: '634'
-ht-degree: 94%
+source-wordcount: '635'
+ht-degree: 90%
 
 ---
 
@@ -50,11 +50,6 @@ ht-degree: 94%
             + [Hinzufügen eines Links zur Mirrorseite](email/mirror-page.md)
             + [Hinzufügen eines Preheaders](email/preheader.md)
             + [Erstellen der Textversion](email/text-version-email.md)
-         + Inhaltsassistent {#content-assistant}
-            + [Erste Schritte mit dem Inhaltsassistenten](email/generative-gs.md)
-            + [Textgenerierung mit dem Inhaltsassistenten](email/generative-content.md)
-            + [Bildgenerierung mit dem Inhaltsassistenten](email/generative-image.md)
-            + [E-Mail-Generierung mit dem Inhaltsassistenten](email/generative-email.md)
          + Gestalten von Inhalten {#style}
             + [Erste Schritte mit E-Mail-Stil](email/get-started-email-style.md)
             + [Bearbeiten von Hintergrundeinstellungen](email/backgrounds.md)
@@ -80,6 +75,11 @@ ht-degree: 94%
       + [Erstellen eines Briefpostversands](direct-mail/create-direct-mail.md)
       + [Extraktionsdatei erstellen](direct-mail/content-direct-mail.md)
       + [Briefpost-Versand in der Vorschau ansehen und senden](direct-mail/send-direct-mail.md)
+   + KI-Assistent {#ai-assistant}
+      + [Erste Schritte mit dem KI-Assistenten](email/generative-gs.md)
+      + [E-Mail-Generierung mit dem KI-Assistenten](email/generative-content.md)
+      + [SMS-Generierung mit dem KI-Assistenten](email/generative-sms.md)
+      + [Generieren von Push-Benachrichtigungen mit dem AI-Assistenten](email/generative-push.md)
    + Inhalte dynamisch gestalten {#dynamic-content}
       + [Erste Schritte mit dynamischen Inhalten](personalization/gs-personalization.md)
       + [Hinzufügen von Personalisierung](personalization/personalize.md)
