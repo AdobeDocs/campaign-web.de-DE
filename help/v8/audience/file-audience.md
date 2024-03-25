@@ -4,7 +4,7 @@ title: Laden einer E-Mail-Zielgruppe aus einer Datei
 description: Erfahren Sie, wie Sie Profile aus einer externen Datei laden, um eine E-Mail-Zielgruppe zu erstellen.
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
 source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '622'
 ht-degree: 100%
 
@@ -66,7 +66,7 @@ Bei der Erstellung und Personalisierung des Nachrichteninhalts können Sie im [P
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_samplefile"
 >title="Laden einer Zielgruppe aus einer Datei"
->abstract="Unterstützte Dateiformate sind TXT und CSV. Verwenden Sie die erste Zeile für Spaltentitel. Passen Sie Ihr Dateiformat an die Beispieldatei an, die im folgenden Link bereitgestellt wird."
+>abstract="Unterstützte Dateiformate sind TXT und CSV. Verwenden Sie die erste Zeile für Spaltentitel. Dateiformat an die Beispieldatei anpassen, die im folgenden Link bereitgestellt wird."
 
 Unterstützte Formate sind TXT und CSV. Die erste Zeile ist die Spaltenüberschrift.
 
