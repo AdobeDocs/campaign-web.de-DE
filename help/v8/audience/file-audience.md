@@ -66,7 +66,7 @@ Bei der Erstellung und Personalisierung des Nachrichteninhalts können Sie im [P
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_samplefile"
 >title="Laden einer Zielgruppe aus einer Datei"
->abstract="Unterstützte Dateiformate sind TXT und CSV. Verwenden Sie die erste Zeile für Spaltentitel. Dateiformat an die Beispieldatei anpassen, die im folgenden Link bereitgestellt wird."
+>abstract="Unterstützte Dateiformate sind TXT und CSV. Erste Zeile für Spaltentitel verwenden. Dateiformat an die Beispieldatei anpassen, die im folgenden Link bereitgestellt wird."
 
 Unterstützte Formate sind TXT und CSV. Die erste Zeile ist die Spaltenüberschrift.
 
