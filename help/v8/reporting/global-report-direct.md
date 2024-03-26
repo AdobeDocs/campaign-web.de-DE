@@ -2,7 +2,8 @@
 audience: end-user
 title: Globale Berichte für den Briefpost-Kanal
 description: Erfahren Sie mehr über globale Berichte für den Briefpost-Kanal
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+exl-id: a42536fe-375b-4169-8775-d47ed26692f8
+source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
 workflow-type: tm+mt
 source-wordcount: '627'
 ht-degree: 50%
@@ -124,4 +125,3 @@ Der Graph und die Tabelle „Ausschlüsse“ zeigen die Gründe, aus denen Benut
 * **[!UICONTROL Größe der Zielgruppe begrenzt]**: Die maximale Versandgröße wurde für den Empfänger erreicht.
 
 +++
-

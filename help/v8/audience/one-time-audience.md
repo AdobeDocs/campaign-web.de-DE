@@ -4,7 +4,7 @@ title: Erstellen einer einmaligen Zielgruppe für einen Versand
 description: Erfahren Sie, wie Sie eine einmalige Zielgruppe für einen Versand erstellen.
 exl-id: 6f2da017-90d6-497d-bbbd-293775da00e9
 source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '230'
 ht-degree: 100%
 

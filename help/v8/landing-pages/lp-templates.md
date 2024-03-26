@@ -3,7 +3,8 @@ audience: end-user
 title: Arbeiten mit Landingpage-Inhaltsvorlagen
 description: Erfahren Sie, wie Sie Landingpage-Inhalte als Design-Vorlage speichern und in Campaign Web wiederverwenden können
 feature: Landing Pages
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+exl-id: 2298265b-6ca6-461f-8c69-c60d98e8f445
+source-git-commit: e5a17ad1f8316d201dc3b4bc6ce20d61aea7a9c9
 workflow-type: tm+mt
 source-wordcount: '213'
 ht-degree: 100%

@@ -55,7 +55,7 @@ ht-degree: 100%
 
 E-Mail-Designer bietet eine einfache Möglichkeit, die Struktur Ihrer E-Mail zu bestimmen. Durch das Hinzufügen und Verschieben von strukturellen Elementen durch einfaches Drag-and-Drop können Sie den Textkörper Ihrer E-Mail in Sekundenschnelle entwerfen.
 
-➡️ [Diese Funktion im Video](#video)
+➡️ [Entdecken Sie diese Funktion im Video](#video)
 
 Gehen Sie wie folgt vor, um mit der Erstellung Ihres E-Mail-Inhalts zu beginnen.
 

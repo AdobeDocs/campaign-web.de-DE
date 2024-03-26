@@ -4,7 +4,7 @@ title: Erstellen von Workflows mit Adobe Campaign Web
 description: Erfahren Sie, wie Sie mit Adobe Campaign Web einen Workflow erstellen
 exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
 source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '745'
 ht-degree: 100%
 

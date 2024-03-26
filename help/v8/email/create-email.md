@@ -22,7 +22,7 @@ Erfahren Sie, wie Sie Ihre erste E-Mail an eine bestimmte Zielgruppe senden. In 
 
 Die E-Mail basiert auf einer vordefinierten [Design-Vorlage](../email/create-email-templates.md) und enthält außerdem personalisierte Inhalte, die anhand von Kundenprofilattributen erstellt werden.
 
-➡️ [Diese Funktion im Video](#video)
+➡️ [Entdecken Sie diese Funktion im Video](#video)
 
 ## Erstellen des E-Mail-Versands {#create-email}
 

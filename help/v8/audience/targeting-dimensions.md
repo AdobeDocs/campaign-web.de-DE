@@ -3,7 +3,7 @@ title: Zielgruppendimensionen
 description: Erfahren Sie mehr über Zielgruppendimensionen in Adobe Campaign Web
 exl-id: b910649a-7300-4f99-8f40-3a8965572ee9
 source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 100%
 

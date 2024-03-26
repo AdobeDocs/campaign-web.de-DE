@@ -4,7 +4,7 @@ title: Durchführen von Testsendungen
 description: Definieren und Durchführen von Testsendungen
 exl-id: b2677579-c95d-443d-b207-466af364c208
 source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1146'
 ht-degree: 100%
 
@@ -63,7 +63,7 @@ So testen Sie Ihre Nachrichteninhalte:
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_test_sample"
 >title="Vorlagendatei"
->abstract="Hinweis: Die Formatierung der Datei muss mit der Originaldatei übereinstimmen.<br/>Unterstützte Dateiformate: txt, csv. Maximale Dateigröße: 15 MB. Verwenden Sie die erste Zeile für Spaltentitel."
+>abstract="Hinweis: Die Formatierung der Datei muss mit der Originaldatei übereinstimmen.<br/>Unterstützte Dateiformate: txt, csv. Maximale Dateigröße: 15 MB. Erste Zeile für Spaltentitel verwenden."
 
 >[!CONTEXTUALHELP]
 >id="acw_sms_preview_option_app_target"

@@ -4,7 +4,7 @@ title: Senden eines SMS-Versands
 description: Erfahren Sie, wie Sie SMS mit Adobe Campaign Web senden
 exl-id: 901faf3b-fcdd-4a4e-8de7-7d088686250f
 source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 100%
 

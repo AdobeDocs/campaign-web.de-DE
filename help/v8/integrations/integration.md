@@ -4,8 +4,9 @@ description: Erfahren Sie, wie Sie mit der Web-Benutzeroberfläche von Adobe Cam
 feature: Overview
 role: Admin, User
 level: Beginner
-source-git-commit: 8e035bbf92914f17607a15c184ecf48f5c0efb13
-workflow-type: ht
+exl-id: a50f3269-b559-4dbf-bd8f-af046f332d23
+source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
+workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 100%
 

@@ -4,7 +4,7 @@ title: Über die Versandvorschau und Tests
 description: Weitere Informationen dazu, wie Sendungen in der Vorschau angezeigt und getestet werden können
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
 source-git-commit: 84cb01fc08c3628c4b8032470a8e6ab02328302c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 100%
 

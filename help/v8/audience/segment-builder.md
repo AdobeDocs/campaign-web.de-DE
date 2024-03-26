@@ -4,7 +4,7 @@ title: Erstellen einer Zielgruppe mit dem Campaign-Regel-Builder
 description: Erfahren Sie, wie Sie mit dem Regel-Builder arbeiten
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
 source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '582'
 ht-degree: 100%
 

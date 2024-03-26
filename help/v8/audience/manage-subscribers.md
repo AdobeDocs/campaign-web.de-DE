@@ -4,7 +4,7 @@ title: Verwalten von Abonnentinnen und Abonnenten
 description: Erfahren Sie, wie Sie Abonnentinnen und Abonnenten eines Dienstes i Adobe Campaign Web verwalten und wie Sie an sie versenden.
 exl-id: cf72d27e-365c-4edc-b661-a67c148f0eeb
 source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 100%
 

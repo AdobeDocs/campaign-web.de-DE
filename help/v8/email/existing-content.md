@@ -26,7 +26,7 @@ Sie können vorhandene HTML-Inhalte in den E-Mail-Designer importieren. Dieser I
   >
   >Die Struktur des komprimierten Ordners ist freigestellt. Verweise müssen jedoch relativ sein und zur Baumstruktur des ZIP-Ordners passen.
 
-➡️ [Diese Funktion im Video](#video)
+➡️ [Entdecken Sie diese Funktion im Video](#video)
 
 Gehen Sie wie folgt vor, um eine HTML-Datei zu importieren.
 
