@@ -8,7 +8,7 @@ breadcrumb-title: Campaign Web-Benutzeroberfläche
 source-git-commit: 6f47779bf0bf39de5481063851a4c2c13731d33f
 workflow-type: tm+mt
 source-wordcount: '641'
-ht-degree: 89%
+ht-degree: 95%
 
 ---
 
@@ -72,10 +72,10 @@ ht-degree: 89%
       + [Gestalten eines SMS-Versands](sms/content-sms.md)
       + [Vorschau und Senden eines SMS-Versands](sms/send-sms.md)
    + Briefpost {#direct-mail}
-      + [Erste Schritte mit Briefpost-Sendungen](direct-mail/gs-direct-mail.md)
+      + [Erste Schritte mit Briefpostsendungen](direct-mail/gs-direct-mail.md)
       + [Erstellen eines Briefpostversands](direct-mail/create-direct-mail.md)
-      + [Extraktionsdatei erstellen](direct-mail/content-direct-mail.md)
-      + [Briefpost-Versand in der Vorschau ansehen und senden](direct-mail/send-direct-mail.md)
+      + [Gestalten der Extraktionsdatei](direct-mail/content-direct-mail.md)
+      + [Vorschau und Durchführen eines Briefpostversands](direct-mail/send-direct-mail.md)
    + KI-Assistent {#ai-assistant}
       + [Erste Schritte mit dem KI-Assistenten](email/generative-gs.md)
       + [E-Mail-Generierung mit dem KI-Assistenten](email/generative-content.md)
@@ -137,7 +137,7 @@ ht-degree: 89%
       + [Über Workflow-Aktivitäten](workflows/activities/about-activities.md)
       + [Und-Verknüpfung](workflows/activities/and-join.md)
       + [Zielgruppe erstellen](workflows/activities/build-audience.md)
-      + [Ändern der Datenquelle](workflows/activities/change-data-source.md)
+      + [Datenquelle ändern](workflows/activities/change-data-source.md)
       + [Dimensionsänderung](workflows/activities/change-dimension.md)
       + [Kombinieren](workflows/activities/combine.md)
       + [Deduplizierung](workflows/activities/deduplication.md)

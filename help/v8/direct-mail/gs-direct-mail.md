@@ -1,12 +1,12 @@
 ---
 audience: end-user
 title: Erste Schritte mit Briefpostsendungen
-description: Erfahren Sie, wie Sie mit Adobe Campaign Web Briefpostsendungen erstellen und senden.
+description: Erfahren Sie, wie Sie mit Adobe Campaign Web Briefpostsendungen erstellen und durchführen.
 exl-id: a1c778e2-e950-4b8f-875a-87b39eb732c2
 source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
 workflow-type: tm+mt
 source-wordcount: '261'
-ht-degree: 15%
+ht-degree: 83%
 
 ---
 
@@ -19,15 +19,15 @@ ht-degree: 15%
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Siehe Versionshinweise"
 
 
-Briefpost ist ein Offline-Kanal, über den Sie Dateien erstellen können, um Ihren Kunden personalisierte Briefe wie Postkarten, Flyer oder Kataloge in großem Umfang zukommen zu lassen.
+Briefpost ist ein Offline-Kanal, über den Sie Dateien erstellen können, um Ihren Kundinnen und Kunden personalisierte Sendungen wie Postkarten, Flyer oder Kataloge in großem Umfang zukommen zu lassen.
 
-Bei der Erstellung eines Briefpost-Versands generiert Adobe Campaign automatisch eine Extraktionsdatei, die alle Zielgruppenprofile und ausgewählten Daten wie Postanschriften und Profilattribute enthält. Diese Datei wird an den Server Ihrer Wahl gesendet, damit sie von Ihrem ausgewählten Briefpost-Dienstleister zugänglich ist, der den eigentlichen Versandprozess für Sie handhabt.
+Bei der Erstellung eines Briefpostversands generiert Adobe Campaign automatisch eine Extraktionsdatei, die alle Zielgruppenprofile und ausgewählten Daten wie Postanschriften und Profilattribute enthält. Diese Datei wird an den Server Ihrer Wahl gesendet, damit sie für Ihren ausgewählten Briefpost-Dienstleister zugänglich ist, der den eigentlichen Versandprozess für Sie handhabt.
 
-Zur Erstellung eines Briefpost-Versands stehen Ihnen drei Optionen zur Verfügung:
+Um Briefpostsendungen zu erstellen, haben Sie drei Möglichkeiten:
 
-* **Workflows**: Nachdem Sie eine Briefpost-Kanal -Aktivität zu Ihrem Workflow hinzugefügt und die grundlegenden Einstellungen konfiguriert haben, können Sie den Inhalt Ihrer Briefpost-Sendungen über das Menü Ihres rechten Bereichs erstellen. Detaillierte Anweisungen zum Konfigurieren eines Workflows finden Sie auf [dieser Seite](../workflows/gs-workflow-creation.md).
-* **Kampagnen**: Nachdem Sie eine Kampagne erstellt haben, können Sie einen Briefpost-Versand erstellen. Weiterführende Informationen zum Einrichten Ihrer Kampagne finden Sie auf [dieser Seite](../campaigns/gs-campaigns.md).
-* **Eigenständige Sendungen**: Kontaktieren Sie Kunden direkt und sofort mit einem individuellen Briefpost-Versand, ohne dass Workflows oder Kampagnen erforderlich sind. [Erfahren Sie, wie Sie einen Versand erstellen](../msg/gs-deliveries.md)
+* **Workflows**: Nachdem Sie eine Briefpost-Kanalaktivität zu Ihrem Workflow hinzugefügt und die grundlegenden Einstellungen konfiguriert haben, können Sie den Inhalt Ihrer Briefpostsendungen über das Menü im rechten Bereich erstellen. Detaillierte Anweisungen zum Konfigurieren eines Workflows finden Sie auf [dieser Seite](../workflows/gs-workflow-creation.md).
+* **Kampagnen**: Nachdem Sie eine Kampagne erstellt haben, können Sie einen Briefpostversand erstellen. Weiterführende Informationen zum Einrichten Ihrer Kampagne finden Sie auf [dieser Seite](../campaigns/gs-campaigns.md).
+* **Eigenständige Sendungen**: Binden Sie Kundinnen und Kunden direkt und sofort mit einem individuellen Briefpostversand ein, ohne dass Workflows oder Kampagnen erforderlich sind. [Erfahren Sie, wie Sie einen Versand erstellen](../msg/gs-deliveries.md).
 
 <!--
 <table style="table-layout:fixed"><tr style="border: 0;">

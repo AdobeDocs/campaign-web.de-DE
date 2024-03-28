@@ -1,35 +1,35 @@
 ---
 audience: end-user
-title: Verwenden Sie die Workflow-Aktivität Datenquelle ändern .
-description: Erfahren Sie, wie Sie die Workflow-Aktivität Datenquelle ändern verwenden
+title: Verwenden der Workflow-Aktivität „Datenquelle ändern“
+description: Erfahren Sie, wie Sie die Workflow-Aktivität „Datenquelle ändern“ verwenden.
 exl-id: 4dd28746-7bc7-49fc-91ac-3312af02ef45
 source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
 workflow-type: tm+mt
 source-wordcount: '342'
-ht-degree: 23%
+ht-degree: 93%
 
 ---
 
-# Ändern der Datenquelle {#change-data-source}
+# Datenquelle ändern {#change-data-source}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn2"
->title="Ändern der Datenquelle"
->abstract="Verwenden Sie die neue Workflow-Targeting-Aktivität Datenquelle ändern , um die von der Arbeitstabelle Ihres Workflows verwendete Datenquelle zu ändern. Diese Aktivität bietet mehr Flexibilität, da Sie dadurch Daten in Ihren verschiedenen Datenbanken verwalten und die Leistung verbessern können."
+>title="Datenquelle ändern"
+>abstract="Verwenden Sie die neue Workflow-Targeting-Aktivität Datenquelle ändern , um die von der Arbeitstabelle Ihres Workflows verwendete Datenquelle zu ändern. Diese Aktivität bietet mehr Flexibilität, da Sie damit Daten in Ihren verschiedenen Datenbanken verwalten und die Leistung verbessern können."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Siehe Versionshinweise"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_change_data_source"
->title="Ändern der Datenquelle"
->abstract="Die Aktivität **Datenquelle ändern** ermöglicht die Auswahl einer anderen Datenquelle für die Arbeitstabelle des Workflows."
+>title="Datenquelle ändern"
+>abstract="Die Aktivität **Datenquelle ändern** ermöglicht die Auswahl einer anderen Datenquelle für die Arbeitstabelle Ihres Workflows."
 
-Die **Datenquelle ändern** -Aktivität **Targeting** -Aktivität. Mit dieser Aktivität können Sie die Datenquelle ändern, die von der Arbeitstabelle Ihres Workflows verwendet wird. Dies bietet mehr Flexibilität, da Sie Daten in Ihren verschiedenen Datenbanken verwalten und die Leistung verbessern können.
+Die Aktivität **Datenquelle ändern** ist eine Aktivität zur **Zielgruppenbestimmung**. Mit dieser Aktivität können Sie die Datenquelle ändern, die von der Arbeitstabelle Ihres Workflows verwendet wird. Dies bietet mehr Flexibilität, da Sie auf diese Weise Daten in Ihren verschiedenen Datenbanken verwalten und die Leistung verbessern können.
 
-In Workflows werden Daten, die von einer Aktivität zur anderen über Transitionen übertragen werden, in einer temporären **Arbeitstabelle**. Arbeitstabellen werden standardmäßig in derselben Datenbank erstellt wie die Quelle der verarbeiteten Daten. Bei der Abfrage der in der Cloud-Datenbank gespeicherten Tabelle &quot;Profile&quot;wird beispielsweise eine Arbeitstabelle für dieselbe Cloud-Datenbank erstellt.
+In einem Workflow werden die von einer Aktivität zu einer anderen übertragenen Daten in temporären **Arbeitstabellen** gespeichert. Standardmäßig werden die Arbeitstabellen auf derselben Datenbank erstellt wie die Quelle der verarbeiteten Daten. Wenn Sie beispielsweise die Tabelle „Profile“ in der Cloud-Datenbank abfragen, wird eine Arbeitstabelle in derselben Cloud-Datenbank erstellt.
 
-In einigen Fällen sind entweder keine Daten in der aktuellen Datenbank verfügbar oder sie sind nicht effizient genug, um einzelne Vorgänge durchzuführen. Möglicherweise müssen Sie den Workflow zwingen, eine andere Datenbank zu verwenden, um solche Vorgänge durchzuführen, indem Sie eine **[!UICONTROL Datenquelle ändern]** -Aktivität.
+In einigen Fällen sind entweder keine Daten in der aktuellen Datenbank verfügbar oder sie sind nicht effizient genug, um einzelne Vorgänge durchzuführen. Möglicherweise müssen Sie den Workflow zwingen, eine andere Datenbank zu verwenden, um solche Vorgänge durchzuführen, indem Sie die Aktivität **[!UICONTROL Datenquelle ändern]** hinzufügen.
 
-Detaillierte Informationen zur Campaign-Architektur finden Sie unter [Dokumentation zu Campaign v8 (Clientkonsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html)
+Detaillierte Informationen zur Campaign-Architektur finden Sie in der [Dokumentation zu Campaign v8 (Client-Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html?lang=de).
 
 <!--
 
@@ -45,18 +45,18 @@ In this situation, it is recommended to execute the offer code assignment operat
 Before executing the operation, the working table is copied to the local database so that the operation can run there. Once done, the system detects that the profiles that we want to update are on another location. The data is therefore automatically copied back to the Cloud database where the "Profiles" table is located.
 -->
 
-## Konfigurieren der Aktivität Datenquelle ändern {#configure}
+## Konfigurieren der Aktivität „Datenquelle ändern“ {#configure}
 
 Gehen Sie folgendermaßen vor, um die Aktivität **Dimensionsänderung** zu konfigurieren:
 
 ![](../assets/workflow-change-data-source-add.png)
 
-1. Hinzufügen einer **Datenquelle ändern** -Aktivität zu Ihrem Workflow hinzu.
+1. Fügen Sie die Aktivität **Datenquelle ändern** zu Ihrem Workflow hinzu.
 
-1. Definieren Sie die Datenquelle, an die Sie die Arbeitstabelle verschieben möchten:
+1. Definieren Sie die Datenquelle, in die Sie die Arbeitstabelle verschieben möchten:
 
-   * **[!UICONTROL Standard-Campaign-Datenbank (PostgreSQL)]**: Verwenden Sie die standardmäßige lokale Campaign-Datenbank.
-   * **[!UICONTROL Externes FDA-Konto]**: Verwenden Sie externe Cloud-Datenbanken, die über die Federated Data Access-Funktion mit Adobe Campaign verbunden sind.
+   * **[!UICONTROL Standard-Campaign-Datenbank (PostgreSQL)]**: Es wird die standardmäßige lokale Campaign-Datenbank verwendet.
+   * **[!UICONTROL Externes FDA-Konto]**: Es werden externe Cloud-Datenbanken verwendet, die über die Federated Data Access-Funktion mit Adobe Campaign verbunden sind.
 
      >[!AVAILABILITY]
      >

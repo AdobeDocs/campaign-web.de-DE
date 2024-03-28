@@ -32,7 +32,7 @@ Mit Campaign Web können Sie neue Zielgruppen in einer visuellen Workflow-Arbeit
 
 Nachdem Sie Ihren Workflow erstellt haben, werden die resultierenden Zielgruppen automatisch in der Campaign-Datenbank zusammen mit den bereits vorhandenen Zielgruppen gespeichert. Diese Zielgruppen können dann in Workflows oder in eigenständigen Sendungen ausgewählt werden.
 
-➡️ [Diese Funktion im Video](#video)
+➡️ [Entdecken Sie diese Funktion im Video](#video)
 
 ## Erstellen Ihrer ersten Zielgruppe {#create}
 
