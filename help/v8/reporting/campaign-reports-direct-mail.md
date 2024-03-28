@@ -6,7 +6,7 @@ exl-id: 7817d4c5-1f97-4b17-8a5f-f1a5b8701fe9
 source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
 workflow-type: tm+mt
 source-wordcount: '526'
-ht-degree: 67%
+ht-degree: 78%
 
 ---
 
@@ -21,7 +21,7 @@ Jeder Kampagnenbericht ist in verschiedene Widgets unterteilt, die den Erfolg un
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_delivery_overview_direct_mail"
 >title="Versandübersicht"
->abstract="Die **Versandübersicht** präsentiert wichtige Leistungsmetriken (KPIs) mit umfassenden Einblicken in die Interaktion Ihrer Besucher mit jedem Briefpost-Versand. Die Metriken sind unten dargestellt."
+>abstract="Die **Versandübersicht** bietet wichtige Leistungsmetriken (KPIs) mit umfassenden Erkenntnissen über die Interaktion Ihrer Besucherinnen und Besucher mit jedem Briefpostversand. Die Metriken sind unten dargestellt."
 
 Die **[!UICONTROL Versandübersicht]** präsentiert wichtige Leistungsmetriken (KPIs) mit umfassenden Einblicken in die Interaktion Ihrer Besucher mit jedem Briefpost-Versand. Die Metriken sind unten dargestellt.
 
@@ -44,7 +44,7 @@ Die **[!UICONTROL Versandübersicht]** präsentiert wichtige Leistungsmetriken (
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_target_audience_direct_mail"
 >title="Statistiken der ursprünglichen Zielgruppe"
->abstract="Empfängerdaten und Nachrichteninformationen werden im **Ursprüngliche Zielgruppenstatistiken** Tabelle, die die Analyse der Versandvorbereitung widerspiegelt."
+>abstract="Empfängerdaten und Nachrichteninformationen werden in der Tabelle **Statistiken der ursprünglichen Zielgruppe** angezeigt, die die Analyse der Versandvorbereitung widerspiegelt."
 
 Die Tabelle **[!UICONTROL Statistiken der anfänglichen Zielgruppe]** zeigt Daten zu Ihren Empfängerinnen und Empfängern an. Die Metriken werden bei der Versandvorbereitung berechnet und zeigen: die anfängliche Zielgruppe, die Anzahl der zu sendenden Nachrichten und die Anzahl der ausgeschlossenen Empfängerinnen und Empfänger.
 
@@ -65,7 +65,7 @@ Die Tabelle **[!UICONTROL Statistiken der anfänglichen Zielgruppe]** zeigt Date
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_execution_statistics_direct_mail"
 >title="Versandstatistiken"
->abstract="Die **Ausführungsstatistiken** in der Tabelle werden der Erfolg Ihres Briefpost-Versands und die aufgetretenen Fehler beschrieben."
+>abstract="Die Tabelle **Ausführungsstatistik** zeigt den Erfolg Ihres Briefpostversands und die aufgetretenen Fehler an."
 
 ![](assets/direct-mail-campaign-exec.png)
 

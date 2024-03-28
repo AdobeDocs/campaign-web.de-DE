@@ -6,7 +6,7 @@ exl-id: 268fe1e3-bd5c-40f1-8973-7671cd8c9960
 source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
 workflow-type: tm+mt
 source-wordcount: '670'
-ht-degree: 39%
+ht-degree: 51%
 
 ---
 
@@ -21,7 +21,7 @@ Die **Briefpost-Versandbericht** bietet umfassende Einblicke und Daten, die für
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_delivery_overview_direct_mail"
 >title="Versandübersicht"
->abstract="Die **Versandübersicht** präsentiert wichtige Leistungsmetriken (KPIs) mit umfassenden Einblicken in die Interaktion Ihrer Besucher mit jedem Briefpost-Versand. Die Metriken sind unten dargestellt."
+>abstract="Die **Versandübersicht** bietet wichtige Leistungsmetriken (KPIs) mit umfassenden Erkenntnissen über die Interaktion Ihrer Besucherinnen und Besucher mit jedem Briefpostversand. Die Metriken sind unten dargestellt."
 
 Die **[!UICONTROL Versandübersicht]** bietet detaillierte Einblicke in die Interaktion Ihrer Besucher mit jedem Briefpost-Versand und zeigt wichtige KPIs (Key Performance Metrics).  Die Metriken sind unten dargestellt.
 
@@ -65,7 +65,7 @@ Bewegen Sie den Mauszeiger über einen Abschnitt des Graphen, um die genaue Zahl
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_delivery_statistics_summary_direct_mail"
 >title="Versandstatistiken"
->abstract="Die **Versandstatistiken** -Diagramm zeigt den Erfolg Ihres Briefpost-Versands und die aufgetretenen Fehler."
+>abstract="Der Graph **Versandstatistik** zeigt den Erfolg Ihres Briefpostversands und die aufgetretenen Fehler an."
 
 Die **[!UICONTROL Versandstatistiken]** -Diagramm bietet einen umfassenden Überblick über Ihre Versandleistung und bietet detaillierte Metriken zur Messung von Erfolg und Effektivität.
 
@@ -88,7 +88,7 @@ Die **[!UICONTROL Versandstatistiken]** -Diagramm bietet einen umfassenden Über
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_causes_exclusion_direct_mail"
 >title="Versand – Ausschlussgründe"
->abstract="Die **Ausschlussgründe** Diagramm zeigt die Verteilung der zurückgewiesenen Nachrichten während der Versandvorbereitung, kategorisiert nach jeder Regel."
+>abstract="Der Graph **Ausschlussgründe** zeigt die Verteilung der zurückgewiesenen Nachrichten während der Versandvorbereitung, kategorisiert nach der jeweiligen Regel."
 
 Die **[!UICONTROL Ausschlussgründe]** Das Diagramm bietet eine detaillierte Auflistung der Gründe für die Ablehnung von Nachrichten während der Versandvorbereitung. Diese Aufschlüsselung erfolgt nach verschiedenen Regeln und bietet einen umfassenden Überblick über die Faktoren, die zum Ausschluss einer Nachricht beitragen. Ausschlussregeln werden in der[Dokumentation zu Campaign v8 (Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=de#email-error-types){_blank} detailliert beschrieben.
 
@@ -117,7 +117,7 @@ Die **[!UICONTROL Ausschlussgründe]** Das Diagramm bietet eine detaillierte Auf
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_exclusions_direct_mail"
 >title="Ausschlüsse"
->abstract="Die **[!UICONTROL Ausnahmen]** zeigt eine detaillierte Aufschlüsselung der während der Versandvorbereitung zurückgewiesenen Nachrichten nach Regeln an."
+>abstract="Die Tabelle **[!UICONTROL Ausschlüsse]** zeigt eine detaillierte Aufschlüsselung der während der Versandvorbereitung zurückgewiesenen Nachrichten nach Regeln an."
 
 Die **[!UICONTROL Ausnahmen]** bietet eine detaillierte Aufschlüsselung der Nachrichten, die in der Vorbereitungsphase des Versands zurückgewiesen wurden (nach bestimmten Regeln geordnet). Diese umfassende Aufschlüsselung ermöglicht ein klares Verständnis der Gründe für den Ausschluss dieser Nachrichten aus dem Versandprozess.
 

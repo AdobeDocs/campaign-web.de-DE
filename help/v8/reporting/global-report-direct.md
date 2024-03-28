@@ -6,7 +6,7 @@ exl-id: a42536fe-375b-4169-8775-d47ed26692f8
 source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
 workflow-type: tm+mt
 source-wordcount: '627'
-ht-degree: 50%
+ht-degree: 76%
 
 ---
 
@@ -23,9 +23,9 @@ Navigieren Sie zum Menü **[!UICONTROL Berichte]** im Abschnitt **[!UICONTROL Be
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_delivery_overview_direct_mail"
 >title="Versandübersicht"
->abstract="Die **Versandübersicht** präsentiert wichtige Leistungsmetriken (KPIs) mit umfassenden Einblicken in die Interaktion Ihrer Besucher mit jedem Briefpost-Versand. Die Metriken sind unten dargestellt."
+>abstract="Die **Versandübersicht** bietet wichtige Leistungsmetriken (KPIs) mit umfassenden Erkenntnissen über die Interaktion Ihrer Besucherinnen und Besucher mit jedem Briefpostversand. Die Metriken sind unten dargestellt."
 
-Die **[!UICONTROL Versandübersicht]** präsentiert wichtige Leistungsmetriken (KPIs) mit umfassenden Einblicken in die Interaktion Ihrer Besucher mit jedem Briefpost-Versand. Die Metriken sind unten dargestellt.
+Die **[!UICONTROL Versandübersicht]** bietet wichtige Leistungsmetriken (KPIs) mit umfassenden Erkenntnissen über die Interaktion Ihrer Besucherinnen und Besucher mit jedem Briefpostversand. Die Metriken sind unten dargestellt.
 
 ![](assets/global_report_direct_mail_delivery_overview.png){zoomable=&quot;yes&quot;}{align="center"}
 
@@ -45,12 +45,12 @@ Die **[!UICONTROL Versandübersicht]** präsentiert wichtige Leistungsmetriken (
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_target_audience_direct_mail_graph"
 >title="Zielgruppe"
->abstract="Empfängerdaten und Nachrichteninformationen werden im **Zielgruppe** Diagramm zur Analyse der Versandvorbereitung."
+>abstract="Empfängerdaten und Nachrichteninformationen werden im Graph **Zielgruppe** angezeigt, der die Analyse der Versandvorbereitung widerspiegelt."
 
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_target_audience_direct_mail_table"
 >title="Zielgruppe"
->abstract="Die **Zielgruppe** enthält eine detaillierte Aufschlüsselung Ihrer Empfänger und der entsprechenden Nachrichten, die auf den Ergebnissen des Versandvorbereitungsprozesses basiert."
+>abstract="Die Tabelle **Zielgruppe** enthält eine detaillierte Aufschlüsselung Ihrer Empfängerinnen und Empfänger sowie der entsprechenden Nachrichten, und zwar basierend auf den Ergebnissen der Versandvorbereitung."
 
 Die Tabelle und der Graph **[!UICONTROL Zielgruppe]** zeigen Daten zu Ihren Empfängerinnen und Empfängern, mit detaillierten Metriken unten.
 
@@ -71,12 +71,12 @@ Die Tabelle und der Graph **[!UICONTROL Zielgruppe]** zeigen Daten zu Ihren Empf
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_delivery_statistics_summary_direct_mail_graph"
 >title="Versandstatistiken"
->abstract="Die **Versandstatistiken** -Diagramm bietet Einblicke in die Effektivität Ihrer Briefpostsendungen, einschließlich erfolgreicher Sendungen und aufgetretener Fehler."
+>abstract="Der Graph **Versandstatistiken** bietet Erkenntnisse über die Effektivität Ihrer Briefpostsendungen, einschließlich erfolgreicher Sendungen und aufgetretener Fehler."
 
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_delivery_statistics_summary_direct_mail_table"
 >title="Versandstatistiken"
->abstract="Die **Versandstatistiken** in der Tabelle werden der Erfolg Ihres Briefpost-Versands und die aufgetretenen Fehler beschrieben."
+>abstract="Der Graph **Versandstatistiken** zeigt den Erfolg Ihres Briefpostversands und die aufgetretenen Fehler an."
 
 Die **[!UICONTROL Versandstatistiken]** Diagramm und Tabelle enthalten eine Aufschlüsselung des Erfolgs jedes Briefpost-Versands mit detaillierten Metriken, die unten beschrieben werden.
 
@@ -97,12 +97,12 @@ Die **[!UICONTROL Versandstatistiken]** Diagramm und Tabelle enthalten eine Aufs
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_exclusions_direct_mail_table"
 >title="Ausschlüsse"
->abstract="Die **Ausschlussgründe** zeigt eine detaillierte Aufschlüsselung der während der Versandvorbereitung zurückgewiesenen Nachrichten nach Regeln an."
+>abstract="Die Tabelle **Ausschlussgründe** zeigt eine detaillierte Aufschlüsselung der während der Versandvorbereitung zurückgewiesenen Nachrichten nach Regeln an."
 
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_causes_exclusion_direct_mail_graph"
 >title="Versand – Ausschlussgründe"
->abstract="Die **Ausschlussgründe** Diagramm zeigt die Verteilung der zurückgewiesenen Nachrichten während der Versandvorbereitung, kategorisiert nach jeder Regel."
+>abstract="Der Graph **Ausschlussgründe** zeigt die Verteilung der zurückgewiesenen Nachrichten während der Versandvorbereitung, kategorisiert nach der jeweiligen Regel."
 
 ![](assets/global_report_direct_mail_exclusions.png){zoomable=&quot;yes&quot;}{align="center"}
 

@@ -1,16 +1,16 @@
 ---
 audience: end-user
-title: Erste Schritte mit Briefpost-Sendungen
+title: Erste Schritte mit Briefpostsendungen
 description: Erfahren Sie, wie Sie mit Adobe Campaign Web Briefpostsendungen erstellen und senden.
 exl-id: a1c778e2-e950-4b8f-875a-87b39eb732c2
 source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
 workflow-type: tm+mt
 source-wordcount: '261'
-ht-degree: 11%
+ht-degree: 15%
 
 ---
 
-# Erste Schritte mit Briefpost-Sendungen {#gs-direct-mail}
+# Erste Schritte mit Briefpostsendungen {#gs-direct-mail}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn1"

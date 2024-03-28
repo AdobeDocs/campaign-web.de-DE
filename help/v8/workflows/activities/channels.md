@@ -6,7 +6,7 @@ exl-id: 155b40e2-1aa2-4251-bbaa-7e16e36f649e
 source-git-commit: 298b1e17e70eae7da98fd5ac60fbcad32ce5c44f
 workflow-type: tm+mt
 source-wordcount: '971'
-ht-degree: 87%
+ht-degree: 91%
 
 ---
 
@@ -67,7 +67,7 @@ Beginnen Sie, Ihren Workflow mit den entsprechenden Aktivitäten aufzubauen:
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_directmail"
 >title="Briefpost-Aktivität"
->abstract="Die Briefpost-Aktivität erleichtert den Briefpost-Versand innerhalb Ihres Workflows und ermöglicht sowohl einmalige als auch wiederkehrende Nachrichten. Sie dient dazu, die Erzeugung der von Briefpost-Dienstleistern benötigten Extraktionsdatei zu automatisieren. Sie können Kanalaktivitäten in die Workflow-Arbeitsfläche kombinieren, um kanalübergreifende Workflows zu erstellen, mit denen basierend auf Kundenverhalten und Daten Aktionen ausgelöst werden können."
+>abstract="Die Briefpost-Aktivität erleichtert den Briefpostversand innerhalb Ihres Workflows und ermöglicht sowohl einmalige als auch wiederkehrende Nachrichten. Sie dient dazu, das Generieren der von Briefpost-Dienstleistern benötigten Extraktionsdatei zu automatisieren. Sie können Kanalaktivitäten in die Workflow-Arbeitsfläche kombinieren, um kanalübergreifende Workflows zu erstellen, mit denen basierend auf Kundenverhalten und Daten Aktionen ausgelöst werden können."
 
 Gehen Sie wie folgt vor, um einen Versand im Kontext eines Workflows einzurichten:
 

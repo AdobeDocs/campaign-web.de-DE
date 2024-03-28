@@ -5,7 +5,7 @@ exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
 workflow-type: tm+mt
 source-wordcount: '342'
-ht-degree: 9%
+ht-degree: 30%
 
 ---
 
@@ -15,12 +15,12 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_card2"
 >title="Neue Funktionen"
->abstract="Adobe Campaign Web-Benutzeroberflächen-Versionen basieren auf einem kontinuierlichen Bereitstellungsmodell, das einen skalierbareren, schrittweisen Ansatz für die Bereitstellung von Funktionen ermöglicht. Die Versionshinweise werden mehrmals im Monat aktualisiert. **Die Version vom März ist jetzt live**, einschließlich des Briefpost-Kanals, der neuen Workflow-Aktivität Datenquelle ändern und anderer Verbesserungen."
+>abstract="Die Versionen der Adobe Campaign Web-Benutzeroberfläche basieren auf einem Modell der kontinuierlichen Bereitstellung, das einen besser skalierbaren, schrittweisen Ansatz für die Implementierung von Funktionen ermöglicht. Die Versionshinweise werden daher mehrmals im Monat aktualisiert. **Die Version vom März ist jetzt live** und umfasst unter anderem den Briefpost-Kanal, die neue Workflow-Aktivität „Datenquelle ändern“ und weitere Verbesserungen."
 
 
 <!--Last update: **March 19, 2024**-->
 
-Adobe Campaign Web-Benutzeroberflächen-Versionen basieren auf einem kontinuierlichen Bereitstellungsmodell, das einen skalierbareren, schrittweisen Ansatz für die Bereitstellung von Funktionen ermöglicht. Dementsprechend werden diese Versionshinweise mehrmals im Monat aktualisiert. Bitte überprüfen Sie sie regelmäßig.
+Die Versionen der Adobe Campaign Web-Benutzeroberfläche basieren auf einem Modell der kontinuierlichen Bereitstellung, das einen besser skalierbaren, schrittweisen Ansatz für die Implementierung von Funktionen ermöglicht. Dementsprechend werden diese Versionshinweise mehrmals im Monat aktualisiert. Bitte überprüfen Sie sie regelmäßig.
 
 >[!AVAILABILITY]
 >

@@ -6,26 +6,26 @@ exl-id: aefba651-4125-4b1e-992f-1fe90fd95e4c
 source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
 workflow-type: tm+mt
 source-wordcount: '545'
-ht-degree: 3%
+ht-degree: 22%
 
 ---
 
-# Extraktionsdatei erstellen {#design-direct-mail}
+# Gestalten der Extraktionsdatei {#design-direct-mail}
 
 >[!CONTEXTUALHELP]
 >id="acw_directmail_content"
->title="Dateiinhalt extrahieren"
->abstract="Klicken Sie auf **Inhalt bearbeiten** -Schaltfläche, um mit der Erstellung der für Ihren Briefpost-Dienstleister erforderlichen Extraktionsdatei zu beginnen. Auf diese Weise können Sie die Dateieigenschaften wie Titel und Format definieren und die Spalten angeben, die Sie in die Datei aufnehmen möchten."
+>title="Inhalt der Extraktionsdatei"
+>abstract="Klicken Sie auf die Schaltfläche **Inhalt bearbeiten**, um mit der Gestaltung der für Ihren Briefpost-Dienstleister erforderlichen Extraktionsdatei zu beginnen. Auf diese Weise können Sie die Dateieigenschaften wie Titel und Format definieren und die Spalten angeben, die in die Datei aufgenommen werden sollen."
 
 >[!CONTEXTUALHELP]
 >id="acw_directmail_properties_file"
 >title="Dateieigenschaften"
->abstract="Konfigurieren Sie die Eigenschaften der Extraktionsdatei, z. B. ihren Namen und ihr Format. Sie können den Dateinamen mithilfe von Attributen aus der Datenbank mithilfe des Ausdruckseditors personalisieren."
+>abstract="Konfigurieren Sie die Eigenschaften der Extraktionsdatei, z. B. ihren Namen und ihr Format. Sie können über den Ausdruckseditor den Dateinamen mithilfe von Attributen aus der Datenbank personalisieren."
 
 >[!CONTEXTUALHELP]
 >id="acw_directmail_properties_content"
 >title="Content"
->abstract="Geben Sie in diesem Abschnitt die Spalten an, die in der Extraktionsdatei angezeigt werden sollen. Nach Abschluss des Vorgangs können Sie mit der **Inhalt simulieren** Schaltfläche."
+>abstract="Geben Sie in diesem Abschnitt die Spalten an, die in der Extraktionsdatei angezeigt werden sollen. Anschließend können Sie die Extraktionsdatei mithilfe der Schaltfläche **Inhalt simulieren** in einer Vorschau anzeigen."
 
 Um den Inhalt der von Ihrem Briefpost-Versand generierten Extraktionsdatei zu erstellen, klicken Sie auf die Schaltfläche **[!UICONTROL Inhalt bearbeiten]** auf Ihrer Versandseite und konfigurieren Sie dann die Dateieigenschaften und den Inhalt.
 

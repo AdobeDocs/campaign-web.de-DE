@@ -6,7 +6,7 @@ exl-id: 33f2aa76-1e75-4545-805a-016c95824e09
 source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
 source-wordcount: '860'
-ht-degree: 93%
+ht-degree: 97%
 
 ---
 
@@ -53,8 +53,8 @@ Mit der Aktivität **Anreicherung** können Sie zusätzliche Daten definieren, d
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_rules"
 >title="Abstimmungsregeln"
->abstract="Wählen Sie Abstimmungsregeln aus, die für die Deduplizierung verwendet werden sollen. Um Attribute zu verwenden, wählen Sie die **Einfache Attribute** und wählen Sie die Quell- und Zielfelder aus. Um mithilfe des Abfragemodells eine eigene Abstimmbedingung zu erstellen, wählen Sie die **Erweiterte Abstimmungsbedingungen** -Option."
->additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/query-database/query-modeler-overview" text="Arbeiten mit dem Abfrage-Modeler"
+>abstract="Wählen Sie die für die Deduplizierung zu verwendenden Abstimmungsregeln aus. Um Attribute zu verwenden, wählen Sie die Option **Einfache Attribute** und dann die Quell- und Zielfelder aus. Um mithilfe des Abfrage-Modelers eine eigene Abstimmbedingung zu erstellen, wählen Sie die Option **Erweiterte Abstimmbedingungen** aus."
+>additional-url="https://experienceleague.adobe.com/de/docs/campaign-web/v8/query-database/query-modeler-overview" text="Arbeiten mit dem Abfrage-Modeler"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_targeting_selection"
