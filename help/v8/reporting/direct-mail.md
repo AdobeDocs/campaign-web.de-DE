@@ -1,18 +1,17 @@
 ---
 audience: end-user
 title: Briefpost-Berichte
-description: Erfahren Sie, wie Sie auf Briefpost-Berichte zugreifen und diese verwenden
-exl-id: 268fe1e3-bd5c-40f1-8973-7671cd8c9960
-source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
-workflow-type: tm+mt
+description: Erfahren Sie, wie Sie auf Briefpost-Berichte zugreifen und diese verwenden können.
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+workflow-type: ht
 source-wordcount: '670'
-ht-degree: 51%
+ht-degree: 100%
 
 ---
 
 # Briefpost-Versandbericht {#direct-mail-report}
 
-Die **Briefpost-Versandbericht** bietet umfassende Einblicke und Daten, die für Ihren Briefpost-Versand spezifisch sind. Er bietet detaillierte Informationen über Performance, Effektivität und Ergebnisse Ihrer einzelnen Sendungen und verschafft Ihnen einen umfassenden Überblick.
+Der **Briefpost-Versandbericht** bietet umfassende Erkenntnisse und Daten, die speziell für Ihren Briefpost-Versand gelten. Er bietet detaillierte Informationen über Performance, Effektivität und Ergebnisse Ihrer einzelnen Sendungen und verschafft Ihnen einen umfassenden Überblick.
 
 ## Versandzusammenfassung {#delivery-summary-direct-mail}
 
@@ -21,9 +20,9 @@ Die **Briefpost-Versandbericht** bietet umfassende Einblicke und Daten, die für
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_delivery_overview_direct_mail"
 >title="Versandübersicht"
->abstract="Die **Versandübersicht** bietet wichtige Leistungsmetriken (KPIs) mit umfassenden Erkenntnissen über die Interaktion Ihrer Besucherinnen und Besucher mit jedem Briefpostversand. Die Metriken sind unten dargestellt."
+>abstract="Die **Versandübersicht** präsentiert wichtige Leistungsmetriken (KPI) mit umfassenden Erkenntnissen zur Interaktion Ihrer Besucherinnen und Besucher mit jedem Briefpostversand. Die Metriken sind unten dargestellt."
 
-Die **[!UICONTROL Versandübersicht]** bietet detaillierte Einblicke in die Interaktion Ihrer Besucher mit jedem Briefpost-Versand und zeigt wichtige KPIs (Key Performance Metrics).  Die Metriken sind unten dargestellt.
+Die **[!UICONTROL Versandübersicht]** bietet detaillierte Erkenntnisse über die Interaktion Ihrer Besucherinnen und Besucher mit jedem Briefpostversand und zeigt wichtige Leistungsmetriken (KPIs).  Die Metriken sind unten dargestellt.
 
 ![](assets/direct-overview.png){zoomable=&quot;yes&quot;}{align="center"}
 
@@ -31,9 +30,9 @@ Die **[!UICONTROL Versandübersicht]** bietet detaillierte Einblicke in die Inte
 
 * **[!UICONTROL Zu sendende Nachrichten]**: Gesamtzahl der während der Versandvorbereitung verarbeiteten Nachrichten.
 
-* **[!UICONTROL Targeting]**: Anzahl der Benutzerprofile, die als Zielprofile für Ihre Briefpost-Nachrichten gelten.
+* **[!UICONTROL Zielgruppe]**: Anzahl der Benutzerprofile, die als Zielprofile für Ihre Briefpost-Nachrichten gelten.
 
-* **[!UICONTROL Ausschließen]**: Anzahl der Benutzerprofile, die von den Zielgruppenprofilen ausgeschlossen sind und Ihre Briefpost-Nachrichten nicht erhalten.
+* **[!UICONTROL Auszuschließen]**: Anzahl der Benutzerprofile, die von den Zielgruppenprofilen ausgeschlossen sind und Ihre Briefpost-Nachrichten nicht erhalten werden.
 +++
 
 ### Anfängliche Zielgruppenpopulation {#direct-mail-delivery-targeted-population}
@@ -43,7 +42,7 @@ Die **[!UICONTROL Versandübersicht]** bietet detaillierte Einblicke in die Inte
 >title="Anfängliche Zielgruppenpopulation"
 >abstract="Der Graph **Anfängliche Zielgruppenpopulation** zeigt Daten zu Ihren Empfängerinnen und Empfängern sowie Nachrichten basierend auf den Ergebnissen der Versandvorbereitung an."
 
-Der Graph **[!UICONTROL Anfängliche Zielgruppenpopulation]** zeigt Daten zu Ihren Empfängerinnen und Empfängern an. Die Metriken werden bei der Versandvorbereitung berechnet und zeigen: die anfängliche Zielgruppe, die Anzahl der zu sendenden Nachrichten und die Anzahl der ausgeschlossenen Empfängerinnen und Empfänger.
+Der Graph **[!UICONTROL Anfängliche Zielgruppenpopulation]** zeigt Daten zu Ihren Empfängerinnen und Empfängern an. Die Metriken werden bei der Versandvorbereitung berechnet und zeigen: die ursprüngliche Zielgruppe, die Anzahl der zu sendenden Nachrichten und die Anzahl der ausgeschlossenen Empfängerinnen und Empfänger.
 
 ![](assets/direct-mail-delivery-targeted-population.png){zoomable=&quot;yes&quot;}
 
@@ -51,7 +50,7 @@ Bewegen Sie den Mauszeiger über einen Abschnitt des Graphen, um die genaue Zahl
 
 ![](assets/direct-mail-delivery-targeted-population_2.png){zoomable=&quot;yes&quot;}
 
-+++ Erfahren Sie mehr über die Metriken des Berichts zum Briefpostversand.
++++Erfahren Sie mehr über die Metriken eines Briefpost-Versandberichts.
 
 * **[!UICONTROL Ursprüngliche Zielgruppe]**: Gesamtzahl der Zielgruppenempfängerinnen und -empfänger.
 
@@ -65,13 +64,13 @@ Bewegen Sie den Mauszeiger über einen Abschnitt des Graphen, um die genaue Zahl
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_delivery_statistics_summary_direct_mail"
 >title="Versandstatistiken"
->abstract="Der Graph **Versandstatistik** zeigt den Erfolg Ihres Briefpostversands und die aufgetretenen Fehler an."
+>abstract="Der Graph **Versandstatistiken** zeigt den Erfolg Ihres Briefpostversands und die aufgetretenen Fehler an."
 
-Die **[!UICONTROL Versandstatistiken]** -Diagramm bietet einen umfassenden Überblick über Ihre Versandleistung und bietet detaillierte Metriken zur Messung von Erfolg und Effektivität.
+Der Graph **[!UICONTROL Versandstatistiken]** bietet einen umfassenden Überblick über Ihre Versandleistung und bietet detaillierte Metriken zur Messung von Erfolg und Effektivität.
 
 ![](assets/direct-mail-delivery-stats.png){zoomable=&quot;yes&quot;}
 
-+++ Erfahren Sie mehr über die Metriken des Berichts &quot;Briefpost-Kampagne&quot;.
++++Erfahren Sie mehr über die Metriken der Briefpost-Kampagnenberichte.
 
 * **[!UICONTROL Gesendete Nachricht]**: Gesamtzahl der nach erfolgter Versandvorbereitung zu versendenden Nachrichten.
 
@@ -88,27 +87,27 @@ Die **[!UICONTROL Versandstatistiken]** -Diagramm bietet einen umfassenden Über
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_causes_exclusion_direct_mail"
 >title="Versand – Ausschlussgründe"
->abstract="Der Graph **Ausschlussgründe** zeigt die Verteilung der zurückgewiesenen Nachrichten während der Versandvorbereitung, kategorisiert nach der jeweiligen Regel."
+>abstract="Der Graph **Ausschlussgründe** zeigt die Verteilung der zurückgewiesenen Nachrichten während der Versandvorbereitung, kategorisiert nach den jeweiligen Regeln."
 
-Die **[!UICONTROL Ausschlussgründe]** Das Diagramm bietet eine detaillierte Auflistung der Gründe für die Ablehnung von Nachrichten während der Versandvorbereitung. Diese Aufschlüsselung erfolgt nach verschiedenen Regeln und bietet einen umfassenden Überblick über die Faktoren, die zum Ausschluss einer Nachricht beitragen. Ausschlussregeln werden in der[Dokumentation zu Campaign v8 (Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=de#email-error-types){_blank} detailliert beschrieben.
+Der Graph **[!UICONTROL Ausschlussgründe]** bietet eine detaillierte Auflistung der Gründe für die Ablehnung von Nachrichten während der Versandvorbereitung. Diese Aufschlüsselung erfolgt nach verschiedenen Regeln und liefert einen umfassenden Überblick über die Faktoren, die beim Ausschluss einer Nachricht eine Rolle spielen. Ausschlussregeln werden in der[Dokumentation zu Campaign v8 (Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=de#email-error-types){_blank} detailliert beschrieben.
 
 ![](assets/direct-mail-delivery-exclusions.png){zoomable=&quot;yes&quot;}{align="center" zoomable="yes"}
 
-+++ Erfahren Sie mehr über Ursachen für Ausschlussmetriken.
++++Erfahren Sie mehr über Metriken zu Ausschlussgründen.
 
-* **[!UICONTROL Adresse in Quarantäne]**: Fehler, der erzeugt wird, wenn eine Adresse unter Quarantäne gestellt wird.
+* **[!UICONTROL Adresse in Quarantäne]**: Fehlertyp, der erzeugt wird, wenn eine Adresse unter Quarantäne gestellt wird.
 
-* **[!UICONTROL Adresse nicht angegeben]**: Fehler, der beim Versand erzeugt wird, um anzugeben, dass die Adresse nicht vorhanden ist.
+* **[!UICONTROL Adresse nicht angegeben]**: Fehlertyp, der beim Durchführen eines Versands erzeugt wird, wenn eine Adresse nicht existiert.
 
-* **[!UICONTROL Adresse schlechter Qualität]**: Fehler, der erzeugt wird, wenn die Qualität der Postanschrift zu niedrig ist.
+* **[!UICONTROL Adresse schlechter Qualität]**: Fehlertyp, der erzeugt wird, wenn der Qualitätsindex der Postanschrift zu niedrig ist.
 
-* **[!UICONTROL Auf die Blockierungsliste gesetzt Adresse]**: Fehler, der erzeugt wurde, wenn der Empfänger zum Zeitpunkt der Versanddurchführung auf die Blockierungsliste gesetzt wurde.
+* **[!UICONTROL Adresse, die auf die Blockierungsliste gesetzt wurde]**: Fehlertyp, der erzeugt wird, wenn sich die Empfängerin oder der Empfänger zum Zeitpunkt der Versanddurchführung auf die Blockierungsliste befand.
 
-* **[!UICONTROL Double]**: Fehler, der erzeugt wurde, wenn der Empfänger ausgeschlossen wurde, da seine Schlüsselwerte nicht eindeutig waren.
+* **[!UICONTROL Doppelt]**: Fehlertyp, der erzeugt wird, wenn die Empfängerin oder der Empfänger aufgrund nicht eindeutiger Schlüsselwerte ausgeschlossen wurde.
 
-* **[!UICONTROL Kontrollgruppe]**: Die Adresse des Empfängers ist Teil der Kontrollgruppe.
+* **[!UICONTROL Kontrollgruppenadresse]**: Die Adresse der Empfängerin oder des Empfängers ist Teil der Kontrollgruppe.
 
-* **[!UICONTROL Größe der Zielgruppe begrenzt]**: Die maximale Versandgröße wurde für den Empfänger erreicht.
+* **[!UICONTROL Größe der Zielgruppe begrenzt]**: Die maximale Versandgröße wurde für die Empfängerin oder den Empfänger erreicht.
 
 +++
 
@@ -119,8 +118,8 @@ Die **[!UICONTROL Ausschlussgründe]** Das Diagramm bietet eine detaillierte Auf
 >title="Ausschlüsse"
 >abstract="Die Tabelle **[!UICONTROL Ausschlüsse]** zeigt eine detaillierte Aufschlüsselung der während der Versandvorbereitung zurückgewiesenen Nachrichten nach Regeln an."
 
-Die **[!UICONTROL Ausnahmen]** bietet eine detaillierte Aufschlüsselung der Nachrichten, die in der Vorbereitungsphase des Versands zurückgewiesen wurden (nach bestimmten Regeln geordnet). Diese umfassende Aufschlüsselung ermöglicht ein klares Verständnis der Gründe für den Ausschluss dieser Nachrichten aus dem Versandprozess.
+Die Tabelle **[!UICONTROL Ausschlüsse]** bietet eine detaillierte Aufschlüsselung der Nachrichten (nach bestimmten Regeln kategorisiert), die in der Vorbereitungsphase des Versands zurückgewiesen wurden. Diese umfassende Aufschlüsselung liefert ein klares Bild der Gründe für den Ausschluss dieser Nachrichten aus dem Versandprozess.
 
 ![](assets/direct-mail-exclusions.png){zoomable=&quot;yes&quot;}{align="center" zoomable="yes"}
 
-Die verfügbaren Metriken sind mit denen der Variablen [Ausschlussgründe](#direct-mail-delivery-exclusions) weiter oben beschrieben.
+Die verfügbaren Metriken sind die gleichen wie die für die weiter oben beschriebenen [Ausschlussgründe](#direct-mail-delivery-exclusions).

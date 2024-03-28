@@ -2,17 +2,16 @@
 audience: end-user
 title: Globale Berichte für den Briefpost-Kanal
 description: Erfahren Sie mehr über globale Berichte für den Briefpost-Kanal
-exl-id: a42536fe-375b-4169-8775-d47ed26692f8
-source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
-workflow-type: tm+mt
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+workflow-type: ht
 source-wordcount: '627'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
 # Globale Berichte für den Briefpost-Kanal {#global-report-direct}
 
-Die globalen Briefpost-Berichte bieten Benutzern einen umfassenden Überblick über Traffic- und Interaktionsmetriken auf Kanalebene.
+Die globalen Briefpost-Berichte bieten einen umfassenden Überblick über Traffic- und Interaktionsmetriken auf Kanalebene.
 
 Navigieren Sie zum Menü **[!UICONTROL Berichte]** im Abschnitt **[!UICONTROL Berichterstellung]**. Sie können Ihre Daten nach Berichtsdatum, -ordner oder -regeln filtern. [Weitere Informationen](global-reports.md)
 
@@ -78,7 +77,7 @@ Die Tabelle und der Graph **[!UICONTROL Zielgruppe]** zeigen Daten zu Ihren Empf
 >title="Versandstatistiken"
 >abstract="Der Graph **Versandstatistiken** zeigt den Erfolg Ihres Briefpostversands und die aufgetretenen Fehler an."
 
-Die **[!UICONTROL Versandstatistiken]** Diagramm und Tabelle enthalten eine Aufschlüsselung des Erfolgs jedes Briefpost-Versands mit detaillierten Metriken, die unten beschrieben werden.
+Der Graph **[!UICONTROL Versandstatistiken]** bietet eine Aufschlüsselung des Erfolgs jedes Briefpostversands mit folgenden detaillierten Metriken.
 
 +++Erfahren Sie mehr über Versandstatistik-Metriken.
 
@@ -102,26 +101,27 @@ Die **[!UICONTROL Versandstatistiken]** Diagramm und Tabelle enthalten eine Aufs
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_causes_exclusion_direct_mail_graph"
 >title="Versand – Ausschlussgründe"
->abstract="Der Graph **Ausschlussgründe** zeigt die Verteilung der zurückgewiesenen Nachrichten während der Versandvorbereitung, kategorisiert nach der jeweiligen Regel."
+>abstract="Der Graph **Ausschlussgründe** zeigt die Verteilung der zurückgewiesenen Nachrichten während der Versandvorbereitung, kategorisiert nach jeder Regel."
 
 ![](assets/global_report_direct_mail_exclusions.png){zoomable=&quot;yes&quot;}{align="center"}
 
 Der Graph und die Tabelle „Ausschlüsse“ zeigen die Gründe, aus denen Benutzerprofile, die aus den Zielprofilen ausgeschlossen sind, die Benachrichtigung nicht erhalten haben.
 
-+++ Erfahren Sie mehr über Ursachen für Ausschlussmetriken.
++++Erfahren Sie mehr über Metriken zu Ausschlussgründen.
 
-* **[!UICONTROL Adresse in Quarantäne]**: Fehler, der erzeugt wird, wenn eine Adresse unter Quarantäne gestellt wird.
+* **[!UICONTROL Adresse in Quarantäne]**: Fehlertyp, der erzeugt wird, wenn eine Adresse unter Quarantäne gestellt wird.
 
-* **[!UICONTROL Adresse nicht angegeben]**: Fehler, der beim Versand erzeugt wird, um anzugeben, dass die Adresse nicht vorhanden ist.
+* **[!UICONTROL Adresse nicht angegeben]**: Fehlertyp, der beim Durchführen eines Versands erzeugt wird, um anzuzeigen, dass die Adresse nicht existiert.
 
-* **[!UICONTROL Adresse schlechter Qualität]**: Fehler, der erzeugt wird, wenn die Qualität der Postanschrift zu niedrig ist.
+* **[!UICONTROL Adresse schlechter Qualität]**: Fehlertyp, der erzeugt wird, wenn der Qualitätsindex der Postanschrift zu niedrig ist.
 
-* **[!UICONTROL Auf die Blockierungsliste gesetzt Adresse]**: Fehler, der erzeugt wurde, wenn der Empfänger zum Zeitpunkt der Versanddurchführung auf die Blockierungsliste gesetzt wurde.
+* **[!UICONTROL Adresse, die auf die Blockierungsliste gesetzt wurde]**: Fehlertyp, der erzeugt wird, wenn sich die Empfängerin oder der Empfänger zum Zeitpunkt der Versanddurchführung auf die Blockierungsliste befand.
 
-* **[!UICONTROL Double]**: Fehler, der erzeugt wurde, wenn der Empfänger ausgeschlossen wurde, da seine Schlüsselwerte nicht eindeutig waren.
+* **[!UICONTROL Doppelt]**: Fehlertyp, der erzeugt wird, wenn die Empfängerin oder der Empfänger aufgrund nicht eindeutiger Schlüsselwerte ausgeschlossen wurde.
 
-* **[!UICONTROL Kontrollgruppe]**: Die Adresse des Empfängers ist Teil der Kontrollgruppe.
+* **[!UICONTROL Kontrollgruppe]**: Die Adresse der Empfängerin oder des Empfängers ist Teil der Kontrollgruppe.
 
-* **[!UICONTROL Größe der Zielgruppe begrenzt]**: Die maximale Versandgröße wurde für den Empfänger erreicht.
+* **[!UICONTROL Größe der Zielgruppe begrenzt]**: Die maximale Versandgröße wurde für die Empfängerin oder den Empfänger erreicht.
 
 +++
+

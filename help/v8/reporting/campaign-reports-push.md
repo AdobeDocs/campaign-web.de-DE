@@ -4,7 +4,7 @@ title: Kampagnenberichte für den Push-Kanal
 description: Grundlegendes zu Kampagnenberichten für den Push-Kanal
 exl-id: 5e7ac2b8-b543-427b-846c-7c0b489cc21c
 source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '507'
 ht-degree: 100%
 
@@ -26,7 +26,7 @@ Der Bericht **[!UICONTROL Versandübersicht]** bietet wichtige Performance-Indik
 ![](assets/campaign-reporting-push-summary.png){zoomable=&quot;yes&quot;}
 
 
-+++Erfahren Sie mehr über die Metriken der Push-Kampagnenberichte.
++++Erfahren Sie mehr über die Metriken für Push-Kampagnenberichte.
 
 * **[!UICONTROL Zu sendende Nachrichten]**: Gesamtzahl der während der Versandvorbereitung verarbeiteten Nachrichten.
 
@@ -51,7 +51,7 @@ Die Tabelle **[!UICONTROL Statistiken der anfänglichen Zielgruppe]** zeigt Date
 ![](assets/campaign-reporting-push-target.png){zoomable=&quot;yes&quot;}
 
 
-+++Erfahren Sie mehr über die Metriken der Push-Kampagnenberichte.
++++Erfahren Sie mehr über die Metriken für Push-Kampagnenberichte.
 
 * **[!UICONTROL Ursprüngliche Zielgruppe]**: Gesamtzahl der Zielgruppenempfängerinnen und -empfänger.
 
@@ -72,7 +72,7 @@ Die Tabelle **[!UICONTROL Ausführungsstatistiken]** zeigt den Erfolg Ihres Vers
 
 ![](assets/campaign-reporting-push-exec.png){zoomable=&quot;yes&quot;}
 
-+++Erfahren Sie mehr über die Metriken der Push-Kampagnenberichte.
++++Erfahren Sie mehr über die Metriken für Push-Kampagnenberichte.
 
 * **[!UICONTROL Zu versendende Nachricht]**: Gesamtzahl der nach erfolgter Versandvorbereitung zu versendenden Nachrichten.
 
@@ -97,7 +97,7 @@ Die Tabelle **[!UICONTROL Generierte Clickstreams]** zeigt Daten dazu an, wie Ih
 
 ![](assets/campaign-reporting-push-clicks.png){zoomable=&quot;yes&quot;}
 
-+++Erfahren Sie mehr über die Metriken der Push-Kampagnenberichte.
++++Erfahren Sie mehr über die Metriken für Push-Kampagnenberichte.
 
 * **[!UICONTROL Einzelklicks]**: Gesamtzahl der unterschiedlichen Empfängerinnen und Empfänger, die einen Versand mindestens einmal angeklickt haben.
 

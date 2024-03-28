@@ -1,12 +1,12 @@
 ---
 audience: end-user
 title: Neue Funktionen in der Campaign Web-Benutzeroberfläche
-description: Entdecken Sie neue Funktionen in der Campaign Web-Benutzeroberfläche
+description: Entdecken Sie neue Funktionen in der Campaign Web-Benutzeroberfläche.
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 source-git-commit: da861a0777a316e210b229d823e3f15b5a13ab2f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1265'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 99%
 
 Wir freuen uns, Ihnen die neue Version der **Adobe Campaign Web-Benutzeroberfläche** vorstellen zu können. Unsere neueste Version enthält zahlreiche intuitive Funktionen, mit denen Sie einfacher personalisierte kanalübergreifende Kampagnen erstellen und außergewöhnliche Ergebnisse erzielen, was Ihnen auf allen Kanälen einen Wettbewerbsvorteil bietet. Die Campaign Web-Benutzeroberfläche (UI) bietet eine mit Adobe Experience Platform verbundene Arbeitsfläche und dadurch ein einheitliches Erlebnis.
 
-Änderungen, neue Funktionen und Verbesserungen sind im Abschnitt [monatliche Versionshinweise](release-notes.md).
+Änderungen, neue Funktionen und Verbesserungen sind in den [monatlichen Versionshinweisen](release-notes.md) aufgeführt.
 
 
 ## Wichtigste Funktionen {#key-features}

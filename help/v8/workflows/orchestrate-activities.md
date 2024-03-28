@@ -4,9 +4,9 @@ title: Erstellen von Workflows mit Adobe Campaign Web
 description: Erfahren Sie, wie Sie Workflows mit Adobe Campaign Web erstellen
 exl-id: 0c8e2158-518c-4620-9971-00ed2eccdd4f
 source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '699'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ Beim Hinzufügen von Aktivitäten sind im Eigenschaftenbereich Aktionsschaltflä
 
 ![](assets/activity-action.png){zoomable=&quot;yes&quot;}{width="50%"}
 
-Mehrere **Targeting** -Aktivitäten, z. B. **Kombinieren** oder **Deduplizierung** können Sie die verbleibende Population verarbeiten und in eine zusätzliche ausgehende Transition einschließen. Wenn Sie beispielsweise eine **Aufspaltung** Aktivität, besteht das Komplement aus der Population, die keiner der zuvor definierten Teilmengen entspricht. Um diese Funktion zu verwenden, aktivieren Sie die **Komplement erzeugen** -Option.
+Bei mehreren **Zielgruppenbestimmungsaktivitäten**, z. B. **Kombinieren** oder **Deduplizierung**, können Sie die verbleibende Population verarbeiten und in eine zusätzliche ausgehende Transition einschließen. Wenn Sie beispielsweise die Aktivität **Aufspaltung** verwenden, besteht das Komplement aus der Population, die keiner der zuvor definierten Teilmengen entsprochen hat. Um diese Funktion zu verwenden, aktivieren Sie die Option **Komplement erzeugen**.
 
 ![](assets/workflow-split-complement.png)
 

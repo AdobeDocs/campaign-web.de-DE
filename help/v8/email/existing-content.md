@@ -4,9 +4,9 @@ title: Importieren Ihrer E-Mail-Inhalte
 description: Erfahren Sie, wie Sie E-Mail-Inhalte importieren
 exl-id: ef9c8e6f-f422-404e-9ebb-a89d1bd45e7f
 source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '278'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Sie können vorhandene HTML-Inhalte in den E-Mail-Designer importieren. Dieser I
 
 ➡️ [Entdecken Sie diese Funktion im Video](#video)
 
-Gehen Sie wie folgt vor, um eine HTML-Datei zu importieren.
+Gehen Sie wie folgt vor, um eine Datei mit HTML-Inhalten zu importieren:
 
 1. Wählen Sie auf der Startseite des [E-Mail-Designers](get-started-email-designer.md) die Option **[!UICONTROL HTML importieren]** aus.
 
@@ -54,6 +54,6 @@ Gehen Sie wie folgt vor, um eine HTML-Datei zu importieren.
 
 ## Anleitungsvideo {#video}
 
-Erfahren Sie, wie Sie eine E-Mail durch Hochladen von HTML erstellen, wie Sie sie mit Email Designer kompatibel machen und wie Sie sie in eine Vorlage konvertieren.
+Erfahren Sie, wie Sie eine E-Mail durch Hochladen von HTML erstellen, wie Sie sie mit dem E-Mail-Designer kompatibel machen und wie Sie sie in eine Vorlage konvertieren.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3427633/?quality=12)

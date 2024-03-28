@@ -4,9 +4,9 @@ title: Funktionsmatrix für die Benutzeroberfläche/Client-Konsole von Campaign 
 description: Liste der in der Campaign Web-Benutzeroberfläche unterstützten Funktionen
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
 source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2141'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -37,9 +37,9 @@ Verwenden Sie die bereitgestellten Links, um die Dokumentation zu Campaign v8 (C
 
 ## Kommunikationskanäle {#channels-capabilities}
 
-Über die Campaign-Webbenutzeroberfläche können Sie **email**, **SMS**, **Push-Benachrichtigungen**, **Briefpost** und messen Sie ihre Wirkung mithilfe verschiedener spezifischer Berichte, wie detailliert beschrieben. [in diesem Abschnitt](../msg/gs-messages.md). Die folgenden Kanäle sind derzeit jedoch **not** verfügbar: In-App, LINE, Callcenter/Benutzerdefinierter Kanal, Social Marketing mit X (Twitter).
+Mit der Campaign Web-Benutzeroberfläche können Sie **E-Mails**, **SMS**, **Push-Benachrichtigungen** und **Briefpost** erstellen, gestalten und versenden und deren Wirkung mithilfe verschiedener spezieller Berichte messen, wie [in diesem Abschnitt](../msg/gs-messages.md) beschrieben. Die folgenden Kanäle sind derzeit jedoch **nicht** verfügbar: In-App, LINE, Callcenter-/benutzerdefinierter Kanal, Social-Media-Marketing mit X (Twitter).
 
-Verwenden Sie die bereitgestellten Links, um die Dokumentation zu Campaign v8 (Client-Konsole) zu durchsuchen und mehr über diese Kanäle zu erfahren.
+Verwenden Sie die angegebenen Links, um die Dokumentation zu Campaign v8 (Client-Konsole) zu durchsuchen und mehr über diese Kanäle zu erfahren.
 
 * **LINE-Messaging**. LINE ist ein Programm für kostenloses Instant Messaging, Sprach- und Videoanrufe, das für alle Smartphones und für Desktop verfügbar ist. Adobe Campaign ermöglicht den Versand von LINE-Nachrichten nur von der Client-Konsole aus. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/line.html?lang=de){target="_blank"}
 * **Callcenter- und benutzerdefinierte Kanäle**. Callcenter- und andere benutzerdefinierte Kanäle können in Ihrer Campaign-Umgebung implementiert werden. Diese Kanäle sind nur in der Client-Konsole verfügbar. [Weitere Informationen finden Sie in der Dokumentation zu Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/communication-channels.html?lang=de#other-channels){target="_blank"}
@@ -167,7 +167,7 @@ Das Daten-Management kombiniert eine Reihe von Aktivitäten zur Lösung komplexe
 
 >[!NOTE]
 >
->Während einige dieser Aktivitäten nur in der Client-Konsole verfügbar sind, sind einige in der Web-Benutzeroberfläche von Campaign verfügbar, wie zum Beispiel die **Anreicherung**, **Datei laden**, **Datenquelle ändern** oder **Dimensionsänderung** Aktivitäten. [Weitere Informationen zu Audience- und Daten-Management-Aktivitäten in der Campaign-Web-Benutzeroberfläche](../workflows/activities/about-activities.md#targeting)
+>Während einige dieser Aktivitäten nur in der Client-Konsole verfügbar sind, stehen andere in der Campaign Web-Benutzeroberfläche zur Verfügung, z. B. die Aktivitäten **Anreicherung**, **Datei laden**, **Datenquelle ändern** oder **Dimensionsänderung**. [Weitere Informationen zu Audience- und Daten-Management-Aktivitäten in der Campaign-Web-Benutzeroberfläche](../workflows/activities/about-activities.md#targeting)
 
 ### Federated Data Access-Konfiguration {#fda}
 

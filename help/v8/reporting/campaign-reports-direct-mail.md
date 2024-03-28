@@ -1,18 +1,17 @@
 ---
 audience: end-user
 title: Kampagnenberichte für den Briefpost-Kanal
-description: Kampagnenberichte für den Briefpost-Kanal verstehen
-exl-id: 7817d4c5-1f97-4b17-8a5f-f1a5b8701fe9
-source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
-workflow-type: tm+mt
+description: Grundlegendes zu Kampagnenberichten für den Briefpost-Kanal
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+workflow-type: ht
 source-wordcount: '526'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
 # Kampagnenberichte für den Briefpost-Kanal {#campaign-reports-direct-mail}
 
-Jeder Kampagnenbericht ist in verschiedene Widgets unterteilt, die den Erfolg und die Fehler Ihrer Kampagne detailliert beschreiben. Für den Briefpost-Kanal werden im Folgenden Berichte und Metriken beschrieben. Erfahren Sie auf [dieser Seite](campaign-reports.md), wie Sie auf Ihre Kampagnenberichte zugreifen können.
+Jeder Kampagnenbericht ist in verschiedene Widgets unterteilt, die den Erfolg und die Fehler Ihrer Kampagne detailliert beschreiben. Für den Briefpost-Kanal werden die Berichte und Metriken nachfolgend beschrieben. Erfahren Sie auf [dieser Seite](campaign-reports.md), wie Sie auf Ihre Kampagnenberichte zugreifen können.
 
 ## Versandzusammenfassung {#delivery-summary-direct}
 
@@ -21,9 +20,9 @@ Jeder Kampagnenbericht ist in verschiedene Widgets unterteilt, die den Erfolg un
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_delivery_overview_direct_mail"
 >title="Versandübersicht"
->abstract="Die **Versandübersicht** bietet wichtige Leistungsmetriken (KPIs) mit umfassenden Erkenntnissen über die Interaktion Ihrer Besucherinnen und Besucher mit jedem Briefpostversand. Die Metriken sind unten dargestellt."
+>abstract="Die **Versandübersicht** präsentiert wichtige Leistungsmetriken (KPI) mit umfassenden Erkenntnissen zur Interaktion Ihrer Besucherinnen und Besucher mit jedem Briefpostversand. Die Metriken sind unten dargestellt."
 
-Die **[!UICONTROL Versandübersicht]** präsentiert wichtige Leistungsmetriken (KPIs) mit umfassenden Einblicken in die Interaktion Ihrer Besucher mit jedem Briefpost-Versand. Die Metriken sind unten dargestellt.
+Die **[!UICONTROL Versandübersicht]** bietet wichtige Leistungsmetriken (KPIs) mit umfassenden Erkenntnissen zur Interaktion Ihrer Besucherinnen und Besucher mit jedem Briefpostversand. Die Metriken sind unten dargestellt.
 
 ![](assets/direct-mail-campaign-overview.png){zoomable=&quot;yes&quot;}{align="center"}
 
@@ -46,11 +45,11 @@ Die **[!UICONTROL Versandübersicht]** präsentiert wichtige Leistungsmetriken (
 >title="Statistiken der ursprünglichen Zielgruppe"
 >abstract="Empfängerdaten und Nachrichteninformationen werden in der Tabelle **Statistiken der ursprünglichen Zielgruppe** angezeigt, die die Analyse der Versandvorbereitung widerspiegelt."
 
-Die Tabelle **[!UICONTROL Statistiken der anfänglichen Zielgruppe]** zeigt Daten zu Ihren Empfängerinnen und Empfängern an. Die Metriken werden bei der Versandvorbereitung berechnet und zeigen: die anfängliche Zielgruppe, die Anzahl der zu sendenden Nachrichten und die Anzahl der ausgeschlossenen Empfängerinnen und Empfänger.
+Die Tabelle **[!UICONTROL Statistiken der anfänglichen Zielgruppe]** zeigt Daten zu Ihren Empfängerinnen und Empfängern an. Die Metriken werden bei der Versandvorbereitung berechnet und zeigen: die ursprüngliche Zielgruppe, die Anzahl der zu sendenden Nachrichten und die Anzahl der ausgeschlossenen Empfängerinnen und Empfänger.
 
 ![](assets/direct-mail-campaign-target-audience.png){zoomable=&quot;yes&quot;}
 
-+++ Erfahren Sie mehr über die Metriken zur anfänglichen Zielgruppenstatistik .
++++Erfahren Sie mehr über die Metriken zu den Statistiken der ursprünglichen Zielgruppe.
 
 * **[!UICONTROL Ursprüngliche Zielgruppe]**: Gesamtzahl der Zielgruppenempfängerinnen und -empfänger.
 
@@ -65,11 +64,11 @@ Die Tabelle **[!UICONTROL Statistiken der anfänglichen Zielgruppe]** zeigt Date
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_execution_statistics_direct_mail"
 >title="Versandstatistiken"
->abstract="Die Tabelle **Ausführungsstatistik** zeigt den Erfolg Ihres Briefpostversands und die aufgetretenen Fehler an."
+>abstract="Die Tabelle **Ausführungsstatistiken** zeigt den Erfolg Ihres Briefpostversands und die aufgetretenen Fehler an."
 
 ![](assets/direct-mail-campaign-exec.png)
 
-Die **[!UICONTROL Ausführungsstatistiken]** bietet eine Aufschlüsselung des Erfolgs jedes Briefpost-Versands mit detaillierten Metriken, die unten beschrieben werden.
+Die Tabelle **[!UICONTROL Ausführungsstatistiken]** bietet eine Aufschlüsselung des Erfolgs jedes Briefpostversands mit folgenden detaillierten Metriken.
 
 +++Erfahren Sie mehr über Versandstatistik-Metriken.
 
@@ -92,9 +91,9 @@ Die **[!UICONTROL Ausführungsstatistiken]** bietet eine Aufschlüsselung des Er
 
 ![](assets/direct-mail-campaign-clicks.png){zoomable=&quot;yes&quot;}{align="center"}
 
-Die **Erzeugte Clickstreams** -Tabelle zeigt die Gründe, aus denen verhindert wurde, dass Benutzerprofile, die aus den Zielgruppenprofilen ausgeschlossen wurden, die Nachricht empfangen konnten.
+Die Tabelle **Erzeugte Clickstreams** zeigt die Gründe, warum aus den Zielprofilen ausgeschlossene Benutzerprofile die Nachricht nicht erhalten haben.
 
-+++ Erfahren Sie mehr über die Metriken zu generierten Clickstreams.
++++Erfahren Sie mehr über die Metriken für erzeugte Clickstreams.
 
 * **[!UICONTROL Einzelklicks]**: Gesamtzahl der unterschiedlichen Empfängerinnen und Empfänger, die einen Versand mindestens einmal angeklickt haben.
 

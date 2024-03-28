@@ -4,9 +4,9 @@ title: Erstellen Ihrer erste Abfrage mithilfe des Abfrage-Modelers
 description: Erfahren Sie, wie Sie Ihre erste Abfrage im Abfrage-Modeler in Adobe Campaign Web erstellen.
 exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
 source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2088'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -18,13 +18,13 @@ Sie können zwei Elementtypen hinzufügen:
 
 * **Komponenten filtern** (Benutzerdefinierte Bedingung, Zielgruppe auswählen, vordefinierter Filter) ermöglicht es Ihnen, eigene Regeln zu erstellen oder eine Zielgruppe oder einen vordefinierten Filter auszuwählen, um Ihre Abfrage zu verfeinern. Sie werden zu Beginn Ihrer Abfrage und bei gepunkteten Transitionen hinzugefügt. [Erfahren Sie, wie Sie mit Filterkomponenten arbeiten können](#filtering)
 
-  Beispiel: *Empfänger, die den Newsletter &quot;Sport&quot;abonniert haben*. *Empfängerinnen und Empfänger mit Wohnsitz in New York*, *Empfängerinnen und Empfänger mit Wohnsitz in San Francisco*
+  Beispiel: *Empfängerinnen und Empfänger, die den Newsletter „Sport“ abonniert haben*. *Empfängerinnen und Empfänger mit Wohnsitz in New York*, *Empfängerinnen und Empfänger mit Wohnsitz in San Francisco*
 
   ![](assets/query-add-component.png){zoomable=&quot;yes&quot;}
 
-* **Gruppenoperatoren** (AND, OR, EXCEPT) ermöglichen die Gruppierung von Filterkomponenten im Diagramm. Sie werden bei vorhandenen Transitionen vor einer Filterkomponente hinzugefügt. [Erfahren Sie, wie man mit Operatoren arbeitet](#filtering)
+* **Gruppenoperatoren** (UND, ODER, AUSSER) ermöglichen es Ihnen, die Filterkomponenten im Diagramm zu gruppieren. Sie werden bei vorhandenen Transitionen vor einer Filterkomponente hinzugefügt. [Erfahren Sie, wie man mit Operatoren arbeitet](#filtering)
 
-  Beispiel: *Empfänger, die den Newsletter &quot;Sport&quot;abonniert haben **UND**die in New York leben **ODER**San Francisco*.
+  Beispiel: *Empfängerinnen und Empfänger, die den Newsletter „Sport“ abonniert haben **UND**in New York **ODER**San Francisco leben*
 
   ![](assets/query-add-operator.png){zoomable=&quot;yes&quot;}
 
@@ -53,7 +53,7 @@ Gehen Sie wie folgt vor, um Ihre Abfrage mit einer benutzerdefinierten Bedingung
 
    >[!NOTE]
    >
-   >Die **Ausdruck bearbeiten** Die Schaltfläche ermöglicht die Verwendung des Ausdruckseditors für Campaign-Webausdrücke, um mithilfe von Feldern aus der Datenbank und Hilfsfunktionen einen Ausdruck manuell zu definieren. [Erfahren Sie, wie Sie Ausdrücke bearbeiten](expression-editor.md)
+   >Über die Schaltfläche **Ausdruck bearbeiten** können Sie den Campaign Web-Ausdruckseditor starten, um manuell einen Ausdruck mithilfe von Datenbankfeldern und Hilfsfunktionen festzulegen. [Erfahren Sie, wie Sie Ausdrücke bearbeiten](expression-editor.md)
 
 1. Wählen Sie in der Dropdown-Liste den anzuwendenden Operator aus. Es stehen verschiedene Operatoren zur Verfügung. Beachten Sie, dass die in der Dropdown-Liste verfügbaren Operatoren vom Datentyp des Attributs abhängen.
 
@@ -86,7 +86,7 @@ Gehen Sie wie folgt vor, um Ihre Abfrage mit einer benutzerdefinierten Bedingung
 
    ![](assets/query-custom-condition.png){zoomable=&quot;yes&quot;}
 
-   Für Attribute vom Typ Datum sind vordefinierte Werte mit der Variablen **[!UICONTROL Vorgaben]** -Option.
+   Für Attribute vom Typ „Datum“ sind vordefinierte Werte bei Verwendung der Option **[!UICONTROL Voreinstellungen]** verfügbar.
 
    ![](assets/date-presets.png){zoomable=&quot;yes&quot;}
 
@@ -217,7 +217,7 @@ Gehen Sie wie folgt vor, um Filterkomponenten zu kopieren und einzufügen:
 
 Jedes Mal, wenn Sie zu Ihrer Abfrage eine neue Filterkomponente hinzufügen, wird diese automatisch durch einen **UND**-Operator mit der anderen Komponente verknüpft. Dadurch werden die Ergebnisse der beiden Filterkomponenten kombiniert.
 
-In diesem Beispiel haben wir für die zweite Transition neue Zielgruppentyp-Filterkomponenten hinzugefügt. Die Komponente ist mit einer vordefinierten Filterbedingung mit einer **UND** -Operator, d. h., die Abfrageergebnisse enthalten Empfänger, die in den vordefinierten Filter &quot;Madrider&quot; UND der Audience &quot;Rabattjäger&quot; enthalten sind.
+In diesem Beispiel haben wir für die zweite Transition neue Zielgruppentyp-Filterkomponenten hinzugefügt. Die Komponente ist mit der vordefinierten Filterbedingung durch einen **UND**-Operator verknüpft, d. h., die Abfrageergebnisse enthalten Empfängerinnen und Empfänger, auf die der vordefinierte Filter „Wohnhaft in Madrid“ zutrifft UND die zur Zielgruppe „Rabattjäger“ gehören.
 
 ![](assets/query-operator.png){zoomable=&quot;yes&quot;}
 

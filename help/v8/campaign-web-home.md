@@ -4,9 +4,9 @@ description: Hilfe-Center zu Campaign Web
 title: Produktdokumentation zu Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 source-git-commit: 36f13683f0a7e58dd684a69d84007136aa3132b8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '502'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -53,21 +53,21 @@ Hier erhalten Sie einen Einblick in die neuesten Verbesserungen in Adobe Campaig
 
 >[!TAB Die Version vom März ist live!]
 
-Entdecken Sie neue Funktionen und Verbesserungen der Adobe Campaign-Webbenutzeroberfläche-Version 24.3.
+Entdecken Sie neue Funktionen und Verbesserungen der Adobe Campaign Web-Benutzeroberfläche Version 24.3.
 
 [![Bild](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
 
 >[!TAB Briefpost-Kanal]
 
-**Briefpost** -Kanal ist jetzt für die Verwendung in Workflows und als eigenständige Sendungen verfügbar. Briefpost ist ein Offline-Kanal, über den Sie Extraktionsdateien erstellen, personalisieren und generieren sowie diese an Ihre Briefpost-Dienstleister weitergeben können, um E-Mails an Ihre Kunden zu senden.
+Der **Briefpost-Kanal** ist jetzt für die Verwendung in Workflows und für eigenständige Sendungen verfügbar. Briefpost ist ein Offline-Kanal, über den Sie Extraktionsdateien erstellen, personalisieren und generieren sowie diese an Ihre Briefpost-Dienstleister weitergeben können, um Ihrer Kundschaft Post zukommen zu lassen.
 
 ![Bild](assets/do-not-localize/direct-mail.gif)
 
 [![Bild](assets/do-not-localize/learn-more-button.svg)](direct-mail/gs-direct-mail.md)
 
->[!TAB Neue Workflow-Aktivität &quot;Datenquelle ändern&quot;]
+>[!TAB Neue Workflow-Aktivität „Datenquelle ändern“]
 
-Die **Datenquelle ändern** Die Zielgruppenbestimmungsaktivität ermöglicht die Änderung der Datenquelle, die von der Arbeitstabelle Ihres Workflows verwendet wird. Diese Aktivität bietet mehr Flexibilität, da Sie Daten in Ihren verschiedenen Datenbanken verwalten und die Leistung verbessern können.
+Mit der neuen Targeting-Aktivität **Datenquelle ändern** können Sie die Datenquelle der von Ihrem Workflow verwendeten Arbeitstabelle ändern. Diese Aktivität bietet mehr Flexibilität, da Sie damit Daten in Ihren verschiedenen Datenbanken verwalten und die Leistung verbessern können.
 
 ![Bild](assets/do-not-localize/change-data-source.gif)
 
