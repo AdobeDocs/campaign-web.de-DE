@@ -3,10 +3,10 @@ audience: end-user
 title: Erkunden der Benutzeroberfläche
 description: Adobe Campaign Web-Benutzeroberfläche
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 271f23fb042e1580b9e34fa868ec1f021c12f097
+source-git-commit: 1eaa2710e682e9038befc5d0752c064e2bb48521
 workflow-type: tm+mt
-source-wordcount: '1619'
-ht-degree: 98%
+source-wordcount: '1970'
+ht-degree: 83%
 
 ---
 
@@ -313,30 +313,29 @@ Deprecated IDs - to remove in GA: -->
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_readonlymode"
 >title="Diese Vorlage ist schreibgeschützt"
->abstract="TBC"
-
+>abstract="Sie sind nicht berechtigt, diese Vorlage zu bearbeiten. Bei Bedarf Admin kontaktieren, um Zugriff zu erhalten."
 
 <!-- Subscription activity-->
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_defaultlp"
->title="Standard-Landingpages"
->abstract="TBC"
+>title="Standard-Landingpage"
+>abstract="Wählen Sie die mit diesem Abonnement-Dienst verknüpfte Standard-Landingpage aus."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription"
->title="Abonnementdienste"
->abstract="TBC"
+>title="An-/Abmeldedienst"
+>abstract="Adobe Campaign verwenden, um Dienste wie z. B. Newsletter zu erstellen und zu überwachen und die An- und Abmeldungen für diese Dienste zu überprüfen. Abonnements gelten nur für den E-Mail- und SMS-Versand."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription_general"
->title="Parameter von Abonnementdiensten"
->abstract="TBC"
+>title="Parameter des Anmeldedienstes"
+>abstract="Wählen Sie die Einstellungen für den Abonnementdienst aus und bestätigen Sie sie."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription_outboundtransition"
 >title="Ausgehende Transition von Abonnementdiensten"
->abstract="TBC"
+>abstract="Umschalten zwischen **Ausgehende Transition erzeugen** -Option, um eine Transition nach der Aktivität hinzuzufügen."
 
 
 <!--Update file-->
@@ -344,37 +343,37 @@ Deprecated IDs - to remove in GA: -->
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata"
 >title="Aktualisieren von Daten"
->abstract="TBC"
+>abstract="Die **Daten-Update**-Aktivität ermöglicht eine gebündelte Aktualisierung von Datenbankfeldern."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_operationtype"
->title="Aktualisieren von Daten"
->abstract="TBC"
+>title="Auswählen, wie Daten aktualisiert werden"
+>abstract="Die **Aktionstyp** Wählen Sie im Feld aus, welcher Vorgang auf die Daten der Datenbank angewendet werden soll. Wählen Sie die erste Option aus, um Daten hinzuzufügen oder zu aktualisieren (falls sie bereits hinzugefügt wurden). Sie können auch nur Daten hinzufügen, nur Daten aktualisieren oder Daten löschen. Wählen Sie die **Kollektionen aktualisieren und zusammenführen** , um einen primären Datensatz auszuwählen, mit dem Duplikate verknüpft werden sollen, und diese Duplikate sicher zu löschen."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_recordid"
->title="Aktualisieren von Daten"
->abstract="TBC"
+>title="Datensatz-Identifizierung"
+>abstract="Spezifizieren Sie, wie die Datensätze der Datenbank identifiziert werden können: Wenn sich die Daten auf eine existierende Zielgruppendimension beziehen, wählen Sie die **Zielgruppendimension verwenden** und wählen Sie die Zielgruppendimension sowie die zu aktualisierenden Felder aus. Geben Sie andernfalls einen oder mehrere benutzerspezifische Links an, um die Daten in der Datenbank zu identifizieren, oder verwenden Sie die Abstimmschlüssel direkt."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_fieldsupdate"
->title="Aktualisieren von Daten"
->abstract="TBC"
+>title="Zu aktualisierende Felder auswählen"
+>abstract="Wählen Sie die zu aktualisierenden Felder und Abstimmungseinstellungen aus. Sie können die **Automatische Zuordnung** zur automatischen Identifizierung der zu aktualisierenden Felder."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_advancedoptions"
->title="Aktualisieren von Daten"
->abstract="TBC"
+>title="Erweiterte Optionen zum Aktualisieren von Daten"
+>abstract="Die **Erweiterte Optionen** können Sie zusätzliche Einstellungen zum Verwalten von Daten und Duplikaten festlegen."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_outboundtransition"
->title="Aktualisieren von Daten"
->abstract="TBC"
+>title="Ausgehende Transition erzeugen"
+>abstract="Umschalten zwischen **Ausgehende Transition erzeugen** Option zum Hinzufügen einer ausgehenden Transition, die am Ende der Ausführung der **Daten aktualisieren** -Aktivität. Die Aktualisierung markiert im Allgemeinen das Ende eines Zielgruppen-Workflows, weshalb die Option nicht standardmäßig aktiviert ist."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_outboundtransition_rejects"
->title="Aktualisieren von Daten"
->abstract="TBC"
+>title="Ausgehende Transition für Zurückweisungen erzeugen"
+>abstract="Umschalten zwischen **Ausgehende Transition für Zurückweisungen erzeugen** -Option, um eine ausgehende Transition mit Datensätzen hinzuzufügen, die nach der Aktualisierung nicht korrekt verarbeitet wurden (z. B. bei Duplikaten). Die Aktualisierung markiert im Allgemeinen das Ende eines Zielgruppen-Workflows, weshalb die Option nicht standardmäßig aktiviert ist."
 
 
 
@@ -387,7 +386,7 @@ Deprecated IDs - to remove in GA: -->
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_externalsignal_parameters"
->title="Externe Signalparameter"
+>title="Parameter von externen Signalen"
 >abstract="TBC"
 
 >[!CONTEXTUALHELP]
@@ -448,5 +447,5 @@ Deprecated IDs - to remove in GA: -->
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_error"
->title="Prozessfehler"
+>title="Verarbeitungsfehler"
 >abstract="TBC"
