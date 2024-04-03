@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: 101ad23b-7ea5-42c7-9249-7c14febe6eb7
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
-workflow-type: ht
-source-wordcount: '947'
-ht-degree: 100%
+source-git-commit: c0b032539397d4f06c0e34981ed9e76bccb9cfd1
+workflow-type: tm+mt
+source-wordcount: '946'
+ht-degree: 98%
 
 ---
 
@@ -42,7 +42,7 @@ Gehen Sie wie folgt vor, um mit dem Ausdruckseditor bedingte Inhalte für einen 
 
    ![](assets/open-perso-editor-sms.png){zoomable=&quot;yes&quot;}
 
-1. Navigieren Sie im Personalisierungseditor zum Menü **[!UICONTROL Hilfsfunktionen]** auf der linken Seite.
+1. Navigieren Sie im Personalisierungs-Editor zum **[!UICONTROL Bedingungen]** auf der linken Seite.
 
 1. Um mit der Erstellung Ihrer Bedingung zu beginnen, klicken Sie auf das Symbol „+“ neben der Funktion **Wenn**. Die folgende Zeile wird zum mittleren Bereich des Bildschirms hinzugefügt:`<% if (<FIELD>==<VALUE>) { %>Insert content here<% } %>`
 
