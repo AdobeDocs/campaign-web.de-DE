@@ -3,9 +3,9 @@ audience: end-user
 title: Erstellen von Zielgruppen
 description: Erfahren Sie, wie Sie Zielgruppen in Adobe Campaign Web erstellen.
 exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
-source-git-commit: a0da65d8facedb3730947eb969e362a367e4d317
+source-git-commit: 44c3cb9905850719e75bd5199b907c78d3cd7467
 workflow-type: tm+mt
-source-wordcount: '898'
+source-wordcount: '938'
 ht-degree: 90%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 90%
 >[!CONTEXTUALHELP]
 >id="acw_audiences_list"
 >title="Zielgruppen"
->abstract="Auf diesem Bildschirm können Sie auf die Liste aller Zielgruppen zugreifen, die in Workflows oder in eigenständigen Sendungen ausgewählt werden können. Klicks **Erstellen** , um mithilfe verschiedener Workflow-Aktivitäten wie **Aufspaltung** oder **Ausschließen**.<br/><br/>Die **[!UICONTROL Origin]** gibt den Ursprung der Zielgruppen an: **[!UICONTROL Adobe Campaign]** Zielgruppen wurden in der Adobe Campaign v8-Konsole oder der Web-Benutzeroberfläche erstellt, während **[!UICONTROL Adobe Experience Platform:]** Zielgruppen wurden in Adobe Experience Platform erstellt und mithilfe der Adobe-Quellen- und Zielintegration in Campaign integriert."
+>abstract="Auf diesem Bildschirm können Sie auf die Liste aller Zielgruppen zugreifen, die in Workflows oder in eigenständigen Sendungen ausgewählt werden können. Klicks **Erstellen** , um eine neue Zielgruppe in einer visuellen Arbeitsfläche zu erstellen.<br/><br/>Sie können nicht nur von Grund auf eine einfache Zielgruppe erstellen, sondern auch Workflow-Aktivitäten nutzen, um Ihre Zielgruppe zu verfeinern. Sie können beispielsweise mehrere Zielgruppen zu einer einzigen zusammenfassen, Ihre Zielgruppe mit externen Attributen anreichern oder eine Zielgruppe basierend auf Regeln Ihrer Wahl in mehrere Zielgruppen unterteilen."
 
 <!--
 [!CONTEXTUALHELP]
@@ -32,6 +32,8 @@ ht-degree: 90%
 Mit Campaign Web können Sie neue Zielgruppen in einer visuellen Workflow-Arbeitsfläche erstellen. Sie können nicht nur von Grund auf eine einfache Zielgruppe erstellen, sondern auch Workflow-Aktivitäten nutzen, um Ihre Zielgruppe zu präzisieren. Sie können beispielsweise mehrere Zielgruppen zu einer einzigen zusammenfassen, Ihre Zielgruppe mit externen Attributen anreichern oder eine Zielgruppe basierend auf Regeln Ihrer Wahl in mehrere Zielgruppen unterteilen.
 
 Nachdem Sie Ihren Workflow erstellt haben, werden die resultierenden Zielgruppen automatisch in der Campaign-Datenbank zusammen mit den bereits vorhandenen Zielgruppen gespeichert. Diese Zielgruppen können dann in Workflows oder in eigenständigen Sendungen ausgewählt werden.
+
+Die **[!UICONTROL Origin]** gibt den Ursprung der Zielgruppen an: **[!UICONTROL Adobe Campaign]** Zielgruppen wurden in der Adobe Campaign v8-Konsole oder der Web-Benutzeroberfläche erstellt, während **[!UICONTROL Adobe Experience Platform:]** Zielgruppen wurden in Adobe Experience Platform erstellt und mithilfe der Adobe-Quellen- und Zielintegration in Campaign integriert.
 
 ➡️ [Entdecken Sie diese Funktion im Video](#video)
 
