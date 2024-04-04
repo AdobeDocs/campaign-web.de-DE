@@ -5,9 +5,9 @@ user-guide-description: Produktdokumentation zur Adobe Campaign Web-Benutzerober
 title: Dokumentation zu Adobe Campaign Web
 description: Dokumentation zu Campaign Web
 breadcrumb-title: Campaign Web-Benutzeroberfläche
-source-git-commit: 6f47779bf0bf39de5481063851a4c2c13731d33f
+source-git-commit: 2573cacff81ab4dfab1c685ac2f532252eedca63
 workflow-type: tm+mt
-source-wordcount: '641'
+source-wordcount: '646'
 ht-degree: 95%
 
 ---
@@ -109,9 +109,10 @@ ht-degree: 95%
       + [Erstellen eines Profils](audience/create-profile.md)
       + [Arbeiten mit Testprofilen](audience/test-profiles.md)
    + Arbeiten mit Zielgruppen {#audiences}
-      + [Erstellen von Zielgruppen](audience/create-audience.md)
-      + [Überwachen und Verwalten von Zielgruppen](audience/manage-audience.md)
+      + [Erste Schritte mit Zielgruppen](audience/manage-audience.md)
+      + [Zielgruppen erstellen](audience/create-audience.md)
    + Auswählen der Empfängerinnen und Empfänger des Versands {#target-audiences}
+      + [Erste Schritte mit der Zielgruppenauswahl](audience/delivery-recipients.md)
       + [Auswählen einer bestehenden Zielgruppe](audience/add-audience.md)
       + [Erstellen einer einmaligen Zielgruppe](audience/one-time-audience.md)
       + [Laden einer E-Mail-Zielgruppe aus einer Datei](audience/file-audience.md)
