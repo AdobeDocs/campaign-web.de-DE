@@ -3,10 +3,10 @@ audience: end-user
 title: Erkunden der Benutzeroberfläche
 description: Adobe Campaign Web-Benutzeroberfläche
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 1eaa2710e682e9038befc5d0752c064e2bb48521
+source-git-commit: 70028ebe3e87498a5ef5778838491d8f964e8e87
 workflow-type: tm+mt
-source-wordcount: '1970'
-ht-degree: 83%
+source-wordcount: '2108'
+ht-degree: 77%
 
 ---
 
@@ -382,12 +382,13 @@ Deprecated IDs - to remove in GA: -->
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_externalsignal"
 >title="Externes Signal"
->abstract="TBC"
+>abstract="Die **Externes Signal** ermöglicht die Ausführung einer Reihe von Triggern in einem Workflow über eine API oder einen anderen Workflow."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_externalsignal_parameters"
 >title="Parameter von externen Signalen"
 >abstract="TBC"
+
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_end_trigger"
@@ -395,27 +396,29 @@ Deprecated IDs - to remove in GA: -->
 >abstract="TBC"
 
 
-<!--Javascript-->
+<!--JavaScript-->
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript"
 >title="JavaScript-Code"
->abstract="TBC"
+>abstract="Die **JavaScript-Code** -Aktivität führt im Kontext eines Workflows einen JavaScript-Code aus."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_snippet"
 >title="JavaScript-Snippet"
->abstract="TBC"
+>abstract="Konfigurieren Sie den auszuführenden Code."
+>additional-url="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/api" text="Weitere Informationen finden Sie in der Dokumentation zu Campaign v8 (Konsole) ."
+
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_execution"
 >title="JavaScript-Ausführung"
->abstract="TBC"
+>abstract="Standardmäßig darf die Ausführungsphase nicht länger als eine Stunde sein. Nach dieser Verzögerung wird der Prozess mit einer Fehlermeldung abgebrochen und die Ausführung der Aktivität schlägt fehl. Umschalten zwischen **Ausführung stoppen nach** -Option, um eine benutzerdefinierte Verzögerung zu definieren. Um diese Beschränkung zu ignorieren, setzen Sie den Wert auf 0."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_transition"
->title="JavaScript-Übergang"
->abstract="TBC"
+>title="Fehler verarbeiten"
+>abstract="Umschalten zwischen **Fehler verarbeiten** Option, um eine ausgehende Transition mit Fehlern hinzuzufügen."
 
 
 <!--ExtractFile-->
@@ -423,29 +426,29 @@ Deprecated IDs - to remove in GA: -->
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile"
 >title="Dateiextraktion"
->abstract="TBC"
+>abstract="Aktivität &quot;Dateiextraktion&quot;"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_file"
 >title="Zu extrahierende Datei"
->abstract="TBC"
+>abstract="Wählen Sie die zu extrahierende Datei aus."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_destinationformat"
 >title="Zielformat"
->abstract="TBC"
+>abstract="Wählen Sie das Format aus."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_postprocessing"
 >title="Nachbearbeitung"
->abstract="TBC"
+>abstract="Definieren eines Anschlussvorgang"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_outbound"
 >title="Ausgehende Transition"
->abstract="TBC"
+>abstract="Umschalten zwischen **Ausgehende Transition erzeugen** -Option, um eine ausgehende Transition nach der aktuellen Aktivität hinzuzufügen."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_error"
->title="Verarbeitungsfehler"
->abstract="TBC"
+>title="Fehler verarbeiten"
+>abstract="Umschalten zwischen **Fehler verarbeiten** Option, um eine ausgehende Transition mit Fehlern hinzuzufügen."
