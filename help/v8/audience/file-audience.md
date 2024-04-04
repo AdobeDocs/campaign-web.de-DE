@@ -3,10 +3,10 @@ audience: end-user
 title: Laden einer E-Mail-Zielgruppe aus einer Datei
 description: Erfahren Sie, wie Sie Profile aus einer externen Datei laden, um eine E-Mail-Zielgruppe zu erstellen.
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
+source-git-commit: b166d06215e06d6426ab9ce9a757fcc041810df9
 workflow-type: tm+mt
-source-wordcount: '622'
-ht-degree: 100%
+source-wordcount: '657'
+ht-degree: 64%
 
 ---
 
@@ -32,32 +32,39 @@ ht-degree: 100%
 >title="Anzeige der Datei in der Vorschau"
 >abstract="Überprüfen Sie die Spaltenvorschau der externen Datei. Dieser Bildschirm zeigt nur maximal 30 Einträge an."
 
-Zielprofile können auch in einer externen Datei gespeichert werden. Profile werden nicht zur Datenbank hinzugefügt, aber alle Felder in der Eingabedatei können [personalisiert](../personalization/gs-personalization.md) werden. Unterstützte Dateiformate sind: Text (TXT) und kommagetrennte Werte (CSV). In diesem Artikel wird beschrieben, wie Sie beim Erstellen eines eigenständigen E-Mail-Versands ein externes Profil laden. Informationen zum Laden von Daten aus einer Datei in einen Workflow finden Sie auf [dieser Seite](../workflows/activities/load-file.md).
+Über die Adobe Campaign-Webbenutzeroberfläche können Sie in einer externen Datei gespeicherte Profile auswählen. Nach dem Laden der Profile stehen alle Felder der Eingabedatei zur Verwendung zur Verfügung, um Ihren Versand zu personalisieren. [Erfahren Sie, wie Sie Ihren Inhalt personalisieren.](../personalization/personalize.md).
 
->[!CAUTION]
->
->* Diese Funktion ist nur für den **E-Mail-Versand** verfügbar. Sie kann nicht bei SMS- oder Push-Sendungen verwendet werden.
->
->* Sie können keine [Kontrollgruppen](control-group.md) verwenden, wenn Sie die Zielgruppenpopulation aus einer externen Datei laden.
->
->* Profile werden nicht zur Datenbank hinzugefügt, sondern werden geladen und sind nur für diesen speziellen E-Mail-Versand verfügbar.
+Profile aus der Eingabedatei werden nicht zur Datenbank hinzugefügt. Sie werden nur für diesen eigenständigen E-Mail-Versand geladen und verfügbar gemacht.
 
-## Auswählen und Konfigurieren der Datei {#upload}
+>[!NOTE]
+>
+>Auf dieser Seite wird beschrieben, wie Sie beim Erstellen eines eigenständigen E-Mail-Versands externe Profile aus einer Datei laden. Informationen zum Laden von Daten aus einer Datei im Rahmen eines Workflows finden Sie unter [diese Seite](../workflows/activities/load-file.md).
 
-Gehen Sie wie folgt vor, um Profile aus einer lokalen Datei direkt über die E-Mail-Benutzeroberfläche anzuvisieren:
+## Wichtige Informationen {#must-read}
+
+* Diese Funktion steht für **E-Mail-Sendungen** nur.
+* Unterstützte Dateiformate sind: Text (TXT) und kommagetrennte Werte (CSV).
+* Sie können keine [Kontrollgruppen](control-group.md) verwenden, wenn Sie die Zielgruppenpopulation aus einer externen Datei laden.
+
+## Eingabedatei auswählen und konfigurieren {#upload}
+
+Gehen Sie wie folgt vor, um Profile aus einer Datei in Ihren E-Mails auszuwählen:
 
 1. Öffnen Sie einen vorhandenen E-Mail-Versand oder [erstellen Sie einen neuen](../email/create-email.md).
-1. Klicken Sie im Fenster zur Erstellung des E-Mail-Versands im Abschnitt **Zielgruppe** auf die Schaltfläche **Zielgruppe auswählen** und wählen Sie die Option **Aus Datei auswählen** aus.
+1. Im **Zielgruppe** klicken Sie auf die **Zielgruppe auswählen** Schaltfläche auswählen **Aus Datei auswählen**.
 
    ![](assets/select-from-file.png){zoomable=&quot;yes&quot;}
 
-1. Wählen Sie die zu verwendende lokale Datei aus. Das Format muss der [Beispieldatei](#sample-file) entsprechen.
+1. Wählen Sie die zu ladende lokale Datei aus. Das Dateiformat muss mit der [Beispieldatei](#sample-file).
 1. Im mittleren Abschnitt des Bildschirms können Sie eine Vorschau der Datenzuordnung anzeigen, um sie zu überprüfen.
-1. Wählen Sie in der Dropdown-Liste **Adressfeld** die Spalte aus, die die E-Mail-Adresse enthält. Sie können auch die Spalte „Blockierungsliste“ auswählen, wenn diese Informationen in der Eingabedatei enthalten sind.
-1. Passen Sie die Spalteneinstellungen an und wählen Sie aus den verfügbaren Optionen aus, wie Daten formatiert werden.
+
+   ![](assets/select-from-file-map.png)
+
+1. Geben Sie die Spalte an, die die E-Mail-Adresse aus dem **Adressfeld** Dropdown-Liste. Sie können auch die Spalte „Blockierungsliste“ auswählen, wenn diese Informationen in der Eingabedatei enthalten sind.
+1. Passen Sie die Spalteneinstellungen an und wie die Daten aus den verfügbaren Optionen formatiert werden.
 1. Klicken Sie auf **Bestätigen**, wenn die Einstellungen korrekt sind.
 
-Bei der Erstellung und Personalisierung des Nachrichteninhalts können Sie im [Personalisierungseditor](../personalization/gs-personalization.md) Felder aus der Eingabedatei auswählen.
+Bei der Erstellung des Nachrichteninhalts können Sie mithilfe von Feldern aus der Eingabedatei eine Personalisierung hinzufügen. [Erfahren Sie, wie Sie Inhalte personalisieren](../personalization/personalize.md)
 
 ![](assets/select-external-perso.png){zoomable=&quot;yes&quot;}
 
@@ -68,19 +75,21 @@ Bei der Erstellung und Personalisierung des Nachrichteninhalts können Sie im [P
 >title="Laden einer Zielgruppe aus einer Datei"
 >abstract="Unterstützte Dateiformate sind TXT und CSV. Erste Zeile für Spaltentitel verwenden. Dateiformat an die Beispieldatei anpassen, die im folgenden Link bereitgestellt wird."
 
-Unterstützte Formate sind TXT und CSV. Die erste Zeile ist die Spaltenüberschrift.
+Stellen Sie beim Laden einer externen Datei zu Zielgruppenprofilen in Ihren Sendungen sicher, dass die Eingabedatei den unten stehenden Empfehlungen entspricht:
 
-Passen Sie Ihr Dateiformat an die unten stehende Beispieldatei an:
+* Unterstützte Formate sind TXT und CSV.
+* Die erste Zeile in der Datei ist Ihre Spaltenüberschrift.
+* Passen Sie Ihr Dateiformat an die unten stehende Beispieldatei an:
 
-```javascript
-{
-lastname,firstname,city,birthdate,email,denylist
-Smith,Hayden,Paris,23/05/1985,hayden.smith@example.com,0
-Mars,Daniel,London,17/11/1999,danny.mars@example.com,0
-Smith,Clara,Roma,08/02/1979,clara.smith@example.com,0
-Durance,Allison,San Francisco,15/12/2000,allison.durance@example.com,1
-}
-```
+  ```javascript
+  {
+  lastname,firstname,city,birthdate,email,denylist
+  Smith,Hayden,Paris,23/05/1985,hayden.smith@example.com,0
+  Mars,Daniel,London,17/11/1999,danny.mars@example.com,0
+  Smith,Clara,Roma,08/02/1979,clara.smith@example.com,0
+  Durance,Allison,San Francisco,15/12/2000,allison.durance@example.com,1
+  }
+  ```
 
 ## Erstellen einer E-Mail-Vorschau und Testen einer E-Mail {#test}
 
