@@ -9,7 +9,7 @@ hidefromtoc: true
 source-git-commit: af67094638cfc3c5c64385203340918f0f8f2482
 workflow-type: tm+mt
 source-wordcount: '551'
-ht-degree: 63%
+ht-degree: 70%
 
 ---
 
@@ -29,12 +29,12 @@ ht-degree: 63%
 >[!CONTEXTUALHELP]
 >id="acw_generation_settings"
 >title="KI-Assistent"
->abstract="Nachdem Sie Ihren Versand erstellt und personalisiert haben, können Sie den KI-Assistenten verwenden, um Ihren Inhalt zu verbessern. Diese Funktion vereinfacht den Prozess der Personalisierung und Inhaltsverbesserung, indem Sie den Inhalt durch eine Beschreibung dessen, was Sie generieren möchten, anpassen können."
+>abstract="Nachdem Sie Ihren Versand erstellt und personalisiert haben, können Sie den KI-Assistenten verwenden, um Ihre Inhalte zu verbessern. Diese Funktion vereinfacht den Prozess der Personalisierung und Inhaltsverbesserung, indem Sie den Inhalt durch eine Beschreibung dessen, was Sie generieren möchten, anpassen können."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_generation_context"
->title="Definieren des Kontexts mit dem KI-Assistenten in Campaign"
+>title="Definieren von Kontext mit dem KI-Assistenten in Campaign"
 >abstract="Um den ausgewählten Inhalt als Eingabe für die Inhaltserstellung zu verwenden, aktivieren Sie den Umschalter **Mit aktuellem Inhalt verbessern** umschalten. Sie können auch Ihre Marken-Assets hochladen, um sie als Quelle zu verwenden. Wenn Sie den ausgewählten Inhalt nicht verwenden, ist das Hochladen und Auswählen von Marken-Assets obligatorisch."
 
 
