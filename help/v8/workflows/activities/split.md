@@ -3,10 +3,10 @@ audience: end-user
 title: Verwenden der Workflow-Aktivität „Aufspaltung“
 description: Weitere Informationen zur Verwendung der Workflow-Aktivität „Aufspaltung“
 exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
-workflow-type: ht
-source-wordcount: '839'
-ht-degree: 100%
+source-git-commit: 6d43966bd8283b62bf457b1a63ce968950b54c26
+workflow-type: tm+mt
+source-wordcount: '845'
+ht-degree: 99%
 
 ---
 
@@ -51,6 +51,11 @@ Die Aktivität **Aufspaltung** ist eine Aktivität zur **Zielgruppenbestimmung**
 >id="acw_orchestration_split_generatesubsets"
 >title="Alle Teilmengen in derselben Tabelle erzeugen"
 >abstract="Aktivieren Sie diese Option, um alle Teilmengen in einer ausgehenden Transition zu gruppieren."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_split_emptytransition"
+>title="Leeren Übergang überspringen"
+>abstract="Leere Transition überspringen."
 
 Folgen Sie diesen Schritten, um die Aktivität **Aufspaltung** zu konfigurieren:
 
