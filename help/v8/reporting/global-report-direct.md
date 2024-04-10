@@ -2,9 +2,10 @@
 audience: end-user
 title: Globale Berichte für den Briefpost-Kanal
 description: Erfahren Sie mehr über globale Berichte für den Briefpost-Kanal
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
-workflow-type: ht
-source-wordcount: '627'
+exl-id: a42536fe-375b-4169-8775-d47ed26692f8
+source-git-commit: 98a0ce67682f8e1ab412be91b5af01e35c638f99
+workflow-type: tm+mt
+source-wordcount: '626'
 ht-degree: 100%
 
 ---
@@ -22,7 +23,7 @@ Navigieren Sie zum Menü **[!UICONTROL Berichte]** im Abschnitt **[!UICONTROL Be
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_delivery_overview_direct_mail"
 >title="Versandübersicht"
->abstract="Die **Versandübersicht** bietet wichtige Leistungsmetriken (KPIs) mit umfassenden Erkenntnissen über die Interaktion Ihrer Besucherinnen und Besucher mit jedem Briefpostversand. Die Metriken sind unten dargestellt."
+>abstract="Die **Versandübersicht** präsentiert wichtige Leistungsmetriken (KPI) mit umfassenden Erkenntnissen zur Interaktion Ihrer Besucherinnen und Besucher mit jedem Briefpostversand. Die Metriken sind unten dargestellt."
 
 Die **[!UICONTROL Versandübersicht]** bietet wichtige Leistungsmetriken (KPIs) mit umfassenden Erkenntnissen über die Interaktion Ihrer Besucherinnen und Besucher mit jedem Briefpostversand. Die Metriken sind unten dargestellt.
 
@@ -100,7 +101,7 @@ Der Graph **[!UICONTROL Versandstatistiken]** bietet eine Aufschlüsselung des E
 
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_causes_exclusion_direct_mail_graph"
->title="Versand – Ausschlussgründe"
+>title="Ausschlussgründe"
 >abstract="Der Graph **Ausschlussgründe** zeigt die Verteilung der zurückgewiesenen Nachrichten während der Versandvorbereitung, kategorisiert nach jeder Regel."
 
 ![](assets/global_report_direct_mail_exclusions.png){zoomable=&quot;yes&quot;}{align="center"}
@@ -111,7 +112,7 @@ Der Graph und die Tabelle „Ausschlüsse“ zeigen die Gründe, aus denen Benut
 
 * **[!UICONTROL Adresse in Quarantäne]**: Fehlertyp, der erzeugt wird, wenn eine Adresse unter Quarantäne gestellt wird.
 
-* **[!UICONTROL Adresse nicht angegeben]**: Fehlertyp, der beim Durchführen eines Versands erzeugt wird, um anzuzeigen, dass die Adresse nicht existiert.
+* **[!UICONTROL Adresse nicht angegeben]**: Fehlertyp, der beim Durchführen eines Versands erzeugt wird, wenn eine Adresse nicht existiert.
 
 * **[!UICONTROL Adresse schlechter Qualität]**: Fehlertyp, der erzeugt wird, wenn der Qualitätsindex der Postanschrift zu niedrig ist.
 
@@ -119,9 +120,8 @@ Der Graph und die Tabelle „Ausschlüsse“ zeigen die Gründe, aus denen Benut
 
 * **[!UICONTROL Doppelt]**: Fehlertyp, der erzeugt wird, wenn die Empfängerin oder der Empfänger aufgrund nicht eindeutiger Schlüsselwerte ausgeschlossen wurde.
 
-* **[!UICONTROL Kontrollgruppe]**: Die Adresse der Empfängerin oder des Empfängers ist Teil der Kontrollgruppe.
+* **[!UICONTROL Kontrollgruppenadresse]**: Die Adresse der Empfängerin oder des Empfängers ist Teil der Kontrollgruppe.
 
 * **[!UICONTROL Größe der Zielgruppe begrenzt]**: Die maximale Versandgröße wurde für die Empfängerin oder den Empfänger erreicht.
 
 +++
-
