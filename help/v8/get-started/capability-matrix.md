@@ -4,9 +4,9 @@ title: Funktionsmatrix für die Benutzeroberfläche/Client-Konsole von Campaign 
 description: Liste der in der Campaign Web-Benutzeroberfläche unterstützten Funktionen
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
 source-git-commit: 70028ebe3e87498a5ef5778838491d8f964e8e87
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2141'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -107,7 +107,7 @@ Verwenden Sie die bereitgestellten Links, um die Dokumentation zu Campaign v8 (C
 * Erstellung von Filterregeln. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/filtering-rules.html?lang=de){target="_blank"}
 * Verwaltung von Typologieregeln. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/apply-rules.html?lang=de){target="_blank"}
 * Kampagnensimulation. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-simulations.html?lang=de){target="_blank"}
-* JavaScript-Codierung für die Erstellung von Typologieregeln. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=de#use-cases-on-pressure-rules){target="_blank"}
+* JavaScript-Kodierung für die Erstellung von Typologieregeln. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=de#use-cases-on-pressure-rules){target="_blank"}
 
 ## Workflows {#wf-capabilities}
 

@@ -7,13 +7,13 @@ exl-id: 896d7e9b-0fa2-435b-b191-fa5db36e7ea0
 hide: true
 hidefromtoc: true
 source-git-commit: af67094638cfc3c5c64385203340918f0f8f2482
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '391'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# Generieren von E-Mail-Bildern mit dem Inhaltsassistenten {#generative-image}
+# Generierung von E-Mail-Bildern mit dem Inhaltsassistenten {#generative-image}
 
 Nachdem Sie Ihre E-Mails erstellt und personalisiert haben, können Sie Ihre Inhalte mit dem Inhaltsassistenten verbessern, der auf generativer KI basiert. Diese Funktion vereinfacht den Prozess der Personalisierung und Inhaltsverbesserung.
 
@@ -21,7 +21,7 @@ Gehen Sie wie folgt vor, um mit dem Inhaltsassistenten Bilder in E-Mails zu erst
 
 >[!NOTE]
 >
->Bevor Sie mit der Verwendung dieser Funktion beginnen, lesen Sie die entsprechenden Informationen unter [Schutzmechanismen und Begrenzungen](generative-gs.md#guardrails-and-limitations).
+>Bevor Sie mit der Verwendung dieser Funktion beginnen, lesen Sie die entsprechenden Informationen zu [Schutzmechanismen und Begrenzungen](generative-gs.md#guardrails-and-limitations).
 
 Im folgenden Beispiel erfahren Sie, wie Sie den Inhaltsassistenten nutzen können, um Ihren Inhalt zu optimieren und zu verbessern und so ein benutzerfreundlicheres Erlebnis zu gewährleisten. Führen Sie folgende Schritte aus:
 
@@ -29,7 +29,7 @@ Im folgenden Beispiel erfahren Sie, wie Sie den Inhaltsassistenten nutzen könne
 
    Weitere Informationen zur Konfiguration Ihres E-Mail-Versands finden Sie auf [dieser Seite](../email/create-email-content.md).
 
-1. Geben Sie die **[!UICONTROL grundlegenden Details]** für Ihren Versand ein. Klicken Sie abschließend auf **[!UICONTROL E-Mail-Inhalt bearbeiten]**.
+1. Geben Sie die **[!UICONTROL grundlegenden Details]** zu Ihrem Versand an. Klicken Sie abschließend auf **[!UICONTROL E-Mail-Inhalt bearbeiten]**.
 
 1. Wählen Sie mit dem Inhaltsassistenten das Asset aus, das Sie ändern möchten.
 

@@ -7,9 +7,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 45cdd310-7c0c-4b57-bb7f-0576d8eca19d
 source-git-commit: 70028ebe3e87498a5ef5778838491d8f964e8e87
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '431'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ Integrierte Inhaltsbausteine sind:
 
 * **[!UICONTROL Standard-Opt-out-Banner]**
 * **[!UICONTROL Ermöglicht durch Adobe Campaign]**: Hiermit wird das Logo „Ermöglicht durch Adobe Campaign“ eingefügt.
-* **[!UICONTROL Formatierungsfunktion für Eigennamen]**: Erzeugt den **[!UICONTROL toSmartCase]** JavaScript-Funktion, die den ersten Buchstaben jedes Worts in einen Großbuchstaben ändert.
+* **[!UICONTROL Formatierungsfunktion für Eigennamen]**: Hiermit wird die JavaScript-Funktion **[!UICONTROL toSmartCase]** erstellt, mit der der erste Buchstabe eines jeden Worts in einen Großbuchstaben umgewandelt wird. 
 * **[!UICONTROL Grußformeln]**: fügt Grußformeln mit dem vollständigen Namen der Empfängerin bzw. des Empfängers ein, gefolgt von einem Komma. Beispiel: „Sehr geehrter Herr Mustermann,“.
 * **[!UICONTROL Logo einfügen]**: Fügt ein Logo ein, das in den Instanzeinstellungen definiert ist.
 * **[!UICONTROL Mirrorseiten-Link]**: Hiermit wird ein Link zur [Mirrorseite](../email/mirror-page.md) eingefügt. Das Standardformat lautet: „Wenn diese Nachricht nicht richtig angezeigt wird, bitte hier klicken“.

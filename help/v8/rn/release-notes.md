@@ -3,9 +3,9 @@ title: Neueste Versionshinweise
 description: Entdecken Sie neue Funktionen in der Campaign Web-Benutzeroberfläche.
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '342'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Die Versionen der Adobe Campaign Web-Benutzeroberfläche basieren auf einem kont
 >
 >Diese Version steht allen Benutzenden ab [Campaign-Version (Konsole) v8.6](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=de) zur Verfügung. Weitere Informationen zu Versionen und Upgrades der Adobe Campaign-Client-Konsole finden Sie in der [Dokumentation zu Campaign v8 (Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/upgrades.html?lang=de){target="_blank"}.
 
-## März - Versionshinweise {#24-3-release}
+## Versionshinweise für März {#24-3-release}
 
 **Veröffentlichungsdatum**: 19.–20. März 2024
 

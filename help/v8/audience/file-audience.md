@@ -4,9 +4,9 @@ title: Laden einer E-Mail-Zielgruppe aus einer Datei
 description: Erfahren Sie, wie Sie Profile aus einer externen Datei laden, um eine E-Mail-Zielgruppe zu erstellen.
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
 source-git-commit: a0da65d8facedb3730947eb969e362a367e4d317
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '657'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
@@ -32,39 +32,39 @@ ht-degree: 64%
 >title="Anzeige der Datei in der Vorschau"
 >abstract="Überprüfen Sie die Spaltenvorschau der externen Datei. Dieser Bildschirm zeigt nur maximal 30 Einträge an."
 
-Mit der Web-Benutzeroberfläche von Adobe Campaign können Sie Profile auswählen, die in einer externen Datei gespeichert sind. Sobald die Profile geladen wurden, können alle Felder aus der Eingabedatei zur Personalisierung Ihres Versands verwendet werden [Erfahren Sie, wie Sie Ihre Inhalte personalisieren können](../personalization/personalize.md).
+Über die Web-Benutzeroberfläche von Adobe Campaign können Sie in einer externen Datei gespeicherte Zielprofile verwenden. Sobald die Profile geladen sind, stehen alle Felder der Eingabedatei zur Verfügung, um Ihren Versand zu personalisieren [Erfahren Sie, wie Sie Ihre Inhalte personalisieren können](../personalization/personalize.md).
 
-Profile aus der Eingabedatei werden nicht zur Datenbank hinzugefügt. Sie sind nur für diesen eigenständigen E-Mail-Versand geladen und verfügbar.
+Die Profile aus der Eingabedatei werden nicht in die Datenbank aufgenommen. Sie werden geladen und sind nur für diesen speziellen, eigenständigen E-Mail-Versand verfügbar.
 
 >[!NOTE]
 >
->Auf dieser Seite wird beschrieben, wie Sie beim Erstellen eines eigenständigen E-Mail-Versands externe Profile aus einer Datei laden. Informationen zum Laden von Daten aus einer Datei im Kontext eines Workflows finden Sie unter [Diese Seite](../workflows/activities/load-file.md).
+>Auf dieser Seite wird beschrieben, wie Sie beim Erstellen eines eigenständigen E-Mail-Versands ein externes Profil laden. Informationen zum Laden von Daten aus einer Datei im Kontext eines Workflows finden Sie auf [dieser Seite](../workflows/activities/load-file.md).
 
 ## Wichtige Informationen {#must-read}
 
-* Diese Funktion ist verfügbar für **E-Mail-Sendungen** Nur.
+* Diese Funktion ist nur für **E-Mail-Sendungen** verfügbar. 
 * Unterstützte Dateiformate sind: Text (TXT) und kommagetrennte Werte (CSV).
 * Sie können keine [Kontrollgruppen](control-group.md) verwenden, wenn Sie die Zielgruppenpopulation aus einer externen Datei laden.
 
-## Eingabedatei auswählen und konfigurieren {#upload}
+## Auswählen und Konfigurieren der Eingabedatei {#upload}
 
-Gehen Sie wie folgt vor, um Profile aus einer Datei in Ihren E-Mails auszuwählen:
+Gehen Sie folgendermaßen vor, um Profile aus einer Datei in Ihre E-Mails aufzunehmen:
 
-1. Öffnen Sie einen vorhandenen E-Mail-Versand oder [erstellen Sie einen neuen](../email/create-email.md).
-1. In der **Zielgruppe** klicken Sie auf das Symbol **Zielgruppe auswählen** Schaltfläche und anschließend Auswählen **Aus Datei auswählen**.
+1. Öffnen Sie einen vorhandenen E-Mail-Versand oder [erstellen Sie einen neuen E-Mail-Versand](../email/create-email.md).
+1. Klicken Sie im Abschnitt **Zielgruppe** auf die Schaltfläche **Zielgruppe auswählen** und wählen Sie dann **Aus Datei auswählen**.
 
    ![](assets/select-from-file.png){zoomable=&quot;yes&quot;}
 
-1. Wählen Sie die zu ladende lokale Datei aus. Das Dateiformat muss dem [Musterdatei](#sample-file).
+1. Wählen Sie die zu ladende lokale Datei aus. Das Dateiformat muss dem der [Beispieldatei](#sample-file) entsprechen.
 1. Im mittleren Abschnitt des Bildschirms können Sie eine Vorschau der Datenzuordnung anzeigen, um sie zu überprüfen.
 
    ![](assets/select-from-file-map.png)
 
-1. Geben Sie die Spalte an, die die E-Mail-Adresse aus der **Adressfeld** Dropdown-Liste. Sie können auch die Spalte „Blockierungsliste“ auswählen, wenn diese Informationen in der Eingabedatei enthalten sind.
-1. Passen Sie die Spalteneinstellungen an und wählen Sie aus den verfügbaren Optionen aus, wie die Daten formatiert werden.
+1. Legen Sie in der Dropdown-Liste **Adressfeld** die Spalte fest, die die E-Mail-Adresse enthält. Sie können auch die Spalte „Blockierungsliste“ auswählen, wenn diese Informationen in der Eingabedatei enthalten sind.
+1. Passen Sie die Spalteneinstellungen an und wählen Sie aus den verfügbaren Optionen aus, wie die Daten formatiert werden sollen.
 1. Klicken Sie auf **Bestätigen**, wenn die Einstellungen korrekt sind.
 
-Beim Erstellen des Nachrichteninhalts können Sie eine Personalisierung hinzufügen, indem Sie Felder aus der Eingabedatei verwenden. [Erfahren Sie, wie Sie Inhalte personalisieren](../personalization/personalize.md)
+Bei der Erstellung des Nachrichteninhalts können Sie eine Personalisierung vornehmen, indem Sie Felder aus der Eingabedatei nutzen. [Erfahren Sie, wie Sie Inhalte personalisieren](../personalization/personalize.md)
 
 ![](assets/select-external-perso.png){zoomable=&quot;yes&quot;}
 
@@ -75,10 +75,10 @@ Beim Erstellen des Nachrichteninhalts können Sie eine Personalisierung hinzufü
 >title="Laden einer Zielgruppe aus einer Datei"
 >abstract="Unterstützte Dateiformate sind TXT und CSV. Erste Zeile für Spaltentitel verwenden. Dateiformat an die Beispieldatei anpassen, die im folgenden Link bereitgestellt wird."
 
-Stellen Sie beim Laden einer externen Datei in Zielprofile in Ihren Sendungen sicher, dass die Eingabedatei den folgenden Empfehlungen entspricht:
+Wenn Sie eine externe Datei in die Zielprofile Ihrer Sendungen laden, stellen Sie sicher, dass die Eingabedatei den nachstehenden Empfehlungen entspricht:
 
 * Unterstützte Formate sind TXT und CSV.
-* Die erste Zeile in der Datei ist die Spaltenüberschrift.
+* Die erste Zeile in der Datei enthält die Spaltenüberschriften.
 * Passen Sie Ihr Dateiformat an die unten stehende Beispieldatei an:
 
   ```javascript

@@ -6,9 +6,9 @@ title: Dokumentation zu Adobe Campaign Web
 description: Dokumentation zu Campaign Web
 breadcrumb-title: Campaign Web-Benutzeroberfläche
 source-git-commit: 2573cacff81ab4dfab1c685ac2f532252eedca63
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '646'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -76,11 +76,11 @@ ht-degree: 95%
       + [Erstellen eines Briefpostversands](direct-mail/create-direct-mail.md)
       + [Gestalten der Extraktionsdatei](direct-mail/content-direct-mail.md)
       + [Vorschau und Durchführen eines Briefpostversands](direct-mail/send-direct-mail.md)
-   + KI-Assistent {#ai-assistant}
+   + KI-Assistent {#ai-assistant}
       + [Erste Schritte mit dem KI-Assistenten](email/generative-gs.md)
-      + [E-Mail-Generierung mit dem KI-Assistenten](email/generative-content.md)
-      + [SMS-Generierung mit dem KI-Assistenten](email/generative-sms.md)
-      + [Generieren von Push-Benachrichtigungen mit dem KI-Assistenten](email/generative-push.md)
+      + [Generierung von E-Mails mit dem KI-Assistenten](email/generative-content.md)
+      + [Generierung von SMS mit dem KI-Assistenten](email/generative-sms.md)
+      + [Generierung von Push-Benachrichtigungen mit dem KI-Assistenten](email/generative-push.md)
    + Inhalte dynamisch gestalten {#dynamic-content}
       + [Erste Schritte mit dynamischen Inhalten](personalization/gs-personalization.md)
       + [Hinzufügen von Personalisierung](personalization/personalize.md)

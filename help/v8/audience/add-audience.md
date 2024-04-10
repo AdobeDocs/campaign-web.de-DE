@@ -4,9 +4,9 @@ title: Auswählen einer bestehenden Zielgruppe
 description: Erfahren Sie, wie Sie eine Zielgruppe auswählen
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
 source-git-commit: a0da65d8facedb3730947eb969e362a367e4d317
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '333'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Auf Zielgruppen, die in Sendungen ausgewählt werden können, kann über das Men
 
 Gehen Sie wie folgt vor, um eine vorhandene Zielgruppe für Ihre Nachricht auszuwählen:
 
-1. Aus dem **Zielgruppe** im Abschnitt des Assistenten zur Versanderstellung auf die Schaltfläche **[!UICONTROL Zielgruppe auswählen]** Schaltfläche und anschließend Auswählen **[!UICONTROL Zielgruppe auswählen]**.
+1. Klicken Sie im Abschnitt **Zielgruppe** des Assistenten zur Versanderstellung auf die Schaltfläche **[!UICONTROL Zielgruppe auswählen]** und wählen Sie dann **[!UICONTROL Zielgruppe auswählen]**.
 
    ![](assets/create-audience.png){zoomable=&quot;yes&quot;}
 

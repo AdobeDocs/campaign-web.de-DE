@@ -4,9 +4,9 @@ title: Verwenden der Workflow-Aktivität „Datei laden“
 description: So verwenden Sie die Workflow-Aktivität „Datei laden“
 exl-id: 230177e2-1926-451a-8a66-0db962ada514
 source-git-commit: 1eaa2710e682e9038befc5d0752c064e2bb48521
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '394'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -70,7 +70,7 @@ ht-degree: 95%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_delete"
 >title="Löschen von Dateien nach dem Importieren"
->abstract="Umschalten zwischen **Datei nach Import löschen** , um die Originaldatei vom Server zu löschen, nachdem die Datei importiert wurde."
+>abstract="Schalten Sie die Option **Datei nach dem Import löschen** ein, um die Originaldatei nach dem Import vom Server zu löschen."
 
 Die Aktivität **Datei laden** ist eine **Daten-Management**-Aktivität. Mit dieser Aktivität können Sie mit Profilen und Daten arbeiten, die in einer externen Datei gespeichert sind. Profile und Daten werden nicht zur Datenbank hinzugefügt, aber alle Felder in der Eingabedatei sind verfügbar zur [Personalisierung](../../personalization/gs-personalization.md) oder um Profile oder andere Tabellen zu aktualisieren.
 
