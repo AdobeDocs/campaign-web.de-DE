@@ -3,10 +3,10 @@ audience: end-user
 title: Erkunden der Benutzeroberfläche
 description: Adobe Campaign Web-Benutzeroberfläche
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 6d43966bd8283b62bf457b1a63ce968950b54c26
+source-git-commit: 35d7872ceb79a43cf24d8c9cc01dbfaed62c22f3
 workflow-type: tm+mt
-source-wordcount: '2129'
-ht-degree: 77%
+source-wordcount: '2209'
+ht-degree: 76%
 
 ---
 
@@ -313,29 +313,29 @@ Deprecated IDs - to remove in GA: -->
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_readonlymode"
 >title="Diese Vorlage ist schreibgeschützt"
->abstract="Sie sind nicht berechtigt, diese Vorlage zu bearbeiten. Bei Bedarf Admin kontaktieren, um Zugriff zu erhalten."
+>abstract="Keine Berechtigung, diese Vorlage zu bearbeiten. Bei Bedarf Admin kontaktieren, um Zugriff zu erhalten."
 
 <!-- Subscription activity-->
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_defaultlp"
 >title="Standard-Landingpage"
->abstract="Wählen Sie die mit diesem Abonnement-Dienst verknüpfte Standard-Landingpage aus."
+>abstract="Wählen Sie die diesem Abonnement-Service zugeordnete Standard-Landingpage aus."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription"
->title="An-/Abmeldedienst"
+>title="Abonnement-Aktivität"
 >abstract="Adobe Campaign verwenden, um Dienste wie z. B. Newsletter zu erstellen und zu überwachen und die An- und Abmeldungen für diese Dienste zu überprüfen. Abonnements gelten nur für den E-Mail- und SMS-Versand."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription_general"
->title="Parameter des Anmeldedienstes"
->abstract="Wählen Sie die Einstellungen für den Abonnementdienst aus und bestätigen Sie sie."
+>title="Abonnementdienstparameter"
+>abstract="Wählen Sie die Einstellungen für den Abonnement-Service aus und bestätigen Sie sie."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription_outboundtransition"
 >title="Ausgehende Transition von Abonnementdiensten"
->abstract="Umschalten zwischen **Ausgehende Transition erzeugen** -Option, um eine Transition nach der Aktivität hinzuzufügen."
+>abstract="Umschalten zwischen **Ausgehende Transition erzeugen** Option zum Hinzufügen einer Transition nach der Aktivität."
 
 
 <!--Update file-->
@@ -347,33 +347,33 @@ Deprecated IDs - to remove in GA: -->
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_operationtype"
->title="Auswählen, wie Daten aktualisiert werden"
->abstract="Die **Aktionstyp** Wählen Sie im Feld aus, welcher Vorgang auf die Daten der Datenbank angewendet werden soll. Wählen Sie die erste Option aus, um Daten hinzuzufügen oder zu aktualisieren (falls sie bereits hinzugefügt wurden). Sie können auch nur Daten hinzufügen, nur Daten aktualisieren oder Daten löschen. Wählen Sie die **Kollektionen aktualisieren und zusammenführen** , um einen primären Datensatz auszuwählen, mit dem Duplikate verknüpft werden sollen, und diese Duplikate sicher zu löschen."
+>title="Aktualisieren von Daten auswählen"
+>abstract="Die **Operationstyp** In diesem Feld können Sie den Prozess auswählen, der mit den Daten in der Datenbank durchgeführt werden soll. Wählen Sie die erste Option aus, um Daten hinzuzufügen oder zu aktualisieren (falls bereits hinzugefügt). Sie können auch nur Daten hinzufügen, nur Daten aktualisieren oder Daten löschen. Wählen Sie die **Aktualisieren und Zusammenführen von Sammlungen** , um einen Primärdatensatz auszuwählen, mit dem Duplikate verknüpft werden sollen, und diese Duplikate sicher zu löschen."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_recordid"
 >title="Datensatz-Identifizierung"
->abstract="Spezifizieren Sie, wie die Datensätze der Datenbank identifiziert werden können: Wenn sich die Daten auf eine existierende Zielgruppendimension beziehen, wählen Sie die **Zielgruppendimension verwenden** und wählen Sie die Zielgruppendimension sowie die zu aktualisierenden Felder aus. Geben Sie andernfalls einen oder mehrere benutzerspezifische Links an, um die Daten in der Datenbank zu identifizieren, oder verwenden Sie die Abstimmschlüssel direkt."
+>abstract="Art der Identifizierung der Datensätze in der Datenbank: Wenn sich die Daten auf eine vorhandene Zielgruppendimension beziehen, wählen Sie die **Verwenden der Zielgruppendimension** und wählen Sie die Zielgruppendimension und die zu aktualisierenden Felder aus. Geben Sie andernfalls einen oder mehrere benutzerdefinierte Links an, um die Daten in der Datenbank zu identifizieren, oder verwenden Sie direkte Abstimmschlüssel."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_fieldsupdate"
 >title="Zu aktualisierende Felder auswählen"
->abstract="Wählen Sie die zu aktualisierenden Felder und Abstimmungseinstellungen aus. Sie können die **Automatische Zuordnung** zur automatischen Identifizierung der zu aktualisierenden Felder."
+>abstract="Auswahl der zu aktualisierenden Felder und Abstimmungseinstellungen. Sie können den **Automatisches Mapping** Option zur automatischen Identifizierung der zu aktualisierenden Felder."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_advancedoptions"
 >title="Erweiterte Optionen zum Aktualisieren von Daten"
->abstract="Die **Erweiterte Optionen** können Sie zusätzliche Einstellungen zum Verwalten von Daten und Duplikaten festlegen."
+>abstract="Die **Erweiterte Optionen** In diesem Abschnitt können Sie zusätzliche Einstellungen zum Verwalten von Daten und Duplikaten angeben."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_outboundtransition"
 >title="Ausgehende Transition erzeugen"
->abstract="Umschalten zwischen **Ausgehende Transition erzeugen** Option zum Hinzufügen einer ausgehenden Transition, die am Ende der Ausführung der **Daten aktualisieren** -Aktivität. Die Aktualisierung markiert im Allgemeinen das Ende eines Zielgruppen-Workflows, weshalb die Option nicht standardmäßig aktiviert ist."
+>abstract="Umschalten zwischen **Ausgehende Transition erzeugen** Option zum Hinzufügen einer ausgehenden Transition, die am Ende der Ausführung des **Daten aktualisieren** Aktivität. Die Aktualisierung markiert im Allgemeinen das Ende eines Zielgruppen-Workflows, weshalb die Option nicht standardmäßig aktiviert ist."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_outboundtransition_rejects"
 >title="Ausgehende Transition für Zurückweisungen erzeugen"
->abstract="Umschalten zwischen **Ausgehende Transition für Zurückweisungen erzeugen** -Option, um eine ausgehende Transition mit Datensätzen hinzuzufügen, die nach der Aktualisierung nicht korrekt verarbeitet wurden (z. B. bei Duplikaten). Die Aktualisierung markiert im Allgemeinen das Ende eines Zielgruppen-Workflows, weshalb die Option nicht standardmäßig aktiviert ist."
+>abstract="Umschalten zwischen **Ausgehende Transition für Zurückweisungen erzeugen** Option zum Hinzufügen einer ausgehenden Transition mit Datensätzen, die nach der Aktualisierung nicht korrekt verarbeitet wurden (z. B. wenn ein Duplikat vorliegt). Die Aktualisierung markiert im Allgemeinen das Ende eines Zielgruppen-Workflows, weshalb die Option nicht standardmäßig aktiviert ist."
 
 
 
@@ -382,7 +382,7 @@ Deprecated IDs - to remove in GA: -->
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_externalsignal"
 >title="Externes Signal"
->abstract="Die **Externes Signal** ermöglicht die Ausführung einer Reihe von Triggern in einem Workflow über eine API oder einen anderen Workflow."
+>abstract="Die **Externes Signal** Aktivität ermöglicht die Ausführung einer Reihe von Aufgaben in einem Workflow über eine API oder einen anderen Workflow durch den Trigger."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_externalsignal_parameters"
@@ -401,24 +401,25 @@ Deprecated IDs - to remove in GA: -->
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript"
 >title="JavaScript-Code"
->abstract="Die **JavaScript-Code** -Aktivität führt im Kontext eines Workflows einen JavaScript-Code aus."
+>abstract="Die **JavaScript-Code** Die Aktivität führt im Kontext eines Workflows einen JavaScript-Code aus."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_snippet"
 >title="JavaScript-Snippet"
->abstract="Konfigurieren Sie den auszuführenden Code."
+>abstract="Konfigurieren des auszuführenden Codes."
 >additional-url="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/api" text="Weitere Informationen finden Sie in der Dokumentation zu Campaign v8 (Konsole) ."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_execution"
 >title="JavaScript-Ausführung"
->abstract="Standardmäßig darf die Ausführungsphase nicht länger als eine Stunde sein. Nach dieser Verzögerung wird der Prozess mit einer Fehlermeldung abgebrochen und die Ausführung der Aktivität schlägt fehl. Umschalten zwischen **Ausführung stoppen nach** -Option, um eine benutzerdefinierte Verzögerung zu definieren. Um diese Beschränkung zu ignorieren, setzen Sie den Wert auf 0."
+>abstract="Standardmäßig darf die Ausführungsphase nicht länger als eine Stunde sein. Nach dieser Verzögerung wird der Prozess mit einer Fehlermeldung abgebrochen und die Ausführung der Aktivität schlägt fehl. Umschalten zwischen **Ausführung stoppen nach** Option zum Definieren einer benutzerdefinierten Verzögerung. Um diese Beschränkung zu ignorieren, setzen Sie den Wert auf 0."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_transition"
 >title="Fehler verarbeiten"
->abstract="Umschalten zwischen **Fehler verarbeiten** Option, um eine ausgehende Transition mit Fehlern hinzuzufügen."
+>abstract="Umschalten zwischen **Fehler verarbeiten** Option zum Hinzufügen einer ausgehenden Transition mit Fehlern."
+
 
 
 <!--ExtractFile-->
@@ -431,27 +432,27 @@ Deprecated IDs - to remove in GA: -->
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_file"
 >title="Zu extrahierende Datei"
->abstract="Wählen Sie die zu extrahierende Datei aus."
+>abstract="Zu extrahierende Datei auswählen."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_destinationformat"
 >title="Zielformat"
->abstract="Wählen Sie das Format aus."
+>abstract="Format auswählen."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_postprocessing"
 >title="Nachbearbeitung"
->abstract="Definieren eines Anschlussvorgang"
+>abstract="Definieren eines Nachbearbeitungsschritts"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_outbound"
 >title="Ausgehende Transition"
->abstract="Umschalten zwischen **Ausgehende Transition erzeugen** -Option, um eine ausgehende Transition nach der aktuellen Aktivität hinzuzufügen."
+>abstract="Umschalten zwischen **Ausgehende Transition erzeugen** Option zum Hinzufügen einer ausgehenden Transition nach der aktuellen Aktivität."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_error"
 >title="Fehler verarbeiten"
->abstract="Umschalten zwischen **Fehler verarbeiten** Option, um eine ausgehende Transition mit Fehlern hinzuzufügen."
+>abstract="Umschalten zwischen **Fehler verarbeiten** Option zum Hinzufügen einer ausgehenden Transition mit Fehlern."
 
 <!-- Workflow settings -->
 
@@ -472,5 +473,76 @@ Deprecated IDs - to remove in GA: -->
 
 >[!CONTEXTUALHELP]
 >id="acw_workflow_settings_execution_initscript"
->title="Initialisierungsscript der Ausführung"
->abstract="Initialisierungsscript der Ausführung"
+>title="Initialisierungsskript der Ausführung"
+>abstract="Initialisierungsskript der Ausführung"
+
+
+<!--incremental querry -->
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_incrementalquery"
+>title="Inkrementelle Abfrage"
+>abstract="Inkrementelle Abfrage"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_incrementalquery_history"
+>title="Inkrementeller Abfrageverlauf"
+>abstract="Inkrementeller Abfrageverlauf"
+
+
+<!-- Transfer file activity -->
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile"
+>title="Dateiübertragung"
+>abstract="Dateiübertragung"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_options"
+>title="Optionen für Dateiübertragung"
+>abstract="Optionen für Dateiübertragung"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_activity"
+>title="Aktivität „Dateiübertragung“"
+>abstract="Aktivität „Dateiübertragung“"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_remoteserver"
+>title="Dateiübertragungs-Remote-Server"
+>abstract="Dateiübertragungs-Remote-Server"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_source"
+>title="Dateiquelle übertragen"
+>abstract="Dateiquelle übertragen"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_advancedoptions_delete_file"
+>title="Quelldateien nach der Übertragung löschen"
+>abstract="Quelldateien nach der Übertragung löschen"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_advancedoptions_display_logs"
+>title="Sitzungsprotokolle anzeigen"
+>abstract="Sitzungsprotokolle anzeigen"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_advancedoptions_list_files"
+>title="Alle Dateien auflisten"
+>abstract="Alle Dateien auflisten"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_historization"
+>title="Verlaufserstellung"
+>abstract="Verlaufserstellung"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_process_missing_file"
+>title="Verarbeiten fehlender Dateien"
+>abstract="Verarbeiten fehlender Dateien"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_process_errors"
+>title="Fehler verarbeiten"
+>abstract="Fehler verarbeiten"
