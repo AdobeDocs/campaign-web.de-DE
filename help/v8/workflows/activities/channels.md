@@ -1,7 +1,7 @@
 ---
 audience: end-user
 title: Verwenden der Workflow-Aktivität „Versand“
-description: Erfahren Sie, wie Sie eine Versand-Workflow-Aktivität hinzufügen (E-Mail, Push, SMS, Briefpost).
+description: Erfahren Sie, wie Sie eine Workflow-Aktivität für den Versand hinzufügen (E-Mail, Push, SMS, Briefpost)
 exl-id: 155b40e2-1aa2-4251-bbaa-7e16e36f649e
 source-git-commit: 298b1e17e70eae7da98fd5ac60fbcad32ce5c44f
 workflow-type: tm+mt
@@ -10,11 +10,11 @@ ht-degree: 91%
 
 ---
 
-# E-Mail, SMS, Push, Briefpost-Aktivitäten {#channel}
+# E-Mail-, SMS-, Push-, Briefpost-Aktivitäten {#channel}
 
-Adobe Campaign Web ermöglicht die Automatisierung und Ausführung von Marketingkampagnen über E-Mail-, SMS-, Briefpost- und Push-Kanäle hinweg. Sie können Kanalaktivitäten in die Workflow-Arbeitsfläche kombinieren, um kanalübergreifende Workflows zu erstellen, mit denen basierend auf Kundenverhalten und Daten Aktionen ausgelöst werden können.
+Mit Adobe Campaign Web können Sie Marketing-Kampagnen für E-Mail, SMS, Briefpost und Push-Kanäle automatisieren und ausführen. Sie können Kanalaktivitäten in die Workflow-Arbeitsfläche kombinieren, um kanalübergreifende Workflows zu erstellen, mit denen basierend auf Kundenverhalten und Daten Aktionen ausgelöst werden können.
 
-Sie können beispielsweise eine Willkommens-E-Mail-Kampagne erstellen, die eine Reihe von Nachrichten über verschiedene Kanäle enthält, z. B. E-Mail, SMS, Push- und Briefpost. Sie können auch eine Folge-E-Mail senden, nachdem eine Kundin oder ein Kunde einen Kauf getätigt hat, oder eine personalisierte Geburtstagsnachricht per SMS an eine Kundin bzw. einen Kunden senden.
+Sie können beispielsweise eine Begrüßungs-E-Mail-Kampagne erstellen, die eine Reihe von Nachrichten über verschiedene Kanäle hinweg enthält, z. B. E-Mail, SMS, Push und Briefpost. Sie können auch eine Folge-E-Mail senden, nachdem eine Kundin oder ein Kunde einen Kauf getätigt hat, oder eine personalisierte Geburtstagsnachricht per SMS an eine Kundin bzw. einen Kunden senden.
 
 Mithilfe von Kanalaktivitäten können Sie umfassende und personalisierte Kampagnen erstellen, die Kundinnen und Kunden über mehrere Touchpoints hinweg ansprechen, und Konversionen fördern.
 
@@ -71,7 +71,7 @@ Beginnen Sie, Ihren Workflow mit den entsprechenden Aktivitäten aufzubauen:
 
 Gehen Sie wie folgt vor, um einen Versand im Kontext eines Workflows einzurichten:
 
-1. Hinzufügen einer Kanalaktivität: **[!UICONTROL Email]**, **[!UICONTROL SMS]**, **[!UICONTROL Push-Benachrichtigung (Android)]**, **[!UICONTROL Push-Benachrichtigung (iOS)]** oder **[!UICONTROL Briefpost]**.
+1. Fügen Sie eine Kanalaktivität hinzu: **[!UICONTROL E-Mail]**, **[!UICONTROL SMS]**, **[!UICONTROL Push-Benachrichtigung (Android)]**, **[!UICONTROL Push-Benachrichtigung (iOS)]** oder **[!UICONTROL Briefpost]**.
 
 1. Wählen Sie den **Versandtyp** aus: einmalig oder wiederkehrend.
 

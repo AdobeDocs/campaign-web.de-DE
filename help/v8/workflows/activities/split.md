@@ -54,7 +54,7 @@ Die Aktivität **Aufspaltung** ist eine Aktivität zur **Zielgruppenbestimmung**
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_emptytransition"
->title="Leeren Übergang überspringen"
+>title="Leere Transition überspringen"
 >abstract="Leere Transition überspringen."
 
 Folgen Sie diesen Schritten, um die Aktivität **Aufspaltung** zu konfigurieren:

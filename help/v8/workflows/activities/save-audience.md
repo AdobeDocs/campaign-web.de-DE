@@ -20,7 +20,7 @@ ht-degree: 96%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_saveaudience_outbound"
 >title="Ausgehende Transition erzeugen"
->abstract="Verwenden Sie diese Option, wenn Sie eine Transition nach der **Audience-Speicherung** -Aktivität."
+>abstract="Verwenden Sie diese Option, wenn Sie eine Transition nach dem **Zielgruppe speichern** Aktivität."
 
 Die Aktivität **Zielgruppe speichern** ist eine Aktivität zur **Zielgruppenbestimmung**. Mit dieser Aktivität können Sie eine vorhandene Zielgruppe aktualisieren oder eine neue Zielgruppe aus der Population erstellen, die im Vorfeld durch andere Workflow-Aktivitäten ermittelt wurde. Die Zielgruppen werden zur bereits bestehenden Zielgruppenliste in Adobe Campaign hinzugefügt und sind über das Menü **Zielgruppen** zugänglich.
 

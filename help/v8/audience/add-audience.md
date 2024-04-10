@@ -26,7 +26,7 @@ Auf Zielgruppen, die in Sendungen ausgewählt werden können, kann über das Men
 
 Gehen Sie wie folgt vor, um eine vorhandene Zielgruppe für Ihre Nachricht auszuwählen:
 
-1. Aus dem **Zielgruppe** Klicken Sie im Abschnitt des Assistenten zur Versanderstellung auf die Schaltfläche **[!UICONTROL Zielgruppe auswählen]** Schaltfläche auswählen **[!UICONTROL Zielgruppe auswählen]**.
+1. Aus dem **Zielgruppe** im Abschnitt des Assistenten zur Versanderstellung auf die Schaltfläche **[!UICONTROL Zielgruppe auswählen]** Schaltfläche und anschließend Auswählen **[!UICONTROL Zielgruppe auswählen]**.
 
    ![](assets/create-audience.png){zoomable=&quot;yes&quot;}
 

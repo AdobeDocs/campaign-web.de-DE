@@ -2,13 +2,13 @@
 audience: end-user
 title: Erstellen eines Briefpostversands
 description: Erfahren Sie, wie Sie mit Adobe Campaign Web einen Briefpostversand erstellen.
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
-workflow-type: ht
+exl-id: 9b5172b2-1880-4768-a33b-8a20ec5a30ab
+source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
+workflow-type: tm+mt
 source-wordcount: '470'
 ht-degree: 100%
 
 ---
-
 
 # Erstellen eines Briefpostversands {#create-direct-mail}
 
@@ -64,4 +64,3 @@ Gehen Sie wie folgt vor, um einen neuen eigenständigen Briefpostversand zu erst
    ![](assets/dm-settings.png){zoomable=&quot;yes&quot;}
 
 1. Sobald Ihr Briefpostversand fertig ist, klicken Sie auf die Schaltfläche **[!UICONTROL Überprüfen und senden]**, um den Versand zu validieren und zu versenden und die Extraktionsdatei zu generieren. [Erfahren Sie, wie Sie einen Briefpostversand in einer Vorschau anzeigen und durchführen](send-direct-mail.md).
-

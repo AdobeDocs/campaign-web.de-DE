@@ -16,7 +16,7 @@ ht-degree: 100%
 >id="acw_homepage_welcome_rn2"
 >title="Datenquelle ändern"
 >abstract="Verwenden Sie die neue Workflow-Aktivität „Datenquelle ändern“ bei der Zielgruppenbestimmung, um die von der Arbeitstabelle Ihres Workflows verwendete Datenquelle zu ändern. Diese Aktivität bietet mehr Flexibilität, da Sie damit Daten in Ihren verschiedenen Datenbanken verwalten und die Leistung verbessern können."
->additional-url="https://experienceleague.adobe.com/de/docs/campaign-web/v8/release-notes/release-notes" text="Siehe Versionshinweise"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=de" text="Siehe Versionshinweise"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_change_data_source"

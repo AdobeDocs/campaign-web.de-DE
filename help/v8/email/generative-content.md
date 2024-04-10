@@ -9,7 +9,7 @@ hidefromtoc: true
 source-git-commit: 396f52cfdb482e5afdf43b5729ef37b5a634be3d
 workflow-type: tm+mt
 source-wordcount: '776'
-ht-degree: 45%
+ht-degree: 46%
 
 ---
 
@@ -22,19 +22,19 @@ ht-degree: 45%
 * [Erste Schritte mit dem KI-Assistenten](generative-gs.md)
 * **[E-Mail-Generierung mit dem KI-Assistenten](generative-content.md)**
 * [SMS-Generierung mit dem KI-Assistenten](generative-sms.md)
-* [Generieren von Push-Benachrichtigungen mit dem AI-Assistenten](generative-push.md)
+* [Generieren von Push-Benachrichtigungen mit dem KI-Assistenten](generative-push.md)
 
 >[!ENDSHADEBOX]
 
-Nachdem Sie Ihre E-Mails erstellt und personalisiert haben, verwenden Sie den Journey Optimizer AI Assistant in Campaign mit der generativen KI, um Ihren Inhalt auf die nächste Stufe zu bringen.
+Nachdem Sie Ihre E-Mails erstellt und personalisiert haben, verwenden Sie den Journey Optimizer AI-Assistenten in Campaign, der auf generativer KI basiert, um Ihre Inhalte auf die nächste Stufe zu heben.
 
-Der KI-Assistent kann Ihnen dabei helfen, die Wirkung Ihrer Sendungen zu optimieren, indem er verschiedene Inhalte vorschlägt, die mit größerer Wahrscheinlichkeit bei Ihrer Zielgruppe ankommen.
+Der KI-Assistent kann Ihnen dabei helfen, die Wirkung Ihrer Sendungen zu optimieren, indem er verschiedene Inhalte vorschlägt, die Ihre Audience mit größerer Wahrscheinlichkeit ansprechen.
 
 >[!NOTE]
 >
 >Bevor Sie mit der Verwendung dieser Funktion beginnen, lesen Sie die entsprechenden Informationen unter [Schutzmechanismen und Begrenzungen](generative-gs.md#guardrails-and-limitations).
 
-## Inhaltserstellung mit dem AI-Assistenten {#generative-text}
+## Inhaltserstellung mit dem KI-Assistenten {#generative-text}
 
 1. Nachdem Sie Ihren E-Mail-Versand erstellt und konfiguriert haben, klicken Sie auf **[!UICONTROL Inhalt bearbeiten]**.
 
@@ -46,25 +46,25 @@ Der KI-Assistent kann Ihnen dabei helfen, die Wirkung Ihrer Sendungen zu optimie
 
 1. Zugriff auf **[!UICONTROL KI-Assistent]** Menü.
 
-   Sie können auch eine **[!UICONTROL Textkomponente]** , um nur einen bestimmten Inhalt anzusprechen.
+   Sie können auch ein **[!UICONTROL Textkomponente]** , um nur bestimmte Inhalte anzusprechen.
 
    ![](assets/text-genai-1.png){zoomable=&quot;yes&quot;}
 
-1. Passen Sie den Inhalt an, indem Sie beschreiben, was Sie im **[!UICONTROL Aufforderung]** -Feld.
+1. Passen Sie den Inhalt an, indem Sie beschreiben, was Sie im generieren möchten **[!UICONTROL Eingabeaufforderung]** Feld.
 
-   Wenn Sie Hilfe bei der Erstellung Ihrer Eingabeaufforderung benötigen, rufen Sie die **[!UICONTROL Eingabebibliothek]** , die eine Vielzahl von schnellen Ideen zur Verbesserung Ihrer Sendungen bietet.
+   Wenn Sie Hilfe bei der Erstellung Ihrer Eingabeaufforderung benötigen, rufen Sie die Seite **[!UICONTROL Bibliothek der Eingabeaufforderung]** bietet eine Vielzahl an Ideen, um Ihre Sendungen zu verbessern.
 
    ![](assets/text-genai-2.png){zoomable=&quot;yes&quot;}
 
-1. Umschalten zwischen **[!UICONTROL Betreff]** oder **[!UICONTROL Preheader]** , um sie in die Variantengenerierung aufzunehmen.
+1. Umschalten zwischen **[!UICONTROL Betreffzeile]** oder **[!UICONTROL Preheader]** , um sie in die Variantengenerierung einzubeziehen.
 
-1. Aktivieren Sie im Kontextmenü die Option **[!UICONTROL Verbesserung mit aktuellem Kontext]** Option für den KI-Assistenten, um neuen Inhalt basierend auf Ihrem Versand, dem Versandnamen und der ausgewählten Zielgruppe zu personalisieren.
+1. Aktivieren Sie im Kontextmenü die Option **[!UICONTROL Mit aktuellem Kontext erweitern]** Option für den KI-Assistenten zum Personalisieren neuer Inhalte basierend auf Ihrem Versand, dem Versandnamen und der ausgewählten Zielgruppe.
 
    >[!IMPORTANT]
    >
-   > Ihre Eingabeaufforderung muss immer an einen bestimmten Kontext gebunden sein, indem Sie ein Marken-Asset hochladen oder die **[!UICONTROL Aktuellen Inhalt verbessern]** -Option.
+   > Ihre Eingabeaufforderung muss immer an einen bestimmten Kontext gebunden sein, indem Sie ein Marken-Asset hochladen oder aktivieren. **[!UICONTROL Aktuelle Inhalte erweitern]** Option.
 
-1. Klicks **[!UICONTROL Hochladen von Marken-Assets]** um beliebige Marken-Assets hinzuzufügen, die Inhalte enthalten, die zusätzlichen Kontext für den AI-Assistenten bieten können.
+1. Klick **[!UICONTROL Hochladen von Marken-Assets]** um alle Marken-Assets hinzuzufügen, die Inhalte enthalten, die zusätzlichen Kontext für den KI-Assistenten bieten können.
 
    ![](assets/text-genai-3.png){zoomable=&quot;yes&quot;}
 
@@ -92,9 +92,9 @@ Der KI-Assistent kann Ihnen dabei helfen, die Wirkung Ihrer Sendungen zu optimie
 
 1. Wenn Sie Inhalt, Zielgruppe und Zeitplan definiert haben, können Sie den E-Mail-Versand vorbereiten. [Weitere Informationen](../monitor/prepare-send.md)
 
-## Generieren von Bildern mit dem AI-Assistenten {#generative-image}
+## Bildgenerierung mit dem KI-Assistenten {#generative-image}
 
-Im folgenden Beispiel erfahren Sie, wie Sie den KI-Assistenten nutzen können, um Ihren Inhalt zu optimieren und zu verbessern und so ein benutzerfreundlicheres Erlebnis zu gewährleisten. Führen Sie folgende Schritte aus:
+Im folgenden Beispiel erfahren Sie, wie Sie den KI-Assistenten nutzen können, um Ihre Inhalte zu optimieren und zu verbessern und so ein benutzerfreundlicheres Erlebnis zu gewährleisten. Führen Sie folgende Schritte aus:
 
 1. Nachdem Sie Ihren E-Mail-Versand erstellt und konfiguriert haben, klicken Sie auf **[!UICONTROL Inhalt bearbeiten]**.
 
@@ -102,19 +102,19 @@ Im folgenden Beispiel erfahren Sie, wie Sie den KI-Assistenten nutzen können, u
 
 1. Geben Sie die **[!UICONTROL grundlegenden Details]** für Ihren Versand ein. Klicken Sie abschließend auf **[!UICONTROL E-Mail-Inhalt bearbeiten]**.
 
-1. Wählen Sie mit dem AI-Assistenten das Asset aus, das Sie ändern möchten.
+1. Wählen Sie das Asset aus, das Sie mit dem KI-Assistenten ändern möchten.
 
-1. Wählen Sie aus dem Kontextmenü die Option **[!UICONTROL KI-Assistent]**.
+1. Wählen Sie im Menü auf der rechten Seite **[!UICONTROL KI-Assistent]**.
 
    ![](assets/image-genai-1.png){zoomable=&quot;yes&quot;}
 
-1. Passen Sie den Inhalt an, indem Sie beschreiben, was Sie im **[!UICONTROL Aufforderung]** -Feld.
+1. Passen Sie den Inhalt an, indem Sie beschreiben, was Sie im generieren möchten **[!UICONTROL Eingabeaufforderung]** Feld.
 
-   Wenn Sie Hilfe bei der Erstellung Ihrer Eingabeaufforderung benötigen, rufen Sie die **[!UICONTROL Eingabebibliothek]** , die eine Vielzahl von schnellen Ideen zur Verbesserung Ihrer Sendungen bietet.
+   Wenn Sie Hilfe bei der Erstellung Ihrer Eingabeaufforderung benötigen, rufen Sie die Seite **[!UICONTROL Bibliothek der Eingabeaufforderung]** bietet eine Vielzahl an Ideen, um Ihre Sendungen zu verbessern.
 
    ![](assets/image-genai-2.png){zoomable=&quot;yes&quot;}
 
-1. Klicks **[!UICONTROL Hochladen von Marken-Assets]** um beliebige Marken-Assets hinzuzufügen, die Inhalte enthalten, die zusätzlichen Kontext für den AI-Assistenten bieten können.
+1. Klick **[!UICONTROL Hochladen von Marken-Assets]** um alle Marken-Assets hinzuzufügen, die Inhalte enthalten, die zusätzlichen Kontext für den KI-Assistenten bieten können.
 
    >[!IMPORTANT]
    >
@@ -122,7 +122,7 @@ Im folgenden Beispiel erfahren Sie, wie Sie den KI-Assistenten nutzen können, u
 
 1. Wählen Sie das **[!UICONTROL Seitenverhältnis]** des Assets aus. Dadurch wird die Breite und Höhe des Assets bestimmt.
 
-   Sie können aus gängigen Verhältnissen wie 16:9, 4:3, 3:2 oder 1:1 wählen oder eine benutzerdefinierte Größe eingeben.
+   Sie haben die Möglichkeit, aus gängigen Verhältnissen wie 16:9, 4:3, 3:2 oder 1:1 zu wählen, oder Sie können eine benutzerdefinierte Größe eingeben.
 
 1. Passen Sie die Einstellungen **[!UICONTROL Farbe und Ton]**, **[!UICONTROL Inhaltstyp]**, **[!UICONTROL Beleuchtung]** und **[!UICONTROL Komposition]** an, damit Sie den gewünschten Asset-Eigenschaften entsprechen.
 
@@ -136,7 +136,7 @@ Im folgenden Beispiel erfahren Sie, wie Sie den KI-Assistenten nutzen können, u
 
    ![](assets/image-genai-5.png){zoomable=&quot;yes&quot;}
 
-1. Auswählen **[!UICONTROL Ähnliche anzeigen]** , wenn Sie verwandte Bilder zu dieser Variante anzeigen möchten.
+1. Auswählen **[!UICONTROL Ähnliche anzeigen]** wenn Sie verwandte Bilder für diese Variante anzeigen möchten.
 
 1. Klicken Sie auf **[!UICONTROL Auswählen]**, sobald Sie den passenden Inhalt gefunden haben.
 

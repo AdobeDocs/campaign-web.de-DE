@@ -42,7 +42,7 @@ Gehen Sie wie folgt vor, um mit dem Ausdruckseditor bedingte Inhalte für einen 
 
    ![](assets/open-perso-editor-sms.png){zoomable=&quot;yes&quot;}
 
-1. Navigieren Sie im Personalisierungs-Editor zum **[!UICONTROL Bedingungen]** auf der linken Seite.
+1. Navigieren Sie im Personalisierungseditor zu . **[!UICONTROL Bedingungen]** Menü links.
 
 1. Um mit der Erstellung Ihrer Bedingung zu beginnen, klicken Sie auf das Symbol „+“ neben der Funktion **Wenn**. Die folgende Zeile wird zum mittleren Bereich des Bildschirms hinzugefügt:`<% if (<FIELD>==<VALUE>) { %>Insert content here<% } %>`
 

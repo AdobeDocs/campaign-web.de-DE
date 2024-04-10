@@ -5,14 +5,15 @@ description: Erste Schritte mit dem KI-Assistenten in Campaign
 badge: label="Beta"
 hide: true
 hidefromtoc: true
-source-git-commit: 396f52cfdb482e5afdf43b5729ef37b5a634be3d
+exl-id: a361f75d-63c2-4fdc-993c-f8414b18e13e
+source-git-commit: 886fd47b52d08b0a1bfcbeca03929d48b5bc2a3f
 workflow-type: tm+mt
 source-wordcount: '435'
-ht-degree: 33%
+ht-degree: 34%
 
 ---
 
-# Generieren von Push-Benachrichtigungen mit dem AI-Assistenten {#generative-push}
+# Generieren von Push-Benachrichtigungen mit dem KI-Assistenten {#generative-push}
 
 >[!BEGINSHADEBOX]
 
@@ -21,47 +22,47 @@ ht-degree: 33%
 * [Erste Schritte mit dem KI-Assistenten](generative-gs.md)
 * [E-Mail-Generierung mit dem KI-Assistenten](generative-content.md)
 * [SMS-Generierung mit dem KI-Assistenten](generative-sms.md)
-* **[Generieren von Push-Benachrichtigungen mit dem AI-Assistenten](generative-push.md)**
+* **[Generieren von Push-Benachrichtigungen mit dem KI-Assistenten](generative-push.md)**
 
 >[!ENDSHADEBOX]
 
-Nachdem Sie Ihre E-Mails erstellt und personalisiert haben, verwenden Sie den KI-Assistenten in Campaign mit KI-Unterstützung, um Ihren Inhalt auf die nächste Stufe zu bringen.
+Nachdem Sie Ihre E-Mails erstellt und personalisiert haben, verwenden Sie den KI-Assistenten in Campaign, der auf generativer KI basiert, um Ihre Inhalte auf die nächste Stufe zu heben.
 
-Der KI-Assistent kann Ihnen dabei helfen, die Wirkung Ihrer Sendungen zu optimieren, indem er verschiedene Inhalte vorschlägt, die mit größerer Wahrscheinlichkeit bei Ihrer Zielgruppe ankommen.
+Der KI-Assistent kann Ihnen dabei helfen, die Wirkung Ihrer Sendungen zu optimieren, indem er verschiedene Inhalte vorschlägt, die Ihre Audience mit größerer Wahrscheinlichkeit ansprechen.
 
 >[!NOTE]
 >
 >Bevor Sie mit der Verwendung dieser Funktion beginnen, lesen Sie die entsprechenden Informationen unter [Schutzmechanismen und Begrenzungen](generative-gs.md#guardrails-and-limitations).
 
-1. Klicken Sie nach der Erstellung und Konfiguration Ihres Push-Benachrichtigungsversands auf **[!UICONTROL Inhalt bearbeiten]**.
+1. Nachdem Sie Ihren Push-Benachrichtigungs-Versand erstellt und konfiguriert haben, klicken Sie auf **[!UICONTROL Inhalt bearbeiten]**.
 
-   Weitere Informationen zur Konfiguration Ihres Push-Versands finden Sie unter [diese Seite](../push/create-push.md).
+   Weitere Informationen zum Konfigurieren Ihres Push-Versands finden Sie unter [Diese Seite](../push/create-push.md).
 
 1. Füllen Sie die **[!UICONTROL grundlegenden Details]** für Ihren Versand aus. Klicken Sie abschließend auf **[!UICONTROL Inhalt bearbeiten]**.
 
-1. Personalisieren Sie Ihre Push-Benachrichtigung nach Bedarf. [Weitere Informationen](../push/content-push.md)
+1. Push-Benachrichtigung nach Bedarf personalisieren. [Weitere Informationen](../push/content-push.md)
 
-1. Zugriff auf **[!UICONTROL AI-Assistenten anzeigen]** Menü.
+1. Zugriff auf **[!UICONTROL KI-Assistenten anzeigen]** Menü.
 
    ![](assets/push-genai-1.png){zoomable=&quot;yes&quot;}
 
-1. Passen Sie den Inhalt an, indem Sie beschreiben, was Sie im **[!UICONTROL Aufforderung]** -Feld.
+1. Passen Sie den Inhalt an, indem Sie beschreiben, was Sie im generieren möchten **[!UICONTROL Eingabeaufforderung]** Feld.
 
-   Wenn Sie Hilfe bei der Erstellung Ihrer Eingabeaufforderung benötigen, rufen Sie die **[!UICONTROL Eingabebibliothek]** , die eine Vielzahl von schnellen Ideen zur Verbesserung Ihrer Sendungen bietet.
+   Wenn Sie Hilfe bei der Erstellung Ihrer Eingabeaufforderung benötigen, rufen Sie die Seite **[!UICONTROL Bibliothek der Eingabeaufforderung]** bietet eine Vielzahl an Ideen, um Ihre Sendungen zu verbessern.
 
    ![](assets/push-genai-2.png){zoomable=&quot;yes&quot;}
 
-1. Aktivieren Sie die **[!UICONTROL Verbesserung mit aktuellem Kontext]** Option für den KI-Assistenten, um neuen Inhalt basierend auf Ihrem Versand, dem Versandnamen und der ausgewählten Zielgruppe zu personalisieren.
+1. Aktivieren Sie die **[!UICONTROL Mit aktuellem Kontext erweitern]** Option für den KI-Assistenten zum Personalisieren neuer Inhalte basierend auf Ihrem Versand, dem Versandnamen und der ausgewählten Zielgruppe.
 
    >[!IMPORTANT]
    >
-   > Ihre Eingabeaufforderung muss immer an einen bestimmten Kontext gebunden sein, indem Sie ein Marken-Asset hochladen oder die **[!UICONTROL Aktuellen Inhalt verbessern]** -Option.
+   > Ihre Eingabeaufforderung muss immer an einen bestimmten Kontext gebunden sein, indem Sie ein Marken-Asset hochladen oder aktivieren. **[!UICONTROL Aktuelle Inhalte erweitern]** Option.
 
    ![](assets/push-genai-3.png){zoomable=&quot;yes&quot;}
 
-1. Auswählen **[!UICONTROL Hochladen von Marken-Assets]** um beliebige Marken-Assets hinzuzufügen, die Inhalte enthalten, die zusätzlichen Kontext für den AI-Assistenten bieten können.
+1. Auswählen **[!UICONTROL Hochladen von Marken-Assets]** um alle Marken-Assets hinzuzufügen, die Inhalte enthalten, die zusätzlichen Kontext für den KI-Assistenten bieten können.
 
-1. Wählen Sie das zu erzeugende Feld aus: **[!UICONTROL Titel]**, **[!UICONTROL Untertitel]** oder **[!UICONTROL Nachricht]**.
+1. Wählen Sie aus, welches Feld Sie generieren möchten: **[!UICONTROL Anrede]**, **[!UICONTROL Untertitel]** oder **[!UICONTROL Nachricht]**.
 
 1. Wählen Sie die **[!UICONTROL Kommunikationsstrategie]** aus, die am besten Ihren Anforderungen entspricht. Dies wirkt sich auf den Ton und den Stil des generierten Textes aus.
 
@@ -77,7 +78,7 @@ Der KI-Assistent kann Ihnen dabei helfen, die Wirkung Ihrer Sendungen zu optimie
 
    ![](assets/push-genai-5.png){zoomable=&quot;yes&quot;}
 
-1. Fügen Sie Personalisierungsfelder ein, um Ihren Push-Inhalt basierend auf Profildaten anzupassen. [Weitere Informationen über die Personalisierung von Inhalten](../personalization/personalize.md)
+1. Fügen Sie Personalisierungsfelder ein, um Ihren Push-Inhalt auf der Grundlage von Profildaten anzupassen. [Weitere Informationen über die Personalisierung von Inhalten](../personalization/personalize.md)
 
    ![](assets/push-genai-6.png){zoomable=&quot;yes&quot;}
 
@@ -85,4 +86,4 @@ Der KI-Assistent kann Ihnen dabei helfen, die Wirkung Ihrer Sendungen zu optimie
 
    ![](assets/push-genai-7.png){zoomable=&quot;yes&quot;}
 
-1. Wenn Sie Inhalt, Zielgruppe und Zeitplan definiert haben, können Sie Ihren Push-Versand vorbereiten. [Weitere Informationen](../monitor/prepare-send.md)
+1. Wenn Sie Inhalt, Zielgruppe und Zeitplan definiert haben, können Sie den Push-Versand vorbereiten. [Weitere Informationen](../monitor/prepare-send.md)

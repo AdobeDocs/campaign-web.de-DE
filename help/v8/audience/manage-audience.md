@@ -1,7 +1,7 @@
 ---
 audience: end-user
 title: Erste Schritte mit Zielgruppen
-description: Erfahren Sie, wie Sie mit Zielgruppen im Adobe Campaign Web arbeiten.
+description: Erfahren Sie, wie Sie in Adobe Campaign Web mit Audiences arbeiten
 exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
 source-git-commit: a0da65d8facedb3730947eb969e362a367e4d317
 workflow-type: tm+mt
@@ -15,12 +15,12 @@ ht-degree: 76%
 >[!CONTEXTUALHELP]
 >id="acw_audiences_properties"
 >title="Eigenschaften"
->abstract="Hier finden Sie eine Zusammenfassung der Eigenschaften der Audience, z. B. ihrer Herkunft oder ihres Speicherordners. Klicken Sie auf den Link im Abschnitt **Letzter Workflow**, um den Workflow zu öffnen, der zur Erstellung der Zielgruppe verwendet wurde."
+>abstract="Hier finden Sie eine Zusammenfassung der Zielgruppeneigenschaften wie Herkunft oder Speicherordner. Klicken Sie auf den Link im Abschnitt **Letzter Workflow**, um den Workflow zu öffnen, der zur Erstellung der Zielgruppe verwendet wurde."
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_count"
 >title="Zielgruppengröße"
->abstract="Hier finden Sie die Gesamtzahl der Profile innerhalb der Zielgruppe. Klicken Sie auf **berechnen** -Schaltfläche, um die Audience-Ergebnisse zu aktualisieren und neu zu berechnen."
+>abstract="Hier finden Sie die Gesamtzahl der Profile innerhalb der Zielgruppe. Klicken Sie auf die Schaltfläche **berechnen** Schaltfläche zum Aktualisieren und Neuberechnen der Zielgruppenergebnisse."
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_workflow_error_data_execution"
@@ -33,9 +33,9 @@ Die Zielgruppe ist das hauptsächliche Ziel Ihres Versands: die Profile, die die
 
 Zielgruppen können aus mehreren Quellen stammen. Die Spalte **[!UICONTROL Herkunft]** gibt an, wo eine bestimmte Zielgruppe erstellt wurde:
 
-* **[!UICONTROL Adobe Campaign]**: Diese Zielgruppen wurden in [Adobe Campaign Web-Benutzeroberfläche](create-audience.md) oder in [Adobe Campaign v8-Clientkonsole](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/create-audiences/create-audiences.html?lang=de){target="_blank"}.
+* **[!UICONTROL Adobe Campaign]**: Diese Zielgruppen wurden in erstellt [Adobe Campaign Web-Benutzeroberfläche](create-audience.md) oder in der [Client-Konsole für Adobe Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/create-audiences/create-audiences.html?lang=de){target="_blank"}.
 
-* **[!UICONTROL Adobe Experience Platform:]** Diese Zielgruppen wurden in Adobe Experience Platform erstellt und sind mithilfe der Adobe-Quellen- und Zielintegration in Campaign Web integriert. Erfahren Sie in der [Dokumentation zu Campaign v8 (Client-Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html?lang=de){target="_blank"}, wie Sie diese Integration einrichten.
+* **[!UICONTROL Adobe Experience Platform:]** Diese Audiences wurden in Adobe Experience Platform erstellt und werden mithilfe der Integration von Adobe-Quellen und -Zielen in Campaign Web integriert. Erfahren Sie in der [Dokumentation zu Campaign v8 (Client-Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html?lang=de){target="_blank"}, wie Sie diese Integration einrichten.
 
   ➡️ [Entdecken Sie diese Funktion im Video](#video)
 

@@ -12,7 +12,7 @@ ht-degree: 66%
 
 # Erstellen einer einmaligen Zielgruppe {#one-time}
 
-In diesem Abschnitt wird beschrieben, wie Sie beim Entwerfen eines neuen Versands eine Zielgruppe erstellen. In diesem Fall werden die Profile, die in die Versand-Audience eingeschlossen werden sollen, durch Abfrage der Datenbank mit dem Abfragemodell abgefragt. Die resultierende Zielgruppe wird nur ein einziges Mal für diesen Versand verwendet. Sie wird nicht in der Zielgruppenliste gespeichert.
+In diesem Abschnitt wird beschrieben, wie Sie beim Entwerfen eines neuen Versands eine Zielgruppe erstellen. In diesem Fall werden die Profile, die in die Versandzielgruppe aufgenommen werden sollen, durch Abfrage der Datenbank mit dem Abfrage-Modellierer angesprochen. Die resultierende Zielgruppe wird nur ein einziges Mal für diesen Versand verwendet. Sie wird nicht in der Zielgruppenliste gespeichert.
 
 Bei der Bestimmung der Hauptzielgruppe eines Versands haben Sie außerdem folgende Möglichkeiten:
 * [Wählen Sie eine vorhandene Zielgruppe](add-audience.md) aus der Liste **[!UICONTROL Zielgruppen]** aus.
@@ -24,7 +24,7 @@ Gehen Sie wie folgt vor, um eine einmalige neue Zielgruppe für einen Versand zu
 
    ![](assets/segment-builder0.png){zoomable=&quot;yes&quot;}
 
-1. Auswählen **Erstellen eigener** , um das Abfragemodell zu öffnen, mit dem Sie die Zielpopulation definieren können, indem Sie Daten aus der Datenbank filtern. [So verwenden Sie den Abfrage-Modeler](../query/query-modeler-overview.md)
+1. Auswählen **Eigene erstellen** So öffnen Sie den Abfrage-Modellierer, mit dem Sie die Zielpopulation definieren können, indem Sie die in der Datenbank enthaltenen Daten filtern. [So verwenden Sie den Abfrage-Modeler](../query/query-modeler-overview.md)
 
    ![](assets/query-modeler.png){zoomable=&quot;yes&quot;}
 

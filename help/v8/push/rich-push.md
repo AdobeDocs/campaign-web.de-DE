@@ -1,7 +1,7 @@
 ---
 audience: end-user
 title: Erstellen eines Rich-Push-Benachrichtigungs-Versands
-description: Erfahren Sie, wie Sie mit Adobe Campaign Web einen Rich-Push-Benachrichtigungsversand für Android erstellen
+description: Erfahren Sie, wie Sie mit Adobe Campaign Web einen Rich-Push-Benachrichtigungs-Versand für Android erstellen
 hide: true
 hidefromtoc: true
 exl-id: a87cb933-b564-4fa4-b173-6a94d7e27da5
@@ -17,7 +17,7 @@ ht-degree: 96%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_remind_later"
 >title="Schaltfläche „Später erinnern“"
->abstract="Die **Später erinnern** -Schaltfläche bietet die Möglichkeit, eine Erinnerung zu planen. Für das Feld &quot;Zeitstempel&quot;ist ein Wert erforderlich, der die Epoche in Sekunden darstellt."
+>abstract="Die **Später erinnern** -Schaltfläche bietet die Option, eine Erinnerung zu planen. Das Zeitstempelfeld erfordert einen Wert, der die Epoche in Sekunden darstellt."
 
 Bei Firebase Cloud Messaging stehen Ihnen zwei Nachrichtentypen zur Auswahl:
 
@@ -105,7 +105,7 @@ Nachdem Sie den Nachrichteninhalt definiert haben, können Sie Testabonnentinnen
 
 1. Klicken Sie auf die Schaltfläche **[!UICONTROL „Später erinnern“ hinzufügen]**, um Ihrer Push-Benachrichtigung die Option „Später erinnern“ hinzuzufügen. Geben Sie einen **[!UICONTROL Titel]** und einen **[!UICONTROL Zeitstempel]** an.
 
-   Das Feld &quot;Zeitstempel&quot;erwartet einen Wert, der Epoche in Sekunden darstellt.
+   Das Zeitstempelfeld erwartet einen Wert, der die Epoche in Sekunden darstellt.
 
    ![](assets/rich_push_basic_5.png)
 

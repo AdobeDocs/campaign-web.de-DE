@@ -107,7 +107,7 @@ Verwenden Sie die bereitgestellten Links, um die Dokumentation zu Campaign v8 (C
 * Erstellung von Filterregeln. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/filtering-rules.html?lang=de){target="_blank"}
 * Verwaltung von Typologieregeln. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/apply-rules.html?lang=de){target="_blank"}
 * Kampagnensimulation. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-simulations.html?lang=de){target="_blank"}
-* JavaScript-Kodierung für die Erstellung von Typologieregeln. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=de#use-cases-on-pressure-rules){target="_blank"}
+* JavaScript-Codierung für die Erstellung von Typologieregeln. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=de#use-cases-on-pressure-rules){target="_blank"}
 
 ## Workflows {#wf-capabilities}
 

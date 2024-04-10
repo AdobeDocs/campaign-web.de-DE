@@ -13,16 +13,16 @@ ht-degree: 76%
 
 ---
 
-# E-Mail mit dem KI-Assistenten erstellen {#generative-email}
+# Generieren einer E-Mail mit dem KI-Assistenten {#generative-email}
 
-Der KI-Assistent in Campaign verbessert die Wirkung Ihrer Kommunikation, indem er automatisch komplette E-Mail-Inhalte generiert, Zeit spart und eine konsistente Qualität gewährleistet. Mit generativer KI können Sie mühelos überzeugende E-Mails verfassen, die auf Ihre Zielgruppe abgestimmt sind, und so Ihre Kommunikation wirkungsvoller und effizienter gestalten.
+Der KI-Assistent in Campaign verbessert die Wirkung Ihrer Kommunikation, indem er automatisch vollständige E-Mail-Inhalte generiert, Zeit spart und eine konsistente Qualität sicherstellt. Mit generativer KI können Sie mühelos überzeugende E-Mails verfassen, die auf Ihre Zielgruppe abgestimmt sind, und so Ihre Kommunikation wirkungsvoller und effizienter gestalten.
 
 >[!NOTE]
 >
 >Bevor Sie mit der Verwendung dieser Funktion beginnen, lesen Sie die entsprechenden Informationen unter [Schutzmechanismen und Begrenzungen](generative-gs.md#guardrails-and-limitations).
 
 
-Gehen Sie wie folgt vor, um mit dem KI-Assistenten E-Mail-Inhalte zu erstellen. Sie können vorhandenen Inhalt auch mit dem KI-Assistenten verbessern, wie im Abschnitt [diese Seite](generative-content.md).
+Gehen Sie wie folgt vor, um mit dem KI-Assistenten einen E-Mail-Inhalt zu generieren. Sie können vorhandene Inhalte auch mit dem KI-Assistenten verbessern, wie unter beschrieben. [Diese Seite](generative-content.md).
 
 1. Nachdem Sie Ihren E-Mail-Versand erstellt und konfiguriert haben, klicken Sie auf **[!UICONTROL Inhalt erstellen]**.
 
@@ -30,7 +30,7 @@ Gehen Sie wie folgt vor, um mit dem KI-Assistenten E-Mail-Inhalte zu erstellen. 
 
 1. Füllen Sie die **[!UICONTROL grundlegenden Details]** für Ihren Versand aus. Klicken danach auf **[!UICONTROL E-Mail-Text bearbeiten]**.
 
-1. Wählen Sie die Designvorlage aus, auf der der KI-Assistent die generierte E-Mail basieren soll.
+1. Wählen Sie die Design-Vorlage aus, auf der der KI-Assistent die generierte E-Mail basieren soll.
 
    Sie können auch eine HTML-Datei importieren.
 
@@ -48,7 +48,7 @@ Gehen Sie wie folgt vor, um mit dem KI-Assistenten E-Mail-Inhalte zu erstellen. 
 
    ![](assets/email-genai-2.png){zoomable=&quot;yes&quot;}
 
-1. Auswählen **[!UICONTROL Datei hochladen]** Wenn Sie ein Marken-Asset hinzufügen möchten, das Inhalte enthält, die zusätzlichen Kontext für den AI-Assistenten bieten können.
+1. Auswählen **[!UICONTROL Datei hochladen]** wenn Sie ein Marken-Asset hinzufügen möchten, das Inhalte enthält, die zusätzlichen Kontext für den KI-Assistenten bieten können.
 
    Sie können auch auf **[!UICONTROL Hochgeladene Inhalte]** klicken, um zuvor aktualisierte Dateien zu finden. Beachten Sie, dass der hochgeladene Inhalt ausschließlich für die Wiederverwendung durch die aktuelle Benutzerin bzw. den aktuellen Benutzer verfügbar ist.
 

@@ -80,7 +80,7 @@ ht-degree: 95%
       + [Erste Schritte mit dem KI-Assistenten](email/generative-gs.md)
       + [E-Mail-Generierung mit dem KI-Assistenten](email/generative-content.md)
       + [SMS-Generierung mit dem KI-Assistenten](email/generative-sms.md)
-      + [Generieren von Push-Benachrichtigungen mit dem AI-Assistenten](email/generative-push.md)
+      + [Generieren von Push-Benachrichtigungen mit dem KI-Assistenten](email/generative-push.md)
    + Inhalte dynamisch gestalten {#dynamic-content}
       + [Erste Schritte mit dynamischen Inhalten](personalization/gs-personalization.md)
       + [Hinzufügen von Personalisierung](personalization/personalize.md)

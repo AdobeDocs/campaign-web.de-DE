@@ -70,7 +70,7 @@ ht-degree: 95%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_delete"
 >title="Löschen von Dateien nach dem Importieren"
->abstract="Umschalten zwischen **Datei nach Import löschen** , um die Originaldatei nach dem Import der Datei vom Server zu löschen."
+>abstract="Umschalten zwischen **Datei nach Import löschen** , um die Originaldatei vom Server zu löschen, nachdem die Datei importiert wurde."
 
 Die Aktivität **Datei laden** ist eine **Daten-Management**-Aktivität. Mit dieser Aktivität können Sie mit Profilen und Daten arbeiten, die in einer externen Datei gespeichert sind. Profile und Daten werden nicht zur Datenbank hinzugefügt, aber alle Felder in der Eingabedatei sind verfügbar zur [Personalisierung](../../personalization/gs-personalization.md) oder um Profile oder andere Tabellen zu aktualisieren.
 

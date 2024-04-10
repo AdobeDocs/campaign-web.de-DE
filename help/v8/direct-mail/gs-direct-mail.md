@@ -16,7 +16,7 @@ ht-degree: 100%
 >id="acw_homepage_welcome_rn1"
 >title="Briefpost"
 >abstract="Der Briefpost-Kanal kann jetzt in Workflows und für eigenständige Sendungen verwendet werden. Verwenden Sie den Briefpost-Offline-Kanal, um eine Extraktionsdatei zu erstellen, zu personalisieren und zu generieren und diese an Ihre Briefpost-Dienstleister weiterzugeben, die Ihrer Kundschaft Post zukommen lassen."
->additional-url="https://experienceleague.adobe.com/de/docs/campaign-web/v8/release-notes/release-notes" text="Siehe Versionshinweise"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=de" text="Siehe Versionshinweise"
 
 
 Briefpost ist ein Offline-Kanal, über den Sie Dateien erstellen können, um Ihren Kundinnen und Kunden personalisierte Sendungen wie Postkarten, Flyer oder Kataloge in großem Umfang zukommen zu lassen.

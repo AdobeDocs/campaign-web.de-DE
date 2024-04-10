@@ -2,13 +2,13 @@
 audience: end-user
 title: Gestalten eines Briefpostversands
 description: Erfahren Sie, wie Sie mit Adobe Campaign Web einen Briefpostversand gestalten.
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
-workflow-type: ht
+exl-id: aefba651-4125-4b1e-992f-1fe90fd95e4c
+source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
+workflow-type: tm+mt
 source-wordcount: '545'
 ht-degree: 100%
 
 ---
-
 
 # Gestalten der Extraktionsdatei {#design-direct-mail}
 

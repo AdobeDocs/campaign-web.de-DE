@@ -32,17 +32,17 @@ ht-degree: 64%
 >title="Anzeige der Datei in der Vorschau"
 >abstract="Überprüfen Sie die Spaltenvorschau der externen Datei. Dieser Bildschirm zeigt nur maximal 30 Einträge an."
 
-Über die Adobe Campaign-Webbenutzeroberfläche können Sie in einer externen Datei gespeicherte Profile auswählen. Nach dem Laden der Profile stehen alle Felder der Eingabedatei zur Verwendung zur Verfügung, um Ihren Versand zu personalisieren. [Erfahren Sie, wie Sie Ihren Inhalt personalisieren.](../personalization/personalize.md).
+Mit der Web-Benutzeroberfläche von Adobe Campaign können Sie Profile auswählen, die in einer externen Datei gespeichert sind. Sobald die Profile geladen wurden, können alle Felder aus der Eingabedatei zur Personalisierung Ihres Versands verwendet werden [Erfahren Sie, wie Sie Ihre Inhalte personalisieren können](../personalization/personalize.md).
 
-Profile aus der Eingabedatei werden nicht zur Datenbank hinzugefügt. Sie werden nur für diesen eigenständigen E-Mail-Versand geladen und verfügbar gemacht.
+Profile aus der Eingabedatei werden nicht zur Datenbank hinzugefügt. Sie sind nur für diesen eigenständigen E-Mail-Versand geladen und verfügbar.
 
 >[!NOTE]
 >
->Auf dieser Seite wird beschrieben, wie Sie beim Erstellen eines eigenständigen E-Mail-Versands externe Profile aus einer Datei laden. Informationen zum Laden von Daten aus einer Datei im Rahmen eines Workflows finden Sie unter [diese Seite](../workflows/activities/load-file.md).
+>Auf dieser Seite wird beschrieben, wie Sie beim Erstellen eines eigenständigen E-Mail-Versands externe Profile aus einer Datei laden. Informationen zum Laden von Daten aus einer Datei im Kontext eines Workflows finden Sie unter [Diese Seite](../workflows/activities/load-file.md).
 
 ## Wichtige Informationen {#must-read}
 
-* Diese Funktion steht für **E-Mail-Sendungen** nur.
+* Diese Funktion ist verfügbar für **E-Mail-Sendungen** Nur.
 * Unterstützte Dateiformate sind: Text (TXT) und kommagetrennte Werte (CSV).
 * Sie können keine [Kontrollgruppen](control-group.md) verwenden, wenn Sie die Zielgruppenpopulation aus einer externen Datei laden.
 
@@ -51,20 +51,20 @@ Profile aus der Eingabedatei werden nicht zur Datenbank hinzugefügt. Sie werden
 Gehen Sie wie folgt vor, um Profile aus einer Datei in Ihren E-Mails auszuwählen:
 
 1. Öffnen Sie einen vorhandenen E-Mail-Versand oder [erstellen Sie einen neuen](../email/create-email.md).
-1. Im **Zielgruppe** klicken Sie auf die **Zielgruppe auswählen** Schaltfläche auswählen **Aus Datei auswählen**.
+1. In der **Zielgruppe** klicken Sie auf das Symbol **Zielgruppe auswählen** Schaltfläche und anschließend Auswählen **Aus Datei auswählen**.
 
    ![](assets/select-from-file.png){zoomable=&quot;yes&quot;}
 
-1. Wählen Sie die zu ladende lokale Datei aus. Das Dateiformat muss mit der [Beispieldatei](#sample-file).
+1. Wählen Sie die zu ladende lokale Datei aus. Das Dateiformat muss dem [Musterdatei](#sample-file).
 1. Im mittleren Abschnitt des Bildschirms können Sie eine Vorschau der Datenzuordnung anzeigen, um sie zu überprüfen.
 
    ![](assets/select-from-file-map.png)
 
-1. Geben Sie die Spalte an, die die E-Mail-Adresse aus dem **Adressfeld** Dropdown-Liste. Sie können auch die Spalte „Blockierungsliste“ auswählen, wenn diese Informationen in der Eingabedatei enthalten sind.
-1. Passen Sie die Spalteneinstellungen an und wie die Daten aus den verfügbaren Optionen formatiert werden.
+1. Geben Sie die Spalte an, die die E-Mail-Adresse aus der **Adressfeld** Dropdown-Liste. Sie können auch die Spalte „Blockierungsliste“ auswählen, wenn diese Informationen in der Eingabedatei enthalten sind.
+1. Passen Sie die Spalteneinstellungen an und wählen Sie aus den verfügbaren Optionen aus, wie die Daten formatiert werden.
 1. Klicken Sie auf **Bestätigen**, wenn die Einstellungen korrekt sind.
 
-Bei der Erstellung des Nachrichteninhalts können Sie mithilfe von Feldern aus der Eingabedatei eine Personalisierung hinzufügen. [Erfahren Sie, wie Sie Inhalte personalisieren](../personalization/personalize.md)
+Beim Erstellen des Nachrichteninhalts können Sie eine Personalisierung hinzufügen, indem Sie Felder aus der Eingabedatei verwenden. [Erfahren Sie, wie Sie Inhalte personalisieren](../personalization/personalize.md)
 
 ![](assets/select-external-perso.png){zoomable=&quot;yes&quot;}
 
@@ -75,10 +75,10 @@ Bei der Erstellung des Nachrichteninhalts können Sie mithilfe von Feldern aus d
 >title="Laden einer Zielgruppe aus einer Datei"
 >abstract="Unterstützte Dateiformate sind TXT und CSV. Erste Zeile für Spaltentitel verwenden. Dateiformat an die Beispieldatei anpassen, die im folgenden Link bereitgestellt wird."
 
-Stellen Sie beim Laden einer externen Datei zu Zielgruppenprofilen in Ihren Sendungen sicher, dass die Eingabedatei den unten stehenden Empfehlungen entspricht:
+Stellen Sie beim Laden einer externen Datei in Zielprofile in Ihren Sendungen sicher, dass die Eingabedatei den folgenden Empfehlungen entspricht:
 
 * Unterstützte Formate sind TXT und CSV.
-* Die erste Zeile in der Datei ist Ihre Spaltenüberschrift.
+* Die erste Zeile in der Datei ist die Spaltenüberschrift.
 * Passen Sie Ihr Dateiformat an die unten stehende Beispieldatei an:
 
   ```javascript

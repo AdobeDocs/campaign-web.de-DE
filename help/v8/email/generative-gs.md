@@ -22,7 +22,7 @@ ht-degree: 70%
 * **[Erste Schritte mit dem KI-Assistenten](generative-gs.md)**
 * [E-Mail-Generierung mit dem KI-Assistenten](generative-content.md)
 * [SMS-Generierung mit dem KI-Assistenten](generative-sms.md)
-* [Generieren von Push-Benachrichtigungen mit dem AI-Assistenten](generative-push.md)
+* [Generieren von Push-Benachrichtigungen mit dem KI-Assistenten](generative-push.md)
 
 >[!ENDSHADEBOX]
 
@@ -44,7 +44,7 @@ ht-degree: 70%
 >abstract="Der Zugriff auf diese Funktion unterliegt Ihrer Zustimmung zu den Adobe Experience Cloud Generative KI-Benutzerrichtlinien.  Eingabeaufforderungen, Kontextdaten, zusätzliche Informationen oder andere Eingaben, die Sie für diese Funktion bereitstellen, müssen an einen bestimmten Kontext gebunden sein, der Ihre Branding-Materialien, Website-Inhalte, Daten, Schemata für solche Daten, Vorlagen oder andere vertrauenswürdige Dokumente umfassen kann und keine personenbezogenen Daten enthalten darf (personenbezogene Daten umfassen alles, was mit einer bestimmten Person verknüpft werden kann). Sie sollten alle Ausgaben dieser Funktion auf ihre Richtigkeit hin überprüfen und sicherstellen, dass sie für Ihren Anwendungsfall geeignet sind."
 >additional-url="https://www.adobe.com/de/legal/licenses-terms/adobe-gen-ai-user-guidelines.html" text="Adobe Generative KI – Benutzungsrichtlinien"
 
-Der KI-Assistent ist ein wertvolles Werkzeug zur Verbesserung von E-Mail-Inhalten. Er vereinfacht die Personalisierung und Inhaltsverbesserung und optimiert Ihre E-Mail-Sendungen, um besser auf Ihre Zielgruppe einzugehen.
+Der KI-Assistent ist ein wertvolles Tool zur Verbesserung von E-Mail-Inhalten. Er vereinfacht die Personalisierung und Inhaltsverbesserung und optimiert Ihre E-Mail-Sendungen, um besser auf Ihre Zielgruppe einzugehen.
 
 Diese Funktion spart Zeit und gewährleistet konsistente Qualität, indem automatisch vollständige E-Mail-Inhalte generiert werden. Mit generativer KI können Sie mühelos ansprechende E-Mails erstellen und so die Effektivität und Effizienz Ihrer Kommunikation steigern.
 
@@ -54,20 +54,20 @@ Diese Funktion spart Zeit und gewährleistet konsistente Qualität, indem automa
 
 ## Schutzmechanismen und Begrenzungen {#generative-guardrails}
 
-Allgemeine Richtlinien für die Verwendung des KI-Assistenten in Campaign zur E-Mail-Generierung sind unten aufgeführt:
+Allgemeine Richtlinien zur Verwendung des KI-Assistenten in Campaign für die E-Mail-Generierung finden Sie unten:
 
 * Die Qualität des generierten Inhalts wird stark durch das von Ihnen definierte Marketing-Ziel bzw. die von Ihnen definierte Eingabeaufforderung beeinflusst. Verwenden Sie eine gut definierte Eingabeaufforderung, damit das generative KI-Modell korrekt implementiert wird. 
 * Laden Sie Marken-Assets hoch, um genaue Informationen zu Markeninhalten zu haben. Andernfalls basieren Inhalte auf öffentlich verfügbaren Informationen. Der hochgeladene Inhalt kann folgende Formate haben: PDF-, JPEG-, PNG- oder ZIP-Dateien (mit unterstützten Dateiformaten).
 * Die empfohlene maximale Größe für hochgeladene Marken-Assets beträgt 50MB. Größere Dateien oder viele Bilder können funktionieren, aber die Verarbeitungszeit verlängert sich.
-* Verwenden Sie eine von Adobe Campaign erstellte E-Mail-Vorlage, vorzugsweise [integrierte E-Mail-Vorlagen](../email/create-email-templates.md), einer markenspezifischen Vorlage oder einer benutzerdefinierten Vorlage, um Ihren E-Mail-Inhalt zu erstellen. Es wird eine E-Mail-Vorlage mit 8 bis 10 Bildern empfohlen.
+* Verwenden Sie in Adobe Campaign erstellte E-Mail-Vorlagen, vorzugsweise [Integrierte E-Mail-Vorlagen](../email/create-email-templates.md), eine markenspezifische Vorlage oder benutzerdefinierte Vorlage zum Erstellen Ihres E-Mail-Inhalts. Es wird eine E-Mail-Vorlage mit 8 bis 10 Bildern empfohlen.
 
 
-Die folgenden Einschränkungen gelten für den AI-Assistenten in Campaign:
+Die folgenden Einschränkungen gelten für den KI-Assistenten in Campaign:
 
-* Unterstützte Sprache ist nur Englisch.
+* Die unterstützte Sprache ist nur Englisch.
 * Nur für die Kanäle E-Mail, Push und SMS verfügbar.
-* GenAI-Inhalte sind möglicherweise nicht immer genau: Teilen Sie bitte Ihr Feedback mit, damit unsere Ingenieure die Modelle verfeinern können.
-* Sie können mehrere Marken-Assets hochladen, jedoch nur eines für eine bestimmte Generation nutzen.
+* GenAI-Inhalte sind möglicherweise nicht immer korrekt: Geben Sie Ihr Feedback, damit unsere Techniker die Modelle verfeinern können.
+* Sie können mehrere Marken-Assets hochladen, aber nur eines für eine bestimmte Generation nutzen.
 
 
 
@@ -94,7 +94,7 @@ Die folgenden Einschränkungen gelten für den AI-Assistenten in Campaign:
 <img alt="Push-Generierung" src="assets/do-not-localize/email-genai.jpeg">
 </a>
 <div>
-<a href="generative-push.md"><strong>Generieren von Push-Benachrichtigungen mit dem AI-Assistenten</strong></a>
+<a href="generative-push.md"><strong>Generieren von Push-Benachrichtigungen mit dem KI-Assistenten</strong></a>
 </div>
 <p></td>
 </tr></table>

@@ -4,7 +4,7 @@ title: Kampagnenberichte für den Push-Kanal
 description: Grundlegendes zu Kampagnenberichten für den Push-Kanal
 exl-id: 5e7ac2b8-b543-427b-846c-7c0b489cc21c
 source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '507'
 ht-degree: 100%
 
