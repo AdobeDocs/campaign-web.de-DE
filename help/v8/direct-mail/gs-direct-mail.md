@@ -4,7 +4,7 @@ title: Erste Schritte mit Briefpostsendungen
 description: Erfahren Sie, wie Sie mit Adobe Campaign Web Briefpostsendungen erstellen und durchführen.
 exl-id: a1c778e2-e950-4b8f-875a-87b39eb732c2
 source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 100%
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 >id="acw_homepage_welcome_rn1"
 >title="Briefpost"
 >abstract="Der Briefpost-Kanal kann jetzt in Workflows und für eigenständige Sendungen verwendet werden. Verwenden Sie den Briefpost-Offline-Kanal, um eine Extraktionsdatei zu erstellen, zu personalisieren und zu generieren und diese an Ihre Briefpost-Dienstleister weiterzugeben, die Ihrer Kundschaft Post zukommen lassen."
->additional-url="https://experienceleague.adobe.com/de/docs/campaign-web/v8/release-notes/release-notes" text="Siehe Versionshinweise"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=de" text="Siehe Versionshinweise"
 
 
 Briefpost ist ein Offline-Kanal, über den Sie Dateien erstellen können, um Ihren Kundinnen und Kunden personalisierte Sendungen wie Postkarten, Flyer oder Kataloge in großem Umfang zukommen zu lassen.
