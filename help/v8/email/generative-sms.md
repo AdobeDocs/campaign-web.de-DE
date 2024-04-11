@@ -6,10 +6,10 @@ badge: label="Beta"
 hide: true
 hidefromtoc: true
 exl-id: db0459e5-8759-42d9-8945-8c9667450527
-source-git-commit: 886fd47b52d08b0a1bfcbeca03929d48b5bc2a3f
-workflow-type: ht
-source-wordcount: '433'
-ht-degree: 100%
+source-git-commit: f249a73e25857e65e200f3cbd9516206aab918f9
+workflow-type: tm+mt
+source-wordcount: '473'
+ht-degree: 70%
 
 ---
 
@@ -46,35 +46,42 @@ Dieses praktische Tool liefert intelligente Vorschläge für die Verfeinerung Ih
 
    ![](assets/sms-genai-1.png){zoomable=&quot;yes&quot;}
 
-1. Passen Sie den Inhalt an, indem Sie im Feld **[!UICONTROL Prompt]** beschreiben, was Sie generieren möchten.
-
-   Wenn Sie Hilfe bei der Erstellung Ihres Prompts benötigen, rufen Sie die **[!UICONTROL Prompt-Bibliothek]** auf, die eine Vielzahl von Ideen für Prompts enthält, um Ihre Sendungen zu verbessern.
-
-   ![](assets/sms-genai-2.png){zoomable=&quot;yes&quot;}
-
-1. Aktivieren Sie die Option **[!UICONTROL Mit aktuellem Kontext verbessern]** für den KI-Assistenten, um neue Inhalte basierend auf Ihrem Versand, dem Versandnamen und der ausgewählten Zielgruppe zu personalisieren.
+1. Aktivieren Sie die **[!UICONTROL Originalinhalt verwenden]** Option für den KI-Assistenten, um neuen Inhalt basierend auf Ihrem Versand, dem Versandnamen und der ausgewählten Zielgruppe zu personalisieren.
 
    >[!IMPORTANT]
    >
-   > Ihr Prompt muss immer an einen bestimmten Kontext gebunden sein. Laden Sie hierzu ein Marken-Asset hoch oder aktivieren Sie die Option **[!UICONTROL Aktuellen Inhalt verbessern]**.
+   > Ihr Prompt muss immer an einen bestimmten Kontext gebunden sein, indem Sie ein Marken-Asset hochladen oder die Option **[!UICONTROL Aktuellen Inhalt verbessern]** aktivieren.
+
+1. Passen Sie den Inhalt an, indem Sie im Feld **[!UICONTROL Prompt]** beschreiben, was Sie generieren möchten.
+
+   Wenn Sie Hilfe bei der Erstellung Ihres Prompts benötigen, finden Sie in der **[!UICONTROL Prompt-Bibliothek]** eine Vielzahl von Ideen für Prompts, mit denen Sie Ihre Sendungen verbessern können.
+
+   ![](assets/sms-genai-2.png){zoomable=&quot;yes&quot;}
 
 1. Wählen Sie **[!UICONTROL Marken-Asset hochladen]** aus, um ein beliebiges Marken-Asset hinzuzufügen, das Inhalte enthält, die zusätzlichen Kontext für den KI-Assistenten bieten können.
 
-1. Wählen Sie die **[!UICONTROL Kommunikationsstrategie]** aus, die am besten Ihren Anforderungen entspricht. Dies wirkt sich auf den Ton und den Stil des generierten Textes aus.
+1. Passen Sie Ihre Eingabeaufforderung mit den verschiedenen Optionen an:
 
-1. Wählen Sie die **[!UICONTROL Sprache]** und den **[!UICONTROL Ton]** aus. die der generierte Text haben soll. Dadurch wird sichergestellt, dass der Text für Ihre Zielgruppe und Ihren Zweck geeignet ist.
+   * **[!UICONTROL Kommunikationsstrategie]**: Wählen Sie den gewünschten Kommunikationsansatz für den generierten Text aus.
+   * **[!UICONTROL Sprache]**: Wählen Sie die Sprache für den Inhalt der Variante aus.
+   * **[!UICONTROL Ton]**: Stellen Sie sicher, dass der Text Ihrer Zielgruppe und Ihrem Zweck entspricht.
+   * **[!UICONTROL Length]**: Wählen Sie die Länge Ihres Inhalts mit dem Regler für den Bereich aus.
 
    ![](assets/sms-genai-3.png){zoomable=&quot;yes&quot;}
 
-1. Verwenden Sie den Schieberegler, um die Länge des generierten Textes festzulegen.
-
 1. Wenn die Eingabeaufforderung fertig ist, klicken Sie auf **[!UICONTROL Generieren]**.
 
-1. Durchsuchen Sie die generierten **[!UICONTROL Varianten]** und klicken Sie auf **[!UICONTROL Anwenden]**, wenn Sie den richtigen Inhalt gefunden haben.
+1. Durchsuchen Sie die generierte **[!UICONTROL Varianten]** und klicken **[!UICONTROL Vorschau]** , um eine Vollbildversion der ausgewählten Variante anzuzeigen.
 
-   Klicken Sie auf **[!UICONTROL Vorschau]**, um eine Vollbildversion der ausgewählten Variante anzuzeigen.
+1. Navigieren Sie zum **[!UICONTROL Verfeinern]** -Option innerhalb der **[!UICONTROL Vorschau]** -Fenster, um auf zusätzliche Anpassungsfunktionen zuzugreifen und Ihre Variante auf Ihre Voreinstellungen anzupassen:
+
+   * **Vereinfachen der Sprache**: Der KI-Assistent hilft Ihnen, klare, knappe Botschaften zu schreiben, die jeder verstehen kann.
+
+   * **Rehrase**: Der KI-Assistent formuliert Ihre Nachricht um, damit die Dinge für verschiedene Zielgruppen interessant bleiben.
 
    ![](assets/sms-genai-4.png){zoomable=&quot;yes&quot;}
+
+1. Klicken Sie auf **[!UICONTROL Auswählen]**, sobald Sie den passenden Inhalt gefunden haben.
 
 1. Fügen Sie Personalisierungsfelder ein, um Ihre SMS-Inhalte auf der Grundlage von Profildaten anzupassen. [Weitere Informationen über die Personalisierung von Inhalten](../personalization/personalize.md)
 
@@ -84,4 +91,4 @@ Dieses praktische Tool liefert intelligente Vorschläge für die Verfeinerung Ih
 
    ![](assets/sms-genai-6.png){zoomable=&quot;yes&quot;}
 
-1. Wenn Sie Inhalt, Zielgruppe und Zeitplan definiert haben, können Sie den SMS-Versand vorbereiten. [Weitere Informationen](../monitor/prepare-send.md)
+Wenn Sie Inhalt, Zielgruppe und Zeitplan definiert haben, können Sie den SMS-Versand vorbereiten. [Weitere Informationen](../monitor/prepare-send.md)

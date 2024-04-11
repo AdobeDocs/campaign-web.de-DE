@@ -6,10 +6,10 @@ badge: label="Beta"
 hide: true
 hidefromtoc: true
 exl-id: a361f75d-63c2-4fdc-993c-f8414b18e13e
-source-git-commit: 886fd47b52d08b0a1bfcbeca03929d48b5bc2a3f
-workflow-type: ht
-source-wordcount: '435'
-ht-degree: 100%
+source-git-commit: f249a73e25857e65e200f3cbd9516206aab918f9
+workflow-type: tm+mt
+source-wordcount: '546'
+ht-degree: 74%
 
 ---
 
@@ -26,13 +26,22 @@ ht-degree: 100%
 
 >[!ENDSHADEBOX]
 
-Sobald Sie Ihre E-Mails erstellt und personalisiert haben, können Sie Ihren Inhalt mithilfe des KI-Assistenten in Campaign, der auf generativer KI basiert, auf die nächste Stufe bringen.
 
 Der KI-Assistenten kann Ihnen dabei helfen, die Wirkung Ihrer Sendungen zu optimieren, indem Ihnen verschiedene Inhalte vorgeschlagen werden, die mit größerer Wahrscheinlichkeit bei Ihrer Zielgruppe ankommen.
+
+Mit dem KI-Assistenten können Sie Ihren Inhalt auf neue Höhen erweitern. Sie kann beispielsweise für Folgendes verwendet werden:
+
+* **Zusammenfassung**: Zusammenfasst längere Inhalte in kurzen Zusammenfassungen für Push-Benachrichtigungen. Machen Sie sich direkt zur Sache und stellen Sie sicher, dass die Empfänger die Schlüsselnachricht sofort verstehen.
+* **Laborate**: Erweitern Sie die Themen in Ihren Push-Benachrichtigungen und geben Sie zusätzliche Details und Kontext für ein besseres Verständnis ein.
+* **Vereinfachen der Sprache**: Sorgen Sie mithilfe einer klaren und präzisen Sprache dafür, dass Ihre Push-Benachrichtigungen für eine breitere Zielgruppe zugänglich sind.
+* **Rehrase**: Vermeiden Sie Wiederholungen, indem Sie Ihre Nachricht vom AI-Assistenten auf unterschiedliche Weise neu schreiben lassen.
+* **Ton ändern**: Ändern Sie den emotionalen Ton Ihrer Push-Benachrichtigungen. Unabhängig davon, ob Sie informativ, spielerisch oder dringend klingen möchten, kann der KI-Assistent die Nachricht entsprechend anpassen.
 
 >[!NOTE]
 >
 >Bevor Sie mit der Verwendung dieser Funktion beginnen, lesen Sie die entsprechenden Informationen zu [Schutzmechanismen und Begrenzungen](generative-gs.md#guardrails-and-limitations).
+
+Im folgenden Beispiel werden wir den KI-Assistenten nutzen, um überzeugende Botschaften zu erstellen und so ein ansprechenderes Kundenerlebnis zu schaffen.
 
 1. Nachdem Sie den Versand Ihrer Push-Benachrichtigung erstellt und konfiguriert haben, klicken Sie auf **[!UICONTROL Inhalt bearbeiten]**.
 
@@ -46,9 +55,9 @@ Der KI-Assistenten kann Ihnen dabei helfen, die Wirkung Ihrer Sendungen zu optim
 
    ![](assets/push-genai-1.png){zoomable=&quot;yes&quot;}
 
-1. Passen Sie den Inhalt an, indem Sie im Feld **[!UICONTROL Prompt]** beschreiben, was Sie generieren möchten.
+1. Passen Sie den Inhalt an, indem Sie im Feld **[!UICONTROL Prompt]** beschreiben, was Sie generieren möchten.
 
-   Wenn Sie Hilfe bei der Erstellung Ihres Prompts benötigen, rufen Sie die **[!UICONTROL Prompt-Bibliothek]** auf, die eine Vielzahl von Ideen für Prompts enthält, um Ihre Sendungen zu verbessern.
+   Wenn Sie Hilfe bei der Erstellung Ihres Prompts benötigen, finden Sie in der **[!UICONTROL Prompt-Bibliothek]** eine Vielzahl von Ideen für Prompts, mit denen Sie Ihre Sendungen verbessern können.
 
    ![](assets/push-genai-2.png){zoomable=&quot;yes&quot;}
 
@@ -87,3 +96,4 @@ Der KI-Assistenten kann Ihnen dabei helfen, die Wirkung Ihrer Sendungen zu optim
    ![](assets/push-genai-7.png){zoomable=&quot;yes&quot;}
 
 1. Wenn Sie Inhalt, Zielgruppe und Zeitplan definiert haben, können Sie den Push-Versand vorbereiten. [Weitere Informationen](../monitor/prepare-send.md)
+
