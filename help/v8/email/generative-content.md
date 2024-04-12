@@ -6,10 +6,10 @@ badge: label="Beta"
 exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
 hide: true
 hidefromtoc: true
-source-git-commit: 23c43fad6076fc1dd1eaec2aee1664773ac7ce09
+source-git-commit: cc73a638980b9dd6e56d630ad94d70475356e390
 workflow-type: tm+mt
-source-wordcount: '1097'
-ht-degree: 53%
+source-wordcount: '1378'
+ht-degree: 47%
 
 ---
 
@@ -26,29 +26,21 @@ ht-degree: 53%
 
 >[!ENDSHADEBOX]
 
-Nachdem Sie Ihre E-Mails erstellt und personalisiert haben, verwenden Sie den KI-Assistenten von Journey Optimizer in Campaign mit generativer KI, um Ihren Inhalt auf die nächste Stufe zu bringen.
-
-Der KI-Assistenten kann Ihnen dabei helfen, die Wirkung Ihrer Sendungen zu optimieren, indem Ihnen verschiedene Inhalte vorgeschlagen werden, die mit größerer Wahrscheinlichkeit bei Ihrer Zielgruppe ankommen.
-
 >[!NOTE]
 >
 >Bevor Sie mit der Verwendung dieser Funktion beginnen, lesen Sie die entsprechenden Informationen zu [Schutzmechanismen und Begrenzungen](generative-gs.md#guardrails-and-limitations).
 
-## Inhaltsgenerierung mit dem KI-Assistenten {#generative-text}
+Sobald Sie Ihre E-Mails erstellt und personalisiert haben, können Sie Ihren Inhalt mithilfe des KI-Assistenten in Campaign, der auf generativer KI basiert, auf die nächste Stufe bringen.
 
-So kann Ihr KI-Assistent Ihnen beim Schreiben ansprechender E-Mails helfen:
+Der KI-Assistent kann Ihnen dabei helfen, die Wirkung Ihrer Sendungen zu optimieren, indem er komplette E-Mails, zielgerichtete Textinhalte und sogar Bilder generiert, die speziell auf Ihre Zielgruppe abgestimmt sind. Dadurch werden Ihre E-Mail-Kampagnen für eine bessere Interaktion optimiert.
 
-* **Zusammenfassung**: Lange Informationen können E-Mail-Empfänger überlasten. Verwenden Sie den KI-Assistenten, um wichtige Punkte in klaren, präzisen Zusammenfassungen zusammenzufassen, die Aufmerksamkeit erregen und sie dazu ermutigen, mehr zu lesen.
+Mit Ihren E-Mail-Kampagnen können Sie mit dem KI-Assistenten vollständige E-Mails, Texte oder Bilder generieren. Auf den folgenden Registerkarten erfahren Sie, wie Sie den KI-Assistenten in Campaign verwenden.
 
-* **Laborate**: Der KI-Assistent kann Ihnen dabei helfen, zu bestimmten Themen zu erweitern und zusätzliche Details für ein besseres Verständnis und eine bessere Interaktion bereitzustellen.
+>[!BEGINTABS]
 
-* **Vereinfachen der Sprache**: Nutzen Sie den KI-Assistenten, um Ihre Sprache zu vereinfachen und für eine breitere Zielgruppe Klarheit und Barrierefreiheit zu gewährleisten.
+>[!TAB Vollständige E-Mail-Generierung]
 
-* **Rehrase**:Der KI-Assistent kann Ihre Nachricht auf unterschiedliche Weise umformulieren und so Ihr Schreiben für verschiedene Zielgruppen frisch und ansprechend gestalten.
-
-* **Ton ändern**: Der Ton Ihrer E-Mail sollte bei Ihrer Zielgruppe Resonanz finden. Unabhängig davon, ob Sie informativ, spielerisch oder überzeugend klingen möchten, kann der KI-Assistent die Nachricht entsprechend anpassen.
-
-Im folgenden Beispiel werden wir den KI-Assistenten nutzen, um den Inhalt unserer E-Mail-Einladung für unsere bevorstehende Veranstaltung zu verbessern.
+Im folgenden Beispiel nutzen wir den KI-Assistenten, um eine vorhandene E-Mail zu verfeinern und sie für ein spezielles Ereignis anzupassen.
 
 1. Nachdem Sie Ihren E-Mail-Versand erstellt und konfiguriert haben, klicken Sie auf **[!UICONTROL Inhalt bearbeiten]**.
 
@@ -56,25 +48,74 @@ Im folgenden Beispiel werden wir den KI-Assistenten nutzen, um den Inhalt unsere
 
 1. Personalisieren Sie Ihre E-Mail nach Bedarf und greifen Sie auf die **[!UICONTROL KI-Assistent]** Menü.
 
-   Sie können auch eine **[!UICONTROL Textkomponente]** auswählen, um nur einen bestimmten Inhalt zu erfassen.
+   ![](assets/full-email-1.png){zoomable=&quot;yes&quot;}
+
+1. Aktivieren Sie die **[!UICONTROL Originalinhalt verwenden]** Option für den KI-Assistenten, um neuen Inhalt basierend auf Ihrem Versand, dem Versandnamen und der ausgewählten Zielgruppe zu personalisieren.
+
+   Ihr Prompt muss immer an einen bestimmten Kontext gebunden sein, indem Sie ein Marken-Asset hochladen oder die Option **[!UICONTROL Aktuellen Inhalt verbessern]** aktivieren.
+
+1. Passen Sie den Inhalt an, indem Sie im Feld **[!UICONTROL Prompt]** beschreiben, was Sie generieren möchten.
+
+   Wenn Sie Hilfe bei der Erstellung Ihres Prompts benötigen, finden Sie in der **[!UICONTROL Prompt-Bibliothek]** eine Vielzahl von Ideen für Prompts, mit denen Sie Ihre Sendungen verbessern können.
+
+   ![](assets/full-email-2.png){zoomable=&quot;yes&quot;}
+
+1. Sie können die **[!UICONTROL Betreff]** oder **[!UICONTROL Preheader]** , um sie in die Variantengenerierung aufzunehmen.
+
+1. Klicks **[!UICONTROL Hochladen von Marken-Assets]** , um beliebige Marken-Assets hinzuzufügen, die Inhalte enthalten, die zusätzlichen Kontext im AI-Assistenten bieten können, oder wählen Sie einen zuvor hochgeladenen Kontext aus.
+
+   ![](assets/full-email-3.png){zoomable=&quot;yes&quot;}
+
+1. Passen Sie Ihre Eingabeaufforderung mit den verschiedenen Optionen an:
+
+   * **[!UICONTROL Kommunikationsstrategie]**: Wählen Sie den für Ihren generierten Text am besten geeigneten Kommunikationsstil aus.
+   * **[!UICONTROL Sprache]**: Wählen Sie die Sprache aus, in der der Inhalt erstellt werden soll.
+   * **[!UICONTROL Ton]**: Der Ton Ihrer E-Mail sollte bei Ihrer Zielgruppe Resonanz finden. Unabhängig davon, ob Sie informativ, spielerisch oder überzeugend klingen möchten, kann der KI-Assistent die Nachricht entsprechend anpassen.
+   * **[!UICONTROL Länge]**: Wählen Sie mit dem Regler für den Bereich die gewünschte Länge des Inhalts aus.
+
+   ![](assets/full-email-4.png){zoomable=&quot;yes&quot;}
+
+1. Wenn die Eingabeaufforderung fertig ist, klicken Sie auf **[!UICONTROL Generieren]**.
+
+1. Durchsuchen Sie die generierte **[!UICONTROL Varianten]** und klicken **[!UICONTROL Vorschau]** , um eine Vollbildversion der ausgewählten Variante anzuzeigen.
+
+1. Navigieren Sie zum **[!UICONTROL Verfeinern]** -Option innerhalb der **[!UICONTROL Vorschau]** -Fenster, um auf zusätzliche Anpassungsfunktionen zuzugreifen:
+
+   * **Rehrase**: Der KI-Assistent kann Ihre Nachricht auf unterschiedliche Weise umformulieren und so Ihr Schreiben für verschiedene Zielgruppen frisch und ansprechend gestalten.
+
+   * **Einfache Sprache verwenden**: Nutzen Sie den KI-Assistenten, um Ihre Sprache zu vereinfachen und für eine breitere Zielgruppe Klarheit und Barrierefreiheit zu gewährleisten.
+
+   ![](assets/full-email-5.png){zoomable=&quot;yes&quot;}
+
+1. Klicken Sie auf **[!UICONTROL Auswählen]**, sobald Sie den passenden Inhalt gefunden haben.
+
+1. Fügen Sie Personalisierungsfelder ein, um Ihre E-Mail-Inhalte auf der Grundlage von Profildaten anzupassen. Klicken Sie dann auf die **[!UICONTROL Inhalt simulieren]** zur Steuerung des Renderings und zur Überprüfung der Personalisierungseinstellungen mit Testprofilen. [Weitere Informationen](../preview-test/preview-content.md)
+
+   ![](assets/full-email-6.png){zoomable=&quot;yes&quot;}
+
+Wenn Sie Inhalt, Zielgruppe und Zeitplan definiert haben, können Sie den E-Mail-Versand vorbereiten. [Weitere Informationen](../monitor/prepare-send.md)
+
+>[!TAB Texterzeugung]
+
+Im folgenden Beispiel werden wir den KI-Assistenten nutzen, um den Inhalt unserer E-Mail-Einladung für unsere bevorstehende Veranstaltung zu verbessern.
+
+1. Nachdem Sie Ihren E-Mail-Versand erstellt und konfiguriert haben, klicken Sie auf **[!UICONTROL Inhalt bearbeiten]**.
+
+   Weitere Informationen zur Konfiguration Ihres E-Mail-Versands finden Sie auf [dieser Seite](../email/create-email-content.md).
+
+1. Wählen Sie eine **[!UICONTROL Textkomponente]** , um nur einen bestimmten Inhalt anzusprechen. und greifen Sie auf **[!UICONTROL KI-Assistent]** Menü.
 
    ![](assets/text-genai-1.png){zoomable=&quot;yes&quot;}
 
 1. Aktivieren Sie die **[!UICONTROL Originalinhalt verwenden]** Option für den KI-Assistenten, um neuen Inhalt basierend auf Ihrem Versand, dem Versandnamen und der ausgewählten Zielgruppe zu personalisieren.
 
-   >[!IMPORTANT]
-   >
-   > Ihr Prompt muss immer an einen bestimmten Kontext gebunden sein, indem Sie ein Marken-Asset hochladen oder die Option **[!UICONTROL Aktuellen Inhalt verbessern]** aktivieren.
+   Ihr Prompt muss immer an einen bestimmten Kontext gebunden sein, indem Sie ein Marken-Asset hochladen oder die Option **[!UICONTROL Aktuellen Inhalt verbessern]** aktivieren.
 
 1. Passen Sie den Inhalt an, indem Sie im Feld **[!UICONTROL Prompt]** beschreiben, was Sie generieren möchten.
 
    Wenn Sie Hilfe bei der Erstellung Ihres Prompts benötigen, finden Sie in der **[!UICONTROL Prompt-Bibliothek]** eine Vielzahl von Ideen für Prompts, mit denen Sie Ihre Sendungen verbessern können.
 
    ![](assets/text-genai-2.png){zoomable=&quot;yes&quot;}
-
-1. Sie können die **[!UICONTROL Betreff]** oder **[!UICONTROL Preheader]** , um sie in die Variantengenerierung aufzunehmen.
-
-   Beachten Sie, dass dies verfügbar ist, wenn Sie keine bestimmte Textkomponente ausgewählt haben.
 
 1. Klicken Sie auf **[!UICONTROL Marken-Asset hochladen]**, um ein beliebiges Marken-Asset hinzuzufügen, das Inhalte enthält, die zusätzlichen Kontext für den KI-Assistenten bieten können.
 
@@ -85,7 +126,7 @@ Im folgenden Beispiel werden wir den KI-Assistenten nutzen, um den Inhalt unsere
    * **[!UICONTROL Kommunikationsstrategie]**: Wählen Sie den gewünschten Kommunikationsansatz für den generierten Text aus.
    * **[!UICONTROL Sprache]**: Wählen Sie die Sprache für den Inhalt der Variante aus.
    * **[!UICONTROL Ton]**: Stellen Sie sicher, dass der Text Ihrer Zielgruppe und Ihrem Zweck entspricht.
-   * **[!UICONTROL Length]**: Wählen Sie die Länge Ihres Inhalts mit dem Regler für den Bereich aus. Nur verfügbar, wenn Sie eine bestimmte Textkomponente ausgewählt haben.
+   * **[!UICONTROL Länge]**: Wählen Sie die Länge Ihres Inhalts mit dem Regler für den Bereich aus.
 
    ![](assets/text-genai-4.png){zoomable=&quot;yes&quot;}
 
@@ -93,11 +134,21 @@ Im folgenden Beispiel werden wir den KI-Assistenten nutzen, um den Inhalt unsere
 
 1. Durchsuchen Sie die generierte **[!UICONTROL Varianten]** und klicken **[!UICONTROL Vorschau]** , um eine Vollbildversion der ausgewählten Variante anzuzeigen.
 
-1. Navigieren Sie zum **[!UICONTROL Verfeinern]** -Option innerhalb der **[!UICONTROL Vorschau]** um auf zusätzliche Anpassungsfunktionen zuzugreifen und Ihre Variante auf Ihre Voreinstellungen anzupassen.
+1. Navigieren Sie zum **[!UICONTROL Verfeinern]** -Option innerhalb der **[!UICONTROL Vorschau]** -Fenster, um auf zusätzliche Anpassungsfunktionen zuzugreifen:
 
-   Klicken Sie auf **[!UICONTROL Auswählen]**, sobald Sie den passenden Inhalt gefunden haben.
+   * **Verwenden als Referenzinhalt**: Die ausgewählte Variante dient als Referenzinhalt für die Generierung anderer Ergebnisse.
+
+   * **Laborate**: Der KI-Assistent kann Ihnen dabei helfen, zu bestimmten Themen zu erweitern und zusätzliche Details für ein besseres Verständnis und eine bessere Interaktion bereitzustellen.
+
+   * **Zusammenfassung**: Lange Informationen können E-Mail-Empfänger überlasten. Verwenden Sie den KI-Assistenten, um wichtige Punkte in klaren, präzisen Zusammenfassungen zusammenzufassen, die Aufmerksamkeit erregen und sie dazu ermutigen, mehr zu lesen.
+
+   * **Rehrase**:Der KI-Assistent kann Ihre Nachricht auf unterschiedliche Weise umformulieren und so Ihr Schreiben für verschiedene Zielgruppen frisch und ansprechend gestalten.
+
+   * **Einfache Sprache verwenden**: Nutzen Sie den KI-Assistenten, um Ihre Sprache zu vereinfachen und für eine breitere Zielgruppe Klarheit und Barrierefreiheit zu gewährleisten.
 
    ![](assets/text-genai-5.png){zoomable=&quot;yes&quot;}
+
+1. Klicken Sie auf **[!UICONTROL Auswählen]**, sobald Sie den passenden Inhalt gefunden haben.
 
 1. Fügen Sie Personalisierungsfelder ein, um Ihre E-Mail-Inhalte auf der Grundlage von Profildaten anzupassen. Klicken Sie dann auf die **[!UICONTROL Inhalt simulieren]** zur Steuerung des Renderings und zur Überprüfung der Personalisierungseinstellungen mit Testprofilen. [Weitere Informationen](../preview-test/preview-content.md)
 
@@ -105,17 +156,9 @@ Im folgenden Beispiel werden wir den KI-Assistenten nutzen, um den Inhalt unsere
 
 Wenn Sie Inhalt, Zielgruppe und Zeitplan definiert haben, können Sie den E-Mail-Versand vorbereiten. [Weitere Informationen](../monitor/prepare-send.md)
 
-## Bildgenerierung mit dem KI-Assistenten {#generative-image}
+>[!TAB Bildgenerierung]
 
-Nutzen Sie den KI-Assistenten, um vielfältige und maßgeschneiderte Visualisierungen für Ihre E-Mail-Kampagnen zu erstellen. Sie kann beispielsweise für Folgendes verwendet werden:
-
-* **Erzeugen**: Erstellen Sie eine Vielzahl ansprechender Bilder, die speziell für Ihre E-Mail-Kampagnen entwickelt wurden. Die präzise Steuerung der Einstellungen wie Farbpalette, Blitzbildung und Komposition ermöglicht es Ihnen, bei unterschiedlichen Zielgruppensegmenten zu Resonanz zu gelangen und Ihre individuellen Kampagnenziele zu erreichen.
-
-* **Ähnliche generieren**: Verwenden Sie den KI-Assistenten, um Bilder zu generieren, die einer ausgewählten Variante ähnlich sind.
-
-* **Marken-Asset**: Optimieren Sie die Bildauswahl für E-Mail-Kampagnen, indem Sie sowohl interne Marken-Assets als auch externe Quellen wie Adobe Firefly nutzen.
-
-Im folgenden Beispiel erfahren Sie, wie Sie den KI-Assistenten nutzen können, um Ihren Inhalt zu optimieren und zu verbessern und so ein benutzerfreundlicheres Erlebnis zu gewährleisten. Führen Sie folgende Schritte aus:
+Im folgenden Beispiel erfahren Sie, wie Sie den KI-Assistenten nutzen können, um Ihre Assets zu optimieren und zu verbessern und so ein benutzerfreundlicheres Erlebnis zu gewährleisten.
 
 1. Nachdem Sie Ihren E-Mail-Versand erstellt und konfiguriert haben, klicken Sie auf **[!UICONTROL Inhalt bearbeiten]**.
 
@@ -137,9 +180,7 @@ Im folgenden Beispiel erfahren Sie, wie Sie den KI-Assistenten nutzen können, u
 
 1. Klicken Sie auf **[!UICONTROL Marken-Asset hochladen]**, um ein beliebiges Marken-Asset hinzuzufügen, das Inhalte enthält, die zusätzlichen Kontext für den KI-Assistenten bieten können.
 
-   >[!IMPORTANT]
-   >
-   > Ihr Prompt muss immer an einen bestimmten Kontext gebunden sein.
+   Ihr Prompt muss immer an einen bestimmten Kontext gebunden sein.
 
 1. Passen Sie Ihre Eingabeaufforderung mit den verschiedenen Optionen an:
 
@@ -170,3 +211,11 @@ Im folgenden Beispiel erfahren Sie, wie Sie den KI-Assistenten nutzen können, u
    ![](assets/image-genai-7.png){zoomable=&quot;yes&quot;}
 
 1. Wenn Sie Inhalt, Zielgruppe und Zeitplan definiert haben, können Sie den E-Mail-Versand vorbereiten. [Weitere Informationen](../monitor/prepare-send.md)
+
+>[!ENDTABS]
+
+## Anleitungsvideo {#video}
+
+Erfahren Sie, wie Sie mit dem KI-Assistenten vollständige E-Mails, Texte oder Bilder generieren können.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3428341)
