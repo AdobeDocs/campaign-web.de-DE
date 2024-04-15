@@ -3,10 +3,10 @@ audience: end-user
 title: Verwenden der Workflow-Aktivität „Abstimmung“
 description: Erfahren Sie, wie Sie die Workflow-Aktivität „Abstimmung“ verwenden
 exl-id: 33f2aa76-1e75-4545-805a-016c95824e09
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+source-git-commit: 935fba929c26d6d7b3057ee7c24148215a04e45e
 workflow-type: tm+mt
-source-wordcount: '860'
-ht-degree: 100%
+source-wordcount: '858'
+ht-degree: 99%
 
 ---
 
@@ -74,7 +74,7 @@ Mit der Aktivität **Anreicherung** können Sie zusätzliche Daten definieren, d
 
 Gehen Sie wie folgt vor, um die Aktivität **Abstimmung** zu konfigurieren:
 
-1. Ziehen Sie eine **Abstimmungs**-Aktivität per Drag-and-Drop in Ihren Workflow. Diese Aktivität sollten nach einer Transition mit einer Population eingefügt werden, deren Zielgruppendimension nicht direkt aus Adobe Campaign stammt.
+1. Hinzufügen einer **Abstimmung** in Ihren Workflow ein. Diese Aktivität sollten nach einer Transition mit einer Population eingefügt werden, deren Zielgruppendimension nicht direkt aus Adobe Campaign stammt.
 
 1. Wählen Sie die neue Zielgruppendimension aus. Mit einer Dimension können Sie die Zielgruppen definieren: Empfängerinnen und Empfänger, Abonnentinnen und Abonnenten der App, Benutzerinnen und Benutzer, Abonnentinnen und Abonnenten usw. [Erfahren Sie mehr über Zielgruppendimensionen](../../audience/about-recipients.md#targeting-dimensions)
 

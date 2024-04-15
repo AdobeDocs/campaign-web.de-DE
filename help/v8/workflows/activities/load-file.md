@@ -3,10 +3,10 @@ audience: end-user
 title: Verwenden der Workflow-Aktivität „Datei laden“
 description: So verwenden Sie die Workflow-Aktivität „Datei laden“
 exl-id: 230177e2-1926-451a-8a66-0db962ada514
-source-git-commit: 1eaa2710e682e9038befc5d0752c064e2bb48521
+source-git-commit: 935fba929c26d6d7b3057ee7c24148215a04e45e
 workflow-type: tm+mt
-source-wordcount: '394'
-ht-degree: 100%
+source-wordcount: '392'
+ht-degree: 97%
 
 ---
 
@@ -83,7 +83,7 @@ Diese Aktivität kann mit einer [Abstimmungs](reconciliation.md)-Aktivität verw
 
 Gehen Sie wie folgt vor, um die Aktivität **Datei laden** zu konfigurieren:
 
-1. Verschieben Sie eine Aktivität **Datei laden** per Drag-and-Drop in Ihren Workflow. Klicken Sie auf **Aus Datei auswählen**.
+1. Hinzufügen einer **Datei laden** in Ihren Workflow ein. Klicken Sie auf **Aus Datei auswählen**.
 
 1. Wählen Sie die zu verwendende lokale Datei aus. Das Format muss dieser [Beispieldatei](../../audience/file-audience.md#sample-file) entsprechen.
 
