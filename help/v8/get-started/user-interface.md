@@ -6,7 +6,7 @@ exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 source-git-commit: c2382359ee6777277fa9dd4f8fd4282fb2381b38
 workflow-type: tm+mt
 source-wordcount: '2213'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -499,23 +499,23 @@ Deprecated IDs - to remove in GA: -->
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_options"
->title="Dateioptionen übertragen"
->abstract="Dateioptionen übertragen"
+>title="Dateiübertragungsoptionen"
+>abstract="Dateiübertragungsoptionen"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_activity"
->title="Aktivität &quot;Dateiübertragung&quot;"
->abstract="Aktivität &quot;Dateiübertragung&quot;"
+>title="Dateiübertragungsaktivität"
+>abstract="Dateiübertragungsaktivität"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_remoteserver"
->title="Remote-Server für Dateiübertragung"
->abstract="Remote-Server für Dateiübertragung"
+>title="Remote-Server für die Dateiübertragung"
+>abstract="Remote-Server für die Dateiübertragung"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_source"
->title="Dateiquelle übertragen"
->abstract="Dateiquelle übertragen"
+>title="Dateiübertragungsquelle"
+>abstract="Dateiübertragungsquelle"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_advancedoptions_delete_file"
@@ -534,13 +534,13 @@ Deprecated IDs - to remove in GA: -->
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_historization"
->title="Verlaufserstellung"
->abstract="Verlaufserstellung"
+>title="Dateiverlaufserstellung"
+>abstract="Dateiverlaufserstellung"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_process_missing_file"
->title="Verarbeiten fehlender Dateien"
->abstract="Verarbeiten fehlender Dateien"
+>title="Fehlen von Dateien verarbeiten"
+>abstract="Fehlen von Dateien verarbeiten"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_process_errors"
