@@ -15,7 +15,7 @@ ht-degree: 97%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile"
 >title="Aktivität „Datei laden“"
->abstract="Die Aktivität **Datei laden** ist eine **Daten-Management**-Aktivität Mit dieser Aktivität können Sie mit Daten arbeiten, die in einer externen Datei gespeichert sind."
+>abstract="Die Aktivität **Datei laden** ist eine **Daten-Management**-Aktivität. Mit dieser Aktivität kann mit Daten gearbeitet werden, die in einer externen Datei gespeichert sind."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_samplefile"

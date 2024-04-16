@@ -4,7 +4,7 @@ title: Laden einer E-Mail-Zielgruppe aus einer Datei
 description: Erfahren Sie, wie Sie Profile aus einer externen Datei laden, um eine E-Mail-Zielgruppe zu erstellen.
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
 source-git-commit: a0da65d8facedb3730947eb969e362a367e4d317
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '657'
 ht-degree: 100%
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_select"
 >title="Auswahl der Datei"
->abstract="Wählen Sie die hochzuladende lokale Datei aus. Unterstützte Formate sind TXT und CSV. Richten Sie Ihr Dateiformat an der unten verlinkten Beispieldatei aus."
+>abstract="Die hochzuladende lokale Datei auswählen. Unterstützte Formate sind TXT und CSV. Das Dateiformat an die unten verlinkte Beispieldatei anpassen."
 
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_columns"
@@ -30,7 +30,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_preview"
 >title="Anzeige der Datei in der Vorschau"
->abstract="Überprüfen Sie die Spaltenvorschau der externen Datei. Dieser Bildschirm zeigt nur maximal 30 Einträge an."
+>abstract="Die Spaltenvorschau der externen Datei überprüfen. Dieser Bildschirm zeigt nur maximal 30 Einträge an."
 
 Über die Web-Benutzeroberfläche von Adobe Campaign können Sie in einer externen Datei gespeicherte Zielprofile verwenden. Sobald die Profile geladen sind, stehen alle Felder der Eingabedatei zur Verfügung, um Ihren Versand zu personalisieren [Erfahren Sie, wie Sie Ihre Inhalte personalisieren können](../personalization/personalize.md).
 
