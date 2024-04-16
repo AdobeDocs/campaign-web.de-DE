@@ -15,7 +15,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_reporting_email_exportation"
 >title="Exportieren der Berichte"
->abstract="Klicken Sie auf die Schaltfläche **Exportieren**, um diese Metriken im PDF- oder CSV-Format zu exportieren, sodass sie freigegeben oder gedruckt werden können."
+>abstract="Auf die Schaltfläche **Exportieren** klicken, um diese Metriken im PDF- oder CSV-Format zu exportieren, sodass sie freigegeben oder gedruckt werden können."
 
 Sie können Ihre verschiedenen Berichte einfach in das PDF- oder CSV-Format exportieren, sodass Sie sie freigeben, bearbeiten oder drucken können.
 
