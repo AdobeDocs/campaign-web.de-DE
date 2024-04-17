@@ -3,10 +3,10 @@ audience: end-user
 title: Erkunden der Benutzeroberfläche
 description: Adobe Campaign Web-Benutzeroberfläche
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: c2382359ee6777277fa9dd4f8fd4282fb2381b38
+source-git-commit: 3a50c1bec5da58c7cca6c7334ae054e10c3c99df
 workflow-type: tm+mt
-source-wordcount: '2213'
-ht-degree: 100%
+source-wordcount: '2279'
+ht-degree: 98%
 
 ---
 
@@ -547,7 +547,59 @@ Deprecated IDs - to remove in GA: -->
 >title="Fehler verarbeiten"
 >abstract="Fehler verarbeiten"
 
+<!-- Delivery alerting -->
+
 >[!CONTEXTUALHELP]
->id="acw_deliveries_alerting"
->title="Versandwarnung"
+>id="acw_delivery_alerting_criteria"
+>title="Dashboard mit Versandwarnungsbedingungen"
+>abstract="Dashboard mit Versandwarnungsbedingungen"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_alerting_dashboards"
+>title="Versandwarnungs-Dashboard"
+>abstract="Versandwarnungs-Dashboard"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_alerting_criteria_create"
+>title="Versandwarnungsbedingungen erstellen"
+>abstract="Versandwarnungsbedingungen erstellen"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_alerting_criteria_create_indicators"
+>title="Zu Warnungen hinzuzufügende Indikatoren"
+>abstract="Zu Warnungen hinzuzufügende Indikatoren"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_alerting_criteria_create_alert"
+>title="Warnungstyp"
+>abstract="Warnungstyp"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_alerting_criteria_create_frequency"
+>title="Frequenz der Bedingung"
+>abstract="Frequenz der Bedingung"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_alerting_create_criteria_add"
+>title="Versandwarnungsbedingungen        "
+>abstract="Versandwarnungsbedingungen        "
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_alerting_create_general"
+>title="Allgemeine Versandwarnungsbedingungen"
 >abstract="Versandwarnung"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_alerting_create_criteria_parameters"
+>title="Versandwarnungsbedingungen"
+>abstract="Versandwarnung"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_alerting_dashboard_alerts"
+>title="Versandwarnungen gesendet"
+>abstract="Versandwarnungen gesendet"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_alerting_dashboard_history"
+>title="Versandwarnungsverlauf"
+>abstract="Versandwarnungsverlauf"
