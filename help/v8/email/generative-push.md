@@ -6,10 +6,10 @@ badge: label="Beta"
 hide: true
 hidefromtoc: true
 exl-id: a361f75d-63c2-4fdc-993c-f8414b18e13e
-source-git-commit: f249a73e25857e65e200f3cbd9516206aab918f9
+source-git-commit: bc27d8e6e41cb59a7221a893d4c00d3647db887b
 workflow-type: tm+mt
-source-wordcount: '546'
-ht-degree: 74%
+source-wordcount: '485'
+ht-degree: 60%
 
 ---
 
@@ -29,14 +29,6 @@ ht-degree: 74%
 
 Der KI-Assistenten kann Ihnen dabei helfen, die Wirkung Ihrer Sendungen zu optimieren, indem Ihnen verschiedene Inhalte vorgeschlagen werden, die mit größerer Wahrscheinlichkeit bei Ihrer Zielgruppe ankommen.
 
-Mit dem KI-Assistenten können Sie Ihren Inhalt auf neue Höhen erweitern. Sie kann beispielsweise für Folgendes verwendet werden:
-
-* **Zusammenfassung**: Zusammenfasst längere Inhalte in kurzen Zusammenfassungen für Push-Benachrichtigungen. Machen Sie sich direkt zur Sache und stellen Sie sicher, dass die Empfänger die Schlüsselnachricht sofort verstehen.
-* **Laborate**: Erweitern Sie die Themen in Ihren Push-Benachrichtigungen und geben Sie zusätzliche Details und Kontext für ein besseres Verständnis ein.
-* **Vereinfachen der Sprache**: Sorgen Sie mithilfe einer klaren und präzisen Sprache dafür, dass Ihre Push-Benachrichtigungen für eine breitere Zielgruppe zugänglich sind.
-* **Rehrase**: Vermeiden Sie Wiederholungen, indem Sie Ihre Nachricht vom AI-Assistenten auf unterschiedliche Weise neu schreiben lassen.
-* **Ton ändern**: Ändern Sie den emotionalen Ton Ihrer Push-Benachrichtigungen. Unabhängig davon, ob Sie informativ, spielerisch oder dringend klingen möchten, kann der KI-Assistent die Nachricht entsprechend anpassen.
-
 >[!NOTE]
 >
 >Bevor Sie mit der Verwendung dieser Funktion beginnen, lesen Sie die entsprechenden Informationen zu [Schutzmechanismen und Begrenzungen](generative-gs.md#guardrails-and-limitations).
@@ -55,13 +47,7 @@ Im folgenden Beispiel werden wir den KI-Assistenten nutzen, um überzeugende Bot
 
    ![](assets/push-genai-1.png){zoomable=&quot;yes&quot;}
 
-1. Passen Sie den Inhalt an, indem Sie im Feld **[!UICONTROL Prompt]** beschreiben, was Sie generieren möchten.
-
-   Wenn Sie Hilfe bei der Erstellung Ihres Prompts benötigen, finden Sie in der **[!UICONTROL Prompt-Bibliothek]** eine Vielzahl von Ideen für Prompts, mit denen Sie Ihre Sendungen verbessern können.
-
-   ![](assets/push-genai-2.png){zoomable=&quot;yes&quot;}
-
-1. Aktivieren Sie die Option **[!UICONTROL Mit aktuellem Kontext verbessern]** für den KI-Assistenten, um neue Inhalte basierend auf Ihrem Versand, dem Versandnamen und der ausgewählten Zielgruppe zu personalisieren.
+1. Aktivieren Sie die **[!UICONTROL Originalinhalt verwenden]** Option für den KI-Assistenten, um neuen Inhalt basierend auf Ihrem Versand, dem Versandnamen und der ausgewählten Zielgruppe zu personalisieren.
 
    >[!IMPORTANT]
    >
@@ -69,31 +55,41 @@ Im folgenden Beispiel werden wir den KI-Assistenten nutzen, um überzeugende Bot
 
    ![](assets/push-genai-3.png){zoomable=&quot;yes&quot;}
 
+1. Passen Sie den Inhalt an, indem Sie im Feld **[!UICONTROL Prompt]** beschreiben, was Sie generieren möchten.
+
+   Wenn Sie Hilfe bei der Erstellung Ihres Prompts benötigen, finden Sie in der **[!UICONTROL Prompt-Bibliothek]** eine Vielzahl von Ideen für Prompts, mit denen Sie Ihre Sendungen verbessern können.
+
+   ![](assets/push-genai-2.png){zoomable=&quot;yes&quot;}
+
 1. Wählen Sie **[!UICONTROL Marken-Asset hochladen]** aus, um ein beliebiges Marken-Asset hinzuzufügen, das Inhalte enthält, die zusätzlichen Kontext für den KI-Assistenten bieten können.
 
 1. Wählen Sie das zu generierende Feld aus: **[!UICONTROL Titel]**, **[!UICONTROL Untertitel]** oder **[!UICONTROL Nachricht]**.
 
-1. Wählen Sie die **[!UICONTROL Kommunikationsstrategie]** aus, die am besten Ihren Anforderungen entspricht. Dies wirkt sich auf den Ton und den Stil des generierten Textes aus.
+1. Passen Sie Ihre Eingabeaufforderung mit den verschiedenen Optionen an:
 
-1. Wählen Sie die **[!UICONTROL Sprache]** und den **[!UICONTROL Ton]** aus. die der generierte Text haben soll. Dadurch wird sichergestellt, dass der Text für Ihre Zielgruppe und Ihren Zweck geeignet ist.
+   * **[!UICONTROL Kommunikationsstrategie]**: Wählen Sie den für Ihren generierten Text am besten geeigneten Kommunikationsstil aus.
+   * **[!UICONTROL Sprache]**: Wählen Sie die Sprache aus, in der der Inhalt erstellt werden soll.
+   * **[!UICONTROL Ton]**: Der Ton Ihrer E-Mail sollte bei Ihrer Zielgruppe Resonanz finden. Unabhängig davon, ob Sie informativ, spielerisch oder überzeugend klingen möchten, kann der KI-Assistent die Nachricht entsprechend anpassen.
 
    ![](assets/push-genai-4.png){zoomable=&quot;yes&quot;}
 
 1. Wenn die Eingabeaufforderung fertig ist, klicken Sie auf **[!UICONTROL Generieren]**.
 
-1. Durchsuchen Sie die generierten **[!UICONTROL Varianten]** und klicken Sie auf **[!UICONTROL Anwenden]**, wenn Sie den richtigen Inhalt gefunden haben.
+1. Durchsuchen Sie die generierte **[!UICONTROL Varianten]** und klicken **[!UICONTROL Vorschau]** , um eine Vollbildversion der ausgewählten Variante anzuzeigen.
 
-   Klicken Sie auf **[!UICONTROL Vorschau]**, um eine Vollbildversion der ausgewählten Variante anzuzeigen.
+1. Navigieren Sie zum **[!UICONTROL Verfeinern]** -Option innerhalb der **[!UICONTROL Vorschau]** -Fenster, um auf zusätzliche Anpassungsfunktionen zuzugreifen:
+
+   * **[!UICONTROL Rehrase]**: Der KI-Assistent kann Ihre Nachricht auf unterschiedliche Weise umformulieren und so Ihr Schreiben für verschiedene Zielgruppen frisch und ansprechend gestalten.
+
+   * **[!UICONTROL Einfache Sprache verwenden]**: Nutzen Sie den KI-Assistenten, um Ihre Sprache zu vereinfachen und für eine breitere Zielgruppe Klarheit und Barrierefreiheit zu gewährleisten.
 
    ![](assets/push-genai-5.png){zoomable=&quot;yes&quot;}
 
-1. Fügen Sie Personalisierungsfelder ein, um Ihre Push-Inhalte auf der Grundlage von Profildaten anzupassen. [Weitere Informationen über die Personalisierung von Inhalten](../personalization/personalize.md)
+1. Klicken Sie auf **[!UICONTROL Auswählen]**, sobald Sie den passenden Inhalt gefunden haben.
+
+1. Fügen Sie Personalisierungsfelder ein, um Ihre E-Mail-Inhalte auf der Grundlage von Profildaten anzupassen. Klicken Sie dann auf die **[!UICONTROL Inhalt simulieren]** zur Steuerung des Renderings und zur Überprüfung der Personalisierungseinstellungen mit Testprofilen. [Weitere Informationen](../preview-test/preview-content.md)
 
    ![](assets/push-genai-6.png){zoomable=&quot;yes&quot;}
 
-1. Klicken Sie nach der Definition des Nachrichteninhalts auf die Schaltfläche **[!UICONTROL Inhalt simulieren]**, um das Rendern zu steuern, und überprüfen Sie die Personalisierungseinstellungen mit Testprofilen. [Weitere Informationen](../preview-test/preview-content.md)
-
-   ![](assets/push-genai-7.png){zoomable=&quot;yes&quot;}
-
-1. Wenn Sie Inhalt, Zielgruppe und Zeitplan definiert haben, können Sie den Push-Versand vorbereiten. [Weitere Informationen](../monitor/prepare-send.md)
+Wenn Sie Inhalt, Zielgruppe und Zeitplan definiert haben, können Sie den Push-Versand vorbereiten. [Weitere Informationen](../monitor/prepare-send.md)
 
