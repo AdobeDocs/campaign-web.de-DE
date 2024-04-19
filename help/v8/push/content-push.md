@@ -4,7 +4,7 @@ title: Erstellen eines Push-Benachrichtigungs-Versands
 description: Erfahren Sie, wie Sie einen Push-Benachrichtigungs-Versand mit Adobe Campaign Web erstellen
 exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
 source-git-commit: 696851865249d420764f1f3efe0974778f7e7dae
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1541'
 ht-degree: 100%
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_android_content"
 >title="Pushen von Android-Inhalten"
->abstract="Definieren Sie den Inhalt Ihrer Push-Benachrichtigung für Android-Geräte. Um mit der Erstellung Ihrer Nachricht zu beginnen, klicken Sie auf die Schaltfläche **Inhalt bearbeiten**."
+>abstract="Den Inhalt der Push-Benachrichtigung für Android-Geräte definieren. Um mit der Erstellung Ihrer Nachricht zu beginnen, klicken Sie auf die Schaltfläche **Inhalt bearbeiten**."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_ios_content"
@@ -27,13 +27,13 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_ios_msg"
 >title="Push-Nachricht für iOS"
->abstract="Definieren Sie den Inhalt Ihrer Push-Benachrichtigung für iOS-Geräte. Um Ihre Nachricht zu verfassen, klicken Sie auf die Felder **Titel** und **Nachricht**. Verwenden Sie den Ausdruckseditor, um Daten zu personalisieren und dynamische Inhalte hinzuzufügen. Weitere benutzerdefinierte Konfigurationen finden Sie im Abschnitt **Erweiterte Einstellungen**."
+>abstract="Definieren Sie den Inhalt Ihrer Push-Benachrichtigung für iOS-Geräte. Um eine Nachricht zu verfassen, auf die Felder **Titel** und **Nachricht** klicken. Den Ausdruckseditor verwenden, um Daten zu personalisieren und dynamische Inhalte hinzuzufügen. Weitere benutzerdefinierte Konfigurationen befinden sich im Abschnitt **Erweiterte Einstellungen**."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_android_msg"
 >title="Android-Push-Nachricht"
->abstract="Definieren Sie den Inhalt Ihrer Push-Benachrichtigung für Android-Geräte. Um Ihre Nachricht zu verfassen, klicken Sie auf die Felder **Titel** und **Nachricht**. Verwenden Sie den Ausdruckseditor, um Daten zu personalisieren und dynamische Inhalte hinzuzufügen. Push-Benachrichtigungen können weiter personalisiert werden. Dazu können Sie etwa ein Bild auswählen, das der Push-Benachrichtigung hinzugefügt werden soll, sowie das Symbol der Benachrichtigung, das auf den Geräten der Profile angezeigt werden soll, und dessen Farbe. Weitere benutzerdefinierte Konfigurationen finden Sie im Abschnitt **Erweiterte Einstellungen**."
+>abstract="Den Inhalt der Push-Benachrichtigung für Android-Geräte definieren. Um eine Nachricht zu verfassen, auf die Felder **Titel** und **Nachricht** klicken. Den Ausdruckseditor verwenden, um Daten zu personalisieren und dynamische Inhalte hinzuzufügen. Dazu kann etwa ein Bild ausgewählt werden, das der Push-Benachrichtigung hinzugefügt werden soll, sowie das Symbol der Benachrichtigung, das auf den Geräten der Profile angezeigt werden soll, und dessen Farbe. Weitere benutzerdefinierte Konfigurationen befinden sich im Abschnitt **Erweiterte Einstellungen**."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_ios_silent"
@@ -57,15 +57,15 @@ Ihre Anwendungsvariablen werden automatisch im Menü **[!UICONTROL Anwendungsvar
 
 * Die **[!UICONTROL Benachrichtigungsmeldung]** wird automatisch vom FCM SDK verarbeitet. FCM übernimmt für die Client-App automatisch das Anzeigen der Nachricht auf den Geräten Ihrer Benutzenden. Benachrichtigungsmeldungen enthalten einen vordefinierten Satz von Parametern und Optionen, können aber mit benutzerspezifischen Anwendungsvariablen weiter personalisiert werden.
 
-  Um Ihre Nachricht zu verfassen, klicken Sie auf die Felder **[!UICONTROL Titel]** und **[!UICONTROL Nachricht]**. Verwenden Sie den Ausdruckseditor, um Inhalte zu definieren, Daten zu personalisieren und dynamische Inhalte hinzuzufügen.
+  Um eine Nachricht zu verfassen, auf die Felder **[!UICONTROL Titel]** und **[!UICONTROL Nachricht]** klicken. Verwenden Sie den Ausdruckseditor, um Inhalte zu definieren, Daten zu personalisieren und dynamische Inhalte hinzuzufügen.
 
-  Push-Benachrichtigungen können weiter personalisiert werden. Dazu können Sie ein Bild auswählen, das der Push-Benachrichtigung hinzugefügt werden soll, sowie das Symbol der Benachrichtigung, das auf den Geräten der Profile angezeigt werden soll, und ihre Farbe.
+  Dazu kann etwa ein Bild ausgewählt werden, das der Push-Benachrichtigung hinzugefügt werden soll, sowie das Symbol der Benachrichtigung, das auf den Geräten der Profile angezeigt werden soll, und dessen Farbe.
 
   ![](assets/push_content_3.png){zoomable=&quot;yes&quot;}
 
 >[!TAB iOS]
 
-Um Ihre Nachricht zu verfassen, klicken Sie auf die Felder **[!UICONTROL Titel]** und **[!UICONTROL Nachricht]**. Verwenden Sie den Ausdruckseditor, um Inhalte zu definieren, Daten zu personalisieren und dynamische Inhalte hinzuzufügen.
+Um eine Nachricht zu verfassen, auf die Felder **[!UICONTROL Titel]** und **[!UICONTROL Nachricht]** klicken. Verwenden Sie den Ausdruckseditor, um Inhalte zu definieren, Daten zu personalisieren und dynamische Inhalte hinzuzufügen.
 
 Sie können einen **[!UICONTROL Untertitel]** als Wert des Parameters „subtitle“ der iOS-Benachrichtigungs-Payload hinzufügen. Weitere Informationen finden Sie in diesem Abschnitt.
 
@@ -81,7 +81,7 @@ Im Modus „Stilles Pushen“ kann eine „stille“ Benachrichtigung an eine Mo
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings"
 >title="Erweiterte Einstellungen für Push-Benachrichtigungen"
->abstract="Definieren Sie erweiterte Einstellungen für Ihre Push-Benachrichtigung, z. B. ihre Priorität, die zugehörige Anzahl an Benachrichtigungen, Anwendungsvariablen und mehr."
+>abstract="Definieren der erweiterten Einstellungen für eine Push-Benachrichtigung, z. B. Priorität, die zugehörige Anzahl an Benachrichtigungen, Anwendungsvariablen und mehr."
 
 
 >[!CONTEXTUALHELP]
