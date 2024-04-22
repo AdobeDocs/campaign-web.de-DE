@@ -6,10 +6,10 @@ badge: label="Beta"
 hide: true
 hidefromtoc: true
 exl-id: a361f75d-63c2-4fdc-993c-f8414b18e13e
-source-git-commit: bc27d8e6e41cb59a7221a893d4c00d3647db887b
+source-git-commit: 2a7cbf75bd3b847a62a4bb13edb9e3ee6fb5c9f0
 workflow-type: tm+mt
-source-wordcount: '485'
-ht-degree: 60%
+source-wordcount: '473'
+ht-degree: 57%
 
 ---
 
@@ -25,7 +25,6 @@ ht-degree: 60%
 * **[Generierung von Push-Benachrichtigungen mit dem KI-Assistenten](generative-push.md)**
 
 >[!ENDSHADEBOX]
-
 
 Der KI-Assistenten kann Ihnen dabei helfen, die Wirkung Ihrer Sendungen zu optimieren, indem Ihnen verschiedene Inhalte vorgeschlagen werden, die mit größerer Wahrscheinlichkeit bei Ihrer Zielgruppe ankommen.
 
@@ -51,7 +50,7 @@ Im folgenden Beispiel werden wir den KI-Assistenten nutzen, um überzeugende Bot
 
    >[!IMPORTANT]
    >
-   > Ihr Prompt muss immer an einen bestimmten Kontext gebunden sein. Laden Sie hierzu ein Marken-Asset hoch oder aktivieren Sie die Option **[!UICONTROL Aktuellen Inhalt verbessern]**.
+   > Ihre Eingabeaufforderung muss immer an Ihren aktuellen Inhalt gebunden sein.
 
    ![](assets/push-genai-3.png){zoomable=&quot;yes&quot;}
 

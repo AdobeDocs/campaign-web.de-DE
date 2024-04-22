@@ -6,10 +6,10 @@ badge: label="Beta"
 hide: true
 hidefromtoc: true
 exl-id: db0459e5-8759-42d9-8945-8c9667450527
-source-git-commit: cc73a638980b9dd6e56d630ad94d70475356e390
+source-git-commit: 2a7cbf75bd3b847a62a4bb13edb9e3ee6fb5c9f0
 workflow-type: tm+mt
-source-wordcount: '473'
-ht-degree: 70%
+source-wordcount: '461'
+ht-degree: 67%
 
 ---
 
@@ -50,7 +50,7 @@ Dieses praktische Tool liefert intelligente Vorschläge für die Verfeinerung Ih
 
    >[!IMPORTANT]
    >
-   > Ihr Prompt muss immer an einen bestimmten Kontext gebunden sein, indem Sie ein Marken-Asset hochladen oder die Option **[!UICONTROL Aktuellen Inhalt verbessern]** aktivieren.
+   > Ihre Eingabeaufforderung muss immer an Ihren aktuellen Inhalt gebunden sein.
 
 1. Passen Sie den Inhalt an, indem Sie im Feld **[!UICONTROL Prompt]** beschreiben, was Sie generieren möchten.
 
