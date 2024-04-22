@@ -6,10 +6,10 @@ badge: label="Beta"
 exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
 hide: true
 hidefromtoc: true
-source-git-commit: 2a7cbf75bd3b847a62a4bb13edb9e3ee6fb5c9f0
+source-git-commit: 2e084aeb27b6a866bf1f3aa82ab361da3b238901
 workflow-type: tm+mt
-source-wordcount: '1351'
-ht-degree: 45%
+source-wordcount: '1368'
+ht-degree: 44%
 
 ---
 
@@ -81,9 +81,11 @@ Im folgenden Beispiel nutzen wir den KI-Assistenten, um eine vorhandene E-Mail z
 
 1. Navigieren Sie zum **[!UICONTROL Verfeinern]** -Option innerhalb der **[!UICONTROL Vorschau]** -Fenster, um auf zusätzliche Anpassungsfunktionen zuzugreifen:
 
+   * **[!UICONTROL Verwenden als Referenzinhalt]**: Die ausgewählte Variante dient als Referenzinhalt für die Generierung anderer Ergebnisse.
+
    * **[!UICONTROL Rehrase]**: Der KI-Assistent kann Ihre Nachricht auf unterschiedliche Weise umformulieren und so Ihr Schreiben für verschiedene Zielgruppen frisch und ansprechend gestalten.
 
-   * **[!UICONTROL Einfache Sprache verwenden]**: Nutzen Sie den KI-Assistenten, um Ihre Sprache zu vereinfachen und für eine breitere Zielgruppe Klarheit und Barrierefreiheit zu gewährleisten.
+   * **[!UICONTROL Einfachere Sprache verwenden]**: Nutzen Sie den KI-Assistenten, um Ihre Sprache zu vereinfachen und für eine breitere Zielgruppe Klarheit und Barrierefreiheit zu gewährleisten.
 
    ![](assets/full-email-5.png){zoomable=&quot;yes&quot;}
 
@@ -136,15 +138,15 @@ Im folgenden Beispiel werden wir den KI-Assistenten nutzen, um den Inhalt unsere
 
 1. Navigieren Sie zum **[!UICONTROL Verfeinern]** -Option innerhalb der **[!UICONTROL Vorschau]** -Fenster, um auf zusätzliche Anpassungsfunktionen zuzugreifen:
 
-   * **Verwenden als Referenzinhalt**: Die ausgewählte Variante dient als Referenzinhalt für die Generierung anderer Ergebnisse.
+   * **[!UICONTROL Verwenden als Referenzinhalt]**: Die ausgewählte Variante dient als Referenzinhalt für die Generierung anderer Ergebnisse.
 
-   * **Laborate**: Der KI-Assistent kann Ihnen dabei helfen, zu bestimmten Themen zu erweitern und zusätzliche Details für ein besseres Verständnis und eine bessere Interaktion bereitzustellen.
+   * **[!UICONTROL Laborate]**: Der KI-Assistent kann Ihnen dabei helfen, zu bestimmten Themen zu erweitern und zusätzliche Details für ein besseres Verständnis und eine bessere Interaktion bereitzustellen.
 
-   * **Zusammenfassung**: Lange Informationen können E-Mail-Empfänger überlasten. Verwenden Sie den KI-Assistenten, um wichtige Punkte in klaren, präzisen Zusammenfassungen zusammenzufassen, die Aufmerksamkeit erregen und sie dazu ermutigen, mehr zu lesen.
+   * **[!UICONTROL Zusammenfassung]**: Lange Informationen können E-Mail-Empfänger überlasten. Verwenden Sie den KI-Assistenten, um wichtige Punkte in klaren, präzisen Zusammenfassungen zusammenzufassen, die Aufmerksamkeit erregen und sie dazu ermutigen, mehr zu lesen.
 
-   * **Rehrase**:Der KI-Assistent kann Ihre Nachricht auf unterschiedliche Weise umformulieren und so Ihr Schreiben für verschiedene Zielgruppen frisch und ansprechend gestalten.
+   * **[!UICONTROL Rehrase]**:Der KI-Assistent kann Ihre Nachricht auf unterschiedliche Weise umformulieren und so Ihr Schreiben für verschiedene Zielgruppen frisch und ansprechend gestalten.
 
-   * **Einfache Sprache verwenden**: Nutzen Sie den KI-Assistenten, um Ihre Sprache zu vereinfachen und für eine breitere Zielgruppe Klarheit und Barrierefreiheit zu gewährleisten.
+   * **[!UICONTROL Einfachere Sprache verwenden]**: Nutzen Sie den KI-Assistenten, um Ihre Sprache zu vereinfachen und für eine breitere Zielgruppe Klarheit und Barrierefreiheit zu gewährleisten.
 
    ![](assets/text-genai-5.png){zoomable=&quot;yes&quot;}
 

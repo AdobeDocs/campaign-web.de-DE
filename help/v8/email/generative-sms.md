@@ -6,10 +6,10 @@ badge: label="Beta"
 hide: true
 hidefromtoc: true
 exl-id: db0459e5-8759-42d9-8945-8c9667450527
-source-git-commit: 2a7cbf75bd3b847a62a4bb13edb9e3ee6fb5c9f0
+source-git-commit: 2e084aeb27b6a866bf1f3aa82ab361da3b238901
 workflow-type: tm+mt
-source-wordcount: '461'
-ht-degree: 67%
+source-wordcount: '479'
+ht-degree: 65%
 
 ---
 
@@ -75,9 +75,11 @@ Dieses praktische Tool liefert intelligente Vorschläge für die Verfeinerung Ih
 
 1. Navigieren Sie zum **[!UICONTROL Verfeinern]** -Option innerhalb der **[!UICONTROL Vorschau]** -Fenster, um auf zusätzliche Anpassungsfunktionen zuzugreifen und Ihre Variante auf Ihre Voreinstellungen anzupassen:
 
-   * **Vereinfachen der Sprache**: Der KI-Assistent hilft Ihnen, klare, knappe Botschaften zu schreiben, die jeder verstehen kann.
+   * **[!UICONTROL Verwenden als Referenzinhalt]**: Die ausgewählte Variante dient als Referenzinhalt für die Generierung anderer Ergebnisse.
 
-   * **Rehrase**: Der KI-Assistent formuliert Ihre Nachricht um, damit die Dinge für verschiedene Zielgruppen interessant bleiben.
+   * **[!UICONTROL Einfachere Sprache verwenden]**: Der KI-Assistent hilft Ihnen, klare, knappe Botschaften zu schreiben, die jeder verstehen kann.
+
+   * **[!UICONTROL Rehrase]**: Der KI-Assistent formuliert Ihre Nachricht um, damit die Dinge für verschiedene Zielgruppen interessant bleiben.
 
    ![](assets/sms-genai-4.png){zoomable=&quot;yes&quot;}
 

@@ -6,10 +6,10 @@ badge: label="Beta"
 hide: true
 hidefromtoc: true
 exl-id: a361f75d-63c2-4fdc-993c-f8414b18e13e
-source-git-commit: 2a7cbf75bd3b847a62a4bb13edb9e3ee6fb5c9f0
+source-git-commit: 2e084aeb27b6a866bf1f3aa82ab361da3b238901
 workflow-type: tm+mt
-source-wordcount: '473'
-ht-degree: 57%
+source-wordcount: '490'
+ht-degree: 55%
 
 ---
 
@@ -78,9 +78,11 @@ Im folgenden Beispiel werden wir den KI-Assistenten nutzen, um überzeugende Bot
 
 1. Navigieren Sie zum **[!UICONTROL Verfeinern]** -Option innerhalb der **[!UICONTROL Vorschau]** -Fenster, um auf zusätzliche Anpassungsfunktionen zuzugreifen:
 
+   * **[!UICONTROL Verwenden als Referenzinhalt]**: Die ausgewählte Variante dient als Referenzinhalt für die Generierung anderer Ergebnisse.
+
    * **[!UICONTROL Rehrase]**: Der KI-Assistent kann Ihre Nachricht auf unterschiedliche Weise umformulieren und so Ihr Schreiben für verschiedene Zielgruppen frisch und ansprechend gestalten.
 
-   * **[!UICONTROL Einfache Sprache verwenden]**: Nutzen Sie den KI-Assistenten, um Ihre Sprache zu vereinfachen und für eine breitere Zielgruppe Klarheit und Barrierefreiheit zu gewährleisten.
+   * **[!UICONTROL Einfachere Sprache verwenden]**: Nutzen Sie den KI-Assistenten, um Ihre Sprache zu vereinfachen und für eine breitere Zielgruppe Klarheit und Barrierefreiheit zu gewährleisten.
 
    ![](assets/push-genai-5.png){zoomable=&quot;yes&quot;}
 
