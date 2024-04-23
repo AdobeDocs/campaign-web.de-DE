@@ -406,7 +406,7 @@ Deprecated IDs - to remove in GA: -->
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_snippet"
 >title="JavaScript-Snippet"
->abstract="Konfigurieren Sie den auszuführenden Code."
+>abstract="Den auszuführenden Code konfigurieren."
 >additional-url="https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/developer/api" text="Weitere Informationen finden Sie in der Dokumentation zu Campaign v8 (Konsole)."
 
 
@@ -418,7 +418,7 @@ Deprecated IDs - to remove in GA: -->
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_transition"
 >title="Fehler verarbeiten"
->abstract="Schalten Sie die Option **Fehler verarbeiten** ein, um eine fehlerhafte ausgehende Transition hinzuzufügen."
+>abstract="Die Option **Fehler verarbeiten** einschalten, um eine fehlerhafte ausgehende Transition hinzuzufügen."
 
 
 
@@ -452,7 +452,7 @@ Deprecated IDs - to remove in GA: -->
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_error"
 >title="Fehler verarbeiten"
->abstract="Schalten Sie die Option **Fehler verarbeiten** ein, um eine fehlerhafte ausgehende Transition hinzuzufügen."
+>abstract="Die Option **Fehler verarbeiten** einschalten, um eine fehlerhafte ausgehende Transition hinzuzufügen."
 
 <!-- Workflow settings -->
 
