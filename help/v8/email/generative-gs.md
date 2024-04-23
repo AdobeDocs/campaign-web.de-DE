@@ -7,9 +7,9 @@ exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
 hide: true
 hidefromtoc: true
 source-git-commit: cc73a638980b9dd6e56d630ad94d70475356e390
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '637'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
@@ -44,13 +44,13 @@ ht-degree: 72%
 >abstract="Der Zugriff auf diese Funktion unterliegt Ihrer Zustimmung zu den Adobe Experience Cloud Generative KI-Benutzerrichtlinien.  Eingabeaufforderungen, Kontextdaten, zusätzliche Informationen oder andere Eingaben, die Sie für diese Funktion bereitstellen, müssen an einen bestimmten Kontext gebunden sein, der Ihre Branding-Materialien, Website-Inhalte, Daten, Schemata für solche Daten, Vorlagen oder andere vertrauenswürdige Dokumente umfassen kann und keine personenbezogenen Daten enthalten darf (personenbezogene Daten umfassen alles, was mit einer bestimmten Person verknüpft werden kann). Sie sollten alle Ausgaben dieser Funktion auf ihre Richtigkeit hin überprüfen und sicherstellen, dass sie für Ihren Anwendungsfall geeignet sind."
 >additional-url="https://www.adobe.com/de/legal/licenses-terms/adobe-gen-ai-user-guidelines.html" text="Adobe Generative KI – Benutzungsrichtlinien"
 
-Da die Marketing-Branche wettbewerbsfähiger wird, suchen Marken nach effizienten Methoden, um effiziente und schnelle Inhalte zu generieren. KI-Assistent in Campaign ist eine professionelle Adobe-basierte Inhaltsgenerierungsfunktion, die die Erstellung markenkonsistenter Inhalte für Marketing-Experten auf verschiedenen Kanälen wie E-Mail, SMS oder Push-Benachrichtigungen revolutioniert. Mit fortschrittlichen GenAI-Modellen und einem tiefen Verständnis der Markenrichtlinien generiert der KI-Assistent automatisch personalisierte, ansprechende und effektive Inhalte, die auf dem Marketingziel basieren und für markenumrissene Stile, Layouts, Ton und mehr optimiert sind.
+Da die Marketing-Branche immer wettbewerbsintensiver wird, suchen Marken nach effizienten Wegen, um wirkungsvolle Inhalte schnell und effizient zu erstellen. Der KI-Assistent in Campaign ist Adobes KI-gestützte Funktion zur Generierung von Inhalten, die die Erstellung professioneller und markenkonformer Inhalte für verschiedene Kanäle wie E-Mail, SMS und Push revolutioniert. Mit fortschrittlichen GenAI-Modellen und einem tiefgreifenden Verständnis der Markenrichtlinien generiert der KI-Assistent automatisch personalisierte, ansprechende und effektive Inhalte auf der Grundlage des Marketing-Ziels, wobei die Inhalte für die von der Marke vorgegebenen Stile, Layouts, die Tonalität und mehr optimiert sind.
 
-Der KI-Assistent ermöglicht die Erstellung und Ausführung von Marketingkampagnen über verschiedene Kanäle wie E-Mail, SMS und Push-Benachrichtigungen hinweg intuitiv, einfach und unkompliziert, während gleichzeitig Zeit eingespart, die Effizienz verbessert und bessere Ergebnisse erzielt werden.
+Der KI-Assistent macht die Erstellung und Durchführung von Marketing-Kampagnen über Kanäle wie E-Mail, SMS und Push intuitiv, einfach und mühelos, während gleichzeitig Zeit gespart, die Effizienz gesteigert und bessere Ergebnisse erzielt werden.
 
 >[!NOTE]
 >
->Diese Funktion ist in ihrer Beta-Version verfügbar und kann ohne vorherige Ankündigung geändert werden.
+>Diese Funktion ist in der Beta-Version verfügbar und kann ohne vorherige Ankündigung geändert werden.
 
 ## Schutzmechanismen und Begrenzungen {#generative-guardrails}
 
@@ -60,8 +60,8 @@ Im Folgenden sind die allgemeinen Richtlinien zur Verwendung des KI-Assistenten 
 * Laden Sie Marken-Assets hoch, um genaue Informationen zu Markeninhalten zu haben. Andernfalls basieren Inhalte auf öffentlich verfügbaren Informationen. Der hochgeladene Inhalt kann folgende Formate haben: PDF-, JPEG-, PNG- oder ZIP-Dateien (mit unterstützten Dateiformaten).
 * Die maximale Größe für hochgeladene Marken-Assets beträgt 50 MB. Größere Dateien oder viele Bilder können funktionieren, aber die Verarbeitungszeit verlängert sich.
 * Verwenden Sie eine von Adobe Campaign erstellte E-Mail-Vorlage oder vorzugsweise eine der [integrierten E-Mail-Vorlagen](../email/create-email-templates.md), eine markenspezifische oder benutzerdefinierte Vorlage, um Ihren E-Mail-Inhalt zu erstellen. Es wird eine E-Mail-Vorlage mit 8 bis 10 Bildern empfohlen.
-* Achten Sie bei der Auswahl von Varianten darauf, alle problematischen Ausgaben mithilfe des Daumen-Up-, Daumen-Down- oder Flag-Symbols zu melden.
-* Ihre Verwendung des KI-Assistenten unterliegt den Allgemeinen KI-Benutzerhandbüchern von Adobe Experience Cloud. [Weitere Informationen](https://www.adobe.com/de/legal/licenses-terms/adobe-gen-ai-user-guidelines.html)
+* Denken Sie daran, problematische Ausgaben zu melden, indem Sie bei der Auswahl von Varianten die Symbole mit dem Daumen nach oben, dem Daumen nach unten oder andere Kennzeichnungssymbole verwenden.
+* Ihre Nutzung des KI-Assistenten unterliegt den Benutzerrichtlinien für generative KI in Adobe Experience Cloud. [Weitere Informationen](https://www.adobe.com/de/legal/licenses-terms/adobe-gen-ai-user-guidelines.html)
 
 Die folgenden Einschränkungen gelten für den KI-Assistenten in Campaign:
 

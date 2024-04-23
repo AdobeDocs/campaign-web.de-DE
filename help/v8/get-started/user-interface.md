@@ -4,9 +4,9 @@ title: Erkunden der Benutzeroberfläche
 description: Adobe Campaign Web-Benutzeroberfläche
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 source-git-commit: 3a50c1bec5da58c7cca6c7334ae054e10c3c99df
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2279'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -406,7 +406,7 @@ Deprecated IDs - to remove in GA: -->
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_snippet"
 >title="JavaScript-Snippet"
->abstract="Den auszuführenden Code konfigurieren."
+>abstract="Konfigurieren Sie den auszuführenden Code."
 >additional-url="https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/developer/api" text="Weitere Informationen finden Sie in der Dokumentation zu Campaign v8 (Konsole)."
 
 
@@ -418,7 +418,7 @@ Deprecated IDs - to remove in GA: -->
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_transition"
 >title="Fehler verarbeiten"
->abstract="Die Option **Fehler verarbeiten** einschalten, um eine fehlerhafte ausgehende Transition hinzuzufügen."
+>abstract="Schalten Sie die Option **Fehler verarbeiten** ein, um eine fehlerhafte ausgehende Transition hinzuzufügen."
 
 
 
@@ -452,7 +452,7 @@ Deprecated IDs - to remove in GA: -->
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_error"
 >title="Fehler verarbeiten"
->abstract="Die Option **Fehler verarbeiten** einschalten, um eine fehlerhafte ausgehende Transition hinzuzufügen."
+>abstract="Schalten Sie die Option **Fehler verarbeiten** ein, um eine fehlerhafte ausgehende Transition hinzuzufügen."
 
 <!-- Workflow settings -->
 
@@ -551,8 +551,8 @@ Deprecated IDs - to remove in GA: -->
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_criteria"
->title="Dashboard mit Versandwarnungsbedingungen"
->abstract="Dashboard mit Versandwarnungsbedingungen"
+>title="Dashboard für Versandwarnungskriterien"
+>abstract="Dashboard für Versandwarnungskriterien"
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_dashboards"
@@ -561,13 +561,13 @@ Deprecated IDs - to remove in GA: -->
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_criteria_create"
->title="Versandwarnungsbedingungen erstellen"
->abstract="Versandwarnungsbedingungen erstellen"
+>title="Versandwarnungskriterien erstellen"
+>abstract="Versandwarnungskriterien erstellen"
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_criteria_create_indicators"
->title="Zu Warnungen hinzuzufügende Indikatoren"
->abstract="Zu Warnungen hinzuzufügende Indikatoren"
+>title="Indikatoren, die in Warnungen hinzugefügt werden sollen"
+>abstract="Indikatoren, die in Warnungen hinzugefügt werden sollen"
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_criteria_create_alert"
@@ -576,23 +576,23 @@ Deprecated IDs - to remove in GA: -->
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_criteria_create_frequency"
->title="Frequenz der Bedingung"
->abstract="Frequenz der Bedingung"
+>title="Frequenz des Kriteriums"
+>abstract="Frequenz des Kriteriums"
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_create_criteria_add"
->title="Versandwarnungsbedingungen        "
->abstract="Versandwarnungsbedingungen        "
+>title="Versandwarnungskriterien"
+>abstract="Versandwarnungskriterien"
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_create_general"
->title="Allgemeine Versandwarnungsbedingungen"
->abstract="Versandwarnungen"
+>title="Allgemeine Parameter für die Versandwarnung"
+>abstract="Versandwarnung"
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_create_criteria_parameters"
->title="Versandwarnungsbedingungen"
->abstract="Versandwarnungen"
+>title="Parameter für Versandwarnungskriterien"
+>abstract="Versandwarnung"
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_dashboard_alerts"
@@ -601,5 +601,5 @@ Deprecated IDs - to remove in GA: -->
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_dashboard_history"
->title="Versandwarnungsverlauf"
->abstract="Versandwarnungsverlauf"
+>title="Verlauf der Versandwarnungen"
+>abstract="Verlauf der Versandwarnungen"
