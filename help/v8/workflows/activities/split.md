@@ -3,9 +3,9 @@ audience: end-user
 title: Verwenden der Workflow-Aktivität „Aufspaltung“
 description: Weitere Informationen zur Verwendung der Workflow-Aktivität „Aufspaltung“
 exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
-source-git-commit: 6d43966bd8283b62bf457b1a63ce968950b54c26
+source-git-commit: 1637a88b1dcd299f5cdc11f030cdf3f6eec8ad97
 workflow-type: tm+mt
-source-wordcount: '845'
+source-wordcount: '855'
 ht-degree: 100%
 
 ---
@@ -56,6 +56,11 @@ Die Aktivität **Aufspaltung** ist eine Aktivität zur **Zielgruppenbestimmung**
 >id="acw_orchestration_split_emptytransition"
 >title="Leere Transition überspringen"
 >abstract="Überspringen Sie eine leere Transition."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_split_enable_overlapping"
+>title="Überschneidung der Ausgabepopulationen zulassen"
+>abstract="Überschneidung der Ausgabepopulationen zulassen"
 
 Folgen Sie diesen Schritten, um die Aktivität **Aufspaltung** zu konfigurieren:
 
