@@ -6,34 +6,34 @@ exl-id: 526dc98f-391d-4f3f-a687-c980bf60b93b
 source-git-commit: b33c3c2424c1cd07c7bb6fd4c2ffcab9592354c7
 workflow-type: tm+mt
 source-wordcount: '345'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 # Workflow-Ereignisvariablen {#event-variables}
 
-Einige Workflow-Aktivitäten ermöglichen es Ihnen, Skripte im Ausdruckseditor zu bearbeiten, um bestimmte Aktionen durchzuführen, z. B. das Abrufen von Daten aus früheren Aktivitäten, das Erstellen von Bedingungen oder das Berechnen von Dateinamen basierend auf Ereignisvariablen.
+Bei einigen Workflow-Aktivitäten können Sie Skripte im Ausdruckseditor bearbeiten, um bestimmte Aktionen auszuführen, z. B. das Abrufen von Daten aus früheren Aktivitäten, das Erstellen von Bedingungen oder das Berechnen von Dateinamen auf der Grundlage von Ereignisvariablen.
 
-## Was sind Ereignisvariablen {#scripting}
+## Was sind Ereignisvariablen? {#scripting}
 
-Im Rahmen eines Workflows ausgeführte Skripte greifen auf eine Reihe zusätzlicher globaler **Objekte** z. B. der selbst ausgeführte Workflow (`ìnstance`), die verschiedenen Aufgaben (`task`) oder die Ereignisse, die eine bestimmte Aufgabe (`event`).
+Skripte, die im Kontext eines Workflows ausgeführt werden, greifen auf eine Reihe zusätzlicher globaler **Objekte** zu, wie den Workflow selbst, der ausgeführt wird (`ìnstance`), seine verschiedenen Aufgaben (`task`), oder die Ereignisse, die eine bestimmte Aufgabe aktiviert haben (`event`).
 
-Für jeden Typ von **Objekt** ist mit einer Kategorie von **variables** die im Ausdruckseditor beim Bearbeiten von Skripten in Aktivitäten wie **[!UICONTROL JavaScript-Code]** oder **[!UICONTROL Test]**.
+Jedem **Objekt**-Typ ist eine Kategorie von **Variablen** zugeordnet, die im Ausdruckseditor bei der Bearbeitung von Skripten in Aktivitäten wie **[!UICONTROL JavaScript-Code]** oder **[!UICONTROL Test]** verwendet werden können.
 
-* **Instanzvariablen** (`instance.vars.xxx`) sind mit globalen Variablen vergleichbar. Sie werden für alle Aktivitäten freigegeben.
-* **Aufgabenvariablen** (`task.vars.xxx`) sind mit lokalen Variablen vergleichbar. Sie werden nur von der aktuellen Aufgabe verwendet. Diese Variablen werden von persistenten Aktivitäten verwendet, um Daten beizubehalten, und manchmal zum Austausch von Daten zwischen den verschiedenen Skripten einer Aktivität verwendet.
-* **Ereignisvariablen** (`vars.xxx`) ermöglichen den Austausch von Daten zwischen elementaren Aufgaben eines Workflow-Prozesses. Diese Variablen werden von der Aufgabe übergeben, die die laufende Aufgabe aktiviert hat. Sie werden dann an die folgenden Aktivitäten übergeben. **Ereignisvariablen** sind die am häufigsten verwendeten Variablen, und sie sollten Instanzvariablen vorgezogen werden.
+* **Instanzvariablen** (`instance.vars.xxx`) sind mit globalen Variablen vergleichbar. Sie werden von allen Aktivitäten geteilt.
+* **Task-Variablen** (`task.vars.xxx`) sind vergleichbar mit lokalen Variablen. Sie werden nur von der aktuellen Aufgabe verwendet. Diese Variablen werden von persistenten Aktivitäten verwendet, um Daten aufzubewahren, und werden manchmal genutzt, um Daten zwischen den verschiedenen Skripten derselben Aktivität auszutauschen.
+* **Ereignisvariablen** (`vars.xxx`) ermöglichen den Austausch von Daten zwischen den elementaren Aufgaben eines Workflow-Prozesses. Diese Variablen werden von der Aufgabe übergeben, die die in Bearbeitung befindliche Aufgabe aktiviert hat. Sie werden dann an die folgenden Aktivitäten weitergeleitet. **Ereignisvariablen** sind die am häufigsten verwendeten Variablen und sind Instanzvariablen vorzuziehen.
 
 >[!NOTE]
 >
->Weitere Informationen zur Skripterstellung sowie zu den angezeigten Objekten und Variablen in Adobe Campaign finden Sie in der Dokumentation zu Campaign v8 (Clientkonsole) in [diesem Abschnitt](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/advanced-management/javascript-scripts-and-templates).
+>Weitere Informationen zur Skripterstellung und zu den Skript-Objekten und -Variablen in Adobe Campaign finden Sie in der Dokumentation zu Campaign v8 (Client-Konsole) [in diesem Abschnitt](https://experienceleague.adobe.com/de/docs/campaign/automation/workflows/advanced-management/javascript-scripts-and-templates).
 >
->Beachten Sie, dass diese Ressource zwar wertvolle Einblicke bietet, jedoch möglicherweise Diskrepanzen vorliegen, da sie speziell für die Clientkonsole und nicht für die Campaign-Webbenutzeroberfläche gilt.
+>Bitte beachten Sie, dass diese Ressource zwar wertvolle Erkenntnisse bietet, es jedoch zu Unstimmigkeiten kommen kann, da sie sich speziell auf die Client-Konsole und nicht auf die Campaign Web-Benutzeroberfläche bezieht.
 
-## Ereignisvariablen im Ausdruckseditor nutzen {#expression-editor}
+## Nutzung von Ereignisvariablen im Ausdruckseditor {#expression-editor}
 
-Vordefinierte Ereignisvariablen sind im linken Bereich des Ausdruckseditors verfügbar. Sie können auch neue erstellen, indem Sie eine neue Variable in Ihrem Code initialisieren.
+Vordefinierte Ereignisvariablen stehen im linken Bereich des Ausdruckseditors zur Verfügung. Sie können auch neue erstellen, indem Sie eine neue Variable in Ihrem Code initialisieren.
 
 ![](assets/event-variables.png)
 
-Zusätzlich zu diesen Ereignisvariablen können Sie auch die **[!UICONTROL Bedingungen]** im linken Bereich, um Bedingungen zu erstellen, und die **[!UICONTROL Aktuelles Datum hinzufügen]** Menü zur Verwendung von Funktionen zur Datumsformatierung.
+Zusätzlich zu diesen Ereignisvariablen können Sie auch das Menü **[!UICONTROL Bedingungen]** im linken Bereich nutzen, um Bedingungen zu erstellen, und das Menü **[!UICONTROL Aktuelles Datum hinzufügen]**, um Funktionen zur Datumsformatierung zu verwenden.

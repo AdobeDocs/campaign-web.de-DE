@@ -9,7 +9,7 @@ exl-id: a361f75d-63c2-4fdc-993c-f8414b18e13e
 source-git-commit: 2e084aeb27b6a866bf1f3aa82ab361da3b238901
 workflow-type: tm+mt
 source-wordcount: '490'
-ht-degree: 55%
+ht-degree: 94%
 
 ---
 
@@ -26,13 +26,13 @@ ht-degree: 55%
 
 >[!ENDSHADEBOX]
 
-Der KI-Assistenten kann Ihnen dabei helfen, die Wirkung Ihrer Sendungen zu optimieren, indem Ihnen verschiedene Inhalte vorgeschlagen werden, die mit größerer Wahrscheinlichkeit bei Ihrer Zielgruppe ankommen.
+Der KI-Assistent kann Ihnen dabei helfen, die Wirkung Ihrer Sendungen zu optimieren. Er schlägt Ihnen verschiedene Inhalte vor, die mit größerer Wahrscheinlichkeit bei Ihrer Zielgruppe ankommen.
 
 >[!NOTE]
 >
 >Bevor Sie mit der Verwendung dieser Funktion beginnen, lesen Sie die entsprechenden Informationen zu [Schutzmechanismen und Begrenzungen](generative-gs.md#guardrails-and-limitations).
 
-Im folgenden Beispiel werden wir den KI-Assistenten nutzen, um überzeugende Botschaften zu erstellen und so ein ansprechenderes Kundenerlebnis zu schaffen.
+Im folgenden Beispiel nutzen wir den KI-Assistenten, um mit einer überzeugenden Nachricht ein ansprechenderes Kundenerlebnis zu schaffen.
 
 1. Nachdem Sie den Versand Ihrer Push-Benachrichtigung erstellt und konfiguriert haben, klicken Sie auf **[!UICONTROL Inhalt bearbeiten]**.
 
@@ -46,7 +46,7 @@ Im folgenden Beispiel werden wir den KI-Assistenten nutzen, um überzeugende Bot
 
    ![](assets/push-genai-1.png){zoomable=&quot;yes&quot;}
 
-1. Aktivieren Sie die **[!UICONTROL Originalinhalt verwenden]** Option für den KI-Assistenten, um neuen Inhalt basierend auf Ihrem Versand, dem Versandnamen und der ausgewählten Zielgruppe zu personalisieren.
+1. Aktivieren Sie für den KI-Assistenten die Option **[!UICONTROL Originalinhalt verwenden]**, um neue Inhalte basierend auf Ihrem Versand, dem Versandnamen und der ausgewählten Zielgruppe zu personalisieren.
 
    >[!IMPORTANT]
    >
@@ -64,23 +64,23 @@ Im folgenden Beispiel werden wir den KI-Assistenten nutzen, um überzeugende Bot
 
 1. Wählen Sie das zu generierende Feld aus: **[!UICONTROL Titel]**, **[!UICONTROL Untertitel]** oder **[!UICONTROL Nachricht]**.
 
-1. Passen Sie Ihre Eingabeaufforderung mit den verschiedenen Optionen an:
+1. Passen Sie Ihr Prompt mit den verschiedenen Optionen an:
 
-   * **[!UICONTROL Kommunikationsstrategie]**: Wählen Sie den für Ihren generierten Text am besten geeigneten Kommunikationsstil aus.
-   * **[!UICONTROL Sprache]**: Wählen Sie die Sprache aus, in der der Inhalt erstellt werden soll.
-   * **[!UICONTROL Ton]**: Der Ton Ihrer E-Mail sollte bei Ihrer Zielgruppe Resonanz finden. Unabhängig davon, ob Sie informativ, spielerisch oder überzeugend klingen möchten, kann der KI-Assistent die Nachricht entsprechend anpassen.
+   * **[!UICONTROL Kommunikationsstrategie]**: Wählen Sie den am besten geeigneten Kommunikationsstil für den generierten Text aus.
+   * **[!UICONTROL Sprache]**: Wählen Sie die Sprache aus, in der Sie Ihre Inhalte generieren möchten.
+   * **[!UICONTROL Ton]**: Der Ton der E-Mail sollte bei Ihrer Zielgruppe ankommen. Je nachdem, ob Sie informativ, humorvoll oder überzeugend klingen möchten, kann der KI-Assistent die Nachricht entsprechend anpassen.
 
    ![](assets/push-genai-4.png){zoomable=&quot;yes&quot;}
 
-1. Wenn die Eingabeaufforderung fertig ist, klicken Sie auf **[!UICONTROL Generieren]**.
+1. Wenn das Prompt fertig ist, klicken Sie auf **[!UICONTROL Generieren]**.
 
-1. Durchsuchen Sie die generierte **[!UICONTROL Varianten]** und klicken **[!UICONTROL Vorschau]** , um eine Vollbildversion der ausgewählten Variante anzuzeigen.
+1. Durchsuchen Sie die generierten **[!UICONTROL Varianten]** und klicken Sie auf **[!UICONTROL Vorschau]**, um eine Vollbildversion der ausgewählten Variante anzuzeigen.
 
-1. Navigieren Sie zum **[!UICONTROL Verfeinern]** -Option innerhalb der **[!UICONTROL Vorschau]** -Fenster, um auf zusätzliche Anpassungsfunktionen zuzugreifen:
+1. Navigieren Sie zur Option **[!UICONTROL Verfeinern]** im Fenster **[!UICONTROL Vorschau]**, um auf zusätzliche Anpassungsfunktionen zuzugreifen:
 
-   * **[!UICONTROL Verwenden als Referenzinhalt]**: Die ausgewählte Variante dient als Referenzinhalt für die Generierung anderer Ergebnisse.
+   * **[!UICONTROL Als Referenzinhalt verwenden]**: Die gewählte Variante dient hierbei als Referenzinhalt für die Generierung anderer Ergebnisse.
 
-   * **[!UICONTROL Rehrase]**: Der KI-Assistent kann Ihre Nachricht auf unterschiedliche Weise umformulieren und so Ihr Schreiben für verschiedene Zielgruppen frisch und ansprechend gestalten.
+   * **[!UICONTROL Umformulierungen]**: Der KI-Assistent kann Ihre Nachricht auf verschiedene Arten umformulieren, sodass Ihre Texte für verschiedene Zielgruppen interessant und ansprechend klingen.
 
    * **[!UICONTROL Einfachere Sprache verwenden]**: Nutzen Sie den KI-Assistenten, um Ihre Sprache zu vereinfachen und für eine breitere Zielgruppe Klarheit und Barrierefreiheit zu gewährleisten.
 
@@ -88,7 +88,7 @@ Im folgenden Beispiel werden wir den KI-Assistenten nutzen, um überzeugende Bot
 
 1. Klicken Sie auf **[!UICONTROL Auswählen]**, sobald Sie den passenden Inhalt gefunden haben.
 
-1. Fügen Sie Personalisierungsfelder ein, um Ihre E-Mail-Inhalte auf der Grundlage von Profildaten anzupassen. Klicken Sie dann auf die **[!UICONTROL Inhalt simulieren]** zur Steuerung des Renderings und zur Überprüfung der Personalisierungseinstellungen mit Testprofilen. [Weitere Informationen](../preview-test/preview-content.md)
+1. Fügen Sie Personalisierungsfelder ein, um Ihre E-Mail-Inhalte auf der Grundlage von Profildaten anzupassen. Klicken Sie danach auf die Schaltfläche **[!UICONTROL Inhalte simulieren]**, um das Rendern zu steuern, und überprüfen Sie die Personalisierungseinstellungen mit Testprofilen. [Weitere Informationen](../preview-test/preview-content.md)
 
    ![](assets/push-genai-6.png){zoomable=&quot;yes&quot;}
 
