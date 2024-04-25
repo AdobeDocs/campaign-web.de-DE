@@ -3,10 +3,10 @@ audience: end-user
 title: Funktionsmatrix für die Benutzeroberfläche/Client-Konsole von Campaign Web
 description: Liste der in der Campaign Web-Benutzeroberfläche unterstützten Funktionen
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 70028ebe3e87498a5ef5778838491d8f964e8e87
-workflow-type: ht
+source-git-commit: 395109aeb603ecce53eda89adff70a9ef36fde17
+workflow-type: tm+mt
 source-wordcount: '2141'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -167,7 +167,7 @@ Das Daten-Management kombiniert eine Reihe von Aktivitäten zur Lösung komplexe
 
 >[!NOTE]
 >
->Während einige dieser Aktivitäten nur in der Client-Konsole verfügbar sind, stehen andere in der Campaign Web-Benutzeroberfläche zur Verfügung, z. B. die Aktivitäten **Anreicherung**, **Datei laden**, **Datenquelle ändern** oder **Dimensionsänderung**. [Weitere Informationen zu Audience- und Daten-Management-Aktivitäten in der Campaign-Web-Benutzeroberfläche](../workflows/activities/about-activities.md#targeting)
+>Während einige dieser Aktivitäten nur in der Client-Konsole verfügbar sind, stehen andere in der Campaign Web-Benutzeroberfläche zur Verfügung, z. B. die Aktivitäten **Anreicherung**, **Datei laden**, **Datenquelle ändern** oder **Dimensionsänderung**. [Erfahren Sie mehr über Zielgruppen- und Datenverwaltungsaktivitäten in der Web-Benutzeroberfläche von Campaign.](../workflows/activities/about-activities.md#targeting)
 
 ### Federated Data Access-Konfiguration {#fda}
 

@@ -3,16 +3,16 @@ audience: end-user
 title: Workflow-Ereignisvariablen
 description: Erfahren Sie, wie Sie Ereignisvariablen in Ihren Workflows nutzen können.
 exl-id: 526dc98f-391d-4f3f-a687-c980bf60b93b
-source-git-commit: b33c3c2424c1cd07c7bb6fd4c2ffcab9592354c7
+source-git-commit: 395109aeb603ecce53eda89adff70a9ef36fde17
 workflow-type: tm+mt
 source-wordcount: '345'
-ht-degree: 100%
+ht-degree: 90%
 
 ---
 
 # Workflow-Ereignisvariablen {#event-variables}
 
-Bei einigen Workflow-Aktivitäten können Sie Skripte im Ausdruckseditor bearbeiten, um bestimmte Aktionen auszuführen, z. B. das Abrufen von Daten aus früheren Aktivitäten, das Erstellen von Bedingungen oder das Berechnen von Dateinamen auf der Grundlage von Ereignisvariablen.
+Einige Workflow-Aktivitäten ermöglichen es Ihnen, Skripte im Ausdruckseditor zu bearbeiten, um bestimmte Aktionen durchzuführen, z. B. das Abrufen von Daten aus früheren Aktivitäten, das Erstellen von Bedingungen oder das Berechnen von Dateinamen basierend auf Ereignisvariablen.
 
 ## Was sind Ereignisvariablen? {#scripting}
 
