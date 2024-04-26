@@ -39,7 +39,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_customfields"
 >title="Benutzerdefinierte Felder"
->abstract="Benutzerdefinierte Felder sind spezifische Attribute, die auf Ihre Anforderungen zugeschnitten sind und für Ihre Instanz konfiguriert wurden. Um Informationen zu ändern, die gewünschten Änderungen direkt im entsprechenden Feld vornehmen und auf die **Speichern** -Schaltfläche in der oberen rechten Ecke des Bildschirms klicken."
+>abstract="Benutzerdefinierte Felder sind spezifische Attribute, die auf die Anforderungen des jeweiligen Unternehmens zugeschnitten sind und für seine Instanz konfiguriert wurden. Um Informationen zu ändern, die gewünschten Änderungen direkt im entsprechenden Feld vornehmen und auf die **Speichern** -Schaltfläche in der oberen rechten Ecke des Bildschirms klicken."
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_othersfields"
