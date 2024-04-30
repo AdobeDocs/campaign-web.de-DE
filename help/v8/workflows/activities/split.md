@@ -59,8 +59,8 @@ Die Aktivität **Aufspaltung** ist eine Aktivität zur **Zielgruppenbestimmung**
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_enable_overlapping"
->title="Überschneidung der Ausgabepopulationen zulassen"
->abstract="Überschneidung der Ausgabepopulationen zulassen"
+>title="Überlappen von Ausgabepopulationen ermöglichen"
+>abstract="Überlappen von Ausgabepopulationen ermöglichen"
 
 Folgen Sie diesen Schritten, um die Aktivität **Aufspaltung** zu konfigurieren:
 
