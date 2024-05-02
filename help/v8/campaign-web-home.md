@@ -3,10 +3,10 @@ keywords: Campaign Web;Startseite;beliebte Themen
 description: Hilfe-Center zu Campaign Web
 title: Produktdokumentation zu Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 36f13683f0a7e58dd684a69d84007136aa3132b8
+source-git-commit: 2e5ddb7aca83a1a348ca50603d38a89c2762bb80
 workflow-type: tm+mt
-source-wordcount: '502'
-ht-degree: 100%
+source-wordcount: '499'
+ht-degree: 98%
 
 ---
 
@@ -111,7 +111,7 @@ Mit der neuen Targeting-Aktivität **Datenquelle ändern** können Sie die Daten
     <td>
       <img src="assets/do-not-localize/icon-start.svg" width="35px">
     <br/>
-      <strong>Erste Schritte</strong><br/><a href="get-started/user-interface.md">Benutzeroberfläche</a>  <a href="get-started/connect-to-campaign.md">Herstellen einer Verbindung zu Campaign</a> – <a href="get-started/using-ai.md">KI-gestützte Kontexthilfe</a> – <a href="get-started/permissions.md">Zugriff und Berechtigungen</a>
+      <strong>Erste Schritte</strong><br/><a href="get-started/user-interface.md">Benutzeroberfläche</a> - <a href="get-started/connect-to-campaign.md">Mit Campaign verbinden</a> - <a href="get-started/permissions.md">Zugriff und Berechtigungen</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-experience.svg" width="35px">
