@@ -3,10 +3,10 @@ audience: end-user
 title: Arbeiten mit Anmeldediensten
 description: Erfahren Sie, wie Sie in Adobe Campaign Web auf Anmeldedienste zugreifen, diese erstellen und sie verwalten können.
 exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
-source-git-commit: 15418cd8de3ce640340eb3551786682173752910
-workflow-type: ht
-source-wordcount: '960'
-ht-degree: 100%
+source-git-commit: 943ed7ce9245a3fd0fd7111f285fdf409968c78b
+workflow-type: tm+mt
+source-wordcount: '1074'
+ht-degree: 89%
 
 ---
 
@@ -53,6 +53,11 @@ Gehen Sie wie folgt vor, um auf die für Ihre Plattform verfügbaren Anmeldedien
 >title="Auswählen einer Bestätigungsnachricht"
 >abstract="Wenn sich eine Benutzerin bzw. ein Benutzer für einen Dienst anmeldet oder sich von ihm abmeldet, können Sie eine Bestätigungsnachricht senden. Wählen Sie die Vorlagen aus, die für diese Nachricht verwendet werden sollen."
 
+>[!CONTEXTUALHELP]
+>id="acw_subscriptions_defaultlp"
+>title="Standard-Landingpage"
+>abstract="Wählen Sie die mit diesem Dienst verknüpften Standard-Landingpages aus."
+
 Gehen Sie wie folgt vor, um einen Anmeldedienst zu erstellen.
 
 1. Klicken Sie auf die Schaltfläche **[!UICONTROL Anmeldedienst erstellen]**.
@@ -81,9 +86,25 @@ Gehen Sie wie folgt vor, um einen Anmeldedienst zu erstellen.
 
 1. Klicken Sie auf **[!UICONTROL Speichern und überprüfen]**. Der neue Dienst wird zur Liste **[!UICONTROL Anmeldedienste]** hinzugefügt.
 
+1. Sie können auch die mit diesem Dienst verknüpften standardmäßigen Anmelde- und Abmelde-Landingpages auswählen.
+
+   >[!AVAILABILITY]
+   >
+   >Diese Funktion ist in begrenzter Verfügbarkeit verfügbar. Dies ist auf Kunden beschränkt, die migrieren **von Adobe Campaign Standard nach Adobe Campaign v8** und können nicht in einer anderen Umgebung bereitgestellt werden.
+
+   ![](assets/service-create-default-lp.png){zoomable=&quot;yes&quot;}
+
+   Nach Abschluss [Link einfügen](../email/message-tracking.md) in einer E-Mail auswählen **[!UICONTROL Anmelde-Link]** oder **[!UICONTROL Abmelde-Link]**. Wenn Sie auf diesen Link klicken, werden die Benutzer zur Anmelde- oder Abmelde-Landingpage weitergeleitet, auf die im Dienst verwiesen wird. <!--After submitting the form, they will be subscribed to / unsubscribed from the service.-->
+
+   ![](assets/service-create-default-lp-link.png){zoomable=&quot;yes&quot;}
+
+1. Speichern und überprüfen Sie Ihre Änderungen.
+
 Sie können jetzt:
 
-* Abonnentinnen und Abonnenten zu diesem Dienst hinzufügen sowie Profile abmelden. [Weitere Informationen](../msg/send-to-subscribers.md)
+* Fügen Sie diesem Dienst manuell Abonnenten hinzu und melden Sie sich von den Profilen ab. [Weitere Informationen](../audience/manage-subscribers.md)
+
+* Laden Sie Ihre Kunden über eine Landingpage ein, sich für diesen Dienst anzumelden. [Weitere Informationen](../landing-pages/lp-use-cases.md#lp-subscription)
 
 * Nachrichten an Abonnentinnen und Abonnenten dieses Dienstes senden. [Weitere Informationen dazu](../msg/send-to-subscribers.md)
 

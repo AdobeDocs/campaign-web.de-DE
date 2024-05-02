@@ -3,10 +3,10 @@ audience: end-user
 title: Verwenden der Workflow-Aktivität „Aufspaltung“
 description: Weitere Informationen zur Verwendung der Workflow-Aktivität „Aufspaltung“
 exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
-source-git-commit: 1637a88b1dcd299f5cdc11f030cdf3f6eec8ad97
-workflow-type: ht
-source-wordcount: '855'
-ht-degree: 100%
+source-git-commit: 575219c7bcef303e211f504d13227183933924cc
+workflow-type: tm+mt
+source-wordcount: '905'
+ht-degree: 94%
 
 ---
 
@@ -55,7 +55,7 @@ Die Aktivität **Aufspaltung** ist eine Aktivität zur **Zielgruppenbestimmung**
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_emptytransition"
 >title="Leere Transition überspringen"
->abstract="Überspringen Sie eine leere Transition."
+>abstract="Umschalten zwischen **[!UICONTROL Leere Transition überspringen]** -Option ein, um die ausgehende Transition für diese Teilmenge zu deaktivieren, wenn die Eingangspopulation leer ist."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_enable_overlapping"
@@ -85,6 +85,8 @@ Folgen Sie diesen Schritten, um die Aktivität **Aufspaltung** zu konfigurieren:
    1. Um eine Filterbedingung auf die Teilmenge anzuwenden, klicken Sie auf **[!UICONTROL Filter erstellen]** und konfigurieren Sie die gewünschte Filterregel mit dem Abfrage-Modeler. Es können beispielsweise Profile aus der eingehenden Population eingeschlossen werden, deren E-Mail-Adresse in der Datenbank vorhanden ist.  [Erfahren Sie mehr über die Arbeit mit dem Abfrage-Modeler](../../query/query-modeler-overview.md)
 
    1. Um die Anzahl der von der Teilmenge ausgewählten Profile zu begrenzen, muss **[!UICONTROL Grenzwert aktivieren]** aktiviert und die Anzahl oder der Prozentsatz der einzuschließenden Population angegeben werden.
+
+   1. Um eine Transition zu deaktivieren, wenn die Eingangspopulation leer ist, können Sie die **[!UICONTROL Leere Transition überspringen]** aktiviert. Wenn kein Profil mit der Teilmenge übereinstimmt, wird der Workflow nicht zur nächsten Aktivität übergegangen.
 
       ![](../assets/workflow-split-subset.png)
 
