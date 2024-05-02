@@ -4,7 +4,7 @@ title: Arbeiten mit Anmeldediensten
 description: Erfahren Sie, wie Sie in Adobe Campaign Web auf Anmeldedienste zugreifen, diese erstellen und sie verwalten können.
 exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
 source-git-commit: 15418cd8de3ce640340eb3551786682173752910
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '960'
 ht-degree: 100%
 
