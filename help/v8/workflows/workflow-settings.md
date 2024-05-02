@@ -3,10 +3,10 @@ audience: end-user
 title: Konfigurieren von Workflow-Einstellungen
 description: Erfahren Sie, wie Sie Workflow-Einstellungen mit Adobe Campaign Web festlegen
 exl-id: 3aef912b-086b-4aa4-9556-c09396112313
-source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
+source-git-commit: d4eef621d2287881bfa7ef57e5d90026adceb49c
 workflow-type: tm+mt
-source-wordcount: '1025'
-ht-degree: 100%
+source-wordcount: '1067'
+ht-degree: 96%
 
 ---
 
@@ -103,3 +103,8 @@ Wenn der Workflow [mit einer Kampagne verknüpft](create-workflow.md) ist, wird 
    * **[!UICONTROL Vorgang abbrechen]**: Der Workflow wird automatisch angehalten und der Status ändert sich in **[!UICONTROL Fehlgeschlagen]**. Sobald das Problem behoben ist, starten Sie den Workflow mit der Schaltfläche **[!UICONTROL Starten]** erneut.
 
 * **[!UICONTROL Aufeinanderfolgende Fehler]**: Dieses Feld wird verfügbar, wenn im Feld **[!UICONTROL Im Fehlerfall]** der Wert **[!UICONTROL Ignorieren]** ausgewählt wurde. Sie können die Anzahl der Fehler angeben, die ignoriert werden können, bevor der Prozess angehalten wird. Sobald diese Zahl erreicht ist, wechselt der Workflow-Status zu **[!UICONTROL Fehlgeschlagen]**. Wenn der Wert dieses Felds 0 beträgt, wird der Workflow unabhängig von der Fehleranzahl nie angehalten.
+
+## Initialisierungsskript {#initialization-script}
+
+Die **Initialisierungsscript** ermöglicht Ihnen, Variablen zu initialisieren oder Aktivitätseigenschaften zu ändern. Klicken Sie auf **Code bearbeiten** und geben Sie das auszuführende Codefragment ein. Das Skript wird aufgerufen, wenn der Workflow ausgeführt wird. Siehe Abschnitt zu [Ereignisvariablen](../workflows/event-variables.md).
+

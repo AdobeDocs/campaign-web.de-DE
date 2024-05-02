@@ -3,10 +3,10 @@ title: Definieren des Inhalts für die Landingpage
 description: Erfahren Sie, wie Sie in Campaign Web Landingpage-spezifische Inhalte erstellen
 feature: Landing Pages
 exl-id: 6ca3c8c1-3633-4e3f-a9a1-f46ae27c5c8a
-source-git-commit: e5a17ad1f8316d201dc3b4bc6ce20d61aea7a9c9
+source-git-commit: 4dee53676949282b7c0e7664405b7d5a35ef64d2
 workflow-type: tm+mt
-source-wordcount: '887'
-ht-degree: 100%
+source-wordcount: '1153'
+ht-degree: 70%
 
 ---
 
@@ -30,7 +30,15 @@ Der Inhalt der Seiten **[!UICONTROL Bestätigung]**, **[!UICONTROL Fehler]** und
 
 Sie können auch [Stile für Ihre Landingpage](#lp-form-styles) definieren.
 
-Um den Inhalt Ihrer Landingpage weiter zu gestalten, können Sie dieselben Komponenten wie für eine E-Mail verwenden. [Weitere Informationen](../email/content-components.md#add-content-components)
+So gestalten Sie den Inhalt Ihrer Landingpage weiter:
+
+* Sie können dieselben Komponenten wie für den Entwurf einer E-Mail verwenden. [Weitere Informationen](../email/content-components.md#add-content-components)
+
+* Sie können Ihren Landingpages bedingte Inhalte auf die gleiche Weise wie bei E-Mails hinzufügen. [Weitere Informationen](../personalization/conditions.md#condition-condition-builder)
+
+  >[!AVAILABILITY]
+  >
+  >Diese Funktion ist in begrenzter Verfügbarkeit verfügbar. Dies ist auf Kunden beschränkt, die migrieren **von Adobe Campaign Standard nach Adobe Campaign v8** und können nicht in einer anderen Umgebung bereitgestellt werden.
 
 ## Verwenden von Formularkomponenten {#use-form-component}
 
@@ -54,7 +62,7 @@ Um bestimmte Inhalte zu definieren, mit denen Benutzende ihre Auswahl auf Ihrer 
 
 1. Wählen Sie sie aus. Die Registerkarte **[!UICONTROL Formularinhalt]** in der rechten Palette wird angezeigt, damit Sie die verschiedenen Felder des Formulars bearbeiten können.
 
-   ![](assets/lp-form-component.png)
+   ![](assets/lp-form-component.png){zoomable=&quot;yes&quot;}
 
    >[!NOTE]
    >
@@ -62,7 +70,7 @@ Um bestimmte Inhalte zu definieren, mit denen Benutzende ihre Auswahl auf Ihrer 
 
 1. Erweitern Sie das erste Textfeld, falls vorhanden, oder fügen Sie eines mithilfe der Schaltfläche **[!UICONTROL Hinzufügen]** hinzu. Sie können im Abschnitt **[!UICONTROL Textfeld 1]** den Feldtyp, das zu aktualisierende Datenbankfeld, den Titel und den Text bearbeiten, der im Feld angezeigt wird, bevor Benutzende einen Wert eingeben.
 
-   ![](assets/lp-form-text-field.png)
+   ![](assets/lp-form-text-field.png){zoomable=&quot;yes&quot;}
 
 1. Aktivieren Sie bei Bedarf die Option **[!UICONTROL Formularfeld zum Pflichtfeld machen]**. In diesem Fall kann das Formular der Landingpage nur gesendet werden, wenn der Benutzer dieses Feld ausgefüllt hat.
 
@@ -72,9 +80,9 @@ Um bestimmte Inhalte zu definieren, mit denen Benutzende ihre Auswahl auf Ihrer 
 
 1. Erweitern Sie das Kontrollkästchen, falls vorhanden, oder fügen Sie eines mithilfe der Schaltfläche **[!UICONTROL Hinzufügen]** hinzu. Wählen Sie aus, ob mit diesem Kontrollkästchen ein Dienst oder ein Feld aus der Datenbank aktualisiert werden soll.
 
-   ![](assets/lp-form-checkbox.png)
+   ![](assets/lp-form-checkbox.png){zoomable=&quot;yes&quot;}
 
-   Wenn Sie **[!UICONTROL Abonnements und Services]** auswählen, wählen Sie einen Dienst aus der Liste aus und legen Sie eine der beiden folgenden Optionen fest:
+   Wenn Sie **[!UICONTROL Abonnements und Dienste]**, wählen Sie eine [service](../audience/manage-services.md) aus der Liste aus und wählen Sie zwischen den beiden folgenden Optionen:
 
    * **[!UICONTROL Anmelden wenn aktiviert]**: Benutzende müssen das Kontrollkästchen zum Einverständnis aktivieren (Opt-in).
    * **[!UICONTROL Abmelden wenn aktiviert]**: Benutzende müssen das Kontrollkästchen aktivieren, um ihr Einverständnis zu entfernen (Opt-out).
@@ -87,25 +95,46 @@ Um bestimmte Inhalte zu definieren, mit denen Benutzende ihre Auswahl auf Ihrer 
 
 1. Sie können so viele Felder (z. B. Textfelder, Optionsfelder, Kontrollkästchen, Dropdown-Listen usw.) löschen und hinzufügen wie nötig.
 
-1. Nachdem alle Felder hinzugefügt oder aktualisiert wurden, klicken Sie auf **[!UICONTROL Handlungsaufforderung]**, um den entsprechenden Abschnitt zu erweitern. Damit können Sie das Verhalten der Schaltfläche in der **[!UICONTROL Formularkomponente]** festlegen.
+1. Nachdem alle Felder hinzugefügt oder aktualisiert wurden, klicken Sie auf **[!UICONTROL Handlungsaufforderung]**, um den entsprechenden Abschnitt zu erweitern. Damit können Sie das Verhalten der Schaltfläche im **[!UICONTROL Formular]** -Komponente. [Weitere Informationen dazu](#define-actions-on-form-submission)
 
-   ![](assets/lp-call-to-action.png)
+   ![](assets/lp-call-to-action.png){zoomable=&quot;yes&quot;}
+
+1. Speichern Sie den Inhalt, um zu den [Eigenschaften der Landingpage](create-lp.md#create-landing-page) zurückzukehren.
+
+### Definieren von Aktionen bei der Formularübermittlung {#define-actions-on-form-submission}
 
 1. Definieren Sie, was beim Klicken auf die Schaltfläche passieren soll:
 
-   * **[!UICONTROL Bestätigungsseite]**: Die Person wird zur **[!UICONTROL Bestätigungsseite]** weitergeleitet, die für die aktuelle Landingpage festgelegt ist.
+   * **[!UICONTROL Bestätigungsseite]**: Standardmäßig wird der Benutzer zum **[!UICONTROL Bestätigung]** für die aktuelle Landingpage festgelegt ist.
 
    * **[!UICONTROL Umleitungs-URL]**: Geben Sie die URL der Seite ein, zu der die Benutzenden umgeleitet werden sollen.
 
+   * **[!UICONTROL Landingpage]**: Sie können eine andere Landingpage auswählen, zu der Benutzer weitergeleitet werden sollen. Konfigurieren Sie die ausgewählte Landingpage entsprechend.
+
 1. Wenn Sie beim Senden des Formulars zusätzliche Aktualisierungen vornehmen möchten, wählen Sie **[!UICONTROL Zusätzliche Aktualisierungen]** aus und wählen Sie dann das Element aus, das Sie aktualisieren möchten:
-   * Einen Abonnement-Dienst: Definieren Sie in diesem Fall, ob Sie Benutzende beim Senden des Formulars anmelden oder abmelden möchten.
-   * Die beim Ausfüllen des Formulars verwendete E-Mail-Adresse.
+   * Ein Abonnement [service](../audience/manage-services.md) - definieren Sie in diesem Fall, ob Sie Benutzer beim Senden des Formulars anmelden oder abwählen möchten. Wenn Sie beim Entwerfen einer E-Mail eine **[!UICONTROL Landingpage]**-Link zu dieser Landingpage eingeben, wird der ausgewählte Dienst automatisch verwendet. [Weitere Informationen zum Einfügen von Links](../email/message-tracking.md)
+
+     >[!NOTE]
+     >
+     >Wenn Sie für diese Landingpage mehrere Dienste verwenden möchten, verwenden Sie die **[!UICONTROL Dienst von URL]** weiter unten beschrieben.
+
+   * Der Kanal - die E-Mail, an die das Formular gesendet wurde.
    * Alle Kanäle: Beim Senden des Formulars werden die Benutzenden (je nach ausgewählter Vorlage) für alle Nachrichten von Ihrer Marke auf allen Kanälen angemeldet oder abgemeldet.
    * Ein Feld aus der Datenbank: Wählen Sie ein Feld aus der Attributliste aus und legen Sie fest, ob es beim Senden des Formulars auf „True“ oder „False“ gesetzt werden soll.
 
-   ![](assets/lp-form-additionnal-updates.png)
+   ![](assets/lp-form-additionnal-updates.png){zoomable=&quot;yes&quot;}
 
-1. Speichern Sie den Inhalt, um zu den [Eigenschaften der Landingpage](create-lp.md#create-landing-page) zurückzukehren.
+1. Wählen Sie die **[!UICONTROL Dienst von URL]** -Option, damit die Landingpage für mehrere Dienste verwendet werden kann, wodurch sie dynamisch wird. Definieren Sie, ob Sie Benutzer beim Senden des Formulars anmelden oder abwählen möchten.
+
+   >[!AVAILABILITY]
+   >
+   >Diese Funktion ist in begrenzter Verfügbarkeit verfügbar. Dies ist auf Kunden beschränkt, die migrieren **von Adobe Campaign Standard nach Adobe Campaign v8** und können nicht in einer anderen Umgebung bereitgestellt werden.
+
+   ![](assets/lp-form-service-from-url.png){zoomable=&quot;yes&quot;}
+
+   Wenn Sie beim Entwerfen einer E-Mail eine **[!UICONTROL Landingpage]**-Link zu dieser Landingpage eingeben, können Sie einen beliebigen Dienst aus der Liste auswählen. Sie können dann bei der Definition anderer Links zu dieser Landingpage andere Dienste auswählen. [Weitere Informationen zum Einfügen von Links](../email/message-tracking.md)
+
+   ![](assets/email-link-to-landing-page.png){zoomable=&quot;yes&quot;}
 
 ## Definieren der Formularstile für die Landingpage {#lp-form-styles}
 
@@ -113,17 +142,17 @@ Um bestimmte Inhalte zu definieren, mit denen Benutzende ihre Auswahl auf Ihrer 
 
 1. Der Abschnitt **[!UICONTROL Textfeld]** wird standardmäßig erweitert. Er ermöglicht es Ihnen, das Erscheinungsbild des Textfelds zu bearbeiten, z. B. die Schriftart für Titel, die Position der Titel, die Hintergrundfarbe des Felds oder des Feldrands.
 
-   ![](assets/lp-text-styles.png)
+   ![](assets/lp-text-styles.png){zoomable=&quot;yes&quot;}
 
 1. Klappen Sie den Abschnitt **[!UICONTROL Kontrollkästchen]** aus, um das Erscheinungsbild der Kontrollkästchen und des entsprechenden Texts zu definieren. Sie können beispielsweise die Schriftfamilie, die Schriftgröße und die Rahmenfarbe des Kontrollkästchens anpassen.
 
-   ![](assets/lp-checkbox-style.png)
+   ![](assets/lp-checkbox-style.png){zoomable=&quot;yes&quot;}
 
 1. Erweitern und bearbeiten Sie alle anderen Abschnitte, die anderen von Ihnen zum Formular hinzugefügten Feldern entsprechen (Optionsfeld, Dropdown-Liste, Datum und Uhrzeit usw.)
 
 1. Erweitern Sie den Abschnitt **[!UICONTROL Handlungsaufforderung]**, um das Erscheinungsbild der Schaltfläche im Komponentenformular zu ändern. Sie können beispielsweise die Schriftart ändern, einen Rahmen hinzufügen, die Beschriftungsfarbe beim Bewegen des Mauszeigers bearbeiten oder die Ausrichtung der Schaltfläche anpassen.
 
-   ![](assets/lp-call-to-action-style.png)
+   ![](assets/lp-call-to-action-style.png){zoomable=&quot;yes&quot;}
 
    Sie können eine Vorschau einiger Ihrer Einstellungen anzeigen, z. B. die Farbe der Schaltflächenbeschriftung beim Bewegen des Mauszeigers, indem Sie die Schaltfläche **[!UICONTROL Inhalt simulieren]** verwenden. [Weitere Informationen](create-lp.md#test-landing-page)
 
