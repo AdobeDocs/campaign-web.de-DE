@@ -3,10 +3,10 @@ audience: end-user
 title: Neue Funktionen in der Campaign Web-Benutzeroberfläche
 description: Entdecken Sie neue Funktionen in der Campaign Web-Benutzeroberfläche.
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: 2e5ddb7aca83a1a348ca50603d38a89c2762bb80
+source-git-commit: 1b27527865f8927ce31c2b962a43ffcd033dbef8
 workflow-type: tm+mt
-source-wordcount: '1193'
-ht-degree: 100%
+source-wordcount: '1206'
+ht-degree: 98%
 
 ---
 
@@ -129,6 +129,8 @@ Darüber hinaus sind alle Ihre Daten und Einstellungen, die bereits in der Clien
 In der Campaign Web-Benutzeroberfläche werden die Berechtigungen der Benutzerin bzw. des Benutzers dargestellt. Weitere Informationen über Berechtigungen finden Sie [auf dieser Seite](../get-started/permissions.md).
 
 Informationen zu unterstützten und nicht unterstützten Funktionen und Interoperabilität zwischen der Campaign Web-Benutzeroberfläche und der Campaign-Client-Konsole finden Sie [auf dieser Seite](../get-started/capability-matrix.md).
+
+Als Campaign Standard, der zu Campaign v8 wechselt, [auf diese Seite verweisen](../rn/acs-migration.md).
 
 ## Aktualisierungen der Terminologie {#terminology-updates}
 
