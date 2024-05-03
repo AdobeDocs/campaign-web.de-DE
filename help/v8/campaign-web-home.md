@@ -3,10 +3,10 @@ keywords: Campaign Web;Startseite;beliebte Themen
 description: Hilfe-Center zu Campaign Web
 title: Produktdokumentation zu Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 2e5ddb7aca83a1a348ca50603d38a89c2762bb80
+source-git-commit: 4b37ec6df839a7edef838b1d19b484208a6bec2f
 workflow-type: tm+mt
-source-wordcount: '499'
-ht-degree: 98%
+source-wordcount: '474'
+ht-degree: 82%
 
 ---
 
@@ -51,27 +51,23 @@ Hier erhalten Sie einen Einblick in die neuesten Verbesserungen in Adobe Campaig
 
 >[!BEGINTABS]
 
->[!TAB Die Version vom März ist live!]
+>[!TAB Die April-Version ist live!]
 
-Entdecken Sie neue Funktionen und Verbesserungen der Adobe Campaign Web-Benutzeroberfläche Version 24.3.
+Entdecken Sie neue Funktionen und Verbesserungen der Adobe Campaign Web-Benutzeroberfläche Version 24.4.
 
 [![Bild](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
 
->[!TAB Briefpost-Kanal]
+>[!TAB Neue Workflow-Aktivitäten]
 
-Der **Briefpost-Kanal** ist jetzt für die Verwendung in Workflows und für eigenständige Sendungen verfügbar. Briefpost ist ein Offline-Kanal, über den Sie Extraktionsdateien erstellen, personalisieren und generieren sowie diese an Ihre Briefpost-Dienstleister weitergeben können, um Ihrer Kundschaft Post zukommen zu lassen.
+Diese Version umfasst die folgenden Workflow-Aktivitäten: Daten-Update, Abonnement-Services, Dateiextraktion, Dateiübertragung, Test, JavaScript-Code, Externes Signal, Inkrementelle Abfrage.
 
-![Bild](assets/do-not-localize/direct-mail.gif)
+[![Bild](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
 
-[![Bild](assets/do-not-localize/learn-more-button.svg)](direct-mail/gs-direct-mail.md)
+>[!TAB Rich-Push-Benachrichtigung]
 
->[!TAB Neue Workflow-Aktivität „Datenquelle ändern“]
+Sie können jetzt Rich-Push-Benachrichtigungen über Android senden. Rich-Push-Benachrichtigungen sind eine erweiterte Form von Mobile-Benachrichtigungen, die über einfache Textnachrichten hinausgehen und Multimedia-Elemente wie Bilder, interaktive Schaltflächen oder andere Rich-Media-Inhalte enthalten.
 
-Mit der neuen Targeting-Aktivität **Datenquelle ändern** können Sie die Datenquelle der von Ihrem Workflow verwendeten Arbeitstabelle ändern. Diese Aktivität bietet mehr Flexibilität, da Sie damit Daten in Ihren verschiedenen Datenbanken verwalten und die Leistung verbessern können.
-
-![Bild](assets/do-not-localize/change-data-source.gif)
-
-[![Bild](assets/do-not-localize/learn-more-button.svg)](workflows/activities/change-data-source.md)
+[![Bild](assets/do-not-localize/learn-more-button.svg)](push/rich-push.md)
 
 >[!ENDTABS]
 
