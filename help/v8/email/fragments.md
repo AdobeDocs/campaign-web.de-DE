@@ -1,16 +1,17 @@
 ---
 audience: end-user
-title: Arbeiten mit Fragmenten
-description: Erfahren Sie, wie Sie mit Fragmenten arbeiten
+title: Inhaltsfragmente erstellen
+description: Erfahren Sie, wie Sie mit Inhaltsfragmenten erstellen
 hidefromtoc: true
-source-git-commit: a882087bc608ea4029e53ed38ecf699e127be065
+hide: true
+source-git-commit: 341e2a5ab073405d3be19068f85b9ea917b32a69
 workflow-type: tm+mt
-source-wordcount: '842'
+source-wordcount: '843'
 ht-degree: 4%
 
 ---
 
-# Arbeiten mit Fragmenten {#fragments}
+# Inhaltsfragmente erstellen {#fragments}
 
 
 >[!CONTEXTUALHELP]
