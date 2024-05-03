@@ -5,10 +5,10 @@ user-guide-description: Produktdokumentation zur Adobe Campaign Web-Benutzerober
 title: Dokumentation zu Adobe Campaign Web
 description: Dokumentation zu Campaign Web
 breadcrumb-title: Campaign Web-Benutzeroberfläche
-source-git-commit: 2e5ddb7aca83a1a348ca50603d38a89c2762bb80
+source-git-commit: 5fee5f9c0d055bb2936c0744a24a1671d8257e78
 workflow-type: tm+mt
-source-wordcount: '672'
-ht-degree: 98%
+source-wordcount: '684'
+ht-degree: 96%
 
 ---
 
@@ -38,7 +38,10 @@ ht-degree: 98%
       + [Erstellen Ihrer ersten E-Mail](email/create-email.md)
       + Erstellen der E-Mail-Inhalte {#content}
          + [Konfigurieren der E-Mail-Inhalte](email/edit-content.md)
-         + [Arbeiten mit Inhaltsvorlagen](email/create-email-templates.md)
+         + Wiederverwendbaren Inhalt verwalten {#manage-reusable-content}
+            + [Arbeiten mit Inhaltsvorlagen](email/create-email-templates.md)
+            + [Arbeiten mit Fragmenten](email/fragments.md)
+            + [Hinzufügen visueller Fragmente zu E-Mails](email/use-visual-fragments.md)
          + Beginnen Sie mit der Gestaltung Ihrer E-Mail {#start-design}
             + [Erste Schritte mit dem E-Mail-Designer](email/get-started-email-designer.md)
             + [Beginnen von Grund auf](email/create-email-content.md)

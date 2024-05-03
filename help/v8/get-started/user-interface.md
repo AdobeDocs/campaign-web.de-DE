@@ -3,9 +3,9 @@ audience: end-user
 title: Erkunden der Benutzeroberfläche
 description: Adobe Campaign Web-Benutzeroberfläche
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 2e5ddb7aca83a1a348ca50603d38a89c2762bb80
+source-git-commit: b1dc684593011729ab1a3214c3b87709cceb61e3
 workflow-type: tm+mt
-source-wordcount: '1670'
+source-wordcount: '1644'
 ht-degree: 99%
 
 ---
@@ -197,40 +197,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Empfängerangebote – Vorschau"
 >abstract="Empfängerangebote – Vorschau"
 
->[!CONTEXTUALHELP]
->id="acw_fragments_menu"
->title="Fragmente"
->abstract="Fragmente"
-
->[!CONTEXTUALHELP]
->id="acw_fragments_save"
->title="Fragmente – Speichern"
->abstract="Fragmente – Speichern"
-
->[!CONTEXTUALHELP]
->id="acw_fragments_create"
->title="Fragmente – Erstellung"
->abstract="Fragmente – Erstellung"
-
->[!CONTEXTUALHELP]
->id="acw_fragments_properties"
->title="Fragmente – Eigenschaften"
->abstract="Fragmente – Eigenschaften"
-
->[!CONTEXTUALHELP]
->id="acw_fragments_type"
->title="Fragmente – Typ"
->abstract="Fragmente – Typ"
-
->[!CONTEXTUALHELP]
->id="acw_fragments_list"
->title="Fragmente – Liste"
->abstract="Fragmente – Liste"
-
->[!CONTEXTUALHELP]
->id="acw_fragments_details"
->title="Fragmente – Details"
->abstract="Fragmente – Details"
 
 
 
