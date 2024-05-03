@@ -2,13 +2,13 @@
 audience: end-user
 title: Umstellung von Campaign Standard auf Adobe Campaign Web
 description: Benutzeroberfläche des Campaign-Webs
-source-git-commit: 2e5ddb7aca83a1a348ca50603d38a89c2762bb80
+exl-id: 4cf406af-4cf5-434d-b1c7-a7c102f8dc2f
+source-git-commit: 8cd743d7feafe9093790c3f631ffbfe19d1413e2
 workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 12%
 
 ---
-
 
 # Umstellung der Campaign Standard auf Campaign v8{#welcome}
 
@@ -64,10 +64,10 @@ Die meisten Konzepte sind in der Campaign-Webschnittstelle und im Campaign Stand
 * Benutzerdefinierte Ressourcen sind **Schemas** in der Campaign-Webbenutzeroberfläche.
 * Marketingaktivitäten existieren nicht mehr.
 * Nachrichten sind **Sendungen**.
-* Operatoren sind **Benutzer**.
-* Spezifische Berechtigungen sind **Rollen**.
-* Benutzergruppen sind **Sicherheitsgruppen**.
-* Ordnerberechtigungen sind **Organisationseinheiten**
+* Benutzer sind **Operatoren**.
+* Rollen sind **Spezifische Berechtigungen**.
+* Sicherheitsgruppen sind **Benutzergruppen**.
+* Organisationseinheiten **Ordnerberechtigungen**
 
 ## Neue Funktionen {#new-features}
 
