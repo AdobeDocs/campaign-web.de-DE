@@ -2,14 +2,24 @@
 audience: end-user
 title: Verwenden der Workflow-Aktivität Daten-Update
 description: Erfahren Sie, wie Sie die Workflow-Aktivität Daten-Update verwenden.
-source-git-commit: 347f8f84a8eda60538366eb3dc49f8d7e06379c3
+exl-id: db978482-43f6-48a7-8d8d-4b921eb610b2
+source-git-commit: 362f657c689ce13c6c1fadc381d43e15c32d4d05
 workflow-type: tm+mt
-source-wordcount: '498'
-ht-degree: 31%
+source-wordcount: '541'
+ht-degree: 30%
 
 ---
 
 # Daten-Update {#update-data}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn1"
+>title="Aktivität &quot;Daten-Update&quot;"
+>abstract="Die Aktivität Daten-Update ist jetzt für die Verwendung in Workflows verfügbar. Verwenden Sie die Aktivität Daten-Update , um die Datenbankfelder gebündelt zu aktualisieren. Zur Personalisierung des Aktualisierungstyps werden verschiedene Optionen vorgeschlagen."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=de" text="Siehe Versionshinweise"
+
+
 
 Die **Daten aktualisieren** -Aktivität **Data Management** -Aktivität. Damit können Sie Felder in der Datenbank gebündelt aktualisieren. Mit verschiedenen Optionen können Sie die Datenaktualisierung personalisieren.
 

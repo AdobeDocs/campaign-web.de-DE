@@ -4,20 +4,14 @@ title: Erste Schritte mit Landingpages
 description: Informationen zu Landingpages in Campaign Web
 feature: Landing Pages
 exl-id: edd313a3-93f4-4596-8dd6-dfc2bc3db21b
-source-git-commit: 9ec5483a5253d67110baf6a51b47ebe0c27574d5
+source-git-commit: 362f657c689ce13c6c1fadc381d43e15c32d4d05
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '233'
 ht-degree: 100%
 
 ---
 
 # Erste Schritte mit Landingpages {#get-sarted-lp}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn5"
->title="Landingpages"
->abstract="Entdecken Sie das neue Landingpage-Erlebnis. Erstellen, entwerfen und teilen Sie sofort Landingpages, um Ihre Benutzer und Benutzerinnen auf Online-Webseiten weiterzuleiten, auf denen Sie anhand integrierter Vorlagen Nutzungsszenarios für Akquise, Abonnement/Abmeldung und Blockierungsliste verwalten können."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=de" text="Siehe Versionshinweise"
 
 [!DNL Adobe Campaign] ermöglicht das Erstellen, Entwerfen und Freigeben von Landingpages.
 

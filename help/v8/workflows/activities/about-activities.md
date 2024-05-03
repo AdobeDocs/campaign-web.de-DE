@@ -3,10 +3,10 @@ audience: end-user
 title: Arbeiten mit Workflow-Aktivitäten
 description: Erfahren Sie, wie Sie Workflow-Aktivitäten durchführen.
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: a0086f41463524cf2bebef6bda31bb079b28259d
+source-git-commit: 362f657c689ce13c6c1fadc381d43e15c32d4d05
 workflow-type: tm+mt
-source-wordcount: '567'
-ht-degree: 44%
+source-wordcount: '686'
+ht-degree: 38%
 
 ---
 
@@ -40,6 +40,12 @@ Diese Aktivitäten sind spezifisch für die Zielgruppenbestimmung. Sie ermöglic
 
 ## Daten-Management-Aktivitäten {#data}
 
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn3"
+>title="Aktivitäten &quot;Datei extrahieren&quot;und &quot;Datei laden&quot;"
+>abstract="In Workflows stehen neue Datenverwaltungsaktivitäten zur Verfügung. Verwenden Sie die Aktivität Dateiextraktion , um Daten aus Adobe Campaign als externe Datei in ein anderes System zu exportieren. Verwenden Sie die Aktivität Datei laden , um mit Profilen und Daten zu arbeiten, die in einer externen Datei gespeichert sind."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=de" text="Siehe Versionshinweise"
+
 Diese Aktivitäten dienen der Verarbeitung und Anreicherung von Populationsdaten.
 
 * [Dateiextraktion](extract-file.md): Exportieren Sie Daten von Adobe Campaign in ein anderes System als externe Datei.
@@ -54,6 +60,15 @@ Diese Aktivitäten dienen der Verarbeitung und Anreicherung von Populationsdaten
 In Adobe Campaign Web können Sie Marketing-Kampagnen automatisieren und über mehrere Kanäle hinweg ausführen. Sie können Kanalaktivitäten in den Arbeitsflächen kombinieren, um kanalübergreifende Workflows zu erstellen, mit denen je nach Kundenverhalten Aktionen ausgelöst werden können. Es sind folgende **Kanalaktivitäten** verfügbar: E-Mail-, SMS-, Android- und iOS-Push-Benachrichtigungen. [Erfahren Sie, wie Sie einen Versand im Rahmen eines Workflows einrichten.](channels.md).
 
 ## Aktivitäten zur Flusskontrolle {#flow-control}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn4"
+>title="Erweiterte Workflow-Aktivitäten"
+>abstract="Sie können jetzt die Aktivitäten Test, JavaScript-Code und Externes Signal in einem Workflow konfigurieren. Verwenden Sie die Test -Aktivität, um Workflow-Transitionen auf der Basis von Bedingungen zu aktivieren. Fügen Sie die Aktivität JavaScript-Code hinzu, um im Kontext Ihres Workflows ein JS-Codefragment auszuführen. Konfigurieren Sie die Aktivität Externes Signal , um die Ausführung Ihres Workflows über eine API oder einen anderen Workflow Trigger."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=de" text="Siehe Versionshinweise"
+
+
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_end"

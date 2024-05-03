@@ -2,14 +2,21 @@
 audience: end-user
 title: Workflow-Aktivität Inkrementelle Abfrage verwenden
 description: Erfahren Sie, wie Sie die Workflow-Aktivität Inkrementelle Abfrage verwenden
-source-git-commit: 575219c7bcef303e211f504d13227183933924cc
+exl-id: 72bd307b-eba2-42a0-9744-05e089c34925
+source-git-commit: 362f657c689ce13c6c1fadc381d43e15c32d4d05
 workflow-type: tm+mt
-source-wordcount: '743'
-ht-degree: 30%
+source-wordcount: '786'
+ht-degree: 31%
 
 ---
 
 # Inkrementelle Abfrage {#incremental-query}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn5"
+>title="Inkrementelle Abfrage"
+>abstract="Verwenden Sie die neue Aktivität Inkrementelle Abfrage , um die Datenbank planmäßig abzufragen. Bei jeder neuen Ausführung dieser Aktivität werden die Ergebnisse der vorangehenden Ausführungen ausgeschlossen. Dadurch lassen sich ausschließlich neue Elemente abrufen."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=de" text="Siehe Versionshinweise"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_incrementalquery"
