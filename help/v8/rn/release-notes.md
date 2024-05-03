@@ -2,10 +2,10 @@
 title: Neueste Versionshinweise
 description: Entdecken Sie neue Funktionen in der Campaign Web-Benutzeroberfläche.
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: e98a1cf9bcda2183dbfa2c607b53f0aa2f70a998
+source-git-commit: f6a1ebcb5a77798f738e2a4ac0b45454d941d7c7
 workflow-type: tm+mt
-source-wordcount: '1141'
-ht-degree: 27%
+source-wordcount: '1137'
+ht-degree: 28%
 
 ---
 
@@ -17,7 +17,7 @@ Die Versionen der Adobe Campaign Web-Benutzeroberfläche basieren auf einem kont
 
 ## April - Versionshinweise {#april-24-4-release}
 
-**Veröffentlichungsdatum**: 30. April 2024
+**Veröffentlichungsdatum**: 2. Mai 2024
 
 ### Neue Funktionen {#new-24-4}
 
@@ -60,8 +60,6 @@ The Audit trail feature constantly records a detailed log of actions and events 
 
 * **Dynamische Berichterstellung** - Als Campaign Standard migrierter Benutzer können Sie auf die dynamische Berichterstellung zugreifen, die vollständig anpassbare und in Echtzeit aktualisierte Berichte zur Messung der Wirkung Ihrer Marketingaktivitäten bietet. Durch sie kann auf Profildaten zugegriffen werden, was die demografische Analyse nach Profildimensionen wie Geschlecht, Stadt und Alter sowie nach Daten von E-Mail-Kampagnen wie Öffnungen und Klicks ermöglicht. [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html)
 
-* **Verbesserung der Aktivität &quot;Datei laden&quot;** - die **Datei laden** Die -Aktivität wurde um mehrere Abschnitte erweitert, in denen Sie eine Beispieldatei hochladen, Fehler und Zurückweisungen verwalten sowie hochgeladene Dateien nach der Ausführung der Aktivität löschen können. [Weitere Informationen](../workflows/activities/load-file.md)
-
 * **Landing Pages** - Die folgenden Verbesserungen an Landingpages sind nur für Benutzer verfügbar, die von Campaign Standard aus wechseln:
 
    * Sie können jetzt beim Konfigurieren eines Dienstes auf eine standardmäßige Anmelde-/Abmelde-Landingpage verweisen. Wenn Sie bei der Erstellung einer E-Mail einen Link zu dieser Landingpage definieren, werden die Benutzer, die das Landingpage-Formular senden, automatisch für diesen Dienst angemeldet oder von ihm abgemeldet. [Weitere Informationen](../audience/manage-services.md#create-service)
@@ -75,11 +73,14 @@ The Audit trail feature constantly records a detailed log of actions and events 
 Die folgenden Verbesserungen stehen allen Kunden ab der April-Version zur Verfügung.
 <!--**Workflow - Copy/Paste into another tab**: -->
 
-* Jetzt können Sie Aktivitäten von einem Workflow in einen anderen Workflow über eine andere Browser-Registerkarte kopieren/einfügen. [Weitere Informationen](../workflows/orchestrate-activities.md#copy-activities-copy)
+* Die **Datei laden** Die -Aktivität wurde um mehrere Abschnitte erweitert, in denen Sie eine Beispieldatei hochladen, Fehler und Zurückweisungen verwalten sowie hochgeladene Dateien nach der Ausführung der Aktivität löschen können. [Weitere Informationen](../workflows/activities/load-file.md)
+
+
+* Sie können jetzt **Aktivitäten kopieren/einfügen** von einem Workflow zu einem anderen Workflow über eine andere Browser-Registerkarte. [Weitere Informationen](../workflows/orchestrate-activities.md#copy-activities-copy)
 
 <!--**Workflow - Execution options**: -->
 
-* Alle Workflow-Aktivitäten können jetzt ihre Ausführungsoptionen verwalten. Auf diese Weise können Sie den Ausführungsmodus und das Verhalten der Aktivität im Fall von Fehlern definieren. [Weitere Informationen](../workflows/orchestrate-activities.md#execution-options-execution)
+* Alle Workflow-Aktivitäten können jetzt ihre **Ausführungsoptionen**. Auf diese Weise können Sie den Ausführungsmodus und das Verhalten der Aktivität im Fall von Fehlern definieren. [Weitere Informationen](../workflows/orchestrate-activities.md#execution-options-execution)
 
 <!-- **Workflow - Split Activity - Support Skipping Empty Transition**: -->
 
@@ -87,7 +88,7 @@ Die folgenden Verbesserungen stehen allen Kunden ab der April-Version zur Verfü
 
 <!--* **Support of custom fields**-->
 
-* Benutzerdefinierte Felder sind zusätzliche Attribute, die den nativen Schemas über die Adobe Campaign-Konsole hinzugefügt werden. In der Web-Benutzeroberfläche von Campaign sind diese benutzerdefinierten Felder jetzt in verschiedenen Bildschirmen sichtbar, z. B. in den Details eines Profils oder eines Testprofils. In der Web-Benutzeroberfläche können Sie keine benutzerdefinierten Felder erstellen, aber jetzt können Sie die Anzeige ändern. [Weitere Informationen](../administration/custom-fields.md)
+* **Benutzerdefinierte Felder** sind zusätzliche Attribute, die den nativen Schemas über die Adobe Campaign-Konsole hinzugefügt werden. In der Web-Benutzeroberfläche von Campaign sind diese benutzerdefinierten Felder jetzt in verschiedenen Bildschirmen sichtbar, z. B. in den Details eines Profils oder eines Testprofils. In der Web-Benutzeroberfläche können Sie keine benutzerdefinierten Felder erstellen, aber jetzt können Sie die Anzeige ändern. [Weitere Informationen](../administration/custom-fields.md)
 
 
 ## Versionshinweise für März {#24-3-release}

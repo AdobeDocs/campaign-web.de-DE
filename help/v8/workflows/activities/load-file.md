@@ -3,10 +3,10 @@ audience: end-user
 title: Verwenden der Workflow-Aktivität „Datei laden“
 description: So verwenden Sie die Workflow-Aktivität „Datei laden“
 exl-id: 230177e2-1926-451a-8a66-0db962ada514
-source-git-commit: ba187eaebf299e5d2ee303c4e15180d35a9e6180
+source-git-commit: 4518f7a2f280eca70f799b941c5d28bdc39c1def
 workflow-type: tm+mt
-source-wordcount: '1269'
-ht-degree: 22%
+source-wordcount: '1227'
+ht-degree: 23%
 
 ---
 
@@ -42,10 +42,6 @@ Die **Datei laden** Die Aktivitätskonfiguration umfasst zwei Schritte. Definier
 ![](../assets/workflow-load-file.png)
 
 ### Beispieldatei konfigurieren {#sample}
-
->[!AVAILABILITY]
->
->Diese Funktion ist in begrenzter Verfügbarkeit verfügbar. Sie ist auf Kunden beschränkt, die auf einem Campaign-Server Version 8.7 arbeiten, und kann in keiner anderen Umgebung bereitgestellt werden.
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_samplefile"
@@ -122,6 +118,8 @@ Führen Sie die folgenden Schritte aus, um die Beispieldatei zu konfigurieren, m
 >
 >Bevor Sie die Zieldatei laden, stellen Sie sicher, dass sie die Formatierung der Beispieldatei einhält. Abweichungen vom Dateiformat, der Spaltenstruktur oder der Spaltenanzahl können bei der Ausführung des Workflows zu Fehlern führen.
 
+Gehen Sie wie folgt vor, um die hochzuladende Zieldatei zu definieren:
+
 1. Im **[!UICONTROL Zieldatei]** angeben, welche Aktion beim Abrufen der auf den Server hochzuladenden Datei ausgeführt werden soll.
 
    * **[!UICONTROL Datei von einem lokalen Computer hochladen]**: Wählen Sie die von Ihrem Computer hochzuladende Datei aus.
@@ -150,10 +148,6 @@ Führen Sie die folgenden Schritte aus, um die Beispieldatei zu konfigurieren, m
 >title="Löschen von Dateien nach dem Importieren"
 >abstract="Schalten Sie die Option **Datei nach dem Import löschen** ein, um die Originaldatei nach dem Import vom Server zu löschen."
 
-
->[!AVAILABILITY]
->
->Diese Optionen sind in der eingeschränkten Verfügbarkeit (LA) verfügbar. Sie sind auf Kunden beschränkt, die auf einem Campaign-Server Version 8.7 ausgeführt werden, und können in keiner anderen Umgebung bereitgestellt werden.
 
 1. Im **Verwaltung von Ablehnungen** geben Sie an, wie sich die Aktivität im Falle von Fehlern verhalten soll:
 
