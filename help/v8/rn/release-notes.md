@@ -2,9 +2,9 @@
 title: Neueste Versionshinweise
 description: Entdecken Sie neue Funktionen in der Campaign Web-Benutzeroberfläche.
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: ba187eaebf299e5d2ee303c4e15180d35a9e6180
+source-git-commit: e98a1cf9bcda2183dbfa2c607b53f0aa2f70a998
 workflow-type: tm+mt
-source-wordcount: '1142'
+source-wordcount: '1141'
 ht-degree: 27%
 
 ---
@@ -31,7 +31,7 @@ Die folgenden Funktionen stehen allen Benutzern ab der April-Version zur Verfüg
 * **Dateiübertragung** - Verwenden Sie diese Aktivität, um Dateien zu empfangen oder zu senden, auf Existenz von Dateien zu testen oder Dateien auf einem Server aufzulisten. Das verwendete Protokoll kann entweder ein Server-zu-Server-Protokoll oder ein HTTP-Protokoll sein. [Weitere Informationen](../workflows/activities/transfer-file.md)
 * **Test** - Verwenden Sie diese Aktivität, um Transitionen auf der Basis der angegebenen Bedingungen zu aktivieren. [Weitere Informationen](../workflows/activities/test.md)
 * **JavaScript-Code** - Verwenden Sie diese Aktivität, um ein JavaScript-Codefragment im Kontext eines Workflows auszuführen. [Weitere Informationen](../workflows/activities/javascript-code.md)
-* **Externes Signal** - Verwenden Sie diese Aktivität, um die Ausführung eines Workflows aus einem anderen Workflow, einem API-Aufruf, Trigger. [Weitere Informationen](../workflows/activities/external-signal.md)
+* **Externes Signal** - Verwenden Sie diese Aktivität, um die Ausführung eines Workflows aus einem anderen Workflow oder einem API-Aufruf Trigger. [Weitere Informationen](../workflows/activities/external-signal.md)
 * **Inkrementelle Abfrage** - Verwenden Sie diese Aktivität, um die Datenbank auf geplanter Basis abzufragen. Bei jeder neuen Ausführung dieser Aktivität werden die Ergebnisse der vorangehenden Ausführungen ausgeschlossen. Auf diese Weise können Sie nur neue Elemente ansprechen. [Weitere Informationen](../workflows/activities/incremental-query.md)
 
 **Vorlagen für Rich-Push-Benachrichtigungen**
