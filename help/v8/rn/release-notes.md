@@ -2,14 +2,19 @@
 title: Neueste Versionshinweise
 description: Entdecken Sie neue Funktionen in der Campaign Web-Benutzeroberfläche.
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: f6a1ebcb5a77798f738e2a4ac0b45454d941d7c7
+source-git-commit: d50dfc4ea433fa48301707b40164e2fdf9fa64fd
 workflow-type: tm+mt
-source-wordcount: '1137'
-ht-degree: 28%
+source-wordcount: '1185'
+ht-degree: 29%
 
 ---
 
 # Versionshinweise {#latest-release}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_learning_card2"
+>title="Versionshinweise"
+>abstract="Die Versionen der Adobe Campaign Web-Benutzeroberfläche basieren auf einem kontinuierlichen Versandmodell, das einen besser skalierbaren, schrittweisen Ansatz für die Implementierung von Funktionen ermöglicht. Dementsprechend werden die Versionshinweise zu Campaign mehrmals im Monat aktualisiert und enthalten die neuesten Funktionen, Verbesserungen und Fehlerbehebungen. Wir empfehlen Ihnen, diese regelmäßig zu überprüfen."
 
 <!--Last update: **March 19, 2024**-->
 
