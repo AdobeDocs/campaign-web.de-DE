@@ -4,9 +4,9 @@ title: Neue Funktionen in der Campaign Web-Benutzeroberfläche
 description: Entdecken Sie neue Funktionen in der Campaign Web-Benutzeroberfläche.
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 source-git-commit: 1b27527865f8927ce31c2b962a43ffcd033dbef8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1206'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -122,7 +122,7 @@ Weiterführende Informationen finden Sie in [diesem Abschnitt](../msg/offers.md)
 
 ## Wechsel zur Campaign Web-Benutzeroberfläche
 
-Als Benutzerin oder Benutzer von Campaign können Sie weiterhin auf die Client-Konsole zugreifen, um Campaign-Ressourcen und -Komponenten zu erstellen und zu verwalten. Daten und Einstellungen werden von einer Umgebung zu einer anderen synchronisiert. Weiterführende Informationen finden Sie in [diesem Abschnitt](../get-started/get-started.md#ac-client).
+Als Benutzerin oder Benutzer von Campaign können Sie weiterhin auf die Client-Konsole zugreifen, um Campaign-Ressourcen und -Komponenten zu erstellen und zu verwalten. Daten und Einstellungen werden zwischen den Umgebungen synchronisiert. Weiterführende Informationen finden Sie in [diesem Abschnitt](../get-started/get-started.md#ac-client).
 
 Darüber hinaus sind alle Ihre Daten und Einstellungen, die bereits in der Client-Konsole verfügbar sind, in der Campaign Web-Benutzeroberfläche im linken Navigationsbereich des Explorers sichtbar. Weitere Informationen zur Explorer-Ansicht finden Sie in [diesem Abschnitt](../get-started/user-interface.md#user-interface-explorer).
 
@@ -130,7 +130,7 @@ In der Campaign Web-Benutzeroberfläche werden die Berechtigungen der Benutzerin
 
 Informationen zu unterstützten und nicht unterstützten Funktionen und Interoperabilität zwischen der Campaign Web-Benutzeroberfläche und der Campaign-Client-Konsole finden Sie [auf dieser Seite](../get-started/capability-matrix.md).
 
-Als Campaign Standard, der zu Campaign v8 wechselt, [auf diese Seite verweisen](../rn/acs-migration.md).
+Wenn Sie von Campaign Standard zu Campaign v8 wechseln, finden Sie [auf dieser Seite](../rn/acs-migration.md) weitere Informationen.
 
 ## Aktualisierungen der Terminologie {#terminology-updates}
 

@@ -4,9 +4,9 @@ description: Hilfe-Center zu Campaign Web
 title: Produktdokumentation zu Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 source-git-commit: 4b37ec6df839a7edef838b1d19b484208a6bec2f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '474'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -53,19 +53,19 @@ Hier erhalten Sie einen Einblick in die neuesten Verbesserungen in Adobe Campaig
 
 >[!TAB Die April-Version ist live!]
 
-Entdecken Sie neue Funktionen und Verbesserungen der Adobe Campaign Web-Benutzeroberfläche Version 24.4.
+Entdecken Sie die neuen Funktionen und Verbesserungen der Adobe Campaign Web-Benutzeroberfläche Version 24.4.
 
 [![Bild](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
 
 >[!TAB Neue Workflow-Aktivitäten]
 
-Diese Version umfasst die folgenden Workflow-Aktivitäten: Daten-Update, Abonnement-Services, Dateiextraktion, Dateiübertragung, Test, JavaScript-Code, Externes Signal, Inkrementelle Abfrage.
+Diese Version umfasst die folgenden Workflow-Aktivitäten: „Daten-Update“, „Anmeldedienste“, „Dateiextraktion“, „Dateiübertragung“, „Test“, „JavaScript-Code“, „Externes Signal“ und „Inkrementelle Abfrage“.
 
 [![Bild](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
 
 >[!TAB Rich-Push-Benachrichtigung]
 
-Sie können jetzt Rich-Push-Benachrichtigungen über Android senden. Rich-Push-Benachrichtigungen sind eine erweiterte Form von Mobile-Benachrichtigungen, die über einfache Textnachrichten hinausgehen und Multimedia-Elemente wie Bilder, interaktive Schaltflächen oder andere Rich-Media-Inhalte enthalten.
+Sie können nun Rich-Push-Benachrichtigungen über Android senden. Rich-Push-Benachrichtigungen sind eine erweiterte Form von Benachrichtigungen an Mobilgeräte, die über einfache Textnachrichten hinausgehen und Multimedia-Elemente wie Bilder, interaktive Schaltflächen oder andere Rich-Media-Inhalte enthalten.
 
 [![Bild](assets/do-not-localize/learn-more-button.svg)](push/rich-push.md)
 
@@ -107,7 +107,7 @@ Sie können jetzt Rich-Push-Benachrichtigungen über Android senden. Rich-Push-B
     <td>
       <img src="assets/do-not-localize/icon-start.svg" width="35px">
     <br/>
-      <strong>Erste Schritte</strong><br/><a href="get-started/user-interface.md">Benutzeroberfläche</a> - <a href="get-started/connect-to-campaign.md">Mit Campaign verbinden</a> - <a href="get-started/permissions.md">Zugriff und Berechtigungen</a>
+      <strong>Erste Schritte</strong><br/><a href="get-started/user-interface.md">Benutzeroberfläche</a> – <a href="get-started/connect-to-campaign.md">Herstellen einer Verbindung zu Campaign</a> – <a href="get-started/permissions.md">Zugriff und Berechtigungen</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-experience.svg" width="35px">
