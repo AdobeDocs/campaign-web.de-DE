@@ -5,10 +5,10 @@ user-guide-description: Produktdokumentation zur Adobe Campaign Web-Benutzerober
 title: Dokumentation zu Adobe Campaign Web
 description: Dokumentation zu Campaign Web
 breadcrumb-title: Campaign Web-Benutzeroberfläche
-source-git-commit: 5fee5f9c0d055bb2936c0744a24a1671d8257e78
+source-git-commit: f96c807c2ee094ad4775b6bf56f5f02822da8d28
 workflow-type: tm+mt
-source-wordcount: '684'
-ht-degree: 96%
+source-wordcount: '685'
+ht-degree: 98%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 96%
    + [Durchsuchen und Filtern von Listen](get-started/list-filters.md)
    + [Arbeiten mit vordefinierten Filtern](get-started/predefined-filters.md)
    + [Zugriff und Berechtigungen](get-started/permissions.md)
-   + [Campaign Web und Client Console](get-started/capability-matrix.md)
+   + [Campaign Web und Client-Konsole](get-started/capability-matrix.md)
    + [KI-gestützte Kontexthilfe](get-started/using-ai.md)
 + Nachrichten und Sendungen {#msg}
    + [Erste Schritte mit Nachrichten](msg/gs-messages.md)
@@ -40,7 +40,7 @@ ht-degree: 96%
          + [Konfigurieren der E-Mail-Inhalte](email/edit-content.md)
          + Wiederverwendbaren Inhalt verwalten {#manage-reusable-content}
             + [Arbeiten mit Inhaltsvorlagen](email/create-email-templates.md)
-            + [Arbeiten mit Fragmenten](email/fragments.md)
+            + [Arbeiten mit visuellen Fragmenten](email/fragments.md)
             + [Hinzufügen visueller Fragmente zu E-Mails](email/use-visual-fragments.md)
          + Beginnen Sie mit der Gestaltung Ihrer E-Mail {#start-design}
             + [Erste Schritte mit dem E-Mail-Designer](email/get-started-email-designer.md)
@@ -197,5 +197,5 @@ ht-degree: 96%
    + [Verwalten von Assets mit Adobe Experience Manager Assets as a Cloud Service](integrations/aem-assets.md)
    + [Verwalten von Vorlagen mit Adobe Experience Manager as a Cloud Service](integrations/aem-content.md)
 + Administration {#administration}
-   + [Benutzerdefinierte Felder konfigurieren](administration/custom-fields.md)
+   + [Konfigurieren benutzerdefinierter Felder](administration/custom-fields.md)
 

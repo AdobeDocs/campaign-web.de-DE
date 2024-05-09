@@ -6,10 +6,10 @@ badge: label="Beta"
 exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
 hide: true
 hidefromtoc: true
-source-git-commit: e94f76ef9a90c98c67de29ce8f6b428f18bfc44b
+source-git-commit: f96c807c2ee094ad4775b6bf56f5f02822da8d28
 workflow-type: tm+mt
-source-wordcount: '1352'
-ht-degree: 95%
+source-wordcount: '1369'
+ht-degree: 94%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 95%
 **Inhaltsverzeichnis**
 
 * [Erste Schritte mit dem KI-Assistenten](generative-gs.md)
-* **[Generierung von E-Mails mit dem KI-Assistenten](generative-content.md)**
+* Generierung von E-Mails mit dem KI-Assistenten
 * [Generierung von SMS mit dem KI-Assistenten](generative-sms.md)
 * [Generierung von Push-Benachrichtigungen mit dem KI-Assistenten](generative-push.md)
 
@@ -216,10 +216,10 @@ Im folgenden Beispiel erfahren Sie, wie Sie den KI-Assistenten nutzen können, u
 
 >[!ENDTABS]
 
-<!--
-## How-to video {#video}
 
-Learn how to use the AI assistant to generate full email, text or images.
+## Anleitungsvideo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3428341)
--->
+Erfahren Sie, wie Sie mit dem KI-Assistenten vollständige E-Mail-Inhalte, Texte und Bilder generieren können.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3428984)
+

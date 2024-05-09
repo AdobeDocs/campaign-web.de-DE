@@ -6,7 +6,7 @@ badge: label="Beta"
 hide: true
 hidefromtoc: true
 exl-id: db0459e5-8759-42d9-8945-8c9667450527
-source-git-commit: 2e084aeb27b6a866bf1f3aa82ab361da3b238901
+source-git-commit: f96c807c2ee094ad4775b6bf56f5f02822da8d28
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 94%
@@ -21,7 +21,7 @@ ht-degree: 94%
 
 * [Erste Schritte mit dem KI-Assistenten](generative-gs.md)
 * [Generierung von E-Mails mit dem KI-Assistenten](generative-content.md)
-* **[Generierung von SMS mit dem KI-Assistenten](generative-sms.md)**
+* Generierung von SMS mit dem KI-Assistenten
 * [Generierung von Push-Benachrichtigungen mit dem KI-Assistenten](generative-push.md)
 
 >[!ENDSHADEBOX]

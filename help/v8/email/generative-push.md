@@ -6,7 +6,7 @@ badge: label="Beta"
 hide: true
 hidefromtoc: true
 exl-id: a361f75d-63c2-4fdc-993c-f8414b18e13e
-source-git-commit: 2e084aeb27b6a866bf1f3aa82ab361da3b238901
+source-git-commit: f96c807c2ee094ad4775b6bf56f5f02822da8d28
 workflow-type: tm+mt
 source-wordcount: '490'
 ht-degree: 94%
@@ -22,11 +22,11 @@ ht-degree: 94%
 * [Erste Schritte mit dem KI-Assistenten](generative-gs.md)
 * [Generierung von E-Mails mit dem KI-Assistenten](generative-content.md)
 * [Generierung von SMS mit dem KI-Assistenten](generative-sms.md)
-* **[Generierung von Push-Benachrichtigungen mit dem KI-Assistenten](generative-push.md)**
+* Generierung von Push-Benachrichtigungen mit dem KI-Assistenten
 
 >[!ENDSHADEBOX]
 
-Der KI-Assistent kann Ihnen dabei helfen, die Wirkung Ihrer Sendungen zu optimieren. Er schlägt Ihnen verschiedene Inhalte vor, die mit größerer Wahrscheinlichkeit bei Ihrer Zielgruppe ankommen.
+Der KI-Assistenten kann Ihnen dabei helfen, die Wirkung Ihrer Sendungen zu optimieren, indem Ihnen verschiedene Inhalte vorgeschlagen werden, die mit größerer Wahrscheinlichkeit bei Ihrer Zielgruppe ankommen.
 
 >[!NOTE]
 >

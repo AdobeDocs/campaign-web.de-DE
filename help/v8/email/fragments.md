@@ -5,10 +5,10 @@ description: Erfahren Sie, wie Sie mit Inhaltsfragmenten erstellen
 hidefromtoc: true
 hide: true
 exl-id: d155d102-a5bc-4b9b-b29c-24fde4d95ceb
-source-git-commit: fff3c40cf62cb72981fe02cc5443e8eec006777c
+source-git-commit: f96c807c2ee094ad4775b6bf56f5f02822da8d28
 workflow-type: tm+mt
-source-wordcount: '870'
-ht-degree: 4%
+source-wordcount: '887'
+ht-degree: 3%
 
 ---
 
@@ -167,7 +167,7 @@ Gehen Sie wie folgt vor, um ein Fragment zu löschen:
 
 >[!CAUTION]
 >
->Beim Löschen eines Inhaltsfragments werden E-Mail-Sendungen und Vorlagen mit diesem Fragment aktualisiert und das Fragment wird aus dem Nachrichteninhalt entfernt. Sie können die Vererbung bei Bedarf aufheben. [Weitere Informationen](use-visual-fragments.md#break-inheritance)
+>Beim Löschen eines Inhaltsfragments werden die E-Mail-Sendungen und die Vorlagen, die dieses Fragment verwenden, aktualisiert: Das Fragment wird aus dem E-Mail-Inhalt entfernt, aber trotzdem noch referenziert. Um den Fragmentinhalt in diesen Sendungen und Vorlagen zu behalten, müssen Sie die Vererbung aufheben, bevor Sie das Fragment löschen. [wie in diesem Abschnitt beschrieben](use-visual-fragments.md#break-inheritance).
 >
 
 ### Fragment duplizieren {#duplicate-fragments}
