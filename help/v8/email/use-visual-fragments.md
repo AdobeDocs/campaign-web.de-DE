@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie Ihren E-Mails visuelle Fragmente hinzufügen
 hide: true
 hidefromtoc: true
 exl-id: 6d6f38f9-9d3e-47cb-beb8-177b5a5d8306
-source-git-commit: f96c807c2ee094ad4775b6bf56f5f02822da8d28
+source-git-commit: 991c292b42dbb2e21a46aef47295bd601f6a4af9
 workflow-type: tm+mt
 source-wordcount: '418'
 ht-degree: 1%
@@ -53,8 +53,7 @@ Gehen Sie wie folgt vor, um ein Fragment in einen E-Mail-Inhalt einzufügen:
    Aus dem **[!UICONTROL Einstellungen]** können Sie:
 
    * Wählen Sie die Geräte aus, auf denen das Fragment angezeigt werden soll.
-   * 
-      1. Klicken Sie auf **Inhalt bearbeiten** -Schaltfläche, um den Inhalt dieses Fragments zu öffnen. [Weitere Informationen](../email/fragments.md#edit-fragments)
+   * Klicken Sie auf **Inhalt bearbeiten** -Schaltfläche, um den Inhalt dieses Fragments zu öffnen. [Weitere Informationen](../email/fragments.md#edit-fragments)
 
      Sie können Ihr Fragment mit dem **[!UICONTROL Stile]** Registerkarte.
 
