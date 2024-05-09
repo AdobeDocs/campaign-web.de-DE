@@ -373,8 +373,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_dashboard_create"
->title="Erstellen eines Dashboards für Versandwarnungen"
->abstract="Erstellen eines Dashboards für Versandwarnungen"
+>title="Erstellen eines Versandwarnungs-Dashboards"
+>abstract="Erstellen eines Versandwarnungs-Dashboards"
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields"
