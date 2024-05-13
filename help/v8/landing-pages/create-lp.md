@@ -3,8 +3,8 @@ title: Erstellen einer Landingpage
 description: Hier erfahren Sie, wie Sie in Campaign Web eine Landingpage konfigurieren und veröffentlichen können.
 feature: Landing Pages
 exl-id: d4a49048-5ab1-4b69-9e12-1ffa235c51f4
-source-git-commit: bedd313fc12d9d221a60ec624257a9a766285252
-workflow-type: ht
+source-git-commit: 9dbdc657c319dd3260e763bc4f25778d3e2ad58a
+workflow-type: tm+mt
 source-wordcount: '1504'
 ht-degree: 100%
 
@@ -27,7 +27,7 @@ Um auf die Liste der Landingpages zuzugreifen, wählen Sie **[!UICONTROL Kampagn
 
 ![](assets/lp-inventory.png){zoomable=&quot;yes&quot;}
 
-Das Inventar der **[!UICONTROL Landingpages]** zeigt alle erstellten Elemente an. Sie können sie mithilfe der Schaltfläche **Filter anzeigen** filtern. Sie können die Ergebnisse über die Dropdown-Liste auf einen bestimmten [Ordner](../get-started/permissions.md#folders) beschränken oder mithilfe des [Abfrage-Modelers](../query/query-modeler-overview.md) Regeln hinzufügen.
+Das Inventar der **[!UICONTROL Landingpages]** zeigt alle erstellten Elemente an. Sie können sie mithilfe der Schaltfläche **[!UICONTROL Filter anzeigen]** filtern. Sie können die Ergebnisse über die Dropdown-Liste auf einen bestimmten [Ordner](../get-started/permissions.md#folders) beschränken oder mithilfe des [Abfrage-Modelers](../query/query-modeler-overview.md) Regeln hinzufügen.
 
 ![](assets/lp-inventory-filter.png){zoomable=&quot;yes&quot;}
 
