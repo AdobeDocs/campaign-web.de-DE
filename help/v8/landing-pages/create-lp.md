@@ -6,7 +6,7 @@ exl-id: d4a49048-5ab1-4b69-9e12-1ffa235c51f4
 source-git-commit: bedd313fc12d9d221a60ec624257a9a766285252
 workflow-type: tm+mt
 source-wordcount: '1504'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -61,7 +61,7 @@ Sie können eine Landingpage duplizieren oder löschen. Klicken Sie auf die Ausl
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_preload"
 >title="Definieren von Optionen zum Vorausfüllen"
->abstract="Bei aktivierter Option **Mit den Daten vorausfüllen, die im Formular referenziert werden** werden die Profilinformationen automatisch im Formular vorausgefüllt, wenn Besuchende der Landingpage mit einem Profil aus der Datenbank übereinstimmen. Mit dem **Fehlende ID zulassen** ausgewählt ist, kann jeder Besucher, einschließlich anonymer Benutzer, auf die Landingpage zugreifen."
+>abstract="Bei aktivierter Option **Mit den Daten vorausfüllen, die im Formular referenziert werden** werden die Profilinformationen automatisch im Formular vorausgefüllt, wenn Besuchende der Landingpage mit einem Profil aus der Datenbank übereinstimmen. Wenn die Option **Fehlende ID zulassen** ausgewählt ist, kann eine beliebige Person, einschließlich anonymer Benutzender, auf die Landingpage zugreifen."
 
 <!--With the **Skip preloading if no ID** option selected, each profile entered will be added to the database after approval of the form."-->
 
@@ -100,7 +100,7 @@ Gehen Sie wie folgt vor, um eine Landingpage zu erstellen:
 
    ![](assets/lp-properties.png){zoomable=&quot;yes&quot;}
 
-1. Im **[!UICONTROL Datenvorbereitung]** angegeben haben, sind die beiden folgenden Optionen verfügbar:
+1. Im Abschnitt **[!UICONTROL Daten vorausfüllen]** sind die beiden folgenden Optionen verfügbar:
 
    * Bei aktivierter Option **[!UICONTROL Mit den Daten vorausfüllen, die im Formular referenziert werden]** werden die Profilinformationen automatisch im Formular vorausgefüllt, wenn die Besucherin oder der Besucher der Landingpage mit einem Profil aus der Datenbank übereinstimmt. Die Benutzerin oder der Benutzer muss nur die fehlenden Felder ausfüllen und bei Bedarf die vorhandenen Werte aktualisieren. Auf diese Weise können Daten für vorhandene Profile zusammengeführt werden, anstatt Duplikate zu erstellen.
 
@@ -110,29 +110,29 @@ Gehen Sie wie folgt vor, um eine Landingpage zu erstellen:
 
    <!--* The **[!UICONTROL Skip preloading if no ID]** option must be selected if you do not wish to update profiles. In this case, each profile entered will be added to the database after approval of the form. This option is used, for example, when the form is posted on a website.-->
 
-   * Die **[!UICONTROL Fehlende ID zulassen]** ermöglicht jedem Besucher den Zugriff auf die Landingpage. Wenn Sie diese Option deaktivieren, wird verhindert, dass anonyme Besucher sie verwenden. Dies bedeutet, dass nur identifizierte Benutzer auf das Formular zugreifen und es senden können.
+   * Die Option **[!UICONTROL Fehlende ID zulassen]** ermöglicht allen Besuchenden den Zugriff auf die Landingpage. Durch das Deaktivieren dieser Option wird verhindert, dass sie von anonymen Besuchenden verwendet wird. Dies bedeutet, dass nur identifizierte Personen auf das Formular zugreifen und es senden können.
 
      >[!AVAILABILITY]
      >
-     >Diese Funktion ist in begrenzter Verfügbarkeit verfügbar. Dies ist auf Kunden beschränkt, die migrieren **von Adobe Campaign Standard nach Adobe Campaign v8** und können nicht in einer anderen Umgebung bereitgestellt werden.
+     >Diese Funktion ist nur eingeschränkt verfügbar. Sie ist Kundinnen und Kunden vorbehalten, die **von Adobe Campaign Standard zu Adobe Campaign v8** migrieren, und kann nicht in anderen Umgebungen bereitgestellt werden.
 
-     Für **[!UICONTROL Akquise]** und **[!UICONTROL Abonnement]** Vorlagen verwenden, ist diese Option standardmäßig aktiviert. Für **[!UICONTROL Abmeldung]** und **[!UICONTROL Blockierungsliste]** Vorlagen verwenden, ist diese Option standardmäßig deaktiviert und kann nicht geändert werden<!--as per ticket - TBC? in that case, is it greyed out or doesn't display?-->.
+     Diese Option ist für die Vorlagen **[!UICONTROL Akquise]** und **[!UICONTROL Abonnement]** standardmäßig aktiviert. Diese Option ist für die Vorlagen **[!UICONTROL Abmeldung]** und **[!UICONTROL Blockierungsliste]** standardmäßig deaktiviert und kann nicht geändert werden<!--as per ticket - TBC? in that case, is it greyed out or doesn't display?-->.
 
-1. Eine Landingpage kann über nachfolgende Seiten verfügen. Um Seiten hinzuzufügen, durchsuchen Sie die **[!UICONTROL Seiten]** und klicken Sie auf das **[!UICONTROL Inhalt bearbeiten]** für jede Seite, die Sie für diese Landingpage erstellen möchten. Der Inhalt jeder Seite ist bereits vorausgefüllt. Bearbeiten Sie ihn nach Bedarf. [Weitere Informationen](lp-content.md)
+1. Eine Landingpage kann über nachfolgende Seiten verfügen. Um Seiten hinzuzufügen, navigieren Sie zum Abschnitt **[!UICONTROL Seiten]**. Klicken Sie dann für jede Seite, die für diese Landingpage entworfen werden soll, auf die Schaltfläche **[!UICONTROL Inhalt bearbeiten]**. Der Inhalt jeder Seite ist bereits vorausgefüllt. Bearbeiten Sie ihn nach Bedarf. [Weitere Informationen](lp-content.md)
 
    ![](assets/lp-pages.png){zoomable=&quot;yes&quot;}
 
-1. Im **[!UICONTROL Speicherung]** -Abschnitt **[!UICONTROL Vorausgefüllten Datensatz aktualisieren]** ist standardmäßig aktiviert. Dadurch können die in der Datenbank gespeicherten Profile über die Landingpage aktualisiert werden. Mit der Option zum Vorausfüllen können Sie angeben, wie der zu aktualisierende Eintrag in der Datenbank gesucht werden soll. 
+1. Die Option **[!UICONTROL Vorausgefüllten Eintrag aktualisieren]** im Abschnitt **[!UICONTROL Speicher]** ist standardmäßig ausgewählt. Dadurch können die in der Datenbank gespeicherten Profile über die Landingpage aktualisiert werden. Mit der Option zum Vorausfüllen können Sie angeben, wie der zu aktualisierende Eintrag in der Datenbank gesucht werden soll. 
 
    Sie können außerdem aus den Feldern im aktuellen Kontext der Landingpage auswählen. Anhand dieser Felder wird das entsprechende Profil in der Datenbank gesucht. Deaktivieren Sie hierzu die Option **[!UICONTROL Vorausgefüllten Eintrag aktualisieren]** und aktivieren Sie die gewünschten Felder unter **[!UICONTROL Abstimmoptionen]**.
 
    ![](assets/lp-storage.png){zoomable=&quot;yes&quot;}
 
-1. Erstellen **[!UICONTROL Zusätzliche Daten]** zum Speichern interner Daten beim Senden der Landingpage. Diese Daten sind für Benutzer, die die Seite besuchen, nicht sichtbar. Nur konstante Werte werden berücksichtigt.
+1. Erstellen Sie **[!UICONTROL Zusatzdaten]**, um interne Daten beim Senden der Landingpage zu speichern. Die Daten sind für Besucherinnen und Besucher der Seite nicht sichtbar.  Nur konstante Werte werden berücksichtigt.
 
    >[!AVAILABILITY]
    >
-   >Diese Funktion ist in begrenzter Verfügbarkeit verfügbar. Dies ist auf Kunden beschränkt, die migrieren **von Adobe Campaign Standard nach Adobe Campaign v8** und können nicht in einer anderen Umgebung bereitgestellt werden.
+   >Diese Funktion ist nur eingeschränkt verfügbar. Sie ist Kundinnen und Kunden vorbehalten, die **von Adobe Campaign Standard zu Adobe Campaign v8** migrieren, und kann nicht in anderen Umgebungen bereitgestellt werden.
 
    ![](assets/lp-additional-data.png){zoomable=&quot;yes&quot;}
 
@@ -184,7 +184,7 @@ Gehen Sie wie folgt vor, um Ihre Landingpage zu testen:
 
    Die Schritte zum Auswählen von Testprofilen sind mit denen beim Testen einer Nachricht identisch. Sie werden im Abschnitt [Vorschau und Testen](../preview-test/preview-test.md) beschrieben.
 
-1. Beim Testen einer dynamischen Landingpage (mit dem **[!UICONTROL Dienst von URL]** option selected - [Weitere Informationen](../landing-pages/create-lp.md#define-actions-on-form-submission)
+1. Beim Testen einer dynamischen Landingpage (und wenn die Option **[!UICONTROL Dienst über URL]** ausgewählt ist – [Weitere Informationen](../landing-pages/create-lp.md#define-actions-on-form-submission)
 
 1. Wählen Sie **[!UICONTROL Vorschau öffnen]** aus, um Ihre Landingpage zu testen.
 

@@ -1,11 +1,12 @@
 ---
 audience: end-user
-title: Externes Signal verwenden
-description: Erfahren Sie, wie Sie die Workflow-Aktivität Externes Signal verwenden.
-source-git-commit: 575219c7bcef303e211f504d13227183933924cc
+title: Verwenden der Aktivität „Externes Signal“
+description: Informationen dazu, wie Sie die Workflow-Aktivität „Externes Signal“ verwenden
+exl-id: e4244ecc-5e37-41a6-a4dd-6e32da6d5512
+source-git-commit: 93f6347828c72535c1a005ecd6ca18596a180098
 workflow-type: tm+mt
 source-wordcount: '354'
-ht-degree: 5%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +17,7 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_externalsignal"
 >title="Externes Signal"
->abstract="Die **Externes Signal** ermöglicht den Trigger der Ausführung eines Workflows über einen anderen Workflow oder einen API-Aufruf."
+>abstract="Mit der Aktivität **Externes Signal** können Sie die Ausführung eines Workflows über einen anderen Workflow oder einen API-Aufruf auslösen."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_externalsignal_parameters"
@@ -28,43 +29,43 @@ ht-degree: 5%
 >title="Trigger für Ende"
 >abstract="Trigger für Ende"
 
-Die **Externes Signal** -Aktivität **Flusssteuerung** -Aktivität. Damit können Sie die Ausführung eines Workflows über einen anderen Workflow oder einen API-Aufruf Trigger.
+Die Aktivität **Externes Signal** ist eine Aktivität zur **Flusskontrolle**. Damit können Sie die Ausführung eines Workflows über einen anderen Workflow oder durch einen API-Aufruf auslösen.
 
 >[!NOTE]
 >
->Auf dieser Seite werden die wichtigsten Schritte zum Konfigurieren eines **[!UICONTROL Externes Signal]** -Aktivität in der Web-Benutzeroberfläche von Campaign und deren Trigger von einem anderen Workflow oder API-Aufruf aus. Detaillierte Informationen zum Trigger eines Workflows und zu Best Practices sowie zur Arbeit mit Campaign-APIs finden Sie im Abschnitt [Dokumentation zu Campaign v8 (Clientkonsole)](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/advanced-management/javascript-in-workflows#trigger-example)
+>Diese Seite enthält die wichtigsten Schritte zum Konfigurieren der Aktivität **[!UICONTROL Externes Signal]** in der Web-Benutzeroberfläche von Campaign und erklärt, wie diese über einen anderen Workflow oder durch einen API-Aufruf ausgelöst wird. Detaillierte Informationen zum Auslösen eines Workflows und den Best Practices dabei sowie zur Arbeit mit Campaign-APIs finden Sie in der [Dokumentation zu Campaign v8 (Client-Konsole)](https://experienceleague.adobe.com/de/docs/campaign/automation/workflows/advanced-management/javascript-in-workflows#trigger-example)
 
-Führen Sie die folgenden Schritte aus, um die **Externes Signal** Aktivität und Trigger der Ausführung:
+Führen Sie die folgenden Schritte aus, um die Aktivität **Externes Signal** zu konfigurieren und deren Ausführung auszulösen:
 
-1. Hinzufügen einer **Externes Signal** in Ihren Workflow ein.
+1. Fügen Sie die Aktivität **Externes Signal** in Ihren Workflow ein.
 
-1. Schließen Sie die Konfiguration Ihres Workflows ab und starten Sie die Ausführung. Die **[!UICONTROL Externes Signal]** -Aktivität wird als &quot;Ausstehend&quot;angezeigt und wartet darauf, ausgelöst zu werden.
+1. Schließen Sie die Konfiguration Ihres Workflows ab und starten Sie dessen Ausführung. Die Aktivität **[!UICONTROL Externes Signal]** wird als „Ausstehend“ angezeigt und wartet darauf, ausgelöst zu werden.
 
    ![](../assets/external-signal-pending.png)
 
 1. Rufen Sie die folgenden Informationen ab:
 
-   * Die **Interner Name des Workflows**, der neben der Beschriftung angezeigt wird.
+   * Den **internen Namen des Workflows**, der neben dem Titel angezeigt wird.
 
-     +++Anzeigen-Beispiel
+     +++Beispiel anzeigen
 
      ![](../assets/external-signal-workflow-name.png)
 
 +++
 
-   * Die **Name der Aktivität &quot;Externes Signal&quot;**, der im Workflow-Fenster **[!UICONTROL Ausführungsoptionen]**.
+   * Den **Namen der Aktivität „Externes Signal“**, der in den **[!UICONTROL Ausführungsoptionen]** des Workflows angezeigt wird.
 
-     +++Anzeigen-Beispiel
+     +++Beispiel anzeigen
 
      ![](../assets/external-signal-name.png)
 
 +++
 
-1. Um den Workflow Trigger, müssen Sie die `PostEvent` JavaScript-Funktion. Mit dieser Funktion können Sie Variablen mit den Werten Ihrer Wahl übergeben und im ausgelösten Workflow nutzen.
+1. Zum Auslösen des Workflows müssen Sie die JavaScript-Funktion `PostEvent` auslösen. Mit dieser Funktion können Sie Variablen mit den Werten Ihrer Wahl übergeben und im ausgelösten Workflow nutzen.
 
-   Die `PostEvent` -Funktion kann entweder über einen anderen Workflow oder einen API-Aufruf ausgeführt werden.
+   Die `PostEvent`-Funktion kann entweder über einen anderen Workflow oder durch einen API-Aufruf ausgeführt werden.
 
-   * Trigger eines **[!UICONTROL Externes Signal]** -Aktivität aus einem Workflow ausführen, führen Sie die PostEvent -Funktion aus der **[!UICONTROL Initialisierungsscript]** -Bereich, auf den über die **[!UICONTROL Ausführungsoptionen]**. Für **[!UICONTROL JavaScript-Code]** -Aktivität, führen Sie die -Funktion aus dem Skript der Aktivität aus.
+   * Um die Aktivität **[!UICONTROL Externes Signal]** über einen Workflow auszuführen, führen Sie die PostEvent-Funktion über den Bereich **[!UICONTROL Initialisierungsscript]** aus, auf den Sie über die **[!UICONTROL Ausführungsoptionen]** der Aktivität zugreifen können. Führen Sie für die **[!UICONTROL JavaScript-Code]**-Aktivität die Funktion aus dem Skript der Aktivität aus.
 
      Die Syntax sieht folgendermaßen aus:
 
@@ -72,12 +73,12 @@ Führen Sie die folgenden Schritte aus, um die **Externes Signal** Aktivität un
      xtk.workflow.PostEvent("<workflow-internal-name>","<signal-activity-name>","",<variables <variable-name>="<value>"/>, false);
      ```
 
-   +++Anzeigen-Beispiel
+   +++Beispiel anzeigen
 
-   In diesem Beispiel lösen wir die Aktivität &quot;Signal1&quot; Externes Signal aus, die dem Workflow hinzugefügt wurde, dessen interner Name &quot;WKF12345&quot; lautet. Wir übergeben außerdem eine Variable mit dem Namen &quot;customID&quot;mit dem Wert &quot;123456&quot;.
+   In diesem Beispiel lösen wir die externe Signalaktivität „Signal1“ aus, die dem Workflow hinzugefügt wurde, dessen interner Name „WKF12345“ lautet. Wir übergeben außerdem eine Variable mit dem Namen „customID“ und dem Wert „123456“.
 
    ![](../assets/external-signal-sample.png)
 
 +++
 
-   * Trigger eines **[!UICONTROL Externes Signal]** -Aktivität über einen API-Aufruf ausführen, führen Sie die in der Campaign-API-Dokumentation beschriebenen Schritte aus. [Erfahren Sie, wie Sie den statischen `PostEvent` method](https://experienceleague.adobe.com/developer/campaign-api/api/sm-workflow-PostEvent.html?lang=de)
+   * Um die Aktivität **[!UICONTROL Externes Signal]** über einen API-Aufruf auszuführen, befolgen Sie die in der Dokumentation zu Campaign-APIs beschriebenen Schritte. [Informationen dazu, wie Sie die statische `PostEvent`-Methode verwenden](https://experienceleague.adobe.com/developer/campaign-api/api/sm-workflow-PostEvent.html?lang=de)

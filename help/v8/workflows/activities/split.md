@@ -6,7 +6,7 @@ exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
 source-git-commit: 575219c7bcef303e211f504d13227183933924cc
 workflow-type: tm+mt
 source-wordcount: '905'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -55,7 +55,7 @@ Die Aktivität **Aufspaltung** ist eine Aktivität zur **Zielgruppenbestimmung**
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_emptytransition"
 >title="Leere Transition überspringen"
->abstract="Umschalten zwischen **[!UICONTROL Leere Transition überspringen]** -Option ein, um die ausgehende Transition für diese Teilmenge zu deaktivieren, wenn die Eingangspopulation leer ist."
+>abstract="Aktivieren Sie die Option **[!UICONTROL Leere Transition überspringen]**, um die ausgehende Transition für diese Teilmenge zu deaktivieren, wenn die Eingangspopulation leer ist."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_enable_overlapping"
@@ -86,7 +86,7 @@ Folgen Sie diesen Schritten, um die Aktivität **Aufspaltung** zu konfigurieren:
 
    1. Um die Anzahl der von der Teilmenge ausgewählten Profile zu begrenzen, muss **[!UICONTROL Grenzwert aktivieren]** aktiviert und die Anzahl oder der Prozentsatz der einzuschließenden Population angegeben werden.
 
-   1. Um eine Transition zu deaktivieren, wenn die Eingangspopulation leer ist, können Sie die **[!UICONTROL Leere Transition überspringen]** aktiviert. Wenn kein Profil mit der Teilmenge übereinstimmt, wird der Workflow nicht zur nächsten Aktivität übergegangen.
+   1. Um eine Transition zu deaktivieren, wenn die Eingangspopulation leer ist, aktivieren Sie die Option **[!UICONTROL Leere Transition überspringen]**. Wenn kein Profil mit der Teilmenge übereinstimmt, geht der Workflow nicht zur nächsten Aktivität über.
 
       ![](../assets/workflow-split-subset.png)
 

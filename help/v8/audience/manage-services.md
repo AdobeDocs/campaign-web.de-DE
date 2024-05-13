@@ -6,7 +6,7 @@ exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
 source-git-commit: 943ed7ce9245a3fd0fd7111f285fdf409968c78b
 workflow-type: tm+mt
 source-wordcount: '1074'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -56,7 +56,7 @@ Gehen Sie wie folgt vor, um auf die für Ihre Plattform verfügbaren Anmeldedien
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_defaultlp"
 >title="Standard-Landingpage"
->abstract="Wählen Sie die mit diesem Dienst verknüpften Standard-Landingpages aus."
+>abstract="Wählen Sie die Standard-Landingpage aus, die mit diesem Dienst verbunden ist."
 
 Gehen Sie wie folgt vor, um einen Anmeldedienst zu erstellen.
 
@@ -86,15 +86,15 @@ Gehen Sie wie folgt vor, um einen Anmeldedienst zu erstellen.
 
 1. Klicken Sie auf **[!UICONTROL Speichern und überprüfen]**. Der neue Dienst wird zur Liste **[!UICONTROL Anmeldedienste]** hinzugefügt.
 
-1. Sie können auch die mit diesem Dienst verknüpften standardmäßigen Anmelde- und Abmelde-Landingpages auswählen.
+1. Sie können auch die standardmäßigen Anmelde- und -Abmelde-Landingpages auswählen, die diesem Dienst zugeordnet sind.
 
    >[!AVAILABILITY]
    >
-   >Diese Funktion ist in begrenzter Verfügbarkeit verfügbar. Dies ist auf Kunden beschränkt, die migrieren **von Adobe Campaign Standard nach Adobe Campaign v8** und können nicht in einer anderen Umgebung bereitgestellt werden.
+   >Diese Funktion ist nur eingeschränkt verfügbar. Sie ist Kundinnen und Kunden vorbehalten, die **von Adobe Campaign Standard zu Adobe Campaign v8** migrieren, und kann nicht in anderen Umgebungen bereitgestellt werden.
 
    ![](assets/service-create-default-lp.png){zoomable=&quot;yes&quot;}
 
-   Nach Abschluss [Link einfügen](../email/message-tracking.md) in einer E-Mail auswählen **[!UICONTROL Anmelde-Link]** oder **[!UICONTROL Abmelde-Link]**. Wenn Sie auf diesen Link klicken, werden die Benutzer zur Anmelde- oder Abmelde-Landingpage weitergeleitet, auf die im Dienst verwiesen wird. <!--After submitting the form, they will be subscribed to / unsubscribed from the service.-->
+   Sobald Sie fertig sind, wählen Sie beim [Einsetzen eines Links](../email/message-tracking.md) in eine E-Mail die Option **[!UICONTROL Anmelde-Link]** oder **[!UICONTROL Abmelde-Link]** aus.  Wenn Benutzende auf diesen Link klicken, werden sie zur Anmelde- bzw. Abmelde-Landingpage weitergeleitet, auf die im Dienst verwiesen wird. <!--After submitting the form, they will be subscribed to / unsubscribed from the service.-->
 
    ![](assets/service-create-default-lp-link.png){zoomable=&quot;yes&quot;}
 
@@ -102,9 +102,9 @@ Gehen Sie wie folgt vor, um einen Anmeldedienst zu erstellen.
 
 Sie können jetzt:
 
-* Fügen Sie diesem Dienst manuell Abonnenten hinzu und melden Sie sich von den Profilen ab. [Weitere Informationen](../audience/manage-subscribers.md)
+* Abonnentinnen und Abonnenten manuell zu diesem Dienst hinzufügen sowie Profile abmelden. [Weitere Informationen](../audience/manage-subscribers.md)
 
-* Laden Sie Ihre Kunden über eine Landingpage ein, sich für diesen Dienst anzumelden. [Weitere Informationen](../landing-pages/lp-use-cases.md#lp-subscription)
+* Ihre Kundinnen und Kunden über eine Landingpage dazu einladen, sich für diesen Dienst anzumelden. [Weitere Informationen](../landing-pages/lp-use-cases.md#lp-subscription)
 
 * Nachrichten an Abonnentinnen und Abonnenten dieses Dienstes senden. [Weitere Informationen dazu](../msg/send-to-subscribers.md)
 
