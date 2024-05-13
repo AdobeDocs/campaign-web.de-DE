@@ -9,7 +9,7 @@ exl-id: db0459e5-8759-42d9-8945-8c9667450527
 source-git-commit: fe687647b0a3d4969373ced400c49b364e878acd
 workflow-type: tm+mt
 source-wordcount: '479'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -50,7 +50,7 @@ Dieses praktische Tool liefert intelligente Vorschläge für die Verfeinerung Ih
 
    >[!IMPORTANT]
    >
-   > Ihre Eingabeaufforderung muss immer an Ihren aktuellen Inhalt gebunden sein.
+   > Ihr Prompt muss immer an Ihren aktuellen Inhalt gebunden sein.
 
 1. Passen Sie den Inhalt an, indem Sie im Feld **[!UICONTROL Prompt]** beschreiben, was Sie generieren möchten.
 
@@ -77,7 +77,7 @@ Dieses praktische Tool liefert intelligente Vorschläge für die Verfeinerung Ih
 
    * **[!UICONTROL Als Referenzinhalt verwenden]**: Die gewählte Variante dient hierbei als Referenzinhalt für die Generierung anderer Ergebnisse.
 
-   * **[!UICONTROL Einfachere Sprache verwenden]**: Der KI-Assistent hilft Ihnen, klare, knappe Botschaften zu schreiben, die jeder verstehen kann.
+   * **[!UICONTROL Einfachere Sprache verwenden]**: Der KI-Assistent hilft Ihnen, klare, präzise Nachrichten zu schreiben, die jeder versteht.
 
    * **[!UICONTROL Umformulieren]**: Der KI-Assistent formuliert Ihre Nachricht um, um sie für verschiedene Zielgruppen ansprechend zu gestalten.
 

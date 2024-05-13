@@ -9,7 +9,7 @@ exl-id: a361f75d-63c2-4fdc-993c-f8414b18e13e
 source-git-commit: fe687647b0a3d4969373ced400c49b364e878acd
 workflow-type: tm+mt
 source-wordcount: '490'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -50,7 +50,7 @@ Im folgenden Beispiel nutzen wir den KI-Assistenten, um mit einer überzeugenden
 
    >[!IMPORTANT]
    >
-   > Ihre Eingabeaufforderung muss immer an Ihren aktuellen Inhalt gebunden sein.
+   > Ihr Prompt muss immer an Ihren aktuellen Inhalt gebunden sein.
 
    ![](assets/push-genai-3.png){zoomable=&quot;yes&quot;}
 
@@ -80,9 +80,9 @@ Im folgenden Beispiel nutzen wir den KI-Assistenten, um mit einer überzeugenden
 
    * **[!UICONTROL Als Referenzinhalt verwenden]**: Die gewählte Variante dient hierbei als Referenzinhalt für die Generierung anderer Ergebnisse.
 
-   * **[!UICONTROL Umformulierungen]**: Der KI-Assistent kann Ihre Nachricht auf verschiedene Arten umformulieren, sodass Ihre Texte für verschiedene Zielgruppen interessant und ansprechend klingen.
+   * **[!UICONTROL Umformulieren]**: Der KI-Assistent kann Ihre Nachricht auf verschiedene Arten umformulieren, sodass Ihre Texte für verschiedene Zielgruppen interessant und ansprechend klingen.
 
-   * **[!UICONTROL Einfachere Sprache verwenden]**: Nutzen Sie den KI-Assistenten, um Ihre Sprache zu vereinfachen und für eine breitere Zielgruppe Klarheit und Barrierefreiheit zu gewährleisten.
+   * **[!UICONTROL Einfachere Sprache verwenden]**: Nutzen Sie den KI-Assistenten, um Ihren Text zu vereinfachen, damit er für eine breitere Zielgruppe verständlich und zugänglich ist.
 
    ![](assets/push-genai-5.png){zoomable=&quot;yes&quot;}
 
