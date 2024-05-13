@@ -3,10 +3,10 @@ audience: end-user
 title: Verwenden der Workflow-Aktivität „Datenquelle ändern“
 description: Erfahren Sie, wie Sie die Workflow-Aktivität „Datenquelle ändern“ verwenden.
 exl-id: 4dd28746-7bc7-49fc-91ac-3312af02ef45
-source-git-commit: 362f657c689ce13c6c1fadc381d43e15c32d4d05
+source-git-commit: 99bdd5220cceb4ab67c3bd4e3a788a28cbe40f8f
 workflow-type: tm+mt
-source-wordcount: '297'
-ht-degree: 100%
+source-wordcount: '343'
+ht-degree: 86%
 
 ---
 
@@ -24,6 +24,10 @@ In einem Workflow werden die von einer Aktivität zu einer anderen übertragenen
 In einigen Fällen sind entweder keine Daten in der aktuellen Datenbank verfügbar oder sie sind nicht effizient genug, um einzelne Vorgänge durchzuführen. Möglicherweise müssen Sie den Workflow zwingen, eine andere Datenbank zu verwenden, um solche Vorgänge durchzuführen, indem Sie die Aktivität **[!UICONTROL Datenquelle ändern]** hinzufügen.
 
 Detaillierte Informationen zur Campaign-Architektur finden Sie in der [Dokumentation zu Campaign v8 (Client-Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html?lang=de).
+
+>[!IMPORTANT]
+>
+>Beachten Sie, dass die Variable **[!UICONTROL Dimension ändern]** und **[!UICONTROL Datenquelle ändern]** -Aktivitäten sollten nicht in einer Zeile hinzugefügt werden. Wenn Sie beide Aktivitäten nacheinander verwenden müssen, müssen Sie eine **[!UICONTROOL Anreicherung]** Aktivitäten zwischen ihnen. Dadurch wird eine ordnungsgemäße Ausführung sichergestellt und potenzielle Konflikte oder Fehler werden vermieden.
 
 <!--
 
