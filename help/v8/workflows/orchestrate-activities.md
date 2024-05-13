@@ -4,9 +4,9 @@ title: Erstellen von Workflows mit Adobe Campaign Web
 description: Erfahren Sie, wie Sie Workflows mit Adobe Campaign Web erstellen
 exl-id: 0c8e2158-518c-4620-9971-00ed2eccdd4f
 source-git-commit: acc2383edbca7b528098c1ddbd18efb3110d4354
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1088'
-ht-degree: 67%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ Sobald Sie einen [Workflow](create-workflow.md) erstellt haben, sei es über das
 
 In diesem Schritt der Konfiguration wird das Diagramm mit einem Startsymbol angezeigt, das den Anfang Ihres Workflows darstellt. Um Ihre erste Aktivität hinzuzufügen, klicken Sie auf die Schaltfläche **+**, die mit dem Startsymbol verbunden ist.
 
-Es erscheint eine Liste von Aktivitäten, die dem Diagramm hinzugefügt werden können. Die verfügbaren Aktivitäten hängen von Ihrer Position im Workflow-Diagramm ab. Wenn Sie Ihre erste Aktivität hinzufügen, können Sie Ihren Workflow starten, indem Sie beispielsweise eine Zielgruppe ansprechen, den Workflow-Pfad aufteilen oder eine **Warte-Aktivität** festlegen, um die Ausführung des Workflows zu verzögern. Auf der anderen Seite wird nach **Audience erstellen** Aktivität können Sie Ihre Zielgruppe mit Zielgruppenbestimmungsaktivitäten verfeinern, einen Versand mit Kanalaktivitäten an Ihre Zielgruppe senden oder den Workflow-Prozess mit Steuerungsaktivitäten organisieren.
+Es erscheint eine Liste von Aktivitäten, die dem Diagramm hinzugefügt werden können. Die verfügbaren Aktivitäten hängen von Ihrer Position im Workflow-Diagramm ab. Wenn Sie Ihre erste Aktivität hinzufügen, können Sie Ihren Workflow starten, indem Sie beispielsweise eine Zielgruppe ansprechen, den Workflow-Pfad aufteilen oder eine **Warte-Aktivität** festlegen, um die Ausführung des Workflows zu verzögern. Andererseits können Sie nach der Aktivität **Zielgruppe erstellen** Ihre Zielgruppe mit Zielgruppenbestimmungsaktivitäten verfeinern, einen Versand an Ihre Zielgruppe mit Kanalaktivitäten durchführen oder den Workflow-Prozess mit Flusskontrollaktivitäten organisieren.
 
 ![](assets/workflow-start.png){zoomable=&quot;yes&quot;}
 
@@ -26,7 +26,7 @@ Sobald eine Aktivität zum Diagramm hinzugefügt wurde, erscheint rechts ein Ber
 
 ![](assets/workflow-configure-activities.png){zoomable=&quot;yes&quot;}
 
-Wiederholen Sie diesen Vorgang, um je nach den Aufgaben, die Ihr Workflow ausführen soll, beliebig viele Aktivitäten hinzuzufügen. Beachten Sie, dass Sie zwischen zwei Aktivitäten auch eine neue Aktivität einfügen können. Klicken Sie dazu auf die Schaltfläche **+** in der Transition zwischen den Aktivitäten, wählen Sie die gewünschte Aktivität aus und konfigurieren Sie sie im rechten Bereich.
+Wiederholen Sie diesen Vorgang, um je nach den Aufgaben, die Ihr Workflow ausführen soll, beliebig viele Aktivitäten hinzuzufügen. Beachten Sie, dass Sie auch eine neue Aktivität zwischen zwei Aktivitäten einfügen können. Klicken Sie dazu auf die Schaltfläche **+** in der Transition zwischen den Aktivitäten, wählen Sie die gewünschte Aktivität aus und konfigurieren Sie sie im rechten Bereich.
 
 Um eine Aktivität zu entfernen, wählen Sie sie auf der Arbeitsfläche aus und klicken in den Eigenschaften der Aktivität auf das Symbol **Löschen**.
 
@@ -36,9 +36,9 @@ Um eine Aktivität zu entfernen, wählen Sie sie auf der Arbeitsfläche aus und 
 
 ## Die Symbolleiste {#toolbar}
 
-Die Symbolleiste oben rechts auf der Arbeitsfläche bietet Optionen zum einfachen Bearbeiten der Aktivitäten und Navigieren auf der Arbeitsfläche:
+Die Symbolleiste oben rechts in der Arbeitsfläche bietet Optionen zum einfachen Bearbeiten der Aktivitäten und Navigieren auf der Arbeitsfläche:
 
-* **Mehrfach-Auswahlmodus**: Wählen Sie mehrere Aktivitäten aus, um sie alle gleichzeitig zu löschen, oder kopieren Sie sie und fügen Sie sie ein. Weitere Informationen finden Sie in diesem [Abschnitt](#copy).
+* **Mehrfachauswahl-Modus**: Wählen Sie mehrere Aktivitäten aus, um sie alle gleichzeitig zu löschen oder zu kopieren/einzufügen. Weitere Informationen finden Sie [in diesem Abschnitt](#copy).
 * **Drehen**: Dreht die Arbeitsfläche vertikal.
 * **An Bildschirm anpassen**: Passt die Vergrößerung der Arbeitsfläche an Ihren Bildschirm an.
 * **Verkleinern**/**Vergrößern**: Verkleinert bzw. vergrößert die Arbeitsfläche.
@@ -62,49 +62,49 @@ Bei mehreren **Zielgruppenbestimmungsaktivitäten**, z. B. **Kombinieren** oder
 
 ![](assets/workflow-split-complement.png)
 
-## Aktivitäten kopieren {#copy}
+## Kopieren von Aktivitäten {#copy}
 
 Sie können Workflow-Aktivitäten kopieren und in einen beliebigen Workflow einfügen. Der Ziel-Workflow kann sich auf einer anderen Browser-Registerkarte befinden.
 
 Zum Kopieren von Aktivitäten haben Sie zwei Möglichkeiten:
 
-* Kopieren Sie eine Aktivität mithilfe der Aktionsschaltfläche .
+* Kopieren Sie eine Aktivität mithilfe der Aktionsschaltfläche.
 
   ![](assets/workflow-copy.png){zoomable=&quot;yes&quot;}{width="70%"}
 
-* Kopieren Sie mithilfe der Symbolleistenschaltfläche mehrere Aktivitäten.
+* Kopieren Sie mehrere Aktivitäten mithilfe der Symbolleistenschaltfläche.
 
   ![](assets/workflow-copy-2.png){zoomable=&quot;yes&quot;}{width="70%"}
 
-Um die kopierten Aktivitäten einzufügen, klicken Sie auf das **+** auf eine Transition klicken und &quot;Aktivität X einfügen&quot;auswählen.
+Um die kopierten Aktivitäten einzufügen, klicken Sie auf die Schaltfläche **+** auf einer Transition und wählen Sie „Aktivität X einfügen“ aus.
 
 ![](assets/workflow-copy-3.png){zoomable=&quot;yes&quot;}{width="50%"}
 
 ## Ausführungsoptionen {#execution}
 
-Alle Aktivitäten ermöglichen die Verwaltung ihrer Ausführungsoptionen. Wählen Sie eine Aktivität aus und klicken Sie auf die Schaltfläche **Ausführungsoptionen** Schaltfläche. Auf diese Weise können Sie den Ausführungsmodus und das Verhalten der Aktivität im Fall von Fehlern definieren.
+Sie können die Ausführungsoptionen aller Aktivitäten verwalten.  Wählen Sie eine Aktivität aus und klicken Sie auf die Schaltfläche **Ausführungsoptionen**. Auf diese Weise können Sie den Ausführungsmodus und das Verhalten der Aktivität im Falle eines Fehlers definieren.
 
 ![](assets/workflow-execution-options.png){zoomable=&quot;yes&quot;}{width="70%"}
 
 ### Eigenschaften
 
-Die **Ausführung** definiert die Aktion, die zum Zeitpunkt des Aufgabenstarts durchgeführt werden soll.
+Im Feld **Ausführung** können Sie die Aktion definieren, die beim Starten der Aufgabe ausgelöst werden soll.
 
-Die **Maximale Ausführungsdauer** -Feld können Sie eine Dauer angeben, z. B. &quot;30s&quot;oder &quot;1h&quot;. Wenn eine Aufgabe die angegebene Dauer überschreitet, wird ein Warnhinweis erzeugt. Die Workflow-Ausführung wird hiervon jedoch nicht beeinflusst.
+Im Feld **Max. Ausführungsdauer** können Sie eine maximale Dauer festlegen, z. B. „30s“ oder „1h“. Wenn eine Aufgabe die angegebene Dauer überschreitet, wird ein Warnhinweis erzeugt. Die Workflow-Ausführung wird hiervon jedoch nicht beeinflusst.
 
 Im Feld **Zeitzone** können Sie der Aktivität eine bestimmte Zeitzone zuweisen. Adobe Campaign ist in der Lage, verschiedene Zeitzonen innerhalb einer Instanz zu verwalten. Die entsprechenden Einstellungen werden bei der Instanzerstellung vorgenommen.
 
-**Die Affinität** -Feld können Sie die Ausführung eines Workflows oder einer Workflow-Aktivität auf einem bestimmten Computer erzwingen. Hierzu müssen eine oder mehrere Affinitäten auf Workflow- oder Aktivitätsniveau definiert werden.
+Das Feld **Affinität** bietet die Möglichkeit, die Ausführung eines Workflows oder einer Workflow-Aktivität an einen bestimmtne Computer zu binden. Hierzu müssen eine oder mehrere Affinitäten auf Workflow- oder Aktivitätsniveau definiert werden.
 
-Die **Verhalten** -Feld können Sie die Vorgehensweise bei der Verwendung asynchroner Aufgaben definieren.
+Im Feld **Verhalten** können Sie das Verhalten des Workflows im Fall von asynchronen Aufgaben bestimmen.
 
-### Umgang mit Fehlern      
+### Umgang mit Fehlern
 
-Die **Bei Fehler** -Feld gibt an, welche Aktion bei Auftreten eines Fehlers der Aktivität durchzuführen ist.
+Im Feld **Bei Fehler** lassen sich mögliche Reaktionen bei Auftreten eines Fehlers bestimmen.
 
 ### Initialisierungsskript
 
-Die **Initialisierungsscript** ermöglicht Ihnen, Variablen zu initialisieren oder Aktivitätseigenschaften zu ändern. Klicken Sie auf **Code bearbeiten** und geben Sie das auszuführende Codefragment ein. Das Skript wird aufgerufen, wenn die Aktivität ausgeführt wird. Siehe Abschnitt zu [Ereignisvariablen](../workflows/event-variables.md).
+Mit dem **Initialisierungsscript** können Sie Variablen initialisieren oder Aktivitätseigenschaften ändern. Klicken Sie auf die Schaltfläche **Code bearbeiten** und geben Sie das auszuführende Code-Fragment ein. Das Skript wird aufgerufen, wenn die Aktivität ausgeführt wird. Weitere Informationen finden Sie im Abschnitt zu den [Ereignisvariablen](../workflows/event-variables.md).
 
 ## Beispiel {#example}
 

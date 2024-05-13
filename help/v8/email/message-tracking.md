@@ -4,9 +4,9 @@ title: Verfolgen von Nachrichten
 description: Erfahren Sie, wie Sie Links hinzufügen und gesendete Nachrichten verfolgen können.
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
 source-git-commit: a95a70aa56061106a920584a3501cd4b1434ec8a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '549'
-ht-degree: 67%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Gehen Sie wie folgt vor, um Links in Ihren E-Mail-Inhalt einzufügen:
 
 1. Wählen Sie ein Element aus und klicken Sie in der kontextuellen Symbolleiste auf **[!UICONTROL Link einfügen]**.
 
-1. Wählen Sie den gewünschten Linktyp aus.
+1. Wählen Sie den gewünschten Link-Typ aus.
 
    ![](assets/message-tracking-insert-link.png){zoomable=&quot;yes&quot;}
 
@@ -34,17 +34,17 @@ Gehen Sie wie folgt vor, um Links in Ihren E-Mail-Inhalt einzufügen:
 
      >[!AVAILABILITY]
      >
-     >Die folgenden Funktionen (Link zu **[!UICONTROL Landingpage]**, **[!UICONTROL Anmelde-Link]** und **[!UICONTROL Abmelde-Link]**) sind in begrenzter Verfügbarkeit verfügbar (LA). Sie sind auf Kunden beschränkt, die migrieren **von Adobe Campaign Standard nach Adobe Campaign v8** und können nicht in einer anderen Umgebung bereitgestellt werden.
+     >Die folgenden Funktionen (Link zu **[!UICONTROL Landingpage]**, **[!UICONTROL Anmelde-Link]** und **[!UICONTROL Abmelde-Link]**) sind nur eingeschränkt verfügbar. Sie sind Kundinnen und Kunden vorbehalten, die **von Adobe Campaign Standard zu Adobe Campaign v8** migrieren, und können nicht in anderen Umgebungen bereitgestellt werden.
 
-   * **[!UICONTROL Landingpage]**: Fügen Sie einen Link zu einer Landingpage ein. Wenn Sie eine dynamische Landingpage auswählen (mit der **[!UICONTROL Dienst von URL]** ausgewählt ist), können Sie einen beliebigen Dienst aus der Liste auswählen. [Weitere Informationen](../landing-pages/create-lp.md#define-actions-on-form-submission)
+   * **[!UICONTROL Landingpage]**: Fügen Sie einen Link zu einer Landingpage ein. Wenn Sie eine dynamische Landingpage auswählen (und die Option **[!UICONTROL Dienst über URL]** ausgewählt ist), können Sie einen beliebigen Dienst aus der Liste auswählen. [Weitere Informationen](../landing-pages/create-lp.md#define-actions-on-form-submission)
 
      ![](assets/email-link-to-landing-page.png){zoomable=&quot;yes&quot;}
 
-   * **[!UICONTROL Anmelde-Link]**: Fügen Sie einen Link zu einem Anmeldedienst ein. Wenn Benutzer auf den Link klicken, werden sie zur Anmelde-Landingpage weitergeleitet, auf die im ausgewählten Dienst verwiesen wird. [Weitere Informationen](../audience/manage-services.md#create-service)
+   * **[!UICONTROL Anmelde-Link]**: Fügen Sie einen Link zu einem Anmelde-Dienst ein.  Wenn Benutzende auf den Link klicken, werden sie zur Anmelde-Landingpage weitergeleitet, auf die im ausgewählten Dienst verwiesen wird. [Weitere Informationen](../audience/manage-services.md#create-service)
 
      ![](assets/service-create-default-lp-link.png){zoomable=&quot;yes&quot;}
 
-   * **[!UICONTROL Abmelde-Link]**: Fügen Sie einen Link zu einem Abmeldedienst ein. Wenn Abonnenten auf den Link klicken, werden sie zur Abmelde-Landingpage weitergeleitet, auf die im ausgewählten Dienst verwiesen wird. [Weitere Informationen](../audience/manage-services.md#create-service)
+   * **[!UICONTROL Abmelde-Link]**: Fügen Sie einen Link zu einem Abmelde-Dienst ein.  Wenn Abonnentinnen und Abonnenten auf den Link klicken, werden sie zur Abmelde-Landingpage weitergeleitet, auf die im ausgewählten Dienst verwiesen wird. [Weitere Informationen](../audience/manage-services.md#create-service)
 
    <!--* **[!UICONTROL Mirror page]**: Add a link to display the email content in a web browser. [Learn more]-->
 
@@ -63,7 +63,7 @@ Gehen Sie wie folgt vor, um Links in Ihren E-Mail-Inhalt einzufügen:
 
 >[!NOTE]
 >
->E-Mail-Nachrichten vom Typ Marketing müssen einen Ausschluss-Link enthalten, der für Transaktionsnachrichten nicht erforderlich ist. Die Kategorie der Nachricht (**[!UICONTROL Marketing]** oder **[!UICONTROL Transactional]**) wird auf der Kanaloberfläche und beim Erstellen der Nachricht definiert.
+>E-Mail-Nachrichten vom Typ Marketing müssen einen Ausschluss-Link enthalten, was für Transaktionsnachrichten nicht erforderlich ist. Die Kategorie der Nachricht (**[!UICONTROL Marketing]** oder **[!UICONTROL Transaktion]**) wird auf Ebene der Kanaloberfläche und beim Erstellen der Nachricht definiert.
 
 In allen Ihren E-Mail-Nachrichten sollte ein spezifischer Link zur Mirrorseite hinzugefügt werden. Weitere Informationen zur Mirrorseite finden Sie in [diesem Abschnitt](mirror-page.md).
 

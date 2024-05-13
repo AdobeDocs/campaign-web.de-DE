@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie in Campaign Web Landingpage-spezifische Inhal
 feature: Landing Pages
 exl-id: 6ca3c8c1-3633-4e3f-a9a1-f46ae27c5c8a
 source-git-commit: 4dee53676949282b7c0e7664405b7d5a35ef64d2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1153'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
@@ -30,15 +30,15 @@ Der Inhalt der Seiten **[!UICONTROL Bestätigung]**, **[!UICONTROL Fehler]** und
 
 Sie können auch [Stile für Ihre Landingpage](#lp-form-styles) definieren.
 
-So gestalten Sie den Inhalt Ihrer Landingpage weiter:
+So gestalten Sie den Inhalt Ihrer Landingpage weitergehend:
 
-* Sie können dieselben Komponenten wie für den Entwurf einer E-Mail verwenden. [Weitere Informationen](../email/content-components.md#add-content-components)
+* Sie können dieselben Komponenten wie für E-Mail-Entwürfe verwenden. [Weitere Informationen](../email/content-components.md#add-content-components)
 
-* Sie können Ihren Landingpages bedingte Inhalte auf die gleiche Weise wie bei E-Mails hinzufügen. [Weitere Informationen](../personalization/conditions.md#condition-condition-builder)
+* Sie können Ihren Landingpages bedingte Inhalte so wie bei E-Mails hinzufügen. [Weitere Informationen](../personalization/conditions.md#condition-condition-builder)
 
   >[!AVAILABILITY]
   >
-  >Diese Funktion ist in begrenzter Verfügbarkeit verfügbar. Dies ist auf Kunden beschränkt, die migrieren **von Adobe Campaign Standard nach Adobe Campaign v8** und können nicht in einer anderen Umgebung bereitgestellt werden.
+  >Diese Funktion ist nur eingeschränkt verfügbar. Sie ist Kundinnen und Kunden vorbehalten, die **von Adobe Campaign Standard zu Adobe Campaign v8** migrieren, und kann nicht in anderen Umgebungen bereitgestellt werden.
 
 ## Verwenden von Formularkomponenten {#use-form-component}
 
@@ -82,7 +82,7 @@ Um bestimmte Inhalte zu definieren, mit denen Benutzende ihre Auswahl auf Ihrer 
 
    ![](assets/lp-form-checkbox.png){zoomable=&quot;yes&quot;}
 
-   Wenn Sie **[!UICONTROL Abonnements und Dienste]**, wählen Sie eine [service](../audience/manage-services.md) aus der Liste aus und wählen Sie zwischen den beiden folgenden Optionen:
+   Wenn Sie **[!UICONTROL Abonnements und Services]** auswählen, wählen Sie einen [Dienst](../audience/manage-services.md) aus der Liste aus und legen Sie eine der beiden folgenden Optionen fest:
 
    * **[!UICONTROL Anmelden wenn aktiviert]**: Benutzende müssen das Kontrollkästchen zum Einverständnis aktivieren (Opt-in).
    * **[!UICONTROL Abmelden wenn aktiviert]**: Benutzende müssen das Kontrollkästchen aktivieren, um ihr Einverständnis zu entfernen (Opt-out).
@@ -95,7 +95,7 @@ Um bestimmte Inhalte zu definieren, mit denen Benutzende ihre Auswahl auf Ihrer 
 
 1. Sie können so viele Felder (z. B. Textfelder, Optionsfelder, Kontrollkästchen, Dropdown-Listen usw.) löschen und hinzufügen wie nötig.
 
-1. Nachdem alle Felder hinzugefügt oder aktualisiert wurden, klicken Sie auf **[!UICONTROL Handlungsaufforderung]**, um den entsprechenden Abschnitt zu erweitern. Damit können Sie das Verhalten der Schaltfläche im **[!UICONTROL Formular]** -Komponente. [Weitere Informationen dazu](#define-actions-on-form-submission)
+1. Nachdem alle Felder hinzugefügt oder aktualisiert wurden, klicken Sie auf **[!UICONTROL Handlungsaufforderung]**, um den entsprechenden Abschnitt zu erweitern. Damit können Sie das Verhalten der Schaltfläche in der **[!UICONTROL Formularkomponente]** festlegen. [Weitere Informationen dazu](#define-actions-on-form-submission)
 
    ![](assets/lp-call-to-action.png){zoomable=&quot;yes&quot;}
 
@@ -105,34 +105,34 @@ Um bestimmte Inhalte zu definieren, mit denen Benutzende ihre Auswahl auf Ihrer 
 
 1. Definieren Sie, was beim Klicken auf die Schaltfläche passieren soll:
 
-   * **[!UICONTROL Bestätigungsseite]**: Standardmäßig wird der Benutzer zum **[!UICONTROL Bestätigung]** für die aktuelle Landingpage festgelegt ist.
+   * **[!UICONTROL Bestätigungsseite]**: Die Benutzenden werden standardmäßig zur **[!UICONTROL Bestätigungsseite]** umgeleitet, die für die aktuelle Landingpage festgelegt ist.
 
    * **[!UICONTROL Umleitungs-URL]**: Geben Sie die URL der Seite ein, zu der die Benutzenden umgeleitet werden sollen.
 
-   * **[!UICONTROL Landingpage]**: Sie können eine andere Landingpage auswählen, zu der Benutzer weitergeleitet werden sollen. Konfigurieren Sie die ausgewählte Landingpage entsprechend.
+   * **[!UICONTROL Landingpage]**: Sie können eine andere Landingpage auswählen, zu der Benutzende umgeleitet werden sollen. Konfigurieren Sie die ausgewählte Landingpage entsprechend.
 
 1. Wenn Sie beim Senden des Formulars zusätzliche Aktualisierungen vornehmen möchten, wählen Sie **[!UICONTROL Zusätzliche Aktualisierungen]** aus und wählen Sie dann das Element aus, das Sie aktualisieren möchten:
-   * Ein Abonnement [service](../audience/manage-services.md) - definieren Sie in diesem Fall, ob Sie Benutzer beim Senden des Formulars anmelden oder abwählen möchten. Wenn Sie beim Entwerfen einer E-Mail eine **[!UICONTROL Landingpage]**-Link zu dieser Landingpage eingeben, wird der ausgewählte Dienst automatisch verwendet. [Weitere Informationen zum Einfügen von Links](../email/message-tracking.md)
+   * [Abonnement-Dienst](../audience/manage-services.md): Definieren Sie in diesem Fall, ob Benutzende bei der Formularübermittlung angemeldet oder abgemeldet werden sollen. Wenn Sie beim Entwerfen einer E-Mail einen Link vom Typ **[!UICONTROL Landingpage]** zu dieser Landingpage definieren, wird der ausgewählte Dienst automatisch verwendet. [Weitere Informationen zum Einfügen von Links](../email/message-tracking.md)
 
      >[!NOTE]
      >
-     >Wenn Sie für diese Landingpage mehrere Dienste verwenden möchten, verwenden Sie die **[!UICONTROL Dienst von URL]** weiter unten beschrieben.
+     >Wenn Sie für diese Landingpage mehrere Dienste verwenden möchten, verwenden Sie die nachstehend beschriebene Option **[!UICONTROL Dienst über URL]**.
 
-   * Der Kanal - die E-Mail, an die das Formular gesendet wurde.
+   * Kanal: Die beim Ausfüllen des Formulars verwendete E-Mail-Adresse.
    * Alle Kanäle: Beim Senden des Formulars werden die Benutzenden (je nach ausgewählter Vorlage) für alle Nachrichten von Ihrer Marke auf allen Kanälen angemeldet oder abgemeldet.
    * Ein Feld aus der Datenbank: Wählen Sie ein Feld aus der Attributliste aus und legen Sie fest, ob es beim Senden des Formulars auf „True“ oder „False“ gesetzt werden soll.
 
    ![](assets/lp-form-additionnal-updates.png){zoomable=&quot;yes&quot;}
 
-1. Wählen Sie die **[!UICONTROL Dienst von URL]** -Option, damit die Landingpage für mehrere Dienste verwendet werden kann, wodurch sie dynamisch wird. Definieren Sie, ob Sie Benutzer beim Senden des Formulars anmelden oder abwählen möchten.
+1. Wählen Sie die Option **[!UICONTROL Dienst über URL]** aus, damit die Landingpage für mehrere Dienste verwendet werden kann, wodurch sie dynamisch wird. Definieren Sie, ob Benutzende bei der Formularübermittlung angemeldet oder abgemeldet werden sollen.
 
    >[!AVAILABILITY]
    >
-   >Diese Funktion ist in begrenzter Verfügbarkeit verfügbar. Dies ist auf Kunden beschränkt, die migrieren **von Adobe Campaign Standard nach Adobe Campaign v8** und können nicht in einer anderen Umgebung bereitgestellt werden.
+   >Diese Funktion ist nur eingeschränkt verfügbar. Sie ist Kundinnen und Kunden vorbehalten, die **von Adobe Campaign Standard zu Adobe Campaign v8** migrieren, und kann nicht in anderen Umgebungen bereitgestellt werden.
 
    ![](assets/lp-form-service-from-url.png){zoomable=&quot;yes&quot;}
 
-   Wenn Sie beim Entwerfen einer E-Mail eine **[!UICONTROL Landingpage]**-Link zu dieser Landingpage eingeben, können Sie einen beliebigen Dienst aus der Liste auswählen. Sie können dann bei der Definition anderer Links zu dieser Landingpage andere Dienste auswählen. [Weitere Informationen zum Einfügen von Links](../email/message-tracking.md)
+   Wenn Sie beim Entwerfen einer E-Mail einen Link vom Typ **[!UICONTROL Landingpage]** zu dieser Landingpage definieren, können Sie einen beliebigen Dienst aus der Liste auswählen. Sie können dann bei der Definition anderer Links zu dieser Landingpage andere Dienste auswählen. [Weitere Informationen zum Einfügen von Links](../email/message-tracking.md)
 
    ![](assets/email-link-to-landing-page.png){zoomable=&quot;yes&quot;}
 

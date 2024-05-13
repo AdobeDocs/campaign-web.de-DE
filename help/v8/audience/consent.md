@@ -1,12 +1,12 @@
 ---
 audience: end-user
 title: Einverständnis
-description: Informationen zur Einwilligung im Adobe Campaign Web
+description: Informationen zum Einverständnis in Campaign Web
 badge: label="Eingeschränkte Verfügbarkeit"
 source-git-commit: 9a184d7558ca39be3afed4a7217a5e5687799c0d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '484'
-ht-degree: 13%
+ht-degree: 100%
 
 ---
 
@@ -14,66 +14,66 @@ ht-degree: 13%
 
 ## Allgemeine Empfehlungen {#general-recommendations}
 
-Mit Adobe Campaign können Sie Daten, einschließlich personenbezogener und vertraulicher Daten, erfassen. Daher ist es wichtig, dass Sie die Zustimmung Ihrer Empfänger gemäß den Datenschutzbestimmungen wie der DSGVO (Datenschutz-Grundverordnung) und anderen geltenden Datenschutzgesetzen einholen und überwachen.
+Mit Adobe Campaign können Sie Daten, einschließlich personenbezogener und vertraulicher Daten, erfassen. Daher ist es wichtig, dass Sie das Einverständnis Ihrer Empfängerinnen und Empfänger gemäß den Datenschutzbestimmungen wie der DSGVO (Datenschutz-Grundverordnung) und anderen geltenden Datenschutzgesetzen einholen und überwachen.
 
-* Senden Sie zunächst keine unerwünschten E-Mails, Push-Benachrichtigungen und SMS-Nachrichten (&quot;Spam&quot;). Adobe glaubt fest an die Prinzipien des Permission Marketing, um den Lebenszeitwert und die Treue von Kunden zu fördern, und verbietet daher strikt die Verwendung von Adobe Campaign zum Versand unerwünschter Nachrichten. [Weitere Informationen](#denylisted-profiles)
+* Senden Sie vor allem keine unerwünschten E-Mails, Push-Benachrichtigungen und SMS-Nachrichten („Spam“). Adobe glaubt fest an Permission Marketing, um den Kundenlebenszeitwert und die Treue zu fördern, und verbietet daher strikt die Verwendung von Adobe Campaign zum Versenden von unerbetenen Nachrichten.  [Weitere Informationen](#denylisted-profiles)
 
-* Lassen Sie Empfänger immer dem Empfang von Nachrichten zustimmen, indem Sie ihnen die Möglichkeit geben, sich von Ihren Sendungen abzumelden.<!-- and keep honoring opt-out requests as quickly as possible-->. [Weitere Informationen](#opt-out)
+* Lassen Sie Empfängerinnen und Empfänger immer dem Empfang von Nachrichten zustimmen, indem Sie ihnen die Möglichkeit geben, sich von Ihren Sendungen abzumelden.<!-- and keep honoring opt-out requests as quickly as possible-->. [Weitere Informationen](#opt-out)
 
-* Mithilfe der Abonnementverwaltung können Sie die Voreinstellungen Ihrer Empfänger verwalten und verfolgen, welche Empfänger sich für welche Art von Abonnements entschieden haben. [Weitere Informationen](../../delivery/using/about-services-and-subscriptions.md)
+* Mithilfe der Abonnementverwaltung können Sie die Voreinstellungen Ihrer Empfängerinnen und Empfänger verwalten und nachverfolgen, welche von ihnen sich für welche Art von Abonnements entschieden haben. [Weitere Informationen](../../delivery/using/about-services-and-subscriptions.md)
 
-## Opt-out verwalten {#opt-out}
+## Verwalten des Opt-out {#opt-out}
 
-Es ist gesetzlich vorgeschrieben, den Empfängern die Möglichkeit zu geben, sich vom Erhalt von Nachrichten einer Marke abzumelden, und sicherzustellen, dass diese Entscheidung respektiert wird. <!--Learn more about the applicable legislation in the [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html#privacy-regulations){target="_blank"}.-->
+Es ist gesetzlich vorgeschrieben, Empfängerinnen und Empfängern die Möglichkeit zu geben, sich vom Erhalt von Nachrichten einer Marke abzumelden, und sicherzustellen, dass diese Entscheidung respektiert wird. <!--Learn more about the applicable legislation in the [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html#privacy-regulations){target="_blank"}.-->
 
-**Warum ist es wichtig?**
+**Warum ist das wichtig?**
 
 * Die Nichteinhaltung dieser Vorschriften führt zu rechtlichen Risiken für Ihre Marke.
-* Auf diese Weise können Sie vermeiden, unerwünschte Nachrichten an Ihre Empfänger zu senden, wodurch diese Ihre Nachrichten als Spam markieren und Ihrer Reputation schaden könnten.
+* Auf diese Weise können Sie vermeiden, unerwünschte Nachrichten an Ihre Empfängerinnen und Empfänger zu senden, wodurch diese Ihre Nachrichten als Spam markieren und Ihrem Ruf schaden könnten.
 
-Beim Versand von Nachrichten über Adobe Campaign Web müssen Sie stets sicherstellen, dass sich Kunden von künftigen Nachrichten abmelden können. Nach der Abmeldung werden die Profile automatisch aus der Audience künftiger Marketing-Nachrichten entfernt.
+Beim Versand von Sendungen mit Adobe Campaign Web müssen Sie stets sicherstellen, dass sich Kundinnen und Kunden von künftigen Kommunikationen abmelden können.  Nach der Kündigung des Abos werden die Profile automatisch aus der Zielgruppe künftiger Marketing-Nachrichten entfernt.
 
 ### E-Mail-Opt-out {#email-opt-out}
 
-Um Empfängern die Möglichkeit zu geben, sich vom Erhalt von E-Mail-Nachrichten abzumelden, müssen Sie stets eine **Abmelde-Link** in jeder E-Mail, die an Empfänger gesendet wird.
+Um Empfängerinnen und Empfängern die Möglichkeit zu geben, sich vom Erhalt von E-Mail-Nachrichten abzumelden, muss jede E-Mail, die an sie gesendet wird, einen **Abmelde-Link** enthalten. 
 
 Gehen Sie dazu wie folgt vor:
 
 1. Erstellen Sie eine externe Landingpage und hosten Sie sie auf dem Drittanbietersystem Ihrer Wahl.
 
-1. Erstellen Sie einen E-Mail-Versand. [Weitere Informationen dazu](../email/create-email.md)
+1. Erstellen Sie einen E-Mail-Versand.  [Weitere Informationen dazu](../email/create-email.md)
 
-1. Fügen Sie einen Link zu Ihrem E-Mail-Inhalt ein. [Weitere Informationen dazu](../email/message-tracking.md#insert-links)
+1. Fügen Sie einen Link in Ihren E-Mail-Inhalt ein. [Weitere Informationen dazu](../email/message-tracking.md#insert-links)
 
    ![](../email/assets/message-tracking-insert-link.png)
 
-1. Im **[!UICONTROL URL]** den Link zu Ihrer Drittanbieter-Landingpage einfügen.
+1. Fügen Sie den Link zu Ihrer Drittanbieter-Landingpage im Feld **[!UICONTROL URL]** ein.
 
 1. Klicken Sie auf das Symbol **[!UICONTROL Links]** im linken Fensterbereich, um die Liste aller URLs Ihrer zu trackenden Inhalte anzuzeigen.
 
 1. Klicken Sie auf das Stiftsymbol neben dem neuen Link, um ihn zu bearbeiten.
 
-1. Ändern Sie die **[!UICONTROL Tracking-Typ]** und legen Sie **[!UICONTROL Opt-out]**.
+1. Ändern Sie den **[!UICONTROL Tracking-Typ]** und setzen Sie ihn auf **[!UICONTROL Opt-out]**.
 
    ![](../email/assets/message-tracking-edit-a-link.png)
 
-1. Klicks **[!UICONTROL Speichern]** und senden Sie die Nachricht. [Weitere Informationen](../monitor/prepare-send.md)
+1. Klicken Sie auf **[!UICONTROL Speichern]** und senden Sie die Nachricht ab. [Weitere Informationen](../monitor/prepare-send.md)
 
-1. Wenn der Empfänger nach Erhalt der Nachricht auf den Abmelde-Link klickt, wird Ihre Landingpage angezeigt.
+1. Wenn die Empfängerin bzw. der Empfänger nach Erhalt der Nachricht auf den Abmelde-Link klickt, wird die Landingpage angezeigt.
 
-1. Wenn der Empfänger das Landingpage-Formular sendet, werden die Profildaten aktualisiert. [Weitere Informationen](#denylisted-profiles)
+1. Wenn die Empfängerin bzw. der Empfänger das Landingpage-Formular sendet, werden die Profildaten aktualisiert. [Weitere Informationen](#denylisted-profiles)
 
 <!--Any other option availabe such as one-click opt-out link or List-Unsubscribe (to include an unsubscribe link in the email header) to enable opt-out in a delivery?-->
 
-## Auf die Blockierungsliste gesetzt Profile {#denylisted-profiles}
+## Profile, die auf die Blockierungsliste gesetzt wurden {#denylisted-profiles}
 
-Nach einer Abmeldung (Opt-out) befinden sich die Profile im **Blockierungsliste** für einen bestimmten Kanal: Dies bedeutet, dass er von keinem Versand mehr als Zielgruppe ausgewählt wird.
+Nach einer Abmeldung (Opt-out) stehen die Profile auf der **Blockierungsliste** für einen bestimmten Kanal: Dies bedeutet, dass sie von keinem Versand mehr als Zielgruppe ausgewählt werden.
 
 >[!NOTE]
 >
->Wenn ein Profil auf der Blockierungsliste für den E-Mail-Kanal zwei E-Mail-Adressen hat, werden beide Adressen vom Versand ausgeschlossen.
+>Wenn ein Profil, das auf der Blockierungsliste für den E-Mail-Kanal steht, zwei E-Mail-Adressen hat, werden beide Adressen vom Versand ausgeschlossen.
 
-Sie können für einen oder mehrere Kanäle in der **[!UICONTROL No longer contact]** des Profils **[!UICONTROL Details]** Registerkarte. [Weitere Informationen](../audience/about-recipients.md#access)
+Im Abschnitt **[!UICONTROL Nicht mehr kontaktieren]** auf der Registerkarte **[!UICONTROL Details]** des Profils können Sie überprüfen, ob sich ein Profil für einen oder mehrere Kanäle auf der Blockierungsliste befindet. [Weitere Informationen](../audience/about-recipients.md#access)
 
 ![](assets/profile-no-longer-contact.png)
 

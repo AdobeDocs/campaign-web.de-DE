@@ -1,45 +1,46 @@
 ---
 audience: end-user
-title: Verwenden Sie die Workflow-Aktivität Test .
-description: Erfahren Sie, wie Sie die Workflow-Aktivität Test verwenden.
-source-git-commit: 575219c7bcef303e211f504d13227183933924cc
-workflow-type: tm+mt
+title: Verwenden der Workflow-Aktivität „Test“
+description: Informationen dazu, wie Sie die Workflow-Aktivität „Test“ verwenden
+exl-id: 1bb25ad4-2cab-4656-85bd-4ed018e8477b
+source-git-commit: 93f6347828c72535c1a005ecd6ca18596a180098
+workflow-type: ht
 source-wordcount: '304'
-ht-degree: 2%
+ht-degree: 100%
 
 ---
 
 # Test {#test}
 
-Die **Test** -Aktivität **Flusssteuerung** -Aktivität. Sie ermöglicht die Aktivierung von Transitionen auf der Basis der angegebenen Bedingungen.
+Die Aktivität **Test** ist eine Aktivität zur **Flusskontrolle**. Sie ermöglicht die Aktivierung von Transitionen auf der Basis der angegebenen Bedingungen.
 
-## Konfigurieren der Test -Aktivität {#test-configuration}
+## Konfigurieren der Aktivität „Test“ {#test-configuration}
 
-Führen Sie die folgenden Schritte aus, um die **Test** Aktivität:
+Führen Sie diese Schritte aus, um die Aktivität **Test** zu konfigurieren:
 
 1. Fügen Sie eine **Test**-Aktivität zu Ihrem Workflow hinzu.
 
-1. Standardmäßig wird die Variable **[!UICONTROL Test]** -Aktivität stellt einen einfachen booleschen Test dar. Wenn die in der Transition &quot;True&quot; definierte Bedingung erfüllt ist, wird diese Transition aktiviert. Andernfalls wird die standardmäßige Transition &quot;False&quot;aktiviert.
+1. Standardmäßig stellt die Aktivität **[!UICONTROL Test]** einen einfachen booleschen Test dar. Wenn die in der Transition „True“ definierte Bedingung erfüllt ist, wird diese Transition aktiviert. Andernfalls wird die standardmäßige Transition „False“ aktiviert.
 
-1. Um die einer Transition zugeordnete Bedingung zu konfigurieren, klicken Sie auf das **[!UICONTROL Personalisierungsdialogfeld öffnen]** Symbol. Definieren Sie mithilfe des Ausdruckseditors die Regeln, die zum Aktivieren dieser Transition erforderlich sind. Sie können auch Ereignisvariablen, Bedingungen und Datums-/Uhrzeitfunktionen nutzen. [Erfahren Sie, wie Sie mit Ereignisvariablen und dem Ausdruckseditor arbeiten.](../event-variables.md)
+1. Um die einer Transition zugeordnete Bedingung zu konfigurieren, klicken Sie auf das Symbol **[!UICONTROL Personalisierungsdialog öffnen]**. Definieren Sie mithilfe des Ausdruckseditors die Regeln, die zum Aktivieren dieser Transition erforderlich sind. Sie können auch Ereignisvariablen, Bedingungen und Datums-/Uhrzeitfunktionen nutzen. [Informationen dazu, wie Sie mit Ereignisvariablen und dem Ausdruckseditor arbeiten](../event-variables.md)
 
-   Darüber hinaus können Sie die **[!UICONTROL Titel]** -Feld, um den Namen der Transition auf der Arbeitsfläche des Workflows zu personalisieren.
+   Darüber hinaus können Sie das Feld **[!UICONTROL Titel]** ändern, um den Namen der Transition auf der Arbeitsfläche des Workflows zu personalisieren.
 
    ![](../assets/workflow-test-default.png)
 
-1. Sie können einer **[!UICONTROL Test]** -Aktivität. Klicken Sie dazu auf die Schaltfläche **[!UICONTROL Bedingung hinzufügen]** und konfigurieren Sie den Titel und die zugehörige Bedingung für jede Transition.
+1. Sie können mehrere Ausgabe-Transitionen zu einer **[!UICONTROL Test]**-Aktivität hinzufügen. Klicken Sie dazu auf die Schaltfläche **[!UICONTROL Bedingung hinzufügen]** und konfigurieren Sie den Titel und die zugehörige Bedingung für jede Transition.
 
-1. Während der Ausführung des Workflows wird jede Bedingung nacheinander getestet, bis eine der Bedingungen erfüllt ist. Wenn keine der Bedingungen erfüllt ist, wird der Workflow entlang des Pfads der **[!UICONTROL Standardbedingung]**. Wenn keine Standardbedingung aktiviert ist, werden die Workflows an dieser Stelle beendet.
+1. Während der Ausführung des Workflows wird jede Bedingung nacheinander getestet, bis eine der Bedingungen erfüllt ist. Wenn keine der Bedingungen erfüllt ist, wird der Workflow entlang des Pfads der **[!UICONTROL Standardbedingung]** fortgesetzt. Wenn keine Standardbedingung aktiviert ist, werden die Workflows an dieser Stelle beendet.
 
 ## Beispiel {#example}
 
-In diesem Beispiel werden je nach Anzahl der Profile, die von einer **[!UICONTROL Audience erstellen]** Aktivität:
-* Bei mehr als 10.000 Zielgruppenprofilen wird eine E-Mail-Nachricht gesendet.
+In diesem Beispiel werden verschiedene Transitionen basierend auf der Anzahl an Profilen aktiviert, die von der Aktivität **[!UICONTROL Zielgruppe erstellen]** ausgewählt werden:
+* Bei mehr als 10.000 ausgewählten Profilen wird eine E-Mail-Nachricht gesendet.
 * Für 1.000 bis 10.000 Profile wird eine SMS gesendet.
-* Wenn die Zielgruppenprofile unter 1.000 fallen, werden sie an die Transition &quot;Keine Kontakte&quot; weitergeleitet.
+* Wenn weniger als 1.000 Profile ausgewählt werden, werden sie an die Transition „Nicht kontaktieren“ weitergeleitet.
 
 ![](../assets/workflow-test-example.png)
 
-Dazu muss die Variable `vars.recCount` -Ereignisvariable in den Bedingungen &quot;E-Mail&quot; und &quot;SMS&quot; verwendet wurde, um die Anzahl der Zielgruppenprofile zu zählen und die entsprechende Transition zu aktivieren.
+Dazu wurde die Ereignisvariable `vars.recCount` in den Bedingungen „E-Mail“ und „SMS“ verwendet, um die Anzahl der ausgewählten Profile zu zählen und die entsprechende Transition zu aktivieren.
 
 ![](../assets/workflow-test-example-config.png)

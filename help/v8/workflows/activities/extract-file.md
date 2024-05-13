@@ -4,7 +4,7 @@ title: Verwenden der Workflow-Aktivität „Dateiextraktion“
 description: Informationen dazu, wie Sie die Workflow-Aktivität „Dateiextraktion“ verwenden
 exl-id: fa50ab5b-2539-4517-9d7b-93315f1e505c
 source-git-commit: 93f6347828c72535c1a005ecd6ca18596a180098
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '860'
 ht-degree: 100%
 

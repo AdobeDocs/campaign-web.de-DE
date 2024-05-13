@@ -4,9 +4,9 @@ title: Erstellen eines Rich-Push-Benachrichtigungs-Versands
 description: Erfahren Sie, wie Sie mit Adobe Campaign Web einen Rich-Push-Benachrichtigungs-Versand für Android erstellen.
 exl-id: a87cb933-b564-4fa4-b173-6a94d7e27da5
 source-git-commit: 4b37ec6df839a7edef838b1d19b484208a6bec2f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1424'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 99%
 
 >[!AVAILABILITY]
 >
->Diese Funktion ist in **Eingeschränkte Verfügbarkeit** (LA).
+>Diese Funktion ist nur **eingeschränkt verfügbar**.
 
 Bei Firebase Cloud Messaging stehen Ihnen zwei Nachrichtentypen zur Auswahl:
 

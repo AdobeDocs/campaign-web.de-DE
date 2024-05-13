@@ -4,7 +4,7 @@ title: Verwenden der Workflow-Aktivität „Datei laden“
 description: So verwenden Sie die Workflow-Aktivität „Datei laden“
 exl-id: 230177e2-1926-451a-8a66-0db962ada514
 source-git-commit: 4518f7a2f280eca70f799b941c5d28bdc39c1def
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1227'
 ht-degree: 100%
 
