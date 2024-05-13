@@ -3,10 +3,10 @@ audience: end-user
 title: Erstellen Ihrer erste Abfrage mithilfe des Abfrage-Modelers
 description: Erfahren Sie, wie Sie Ihre erste Abfrage im Abfrage-Modeler in Adobe Campaign Web erstellen.
 exl-id: f9a365ac-c8be-423f-a99d-40ad5492223c
-source-git-commit: f6e3fc0da05ecc2fda158c970458cc702b27079c
-workflow-type: ht
-source-wordcount: '2015'
-ht-degree: 100%
+source-git-commit: 664876e479b0580f99b77be5fbf31a18b3bfcecb
+workflow-type: tm+mt
+source-wordcount: '2106'
+ht-degree: 95%
 
 ---
 
@@ -91,6 +91,11 @@ Die Aggregatfunktionen dienen der Durchführung von Berechnungen zu einer Reihe 
    <td> <strong>StdDev</strong><br /> </td> 
    <td> Gibt die Standardabweichung einer Zahl, Zeichenfolge oder Datumsspalte aus<br /> </td> 
    <td> StdDev(&lt;Wert&gt;)<br /></td> 
+  </tr>
+  <tr> 
+   <td> <strong>StringAgg</strong><br /> </td> 
+   <td> Gibt die Verkettung der Werte einer Spalte vom Typ String aus, getrennt durch das Zeichen im zweiten Argument<br /> </td> 
+   <td> StringAgg(&lt;value&gt;, &lt;string&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Sum</strong><br /> </td> 
@@ -145,6 +150,16 @@ Die Datumsfunktionen dienen der Manipulation von Datums- oder Uhrzeitwerten.
    <td> <strong>ConvertNTZ</strong><br /> </td> 
    <td> Konvertiert NTZ-Zeitstempel (Zeitstempel ohne Zeitzone) in TZ (Zeitstempel mit Zeitzone) unter Anwendung der definierten Sitzungs-Zeitzone<br/> </td> 
    <td> ConvertNTZ (&lt;date+time&gt;)<br /> </td>  
+  </tr>
+  <tr> 
+   <!--<td> <strong>ConvertTimezone</strong><br /> </td> 
+   <td> <br/> </td> 
+   <td> ConvertNTZ (&lt;date+time&gt;)<br /> </td>  
+  </tr>-->
+  <tr> 
+   <td> <strong>DateCmp</strong><br /> </td> 
+   <td> Zwei Daten vergleichen<br/> </td> 
+   <td> DateCmp(&lt;date&gt;,&lt;date&gt;)<br /> </td>  
   </tr>
   <tr> 
    <td> <strong>DateOnly</strong><br /> </td> 
@@ -280,6 +295,16 @@ Die Datumsfunktionen dienen der Manipulation von Datums- oder Uhrzeitwerten.
    <td> <strong>ToDateTime</strong><br /> </td> 
    <td> Konvertiert einen String in Datum+Uhrzeit<br /> </td> 
    <td> ToDateTime(&lt;String&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>ToTimestamp</strong><br /> </td> 
+   <td> Konvertiert einen String in einen Zeitstempel<br /> </td> 
+   <td> ToTimestamp(&lt;string&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>ToTimeZone</strong><br /> </td> 
+   <td> Konvertieren von Datum+Uhrzeit in Zeitzone<br /> </td> 
+   <td> ToTimeZone(&lt;date&gt;,&lt;time zone=""&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>TruncDate</strong><br /> </td> 
@@ -462,11 +487,11 @@ In dieser Tabelle sind die restlichen verfügbaren Funktionen enthalten.
    <td> <strong>Beschreibung</strong><br /> </td> 
    <td> <strong>Syntax</strong><br /> </td> 
   </tr> 
-  <!--MISSING INFO<tr> 
+  <tr> 
    <td> <strong>AESEncrypt</strong><br /> </td> 
-   <td> Returns value 1 if the condition is true. If not, it returns value 2.<br /> </td> 
-   <td> Case(When(&lt;condition&gt;, &lt;value 1&gt;), Else(&lt;value 2&gt;))<br /> </td> 
-  </tr> -->
+   <td> Im -Argument angegebene Verschlüsselungszeichenfolge<br /> </td> 
+   <td> AESEncrypt(&lt;value&gt;)<br /> </td> 
+  </tr>
   <tr> 
    <td> <strong>Case</strong><br /> </td> 
    <td> Gibt Wert 1 zurück, wenn die Bedingung zutrifft. Wenn nicht, wird Wert 2 zurückgegeben.<br /> </td> 
@@ -522,11 +547,11 @@ In dieser Tabelle sind die restlichen verfügbaren Funktionen enthalten.
    <td> Gibt den Wert 2 aus, wenn der String 1 leer ist, sonst den Wert 3<br /> </td> 
    <td> IsEmptyString(&lt;Wert 1&gt;, &lt;Wert 2&gt;, &lt;Wert 3&gt;)<br /> </td>  
   </tr> 
-  <!--<tr> 
+  <tr> 
    <td> <strong>NewUUID</strong><br /> </td> 
-   <td> Returns the empty string if the argument is NULL<br /> </td> 
-   <td> NoNull(&lt;value&gt;)<br /> </td>  
-  </tr> -->
+   <td> Gibt eine eindeutige ID aus<br /> </td> 
+   <td> NewUUID()<br /> </td>  
+  </tr> 
   <tr> 
    <td> <strong>NoNull</strong><br /> </td> 
    <td> Gibt einen Leerstring aus, wenn das Argument gleich null ist<br /> </td> 
@@ -631,11 +656,11 @@ Die String-Funktionen dienen der Manipulation einer Reihe von Strings.
    <td> Gibt die Länge des Strings aus<br /> </td> 
    <td> Length(&lt;String&gt;)<br /></td> 
   </tr> 
-  <!--<tr> 
-   <td> <strong>Line</strong><br /> </td> 
-   <td> Returns the string in lowercase<br /> </td> 
-   <td> Lower(&lt;string&gt;)<br /></td> 
-  </tr> -->
+  <tr> 
+   <td> <strong>Linie</strong><br /> </td> 
+   <td> Zeile n aus Zeichenfolge extrahieren<br /> </td> 
+   <td> Line(&lt;string&gt;,&lt;number&gt;)<br /></td> 
+  </tr>
   <tr> 
    <td> <strong>Lower</strong><br /> </td> 
    <td> Gibt den String in Kleinbuchstaben aus<br /> </td> 
@@ -665,6 +690,11 @@ Die String-Funktionen dienen der Manipulation einer Reihe von Strings.
    <td> <strong>NodeValue</strong><br /> </td> 
    <td> Extrahiert den Wert eines XML-Felds aus seinem XPath und den Felddaten<br /> </td> 
    <td> NodeValue (&lt;String&gt;, &lt;String&gt;)<br /></td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Replace</strong><br /> </td> 
+   <td> Ersetzt alle Vorkommen eines angegebenen Zeichenfolgenwerts durch einen anderen Zeichenfolgenwert.<br /> </td> 
+   <td> Replace(&lt;string&gt;,&lt;string&gt;,&lt;string&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Right</strong><br /> </td> 
