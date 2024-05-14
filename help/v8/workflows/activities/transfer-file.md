@@ -3,10 +3,10 @@ audience: end-user
 title: Verwenden der Aktivität „Dateiübertragung“
 description: Informationen dazu, wie Sie die Workflow-Aktivität „Dateiübertragung“ verwenden
 exl-id: a40c007e-c0c6-4e0f-aa0d-0260ecb74a03
-source-git-commit: 93f6347828c72535c1a005ecd6ca18596a180098
+source-git-commit: 160ae5704601d1f8de41ebadde353a7097d9606c
 workflow-type: tm+mt
-source-wordcount: '1129'
-ht-degree: 100%
+source-wordcount: '1175'
+ht-degree: 89%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_remoteserver"
 >title="Remote-Server für die Dateiübertragung"
->abstract="Remote-Server für die Dateiübertragung"
+>abstract="Geben Sie den Server für die Verbindung an."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_source"
@@ -40,17 +40,17 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_advancedoptions_delete_file"
 >title="Quelldateien nach der Übertragung löschen"
->abstract="Quelldateien nach der Übertragung löschen"
+>abstract="Löschen Sie die Quelldateien nach einer erfolgreichen Übertragung."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_advancedoptions_display_logs"
 >title="Sitzungsprotokolle anzeigen"
->abstract="Sitzungsprotokolle anzeigen"
+>abstract="Informationen zum Übertragungsvorgang werden in den Workflow-Logs angezeigt."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_advancedoptions_list_files"
 >title="Alle Dateien auflisten"
->abstract="Alle Dateien auflisten"
+>abstract="Diese Option indiziert alle Dateien, die auf dem Server im **vars.filenames** Ereignisvariable."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_historization"
@@ -60,12 +60,12 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_process_missing_file"
 >title="Fehlen von Dateien verarbeiten"
->abstract="Fehlen von Dateien verarbeiten"
+>abstract="Mit dieser Option können Sie die ausgehende Transition &quot;Keine Datei&quot; im Anschluss an die Aktivität aktivieren."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_process_errors"
 >title="Fehler verarbeiten"
->abstract="Fehler verarbeiten"
+>abstract="Mit dieser Option können Sie eine ausgehende Transition vom Typ &quot;Fehler&quot; im Anschluss an die Aktivität aktivieren."
 
 Die Aktivität **Dateiübertragung** ist eine **Daten-Management-Aktivität**. Mit dieser Aktivität können Sie Dateien senden oder empfangen, das Vorhandensein von Dateien prüfen oder Dateien auf einem Server auflisten. Das verwendete Protokoll kann entweder ein Server-zu-Server-Protokoll oder ein HTTP-Protokoll sein.
 
@@ -108,7 +108,7 @@ Führen Sie die nachfolgend aufgeführten Schritte aus, um die Aktivität **Date
 
 ## Definieren der Zielgruppe für die Übertragung {#destination}
 
-1. Geben Sie im Abschnitt **[!UICONTROL Remote-Server]** mithilfe einer der folgenden Methoden den Server an, mit dem eine Verbindung hergestellt werden soll:
+1. Im **[!UICONTROL Remote-Server]** Geben Sie den Server für die Verbindung mit einer der folgenden Methoden an:
 
    * **[!UICONTROL Verwenden von in einem externen Konto definierten Verbindungsparametern]**: Stellen Sie mithilfe der Verbindungsparameter eines externen Kontos eine Verbindung zu einem Server her. Geben Sie im Feld **[!UICONTROL Server-Ordner]** den Pfad zur Datei (oder zum Ordner für die Dateiauflistungsaktionen) an.
    * **[!UICONTROL Schnelle Konfiguration]**: Geben Sie die URL der Datei (oder des Ordners für die Dateiauflistungsaktionen) ein.
@@ -126,7 +126,7 @@ Jedes Mal, wenn die Aktivität **[!UICONTROL Dateiübertragung]** ausgeführt wi
 
 ![](../assets/workflow-transfer-file-historization.png)
 
-Es ist wichtig, die Größe dieses Ordners begrenzen zu können, um physischen Platz auf dem Server zu sparen.  Hierzu können Sie eine Höchstzahl an Dateien oder die Gesamtgröße des Ordners für die Aktivität definieren. Standardmäßig sind 100 Dateien und 50 MB zugelassen.
+Es ist wichtig, die Größe dieses Ordners begrenzen zu können, um physischen Platz auf dem Server zu sparen.  Dazu können Sie eine maximale Anzahl von Dateien oder die Gesamtgröße für den Ordner der Aktivität definieren. Standardmäßig sind 100 Dateien und 50 MB zugelassen.
 
 Jedes Mal, wenn die Aktivität ausgeführt wird, wird der Ordner folgendermaßen überprüft:
 
@@ -145,7 +145,7 @@ Jedes Mal, wenn die Aktivität ausgeführt wird, wird der Ordner folgendermaßen
    +++Zusätzliche Optionen für Aktivitäten des Typs **[!UICONTROL Dateiübertragung]**
 
    * **[!UICONTROL Quelldateien nach der Übertragung löschen]**: Mit dieser Aktivität löschen Sie die Quelldateien nach einer erfolgreichen Übertragung.
-   * **[!UICONTROL Sitzungsprotokolle anzeigen]**: Wenn diese Option aktiviert ist, werden Informationen zum Übertragungsvorgang in den Workflow-Protokollen angezeigt, nachdem der Workflow ausgeführt wurde.
+   * **[!UICONTROL Sitzungsprotokolle anzeigen]**: Wenn diese Option aktiviert ist, werden Informationen zum Übertragungsvorgang in den Workflow-Logs angezeigt, sobald der Workflow ausgeführt wurde.
    * **[!UICONTROL Alle Dateien auflisten]** (Dateiauflistungsaktionen): Diese Option indiziert alle Dateien, die auf dem Server in der Ereignisvariablen `vars.filenames` vorhanden sind, in der die Dateinamen durch die `n`-Zeichen getrennt sind. [Informationen dazu, wie Sie mit Ereignisvariablen arbeiten](../event-variables.md)
 
 +++
