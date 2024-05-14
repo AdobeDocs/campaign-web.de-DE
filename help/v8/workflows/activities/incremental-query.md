@@ -6,7 +6,7 @@ exl-id: 72bd307b-eba2-42a0-9744-05e089c34925
 source-git-commit: fc872fd3975cd15a10845185c87152e2a473df8f
 workflow-type: tm+mt
 source-wordcount: '794'
-ht-degree: 92%
+ht-degree: 94%
 
 ---
 
@@ -14,8 +14,8 @@ ht-degree: 92%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn5"
->title="Inkrementelle Abfrage"
->abstract="Verwenden Sie die neue Aktivität Inkrementelle Abfrage , um die Datenbank planmäßig abzufragen. Bei jeder neuen Ausführung dieser Aktivität werden die Ergebnisse der vorangehenden Ausführungen ausgeschlossen. Dadurch lassen sich ausschließlich neue Elemente abrufen."
+>title="Aktivität „Inkrementelle Abfrage“"
+>abstract="Verwenden Sie die neue Aktivität „Inkrementelle Abfrage“, um die Datenbank nach einem Plan abzufragen. Bei jeder neuen Ausführung dieser Aktivität werden die Ergebnisse der vorangehenden Ausführungen ausgeschlossen. Dadurch lassen sich ausschließlich neue Elemente abrufen."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=de" text="Siehe Versionshinweise"
 
 >[!CONTEXTUALHELP]

@@ -1,6 +1,6 @@
 ---
 audience: end-user
-title: Inhaltsfragmente erstellen
+title: Erstellen von Inhaltsfragmenten
 description: Erfahren Sie, wie Sie mit Inhaltsfragmenten erstellen
 hidefromtoc: true
 hide: true
@@ -8,16 +8,16 @@ exl-id: d155d102-a5bc-4b9b-b29c-24fde4d95ceb
 source-git-commit: f96c807c2ee094ad4775b6bf56f5f02822da8d28
 workflow-type: tm+mt
 source-wordcount: '887'
-ht-degree: 3%
+ht-degree: 19%
 
 ---
 
-# Inhaltsfragmente erstellen {#fragments}
+# Erstellen von Inhaltsfragmenten {#fragments}
 
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_menu"
->title="Eigene Fragmente definieren"
+>title="Definieren eigener Fragmente"
 >abstract="Ein Fragment ist eine wiederverwendbare Komponente, die kampagnenübergreifend in einer oder mehreren E-Mails referenziert werden kann. Diese Funktion wird verwendet, um mehrere benutzerdefinierte Inhaltsbausteine vorzuerstellen, die von Marketing-Benutzern verwendet werden können, um E-Mail-Inhalte schnell in einem verbesserten Designprozess zusammenzustellen."
 
 >[!CONTEXTUALHELP]
@@ -27,7 +27,7 @@ ht-degree: 3%
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_create"
->title="Eigene Fragmente definieren"
+>title="Definieren eigener Fragmente"
 >abstract="Ein Fragment ist eine wiederverwendbare Komponente, die kampagnenübergreifend in einer oder mehreren E-Mails referenziert werden kann."
 
 >[!CONTEXTUALHELP]
@@ -42,7 +42,7 @@ ht-degree: 3%
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_list"
->title="Eigene Fragmente definieren"
+>title="Definieren eigener Fragmente"
 >abstract="Ein Fragment ist eine wiederverwendbare Komponente, die kampagnenübergreifend in einer oder mehreren E-Mails referenziert werden kann. Sie können auch Fragmente in Ihren E-Mail-Vorlagen verwenden. Derzeit sind nur visuelle Fragmente verfügbar."
 
 >[!CONTEXTUALHELP]
@@ -52,7 +52,7 @@ ht-degree: 3%
 
 >[!CONTEXTUALHELP]
 >id="acw_create_fragment"
->title="Eigene Fragmente definieren"
+>title="Definieren eigener Fragmente"
 >abstract="Ein Fragment ist eine wiederverwendbare Komponente, die kampagnenübergreifend in einer oder mehreren E-Mails referenziert werden kann."
 
 Ein Fragment ist eine wiederverwendbare Komponente, die kampagnenübergreifend in einer oder mehreren E-Mails referenziert werden kann. Beim Ändern eines Fragments wird jeder Inhalt, der dieses verwendet, aktualisiert.

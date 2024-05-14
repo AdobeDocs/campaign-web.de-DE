@@ -6,7 +6,7 @@ exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
 source-git-commit: 5947d7f6b2fd39ede6322273e7497744f9aff953
 workflow-type: tm+mt
 source-wordcount: '685'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -42,8 +42,8 @@ Diese Aktivitäten sind spezifisch für die Zielgruppenbestimmung. Sie ermöglic
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn3"
->title="Aktivitäten &quot;Extrahieren&quot;und &quot;Datei laden&quot;"
->abstract="In Workflows stehen neue Datenverwaltungsaktivitäten zur Verfügung. Verwenden Sie die Aktivität Dateiextraktion , um Daten aus Adobe Campaign als externe Datei in ein anderes System zu exportieren. Verwenden Sie die Aktivität Datei laden , um mit Profilen und Daten zu arbeiten, die in einer externen Datei gespeichert sind."
+>title="Aktivitäten „Dateiextraktion“ und „Datei laden“"
+>abstract="In Workflows stehen neue Daten-Management-Aktivitäten zur Verfügung. Verwenden Sie die Aktivität „Dateiextraktion“, um Daten aus Adobe Campaign als externe Datei in ein anderes System zu exportieren. Mit der Aktivität „Datei laden“ können Sie mit Profilen und Daten arbeiten, die in einer externen Datei gespeichert sind."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=de" text="Siehe Versionshinweise"
 
 Diese Aktivitäten dienen der Manipulation und Anreicherung von Populationsdaten.
@@ -65,7 +65,7 @@ In Adobe Campaign Web können Sie Marketing-Kampagnen automatisieren und über m
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn4"
 >title="Erweiterte Workflow-Aktivitäten"
->abstract="Sie können jetzt die Aktivitäten Test, JavaScript-Code und Externes Signal in einem Workflow konfigurieren. Verwenden Sie die Test -Aktivität, um Workflow-Transitionen auf der Basis von Bedingungen zu aktivieren. Fügen Sie die Aktivität JavaScript-Code hinzu, um im Kontext Ihres Workflows ein JS-Codefragment auszuführen. Konfigurieren Sie die Aktivität Externes Signal , um die Ausführung Ihres Workflows über eine API oder einen anderen Workflow Trigger."
+>abstract="Sie können nun die Aktivitäten „Test“, „JavaScript-Code“ und „Externes Signal“ in einem Workflow konfigurieren. Verwenden Sie die Aktivität „Test“, um Workflow-Transitionen basierend auf Bedingungen zu aktivieren. Fügen Sie die Aktivität „JavaScript-Code“ hinzu, um im Kontext Ihres Workflows ein JS-Code-Snippet auszuführen. Konfigurieren Sie die Aktivität „Externes Signal“, um die Ausführung Ihres Workflows über eine API oder einen anderen Workflow auszulösen."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=de" text="Siehe Versionshinweise"
 
 
