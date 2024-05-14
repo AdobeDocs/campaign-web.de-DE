@@ -3,10 +3,10 @@ audience: end-user
 title: Erstellen Ihrer erste Abfrage mithilfe des Abfrage-Modelers
 description: Erfahren Sie, wie Sie Ihre erste Abfrage im Abfrage-Modeler in Adobe Campaign Web erstellen.
 exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+source-git-commit: 5b42671173e7fd7f024eb7eb03a0836eae7ef622
 workflow-type: tm+mt
-source-wordcount: '2088'
-ht-degree: 100%
+source-wordcount: '2138'
+ht-degree: 97%
 
 ---
 
@@ -157,7 +157,7 @@ Mit benutzerdefinierten Bedingungen können Sie Aggregierungsvorgänge ausführe
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_selectaudience"
 >title="Zielgruppe auswählen"
->abstract="Zielgruppe auswählen"
+>abstract="Durch Verwendung der Variablen **Zielgruppe auswählen** auswählen, können Sie die Zielgruppe auswählen, die Sie zum Filtern Ihrer Abfrage verwenden möchten."
 
 Gehen Sie wie folgt vor, um Ihre Abfrage mithilfe einer vorhandenen Zielgruppe zu filtern:
 
@@ -174,7 +174,7 @@ Gehen Sie wie folgt vor, um Ihre Abfrage mithilfe einer vorhandenen Zielgruppe z
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_predefinedfilter"
 >title="Vordefinierter Filter"
->abstract="Vordefinierter Filter"
+>abstract="Durch Verwendung der Variablen **Vordefinierter Filter** können Sie einen vordefinierten Filter aus der Liste der benutzerdefinierten Filter oder aus Favoriten auswählen."
 
 Gehen Sie wie folgt vor, um Ihre Abfrage mithilfe eines vordefinierten Filters zu filtern:
 
@@ -213,7 +213,7 @@ Gehen Sie wie folgt vor, um Filterkomponenten zu kopieren und einzufügen:
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_group"
 >title="Gruppe"
->abstract="Gruppe"
+>abstract="In diesem Bereich können Sie den Operator ändern, mit dem die Filterbedingungen verknüpft werden."
 
 Jedes Mal, wenn Sie zu Ihrer Abfrage eine neue Filterkomponente hinzufügen, wird diese automatisch durch einen **UND**-Operator mit der anderen Komponente verknüpft. Dadurch werden die Ergebnisse der beiden Filterkomponenten kombiniert.
 

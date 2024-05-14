@@ -3,10 +3,10 @@ audience: end-user
 title: Verwenden der Workflow-Aktivität „Dateiextraktion“
 description: Informationen dazu, wie Sie die Workflow-Aktivität „Dateiextraktion“ verwenden
 exl-id: fa50ab5b-2539-4517-9d7b-93315f1e505c
-source-git-commit: 93f6347828c72535c1a005ecd6ca18596a180098
-workflow-type: ht
-source-wordcount: '860'
-ht-degree: 100%
+source-git-commit: 5b42671173e7fd7f024eb7eb03a0836eae7ef622
+workflow-type: tm+mt
+source-wordcount: '875'
+ht-degree: 97%
 
 ---
 
@@ -54,7 +54,7 @@ Im Abschnitt **[!UICONTROL Zu extrahierende Datei]** können Sie die Dateieigens
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_destinationformat"
 >title="Zielformat"
->abstract="Wählen Sie das Format aus."
+>abstract="Wählen Sie die verschiedenen Optionen aus, um die Formatierung der extrahierten Datei zu konfigurieren."
 
 Im Abschnitt **[!UICONTROL Zielformat]** können Sie konfigurieren, wie die extrahierte Datei formatiert werden soll.
 
@@ -82,7 +82,7 @@ Im Abschnitt **[!UICONTROL Zielformat]** können Sie konfigurieren, wie die extr
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_postprocessing"
 >title="Nachbearbeitung"
->abstract="Definieren eines Anschlussvorgangsschritts"
+>abstract="Definieren Sie einen Nachbearbeitungs-Schritt, der wie das Zippen oder die Verschlüsselung angewendet werden soll."
 
 Mit dem **[!UICONTROL Script zur Änderung des Exports]** können Sie eine Verarbeitungsphase anwenden, die während der Datenextraktion ausgeführt wird, z. B. das ZIP-Komprimieren oder die Verschlüsselung. Klicken Sie dazu auf die Schaltfläche **[!UICONTROL Script bearbeiten]**. 
 

@@ -2,7 +2,7 @@
 title: Wichtige Performance-Indikatoren
 description: Lernen Sie, die wichtigsten Performance-Indikatoren zu verstehen.
 exl-id: 4b182219-100b-4101-919b-b0b770dd8515
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 5b42671173e7fd7f024eb7eb03a0836eae7ef622
 workflow-type: tm+mt
 source-wordcount: '1201'
 ht-degree: 100%
@@ -16,6 +16,7 @@ ht-degree: 100%
 >title="Wichtige Performance-Indikatoren"
 >abstract="Mit dem Abschnitt **Wichtige Performance-Indikatoren** können Sie die Effektivität Ihrer Plattform anhand gängiger KPIs überprüfen."
 
+<!-- à enlever? -->
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_spam"
 >title="Spam"

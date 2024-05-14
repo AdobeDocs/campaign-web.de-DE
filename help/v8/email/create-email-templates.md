@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 23818080-d7c6-4829-8117-d6b359bd76dd
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 5b42671173e7fd7f024eb7eb03a0836eae7ef622
 workflow-type: tm+mt
-source-wordcount: '964'
-ht-degree: 100%
+source-wordcount: '968'
+ht-degree: 98%
 
 ---
 
@@ -53,12 +53,12 @@ In der Liste können Sie vorhandene Inhaltsvorlagen bearbeiten, duplizieren oder
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_design"
 >title="Inhaltsvorlage – Design"
->abstract="Inhaltsvorlage – Design"
+>abstract="Entwerfen Sie Ihre E-Mail-Inhaltsvorlage."
 
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_selection"
 >title="Inhaltsvorlage – Auswahl"
->abstract="Inhaltsvorlage – Auswahl"
+>abstract="Wählen Sie Ihre E-Mail-Inhaltsvorlage aus."
 
 Inhaltsvorlagen können durch das [Speichern einer vorhandenen E-Mail als Vorlage](#save-as-template) oder aus der Liste der E-Mail-Vorlagen über die Schaltfläche **Inhaltsvorlage erstellen** erstellt werden, [wie unten dargestellt](#create-template-from-scratch).
 

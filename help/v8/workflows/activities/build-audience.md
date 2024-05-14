@@ -3,10 +3,10 @@ audience: end-user
 title: Verwenden der Workflow-Aktivität „Zielgruppe erstellen“
 description: Erfahren Sie, wie Sie die Workflow-Aktivität „Zielgruppe erstellen“ verwenden.
 exl-id: c07bb025-51b7-428e-ba00-cd552f0db9d4
-source-git-commit: a98203e983fec6e55f8c60e254f965f20ffe7dea
-workflow-type: ht
-source-wordcount: '379'
-ht-degree: 100%
+source-git-commit: 5b42671173e7fd7f024eb7eb03a0836eae7ef622
+workflow-type: tm+mt
+source-wordcount: '393'
+ht-degree: 96%
 
 ---
 
@@ -33,12 +33,12 @@ Zur Definition der Zielgruppenpopulation haben Sie folgende Möglichkeiten:
 The **Build audience** activity can be placed at the beginning of the workflow or after any other activity. Any activity can be placed after the **Build audience**.
 -->
 
-## Konfigurieren der Aktivität „Zielgruppe erstellen“{#build-audience-configuration}
+## Konfigurieren der Aktivität „Zielgruppe erstellen“ {#build-audience-configuration}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_build_audience_audienceselector"
 >title="Zielgruppe"
->abstract="Zielgruppe"
+>abstract="Wählen Sie Ihre Audience auf die gleiche Weise aus wie eine Audience bei der Konzeption eines neuen Versands."
 
 Führen Sie die folgenden Schritte aus, um die Aktivität **Zielgruppe erstellen** zu konfigurieren:
 

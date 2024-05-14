@@ -3,10 +3,10 @@ audience: end-user
 title: Erste Schritte mit Kampagnen
 description: Erfahren Sie, wie Sie mit kanalübergreifenden Kampagnen beginnen
 exl-id: 690229e7-73e1-4cc1-b69a-f3e5d8de58af
-source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
+source-git-commit: 5b42671173e7fd7f024eb7eb03a0836eae7ef622
 workflow-type: tm+mt
-source-wordcount: '719'
-ht-degree: 100%
+source-wordcount: '726'
+ht-degree: 98%
 
 ---
 
@@ -49,7 +49,7 @@ Sie können beispielsweise nach Ihrem Kampagnenkalender filtern. Öffnen Sie das
 >[!CONTEXTUALHELP]
 >id="acw_campaign_workflow_list"
 >title="Workflow-Liste in einer Kampagne"
->abstract="Workflow-Liste in einer Kampagne"
+>abstract="Die **Workflow** im Tab werden alle mit der aktuellen Kampagne verknüpften Workflows aufgeführt."
 
 Klicken Sie in der Kampagnenliste auf der Registerkarte **Durchsuchen** auf den Namen einer Kampagne, um deren Details anzuzeigen.
 
