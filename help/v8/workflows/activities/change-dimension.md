@@ -3,7 +3,7 @@ audience: end-user
 title: Verwenden der Workflow-Aktivität „Dimensionsänderung“
 description: Erfahren Sie, wie Sie die Workflow-Aktivität „Dimensionsänderung“ verwenden
 exl-id: 08870946-91c6-4ab0-84de-4d9b968884b3
-source-git-commit: 99bdd5220cceb4ab67c3bd4e3a788a28cbe40f8f
+source-git-commit: 52b129be88e48dd70c0f55b404fd3bbe699dbebb
 workflow-type: tm+mt
 source-wordcount: '341'
 ht-degree: 86%
@@ -28,7 +28,7 @@ Sie können beispielsweise die Zielgruppendimension eines Workflows von „Empf�
 
 >[!IMPORTANT]
 >
->Beachten Sie, dass die Variable **[!UICONTROL Dimension ändern]** und **[!UICONTROL Datenquelle ändern]** -Aktivitäten sollten nicht in einer Zeile hinzugefügt werden. Wenn Sie beide Aktivitäten nacheinander verwenden müssen, müssen Sie eine **[!UICONTROOL Anreicherung]** Aktivitäten zwischen ihnen. Dadurch wird eine ordnungsgemäße Ausführung sichergestellt und potenzielle Konflikte oder Fehler werden vermieden.
+>Beachten Sie, dass die Variable **[!UICONTROL Dimension ändern]** und **[!UICONTROL Datenquelle ändern]** -Aktivitäten sollten nicht in einer Zeile hinzugefügt werden. Wenn Sie beide Aktivitäten nacheinander verwenden müssen, müssen Sie eine **[!UICONTROL Anreicherung]** Aktivitäten zwischen ihnen. Dadurch wird eine ordnungsgemäße Ausführung sichergestellt und potenzielle Konflikte oder Fehler werden vermieden.
 
 ## Konfigurieren der Aktivität „Dimensionsänderung“ {#configure}
 
