@@ -4,9 +4,9 @@ title: Verwendung der Workflow-Aktivität „Anreicherung“
 description: Erfahren Sie, wie Sie die Workflow-Aktivität „Anreicherung“ verwenden.
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
 source-git-commit: f40c68591168e098fd004d098f1152189aee6c47
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '730'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 99%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment_reconciliation"
 >title="Abstimmung der Anreicherung"
->abstract="Anreicherungsabstimmung"
+>abstract="Abstimmung der Anreicherung"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment_simplejoin"

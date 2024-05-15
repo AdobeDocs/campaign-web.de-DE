@@ -1,14 +1,14 @@
 ---
 audience: end-user
 title: Erstellen von Inhaltsfragmenten
-description: Erfahren Sie, wie Sie mit Inhaltsfragmenten erstellen
+description: Erfahren Sie, wie Sie Inhaltsfragmente erstellen
 hidefromtoc: true
 hide: true
 exl-id: d155d102-a5bc-4b9b-b29c-24fde4d95ceb
 source-git-commit: f96c807c2ee094ad4775b6bf56f5f02822da8d28
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '887'
-ht-degree: 19%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 19%
 >[!CONTEXTUALHELP]
 >id="acw_fragments_menu"
 >title="Definieren eigener Fragmente"
->abstract="Ein Fragment ist eine wiederverwendbare Komponente, die kampagnenübergreifend in einer oder mehreren E-Mails referenziert werden kann. Diese Funktion wird verwendet, um mehrere benutzerdefinierte Inhaltsbausteine vorzuerstellen, die von Marketing-Benutzern verwendet werden können, um E-Mail-Inhalte schnell in einem verbesserten Designprozess zusammenzustellen."
+>abstract="Ein Fragment ist eine wiederverwendbare Komponente, die kampagnenübergreifend in einer oder mehreren E-Mails referenziert werden kann. Diese Funktion wird verwendet, um mehrere benutzerdefinierte Inhaltsbausteine vorab zu erstellen, mit denen Marketing-Benutzende E-Mail-Inhalte schnell in einem verbesserten Design-Prozess zusammenstellen können."
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_save"
@@ -55,127 +55,127 @@ ht-degree: 19%
 >title="Definieren eigener Fragmente"
 >abstract="Ein Fragment ist eine wiederverwendbare Komponente, die kampagnenübergreifend in einer oder mehreren E-Mails referenziert werden kann."
 
-Ein Fragment ist eine wiederverwendbare Komponente, die kampagnenübergreifend in einer oder mehreren E-Mails referenziert werden kann. Beim Ändern eines Fragments wird jeder Inhalt, der dieses verwendet, aktualisiert.
+Ein Fragment ist eine wiederverwendbare Komponente, die kampagnenübergreifend in einer oder mehreren E-Mails referenziert werden kann. Beim Ändern eines Fragments wird jeder Inhalt, der es verwendet, aktualisiert.
 
-Mit dieser Funktion können Sie mehrere benutzerdefinierte Inhaltsbausteine vorab erstellen, die von Marketing-Benutzern verwendet werden können, um E-Mail-Inhalte schnell in einem verbesserten Designprozess zusammenzustellen.
+Mit dieser Funktion können Sie mehrere benutzerdefinierte Inhaltsbausteine vorab erstellen, mit denen Marketing-Benutzende E-Mail-Inhalte schnell in einem verbesserten Design-Prozess zusammenstellen können.
 
 ![](assets/fragments.gif)
 
 
 So nutzen Sie Fragmente optimal:
 
-* Erstellen Sie Ihre eigenen visuellen Fragmente, wie unten beschrieben.
-* Verwenden Sie sie in Email Designer so oft wie nötig in Ihrem Inhalt. Siehe [Hinzufügen visueller Fragmente zu E-Mails](../email/use-visual-fragments.md).
+* Erstellen Sie Ihre eigenen visuellen Fragmente, wie nachfolgend beschrieben.
+* Verwenden Sie sie mithilfe von E-Mail-Designer so oft wie nötig in Ihrem Inhalt. Siehe [Hinzufügen visueller Fragmente zu E-Mails](../email/use-visual-fragments.md).
 
 ## Erstellen eines visuellen Fragments {#create-fragments}
 
-Fragmente können auf zwei Arten erstellt werden:
+Es gibt zwei Möglichkeiten, um Fragmente zu erstellen:
 
-* Erstellen Sie ein Fragment von Grund auf mithilfe der **[!UICONTROL Fragmente]** dediziertes Menü. [Weitere Informationen dazu](#create-from-scratch)
+* Erstellen Sie ein Fragment mithilfe des dediziertes Menüs **[!UICONTROL Fragmente]** von Grund auf neu. [Weitere Informationen dazu](#create-from-scratch)
 
-* Speichern Sie beim Entwerfen von Inhalten einen Teil Ihres Inhalts als Fragment. [Weitere Informationen dazu](#save-as-fragment)
+* Speichern Sie beim Entwerfen von Inhalten einen Teil des Inhalts als Fragment. [Weitere Informationen dazu](#save-as-fragment)
 
-Nach dem Speichern ist Ihr Fragment für die Verwendung in einer E-Mail- oder E-Mail-Vorlage verfügbar. Unabhängig davon, ob es von Grund auf neu oder aus einem vorhandenen Inhalt erstellt wurde, können Sie dieses Fragment jetzt beim Erstellen von Inhalten in Campaign verwenden. Siehe [Hinzufügen visueller Fragmente](../email/use-visual-fragments.md).
+Nach dem Speichern kann Ihr Fragment in einer E-Mail- oder E-Mail-Vorlage verwendet werden. Unabhängig davon, ob es von Grund auf neu oder aus vorhandenem Inhalt erstellt wurde, können Sie dieses Fragment nun beim Erstellen von Inhalten in Campaign verwenden. Siehe [Hinzufügen visueller Fragmente](../email/use-visual-fragments.md).
 
-### Erstellen eines neuen Fragments {#create-from-scratch}
+### Erstellen eines Fragments von Grund auf {#create-from-scratch}
 
-Gehen Sie wie folgt vor, um ein Fragment von Grund auf neu zu erstellen.
+Gehen Sie wie folgt vor, um ein Fragment von Grund auf neu zu erstellen:
 
-1. [Zugriff auf die Fragmentliste](#access-manage-fragments) durch die **[!UICONTROL Content Management]** > **[!UICONTROL Fragmente]** Menü links.
+1. [Rufen Sie die Fragmentliste](#access-manage-fragments) über das linke Menü unter **[!UICONTROL Content-Management]** > **[!UICONTROL Fragmente]** auf.
 
    ![](assets/fragments-list.png)
 
-1. Auswählen **[!UICONTROL Fragment erstellen]**.
+1. Wählen Sie **[!UICONTROL Fragment erstellen]** aus.
 
 1. Geben Sie den Titel des Fragments ein.
 
    ![](assets/fragment-create.png)
 
-1. Bei Bedarf können Sie weitere Optionen definieren, z. B. den internen Namen des Fragments, dessen Ordner und eine Beschreibung.
+1. Bei Bedarf können Sie weitere Optionen definieren, z. B. den internen Namen des Fragments, dessen Ordner und eine Beschreibung.
 
    >[!NOTE]
    >
    >Derzeit können Sie nur visuelle Fragmente erstellen.
 
-1. Klicken Sie auf **Erstellen** -Schaltfläche, um den Inhalt des Fragments zu konfigurieren.
+1. Klicken Sie auf die Schaltfläche **Erstellen**, um den Inhalt des Fragments zu konfigurieren.
 
-1. Der [E-Mail-Designer](../email/get-started-email-designer.md) wird angezeigt. Bearbeiten Sie den Inhalt nach Bedarf auf die gleiche Weise wie für jede E-Mail innerhalb einer Kampagne. Sie können Bilder, Links, Personalisierungsfelder und dynamische Inhalte hinzufügen.
+1. Der [E-Mail-Designer](../email/get-started-email-designer.md) wird angezeigt. Bearbeiten Sie Ihren Inhalt nach Bedarf, so wie bei jeder anderen E-Mail in einer Kampagne. Sie können Bilder, Links, Personalisierungsfelder und dynamische Inhalte hinzufügen.
 
    ![](assets/fragment-designer.png)
 
-1. Sobald das Fragment fertig ist, klicken Sie auf **[!UICONTROL Speichern und schließen]**. Sie wird zum [Fragmentliste](#access-manage-fragments).
+1. Wenn das Fragment fertig ist, klicken Sie auf **[!UICONTROL Speichern und schließen]**. Es wird der [Fragmentliste](#access-manage-fragments) hinzugefügt.
 
-Dieses Fragment kann jetzt beim Erstellen von [email](../email/get-started-email-designer.md) oder [Inhaltsvorlage](use-email-templates.md) in Campaign. [Weitere Informationen dazu](../email/use-visual-fragments.md)
+Dieses Fragment kann nun beim Erstellen von [E-Mails](../email/get-started-email-designer.md) oder [Inhaltsvorlagen](use-email-templates.md) in Campaign verwendet werden. [Weitere Informationen dazu](../email/use-visual-fragments.md)
 
 
-### Inhalt als Fragment speichern {#save-as-fragment}
+### Speichern von Inhalt als Fragment {#save-as-fragment}
 
-Jeder E-Mail-Inhalt kann zur späteren Wiederverwendung als Fragment gespeichert werden. Beim Entwerfen einer [Inhaltsvorlage](use-email-templates.md) oder [email](../email/get-started-email-designer.md) -Versand können Sie einen Teil Ihres Inhalts als visuelles Fragment speichern. Gehen Sie dazu wie folgt vor:
+Jeder E-Mail-Inhalt kann zur späteren Wiederverwendung als Fragment gespeichert werden. Beim Entwerfen einer [Inhaltsvorlage](use-email-templates.md) oder eines [E-Mail-Versands](../email/get-started-email-designer.md) können Sie einen Teil des Inhalts als visuelles Fragment speichern. Gehen Sie dazu wie folgt vor:
 
-1. Im [Email Designer](../email/get-started-email-designer.md), klicken Sie auf die **Mehr** rechts oben auf dem Bildschirm.
+1. Klicken Sie in [E-Mail-Designer](../email/get-started-email-designer.md) oben rechts auf dem Bildschirm auf **Mehr**.
 
-1. Auswählen **[!UICONTROL Als Fragment speichern]** aus dem Dropdown-Menü.
+1. Wählen Sie im Dropdown-Menü die Option **[!UICONTROL Als Fragment speichern]** aus.
 
    ![](assets/fragment-save-as.png)
 
-1. Die **[!UICONTROL Als Fragment speichern]** angezeigt. Hier können Sie die Elemente auswählen, die Sie in Ihr Fragment aufnehmen möchten, einschließlich Personalisierungsfeldern und dynamischem Inhalt.
+1. Der Bildschirm **[!UICONTROL Als Fragment speichern]** wird angezeigt. Hier können Sie die Elemente auswählen, die in das Fragment aufgenommen werden sollen, einschließlich Personalisierungsfelder und dynamischer Inhalte.
 
    >[!CAUTION]
    >
-   >Sie können nur nebeneinander liegende Abschnitte auswählen. Sie können keine leere Struktur oder ein anderes Fragment auswählen.
+   >Sie können nur nebeneinander liegende Abschnitte auswählen. Sie können weder eine leere Struktur noch ein anderes Fragment auswählen.
 
    ![](assets/fragment-save-as-screen.png)
 
-1. Wählen Sie **[!UICONTROL Erstellen]** aus. Füllen Sie den Fragmentnamen aus und speichern Sie ihn.
+1. Klicken Sie auf **[!UICONTROL Erstellen]**. Geben Sie den Fragmentnamen an und speichern Sie es.
 
    ![](assets/fragment-save-confirm.png)
 
-   Dieser Inhalt ist jetzt ein eigenständiges Fragment , das zum [Fragmentliste](#manage-fragments)und kann über das dedizierte Menü aufgerufen werden. Sie können dieses Fragment jetzt beim Erstellen von [email](../email/get-started-email-designer.md) oder [Inhaltsvorlage](use-email-templates.md) in Campaign. [Weitere Informationen dazu](../email/use-visual-fragments.md)
+   Dieser Inhalt ist jetzt ein eigenständiges Fragment, das zur [Fragmentliste](#manage-fragments) hinzugefügt wurde und das über das dedizierte Menü aufgerufen werden kann. Sie können dieses Fragment nun beim Erstellen von [E-Mails](../email/get-started-email-designer.md) oder [Inhaltsvorlagen](use-email-templates.md) in Campaign verwenden. [Weitere Informationen dazu](../email/use-visual-fragments.md)
 
 >[!NOTE]
 >
->Änderungen an diesem neuen Fragment werden nicht in die E-Mail oder Vorlage übertragen, aus der es stammt. Wenn der ursprüngliche Inhalt in dieser E-Mail oder Vorlage bearbeitet wird, wird das neue Fragment ebenfalls nicht geändert.
+>Änderungen an diesem neuen Fragment werden nicht in der E-Mail oder Vorlage übernommen, aus der es stammt. Wenn der ursprüngliche Inhalt in dieser E-Mail oder Vorlage bearbeitet wird, wird das neue Fragment nicht gleichermaßen geändert.
 
-## Fragmente verwalten {#manage-fragments}
+## Verwalten von Fragmenten {#manage-fragments}
 
 Sie können ein Fragment in der Fragmentliste bearbeiten, aktualisieren, duplizieren oder löschen.
 
 ### Bearbeiten und Aktualisieren eines Fragments {#edit-fragments}
 
-Gehen Sie wie folgt vor, um ein Fragment zu bearbeiten.
+Gehen Sie wie folgt vor, um ein Fragment zu bearbeiten:
 
-1. Klicken Sie auf den Namen des zu bearbeitenden Fragments im **[!UICONTROL Fragmente]** Liste.
-1. Klicken Sie auf **Inhalt bearbeiten** -Schaltfläche, um den Inhalt dieses Fragments zu öffnen.
+1. Klicken Sie in der Liste **[!UICONTROL Fragmente]** auf den Namen des zu bearbeitenden Fragments.
+1. Klicken Sie auf die Schaltfläche **Inhalt bearbeiten**, um den Inhalt dieses Fragments zu öffnen.
 
    ![](assets/fragment-edit-content.png)
 
-1. Nehmen Sie die erforderlichen Änderungen vor und speichern Sie Ihre Änderungen.
+1. Nehmen Sie die erforderlichen Änderungen vor und speichern Sie diese.
 
 >[!CAUTION]
 >
 >Jede Änderung an einem Fragment wird für die E-Mail-Sendungen oder Vorlagen übernommen, die es verwenden.
 
 
-### Fragment löschen {#delete-fragments}
+### Löschen eines Fragments {#delete-fragments}
 
 Gehen Sie wie folgt vor, um ein Fragment zu löschen:
 
-1. Navigieren Sie zur Fragmentliste und klicken Sie auf die Schaltfläche **[!UICONTROL Mehr Aktionen]** neben dem zu löschenden Fragment.
-1. Klicks **Löschen** und bestätigen Sie.
+1. Navigieren Sie zur Fragmentliste und klicken Sie neben dem zu löschenden Fragment auf die Schaltfläche **[!UICONTROL Mehr Aktionen]**.
+1. Klicken Sie auf **Löschen** und bestätigen Sie den Vorgang.
 
    ![](assets/fragment-list-more-actions.png)
 
 >[!CAUTION]
 >
->Beim Löschen eines Inhaltsfragments werden die E-Mail-Sendungen und die Vorlagen, die dieses Fragment verwenden, aktualisiert: Das Fragment wird aus dem E-Mail-Inhalt entfernt, aber trotzdem noch referenziert. Um den Fragmentinhalt in diesen Sendungen und Vorlagen zu behalten, müssen Sie die Vererbung aufheben, bevor Sie das Fragment löschen. [wie in diesem Abschnitt beschrieben](use-visual-fragments.md#break-inheritance).
+>Beim Löschen eines Inhaltsfragments werden die E-Mail-Sendungen und Vorlagen, die dieses Fragment verwenden, aktualisiert: Das Fragment wird aus dem E-Mail-Inhalt entfernt, wird aber trotzdem noch referenziert. Um den Fragmentinhalt in diesen Sendungen und Vorlagen zu behalten, müssen Sie die Vererbung unterbrechen, bevor Sie das Fragment löschen, [wie in diesem Abschnitt beschrieben](use-visual-fragments.md#break-inheritance).
 >
 
-### Fragment duplizieren {#duplicate-fragments}
+### Duplizieren eines Fragments {#duplicate-fragments}
 
 Sie können ein Fragment einfach duplizieren, um ein neues zu erstellen. Gehen Sie wie folgt vor, um ein vorhandenes Fragment zu duplizieren:
 
-1. Navigieren Sie zur Fragmentliste und klicken Sie auf die Schaltfläche **[!UICONTROL Mehr Aktionen]** neben dem zu löschenden Fragment.
-1. Klicks **Duplizieren** und bestätigen Sie.
+1. Navigieren Sie zur Fragmentliste und klicken Sie neben dem zu duplizierenden Fragment auf die Schaltfläche **[!UICONTROL Mehr Aktionen]**.
+1. Klicken Sie auf **Duplizieren** und bestätigen Sie den Vorgang.
 1. Geben Sie den Titel des neuen Fragments ein und speichern Sie die Änderungen.
 
    Das Fragment wird der Liste der Fragmente hinzugefügt. Sie können sie bearbeiten und nach Bedarf konfigurieren.

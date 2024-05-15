@@ -6,9 +6,9 @@ title: Dokumentation zu Adobe Campaign Web
 description: Dokumentation zu Campaign Web
 breadcrumb-title: Campaign Web-Benutzeroberfläche
 source-git-commit: f96c807c2ee094ad4775b6bf56f5f02822da8d28
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '685'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 98%
       + [Erstellen Ihrer ersten E-Mail](email/create-email.md)
       + Erstellen der E-Mail-Inhalte {#content}
          + [Konfigurieren der E-Mail-Inhalte](email/edit-content.md)
-         + Wiederverwendbaren Inhalt verwalten {#manage-reusable-content}
+         + Verwalten von wiederverwendbarem Inhalt{#manage-reusable-content}
             + [Arbeiten mit Inhaltsvorlagen](email/create-email-templates.md)
             + [Arbeiten mit visuellen Fragmenten](email/fragments.md)
             + [Hinzufügen visueller Fragmente zu E-Mails](email/use-visual-fragments.md)

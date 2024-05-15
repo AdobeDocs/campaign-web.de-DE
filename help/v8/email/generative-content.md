@@ -7,9 +7,9 @@ exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
 hide: true
 hidefromtoc: true
 source-git-commit: fe687647b0a3d4969373ced400c49b364e878acd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1369'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -219,7 +219,7 @@ Im folgenden Beispiel erfahren Sie, wie Sie den KI-Assistenten nutzen können, u
 
 ## Anleitungsvideo {#video}
 
-Erfahren Sie, wie Sie mit dem KI-Assistenten vollständige E-Mail-Inhalte, Texte und Bilder generieren können.
+Erfahren Sie, wie Sie den KI-Assistenten nutzen können, um ganze E-Mails, Texte oder Bilder zu erstellen.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3428984)
 

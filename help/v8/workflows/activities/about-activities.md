@@ -4,7 +4,7 @@ title: Arbeiten mit Workflow-Aktivitäten
 description: Erfahren Sie, wie Sie Workflow-Aktivitäten durchführen.
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
 source-git-commit: 5947d7f6b2fd39ede6322273e7497744f9aff953
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '685'
 ht-degree: 100%
 

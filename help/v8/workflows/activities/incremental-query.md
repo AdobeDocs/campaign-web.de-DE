@@ -4,9 +4,9 @@ title: Verwenden der Workflow-Aktivität „Inkrementelle Abfrage“
 description: Informationen dazu, wie Sie die Workflow-Aktivität „Inkrementelle Abfrage“ verwenden
 exl-id: 72bd307b-eba2-42a0-9744-05e089c34925
 source-git-commit: fc872fd3975cd15a10845185c87152e2a473df8f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '794'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ Die Aktivität **Inkrementelle Abfrage** ist eine Aktivität zur **Zielgruppenbe
 
 Die bereits bei früheren Ausführungen ausgewählte Population wird im Workflow gespeichert. Das bedeutet, dass zwei Workflows, die aus derselben Vorlage gestartet werden, nicht dasselbe Protokoll verwenden. Zwei Aufgaben, die auf derselben inkrementellen Abfrage im selben Workflow basieren, verwenden jedoch dasselbe Protokoll.
 
-Wenn das Ergebnis einer inkrementellen Abfrage bei einer ihrer Ausführungen gleich 0 ist, wird der Workflow bis zur nächsten geplanten Ausführung der Abfrage ausgesetzt. Die auf die inkrementelle Abfrage folgenden Transitionen und Aktivitäten werden daher nicht vor der folgenden Ausführung verarbeitet.
+Wenn das Ergebnis der inkrementellen Abfrage bei einer ihrer Ausführungen gleich 0 ist, wird der Workflow bis zur nächsten geplanten Ausführung der Abfrage ausgesetzt. Die auf die inkrementelle Abfrage folgenden Transitionen und Aktivitäten werden somit nicht vor der nächsten Ausführung verarbeitet.
 
 ## Konfigurieren der Aktivität „Inkrementelle Abfrage“ {#incremental-query-configuration}
 

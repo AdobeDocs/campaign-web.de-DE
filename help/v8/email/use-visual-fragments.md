@@ -1,81 +1,81 @@
 ---
 audience: end-user
 title: Hinzufügen visueller Fragmente zu E-Mails
-description: Erfahren Sie, wie Sie Ihren E-Mails visuelle Fragmente hinzufügen
+description: Erfahren Sie, wie Sie visuelle Fragmente zu Ihren E-Mails hinzufügen
 hide: true
 hidefromtoc: true
 exl-id: 6d6f38f9-9d3e-47cb-beb8-177b5a5d8306
 source-git-commit: 991c292b42dbb2e21a46aef47295bd601f6a4af9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '418'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
 # Hinzufügen visueller Fragmente zu E-Mails {#use-visual-fragments}
 
-Sie können ein visuelles Fragment in einem [Email-Versand](get-started-email-designer.md)oder in einer [Inhaltsvorlage](use-email-templates.md). Die Schritte werden nachfolgend beschrieben.
+Sie können ein visuelles Fragment in einem [E-Mail-Versand](get-started-email-designer.md) oder in einer [Inhaltsvorlage](use-email-templates.md) verwenden. Die einzelnen Schritte werden nachfolgend beschrieben.
 
 
 >[!NOTE]
 >
->Erfahren Sie, wie Sie Fragmente in erstellen und verwalten [diesem Abschnitt](fragments.md).
+>Weitere Informationen zur Erstellung und Verwaltung von Fragmenten finden Sie in [diesem Abschnitt](fragments.md).
 
 
-## Fragmente verwenden {#use-fragment}
+## Verwenden eines Fragments {#use-fragment}
 
 Gehen Sie wie folgt vor, um ein Fragment in einen E-Mail-Inhalt einzufügen:
 
-1. Öffnen Sie eine E-Mail oder einen Vorlageninhalt mit dem [Email Designer](get-started-email-designer.md).
+1. Öffnen Sie eine E-Mail oder eine Inhaltsvorlage mit [E-Mail-Designer](get-started-email-designer.md).
 
-1. Wählen Sie die **[!UICONTROL Fragmente]** in der linken Leiste.
+1. Wählen Sie in der linken Leiste das Symbol **[!UICONTROL Fragmente]** aus.
 
    ![](assets/fragments-in-designer.png)
 
-1. Die Liste aller in der aktuellen Sandbox erstellten visuellen Fragmente wird angezeigt. Sie haben folgende Möglichkeiten:
+1. Es wird eine Liste mit allen in der aktuellen Sandbox erstellten visuellen Fragmente angezeigt. Sie haben folgende Möglichkeiten:
 
-   * Suchen Sie nach einem bestimmten Fragment, indem Sie mit der Eingabe des Titels beginnen.
+   * Suchen Sie nach einem bestimmten Fragment, indem Sie mit der Eingabe seines Titels beginnen.
    * Sortieren Sie Fragmente in auf- oder absteigender Reihenfolge.
    * Ändern Sie die Anzeige der Fragmente (Karten- oder Listenansicht).
 
    >[!NOTE]
    >
-   >Fragmente werden nach Erstellungsdatum sortiert: Kürzlich hinzugefügte visuelle Fragmente werden zuerst in der Liste angezeigt.
+   >Fragmente werden nach ihrem Erstellungsdatum sortiert: Zuletzt hinzugefügte visuelle Fragmente werden in der Liste zuerst aufgeführt.
 
-   Wenn einige Fragmente während der Bearbeitung des Inhalts geändert oder hinzugefügt wurden, klicken Sie auf die Schaltfläche **Aktualisieren** -Symbol, um die Liste mit den neuesten Änderungen zu aktualisieren.
+   Wenn einige Fragmente geändert oder hinzugefügt wurden, während Sie Ihre Inhalte bearbeiten, klicken Sie auf das Symbol **Aktualisieren**, um die Liste mit den neuesten Änderungen zu aktualisieren.
 
-1. Ziehen Sie ein beliebiges Fragment aus der Liste in den Bereich, in den Sie es einfügen möchten. Wie jede andere Komponente können Sie das Fragment in Ihrem Inhalt verschieben.
+1. Ziehen Sie ein beliebiges Fragment aus der Liste in den Bereich, in den es eingefügt werden soll. Wie jede andere Komponente können Sie das Fragment innerhalb Ihres Inhalts verschieben.
 
-1. Wählen Sie das Fragment aus, um seine Optionen im rechten Bereich anzuzeigen.
+1. Wählen Sie das Fragment aus, um die zugehörigen Optionen im rechten Bereich anzuzeigen.
 
    ![](assets/fragment-right-pane.png)
 
-   Aus dem **[!UICONTROL Einstellungen]** können Sie:
+   Auf der Registerkarten **[!UICONTROL Einstellungen]** haben Sie folgende Möglichkeiten:
 
    * Wählen Sie die Geräte aus, auf denen das Fragment angezeigt werden soll.
-   * Klicken Sie auf **Inhalt bearbeiten** -Schaltfläche, um den Inhalt dieses Fragments zu öffnen. [Weitere Informationen](../email/fragments.md#edit-fragments)
+   * Klicken Sie auf die Schaltfläche **Inhalt bearbeiten**, um den Inhalt dieses Fragments zu öffnen. [Weitere Informationen](../email/fragments.md#edit-fragments)
 
-     Sie können Ihr Fragment mit dem **[!UICONTROL Stile]** Registerkarte.
+     Sie können Ihr Fragment mit der Registerkarte **[!UICONTROL Stile]** weiter anpassen.
 
-1. Bei Bedarf können Sie die Vererbung mit dem ursprünglichen Fragment aufheben. [Weitere Infos](#break-inheritance)
+1. Bei Bedarf können Sie die Vererbung mit dem ursprünglichen Fragment unterbrechen. [Weitere Informationen](#break-inheritance)
 Sie können das Fragment auch aus dem Inhalt löschen oder duplizieren. Diese Aktionen können direkt über das Kontextmenü ausgeführt werden, das über dem Fragment angezeigt wird.
 
-1. Fügen Sie beliebig viele Fragmente hinzu und **[!UICONTROL Speichern]** Ihre Änderungen.
+1. Fügen Sie beliebig viele Fragmente hinzu und **[!UICONTROL speichern]** Sie Ihre Änderungen.
 
-## Vererbung unterbrechen {#break-inheritance}
+## Unterbrechen der Vererbung {#break-inheritance}
 
 Wenn Sie ein visuelles Fragment bearbeiten, werden die Änderungen synchronisiert. Sie werden automatisch in alle E-Mail-Sendungen und Inhaltsvorlagen übernommen, die dieses Fragment enthalten.
 
 Wenn Fragmente zu einer E-Mail oder einer Inhaltsvorlage hinzugefügt werden, werden sie standardmäßig synchronisiert.
 
-Sie können die Vererbung jedoch vom ursprünglichen Fragment abbrechen. In diesem Fall wird der Inhalt des Fragments in den aktuellen Entwurf kopiert und die Änderungen werden nicht mehr synchronisiert.
+Sie können jedoch die Vererbung vom ursprünglichen Fragment unterbrechen. In diesem Fall wird der Inhalt des Fragments in den aktuellen Entwurf kopiert und die Änderungen werden nicht mehr synchronisiert.
 
 Gehen Sie wie folgt vor, um die Vererbung zu unterbrechen:
 
 1. Wählen Sie das Fragment aus.
 
-1. Klicken Sie in der dedizierten Symbolleiste auf das Symbol Entsperren .
+1. Klicken Sie in der kontextbezogene Symbolleiste auf das Entsperrsymbol.
 
    ![](assets/fragment-break-inheritance.png)
 
-1. Dieses Fragment wird zu einem eigenständigen Element, das nicht mehr mit dem ursprünglichen Fragment verknüpft ist. Bearbeiten Sie sie wie jede andere Inhaltskomponente in Ihrem Inhalt. [Weitere Informationen](content-components.md)
+1. Dieses Fragment wird dann zu einem eigenständigen Element, die nicht mehr mit dem ursprünglichen Fragment verknüpft ist. Bearbeiten Sie es wie jede andere Inhaltskomponente in Ihrem Inhalt. [Weitere Informationen](content-components.md)

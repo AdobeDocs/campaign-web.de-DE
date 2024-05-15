@@ -4,9 +4,9 @@ title: Wechsel von Campaign Standard zu Adobe Campaign Web
 description: Funktionsweise der Campaign Web-Benutzeroberfläche
 exl-id: 4cf406af-4cf5-434d-b1c7-a7c102f8dc2f
 source-git-commit: 8cd743d7feafe9093790c3f631ffbfe19d1413e2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '588'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -64,10 +64,10 @@ Die meisten Konzepte in der Campaign Web-Benutzeroberfläche und in Campaign Sta
 * Benutzerdefinierte Ressourcen werden in der Campaign Web-Benutzeroberfläche als **Schemata** bezeichnet.
 * Marketing-Aktivitäten gibt es nicht mehr.
 * Nachrichten sind **Sendungen**.
-* Benutzer sind **Operatoren**.
-* Rollen sind **Spezifische Berechtigungen**.
+* Benutzende bleiben **Benutzende**. (Im Englischen wird aber zwischen „Users“ und „Operators“ unterschieden.)
+* Rollen sind **spezifische Berechtigungen**.
 * Sicherheitsgruppen sind **Benutzergruppen**.
-* Organisationseinheiten **Ordnerberechtigungen**
+* Organisationseinheiten sind **Ordnerberechtigungen**.
 
 ## Neue Funktionen {#new-features}
 
