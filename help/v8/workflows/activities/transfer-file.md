@@ -3,10 +3,10 @@ audience: end-user
 title: Verwenden der Aktivität „Dateiübertragung“
 description: Informationen dazu, wie Sie die Workflow-Aktivität „Dateiübertragung“ verwenden
 exl-id: a40c007e-c0c6-4e0f-aa0d-0260ecb74a03
-source-git-commit: 160ae5704601d1f8de41ebadde353a7097d9606c
+source-git-commit: 1494db73b1a91825a2ca57ea1881eb04e95d8da2
 workflow-type: tm+mt
-source-wordcount: '1175'
-ht-degree: 89%
+source-wordcount: '1177'
+ht-degree: 88%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 89%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_source"
 >title="Dateiübertragungsquelle"
->abstract="Dateiübertragungsquelle"
+>abstract="Geben Sie den gewünschten Dateinamen ein."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_advancedoptions_delete_file"
@@ -60,12 +60,12 @@ ht-degree: 89%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_process_missing_file"
 >title="Fehlen von Dateien verarbeiten"
->abstract="Mit dieser Option können Sie die ausgehende Transition &quot;Keine Datei&quot; im Anschluss an die Aktivität aktivieren."
+>abstract="Mit dieser Option können Sie eine **Keine Datei** ausgehende Transition nach der Aktivität."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_process_errors"
 >title="Fehler verarbeiten"
->abstract="Mit dieser Option können Sie eine ausgehende Transition vom Typ &quot;Fehler&quot; im Anschluss an die Aktivität aktivieren."
+>abstract="Mit dieser Option können Sie eine **Fehler** ausgehende Transition nach der Aktivität."
 
 Die Aktivität **Dateiübertragung** ist eine **Daten-Management-Aktivität**. Mit dieser Aktivität können Sie Dateien senden oder empfangen, das Vorhandensein von Dateien prüfen oder Dateien auf einem Server auflisten. Das verwendete Protokoll kann entweder ein Server-zu-Server-Protokoll oder ein HTTP-Protokoll sein.
 
