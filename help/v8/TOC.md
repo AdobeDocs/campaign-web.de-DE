@@ -5,10 +5,10 @@ user-guide-description: Produktdokumentation zur Adobe Campaign Web-Benutzerober
 title: Dokumentation zu Adobe Campaign Web
 description: Dokumentation zu Campaign Web
 breadcrumb-title: Campaign Web-Benutzeroberfläche
-source-git-commit: f96c807c2ee094ad4775b6bf56f5f02822da8d28
-workflow-type: ht
-source-wordcount: '685'
-ht-degree: 100%
+source-git-commit: e8fba3b935e572dd81d1ce3b434585a82bdc82bb
+workflow-type: tm+mt
+source-wordcount: '691'
+ht-degree: 99%
 
 ---
 
@@ -198,4 +198,4 @@ ht-degree: 100%
    + [Verwalten von Vorlagen mit Adobe Experience Manager as a Cloud Service](integrations/aem-content.md)
 + Administration {#administration}
    + [Konfigurieren benutzerdefinierter Felder](administration/custom-fields.md)
-
++ [Dokumentation zur Campaign v8-Clientkonsole >](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/campaign-home)
