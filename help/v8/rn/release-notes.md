@@ -2,9 +2,9 @@
 title: Neueste Versionshinweise
 description: Entdecken Sie neue Funktionen in der Campaign Web-Benutzeroberfläche.
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: d50dfc4ea433fa48301707b40164e2fdf9fa64fd
-workflow-type: ht
-source-wordcount: '1185'
+source-git-commit: 3f4b2c83b5c651e473de9e32656aaf83af6fe8c6
+workflow-type: tm+mt
+source-wordcount: '1124'
 ht-degree: 100%
 
 ---
@@ -91,10 +91,9 @@ Die folgenden Verbesserungen stehen allen Kundinnen und Kunden ab der April-Vers
 
 * Mit der Option „Transition nicht aktivieren, wenn die Population leer ist“ der **Aktivität „Aufspaltung“** können Sie festlegen, ob der Workflow bei einem leeren Segmentergebnis zur nächsten Aktivität übergehen soll. [Weitere Informationen](../workflows/activities/split.md)
 
-<!--* **Support of custom fields**-->
-
-* **Benutzerdefinierte Felder** sind zusätzliche Attribute, die über die Adobe Campaign-Konsole zu vorkonfigurierten Schemata hinzugefügt werden. In der Campaign Web-Benutzeroberfläche sind diese benutzerdefinierten Felder nun in verschiedenen Bildschirmen sichtbar, z. B. in den Details eines Profils oder eines Testprofils. In der Web-Benutzeroberfläche können Sie zwar keine benutzerdefinierten Felder erstellen, dafür aber ihre Anzeige ändern. [Weitere Informationen](../administration/custom-fields.md)
-
+<!--* **Support of custom fields**
+* **Custom fields** are additional attributes added to the out-of-the-box schemas through the Adobe Campaign console. In Campaign web user interface, these custom fields are now visible in various screens, for example the details of a profile or a test profile. In the web user interface, you cannot create custom fields, but you can now modify the way they display. [Read more](../administration/custom-fields.md)
+-->
 
 ## Versionshinweise für März {#24-3-release}
 

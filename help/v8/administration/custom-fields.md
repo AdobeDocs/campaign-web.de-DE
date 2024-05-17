@@ -1,10 +1,12 @@
 ---
 title: Benutzerdefinierte Felder
 description: Informationen dazu, wie Sie benutzerdefinierte Felder konfigurieren können
+hide: true
+hidefromtoc: true
 exl-id: 34e7e0b7-3981-43b1-95a5-6c672adafdc9
-source-git-commit: 93f6347828c72535c1a005ecd6ca18596a180098
-workflow-type: ht
-source-wordcount: '235'
+source-git-commit: 3f4b2c83b5c651e473de9e32656aaf83af6fe8c6
+workflow-type: tm+mt
+source-wordcount: '225'
 ht-degree: 100%
 
 ---
@@ -32,19 +34,19 @@ Gehen Sie wie folgt vor, um benutzerdefinierte Felder zu konfigurieren:
 
 1. Klicken Sie unter **Administration** auf **Schemata**.
 
-   ![](assets/custom-fields.png){zoomable=&quot;yes&quot;}
+   ![](assets/custom-fields.png){zoomable="yes"}
 
 1. Suchen Sie das gewünschte Schema, z. B. das Schema **Empfangende (nms)**.
 
-   ![](assets/custom-fields2.png){zoomable=&quot;yes&quot;}
+   ![](assets/custom-fields2.png){zoomable="yes"}
 
 1. Klicken Sie auf die Schaltfläche **Mehr Aktionen** und wählen Sie **Benutzerdefiniertes Detail bearbeiten**.
 
-   ![](assets/custom-fields3.png){zoomable=&quot;yes&quot;}
+   ![](assets/custom-fields3.png){zoomable="yes"}
 
    Auf dem Bildschirm **Benutzerdefiniertes Detail bearbeiten** werden alle benutzerdefinierten Felder und deren Typ angezeigt.
 
-   ![](assets/custom-fields4.png){zoomable=&quot;yes&quot;}
+   ![](assets/custom-fields4.png){zoomable="yes"}
 
    Auf diesem Bildschirm können Sie die folgenden Aktionen durchführen:
 
@@ -55,4 +57,4 @@ Gehen Sie wie folgt vor, um benutzerdefinierte Felder zu konfigurieren:
 
 1. Navigieren Sie zu dem Bildschirm, auf dem das benutzerdefinierte Feld angezeigt wird. Im vorliegenden Beispiel handelt es sich um den Bildschirm mit den Profildetails.
 
-   ![](assets/custom-fields5.png){zoomable=&quot;yes&quot;}
+   ![](assets/custom-fields5.png){zoomable="yes"}
