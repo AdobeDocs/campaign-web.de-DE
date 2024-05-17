@@ -3,8 +3,8 @@ title: Wichtige Performance-Indikatoren
 description: Lernen Sie, die wichtigsten Performance-Indikatoren zu verstehen.
 exl-id: 4b182219-100b-4101-919b-b0b770dd8515
 source-git-commit: 5b42671173e7fd7f024eb7eb03a0836eae7ef622
-workflow-type: tm+mt
-source-wordcount: '1201'
+workflow-type: ht
+source-wordcount: '1199'
 ht-degree: 100%
 
 ---
@@ -28,7 +28,7 @@ Die Metriken werden standardmäßig für die Sendungen der letzten sieben Tage b
 
 Sie können den anzuzeigenden Kanal auswählen. Standardmäßig beziehen sich diese Indikatoren auf Metriken für den E-Mail-Kanal.
 
-![](assets/kpi.png){zoomable=&quot;yes&quot;}
+![](assets/kpi.png){zoomable="yes"}
 
 ## Nachricht zugestellt {#ui-delivered-kpi}
 

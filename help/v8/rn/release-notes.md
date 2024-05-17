@@ -3,7 +3,7 @@ title: Neueste Versionshinweise
 description: Entdecken Sie neue Funktionen in der Campaign Web-Benutzeroberfläche.
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 source-git-commit: 3f4b2c83b5c651e473de9e32656aaf83af6fe8c6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1124'
 ht-degree: 100%
 

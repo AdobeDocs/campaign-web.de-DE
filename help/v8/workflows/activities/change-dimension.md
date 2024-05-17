@@ -4,7 +4,7 @@ title: Verwenden der Workflow-Aktivität „Dimensionsänderung“
 description: Erfahren Sie, wie Sie die Workflow-Aktivität „Dimensionsänderung“ verwenden
 exl-id: 08870946-91c6-4ab0-84de-4d9b968884b3
 source-git-commit: 52b129be88e48dd70c0f55b404fd3bbe699dbebb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '341'
 ht-degree: 100%
 
