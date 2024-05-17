@@ -7,8 +7,8 @@ exl-id: 896d7e9b-0fa2-435b-b191-fa5db36e7ea0
 hide: true
 hidefromtoc: true
 source-git-commit: af67094638cfc3c5c64385203340918f0f8f2482
-workflow-type: ht
-source-wordcount: '391'
+workflow-type: tm+mt
+source-wordcount: '379'
 ht-degree: 100%
 
 ---
@@ -35,13 +35,13 @@ Im folgenden Beispiel erfahren Sie, wie Sie den Inhaltsassistenten nutzen könne
 
 1. Wählen Sie aus dem Menü auf der rechten Seite die Option **[!UICONTROL Erlebnisgenerierung]** aus.
 
-   ![](assets/image-genai-1.png){zoomable=&quot;yes&quot;}
+   ![](assets/image-genai-1.png){zoomable="yes"}
 
 1. Fügen Sie eine Eingabeaufforderung hinzu, um Ihre Ergebnisse besser anzupassen.
 
-   ![](assets/image-genai-2.png){zoomable=&quot;yes&quot;}
+   ![](assets/image-genai-2.png){zoomable="yes"}
 
-1. Wählen Sie **[!UICONTROL Datei hochladen]** aus, wenn Sie ein Marken-Asset hinzufügen möchten, das Inhalte enthält, die zusätzlichen Kontext für den Inhaltsassistenten liefern können.
+1. Wählen Sie **[!UICONTROL Datei hochladen]** aus, wenn Sie ein Marken-Asset hinzufügen möchten, das Inhalte enthält, die zusätzlichen Kontext für den Inhaltsassistenten bieten können.
 
    Sie können auch auf **[!UICONTROL Hochgeladene Inhalte]** klicken, um zuvor aktualisierte Dateien zu finden. Beachten Sie, dass der hochgeladene Inhalt ausschließlich für die Wiederverwendung durch die aktuelle Benutzerin bzw. den aktuellen Benutzer verfügbar ist.
 
@@ -51,20 +51,20 @@ Im folgenden Beispiel erfahren Sie, wie Sie den Inhaltsassistenten nutzen könne
 
 1. Passen Sie die Einstellungen **[!UICONTROL Farbe und Ton]**, **[!UICONTROL Inhaltstyp]**, **[!UICONTROL Beleuchtung]** und **[!UICONTROL Komposition]** an, damit Sie den gewünschten Asset-Eigenschaften entsprechen.
 
-   ![](assets/image-genai-3.png){zoomable=&quot;yes&quot;}
+   ![](assets/image-genai-3.png){zoomable="yes"}
 
 1. Sobald Sie mit der Konfiguration der Eingabeaufforderung zufrieden sind, klicken Sie auf **[!UICONTROL Generieren]**.
 
 1. Durchsuchen Sie die **[!UICONTROL Variantenvorschläge]**, um das gewünschte Asset zu finden. Klicken Sie auf **[!UICONTROL Vorschau]**, um eine Vollbildversion der ausgewählten Variante anzuzeigen.
 
-   ![](assets/image-genai-5.png){zoomable=&quot;yes&quot;}
+   ![](assets/image-genai-5.png){zoomable="yes"}
 
 1. Klicken Sie auf **[!UICONTROL Auswählen]**, sobald Sie den passenden Inhalt gefunden haben.
 
-   ![](assets/image-genai-6.png){zoomable=&quot;yes&quot;}
+   ![](assets/image-genai-6.png){zoomable="yes"}
 
 1. Klicken Sie nach der Definition des Nachrichteninhalts auf die Schaltfläche **[!UICONTROL Inhalt simulieren]**, um das Rendern zu steuern, und überprüfen Sie die Personalisierungseinstellungen mit Testprofilen.  [Weitere Informationen](../preview-test/preview-content.md)
 
-   ![](assets/image-genai-7.png){zoomable=&quot;yes&quot;}
+   ![](assets/image-genai-7.png){zoomable="yes"}
 
 1. Wenn Sie Inhalt, Zielgruppe und Zeitplan definiert haben, können Sie den E-Mail-Versand vorbereiten. [Weitere Informationen](../monitor/prepare-send.md)

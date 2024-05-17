@@ -7,8 +7,8 @@ exl-id: f6c9c940-ae85-44e6-a23e-9133df87e67e
 hide: true
 hidefromtoc: true
 source-git-commit: af67094638cfc3c5c64385203340918f0f8f2482
-workflow-type: ht
-source-wordcount: '469'
+workflow-type: tm+mt
+source-wordcount: '457'
 ht-degree: 100%
 
 ---
@@ -36,7 +36,7 @@ Gehen Sie wie folgt vor, um mit dem KI-Assistenten E-Mail-Inhalte zu erstellen. 
 
 1. Wählen Sie aus dem Menü auf der rechten Seite die Option **[!UICONTROL Erlebnisgenerierung]** aus.
 
-   ![](assets/email-genai-1.png){zoomable=&quot;yes&quot;}
+   ![](assets/email-genai-1.png){zoomable="yes"}
 
 1. Passen Sie den Inhalt an, indem Sie beschreiben, was Sie generieren möchten.
 
@@ -46,7 +46,7 @@ Gehen Sie wie folgt vor, um mit dem KI-Assistenten E-Mail-Inhalte zu erstellen. 
    * Für Feedbacks und Umfragen: Erstellen Sie eine E-Mail, in der Kundinnen und Kunden eingeladen werden, Feedback zu ihrem letzte Software-Erlebnis zu geben und an einer Umfrage zur Produktverbesserung teilzunehmen.
    * Für Jubiläums- oder Geburtstags-E-Mails: Generieren Sie eine Geburtstags-E-Mail, um den besonderen Tag der Kundin bzw. des Kunden zu feiern und einen Geburtstagsrabatt zu unterbreiten.
 
-   ![](assets/email-genai-2.png){zoomable=&quot;yes&quot;}
+   ![](assets/email-genai-2.png){zoomable="yes"}
 
 1. Wählen Sie **[!UICONTROL Datei hochladen]** aus, wenn Sie ein Marken-Asset hinzufügen möchten, das Inhalte enthält, die zusätzlichen Kontext für den KI-Assistenten liefern können.
 
@@ -56,7 +56,7 @@ Gehen Sie wie folgt vor, um mit dem KI-Assistenten E-Mail-Inhalte zu erstellen. 
 
 1. Wählen Sie die **[!UICONTROL Sprache]** und den **[!UICONTROL Ton]** aus. die der generierte Text haben soll. Dadurch wird sichergestellt, dass der Text für Ihre Zielgruppe und Ihren Zweck geeignet ist.
 
-   ![](assets/email-genai-3.png){zoomable=&quot;yes&quot;}
+   ![](assets/email-genai-3.png){zoomable="yes"}
 
 1. Passen Sie die Asset-Einstellungen des **[!UICONTROL Inhaltstyps]** an, damit sie den gewünschten Asset-Eigenschaften entsprechen.
 
@@ -64,16 +64,16 @@ Gehen Sie wie folgt vor, um mit dem KI-Assistenten E-Mail-Inhalte zu erstellen. 
 
 1. Durchsuchen Sie die **[!UICONTROL Variantenvorschläge]**, um die gewünschte E-Mail zu finden. Klicken Sie auf **[!UICONTROL Vorschau]**, um eine Vollbildversion der ausgewählten Variante anzuzeigen.
 
-   ![](assets/email-genai-4.png){zoomable=&quot;yes&quot;}
+   ![](assets/email-genai-4.png){zoomable="yes"}
 
 1. Klicken Sie auf **[!UICONTROL Auswählen]**, sobald Sie den passenden Inhalt gefunden haben.
 
-   ![](assets/email-genai-5.png){zoomable=&quot;yes&quot;}
+   ![](assets/email-genai-5.png){zoomable="yes"}
 
 1. Fügen Sie Personalisierungsfelder ein, um Ihren E-Mail-Inhalt auf der Basis von Profildaten anzupassen oder Ihren Inhalt bei Bedarf weiter zu personalisieren. [Weitere Informationen über die Personalisierung von Inhalten](../personalization/personalize.md)
 
 1. Klicken Sie nach der Definition Ihres E-Mail-Inhalts auf die Schaltfläche **[!UICONTROL Inhalt simulieren]**, um das Rendern zu steuern, und überprüfen Sie die Personalisierungseinstellungen mit Testprofilen. [Weitere Informationen](../preview-test/preview-content.md)
 
-   ![](assets/email-genai-6.png){zoomable=&quot;yes&quot;}
+   ![](assets/email-genai-6.png){zoomable="yes"}
 
 1. Wenn Sie Inhalt, Zielgruppe und Zeitplan definiert haben, können Sie den E-Mail-Versand vorbereiten. [Weitere Informationen](../monitor/prepare-send.md)

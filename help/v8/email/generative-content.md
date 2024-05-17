@@ -7,8 +7,8 @@ exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
 hide: true
 hidefromtoc: true
 source-git-commit: fe687647b0a3d4969373ced400c49b364e878acd
-workflow-type: ht
-source-wordcount: '1369'
+workflow-type: tm+mt
+source-wordcount: '1333'
 ht-degree: 100%
 
 ---
@@ -48,7 +48,7 @@ Im folgenden Beispiel nutzen wir den KI-Assistenten, um eine vorhandene E-Mail z
 
 1. Personalisieren Sie Ihre E-Mail nach Bedarf und öffnen Sie das Menü **[!UICONTROL KI-Assistent]**.
 
-   ![](assets/full-email-1.png){zoomable=&quot;yes&quot;}
+   ![](assets/full-email-1.png){zoomable="yes"}
 
 1. Aktivieren Sie für den KI-Assistenten die Option **[!UICONTROL Originalinhalt verwenden]**, um neue Inhalte basierend auf Ihrem Versand, dem Versandnamen und der ausgewählten Zielgruppe zu personalisieren.
 
@@ -58,13 +58,13 @@ Im folgenden Beispiel nutzen wir den KI-Assistenten, um eine vorhandene E-Mail z
 
    Wenn Sie Hilfe bei der Erstellung Ihres Prompts benötigen, finden Sie in der **[!UICONTROL Prompt-Bibliothek]** eine Vielzahl von Ideen für Prompts, mit denen Sie Ihre Sendungen verbessern können.
 
-   ![](assets/full-email-2.png){zoomable=&quot;yes&quot;}
+   ![](assets/full-email-2.png){zoomable="yes"}
 
 1. Schalten Sie die **[!UICONTROL Betreffzeile]** oder den **[!UICONTROL Preheader]** ein, um sie in die Variantengenerierung einzubeziehen.
 
 1. Klicken Sie auf **[!UICONTROL Marken-Asset hochladen]**, um ein beliebiges Marken-Asset hinzuzufügen, das Inhalte enthält, die zusätzlichen Kontext für den KI-Assistenten bieten können. Wählen Sie alternativ ein zuvor hochgeladenes Asset aus.
 
-   ![](assets/full-email-3.png){zoomable=&quot;yes&quot;}
+   ![](assets/full-email-3.png){zoomable="yes"}
 
 1. Passen Sie Ihr Prompt mit den verschiedenen Optionen an:
 
@@ -73,7 +73,7 @@ Im folgenden Beispiel nutzen wir den KI-Assistenten, um eine vorhandene E-Mail z
    * **[!UICONTROL Ton]**: Der Ton der E-Mail sollte bei Ihrer Zielgruppe ankommen. Je nachdem, ob Sie informativ, humorvoll oder überzeugend klingen möchten, kann der KI-Assistent die Nachricht entsprechend anpassen.
    * **[!UICONTROL Länge]**: Wählen Sie mit dem Schieberegler die gewünschte Länge Ihres Inhalts aus.
 
-   ![](assets/full-email-4.png){zoomable=&quot;yes&quot;}
+   ![](assets/full-email-4.png){zoomable="yes"}
 
 1. Wenn das Prompt fertig ist, klicken Sie auf **[!UICONTROL Generieren]**.
 
@@ -87,13 +87,13 @@ Im folgenden Beispiel nutzen wir den KI-Assistenten, um eine vorhandene E-Mail z
 
    * **[!UICONTROL Einfachere Sprache verwenden]**: Nutzen Sie den KI-Assistenten, um Ihren Text zu vereinfachen, damit er für eine breitere Zielgruppe verständlich und zugänglich ist.
 
-   ![](assets/full-email-5.png){zoomable=&quot;yes&quot;}
+   ![](assets/full-email-5.png){zoomable="yes"}
 
 1. Klicken Sie auf **[!UICONTROL Auswählen]**, sobald Sie den passenden Inhalt gefunden haben.
 
 1. Fügen Sie Personalisierungsfelder ein, um Ihre E-Mail-Inhalte auf der Grundlage von Profildaten anzupassen. Klicken Sie danach auf die Schaltfläche **[!UICONTROL Inhalte simulieren]**, um das Rendern zu steuern, und überprüfen Sie die Personalisierungseinstellungen mit Testprofilen. [Weitere Informationen](../preview-test/preview-content.md)
 
-   ![](assets/full-email-6.png){zoomable=&quot;yes&quot;}
+   ![](assets/full-email-6.png){zoomable="yes"}
 
 Wenn Sie Inhalt, Zielgruppe und Zeitplan definiert haben, können Sie den E-Mail-Versand vorbereiten. [Weitere Informationen](../monitor/prepare-send.md)
 
@@ -107,7 +107,7 @@ Im folgenden Beispiel werden wir den KI-Assistenten nutzen, um den Inhalt unsere
 
 1. Wählen Sie eine **[!UICONTROL Textkomponente]**, um nur bestimmten Inhalt zu erfassen. und rufen Sie das Menü **[!UICONTROL KI-Assistent]** auf.
 
-   ![](assets/text-genai-1.png){zoomable=&quot;yes&quot;}
+   ![](assets/text-genai-1.png){zoomable="yes"}
 
 1. Aktivieren Sie für den KI-Assistenten die Option **[!UICONTROL Originalinhalt verwenden]**, um neue Inhalte basierend auf Ihrem Versand, dem Versandnamen und der ausgewählten Zielgruppe zu personalisieren.
 
@@ -117,11 +117,11 @@ Im folgenden Beispiel werden wir den KI-Assistenten nutzen, um den Inhalt unsere
 
    Wenn Sie Hilfe bei der Erstellung Ihres Prompts benötigen, finden Sie in der **[!UICONTROL Prompt-Bibliothek]** eine Vielzahl von Ideen für Prompts, mit denen Sie Ihre Sendungen verbessern können.
 
-   ![](assets/text-genai-2.png){zoomable=&quot;yes&quot;}
+   ![](assets/text-genai-2.png){zoomable="yes"}
 
 1. Klicken Sie auf **[!UICONTROL Marken-Asset hochladen]**, um ein beliebiges Marken-Asset hinzuzufügen, das Inhalte enthält, die zusätzlichen Kontext für den KI-Assistenten bieten können.
 
-   ![](assets/text-genai-3.png){zoomable=&quot;yes&quot;}
+   ![](assets/text-genai-3.png){zoomable="yes"}
 
 1. Passen Sie Ihr Prompt mit den verschiedenen Optionen an:
 
@@ -130,7 +130,7 @@ Im folgenden Beispiel werden wir den KI-Assistenten nutzen, um den Inhalt unsere
    * **[!UICONTROL Ton]**: Stellen Sie sicher, dass der Text für Ihre Zielgruppe und Ihren Zweck geeignet ist.
    * **[!UICONTROL Länge]**: Legen Sie die Länge Ihres Inhalts mit dem Schieberegler fest.
 
-   ![](assets/text-genai-4.png){zoomable=&quot;yes&quot;}
+   ![](assets/text-genai-4.png){zoomable="yes"}
 
 1. Wenn das Prompt fertig ist, klicken Sie auf **[!UICONTROL Generieren]**.
 
@@ -148,13 +148,13 @@ Im folgenden Beispiel werden wir den KI-Assistenten nutzen, um den Inhalt unsere
 
    * **[!UICONTROL Einfachere Sprache verwenden]**: Nutzen Sie den KI-Assistenten, um Ihren Text zu vereinfachen, damit er für eine breitere Zielgruppe verständlich und zugänglich ist.
 
-   ![](assets/text-genai-5.png){zoomable=&quot;yes&quot;}
+   ![](assets/text-genai-5.png){zoomable="yes"}
 
 1. Klicken Sie auf **[!UICONTROL Auswählen]**, sobald Sie den passenden Inhalt gefunden haben.
 
 1. Fügen Sie Personalisierungsfelder ein, um Ihre E-Mail-Inhalte auf der Grundlage von Profildaten anzupassen. Klicken Sie danach auf die Schaltfläche **[!UICONTROL Inhalte simulieren]**, um das Rendern zu steuern, und überprüfen Sie die Personalisierungseinstellungen mit Testprofilen. [Weitere Informationen](../preview-test/preview-content.md)
 
-   ![](assets/text-genai-7.png){zoomable=&quot;yes&quot;}
+   ![](assets/text-genai-7.png){zoomable="yes"}
 
 Wenn Sie Inhalt, Zielgruppe und Zeitplan definiert haben, können Sie den E-Mail-Versand vorbereiten. [Weitere Informationen](../monitor/prepare-send.md)
 
@@ -172,13 +172,13 @@ Im folgenden Beispiel erfahren Sie, wie Sie den KI-Assistenten nutzen können, u
 
 1. Wählen Sie aus dem Menü auf der rechten Seite die Option **[!UICONTROL KI-Assistent]** aus.
 
-   ![](assets/image-genai-1.png){zoomable=&quot;yes&quot;}
+   ![](assets/image-genai-1.png){zoomable="yes"}
 
 1. Passen Sie den Inhalt an, indem Sie im Feld **[!UICONTROL Prompt]** beschreiben, was Sie generieren möchten.
 
    Wenn Sie Hilfe bei der Erstellung Ihres Prompts benötigen, finden Sie in der **[!UICONTROL Prompt-Bibliothek]** eine Vielzahl von Ideen für Prompts, mit denen Sie Ihre Sendungen verbessern können.
 
-   ![](assets/image-genai-2.png){zoomable=&quot;yes&quot;}
+   ![](assets/image-genai-2.png){zoomable="yes"}
 
 1. Klicken Sie auf **[!UICONTROL Marken-Asset hochladen]**, um ein beliebiges Marken-Asset hinzuzufügen, das Inhalte enthält, die zusätzlichen Kontext für den KI-Assistenten bieten können.
 
@@ -192,7 +192,7 @@ Im folgenden Beispiel erfahren Sie, wie Sie den KI-Assistenten nutzen können, u
    * **[!UICONTROL Beleuchtung]**: Dies bezieht sich auf die Beleuchtung in einem Bild, die dessen Atmosphäre prägt und bestimmte Elemente hervorhebt.
    * **[!UICONTROL Komposition]**: Dies bezieht sich auf die Anordnung der Elemente innerhalb des Rahmens eines Bildes.
 
-   ![](assets/image-genai-3.png){zoomable=&quot;yes&quot;}
+   ![](assets/image-genai-3.png){zoomable="yes"}
 
 1. Sobald Sie mit der Konfiguration der Eingabeaufforderung zufrieden sind, klicken Sie auf **[!UICONTROL Generieren]**.
 
@@ -200,17 +200,17 @@ Im folgenden Beispiel erfahren Sie, wie Sie den KI-Assistenten nutzen können, u
 
    Klicken Sie auf **[!UICONTROL Vorschau]**, um eine Vollbildversion der ausgewählten Variante anzuzeigen.
 
-   ![](assets/image-genai-5.png){zoomable=&quot;yes&quot;}
+   ![](assets/image-genai-5.png){zoomable="yes"}
 
 1. Wählen Sie **[!UICONTROL Ähnliche anzeigen]**, wenn Sie verwandte Bilder zu dieser Variante anzeigen möchten.
 
 1. Klicken Sie auf **[!UICONTROL Auswählen]**, sobald Sie den passenden Inhalt gefunden haben.
 
-   ![](assets/image-genai-6.png){zoomable=&quot;yes&quot;}
+   ![](assets/image-genai-6.png){zoomable="yes"}
 
 1. Klicken Sie nach der Definition des Nachrichteninhalts auf die Schaltfläche **[!UICONTROL Inhalt simulieren]**, um das Rendern zu steuern, und überprüfen Sie die Personalisierungseinstellungen mit Testprofilen.  [Weitere Informationen](../preview-test/preview-content.md)
 
-   ![](assets/image-genai-7.png){zoomable=&quot;yes&quot;}
+   ![](assets/image-genai-7.png){zoomable="yes"}
 
 1. Wenn Sie Inhalt, Zielgruppe und Zeitplan definiert haben, können Sie den E-Mail-Versand vorbereiten. [Weitere Informationen](../monitor/prepare-send.md)
 

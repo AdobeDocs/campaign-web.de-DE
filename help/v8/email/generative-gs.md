@@ -29,7 +29,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_generation_settings"
 >title="KI-Assistent"
->abstract="Nachdem der Versand erstellt und personalisiert wurde, kann der KI-Assistent verwendet werden, um die Inhalte zu verbessern. Diese Funktion vereinfacht den Prozess der Personalisierung und Inhaltsverbesserung, da Sie den Inhalt durch eine Beschreibung dessen, was Sie generieren möchten, anpassen können."
+>abstract="Nachdem der Versand erstellt und personalisiert wurde, kann der KI-Assistent verwendet werden, um die Inhalte zu verbessern. Diese Funktion vereinfacht den Prozess der Personalisierung und Inhaltsverbesserung, da der Inhalt durch eine Beschreibung dessen, was generieret werden soll, angepasst werden kann."
 
 
 >[!CONTEXTUALHELP]

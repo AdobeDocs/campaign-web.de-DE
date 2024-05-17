@@ -7,8 +7,8 @@ hide: true
 hidefromtoc: true
 exl-id: db0459e5-8759-42d9-8945-8c9667450527
 source-git-commit: fe687647b0a3d4969373ced400c49b364e878acd
-workflow-type: ht
-source-wordcount: '479'
+workflow-type: tm+mt
+source-wordcount: '467'
 ht-degree: 100%
 
 ---
@@ -44,7 +44,7 @@ Dieses praktische Tool liefert intelligente Vorschläge für die Verfeinerung Ih
 
 1. Rufen Sie das Menü **[!UICONTROL KI-Assistenten anzeigen]** auf.
 
-   ![](assets/sms-genai-1.png){zoomable=&quot;yes&quot;}
+   ![](assets/sms-genai-1.png){zoomable="yes"}
 
 1. Aktivieren Sie für den KI-Assistenten die Option **[!UICONTROL Originalinhalt verwenden]**, um neue Inhalte basierend auf Ihrem Versand, dem Versandnamen und der ausgewählten Zielgruppe zu personalisieren.
 
@@ -56,7 +56,7 @@ Dieses praktische Tool liefert intelligente Vorschläge für die Verfeinerung Ih
 
    Wenn Sie Hilfe bei der Erstellung Ihres Prompts benötigen, finden Sie in der **[!UICONTROL Prompt-Bibliothek]** eine Vielzahl von Ideen für Prompts, mit denen Sie Ihre Sendungen verbessern können.
 
-   ![](assets/sms-genai-2.png){zoomable=&quot;yes&quot;}
+   ![](assets/sms-genai-2.png){zoomable="yes"}
 
 1. Wählen Sie **[!UICONTROL Marken-Asset hochladen]** aus, um ein beliebiges Marken-Asset hinzuzufügen, das Inhalte enthält, die zusätzlichen Kontext für den KI-Assistenten bieten können.
 
@@ -67,7 +67,7 @@ Dieses praktische Tool liefert intelligente Vorschläge für die Verfeinerung Ih
    * **[!UICONTROL Ton]**: Stellen Sie sicher, dass der Text für Ihre Zielgruppe und Ihren Zweck geeignet ist.
    * **[!UICONTROL Länge]**: Legen Sie die Länge Ihres Inhalts mit dem Schieberegler fest.
 
-   ![](assets/sms-genai-3.png){zoomable=&quot;yes&quot;}
+   ![](assets/sms-genai-3.png){zoomable="yes"}
 
 1. Wenn das Prompt fertig ist, klicken Sie auf **[!UICONTROL Generieren]**.
 
@@ -81,16 +81,16 @@ Dieses praktische Tool liefert intelligente Vorschläge für die Verfeinerung Ih
 
    * **[!UICONTROL Umformulieren]**: Der KI-Assistent formuliert Ihre Nachricht um, um sie für verschiedene Zielgruppen ansprechend zu gestalten.
 
-   ![](assets/sms-genai-4.png){zoomable=&quot;yes&quot;}
+   ![](assets/sms-genai-4.png){zoomable="yes"}
 
 1. Klicken Sie auf **[!UICONTROL Auswählen]**, sobald Sie den passenden Inhalt gefunden haben.
 
 1. Fügen Sie Personalisierungsfelder ein, um Ihre SMS-Inhalte auf der Grundlage von Profildaten anzupassen. [Weitere Informationen über die Personalisierung von Inhalten](../personalization/personalize.md)
 
-   ![](assets/sms-genai-5.png){zoomable=&quot;yes&quot;}
+   ![](assets/sms-genai-5.png){zoomable="yes"}
 
 1. Klicken Sie nach der Definition des Nachrichteninhalts auf die Schaltfläche **[!UICONTROL Inhalt simulieren]**, um das Rendern zu steuern, und überprüfen Sie die Personalisierungseinstellungen mit Testprofilen. [Weitere Informationen](../preview-test/preview-content.md)
 
-   ![](assets/sms-genai-6.png){zoomable=&quot;yes&quot;}
+   ![](assets/sms-genai-6.png){zoomable="yes"}
 
 Wenn Sie Inhalt, Zielgruppe und Zeitplan definiert haben, können Sie den SMS-Versand vorbereiten. [Weitere Informationen](../monitor/prepare-send.md)
