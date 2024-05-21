@@ -4,9 +4,9 @@ title: Erstellen Ihrer erste Abfrage mithilfe des Abfrage-Modelers
 description: Erfahren Sie, wie Sie Ihre erste Abfrage im Abfrage-Modeler in Adobe Campaign Web erstellen.
 exl-id: f9a365ac-c8be-423f-a99d-40ad5492223c
 source-git-commit: 664876e479b0580f99b77be5fbf31a18b3bfcecb
-workflow-type: tm+mt
-source-wordcount: '2106'
-ht-degree: 95%
+workflow-type: ht
+source-wordcount: '2098'
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Der Ausdruckseditor steht bei der Konfiguration einer benutzerdefinierten Beding
 
 | Zugriff über das Feld **Attribut** | Zugriff über das Feld **Wert** |
 |  ---  |  ---  |
-| ![](assets/expression-editor-attribute.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} | ![](assets/edit-expression.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} |
+| ![](assets/expression-editor-attribute.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} | ![](assets/edit-expression.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
 
 Der Ausdruckseditor bietet Folgendes:
 
@@ -34,13 +34,13 @@ Der Ausdruckseditor bietet Folgendes:
 
 Bearbeiten Sie den Ausdruck, indem Sie ihn direkt in das Eingabefeld eingeben. Um ein Feld oder eine Hilfsfunktion hinzuzufügen, gehen Sie mit dem Cursor zu dem Ausdruck, zu dem Sie es/sie hinzufügen möchten, und klicken Sie auf die Schaltfläche „+“.
 
-![](assets/expression-editor.png){zoomable=&quot;yes&quot;}
+![](assets/expression-editor.png){zoomable="yes"}
 
 Wenn Ihr Ausdruck fertig ist, klicken Sie auf **[!UICONTROL Bestätigen]**. Der Ausdruck wird im ausgewählten Feld angezeigt. Öffnen Sie zum Bearbeiten den Ausdruckseditor und nehmen Sie die gewünschten Änderungen vor.
 
 Das folgende Beispiel zeigt einen für das Feld **[!UICONTROL Wert]** konfigurierten Ausdruck. Um ihn zu bearbeiten, müssen Sie den Ausdruckseditor über die Schaltfläche **[!UICONTROL Ausdruck bearbeiten]** öffnen.
 
-![](assets/edit-expression-value.png){zoomable=&quot;yes&quot;}
+![](assets/edit-expression-value.png){zoomable="yes"}
 
 ## Hilfsfunktionen
 
@@ -94,8 +94,8 @@ Die Aggregatfunktionen dienen der Durchführung von Berechnungen zu einer Reihe 
   </tr>
   <tr> 
    <td> <strong>StringAgg</strong><br /> </td> 
-   <td> Gibt die Verkettung der Werte einer Spalte vom Typ String aus, getrennt durch das Zeichen im zweiten Argument<br /> </td> 
-   <td> StringAgg(&lt;value&gt;, &lt;string&gt;)<br /></td> 
+   <td> Gibt die Verkettung der Werte einer Spalte vom Typ „String“ zurück, getrennt durch das Zeichen im zweiten Argument<br /> </td> 
+   <td> StringAgg(&lt;Wert&gt;, &lt;String&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Sum</strong><br /> </td> 
@@ -158,8 +158,8 @@ Die Datumsfunktionen dienen der Manipulation von Datums- oder Uhrzeitwerten.
   </tr>-->
   <tr> 
    <td> <strong>DateCmp</strong><br /> </td> 
-   <td> Zwei Daten vergleichen<br/> </td> 
-   <td> DateCmp(&lt;date&gt;,&lt;date&gt;)<br /> </td>  
+   <td> Vergleicht zwei Daten<br/> </td> 
+   <td> DateCmp(&lt;Datum&gt;,&lt;Datum&gt;)<br /> </td>  
   </tr>
   <tr> 
    <td> <strong>DateOnly</strong><br /> </td> 
@@ -299,12 +299,12 @@ Die Datumsfunktionen dienen der Manipulation von Datums- oder Uhrzeitwerten.
   <tr> 
    <td> <strong>ToTimestamp</strong><br /> </td> 
    <td> Konvertiert einen String in einen Zeitstempel<br /> </td> 
-   <td> ToTimestamp(&lt;string&gt;)<br /> </td>  
+   <td> ToTimestamp(&lt;String&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>ToTimeZone</strong><br /> </td> 
-   <td> Konvertieren von Datum+Uhrzeit in Zeitzone<br /> </td> 
-   <td> ToTimeZone(&lt;date&gt;,&lt;time zone=""&gt;)<br /> </td>  
+   <td> Konvertiert Datum + Uhrzeit in eine Zeitzone<br /> </td> 
+   <td> ToTimeZone(&lt;Datum&gt;,&lt;time zone&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>TruncDate</strong><br /> </td> 
@@ -489,8 +489,8 @@ In dieser Tabelle sind die restlichen verfügbaren Funktionen enthalten.
   </tr> 
   <tr> 
    <td> <strong>AESEncrypt</strong><br /> </td> 
-   <td> Im -Argument angegebene Verschlüsselungszeichenfolge<br /> </td> 
-   <td> AESEncrypt(&lt;value&gt;)<br /> </td> 
+   <td> Verschlüsselt den im Argument angegebenen String<br /> </td> 
+   <td> AESEncrypt(&lt;Wert&gt;)<br /> </td> 
   </tr>
   <tr> 
    <td> <strong>Case</strong><br /> </td> 
@@ -549,7 +549,7 @@ In dieser Tabelle sind die restlichen verfügbaren Funktionen enthalten.
   </tr> 
   <tr> 
    <td> <strong>NewUUID</strong><br /> </td> 
-   <td> Gibt eine eindeutige ID aus<br /> </td> 
+   <td> Gibt eine eindeutige ID zurück<br /> </td> 
    <td> NewUUID()<br /> </td>  
   </tr> 
   <tr> 
@@ -657,9 +657,9 @@ Die String-Funktionen dienen der Manipulation einer Reihe von Strings.
    <td> Length(&lt;String&gt;)<br /></td> 
   </tr> 
   <tr> 
-   <td> <strong>Linie</strong><br /> </td> 
-   <td> Zeile n aus Zeichenfolge extrahieren<br /> </td> 
-   <td> Line(&lt;string&gt;,&lt;number&gt;)<br /></td> 
+   <td> <strong>Zeile</strong><br /> </td> 
+   <td> Extrahiert Zeile n aus dem String<br /> </td> 
+   <td> Line(&lt;String&gt;,&lt;Zahl&gt;)<br /></td> 
   </tr>
   <tr> 
    <td> <strong>Lower</strong><br /> </td> 
@@ -693,8 +693,8 @@ Die String-Funktionen dienen der Manipulation einer Reihe von Strings.
   </tr> 
   <tr> 
    <td> <strong>Replace</strong><br /> </td> 
-   <td> Ersetzt alle Vorkommen eines angegebenen Zeichenfolgenwerts durch einen anderen Zeichenfolgenwert.<br /> </td> 
-   <td> Replace(&lt;string&gt;,&lt;string&gt;,&lt;string&gt;)<br /></td> 
+   <td> Ersetzt alle Vorkommen eines angegebenen String-Werts durch einen anderen String-Wert.<br /> </td> 
+   <td> Replace(&lt;String&gt;,&lt;String&gt;,&lt;String&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Right</strong><br /> </td> 

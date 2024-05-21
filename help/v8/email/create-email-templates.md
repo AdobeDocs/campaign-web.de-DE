@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 23818080-d7c6-4829-8117-d6b359bd76dd
 source-git-commit: 5b42671173e7fd7f024eb7eb03a0836eae7ef622
-workflow-type: tm+mt
-source-wordcount: '968'
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: '948'
+ht-degree: 100%
 
 ---
 
@@ -39,11 +39,11 @@ Diese Funktion ermöglicht es inhaltsorientierten Benutzenden, an eigenständige
 
 Um auf die Liste der Inhaltsvorlagen zuzugreifen, navigieren Sie über die linke Leiste zum Menü **[!UICONTROL Content-Management]** > **[!UICONTROL Inhaltsvorlagen]**.
 
-![](assets/content-template-list.png){zoomable=&quot;yes&quot;}
+![](assets/content-template-list.png){zoomable="yes"}
 
 In diesem Dashboard werden alle verfügbaren Inhaltsvorlagen als Liste angezeigt. Über die Dropdown-Liste können Sie nach einem bestimmten [Ordner](../get-started/permissions.md#folders) filtern oder mithilfe des [Abfrage-Modelers](../query/query-modeler-overview.md) Regeln hinzufügen.
 
-![](assets/content-template-list-filters.png){zoomable=&quot;yes&quot;}
+![](assets/content-template-list-filters.png){zoomable="yes"}
 
 In der Liste können Sie vorhandene Inhaltsvorlagen bearbeiten, duplizieren oder löschen. Verwenden Sie die Schaltfläche im oberen Bereich, um eine Inhaltsvorlage zu erstellen.
 
@@ -83,11 +83,11 @@ Gehen Sie wie folgt vor, um im Dashboard für Inhaltsvorlagen eine neue Inhaltsv
 
 1. Wählen Sie **[!UICONTROL Vorlage erstellen]** aus.
 
-   ![](assets/content-template-create.png){zoomable=&quot;yes&quot;}
+   ![](assets/content-template-create.png){zoomable="yes"}
 
 1. Geben Sie den Titel und die Eigenschaften der Vorlage ein. Sie können den Ordner auswählen, in dem Sie Ihre Vorlage speichern möchten. Standardmäßig werden Inhaltsvorlagen in einem dedizierten Ordner der Adobe Campaign-Hierarchie gespeichert: **[!UICONTROL Explorer]** > **[!UICONTROL Ressourcen]** > **[!UICONTROL Vorlagen]** > **[!UICONTROL Inhaltsvorlagen]**. Weitere Informationen über Ordner finden Sie auf [dieser Seite](../get-started/permissions.md#folders).
 
-   ![](assets/content-template-details.png){zoomable=&quot;yes&quot;}
+   ![](assets/content-template-details.png){zoomable="yes"}
 
 1. Klicken Sie auf **[!UICONTROL Erstellen]** und wählen Sie aus den verschiedenen Optionen aus, wie Sie Ihre Vorlage entwerfen möchten:
 
@@ -99,7 +99,7 @@ Gehen Sie wie folgt vor, um im Dashboard für Inhaltsvorlagen eine neue Inhaltsv
 
    * Verwenden Sie vorhandenen Inhalt aus einer Liste integrierter oder benutzerdefinierter Vorlagen. Die Schritte zur Verwendung einer Inhaltsvorlage in einer E-Mail werden in [diesem Abschnitt](use-email-templates.md) beschrieben.
 
-   ![](assets/email_designer-templates.png){zoomable=&quot;yes&quot;}
+   ![](assets/email_designer-templates.png){zoomable="yes"}
 
 1. Der E-Mail-Designer wird angezeigt. Bearbeiten Sie Ihren Inhalt nach Bedarf, so wie Sie es bei jeder anderen E-Mail auch tun würden, je nach der von Ihnen gewählten Option. Mehr über die Arbeit mit dem E-Mail-Designer erfahren Sie in [diesem Abschnitt](get-started-email-designer.md).
 
@@ -109,7 +109,7 @@ Gehen Sie wie folgt vor, um im Dashboard für Inhaltsvorlagen eine neue Inhaltsv
 
    Klicken Sie bei Bedarf auf den Pfeil neben dem Vorlagennamen, um zum Bildschirm **[!UICONTROL Details]** zurückzukehren und die Vorlage zu bearbeiten.
 
-   ![](assets/content-template-save-back.png){zoomable=&quot;yes&quot;}
+   ![](assets/content-template-save-back.png){zoomable="yes"}
 
 Die Vorlage ist in der Liste **[!UICONTROL Inhaltsvorlagen]** verfügbar. [Weitere Informationen](#access-templates)
 
@@ -125,17 +125,17 @@ Gehen Sie wie folgt vor, um E-Mail-Inhalte als Vorlage zu speichern:
 
 1. Wählen Sie im Dropdown-Menü **[!UICONTROL Als Inhaltsvorlage speichern]** aus.
 
-   ![](assets/email_designer-save-template.png){zoomable=&quot;yes&quot;}
+   ![](assets/email_designer-save-template.png){zoomable="yes"}
 
 1. Geben Sie einen Namen für diese Vorlage ein und speichern Sie sie.
 
-   ![](assets/email_designer-template-name.png){zoomable=&quot;yes&quot;}
+   ![](assets/email_designer-template-name.png){zoomable="yes"}
 
 Die Vorlage wird gespeichert und in der Liste **[!UICONTROL Inhaltsvorlagen]** angezeigt. Sie wird zu einer eigenständigen Inhaltsvorlage, die Sie wie jedes andere Element in der Liste öffnen, bearbeiten und löschen können. [Weitere Informationen](#access-manage-templates)
 
 Anhand dieser Vorlage können Sie nun einen neuen Inhalt erstellen: Sie finden ihn in der Registerkarte **[!UICONTROL Gespeicherte Vorlagen]** des E-Mail-Designers. [Weitere Informationen dazu](use-email-templates.md)
 
-![](assets/email_designer-saved-template.png){zoomable=&quot;yes&quot;}
+![](assets/email_designer-saved-template.png){zoomable="yes"}
 
 
 >[!NOTE]
@@ -167,7 +167,7 @@ Gehen Sie wie folgt vor, um eine vorhandene Inhaltsvorlage zu aktualisieren:
 
 1. Klicken Sie auf die Schaltfläche **[!UICONTROL Inhalt bearbeiten]**, um den Inhalt mit dem [E-Mail-Designer](get-started-email-designer.md) zu aktualisieren.
 
-![](assets/content-template-edition.png){zoomable=&quot;yes&quot;}
+![](assets/content-template-edition.png){zoomable="yes"}
 
 >[!NOTE]
 >
