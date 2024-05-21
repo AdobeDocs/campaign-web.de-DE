@@ -3,10 +3,10 @@ keywords: Campaign Web;Startseite;beliebte Themen
 description: Hilfe-Center zu Campaign Web
 title: Produktdokumentation zu Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 4b37ec6df839a7edef838b1d19b484208a6bec2f
-workflow-type: ht
-source-wordcount: '474'
-ht-degree: 100%
+source-git-commit: 35d803b7e409c38b9b29150aa4d8c1849f994c2c
+workflow-type: tm+mt
+source-wordcount: '485'
+ht-degree: 87%
 
 ---
 
@@ -51,23 +51,29 @@ Hier erhalten Sie einen Einblick in die neuesten Verbesserungen in Adobe Campaig
 
 >[!BEGINTABS]
 
->[!TAB Die April-Version ist live!]
+>[!TAB Die Version vom Mai ist live!]
 
 Entdecken Sie die neuen Funktionen und Verbesserungen der Adobe Campaign Web-Benutzeroberfläche Version 24.4.
 
 [![Bild](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
 
->[!TAB Neue Workflow-Aktivitäten]
+>[!TAB Audit-Protokoll]
 
-Diese Version umfasst die folgenden Workflow-Aktivitäten: „Daten-Update“, „Anmeldedienste“, „Dateiextraktion“, „Dateiübertragung“, „Test“, „JavaScript-Code“, „Externes Signal“ und „Inkrementelle Abfrage“.
+Die neue Funktion &quot;Audit-Protokoll&quot;enthält eine detaillierte und chronologische Übersicht aller Aktionen und Ereignisse, die in Echtzeit an Ihrer Adobe Campaign-Instanz durchgeführt wurden.
 
-[![Bild](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
+[![Bild](assets/do-not-localize/learn-more-button.svg)](reporting/audit-trail.md)
 
->[!TAB Rich-Push-Benachrichtigung]
+>[!TAB Benutzerdefinierte Felder]
 
-Sie können nun Rich-Push-Benachrichtigungen über Android senden. Rich-Push-Benachrichtigungen sind eine erweiterte Form von Benachrichtigungen an Mobilgeräte, die über einfache Textnachrichten hinausgehen und Multimedia-Elemente wie Bilder, interaktive Schaltflächen oder andere Rich-Media-Inhalte enthalten.
+Benutzerdefinierte Felder sind zusätzliche Attribute, die über die Adobe Campaign-Konsole zu nativen Schemata hinzugefügt werden. Sie sind jetzt in der Web-Benutzeroberfläche verfügbar.
 
-[![Bild](assets/do-not-localize/learn-more-button.svg)](push/rich-push.md)
+[![Bild](assets/do-not-localize/learn-more-button.svg)](administration/custom-fields.md)
+
+>[!TAB Verknüpfungstabellen]
+
+Jetzt können Sie in der Workflow-Aktivität Anreicherung eine Verknüpfung zwischen den Arbeitstabellendaten und der Adobe Campaign-Datenbank erstellen.
+
+[![Bild](assets/do-not-localize/learn-more-button.svg)](workflows/activities/enrichment.md#create-links)
 
 >[!ENDTABS]
 
