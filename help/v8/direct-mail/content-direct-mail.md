@@ -3,10 +3,10 @@ audience: end-user
 title: Gestalten eines Briefpostversands
 description: Erfahren Sie, wie Sie mit Adobe Campaign Web einen Briefpostversand gestalten.
 exl-id: aefba651-4125-4b1e-992f-1fe90fd95e4c
-source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
+source-git-commit: 60484d08a68a5caaf91074c9ce543d8a44d44ab7
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 100%
+source-wordcount: '563'
+ht-degree: 96%
 
 ---
 
@@ -52,14 +52,18 @@ Um den Inhalt der durch Ihren Briefpostversand generierten Extraktionsdatei zu g
 
 1. Schalten Sie die Option **[!UICONTROL Anzahl abzurufender Datensätze]** ein, um die Anzahl der Empfängerinnen und Empfänger für Ihren Versand zu begrenzen.
 
-   ![](assets/dm-content-details.png){zoomable=&quot;yes&quot;}
+   ![](assets/dm-content-details.png){zoomable="yes"}
 
 ## Konfigurieren der Spalten der Extraktionsdatei {#content}
 
 Geben Sie im Abschnitt **[!UICONTROL Inhalt]** die Spalten an, die in der Extraktionsdatei angezeigt werden sollen. Gehen Sie dazu wie folgt vor:
 
 1. Klicken Sie auf die Schaltfläche **[!UICONTROL Attribut hinzufügen]**, um eine neue Spalte zu erstellen.
-1. Wählen Sie das Attribut aus, das in der Spalte angezeigt werden soll, und bestätigen Sie dann die Auswahl. Nachdem die Spalte hinzugefügt wurde, können Sie den Titel ändern und das zugehörige Attribut mithilfe des Bearbeitungssymbols ändern.
+1. Wählen Sie das Attribut aus, das in der Spalte angezeigt werden soll, und bestätigen Sie dann die Auswahl. Beachten Sie, dass Sie mit dem Ausdruckseditor das zu verwendende Attribut auswählen können, indem Sie auf die **[!UICONTROL Ausdruck bearbeiten]** Schaltfläche.
+
+   ![](assets/dm-add-attribute.png)
+
+1. Nachdem die Spalte hinzugefügt wurde, können Sie den Titel ändern und das zugehörige Attribut mithilfe des Bearbeitungssymbols ändern.
 1. Wiederholen Sie diese Schritte, um so viele Spalten hinzuzufügen, wie Sie für Ihre Extraktionsdatei benötigen.
 1. Um die Extraktionsdatei anhand einer der Spalten zu sortieren, klicken Sie auf das Symbol in der Spalte **[!UICONTROL Sortierung]** und wählen Sie die gewünschte Sortiermethode aus.
 1. Um die Position einer Spalte zu ändern, verwenden Sie die Pfeile nach oben und unten.
