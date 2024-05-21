@@ -3,21 +3,28 @@ product: campaign
 title: Audit-Protokoll
 description: Erfahren Sie, wie Sie Ihre Instanz mit dem Audit-Protokoll von Campaign überwachen.
 feature: Audit Trail, Monitoring, Workflows
-source-git-commit: 4f7dd30f02f83624a00b3d0e6ac7ba74c1c242e0
+source-git-commit: 93ac61808049da6f0d800a19f2baf97946d8612c
 workflow-type: tm+mt
-source-wordcount: '582'
-ht-degree: 41%
+source-wordcount: '615'
+ht-degree: 40%
 
 ---
 
 # Audit-Protokoll{#audit-trail}
 
->[!IMPORTANT]
->
->Die Adobe Campaign-Webbenutzeroberfläche prüft keine Änderungen, die an Benutzerrechten, Vorlagen, Personalisierungen oder Kampagnen vorgenommen wurden.\
->Das Audit-Protokoll kann nur von Admins der Instanz verwaltet werden.
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn1"
+>title="Audit-Protokoll"
+>abstract="Die neue Funktion &quot;Audit-Protokoll&quot;enthält eine detaillierte und chronologische Übersicht aller Aktionen und Ereignisse, die in Echtzeit an Ihrer Adobe Campaign-Instanz durchgeführt wurden."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=de" text="Siehe Versionshinweise"
+
 
 In der Adobe Campaign-Webbenutzeroberfläche wird die **[!UICONTROL Audit-Protokoll]** -Funktion bietet Benutzern vollständige Einsicht in alle Änderungen, die an wichtigen Entitäten in Ihrer Instanz vorgenommen wurden, normalerweise jene, die einen reibungslosen Betrieb der Instanz erheblich beeinträchtigen.
+
+>[!IMPORTANT]
+>
+>* Die Adobe Campaign-Webbenutzeroberfläche prüft keine Änderungen, die an Benutzerrechten, Vorlagen, Personalisierungen oder Kampagnen vorgenommen wurden.
+>* Das Audit-Protokoll kann nur von Admins der Instanz verwaltet werden.
 
 **[!UICONTROL Audit-Protokoll]** -Funktion zeichnet ständig ein detailliertes Protokoll der Aktionen und Ereignisse auf, die in der Adobe Campaign-Instanz in Echtzeit stattfinden. Es bietet eine praktische Methode, um auf einen chronologischen Datensatz mit Abfragen zuzugreifen, wie z. B. den Status von Workflows, die neuesten zu ändernden Personen oder die Aktivitäten, die von Benutzern innerhalb der Instanz ausgeführt werden.
 

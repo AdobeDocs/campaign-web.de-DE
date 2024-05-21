@@ -3,14 +3,22 @@ audience: end-user
 title: Erstellen eines Rich-Push-Benachrichtigungs-Versands
 description: Erfahren Sie, wie Sie mit Adobe Campaign Web einen Rich-Push-Benachrichtigungs-Versand für Android erstellen.
 exl-id: a87cb933-b564-4fa4-b173-6a94d7e27da5
-source-git-commit: 4b37ec6df839a7edef838b1d19b484208a6bec2f
-workflow-type: ht
-source-wordcount: '1424'
-ht-degree: 100%
+source-git-commit: 93ac61808049da6f0d800a19f2baf97946d8612c
+workflow-type: tm+mt
+source-wordcount: '1444'
+ht-degree: 99%
 
 ---
 
 # Erstellen eines Rich-Push-Versands für Android {#rich-push}
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn4"
+>title="Rich-Push-Versand"
+>abstract="Sie können nun Rich-Push-Benachrichtigungen über Android senden. Derzeit ist diese Funktion nur eingeschränkt verfügbar."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=de" text="Siehe Versionshinweise"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_remind_later"
@@ -27,7 +35,7 @@ Bei Firebase Cloud Messaging stehen Ihnen zwei Nachrichtentypen zur Auswahl:
 
 * Die **[!UICONTROL Benachrichtigungsmeldung]** wird automatisch vom FCM SDK verarbeitet. FCM übernimmt für die Client-App automatisch das Anzeigen der Nachricht auf den Geräten Ihrer Benutzenden. Benachrichtigungsmeldungen enthalten einen vordefinierten Satz von Parametern und Optionen, können aber mit benutzerspezifischen Anwendungsvariablen weiter personalisiert werden.
 
-![](assets/rich_push.png){zoomable=&quot;yes&quot;}
+![](assets/rich_push.png){zoomable="yes"}
 
 ## Festlegen des Inhalts der Benachrichtigung {#push-message}
 
@@ -168,7 +176,7 @@ Nachdem Sie den Nachrichteninhalt definiert haben, können Sie Testabonnentinnen
 
 ## Erweiterte Einstellungen für Push-Benachrichtigungen {#push-advanced}
 
-![](assets/push_content_5.png){zoomable=&quot;yes&quot;}
+![](assets/push_content_5.png){zoomable="yes"}
 
 | Parameter | Beschreibung |
 |---------|---------|

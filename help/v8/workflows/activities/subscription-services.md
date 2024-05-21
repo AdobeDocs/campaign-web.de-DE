@@ -3,9 +3,9 @@ audience: end-user
 title: Verwenden der Aktivität „Anmeldedienste“
 description: Informationen dazu, wie Sie die Workflow-Aktivität „Anmeldedienste“ verwenden
 exl-id: 0e7c2e9a-3301-4988-ae0e-d901df5b84db
-source-git-commit: 362f657c689ce13c6c1fadc381d43e15c32d4d05
+source-git-commit: 93ac61808049da6f0d800a19f2baf97946d8612c
 workflow-type: tm+mt
-source-wordcount: '992'
+source-wordcount: '940'
 ht-degree: 100%
 
 ---
@@ -13,11 +13,7 @@ ht-degree: 100%
 # Anmeldedienste {#subscriptipon-services}
 
 
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn2"
->title="Aktivität „Anmeldedienste“"
->abstract="Verwenden Sie die neue Workflow-Aktivität „Anmeldedienste“, um Abonnements für einen Dienst zu verwalten. Sie können eine Population abonnieren oder desabonnieren sowie mehrere Anmeldungen über eine externe Datei aktualisieren. Optional können Sie auch eine Bestätigungsnachricht senden, um Abonnentinnen und Abonnenten zu benachrichtigen."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=de" text="Siehe Versionshinweise"
+
 
 
 >[!CONTEXTUALHELP]
