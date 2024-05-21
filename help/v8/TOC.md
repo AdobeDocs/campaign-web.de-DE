@@ -5,10 +5,10 @@ user-guide-description: Produktdokumentation zur Adobe Campaign Web-Benutzerober
 title: Dokumentation zu Adobe Campaign Web
 description: Dokumentation zu Campaign Web
 breadcrumb-title: Campaign Web-Benutzeroberfläche
-source-git-commit: e2dda5632081e74ecc17626b9d56ec1546adf2af
-workflow-type: ht
-source-wordcount: '690'
-ht-degree: 100%
+source-git-commit: b3eb0a2864ab68f224a78344956e3e3eb4323403
+workflow-type: tm+mt
+source-wordcount: '695'
+ht-degree: 99%
 
 ---
 
@@ -20,7 +20,6 @@ ht-degree: 100%
    + [Neue Funktionen](rn/whats-new.md)
    + [Aktuelle Version](rn/release-notes.md)
    + [Aktualisierungen der Dokumentation](rn/documentation-updates.md)
-   + [Von Campaign Standard zu v8](rn/acs-migration.md)
 + Erste Schritte mit Adobe Campaign {#start}
    + [Erste Schritte](get-started/get-started.md)
    + [Herstellen einer Verbindung zu Campaign](get-started/connect-to-campaign.md)
@@ -29,6 +28,7 @@ ht-degree: 100%
    + [Arbeiten mit vordefinierten Filtern](get-started/predefined-filters.md)
    + [Zugriff und Berechtigungen](get-started/permissions.md)
    + [Campaign Web und Client-Konsole](get-started/capability-matrix.md)
+   + [Von Campaign Standard zu v8](rn/acs-migration.md)
    + [KI-gestützte Kontexthilfe](get-started/using-ai.md)
 + Nachrichten und Sendungen {#msg}
    + [Erste Schritte mit Nachrichten](msg/gs-messages.md)
@@ -133,6 +133,7 @@ ht-degree: 100%
    + [Schutzmechanismen und Begrenzungen](get-started/guardrails.md)
    + [Workflow-Ereignisvariablen](workflows/event-variables.md)
    + [Zugriff und Verwaltung von Workflows](workflows/access-monitor.md)
+   + [Über schreibgeschützte Workflows](workflows/readonly-workflows.md)
    + Erstellen und Ausführen des ersten Workflows {#create-workflow}
       + [Grundlegende Prinzipien der Workflow-Erstellung](workflows/gs-workflow-creation.md)
       + [Erstellen des Workflows](workflows/create-workflow.md)
@@ -172,6 +173,7 @@ ht-degree: 100%
    + [Filterlisten](query/filter.md)
 + Reporting {#reports}
    + [Erste Schritte mit Berichten](reporting/gs-reports.md)
+   + [Audit-Protokoll](reporting/audit-trail.md)
    + [Exportieren der Berichte](reporting/export-reports.md)
    + [Wichtige Performance-Indikatoren](reporting/kpis.md)
    + Versandberichte {#delivery-report}
