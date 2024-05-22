@@ -3,10 +3,10 @@ audience: end-user
 title: Berechtigungsverwaltung in der Campaign Web-Benutzeroberfläche
 description: Erfahren Sie mehr über Berechtigungen in der Campaign Web-Benutzeroberfläche
 exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
-source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
+source-git-commit: dcbaa5df0b6fa82a3cdd0ddf70538f22ecdee249
 workflow-type: tm+mt
-source-wordcount: '623'
-ht-degree: 100%
+source-wordcount: '629'
+ht-degree: 92%
 
 ---
 
@@ -48,10 +48,7 @@ ht-degree: 100%
 >title="Dieser Workflow ist schreibgeschützt"
 >abstract="Keine Berechtigung, diesen Workflow zu bearbeiten. Bei Bedarf Admin kontaktieren, um Zugriff zu erhalten."
 
->[!CONTEXTUALHELP]
->id="acw_wf_read_only_canvas"
->title="Dieser Workflow ist schreibgeschützt"
->abstract="Dieser Workflow kann aufgrund einer nicht unterstützten oder nicht kompatiblen Arbeitsfläche nicht bearbeitet werden."
+
 
 Die Zugriffskontrolle kann den Zugriff auf Objekte und Daten aus Hauptlisten, wie Sendungen, Empfängerinnen bzw. Empfänger oder Workflows, einschränken. Diese Einschränkungen gelten auch für die **Navigationsstruktur** des Explorers. Darüber hinaus benötigen Sie Berechtigungen zum Erstellen, Löschen, Duplizieren und Bearbeiten von Objekten über die Benutzeroberfläche.
 
@@ -68,11 +65,11 @@ Gehen Sie wie folgt vor, um Berechtigungen für einen Ordner anzuzeigen:
 1. Wählen Sie im linken Navigationsmenü des **Explorers** einen Ordner aus.
 1. Klicken Sie auf die drei Punkte oben rechts und wählen Sie **Ordnerberechtigungen** aus.
 
-   ![](assets/permissions-view-menu.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
+   ![](assets/permissions-view-menu.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 
 1. Überprüfen Sie die Details im Bildschirm, wie im Folgenden gezeigt:
 
-   ![](assets/permissions-view-screen.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
+   ![](assets/permissions-view-screen.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 
    Eine Gruppe oder eine Benutzerin bzw. ein Benutzer kann Lese-, Schreib- und/oder Löschberechtigungen für Daten erhalten, die im ausgewählten Ordner gespeichert sind.
 
@@ -94,11 +91,17 @@ Sie können Ordner erstellen, umbenennen, neu anordnen und verschieben, um Ihre 
 Gehen Sie wie folgt vor, um einen Ordner zu erstellen:
 
 1. Wählen Sie im linken Navigationsmenü des **Explorers** einen Ordner aus.
-1. Klicken Sie auf die drei Punkte oben rechts und wählen Sie **Neuen Unterordner erstellen** aus.
-1. Geben Sie den Namen des Ordners ein und speichern Sie ihn.
+1. Klicken Sie auf die drei Punkte oben rechts und wählen Sie **Neuen Ordner erstellen**.
+1. Geben Sie den Namen des Ordners ein.
 
-   ![](assets/create-new-subfolder.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
+   ![](assets/create-new-subfolder.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
+
+1. Wählen Sie den Ordnertyp aus. Standardmäßig ist der Typ des übergeordneten Ordners ausgewählt, in unserem Beispiel &quot;Sendungen&quot;. Um den Ordnertyp zu ändern, klicken Sie auf das Ordnersymbol und wählen Sie einen anderen Typ aus.
+
+   ![](assets/create-new-subfolder2.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
+
+1. Klicken Sie auf **Erstellen**.
 
    Der Ordner wird als Unterordner des aktuellen Ordners hinzugefügt. Navigieren Sie zu diesem neuen Ordner, um Komponenten direkt darin zu erstellen. Sie können auch eine Komponente aus einem Ordner erstellen und sie in dem neuen Ordner speichern, und zwar über den Abschnitt **Zusätzliche Optionen** der Eigenschaften, wie unten für einen Versand dargestellt:
 
-   ![](assets/delivery-properties-folder.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
+   ![](assets/delivery-properties-folder.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
