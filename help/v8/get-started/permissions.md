@@ -3,10 +3,10 @@ audience: end-user
 title: Berechtigungsverwaltung in der Campaign Web-Benutzeroberfläche
 description: Erfahren Sie mehr über Berechtigungen in der Campaign Web-Benutzeroberfläche
 exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
-source-git-commit: 87afb93edd625659d3dcddefc402f8b67a38b580
+source-git-commit: b173afc12a5d8a7c57c688fe92e2c5628323fcad
 workflow-type: tm+mt
-source-wordcount: '629'
-ht-degree: 92%
+source-wordcount: '645'
+ht-degree: 90%
 
 ---
 
@@ -81,6 +81,26 @@ Weitere Informationen zu Benutzerberechtigungen finden Sie in der [Dokumentation
 
 
 ## Arbeiten mit Ordnern {#folders}
+
+>[!CONTEXTUALHELP]
+>id="acw_folder_properties"
+>title="Ordnereigenschaften"
+>abstract="Ordnereigenschaften"
+
+>[!CONTEXTUALHELP]
+>id="acw_folder_security"
+>title="Ordnersicherheit"
+>abstract="Ordnersicherheit"
+
+>[!CONTEXTUALHELP]
+>id="acw_folder_restrictions"
+>title="Ordnerbeschränkungen"
+>abstract="Ordnerbeschränkungen"
+
+>[!CONTEXTUALHELP]
+>id="acw_folder_schedule"
+>title="Ordnerplan"
+>abstract="Ordnerplan"
 
 Sie können Ordner erstellen, umbenennen, neu anordnen und verschieben, um Ihre Komponenten und Daten zu organisieren. Über das gleiche Menü können Sie auch Ordner löschen.
 
