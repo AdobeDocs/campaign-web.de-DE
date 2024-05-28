@@ -4,9 +4,9 @@ description: Hilfe-Center zu Campaign Web
 title: Produktdokumentation zu Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 source-git-commit: 35d803b7e409c38b9b29150aa4d8c1849f994c2c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '485'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -51,7 +51,7 @@ Hier erhalten Sie einen Einblick in die neuesten Verbesserungen in Adobe Campaig
 
 >[!BEGINTABS]
 
->[!TAB Die Version vom Mai ist live!]
+>[!TAB Die Mai-Version ist live!]
 
 Entdecken Sie die neuen Funktionen und Verbesserungen der Adobe Campaign Web-Benutzeroberfläche Version 24.4.
 
@@ -59,7 +59,7 @@ Entdecken Sie die neuen Funktionen und Verbesserungen der Adobe Campaign Web-Ben
 
 >[!TAB Audit-Protokoll]
 
-Die neue Funktion &quot;Audit-Protokoll&quot;enthält eine detaillierte und chronologische Übersicht aller Aktionen und Ereignisse, die in Echtzeit an Ihrer Adobe Campaign-Instanz durchgeführt wurden.
+Die neue Funktion „Audit-Protokoll“ enthält eine detaillierte, chronologische Übersicht aller Aktionen und Ereignisse, die in Echtzeit an Ihrer Adobe Campaign-Instanz durchgeführt wurden.
 
 [![Bild](assets/do-not-localize/learn-more-button.svg)](reporting/audit-trail.md)
 
@@ -69,9 +69,9 @@ Benutzerdefinierte Felder sind zusätzliche Attribute, die über die Adobe Campa
 
 [![Bild](assets/do-not-localize/learn-more-button.svg)](administration/custom-fields.md)
 
->[!TAB Verknüpfungstabellen]
+>[!TAB Relationstabellen]
 
-Jetzt können Sie in der Workflow-Aktivität Anreicherung eine Verknüpfung zwischen den Arbeitstabellendaten und der Adobe Campaign-Datenbank erstellen.
+Jetzt können Sie in der Workflow-Anreicherungsaktivität eine Relation zwischen den Daten der Arbeitstabelle und der Adobe Campaign-Datenbank erstellen.
 
 [![Bild](assets/do-not-localize/learn-more-button.svg)](workflows/activities/enrichment.md#create-links)
 

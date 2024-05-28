@@ -4,9 +4,9 @@ title: Gestalten eines Briefpostversands
 description: Erfahren Sie, wie Sie mit Adobe Campaign Web einen Briefpostversand gestalten.
 exl-id: aefba651-4125-4b1e-992f-1fe90fd95e4c
 source-git-commit: 60484d08a68a5caaf91074c9ce543d8a44d44ab7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '563'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -59,7 +59,7 @@ Um den Inhalt der durch Ihren Briefpostversand generierten Extraktionsdatei zu g
 Geben Sie im Abschnitt **[!UICONTROL Inhalt]** die Spalten an, die in der Extraktionsdatei angezeigt werden sollen. Gehen Sie dazu wie folgt vor:
 
 1. Klicken Sie auf die Schaltfläche **[!UICONTROL Attribut hinzufügen]**, um eine neue Spalte zu erstellen.
-1. Wählen Sie das Attribut aus, das in der Spalte angezeigt werden soll, und bestätigen Sie dann die Auswahl. Beachten Sie, dass Sie mit dem Ausdruckseditor das zu verwendende Attribut auswählen können, indem Sie auf die **[!UICONTROL Ausdruck bearbeiten]** Schaltfläche.
+1. Wählen Sie das Attribut aus, das in der Spalte angezeigt werden soll, und bestätigen Sie dann die Auswahl. Beachten Sie, dass Sie mit dem Ausdruckseditor das zu verwendende Attribut auswählen können, indem Sie auf die Schaltfläche **[!UICONTROL Ausdruck bearbeiten]** klicken.
 
    ![](assets/dm-add-attribute.png)
 

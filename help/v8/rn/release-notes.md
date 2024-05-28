@@ -1,11 +1,11 @@
 ---
 title: Versionshinweise zur Web-Benutzeroberfläche von Campaign v8
-description: Entdecken Sie neue Funktionen der neuesten Version der Campaign-Webbenutzeroberfläche
+description: Entdecken Sie die neuen Funktionen der neuesten Version der Campaign Web-Benutzeroberfläche
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 source-git-commit: 4df01bae0d2099f38012fb082e249bc060e4ce6b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1461'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -18,23 +18,23 @@ ht-degree: 81%
 
 Die Versionen der Adobe Campaign Web-Benutzeroberfläche basieren auf einem kontinuierlichen Bereitstellungsmodell, das einen besser skalierbaren, schrittweisen Ansatz für die Implementierung von Funktionen ermöglicht. Dementsprechend werden diese Versionshinweise mehrmals im Monat aktualisiert. Sie sollten daher regelmäßig nachschauen.
 
-## Mai - Versionshinweise {#24-5-release}
+## Versionshinweise für Mai {#24-5-release}
 
-**Veröffentlichungsdatum**: Mittwoch, 21. Mai 2024
+**Veröffentlichungsdatum**: 21. Mai 2024
 
-Die folgenden Funktionen und Verbesserungen stehen allen Benutzern ab der Mai-Version zur Verfügung.
+Die folgenden Funktionen und Verbesserungen stehen allen Benutzenden ab der Mai-Version zur Verfügung.
 
 ### Audit-Protokoll  {#24-5-1}
 
-Die neue **Audit-Protokoll** -Funktion bietet einen detaillierten und chronologischen Datensatz aller Aktionen und Ereignisse, die in Echtzeit an Ihrer Adobe Campaign-Instanz durchgeführt wurden. Es bietet eine bequeme Methode, um alle Änderungen an Ihren Campaign-Daten zu verfolgen und Abfragen wie den Status von Workflows, die neuesten Kontakte, die diese ändern sollen, oder die Aktivitäten, die von Benutzern innerhalb der Instanz ausgeführt werden. [Weitere Informationen](../reporting/audit-trail.md)
+Die neue Funktion **Audit-Protokoll** bietet eine detaillierte, chronologische Aufzeichnung aller Aktionen und Ereignisse, die in Echtzeit an Ihrer Adobe Campaign-Instanz durchgeführt wurden. Dies bietet eine einfache Methode, um alle Änderungen an Ihren Campaign-Daten zu verfolgen und Abfragen durchzuführen, wie zum Status von Workflows, den Personen, die diese geändert haben oder den Aktivitäten, die von Benutzerinnen und Benutzern innerhalb der Instanz ausgeführt wurden. [Weitere Informationen](../reporting/audit-trail.md)
 
 ### Benutzerdefinierte Felder {#24-5-2}
 
 **Benutzerdefinierte Felder** sind zusätzliche Attribute, die über die Adobe Campaign-Konsole zu vorkonfigurierten Schemata hinzugefügt werden. In der Campaign Web-Benutzeroberfläche sind diese benutzerdefinierten Felder nun in verschiedenen Bildschirmen sichtbar, z. B. in den Details eines Profils oder eines Testprofils. In der Web-Benutzeroberfläche können Sie zwar keine benutzerdefinierten Felder erstellen, dafür aber ihre Anzeige ändern. [Weitere Informationen](../administration/custom-fields.md)
 
-### Relationen zwischen Tabellen erstellen {#24-5-3}
+### Erstellen von Relationen zwischen Tabellen {#24-5-3}
 
-Sie können jetzt Links mit einer anderen Tabelle im **Anreicherung** Workflow-Aktivität. Verwenden Sie die neuen **Linkdefinition** in den Aktivitätsparametern, um eine Verknüpfung zwischen den Daten der Arbeitstabelle und der Adobe Campaign-Datenbank herzustellen. Wenn Sie beispielsweise Daten aus einer Datei laden, die die Kontonummer, das Land und die E-Mail-Adresse der Empfänger enthält, können Sie jetzt eine Relation zur Ländertabelle erstellen, um diese Informationen in ihren Profilen zu aktualisieren. [Weitere Informationen](../workflows/activities/enrichment.md#create-links)
+Sie können jetzt in der Workflow-Aktivität **Anreicherung** Relationen mit einer anderen Tabelle erstellen. Verwenden Sie den neuen Abschnitt **Relationsdefinition** in den Aktivitätsparametern, um eine Relation zwischen den Daten der Arbeitstabelle und der Adobe Campaign-Datenbank herzustellen. Wenn Sie beispielsweise Daten aus einer Datei laden, die die Kundennummer, das Land und die E-Mail-Adresse der Empfängerinnen und Empfänger enthält, können Sie jetzt eine Relation zur Ländertabelle erzeugen, um die entsprechende Information in den Profilen zu aktualisieren. [Weitere Informationen](../workflows/activities/enrichment.md#create-links)
 
 <!--
 ### Content fragments {#24-5-4}
@@ -46,14 +46,14 @@ Sie können jetzt Links mit einer anderen Tabelle im **Anreicherung** Workflow-A
 
 ### Allgemeine Verbesserungen {#improvements-24-5}
 
-* **Briefpost** - Sie können jetzt den Ausdruckseditor verwenden, um die Attribute auszuwählen, die in Briefpost-Extraktionsdateien angezeigt werden sollen. [Weitere Informationen](../direct-mail/content-direct-mail.md)
+* **Briefpost** – Sie können jetzt den Ausdruckseditor verwenden, um die Attribute auszuwählen, die in Briefpost-Extraktionsdateien angezeigt werden sollen. [Weitere Informationen](../direct-mail/content-direct-mail.md)
 
-* **Ordnerverwaltung** - Sie können jetzt einen Unterordner von einem anderen Typ als den übergeordneten Ordner erstellen. [Weitere Informationen](../get-started/permissions.md#folders)
+* **Ordnerverwaltung** – Sie können jetzt einen Unterordner von einem anderen Typ als den übergeordneten Ordner erstellen. [Weitere Informationen](../get-started/permissions.md#folders)
 
 
 <!--* **Execution options for workflows** - You can now define execution options for your workflows, such as the maximum duration, the affinity, or the time zone.-->
 
-* **Globalisierung** - Im Rahmen unserer laufenden Bemühungen um ein einheitliches Benutzererlebnis harmonisieren wir die in den Adobe Experience Cloud-Produkten und -Apps verwendete Terminologie. Dies wirkt sich auf den deutschen Begriff &quot;Titel&quot; aus, der in &quot;Titel&quot; geändert wird, wenn er sich auf den Namen eines Objekts bezieht. Die Änderungen werden schrittweise in der Benutzeroberfläche und Dokumentation bereitgestellt.
+* **Globalisierung** – Im Rahmen unserer kontinuierlichen Bemühungen um ein einheitliches Benutzererlebnis harmonisieren wir die in den Adobe Experience Cloud-Produkten und -Apps verwendete Terminologie. Dies wirkt sich auf den deutschen Begriff „Titel“ aus, der in „Label“ geändert wird, wenn er sich auf den Namen eines Objekts bezieht. Die Änderungen werden schrittweise in der Benutzeroberfläche und Dokumentation eingeführt.
 
 
 ## Versionshinweise für April {#april-24-4-release}

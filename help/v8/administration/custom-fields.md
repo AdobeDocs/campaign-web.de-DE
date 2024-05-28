@@ -3,9 +3,9 @@ title: Benutzerdefinierte Felder
 description: Informationen dazu, wie Sie benutzerdefinierte Felder konfigurieren können
 exl-id: 34e7e0b7-3981-43b1-95a5-6c672adafdc9
 source-git-commit: 93ac61808049da6f0d800a19f2baf97946d8612c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '255'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 

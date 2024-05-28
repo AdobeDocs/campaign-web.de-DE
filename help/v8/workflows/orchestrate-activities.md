@@ -4,9 +4,9 @@ title: Erstellen von Workflows mit Adobe Campaign Web
 description: Erfahren Sie, wie Sie Workflows mit Adobe Campaign Web erstellen
 exl-id: 0c8e2158-518c-4620-9971-00ed2eccdd4f
 source-git-commit: 3d566c03795dbb0a9ad31dba1037f2a559fa8e31
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1068'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -82,7 +82,7 @@ Um die kopierten Aktivitäten einzufügen, klicken Sie auf die Schaltfläche **+
 
 ## Ausführungsoptionen {#execution}
 
-Sie können die Ausführungsoptionen aller Aktivitäten verwalten.  Wählen Sie eine Aktivität aus und klicken Sie auf die Schaltfläche **Ausführungsoptionen**. Auf diese Weise können Sie den Ausführungsmodus und das Verhalten der Aktivität im Fall von Fehlern definieren.
+Sie können die Ausführungsoptionen aller Aktivitäten verwalten.  Wählen Sie eine Aktivität aus und klicken Sie auf die Schaltfläche **Ausführungsoptionen**. Auf diese Weise können Sie den Ausführungsmodus und das Verhalten der Aktivität im Falle eines Fehlers definieren.
 
 ![](assets/workflow-execution-options.png){zoomable="yes"}{width="70%"}
 
