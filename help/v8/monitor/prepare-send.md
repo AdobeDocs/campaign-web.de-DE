@@ -3,9 +3,9 @@ audience: end-user
 title: Vorbereiten und Senden einer E-Mail
 description: Erfahren Sie, wie Sie eine E-Mail mit der Campaign Web-Benutzeroberfläche vorbereiten und senden
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 35de060a73c17b304d63000656ff86bb4a80ab15
 workflow-type: tm+mt
-source-wordcount: '911'
+source-wordcount: '891'
 ht-degree: 100%
 
 ---
@@ -25,29 +25,29 @@ Die wichtigsten Schritte zur Versandvorbereitung sind unten aufgeführt.
 
 1. Klicken Sie im Versand-Dashboard auf **[!UICONTROL Überprüfen und senden]**.
 
-   ![](assets/email-review-and-send.png){zoomable=&quot;yes&quot;}
+   ![](assets/email-review-and-send.png){zoomable="yes"}
 
 
 1. Klicken Sie oben rechts auf die Schaltfläche **[!UICONTROL Vorbereiten]** und bestätigen Sie den Vorgang.
 
-   ![](assets/email-prepare.png){zoomable=&quot;yes&quot;}
+   ![](assets/email-prepare.png){zoomable="yes"}
 
    >[!NOTE]
    >
-   >Wenn Sie den Versand geplant und die Option **[!UICONTROL Bestätigung vor dem Senden aktivieren]** deaktiviert haben, werden die Vorbereitungs- und Versandschritte unter der Schaltfläche **[!UICONTROL Vorbereiten und senden]** gruppiert. [Weitere Informationen zur Zeitplanung](../msg/gs-messages.md#gs-schedule)
+   >Wenn Sie den Versand geplant und die Option **[!UICONTROL Bestätigung vor dem Senden aktivieren]** deaktiviert haben, werden die Vorbereitungs- und Versandschritte unter der Schaltfläche **[!UICONTROL Vorbereiten und senden]** gruppiert. [Weitere Informationen zur Zeitplanung](../msg/gs-deliveries.md#gs-schedule)
 
 1. Der Vorbereitungsfortschritt wird angezeigt. Abhängig von der Größe der Ziel-Population kann dieser Vorgang einige Zeit in Anspruch nehmen.
 
    Sie können die Vorbereitung jederzeit mit der Schaltfläche **[!UICONTROL Vorbereitung stoppen]** anhalten.
 
-   ![](assets/email-stop-preparation.png){zoomable=&quot;yes&quot;}
+   ![](assets/email-stop-preparation.png){zoomable="yes"}
 
    >[!NOTE]
    >Dies ist mit keinerlei Risiko verbunden, da in dieser Phase keine Nachrichten gesendet werden. Je nach Größe der Zielgruppe kann die Dauer der Versandvorbereitung variieren.
 
 1. Wenn die Vorbereitung abgeschlossen ist, überprüfen Sie die KPIs. Wenn die Anzahl zu sendender Nachrichten nicht Ihren Erwartungen entspricht, ändern Sie Ihre Zielgruppe und starten Sie die Vorbereitung erneut.
 
-   ![](assets/email-preparation-complete.png){zoomable=&quot;yes&quot;}
+   ![](assets/email-preparation-complete.png){zoomable="yes"}
 
    Im Folgenden werden die verschiedenen KPIs angezeigt:
 
@@ -57,11 +57,11 @@ Die wichtigsten Schritte zur Versandvorbereitung sind unten aufgeführt.
 
 1. Klicken Sie auf die Schaltfläche **[!UICONTROL Protokolle]** und vergewissern Sie sich, dass kein Fehler vorliegt. Die letzte Log-Nachricht zeigt eventuelle Fehler und deren Anzahl an. [Weitere Informationen](delivery-logs.md)
 
-   ![](assets/email-prepare-logs.png){zoomable=&quot;yes&quot;}
+   ![](assets/email-prepare-logs.png){zoomable="yes"}
 
 1. Wenn bei der Vorbereitung ein kritischer Fehler erkannt wird, der den Versand verhindert, wird der Vorbereitungsstatus im Versand-Dashboard als fehlgeschlagen angezeigt.
 
-   ![](assets/email-prepare-error.png){zoomable=&quot;yes&quot;}
+   ![](assets/email-prepare-error.png){zoomable="yes"}
 
 1. Wenn Sie nach der Vorbereitung Änderungen am Versand vornehmen möchten, müssen Sie die Vorbereitung erneut starten, damit diese Änderungen berücksichtigt werden.
 
@@ -72,7 +72,7 @@ Nachdem die Vorbereitung fehlerfrei abgeschlossen wurde, kann Ihre Nachricht ges
 
 Nach abgeschlossener [Vorbereitung](#prepare) können Sie Ihre E-Mail senden.
 
-Eine geplante Nachricht wird zum definierten Zeitpunkt gesendet. [Weitere Informationen](../msg/gs-messages.md#gs-schedule)
+Eine geplante Nachricht wird zum definierten Zeitpunkt gesendet. [Weitere Informationen](../msg/gs-deliveries.md#gs-schedule)
 
 ### Sofortiges Senden {#send-immediately}
 
@@ -80,7 +80,7 @@ Gehen Sie wie folgt vor, um eine E-Mail sofort zu senden.
 
 1. Klicken Sie im Versand-Dashboard oben rechts auf die Schaltfläche **[!UICONTROL Senden]**.
 
-   ![](assets/email-send.png){zoomable=&quot;yes&quot;}
+   ![](assets/email-send.png){zoomable="yes"}
 
 1. Bestätigen Sie diese Aktion, um die Nachricht sofort an die Hauptzielgruppe zu senden.
 
@@ -90,17 +90,17 @@ Gehen Sie wie folgt vor, um eine E-Mail sofort zu senden.
 
 Gehen Sie wie folgt vor, wenn Sie den Versand Ihrer E-Mail für einen späteren Zeitpunkt geplant haben.
 
-1. Bevor Sie auf die Schaltfläche **[!UICONTROL Überprüfen und senden]** klicken, stellen Sie sicher, dass Sie einen Zeitplan für Ihre E-Mail definiert haben. [Weitere Informationen](../msg/gs-messages.md#gs-schedule)
+1. Bevor Sie auf die Schaltfläche **[!UICONTROL Überprüfen und senden]** klicken, stellen Sie sicher, dass Sie einen Zeitplan für Ihre E-Mail definiert haben. [Weitere Informationen](../msg/gs-deliveries.md#gs-schedule)
 
 1. Klicken Sie im Versand-Dashboard oben rechts auf die Schaltfläche **[!UICONTROL Nach Zeitplan senden]**.
 
-   ![](assets/email-send-as-scheduled.png){zoomable=&quot;yes&quot;}
+   ![](assets/email-send-as-scheduled.png){zoomable="yes"}
 
 1. Klicken Sie auf **[!UICONTROL Senden bestätigen]**. Der Versand erfolgt zum geplanten Datum an die Hauptzielgruppe.
 
    >[!NOTE]
    >
-   >Wenn Sie die Option **[!UICONTROL Bestätigung vor dem Senden aktivieren]** deaktiviert haben, werden die Vorbereitungs- und Versandschritte unter der Schaltfläche **[!UICONTROL Vorbereiten und senden]** gruppiert. [Weitere Informationen zur Zeitplanung](../msg/gs-messages.md#gs-schedule)
+   >Wenn Sie die Option **[!UICONTROL Bestätigung vor dem Senden aktivieren]** deaktiviert haben, werden die Vorbereitungs- und Versandschritte unter der Schaltfläche **[!UICONTROL Vorbereiten und senden]** gruppiert. [Weitere Informationen zur Zeitplanung](../msg/gs-deliveries.md#gs-schedule)
 
 ## Anhalten oder Beenden des Sendevorgangs {#pause-stop-sending}
 
@@ -110,7 +110,7 @@ Unabhängig davon, ob es sich um einen geplanten oder ungeplanten Versand handel
 
 * Klicken Sie auf **[!UICONTROL Senden beenden]**, um den Sendevorgang sofort abzubrechen. Vorbereitung und Sendevorgang können nicht fortgesetzt werden.
 
-![](assets/email-send-pause-or-stop.png){zoomable=&quot;yes&quot;}
+![](assets/email-send-pause-or-stop.png){zoomable="yes"}
 
 ## Überprüfen der KPIs {#check-kpis}
 
@@ -150,7 +150,7 @@ Unabhängig davon, ob es sich um einen geplanten oder ungeplanten Versand handel
 
 Nach abgeschlossenem Sendevorgang können Sie die angezeigten KPIs überprüfen:
 
-![](assets/email-send-kpis.png){zoomable=&quot;yes&quot;}
+![](assets/email-send-kpis.png){zoomable="yes"}
 
 * **[!UICONTROL Gesendet]**: die Anzahl der zugestellten Nachrichten. Der angezeigte Prozentsatz bezieht sich auf die Gesamtzahl der zuzustellenden Nachrichten.
 

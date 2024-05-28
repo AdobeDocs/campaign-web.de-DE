@@ -5,9 +5,9 @@ user-guide-description: Produktdokumentation zur Adobe Campaign Web-Benutzerober
 title: Dokumentation zu Adobe Campaign Web
 description: Dokumentation zu Campaign Web
 breadcrumb-title: Campaign Web-Benutzeroberfläche
-source-git-commit: b3eb0a2864ab68f224a78344956e3e3eb4323403
+source-git-commit: a42594d3c1e248e835608c99c168655e9f34890c
 workflow-type: tm+mt
-source-wordcount: '695'
+source-wordcount: '701'
 ht-degree: 99%
 
 ---
@@ -64,6 +64,7 @@ ht-degree: 99%
          + [Vorbereiten und Senden einer E-Mail](monitor/prepare-send.md)
          + [Versenden in mehreren Schüben](advanced-settings/send-using-waves.md)
          + [Überwachen von Versandlogs](monitor/delivery-logs.md)
+         + [Versand planen](monitor/schedule-sending.md)
    + Push-Benachrichtigungen {#push}
       + [Erste Schritte mit Push-Benachrichtigungen](push/gs-push.md)
       + [Erstellen eines Push-Benachrichtigungs-Versands](push/create-push.md)
@@ -132,7 +133,7 @@ ht-degree: 99%
    + [Erste Schritte mit Workflows](workflows/gs-workflows.md)
    + [Schutzmechanismen und Begrenzungen](get-started/guardrails.md)
    + [Workflow-Ereignisvariablen](workflows/event-variables.md)
-   + [Zugriff und Verwaltung von Workflows](workflows/access-monitor.md)
+   + [Zugriff auf Workflows und deren Verwaltung](workflows/access-monitor.md)
    + [Über schreibgeschützte Workflows](workflows/readonly-workflows.md)
    + Erstellen und Ausführen des ersten Workflows {#create-workflow}
       + [Grundlegende Prinzipien der Workflow-Erstellung](workflows/gs-workflow-creation.md)
