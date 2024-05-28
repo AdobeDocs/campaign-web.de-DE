@@ -6,7 +6,7 @@ exl-id: 02f30090-231f-4880-8cf7-77d57751e824
 source-git-commit: 490c2723f8e06f7360b21c8101c65961b0cfdfc3
 workflow-type: tm+mt
 source-wordcount: '1300'
-ht-degree: 55%
+ht-degree: 99%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 55%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment_simplejoin"
->title="Erstellen Sie eine Verknüpfung zwischen den Daten der Arbeitstabelle und der Adobe Campaign-Datenbank. Wenn Sie beispielsweise Daten aus einer Datei laden, die die Kundennummer, das Land und die E-Mail-Adresse der Empfänger enthält, müssen Sie eine Relation zur Ländertabelle erstellen, um diese Informationen in ihren Profilen zu aktualisieren."
+>title="Erstellen Sie eine Verknüpfung zwischen den Daten der Arbeitstabelle und der Adobe Campaign-Datenbank. Wenn Sie beispielsweise Daten aus einer Datei laden, die die Kundennummer, das Land und die E-Mail-Adresse der Empfängerinnen und Empfänger enthält, ist die Erzeugung einer Relation zur Ländertabelle erforderlich, um die entsprechende Information im Empfängerprofil zu aktualisieren."
 >abstract="Definition der Relation"
 
 >[!CONTEXTUALHELP]
@@ -53,21 +53,21 @@ Nachdem die Anreicherungsdaten zum Workflow hinzugefügt wurden, können sie in 
 
 Sie können beispielsweise der Workflow-Arbeitstabelle Informationen zu Käufen von Kundinnen und Kunden hinzufügen und diese Daten verwenden, um E-Mails mit ihrem neuesten Kauf oder dem für diese Käufe ausgegebenen Betrag zu personalisieren.
 
-## Aktivität Anreicherung hinzufügen {#enrichment-configuration}
+## Hinzufügen einer Anreicherungsaktivität {#enrichment-configuration}
 
 Führen Sie die folgenden Schritte aus, um die Aktivität **Anreicherung** zu konfigurieren:
 
 1. Fügen Sie Aktivitäten wie **Zielgruppe erstellen** und **Kombinieren** hinzu.
 1. Fügen Sie eine Aktivität vom Typ **Anreicherung** hinzu.
-1. Wenn in Ihrem Workflow mehrere Transitionen konfiguriert wurden, können Sie die **[!UICONTROL Primärer Satz]** -Feld, um festzulegen, welche Transition als Hauptmenge für die Anreicherung mit Daten verwendet werden soll.
+1. Wenn in Ihrem Workflow mehrere Transitionen konfiguriert wurden, können Sie das Feld **[!UICONTROL Hauptmenge]** verwenden, um festzulegen, welche Transition als Hauptmenge für die Anreicherung mit Daten verwendet werden soll.
 
-## Anreicherungsdaten hinzufügen {#enrichment-add}
+## Hinzufügen von Anreicherungsdaten {#enrichment-add}
 
 1. Klicken Sie auf **Anreicherungsdaten hinzufügen** und wählen Sie das Attribut zur Datenanreicherung aus.
 
-   Sie können zwei Arten von Anreicherungsdaten auswählen: ein einzelnes Anreicherungsattribut aus der Zieldimension oder eine Kollektionsrelation. Die einzelnen Typen werden in den folgenden Beispielen beschrieben:
+   Sie können zwei Arten von Anreicherungsdaten auswählen: ein einzelnes Anreicherungsattribut aus der Zielgruppendimension oder eine Sammlungsrelation. Jeder dieser Typen wird in den Beispielen unten detailliert beschrieben:
    * [Einzelnes Anreicherungsattribut](#single-attribute)
-   * [Link zur Sammlung](#collection-link)
+   * [Sammlungsrelation](#collection-link)
 
    >[!NOTE]
    >
@@ -75,41 +75,41 @@ Führen Sie die folgenden Schritte aus, um die Aktivität **Anreicherung** zu ko
 
    ![](../assets/workflow-enrichment1.png)
 
-## Relationen zwischen Tabellen erstellen {#create-links}
+## Erstellen von Relationen zwischen Tabellen {#create-links}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn3"
 >title="Relationen zwischen Tabellen"
->abstract="Jetzt können Sie in der Workflow-Aktivität Anreicherung eine Verknüpfung zwischen den Arbeitstabellendaten und der Adobe Campaign-Datenbank erstellen."
+>abstract="Jetzt können Sie in der Workflow-Anreicherungsaktivität eine Relation zwischen den Daten der Arbeitstabelle und der Adobe Campaign-Datenbank erstellen."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=de" text="Siehe Versionshinweise"
 
-Die **[!UICONTROL Linkdefinition]** erstellt eine Relation zwischen den Daten der Arbeitstabelle und der Adobe Campaign-Datenbank. Wenn Sie beispielsweise Daten aus einer Datei laden, die die Kundennummer, das Land und die E-Mail-Adresse der Empfänger enthält, müssen Sie eine Relation zur Ländertabelle erstellen, um diese Informationen in ihren Profilen zu aktualisieren.
+Der Abschnitt **[!UICONTROL Relationsdefinition]** dient der Erzeugung einer Relation zwischen den Daten der Arbeitstabelle und der Adobe Campaign-Datenbank. Wenn Sie beispielsweise Daten aus einer Datei laden, die die Kundennummer, das Land und die E-Mail-Adresse der Empfängerinnen und Empfänger enthält, ist die Erzeugung einer Relation zur Ländertabelle erforderlich, um die entsprechende Information im Empfängerprofil zu aktualisieren.
 
-Es stehen verschiedene Arten von Links zur Verfügung:
+Es stehen verschiedene Relationstypen zur Verfügung:
 
-* **[!UICONTROL Einfache Relation zwischen 1 Kardinalität]**: Jeder Datensatz aus der Hauptmenge kann einem Datensatz und nur einem Datensatz aus den verknüpften Daten zugeordnet werden.
-* **[!UICONTROL Einfache Relation mit Kardinalität 0 oder 1]**: Jeder Datensatz aus der Hauptmenge kann mit 0 oder 1 Datensatz aus den verknüpften Daten, jedoch nicht mehr als einem Datensatz verknüpft werden.
-* **[!UICONTROL Kollektionsrelation mit Kardinalität N]**: Jeder Datensatz aus der Hauptmenge kann mit 0, 1 oder mehr (N) Datensätzen aus den verknüpften Daten verknüpft werden.
+* **[!UICONTROL Einfache Relation mit Kardinalität 1]**: Jeder Eintrag aus der Hauptmenge kann genau einem Eintrag aus den verknüpften Daten zugeordnet werden.
+* **[!UICONTROL Einfache Relation mit Kardinalität 0 oder 1]**: Jeder Eintrag der Hauptmenge kann 0 oder maximal 1 Eintrag der verknüpften Menge zugeordnet werden.
+* **[!UICONTROL Sammlungsrelation mit Kardinalität N]**: Jeder Eintrag aus der Hauptmenge kann 0, 1 oder mehr (N) Einträgen der verknüpften Daten zugeordnet werden.
 
-Gehen Sie wie folgt vor, um einen Link zu erstellen:
+Gehen Sie wie folgt vor, um eine Relation zu erzeugen:
 
-1. Im **[!UICONTROL Linkdefinition]** klicken Sie auf die **[!UICONTROL Link hinzufügen]** Schaltfläche.
+1. Klicken Sie im Abschnitt **[!UICONTROL Relationsdefinition]** auf die Schaltfläche **[!UICONTROL Relation hinzufügen]** .
 
    ![](../assets/workflow-enrichment-link.png)
 
-1. Im **Relationstyp** wählen Sie aus der Dropdown-Liste den Typ des Links aus, den Sie erstellen möchten.
+1. Wählen Sie in der Dropdown-Liste **Relationstyp** den Relationstyp aus, den Sie erzeugen möchten.
 
-1. Bestimmen Sie das Ziel, mit dem Sie die Hauptmenge verknüpfen möchten:
+1. Bestimmen Sie die Zielgruppe, die Sie mit der Hauptmenge verknüpfen möchten:
 
-   * Um eine vorhandene Tabelle in der Datenbank zu verknüpfen, wählen Sie **[!UICONTROL Datenbankschema]** und wählen Sie die gewünschte Tabelle aus der **[!UICONTROL Zielschema]** -Feld.
-   * Um eine Relation mit Daten aus der eingehenden Transition herzustellen, wählen Sie **Temporäres Schema** und wählen Sie die Transition aus, deren Daten Sie verwenden möchten.
+   * Um eine vorhandene Tabelle in der Datenbank zu verknüpfen, wählen Sie **[!UICONTROL Datenbankschema]** aus und wählen Sie dann aus dem Feld **[!UICONTROL Zielschema]** die gewünschte Tabelle aus.
+   * Um eine Relation mit Daten aus der eingehenden Transition herzustellen, wählen Sie **Temporäres Schema** und dann die Transition aus, deren Daten Sie verwenden möchten.
 
-1. Definieren Sie die Abstimmkriterien, um die Daten der Hauptmenge mit dem verknüpften Schema abzustimmen. Es stehen zwei Typen von Joins zur Verfügung:
+1. Definieren Sie die Abstimmkriterien, um die Daten der Hauptmenge mit dem verknüpften Schema abzustimmen. Es gibt zwei Arten von Joins:
 
-   * **Einfacher Join**: Wählen Sie ein bestimmtes Attribut aus, um die Daten aus den beiden Schemas abzugleichen. Klicks **Join hinzufügen** und wählen Sie die **Quelle** und **Ziel** -Attribute, die als Abstimmkriterien verwendet werden.
-   * **Erweiterter Join**: Erstellen Sie einen Join mit erweiterten Bedingungen. Klicks **Join hinzufügen** und klicken Sie auf **Bedingung erstellen** Schaltfläche zum Öffnen des Abfragemodells.
+   * **Einfacher Join**: Wählen Sie ein bestimmtes Attribut aus, um die Daten aus den beiden Schemata abzugleichen. Klicken Sie auf **Join hinzufügen** und wählen Sie die Attribute **Quelle** und **Ziel** aus, die als Abstimmkriterien verwendet werden.
+   * **Erweiterter Join**: Erstellen Sie einen Join mit erweiterten Bedingungen. Klicken Sie auf **Join hinzufügen** und klicken Sie auf die Schaltfläche **Bedingung erstellen**, um den Abfrage-Modeler zu öffnen.
 
-Ein Workflow-Beispiel mit Links ist im Abschnitt [Beispiele](#link-example) Abschnitt.
+Ein Workflow-Beispiel mit Relationen ist im Abschnitt [Beispiele](#link-example) verfügbar.
 
 ## Beispiele {#example}
 
@@ -178,12 +178,12 @@ Jetzt müssen wir eine Sortierung anwenden, um die drei **letzten** Käufe abzur
 ![](../assets/workflow-enrichment7.png)
 
 
-### Anreicherung mit verknüpften Daten {#link-example}
+### Anreicherung mit in Relation stehenden Daten {#link-example}
 
-Das folgende Beispiel zeigt einen Workflow, der konfiguriert wurde, um eine Verknüpfung zwischen zwei Transitionen zu erstellen. Die erste Transition dient der Bestimmung von Zielgruppendaten mithilfe einer Abfrage -Aktivität, während die zweite Transition Kaufdaten enthält, die in einer Datei gespeichert sind, die über die Aktivität Datei laden geladen wurde.
+Das folgende Beispiel zeigt einen Workflow, der konfiguriert wurde, um eine Relation zwischen zwei Transitionen zu erstellen. Die ersten Transitionen enthalten eine Aktivität zur Abfrage von Profildaten einer Zielgruppe, während die zweite Transition Kaufdaten enthält, die in einer Datei gespeichert sind, welche über die Aktivität „Datei laden“ geladen wurde.
 
-* Die erste **Anreicherung** Aktivität verknüpft unsere Hauptmenge (Daten aus **Abfrage** -Aktivität) mit dem Schema aus der **Datei laden** -Aktivität. Dadurch können wir jedes Profil, das in der Abfrage angesprochen wird, mit den entsprechenden Kaufdaten abgleichen.
-* Eine Sekunde **Anreicherung** -Aktivität hinzugefügt, um die Daten aus der Workflow-Tabelle mit den Kaufdaten aus der **Datei laden** -Aktivität. Auf diese Weise können wir diese Daten in weiteren Aktivitäten verwenden, um beispielsweise die an die Kunden gesendeten Nachrichten mit Informationen zum Kauf zu personalisieren.
+* Die erste **Anreicherungsaktivität** verknüpft unsere Hauptmenge (Daten aus der **Abfrageaktivität**) mit dem Schema aus der Aktivität **Datei laden**. Dadurch können wir jedes Profil, das zur Zielgruppe der Abfrage gehört, mit den entsprechenden Kaufdaten abgleichen.
+* Eine zweite **Anreicherungsaktivität** wird hinzugefügt, um die Daten aus der Workflow-Tabelle mit den Kaufdaten aus der Aktivität **Datei laden** anzureichern. Auf diese Weise können wir diese Daten in weiteren Aktivitäten verwenden, um beispielsweise die an die Kundinnen und Kunden gesendeten Nachrichten mit Informationen zum Kauf zu personalisieren.
 
   ![](../assets/workflow-enrichment-example.png)
 
