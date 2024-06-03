@@ -4,7 +4,7 @@ title: Audit-Protokoll
 description: Erfahren Sie, wie Sie Ihre Instanz mit dem Audit-Protokoll von Campaign überwachen.
 feature: Audit Trail, Monitoring, Workflows
 source-git-commit: 93ac61808049da6f0d800a19f2baf97946d8612c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '615'
 ht-degree: 100%
 

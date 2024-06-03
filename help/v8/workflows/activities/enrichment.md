@@ -3,7 +3,7 @@ audience: end-user
 title: Verwendung der Workflow-Aktivität „Anreicherung“
 description: Erfahren Sie, wie Sie die Workflow-Aktivität „Anreicherung“ verwenden.
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
-source-git-commit: 490c2723f8e06f7360b21c8101c65961b0cfdfc3
+source-git-commit: 26c51246755ee409b586fcfe2ced61fd0ed536a0
 workflow-type: tm+mt
 source-wordcount: '1300'
 ht-degree: 99%
@@ -24,8 +24,8 @@ ht-degree: 99%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment_simplejoin"
->title="Erstellen Sie eine Verknüpfung zwischen den Daten der Arbeitstabelle und der Adobe Campaign-Datenbank. Wenn Sie beispielsweise Daten aus einer Datei laden, die die Kundennummer, das Land und die E-Mail-Adresse der Empfängerinnen und Empfänger enthält, ist die Erzeugung einer Relation zur Ländertabelle erforderlich, um die entsprechende Information im Empfängerprofil zu aktualisieren."
->abstract="Definition der Relation"
+>title="Definition der Relation"
+>abstract="Erstellen Sie eine Verknüpfung zwischen den Daten der Arbeitstabelle und der Adobe Campaign-Datenbank. Wenn Sie beispielsweise Daten aus einer Datei laden, die die Kundennummer, das Land und die E-Mail-Adresse der Empfängerinnen und Empfänger enthält, ist die Erzeugung einer Relation zur Ländertabelle erforderlich, um die entsprechende Information im Empfängerprofil zu aktualisieren.
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment_reconciliation"
