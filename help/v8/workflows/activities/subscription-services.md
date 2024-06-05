@@ -3,9 +3,9 @@ audience: end-user
 title: Verwenden der Aktivität „Anmeldedienste“
 description: Informationen dazu, wie Sie die Workflow-Aktivität „Anmeldedienste“ verwenden
 exl-id: 0e7c2e9a-3301-4988-ae0e-d901df5b84db
-source-git-commit: 9cd2d3c7ac4c0ff3c9939cd43606400011fce739
-workflow-type: ht
-source-wordcount: '594'
+source-git-commit: e2579a65130ba580054cd23b1b525a46de2e752a
+workflow-type: tm+mt
+source-wordcount: '598'
 ht-degree: 100%
 
 ---
@@ -26,6 +26,11 @@ ht-degree: 100%
 >id="acw_orchestration_subscription_outboundtransition"
 >title="Ausgehende Transition erzeugen"
 >abstract="Schalten Sie die Option **Ausgehende Transition erzeugen** ein, um eine Transition nach der Aktivität hinzuzufügen."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_subscription_additionalinfo"
+>title="Zusätzliche Informationen"
+>abstract="Zusätzliche Informationen"
 
 Die Aktivität **Anmeldedienste** ist eine **Daten-Management**-Aktivität. Darüber können Sie eine Anmeldung zu einem Informationsdienst für die in der Transition angegebene Population erstellen oder löschen.
 
