@@ -6,7 +6,7 @@ exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
 source-git-commit: b173afc12a5d8a7c57c688fe92e2c5628323fcad
 workflow-type: tm+mt
 source-wordcount: '645'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -99,8 +99,8 @@ Weitere Informationen zu Benutzerberechtigungen finden Sie in der [Dokumentation
 
 >[!CONTEXTUALHELP]
 >id="acw_folder_schedule"
->title="Ordnerplan"
->abstract="Ordnerplan"
+>title="Ordnerzeitplan"
+>abstract="Ordnerzeitplan"
 
 Sie können Ordner erstellen, umbenennen, neu anordnen und verschieben, um Ihre Komponenten und Daten zu organisieren. Über das gleiche Menü können Sie auch Ordner löschen.
 
@@ -111,12 +111,12 @@ Sie können Ordner erstellen, umbenennen, neu anordnen und verschieben, um Ihre 
 Gehen Sie wie folgt vor, um einen Ordner zu erstellen:
 
 1. Wählen Sie im linken Navigationsmenü des **Explorers** einen Ordner aus.
-1. Klicken Sie auf die drei Punkte oben rechts und wählen Sie **Neuen Ordner erstellen**.
+1. Klicken Sie auf die drei Punkte oben rechts und wählen Sie **Neuen Ordner erstellen** aus.
 1. Geben Sie den Namen des Ordners ein.
 
    ![](assets/create-new-subfolder.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 
-1. Wählen Sie den Ordnertyp aus. Standardmäßig ist der Typ des übergeordneten Ordners ausgewählt, in unserem Beispiel &quot;Sendungen&quot;. Um den Ordnertyp zu ändern, klicken Sie auf das Ordnersymbol und wählen Sie einen anderen Typ aus.
+1. Wählen Sie den Ordnertyp aus. Standardmäßig ist der Typ des übergeordneten Ordners ausgewählt, in unserem Beispiel „Sendungen“. Um den Ordnertyp zu ändern, klicken Sie auf das Ordnersymbol und wählen Sie einen anderen Typ aus.
 
    ![](assets/create-new-subfolder2.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 
