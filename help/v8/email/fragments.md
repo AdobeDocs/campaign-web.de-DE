@@ -6,7 +6,7 @@ hide: true
 hidefromtoc: true
 exl-id: d155d102-a5bc-4b9b-b29c-24fde4d95ceb
 source-git-commit: 93ac61808049da6f0d800a19f2baf97946d8612c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '887'
 ht-degree: 100%
 
@@ -38,7 +38,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_fragments_type"
 >title="Fragmenttyp"
->abstract="Wählen Sie den Fragmenttyp aus. Derzeit sind nur visuelle Fragmente für E-Mails verfügbar."
+>abstract="Den Fragmenttyp auswählen. Derzeit sind nur visuelle Fragmente für E-Mails verfügbar."
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_list"
