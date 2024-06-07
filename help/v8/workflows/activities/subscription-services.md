@@ -25,7 +25,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription_outboundtransition"
 >title="Ausgehende Transition erzeugen"
->abstract="Schalten Sie die Option **Ausgehende Transition erzeugen** ein, um eine Transition nach der Aktivität hinzuzufügen."
+>abstract="Die Option **Ausgehende Transition erzeugen einschalten**, um eine Transition nach der Aktivität hinzuzufügen."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription_additionalinfo"
