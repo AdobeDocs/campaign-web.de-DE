@@ -3,10 +3,10 @@ audience: end-user
 title: Erkunden der Benutzeroberfläche
 description: Adobe Campaign Web-Benutzeroberfläche
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 7b04c6a9b425054690209bc3d3d8d0c29e038e31
+source-git-commit: fefa85dd3d0445772759bf53c7b6f8f9b9881a87
 workflow-type: tm+mt
-source-wordcount: '1646'
-ht-degree: 100%
+source-wordcount: '1673'
+ht-degree: 98%
 
 ---
 
@@ -357,6 +357,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_subscriptions_defaultlp"
 >title="Standard-Landingpage"
 >abstract="Wählen Sie die Standard-Landingpage aus, die mit diesem Anmeldedienst verbunden ist."
+
+>[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_create_criteria_parameters"
 >title="Parameter für Versandwarnungskriterien"
 >abstract="Versandwarnung"
@@ -375,6 +377,11 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_delivery_alerting_dashboard_create"
 >title="Erstellen eines Versandwarnungs-Dashboards"
 >abstract="Erstellen eines Versandwarnungs-Dashboards"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_alerting_filter"
+>title="Erstellen eines Warnungskriteriums"
+>abstract="Um eigene Versandfilter zu erstellen, erstellen Sie einen neuen vordefinierten Filter in der Campaign v8-Konsole aus dem **Administration** > **Konfiguration** > **Vordefinierte Filter** Knoten."
 
 <!-- IDs -->
 
