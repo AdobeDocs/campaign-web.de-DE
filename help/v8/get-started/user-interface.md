@@ -3,9 +3,9 @@ audience: end-user
 title: Erkunden der Benutzeroberfläche
 description: Adobe Campaign Web-Benutzeroberfläche
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: fefa85dd3d0445772759bf53c7b6f8f9b9881a87
+source-git-commit: 178d17b81db4ee3f3a445812ac1af6e5f9adbc57
 workflow-type: tm+mt
-source-wordcount: '1673'
+source-wordcount: '1660'
 ht-degree: 98%
 
 ---
@@ -352,11 +352,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_delivery_alerting_create_general"
 >title="Allgemeine Parameter für die Versandwarnung"
 >abstract="Versandwarnung"
-
->[!CONTEXTUALHELP]
->id="acw_subscriptions_defaultlp"
->title="Standard-Landingpage"
->abstract="Wählen Sie die Standard-Landingpage aus, die mit diesem Anmeldedienst verbunden ist."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_create_criteria_parameters"
