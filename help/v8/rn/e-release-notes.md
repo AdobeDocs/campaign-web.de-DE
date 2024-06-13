@@ -3,10 +3,10 @@ title: Frühzeitige Versionshinweise zur Web-Benutzeroberfläche von Campaign v8
 description: Neue Funktionen der nächsten Version der Campaign-Webbenutzeroberfläche
 hide: true
 hidefromtoc: true
-source-git-commit: 0e7990ac491d8c96d328a4fa414af1c8c8ac2f9f
+source-git-commit: c40278f2424b8d6bdc396b3253ac999c23ed8312
 workflow-type: tm+mt
-source-wordcount: '320'
-ht-degree: 2%
+source-wordcount: '355'
+ht-degree: 1%
 
 ---
 
@@ -24,9 +24,7 @@ Die folgenden Funktionen und Verbesserungen stehen allen Benutzern ab der Juni-V
 
 ### Inhaltsfragmente {#24-6-1}
 
-* Sie können jetzt Folgendes erstellen, verwenden und speichern **visuelle Fragmente** um Ihre E-Mails und Inhaltsvorlagen schnell zusammenzustellen. Ein Fragment ist eine vordefinierte wiederverwendbare Komponente, die in mehreren E-Mails in Adobe Campaign referenziert werden kann, um einen verbesserten und beschleunigten Designprozess zu erzielen. [Weitere Informationen](../email/fragments.md)
-
-* Sie können jetzt Folgendes erstellen, verwenden und verwalten **Ausdrucksfragmente** um schnell personalisierte Inhalte zu erstellen. Ein Fragment ist eine vordefinierte wiederverwendbare Komponente, die in mehreren Inhalten in Adobe Campaign referenziert werden kann, um einen verbesserten und beschleunigten Designprozess zu ermöglichen.
+Sie können jetzt Folgendes erstellen, verwenden und verwalten **visuell** und **Ausdruck** Fragmente, um Ihre E-Mails und Inhaltsvorlagen schnell zusammenzustellen. Ein Fragment ist eine vordefinierte wiederverwendbare Komponente, die in mehreren E-Mails in Adobe Campaign referenziert werden kann, um einen verbesserten und beschleunigten Designprozess zu erzielen.
 
 ### Testadressen {#24-6-2}
 
@@ -42,3 +40,4 @@ Sie können nun Pläne und Programme zur Organisation Ihrer Kampagnen erstellen.
 
 ### Verbesserungen {#improvements-24-6}
 
+* **Abstimmung in der Aktivität Anreicherung**: Die Anreicherungsaktivität kann jetzt verwendet werden, um Daten aus dem Campaign-Datenbankschema mit Daten aus einem anderen Schema oder mit Daten aus einem temporären Schema abzustimmen, z. B. mit Daten, die mithilfe der Aktivität Datei laden hochgeladen wurden. Beispielsweise können Sie mit dieser Option das Land eines Profils, das in einer hochgeladenen Datei angegeben ist, mit einem der Länder abstimmen, die in der dedizierten Tabelle der Campaign-Datenbank verfügbar sind.
