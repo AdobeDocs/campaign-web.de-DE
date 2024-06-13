@@ -4,9 +4,9 @@ title: Verwenden der Workflow-Aktivität „Zielgruppe speichern“
 description: Erfahren Sie, wie Sie die Workflow-Aktivität „Verzweigung“ verwenden.
 exl-id: 0f7cbc34-0536-493e-bb3b-0b1ac93d1232
 source-git-commit: 75c612d50d2d4a675829a412e2c4f55ed1cb817c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '442'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 

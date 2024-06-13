@@ -6,9 +6,9 @@ title: Dokumentation zu Adobe Campaign Web
 description: Dokumentation zu Campaign Web
 breadcrumb-title: Campaign Web-Benutzeroberfläche
 source-git-commit: a42594d3c1e248e835608c99c168655e9f34890c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '701'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -64,7 +64,7 @@ ht-degree: 99%
          + [Vorbereiten und Senden einer E-Mail](monitor/prepare-send.md)
          + [Versenden in mehreren Schüben](advanced-settings/send-using-waves.md)
          + [Überwachen von Versandlogs](monitor/delivery-logs.md)
-         + [Versand planen](monitor/schedule-sending.md)
+         + [Planen des Sendevorgangs eines Versands](monitor/schedule-sending.md)
    + Push-Benachrichtigungen {#push}
       + [Erste Schritte mit Push-Benachrichtigungen](push/gs-push.md)
       + [Erstellen eines Push-Benachrichtigungs-Versands](push/create-push.md)

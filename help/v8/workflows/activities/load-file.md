@@ -4,9 +4,9 @@ title: Verwenden der Workflow-Aktivität „Datei laden“
 description: So verwenden Sie die Workflow-Aktivität „Datei laden“
 exl-id: 230177e2-1926-451a-8a66-0db962ada514
 source-git-commit: ac22df907233000bada45ac2c382f1a247f7d21a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1230'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -151,7 +151,7 @@ Gehen Sie wie folgt vor, um die hochzuladende Zieldatei zu definieren:
 
 1. Legen Sie im Abschnitt **Zurückweisungsverwaltung** fest, wie sich die Aktivität bei einem Fehler verhalten soll:
 
-   * Im **[!UICONTROL Anzahl zulässiger Fehler]** geben Sie die maximale Anzahl von Fehlern an, die bei der Verarbeitung der zu ladenden Datei zulässig sind. Bei einem festgelegten Wert von „20“ schlägt die Workflow-Ausführung fehl, wenn beim Laden der Datei mehr als 20 Fehler auftreten.
+   * Geben Sie im Feld **[!UICONTROL Erlaubte Fehleranzahl]** die maximale Anzahl der Fehler an, die bei der Verarbeitung der zu ladenden Datei zulässig sind. Bei einem festgelegten Wert von „20“ schlägt die Workflow-Ausführung fehl, wenn beim Laden der Datei mehr als 20 Fehler auftreten.
 
    * Um die beim Laden der Datei aufgetretenen Fehler beizubehalten, aktivieren Sie die Option **[!UICONTROL Zurückweisungen in einer Datei speichern]** und geben Sie den gewünschten Namen für die Datei im Feld **[!UICONTROL Zurückweisungsdatei]** an.
 
