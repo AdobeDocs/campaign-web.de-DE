@@ -2,8 +2,8 @@
 title: Benutzerdefinierte Felder
 description: Informationen dazu, wie Sie benutzerdefinierte Felder konfigurieren können
 exl-id: 34e7e0b7-3981-43b1-95a5-6c672adafdc9
-source-git-commit: 93ac61808049da6f0d800a19f2baf97946d8612c
-workflow-type: ht
+source-git-commit: bb61fdb34fecb4131d4069965cda8a3a5099b6bc
+workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 100%
 
@@ -12,7 +12,7 @@ ht-degree: 100%
 # Konfigurieren benutzerdefinierter Felder {#custom-fields}
 
 >[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn2"
+>id="acw_homepage_welcome_rn4"
 >title="Benutzerdefinierte Felder"
 >abstract="Benutzerdefinierte Felder sind zusätzliche Attribute, die über die Adobe Campaign-Konsole zu nativen Schemata hinzugefügt werden. Sie sind jetzt in der Web-Benutzeroberfläche verfügbar."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=de" text="Siehe Versionshinweise"

@@ -3,10 +3,10 @@ audience: end-user
 title: Verwendung der Workflow-Aktivität „Anreicherung“
 description: Erfahren Sie, wie Sie die Workflow-Aktivität „Anreicherung“ verwenden.
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
-source-git-commit: 0e5b5e916309b2a337ac86f3741bcb83237b3fad
+source-git-commit: bb61fdb34fecb4131d4069965cda8a3a5099b6bc
 workflow-type: tm+mt
-source-wordcount: '1664'
-ht-degree: 75%
+source-wordcount: '1681'
+ht-degree: 73%
 
 ---
 
@@ -77,12 +77,6 @@ Führen Sie die folgenden Schritte aus, um die Aktivität **Anreicherung** zu ko
 
 ## Erstellen von Relationen zwischen Tabellen {#create-links}
 
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn3"
->title="Relationen zwischen Tabellen"
->abstract="Jetzt können Sie in der Workflow-Anreicherungsaktivität eine Relation zwischen den Daten der Arbeitstabelle und der Adobe Campaign-Datenbank erstellen."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=de" text="Siehe Versionshinweise"
-
 Der Abschnitt **[!UICONTROL Relationsdefinition]** dient der Erzeugung einer Relation zwischen den Daten der Arbeitstabelle und der Adobe Campaign-Datenbank. Wenn Sie beispielsweise Daten aus einer Datei laden, die die Kundennummer, das Land und die E-Mail-Adresse der Empfängerinnen und Empfänger enthält, ist die Erzeugung einer Relation zur Ländertabelle erforderlich, um die entsprechende Information im Empfängerprofil zu aktualisieren.
 
 Es stehen verschiedene Relationstypen zur Verfügung:
@@ -112,6 +106,14 @@ Gehen Sie wie folgt vor, um eine Relation zu erzeugen:
 Ein Workflow-Beispiel mit Relationen ist im Abschnitt [Beispiele](#link-example) verfügbar.
 
 ## Datenabstimmung {#reconciliation}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn3"
+>title="Datenabstimmung"
+>abstract="Die Workflow-Anreicherungsaktivität kann jetzt verwendet werden, um Daten aus dem Campaign-Datenbankschema mit Daten aus einem anderen Schema oder mit Daten aus einem temporären Schema abzustimmen, z. B. mit Daten, die mithilfe der Aktivität Datei laden hochgeladen wurden."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=de" text="Siehe Versionshinweise"
+
 
 Die **Anreicherung** -Aktivität kann verwendet werden, um Daten aus dem Campaign-Datenbankschema mit Daten aus einem anderen Schema oder mit Daten aus einem temporären Schema abzustimmen, z. B. mit Daten, die mithilfe der Aktivität Datei laden hochgeladen wurden. Dieser Relationstyp definiert eine Abstimmung zu einem eindeutigen Datensatz. Adobe Campaign erstellt eine Relation zu einer Zieltabelle, indem ein Fremdschlüssel zum Speichern einer Referenz zum eindeutigen Datensatz hinzugefügt wird.
 

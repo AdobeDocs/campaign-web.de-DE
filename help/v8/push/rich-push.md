@@ -3,22 +3,15 @@ audience: end-user
 title: Erstellen eines Rich-Push-Benachrichtigungs-Versands
 description: Erfahren Sie, wie Sie mit Adobe Campaign Web einen Rich-Push-Benachrichtigungs-Versand für Android erstellen.
 exl-id: a87cb933-b564-4fa4-b173-6a94d7e27da5
-source-git-commit: 93ac61808049da6f0d800a19f2baf97946d8612c
-workflow-type: ht
-source-wordcount: '1444'
+source-git-commit: bb61fdb34fecb4131d4069965cda8a3a5099b6bc
+workflow-type: tm+mt
+source-wordcount: '1420'
 ht-degree: 100%
 
 ---
 
 # Erstellen eines Rich-Push-Versands für Android {#rich-push}
 
-
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn4"
->title="Rich-Push-Versand"
->abstract="Sie können nun Rich-Push-Benachrichtigungen über Android senden. Derzeit ist diese Funktion nur eingeschränkt verfügbar."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=de" text="Siehe Versionshinweise"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_remind_later"

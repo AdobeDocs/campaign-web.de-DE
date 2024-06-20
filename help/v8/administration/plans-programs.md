@@ -2,14 +2,21 @@
 audience: end-user
 title: Pläne und Programme
 description: Erfahren Sie, wie Sie in Adobe Campaign Pläne und Programme erstellen und konfigurieren.
-source-git-commit: f9b8c0805d816075c5ee9ea9443f50cfead371d1
+exl-id: 0307bcb7-7ab5-4226-bad1-cb7cf10e97fc
+source-git-commit: bb61fdb34fecb4131d4069965cda8a3a5099b6bc
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '415'
 ht-degree: 0%
 
 ---
 
-# Pläne und Programme
+# Pläne und Programme {#plan-and-programs}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn2"
+>title="Pläne und Programme"
+>abstract="Sie können jetzt Ihre Ordnerhierarchie für Marketingpläne und Programme in der Campaign-Webbenutzeroberfläche konfigurieren."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=de" text="Siehe Versionshinweise"
 
 Mit Adobe Campaign können Sie Ihre Ordnerhierarchie für Marketingpläne und -programme konfigurieren.
 
