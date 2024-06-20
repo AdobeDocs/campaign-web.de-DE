@@ -3,10 +3,10 @@ keywords: Campaign Web;Startseite;beliebte Themen
 description: Hilfe-Center zu Campaign Web
 title: Produktdokumentation zu Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 35d803b7e409c38b9b29150aa4d8c1849f994c2c
-workflow-type: ht
-source-wordcount: '485'
-ht-degree: 100%
+source-git-commit: f9b8c0805d816075c5ee9ea9443f50cfead371d1
+workflow-type: tm+mt
+source-wordcount: '447'
+ht-degree: 90%
 
 ---
 
@@ -51,29 +51,24 @@ Hier erhalten Sie einen Einblick in die neuesten Verbesserungen in Adobe Campaig
 
 >[!BEGINTABS]
 
->[!TAB Die Mai-Version ist live!]
+>[!TAB Die Version vom Juni ist live!]
 
-Entdecken Sie die neuen Funktionen und Verbesserungen der Adobe Campaign Web-Benutzeroberfläche Version 24.4.
+Entdecken Sie die neuen Funktionen und Verbesserungen der Adobe Campaign Web-Benutzeroberfläche Version 24.6.
 
 [![Bild](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
 
->[!TAB Audit-Protokoll]
+>[!TAB Versandwarnungen]
 
-Die neue Funktion „Audit-Protokoll“ enthält eine detaillierte, chronologische Übersicht aller Aktionen und Ereignisse, die in Echtzeit an Ihrer Adobe Campaign-Instanz durchgeführt wurden.
+Versandwarnung ist ein Warnhinweissystem, mit dem Benutzergruppen automatisch E-Mail-Benachrichtigungen mit Informationen zu ihren Versandausführungen erhalten können.
 
-[![Bild](assets/do-not-localize/learn-more-button.svg)](reporting/audit-trail.md)
+[![Bild](assets/do-not-localize/learn-more-button.svg)](../v8/msg/delivery-alerting.md)
 
->[!TAB Benutzerdefinierte Felder]
+>[!TAB Pläne und Programme]
 
-Benutzerdefinierte Felder sind zusätzliche Attribute, die über die Adobe Campaign-Konsole zu nativen Schemata hinzugefügt werden. Sie sind jetzt in der Web-Benutzeroberfläche verfügbar.
+Mit Adobe Campaign können Sie Ihre Ordnerhierarchie für Marketingpläne und -programme konfigurieren.
 
-[![Bild](assets/do-not-localize/learn-more-button.svg)](administration/custom-fields.md)
+[![Bild](assets/do-not-localize/learn-more-button.svg)](administration/plans-programs.md)
 
->[!TAB Relationstabellen]
-
-Jetzt können Sie in der Workflow-Anreicherungsaktivität eine Relation zwischen den Daten der Arbeitstabelle und der Adobe Campaign-Datenbank erstellen.
-
-[![Bild](assets/do-not-localize/learn-more-button.svg)](workflows/activities/enrichment.md#create-links)
 
 >[!ENDTABS]
 

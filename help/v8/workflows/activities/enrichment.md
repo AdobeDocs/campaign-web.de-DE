@@ -3,10 +3,10 @@ audience: end-user
 title: Verwendung der Workflow-Aktivität „Anreicherung“
 description: Erfahren Sie, wie Sie die Workflow-Aktivität „Anreicherung“ verwenden.
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
-source-git-commit: 3d39027faa1253ddeb2a0273eca3aa980a0a36f2
-workflow-type: ht
-source-wordcount: '1300'
-ht-degree: 100%
+source-git-commit: 0e5b5e916309b2a337ac86f3741bcb83237b3fad
+workflow-type: tm+mt
+source-wordcount: '1664'
+ht-degree: 75%
 
 ---
 
@@ -111,6 +111,36 @@ Gehen Sie wie folgt vor, um eine Relation zu erzeugen:
 
 Ein Workflow-Beispiel mit Relationen ist im Abschnitt [Beispiele](#link-example) verfügbar.
 
+## Datenabstimmung {#reconciliation}
+
+Die **Anreicherung** -Aktivität kann verwendet werden, um Daten aus dem Campaign-Datenbankschema mit Daten aus einem anderen Schema oder mit Daten aus einem temporären Schema abzustimmen, z. B. mit Daten, die mithilfe der Aktivität Datei laden hochgeladen wurden. Dieser Relationstyp definiert eine Abstimmung zu einem eindeutigen Datensatz. Adobe Campaign erstellt eine Relation zu einer Zieltabelle, indem ein Fremdschlüssel zum Speichern einer Referenz zum eindeutigen Datensatz hinzugefügt wird.
+
+Beispielsweise können Sie mit dieser Option das Land eines Profils, das in einer hochgeladenen Datei angegeben ist, mit einem der Länder abstimmen, die in der dedizierten Tabelle der Campaign-Datenbank verfügbar sind.
+
+Führen Sie die Schritte zum Konfigurieren eines **Anreicherung** Aktivität mit einer Abstimmrelation:
+
+1. Klicken Sie auf **Link hinzufügen** im **Abstimmung** Abschnitt.
+1. Identifizieren Sie die Daten, mit denen Sie eine Abstimmrelation erstellen möchten.
+
+   * Um eine Abstimmrelation mit Daten aus der Campaign-Datenbank zu erstellen, wählen Sie **Datenbankschema** und wählen Sie das Schema aus, in dem die Zielgruppe gespeichert ist.
+   * Um eine Abstimmrelation mit den Daten der eingehenden Transition zu erstellen, wählen Sie **Temporäres Schema** und wählen Sie die Workflow-Transition aus, in der die Zieldaten gespeichert werden.
+
+1. Die **Titel** und **Name** -Felder werden basierend auf dem ausgewählten Zielschema automatisch ausgefüllt. Sie können bei Bedarf ihre Werte ändern.
+
+1. Im **Abstimmungskriterien** geben Sie an, wie Sie Daten aus den Quell- und Zieltabellen abstimmen möchten:
+
+   * **Einfacher Join**: Stimmen Sie ein bestimmtes Feld aus der Quelltabelle mit einem anderen Feld in der Zieltabelle ab. Klicken Sie dazu auf die Schaltfläche **Join hinzufügen** und geben Sie die **Quelle** und **Ziel** für die Abstimmung zu verwendende Felder.
+
+     >[!NOTE]
+     >
+     >Sie können eine oder mehrere **Einfacher Join** Kriterien, in denen sie alle überprüft werden müssen, damit die Daten miteinander verknüpft werden können.
+
+   * **Erweiterter Join**: Konfigurieren Sie mithilfe des Abfragemodells die Abstimmkriterien. Klicken Sie dazu auf die Schaltfläche **Bedingung erstellen** und definieren Sie dann Ihre Abstimmkriterien, indem Sie Ihre eigene Regel mithilfe der UND- und ODER-Vorgänge erstellen.
+
+Das folgende Beispiel zeigt einen Workflow zum Erstellen einer Relation zwischen der Empfängertabelle der Adobe Campaign-Datenbank und einer temporären Tabelle, die eine **Datei laden** -Aktivität. In diesem Beispiel werden mit der Anreicherungsaktivität beide Tabellen unter Verwendung der E-Mail-Adresse als Abstimmkriterien abgestimmt.
+
+![](../assets/enrichment-reconciliation.png)
+
 ## Beispiele {#example}
 
 ### Einzelnes Anreicherungsattribut {#single-attribute}
@@ -177,48 +207,17 @@ Jetzt müssen wir eine Sortierung anwenden, um die drei **letzten** Käufe abzur
 
 ![](../assets/workflow-enrichment7.png)
 
-
 ### Anreicherung mit in Relation stehenden Daten {#link-example}
 
-Das folgende Beispiel zeigt einen Workflow, der konfiguriert wurde, um eine Relation zwischen zwei Transitionen zu erstellen. Die ersten Transitionen enthalten eine Aktivität zur Abfrage von Profildaten einer Zielgruppe, während die zweite Transition Kaufdaten enthält, die in einer Datei gespeichert sind, welche über die Aktivität „Datei laden“ geladen wurde.
+Das folgende Beispiel zeigt einen Workflow, der konfiguriert wurde, um eine Relation zwischen zwei Transitionen zu erstellen. Die ersten Transitionen zielen auf Profildaten mithilfe einer **Abfrage** -Aktivität, während die zweite Transition Kaufdaten enthält, die in einer Datei gespeichert sind, die über die Aktivität Datei laden geladen wird.
 
-* Die erste **Anreicherungsaktivität** verknüpft unsere Hauptmenge (Daten aus der **Abfrageaktivität**) mit dem Schema aus der Aktivität **Datei laden**. Dadurch können wir jedes Profil, das zur Zielgruppe der Abfrage gehört, mit den entsprechenden Kaufdaten abgleichen.
+![](../assets/enrichment-uc-link.png)
+
+* Die erste **Anreicherung** Die Aktivität verknüpft die Hauptmenge (Daten aus dem **Abfrage** -Aktivität) mit dem Schema aus der **Datei laden** -Aktivität. Dadurch können wir jedes Profil, das zur Zielgruppe der Abfrage gehört, mit den entsprechenden Kaufdaten abgleichen.
+
+  ![](../assets/enrichment-uc-link-purchases.png)
+
 * Eine zweite **Anreicherungsaktivität** wird hinzugefügt, um die Daten aus der Workflow-Tabelle mit den Kaufdaten aus der Aktivität **Datei laden** anzureichern. Auf diese Weise können wir diese Daten in weiteren Aktivitäten verwenden, um beispielsweise die an die Kundinnen und Kunden gesendeten Nachrichten mit Informationen zum Kauf zu personalisieren.
 
-  ![](../assets/workflow-enrichment-example.png)
+  ![](../assets/enrichment-uc-link-data.png)
 
-
-
-
-
-<!--
-
-Add other fields
-use it in delivery
-
-
-cardinality between the tables (1-N)
-1. select attribute to use as enrichment data
-
-    display advanced fields option
-    i button
-
-    note: attributes from the target dimension
-
-1. Select how the data is collected
-1. number of records to retrieve if want to retrieve a collection of multiple records
-1. Apply filters and build rule
-
-    select an existing filter
-    save the filter for reuse
-    view results of the filter visually or in code view
-
-1. sort records using an attribute
-
-leverage enrichment data in campaign
-
-where we can use the enrichment data: personalize email, other use cases?
-
-## Example
-
--->

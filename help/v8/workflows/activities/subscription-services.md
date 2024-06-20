@@ -3,14 +3,14 @@ audience: end-user
 title: Verwenden der Aktivität „Anmeldedienste“
 description: Informationen dazu, wie Sie die Workflow-Aktivität „Anmeldedienste“ verwenden
 exl-id: 0e7c2e9a-3301-4988-ae0e-d901df5b84db
-source-git-commit: e2579a65130ba580054cd23b1b525a46de2e752a
-workflow-type: ht
-source-wordcount: '598'
-ht-degree: 100%
+source-git-commit: 0e5b5e916309b2a337ac86f3741bcb83237b3fad
+workflow-type: tm+mt
+source-wordcount: '972'
+ht-degree: 86%
 
 ---
 
-# Anmeldedienste {#subscriptipon-services}
+# Anmeldedienste {#subscription-services}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription"
@@ -56,9 +56,11 @@ Führen Sie die folgenden Schritte aus, um die Aktivität **Anmeldedienste** zu 
 
    * **Aktionstyp aus einem Pfad der eingehenden Transition auswählen**: Wählen Sie die Spalte der eingehenden Daten aus, in der für jeden Eintrag der auszuführende Vorgang angegeben ist. Beispielsweise können Sie eine Datei importieren, in der der Vorgang festgelegt ist, der für jede Zeile in einer Spalte „Vorgang“ durchzuführen ist. 
 
-     >[!NOTE]
+     Hier können nur die Felder „Boolean“ oder „Integer“ ausgewählt werden. Stellen Sie sicher, dass die Daten, die den auszuführenden Vorgang enthalten, diesem Format entsprechen. Wenn Sie beispielsweise Daten aus einer Aktivität „Datei laden“ laden, überprüfen Sie, ob Sie das Format der Spalte, die den Vorgang enthält, in der Aktivität **[!UICONTROL Datei laden]** korrekt festgelegt haben. Ein Beispiel finden Sie in [diesem Abschnitt](#uc2).
+
+     >[!CAUTION]
      >
-     >Hier können nur die Felder „Boolean“ oder „Integer“ ausgewählt werden. Stellen Sie sicher, dass die Daten, die den auszuführenden Vorgang enthalten, diesem Format entsprechen. Wenn Sie beispielsweise Daten aus einer Aktivität „Datei laden“ laden, überprüfen Sie, ob Sie das Format der Spalte, die den Vorgang enthält, in der Aktivität **[!UICONTROL Datei laden]** korrekt festgelegt haben. Ein Beispiel finden Sie in [diesem Abschnitt](#uc2).
+     >Wenn Sie diese Option auswählen, wird standardmäßig die **Abonnementdienste** -Aktivität erwartet, über eine Linkdefinition für die **Dienste (nms)** -Tabelle, die im Workflow eingerichtet wurde. Stellen Sie dazu sicher, dass Sie einen Abstimmlink in einem **Anreicherungsaktivität** höher im Workflow. Ein Beispiel für die Verwendung dieser Option ist verfügbar [here](#uc2).
 
    ![](../assets/workflow-subscription-service-inbound.png)
 
@@ -86,14 +88,13 @@ Der folgende Workflow zeigt, wie Sie eine Zielgruppe für einen vorhandenen Dien
 
 * Mit der Aktivität **[!UICONTROL Anmeldedienste]** können Sie den Dienst auswählen, bei dem die Profile angemeldet sein müssen.
 
-<!--
-### Updating multiple subscription statuses from a file {#uc2}
+### Aktualisieren von mehreren Abonnementstatus über eine Datei {#uc2}
 
-The workflow below shows how to import a file containing profiles and update their subscription to several services specified in the file.
+Der nachfolgende Workflow zeigt, wie Sie eine Datei mit Profilen importieren und die zugehörigen Abonnements für mehrere in der Datei angegebene Dienste aktualisieren.
 
 ![](../assets/workflow-subscription-service-uc2.png)
 
-* A **[!UICONTROL Load file]** activity loads a CSV file containing the data and defines the structure of the imported columns. The "service" and "operation" columns specify the service to update and the operation to perform (subscription or unsubscription).
+* Mit der Aktivität **[!UICONTROL Datei laden]** wird eine CSV-Datei mit Daten geladen und die Struktur der importierten Spalten definiert. In den Spalten „Dienst“ und „Vorgang“ werden der zu aktualisierende Dienst und der auszuführende Vorgang (An- oder Abmeldung) angegeben.
 
   ```
   Lastname,firstname,city,birthdate,email,service,operation
@@ -104,26 +105,24 @@ The workflow below shows how to import a file containing profiles and update the
   Durance,Alison,San Francisco,15/12/2000,allison.durance@example.com,running,unsub
   ```
 
-  As you may have noticed, the operation is specified in the file as "sub" or "unsub". The system expects a **Boolean** or **Integer** value to recognize the operation to perform: "0" to unsubscribe and "1" to subscribe. To match this requirement, a remapping of values must be performed in the detail of the "operation" column in the sample file configuration screen.
+  Der Vorgang wird in der Datei als &quot;sub&quot; oder &quot;unsub&quot; spezifiziert. Vom System wird ein **boolescher** Wert oder eine **Integer** erwartet, der/die angibt, welcher Vorgang ausgeführt werden soll: Mit &quot;0&quot; wird eine Abmeldung vorgenommen und mit &quot;1&quot; eine Anmeldung. So erfüllen Sie diese Anforderung:
+   * Die **Datentyp** für die Spalte &quot;operation&quot;auf integer eingestellt ist.
+   * A **Neukodifizierung von Werten** muss ausgeführt werden, um die Werte &quot;sub&quot;und &quot;unsub&quot;mit den Werten &quot;1&quot;und &quot;0&quot;abzugleichen.
 
   ![](../assets/workflow-subscription-service-uc2-mapping.png)
 
-  If your file already uses "0" and "1" to identify the operation, you don't need to remap those values. Only make sure that the column is processed as a **Boolean** or **Integer** in the sample file columns.
+  Wenn in Ihrer Datei der Vorgang bereits mit „0“ und „1“ spezifiziert ist, müssen Sie diese Werte nicht erneut kodifizieren. Achten Sie nur darauf, dass die Spalte als **Boolesch** oder **Integer** in den Spalten der Probendatei verarbeitet wird.
 
-* A **[!UICONTROL Reconciliation]** activity identifies the data from the file as belonging to the profile dimension of the Adobe Campaign database. The **email** field of the file is matched to the **email** field of the profile resource.
+* Mit der Aktivität **[!UICONTROL Abstimmung]** werden die Daten der Datei als der Profildimension der Adobe Campaign-Datenbank zugehörig identifiziert. Das Feld **E-Mail** der Datei wird dem Feld **E-Mail** der Profil-Ressource zugeordnet.
+
+  ![](../assets/workflow-subscription-service-uc2-reconciliation.png)
+
+* Ein **[!UICONTROL Anreicherung]** -Aktivität erstellt eine Abstimmrelation zur Tabelle &quot;Dienste (nms)&quot;, wobei die Spalte &quot;Dienst&quot; der hochgeladenen Datei einfach mit der Spalte &quot;Interner Name&quot; der Dienste in der Datenbank verknüpft wird.
 
   ![](../assets/workflow-subscription-service-uc2-enrichment.png)
 
-* An **[!UICONTROL Enrichment]** activity creates a link to the "Services (nms)" table and creates a simple join between the "service" column of the uploaded file, and the services "internal name" field in the database.
+* A **[!UICONTROL An-/Abmeldedienst]** identifiziert die zu aktualisierenden Dienste, die von der Transition kommen.
 
-    ![](../assets/workflow-subscription-service-uc2-enrichment.png)
+  Der **[!UICONTROL Kampagnentyp]** wird über das **operation**-Feld der Datei identifiziert. Hier können nur die Felder „Boolean“ oder „Integer“ ausgewählt werden. Wenn die Spalte Ihrer Datei, die den auszuführenden Vorgang enthält, nicht in der Liste erscheint, vergewissern Sie sich, dass Sie Ihr Spaltenformat in der Aktivität **[!UICONTROL Datei laden]** richtig eingerichtet haben, wie zuvor in diesem Beispiel erläutert.
 
-* A **[!UICONTROL Deduplication]** based on the **email** field identifies duplicates. It is important to eliminate duplicates since the subscription to a service will fail for all data in case of duplicates.
-
-  ![](../assets/workflow-subscription-service-uc2-dedup.png)
-  
-* A **[!UICONTROL Subscription Services]** identifies the services to update as coming from the transition, through the link created in the **[!UICONTROL Reconciliation]** activity.
-
-  The **[!UICONTROL Operation type]** is identified as coming from the **operation** field of the file. Only Boolean or Integer fields can be selected here. If the column of your file that contains the operation to perform does not appear in the list, make sure that you have correctly set your column format in the **[!UICONTROL Load file]** activity, as explained earlier in this example.
-
-  ![](../assets/workflow-subscription-service-uc2-subscription.png)-->
+  ![](../assets/workflow-subscription-service-uc2-subscription.png)

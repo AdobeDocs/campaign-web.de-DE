@@ -3,10 +3,10 @@ audience: end-user
 title: Erkunden der Benutzeroberfläche
 description: Adobe Campaign Web-Benutzeroberfläche
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 178d17b81db4ee3f3a445812ac1af6e5f9adbc57
+source-git-commit: 5c9a428eb5fabdb25f4b1f1474884e62f33fb720
 workflow-type: tm+mt
-source-wordcount: '1660'
-ht-degree: 98%
+source-wordcount: '1555'
+ht-degree: 100%
 
 ---
 
@@ -310,73 +310,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_workflow_settings_execution_initscript"
 >title="Skript für die Ausführungsinitialisierung"
 >abstract="Skript für die Ausführungsinitialisierung"
-
-<!-- Delivery alerting -->
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_criteria"
->title="Dashboard für Versandwarnungskriterien"
->abstract="Dashboard für Versandwarnungskriterien"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_dashboards"
->title="Versandwarnungs-Dashboard"
->abstract="Versandwarnungs-Dashboard"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_criteria_create"
->title="Versandwarnungskriterien erstellen"
->abstract="Versandwarnungskriterien erstellen"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_criteria_create_indicators"
->title="Indikatoren, die in Warnungen hinzugefügt werden sollen"
->abstract="Indikatoren, die in Warnungen hinzugefügt werden sollen"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_criteria_create_alert"
->title="Warnungstyp"
->abstract="Warnungstyp"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_criteria_create_frequency"
->title="Frequenz des Kriteriums"
->abstract="Frequenz des Kriteriums"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_create_criteria_add"
->title="Versandwarnungskriterien"
->abstract="Versandwarnungskriterien"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_create_general"
->title="Allgemeine Parameter für die Versandwarnung"
->abstract="Versandwarnung"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_create_criteria_parameters"
->title="Parameter für Versandwarnungskriterien"
->abstract="Versandwarnung"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_dashboard_alerts"
->title="Versandwarnungen gesendet"
->abstract="Versandwarnungen gesendet"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_dashboard_history"
->title="Verlauf der Versandwarnungen"
->abstract="Verlauf der Versandwarnungen"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_dashboard_create"
->title="Erstellen eines Versandwarnungs-Dashboards"
->abstract="Erstellen eines Versandwarnungs-Dashboards"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_filter"
->title="Erstellen eines Warnungskriteriums"
->abstract="Um eigene Versandfilter zu erstellen, erstellen Sie einen neuen vordefinierten Filter in der Campaign v8-Konsole aus dem **Administration** > **Konfiguration** > **Vordefinierte Filter** Knoten."
 
 <!-- IDs -->
 

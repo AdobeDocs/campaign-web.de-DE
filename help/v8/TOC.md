@@ -5,10 +5,10 @@ user-guide-description: Produktdokumentation zur Adobe Campaign Web-Benutzerober
 title: Dokumentation zu Adobe Campaign Web
 description: Dokumentation zu Campaign Web
 breadcrumb-title: Campaign Web-Benutzeroberfläche
-source-git-commit: 0e7990ac491d8c96d328a4fa414af1c8c8ac2f9f
+source-git-commit: 8c7893dfaa394158ba98172b4025e05e4ab3343c
 workflow-type: tm+mt
-source-wordcount: '704'
-ht-degree: 100%
+source-wordcount: '725'
+ht-degree: 97%
 
 ---
 
@@ -100,6 +100,10 @@ ht-degree: 100%
       + [Vorschau des Nachrichteninhalts](preview-test/preview-content.md)
       + [Durchführen von Testsendungen](preview-test/test-deliveries.md)
       + [Testen des E-Mail-Renderings](preview-test/email-rendering.md)
+   + Versandwarnung {#delivery-alerting}
+      + [Erste Schritte mit Versandwarnungen](msg/delivery-alerting.md)
+      + [Versandwarnungs-Dashboards](msg/delivery-alerting-dashboards.md)
+      + [Versandwarnungskriterien](msg/delivery-alerting-criteria.md)
 + Landingpages {#landing-pages}
    + [Erste Schritte mit Landingpages](landing-pages/get-started-lp.md)
    + [Erstellen und Veröffentlichen einer Landingpage](landing-pages/create-lp.md)
@@ -130,6 +134,7 @@ ht-degree: 100%
    + [Erste Schritte mit Kampagnen](campaigns/gs-campaigns.md)
    + [Zugreifen auf und Verwalten von Kampagnen](campaigns/manage-campaigns.md)
    + [Erste Kampagne erstellen](campaigns/create-campaigns.md)
+   + [Pläne und Programme](administration/plans-programs.md)
 + Workflows {#wf}
    + [Erste Schritte mit Workflows](workflows/gs-workflows.md)
    + [Schutzmechanismen und Begrenzungen](get-started/guardrails.md)
@@ -202,4 +207,5 @@ ht-degree: 100%
    + [Verwalten von Vorlagen mit Adobe Experience Manager as a Cloud Service](integrations/aem-content.md)
 + Konfiguration {#conf}
    + [Konfigurieren benutzerdefinierter Felder](administration/custom-fields.md)
+   + [Erstellen und Verwalten von Ordnern](administration/create-manage-folder.md)
 + [Dokumentation zu Campaign v8 (Konsole) >](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/campaign-home)
