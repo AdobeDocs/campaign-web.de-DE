@@ -5,9 +5,9 @@ user-guide-description: Produktdokumentation zur Adobe Campaign Web-Benutzerober
 title: Dokumentation zu Adobe Campaign Web
 description: Dokumentation zu Campaign Web
 breadcrumb-title: Campaign Web-Benutzeroberfläche
-source-git-commit: 8c7893dfaa394158ba98172b4025e05e4ab3343c
+source-git-commit: 76c1f708991934e4ef525559359fe732b0fa486a
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '726'
 ht-degree: 97%
 
 ---
@@ -113,6 +113,7 @@ ht-degree: 97%
 + Profile und Audiences {#audiences}
    + [Erste Schritte mit Profilen und Zielgruppen](audience/gs-audiences-recipients.md)
    + [Zielgruppendimensionen](audience/targeting-dimensions.md)
+   + [Quarantäne](audience/quarantine.md)
    + Arbeiten mit Profilen {#work-with-profiles}
       + [Erste Schritte mit Profilen](audience/about-recipients.md)
       + [Entdecken der Details von Profilen](audience/profile-view.md)
