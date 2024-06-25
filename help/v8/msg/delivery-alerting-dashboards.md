@@ -2,10 +2,11 @@
 audience: end-user
 title: Versandwarnung
 description: Erfahren Sie, wie Sie mit Versandwarnungen arbeiten.
-source-git-commit: 8c7893dfaa394158ba98172b4025e05e4ab3343c
+exl-id: b91ef82b-f3e9-4704-87a2-0e3f75104572
+source-git-commit: bbfee1479593ff6ae3f77ef5bfd760d63e640c76
 workflow-type: tm+mt
 source-wordcount: '1050'
-ht-degree: 17%
+ht-degree: 40%
 
 ---
 
@@ -14,33 +15,33 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_dashboards"
 >title="Versandwarnungs-Dashboards"
->abstract="Versandwarnung ist ein Warnhinweissystem, mit dem Benutzergruppen automatisch E-Mail-Benachrichtigungen mit Informationen zu ihren Versandausführungen erhalten können. In Versandwarnungs-Dashboards können Sie festlegen, wer E-Mail-Warnungen erhalten soll, die Warnungsbedingungen zum Senden dieser Warnungen auswählen und konfigurieren sowie auf den Verlauf aller gesendeten Benachrichtigungen zugreifen."
+>abstract="Versandwarnungen bilden ein System zur Verwaltung von Warnhinweisen, mit dem Benutzergruppen automatisch E-Mail-Benachrichtigungen mit Informationen zu ihren Versandausführungen erhalten können. In den Dashboards für Versandwarnungen können Sie festlegen, wer E-Mail-Warnhinweise erhalten soll, die Bedingungen zum Senden dieser Warnhinweise auswählen und sie konfigurieren sowie auf den Verlauf aller gesendeten Benachrichtigungen zugreifen."
 
 In Versandwarnungs-Dashboards können Sie festlegen, wer E-Mail-Warnungen erhalten soll, die Warnungsbedingungen zum Senden dieser Warnungen auswählen und konfigurieren sowie auf den Verlauf aller gesendeten Benachrichtigungen zugreifen. Sie können über die **Versandwarnung** im linken Navigationsbereich unter dem **Dashboards** Registerkarte.
 
 ![](assets/alerting-dashboard-list.png)
 
-## Versand-Dashboard erstellen {#dashboards}
+## Erstellen eines Versand-Dashboards {#dashboards}
 
 >[!CONTEXTUALHELP]
 >id="acw_delery_alerting_dashboard_create"
 >title="Erstellen eines Versandwarnungs-Dashboards"
->abstract="Durch die Erstellung eines Versandwarnungs-Dashboards können Sie festlegen, wer E-Mail-Warnungen erhalten soll, die für den Versand dieser Warnungen zu verwendenden Warnungsbedingungen auswählen und konfigurieren sowie auf den Verlauf aller gesendeten Benachrichtigungen zugreifen."
+>abstract="Durch das Erstellen eines Dashboards für Versandwarnungen können Sie festlegen, wer E-Mail-Warnhinweise erhalten soll, die für den Versand dieser Warnhinweise zu verwendenden Kriterien auswählen und konfigurieren sowie auf den Verlauf aller gesendeten Benachrichtigungen zugreifen."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_create_general"
 >title="Allgemeine Parameter für die Versandwarnung"
->abstract="Geben Sie die allgemeinen Eigenschaften des Versandwarnungs-Dashboards an. Die **Wählen Sie eine Warngruppe aus.** -Feld können Sie die **Benutzergruppe** um die von diesem Dashboard gesendeten Warnungen zu erhalten."
+>abstract="Geben Sie die allgemeinen Eigenschaften des Dashboards für Versandwarnungen an. Im Feld **Warngruppe auswählen** können Sie die **Benutzergruppe** festlegen, die von diesem Dashboard gesendeten Warnhinweise erhalten soll."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_create_criteria_add"
 >title="Versandwarnungskriterien"
->abstract="Fügen Sie in diesem Abschnitt Kriterien hinzu, mit denen Sie Warnungen über dieses Dashboard senden möchten. Wählen Sie aus vordefinierten Kriterien oder erstellen Sie eigene Kriterien, um sie an bestimmte Anforderungen anzupassen."
+>abstract="Fügen Sie in diesem Abschnitt Kriterien hinzu, mit denen Sie Warnhinweise über dieses Dashboard senden möchten. Wählen Sie aus vordefinierten Kriterien aus oder erstellen Sie eigene Kriterien, um sie an bestimmte Anforderungen anzupassen."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_create_criteria_parameters"
 >title="Bedingungsparameter"
->abstract="Kriterien verfügen über Standardparameter, die definieren, wie sie angewendet werden müssen. Sie können diese Werte entsprechend Ihren Anforderungen in diesem Abschnitt ändern."
+>abstract="Kriterien enthalten Standardparameterwerte, die definieren, wie sie angewendet werden müssen. In diesem Abschnitt können Sie diese Werte entsprechend Ihren Anforderungen ändern."
 
 Gehen Sie wie folgt vor, um ein Versand-Dashboard zu erstellen:
 
@@ -56,7 +57,7 @@ Gehen Sie wie folgt vor, um ein Versand-Dashboard zu erstellen:
 
 1. Im **Versandwarnungsbedingungen** -Abschnitt Kriterien hinzufügen, die Sie zum Senden von Warnungen verwenden möchten. Wählen Sie aus vordefinierten Kriterien oder erstellen Sie eigene Kriterien, um sie an bestimmte Anforderungen anzupassen. [Erfahren Sie, wie Sie mit Kriterien arbeiten.](../msg/delivery-alerting-criteria.md)
 
-1. Kriterien verfügen über Standardparameter, die definieren, wie sie angewendet werden müssen. Sie können diese Werte anhand der Variablen **Bedingungsparameter** Abschnitt.
+1. Kriterien enthalten Standardparameterwerte, die definieren, wie sie angewendet werden müssen. Sie können diese Werte anhand der Variablen **Bedingungsparameter** Abschnitt.
 
    ![](assets/alerting-criteria-parameters.png)
 
@@ -90,17 +91,17 @@ Das Warnungsdashboard wird mit leeren Daten geöffnet. Wenn Sie bereit sind, sie
 
 Jedes Mal, wenn ein Versand die in diesem Dashboard definierten Kriterien erfüllt, wird eine Benachrichtigung zur Warnung an die angegebene Benutzergruppe gesendet.
 
-## Warnungs-Dashboards verwalten
+## Verwalten von Versandwarnungs-Dashboards
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_dashboard_alerts"
 >title="Versandwarnungen gesendet"
->abstract="In diesem Abschnitt können Sie Informationen zu den zuletzt gesendeten Warnungen visualisieren."
+>abstract="In diesem Abschnitt können Sie Informationen zu den zuletzt gesendeten Warnhinweisen visualisieren."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_dashboard_history"
 >title="Verlauf der Versandwarnungen"
->abstract="Die **Geschichte** enthält alle Warnungen, die von diesem Dashboard gesendet werden. Klicken Sie auf ein Element, um auf die entsprechenden Warnhinweise zuzugreifen, die zu dem jeweiligen Zeitpunkt gesendet wurden."
+>abstract="Der Bereich **Verlauf** enthält alle Warnhinweise, die von diesem Dashboard gesendet werden. Klicken Sie auf ein Element, um auf die entsprechenden Warnhinweise zuzugreifen, die zu dem jeweiligen Zeitpunkt gesendet wurden."
 
 Alle erstellten Warnhinweis-Dashboards können über das Menü **Versandwarnung** im Menü **Dashboards** Registerkarte.
 

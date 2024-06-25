@@ -2,10 +2,11 @@
 audience: end-user
 title: Versandwarnung
 description: Erfahren Sie, wie Sie mit Versandwarnungen arbeiten.
-source-git-commit: 8c7893dfaa394158ba98172b4025e05e4ab3343c
+exl-id: fc98d4e3-7986-42bb-82d5-b4f874aa71db
+source-git-commit: bbfee1479593ff6ae3f77ef5bfd760d63e640c76
 workflow-type: tm+mt
 source-wordcount: '739'
-ht-degree: 12%
+ht-degree: 32%
 
 ---
 
@@ -14,7 +15,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_criteria"
 >title="Dashboard für Versandwarnungskriterien"
->abstract="Die Campaign-Webbenutzeroberfläche bietet vordefinierte Warnungsbedingungen (Sendungen mit geringem Durchsatz, Sendungen, deren Vorbereitung fehlgeschlagen ist usw.), die Sie Ihrem Dashboard hinzufügen können. Sie können auch eigene Kriterien erstellen, die Ihren Anforderungen entsprechen."
+>abstract="Die Campaign Web-Benutzeroberfläche bietet vordefinierte Kriterien für Warnhinweise (Sendungen mit geringem Durchsatz, Sendungen, deren Vorbereitung fehlgeschlagen ist usw.), die Sie Ihrem Dashboard hinzufügen können. Sie können auch eigene Kriterien erstellen, die Ihren Anforderungen entsprechen."
 
 Die Campaign-Webbenutzeroberfläche bietet vordefinierte Warnungsbedingungen (Sendungen mit geringem Durchsatz, Sendungen, deren Vorbereitung fehlgeschlagen ist usw.), die Sie Ihrem Dashboard hinzufügen können. Sie können auch eigene Kriterien erstellen, die Ihren Anforderungen entsprechen.
 
@@ -38,31 +39,31 @@ Vordefinierte Warnungsbedingungen sind in der Campaign-Webbenutzeroberfläche ve
 >
 >Standardwerte werden auf alle Parameter für die oben genannten Kriterien angewendet. Diese Werte können im Abschnitt **Bedingungsparameter** des Versandwarnungs-Dashboards, in dem sie verwendet werden. [Erfahren Sie, wie Sie mit Dashboards arbeiten.](../msg/delivery-alerting-dashboards.md)
 
-## Erstellen einer Bedingung für eine Warnmeldung {#criteria}
+## Erstellen eines Kriteriums für einen Warnhinweis {#criteria}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_criteria_create"
 >title="Versandwarnungskriterien erstellen"
->abstract="Zusätzlich zu den von Adobe Campaign bereitgestellten vordefinierten Warnungsbedingungen können Sie auch eigene Kriterien erstellen, die Ihren Bedürfnissen entsprechen."
+>abstract="Zusätzlich zu den von Adobe Campaign bereitgestellten vordefinierten Kriterien für einen Warnhinweis können Sie auch eigene Kriterien erstellen, die Ihren Anforderungen entsprechen."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_criteria_create_indicators"
 >title="Indikatoren, die in Warnungen hinzugefügt werden sollen"
->abstract="Wählen Sie die Indikatoren aus, die im Bereich &quot;Details&quot;der E-Mail-Warnungen als Spalten angezeigt werden sollen."
+>abstract="Wählen Sie die Indikatoren aus, die im Abschnitt „Details“ der E-Mail-Warnhinweise als Spalten angezeigt werden sollen."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_criteria_create_alert"
 >title="Warnungstyp"
->abstract="Geben Sie die **Warnungstyp** für die Bedingung, d. h. den Titel und die Farbe, die neben der Versandbedingung im Abschnitt &quot;Zusammenfassung&quot;der Warnhinweise angezeigt werden sollen."
+>abstract="Geben Sie den **Warnhinweistyp** für das Kriterium an, d. h. das Label und die Farbe, die neben der Versandbedingung im Abschnitt „Zusammenfassung“ der Warnhinweise angezeigt werden sollen."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_criteria_create_frequency"
 >title="Frequenz des Kriteriums"
->abstract="Die Häufigkeit der Warnhinweise pro Tag für jeden Versand steuern, der die Bedingung erfüllt."
+>abstract="Sie können die Häufigkeit der Warnhinweise pro Tag für jeden Versand steuern, der das Kriterium erfüllt."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_filter"
->title="Erstellen einer Bedingung für eine Warnmeldung"
+>title="Erstellen eines Kriteriums für einen Warnhinweis"
 >abstract="Um eigene Versandfilter zu erstellen, erstellen Sie einen neuen vordefinierten Filter in der Campaign v8-Konsole aus dem Knoten unter **Administration** > **Konfiguration** > **Vordefinierte Filter**."
 
 Gehen Sie wie folgt vor, um ein neues Kriterium zu erstellen:
@@ -84,7 +85,7 @@ Gehen Sie wie folgt vor, um ein neues Kriterium zu erstellen:
 
 1. Im **In Warnhinweisen hinzuzufügende Indikatoren** die Indikatoren auswählen, die im Bereich &quot;Details&quot;der E-Mail-Warnungen als Spalten angezeigt werden sollen.
 
-1. Geben Sie die **Warnungstyp** für die Bedingung, d. h. den Titel und die Farbe, die neben der Versandbedingung im Abschnitt &quot;Zusammenfassung&quot;der Warnhinweise angezeigt werden sollen.
+1. Geben Sie den **Warnhinweistyp** für das Kriterium an, d. h. das Label und die Farbe, die neben der Versandbedingung im Abschnitt „Zusammenfassung“ der Warnhinweise angezeigt werden sollen.
 
 1. Die **Bedingungsfrequenz** können Sie die Häufigkeit von Warnungen pro Tag für jeden Versand steuern, der die Bedingung erfüllt:
 
