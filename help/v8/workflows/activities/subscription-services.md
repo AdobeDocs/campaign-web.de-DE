@@ -4,9 +4,9 @@ title: Verwenden der Aktivität „Anmeldedienste“
 description: Informationen dazu, wie Sie die Workflow-Aktivität „Anmeldedienste“ verwenden
 exl-id: 0e7c2e9a-3301-4988-ae0e-d901df5b84db
 source-git-commit: 0e5b5e916309b2a337ac86f3741bcb83237b3fad
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '972'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -60,7 +60,7 @@ Führen Sie die folgenden Schritte aus, um die Aktivität **Anmeldedienste** zu 
 
      >[!CAUTION]
      >
-     >Wenn Sie diese Option auswählen, wird standardmäßig die **Abonnementdienste** -Aktivität erwartet, über eine Linkdefinition für die **Dienste (nms)** -Tabelle, die im Workflow eingerichtet wurde. Stellen Sie dazu sicher, dass Sie einen Abstimmlink in einem **Anreicherungsaktivität** höher im Workflow. Ein Beispiel für die Verwendung dieser Option ist verfügbar [here](#uc2).
+     >Wenn Sie diese Option auswählen, wird bei der Aktivität **Abonnements** standardmäßig davon ausgegangen, über eine Link-Definition für die Tabelle **Dienste (nms)** zu verfügen, die im Workflow eingerichtet wurde. Dazu müssen Sie sicherstellen, dass Sie höher im Workflow einen Abstimm-Link in einer **Anreicherungsaktivität** konfiguriert haben. Ein Beispiel für die Verwendung dieser Option ist [hier](#uc2) verfügbar.
 
    ![](../assets/workflow-subscription-service-inbound.png)
 
@@ -106,8 +106,8 @@ Der nachfolgende Workflow zeigt, wie Sie eine Datei mit Profilen importieren und
   ```
 
   Der Vorgang wird in der Datei als &quot;sub&quot; oder &quot;unsub&quot; spezifiziert. Vom System wird ein **boolescher** Wert oder eine **Integer** erwartet, der/die angibt, welcher Vorgang ausgeführt werden soll: Mit &quot;0&quot; wird eine Abmeldung vorgenommen und mit &quot;1&quot; eine Anmeldung. So erfüllen Sie diese Anforderung:
-   * Die **Datentyp** für die Spalte &quot;operation&quot;auf integer eingestellt ist.
-   * A **Neukodifizierung von Werten** muss ausgeführt werden, um die Werte &quot;sub&quot;und &quot;unsub&quot;mit den Werten &quot;1&quot;und &quot;0&quot;abzugleichen.
+   * Der **Datentyp** für die Spalte „Vorgang“ ist auf „integer“ festgelegt.
+   * Es muss eine **Neukodifizierung der Werte** ausgeführt werden, um die Werte „sub“ und „unsub“ mit den Werten „1“ und „0“ abzugleichen.
 
   ![](../assets/workflow-subscription-service-uc2-mapping.png)
 
@@ -117,11 +117,11 @@ Der nachfolgende Workflow zeigt, wie Sie eine Datei mit Profilen importieren und
 
   ![](../assets/workflow-subscription-service-uc2-reconciliation.png)
 
-* Ein **[!UICONTROL Anreicherung]** -Aktivität erstellt eine Abstimmrelation zur Tabelle &quot;Dienste (nms)&quot;, wobei die Spalte &quot;Dienst&quot; der hochgeladenen Datei einfach mit der Spalte &quot;Interner Name&quot; der Dienste in der Datenbank verknüpft wird.
+* Die Aktivität **[!UICONTROL Anreicherung]** erstellt einen Abstimm-Link zur Tabelle „Dienste (nms)“ sowie einen einfachen Join zwischen der Spalte „Dienst“ der hochgeladenen Datei und dem Feld „Interner Name“ der Dienste in der Datenbank.
 
   ![](../assets/workflow-subscription-service-uc2-enrichment.png)
 
-* A **[!UICONTROL An-/Abmeldedienst]** identifiziert die zu aktualisierenden Dienste, die von der Transition kommen.
+* **[!UICONTROL Abonnements]** identifiziert die zu aktualisierenden Dienste, die von der Transition kommen.
 
   Der **[!UICONTROL Kampagnentyp]** wird über das **operation**-Feld der Datei identifiziert. Hier können nur die Felder „Boolean“ oder „Integer“ ausgewählt werden. Wenn die Spalte Ihrer Datei, die den auszuführenden Vorgang enthält, nicht in der Liste erscheint, vergewissern Sie sich, dass Sie Ihr Spaltenformat in der Aktivität **[!UICONTROL Datei laden]** richtig eingerichtet haben, wie zuvor in diesem Beispiel erläutert.
 

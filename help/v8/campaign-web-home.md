@@ -4,9 +4,9 @@ description: Hilfe-Center zu Campaign Web
 title: Produktdokumentation zu Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 source-git-commit: f9b8c0805d816075c5ee9ea9443f50cfead371d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '447'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -51,21 +51,21 @@ Hier erhalten Sie einen Einblick in die neuesten Verbesserungen in Adobe Campaig
 
 >[!BEGINTABS]
 
->[!TAB Die Version vom Juni ist live!]
+>[!TAB Die Juni-Version ist live!]
 
-Entdecken Sie die neuen Funktionen und Verbesserungen der Adobe Campaign Web-Benutzeroberfläche Version 24.6.
+Entdecken Sie die neuen Funktionen und Verbesserungen der Adobe Campaign Web-Benutzeroberfläche, Version 24.6.
 
 [![Bild](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
 
 >[!TAB Versandwarnungen]
 
-Versandwarnung ist ein Warnhinweissystem, mit dem Benutzergruppen automatisch E-Mail-Benachrichtigungen mit Informationen zu ihren Versandausführungen erhalten können.
+Bei Versandwarnungen handelt es sich um ein System zum Warnungs-Management, über das Benutzergruppen automatisch E-Mail-Benachrichtigungen mit Informationen zu ihren Versandausführungen erhalten. 
 
 [![Bild](assets/do-not-localize/learn-more-button.svg)](../v8/msg/delivery-alerting.md)
 
 >[!TAB Pläne und Programme]
 
-Mit Adobe Campaign können Sie Ihre Ordnerhierarchie für Marketingpläne und -programme konfigurieren.
+Adobe Campaign ermöglicht Ihnen das Konfigurieren Ihrer Ordnerhierarchie für Marketing-Pläne und -Programme.
 
 [![Bild](assets/do-not-localize/learn-more-button.svg)](administration/plans-programs.md)
 
