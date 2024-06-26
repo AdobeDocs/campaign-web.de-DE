@@ -5,7 +5,7 @@ exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 source-git-commit: bb61fdb34fecb4131d4069965cda8a3a5099b6bc
 workflow-type: tm+mt
 source-wordcount: '1623'
-ht-degree: 90%
+ht-degree: 97%
 
 ---
 
@@ -18,11 +18,11 @@ ht-degree: 90%
 
 Die Versionen der Adobe Campaign Web-Benutzeroberfläche basieren auf einem kontinuierlichen Bereitstellungsmodell, das einen besser skalierbaren, schrittweisen Ansatz für die Implementierung von Funktionen ermöglicht. Dementsprechend werden diese Versionshinweise mehrmals im Monat aktualisiert. Sie sollten daher regelmäßig nachschauen.
 
-## Juni - Versionshinweise {#24-6-release}
+## Versionshinweise für Juni {#24-6-release}
 
-**Veröffentlichungsdatum**: 18.-19. Juni 2024
+**Veröffentlichungsdatum**: 18.–19. Juni 2024
 
-Die folgenden Funktionen und Verbesserungen stehen allen Benutzern ab der Juni-Version zur Verfügung.
+Die folgenden Funktionen und Verbesserungen stehen allen Benutzenden ab der Juni-Version zur Verfügung.
 <!--
 ### Visual fragments {#24-6-1}
 
@@ -34,15 +34,15 @@ A seed list, aka. **Trap group**, is a list of seed addresses. It is used to inc
 
 ### Versandwarnung {#24-6-3}
 
-Bei der Funktion Versandwarnung handelt es sich um ein Warnungsmanagementsystem, mit dem eine Benutzergruppe automatisch Benachrichtigungen über die Ausführung ihrer Sendungen erhält. [Weitere Informationen](../msg/delivery-alerting.md)
+Bei der Funktion „Versandwarnungen“ handelt es sich um ein System zum Warnungs-Management, über das eine Benutzergruppe automatisch Benachrichtigungen zu ihren Sendungen erhält.  [Weitere Informationen](../msg/delivery-alerting.md)
 
 ### Pläne und Programme {#24-6-4}
 
-Sie können nun Pläne und Programme zur Organisation Ihrer Kampagnen erstellen. Durch die Definition einer Ordnerhierarchie können Sie Ihre Kampagnen in Programme und Ihre Programme in Pläne organisieren. [Weitere Informationen](../administration/plans-programs.md)
+Sie können jetzt Pläne und Programme zur Organisation Ihrer Kampagnen erstellen. Durch die Definition einer Ordnerhierarchie können Sie Ihre Kampagnen in Programme und Ihre Programme in Pläne organisieren. [Weitere Informationen](../administration/plans-programs.md)
 
 ### Verbesserungen {#improvements-24-6}
 
-* **Abstimmung in der Aktivität Anreicherung**: Die **Anreicherung** -Aktivität kann jetzt verwendet werden, um Daten aus dem Campaign-Datenbankschema mit Daten aus einem anderen Schema oder mit Daten aus einem temporären Schema abzustimmen, z. B. mit Daten, die mithilfe der Aktivität Datei laden hochgeladen wurden. Beispielsweise können Sie mit dieser Option das Land eines Profils, das in einer hochgeladenen Datei angegeben ist, mit einem der Länder abstimmen, die in der dedizierten Tabelle der Campaign-Datenbank verfügbar sind. [Weitere Informationen](../workflows/activities/enrichment.md)
+* **Abstimmung in der Aktivität Anreicherung**: Die **Anreicherung** -Aktivität kann jetzt verwendet werden, um Daten aus dem Campaign-Datenbankschema mit Daten aus einem anderen Schema oder mit Daten aus einem temporären Schema abzustimmen, z. B. mit Daten, die mithilfe der Aktivität Datei laden hochgeladen wurden. Mit dieser Option können Sie zum Beispiel das Land eines Profils, das in einer hochgeladenen Datei angegeben ist, mit einem der Länder abstimmen, die in der dedizierten Tabelle der Campaign-Datenbank verfügbar sind. [Weitere Informationen](../workflows/activities/enrichment.md)
 
 ## Versionshinweise für Mai {#24-5-release}
 

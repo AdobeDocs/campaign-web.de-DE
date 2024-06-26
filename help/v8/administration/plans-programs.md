@@ -1,12 +1,12 @@
 ---
 audience: end-user
 title: Pläne und Programme
-description: Erfahren Sie, wie Sie in Adobe Campaign Pläne und Programme erstellen und konfigurieren.
+description: Erfahren Sie, wie Sie Pläne und Programme in Adobe Campaign erstellen und konfigurieren können.
 exl-id: 0307bcb7-7ab5-4226-bad1-cb7cf10e97fc
 source-git-commit: bb61fdb34fecb4131d4069965cda8a3a5099b6bc
 workflow-type: tm+mt
 source-wordcount: '415'
-ht-degree: 0%
+ht-degree: 95%
 
 ---
 
@@ -18,33 +18,33 @@ ht-degree: 0%
 >abstract="Sie können jetzt Ihre Ordnerhierarchie für Marketingpläne und Programme in der Campaign-Webbenutzeroberfläche konfigurieren."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=de" text="Siehe Versionshinweise"
 
-Mit Adobe Campaign können Sie Ihre Ordnerhierarchie für Marketingpläne und -programme konfigurieren.
+Adobe Campaign ermöglicht Ihnen das Konfigurieren Ihrer Ordnerhierarchie für Marketing-Pläne und -Programme.
 
-Um sie besser zu organisieren, empfiehlt Adobe die folgende Hierarchie: Planen `>` Programme `>` Kampagnen
+Um sie besser zu organisieren, empfiehlt Adobe die folgende Hierarchie: Plan `>` Programme `>` Kampagnen.
 
-* A **plan** kann mehrere Programme enthalten. Sie definiert strategische Ziele für einen bestimmten Zeitraum.
-* A **program** kann andere Programme sowie Kampagnen, Workflows und Landingpages enthalten.
-* A **Kampagne** kann Sendungen, Workflows und Landingpages enthalten.
+* Ein **Plan** kann mehrere Programme enthalten. Er definiert strategische Ziele für einen bestimmten Zeitraum.
+* Ein **Programm** kann weitere Programme, Kampagnen, Workflows und Landingpages enthalten.
+* Eine **Kampagne** kann Sendungen, Workflows und Landingpages enthalten.
 
 ## Erstellen und Konfigurieren eines Plans {#create-plan}
 
-Um einen Plan zu erstellen, müssen Sie einen Ordner mit dem Ordnertyp erstellen **[!UICONTROL Plan]** [Erfahren Sie mehr über das Erstellen eines Ordners](create-manage-folder.md).
+Um einen Plan zu erstellen, müssen Sie einen Ordner mit dem Ordnertyp **[!UICONTROL Plan]** erstellen. [Erfahren Sie mehr über das Erstellen eines Ordners](create-manage-folder.md).
 
 ![](assets/plan_create.png){zoomable="yes"}
 
-Navigieren Sie zu **[!UICONTROL Ordnereinstellungen]** von Ihrem Plan, sie zu verwalten.
+Navigieren Sie zu den **[!UICONTROL Ordnereinstellungen]** Ihres Plans, um ihn zu verwalten.
 
 ![](assets/plan_settings.png){zoomable="yes"}
 
-Sie können **[!UICONTROL Benutzerdefinierte Optionen]**, um das Planungsdatum Ihres Plans festzulegen.
+Sie können **[!UICONTROL benutzerdefinierte Optionen]** definieren, um das Planungsdatum Ihres Plans festzulegen.
 
 ![](assets/plan_options.png){zoomable="yes"}
 
-So verwalten Sie  **[!UICONTROL Benutzerdefinierte Optionen]**:
+Verwalten der **[!UICONTROL benutzerdefinierten Optionen]**:
 
-1. Navigieren Sie zum **[!UICONTROL Schemas]**
-1. Wählen Sie die **[!UICONTROL Bearbeitbar]** Schemata in den Filtern
-1. Klicken Sie auf das Symbol von **[!UICONTROL Bearbeiten benutzerdefinierter Details]**
+1. Navigieren Sie zu den **[!UICONTROL Schemata]**
+1. Wählen Sie in den Filtern die **[!UICONTROL bearbeitbaren]** Schemata aus.
+1. Klicken Sie auf das Symbol **[!UICONTROL Benutzerdefinierte Details bearbeiten]**
 
 ![](assets/plan_edit.png){zoomable="yes"}
 
@@ -52,25 +52,25 @@ Sie können sie konfigurieren:
 
 ![](assets/plan_customfields.png){zoomable="yes"}
 
-## Programm erstellen und konfigurieren
+## Erstellen und Konfigurieren eines Programms
 
-So erstellen Sie ein Programm in Ihrem Plan ([Erfahren Sie mehr über die Erstellung eines Plans](#create-plan)), müssen Sie sich in Ihrem Plan befinden und einen Ordner mit dem Ordnertyp erstellen **[!UICONTROL Programm]** [Erfahren Sie mehr über das Erstellen eines Ordners](create-manage-folder.md).
+Um ein Programm in Ihrem Plan zu erstellen ([hier erfahren Sie mehr über das Erstellen eines Plans](#create-plan)), müssen Sie sich in Ihrem Plan befinden und einen Ordner mit dem Ordnertyp **[!UICONTROL Programm]** erstellen. [Hier erfahren Sie mehr über das Erstellen eines Ordners](create-manage-folder.md).
 
 ![](assets/program_create.png){zoomable="yes"}
 
-Navigieren Sie zu **[!UICONTROL Ordnereinstellungen]** von Ihrem Programm, um es zu verwalten.
+Navigieren Sie zu den **[!UICONTROL Ordnereinstellungen]** Ihres Programms, um es zu verwalten.
 
 ![](assets/program_settings.png){zoomable="yes"}
 
-Sie können **[!UICONTROL Benutzerdefinierte Optionen]**, um das Planungsdatum Ihres Programms festzulegen.
+Sie können **[!UICONTROL benutzerdefinierte Optionen]** definieren, um das Planungsdatum Ihres Programms festzulegen.
 
 ![](assets/program_options.png){zoomable="yes"}
 
-So verwalten Sie  **[!UICONTROL Benutzerdefinierte Optionen]**:
+So verwalten Sie die **[!UICONTROL benutzerdefinierten Optionen]**:
 
-1. Navigieren Sie zum **[!UICONTROL Schemas]**
-1. Wählen Sie die **[!UICONTROL Bearbeitbar]** Schemata in den Filtern
-1. Klicken Sie auf das Symbol von **[!UICONTROL Bearbeiten benutzerdefinierter Details]**
+1. Navigieren Sie zu den **[!UICONTROL Schemata]**
+1. Wählen Sie in den Filtern die **[!UICONTROL bearbeitbaren]** Schemata aus.
+1. Klicken Sie auf das Symbol **[!UICONTROL Benutzerdefinierte Details bearbeiten]**.
 
 ![](assets/program_edit.png){zoomable="yes"}
 
@@ -82,30 +82,30 @@ Sie können sie konfigurieren:
 
 Sie haben zwei Möglichkeiten, eine Kampagne mit einem Programm zu verknüpfen:
 
-### 1. Weg : Sie haben bereits ein Programm und möchten eine damit verknüpfte Kampagne erstellen
+### Option 1: Sie verfügen bereits über ein Programm und möchten eine damit verknüpfte Kampagne erstellen.
 
-Um eine neue Kampagne mit Ihrem Programm zu verknüpfen, erstellen Sie direkt eine Kampagne im Programm :
+Um eine neue Kampagne mit Ihrem Programm zu verknüpfen, erstellen Sie Ihre Kampagne direkt im Programm:
 
 ![](assets/program_campaign_create.png){zoomable="yes"}
 
-Die **[!UICONTROL Ordner]** -Einstellungen werden automatisch mit dem Pfad zu Ihrem Programm abgelegt.
+Die **[!UICONTROL Ordnereinstellungen]** werden automatisch mit dem Pfad zu Ihrem Programm versehen.
 
 ![](assets/program_campaign_folder.png){zoomable="yes"}
 
-### 2. Weg : Sie haben bereits eine bestehende Kampagne, die mit einem vorhandenen Programm verknüpft werden soll
+### Option 2: Sie verfügen bereits über eine bestehende Kampagne und möchten sie einem vorhandenen Programm verknüpfen.
 
-Navigieren Sie zu **[!UICONTROL Einstellungen]** Schaltfläche der Kampagne, die Sie mit Ihrem Programm verknüpfen möchten:
+Navigieren Sie zur Schaltfläche **[!UICONTROL Einstellungen]** der Kampagne, die Sie mit Ihrem Programm verknüpfen möchten:
 
 ![](assets/campaign_settings.png){zoomable="yes"}
 
-In **[!UICONTROL Eigenschaften]**, klicken Sie auf die **[!UICONTROL Ordner]** im **[!UICONTROL Ordner]** -Einstellungen, um Ihre **[!UICONTROL Programm]** Ordner.
+Klicken Sie in ihren **[!UICONTROL Eigenschaften]** auf das Symbol **[!UICONTROL Ordner]** in den **[!UICONTROL Ordnereinstellungen]**, um Ihren **[!UICONTROL Programmordner]** zu wählen.
 
 ![](assets/campaign_folder.png){zoomable="yes"}
 
-Wählen Sie **[!UICONTROL Programm]** Ordner und klicken Sie auf **[!UICONTROL Bestätigen]** Schaltfläche und dann auf **[!UICONTROL Speichern und schließen]** Schaltfläche.
+Wählen Sie Ihren **[!UICONTROL Programmordner]** aus und klicken Sie auf die Schaltfläche **[!UICONTROL Bestätigen]** und dann auf die Schaltfläche **[!UICONTROL Speichern und schließen]**.
 
 ![](assets/campaign_linked.png){zoomable="yes"}
 
-Ihre Kampagne ist jetzt in Ihrem Programm aufgeführt:
+Ihre Kampagne wird jetzt in Ihrem Programm aufgeführt:
 
 ![](assets/campaign_in_program.png){zoomable="yes"}

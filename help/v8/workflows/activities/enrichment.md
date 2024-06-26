@@ -6,7 +6,7 @@ exl-id: 02f30090-231f-4880-8cf7-77d57751e824
 source-git-commit: bb61fdb34fecb4131d4069965cda8a3a5099b6bc
 workflow-type: tm+mt
 source-wordcount: '1681'
-ht-degree: 73%
+ht-degree: 97%
 
 ---
 
@@ -115,31 +115,31 @@ Ein Workflow-Beispiel mit Relationen ist im Abschnitt [Beispiele](#link-example)
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=de" text="Siehe Versionshinweise"
 
 
-Die **Anreicherung** -Aktivität kann verwendet werden, um Daten aus dem Campaign-Datenbankschema mit Daten aus einem anderen Schema oder mit Daten aus einem temporären Schema abzustimmen, z. B. mit Daten, die mithilfe der Aktivität Datei laden hochgeladen wurden. Dieser Relationstyp definiert eine Abstimmung zu einem eindeutigen Datensatz. Adobe Campaign erstellt eine Relation zu einer Zieltabelle, indem ein Fremdschlüssel zum Speichern einer Referenz zum eindeutigen Datensatz hinzugefügt wird.
+Die **Anreicherungsaktivität** kann verwendet werden, um Daten aus dem Campaign-Datenbankschema mit Daten aus einem anderen Schema oder mit Daten aus einem temporären Schema abzustimmen, z. B. mit Daten, die mithilfe der Aktivität „Datei laden“ hochgeladen wurden. Diese Art von Verknüpfung definiert einen Link zu einem eindeutigen Eintrag. Adobe Campaign erstellt einen Link zu einer Zieltabelle, indem ein Fremdschlüssel eingefügt wird, der eine Referenz zum eindeutigen Eintrag enthält.
 
-Beispielsweise können Sie mit dieser Option das Land eines Profils, das in einer hochgeladenen Datei angegeben ist, mit einem der Länder abstimmen, die in der dedizierten Tabelle der Campaign-Datenbank verfügbar sind.
+Mit dieser Option können Sie zum Beispiel das Land eines Profils, das in einer hochgeladenen Datei angegeben ist, mit einem der Länder abstimmen, die in der dedizierten Tabelle der Campaign-Datenbank verfügbar sind.
 
-Führen Sie die Schritte zum Konfigurieren eines **Anreicherung** Aktivität mit einer Abstimmrelation:
+Führen Sie die Schritte zum Konfigurieren einer **Anreicherungsaktivität** mit einem Abstimm-Link durch:
 
-1. Klicken Sie auf **Link hinzufügen** im **Abstimmung** Abschnitt.
-1. Identifizieren Sie die Daten, mit denen Sie eine Abstimmrelation erstellen möchten.
+1. Klicken Sie im Abschnitt **Abstimmung** auf die Schaltfläche **Link hinzufügen**.
+1. Identifizieren Sie die Daten, mit denen Sie einen Abstimm-Link erstellen möchten.
 
-   * Um eine Abstimmrelation mit Daten aus der Campaign-Datenbank zu erstellen, wählen Sie **Datenbankschema** und wählen Sie das Schema aus, in dem die Zielgruppe gespeichert ist.
-   * Um eine Abstimmrelation mit den Daten der eingehenden Transition zu erstellen, wählen Sie **Temporäres Schema** und wählen Sie die Workflow-Transition aus, in der die Zieldaten gespeichert werden.
+   * Um einen Abstimm-Link mit Daten aus der Campaign-Datenbank zu erstellen, wählen Sie **Datenbankschema** und dann das Schema aus, in dem die Zielgruppe gespeichert ist.
+   * Um einen Abstimm-Link mit den Daten der eingehenden Transition zu erstellen, wählen Sie **Temporäres Schema** und dann die Workflow-Transition aus, in der die Zieldaten gespeichert sind.
 
-1. Die **Titel** und **Name** -Felder werden basierend auf dem ausgewählten Zielschema automatisch ausgefüllt. Sie können bei Bedarf ihre Werte ändern.
+1. Die Felder **Titel** und **Name** werden basierend auf dem ausgewählten Zielschema automatisch ausgefüllt. Ihre Werte können an dieser Stelle geändert werden.
 
-1. Im **Abstimmungskriterien** geben Sie an, wie Sie Daten aus den Quell- und Zieltabellen abstimmen möchten:
+1. Legen Sie im Abschnitt **Abstimmbedingungen** fest, wie Daten aus den Quell- und Zieltabellen abgestimmt werden sollen:
 
-   * **Einfacher Join**: Stimmen Sie ein bestimmtes Feld aus der Quelltabelle mit einem anderen Feld in der Zieltabelle ab. Klicken Sie dazu auf die Schaltfläche **Join hinzufügen** und geben Sie die **Quelle** und **Ziel** für die Abstimmung zu verwendende Felder.
+   * **Einfacher Join**: Stimmen Sie ein bestimmtes Feld aus der Quelltabelle mit einem anderen Feld in der Zieltabelle ab. Klicken Sie dazu auf die Schaltfläche **Join hinzufügen** und geben Sie die Felder **Quelle** und **Ziel** an, die für die Abstimmung verwendet werden sollen.
 
      >[!NOTE]
      >
-     >Sie können eine oder mehrere **Einfacher Join** Kriterien, in denen sie alle überprüft werden müssen, damit die Daten miteinander verknüpft werden können.
+     >Sie können eine oder mehrere Bedingungen für **Einfacher Join** verwenden. In diesem Fall müssen alle Bedingungen überprüft werden, damit die Daten miteinander verknüpft werden können.
 
-   * **Erweiterter Join**: Konfigurieren Sie mithilfe des Abfragemodells die Abstimmkriterien. Klicken Sie dazu auf die Schaltfläche **Bedingung erstellen** und definieren Sie dann Ihre Abstimmkriterien, indem Sie Ihre eigene Regel mithilfe der UND- und ODER-Vorgänge erstellen.
+   * **Erweiterter Join**: Konfigurieren Sie die Abstimmbedingungen mithilfe des Abfrage-Modelers.  Klicken Sie dazu auf die Schaltfläche **Bedingung erstellen** und definieren Sie dann Ihre Abstimmbedingungen, indem Sie Ihre eigene Regel mithilfe von UND- und ODER-Operationen erstellen.
 
-Das folgende Beispiel zeigt einen Workflow zum Erstellen einer Relation zwischen der Empfängertabelle der Adobe Campaign-Datenbank und einer temporären Tabelle, die eine **Datei laden** -Aktivität. In diesem Beispiel werden mit der Anreicherungsaktivität beide Tabellen unter Verwendung der E-Mail-Adresse als Abstimmkriterien abgestimmt.
+Das folgende Beispiel zeigt einen Workflow zum Erstellen eines Links zwischen der Empfängertabelle der Adobe Campaign-Datenbank und einer temporären Tabelle, die durch die Aktivität **Datei laden** generiert wurde. In diesem Beispiel stimmt die Anreicherungsaktivität beide Tabellen unter Verwendung der E-Mail-Adresse als Abstimmbedingung miteinander ab.
 
 ![](../assets/enrichment-reconciliation.png)
 
@@ -211,11 +211,11 @@ Jetzt müssen wir eine Sortierung anwenden, um die drei **letzten** Käufe abzur
 
 ### Anreicherung mit in Relation stehenden Daten {#link-example}
 
-Das folgende Beispiel zeigt einen Workflow, der konfiguriert wurde, um eine Relation zwischen zwei Transitionen zu erstellen. Die ersten Transitionen zielen auf Profildaten mithilfe einer **Abfrage** -Aktivität, während die zweite Transition Kaufdaten enthält, die in einer Datei gespeichert sind, die über die Aktivität Datei laden geladen wird.
+Das folgende Beispiel zeigt einen Workflow, der konfiguriert wurde, um eine Relation zwischen zwei Transitionen zu erstellen. Die ersten Transitionen enthalten eine Aktivität zur **Abfrage** von Profildaten einer Zielgruppe, während die zweite Transition Kaufdaten enthält, die in einer Datei gespeichert sind, welche über die Aktivität „Datei laden“ geladen wurde.
 
 ![](../assets/enrichment-uc-link.png)
 
-* Die erste **Anreicherung** Die Aktivität verknüpft die Hauptmenge (Daten aus dem **Abfrage** -Aktivität) mit dem Schema aus der **Datei laden** -Aktivität. Dadurch können wir jedes Profil, das zur Zielgruppe der Abfrage gehört, mit den entsprechenden Kaufdaten abgleichen.
+* Die erste **Anreicherungsaktivität** verknüpft den primären Satz (Daten aus der **Abfrageaktivität**) mit dem Schema aus der Aktivität **Datei laden**. Dadurch können wir jedes Profil, das zur Zielgruppe der Abfrage gehört, mit den entsprechenden Kaufdaten abgleichen.
 
   ![](../assets/enrichment-uc-link-purchases.png)
 

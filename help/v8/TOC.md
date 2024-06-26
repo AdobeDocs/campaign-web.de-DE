@@ -8,7 +8,7 @@ breadcrumb-title: Campaign Web-Benutzeroberfläche
 source-git-commit: 76c1f708991934e4ef525559359fe732b0fa486a
 workflow-type: tm+mt
 source-wordcount: '726'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 97%
 + [Dokumentation zur Adobe Campaign Web-Benutzeroberfläche](campaign-web-home.md)
 + Versionshinweise {#release-notes}
    + [Neue Funktionen](rn/whats-new.md)
-   + [Frühere Versionshinweise](rn/e-release-notes.md)
+   + [Frühzeitige Versionshinweise](rn/e-release-notes.md)
    + [Aktuelle Version](rn/release-notes.md)
    + [Aktualisierungen der Dokumentation](rn/documentation-updates.md)
 + Erste Schritte mit Adobe Campaign {#start}
@@ -208,5 +208,5 @@ ht-degree: 97%
    + [Verwalten von Vorlagen mit Adobe Experience Manager as a Cloud Service](integrations/aem-content.md)
 + Konfiguration {#conf}
    + [Konfigurieren benutzerdefinierter Felder](administration/custom-fields.md)
-   + [Erstellen und Verwalten von Ordnern](administration/create-manage-folder.md)
+   + [Erstellen und Verwalten eines Ordners](administration/create-manage-folder.md)
 + [Dokumentation zu Campaign v8 (Konsole) >](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/campaign-home)
