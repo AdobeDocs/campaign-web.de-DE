@@ -6,7 +6,7 @@ exl-id: 120afaa0-7017-4644-b6db-229b4a5c8a91
 source-git-commit: bb61fdb34fecb4131d4069965cda8a3a5099b6bc
 workflow-type: tm+mt
 source-wordcount: '342'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 91%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn1"
 >title="Versandwarnung"
->abstract="Versandwarnung ist jetzt in Campaign verfügbar. Diese Funktion ist ein Warnhinweissystem, mit dem Benutzergruppen automatisch E-Mail-Benachrichtigungen mit Informationen zu ihren Versandausführungen erhalten können."
+>abstract="Versandwarnungen sind jetzt in Campaign verfügbar. Bei dieser Funktion handelt es sich um ein System zur Verwaltung von Warnhinweisen, mit dem Benutzergruppen automatisch E-Mail-Benachrichtigungen mit Informationen zu ihren Versandausführungen erhalten können."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=de" text="Siehe Versionshinweise"
 
 Bei Versandwarnungen handelt es sich um ein System zum Warnungs-Management, über das Benutzergruppen automatisch E-Mail-Benachrichtigungen mit Informationen zu ihren Versandausführungen erhalten.  Empfängerinnen und Empfänger können die von Adobe Campaign verarbeiteten Sendungen überwachen und entsprechende Maßnahmen treffen, wenn Fehler auftreten.

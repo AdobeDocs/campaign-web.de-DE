@@ -6,7 +6,7 @@ exl-id: 0307bcb7-7ab5-4226-bad1-cb7cf10e97fc
 source-git-commit: bb61fdb34fecb4131d4069965cda8a3a5099b6bc
 workflow-type: tm+mt
 source-wordcount: '415'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 95%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn2"
 >title="Pläne und Programme"
->abstract="Sie können jetzt Ihre Ordnerhierarchie für Marketingpläne und Programme in der Campaign-Webbenutzeroberfläche konfigurieren."
+>abstract="Sie können jetzt Ihre Ordnerhierarchie für Marketing-Pläne und -Programme in der Campaign Web-Benutzeroberfläche konfigurieren."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=de" text="Siehe Versionshinweise"
 
 Adobe Campaign ermöglicht Ihnen das Konfigurieren Ihrer Ordnerhierarchie für Marketing-Pläne und -Programme.
