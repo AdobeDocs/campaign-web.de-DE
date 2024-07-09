@@ -3,10 +3,10 @@ audience: end-user
 title: Erkunden der Benutzeroberfläche
 description: Adobe Campaign Web-Benutzeroberfläche
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 5c9a428eb5fabdb25f4b1f1474884e62f33fb720
-workflow-type: ht
-source-wordcount: '1555'
-ht-degree: 100%
+source-git-commit: 42250b21910556759b8d7fd561dbc7bc62e9852e
+workflow-type: tm+mt
+source-wordcount: '1627'
+ht-degree: 95%
 
 ---
 
@@ -318,3 +318,63 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_schema_editcustomfields"
 >title="Bearbeiten benutzerdefinierter Attribute"
 >abstract="Bearbeiten benutzerdefinierter Attribute"
+
+
+
+<!-- transac messages-->
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages"
+>title="Transaktionsnachrichten"
+>abstract="Transaktionsnachrichten"
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_properties"
+>title="Eigenschaften für Transaktionsnachrichten"
+>abstract="Eigenschaften für Transaktionsnachrichten"
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_event"
+>title="Transaktionsnachrichten-Ereignis"
+>abstract="Transaktionsnachrichten-Ereignis"
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_context"
+>title="Transaktionsnachrichten-Kontext"
+>abstract="Transaktionsnachrichten-Kontext"
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_content"
+>title="Transaktionsnachrichteninhalt"
+>abstract="Transaktionsnachrichteninhalt"
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_personalization"
+>title="Personalisierung von Transaktionsnachrichten"
+>abstract="Personalisierung von Transaktionsnachrichten"
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_personalization"
+>title="Personalisierung von Transaktionsnachrichten"
+>abstract="Personalisierung von Transaktionsnachrichten"
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_exclusionlogs"
+>title="Ausschlusslogs für Transaktionsnachrichten"
+>abstract="Ausschlusslogs für Transaktionsnachrichten"
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_context"
+>title="Transaktionsnachrichten-Kontext"
+>abstract="Transaktionsnachrichten-Kontext"
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_eventhistory"
+>title="Ereignisverlauf für Transaktionsnachrichten"
+>abstract="Ereignisverlauf für Transaktionsnachrichten"
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_eventhistory_preview"
+>title="Vorschau des Ereignisverlaufs für Transaktionsnachrichten"
+>abstract="Vorschau des Ereignisverlaufs für Transaktionsnachrichten"
+
