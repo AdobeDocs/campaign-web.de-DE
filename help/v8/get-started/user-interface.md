@@ -6,7 +6,7 @@ exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 source-git-commit: 810ff236b28141d09f3a4d1ff8d102da7de9a0ef
 workflow-type: tm+mt
 source-wordcount: '1629'
-ht-degree: 95%
+ht-degree: 99%
 
 ---
 
@@ -330,8 +330,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_properties"
->title="Eigenschaften für Transaktionsnachrichten"
->abstract="Eigenschaften für Transaktionsnachrichten"
+>title="Transaktionsnachrichten-Eigenschaften"
+>abstract="Transaktionsnachrichten-Eigenschaften"
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_mobileapp"
@@ -350,18 +350,18 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_content"
->title="Transaktionsnachrichteninhalt"
->abstract="Transaktionsnachrichteninhalt"
+>title="Transaktionsnachrichten-Inhalt"
+>abstract="Transaktionsnachrichten-Inhalt"
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_personalization"
->title="Personalisierung von Transaktionsnachrichten"
->abstract="Personalisierung von Transaktionsnachrichten"
+>title="Transaktionsnachrichten-Personalisierung"
+>abstract="Transaktionsnachrichten-Personalisierung"
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_exclusionlogs"
->title="Ausschlusslogs für Transaktionsnachrichten"
->abstract="Ausschlusslogs für Transaktionsnachrichten"
+>title="Transaktionsnachrichten-Ausschlusslogs"
+>abstract="Transaktionsnachrichten-Ausschlusslogs"
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_addcontext"
@@ -370,11 +370,11 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_eventhistory"
->title="Ereignisverlauf für Transaktionsnachrichten"
->abstract="Ereignisverlauf für Transaktionsnachrichten"
+>title="Transaktionsnachrichten-Ereignisverlauf"
+>abstract="Transaktionsnachrichten-Ereignisverlauf"
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_eventhistory_preview"
->title="Vorschau des Ereignisverlaufs für Transaktionsnachrichten"
->abstract="Vorschau des Ereignisverlaufs für Transaktionsnachrichten"
+>title="Vorschau des Transaktionsnachrichten-Ereignisverlaufs"
+>abstract="Vorschau des Transaktionsnachrichten-Ereignisverlaufs"
 
