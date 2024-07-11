@@ -4,9 +4,9 @@ title: Arbeiten mit dem Abfrage-Modeler
 description: Lernen Sie, mit dem Abfrage-Modeler von Adobe Campaign Web zu arbeiten.
 exl-id: 56708a66-f654-413a-80ed-1865077b3c0a
 source-git-commit: 66882fccf771cd6d3fa85f47d42b3ee53d1485f7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '558'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -59,4 +59,4 @@ Die Symbolleiste oben rechts in der Arbeitsfläche bietet Optionen zum einfachen
 
 ### Das Fenster „Regeleigenschaften“ {#rule-properties}
 
-Das Fenster **[!UICONTROL Regeleigenschaften]** rechts enthält Informationen zu Ihrer Abfrage. Damit können Sie verschiedene Vorgänge ausführen, um Ihre Abfrage zu überprüfen und sicherzustellen, dass sie Ihren Anforderungen entspricht. Dieser Bereich wird beim Erstellen einer Abfrage zum Erstellen einer Audience angezeigt. [So überprüfen und validieren Sie Ihre Abfrage](build-query.md#check-and-validate-your-query)
+Das Fenster **[!UICONTROL Regeleigenschaften]** rechts enthält Informationen zu Ihrer Abfrage. Damit können Sie verschiedene Vorgänge ausführen, um Ihre Abfrage zu überprüfen und sicherzustellen, dass sie Ihren Anforderungen entspricht. Dieser Bereich wird beim Einrichten einer Abfrage zum Erstellen einer Zielgruppe angezeigt. [So überprüfen und validieren Sie Ihre Abfrage](build-query.md#check-and-validate-your-query)

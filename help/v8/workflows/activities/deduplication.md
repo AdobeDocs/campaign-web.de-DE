@@ -4,9 +4,9 @@ title: Verwenden der Workflow-Aktivität „Deduplizierung“
 description: Erfahren Sie, wie Sie die Workflow-Aktivität „Deduplizierung“ verwenden.
 exl-id: 8efdc140-6cae-430d-b585-ff581993ff60
 source-git-commit: 8281f1cd5a8f529bf76b5f2938f7ff1dfc9d1491
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '602'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -54,10 +54,10 @@ Gehen Sie folgendermaßen vor, um die **Deduplizierungsaktivität** zu konfiguri
 
 1. Wählen Sie die **Deduplizierungsmethode** aus, die verwendet werden soll:
 
-   * **Zufällige Auswahl**: Wählt aus den Dubletten zufällig den beizubehaltenden Datensatz aus.
-   * **Verwenden eines Ausdrucks**: Bewahren Sie die Datensätze auf, für die der eingegebene Ausdruck den kleinsten oder größten Wert aufweist.
-   * **Nicht leere Werte**: Bewahren Sie die Datensätze auf, für die der Ausdruck nicht leer ist.
-   * **Nach einer Werteliste**: Definieren Sie eine Priorität von Werten für ein oder mehrere Felder. Klicken Sie zur Bestimmung dieser Werte auf **Attribute**, um ein Feld auszuwählen, oder erstellen Sie einen Ausdruck und fügen Sie dann den oder die Werte der entsprechenden Tabelle hinzu. Um ein neues Feld zu definieren, klicken Sie auf das **Schaltfläche hinzufügen** oberhalb der Werteliste.
+   * **Zufällige Auswahl**: Wählt nach dem Zufallsprinzip unter den Dubletten den Eintrag aus, der beibehalten werden soll.
+   * **Von einem Ausdruck ausgehend**: Behält Einträge bei, für die der angegebene Ausdruck den kleinsten oder größten Wert aufweist.
+   * **Wert nicht leer**: Behält Einträge bei, für die der Ausdruck nicht leer ist.
+   * **Gemäß einer Werteliste**: Definiert eine Priorität nach Wert für ein oder mehrere Felder. Klicken Sie zur Bestimmung dieser Werte auf **Attribute**, um ein Feld auszuwählen, oder erstellen Sie einen Ausdruck und fügen Sie dann den oder die Werte der entsprechenden Tabelle hinzu. Verwenden Sie zum Definieren eines neues Felds die Schaltfläche **Hinzufügen** oberhalb der Werteliste.
 
 1. Markieren Sie die Option **Komplement erzeugen**, wenn Sie auch die restliche Population im weiteren Verlauf des Workflows verwenden möchten. Das Komplement enthält in diesem Fall alle Dubletten, und es wird dann eine zusätzliche Transition zur Aktivität hinzugefügt.
 
