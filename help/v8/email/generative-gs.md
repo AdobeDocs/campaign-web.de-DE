@@ -6,10 +6,10 @@ badge: label="Beta"
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
 hide: true
 hidefromtoc: true
-source-git-commit: 27e97731ebd2987cc6f653f90a515473caa175d6
-workflow-type: ht
-source-wordcount: '644'
-ht-degree: 100%
+source-git-commit: 7de6d85036eac7289e7fcf3a82a7c11be12d9c6e
+workflow-type: tm+mt
+source-wordcount: '581'
+ht-degree: 91%
 
 ---
 
@@ -41,10 +41,10 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_emagica_generate"
 >title="Begriffe in Adobe Generative KI"
->abstract="Der Zugriff auf diese Funktion unterliegt Ihrer Zustimmung zu den Adobe Experience Cloud Generative KI-Benutzerrichtlinien.  Eingabeaufforderungen, Kontextdaten, zusätzliche Informationen oder andere Eingaben, die Sie für diese Funktion bereitstellen, müssen an einen bestimmten Kontext gebunden sein, der Ihre Branding-Materialien, Website-Inhalte, Daten, Schemata für solche Daten, Vorlagen oder andere vertrauenswürdige Dokumente umfassen kann und keine personenbezogenen Daten enthalten darf (personenbezogene Daten umfassen alles, was mit einer bestimmten Person verknüpft werden kann). Sie sollten alle Ausgaben dieser Funktion auf ihre Richtigkeit hin überprüfen und sicherstellen, dass sie für Ihren Anwendungsfall geeignet sind."
+>abstract="Der Zugriff auf diese Funktion unterliegt Ihrer Zustimmung zu den Adobe Experience Cloud Generative KI-Benutzerrichtlinien.  Überprüfen Sie alle Ausgaben dieser Funktion auf ihre Richtigkeit und stellen Sie sicher, dass sie für Ihren Anwendungsfall geeignet sind."
 >additional-url="https://www.adobe.com/de/legal/licenses-terms/adobe-gen-ai-user-guidelines.html" text="Adobe Generative KI – Benutzungsrichtlinien"
 
-Da die Marketing-Branche immer wettbewerbsintensiver wird, suchen Marken nach effizienten Wegen, um wirkungsvolle Inhalte schnell und effizient zu erstellen. Der KI-Assistent in Campaign basiert auf Azure OpenAI und Azure Vision. Er ist das Angebot von Adobe zur KI-gestützten Generierung von Inhalten. Diese Funktion revolutioniert die Erstellung professioneller und markenkonformer Inhalte für verschiedene Kanäle wie E-Mail, SMS und Push. Mit fortschrittlichen GenAI-Modellen und einem tiefgreifenden Verständnis der Markenrichtlinien generiert der KI-Assistent automatisch personalisierte, ansprechende und effektive Inhalte auf der Grundlage des Marketing-Ziels, wobei die Inhalte für die von der Marke vorgegebenen Stile, Layouts, die Tonalität und mehr optimiert sind.
+Da die Marketing-Branche immer wettbewerbsintensiver wird, suchen Marken nach effizienten Wegen, um wirkungsvolle Inhalte schnell und effizient zu erstellen. Der auf OpenAI basierende KI-Assistent in Campaign ermöglicht die Generierung von Azure Adobe AI-Inhalten, die die Art und Weise revolutionieren, wie Marketingexperten professionelle und markenkonsistente Inhalte über verschiedene Kanäle wie E-Mail, SMS und Push-Benachrichtigungen erstellen. Mit fortschrittlichen GenAI-Modellen und einem tiefgreifenden Verständnis der Markenrichtlinien generiert der KI-Assistent automatisch personalisierte, ansprechende und effektive Inhalte auf der Grundlage des Marketing-Ziels, wobei die Inhalte für die von der Marke vorgegebenen Stile, Layouts, die Tonalität und mehr optimiert sind.
 
 Der KI-Assistent macht die Erstellung und Durchführung von Marketing-Kampagnen über Kanäle wie E-Mail, SMS und Push intuitiv, einfach und mühelos, während gleichzeitig Zeit gespart, die Effizienz gesteigert und bessere Ergebnisse erzielt werden.
 
