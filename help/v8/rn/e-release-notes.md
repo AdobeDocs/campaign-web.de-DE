@@ -4,10 +4,10 @@ description: Entdecken Sie die neuen Funktionen der nächsten Version der Campai
 hide: true
 hidefromtoc: true
 exl-id: a4c6ecb7-d657-46de-aa55-90c4cb45164b
-source-git-commit: e9bba947dd1065287e698d20cf1b6b55c423003b
-workflow-type: ht
-source-wordcount: '355'
-ht-degree: 100%
+source-git-commit: 717af67bf876c4bb01984f042e57cffa473914af
+workflow-type: tm+mt
+source-wordcount: '306'
+ht-degree: 50%
 
 ---
 
@@ -17,28 +17,29 @@ Die Adobe Campaign Web-Benutzeroberfläche bietet kontinuierlich neue Funktionen
 
 **Die nachfolgenden frühzeitigen Versionshinweise können ohne vorherige Ankündigung bis zum Verfügbarkeitsdatum der Version geändert werden**. Links, Bildschirme und die aktualisierte Dokumentation werden am Veröffentlichungsdatum in den [Versionshinweisen](release-notes.md) veröffentlicht.
 
-## Versionshinweise für Juni {#24-6-release}
+## Versionshinweise Juli {#24-7-release}
 
-**Veröffentlichungsdatum**: 18.–19. Juni 2024
+**Veröffentlichungsdatum**: 30.-31. Juli 2024
 
-Die folgenden Funktionen und Verbesserungen stehen allen Benutzenden ab der Juni-Version zur Verfügung.
+Die folgenden Funktionen und Verbesserungen sind ab der Juli-Version verfügbar.
 
-### Inhaltsfragmente {#24-6-1}
+### Ausdrucksfragmente {#24-7-1}
 
-Sie können jetzt **visuelle** Fragmente und **Ausdrucksfragmente** erstellen, verwenden und verwalten, um Ihre E-Mails und Inhaltsvorlagen schnell zusammenzustellen. Ein Fragment ist eine vordefinierte, wiederverwendbare Komponente, die in Adobe Campaign für einen verbesserten und beschleunigten Design-Prozess in mehreren E-Mails referenziert werden kann.
+Sie können jetzt **Ausdrucksfragmente** verfassen, verwenden und verwalten, um schnell personalisierte Inhalte zu erstellen. Ein Fragment ist eine vordefinierte wiederverwendbare Komponente, die in mehreren Inhalten in Adobe Campaign referenziert werden kann, um einen verbesserten und beschleunigten Designprozess zu ermöglichen.
 
-### Testlisten {#24-6-2}
+### Testlisten {#24-7-2}
 
 Eine Testliste, auch bezeichnet als  **Trap-Gruppe**, ist eine Liste von Testadressen. Sie wird verwendet, um bestimmte Adressen in Ihre Sendungen einzubeziehen und dann Profile auszuwählen, die nicht den definierten Zielgruppenkriterien entsprechen. Auf diese Weise können Empfängerinnen und Empfänger, die außerhalb der Versandzielgruppe liegen, die Nachricht ebenso wie jede andere Person innerhalb der Zielgruppe erhalten.  Sie können Testadressen beim Versand von Testsendungen oder zum Schutz Ihrer Mailing-Liste verwenden.
 
-### Versandwarnung {#24-6-3}
+### Vorlagen für Rich-Push-Benachrichtigungen {#24-7.3}
 
-Bei der Funktion „Versandwarnungen“ handelt es sich um ein System zum Warnungs-Management, über das eine Benutzergruppe automatisch Benachrichtigungen zu ihren Sendungen erhält. 
+Sie können jetzt Rich-Push-Benachrichtigungen versenden. Eine Rich-Push-Benachrichtigung ist eine erweiterte Form der Mobile-Benachrichtigung, die über einfache Textnachrichten hinausgeht und Multimedia-Elemente wie Bilder, interaktive Schaltflächen oder andere Rich-Media-Inhalte enthält. Mit dieser Version sind jetzt eine Reihe von Vorlagen für Rich-Push-Benachrichtigungen für Ihre iOS- und Android-Apps verfügbar.
 
-### Pläne und Programme {#24-6-4}
+>[!AVAILABILITY]
+>
+>Diese Funktion erfordert eine Aktualisierung auf Campaign v8.6.3 oder v8.7.2. [Weitere Informationen finden Sie in den Versionshinweisen zur Campaign Client-Konsole](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/releases/release-notes) .
 
-Sie können jetzt Pläne und Programme zur Organisation Ihrer Kampagnen erstellen. Durch die Definition einer Ordnerhierarchie können Sie Ihre Kampagnen in Programme und Ihre Programme in Pläne organisieren.
 
-### Verbesserungen {#improvements-24-6}
+### Verbesserungen {#improvements-24-7}
 
-* **Abstimmung in der Anreicherungsaktivität**: Die Anreicherungsaktivität kann jetzt verwendet werden, um Daten aus dem Campaign-Datenbankschema mit Daten aus einem anderen Schema oder mit Daten aus einem temporären Schema abzustimmen, z. B. mit Daten, die mithilfe der Aktivität „Datei laden“ hochgeladen wurden. Mit dieser Option können Sie zum Beispiel das Land eines Profils, das in einer hochgeladenen Datei angegeben ist, mit einem der Länder abstimmen, die in der dedizierten Tabelle der Campaign-Datenbank verfügbar sind.
+* **Ordnerverwaltung** - Sie können jetzt Berechtigungen und Einschränkungen für Ordner verwalten.
