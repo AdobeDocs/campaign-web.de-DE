@@ -4,10 +4,10 @@ description: Entdecken Sie die neuen Funktionen der nächsten Version der Campai
 hide: true
 hidefromtoc: true
 exl-id: a4c6ecb7-d657-46de-aa55-90c4cb45164b
-source-git-commit: a6248b19263f1da99588d5b70ff68940eadc9390
+source-git-commit: d4f9f3562f7dc2550bf9fea01f27456fdfdad43e
 workflow-type: tm+mt
-source-wordcount: '379'
-ht-degree: 55%
+source-wordcount: '454'
+ht-degree: 46%
 
 ---
 
@@ -50,14 +50,13 @@ Sie können jetzt Rich-Push-Benachrichtigungen versenden. Eine Rich-Push-Benachr
 
 #### Inhaltsfragmente {#LA-24-7}
 
-Ein Fragment ist eine vordefinierte wiederverwendbare Komponente, die in mehreren Inhalten in Adobe Campaign referenziert werden kann, um einen verbesserten und beschleunigten Designprozess zu ermöglichen.
+Sie können jetzt Inhaltsfragmente erstellen und verwenden. Ein Inhaltsfragment ist eine wiederverwendbare Komponente, die in einer oder mehreren Nachrichten referenziert werden kann. Beim Ändern eines Fragments wird jeder Inhalt, der dieses verwendet, aktualisiert. Mit dieser Funktion können Sie mehrere benutzerdefinierte Inhaltsbausteine vorab erstellen, die von Marketing-Benutzern verwendet werden können, um Nachrichteninhalte in einem verbesserten Designprozess schnell zusammenzustellen.
 
-* Sie können jetzt **Ausdrucksfragmente** verfassen, verwenden und verwalten, um schnell personalisierte Inhalte zu erstellen.
+Es stehen zwei Fragmenttypen zur Verfügung:
 
-* Sie können jetzt **visuelle Fragmente** erstellen, verwenden und speichern, um E-Mails und Inhaltsvorlagen schnell zusammenzustellen. [Weitere Informationen](../email/fragments.md)
+* **Ausdrucksfragmente** sind vordefinierte Ausdrücke, die über einen dedizierten Eintrag im Ausdruckseditor verfügbar sind.
+* **Visuelle Fragmente** sind vordefinierte visuelle Bausteine, die Sie in mehreren E-Mail-Sendungen oder in Inhaltsvorlagen wiederverwenden können. [Weitere Informationen](../email/fragments.md)
 
-
-
-
-
-
+  >[!AVAILABILITY]
+  >
+  >**Visuelle Fragmente** befinden sich in begrenzter Verfügbarkeit (LA). Diese Funktion ist auf Kunden beschränkt, die **von Adobe Campaign Standard zu Adobe Campaign v8** migrieren, und kann in keiner anderen Umgebung bereitgestellt werden.
