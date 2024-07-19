@@ -2,18 +2,15 @@
 audience: end-user
 title: Erstellen von Inhaltsfragmenten
 description: Erfahren Sie, wie Sie Inhaltsfragmente erstellen
-hide: true
-hidefromtoc: true
 exl-id: d155d102-a5bc-4b9b-b29c-24fde4d95ceb
-source-git-commit: 93ac61808049da6f0d800a19f2baf97946d8612c
+source-git-commit: 2d6b885642fbb6e1545f899219db05c156b069c4
 workflow-type: tm+mt
-source-wordcount: '887'
+source-wordcount: '916'
 ht-degree: 100%
 
 ---
 
 # Erstellen von Inhaltsfragmenten {#fragments}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_menu"
@@ -61,11 +58,14 @@ Mit dieser Funktion können Sie mehrere benutzerdefinierte Inhaltsbausteine vora
 
 ![](assets/fragments.gif)
 
-
 So nutzen Sie Fragmente optimal:
 
 * Erstellen Sie Ihre eigenen visuellen Fragmente, wie nachfolgend beschrieben.
 * Verwenden Sie sie mithilfe von E-Mail-Designer so oft wie nötig in Ihrem Inhalt. Siehe [Hinzufügen visueller Fragmente zu E-Mails](../email/use-visual-fragments.md).
+
+>[!AVAILABILITY]
+>
+>Diese Funktion ist nur eingeschränkt verfügbar. Sie ist Kundinnen und Kunden vorbehalten, die **von Adobe Campaign Standard zu Adobe Campaign v8** migrieren, und kann nicht in anderen Umgebungen bereitgestellt werden.
 
 ## Erstellen eines visuellen Fragments {#create-fragments}
 

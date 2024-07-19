@@ -2,25 +2,21 @@
 audience: end-user
 title: Hinzufügen visueller Fragmente zu E-Mails
 description: Erfahren Sie, wie Sie visuelle Fragmente zu Ihren E-Mails hinzufügen
-hide: true
-hidefromtoc: true
 exl-id: 6d6f38f9-9d3e-47cb-beb8-177b5a5d8306
-source-git-commit: 991c292b42dbb2e21a46aef47295bd601f6a4af9
+source-git-commit: 2d6b885642fbb6e1545f899219db05c156b069c4
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 100%
+source-wordcount: '447'
+ht-degree: 99%
 
 ---
 
 # Hinzufügen visueller Fragmente zu E-Mails {#use-visual-fragments}
 
-Sie können ein visuelles Fragment in einem [E-Mail-Versand](get-started-email-designer.md) oder in einer [Inhaltsvorlage](use-email-templates.md) verwenden. Die einzelnen Schritte werden nachfolgend beschrieben.
+Sie können ein visuelles Fragment in einem [E-Mail-Versand](get-started-email-designer.md) oder in einer [Inhaltsvorlage](use-email-templates.md) verwenden. Die Schritte werden nachfolgend beschrieben. Weitere Informationen zur Erstellung und Verwaltung von Fragmenten finden Sie in [diesem Abschnitt](fragments.md).
 
-
->[!NOTE]
+>[!AVAILABILITY]
 >
->Weitere Informationen zur Erstellung und Verwaltung von Fragmenten finden Sie in [diesem Abschnitt](fragments.md).
-
+>Diese Funktion ist nur eingeschränkt verfügbar. Sie ist Kundinnen und Kunden vorbehalten, die **von Adobe Campaign Standard zu Adobe Campaign v8** migrieren, und kann nicht in anderen Umgebungen bereitgestellt werden.
 
 ## Verwenden eines Fragments {#use-fragment}
 
