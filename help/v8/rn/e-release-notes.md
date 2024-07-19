@@ -4,10 +4,10 @@ description: Entdecken Sie die neuen Funktionen der nächsten Version der Campai
 hide: true
 hidefromtoc: true
 exl-id: a4c6ecb7-d657-46de-aa55-90c4cb45164b
-source-git-commit: 717af67bf876c4bb01984f042e57cffa473914af
+source-git-commit: a6248b19263f1da99588d5b70ff68940eadc9390
 workflow-type: tm+mt
-source-wordcount: '306'
-ht-degree: 50%
+source-wordcount: '379'
+ht-degree: 55%
 
 ---
 
@@ -22,10 +22,6 @@ Die Adobe Campaign Web-Benutzeroberfläche bietet kontinuierlich neue Funktionen
 **Veröffentlichungsdatum**: 30.-31. Juli 2024
 
 Die folgenden Funktionen und Verbesserungen sind ab der Juli-Version verfügbar.
-
-### Ausdrucksfragmente {#24-7-1}
-
-Sie können jetzt **Ausdrucksfragmente** verfassen, verwenden und verwalten, um schnell personalisierte Inhalte zu erstellen. Ein Fragment ist eine vordefinierte wiederverwendbare Komponente, die in mehreren Inhalten in Adobe Campaign referenziert werden kann, um einen verbesserten und beschleunigten Designprozess zu ermöglichen.
 
 ### Testlisten {#24-7-2}
 
@@ -42,4 +38,26 @@ Sie können jetzt Rich-Push-Benachrichtigungen versenden. Eine Rich-Push-Benachr
 
 ### Verbesserungen {#improvements-24-7}
 
-* **Ordnerverwaltung** - Sie können jetzt Berechtigungen und Einschränkungen für Ordner verwalten.
+**Ordnerverwaltung** - Sie können jetzt Berechtigungen und Einschränkungen für Ordner verwalten.
+
+### Neue Funktionen in eingeschränkter Verfügbarkeit {#acs-24-4}
+
+>[!AVAILABILITY]
+>
+>Die folgenden Funktionen sind nur eingeschränkt verfügbar. Sie sind Kundinnen und Kunden vorbehalten, die **von Adobe Campaign Standard zu Adobe Campaign v8** migrieren, und können nicht in anderen Umgebungen bereitgestellt werden.
+>
+>Weitere Informationen finden Sie auf den folgenden Seiten der Dokumentation: [Wechsel von Campaign Standard zu Campaign v8](../rn/acs-migration.md) und [Funktionen für Campaign Standard-Benutzende](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=de).
+
+#### Inhaltsfragmente {#LA-24-7}
+
+Ein Fragment ist eine vordefinierte wiederverwendbare Komponente, die in mehreren Inhalten in Adobe Campaign referenziert werden kann, um einen verbesserten und beschleunigten Designprozess zu ermöglichen.
+
+* Sie können jetzt **Ausdrucksfragmente** verfassen, verwenden und verwalten, um schnell personalisierte Inhalte zu erstellen.
+
+* Sie können jetzt **visuelle Fragmente** erstellen, verwenden und speichern, um E-Mails und Inhaltsvorlagen schnell zusammenzustellen. [Weitere Informationen](../email/fragments.md)
+
+
+
+
+
+
