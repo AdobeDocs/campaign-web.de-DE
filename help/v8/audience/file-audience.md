@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie Profile aus einer externen Datei laden, um ei
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
 source-git-commit: a0da65d8facedb3730947eb969e362a367e4d317
 workflow-type: tm+mt
-source-wordcount: '657'
+source-wordcount: '649'
 ht-degree: 100%
 
 ---
@@ -53,7 +53,7 @@ Gehen Sie folgendermaßen vor, um Profile aus einer Datei in Ihre E-Mails aufzun
 1. Öffnen Sie einen vorhandenen E-Mail-Versand oder [erstellen Sie einen neuen E-Mail-Versand](../email/create-email.md).
 1. Klicken Sie im Abschnitt **Zielgruppe** auf die Schaltfläche **Zielgruppe auswählen** und wählen Sie dann **Aus Datei auswählen**.
 
-   ![](assets/select-from-file.png){zoomable=&quot;yes&quot;}
+   ![](assets/select-from-file.png){zoomable="yes"}
 
 1. Wählen Sie die zu ladende lokale Datei aus. Das Dateiformat muss dem der [Beispieldatei](#sample-file) entsprechen.
 1. Im mittleren Abschnitt des Bildschirms können Sie eine Vorschau der Datenzuordnung anzeigen, um sie zu überprüfen.
@@ -66,7 +66,7 @@ Gehen Sie folgendermaßen vor, um Profile aus einer Datei in Ihre E-Mails aufzun
 
 Bei der Erstellung des Nachrichteninhalts können Sie eine Personalisierung vornehmen, indem Sie Felder aus der Eingabedatei nutzen. [Erfahren Sie, wie Sie Inhalte personalisieren](../personalization/personalize.md)
 
-![](assets/select-external-perso.png){zoomable=&quot;yes&quot;}
+![](assets/select-external-perso.png){zoomable="yes"}
 
 ## Beispieldatei {#sample-file}
 
@@ -101,7 +101,7 @@ Campaign Web ermöglicht Ihnen die Vorschau und das Versenden von Testsendungen,
 
 1. Eine Vorschau des Versandinhalts wird im rechten Bereich des Bildschirms angezeigt. Personalisierte Elemente werden durch die Daten aus dem Profil ersetzt, das im linken Bereich ausgewählt wurde. [Weitere Informationen zur Inhaltsvorschau eines Versands](../preview-test/preview-content.md)
 
-   ![](assets/file-upload-preview.png){zoomable=&quot;yes&quot;}
+   ![](assets/file-upload-preview.png){zoomable="yes"}
 
 1. Um Testsendungen durchzuführen, klicken Sie auf die Schaltfläche **[!UICONTROL Testsendung durchführen]**.
 
@@ -113,6 +113,6 @@ Campaign Web ermöglicht Ihnen die Vorschau und das Versenden von Testsendungen,
 
 1. Wenn die Testversand-Profile hinzugefügt wurden und Sie bereit sind, die Testsendungen durchzuführen, klicken Sie auf die Schaltfläche **[!UICONTROL Testversand durchführen]** und bestätigen dann das Senden.
 
-   ![](assets/file-upload-test.png){zoomable=&quot;yes&quot;}
+   ![](assets/file-upload-test.png){zoomable="yes"}
 
 1. Sie können den Versand der Testsendung jederzeit mithilfe der Schaltfläche **[!UICONTROL Testsendung anzeigen]** überwachen. [Weitere Informationen zur Überwachung von Testsendungen](../preview-test/test-deliveries.md#access-test-deliveries)

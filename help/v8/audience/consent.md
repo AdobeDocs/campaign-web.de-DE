@@ -4,7 +4,7 @@ title: Einverständnis
 description: Informationen zum Einverständnis in Campaign Web
 badge: label="Eingeschränkte Verfügbarkeit"
 source-git-commit: 9a184d7558ca39be3afed4a7217a5e5687799c0d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '484'
 ht-degree: 100%
 

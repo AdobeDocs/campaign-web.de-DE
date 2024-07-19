@@ -8,7 +8,7 @@ level: Beginner
 exl-id: 3afff35c-c15f-46f8-b791-9bad5e38ea44
 source-git-commit: 8667de1d86428427edd9a2718218de9801b0922d
 workflow-type: tm+mt
-source-wordcount: '1195'
+source-wordcount: '1185'
 ht-degree: 100%
 
 ---
@@ -34,12 +34,12 @@ Gehen Sie wie folgt vor, um einen eigenständigen Versand zu erstellen:
 
 1. Navigieren Sie zum Menü **[!UICONTROL Sendungen]** im linken Navigationsmenü und klicken Sie auf die Schaltfläche **[!UICONTROL Versand erstellen]**.
 
-   ![](assets/create-a-delivery.png){zoomable=&quot;yes&quot;}
+   ![](assets/create-a-delivery.png){zoomable="yes"}
 
 1. Wählen Sie einen Kanal für den Versand aus. 
 1. Definieren Sie die Versandzielgruppe sowohl für die Hauptzielgruppe als auch für die Kontrollgruppe. [Weitere Informationen zu Zielgruppen](../audience/about-recipients.md).
 
-   ![](assets/select-audience.png){zoomable=&quot;yes&quot;}{width="70%" align="left"}
+   ![](assets/select-audience.png){zoomable="yes"}{width="70%" align="left"}
 
 1. Definieren Sie den Nachrichteninhalt. Weitere Informationen zu Versandkanälen und zum Definieren von Versandinhalten finden Sie in den folgenden Abschnitten:
 
@@ -62,13 +62,13 @@ Gehen Sie wie folgt vor, um einen Versand in einem Workflow zu erstellen:
 1. Fügen Sie eine Aktivität [**[!UICONTROL Zielgruppe erstellen]**](../workflows/activities/build-audience.md) hinzu und konfigurieren Sie sie. 
 1. Klicken Sie auf das `+`-Symbol und wählen Sie eine Versandaktivität aus: **[!UICONTROL E-Mail]**, **[!UICONTROL SMS]**, **[!UICONTROL Push-Benachrichtigung (Android)]** oder **[!UICONTROL Push-Benachrichtigung (iOS)]**. In [diesem Abschnitt](../workflows/activities/channels.md) erfahren Sie mehr über die Versandkanalaktivitäten in einem Workflow und darüber, wie Sie Versandinhalte definieren.
 
-   ![](assets/add-delivery-in-wf.png){zoomable=&quot;yes&quot;}
+   ![](assets/add-delivery-in-wf.png){zoomable="yes"}
 
 1. Starten Sie den Workflow und überprüfen Sie die Protokolle.
 
 Sie können Sendungen auch in einer Kampagne hinzufügen, ohne einen Workflow zu erstellen. Navigieren Sie dazu zur Registerkarte **[!UICONTROL Sendungen]** Ihrer Kampagne und klicken Sie auf die Schaltfläche **[!UICONTROL Versand erstellen]**.
 
-![](assets/new-campaign-delivery.png){zoomable=&quot;yes&quot;}
+![](assets/new-campaign-delivery.png){zoomable="yes"}
 
 Die Konfigurationsschritte ähneln den Schritten für eigenständige Sendungen.
 
@@ -116,7 +116,7 @@ Sie können für das Senden Ihrer Nachrichten das Datum und die genaue Uhrzeit f
 
 Um einen Versand zeitlich zu planen, öffnen Sie den Versand und navigieren Sie zum Abschnitt **[!UICONTROL Zeitplan]**. Verwenden Sie den Umschalter **[!UICONTROL Zeitplanung aktivieren]**, um dies zu aktivieren, und legen Sie das gewünschte Datum und die gewünschte Uhrzeit für den Versand fest. Nach dem Versand beginnt der eigentliche Versand am von Ihnen definierten Kontaktdatum.
 
-![](assets/schedule.png){zoomable=&quot;yes&quot;}
+![](assets/schedule.png){zoomable="yes"}
 
 Standardmäßig ist die Option **[!UICONTROL Bestätigung vor dem Senden aktivieren]** aktiviert. Für diese Option müssen Sie das Senden bestätigen, bevor der Versand zum geplanten Zeitpunkt gesendet wird. Wenn Sie den Versand automatisch zum geplanten Zeitpunkt durchführen lassen möchten, können Sie diese Option deaktivieren.
 

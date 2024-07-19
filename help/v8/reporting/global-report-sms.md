@@ -5,7 +5,7 @@ description: Grundlegendes zu globalen Berichten für den SMS-Kanal
 exl-id: 346cf2ff-b6e4-4d8f-ba26-197eadeaf5e6
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '593'
+source-wordcount: '583'
 ht-degree: 100%
 
 ---
@@ -27,7 +27,7 @@ Navigieren Sie zum Menü **[!UICONTROL Berichte]** im Abschnitt **[!UICONTROL Be
 
 Der Bericht zur **[!UICONTROL Versandübersicht]** bietet anhand umfassender Leistungskennzahlen (KPI) einen umfassenden Einblick in die Interaktionsmuster Ihrer Besucherinnen und Besucher bei jedem SMS-Versand. Folgende Metriken sind nachfolgend beschrieben.
 
-![](assets/global_report_sms_delivery_overview.png){zoomable=&quot;yes&quot;}
+![](assets/global_report_sms_delivery_overview.png){zoomable="yes"}
 
 +++Erfahren Sie mehr über Versandübersichtsmetriken.
 
@@ -50,7 +50,7 @@ Der Bericht zur **[!UICONTROL Versandübersicht]** bietet anhand umfassender Lei
 
 Die Tabelle und der Graph **[!UICONTROL Zielgruppe]** enthalten Daten zu den Empfängerinnen und Empfängern jedes gesendeten SMS-Versands. Metriken werden nachfolgend beschrieben.
 
-![](assets/global_report_sms_targeted_audience.png){zoomable=&quot;yes&quot;}
+![](assets/global_report_sms_targeted_audience.png){zoomable="yes"}
 
 +++Erfahren Sie mehr über Zielgruppen-Metriken.
 
@@ -71,7 +71,7 @@ Die Tabelle und der Graph **[!UICONTROL Zielgruppe]** enthalten Daten zu den Emp
 
 Die Tabelle **[!UICONTROL Versandstatistiken]** gibt Auskunft über den Erfolg jedes SMS-Versands. Metriken werden nachfolgend beschrieben.
 
-![](assets/global_report_sms_delivery_statistics.png){zoomable=&quot;yes&quot;}
+![](assets/global_report_sms_delivery_statistics.png){zoomable="yes"}
 
 +++Erfahren Sie mehr über Versandstatistik-Metriken.
 
@@ -98,7 +98,7 @@ Der Graph und die Tabelle **[!UICONTROL Ausschlussgründe]** veranschaulichen di
 
 Die E-Mail-Fehlertypen werden in der [Dokumentation zu Adobe Campaign v8 (Client-Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=de#email-error-types){target="_blank"} aufgelistet.
 
-![](assets/global_report_sms_causes_exclusion.png){zoomable=&quot;yes&quot;}
+![](assets/global_report_sms_causes_exclusion.png){zoomable="yes"}
 
 ## Versanddurchsatz {#delivery-throughput-sms}
 
@@ -107,6 +107,6 @@ Die E-Mail-Fehlertypen werden in der [Dokumentation zu Adobe Campaign v8 (Client
 >title="SMS-Versanddurchsatz"
 >abstract="Der Bericht zum **Versanddurchsatz** bietet umfassende Einblicke in die Effizienz des Versandsystems für SMS-Nachrichten und einen detaillierten Überblick über Erfolgs- und Fehlerquoten innerhalb eines bestimmten Zeitraums."
 
-![](assets/global_report_sms_delivery_throughput.png){zoomable=&quot;yes&quot;}
+![](assets/global_report_sms_delivery_throughput.png){zoomable="yes"}
 
 Der Bericht zum **[!UICONTROL Versanddurchsatz]** bietet umfassende Einblicke in die Effektivität des Versandsystems für SMS-Nachrichten und eine detaillierte Zusammenfassung der Erfolgs- und Fehlerquoten über einen bestimmten Zeitraum.

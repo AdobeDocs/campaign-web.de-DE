@@ -4,7 +4,7 @@ title: Versandwarnung
 description: Erfahren Sie, wie Sie mit Versandwarnungen arbeiten können.
 exl-id: b91ef82b-f3e9-4704-87a2-0e3f75104572
 source-git-commit: bbfee1479593ff6ae3f77ef5bfd760d63e640c76
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1050'
 ht-degree: 100%
 
@@ -40,7 +40,7 @@ In Versandwarnungs-Dashboards können Sie festlegen, wer E-Mail-Warnungen erhalt
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_create_criteria_parameters"
->title="Bedingungsparameter"
+>title="Kriterienparameter"
 >abstract="Kriterien verfügen über Standardparameter, die definieren, wie sie angewendet werden sollen. Sie können diese Werte entsprechend Ihren Anforderungen in diesem Abschnitt ändern."
 
 Gehen Sie wie folgt vor, um ein Versand-Dashboard zu erstellen:

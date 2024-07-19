@@ -10,7 +10,7 @@ keywords: Landing, Landingpage, Anwendungsfall
 exl-id: e51cf54c-9db1-4704-bc5b-0df098d67c7d
 source-git-commit: e5a17ad1f8316d201dc3b4bc6ce20d61aea7a9c9
 workflow-type: tm+mt
-source-wordcount: '1381'
+source-wordcount: '1353'
 ht-degree: 100%
 
 ---
@@ -40,13 +40,13 @@ In der [!DNL Adobe Campaign Web]-Benutzeroberfläche stehen Ihnen vier vorkonfig
 
 1. Definieren der Eigenschaften und Einstellungen der Landingpage
 
-   ![](assets/lp-uc-properties.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-uc-properties.png){zoomable="yes"}
 
 1. Wählen Sie je nach Fall die Seite **[!UICONTROL Akquise]**, **[!UICONTROL Anmeldung]**, **[!UICONTROL Abmeldung]** oder **[!UICONTROL Blockierungsliste]** aus.
 
 1. Der Inhalt der Seite wird angezeigt. Wählen Sie den dem Landingpage-Formular entsprechenden Teil aus.
 
-   ![](assets/lp-uc-form.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-uc-form.png){zoomable="yes"}
 
 1. Bearbeiten Sie den Inhalt entsprechend der ausgewählten Vorlage:
 
@@ -59,7 +59,7 @@ In der [!DNL Adobe Campaign Web]-Benutzeroberfläche stehen Ihnen vier vorkonfig
 
 1. Bearbeiten Sie nach Bedarf die Seite **[!UICONTROL Bestätigung]** sowie die Seiten **[!UICONTROL Fehler]** und **[!UICONTROL Ablauf]**. Die Seite **[!UICONTROL Bestätigung]** wird Ihren Empfängerinnen und Empfängern angezeigt, sobald sie das Formular übermitteln.
 
-   ![](assets/lp-uc-confirmation-page.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-uc-confirmation-page.png){zoomable="yes"}
 
 1. [Testen](create-lp.md#test-landing-page) und [veröffentlichen](create-lp.md#publish-landing-page) Sie Ihre Landingpage.
 
@@ -67,7 +67,7 @@ In der [!DNL Adobe Campaign Web]-Benutzeroberfläche stehen Ihnen vier vorkonfig
 
 1. [Fügen Sie einen Link](../email/message-tracking.md#insert-links) in Ihren Nachrichteninhalt ein. Wählen Sie **[!UICONTROL Landingpage]** als **[!UICONTROL Link-Typ]** und dann die von Ihnen erstellte Landingpage aus.
 
-   ![](assets/lp-uc-email-link.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-uc-email-link.png){zoomable="yes"}
 
    >[!NOTE]
    >
@@ -95,7 +95,7 @@ Mit der ersten Vorlage können Sie ein Profil zur Campaign-Datenbank hinzufügen
 
 1. Außerdem können Sie ein Kontrollkästchen hinzufügen, mit dem Ihre Kundinnen und Kunden eingeladen werden, sich für Ihren Newsletter-Dienst anzumelden. [Erfahren Sie, wie Sie einen Dienst erstellen.](../audience/manage-services.md)
 
-   ![](assets/lp-uc-acquisition-page.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-uc-acquisition-page.png){zoomable="yes"}
 
 1. Passen Sie den Inhalt nach Bedarf an und speichern Sie Ihre Änderungen.
 
@@ -105,11 +105,11 @@ Mit der ersten Vorlage können Sie ein Profil zur Campaign-Datenbank hinzufügen
 
 Wenn Empfängerinnen und Empfänger nach dem Erhalt der E-Mail auf den Link zur Landingpage klicken und das Formular übermitteln, wird ihr Profil zur Campaign-Datenbank hinzugefügt oder mit den von ihnen angegebenen Informationen aktualisiert.
 
-![](assets/lp-uc-profile-updated.png){zoomable=&quot;yes&quot;}
+![](assets/lp-uc-profile-updated.png){zoomable="yes"}
 
 Wenn sie sich für den Erhalt Ihres Newsletters entschieden haben, werden sie für den entsprechenden Dienst angemeldet.
 
-![](assets/lp-uc-newsletter-subscriber.png){zoomable=&quot;yes&quot;}
+![](assets/lp-uc-newsletter-subscriber.png){zoomable="yes"}
 
 ## Abonnement für einen Dienst {#lp-subscription}
 
@@ -124,13 +124,13 @@ Einer der häufigsten Anwendungsfälle besteht darin, dass Sie über eine Landin
 
 1. Erstellen Sie zunächst eine Bestätigungsvorlage für Benutzende, die Ihr Ereignis abonnieren, damit Sie diese bei der Erstellung des Dienstes einfach auswählen können. [Weitere Informationen](../audience/manage-services.md#create-confirmation-message)
 
-   ![](assets/lp-uc-confirmation-email.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-uc-confirmation-email.png){zoomable="yes"}
 
 1. Erstellen Sie einen Abonnement-Dienst, der die registrierten Benutzenden für Ihr Ereignis speichert. [Erfahren Sie, wie Sie einen Dienst erstellen](../audience/manage-services.md)
 
 1. Wählen Sie die Vorlage aus, die Sie als Bestätigungs-E-Mail erstellt haben und die die Benutzenden beim Abonnieren erhalten sollen.
 
-   ![](assets/lp-uc-subscription-service.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-uc-subscription-service.png){zoomable="yes"}
 
 1. [Erstellen Sie eine Landingpage](create-lp.md#create-landing-page), damit sich Ihre Empfängerinnen und Empfänger für Ihr Ereignis registrieren können. Wählen Sie die **[!UICONTROL Abonnement-Vorlage]** aus.
 
@@ -140,7 +140,7 @@ Einer der häufigsten Anwendungsfälle besteht darin, dass Sie über eine Landin
 
 1. Wählen Sie im Feld **[!UICONTROL Abonnements und Dienste]** den Dienst aus, den Sie für Ihr Ereignis erstellt haben. Lassen Sie die Option **[!UICONTROL Anmelden wenn aktiviert]** aktiviert.
 
-   ![](assets/lp-uc-subscription-checkbox-1.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-uc-subscription-checkbox-1.png){zoomable="yes"}
 <!--
 1. You can add an additional checkbox to offer subscription to your newsletter for example.-->
 
@@ -170,11 +170,11 @@ Sie können Ihren Kunden und Kundinnen über eine Landingpage die Möglichkeit g
 
 1. Sie können einen Abschnitt für **[!UICONTROL Kontrollkästchen]** hinzufügen, indem Sie zunächst den Dienst und anschließend die Option **[!UICONTROL Abmelden wenn aktiviert]** auswählen.
 
-   ![](assets/lp-uc-unsubscription-checkbox-1.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-uc-unsubscription-checkbox-1.png){zoomable="yes"}
 
 1. Sie können auch den Abschnitt **[!UICONTROL Handlungsaufforderung]** ausklappen und die Option **[!UICONTROL Zusätzliche Aktualisierungen]** auswählen. Wählen Sie den Dienst aus und aktivieren Sie die Option **[!UICONTROL Opt-out]**.
 
-   ![](assets/lp-uc-unsubscription-call-to-action.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-uc-unsubscription-call-to-action.png){zoomable="yes"}
 
 1. Passen Sie den Inhalt nach Bedarf an und speichern Sie Ihre Änderungen.
 
@@ -198,7 +198,7 @@ Sie können auch eine Landingpage vom Typ **[!UICONTROL Blockierungsliste]** ein
 
 1. Wählen Sie aus der entsprechenden Dropdown-Liste **[!UICONTROL Kanal (E-Mail)]** aus, damit sich Ihre Empfängerinnen und Empfänger nur von der E-Mail-Kommunikation abmelden können. Sie können auch **[!UICONTROL Nach jedem Kanal]** auswählen, um sie alle von allen Nachrichten auf allen Kanälen abzumelden.
 
-   ![](assets/lp-uc-denylist.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-uc-denylist.png){zoomable="yes"}
 
 1. Passen Sie den Inhalt nach Bedarf an und speichern Sie Ihre Änderungen.
 
@@ -212,6 +212,6 @@ Um zu überprüfen, ob die Auswahl des entsprechenden Profils aktualisiert wurde
 
 Wenn Sie beispielsweise die Option **[!UICONTROL Kanal (E-Mail)]** auf Ihrer Landingpage aktualisieren, wird die Option **[!UICONTROL Nicht länger per E-Mail kontaktieren]** aktiviert.
 
-![](assets/lp-uc-denylist-profile.png){zoomable=&quot;yes&quot;}
+![](assets/lp-uc-denylist-profile.png){zoomable="yes"}
 
 Dieses Profil erhält keine E-Mail-Nachrichten mehr von Ihrer Marke, es sei denn, es wird erneut angemeldet.

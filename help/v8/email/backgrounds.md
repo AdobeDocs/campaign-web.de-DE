@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie Ihren E-Mail-Hintergrund personalisieren
 exl-id: 180e61d3-bc1e-4dde-84cf-06bd8ba4d724
 source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '300'
 ht-degree: 100%
 
 ---
@@ -27,15 +27,15 @@ Unten finden Sie die verfügbaren Einstellungen für den Hintergrund.
 
 * Legen Sie eine **[!UICONTROL Hintergrundfarbe]** für die gesamte E-Mail fest. Wählen Sie die Einstellungen für den Hauptteil im Navigationsbaum aus, auf den Sie über den linken Bereich zugreifen können.
 
-  ![](assets/background_1.png){zoomable=&quot;yes&quot;}
+  ![](assets/background_1.png){zoomable="yes"}
 
 * Legen Sie dieselbe Hintergrundfarbe für alle Strukturkomponenten fest, indem Sie **[!UICONTROL Viewport-Hintergrundfarbe auswählen]**. Mit dieser Option können Sie eine andere Einstellung als die Hintergrundfarbe auswählen.
 
-  ![](assets/background_2.png){zoomable=&quot;yes&quot;}
+  ![](assets/background_2.png){zoomable="yes"}
 
 * Legen Sie für jede Strukturkomponente eine andere Hintergrundfarbe fest. Wählen Sie im linken Bereich eine Struktur im Navigationsbaum aus, um eine bestimmte Hintergrundfarbe nur dieser Struktur zuzuweisen.
 
-  ![](assets/background_3.png){zoomable=&quot;yes&quot;}
+  ![](assets/background_3.png){zoomable="yes"}
 
   >[!NOTE]
   >
@@ -43,7 +43,7 @@ Unten finden Sie die verfügbaren Einstellungen für den Hintergrund.
 
 * Legen Sie für den Inhalt einer Strukturkomponente ein **[!UICONTROL Hintergrundbild]** fest.
 
-  ![](assets/background_4.png){zoomable=&quot;yes&quot;}
+  ![](assets/background_4.png){zoomable="yes"}
 
   >[!NOTE]
   >
@@ -51,7 +51,7 @@ Unten finden Sie die verfügbaren Einstellungen für den Hintergrund.
 
 * Legen Sie auf Spaltenebene eine Hintergrundfarbe fest.
 
-  ![](assets/background_5.png){zoomable=&quot;yes&quot;}
+  ![](assets/background_5.png){zoomable="yes"}
 
   >[!NOTE]
   >

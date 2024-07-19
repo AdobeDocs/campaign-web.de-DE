@@ -4,7 +4,7 @@ description: Erfahren Sie, wie Sie Profile in Adobe Campaign Web überwachen und
 exl-id: 0b28741a-28f6-4f46-8c4c-820c5036aeda
 source-git-commit: 5a4bf85a1f70a0282405aededfb31038f9db17a8
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '454'
 ht-degree: 100%
 
 ---
@@ -36,7 +36,7 @@ Profile sind in Adobe Campaign Web über **[!UICONTROL Kunden-Management]** > **
 
 Sie können die Liste der **[!UICONTROL Profile]** mit dem Suchfeld oder den unter **Filter anzeigen** verfügbaren Filtern durchsuchen. Sie können die Ergebnisse über die Dropdown-Liste auf einen bestimmten [Ordner](../get-started/permissions.md#folders) beschränken oder mithilfe des [Abfrage-Modelers](../query/query-modeler-overview.md) Regeln hinzufügen.
 
-![](assets/profiles-list-filters.png){zoomable=&quot;yes&quot;}
+![](assets/profiles-list-filters.png){zoomable="yes"}
 
 Um auf die Details eines Profils zuzugreifen, klicken Sie in der Liste auf dessen Namen. Eine detaillierte Ansicht des Profils wird geöffnet, in der Sie seine Attribute und die Dienste, die es abonniert hat, einsehen können. [Erfahren Sie, wie Sie die Profildetails durchsuchen können.](create-profile.md)
 

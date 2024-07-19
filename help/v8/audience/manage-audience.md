@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie in Adobe Campaign Web mit Zielgruppen arbeite
 exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
 source-git-commit: a0da65d8facedb3730947eb969e362a367e4d317
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '352'
 ht-degree: 100%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 100%
 
 Die Zielgruppe ist das hauptsächliche Ziel Ihres Versands: die Profile, die die Nachrichten erhalten. Die Liste der Zielgruppen, die in Campaign Web verwendet werden können, ist über das Menü **[!UICONTROL Zielgruppen]** verfügbar.
 
-![](assets/audiences-list.png){zoomable=&quot;yes&quot;}
+![](assets/audiences-list.png){zoomable="yes"}
 
 Zielgruppen können aus mehreren Quellen stammen. Die Spalte **[!UICONTROL Herkunft]** gibt an, wo eine bestimmte Zielgruppe erstellt wurde:
 
@@ -43,7 +43,7 @@ Um weitere Informationen zu einer Zielgruppe zu erhalten, öffnen Sie sie in der
 
 Die Registerkarte **[!UICONTROL Daten]** ermöglicht die Visualisierung der Profile, die Teil der Zielgruppe sind. Sie können diese Ansicht anpassen, indem Sie weitere Spalten hinzufügen oder erweiterte Filter nutzen, um die angezeigten Daten zu präzisieren.
 
-![](assets/audiences-details.png){zoomable=&quot;yes&quot;}
+![](assets/audiences-details.png){zoomable="yes"}
 
 Um eine Zielgruppe zu duplizieren oder zu löschen, klicken Sie auf die Schaltfläche **[!UICONTROL Mehr Aktionen]** in der Zielgruppenliste neben dem Zielgruppennamen oder in einem Bildschirm mit Zielgruppendetails.
 

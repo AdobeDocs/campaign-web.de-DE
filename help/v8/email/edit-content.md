@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie den E-Mail-Inhalt in der Campaign Web-Benutze
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '630'
+source-wordcount: '624'
 ht-degree: 100%
 
 ---
@@ -47,11 +47,11 @@ Gehen Sie wie folgt vor, um den Inhalt einer E-Mail zu konfigurieren oder zu bea
 
 1. Klicken Sie auf die Schaltfläche **[!UICONTROL Inhalt bearbeiten]** im Bildschirm [E-Mail-Versand-Dashboard](../email/create-email.md).
 
-   ![](assets/email-edit-content-button.png){zoomable=&quot;yes&quot;}
+   ![](assets/email-edit-content-button.png){zoomable="yes"}
 
 1. Der Bildschirm zur Bearbeitung des E-Mail-Inhalts wird geöffnet.
 
-   ![](assets/email-edit-content-dashboard.png){zoomable=&quot;yes&quot;}
+   ![](assets/email-edit-content-dashboard.png){zoomable="yes"}
 
    >[!NOTE]
    >
@@ -71,7 +71,7 @@ Gehen Sie wie folgt vor, um den Inhalt einer E-Mail zu konfigurieren oder zu bea
 
 1. Erweitern Sie den Abschnitt **[!UICONTROL Antwortfelder]**. Name und Adresse der Absenderin bzw. des Absenders werden standardmäßig für Antworten verwendet. Adobe empfiehlt, eine echte Adresse zu verwenden, wie etwa den Kundendienst Ihrer Marke. So kann sich dieser gegebenenfalls um etwaige Antworten kümmern.
 
-   ![](assets/email-edit-content-reply-to.png){zoomable=&quot;yes&quot;}
+   ![](assets/email-edit-content-reply-to.png){zoomable="yes"}
 
 1. Definieren Sie die **[!UICONTROL Betreffzeile]** der E-Mail. Geben Sie Ihren Betreff direkt in das entsprechende Feld ein oder öffnen Sie den Ausdruckseditor, um das Hinzufügen einer [Personalisierung](../personalization/personalize.md) mit verschiedenen Attributen und Inhaltsbausteinen oder Angeboten vorzunehmen.
 

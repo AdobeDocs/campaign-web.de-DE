@@ -5,7 +5,7 @@ description: Grundlegendes zu Kampagnenberichten für den SMS-Kanal
 exl-id: 0df9b999-84c8-4e42-b5da-857b2ef0dd75
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '490'
 ht-degree: 100%
 
 ---
@@ -24,7 +24,7 @@ Jeder Kampagnenbericht ist in verschiedene Widgets unterteilt, die den Erfolg un
 
 Die **[!UICONTROL Versandübersicht]** bietet wichtige Performance-Indikatoren (KPIs), die detaillierte Informationen darüber enthalten, wie Ihre Besucherinnen und Besucher mit Ihrem SMS-Versand interagieren. Metriken werden nachfolgend beschrieben.
 
-![](assets/campaign_report_sms_1.png){zoomable=&quot;yes&quot;}
+![](assets/campaign_report_sms_1.png){zoomable="yes"}
 
 +++Erfahren Sie mehr über die Metriken des SMS-Kampagnenberichts.
 
@@ -49,7 +49,7 @@ Die **[!UICONTROL Versandübersicht]** bietet wichtige Performance-Indikatoren (
 Die Tabelle **[!UICONTROL Statistiken der anfänglichen Zielgruppe]** zeigt Daten zu Ihren Empfängerinnen und Empfängern an. Metriken werden nachfolgend beschrieben.
 
 
-![](assets/campaign_report_sms_2.png){zoomable=&quot;yes&quot;}
+![](assets/campaign_report_sms_2.png){zoomable="yes"}
 
 +++Erfahren Sie mehr über die Metriken des SMS-Kampagnenberichts.
 
@@ -74,7 +74,7 @@ Die Tabelle **[!UICONTROL Statistiken der anfänglichen Zielgruppe]** zeigt Date
 Die Tabelle **[!UICONTROL Ausführungsstatistiken]** zeigt den Erfolg Ihres Versands im Detail. Metriken werden nachfolgend beschrieben.
 
 
-![](assets/campaign_report_sms_3.png){zoomable=&quot;yes&quot;}
+![](assets/campaign_report_sms_3.png){zoomable="yes"}
 
 +++Erfahren Sie mehr über die Metriken des SMS-Kampagnenberichts.
 
@@ -100,7 +100,7 @@ Die Tabelle **[!UICONTROL Ausführungsstatistiken]** zeigt den Erfolg Ihres Vers
 
 Die Tabelle **[!UICONTROL Generierte Clickstreams]** zeigt Daten dazu an, wie Ihre Empfängerinnen und Empfänger mit Ihrem Versand interagiert haben. Metriken werden nachfolgend beschrieben.
 
-![](assets/campaign_report_sms_4.png){zoomable=&quot;yes&quot;}
+![](assets/campaign_report_sms_4.png){zoomable="yes"}
 
 +++Erfahren Sie mehr über die Metriken des SMS-Kampagnenberichts.
 

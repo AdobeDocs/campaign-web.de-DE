@@ -4,7 +4,7 @@ description: Erfahren Sie, wie Sie in Campaign Web ein Profil erstellen.
 exl-id: 0680b726-8f2f-45bf-8aa0-c1d4aa1c2990
 source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '566'
 ht-degree: 100%
 
 ---
@@ -52,7 +52,7 @@ Gehen Sie wie folgt vor, um ein Profil zu erstellen:
 
 1. Die Liste der für die Profilanzeige verfügbaren Attribute, die in verschiedene Abschnitte unterteilt ist, ist in der folgenden Tabelle beschrieben.
 
-   ![](assets/create-profile.png){zoomable=&quot;yes&quot;}
+   ![](assets/create-profile.png){zoomable="yes"}
 
    | Abschnitt „Attribute“ | Beschreibung |
    |  ---  |  ---  |

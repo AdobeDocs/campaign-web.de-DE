@@ -5,7 +5,7 @@ description: Grundlegendes zu Kampagnenberichten für den Push-Kanal
 exl-id: 5e7ac2b8-b543-427b-846c-7c0b489cc21c
 source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '499'
 ht-degree: 100%
 
 ---
@@ -23,7 +23,7 @@ Jeder Kampagnenbericht ist in verschiedene Widgets unterteilt, die den Erfolg un
 
 Der Bericht **[!UICONTROL Versandübersicht]** bietet wichtige Performance-Indikatoren (KPIs), die detaillierte Informationen darüber enthalten, wie Ihre Besucherinnen und Besucher mit dem Versand Ihrer Push-Benachrichtigungen interagieren. Metriken werden nachfolgend beschrieben.
 
-![](assets/campaign-reporting-push-summary.png){zoomable=&quot;yes&quot;}
+![](assets/campaign-reporting-push-summary.png){zoomable="yes"}
 
 
 +++Erfahren Sie mehr über die Metriken für Push-Kampagnenberichte.
@@ -48,10 +48,10 @@ Der Bericht **[!UICONTROL Versandübersicht]** bietet wichtige Performance-Indik
 
 Die Tabelle **[!UICONTROL Statistiken der anfänglichen Zielgruppe]** zeigt Daten zu Ihren Empfängerinnen und Empfängern an. Metriken werden nachfolgend beschrieben.
 
-![](assets/campaign-reporting-push-target.png){zoomable=&quot;yes&quot;}
+![](assets/campaign-reporting-push-target.png){zoomable="yes"}
 
 
-+++Erfahren Sie mehr über die Metriken für Push-Kampagnenberichte.
++++Erfahren Sie mehr über die Metriken der Push-Kampagnenberichte.
 
 * **[!UICONTROL Ursprüngliche Zielgruppe]**: Gesamtzahl der Zielgruppenempfängerinnen und -empfänger.
 
@@ -70,9 +70,9 @@ Die Tabelle **[!UICONTROL Statistiken der anfänglichen Zielgruppe]** zeigt Date
 
 Die Tabelle **[!UICONTROL Ausführungsstatistiken]** zeigt den Erfolg Ihres Versands im Detail. Metriken werden nachfolgend beschrieben.
 
-![](assets/campaign-reporting-push-exec.png){zoomable=&quot;yes&quot;}
+![](assets/campaign-reporting-push-exec.png){zoomable="yes"}
 
-+++Erfahren Sie mehr über die Metriken für Push-Kampagnenberichte.
++++Erfahren Sie mehr über die Metriken der Push-Kampagnenberichte.
 
 * **[!UICONTROL Zu versendende Nachricht]**: Gesamtzahl der nach erfolgter Versandvorbereitung zu versendenden Nachrichten.
 
@@ -95,9 +95,9 @@ Die Tabelle **[!UICONTROL Ausführungsstatistiken]** zeigt den Erfolg Ihres Vers
 
 Die Tabelle **[!UICONTROL Generierte Clickstreams]** zeigt Daten dazu an, wie Ihre Empfängerinnen und Empfänger mit Ihrem Versand interagiert haben. Metriken werden nachfolgend beschrieben.
 
-![](assets/campaign-reporting-push-clicks.png){zoomable=&quot;yes&quot;}
+![](assets/campaign-reporting-push-clicks.png){zoomable="yes"}
 
-+++Erfahren Sie mehr über die Metriken für Push-Kampagnenberichte.
++++Erfahren Sie mehr über die Metriken der Push-Kampagnenberichte.
 
 * **[!UICONTROL Einzelklicks]**: Gesamtzahl der unterschiedlichen Empfängerinnen und Empfänger, die einen Versand mindestens einmal angeklickt haben.
 

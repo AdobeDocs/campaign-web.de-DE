@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie mit Adobe Campaign Web einen Push-Benachricht
 exl-id: 16b3b33b-36db-4635-8e44-707694b859db
 source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '386'
 ht-degree: 100%
 
 ---
@@ -20,7 +20,7 @@ Die wichtigsten Schritte zum Anzeigen einer Push-Benachrichtigung in einer Vorsc
 
 1. Auf der Seite für den Versandinhalt können Sie über die Option **[!UICONTROL Inhalt simulieren]** personalisierten Inhalt in einer Vorschau anzeigen.
 
-   ![](assets/push_send_1.png){zoomable=&quot;yes&quot;}
+   ![](assets/push_send_1.png){zoomable="yes"}
 
 1. Klicken Sie auf **[!UICONTROL Abonnentin(nen) oder Abonnent(en) hinzufügen]**, um mindestens ein Profil anzuzeigen und dessen Daten im Inhalt der Push-Benachrichtigung in einer Vorschau anzuzeigen.
 
@@ -30,7 +30,7 @@ Die wichtigsten Schritte zum Anzeigen einer Push-Benachrichtigung in einer Vorsc
 
 1. Im rechten Bereich sehen Sie eine Vorschau der Push-Benachrichtigung, in der personalisierte Elemente dynamisch durch Daten aus dem ausgewählten Profil ersetzt werden.
 
-   ![](assets/push_send_7.png){zoomable=&quot;yes&quot;}
+   ![](assets/push_send_7.png){zoomable="yes"}
 
 Sie können nun Ihre Push-Benachrichtigung überprüfen und an Ihre Zielgruppe senden.
 
@@ -40,19 +40,19 @@ Mit **Adobe Campaign** haben Sie die Möglichkeit, Testsendungen zu verschicken,
 
 Testprofile sind die Empfängerinnen und Empfänger eines Testversands. Diese können Komponenten und Einstellungen wie Links, Bilder und Personalisierungseinstellungen überprüfen, um eine optimale Leistung zu gewährleisten und Fehler zu erkennen. Dieser Prozess hilft Ihnen, Ihre Push-Benachrichtigungen zu verfeinern und zu optimieren, bevor Sie Ihre Hauptzielgruppe erreichen. [Durchführen eines Testversands](../preview-test/test-deliveries.md#subscribers)
 
-![](assets/push_send_6.png){zoomable=&quot;yes&quot;}
+![](assets/push_send_6.png){zoomable="yes"}
 
 ## Senden Ihres Push-Benachrichtigungs-Versands {#send-push}
 
 1. Nachdem Sie den Inhalt Ihrer Push-Benachrichtigung personalisiert haben, klicken Sie auf der Seite **[!UICONTROL Versand]** auf **[!UICONTROL Überprüfen und Senden]**.
 
-   ![](assets/push_send_2.png){zoomable=&quot;yes&quot;}
+   ![](assets/push_send_2.png){zoomable="yes"}
 
 1. Klicken Sie auf **[!UICONTROL Vorbereiten]** und überwachen Sie den Fortschritt und die bereitgestellten Statistiken.
 
    Wenn Fehler auftreten, finden Sie im Menü „Protokolle“ detaillierte Informationen zum Fehler.
 
-   ![](assets/push_send_3.png){zoomable=&quot;yes&quot;}
+   ![](assets/push_send_3.png){zoomable="yes"}
 
 1. Senden Sie die Nachrichten, indem Sie auf **[!UICONTROL Senden]** klicken, um mit dem endgültigen Versandprozess fortzufahren.
 
@@ -60,7 +60,7 @@ Testprofile sind die Empfängerinnen und Empfänger eines Testversands. Diese k�
 
    Wenn der Push-Versand geplant wurde, klicken Sie auf die Schaltfläche **[!UICONTROL Nach Zeitplan senden]**. Weitere Informationen zur Versandplanung finden Sie in [diesem Abschnitt](../msg/gs-messages.md#schedule-the-delivery-sending)
 
-   ![](assets/push_send_4.png){zoomable=&quot;yes&quot;}
+   ![](assets/push_send_4.png){zoomable="yes"}
 
 Nach dem Versand können Sie Ihre KPI(Key Performance Indicator)-Daten über Ihre Versandseite und weitere Daten über das Menü **[!UICONTROL Protokolle]** verfolgen.
 

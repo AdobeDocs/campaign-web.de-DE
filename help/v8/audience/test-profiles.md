@@ -7,7 +7,7 @@ level: Beginner
 exl-id: d372713d-3024-46a1-b62e-f271b8ac829f
 source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '592'
 ht-degree: 100%
 
 ---
@@ -35,17 +35,17 @@ Informationen zum Versand von Testsendungen an Testprofile finden Sie in [diesem
 
 Um auf die Testprofilliste zuzugreifen, wählen Sie **[!UICONTROL Kunden-Management]** > **[!UICONTROL Profile]** im linken Menü und öffnen Sie die Registerkarte **[!UICONTROL Testprofile]**.
 
-![](assets/test-profile-list.png){zoomable=&quot;yes&quot;}
+![](assets/test-profile-list.png){zoomable="yes"}
 
 * Über die Dropdown-Liste können Sie nach einem bestimmten [Ordner](../get-started/permissions.md#folders) filtern oder mithilfe des [Abfrage-Modelers](../query/query-modeler-overview.md) Regeln hinzufügen.
 
-  ![](assets/test-profile-list-filters.png){zoomable=&quot;yes&quot;}
+  ![](assets/test-profile-list-filters.png){zoomable="yes"}
 
 * Sie können jedes Testprofil nach Bedarf duplizieren und aktualisieren. Die Schritte zum Bearbeiten eines Testprofils sind dieselben wie beim [Erstellen eines Testprofils](#create-test-profile).
 
 * Um ein Testprofil zu löschen, wählen Sie die entsprechende Option aus dem Menü **[!UICONTROL Mehr Aktionen]**.
 
-  ![](assets/test-profile-list-delete.png){zoomable=&quot;yes&quot;}
+  ![](assets/test-profile-list-delete.png){zoomable="yes"}
 
 * Klicken Sie auf das gewünschte Element in der Liste, um ein Testprofil zu bearbeiten. Die Schritte zum Bearbeiten eines Testprofils sind dieselben wie beim [Erstellen eines Testprofils](#create-test-profile).
 
@@ -53,7 +53,7 @@ Sie können auch in der **[!UICONTROL Explorer]**-Ansicht unter dem Knoten **[!U
 
 Dort können Sie Ordner oder Unterordner durchsuchen, erstellen und verwalten sowie die zugehörigen Berechtigungen überprüfen. [Erfahren Sie, wie Sie Ordner erstellen](../get-started/permissions.md#folders)
 
-![](assets/test-profiles-folders.png){zoomable=&quot;yes&quot;}
+![](assets/test-profiles-folders.png){zoomable="yes"}
 
 In der **[!UICONTROL Explorer]**-Ansicht können Sie Testprofile auch filtern, löschen, bearbeiten und [erstellen](#create-test-profile).
 
@@ -70,11 +70,11 @@ Gehen Sie wie folgt vor, um ein Testprofil zu erstellen:
 
 1. Klicken Sie auf die Schaltfläche **[!UICONTROL Testprofil erstellen]**.
 
-   ![](assets/test-profile-create.png){zoomable=&quot;yes&quot;}
+   ![](assets/test-profile-create.png){zoomable="yes"}
 
 1. Geben Sie die Details des Testprofils nach Bedarf ein. <!--Most of the fields are the same as when creating profiles. [Learn more]-->
 
-   ![](assets/test-profile-details.png){zoomable=&quot;yes&quot;}
+   ![](assets/test-profile-details.png){zoomable="yes"}
 
    >[!NOTE]
    >
@@ -90,13 +90,13 @@ You do not need to enter all fields of each tab when creating a seed address. Mi
 
 1. Geben Sie im Abschnitt **[!UICONTROL Kontaktdaten]** die E-Mail-Adresse und andere relevante Daten ein. Die E-Mail-Adresse wird in eckigen Klammern hinter der Testprofilbezeichnung angezeigt.
 
-   ![](assets/test-profile-address.png){zoomable=&quot;yes&quot;}
+   ![](assets/test-profile-address.png){zoomable="yes"}
 
 1. Wenn Sie die Option **[!UICONTROL Nicht mehr kontaktieren (alle Kanäle)]** aktivieren, befindet sich das Testprofil auf der Blockierungsliste. Solch eine Person wird auf keinem Kanal (E-Mail, SMS, usw.) mehr ausgewählt.
 
 1. Geben Sie in der Registerkarte **[!UICONTROL Zusätzliche Daten]** die Personalisierungsdaten ein, mit denen die Sendungen in den Daten-Management-Workflows erstellt wurden und denen Sie einen bestimmten Wert zuweisen möchten. [Erfahren Sie mehr über Workflows](../workflows/gs-workflows.md)
 
-   ![](assets/test-profile-additional-data.png){zoomable=&quot;yes&quot;}
+   ![](assets/test-profile-additional-data.png){zoomable="yes"}
 
    Stellen Sie sicher, dass in der Workflow-Aktivität **[!UICONTROL Anreicherung]** zusätzliche Zielgruppendaten mit einem Alias definiert wurden, der mit „@“ beginnt. Andernfalls können Sie sie in der Versandaktivität nicht ordnungsgemäß mit Ihren Testadressen verwenden. [Erfahren Sie mehr über die Anreicherungs-Aktivität](../workflows/activities/enrichment.md)
 

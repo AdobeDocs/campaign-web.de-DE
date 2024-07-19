@@ -7,8 +7,8 @@ role: Data Engineer
 level: Beginner
 exl-id: 101ad23b-7ea5-42c7-9249-7c14febe6eb7
 source-git-commit: f6e3fc0da05ecc2fda158c970458cc702b27079c
-workflow-type: ht
-source-wordcount: '946'
+workflow-type: tm+mt
+source-wordcount: '930'
 ht-degree: 100%
 
 ---
@@ -40,7 +40,7 @@ Gehen Sie wie folgt vor, um mit dem Ausdruckseditor bedingte Inhalte für einen 
 
 1. Klicken Sie neben dem Feld auf **[!UICONTROL Personalisierungsdialog öffnen]**, um den Ausdruckseditor zu öffnen.
 
-   ![](assets/open-perso-editor-sms.png){zoomable=&quot;yes&quot;}
+   ![](assets/open-perso-editor-sms.png){zoomable="yes"}
 
 1. Navigieren Sie im Personalisierungseditor zum Menü **[!UICONTROL Bedingungen]** auf der linken Seite.
 
@@ -50,7 +50,7 @@ Gehen Sie wie folgt vor, um mit dem Ausdruckseditor bedingte Inhalte für einen 
    * Ersetzen Sie `<VALUE>` durch den Wert, der erfüllt werden soll. Zum Beispiel `'French'`.
    * Ersetzen Sie `Ìnsert content here` durch den Inhalt, der für die Profile angezeigt werden soll, die die angegebene Bedingung erfüllen.
 
-     ![](assets/condition-sample1.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
+     ![](assets/condition-sample1.png){zoomable="yes"}{width="800" align="center"}
 
 1. Geben Sie den Inhalt an, der angezeigt werden soll, wenn die Empfängerinnen bzw. Empfänger die Bedingung nicht erfüllen. Verwenden Sie dazu die Hilfsfunktion **Sonst**:
 
@@ -58,11 +58,11 @@ Gehen Sie wie folgt vor, um mit dem Ausdruckseditor bedingte Inhalte für einen 
 
    1. Ersetzen Sie `Ìnsert content here` durch den Inhalt, der für die Profile angezeigt werden soll, die die Bedingung der Wenn-Funktion nicht erfüllen.
 
-   ![](assets/condition-sample2.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
+   ![](assets/condition-sample2.png){zoomable="yes"}{width="800" align="center"}
 
    Sie können auch die Hilfsfunktion **Sonst wenn** zum Erstellen von Bedingungen mit mehreren Inhaltsvarianten verwenden. Der folgende Ausdruck zeigt beispielsweise drei Varianten einer Nachricht in Abhängigkeit von der Sprache der Empfängerinnen oder Empfänger:
 
-   ![](assets/condition-sample3.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
+   ![](assets/condition-sample3.png){zoomable="yes"}{width="800" align="center"}
 
    >[!NOTE]
    >
@@ -92,25 +92,25 @@ In diesem Beispiel möchten wir eine E-Mail-Nachricht mit mehreren Varianten ers
 
 1. Wählen Sie eine Inhaltskomponente aus und klicken Sie auf das Symbol **[!UICONTROL Bedingten Inhalt aktivieren]**.
 
-   ![](assets/condition-email-enable.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
+   ![](assets/condition-email-enable.png){zoomable="yes"}{width="800" align="center"}
 
 1. Der Bereich **[!UICONTROL Bedingter Inhalt]** wird auf der linken Bildschirmseite geöffnet. In diesem Bereich können Sie mithilfe von Bedingungen mehrere Varianten der ausgewählten Inhaltskomponente erstellen.
 
 1. Konfigurieren Sie Ihre erste Variante. Bewegen Sie den Mauszeiger über **[!UICONTROL Variante – 1]** im Bereich **[!UICONTROL Bedingter Inhalt]** und klicken Sie auf die Schaltfläche **[!UICONTROL Bedingung hinzufügen]**.
 
-   ![](assets/condition-add-condition.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
+   ![](assets/condition-add-condition.png){zoomable="yes"}{width="800" align="center"}
 
 1. Es öffnet sich der Abfrage-Modeler. Mit diesem können Sie eine Bedingung erstellen, indem Sie die Profildaten der Empfängerin bzw. des Empfängers filtern. [Erfahren Sie mehr über die Arbeit mit dem Abfrage-Modeler](../query/query-modeler-overview.md).
 
    Sobald die Bedingung für die erste Variante der Nachricht vorliegt, klicken Sie auf **[!UICONTROL Bestätigen]**. In diesem Beispiel wird eine Regel erstellt, die sich an Empfängerinnen und Empfänger richtet, deren Sprache „Französisch“ ist.
 
-   ![](assets/condition-example.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
+   ![](assets/condition-example.png){zoomable="yes"}{width="800" align="center"}
 
 1. Die Regel ist nun mit der Variante verknüpft. Um die Lesbarkeit zu verbessern, wird empfohlen, die Variante umzubenennen, indem Sie auf das Menü mit den Auslassungspunkten klicken.
 
 1. Konfigurieren Sie, wie die Komponente angezeigt werden soll, wenn die Regel beim Senden der Nachricht erfüllt ist. In diesem Beispiel soll der Text auf Französisch angezeigt werden, wenn dies die bevorzugte Sprache der Empfängerin bzw. des Empfängers ist.
 
-   ![](assets/condition-email-variant1.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
+   ![](assets/condition-email-variant1.png){zoomable="yes"}{width="800" align="center"}
 
 1. Fügen Sie so viele Varianten hinzu, wie für die Inhaltskomponente erforderlich sind. Sie können jederzeit zwischen den Varianten wechseln, um zu überprüfen, wie die Inhaltskomponente basierend auf ihren bedingten Regeln angezeigt wird.
 

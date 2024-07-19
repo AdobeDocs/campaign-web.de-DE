@@ -4,8 +4,8 @@ title: Globale Berichte für den Briefpost-Kanal
 description: Erfahren Sie mehr über globale Berichte für den Briefpost-Kanal
 exl-id: a42536fe-375b-4169-8775-d47ed26692f8
 source-git-commit: 98a0ce67682f8e1ab412be91b5af01e35c638f99
-workflow-type: ht
-source-wordcount: '626'
+workflow-type: tm+mt
+source-wordcount: '620'
 ht-degree: 100%
 
 ---
@@ -27,7 +27,7 @@ Navigieren Sie zum Menü **[!UICONTROL Berichte]** im Abschnitt **[!UICONTROL Be
 
 Die **[!UICONTROL Versandübersicht]** bietet wichtige Leistungsmetriken (KPIs) mit umfassenden Erkenntnissen über die Interaktion Ihrer Besucherinnen und Besucher mit jedem Briefpostversand. Die Metriken sind unten dargestellt.
 
-![](assets/global_report_direct_mail_delivery_overview.png){zoomable=&quot;yes&quot;}{align="center"}
+![](assets/global_report_direct_mail_delivery_overview.png){zoomable="yes"}{align="center"}
 
 +++Erfahren Sie mehr über Versandübersichtsmetriken.
 
@@ -54,7 +54,7 @@ Die **[!UICONTROL Versandübersicht]** bietet wichtige Leistungsmetriken (KPIs) 
 
 Die Tabelle und der Graph **[!UICONTROL Zielgruppe]** zeigen Daten zu Ihren Empfängerinnen und Empfängern, mit detaillierten Metriken unten.
 
-![](assets/global_report_direct_mail_targeted_audience.png){zoomable=&quot;yes&quot;}{align="center"}
+![](assets/global_report_direct_mail_targeted_audience.png){zoomable="yes"}{align="center"}
 
 +++Erfahren Sie mehr über Zielgruppen-Metriken.
 
@@ -102,9 +102,9 @@ Der Graph **[!UICONTROL Versandstatistiken]** bietet eine Aufschlüsselung des E
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_causes_exclusion_direct_mail_graph"
 >title="Ausschlussgründe"
->abstract="Der Graph **Ausschlussgründe** zeigt die Verteilung der zurückgewiesenen Nachrichten während der Versandvorbereitung, kategorisiert nach jeder Regel."
+>abstract="Der Graph **Ausschlussgründe** zeigt die Verteilung der zurückgewiesenen Nachrichten während der Versandvorbereitung, kategorisiert nach den jeweiligen Regeln."
 
-![](assets/global_report_direct_mail_exclusions.png){zoomable=&quot;yes&quot;}{align="center"}
+![](assets/global_report_direct_mail_exclusions.png){zoomable="yes"}{align="center"}
 
 Der Graph und die Tabelle „Ausschlüsse“ zeigen die Gründe, aus denen Benutzerprofile, die aus den Zielprofilen ausgeschlossen sind, die Benachrichtigung nicht erhalten haben.
 

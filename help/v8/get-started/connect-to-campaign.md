@@ -3,8 +3,8 @@ title: Herstellen einer Verbindung zur Adobe Campaign Web-Benutzeroberfläche
 description: Erfahren Sie, wie Sie eine Verbindung mit der Benutzeroberfläche von Adobe Campaign Web herstellen.
 exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
 source-git-commit: 2e5ddb7aca83a1a348ca50603d38a89c2762bb80
-workflow-type: ht
-source-wordcount: '559'
+workflow-type: tm+mt
+source-wordcount: '549'
 ht-degree: 100%
 
 ---
@@ -25,11 +25,11 @@ Die Anmeldung bei Adobe Experience Cloud erfolgt anhand der folgenden einfachen 
 
    Nach der Anmeldung bei Experience Cloud können Sie schnell auf alle Ihre Lösungen und Apps zugreifen.
 
-   ![](assets/exc-home.png){zoomable=&quot;yes&quot;}
+   ![](assets/exc-home.png){zoomable="yes"}
 
 1. Stellen Sie sicher, dass Sie sich in der richtigen Organisation befinden.
 
-   ![](assets/exc-orgs.png){zoomable=&quot;yes&quot;}{width="50%" align="left"}
+   ![](assets/exc-orgs.png){zoomable="yes"}{width="50%" align="left"}
 
    Erfahren Sie mehr über Organisationen in Adobe Experience Cloud in [diesem Artikel](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=de){target="_blank"}.
 
@@ -40,11 +40,11 @@ Um auf Ihre Campaign-Umgebung zuzugreifen, wählen Sie **Campaign** aus dem Bere
 
 Wenn Sie bereits mit einer anderen Adobe Experience Cloud-Lösung verbunden sind, können Sie über den Lösungsumschalter oben rechts auf Ihrem Bildschirm zu Ihrer Campaign-Umgebung navigieren.
 
-![](assets/solution-switcher.png){zoomable=&quot;yes&quot;}
+![](assets/solution-switcher.png){zoomable="yes"}
 
-Wenn Sie Zugriff auf mehrere Umgebungen haben, einschließlich des Control Panels für Campaign, klicken Sie auf die Schaltfläche **Launch** für die richtige Instanz.
+Wenn Sie Zugriff auf mehrere Umgebungen haben, einschließlich des Control Panels für Campaign, klicken Sie auf den **Launch**-Button für die richtige Instanz.
 
-![](assets/launch-campaign.png){zoomable=&quot;yes&quot;}
+![](assets/launch-campaign.png){zoomable="yes"}
 
 Sie sind jetzt mit Campaign verbunden. Auf [dieser Seite](user-interface.md) erfahren Sie, wie Sie die Benutzeroberfläche verwenden.
 
@@ -59,7 +59,7 @@ Verwenden Sie die obere Leiste der Benutzeroberfläche, um folgende Aktionen dur
 * Produktbenachrichtigungen überprüfen
 * Ihr Adobe-Profil bearbeiten und Einstellungen verwalten wie [Ihre Lieblingssprache aktualisieren](#language-pref) oder [Umschalten zwischen hellem/dunklem Design](#dark-theme)
 
-![](assets/do-not-localize/unified-shell.png){zoomable=&quot;yes&quot;}{width="50%" align="left"}
+![](assets/do-not-localize/unified-shell.png){zoomable="yes"}{width="50%" align="left"}
 
 ## Unterstützte Browser {#browsers}
 

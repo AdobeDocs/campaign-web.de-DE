@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie E-Mail-Inhalte erstellen
 exl-id: 8513b069-7155-45ac-8c98-38576c9ddeda
 source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '213'
+source-wordcount: '207'
 ht-degree: 100%
 
 ---
@@ -31,17 +31,17 @@ Gehen Sie wie folgt vor, um den Preheader einer E-Mail zu definieren.
 
 1. Klicken Sie auf das Symbol **[!UICONTROL Navigationsbaum]** im linken Bereich und wählen Sie **[!UICONTROL Text]**.
 
-   ![](assets/preheader_body.png){zoomable=&quot;yes&quot;}
+   ![](assets/preheader_body.png){zoomable="yes"}
 
 1. Geben Sie auf der Registerkarte **[!UICONTROL Einstellungen]** Text für Ihren Preheader ein.
 
 1. Klicken Sie links neben dem Feld **[!UICONTROL Preheader]** auf das Symbol **[!UICONTROL Personalisierung hinzufügen]**, um eine weitere Personalisierung vorzunehmen.
 
-   ![](assets/preheader_body_settings.png){zoomable=&quot;yes&quot;}
+   ![](assets/preheader_body_settings.png){zoomable="yes"}
 
-1. Über das Fenster **[!UICONTROL Personalisierung bearbeiten]** können Sie [Personalisierungsfelder](../personalization/personalize.md), [Inhaltsbausteine](../personalization/content-blocks.md) und [bedingte Inhalte](../personalization/conditions.md) mithilfe der entsprechenden Einträge auf der linken Seite hinzufügen.
+1. Über das Fenster **[!UICONTROL Personalisierung bearbeiten]** können Sie [Personalisierungsfelder](../personalization/personalize.md), [Inhaltsbausteine](../personalization/content-blocks.md) und [bedingten Inhalt](../personalization/conditions.md) mithilfe der entsprechenden Einträge auf der linken Seite hinzufügen.
 
-   ![](assets/preheader_body_personalization.png){zoomable=&quot;yes&quot;}
+   ![](assets/preheader_body_personalization.png){zoomable="yes"}
 
 1. Klicken Sie auf **[!UICONTROL Bestätigen]**.
 

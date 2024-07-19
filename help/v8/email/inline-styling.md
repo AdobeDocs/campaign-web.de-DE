@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie Inline-Styling-Attribute hinzufügen
 exl-id: 856e144a-cfd4-4931-86c9-0c1793ae399d
 source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '123'
 ht-degree: 100%
 
 ---
@@ -19,13 +19,13 @@ Wenn Sie in der Benutzeroberfläche von E-Mail-Designer ein Element auswählen u
 
 1. Klicken Sie auf der Registerkarte **[!UICONTROL Stile]** auf die Dropdown-Liste **[!UICONTROL Erweitert]**.
 
-   ![](assets/styles_1.png){zoomable=&quot;yes&quot;}
+   ![](assets/styles_1.png){zoomable="yes"}
 
 1. Ändern Sie die Werte der vorhandenen Attribute.
 
 1. Sie können neue Eigenschaften mithilfe der Schaltfläche **+** hinzufügen. Sie können alle Attribute und Werte hinzufügen, die CSS-kompatibel sind.
 
-   ![](assets/styles_2.png){zoomable=&quot;yes&quot;}
+   ![](assets/styles_2.png){zoomable="yes"}
 
 Der Stil wird auf das ausgewählte Element angewendet.
 

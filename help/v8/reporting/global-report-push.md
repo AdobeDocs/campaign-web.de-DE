@@ -5,7 +5,7 @@ description: Grundlegendes zu globalen Berichten für den Push-Kanal
 exl-id: 829a9b68-5c41-47dd-843c-412b6d255e8b
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '554'
+source-wordcount: '546'
 ht-degree: 100%
 
 ---
@@ -27,7 +27,7 @@ Navigieren Sie zum Menü **[!UICONTROL Berichte]** im Abschnitt **[!UICONTROL Be
 
 Der Bericht zur **[!UICONTROL Versandübersicht]** liefert Leistungskennzahlen (KPIs) mit detaillierten Informationen darüber, wie Ihre Besucherinnen und Besucher mit Ihren Push-Nachrichten interagieren. Metriken werden nachfolgend beschrieben.
 
-![](assets/global_report_push_delivery_overview.png){zoomable=&quot;yes&quot;}
+![](assets/global_report_push_delivery_overview.png){zoomable="yes"}
 
 +++Erfahren Sie mehr über Versandübersichtsmetriken.
 
@@ -50,7 +50,7 @@ Der Bericht zur **[!UICONTROL Versandübersicht]** liefert Leistungskennzahlen (
 
 Die Tabelle und der Graph **[!UICONTROL Zielgruppe]** enthalten Daten zu den Empfängerinnen und Empfängern für den Versand jeder gesendeten Push-Benachrichtigung. Metriken werden nachfolgend beschrieben.
 
-![](assets/global_report_push_targeted_audience.png){zoomable=&quot;yes&quot;}
+![](assets/global_report_push_targeted_audience.png){zoomable="yes"}
 
 +++Erfahren Sie mehr über Zielgruppen-Metriken.
 
@@ -71,7 +71,7 @@ Die Tabelle und der Graph **[!UICONTROL Zielgruppe]** enthalten Daten zu den Emp
 
 Die Tabelle **[!UICONTROL Versandstatistik]** zeigt den Erfolg jedes einzelnen Push-Nachrichtenversands auf. Metriken werden nachfolgend beschrieben.
 
-![](assets/global_report_push_delivery_statistics.png){zoomable=&quot;yes&quot;}
+![](assets/global_report_push_delivery_statistics.png){zoomable="yes"}
 
 +++Erfahren Sie mehr über Versandstatistik-Metriken.
 
@@ -105,6 +105,6 @@ Die Fehlertypen von Push-Benachrichtigungen werden im Abschnitt [Dokumentation z
 >title="Bericht zum Versanddurchsatz"
 >abstract="Der Bericht zum **Versanddurchsatz** enthält detaillierte Informationen zum Durchsatz des Push-Versands über die gesamte Plattform innerhalb eines bestimmten Zeitraums."
 
-![](assets/global_report_push_delivery_throughput.png){zoomable=&quot;yes&quot;}
+![](assets/global_report_push_delivery_throughput.png){zoomable="yes"}
 
 Der Bericht zum **[!UICONTROL Versanddurchsatz]** bietet umfassende Einblicke in die Effektivität des Push-Nachrichtenversandsystems und eine detaillierte Zusammenfassung der Erfolgs- und Fehlerquoten über einen bestimmten Zeitraum hinweg.

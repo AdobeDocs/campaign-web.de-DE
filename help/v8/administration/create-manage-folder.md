@@ -4,7 +4,7 @@ title: Erstellen und Verwalten eines Ordners
 description: Erfahren Sie, wie Sie in Adobe Campaign einen Ordner erstellen und verwalten.
 exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
 source-git-commit: bbfee1479593ff6ae3f77ef5bfd760d63e640c76
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 100%
 

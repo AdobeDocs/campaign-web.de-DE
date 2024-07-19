@@ -3,8 +3,8 @@ title: Zielgruppendimensionen
 description: Erfahren Sie mehr über Zielgruppendimensionen in Adobe Campaign Web
 exl-id: b910649a-7300-4f99-8f40-3a8965572ee9
 source-git-commit: 395109aeb603ecce53eda89adff70a9ef36fde17
-workflow-type: ht
-source-wordcount: '447'
+workflow-type: tm+mt
+source-wordcount: '445'
 ht-degree: 100%
 
 ---
@@ -26,7 +26,7 @@ Beachten Sie, dass Sie die Zielgruppendimension in einem Workflow mithilfe der A
 
 Bei der Auswahl einer Zielgruppendimension (in den Workflow-Einstellungen oder in Aktivitäten wie **Zielgruppe erstellen**, **Abstimmung** oder **Dimensionsänderung**) wird in der Liste standardmäßig eine Auswahl häufig verwendeter Schemata angezeigt. Um alle verfügbaren Schemata anzuzeigen, aktivieren Sie die Schaltfläche **[!UICONTROL Alle Schemata anzeigen]**. Die Optionsauswahl wird für jeden Benutzer bzw. jede Benutzerin gespeichert.
 
-![](assets/targeting-dimension-show-all.png){zoomable=&quot;yes&quot;}
+![](assets/targeting-dimension-show-all.png){zoomable="yes"}
 
 ## Zielgruppendimensionen {#list}
 

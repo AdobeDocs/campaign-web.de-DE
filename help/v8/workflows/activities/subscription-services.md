@@ -4,7 +4,7 @@ title: Verwenden der Aktivität „Anmeldedienste“
 description: Informationen dazu, wie Sie die Workflow-Aktivität „Anmeldedienste“ verwenden
 exl-id: 0e7c2e9a-3301-4988-ae0e-d901df5b84db
 source-git-commit: 0e5b5e916309b2a337ac86f3741bcb83237b3fad
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '972'
 ht-degree: 100%
 

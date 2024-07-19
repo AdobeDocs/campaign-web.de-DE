@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie in der Campaign Web-Benutzeroberfläche eine 
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
 source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
-source-wordcount: '803'
+source-wordcount: '791'
 ht-degree: 100%
 
 ---
@@ -68,7 +68,7 @@ Gehen Sie wie folgt vor, um beispielsweise eine Kontrollgruppe mit den 100 jüng
 1. Fügen Sie das Feld **Erstellungsdatum** hinzu. Wechseln Sie zur Sortieroption **Absteigend**.
 1. Definieren Sie 100 als Schwellenwert im Abschnitt **Größenbeschränkung**.
 
-   ![](assets/control-group2.png){zoomable=&quot;yes&quot;}
+   ![](assets/control-group2.png){zoomable="yes"}
 
 Diese 100 jüngsten, neuen Profile werden dann von der Hauptzielgruppe ausgeschlossen.
 
@@ -76,17 +76,17 @@ Diese 100 jüngsten, neuen Profile werden dann von der Hauptzielgruppe ausgeschl
 
 Sie können die Protokolle anzeigen, um die ausgeschlossenen Profile zu überprüfen und zu identifizieren. Nehmen wir als Beispiel einen zufälligen Ausschluss von fünf Profilen.
 
-![](assets/control-group4.png){zoomable=&quot;yes&quot;}
+![](assets/control-group4.png){zoomable="yes"}
 
 Nach der Versandvorbereitung können Sie überprüfen, wie die Ausschlüsse angewendet wurden:
 
 * Aktivieren Sie im Versand-Dashboard vor dem Versand den KPI **Ausschließen**.
 
-  ![](assets/control-group5.png){zoomable=&quot;yes&quot;}
+  ![](assets/control-group5.png){zoomable="yes"}
 
 * In den Versandlogs wird in der Registerkarte „Logs“ der Ausschlussschritt angezeigt.
 
-  ![](assets/control-group-sample-logs.png){zoomable=&quot;yes&quot;}
+  ![](assets/control-group-sample-logs.png){zoomable="yes"}
 <!--
 
  * The **Exclusion logs** tab displays each profile and the related exclusion **Reason**.
@@ -94,9 +94,9 @@ Nach der Versandvorbereitung können Sie überprüfen, wie die Ausschlüsse ange
     ![](assets/control-group6.png){zoomable="yes"}
 -->
 
-* Auf der Registerkarte **Ausschlussgründe** wird für jede Typologieregel die Anzahl der ausgeschlossenen Profile angegeben.
+* In der Registerkarte **Ausschlussgründe** wird für jede Typologieregel die Anzahl der ausgeschlossenen Profile angegeben.
 
-  ![](assets/control-group7.png){zoomable=&quot;yes&quot;}
+  ![](assets/control-group7.png){zoomable="yes"}
 
 Weitere Informationen über Versandlogs finden Sie in [diesem Abschnitt](../monitor/delivery-logs.md).
 
@@ -111,7 +111,7 @@ Eine andere Möglichkeit, eine Kontrollgruppe zu definieren, ist die Auswahl ein
 
 Klicken Sie im Abschnitt **Zusätzliche Population** des Definitionsbildschirms der **Kontrollgruppe** auf die Schaltfläche **[!UICONTROL Zielgruppe auswählen]**.
 
-![](assets/control-group3.png){zoomable=&quot;yes&quot;}
+![](assets/control-group3.png){zoomable="yes"}
 
 * Um eine vorhandene Zielgruppe zu verwenden, klicken Sie auf **Zielgruppe auswählen**. Weiterführende Informationen finden Sie in [diesem Abschnitt](add-audience.md).
 

@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie Abonnentinnen und Abonnenten eines Dienstes i
 exl-id: cf72d27e-365c-4edc-b661-a67c148f0eeb
 source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '304'
 ht-degree: 100%
 
 ---
@@ -24,15 +24,15 @@ Gehen Sie wie folgt vor, um Abonnentinnen und Abonnenten manuell hinzuzufügen.
 
 1. Gehen Sie zu der Registerkarte **[!UICONTROL Abonnierende]** aus und klicken Sie auf **[!UICONTROL Abonnierende hinzufügen]**.
 
-   ![](assets/service-subscribers-tab.png){zoomable=&quot;yes&quot;}
+   ![](assets/service-subscribers-tab.png){zoomable="yes"}
 
 1. Wählen Sie die hinzuzufügenden Profile aus der Liste aus und klicken Sie auf **[!UICONTROL Bestätigen]**.
 
-   ![](assets/service-subscribers-select-profiles.png){zoomable=&quot;yes&quot;}
+   ![](assets/service-subscribers-select-profiles.png){zoomable="yes"}
 
 1. Klicken Sie auf **[!UICONTROL Senden]**<!--if you click cancel, does it mean that no message is sent but recipients are still subscribed, or they are not subscribed? it's 2 different actions in the console)-->, damit die ausgewählten Empfängerinnen und Empfänger die [Bestätigungsnachricht](manage-services.md#create-confirmation-message) für das Abonnement erhalten, die Sie beim [Erstellen des Dienstes](manage-services.md#create-service) definiert haben.
 
-   ![](assets/service-subscribers-confirmation-msg.png){zoomable=&quot;yes&quot;}
+   ![](assets/service-subscribers-confirmation-msg.png){zoomable="yes"}
 
    >[!NOTE]
    >
@@ -50,13 +50,13 @@ Wenn Sie für Ihren Dienst [Abonnentinnen und Abonnenten](#add-subscribers) hinz
 
 1. Klicken Sie auf das Drei-Punkte-Symbol neben dem Namen der gewünschten Empfängerin bzw. des gewünschten Empfängers und klicken Sie auf **[!UICONTROL Löschen]**.
 
-   ![](assets/service-subscribers-delete.png){zoomable=&quot;yes&quot;}
+   ![](assets/service-subscribers-delete.png){zoomable="yes"}
 
 1. Bestätigen Sie den Löschvorgang.
 
 1. Klicken Sie auf **[!UICONTROL Senden]**, damit die ausgewählte Empfängerin bzw. der Empfänger die [Bestätigungsnachricht](manage-services.md#create-confirmation-message) für die Abmeldung erhält, die Sie beim [Erstellen des Dienstes](manage-services.md#create-service) definiert haben.
 
-   ![](assets/service-subscribers-delete-confirmation.png){zoomable=&quot;yes&quot;}
+   ![](assets/service-subscribers-delete-confirmation.png){zoomable="yes"}
 
 Die Empfängerin bzw. der Empfänger wird aus der Registerkarte **[!UICONTROL Abonnierende]** entfernt und hat Ihren Dienst nicht länger abonniert.
 
@@ -66,6 +66,6 @@ Ein Anmeldedienst kann von begrenzter Dauer sein. Die Abmeldung von Profilen erf
 
 Dieser Zeitraum wird angegeben, wenn der [Dienst erstellt](manage-services.md#create-service) wird. Deaktivieren Sie in **[!UICONTROL Zusätzliche Optionen]** die Option **[!UICONTROL Unbegrenzter Gültigkeitszeitraum]** und legen Sie einen Gültigkeitszeitraum für den Dienst fest.
 
-![](assets/service-create-validity-period.png){zoomable=&quot;yes&quot;}
+![](assets/service-create-validity-period.png){zoomable="yes"}
 
 Nach Ablauf der angegebenen Dauer werden alle Abonnentinnen und Abonnenten automatisch von diesem Dienst abgemeldet.

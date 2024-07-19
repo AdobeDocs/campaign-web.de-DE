@@ -4,7 +4,7 @@ title: Erstellen Ihrer erste Abfrage mithilfe des Abfrage-Modelers
 description: Erfahren Sie, wie Sie Ihre erste Abfrage im Abfrage-Modeler in Adobe Campaign Web erstellen.
 exl-id: f9a365ac-c8be-423f-a99d-40ad5492223c
 source-git-commit: 664876e479b0580f99b77be5fbf31a18b3bfcecb
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2098'
 ht-degree: 100%
 

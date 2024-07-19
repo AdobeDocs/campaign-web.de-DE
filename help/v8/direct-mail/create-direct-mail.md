@@ -4,7 +4,7 @@ title: Erstellen eines Briefpostversands
 description: Erfahren Sie, wie Sie mit Adobe Campaign Web einen Briefpostversand erstellen.
 exl-id: 9b5172b2-1880-4768-a33b-8a20ec5a30ab
 source-git-commit: 35de060a73c17b304d63000656ff86bb4a80ab15
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '460'
 ht-degree: 100%
 

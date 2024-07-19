@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie mit Adobe Campaign Web einen Workflow erstell
 exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
 source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
 workflow-type: tm+mt
-source-wordcount: '745'
+source-wordcount: '733'
 ht-degree: 100%
 
 ---
@@ -26,7 +26,7 @@ Gehen Sie dazu wie folgt vor:
 
 1. Klicken Sie auf die Schaltfläche **[!UICONTROL Workflow erstellen]** in der rechten oberen rechten Ecke des Bildschirms.
 
-   ![](assets/workflow-create.png){zoomable=&quot;yes&quot;}
+   ![](assets/workflow-create.png){zoomable="yes"}
 
 1. Wählen Sie im Dialogfeld **Eigenschaften** die Vorlage aus, die zum Erstellen des Workflows verwendet werden soll (Sie können auch die integrierte Standardvorlage verwenden). [Erfahren Sie mehr über Workflow-Vorlagen](#workflow-templates).
 
@@ -34,7 +34,7 @@ Gehen Sie dazu wie folgt vor:
 
 1. Erweitern Sie den Abschnitt **[!UICONTROL Zusätzliche Optionen]**, um weitere Einstellungen für den Workflow zu konfigurieren. Erfahren Sie auf [dieser Seite](workflow-settings.md#properties), wie Sie die Workflow-Eigenschaften konfigurieren.
 
-   ![](assets/workflow-additional-options.png){zoomable=&quot;yes&quot;}
+   ![](assets/workflow-additional-options.png){zoomable="yes"}
 
 1. Klicken Sie auf die Schaltfläche **[!UICONTROL Workflow erstellen]** zur Bestätigung der Workflow-Erstellung.
 
@@ -65,14 +65,14 @@ Gehen Sie wie folgt vor, um eine Workflow-Vorlage aus einem vorhandenen Workflow
 1. Öffnen Sie das Menü **Workflows** und navigieren Sie zum Workflow, um ihn als Vorlage zu speichern.
 1. Klicken Sie auf die drei Punkte rechts neben dem Namen des Workflows und wählen Sie **Als Vorlage kopieren** aus.
 
-   ![](assets/wf-copy-as-template.png){zoomable=&quot;yes&quot;}
+   ![](assets/wf-copy-as-template.png){zoomable="yes"}
 
 1. Bestätigen Sie im Popup-Fenster die Vorlagenerstellung.
 1. Markieren Sie in der Arbeitsfläche der Workflow-Vorlage die gewünschten Aktivitäten, fügen Sie sie hinzu und konfigurieren Sie sie.
 1. Navigieren Sie zu den **Einstellungen** über die gleichnamige Schaltfläche, um den Namen der Workflow-Vorlage zu ändern und eine Beschreibung einzugeben.
 1. Wählen Sie den **Ordner** und den **Ausführungsordner** der Vorlage aus. Der Ordner ist der Speicherort der Workflow-Vorlage. Der Ausführungsordner ist der Ordner, in dem Workflows gespeichert werden, die auf dieser Vorlage basieren.
 
-   ![](assets/wf-settings-template.png){zoomable=&quot;yes&quot;}
+   ![](assets/wf-settings-template.png){zoomable="yes"}
 
    Die anderen Eigenschaften sind bei Workflows üblich. Weitere Informationen finden Sie auf [dieser Seite](workflow-settings.md#properties).
 
@@ -91,14 +91,14 @@ Gehen Sie wie folgt vor, um eine neue Workflow-Vorlage von Grund auf zu erstelle
 1. Geben Sie den Titel ein und öffnen Sie die zusätzlichen Optionen, um eine Beschreibung für Ihre Workflow-Vorlage einzugeben.
 1. Wählen Sie den Ordner und den Ausführungsordner der Vorlage aus. Der Ordner ist der Speicherort der Workflow-Vorlage. Der Ausführungsordner ist der Ordner, in dem Workflows gespeichert werden, die auf dieser Vorlage basieren.
 
-   ![](assets/new-wf-template.png){zoomable=&quot;yes&quot;}
+   ![](assets/new-wf-template.png){zoomable="yes"}
 
    Die anderen Eigenschaften sind bei Workflows üblich. Weitere Informationen finden Sie auf [dieser Seite](workflow-settings.md#properties).
 
 1. Klicken Sie anschließend auf die Schaltfläche **Erstellen**, um Ihre Einstellungen zu bestätigen.
 1. Fügen Sie in der Arbeitsfläche der Workflow-Vorlage die gewünschten Aktivitäten hinzu und konfigurieren Sie sie nach Bedarf.
 
-   ![](assets/wf-template-activities.png){zoomable=&quot;yes&quot;}
+   ![](assets/wf-template-activities.png){zoomable="yes"}
 
 1. Speichern Sie Ihre Änderungen.
 

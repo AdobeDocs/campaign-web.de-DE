@@ -10,8 +10,8 @@ role: Data Architect
 level: Intermediate
 exl-id: cce1da98-924b-415b-99d9-f4def4a4e874
 source-git-commit: f6e3fc0da05ecc2fda158c970458cc702b27079c
-workflow-type: ht
-source-wordcount: '671'
+workflow-type: tm+mt
+source-wordcount: '659'
 ht-degree: 100%
 
 ---
@@ -33,15 +33,15 @@ Sie können den Inhalt Ihrer Nachrichten dynamisch gestalten, indem Sie JavaScri
 
 * **Personalisieren Sie Ihre Nachrichten** für jeden einzelnen Empfänger und jede einzelne Empfängerin, indem Sie Profildaten wie Vorname, Interessen, Wohnort, die gekauften Produkte und vieles mehr nutzen. Sie können jedes in der Datenbank verfügbare Feld aus dem Personalisierungseditor auswählen, das sich auf die Empfängerin bzw. den Empfänger, die Nachricht oder den Versand bezieht. Diese Personalisierungsattribute können in die Betreffzeile oder in den Text Ihrer Nachrichten eingefügt werden. Mit der folgenden Syntax wird jeweils die entsprechende Stadt in Ihren Inhalt eingefügt: &lt;%= recipient.location.city %>.
 
-  ![](assets/perso-subject-line.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
+  ![](assets/perso-subject-line.png){zoomable="yes"}{width="800" align="center"}
 
 * **Erstellen Sie bedingte Inhalte**, um Ihre Sendungen an einzelne Empfängerinnen und Empfänger anzupassen, und zeigen Sie nur den Inhalt an, der für eine bestimmte Person aufgrund der Ihnen zur Verfügung stehenden Informationen relevant ist. Auf diese Weise können Sie bestimmte Textblöcke und/oder Bilder basierend auf Bedingungen anzeigen. Passen Sie beispielsweise ein E-Mail-Banner an, indem Sie die Anmeldung der jeweiligen Person für einen bestimmten Dienst berücksichtigen.
 
-  ![](assets/condition-sample.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
+  ![](assets/condition-sample.png){zoomable="yes"}{width="800" align="center"}
 
 * **Verwenden Sie Gestaltungsbausteine**, um Zeit zu sparen und leicht wiederverwendbare, personalisierte Inhalte in Ihren Nachrichten zu nutzen. Campaign verfügt über eine Reihe von Gestaltungsbausteinen, die ein bestimmtes Rendering enthalten, das Sie in Ihre Sendungen einfügen können. Sie können zum Beispiel ein Logo, eine Grußbotschaft oder einen Link zur Mirrorseite einer E-Mail-Nachricht hinzufügen. Inhaltsbausteine sind über einen eigenen Eintrag im Personalisierungseditor verfügbar.
 
-  ![](assets/content-blocks.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
+  ![](assets/content-blocks.png){zoomable="yes"}{width="800" align="center"}
 
 ## Zugreifen auf den Ausdruckseditor {#access}
 
@@ -51,15 +51,15 @@ Im Folgenden finden Sie einige Beispiele für den Zugriff auf den Ausdrucksedito
 
 * *Zugreifen auf den Ausdruckseditor über das Feld mit dem Absendernamen*
 
-  ![](assets/expression-editor-access.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
+  ![](assets/expression-editor-access.png){zoomable="yes"}{width="800" align="center"}
 
 * *Zugreifen auf den Ausdruckseditor über eine E-Mail-Textkomponente*
 
-  ![](assets/expression-editor-access-email.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
+  ![](assets/expression-editor-access-email.png){zoomable="yes"}{width="800" align="center"}
 
 * *Zugriff auf den Ausdruckseditor über einen Link in einer E-Mail*
 
-  ![](assets/perso-link-insert-icon.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
+  ![](assets/perso-link-insert-icon.png){zoomable="yes"}{width="800" align="center"}
 
 >[!NOTE]
 >

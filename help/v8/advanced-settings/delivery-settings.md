@@ -6,7 +6,7 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
-source-wordcount: '2420'
+source-wordcount: '2414'
 ht-degree: 100%
 
 ---
@@ -38,7 +38,7 @@ Wenn Sie eine Typologie mit einer Nachricht oder Nachrichtenvorlage verknüpfen,
 
 Mit Hilfe von Typologien können Sie sicherstellen, dass Ihre Sendungen immer bestimmte Elemente enthalten (z.B. einen Abmelde-Link oder eine Betreffzeile) oder Filterregeln, um bestimmte Zielgruppen auszuschließen. Dazu zählen z.B. Abonnentinnen und Abonnenten, Mitbewerberinnen und Mitbewerber oder Kundinnen und Kunden, die nicht am Treueprogramm teilnehmen.
 
-![](assets/delivery-settings-typology.png){zoomable=&quot;yes&quot;}
+![](assets/delivery-settings-typology.png){zoomable="yes"}
 
 >[!NOTE]
 >
@@ -122,7 +122,7 @@ Im Feld **[!UICONTROL Ausschluss]** können Sie Profile ausschließen, die nicht
 
 **[!UICONTROL Versandparameter]** sind technische Einstellungen, die für Ihren Versand gelten.
 
-![](assets/delivery-settings-delivery.png){zoomable=&quot;yes&quot;}
+![](assets/delivery-settings-delivery.png){zoomable="yes"}
 
 Das externe Konto **[!UICONTROL Integriertes Routing]** wird standardmäßig bereitgestellt. Es enthält die technischen Parameter, die es der Anwendung erlauben, Sendungen zu senden.
 
@@ -232,7 +232,7 @@ Sie können alternativ auch ein genaues Datum angeben. Markieren Sie dazu die Op
 
 Das Feld **[!UICONTROL Gültigkeit von Ressourcen]** wird für hochgeladene Ressourcen verwendet, insbesondere für die Mirrorseite und Bilder. Die Gültigkeitsdauer von Ressourcen auf dieser Seite ist begrenzt, um Speicherkapazität zu sparen. Nach diesem Limit sind diese Ressourcen nicht mehr verfügbar.
 
-![](assets/delivery-settings-validity.png){zoomable=&quot;yes&quot;}
+![](assets/delivery-settings-validity.png){zoomable="yes"}
 
 <!--Change screenshot to be consistent with prod > not sure which version is correct-->
 

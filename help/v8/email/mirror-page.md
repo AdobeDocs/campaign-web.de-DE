@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie den Link zur Mirrorseite hinzufügen und verw
 exl-id: 0c22357f-0465-4fdc-833e-5fda5805fe42
 source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '439'
 ht-degree: 100%
 
 ---
@@ -30,15 +30,15 @@ So fügen Sie in Ihrer E-Mail einen Link zu einer Mirrorseite hinzu:
 
 1. Wählen Sie ein Element aus und klicken Sie in der kontextuellen Symbolleiste auf **[!UICONTROL Link einfügen]** from the contextual toolbar..
 
-   ![](assets/message-tracking-mirror-page.png){zoomable=&quot;yes&quot;}
+   ![](assets/message-tracking-mirror-page.png){zoomable="yes"}
 
 1. Wählen Sie das Symbol **[!UICONTROL Personalisierung hinzufügen]** aus, um auf das Personalisierungsmenü zuzugreifen.
 
-   ![](assets/message-tracking-mirror-page_2.png){zoomable=&quot;yes&quot;}
+   ![](assets/message-tracking-mirror-page_2.png){zoomable="yes"}
 
-1. Wählen Sie im Menü **[!UICONTROL Inhaltsbaustein]** die Option **[!UICONTROL Mirrorseiten-URL]** und klicken Sie auf **[!UICONTROL Hinzufügen]**.
+1. Wählen Sie im Menü **[!UICONTROL Inhaltsbaustein]** die Option **[!UICONTROL URL der Mirrorseite]** und klicken Sie auf **[!UICONTROL Hinzufügen]**.
 
-   ![](assets/message-tracking-mirror-page_3.png){zoomable=&quot;yes&quot;}
+   ![](assets/message-tracking-mirror-page_3.png){zoomable="yes"}
 
    Weitere Informationen zum Einfügen von benutzerdefinierten Inhaltsbausteinen finden Sie in [diesem Abschnitt](../personalization/personalize.md#personalize-emails).
 

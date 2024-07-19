@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie auf SMS-Versandberichte zugreifen und diese v
 exl-id: 153d3a85-0d39-42db-9906-1e7f2d1d5bae
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '504'
 ht-degree: 100%
 
 ---
@@ -30,7 +30,7 @@ Die **Übersicht über den SMS-Versand** bietet einen umfassenden Überblick üb
 
 Die **[!UICONTROL Versandübersicht]** bietet wichtige Leistungsindikatoren (KPIs), die detaillierte Informationen über Erfolgs- und Fehlerraten enthalten und Auskunft darüber geben, wie Ihre Besucherinnen und Besucher mit Ihren SMS-Nachrichten interagieren.
 
-![](assets/reporting_sms_3.png){zoomable=&quot;yes&quot;}
+![](assets/reporting_sms_3.png){zoomable="yes"}
 
 +++Erfahren Sie mehr über die Metriken des SMS-Versandberichts.
 
@@ -53,7 +53,7 @@ Die **[!UICONTROL Versandübersicht]** bietet wichtige Leistungsindikatoren (KPI
 
 Das Diagramm und die Tabelle zur **Zielpopulation** zeigen Daten in Bezug auf Ihre Zielgruppe an: Metriken werden nachfolgend beschrieben.
 
-![](assets/reporting_sms_4.png){zoomable=&quot;yes&quot;}
+![](assets/reporting_sms_4.png){zoomable="yes"}
 
 +++Erfahren Sie mehr über die Metriken des SMS-Versandberichts.
 
@@ -72,7 +72,7 @@ Das Diagramm und die Tabelle zur **Zielpopulation** zeigen Daten in Bezug auf Ih
 
 Die **Gesamtstatistik** enthält Daten zu den gesendeten SMS-Benachrichtigungen, einschließlich. Metriken werden nachfolgend beschrieben.
 
-![](assets/reporting_sms_5.png){zoomable=&quot;yes&quot;}
+![](assets/reporting_sms_5.png){zoomable="yes"}
 
 +++Erfahren Sie mehr über die Metriken des SMS-Versandberichts.
 
@@ -92,7 +92,7 @@ Die **Gesamtstatistik** enthält Daten zu den gesendeten SMS-Benachrichtigungen,
 
 Der Graph und die Tabelle **[!UICONTROL Ausschlüsse]** zeigen die verschiedenen Gründe an, die verhindert haben, dass Benutzerprofile, die von den Zielgruppenprofilen ausgeschlossen wurden, die Nachricht erhalten haben. Ausschlussregeln werden in der[Dokumentation zu Campaign v8 (Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=de#sms-quarantines){_blank} detailliert beschrieben.
 
-![](assets/reporting_sms_6.png){zoomable=&quot;yes&quot;}
+![](assets/reporting_sms_6.png){zoomable="yes"}
 
 ## Versanddurchsatz {#delivery-throughput}
 
@@ -103,4 +103,4 @@ Der Graph und die Tabelle **[!UICONTROL Ausschlüsse]** zeigen die verschiedenen
 
 Dieser Bericht enthält detaillierte Informationen zum Versanddurchsatz innerhalb eines bestimmten Zeitraums. Die wichtigste Kennzahl, mit der die Geschwindigkeit des Nachrichtenversands gemessen wird, ist die Anzahl der pro Stunde gesendeten Nachrichten.
 
-![](assets/reporting_sms_2.png){zoomable=&quot;yes&quot;}
+![](assets/reporting_sms_2.png){zoomable="yes"}

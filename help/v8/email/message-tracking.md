@@ -4,8 +4,8 @@ title: Verfolgen von Nachrichten
 description: Erfahren Sie, wie Sie Links hinzufügen und gesendete Nachrichten verfolgen können.
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
 source-git-commit: a95a70aa56061106a920584a3501cd4b1434ec8a
-workflow-type: ht
-source-wordcount: '549'
+workflow-type: tm+mt
+source-wordcount: '535'
 ht-degree: 100%
 
 ---
@@ -28,7 +28,7 @@ Gehen Sie wie folgt vor, um Links in Ihren E-Mail-Inhalt einzufügen:
 
 1. Wählen Sie den gewünschten Link-Typ aus.
 
-   ![](assets/message-tracking-insert-link.png){zoomable=&quot;yes&quot;}
+   ![](assets/message-tracking-insert-link.png){zoomable="yes"}
 
    * **[!UICONTROL Externer Link]**: Fügen Sie einen Link zu einer externen URL ein.
 
@@ -38,11 +38,11 @@ Gehen Sie wie folgt vor, um Links in Ihren E-Mail-Inhalt einzufügen:
 
    * **[!UICONTROL Landingpage]**: Fügen Sie einen Link zu einer Landingpage ein. Wenn Sie eine dynamische Landingpage auswählen (und die Option **[!UICONTROL Dienst über URL]** ausgewählt ist), können Sie einen beliebigen Dienst aus der Liste auswählen. [Weitere Informationen](../landing-pages/create-lp.md#define-actions-on-form-submission)
 
-     ![](assets/email-link-to-landing-page.png){zoomable=&quot;yes&quot;}
+     ![](assets/email-link-to-landing-page.png){zoomable="yes"}
 
    * **[!UICONTROL Anmelde-Link]**: Fügen Sie einen Link zu einem Anmelde-Dienst ein.  Wenn Benutzende auf den Link klicken, werden sie zur Anmelde-Landingpage weitergeleitet, auf die im ausgewählten Dienst verwiesen wird. [Weitere Informationen](../audience/manage-services.md#create-service)
 
-     ![](assets/service-create-default-lp-link.png){zoomable=&quot;yes&quot;}
+     ![](assets/service-create-default-lp-link.png){zoomable="yes"}
 
    * **[!UICONTROL Abmelde-Link]**: Fügen Sie einen Link zu einem Abmelde-Dienst ein.  Wenn Abonnentinnen und Abonnenten auf den Link klicken, werden sie zur Abmelde-Landingpage weitergeleitet, auf die im ausgewählten Dienst verwiesen wird. [Weitere Informationen](../audience/manage-services.md#create-service)
 
@@ -59,7 +59,7 @@ Gehen Sie wie folgt vor, um Links in Ihren E-Mail-Inhalt einzufügen:
    * Sie können den Link bearbeiten und seine **[!UICONTROL Zielgruppe]** ändern.
    * Sie können den Link unterstreichen oder nicht, indem Sie die entsprechende Option auswählen.
 
-   ![](assets/message-tracking-link-settings.png){zoomable=&quot;yes&quot;}
+   ![](assets/message-tracking-link-settings.png){zoomable="yes"}
 
 >[!NOTE]
 >
@@ -77,11 +77,11 @@ Der [E-Mail-Designer](create-email-content.md) ermöglicht Ihnen die Verwaltung 
 
 1. Um einen Link zu bearbeiten, wählen Sie das entsprechende Stiftsymbol aus.
 
-   ![](assets/message-tracking-edit-links.png){zoomable=&quot;yes&quot;}
+   ![](assets/message-tracking-edit-links.png){zoomable="yes"}
 
 1. Sie können den **[!UICONTROL Tracking-Typ]** bei Bedarf ändern:
 
-   ![](assets/message-tracking-edit-a-link.png){zoomable=&quot;yes&quot;}
+   ![](assets/message-tracking-edit-a-link.png){zoomable="yes"}
 
    Für jede getrackte URL können Sie einen der folgenden Werte für den Tracking-Modi auswählen:
 
@@ -92,6 +92,6 @@ Der [E-Mail-Designer](create-email-content.md) ermöglicht Ihnen die Verwaltung 
 
 1. Fügen Sie eine **[!UICONTROL Kategorie]** zu Ihrem Link hinzu, um getrackte Links zu gruppieren, und klicken Sie dann auf **[!UICONTROL Speichern]**.
 
-   ![](assets/message-tracking-edit-a-link_2.png){zoomable=&quot;yes&quot;}
+   ![](assets/message-tracking-edit-a-link_2.png){zoomable="yes"}
 
 1. Öffnen Sie nach dem Versand den Versandbericht. Unter dem Menü **[!UICONTROL Tracking]** zeigt der Bericht **[!UICONTROL URLs und Clickstreams]** an, welche URLs aus Ihrem Versand am häufigsten besucht werden. [Weitere Informationen](../reporting/gs-reports.md)

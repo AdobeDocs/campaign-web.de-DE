@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie Ihre erste E-Mail mit der Campaign Web-Benutz
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '1386'
+source-wordcount: '1348'
 ht-degree: 100%
 
 ---
@@ -50,7 +50,7 @@ Gehen Sie wie folgt vor, um einen neuen E-Mail-Versand zu erstellen.
    >
    >Vorlagen sind vorkonfigurierte Versandeinstellungen, die für die zukünftige Verwendung gespeichert werden. [Weitere Informationen](../msg/delivery-template.md)
 
-   ![](assets/channel-template.png){zoomable=&quot;yes&quot;}
+   ![](assets/channel-template.png){zoomable="yes"}
 
 1. Klicken Sie zur Bestätigung auf **[!UICONTROL Versand erstellen]**.
 1. Geben Sie einen Titel für den Versand ein und konfigurieren Sie zusätzliche Optionen entsprechend Ihren Anforderungen:
@@ -65,7 +65,7 @@ Gehen Sie wie folgt vor, um einen neuen E-Mail-Versand zu erstellen.
    >
    >Wenn Sie Ihr Schema mit bestimmten benutzerdefinierten Feldern erweitert haben, können Sie diese im Abschnitt **[!UICONTROL Benutzerdefinierte Optionen]** aufrufen.
 
-   ![](assets/email-properties.png){zoomable=&quot;yes&quot;}
+   ![](assets/email-properties.png){zoomable="yes"}
 
 1. Erweiterte Einstellungen wie Typologieregeln und Zielgruppen-Mappings sind darüber hinaus über die Schaltfläche **[!UICONTROL Einstellungen]** oben rechts im Bildschirm verfügbar. Diese Einstellungen sind zwar in der ausgewählten Vorlage vorkonfiguriert, können jedoch für diese E-Mail nach Bedarf bearbeitet werden. [Weitere Informationen](../advanced-settings/delivery-settings.md)
 
@@ -86,7 +86,7 @@ Weitere Anweisungen zur Verwendung von Zielgruppen finden Sie in [diesem Abschni
 
    In diesem Beispiel möchten wir eine bestehende Zielgruppe verwenden, die auf Kunden der Treuepunktestufen Silber und Gold abzielt.
 
-   ![](assets/create-audience.png){zoomable=&quot;yes&quot;}
+   ![](assets/create-audience.png){zoomable="yes"}
 
    >[!NOTE]
    >
@@ -94,7 +94,7 @@ Weitere Anweisungen zur Verwendung von Zielgruppen finden Sie in [diesem Abschni
 
 1. Nach Auswahl der Zielgruppe können Sie die Zielgruppe durch Anwendung zusätzlicher Regeln weiter verfeinern.
 
-   ![](assets/audience-selected.png){zoomable=&quot;yes&quot;}
+   ![](assets/audience-selected.png){zoomable="yes"}
 
 1. Sie können auch eine Kontrollgruppe einrichten, um das Verhalten der E-Mail-Empfängerinnen und -Empfänger im Vergleich zum Verhalten von nicht angesprochenen Profilen zu analysieren. [Erfahren Sie, wie Sie mit Kontrollgruppen arbeiten](../audience/control-group.md)
 
@@ -106,31 +106,31 @@ Gehen Sie wie folgt vor, um mit der Erstellung Ihres E-Mail-Inhalts zu beginnen.
 
 1. Klicken Sie im Dashboard des E-Mail-Versands auf die Schaltfläche **[!UICONTROL Inhalt bearbeiten]**.
 
-   ![](assets/email-edit-content.png){zoomable=&quot;yes&quot;}
+   ![](assets/email-edit-content.png){zoomable="yes"}
 
    Dadurch gelangen Sie zu einer dedizierten Oberfläche, auf der Sie den E-Mail-Inhalt konfigurieren und auf den E-Mail-Designer zugreifen können. [Weitere Informationen](edit-content.md)
 
-   ![](assets/edit-content.png){zoomable=&quot;yes&quot;}
+   ![](assets/edit-content.png){zoomable="yes"}
 
 1. Geben Sie die Betreffzeile Ihrer E-Mail ein und personalisieren Sie sie mit dem Ausdruckseditor. [Erfahren Sie, wie Sie Ihren Inhalt personalisieren können](../personalization/personalize.md)
 
-   ![](assets/subject-line.png){zoomable=&quot;yes&quot;}
+   ![](assets/subject-line.png){zoomable="yes"}
 
 1. Um den Inhalt der E-Mail zu gestalten, klicken Sie auf die Schaltfläche **[!UICONTROL E-Mail-Textkörper bearbeiten]**.
 
    Wählen Sie die Methode zur Erstellung des Inhalts Ihrer E-Mail aus. Verwenden Sie in diesem Beispiel eine [vordefinierte Inhaltsvorlage](create-email-templates.md).
 
-   ![](assets/select-template.png){zoomable=&quot;yes&quot;}
+   ![](assets/select-template.png){zoomable="yes"}
 
 1. Sobald Sie die Vorlage auswählen, wird sie im [E-Mail-Designer](create-email-content.md) angezeigt, wo Sie alle notwendigen Änderungen vornehmen und eine Personalisierung hinzufügen können.
 
    Um zum Beispiel dem E-Mail-Titel eine Personalisierung hinzuzufügen, wählen Sie den Komponentenblock aus und klicken Sie auf **[!UICONTROL Personalisierung hinzufügen]**.
 
-   ![](assets/add-perso.png){zoomable=&quot;yes&quot;}
+   ![](assets/add-perso.png){zoomable="yes"}
 
 1. Wenn Sie mit dem Inhalt zufrieden sind, speichern und schließen Sie Ihren Entwurf. Klicken Sie auf **[!UICONTROL Speichern]**, um zum Bildschirm für die E-Mail-Erstellung zurückzukehren.
 
-   ![](assets/save-content.png){zoomable=&quot;yes&quot;}
+   ![](assets/save-content.png){zoomable="yes"}
 
 ## Planen des Versands {#schedule}
 
@@ -142,7 +142,7 @@ Wenn ein Versand im Rahmen eines Workflows durchgeführt wird, müssen Sie die *
 
 1. Legen Sie Datum und Uhrzeit für den Versand fest.
 
-   ![](assets/schedule.png){zoomable=&quot;yes&quot;}
+   ![](assets/schedule.png){zoomable="yes"}
 
 Nach dem Versand beginnt der eigentliche Versand am von Ihnen definierten Kontaktdatum.
 
@@ -160,13 +160,13 @@ Weitere Informationen über die Vorschau einer E-Mail und das Durchführen von T
 
 1. Um eine Vorschau der E-Mail anzuzeigen und Testsendungen durchzuführen, klicken Sie auf die Schaltfläche **[!UICONTROL Inhalt simulieren]**.
 
-   ![](assets/review-email.png){zoomable=&quot;yes&quot;}
+   ![](assets/review-email.png){zoomable="yes"}
 
 1. Wählen Sie im linken Seitenbereich die Profile aus, die für die Vorschau der E-Mail verwendet werden sollen.
 
    Im rechten Bereich wird eine Vorschau der E-Mail auf der Basis des ausgewählten Profils angezeigt. Wenn Sie mehrere Profile hinzugefügt haben, können Sie zwischen diesen Profilen wechseln, um eine Vorschau der jeweiligen E-Mail anzuzeigen.
 
-   ![](assets/preview.png){zoomable=&quot;yes&quot;}
+   ![](assets/preview.png){zoomable="yes"}
 
    <!--Additionally, the **[!UICONTROL Render email]** button allows you to preview the email using mutiple devices or mail providers. Learn on how to preview email rendering
     -->
@@ -175,19 +175,19 @@ Weitere Informationen über die Vorschau einer E-Mail und das Durchführen von T
 
    Verwenden Sie in diesem Beispiel den Modus **[!UICONTROL Aus Hauptzielgruppe ersetzen]**, der Testsendungen an bestimmte E-Mail-Adressen sendet und sich dabei stellvertretend als einige der Profile ausgibt, auf die die E-Mail abzielt.
 
-   ![](assets/proof-mode.png){zoomable=&quot;yes&quot;}
+   ![](assets/proof-mode.png){zoomable="yes"}
 
 1. Klicken Sie auf **[!UICONTROL Adresse hinzufügen]** und geben Sie die E-Mail-Adresse(n) an, die die Testsendungen erhalten soll(en).
 
    Wählen Sie für jede E-Mail-Adresse ein Ersatzprofil aus. Sie können Adobe Campaign auch ein zufälliges Profil aus der Zielgruppe auswählen lassen.
 
-   ![](assets/proof-test-profile.png){zoomable=&quot;yes&quot;}
+   ![](assets/proof-test-profile.png){zoomable="yes"}
 
 1. Klicken Sie auf **[!UICONTROL Testsendung durchführen]** und bestätigen Sie dann den Versand.
 
    Es werden Testsendungen unter Verwendung des ausgewählten Profils mit dem Präfix **[Proof x]** an die angegebenen E-Mail-Adressen gesendet.
 
-   ![](assets/proof-sent.png){zoomable=&quot;yes&quot;}
+   ![](assets/proof-sent.png){zoomable="yes"}
 
    Sie können den Status des Versands überprüfen und jederzeit auf die gesendeten Testsendungen zugreifen, indem Sie auf die Schaltfläche **[!UICONTROL Testsendungen anzeigen]** auf dem Bildschirm „Inhalt simulieren“ klicken.
 
@@ -197,13 +197,13 @@ Nachdem Sie Ihre E-Mail geprüft und getestet haben, können Sie die Vorbereitun
 
 1. Um die Vorbereitung der E-Mail zu starten, klicken Sie auf **[!UICONTROL Vorbereiten]**. [Erfahren Sie, wie Sie eine E-Mail vorbereiten](../monitor/prepare-send.md)
 
-   ![](assets/preparation.png){zoomable=&quot;yes&quot;}
+   ![](assets/preparation.png){zoomable="yes"}
 
 1. Wenn Ihre E-Mail versandbereit ist, klicken Sie auf die Schaltfläche **[!UICONTROL Senden]** (oder **[!UICONTROL Nach Zeitplan senden]**, wenn Sie den Versand zeitlich geplant haben) und bestätigen Sie den Versand.
 
 1. Während des Sendevorgangs können Sie seinen Fortschritt verfolgen und Statistiken in Echtzeit direkt in diesem Bildschirm einsehen.
 
-   ![](assets/sending-email.png){zoomable=&quot;yes&quot;}
+   ![](assets/sending-email.png){zoomable="yes"}
 
    <!--
     ![](assets/sent-email.png){zoomable="yes"}-->
@@ -212,7 +212,7 @@ Nachdem Sie Ihre E-Mail geprüft und getestet haben, können Sie die Vorbereitun
 
 1. Nachdem die E-Mail versendet wurde, können Sie auf spezielle Berichte zur weiteren Analyse zugreifen, indem Sie auf die Schaltfläche **[!UICONTROL Reporting]** klicken.
 
-![](assets/reports.png){zoomable=&quot;yes&quot;}
+![](assets/reports.png){zoomable="yes"}
 
 ## Anleitungsvideo {#video}
 

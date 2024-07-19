@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie Workflows mit Adobe Campaign Web erstellen
 exl-id: c9c41189-0150-49a4-bdb3-317fe543eb2c
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '583'
+source-wordcount: '569'
 ht-degree: 100%
 
 ---
@@ -22,7 +22,7 @@ Nach Ausführung des Workflows wird jede Aktivität auf der Arbeitsfläche in se
 
 Anhand eines visuellen Flusses können Sie den Fortschritt von Zielgruppenprofilen in Echtzeit verfolgen. Auf diese Weise können Sie den Status jeder Aktivität und die Anzahl der Profile, die zwischen ihnen wechseln, schnell identifizieren.
 
-![](assets/workflow-execution.png){zoomable=&quot;yes&quot;}
+![](assets/workflow-execution.png){zoomable="yes"}
 
 ## Workflow-Transitionen {#transitions}
 
@@ -31,7 +31,7 @@ In einem Workflow werden die von einer Aktivität zu einer anderen übertragenen
 * Klicken Sie auf **[!UICONTROL Vorschau für Schema]**, um das Schema der Arbeitstabelle anzuzeigen.
 * Klicken Sie auf **[!UICONTROL Ergebnisvorschau]**, um die in der ausgewählten Transition übertragenen Daten zu visualisieren.
 
-![](assets/transition.png){zoomable=&quot;yes&quot;}
+![](assets/transition.png){zoomable="yes"}
 
 ## Überwachen der Aktivitätsausführung {#activities}
 
@@ -39,10 +39,10 @@ Visuelle Indikatoren in der rechten oberen Ecke eines jeden Aktivitätsfeldes er
 
 | Visueller Indikator | Beschreibung |
 |-----|------------|
-| ![](assets/activity-status-pending.png){zoomable=&quot;yes&quot;}{width="70%"} | Die Aktivität wird derzeit ausgeführt. |
-| ![](assets/activity-status-orange.png){zoomable=&quot;yes&quot;}{width="70%"} | Die Aktivität erfordert Ihre Aufmerksamkeit. Dies kann die Bestätigung eines Versands oder die Ergreifung einer notwendigen Maßnahme beinhalten. |
-| ![](assets/activity-status-red.png){zoomable=&quot;yes&quot;}{width="70%"} | Bei der Aktivität ist ein Fehler aufgetreten. Um das Problem zu beheben, öffnen Sie die Workflow-Protokolle, um weitere Informationen zu erhalten. |
-| ![](assets/activity-status-green.png){zoomable=&quot;yes&quot;}{width="70%"} | Die Aktivität wurde erfolgreich ausgeführt. |
+| ![](assets/activity-status-pending.png){zoomable="yes"}{width="70%"} | Die Aktivität wird derzeit ausgeführt. |
+| ![](assets/activity-status-orange.png){zoomable="yes"}{width="70%"} | Die Aktivität erfordert Ihre Aufmerksamkeit. Dies kann die Bestätigung eines Versands oder die Ergreifung einer notwendigen Maßnahme beinhalten. |
+| ![](assets/activity-status-red.png){zoomable="yes"}{width="70%"} | Bei der Aktivität ist ein Fehler aufgetreten. Um das Problem zu beheben, öffnen Sie die Workflow-Protokolle, um weitere Informationen zu erhalten. |
+| ![](assets/activity-status-green.png){zoomable="yes"}{width="70%"} | Die Aktivität wurde erfolgreich ausgeführt. |
 
 ## Überwachen der Protokolle und Aufgaben {#logs-tasks}
 
@@ -50,7 +50,7 @@ Die Überwachung von Workflow-Protokollen und -Aufgaben ist ein wichtiger Schrit
 
 Das Menü **[!UICONTROL Protokolle und Aufgaben]** enthält einen Verlauf der Workflow-Ausführung, in dem alle Benutzeraktionen und aufgetretenen Fehler aufgezeichnet werden. Dieser Verlauf wird für die in den [Ausführungsoptionen](workflow-settings.md) des Workflows angegebene Dauer gespeichert. Während dieser Dauer werden alle Nachrichten gespeichert, auch nach einem Neustart des Workflows. Wenn Sie die Nachrichten einer früheren Ausführung nicht speichern möchten, klicken Sie auf die Schaltfläche **[!UICONTROL Verlauf bereinigen]**.
 
-![](assets/workflow-logs.png){zoomable=&quot;yes&quot;}
+![](assets/workflow-logs.png){zoomable="yes"}
 
 Es stehen zwei Arten von Informationen zur Verfügung:
 

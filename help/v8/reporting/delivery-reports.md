@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie auf Versandberichte zugreifen und diese verwe
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
 source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '262'
 ht-degree: 100%
 
 ---
@@ -36,24 +36,24 @@ Führen Sie folgende Schritte aus, um Berichte anzuzeigen und zu verwalten:
 
 1. Klicken Sie in Ihrem **[!UICONTROL Versand]**-Dashboard auf **[!UICONTROL Berichte]**.
 
-   ![](assets/manage_delivery_report_1.png){zoomable=&quot;yes&quot;}
+   ![](assets/manage_delivery_report_1.png){zoomable="yes"}
 
-   Alternativ können Sie auch in der Sendungslisten auf die Schaltfläche mit den drei Punkten **Mehr Aktionen** neben dem Versandnamen klicken und **[!UICONTROL Bericht anzeigen]** auswählen.
+   Alternativ können Sie auch in der Versandliste auf die Schaltfläche mit den drei Punkten **Mehr Aktionen** neben dem Versandnamen klicken und **[!UICONTROL Bericht anzeigen]** auswählen.
 
-   ![](assets/manage_delivery_report_2.png){zoomable=&quot;yes&quot;}
+   ![](assets/manage_delivery_report_2.png){zoomable="yes"}
 
 1. Wählen Sie im linken Menü einen Bericht aus der Liste aus.
 
-   ![](assets/manage_delivery_report_3.png){zoomable=&quot;yes&quot;}
+   ![](assets/manage_delivery_report_3.png){zoomable="yes"}
 
 1. Wenn Ihr Versand wiederkehrend ist, können Sie einen bestimmten Versand auswählen, zu dem ein Bericht erstellt werden soll, indem Sie auf **[!UICONTROL Sendungen auswählen]** klicken.
 
    Sie können auch einen Zeitraum auf Ihren Bericht anwenden, indem Sie das **[!UICONTROL Kontaktdatum]** auswählen.
 
-   ![](assets/delivery-recurring.png){zoomable=&quot;yes&quot;}
+   ![](assets/delivery-recurring.png){zoomable="yes"}
 
 1. Unter **[!UICONTROL URLs und Clickstreams]** können Sie auch die Option **[!UICONTROL Am häufigsten besuchte Links]** oder **[!UICONTROL Zeitraum]** auswählen.
 
    Mit der Option **[!UICONTROL Anzeigen nach]** können Sie nach URLs, Bezeichnungen oder Kategorien filtern.
 
-   ![](assets/manage_delivery_report_5.png){zoomable=&quot;yes&quot;}
+   ![](assets/manage_delivery_report_5.png){zoomable="yes"}

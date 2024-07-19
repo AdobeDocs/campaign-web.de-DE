@@ -5,7 +5,7 @@ description: Erste Schritte mit Adobe Campaign Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 source-git-commit: a678175e34a633d5de258e64899ba4b10b6b674f
 workflow-type: tm+mt
-source-wordcount: '580'
+source-wordcount: '578'
 ht-degree: 100%
 
 ---
@@ -41,7 +41,7 @@ Mit Campaign haben Sie folgende Möglichkeiten:
 
 Ursprünglich nur über eine umfangreiche [Client-Konsole](#ac-client) verfügbar, bietet Campaign jetzt eine neue Web-Benutzeroberfläche (UI) mit verbesserter Benutzerfreundlichkeit, Barrierefreiheit und einem neuen Design, um das Anwendererlebnis deutlich zu verbessern. Diese neue, moderne Benutzeroberfläche vereinfacht das Design und den Versand von Marketing-Kampagnen und sorgt für Konsistenz mit anderen Adobe-Lösungen, einschließlich Adobe Experience Platform.
 
-![](assets/home.png){zoomable=&quot;yes&quot;}
+![](assets/home.png){zoomable="yes"}
 
 Diese neue Web-Benutzeroberfläche erfüllt zunächst die Anforderungen von **Business Practitioners**. Alle typischen Administrationsaufgaben sind in dieser ersten Version noch nicht verfügbar, werden aber in späteren Versionen berücksichtigt. Beachten Sie, dass in der neuen Benutzeroberfläche derzeit nicht alle Funktionen und Optionen der Client-Konsole verfügbar sind. In zukünftigen Versionen werden neue Anwendungsfälle, Optionen und Funktionen zur Verfügung stehen.
 

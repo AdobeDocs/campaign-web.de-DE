@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie Angebote hinzufügen und senden
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
 source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '768'
+source-wordcount: '760'
 ht-degree: 100%
 
 ---
@@ -39,13 +39,13 @@ Gehen Sie wie folgt vor, um Angebote auszuwählen, die zu Ihrem Versand hinzugef
 
 1. Klicken Sie auf die Schaltfläche **[!UICONTROL Angebote einrichten]** auf dem Bearbeitungsbildschirm für den Inhalt des Versands.
 
-   ![](assets/offer-setup.png){zoomable=&quot;yes&quot;}
+   ![](assets/offer-setup.png){zoomable="yes"}
 
 1. Konfigurieren Sie, welche Angebote den Empfängerinnen und Empfängern unterbreitet werden sollen.
 
    Wählen Sie zunächst die **[!UICONTROL Platzierung]** entsprechend Ihrer Angebotsumgebung. Wie Sie eine Platzierung erstellen, erfahren Sie in der [Dokumentation zu Campaign v8 (Client-Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-settings/interaction-offer-spaces.html?lang=de){target="_blank"}.
 
-   ![](assets/offer-create-content.png){zoomable=&quot;yes&quot;}
+   ![](assets/offer-create-content.png){zoomable="yes"}
 
 1. Um die Angebotsauswahl des Moduls zu verfeinern, wählen Sie eine spezifische **[!UICONTROL Angebotskategorie]**, in der die Angebote gruppiert sind.
 
@@ -89,7 +89,7 @@ Gehen Sie wie folgt vor, um ein Angebot mit dem Ausdruckseditor einzufügen.
 
 1. Platzieren Sie den Mauszeiger an der Stelle, an der das Angebot eingefügt werden soll, und öffnen Sie den Ausdruckseditor über das Personalisierungssymbol.
 
-   ![](assets/offer-insert-perso-icon.png){zoomable=&quot;yes&quot;}
+   ![](assets/offer-insert-perso-icon.png){zoomable="yes"}
 
 1. Wählen Sie das Menü **[!UICONTROL Vorschläge]** aus. Die verfügbaren Vorschläge werden in der Liste angezeigt.
 
@@ -99,7 +99,7 @@ Gehen Sie wie folgt vor, um ein Angebot mit dem Ausdruckseditor einzufügen.
 
 1. Definieren Sie jedes Angebot mithilfe der verfügbaren Personalisierungsfelder, Rendering-Funktionen oder Angebotsattribute.
 
-   ![](assets/offer-inserted.png){zoomable=&quot;yes&quot;}
+   ![](assets/offer-inserted.png){zoomable="yes"}
 
    >[!NOTE]
    >

@@ -4,7 +4,7 @@ title: Erstellen eines Rich-Push-Benachrichtigungs-Versands
 description: Erfahren Sie, wie Sie mit Adobe Campaign Web einen Rich-Push-Benachrichtigungs-Versand für Android erstellen.
 exl-id: a87cb933-b564-4fa4-b173-6a94d7e27da5
 source-git-commit: bb61fdb34fecb4131d4069965cda8a3a5099b6bc
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1420'
 ht-degree: 100%
 

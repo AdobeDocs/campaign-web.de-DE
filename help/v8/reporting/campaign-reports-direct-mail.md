@@ -5,7 +5,7 @@ description: Grundlegendes zu Kampagnenberichten für den Briefpost-Kanal
 exl-id: 7817d4c5-1f97-4b17-8a5f-f1a5b8701fe9
 source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '520'
 ht-degree: 100%
 
 ---
@@ -25,7 +25,7 @@ Jeder Kampagnenbericht ist in verschiedene Widgets unterteilt, die den Erfolg un
 
 Die **[!UICONTROL Versandübersicht]** bietet wichtige Leistungsmetriken (KPIs) mit umfassenden Erkenntnissen zur Interaktion Ihrer Besucherinnen und Besucher mit jedem Briefpostversand. Die Metriken sind unten dargestellt.
 
-![](assets/direct-mail-campaign-overview.png){zoomable=&quot;yes&quot;}{align="center"}
+![](assets/direct-mail-campaign-overview.png){zoomable="yes"}{align="center"}
 
 +++Erfahren Sie mehr über Versandübersichtsmetriken.
 
@@ -48,7 +48,7 @@ Die **[!UICONTROL Versandübersicht]** bietet wichtige Leistungsmetriken (KPIs) 
 
 Die Tabelle **[!UICONTROL Statistiken der anfänglichen Zielgruppe]** zeigt Daten zu Ihren Empfängerinnen und Empfängern an. Die Metriken werden bei der Versandvorbereitung berechnet und zeigen: die ursprüngliche Zielgruppe, die Anzahl der zu sendenden Nachrichten und die Anzahl der ausgeschlossenen Empfängerinnen und Empfänger.
 
-![](assets/direct-mail-campaign-target-audience.png){zoomable=&quot;yes&quot;}
+![](assets/direct-mail-campaign-target-audience.png){zoomable="yes"}
 
 +++Erfahren Sie mehr über die Metriken zu den Statistiken der ursprünglichen Zielgruppe.
 
@@ -90,7 +90,7 @@ Die Tabelle **[!UICONTROL Ausführungsstatistiken]** bietet eine Aufschlüsselun
 >title="Generierte Clickstreams"
 >abstract="Die Tabelle **Generierte Clickstreams** zeigt Daten dazu an, wie Ihre Empfängerinnen und Empfänger mit Ihrem Versand interagiert haben."
 
-![](assets/direct-mail-campaign-clicks.png){zoomable=&quot;yes&quot;}{align="center"}
+![](assets/direct-mail-campaign-clicks.png){zoomable="yes"}{align="center"}
 
 Die Tabelle **Erzeugte Clickstreams** zeigt die Gründe, warum aus den Zielprofilen ausgeschlossene Benutzerprofile die Nachricht nicht erhalten haben.
 

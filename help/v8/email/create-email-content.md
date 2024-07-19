@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie Ihre E-Mail-Inhalte von Grund auf neu gestalt
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
 source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '627'
+source-wordcount: '617'
 ht-degree: 100%
 
 ---
@@ -61,7 +61,7 @@ Gehen Sie wie folgt vor, um mit der Erstellung Ihres E-Mail-Inhalts zu beginnen.
 
 1. Wählen Sie auf der Startseite des [E-Mail-Designers](get-started-email-designer.md#start-authoring) die Option **[!UICONTROL Inhalte von Grund auf neu erstellen]**.
 
-   ![](assets/email_designer-from-scratch.png){zoomable=&quot;yes&quot;}
+   ![](assets/email_designer-from-scratch.png){zoomable="yes"}
 
 1. Beginnen Sie mit der Gestaltung Ihres E-Mail-Inhalts, indem Sie **[!UICONTROL Strukturen]** per Drag-and-Drop auf die Arbeitsfläche ziehen, um das Layout Ihrer E-Mail zu definieren.
 
@@ -71,7 +71,7 @@ Gehen Sie wie folgt vor, um mit der Erstellung Ihres E-Mail-Inhalts zu beginnen.
 
 1. Fügen Sie so viele **[!UICONTROL Strukturen]** wie nötig hinzu und bearbeiten Sie deren Einstellungen im entsprechenden Bereich auf der rechten Seite.
 
-   ![](assets/email_designer_structure_components.png){zoomable=&quot;yes&quot;}
+   ![](assets/email_designer_structure_components.png){zoomable="yes"}
 
 1. Wählen Sie die Komponente **[!UICONTROL n:n Spalte]** aus, um die Anzahl der Spalten zu definieren (3 bis 10). Sie können auch die Breite jeder Spalte ändern, indem Sie den Pfeil am unteren Rand einer jeden Spalte verschieben.
 
@@ -83,7 +83,7 @@ Gehen Sie wie folgt vor, um mit der Erstellung Ihres E-Mail-Inhalts zu beginnen.
 
 1. Jede Komponente kann über die Registerkarten **[!UICONTROL Einstellungen]** oder **[!UICONTROL Stil]** auf der rechten Seite weiter angepasst werden. Beispielsweise können Sie den Textstil, den Abstand oder den Rand jeder Komponente ändern. [Weitere Informationen über Ausrichtung und Abstand](alignment-and-padding.md)
 
-   ![](assets/email_designer-styles.png){zoomable=&quot;yes&quot;}
+   ![](assets/email_designer-styles.png){zoomable="yes"}
 
 1. Fügen Sie Personalisierungsfelder ein, um Ihre E-Mail-Inhalte auf der Grundlage von Profildaten anzupassen. [Weitere Informationen über die Personalisierung von Inhalten](../personalization/personalize.md)
 
@@ -93,7 +93,7 @@ Gehen Sie wie folgt vor, um mit der Erstellung Ihres E-Mail-Inhalts zu beginnen.
 
 [Weitere Informationen über Links und Nachrichten-Tracking](message-tracking.md)
 
-   ![](assets/email_designer-links.png){zoomable=&quot;yes&quot;}
+   ![](assets/email_designer-links.png){zoomable="yes"}
 
 1. Bei Bedarf können Sie Ihre E-Mail weiter personalisieren, indem Sie im erweiterten Menü auf **[!UICONTROL Zum Code-Editor wechseln]** klicken. Auf diese Weise können Sie den Quell-Code der E-Mail bearbeiten, z. B. um Tracking- oder benutzerdefinierte HTML-Tags hinzuzufügen. [Weitere Informationen über den Code-Editor](code-content.md)
 
@@ -103,7 +103,7 @@ Gehen Sie wie folgt vor, um mit der Erstellung Ihres E-Mail-Inhalts zu beginnen.
 
 1. Sobald Ihr Inhalt bereit ist, klicken Sie auf **[!UICONTROL Inhalt simulieren]**, um das E-Mail-Rendering zu überprüfen. Sie können zwischen der Desktop- oder der mobilen Ansicht wählen. [Weitere Informationen über die Vorschau Ihrer E-Mail](../preview-test/preview-test.md)
 
-   ![](assets/email_designer-simulate.png){zoomable=&quot;yes&quot;}
+   ![](assets/email_designer-simulate.png){zoomable="yes"}
 
 1. Wenn Ihre E-Mail bereit ist, klicken Sie auf **[!UICONTROL Speichern]**.
 

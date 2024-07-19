@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie Versandlogs überwachen
 exl-id: 2eb7457e-32f7-4729-99c8-91bf287f0192
 source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '369'
+source-wordcount: '357'
 ht-degree: 100%
 
 ---
@@ -40,40 +40,40 @@ Alle Validierungsschritte, Warnungen und Fehler werden aufgelistet. Farbige Symb
 * Das gelbe Symbol steht für einen nicht kritischen Verarbeitungsfehler.
 * Das rote Symbol steht für einen kritischen Fehler, der die Durchführung des Versands verhindert. Kritische Fehler müssen behoben sein, damit der Versand durchgeführt werden kann.
 
-![](assets/logs.png){zoomable=&quot;yes&quot;}
+![](assets/logs.png){zoomable="yes"}
 
 
 ## Sendungen {#deliveries-tab}
 
 Der Tab **Versandlogs** zeigt die Liste der einzelnen Nachrichten eines Versands. Hier wird die Liste der gesendeten Nachrichten und deren Status gespeichert. Für jeden einzelnen Empfänger können Sie anhand des Status das Ergebnis des Versands verfolgen.
 
-![](assets/logs2.png){zoomable=&quot;yes&quot;}
+![](assets/logs2.png){zoomable="yes"}
 
 ## Ausschlüsse {#exclusion-tab}
 
 Die Registerkarte **Ausschlusslogs** zeigt die Liste aller aus der Zielgruppe ausgeschlossenen Nachrichten an und den Grund für den fehlgeschlagenen Versand.
 
-![](assets/logs3.png){zoomable=&quot;yes&quot;}
+![](assets/logs3.png){zoomable="yes"}
 
 ## Ausschlussgründe {#exclusion-causes-tab}
 
 Die Registerkarte **Ausschlussgründe** zeigt für jede mögliche Ursache die Anzahl der Nachrichten an, die von der Zielgruppe ausgeschlossen wurden.
 
-![](assets/logs4.png){zoomable=&quot;yes&quot;}
+![](assets/logs4.png){zoomable="yes"}
 
 ## Getrackte URLs {#tracked-urls-tab}
 
 Die Registerkarte **Getrackte URLs** gibt Auskunft über die in den gesendeten Nachrichten enthaltenen URLs, ihren Typ sowie ihre Quell-URLs.
 
-![](assets/logs5.png){zoomable=&quot;yes&quot;}
+![](assets/logs5.png){zoomable="yes"}
 
 ## Tracking {#tracking-tab}
 
 In der Registerkarte **Tracking** wird der Tracking-Verlauf für den jeweiligen Versand angezeigt. Hier werden die Tracking-Informationen zu allen von Adobe Campaign gesendeten Nachrichten aufgeführt, d. h. zu allen getrackten URLs.
 
 
-![](assets/logs6.png){zoomable=&quot;yes&quot;}
+![](assets/logs6.png){zoomable="yes"}
 
 >[!NOTE]
 >
->Wenn das Tracking für einen Versand nicht aktiviert ist, wird diese Registerkarte nicht angezeigt.
+>Sollte das Tracking für einen Versand nicht aktiviert worden sein, wird diese Registerkarte nicht angezeigt.

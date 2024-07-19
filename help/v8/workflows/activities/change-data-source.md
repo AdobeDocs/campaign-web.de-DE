@@ -4,7 +4,7 @@ title: Verwenden der Workflow-Aktivität „Datenquelle ändern“
 description: Erfahren Sie, wie Sie die Workflow-Aktivität „Datenquelle ändern“ verwenden.
 exl-id: 4dd28746-7bc7-49fc-91ac-3312af02ef45
 source-git-commit: 52b129be88e48dd70c0f55b404fd3bbe699dbebb
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 100%
 
@@ -27,7 +27,7 @@ Detaillierte Informationen zur Campaign-Architektur finden Sie in der [Dokumenta
 
 >[!IMPORTANT]
 >
->Beachten Sie, dass die Aktivitäten **[!UICONTROL Dimensionsänderung]** und **[!UICONTROL Datenquelle ändern]** nicht in einer Zeile hinzugefügt werden sollten. Wenn Sie beide Aktivitäten nacheinander verwenden müssen, fügen Sie dazwischen die Aktivität **[!UICONTROL Anreicherung]** ein. Dadurch wird eine ordnungsgemäße Ausführung sichergestellt und potenzielle Konflikte oder Fehler werden vermieden.
+>Beachten Sie, dass die Aktivitäten **[!UICONTROL Dimensionsänderung]** und **[!UICONTROL Datenquelle ändern]** nicht in einer Zeile hinzugefügt werden sollten. Wenn Sie beide Aktivitäten nacheinander verwenden müssen, muss die Aktivität **[!UICONTROL Anreicherung]** zwischen ihnen enthalten sein. Dadurch wird eine ordnungsgemäße Ausführung sichergestellt und potenzielle Konflikte oder Fehler werden vermieden.
 
 <!--
 

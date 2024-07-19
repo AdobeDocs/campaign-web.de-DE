@@ -4,8 +4,8 @@ description: Erfahren Sie, wie Sie in Campaign Web Landingpage-spezifische Inhal
 feature: Landing Pages
 exl-id: 6ca3c8c1-3633-4e3f-a9a1-f46ae27c5c8a
 source-git-commit: 4dee53676949282b7c0e7664405b7d5a35ef64d2
-workflow-type: ht
-source-wordcount: '1153'
+workflow-type: tm+mt
+source-wordcount: '1133'
 ht-degree: 100%
 
 ---
@@ -62,7 +62,7 @@ Um bestimmte Inhalte zu definieren, mit denen Benutzende ihre Auswahl auf Ihrer 
 
 1. Wählen Sie sie aus. Die Registerkarte **[!UICONTROL Formularinhalt]** in der rechten Palette wird angezeigt, damit Sie die verschiedenen Felder des Formulars bearbeiten können.
 
-   ![](assets/lp-form-component.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-form-component.png){zoomable="yes"}
 
    >[!NOTE]
    >
@@ -70,7 +70,7 @@ Um bestimmte Inhalte zu definieren, mit denen Benutzende ihre Auswahl auf Ihrer 
 
 1. Erweitern Sie das erste Textfeld, falls vorhanden, oder fügen Sie eines mithilfe der Schaltfläche **[!UICONTROL Hinzufügen]** hinzu. Sie können im Abschnitt **[!UICONTROL Textfeld 1]** den Feldtyp, das zu aktualisierende Datenbankfeld, den Titel und den Text bearbeiten, der im Feld angezeigt wird, bevor Benutzende einen Wert eingeben.
 
-   ![](assets/lp-form-text-field.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-form-text-field.png){zoomable="yes"}
 
 1. Aktivieren Sie bei Bedarf die Option **[!UICONTROL Formularfeld zum Pflichtfeld machen]**. In diesem Fall kann das Formular der Landingpage nur gesendet werden, wenn der Benutzer dieses Feld ausgefüllt hat.
 
@@ -80,7 +80,7 @@ Um bestimmte Inhalte zu definieren, mit denen Benutzende ihre Auswahl auf Ihrer 
 
 1. Erweitern Sie das Kontrollkästchen, falls vorhanden, oder fügen Sie eines mithilfe der Schaltfläche **[!UICONTROL Hinzufügen]** hinzu. Wählen Sie aus, ob mit diesem Kontrollkästchen ein Dienst oder ein Feld aus der Datenbank aktualisiert werden soll.
 
-   ![](assets/lp-form-checkbox.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-form-checkbox.png){zoomable="yes"}
 
    Wenn Sie **[!UICONTROL Abonnements und Services]** auswählen, wählen Sie einen [Dienst](../audience/manage-services.md) aus der Liste aus und legen Sie eine der beiden folgenden Optionen fest:
 
@@ -97,7 +97,7 @@ Um bestimmte Inhalte zu definieren, mit denen Benutzende ihre Auswahl auf Ihrer 
 
 1. Nachdem alle Felder hinzugefügt oder aktualisiert wurden, klicken Sie auf **[!UICONTROL Handlungsaufforderung]**, um den entsprechenden Abschnitt zu erweitern. Damit können Sie das Verhalten der Schaltfläche in der **[!UICONTROL Formularkomponente]** festlegen. [Weitere Informationen dazu](#define-actions-on-form-submission)
 
-   ![](assets/lp-call-to-action.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-call-to-action.png){zoomable="yes"}
 
 1. Speichern Sie den Inhalt, um zu den [Eigenschaften der Landingpage](create-lp.md#create-landing-page) zurückzukehren.
 
@@ -122,7 +122,7 @@ Um bestimmte Inhalte zu definieren, mit denen Benutzende ihre Auswahl auf Ihrer 
    * Alle Kanäle: Beim Senden des Formulars werden die Benutzenden (je nach ausgewählter Vorlage) für alle Nachrichten von Ihrer Marke auf allen Kanälen angemeldet oder abgemeldet.
    * Ein Feld aus der Datenbank: Wählen Sie ein Feld aus der Attributliste aus und legen Sie fest, ob es beim Senden des Formulars auf „True“ oder „False“ gesetzt werden soll.
 
-   ![](assets/lp-form-additionnal-updates.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-form-additionnal-updates.png){zoomable="yes"}
 
 1. Wählen Sie die Option **[!UICONTROL Dienst über URL]** aus, damit die Landingpage für mehrere Dienste verwendet werden kann, wodurch sie dynamisch wird. Definieren Sie, ob Benutzende bei der Formularübermittlung angemeldet oder abgemeldet werden sollen.
 
@@ -130,11 +130,11 @@ Um bestimmte Inhalte zu definieren, mit denen Benutzende ihre Auswahl auf Ihrer 
    >
    >Diese Funktion ist nur eingeschränkt verfügbar. Sie ist Kundinnen und Kunden vorbehalten, die **von Adobe Campaign Standard zu Adobe Campaign v8** migrieren, und kann nicht in anderen Umgebungen bereitgestellt werden.
 
-   ![](assets/lp-form-service-from-url.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-form-service-from-url.png){zoomable="yes"}
 
    Wenn Sie beim Entwerfen einer E-Mail einen Link vom Typ **[!UICONTROL Landingpage]** zu dieser Landingpage definieren, können Sie einen beliebigen Dienst aus der Liste auswählen. Sie können dann bei der Definition anderer Links zu dieser Landingpage andere Dienste auswählen. [Weitere Informationen zum Einfügen von Links](../email/message-tracking.md)
 
-   ![](assets/email-link-to-landing-page.png){zoomable=&quot;yes&quot;}
+   ![](assets/email-link-to-landing-page.png){zoomable="yes"}
 
 ## Definieren der Formularstile für die Landingpage {#lp-form-styles}
 
@@ -142,17 +142,17 @@ Um bestimmte Inhalte zu definieren, mit denen Benutzende ihre Auswahl auf Ihrer 
 
 1. Der Abschnitt **[!UICONTROL Textfeld]** wird standardmäßig erweitert. Er ermöglicht es Ihnen, das Erscheinungsbild des Textfelds zu bearbeiten, z. B. die Schriftart für Titel, die Position der Titel, die Hintergrundfarbe des Felds oder des Feldrands.
 
-   ![](assets/lp-text-styles.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-text-styles.png){zoomable="yes"}
 
 1. Klappen Sie den Abschnitt **[!UICONTROL Kontrollkästchen]** aus, um das Erscheinungsbild der Kontrollkästchen und des entsprechenden Texts zu definieren. Sie können beispielsweise die Schriftfamilie, die Schriftgröße und die Rahmenfarbe des Kontrollkästchens anpassen.
 
-   ![](assets/lp-checkbox-style.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-checkbox-style.png){zoomable="yes"}
 
 1. Erweitern und bearbeiten Sie alle anderen Abschnitte, die anderen von Ihnen zum Formular hinzugefügten Feldern entsprechen (Optionsfeld, Dropdown-Liste, Datum und Uhrzeit usw.)
 
 1. Erweitern Sie den Abschnitt **[!UICONTROL Handlungsaufforderung]**, um das Erscheinungsbild der Schaltfläche im Komponentenformular zu ändern. Sie können beispielsweise die Schriftart ändern, einen Rahmen hinzufügen, die Beschriftungsfarbe beim Bewegen des Mauszeigers bearbeiten oder die Ausrichtung der Schaltfläche anpassen.
 
-   ![](assets/lp-call-to-action-style.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-call-to-action-style.png){zoomable="yes"}
 
    Sie können eine Vorschau einiger Ihrer Einstellungen anzeigen, z. B. die Farbe der Schaltflächenbeschriftung beim Bewegen des Mauszeigers, indem Sie die Schaltfläche **[!UICONTROL Inhalt simulieren]** verwenden. [Weitere Informationen](create-lp.md#test-landing-page)
 

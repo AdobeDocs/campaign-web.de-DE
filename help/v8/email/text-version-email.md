@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie die Textversion einer E-Mail erstellen
 exl-id: 8d0ce346-64a6-4adf-9f2d-36a900db797f
 source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '166'
 ht-degree: 100%
 
 ---
@@ -20,15 +20,15 @@ Wenn Sie lieber einen anderen Inhalt für die Textversion verwenden möchten, f�
 
 1. Wählen Sie in Ihrer E-Mail die Registerkarte **[!UICONTROL Text]**.
 
-   ![](assets/text_version_3.png){zoomable=&quot;yes&quot;}
+   ![](assets/text_version_3.png){zoomable="yes"}
 
 1. Verwenden Sie den Umschalter **[!UICONTROL Mit HTML synchronisieren]**, um die Synchronisierung zu deaktivieren.
 
-   ![](assets/text_version_1.png){zoomable=&quot;yes&quot;}
+   ![](assets/text_version_1.png){zoomable="yes"}
 
 1. Klicken Sie auf das Häkchen, um Ihre Auswahl zu bestätigen.
 
-   ![](assets/text_version_2.png){zoomable=&quot;yes&quot;}
+   ![](assets/text_version_2.png){zoomable="yes"}
 
 1. Sie können die Textversion dann nach Belieben bearbeiten.
 

@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie auf Briefpost-Berichte zugreifen und diese ve
 exl-id: 268fe1e3-bd5c-40f1-8973-7671cd8c9960
 source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
 workflow-type: tm+mt
-source-wordcount: '670'
+source-wordcount: '658'
 ht-degree: 100%
 
 ---
@@ -25,7 +25,7 @@ Der **Briefpost-Versandbericht** bietet umfassende Erkenntnisse und Daten, die s
 
 Die **[!UICONTROL Versandübersicht]** bietet detaillierte Erkenntnisse über die Interaktion Ihrer Besucherinnen und Besucher mit jedem Briefpostversand und zeigt wichtige Leistungsmetriken (KPIs).  Die Metriken sind unten dargestellt.
 
-![](assets/direct-overview.png){zoomable=&quot;yes&quot;}{align="center"}
+![](assets/direct-overview.png){zoomable="yes"}{align="center"}
 
 +++Erfahren Sie mehr über Versandübersichtsmetriken.
 
@@ -43,13 +43,13 @@ Die **[!UICONTROL Versandübersicht]** bietet detaillierte Erkenntnisse über di
 >title="Anfängliche Zielgruppenpopulation"
 >abstract="Der Graph **Anfängliche Zielgruppenpopulation** zeigt Daten zu Ihren Empfängerinnen und Empfängern sowie Nachrichten basierend auf den Ergebnissen der Versandvorbereitung an."
 
-Der Graph **[!UICONTROL Anfängliche Zielgruppenpopulation]** zeigt Daten zu Ihren Empfängerinnen und Empfängern an. Die Metriken werden bei der Versandvorbereitung berechnet und zeigen: die ursprüngliche Zielgruppe, die Anzahl der zu sendenden Nachrichten und die Anzahl der ausgeschlossenen Empfängerinnen und Empfänger.
+Der Graph **[!UICONTROL Anfängliche Zielgruppenpopulation]** zeigt Daten zu Ihren Empfängerinnen und Empfängern an. Die Metriken werden bei der Versandvorbereitung berechnet und zeigen: die anfängliche Zielgruppe, die Anzahl der zu sendenden Nachrichten und die Anzahl der ausgeschlossenen Empfängerinnen und Empfänger.
 
-![](assets/direct-mail-delivery-targeted-population.png){zoomable=&quot;yes&quot;}
+![](assets/direct-mail-delivery-targeted-population.png){zoomable="yes"}
 
 Bewegen Sie den Mauszeiger über einen Abschnitt des Graphen, um die genaue Zahl anzuzeigen.
 
-![](assets/direct-mail-delivery-targeted-population_2.png){zoomable=&quot;yes&quot;}
+![](assets/direct-mail-delivery-targeted-population_2.png){zoomable="yes"}
 
 +++Erfahren Sie mehr über die Metriken eines Briefpost-Versandberichts.
 
@@ -69,7 +69,7 @@ Bewegen Sie den Mauszeiger über einen Abschnitt des Graphen, um die genaue Zahl
 
 Der Graph **[!UICONTROL Versandstatistiken]** bietet einen umfassenden Überblick über Ihre Versandleistung und bietet detaillierte Metriken zur Messung von Erfolg und Effektivität.
 
-![](assets/direct-mail-delivery-stats.png){zoomable=&quot;yes&quot;}
+![](assets/direct-mail-delivery-stats.png){zoomable="yes"}
 
 +++Erfahren Sie mehr über die Metriken der Briefpost-Kampagnenberichte.
 
@@ -92,7 +92,7 @@ Der Graph **[!UICONTROL Versandstatistiken]** bietet einen umfassenden Überblic
 
 Der Graph **[!UICONTROL Ausschlussgründe]** bietet eine detaillierte Auflistung der Gründe für die Ablehnung von Nachrichten während der Versandvorbereitung. Diese Aufschlüsselung erfolgt nach verschiedenen Regeln und liefert einen umfassenden Überblick über die Faktoren, die beim Ausschluss einer Nachricht eine Rolle spielen. Ausschlussregeln werden in der[Dokumentation zu Campaign v8 (Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=de#email-error-types){_blank} detailliert beschrieben.
 
-![](assets/direct-mail-delivery-exclusions.png){zoomable=&quot;yes&quot;}{align="center" zoomable="yes"}
+![](assets/direct-mail-delivery-exclusions.png){zoomable="yes"}{align="center" zoomable="yes"}
 
 +++Erfahren Sie mehr über Metriken zu Ausschlussgründen.
 
@@ -121,6 +121,6 @@ Der Graph **[!UICONTROL Ausschlussgründe]** bietet eine detaillierte Auflistung
 
 Die Tabelle **[!UICONTROL Ausschlüsse]** bietet eine detaillierte Aufschlüsselung der Nachrichten (nach bestimmten Regeln kategorisiert), die in der Vorbereitungsphase des Versands zurückgewiesen wurden. Diese umfassende Aufschlüsselung liefert ein klares Bild der Gründe für den Ausschluss dieser Nachrichten aus dem Versandprozess.
 
-![](assets/direct-mail-exclusions.png){zoomable=&quot;yes&quot;}{align="center" zoomable="yes"}
+![](assets/direct-mail-exclusions.png){zoomable="yes"}{align="center" zoomable="yes"}
 
 Die verfügbaren Metriken sind die gleichen wie die für die weiter oben beschriebenen [Ausschlussgründe](#direct-mail-delivery-exclusions).

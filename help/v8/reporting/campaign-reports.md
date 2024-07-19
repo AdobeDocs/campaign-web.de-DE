@@ -4,7 +4,7 @@ title: Kampagnenberichte
 description: Erfahren Sie, wie Sie auf Kampagnenberichte zugreifen und diese verwenden können
 exl-id: 6a25a636-35d6-44c8-8635-7aec683af1f6
 source-git-commit: 5b42671173e7fd7f024eb7eb03a0836eae7ef622
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '271'
 ht-degree: 100%
 

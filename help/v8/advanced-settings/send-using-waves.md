@@ -6,7 +6,7 @@ feature: Email
 exl-id: d4cd5fe5-f9ac-44ac-a961-ae45131aeb3e
 source-git-commit: e5a17ad1f8316d201dc3b4bc6ce20d61aea7a9c9
 workflow-type: tm+mt
-source-wordcount: '796'
+source-wordcount: '788'
 ht-degree: 100%
 
 ---
@@ -56,7 +56,7 @@ Gehen Sie wie folgt vor, um Sendungen in Schüben zu versenden.
 
 Wenn Sie diese Option wählen, haben alle Schübe dieselbe Größe (mit Ausnahme des letzten Schubs) und die Verzögerung vor jedem Schub ist immer identisch.
 
-![](assets/waves-same-size.png){zoomable=&quot;yes&quot;}
+![](assets/waves-same-size.png){zoomable="yes"}
 
 * Geben Sie die Größe für alle Schübe an, in die Sie den Versand unterteilen. Sie können einen Prozentsatz oder einen numerischen Wert eingeben. Nur der letzte Schub kann variieren, da er die verbleibende Nachrichtenanzahl enthalten muss.
 
@@ -70,7 +70,7 @@ Mithilfe von Schüben kann die Anzahl der Nachrichten auf 20 pro Tag beschränkt
 
 Wählen Sie dazu die Option **[!UICONTROL Mehrere Schübe derselben Größe planen]**. Geben Sie **[!UICONTROL 20]** als Schubgröße und **[!UICONTROL 1 Tag]** im Feld **[!UICONTROL Intervall]** ein.
 
-![](assets/waves-call-center.png){zoomable=&quot;yes&quot;}
+![](assets/waves-call-center.png){zoomable="yes"}
 
 ## Schübe nach einem Kalender planen {#waves-calendar}
 
@@ -88,7 +88,7 @@ Fügen Sie so viele Schübe hinzu, wie Sie möchten.  Sie können diese Ihren B
 
 Im folgenden Beispiel entspricht der erste Schub 25 % der Gesamtzahl der im Versand enthaltenen Nachrichten und beginnt sofort. Die beiden nächsten Schübe vervollständigen den Versand und starten in Sechs-Stunden-Intervallen.
 
-![](assets/waves-calendar.png){zoomable=&quot;yes&quot;}
+![](assets/waves-calendar.png){zoomable="yes"}
 
 Ein gängiger Anwendungsfall für mehrere Schübe gemäß Kalender ist der Einsatz während der Anlaufphase.
 
@@ -98,4 +98,4 @@ Um zu verhindern, dass Ihre Sendungen als Spam eingestuft werden, können Sie da
 
 Verwenden Sie dazu die Option **[!UICONTROL Schübe in einem Kalender definieren]**. Setzen Sie beispielsweise den ersten Schub auf 10 %, den zweiten auf 15 %, den dritten auf 20 % usw.
 
-![](assets/waves-ramp-up.png){zoomable=&quot;yes&quot;}
+![](assets/waves-ramp-up.png){zoomable="yes"}

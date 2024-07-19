@@ -4,7 +4,7 @@ title: Verwenden der Workflow-Aktivität „Inkrementelle Abfrage“
 description: Informationen dazu, wie Sie die Workflow-Aktivität „Inkrementelle Abfrage“ verwenden
 exl-id: 72bd307b-eba2-42a0-9744-05e089c34925
 source-git-commit: bb61fdb34fecb4131d4069965cda8a3a5099b6bc
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '751'
 ht-degree: 100%
 

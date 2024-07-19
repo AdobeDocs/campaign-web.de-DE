@@ -10,7 +10,7 @@ level: Beginner
 exl-id: 114c482f-8291-418a-bd81-667f40267a7d
 source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '252'
 ht-degree: 100%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 Wenn Sie [eine E-Mail erstellen](../email/create-email.md), verwenden Sie den Abschnitt **[!UICONTROL Design-Vorlage auswählen]** der Schnittstelle **[!UICONTROL E-Mail erstellen]**, um Ihren Inhalt anhand einer Vorlage zu erstellen.
 
-![](assets/email_designer-templates.png){zoomable=&quot;yes&quot;}
+![](assets/email_designer-templates.png){zoomable="yes"}
 
 Sie können aus folgenden Optionen wählen:
 
@@ -41,19 +41,19 @@ Gehen Sie wie folgt vor, um mit der Erstellung Ihres Inhalts mit einer der Beisp
 
 1. Um eine vorhandene benutzerdefinierte Vorlage zu verwenden, navigieren Sie zur Registerkarte **[!UICONTROL Gespeicherte Vorlagen]**.
 
-   ![](assets/email_designer-saved-templates-tab.png){zoomable=&quot;yes&quot;}
+   ![](assets/email_designer-saved-templates-tab.png){zoomable="yes"}
 
 1. Die Liste aller [gespeicherten Vorlagen](#save-as-template) wird angezeigt. Sie können sie nach **[!UICONTROL Namen]**, **[!UICONTROL Zuletzt geändert]** und **[!UICONTROL Zuletzt erstellt]** sortieren.
 
-   ![](assets/email_designer-saved-templates.png){zoomable=&quot;yes&quot;}
+   ![](assets/email_designer-saved-templates.png){zoomable="yes"}
 
 1. Wählen Sie eine Vorlage aus der Liste aus, um den Inhalt anzuzeigen.
 
 1. Verwenden Sie die Rechts- und Linkspfeile, um zwischen den Vorlagen (Beispiel oder gespeichert, abhängig von Ihrer Auswahl) zu navigieren.
 
-   ![](assets/email_designer-saved-templates-navigate.png){zoomable=&quot;yes&quot;}
+   ![](assets/email_designer-saved-templates-navigate.png){zoomable="yes"}
 
-1. Klicken Sie oben rechts auf dem Bildschirm auf **[!UICONTROL Diese Vorlage verwenden]**.
+1. Klicken Sie oben rechts auf dem Bildschirm auf **[!UICONTROL Diese E-Mail verwenden]**.
 
 1. Bearbeiten Sie Ihren Inhalt wie gewünscht mit dem E-Mail-Designer. [Weitere Informationen](create-email-content.md)
 

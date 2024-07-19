@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie mit Adobe Campaign Web einen Briefpostversand
 exl-id: 06ce7535-e84d-4aed-bea9-b85b4ee0d008
 source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
 workflow-type: tm+mt
-source-wordcount: '579'
+source-wordcount: '569'
 ht-degree: 100%
 
 ---
@@ -22,13 +22,13 @@ Die wichtigsten Schritte, um die Extraktionsdatei in einer Vorschau anzuzeigen, 
 
 1. Auf der Seite für den Versandinhalt können Sie über die Option **[!UICONTROL Inhalt simulieren]** personalisierten Inhalt in einer Vorschau anzeigen.
 
-   ![](assets/dm-simulate.png){zoomable=&quot;yes&quot;}
+   ![](assets/dm-simulate.png){zoomable="yes"}
 
 1. Klicken Sie auf **[!UICONTROL Testprofil(e) hinzufügen]**, um mindestens ein Profil auszuwählen und die zugehörigen Daten im Inhalt der Extraktionsdatei in einer Vorschau anzuzeigen.
 
 1. Im rechten Bereich sehen Sie eine Vorschau der Extraktionsdatei, in der personalisierte Elemente dynamisch durch Daten aus dem ausgewählten Profil ersetzt werden.
 
-   ![](assets/dm-preview-right.png){zoomable=&quot;yes&quot;}
+   ![](assets/dm-preview-right.png){zoomable="yes"}
 
 ## Durchführen von Testsendungen {#test-dm}
 
@@ -42,7 +42,7 @@ Beim Briefpostversand wird durch Testsendungen eine Beispieldatei der Extraktion
 
 1. Klicken Sie im Testversand-Dashboard auf die Schaltfläche **[!UICONTROL Datei in Vorschau anzeigen]**, um eine Vorschau der Extraktionsdatei anzuzeigen.
 
-   ![](assets/dm-proof.png){zoomable=&quot;yes&quot;}
+   ![](assets/dm-proof.png){zoomable="yes"}
 
    >[!NOTE]
    >
@@ -54,13 +54,13 @@ Sobald Ihre Briefpost für den Versand an Ihre Kundinnen und Kunden bereit ist, 
 
 1. Nachdem Sie den Inhalt Ihrer Extraktionsdatei gestaltet haben, klicken Sie auf der Seite **[!UICONTROL Versand]** auf **[!UICONTROL Überprüfen und senden]**.
 
-   ![](assets/dm-review-send.png){zoomable=&quot;yes&quot;}
+   ![](assets/dm-review-send.png){zoomable="yes"}
 
 1. Klicken Sie auf **[!UICONTROL Vorbereiten]** und überwachen Sie den Fortschritt und die bereitgestellten Statistiken.
 
    Wenn Fehler auftreten, finden Sie im Menü **[!UICONTROL Protokolle]** detaillierte Informationen zum Fehler.
 
-   ![](assets/dm-prepare.png){zoomable=&quot;yes&quot;}
+   ![](assets/dm-prepare.png){zoomable="yes"}
 
 1. Senden Sie die Nachrichten, indem Sie auf **[!UICONTROL Senden]** klicken, um mit dem endgültigen Versandprozess fortzufahren.
 

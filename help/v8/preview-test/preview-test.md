@@ -5,7 +5,7 @@ description: Weitere Informationen dazu, wie Sendungen in der Vorschau angezeigt
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
 source-git-commit: 84cb01fc08c3628c4b8032470a8e6ab02328302c
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '193'
 ht-degree: 100%
 
 ---
@@ -30,7 +30,7 @@ Sobald der Versandinhalt definiert worden ist, können Sie ihn vor dem Senden de
 
 Diese Aktionen können über die Schaltfläche **[!UICONTROL Inhalt simulieren]** ausgeführt werden, auf die über den Bildschirm „Inhalt bearbeiten“ des Versands oder über den [E-Mail-Designer](../email/get-started-email-designer.md) zugegriffen werden kann.
 
-![](assets/simulate-button.png){zoomable=&quot;yes&quot;}
+![](assets/simulate-button.png){zoomable="yes"}
 
 >[!NOTE]
 >

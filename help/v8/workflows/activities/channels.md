@@ -4,7 +4,7 @@ title: Verwenden einer Workflow-Aktivität „Versand“
 description: Erfahren Sie, wie Sie eine Workflow-Aktivität „Versand“ hinzufügen (E-Mail, Push-Benachrichtigung, SMS, Briefpost).
 exl-id: 155b40e2-1aa2-4251-bbaa-7e16e36f649e
 source-git-commit: 298b1e17e70eae7da98fd5ac60fbcad32ce5c44f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '971'
 ht-degree: 100%
 
