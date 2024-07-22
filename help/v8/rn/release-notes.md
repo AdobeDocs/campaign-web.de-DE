@@ -2,7 +2,7 @@
 title: Versionshinweise zur Web-Benutzeroberfläche von Campaign v8
 description: Entdecken Sie die neuen Funktionen der neuesten Version der Campaign Web-Benutzeroberfläche
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 0c3eb0c20f348442ad28e1e9a801c83d1ab3681f
+source-git-commit: 5b6843e57ac4160d943aac5aca5d86a9b4fa7783
 workflow-type: tm+mt
 source-wordcount: '1623'
 ht-degree: 100%
@@ -54,22 +54,11 @@ Die neue Funktion **Audit-Protokoll** bietet eine detaillierte, chronologische A
 
 Sie können jetzt in der Workflow-Aktivität **Anreicherung** Relationen mit einer anderen Tabelle erstellen. Verwenden Sie den neuen Abschnitt **Relationsdefinition** in den Aktivitätsparametern, um eine Relation zwischen den Daten der Arbeitstabelle und der Adobe Campaign-Datenbank herzustellen. Wenn Sie beispielsweise Daten aus einer Datei laden, die die Kundennummer, das Land und die E-Mail-Adresse der Empfängerinnen und Empfänger enthält, können Sie jetzt eine Relation zur Ländertabelle erzeugen, um die entsprechende Information in den Profilen zu aktualisieren. [Weitere Informationen](../workflows/activities/enrichment.md#create-links)
 
-<!--
-### Content fragments {#24-5-4}
-
-* You can now author, use, and save **visual fragments** to quickly assemble your emails and content templates. A fragment is a prebuilt reusable component that can be referenced in multiple emails across Adobe Campaign for an improved and accelerated design process. [Learn more](../email/fragments.md)
-
-* You can now author, use, and manage **expression fragments** to quickly build personalized content. A fragment is a prebuilt reusable component that can be referenced in multiple contents across Adobe Campaign for an improved and accelerated design process.-->
-
-
 ### Allgemeine Verbesserungen {#improvements-24-5}
 
 * **Briefpost** – Sie können jetzt den Ausdruckseditor verwenden, um die Attribute auszuwählen, die in Briefpost-Extraktionsdateien angezeigt werden sollen. [Weitere Informationen](../direct-mail/content-direct-mail.md)
 
 * **Ordnerverwaltung** – Sie können jetzt einen Unterordner von einem anderen Typ als den übergeordneten Ordner erstellen. [Weitere Informationen](../get-started/permissions.md#folders)
-
-
-<!--* **Execution options for workflows** - You can now define execution options for your workflows, such as the maximum duration, the affinity, or the time zone.-->
 
 * **Globalisierung** – Im Rahmen unserer kontinuierlichen Bemühungen um ein einheitliches Benutzererlebnis harmonisieren wir die in den Adobe Experience Cloud-Produkten und -Apps verwendete Terminologie. Dies wirkt sich auf den deutschen Begriff „Titel“ aus, der in „Label“ geändert wird, wenn er sich auf den Namen eines Objekts bezieht. Die Änderungen werden schrittweise in der Benutzeroberfläche und Dokumentation eingeführt.
 
@@ -125,22 +114,15 @@ Beachten Sie, dass diese Funktion nur **eingeschränkt verfügbar** ist.
 ### Allgemeine Verbesserungen {#improvements-24-4}
 
 Die folgenden Verbesserungen stehen allen Kundinnen und Kunden ab der April-Version zur Verfügung.
-<!--**Workflow - Copy/Paste into another tab**: -->
 
 * Die Aktivität **Datei laden** wurde um mehrere Abschnitte erweitert, durch die Sie eine Beispieldatei hochladen, Fehler und Zurückweisungen verwalten sowie hochgeladene Dateien nach Ausführung der Aktivität löschen können. [Weitere Informationen](../workflows/activities/load-file.md)
 
 
 * Sie haben nun die Möglichkeit, **Aktivitäten in einem Workflow zu kopieren** und in einen Workflow von einer anderen Browser-Registerkarte einzufügen. [Weitere Informationen](../workflows/orchestrate-activities.md#copy-activities-copy)
 
-<!--**Workflow - Execution options**: -->
-
 * Die **Ausführungsoptionen** aller Workflow-Aktivitäten können jetzt verwaltet werden. Auf diese Weise können Sie den Ausführungsmodus und das Verhalten der Aktivität im Falle eines Fehlers definieren. [Weitere Informationen](../workflows/orchestrate-activities.md#execution-options-execution)
 
-<!-- **Workflow - Split Activity - Support Skipping Empty Transition**: -->
-
 * Mit der Option „Transition nicht aktivieren, wenn die Population leer ist“ der **Aktivität „Aufspaltung“** können Sie festlegen, ob der Workflow bei einem leeren Segmentergebnis zur nächsten Aktivität übergehen soll. [Weitere Informationen](../workflows/activities/split.md)
-
-
 
 ## Versionshinweise für März {#24-3-release}
 
