@@ -5,9 +5,9 @@ hide: true
 hidefromtoc: true
 exl-id: a4c6ecb7-d657-46de-aa55-90c4cb45164b
 source-git-commit: f8bdb15151774b33a0bcf16e86347dae6ab417a2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '401'
-ht-degree: 39%
+ht-degree: 100%
 
 ---
 
@@ -17,24 +17,24 @@ Die Adobe Campaign Web-Benutzeroberfläche bietet kontinuierlich neue Funktionen
 
 **Die nachfolgenden frühzeitigen Versionshinweise können ohne vorherige Ankündigung bis zum Verfügbarkeitsdatum der Version geändert werden**. Links, Bildschirme und die aktualisierte Dokumentation werden am Veröffentlichungsdatum in den [Versionshinweisen](release-notes.md) veröffentlicht.
 
-## Versionshinweise Juli {#24-7-release}
+## Versionshinweise für Juli {#24-7-release}
 
-**Veröffentlichungsdatum**: 30.-31. Juli 2024
+**Veröffentlichungsdatum**: 30.–31. Juli 2024
 
-Die folgenden Funktionen und Verbesserungen sind ab der Juli-Version verfügbar.
+Die folgenden Funktionen und Verbesserungen sind ab der Version Juli verfügbar.
 
 ### Inhaltsfragmente {#24-7-1}
 
-Sie können jetzt Inhaltsfragmente erstellen und verwenden. Ein Inhaltsfragment ist eine wiederverwendbare Komponente, die in einer oder mehreren Nachrichten referenziert werden kann. Beim Ändern eines Fragments wird jeder Inhalt, der dieses verwendet, aktualisiert. Mit dieser Funktion können Sie mehrere benutzerdefinierte Inhaltsbausteine vorab erstellen, die von Marketing-Benutzern verwendet werden können, um Nachrichteninhalte in einem verbesserten Designprozess schnell zusammenzustellen.
+Sie können jetzt Inhaltsfragmente erstellen und verwenden. Ein Inhaltsfragment ist eine wiederverwendbare Komponente, die in einer oder mehreren Nachrichten referenziert werden kann. Beim Ändern eines Fragments wird jeder Inhalt aktualisiert, der es verwendet. Mit dieser Funktion können Sie mehrere benutzerdefinierte Inhaltsbausteine vorab erstellen, mit denen Marketing-Benutzende Inhalte von Nachrichten schnell in einem verbesserten Design-Prozess zusammenstellen können.
 
-Es stehen zwei Fragmenttypen zur Verfügung:
+Es stehen zwei Arten von Fragmenten zur Verfügung:
 
 * **Ausdrucksfragmente** sind vordefinierte Ausdrücke, die über einen dedizierten Eintrag im Ausdruckseditor verfügbar sind.
 * **Visuelle Fragmente** sind vordefinierte visuelle Bausteine, die Sie in mehreren E-Mail-Sendungen oder in Inhaltsvorlagen wiederverwenden können. [Weitere Informationen](../email/fragments.md)
 
   >[!AVAILABILITY]
   >
-  >**Visuelle Fragmente** befinden sich in begrenzter Verfügbarkeit (LA). Diese Funktion ist auf Kunden beschränkt, die **von Adobe Campaign Standard zu Adobe Campaign v8** migrieren, und kann in keiner anderen Umgebung bereitgestellt werden.
+  >**Visuelle Fragmente** sind eingeschränkt verfügbar (LA, Limited Availability). Diese Funktion ist Kundinnen und Kunden vorbehalten, die **von Adobe Campaign Standard zu Adobe Campaign v8** migrieren, und kann nicht in anderen Umgebungen bereitgestellt werden.
 
 ### Testlisten {#24-7-2}
 
@@ -42,12 +42,12 @@ Eine Testliste, auch bezeichnet als  **Trap-Gruppe**, ist eine Liste von Testad
 
 ### Vorlagen für Rich-Push-Benachrichtigungen {#24-7-3}
 
-Sie können jetzt Rich-Push-Benachrichtigungen versenden. Eine Rich-Push-Benachrichtigung ist eine erweiterte Form der Mobile-Benachrichtigung, die über einfache Textnachrichten hinausgeht und Multimedia-Elemente wie Bilder, interaktive Schaltflächen oder andere Rich-Media-Inhalte enthält. Mit dieser Version sind jetzt eine Reihe von Vorlagen für Rich-Push-Benachrichtigungen für Ihre iOS- und Android-Apps verfügbar.
+Sie können nun Rich-Push-Benachrichtigungen senden. Eine Rich-Push-Benachrichtigung ist eine erweiterte Form einer Mobilgeräte-Benachrichtigung, die über einfache Textnachrichten hinausgeht und Multimedia-Elemente wie Bilder, interaktive Schaltflächen oder andere Rich-Media-Inhalte enthält. Mit dieser Version sind jetzt eine Reihe von Vorlagen für Rich-Push-Benachrichtigungen für Ihre iOS- und Android-Apps verfügbar.
 
 >[!AVAILABILITY]
 >
->Diese Funktion erfordert eine Aktualisierung auf Campaign v8.6.3 oder v8.7.2. Weitere Informationen finden Sie in den Versionshinweisen zur Client-Konsole von Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/releases/release-notes) .[
+>Diese Funktion erfordert ein Update auf Campaign v8.6.3 oder v8.7.2. Weitere Informationen finden Sie in den [Versionshinweisen zur Client Console von Campaign v8](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/releases/release-notes).
 
 ### Verbesserungen {#improvements-24-7}
 
-**Ordnerverwaltung** - Sie können jetzt Berechtigungen und Einschränkungen für Ordner verwalten.
+**Ordnerverwaltung**: Sie können jetzt Berechtigungen und Einschränkungen für Ordner verwalten.

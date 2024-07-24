@@ -4,15 +4,15 @@ title: Hinzufügen visueller Fragmente zu E-Mails
 description: Erfahren Sie, wie Sie visuelle Fragmente zu Ihren E-Mails hinzufügen
 exl-id: 6d6f38f9-9d3e-47cb-beb8-177b5a5d8306
 source-git-commit: 2d6b885642fbb6e1545f899219db05c156b069c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '447'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 # Hinzufügen visueller Fragmente zu E-Mails {#use-visual-fragments}
 
-Sie können ein visuelles Fragment in einem [E-Mail-Versand](get-started-email-designer.md) oder in einer [Inhaltsvorlage](use-email-templates.md) verwenden. Die Schritte werden nachfolgend beschrieben. Weitere Informationen zur Erstellung und Verwaltung von Fragmenten finden Sie in [diesem Abschnitt](fragments.md).
+Sie können ein visuelles Fragment in einem [E-Mail-Versand](get-started-email-designer.md) oder in einer [Inhaltsvorlage](use-email-templates.md) verwenden. Die einzelnen Schritte werden nachfolgend beschrieben. Weitere Informationen zur Erstellung und Verwaltung von Fragmenten finden Sie in [diesem Abschnitt](fragments.md).
 
 >[!AVAILABILITY]
 >
