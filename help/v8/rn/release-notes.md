@@ -2,10 +2,10 @@
 title: Versionshinweise zur Web-Benutzeroberfläche von Campaign v8
 description: Entdecken Sie die neuen Funktionen der neuesten Version der Campaign Web-Benutzeroberfläche
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 5b6843e57ac4160d943aac5aca5d86a9b4fa7783
-workflow-type: ht
-source-wordcount: '1623'
-ht-degree: 100%
+source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
+workflow-type: tm+mt
+source-wordcount: '1938'
+ht-degree: 99%
 
 ---
 
@@ -17,6 +17,42 @@ ht-degree: 100%
 >abstract="Die Versionen der Adobe Campaign Web-Benutzeroberfläche basieren auf einem kontinuierlichen Bereitstellungsmodell, das einen besser skalierbaren, schrittweisen Ansatz für die Implementierung von Funktionen ermöglicht. Dementsprechend werden die Versionshinweise zu Campaign mehrmals im Monat mit den neuesten Funktionen, Verbesserungen und Fehlerbehebungen aktualisiert. Wir empfehlen Ihnen, sich diese regelmäßig anzusehen."
 
 Die Versionen der Adobe Campaign Web-Benutzeroberfläche basieren auf einem kontinuierlichen Bereitstellungsmodell, das einen besser skalierbaren, schrittweisen Ansatz für die Implementierung von Funktionen ermöglicht. Dementsprechend werden diese Versionshinweise mehrmals im Monat aktualisiert. Sie sollten daher regelmäßig nachschauen.
+
+## Versionshinweise für Juli {#24-7-release}
+
+**Veröffentlichungsdatum**: 30.–31. Juli 2024
+
+Die folgenden Funktionen und Verbesserungen sind ab der Version Juli verfügbar.
+
+### Inhaltsfragmente {#24-7-1}
+
+Sie können jetzt Inhaltsfragmente erstellen und verwenden. Ein Inhaltsfragment ist eine wiederverwendbare Komponente, die in einer oder mehreren Nachrichten referenziert werden kann. Beim Ändern eines Fragments wird jeder Inhalt aktualisiert, der es verwendet. Mit dieser Funktion können Sie mehrere benutzerdefinierte Inhaltsbausteine vorab erstellen, mit denen Marketing-Benutzende Inhalte von Nachrichten schnell in einem verbesserten Design-Prozess zusammenstellen können.
+
+Es stehen zwei Arten von Fragmenten zur Verfügung:
+
+* **Ausdrucksfragmente** sind vordefinierte Ausdrücke, die über einen dedizierten Eintrag im Ausdruckseditor verfügbar sind.
+* **Visuelle Fragmente** sind vordefinierte visuelle Bausteine, die Sie in mehreren E-Mail-Sendungen oder in Inhaltsvorlagen wiederverwenden können. [Weitere Informationen](../content/fragments.md)
+
+  >[!AVAILABILITY]
+  >
+  >**Visuelle Fragmente** sind eingeschränkt verfügbar (LA, Limited Availability). Diese Funktion ist Kundinnen und Kunden vorbehalten, die **von Adobe Campaign Standard zu Adobe Campaign v8** migrieren, und kann nicht in anderen Umgebungen bereitgestellt werden.
+
+### Testlisten {#24-7-2}
+
+Eine Testliste, auch bezeichnet als  **Trap-Gruppe**, ist eine Liste von Testadressen. Sie wird verwendet, um bestimmte Adressen in Ihre Sendungen einzubeziehen und dann Profile auszuwählen, die nicht den definierten Zielgruppenkriterien entsprechen. Auf diese Weise können Empfängerinnen und Empfänger, die außerhalb der Versandzielgruppe liegen, die Nachricht ebenso wie jede andere Person innerhalb der Zielgruppe erhalten.  Sie können Testadressen beim Versand von Testsendungen oder zum Schutz Ihrer Mailing-Liste verwenden.
+
+### Vorlagen für Rich-Push-Benachrichtigungen {#24-7-3}
+
+Sie können nun Rich-Push-Benachrichtigungen senden. Eine Rich-Push-Benachrichtigung ist eine erweiterte Form einer Mobilgeräte-Benachrichtigung, die über einfache Textnachrichten hinausgeht und Multimedia-Elemente wie Bilder, interaktive Schaltflächen oder andere Rich-Media-Inhalte enthält. Mit dieser Version sind jetzt eine Reihe von Vorlagen für Rich-Push-Benachrichtigungen für Ihre iOS- und Android-Apps verfügbar.
+
+>[!AVAILABILITY]
+>
+>Diese Funktion erfordert eine Aktualisierung auf Campaign v8.6.3 <!--or v8.7.2-->. Weitere Informationen finden Sie in den Versionshinweisen zur Campaign v8-Client-Konsole [](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/releases/release-notes) .
+
+### Verbesserungen {#improvements-24-7}
+
+**Ordnerverwaltung**: Sie können jetzt Berechtigungen und Einschränkungen für Ordner verwalten.
+
 
 ## Versionshinweise für Juni {#24-6-release}
 

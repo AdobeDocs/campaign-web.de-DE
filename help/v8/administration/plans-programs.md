@@ -3,7 +3,7 @@ audience: end-user
 title: Pläne und Programme
 description: Erfahren Sie, wie Sie Pläne und Programme in Adobe Campaign erstellen und konfigurieren können.
 exl-id: 0307bcb7-7ab5-4226-bad1-cb7cf10e97fc
-source-git-commit: bb61fdb34fecb4131d4069965cda8a3a5099b6bc
+source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
 source-wordcount: '415'
 ht-degree: 100%
@@ -28,7 +28,7 @@ Um sie besser zu organisieren, empfiehlt Adobe die folgende Hierarchie: Plan `>`
 
 ## Erstellen und Konfigurieren eines Plans {#create-plan}
 
-Um einen Plan zu erstellen, müssen Sie einen Ordner mit dem Ordnertyp **[!UICONTROL Plan]** erstellen. [Erfahren Sie mehr über das Erstellen eines Ordners](create-manage-folder.md).
+Um einen Plan zu erstellen, müssen Sie einen Ordner mit dem Ordnertyp **[!UICONTROL Plan]** erstellen. [Erfahren Sie mehr über das Erstellen eines Ordners](../get-started/work-with-folders.md).
 
 ![](assets/plan_create.png){zoomable="yes"}
 
@@ -54,7 +54,7 @@ Sie können sie konfigurieren:
 
 ## Erstellen und Konfigurieren eines Programms
 
-Um ein Programm in Ihrem Plan zu erstellen ([hier erfahren Sie mehr über das Erstellen eines Plans](#create-plan)), müssen Sie sich in Ihrem Plan befinden und einen Ordner mit dem Ordnertyp **[!UICONTROL Programm]** erstellen. [Hier erfahren Sie mehr über das Erstellen eines Ordners](create-manage-folder.md).
+Um ein Programm in Ihrem Plan zu erstellen ([hier erfahren Sie mehr über das Erstellen eines Plans](#create-plan)), müssen Sie sich in Ihrem Plan befinden und einen Ordner mit dem Ordnertyp **[!UICONTROL Programm]** erstellen. [Hier erfahren Sie mehr über das Erstellen eines Ordners](../get-started/work-with-folders.md).
 
 ![](assets/program_create.png){zoomable="yes"}
 

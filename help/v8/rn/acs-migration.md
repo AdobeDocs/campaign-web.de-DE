@@ -3,10 +3,10 @@ audience: end-user
 title: Wechsel von Campaign Standard zu Adobe Campaign Web
 description: Funktionsweise der Campaign Web-Benutzeroberfläche
 exl-id: 4cf406af-4cf5-434d-b1c7-a7c102f8dc2f
-source-git-commit: fede3e616d45c78db9d0613409254f3c8cc93bba
+source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
-source-wordcount: '590'
-ht-degree: 100%
+source-wordcount: '650'
+ht-degree: 92%
 
 ---
 
@@ -79,6 +79,8 @@ Damit Sie reibungslos zu Campaign v8 wechseln können, wurden wichtige Funktion
 * **Rest-APIs**: Wenn Sie von Campaign Standard migriert sind, können Sie REST-APIs verwenden, um Integrationen für Adobe Campaign zu erstellen und Ihr eigenes Ökosystem zu erstellen, indem Sie Adobe Campaign mit den von Ihnen verwendeten Technologien verbinden. [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html?lang=de){target="_blank"}.
 
 * **Landingpages**: An den Landingpages von Campaign v8 wurden einige Verbesserungen vorgenommen, damit die Funktionen mit denen von Campaign Standard vergleichbar sind. Weitere Informationen finden Sie in den [Versionshinweisen](../rn/release-notes.md#new-24-4) und in der [Dokumentation](../landing-pages/get-started-lp.md) zu Landingpages.
+
+* **Visuelle Fragmente** - Visuelle Fragmente sind wiederverwendbare visuelle Komponenten, die in E-Mail-Sendungen oder in Inhaltsvorlagen referenziert werden können. Beim Ändern eines Fragments wird jeder Inhalt aktualisiert, der es verwendet. Mit dieser Funktion können Sie mehrere benutzerdefinierte Inhaltsbausteine vorab erstellen, die von Marketing-Benutzern verwendet werden können, um Nachrichteninhalte in einem verbesserten Designprozess schnell zusammenzustellen. [Weitere Informationen](../content/use-visual-fragments.md)
 
 <!--
 * Delivery Alerting: In addition to viewing notifications directly in Campaign, Adobe Campaign also provides an email alerting system to trigger email alerts to users or external stakeholders of important system activities. Create, manage, and receive customizable alerts and dashboards to keep track of delivery successes or failures. Adobe Campaign Delivery Alerting boosts efficiency by keeping all involved Adobe Campaign users in a company automatically informed about the delivery execution status, via email and dashboard. 

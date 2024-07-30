@@ -3,10 +3,10 @@ audience: end-user
 title: Entwerfen von E-Mails in E-Mail-Designer
 description: Erfahren Sie, wie Sie Ihre E-Mail-Inhalte von Grund auf neu gestalten
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
-source-wordcount: '617'
-ht-degree: 100%
+source-wordcount: '620'
+ht-degree: 95%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_fragment"
 >title="Hinzufügen von Strukturen"
->abstract="Strukturen definieren das Layout des Fragments. Ziehen Sie per Drag-and-Drop eine **Strukturkomponente** in die Arbeitsfläche, um mit der Gestaltung Ihres Fragmentinhalts zu beginnen."
+>abstract="Strukturen definieren das Layout des Inhaltsfragments. Ziehen Sie per Drag-and-Drop eine **Strukturkomponente** in die Arbeitsfläche, um mit der Gestaltung Ihres Fragmentinhalts zu beginnen."
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_template"
@@ -45,8 +45,8 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_fragment"
->title="Definieren der Fragmentspalten"
->abstract="Mit E-Mail-Designer können Sie das Layout Ihres Fragements einfach definieren, indem Sie die Spaltenstruktur festlegen."
+>title="Inhaltsfragmentspalten definieren"
+>abstract="Mit Email Designer können Sie das Layout Ihres Inhaltsfragments einfach definieren, indem Sie die Spaltenstruktur definieren."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_template"

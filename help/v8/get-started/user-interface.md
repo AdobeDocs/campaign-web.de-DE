@@ -3,10 +3,10 @@ audience: end-user
 title: Erkunden der Benutzeroberfläche
 description: Adobe Campaign Web-Benutzeroberfläche
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 810ff236b28141d09f3a4d1ff8d102da7de9a0ef
+source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
-source-wordcount: '1629'
-ht-degree: 100%
+source-wordcount: '1689'
+ht-degree: 98%
 
 ---
 
@@ -81,9 +81,9 @@ Im Abschnitt „CONTENT MANAGEMENT“ können Sie Ihre Inhaltsvorlagen und -frag
 
 * **Inhaltsvorlagen**: Sie können eigenständige Vorlagen erstellen, um den Design-Prozess zu beschleunigen und zu verbessern und benutzerdefinierte Inhalte problemlos in allen Bereichen von [!DNL Adobe Campaign] wiederzuverwenden. Diese nur für E-Mails verfügbare Funktion ermöglicht es inhaltsorientierten Benutzenden, an eigenständigen Vorlagen zu arbeiten, sodass Anwenderinnen und Anwender von Marketing diese in ihren E-Mail-Kampagnen wiederverwenden und anpassen können. Weiterführende Informationen finden Sie in [diesem Abschnitt](../email/create-email-templates.md).
 
-<!--
-* **Fragments** -
--->
+* **Fragmente** - Ein Fragment ist eine wiederverwendbare Komponente, auf die in einem oder mehreren Kampagnensendungen verwiesen werden kann. Beim Ändern eines Fragments wird jeder Inhalt aktualisiert, der es verwendet. [Erfahren Sie, wie Sie mit Fragmenten arbeiten](../content/fragments.md)
+
+Mit dieser Funktion können Sie mehrere benutzerdefinierte Inhaltsbausteine vorab erstellen, mit denen Marketing-Benutzende E-Mail-Inhalte schnell in einem verbesserten Design-Prozess zusammenstellen können.
 
 ### Kunden-Management {#user-interface-customer-management}
 

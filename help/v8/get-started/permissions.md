@@ -3,125 +3,44 @@ audience: end-user
 title: Berechtigungsverwaltung in der Campaign Web-Benutzeroberfläche
 description: Erfahren Sie mehr über Berechtigungen in der Campaign Web-Benutzeroberfläche
 exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
-source-git-commit: b173afc12a5d8a7c57c688fe92e2c5628323fcad
+source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
-source-wordcount: '645'
-ht-degree: 100%
+source-wordcount: '209'
+ht-degree: 28%
 
 ---
 
-# Zugriff und Berechtigungen {#access-and-permissions}
 
->[!CONTEXTUALHELP]
->id="acw_explorer_permissions_create"
->title="Berechtigung erforderlich"
->abstract="Ihre Admins müssen Ihnen die Berechtigung erteilen, bevor Sie ein Segment erstellen können."
+# Berechtigungen {#permissions}
 
->[!CONTEXTUALHELP]
->id="acw_audiences_read_only"
->title="Diese Zielgruppe ist schreibgeschützt"
->abstract="Sie haben keine Berechtigungen, diese Zielgruppe zu bearbeiten. Bei Bedarf Admin kontaktieren, um Zugriff zu erhalten."
+Jeder Benutzer in Adobe Campaign hat seine eigenen Berechtigungen und Einschränkungen in der Anwendung.
 
->[!CONTEXTUALHELP]
->id="acw_subscription_services_read_only"
->title="Dieser Service ist schreibgeschützt"
->abstract="Keine Berechtigung, diesen Service zu bearbeiten. Bei Bedarf Admin kontaktieren, um Zugriff zu erhalten."
+Der Benutzer kann Teil der Benutzergruppe sein und erbt die Berechtigungen der Gruppe.
 
->[!CONTEXTUALHELP]
->id="acw_recipients_readonlyprofile"
->title="Empfangende – Schreibgeschütztes Profil"
->abstract="Keine Berechtigung, dieses Profil zu bearbeiten. Bei Bedarf Admin kontaktieren, um Zugriff zu erhalten."
+Je nach Berechtigung kann ein Benutzer:
 
->[!CONTEXTUALHELP]
->id="acw_campaign_read_only"
->title="Diese Kampagne ist schreibgeschützt"
->abstract="Keine Berechtigung, diese Kampagne zu bearbeiten. Bei Bedarf Admin kontaktieren, um Zugriff zu erhalten."
+* Zugriff auf bestimmte Fähigkeiten
+* Zugriff auf bestimmte Daten
+* Zugriff auf bestimmte Aktionen (Erstellen, Ändern, Löschen)
 
->[!CONTEXTUALHELP]
->id="acw_deliveries_read_only"
->title="Dieser Versand ist schreibgeschützt"
->abstract="Keine Berechtigung, diesen Versand zu bearbeiten. Bei Bedarf Admin kontaktieren, um Zugriff zu erhalten."
+## Berechtigungen für Ordner {#folder-permissions}
 
+Gemäß Ihren Berechtigungen können Sie die Berechtigungen für Ordner in den **[!UICONTROL Ordnereinstellungen]** anzeigen und verwalten.
+Nachfolgend finden Sie ein Beispiel für einen Versandordner.
 
->[!CONTEXTUALHELP]
->id="acw_wf_read_only"
->title="Dieser Workflow ist schreibgeschützt"
->abstract="Keine Berechtigung, diesen Workflow zu bearbeiten. Bei Bedarf Admin kontaktieren, um Zugriff zu erhalten."
+![](assets/folder_settings.png){zoomable="yes"}
 
+Im Abschnitt **[!UICONTROL Sicherheit]** der **[!UICONTROL Ordnereinstellungen]** können Sie Benutzer oder Gruppen, die Zugriff auf den Ordner haben, anzeigen und verwalten (hinzufügen oder löschen).
 
+![](assets/folder_security.png){zoomable="yes"}
 
-Die Zugriffskontrolle kann den Zugriff auf Objekte und Daten aus Hauptlisten, wie Sendungen, Empfängerinnen bzw. Empfänger oder Workflows, einschränken. Diese Einschränkungen gelten auch für die **Navigationsstruktur** des Explorers. Darüber hinaus benötigen Sie Berechtigungen zum Erstellen, Löschen, Duplizieren und Bearbeiten von Objekten über die Benutzeroberfläche.
+Sie können direkt auf die Berechtigungen klicken und sie entweder **[!UICONTROL Zulässig]** oder **[!UICONTROL Verweigert]** ändern.
 
-Die Zugriffskontrolle wird in der Client-Konsole von Campaign verwaltet. Alle Berechtigungen in Campaign Web werden mit den Berechtigungen der Campaign-Client-Konsole synchronisiert. Nur Campaign-Admins können Benutzerberechtigungen definieren und ändern. Weitere Informationen zu Benutzerberechtigungen finden Sie in der [Dokumentation zu Campaign v8 (Client-Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/admin/permissions/gs-permissions.html?lang=de){target="_blank"}.
+![](assets/folder_security_denied.png){zoomable="yes"}
 
-Wenn Sie die Benutzeroberfläche von Campaign Web durchsuchen, können Sie abhängig von Ihren Berechtigungen auf Daten, Objekte und Funktionen zugreifen. Wenn Sie beispielsweise keine Zugriffsberechtigungen für einen Ordner haben, können Sie ihn nicht sehen. Ihre Berechtigungen wirken sich auch auf die Objekte- und Datenverwaltung aus. Ohne Schreibberechtigungen für einen bestimmten Ordner können Sie einen Versand nicht in diesem Ordner erstellen, selbst wenn er in der Benutzeroberfläche angezeigt wird.
+Wenn die Variable **[!UICONTROL Ausdehnen]** aktiviert ist, werden alle für einen Ordner definierten Berechtigungen auf alle zugehörigen Unterordner angewendet. Diese Berechtigungen können für jeden Unterordner überschrieben werden.
 
-## Anzeigen von Berechtigungen {#view-permissions}
+Wenn die Option **[!UICONTROL Systemordner]** aktiviert ist, ist der Zugriff für alle Benutzer unabhängig von ihren Berechtigungen zulässig.
 
-Im **Explorer** können Sie die Berechtigungen für die einzelnen Ordner durchsuchen. Diese Berechtigungen werden in der Client-Konsole festgelegt und zum Organisieren und Steuern des Zugriffs auf Campaign-Daten verwendet.
-
-Gehen Sie wie folgt vor, um Berechtigungen für einen Ordner anzuzeigen:
-
-1. Wählen Sie im linken Navigationsmenü des **Explorers** einen Ordner aus.
-1. Klicken Sie auf die drei Punkte oben rechts und wählen Sie **Ordnerberechtigungen** aus.
-
-   ![](assets/permissions-view-menu.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
-
-1. Überprüfen Sie die Details im Bildschirm, wie im Folgenden gezeigt:
-
-   ![](assets/permissions-view-screen.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
-
-   Eine Gruppe oder eine Benutzerin bzw. ein Benutzer kann Lese-, Schreib- und/oder Löschberechtigungen für Daten erhalten, die im ausgewählten Ordner gespeichert sind.
-
-   Wenn die Variable **Ausdehnen** aktiviert ist, werden alle für einen Ordner definierten Berechtigungen auf alle zugehörigen Unterordner angewendet. Diese Berechtigungen können für jeden Unterordner überschrieben werden.
-
-   Wenn die Option **Systemordner** aktiviert ist, haben alle Benutzenden Zugriff, unabhängig von ihren Berechtigungen.
-
-Weitere Informationen zu Benutzerberechtigungen finden Sie in der [Dokumentation zu Campaign v8 (Client-Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/admin/permissions/folder-permissions.html?lang=de){target="_blank"}.
-
-
-## Arbeiten mit Ordnern {#folders}
-
->[!CONTEXTUALHELP]
->id="acw_folder_properties"
->title="Ordnereigenschaften"
->abstract="Ordnereigenschaften"
-
->[!CONTEXTUALHELP]
->id="acw_folder_security"
->title="Ordnersicherheit"
->abstract="Ordnersicherheit"
-
->[!CONTEXTUALHELP]
->id="acw_folder_restrictions"
->title="Ordnereinschränkungen"
->abstract="Ordnereinschränkungen"
-
->[!CONTEXTUALHELP]
->id="acw_folder_schedule"
->title="Ordnerzeitplan"
->abstract="Ordnerzeitplan"
-
-Sie können Ordner erstellen, umbenennen, neu anordnen und verschieben, um Ihre Komponenten und Daten zu organisieren. Über das gleiche Menü können Sie auch Ordner löschen.
-
->[!CAUTION]
->
->Beim Löschen eines Ordners werden auch alle im Ordner gespeicherten Daten gelöscht.
-
-Gehen Sie wie folgt vor, um einen Ordner zu erstellen:
-
-1. Wählen Sie im linken Navigationsmenü des **Explorers** einen Ordner aus.
-1. Klicken Sie auf die drei Punkte oben rechts und wählen Sie **Neuen Ordner erstellen** aus.
-1. Geben Sie den Namen des Ordners ein.
-
-   ![](assets/create-new-subfolder.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
-
-1. Wählen Sie den Ordnertyp aus. Standardmäßig ist der Typ des übergeordneten Ordners ausgewählt, in unserem Beispiel „Sendungen“. Um den Ordnertyp zu ändern, klicken Sie auf das Ordnersymbol und wählen Sie einen anderen Typ aus.
-
-   ![](assets/create-new-subfolder2.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
-
-1. Klicken Sie auf **Erstellen**.
-
-   Der Ordner wird als Unterordner des aktuellen Ordners hinzugefügt. Navigieren Sie zu diesem neuen Ordner, um Komponenten direkt darin zu erstellen. Sie können auch eine Komponente aus einem Ordner erstellen und sie in dem neuen Ordner speichern, und zwar über den Abschnitt **Zusätzliche Optionen** der Eigenschaften, wie unten für einen Versand dargestellt:
-
-   ![](assets/delivery-properties-folder.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
+Sie können auch [die Berechtigungen für Ordner in der Adobe Campaign-Konsole verwalten](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/admin/permissions/folder-permissions).
+Alle Berechtigungen in der Campaign-Web-Benutzeroberfläche werden mit den Berechtigungen der Campaign Client Console synchronisiert.

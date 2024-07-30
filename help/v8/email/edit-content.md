@@ -3,10 +3,10 @@ audience: end-user
 title: Bearbeiten des E-Mail-Inhalts
 description: Erfahren Sie, wie Sie den E-Mail-Inhalt in der Campaign Web-Benutzeroberfläche bearbeiten können
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
 source-wordcount: '624'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -73,7 +73,7 @@ Gehen Sie wie folgt vor, um den Inhalt einer E-Mail zu konfigurieren oder zu bea
 
    ![](assets/email-edit-content-reply-to.png){zoomable="yes"}
 
-1. Definieren Sie die **[!UICONTROL Betreffzeile]** der E-Mail. Geben Sie Ihren Betreff direkt in das entsprechende Feld ein oder öffnen Sie den Ausdruckseditor, um das Hinzufügen einer [Personalisierung](../personalization/personalize.md) mit verschiedenen Attributen und Inhaltsbausteinen oder Angeboten vorzunehmen.
+1. Definieren Sie die **[!UICONTROL Betreffzeile]** der E-Mail. Geben Sie Ihren Betreff direkt in das dedizierte Feld ein oder öffnen Sie den Ausdruckseditor, um [personalization](../personalization/personalize.md) mit verschiedenen Attributen und Ausdrucksfragmenten oder Angeboten hinzuzufügen.
 
 1. Wenn Sie eine Datei an die E-Mail anhängen möchten, klicken Sie auf die Schaltfläche **[!UICONTROL Anlage hinzufügen]** und wählen Sie eine oder mehrere Dateien aus.
 

@@ -2,10 +2,10 @@
 title: Herstellen einer Verbindung zur Adobe Campaign Web-Benutzeroberfläche
 description: Erfahren Sie, wie Sie eine Verbindung mit der Benutzeroberfläche von Adobe Campaign Web herstellen.
 exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
-source-git-commit: 2e5ddb7aca83a1a348ca50603d38a89c2762bb80
+source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
-source-wordcount: '549'
-ht-degree: 100%
+source-wordcount: '845'
+ht-degree: 97%
 
 ---
 
@@ -47,6 +47,51 @@ Wenn Sie Zugriff auf mehrere Umgebungen haben, einschließlich des Control Panel
 ![](assets/launch-campaign.png){zoomable="yes"}
 
 Sie sind jetzt mit Campaign verbunden. Auf [dieser Seite](user-interface.md) erfahren Sie, wie Sie die Benutzeroberfläche verwenden.
+
+### Zugriffskontrolle {#access-control}
+
+>[!CONTEXTUALHELP]
+>id="acw_explorer_permissions_create"
+>title="Berechtigung erforderlich"
+>abstract="Ihre Admins müssen Ihnen die Berechtigung erteilen, bevor Sie ein Segment erstellen können."
+
+>[!CONTEXTUALHELP]
+>id="acw_audiences_read_only"
+>title="Diese Zielgruppe ist schreibgeschützt"
+>abstract="Sie haben keine Berechtigungen, diese Zielgruppe zu bearbeiten. Bei Bedarf Admin kontaktieren, um Zugriff zu erhalten."
+
+>[!CONTEXTUALHELP]
+>id="acw_subscription_services_read_only"
+>title="Dieser Service ist schreibgeschützt"
+>abstract="Keine Berechtigung, diesen Service zu bearbeiten. Bei Bedarf Admin kontaktieren, um Zugriff zu erhalten."
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_readonlyprofile"
+>title="Empfangende – Schreibgeschütztes Profil"
+>abstract="Keine Berechtigung, dieses Profil zu bearbeiten. Bei Bedarf Admin kontaktieren, um Zugriff zu erhalten."
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_read_only"
+>title="Diese Kampagne ist schreibgeschützt"
+>abstract="Keine Berechtigung, diese Kampagne zu bearbeiten. Bei Bedarf Admin kontaktieren, um Zugriff zu erhalten."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_read_only"
+>title="Dieser Versand ist schreibgeschützt"
+>abstract="Keine Berechtigung, diesen Versand zu bearbeiten. Bei Bedarf Admin kontaktieren, um Zugriff zu erhalten."
+
+>[!CONTEXTUALHELP]
+>id="acw_wf_read_only"
+>title="Dieser Workflow ist schreibgeschützt"
+>abstract="Keine Berechtigung, diesen Workflow zu bearbeiten. Bei Bedarf Admin kontaktieren, um Zugriff zu erhalten."
+
+Die Zugriffskontrolle kann den Zugriff auf Objekte und Daten aus Hauptlisten, wie Sendungen, Empfängerinnen bzw. Empfänger oder Workflows, einschränken. Diese Einschränkungen gelten auch für die Navigationsstruktur des Explorers. Darüber hinaus benötigen Sie Berechtigungen zum Erstellen, Löschen, Duplizieren und Bearbeiten von Objekten über die Benutzeroberfläche.
+
+Alle Berechtigungen in Campaign Web werden mit den Berechtigungen der Campaign-Client-Konsole synchronisiert. Nur Campaign-Administratoren können Benutzerberechtigungen definieren und ändern.
+
+Wenn Sie die Benutzeroberfläche von Campaign Web durchsuchen, können Sie abhängig von Ihren Berechtigungen auf Daten, Objekte und Funktionen zugreifen. Wenn Sie beispielsweise keine Zugriffsberechtigungen für einen Ordner haben, können Sie ihn nicht sehen. Ihre Berechtigungen wirken sich auch auf die Objekte- und Datenverwaltung aus. Ohne Schreibberechtigungen für einen bestimmten Ordner können Sie einen Versand nicht in diesem Ordner erstellen, selbst wenn er in der Benutzeroberfläche angezeigt wird.
+
+Sie können erfahren, wie Sie hier ](permissions.md) Berechtigungen anzeigen und verwalten.[
 
 ## Obere Navigationsleiste in Adobe Experience Cloud {#top-bar}
 

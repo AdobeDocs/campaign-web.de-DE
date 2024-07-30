@@ -1,6 +1,6 @@
 ---
-title: Erste Schritte mit dynamischen Inhalten
-description: Erfahren Sie, wie Sie Ihre Inhalte mithilfe von Personalisierung, bedingten Inhalten und integrierten Inhaltsbausteinen dynamisch gestalten können.
+title: Wie lässt sich der Inhalt dynamisch gestalten?
+description: Erfahren Sie, wie Sie Ihren Inhalt durch Personalisierung und bedingte Inhalte dynamisch gestalten können.
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
@@ -9,19 +9,19 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: cce1da98-924b-415b-99d9-f4def4a4e874
-source-git-commit: f6e3fc0da05ecc2fda158c970458cc702b27079c
+source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
-source-wordcount: '659'
-ht-degree: 100%
+source-wordcount: '532'
+ht-degree: 91%
 
 ---
 
-# Erste Schritte mit dynamischen Inhalten {#gs-dynamic-content}
+# Wie lässt sich der Inhalt dynamisch gestalten? {#gs-dynamic-content}
 
 >[!CONTEXTUALHELP]
 >id="acw_targetdata_personalization_dashboard"
 >title="Personalisierung"
->abstract="Mit dem Ausdruckseditor können Sie alle Daten auswählen, anordnen, anpassen und validieren, um ein benutzerdefiniertes Erlebnis für Ihren Inhalt zu erstellen. Sie können Ihre Nachrichten für alle einzelnen Empfängerinnen und Empfänger personalisieren, indem Sie Profildaten nutzen und bedingte Inhalte erstellen, um Ihre Nachricht an jede Person anzupassen und nur die jeweils relevanten Inhalte anzuzeigen. Darüber hinaus stehen Gestaltungsbausteine zur Verfügung, mit denen Sie Ihren Sendungen vordefinierten personalisierten Inhalt hinzufügen können."
+>abstract="Mit dem Ausdruckseditor können Sie alle Daten auswählen, anordnen, anpassen und validieren, um ein benutzerdefiniertes Erlebnis für Ihren Inhalt zu erstellen. Sie können Ihre Nachrichten für jeden Empfänger personalisieren, indem Sie Profildaten nutzen und bedingte Inhalte erstellen, um Ihre Nachricht an jeden Empfänger anzupassen und nur die relevanten Inhalte anzuzeigen."
 
 Als Marketing-Fachkraft ist es entscheidend, dass Sie Kundinnen und Kunden ansprechen, die sich wirklich für Ihre Angebote interessieren, und sie durch die Bereitstellung effektiver und relevanter Inhalte einbinden. Angesichts der Vielzahl von Empfängerinnen und Empfänger, mit denen Sie zu tun haben, kann die Erstellung mehrerer Marketing-Inhalte, die verschiedene Personen ansprechen, zeitaufwändig und verschwenderisch sein. Hier kommen dynamische Inhalte ins Spiel.
 
@@ -38,10 +38,6 @@ Sie können den Inhalt Ihrer Nachrichten dynamisch gestalten, indem Sie JavaScri
 * **Erstellen Sie bedingte Inhalte**, um Ihre Sendungen an einzelne Empfängerinnen und Empfänger anzupassen, und zeigen Sie nur den Inhalt an, der für eine bestimmte Person aufgrund der Ihnen zur Verfügung stehenden Informationen relevant ist. Auf diese Weise können Sie bestimmte Textblöcke und/oder Bilder basierend auf Bedingungen anzeigen. Passen Sie beispielsweise ein E-Mail-Banner an, indem Sie die Anmeldung der jeweiligen Person für einen bestimmten Dienst berücksichtigen.
 
   ![](assets/condition-sample.png){zoomable="yes"}{width="800" align="center"}
-
-* **Verwenden Sie Gestaltungsbausteine**, um Zeit zu sparen und leicht wiederverwendbare, personalisierte Inhalte in Ihren Nachrichten zu nutzen. Campaign verfügt über eine Reihe von Gestaltungsbausteinen, die ein bestimmtes Rendering enthalten, das Sie in Ihre Sendungen einfügen können. Sie können zum Beispiel ein Logo, eine Grußbotschaft oder einen Link zur Mirrorseite einer E-Mail-Nachricht hinzufügen. Inhaltsbausteine sind über einen eigenen Eintrag im Personalisierungseditor verfügbar.
-
-  ![](assets/content-blocks.png){zoomable="yes"}{width="800" align="center"}
 
 ## Zugreifen auf den Ausdruckseditor {#access}
 
@@ -64,35 +60,3 @@ Im Folgenden finden Sie einige Beispiele für den Zugriff auf den Ausdrucksedito
 >[!NOTE]
 >
 >Zusätzlich zum Ausdruckseditor können Sie bei der Gestaltung einer E-Mail auch einen dedizierten Builder für bedingte Inhalte verwenden. [Erfahren Sie, wie Sie bedingte Inhalte in E-Mails erstellen](conditions.md)
-
-## Tauchen wir tiefer in die Materie ein {#dive-deeper}
-
-Jetzt, da Sie wissen, wie Sie Ihre Inhalte dynamisch gestalten können, ist es an der Zeit, diese Dokumentationsabschnitte zu vertiefen und mit der Funktion zu arbeiten.
-
-<table style="table-layout:fixed"><tr style="border: 0;">
-<td>
-<a href="personalize.md">
-<img alt="Personalisieren von Inhalten" src="assets/do-not-localize/dynamic-personalization.jpg">
-</a>
-<div>
-<a href="personalize.md"><strong>Hinzufügen von Personalisierung</strong></a>
-</div>
-<p>
-</td>
-<td>
-<a href="conditions.md">
-<img alt="Lead" src="assets/do-not-localize/dynamic-conditional.jpg">
-</a>
-<div><a href="conditions.md"><strong>Hinzufügen bedingter Inhalte</strong>
-</div>
-<p>
-</td>
-<td>
-<a href="content-blocks.md">
-<img alt="Gelegentlich" src="assets/do-not-localize/dynamic-content-blocks.jpg">
-</a>
-<div>
-<a href="content-blocks.md"><strong>Hinzufügen von integrierten Inhaltsbausteinen</strong></a>
-</div>
-<p></td>
-</tr></table>

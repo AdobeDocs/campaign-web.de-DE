@@ -4,8 +4,8 @@ description: Entdecken Sie die neuen Funktionen der nächsten Version der Campai
 hide: true
 hidefromtoc: true
 exl-id: a4c6ecb7-d657-46de-aa55-90c4cb45164b
-source-git-commit: f8bdb15151774b33a0bcf16e86347dae6ab417a2
-workflow-type: ht
+source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
+workflow-type: tm+mt
 source-wordcount: '401'
 ht-degree: 100%
 
@@ -30,7 +30,7 @@ Sie können jetzt Inhaltsfragmente erstellen und verwenden. Ein Inhaltsfragment 
 Es stehen zwei Arten von Fragmenten zur Verfügung:
 
 * **Ausdrucksfragmente** sind vordefinierte Ausdrücke, die über einen dedizierten Eintrag im Ausdruckseditor verfügbar sind.
-* **Visuelle Fragmente** sind vordefinierte visuelle Bausteine, die Sie in mehreren E-Mail-Sendungen oder in Inhaltsvorlagen wiederverwenden können. [Weitere Informationen](../email/fragments.md)
+* **Visuelle Fragmente** sind vordefinierte visuelle Bausteine, die Sie in mehreren E-Mail-Sendungen oder in Inhaltsvorlagen wiederverwenden können. [Weitere Informationen](../content/fragments.md)
 
   >[!AVAILABILITY]
   >
