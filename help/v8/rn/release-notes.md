@@ -2,7 +2,7 @@
 title: Versionshinweise zur Web-Benutzeroberfläche von Campaign v8
 description: Entdecken Sie die neuen Funktionen der neuesten Version der Campaign Web-Benutzeroberfläche
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
+source-git-commit: 1b7d58e33860ae21a7340594556b179f19eb8637
 workflow-type: tm+mt
 source-wordcount: '1938'
 ht-degree: 99%
@@ -52,7 +52,6 @@ Sie können nun Rich-Push-Benachrichtigungen senden. Eine Rich-Push-Benachrichti
 ### Verbesserungen {#improvements-24-7}
 
 **Ordnerverwaltung**: Sie können jetzt Berechtigungen und Einschränkungen für Ordner verwalten.
-
 
 ## Versionshinweise für Juni {#24-6-release}
 
