@@ -5,10 +5,10 @@ user-guide-description: Produktdokumentation zur Adobe Campaign Web-Benutzerober
 title: Dokumentation zu Adobe Campaign Web
 description: Dokumentation zu Campaign Web
 breadcrumb-title: Campaign Web-Benutzeroberfläche
-source-git-commit: 76c1f708991934e4ef525559359fe732b0fa486a
+source-git-commit: f48e9a6d75429d9038b4e6b0af65a15bcb6fe929
 workflow-type: tm+mt
-source-wordcount: '726'
-ht-degree: 100%
+source-wordcount: '734'
+ht-degree: 98%
 
 ---
 
@@ -69,7 +69,9 @@ ht-degree: 100%
    + Push-Benachrichtigungen {#push}
       + [Erste Schritte mit Push-Benachrichtigungen](push/gs-push.md)
       + [Erstellen eines Push-Benachrichtigungs-Versands](push/create-push.md)
-      + [Erstellen eines Rich-Push-Versands für Android](push/rich-push.md)
+      + Rich-Push {#rich-push}
+         + [Erstellen eines Rich-Push-Versands für Android](push/rich-push.md)
+         + [Erstellen eines Rich-Push-Versands für iOS](push/rich-push-ios.md)
       + [Entwerfen eines Push-Versands](push/content-push.md)
       + [Vorschau und Senden eines Push-Versands](push/send-push.md)
    + SMS {#sms}
