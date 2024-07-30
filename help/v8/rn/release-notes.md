@@ -2,10 +2,10 @@
 title: Versionshinweise zur Web-Benutzeroberfläche von Campaign v8
 description: Entdecken Sie die neuen Funktionen der neuesten Version der Campaign Web-Benutzeroberfläche
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 1b7d58e33860ae21a7340594556b179f19eb8637
+source-git-commit: 86214576e08df6596860826bb6511c1f4138c2ad
 workflow-type: tm+mt
-source-wordcount: '1938'
-ht-degree: 99%
+source-wordcount: '1937'
+ht-degree: 97%
 
 ---
 
@@ -37,9 +37,9 @@ Es stehen zwei Arten von Fragmenten zur Verfügung:
   >
   >**Visuelle Fragmente** sind eingeschränkt verfügbar (LA, Limited Availability). Diese Funktion ist Kundinnen und Kunden vorbehalten, die **von Adobe Campaign Standard zu Adobe Campaign v8** migrieren, und kann nicht in anderen Umgebungen bereitgestellt werden.
 
-### Testlisten {#24-7-2}
+### Fallen-Gruppe {#24-7-2}
 
-Eine Testliste, auch bezeichnet als  **Trap-Gruppe**, ist eine Liste von Testadressen. Sie wird verwendet, um bestimmte Adressen in Ihre Sendungen einzubeziehen und dann Profile auszuwählen, die nicht den definierten Zielgruppenkriterien entsprechen. Auf diese Weise können Empfängerinnen und Empfänger, die außerhalb der Versandzielgruppe liegen, die Nachricht ebenso wie jede andere Person innerhalb der Zielgruppe erhalten.  Sie können Testadressen beim Versand von Testsendungen oder zum Schutz Ihrer Mailing-Liste verwenden.
+Eine **Trap group** ist eine Liste von Testadressen. Sie wird verwendet, um bestimmte Adressen in Ihre Sendungen einzubeziehen und dann Profile auszuwählen, die nicht den definierten Zielgruppenkriterien entsprechen. Auf diese Weise können Empfängerinnen und Empfänger, die außerhalb der Versandzielgruppe liegen, die Nachricht ebenso wie jede andere Person innerhalb der Zielgruppe erhalten.  Sie können Testadressen beim Testversand verwenden oder Ihre Mailingliste schützen. [Weitere Informationen](../audience/trap-group.md)
 
 ### Vorlagen für Rich-Push-Benachrichtigungen {#24-7-3}
 
@@ -47,7 +47,7 @@ Sie können nun Rich-Push-Benachrichtigungen senden. Eine Rich-Push-Benachrichti
 
 >[!AVAILABILITY]
 >
->Diese Funktion erfordert eine Aktualisierung auf Campaign v8.6.3 <!--or v8.7.2-->. Weitere Informationen finden Sie in den Versionshinweisen zur Campaign v8-Client-Konsole [](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/releases/release-notes) .
+>Diese Funktion erfordert eine Aktualisierung auf Campaign v8.6.3 <!--or v8.7.2-->. Weitere Informationen finden Sie in den Versionshinweisen zur Campaign v8-Client-Konsole [](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/releases/release-notes){target="_blank"} .
 
 ### Verbesserungen {#improvements-24-7}
 

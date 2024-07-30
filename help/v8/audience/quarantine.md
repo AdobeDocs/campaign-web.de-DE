@@ -3,10 +3,10 @@ audience: end-user
 title: Informationen zu Quarantäne
 description: Über die Verwaltung der Quarantäne-Adressen
 exl-id: 4fddabbe-39ab-418b-a87c-f86fe96fa28b
-source-git-commit: 42e5f3b0ab5d31389b7a9d0544d3d265ec70fffc
+source-git-commit: 39dcf11797339ee9800da6c5a32b1a1c3470529a
 workflow-type: tm+mt
 source-wordcount: '374'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -33,7 +33,7 @@ Quarantäne hilft Ihnen auch, die Kosten des SMS-Versands zu senken, indem fehle
 
 ## Warum eine Adresse unter Quarantäne gestellt wird
 
-Eine Adresse kann aus vielen Gründen unter Quarantäne gestellt werden:
+Viele Gründe können eine Adresse unter Quarantäne stellen:
 
 - SMS: Fehlerhafte Telefonnummern
 - SMS: Das Profil antwortet auf eine SMS-Nachricht mit einem Schlüsselwort wie „STOP“.

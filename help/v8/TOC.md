@@ -5,10 +5,10 @@ user-guide-description: Produktdokumentation zur Adobe Campaign Web-Benutzerober
 title: Dokumentation zu Adobe Campaign Web
 description: Dokumentation zu Campaign Web
 breadcrumb-title: Campaign Web-Benutzeroberfläche
-source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
+source-git-commit: 39dcf11797339ee9800da6c5a32b1a1c3470529a
 workflow-type: tm+mt
-source-wordcount: '741'
-ht-degree: 94%
+source-wordcount: '745'
+ht-degree: 93%
 
 ---
 
@@ -134,6 +134,7 @@ ht-degree: 94%
       + [Erstellen einer einmaligen Zielgruppe](audience/one-time-audience.md)
       + [Laden einer E-Mail-Zielgruppe aus einer Datei](audience/file-audience.md)
       + [Festlegen einer Kontrollgruppe](audience/control-group.md)
+      + [Hinzufügen einer Fallen-Gruppe](audience/trap-group.md)
    + Arbeiten mit Abonnementdiensten {#work-with-services}
       + [Erstellen und Verwalten von Abonnements](audience/manage-services.md)
       + [Verwalten von Abonnenten](audience/manage-subscribers.md)

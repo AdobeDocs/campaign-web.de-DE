@@ -3,17 +3,17 @@ audience: end-user
 title: Pläne und Programme
 description: Erfahren Sie, wie Sie Pläne und Programme in Adobe Campaign erstellen und konfigurieren können.
 exl-id: 0307bcb7-7ab5-4226-bad1-cb7cf10e97fc
-source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
+source-git-commit: 39dcf11797339ee9800da6c5a32b1a1c3470529a
 workflow-type: tm+mt
 source-wordcount: '415'
-ht-degree: 100%
+ht-degree: 88%
 
 ---
 
 # Pläne und Programme {#plan-and-programs}
 
 >[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn2"
+>id="acw_homepage_welcome_rn3"
 >title="Pläne und Programme"
 >abstract="Sie können jetzt Ihre Ordnerhierarchie für Marketing-Pläne und -Programme in der Campaign Web-Benutzeroberfläche konfigurieren."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=de" text="Siehe Versionshinweise"
@@ -70,7 +70,7 @@ So verwalten Sie die **[!UICONTROL benutzerdefinierten Optionen]**:
 
 1. Navigieren Sie zu den **[!UICONTROL Schemata]**
 1. Wählen Sie in den Filtern die **[!UICONTROL bearbeitbaren]** Schemata aus.
-1. Klicken Sie auf das Symbol **[!UICONTROL Benutzerdefinierte Details bearbeiten]**.
+1. Klicken Sie auf das Symbol **[!UICONTROL Benutzerdefinierte Details bearbeiten]**
 
 ![](assets/program_edit.png){zoomable="yes"}
 
@@ -82,9 +82,9 @@ Sie können sie konfigurieren:
 
 Sie haben zwei Möglichkeiten, eine Kampagne mit einem Programm zu verknüpfen:
 
-### Option 1: Sie verfügen bereits über ein Programm und möchten eine damit verknüpfte Kampagne erstellen.
+### 1. Weg: Sie haben bereits ein Programm und möchten eine damit verknüpfte Kampagne erstellen
 
-Um eine neue Kampagne mit Ihrem Programm zu verknüpfen, erstellen Sie Ihre Kampagne direkt im Programm:
+Um eine neue Kampagne mit Ihrem Programm zu verknüpfen, erstellen Sie direkt eine Kampagne im Programm:
 
 ![](assets/program_campaign_create.png){zoomable="yes"}
 
@@ -92,7 +92,7 @@ Die **[!UICONTROL Ordnereinstellungen]** werden automatisch mit dem Pfad zu Ihre
 
 ![](assets/program_campaign_folder.png){zoomable="yes"}
 
-### Option 2: Sie verfügen bereits über eine bestehende Kampagne und möchten sie einem vorhandenen Programm verknüpfen.
+### 2. Weg: Sie haben bereits eine bestehende Kampagne, die mit einem vorhandenen Programm verknüpft werden soll
 
 Navigieren Sie zur Schaltfläche **[!UICONTROL Einstellungen]** der Kampagne, die Sie mit Ihrem Programm verknüpfen möchten:
 
