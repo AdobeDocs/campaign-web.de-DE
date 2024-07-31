@@ -2,9 +2,9 @@
 title: Versionshinweise zur Web-Benutzeroberfläche von Campaign v8
 description: Entdecken Sie die neuen Funktionen der neuesten Version der Campaign Web-Benutzeroberfläche
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 86214576e08df6596860826bb6511c1f4138c2ad
+source-git-commit: cd2649243c758ad71a6c0e658aa08f30da1364cf
 workflow-type: tm+mt
-source-wordcount: '1937'
+source-wordcount: '1939'
 ht-degree: 97%
 
 ---
@@ -44,6 +44,8 @@ Eine **Trap group** ist eine Liste von Testadressen. Sie wird verwendet, um best
 ### Vorlagen für Rich-Push-Benachrichtigungen {#24-7-3}
 
 Sie können nun Rich-Push-Benachrichtigungen senden. Eine Rich-Push-Benachrichtigung ist eine erweiterte Form einer Mobilgeräte-Benachrichtigung, die über einfache Textnachrichten hinausgeht und Multimedia-Elemente wie Bilder, interaktive Schaltflächen oder andere Rich-Media-Inhalte enthält. Mit dieser Version sind jetzt eine Reihe von Vorlagen für Rich-Push-Benachrichtigungen für Ihre iOS- und Android-Apps verfügbar.
+
+[Weitere Informationen](../push/rich-push.md)
 
 >[!AVAILABILITY]
 >
