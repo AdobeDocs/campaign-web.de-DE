@@ -3,10 +3,10 @@ audience: end-user
 title: Erkunden der Benutzeroberfläche
 description: Adobe Campaign Web-Benutzeroberfläche
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
+source-git-commit: b19976439b3cd4c5d89fed02d71830bc2d921562
 workflow-type: tm+mt
-source-wordcount: '1689'
-ht-degree: 98%
+source-wordcount: '1713'
+ht-degree: 97%
 
 ---
 
@@ -332,6 +332,21 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_transacmessages_properties"
 >title="Transaktionsnachrichten-Eigenschaften"
 >abstract="Transaktionsnachrichten-Eigenschaften"
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_email_properties"
+>title="E-Mail-Eigenschaften für Transaktionsnachrichten"
+>abstract="E-Mail-Eigenschaften für Transaktionsnachrichten"
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_sms_properties"
+>title="SMS-Eigenschaften für Transaktionsnachrichten"
+>abstract="SMS-Eigenschaften für Transaktionsnachrichten"
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_push_properties"
+>title="Push-Eigenschaften für Transaktionsnachrichten"
+>abstract="Push-Eigenschaften für Transaktionsnachrichten"
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_mobileapp"
