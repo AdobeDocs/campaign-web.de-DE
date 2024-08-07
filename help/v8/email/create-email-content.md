@@ -6,7 +6,7 @@ exl-id: 23e71da3-434d-4619-a48a-334281592d85
 source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
 source-wordcount: '620'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -45,8 +45,8 @@ ht-degree: 95%
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_fragment"
->title="Inhaltsfragmentspalten definieren"
->abstract="Mit Email Designer können Sie das Layout Ihres Inhaltsfragments einfach definieren, indem Sie die Spaltenstruktur definieren."
+>title="Definieren der Inhaltsfragmentspalten"
+>abstract="Mit E-Mail-Designer können Sie das Layout Ihres Inhaltsfragments einfach definieren, indem Sie die Spaltenstruktur festlegen."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_template"

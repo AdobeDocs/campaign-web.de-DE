@@ -6,7 +6,7 @@ exl-id: 54288448-d568-4be4-ab6c-d0f8fa7bc2cb
 source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
 source-wordcount: '256'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 85%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_content"
 >title="SMS-Inhalte"
->abstract="Erstellen Sie den Inhalt Ihrer SMS-Sendungen und personalisieren Sie ihn mit Personalisierungsfeldern, Ausdrucksfragmenten und dynamischen Inhalten. Um mit der Erstellung Ihrer Nachricht zu beginnen, klicken Sie auf die Schaltfläche **Inhalt bearbeiten**."
+>abstract="Erstellen Sie die Inhalte Ihrer SMS-Sendungen und personalisieren Sie sie mit Personalisierungsfeldern, Ausdrucksfragmenten und dynamischen Inhalten. Um mit der Erstellung Ihrer Nachricht zu beginnen, klicken Sie auf die Schaltfläche **Inhalt bearbeiten**."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_msg"
@@ -26,9 +26,9 @@ Gehen Sie wie folgt vor, um den Inhalt eines SMS-Versands zu erstellen:
 
 1. Klicken Sie auf Ihrer Versandseite auf die Schaltfläche **[!UICONTROL Inhalt bearbeiten]**, um den SMS-Inhalt zu entwerfen.
 
-1. Auf der Seite **[!UICONTROL Inhalt bearbeiten]** können Sie den Absendernamen anpassen, indem Sie auf das Feld **[!UICONTROL Absender]** zugreifen und den bevorzugten Namen eingeben.
+1. Auf der Seite **[!UICONTROL Inhalt bearbeiten]** können Sie den Absendernamen anpassen, indem Sie ihn im Feld **[!UICONTROL Absender]** eingeben.
 
-   Durch Klicken auf **[!UICONTROL Personalisierungsdialogfeld öffnen]** können Sie außerdem Personalisierungsfelder, Ausdrucksfragmente und dynamischen Inhalt in Ihre Nachricht einfügen.
+   Durch Klicken auf **[!UICONTROL Personalisierungsdialog öffnen]** können Sie außerdem Personalisierungsfelder, Ausdrucksfragmente und dynamische Inhalte in Ihre Nachricht einfügen.
 
    ![](assets/sms_content_1.png){zoomable="yes"}
 

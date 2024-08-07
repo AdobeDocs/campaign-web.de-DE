@@ -7,7 +7,7 @@ exl-id: 6d6f38f9-9d3e-47cb-beb8-177b5a5d8306
 source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
 source-wordcount: '507'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
@@ -26,11 +26,11 @@ Sie können ein visuelles Fragment in einem [E-Mail-Versand](../email/get-starte
 >[!CONTEXTUALHELP]
 >id="acw_fragments_details"
 >title="Fragmentoptionen"
->abstract="Dieser Bereich enthält Optionen für das ausgewählte Fragment. Damit können Sie die Geräte auswählen, auf denen das Fragment angezeigt werden soll, und den Inhalt dieses Fragments öffnen. Verwenden Sie die Registerkarte **[!UICONTROL Stile]** , um Ihr Fragment weiter anzupassen. Sie können die Vererbung auch mit dem ursprünglichen visuellen Fragment aufheben."
+>abstract="Dieser Bereich enthält Optionen für das ausgewählte Fragment. Damit können Sie die Geräte auswählen, auf denen das Fragment angezeigt werden soll, und den Inhalt dieses Fragments öffnen. Verwenden Sie die Registerkarte **[!UICONTROL Stile]** , um Ihr Fragment weiter anzupassen. Sie können die Vererbung auch mit dem ursprünglichen visuellen Fragment unterbrechen."
 
 <!-- pas vu dans l'UI-->
 
-Gehen Sie wie folgt vor, um ein visuelles Fragment in einen E-Mail-Inhalt einzufügen:
+Gehen Sie wie folgt vor, um ein visuelles Fragment in den Inhalt einer E-Mail einzufügen:
 
 1. Öffnen Sie eine E-Mail oder eine Inhaltsvorlage mit [E-Mail-Designer](../email/get-started-email-designer.md).
 
@@ -46,11 +46,11 @@ Gehen Sie wie folgt vor, um ein visuelles Fragment in einen E-Mail-Inhalt einzuf
 
    >[!NOTE]
    >
-   >Fragmente werden nach Erstellungsdatum sortiert: Kürzlich hinzugefügte Fragmente werden zuerst in der Liste angezeigt.
+   >Fragmente werden nach ihrem Erstellungsdatum sortiert: Zuletzt hinzugefügte Fragmente werden in der Liste zuerst aufgeführt.
 
-   Wenn einige visuelle Fragmente während der Bearbeitung des Inhalts geändert oder hinzugefügt wurden, klicken Sie auf das Symbol **Aktualisieren** , um die Liste mit den neuesten Änderungen zu aktualisieren.
+   Wenn einige visuelle Fragmente geändert oder hinzugefügt wurden, während Sie die Inhalte bearbeiten, klicken Sie auf das Symbol **Aktualisieren**, um die Liste mit den neuesten Änderungen zu aktualisieren.
 
-1. Ziehen Sie ein beliebiges visuelles Fragment aus der Liste in den Bereich, in den Sie es einfügen möchten. Wie jede andere Komponente können Sie das Fragment innerhalb Ihres Inhalts verschieben.
+1. Ziehen Sie ein beliebiges visuelles Fragment aus der Liste in den Bereich, in den es eingefügt werden soll. Wie jede andere Komponente können Sie das Fragment innerhalb Ihres Inhalts verschieben.
 
 1. Wählen Sie das Fragment aus, um die zugehörigen Optionen im rechten Bereich anzuzeigen.
 
@@ -67,7 +67,7 @@ Gehen Sie wie folgt vor, um ein visuelles Fragment in einen E-Mail-Inhalt einzuf
 
    Sie können das Fragment auch aus dem Inhalt löschen oder duplizieren. Diese Aktionen können direkt über das Kontextmenü ausgeführt werden, das über dem Fragment angezeigt wird.
 
-1. Fügen Sie beliebig viele visuelle Fragmente hinzu und **[!UICONTROL Speichern]** Sie Ihre Änderungen.
+1. Fügen Sie beliebig viele visuelle Fragmente hinzu und **[!UICONTROL speichern]** Sie Ihre Änderungen.
 
 ## Unterbrechen der Vererbung {#break-inheritance}
 

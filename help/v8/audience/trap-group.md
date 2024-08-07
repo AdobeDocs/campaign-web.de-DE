@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie in der Campaign Web-Benutzeroberfläche eine 
 source-git-commit: 39dcf11797339ee9800da6c5a32b1a1c3470529a
 workflow-type: tm+mt
 source-wordcount: '434'
-ht-degree: 29%
+ht-degree: 100%
 
 ---
 
@@ -13,38 +13,38 @@ ht-degree: 29%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn2"
->title="Fallen-Gruppe"
->abstract="Sie können eine Fallen-Gruppe verwenden, um bestimmte Adressen in Ihre Sendungen einzubeziehen, um den Verteilungsprozess zu überwachen und zu überprüfen, indem Sie Profile auswählen, die nicht den definierten Zielgruppenkriterien entsprechen."
+>title="Trap-Gruppe"
+>abstract="Sie können eine Trap-Gruppe verwenden, um bestimmte Adressen in Ihre Sendungen einzubeziehen und den Verteilungsprozess zu überwachen und zu überprüfen, indem Sie Profile auswählen, die nicht den definierten Zielgruppenkriterien entsprechen."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=de" text="Siehe Versionshinweise"
 
-Eine **[!UICONTROL Fallen-Gruppe]** (auch **[!UICONTROL Testliste]** genannt) wird verwendet, um bestimmte Adressen in Ihre Sendungen einzubeziehen, um den Verteilungsprozess zu überwachen und zu überprüfen, indem Profile ausgewählt werden, die nicht den definierten Zielkriterien entsprechen. Auf diese Weise können Empfänger, die außerhalb des Versandperimeters liegen, die Nachricht so wie jeder andere Empfänger innerhalb der Zielgruppe erhalten.
+Eine **[!UICONTROL Trap-Gruppe]** (auch **[!UICONTROL Testadressenliste]** genannt) wird verwendet, um bestimmte Adressen in Ihre Sendungen einzubeziehen und den Verteilungsprozess zu überwachen und zu überprüfen, indem Sie Profile auswählen, die nicht den definierten Zielgruppenkriterien entsprechen. Auf diese Weise können Empfängerinnen und Empfänger, die außerhalb des Versandbereichs liegen, die Sendungen wie jeder andere Zielgruppenempfangende erhalten.
 
-Eine **[!UICONTROL Fallen-Gruppe]** ist eine Gruppe von **[!UICONTROL Testadressen]** mit dem Namen **[!UICONTROL Testprofil]** in der Campaign-Webbenutzeroberfläche.
+Eine **[!UICONTROL Trap-Gruppe]** ist eine Gruppe von **[!UICONTROL Testadressen]** mit dem Titel **[!UICONTROL Testprofile]** in der Benutzeroberfläche von Campaign.
 
-## Warum eine Fallen-Gruppe verwenden? {#why-trap-group}
+## Warum sollte eine Trap-Gruppe verwendet werden? {#why-trap-group}
 
-Sie können **[!UICONTROL Fallen-Gruppe]** verwenden:
+Sie können eine **[!UICONTROL Trap-Gruppe]** für Folgendes verwenden:
 
-1. **Als Testversand**: Jedes Mitglied der **[!UICONTROL Trap-Gruppe]** erhält den Versand so, als wäre es Teil der Zielgruppe.
+1. **Testversand**: Jedes Mitglied der **[!UICONTROL Trap-Gruppe]** erhält den Versand so, als wäre es Teil der Zielgruppe.
 
-1. **Schutz Ihrer Mailingliste**: Durch den Empfang der Informationen, die die Zielgruppe erhalten wird, wird jedes **[!UICONTROL Testprofil]** der **[!UICONTROL Trap group]** bemerkt, wenn die Mailingliste von einem Drittanbieter verwendet wird.
+1. **Zum Schutz Ihrer Mailingliste**: Da jedes **[!UICONTROL Testprofil]** der **[!UICONTROL Trap-Gruppe]** das Gleiche erhält wie die Zielgruppe, fällt es auf, wenn die Mailing-Liste von Dritten verwendet wird.
 
 >[!NOTE]
 >
->Zusätzlich zum [ Senden von Testsendungen während der Erstellung des Versands](../email/create-email.md#preview-test) und von der [Kontrollgruppe](control-group.md) ist das Hinzufügen einer Fallen-Gruppe eine gute Möglichkeit, Ihre Zielgruppe zu testen.
+>Zusätzlich zum [Versenden von Testsendungen während der Erstellung des Versands](../email/create-email.md#preview-test) und von der [Kontrollgruppe](control-group.md) aus ist das Hinzufügen einer Trap-Gruppe eine gute Möglichkeit, Ihre Zielgruppe zu testen.
 
-## Fallen-Gruppen {#about-trap-group}
+## Informationen zu Trap-Gruppen {#about-trap-group}
 
 Testprofile werden aus Berichten zu folgenden Versandstatistiken automatisch ausgeschlossen: **Klicks**, **Öffnungen**, **Abmeldungen**. Die Berichte beziehen sich ausschließlich auf die tatsächliche Zielgruppe.
 
 In E-Mail-Sendungen ist für die **[!UICONTROL Trap-Gruppe]** nur die E-Mail-Adresse erforderlich. Die Personalisierung anderer Felder wird zufällig von Campaign ausgefüllt.
 
-## Hinzufügen einer Fallen-Gruppe in einem Versand {#trap-group-in-delivery}
+## Hinzufügen einer Trap-Gruppe zu einem Versand {#trap-group-in-delivery}
 
 Navigieren Sie zum Einrichten einer **[!UICONTROL Trap-Gruppe]** zu den **[!UICONTROL Zielgruppeneinstellungen]** Ihres Versands. Sie haben zwei Optionen:
 
 * [Testprofile auswählen](#select-test-profile)
-* [Bedingung erstellen](#create-condition)
+* [Erstellen einer Bedingung](#create-condition)
 
 ![](assets/trap-group.png){zoomable="yes"}
 
@@ -54,29 +54,29 @@ Wenn Sie **Testprofile auswählen** auswählen, können Sie die Schaltfläche **
 
 ![](assets/trap-no-test-profile.png){zoomable="yes"}
 
-Wenn Sie auf die Schaltfläche klicken, haben Sie Zugriff auf die Testprofile, die Sie Ihrer **[!UICONTROL Fallen-Gruppe]** hinzufügen können. Wählen Sie die aus, die Sie verwenden möchten.
+Wenn Sie auf die Schaltfläche klicken, erhalten Sie Zugriff auf die Testprofile, die Sie zu Ihrer **[!UICONTROL Trap-Gruppe]** hinzufügen können. Wählen Sie diejenigen aus, die Sie verwenden möchten.
 
-Sie können auch neue Testprofile erstellen. [Weitere Informationen](#create-seed)
+Sie können außerdem neue Testprofile erstellen. [Weitere Informationen](#create-seed)
 
 ![](assets/trap-select-test-profiles.png){zoomable="yes"}
 
-Wenn Sie Ihre Testprofile bestätigen, vergewissern Sie sich, dass unter **[!UICONTROL Trap group]** die richtige Zahl vorhanden ist.
+Wenn Sie Ihre Testprofile bestätigen, überprüfen Sie, ob die richtige Nummer in der **[!UICONTROL Trap-Gruppe]** vorliegt.
 
 ![](assets/trap-check.png){zoomable="yes"}
 
-### Bedingung erstellen {#create-condition}
+### Erstellen einer Bedingung {#create-condition}
 
 Mit der Option **[!UICONTROL Bedingung erstellen]** können Sie eine Abfrage erstellen, um die Testprofile zu definieren, die Sie verwenden möchten:
 
 ![](assets/trap-create-condition.png){zoomable="yes"}
 
-Ihre Abfrage wird unter **[!UICONTROL Trap group]** angezeigt.
+Ihre Abfrage wird unter **[!UICONTROL Trap-Gruppe]** angezeigt.
 
 ![](assets/trap-custom.png){zoomable="yes"}
 
-## Neues Testprofil erstellen {#create-seed}
+## Erstellen eines neuen Testprofils {#create-seed}
 
-Sie können ein neues **[!UICONTROL Testprofil]** aus dem Ordner **[!UICONTROL Explorer]** > **[!UICONTROL Ressourcen]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Testempfänger]** erstellen.
+Sie können ein neues **[!UICONTROL Testprofil]** unter **[!UICONTROL Explorer]** > **[!UICONTROL Ressourcen]** > **[!UICONTROL Kampagnenverwaltung]** > **[!UICONTROL Testempfänger]** erstellen.
 
 ![](assets/trap-create.png){zoomable="yes"}
 
