@@ -6,7 +6,7 @@ exl-id: c07bb025-51b7-428e-ba00-cd552f0db9d4
 source-git-commit: b34b8e95e9fce265de96335f3d7d22aab84a0350
 workflow-type: tm+mt
 source-wordcount: '392'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Zur Definition der Zielgruppenpopulation haben Sie folgende Möglichkeiten:
 
 * Wählen Sie eine vorhandene Zielgruppe aus, die als Liste in der Client-Konsole erstellt wurde.
 * Wählen Sie eine Adobe Experience Platform-Zielgruppe aus.
-* Erstellen Sie mit dem Abfragemodell eine neue Zielgruppe, indem Sie Filterkriterien definieren und kombinieren.
+* Erstellen Sie mit dem Abfrage-Modeler eine neue Zielgruppe, indem Sie Filterkriterien definieren und kombinieren.
 
 >[!NOTE]
 >
