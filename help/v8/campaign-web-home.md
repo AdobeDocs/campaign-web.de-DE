@@ -4,9 +4,9 @@ description: Hilfe-Center zu Campaign Web
 title: Produktdokumentation zu Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 source-git-commit: 728bc032614067bc420b80a4cac634a08f594ff8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '448'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -53,7 +53,7 @@ Hier erhalten Sie einen Einblick in die neuesten Verbesserungen in Adobe Campaig
 
 >[!TAB Die Juli-Version ist live!]
 
-Entdecken Sie neue Funktionen und Verbesserungen der Adobe Campaign-Webbenutzeroberfläche vom 24. Juli.
+Entdecken Sie die neuen Funktionen und Verbesserungen der Web-Benutzeroberfläche von Adobe Campaign in der Version vom Juli 2024.
 
 [![Bild](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
 

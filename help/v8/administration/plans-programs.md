@@ -4,9 +4,9 @@ title: Pläne und Programme
 description: Erfahren Sie, wie Sie Pläne und Programme in Adobe Campaign erstellen und konfigurieren können.
 exl-id: 0307bcb7-7ab5-4226-bad1-cb7cf10e97fc
 source-git-commit: 39dcf11797339ee9800da6c5a32b1a1c3470529a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '415'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -82,17 +82,17 @@ Sie können sie konfigurieren:
 
 Sie haben zwei Möglichkeiten, eine Kampagne mit einem Programm zu verknüpfen:
 
-### 1. Weg: Sie haben bereits ein Programm und möchten eine damit verknüpfte Kampagne erstellen
+### Möglichkeit 1: Sie verfügen bereits über ein Programm und möchten eine damit verknüpfte Kampagne erstellen.
 
-Um eine neue Kampagne mit Ihrem Programm zu verknüpfen, erstellen Sie direkt eine Kampagne im Programm:
+Um eine neue Kampagne mit Ihrem Programm zu verknüpfen, erstellen Sie Ihre Kampagne direkt im Programm:
 
 ![](assets/program_campaign_create.png){zoomable="yes"}
 
-Die **[!UICONTROL Ordnereinstellungen]** werden automatisch mit dem Pfad zu Ihrem Programm versehen.
+Die **[!UICONTROL Ordnereinstellungen]** werden automatisch mit dem Pfad zu Ihrem Programm gespeichert.
 
 ![](assets/program_campaign_folder.png){zoomable="yes"}
 
-### 2. Weg: Sie haben bereits eine bestehende Kampagne, die mit einem vorhandenen Programm verknüpft werden soll
+### Möglichkeit 2: Sie verfügen bereits über eine bestehende Kampagne und möchten sie mit einem vorhandenen Programm verknüpfen.
 
 Navigieren Sie zur Schaltfläche **[!UICONTROL Einstellungen]** der Kampagne, die Sie mit Ihrem Programm verknüpfen möchten:
 

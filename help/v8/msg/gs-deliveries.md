@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 3afff35c-c15f-46f8-b791-9bad5e38ea44
 source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1203'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -89,9 +89,9 @@ Sie können den Nachrichteninhalt wie folgt personalisieren:
 
   Personalisierungsfelder werden für die oberste Ebene der Nachrichtenpersonalisierung verwendet. Sie können jedes in der Datenbank verfügbare Feld aus dem Personalisierungseditor auswählen. Für einen Versand können Sie jedes Feld auswählen, das sich auf die Empfängerin oder den Empfänger, die Nachricht oder den Versand bezieht. Diese Personalisierungsattribute können in die Betreffzeile oder in den Text Ihrer Nachrichten eingefügt werden. [Weitere Informationen](../personalization/personalize.md)
 
-* Vordefinierte **Ausdrucksfragmente einfügen**
+* Einfügen von vordefinierten **Ausdrucksfragmenten**
 
-  Campaign enthält eine Reihe von Ausdrucksfragmenten, die ein bestimmtes Rendering enthalten, das Sie in Ihre Sendungen einfügen können. Sie können zum Beispiel ein Logo, eine Grußbotschaft oder einen Link zur Mirrorseite der Nachricht hinzufügen. Ausdrucksfragmente sind in einem dedizierten Eintrag im Personalisierungs-Editor verfügbar. Darüber hinaus können Sie Ihre eigenen Ausdrucksfragmente entsprechend Ihren Anforderungen erstellen. [Erfahren Sie, wie Sie Ausdrucksfragmente verwenden](../content/use-expression-fragments.md)
+  Campaign verfügt über eine Reihe von Ausdrucksfragmenten, die ein bestimmtes Rendering enthalten, das Sie in Ihre Sendungen einfügen können. Sie können zum Beispiel ein Logo, eine Grußbotschaft oder einen Link zur Mirrorseite der Nachricht hinzufügen. Ausdrucksfragmente sind über einen eigenen Eintrag im Personalisierungseditor verfügbar. Sie können auch eigene Ausdrucksfragmente erstellen, die Ihren Anforderungen entsprechen. [Erfahren Sie, wie Sie Ausdrucksfragmente verwenden](../content/use-expression-fragments.md)
 
 * Erstellen **bedingter Inhalte**
 

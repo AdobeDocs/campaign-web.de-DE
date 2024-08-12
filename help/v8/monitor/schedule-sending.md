@@ -4,9 +4,9 @@ title: Planen des Sendevorgangs eines Versands
 description: Erfahren Sie, wie Sie einen Versand planen
 exl-id: 0738a148-d550-41c2-a8c2-6054684ba789
 source-git-commit: 39dcf11797339ee9800da6c5a32b1a1c3470529a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '514'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ Sie können den Sendevorgang eines Versands planen. Die Schritte dazu hängen da
 ## Eigenständiger Versand
 
 Bei eigenständigen Sendungen können Sie Datum und Uhrzeit direkt im Versand planen.
-Nachfolgend finden Sie Beispiele für jeden Versandtyp: E-Mail, SMS, Push-Benachrichtigung.
+Nachfolgend finden Sie Beispiele für jeden Versandtyp: E-Mail, SMS und Push-Benachrichtigung.
 
 ### E-Mail {#schedule-email-standalone}
 
@@ -59,7 +59,7 @@ Um einen eigenständigen Push-Versand für ein bestimmtes Datum und eine bestimm
 
 ![](assets/schedule-push-standalone.png){zoomable="yes"}
 
-Sie können auch prüfen, ob der Zeitplan berücksichtigt wird:
+Sie können auch überprüfen, ob der Zeitplan berücksichtigt wird:
 
 ![](assets/schedule-push-standalone-prepare.png){zoomable="yes"}
 

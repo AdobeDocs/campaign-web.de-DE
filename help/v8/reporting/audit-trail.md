@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie Ihre Instanz mit dem Audit-Protokoll von Camp
 feature: Audit Trail, Monitoring, Workflows
 exl-id: f4b4a33f-8250-4f4e-b2dc-129c56f9ea0f
 source-git-commit: 7db11ee2578502a5b8f86660c7adecc07483a169
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '615'
 ht-degree: 100%
 
@@ -98,6 +98,6 @@ So greifen auf das **[!UICONTROL Audit-Protokoll]** Ihrer Instanz zu:
    * **[!UICONTROL Aktion]**: Letzte Aktion, die für diese Entität ausgeführt wurde, entweder „Erstellt“, „Geändert“ oder „Gelöscht“.
    * **[!UICONTROL Änderungsdatum]**: Datum der letzten Aktion, die an dieser Entität durchgeführt wurde.
 
-   Der Code-Block liefert Ihnen weitere Informationen darüber, was in Ihrer Entität genau geändert wurde.
+   Der Codeblock gibt Ihnen weitere Informationen darüber, was genau in Ihrer Entität geändert wurde.
 
    ![](assets/audit-trail-2.png)

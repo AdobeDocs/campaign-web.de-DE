@@ -4,13 +4,13 @@ title: Erstellen eines Rich-Push-Benachrichtigungs-Versands
 description: Erfahren Sie, wie Sie mit Adobe Campaign Web einen Rich-Push-Benachrichtigungs-Versand für Android erstellen.
 exl-id: a87cb933-b564-4fa4-b173-6a94d7e27da5
 source-git-commit: 86214576e08df6596860826bb6511c1f4138c2ad
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3372'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
-# Erstellen eines Rich-Push-Versands für Android {#rich-push}
+# Entwerfen eines Rich-Push-Versands für Android {#rich-push}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_remind_later"
@@ -19,9 +19,9 @@ ht-degree: 86%
 
 >[!IMPORTANT]
 >
->* Diese Funktion erfordert eine Aktualisierung auf Campaign v8.6.3 <!--or v8.7.2-->. Weitere Informationen finden Sie in den Versionshinweisen zur Campaign v8-Client-Konsole [](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/releases/release-notes){target="_blank"} .
+>* Diese Funktion erfordert eine Aktualisierung auf Campaign v8.6.3 <!--or v8.7.2-->. Weitere Informationen finden Sie in den [Versionshinweisen](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/releases/release-notes){target="_blank"} zur Campaign v8 Client-Konsole.
 >
->* Bevor Sie eine Rich-Push-Benachrichtigung entwerfen, müssen Sie zunächst Ihren V2-Connector konfigurieren. Eine detaillierte Anleitung finden Sie auf [dieser Seite](https://experienceleague.adobe.com/de/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android#configuring-external-account-android){target="_blank"} .
+>* Bevor Sie eine Rich-Push-Benachrichtigung entwerfen, müssen Sie zunächst Ihren V2-Connector konfigurieren. Eine detaillierte Vorgehensweise dazu finden Sie auf [dieser Seite](https://experienceleague.adobe.com/de/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android#configuring-external-account-android){target="_blank"}.
 
 
 Bei Firebase Cloud Messaging stehen Ihnen zwei Nachrichtentypen zur Auswahl:
@@ -36,23 +36,23 @@ Bei Firebase Cloud Messaging stehen Ihnen zwei Nachrichtentypen zur Auswahl:
 
 Nach der Erstellung Ihres Push-Versands können Sie dessen Inhalt mit einer der folgenden Vorlagen definieren:
 
-* Mit **Standard** können Sie Benachrichtigungen mit einem einfachen Symbol und einem zugehörigen Bild senden.
+* **Standard** ermöglicht es Ihnen, Benachrichtigungen mit einem einfachen Symbol und einem dazugehörigen Bild zu versenden.
 
-* **Standard** kann Text, Bilder und Schaltflächen in Ihre Benachrichtigungen aufnehmen.
+* **Einfach** ermöglicht es Ihnen, Text, Bilder und Schaltflächen in Ihre Benachrichtigungen einzufügen.
 
-* Mit **Karussell** können Sie Benachrichtigungen mit Text und mehreren Bildern senden, durch die Benutzer wischen können.
+* **Karussell** ermöglicht es Ihnen, Benachrichtigungen mit Text und mehreren Bildern zu senden, zwischen denen die Benutzenden hin und her wischen können.
 
-* Mit den Schaltflächen **Symbol** können Sie Benachrichtigungen mit einem Symbol und einem entsprechenden Bild senden.
+* **Symbolschaltflächen** ermöglichen es Ihnen, Benachrichtigungen mit einem einfachen Symbol und einem zugehörigen Bild zu versenden.
 
 * **Eingabefeld** erfasst Benutzereingaben und Feedback direkt über die Benachrichtigung.
 
 * **Produktkatalog** zeigt eine Vielzahl von Produktbildern an.
 
-* Mit der **Produktbewertung** können Benutzer Feedback geben und Produkte bewerten.
+* **Produktbewertung** ermöglicht Benutzenden die Rückmeldung von Feedback und Bewertung von Produkten.
 
-* **Timer** enthält einen Live-Countdown-Timer in Ihren Benachrichtigungen.
+* **Timer** fügt einen Live-Countdown-Timer in Ihre Benachrichtigungen ein.
 
-* **Zero Bezel** verwendet die gesamte Hintergrundfläche für ein Bild, wobei Text nahtlos überlagert wird.
+* **Rahmenlos** verwendet die gesamte Hintergrundfläche für ein Bild mit nahtlos überlagertem Text.
 
 Navigieren Sie durch die folgenden Registerkarten, um mehr über die Personalisierung dieser Vorlagen zu erfahren.
 
@@ -78,7 +78,7 @@ Navigieren Sie durch die folgenden Registerkarten, um mehr über die Personalisi
 
 1. Konfigurieren Sie die **[!UICONTROL erweiterten Einstellungen]** Ihrer Push-Benachrichtigung. [Weitere Informationen](#push-advanced)
 
-Nachdem Sie den Nachrichteninhalt definiert haben, können Sie Testabonnentinnen und -abonnenten einsetzen, um die Nachricht in einer Vorschau anzuzeigen und zu testen.
+Sobald Sie den Inhalt Ihrer Nachricht definiert haben, können Sie Testabonnentinnen und -abonnenten verwenden, um die Nachricht in der Vorschau anzuzeigen und zu testen.
 
 >[!TAB Einfach]
 
@@ -128,7 +128,7 @@ Nachdem Sie den Nachrichteninhalt definiert haben, können Sie Testabonnentinnen
 
 1. Konfigurieren Sie die **[!UICONTROL erweiterten Einstellungen]** Ihrer Push-Benachrichtigung. [Weitere Informationen](#push-advanced)
 
-Nachdem Sie den Nachrichteninhalt definiert haben, können Sie Testabonnentinnen und -abonnenten einsetzen, um die Nachricht in einer Vorschau anzuzeigen und zu testen.
+Sobald Sie den Inhalt Ihrer Nachricht definiert haben, können Sie Testabonnentinnen und -abonnenten verwenden, um die Nachricht in der Vorschau anzuzeigen und zu testen.
 
 >[!TAB Karussell]
 
@@ -177,11 +177,11 @@ Nachdem Sie den Nachrichteninhalt definiert haben, können Sie Testabonnentinnen
 
 1. Konfigurieren Sie die **[!UICONTROL erweiterten Einstellungen]** Ihrer Push-Benachrichtigung. [Weitere Informationen](#push-advanced)
 
-Nachdem Sie den Nachrichteninhalt definiert haben, können Sie Testabonnentinnen und -abonnenten einsetzen, um die Nachricht in einer Vorschau anzuzeigen und zu testen.
+Sobald Sie den Inhalt Ihrer Nachricht definiert haben, können Sie Testabonnentinnen und -abonnenten verwenden, um die Nachricht in der Vorschau anzuzeigen und zu testen.
 
 >[!TAB Symbolschaltflächen]
 
-1. Wählen Sie aus der Dropdownliste **[!UICONTROL Vorlage]** die Option **[!UICONTROL Symbolschaltflächen]** aus.
+1. Wählen Sie aus der Dropdown-Liste **[!UICONTROL Vorlage]** die Option **[!UICONTROL Symbolschaltflächen]** aus.
 
    ![](assets/rich_push_icon_1.png)
 
@@ -201,11 +201,11 @@ Nachdem Sie den Nachrichteninhalt definiert haben, können Sie Testabonnentinnen
 
 1. Um Ihre Push-Benachrichtigung weiter zu personalisieren, können Sie das **[!UICONTROL Symbol]** der Benachrichtigung auswählen, das auf den Geräten Ihrer Profile angezeigt werden soll.
 
-1. Fügen Sie die URL Ihres **[!UICONTROL Abbrechen-Schaltflächenbilds]** hinzu.
+1. Geben Sie die URL für das **[!UICONTROL Bild der Schaltfläche „Abbrechen“]** an.
 
-1. Klicken Sie auf **[!UICONTROL Symbol hinzufügen]** , geben Sie Ihre **Bild-URL**, den **[!UICONTROL Link-URI]** ein und wählen Sie Ihren **[!UICONTROL Link-Typ]** aus.
+1. Klicken Sie auf **[!UICONTROL Symbol hinzufügen]** und geben Sie die **Bild-URL** und den **[!UICONTROL Link-URI]** ein und wählen Sie Ihren **[!UICONTROL Link-Typ]** aus.
 
-   Stellen Sie sicher, dass Sie mindestens drei Symbole und maximal fünf Symbole enthalten.
+   Stellen Sie sicher, dass Sie mindestens drei und maximal fünf Symbole einfügen.
 
    ![](assets/rich_push_icon_3.png)
 
@@ -215,11 +215,11 @@ Nachdem Sie den Nachrichteninhalt definiert haben, können Sie Testabonnentinnen
 
    ![](assets/rich_push_icon_4.png)
 
-Nachdem Sie den Nachrichteninhalt definiert haben, können Sie Testabonnentinnen und -abonnenten einsetzen, um die Nachricht in einer Vorschau anzuzeigen und zu testen.
+Sobald Sie den Inhalt Ihrer Nachricht definiert haben, können Sie Testabonnentinnen und -abonnenten verwenden, um die Nachricht in der Vorschau anzuzeigen und zu testen.
 
 >[!TAB Eingabefeld]
 
-1. Wählen Sie aus der Dropdownliste **[!UICONTROL Benachrichtigungstyp]** die Option **[!UICONTROL Eingabefeld]** aus.
+1. Wählen Sie aus der Dropdown-Liste **[!UICONTROL Art der Benachrichtigung]** die Option **[!UICONTROL Eingabefeld]** aus.
 
    ![](assets/rich_push_input_1.png)
 
@@ -245,10 +245,10 @@ Nachdem Sie den Nachrichteninhalt definiert haben, können Sie Testabonnentinnen
 
 1. Push-Benachrichtigungen können weiter personalisiert werden. Dazu können Sie eine **[!UICONTROL Bild]**-URL auswählen, die der Push-Benachrichtigung hinzugefügt werden soll, sowie das **[!UICONTROL Symbol]** der Benachrichtigung, das auf den Geräten Ihrer Profile angezeigt werden soll.
 
-1. Füllen Sie die folgenden Optionen für Ihr **Eingabefeld** aus:
+1. Tragen Sie die folgenden Optionen für Ihr **Eingabefeld** ein:
 
-   * **[!UICONTROL Name des Empfängers für die Eingabe]**: Geben Sie den Namen oder die Kennung für den Empfänger der Eingabe ein.
-   * **[!UICONTROL Eingabetext]**: Geben Sie den Text für das Feld **Eingabe** ein.
+   * **[!UICONTROL Namen der Empfängerin bzw. des Empfängers eingeben]**: Geben Sie den Namen oder die Kennung für die Empfängerin bzw. den Empfänger der Eingabe ein.
+   * **[!UICONTROL Eingabetext]**: Geben Sie den Text für das **Eingabefeld** ein.
    * **[!UICONTROL Feedback-Text]**: Geben Sie den Text ein, der nach einer Antwort angezeigt werden soll.
    * **[!UICONTROL Feedback-Bild]**: Fügen Sie die URL für das Bild hinzu, das nach einer Antwort angezeigt wird.
 
@@ -256,11 +256,11 @@ Nachdem Sie den Nachrichteninhalt definiert haben, können Sie Testabonnentinnen
 
 1. Konfigurieren Sie die **[!UICONTROL erweiterten Einstellungen]** Ihrer Push-Benachrichtigung. [Weitere Informationen](#push-advanced)
 
-Nachdem Sie den Nachrichteninhalt definiert haben, können Sie Testabonnentinnen und -abonnenten einsetzen, um die Nachricht in einer Vorschau anzuzeigen und zu testen.
+Sobald Sie den Inhalt Ihrer Nachricht definiert haben, können Sie Testabonnentinnen und -abonnenten verwenden, um die Nachricht in der Vorschau anzuzeigen und zu testen.
 
 >[!TAB Produktkatalog]
 
-1. Wählen Sie aus der Dropdownliste **[!UICONTROL Benachrichtigungstyp]** die Option **[!UICONTROL Produktkatalog]** aus.
+1. Wählen Sie aus der Dropdown-Liste **[!UICONTROL Art der Benachrichtigung]** die Option **[!UICONTROL Produktkatalog]** aus.
 
    ![](assets/rich_push_catalog_1.png)
 
@@ -284,13 +284,13 @@ Nachdem Sie den Nachrichteninhalt definiert haben, können Sie Testabonnentinnen
 
 1. Um Ihre Push-Benachrichtigung weiter zu personalisieren, können Sie das **[!UICONTROL Symbol]** der Benachrichtigung auswählen, das auf den Geräten Ihrer Profile angezeigt werden soll.
 
-1. Geben Sie Ihren **Click-to-Action-Text** und **Bild** ein.
+1. Geben Sie Ihren **Click-to-Action-Text** und Ihr **Bild** ein.
 
-1. Wählen Sie Ihren **[!UICONTROL Anzeigetyp]** zwischen horizontal oder vertikal aus.
+1. Wählen Sie für den **[!UICONTROL Anzeigetyp]** horizontal oder vertikal aus.
 
-1. Füllen Sie die Informationen zu den **[!UICONTROL Catalog]**-Elementen aus.
+1. Tragen Sie die Informationen zu den Elementen im **[!UICONTROL Katalog]** ein.
 
-   Stellen Sie sicher, dass Sie mindestens drei Elemente und maximal fünf Elemente angeben.
+   Stellen Sie sicher, dass Sie mindestens drei und maximal fünf Elemente einfügen.
 
    ![](assets/rich_push_catalog_3.png)
 
@@ -298,11 +298,11 @@ Nachdem Sie den Nachrichteninhalt definiert haben, können Sie Testabonnentinnen
 
 1. Konfigurieren Sie die **[!UICONTROL erweiterten Einstellungen]** Ihrer Push-Benachrichtigung. [Weitere Informationen](#push-advanced)
 
-Nachdem Sie den Nachrichteninhalt definiert haben, können Sie Testabonnentinnen und -abonnenten einsetzen, um die Nachricht in einer Vorschau anzuzeigen und zu testen.
+Sobald Sie den Inhalt Ihrer Nachricht definiert haben, können Sie Testabonnentinnen und -abonnenten verwenden, um die Nachricht in der Vorschau anzuzeigen und zu testen.
 
 >[!TAB Produktbewertung]
 
-1. Wählen Sie aus der Dropdownliste **[!UICONTROL Benachrichtigungstyp]** die Option **[!UICONTROL Produktbewertung]** aus.
+1. Wählen Sie aus der Dropdown-Liste **[!UICONTROL Art der Benachrichtigung]** die Option **[!UICONTROL Produktbewertung]** aus.
 
    ![](assets/rich_push_rating_1.png)
 
@@ -326,13 +326,13 @@ Nachdem Sie den Nachrichteninhalt definiert haben, können Sie Testabonnentinnen
 
 1. Push-Benachrichtigungen können weiter personalisiert werden. Dazu können Sie eine **[!UICONTROL Bild]**-URL auswählen, die der Push-Benachrichtigung hinzugefügt werden soll, sowie das **[!UICONTROL Symbol]** der Benachrichtigung, das auf den Geräten Ihrer Profile angezeigt werden soll.
 
-1. Fügen Sie das Symbol **[!UICONTROL Bewertung in nicht ausgewähltem Status]** und das Symbol für die Bewertung **[!UICONTROL in ausgewählten Status-URLs]** hinzu.
+1. Fügen Sie die URLs für das **[!UICONTROL Bewertungssymbol im nicht ausgewählten Zustand]** und das **[!UICONTROL Bewertungssymbol im ausgewählten Zustand]** ein.
 
    ![](assets/rich_push_rating_3.png)
 
-1. Klicken Sie auf **[!UICONTROL Bewertung hinzufügen]** und geben Sie Ihren **[!UICONTROL Link-URI]** und den **[!UICONTROL Link-Typ]** ein.
+1. Klicken Sie auf **[!UICONTROL Bewertung hinzufügen]** und geben Sie die **[!UICONTROL Link-URL]** und den **[!UICONTROL Link-Typ]** ein.
 
-   Stellen Sie sicher, dass Sie mindestens drei Bewertungen und maximal fünf Bewertungen angeben.
+   Stellen Sie sicher, dass Sie mindestens drei und maximal fünf Bewertungen einfügen.
 
    ![](assets/rich_push_rating_4.png)
 
@@ -340,11 +340,11 @@ Nachdem Sie den Nachrichteninhalt definiert haben, können Sie Testabonnentinnen
 
 1. Konfigurieren Sie die **[!UICONTROL erweiterten Einstellungen]** Ihrer Push-Benachrichtigung. [Weitere Informationen](#push-advanced)
 
-Nachdem Sie den Nachrichteninhalt definiert haben, können Sie Testabonnentinnen und -abonnenten einsetzen, um die Nachricht in einer Vorschau anzuzeigen und zu testen.
+Sobald Sie den Inhalt Ihrer Nachricht definiert haben, können Sie Testabonnentinnen und -abonnenten verwenden, um die Nachricht in der Vorschau anzuzeigen und zu testen.
 
 >[!TAB Timer]
 
-1. Wählen Sie aus der Dropdownliste **[!UICONTROL Benachrichtigungstyp]** die Option **[!UICONTROL Timer]** aus.
+1. Wählen Sie in der Dropdown-Liste **[!UICONTROL Benachrichtigungstyp]** die Option **[!UICONTROL Timer]** aus.
 
    ![](assets/rich_push_timer_1.png)
 
@@ -370,21 +370,21 @@ Nachdem Sie den Nachrichteninhalt definiert haben, können Sie Testabonnentinnen
 
 1. Push-Benachrichtigungen können weiter personalisiert werden. Dazu können Sie eine **[!UICONTROL Bild]**-URL auswählen, die der Push-Benachrichtigung hinzugefügt werden soll, sowie das **[!UICONTROL Symbol]** der Benachrichtigung, das auf den Geräten Ihrer Profile angezeigt werden soll.
 
-1. Legen Sie Ihre **[!UICONTROL Timer-Dauer]** in Sekunden oder den **[!UICONTROL Timer-Endzeitstempel]** auf einen bestimmten Epoch-Zeitstempel fest.
+1. Stellen Sie die **[!UICONTROL Dauer des Timers]** in Sekunden oder den **[!UICONTROL Zeitstempel für Timer-Ende]** auf einen bestimmten Epoch-Zeitstempel ein.
 
    ![](assets/rich_push_timer_4.png)
 
-1. Geben Sie den Text und das Bild ein, die angezeigt werden sollen, nachdem der Timer abgelaufen ist, in die Felder **[!UICONTROL Alternativer Titel]**, **[!UICONTROL Alternativmeldung]**, **[!UICONTROL Erweiterte alternative Nachricht senden]** und **[!UICONTROL Alternatives Startbild]** ein.
+1. Geben Sie den Text und das Bild, die nach Ablauf des Timers angezeigt werden sollen, in die Felder **[!UICONTROL Alternativer Titel]**, **[!UICONTROL Alternative Nachricht]**, **[!UICONTROL Alternative erweiterte Nachricht]** und **[!UICONTROL Alternatives Startbild]** ein.
 
    ![](assets/rich_push_timer_5.png)
 
 1. Konfigurieren Sie die **[!UICONTROL erweiterten Einstellungen]** Ihrer Push-Benachrichtigung. [Weitere Informationen](#push-advanced)
 
-Nachdem Sie den Nachrichteninhalt definiert haben, können Sie Testabonnentinnen und -abonnenten einsetzen, um die Nachricht in einer Vorschau anzuzeigen und zu testen.
+Sobald Sie den Inhalt Ihrer Nachricht definiert haben, können Sie Testabonnentinnen und -abonnenten verwenden, um die Nachricht in der Vorschau anzuzeigen und zu testen.
 
->[!TAB Null-Verkleidung]
+>[!TAB Rahmenlos]
 
-1. Wählen Sie aus der Dropdown-Liste **[!UICONTROL Benachrichtigungstyp]** die Option **[!UICONTROL Null-Verkleidung]** aus.
+1. Wählen Sie aus der Dropdown-Liste **[!UICONTROL Art der Benachrichtigung]** die Option **[!UICONTROL Rahmenlos]** aus.
 
    ![](assets/rich_push_bezel_1.png)
 
@@ -412,11 +412,11 @@ Nachdem Sie den Nachrichteninhalt definiert haben, können Sie Testabonnentinnen
 
    ![](assets/rich_push_bezel_3.png)
 
-1. Wählen Sie für Ihre Benachrichtigung den Stil **[!UICONTROL Reduzierte Benachrichtigung]** aus, unabhängig davon, ob in der Benachrichtigung in erster Linie ein Bild oder Text angezeigt wird.
+1. Wählen Sie für Ihre Benachrichtigung die Option **[!UICONTROL Ausgeblendeter Benachrichtigungsstil]** aus, unabhängig davon, ob in der Benachrichtigung in erster Linie ein Bild oder Text angezeigt wird.
 
 1. Konfigurieren Sie die **[!UICONTROL erweiterten Einstellungen]** Ihrer Push-Benachrichtigung. [Weitere Informationen](#push-advanced)
 
-Nachdem Sie den Nachrichteninhalt definiert haben, können Sie Testabonnentinnen und -abonnenten einsetzen, um die Nachricht in einer Vorschau anzuzeigen und zu testen.
+Sobald Sie den Inhalt Ihrer Nachricht definiert haben, können Sie Testabonnentinnen und -abonnenten verwenden, um die Nachricht in der Vorschau anzuzeigen und zu testen.
 
 >[!ENDTABS]
 
@@ -429,7 +429,7 @@ Nachdem Sie den Nachrichteninhalt definiert haben, können Sie Testabonnentinnen
 | **[!UICONTROL Symbolfarbe]** | Legen Sie die Farbe Ihres Symbols mit Ihren Hexadezimal-Farb-Codes fest. |
 | **[!UICONTROL Titelfarbe]** | Legen Sie die Farbe Ihres Titels mit Ihren Hexadezimal-Farb-Codes fest. |
 | **[!UICONTROL Farbe des Nachrichtentextes]** | Legen Sie die Farbe Ihres Nachrichtentextes mit Ihren Hexadezimal-Farb-Codes fest. |
-| **[!UICONTROL Timerfarbe]** | Legen Sie die Farbe Ihres Timers mit Ihren Hex-Farbcodes fest. |
+| **[!UICONTROL Timer-Farbe]** | Legen Sie die Farbe für Ihren Timer mit den Hexadezimal-Farb-Codes fest. |
 | **[!UICONTROL Hintergrundfarbe der Benachrichtigungen]** | Legt die Farbe des Benachrichtigungshintergrunds mit den gewünschten Hexadezimal-Farb-Codes fest. |
 | **[!UICONTROL Ton]** | Legt den Ton fest, der abgespielt werden soll, wenn das Gerät Ihre Benachrichtigung erhält. |
 | **[!UICONTROL Anzahl der Benachrichtigungen]** | Legt die Zahl der neuen ungelesenen Informationen fest, die direkt auf dem Symbol der App angezeigt werden. Dadurch können die Benutzenden schnell die Anzahl der ausstehenden Benachrichtigungen sehen. |

@@ -1,11 +1,11 @@
 ---
 audience: end-user
-title: Erstellen eines Rich-Push-Benachrichtigungsversands für iOS
-description: Erfahren Sie, wie Sie einen iOS-Rich-Push-Benachrichtigungsversand mit Adobe Campaign Web erstellen
+title: Erstellen eines Versands von Rich-Push-Benachrichtigungen für iOS
+description: Erfahren Sie, wie Sie einen Versand von Rich-Push-Benachrichtigungen für iOS mit Adobe Campaign Web erstellen.
 source-git-commit: f48e9a6d75429d9038b4e6b0af65a15bcb6fe929
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1546'
-ht-degree: 46%
+ht-degree: 100%
 
 ---
 
@@ -19,13 +19,13 @@ ht-degree: 46%
 
 Nach der Erstellung Ihres Push-Versands können Sie dessen Inhalt mit einer der folgenden Vorlagen definieren:
 
-* Mit **Standard** können Sie Benachrichtigungen mit einem einfachen Symbol und einem zugehörigen Bild senden.
+* **Standard** ermöglicht es Ihnen, Benachrichtigungen mit einem einfachen Symbol und einem zugehörigen Bild zu senden.
 
-* **Standard** kann Text, Bilder und Schaltflächen in Ihre Benachrichtigungen aufnehmen.
+* **Einfach** ermöglicht es Ihnen, Text, Bilder und Schaltflächen in Ihre Benachrichtigungen einzufügen.
 
-* Mit **Karussell** können Sie Benachrichtigungen mit Text und mehreren Bildern senden, durch die Benutzer wischen können.
+* **Karussell** ermöglicht es Ihnen, Benachrichtigungen mit Text und mehreren Bildern zu senden, zwischen denen die Benutzenden hin und her wischen können.
 
-* **Timer** enthält einen Live-Countdown-Timer in Ihren Benachrichtigungen.
+* **Timer** fügt einen Live-Countdown-Timer in Ihre Benachrichtigungen ein.
 
 Navigieren Sie durch die folgenden Registerkarten, um mehr über die Personalisierung dieser Vorlagen zu erfahren.
 
@@ -33,7 +33,7 @@ Navigieren Sie durch die folgenden Registerkarten, um mehr über die Personalisi
 
 >[!TAB Standard]
 
-1. Wählen Sie **[!UICONTROL Standard]** aus der Dropdown-Liste **[!UICONTROL Vorlage]**.
+1. Wählen Sie aus der Dropdown-Liste **[!UICONTROL Vorlage]** die Option **[!UICONTROL Standard]** aus.
 
    ![](assets/rich_push_ios_default_1.png)
 
@@ -41,7 +41,7 @@ Navigieren Sie durch die folgenden Registerkarten, um mehr über die Personalisi
 
    In diesem Feld können Sie den Wert des Parameters **title** der iOS-Benachrichtigungs-Payload definieren.
 
-1. Fügen Sie optional einen **[!UICONTROL Untertitel]** hinzu, der dem Parameter **subtitle** der iOS-Benachrichtigungs-Payload entspricht.
+1. Sie können optional einen **[!UICONTROL Untertitel]** hinzufügen, der dem Parameter **subtitle** der iOS-Benachrichtigungs-Payload entspricht.
 
 1. Geben Sie den Inhalt der Nachricht in das Feld **[!UICONTROL Nachricht]** ein.
 
@@ -49,27 +49,27 @@ Navigieren Sie durch die folgenden Registerkarten, um mehr über die Personalisi
 
    ![](assets/rich_push_ios_default_2.png)
 
-1. Um Ihre Push-Benachrichtigung weiter zu personalisieren, können Sie eine URL für das **[!UICONTROL Bild starten]** auswählen, die Sie Ihrer Push-Benachrichtigung hinzufügen möchten.
+1. Um Ihre Push-Benachrichtigung weiter zu personalisieren, können Sie eine URL für das **[!UICONTROL Startbild]** auswählen, das Ihrer Push-Benachrichtigung hinzugefügt werden soll.
 
-1. Navigieren Sie in der Dropdown-Liste **[!UICONTROL Erweiterte Einstellungen]** zur Registerkarte **[!UICONTROL Ton und Badge]** , um zusätzliche Einstellungen wie Ton- und Badge-Optionen für Ihre Benachrichtigungen anzupassen. [Weitere Informationen](#sound-badge)
+1. Navigieren Sie in der Dropdown-Liste **[!UICONTROL Erweiterte Einstellungen]** zur Registerkarte **[!UICONTROL Ton und Badge]**, um zusätzliche Einstellungen wie Ton- und Badge-Optionen für Ihre Benachrichtigungen anzupassen. [Weitere Informationen](#sound-badge)
 
    ![](assets/rich_push_ios_default_3.png)
 
-1. Weitere Anpassungen finden Sie in den für Ihre Push-Benachrichtigungen verfügbaren Optionen **[!UICONTROL Zusätzliche]** . [Weitere Informationen](#push-advanced)
+1. Weitere Anpassungsmöglichkeiten finden Sie unter **[!UICONTROL zusätzlichen Optionen]** für Ihre Push-Benachrichtigungen. [Weitere Informationen](#push-advanced)
 
    ![](assets/rich_push_ios_default_4.png)
 
-1. Aus dem Menü **[!UICONTROL Anwendungsvariablen]** werden Ihre **[!UICONTROL Anwendungsvariablen]** automatisch hinzugefügt. Damit können Sie beispielsweise das Benachrichtigungsverhalten definieren. So können Sie einen speziellen Anwendungsbildschirm konfigurieren, der angezeigt wird, wenn der Benutzer die Benachrichtigung aktiviert.
+1. Ihre **[!UICONTROL Anwendungsvariablen]** werden automatisch von der Registerkarte **[!UICONTROL Anwendungsvariablen]** hinzugefügt. Damit können Sie das Benachrichtigungsverhalten definieren. Zum Beispiel können Sie einen speziellen App-Bildschirm konfigurieren, der angezeigt wird, wenn die Benutzerin oder der Benutzer die Benachrichtigung aktiviert.
 
-Nachdem Sie den Nachrichteninhalt definiert haben, können Sie Testabonnentinnen und -abonnenten einsetzen, um die Nachricht in einer Vorschau anzuzeigen und zu testen.
+Sobald Sie den Inhalt Ihrer Nachricht definiert haben, können Sie Testabonnentinnen und -abonnenten verwenden, um die Nachricht in der Vorschau anzuzeigen und zu testen.
 
 >[!TAB Einfach]
 
-1. Wählen Sie **[!UICONTROL Einfach]** aus der Dropdown-Liste **[!UICONTROL Vorlage]**.
+1. Wählen Sie aus der Dropdown-Liste **[!UICONTROL Vorlage]** die Option **[!UICONTROL Einfach]**.
 
    ![](assets/rich_push_ios_basic_1.png)
 
-1. Geben Sie zum Erstellen Ihrer Nachricht den Text in die Felder **[!UICONTROL Titel]**, **[!UICONTROL erweiterter Titel]**, **[!UICONTROL Nachricht]** und **[!UICONTROL Erweiterte Nachricht]** ein.
+1. Um Ihre Nachricht zu erstellen, geben Sie Ihren Text in die Felder **[!UICONTROL Titel]**, **[!UICONTROL Erweiterter Titel]**, **[!UICONTROL Nachricht]** und **[!UICONTROL Erweiterte Nachricht]** ein.
 
    Der Text der **[!UICONTROL Nachricht]** wird in der ausgeblendeten Ansicht angezeigt, während die **[!UICONTROL Erweiterte Nachricht]** angezeigt wird, wenn die Benachrichtigung erweitert wird.
 
@@ -77,33 +77,33 @@ Nachdem Sie den Nachrichteninhalt definiert haben, können Sie Testabonnentinnen
 
 1. Verwenden Sie den Ausdruckseditor, um Inhalte zu definieren, Daten zu personalisieren und dynamische Inhalte hinzuzufügen. [Weitere Informationen](../personalization/personalize.md)
 
-1. Fügen Sie optional einen **[!UICONTROL Untertitel]** hinzu, der dem Parameter **subtitle** der iOS-Benachrichtigungs-Payload entspricht.
+1. Sie können optional einen **[!UICONTROL Untertitel]** hinzufügen, der dem Parameter **subtitle** der iOS-Benachrichtigungs-Payload entspricht.
 
 1. Fügen Sie die URL hinzu, die die **[!UICONTROL Klick-Aktion]** definiert, die mit einem Benutzerklick auf Ihre Benachrichtigung verbunden ist. Dies bestimmt das Verhalten bei der Interaktion der Benutzenden mit der Benachrichtigung, z. B. beim Öffnen eines bestimmten Bildschirms oder beim Ausführen einer bestimmten Aktion in der App.
 
-1. Um Ihre Push-Benachrichtigung weiter zu personalisieren, können Sie eine URL für das **[!UICONTROL Bild starten]** auswählen, die Sie Ihrer Push-Benachrichtigung hinzufügen möchten.
+1. Um Ihre Push-Benachrichtigung weiter zu personalisieren, können Sie eine URL für das **[!UICONTROL Startbild]** auswählen, das Ihrer Push-Benachrichtigung hinzugefügt werden soll.
 
-1. Navigieren Sie in der Dropdown-Liste **[!UICONTROL Erweiterte Einstellungen]** zur Registerkarte **[!UICONTROL Ton und Badge]** , um zusätzliche Einstellungen wie Ton- und Badge-Optionen für Ihre Benachrichtigungen anzupassen. [Weitere Informationen](#sound-badge)
+1. Navigieren Sie in der Dropdown-Liste **[!UICONTROL Erweiterte Einstellungen]** zur Registerkarte **[!UICONTROL Ton und Badge]**, um zusätzliche Einstellungen wie Ton- und Badge-Optionen für Ihre Benachrichtigungen anzupassen. [Weitere Informationen](#sound-badge)
 
    ![](assets/rich_push_ios_basic_3.png)
 
-1. Geben Sie im Menü **[!UICONTROL Farboptionen]** hexadezimale Farbcodes für die Hintergrundfarbe der Benachrichtigung **[!UICONTROL 3}, die Hintergrundfarbe der Benachrichtigung]** und die Textfarbe der Nachricht **[!UICONTROL Nachricht]** ein.]****[!UICONTROL 
+1. Geben Sie im Menü **[!UICONTROL Farboptionen]** die hexadezimalen Farb-Codes für die **[!UICONTROL Hintergrundfarbe der Benachrichtigung]**, **[!UICONTROL Hintergrundfarbe der Benachrichtigung]** und **[!UICONTROL Farbe des Nachrichtentextes]** ein.
 
    ![](assets/rich_push_ios_basic_4.png)
 
-1. Weitere Anpassungen finden Sie in den für Ihre Push-Benachrichtigungen verfügbaren Optionen **[!UICONTROL Zusätzliche]** . [Weitere Informationen](#push-advanced)
+1. Weitere Anpassungsmöglichkeiten finden Sie unter **[!UICONTROL zusätzlichen Optionen]** für Ihre Push-Benachrichtigungen. [Weitere Informationen](#push-advanced)
 
-1. Aus dem Menü **[!UICONTROL Anwendungsvariablen]** werden Ihre **[!UICONTROL Anwendungsvariablen]** automatisch hinzugefügt. Damit können Sie beispielsweise das Benachrichtigungsverhalten definieren. So können Sie einen speziellen Anwendungsbildschirm konfigurieren, der angezeigt wird, wenn der Benutzer die Benachrichtigung aktiviert.
+1. Ihre **[!UICONTROL Anwendungsvariablen]** werden automatisch von der Registerkarte **[!UICONTROL Anwendungsvariablen]** hinzugefügt. Damit können Sie das Benachrichtigungsverhalten definieren. Zum Beispiel können Sie einen speziellen App-Bildschirm konfigurieren, der angezeigt wird, wenn die Benutzerin oder der Benutzer die Benachrichtigung aktiviert.
 
-Nachdem Sie den Nachrichteninhalt definiert haben, können Sie Testabonnentinnen und -abonnenten einsetzen, um die Nachricht in einer Vorschau anzuzeigen und zu testen.
+Sobald Sie den Inhalt Ihrer Nachricht definiert haben, können Sie Testabonnentinnen und -abonnenten verwenden, um die Nachricht in der Vorschau anzuzeigen und zu testen.
 
 >[!TAB Karussell]
 
-1. Wählen Sie **[!UICONTROL Karussell]** aus der Dropdown-Liste **[!UICONTROL Vorlage]**.
+1. Wählen Sie aus der Dropdown-Liste **[!UICONTROL Vorlage]** die Option **[!UICONTROL Karussell]**.
 
    ![](assets/rich_push_ios_carousel_1.png)
 
-1. Geben Sie zum Erstellen Ihrer Nachricht den Text in die Felder **[!UICONTROL Titel]**, **[!UICONTROL erweiterter Titel]**, **[!UICONTROL Nachricht]** und **[!UICONTROL Erweiterte Nachricht]** ein.
+1. Um Ihre Nachricht zu erstellen, geben Sie Ihren Text in die Felder **[!UICONTROL Titel]**, **[!UICONTROL Erweiterter Titel]**, **[!UICONTROL Nachricht]** und **[!UICONTROL Erweiterte Nachricht]** ein.
 
    Der Text der **[!UICONTROL Nachricht]** wird in der ausgeblendeten Ansicht angezeigt, während die **[!UICONTROL Erweiterte Nachricht]** angezeigt wird, wenn die Benachrichtigung erweitert wird.
 
@@ -111,7 +111,7 @@ Nachdem Sie den Nachrichteninhalt definiert haben, können Sie Testabonnentinnen
 
 1. Verwenden Sie den Ausdruckseditor, um Inhalte zu definieren, Daten zu personalisieren und dynamische Inhalte hinzuzufügen. [Weitere Informationen](../personalization/personalize.md)
 
-1. Fügen Sie optional einen **[!UICONTROL Untertitel]** hinzu, der dem Parameter **subtitle** der iOS-Benachrichtigungs-Payload entspricht.
+1. Sie können optional einen **[!UICONTROL Untertitel]** hinzufügen, der dem Parameter **subtitle** der iOS-Benachrichtigungs-Payload entspricht.
 
 1. Fügen Sie die URL hinzu, die die **[!UICONTROL Klick-Aktion]** definiert, die mit einem Benutzerklick auf Ihre Benachrichtigung verbunden ist. Dies bestimmt das Verhalten bei der Interaktion der Benutzenden mit der Benachrichtigung, z. B. beim Öffnen eines bestimmten Bildschirms oder beim Ausführen einer bestimmten Aktion in der App.
 
@@ -120,7 +120,7 @@ Nachdem Sie den Nachrichteninhalt definiert haben, können Sie Testabonnentinnen
    * **[!UICONTROL Automatisch]**: Die Bilder werden automatisch in vordefinierten Intervallen als Folien wiedergegeben.
    * **[!UICONTROL Manuell]**: Benutzende können manuell zwischen den Folien streichen, um durch die Bilder zu navigieren.
 
-1. Klicken Sie auf **[!UICONTROL Bild hinzufügen]** und geben Sie Ihre **[!UICONTROL Bild]**-URL, **[!UICONTROL Text]** und den **[!UICONTROL Action URI]** ein.
+1. Klicken Sie auf **[!UICONTROL Bild hinzufügen]** und geben Sie die URL für das **[!UICONTROL Bild]**, den **[!UICONTROL Text]** und den **[!UICONTROL Aktions-URI]** ein.
 
    Stellen Sie sicher, dass Sie mindestens drei und maximal fünf Bilder einfügen.
 
@@ -128,25 +128,25 @@ Nachdem Sie den Nachrichteninhalt definiert haben, können Sie Testabonnentinnen
 
 1. Bearbeiten Sie die Reihenfolge Ihrer Bilder mit den nach oben bzw. nach unten zeigenden Pfeilen.
 
-1. Navigieren Sie in der Dropdown-Liste **[!UICONTROL Erweiterte Einstellungen]** zur Registerkarte **[!UICONTROL Ton und Badge]** , um zusätzliche Einstellungen wie Ton- und Badge-Optionen für Ihre Benachrichtigungen anzupassen. [Weitere Informationen](#sound-badge)
+1. Navigieren Sie in der Dropdown-Liste **[!UICONTROL Erweiterte Einstellungen]** zur Registerkarte **[!UICONTROL Ton und Badge]**, um zusätzliche Einstellungen wie Ton- und Badge-Optionen für Ihre Benachrichtigungen anzupassen. [Weitere Informationen](#sound-badge)
 
-1. Geben Sie im Menü **[!UICONTROL Farboptionen]** hexadezimale Farbcodes für die Hintergrundfarbe der Benachrichtigung **[!UICONTROL 3}, die Hintergrundfarbe der Benachrichtigung]** und die Textfarbe der Nachricht **[!UICONTROL Nachricht]** ein.]****[!UICONTROL 
+1. Geben Sie im Menü **[!UICONTROL Farboptionen]** die hexadezimalen Farb-Codes für die **[!UICONTROL Hintergrundfarbe der Benachrichtigung]**, **[!UICONTROL Hintergrundfarbe der Benachrichtigung]** und **[!UICONTROL Farbe des Nachrichtentextes]** ein.
 
    ![](assets/rich_push_ios_carousel_4.png)
 
-1. Weitere Anpassungen finden Sie in den für Ihre Push-Benachrichtigungen verfügbaren Optionen **[!UICONTROL Zusätzliche]** . [Weitere Informationen](#push-advanced)
+1. Weitere Anpassungsmöglichkeiten finden Sie unter **[!UICONTROL zusätzlichen Optionen]** für Ihre Push-Benachrichtigungen. [Weitere Informationen](#push-advanced)
 
-1. Aus dem Menü **[!UICONTROL Anwendungsvariablen]** werden Ihre **[!UICONTROL Anwendungsvariablen]** automatisch hinzugefügt. Damit können Sie beispielsweise das Benachrichtigungsverhalten definieren. So können Sie einen speziellen Anwendungsbildschirm konfigurieren, der angezeigt wird, wenn der Benutzer die Benachrichtigung aktiviert.
+1. Ihre **[!UICONTROL Anwendungsvariablen]** werden automatisch von der Registerkarte **[!UICONTROL Anwendungsvariablen]** hinzugefügt. Damit können Sie das Benachrichtigungsverhalten definieren. Zum Beispiel können Sie einen speziellen App-Bildschirm konfigurieren, der angezeigt wird, wenn die Benutzerin oder der Benutzer die Benachrichtigung aktiviert.
 
-Nachdem Sie den Nachrichteninhalt definiert haben, können Sie Testabonnentinnen und -abonnenten einsetzen, um die Nachricht in einer Vorschau anzuzeigen und zu testen.
+Sobald Sie den Inhalt Ihrer Nachricht definiert haben, können Sie Testabonnentinnen und -abonnenten verwenden, um die Nachricht in der Vorschau anzuzeigen und zu testen.
 
 >[!TAB Timer]
 
-1. Wählen Sie aus der Dropdownliste **[!UICONTROL Benachrichtigungstyp]** die Option **[!UICONTROL Timer]** aus.
+1. Wählen Sie in der Dropdown-Liste **[!UICONTROL Benachrichtigungstyp]** die Option **[!UICONTROL Timer]** aus.
 
    ![](assets/rich_push_ios_timer_1.png)
 
-1. Geben Sie zum Erstellen Ihrer Nachricht den Text in die Felder **[!UICONTROL Titel]**, **[!UICONTROL erweiterter Titel]**, **[!UICONTROL Nachricht]** und **[!UICONTROL Erweiterte Nachricht]** ein.
+1. Um Ihre Nachricht zu erstellen, geben Sie Ihren Text in die Felder **[!UICONTROL Titel]**, **[!UICONTROL Erweiterter Titel]**, **[!UICONTROL Nachricht]** und **[!UICONTROL Erweiterte Nachricht]** ein.
 
    Der Text der **[!UICONTROL Nachricht]** wird in der ausgeblendeten Ansicht angezeigt, während die **[!UICONTROL Erweiterte Nachricht]** angezeigt wird, wenn die Benachrichtigung erweitert wird.
 
@@ -154,43 +154,43 @@ Nachdem Sie den Nachrichteninhalt definiert haben, können Sie Testabonnentinnen
 
 1. Verwenden Sie den Ausdruckseditor, um Inhalte zu definieren, Daten zu personalisieren und dynamische Inhalte hinzuzufügen. [Weitere Informationen](../personalization/personalize.md)
 
-1. Fügen Sie optional einen **[!UICONTROL Untertitel]** hinzu, der dem Parameter **subtitle** der iOS-Benachrichtigungs-Payload entspricht.
+1. Sie können optional einen **[!UICONTROL Untertitel]** hinzufügen, der dem Parameter **subtitle** der iOS-Benachrichtigungs-Payload entspricht.
 
 1. Fügen Sie die URL hinzu, die die **[!UICONTROL Klick-Aktion]** definiert, die mit einem Benutzerklick auf Ihre Benachrichtigung verbunden ist. Dies bestimmt das Verhalten bei der Interaktion der Benutzenden mit der Benachrichtigung, z. B. beim Öffnen eines bestimmten Bildschirms oder beim Ausführen einer bestimmten Aktion in der App.
 
-1. Um Ihre Push-Benachrichtigung weiter zu personalisieren, können Sie eine URL für das **[!UICONTROL Bild starten]** auswählen, die Sie Ihrer Push-Benachrichtigung hinzufügen möchten.
+1. Um Ihre Push-Benachrichtigung weiter zu personalisieren, können Sie eine URL für das **[!UICONTROL Startbild]** auswählen, das Ihrer Push-Benachrichtigung hinzugefügt werden soll.
 
-1. Legen Sie Ihre **[!UICONTROL Timer-Dauer]** in Sekunden oder den **[!UICONTROL Timer-Endzeitstempel]** auf einen bestimmten Epoch-Zeitstempel fest.
+1. Stellen Sie die **[!UICONTROL Dauer des Timers]** in Sekunden oder den **[!UICONTROL Zeitstempel für Timer-Ende]** auf einen bestimmten Epoch-Zeitstempel ein.
 
    ![](assets/rich_push_ios_timer_3.png)
 
-1. Geben Sie den Text und das Bild ein, die angezeigt werden sollen, nachdem der Timer abgelaufen ist, in die Felder **[!UICONTROL Alternativer Titel]**, **[!UICONTROL Alternative Nachricht]** und **[!UICONTROL Alternatives Startbild]** ein.
+1. Geben Sie den Text und das Bild, die nach Ablauf des Timers angezeigt werden sollen, in die Felder **[!UICONTROL Alternativer Titel]**, **[!UICONTROL Alternative Nachricht]** und **[!UICONTROL Alternatives Startbild]** ein.
 
    ![](assets/rich_push_ios_timer_4.png)
 
-1. Navigieren Sie in der Dropdown-Liste **[!UICONTROL Erweiterte Einstellungen]** zur Registerkarte **[!UICONTROL Ton und Badge]** , um zusätzliche Einstellungen wie Ton- und Badge-Optionen für Ihre Benachrichtigungen anzupassen. [Weitere Informationen](#sound-badge)
+1. Navigieren Sie in der Dropdown-Liste **[!UICONTROL Erweiterte Einstellungen]** zur Registerkarte **[!UICONTROL Ton und Badge]**, um zusätzliche Einstellungen wie Ton- und Badge-Optionen für Ihre Benachrichtigungen anzupassen. [Weitere Informationen](#sound-badge)
 
-1. Geben Sie im Menü **[!UICONTROL Farboptionen]** hexadezimale Farbcodes für die Hintergrundfarbe der Benachrichtigung **[!UICONTROL 3}, die Hintergrundfarbe der Benachrichtigung]** und die Textfarbe der Nachricht **[!UICONTROL Nachricht]** ein.]****[!UICONTROL 
+1. Geben Sie im Menü **[!UICONTROL Farboptionen]** die hexadezimalen Farb-Codes für die **[!UICONTROL Hintergrundfarbe der Benachrichtigung]**, **[!UICONTROL Hintergrundfarbe der Benachrichtigung]** und **[!UICONTROL Farbe des Nachrichtentextes]** ein.
 
-1. Weitere Anpassungen finden Sie in den für Ihre Push-Benachrichtigungen verfügbaren Optionen **[!UICONTROL Zusätzliche]** . [Weitere Informationen](#push-advanced)
+1. Weitere Anpassungsmöglichkeiten finden Sie unter **[!UICONTROL zusätzlichen Optionen]** für Ihre Push-Benachrichtigungen. [Weitere Informationen](#push-advanced)
 
-1. Aus dem Menü **[!UICONTROL Anwendungsvariablen]** werden Ihre **[!UICONTROL Anwendungsvariablen]** automatisch hinzugefügt. Damit können Sie beispielsweise das Benachrichtigungsverhalten definieren. So können Sie einen speziellen Anwendungsbildschirm konfigurieren, der angezeigt wird, wenn der Benutzer die Benachrichtigung aktiviert.
+1. Ihre **[!UICONTROL Anwendungsvariablen]** werden automatisch von der Registerkarte **[!UICONTROL Anwendungsvariablen]** hinzugefügt. Damit können Sie das Benachrichtigungsverhalten definieren. Zum Beispiel können Sie einen speziellen App-Bildschirm konfigurieren, der angezeigt wird, wenn die Benutzerin oder der Benutzer die Benachrichtigung aktiviert.
 
-Nachdem Sie den Nachrichteninhalt definiert haben, können Sie Testabonnentinnen und -abonnenten einsetzen, um die Nachricht in einer Vorschau anzuzeigen und zu testen.
+Sobald Sie den Inhalt Ihrer Nachricht definiert haben, können Sie Testabonnentinnen und -abonnenten verwenden, um die Nachricht in der Vorschau anzuzeigen und zu testen.
 
 >[!ENDTABS]
 
 ## Erweiterte Einstellungen für Push-Benachrichtigungen {#push-advanced}
 
-### Audio- und Badge-Optionen {#sound-badge}
+### Optionen für Ton und Badge {#sound-badge}
 
 | Parameter | Beschreibung |
 |---------|---------|
-| **[!UICONTROL Kritischer Alarmmodus]** | Aktivieren Sie diese Option, um Ihrer Benachrichtigung Ton hinzuzufügen, selbst wenn das Handy des Benutzers im Fokusmodus eingestellt ist oder wenn der iPhone stummgeschaltet ist. |
+| **[!UICONTROL Kritischer Alarmmodus]** | Aktivieren Sie diese Option, um Ihrer Benachrichtigung einen Ton hinzuzufügen, selbst wenn das Telefon der Benutzerin oder des Benutzers auf den Fokusmodus festgelegt oder das iPhone stummgeschaltet ist. |
 | **[!UICONTROL Badge entfernen]** | Aktivieren Sie diese Optionen, um den Badge-Wert zu aktualisieren. |
 | **[!UICONTROL Ton]** | Legt den Ton fest, der abgespielt werden soll, wenn das Gerät Ihre Benachrichtigung erhält. |
-| **[!UICONTROL Anzahl der Benachrichtigungen]** | Legen Sie eine Zahl fest, mit der die Anzahl der neuen ungelesenen Informationen direkt auf dem Anwendungssymbol angezeigt wird. |
-| **[!UICONTROL Lautstärke]** | Legen Sie die Lautstärke Ihres Tons von 0 auf 100 fest. Töne müssen in die App integriert und zum Zeitpunkt der Erstellung des entsprechenden Service konfiguriert werden. |
+| **[!UICONTROL Anzahl der Benachrichtigungen]** | Legen Sie eine Zahl fest, die verwendet wird, um direkt auf dem Anwendungssymbol die Anzahl der neuen ungelesenen Informationen anzuzeigen. |
+| **[!UICONTROL Lautstärke]** | Legen Sie die Lautstärke Ihres Tons auf einer Skala von 0 bis 100 fest. Töne müssen in der App vorhanden sein und bei der Erstellung des Dienstes definiert werden. |
 
 ### Farboptionen {#color}
 
@@ -198,16 +198,16 @@ Nachdem Sie den Nachrichteninhalt definiert haben, können Sie Testabonnentinnen
 |---------|---------|
 | **[!UICONTROL Hintergrundfarbe der Benachrichtigungen]** | Legt die Farbe des Benachrichtigungshintergrunds mit den gewünschten Hexadezimal-Farb-Codes fest. |
 | **[!UICONTROL Titelfarbe]** | Legen Sie die Farbe Ihres Titels mit Ihren Hexadezimal-Farb-Codes fest. |
-| **[!UICONTROL Farbe des Nachrichtentextes]** | Legen Sie die Farbe Ihres Textes mit Ihren Hex-Farbcodes fest. |
+| **[!UICONTROL Farbe des Nachrichtentextes]** | Legen Sie die Farbe für Ihren Text mit den Hexadezimal-Farb-Codes fest. |
 
 ### Erweiterte Optionen {#notification-options}
 
 | Parameter | Beschreibung |
 |---------|---------|
 | **[!UICONTROL Veränderlicher Inhalt]** | Aktivieren Sie diese Option, damit die Mobile App Medieninhalte herunterladen kann. |
-| **[!UICONTROL Relevanzwert]** | Legen Sie einen Relevanzwert von 0 bis 100 fest. Das System verwendet diesen Wert, um die Benachrichtigungen in der Benachrichtigungszusammenfassung zu sortieren. |
-| **[!UICONTROL Unterbrechungsgrad]** | <ul><li>Aktiv: Standardmäßig zeigt das System die Benachrichtigung sofort an, beleuchtet den Bildschirm und kann einen Ton abspielen. Benachrichtigungen durchbrechen die Fokusmodi nicht.</li><li>Passiv: Das System fügt die Benachrichtigung zur Benachrichtigungsliste hinzu, ohne den Bildschirm anzuzeigen oder einen Ton abzuspielen. Benachrichtigungen umgehen nicht den Fokusmodus.</li><li> Zeitabhängig: Das System stellt die Benachrichtigung sofort vor, beleuchtet den Bildschirm, kann einen Ton abspielen und den Fokusmodus durchbrechen. Für diese Stufe ist keine spezielle Berechtigung von Apple erforderlich.</li><li>Kritisch: Das System zeigt die Benachrichtigung sofort an, beleuchtet den Bildschirm und umgeht den Stummschaltungs- oder Fokusmodus. Beachten Sie, dass für diese Stufe eine spezielle Berechtigung von Apple erforderlich ist.</li></ul> |
-| **[!UICONTROL Thread-ID]** | Legen Sie die Kennung fest, die zum Gruppieren verwandter Benachrichtigungen verwendet wird. |
-| **[!UICONTROL Kategorie]** | Legen Sie den Namen Ihrer Kategorie-ID fest, mit der Aktionsschaltflächen angezeigt werden. Mit diesen Benachrichtigungen können Benutzer rascher unterschiedliche Aufgaben ausführen, ohne die Anwendung öffnen oder darin navigieren zu müssen. |
-| **[!UICONTROL Zielgruppen-Inhalts-ID]** | Legen Sie eine Kennung fest, die bestimmt, welches Anwendungsfenster beim Öffnen der Benachrichtigung vorgezogen werden soll. |
+| **[!UICONTROL Relevanzwert]** | Legen Sie einen Relevanzwert auf der Skala von 0 bis 100 fest. Das System verwendet diesen Wert, um die Benachrichtigungen in der Benachrichtigungszusammenfassung zu sortieren. |
+| **[!UICONTROL Unterbrechungsgrad]** | <ul><li>Aktiv: Standardmäßig eingestellt, zeigt das System die Benachrichtigung sofort an, der Bildschirm leuchtet auf und es kann ein Ton abgespielt werden. Benachrichtigungen umgehen nicht die Fokusmodi.</li><li>Passiv: Das System fügt die Benachrichtigung der Benachrichtigungsliste hinzu, ohne dass der Bildschirm aufleuchtet oder ein Ton abgespielt wird. Benachrichtigungen umgehen nicht die Fokusmodi.</li><li> Zeitkritisch: Das System zeigt die Benachrichtigung sofort an, der Bildschirm leuchtet auf, es kann ein Ton abgespielt werden und Fokusmodi werden umgangen. Für diese Stufe ist keine spezielle Berechtigung von Apple erforderlich.</li><li>Kritisch: Das System zeigt die Benachrichtigung sofort an, der Bildschirm leuchtet auf und der Stummschalter oder die Focus-Modi werden umgangen. Beachten Sie, dass für diese Stufe eine spezielle Berechtigung von Apple erforderlich ist.</li></ul> |
+| **[!UICONTROL Thread-ID]** | Legen Sie die Kennung fest, die zur Gruppierung zusammengehöriger Meldungen verwendet wird. |
+| **[!UICONTROL Kategorie]** | Legen Sie den Namen Ihrer Kategorie-ID fest, über die Aktionsschaltflächen angezeigt werden. Diese Benachrichtigungen ermöglichen es Benutzerinnen und Benutzern, verschiedene Aufgaben als Reaktion auf eine Benachrichtigung schneller auszuführen, ohne die App öffnen oder darin navigieren zu müssen. |
+| **[!UICONTROL ID des Zielinhalts]** | Legen Sie eine Kennung fest, die angibt, welches App-Fenster beim Öffnen der Benachrichtigung im Vordergrund erscheinen soll. |
 

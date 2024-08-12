@@ -3,7 +3,7 @@ audience: end-user
 title: Hinzufügen von Ausdrucksfragmenten im Ausdruckseditor
 description: Erfahren Sie, wie Sie Inhaltsfragmente erstellen
 source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '155'
 ht-degree: 100%
 

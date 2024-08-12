@@ -1,12 +1,12 @@
 ---
 audience: end-user
 title: Arbeiten mit Ordnern
-description: Erfahren Sie, wie Sie einen Ordner in Adobe Campaign verwalten
+description: Erfahren Sie, wie Sie in Adobe Campaign einen Ordner verwalten.
 exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
 source-git-commit: 39dcf11797339ee9800da6c5a32b1a1c3470529a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '258'
-ht-degree: 29%
+ht-degree: 100%
 
 ---
 
@@ -34,21 +34,21 @@ ht-degree: 29%
 
 ## Über Ordner
 
-Ordner sind Objekte in Adobe Campaign, mit denen Sie Ihre Komponenten und Daten organisieren können.
+Ordner sind Objekte in Adobe Campaign zur Organisation Ihrer Komponenten und Daten.
 
-Sie können Ordner in der Navigationsstruktur erstellen, umbenennen, neu anordnen und verschieben. Sie können sie auch entsprechend Ihren Berechtigungen löschen.
+Sie können Ordner im Navigationsbaum erstellen, umbenennen, neu anordnen und verschieben. Sie können sie auch Ihren Bedürfnissen entsprechend löschen.
 
 ![](assets/folders.png){zoomable="yes"}
 
-Sie können einen Ordnertyp einrichten. Beispiel: ein Ordner mit Sendungen.
-Das Ordnersymbol ändert sich entsprechend diesem Typ.
+Sie können einen Ordnertyp einrichten. Zum Beispiel: ein Ordner mit Sendungen.
+Das Symbol des Ordners ändert sich je nach Typ.
 
-## Neuen Ordner erstellen
+## Erstellen eines neuen Ordners
 
-Gehen Sie wie folgt vor, um in der Adobe Campaign-Web-Benutzeroberfläche einen neuen Ordner zu erstellen:
+Gehen Sie wie folgt vor, um in der Adobe Campaign Web-Benutzeroberfläche einen neuen Ordner zu erstellen:
 
-1. Wechseln Sie in **[!UICONTROL Explorer]** zum Ordner, in dem Sie den neuen Ordner erstellen möchten.
-Unter dem Menü **[!UICONTROL ..]** befindet sich **[!UICONTROL Neuen Ordner erstellen]**.
+1. Navigieren Sie dazu in **[!UICONTROL Explorer]** zu dem Ordner, in dem Sie Ihren neuen Ordner erstellen möchten.
+Im Menü **[!UICONTROL …]** finden Sie die Option **[!UICONTROL Neuen Ordner erstellen]**.
 
 ![](assets/folder_create.png){zoomable="yes"}
 
@@ -57,23 +57,23 @@ In unserem Beispiel erstellen wir einen Ordner im Ordner **[!UICONTROL Sendungen
 
 ![](assets/folder_new.png){zoomable="yes"}
 
-1. Ändern Sie den Ordnertyp, indem Sie auf das Symbol vom Typ Ordner klicken, falls erforderlich, und wählen Sie ihn wie unten gezeigt in der Liste aus:
+1. Ändern Sie bei Bedarf den Typ des Ordners, indem Sie auf das Symbol des Ordnertyps klicken, und wählen Sie ihn in der angezeigten Liste aus, wie unten dargestellt:
 
 ![](assets/folder_type.png){zoomable="yes"}
 
-Richten Sie den Ordnertyp durch Klicken auf die Schaltfläche **[!UICONTROL Bestätigen]** ein.
+Richten Sie den Ordnertyp ein, indem Sie auf die Schaltfläche **[!UICONTROL Bestätigen]** klicken.
 
 Wenn Sie einen Ordner ohne bestimmten Typ erstellen möchten, wählen Sie den Typ **[!UICONTROL Allgemeiner Ordner]** aus.
 
 Sie können auch [Ordner in der Adobe Campaign-Konsole erstellen und verwalten](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/config/configuration/folders-and-views).
 
-## Ordner löschen
+## Löschen eines Ordners
 
 >[!CAUTION]
 >
 >Beim Löschen eines Ordners werden auch alle im Ordner gespeicherten Daten gelöscht.
 
-Um einen Ordner zu löschen, wählen Sie ihn in Ihrem Baum **[!UICONTROL Explorer]** aus und klicken Sie auf das Menü **[!UICONTROL ...]** .
-Wählen Sie &quot;**[!UICONTROL Ordner löschen]**&quot;.
+Um einen Ordner zu löschen, wählen Sie ihn im Baum **[!UICONTROL Explorer]** aus und klicken Sie auf das Menü **[!UICONTROL ...]**.
+Wählen Sie **[!UICONTROL Ordner löschen]** aus.
 
 ![](assets/folder_delete.png){zoomable="yes"}

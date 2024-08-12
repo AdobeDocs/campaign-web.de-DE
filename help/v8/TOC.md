@@ -6,9 +6,9 @@ title: Dokumentation zu Adobe Campaign Web
 description: Dokumentation zu Campaign Web
 breadcrumb-title: Campaign Web-Benutzeroberfläche
 source-git-commit: 39dcf11797339ee9800da6c5a32b1a1c3470529a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '745'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 93%
       + [Erste Schritte mit Push-Benachrichtigungen](push/gs-push.md)
       + [Erstellen eines Push-Benachrichtigungs-Versands](push/create-push.md)
       + Rich-Push {#rich-push}
-         + [Erstellen eines Rich-Push-Versands für Android](push/rich-push.md)
+         + [Entwerfen eines Rich-Push-Versands für Android](push/rich-push.md)
          + [Erstellen eines Rich-Push-Versands für iOS](push/rich-push-ios.md)
       + [Entwerfen eines Push-Versands](push/content-push.md)
       + [Vorschau und Senden eines Push-Versands](push/send-push.md)
@@ -79,19 +79,19 @@ ht-degree: 93%
       + [Erste Schritte mit Versandwarnungen](msg/delivery-alerting.md)
       + [Versandwarnungs-Dashboards](msg/delivery-alerting-dashboards.md)
       + [Versandwarnungskriterien](msg/delivery-alerting-criteria.md)
-+ Content Management {#content}
-   + Dynamischen Inhalt erstellen {#dynamic-content}
++ Content-Management {#content}
+   + Erstellen dynamischer Inhalte {#dynamic-content}
       + [Wie lässt sich der Inhalt dynamisch gestalten?](personalization/gs-personalization.md)
       + [Hinzufügen von Personalisierung](personalization/personalize.md)
       + [Erstellen bedingter Inhalte](personalization/conditions.md)
-   + Inhalt wiederverwenden {#manage-reusable-content}
+   + Wiederverwenden von Inhalten {#manage-reusable-content}
       + [Arbeiten mit Inhaltsvorlagen](email/create-email-templates.md)
       + Inhaltsfragmente {#fragments}
          + [Erste Schritte mit Inhaltsfragmenten](content/fragments.md)
-         + [Inhaltsfragmente erstellen und bearbeiten](content/create-fragment.md)
+         + [Erstellen und Bearbeiten von Inhaltsfragmenten](content/create-fragment.md)
          + [Verwenden visueller Fragmente in E-Mails](content/use-visual-fragments.md)
-         + [Ausdrucksfragmente im Ausdruckseditor verwenden](content/use-expression-fragments.md)
-   + E-Mails erstellen {#email-design}
+         + [Verwenden von Ausdrucksfragmenten im Ausdruckseditor](content/use-expression-fragments.md)
+   + Gestalten von E-Mails {#email-design}
       + [Erste Schritte mit dem E-Mail-Designer](email/get-started-email-designer.md)
       + Beginnen Sie mit der Gestaltung Ihrer E-Mail {#start-design}
          + [Beginnen von Grund auf](email/create-email-content.md)
@@ -134,8 +134,8 @@ ht-degree: 93%
       + [Erstellen einer einmaligen Zielgruppe](audience/one-time-audience.md)
       + [Laden einer E-Mail-Zielgruppe aus einer Datei](audience/file-audience.md)
       + [Festlegen einer Kontrollgruppe](audience/control-group.md)
-      + [Hinzufügen einer Fallen-Gruppe](audience/trap-group.md)
-   + Arbeiten mit Abonnementdiensten {#work-with-services}
+      + [Hinzufügen einer Trap-Gruppe](audience/trap-group.md)
+   + Arbeiten mit Anmeldediensten {#work-with-services}
       + [Erstellen und Verwalten von Abonnements](audience/manage-services.md)
       + [Verwalten von Abonnenten](audience/manage-subscribers.md)
 + Cross-Channel-Kampagnen {#campaigns}

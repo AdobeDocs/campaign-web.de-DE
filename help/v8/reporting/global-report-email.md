@@ -4,7 +4,7 @@ title: Globale Berichte für den E-Mail-Kanal
 description: Erfahren Sie mehr über globale Berichte für den E-Mail-Kanal
 exl-id: 37c575e5-fd18-4a35-a11a-922d5bda1bae
 source-git-commit: 39dcf11797339ee9800da6c5a32b1a1c3470529a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1592'
 ht-degree: 100%
 
@@ -239,7 +239,7 @@ Der Bericht **[!UICONTROL URLs und Clickstreams]** bietet durch die enthaltenen 
 
 * **[!UICONTROL Klicks insgesamt]**: Gesamtzahl der Klicks auf Links in Sendungen.
 
-* **[!UICONTROL Plattform-Durchschnitt]**: Dieser unter allen Raten (Reaktivität, Unique Clicks und aufaddierte Klicks) angezeigte Wert bezieht sich auf die Gesamtheit der in den letzten sechs Monaten gesendeten Nachrichten. Nur Sendungen, die dieselbe Typologie aufweisen und die auf demselben Kanal gesendet wurden, werden berücksichtigt. Testsendungen sind von der Statistik ausgenommen.
+* **[!UICONTROL Plattform-Durchschnitt]**: Dieser Durchschnittswert, der unter jeder Rate (Reaktivität, Unique Clicks und Klicks insgesamt) angezeigt wird, bezieht sich auf die in den letzten sechs Monaten verschickten Sendungen. Es werden nur Sendungen mit derselben Typologie und mit demselben Kanal berücksichtigt. Testsendungen sind ausgeschlossen.
 +++
 
 ### Die 10 meistbesuchten Links {#top10-global-report-email}
