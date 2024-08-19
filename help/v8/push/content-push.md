@@ -20,14 +20,14 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_ios_content"
 >title="Pushen von iOS-Inhalten"
->abstract="Definieren Sie den Inhalt Ihrer Push-Benachrichtigung für iOS-Geräte. Um mit der Erstellung Ihrer Nachricht zu beginnen, klicken Sie auf die Schaltfläche **Inhalt bearbeiten**."
+>abstract="Den Inhalt der Push-Benachrichtigung für iOS-Geräte definieren. Um mit der Erstellung Ihrer Nachricht zu beginnen, klicken Sie auf die Schaltfläche **Inhalt bearbeiten**."
 
 ## Festlegen des Inhalts der Benachrichtigung {#push-message}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_ios_msg"
 >title="Push-Nachricht für iOS"
->abstract="Definieren Sie den Inhalt Ihrer Push-Benachrichtigung für iOS-Geräte. Um eine Nachricht zu verfassen, auf die Felder **Titel** und **Nachricht** klicken. Den Ausdruckseditor verwenden, um Daten zu personalisieren und dynamische Inhalte hinzuzufügen. Weitere benutzerdefinierte Konfigurationen befinden sich im Abschnitt **Erweiterte Einstellungen**."
+>abstract="Den Inhalt der Push-Benachrichtigung für iOS-Geräte definieren. Um eine Nachricht zu verfassen, auf die Felder **Titel** und **Nachricht** klicken. Den Ausdruckseditor verwenden, um Daten zu personalisieren und dynamische Inhalte hinzuzufügen. Weitere benutzerdefinierte Konfigurationen befinden sich im Abschnitt **Erweiterte Einstellungen**."
 
 
 >[!CONTEXTUALHELP]
