@@ -3,10 +3,10 @@ audience: end-user
 title: Wechsel von Campaign Standard zu Adobe Campaign Web
 description: Funktionsweise der Campaign Web-Benutzeroberfläche
 exl-id: 4cf406af-4cf5-434d-b1c7-a7c102f8dc2f
-source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
-workflow-type: ht
-source-wordcount: '650'
-ht-degree: 100%
+source-git-commit: 448b002a284b05000da80fd165b300bc24178c78
+workflow-type: tm+mt
+source-wordcount: '716'
+ht-degree: 82%
 
 ---
 
@@ -25,30 +25,28 @@ Wir freuen uns, Ihnen mitteilen zu können, dass Adobe Campaign Standard-Benutze
 * Integration in Adobe Experience Platform: Managed Cloud Services v8 verbindet sich nahtlos mit Adobe Experience Platform, sodass Kundinnen und Kunden das gesamte Potenzial ihrer Daten nutzen und kanalübergreifend personalisierte, wirkungsvolle Kampagnen bereitstellen können.
 * Konsistente Benutzeroberfläche und Erlebnisse: Ihr Wechsel zu Managed Cloud Services v8 führt zu keinerlei Störungen Ihres bestehenden Workflows. Benutzeroberfläche und Benutzererlebnisse sind vertraut und können wie gewohnt genutzt werden, was eine minimale Lernkurve für Ihr Teams sicherstellt.
 
-<!--
-As a Campaign Standard user, we now offer you a way to migrate to Adobe Campaign v8. You will benefit from both the new Campaign Web interface and the v8 console.
--->
-
 ## Wichtigste Funktionen {#key-features}
 
-Im Folgenden erfahren Sie, welche zentralen Funktionen Campaign v8 bietet:
+Campaign v8-Benutzende haben Zugriff auf die neue Campaign Web-Benutzeroberfläche und die v8-Konsole. Daten und Einstellungen werden zwischen den Umgebungen synchronisiert. Alle Ihre Daten und Einstellungen, die in der Client-Konsole verfügbar sind, sind in der Campaign Web-Benutzeroberfläche im linken Navigationsbereich des Explorers sichtbar. [Weitere Informationen](../get-started/user-interface.md#user-interface-explorer)
+
+Die Campaign-Webbenutzeroberfläche wurde für Marketing-Experten entwickelt, um ihre Kampagnen einfach zu erstellen und zu orchestrieren. Im Folgenden erfahren Sie mehr über die wichtigsten Funktionen der Campaign v8-Webbenutzeroberfläche:
 
 * Modernes, intuitives und einheitliches Erlebnis. [Weitere Informationen](../get-started/connect-to-campaign.md).
 * Neue leistungsstarke Funktionen und nahtlose Prozesse. [Weitere Informationen](../get-started/user-interface.md)
 * Neuer, vereinfachter und intuitiver Abfrage-Modeler. [Weitere Informationen](../query/query-modeler-overview.md)
 * Integrierte Funktionen zum Cross-Channel-Kampagnen-Management. [Weitere Informationen](../msg/gs-messages.md)
 * Neue und neu gestaltete Kampagnen-Workflow-Aktivitäten. [Weitere Informationen](../workflows/gs-workflows.md)
-* Erstellen einer Zielgruppe mit dem Abfrage-Modeler. [Weitere Informationen](../query/query-modeler-overview.md)
 * Einfache Erstellung und Verwaltung von Profilen. [Weitere Informationen](../audience/about-recipients.md)
 * Vordefinierte Filter. [Weitere Informationen](../get-started/predefined-filters.md)
 * HTML-Converter für E-Mail-Design. [Weitere Informationen](../email/existing-content.md)
 * SMS mit Angeboten. [Weitere Informationen](../msg/offers.md)
 
-## Konsole und Web-Benutzeroberfläche {#console}
+Die Campaign-Clientkonsole ist für Administratoren und Entwickler konzipiert, um ihre Umgebung zu konfigurieren und anzupassen. Die wichtigsten in der Campaign-Clientkonsole verfügbaren Funktionen werden in [dieser Dokumentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/whats-new){target="_blank"} beschrieben.
 
-Campaign v8-Benutzende haben Zugriff auf die neue Campaign Web-Benutzeroberfläche und die v8-Konsole. Daten und Einstellungen werden zwischen den Umgebungen synchronisiert. Alle Ihre Daten und Einstellungen, die in der Client-Konsole verfügbar sind, sind in der Campaign Web-Benutzeroberfläche im linken Navigationsbereich des Explorers sichtbar. [Weitere Informationen](../get-started/user-interface.md#user-interface-explorer)
-
-Informationen zu unterstützten und nicht unterstützten Funktionen und zur Interoperabilität zwischen der Campaign Web-Benutzeroberfläche und der Campaign-Client-Konsole finden Sie [auf dieser Seite](../get-started/capability-matrix.md).
+>[!NOTE]
+>
+>Weitere Informationen zu unterstützten und nicht unterstützten Funktionen sowie zur Interoperabilität zwischen der Web-Benutzeroberfläche von Campaign und der Campaign-Client-Konsole [finden Sie auf dieser Seite](../get-started/capability-matrix.md) .
+>
 
 ## Terminologie {#terminology}
 
@@ -61,16 +59,17 @@ Die meisten Konzepte in Campaign v8 und Campaign Standard sind sich ähnlich. E
 * Audiences are **Lists**. [Learn more](../audience/gs-audiences-recipients.md).
 -->
 
-* Benutzerdefinierte Ressourcen sind **Schemata**
+* Ressourcen und benutzerdefinierte Ressourcen sind **Schemas** und **benutzerdefinierte Schemas**
 * Nachrichten werden als **Sendungen** bezeichnet
-* Benutzende des Produkts bleiben **Benutzende**. (Im Englischen wird jedoch zwischen „Users“ und „Operators“ unterschieden.)
 * Rollen werden mit **spezifischen Berechtigungen** konfiguriert
 * Sicherheitsgruppen sind **Benutzergruppen**
 * Organisationseinheiten werden über **Ordnerberechtigungen** verwaltet
+* Produktbenutzer sind **Operatoren** in der Clientkonsole
+* Die Versandvorbereitung ist die **Versandanalyse** in der Client-Konsole.
 
-## Neue Funktionen {#new-features}
+## Spezifische Funktionen {#new-features}
 
-Damit Sie reibungslos zu Campaign v8 wechseln können, wurden wichtige Funktionen von Campaign Standard in Campaign v8 aufgenommen. Weitere Informationen dazu finden Sie in [dieser Dokumentation](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=de){target="_blank"}.
+Damit Sie reibungslos zu Campaign v8 wechseln können, wurden wichtige Funktionen von Campaign Standard in Campaign v8 aufgenommen. Sie werden in [dieser Dokumentation](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=de){target="_blank"} beschrieben und stehen nur Benutzern zur Verfügung, die vom Campaign Standard aus wechseln.
 
 * **Dynamisches Reporting**: Das dynamische Reporting ermöglicht vollständig anpassbare und in Echtzeit aktualisierte Berichte, um die Wirkung Ihrer Marketing-Aktivitäten zu messen. Durch diese Funktion kann auf Profildaten zugegriffen werden, was die demografische Analyse nach Profildimensionen wie Geschlecht, Stadt und Alter sowie nach Daten von E-Mail-Kampagnen wie Öffnungen und Klicks ermöglicht. [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html?lang=de){target="_blank"}.
 
