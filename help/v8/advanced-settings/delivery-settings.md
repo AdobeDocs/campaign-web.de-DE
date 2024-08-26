@@ -4,9 +4,9 @@ title: Konfigurieren von Versandeinstellungen
 description: Erfahren Sie, wie Sie Versandeinstellungen in Campaign Web konfigurieren
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
+source-git-commit: ea160079bb322efd8199ff63faaa79002021e07d
 workflow-type: tm+mt
-source-wordcount: '2414'
+source-wordcount: '2416'
 ht-degree: 100%
 
 ---
@@ -286,3 +286,9 @@ Sie können auch den Namen der Testsendungen anpassen:
 
 * Verwenden Sie die Option **[!UICONTROL Versandcode für den Testversand beibehalten]**, um den Testversand mit demselben Versand-Code zu verknüpfen, der für den Versand, auf den er sich bezieht, definiert ist.
 * Standardmäßig wird dem Betreff des Testversands „TESTVERSAND #“ vorangestellt, wobei # die Nummer des Testversands ist. Sie können dieses Präfix im Feld **[!UICONTROL Titelpräfix]** ändern.
+
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_settings_variable"
+>title="Variablen"
+>abstract="Variablen"
