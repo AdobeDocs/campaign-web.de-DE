@@ -4,9 +4,9 @@ title: Erste Schritte mit Adobe Campaign Web
 description: Erste Schritte mit Adobe Campaign Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 source-git-commit: be012a2412024f75f2888cb1f9c067d970fd3ca7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '566'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ Mit Campaign haben Sie folgende Möglichkeiten:
 * **E-Mail-, Mobile-, Online- und Offline-Kanäle in die Customer Journey integrieren**
 * **Automatisieren** Sie den vErsand von aussagekräftigen und rechtzeitigen Nachrichten und Angeboten
 
-## Benutzeroberfläche von Campaign Web {#web}
+## Funktionsweise der Campaign Web-Benutzeroberfläche {#web}
 
 Ursprünglich nur über eine umfangreiche [Client-Konsole](#ac-client) verfügbar, bietet Campaign jetzt eine neue Web-Benutzeroberfläche (UI) mit verbesserter Benutzerfreundlichkeit, Barrierefreiheit und einem neuen Design, um das Anwendererlebnis deutlich zu verbessern. Diese neue, moderne Benutzeroberfläche vereinfacht das Design und den Versand von Marketing-Kampagnen und sorgt für Konsistenz mit anderen Adobe-Lösungen, einschließlich Adobe Experience Platform.
 
@@ -53,7 +53,7 @@ Auf [dieser Seite](connect-to-campaign.md) finden Sie Informationen dazu, wie Si
 
 ## Über die Campaign-Client-Konsole {#ac-client}
 
-Die Clientkonsole ist für Administratoren und erweiterte Benutzer zur Ausführung ihrer Aufgaben konzipiert. Die Campaign-Client-Konsole ist eine Browser-basierte Anwendung, die auf Ihrem System installiert ist. Sie nutzt die Web-Services-API, um eine Verbindung zu Ihrem Campaign-Anwendungs-Server herzustellen.
+Die Client-Konsole ist für Admins und erfahrene Benutzende zur Ausführung ihrer Aufgaben vorgesehen. Die Campaign-Client-Konsole ist eine Browser-basierte Anwendung, die auf Ihrem System installiert ist. Sie nutzt die Web-Services-API, um eine Verbindung zu Ihrem Campaign-Anwendungs-Server herzustellen.
 
 Kampagnendaten werden auf dem Anwendungs-Server gespeichert. Daten sind sowohl über die Client-Konsole als auch über die Campaign Web-Benutzeroberfläche verfügbar. Wenn Sie beispielsweise eine Versandvorlage mithilfe der Client-Konsole erstellen, ist diese ebenfalls in der Campaign Web-Benutzeroberfläche verfügbar. Ist in der Campaign Web-Benutzeroberfläche ein E-Mail-Versand eingerichtet, kann diese Versandart auch über die Client-Konsole aufgerufen werden.
 
