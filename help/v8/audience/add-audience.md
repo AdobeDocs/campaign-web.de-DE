@@ -3,9 +3,9 @@ audience: end-user
 title: Auswählen einer bestehenden Zielgruppe
 description: Erfahren Sie, wie Sie eine Zielgruppe auswählen
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
-source-git-commit: a0da65d8facedb3730947eb969e362a367e4d317
+source-git-commit: 0830c7d7b7bba10f573ea58fa5aacd5e5e9ddccb
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '347'
 ht-degree: 100%
 
 ---
@@ -17,6 +17,16 @@ ht-degree: 100%
 >id="acw_deliveries_email_audience_select"
 >title="Auswählen einer bestehenden Zielgruppe"
 >abstract="Durchsuchen Sie die Liste, um eine vorhandene Zielgruppe auszuwählen. Verwenden Sie das Symbol „Filter anzeigen“, um die Liste zu filtern, oder wählen Sie einen bestimmten Ordner aus."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_refine_target"
+>title="Zielgruppe verfeinern"
+>abstract="Diese Regeln können nur in der Desktop-Konsole geändert werden."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_additional_target"
+>title="Zusätzliche Zielgruppe"
+>abstract="Diese Regeln können nur in der Desktop-Konsole geändert werden."
 
 In diesem Abschnitt wird beschrieben, wie Sie bei der Definition der Zielgruppe eines E-Mail-Versands eine bestehende Zielgruppe auswählen. Bei der Bestimmung der Hauptzielgruppe eines Versands haben Sie außerdem folgende Möglichkeiten:
 * [Erstellen einer einmaligen Zielgruppe](one-time-audience.md) mithilfe des Abfrage-Modelers.
