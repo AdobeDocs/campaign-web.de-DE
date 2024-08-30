@@ -4,10 +4,10 @@ description: Entdecken Sie die neuen Funktionen der nächsten Version der Campai
 hide: true
 hidefromtoc: true
 exl-id: a4c6ecb7-d657-46de-aa55-90c4cb45164b
-source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
-workflow-type: ht
-source-wordcount: '401'
-ht-degree: 100%
+source-git-commit: 802c4db04efdcac3b9251f3e40671272c79a3043
+workflow-type: tm+mt
+source-wordcount: '377'
+ht-degree: 42%
 
 ---
 
@@ -17,37 +17,31 @@ Die Adobe Campaign Web-Benutzeroberfläche bietet kontinuierlich neue Funktionen
 
 **Die nachfolgenden frühzeitigen Versionshinweise können ohne vorherige Ankündigung bis zum Verfügbarkeitsdatum der Version geändert werden**. Links, Bildschirme und die aktualisierte Dokumentation werden am Veröffentlichungsdatum in den [Versionshinweisen](release-notes.md) veröffentlicht.
 
-## Versionshinweise für Juli {#24-7-release}
+## August - Versionshinweise {#24-8-release}
 
-**Veröffentlichungsdatum**: 30.–31. Juli 2024
+**Veröffentlichungsdatum**: 3. September 2024
 
-Die folgenden Funktionen und Verbesserungen sind ab der Version Juli verfügbar.
+Die folgenden Funktionen und Verbesserungen sind ab der August-Version verfügbar.
 
-### Inhaltsfragmente {#24-7-1}
+* **Externer Versand** - In der Campaign-Web-Benutzeroberfläche können Sie jetzt externe Sendungen und externe Versandvorlagen definieren. In diesem Modus werden Nachrichten in einer Eingabedatei generiert, die für Ihren externen Anbieter freigegeben werden kann. Der externe Versandmodus ist der Standardmodus für den Briefpost-Kanal.
 
-Sie können jetzt Inhaltsfragmente erstellen und verwenden. Ein Inhaltsfragment ist eine wiederverwendbare Komponente, die in einer oder mehreren Nachrichten referenziert werden kann. Beim Ändern eines Fragments wird jeder Inhalt aktualisiert, der es verwendet. Mit dieser Funktion können Sie mehrere benutzerdefinierte Inhaltsbausteine vorab erstellen, mit denen Marketing-Benutzende Inhalte von Nachrichten schnell in einem verbesserten Design-Prozess zusammenstellen können.
+* **Visuelle Fragmente** - Sie können jetzt visuelle Inhaltsfragmente archivieren.
 
-Es stehen zwei Arten von Fragmenten zur Verfügung:
+* **Werteverteilung** - Beim Zugriff auf die Liste der zur Personalisierung vorgesehenen Felder können Sie jetzt überprüfen, wie die Werte für jedes Feld verteilt werden. Ein dediziertes Popup-Fenster zeigt die Anzahl und den Prozentsatz für jeden Wert an.
 
-* **Ausdrucksfragmente** sind vordefinierte Ausdrücke, die über einen dedizierten Eintrag im Ausdruckseditor verfügbar sind.
-* **Visuelle Fragmente** sind vordefinierte visuelle Bausteine, die Sie in mehreren E-Mail-Sendungen oder in Inhaltsvorlagen wiederverwenden können. [Weitere Informationen](../content/fragments.md)
-
-  >[!AVAILABILITY]
-  >
-  >**Visuelle Fragmente** sind eingeschränkt verfügbar (LA, Limited Availability). Diese Funktion ist Kundinnen und Kunden vorbehalten, die **von Adobe Campaign Standard zu Adobe Campaign v8** migrieren, und kann nicht in anderen Umgebungen bereitgestellt werden.
-
-### Testlisten {#24-7-2}
-
-Eine Testliste, auch bezeichnet als  **Trap-Gruppe**, ist eine Liste von Testadressen. Sie wird verwendet, um bestimmte Adressen in Ihre Sendungen einzubeziehen und dann Profile auszuwählen, die nicht den definierten Zielgruppenkriterien entsprechen. Auf diese Weise können Empfängerinnen und Empfänger, die außerhalb der Versandzielgruppe liegen, die Nachricht ebenso wie jede andere Person innerhalb der Zielgruppe erhalten.  Sie können Testadressen beim Versand von Testsendungen oder zum Schutz Ihrer Mailing-Liste verwenden.
-
-### Vorlagen für Rich-Push-Benachrichtigungen {#24-7-3}
-
-Sie können nun Rich-Push-Benachrichtigungen senden. Eine Rich-Push-Benachrichtigung ist eine erweiterte Form einer Mobilgeräte-Benachrichtigung, die über einfache Textnachrichten hinausgeht und Multimedia-Elemente wie Bilder, interaktive Schaltflächen oder andere Rich-Media-Inhalte enthält. Mit dieser Version sind jetzt eine Reihe von Vorlagen für Rich-Push-Benachrichtigungen für Ihre iOS- und Android-Apps verfügbar.
+### Neue Funktionen in eingeschränkter Verfügbarkeit {#acs-24-8}
 
 >[!AVAILABILITY]
 >
->Diese Funktion erfordert ein Update auf Campaign v8.6.3 oder v8.7.2. Weitere Informationen finden Sie in den [Versionshinweisen zur Client Console von Campaign v8](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/releases/release-notes).
+>Die folgenden Funktionen sind nur eingeschränkt verfügbar. Sie sind Kundinnen und Kunden vorbehalten, die **von Adobe Campaign Standard zu Adobe Campaign v8** migrieren, und können nicht in anderen Umgebungen bereitgestellt werden.
+>
+>Weitere Informationen finden Sie auf den folgenden Seiten der Dokumentation: [Wechsel von Campaign Standard zu Campaign v8](../rn/acs-migration.md) und [Funktionen für Campaign Standard-Benutzende](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=de).
 
-### Verbesserungen {#improvements-24-7}
+* **Branding für Briefpost** - Technische Administratoren können jetzt eine oder mehrere Marken definieren, um die Parameter zu zentralisieren, die sich auf die Identität einer Marke auswirken. das Logo der Marke, die Domain der Zugangs-URL zu den Landingpages, Einstellungen zum Nachrichten-Tracking. Sie können diese Marken jetzt erstellen und mit Nachrichten oder Landingpages verknüpfen. Diese Konfiguration wird in Vorlagen vorgenommen.
 
-**Ordnerverwaltung**: Sie können jetzt Berechtigungen und Einschränkungen für Ordner verwalten.
+* **Landingpages reCaptcha** - Sie können jetzt den Google reCAPTCHA-Mechanismus verwenden, um Ihre Landingpage vor Spam und Missbrauch durch Bots zu schützen. Dies ist nicht störend für Ihre Kunden, da sie keine Interaktion von ihnen erfordern und auf Interaktionen mit Ihrer Site basieren.
+
+* **Abonnements mit Landingpages** - Sie können jetzt eine Landingpage mit einem Dienst verknüpfen, damit Profile einen bestimmten Dienst bei der Validierung abonnieren können.
+
+
+
