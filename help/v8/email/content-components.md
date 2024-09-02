@@ -3,10 +3,10 @@ audience: end-user
 title: Verwenden der Inhaltskomponenten von E-Mail-Designer
 description: Erfahren Sie, wie Sie Inhaltskomponenten in E-Mails verwenden
 exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
-source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
-workflow-type: ht
-source-wordcount: '1166'
-ht-degree: 100%
+source-git-commit: 13ff1f0e052ff16dcf59c2ed10c62f987f5651a8
+workflow-type: tm+mt
+source-wordcount: '1195'
+ht-degree: 97%
 
 ---
 
@@ -147,6 +147,11 @@ Verwenden Sie die Komponente **[!UICONTROL HTML]**, um die unterschiedlichen Tei
 >Um einen externen Inhalt einfach mit dem E-Mail-Designer kompatibel zu machen, empfiehlt Adobe, [eine Nachricht von Grund auf neu zu erstellen](create-email-content.md) und den Inhalt aus Ihrer bestehenden E-Mail in Komponenten zu kopieren.
 
 ## Bild {#image}
+
+>[!IMPORTANT]
+>
+>Der Zugriff auf das Assets-Menü ist auf Benutzer mit einer aktiven Adobe Experience Essentials-Lizenz beschränkt. Wenn Sie diese Lizenz nicht besitzen, ist das Menü Assets nicht verfügbar.
+
 
 Verwenden Sie die Komponente **[!UICONTROL Bild]**, um eine Bilddatei von Ihrem Computer in Ihre E-Mail einzufügen.
 
