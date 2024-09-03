@@ -2,10 +2,10 @@
 audience: end-user
 title: Erstellen von Inhaltsfragmenten
 description: Erfahren Sie, wie Sie Inhaltsfragmente erstellen
-source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
-workflow-type: ht
-source-wordcount: '918'
-ht-degree: 100%
+source-git-commit: d27bbc8647d17dc442656465aa6d5a7e4fe7f060
+workflow-type: tm+mt
+source-wordcount: '1013'
+ht-degree: 88%
 
 ---
 
@@ -141,11 +141,23 @@ Gehen Sie wie folgt vor, um ein Inhaltsfragment zu löschen:
 >
 >Beim Löschen eines Fragments werden die Sendungen und Vorlagen, die dieses Fragment verwenden, aktualisiert: Das Fragment wird aus dem Inhalt entfernt, wird aber trotzdem noch referenziert. Um den Fragmentinhalt in diesen Sendungen und Vorlagen zu behalten, müssen Sie die Vererbung aufheben, bevor Sie das Fragment löschen, [wie in diesem Abschnitt beschrieben](use-visual-fragments.md#break-inheritance).
 
+### Inhaltsfragment archivieren {#archive}
+
+Sie können die Fragmentliste aus den Fragmenten löschen, die für Ihre Marke nicht mehr relevant sind. Klicken Sie dazu auf die Schaltfläche **[!UICONTROL Mehr Aktionen]** neben dem gewünschten Fragment und wählen Sie **[!UICONTROL Archivieren]** aus. Das Fragment wird aus der Fragmentliste entfernt, was verhindert, dass Benutzer es in zukünftigen E-Mails oder Vorlagen verwenden.
+
+Um auf archivierte Fragmente zuzugreifen, verwenden Sie das Filterfenster, um sie anzuzeigen. Um die Archivierung eines Fragments aufzuheben, klicken Sie auf die Schaltfläche **[!UICONTROL Mehr Aktionen]** und wählen Sie **[!UICONTROL Archivierung aufheben]** aus.
+
+![](assets/fragment-unarchive.png)
+
+>[!NOTE]
+>
+>Wenn Sie ein Fragment archivieren, das in einem Inhalt verwendet wird, wirkt sich dies nicht auf diesen Inhalt aus.
+
 ### Duplizieren eines Inhaltsfragments {#duplicate-fragments}
 
 Sie können ein Inhaltsfragment einfach duplizieren, um ein neues zu erstellen. Gehen Sie wie folgt vor, um ein vorhandenes Fragment zu duplizieren:
 
-1. Navigieren Sie zur Fragmentliste und klicken Sie neben dem zu duplizierenden Fragment auf die Schaltfläche **[!UICONTROL Mehr Aktionen]**.
+1. Navigieren Sie zur Fragmentliste und klicken Sie auf die Schaltfläche **[!UICONTROL Mehr Aktionen]** neben dem zu duplizierenden Fragment.
 1. Klicken Sie auf **Duplizieren** und bestätigen Sie den Vorgang.
 1. Geben Sie den Titel des neuen Fragments ein und speichern Sie die Änderungen.
 

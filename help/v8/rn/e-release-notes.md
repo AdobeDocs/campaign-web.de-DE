@@ -4,7 +4,7 @@ description: Entdecken Sie die neuen Funktionen der nächsten Version der Campai
 hide: true
 hidefromtoc: true
 exl-id: a4c6ecb7-d657-46de-aa55-90c4cb45164b
-source-git-commit: 00051db2d5c052fce55434d8dbf47502156d171a
+source-git-commit: d5a916578a9d79ad021064b9c1e6b26e396ebd15
 workflow-type: tm+mt
 source-wordcount: '346'
 ht-degree: 42%
@@ -43,3 +43,5 @@ Die folgenden Funktionen und Verbesserungen sind ab der August-Version verfügba
 * **Landingpages Captcha** - Sie können jetzt Captcha hinzufügen, um Ihre Landingpage vor Spam und Missbrauch durch Bots zu schützen. Dies ist nicht störend für Ihre Kunden, da sie keine Interaktion von ihnen erfordern und auf Interaktionen mit Ihrer Site basieren.
 
 * **Rest-APIs** - Als Campaign Standard migrierte Benutzer können Sie jetzt REST-APIs verwenden, um mit Transaktionsnachrichten zu arbeiten. [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html?lang=de){target="_blank"}.
+
+

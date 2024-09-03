@@ -3,10 +3,10 @@ audience: end-user
 title: Erstellen Ihrer erste Abfrage mithilfe des Abfrage-Modelers
 description: Erfahren Sie, wie Sie Ihre erste Abfrage im Abfrage-Modeler in Adobe Campaign Web erstellen.
 exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
-source-git-commit: 66882fccf771cd6d3fa85f47d42b3ee53d1485f7
+source-git-commit: c7bb533174019d465f273c4fede3b578a40f2bb6
 workflow-type: tm+mt
-source-wordcount: '2103'
-ht-degree: 100%
+source-wordcount: '2210'
+ht-degree: 95%
 
 ---
 
@@ -27,6 +27,22 @@ Sie können zwei Elementtypen hinzufügen:
   Beispiel: *Empfängerinnen und Empfänger, die den Newsletter „Sport“ abonniert haben **UND**in New York **ODER**San Francisco leben*
 
   ![](assets/query-add-operator.png){zoomable="yes"}
+
+## Werteverteilung in einer Abfrage {#distribution-values-query}
+
+Die Werteverteilung hilft dabei, den Prozentsatz eines Werts in einem Feld innerhalb einer Tabelle zu ermitteln. Die Kenntnis der Werteverteilung in einer Abfrage kann Ihnen bei der Verfeinerung Ihrer Segmentierung helfen.
+
+Um auf die Funktion zuzugreifen, klicken Sie in Ihrer Abfrage auf die Schaltfläche zur Attributauswahl, wie unten dargestellt. Klicken Sie dann auf das Symbol **[!UICONTROL Informationen]** neben dem ausgewählten Attribut. Sie können dort auf die Schaltfläche **[!UICONTROL Werteverteilung]** zugreifen.
+
+![](assets/values_query.png){zoomable="yes"}
+
+>[!NOTE]
+>
+> Bei Feldern mit vielen Werten werden nur die ersten zwanzig Werte angezeigt. Eine Benachrichtigung **[!UICONTROL Teillade]** gibt eine Warnung aus.
+
+>[!NOTE]
+>
+> Die Funktion **[!UICONTROL Werteverteilung]** ist in jeder Attributauswahl verfügbar.
 
 ## Hinzufügen von Filterkomponenten {#filtering}
 

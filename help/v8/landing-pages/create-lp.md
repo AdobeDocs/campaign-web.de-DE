@@ -3,10 +3,10 @@ title: Erstellen einer Landingpage
 description: Hier erfahren Sie, wie Sie in Campaign Web eine Landingpage konfigurieren und veröffentlichen können.
 feature: Landing Pages
 exl-id: d4a49048-5ab1-4b69-9e12-1ffa235c51f4
-source-git-commit: 9dbdc657c319dd3260e763bc4f25778d3e2ad58a
+source-git-commit: 865978dd8083723187a90647060f8758d4d888be
 workflow-type: tm+mt
-source-wordcount: '1478'
-ht-degree: 100%
+source-wordcount: '1619'
+ht-degree: 91%
 
 ---
 
@@ -98,6 +98,8 @@ Gehen Sie wie folgt vor, um eine Landingpage zu erstellen:
 
    Standardmäßig werden Landingpages im Ordner **[!UICONTROL Web-Anwendungen]** gespeichert. Sie können dies ändern, indem Sie unter **[!UICONTROL Zusätzliche Optionen]** zum gewünschten Speicherort wechseln. [Erfahren Sie mehr über die Arbeit mit Ordnern](../get-started/permissions.md#folders)
 
+   Sie können das Captcha auch einrichten, um Ihre Landingpage zu schützen. [Weitere Informationen finden Sie hier](#captcha).
+
    ![](assets/lp-properties.png){zoomable="yes"}
 
 1. Im Abschnitt **[!UICONTROL Daten vorausfüllen]** sind die beiden folgenden Optionen verfügbar:
@@ -155,6 +157,28 @@ Gehen Sie wie folgt vor, um eine Landingpage zu erstellen:
 1. Klicken Sie auf **[!UICONTROL Überprüfen und veröffentlichen]**.
 
 Nachdem Sie alle Einstellungen definiert und alle Seiten [entworfen](lp-content.md) haben, können Sie Ihre Landingpage wie unten beschrieben [testen](#test-landing-page) und [veröffentlichen](#publish-landing-page).
+
+## Sichern Ihrer Landingpage mit einem Captcha {#captcha}
+
+>[!AVAILABILITY]
+>
+>Diese Funktion ist nur eingeschränkt verfügbar. Sie ist auf Kunden beschränkt, die **Adobe Campaign v8.7.2 verwenden, das mit der letzten Fix-Version** aktualisiert wurde, und kann in keiner anderen Umgebung bereitgestellt werden.
+
+Durch die Einrichtung eines Captcha können Sie Ihre Landingpage vor Spam und Missbrauch schützen.
+
+Um es zu verwenden, navigieren Sie zu den **[!UICONTROL Eigenschaften]** Ihrer Landingpage.
+Auch in den **[!UICONTROL zusätzlichen Optionen]** . Aktivieren Sie den Umschalter **[!UICONTROL Zusätzliche Captcha-Lösung aktivieren]** .
+
+![](assets/lp-properties-captcha.png){zoomable="yes"}
+
+Um die Captcha-Einstellungen zu überprüfen, klicken Sie auf die Schaltfläche **[!UICONTROL Überprüfen und veröffentlichen]** und auf **[!UICONTROL Inhalt simulieren]**. Beim Senden des Formulars sehen Sie, wie das Captcha-Widget während der Validierung funktioniert, wie unten dargestellt.
+
+![](assets/lp-captcha.png){zoomable="yes"}
+
+>[!NOTE]
+>
+>Das Captcha-Widget in Adobe Campaign v8 ist ALTCHA, das im unverankerten Modus arbeitet. Sie wird während der Validierung angezeigt und verschwindet nach Abschluss des Prozesses.
+
 
 ## Testen der Landingpage {#test-landing-page}
 

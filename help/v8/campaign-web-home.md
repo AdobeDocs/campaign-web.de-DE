@@ -3,10 +3,10 @@ keywords: Campaign Web;Startseite;beliebte Themen
 description: Hilfe-Center zu Campaign Web
 title: Produktdokumentation zu Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 728bc032614067bc420b80a4cac634a08f594ff8
-workflow-type: ht
-source-wordcount: '448'
-ht-degree: 100%
+source-git-commit: 5f12974209ba76d902357fed7830d2472ca9e00d
+workflow-type: tm+mt
+source-wordcount: '456'
+ht-degree: 89%
 
 ---
 
@@ -51,23 +51,23 @@ Hier erhalten Sie einen Einblick in die neuesten Verbesserungen in Adobe Campaig
 
 >[!BEGINTABS]
 
->[!TAB Die Juli-Version ist live!]
+>[!TAB Die August-Version ist live!]
 
 Entdecken Sie die neuen Funktionen und Verbesserungen der Web-Benutzeroberfläche von Adobe Campaign in der Version vom Juli 2024.
 
 [![Bild](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
 
->[!TAB Versandwarnungen]
+>[!TAB Werteverteilung]
 
-Bei Versandwarnungen handelt es sich um ein System zum Warnungs-Management, über das Benutzergruppen automatisch E-Mail-Benachrichtigungen mit Informationen zu ihren Versandausführungen erhalten. 
+Beim Zugriff auf die Liste der zur Personalisierung erforderlichen Felder können Sie nun prüfen, wie die Werte für jedes Feld verteilt werden.
 
-[![Bild](assets/do-not-localize/learn-more-button.svg)](../v8/msg/delivery-alerting.md)
+[![Bild](assets/do-not-localize/learn-more-button.svg)](../v8/query/build-query.md#distribution-values-query)
 
->[!TAB Pläne und Programme]
+>[!TAB Captcha in Landingpages]
 
-Adobe Campaign ermöglicht Ihnen das Konfigurieren Ihrer Ordnerhierarchie für Marketing-Pläne und -Programme.
+Jetzt können Sie Captcha hinzufügen, um Ihre Landingpage vor Spam und Missbrauch durch Bots zu schützen. Diese Funktion ist in begrenztem Umfang verfügbar.
 
-[![Bild](assets/do-not-localize/learn-more-button.svg)](administration/plans-programs.md)
+[![Bild](assets/do-not-localize/learn-more-button.svg)](../v8/landing-pages/create-lp.md#captcha)
 
 
 >[!ENDTABS]
