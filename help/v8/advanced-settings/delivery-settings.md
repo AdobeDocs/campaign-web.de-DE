@@ -4,10 +4,10 @@ title: Konfigurieren von Versandeinstellungen
 description: Erfahren Sie, wie Sie Versandeinstellungen in Campaign Web konfigurieren
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: ea160079bb322efd8199ff63faaa79002021e07d
-workflow-type: ht
-source-wordcount: '2416'
-ht-degree: 100%
+source-git-commit: 8b1292a9c55a0006b981fa33c6fd8b05eb699461
+workflow-type: tm+mt
+source-wordcount: '2787'
+ht-degree: 89%
 
 ---
 
@@ -288,7 +288,68 @@ Sie können auch den Namen der Testsendungen anpassen:
 * Standardmäßig wird dem Betreff des Testversands „TESTVERSAND #“ vorangestellt, wobei # die Nummer des Testversands ist. Sie können dieses Präfix im Feld **[!UICONTROL Titelpräfix]** ändern.
 
 
+
+
+## SMTP-Einstellungen für den E-Mail-Versand {#smtp}
+
+>[!CONTEXTUALHELP]
+>id="acw_email_settings_smtp"
+>title="SMTP-Parameter"
+>abstract="Sie können Ihrem E-Mail-Versand zusätzliche SMTP-Parameter hinzufügen."
+
+Sie können Ihrem E-Mail-Versand zusätzliche SMTP-Parameter hinzufügen. Dies ist im Tab SMTP der Versandeinstellungen möglich.
+
+![](assets/smtp_tab.png){zoomable="yes"}
+
+### Zeichenkodierung {#character-encoding}
+
+Im Abschnitt **[!UICONTROL Zeichenkodierung]** können Sie eine bestimmte Kodierung festlegen. Die Standardkodierung ist UTF-8, was für die meisten Zeichen funktioniert. Einige E-Mail-Anbieter zeigen Sonderzeichen jedoch möglicherweise nicht richtig an, wenn sie die UTF-8-Standardkodierung nicht unterstützen.
+
+Wenn Sie beispielsweise eine E-Mail mit japanischen Zeichen versenden möchten, ist es besser, eine Kodierung zu verwenden, die diese Zeichen spezifisch unterstützt, damit Ihre japanische Zielgruppe alles korrekt sehen kann.
+
+Aktivieren Sie dazu den Umschalter **[!UICONTROL Für Nachrichten verwendete Kodierung erzwingen]** und wählen Sie die richtige Kodierung aus der Liste aus, die Ihre Sonderzeichen unterstützt.
+
+![](assets/smtp_encoding.png){zoomable="yes"}
+
+### Bounce-E-Mails {#bounce-emails}
+
+Im Tab **[!UICONTROL SMTP]** der Versandeinstellungen können Sie außerdem die Verwaltung von Bounce Messages konfigurieren.
+
+* **[!UICONTROL Fehler-an-Adresse]**: Wenn Sie den Umschalter **[!UICONTROL Standardmäßige Fehleradresse verwenden, die für die Plattform definiert ist]** aktivieren, werden Bounce-E-Mails im standardmäßigen Fehlerfeld der Plattform empfangen. Wenn Sie sie nicht aktivieren, können Sie eine bestimmte Fehleradresse für Ihren Versand definieren.
+
+* **[!UICONTROL Bounce-Adresse]**: Sie können auch eine andere Adresse definieren, an die die nicht verarbeiteten Bounce Messages weitergeleitet werden. Diese Adresse ermöglicht es, die Gründe für das Bounce-Verhalten zu untersuchen, wenn E-Mails von der Anwendung nicht automatisch qualifiziert werden konnten.
+
+Diese beiden Felder können personalisiert werden, wie in [diesem Abschnitt](../personalization/gs-personalization.md) beschrieben.
+
+![](assets/smtp_bounce.png){zoomable="yes"}
+
+### Zusätzliche SMTP-Header {#smtp-headers}
+
+Sie können Ihrem E-Mail-Versand im Tab SMTP der Versandeinstellungen **[!UICONTROL SMTP-Header]** hinzufügen.
+
+Das in diesem Fenster eingegebene Skript muss pro Zeile einen Header im folgenden Formular referenzieren: name:value.
+
+Werte werden bei Bedarf automatisch verschlüsselt.
+
+![](assets/smtp_headers.png){zoomable="yes"}
+
+
+>[!IMPORTANT]
+>
+>Das Hinzufügen eines Scripts für zusätzliche SMTP-Header ist eine Aufgabe für erfahrene Benutzer. Die Syntax des Scripts muss die Anforderungen für diesen Inhaltstyp (keine überflüssigen Leerzeichen, keine Leerzeilen usw.) erfüllen.
+
+## Variablen hinzufügen {#variables-delivery}
+
 >[!CONTEXTUALHELP]
 >id="acw_delivery_settings_variable"
 >title="Variablen"
 >abstract="Variablen"
+
+Sie können Ihrem Versand Variablen hinzufügen, die für das Tracking nützlich sein können. Gehen Sie dazu folgendermaßen vor:
+Navigieren Sie zur Registerkarte **[!UICONTROL Variablen]** , wie unten dargestellt.
+
+![](assets/variables-tab.png){zoomable="yes"}
+
+Klicken Sie auf die Schaltfläche **[!UICONTROL Variablen hinzufügen]** , um die Details Ihrer Variablen einzugeben, und klicken Sie dann auf **[!UICONTROL Bestätigen]** , um Ihre Änderungen zu speichern.
+
+![](assets/variables-add.png){zoomable="yes"}

@@ -3,10 +3,10 @@ audience: end-user
 title: Arbeiten mit dem Abfrage-Modeler
 description: Lernen Sie, mit dem Abfrage-Modeler von Adobe Campaign Web zu arbeiten.
 exl-id: 56708a66-f654-413a-80ed-1865077b3c0a
-source-git-commit: 66882fccf771cd6d3fa85f47d42b3ee53d1485f7
+source-git-commit: ecff4e56bd346aadf381a1bf2077204804938f62
 workflow-type: tm+mt
-source-wordcount: '558'
-ht-degree: 100%
+source-wordcount: '620'
+ht-degree: 90%
 
 ---
 
@@ -21,6 +21,11 @@ ht-degree: 100%
 >id="acw_orchestration_querymodeler_querymessage"
 >title="Abfrage-Modeler"
 >abstract="Definieren Sie Filterkriterien für Empfängerinnen und Empfänger oder jede andere Zielgruppendimension aus der Datenbank. Nutzen Sie Ihre Adobe Experience Platform-Zielgruppe, um die Zielgruppe weiter zu verfeinern und die Wirkung der Kampagne zu maximieren."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_refine_target"
+>title="Zielgruppe verfeinern"
+>abstract="Diese Regeln können nur in der Clientkonsole geändert werden."
 
 Die Adobe Campaign Web-Benutzeroberfläche verfügt über einen Abfrage-Modeler, der das Filtern von Datenbanken anhand verschiedener Kriterien vereinfacht. Dadurch wird die vollständige Kompatibilität mit den in der Client-Konsole erstellten Abfragen sichergestellt und ein nahtloser Übergang zur Web-Benutzeroberfläche ermöglicht.
 
@@ -38,6 +43,12 @@ Der Abfrage-Modeler ist in jedem Kontext verfügbar, in dem Sie Regeln zum Filte
 | **Berichtsdaten filtern**: Fügen Sie eine Regel hinzu, um die in Berichten angezeigten Daten zu filtern.  [Informationen zum Arbeiten mit Profilen](../reporting/gs-reports.md) | ![](assets/access-reports.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
 | **Listen anpassen**: Erstellen Sie benutzerdefinierte Regeln, um die in Listen angezeigten Daten zu filtern, wie z. B. Empfängerinnen und Empfänger, Sendungslisten usw.  [Informationen zum Filtern von Listen](../get-started/list-filters.md#list-built-in-filters) | ![](assets/access-lists.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
 | **Bedingten Inhalt erstellen**: Gestalten Sie den E-Mail-Inhalt dynamisch, indem Sie Bedingungen erstellen, die festlegen, welche Inhalte den verschiedenen Empfangenden angezeigt werden sollen, und so personalisierte und relevante Nachrichten sicherstellen. [Informationen zum Erstellen von bedingten Inhalten](../personalization/conditions.md) | ![](assets/conditional-content.png){width="200" align="center" zoomable="yes"} |
+
+>[!NOTE]
+>
+>Beim Zugriff auf ein in der Clientkonsole erstelltes Objekt, in dem Regeln angewendet wurden, wie z. B. eine Zielgruppe oder einen vordefinierten Filter, wird möglicherweise der Abschnitt **[!UICONTROL Ziel einschränken]** angezeigt. Dies bedeutet, dass zusätzliche Parameter zur Verfeinerung des Regelziels konfiguriert wurden. Diese Parameter können nur in der Konsole geändert werden.
+>
+>![](assets/target-warning.png){zoomable="yes"}
 
 ## Benutzeroberfläche des Abfrage-Modelers {#interface}
 
