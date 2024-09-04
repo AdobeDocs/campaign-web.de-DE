@@ -4,7 +4,7 @@ title: Konfigurieren von Versandeinstellungen
 description: Erfahren Sie, wie Sie Versandeinstellungen in Campaign Web konfigurieren
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: 8b1292a9c55a0006b981fa33c6fd8b05eb699461
+source-git-commit: 78356629dc64702d81645b684350304f65b88597
 workflow-type: tm+mt
 source-wordcount: '2787'
 ht-degree: 89%
@@ -345,8 +345,7 @@ Werte werden bei Bedarf automatisch verschlüsselt.
 >title="Variablen"
 >abstract="Variablen"
 
-Sie können Ihrem Versand Variablen hinzufügen, die für das Tracking nützlich sein können. Gehen Sie dazu folgendermaßen vor:
-Navigieren Sie zur Registerkarte **[!UICONTROL Variablen]** , wie unten dargestellt.
+Sie können Ihrem Versand Variablen hinzufügen, die für das Tracking nützlich sein können. Navigieren Sie dazu zur Registerkarte **[!UICONTROL Variablen]** , wie unten dargestellt.
 
 ![](assets/variables-tab.png){zoomable="yes"}
 
