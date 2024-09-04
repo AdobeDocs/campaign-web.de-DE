@@ -3,9 +3,9 @@ audience: end-user
 title: Erstellen Ihrer erste Abfrage mithilfe des Abfrage-Modelers
 description: Erfahren Sie, wie Sie Ihre erste Abfrage im Abfrage-Modeler in Adobe Campaign Web erstellen.
 exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
-source-git-commit: c7bb533174019d465f273c4fede3b578a40f2bb6
+source-git-commit: 88774a747f4e54d7bf0ebba05c181b2a8476764f
 workflow-type: tm+mt
-source-wordcount: '2210'
+source-wordcount: '2212'
 ht-degree: 95%
 
 ---
@@ -30,19 +30,17 @@ Sie können zwei Elementtypen hinzufügen:
 
 ## Werteverteilung in einer Abfrage {#distribution-values-query}
 
-Die Werteverteilung hilft dabei, den Prozentsatz eines Werts in einem Feld innerhalb einer Tabelle zu ermitteln. Die Kenntnis der Werteverteilung in einer Abfrage kann Ihnen bei der Verfeinerung Ihrer Segmentierung helfen.
+Die Werteverteilung zeigt den Prozentsatz der einzelnen Werte eines Felds innerhalb einer Tabelle gemäß den aktuellen Abfrageparametern an. Die Kenntnis der Werteverteilung in einer Abfrage kann Ihnen dabei helfen, Ihre Segmentierung zu verfeinern.
 
-Um auf die Funktion zuzugreifen, klicken Sie in Ihrer Abfrage auf die Schaltfläche zur Attributauswahl, wie unten dargestellt. Klicken Sie dann auf das Symbol **[!UICONTROL Informationen]** neben dem ausgewählten Attribut. Sie können dort auf die Schaltfläche **[!UICONTROL Werteverteilung]** zugreifen.
+Um auf diese Option zuzugreifen, klicken Sie in Ihrer Abfrage auf die Schaltfläche zur Attributauswahl, wie unten dargestellt. Klicken Sie dann auf das Symbol **[!UICONTROL Informationen]** neben dem ausgewählten Attribut. Sie haben Zugriff auf die Schaltfläche **[!UICONTROL Werteverteilung]** .
 
 ![](assets/values_query.png){zoomable="yes"}
 
 >[!NOTE]
 >
-> Bei Feldern mit vielen Werten werden nur die ersten zwanzig Werte angezeigt. Eine Benachrichtigung **[!UICONTROL Teillade]** gibt eine Warnung aus.
-
->[!NOTE]
+>* Bei Feldern mit vielen Werten werden nur die ersten zwanzig Werte angezeigt. In diesem Fall warnt Sie die Benachrichtigung **[!UICONTROL Teillast]**.
 >
-> Die Funktion **[!UICONTROL Werteverteilung]** ist in jeder Attributauswahl verfügbar.
+>* Die Option **[!UICONTROL Werteverteilung]** ist in jeder Attributauswahl verfügbar.
 
 ## Hinzufügen von Filterkomponenten {#filtering}
 
