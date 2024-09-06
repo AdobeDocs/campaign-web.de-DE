@@ -3,10 +3,10 @@ audience: end-user
 title: Verwenden der Aktivität „Anmeldedienste“
 description: Informationen dazu, wie Sie die Workflow-Aktivität „Anmeldedienste“ verwenden
 exl-id: 0e7c2e9a-3301-4988-ae0e-d901df5b84db
-source-git-commit: 0e5b5e916309b2a337ac86f3741bcb83237b3fad
+source-git-commit: 5d13a654974b8a448c2bbaded46f9f6f5727682f
 workflow-type: tm+mt
-source-wordcount: '972'
-ht-degree: 100%
+source-wordcount: '1067'
+ht-degree: 94%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription_additionalinfo"
 >title="Zusätzliche Informationen"
->abstract="Zusätzliche Informationen"
+>abstract="Geben Sie die Daten und den Ursprung des Abonnements für jeden Datensatz an. Sie können diesen Abschnitt leer lassen. In diesem Fall wird bei Ausführung des Workflows kein Datum oder keine Herkunft festgelegt. Wenn die eingehenden Daten eine Spalte enthalten, die das Abonnementdatum des Profils für den Dienst angibt, können Sie sie im Feld **[!UICONTROL Datum]** auswählen. Definieren Sie im Feld **[!UICONTROL Ursprungspfad]** den Ursprung der Anmeldung. Sie können dazu den Wert eines der Felder der eingehenden Daten oder eine beliebige Konstante verwenden, indem Sie die Option **[!UICONTROL Konstante als Ursprung festlegen]** aktivieren. "
 
 Die Aktivität **Anmeldedienste** ist eine **Daten-Management**-Aktivität. Darüber können Sie eine Anmeldung zu einem Informationsdienst für die in der Transition angegebene Population erstellen oder löschen.
 

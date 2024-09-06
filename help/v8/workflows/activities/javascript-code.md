@@ -3,9 +3,9 @@ audience: end-user
 title: Verwenden der Workflow-Aktivität „JavaScript-Code“
 description: Informationen dazu, wie Sie die Workflow-Aktivität „JavaScript-Code“ verwenden.
 exl-id: ca040ef8-5e0d-44e0-818d-08cfe99100be
-source-git-commit: 93f6347828c72535c1a005ecd6ca18596a180098
+source-git-commit: 5d13a654974b8a448c2bbaded46f9f6f5727682f
 workflow-type: tm+mt
-source-wordcount: '968'
+source-wordcount: '990'
 ht-degree: 100%
 
 ---
@@ -31,6 +31,11 @@ ht-degree: 100%
 >id="acw_orchestration_javascript_transition"
 >title="JavaScript-Transition"
 >abstract="Wenn Sie mehrere ausgehende Transitionen hinzufügen möchten, klicken Sie auf die Schaltfläche **[!UICONTROL Transitionen hinzufügen]**. Dadurch kann beispielsweise eine bestimmte Transition basierend auf einer in der JavaScript-Code-Aktivität definierten Bedingung ausgelöst werden. Diese Option ist nur für **erweiterte** JavaScript-Code-Aktivitäten verfügbar."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_javascript_transition"
+>title="JavaScript-Transition"
+>abstract="Aktivieren Sie die Option **[!UICONTROL Fehler verarbeiten]**, um während der Skriptausführung auftretende Fehler in einer zusätzlichen ausgehenden Transition zu belassen."
 
 Die **JavaScript-Code**-Aktivität ist eine **Daten-Management**-Aktivität. Verwenden Sie diese Aktivität, um ein JavaScript-Skript im Kontext eines Workflows auszuführen. Auf diese Weise können Sie Informationen aus der Datenbank erfassen oder andere komplexe Vorgänge durchführen.
 

@@ -3,14 +3,24 @@ audience: end-user
 title: Verwenden der Workflow-Aktivität „Test“
 description: Informationen dazu, wie Sie die Workflow-Aktivität „Test“ verwenden
 exl-id: 1bb25ad4-2cab-4656-85bd-4ed018e8477b
-source-git-commit: 93f6347828c72535c1a005ecd6ca18596a180098
+source-git-commit: 5d13a654974b8a448c2bbaded46f9f6f5727682f
 workflow-type: tm+mt
-source-wordcount: '304'
-ht-degree: 100%
+source-wordcount: '376'
+ht-degree: 97%
 
 ---
 
 # Test {#test}
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_test"
+>title="Testaktivität"
+>abstract="Die Aktivität **Test** ist eine Aktivität zur **Flusskontrolle**. Sie ermöglicht die Aktivierung von Transitionen auf der Basis der angegebenen Bedingungen."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_test_conditions"
+>title="Bedingungen"
+>abstract="Die Aktivität **Test** kann mehrere ausgehende Transitionen aufweisen. Während der Ausführung des Workflows wird jede Bedingung nacheinander getestet, bis eine der Bedingungen erfüllt ist. Wenn keine der Bedingungen erfüllt ist, wird der Workflow entlang des Pfads der **[!UICONTROL Standardbedingung]** fortgesetzt. Wenn keine Standardbedingung aktiviert ist, werden die Workflows an dieser Stelle beendet."
 
 Die Aktivität **Test** ist eine Aktivität zur **Flusskontrolle**. Sie ermöglicht die Aktivierung von Transitionen auf der Basis der angegebenen Bedingungen.
 

@@ -3,9 +3,9 @@ audience: end-user
 title: Verwendung der Workflow-Aktivität „Anreicherung“
 description: Erfahren Sie, wie Sie die Workflow-Aktivität „Anreicherung“ verwenden.
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
-source-git-commit: 728bc032614067bc420b80a4cac634a08f594ff8
+source-git-commit: 5d13a654974b8a448c2bbaded46f9f6f5727682f
 workflow-type: tm+mt
-source-wordcount: '1636'
+source-wordcount: '1705'
 ht-degree: 100%
 
 ---
@@ -16,26 +16,6 @@ ht-degree: 100%
 >id="acw_orchestration_enrichment"
 >title="Aktivität „Anreicherung“"
 >abstract="Die Aktivität **Anreicherung** ermöglicht es Ihnen, die Zielgruppendaten um zusätzliche Informationen aus der Datenbank zu erweitern. Sie wird in einem Workflow häufig nach den Segmentierungsaktivitäten verwendet."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_enrichment_data"
->title="Aktivität „Anreicherung“"
->abstract="Nachdem Anreicherungsdaten zum Workflow hinzugefügt wurden, können sie in den Aktivitäten verwendet werden, die nach der Aktivität „Anreicherung“ hinzugefügt wurden, um Kundinnen und Kunden basierend auf ihren Verhaltensweisen, Voreinstellungen und Anforderungen in verschiedene Gruppen zu unterteilen oder um personalisierte Marketing-Nachrichten und -Kampagnen zu erstellen, die Ihre Zielgruppe mit größerer Wahrscheinlichkeit ansprechen."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_enrichment_simplejoin"
->title="Definition der Relation"
->abstract="Erstellen Sie eine Verknüpfung zwischen den Daten der Arbeitstabelle und der Adobe Campaign-Datenbank. Wenn Sie beispielsweise Daten aus einer Datei laden, die die Kundennummer, das Land und die E-Mail-Adresse der Empfängerinnen und Empfänger enthält, ist die Erzeugung einer Relation zur Ländertabelle erforderlich, um die entsprechende Information im Empfängerprofil zu aktualisieren."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_enrichment_reconciliation"
->title="Abstimmung der Anreicherung"
->abstract="Abstimmung der Anreicherung"
-
->[!CONTEXTUALHELP]
->id="acw_targetdata_personalization_enrichmentdata"
->title="Anreicherungsdaten"
->abstract="Wählen Sie die zur Anreicherung Ihres Workflows zu verwendenden Daten aus. Sie können zwei Arten von Anreicherungsdaten auswählen: ein einzelnes Anreicherungsattribut aus der Zieldimension oder eine Sammlungsrelation, bei der es sich um eine Verknüpfung mit einer 1:n-Kardinalität zwischen Tabellen handelt."
 
 Die Aktivität der **Anreicherung** ist eine **Zielgruppenbestimmungs-Aktivität**. Sie ermöglicht Ihnen, die Zielgruppendaten um zusätzliche Informationen aus der Datenbank zu erweitern. Sie wird in einem Workflow häufig nach den Segmentierungsaktivitäten verwendet.
 
@@ -63,6 +43,16 @@ Führen Sie die folgenden Schritte aus, um die Aktivität **Anreicherung** zu ko
 
 ## Hinzufügen von Anreicherungsdaten {#enrichment-add}
 
+>[!CONTEXTUALHELP]
+>id="acw_targetdata_personalization_enrichmentdata"
+>title="Anreicherungsdaten"
+>abstract="Wählen Sie die zur Anreicherung Ihres Workflows zu verwendenden Daten aus. Sie können zwei Arten von Anreicherungsdaten auswählen: ein einzelnes Anreicherungsattribut aus der Zieldimension oder eine Sammlungsrelation, bei der es sich um eine Verknüpfung mit einer 1:n-Kardinalität zwischen Tabellen handelt."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_enrichment_data"
+>title="Aktivität „Anreicherung“"
+>abstract="Nachdem Anreicherungsdaten zum Workflow hinzugefügt wurden, können sie in den Aktivitäten verwendet werden, die nach der Aktivität „Anreicherung“ hinzugefügt wurden, um Kundinnen und Kunden basierend auf ihren Verhaltensweisen, Voreinstellungen und Anforderungen in verschiedene Gruppen zu unterteilen oder um personalisierte Marketing-Nachrichten und -Kampagnen zu erstellen, die Ihre Zielgruppe mit größerer Wahrscheinlichkeit ansprechen."
+
 1. Klicken Sie auf **Anreicherungsdaten hinzufügen** und wählen Sie das Attribut zur Datenanreicherung aus.
 
    Sie können zwei Arten von Anreicherungsdaten auswählen: ein einzelnes Anreicherungsattribut aus der Zielgruppendimension oder eine Sammlungsrelation. Jeder dieser Typen wird in den Beispielen unten detailliert beschrieben:
@@ -76,6 +66,11 @@ Führen Sie die folgenden Schritte aus, um die Aktivität **Anreicherung** zu ko
    ![](../assets/workflow-enrichment1.png)
 
 ## Erstellen von Relationen zwischen Tabellen {#create-links}
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_enrichment_simplejoin"
+>title="Definition der Relation"
+>abstract="Erstellen Sie eine Verknüpfung zwischen den Daten der Arbeitstabelle und der Adobe Campaign-Datenbank. Wenn Sie beispielsweise Daten aus einer Datei laden, die die Kundennummer, das Land und die E-Mail-Adresse der Empfängerinnen und Empfänger enthält, ist die Erzeugung einer Relation zur Ländertabelle erforderlich, um die entsprechende Information im Empfängerprofil zu aktualisieren."
 
 Der Abschnitt **[!UICONTROL Relationsdefinition]** dient der Erzeugung einer Relation zwischen den Daten der Arbeitstabelle und der Adobe Campaign-Datenbank. Wenn Sie beispielsweise Daten aus einer Datei laden, die die Kundennummer, das Land und die E-Mail-Adresse der Empfängerinnen und Empfänger enthält, ist die Erzeugung einer Relation zur Ländertabelle erforderlich, um die entsprechende Information im Empfängerprofil zu aktualisieren.
 
@@ -106,6 +101,11 @@ Gehen Sie wie folgt vor, um eine Relation zu erzeugen:
 Ein Workflow-Beispiel mit Relationen ist im Abschnitt [Beispiele](#link-example) verfügbar.
 
 ## Datenabstimmung {#reconciliation}
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_enrichment_reconciliation"
+>title="Abstimmung"
+>abstract="Die **Anreicherungsaktivität** kann verwendet werden, um Daten aus dem Campaign-Datenbankschema mit Daten aus einem anderen Schema oder mit Daten aus einem temporären Schema abzustimmen, z. B. mit Daten, die mithilfe der Aktivität „Datei laden“ hochgeladen wurden. Diese Art von Verknüpfung definiert einen Link zu einem eindeutigen Eintrag. Adobe Campaign erstellt einen Link zu einer Zieltabelle, indem ein Fremdschlüssel eingefügt wird, der eine Referenz zum eindeutigen Eintrag enthält."
 
 Die **Anreicherungsaktivität** kann verwendet werden, um Daten aus dem Campaign-Datenbankschema mit Daten aus einem anderen Schema oder mit Daten aus einem temporären Schema abzustimmen, z. B. mit Daten, die mithilfe der Aktivität „Datei laden“ hochgeladen wurden. Diese Art von Verknüpfung definiert einen Link zu einem eindeutigen Eintrag. Adobe Campaign erstellt einen Link zu einer Zieltabelle, indem ein Fremdschlüssel eingefügt wird, der eine Referenz zum eindeutigen Eintrag enthält.
 

@@ -3,9 +3,9 @@ audience: end-user
 title: Verwenden der Aktivität „Dateiübertragung“
 description: Informationen dazu, wie Sie die Workflow-Aktivität „Dateiübertragung“ verwenden
 exl-id: a40c007e-c0c6-4e0f-aa0d-0260ecb74a03
-source-git-commit: 1494db73b1a91825a2ca57ea1881eb04e95d8da2
+source-git-commit: 5d13a654974b8a448c2bbaded46f9f6f5727682f
 workflow-type: tm+mt
-source-wordcount: '1177'
+source-wordcount: '1246'
 ht-degree: 100%
 
 ---
@@ -36,36 +36,6 @@ ht-degree: 100%
 >id="acw_orchestration_transferfile_source"
 >title="Dateiübertragungsquelle"
 >abstract="Geben Sie den gewünschten Dateinamen ein."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_advancedoptions_delete_file"
->title="Quelldateien nach der Übertragung löschen"
->abstract="Löschen Sie die Quelldateien nach einer erfolgreichen Übertragung."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_advancedoptions_display_logs"
->title="Sitzungsprotokolle anzeigen"
->abstract="Informationen zum Übertragungsvorgang werden in den Workflow-Protokollen angezeigt."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_advancedoptions_list_files"
->title="Alle Dateien auflisten"
->abstract="Mit dieser Option werden alle Dateien indiziert, die auf dem Server in der Ereignisvariable **vars.filenames** vorhanden sind."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_historization"
->title="Dateiverlaufserstellung"
->abstract="Dateiverlaufserstellung"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_process_missing_file"
->title="Fehlen von Dateien verarbeiten"
->abstract="Mit dieser Option können Sie eine ausgehende Transition **Keine Datei** nach der Aktivität aktivieren."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_process_errors"
->title="Fehler verarbeiten"
->abstract="Mit dieser Option können Sie eine ausgehende Transition **Fehler** nach der Aktivität aktivieren."
 
 Die Aktivität **Dateiübertragung** ist eine **Daten-Management-Aktivität**. Mit dieser Aktivität können Sie Dateien senden oder empfangen, das Vorhandensein von Dateien prüfen oder Dateien auf einem Server auflisten. Das verwendete Protokoll kann entweder ein Server-zu-Server-Protokoll oder ein HTTP-Protokoll sein.
 
@@ -122,6 +92,11 @@ Führen Sie die nachfolgend aufgeführten Schritte aus, um die Aktivität **Date
 
 ## Verlaufsparameter {#historization}
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_historization"
+>title="Dateiverlaufserstellung"
+>abstract="Jedes Mal, wenn die Aktivität **[!UICONTROL Dateiübertragung]** ausgeführt wird, werden die hoch- oder heruntergeladenen Dateien in einem bestimmten Ordner gespeichert. Für jede Aktivität „Dateiübertragung“ in einem Workflow wird ein Ordner erstellt. Die Dateien werden standardmäßig im Standardspeicherverzeichnis des Adobe Campaign-Installationsordners (`/vars`) gespeichert, bevor sie verarbeitet werden. Schalten Sie für die Verwendung eines bestimmten Ordners die Option **[!UICONTROL Standardspeicherverzeichnis verwenden]** aus und geben Sie den Pfad des Verzeichnisses ein."
+
 Jedes Mal, wenn die Aktivität **[!UICONTROL Dateiübertragung]** ausgeführt wird, werden die hoch- oder heruntergeladenen Dateien in einem bestimmten Ordner gespeichert. Für jede Aktivität „Dateiübertragung“ in einem Workflow wird ein Ordner erstellt. Die Dateien werden standardmäßig im Standardspeicherverzeichnis des Adobe Campaign-Installationsordners (`/vars`) gespeichert, bevor sie verarbeitet werden. Schalten Sie für die Verwendung eines bestimmten Ordners die Option **[!UICONTROL Standardspeicherverzeichnis verwenden]** aus und geben Sie den Pfad des Verzeichnisses ein.
 
 ![](../assets/workflow-transfer-file-historization.png)
@@ -139,6 +114,31 @@ Jedes Mal, wenn die Aktivität ausgeführt wird, wird der Ordner folgendermaßen
 >Wenn die Aktivität nicht ausgeführt wird, wird der Ordner weder überprüft noch geleert. Seien Sie deshalb achtsam beim Transfer großer Dateien.
 
 ## Erweiterte Optionen und Optionen zur Fehlerverwaltung {#advanced}
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_advancedoptions_delete_file"
+>title="Quelldateien nach der Übertragung löschen"
+>abstract="Löschen Sie die Quelldateien nach einer erfolgreichen Übertragung."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_advancedoptions_display_logs"
+>title="Sitzungsprotokolle anzeigen"
+>abstract="Informationen zum Übertragungsvorgang werden in den Workflow-Protokollen angezeigt."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_advancedoptions_list_files"
+>title="Alle Dateien auflisten"
+>abstract="Mit dieser Option werden alle Dateien indiziert, die auf dem Server in der Ereignisvariable **vars.filenames** vorhanden sind."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_process_missing_file"
+>title="Fehlen von Dateien verarbeiten"
+>abstract="Mit dieser Option können Sie eine ausgehende Transition **Keine Datei** nach der Aktivität aktivieren."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_process_errors"
+>title="Fehler verarbeiten"
+>abstract="Mit dieser Option können Sie eine ausgehende Transition **Fehler** nach der Aktivität aktivieren."
 
 1. Unter **[!UICONTROL Erweiterte Optionen]** stehen je nach Typ der Aktivität, die Sie konfigurieren, zusätzliche Optionen zur Verfügung. Erweitern Sie die folgenden Abschnitte, um weitere Informationen zu erhalten.
 
