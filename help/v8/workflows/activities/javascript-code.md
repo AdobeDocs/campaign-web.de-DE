@@ -3,9 +3,9 @@ audience: end-user
 title: Verwenden der Workflow-Aktivität „JavaScript-Code“
 description: Informationen dazu, wie Sie die Workflow-Aktivität „JavaScript-Code“ verwenden.
 exl-id: ca040ef8-5e0d-44e0-818d-08cfe99100be
-source-git-commit: 5d13a654974b8a448c2bbaded46f9f6f5727682f
+source-git-commit: ea448ac526fddc5875103dbb7ca00b5982fe5596
 workflow-type: tm+mt
-source-wordcount: '990'
+source-wordcount: '944'
 ht-degree: 100%
 
 ---
@@ -26,11 +26,6 @@ ht-degree: 100%
 >id="acw_orchestration_javascript_execution"
 >title="JavaScript-Ausführung"
 >abstract="Konfigurieren Sie die Ausführungsverzögerung so, dass die Aktivität nach einer bestimmten Ausführungsdauer beendet wird. Standardmäßig darf die Ausführungsphase nicht länger als eine Stunde dauern. Nach dieser Verzögerung wird der Vorgang mit einer Fehlermeldung abgebrochen und die Ausführung der Aktivität schlägt fehl. Um diese Begrenzung zu ignorieren, setzen Sie den Wert auf 0."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_javascript_transition"
->title="JavaScript-Transition"
->abstract="Wenn Sie mehrere ausgehende Transitionen hinzufügen möchten, klicken Sie auf die Schaltfläche **[!UICONTROL Transitionen hinzufügen]**. Dadurch kann beispielsweise eine bestimmte Transition basierend auf einer in der JavaScript-Code-Aktivität definierten Bedingung ausgelöst werden. Diese Option ist nur für **erweiterte** JavaScript-Code-Aktivitäten verfügbar."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_transition"
