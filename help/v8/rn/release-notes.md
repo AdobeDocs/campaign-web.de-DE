@@ -2,10 +2,10 @@
 title: Versionshinweise zur Web-Benutzeroberfläche von Campaign v8
 description: Entdecken Sie die neuen Funktionen der neuesten Version der Campaign Web-Benutzeroberfläche
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: e9022e53ff8733ecdfcca1aec2ba31ca6c79c3ad
+source-git-commit: 020cd1608887023dd4ff434c58cc98e3c1f93adf
 workflow-type: tm+mt
-source-wordcount: '388'
-ht-degree: 52%
+source-wordcount: '481'
+ht-degree: 59%
 
 ---
 
@@ -18,13 +18,33 @@ ht-degree: 52%
 
 Die Versionen der Adobe Campaign Web-Benutzeroberfläche basieren auf einem kontinuierlichen Bereitstellungsmodell, das einen besser skalierbaren, schrittweisen Ansatz für die Implementierung von Funktionen ermöglicht. Dementsprechend werden diese Versionshinweise mehrmals im Monat aktualisiert. Sie sollten daher regelmäßig nachschauen.
 
-## August - Versionshinweise {#24-8-release}
+## September-Updates {#9-2024}
+
+<table>
+<thead>
+<tr>
+<th><strong>AI-Assistent im Adobe Campaign Web - Content Accelerator</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Sobald Sie Ihre Nachricht erstellt und angepasst haben, stellen Sie sie mit dem AI-Assistenten in Adobe Campaign Web for Content Acceleration auf die nächste Stufe. Mit diesem leistungsstarken Tool können Sie die Wirkung Ihres Inhalts optimieren, indem Sie eine Reihe ansprechender Texte, Haupttitel und visuell ansprechende Bilder generieren.</p>
+<p>Machen Sie sich mit <a href="https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator">unserer Live-Funktionsvorschau</a> vertraut, die Ihnen ermöglicht, die Funktionen selbst zu entdecken und die Funktionen vollständig zu verstehen.</a></p>
+<p>Weitere Informationen finden Sie in der <a href="../email/generative-gs.md">entsprechenden Dokumentation</a>.</p>
+<img src="assets/do-not-localize/ai-content-webui.gif"/>
+</td>
+</tr>
+</tbody>
+</table>
+
+## Versionshinweise für August {#24-8-release}
 
 **Veröffentlichungsdatum**: 3. September 2024
 
-Die folgenden Funktionen und Verbesserungen sind ab der August-Version verfügbar.
+Die folgenden Funktionen und Verbesserungen sind ab der Version August verfügbar.
 
-* **Werteverteilung** - Beim Zugriff auf die Liste der zur Personalisierung vorgesehenen Felder können Sie jetzt überprüfen, wie die Werte für jedes Feld verteilt werden. Ein dediziertes Popup-Fenster zeigt die Anzahl und den Prozentsatz für jeden Wert an. [Weitere Informationen](../query/build-query.md#distribution-values-query)
+* **Werteverteilung**: Beim Zugriff auf die Liste der zur Personalisierung vorgesehenen Felder kann jetzt überprüft werden, wie die Werte für jedes Feld verteilt werden. Ein dediziertes Popup-Fenster zeigt die Anzahl und den Prozentsatz für jeden Wert an. [Weitere Informationen](../query/build-query.md#distribution-values-query)
 
 * **SMTP-Parameter** - SMTP-Einstellungen sind jetzt in den E-Mail-Versandeinstellungen verfügbar. [Weitere Informationen](../advanced-settings/delivery-settings.md#smtp)
 
@@ -38,7 +58,7 @@ Die folgenden Funktionen und Verbesserungen sind ab der August-Version verfügba
 >
 >Weitere Informationen finden Sie auf den folgenden Dokumentationsseiten: [Campaign Standard Übergang zu Campaign v8](../rn/acs-migration.md) und [Funktionen für Campaign Standard](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=de){target="_blank"}.
 
-* **Branding für Briefpost** - Technische Administratoren können jetzt eine oder mehrere Marken definieren, um die Parameter zu zentralisieren, die sich auf die Identität einer Marke auswirken. das Logo der Marke, die Domain der Zugangs-URL zu den Landingpages, Einstellungen zum Nachrichten-Tracking. Sie können diese Marken jetzt erstellen und mit Nachrichten oder Landingpages verknüpfen. Diese Konfiguration wird in Vorlagen verwaltet. [Weitere Informationen](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/branding/branding-assign)
+* **Branding für Briefpost**: Technische Admins können nun eine oder mehrere Marken definieren, um die Parameter zu zentralisieren, die sich auf die Markenidentität auswirken, z. B. das Logo der Marke, die Domain der Zugangs-URL zu den Landingpages, Einstellungen zum Nachrichten-Tracking. Diese Marken können jetzt erstellt und mit verschiedenen Nachrichten oder Landingpages verknüpft werden. Diese Konfiguration wird in Vorlagen verwaltet. [Weitere Informationen](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/branding/branding-assign)
 
 * **Abonnements mit Landingpages** - Jetzt können Sie eine Landingpage mit einem Dienst verknüpfen und eine Bestätigungsnachricht senden, wenn Benutzer sie validieren. [Weitere Informationen](../landing-pages/lp-content.md#lp-message){target="_blank"}.
 

@@ -1,36 +1,25 @@
 ---
 audience: end-user
-title: Push-Benachrichtigung mit dem KI-Assistenten in Campaign
-description: Erste Schritte mit dem KI-Assistenten in Campaign
-badge: label="Beta"
-hide: true
-hidefromtoc: true
+title: Push-Benachrichtigung mit dem AI-Assistenten in Journey Optimizer für Inhaltsbeschleunigung
+description: Erste Schritte mit dem AI-Assistenten in Journey Optimizer for Content Acceleration
 exl-id: a361f75d-63c2-4fdc-993c-f8414b18e13e
-source-git-commit: fe687647b0a3d4969373ced400c49b364e878acd
+source-git-commit: 5b0cc3dfed5180d4acb022e20333f6afab465051
 workflow-type: tm+mt
-source-wordcount: '478'
-ht-degree: 100%
+source-wordcount: '592'
+ht-degree: 60%
 
 ---
 
-# Generierung von Push-Benachrichtigungen mit dem KI-Assistenten {#generative-push}
+# Generieren von Push-Benachrichtigungen mit dem AI-Assistenten in Journey Optimizer - Content Accelerator  {#generative-push}
 
->[!BEGINSHADEBOX]
-
-**Inhaltsverzeichnis**
-
-* [Erste Schritte mit dem KI-Assistenten](generative-gs.md)
-* [Generierung von E-Mails mit dem KI-Assistenten](generative-content.md)
-* [Generierung von SMS mit dem KI-Assistenten](generative-sms.md)
-* Generierung von Push-Benachrichtigungen mit dem KI-Assistenten
-
->[!ENDSHADEBOX]
-
-Der KI-Assistenten kann Ihnen dabei helfen, die Wirkung Ihrer Sendungen zu optimieren, indem Ihnen verschiedene Inhalte vorgeschlagen werden, die mit größerer Wahrscheinlichkeit bei Ihrer Zielgruppe ankommen.
-
->[!NOTE]
+>[!IMPORTANT]
 >
 >Bevor Sie mit der Verwendung dieser Funktion beginnen, lesen Sie die entsprechenden Informationen zu [Schutzmechanismen und Begrenzungen](generative-gs.md#generative-guardrails).
+></br>
+>
+>Sie müssen einer [Benutzervereinbarung](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) zustimmen, bevor Sie den AI-Assistenten in Adobe Campaign Web for Content Acceleration verwenden können. Weitere Informationen erhalten Sie von Ihrer Adobe-Kontaktperson.
+
+Der KI-Assistent in Journey Optimizer für Inhaltsbeschleunigung kann Ihnen dabei helfen, die Wirkung Ihrer Sendungen zu optimieren, indem Sie verschiedene Inhalte vorschlagen, die mit größerer Wahrscheinlichkeit bei Ihrer Zielgruppe ankommen.
 
 Im folgenden Beispiel nutzen wir den KI-Assistenten, um mit einer überzeugenden Nachricht ein ansprechenderes Kundenerlebnis zu schaffen.
 
@@ -38,21 +27,11 @@ Im folgenden Beispiel nutzen wir den KI-Assistenten, um mit einer überzeugenden
 
    Weitere Informationen zur Konfiguration Ihres Push-Versands finden Sie auf [dieser Seite](../push/create-push.md).
 
-1. Geben Sie die **[!UICONTROL grundlegenden Details]** zu Ihrem Versand an. Klicken Sie abschließend auf **[!UICONTROL Inhalt bearbeiten]**.
-
-1. Personalisieren Sie Ihre Push-Benachrichtigung nach Bedarf. [Weitere Informationen](../push/content-push.md)
-
 1. Rufen Sie das Menü **[!UICONTROL KI-Assistenten anzeigen]** auf.
 
    ![](assets/push-genai-1.png){zoomable="yes"}
 
-1. Aktivieren Sie für den KI-Assistenten die Option **[!UICONTROL Originalinhalt verwenden]**, um neue Inhalte basierend auf Ihrem Versand, dem Versandnamen und der ausgewählten Zielgruppe zu personalisieren.
-
-   >[!IMPORTANT]
-   >
-   > Ihr Prompt muss immer an Ihren aktuellen Inhalt gebunden sein.
-
-   ![](assets/push-genai-3.png){zoomable="yes"}
+1. Aktivieren Sie die Option **[!UICONTROL Ursprünglichen Inhalt verwenden]** , damit der AI-Assistent neue Inhalte basierend auf dem ausgewählten Inhalt personalisieren kann.
 
 1. Passen Sie den Inhalt an, indem Sie im Feld **[!UICONTROL Prompt]** beschreiben, was Sie generieren möchten.
 
@@ -60,17 +39,27 @@ Im folgenden Beispiel nutzen wir den KI-Assistenten, um mit einer überzeugenden
 
    ![](assets/push-genai-2.png){zoomable="yes"}
 
-1. Wählen Sie **[!UICONTROL Marken-Asset hochladen]** aus, um ein beliebiges Marken-Asset hinzuzufügen, das Inhalte enthält, die zusätzlichen Kontext für den KI-Assistenten bieten können.
+1. Wählen Sie das Feld aus, das Sie generieren möchten: **[!UICONTROL Titel]**, **[!UICONTROL Nachricht]** und/oder **[!UICONTROL Bild]**.
 
-1. Wählen Sie das zu generierende Feld aus: **[!UICONTROL Titel]**, **[!UICONTROL Untertitel]** oder **[!UICONTROL Nachricht]**.
-
-1. Passen Sie Ihr Prompt mit den verschiedenen Optionen an:
+1. Passen Sie Ihre Eingabeaufforderung mit der Option **[!UICONTROL Texteinstellungen]** an:
 
    * **[!UICONTROL Kommunikationsstrategie]**: Wählen Sie den am besten geeigneten Kommunikationsstil für den generierten Text aus.
-   * **[!UICONTROL Sprache]**: Wählen Sie die Sprache aus, in der Sie Ihre Inhalte generieren möchten.
    * **[!UICONTROL Ton]**: Der Ton der E-Mail sollte bei Ihrer Zielgruppe ankommen. Je nachdem, ob Sie informativ, humorvoll oder überzeugend klingen möchten, kann der KI-Assistent die Nachricht entsprechend anpassen.
 
+   ![](assets/push-genai-3.png){zoomable="yes"}
+
+1. Wählen Sie Ihre **[!UICONTROL Bildeinstellungen]** aus:
+
+   * **[!UICONTROL Inhaltstyp]**: Hiermit wird die Art des visuellen Elements kategorisiert, wobei zwischen verschiedenen Arten der visuellen Darstellung wie Fotos, Grafiken oder Kunst unterschieden wird.
+   * **[!UICONTROL visuelle Intensität]**: Sie können die Wirkung des Bildes durch Anpassung seiner Intensität steuern. Durch eine niedrigere Einstellung (2) wird das Erscheinungsbild weicher, zurückhaltender dargestellt, während eine höhere Einstellung (10) das Bild lebendiger und visuell leistungsfähiger macht.
+   * **[!UICONTROL Beleuchtung]**: Dies bezieht sich auf die Beleuchtung in einem Bild, die dessen Atmosphäre prägt und bestimmte Elemente hervorhebt.
+   * **[!UICONTROL Komposition]**: Dies bezieht sich auf die Anordnung der Elemente innerhalb des Rahmens eines Bildes.
+
    ![](assets/push-genai-4.png){zoomable="yes"}
+
+1. Klicken Sie im Menü **[!UICONTROL Marken-Assets]** auf **[!UICONTROL Marken-Asset hochladen]** , um ein Marken-Asset hinzuzufügen, das Inhalte enthält, die zusätzlichen Kontext für den AI-Assistenten bieten können, oder wählen Sie ein zuvor hochgeladenes Asset aus.
+
+   Zuvor hochgeladene Dateien sind in der Dropdown-Liste **[!UICONTROL Hochgeladene Marken-Assets]** verfügbar. Schalten Sie einfach die Assets um, die Sie in Ihre Generierung aufnehmen möchten.
 
 1. Wenn das Prompt fertig ist, klicken Sie auf **[!UICONTROL Generieren]**.
 
@@ -83,6 +72,8 @@ Im folgenden Beispiel nutzen wir den KI-Assistenten, um mit einer überzeugenden
    * **[!UICONTROL Umformulieren]**: Der KI-Assistent kann Ihre Nachricht auf verschiedene Arten umformulieren, sodass Ihre Texte für verschiedene Zielgruppen interessant und ansprechend klingen.
 
    * **[!UICONTROL Einfachere Sprache verwenden]**: Nutzen Sie den KI-Assistenten, um Ihren Text zu vereinfachen, damit er für eine breitere Zielgruppe verständlich und zugänglich ist.
+
+   Sie können auch die **[!UICONTROL Tone]** und die **[!UICONTROL Kommunikationsstrategie]** Ihres Textes ändern.
 
    ![](assets/push-genai-5.png){zoomable="yes"}
 

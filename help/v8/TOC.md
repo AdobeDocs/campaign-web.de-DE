@@ -5,9 +5,9 @@ user-guide-description: Produktdokumentation zur Adobe Campaign Web-Benutzerober
 title: Dokumentation zu Adobe Campaign Web
 description: Dokumentation zu Campaign Web
 breadcrumb-title: Campaign Web-Benutzeroberfläche
-source-git-commit: 970f1511fef75395aaaa6b577eb65b6cb179f00d
+source-git-commit: 8450e6e03b1d93a0dd978d45d398d5274f65b014
 workflow-type: tm+mt
-source-wordcount: '751'
+source-wordcount: '754'
 ht-degree: 99%
 
 ---
@@ -65,11 +65,6 @@ ht-degree: 99%
       + [Erstellen eines Briefpostversands](direct-mail/create-direct-mail.md)
       + [Gestalten der Extraktionsdatei](direct-mail/content-direct-mail.md)
       + [Vorschau und Durchführen eines Briefpostversands](direct-mail/send-direct-mail.md)
-   + KI-Assistent {#ai-assistant}
-      + [Erste Schritte mit dem KI-Assistenten](email/generative-gs.md)
-      + [Generierung von E-Mails mit dem KI-Assistenten](email/generative-content.md)
-      + [Generierung von SMS mit dem KI-Assistenten](email/generative-sms.md)
-      + [Generierung von Push-Benachrichtigungen mit dem KI-Assistenten](email/generative-push.md)
    + [Hinzufügen von Angeboten zu Ihren Nachrichten](msg/offers.md)
    + [Versenden von Nachrichten an Ihre Abonnentinnen und Abonnenten](msg/send-to-subscribers.md)
    + [Konfigurieren der Versandeinstellungen](advanced-settings/delivery-settings.md)
@@ -113,6 +108,11 @@ ht-degree: 99%
          + [Anpassen der senkrechten Ausrichtung und des Abstands](email/alignment-and-padding.md)
          + [Definieren eines Stils für Links](email/styling-links.md)
          + [Hinzufügen von Inline-Styling-Attributen](email/inline-styling.md)
+   + AI Assistant for Content Accelerator {#ai-assistant}
+      + [Erste Schritte mit dem KI-Assistenten](email/generative-gs.md)
+      + [Generierung von E-Mails mit dem KI-Assistenten](email/generative-content.md)
+      + [Generierung von SMS mit dem KI-Assistenten](email/generative-sms.md)
+      + [Generierung von Push-Benachrichtigungen mit dem KI-Assistenten](email/generative-push.md)
 + Landingpages {#landing-pages}
    + [Erste Schritte mit Landingpages](landing-pages/get-started-lp.md)
    + [Erstellen und Veröffentlichen einer Landingpage](landing-pages/create-lp.md)
