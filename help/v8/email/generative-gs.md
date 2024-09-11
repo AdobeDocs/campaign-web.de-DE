@@ -3,10 +3,10 @@ audience: end-user
 title: Erste Schritte mit dem AI-Assistenten - Content Accelerator
 description: Erste Schritte mit dem AI-Assistenten - Content Accelerator
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
-source-git-commit: ff46f8d9c0b46d5b74dee4317ade6a496841c408
+source-git-commit: 55b726961149e7eb19ee326f1b702e6b75976dae
 workflow-type: tm+mt
-source-wordcount: '794'
-ht-degree: 60%
+source-wordcount: '838'
+ht-degree: 57%
 
 ---
 
@@ -53,14 +53,18 @@ Der KI-Assistent macht die Erstellung und Durchführung von Marketing-Kampagnen 
 
 ## Zugriff auf den AI Assistant - Content Accelerator {#generative-access}
 
+AI-Assistent - Content Accelerator für E-Mails, Push-Benachrichtigungen und SMS ist jetzt allgemein verfügbar und für alle Benutzer verfügbar. Die erforderlichen Berechtigungen und Schritte zum Gewähren des Zugriffs für Benutzer werden nachfolgend beschrieben.
+
 +++  Erfahren Sie, wie Sie Berechtigungen zur Inhaltserstellung zuweisen.
 
-1. **Produktprofil erstellen** - Erstellen Sie in [Admin Console](https://stage.adminconsole.adobe.com/) ein Produktprofil mit diesem spezifischen Muster: `Campaign - <instance-name> - AIAssistant`
+1. **Produktprofil erstellen** - Erstellen Sie in [Admin Console](https://stage.adminconsole.adobe.com/) ein Produktprofil mit dem folgenden spezifischen Muster:
+   `Campaign - <instance-name> - AIAssistant`
 
 1. **Benutzer hinzufügen** - Fügen Sie diesem Produktprofil den erforderlichen Benutzer hinzu.
 oder
-
    **Benutzergruppe erstellen** , diese Benutzergruppe zum Produktprofil hinzufügen und diesem Produktprofil Benutzer hinzufügen.
+
+In [diesem Abschnitt](../get-started/permissions.md) erfahren Sie, wie Sie Berechtigungen in Campaign definieren.
 
 +++
 
