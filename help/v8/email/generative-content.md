@@ -3,7 +3,7 @@ audience: end-user
 title: Generative Inhalte
 description: Erste Schritte mit dem AI-Assistenten in Adobe Campaign Web for Content Acceleration
 exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
-source-git-commit: 5b0cc3dfed5180d4acb022e20333f6afab465051
+source-git-commit: b4ff0ff1f507f3d7a8a02faefe6d121b08b8c9b8
 workflow-type: tm+mt
 source-wordcount: '1593'
 ht-degree: 65%
@@ -17,7 +17,7 @@ ht-degree: 65%
 >Bevor Sie mit der Verwendung dieser Funktion beginnen, lesen Sie die entsprechenden Informationen zu [Schutzmechanismen und Begrenzungen](generative-gs.md#generative-guardrails).
 ></br>
 >
->Sie müssen einer [Benutzervereinbarung](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) zustimmen, bevor Sie den AI-Assistenten in Adobe Campaign Web for Content Acceleration verwenden können. Weitere Informationen erhalten Sie von Ihrer Adobe-Kontaktperson.
+>Sie müssen einer [Benutzervereinbarung](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} zustimmen, bevor Sie den AI-Assistenten im Adobe Campaign Web für Content Acceleration verwenden können. Weitere Informationen erhalten Sie von Ihrer Adobe-Kontaktperson.
 
 
 Nachdem Sie Ihre E-Mails erstellt und personalisiert haben, verwenden Sie den KI-Assistenten in Adobe Campaign Web for Content Acceleration in Campaign mit der generativen KI, um Ihre Inhalte auf die nächste Stufe zu bringen.

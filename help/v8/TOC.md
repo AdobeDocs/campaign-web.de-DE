@@ -5,10 +5,10 @@ user-guide-description: Produktdokumentation zur Adobe Campaign Web-Benutzerober
 title: Dokumentation zu Adobe Campaign Web
 description: Dokumentation zu Campaign Web
 breadcrumb-title: Campaign Web-Benutzeroberfläche
-source-git-commit: 8450e6e03b1d93a0dd978d45d398d5274f65b014
+source-git-commit: b4ff0ff1f507f3d7a8a02faefe6d121b08b8c9b8
 workflow-type: tm+mt
-source-wordcount: '754'
-ht-degree: 99%
+source-wordcount: '756'
+ht-degree: 98%
 
 ---
 
@@ -109,7 +109,7 @@ ht-degree: 99%
          + [Definieren eines Stils für Links](email/styling-links.md)
          + [Hinzufügen von Inline-Styling-Attributen](email/inline-styling.md)
    + AI Assistant for Content Accelerator {#ai-assistant}
-      + [Erste Schritte mit dem KI-Assistenten](email/generative-gs.md)
+      + [Erste Schritte mit dem AI-Assistenten - Content Accelerator](email/generative-gs.md)
       + [Generierung von E-Mails mit dem KI-Assistenten](email/generative-content.md)
       + [Generierung von SMS mit dem KI-Assistenten](email/generative-sms.md)
       + [Generierung von Push-Benachrichtigungen mit dem KI-Assistenten](email/generative-push.md)
