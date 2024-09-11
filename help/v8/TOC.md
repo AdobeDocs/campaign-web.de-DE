@@ -5,10 +5,10 @@ user-guide-description: Produktdokumentation zur Adobe Campaign Web-Benutzerober
 title: Dokumentation zu Adobe Campaign Web
 description: Dokumentation zu Campaign Web
 breadcrumb-title: Campaign Web-Benutzeroberfläche
-source-git-commit: b4ff0ff1f507f3d7a8a02faefe6d121b08b8c9b8
+source-git-commit: 5e722eee9858f0d0f943167fb26b2df4729dec83
 workflow-type: tm+mt
-source-wordcount: '756'
-ht-degree: 98%
+source-wordcount: '750'
+ht-degree: 96%
 
 ---
 
@@ -110,9 +110,9 @@ ht-degree: 98%
          + [Hinzufügen von Inline-Styling-Attributen](email/inline-styling.md)
    + AI Assistant for Content Accelerator {#ai-assistant}
       + [Erste Schritte mit dem AI-Assistenten - Content Accelerator](email/generative-gs.md)
-      + [Generierung von E-Mails mit dem KI-Assistenten](email/generative-content.md)
-      + [Generierung von SMS mit dem KI-Assistenten](email/generative-sms.md)
-      + [Generierung von Push-Benachrichtigungen mit dem KI-Assistenten](email/generative-push.md)
+      + [E-Mail-Generierung mit KI](email/generative-content.md)
+      + [SMS-Generierung mit KI](email/generative-sms.md)
+      + [Generieren von Push-Benachrichtigungen mit KI](email/generative-push.md)
 + Landingpages {#landing-pages}
    + [Erste Schritte mit Landingpages](landing-pages/get-started-lp.md)
    + [Erstellen und Veröffentlichen einer Landingpage](landing-pages/create-lp.md)
