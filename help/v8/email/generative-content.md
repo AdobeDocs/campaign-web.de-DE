@@ -1,16 +1,16 @@
 ---
 audience: end-user
 title: Generative Inhalte
-description: Erste Schritte mit dem AI-Assistenten in Adobe Campaign Web for Content Acceleration
+description: Erste Schritte mit dem AI-Assistenten für Inhaltsbeschleunigung
 exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
-source-git-commit: b4ff0ff1f507f3d7a8a02faefe6d121b08b8c9b8
+source-git-commit: 1edbc6201b49aeff3d71118b327de043d6f5e7d0
 workflow-type: tm+mt
-source-wordcount: '1593'
-ht-degree: 65%
+source-wordcount: '1585'
+ht-degree: 66%
 
 ---
 
-# E-Mail-Generierung mit dem AI-Assistenten im Adobe Campaign Web - Content Accelerator {#generative-content}
+# E-Mail-Generierung mit dem AI-Assistenten - Content Accelerator {#generative-content}
 
 >[!IMPORTANT]
 >

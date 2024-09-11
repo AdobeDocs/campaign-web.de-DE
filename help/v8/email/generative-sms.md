@@ -1,16 +1,16 @@
 ---
 audience: end-user
-title: SMS mit dem AI-Assistenten in Adobe Campaign Web for Content Acceleration
-description: Erste Schritte mit dem AI-Assistenten in Adobe Campaign Web for Content Acceleration
+title: SMS mit dem AI-Assistenten für Inhaltsbeschleunigung
+description: Erste Schritte mit dem AI-Assistenten für Inhaltsbeschleunigung
 exl-id: db0459e5-8759-42d9-8945-8c9667450527
-source-git-commit: 5b0cc3dfed5180d4acb022e20333f6afab465051
+source-git-commit: 1edbc6201b49aeff3d71118b327de043d6f5e7d0
 workflow-type: tm+mt
-source-wordcount: '913'
-ht-degree: 64%
+source-wordcount: '901'
+ht-degree: 65%
 
 ---
 
-# SMS-Generierung mit dem AI-Assistenten im Adobe Campaign Web - Content Accelerator {#generative-sms}
+# SMS-Generierung mit dem AI-Assistenten - Content Accelerator {#generative-sms}
 
 >[!IMPORTANT]
 >

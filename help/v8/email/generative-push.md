@@ -1,16 +1,16 @@
 ---
 audience: end-user
-title: Push-Benachrichtigung mit dem AI-Assistenten in Journey Optimizer für Inhaltsbeschleunigung
-description: Erste Schritte mit dem AI-Assistenten in Journey Optimizer for Content Acceleration
+title: Push-Benachrichtigungen mit dem AI-Assistenten für Inhaltsbeschleunigung
+description: Erste Schritte mit dem AI-Assistenten für Inhaltsbeschleunigung
 exl-id: a361f75d-63c2-4fdc-993c-f8414b18e13e
-source-git-commit: 5b0cc3dfed5180d4acb022e20333f6afab465051
+source-git-commit: 1edbc6201b49aeff3d71118b327de043d6f5e7d0
 workflow-type: tm+mt
-source-wordcount: '592'
-ht-degree: 60%
+source-wordcount: '580'
+ht-degree: 61%
 
 ---
 
-# Generieren von Push-Benachrichtigungen mit dem AI-Assistenten in Journey Optimizer - Content Accelerator  {#generative-push}
+# Generieren von Push-Benachrichtigungen mit dem AI-Assistenten - Content Accelerator {#generative-push}
 
 >[!IMPORTANT]
 >
@@ -19,7 +19,7 @@ ht-degree: 60%
 >
 >Sie müssen einer [Benutzervereinbarung](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) zustimmen, bevor Sie den AI-Assistenten in Adobe Campaign Web for Content Acceleration verwenden können. Weitere Informationen erhalten Sie von Ihrer Adobe-Kontaktperson.
 
-Der KI-Assistent in Journey Optimizer für Inhaltsbeschleunigung kann Ihnen dabei helfen, die Wirkung Ihrer Sendungen zu optimieren, indem Sie verschiedene Inhalte vorschlagen, die mit größerer Wahrscheinlichkeit bei Ihrer Zielgruppe ankommen.
+Der KI-Assistent für Inhaltsbeschleunigung kann Ihnen dabei helfen, die Wirkung Ihrer Sendungen zu optimieren, indem Sie verschiedene Inhalte vorschlagen, die mit größerer Wahrscheinlichkeit bei Ihrer Zielgruppe ankommen.
 
 Im folgenden Beispiel nutzen wir den KI-Assistenten, um mit einer überzeugenden Nachricht ein ansprechenderes Kundenerlebnis zu schaffen.
 
