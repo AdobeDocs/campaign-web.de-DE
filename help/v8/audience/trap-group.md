@@ -2,8 +2,9 @@
 audience: end-user
 title: Verwenden einer Trap-Gruppe
 description: Erfahren Sie, wie Sie in der Campaign Web-Benutzeroberfläche eine Trap-Gruppe für Ihren Versand verwenden.
-source-git-commit: 39dcf11797339ee9800da6c5a32b1a1c3470529a
-workflow-type: ht
+exl-id: 48c34581-8825-4798-b24e-c462303f7645
+source-git-commit: dfd5f2e000b02d4382eaac0c9bb00fe940a99f79
+workflow-type: tm+mt
 source-wordcount: '434'
 ht-degree: 100%
 
@@ -12,7 +13,7 @@ ht-degree: 100%
 # Verwenden einer Trap-Gruppe {#trap-group}
 
 >[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn2"
+>id="acw_homepage_welcome_rn3"
 >title="Trap-Gruppe"
 >abstract="Sie können eine Trap-Gruppe verwenden, um bestimmte Adressen in Ihre Sendungen einzubeziehen und den Verteilungsprozess zu überwachen und zu überprüfen, indem Sie Profile auswählen, die nicht den definierten Zielgruppenkriterien entsprechen."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=de" text="Siehe Versionshinweise"

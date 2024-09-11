@@ -1,16 +1,23 @@
 ---
 audience: end-user
-title: Erste Schritte mit dem AI-Assistenten im Adobe Campaign Web - Content Accelerator
-description: Erste Schritte mit dem AI-Assistenten im Adobe Campaign Web - Content Accelerator
+title: Erste Schritte mit dem AI-Assistenten - Content Accelerator
+description: Erste Schritte mit dem AI-Assistenten - Content Accelerator
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
-source-git-commit: b4ff0ff1f507f3d7a8a02faefe6d121b08b8c9b8
+source-git-commit: dfd5f2e000b02d4382eaac0c9bb00fe940a99f79
 workflow-type: tm+mt
-source-wordcount: '765'
-ht-degree: 58%
+source-wordcount: '795'
+ht-degree: 60%
 
 ---
 
 # Erste Schritte mit dem AI-Assistenten - Content Accelerator  {#generative-gs}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn1"
+>title="AI Assistant Content Accelerator"
+>abstract="Der KI-Assistent macht die Erstellung und Durchführung von Marketing-Kampagnen über Kanäle wie E-Mail, SMS und Push intuitiv, einfach und mühelos, während gleichzeitig Zeit gespart, die Effizienz gesteigert und bessere Ergebnisse erzielt werden."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=de" text="Siehe Versionshinweise"
+
 
 >[!CONTEXTUALHELP]
 >id="acw_generation_settings"
@@ -44,7 +51,7 @@ Der KI-Assistent macht die Erstellung und Durchführung von Marketing-Kampagnen 
 >
 >* Sie müssen einer [Benutzervereinbarung](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) zustimmen, bevor Sie den AI-Assistenten in Adobe Campaign Web for Content Acceleration verwenden können. Weitere Informationen erhalten Sie von Ihrer Adobe-Kontaktperson.
 
-## Zugriff auf den Inhaltsbeschleuniger des AI-Assistenten {#generative-access}
+## Zugriff auf den AI Assistant - Content Accelerator {#generative-access}
 
 +++  Erfahren Sie, wie Sie Berechtigungen zur Inhaltserstellung zuweisen.
 

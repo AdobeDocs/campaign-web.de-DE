@@ -3,8 +3,8 @@ audience: end-user
 title: Versandwarnung
 description: Erfahren Sie, wie Sie mit Versandwarnungen arbeiten können.
 exl-id: 120afaa0-7017-4644-b6db-229b4a5c8a91
-source-git-commit: 39dcf11797339ee9800da6c5a32b1a1c3470529a
-workflow-type: ht
+source-git-commit: dfd5f2e000b02d4382eaac0c9bb00fe940a99f79
+workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 100%
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 
 >[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn4"
+>id="acw_homepage_welcome_rn5"
 >title="Versandwarnung"
 >abstract="Versandwarnungen sind jetzt in Campaign verfügbar. Bei dieser Funktion handelt es sich um ein System zur Verwaltung von Warnhinweisen, mit dem Benutzergruppen automatisch E-Mail-Benachrichtigungen mit Informationen zu ihren Versandausführungen erhalten können."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=de" text="Siehe Versionshinweise"

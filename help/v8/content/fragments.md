@@ -3,8 +3,8 @@ audience: end-user
 title: Erste Schritte mit Inhaltsfragmenten
 description: Erfahren Sie, wie Sie Inhaltsfragmente erstellen
 exl-id: d155d102-a5bc-4b9b-b29c-24fde4d95ceb
-source-git-commit: 0fe12b469810c946ab0b9472e9a877aaaa41581d
-workflow-type: ht
+source-git-commit: dfd5f2e000b02d4382eaac0c9bb00fe940a99f79
+workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 # Erste Schritte mit Inhaltsfragmenten {#gs-fragments}
 
 >[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn1"
+>id="acw_homepage_welcome_rn2"
 >title="Inhaltsfragmente"
 >abstract="Sie können jetzt Inhaltsfragmente erstellen und verwenden. Ein Inhaltsfragment ist eine wiederverwendbare Komponente, die in einer oder mehreren Nachrichten referenziert werden kann. Wenn Sie ein Fragment ändern, wird jeder Inhalt, der dieses Fragment verwendet, aktualisiert."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=de" text="Siehe Versionshinweise"
