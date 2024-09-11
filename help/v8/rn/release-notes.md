@@ -2,9 +2,9 @@
 title: Versionshinweise zur Web-Benutzeroberfläche von Campaign v8
 description: Entdecken Sie die neuen Funktionen der neuesten Version der Campaign Web-Benutzeroberfläche
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 020cd1608887023dd4ff434c58cc98e3c1f93adf
+source-git-commit: 166623c699aa1c91b2d4e7530f5b2ea1b54507b4
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '477'
 ht-degree: 59%
 
 ---
@@ -23,7 +23,7 @@ Die Versionen der Adobe Campaign Web-Benutzeroberfläche basieren auf einem kont
 <table>
 <thead>
 <tr>
-<th><strong>AI-Assistent im Adobe Campaign Web - Content Accelerator</strong><br/></th>
+<th><strong>AI Assistant - Content Accelerator</strong><br/></th>
 </tr>
 </thead>
 <tbody>
