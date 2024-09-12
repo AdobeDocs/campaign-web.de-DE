@@ -1,16 +1,16 @@
 ---
 audience: end-user
-title: Erste Schritte mit dem AI-Assistenten - Content Accelerator
-description: Erste Schritte mit dem AI-Assistenten - Content Accelerator
+title: Erste Schritte mit dem AI Assistant Content Accelerator
+description: Erste Schritte mit dem AI Assistant Content Accelerator
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
-source-git-commit: 55b726961149e7eb19ee326f1b702e6b75976dae
+source-git-commit: aea828da825a416dece6c4bee1da6d4e570e4e48
 workflow-type: tm+mt
-source-wordcount: '838'
+source-wordcount: '839'
 ht-degree: 57%
 
 ---
 
-# Arbeiten mit dem AI Assistant - Content Accelerator  {#generative-gs}
+# Arbeiten mit dem AI Assistant Content Accelerator  {#generative-gs}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn1"
@@ -51,9 +51,9 @@ Der KI-Assistent macht die Erstellung und Durchführung von Marketing-Kampagnen 
 >
 >* Sie müssen einer [Benutzervereinbarung](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) zustimmen, bevor Sie den AI-Assistenten in Adobe Campaign Web for Content Acceleration verwenden können. Weitere Informationen erhalten Sie von Ihrer Adobe-Kontaktperson.
 
-## Zugriff auf den AI Assistant - Content Accelerator {#generative-access}
+## Zugriff auf den Inhaltsbeschleuniger des AI-Assistenten {#generative-access}
 
-AI-Assistent - Content Accelerator für E-Mails, Push-Benachrichtigungen und SMS ist jetzt allgemein verfügbar und für alle Benutzer verfügbar. Die erforderlichen Berechtigungen und Schritte zum Gewähren des Zugriffs für Benutzer werden nachfolgend beschrieben.
+Der AI Assistant Content Accelerator für E-Mails, Push-Benachrichtigungen und SMS befindet sich jetzt in der allgemeinen Verfügbarkeit (GA) und steht allen Benutzern zur Verfügung. Die erforderlichen Berechtigungen und Schritte zum Gewähren des Zugriffs für Benutzer werden nachfolgend beschrieben.
 
 +++  Erfahren Sie, wie Sie Berechtigungen zur Inhaltserstellung zuweisen.
 

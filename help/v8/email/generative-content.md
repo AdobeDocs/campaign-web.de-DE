@@ -3,14 +3,14 @@ audience: end-user
 title: Generative Inhalte
 description: Erste Schritte mit dem AI-Assistenten für Inhaltsbeschleunigung
 exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
-source-git-commit: 1edbc6201b49aeff3d71118b327de043d6f5e7d0
+source-git-commit: aea828da825a416dece6c4bee1da6d4e570e4e48
 workflow-type: tm+mt
 source-wordcount: '1585'
 ht-degree: 66%
 
 ---
 
-# E-Mail-Generierung mit dem AI-Assistenten - Content Accelerator {#generative-content}
+# E-Mail-Generierung mit dem AI Assistant Content Accelerator {#generative-content}
 
 >[!IMPORTANT]
 >
