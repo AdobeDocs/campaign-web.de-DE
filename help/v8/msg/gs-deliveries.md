@@ -1,43 +1,43 @@
 ---
 product: campaign
-title: Auf Sendungen zugreifen
+title: Zugreifen auf Sendungen
 description: Erfahren Sie, wie Sie in Campaign Web auf Ihre Sendungen zugreifen und diese verwalten können.
 feature: Email, Push, SMS, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 3afff35c-c15f-46f8-b791-9bad5e38ea44
 source-git-commit: ecff4e56bd346aadf381a1bf2077204804938f62
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '454'
-ht-degree: 68%
+ht-degree: 100%
 
 ---
 
-# Auf Sendungen zugreifen {#work-with-deliveries}
+# Zugreifen auf Sendungen {#work-with-deliveries}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_list"
 >title="Sendungen"
 >abstract="Ein Versand ist eine Kommunikation, die an eine Zielgruppe über einen bestimmten Kanal gesendet wird: E-Mail, SMS oder Push-Benachrichtigung. Auf diesem Bildschirm können vorhandene Sendungen bearbeitet, dupliziert und gelöscht werden. Außerdem können Berichte zu abgeschlossenen Sendungen angezeigt werden. Auf die Schaltfläche **Versand erstellen** klicken, um einen neuen Versand hinzuzufügen."
 
-## Auf Sendungen zugreifen {#access}
+## Zugreifen auf Sendungen {#access}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_additional_target"
 >title="Zusätzliche Zielgruppe"
->abstract="Diese Regeln können nur in der Clientkonsole geändert werden."
+>abstract="Diese Regeln können nur in der Client-Konsole geändert werden."
 
-Auf Sendungen kann über das Menü **[!UICONTROL Sendungen]** im linken Navigationsbereich zugegriffen werden. Alle Sendungen, die entweder über die Client-Konsole oder die Web-Benutzeroberfläche erstellt wurden, werden in dieser Liste angezeigt. Auf diesem Bildschirm können Sie alle bestehenden Sendungen überwachen, sie duplizieren oder löschen oder neue erstellen.
+Auf Sendungen kann über das Menü **[!UICONTROL Sendungen]** im linken Navigationsbereich zugegriffen werden. In dieser Liste werden alle Sendungen angezeigt, die entweder über die Client-Konsole oder über die Web-Benutzeroberfläche erstellt wurden. Auf diesem Bildschirm können Sie alle bestehenden Sendungen überwachen, sie duplizieren oder löschen oder neue Sendungen erstellen.
 
 ![](assets/deliveries-list.png)
 
-Um einen Versand zu öffnen, klicken Sie in der Liste auf dessen Namen. Der Versand wird geöffnet. Dort können Sie verschiedene Aktionen durchführen, z. B. die Parameter bearbeiten, die Ausführung überprüfen oder die Leistung mithilfe dedizierter Berichte überwachen.
+Um einen Versand zu öffnen, klicken Sie in der Liste auf dessen Namen. Der Versand wird geöffnet und Sie können verschiedene Aktionen durchführen, z. B. die Parameter bearbeiten, die Ausführung überprüfen oder die Leistung mithilfe dedizierter Berichte überwachen.
 
 ![](assets/delivery-details.png)
 
 >[!NOTE]
 >
->Wenn Sie einen in der Clientkonsole erstellten Versand öffnen, wird möglicherweise der Abschnitt **[!UICONTROL Zusätzliches Ziel]** für die Zielgruppe angezeigt. Dies bedeutet, dass für diesen Versand mehrere Zielgruppen konfiguriert wurden. Diese Parameter können nur in der Konsole geändert werden.
+>Wenn Sie einen in der Client-Konsole erstellten Versand öffnen, wird möglicherweise der Abschnitt **[!UICONTROL Zusätzliche Zielgruppe]** für die Zielgruppe angezeigt. Dies bedeutet, dass für diesen Versand mehrere Zielgruppen konfiguriert wurden. Diese Parameter können nur in der Konsole geändert werden.
 >
 >![](assets/target-warning-audience.png){zoomable="yes"}
 

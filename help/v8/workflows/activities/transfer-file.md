@@ -4,7 +4,7 @@ title: Verwenden der Aktivität „Dateiübertragung“
 description: Informationen dazu, wie Sie die Workflow-Aktivität „Dateiübertragung“ verwenden
 exl-id: a40c007e-c0c6-4e0f-aa0d-0260ecb74a03
 source-git-commit: 5d13a654974b8a448c2bbaded46f9f6f5727682f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1246'
 ht-degree: 100%
 
@@ -132,12 +132,12 @@ Jedes Mal, wenn die Aktivität ausgeführt wird, wird der Ordner folgendermaßen
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_process_missing_file"
->title="Fehlen von Dateien verarbeiten"
+>title="Verarbeiten fehlender Dateien"
 >abstract="Mit dieser Option können Sie eine ausgehende Transition **Keine Datei** nach der Aktivität aktivieren."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_process_errors"
->title="Fehler verarbeiten"
+>title="Verarbeiten von Fehlern"
 >abstract="Mit dieser Option können Sie eine ausgehende Transition **Fehler** nach der Aktivität aktivieren."
 
 1. Unter **[!UICONTROL Erweiterte Optionen]** stehen je nach Typ der Aktivität, die Sie konfigurieren, zusätzliche Optionen zur Verfügung. Erweitern Sie die folgenden Abschnitte, um weitere Informationen zu erhalten.

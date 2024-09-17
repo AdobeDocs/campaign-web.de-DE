@@ -4,9 +4,9 @@ title: Verwenden der Workflow-Aktivität „Kombinieren“.
 description: Erfahren Sie, wie Sie die Workflow-Aktivität „Kombinieren“ verwenden.
 exl-id: 7e821678-e6a2-4613-b05e-6ccbe4df41c3
 source-git-commit: 5d13a654974b8a448c2bbaded46f9f6f5727682f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1046'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ The **Combine** activity can be placed after any other activity, but not at the 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_combine_options"
 >title="Auswählen des Segmentierungstyps"
->abstract="Wählen Sie, wie Zielgruppen kombiniert werden. Mit der **Vereinigung** können Sie das Ergebnis mehrerer Aktivitäten in einer Zielgruppe zusammenfassen. Die **Schnittmenge** ermöglicht es Ihnen, nur die Elemente beizubehalten, die den verschiedenen eingehenden Populationen in der Aktivität gemein sind. Ein **Ausschluss** dient dazu, gemäß bestimmten Kriterien entsprechende Elemente aus einer Population auszuschließen. "
+>abstract="Wählen Sie aus, wie Zielgruppen kombiniert werden. Eine **Vereinigung** dient dazu, das Ergebnis mehrerer Aktivitäten zu einer einzigen Zielgruppe zusammenzufassen. Eine **Schnittmenge** dient dazu, nur die Elemente beizubehalten, die den verschiedenen eingehenden Populationen in der Aktivität gemeinsam sind. Ein **Ausschluss** dient dazu, gemäß bestimmten Kriterien entsprechende Elemente aus einer Population auszuschließen. "
 
 Führen Sie die folgenden Schritte aus, um mit der Konfiguration der Aktivität **Kombinieren** zu beginnen:
 
@@ -59,7 +59,7 @@ Führen Sie die folgenden Schritte aus, um mit der Konfiguration der Aktivität 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_combine_reconciliation"
 >title="Abstimmoptionen"
->abstract="Wählen Sie den **Abstimmtyp** aus, um festzulegen, wie Duplikate verarbeitet werden. Standardmäßig ist die Option **Schlüssel** aktiviert, d. h. die Aktivität behält nur ein Element bei, wenn die Elemente der verschiedenen eingehenden Transitionen denselben Schlüssel aufweisen. Verwenden Sie die Option **Auswahl an Spalten** , um die Liste der Spalten zu definieren, auf die die Datenabstimmung angewendet wird."
+>abstract="Wählen Sie den **Abstimmtyp** aus, um festzulegen, wie Duplikate behandelt werden. Die Option **Schlüssel** ist standardmäßig aktiviert. Das heißt, die Aktivität behält ein Element nur dann bei, wenn die Elemente der verschiedenen eingehenden Transitionen denselben Schlüssel aufweisen. Verwenden Sie die Option **Auswahl an Spalten**, um die Liste der Spalten zu definieren, auf die die Datenabstimmung angewendet werden soll. "
 
 In der Aktivität **Kombinieren** können Sie eine **Vereinigung** konfigurieren. Für die Vereinigung müssen Sie den **Abstimmtyp** auswählen, um festzulegen, wie Dubletten behandelt werden:
 
@@ -71,7 +71,7 @@ In der Aktivität **Kombinieren** können Sie eine **Vereinigung** konfigurieren
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_intersection_reconciliation_options"
 >title="Abstimmoptionen für Schnittmengen"
->abstract="Wählen Sie den **Abstimmtyp** aus, um festzulegen, wie Duplikate verarbeitet werden. Standardmäßig ist die Option **Schlüssel** aktiviert, d. h. die Aktivität behält nur ein Element bei, wenn die Elemente der verschiedenen eingehenden Transitionen denselben Schlüssel aufweisen. Verwenden Sie die Option **Auswahl an Spalten** , um die Liste der Spalten zu definieren, auf die die Datenabstimmung angewendet wird."
+>abstract="Wählen Sie den **Abstimmtyp** aus, um festzulegen, wie Duplikate behandelt werden. Die Option **Schlüssel** ist standardmäßig aktiviert. Das heißt, die Aktivität behält ein Element nur dann bei, wenn die Elemente der verschiedenen eingehenden Transitionen denselben Schlüssel aufweisen. Verwenden Sie die Option **Auswahl an Spalten**, um die Liste der Spalten zu definieren, auf die die Datenabstimmung angewendet werden soll. "
 
 In der Aktivität **Kombinieren** können Sie eine **Schnittmenge** konfigurieren. Dafür müssen Sie die folgenden zusätzlichen Schritte ausführen:
 

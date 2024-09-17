@@ -4,7 +4,7 @@ title: Verwendung der Workflow-Aktivität „Anreicherung“
 description: Erfahren Sie, wie Sie die Workflow-Aktivität „Anreicherung“ verwenden.
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
 source-git-commit: 5d13a654974b8a448c2bbaded46f9f6f5727682f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1705'
 ht-degree: 100%
 

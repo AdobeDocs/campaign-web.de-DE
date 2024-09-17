@@ -4,9 +4,9 @@ title: Arbeiten mit dem Abfrage-Modeler
 description: Lernen Sie, mit dem Abfrage-Modeler von Adobe Campaign Web zu arbeiten.
 exl-id: 56708a66-f654-413a-80ed-1865077b3c0a
 source-git-commit: ecff4e56bd346aadf381a1bf2077204804938f62
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '620'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 90%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_refine_target"
 >title="Zielgruppe verfeinern"
->abstract="Diese Regeln können nur in der Clientkonsole geändert werden."
+>abstract="Diese Regeln können nur in der Client-Konsole geändert werden."
 
 Die Adobe Campaign Web-Benutzeroberfläche verfügt über einen Abfrage-Modeler, der das Filtern von Datenbanken anhand verschiedener Kriterien vereinfacht. Dadurch wird die vollständige Kompatibilität mit den in der Client-Konsole erstellten Abfragen sichergestellt und ein nahtloser Übergang zur Web-Benutzeroberfläche ermöglicht.
 
@@ -46,7 +46,7 @@ Der Abfrage-Modeler ist in jedem Kontext verfügbar, in dem Sie Regeln zum Filte
 
 >[!NOTE]
 >
->Beim Zugriff auf ein in der Clientkonsole erstelltes Objekt, in dem Regeln angewendet wurden, wie z. B. eine Zielgruppe oder einen vordefinierten Filter, wird möglicherweise der Abschnitt **[!UICONTROL Ziel einschränken]** angezeigt. Dies bedeutet, dass zusätzliche Parameter zur Verfeinerung des Regelziels konfiguriert wurden. Diese Parameter können nur in der Konsole geändert werden.
+>Beim Zugriff auf ein in der Client-Konsole erstelltes Objekt, in dem Regeln wie eine Zielgruppe oder ein vordefinierter Filter angewendet wurden, wird möglicherweise der Abschnitt **[!UICONTROL Zielgruppe verfeinern]** angezeigt. Dies bedeutet, dass zusätzliche Parameter zur Verfeinerung der Regel-Zielgruppe konfiguriert wurden. Diese Parameter können nur in der Konsole geändert werden.
 >
 >![](assets/target-warning.png){zoomable="yes"}
 

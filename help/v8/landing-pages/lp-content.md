@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie in Campaign Web Landingpage-spezifische Inhal
 feature: Landing Pages
 exl-id: 6ca3c8c1-3633-4e3f-a9a1-f46ae27c5c8a
 source-git-commit: 0e89f01fed390665b150b09697dc6e9204975ee2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1226'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -136,17 +136,17 @@ Um bestimmte Inhalte zu definieren, mit denen Benutzende ihre Auswahl auf Ihrer 
 
    ![](assets/email-link-to-landing-page.png){zoomable="yes"}
 
-1. Sie können eine Nachricht beim Senden Ihrer Landingpage senden. [Weitere Informationen hier](#lp-message)
+1. Sie können eine Nachricht beim Einreichen der Landingpage senden. [Weitere Informationen finden Sie hier](#lp-message)
 
-### Nachricht nach der Übermittlung senden {#lp-message}
+### Senden einer Nachricht nach der Einreichung {#lp-message}
 
 >[!AVAILABILITY]
 >
 >Diese Funktion ist nur eingeschränkt verfügbar. Sie ist Kundinnen und Kunden vorbehalten, die **von Adobe Campaign Standard zu Adobe Campaign v8** migrieren, und kann nicht in anderen Umgebungen bereitgestellt werden.
 
-Gehen Sie wie folgt vor, um nach dem Senden einer Landingpage automatisch eine Bestätigungsnachricht zu senden:
-1. Aktivieren Sie im Abschnitt **[!UICONTROL AUFRUF AN AKTION]** die Option **[!UICONTROL E-Mail zur Bestätigung senden]** .
-1. Wählen Sie in der entsprechenden Dropdown-Liste die Transaktionsnachrichtenvorlage aus, die gesendet werden soll.
+Gehen Sie wie folgt vor, um nach dem Einreichen einer Landingpage automatisch eine Bestätigungsnachricht zu senden:
+1. Aktivieren Sie im Abschnitt **[!UICONTROL HANDLUNGSAUFFORDERUNG]** die Option **[!UICONTROL Bestätigungs-E-Mail senden]**.
+1. Wählen Sie in der dazugehörigen Dropdown-Liste die zu sendende Transaktionsnachrichtenvorlage aus.
 
 ![](assets/lp-confirmation.png){zoomable="yes"}
 

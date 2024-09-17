@@ -5,9 +5,9 @@ description: Erfahren Sie, wie Sie Versandeinstellungen in Campaign Web konfigur
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 source-git-commit: 898762bc059b49c2f39da7558e6d9ffd31d1985e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2852'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -297,37 +297,37 @@ Sie können auch den Namen der Testsendungen anpassen:
 >title="SMTP-Parameter"
 >abstract="Sie können Ihrem E-Mail-Versand zusätzliche SMTP-Parameter hinzufügen."
 
-Sie können Ihrem E-Mail-Versand zusätzliche SMTP-Parameter hinzufügen. Dies ist im Tab SMTP der Versandeinstellungen möglich.
+Sie können Ihrem E-Mail-Versand zusätzliche SMTP-Parameter hinzufügen. Dies ist auf der Registerkarte „SMTP“ der Versandeinstellungen möglich.
 
 ![](assets/smtp_tab.png){zoomable="yes"}
 
 ### Zeichenkodierung {#character-encoding}
 
-Im Abschnitt **[!UICONTROL Zeichenkodierung]** können Sie eine bestimmte Kodierung festlegen. Die Standardkodierung ist UTF-8, was für die meisten Zeichen funktioniert. Einige E-Mail-Anbieter zeigen Sonderzeichen jedoch möglicherweise nicht richtig an, wenn sie die UTF-8-Standardkodierung nicht unterstützen.
+Im Abschnitt **[!UICONTROL Zeichenkodierung]** können Sie eine bestimmte Kodierung festlegen. Die Standardkodierung ist UTF-8. Sie kann für die meisten Zeichen verwendet werden. Einige E-Mail-Anbieter zeigen Sonderzeichen jedoch möglicherweise nicht richtig an, wenn sie die UTF-8-Standardkodierung nicht unterstützen.
 
-Wenn Sie beispielsweise eine E-Mail mit japanischen Zeichen versenden möchten, ist es besser, eine Kodierung zu verwenden, die diese Zeichen spezifisch unterstützt, damit Ihre japanische Zielgruppe alles korrekt sehen kann.
+Wenn Sie beispielsweise eine E-Mail mit japanischen Zeichen versenden möchten, ist es besser, eine Kodierung zu verwenden, die gezielt diese Zeichen unterstützt, damit Ihre Zielgruppe in Japan alles korrekt sehen kann.
 
-Aktivieren Sie dazu den Umschalter **[!UICONTROL Für Nachrichten verwendete Kodierung erzwingen]** und wählen Sie die richtige Kodierung aus der Liste aus, die Ihre Sonderzeichen unterstützt.
+Aktivieren Sie dazu den Umschalter **[!UICONTROL Nachrichtenkodierung erzwingen (Codepage)]** und wählen Sie die richtige Kodierung aus der Liste aus, die Ihre Sonderzeichen unterstützt.
 
 ![](assets/smtp_encoding.png){zoomable="yes"}
 
 ### Bounce-E-Mails {#bounce-emails}
 
-Im Tab **[!UICONTROL SMTP]** der Versandeinstellungen können Sie außerdem die Verwaltung von Bounce Messages konfigurieren.
+Auf der Registerkarte **[!UICONTROL SMTP]** der Versandeigenstellungen lässt sich außerdem der Umgang mit Bounce-E-Mails konfigurieren.
 
-* **[!UICONTROL Fehler-an-Adresse]**: Wenn Sie den Umschalter **[!UICONTROL Standardmäßige Fehleradresse verwenden, die für die Plattform definiert ist]** aktivieren, werden Bounce-E-Mails im standardmäßigen Fehlerfeld der Plattform empfangen. Wenn Sie sie nicht aktivieren, können Sie eine bestimmte Fehleradresse für Ihren Versand definieren.
+* **[!UICONTROL Fehleradresse]**: Wenn Sie den Umschalter **[!UICONTROL Standard-Fehleradresse der Plattform benutzen]** aktivieren, werden Bounce-E-Mails im Standard-Fehlerfeld der Plattform empfangen. Wenn Sie sie nicht aktivieren, können Sie eine bestimmte Fehleradresse für Ihren Versand definieren.
 
 * **[!UICONTROL Bounce-Adresse]**: Sie können auch eine andere Adresse definieren, an die die nicht verarbeiteten Bounce Messages weitergeleitet werden. Diese Adresse ermöglicht es, die Gründe für das Bounce-Verhalten zu untersuchen, wenn E-Mails von der Anwendung nicht automatisch qualifiziert werden konnten.
 
-Diese beiden Felder können personalisiert werden, wie in [diesem Abschnitt](../personalization/gs-personalization.md) beschrieben.
+Diese beiden Felder können wie in [diesem Abschnitt](../personalization/gs-personalization.md) beschrieben personalisiert werden.
 
 ![](assets/smtp_bounce.png){zoomable="yes"}
 
 ### Zusätzliche SMTP-Header {#smtp-headers}
 
-Sie können Ihrem E-Mail-Versand im Tab SMTP der Versandeinstellungen **[!UICONTROL SMTP-Header]** hinzufügen.
+Auf der Registerkarte „SMTP“ der Versandeinstellungen können Sie Ihrem E-Mail-Versand **[!UICONTROL SMTP-Header]** hinzufügen.
 
-Das in diesem Fenster eingegebene Skript muss pro Zeile einen Header im folgenden Formular referenzieren: name:value.
+Das in diesem Fenster erfasste Skript muss pro Zeile einen Header im Format „Name:Wert“ enthalten.
 
 Werte werden bei Bedarf automatisch verschlüsselt.
 
@@ -338,19 +338,19 @@ Werte werden bei Bedarf automatisch verschlüsselt.
 >
 >Das Hinzufügen eines Scripts für zusätzliche SMTP-Header ist eine Aufgabe für erfahrene Benutzer. Die Syntax des Scripts muss die Anforderungen für diesen Inhaltstyp (keine überflüssigen Leerzeichen, keine Leerzeilen usw.) erfüllen.
 
-## Variablen hinzufügen {#variables-delivery}
+## Hinzufügen von Variablen {#variables-delivery}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_settings_variable"
 >title="Variablen"
 >abstract="Sie können Ihrem Versand Variablen hinzufügen, die für Tracking und Personalisierung nützlich sein können. Auf diese Variablen können Sie sowohl über Ihren Versandinhalt als auch über Ihre Workflows zugreifen."
 
-Sie können Ihrem Versand Variablen hinzufügen, die für Tracking und Personalisierung nützlich sein können. Auf diese Variablen können Sie sowohl über Ihren Versandinhalt als auch über Ihre Workflows zugreifen. Gespeicherte Variablen werden verwendet, um Werte festzulegen, die in allen Nachrichten innerhalb des Versands konstant bleiben. Sie können auch in Versandvorlagen konfiguriert werden.
+Sie können Ihrem Versand Variablen hinzufügen, die für Tracking und Personalisierung nützlich sein können. Auf diese Variablen können Sie sowohl über Ihren Versandinhalt als auch über Ihre Workflows zugreifen. Mit gespeicherten Variablen werden Werte festgelegt, die für alle Nachrichten innerhalb Versands konstant bleiben. Sie können auch in Versandvorlagen konfiguriert werden.
 
-Um eine Variable hinzuzufügen, navigieren Sie zur Registerkarte **[!UICONTROL Variablen]** , wie unten dargestellt.
+Um eine Variable hinzuzufügen, navigieren Sie zur Registerkarte **[!UICONTROL Variablen]**, wie unten dargestellt.
 
 ![](assets/variables-tab.png){zoomable="yes"}
 
-Klicken Sie auf die Schaltfläche **[!UICONTROL Variablen hinzufügen]** , um die Details Ihrer Variablen einzugeben, und klicken Sie dann auf **[!UICONTROL Bestätigen]** , um Ihre Änderungen zu speichern.
+Klicken Sie auf die Schaltfläche **[!UICONTROL Variablen hinzufügen]**, um die Details Ihrer Variablen einzugeben, und klicken Sie dann auf **[!UICONTROL Bestätigen]**, um Ihre Änderungen zu speichern.
 
 ![](assets/variables-add.png){zoomable="yes"}

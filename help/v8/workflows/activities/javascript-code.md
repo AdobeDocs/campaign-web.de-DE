@@ -4,9 +4,9 @@ title: Verwenden der Workflow-Aktivität „JavaScript-Code“
 description: Informationen dazu, wie Sie die Workflow-Aktivität „JavaScript-Code“ verwenden.
 exl-id: ca040ef8-5e0d-44e0-818d-08cfe99100be
 source-git-commit: 040a7f68f072d5c3a7ce56a61d3383f0baccf8a8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '948'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -34,8 +34,8 @@ ht-degree: 99%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_processerrors"
->title="Fehler verarbeiten"
->abstract="Prozessfehler"
+>title="Verarbeiten von Fehlern"
+>abstract="Verarbeiten von Fehlern"
 
 Die **JavaScript-Code**-Aktivität ist eine **Daten-Management**-Aktivität. Verwenden Sie diese Aktivität, um ein JavaScript-Skript im Kontext eines Workflows auszuführen. Auf diese Weise können Sie Informationen aus der Datenbank erfassen oder andere komplexe Vorgänge durchführen.
 

@@ -4,7 +4,7 @@ title: Verwendung der Workflow-Aktivität „Und-Verknüpfung“
 description: Erfahren Sie, wie Sie die Workflow-Aktivität „Und-Verknüpfung“ verwenden.
 exl-id: 2470e5fa-5596-4441-b9b9-7e8b5d1d53aa
 source-git-commit: 5d13a654974b8a448c2bbaded46f9f6f5727682f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '254'
 ht-degree: 100%
 

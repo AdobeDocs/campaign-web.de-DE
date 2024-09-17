@@ -5,9 +5,9 @@ hide: true
 hidefromtoc: true
 exl-id: a4c6ecb7-d657-46de-aa55-90c4cb45164b
 source-git-commit: d5a916578a9d79ad021064b9c1e6b26e396ebd15
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '346'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -32,16 +32,16 @@ Die folgenden Funktionen und Verbesserungen sind ab der Version August verfügba
 >
 >Die folgenden Funktionen sind nur eingeschränkt verfügbar. Sie sind Kundinnen und Kunden vorbehalten, die **von Adobe Campaign Standard zu Adobe Campaign v8** migrieren, und können nicht in anderen Umgebungen bereitgestellt werden.
 >
->Weitere Informationen finden Sie auf den folgenden Dokumentationsseiten: [Campaign Standard Übergang zu Campaign v8](../rn/acs-migration.md) und [Funktionen für Campaign Standard](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=de){target="_blank"}.
+>Weitere Informationen finden Sie auf den folgenden Seiten der Dokumentation: [Wechsel von Campaign Standard zu Campaign v8](../rn/acs-migration.md) und [Funktionen für Campaign Standard-Benutzende](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=de){target="_blank"}.
 
 * **Branding für Briefpost**: Technische Admins können nun eine oder mehrere Marken definieren, um die Parameter zu zentralisieren, die sich auf die Markenidentität auswirken, z. B. das Logo der Marke, die Domain der Zugangs-URL zu den Landingpages, Einstellungen zum Nachrichten-Tracking. Diese Marken können jetzt erstellt und mit verschiedenen Nachrichten oder Landingpages verknüpft werden. Diese Konfiguration wird in Vorlagen vorgenommen.
 
-* **Abonnements mit Landingpages** - Jetzt können Sie eine Landingpage mit einem Dienst verknüpfen und eine Bestätigungsnachricht senden, wenn Benutzer sie validieren.
+* **Abonnements mit Landingpages**: Es ist jetzt möglich, eine Landingpage mit einem Dienst zu verknüpfen und eine Bestätigungsnachricht zu versenden, wenn Benutzende dies validieren.
 
 * **Visuelle Fragmente**: Visuelle Inhaltsfragmente können jetzt archiviert werden.
 
-* **Landingpages Captcha** - Sie können jetzt Captcha hinzufügen, um Ihre Landingpage vor Spam und Missbrauch durch Bots zu schützen. Dies erfordert nur wenig Einsatz aufseiten von Kunden, da nur eine Interaktion mit der Website erforderlich ist.
+* **Landingpages-Captcha**: Sie können jetzt Captcha zum Schutz Ihrer Landingpage vor Spam und Missbrauch durch Bots hinzufügen. Dies erfordert nur wenig Einsatz aufseiten von Kundschaft, da nur eine Interaktion mit der Website erforderlich ist.
 
-* **Rest-APIs** - Als Campaign Standard migrierte Benutzer können Sie jetzt REST-APIs verwenden, um mit Transaktionsnachrichten zu arbeiten. [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html?lang=de){target="_blank"}.
+* **Rest-APIs** - Wenn Sie von Campaign Standard migriert sind, können Sie jetzt REST-APIs verwenden, um mit Transaktionsnachrichten zu arbeiten. [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html?lang=de){target="_blank"}.
 
 
