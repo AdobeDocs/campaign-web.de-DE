@@ -4,7 +4,7 @@ title: Verwenden der Workflow-Aktivität „Zielgruppe erstellen“
 description: Erfahren Sie, wie Sie die Workflow-Aktivität „Zielgruppe erstellen“ verwenden.
 exl-id: c07bb025-51b7-428e-ba00-cd552f0db9d4
 source-git-commit: b34b8e95e9fce265de96335f3d7d22aab84a0350
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '392'
 ht-degree: 100%
 

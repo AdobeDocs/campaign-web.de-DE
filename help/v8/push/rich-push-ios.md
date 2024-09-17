@@ -2,8 +2,9 @@
 audience: end-user
 title: Erstellen eines Versands von Rich-Push-Benachrichtigungen für iOS
 description: Erfahren Sie, wie Sie einen Versand von Rich-Push-Benachrichtigungen für iOS mit Adobe Campaign Web erstellen.
-source-git-commit: f48e9a6d75429d9038b4e6b0af65a15bcb6fe929
-workflow-type: ht
+exl-id: e6058d60-9f34-412b-aac2-6e319a3ab898
+source-git-commit: 387a69abf4b97cd202c1a7e24bcf14c6af442714
+workflow-type: tm+mt
 source-wordcount: '1546'
 ht-degree: 100%
 
@@ -210,4 +211,3 @@ Sobald Sie den Inhalt Ihrer Nachricht definiert haben, können Sie Testabonnenti
 | **[!UICONTROL Thread-ID]** | Legen Sie die Kennung fest, die zur Gruppierung zusammengehöriger Meldungen verwendet wird. |
 | **[!UICONTROL Kategorie]** | Legen Sie den Namen Ihrer Kategorie-ID fest, über die Aktionsschaltflächen angezeigt werden. Diese Benachrichtigungen ermöglichen es Benutzerinnen und Benutzern, verschiedene Aufgaben als Reaktion auf eine Benachrichtigung schneller auszuführen, ohne die App öffnen oder darin navigieren zu müssen. |
 | **[!UICONTROL ID des Zielinhalts]** | Legen Sie eine Kennung fest, die angibt, welches App-Fenster beim Öffnen der Benachrichtigung im Vordergrund erscheinen soll. |
-

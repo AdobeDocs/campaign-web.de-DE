@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie visuelle Fragmente zu Ihren E-Mails hinzufüg
 badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: 6d6f38f9-9d3e-47cb-beb8-177b5a5d8306
 source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '507'
 ht-degree: 100%
 

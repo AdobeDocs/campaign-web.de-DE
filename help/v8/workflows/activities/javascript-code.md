@@ -4,7 +4,7 @@ title: Verwenden der Workflow-Aktivität „JavaScript-Code“
 description: Informationen dazu, wie Sie die Workflow-Aktivität „JavaScript-Code“ verwenden.
 exl-id: ca040ef8-5e0d-44e0-818d-08cfe99100be
 source-git-commit: 040a7f68f072d5c3a7ce56a61d3383f0baccf8a8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '948'
 ht-degree: 100%
 

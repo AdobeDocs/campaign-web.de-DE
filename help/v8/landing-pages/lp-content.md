@@ -4,7 +4,7 @@ description: Erfahren Sie, wie Sie in Campaign Web Landingpage-spezifische Inhal
 feature: Landing Pages
 exl-id: 6ca3c8c1-3633-4e3f-a9a1-f46ae27c5c8a
 source-git-commit: 0e89f01fed390665b150b09697dc6e9204975ee2
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1226'
 ht-degree: 100%
 

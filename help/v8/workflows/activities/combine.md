@@ -4,7 +4,7 @@ title: Verwenden der Workflow-Aktivität „Kombinieren“.
 description: Erfahren Sie, wie Sie die Workflow-Aktivität „Kombinieren“ verwenden.
 exl-id: 7e821678-e6a2-4613-b05e-6ccbe4df41c3
 source-git-commit: 5d13a654974b8a448c2bbaded46f9f6f5727682f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1046'
 ht-degree: 100%
 

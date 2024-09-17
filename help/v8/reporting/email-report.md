@@ -4,7 +4,7 @@ title: E-Mail-Versandberichte
 description: Erfahren Sie, wie Sie auf E-Mail-Versandberichte zugreifen und diese verwenden können
 exl-id: 2a0bd3e9-5d75-47c8-bd6a-b3e0b1ce0a01
 source-git-commit: 39dcf11797339ee9800da6c5a32b1a1c3470529a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2289'
 ht-degree: 100%
 

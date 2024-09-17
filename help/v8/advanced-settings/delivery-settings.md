@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie Versandeinstellungen in Campaign Web konfigur
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 source-git-commit: 898762bc059b49c2f39da7558e6d9ffd31d1985e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2852'
 ht-degree: 100%
 

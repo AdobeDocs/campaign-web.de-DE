@@ -6,7 +6,7 @@ exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
 source-git-commit: 5b984089ea36b190cde1046c0d96734e848b5f67
 workflow-type: tm+mt
 source-wordcount: '1199'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -150,7 +150,7 @@ Verwenden Sie die Komponente **[!UICONTROL HTML]**, um die unterschiedlichen Tei
 
 >[!IMPORTANT]
 >
->Der Zugriff auf das Assets-Menü ist auf Benutzer mit einer aktiven Adobe Experience Manager as a Cloud Service-Lizenz beschränkt. Wenn Sie diese Lizenz nicht besitzen, ist das Menü Assets nicht verfügbar.
+>Der Zugriff auf das Assets-Menü ist auf Benutzerinnen und Benutzer mit einer aktiven Adobe Experience Manager as a Cloud Service-Lizenz beschränkt. Wenn diese Lizenz nicht vorhanden ist, ist das Menü „Assets“ nicht verfügbar.
 
 Verwenden Sie die Komponente **[!UICONTROL Bild]**, um eine Bilddatei von Ihrem Computer in Ihre E-Mail einzufügen.
 

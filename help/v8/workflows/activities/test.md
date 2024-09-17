@@ -4,7 +4,7 @@ title: Verwenden der Workflow-Aktivität „Test“
 description: Informationen dazu, wie Sie die Workflow-Aktivität „Test“ verwenden
 exl-id: 1bb25ad4-2cab-4656-85bd-4ed018e8477b
 source-git-commit: 5d13a654974b8a448c2bbaded46f9f6f5727682f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '376'
 ht-degree: 100%
 

@@ -4,7 +4,7 @@ title: Konfigurieren von Workflow-Einstellungen
 description: Erfahren Sie, wie Sie Workflow-Einstellungen mit Adobe Campaign Web festlegen
 exl-id: 3aef912b-086b-4aa4-9556-c09396112313
 source-git-commit: 865978dd8083723187a90647060f8758d4d888be
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1063'
 ht-degree: 100%
 

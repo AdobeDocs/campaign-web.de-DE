@@ -1,10 +1,10 @@
 ---
 audience: end-user
-title: Erstellen eines Rich-Push-Benachrichtigungs-Versands
+title: Erstellen eines Rich-Push-Benachrichtigungsversands
 description: Erfahren Sie, wie Sie mit Adobe Campaign Web einen Rich-Push-Benachrichtigungs-Versand für Android erstellen.
 exl-id: a87cb933-b564-4fa4-b173-6a94d7e27da5
 source-git-commit: 86214576e08df6596860826bb6511c1f4138c2ad
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '3372'
 ht-degree: 100%
 
@@ -36,7 +36,7 @@ Bei Firebase Cloud Messaging stehen Ihnen zwei Nachrichtentypen zur Auswahl:
 
 Nach der Erstellung Ihres Push-Versands können Sie dessen Inhalt mit einer der folgenden Vorlagen definieren:
 
-* **Standard** ermöglicht es Ihnen, Benachrichtigungen mit einem einfachen Symbol und einem dazugehörigen Bild zu versenden.
+* **Standard** ermöglicht es Ihnen, Benachrichtigungen mit einem einfachen Symbol und einem zugehörigen Bild zu senden.
 
 * **Einfach** ermöglicht es Ihnen, Text, Bilder und Schaltflächen in Ihre Benachrichtigungen einzufügen.
 
@@ -60,7 +60,7 @@ Navigieren Sie durch die folgenden Registerkarten, um mehr über die Personalisi
 
 >[!TAB Standard]
 
-1. Wählen Sie **[!UICONTROL Standard]** aus der Dropdown-Liste **[!UICONTROL Vorlage]**.
+1. Wählen Sie aus der Dropdown-Liste **[!UICONTROL Vorlage]** die Option **[!UICONTROL Standard]** aus.
 
    ![](assets/rich_push_default.png)
 
@@ -82,7 +82,7 @@ Sobald Sie den Inhalt Ihrer Nachricht definiert haben, können Sie Testabonnenti
 
 >[!TAB Einfach]
 
-1. Wählen Sie **[!UICONTROL Einfach]** aus der Dropdown-Liste **[!UICONTROL Vorlage]**.
+1. Wählen Sie aus der Dropdown-Liste **[!UICONTROL Vorlage]** die Option **[!UICONTROL Einfach]**.
 
    ![](assets/rich_push_basic.png)
 
@@ -132,7 +132,7 @@ Sobald Sie den Inhalt Ihrer Nachricht definiert haben, können Sie Testabonnenti
 
 >[!TAB Karussell]
 
-1. Wählen Sie **[!UICONTROL Karussell]** aus der Dropdown-Liste **[!UICONTROL Vorlage]**.
+1. Wählen Sie aus der Dropdown-Liste **[!UICONTROL Vorlage]** die Option **[!UICONTROL Karussell]**.
 
    ![](assets/rich_push_carousel.png)
 

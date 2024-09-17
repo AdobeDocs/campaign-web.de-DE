@@ -4,7 +4,7 @@ title: Erstellen von Inhaltsfragmenten
 description: Erfahren Sie, wie Sie Inhaltsfragmente erstellen
 exl-id: 8f37e9e6-3085-4a68-9746-8ca34cfa4242
 source-git-commit: 387a69abf4b97cd202c1a7e24bcf14c6af442714
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1013'
 ht-degree: 100%
 

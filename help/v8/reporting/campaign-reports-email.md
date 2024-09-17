@@ -4,7 +4,7 @@ title: Kampagnenberichte für den E-Mail-Kanal
 description: Weitere Informationen zu Kampagnenberichten für den E-Mail-Kanal
 exl-id: c44c91f8-1f88-4087-8417-34be64a2ab19
 source-git-commit: 39dcf11797339ee9800da6c5a32b1a1c3470529a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1571'
 ht-degree: 100%
 
