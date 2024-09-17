@@ -3,10 +3,10 @@ audience: end-user
 title: Neue Funktionen in der Campaign Web-Benutzeroberfläche
 description: Entdecken Sie neue Funktionen in der Campaign Web-Benutzeroberfläche.
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: 485d8270e8b1a4bf92d2c1b9543ffa143bc2d2da
+source-git-commit: 2918ad161ace7305e4bd3be1bcec0bb7b6f7d51a
 workflow-type: tm+mt
 source-wordcount: '1206'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -114,9 +114,7 @@ Sie können jetzt im E-Mail-Editor von Campaign **HTML-Inhalte importieren und k
 
 **SMS mit Angeboten**
 
-Die neue Campaign Web-Benutzeroberfläche ermöglicht jetzt neben der Integration von Angeboten in E-Mails auch die **Integration von Angeboten mit SMS**. Erreichen Sie Ihre Zielgruppe auf ihren Mobilgeräten und senden Sie Promotions und zeitlich abgestimmte Benachrichtigungen. Heben Sie Ihre Marketing-Unternehmungen auf ein neues Niveau, indem Sie die Leistungsfähigkeit integrierter Angebote per SMS auf unserer erweiterten Web-Plattform nutzen.
-
-Weiterführende Informationen finden Sie in [diesem Abschnitt](../msg/offers.md).
+Die neue Campaign Web-Benutzeroberfläche ermöglicht jetzt neben der Integration von Angeboten in E-Mails auch die **Integration von Angeboten mit SMS**. Erreichen Sie Ihre Zielgruppe auf ihren Mobilgeräten und senden Sie Promotions und zeitlich abgestimmte Benachrichtigungen. Steigern Sie Ihre Marketingbemühungen, indem Sie die Leistungsfähigkeit integrierter Angebote per SMS auf unserer erweiterten Web-Plattform nutzen. Weiterführende Informationen finden Sie in [diesem Abschnitt](../msg/offers.md).
 
 ## Wechsel zur Campaign Web-Benutzeroberfläche
 
