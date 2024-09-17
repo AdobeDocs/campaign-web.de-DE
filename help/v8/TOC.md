@@ -7,8 +7,8 @@ description: Dokumentation zu Campaign Web
 breadcrumb-title: Campaign Web-Benutzeroberfläche
 source-git-commit: a1c16a9ba5e5ca844eaf82ed3b587f4f7a0b0873
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '749'
+ht-degree: 96%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 0%
    + [KI-gestützte Kontexthilfe](get-started/-using-ai.md)
 + Nachrichten und Sendungen {#msg}
    + [Erste Schritte mit Nachrichten](msg/gs-messages.md)
-   + [Auf Sendungen zugreifen](msg/gs-deliveries.md)
+   + [Zugreifen auf Sendungen](msg/gs-deliveries.md)
    + [Erstellen eines Versands](msg/create-deliveries.md)
    + [Verwenden von Versandvorlagen](msg/delivery-template.md)
    + E-Mails {#email}

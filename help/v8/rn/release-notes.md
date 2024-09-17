@@ -5,7 +5,7 @@ exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 source-git-commit: aea828da825a416dece6c4bee1da6d4e570e4e48
 workflow-type: tm+mt
 source-wordcount: '481'
-ht-degree: 59%
+ht-degree: 82%
 
 ---
 
@@ -47,9 +47,9 @@ Die folgenden Funktionen und Verbesserungen sind ab der Version August verfügba
 
 * **Werteverteilung**: Beim Zugriff auf die Liste der zur Personalisierung vorgesehenen Felder kann jetzt überprüft werden, wie die Werte für jedes Feld verteilt werden. Ein dediziertes Popup-Fenster zeigt die Anzahl und den Prozentsatz für jeden Wert an. [Weitere Informationen](../query/build-query.md#distribution-values-query)
 
-* **SMTP-Parameter** - SMTP-Einstellungen sind jetzt in den E-Mail-Versandeinstellungen verfügbar. [Weitere Informationen](../advanced-settings/delivery-settings.md#smtp)
+* **SMTP-Parameter**: SMTP-Einstellungen sind jetzt in den E-Mail-Versandeinstellungen verfügbar. [Weitere Informationen](../advanced-settings/delivery-settings.md#smtp)
 
-* **Globale Variablen** - Sie können jetzt globale Variablen definieren, um Werte für Ihre Sendungen zu definieren. [Weitere Informationen](../advanced-settings/delivery-settings.md#variables-delivery)
+* **Globale Variablen**: Sie können jetzt globale Variablen definieren, um Werte für Ihre Sendungen zu definieren. [Weitere Informationen](../advanced-settings/delivery-settings.md#variables-delivery)
 
 ### Neue Funktionen in eingeschränkter Verfügbarkeit {#acs-24-8}
 
@@ -57,15 +57,15 @@ Die folgenden Funktionen und Verbesserungen sind ab der Version August verfügba
 >
 >Die folgenden Funktionen sind nur eingeschränkt verfügbar. Sie sind Kundinnen und Kunden vorbehalten, die **von Adobe Campaign Standard zu Adobe Campaign v8** migrieren, und können nicht in anderen Umgebungen bereitgestellt werden.
 >
->Weitere Informationen finden Sie auf den folgenden Dokumentationsseiten: [Campaign Standard Übergang zu Campaign v8](../rn/acs-migration.md) und [Funktionen für Campaign Standard](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=de){target="_blank"}.
+>Weitere Informationen finden Sie auf den folgenden Seiten der Dokumentation: [Wechsel von Campaign Standard zu Campaign v8](../rn/acs-migration.md) und [Funktionen für Campaign Standard-Benutzende](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=de){target="_blank"}.
 
-* **Branding für Briefpost**: Technische Admins können nun eine oder mehrere Marken definieren, um die Parameter zu zentralisieren, die sich auf die Markenidentität auswirken, z. B. das Logo der Marke, die Domain der Zugangs-URL zu den Landingpages, Einstellungen zum Nachrichten-Tracking. Diese Marken können jetzt erstellt und mit verschiedenen Nachrichten oder Landingpages verknüpft werden. Diese Konfiguration wird in Vorlagen verwaltet. [Weitere Informationen](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/branding/branding-assign)
+* **Branding für Briefpost**: Technische Admins können nun eine oder mehrere Marken definieren, um die Parameter zu zentralisieren, die sich auf die Markenidentität auswirken, z. B. das Logo der Marke, die Domain der Zugangs-URL zu den Landingpages, Einstellungen zum Nachrichten-Tracking. Diese Marken können jetzt erstellt und mit verschiedenen Nachrichten oder Landingpages verknüpft werden. Diese Konfiguration wird in Vorlagen verwaltet. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/experience-cloud/campaign/branding/branding-assign)
 
-* **Abonnements mit Landingpages** - Jetzt können Sie eine Landingpage mit einem Dienst verknüpfen und eine Bestätigungsnachricht senden, wenn Benutzer sie validieren. [Weitere Informationen](../landing-pages/lp-content.md#lp-message){target="_blank"}.
+* **Abonnements mit Landingpages**: Es ist jetzt möglich, eine Landingpage mit einem Dienst zu verknüpfen und eine Bestätigungsnachricht zu versenden, wenn Benutzende dies validieren. [Weitere Informationen](../landing-pages/lp-content.md#lp-message){target="_blank"}.
 
-* **Visuelle Fragmente** - Sie können jetzt visuelle Inhaltsfragmente archivieren. [Weitere Informationen](../content/create-fragment.md#archive)
+* **Visuelle Fragmente**: Visuelle Inhaltsfragmente können jetzt archiviert werden. [Weitere Informationen](../content/create-fragment.md#archive)
 
-* **Captcha in Landingpages** - Sie können jetzt Captcha hinzufügen, um Ihre Landingpage vor Spam und Missbrauch durch Bots zu schützen. Dies erfordert nur wenig Einsatz aufseiten Ihrer Kunden, da nur eine Interaktion mit Ihrer Website erforderlich ist. [Weitere Informationen](../landing-pages/create-lp.md#captcha)
+* **Captcha in Landingpages**: Sie können jetzt Captcha zum Schutz Ihrer Landingpage vor Spam und Missbrauch durch Bots hinzufügen. Dies erfordert nur wenig Einsatz aufseiten Ihrer Kundschaft, da nur eine Interaktion mit Ihrer Website erforderlich ist. [Weitere Informationen](../landing-pages/create-lp.md#captcha)
 
 <!--
 * **Rest APIs** - As a Campaign Standard migrated user, you can now use Rest APIs to work with transactional messages. [Read more](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html){target="_blank"}.-->

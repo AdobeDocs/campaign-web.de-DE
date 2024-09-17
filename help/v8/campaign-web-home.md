@@ -6,7 +6,7 @@ exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 source-git-commit: 1a6bf414e4e5390faf701baf34ad9b33bb0b6dd7
 workflow-type: tm+mt
 source-wordcount: '471'
-ht-degree: 83%
+ht-degree: 92%
 
 ---
 
@@ -59,13 +59,13 @@ Hier erhalten Sie einen Einblick in die neuesten Verbesserungen in Adobe Campaig
 
 >[!TAB Werteverteilung]
 
-Beim Zugriff auf die Liste der zur Personalisierung erforderlichen Felder können Sie nun prüfen, wie die Werte für jedes Feld verteilt werden.
+Beim Zugriff auf die Liste der zur Personalisierung vorgesehenen Felder kann jetzt überprüft werden, wie die Werte für jedes Feld verteilt werden.
 
 [![Bild](assets/do-not-localize/learn-more-button.svg)](../v8/query/build-query.md#distribution-values-query)
 
 >[!TAB Captcha in Landingpages]
 
-Jetzt können Sie Captcha hinzufügen, um Ihre Landingpage vor Spam und Missbrauch durch Bots zu schützen. Diese Funktion ist in begrenztem Umfang verfügbar.
+Sie können jetzt Captcha zum Schutz Ihrer Landingpage vor Spam und Missbrauch durch Bots hinzufügen. Diese Funktion ist nur eingeschränkt verfügbar.
 
 [![Bild](assets/do-not-localize/learn-more-button.svg)](../v8/landing-pages/create-lp.md#captcha)
 
