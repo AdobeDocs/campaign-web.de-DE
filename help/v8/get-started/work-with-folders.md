@@ -4,9 +4,9 @@ title: Arbeiten mit Ordnern
 description: Erfahren Sie, wie Sie in Adobe Campaign einen Ordner verwalten.
 exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
 source-git-commit: c7bb533174019d465f273c4fede3b578a40f2bb6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '471'
-ht-degree: 54%
+ht-degree: 100%
 
 ---
 
@@ -78,32 +78,32 @@ Wählen Sie **[!UICONTROL Ordner löschen]** aus.
 
 ![](assets/folder_delete.png){zoomable="yes"}
 
-## Verteilung der Werte in einem Ordner {#distribution-values-folder}
+## Werteverteilung in einem Ordner {#distribution-values-folder}
 
 Die Werteverteilung hilft dabei, den Prozentsatz eines Werts in einer Spalte innerhalb einer Tabelle zu ermitteln.
 
-Um die Verteilung der Werte in einem Ordner zu erfahren, gehen Sie wie folgt vor:
+Um die Wertverteilung in einem Ordner zu ermitteln, gehen Sie wie folgt vor:
 
-Beispielsweise möchten wir die Werteverteilung der Spalte **Kanal** unter den Sendungen kennen.
+Wir möchten beispielsweise die Werteverteilung der Spalte **Kanal** unter den Sendungen ermitteln.
 
-Um diese Informationen zu erhalten, gehen Sie zum Ordner **[!UICONTROL Sendungen]** und klicken Sie auf das Symbol **[!UICONTROL Spalten konfigurieren]** .
+Um diese Informationen zu erhalten, gehen Sie zum Ordner **[!UICONTROL Sendungen]** und klicken Sie auf das Symbol **[!UICONTROL Spalten konfigurieren]**.
 
-Klicken Sie im Fenster **[!UICONTROL Spalten konfigurieren]** auf das Symbol **[!UICONTROL Informationen]** der Spalte, die Sie kennen möchten. Klicken Sie dann auf die Schaltfläche **[!UICONTROL Werteverteilung]** .
+Klicken Sie im Fenster **[!UICONTROL Spalten konfigurieren]** auf das Symbol **[!UICONTROL Informationen]** der Spalte, deren Informationen Sie ermitteln möchten. Klicken Sie dann auf die Schaltfläche **[!UICONTROL Werteverteilung]**.
 
 ![](assets/values_deliveries.png){zoomable="yes"}
 
-Sie erhalten den Prozentsatz der Werte in der Spalte **[!UICONTROL Kanal]** .
+Sie erhalten den Prozentsatz der Werte in der Spalte **[!UICONTROL Kanal]**.
 
 ![](assets/values_percentage.png){zoomable="yes"}
 
 >[!NOTE]
 >
-> Bei Spalten mit vielen Werten werden nur die ersten zwanzig Werte angezeigt. Eine Benachrichtigung **[!UICONTROL Teillade]** gibt eine Warnung aus.
+> Bei Spalten mit vielen Werten werden nur die ersten zwanzig Werte angezeigt. Sie werden durch die Benachrichtigung **[!UICONTROL Teilladung]** gewarnt.
 
-Sie können auch die Werteverteilung eines Links verwenden.
+Sie können auch die Werteverteilung eines Links ermitteln.
 
-Klicken Sie in der Attributliste auf die Schaltfläche **+** neben dem gewünschten Link, wie unten dargestellt. Dadurch wird der Link zu den **[!UICONTROL Ausgabespalten]** hinzugefügt. Jetzt können Sie über das Symbol **[!UICONTROL Informationen]** verfügen, über das Sie die Verteilung der Werte anzeigen können. Wenn Sie den Link nicht in den **[!UICONTROL Ausgabespalten]** beibehalten möchten, klicken Sie auf die Schaltfläche **[!UICONTROL Abbrechen]** .
+Klicken Sie in der Attributliste auf die Schaltfläche **+** neben dem gewünschten Link, wie unten dargestellt. Dadurch wird der Link zu den **[!UICONTROL Ausgabespalten]** hinzugefügt. Jetzt können Sie über das Symbol **[!UICONTROL Informationen]** verfügen, über das Sie die Verteilung der Werte anzeigen können. Wenn Sie den Link nicht in den **[!UICONTROL Ausgabespalten]** beibehalten möchten, klicken Sie auf die Schaltfläche **[!UICONTROL Abbrechen]**.
 
 ![](assets/values_link.png){zoomable="yes"}
 
-Es ist auch möglich, die Werteverteilung in einem Abfragemodell zu verwenden. [Weitere Informationen finden Sie hier](../query/build-query.md#distribution-of-values-in-a-query).
+Es ist auch möglich, die Werteverteilung in einem Abfrage-Modeler zu ermitteln. [Weitere Informationen finden Sie hier](../query/build-query.md#distribution-of-values-in-a-query).
