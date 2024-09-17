@@ -3,10 +3,10 @@ title: Erste Schritte mit Adobe Campaign v8 für Admins und Entwicklerinnen und 
 description: Dieses Tutorial bietet einen Überblick über die wichtigsten Verwaltungs- und Daten-Management-Funktionen von Campaign v8. Es richtet sich an Admins und technische Marketing-Fachleute, die von Campaign Standard zu Campaign v8 migrieren.
 role: Admin, Developer
 level: Beginner, Experienced
-source-git-commit: a1c16a9ba5e5ca844eaf82ed3b587f4f7a0b0873
+source-git-commit: 271fb8805e046c20fad824ba37b84be43638011a
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2666'
+ht-degree: 16%
 
 ---
 
@@ -17,7 +17,7 @@ Auf dieser Seite erhalten Sie einen Überblick über die wichtigsten Verwaltungs
 
 Die wichtigste Änderung für Sie ist die Einführung der Clientkonsole, der nativen Anwendung, die mit dem Adobe Campaign-Anwendungsserver kommuniziert.
 
-Die Campaign-Client-Konsole zentralisiert alle Funktionen und Einstellungen. Sie bleibt mit der Campaign-Webbenutzeroberfläche synchronisiert, wodurch eine konsistente Umgebung in beiden Umgebungen gewährleistet ist.
+Die Campaign-Client-Konsole zentralisiert alle Funktionen und Einstellungen. Sie wird mit der Campaign-Webbenutzeroberfläche synchronisiert, um eine konsistente Darstellung in beiden Umgebungen zu gewährleisten.
 
 ![](assets/client_console.png){zoomable="yes"}
 
