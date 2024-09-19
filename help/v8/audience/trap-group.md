@@ -4,7 +4,7 @@ title: Verwenden einer Trap-Gruppe
 description: Erfahren Sie, wie Sie in der Campaign Web-Benutzeroberfläche eine Trap-Gruppe für Ihren Versand verwenden.
 exl-id: 48c34581-8825-4798-b24e-c462303f7645
 source-git-commit: dfd5f2e000b02d4382eaac0c9bb00fe940a99f79
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '434'
 ht-degree: 100%
 
