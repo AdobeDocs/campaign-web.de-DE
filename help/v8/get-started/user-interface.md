@@ -3,10 +3,10 @@ audience: end-user
 title: Erkunden der Benutzeroberfläche
 description: Adobe Campaign Web-Benutzeroberfläche
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 43a296fa8bf630a2a1183cd6d7eee1c5f38e4a80
+source-git-commit: aec10c169f4d8cd360b819d51b4fe1a5c4be4434
 workflow-type: tm+mt
-source-wordcount: '1727'
-ht-degree: 99%
+source-wordcount: '1765'
+ht-degree: 98%
 
 ---
 
@@ -415,4 +415,59 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Über Packages"
 >abstract="Über Packages"
 
+<!--Schema-->
 
+>[!CONTEXTUALHELP]
+>id="acw_schema"
+>title="Schema"
+>abstract="Schema"
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_type"
+>title="Schematypen"
+>abstract="Schematypen"
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_properties"
+>title="Schemaeigenschaften"
+>abstract="Schema"
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_existing"
+>title="Vorhandenes Schema auswählen"
+>abstract="Schema"
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_external"
+>title="Externe Datenbank auswählen"
+>abstract="Schema"
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_add_tables"
+>title="Tabellen hinzufügen"
+>abstract="Schema"
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_logs_tasks"
+>title="Workflow-Logs und -Aufgaben"
+>abstract="Schema"
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_update"
+>title="Datenbank aktualisieren"
+>abstract="Schema"
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_update_script"
+>title="Skript aktualisieren"
+>abstract="Schema"
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_start_update"
+>title="Datenbankaktualisierung starten"
+>abstract="Schema"
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_add_tables"
+>title="Tabellen hinzufügen"
+>abstract="Schema"
