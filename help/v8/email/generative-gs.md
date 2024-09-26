@@ -1,20 +1,20 @@
 ---
 audience: end-user
-title: Erste Schritte mit dem AI Assistant Content Accelerator
+title: Erste Schritte mit dem KI-Assistenten zur Beschleunigung von Inhalten
 description: Erste Schritte mit dem AI Assistant Content Accelerator
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
 source-git-commit: 9d32344b5ee378588cedb003b80daac04ac3a26c
 workflow-type: tm+mt
 source-wordcount: '840'
-ht-degree: 57%
+ht-degree: 59%
 
 ---
 
-# Arbeiten mit dem AI Assistant Content Accelerator  {#generative-gs}
+# Arbeiten mit dem KI-Assistenten zur Beschleunigung von Inhalten  {#generative-gs}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn1"
->title="AI Assistant Content Accelerator"
+>title="KI-Assistent zur Beschleunigung von Inhalten"
 >abstract="Der KI-Assistent macht die Erstellung und Durchführung von Marketing-Kampagnen über Kanäle wie E-Mail, SMS und Push intuitiv, einfach und mühelos, während gleichzeitig Zeit gespart, die Effizienz gesteigert und bessere Ergebnisse erzielt werden."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=de" text="Siehe Versionshinweise"
 

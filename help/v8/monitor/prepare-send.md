@@ -6,7 +6,7 @@ exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
 source-git-commit: 10f8768b244b0138d055330d8d23f42076c83c49
 workflow-type: tm+mt
 source-wordcount: '891'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -118,34 +118,34 @@ Unabhängig davon, ob es sich um einen geplanten oder ungeplanten Versand handel
 >id="acw_deliveries_email_metrics_delivered"
 >title="Zugestellt"
 >abstract="Die Anzahl der erfolgreich zugestellten Nachrichten. Dieser Indikator wird alle 5 Minuten aktualisiert. Der angezeigte Prozentsatz bezieht sich auf die Gesamtzahl der gesendeten Nachrichten."
->additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/kpis" text="Grundlegendes zu KPIs"
+>additional-url="https://experienceleague.adobe.com/de/docs/campaign-web/v8/reports/kpis" text="Grundlegendes zu KPIs"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_opens"
 >title="Öffnungen"
 >abstract="Die Anzahl der geöffneten Nachrichten. Dieser Indikator wird alle 5 Minuten aktualisiert. Der angezeigte Prozentsatz ist das Verhältnis zwischen der Anzahl der Einzelöffnungen und der Anzahl der zugestellten Nachrichten."
->additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/kpis" text="Grundlegendes zu KPIs"
+>additional-url="https://experienceleague.adobe.com/de/docs/campaign-web/v8/reports/kpis" text="Grundlegendes zu KPIs"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_clicks"
 >title="Klicks"
 >abstract="Die Anzahl der Empfangenden, die mindestens einmal auf die E-Mail geklickt haben. Dieser Indikator wird alle 5 Minuten aktualisiert. Der angezeigte Prozentsatz ist das Verhältnis der Anzahl der eindeutigen Klicks im Vergleich zur Anzahl der zugestellten Nachrichten."
->additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/kpis" text="Grundlegendes zu KPIs"
+>additional-url="https://experienceleague.adobe.com/de/docs/campaign-web/v8/reports/kpis" text="Grundlegendes zu KPIs"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_sent"
 >title="Gesendet-Metriken"
 >abstract="Gesamtzahl der während der Versandanalyse verarbeiteten Nachrichten."
->additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/kpis" text="Grundlegendes zu KPIs"
+>additional-url="https://experienceleague.adobe.com/de/docs/campaign-web/v8/reports/kpis" text="Grundlegendes zu KPIs"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_errors"
 >title="Fehlermetriken"
 >abstract="Gesamtzahl der beim Versand und bei der automatischen Rücksendung kumulierten Fehler im Verhältnis zur Gesamtzahl der gesendeten Nachrichten."
->additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/kpis" text="Grundlegendes zu KPIs"
+>additional-url="https://experienceleague.adobe.com/de/docs/campaign-web/v8/reports/kpis" text="Grundlegendes zu KPIs"
 
 
 Nach abgeschlossenem Sendevorgang können Sie die angezeigten KPIs überprüfen:
