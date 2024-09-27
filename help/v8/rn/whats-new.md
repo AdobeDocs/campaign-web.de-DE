@@ -3,10 +3,10 @@ audience: end-user
 title: Neue Funktionen in der Campaign Web-Benutzeroberfläche
 description: Entdecken Sie neue Funktionen in der Campaign Web-Benutzeroberfläche.
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: 43a296fa8bf630a2a1183cd6d7eee1c5f38e4a80
+source-git-commit: 17536af2d65dec7cdba1967f607e10ae0cb1924a
 workflow-type: tm+mt
-source-wordcount: '1206'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -72,6 +72,13 @@ Verwenden Sie die neue Campaign Web-Benutzeroberfläche für Folgendes:
 * Überwachen, Senden und Messen von Ergebnissen mit integrierten Berichten – [Weitere Informationen](../reporting/delivery-reports.md)
 
 
+**Inhaltserstellung mit dem AI Assistant Content Accelerator**
+
+Verabschieden Sie sich von der manuellen Inhaltserstellung und lassen Sie sich mit unserem innovativen Inhaltsentwickler, der mit Microsoft Azure OpenAI und Adobe Firefly arbeitet, einer neuen Ära optimierter Kampagnen zuwenden.
+
+Definieren Sie die Inhaltsbereitstellung mit unserem erweiterten Drag &amp; Drop-Editor in WYSIWYG, der für Einfachheit und Effizienz konzipiert ist. Mit der nahtlosen AEM-Integration, den dynamischen Inhaltsfunktionen und dem sich ändernden AI Assistant Content Accelerator macht dieses integrierte Tool die Versanderstellung intuitiv, effizient und stark personalisiert.
+
+Nutzen Sie die Leistungsfähigkeit der erweiterten Algorithmen des AI Assistant Content Accelerator, um ansprechende, maßgeschneiderte Inhalte zu erstellen, die Ergebnisse optimieren. Erhöhen Sie Ihre Öffnungsraten, Clickthroughs und Konversionen mit intelligenter, KI-gesteuerter Inhaltserstellung. Weiterführende Informationen finden Sie in [diesem Abschnitt](../email/generative-gs.md).
 
 **Neue und neu gestaltete Kampagnen-Workflow-Aktivitäten**
 
