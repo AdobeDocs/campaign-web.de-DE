@@ -343,9 +343,9 @@ Werte werden bei Bedarf automatisch verschlüsselt.
 >[!CONTEXTUALHELP]
 >id="acw_delivery_settings_variable"
 >title="Variablen"
->abstract="Sie können Ihrem Versand Variablen hinzufügen, die für Tracking und Personalisierung nützlich sein können. Auf diese Variablen können Sie sowohl über Ihren Versandinhalt als auch über Ihre Workflows zugreifen."
+>abstract="Dem Versand können Variablen hinzufgefügt werden, die für Tracking und Personalisierung nützlich sein können. Der Zugriff auf diese Variablen ist sowohl über den Versandinhalt als auch über die Workflows möglich."
 
-Sie können Ihrem Versand Variablen hinzufügen, die für Tracking und Personalisierung nützlich sein können. Auf diese Variablen können Sie sowohl über Ihren Versandinhalt als auch über Ihre Workflows zugreifen. Mit gespeicherten Variablen werden Werte festgelegt, die für alle Nachrichten innerhalb Versands konstant bleiben. Sie können auch in Versandvorlagen konfiguriert werden.
+Dem Versand können Variablen hinzufgefügt werden, die für Tracking und Personalisierung nützlich sein können. Der Zugriff auf diese Variablen ist sowohl über den Versandinhalt als auch über die Workflows möglich. Mit gespeicherten Variablen werden Werte festgelegt, die für alle Nachrichten innerhalb Versands konstant bleiben. Sie können auch in Versandvorlagen konfiguriert werden.
 
 Um eine Variable hinzuzufügen, navigieren Sie zur Registerkarte **[!UICONTROL Variablen]**, wie unten dargestellt.
 
