@@ -6,7 +6,7 @@ exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 source-git-commit: 662d350a8c7e998db474873bed78204ce1f6d909
 workflow-type: tm+mt
 source-wordcount: '1762'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -402,18 +402,18 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_about_instance"
->title="Über Instanz"
->abstract="Über Instanz"
+>title="Informationen zu Instanzen"
+>abstract="Informationen zu Instanzen"
 
 >[!CONTEXTUALHELP]
 >id="acw_about_web"
->title="Über Web"
->abstract="Über Web"
+>title="Informationen über das Web"
+>abstract="Informationen über das Web"
 
 >[!CONTEXTUALHELP]
 >id="acw_about_packages"
->title="Über Packages"
->abstract="Über Packages"
+>title="Informationen zu Paketen"
+>abstract="Informationen zu Paketen"
 
 <!--Schema-->
 
@@ -449,7 +449,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_logs_tasks"
->title="Workflow-Logs und -Aufgaben"
+>title="Workflow-Protokolle und -Aufgaben"
 >abstract="Schema"
 
 >[!CONTEXTUALHELP]
@@ -464,5 +464,5 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_start_update"
->title="Datenbankaktualisierung starten"
+>title="Datenbank-Update starten"
 >abstract="Schema"
