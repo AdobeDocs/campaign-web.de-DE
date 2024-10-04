@@ -6,9 +6,9 @@ title: Dokumentation zu Adobe Campaign Web
 description: Dokumentation zu Campaign Web
 breadcrumb-title: Campaign Web-Benutzeroberfläche
 source-git-commit: 43a296fa8bf630a2a1183cd6d7eee1c5f38e4a80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '749'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -108,11 +108,11 @@ ht-degree: 96%
          + [Anpassen der senkrechten Ausrichtung und des Abstands](email/alignment-and-padding.md)
          + [Definieren eines Stils für Links](email/styling-links.md)
          + [Hinzufügen von Inline-Styling-Attributen](email/inline-styling.md)
-   + AI Assistant for Content Accelerator {#ai-assistant}
-      + [Arbeiten mit dem AI Assistant Content Accelerator](email/generative-gs.md)
+   + Content Accelerator des KI-Assistenten{#ai-assistant}
+      + [Arbeiten mit dem Content Accelerator des KI-Assistenten](email/generative-gs.md)
       + [E-Mail-Generierung mit KI](email/generative-content.md)
       + [SMS-Generierung mit KI](email/generative-sms.md)
-      + [Generieren von Push-Benachrichtigungen mit KI](email/generative-push.md)
+      + [Generierung von Push-Benachrichtigungen mit KI](email/generative-push.md)
 + Landingpages {#landing-pages}
    + [Erste Schritte mit Landingpages](landing-pages/get-started-lp.md)
    + [Erstellen und Veröffentlichen einer Landingpage](landing-pages/create-lp.md)

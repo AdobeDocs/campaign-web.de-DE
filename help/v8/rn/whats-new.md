@@ -4,9 +4,9 @@ title: Neue Funktionen in der Campaign Web-Benutzeroberfläche
 description: Entdecken Sie neue Funktionen in der Campaign Web-Benutzeroberfläche.
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 source-git-commit: 17536af2d65dec7cdba1967f607e10ae0cb1924a
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '1317'
+ht-degree: 100%
 
 ---
 
@@ -72,13 +72,13 @@ Verwenden Sie die neue Campaign Web-Benutzeroberfläche für Folgendes:
 * Überwachen, Senden und Messen von Ergebnissen mit integrierten Berichten – [Weitere Informationen](../reporting/delivery-reports.md)
 
 
-**Inhaltserstellung mit dem AI Assistant Content Accelerator**
+**Inhaltsgenerierung mit dem Content Accelerator des KI-Assistenten**
 
-Verabschieden Sie sich von der manuellen Inhaltserstellung und lassen Sie sich mit unserem innovativen Inhaltsentwickler, der mit Microsoft Azure OpenAI und Adobe Firefly arbeitet, einer neuen Ära optimierter Kampagnen zuwenden.
+Verabschieden Sie sich von der manuellen Inhaltserstellung und begrüßen Sie eine neue Ära optimierter Kampagnen mit unserem innovativen Inhalts-Designer, der auf Microsoft Azure OpenAI und Adobe Firefly basiert.
 
-Definieren Sie die Inhaltsbereitstellung mit unserem erweiterten Drag &amp; Drop-Editor in WYSIWYG, der für Einfachheit und Effizienz konzipiert ist. Mit der nahtlosen AEM-Integration, den dynamischen Inhaltsfunktionen und dem sich ändernden AI Assistant Content Accelerator macht dieses integrierte Tool die Versanderstellung intuitiv, effizient und stark personalisiert.
+Definieren Sie den Versand von Inhalten neu mit unserem erweiterten WYSIWYG-Editor mit Drag-and-Drop-Funktion, der ein einfaches und effizientes Arbeiten ermöglicht. Durch die nahtlose AEM-Integration, die Funktionen für dynamische Inhalte und den fortschrittlichen Content Accelerator des KI-Assistenten ist die Erstellung des Versands mit diesem vielfältigen Tool intuitiv, effizient und hochgradig personalisiert.
 
-Nutzen Sie die Leistungsfähigkeit der erweiterten Algorithmen des AI Assistant Content Accelerator, um ansprechende, maßgeschneiderte Inhalte zu erstellen, die Ergebnisse optimieren. Erhöhen Sie Ihre Öffnungsraten, Clickthroughs und Konversionen mit intelligenter, KI-gesteuerter Inhaltserstellung. Weiterführende Informationen finden Sie in [diesem Abschnitt](../email/generative-gs.md).
+Nutzen Sie die Vorteile der erweiterten Algorithmen des Content Accelerators des KI-Assistenten, um ansprechende, maßgeschneiderte Inhalte zu erstellen, die Ergebnisse liefern. Steigern Sie Öffnungsraten, Klickraten und Konversionen mit einer intelligenten, KI-gestützten Inhaltsgenerierung. Weiterführende Informationen finden Sie in [diesem Abschnitt](../email/generative-gs.md).
 
 **Neue und neu gestaltete Kampagnen-Workflow-Aktivitäten**
 
@@ -121,7 +121,7 @@ Sie können jetzt im E-Mail-Editor von Campaign **HTML-Inhalte importieren und k
 
 **SMS mit Angeboten**
 
-Die neue Campaign Web-Benutzeroberfläche ermöglicht jetzt neben der Integration von Angeboten in E-Mails auch die **Integration von Angeboten mit SMS**. Erreichen Sie Ihre Zielgruppe auf ihren Mobilgeräten und senden Sie Promotions und zeitlich abgestimmte Benachrichtigungen. Steigern Sie Ihre Marketingbemühungen, indem Sie die Leistungsfähigkeit integrierter Angebote per SMS auf unserer erweiterten Web-Plattform nutzen. Weiterführende Informationen finden Sie in [diesem Abschnitt](../msg/offers.md).
+Die neue Campaign Web-Benutzeroberfläche ermöglicht jetzt neben der Integration von Angeboten in E-Mails auch die **Integration von Angeboten mit SMS**. Erreichen Sie Ihre Zielgruppe auf ihren Mobilgeräten und senden Sie Promotions und zeitlich abgestimmte Benachrichtigungen. Heben Sie Ihre Marketing-Unternehmungen auf ein neues Niveau, indem Sie die Leistungsfähigkeit integrierter Angebote per SMS auf unserer erweiterten Web-Plattform nutzen. Weiterführende Informationen finden Sie in [diesem Abschnitt](../msg/offers.md).
 
 ## Wechsel zur Campaign Web-Benutzeroberfläche
 

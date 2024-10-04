@@ -4,7 +4,7 @@ title: Erkunden der Benutzeroberfläche
 description: Adobe Campaign Web-Benutzeroberfläche
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 source-git-commit: 662d350a8c7e998db474873bed78204ce1f6d909
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1762'
 ht-degree: 100%
 
@@ -402,13 +402,13 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_about_instance"
->title="Informationen zu Instanzen"
->abstract="Informationen zu Instanzen"
+>title="Informationen zur Instanz"
+>abstract="Informationen zur Instanz"
 
 >[!CONTEXTUALHELP]
 >id="acw_about_web"
->title="Informationen über das Web"
->abstract="Informationen über das Web"
+>title="Informationen zum Web"
+>abstract="Informationen zum Web"
 
 >[!CONTEXTUALHELP]
 >id="acw_about_packages"
@@ -449,7 +449,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_logs_tasks"
->title="Workflow-Protokolle und -Aufgaben"
+>title="Workflow-Logs und -Aufgaben"
 >abstract="Schema"
 
 >[!CONTEXTUALHELP]
@@ -464,5 +464,5 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_start_update"
->title="Datenbank-Update starten"
+>title="Datenbank-Aktualisierung starten"
 >abstract="Schema"

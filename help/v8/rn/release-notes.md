@@ -3,9 +3,9 @@ title: Versionshinweise zur Web-Benutzeroberfläche von Campaign v8
 description: Entdecken Sie die neuen Funktionen der neuesten Version der Campaign Web-Benutzeroberfläche
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 source-git-commit: aea828da825a416dece6c4bee1da6d4e570e4e48
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '481'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -23,17 +23,17 @@ Die Versionen der Adobe Campaign Web-Benutzeroberfläche basieren auf einem kont
 <table>
 <thead>
 <tr>
-<th><strong>AI Assistant Content Accelerator</strong><br/></th>
+<th><strong>Content Accelerator des KI-Assistenten</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Sobald Sie Ihre Nachricht erstellt und angepasst haben, stellen Sie sie mit dem AI-Assistenten in Adobe Campaign Web for Content Acceleration auf die nächste Stufe. Mit diesem leistungsstarken Tool können Sie die Wirkung Ihres Inhalts optimieren, indem Sie eine Reihe ansprechender Texte, Haupttitel und visuell ansprechende Bilder generieren.</p>
-<p>Machen Sie sich mit <a href="https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator">unserer Live-Funktionsvorschau</a> vertraut, die Ihnen ermöglicht, die Funktionen selbst zu entdecken und die Funktionen vollständig zu verstehen.</a></p>
+<p>Nachdem Sie Ihre Nachricht erstellt und angepasst haben, entwickeln Sie sie in Adobe Campaign Web for Content Acceleration mit dem KI-Assistenten weiter. Mit diesem leistungsstarken Tool können Sie die Wirkung Ihrer Inhalte optimieren, indem Sie eine Reihe ansprechender Texte, Haupttitel und visuell überzeugender Bilder generieren.</p>
+<p>Nehmen Sie an unserer <a href="https://experienceleague.adobe.com/de/apps/journey-optimizer/ai-assistant-content-accelerator">Live-Funktionsvorstellung</a> teil, um die Funktionen in der Praxis selbst zu erkunden und die vielfältigen Einsatzmöglichkeiten zu verstehen.</a></p>
 <p>Weitere Informationen finden Sie in der <a href="../email/generative-gs.md">entsprechenden Dokumentation</a>.</p>
 <img src="assets/do-not-localize/ai-content-webui.gif"/>
-<p>Verfügbarkeitsdatum: 12. September</p>
+<p>Verfügbarkeitsdatum: 12. September</p>
 </td>
 </tr>
 </tbody>
