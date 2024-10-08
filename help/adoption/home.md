@@ -1,15 +1,15 @@
 ---
 keywords: Campaign Standard;Startseite;beliebte Themen
-description: Campaign Standard, die zu Campaign v8 wechseln, erfahren, wie Sie beginnen.
-title: Anleitung zur Adobe Campaign-Adoption
+description: Campaign Standard-Benutzende, die zu Campaign v8 wechseln, werden über die ersten Schritte informiert.
+title: Einführungsleitfaden für Adobe Campaign Classic
 source-git-commit: a1c16a9ba5e5ca844eaf82ed3b587f4f7a0b0873
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '319'
-ht-degree: 53%
+ht-degree: 100%
 
 ---
 
-# Anleitung zur Adoption für Adobe Campaign v8 {#campaign-adoption}
+# Einführungsleitfaden für Adobe Campaign v8 {#campaign-adoption}
 
 
 Wir freuen uns, Ihnen mitteilen zu können, dass Adobe Campaign Standard-Benutzende nun berechtigt sind, zu Adobe Campaign Managed Cloud Services v8 zu wechseln. Dieser Wechsel ist mit zahlreichen Vorteilen verbunden:
@@ -19,32 +19,32 @@ Wir freuen uns, Ihnen mitteilen zu können, dass Adobe Campaign Standard-Benutze
 * Integration in Adobe Experience Platform: Managed Cloud Services v8 verbindet sich nahtlos mit Adobe Experience Platform, sodass Kundinnen und Kunden das gesamte Potenzial ihrer Daten nutzen und kanalübergreifend personalisierte, wirkungsvolle Kampagnen bereitstellen können.
 * Konsistente Benutzeroberfläche und Erlebnisse: Ihr Wechsel zu Managed Cloud Services v8 führt zu keinerlei Störungen Ihres bestehenden Workflows. Benutzeroberfläche und Benutzererlebnisse sind vertraut und können wie gewohnt genutzt werden, was eine minimale Lernkurve für Ihr Teams sicherstellt.
 
-Als Campaign Standard beim Übergang zu Campaign v8 hilft Ihnen diese Dokumentation bei den ersten Schritten.
+Wenn Sie von Campaign Standard zu Campaign v8 wechseln, hilft Ihnen diese Dokumentation bei den ersten Schritten.
 
 >[!BEGINTABS]
 
 >[!TAB Neue Funktionen]
 
-Hier erhalten Sie einen Einblick in die neuesten Verbesserungen von Adobe Campaign v8 und lernen die neue Campaign-Webbenutzeroberfläche kennen.
+Verschaffen Sie sich einen Einblick in die neuesten Verbesserungen von Adobe Campaign v8 und machen Sie sich mit der neuen Campaign Web-Benutzeroberfläche vertraut.
 
 [![Bild](../v8/assets/do-not-localize/learn-more-button.svg)](get-started/overview.md)
 
 
->[!TAB Wichtige Unterschiede]
+>[!TAB Hauptunterschiede]
 
-Die meisten Konzepte sind zwischen Adobe Campaign v8 und Adobe Campaign Standard ähnlich. Im folgenden Abschnitt finden Sie einige Unterschiede.
+Die meisten Konzepte in Adobe Campaign v8 und Adobe Campaign Standard sind sich ähnlich. Im folgenden Abschnitt sind einige Unterschiede aufgeführt.
 
 [![Bild](../v8/assets/do-not-localize/learn-more-button.svg)](get-started/overview.md#experiences)
 
->[!TAB Erste Schritte als Marketing-Experte]
+>[!TAB Erste Schritte für Marketing-Fachleute]
 
-Machen Sie sich mit den Unterschieden zwischen Adobe Campaign Standard und Adobe Campaign v8 für Marketing-Experten vertraut.
+Informieren Sie sich über die Unterschiede, die für Marketing-Fachleute in Bezug auf das Erlebnis zwischen Adobe Campaign Standard und Adobe Campaign v8 bestehen.
 
 [![Bild](../v8/assets/do-not-localize/learn-more-button.svg)](get-started/marketers.md)
 
->[!TAB Erste Schritte als Administrator/Entwickler]
+>[!TAB Erste Schritte für Admins/Entwickelnde]
 
-Machen Sie sich mit den Erlebnisunterschieden zwischen Adobe Campaign Standard und Adobe Campaign v8 für Admin-/Entwickler-Benutzer vertraut.
+Informieren Sie sich über die Unterschiede, die für Admins/Entwickelnde in Bezug auf das Erlebnis zwischen Adobe Campaign Standard und Adobe Campaign v8 bestehen.
 
 [![Bild](../v8/assets/do-not-localize/learn-more-button.svg)](get-started/admin-developers.md)
 
@@ -92,5 +92,5 @@ Machen Sie sich mit den Erlebnisunterschieden zwischen Adobe Campaign Standard u
 
 ## Zusätzliche Ressourcen
 
-[Adobe Campaign v8-Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} - [Dokumentation der Adobe Campaign-Webbenutzeroberfläche](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=de){target="_blank"} - [Dokumentation zur Adobe Campaign Client Console](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/campaign-home){target="_blank"} - [Tutorials der Client-Konsole](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/overview.html?lang=de){target="_blank"} - [[!DNL Adobe Campaign] Automatisierungshandbuch](https://experienceleague.adobe.com/docs/campaign/automation/home.html?lang=de){target="_blank"} - [Control Panel for Campaign v8](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=de) 7}{target="_blank"}
+[Adobe Campaign v8-Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} - [Dokumentation zur Adobe Campaign Web-Benutzeroberfläche](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=de){target="_blank"} - [Dokumentation zur Client-Konsole von Adobe Campaign](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/campaign-home){target="_blank"} - [Tutorials zur Client-Konsole](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/overview.html?lang=de){target="_blank"} - [[!DNL Adobe Campaign] Automatisierungshandbuch](https://experienceleague.adobe.com/docs/campaign/automation/home.html?lang=de){target="_blank"} - [Control Panel für Campaign v8](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=de){target="_blank"}
 

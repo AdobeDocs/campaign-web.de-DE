@@ -4,9 +4,9 @@ title: Erstellen und Verwalten eines Ordners
 description: Erfahren Sie, wie Sie in Adobe Campaign einen Ordner erstellen und verwalten.
 exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
 source-git-commit: 440fb6d303fc70b3fd0903c485cb6b5e6d3ba0c6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '168'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ In unserem Beispiel erstellen wir einen Ordner im Ordner **[!UICONTROL Sendungen
 
 ![](assets/folder_new.png){zoomable="yes"}
 
-Sie können den Ordnertyp ändern, indem Sie auf das Symbol vom Typ Ordner klicken und ihn in der angezeigten Liste auswählen:
+Sie können den Ordnertyp ändern, indem Sie auf das Symbol des Ordnertyps klicken und ihn in der angezeigten Liste auswählen:
 
 ![](assets/folder_type.png){zoomable="yes"}
 

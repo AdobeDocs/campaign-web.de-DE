@@ -4,15 +4,15 @@ title: Informationen zu Quarantäne
 description: Über die Verwaltung der Quarantäne-Adressen
 exl-id: 4fddabbe-39ab-418b-a87c-f86fe96fa28b
 source-git-commit: 3e99bf1453ef38ec915dc82828f44c7d7ffb2acd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '393'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
 # Quarantäneverwaltung {#quarantines}
 
-Adobe Campaign verwaltet Quarantäne-Adressen für E-Mail-, Push- und SMS-Kanäle.
+Adobe Campaign ermöglicht die Verwaltung von unter Quarantäne gestellten Adressen für E-Mails, SMS, Push-Benachrichtigungen.
 
 Eine Quarantäne gilt nur für eine **E-Mail-Adresse**, eine **Telefonnummer** oder ein **Geräte-Token**, aber nicht für das Profil selbst.  Wenn beispielsweise ein Profil mit einer in Quarantäne befindlichen E-Mail-Adresse eine neue Adresse angibt, kann es erneut in Versandzielgruppen aufgenommen werden. Wenn zwei Profile dieselbe Telefonnummer haben, sind sie beide betroffen, wenn die Nummer unter Quarantäne gestellt wird.
 
@@ -30,7 +30,7 @@ Wenn eine Adresse in Adobe Campaign unter Quarantäne gestellt wird, wird das Pr
 
 Quarantäne hilft Ihnen auch, die Kosten des SMS-Versands zu senken, indem fehlerhafte Telefonnummern aus Sendungen ausgeschlossen werden.
 
-Weitere Informationen zu Quarantänen finden Sie in der Dokumentation zu [Campaign v8 (Konsole)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/failures/quarantines){target="_blank"} .
+Weitere Informationen zum Thema Quarantäne finden Sie der [Dokumentation zu Campaign v8 (Konsole)](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/send/failures/quarantines){target="_blank"}.
 
 
 ## Warum eine Adresse unter Quarantäne gestellt wird {#quarantines-why}
@@ -42,7 +42,7 @@ Eine Adresse kann aus vielen Gründen unter Quarantäne gestellt werden:
 * E-Mail: Ihre Nachricht wird als Spam gemeldet.  Die Nachricht wird automatisch an ein von Adobe verwaltetes, technisches Postfach weitergeleitet. Die E-Mail-Adresse der Person wird dann automatisch unter Quarantäne gestellt und der Status in „Auf Blockierungsliste“ geändert.
 * Eine E-Mail-Adresse kann unter Quarantäne gestellt werden, wenn beispielsweise das Postfach voll ist, die E-Mail-Adresse nicht existiert oder der E-Mail-Server nicht verfügbar ist.
 
-Weitere Informationen zu fehlgeschlagenen Sendungen finden Sie in der Dokumentation zu [Campaign v8 (Konsole)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/failures/delivery-failures){target="_blank"} .
+Weitere Informationen zu fehlgeschlagenen Sendungen finden Sie in der [Dokumentation zu Campaign v8 (Konsole)](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/send/failures/delivery-failures){target="_blank"}.
 
 ## Wo finden Sie die Quarantäne-Adressen? {#quarantines-where}
 

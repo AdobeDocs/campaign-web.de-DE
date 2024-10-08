@@ -1,12 +1,12 @@
 ---
-title: Erste Schritte mit Adobe Campaign v8 nach der Umstellung vom Campaign Standard
-description: Erfahren Sie, welche Schritte für die ersten Schritte mit Ihrer neuen Campaign v8-Anwendung erforderlich sind.
+title: Erste Schritte mit Adobe Campaign v8 nach dem Wechsel von Campaign Standard
+description: Erfahren Sie, was für die ersten Schritte mit Ihrer neuen Campaign v8-Anwendung erforderlich ist.
 role: User, Admin, Developer
 level: Beginner
 source-git-commit: a1c16a9ba5e5ca844eaf82ed3b587f4f7a0b0873
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1560'
-ht-degree: 35%
+ht-degree: 100%
 
 ---
 
@@ -15,27 +15,27 @@ ht-degree: 35%
 
 Herzlich willkommen bei Adobe Campaign v8!
 
-Wenn ein Benutzer von Campaign Standard auf Campaign v8 umstellt, ist dieses Referenzhandbuch für Sie gedacht. Dies hilft Ihnen, sich mit Ihrer neuen Campaign-Umgebung vertraut zu machen und Sie durch die Schritte zu führen, die zum Einstieg in Ihre Rolle erforderlich sind.
+Wenn Sie von Campaign Standard zu Campaign v8 wechseln, ist dieses Referenzhandbuch genau das Richtige für Sie. Es hilft Ihnen, sich mit Ihrer neuen Campaign-Umgebung vertraut zu machen, und führt Sie gezielt durch die ersten Schritte für Ihre Rolle.
 
-1. Beginnen Sie mit dem Erlernen von [neuen Funktionen in Adobe Campaign v8](#new).
+1. Machen Sie sich zuerst mit den [neuen Funktionen in Adobe Campaign v8](#new) vertraut.
 
-1. Als Nächstes verstehen Sie [die Erlebnisunterschiede zwischen Adobe Campaign Standard und Adobe Campaign v8 gemäß Ihrer Rolle](#experiences).
+1. Informieren Sie sich als Nächstes über die [Unterschiede, die gemäß Ihrer Rolle in Bezug auf das Erlebnis zwischen Adobe Campaign Standard und Adobe Campaign v8 bestehen](#experiences).
 
 ## Neue Funktionen {#new}
 
-Verschaffen Sie sich auf dieser Seite einen Überblick über die neuesten Verbesserungen in der Adobe Campaign-Web-Benutzeroberfläche. Eine umfassende Liste der wichtigsten Funktionen und Funktionen zur Aktualisierung von Versionen finden Sie in [diesem Abschnitt](../../v8/rn/whats-new.md).
+Auf dieser Seite erhalten Sie einen Einblick in die neuesten Verbesserungen der Adobe Campaign Web-Benutzeroberfläche. Eine umfassende Liste der wichtigsten Funktionen und Versionsaktualisierungen finden Sie in [diesem Abschnitt](../../v8/rn/whats-new.md).
 
-### Verbesserungen mit Campaign v8 {#ac-enhancements}
+### Verbesserungen mit Campaign v8 {#ac-enhancements}
 
-Die wichtigsten Verbesserungen von Adobe Campaign v8 sind unten aufgeführt.
+Die wichtigsten Verbesserungen, die Adobe Campaign v8 bietet, sind nachstehend aufgeführt.
 
 * **Web-Benutzeroberfläche**
 
-  Adobe Campaign v8 bietet sowohl eine Client-Konsole als auch eine Web-Benutzeroberfläche, die unterschiedlichen Benutzervorlieben und Anforderungen gerecht wird. Die Client-Konsole bietet ein leistungsstarkes Desktop-Programm-Erlebnis, während die Web-Benutzeroberfläche intuitiv und barrierefrei gestaltet ist, sodass sie für Marketingexperten, die mit Adobe Campaign Standard vertraut sind, ideal geeignet ist.
+  Adobe Campaign v8 verfügt sowohl über eine Client-Konsole als auch über eine Web-Benutzeroberfläche, die den unterschiedlichen Vorlieben und Anforderungen von Benutzenden gerecht wird. Die Client-Konsole ermöglicht ein leistungsstarkes Desktop-Anwendungserlebnis, während die Web-Benutzeroberfläche intuitiv und zugänglich gestaltet ist. Sie ist daher für Marketing-Fachleute, die mit Adobe Campaign Standard vertraut sind, ideal geeignet.
 
-  Die Webbenutzeroberfläche weist viele Ähnlichkeiten mit Adobe Campaign Standard auf, auch wenn einige Begriffe unterschiedlich sein können.
+  Die Web-Benutzeroberfläche weist zwar viele Ähnlichkeiten mit Adobe Campaign Standard auf, einige Begriffe können aber unterschiedlich sein.
 
-  Weitere Informationen zur Adobe Campaign-Webbenutzeroberfläche finden Sie hier ](../../v8/campaign-web-home.md).[
+  Weitere Informationen über die Adobe Campaign Web-Benutzeroberfläche finden Sie [hier](../../v8/campaign-web-home.md).
 
   ![](assets/home.png){zoomable="yes"}
 
@@ -44,91 +44,91 @@ Die wichtigsten Verbesserungen von Adobe Campaign v8 sind unten aufgeführt.
 
 * **Leistung**
 
-  Adobe Campaign v8 nutzt fortschrittliche Cloud-basierte Datenbanktechnologien, was zu einer deutlich verbesserten Leistung und Effizienz führt. Diese neu gestaltete Architektur bietet mehrere wesentliche Vorteile:
+  Adobe Campaign v8 nutzt fortschrittliche Cloud-basierte Datenbanktechnologien, was die Leistung und Effizienz deutlich verbessert. Diese neu gestaltete Architektur bietet verschiedene wesentliche Vorteile:
 
-   * *Skalierung*: Das System unterstützt jetzt eine erhebliche Erweiterung der Verarbeitungsfunktionen, wobei der Batch-Verarbeitungsdurchsatz bis zu **20 Millionen Vorgänge pro Stunde** erreicht. Mit dieser neuen Architektur können noch höhere Profile mit vorhersehbarer Leistung verwaltet werden.
-   * *Geschwindigkeit*: Das System wurde für jede Marketing-Aktivität verbessert: Segmentierung, Versandvorbereitung oder Durchsatz für Transaktionsnachrichten, der jetzt **1 Million pro Stunde** beträgt.
+   * *Skalierung*: Das System unterstützt nun deutlich höhere Verarbeitungskapazitäten, mit einem Batch-Verarbeitungsdurchsatz von bis zu **20 Millionen Vorgängen pro Stunde**. Mit dieser neuen Architektur können noch höhere Profile mit vorhersehbarer Leistung verwaltet werden.
+   * *Geschwindigkeit*: Das System wurde für jedwede Marketing-Aktivität verbessert: Segmentierung, Versandvorbereitung und Durchsatz für Transaktionsnachrichten, der nun **1 Million pro Stunde** beträgt.
 
-  Die vollständig verwalteten Cloud Services bieten Benutzern Folgendes:
+  Die vollständig verwalteten Cloud-Services bieten Benutzenden Folgendes:
 
-   * Datenanalyse in Echtzeit: Sie können sofort auf Daten zugreifen und diese analysieren, um schnelle Einblicke zu erhalten und fundiertere Entscheidungen zu treffen.
+   * Datenexploration in Echtzeit: Sie können sofort auf Daten zugreifen und diese analysieren, um schnelle Erkenntnisse zu erhalten und fundiertere Entscheidungen zu treffen.
 
-   * Schnelles Erstellen von Zielgruppen: Einfaches Erstellen zielgerichteter Zielgruppen innerhalb von Minuten für eine effizientere Kampagnensegmentierung.
+   * Schnelles Erstellen von Zielgruppen: Sie können innerhalb von Minuten zielgerichtete Zielgruppen für eine effizientere Kampagnensegmentierung erstellen.
 
-  Die robuste Architektur von Adobe Campaign v8 bietet eine leistungsstarke Grundlage für die Verwaltung umfangreicher und komplexer Marketingkampagnen mit verbesserter Geschwindigkeit und Effizienz.
+  Allgemein bietet die robuste Architektur von Adobe Campaign v8 eine leistungsstarke Grundlage für die Verwaltung umfangreicher und komplexer Marketing-Kampagnen mit höherer Geschwindigkeit und Effizienz.
 
-### Neue Funktionen in Adobe Campaign v8 {#ac-new-features}
+### Neue Funktionen in Adobe Campaign v8 {#ac-new-features}
 
-Als Campaign Standard, der zu Adobe Campaign v8 wechselt, stehen Ihnen jetzt die folgenden Funktionen zur Verfügung:
+Wenn Sie von Campaign Standard zu Campaign v8 wechseln, stehen Ihnen nun die folgenden Funktionen zur Verfügung:
 
-* **Rich push**
+* **Rich-Push**
 
-  Adobe Campaign v8 bietet die Möglichkeit, Rich-Push-Benachrichtigungen zu versenden, um die Aufmerksamkeit der Benutzer zu erfassen und sie zu Maßnahmen zu ermutigen. Diese Benachrichtigungen können eine Vielzahl von Elementen umfassen, wie Text, Bilder, Schaltflächen, Countdown-Timer, Töne usw.
+  Adobe Campaign v8 bietet die Möglichkeit, Rich-Push-Benachrichtigungen zu versenden, um die Aufmerksamkeit der Benutzenden zu wecken und sie zum Handeln zu ermutigen. Diese Benachrichtigungen können eine Vielzahl von Elementen umfassen, z. B. Text, Bilder, Schaltflächen, Countdown-Timer, Audio usw.
 
   ![](../../v8/push/assets/rich_push.png){zoomable="yes"}
 
-  Um die Erstellung dieser Rich-Benachrichtigungen zu erleichtern, stellt Adobe Campaign v8 verschiedene Vorlagen bereit, mit denen Sie den Inhalt komplexer Benachrichtigungen, wie Karussells oder Timer, entwerfen und anpassen können.
+  Um die Erstellung dieser Rich-Benachrichtigungen zu erleichtern, stellt Adobe Campaign v8 verschiedene Vorlagen bereit, mit denen Sie den Inhalt komplexer Benachrichtigungen, wie Karussells oder Timer, entwerfen und anpassen können.
 
-  Sie können Ihre Benachrichtigungen nach dem System des Kunden anpassen:
+  Sie können Ihre Benachrichtigungen abhängig vom Kundensystem anpassen:
 
-   * Für [Android](../../v8/push/rich-push.md)-Vorlagen
+   * Für [Android-Vorlagen](../../v8/push/rich-push.md)
 
-   * Für [iOS](../../v8/push/rich-push.md)-Vorlagen
+   * Für [iOS-Vorlagen](../../v8/push/rich-push.md)
 
-  Push-Benachrichtigungen sind ein wichtiges Tool, um Benutzer mobiler Apps anzusprechen und zu erreichen, selbst wenn sie Ihre App nicht aktiv verwenden.
+  Push-Benachrichtigungen sind ein wichtiges Instrument, um App-Benutzende anzusprechen und diese auch dann zu erreichen, wenn sie Ihre App nicht aktiv nutzen.
 
 * **Adobe Experience Manager as a Cloud Service**
 
-  Adobe Campaign v8 ist nahtlos in Adobe Experience Manager as a Cloud Service integriert, sodass Sie Ihren Kunden personalisierte und inhaltsreiche Erlebnisse bieten können. Diese native Integration optimiert das Content Management und nutzt die robusten Funktionen von Adobe Experience Manager zur Optimierung Ihrer Marketing-Maßnahmen.
+  Adobe Campaign v8 ist nahtlos mit Adobe Experience Manager as a Cloud Service integriert, sodass Sie für Ihre Kundschaft personalisierte und inhaltsreiche Erlebnisse schaffen können. Diese native Integration optimiert das Content-Management und nutzt die robusten Funktionen von Adobe Experience Manager zur Optimierung Ihrer Marketing-Maßnahmen.
 
-  Im Folgenden finden Sie die wichtigsten Funktionen, die durch diese Integration aktiviert werden:
+  Im Folgenden finden Sie die wichtigsten Funktionen, die durch diese Integration bereitgestellt werden:
 
-   * *Asset-Verwaltung*: In Adobe Campaign v8 bietet der E-Mail-Designer eine Auswahl für den Zugriff auf und die Verwaltung von Assets. Diese Funktion vereinfacht die Integration von Elementen aus Adobe Experience Manager in Ihre Bereitstellung und sorgt so für eine effizientere Verwaltung von Inhalten. [Weitere Informationen zur Asset-Verwaltung](../../v8/integrations/aem-assets.md)
+   * *Asset-Management*: In Adobe Campaign v8 bietet der E-Mail-Designer eine Auswahl für den Zugriff auf und die Verwaltung von Assets. Diese Funktion vereinfacht die Integration von Elementen aus Adobe Experience Manager in Ihren Versand und sorgt so für ein effizienteres Content-Mangagement. [Weitere Informationen über das Asset-Management](../../v8/integrations/aem-assets.md)
 
      ![](../../v8/integrations/assets/assets_6.png){zoomable="yes"}
 
-   * *Import von E-Mail-Vorlagen*: Mit Adobe Campaign v8 können Sie E-Mail-Vorlagen aus Adobe Experience Manager direkt in Campaign durchsuchen und importieren. [Weitere Informationen zum Import von E-Mail-Vorlagen](../../v8/integrations/aem-content.md)
+   * *Import von E-Mail-Vorlagen*: Mit Adobe Campaign v8 können Sie E-Mail-Vorlagen von Adobe Experience Manager direkt in Campaign durchsuchen und importieren. [Weitere Informationen über den Import von E-Mail-Vorlagen](../../v8/integrations/aem-content.md)
 
      ![](../../v8/integrations/assets/aem_6.png){zoomable="yes"}
 
-  Adobe Experience Manager as a Cloud Service bietet Cloud-native Agilität, mit der Sie Ihre Wertschöpfungszeit verkürzen und sich an die sich wandelnden Geschäftsanforderungen anpassen können. Diese Integration verbessert nicht nur Ihre Content-Management-Funktionen, sondern ermöglicht Ihnen auch, Ihren Kunden personalisiertere und ansprechendere Erlebnisse an allen Touchpoints bereitzustellen.
+  Adobe Experience Manager as a Cloud Service bietet Cloud-native Agilität, mit der Sie die Time-to-Value verkürzen und sich auf die sich wandelnden Geschäftsanforderungen einstellen können. Diese Integration verbessert nicht nur Ihre Content-Management-Funktionen, sondern ermöglicht Ihnen auch, Ihrer Kundschaft personalisiertere und ansprechendere Erlebnisse an allen Touchpoints bereitzustellen.
 
-* **AI-Assistent - Content Accelerator**
+* **KI-Assistent zur Beschleunigung von Inhalten**
 
-  Der Campaign-KI-Assistent ermöglicht die Erstellung und Ausführung von Marketingkampagnen über verschiedene Kanäle wie E-Mail, SMS und Push hinweg intuitiv, einfach und unkompliziert, während gleichzeitig Zeit eingespart, die Effizienz verbessert und bessere Ergebnisse erzielt werden.
+  Der KI-Assistent von Campaign macht die Erstellung und Durchführung von Marketing-Kampagnen über Kanäle wie E-Mail, SMS und Push intuitiv, einfach und mühelos, spart gleichzeitig Zeit, erhöht die Effizienz und führt zu besseren Ergebnissen.
 
   ![](../../v8/email/assets/full-email-1.png){zoomable="yes"}
 
-  Der AI-Assistent revolutioniert die kanalübergreifende Erstellung professioneller und markenkonsistenter Inhalte. Mit fortschrittlichen GenAI-Modellen und einem tiefen Verständnis Ihrer Markenrichtlinien generiert der KI-Assistent automatisch personalisierte, ansprechende und effektive Inhalte basierend auf dem Marketingziel. Die Inhalte sind für markenumrissene Stile, Layouts, Ton und mehr optimiert.
+  Der KI-Assistent revolutioniert die kanalübergreifende Erstellung professioneller und markenkonsistenter Inhalte. Mit fortschrittlichen GenAI-Modellen und einem tiefgreifenden Verständnis der Markenrichtlinien generiert der KI-Assistent automatisch personalisierte, ansprechende und effektive Inhalte auf der Grundlage des Marketing-Ziels, wobei die Inhalte für die von der Marke vorgegebenen Stile, Layouts, die Tonalität und mehr optimiert sind.
 
-  Der KI-Assistent ermöglicht die intuitive, einfache und unkomplizierte Erstellung und Ausführung von Marketing-Kampagnen, spart Zeit, verbessert die Effizienz und sorgt für bessere Ergebnisse.
+  Der KI-Assistent macht die Erstellung und Durchführung von Marketing-Kampagnen über Kanäle intuitiv, einfach und mühelos, spart gleichzeitig Zeit, erhöht die Effizienz und führt zu besseren Ergebnissen.
 
   ![](../../v8/email/assets/full-email-2.png){zoomable="yes"}
 
-  Es bietet eine Reihe von E-Mail-Vorlagen und erzeugt und erzeugt Bilder neu. Weitere Informationen zum AI-Assistenten - Content Accelerator finden Sie in [diesem Abschnitt](../../v8/email/generative-content.md). Adobe Campaign v8 verfügt über einen KI-Assistenten für [E-Mail](../../v8/email/generative-content.md), [SMS](../../v8/email/generative-sms.md) und [Push](../../v8/email/generative-push.md).
+  Er bietet eine Reihe von E-Mail-Vorlagen und generiert Bilder (neu). Weitere Informationen über den KI-Assistenten zur Beschleunigung von Inhalten finden Sie in [diesem Abschnitt](../../v8/email/generative-content.md). Adobe Campaign v8 verfügt über einen KI-Assistenten für [E-Mail](../../v8/email/generative-content.md), [SMS](../../v8/email/generative-sms.md) und [Push](../../v8/email/generative-push.md).
 
-* **Aktualisierte SMS-Infrastruktur - SMS v2.0**
+* **Aktualisierte SMS-Infrastruktur – SMS v2.0**
 
-  Dank der Einfachheit und der einfachen Bedienung von SMS ist SMS ein sehr wertvoller Kommunikationskanal, der neben seiner Robustheit und der unübertroffenen Kompatibilität gegenüber Milliarden von Terminals sehr wertvoll ist.
+  Die Einfachheit und Anwenderfreundlichkeit von SMS machen sie neben ihrer Robustheit und der konkurrenzlosen Kompatibilität mit Milliarden von Endgeräten zu einem sehr wertvollen Kommunikationskanal.
 
-  Adobe Campaign v8 verfügt über eine neue Infrastruktur, die den SMS-Versand verbessert. [Erfahren Sie mehr über die neuen SMS-Einstellungen](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/sms/sms){target="_blank"}.
+  Adobe Campaign v8 verfügt über eine neue Infrastruktur, die den SMS-Versand verbessert. [Weitere Informationen über die neuen SMS-Einstellungen](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/send/sms/sms){target="_blank"}
 
 * **Aktualisierte Push-Infrastruktur**
 
-  Adobe Campaign v8 führt den neuesten Push-Benachrichtigungsdienst ein, der auf einem robusten Framework basiert, das auf modernster Technologie basiert. Dieser Dienst wurde entwickelt, um neue Ebenen der Skalierbarkeit zu erschließen und sicherzustellen, dass Ihre Benachrichtigungen eine größere Zielgruppe mit nahtloser Effizienz erreichen können. Mit unserer verbesserten Infrastruktur und optimierten Prozessen können Sie höhere Skalierbarkeit und Zuverlässigkeit erwarten, die es Ihnen ermöglicht, mit Ihren App-Nutzenden wie nie zuvor in Kontakt zu treten und Verbindungen herzustellen.
+  Adobe Campaign v8 führt unseren neuesten Push-Benachrichtigungsdienst ein. Dieser wird durch ein robustes Framework gestützt, das auf moderner Spitzentechnologie aufbaut. Dieser Dienst wurde entwickelt, um neue Ebenen der Skalierbarkeit zu erschließen und sicherzustellen, dass Ihre Benachrichtigungen eine größere Zielgruppe mit nahtloser Effizienz erreichen können. Mit unserer verbesserten Infrastruktur und optimierten Prozessen können Sie höhere Skalierbarkeit und Zuverlässigkeit erwarten, die es Ihnen ermöglicht, mit Ihren App-Nutzenden wie nie zuvor in Kontakt zu treten und Verbindungen herzustellen.
 
-  [Erfahren Sie mehr über die aktualisierte Push-Infrastruktur](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/send/push/push-data-collection){target="_blank"}.
+  [Weitere Informationen über die aktualisierte Push-Infrastruktur](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/send/push/push-data-collection){target="_blank"}
 
 
 ## Managed Services {#ac-managed-services}
 
 Adobe Campaign v8 ist als Managed Cloud Service verfügbar und bietet proaktive Überwachung, zeitgerechte Warnmeldungen und Service-Governance. Adobe Managed Cloud Service bietet Marketing-Experten eine agilere, sicherere und skalierbarere Lösung für das Cross-Channel-Kampagnen-Management mit niedrigen Gesamtbetriebskosten. Das neue Angebot kombiniert Services mit einer proaktiven Überwachung und rechtzeitigen Warnmeldungen.
 
-## Campaign Standard-Funktionen hinzugefügt in v8 {#ac-v8-added}
+## In v8 hinzugefügte Campaign Standard-Funktionen {#ac-v8-added}
 
 Damit Sie reibungslos zu Campaign v8 wechseln können, wurden wichtige Funktionen von Campaign Standard in Campaign v8 aufgenommen. Weitere Informationen dazu finden Sie in [dieser Dokumentation](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=de){target="_blank"}.
 
-* **Dynamisches Reporting**: Das dynamische Reporting ermöglicht vollständig anpassbare und in Echtzeit aktualisierte Berichte, um die Wirkung Ihrer Marketing-Aktivitäten zu messen. Durch diese Funktion kann auf Profildaten zugegriffen werden, was die demografische Analyse nach Profildimensionen wie Geschlecht, Stadt und Alter sowie nach Daten von E-Mail-Kampagnen wie Öffnungen und Klicks ermöglicht. [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html?lang=de){target="_blank"}.
+* **Dynamisches Reporting**: Das dynamische Reporting ermöglicht vollständig anpassbare und in Echtzeit aktualisierte Berichte, um die Wirkung Ihrer Marketing-Aktivitäten zu messen. Dadurch kann auf Profildaten zugegriffen werden, was die demografische Analyse nach Profildimensionen wie Geschlecht, Ort und Alter sowie nach Daten von E-Mail-Kampagnen wie Öffnungen und Klicks ermöglicht. [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html?lang=de){target="_blank"}.
 
 * **Zentrales Branding**: Jedes Unternehmen hat seine Richtlinien bezüglich der Darstellung und technischen Charakteristika seiner Marken. Mit Adobe Campaign können Sie Spezifikationen festlegen, um Ihre Marke Ihren Kundinnen und Kunden einheitlich zu präsentieren, angefangen bei den Logos bis hin zu technischen Aspekten wie E-Mail-Absenderinnen und -Absendern, URLs oder Domains. [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-cloud/campaign/branding/branding-gs.html?lang=de)
 
@@ -138,13 +138,13 @@ Damit Sie reibungslos zu Campaign v8 wechseln können, wurden wichtige Funktion
 
 * **Visuelle Fragmente**: Visuelle Fragmente sind wiederverwendbare visuelle Komponenten, die in einer oder mehreren E-Mail-Sendungen oder in Inhaltsvorlagen referenziert werden können. Wenn Sie ein Fragment ändern, wird jeder Inhalt, der dieses Fragment verwendet, aktualisiert. Diese Funktionalität ermöglicht es, mehrere benutzerdefinierte Inhaltsbausteine vorab zu erstellen, die anschließend von Benutzenden aus dem Bereich Marketing verwendet werden können, um NachrichtenInhalte in einem verbesserten Designprozess schnell zusammenzustellen. [Weitere Informationen](../../v8//content/use-visual-fragments.md)
 
-## Wichtige Unterschiede zwischen Campaign Standard und Campaign v8 {#experiences}
+## Hauptunterschiede zwischen Campaign Standard und Campaign v8 {#experiences}
 
-Die meisten Konzepte sind zwischen Adobe Campaign v8 und Adobe Campaign Standard ähnlich. Es gibt jedoch einige Unterschiede, wie unten beschrieben.
+Die meisten Konzepte in Adobe Campaign v8 und Adobe Campaign Standard sind sich ähnlich. Es gibt jedoch einige Unterschiede, wie nachfolgend beschrieben.
 
 ### Terminologieänderungen {#terminology-changes}
 
-Nachstehend finden Sie einige terminologische Unterschiede zwischen Campaign Standard und Campaign v8.
+Im Folgenden sind einige terminologische Unterschiede zwischen Campaign Standard und Campaign v8 aufgeführt:
 
 * Benutzerdefinierte Ressourcen sind **Schemata**
 * Nachrichten werden als **Sendungen** bezeichnet
@@ -153,7 +153,7 @@ Nachstehend finden Sie einige terminologische Unterschiede zwischen Campaign Sta
 * Sicherheitsgruppen sind **Benutzergruppen**
 * Organisationseinheiten werden über **Ordnerberechtigungen** verwaltet
 
-Beachten Sie außerdem, dass als bestehender Campaign-Benutzer einige Konzepte in Übereinstimmung mit den neuesten Terminologiestandards umbenannt wurden. Diese Änderungen betreffen nur die Campaign Web-Benutzeroberfläche, nicht aber die Client-Konsole. Sie sind unten zusammengefasst.
+Bestehende Campaign-Benutzende sollten zudem beachten, dass einige Konzepte entsprechend den aktuellen Terminologiestandards umbenannt wurden. Diese Änderungen betreffen nur die Campaign Web-Benutzeroberfläche, nicht aber die Client-Konsole. Sie sind unten zusammengefasst.
 
 * Empfängerinnen und Empfänger werden jetzt als **Profile** bezeichnet. [Weitere Informationen](../../v8/audience/gs-audiences-recipients.md).
 * Testadressen werden jetzt als **Testprofile** bezeichnet. [Weitere Informationen](../../v8/preview-test/test-deliveries.md).
@@ -161,9 +161,9 @@ Beachten Sie außerdem, dass als bestehender Campaign-Benutzer einige Konzepte i
 * Die E-Mail-Vorschau ist jetzt über die Schaltfläche **Inhalt simulieren** verfügbar. [Weitere Informationen](../../v8/preview-test/preview-test.md)
 * Listen heißen jetzt **Zielgruppen**. [Weitere Informationen](../../v8/audience/gs-audiences-recipients.md).
 
-## Neues Benutzererlebnis
+## Neues Anwendererlebnis
 
-Rufen Sie das entsprechende Referenzhandbuch für Ihre Rolle auf, um das neue Benutzererlebnis mit Adobe Campaign v8 kennenzulernen.
+Rufen Sie das entsprechende Referenzhandbuch für Ihre Rolle auf, um sich mit dem neuen Anwendererlebnis von Adobe Campaign v8 vertraut zu machen.
 
 <table>
 <tr>
