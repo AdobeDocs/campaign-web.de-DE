@@ -5,8 +5,8 @@ description: Erfahren Sie, wie Sie mit Adobe Campaign Web einen Versand für ein
 exl-id: 49a3c05c-5806-4269-a98d-915eee216f90
 source-git-commit: 35de060a73c17b304d63000656ff86bb4a80ab15
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '704'
+ht-degree: 100%
 
 ---
 

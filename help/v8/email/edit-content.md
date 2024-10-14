@@ -5,8 +5,8 @@ description: Erfahren Sie, wie Sie den E-Mail-Inhalt in der Campaign Web-Benutze
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 source-git-commit: 7db11ee2578502a5b8f86660c7adecc07483a169
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '624'
+ht-degree: 100%
 
 ---
 

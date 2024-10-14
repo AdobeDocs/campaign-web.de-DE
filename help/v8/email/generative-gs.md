@@ -4,17 +4,17 @@ title: Erste Schritte mit dem KI-Assistenten zur Beschleunigung von Inhalten
 description: Erste Schritte mit dem KI-Assistenten zur Beschleunigung von Inhalten
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
 source-git-commit: 9d32344b5ee378588cedb003b80daac04ac3a26c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '840'
 ht-degree: 100%
 
 ---
 
-# Arbeiten mit dem KI-Assistenten zur Beschleunigung von Inhalten  {#generative-gs}
+# Arbeiten mit dem Content Accelerator des KI-Assistenten  {#generative-gs}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn1"
->title="KI-Assistent zur Beschleunigung von Inhalten"
+>title="Content Accelerator des KI-Assistenten"
 >abstract="Der KI-Assistent macht die Erstellung und Durchführung von Marketing-Kampagnen über Kanäle wie E-Mail, SMS und Push intuitiv, einfach und mühelos, spart gleichzeitig Zeit, erhöht die Effizienz und führt zu besseren Ergebnissen."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=de" text="Siehe Versionshinweise"
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_generation_settings"
 >title="KI-Assistent"
->abstract="Nachdem der Versand erstellt und personalisiert wurde, kann der KI-Assistent verwendet werden, um die Inhalte zu verbessern. Diese Funktion vereinfacht den Prozess der Personalisierung und Inhaltsverbesserung, da der Inhalt durch eine Beschreibung dessen, was generieret werden soll, angepasst werden kann."
+>abstract="Nachdem der Versand erstellt und personalisiert wurde, kann der KI-Assistent verwendet werden, um die Inhalte zu verbessern. Diese Funktion vereinfacht den Prozess der Personalisierung und Verbesserung der Inhalte, da diese durch eine Beschreibung dessen, was generiert werden soll, genauer angepasst werden können."
 
 
 >[!CONTEXTUALHELP]
@@ -33,7 +33,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_emagica_generate"
 >title="Begriffe in Adobe Generative KI"
->abstract="Der Zugriff auf diese Funktion unterliegt Ihrer Zustimmung zu den Adobe Experience Cloud Generative KI-Benutzerrichtlinien.  Bitte überprüfen Sie alle Ausgaben dieser Funktion auf ihre Richtigkeit und stellen Sie sicher, dass sie für Ihren Anwendungsfall geeignet sind."
+>abstract="Der Zugriff auf diese Funktion unterliegt der Zustimmung zu den Benutzerrichtlinien für generative KI in Adobe Experience Cloud.  Alle Ausgaben dieser Funktion auf ihre Richtigkeit überprüfen und sicherstellen, dass sie für den Anwendungsfall geeignet sind."
 >additional-url="https://www.adobe.com/de/legal/licenses-terms/adobe-gen-ai-user-guidelines.html" text="Adobe Generative KI – Benutzungsrichtlinien"
 
 >[!INFO]
