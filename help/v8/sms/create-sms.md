@@ -5,8 +5,8 @@ description: Erfahren Sie, wie Sie SMS mit Adobe Campaign Web erstellen und send
 exl-id: 54181498-8164-4600-8b3f-20892b77d5d7
 source-git-commit: 35de060a73c17b304d63000656ff86bb4a80ab15
 workflow-type: tm+mt
-source-wordcount: '498'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_audience"
 >title="Definieren der SMS-Zielgruppe"
->abstract="Sie können eine neue Zielgruppe erstellen oder eine bestehende auswählen, indem Sie auf die Schaltfläche **Zielgruppe auswählen** klicken. Fügen Sie bei Bedarf eine Kontrollgruppe hinzu, um die Wirkung Ihres Versands zu messen."
+>abstract="Sie können eine neue Zielgruppe erstellen oder eine bestehende auswählen, indem Sie auf die Schaltfläche **Zielgruppe auswählen** klicken. Bei Bedarf kann eine kontrollgruppe hinzugefügt werden, um die Wirkung des Versand zu messen."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html?lang=de" text="Festlegen einer Kontrollgruppe"
 
 >[!CONTEXTUALHELP]

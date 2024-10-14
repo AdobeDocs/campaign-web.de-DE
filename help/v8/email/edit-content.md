@@ -5,8 +5,8 @@ description: Erfahren Sie, wie Sie den E-Mail-Inhalt in der Campaign Web-Benutze
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 source-git-commit: 7db11ee2578502a5b8f86660c7adecc07483a169
 workflow-type: tm+mt
-source-wordcount: '624'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,12 +20,12 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_header"
 >title="Festlegen der E-Mail-Eigenschaften"
->abstract="Im Abschnitt **Grundlegende Details** können Sie die Adresse der Absenderin bzw. des Absenders und die Antwortadresse aktualisieren und die Betreffzeile mithilfe des Ausdruckseditors definieren."
+>abstract="Im Abschnitt **Grundlegende Details** können die Adresse der Absenderin bzw. des Absenders und die Antwortadresse aktualisiert und die Betreffzeile mithilfe des Ausdruckseditors definiert werden."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_attachment"
 >title="Anhängen von Dateien an eine E-Mail"
->abstract="Wählen Sie eine oder mehrere Dateien aus, die Sie Ihrer Nachricht anfügen möchten. Zur Vermeidung von Performance-Problemen wird empfohlen, nicht mehr als einen Anhang pro E-Mail hinzuzufügen."
+>abstract="Eine oder mehrere Dateien auswählen, die der Nachricht angefügt werden sollen. Zur Vermeidung von Performance-Problemen wird empfohlen, nicht mehr als einen Anhang pro E-Mail hinzuzufügen."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_options"

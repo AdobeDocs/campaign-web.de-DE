@@ -5,8 +5,8 @@ description: Erfahren Sie, wie Sie mit Adobe Campaign Web einen Versand für ein
 exl-id: 49a3c05c-5806-4269-a98d-915eee216f90
 source-git-commit: 35de060a73c17b304d63000656ff86bb4a80ab15
 workflow-type: tm+mt
-source-wordcount: '704'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -59,14 +59,14 @@ Konfigurieren Sie Ihre Versandeinstellungen wie unten beschrieben:
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_audience"
->title="Definieren Sie die Zielgruppe für die Push-Benachrichtigung."
->abstract="Um die Zielgruppe Ihrer Nachricht zu definieren, müssen Sie zunächst die mit dem Push-Versand verknüpfte App auswählen. Die Push-Benachrichtigung wird standardmäßig an alle Abonnentinnen und Abonnenten der Anwendung gesendet. Sie können die Auswahl auf eine bestimmte Zielgruppe einschränken, indem Sie auf die Schaltfläche **Zielgruppe auswählen** klicken. Fügen Sie bei Bedarf eine Kontrollgruppe hinzu, um die Wirkung Ihres Versands zu messen."
+>title="Definieren der Zielgruppe für die Push-Benachrichtigung"
+>abstract="Um die Zielgruppe der Nachricht zu definieren, muss zunächst die mit dem Push-Versand verknüpfte App ausgewählt werden. Die Push-Benachrichtigung wird standardmäßig an alle Abonnentinnen und Abonnenten der Anwendung gesendet. Die Auswahl kann auf eine bestimmte Zielgruppe eingeschränkt werden, indem man auf die **Zielgruppe auswählen** auswählen klickt. Bei Bedarf kann eine kontrollgruppe hinzugefügt werden, um die Wirkung des Versand zu messen."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html?lang=de" text="Festlegen einer Kontrollgruppe"
 
 
 Sie müssen zuerst die App auswählen und können dann die Zielgruppe für Push-Benachrichtigungen wie unten beschrieben verfeinern:
 
-1. Wählen Sie im Abschnitt **[!UICONTROL Zielgruppe]** die Anwendung aus, die Sie für diesen Versand verwenden möchten. Die Push-Benachrichtigung wird standardmäßig an alle Abonnentinnen und Abonnenten der Anwendung gesendet. Sie können die Auswahl auf eine bestimmte Zielgruppe einschränken, indem Sie auf die Schaltfläche **[!UICONTROL Zielgruppe auswählen]** klicken. 
+1. Wählen Sie im Abschnitt **[!UICONTROL Zielgruppe]** die Anwendung aus, die Sie für diesen Versand verwenden möchten. Die Push-Benachrichtigung wird standardmäßig an alle Abonnentinnen und Abonnenten der Anwendung gesendet. Die Auswahl kann auf eine bestimmte Zielgruppe eingeschränkt werden, indem man auf die **[!UICONTROL Zielgruppe auswählen]** auswählen klickt. 
 
    ![](assets/push_create_2.png){zoomable="yes"}
 
