@@ -3,7 +3,7 @@ audience: end-user
 title: Vorbereiten und Senden einer E-Mail
 description: Erfahren Sie, wie Sie eine E-Mail mit der Campaign Web-Benutzeroberfläche vorbereiten und senden
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
-source-git-commit: 94a75b6c7074101d3e505795b1519c15461655a3
+source-git-commit: c3148c9593aa4d323097135601616b9c43bae378
 workflow-type: tm+mt
 source-wordcount: '891'
 ht-degree: 99%
@@ -19,7 +19,7 @@ Wenn Sie [Inhalt](../email/edit-content.md), [Zielgruppe](../audience/add-audien
 
 Während der Versandvorbereitung wird die Zielpopulation berechnet und der Nachrichteninhalt für jedes Profil in der Zielgruppe erzeugt. Nachdem die Vorbereitung abgeschlossen ist, können die Nachrichten entweder sofort oder am geplanten Datum und zur geplanten Uhrzeit gesendet werden.
 
-Die bei der Versandvorbereitung verwendeten Validierungsregeln sind in der Dokumentation zu [Campaign v8 (Client-Konsole)](https://experienceleague.corp.adobe.com/docs/campaign/campaign-v8/send/emails/send.html){target="_blank"} beschrieben.
+Die bei der Versandvorbereitung verwendeten Validierungsregeln sind in der Dokumentation zu [Campaign v8 (Client-Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/send.html){target="_blank"} beschrieben.
 
 Die wichtigsten Schritte zur Versandvorbereitung sind unten aufgeführt.
 
