@@ -2,10 +2,10 @@
 title: Versionshinweise zur Web-Benutzeroberfläche von Campaign v8
 description: Entdecken Sie die neuen Funktionen der neuesten Version der Campaign Web-Benutzeroberfläche
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: aea828da825a416dece6c4bee1da6d4e570e4e48
-workflow-type: ht
-source-wordcount: '481'
-ht-degree: 100%
+source-git-commit: a1b1a40be4d2004181f03bba5c43d0302d6f2c47
+workflow-type: tm+mt
+source-wordcount: '480'
+ht-degree: 95%
 
 ---
 
@@ -29,7 +29,7 @@ Die Versionen der Adobe Campaign Web-Benutzeroberfläche basieren auf einem kont
 <tbody>
 <tr>
 <td>
-<p>Nachdem Sie Ihre Nachricht erstellt und angepasst haben, entwickeln Sie sie in Adobe Campaign Web for Content Acceleration mit dem KI-Assistenten weiter. Mit diesem leistungsstarken Tool können Sie die Wirkung Ihrer Inhalte optimieren, indem Sie eine Reihe ansprechender Texte, Haupttitel und visuell überzeugender Bilder generieren.</p>
+<p>Nachdem Sie Ihre Nachricht erstellt und angepasst haben, stellen Sie sie mit dem AI Assistant Content Accelerator im Adobe Campaign Web auf die nächste Stufe. Mit diesem leistungsstarken Tool können Sie die Wirkung Ihrer Inhalte optimieren, indem Sie eine Reihe ansprechender Texte, Haupttitel und visuell überzeugender Bilder generieren.</p>
 <p>Nehmen Sie an unserer <a href="https://experienceleague.adobe.com/de/apps/journey-optimizer/ai-assistant-content-accelerator">Live-Funktionsvorstellung</a> teil, um die Funktionen in der Praxis selbst zu erkunden und die vielfältigen Einsatzmöglichkeiten zu verstehen.</a></p>
 <p>Weitere Informationen finden Sie in der <a href="../email/generative-gs.md">entsprechenden Dokumentation</a>.</p>
 <img src="assets/do-not-localize/ai-content-webui.gif"/>
