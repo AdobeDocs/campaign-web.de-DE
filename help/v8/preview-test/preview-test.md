@@ -14,8 +14,8 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate"
->title="Anzeigen einer Vorschau und Testen Ihrer Inhalte"
->abstract="Sobald Ihre Inhalte definiert worden sind, können Sie diese mithilfe von Profilen und Testprofilen in der Vorschau ansehen und testen."
+>title="Anzeigen einer Vorschau und Testen der Inhalte"
+>abstract="Sobald die Inhalte definiert worden sind, können diese mithilfe von Profilen und Testprofilen in der Vorschau angesehen und getestet werden."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/test-deliveries.html?lang=de" text="Durchführen von Testsendungen"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html?lang=de#test-landing-page" text="Testen von Landingpages"
 
