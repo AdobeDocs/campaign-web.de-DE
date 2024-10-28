@@ -3,10 +3,10 @@ title: Migration von technischen Benutzerinnen und Benutzern zur Adobe Developer
 description: Erfahren Sie, wie Sie die Benutzerzugriffsverwaltung von Campaign Standard zu Campaign V8 migrieren.
 feature: Technote
 role: Admin
-source-git-commit: 3e2fa429a57b967f156546ad6a4fedee8f871c25
+source-git-commit: e5baa9012e7904f841d4e6706d9dc8970253e899
 workflow-type: tm+mt
-source-wordcount: '841'
-ht-degree: 4%
+source-wordcount: '845'
+ht-degree: 5%
 
 ---
 
@@ -27,7 +27,7 @@ Die folgenden Konzepte werden in Adobe Campaign Standard und Campaign V8 verwend
 
 >[!CAUTION]
 >
->Die Funktionen dieser Rollen/spezifischen Berechtigungen können bei der Implementierung variieren und möglicherweise Autorisierungsprobleme verursachen (z. B. Berechtigungshöhe oder Funktionsstörungen). Wir empfehlen Benutzern, diese Zuordnungen nach der Umstellung zu überprüfen, um eine ordnungsgemäße Zugriffskontrolle sicherzustellen. [Weitere Informationen zu Berechtigungen](../../v8/start/manage-permissions.md)
+>Die Funktionen dieser Rollen/spezifischen Berechtigungen können bei der Implementierung variieren und möglicherweise Autorisierungsprobleme verursachen (z. B. Berechtigungshöhe oder Funktionsstörungen). Wir empfehlen Benutzern, diese Zuordnungen nach der Umstellung zu überprüfen, um eine ordnungsgemäße Zugriffskontrolle sicherzustellen. [Weitere Informationen zu Berechtigungen](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/admin/permissions/manage-permissions)
 
 In der folgenden Tabelle wird der Migrationsprozess für Benutzergruppen bei der Umstellung von Adobe Campaign Standard auf Campaign V8 beschrieben. Im Campaign Standard wird eine **Sicherheitsgruppe**, die in Campaign V8 als **Benutzergruppe** bezeichnet wird, verwendet, um einem Benutzer eine Reihe von Rollen zuzuweisen. Einige Sicherheitsgruppen/Benutzergruppen sind zwar standardmäßig verfügbar, Benutzer können jedoch bei Bedarf neue Gruppen erstellen oder vorhandene Gruppen ändern.
 
@@ -35,7 +35,7 @@ In der folgenden Tabelle wird der Migrationsprozess für Benutzergruppen bei der
 |---------|----------|---------|
 | **Terminologie**  | Sicherheitsgruppe | Benutzergruppe |
 
-Sowohl in Adobe Campaign Standard als auch in Campaign V8 werden **Sicherheitsgruppen** und **Benutzergruppen** Produktprofilen in der Admin Console zugeordnet. Wenn Sie einem Benutzer eine **Sicherheitsgruppe** oder eine **Benutzergruppe** zuweisen möchten, können Sie das entsprechende **Produktprofil** in der Admin Console verknüpfen. Diese Zuordnung wird synchronisiert, wenn sich der Benutzer anmeldet. [Weitere Informationen zum Produktprofil](../../v8/start/manage-permissions.md)
+Sowohl in Adobe Campaign Standard als auch in Campaign V8 werden **Sicherheitsgruppen** und **Benutzergruppen** Produktprofilen in der Admin Console zugeordnet. Wenn Sie einem Benutzer eine **Sicherheitsgruppe** oder eine **Benutzergruppe** zuweisen möchten, können Sie das entsprechende **Produktprofil** in der Admin Console verknüpfen. Diese Zuordnung wird synchronisiert, wenn sich der Benutzer anmeldet. [Weitere Informationen zum Produktprofil](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/admin/permissions/manage-permissions)
 
 | **Campaign Standard-Sicherheitsgruppe** | **Benutzer der Kampagne V8** |
 |----------|---------|
@@ -63,7 +63,7 @@ In Adobe Campaign Standard wird der Begriff **Benutzerrolle** in Campaign V8 als
 
 ## Migrationsansatz von Organisationseinheiten
 
-In Adobe Campaign Standard wird die **Organisationseinheit** t dem vorhandenen **Ordner**-Hierarchiemodell in Campaign V8 zugeordnet, um eine ähnliche Zugriffskontrolle zu gewährleisten. [Weitere Informationen zur Ordnerverwaltung](../../v8/start/folder-permissions.md)
+In Adobe Campaign Standard wird die **Organisationseinheit** t dem vorhandenen **Ordner**-Hierarchiemodell in Campaign V8 zugeordnet, um eine ähnliche Zugriffskontrolle zu gewährleisten. [Weitere Informationen zur Ordnerverwaltung](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/admin/permissions/folder-permissions)
 
 | | **Campaign Standard** | **Kampagne V8** |
 |---------|----------|---------|
@@ -73,7 +73,7 @@ In Adobe Campaign Standard wird die **Organisationseinheit** t dem vorhandenen *
 
 In Campaign V8 werden **Programme** als **Ordner** dargestellt. Campaign V8 ermöglicht die Erstellung von Ordnern und die Beschränkung des Zugriffs auf diese Ordner.
 
-Durch die Verwendung von **Gruppen** und **Spezifische Berechtigungen** können **Benutzer** Zugriff auf bestimmte **Ordner** innerhalb der Navigationshierarchie erhalten, mit der Möglichkeit, Lese-, Schreib- und Löschberechtigungen zuzuweisen. [Weitere Informationen zur Ordnerverwaltung](../../v8/start/folder-permissions.md)
+Durch die Verwendung von **Gruppen** und **Spezifische Berechtigungen** können **Benutzer** Zugriff auf bestimmte **Ordner** innerhalb der Navigationshierarchie erhalten, mit der Möglichkeit, Lese-, Schreib- und Löschberechtigungen zuzuweisen. [Weitere Informationen zur Ordnerverwaltung](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/admin/permissions/folder-permissions)
 
 Da ein **Programm** in Campaign V8 als **Ordner** behandelt wird, kann sein Zugriff auf dieselbe Weise wie jeder andere Ordner verwaltet werden. Nach der Migration können Campaign Standard-Administratoren die folgenden Schritte ausführen:
 
