@@ -4,9 +4,9 @@ title: Audit-Protokoll
 description: Erfahren Sie, wie Sie Ihre Instanz mit dem Audit-Protokoll von Campaign überwachen.
 feature: Audit Trail, Monitoring, Workflows
 exl-id: f4b4a33f-8250-4f4e-b2dc-129c56f9ea0f
-source-git-commit: dfd5f2e000b02d4382eaac0c9bb00fe940a99f79
-workflow-type: ht
-source-wordcount: '582'
+source-git-commit: 5323f3db8b29376b15b400a67765c6c0eda37479
+workflow-type: tm+mt
+source-wordcount: '581'
 ht-degree: 100%
 
 ---
@@ -51,7 +51,7 @@ Die Funktion **[!UICONTROL Audit-Protokoll]** zeichnet im Rahmen eines detaillie
 
 * **Externes Konto** ermöglicht Ihnen die Überprüfung von Änderungen an externen Konten in Campaign v8, die von technischen Prozessen wie technischen Workflows oder Kampagnen-Workflows verwendet werden.
 
-  Weiterführende Informationen zu „Externes Konto“ finden Sie auf [dieser Seite](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/config/configuration/external-accounts).
+  Weiterführende Informationen zu „Externes Konto“ finden Sie auf [dieser Seite](../administration/external-account.md).
 
 * **Versand-Mapping** ermöglicht es Ihnen, Aktivitäten und kürzlich an Ihrer Versand-Zuordnung vorgenommene Änderungen in Campaign v8 zu überwachen.
 

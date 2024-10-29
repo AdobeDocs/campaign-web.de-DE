@@ -3,10 +3,10 @@ title: Erste Schritte mit Adobe Campaign v8 für Admins und Entwicklerinnen und 
 description: Dieses Tutorial bietet einen Überblick über die wichtigsten Verwaltungs- und Daten-Management-Funktionen von Campaign v8. Es richtet sich an Admins und technische Marketing-Fachleute, die von Campaign Standard zu Campaign v8 migrieren.
 role: Admin, Developer
 level: Beginner, Experienced
-source-git-commit: 271fb8805e046c20fad824ba37b84be43638011a
-workflow-type: ht
-source-wordcount: '2666'
-ht-degree: 100%
+source-git-commit: 5323f3db8b29376b15b400a67765c6c0eda37479
+workflow-type: tm+mt
+source-wordcount: '2657'
+ht-degree: 99%
 
 ---
 
@@ -229,9 +229,9 @@ Als Admin müssen Sie Ihre Kanalkonfigurationen definieren. Weitere Informatione
 
 Als Admin sind Sie für die Konfiguration und Pflege externer Campaign-Konten verantwortlich. Wie in Campaign Standard werden externe Konten von technischen Prozessen wie technischen Workflows oder Kampagnen-Workflows verwendet.
 
-Beim Wechsel zu Campaign v8 werden auch die von Ihnen vorhandenen externen Campaign Standard-Konten berücksichtigt, die nun in der Client-Konsole verfügbar sind.
+Der Übergangsprozess zu Campaign v8 übernimmt Ihre bestehenden externen Campaign Standard-Konten.
 
-Erfahren Sie mehr über die [Konfiguration externer Konten](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/config/configuration/external-accounts){target="_blank"}.
+Weitere Informationen finden Sie in der Dokumentation zu [externen Konten](../../v8/administration/external-account.md) .
 
 
 <!--
