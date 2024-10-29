@@ -3,10 +3,10 @@ keywords: Campaign Web;Startseite;beliebte Themen
 description: Hilfe-Center zu Campaign Web
 title: Produktdokumentation zu Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 1a6bf414e4e5390faf701baf34ad9b33bb0b6dd7
-workflow-type: ht
-source-wordcount: '471'
-ht-degree: 100%
+source-git-commit: 3a8e0f0035d70ddafbc1fc38304316c12d8a2b83
+workflow-type: tm+mt
+source-wordcount: '460'
+ht-degree: 96%
 
 ---
 
@@ -51,6 +51,14 @@ Hier erhalten Sie einen Einblick in die neuesten Verbesserungen in Adobe Campaig
 
 >[!BEGINTABS]
 
+
+>[!TAB Version vom 24. Oktober]
+
+Die Version vom Oktober ist jetzt verfügbar, einschließlich Transaktionsnachrichten, externer Konten und weiterer Verbesserungen.
+
+[![Bild](assets/do-not-localize/learn-more-button.svg)](../v8/rn/release-notes.md)
+
+
 >[!TAB Content Accelerator des KI-Assistenten]
 
 ✨ Nehmen Sie an unserer Live-Funktionsvorstellung des [Content Accelerators des KI-Assistenten](../v8/email/generative-gs.md) teil, um die Funktionen in der Praxis selbst zu erkunden und die vielfältigen Einsatzmöglichkeiten zu verstehen.
@@ -62,12 +70,6 @@ Hier erhalten Sie einen Einblick in die neuesten Verbesserungen in Adobe Campaig
 Beim Zugriff auf die Liste der zur Personalisierung vorgesehenen Felder kann jetzt überprüft werden, wie die Werte für jedes Feld verteilt werden.
 
 [![Bild](assets/do-not-localize/learn-more-button.svg)](../v8/query/build-query.md#distribution-values-query)
-
->[!TAB Captcha in Landingpages]
-
-Sie können jetzt Captcha zum Schutz Ihrer Landingpage vor Spam und Missbrauch durch Bots hinzufügen. Diese Funktion ist nur eingeschränkt verfügbar.
-
-[![Bild](assets/do-not-localize/learn-more-button.svg)](../v8/landing-pages/create-lp.md#captcha)
 
 
 >[!ENDTABS]
