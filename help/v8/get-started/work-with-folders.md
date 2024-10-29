@@ -3,10 +3,10 @@ audience: end-user
 title: Arbeiten mit Ordnern
 description: Erfahren Sie, wie Sie in Adobe Campaign einen Ordner verwalten.
 exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
-source-git-commit: c7bb533174019d465f273c4fede3b578a40f2bb6
+source-git-commit: 04e1e4af70bc1d47ed1545459b73d72de5df4b8b
 workflow-type: tm+mt
-source-wordcount: '471'
-ht-degree: 100%
+source-wordcount: '523'
+ht-degree: 86%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 100%
 >title="Ordnerzeitplan"
 >abstract="Ordnerzeitplan"
 
-## Über Ordner
+## Über Ordner {#about-folders}
 
 Ordner sind Objekte in Adobe Campaign zur Organisation Ihrer Komponenten und Daten.
 
@@ -43,7 +43,7 @@ Sie können Ordner im Navigationsbaum erstellen, umbenennen, neu anordnen und ve
 Sie können einen Ordnertyp einrichten. Zum Beispiel: ein Ordner mit Sendungen.
 Das Symbol des Ordners ändert sich je nach Typ.
 
-## Erstellen eines neuen Ordners
+## Erstellen eines neuen Ordners {#create-a-folder}
 
 Gehen Sie wie folgt vor, um in der Adobe Campaign Web-Benutzeroberfläche einen neuen Ordner zu erstellen:
 
@@ -52,8 +52,7 @@ Im Menü **[!UICONTROL …]** finden Sie die Option **[!UICONTROL Neuen Ordner 
 
 ![](assets/folder_create.png){zoomable="yes"}
 
-Wenn Sie einen neuen Ordner erstellen, ist der Ordner standardmäßig vom gleichen Typ wie der übergeordnete Ordner.
-In unserem Beispiel erstellen wir einen Ordner im Ordner **[!UICONTROL Sendungen]**.
+Wenn Sie einen neuen Ordner erstellen, ist der Ordnertyp standardmäßig der Typ des übergeordneten Ordners. In unserem Beispiel erstellen wir einen Ordner im Ordner **[!UICONTROL Sendungen]**.
 
 ![](assets/folder_new.png){zoomable="yes"}
 
@@ -67,7 +66,7 @@ Wenn Sie einen Ordner ohne bestimmten Typ erstellen möchten, wählen Sie den Ty
 
 Sie können auch [Ordner in der Adobe Campaign-Konsole erstellen und verwalten](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/config/configuration/folders-and-views).
 
-## Löschen eines Ordners
+## Löschen eines Ordners {#delete-a-folder}
 
 >[!CAUTION]
 >
@@ -107,3 +106,11 @@ Klicken Sie in der Attributliste auf die Schaltfläche **+** neben dem gewünsch
 ![](assets/values_link.png){zoomable="yes"}
 
 Es ist auch möglich, die Werteverteilung in einem Abfrage-Modeler zu ermitteln. [Weitere Informationen finden Sie hier](../query/build-query.md#distribution-of-values-in-a-query).
+
+### Werte filtern {#filter-values}
+
+Mithilfe der **[!UICONTROL erweiterten Filter]** im Fenster &quot;Werteverteilung&quot; können Sie Ihre Ergebnisse nach bestimmten Bedingungen filtern.
+
+Im obigen Beispiel der Versandliste, in der die Verteilung nach Kanal dargestellt wird, können Sie sie beispielsweise so filtern, dass nur die Sendungen angezeigt werden, deren Status **Abgeschlossen** ist.
+
+![](assets/values_filter.png){zoomable="yes"}

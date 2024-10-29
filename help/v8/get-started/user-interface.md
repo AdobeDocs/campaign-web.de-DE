@@ -3,10 +3,10 @@ audience: end-user
 title: Erkunden der Benutzeroberfläche
 description: Adobe Campaign Web-Benutzeroberfläche
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 662d350a8c7e998db474873bed78204ce1f6d909
-workflow-type: ht
-source-wordcount: '1762'
-ht-degree: 100%
+source-git-commit: c171d04300c049de3d6c0cb3c98b2414ff28681b
+workflow-type: tm+mt
+source-wordcount: '1766'
+ht-degree: 94%
 
 ---
 
@@ -112,6 +112,17 @@ Erfahren Sie, wie Sie in E-Mails und SMS Angebote erstellen und senden, in [dies
 ### Reporting {#left-nav-reporting}
 
 * **Berichte**: Der Eintrag **Bericht** bietet eine konsolidierte Zusammenfassung von Traffic- und Interaktionsmetriken für jeden Kanal innerhalb Ihrer Campaign-Umgebungen. Diese Berichte bestehen aus verschiedenen Widgets, von denen jedes eine andere Perspektive auf Ihre Kampagnen- oder Versandleistung bietet. Weiterführende Informationen finden Sie in [diesem Abschnitt](../reporting/global-reports.md).
+
+### Administration {#left-nav-admin}
+
+
+* **Audit-Protokoll** - Der Eintrag **Audit-Protokoll** bietet Benutzern vollständige Einsicht in alle Änderungen, die an wichtigen Entitäten in Ihrer Instanz vorgenommen wurden, normalerweise diejenigen, die einen reibungslosen Betrieb der Instanz erheblich beeinträchtigen. [Weitere Informationen](../reporting/audit-trail.md)
+
+* **Externe Konten** - Erstellen Sie mithilfe der Web-Benutzeroberfläche neue externe Konten, um Ihre spezifischen Anforderungen zu erfüllen und eine nahtlose Datenübertragung zu gewährleisten. [Weitere Informationen](../administration/external-account.md)
+
+* **Schemas** - Benutzerdefinierte Felder sind zusätzliche Attribute, die den nativen Schemas über die Adobe Campaign-Konsole hinzugefügt werden. [Weitere Informationen](../administration/custom-fields.md)
+
+* **Versandwarnung** - Die Versandwarnung ist ein Warnhinweissystem, mit dem Benutzergruppen automatisch E-Mail-Benachrichtigungen mit Informationen zu ihren Versandausführungen erhalten können. [Weitere Informationen](../msg/delivery-alerting.md)
 
 <!--
 ## Contextual Help {#user-interface-help} 
@@ -321,77 +332,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 
 
-<!-- transac messages-->
 
->[!CONTEXTUALHELP]
->id="acw_transacmessages"
->title="Transaktionsnachrichten"
->abstract="Transaktionsnachrichten"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_properties"
->title="Transaktionsnachrichten-Eigenschaften"
->abstract="Transaktionsnachrichten-Eigenschaften"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_email_properties"
->title="E-Mail-Eigenschaften von Transaktionsnachrichten"
->abstract="E-Mail-Eigenschaften von Transaktionsnachrichten"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_sms_properties"
->title="SMS-Eigenschaften von Transaktionsnachrichten"
->abstract="SMS-Eigenschaften von Transaktionsnachrichten"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_push_properties"
->title="Push-Eigenschaften von Transaktionsnachrichten"
->abstract="Push-Eigenschaften von Transaktionsnachrichten"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_mobileapp"
->title="Transaktionsnachrichten-Mobile-App"
->abstract="Transaktionsnachrichten-Mobile-App"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_event"
->title="Transaktionsnachrichten-Ereignis"
->abstract="Transaktionsnachrichten-Ereignis"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_context"
->title="Transaktionsnachrichten-Kontext"
->abstract="Transaktionsnachrichten-Kontext"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_content"
->title="Transaktionsnachrichten-Inhalt"
->abstract="Transaktionsnachrichten-Inhalt"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_personalization"
->title="Transaktionsnachrichten-Personalisierung"
->abstract="Transaktionsnachrichten-Personalisierung"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_exclusionlogs"
->title="Transaktionsnachrichten-Ausschlusslogs"
->abstract="Transaktionsnachrichten-Ausschlusslogs"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_addcontext"
->title="Transaktionsnachrichten-Kontext"
->abstract="Transaktionsnachrichten-Kontext"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_eventhistory"
->title="Transaktionsnachrichten-Ereignisverlauf"
->abstract="Transaktionsnachrichten-Ereignisverlauf"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_eventhistory_preview"
->title="Vorschau des Transaktionsnachrichten-Ereignisverlaufs"
->abstract="Vorschau des Transaktionsnachrichten-Ereignisverlaufs"
 
 <!--about-->
 

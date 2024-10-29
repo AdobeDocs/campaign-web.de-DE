@@ -3,10 +3,10 @@ audience: end-user
 title: Erstellen von Workflows mit Adobe Campaign Web
 description: Erfahren Sie, wie Sie Workflows mit Adobe Campaign Web erstellen
 exl-id: 0c8e2158-518c-4620-9971-00ed2eccdd4f
-source-git-commit: 3d566c03795dbb0a9ad31dba1037f2a559fa8e31
+source-git-commit: 0f60fdce8050991e086875c055563087f8a221d1
 workflow-type: tm+mt
-source-wordcount: '1068'
-ht-degree: 100%
+source-wordcount: '1189'
+ht-degree: 87%
 
 ---
 
@@ -48,21 +48,27 @@ Die Symbolleiste oben rechts in der Arbeitsfläche bietet Optionen zum einfachen
 
 ## Verwalten von Aktivitäten {#manage}
 
-Beim Hinzufügen von Aktivitäten sind im Eigenschaftenbereich Aktionsschaltflächen verfügbar, mit denen Sie mehrere Vorgänge ausführen können. Sie haben folgende Möglichkeiten:
+Beim Hinzufügen von Aktivitäten sind im Eigenschaftenbereich Aktionsschaltflächen verfügbar, mit denen Sie mehrere Vorgänge ausführen können.
+
+![](assets/activity-action.png){zoomable="yes"}
+
+Sie haben folgende Möglichkeiten:
 
 * **Löschen** der Aktivität von der Arbeitsfläche aus.
 * **Deaktivieren/Aktivieren** der Aktivität. Wenn der Workflow ausgeführt wird, werden deaktivierte Aktivitäten und auf demselben Pfad folgende Aktivitäten nicht ausgeführt und der Workflow wird angehalten.
-* **Kopieren** der Aktivität. Weitere Informationen finden Sie in diesem [Abschnitt](#copy).
-* Zugreifen auf die **Protokolle und Aufgaben** der Aktivität.
 * **Anhalten/Fortsetzen** der Aktivität. Wenn der Workflow ausgeführt wird, wird er mit bei der angehaltenen Aktivität angehalten. Die entsprechende Aufgabe sowie alle auf demselben Pfad folgenden Aufgaben werden nicht ausgeführt.
-
-![](assets/activity-action.png){zoomable="yes"}{width="50%"}
+* **Kopieren** der Aktivität. Weitere Informationen finden Sie in diesem [Abschnitt](#copy).
+* **Verschieben** Sie eine Aktivität und alle untergeordneten Knoten in eine andere Transition. Siehe [diesen Abschnitt](#move) .
+* Rufen Sie die Ausführungsoptionen **der Aktivität auf**.
+* Zugreifen auf die **Protokolle und Aufgaben** der Aktivität.
 
 Bei mehreren **Zielgruppenbestimmungsaktivitäten**, z. B. **Kombinieren** oder **Deduplizierung**, können Sie die verbleibende Population verarbeiten und in eine zusätzliche ausgehende Transition einschließen. Wenn Sie beispielsweise die Aktivität **Aufspaltung** verwenden, besteht das Komplement aus der Population, die keiner der zuvor definierten Teilmengen entsprochen hat. Um diese Funktion zu verwenden, aktivieren Sie die Option **Komplement erzeugen**.
 
 ![](assets/workflow-split-complement.png)
 
-## Kopieren von Aktivitäten {#copy}
+## Verschieben oder Kopieren von Aktivitäten {#move-copy}
+
+### Aktivitäten kopieren und einfügen {#copy}
 
 Sie können Workflow-Aktivitäten kopieren und in einen beliebigen Workflow einfügen. Der Ziel-Workflow kann sich auf einer anderen Browser-Registerkarte befinden.
 
@@ -72,13 +78,27 @@ Zum Kopieren von Aktivitäten haben Sie zwei Möglichkeiten:
 
   ![](assets/workflow-copy.png){zoomable="yes"}{width="70%"}
 
-* Kopieren Sie mehrere Aktivitäten mithilfe der Symbolleistenschaltfläche.
+* Kopieren Sie mehrere Aktivitäten mithilfe der Symbolleistenschaltfläche .
 
   ![](assets/workflow-copy-2.png){zoomable="yes"}{width="70%"}
 
 Um die kopierten Aktivitäten einzufügen, klicken Sie auf die Schaltfläche **+** auf einer Transition und wählen Sie „Aktivität X einfügen“ aus.
 
 ![](assets/workflow-copy-3.png){zoomable="yes"}{width="50%"}
+
+### Verschieben von Aktivitäten und ihren untergeordneten Knoten {#move}
+
+Mit Journey Optimizer können Sie eine Aktivität zusammen mit dem gesamten Inhalt ihrer untergeordneten Knoten (einschließlich aller darin enthaltenen Transitionen und Aktivitäten) an das Ende einer anderen Transition innerhalb desselben Workflows verschieben.
+
+Dieser Prozess trennt die Aktivität und alles, was sich in ihrer ausgehenden Transition befindet, vom Ausgangspunkt und verschiebt sie auf die neue Zieltransition.
+
+So verschieben Sie eine Aktivität:
+
+1. Wählen Sie die zu verschiebende Aktivität aus.
+1. Klicken Sie im Eigenschaftenbereich der Aktivität auf die Schaltfläche **Verschieben** .
+1. Wählen Sie die Transition aus, an der die Aktivität platziert werden soll, und bestätigen Sie dann die Auswahl.
+
+![](assets/activity-move.png)
 
 ## Ausführungsoptionen {#execution}
 

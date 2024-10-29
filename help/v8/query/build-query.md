@@ -3,10 +3,10 @@ audience: end-user
 title: Erstellen Ihrer erste Abfrage mithilfe des Abfrage-Modelers
 description: Erfahren Sie, wie Sie Ihre erste Abfrage im Abfrage-Modeler in Adobe Campaign Web erstellen.
 exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
-source-git-commit: 88774a747f4e54d7bf0ebba05c181b2a8476764f
+source-git-commit: 3477d7b89b642ea62adaf3f2e49e4000e52a9862
 workflow-type: tm+mt
-source-wordcount: '2212'
-ht-degree: 100%
+source-wordcount: '2227'
+ht-degree: 99%
 
 ---
 
@@ -41,6 +41,7 @@ Um auf diese Option zuzugreifen, klicken Sie in Ihrer Abfrage auf die Schaltflä
 >* Bei Feldern mit vielen Werten werden nur die ersten zwanzig Werte angezeigt. In diesem Fall warnt Sie die Benachrichtigung **[!UICONTROL Teilweise laden]**.
 >
 >* Die Option **[!UICONTROL Werteverteilung]** ist in jeder Attributauswahl verfügbar.
+>* Mithilfe der **[!Aerweiterten Filter]** können Sie Bedingungen zu den Ergebnissen hinzufügen. [Weitere Informationen finden Sie hier](../get-started/work-with-folders.md#filter-the-values).
 
 ## Hinzufügen von Filterkomponenten {#filtering}
 

@@ -5,10 +5,10 @@ user-guide-description: Produktdokumentation zur Adobe Campaign Web-Benutzerober
 title: Dokumentation zu Adobe Campaign Web
 description: Dokumentation zu Campaign Web
 breadcrumb-title: Campaign Web-Benutzeroberfläche
-source-git-commit: a1b1a40be4d2004181f03bba5c43d0302d6f2c47
+source-git-commit: c171d04300c049de3d6c0cb3c98b2414ff28681b
 workflow-type: tm+mt
-source-wordcount: '748'
-ht-degree: 99%
+source-wordcount: '769'
+ht-degree: 98%
 
 ---
 
@@ -65,6 +65,11 @@ ht-degree: 99%
       + [Erstellen eines Briefpostversands](direct-mail/create-direct-mail.md)
       + [Gestalten der Extraktionsdatei](direct-mail/content-direct-mail.md)
       + [Vorschau und Durchführen eines Briefpostversands](direct-mail/send-direct-mail.md)
+   + Transaktionsnachrichten {#transactional-messages}
+      + [Erste Schritte mit Transaktionsnachrichten](transactional-messaging/transactional.md)
+      + [Transaktionsnachricht erstellen](transactional-messaging/create-transactional.md)
+      + [Transaktionsnachricht validieren](transactional-messaging/validate-transactional.md)
+      + [Transaktionsnachrichten überwachen](transactional-messaging/monitor-transactional.md)
    + [Hinzufügen von Angeboten zu Ihren Nachrichten](msg/offers.md)
    + [Versenden von Nachrichten an Ihre Abonnentinnen und Abonnenten](msg/send-to-subscribers.md)
    + [Konfigurieren der Versandeinstellungen](advanced-settings/delivery-settings.md)
@@ -218,4 +223,5 @@ ht-degree: 99%
    + [Verwalten von Vorlagen mit Adobe Experience Manager as a Cloud Service](integrations/aem-content.md)
 + Konfiguration {#conf}
    + [Konfigurieren benutzerdefinierter Felder](administration/custom-fields.md)
+   + [Konfigurieren externer Konten](administration/external-account.md)
 + [Dokumentation zu Campaign v8 (Konsole) >](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/campaign-home)

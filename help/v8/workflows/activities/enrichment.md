@@ -3,10 +3,10 @@ audience: end-user
 title: Verwendung der Workflow-Aktivität „Anreicherung“
 description: Erfahren Sie, wie Sie die Workflow-Aktivität „Anreicherung“ verwenden.
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
-source-git-commit: e9d7be3823afd70bd6de87c4ed5dc35b71eeaa7d
+source-git-commit: 80c9d2b40696d75069c2ca4a93ffca998bc407f9
 workflow-type: tm+mt
-source-wordcount: '1709'
-ht-degree: 100%
+source-wordcount: '2061'
+ht-degree: 82%
 
 ---
 
@@ -17,10 +17,6 @@ ht-degree: 100%
 >title="Aktivität „Anreicherung“"
 >abstract="Die Aktivität **Anreicherung** ermöglicht es Ihnen, die Zielgruppendaten um zusätzliche Informationen aus der Datenbank zu erweitern. Sie wird in einem Workflow häufig nach den Segmentierungsaktivitäten verwendet."
 
->[!CONTEXTUALHELP]
->id="acw_orchestration_enrichment_offer_proposition"
->title="Angebotsvorschläge"
->abstract="Angebotsvorschläge"
 
 Die Aktivität der **Anreicherung** ist eine **Zielgruppenbestimmungs-Aktivität**. Sie ermöglicht Ihnen, die Zielgruppendaten um zusätzliche Informationen aus der Datenbank zu erweitern. Sie wird in einem Workflow häufig nach den Segmentierungsaktivitäten verwendet.
 
@@ -140,6 +136,56 @@ Das folgende Beispiel zeigt einen Workflow zum Erstellen eines Links zwischen de
 
 ![](../assets/enrichment-reconciliation.png)
 
+## Angebote hinzufügen {#add-offers}
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_enrichment_offer_proposition"
+>title="Angebotsvorschläge"
+>abstract="Die Anreicherungsaktivität ermöglicht das Hinzufügen von Angeboten für jedes Profil."
+
+Die Aktivität **[!UICONTROL Anreicherung]** ermöglicht das Hinzufügen von Angeboten für jedes Profil.
+
+Gehen Sie dazu wie folgt vor, um die Aktivität **[!UICONTROL Anreicherung]** mit einem Angebot zu konfigurieren:
+
+1. Klicken Sie in der Aktivität **[!UICONTROL Anreicherung]** im Bereich **[!UICONTROL Angebotsvorschlag]** auf die Schaltfläche **[!UICONTROL Angebot hinzufügen]** .
+
+   ![](../assets/enrichment-addoffer.png)
+
+1. Sie haben zwei Möglichkeiten zur Angebotsauswahl:
+
+   * **[!UICONTROL Suchen Sie nach dem besten Angebot in Kategorie]** : Aktivieren Sie diese Option und geben Sie die Angebotsplatzierung, Kategorie oder Themen, Kontaktdatum, Anzahl der beizubehaltenden Angebote an. Das Angebotsmodul berechnet anhand dieser Parameter das bzw. die besten Angebote, die hinzugefügt werden sollen. Es wird empfohlen, anstelle von beidem das Feld Kategorie oder Thema auszufüllen.
+
+     ![](../assets/enrichment-bestoffer.png)
+
+   * **[!UICONTROL Vordefiniertes Angebot]**: Beim Aktivieren dieser Option können Sie ohne Abfrage des Angebotsmoduls direkt das einzufügende Angebot konfigurieren (Platzierung, Kontaktdatum).
+
+     ![](../assets/enrichment-predefinedoffer.png)
+
+1. Klicken Sie nach Auswahl Ihres Angebots auf die Schaltfläche **[!UICONTROL Bestätigen]** .
+
+Jetzt können Sie das Angebot in der Versandaktivität verwenden.
+
+### Verwenden der Angebote der Aktivität Anreicherung
+
+Gehen Sie innerhalb eines Workflows wie folgt vor, wenn Sie die Angebote aus einer Anreicherungsaktivität in Ihrem Versand verwenden möchten:
+
+1. Öffnen Sie die Versandaktivität und gehen Sie zur Inhaltsbearbeitung. Klicken Sie auf die Schaltfläche **[!UICONTROL Angebotseinstellungen]** und wählen Sie in der Dropdownliste die Ihrem Angebot entsprechende **[!UICONTROL Platzierung für Angebote]** aus.
+Wenn Sie nur Angebote aus der Anreicherungsaktivität anzeigen möchten, setzen Sie die Anzahl der **[!UICONTROL Vorschläge]** auf 0 und speichern Sie die Änderungen.
+
+   ![](../assets/offers-settings.png)
+
+1. Wenn Sie im E-Mail-Designer eine Personalisierung mit Angeboten hinzufügen, klicken Sie auf das Symbol **[!UICONTROL Vorschläge]**. Dadurch werden die Angebote angezeigt, die Sie aus der Aktivität **[!UICONTROL Anreicherung]** erhalten. Öffnen Sie das Angebot, das Sie auswählen möchten, indem Sie darauf klicken.
+
+   ![](../assets/offers-propositions.png)
+
+   Wechseln Sie zu **[!UICONTROL Rendering-Funktionen]** und wählen Sie je nach Bedarf **[!UICONTROL HTML-Rendering]** oder **[!UICONTROL Text-Rendering]** aus.
+
+   ![](../assets/offers-rendering.png)
+
+>[!NOTE]
+>
+>Wenn Sie sich für mehr als ein Angebot in der Aktivität **[!UICONTROL Anreicherung]** unter der Option **[!UICONTROL Anzahl beizubehaltender Angebote]** entscheiden, werden alle Angebote angezeigt, wenn Sie auf das Symbol **[!UICONTROL Vorschläge]** klicken.
+
 ## Beispiele {#example}
 
 ### Einzelnes Anreicherungsattribut {#single-attribute}
@@ -156,10 +202,10 @@ Hier fügen wir nur ein einziges Anreicherungsattribut hinzu, z. B. das Geburts
 
 In diesem komplexeren Anwendungsfall wählen wir eine Sammlungsrelation aus, die eine Verknüpfung mit einer Kardinalität von 1:n zwischen Tabellen darstellt. Rufen wir die drei neuesten Käufe ab, die weniger als 100 € betragen. Dazu müssen Sie Folgendes definieren:
 
-* ein Anreicherungsattribut: das Feld **Gesamtbetrag**
+* ein Anreicherungsattribut: das Feld **Preis**
 * die Anzahl der abzurufenden Zeilen: 3
 * einen Filter: Elemente herausfiltern, die über 100 € liegen
-* eine Sortierung: absteigende Sortierung nach dem Feld **Bestelldatum**.
+* eine Sortierung: absteigende Sortierung für das Feld **Bestelldatum**.
 
 #### Fügen Sie das Attribut hinzu. {#add-attribute}
 
@@ -167,9 +213,9 @@ Hier wählen Sie die Sammlungsrelation aus, um sie als Anreicherungsdaten zu ver
 
 1. Klicken Sie in das Feld **Attribut**.
 1. Klicken Sie auf **Erweiterte Attribute anzeigen**.
-1. Wählen Sie das Feld **Gesamtbetrag** aus der Tabelle **Käufe**.
+1. Wählen Sie das Feld **Preis** aus der Tabelle **Einkäufe** aus.
 
-![](../assets/workflow-enrichment3.png)
+<!-- ![](../assets/workflow-enrichment3.png) -->
 
 #### Definieren Sie die Sammlungseinstellungen.{#collection-settings}
 
@@ -178,21 +224,23 @@ Definieren Sie dann, wie die Daten erfasst werden und wie viele Einträge abgeru
 1. Wählen Sie **Daten erfassen** in der Dropdown-Liste **Auswählen, wie die Daten erfasst werden**.
 1. Geben Sie „3“ in das Feld **Abzurufende Zeilen (zu erstellende Spalten)** ein.
 
-![](../assets/workflow-enrichment4.png)
+![](../assets/workflow-enrichment4bis.png)
 
 Wenn Sie beispielsweise die durchschnittliche Anzahl der Käufe für eine Person abrufen möchten, wählen Sie stattdessen **Aggregierte Daten** und wählen Sie **Durchschnitt** in der Dropdown-Liste **Aggregatfunktion**.
 
-![](../assets/workflow-enrichment5.png)
+Verwenden Sie die Felder **Beschriftung** und **Alias** Ihres Attributs, um es verständlicher zu machen, wie unten dargestellt.
+
+![](../assets/workflow-enrichment5bis.png)
 
 #### Definieren von Filtern{#collection-filters}
 
 Hier definieren wir den Maximalwert für das Anreicherungsattribut. Wir filtern Elemente mit einem Preis von mehr als 100 USD heraus. [Erfahren Sie mehr über die Arbeit mit dem Abfrage-Modeler](../../query/query-modeler-overview.md)
 
-1. Klicken Sie auf **Filter bearbeiten**.
-1. Fügen Sie die beiden folgenden Filter hinzu: **Gesamtbetrag** vorhanden UND **Gesamtbetrag** ist kleiner als 100. Der erste filtert NULL-Werte, da sie als größter Wert erscheinen würden.
+1. Klicken Sie auf **Filter erstellen**.
+1. Fügen Sie die beiden folgenden Filter hinzu: **Preis** existiert UND **Preis** ist kleiner als 100. Der erste filtert NULL-Werte, da sie als größter Wert erscheinen würden.
 1. Klicken Sie auf **Bestätigen**.
 
-![](../assets/workflow-enrichment6.png)
+![](../assets/workflow-enrichment6bis.png)
 
 #### Definieren der Sortierung{#collection-sorting}
 
@@ -204,7 +252,7 @@ Jetzt müssen wir eine Sortierung anwenden, um die drei **letzten** Käufe abzur
 1. Klicken Sie auf **Bestätigen**.
 1. Wählen Sie **Absteigend** aus der Dropdown-Liste **Sortieren**.
 
-![](../assets/workflow-enrichment7.png)
+![](../assets/workflow-enrichment7bis.png)
 
 ### Anreicherung mit in Relation stehenden Daten {#link-example}
 
