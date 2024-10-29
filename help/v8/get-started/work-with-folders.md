@@ -3,10 +3,10 @@ audience: end-user
 title: Arbeiten mit Ordnern
 description: Erfahren Sie, wie Sie in Adobe Campaign einen Ordner verwalten.
 exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
-source-git-commit: 04e1e4af70bc1d47ed1545459b73d72de5df4b8b
+source-git-commit: ed9a3a3ca3bbb5d2bd44c512643857d62b97393c
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 86%
+source-wordcount: '574'
+ht-degree: 79%
 
 ---
 
@@ -65,6 +65,20 @@ Richten Sie den Ordnertyp ein, indem Sie auf die Schaltfläche **[!UICONTROL Be
 Wenn Sie einen Ordner ohne bestimmten Typ erstellen möchten, wählen Sie den Typ **[!UICONTROL Allgemeiner Ordner]** aus.
 
 Sie können auch [Ordner in der Adobe Campaign-Konsole erstellen und verwalten](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/config/configuration/folders-and-views).
+
+
+## Ordner neu anordnen {#reorder-folders}
+
+Sie können die Ordner nach Bedarf neu anordnen. Klicken Sie dazu auf den Befehl **[!UICONTROL Ordner neu anordnen]** , wie unten dargestellt.
+
+In unserem Beispiel enthält der Ordner **Sendungen** 4 Ordner.
+
+![](assets/folder-reorder.png){zoomable="yes"}
+
+Sie können die Reihenfolge Ihrer Ordner entweder durch **Ziehen und Ablegen** oder durch Verwendung von **Nach-oben- und Nach-unten-Pfeilen** ändern.
+
+![](assets/folder-draganddrop.png){zoomable="yes"}
+
 
 ## Löschen eines Ordners {#delete-a-folder}
 

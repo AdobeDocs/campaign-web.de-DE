@@ -3,10 +3,10 @@ audience: end-user
 title: Durchsuchen und Filtern von Listen
 description: Erfahren Sie, wie Sie Listen in Campaign Web v8 durchsuchen und filtern
 exl-id: 46b83e8c-6c8c-40a1-a08b-9d0b438b80cb
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 8a68e1e95f2d030c9386e11ae3e7e07f1496bd84
 workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 100%
+source-wordcount: '260'
+ht-degree: 91%
 
 ---
 
@@ -21,6 +21,10 @@ Die Listen werden in Spalten angezeigt. Sie können auch zusätzliche Informatio
 ![](assets/config-columns.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 
 Im Bildschirm **Spalten konfigurieren** können Sie Spalten hinzufügen oder entfernen und die Reihenfolge ändern, in der sie angezeigt werden.
+
+Sie können die Reihenfolge Ihrer Liste entweder durch **Ziehen und Ablegen** oder durch Verwendung von **Aufwärts- und Abwärtspfeilen** ändern, wie unten dargestellt:
+
+![](assets/list-reorder.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 
 Für diese Einstellungen:
 
