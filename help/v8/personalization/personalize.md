@@ -6,19 +6,27 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: f57e0f2de12780ff9f90c2c5f1933b0e9bffe493
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 100%
+source-wordcount: '580'
+ht-degree: 68%
 
 ---
 
 
 # Personalisieren von Inhalten {#add-personalization}
 
-Sie können jeden Versand mithilfe des Ausdruckseditors personalisieren. Auf den Ausdruckseditor können Sie in allen Feldern mit dem Symbol **[!UICONTROL Personalisierungsdialog öffnen]** zugreifen, z. B. Betreffzeile, E-Mail-Links und Text-/Schaltflächen-Inhaltskomponenten. [Erfahren Sie, wie Sie auf den Ausdruckseditor zugreifen](gs-personalization.md/#access)
+Personalization von Versandinhalten ist eine wichtige Funktion, mit der Sie Nachrichten an einzelne Empfänger anpassen und so die Kommunikation relevanter und ansprechender gestalten können.
 
-## Personalisierungssyntax {#syntax}
+In Adobe Campaign können Sie mithilfe von [Profildaten](#data-personalization), z. B. den Namen, den Speicherort oder frühere Interaktionen des Profils, und bestimmten [Variablen Ihres Versands](#variables-personalization), Elemente wie Text, Bilder und Angebote dynamisch anpassen.
+
+Die Personalisierung des Versands verbessert nicht nur das Benutzererlebnis, sondern verbessert auch die Interaktionsraten, was zu einer höheren Konversion und Kundenzufriedenheit führt.
+
+## Verwenden von Profildaten zur Personalisierung {#data-personalization}
+
+Sie können jeden Versand mit Profildaten personalisieren, indem Sie den Ausdruckseditor verwenden, auf den in Feldern mit dem Symbol **[!UICONTROL Personalisierungsdialogfeld öffnen]** zugegriffen werden kann, z. B. die Betreffzeile, E-Mail-Links und die Komponenten für Text-/Schaltflächeninhalt. [Erfahren Sie, wie Sie auf den Ausdruckseditor zugreifen](gs-personalization.md/#access)
+
+### Personalisierungssyntax {#syntax}
 
 Personalisierungs-Tags folgen einer bestimmten Syntax: `<%= table.field %>`. Um beispielsweise den Nachnamen der Empfängerin bzw. des Empfängers aus der Empfängertabelle einzufügen, verwenden Sie die Syntax `<%= recipient.lastName %>`.
 
@@ -26,7 +34,7 @@ Während der Versandvorbereitung interpretiert Adobe Campaign diese Tags automat
 
 Beim Hochladen von Kontakten aus einer externen Datei für einen eigenständigen E-Mail-Versand sind alle Felder in der Eingabedatei zur Personalisierung verfügbar. Die Syntax sieht folgendermaßen aus: `<%= dataSource.field %>`.
 
-## Hinzufügen von Personalisierungs-Tags {#add}
+### Hinzufügen von Personalisierungs-Tags {#add}
 
 Gehen Sie wie folgt vor, um einem Versand Personalisierungs-Tags hinzuzufügen:
 
@@ -56,3 +64,20 @@ Gehen Sie wie folgt vor, um einem Versand Personalisierungs-Tags hinzuzufügen:
    ![](assets/perso-preview1.png){zoomable="yes"}{width="800" align="center"}
 
    ![](assets/perso-preview2.png){zoomable="yes"}{width="800" align="center"}
+
+## Variablen für die Personalisierung verwenden {#variables-personalization}
+
+Sie können auch Variablen verwenden, um Ihren Versand zu personalisieren.
+Erfahren Sie mehr über [Hinzufügen von Variablen zu einem Versand](../advanced-settings/delivery-settings.md#variables-delivery).
+
+Beispielsweise ist die Variable `deliveryType` wie unten definiert.
+
+![](assets/variables-deliveryType.png){zoomable="yes"}
+
+Diese Variable kann im Versandinhalt verwendet werden, indem für unser Beispiel das Symbol **[!UICONTROL Personalization hinzufügen]** und der Ausdruck `<%= variables.deliveryType %>` verwendet werden.
+
+![](assets/variables-perso.png){zoomable="yes"}
+
+Sie können die Verwendung Ihrer Variablen mit der Schaltfläche **[!UICONTROL Inhalt simulieren]** überprüfen.
+
+![](assets/variables-simulate.png){zoomable="yes"}

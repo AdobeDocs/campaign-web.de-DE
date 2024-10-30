@@ -4,10 +4,10 @@ title: Konfigurieren von Versandeinstellungen
 description: Erfahren Sie, wie Sie Versandeinstellungen in Campaign Web konfigurieren
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: 898762bc059b49c2f39da7558e6d9ffd31d1985e
+source-git-commit: f57e0f2de12780ff9f90c2c5f1933b0e9bffe493
 workflow-type: tm+mt
-source-wordcount: '2852'
-ht-degree: 100%
+source-wordcount: '2888'
+ht-degree: 98%
 
 ---
 
@@ -351,6 +351,8 @@ Um eine Variable hinzuzufügen, navigieren Sie zur Registerkarte **[!UICONTROL V
 
 ![](assets/variables-tab.png){zoomable="yes"}
 
-Klicken Sie auf die Schaltfläche **[!UICONTROL Variablen hinzufügen]**, um die Details Ihrer Variablen einzugeben, und klicken Sie dann auf **[!UICONTROL Bestätigen]**, um Ihre Änderungen zu speichern.
+Klicken Sie auf die Schaltfläche **[!UICONTROL Variablen hinzufügen]** , um die Details Ihrer Variablen einzugeben. Sie können den zugehörigen Wert direkt hinzufügen oder einen Ausdruck dafür verwenden, indem Sie das Kontrollkästchen **[!UICONTROL Wert ist das Ergebnis eines Ausdrucks]** aktivieren. Klicken Sie dann auf **[!UICONTROL Bestätigen]** , um Ihre Änderungen zu speichern.
 
 ![](assets/variables-add.png){zoomable="yes"}
+
+Erfahren Sie mehr über die Verwendung von [Variablen für die Personalisierung](../personalization/personalize.md#variables-personalization) und [Verwendung von Variablen für dynamischen Inhalt](../personalization/conditions.md#variables-conditional).
