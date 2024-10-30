@@ -2,9 +2,9 @@
 title: Versionshinweise zur Web-Benutzeroberfläche von Campaign v8
 description: Entdecken Sie die neuen Funktionen der neuesten Version der Campaign Web-Benutzeroberfläche
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: a6713f451112fb5af7895f34ea4e938857c013ac
+source-git-commit: 344d38239df96d570a93aff9674d38b6fd375830
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '418'
 ht-degree: 42%
 
 ---
@@ -91,3 +91,5 @@ Die folgenden Funktionen und Verbesserungen sind ab der Oktober-Version verfügb
 * **Version und Systeminformationen** - Sie können jetzt auf Details zu Ihren Instanzversionen zugreifen, sowohl für die Client-Konsole als auch für die Web-Benutzeroberfläche. In diesem neuen Abschnitt werden auch alle nativen Pakete aufgelistet, die in Ihrer Umgebung installiert sind. [Weitere Informationen](../get-started/user-interface.md#user-interface-about)
 
 * **Listen** - Sie können die Werte einer Liste jetzt einfach neu anordnen. [Weitere Informationen](../get-started/work-with-folders.md)
+
+* **Versand** - Auf die Variable &quot;Versand&quot;kann jetzt über Personalisierungsfelder zugegriffen werden. [Weitere Informationen](../personalization/conditions.md#use-variables-for-conditional-content-variables-conditional)
