@@ -4,10 +4,10 @@ title: Hinzufügen visueller Fragmente zu E-Mails
 description: Erfahren Sie, wie Sie visuelle Fragmente zu Ihren E-Mails hinzufügen
 badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: 6d6f38f9-9d3e-47cb-beb8-177b5a5d8306
-source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
+source-git-commit: 0b85b5a4b6eff4fdb9835a0d1ccb5d0a86c103a0
 workflow-type: tm+mt
-source-wordcount: '507'
-ht-degree: 100%
+source-wordcount: '577'
+ht-degree: 87%
 
 ---
 
@@ -68,6 +68,18 @@ Gehen Sie wie folgt vor, um ein visuelles Fragment in den Inhalt einer E-Mail ei
    Sie können das Fragment auch aus dem Inhalt löschen oder duplizieren. Diese Aktionen können direkt über das Kontextmenü ausgeführt werden, das über dem Fragment angezeigt wird.
 
 1. Fügen Sie beliebig viele visuelle Fragmente hinzu und **[!UICONTROL speichern]** Sie Ihre Änderungen.
+
+### Visuelles Fragment im schreibgeschützten Modus {#fragment-readonly}
+
+Zugriffsberechtigungen können auf visuelle Fragmente angewendet werden.
+
+Wenn Sie nicht über Bearbeitungsberechtigungen für ein bestimmtes visuelles Fragment verfügen, wird die Inhaltsvorlage im schreibgeschützten Modus **1} angezeigt.** In diesem Fall wird die Schaltfläche **[!UICONTROL Inhalt bearbeiten]** durch die Schaltfläche **[!UICONTROL Inhalt anzeigen]** ersetzt, sodass Sie das Fragment anzeigen können, ohne Änderungen vorzunehmen.
+
+![](assets/fragment-readonly.png){zoomable="yes"}
+
+Wie unten gezeigt, werden alle Funktionssymbole deaktiviert, wodurch die Interaktion auf die Anzeige beschränkt wird.
+
+![](assets/fragment-readonly-view.png){zoomable="yes"}
 
 ## Unterbrechen der Vererbung {#break-inheritance}
 
