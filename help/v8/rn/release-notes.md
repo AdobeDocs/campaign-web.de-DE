@@ -2,10 +2,10 @@
 title: Versionshinweise zur Web-Benutzeroberfläche von Campaign v8
 description: Entdecken Sie die neuen Funktionen der neuesten Version der Campaign Web-Benutzeroberfläche
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: ef040ec079961771b734208ecf8ac9e510b38104
+source-git-commit: 5dc96beadbd5ea02540185634971cef44357aefa
 workflow-type: tm+mt
-source-wordcount: '697'
-ht-degree: 69%
+source-wordcount: '394'
+ht-degree: 44%
 
 ---
 
@@ -52,7 +52,7 @@ Die folgenden Funktionen und Verbesserungen sind ab der Oktober-Version verfügb
 <tbody>
 <tr>
 <td>
-<p>Sie können jetzt Transaktionsnachrichten in der Campaign-Web-Benutzeroberfläche erstellen und überwachen. Transaktionsnachrichten sind ein spezielles Modul in Adobe Campaign, das für die Verarbeitung ausgelöster Nachrichten entwickelt wurde. Diese Nachrichten werden automatisch als Reaktion auf Ereignisse aus Informationssystemen generiert. Häufige Beispiele für solche Ereignisse sind das Klicken auf Schaltflächen oder Links, das Abbrechen des Warenkorbs, das Anfordern von Warnungen zur Produktverfügbarkeit, das Erstellen oder Ändern von Konten usw.</p>
+<p>Transaktionsnachrichten (Message Center) sind jetzt in der Web-Benutzeroberfläche von Campaign verfügbar. Dieses Add-on wurde entwickelt, um Nachrichten auszulösen, die aus Ereignissen generiert wurden, die von Informationssystemen ausgelöst wurden. Es kann sich dabei um Rechnungen, Bestellbestätigungen, Versandbestätigungen, Kennwortänderungen, Benachrichtigungen über die Nichtverfügbarkeit von Produkten, Kontoauszüge, die Erstellung von Website-Konten usw. handeln.</p>
 <p>Weitere Informationen finden Sie in der <a href="../transactional-messaging/transactional.md">entsprechenden Dokumentation</a>.</p>
 </td>
 </tr>
@@ -86,53 +86,6 @@ Die folgenden Funktionen und Verbesserungen sind ab der Oktober-Version verfügb
 
 * **Werteverteilung**: Beim Zugriff auf die Liste der zur Personalisierung vorgesehenen Felder kann jetzt überprüft werden, wie die Werte für jedes Feld verteilt werden. Ein dediziertes Popup-Fenster zeigt die Anzahl und den Prozentsatz für jeden Wert an. [Weitere Informationen](../query/build-query.md#distribution-values-query)
 
+* **Version und Systeminformationen** - Sie können jetzt auf Details zu Ihren Instanzversionen zugreifen, sowohl für die Client-Konsole als auch für die Web-Benutzeroberfläche. In diesem neuen Abschnitt werden auch alle nativen Pakete aufgelistet, die in Ihrer Umgebung installiert sind. [Weitere Informationen](../get-started/user-interface.md#user-interface-about)
 
-## September-Updates {#9-2024}
-
-<table>
-<thead>
-<tr>
-<th><strong>Content Accelerator des KI-Assistenten</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Nachdem Sie Ihre Nachricht erstellt und angepasst haben, stellen Sie sie mit dem AI Assistant Content Accelerator im Adobe Campaign Web auf die nächste Stufe. Mit diesem leistungsstarken Tool können Sie die Wirkung Ihrer Inhalte optimieren, indem Sie eine Reihe ansprechender Texte, Haupttitel und visuell überzeugender Bilder generieren.</p>
-<p>Nehmen Sie an unserer <a href="https://experienceleague.adobe.com/de/apps/journey-optimizer/ai-assistant-content-accelerator">Live-Funktionsvorstellung</a> teil, um die Funktionen in der Praxis selbst zu erkunden und die vielfältigen Einsatzmöglichkeiten zu verstehen.</a></p>
-<p>Weitere Informationen finden Sie in der <a href="../email/generative-gs.md">entsprechenden Dokumentation</a>.</p>
-<img src="assets/do-not-localize/ai-content-webui.gif"/>
-<p>Verfügbarkeitsdatum: 12. September</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-## August-Version {#24-8-release}
-
-**Veröffentlichungsdatum**: 3. September 2024
-
-Die folgenden Funktionen und Verbesserungen sind ab der Version August verfügbar.
-
-* **SMTP-Parameter**: SMTP-Einstellungen sind jetzt in den E-Mail-Versandeinstellungen verfügbar. [Weitere Informationen](../advanced-settings/delivery-settings.md#smtp)
-
-* **Globale Variablen**: Sie können jetzt globale Variablen definieren, um Werte für Ihre Sendungen zu definieren. [Weitere Informationen](../advanced-settings/delivery-settings.md#variables-delivery)
-
-### Neue Funktionen in eingeschränkter Verfügbarkeit {#acs-24-8}
-
->[!AVAILABILITY]
->
->Die folgenden Funktionen sind nur eingeschränkt verfügbar. Sie sind Kundinnen und Kunden vorbehalten, die **von Adobe Campaign Standard zu Adobe Campaign v8** migrieren, und können nicht in anderen Umgebungen bereitgestellt werden.
->
->Weitere Informationen finden Sie auf den folgenden Seiten der Dokumentation: [Wechsel von Campaign Standard zu Campaign v8](../rn/acs-migration.md) und [Funktionen für Campaign Standard-Benutzende](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=de){target="_blank"}.
-
-* **Branding für Briefpost**: Technische Admins können nun eine oder mehrere Marken definieren, um die Parameter zu zentralisieren, die sich auf die Markenidentität auswirken, z. B. das Logo der Marke, die Domain der Zugangs-URL zu den Landingpages, Einstellungen zum Nachrichten-Tracking. Diese Marken können jetzt erstellt und mit verschiedenen Nachrichten oder Landingpages verknüpft werden. Diese Konfiguration wird in Vorlagen verwaltet. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/experience-cloud/campaign/branding/branding-assign)
-
-* **Abonnements mit Landingpages**: Es ist jetzt möglich, eine Landingpage mit einem Dienst zu verknüpfen und eine Bestätigungsnachricht zu versenden, wenn Benutzende dies validieren. [Weitere Informationen](../landing-pages/lp-content.md#lp-message){target="_blank"}.
-
-* **Visuelle Fragmente**: Visuelle Inhaltsfragmente können jetzt archiviert werden. [Weitere Informationen](../content/create-fragment.md#archive)
-
-* **Captcha in Landingpages**: Sie können jetzt Captcha zum Schutz Ihrer Landingpage vor Spam und Missbrauch durch Bots hinzufügen. Dies erfordert nur wenig Einsatz aufseiten Ihrer Kundschaft, da nur eine Interaktion mit Ihrer Website erforderlich ist. [Weitere Informationen](../landing-pages/create-lp.md#captcha)
-
-<!--
-* **Rest APIs** - As a Campaign Standard migrated user, you can now use Rest APIs to work with transactional messages. [Read more](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html){target="_blank"}.-->
+* **Listen** - Sie können die Werte einer Liste jetzt einfach neu anordnen. [Weitere Informationen](../get-started/work-with-folders.md)
