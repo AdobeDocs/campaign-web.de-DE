@@ -2,10 +2,10 @@
 audience: end-user
 title: Transaktionsnachrichtenversand
 description: Über Transaktionsnachrichten mit Adobe Campaign Web
-source-git-commit: ccb0c7805dd063b41f0277b4afc42596444db716
+source-git-commit: 9d022ad4ce9d001d6f5154d2778a538aae560d52
 workflow-type: tm+mt
-source-wordcount: '245'
-ht-degree: 4%
+source-wordcount: '278'
+ht-degree: 5%
 
 ---
 
@@ -16,11 +16,16 @@ ht-degree: 4%
 >title="Transaktionsnachrichtenversand"
 >abstract="Transaktionsnachrichten sind ein spezielles Modul in Adobe Campaign, das für die Verarbeitung ausgelöster Nachrichten entwickelt wurde."
 
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn1"
+>title="Transaktionsnachrichtenversand"
+>abstract="Transaktionsnachrichten sind ein spezielles Modul in Adobe Campaign, das für die Verarbeitung ausgelöster Nachrichten entwickelt wurde. Diese Nachrichten werden automatisch als Reaktion auf Ereignisse aus Informationssystemen generiert."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=de" text="Siehe Versionshinweise"
+
 <!-- >>[!CONTEXTUALHELP]
 >id="acw_transacmessages_exclusionlogs"
 >title="Transactional messaging exclusion logs"
 >abstract="Transactional messaging exclusion logs" -->
-
 
 Transaktionsnachrichten sind ein spezielles Modul in Adobe Campaign, das für die Verarbeitung ausgelöster Nachrichten entwickelt wurde. Diese Nachrichten werden automatisch als Reaktion auf Ereignisse aus Informationssystemen generiert. Häufige Beispiele für solche Ereignisse sind das Klicken auf Schaltflächen oder Links, das Abbrechen des Warenkorbs, das Anfordern von Warnungen zur Produktverfügbarkeit, das Erstellen oder Ändern von Konten usw.
 
