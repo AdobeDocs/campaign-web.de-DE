@@ -140,7 +140,7 @@ Das folgende Beispiel zeigt einen Workflow zum Erstellen eines Links zwischen de
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment_offer_proposition"
->title="Angebotsvorschläge"
+>title="Angebotsvorschlag"
 >abstract="Die Anreicherungsaktivität ermöglicht das Hinzufügen von Angeboten für jedes Profil."
 
 Die Aktivität **[!UICONTROL Anreicherung]** ermöglicht das Hinzufügen von Angeboten für jedes Profil.

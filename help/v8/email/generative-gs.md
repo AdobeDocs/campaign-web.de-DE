@@ -1,20 +1,20 @@
 ---
 audience: end-user
 title: Erste Schritte mit dem KI-Assistenten zur Beschleunigung von Inhalten
-description: Erste Schritte mit dem KI-Assistenten zur Beschleunigung von Inhalten
+description: Erste Schritte mit der Content-Beschleunigung des KI-Assistenten
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
 source-git-commit: 9d022ad4ce9d001d6f5154d2778a538aae560d52
 workflow-type: tm+mt
 source-wordcount: '835'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
-# Arbeiten mit dem Content Accelerator des KI-Assistenten  {#generative-gs}
+# Arbeiten mit der Content-Beschleunigung des KI-Assistenten  {#generative-gs}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn3"
->title="Content Accelerator des KI-Assistenten"
+>title="Content-Beschleunigung des KI-Assistenten"
 >abstract="Der KI-Assistent macht die Erstellung und Durchführung von Marketing-Kampagnen über Kanäle wie E-Mail, SMS und Push intuitiv, einfach und mühelos, spart gleichzeitig Zeit, erhöht die Effizienz und führt zu besseren Ergebnissen."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=de" text="Siehe Versionshinweise"
 
@@ -41,7 +41,7 @@ ht-degree: 87%
 >Nehmen Sie an unserer [Live-Funktionsvorstellung](https://experienceleague.adobe.com/de/apps/journey-optimizer/ai-assistant-content-accelerator) teil, um die Funktionen in der Praxis selbst zu erkunden und die vielfältigen Einsatzmöglichkeiten zu verstehen.
 
 
-Da die Marketing-Branche immer wettbewerbsintensiver wird, suchen Marken nach effizienten Wegen, um wirkungsvolle Inhalte schnell und effizient zu erstellen. Der AI Assistant Content Accelerator im Adobe Campaign Web, der von Microsoft Azure OpenAI und Adobe Firefly unterstützt wird, ist eine Funktion zur Erstellung von-Inhalten, die die Erstellung professioneller und markenkonsistenter Adobe-Inhalte auf verschiedenen Kanälen wie E-Mail, SMS oder Push-Benachrichtigungen revolutioniert. Mit fortschrittlichen GenAI-Modellen und einem tiefgreifenden Verständnis der Markenrichtlinien generiert der KI-Assistent automatisch personalisierte, ansprechende und effektive Inhalte auf der Grundlage des Marketing-Ziels, wobei die Inhalte für die von der Marke vorgegebenen Stile, Layouts, die Tonalität und mehr optimiert sind.
+Da die Marketing-Branche immer wettbewerbsintensiver wird, suchen Marken nach effizienten Wegen, um wirkungsvolle Inhalte schnell und effizient zu erstellen. Die Content-Beschleunigung des KI-Assistenten in Adobe Campaign Web basiert auf Microsoft Azure OpenAI und Adobe Firefly. Sie ist das Angebot von Adobe zur KI-gestützten Generierung von Inhalten und revolutioniert die Erstellung professioneller und markenkonformer Inhalte für verschiedene Kanäle wie E-Mail, SMS und Push. Mit fortschrittlichen GenAI-Modellen und einem tiefgreifenden Verständnis der Markenrichtlinien generiert der KI-Assistent automatisch personalisierte, ansprechende und effektive Inhalte auf der Grundlage des Marketing-Ziels, wobei die Inhalte für die von der Marke vorgegebenen Stile, Layouts, die Tonalität und mehr optimiert sind.
 
 Der KI-Assistent macht die Erstellung und Durchführung von Marketing-Kampagnen über Kanäle wie E-Mail, SMS und Push intuitiv, einfach und mühelos, spart gleichzeitig Zeit, erhöht die Effizienz und führt zu besseren Ergebnissen.
 
@@ -49,7 +49,7 @@ Der KI-Assistent macht die Erstellung und Durchführung von Marketing-Kampagnen 
 >
 >* Bevor Sie mit der Verwendung dieser Funktion beginnen, lesen Sie die entsprechenden Informationen zu [Schutzmechanismen und Einschränkungen](#generative-guardrails).
 >
->* Sie müssen einer [Benutzervereinbarung](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) zustimmen, bevor Sie den AI Assistant Content Accelerator im Adobe Campaign Web verwenden können. Weitere Informationen erhalten Sie beim Adobe-Support.
+>* Sie müssen einer [Benutzervereinbarung](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) zustimmen, bevor Sie die Content-Beschleunigung des KI-Assistenten in Adobe Campaign Web verwenden können. Weitere Informationen erhalten Sie vom Adobe-Support.
 
 ## Zugreifen auf den KI-Assistenten zur Beschleunigung von Inhalten {#generative-access}
 
@@ -70,7 +70,7 @@ Informationen zum Definieren von Berechtigungen in Campaign finden Sie in [diese
 
 ## Schutzmechanismen und Einschränkungen {#generative-guardrails}
 
-Die allgemeinen Richtlinien zur Verwendung des AI Assistant Content Accelerator im Adobe Campaign Web für die E-Mail-Generierung sind unten aufgeführt:
+Im Folgenden sind die allgemeinen Richtlinien zur Verwendung der Content-Beschleunigung des KI-Assistenten in Adobe Campaign Web für die E-Mail-Generierung aufgeführt:
 
 * Die Qualität des generierten Inhalts wird stark durch das von Ihnen definierte Marketing-Ziel bzw. die von Ihnen definierte Eingabeaufforderung beeinflusst. Verwenden Sie eine gut definierte Eingabeaufforderung, damit das generative KI-Modell korrekt implementiert wird. 
 * Laden Sie Marken-Assets hoch, um genaue Informationen zu Markeninhalten zu haben. Andernfalls basieren Inhalte auf öffentlich verfügbaren Informationen. Der hochgeladene Inhalt kann folgende Formate haben: PDF-, JPEG-, PNG- oder ZIP-Dateien (mit unterstützten Dateiformaten).
@@ -80,9 +80,9 @@ Die allgemeinen Richtlinien zur Verwendung des AI Assistant Content Accelerator 
 * Ihre Nutzung des KI-Assistenten unterliegt den Benutzerrichtlinien für generative KI in Adobe Experience Cloud. [Weitere Informationen](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)
 * Adobe setzt sich für Transparenz bei der Verwendung generativer KI-Tools zur Medienerstellung ein und wendet daher Inhaltsurhebernachweise an, wenn Inhalte oder Projekte mit Firefly-generierten Assets heruntergeladen oder exportiert werden. [Weitere Informationen](https://helpx.adobe.com/de/firefly/using/content-credentials.html)
 
-Die folgenden Einschränkungen gelten für den AI Assistant Content Accelerator im Adobe Campaign Web:
+Die folgenden Einschränkungen gelten für die Content-Beschleunigung des KI-Assistenten in Adobe Campaign Web:
 
-* AI Assistant Content Accelerator in Adobe Campaign Web wird derzeit nur auf Englisch unterstützt. Anderssprachige Eingaben können zu inkonsistenten oder fehlerhaften Ergebnissen führen. Probleme, die sich aus nicht englischen Antworten ergeben, werden derzeit weder behoben noch verbessert.
+* Die Content-Beschleunigung des KI-Assistenten in Adobe Campaign Web wird derzeit nur auf Englisch unterstützt. Anderssprachige Eingaben können zu inkonsistenten oder fehlerhaften Ergebnissen führen. Probleme, die sich aus nicht englischen Antworten ergeben, werden derzeit weder behoben noch verbessert.
 * Nur für den E-Mail-, Push- und SMS-Kanal verfügbar.
 * Generative KI-Inhalte sind möglicherweise nicht immer genau: Teilen Sie uns bitte ggf. Ihr Feedback mit, damit unsere Ingenieurinnen und Ingenieure die Modelle präzisieren können.
 * Sie können mehrere Marken-Assets hochladen, jedoch für eine bestimmte Generierung nur eines verwenden.

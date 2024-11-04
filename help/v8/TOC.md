@@ -113,8 +113,8 @@ ht-degree: 98%
          + [Anpassen der senkrechten Ausrichtung und des Abstands](email/alignment-and-padding.md)
          + [Definieren eines Stils für Links](email/styling-links.md)
          + [Hinzufügen von Inline-Styling-Attributen](email/inline-styling.md)
-   + AI Assistant Content Accelerator {#ai-assistant}
-      + [Arbeiten mit dem Content Accelerator des KI-Assistenten](email/generative-gs.md)
+   + Content-Beschleunigung des KI-Assistenten {#ai-assistant}
+      + [Arbeiten mit der Content-Beschleunigung des KI-Assistenten](email/generative-gs.md)
       + [E-Mail-Generierung mit KI](email/generative-content.md)
       + [SMS-Generierung mit KI](email/generative-sms.md)
       + [Generierung von Push-Benachrichtigungen mit KI](email/generative-push.md)
