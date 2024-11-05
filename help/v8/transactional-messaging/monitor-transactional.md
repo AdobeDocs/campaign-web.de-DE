@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie eine Transaktionsnachricht in der Campaign-We
 source-git-commit: 49434faa92e11841033f0c1fbdf907504765a404
 workflow-type: tm+mt
 source-wordcount: '279'
-ht-degree: 0%
+ht-degree: 13%
 
 ---
 
@@ -40,13 +40,13 @@ Sie können die Details dort anzeigen.
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_eventhistory"
->title="Ereignisverlauf für Transaktionsnachrichten"
->abstract="Sie können sich die Ereignisse ansehen, auf die Ihre Transaktionsnachricht Trigger wird."
+>title="Ereignisverlauf von Transaktionsnachrichten"
+>abstract="Sie können die Ereignisse anzeigen, die Ihre Transaktionsnachricht auslösen."
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_eventhistory_preview"
->title="Vorschau des Ereignisverlaufs in Transaktionsnachrichten"
->abstract="Sie können sich die Ereignisse ansehen, auf die Ihre Transaktionsnachricht Trigger wird."
+>title="Vorschau des Ereignisverlaufs von Transaktionsnachrichten"
+>abstract="Sie können die Ereignisse anzeigen, die Ihre Transaktionsnachricht auslösen."
 
 Sie können auch eine Ansicht der Ereignisse erhalten, die Ihre Transaktionsnachricht Trigger haben.
 Um sie anzuzeigen, gehen Sie zum Abschnitt **[!UICONTROL Ereignisverlauf]** .

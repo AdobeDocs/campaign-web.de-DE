@@ -6,7 +6,7 @@ exl-id: 02f30090-231f-4880-8cf7-77d57751e824
 source-git-commit: 80c9d2b40696d75069c2ca4a93ffca998bc407f9
 workflow-type: tm+mt
 source-wordcount: '2061'
-ht-degree: 82%
+ht-degree: 83%
 
 ---
 
@@ -136,12 +136,12 @@ Das folgende Beispiel zeigt einen Workflow zum Erstellen eines Links zwischen de
 
 ![](../assets/enrichment-reconciliation.png)
 
-## Angebote hinzufügen {#add-offers}
+## Hinzufügen von Angeboten  {#add-offers}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment_offer_proposition"
 >title="Angebotsvorschlag"
->abstract="Die Anreicherungsaktivität ermöglicht das Hinzufügen von Angeboten für jedes Profil."
+>abstract="Die Aktivität „Anreicherung“ ermöglicht das Hinzufügen von Angeboten für jedes Profil."
 
 Die Aktivität **[!UICONTROL Anreicherung]** ermöglicht das Hinzufügen von Angeboten für jedes Profil.
 

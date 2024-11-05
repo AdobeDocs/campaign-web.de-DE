@@ -6,7 +6,7 @@ exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 source-git-commit: 9657343409e2c577aac90320d403006af0250e7a
 workflow-type: tm+mt
 source-wordcount: '2011'
-ht-degree: 82%
+ht-degree: 86%
 
 ---
 
@@ -39,28 +39,28 @@ Die Liste **Zuletzt ausgewertet** enthält Verknüpfungen zu den kürzlich erste
 
 Greifen Sie zusätzlich über den Abschnitt **Lernen** der Seite auf die wichtigsten Hilfeseiten zu Adobe Campaign Web zu.
 
-### Über Link {#user-interface-about}
+### Link „Info“ {#user-interface-about}
 
 
 >[!CONTEXTUALHELP]
 >id="acw_about"
->title="Über die Seite"
->abstract="Auf der Seite &quot;Info&quot;finden Sie Details zu Ihrer Adobe Campaign-Instanz."
+>title="Seite „Info“"
+>abstract="Auf der Seite „Info“ finden Sie Details zu Ihrer Adobe Campaign-Instanz."
 
 >[!CONTEXTUALHELP]
 >id="acw_about_instance"
->title="Über Instanz"
->abstract="Der Abschnitt &quot;Instanz&quot;enthält wichtige Informationen zu Ihrem Konsolen-Client, einschließlich der Version und der zugehörigen Build-Nummer"
+>title="Informationen zu Instanzen"
+>abstract="Der Abschnitt „Instanz“ enthält wichtige Informationen zu Ihrem Konsolen-Client, einschließlich der Version und der zugehörigen Build-Nummer."
 
 >[!CONTEXTUALHELP]
 >id="acw_about_web"
->title="Über Web"
->abstract="Im Bereich Web wird die Version der Campaign-Webbenutzeroberfläche mit dem Datum der letzten Aktualisierung angezeigt, sofern verfügbar."
+>title="Informationen zum Web"
+>abstract="Im Abschnitt „Web“ wird die Version der Campaign Web-Benutzeroberfläche mit dem Datum der letzten Aktualisierung angezeigt, sofern verfügbar."
 
 >[!CONTEXTUALHELP]
 >id="acw_about_packages"
->title="Über installierte Pakete"
->abstract="Im Abschnitt Installierte Pakete werden alle Module, Funktionen und Integrationen aufgelistet, die in Ihrer Instanz vorhanden sind."
+>title="Informationen zu installierten Paketen"
+>abstract="Im Abschnitt „Installierte Pakete“ werden alle Module, Funktionen und Integrationen aufgelistet, die in Ihrer Instanz vorhanden sind."
 
 Unten auf der Seite enthält der Link **[!UICONTROL Info]** Details zu Ihrer Adobe Campaign-Instanz. diese Informationen sind schreibgeschützt.
 

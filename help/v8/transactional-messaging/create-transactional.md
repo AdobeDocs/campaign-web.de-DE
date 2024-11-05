@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie in der Campaign-Webbenutzeroberfläche eine T
 source-git-commit: e55b9c875b7700c7ee9d38b8386cc2742ad1f908
 workflow-type: tm+mt
 source-wordcount: '1189'
-ht-degree: 0%
+ht-degree: 19%
 
 ---
 
@@ -41,22 +41,22 @@ Gehen Sie wie folgt vor, um eine Transaktionsnachrichtenvorlage zu erstellen:
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_properties"
 >title="Eigenschaften von Transaktionsnachrichten"
->abstract="Füllen Sie dieses Formular aus, um die Eigenschaften der Transaktionsnachrichten zu konfigurieren"
+>abstract="Füllen Sie dieses Formular aus, um die Eigenschaften von Transaktionsnachrichten zu konfigurieren"
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_email_properties"
->title="E-Mail-Eigenschaften für Transaktionsnachrichten"
->abstract="Füllen Sie dieses Formular aus, um die Eigenschaften der E-Mail-Transaktionsnachrichten zu konfigurieren"
+>title="Eigenschaften von Transaktionsnachrichten per E-Mail"
+>abstract="Füllen Sie dieses Formular aus, um die Eigenschaften von per E-Mail versendeten Transaktionsnachrichten zu konfigurieren"
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_sms_properties"
->title="SMS-Eigenschaften für Transaktionsnachrichten"
->abstract="Füllen Sie dieses Formular aus, um die Eigenschaften der SMS-Transaktionsnachrichten zu konfigurieren"
+>title="Eigenschaften von Transaktionsnachrichten per SMS"
+>abstract="Füllen Sie dieses Formular aus, um die Eigenschaften von per SMS versendeten Transaktionsnachrichten zu konfigurieren"
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_push_properties"
->title="Push-Eigenschaften für Transaktionsnachrichten"
->abstract="Füllen Sie dieses Formular aus, um die Push-Eigenschaften für Transaktionsnachrichten zu konfigurieren"
+>title="Eigenschaften von Transaktionsnachrichten per Push"
+>abstract="Füllen Sie dieses Formular aus, um die Eigenschaften von per Push versendeten Transaktionsnachrichten zu konfigurieren"
 
 Der Abschnitt **[!UICONTROL Eigenschaften]** einer Transaktionsnachricht hilft Ihnen bei der Einrichtung:
 
@@ -74,10 +74,10 @@ Der Abschnitt **[!UICONTROL Eigenschaften]** einer Transaktionsnachricht hilft I
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_mobileapp"
->title="Transaktionsnachrichten - Mobile App"
->abstract="In diesem Abschnitt können Sie die Anwendung auswählen, in die Sie Ihre Nachricht senden möchten."
+>title="Transaktionsnachrichten per Mobile App"
+>abstract="In diesem Abschnitt können Sie die App auswählen, in der Sie Ihre Push-Benachrichtigung senden möchten."
 
-In diesem Abschnitt können Sie die Anwendung auswählen, in die Sie Ihre Nachricht senden möchten.
+In diesem Abschnitt können Sie die App auswählen, in der Sie Ihre Push-Benachrichtigung senden möchten.
 
 Durch Klicken auf das Forschungssymbol gelangen Sie zu einer in Ihrer Adobe Campaign-Instanz aufgelisteten Mobile App.
 
@@ -87,12 +87,12 @@ Durch Klicken auf das Forschungssymbol gelangen Sie zu einer in Ihrer Adobe Camp
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_context"
->title="Transaktionsnachrichten-Kontext"
+>title="Kontext von Transaktionsnachrichten"
 >abstract="Im Kontextbeispiel können Sie ein Testereignis erstellen, um eine Vorschau der mit der Profilpersonalisierung empfangenen Transaktionsnachricht anzuzeigen."
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_addcontext"
->title="Transaktionsnachrichten-Kontext"
+>title="Kontext von Transaktionsnachrichten"
 >abstract="Im Kontextbeispiel können Sie ein Testereignis erstellen, um eine Vorschau der mit der Profilpersonalisierung empfangenen Transaktionsnachricht anzuzeigen. "
 
 Im Kontextbeispiel können Sie ein Testereignis erstellen, um eine Vorschau der mit der Profilpersonalisierung empfangenen Transaktionsnachricht anzuzeigen.
@@ -105,17 +105,17 @@ Der Inhalt des Kontexts hängt von der benötigten Personalisierung ab.
 
 ![](assets/transactional-context.png){zoomable="yes"}
 
-### Inhalt der Transaktionsnachrichtenvorlage {#transactional-content}
+### Inhalt von Transaktionsnachrichtenvorlagen {#transactional-content}
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_content"
 >title="Inhalt von Transaktionsnachrichten"
->abstract="Erfahren Sie, wie Sie Transaktionsnachrichten erstellen"
+>abstract="Erfahren Sie, wie Sie den Inhalt von Transaktionsnachrichten erstellen"
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_personalization"
 >title="Personalisierung von Transaktionsnachrichten"
->abstract="Erfahren Sie, wie Sie den Inhalt von Transaktionsnachrichten personalisieren können."
+>abstract="Erfahren Sie, wie Sie den Inhalt von Transaktionsnachrichten personalisieren"
 
 Die Bearbeitung des Inhalts einer Transaktionsnachricht gleicht der Inhaltserstellung eines Versands. Klicken Sie auf **[!UICONTROL E-Mail-Designer öffnen]** oder **[!UICONTROL E-Mail-Textkörper bearbeiten]** und wählen Sie einen Vorlageninhalt aus oder importieren Sie Ihren HTML-Code.
 
@@ -173,7 +173,7 @@ und [konfigurieren Sie den Ereignistyp ](#event-type) wie unten beschrieben.
 * Klicken Sie nach [Validierung Ihrer Transaktionsnachricht](validate-transactional.md) auf die Schaltfläche **[!UICONTROL Überprüfen und veröffentlichen]** , um Ihre Nachricht zu erstellen und zu veröffentlichen.
 Die Trigger können jetzt den Versand Ihrer Transaktionsnachricht per Push durchführen.
 
-### Über den Ereignistyp {#event-type}
+### Informationen zum Ereignistyp {#event-type}
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_event"

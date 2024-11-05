@@ -5,11 +5,11 @@ description: Über Transaktionsnachrichten mit Adobe Campaign Web
 source-git-commit: 9d022ad4ce9d001d6f5154d2778a538aae560d52
 workflow-type: tm+mt
 source-wordcount: '278'
-ht-degree: 5%
+ht-degree: 11%
 
 ---
 
-# Über Transaktionsnachrichten {#transactional-messaging}
+# Informationen zu Transaktionsnachrichten {#transactional-messaging}
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages"
