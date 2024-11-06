@@ -1,11 +1,11 @@
 ---
 audience: end-user
-title: Transaktionsnachrichtenversand
-description: Über Transaktionsnachrichten mit Adobe Campaign Web
+title: Transaktionsnachrichten
+description: Informationen zu Transaktionsnachrichten mit Adobe Campaign Web
 source-git-commit: 9d022ad4ce9d001d6f5154d2778a538aae560d52
 workflow-type: tm+mt
 source-wordcount: '278'
-ht-degree: 11%
+ht-degree: 95%
 
 ---
 
@@ -13,12 +13,12 @@ ht-degree: 11%
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages"
->title="Transaktionsnachrichtenversand"
+>title="Transaktionsnachrichten"
 >abstract="Transaktionsnachrichten sind ein spezielles Modul in Adobe Campaign, das für die Verarbeitung ausgelöster Nachrichten entwickelt wurde."
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn1"
->title="Transaktionsnachrichtenversand"
+>title="Transaktionsnachrichten"
 >abstract="Transaktionsnachrichten sind ein spezielles Modul in Adobe Campaign, das für die Verarbeitung ausgelöster Nachrichten entwickelt wurde. Diese Nachrichten werden automatisch als Reaktion auf Ereignisse aus Informationssystemen generiert."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=de" text="Siehe Versionshinweise"
 
@@ -27,28 +27,28 @@ ht-degree: 11%
 >title="Transactional messaging exclusion logs"
 >abstract="Transactional messaging exclusion logs" -->
 
-Transaktionsnachrichten sind ein spezielles Modul in Adobe Campaign, das für die Verarbeitung ausgelöster Nachrichten entwickelt wurde. Diese Nachrichten werden automatisch als Reaktion auf Ereignisse aus Informationssystemen generiert. Häufige Beispiele für solche Ereignisse sind das Klicken auf Schaltflächen oder Links, das Abbrechen des Warenkorbs, das Anfordern von Warnungen zur Produktverfügbarkeit, das Erstellen oder Ändern von Konten usw.
+Transaktionsnachrichten sind ein spezielles Modul in Adobe Campaign, das für die Verarbeitung ausgelöster Nachrichten entwickelt wurde. Diese Nachrichten werden automatisch als Reaktion auf Ereignisse generiert, die aus Informationssystemen stammen. Gängige Beispiele für solche Ereignisse sind Klicks auf Schaltflächen oder Links, Warenkorbabbrüche, die Anfrage von Benachrichtigungen zur Produktverfügbarkeit, die Erstellung oder Änderung von Konten usw.
 
 Transaktionsnachrichten dienen zum Senden von:
 
-* Wichtige Benachrichtigungen, wie z. B. Bestellbestätigungen oder Kennwortrücksätze,
-* Echtzeit-Antworten auf Kundenaktionen (z. B. Kontoerstellung, Abschluss von Käufen),
-* Inhalte ohne Werbeaktion, die für Kundeninteraktionen von entscheidender Bedeutung sind.
+* wichtigen Benachrichtigungen, z. B. Bestellbestätigungen oder Rücksetzungen von Passwörtern,
+* Echtzeitreaktionen auf Kundenaktionen (z. B. Kontoerstellung, Kaufabschluss),
+* Inhalten, bei denen es sich nicht um Werbung handelt und die für Kundeninteraktionen wichtig sind.
 
-Das Transaktionsnachrichtenmodul lässt sich nahtlos in Ihre Informationssysteme integrieren. Die Ereignisse, z. B. Kundenaktionen, werden an Adobe Campaign gesendet, das die entsprechende personalisierte Nachricht sendet. Diese Nachrichten können einzeln oder stapelweise über verschiedene Kanäle wie E-Mail-, SMS- oder Push-Benachrichtigungen gesendet werden.
+Das Modul für Transaktionsnachrichten lässt sich nahtlos mit Ihren Informationssystemen integrieren. Die Ereignisse, z. B. Kundenaktionen, werden per Push an Adobe Campaign übermittelt, worüber die entsprechende personalisierte Nachricht gesendet wird. Diese Nachrichten können einzeln oder in Batches über verschiedene Kanäle per E-Mail, SMS oder Push-Benachrichtigung gesendet werden.
 
-Sie finden das Modul **[!UICONTROL Transaktionsnachricht]** im Abschnitt **[!UICONTROL Ausgelöste Nachrichten]** .
+Sie finden das Modul für **[!UICONTROL Transaktionsnachrichten]** im Abschnitt **[!UICONTROL Ausgelöste Nachrichten]**.
 
 ![](assets/transactional.png){zoomable="yes"}
 
-Auf der Seite **[!UICONTROL Transaktionsnachricht]** befinden sich drei Registerkarten:
+Auf der Seite **[!UICONTROL Transaktionsnachricht]** gibt es drei Registerkarten:
 
-* **[!UICONTROL Durchsuchen]** , wo Sie die Liste der Transaktionsnachrichten mit ihrem Status haben,
-* **[!UICONTROL Vorlagen]**, in denen Sie Transaktionsnachrichten-Vorlagen finden und erstellen,
-* **[!UICONTROL Verlauf]**: Dort finden Sie Details zu allen ausgeführten Transaktionsnachrichten.
+* **[!UICONTROL Durchsuchen]**: Hier finden Sie eine Liste der Transaktionsnachrichten mit ihrem jeweiligen Status.
+* **[!UICONTROL Vorlagen]**: Hier können Sie nach Transaktionsnachrichtenvorlagen suchen und neue erstellen.
+* **[!UICONTROL Verlauf]**: Hier finden Sie Details zu allen ausgeführten Transaktionsnachrichten.
 
-In dieser Dokumentation erfahren Sie, wie Sie:
+In dieser Dokumentation erhalten Sie weitere Informationen zu folgenden Themen:
 
-* [Erstellen Sie mithilfe einer Vorlage Transaktionsnachrichten](create-transactional.md) und lernen Sie die erforderlichen Einstellungen kennen.
-* [Validieren des Inhalts Ihrer Transaktionsnachrichten](validate-transactional.md) und Simulieren einer Personalisierung,
-* [Überwachen Sie Ihre Transaktionsnachrichten](monitor-transactional.md).
+* [Erstellen von Transaktionsnachrichten](create-transactional.md) mithilfe einer Vorlage und Kennenlernen der dafür erforderlichen Einstellungen,
+* [Validieren der Inhalte von Transaktionsnachrichten](validate-transactional.md) und Simulieren einer Personalisierung,
+* [Überwachen von Transaktionsnachrichten](monitor-transactional.md).
