@@ -4,9 +4,9 @@ title: Erkunden der Benutzeroberfläche
 description: Adobe Campaign Web-Benutzeroberfläche
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 source-git-commit: 9657343409e2c577aac90320d403006af0250e7a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2011'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -62,20 +62,20 @@ Greifen Sie zusätzlich über den Abschnitt **Lernen** der Seite auf die wichtig
 >title="Informationen zu installierten Paketen"
 >abstract="Im Abschnitt „Installierte Pakete“ werden alle Module, Funktionen und Integrationen aufgelistet, die in Ihrer Instanz vorhanden sind."
 
-Unten auf der Seite enthält der Link **[!UICONTROL Info]** Details zu Ihrer Adobe Campaign-Instanz. diese Informationen sind schreibgeschützt.
+Unten auf der Seite liefert der Link **[!UICONTROL Info]** Details zu Ihrer Adobe Campaign-Instanz. Diese Informationen sind schreibgeschützt.
 
 ![](assets/about-link.png){zoomable="yes"}
 
-Der Abschnitt **Instanz** enthält wichtige Informationen zu Ihrem Konsolenclient, einschließlich der **Version** und der zugehörigen **Build**-Nummer.
+Der Abschnitt **Instanz** enthält wichtige Informationen zu Ihrem Konsolen-Client, einschließlich der **Version** und der zugehörigen **Build**-Nummer.
 
 * Die **Version** bezieht sich auf die offizielle Version, die Sie verwenden.
 * Der **Build** bezieht sich auf eine bestimmte Iteration dieser Version.
 
-Sowohl die Version als auch die Build-Nummern sind für die Fehlerbehebung von entscheidender Bedeutung, da sie dabei helfen, genau zu bestimmen, welche Funktionen und Fehlerbehebungen in Ihrer Umgebung vorhanden sind.
+Sowohl die Versions- als auch die Build-Nummer sind für die Fehlerbehebung von entscheidender Bedeutung. Denn anhand dieser Informationen lässt sich genau bestimmen, welche Funktionen und Fehlerbehebungen in Ihrer Umgebung vorhanden sind.
 
-Im Abschnitt **Web** wird die Version der Campaign-Webbenutzeroberfläche mit dem Datum der letzten Aktualisierung angezeigt, sofern verfügbar. Auf diese Weise können Änderungen oder Verbesserungen an der Campaign-Webbenutzeroberfläche verfolgt werden.
+Im Abschnitt **Web** wird die Version der Campaign Web-Benutzeroberfläche mit dem Datum der letzten Aktualisierung angezeigt, sofern verfügbar. So können Änderungen oder Verbesserungen an der Campaign Web-Benutzeroberfläche verfolgt werden.
 
-Im Abschnitt **Installierte Pakete** werden alle Module, Funktionen und Integrationen aufgelistet, die in Ihrer Instanz vorhanden sind. Diese Packages erweitern die Funktionalität von Adobe Campaign und ermöglichen spezialisierte Aufgaben wie die Integration in andere Adobe-Lösungen oder die Aktivierung spezifischer Workflows. Angesichts der großen Anzahl von Paketen können Sie in diesem Abschnitt eine Recherche durchführen, um schnell zu überprüfen, ob ein bestimmtes Modul auf Ihrer Instanz installiert ist.
+Im Abschnitt **Installierte Pakete** werden alle Module, Funktionen und Integrationen aufgelistet, die in Ihrer Instanz vorhanden sind. Diese Pakete erweitern die Funktionalität von Adobe Campaign und ermöglichen es, spezielle Aufgaben durchzuführen, wie die Integration mit anderen Adobe-Lösungen oder die Aktivierung bestimmter Workflows. Angesichts der großen Anzahl von Paketen können Sie in diesem Abschnitt schnell überprüfen, ob ein bestimmtes Modul in Ihrer Instanz installiert ist.
 
 ![](assets/about.png){zoomable="yes"}
 
@@ -155,13 +155,13 @@ Erfahren Sie, wie Sie in E-Mails und SMS Angebote erstellen und senden, in [dies
 ### Administration {#left-nav-admin}
 
 
-* **Audit-Protokoll** - Der Eintrag **Audit-Protokoll** bietet Benutzern vollständige Einsicht in alle Änderungen, die an wichtigen Entitäten in Ihrer Instanz vorgenommen wurden, normalerweise diejenigen, die einen reibungslosen Betrieb der Instanz erheblich beeinträchtigen. [Weitere Informationen](../reporting/audit-trail.md)
+* **Audit-Protokoll**: Der Eintrag **Audit-Protokoll** bietet Benutzerinnen und Benutzern vollständige Einsicht in alle Änderungen, die an wichtigen Entitäten in Ihrer Instanz vorgenommen wurden. Dies sind typischerweise Änderungen, die den reibungslosen Betrieb der Instanz wesentlich beeinflussen. [Weitere Informationen](../reporting/audit-trail.md)
 
-* **Externe Konten** - Erstellen Sie mithilfe der Web-Benutzeroberfläche neue externe Konten, um Ihre spezifischen Anforderungen zu erfüllen und eine nahtlose Datenübertragung zu gewährleisten. [Weitere Informationen](../administration/external-account.md)
+* **Externe Konten**: Erstellen Sie mithilfe der Web-Benutzeroberfläche neue externe Konten, um Ihre spezifischen Anforderungen zu erfüllen und eine nahtlose Datenübertragung zu gewährleisten. [Weitere Informationen](../administration/external-account.md)
 
-* **Schemas** - Benutzerdefinierte Felder sind zusätzliche Attribute, die den nativen Schemas über die Adobe Campaign-Konsole hinzugefügt werden. [Weitere Informationen](../administration/custom-fields.md)
+* **Schemata**: Benutzerdefinierte Felder sind zusätzliche Attribute, die über die Adobe Campaign-Konsole zu nativen Schemata hinzugefügt werden. [Weitere Informationen](../administration/custom-fields.md)
 
-* **Versandwarnung** - Die Versandwarnung ist ein Warnhinweissystem, mit dem Benutzergruppen automatisch E-Mail-Benachrichtigungen mit Informationen zu ihren Versandausführungen erhalten können. [Weitere Informationen](../msg/delivery-alerting.md)
+* **Versandwarnung**: Bei Versandwarnungen handelt es sich um ein System zum Warnungs-Management, über das Benutzergruppen automatisch E-Mail-Benachrichtigungen mit Informationen zu ihren Versandausführungen erhalten.  [Weitere Informationen](../msg/delivery-alerting.md)
 
 <!--
 ## Contextual Help {#user-interface-help} 

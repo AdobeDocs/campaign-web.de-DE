@@ -6,9 +6,9 @@ title: Dokumentation zu Adobe Campaign Web
 description: Dokumentation zu Campaign Web
 breadcrumb-title: Campaign Web-Benutzeroberfläche
 source-git-commit: c171d04300c049de3d6c0cb3c98b2414ff28681b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '769'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -67,9 +67,9 @@ ht-degree: 98%
       + [Vorschau und Durchführen eines Briefpostversands](direct-mail/send-direct-mail.md)
    + Transaktionsnachrichten {#transactional-messages}
       + [Erste Schritte mit Transaktionsnachrichten](transactional-messaging/transactional.md)
-      + [Transaktionsnachricht erstellen](transactional-messaging/create-transactional.md)
-      + [Transaktionsnachricht validieren](transactional-messaging/validate-transactional.md)
-      + [Transaktionsnachrichten überwachen](transactional-messaging/monitor-transactional.md)
+      + [Erstellen einer Transaktionsnachricht](transactional-messaging/create-transactional.md)
+      + [Validieren der Transaktionsnachricht](transactional-messaging/validate-transactional.md)
+      + [Überwachen von Transaktionsnachrichten](transactional-messaging/monitor-transactional.md)
    + [Hinzufügen von Angeboten zu Ihren Nachrichten](msg/offers.md)
    + [Versenden von Nachrichten an Ihre Abonnentinnen und Abonnenten](msg/send-to-subscribers.md)
    + [Konfigurieren der Versandeinstellungen](advanced-settings/delivery-settings.md)
@@ -114,7 +114,7 @@ ht-degree: 98%
          + [Definieren eines Stils für Links](email/styling-links.md)
          + [Hinzufügen von Inline-Styling-Attributen](email/inline-styling.md)
    + Content-Beschleunigung des KI-Assistenten {#ai-assistant}
-      + [Arbeiten mit der Content-Beschleunigung des KI-Assistenten](email/generative-gs.md)
+      + [Arbeiten mit dem Content Accelerator des KI-Assistenten](email/generative-gs.md)
       + [E-Mail-Generierung mit KI](email/generative-content.md)
       + [SMS-Generierung mit KI](email/generative-sms.md)
       + [Generierung von Push-Benachrichtigungen mit KI](email/generative-push.md)

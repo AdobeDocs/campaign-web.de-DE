@@ -1,46 +1,46 @@
 ---
 audience: end-user
-title: Transaktionsnachrichten validieren
-description: Erfahren Sie, wie Sie eine Transaktionsnachricht in der Campaign-Webbenutzeroberfläche validieren
+title: Validieren von Transaktionsnachrichten
+description: Informationen zum Validieren einer Transaktionsnachricht in der Campaign Web-Benutzeroberfläche
 source-git-commit: e0d87d22d9712837f085f94f9d9ba63e96f36b36
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '267'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
-# Transaktionsnachrichten validieren
+# Validieren von Transaktionsnachrichten
 
-Während oder nach der Erstellung Ihrer Transaktionsnachricht können Sie den Inhalt mithilfe eines Datenbeispiels validieren.
+Während oder nach der Erstellung der Transaktionsnachricht können Sie den Inhalt mithilfe eines Datenbeispiels validieren.
 
-## Inhalte simulieren {#simulate-content}
+## Simulieren von Inhalten {#simulate-content}
 
 Führen Sie die folgenden Schritte aus, um den Inhalt Ihrer Nachricht zu simulieren:
 
-* Stellen Sie sicher, dass der Personalisierungspfad in Ihrem Nachrichteninhalt mit Ihrem Kontextbeispiel übereinstimmt. Im folgenden Beispiel verwenden wir zum Anzeigen des Vornamens des Testprofils den Pfad *rtEvent.ctx.basicDetails.firstName*
+* Stellen Sie sicher, dass der Personalisierungspfad in Ihrem Nachrichteninhalt mit Ihrem Kontextbeispiel übereinstimmt. Im folgenden Beispiel verwenden wir zum Anzeigen des Vornamens des Testprofils den Pfad *rtEvent.ctx.basicDetails.firstName*.
 
-  Sie können den Nachrichteninhalt oder das Kontextbeispiel ändern, um sie auszurichten.
+  Sie können den Nachrichteninhalt oder das Kontextbeispiel ändern, um sie anzugleichen.
 
   ![](assets/validate-verification.png){zoomable="yes"}
 
-* Klicken Sie auf die Schaltfläche **[!UICONTROL Inhalt simulieren]** , um Ihre Transaktionsnachricht mit den im Kontextbeispiel eingegebenen Daten in der Vorschau anzuzeigen.
+* Klicken Sie auf die Schaltfläche **[!UICONTROL Inhalte simulieren]**, um Ihre Transaktionsnachricht mit den im Kontextbeispiel eingegebenen Daten in der Vorschau anzuzeigen.
 
   ![](assets/validate-simulate.png){zoomable="yes"}
 
-  Klicken Sie nach Überprüfung des Inhalts auf die Schaltfläche **[!UICONTROL Schließen]** .
+  Klicken Sie nach Überprüfung des Inhalts auf die Schaltfläche **[!UICONTROL Schließen]**.
 
-* Vergessen Sie nicht, auf die Schaltfläche **[!UICONTROL Neu veröffentlichen]** zu klicken, wenn Sie Änderungen an Ihrem Inhalt vorgenommen haben.
+* Vergessen Sie nicht, auf die Schaltfläche **[!UICONTROL Erneut veröffentlichen]** zu klicken, wenn Sie Änderungen an Ihrem Inhalt vorgenommen haben.
 
-## Testversand senden
+## Senden eines Testversands
 
-Wenn Sie die Transaktionsnachricht so testen und erleben möchten, wie sie über Ihren ausgewählten Kanal gesendet wird (z. B. E-Mail, SMS oder Push-Benachrichtigung), können Sie die Testversandfunktion verwenden.
+Wenn Sie die Transaktionsnachricht so testen und erleben möchten, wie sie über Ihren ausgewählten Kanal gesendet wird (z. B. E-Mail, SMS oder Push-Benachrichtigung), können Sie die Funktion „Testversand“ verwenden.
 
-Klicken Sie im Fenster [Simulationsinhalt](#simulate-content) auf die Schaltfläche **[!UICONTROL Testversand durchführen]** .
+Klicken Sie im [Fenster mit dem Simulationsinhalt](#simulate-content) auf die Schaltfläche **[!UICONTROL Testversand durchführen]**.
 
 ![](assets/transactional-proof.png){zoomable="yes"}
 
-Geben Sie im sich öffnenden Fenster die E-Mail-Adresse (oder Telefonnummer, je nach Kanal) an, an die Sie den Testversand erhalten möchten. Nachdem Sie die gewünschte Adresse eingegeben haben, klicken Sie auf **[!UICONTROL Testversand durchführen]** und auf die Schaltflächen **[!UICONTROL Bestätigen]** . Mit dieser Aktion können Sie eine Stichprobe Ihrer Transaktionsnachricht senden, um sicherzustellen, dass alle Personalisierungen, dynamischen Inhalte und Formatierungen korrekt wie für Ihre Endbenutzer angezeigt werden.
+Geben Sie im sich öffnenden Fenster die E-Mail-Adresse (oder Telefonnummer, je nach Kanal) an, an die Sie den Testversand erhalten möchten. Nachdem Sie die gewünschte Adresse eingegeben haben, klicken Sie auf die Schaltflächen **[!UICONTROL Testversand durchführen]** und **[!UICONTROL Bestätigen]**. Mit dieser Aktion können Sie ein Beispiel Ihrer Transaktionsnachricht senden, um sicherzustellen, dass alle Personalisierungen, dynamischen Inhalte und Formatierungen für Ihre Endbenutzenden korrekt angezeigt werden.
 
 ![](assets/transactional-sendproof.png){zoomable="yes"}
 
-Dies ist ein wichtiger Schritt, um potenzielle Probleme vor der Veröffentlichung Ihrer Transaktionsnachricht zu identifizieren.
+Dies ist ein wichtiger Schritt, um potenzielle Probleme vor der Veröffentlichung der Transaktionsnachricht zu identifizieren.

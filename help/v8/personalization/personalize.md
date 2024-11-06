@@ -7,24 +7,24 @@ role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
 source-git-commit: f57e0f2de12780ff9f90c2c5f1933b0e9bffe493
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '580'
-ht-degree: 68%
+ht-degree: 100%
 
 ---
 
 
 # Personalisieren von Inhalten {#add-personalization}
 
-Personalization von Versandinhalten ist eine wichtige Funktion, mit der Sie Nachrichten an einzelne Empfänger anpassen und so die Kommunikation relevanter und ansprechender gestalten können.
+Die Personalisierung von Versandinhalten ist eine Schlüsselfunktion, mit der Sie Nachrichten an einzelne Empfängerinnen und Empfänger anpassen und so die Kommunikation relevanter und ansprechender gestalten können.
 
-In Adobe Campaign können Sie mithilfe von [Profildaten](#data-personalization), z. B. den Namen, den Speicherort oder frühere Interaktionen des Profils, und bestimmten [Variablen Ihres Versands](#variables-personalization), Elemente wie Text, Bilder und Angebote dynamisch anpassen.
+In Adobe Campaign können Sie mithilfe von [Profildaten](#data-personalization), z. B. Name, Speicherort oder frühere Interaktionen des Profils, und bestimmten [Variablen Ihres Versands](#variables-personalization) Elemente wie Text, Bilder und Angebote in Ihren Mitteilungen dynamisch anpassen.
 
-Die Personalisierung des Versands verbessert nicht nur das Benutzererlebnis, sondern verbessert auch die Interaktionsraten, was zu einer höheren Konversion und Kundenzufriedenheit führt.
+Die Personalisierung des Versands verbessert nicht nur das Anwendererlebnis, sondern auch die Interaktionsraten, was zu höherer Konversion und Kundenzufriedenheit führt.
 
 ## Verwenden von Profildaten zur Personalisierung {#data-personalization}
 
-Sie können jeden Versand mit Profildaten personalisieren, indem Sie den Ausdruckseditor verwenden, auf den in Feldern mit dem Symbol **[!UICONTROL Personalisierungsdialogfeld öffnen]** zugegriffen werden kann, z. B. die Betreffzeile, E-Mail-Links und die Komponenten für Text-/Schaltflächeninhalt. [Erfahren Sie, wie Sie auf den Ausdruckseditor zugreifen](gs-personalization.md/#access)
+Sie können jeden Versand mit Profildaten personalisieren, indem Sie den Ausdruckseditor verwenden,Auf den Ausdruckseditor können Sie in allen Feldern mit dem Symbol **[!UICONTROL Personalisierungsdialog öffnen]** zugreifen, z. B. Betreffzeile, E-Mail-Links und Text-/Schaltflächen-Inhaltskomponenten. [Erfahren Sie, wie Sie auf den Ausdruckseditor zugreifen](gs-personalization.md/#access)
 
 ### Personalisierungssyntax {#syntax}
 
@@ -65,19 +65,19 @@ Gehen Sie wie folgt vor, um einem Versand Personalisierungs-Tags hinzuzufügen:
 
    ![](assets/perso-preview2.png){zoomable="yes"}{width="800" align="center"}
 
-## Variablen für die Personalisierung verwenden {#variables-personalization}
+## Verwenden von Variablen für die Personalisierung {#variables-personalization}
 
 Sie können auch Variablen verwenden, um Ihren Versand zu personalisieren.
-Erfahren Sie mehr über [Hinzufügen von Variablen zu einem Versand](../advanced-settings/delivery-settings.md#variables-delivery).
+Erfahren Sie mehr über das [Hinzufügen von Variablen zu einem Versand](../advanced-settings/delivery-settings.md#variables-delivery).
 
-Beispielsweise ist die Variable `deliveryType` wie unten definiert.
+Beispielsweise ist die Variable `deliveryType` wie folgt definiert.
 
 ![](assets/variables-deliveryType.png){zoomable="yes"}
 
-Diese Variable kann im Versandinhalt verwendet werden, indem für unser Beispiel das Symbol **[!UICONTROL Personalization hinzufügen]** und der Ausdruck `<%= variables.deliveryType %>` verwendet werden.
+Diese Variable kann im Versandinhalt verwendet werden, indem für unser Beispiel das Symbol **[!UICONTROL Personalisierung hinzufügen]** und der Ausdruck `<%= variables.deliveryType %>` verwendet werden.
 
 ![](assets/variables-perso.png){zoomable="yes"}
 
-Sie können die Verwendung Ihrer Variablen mit der Schaltfläche **[!UICONTROL Inhalt simulieren]** überprüfen.
+Sie können die Verwendung Ihrer Variablen mit der Schaltfläche **[!UICONTROL Inhalte simulieren]** überprüfen.
 
 ![](assets/variables-simulate.png){zoomable="yes"}

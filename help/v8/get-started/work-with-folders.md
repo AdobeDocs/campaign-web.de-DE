@@ -4,9 +4,9 @@ title: Arbeiten mit Ordnern
 description: Erfahren Sie, wie Sie in Adobe Campaign einen Ordner verwalten.
 exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
 source-git-commit: ed9a3a3ca3bbb5d2bd44c512643857d62b97393c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '574'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -52,7 +52,7 @@ Im Menü **[!UICONTROL …]** finden Sie die Option **[!UICONTROL Neuen Ordner 
 
 ![](assets/folder_create.png){zoomable="yes"}
 
-Wenn Sie einen neuen Ordner erstellen, ist der Ordnertyp standardmäßig der Typ des übergeordneten Ordners. In unserem Beispiel erstellen wir einen Ordner im Ordner **[!UICONTROL Sendungen]**.
+Wenn Sie einen neuen Ordner erstellen, ist der Ordner standardmäßig vom selben Typ wie der übergeordnete Ordner.  In unserem Beispiel erstellen wir einen Ordner im Ordner **[!UICONTROL Sendungen]**.
 
 ![](assets/folder_new.png){zoomable="yes"}
 
@@ -67,15 +67,15 @@ Wenn Sie einen Ordner ohne bestimmten Typ erstellen möchten, wählen Sie den Ty
 Sie können auch [Ordner in der Adobe Campaign-Konsole erstellen und verwalten](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/config/configuration/folders-and-views).
 
 
-## Ordner neu anordnen {#reorder-folders}
+## Neuanordnen von Ordner {#reorder-folders}
 
-Sie können die Ordner nach Bedarf neu anordnen. Klicken Sie dazu auf den Befehl **[!UICONTROL Ordner neu anordnen]** , wie unten dargestellt.
+Sie können die Ordner Ihren Bedürfnissen entsprechend neu anordnen. Klicken Sie dazu auf **[!UICONTROL Ordner neu anordnen]**, wie unten dargestellt.
 
-In unserem Beispiel enthält der Ordner **Sendungen** 4 Ordner.
+In unserem Beispiel enthält der Ordner **Sendungen** vier Ordner.
 
 ![](assets/folder-reorder.png){zoomable="yes"}
 
-Sie können die Reihenfolge Ihrer Ordner entweder durch **Ziehen und Ablegen** oder durch Verwendung von **Nach-oben- und Nach-unten-Pfeilen** ändern.
+Sie können die Reihenfolge Ihrer Ordner entweder durch **Ziehen und Ablegen** oder durch Verwendung der **Nach-oben- und Nach-unten-Taste** ändern.
 
 ![](assets/folder-draganddrop.png){zoomable="yes"}
 
@@ -121,9 +121,9 @@ Klicken Sie in der Attributliste auf die Schaltfläche **+** neben dem gewünsch
 
 Es ist auch möglich, die Werteverteilung in einem Abfrage-Modeler zu ermitteln. [Weitere Informationen finden Sie hier](../query/build-query.md#distribution-of-values-in-a-query).
 
-### Werte filtern {#filter-values}
+### Filtern der Werte {#filter-values}
 
-Mithilfe der **[!UICONTROL erweiterten Filter]** im Fenster &quot;Werteverteilung&quot; können Sie Ihre Ergebnisse nach bestimmten Bedingungen filtern.
+Mithilfe der **[!UICONTROL erweiterten Filter]** im Fenster „Werteverteilung“ können Sie Ihre Ergebnisse nach bestimmten Bedingungen filtern.
 
 Im obigen Beispiel der Versandliste, in der die Verteilung nach Kanal dargestellt wird, können Sie sie beispielsweise so filtern, dass nur die Sendungen angezeigt werden, deren Status **Abgeschlossen** ist.
 

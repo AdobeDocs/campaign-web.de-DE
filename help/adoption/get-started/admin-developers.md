@@ -4,9 +4,9 @@ description: Dieses Tutorial bietet einen Überblick über die wichtigsten Verwa
 role: Admin, Developer
 level: Beginner, Experienced
 source-git-commit: 5323f3db8b29376b15b400a67765c6c0eda37479
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2657'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -229,9 +229,9 @@ Als Admin müssen Sie Ihre Kanalkonfigurationen definieren. Weitere Informatione
 
 Als Admin sind Sie für die Konfiguration und Pflege externer Campaign-Konten verantwortlich. Wie in Campaign Standard werden externe Konten von technischen Prozessen wie technischen Workflows oder Kampagnen-Workflows verwendet.
 
-Der Übergangsprozess zu Campaign v8 übernimmt Ihre bestehenden externen Campaign Standard-Konten.
+Beim Wechsel zu Campaign v8 werden auch Ihre vorhandenen externen Campaign Standard-Konten berücksichtigt.
 
-Weitere Informationen finden Sie in der Dokumentation zu [externen Konten](../../v8/administration/external-account.md) .
+Weitere Informationen finden Sie in der [Dokumentation zu externen Konten](../../v8/administration/external-account.md).
 
 
 <!--

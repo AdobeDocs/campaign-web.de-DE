@@ -5,9 +5,9 @@ description: Erfahren Sie, wie Sie visuelle Fragmente zu Ihren E-Mails hinzufüg
 badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: 6d6f38f9-9d3e-47cb-beb8-177b5a5d8306
 source-git-commit: 0b85b5a4b6eff4fdb9835a0d1ccb5d0a86c103a0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '577'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -73,11 +73,11 @@ Gehen Sie wie folgt vor, um ein visuelles Fragment in den Inhalt einer E-Mail ei
 
 Zugriffsberechtigungen können auf visuelle Fragmente angewendet werden.
 
-Wenn Sie nicht über Bearbeitungsberechtigungen für ein bestimmtes visuelles Fragment verfügen, wird die Inhaltsvorlage im schreibgeschützten Modus **1} angezeigt.** In diesem Fall wird die Schaltfläche **[!UICONTROL Inhalt bearbeiten]** durch die Schaltfläche **[!UICONTROL Inhalt anzeigen]** ersetzt, sodass Sie das Fragment anzeigen können, ohne Änderungen vorzunehmen.
+Wenn Sie über keine Berechtigungen zur Bearbeitung eines bestimmten visuellen Fragments verfügen, wird die Inhaltsvorlage im **schreibgeschützten Modus** angezeigt. In diesem Fall wird die Schaltfläche **[!UICONTROL Inhalt bearbeiten]** durch die Schaltfläche **[!UICONTROL Inhalt anzeigen]** ersetzt, sodass Sie das Fragment anzeigen, aber keine Änderungen vornehmen können.
 
 ![](assets/fragment-readonly.png){zoomable="yes"}
 
-Wie unten gezeigt, werden alle Funktionssymbole deaktiviert, wodurch die Interaktion auf die Anzeige beschränkt wird.
+Wie unten dargestellt, werden alle Funktionssymbole deaktiviert, wodurch die Interaktion auf das Anzeigen beschränkt bleibt.
 
 ![](assets/fragment-readonly-view.png){zoomable="yes"}
 

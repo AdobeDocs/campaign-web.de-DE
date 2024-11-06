@@ -3,9 +3,9 @@ title: Frühzeitige Versionshinweise zur Web-Benutzeroberfläche von Campaign v8
 description: Versionen der Campaign-Web-Benutzeroberfläche 2024
 exl-id: 430dc1ba-dfa9-4d51-b4ed-f3f048da6ec0
 source-git-commit: 5dc96beadbd5ea02540185634971cef44357aefa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2206'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Auf dieser Seite werden alle Änderungen und Verbesserungen aufgelistet, die in 
 <tbody>
 <tr>
 <td>
-<p>Nachdem Sie Ihre Nachricht erstellt und angepasst haben, stellen Sie sie mit dem AI Assistant Content Accelerator im Adobe Campaign Web auf die nächste Stufe. Mit diesem leistungsstarken Tool können Sie die Wirkung Ihrer Inhalte optimieren, indem Sie eine Reihe ansprechender Texte, Haupttitel und visuell überzeugender Bilder generieren.</p>
+<p>Nachdem Sie Ihre Nachricht erstellt und angepasst haben, entwickeln Sie sie mit der Content-Beschleunigung des KI-Assistenten in Adobe Campaign Web weiter. Mit diesem leistungsstarken Tool können Sie die Wirkung Ihrer Inhalte optimieren, indem Sie eine Reihe ansprechender Texte, Haupttitel und visuell überzeugender Bilder generieren.</p>
 <p>Nehmen Sie an unserer <a href="https://experienceleague.adobe.com/de/apps/journey-optimizer/ai-assistant-content-accelerator">Live-Funktionsvorstellung</a> teil, um die Funktionen in der Praxis selbst zu erkunden und die vielfältigen Einsatzmöglichkeiten zu verstehen.</a></p>
 <p>Weitere Informationen finden Sie in der <a href="../email/generative-gs.md">entsprechenden Dokumentation</a>.</p>
 <img src="assets/do-not-localize/ai-content-webui.gif"/>
@@ -35,7 +35,7 @@ Auf dieser Seite werden alle Änderungen und Verbesserungen aufgelistet, die in 
 </tbody>
 </table>
 
-## August-Version {#24-8-release}
+## Version August {#24-8-release}
 
 **Veröffentlichungsdatum**: 3. September 2024
 

@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 23818080-d7c6-4829-8117-d6b359bd76dd
 source-git-commit: 0b85b5a4b6eff4fdb9835a0d1ccb5d0a86c103a0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1018'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -51,11 +51,11 @@ In der Liste können Sie vorhandene Inhaltsvorlagen bearbeiten, duplizieren oder
 
 Zugriffsberechtigungen können auf Inhaltsvorlagen angewendet werden.
 
-Wenn Sie nicht über Bearbeitungsberechtigungen für eine bestimmte Inhaltsvorlage verfügen, wird die Inhaltsvorlage im schreibgeschützten Modus **1} angezeigt.** In diesem Fall wird die Schaltfläche **[!UICONTROL Inhalt bearbeiten]** durch die Schaltfläche **[!UICONTROL Inhalt anzeigen]** ersetzt, sodass Sie die Vorlage anzeigen können, ohne Änderungen vorzunehmen.
+Wenn Sie über keine Berechtigungen zur Bearbeitung einer bestimmten Inhaltsvorlage verfügen, wird die Inhaltsvorlage im **schreibgeschützten Modus** angezeigt. In diesem Fall wird die Schaltfläche **[!UICONTROL Inhalt bearbeiten]** durch die Schaltfläche **[!UICONTROL Inhalt anzeigen]** ersetzt, sodass Sie die Vorlage anzeigen, aber keine Änderungen vornehmen können.
 
 ![](assets/template-readonly.png){zoomable="yes"}
 
-Wie unten gezeigt, werden alle Funktionssymbole deaktiviert, wodurch die Interaktion auf die Anzeige beschränkt wird.
+Wie unten dargestellt, werden alle Funktionssymbole deaktiviert, wodurch die Interaktion auf das Anzeigen beschränkt bleibt.
 
 ![](assets/template-readonly-view.png){zoomable="yes"}
 

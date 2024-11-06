@@ -4,9 +4,9 @@ title: Funktionsmatrix für die Benutzeroberfläche/Client-Konsole von Campaign 
 description: Liste der in der Campaign Web-Benutzeroberfläche unterstützten Funktionen
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
 source-git-commit: 5323f3db8b29376b15b400a67765c6c0eda37479
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2075'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -157,7 +157,7 @@ Die Campaign Web-Benutzeroberfläche weist die folgenden Funktionen nicht auf. S
 
 ### Externe Konten {#external}
 
-Adobe Campaign verfügt über eine Reihe vordefinierter externer Konten, um eine Verbindung mit externen Systemen herzustellen. Als Campaign-Systemadministrator können Sie externe Konten erstellen und verwalten. [Weitere Informationen](../administration/external-account.md)
+Adobe Campaign verfügt über eine Reihe vordefinierter externer Konten, um eine Verbindung mit externen Systemen herzustellen. Als Campaign-Systemadministratorin bzw. -Systemadministrator können Sie externe Konten erstellen und verwalten.  [Weitere Informationen](../administration/external-account.md)
 
 ### Schemaerstellung und -erweiterung {#schema}
 

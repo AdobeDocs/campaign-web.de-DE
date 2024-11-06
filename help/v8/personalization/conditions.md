@@ -7,9 +7,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 101ad23b-7ea5-42c7-9249-7c14febe6eb7
 source-git-commit: f57e0f2de12780ff9f90c2c5f1933b0e9bffe493
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1011'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -121,15 +121,15 @@ In diesem Beispiel möchten wir eine E-Mail-Nachricht mit mehreren Varianten ers
 
 Die Variablen können für bedingte Inhalte in Ihrem Versand verwendet werden.
 
-Erfahren Sie mehr über [Hinzufügen von Variablen zu einem Versand](../advanced-settings/delivery-settings.md#variables-delivery).
+Erfahren Sie mehr über das [Hinzufügen von Variablen zu einem Versand](../advanced-settings/delivery-settings.md#variables-delivery).
 
-Wählen Sie das Element aus, in das Sie bedingte Inhalte einfügen möchten.
+Wählen Sie das Element aus, dem bedingte Inhalte hinzugefügt werden sollen.
 
 ![](assets/variables-conditional.png){zoomable="yes"}
 
-Um Ihre Variable zu verwenden, konfigurieren Sie die Bedingung mithilfe der Schaltfläche **[!UICONTROL Ausdruck bearbeiten]** , wie unten dargestellt.
+Um Ihre Variable zu verwenden, konfigurieren Sie die Bedingung mithilfe der Schaltfläche **[!UICONTROL Ausdruck bearbeiten]**, wie unten dargestellt.
 In diesem Beispiel wird dieses Bild angezeigt, wenn der Wert der Variablen `launch` ist.
 
 ![](assets/variables-condition.png){zoomable="yes"}
 
-Sie können auch eine andere Variante mit dem Wert `reminder` erstellen, bei der beispielsweise ein anderes Bild angezeigt wird.
+Sie können auch eine andere Variante mit dem Wert `reminder` erstellen, wobei z. B. ein anderes Bild angezeigt wird.
