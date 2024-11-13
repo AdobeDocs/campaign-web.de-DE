@@ -4,7 +4,7 @@ title: Erste Schritte mit dem KI-Assistenten zur Beschleunigung von Inhalten
 description: Erste Schritte mit der Content-Beschleunigung des KI-Assistenten
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
 source-git-commit: 9d022ad4ce9d001d6f5154d2778a538aae560d52
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '835'
 ht-degree: 100%
 
