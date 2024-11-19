@@ -3,10 +3,10 @@ audience: end-user
 title: Erkunden der Benutzeroberfläche
 description: Adobe Campaign Web-Benutzeroberfläche
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 9657343409e2c577aac90320d403006af0250e7a
-workflow-type: ht
-source-wordcount: '2011'
-ht-degree: 100%
+source-git-commit: e0954fa620d336c2e450638780f1f2fe673249f2
+workflow-type: tm+mt
+source-wordcount: '2023'
+ht-degree: 99%
 
 ---
 
@@ -361,14 +361,34 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Skript für die Ausführungsinitialisierung"
 >abstract="Skript für die Ausführungsinitialisierung"
 
-<!-- IDs -->
+<!-- Schema edit custom fields -->
 
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields"
->title="Bearbeiten benutzerdefinierter Attribute"
->abstract="Bearbeiten benutzerdefinierter Attribute"
+>title="Benutzerdefiniertes Detail bearbeiten"
+>abstract="Benutzerdefiniertes Detail bearbeiten"
 
+>[!CONTEXTUALHELP]
+>id="acw_schema_editcustomfields_separatorproperties"
+>title="Trennzeigenschaften"
+>abstract="Trennzeigenschaften"
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_editcustomfields_settings"
+>title="Attributeinstellungen"
+>abstract="Attributeinstellungen"
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_editcustomfields_settings_general"
+>title="Allgemein"
+>abstract="Allgemein"
+
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_editcustomfields_settings_layout"
+>title="Layout"
+>abstract="Layout"
 
 
 <!--Schema-->
