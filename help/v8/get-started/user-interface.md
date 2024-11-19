@@ -3,9 +3,9 @@ audience: end-user
 title: Erkunden der Benutzeroberfläche
 description: Adobe Campaign Web-Benutzeroberfläche
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: e0954fa620d336c2e450638780f1f2fe673249f2
+source-git-commit: 609f1bfffc7c3f456335e78e5ba7b01f4f9804f9
 workflow-type: tm+mt
-source-wordcount: '2023'
+source-wordcount: '2027'
 ht-degree: 99%
 
 ---
@@ -384,6 +384,10 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Allgemein"
 >abstract="Allgemein"
 
+>[!CONTEXTUALHELP]
+>id="acw_schema_editcustomfields_settings_link"
+>title="Link-Eigenschaften"
+>abstract="LaLink-Eigenschaftenyout"
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields_settings_layout"
