@@ -3,10 +3,10 @@ audience: end-user
 title: Funktionsmatrix für die Benutzeroberfläche/Client-Konsole von Campaign Web
 description: Liste der in der Campaign Web-Benutzeroberfläche unterstützten Funktionen
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 5323f3db8b29376b15b400a67765c6c0eda37479
-workflow-type: ht
-source-wordcount: '2075'
-ht-degree: 100%
+source-git-commit: fbeb91041f63ecbc6ce44102aebd92fc3539cdf5
+workflow-type: tm+mt
+source-wordcount: '2086'
+ht-degree: 98%
 
 ---
 
@@ -31,7 +31,7 @@ Verwenden Sie die bereitgestellten Links, um die Dokumentation zu Campaign v8 (C
 * **Marketing-Kalender**. Der Kampagnenkalender zeigt alle Programme, Pläne, Kampagnen und Sendungen in einer globalen Timeline an. Diese Funktion ist nur in der Client-Konsole verfügbar. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html?lang=de#campaign-calendar){target="_blank"}
 * **Programme und Pläne**. Jede Kampagne gehört zu einem Programm, das wiederum zu einem Plan gehört. In der Campaign Web-Benutzeroberfläche sind alle Kampagnen mit einem standardmäßigen integrierten Plan und Programm verknüpft. Sie können nur Pläne und Programme in der Client-Konsole erstellen und verwalten. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html?lang=de#work-with-plan-and-program){target="_blank"}
 * **Verwaltung von Dienstleistern, Budget und Kosten** Sie können Dienstleister konfigurieren, die an den in Ihren Kampagnen ausgeführten Vorgängen beteiligt sind, einschließlich Kostenstrukturen, und Ihre Budgets in jedem Programm und jeder Kampagne verwalten. Diese Funktion ist nur in der Client-Konsole verfügbar. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/providers--stocks-and-budgets.html?lang=de){target="_blank"}
-* **Verteiltes Marketing** (zentrales/lokales Marketing). Adobe Campaign bietet eine App für verteiltes Marketing zur Implementierung von Kooperationskampagnen zwischen zentralen Entitäten (Hauptsitz, Marketing-Abteilungen usw.) und lokalen Einheiten (Verkaufsstellen, regionale Agenturen usw.). Diese Funktion ist nur in der Client-Konsole verfügbar. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/automation/distributed-marketing/about-distributed-marketing.html?lang=de){target="_blank"}
+* **Verteiltes Marketing** (zentrales/lokales Marketing). Adobe Campaign bietet eine Anwendung für dezentrales Marketing zur Implementierung von Kooperationskampagnen zwischen Zentralstellen (Hauptsitz, Marketingabteilungen usw.) und Lokalstellen (Verkaufsstellen, Regionalbüros usw.). Diese Funktion ist nur in der Client-Konsole verfügbar. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/automation/distributed-marketing/about-distributed-marketing.html?lang=de){target="_blank"}
 * **Marketing Resource Management** (MRM), Kontrolle von Zielen, Simulationen und Kosten. Adobe Campaign bietet eine App für Marketing Resource Management (MRM), die die Steuerung kollaborativer Marketing-Aktionen durch eine vollständige Verwaltung und Echtzeit-Verfolgung von Aufgaben, Budgets und verwendeten Marketing-Ressourcen ermöglicht. Diese Funktion ist nur in der Client-Konsole verfügbar. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/automation/mrm/about-marketing-resource-management.html?lang=de){target="_blank"}
 * **Aufgaben-Management**. Im Rahmen der MRM-App können Kampagnenaufgaben über das Kampagnen-Dashboard erstellt, zugewiesen, verfolgt und überwacht werden. Diese Funktion ist nur in der Client-Konsole verfügbar. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/automation/mrm/creating-and-managing-tasks.html?lang=de){target="_blank"}
 
@@ -176,6 +176,11 @@ Das Daten-Management kombiniert eine Reihe von Aktivitäten zur Lösung komplexe
 Die Konfiguration und Verbindung von Campaign mit externen Systemen ist erfahrenen Benutzenden vorbehalten und nur über die Client-Konsole verfügbar. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html?lang=de){target="_blank"}
 
 ## Genehmigungen {#approvals-capabilities}
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_approval"
+>title="Validierungsverwaltung"
+>abstract="Die Validierungsverwaltung ist nur über die Clientkonsole verfügbar. "
 
 Die Benutzeroberfläche von Campaign Web enthält keine Validierungsverwaltung für Inhalte, Sendungen, Workflows, Kampagnen und Ziele. Sie sind nur in der Client-Konsole verfügbar.
 
