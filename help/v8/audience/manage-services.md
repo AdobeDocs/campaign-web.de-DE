@@ -3,10 +3,10 @@ audience: end-user
 title: Arbeiten mit Anmeldediensten
 description: Erfahren Sie, wie Sie in Adobe Campaign Web auf Anmeldedienste zugreifen, diese erstellen und sie verwalten können.
 exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
-source-git-commit: 943ed7ce9245a3fd0fd7111f285fdf409968c78b
+source-git-commit: 9da716f3f10260ff373c7f5e94700f198657c799
 workflow-type: tm+mt
-source-wordcount: '1048'
-ht-degree: 100%
+source-wordcount: '1051'
+ht-degree: 98%
 
 ---
 
@@ -29,7 +29,7 @@ Dabei können mehrere Dienste parallel definiert werden, z. B. Newsletter für 
 
 Gehen Sie wie folgt vor, um auf die für Ihre Plattform verfügbaren Anmeldedienste zuzugreifen.
 
-1. Navigieren Sie zum Menü **[!UICONTROL Anmeldedienste]** in der linken Navigationsleiste.
+1. Navigieren Sie in der linken Navigationsleiste unter **[!UICONTROL Kundenverwaltung]** zum Menü **[!UICONTROL Abonnementdienste]** .
 
    ![](assets/service-list.png){zoomable="yes"}
 

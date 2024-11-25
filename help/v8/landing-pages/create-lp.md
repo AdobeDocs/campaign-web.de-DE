@@ -3,10 +3,10 @@ title: Erstellen einer Landingpage
 description: Hier erfahren Sie, wie Sie in Campaign Web eine Landingpage konfigurieren und veröffentlichen können.
 feature: Landing Pages
 exl-id: d4a49048-5ab1-4b69-9e12-1ffa235c51f4
-source-git-commit: 865978dd8083723187a90647060f8758d4d888be
+source-git-commit: 9da716f3f10260ff373c7f5e94700f198657c799
 workflow-type: tm+mt
-source-wordcount: '1619'
-ht-degree: 100%
+source-wordcount: '1629'
+ht-degree: 97%
 
 ---
 
@@ -23,11 +23,15 @@ ht-degree: 100%
 
 ## Zugreifen auf Landingpages {#access-landing-pages}
 
-Um auf die Liste der Landingpages zuzugreifen, wählen Sie **[!UICONTROL Kampagnen-Management]** > **[!UICONTROL Landingpages]** über das Menü links aus.
+Um auf die Landingpage-Liste zuzugreifen, wählen Sie im linken Menü **[!UICONTROL Content Management]** > **[!UICONTROL Landingpages]** aus.
 
 ![](assets/lp-inventory.png){zoomable="yes"}
 
-Das Inventar der **[!UICONTROL Landingpages]** zeigt alle erstellten Elemente an. Sie können sie mithilfe der Schaltfläche **[!UICONTROL Filter anzeigen]** filtern. Sie können die Ergebnisse über die Dropdown-Liste auf einen bestimmten [Ordner](../get-started/permissions.md#folders) beschränken oder mithilfe des [Abfrage-Modelers](../query/query-modeler-overview.md) Regeln hinzufügen.
+Das Inventar der **[!UICONTROL Landingpages]** zeigt alle erstellten Elemente an. Sie können sie mithilfe der Schaltfläche **[!UICONTROL Filter anzeigen]** filtern.
+
+* Sie können nach den von Ihnen erstellten oder geänderten Elementen filtern.
+
+* Sie können die Ergebnisse über die Dropdown-Liste auf einen bestimmten [Ordner](../get-started/permissions.md#folders) beschränken oder mithilfe des [Abfrage-Modelers](../query/query-modeler-overview.md) Regeln hinzufügen.
 
 ![](assets/lp-inventory-filter.png){zoomable="yes"}
 
