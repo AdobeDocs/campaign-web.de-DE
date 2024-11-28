@@ -179,8 +179,8 @@ Die Konfiguration und Verbindung von Campaign mit externen Systemen ist erfahren
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_approval"
->title="Validierungsverwaltung"
->abstract="Die Validierungsverwaltung ist nur über die Clientkonsole verfügbar. "
+>title="Genehmigungsverwaltung"
+>abstract="Die Genehmigungsverwaltung ist nur über die Client-Konsole verfügbar. "
 
 Die Benutzeroberfläche von Campaign Web enthält keine Validierungsverwaltung für Inhalte, Sendungen, Workflows, Kampagnen und Ziele. Sie sind nur in der Client-Konsole verfügbar.
 
