@@ -4,9 +4,9 @@ description: Hier erfahren Sie, wie Sie in Campaign Web eine Landingpage konfigu
 feature: Landing Pages
 exl-id: d4a49048-5ab1-4b69-9e12-1ffa235c51f4
 source-git-commit: 9da716f3f10260ff373c7f5e94700f198657c799
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1629'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -23,11 +23,11 @@ ht-degree: 97%
 
 ## Zugreifen auf Landingpages {#access-landing-pages}
 
-Um auf die Landingpage-Liste zuzugreifen, wählen Sie im linken Menü **[!UICONTROL Content Management]** > **[!UICONTROL Landingpages]** aus.
+Um auf die Liste der Landingpages zuzugreifen, wählen Sie im Menü links **[!UICONTROL Kampagnen-Management]** > **[!UICONTROL Landingpages]** aus.
 
 ![](assets/lp-inventory.png){zoomable="yes"}
 
-Das Inventar der **[!UICONTROL Landingpages]** zeigt alle erstellten Elemente an. Sie können sie mithilfe der Schaltfläche **[!UICONTROL Filter anzeigen]** filtern.
+Das Inventar der **[!UICONTROL Landingpages]** zeigt alle erstellten Elemente an. Sie können sie mithilfe der Schaltfläche **[!UICONTROL Filter zeigen]** filtern. 
 
 * Sie können nach den von Ihnen erstellten oder geänderten Elementen filtern.
 

@@ -6,9 +6,9 @@ title: Dokumentation zu Adobe Campaign Web
 description: Dokumentation zu Campaign Web
 breadcrumb-title: Campaign Web-Benutzeroberfläche
 source-git-commit: 60944341051a2b314e92e9bb728f41ed5f07c669
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '773'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -118,7 +118,7 @@ ht-degree: 99%
       + [E-Mail-Generierung mit KI](email/generative-content.md)
       + [SMS-Generierung mit KI](email/generative-sms.md)
       + [Generierung von Push-Benachrichtigungen mit KI](email/generative-push.md)
-      + [Anwendungsbeispiele für KI-Assistenten](email/generative-uc.md)
+      + [Anwendungsfälle für den KI-Assistenten](email/generative-uc.md)
 + Landingpages {#landing-pages}
    + [Erste Schritte mit Landingpages](landing-pages/get-started-lp.md)
    + [Erstellen und Veröffentlichen einer Landingpage](landing-pages/create-lp.md)

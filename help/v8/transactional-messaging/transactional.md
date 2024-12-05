@@ -2,10 +2,11 @@
 audience: end-user
 title: Transaktionsnachrichten
 description: Informationen zu Transaktionsnachrichten mit Adobe Campaign Web
-source-git-commit: 9d022ad4ce9d001d6f5154d2778a538aae560d52
-workflow-type: tm+mt
+exl-id: 90830dca-acff-4aa3-a88b-1005e349cf52
+source-git-commit: bca2b133968d9392098e9b8b76d65e44d7e84645
+workflow-type: ht
 source-wordcount: '278'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
