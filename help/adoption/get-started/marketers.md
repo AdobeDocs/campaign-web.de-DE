@@ -3,13 +3,13 @@ title: Erste Schritte mit Adobe Campaign v8 für Marketing-Fachleute
 description: Entdecken Sie die wichtigsten Funktionen von Campaign v8. Es richtet sich an Marketing-Fachleute, die von Campaign Standard zu Campaign v8 migrieren.
 role: User
 level: Beginner, Experienced
-source-git-commit: e68ad7ca3368165feb534363c36b03b510291e8a
-workflow-type: ht
-source-wordcount: '2453'
-ht-degree: 100%
+exl-id: 514da15d-325b-4d28-9a58-50c1ae2e4925
+source-git-commit: 22cea48ecdf1233dbbc1dc679ad6fcb2cf18bd2d
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
-
 
 # Erste Schritte für Marketing-Fachleute {#acs-gs-marketers}
 
@@ -182,7 +182,7 @@ Nützliche Links:
    * Erfahren Sie, wie Sie einen [eigenständigen Versand planen](../../v8/msg/gs-deliveries.md#gs-schedule).
    * Erfahren Sie, wie Sie den [Versand in einem Workflow planen](../../v8/monitor/schedule-sending.md#schedule-a-delivery-in-a-campaign-workflow).
 
-* **Angebote hinzufügen**: Sie können Ihren Sendungen über die Adobe Campaign Web-Benutzeroberfläche Angebote hinzufügen. Diese Angebote sind über das Menü „Angebote“ auf der linken Seite verfügbar. So können Sie auf die Liste der Angebote zugreifen. Erfahren Sie, wie Sie [Angebote zu Ihren Nachrichten hinzufügen](../../v8/msg/offers.md).
+* **Angebote hinzufügen** - Sie können Ihren Sendungen in der Adobe Campaign-Web-Benutzeroberfläche Angebote hinzufügen. Diese Angebote sind über das Menü „Angebote“ auf der linken Seite verfügbar. So können Sie auf die Liste der Angebote zugreifen. Erfahren Sie, wie Sie [Angebote zu Ihren Nachrichten hinzufügen](../../v8/msg/offers.md).
 
 >[!AVAILABILITY]
 >
