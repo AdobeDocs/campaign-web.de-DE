@@ -3,10 +3,10 @@ audience: end-user
 title: Erkunden der Benutzeroberfläche
 description: Adobe Campaign Web-Benutzeroberfläche
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 609f1bfffc7c3f456335e78e5ba7b01f4f9804f9
-workflow-type: ht
-source-wordcount: '2027'
-ht-degree: 100%
+source-git-commit: 1671a2036f34bab91c0f9e4ee7eae6407a4b9eba
+workflow-type: tm+mt
+source-wordcount: '2054'
+ht-degree: 98%
 
 ---
 
@@ -446,3 +446,28 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_schema_start_update"
 >title="Datenbank-Aktualisierung starten"
 >abstract="Schema"
+
+
+
+<!-- Target Mapping -->
+
+
+>[!CONTEXTUALHELP]
+>id="acw_targetmapping_properties"
+>title="Eigenschaften für Zielzuordnung"
+>abstract="Eigenschaften für Zielzuordnung"
+
+>[!CONTEXTUALHELP]
+>id="acw_targetmapping_mapping"
+>title="Zielgruppen-Mapping"
+>abstract="Zielgruppen-Mapping"
+
+>[!CONTEXTUALHELP]
+>id="acw_targetmapping_denylist"
+>title="Blockierungsliste der Zielzuordnung"
+>abstract="Blockierungsliste der Zielzuordnung"
+
+>[!CONTEXTUALHELP]
+>id="acw_targetmapping_storage"
+>title="Target-Zuordnungsspeicher"
+>abstract="Abweisungsspeicher für Zielzuordnung"
