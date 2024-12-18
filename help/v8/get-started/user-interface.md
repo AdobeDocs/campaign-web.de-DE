@@ -6,7 +6,7 @@ exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 source-git-commit: ef7949d115342e47f68cfbd88c1137f4eaf38cc0
 workflow-type: tm+mt
 source-wordcount: '2058'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -454,23 +454,23 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_targetmapping_properties"
->title="Zielgruppen-Mapping-Eigenschaften"
->abstract="Zielgruppen-Mapping-Eigenschaften"
+>title="Zielgruppen-Mapping – Eigenschaften"
+>abstract="Zielgruppen-Mapping – Eigenschaften"
 
 >[!CONTEXTUALHELP]
 >id="acw_targetmapping_mapping"
->title="Zielgruppen-Mapping"
->abstract="Zielgruppen-Mapping"
+>title="Zielgruppen-Mapping – Mapping"
+>abstract="Zielgruppen-Mapping – Mapping"
 
 >[!CONTEXTUALHELP]
 >id="acw_targetmapping_denylist"
->title="Zielgruppen-Mapping-Blockierungsliste"
->abstract="Zielgruppen-Mapping-Blockierungsliste"
+>title="Zielgruppen-Mapping – Blockierungsliste"
+>abstract="Zielgruppen-Mapping – Blockierungsliste"
 
 >[!CONTEXTUALHELP]
 >id="acw_targetmapping_storage"
->title="Zielgruppen-Mapping-Speicher"
->abstract="Zielgruppen-Mapping: Speicherung verweigern"
+>title="Zielgruppen-Mapping – Speicherung"
+>abstract="Zielgruppen-Mapping – Speicherung verweigern"
 
 
 
