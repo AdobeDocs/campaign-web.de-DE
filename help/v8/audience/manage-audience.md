@@ -3,9 +3,9 @@ audience: end-user
 title: Erste Schritte mit Zielgruppen
 description: Erfahren Sie, wie Sie in Adobe Campaign Web mit Zielgruppen arbeiten.
 exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
-source-git-commit: a0da65d8facedb3730947eb969e362a367e4d317
+source-git-commit: 78c288f6681040170d49f6b67a3db362710f9d0c
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '354'
 ht-degree: 100%
 
 ---
@@ -21,6 +21,11 @@ ht-degree: 100%
 >id="acw_audiences_count"
 >title="Zielgruppengröße"
 >abstract="Hier finden Sie die Gesamtzahl der Profile innerhalb der Zielgruppe. Klicken Sie auf die Schaltfläche **Berechnen**, um die Zielgruppenergebnisse zu aktualisieren und neu zu berechnen."
+
+>[!CONTEXTUALHELP]
+>id="acw_audiences_targeting"
+>title="Zielgruppenbestimmung"
+>abstract="Zielgruppenbestimmung"
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_workflow_error_data_execution"
