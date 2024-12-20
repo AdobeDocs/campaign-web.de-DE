@@ -3,9 +3,9 @@ audience: end-user
 title: Erkunden der Benutzeroberfläche
 description: Adobe Campaign Web-Benutzeroberfläche
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 7efaac360dc00f5bd92b47efbe113cfe99042eb6
+source-git-commit: e5dfb307ae53333b4e2e55ca57a605790d8b6d62
 workflow-type: tm+mt
-source-wordcount: '2064'
+source-wordcount: '2074'
 ht-degree: 100%
 
 ---
@@ -490,3 +490,15 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_options_create"
 >title="Option erstellen"
 >abstract="Option erstellen"
+
+<!-- JavaScript codes -->
+
+>[!CONTEXTUALHELP]
+>id="acw_javascript_codes_list"
+>title="JavaScript-Codes"
+>abstract="JavaScript-Codes"
+
+>[!CONTEXTUALHELP]
+>id="acw_javascript_codes_create"
+>title="JavaScript-Code erstellen"
+>abstract="JavaScript-Code erstellen"
