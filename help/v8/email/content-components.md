@@ -6,7 +6,7 @@ exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
 source-git-commit: 5b984089ea36b190cde1046c0d96734e848b5f67
 workflow-type: tm+mt
 source-wordcount: '1199'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -94,7 +94,7 @@ Verwenden Sie die Komponente **[!UICONTROL Schaltfläche]**, um eine oder mehrer
 
 ## Text {#text}
 
-Verwenden Sie die Komponente **[!UICONTROL Text]**, um Text in Ihre E-Mail einzufügen und den Stil (Rahmen, Größe, Abstand usw.) mithilfe der Registerkarten **[!UICONTROL Einstellungen]** und **[!UICONTROL Stile]** anzupassen.
+Verwenden Sie die **[!UICONTROL Text]**-Komponente, um Text in Ihre E-Mail einzufügen, und passen Sie den Stil (Rahmen, Größe, Abstand usw.) mithilfe der Registerkarten **[!UICONTROL Einstellungen]** und **[!UICONTROL Stile]** an.
 
 1. Ziehen Sie **[!UICONTROL Text]** aus dem Menü **[!UICONTROL Inhalte]** per Drag-and-Drop in eine **[!UICONTROL Strukturkomponente]**.
 

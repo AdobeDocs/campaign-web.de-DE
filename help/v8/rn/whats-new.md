@@ -4,7 +4,7 @@ title: Neue Funktionen in der Campaign Web-Benutzeroberfläche
 description: Entdecken Sie neue Funktionen in der Campaign Web-Benutzeroberfläche.
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 source-git-commit: 17536af2d65dec7cdba1967f607e10ae0cb1924a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1317'
 ht-degree: 100%
 

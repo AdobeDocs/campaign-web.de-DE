@@ -4,7 +4,7 @@ title: Versandwarnung
 description: Erfahren Sie, wie Sie mit Versandwarnungen arbeiten können.
 exl-id: 120afaa0-7017-4644-b6db-229b4a5c8a91
 source-git-commit: dfd5f2e000b02d4382eaac0c9bb00fe940a99f79
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 100%
 

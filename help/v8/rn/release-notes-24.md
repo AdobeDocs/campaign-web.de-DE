@@ -3,7 +3,7 @@ title: Frühzeitige Versionshinweise zur Web-Benutzeroberfläche von Campaign v8
 description: Versionen der Campaign-Web-Benutzeroberfläche 2024
 exl-id: 430dc1ba-dfa9-4d51-b4ed-f3f048da6ec0
 source-git-commit: 5dc96beadbd5ea02540185634971cef44357aefa
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2206'
 ht-degree: 100%
 
@@ -19,7 +19,7 @@ Auf dieser Seite werden alle Änderungen und Verbesserungen aufgelistet, die in 
 <table>
 <thead>
 <tr>
-<th><strong>Content Accelerator des KI-Assistenten</strong><br/></th>
+<th><strong>Content-Beschleunigung des KI-Assistenten</strong><br/></th>
 </tr>
 </thead>
 <tbody>

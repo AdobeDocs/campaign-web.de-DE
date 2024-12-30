@@ -1,12 +1,12 @@
 ---
 audience: end-user
-title: Push-Benachrichtigungen mit dem AI Assistant Content Accelerator
-description: Erste Schritte mit dem KI-Assistenten zur Beschleunigung von Inhalten
+title: Push-Benachrichtigungen mit der Content-Beschleunigung des KI-Assistenten
+description: Erste Schritte mit der Content-Beschleunigung des KI-Assistenten
 exl-id: a361f75d-63c2-4fdc-993c-f8414b18e13e
 source-git-commit: a1b1a40be4d2004181f03bba5c43d0302d6f2c47
 workflow-type: tm+mt
 source-wordcount: '576'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 90%
 >Bevor Sie mit der Verwendung dieser Funktion beginnen, lesen Sie die entsprechenden Informationen zu [Schutzmechanismen und Einschränkungen](generative-gs.md#generative-guardrails).
 ></br>
 >
->Sie müssen einer [Benutzervereinbarung](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) zustimmen, bevor Sie den AI Assistant Content Accelerator im Adobe Campaign Web verwenden können. Weitere Informationen erhalten Sie beim Adobe-Support.
+>Sie müssen einer [Benutzervereinbarung](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) zustimmen, bevor Sie die Content-Beschleunigung des KI-Assistenten in Adobe Campaign Web verwenden können. Weitere Informationen erhalten Sie vom Adobe-Support.
 
-Der Inhaltsbeschleuniger für den KI-Assistenten kann Ihnen dabei helfen, die Wirkung Ihrer Sendungen zu optimieren, indem Sie verschiedene Inhalte vorschlagen, die mit höherer Wahrscheinlichkeit bei Ihrer Zielgruppe ankommen.
+Die Content-Beschleunigung des KI-Assistenten kann Ihnen dabei helfen, die Wirkung Ihrer Sendungen zu optimieren. Er schlägt Ihnen verschiedene Inhalte vor, die mit größerer Wahrscheinlichkeit bei Ihrer Zielgruppe ankommen.
 
 Im folgenden Beispiel nutzen wir den KI-Assistenten, um mit einer überzeugenden Nachricht ein ansprechenderes Kundenerlebnis zu schaffen.
 

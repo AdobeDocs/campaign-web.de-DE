@@ -3,7 +3,7 @@ title: KI-Assistent zur Content-Beschleunigung – Anwendungsfälle
 description: Erfahren Sie anhand von Anwendungsfällen, wie Sie den KI-Assistenten zur Content-Beschleunigung verwenden.
 exl-id: ead51ef0-f7ba-4bc4-8d4a-f6a6d1df6a0f
 source-git-commit: a387304ed95a6e33beb31f15f888a77edf0cad6e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '543'
 ht-degree: 100%
 

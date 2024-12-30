@@ -2,8 +2,9 @@
 audience: end-user
 title: Erstellen von Transaktionsnachrichten
 description: Informationen zum Erstellen einer Transaktionsnachricht in der Campaign Web-Benutzeroberfläche
-source-git-commit: e55b9c875b7700c7ee9d38b8386cc2742ad1f908
-workflow-type: ht
+exl-id: 74e468f5-d9c3-4470-8ff2-68648b5f396f
+source-git-commit: bca2b133968d9392098e9b8b76d65e44d7e84645
+workflow-type: tm+mt
 source-wordcount: '1189'
 ht-degree: 100%
 

@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie in Campaign Web Landingpage-spezifische Inhal
 feature: Landing Pages
 exl-id: 6ca3c8c1-3633-4e3f-a9a1-f46ae27c5c8a
 source-git-commit: 5323f3db8b29376b15b400a67765c6c0eda37479
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1226'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -93,7 +93,7 @@ Um bestimmte Inhalte zu definieren, mit denen Benutzende ihre Auswahl auf Ihrer 
 
    * **[!UICONTROL Nein, wenn aktiviert]**.<!--TBC-->
 
-1. Sie können so viele Felder (z. B. Textfelder, Optionsfelder, Kontrollkästchen, Dropdown-Listen usw.) löschen und hinzufügen wie nötig.
+1. Sie können beliebig viele Felder (z. B. Textfelder, Optionsschaltflächen, Kontrollkästchen, Dropdown-Listen usw.) löschen und hinzufügen.
 
 1. Nachdem alle Felder hinzugefügt oder aktualisiert wurden, klicken Sie auf **[!UICONTROL Handlungsaufforderung]**, um den entsprechenden Abschnitt zu erweitern. Damit können Sie das Verhalten der Schaltfläche in der **[!UICONTROL Formularkomponente]** festlegen. [Weitere Informationen dazu](#define-actions-on-form-submission)
 
@@ -164,7 +164,7 @@ Gehen Sie wie folgt vor, um nach dem Einreichen einer Landingpage automatisch ei
 
    ![](assets/lp-checkbox-style.png){zoomable="yes"}
 
-1. Erweitern und bearbeiten Sie alle anderen Abschnitte, die anderen von Ihnen zum Formular hinzugefügten Feldern entsprechen (Optionsfeld, Dropdown-Liste, Datum und Uhrzeit usw.)
+1. Erweitern und bearbeiten Sie jeden anderen Abschnitt, der anderen Feldern entspricht, die Sie dem Formular möglicherweise hinzugefügt haben (Optionsfeld, Dropdown-Liste, Datum und Uhrzeit usw.).
 
 1. Erweitern Sie den Abschnitt **[!UICONTROL Handlungsaufforderung]**, um das Erscheinungsbild der Schaltfläche im Komponentenformular zu ändern. Sie können beispielsweise die Schriftart ändern, einen Rahmen hinzufügen, die Beschriftungsfarbe beim Bewegen des Mauszeigers bearbeiten oder die Ausrichtung der Schaltfläche anpassen.
 

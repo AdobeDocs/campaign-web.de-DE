@@ -6,7 +6,7 @@ exl-id: 829a9b68-5c41-47dd-843c-412b6d255e8b
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
 source-wordcount: '546'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -81,7 +81,7 @@ Die Tabelle **[!UICONTROL Versandstatistik]** zeigt den Erfolg jedes einzelnen P
 
 * **[!UICONTROL Fehler/Bounces]**: Gesamtzahl der über alle Sendungen hinweg kumulierten Fehler und der automatischen Bounce-Verarbeitungen im Verhältnis zur Anzahl der zu versendenden Nachrichten.
 
-* **[!UICONTROL Neu in Quarantäne]**: Gesamtzahl der Adressen, die infolge eines fehlgeschlagenen Versands unter Quarantäne gestellt wurden (ungültige Registrierung, Zurückweisung von Nachrichten, Payload-Fehler usw.), in Bezug auf die Anzahl der zu sendenden Nachrichten.
+* **[!UICONTROL Neue Quarantänen]**: Gesamtzahl der Adressen, die infolge eines fehlgeschlagenen Versands unter Quarantäne gestellt wurden (z. B. ungültige Registrierung, Nachrichtenablehnung, Payload-Fehler), im Verhältnis zur Anzahl der zu versendenden Nachrichten.
 
   Die Fehlertypen von Push-Benachrichtigungen werden im Abschnitt [Dokumentation zu Adobe Campaign v8 (Client-Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=de#push-error-types){target="_blank"} aufgelistet.
 
