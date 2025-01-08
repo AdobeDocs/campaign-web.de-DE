@@ -488,8 +488,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_options_create"
->title="Option erstellen"
->abstract="Option erstellen"
+>title="Option „Erstellen“"
+>abstract="Option „Erstellen“"
 
 <!-- JavaScript codes -->
 
