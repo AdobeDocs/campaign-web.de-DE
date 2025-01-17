@@ -3,7 +3,7 @@ audience: end-user
 title: Erkunden der Benutzeroberfläche
 description: Adobe Campaign Web-Benutzeroberfläche
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: ef4b74d601431f7113d06f705c676930c59cb4d6
+source-git-commit: 8b627ff3116346fb09243b560b0a492d690b95fa
 workflow-type: tm+mt
 source-wordcount: '2108'
 ht-degree: 99%
@@ -528,26 +528,26 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >abstract="Verfahrensregeln"
 
 >[!CONTEXTUALHELP]
->id="acw_business_rules_rule_set_properties"
->title="Regelsatz-Eigenschaften"
+>id="acw_business_rules_typology_properties"
+>title="Typologieeigenschaften"
 >abstract="Regelsatz-Eigenschaften"
 
 >[!CONTEXTUALHELP]
->id="acw_business_rules_rule_set_ip_affinity"
+>id="acw_business_rules_typology_ip_affinity"
 >title="IP-Affinität"
 >abstract="IP-Affinität"
 
 >[!CONTEXTUALHELP]
->id="acw_business_rules_rule_properties"
->title="Regeleigenschaften"
+>id="acw_business_rules_typology_rules_properties"
+>title="Typologieregel-Eigenschaften"
 >abstract="Regeleigenschaften"
 
 >[!CONTEXTUALHELP]
->id="acw_business_rules_rule_filtering"
+>id="acw_business_rules_typology_rules_filtering"
 >title="Filter"
 >abstract="Filter"
 
 >[!CONTEXTUALHELP]
->id="acw_business_rules_rule_code"
+>id="acw_business_rules_typology_rules_code"
 >title="Code"
 >abstract="Code"
