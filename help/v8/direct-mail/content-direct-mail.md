@@ -20,7 +20,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_directmail_properties_file"
 >title="Dateieigenschaften"
->abstract="Konfigurieren Sie die Eigenschaften der Extraktionsdatei, wie ihren Namen und ihr Format. Sie können mithilfe des Ausdruckseditors den Dateinamen mit Attributen aus der Datenbank personalisieren."
+>abstract="Eigenschaften wie Namen und Format der Extraktionsdatei konfigurieren. Mithilfe des Ausdruckseditors kann der Dateiname mit Attributen aus der Datenbank personalisiert werden."
 
 >[!CONTEXTUALHELP]
 >id="acw_directmail_properties_content"
