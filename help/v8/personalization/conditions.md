@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: 101ad23b-7ea5-42c7-9249-7c14febe6eb7
-source-git-commit: f57e0f2de12780ff9f90c2c5f1933b0e9bffe493
+source-git-commit: 7185e1cbc8ce9dd325bebc20c0ac362d7067f3e9
 workflow-type: tm+mt
-source-wordcount: '1011'
-ht-degree: 100%
+source-wordcount: '1024'
+ht-degree: 98%
 
 ---
 
@@ -31,6 +31,11 @@ Um bedingte Inhalte zu erstellen, müssen Sie Bedingungen im **Ausdruckseditor**
 Zusätzlich zum Ausdruckseditor können Sie einen speziellen **Builder für bedingte Inhalte** nutzen, wenn Sie eine E-Mail entwerfen wollen, die es Ihnen ermöglicht, mehrere Varianten für ein Element Ihres E-Mail-Texts zu erstellen [Erfahren Sie, wie Sie bedingte Inhalte in E-Mails erstellen](#condition-condition-builder)
 
 ## Erstellen von Bedingungen im Ausdruckseditor {#condition-perso-editor}
+
+>[!CONTEXTUALHELP]
+>id="acw_personalization_editor_conditions"
+>title="Bedingungen"
+>abstract="In diesem Menü können Sie Hilfsfunktionen zum Definieren bedingter Inhalte nutzen."
 
 Gehen Sie wie folgt vor, um mit dem Ausdruckseditor bedingte Inhalte für einen Versand zu definieren. In diesem Beispiel möchten wir bedingte Inhalte basierend auf der Sprache der Empfängerinnen oder Empfänger (Französisch oder Englisch) erstellen.
 

@@ -3,10 +3,10 @@ audience: end-user
 title: Erste Schritte mit Inhaltsfragmenten
 description: Erfahren Sie, wie Sie Inhaltsfragmente erstellen
 exl-id: d155d102-a5bc-4b9b-b29c-24fde4d95ceb
-source-git-commit: 9d022ad4ce9d001d6f5154d2778a538aae560d52
+source-git-commit: 7185e1cbc8ce9dd325bebc20c0ac362d7067f3e9
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 100%
+source-wordcount: '433'
+ht-degree: 95%
 
 ---
 
@@ -22,6 +22,11 @@ ht-degree: 100%
 >id="acw_fragments_menu"
 >title="Definieren Ihrer eigenen Inhaltsfragmente"
 >abstract="Ein Inhaltsfragment ist eine wiederverwendbare Komponente, die kampagnenübergreifend in einer oder mehreren Nachrichten referenziert werden kann. Diese Funktion wird verwendet, um mehrere benutzerdefinierte Inhaltsbausteine vorab zu erstellen, die anschließend von Benutzenden aus dem Bereich Marketing verwendet werden können, um Inhalte in einem verbesserten Designprozess schnell zusammenzustellen. Es gibt zwei Arten von Inhaltsfragmenten: visuelle Fragmente, die im E-Mail-Designer verfügbar sind, und Ausdrucksfragmente im Ausdruckseditor."
+
+>[!CONTEXTUALHELP]
+>id="acw_personalization_editor_fragments"
+>title="Hinzufügen von Ausdrucksfragmenten"
+>abstract="Ausdrucksfragmente sind vordefinierte Inhaltsblöcke, die ein bestimmtes Rendering enthalten, das Sie in Ihre Sendungen einfügen können. Sie können zum Beispiel ein Logo, eine Grußbotschaft oder einen Link zur Mirrorseite der Nachricht hinzufügen. Sie können auch eigene Ausdrucksfragmente erstellen, die Ihren Anforderungen entsprechen."
 
 ## Was sind Inhaltsfragmente? {#what}
 
