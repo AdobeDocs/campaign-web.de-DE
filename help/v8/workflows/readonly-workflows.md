@@ -3,10 +3,10 @@ audience: end-user
 title: Über schreibgeschützte Workflows
 description: Erfahren Sie, warum Workflows schreibgeschützt sind
 exl-id: 5eaffe2c-7a9c-4508-8dd1-495cfcf99c59
-source-git-commit: 62d4733b9dc6bf3edf06d172069b5f8b1d0ee4a7
+source-git-commit: 58f25a6b41c89e97c0f721f4437b5245d16b3757
 workflow-type: tm+mt
-source-wordcount: '221'
-ht-degree: 100%
+source-wordcount: '225'
+ht-degree: 36%
 
 ---
 
@@ -17,42 +17,40 @@ ht-degree: 100%
 >title="Dieser Workflow ist schreibgeschützt"
 >abstract="Sie können diesen Workflow aufgrund Ihrer Berechtigungen oder des Typs des Workflows nicht bearbeiten."
 
-Einige Workflows befinden sich möglicherweise im schreibgeschützten Modus. Dies ist zu erkennen durch:
+Einige Workflows sind schreibgeschützt. Integrierte technische Workflows sind immer schreibgeschützt, aber diese Einschränkung kann auch für andere Workflow-Typen aktiviert werden.
 
-- Kennzeichnung **[!UICONTROL Schreibgeschützt]** in der Nähe der Schaltfläche **[!UICONTROL Einstellungen]**
-- Die Schaltfläche „Aktion“ ist nicht verfügbar
+Campaign-Benutzende haben möglicherweise eingeschränkten Zugriff auf die Adobe Campaign-Daten. Ein Campaign-Administrator kann ihnen das Recht gewähren, einige Funktionen anzuzeigen, sie jedoch nicht zu bearbeiten oder zu ändern. Benutzerberechtigungen für -Daten sind von entscheidender Bedeutung, um Daten- und Prozesssicherheit zu gewährleisten. Weitere Informationen zur Berechtigungsverwaltung in Campaign finden [ in diesem Abschnitt ](../get-started/permissions.md)
+
+Wenn sich ein Workflow im schreibgeschützten Modus befindet:
+
+* Kennzeichnung **[!UICONTROL Schreibgeschützt]** in der Nähe der Schaltfläche **[!UICONTROL Einstellungen]**
+* Die Schaltfläche „Aktion“ ist nicht verfügbar
 
 ![](assets/readonly-workflow.png){zoomable="yes"}
 
-In einem schreibgeschützten Workflow können keine Änderungen vorgenommen werden. Sie sind nicht berechtigt, die Einstellungen der Aktivitäten zu ändern.
-
+Benutzende können in einem schreibgeschützten Workflow nichts bearbeiten. Sie dürfen die Einstellungen der Aktivitäten nicht ändern.
 
 ![](assets/scheduler-readonly.png){zoomable="yes"}
 
-
-Sie verfügen außerdem nicht über die erforderlichen Rechte, um den Workflow zu löschen.
+Benutzende können den Workflow nicht löschen.
 
 ![](assets/readonly-rights.png){zoomable="yes"}
 
-## Warum schreibgeschützte Workflows?
 
-Der schreibgeschützte Modus betrifft Benutzerinnen und Benutzer ohne Berechtigungen und Zugriffsrechte zur Bearbeitung dieser Workflows. [Weitere Informationen hier](../get-started/permissions.md)
-
-Benutzende von Kampagnen sind möglicherweise in Bezug auf die Daten eingeschränkt, auf die sie in Adobe Campaign zugreifen können. Die Admins können ihnen die Möglichkeit geben, einige Funktionen anzuzeigen, aber nicht daran zu arbeiten.
-
-## Typen schreibgeschützter Workflows
+## Typen schreibgeschützter Workflows {#readonly-workflow-types}
 
 Je nach Workflow-Typ kann der schreibgeschützte Modus unterschiedlich sein.
 
-### Kampagnen-Workflows
+### Kampagnen-Workflows {#readonly-campaign-wf}
 
 Bei einem schreibgeschützten Kampagnen-Workflow können Benutzende nicht auf die Überwachungsschaltfläche zugreifen.
 
 ![](assets/readonly-campaign-workflow.png){zoomable="yes"}
 
-### Technische Workflows
+### Technische Workflows {#readonly-tech-wf}
 
-Technische Workflows sind für Benutzende von Kampagnen schreibgeschützt.
-Integrierte technische Workflows sind für alle Benutzenden schreibgeschützt, sogar für Admins. Benutzende können diese jedoch bei Bedarf **aussetzen** oder **anhalten**. Dies sind die einzigen zulässigen Aktionen. [Weitere Informationen hier](https://experienceleague.adobe.com/de/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows)
+Integrierte technische Workflows sind für alle Campaign-Benutzer und sogar für den Administrator schreibgeschützt. Benutzer können sie jedoch **anhalten** oder **stoppen** wenn nötig. Das sind die einzigen zulässigen Aktionen.
 
 ![](assets/readonly-technical-workflow.png){zoomable="yes"}
+
+Weitere Informationen zu technischen Workflows finden Sie in [diesem Abschnitt](https://experienceleague.adobe.com/de/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows)

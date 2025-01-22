@@ -3,9 +3,9 @@ audience: end-user
 title: Vorbereiten und Senden einer E-Mail
 description: Erfahren Sie, wie Sie eine E-Mail mit der Campaign Web-Benutzeroberfläche vorbereiten und senden
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
-source-git-commit: c3148c9593aa4d323097135601616b9c43bae378
+source-git-commit: 58f25a6b41c89e97c0f721f4437b5245d16b3757
 workflow-type: tm+mt
-source-wordcount: '891'
+source-wordcount: '889'
 ht-degree: 100%
 
 ---
@@ -136,14 +136,14 @@ Unabhängig davon, ob es sich um einen geplanten oder ungeplanten Versand handel
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_sent"
->title="Gesendet-Metriken"
+>title="Gesendet"
 >abstract="Gesamtzahl der während der Versandanalyse verarbeiteten Nachrichten."
 >additional-url="https://experienceleague.adobe.com/de/docs/campaign-web/v8/reports/kpis" text="Grundlegendes zu KPIs"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_errors"
->title="Fehlermetriken"
+>title="Fehler"
 >abstract="Gesamtzahl der beim Versand und bei der automatischen Rücksendung kumulierten Fehler im Verhältnis zur Gesamtzahl der gesendeten Nachrichten."
 >additional-url="https://experienceleague.adobe.com/de/docs/campaign-web/v8/reports/kpis" text="Grundlegendes zu KPIs"
 
