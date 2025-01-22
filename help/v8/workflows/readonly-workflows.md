@@ -3,7 +3,7 @@ audience: end-user
 title: Über schreibgeschützte Workflows
 description: Erfahren Sie, warum Workflows schreibgeschützt sind
 exl-id: 5eaffe2c-7a9c-4508-8dd1-495cfcf99c59
-source-git-commit: 89633454bb3de1ac05d37d767df45d9d143c80b5
+source-git-commit: 62d4733b9dc6bf3edf06d172069b5f8b1d0ee4a7
 workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 100%
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 Einige Workflows befinden sich möglicherweise im schreibgeschützten Modus. Dies ist zu erkennen durch:
 
-- Kennzeichnung **[!UICONTROL ** Schreibgeschützt **]** in der Nähe der Schaltfläche **[!UICONTROL Einstellungen]**
+- Kennzeichnung **[!UICONTROL Schreibgeschützt]** in der Nähe der Schaltfläche **[!UICONTROL Einstellungen]**
 - Die Schaltfläche „Aktion“ ist nicht verfügbar
 
 ![](assets/readonly-workflow.png){zoomable="yes"}
