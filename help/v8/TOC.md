@@ -5,10 +5,10 @@ user-guide-description: Produktdokumentation zur Adobe Campaign Web-Benutzerober
 title: Dokumentation zu Adobe Campaign Web
 description: Dokumentation zu Campaign Web
 breadcrumb-title: Campaign Web-Benutzeroberfläche
-source-git-commit: 60944341051a2b314e92e9bb728f41ed5f07c669
+source-git-commit: 443be09067fdcf78651550cfea5ccf38f2f247a1
 workflow-type: tm+mt
-source-wordcount: '773'
-ht-degree: 100%
+source-wordcount: '776'
+ht-degree: 99%
 
 ---
 
@@ -39,6 +39,7 @@ ht-degree: 100%
    + [Zugreifen auf Sendungen](msg/gs-deliveries.md)
    + [Erstellen eines Versands](msg/create-deliveries.md)
    + [Verwenden von Versandvorlagen](msg/delivery-template.md)
+   + [Arbeiten mit Typologien](msg/typologies.md)
    + E-Mails {#email}
       + [Erstellen Ihrer ersten E-Mail](email/create-email.md)
       + [Konfigurieren des E-Mail-Inhalts](email/edit-content.md)
