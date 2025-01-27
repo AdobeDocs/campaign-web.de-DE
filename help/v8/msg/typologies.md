@@ -6,34 +6,34 @@ hidefromtoc: true
 hide: true
 robots: noindex
 googlebot: noindex
-source-git-commit: 443be09067fdcf78651550cfea5ccf38f2f247a1
-workflow-type: tm+mt
+exl-id: 54fdd03a-e49d-4f22-b6d4-6055c8922e58
+source-git-commit: cd6424bb99ab150915889323b850273134d0d73e
+workflow-type: ht
 source-wordcount: '74'
-ht-degree: 18%
+ht-degree: 100%
 
 ---
-
 
 # Arbeiten mit Typologien {#typologies}
 
 >[!CONTEXTUALHELP]
 >id="acw_business_rules"
->title="Verfahrensregeln"
->abstract="Verfahrensregeln"
+>title="Geschäftsregeln"
+>abstract="Geschäftsregeln"
 
 >[!CONTEXTUALHELP]
 >id="acw_business_rules_typology_properties"
 >title="Typologieeigenschaften"
->abstract="Regelsatz-Eigenschaften"
+>abstract="Regelsatzeigenschaften"
 
 >[!CONTEXTUALHELP]
 >id="acw_business_rules_typology_ip_affinity"
 >title="IP-Affinität"
->abstract="Die Verwaltung der IP-Adressaffinitäten ermöglicht eine bessere Kontrolle des ausgehenden SMTP-Traffics, indem je nach Typologie der Versandaktion den einzelnen Traffic unterschiedliche IP-Adressen zugeordnet werden."
+>abstract="Die Verwaltung der IP-Adressenaffinitäten ermöglicht eine bessere Steuerung des ausgehenden SMTP-Traffics, indem jedem Traffic-Typ je nach Versandtypologie unterschiedliche IP-Adressen zugewiesen werden."
 
 >[!CONTEXTUALHELP]
 >id="acw_business_rules_typology_rules_properties"
->title="Typologieregel-Eigenschaften"
+>title="Typologieregeleigenschaften"
 >abstract="Regeleigenschaften"
 
 >[!CONTEXTUALHELP]

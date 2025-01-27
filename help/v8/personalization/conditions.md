@@ -7,9 +7,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 101ad23b-7ea5-42c7-9249-7c14febe6eb7
 source-git-commit: 7185e1cbc8ce9dd325bebc20c0ac362d7067f3e9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1024'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ Zusätzlich zum Ausdruckseditor können Sie einen speziellen **Builder für bedi
 >[!CONTEXTUALHELP]
 >id="acw_personalization_editor_conditions"
 >title="Bedingungen"
->abstract="In diesem Menü können Sie Hilfsfunktionen zum Definieren bedingter Inhalte nutzen."
+>abstract="Mit diesem Menü können Sie Hilfsfunktionen zum Definieren bedingter Inhalte nutzen."
 
 Gehen Sie wie folgt vor, um mit dem Ausdruckseditor bedingte Inhalte für einen Versand zu definieren. In diesem Beispiel möchten wir bedingte Inhalte basierend auf der Sprache der Empfängerinnen oder Empfänger (Französisch oder Englisch) erstellen.
 

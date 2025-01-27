@@ -4,9 +4,9 @@ title: Erste Schritte mit Inhaltsfragmenten
 description: Erfahren Sie, wie Sie Inhaltsfragmente erstellen
 exl-id: d155d102-a5bc-4b9b-b29c-24fde4d95ceb
 source-git-commit: 7185e1cbc8ce9dd325bebc20c0ac362d7067f3e9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '433'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 95%
 >[!CONTEXTUALHELP]
 >id="acw_personalization_editor_fragments"
 >title="Hinzufügen von Ausdrucksfragmenten"
->abstract="Ausdrucksfragmente sind vordefinierte Inhaltsblöcke, die ein bestimmtes Rendering enthalten, das Sie in Ihre Sendungen einfügen können. Sie können zum Beispiel ein Logo, eine Grußbotschaft oder einen Link zur Mirrorseite der Nachricht hinzufügen. Sie können auch eigene Ausdrucksfragmente erstellen, die Ihren Anforderungen entsprechen."
+>abstract="Ausdrucksfragmente sind vordefinierte Inhaltsbausteine, die ein spezifisches Rendering enthalten, das Sie in Ihre Sendungen einfügen können. Sie können zum Beispiel ein Logo, eine Grußbotschaft oder einen Link zur Mirrorseite der Nachricht hinzufügen. Sie können auch eigene Ausdrucksfragmente erstellen, die Ihren Anforderungen entsprechen."
 
 ## Was sind Inhaltsfragmente? {#what}
 

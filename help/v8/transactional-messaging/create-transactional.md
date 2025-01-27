@@ -4,9 +4,9 @@ title: Erstellen von Transaktionsnachrichten
 description: Informationen zum Erstellen einer Transaktionsnachricht in der Campaign Web-Benutzeroberfläche
 exl-id: 74e468f5-d9c3-4470-8ff2-68648b5f396f
 source-git-commit: 7185e1cbc8ce9dd325bebc20c0ac362d7067f3e9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1209'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -120,8 +120,8 @@ Der Kontextinhalt hängt von der benötigten Personalisierung ab.
 
 >[!CONTEXTUALHELP]
 >id="acw_personalization_editor_event_context"
->title="Event context"
->abstract="Dieses Menü enthält Variablen aus dem Trigger -Ereignis, die Sie zur Personalisierung Ihres Transaktionsnachrichteninhalts nutzen können."
+>title="Ereigniskontext"
+>abstract="Dieses Menü enthält Variablen aus dem Trigger-Ereignis, die Sie zur Personalisierung Ihres Transaktionsnachrichteninhalts nutzen können."
 
 Die Bearbeitung des Inhalts einer Transaktionsnachricht ist wie die Inhaltserstellung für einen Versand. Klicken Sie auf **[!UICONTROL E-Mail-Designer öffnen]** oder **[!UICONTROL E-Mail-Text bearbeiten]** und wählen Sie einen Vorlageninhalt aus oder importieren Sie Ihren HTML-Code.
 
