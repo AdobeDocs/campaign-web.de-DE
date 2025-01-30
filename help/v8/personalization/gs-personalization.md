@@ -9,9 +9,9 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: cce1da98-924b-415b-99d9-f4def4a4e874
-source-git-commit: 7185e1cbc8ce9dd325bebc20c0ac362d7067f3e9
+source-git-commit: b2b51bc6a49093c3d68ba0c54368f11791c50ce2
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '560'
 ht-degree: 100%
 
 ---
@@ -39,6 +39,8 @@ Sie können den Inhalt Ihrer Nachrichten dynamisch gestalten, indem Sie JavaScri
 
   ![](assets/condition-sample.png){zoomable="yes"}{width="800" align="center"}
 
+➡️ [Entdecken Sie diese Funktion im Video](#video)
+
 ## Zugreifen auf den Ausdruckseditor {#access}
 
 Adobe Campaign Web bietet einen Ausdruckseditor, in dem Sie alle Daten auswählen, anordnen, anpassen und validieren können, um ein benutzerdefiniertes Erlebnis für Ihren Inhalt zu erstellen. Der Ausdruckseditor steht für alle Kanäle in allen Feldern mit dem Symbol **[!UICONTROL Personalisierungsdialogfeld öffnen]** zur Verfügung, z. B. das Betreffzeilenfeld oder E-Mail-Links und Text-/Schaltflächen-Inhaltskomponenten.
@@ -60,3 +62,9 @@ Im Folgenden finden Sie einige Beispiele für den Zugriff auf den Ausdrucksedito
 >[!NOTE]
 >
 >Zusätzlich zum Ausdruckseditor können Sie bei der Gestaltung einer E-Mail auch einen dedizierten Builder für bedingte Inhalte verwenden. [Erfahren Sie, wie Sie bedingte Inhalte in E-Mails erstellen](conditions.md)
+
+## Anleitungsvideo {#video}
+
+Erfahren Sie, wie Sie Nachrichteninhalte mithilfe des Ausdruckseditors dynamisch gestalten können, um Ihre Nachricht zu personalisieren oder bedingte Inhalte hinzuzufügen.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3425795?quality=12)
