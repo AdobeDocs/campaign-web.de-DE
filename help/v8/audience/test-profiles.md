@@ -5,10 +5,10 @@ feature: Audiences, Profiles, Seed Address, Proofs
 role: User
 level: Beginner
 exl-id: d372713d-3024-46a1-b62e-f271b8ac829f
-source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
+source-git-commit: 321fd5f5cb7940f8395f11cebb207548af6733d9
 workflow-type: tm+mt
-source-wordcount: '592'
-ht-degree: 100%
+source-wordcount: '614'
+ht-degree: 97%
 
 ---
 
@@ -20,6 +20,8 @@ ht-degree: 100%
 >abstract="Testprofile sind zusätzliche Empfängerinnen und Empfänger, die Ihnen ermöglichen, die Personalisierung und das Rendern vor dem Nachrichtenversand in der Vorschau anzusehen und zu testen. Bei der Vorschau eines Nachrichteninhalts können Sie ein Testprofil auswählen und Testsendungen an die Testprofile durchführen, um den Nachrichteninhalt und die Einstellungen zu kontrollieren und zu validieren."
 
 Testprofile werden verwendet, um Testsendungen durchzuführen und den Inhalt sowie die Einstellungen Ihrer Nachricht zu validieren. Diese Profile sind zusätzliche Empfängerinnen und Empfänger, die Ihnen ermöglichen, vor dem Senden Ihrer Nachrichten die Personalisierung und das Rendern in der Vorschau anzusehen und zu testen. Bei der Vorschau eines Nachrichteninhalts können Sie ein Testprofil auswählen und Testsendungen an die Testprofile durchführen, um den Nachrichteninhalt und die Einstellungen zu kontrollieren und zu validieren.
+
+➡️ [Entdecken Sie diese Funktion im Video](#video)
 
 <!--Learn more on test profiles in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}.-->
 
@@ -105,3 +107,9 @@ You do not need to enter all fields of each tab when creating a seed address. Mi
 Das soeben erstellte Testprofil kann jetzt zur Durchführung einer Testsendung verwendet werden. [Weitere Informationen](../preview-test/test-deliveries.md#test-profiles)
 
 <!--Use test profiles in Direct mail? cf v7/v8-->
+
+## Anleitungsvideo {#video}
+
+Erfahren Sie, wie Sie Testprofile mithilfe der Web-Benutzeroberfläche von Campaign erstellen und verwalten.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3442844?quality=12)
