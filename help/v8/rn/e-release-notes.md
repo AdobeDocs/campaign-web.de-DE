@@ -4,7 +4,7 @@ description: Entdecken Sie die neuen Funktionen der nächsten Version der Campai
 hide: true
 hidefromtoc: true
 exl-id: a4c6ecb7-d657-46de-aa55-90c4cb45164b
-source-git-commit: 1864f6c847e1720eb5e58a0572b110e7991fafb8
+source-git-commit: 965681fabb7696f745f4f958e2961197395c30bb
 workflow-type: tm+mt
 source-wordcount: '514'
 ht-degree: 31%
@@ -67,6 +67,7 @@ Die folgenden Funktionen und Verbesserungen sind ab Januar verfügbar.
 <tr>
 <td>
 <p>Sie können jetzt Typologien und Typologieregeln in der Web-Benutzeroberfläche von Adobe Campaign erstellen. Eine Typologie ist eine Sammlung von Typologieregeln, mit denen der Versand von Sendungen gesteuert, gefiltert und priorisiert werden kann. Typologien überprüfen, ob Ihre Sendungen immer erforderliche Elemente enthalten (z. B. einen Abmelde-Link oder eine Betreffzeile) oder Filterregeln anwenden, um Gruppen aus Ihrer Zielgruppe auszuschließen (z. B. Abonnenten, Konkurrenten oder Kunden, die nicht Mitglied im Treueprogramm sind).</p>
+<img src="assets/do-not-localize/typology.gif">
 <!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
 </td>
 </tr>
@@ -83,6 +84,7 @@ Die folgenden Funktionen und Verbesserungen sind ab Januar verfügbar.
 <tr>
 <td>
 <p>Sie können Auflistungen jetzt direkt über die Adobe Campaign-Web-Benutzeroberfläche erstellen. Eine Auflistung ist eine Liste von Werten, die vom System zum Ausfüllen von Feldern vorgeschlagen werden. Verwenden Sie Auflistungen, um die Werte dieser Felder zu standardisieren, die Dateneingabe zu unterstützen oder sie in Abfragen zu verwenden.</p>
+<img src="assets/do-not-localize/enumerations.gif">
 <!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
 </td>
 </tr>
@@ -99,6 +101,7 @@ Die folgenden Funktionen und Verbesserungen sind ab Januar verfügbar.
 <tr>
 <td>
 <p>Sie können jetzt in der Web-Benutzeroberfläche von Adobe Campaign auf technische Optionen zugreifen und Ihre eigenen benutzerdefinierten Optionen entsprechend Ihren Anforderungen erstellen. Dies ist besonders nützlich, wenn Sie mit Workflow-Aktivitäten mit JavaScript-Code arbeiten, um Zwischendaten zu speichern.</p>
+<img src="assets/do-not-localize/options.gif">
 <!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
 </td>
 </tr>
@@ -116,6 +119,7 @@ Die folgenden Funktionen und Verbesserungen sind ab Januar verfügbar.
 <tr>
 <td>
 <p>Sie können jetzt JavaScript-Codes in der Web-Benutzeroberfläche von Adobe Campaign erstellen. Auf diese Weise können Sie wiederverwendbare Funktionen erstellen, die in Workflows verwendet werden können, ähnlich wie bei einer Bibliothek.</p>
+<img src="assets/do-not-localize/javascript.gif">
 <!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
 </td>
 </tr>
