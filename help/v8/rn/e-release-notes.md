@@ -4,10 +4,10 @@ description: Entdecken Sie die neuen Funktionen der nächsten Version der Campai
 hide: true
 hidefromtoc: true
 exl-id: a4c6ecb7-d657-46de-aa55-90c4cb45164b
-source-git-commit: 965681fabb7696f745f4f958e2961197395c30bb
+source-git-commit: 202796bbaa26afb0741a5eb3947795ceff7e5414
 workflow-type: tm+mt
-source-wordcount: '514'
-ht-degree: 31%
+source-wordcount: '511'
+ht-degree: 21%
 
 ---
 
@@ -51,7 +51,7 @@ Die folgenden Funktionen und Verbesserungen sind ab Januar verfügbar.
 <tbody>
 <tr>
 <td>
-<p>Sie können jetzt in der Web-Benutzeroberfläche von Campaign externe Sendungen und Vorlagen für externe Sendungen definieren. In diesem Modus werden Nachrichten in einer Eingabedatei generiert, die mit einem externen Anbieter geteilt werden können. Der externe Versandmodus ist der Standardmodus für den Briefpost-Kanal.</p>
+<p>Sie können jetzt externe Sendungen und externe Versandvorlagen in der Web-Benutzeroberfläche von Campaign definieren. In diesem Modus werden Nachrichten in eine Eingabedatei kompiliert, die mit Ihrem externen Anbieter geteilt werden kann. Standardmäßig wird der externe Versandmodus für den Briefpostkanal verwendet.</p>
 </td>
 </tr>
 </tbody>
@@ -60,13 +60,13 @@ Die folgenden Funktionen und Verbesserungen sind ab Januar verfügbar.
 <table>
 <thead>
 <tr>
-<th><strong>Steuern und Filtern des Versands mit Typologien</strong><br/></th>
+<th><strong>Erstellen von Geschäftsregeln (Typologieregeln)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Sie können jetzt Typologien und Typologieregeln in der Web-Benutzeroberfläche von Adobe Campaign erstellen. Eine Typologie ist eine Sammlung von Typologieregeln, mit denen der Versand von Sendungen gesteuert, gefiltert und priorisiert werden kann. Typologien überprüfen, ob Ihre Sendungen immer erforderliche Elemente enthalten (z. B. einen Abmelde-Link oder eine Betreffzeile) oder Filterregeln anwenden, um Gruppen aus Ihrer Zielgruppe auszuschließen (z. B. Abonnenten, Konkurrenten oder Kunden, die nicht Mitglied im Treueprogramm sind).</p>
+<p>Sie können jetzt Typologien und Typologieregeln in der Adobe Campaign-Web-Oberfläche erstellen. Eine Typologie ist eine Sammlung von Typologieregeln, mit denen Sendungen gesteuert, gefiltert und priorisiert werden können. Typologien stellen sicher, dass Ihre Sendungen immer erforderliche Elemente enthalten (z. B. einen Abmelde-Link oder eine Betreffzeile) und wenden Filterregeln an, um bestimmte Gruppen aus Ihrer Zielgruppe auszuschließen (z. B. Abonnenten, Konkurrenten oder Kunden, die nicht Mitglied des Treueprogramms sind).</p>
 <img src="assets/do-not-localize/typology.gif">
 <!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
 </td>
