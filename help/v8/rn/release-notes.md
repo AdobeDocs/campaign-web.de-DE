@@ -2,10 +2,10 @@
 title: Versionshinweise zur Web-Benutzeroberfläche von Campaign v8
 description: Entdecken Sie die neuen Funktionen der neuesten Version der Campaign Web-Benutzeroberfläche
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 898a9d62a18de0ee27713b5f15b032103463fcef
+source-git-commit: c759dd72e2ca3d11b4dad0cd38410d699b651cad
 workflow-type: tm+mt
-source-wordcount: '663'
-ht-degree: 85%
+source-wordcount: '585'
+ht-degree: 83%
 
 ---
 
@@ -63,22 +63,24 @@ Die folgenden Funktionen und Verbesserungen sind ab der Version Januar verfügba
 </tbody>
 </table>
 
+<!--
 <table>
 <thead>
 <tr>
-<th><strong>Erstellen von Geschäftsregeln (Typologieregeln)</strong><br/></th>
+<th><strong>Create business rules (typology rules)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Sie können nun Typologien und Typologieregeln in der Adobe Campaign Web-Oberfläche erstellen. Eine Typologie ist eine Sammlung von Typologieregeln, mit denen Sie Sendungen steuern, filtern und priorisieren können. Typologien stellen sicher, dass Ihre Sendungen stets erforderliche Elemente enthalten (z. B. einen Abmelde-Link oder eine Betreffzeile) und Filterregeln anwenden, um bestimmte Gruppen aus Ihrer Zielgruppe auszuschließen (z. B. Abonnierende, Konkurrentinnen bzw. Konkurrenten oder Kundschaft, die nicht Mitglied des Treueprogramms ist).</p>
+<p>You can now create typologies and typology rules in the Adobe Campaign web interface. A typology is a collection of typology rules that help control, filter, and prioritize deliveries. Typologies ensure that your deliveries always contain required elements (such as an unsubscribe link or subject line) and apply filtering rules to exclude specific groups from your target audience (such as unsubscribers, competitors, or non-loyalty customers).</p>
 <img src="assets/do-not-localize/typology.gif">
-<p>Weitere Informationen finden Sie in der <a href="../administration/typologies.md">entsprechenden Dokumentation</a>.</p>
+<p>For more information, refer to the <a href="../administration/typologies.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
 </table>
+-->
 
 <table>
 <thead>
