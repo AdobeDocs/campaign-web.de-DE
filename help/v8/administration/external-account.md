@@ -1,16 +1,15 @@
 ---
-title: Externes Konto
+title: Externes Konto verwalten
 description: Informationen zum Konfigurieren externer Konten
 exl-id: e37d6cb0-f8fa-4f1c-9cdd-46f9666c2d18
-source-git-commit: bca2b133968d9392098e9b8b76d65e44d7e84645
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
 workflow-type: tm+mt
-source-wordcount: '565'
-ht-degree: 100%
+source-wordcount: '726'
+ht-degree: 51%
 
 ---
 
-# Konfigurieren externer Konten {#external-accounts}
-
+# Externe Konten verwalten {#external-accounts}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn2"
@@ -18,17 +17,16 @@ ht-degree: 100%
 >abstract="Sie können jetzt eine Verbindung mit weiteren Plattformen herstellen oder die Verbindungen an Ihren Workflow anpassen und einfach neue externe Konten erstellen, um Ihre spezifischen Anforderungen zu erfüllen und nahtlose Datenübertragungen zu gewährleisten."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=de" text="Siehe Versionshinweise"
 
-
 >[!AVAILABILITY]
 >
-> Beachten Sie, dass externe Konten derzeit nur für Bounce-E-Mails (POP3) und die Ausführungsinstanz verfügbar sind. In Zukunft werden zusätzliche Kontotypen hinzugefügt.
+> Beachten Sie, dass externe Konten derzeit nur für Bounce Messages (POP3), Routing und die Ausführungsinstanz verfügbar sind und in Zukunft weitere Kontotypen hinzugefügt werden sollen.
 > Nicht unterstützte externe Konten, die in der Adobe Campaign-Konsole erstellt wurden, sind in der Web-Benutzeroberfläche sichtbar, können jedoch nicht bearbeitet oder aufgerufen werden.
 
 Adobe Campaign verfügt über eine Reihe vordefinierter externer Konten, sodass eine einfache Integration mit verschiedenen Systeme möglich ist.  Wenn Sie eine Verbindung zu zusätzlichen Plattformen herstellen oder die Verbindungen an Ihren Workflow anpassen müssen, können Sie jetzt einfach neue externe Konten über die Web-Benutzeroberfläche erstellen, um Ihre spezifischen Anforderungen zu erfüllen und eine nahtlose Datenübertragung zu gewährleisten.
 
 ## Erstellen eines externen Kontos {#create-ext-account}
 
-Gehen Sie wie folgt vor, um ein neues externes Konto zu erstellen.  Detaillierte Einstellungen hängen vom Typ des externen Kontos ab.
+Gehen Sie wie folgt vor, um ein neues externes Konto zu erstellen.  Die detaillierten Einstellungen hängen vom Typ des externen Kontos ab. [Weitere Informationen](#campaign-specific)
 
 1. Wählen Sie im Menü im linken Fensterbereich unter **[!UICONTROL Administration]** die Option **[!UICONTROL Externe Konten]** aus.
 
@@ -36,23 +34,29 @@ Gehen Sie wie folgt vor, um ein neues externes Konto zu erstellen.  Detailliert
 
    ![](assets/external_account_create_1.png)
 
-1. Geben Sie Ihr **[!UICONTROL Label]** ein und wählen Sie den **[!UICONTROL Typ]** Ihres externen Kontos aus.
+1. Geben Sie Ihren **[!UICONTROL Titel]** ein und wählen Sie das externe Konto **[!UICONTROL Typ]** aus.
+
+   >[!NOTE]
+   >
+   >Die Einstellungen für kampagnenspezifische Typen werden in [ Abschnitt ](#campaign-specific).
 
    ![](assets/external_account_create_2.png)
 
 1. Klicken Sie auf **[!UICONTROL Erstellen]**.
 
-1. Über die Dropdown-Liste **[!UICONTROL Erweiterte Optionen]** können Sie bei Bedarf den **[!UICONTROL internen Namen]** oder den **[!UICONTROL Ordnerpfad]** ändern.
+1. Aus der Dropdown **[!UICONTROL Liste „Zusätzliche Optionen]** können Sie bei **[!UICONTROL den Pfad Interner Name]** oder **[!UICONTROL Ordner]** ändern.
 
    ![](assets/external_account_create_3.png)
 
-1. Aktivieren Sie die Option **[!UICONTROL Automatisch exportieren]**, wenn die von diesem externen Konto verwalteten Daten automatisch exportiert werden sollen.
+1. Aktivieren Sie die Option **[!UICONTROL Automatisch in Pakete exportieren]**, wenn Ihre von diesem externen Konto verwalteten Daten automatisch exportiert werden sollen. <!--Exported where??-->
 
-1. Konfigurieren Sie den Zugriff auf das Konto, indem Sie die Anmeldedaten entsprechend dem gewählten externen Kontotyp angeben.
+   ![](assets/external_account_create_exported.png)
 
-1. Klicken Sie auf **[!UICONTROL Verbindung testen]**, um zu prüfen, ob Ihre Konfiguration korrekt ist.
+1. Konfigurieren Sie **[!UICONTROL Abschnitt]** Details“ den Zugriff auf das Konto, indem Sie die Anmeldeinformationen je nach ausgewähltem externen Kontotyp angeben. [Weitere Informationen](#bounce)
 
-1. Sie können Ihr externes Konto über das Menü **[!UICONTROL Details...]** duplizieren oder löschen.
+1. Klicken Sie **[!UICONTROL Verbindung testen]**, um zu überprüfen, ob Ihre Konfiguration korrekt ist.
+
+1. Über das Menü **[!UICONTROL Mehr…]** können Sie Ihr externes Konto duplizieren oder löschen.
 
    ![](assets/external_account_create_4.png)
 
@@ -60,48 +64,65 @@ Gehen Sie wie folgt vor, um ein neues externes Konto zu erstellen.  Detailliert
 
 ## Campaign-spezifische externe Konten {#campaign-specific}
 
+Gehen Sie je nach ausgewähltem externen Kontotyp wie folgt vor, um die Kontoeinstellungen zu konfigurieren.
+
 ### Bounce Messages (POP3) {#bounce}
 
 >[!AVAILABILITY]
 >
 > OAuth 2.0 wird derzeit nicht unterstützt.
 
-Das externe Konto „Bounce-E-Mails“ gibt das externe POP3-Konto an, das für die Verbindung mit dem E-Mail-Service verwendet werden soll.  Alle Server, die für den POP3-Zugriff konfiguriert sind, können Antwortsendungen empfangen.
+Das externe Konto Bounce Messages gibt das externe POP3-Konto an, das für die Verbindung mit dem E-Mail-Service verwendet wird. Alle Server, die für den POP3-Zugriff konfiguriert sind, können Antwortsendungen empfangen.
 
 ![](assets/external_account_bounce.png)
 
-Um das externe Konto **[!UICONTROL Bounce Messages (POP3)]** zu konfigurieren, benötigen Sie folgende Informationen:
+Um das externe Konto **[!UICONTROL Bounce Messages (POP3)]** zu konfigurieren, füllen Sie die folgenden Felder aus:
 
-* **[!UICONTROL Server]**
+* **[!UICONTROL Server]** - URL des POP3-Servers
 
-  URL des POP3-Servers
+* **[!UICONTROL Port]** - Port-Nummer der POP3-Verbindung (Standard-Port ist 110)
 
-* **[!UICONTROL Port]**
+* **[!UICONTROL Konto]** - Name des Benutzers
 
-  Nummer des POP3-Verbindungs-Ports (der Standard-Port ist 110)
+* **[!UICONTROL Kennwort]** - Kennwort für Benutzerkonto
 
-* **[!UICONTROL Konto]**
-
-  Name der Benutzerin bzw. des Benutzers
-
-* **[!UICONTROL Passwort]**
-
-  Passwort des Benutzerkontos
-
-* **[!UICONTROL Verschlüsselung]**
-
-  Typ der gewählten Verschlüsselung zwischen:
+* **[!UICONTROL Verschlüsselung]** - Typ der gewählten Verschlüsselung zwischen:
 
    * Standardmäßig (POP3 wenn Port 110, POP3S wenn Port 995)
    * POP3 schaltet auf SSL nach Übermittlung von STARTTLS
    * POP3 nicht gesichert (standardmäßig Port 110)
    * POP3 gesichert über SSL (standardmäßig Port 995)
 
-* **[!UICONTROL Funktion]**
+* **[!UICONTROL Funktion]** - Eingehende E-Mail, wenn das externe Konto für den Empfang eingehender E-Mails konfiguriert ist, oder SOAP-Router zur Verarbeitung von SOAP-Anfragen.
 
-  Eingehende E-Mail, wenn das externe Konto für den Empfang eingehender E-Mails konfiguriert ist, oder SOAP-Router für die Verarbeitung SOAP-Anfragen.
+### Routing {#routing}
 
-### Ausführungsinstanz{#instance-exec}
+Gehen Sie wie folgt vor, um ein bestimmtes externes Konto zu konfigurieren, das in Ihren externen Sendungen verwendet wird.
+
+1. Erstellen Sie ein externes Konto. [Weitere Informationen](../administration/external-account.md#create-ext-account)
+
+1. Wählen Sie den **[!UICONTROL Routing]**-Typ aus.
+
+   ![](assets/external-account-routing.png){zoomable="yes"}
+
+1. Wählen Sie den gewünschten Kanal aus und klicken Sie auf **[!UICONTROL Erstellen]**.
+
+1. Im Abschnitt **[!UICONTROL Details]** ist **[!UICONTROL Extern]** standardmäßig als **[!UICONTROL Versandmodus]** ausgewählt.
+
+   ![](assets/external-account-delivery-mode.png){zoomable="yes"}
+
+   >[!NOTE]
+   >
+   >Derzeit **[!UICONTROL Extern]** der einzige verfügbare Modus.
+
+1. Um den Prozess nach der Ausführung des Versands zu verwalten, können Sie diesen in einen Nachbearbeitungs-Workflow externalisieren. Dazu müssen Sie einen Workflow mit der Aktivität [Externes Signal](../workflows/activities/external-signal.md) erstellen und aus dem Feld **[!UICONTROL Nachbearbeitung]** auswählen.
+
+   ![](assets/external-account-post-processing.png){zoomable="yes"}
+
+1. Im Feld **[!UICONTROL Aktivität]** können Sie den Namen der Workflow-Aktivität für die Nachbearbeitung bearbeiten, der in den Protokollen angezeigt wird. <!--you can edit the name of the activity that will be created if you add an external or bulk delivery to a workflow-->
+
+
+### Ausführungsinstanz {#instance-exec}
 
 Im Falle einer segmentierten Architektur müssen Sie die mit der Kontrollinstanz verknüpften Ausführungsinstanzen identifizieren und Verbindungen zwischen ihnen herstellen. Transaktionsnachrichtenvorlagen werden in der Ausführungsinstanz bereitgestellt.
 

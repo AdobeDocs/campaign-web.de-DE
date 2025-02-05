@@ -1,58 +1,137 @@
 ---
 title: Benutzerdefinierte Felder
-description: Informationen dazu, wie Sie benutzerdefinierte Felder konfigurieren können
+description: Erfahren Sie, wie Sie benutzerdefinierte Felder und ihre Sichtbarkeit in der Benutzeroberfläche konfigurieren.
 exl-id: 34e7e0b7-3981-43b1-95a5-6c672adafdc9
-source-git-commit: 728bc032614067bc420b80a4cac634a08f594ff8
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
 workflow-type: tm+mt
-source-wordcount: '225'
-ht-degree: 100%
+source-wordcount: '898'
+ht-degree: 5%
 
 ---
 
+
 # Konfigurieren benutzerdefinierter Felder {#custom-fields}
 
-Benutzerdefinierte Felder sind zusätzliche Attribute, die über die Adobe Campaign-Konsole zu nativen Schemata hinzugefügt werden. Weitere Informationen finden Sie in der [Dokumentation zu Adobe Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema.html?lang=de){target="_blank"}.
+>[!CONTEXTUALHELP]
+>id="acw_schema_editcustomfields"
+>title="Benutzerdefinierte Details bearbeiten"
+>abstract="Alle benutzerdefinierten Felder, die in der Benutzeroberfläche für das ausgewählte Schema angezeigt werden, werden angezeigt. Sie können die Reihenfolge ändern, in der Felder in der Benutzeroberfläche angezeigt werden, indem Sie die Pfeile nach oben und unten verwenden, und Felder durch Hinzufügen von Trennzeichen in Unterabschnitten gruppieren. Um ein benutzerdefiniertes Feld zu löschen oder Einstellungen wie Sichtbarkeitsbedingungen zu bearbeiten, klicken Sie auf die Schaltfläche mit den Auslassungspunkten."
 
-Diese benutzerdefinierten Felder werden in verschiedenen Bildschirmen sichtbar, z. B. in den Details eines Profils oder eines Testprofils.
+>[!CONTEXTUALHELP]
+>id="acw_schema_editcustomfields_settings_general"
+>title="Allgemein"
+>abstract="Definieren Sie die allgemeinen Einstellungen des benutzerdefinierten Felds. Wenn keine Beschriftung angegeben wird, wird die im Schema definierte Beschriftung angezeigt. Verwenden Sie das Feld **Sichtbar, wenn** um eine Bedingung mithilfe eines xtk-Ausdrucks zu definieren, der steuert, wann das Feld angezeigt wird. Sie können das Feld in der Benutzeroberfläche auch als obligatorisch oder schreibgeschützt markieren."
 
-In der Web-Benutzeroberfläche können Sie zwar keine benutzerdefinierten Felder erstellen, dafür aber ihre Anzeige ändern. Diese Änderungen gelten für alle Campaign-Benutzenden.
+>[!CONTEXTUALHELP]
+>id="acw_schema_editcustomfields_settings_link"
+>title="Verknüpfungseigenschaften"
+>abstract="Verwenden Sie den Abfrage-Modellierer, um Regeln für die Anzeige eines benutzerdefinierten Felds vom Typ Link anzugeben. Beschränken Sie beispielsweise Listenwerte auf der Grundlage der Eingabe eines anderen Felds."
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_editcustomfields_settings_layout"
+>title="Layout"
+>abstract="Standardmäßig werden benutzerdefinierte Felder in der -Benutzeroberfläche in zwei Spalten angezeigt. Schalten Sie diese Option ein, um das benutzerdefinierte Feld über die gesamte Breite des Bildschirms statt über zwei Spalten anzuzeigen."
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_editcustomfields_separatorproperties"
+>title="Trennzeigenschaften"
+>abstract="Geben Sie den Namen an, der in der Benutzeroberfläche für den Unterabschnitt angezeigt werden soll."
+
+<!-- NOT USED IN THE UI?-->
+>[!CONTEXTUALHELP]
+>id="acw_schema_editcustomfields_settings"
+>title="Attributeinstellungen"
+>abstract="Attributeinstellungen"
+
+Benutzerdefinierte Felder sind zusätzliche Attribute, die vordefinierten Schemata über die Adobe Campaign-Konsole hinzugefügt werden. Sie ermöglichen es Ihnen, Schemata anzupassen, indem neue Attribute entsprechend den Anforderungen Ihres Unternehmens eingefügt werden. Wie Sie ein Schema erweitern, erfahren Sie in der Dokumentation zu [Adobe Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema.html?lang=de){target="_blank"}.
+
+Benutzerdefinierte Felder können auf verschiedenen Bildschirmen angezeigt werden, z. B. in Profildetails in der Web-Benutzeroberfläche von Campaign. Admins können steuern, welche Felder sichtbar sind und wie sie angezeigt werden. Diese Änderungen gelten für alle Campaign-Benutzer.
 
 >[!NOTE]
 >
->Sie müssen über Administratorrechte verfügen, um benutzerdefinierte Felder zu ändern.
+>Sie benötigen Administratorrechte, um benutzerdefinierte Felder zu verwalten.
 
-Benutzerdefinierte Felder sind in den folgenden Schemata verfügbar:
+Benutzerdefinierte Felder sind für die folgenden Schemata verfügbar:
 
-* Empfängende (nms)
 * Kampagnen (nms)
-* Sendungen (nms)
+* Pläne (nms)
+* Programme (nms)
+* Empfängende (nms)
 * Testadressen (nms)
+* Sendungen (nms)
 
-Gehen Sie wie folgt vor, um benutzerdefinierte Felder zu konfigurieren:
+## Hinzufügen benutzerdefinierter Felder zur Benutzeroberfläche {#add}
 
-1. Klicken Sie unter **Administration** auf **Schemata**.
+Gehen Sie wie folgt vor, um benutzerdefinierte Felder in der Benutzeroberfläche anzuzeigen:
 
-   ![](assets/custom-fields.png){zoomable="yes"}
+1. Navigieren Sie zum Menü **[!UICONTROL Schemata]** im linken Navigationsbereich und suchen Sie das gewünschte Schema.
 
-1. Suchen Sie das gewünschte Schema, z. B. das Schema **Empfangende (nms)**.
+   Verwenden Sie den Filter **[!UICONTROL Bearbeitbar]** im Bereich „Filter“, um Schemas mit benutzerdefinierten Feldern schnell zu identifizieren.
 
-   ![](assets/custom-fields2.png){zoomable="yes"}
+   ![](assets/custom-fields-list.png)
 
-1. Klicken Sie auf die Schaltfläche **Mehr Aktionen** und wählen Sie **Benutzerdefiniertes Detail bearbeiten**.
+1. Klicken Sie auf das Stiftsymbol neben dem Schemanamen, um auf die benutzerdefinierten Felder zuzugreifen. In diesem Beispiel möchten wir Felder für das Schema **[!UICONTROL Empfänger]** hinzufügen.
 
-   ![](assets/custom-fields3.png){zoomable="yes"}
+1. Die Liste der benutzerdefinierten Felder, die in der Benutzeroberfläche für die Anzeige des Schemas angezeigt werden. Hier ist das Feld „CRM-ID“ im Detailbildschirm des Profils sichtbar und wurde als Pflichtfeld markiert.
 
-   Auf dem Bildschirm **Benutzerdefiniertes Detail bearbeiten** werden alle benutzerdefinierten Felder und deren Typ angezeigt.
+   | Konfiguration benutzerdefinierter Felder | Rendern in der Benutzeroberfläche |
+   |  ---  |  ---  |
+   | ![](assets/custom-fields-detail.png){zoomable="yes"} | ![](assets/custom-fields-detail-crm.png){zoomable="yes"} |
 
-   ![](assets/custom-fields4.png){zoomable="yes"}
+1. Um ein benutzerdefiniertes Feld zur Benutzeroberfläche hinzuzufügen, klicken Sie auf die **[!UICONTROL Hinzufügen]**-Schaltfläche in der oberen rechten Ecke des Bildschirms und wählen Sie eine der folgenden Optionen:
 
-   Auf diesem Bildschirm können Sie die folgenden Aktionen durchführen:
+   * **[!UICONTROL Benutzerdefinierte Attribute]**: Wählen Sie ein oder mehrere benutzerdefinierte Felder aus, die auf der Benutzeroberfläche angezeigt werden sollen.
+   * **[!UICONTROL Liste der benutzerdefinierten Felder automatisch ausfüllen]**: Fügen Sie der Benutzeroberfläche alle benutzerdefinierten Felder hinzu, die für das Schema definiert sind.
 
-   * Die Reihenfolge der verschiedenen Felder anhand der Nach-oben- und Nach-unten-Pfeile ändern
-   * Das Feld obligatorisch machen: Aktivieren Sie das Kästchen **Obligatorisch**.
-   * Das Feld sichtbar machen oder ausblenden: Klicken Sie auf die Schaltfläche **Sichtbar**.
-   * Eine Sichtbarkeitsbedingung hinzufügen: Klicken Sie auf die Schaltfläche **Sichtbar, wenn** und schreiben Sie Ihren xtk-Ausdruck mit den verfügbaren xtk-Funktionen.
+   ![](assets/custom-fields-add.png)
 
-1. Navigieren Sie zu dem Bildschirm, auf dem das benutzerdefinierte Feld angezeigt wird. Im vorliegenden Beispiel handelt es sich um den Bildschirm mit den Profildetails.
+1. Nachdem benutzerdefinierte Felder hinzugefügt wurden, können Sie:
 
-   ![](assets/custom-fields5.png){zoomable="yes"}
+   * **Felder neu anordnen**: Verwenden Sie die Pfeile nach oben und unten.
+   * **Felder als Pflichtfelder festlegen**: Aktivieren Sie das Kontrollkästchen **Pflichtfelder**.
+   * **Feldeinstellungen bearbeiten**: Klicken Sie auf die Schaltfläche mit den Auslassungspunkten und wählen Sie **[!UICONTROL Bearbeiten]**. [Weitere Informationen](#settings)
+   * **Felder löschen**: Klicken Sie auf die Schaltfläche mit den Auslassungspunkten und wählen Sie **[!UICONTROL Löschen]**.
+   * **Felder in der Benutzeroberfläche in Unterabschnitte unterteilen**: Klicken Sie auf **[!UICONTROL Hinzufügen]** und wählen Sie **[!UICONTROL Trennzeichen]**. [Weitere Informationen](#separator)
+
+## Einstellungen für benutzerdefinierte Felder konfigurieren {#settings}
+
+Um spezifische Einstellungen für jedes benutzerdefinierte Feld zu konfigurieren, klicken Sie auf die Schaltfläche mit den Auslassungspunkten neben dem gewünschten Feld und wählen Sie **[!UICONTROL Bearbeiten]**.
+
+![](assets/custom-fields-settings.png)
+
+Verfügbare Einstellungen sind:
+
+* **[!UICONTROL Attribut]**: Der Name des benutzerdefinierten Felds.
+* **[!UICONTROL Beschriftung (benutzerdefiniert)]**: Die Beschriftung, die auf der Benutzeroberfläche angezeigt werden soll. Wenn keine Beschriftung angegeben wird, wird die im Schema definierte Beschriftung angezeigt.
+* **[!UICONTROL Sichtbar, wenn]**: Definieren Sie eine Bedingung mithilfe eines xtk-Ausdrucks, der steuert, wann das Feld angezeigt wird. Blenden Sie beispielsweise dieses Feld aus, wenn ein anderes Feld leer ist.
+* **[!UICONTROL Obligatorisch]**: Machen Sie das Feld in der Benutzeroberfläche zu einem Pflichtfeld.
+* **[!UICONTROL Schreibgeschützt]**: Das Feld in der Benutzeroberfläche als schreibgeschützt festlegen. Benutzende können den Wert des Felds nicht bearbeiten.
+* **[!UICONTROL Filtereinstellungen]** (für Felder vom Typ „Link„): Verwenden Sie den Abfrage-Modellierer, um Regeln für die Anzeige eines benutzerdefinierten Felds vom Typ „Link“ anzugeben. Beschränken Sie beispielsweise Listenwerte auf der Grundlage der Eingabe eines anderen Felds.
+
+  Sie können auch den Wert referenzieren, der in andere Felder in Ihren Bedingungen eingegeben wurde, indem Sie die `$(<field-name>)` Syntax verwenden. Auf diese Weise können Sie auf den aktuellen Wert eines Feldes verweisen, wie er im Formular eingegeben wurde, auch wenn dieser noch nicht in der Datenbank gespeichert wurde.
+
+  Im folgenden Beispiel prüft die Bedingung, ob der Wert des @ref mit dem im @refCom Feld eingegebenen Wert übereinstimmt. Wenn Sie dagegen `@refCom` anstelle von `$(@refCom)` verwenden, wird auf den Wert des @ref Felds verwiesen, so wie es in der Datenbank vorhanden ist.
+
+  +++Beispiel anzeigen
+
+  ![](assets/custom-fields-ref.png)
+
++++
+
+* **[!UICONTROL Über zwei Spalten]**: Standardmäßig werden benutzerdefinierte Felder in der Benutzeroberfläche in zwei Spalten angezeigt. Schalten Sie diese Option ein, um das benutzerdefinierte Feld über die gesamte Breite des Bildschirms statt über zwei Spalten anzuzeigen.
+
+## Organisieren von benutzerdefinierten Feldern in Unterabschnitten {#separator}
+
+In der Web-Benutzeroberfläche von Campaign können Sie Trennzeichen hinzufügen, um benutzerdefinierte Felder in der Benutzeroberfläche zu gruppieren und so die Lesbarkeit zu verbessern. Gehen Sie dazu wie folgt vor:
+
+1. Klicken Sie auf **[!UICONTROL Hinzufügen]** und wählen Sie **[!UICONTROL Trennzeichen]** aus.
+
+1. Der Liste wird eine neue Zeile für das Trennzeichen hinzugefügt. Klicken Sie auf die Schaltfläche mit den Auslassungspunkten und wählen **[!UICONTROL Bearbeiten]**, um den Unterabschnitt zu benennen.
+
+1. Verschieben Sie die Trennlinie mit den Pfeilen nach oben und unten an die gewünschte Position. Die unter dem Trennzeichen aufgelisteten Felder werden darunter gruppiert.
+
+   In diesem Beispiel werden die Felder „Interessante Sammlungen“ und „Marke“ in einem Unterabschnitt „Sammlung“ gruppiert.
+
+   | Konfiguration benutzerdefinierter Felder | Rendern in der Benutzeroberfläche |
+   |  ---  |  ---  |
+   | ![](assets/custom-fields-separator.png){zoomable="yes"} | ![](assets/custom-fields-section.png){zoomable="yes"} |
