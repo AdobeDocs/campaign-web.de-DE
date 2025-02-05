@@ -3,10 +3,10 @@ title: Definieren des Inhalts für die Landingpage
 description: Erfahren Sie, wie Sie in Campaign Web Landingpage-spezifische Inhalte erstellen
 feature: Landing Pages
 exl-id: 6ca3c8c1-3633-4e3f-a9a1-f46ae27c5c8a
-source-git-commit: 5323f3db8b29376b15b400a67765c6c0eda37479
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
 workflow-type: tm+mt
 source-wordcount: '1226'
-ht-degree: 96%
+ht-degree: 94%
 
 ---
 
@@ -87,10 +87,9 @@ Um bestimmte Inhalte zu definieren, mit denen Benutzende ihre Auswahl auf Ihrer 
    * **[!UICONTROL Anmelden wenn aktiviert]**: Benutzende müssen das Kontrollkästchen zum Einverständnis aktivieren (Opt-in).
    * **[!UICONTROL Abmelden wenn aktiviert]**: Benutzende müssen das Kontrollkästchen aktivieren, um ihr Einverständnis zu entfernen (Opt-out).
 
-   Wenn Sie **[!UICONTROL Feld]** auswählen, wählen Sie ein Feld aus der Attributliste aus und legen Sie eine der beiden folgenden Optionen fest:
+   Wenn Sie **[!UICONTROL Feld]** auswählen, wählen Sie ein Feld aus der [Attributliste](../get-started/attributes.md) aus und wählen Sie zwischen den beiden folgenden Optionen:
 
    * **[!UICONTROL Ja, wenn aktiviert]**.<!--TBC-->
-
    * **[!UICONTROL Nein, wenn aktiviert]**.<!--TBC-->
 
 1. Sie können beliebig viele Felder (z. B. Textfelder, Optionsschaltflächen, Kontrollkästchen, Dropdown-Listen usw.) löschen und hinzufügen.

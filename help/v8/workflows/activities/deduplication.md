@@ -3,10 +3,10 @@ audience: end-user
 title: Verwenden der Workflow-Aktivität „Deduplizierung“
 description: Erfahren Sie, wie Sie die Workflow-Aktivität „Deduplizierung“ verwenden.
 exl-id: 8efdc140-6cae-430d-b585-ff581993ff60
-source-git-commit: 8281f1cd5a8f529bf76b5f2938f7ff1dfc9d1491
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
 workflow-type: tm+mt
-source-wordcount: '602'
-ht-degree: 100%
+source-wordcount: '612'
+ht-degree: 96%
 
 ---
 
@@ -42,7 +42,7 @@ Gehen Sie folgendermaßen vor, um die **Deduplizierungsaktivität** zu konfiguri
 
 1. Fügen Sie eine **Deduplizierungsaktivität** zu Ihrem Workflow hinzu.
 
-1. Klicken Sie im Abschnitt **Felder zum Identifizieren von Dubletten** auf die Schaltfläche **Attribut hinzufügen**, um die Felder anzugeben, für die die Identifizierung von Dubletten aufgrund identischer Werte möglich ist, wie z. B. E-Mail-Adresse, Vorname, Nachname usw. Durch die Reihenfolge der Felder können Sie angeben, welche Felder zuerst verarbeitet werden sollen.
+1. Klicken Sie im Abschnitt **Felder zum Identifizieren von Dubletten** auf die Schaltfläche **Attribut hinzufügen**, um die Felder anzugeben, für die die Identifizierung von Dubletten aufgrund identischer Werte möglich ist, wie z. B. E-Mail-Adresse, Vorname, Nachname usw. Die Reihenfolge der Felder ermöglicht es Ihnen, die Felder anzugeben, die zuerst verarbeitet werden sollen. [Erfahren Sie, wie Sie Attribute auswählen und zu Favoriten hinzufügen](../../get-started/attributes.md)
 
 1. Wählen Sie im Abschnitt **Deduplizierungseinstellungen** die Anzahl der eindeutigen **beizubehaltenden Dubletten** aus. Der Standardwert dieses Felds ist 1. Mittels des Werts 0 lassen sich alle Dubletten beibehalten.
 

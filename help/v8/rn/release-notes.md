@@ -2,10 +2,10 @@
 title: Versionshinweise zur Web-Benutzeroberfläche von Campaign v8
 description: Entdecken Sie die neuen Funktionen der neuesten Version der Campaign Web-Benutzeroberfläche
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 344d38239df96d570a93aff9674d38b6fd375830
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 100%
+source-wordcount: '631'
+ht-degree: 85%
 
 ---
 
@@ -20,25 +20,95 @@ Die Versionen der Adobe Campaign Web-Benutzeroberfläche basieren auf einem kont
 
 Änderungen und Verbesserungen, die in früheren Versionen verfügbar sind, sind [auf dieser Seite](release-notes-24.md) aufgeführt.
 
-## Version Oktober 2024 {#24-10-release}
+## Version Januar 2025 {#25-1-release}
 
-**Veröffentlichungsdatum**: 29. Oktober 2024
+**Veröffentlichungsdatum**: 5. Februar 2025
 
-Die folgenden Funktionen und Verbesserungen sind ab der Version Oktober verfügbar.
+Die folgenden Funktionen und Verbesserungen sind ab der Version Januar verfügbar.
 
-### Funktionen
+### Funktionen {#25-1-features}
+
 
 <table>
 <thead>
 <tr>
-<th><strong>Externe Konten</strong><br/></th>
+<th><strong>Erstellen und Verwenden visueller Fragmente</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Sie können externe Konten jetzt direkt über die Web-Benutzeroberfläche in Adobe Campaign einrichten und verwalten. Diese neue Funktion vereinfacht die Konfiguration verschiedener Typen von externen Konten, wie z. B. Bounce-E-Mails (POP3) oder Ausführungsinstanzen.</p>
-<p>Weitere Informationen finden Sie in der <a href="../administration/external-account.md">entsprechenden Dokumentation</a>.</p>
+<p>Visuelle Fragmente sind vordefinierte visuelle Bausteine, die Sie in mehreren E-Mail-Sendungen oder in Inhaltsvorlagen wiederverwenden können. Diese Funktion steht nun allen Kundinnen und Kunden mit Serverbuild 8.6.4 und höher zur Verfügung.</p>
+<img src="assets/do-not-localize/visual-fragment.gif">
+<p>Weitere Informationen finden Sie in der <a href="../content/use-visual-fragments.md">entsprechenden Dokumentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Verwenden eines Drittanbietersystems für Sendungen</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>In der Campaign Web-Benutzeroberfläche können nun externe Sendungen und Versandvorlagen definiert werden. In diesem Modus werden Nachrichten in eine Ausgabedatei kompiliert, die mit Ihrem externen Anbieter geteilt werden kann. Standardmäßig wird der externe Versandmodus für den Briefpostkanal verwendet.</p>
+<img src="assets/do-not-localize/external-delivery.gif">
+<p>Weitere Informationen finden Sie in der <a href="../msg/send-external-deliveries.md">entsprechenden Dokumentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Erstellen von Geschäftsregeln (Typologieregeln)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Sie können nun Typologien und Typologieregeln in der Adobe Campaign Web-Oberfläche erstellen. Eine Typologie ist eine Sammlung von Typologieregeln, mit denen Sie Sendungen steuern, filtern und priorisieren können. Typologien stellen sicher, dass Ihre Sendungen stets erforderliche Elemente enthalten (z. B. einen Abmelde-Link oder eine Betreffzeile) und Filterregeln anwenden, um bestimmte Gruppen aus Ihrer Zielgruppe auszuschließen (z. B. Abonnierende, Konkurrentinnen bzw. Konkurrenten oder Kundschaft, die nicht Mitglied des Treueprogramms ist).</p>
+<img src="assets/do-not-localize/typology.gif">
+<!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Verwalten von Auflistungen</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Sie können Auflistungen nun direkt über die Adobe Campaign Web-Benutzeroberfläche erstellen. Eine Auflistung ist eine Liste von Werten, die vom System zum Auffüllen von Feldern vorgeschlagen werden. Verwenden Sie Auflistungen, um die Werte dieser Felder zu standardisieren, die Dateneingabe zu unterstützen oder sie in Abfragen zu verwenden.</p>
+<img src="assets/do-not-localize/enumerations.gif">
+<!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Erstellen benutzerdefinierter Optionen</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Sie können nun in der Adobe Campaign Web-Benutzeroberfläche auf technische Optionen zugreifen und eigene benutzerdefinierte Optionen entsprechend Ihren Anforderungen erstellen. Dies ist besonders nützlich, wenn Sie mit JavaScript-Code-Workflow-Aktivitäten arbeiten, um Zwischenergebnisse zu speichern.</p>
+<img src="assets/do-not-localize/options.gif">
+<!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
@@ -48,48 +118,49 @@ Die folgenden Funktionen und Verbesserungen sind ab der Version Oktober verfügb
 <table>
 <thead>
 <tr>
-<th><strong>Transaktionsnachrichten</strong><br/></th>
+<th><strong>Definieren und Aufrufen von JavaScript-Code</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>„Transaktionsnachricht (Message Center)“ ist jetzt in der Campaign Web-Benutzeroberfläche verfügbar.  Dieses Add-on dient dem Auslösen von Nachrichten, die durch Ereignisse erzeugt werden, die von Informationssystemen ausgelöst werden. Hierzu zählen u. a.: Rechnungen, Bestellbestätigungen, Lieferbestätigungen, Passwortänderungen, Benachrichtigungen über die Nicht-Verfügbarkeit eines Produkts, Kontostandsinformationen oder die Erstellung eines Website-Kontos.</p>
-<p>Weitere Informationen finden Sie in der <a href="../transactional-messaging/transactional.md">entsprechenden Dokumentation</a>.</p>
+<p>Sie können nun JavaScript-Code in der Adobe Campaign Web-Benutzeroberfläche erstellen. Auf diese Weise können Sie wiederverwendbare Funktionen erstellen, die in Workflows genutzt werden können, ähnlich wie bei einer Bibliothek.</p>
+<img src="assets/do-not-localize/javascript.gif">
+<!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
 </table>
 
-<!--table>
+
+<table>
 <thead>
 <tr>
-<th><strong>External deliveries</strong><br/></th>
+<th><strong>Generieren von Landingpages mit dem Content Accelerator des KI-Assistenten</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>You can now define External deliveries, and External delivery templates, in Campaign web user interface. With this mode, messages are generated in an input file which can be shared with your external provider. The External delivery mode is the default mode for the direct mail channel.</p>
+<p>Der KI-Assistent-Inhaltsbeschleuniger ist jetzt für Ihre Landingpage-Sendungen verfügbar, sodass Sie Text, Bilder oder vollständige Seiten-Layouts generieren können.</p>
+<p>Weitere Informationen zu AI Assistant Content Accelerator finden Sie in der <a href="../email/generative-gs.md"> Dokumentation </a>.</p>
 </td>
 </tr>
 </tbody>
-</table-->
+</table>
 
 
-### Verbesserungen
 
-* **Workflow-Aktivitäten**: Sie können eine Aktivität und alle untergeordneten Knoten innerhalb eines Workflows von einer Transition in eine andere verschieben. Im Bereich mit den Eigenschaften der Aktivität ist die dedizierte Schaltfläche **Verschieben** verfügbar. [Weitere Informationen](../workflows/orchestrate-activities.md#move)
 
-* **Anreicherungsaktivität für Workflows**
+### Verbesserungen {#25-1-improvements}
 
-   * Sie können jetzt einen Alias und ein Label definieren, wenn Sie ein neues Feld in der Aktivität **Anreicherung** erstellen. [Weitere Informationen](../workflows/activities/enrichment.md#collection-settings)
-   * Sie können jetzt für jedes Profil Angebote in der Aktivität **Anreicherung** hinzufügen. [Weitere Informationen](../workflows/activities/enrichment.md##add-offers)
+* Anpassen der Anzeige benutzerdefinierter Felder in der Benutzeroberfläche:
 
-* **Werteverteilung**: Beim Zugriff auf die Liste der zur Personalisierung vorgesehenen Felder kann jetzt überprüft werden, wie die Werte für jedes Feld verteilt werden. Ein dediziertes Popup-Fenster zeigt die Anzahl und den Prozentsatz für jeden Wert an. [Weitere Informationen](../query/build-query.md#distribution-values-query)
+   * Sie können nun zusätzliche benutzerdefinierte Felder auswählen, die in der Benutzeroberfläche angezeigt werden sollen.
+   * Sie können nun Regeln zum Anzeigen benutzerdefinierter Felder vom Typ „Link“ festlegen, z. B. Listenwerte basierend auf der Eingabe eines anderen Felds beschränken.
+   * Flexiblere Anordnung von Feldern in der Benutzeroberfläche: Felder können sich nun über eine einzelne Spalte erstrecken oder zur besseren Organisation in Unterabschnitten gruppiert werden.
+   * Sie können nun bestimmte Felder als schreibgeschützt festlegen.
 
-* **Versions- und Systeminformationen**: Sie können jetzt sowohl für die Client-Konsole als auch für die Web-Benutzeroberfläche auf Details zu Ihren Instanzversionen zugreifen. In diesem neuen Abschnitt werden außerdem alle nativen Pakete aufgelistet, die in Ihrer Umgebung installiert sind. [Weitere Informationen](../get-started/user-interface.md#user-interface-about)
+* Filter „Zuletzt verwendet“ und „Favoriten“: Um häufig verwendete Attribute schnell wiederzuverwenden, können Sie sie nun zu Favoriten hinzufügen. Dadurch wird sichergestellt, dass sie für zukünftige Aufgaben problemlos zugänglich sind. Zusätzlich zu den Favoriten können Sie auch die zuletzt ausgewählten Attribute anzeigen und verwenden.
 
-* **Listen**: Sie können die Werte einer Liste jetzt einfach neu anordnen. [Weitere Informationen](../get-started/work-with-folders.md)
-
-* **Versand**: Auf die Variable „Versand“ kann jetzt über Personalisierungsfelder zugegriffen werden. [Weitere Informationen](../personalization/conditions.md#use-variables-for-conditional-content-variables-conditional)
+* Externe Konten: Der neue **[!UICONTROL Routing]**-Typ steht beim Erstellen eines neuen externen Kontos zur Auswahl. Damit können Sie ein bestimmtes externes Konto für die Verwendung in Ihren externen Sendungen konfigurieren. [Weitere Informationen](../administration/external-account.md#routing)

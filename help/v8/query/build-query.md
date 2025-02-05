@@ -3,10 +3,10 @@ audience: end-user
 title: Erstellen Ihrer erste Abfrage mithilfe des Abfrage-Modelers
 description: Erfahren Sie, wie Sie Ihre erste Abfrage im Abfrage-Modeler in Adobe Campaign Web erstellen.
 exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
-source-git-commit: 3477d7b89b642ea62adaf3f2e49e4000e52a9862
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
 workflow-type: tm+mt
-source-wordcount: '2227'
-ht-degree: 100%
+source-wordcount: '2242'
+ht-degree: 98%
 
 ---
 
@@ -40,7 +40,7 @@ Um auf diese Option zuzugreifen, klicken Sie in Ihrer Abfrage auf die Schaltflä
 >
 >* Bei Feldern mit vielen Werten werden nur die ersten zwanzig Werte angezeigt. In diesem Fall warnt Sie die Benachrichtigung **[!UICONTROL Teilweise laden]**.
 >
->* Die Option **[!UICONTROL Werteverteilung]** ist in jeder Attributauswahl verfügbar.
+>* Die **[!UICONTROL Werteverteilung]** ist in jeder Attributauswahl verfügbar. [Erfahren Sie, wie Sie Attribute auswählen](../get-started/attributes.md)
 >* Mithilfe der **[!Aerweiterten Filter]** können Sie Bedingungen zu den Ergebnissen hinzufügen. [Weitere Informationen finden Sie hier](../get-started/work-with-folders.md#filter-the-values).
 
 ## Hinzufügen von Filterkomponenten {#filtering}
@@ -62,7 +62,7 @@ Gehen Sie wie folgt vor, um Ihre Abfrage mit einer benutzerdefinierten Bedingung
 
 1. Klicken Sie auf die Schaltfläche **+** auf dem gewünschten Knoten und wählen Sie **[!UICONTROL Benutzerdefinierte Bedingung]** aus. Der Bereich mit den benutzerdefinierten Bedingungseigenschaften wird auf der rechten Seite geöffnet.
 
-1. Wählen Sie im Feld **Attribut** das Attribut aus der Datenbank aus, das Sie zum Erstellen Ihrer Bedingung verwenden möchten. Die Attributliste enthält alle Attribute aus Ihrer Campaign-Datenbank, einschließlich der mit Ihrer Tabelle verknüpften Attribute.
+1. Wählen Sie im Feld **Attribut** das Attribut aus der Datenbank aus, das Sie zum Erstellen Ihrer Bedingung verwenden möchten. Die Attributliste enthält alle Attribute aus Ihrer Campaign-Datenbank, einschließlich der Attribute aus verknüpften Tabellen. [Erfahren Sie, wie Sie Attribute auswählen und zu Favoriten hinzufügen](../get-started/attributes.md)
 
    ![](assets/query-custom-condition-fields.png){zoomable="yes"}
 

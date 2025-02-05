@@ -3,10 +3,10 @@ audience: end-user
 title: Erste Schritte mit Inhaltsfragmenten
 description: Erfahren Sie, wie Sie Inhaltsfragmente erstellen
 exl-id: d155d102-a5bc-4b9b-b29c-24fde4d95ceb
-source-git-commit: 7185e1cbc8ce9dd325bebc20c0ac362d7067f3e9
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 100%
+source-wordcount: '423'
+ht-degree: 95%
 
 ---
 
@@ -40,7 +40,7 @@ Es stehen zwei Arten von Fragmenten zur Verfügung:
 
   >[!AVAILABILITY]
   >
-  >Diese Funktion ist nur eingeschränkt verfügbar. Sie ist Kundinnen und Kunden vorbehalten, die **von Adobe Campaign Standard zu Adobe Campaign v8** migrieren, und kann nicht in anderen Umgebungen bereitgestellt werden.
+  >Diese Funktion erfordert eine Aktualisierung auf Campaign v8.6.4. Weitere Informationen finden Sie in den [ zur Client-Konsole von Campaign v8](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/releases/release-notes).
 
 ## Tauchen wir tiefer in die Materie ein
 

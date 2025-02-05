@@ -3,10 +3,10 @@ audience: end-user
 title: Verwenden der Workflow-Aktivität „Aufspaltung“
 description: Weitere Informationen zur Verwendung der Workflow-Aktivität „Aufspaltung“
 exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
-source-git-commit: 6ae019bf9f4775dc7eb58e9429a75a8ad69026ff
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
 workflow-type: tm+mt
 source-wordcount: '1062'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -93,7 +93,7 @@ Folgen Sie diesen Schritten, um die Aktivität **Aufspaltung** zu konfigurieren:
 
       >[!NOTE]
       >
-      >Beim Festlegen einer Populationsbegrenzung für eine Teilmenge können die ausgewählten Profile anhand eines bestimmten Profilattributs in auf- oder absteigender Reihenfolge sortiert werden. Dazu die Option **[!UICONTROL Sortierung aktivieren]** einschalten. Teilmengen können z. B. so eingeschränkt werden, dass nur die 50 Top-Profile mit dem höchsten Einkaufsbetrag einbezogen werden.
+      >Beim Festlegen eines Populationslimits für eine Teilmenge können Sie die ausgewählten Profile basierend auf einem bestimmten [Profilattribut](../../get-started/attributes.md) in aufsteigender oder absteigender Reihenfolge sortieren. Dazu die Option **[!UICONTROL Sortierung aktivieren]** einschalten. Teilmengen können z. B. so eingeschränkt werden, dass nur die 50 Top-Profile mit dem höchsten Einkaufsbetrag einbezogen werden.
 
 1. Nachdem Sie alle Teilmengen konfiguriert haben, kann die verbleibende Population ausgewählt werden, die keiner der Teilmengen entspricht, und in eine zusätzliche ausgehende Transition eingeschlossen werden. Schalten Sie dazu die Option **[!UICONTROL Komplement erzeugen]** ein.
 

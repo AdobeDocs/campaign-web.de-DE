@@ -3,10 +3,10 @@ audience: end-user
 title: Erstellen von Inhaltsfragmenten
 description: Erfahren Sie, wie Sie Inhaltsfragmente erstellen
 exl-id: 8f37e9e6-3085-4a68-9746-8ca34cfa4242
-source-git-commit: 387a69abf4b97cd202c1a7e24bcf14c6af442714
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
 workflow-type: tm+mt
-source-wordcount: '1013'
-ht-degree: 100%
+source-wordcount: '1003'
+ht-degree: 98%
 
 ---
 
@@ -56,7 +56,7 @@ Gehen Sie wie folgt vor, um ein Inhaltsfragment von Grund auf neu zu erstellen.
 
    >[!AVAILABILITY]
    >
-   >Visuelle Fragmente sind eingeschränkt verfügbar (LA, Limited Availability). Sie sind Kundinnen und Kunden vorbehalten, die **von Adobe Campaign Standard zu Adobe Campaign v8** migrieren, und können nicht in anderen Umgebungen bereitgestellt werden.
+   >Für visuelle Fragmente ist eine Aktualisierung auf Campaign v8.6.4 erforderlich. Weitere Informationen finden Sie in den [ zur Client-Konsole von Campaign v8](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/releases/release-notes).
 
 1. Klicken Sie auf die Schaltfläche **Erstellen**.
 

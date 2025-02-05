@@ -3,10 +3,10 @@ audience: end-user
 title: Verwendung der Workflow-Aktivität „Anreicherung“
 description: Erfahren Sie, wie Sie die Workflow-Aktivität „Anreicherung“ verwenden.
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
-source-git-commit: 80c9d2b40696d75069c2ca4a93ffca998bc407f9
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
 workflow-type: tm+mt
-source-wordcount: '2061'
-ht-degree: 100%
+source-wordcount: '2071'
+ht-degree: 98%
 
 ---
 
@@ -54,7 +54,7 @@ Führen Sie die folgenden Schritte aus, um die Aktivität **Anreicherung** zu ko
 >title="Aktivität „Anreicherung“"
 >abstract="Nachdem Anreicherungsdaten zum Workflow hinzugefügt wurden, können sie in den Aktivitäten verwendet werden, die nach der Aktivität „Anreicherung“ hinzugefügt wurden, um Kundinnen und Kunden basierend auf ihren Verhaltensweisen, Voreinstellungen und Anforderungen in verschiedene Gruppen zu unterteilen oder um personalisierte Marketing-Nachrichten und -Kampagnen zu erstellen, die Ihre Zielgruppe mit größerer Wahrscheinlichkeit ansprechen."
 
-1. Klicken Sie auf **Anreicherungsdaten hinzufügen** und wählen Sie das Attribut zur Datenanreicherung aus.
+1. Klicken Sie **Anreicherungsdaten hinzufügen** und wählen Sie das Attribut aus, das zur Anreicherung der Daten verwendet werden soll. [Erfahren Sie, wie Sie Attribute auswählen und zu Favoriten hinzufügen](../../get-started/attributes.md)
 
    Sie können zwei Arten von Anreicherungsdaten auswählen: ein einzelnes Anreicherungsattribut aus der Zielgruppendimension oder eine Sammlungsrelation. Jeder dieser Typen wird in den Beispielen unten detailliert beschrieben:
    * [Einzelnes Anreicherungsattribut](#single-attribute)

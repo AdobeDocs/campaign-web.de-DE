@@ -3,10 +3,10 @@ keywords: Campaign Web;Startseite;beliebte Themen
 description: Hilfe-Center zu Campaign Web
 title: Produktdokumentation zu Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 3a8e0f0035d70ddafbc1fc38304316c12d8a2b83
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
 workflow-type: tm+mt
 source-wordcount: '460'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
@@ -52,24 +52,24 @@ Hier erhalten Sie einen Einblick in die neuesten Verbesserungen in Adobe Campaig
 >[!BEGINTABS]
 
 
->[!TAB Version Oktober 2024]
+>[!TAB Version Januar &#39;25]
 
-Die Version von Oktober ist jetzt live und umfasst Transaktionsnachrichten, externe Konten sowie weitere Verbesserungen.
+Die Version Januar ist jetzt verfügbar, einschließlich Transaktionsnachrichten, externen Konten und mehr Verbesserungen.
 
-[![Bild](assets/do-not-localize/learn-more-button.svg)](../v8/rn/release-notes.md)
+[![Schaltfläche „Weitere Informationen“](assets/do-not-localize/learn-more-button.svg)](../v8/rn/release-notes.md)
 
 
 >[!TAB Content Accelerator des KI-Assistenten]
 
 ✨ Nehmen Sie an unserer Live-Funktionsvorstellung des [Content Accelerators des KI-Assistenten](../v8/email/generative-gs.md) teil, um die Funktionen in der Praxis selbst zu erkunden und die vielfältigen Einsatzmöglichkeiten zu verstehen.
 
-[![Bild](assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/de/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
+[![Schaltfläche „Weitere Informationen“](assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/de/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 
->[!TAB Werteverteilung]
+>[!TAB Häufig gestellte Fragen]
 
-Beim Zugriff auf die Liste der zur Personalisierung vorgesehenen Felder kann jetzt überprüft werden, wie die Werte für jedes Feld verteilt werden.
+Häufig gestellte Fragen zur Web-Benutzeroberfläche von Campaign werden auf einer neuen speziellen Seite aufgelistet.
 
-[![Bild](assets/do-not-localize/learn-more-button.svg)](../v8/query/build-query.md#distribution-values-query)
+[![Schaltfläche „Weitere Informationen“](assets/do-not-localize/learn-more-button.svg)](get-started/faq.md)
 
 
 >[!ENDTABS]
