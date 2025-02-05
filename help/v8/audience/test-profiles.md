@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: d372713d-3024-46a1-b62e-f271b8ac829f
 source-git-commit: 321fd5f5cb7940f8395f11cebb207548af6733d9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '614'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -110,6 +110,6 @@ Das soeben erstellte Testprofil kann jetzt zur Durchführung einer Testsendung v
 
 ## Anleitungsvideo {#video}
 
-Erfahren Sie, wie Sie Testprofile mithilfe der Web-Benutzeroberfläche von Campaign erstellen und verwalten.
+Erfahren Sie, wie Sie mit der Campaign Web-Benutzeroberfläche Testprofile erstellen und verwalten.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3442844?quality=12)
