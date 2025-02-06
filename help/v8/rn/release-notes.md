@@ -2,7 +2,7 @@
 title: Versionshinweise zur Web-Benutzeroberfläche von Campaign v8
 description: Entdecken Sie die neuen Funktionen der neuesten Version der Campaign Web-Benutzeroberfläche
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: c759dd72e2ca3d11b4dad0cd38410d699b651cad
+source-git-commit: 4ece6d0a766682d65fb4a3f9135b667f558cb51c
 workflow-type: tm+mt
 source-wordcount: '585'
 ht-degree: 83%
@@ -145,7 +145,7 @@ Die folgenden Funktionen und Verbesserungen sind ab der Version Januar verfügba
 <tr>
 <td>
 <p>Der KI-Assistent-Inhaltsbeschleuniger ist jetzt für Ihre Landingpage-Sendungen verfügbar, sodass Sie Text, Bilder oder vollständige Seiten-Layouts generieren können.</p>
-<p>Weitere Informationen zu AI Assistant Content Accelerator finden Sie in der <a href="../email/generative-gs.md"> Dokumentation </a>.</p>
+<p>Weitere Informationen zu AI Assistant Content Accelerator finden Sie in der <a href="../email/generative-lp.md"> Dokumentation </a>.</p>
 </td>
 </tr>
 </tbody>
