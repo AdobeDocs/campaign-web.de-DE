@@ -3,7 +3,7 @@ title: Frühzeitige Versionshinweise zur Web-Benutzeroberfläche von Campaign v8
 description: Versionen der Campaign-Web-Benutzeroberfläche 2024
 exl-id: 430dc1ba-dfa9-4d51-b4ed-f3f048da6ec0
 source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2506'
 ht-degree: 100%
 

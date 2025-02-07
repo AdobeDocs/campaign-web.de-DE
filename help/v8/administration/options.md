@@ -1,13 +1,13 @@
 ---
 title: configure [!DNL Campaign] options
 description: Erfahren Sie, wie Sie Campaign-Optionen konfigurieren und Ihre eigenen benutzerdefinierten Optionen erstellen.
-source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
+exl-id: 44f90e34-e72e-4506-90d5-06ab68242d34
+source-git-commit: 3bedb4562c5858cd6057fd8a17064ccac8303c39
 workflow-type: tm+mt
 source-wordcount: '383'
 ht-degree: 1%
 
 ---
-
 
 # [!DNL Campaign] konfigurieren {#options}
 

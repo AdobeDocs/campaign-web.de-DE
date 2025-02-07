@@ -74,7 +74,7 @@ Führen Sie die folgenden Schritte aus, um die Aktivität **Inkrementelle Abfrag
 
 ## Beispiel {#incremental-query-example}
 
-Im folgenden Beispiel wird die Konfiguration eines Workflows illustriert, der der wöchentlichen Filterung der Profile der Adobe-Campaign-Datenbank dient, die den Dienst „Yoga-Newsletter“ abonniert haben, um diesen eine Willkommens-E-Mail zu senden.
+Im folgenden Beispiel wird die Konfiguration eines Workflows illustriert, der der wöchentlichen Filterung der Profile der Adobe Campaign-Datenbank dient, die den Dienst „Yoga-Newsletter“ abonniert haben, um diesen eine Willkommens-E-Mail zu senden.
 
 ![](../assets/incremental-query-example.png)
 

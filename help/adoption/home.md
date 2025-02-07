@@ -1,5 +1,5 @@
 ---
-keywords: Campaign Standard;Startseite;beliebte Themen
+keywords: Campaign Classic;Startseite;beliebte Themen
 description: Campaign Standard-Benutzende, die zu Campaign v8 wechseln, werden über die ersten Schritte informiert.
 title: Einführungsleitfaden für Adobe Campaign Classic
 exl-id: 1adffb16-2373-4ad4-8009-b53ff7a9c425

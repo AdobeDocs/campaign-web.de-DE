@@ -4,7 +4,7 @@ title: Vorbereiten und Senden einer E-Mail
 description: Erfahren Sie, wie Sie eine E-Mail mit der Campaign Web-Benutzeroberfläche vorbereiten und senden
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
 source-git-commit: 58f25a6b41c89e97c0f721f4437b5245d16b3757
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '889'
 ht-degree: 100%
 

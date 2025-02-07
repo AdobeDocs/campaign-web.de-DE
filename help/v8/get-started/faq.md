@@ -1,13 +1,13 @@
 ---
 title: Verwenden der KI-gestützten Kontexthilfe in Campaign Web
 description: Stellen von Fragen in Campaign Web-Hilfe-Popovers
-source-git-commit: 235cc79598ed64ed2f3c53a9cb736d4626ee9c38
+exl-id: 332db61b-a82d-4bca-a2f5-51557f06120c
+source-git-commit: 0183534ca68960261fa59582dba2e2220e60b024
 workflow-type: tm+mt
 source-wordcount: '803'
 ht-degree: 5%
 
 ---
-
 
 # Häufig gestellte Fragen
 

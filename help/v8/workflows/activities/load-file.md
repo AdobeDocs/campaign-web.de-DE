@@ -84,7 +84,7 @@ Führen Sie diese Schritte aus, um die Beispieldatei zu konfigurieren, mit der d
    * **[!UICONTROL Datentransformation]** (Datentyp Zeichenfolge): Wenden Sie die Transformation auf die in der Spalte enthaltenen Werte an.
    * **[!UICONTROL Umgang mit Leerzeichen]** (Datentyp Zeichenfolge): Geben Sie an, wie die in der Spalte enthaltenen Leerzeichen behandelt werden sollen.
    * **[!UICONTROL Trennzeichen]** (Datentypen für Datum, Uhrzeit, Ganzzahl und Zahl)*: Geben Sie die als Trennzeichen zu verwendenden Zeichen an.
-   * **[!UICONTROL NULL erlauben]**: Geben Sie an, wie leere Werte in der Spalte behandelt werden sollen. Bei der Option „Adobe-Campaign-Standardeinstellung“ wird ein Fehler ausgegeben, wenn ein leerer Wert vorhanden ist.
+   * **[!UICONTROL NULL erlauben]**: Geben Sie an, wie leere Werte in der Spalte behandelt werden sollen. Bei der Option „Adobe Campaign-Standardeinstellung“ wird ein Fehler ausgegeben, wenn ein leerer Wert vorhanden ist.
    * **[!UICONTROL Fehlerverarbeitung]** (Zeichenfolgen-Datentyp): Legen Sie das Verhalten fest, wenn in einer der Zeilen Fehler auftreten.
    * **[!UICONTROL Neukodifizierung der Werte]**: Mit dieser Option können Sie bestimmte Werte neuen zuordnen. Wenn die Spalte beispielsweise Werte vom Typ „True“/„False“ enthält, können Sie eine Zuordnung hinzufügen, um diese Werte automatisch durch „0“/„1“ zu ersetzen.
 
