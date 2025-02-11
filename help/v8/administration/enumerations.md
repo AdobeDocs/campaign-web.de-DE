@@ -2,14 +2,21 @@
 title: Auflistungen verwalten
 description: Erfahren Sie, wie Sie mit Auflistungen arbeiten
 exl-id: d2a30fef-2cc4-49af-9f5d-d42c6396a8ab
-source-git-commit: 3bedb4562c5858cd6057fd8a17064ccac8303c39
+source-git-commit: 8fccae9906d7a04ec1e8e10ad7be60f597a43492
 workflow-type: tm+mt
-source-wordcount: '568'
-ht-degree: 18%
+source-wordcount: '600'
+ht-degree: 19%
 
 ---
 
 # Auflistungen verwalten {#enumerations}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn3"
+>title="Auflistungen erstellen"
+>abstract="Sie können Auflistungen nun direkt über die Adobe Campaign Web-Benutzeroberfläche erstellen. Eine Auflistung ist eine Liste von Werten, die vom System zum Ausfüllen von Feldern vorgeschlagen werden."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=de" text="Siehe Versionshinweise"
+
 
 >[!CONTEXTUALHELP]
 >id="acw_enumerations_list"

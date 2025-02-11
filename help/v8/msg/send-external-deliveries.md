@@ -3,14 +3,21 @@ audience: end-user
 title: Erste Schritte mit externen Sendungen
 description: Erfahren Sie, wie Sie mit Adobe Campaign Web externe Sendungen erstellen und senden
 exl-id: 08fe9333-aa35-4acf-ba41-4c6895049bbc
-source-git-commit: 3bedb4562c5858cd6057fd8a17064ccac8303c39
+source-git-commit: 8fccae9906d7a04ec1e8e10ad7be60f597a43492
 workflow-type: tm+mt
-source-wordcount: '465'
-ht-degree: 10%
+source-wordcount: '518'
+ht-degree: 15%
 
 ---
 
 # Externe Sendungen durchführen {#gs-direct-mail}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn2"
+>title="Erstellen externer Sendungen"
+>abstract="In der Campaign Web-Benutzeroberfläche können nun externe Sendungen und Versandvorlagen definiert werden. In diesem Modus werden Nachrichten in eine Ausgabedatei kompiliert, die mit Ihrem externen Anbieter geteilt werden kann. Standardmäßig wird der externe Versandmodus für den Briefpostkanal verwendet."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=de" text="Siehe Versionshinweise"
+
 
 Adobe Campaign ermöglicht die Verarbeitung von Sendungen, die außerhalb von Campaign erstellt wurden, um über ein externes System massenweise personalisierte E-Mails, SMS-Nachrichten oder Push-Benachrichtigungen (iOS und Android) zu versenden.
 

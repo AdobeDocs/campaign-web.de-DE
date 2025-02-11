@@ -2,14 +2,20 @@
 title: configure [!DNL Campaign] options
 description: Erfahren Sie, wie Sie Campaign-Optionen konfigurieren und Ihre eigenen benutzerdefinierten Optionen erstellen.
 exl-id: 44f90e34-e72e-4506-90d5-06ab68242d34
-source-git-commit: 3bedb4562c5858cd6057fd8a17064ccac8303c39
+source-git-commit: 8fccae9906d7a04ec1e8e10ad7be60f597a43492
 workflow-type: tm+mt
-source-wordcount: '383'
-ht-degree: 1%
+source-wordcount: '418'
+ht-degree: 3%
 
 ---
 
 # [!DNL Campaign] konfigurieren {#options}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn4"
+>title="Erstellen benutzerdefinierter Optionen"
+>abstract="Sie können jetzt eigene technische benutzerdefinierte Optionen erstellen, die Ihren Anforderungen entsprechen. Dies ist besonders bei der Arbeit mit Workflow-Aktivitäten vom Typ **JavaScript** Code&#39; nützlich, um Zwischendaten zu speichern."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=de" text="Siehe Versionshinweise"
 
 >[!CONTEXTUALHELP]
 >id="acw_options_list"

@@ -3,14 +3,21 @@ audience: end-user
 title: Landingpage mit dem Content Accelerator des KI-Assistenten
 description: Erste Schritte mit der Content-Beschleunigung des KI-Assistenten
 exl-id: f4baa23f-f289-4837-b5b3-c479eaeff86c
-source-git-commit: e7b93168c3827691049376ecd257d2c6df554007
+source-git-commit: 8fccae9906d7a04ec1e8e10ad7be60f597a43492
 workflow-type: tm+mt
-source-wordcount: '1515'
-ht-degree: 68%
+source-wordcount: '1549'
+ht-degree: 66%
 
 ---
 
 # Generieren von Landingpages mit dem Content Accelerator des KI-Assistenten {#generative-lp}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn5"
+>title="Generieren von Landingpages mit KI"
+>abstract="Sie können jetzt den KI-Assistenten-Inhaltsbeschleuniger verwenden, um Ihre Landingpage-Sendungen zu erstellen, sodass Sie Text, Bilder oder vollständige Seiten-Layouts generieren können."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=de" text="Siehe Versionshinweise"
+
 
 >[!IMPORTANT]
 >

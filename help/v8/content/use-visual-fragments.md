@@ -4,26 +4,28 @@ title: Hinzufügen visueller Fragmente zu E-Mails
 description: Erfahren Sie, wie Sie visuelle Fragmente zu Ihren E-Mails hinzufügen
 badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: 6d6f38f9-9d3e-47cb-beb8-177b5a5d8306
-source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
+source-git-commit: 8fccae9906d7a04ec1e8e10ad7be60f597a43492
 workflow-type: tm+mt
-source-wordcount: '570'
-ht-degree: 94%
+source-wordcount: '605'
+ht-degree: 86%
 
 ---
 
 # Hinzufügen visueller Fragmente zu E-Mails {#use-visual-fragments}
 
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn1"
+>title="Visuelle E-Mail-Fragmente"
+>abstract="Sie können jetzt visuelle Fragmente erstellen und verwenden. Hierbei handelt es sich um vordefinierte visuelle Bausteine, die Sie in mehreren E-Mail-Sendungen oder in Inhaltsvorlagen wiederverwenden können."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=de" text="Siehe Versionshinweise"
+
 >[!AVAILABILITY]
 >
 >Diese Funktion erfordert eine Aktualisierung auf Campaign v8.6.4. Weitere Informationen finden Sie in den [ zur Client-Konsole von Campaign v8](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/releases/release-notes).
 
-Sie können ein visuelles Fragment in einem [E-Mail-Versand](../email/get-started-email-designer.md) oder in einer [Inhaltsvorlage](../email/use-email-templates.md) verwenden. Die einzelnen Schritte werden nachfolgend beschrieben.
+In der Web-Benutzeroberfläche **Campaign** „Visuelle Fragmente“ vordefinierte visuelle Blöcke, die Sie in mehreren [E-Mail-Sendungen](../email/get-started-email-designer.md) oder in [Inhaltsvorlagen](../email/use-email-templates.md) wiederverwenden können. Erfahren Sie in ([ Abschnitt), wie Sie Inhaltsfragmente erstellen ](fragments.md) verwalten.
 
 ![](assets/do-not-localize/fragments.gif)
-
->[!NOTE]
->
->Erfahren Sie in ([ Abschnitt), wie Sie Inhaltsfragmente erstellen ](fragments.md) verwalten.
 
 ## Verwenden eines visuellen Fragments {#use-fragment}
 
