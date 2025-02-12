@@ -5,7 +5,7 @@ exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 source-git-commit: 944fbbdd273cc402b88f2beaef5b15f2ce80cc6b
 workflow-type: tm+mt
 source-wordcount: '585'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -55,7 +55,7 @@ Die folgenden Funktionen und Verbesserungen sind ab der Version Januar verfügba
 <tbody>
 <tr>
 <td>
-<p>In der Campaign Web-Benutzeroberfläche können nun externe Sendungen und Versandvorlagen definiert werden. In diesem Modus werden Nachrichten in eine Ausgabedatei kompiliert, die mit Ihrem externen Anbieter geteilt werden kann. Standardmäßig wird der externe Versandmodus für den Briefpostkanal verwendet.</p>
+<p>In der Campaign Web-Benutzeroberfläche können nun externe Sendungen und Versandvorlagen definiert werden. In diesem Modus werden Nachrichten in einer Ausgabedatei zusammengefasst, die für einen externen Anbieter freigegeben werden kann. Standardmäßig wird der externe Versandmodus für den Briefpostkanal verwendet.</p>
 <img src="assets/do-not-localize/external-delivery.gif">
 <p>Weitere Informationen finden Sie in der <a href="../msg/send-external-deliveries.md">entsprechenden Dokumentation</a>.</p>
 </td>
@@ -138,15 +138,15 @@ Die folgenden Funktionen und Verbesserungen sind ab der Version Januar verfügba
 <table>
 <thead>
 <tr>
-<th><strong>Generieren von Landingpages mit dem Content Accelerator des KI-Assistenten</strong><br/></th>
+<th><strong>Generierung von Landingpages mit der Content-Beschleunigung des KI-Assistenten</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Der KI-Assistent-Inhaltsbeschleuniger ist jetzt für Ihre Landingpage-Sendungen verfügbar, sodass Sie Text, Bilder oder vollständige Seiten-Layouts generieren können.</p>
+<p>Die Content-Beschleunigung des KI-Assistenten ist nun für die Bereitstellung von Landingpages verfügbar, sodass Sie Text, Bilder oder vollständige Seiten-Layouts generieren können.</p>
 <img src="assets/do-not-localize/ai-lp.gif">
-<p>Weitere Informationen zu AI Assistant Content Accelerator finden Sie in der <a href="../email/generative-lp.md"> Dokumentation </a>.</p>
+<p>Weitere Informationen zur Content-Beschleunigung des KI-Assistenten finden Sie in der <a href="../email/generative-lp.md">ausführlichen Dokumentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -166,4 +166,4 @@ Die folgenden Funktionen und Verbesserungen sind ab der Version Januar verfügba
 
 * Filter „Zuletzt verwendet“ und „Favoriten“: Um häufig verwendete Attribute schnell wiederzuverwenden, können Sie sie nun zu Favoriten hinzufügen. Dadurch wird sichergestellt, dass sie für zukünftige Aufgaben problemlos zugänglich sind. Zusätzlich zu den Favoriten können Sie auch die zuletzt ausgewählten Attribute anzeigen und verwenden.
 
-* Externe Konten: Der neue **[!UICONTROL Routing]**-Typ steht beim Erstellen eines neuen externen Kontos zur Auswahl. Damit können Sie ein bestimmtes externes Konto für die Verwendung in Ihren externen Sendungen konfigurieren. [Weitere Informationen](../administration/external-account.md#routing)
+* Externe Konten: Der neue **[!UICONTROL Routing]**-Typ steht beim Erstellen eines neuen externen Kontos zur Auswahl. Damit können Sie ein bestimmtes externes Konto für Ihre externen Sendungen konfigurieren. [Weitere Informationen](../administration/external-account.md#routing)
