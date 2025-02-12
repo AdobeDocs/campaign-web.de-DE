@@ -1,5 +1,5 @@
 ---
-title: Auflistungen verwalten
+title: Verwalten von Auflistungen
 description: Erfahren Sie, wie Sie mit Auflistungen arbeiten
 exl-id: d2a30fef-2cc4-49af-9f5d-d42c6396a8ab
 source-git-commit: 8fccae9906d7a04ec1e8e10ad7be60f597a43492
@@ -9,7 +9,7 @@ ht-degree: 19%
 
 ---
 
-# Auflistungen verwalten {#enumerations}
+# Verwalten von Auflistungen {#enumerations}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn3"

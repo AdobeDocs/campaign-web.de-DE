@@ -6,16 +6,16 @@ exl-id: 08fe9333-aa35-4acf-ba41-4c6895049bbc
 source-git-commit: 8fccae9906d7a04ec1e8e10ad7be60f597a43492
 workflow-type: tm+mt
 source-wordcount: '518'
-ht-degree: 15%
+ht-degree: 19%
 
 ---
 
-# Externe Sendungen durchführen {#gs-direct-mail}
+# Durchführen von externen Sendungen {#gs-direct-mail}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn2"
 >title="Erstellen externer Sendungen"
->abstract="In der Campaign Web-Benutzeroberfläche können nun externe Sendungen und Versandvorlagen definiert werden. In diesem Modus werden Nachrichten in eine Ausgabedatei kompiliert, die mit Ihrem externen Anbieter geteilt werden kann. Standardmäßig wird der externe Versandmodus für den Briefpostkanal verwendet."
+>abstract="In der Campaign Web-Benutzeroberfläche können nun externe Sendungen und Versandvorlagen definiert werden. In diesem Modus werden Nachrichten in einer Ausgabedatei zusammengefasst, die für einen externen Anbieter freigegeben werden kann. Standardmäßig wird der externe Versandmodus für den Briefpostkanal verwendet."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=de" text="Siehe Versionshinweise"
 
 
