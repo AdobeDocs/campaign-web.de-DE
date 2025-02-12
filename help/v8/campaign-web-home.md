@@ -4,9 +4,9 @@ description: Hilfe-Center zu Campaign Web
 title: Produktdokumentation zu Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '460'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -52,9 +52,9 @@ Hier erhalten Sie einen Einblick in die neuesten Verbesserungen in Adobe Campaig
 >[!BEGINTABS]
 
 
->[!TAB Version Januar &#39;25]
+>[!TAB Version Januar 2025]
 
-Die Version Januar ist jetzt verfügbar, einschließlich Transaktionsnachrichten, externen Konten und mehr Verbesserungen.
+Die Januar-Version ist jetzt live. Sie umfasst Transaktionsnachrichten, externe Konten sowie weitere Verbesserungen.
 
 [![Schaltfläche „Weitere Informationen“](assets/do-not-localize/learn-more-button.svg)](../v8/rn/release-notes.md)
 
@@ -67,14 +67,14 @@ Die Version Januar ist jetzt verfügbar, einschließlich Transaktionsnachrichten
 
 >[!TAB Häufig gestellte Fragen]
 
-Häufig gestellte Fragen zur Web-Benutzeroberfläche von Campaign werden auf einer neuen speziellen Seite aufgelistet.
+Häufig gestellte Fragen zur Campaign Web-Benutzeroberfläche werden auf einer neuen, speziellen Seite aufgelistet.
 
 [![Schaltfläche „Weitere Informationen“](assets/do-not-localize/learn-more-button.svg)](get-started/faq.md)
 
 
 >[!ENDTABS]
 
-## Beginnen Sie mit den Grundlagen
+## Beginnen wir mit den Grundlagen
 
 <table style="table-layout:fixed">
   <tr style="border: 0;">

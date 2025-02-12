@@ -4,7 +4,7 @@ title: Erkunden der Benutzeroberfläche
 description: Adobe Campaign Web-Benutzeroberfläche
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2032'
 ht-degree: 100%
 

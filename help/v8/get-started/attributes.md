@@ -1,49 +1,49 @@
 ---
 audience: end-user
-title: Attribute auswählen und zu Favoriten hinzufügen
-description: Erfahren Sie, wie Sie mit Attributen arbeiten und einfach auf bevorzugte und kürzlich verwendete Attribute zugreifen können.
+title: Auswählen von Attributen und Hinzufügen dieser Auswahl zu Favoriten
+description: Erfahren Sie, wie Sie mit Attributen arbeiten und einfach auf bevorzugte und zuletzt verwendete Attribute zugreifen können.
 exl-id: 27663e57-fdab-4371-b7c6-12064ed6526f
 source-git-commit: 3bedb4562c5858cd6057fd8a17064ccac8303c39
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '501'
-ht-degree: 7%
+ht-degree: 100%
 
 ---
 
-# Attribute auswählen und zu Favoriten hinzufügen {#folders}
+# Auswählen von Attributen und Hinzufügen dieser Auswahl zu Favoriten {#folders}
 
-In der Web-Benutzeroberfläche von Campaign können Sie je nach der gewünschten Aktion Attribute aus der Datenbank an verschiedenen Stellen auswählen. Sie können beispielsweise Attribute auswählen, wenn Sie Ausgabespalten für einen Briefpost-Versand oder eine zu extrahierende Datei definieren. Ebenso können Attribute ausgewählt werden, wenn der Abfrage-Modellierer zum Erstellen von Regeln, Filtern oder Audiences verwendet wird.
+In der Campaign Web-Benutzeroberfläche können Sie abhängig von der gewünschten Aktion Attribute aus der Datenbank an verschiedenen Stellen auswählen. Sie können beispielsweise Attribute auswählen, wenn Sie Ausgabespalten für einen Briefpostversand oder eine zu extrahierende Datei definieren. Ebenso können Attribute ausgewählt werden, wenn der Abfrage-Modeler zum Erstellen von Regeln, Filtern oder Zielgruppen verwendet wird.
 
 ![](assets/attributes-list.png)
 
-Um häufig verwendete Attribute schnell wiederzuverwenden, können Sie sie zu Favoriten hinzufügen. Dadurch wird sichergestellt, dass sie für zukünftige Aufgaben problemlos zugänglich sind. Zusätzlich zu den Favoriten können Sie auch die zuletzt ausgewählten Attribute anzeigen und verwenden.
+Um häufig verwendete Attribute schnell wiederzuverwenden, können Sie sie zu den Favoriten hinzufügen. Dadurch wird sichergestellt, dass sie für zukünftige Aufgaben problemlos zugänglich sind. Zusätzlich zu den Favoriten können Sie auch die zuletzt ausgewählten Attribute anzeigen und verwenden.
 
-Die Schnittstelle bietet außerdem ein Tool für die Werteverteilung , mit dem Sie die Verteilung der Attributwerte in einer Tabelle visualisieren können. Mit diesem Tool können Sie den Bereich und die Häufigkeit von Werten identifizieren und so die Datenkonsistenz beim Erstellen von Abfragen oder Ausdrücken sicherstellen.
+Die Oberfläche bietet außerdem das Tool „Werteverteilung“, mit dem Sie die Verteilung der Attributwerte in einer Tabelle visualisieren können. Mit diesem Tool können Sie den Bereich und die Häufigkeit von Werten bestimmen und so die Datenkonsistenz beim Erstellen von Abfragen oder Ausdrücken sicherstellen.
 
-## Favoriten und aktuelle Attribute {#favorites}
+## Favoriten und zuletzt verwendete Attribute {#favorites}
 
 >[!CONTEXTUALHELP]
 >id="acw_attribute_picker_favorites_recents"
 >title="Favoriten und zuletzt ausgewertet"
->abstract="Das Menü **[!UICONTROL Favoriten und Zuletzt verwendet]** in der Attributauswahl bietet eine organisierte Ansicht von Attributen, die Sie den Favoriten hinzugefügt haben, sowie eine Liste der zuletzt verwendeten Attribute. Favoritenattribute werden zuerst angezeigt, gefolgt von kürzlich verwendeten Attributen, sodass Sie die benötigten Attribute leicht finden können."
+>abstract="Das Menü **[!UICONTROL Favoriten und zuletzt ausgewertet]** in der Attributauswahl bietet eine organisierte Ansicht von Attributen, die Sie den Favoriten hinzugefügt haben, sowie eine Liste der zuletzt verwendeten Attribute. Bevorzugte Attribute werden zuerst angezeigt, gefolgt von den zuletzt verwendeten Attributen, sodass Sie die benötigten Attribute leicht finden können."
 
-Das Menü **[!UICONTROL Favoriten und Zuletzt verwendet]** in der Attributauswahl bietet eine organisierte Ansicht von Attributen, die Sie den Favoriten hinzugefügt haben, sowie eine Liste der zuletzt verwendeten Attribute. Favoritenattribute werden zuerst angezeigt, gefolgt von kürzlich verwendeten Attributen, sodass Sie die benötigten Attribute leicht finden können.
+Das Menü **[!UICONTROL Favoriten und zuletzt ausgewertet]** in der Attributauswahl bietet eine organisierte Ansicht der Attribute, die Sie den Favoriten hinzugefügt haben, sowie eine Liste der zuletzt verwendeten Attribute. Bevorzugte Attribute werden zuerst angezeigt, gefolgt von den zuletzt verwendeten Attributen, sodass Sie die benötigten Attribute leicht finden können.
 
 ![](assets/attributes-favorites.png)
 
 Um ein Attribut zu den Favoriten hinzuzufügen, bewegen Sie den Mauszeiger über die Informationsschaltfläche und wählen Sie das Sternsymbol aus. Das Attribut wird dann automatisch zu Ihrer Favoritenliste hinzugefügt. Wenn Sie ein Attribut nicht mehr als Favorit beibehalten möchten, können Sie es entfernen, indem Sie erneut auf das Sternsymbol klicken.
 
-Sie können bis zu 20 Attribute zu Favoriten hinzufügen. Jedem Benutzer in einer Organisation sind die Attribute „Favorit“ und „Zuletzt verwendet“ zugeordnet. Das bedeutet, dass sie von verschiedenen Computern aus zugänglich sind, was ein nahtloses Erlebnis auf allen Geräten gewährleistet.
+Es können bis zu 20 Attributfavoriten hinzugefügt werden. Jeder Benutzerin und jedem Benutzer in einer Organisation sind die bevorzugten und die zuletzt verwendeten Attribute zugeordnet. Das bedeutet, dass sie von verschiedenen Computern aus zugänglich sind, was ein nahtloses Erlebnis auf allen Geräten sicherstellt.
 
-## Identifizieren der Werteverteilung in einer Tabelle {#distribution}
+## Bestimmen der Werteverteilung in einer Tabelle {#distribution}
 
-Mit **Schaltfläche „Werteverteilung** im Informationsbereich eines Attributs können Sie die Werteverteilung für dieses Attribut innerhalb der Tabelle analysieren. Diese Funktion ist besonders hilfreich, um die verfügbaren Werte, ihre Anzahl und Prozentsätze zu verstehen. Außerdem lassen sich Probleme wie inkonsistente Groß- und Kleinschreibung beim Erstellen von Abfragen oder Ausdrücken vermeiden.
+Mit der Schaltfläche **Werteverteilung** im Informationsbereich eines Attributs können Sie die Werteverteilung für dieses Attribut innerhalb der Tabelle analysieren. Diese Funktion ist besonders nützlich, um die verfügbaren Werte, ihre Anzahl und Prozentsätze zu verstehen. Außerdem lassen sich Probleme wie inkonsistente Groß- und Kleinschreibung oder Schreibweisen beim Erstellen von Abfragen oder Ausdrücken vermeiden.
 
 ![](assets/attributes-distribution-values.png)
 
-Bei Attributen mit einer großen Anzahl von Werten zeigt das Tool nur die ersten zwanzig an. In solchen Fällen wird eine **[!UICONTROL Partial Load]**-Benachrichtigung angezeigt, die auf diese Einschränkung hinweist. Sie können erweiterte Filter anwenden, um die angezeigten Ergebnisse zu verfeinern und sich auf bestimmte Werte oder Teilmengen von Daten zu konzentrieren. Ausführliche Anleitungen zur Verwendung von Filtern finden Sie [hier](../get-started/work-with-folders.md#filter-the-values).
+Bei Attributen mit einer großen Anzahl von Werten zeigt das Tool nur die ersten zwanzig an. In solchen Fällen wird die Benachrichtigung **[!UICONTROL Teilweise geladen]** angezeigt, um auf diese Einschränkung hinzuweisen. Sie können erweiterte Filter anwenden, um die angezeigten Ergebnisse einzugrenzen und sich auf bestimmte Werte oder Teilmengen von Daten zu konzentrieren. Ausführliche Anleitungen zur Verwendung von Filtern finden Sie [hier](../get-started/work-with-folders.md#filter-the-values).
 
-Weitere Informationen zur Verwendung des Tools Werteverteilung in verschiedenen Kontexten finden Sie in den folgenden Abschnitten:
+Weitere Informationen zur Verwendung des Tools „Werteverteilung“ in verschiedenen Kontexten finden Sie in den folgenden Abschnitten:
 
 - [Werteverteilung in einem Ordner](../get-started/work-with-folders.md##distribution-values-folder)
 - [Werteverteilung in einer Abfrage](../query/build-query.md#distribution-values-query)
