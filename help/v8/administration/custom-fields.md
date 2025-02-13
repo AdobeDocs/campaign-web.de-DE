@@ -5,7 +5,7 @@ exl-id: 34e7e0b7-3981-43b1-95a5-6c672adafdc9
 source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
 workflow-type: tm+mt
 source-wordcount: '898'
-ht-degree: 5%
+ht-degree: 27%
 
 ---
 
@@ -14,27 +14,27 @@ ht-degree: 5%
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields"
->title="Benutzerdefinierte Details bearbeiten"
->abstract="Alle benutzerdefinierten Felder, die in der Benutzeroberfläche für das ausgewählte Schema angezeigt werden, werden angezeigt. Sie können die Reihenfolge ändern, in der Felder in der Benutzeroberfläche angezeigt werden, indem Sie die Pfeile nach oben und unten verwenden, und Felder durch Hinzufügen von Trennzeichen in Unterabschnitten gruppieren. Um ein benutzerdefiniertes Feld zu löschen oder Einstellungen wie Sichtbarkeitsbedingungen zu bearbeiten, klicken Sie auf die Schaltfläche mit den Auslassungspunkten."
+>title="Bearbeiten benutzerdefinierter Details"
+>abstract="Alle benutzerdefinierten Felder, die in der Benutzeroberfläche für das ausgewählte Schema angezeigt werden, werden eingeblendet. Sie können die Reihenfolge, in der sie in der Benutzeroberfläche angezeigt werden, mithilfe der Pfeile nach oben und unten ändern und Felder durch Hinzufügen von Trennzeichen in Unterabschnitte gruppieren. Um ein benutzerdefiniertes Feld zu löschen oder Einstellungen wie etwa Sichtbarkeitsbedingungen zu bearbeiten, klicken Sie auf die Schaltfläche mit den Auslassungspunkten."
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields_settings_general"
 >title="Allgemein"
->abstract="Definieren Sie die allgemeinen Einstellungen des benutzerdefinierten Felds. Wenn keine Beschriftung angegeben wird, wird die im Schema definierte Beschriftung angezeigt. Verwenden Sie das Feld **Sichtbar, wenn** um eine Bedingung mithilfe eines xtk-Ausdrucks zu definieren, der steuert, wann das Feld angezeigt wird. Sie können das Feld in der Benutzeroberfläche auch als obligatorisch oder schreibgeschützt markieren."
+>abstract="Hier werden die allgemeinen Einstellungen des benutzerdefinierten Felds definiert. Wenn kein Titel angegeben wird, wird der im Schema definierte Titel angezeigt. Verwenden Sie das Feld **In folgenden Fällen sichtbar**, um eine Bedingung mithilfe eines xtk-Ausdrucks zu definieren, der steuert, wann das Feld angezeigt wird. Sie können das Feld in der Benutzeroberfläche auch als obligatorisch oder schreibgeschützt markieren."
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields_settings_link"
 >title="Verknüpfungseigenschaften"
->abstract="Verwenden Sie den Abfrage-Modellierer, um Regeln für die Anzeige eines benutzerdefinierten Felds vom Typ Link anzugeben. Beschränken Sie beispielsweise Listenwerte auf der Grundlage der Eingabe eines anderen Felds."
+>abstract="Verwenden Sie den Abfrage-Modeler, um Regeln für die Anzeige eines benutzerdefinierten Felds vom Typ „Link“ anzugeben. Beschränken Sie beispielsweise Listenwerte auf Grundlage der Eingabe eines anderen Felds."
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields_settings_layout"
 >title="Layout"
->abstract="Standardmäßig werden benutzerdefinierte Felder in der -Benutzeroberfläche in zwei Spalten angezeigt. Schalten Sie diese Option ein, um das benutzerdefinierte Feld über die gesamte Breite des Bildschirms statt über zwei Spalten anzuzeigen."
+>abstract="Standardmäßig werden benutzerdefinierte Felder in der Benutzeroberfläche in zwei Spalten angezeigt. Schalten Sie diese Option ein, um das benutzerdefinierte Feld über die gesamte Breite des Bildschirms und nicht in zwei Spalten anzuzeigen."
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields_separatorproperties"
->title="Trennzeigenschaften"
+>title="Trennzeicheneigenschaften"
 >abstract="Geben Sie den Namen an, der in der Benutzeroberfläche für den Unterabschnitt angezeigt werden soll."
 
 <!-- NOT USED IN THE UI?-->
@@ -106,7 +106,7 @@ Verfügbare Einstellungen sind:
 * **[!UICONTROL Sichtbar, wenn]**: Definieren Sie eine Bedingung mithilfe eines xtk-Ausdrucks, der steuert, wann das Feld angezeigt wird. Blenden Sie beispielsweise dieses Feld aus, wenn ein anderes Feld leer ist.
 * **[!UICONTROL Obligatorisch]**: Machen Sie das Feld in der Benutzeroberfläche zu einem Pflichtfeld.
 * **[!UICONTROL Schreibgeschützt]**: Das Feld in der Benutzeroberfläche als schreibgeschützt festlegen. Benutzende können den Wert des Felds nicht bearbeiten.
-* **[!UICONTROL Filtereinstellungen]** (für Felder vom Typ „Link„): Verwenden Sie den Abfrage-Modellierer, um Regeln für die Anzeige eines benutzerdefinierten Felds vom Typ „Link“ anzugeben. Beschränken Sie beispielsweise Listenwerte auf der Grundlage der Eingabe eines anderen Felds.
+* **[!UICONTROL Filtereinstellungen]** (für Felder vom Typ „Link„): Verwenden Sie den Abfrage-Modellierer, um Regeln für die Anzeige eines benutzerdefinierten Felds vom Typ „Link“ anzugeben. Beschränken Sie beispielsweise Listenwerte auf Grundlage der Eingabe eines anderen Felds.
 
   Sie können auch den Wert referenzieren, der in andere Felder in Ihren Bedingungen eingegeben wurde, indem Sie die `$(<field-name>)` Syntax verwenden. Auf diese Weise können Sie auf den aktuellen Wert eines Feldes verweisen, wie er im Formular eingegeben wurde, auch wenn dieser noch nicht in der Datenbank gespeichert wurde.
 
@@ -118,7 +118,7 @@ Verfügbare Einstellungen sind:
 
 +++
 
-* **[!UICONTROL Über zwei Spalten]**: Standardmäßig werden benutzerdefinierte Felder in der Benutzeroberfläche in zwei Spalten angezeigt. Schalten Sie diese Option ein, um das benutzerdefinierte Feld über die gesamte Breite des Bildschirms statt über zwei Spalten anzuzeigen.
+* **[!UICONTROL Über zwei Spalten]**: Standardmäßig werden benutzerdefinierte Felder in der Benutzeroberfläche in zwei Spalten angezeigt. Schalten Sie diese Option ein, um das benutzerdefinierte Feld über die gesamte Breite des Bildschirms und nicht in zwei Spalten anzuzeigen.
 
 ## Organisieren von benutzerdefinierten Feldern in Unterabschnitten {#separator}
 

@@ -10,7 +10,7 @@ exl-id: 54fdd03a-e49d-4f22-b6d4-6055c8922e58
 source-git-commit: c759dd72e2ca3d11b4dad0cd38410d699b651cad
 workflow-type: tm+mt
 source-wordcount: '1414'
-ht-degree: 12%
+ht-degree: 28%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="acw_business_rules"
 >title="Typologien und Typologieregeln"
->abstract="Mit Typologien können Sie Geschäftspraktiken für alle Sendungen standardisieren. Eine Typologie ist eine Sammlung von Typologieregeln, mit denen der Versand von Sendungen gesteuert, gefiltert und priorisiert werden kann. Profile, die den Kriterien einer Typologieregel entsprechen, werden in der Vorbereitungsphase von den Versandzielgruppen ausgeschlossen."
+>abstract="Mit Typologien lassen sich Geschäftspraktiken über alle Sendungen hinweg standardisieren. Eine Typologie ist eine Sammlung von Typologieregeln, mit denen der Versand von Sendungen gesteuert, gefiltert und priorisiert werden kann. Profile, die den Kriterien einer Typologieregel entsprechen, werden in der Vorbereitungsphase von den Versandzielgruppen ausgeschlossen."
 
 ## Über Typologien
 
-Mit Typologien können Sie Geschäftspraktiken für alle Sendungen standardisieren. Eine **Typologie** ist eine Sammlung von **Typologieregeln** mit denen Sie den Versand von Sendungen steuern, filtern und priorisieren können. Profile, die den Kriterien einer Typologieregel entsprechen, werden in der Vorbereitungsphase von den Versandzielgruppen ausgeschlossen.
+Mit Typologien lassen sich Geschäftspraktiken über alle Sendungen hinweg standardisieren. Eine **Typologie** ist eine Sammlung von **Typologieregeln** mit denen Sie den Versand von Sendungen steuern, filtern und priorisieren können. Profile, die den Kriterien einer Typologieregel entsprechen, werden in der Vorbereitungsphase von den Versandzielgruppen ausgeschlossen.
 
 Typologien stellen sicher, dass Ihre Sendungen immer bestimmte Elemente enthalten (z. B. einen Abmelde-Link oder eine Betreffzeile) oder Filterregeln anwenden, um Gruppen aus Ihrer Zielgruppe auszuschließen (z. B. Abonnenten, Konkurrenten oder Kunden, die nicht Mitglied im Treueprogramm sind).
 
@@ -47,7 +47,7 @@ Die wichtigsten Schritte zum Anwenden von Typologien auf Ihre Nachrichten sind:
 >[!CONTEXTUALHELP]
 >id="acw_business_rules_typology_properties"
 >title="Typologieeigenschaften"
->abstract="Definieren Sie die Eigenschaften der Typologie und erweitern Sie den Abschnitt **[!UICONTROL Zusätzliche Optionen]**, um auf erweiterte Einstellungen zuzugreifen. Verwenden Sie das Feld **[!UICONTROL IP-Affinität]**, um IP-Affinitäten mit Typologien zu verknüpfen. Auf diese Weise können Sie den ausgehenden SMTP-Traffic besser kontrollieren, indem Sie festlegen, welche spezifischen IP-Adressen für jede Affinität verwendet werden können."
+>abstract="Definieren Sie die Eigenschaften der Typologie und erweitern Sie den Abschnitt **[!UICONTROL Weitere Optionen]**, um auf erweiterte Einstellungen zuzugreifen. Verwenden Sie das Feld **[!UICONTROL IP-Affinität]**, um IP-Affinitäten mit Typologien zu verknüpfen. Hierdurch können Sie den ausgehenden SMTP-Traffic besser steuern. Legen Sie dazu fest, welche IP-Adressen jeweils für die einzelnen Affinitäten verwendet werden können."
 
 >[!CONTEXTUALHELP]
 >id="acw_business_rules_typology_ip_affinity"
@@ -79,7 +79,7 @@ Die Typologie öffnet Details. Auf diesem Bildschirm können Sie direkt auf vorh
 >[!CONTEXTUALHELP]
 >id="acw_business_rules_typology_rules_properties"
 >title="Typologieregeleigenschaften"
->abstract="Definieren Sie die Eigenschaften der Typologieregel. **Kontrollregeln** überprüfen vor dem Versand die Qualität und Gültigkeit der Nachrichten, während **Filterregeln** Segmente der Zielgruppe basierend auf bestimmten Kriterien ausschließen.<br/><br/>Sie können auch die Ausführungsreihenfolge der Regel ändern, um die Reihenfolge zu verwalten, in der Typologieregeln ausgeführt werden, wenn mehrere Regeln desselben Typs während derselben Nachrichtenverarbeitungsphase ausgeführt werden."
+>abstract="Definieren Sie die Eigenschaften der Typologieregel. Über **Steuerungsregeln** wird vor dem Versand die Qualität sowie die Gültigkeit von Nachrichten überprüft. **Filterregeln** dienen hingegen dazu, Segmente der Zielgruppe anhand bestimmter Kriterien auszuschließen.<br/><br/>Sie können auch die Ausführungsreihenfolge der Regel ändern, um die Ausführungsabfolge von Typologieregeln zu steuern, wenn mehrere Regeln desselben Typs während derselben Nachrichtenverarbeitungsphase ausgeführt werden."
 
 Um eine Typologieregel zu erstellen, navigieren Sie zum Menü **[!UICONTROL Geschäftsregeln]** und wählen Sie dann die Registerkarte **[!UICONTROL Typologieregeln]** aus.
 
@@ -97,7 +97,7 @@ Definieren Sie die Eigenschaften der Typologieregel:
 
    * **Kontrolle**: Stellt die Qualität und Gültigkeit der Nachrichten vor dem Senden sicher (z. B. Zeichenanzeige, SMS-Länge, Adressformat, URL-Verkürzung). Sie werden mithilfe einer Skriptoberfläche erstellt, um komplexe Logik für Inhaltsprüfungen und -änderungen zu definieren.
 
-   * **Filterregeln** schließen Segmente der Zielgruppe basierend auf bestimmten Kriterien aus (z. B. Alter, Standort, Land, Telefonnummern). Diese Regeln sind mit einer Zielgruppendimension verknüpft.
+   * **Filterregeln** schließen Segmente der Zielgruppe anhand bestimmter Kriterien aus (z. B. Alter, Standort, Land, Telefonnummern). Diese Regeln sind mit einer Zielgruppendimension verknüpft.
 
    >[!NOTE]
    >
@@ -145,17 +145,17 @@ Definieren Sie die Eigenschaften der Typologieregel:
 
 +++
 
-### Regelinhalt erstellen {#build}
+### Erstellen des Regelinhalts {#build}
 
 >[!CONTEXTUALHELP]
 >id="acw_business_rules_typology_rules_filtering"
 >title="Filter"
->abstract="**Filterregeln** schließen Segmente der Zielgruppe basierend auf bestimmten Kriterien aus (z. B. Alter, Standort, Land, Telefonnummern). Wählen Sie die Zielgruppendimension der Typologieregel aus und klicken Sie auf die Schaltfläche **[!UICONTROL Regeln hinzufügen]**, um auf den Abfrage-Modellierer zuzugreifen und die Regel zu erstellen."
+>abstract="**Filterregeln** schließen Segmente der Zielgruppe anhand bestimmter Kriterien aus (z. B. Alter, Standort, Land, Telefonnummern). Wählen Sie die Zielgruppendimension der Typologieregel aus und klicken Sie auf die Schaltfläche **[!UICONTROL Regeln hinzufügen]**, um auf den Abfrage-Modeler zuzugreifen und die Regel zu erstellen."
 
 >[!CONTEXTUALHELP]
 >id="acw_business_rules_typology_rules_code"
 >title="Code"
->abstract="**Kontrollregeln** überprüfen die Qualität und Gültigkeit der Nachrichten vor dem Versand (z. B. Zeichenanzeige, SMS-Länge, Adressformat, URL-Verkürzung). Sie werden mit JavaScript-Code erstellt."
+>abstract="**Steuerungsregeln** überprüfen vor dem Versand die Qualität und Gültigkeit von Nachrichten (z. B. Zeichenanzeige, SMS-Länge, Adressformat, URL-Verkürzung). Sie werden mit JavaScript-Code erstellt."
 
 Nachdem die Eigenschaften der Typologieregel definiert wurden, können Sie den Inhalt der Regel erstellen.
 

@@ -5,7 +5,7 @@ exl-id: d2a30fef-2cc4-49af-9f5d-d42c6396a8ab
 source-git-commit: 8fccae9906d7a04ec1e8e10ad7be60f597a43492
 workflow-type: tm+mt
 source-wordcount: '600'
-ht-degree: 19%
+ht-degree: 34%
 
 ---
 
@@ -26,12 +26,12 @@ ht-degree: 19%
 >[!CONTEXTUALHELP]
 >id="acw_enumerations_properties"
 >title="Eigenschaften"
->abstract="Definieren Sie die Eigenschaften der Auflistung, z. B. ihren Namen, den internen Namen und den Typ. **[!UICONTROL Geschlossene]** Auflistungen verfügen über eine feste Liste von Werten, die nur über das Menü **[!UICONTROL Auflistungen]** geändert werden kann. **[!UICONTROL Open]**-Auflistungen ermöglichen es Benutzenden, neue Werte direkt in die auf dieser Auflistung basierenden Felder einzufügen. **[!UICONTROL System]**-Auflistungen sind mit Systemfeldern verknüpft. **[!UICONTROL Emoticon]**-Auflistungen werden verwendet, um die Emoticon-Liste zu aktualisieren."
+>abstract="Hier werden die Eigenschaften der Auflistung definiert, z. B. ihr Name, interner Name und Typ. Auflistungen vom Typ **[!UICONTROL Geschlossen]** verfügen über eine feste Liste von Werten, die nur über das Menü **[!UICONTROL Auflistungen]** geändert werden kann. Auflistungen vom Typ **[!UICONTROL Offen]** ermöglichen es den Benutzenden, neue Werte direkt in die auf dieser Auflistung basierenden Felder einzufügen. Auflistungen vom Typ **[!UICONTROL System]** sind mit Systemfeldern verknüpft. Auflistungen vom Typ **[!UICONTROL Emoticon]** werden verwendet, um die Liste der Smileys zu aktualisieren. "
 
 >[!CONTEXTUALHELP]
 >id="acw_enumerations_values"
 >title="Liste der Auflistungswerte"
->abstract="Um der Auflistung einen Wert hinzuzufügen, klicken Sie auf die Schaltfläche **[!UICONTROL Wert hinzufügen]** und konfigurieren Sie ihn dann nach Bedarf."
+>abstract="Um der Auflistung einen Wert hinzuzufügen, klicken Sie auf die Schaltfläche **[!UICONTROL Wert hinzufügen]** und konfigurieren Sie den Wert dann nach Bedarf."
 
 ## Was sind Auflistungen? {#about}
 
@@ -56,7 +56,7 @@ Gehen Sie wie folgt vor, um eine Auflistung zu erstellen:
    * **[!UICONTROL Geschlossene]** Auflistungen verfügen über eine feste Liste von Werten, die nur über das Menü **[!UICONTROL Auflistungen]** geändert werden kann.
    * **[!UICONTROL Open]**-Auflistungen ermöglichen es Benutzenden, neue Werte direkt in die auf dieser Auflistung basierenden Felder einzufügen.
    * **[!UICONTROL System]**-Auflistungen sind mit Systemfeldern verknüpft.
-   * **[!UICONTROL Emoticon]**-Auflistungen werden verwendet, um die Emoticon-Liste zu aktualisieren.
+   * Auflistungen vom Typ **[!UICONTROL Emoticon]** werden verwendet, um die Liste der Smileys zu aktualisieren. 
 
 1. Klicken Sie auf **[!UICONTROL Erstellen]**. Die Auflistungsdetails werden angezeigt, sodass Sie der Liste Werte hinzufügen können.
 
