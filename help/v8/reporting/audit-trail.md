@@ -4,10 +4,10 @@ title: Audit-Protokoll
 description: Erfahren Sie, wie Sie Ihre Instanz mit dem Audit-Protokoll von Campaign überwachen.
 feature: Audit Trail, Monitoring, Workflows
 exl-id: f4b4a33f-8250-4f4e-b2dc-129c56f9ea0f
-source-git-commit: 5323f3db8b29376b15b400a67765c6c0eda37479
+source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
 workflow-type: tm+mt
 source-wordcount: '581'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -75,7 +75,7 @@ Die Funktion **[!UICONTROL Audit-Protokoll]** zeichnet im Rahmen eines detaillie
 
 So greifen auf das **[!UICONTROL Audit-Protokoll]** Ihrer Instanz zu:
 
-1. Wählen Sie im Menü **[!UICONTROL Administration]** die Option **[!UICONTROL Audit-Protokoll]** aus.
+1. Wählen Sie im Menü **[!UICONTROL Administration]** die Option **[!UICONTROL Audit-Protokoll]**.
 
    ![](assets/audit-trail-1.png)
 

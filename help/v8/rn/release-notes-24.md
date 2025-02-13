@@ -2,10 +2,10 @@
 title: Frühzeitige Versionshinweise zur Web-Benutzeroberfläche von Campaign v8
 description: Versionen der Campaign-Web-Benutzeroberfläche 2024
 exl-id: 430dc1ba-dfa9-4d51-b4ed-f3f048da6ec0
-source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
-workflow-type: ht
-source-wordcount: '2506'
-ht-degree: 100%
+source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
+workflow-type: tm+mt
+source-wordcount: '2502'
+ht-degree: 99%
 
 ---
 
@@ -79,13 +79,13 @@ Die folgenden Funktionen und Verbesserungen sind ab der Version Oktober verfügb
 <table>
 <thead>
 <tr>
-<th><strong>Content-Beschleunigung des KI-Assistenten</strong><br/></th>
+<th><strong>KI-Assistent</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Nachdem Sie Ihre Nachricht erstellt und angepasst haben, entwickeln Sie sie mit der Content-Beschleunigung des KI-Assistenten in Adobe Campaign Web weiter. Mit diesem leistungsstarken Tool können Sie die Wirkung Ihrer Inhalte optimieren, indem Sie eine Reihe ansprechender Texte, Haupttitel und visuell überzeugender Bilder generieren.</p>
+<p>Sobald Sie Ihre Nachricht erstellt und angepasst haben, gehen Sie mit dem KI-Assistenten in Adobe Campaign Web auf die nächste Stufe. Mit diesem leistungsstarken Tool können Sie die Wirkung Ihrer Inhalte optimieren, indem Sie eine Reihe ansprechender Texte, Haupttitel und visuell überzeugender Bilder generieren.</p>
 <p>Nehmen Sie an unserer <a href="https://experienceleague.adobe.com/de/apps/journey-optimizer/ai-assistant-content-accelerator">Live-Funktionsvorstellung</a> teil, um die Funktionen in der Praxis selbst zu erkunden und die vielfältigen Einsatzmöglichkeiten zu verstehen.</a></p>
 <p>Weitere Informationen finden Sie in der <a href="../email/generative-gs.md">entsprechenden Dokumentation</a>.</p>
 <img src="assets/do-not-localize/ai-content-webui.gif"/>

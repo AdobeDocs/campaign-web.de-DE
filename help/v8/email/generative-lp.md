@@ -1,21 +1,21 @@
 ---
 audience: end-user
-title: Landingpage mit dem Content Accelerator des KI-Assistenten
-description: Erste Schritte mit der Content-Beschleunigung des KI-Assistenten
+title: Landingpage mit dem KI-Assistenten
+description: Erste Schritte mit dem KI-Assistenten
 exl-id: f4baa23f-f289-4837-b5b3-c479eaeff86c
-source-git-commit: 8fccae9906d7a04ec1e8e10ad7be60f597a43492
+source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
 workflow-type: tm+mt
-source-wordcount: '1549'
-ht-degree: 67%
+source-wordcount: '1521'
+ht-degree: 70%
 
 ---
 
-# Generierung von Landingpages mit der Content-Beschleunigung des KI-Assistenten {#generative-lp}
+# Generieren von Landingpages mit dem KI-Assistenten{#generative-lp}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn5"
 >title="Generieren von Landingpages mit KI"
->abstract="Sie können jetzt den KI-Assistenten-Inhaltsbeschleuniger verwenden, um Ihre Landingpage-Sendungen zu erstellen, sodass Sie Text, Bilder oder vollständige Seiten-Layouts generieren können."
+>abstract="Sie können jetzt den KI-Assistenten verwenden, um Ihre Landingpage-Sendungen zu erstellen, sodass Sie Text, Bilder oder vollständige Seiten-Layouts generieren können."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=de" text="Siehe Versionshinweise"
 
 
@@ -24,19 +24,19 @@ ht-degree: 67%
 >Bevor Sie mit der Verwendung dieser Funktion beginnen, lesen Sie die entsprechenden Informationen zu [Schutzmechanismen und Einschränkungen](generative-gs.md#generative-guardrails).
 ></br>
 >
->Sie müssen einer [Benutzervereinbarung](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) zustimmen, bevor Sie die Content-Beschleunigung des KI-Assistenten in Adobe Campaign Web verwenden können. Weitere Informationen erhalten Sie vom Adobe-Support.
+>Sie müssen einer [Benutzervereinbarung“ zustimmen](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) bevor Sie den KI-Assistenten in Adobe Campaign Web verwenden können. Weitere Informationen erhalten Sie vom Adobe-Support.
 
-Transformieren Sie Ihre Landingpages mit dem Content Accelerator für KI-Assistenten in Adobe Campaign Web, der auf generativer KI basiert.
+Transformieren Sie Ihre Landingpages mit dem KI-Assistenten in Adobe Campaign Web, der auf generativer KI basiert.
 
 Erstellen Sie mühelos wirkungsvolle Inhalte, einschließlich vollständiger Seiten, maßgeschneiderter Textausschnitte und benutzerdefinierter Visualisierungen, die Ihre Zielgruppe ansprechen und so mehr Interaktion und Interaktion fördern.
 
-Auf den folgenden Registerkarten erfahren Sie, wie Sie die Content-Beschleunigung des KI-Assistenten in Adobe Campaign Web verwenden.
+Auf den folgenden Registerkarten erfahren Sie, wie Sie den KI-Assistenten in Adobe Campaign Web verwenden.
 
 >[!BEGINTABS]
 
 >[!TAB Vollständige Landingpage-Erstellung]
 
-Im folgenden Beispiel verwenden wir den KI-Assistenten-Inhaltsbeschleuniger, um eine vorhandene Landingpage-Vorlage zu verfeinern.
+Im folgenden Beispiel werden wir den KI-Assistenten nutzen, um eine vorhandene Landingpage-Vorlage zu verfeinern.
 
 1. Klicken Sie nach der Erstellung und Konfiguration Ihrer Landingpage auf **[!UICONTROL Inhalt bearbeiten]**.
 
@@ -46,7 +46,7 @@ Im folgenden Beispiel verwenden wir den KI-Assistenten-Inhaltsbeschleuniger, um 
 
    ![](assets/lp_full_gen_1.png){zoomable="yes"}
 
-1. Aktivieren Sie die Option **[!UICONTROL Original-Inhalt verwenden]** für den Content Accelerator des KI-Assistenten, um neue Inhalte basierend auf den ausgewählten Inhalten zu personalisieren.
+1. Aktivieren Sie für den KI-Assistenten die Option **[!UICONTROL Originalinhalt verwenden]**, um neue Inhalte basierend auf dem ausgewählten Inhalt zu personalisieren.
 
 1. Passen Sie den Inhalt an, indem Sie im Feld **[!UICONTROL Prompt]** beschreiben, was Sie generieren möchten.
 
@@ -99,7 +99,7 @@ Sobald Ihre Landingpage fertig ist, können Sie sie veröffentlichen, um sie fü
 
 >[!TAB Nur Textgenerierung]
 
-Im folgenden Beispiel werden wir den KI-Assistenten-Inhaltsbeschleuniger nutzen, um den Inhalt unserer Landingpage zu verbessern.
+Im folgenden Beispiel werden wir den KI-Assistenten nutzen, um den Inhalt unserer Landingpage zu verbessern.
 
 1. Klicken Sie nach der Erstellung und Konfiguration Ihrer Landingpage auf **[!UICONTROL Inhalt bearbeiten]**.
 
@@ -109,7 +109,7 @@ Im folgenden Beispiel werden wir den KI-Assistenten-Inhaltsbeschleuniger nutzen,
 
    ![](assets/lp-text-genai-1.png){zoomable="yes"}
 
-1. Aktivieren Sie die Option **[!UICONTROL Original-Inhalt verwenden]** für den Content Accelerator des KI-Assistenten, um neue Inhalte basierend auf den ausgewählten Inhalten zu personalisieren.
+1. Aktivieren Sie für den KI-Assistenten die Option **[!UICONTROL Originalinhalt verwenden]**, um neue Inhalte basierend auf dem ausgewählten Inhalt zu personalisieren.
 
 1. Passen Sie den Inhalt an, indem Sie im Feld **[!UICONTROL Prompt]** beschreiben, was Sie generieren möchten.
 
@@ -159,19 +159,19 @@ Sobald Ihre Landingpage fertig ist, können Sie sie veröffentlichen, um sie fü
 
 >[!TAB Erstellung nur von Bildern]
 
-Im folgenden Beispiel erfahren Sie, wie Sie den KI-Assistenten-Inhaltsbeschleuniger nutzen können, um Ihre Assets zu optimieren und zu verbessern und so ein benutzerfreundlicheres Erlebnis zu gewährleisten.
+Im folgenden Beispiel erfahren Sie, wie Sie den KI-Assistenten nutzen können, um Ihre Assets zu optimieren und zu verbessern und so ein benutzerfreundlicheres Erlebnis zu gewährleisten.
 
 1. Klicken Sie nach der Erstellung und Konfiguration Ihrer Landingpage auf **[!UICONTROL Inhalt bearbeiten]**.
 
    Weitere Informationen zur Konfiguration einer Landingpage finden Sie auf [dieser Seite](../landing-pages/create-lp.md).
 
-1. Wählen Sie das Asset aus, das Sie mit dem KI-Assistenten Inhaltsbeschleuniger ändern möchten.
+1. Wählen Sie mit dem KI-Assistenten das Asset aus, das Sie ändern möchten.
 
 1. Wählen Sie aus dem Menü auf der rechten Seite die Option **[!UICONTROL KI-Assistent]** aus.
 
    ![](assets/lp-image-gen-1.png){zoomable="yes"}
 
-1. Aktivieren Sie die Option **[!UICONTROL Referenzstil]** für den Content Accelerator des KI-Assistenten, um neue Inhalte basierend auf dem Referenzinhalt zu personalisieren. Sie können auch ein Bild hochladen, um Ihrer Variante Kontext hinzuzufügen.
+1. Aktivieren Sie die **[!UICONTROL Referenzstil]** für den KI-Assistenten, um neue Inhalte basierend auf dem Referenzinhalt zu personalisieren. Sie können auch ein Bild hochladen, um Ihrer Variante Kontext hinzuzufügen.
 
 1. Passen Sie den Inhalt an, indem Sie im Feld **[!UICONTROL Prompt]** beschreiben, was Sie generieren möchten.
 

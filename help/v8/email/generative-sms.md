@@ -1,25 +1,25 @@
 ---
 audience: end-user
-title: SMS mit der Content-Beschleunigung des KI-Assistenten
-description: Erste Schritte mit der Content-Beschleunigung des KI-Assistenten
+title: SMS mit dem KI-Assistenten
+description: Erste Schritte mit dem KI-Assistenten
 exl-id: db0459e5-8759-42d9-8945-8c9667450527
-source-git-commit: a1b1a40be4d2004181f03bba5c43d0302d6f2c47
+source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
 workflow-type: tm+mt
-source-wordcount: '894'
-ht-degree: 100%
+source-wordcount: '882'
+ht-degree: 91%
 
 ---
 
-# Generierung von SMS mit dem KI-Assistenten zur Beschleunigung von Inhalten {#generative-sms}
+# Generierung von SMS mit dem KI-Assistenten {#generative-sms}
 
 >[!IMPORTANT]
 >
 >Bevor Sie mit der Verwendung dieser Funktion beginnen, lesen Sie die entsprechenden Informationen zu [Schutzmechanismen und Einschränkungen](generative-gs.md#generative-guardrails).
 ></br>
 >
->Sie müssen einer [Benutzervereinbarung](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) zustimmen, bevor Sie die Content-Beschleunigung des KI-Assistenten in Adobe Campaign Web verwenden können. Weitere Informationen erhalten Sie vom Adobe-Support.
+>Sie müssen einer [Benutzervereinbarung“ zustimmen](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) bevor Sie den KI-Assistenten in Adobe Campaign Web verwenden können. Weitere Informationen erhalten Sie vom Adobe-Support.
 
-Wenn Sie Ihre SMS-Nachrichten für Ihre Zielgruppe erstellt und personalisiert haben, können Sie Ihre Kommunikation mit der auf innovativer KI-Technologie basierenden Content-Beschleunigung des KI-Assistenten in Adobe Campaign Web auf die nächste Ebene bringen.
+Sobald Sie Ihre SMS-Nachrichten entsprechend Ihren Zielgruppen gestaltet und personalisiert haben, bringen Sie Ihre Kommunikation mithilfe des KI-Assistenten in Adobe Campaign Web, der auf innovativer KI-Technologie basiert, auf die nächste Stufe.
 
 Dieses praktische Tool liefert intelligente Vorschläge für die Verfeinerung Ihrer Inhalte und stellt sicher, dass Ihre Nachrichten effektiv ankommen und die Interaktion maximiert wird.
 
@@ -99,7 +99,7 @@ Wenn Sie Inhalt, Zielgruppe und Zeitplan definiert haben, können Sie den SMS-Ve
 
    ![](assets/sms-text-1.png){zoomable="yes"}
 
-1. Aktivieren Sie für die Content-Beschleunigung des KI-Assistenten die Option **[!UICONTROL Referenzinhalt verwenden]**, um neue Inhalte basierend auf dem ausgewählten Inhalt zu personalisieren.
+1. Aktivieren Sie die Option **[!UICONTROL Referenzinhalt verwenden]** für den KI-Assistenten, um neue Inhalte basierend auf den ausgewählten Inhalten zu personalisieren.
 
 1. Passen Sie den Inhalt an, indem Sie im Feld **[!UICONTROL Prompt]** beschreiben, was Sie generieren möchten.
 

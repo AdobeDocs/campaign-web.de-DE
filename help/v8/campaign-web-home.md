@@ -3,10 +3,10 @@ keywords: Campaign Web;Startseite;beliebte Themen
 description: Hilfe-Center zu Campaign Web
 title: Produktdokumentation zu Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
-workflow-type: ht
-source-wordcount: '460'
-ht-degree: 100%
+source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
+workflow-type: tm+mt
+source-wordcount: '456'
+ht-degree: 93%
 
 ---
 
@@ -59,9 +59,9 @@ Die Januar-Version ist jetzt live. Sie umfasst Transaktionsnachrichten, externe 
 [![Schaltfläche „Weitere Informationen“](assets/do-not-localize/learn-more-button.svg)](../v8/rn/release-notes.md)
 
 
->[!TAB Content Accelerator des KI-Assistenten]
+>[!TAB KI-Assistent]
 
-✨ Nehmen Sie an unserer Live-Funktionsvorstellung des [Content Accelerators des KI-Assistenten](../v8/email/generative-gs.md) teil, um die Funktionen in der Praxis selbst zu erkunden und die vielfältigen Einsatzmöglichkeiten zu verstehen.
+✨ Tauchen Sie mit unserer Live-Funktionsvorschau des [AI Assistant](../v8/email/generative-gs.md) in eine praktische Erfahrung ein, damit Sie die Funktionen des Assistenten aus erster Hand kennenlernen und seine Möglichkeiten voll und ganz verstehen können.
 
 [![Schaltfläche „Weitere Informationen“](assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/de/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 

@@ -3,10 +3,10 @@ audience: end-user
 title: Neue Funktionen in der Campaign Web-Benutzeroberfläche
 description: Entdecken Sie neue Funktionen in der Campaign Web-Benutzeroberfläche.
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: 17536af2d65dec7cdba1967f607e10ae0cb1924a
+source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
 workflow-type: tm+mt
-source-wordcount: '1317'
-ht-degree: 100%
+source-wordcount: '1311'
+ht-degree: 96%
 
 ---
 
@@ -72,13 +72,13 @@ Verwenden Sie die neue Campaign Web-Benutzeroberfläche für Folgendes:
 * Überwachen, Senden und Messen von Ergebnissen mit integrierten Berichten – [Weitere Informationen](../reporting/delivery-reports.md)
 
 
-**Inhaltsgenerierung mit dem Content Accelerator des KI-Assistenten**
+**Inhaltserstellung mit dem KI-Assistenten**
 
 Verabschieden Sie sich von der manuellen Inhaltserstellung und begrüßen Sie eine neue Ära optimierter Kampagnen mit unserem innovativen Inhalts-Designer, der auf Microsoft Azure OpenAI und Adobe Firefly basiert.
 
-Definieren Sie den Versand von Inhalten neu mit unserem erweiterten WYSIWYG-Editor mit Drag-and-Drop-Funktion, der ein einfaches und effizientes Arbeiten ermöglicht. Durch die nahtlose AEM-Integration, die Funktionen für dynamische Inhalte und den fortschrittlichen Content Accelerator des KI-Assistenten ist die Erstellung des Versands mit diesem vielfältigen Tool intuitiv, effizient und hochgradig personalisiert.
+Definieren Sie den Versand von Inhalten neu mit unserem erweiterten WYSIWYG-Editor mit Drag-and-Drop-Funktion, der ein einfaches und effizientes Arbeiten ermöglicht. Mit seiner nahtlosen AEM-Integration, den dynamischen Inhaltsfunktionen und dem bahnbrechenden KI-Assistenten ermöglicht dieses All-in-One-Tool die intuitive, effiziente und hochgradig personalisierte Erstellung von Sendungen.
 
-Nutzen Sie die Vorteile der erweiterten Algorithmen des Content Accelerators des KI-Assistenten, um ansprechende, maßgeschneiderte Inhalte zu erstellen, die Ergebnisse liefern. Steigern Sie Öffnungsraten, Klickraten und Konversionen mit einer intelligenten, KI-gestützten Inhaltsgenerierung. Weiterführende Informationen finden Sie in [diesem Abschnitt](../email/generative-gs.md).
+Nutzen Sie die Leistungsfähigkeit fortschrittlicher Algorithmen des KI-Assistenten, um ansprechende, maßgeschneiderte Inhalte zu erstellen, die Ergebnisse vorantreiben. Steigern Sie Öffnungsraten, Klickraten und Konversionen mit einer intelligenten, KI-gestützten Inhaltsgenerierung. Weiterführende Informationen finden Sie in [diesem Abschnitt](../email/generative-gs.md).
 
 **Neue und neu gestaltete Kampagnen-Workflow-Aktivitäten**
 
