@@ -2,10 +2,10 @@
 title: Versionshinweise zur Web-Benutzeroberfläche von Campaign v8
 description: Entdecken Sie die neuen Funktionen der neuesten Version der Campaign Web-Benutzeroberfläche
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
+source-git-commit: c0a40e8c68b009b6803d8f24e6572c4ea359ba9f
 workflow-type: tm+mt
-source-wordcount: '579'
-ht-degree: 93%
+source-wordcount: '770'
+ht-degree: 74%
 
 ---
 
@@ -19,6 +19,65 @@ ht-degree: 93%
 Die Versionen der Adobe Campaign Web-Benutzeroberfläche basieren auf einem kontinuierlichen Bereitstellungsmodell, das einen besser skalierbaren, schrittweisen Ansatz für die Implementierung von Funktionen ermöglicht. Dementsprechend werden diese Versionshinweise mehrmals im Monat aktualisiert. Sie sollten daher regelmäßig nachschauen.
 
 Änderungen und Verbesserungen, die in früheren Versionen verfügbar sind, sind [auf dieser Seite](release-notes-24.md) aufgeführt.
+
+## Version Februar &#39;25 {#25-2-release}
+
+**Veröffentlichungsdatum**: 18. Februar 2025
+
+Die folgenden Funktionen und Verbesserungen sind ab der Februarversion verfügbar.
+
+### Funktionen {#25-2-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>Erstellen von Geschäftsregeln (Typologieregeln)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Sie können jetzt Typologien und Typologieregeln in der Web-Benutzeroberfläche von Adobe Campaign erstellen. Mit Typologien können Sie den Versand von Sendungen steuern, filtern und priorisieren. Typologien werden verwendet, um zu überprüfen, ob Sendungen immer obligatorische Komponenten enthalten (z. B. einen Abmelde-Link oder eine Betreffzeile) oder Filterregeln, um Gruppen aus Ihrer Audience auszuschließen (z. B. Abonnenten, Konkurrenten oder Kunden, die nicht Mitglied im Treueprogramm sind).</p>
+<img src="assets/do-not-localize/typology.gif">
+<p>Weitere Informationen finden Sie in der <a href="../administration/typologies.md">entsprechenden Dokumentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Zielgruppen-Mappings</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Sie können jetzt Zielgruppen-Mappings in der Web-Benutzeroberfläche von Campaign erstellen. Zielgruppen-Mappings definieren, wie verschiedene Versandkanäle (E-Mail, SMS, Push-Benachrichtigungen) mit den Datenfeldern eines Schemas verknüpft werden. Mit dem Zielgruppen-Mapping können Sie die Zielgruppe definieren: Profile, Vertragsbegünstigte, Benutzer, Abonnenten, Interessenten usw.</p>
+<img src="assets/do-not-localize/target-mapping.gif">
+<p>Weitere Informationen finden Sie in der <a href="../administration/target-mappings.md">entsprechenden Dokumentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Schemadetails</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Sie können jetzt auf die Details eines Schemas zugreifen, indem Sie dessen Namen in der Liste auswählen. Die Bearbeitung benutzerdefinierter Felder ist jetzt über die Schaltfläche <b>Benutzerdefinierte Felder bearbeiten</b> in den Schemadetails verfügbar.</p>
+<img src="assets/do-not-localize/schemas.gif">
+<p>Weitere Informationen finden Sie in der <a href="../administration/schemas.md">entsprechenden Dokumentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## Version Januar 2025 {#25-1-release}
 
@@ -62,25 +121,6 @@ Die folgenden Funktionen und Verbesserungen sind ab der Version Januar verfügba
 </tr>
 </tbody>
 </table>
-
-<!--
-<table>
-<thead>
-<tr>
-<th><strong>Create business rules (typology rules)</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>You can now create typologies and typology rules in the Adobe Campaign web interface. A typology is a collection of typology rules that help control, filter, and prioritize deliveries. Typologies ensure that your deliveries always contain required elements (such as an unsubscribe link or subject line) and apply filtering rules to exclude specific groups from your target audience (such as unsubscribers, competitors, or non-loyalty customers).</p>
-<img src="assets/do-not-localize/typology.gif">
-<p>For more information, refer to the <a href="../administration/typologies.md">detailed documentation</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>
--->
 
 <table>
 <thead>
@@ -134,7 +174,6 @@ Die folgenden Funktionen und Verbesserungen sind ab der Version Januar verfügba
 </tbody>
 </table>
 
-
 <table>
 <thead>
 <tr>
@@ -151,8 +190,6 @@ Die folgenden Funktionen und Verbesserungen sind ab der Version Januar verfügba
 </tr>
 </tbody>
 </table>
-
-
 
 
 ### Verbesserungen {#25-1-improvements}

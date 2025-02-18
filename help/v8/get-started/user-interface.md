@@ -3,9 +3,9 @@ audience: end-user
 title: Erkunden der Benutzeroberfläche
 description: Adobe Campaign Web-Benutzeroberfläche
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: ffe6c2b2f8b022876eb4b1754915b5753aab7c1a
+source-git-commit: c0a40e8c68b009b6803d8f24e6572c4ea359ba9f
 workflow-type: tm+mt
-source-wordcount: '2036'
+source-wordcount: '2003'
 ht-degree: 100%
 
 ---
@@ -361,12 +361,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Skript für die Ausführungsinitialisierung"
 >abstract="Skript für die Ausführungsinitialisierung"
 
-<!--Schema-->
-
->[!CONTEXTUALHELP]
->id="acw_schema"
->title="Schema"
->abstract="Schema"
+<!-- Schema creation -->
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_type"
@@ -412,32 +407,3 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_schema_start_update"
 >title="Datenbank-Aktualisierung starten"
 >abstract="Schema"
-
-
-
-<!-- Target Mapping -->
-
->[!CONTEXTUALHELP]
->id="acw_targetmapping_list"
->title="Zielgruppen-Mappings"
->abstract="Zielgruppen-Mappings"
-
->[!CONTEXTUALHELP]
->id="acw_targetmapping_properties"
->title="Zielgruppen-Mapping – Eigenschaften"
->abstract="Zielgruppen-Mapping – Eigenschaften"
-
->[!CONTEXTUALHELP]
->id="acw_targetmapping_mapping"
->title="Zielgruppen-Mapping – Mapping"
->abstract="Zielgruppen-Mapping – Mapping"
-
->[!CONTEXTUALHELP]
->id="acw_targetmapping_denylist"
->title="Zielgruppen-Mapping – Blockierungsliste"
->abstract="Zielgruppen-Mapping – Blockierungsliste"
-
->[!CONTEXTUALHELP]
->id="acw_targetmapping_storage"
->title="Zielgruppen-Mapping – Speicherung"
->abstract="Zielgruppen-Mapping – Speicherung verweigern"

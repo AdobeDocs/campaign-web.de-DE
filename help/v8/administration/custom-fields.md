@@ -2,10 +2,10 @@
 title: Benutzerdefinierte Felder
 description: Erfahren Sie, wie Sie benutzerdefinierte Felder und ihre Sichtbarkeit in der Benutzeroberfläche konfigurieren.
 exl-id: 34e7e0b7-3981-43b1-95a5-6c672adafdc9
-source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
+source-git-commit: c0a40e8c68b009b6803d8f24e6572c4ea359ba9f
 workflow-type: tm+mt
-source-wordcount: '898'
-ht-degree: 27%
+source-wordcount: '925'
+ht-degree: 26%
 
 ---
 
@@ -68,9 +68,11 @@ Gehen Sie wie folgt vor, um benutzerdefinierte Felder in der Benutzeroberfläche
 
    Verwenden Sie den Filter **[!UICONTROL Bearbeitbar]** im Bereich „Filter“, um Schemas mit benutzerdefinierten Feldern schnell zu identifizieren.
 
-   ![](assets/custom-fields-list.png)
+   ![](assets/custom-fields-open.png)
 
-1. Klicken Sie auf das Stiftsymbol neben dem Schemanamen, um auf die benutzerdefinierten Felder zuzugreifen. In diesem Beispiel möchten wir Felder für das Schema **[!UICONTROL Empfänger]** hinzufügen.
+1. Wählen Sie den Schemanamen in der Liste aus, um ihn zu öffnen. Eine detaillierte Schemaansicht wird angezeigt [Weitere Informationen zu Schemadetails](../administration/schemas.md). Klicken Sie auf die **[!UICONTROL Benutzerdefinierte Details bearbeiten]**, um auf benutzerdefinierte Felder zuzugreifen. In diesem Beispiel möchten wir Felder für das Schema **[!UICONTROL Empfänger]** hinzufügen.
+
+   ![](assets/custom-fields-edit.png)
 
 1. Die Liste der benutzerdefinierten Felder, die in der Benutzeroberfläche für die Anzeige des Schemas angezeigt werden. Hier ist das Feld „CRM-ID“ im Detailbildschirm des Profils sichtbar und wurde als Pflichtfeld markiert.
 
@@ -78,9 +80,9 @@ Gehen Sie wie folgt vor, um benutzerdefinierte Felder in der Benutzeroberfläche
    |  ---  |  ---  |
    | ![](assets/custom-fields-detail.png){zoomable="yes"} | ![](assets/custom-fields-detail-crm.png){zoomable="yes"} |
 
-1. Um ein benutzerdefiniertes Feld zur Benutzeroberfläche hinzuzufügen, klicken Sie auf die **[!UICONTROL Hinzufügen]**-Schaltfläche in der oberen rechten Ecke des Bildschirms und wählen Sie eine der folgenden Optionen:
+1. Um der Benutzeroberfläche ein benutzerdefiniertes Feld hinzuzufügen, klicken Sie auf die Schaltfläche mit den Auslassungspunkten und wählen Sie eine der folgenden Optionen:
 
-   * **[!UICONTROL Benutzerdefinierte Attribute]**: Wählen Sie ein oder mehrere benutzerdefinierte Felder aus, die auf der Benutzeroberfläche angezeigt werden sollen.
+   * **[!UICONTROL Benutzerdefinierte Felder auswählen]**: Wählen Sie ein oder mehrere benutzerdefinierte Felder aus, die auf der Benutzeroberfläche angezeigt werden sollen.
    * **[!UICONTROL Liste der benutzerdefinierten Felder automatisch ausfüllen]**: Fügen Sie der Benutzeroberfläche alle benutzerdefinierten Felder hinzu, die für das Schema definiert sind.
 
    ![](assets/custom-fields-add.png)
@@ -91,7 +93,7 @@ Gehen Sie wie folgt vor, um benutzerdefinierte Felder in der Benutzeroberfläche
    * **Felder als Pflichtfelder festlegen**: Aktivieren Sie das Kontrollkästchen **Pflichtfelder**.
    * **Feldeinstellungen bearbeiten**: Klicken Sie auf die Schaltfläche mit den Auslassungspunkten und wählen Sie **[!UICONTROL Bearbeiten]**. [Weitere Informationen](#settings)
    * **Felder löschen**: Klicken Sie auf die Schaltfläche mit den Auslassungspunkten und wählen Sie **[!UICONTROL Löschen]**.
-   * **Felder in der Benutzeroberfläche in Unterabschnitte unterteilen**: Klicken Sie auf **[!UICONTROL Hinzufügen]** und wählen Sie **[!UICONTROL Trennzeichen]**. [Weitere Informationen](#separator)
+   * **Felder in der Benutzeroberfläche in Unterabschnitte unterteilen**: Klicken Sie auf die Schaltfläche mit den Auslassungspunkten neben den Pfeilen nach oben und unten und wählen Sie **[!UICONTROL Trennzeichen hinzufügen]**. [Weitere Informationen](#separator)
 
 ## Einstellungen für benutzerdefinierte Felder konfigurieren {#settings}
 
@@ -124,7 +126,7 @@ Verfügbare Einstellungen sind:
 
 In der Web-Benutzeroberfläche von Campaign können Sie Trennzeichen hinzufügen, um benutzerdefinierte Felder in der Benutzeroberfläche zu gruppieren und so die Lesbarkeit zu verbessern. Gehen Sie dazu wie folgt vor:
 
-1. Klicken Sie auf **[!UICONTROL Hinzufügen]** und wählen Sie **[!UICONTROL Trennzeichen]** aus.
+1. Klicken Sie auf die Schaltfläche mit den Auslassungspunkten neben den Pfeilen nach oben und unten und wählen Sie **[!UICONTROL Trennzeichen hinzufügen]**.
 
 1. Der Liste wird eine neue Zeile für das Trennzeichen hinzugefügt. Klicken Sie auf die Schaltfläche mit den Auslassungspunkten und wählen **[!UICONTROL Bearbeiten]**, um den Unterabschnitt zu benennen.
 

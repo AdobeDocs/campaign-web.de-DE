@@ -5,10 +5,10 @@ user-guide-description: Produktdokumentation zur Adobe Campaign Web-Benutzerober
 title: Dokumentation zu Adobe Campaign Web
 description: Dokumentation zu Campaign Web
 breadcrumb-title: Campaign Web-Benutzeroberfläche
-source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
+source-git-commit: c0a40e8c68b009b6803d8f24e6572c4ea359ba9f
 workflow-type: tm+mt
-source-wordcount: '794'
-ht-degree: 99%
+source-wordcount: '804'
+ht-degree: 98%
 
 ---
 
@@ -21,6 +21,7 @@ ht-degree: 99%
    + [Frühere Version](rn/e-release-notes.md)
    + [Aktuelle Version](rn/release-notes.md)
    + Frühere Versionen {#previous-release-notes}
+      + [Versionen 2025](rn/release-notes-25.md)
       + [Versionen 2024](rn/release-notes-24.md)
    + [Aktualisierungen der Dokumentation](rn/documentation-updates.md)
 + Erste Schritte mit Adobe Campaign {#start}
@@ -227,10 +228,12 @@ ht-degree: 99%
    + [Verwalten von Assets mit Adobe Experience Manager Assets as a Cloud Service](integrations/aem-assets.md)
    + [Verwalten von Vorlagen mit Adobe Experience Manager as a Cloud Service](integrations/aem-content.md)
 + Konfiguration {#conf}
+   + [Arbeiten mit Geschäftsregeln (Typologien)](administration/typologies.md)
+   + [Verwalten von Zielgruppen-Mappings](administration/target-mappings.md)
+   + [Arbeiten mit Schemata](administration/schemas.md)
    + [Konfigurieren benutzerdefinierter Felder](administration/custom-fields.md)
-   + [Konfigurieren externer Konten](administration/external-account.md)
-   + [Arbeiten mit Typologien](administration/typologies.md)
-   + [Verwalten von Auflistungen](administration/enumerations.md)
    + [Konfigurieren von Optionen in [!DNL Campaign] ](administration/options.md)
+   + [Konfigurieren externer Konten](administration/external-account.md)
+   + [Verwalten von Auflistungen](administration/enumerations.md)
    + [Arbeiten mit JavaScript-Code](administration/javascript-codes.md)
 + [Dokumentation zu Campaign v8 (Konsole) >](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/campaign-home)

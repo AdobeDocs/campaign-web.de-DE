@@ -1,20 +1,16 @@
 ---
 audience: end-user
-title: Arbeiten mit Typologien
+title: Arbeiten mit Geschäftsregeln (Typologien)
 description: Erfahren Sie, wie Sie mit Typologien und Typologieregeln arbeiten können, um den Versand von Sendungen zu steuern, zu filtern und zu überwachen.
-hidefromtoc: true
-hide: true
-robots: noindex
-googlebot: noindex
 exl-id: 54fdd03a-e49d-4f22-b6d4-6055c8922e58
-source-git-commit: c759dd72e2ca3d11b4dad0cd38410d699b651cad
+source-git-commit: c0a40e8c68b009b6803d8f24e6572c4ea359ba9f
 workflow-type: tm+mt
-source-wordcount: '1414'
+source-wordcount: '1418'
 ht-degree: 28%
 
 ---
 
-# Arbeiten mit Typologien {#typologies}
+# Arbeiten mit Geschäftsregeln (Typologien) {#typologies}
 
 >[!CONTEXTUALHELP]
 >id="acw_business_rules"
