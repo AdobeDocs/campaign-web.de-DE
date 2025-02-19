@@ -1,11 +1,11 @@
 ---
 title: Verwalten von Auflistungen
-description: Erfahren Sie, wie Sie mit Auflistungen arbeiten
+description: Erfahren Sie, wie Sie mit Auflistungen arbeiten.
 exl-id: d2a30fef-2cc4-49af-9f5d-d42c6396a8ab
 source-git-commit: 1f3f3afb9b21ab37aeea73057d832cea172c00bf
 workflow-type: tm+mt
 source-wordcount: '600'
-ht-degree: 34%
+ht-degree: 97%
 
 ---
 
@@ -26,18 +26,18 @@ ht-degree: 34%
 >[!CONTEXTUALHELP]
 >id="acw_enumerations_properties"
 >title="Eigenschaften"
->abstract="Hier werden die Eigenschaften der Auflistung definiert, z. B. ihr Name, interner Name und Typ. Auflistungen vom Typ **[!UICONTROL Geschlossen]** verfügen über eine feste Liste von Werten, die nur über das Menü **[!UICONTROL Auflistungen]** geändert werden kann. Auflistungen vom Typ **[!UICONTROL Offen]** ermöglichen es den Benutzenden, neue Werte direkt in die auf dieser Auflistung basierenden Felder einzufügen. Auflistungen vom Typ **[!UICONTROL System]** sind mit Systemfeldern verknüpft. Auflistungen vom Typ **[!UICONTROL Emoticon]** werden verwendet, um die Liste der Smileys zu aktualisieren. "
+>abstract="Definiert die Eigenschaften der Auflistung, z. B. ihren Namen, internen Namen und Typ. Auflistungen vom Typ **[!UICONTROL Geschlossen]** verfügen über eine feste Liste von Werten, die nur über das Menü **[!UICONTROL Auflistungen]** geändert werden kann. Auflistungen vom Typ **[!UICONTROL Offen]** ermöglichen es den Benutzenden, neue Werte direkt in die auf dieser Auflistung basierenden Felder einzufügen. Auflistungen vom Typ **[!UICONTROL System]** sind mit Systemfeldern verknüpft. Auflistungen vom Typ **[!UICONTROL Emoticon]** werden verwendet, um die Liste der Smileys zu aktualisieren. "
 
 >[!CONTEXTUALHELP]
 >id="acw_enumerations_values"
 >title="Liste der Auflistungswerte"
->abstract="Um der Auflistung einen Wert hinzuzufügen, klicken Sie auf die Schaltfläche **[!UICONTROL Wert hinzufügen]** und konfigurieren Sie den Wert dann nach Bedarf."
+>abstract="Um der Auflistung einen Wert hinzuzufügen, klicken Sie auf die Schaltfläche **[!UICONTROL Wert hinzufügen]** und konfigurieren Sie ihn dann nach Bedarf."
 
 ## Was sind Auflistungen? {#about}
 
 Eine Auflistung ist eine Liste von Werten, die vom System zum Auffüllen von Feldern vorgeschlagen werden. Verwenden Sie Auflistungen, um die Werte dieser Felder zu standardisieren, die Dateneingabe zu unterstützen oder sie in Abfragen zu verwenden. Die Werteliste erscheint als Dropdown-Liste, aus der Sie den im Feld einzufügenden Wert auswählen können. Die Dropdown-Liste ermöglicht auch eine prädiktive Eingabe: Beim Eingeben der ersten Buchstaben füllt die Anwendung den Rest aus.
 
-Die Werte für diesen Feldtyp werden über das Menü **[!UICONTROL Administration]** / **[!UICONTROL Auflistungen]** im linken Navigationsbereich definiert.
+Die Werte für diesen Feldtyp werden über das Menü **[!UICONTROL Administration]**/**[!UICONTROL Auflistungen]** im linken Navigationsbereich definiert.
 
 ![](assets/enumeration-list.png)
 
@@ -51,12 +51,12 @@ Gehen Sie wie folgt vor, um eine Auflistung zu erstellen:
 
    ![](assets/enumeration-create.png)
 
-1. Wählen Sie die Auflistung **[!UICONTROL Typ]**:
+1. Wählen Sie einen **[!UICONTROL Typ]** für die Auflistung aus:
 
-   * **[!UICONTROL Geschlossene]** Auflistungen verfügen über eine feste Liste von Werten, die nur über das Menü **[!UICONTROL Auflistungen]** geändert werden kann.
-   * **[!UICONTROL Open]**-Auflistungen ermöglichen es Benutzenden, neue Werte direkt in die auf dieser Auflistung basierenden Felder einzufügen.
-   * **[!UICONTROL System]**-Auflistungen sind mit Systemfeldern verknüpft.
-   * Auflistungen vom Typ **[!UICONTROL Emoticon]** werden verwendet, um die Liste der Smileys zu aktualisieren. 
+   * Auflistungen vom Typ **[!UICONTROL Geschlossen]** verfügen über eine feste Liste von Werten, die nur über das Menü **[!UICONTROL Auflistungen]** geändert werden kann. 
+   * Auflistungen vom Typ **[!UICONTROL Offen]** ermöglichen es den Benutzenden, neue Werte direkt in die auf dieser Auflistung basierenden Felder einzufügen.
+   * Auflistungen vom Typ **[!UICONTROL System]** sind mit Systemfeldern verknüpft.
+   * Auflistungen vom Typ **[!UICONTROL Emoticon]** werden verwendet, um die Liste der Smileys zu aktualisieren.
 
 1. Klicken Sie auf **[!UICONTROL Erstellen]**. Die Auflistungsdetails werden angezeigt, sodass Sie der Liste Werte hinzufügen können.
 
@@ -64,17 +64,17 @@ Gehen Sie wie folgt vor, um eine Auflistung zu erstellen:
 
 1. Um einen Wert hinzuzufügen, klicken Sie auf die Schaltfläche **[!UICONTROL Wert hinzufügen]** und konfigurieren Sie ihn dann nach Bedarf:
 
-   * **[!UICONTROL label]**: Der in der Auflistung anzuzeigende Titel.
+   * **[!UICONTROL Titel]**: Der in der Auflistung anzuzeigende Titel.
    * **[!UICONTROL Interner Name]**: Der interne Name des Werts (für Systemauflistungen).
-   * **[!UICONTROL U+ (interner Name)]** (Emoticon-Auflistungen): Der Unicode für das Emoticon (für Emoticon-Auflistungen).
+   * **[!UICONTROL U+ (interner Name)]** (Emoticon-Auflistungen): Der Unicode-Code für den Smiley (für Emoticon-Auflistungen).
 
    ![](assets/enumeration-emoticon.png)
 
-1. Speichern Sie Ihre Änderungen. Die Auflistung wird jetzt in den Bildschirmen aktualisiert, in denen sie verwendet wird.
+1. Speichern Sie Ihre Änderungen. Die Auflistung wird nun in den Bildschirmen aktualisiert, in denen sie verwendet wird.
 
 ## Anwendungsfall: Hinzufügen vordefinierter Werte zu einer Auflistung {#uc}
 
-Standardmäßig können Benutzer im Feld „Herkunft“ im Bildschirm „Profildetails“ einen beliebigen Wert frei eingeben.
+Standardmäßig können Benutzende im Feld „Herkunft“ im Bildschirm mit den Profildetails einen beliebigen Wert frei eingeben.
 
 ![](assets/enumeration-uc-profile.png)
 
@@ -82,21 +82,21 @@ Jedes Mal, wenn Benutzende einen Wert für das Feld eingeben, wird der Wert auto
 
 ![](assets/enumeration-uc-choice.png)
 
-Um die Datenkonsistenz zu gewährleisten und Benutzende beim Ausfüllen des Felds zu unterstützen, können Sie einen Satz vordefinierter Werte definieren. Führen Sie folgende Schritte aus:
+Um die Datenkonsistenz sicherzustellen und die Benutzenden beim Ausfüllen des Felds zu unterstützen, können Sie einen Satz vordefinierter Werte definieren. Gehen Sie dazu wie folgt vor:
 
-1. Rufen Sie das Menü **[!UICONTROL Auflistungen]** auf und öffnen Sie die Auflistung „Herkunft“.
+1. Öffnen Sie im Menü **[!UICONTROL Auflistungen]** die Auflistung „Herkunft“.
 
-2. Überprüfen Sie die Liste der vom Benutzer eingegebenen Werte und bereinigen Sie sie. Klicken Sie auf die Schaltfläche mit den Auslassungspunkten neben einem Wert, um ihn zu löschen. Wenn die Liste zu viele Inkonsistenzen enthält, löschen Sie die gesamte Auflistung und erstellen Sie sie von Grund auf neu.
+2. Überprüfen Sie die Liste der benutzerseitig eingegebenen Werte und bereinigen Sie sie. Klicken Sie auf die Schaltfläche mit den Auslassungspunkten neben einem Wert, um ihn zu löschen. Wenn die Liste zu viele Inkonsistenzen enthält, löschen Sie die gesamte Auflistung und erstellen Sie sie von Grund auf neu.
 
    ![](assets/enumeration-uc-clean.png)
 
-3. Vordefinierte Werte hinzufügen. Klicken Sie dazu auf die Schaltfläche **[!UICONTROL Wert hinzufügen]** und geben Sie die vordefinierten Werte ein, aus denen Benutzer auswählen sollen.
+3. Hinzufügen vordefinierter Werte Klicken Sie dazu auf die Schaltfläche **[!UICONTROL Wert hinzufügen]** und geben Sie die vordefinierten Werte ein, aus denen die Benutzenden wählen sollen.
 
    ![](assets/enumeration-uc-create.png)
 
-4. Um Konsistenz zu erzwingen, wechseln Sie den Auflistungstyp zu **[!UICONTROL Geschlossen]**, wodurch Benutzer auf vordefinierte Werte beschränkt werden.
-Wenn Flexibilität erforderlich ist, lassen Sie sie **[!UICONTROL Offen]**, um neue Benutzereinträge zuzulassen.
+4. Um Konsistenz durchzusetzen, ändern Sie den Auflistungstyp in **[!UICONTROL Geschlossen]**. Dadurch werden die Benutzenden auf vordefinierte Werte beschränkt.
+Wenn eine Flexibilität erforderlich ist, belassen Sie **[!UICONTROL Offen]** als Typ, um neue Benutzereinträge zu ermöglichen.
 
-5. Kehren Sie zum Bildschirm Profildetails zurück. Das Feld „Herkunft“ zeigt nun die vordefinierten Werte zur Auswahl an.
+5. Kehren Sie zum Bildschirm mit den Profildetails zurück. Das Feld „Herkunft“ zeigt nun die vordefinierten Werte zur Auswahl an.
 
    ![](assets/enumeration-uc-populated.png)
