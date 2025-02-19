@@ -2,10 +2,10 @@
 title: Benutzerdefinierte Felder
 description: Erfahren Sie, wie Sie benutzerdefinierte Felder und ihre Sichtbarkeit in der Benutzeroberfläche konfigurieren.
 exl-id: 34e7e0b7-3981-43b1-95a5-6c672adafdc9
-source-git-commit: c0a40e8c68b009b6803d8f24e6572c4ea359ba9f
+source-git-commit: 27e44682178267353418de210af51067eee4141b
 workflow-type: tm+mt
 source-wordcount: '925'
-ht-degree: 26%
+ht-degree: 24%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields_settings_link"
 >title="Verknüpfungseigenschaften"
->abstract="Verwenden Sie den Abfrage-Modeler, um Regeln für die Anzeige eines benutzerdefinierten Felds vom Typ „Link“ anzugeben. Beschränken Sie beispielsweise Listenwerte auf Grundlage der Eingabe eines anderen Felds."
+>abstract="Verwenden Sie den Abfrage-Modeler, um Regeln für die Anzeige eines benutzerdefinierten Felds vom Typ „Link“ anzugeben. Beschränken Sie beispielsweise Listenwerte auf der Grundlage der Eingabe eines anderen Felds."
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields_settings_layout"
@@ -38,6 +38,7 @@ ht-degree: 26%
 >abstract="Geben Sie den Namen an, der in der Benutzeroberfläche für den Unterabschnitt angezeigt werden soll."
 
 <!-- NOT USED IN THE UI?-->
+
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields_settings"
 >title="Attributeinstellungen"
@@ -108,7 +109,7 @@ Verfügbare Einstellungen sind:
 * **[!UICONTROL Sichtbar, wenn]**: Definieren Sie eine Bedingung mithilfe eines xtk-Ausdrucks, der steuert, wann das Feld angezeigt wird. Blenden Sie beispielsweise dieses Feld aus, wenn ein anderes Feld leer ist.
 * **[!UICONTROL Obligatorisch]**: Machen Sie das Feld in der Benutzeroberfläche zu einem Pflichtfeld.
 * **[!UICONTROL Schreibgeschützt]**: Das Feld in der Benutzeroberfläche als schreibgeschützt festlegen. Benutzende können den Wert des Felds nicht bearbeiten.
-* **[!UICONTROL Filtereinstellungen]** (für Felder vom Typ „Link„): Verwenden Sie den Abfrage-Modellierer, um Regeln für die Anzeige eines benutzerdefinierten Felds vom Typ „Link“ anzugeben. Beschränken Sie beispielsweise Listenwerte auf Grundlage der Eingabe eines anderen Felds.
+* **[!UICONTROL Filtereinstellungen]** (für Felder vom Typ „Link„): Verwenden Sie den Abfrage-Modellierer, um Regeln für die Anzeige eines benutzerdefinierten Felds vom Typ „Link“ anzugeben. Beschränken Sie beispielsweise Listenwerte auf der Grundlage der Eingabe eines anderen Felds.
 
   Sie können auch den Wert referenzieren, der in andere Felder in Ihren Bedingungen eingegeben wurde, indem Sie die `$(<field-name>)` Syntax verwenden. Auf diese Weise können Sie auf den aktuellen Wert eines Feldes verweisen, wie er im Formular eingegeben wurde, auch wenn dieser noch nicht in der Datenbank gespeichert wurde.
 
