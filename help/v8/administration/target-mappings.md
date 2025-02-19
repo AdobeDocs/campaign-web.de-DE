@@ -1,14 +1,21 @@
 ---
 title: Verwalten von Zielgruppen-Mappings
 description: Erfahren Sie, wie Sie Zielgruppen-Mappings verwalten
-source-git-commit: c0a40e8c68b009b6803d8f24e6572c4ea359ba9f
+source-git-commit: 1f3f3afb9b21ab37aeea73057d832cea172c00bf
 workflow-type: tm+mt
-source-wordcount: '751'
-ht-degree: 7%
+source-wordcount: '787'
+ht-degree: 8%
 
 ---
 
 # Verwalten von Zielgruppen-Mappings {#target-mappings}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn2"
+>title="Zielgruppen-Mappings"
+>abstract="Sie können jetzt Zielgruppen-Mappings in der Web-Benutzeroberfläche von Campaign erstellen. Zielgruppen-Mappings definieren, wie verschiedene Versandkanäle (E-Mail, SMS, Push-Benachrichtigungen) mit den Datenfeldern eines Schemas verknüpft werden."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=de" text="Siehe Versionshinweise"
 
 >[!CONTEXTUALHELP]
 >id="acw_targetmapping_list"

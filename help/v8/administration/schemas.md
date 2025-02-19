@@ -1,19 +1,27 @@
 ---
 title: Arbeiten mit Schemata
 description: Erfahren Sie, wie Sie mit Schemata arbeiten.
-source-git-commit: c0a40e8c68b009b6803d8f24e6572c4ea359ba9f
+source-git-commit: 1f3f3afb9b21ab37aeea73057d832cea172c00bf
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 1%
+source-wordcount: '467'
+ht-degree: 2%
 
 ---
 
 # Arbeiten mit Schemata {#schemas}
 
 >[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn3"
+>title="Arbeiten mit Schemata"
+>abstract="Sie können jetzt auf die Details eines Schemas zugreifen, indem Sie dessen Namen in der Liste auswählen. Die Bearbeitung benutzerdefinierter Felder ist auch über die Schaltfläche **Benutzerdefinierte Details bearbeiten** zugänglich."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=de" text="Siehe Versionshinweise"
+
+
+
+>[!CONTEXTUALHELP]
 >id="acw_schema"
 >title="Schemata"
->abstract="**[!DNL Adobe Campaign]** verwendet XML-basierte Schemata, um die physische und logische Struktur von Daten innerhalb des Programms zu definieren. Auf diesem Bildschirm können Sie alle vorhandenen Schemata anzeigen. Es stehen Filter zur Verfügung, mit denen Sie die Liste einschränken können, z. B. nur bearbeitbare Schemata anzeigen."
+>abstract="**[!DNL Adobe Campaign]** verwendet XML-basierte Schemata, um die physische und logische Struktur von Daten innerhalb des Programms zu definieren. Auf diesem Bildschirm können Sie alle vorhandenen Schemata anzeigen und auf die Details eines Schemas zugreifen, indem Sie dessen Namen in der Liste auswählen. Es stehen Filter zur Verfügung, mit denen Sie die Liste einschränken können, z. B. nur bearbeitbare Schemata anzeigen."
 
 ## Über Schemata {#about}
 

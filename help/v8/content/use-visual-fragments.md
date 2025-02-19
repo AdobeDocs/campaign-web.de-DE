@@ -4,20 +4,14 @@ title: Hinzufügen visueller Fragmente zu E-Mails
 description: Erfahren Sie, wie Sie visuelle Fragmente zu Ihren E-Mails hinzufügen
 badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: 6d6f38f9-9d3e-47cb-beb8-177b5a5d8306
-source-git-commit: 8fccae9906d7a04ec1e8e10ad7be60f597a43492
+source-git-commit: 1f3f3afb9b21ab37aeea73057d832cea172c00bf
 workflow-type: tm+mt
-source-wordcount: '605'
-ht-degree: 86%
+source-wordcount: '573'
+ht-degree: 91%
 
 ---
 
 # Hinzufügen visueller Fragmente zu E-Mails {#use-visual-fragments}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn1"
->title="Visuelle E-Mail-Fragmente"
->abstract="Sie können jetzt visuelle Fragmente erstellen und verwenden. Hierbei handelt es sich um vordefinierte visuelle Bausteine, die Sie in mehreren E-Mail-Sendungen oder in Inhaltsvorlagen wiederverwenden können."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=de" text="Siehe Versionshinweise"
 
 >[!AVAILABILITY]
 >
