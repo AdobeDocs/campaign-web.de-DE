@@ -4,9 +4,9 @@ title: Verwenden der Workflow-Aktivität „Dateiextraktion“
 description: Informationen dazu, wie Sie die Workflow-Aktivität „Dateiextraktion“ verwenden
 exl-id: fa50ab5b-2539-4517-9d7b-93315f1e505c
 source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '885'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ Im Abschnitt **[!UICONTROL Zu extrahierende Datei]** können Sie die Dateieigens
 1. Geben Sie die Spalten an, die in der extrahierten Datei enthalten sein sollen. Gehen Sie dazu wie folgt vor:
 
    1. Klicken Sie auf die **[!UICONTROL Spalte „Ausgabe hinzufügen“]**.
-   1. Wählen Sie das Attribut aus, das in der Spalte angezeigt werden soll, und bestätigen Sie dann die Auswahl. Die verfügbaren Attribute hängen von der Zielgruppendimension des Workflows ab. [Erfahren Sie, wie Sie Attribute auswählen und zu Favoriten hinzufügen](../../get-started/attributes.md)
+   1. Wählen Sie das Attribut aus, das in der Spalte angezeigt werden soll, und bestätigen Sie dann die Auswahl. Die verfügbaren Attribute sind abhängig von der Zielgruppendimension des Workflows. [Erfahren Sie, wie Sie Attribute auswählen und zu den Favoriten hinzufügen](../../get-started/attributes.md)
    1. Nachdem die Spalte hinzugefügt wurde, können Sie den **[!UICONTROL Titel]** und das zugehörige **[!UICONTROL Attribut]** ändern.
    1. Wenn Sie eine Umwandlung auf die Spaltenwerte anwenden möchten, wählen Sie sie aus der Dropdown-Liste aus. Sie können beispielsweise alle Werte in der ausgewählten Spalte in Großbuchstaben umwandeln.
 

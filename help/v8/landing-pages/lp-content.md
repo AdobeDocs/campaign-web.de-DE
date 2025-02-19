@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie in Campaign Web Landingpage-spezifische Inhal
 feature: Landing Pages
 exl-id: 6ca3c8c1-3633-4e3f-a9a1-f46ae27c5c8a
 source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1226'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Sie können den Inhalt einer beliebigen Seite Ihrer Landingpage bearbeiten.
 
 Die erste Seite, die den Benutzenden sofort angezeigt wird, nachdem sie auf den Link zu Ihrer Landingpage geklickt haben, ist bereits mit der [Landingpage-spezifischen Formularkomponente](#use-form-component) für die ausgewählte Vorlage vorausgefüllt<!-- to enable users to select and submit their choices-->.
 
-Der Inhalt der Seiten **[!UICONTROL Bestätigung]**, **[!UICONTROL Fehler]** und **[!UICONTROL Ablauf]** ist ebenfalls vorausgefüllt. Bearbeiten Sie den Inhalt nach Bedarf. 
+Der Inhalt der Seiten **[!UICONTROL Bestätigung]**, **[!UICONTROL Fehler]** und **[!UICONTROL Gültigkeit]** ist ebenfalls vorausgefüllt. Bearbeiten Sie den Inhalt nach Bedarf. 
 
 Sie können auch [Stile für Ihre Landingpage](#lp-form-styles) definieren.
 
@@ -87,14 +87,14 @@ Um bestimmte Inhalte zu definieren, mit denen Benutzende ihre Auswahl auf Ihrer 
    * **[!UICONTROL Anmelden wenn aktiviert]**: Benutzende müssen das Kontrollkästchen zum Einverständnis aktivieren (Opt-in).
    * **[!UICONTROL Abmelden wenn aktiviert]**: Benutzende müssen das Kontrollkästchen aktivieren, um ihr Einverständnis zu entfernen (Opt-out).
 
-   Wenn Sie **[!UICONTROL Feld]** auswählen, wählen Sie ein Feld aus der [Attributliste](../get-started/attributes.md) aus und wählen Sie zwischen den beiden folgenden Optionen:
+   Wenn Sie **[!UICONTROL Feld]** auswählen, wählen Sie ein Feld aus der [Attributliste](../get-started/attributes.md) aus und legen Sie eine der beiden folgenden Optionen fest:
 
    * **[!UICONTROL Ja, wenn aktiviert]**.<!--TBC-->
    * **[!UICONTROL Nein, wenn aktiviert]**.<!--TBC-->
 
-1. Sie können beliebig viele Felder (z. B. Textfelder, Optionsschaltflächen, Kontrollkästchen, Dropdown-Listen usw.) löschen und hinzufügen.
+1. Sie können so viele Felder (z. B. Textfelder, Optionsfelder, Kontrollkästchen, Dropdown-Listen usw.) löschen und hinzufügen wie nötig.
 
-1. Nachdem alle Felder hinzugefügt oder aktualisiert wurden, klicken Sie auf **[!UICONTROL Handlungsaufforderung]**, um den entsprechenden Abschnitt zu erweitern. Damit können Sie das Verhalten der Schaltfläche in der **[!UICONTROL Formularkomponente]** festlegen. [Weitere Informationen dazu](#define-actions-on-form-submission)
+1. Nachdem Sie alle Felder hinzugefügt oder aktualisiert haben, klicken Sie auf **[!UICONTROL Handlungsaufforderung]**, um den entsprechenden Abschnitt zu erweitern. Damit können Sie das Verhalten der Schaltfläche in der **[!UICONTROL Formularkomponente]** festlegen. [Weitere Informationen dazu](#define-actions-on-form-submission)
 
    ![](assets/lp-call-to-action.png){zoomable="yes"}
 
@@ -163,7 +163,7 @@ Gehen Sie wie folgt vor, um nach dem Einreichen einer Landingpage automatisch ei
 
    ![](assets/lp-checkbox-style.png){zoomable="yes"}
 
-1. Erweitern und bearbeiten Sie jeden anderen Abschnitt, der anderen Feldern entspricht, die Sie dem Formular möglicherweise hinzugefügt haben (Optionsfeld, Dropdown-Liste, Datum und Uhrzeit usw.).
+1. Erweitern und bearbeiten Sie alle anderen Abschnitte, die anderen ggf. von Ihnen zum Formular hinzugefügten Feldern entsprechen (Optionsfeld, Dropdown-Liste, Datum, Uhrzeit usw.).
 
 1. Erweitern Sie den Abschnitt **[!UICONTROL Handlungsaufforderung]**, um das Erscheinungsbild der Schaltfläche im Komponentenformular zu ändern. Sie können beispielsweise die Schriftart ändern, einen Rahmen hinzufügen, die Beschriftungsfarbe beim Bewegen des Mauszeigers bearbeiten oder die Ausrichtung der Schaltfläche anpassen.
 
