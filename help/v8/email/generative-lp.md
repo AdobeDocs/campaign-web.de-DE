@@ -6,7 +6,7 @@ exl-id: f4baa23f-f289-4837-b5b3-c479eaeff86c
 source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
 workflow-type: tm+mt
 source-wordcount: '1521'
-ht-degree: 90%
+ht-degree: 92%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 90%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn5"
 >title="Generieren von Landingpages mit KI"
->abstract="Sie können jetzt den KI-Assistenten verwenden, um Ihre Landingpage-Sendungen zu erstellen, sodass Sie Text, Bilder oder vollständige Seiten-Layouts generieren können."
+>abstract="Der KI-Assistent ist nun für die Erstellung von Landingpages verfügbar, sodass Sie Text, Bilder oder vollständige Seiten-Layouts generieren können."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=de" text="Siehe Versionshinweise"
 
 
