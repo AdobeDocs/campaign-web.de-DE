@@ -1,10 +1,11 @@
 ---
 title: Verwalten von Zielgruppen-Mappings
 description: Erfahren Sie, wie Sie Zielgruppen-Mappings verwalten
-source-git-commit: 1f3f3afb9b21ab37aeea73057d832cea172c00bf
+exl-id: 144d5650-9632-4af3-b64e-f6e81503a621
+source-git-commit: 24691b7d6e71e0a6986a1e1fdd0d709cf869e9dd
 workflow-type: tm+mt
 source-wordcount: '787'
-ht-degree: 8%
+ht-degree: 19%
 
 ---
 
@@ -14,7 +15,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn2"
 >title="Zielgruppen-Mappings"
->abstract="Sie können jetzt Zielgruppen-Mappings in der Web-Benutzeroberfläche von Campaign erstellen. Zielgruppen-Mappings definieren, wie verschiedene Versandkanäle (E-Mail, SMS, Push-Benachrichtigungen) mit den Datenfeldern eines Schemas verknüpft werden."
+>abstract="Sie können jetzt Zielgruppen-Mappings in der Campaign Web-Benutzeroberfläche erstellen. Zielgruppen-Mappings definieren, wie verschiedene Versandkanäle (E-Mail, SMS, Push-Benachrichtigungen) mit den Datenfeldern eines Schemas verknüpft werden."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=de" text="Siehe Versionshinweise"
 
 >[!CONTEXTUALHELP]
@@ -37,12 +38,12 @@ Weitere Informationen zu den in Adobe Campaign bereitgestellten integrierten Zie
 >[!CONTEXTUALHELP]
 >id="acw_targetmapping_properties"
 >title="Zielgruppen-Mapping – Eigenschaften"
->abstract="Im **[!UICONTROL Eigenschaften]** können Sie allgemeine Einstellungen für das Zielgruppen-Mapping und die Zielpopulation definieren."
+>abstract="Im Abschnitt **[!UICONTROL Eigenschaften]** können Sie allgemeine Einstellungen für das Zielgruppen-Mapping und die Zielpopulation definieren."
 
 >[!CONTEXTUALHELP]
 >id="acw_targetmapping_mapping"
 >title="Zielgruppen-Mapping – Mapping"
->abstract="Im **[!UICONTROL Mapping]** können Sie festlegen, welche Attribute aus dem Schema des Zielgruppen-Mappings für die verschiedenen Versandadressenfelder verwendet werden sollen."
+>abstract="Im Abschnitt **[!UICONTROL Mapping]** können Sie festlegen, welche Attribute aus dem Schema des Zielgruppen-Mappings für die verschiedenen Versandadressfelder verwendet werden sollen."
 
 >[!CONTEXTUALHELP]
 >id="acw_targetmapping_denylist"
@@ -52,7 +53,7 @@ Weitere Informationen zu den in Adobe Campaign bereitgestellten integrierten Zie
 >[!CONTEXTUALHELP]
 >id="acw_targetmapping_storage"
 >title="Zielgruppen-Mapping – Speicherung"
->abstract="Im Abschnitt **[!UICONTROL Speicherung]** können Sie angeben, wo Protokolle gespeichert werden müssen."
+>abstract="Im Abschnitt **[!UICONTROL Speicherung]** können Sie sich darüber informieren, wo Protokolle gespeichert werden müssen."
 
 Um ein neues Zielgruppen-Mapping zu erstellen, rufen Sie das Menü **[!UICONTROL Administration]** > **[!UICONTROL Zielgruppen-Mappings]** auf. Klicken Sie auf **[!UICONTROL Zuordnung erstellen]** und führen Sie dann die in den folgenden Abschnitten beschriebenen Schritte aus.
 

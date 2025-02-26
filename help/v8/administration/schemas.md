@@ -1,10 +1,11 @@
 ---
 title: Arbeiten mit Schemata
 description: Erfahren Sie, wie Sie mit Schemata arbeiten.
-source-git-commit: 1f3f3afb9b21ab37aeea73057d832cea172c00bf
+exl-id: 1433a441-1673-45a2-9fec-be9550fbba0d
+source-git-commit: 24691b7d6e71e0a6986a1e1fdd0d709cf869e9dd
 workflow-type: tm+mt
 source-wordcount: '467'
-ht-degree: 2%
+ht-degree: 33%
 
 ---
 
@@ -13,7 +14,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn3"
 >title="Arbeiten mit Schemata"
->abstract="Sie können jetzt auf die Details eines Schemas zugreifen, indem Sie dessen Namen in der Liste auswählen. Die Bearbeitung benutzerdefinierter Felder ist auch über die Schaltfläche **Benutzerdefinierte Details bearbeiten** zugänglich."
+>abstract="Sie können jetzt auf die Details eines Schemas zugreifen, indem Sie dessen Namen in der Liste auswählen. Die Bearbeitung benutzerdefinierter Felder ist auch über die Schaltfläche **Benutzerdefiniertes Detail bearbeiten** zugänglich."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=de" text="Siehe Versionshinweise"
 
 
@@ -21,11 +22,11 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="acw_schema"
 >title="Schemata"
->abstract="**[!DNL Adobe Campaign]** verwendet XML-basierte Schemata, um die physische und logische Struktur von Daten innerhalb des Programms zu definieren. Auf diesem Bildschirm können Sie alle vorhandenen Schemata anzeigen und auf die Details eines Schemas zugreifen, indem Sie dessen Namen in der Liste auswählen. Es stehen Filter zur Verfügung, mit denen Sie die Liste einschränken können, z. B. nur bearbeitbare Schemata anzeigen."
+>abstract="**[!DNL Adobe Campaign]** verwendet XML-basierte Schemata, um die physische und logische Struktur von Daten innerhalb der Anwendung zu definieren. Auf diesem Bildschirm können Sie alle vorhandenen Schemata anzeigen und auf die Details eines Schemas zugreifen, indem Sie dessen Namen in der Liste auswählen. Es stehen Filter zur Verfügung, mit denen Sie die Liste einschränken können, z. B. nur bearbeitbare Schemata anzeigen."
 
 ## Über Schemata {#about}
 
-**[!DNL Adobe Campaign]** verwendet XML-basierte Schemata, um die physische und logische Struktur von Daten innerhalb des Programms zu definieren. Ein Schema ist ein XML-Dokument, das mit einer Datenbanktabelle verknüpft ist, die Folgendes definiert:
+**[!DNL Adobe Campaign]** verwendet XML-basierte Schemata, um die physische und logische Struktur von Daten innerhalb der Anwendung zu definieren. Ein Schema ist ein XML-Dokument, das mit einer Datenbanktabelle verknüpft ist, die Folgendes definiert:
 
 * Die SQL-Tabellenstruktur (Tabellenname, Felder, Beziehungen).
 * Die XML-Datenstruktur (Elemente, Attribute, Hierarchie, Typen, Standardwerte, Beschriftungen).
@@ -46,7 +47,7 @@ Auf Schemata kann über das Menü **[!UICONTROL Administration]** > **[!UICONTRO
 
 ![](assets/schemas-list.png)
 
-Auf diesem Bildschirm können Sie alle vorhandenen Schemata anzeigen. Es stehen Filter zur Verfügung, mit denen Sie die Liste einschränken können, z. B. nur bearbeitbare Schemata anzeigen.
+Auf diesem Bildschirm können Sie alle vorhandenen Schemata anzeigen. Es stehen Filter zur Verfügung, mit denen Sie die Liste einschränken können, z. B. nur bearbeitbare Schemata anzeigen.
 
 Um ein Schema zu öffnen, wählen Sie seinen Namen aus. Eine detaillierte Schemaansicht wird angezeigt.
 
@@ -72,9 +73,9 @@ Die **[!UICONTROL Daten]** enthält Informationen zu den Schemadaten.
 
 ## Benutzerdefinierte Felder bearbeiten {#fields}
 
-Benutzerdefinierte Felder sind zusätzliche Attribute, die vordefinierten Schemata über die Adobe Campaign-Konsole hinzugefügt werden. Sie ermöglichen es Ihnen, Schemata anzupassen, indem neue Attribute entsprechend den Anforderungen Ihres Unternehmens eingefügt werden.
+Benutzerdefinierte Felder sind zusätzliche Attribute, die über die Adobe Campaign-Konsole zu vorkonfigurierten Schemata hinzugefügt werden. Sie ermöglichen es Ihnen, Schemata anzupassen, indem neue Attribute entsprechend den Anforderungen Ihres Unternehmens eingefügt werden.
 
-Benutzerdefinierte Felder können auf verschiedenen Bildschirmen angezeigt werden, z. B. in Profildetails in der Web-Benutzeroberfläche von Campaign. Sie können steuern, welche Felder sichtbar sind und wie sie in der Benutzeroberfläche angezeigt werden. Klicken Sie dazu auf **[!UICONTROL Schaltfläche Benutzerdefinierte Details bearbeiten]** Menü **[!UICONTROL Schemata]**.
+Benutzerdefinierte Felder können auf verschiedenen Bildschirmen angezeigt werden, z. B. in den Profildetails in der Campaign Web-Benutzeroberfläche. Sie können steuern, welche Felder sichtbar sind und wie sie in der Benutzeroberfläche angezeigt werden. Klicken Sie dazu auf **[!UICONTROL Schaltfläche Benutzerdefinierte Details bearbeiten]** Menü **[!UICONTROL Schemata]**.
 
 ![](assets/schemas-custom.png)
 
