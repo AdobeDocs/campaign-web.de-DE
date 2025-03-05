@@ -1,13 +1,13 @@
 ---
 title: Migration von technischen Benutzerinnen und Benutzern zur Adobe Developer Console
-description: Erfahren Sie, wie Sie die Benutzerzugriffsverwaltung von Campaign Standard zu Campaign v8 migrieren.
+description: Erfahren Sie, wie Sie die Benutzerzugriffsverwaltung von Campaign Standard auf Campaign v8 migrieren.
 feature: Technote
 role: Admin
 exl-id: a7f333ba-0b84-47de-8f91-b6c8f3f3322a
-source-git-commit: bca2b133968d9392098e9b8b76d65e44d7e84645
+source-git-commit: d575ab25d4bd3f80bd8db1a778961fc0f45cab1c
 workflow-type: tm+mt
-source-wordcount: '845'
-ht-degree: 6%
+source-wordcount: '982'
+ht-degree: 5%
 
 ---
 
@@ -30,7 +30,7 @@ Die folgenden Konzepte werden in Adobe Campaign Standard und Campaign v8 verwend
 >
 >Die Funktionen dieser Rollen/spezifischen Berechtigungen können in der Implementierung variieren und möglicherweise zu Autorisierungsproblemen führen (z. B. Berechtigungserweiterung oder Funktionsstörungen). Wir empfehlen Benutzern, diese Zuordnungen nach der Transition zu überprüfen, um eine ordnungsgemäße Zugriffssteuerung sicherzustellen. [Weitere Informationen zu Berechtigungen](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/admin/permissions/manage-permissions)
 
-In der folgenden Tabelle wird der Migrationsansatz für Benutzergruppen beim Wechsel von Adobe Campaign Standard zu Campaign v8 beschrieben. Im Campaign Standard wird eine **Sicherheitsgruppe** in Campaign v8 **Benutzergruppe** bezeichnet, um einem Benutzer eine Reihe von Rollen zuzuweisen. Einige Sicherheitsgruppen/Benutzergruppen sind zwar vorkonfiguriert verfügbar, Benutzer können jedoch neue Gruppen erstellen oder bei Bedarf vorhandene ändern.
+In der folgenden Tabelle wird der Migrationsansatz für Benutzergruppen beim Wechsel von Adobe Campaign Standard zu Campaign v8 beschrieben. In Campaign Standard wird eine **Sicherheitsgruppe** in Campaign v8 als **Benutzergruppe** bezeichnet, um einem Benutzer eine Reihe von Rollen zuzuweisen. Einige Sicherheitsgruppen/Benutzergruppen sind zwar vorkonfiguriert verfügbar, Benutzer können jedoch neue Gruppen erstellen oder bei Bedarf vorhandene ändern.
 
 | | **Campaign Standard** | **Campaign v8** |
 |---------|----------|---------|
@@ -46,7 +46,11 @@ Sowohl in Adobe Campaign Standard als auch in Campaign v8 **Sicherheitsgruppen**
 
 ## Migrationsansatz von Benutzerrollen zu spezifischen Berechtigungen
 
-In Adobe Campaign Standard wird der Begriff **Benutzerrolle** in Campaign V8 **Spezifische Berechtigung** bezeichnet. In der folgenden Tabelle ist die Terminologie aufgeführt, die für **spezifische Berechtigungen** in Campaign v8 verwendet wird und **Benutzerrollen** im Campaign Standard entspricht.
+>[!CAUTION]
+>
+>Während der Migration von Adobe Campaign Standard zu Campaign v8 erhalten Benutzende mit der **Datenmodell**-Rolle, aber nicht **Administration** automatisch **Administration**-Zugriff, da für die Schemaerstellung in Campaign v8 Administratorrechte erforderlich sind. Um dies zu verhindern, entfernen Sie vor **Migration die** „Datenmodell“.
+
+In Adobe Campaign Standard wird der Begriff **Benutzerrolle** in Campaign V8 **Spezifische Berechtigung** bezeichnet. In der folgenden Tabelle ist die Terminologie aufgeführt, die für **Spezifische Berechtigungen** in Campaign v8 verwendet wird und **Benutzerrollen** in Campaign Standard entspricht.
 
 | **Campaign Standard-Benutzerrolle** | **Spezifische Berechtigung für Campaign v8** | **Beschreibung**  |
 |----------|---------|---------|
@@ -63,6 +67,12 @@ In Adobe Campaign Standard wird der Begriff **Benutzerrolle** in Campaign V8 **S
 | Workflow | Workflow | Berechtigung zur Verwaltung der Ausführung von Workflows, Start, Stopp, Pause usw. |
 
 ## Migrationsansatz von der Organisationseinheit
+
+>[!CAUTION]
+>
+>Organisationseinheiten in Adobe Campaign Standard ohne **Alle (alle)** als direkt oder indirekt übergeordnetes Element werden nicht nach Campaign V8 migriert.
+></br>
+>Benutzern in mehreren Sicherheitsgruppen wird die Organisationseinheit der höchsten Sicherheitsgruppe zugewiesen. Wenn mehrere Gruppen parallele Einheiten der obersten Ebene haben, ist die Anmeldung in Campaign Standard eingeschränkt, gewährt aber nach der Migration breiteren Zugriff in Campaign v8, was zu einer Eskalation der Berechtigungen führen kann. Um dies zu verhindern, vermeiden Sie die Zuweisung von Benutzern zu Sicherheitsgruppen mit parallelen Organisationseinheiten.
 
 In Adobe Campaign Standard wird die **Organisationseinheit** dem in Campaign v8 vorhandenen **Ordner**-Hierarchiemodell zugeordnet, um eine ähnliche Zugriffssteuerung zu gewährleisten. [Weitere Informationen zur Ordnerverwaltung](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/admin/permissions/folder-permissions)
 
@@ -84,13 +94,13 @@ Da ein **Programm** in Campaign v8 als **Ordner** behandelt wird, kann sein Zugr
 
 ## Produktprofilzuordnung für den Zugriff auf REST-APIs 
 
-Für den Zugriff auf Transaktions-APIs über die Ausführungsinstanz in Campaign v8 ist **neues** Produktprofil) zusätzlich zu den Produktprofilen **Administrator** und **Message Center** erforderlich. Dieses **Produktprofil** wird in der Campaign Standard zu bestehenden oder vorab erstellten technischen Konten hinzugefügt.
+Für den Zugriff auf Transaktions-APIs über die Ausführungsinstanz in Campaign v8 ist **neues** Produktprofil) zusätzlich zu den Produktprofilen **Administrator** und **Message Center** erforderlich. Dieses **Produktprofil** wird bestehenden oder vorab erstellten technischen Konten in Campaign Standard hinzugefügt.
 
-Nach der Migration sollten Campaign Standard ihre **Produktprofilzuordnungen“ überprüfen** das entsprechende **Produktprofil** zuweisen, wenn sie ihre **technischen Konten** nicht mit dem **Administrator** Produktprofil verknüpfen möchten. Für zukünftige Integrationen empfehlen wir die Verwendung von Campaign V8 **Mandanten-ID** in der **REST-URL** anstelle des vorherigen Campaign Standards **Mandanten-ID**.
+Nach der Migration sollten Campaign Standard-Benutzende ihre **Produktprofilzuordnungen** überprüfen und das entsprechende **Produktprofil** zuweisen, wenn sie ihre **technischen Konten** nicht mit dem **Administrator** Produktprofil verknüpfen möchten. Für zukünftige Integrationen empfehlen wir die Verwendung von Campaign V8 **Mandanten-ID** in der **REST-URL** anstelle der vorherigen Campaign Standard **Mandanten-ID**.
 
 ## Migration des Zugriffs auf integrierte Campaign-Ressourcen für Campaign Standard-Benutzer
 
-Benutzende, die aus Campaign Standard migriert wurden, haben Lesezugriff auf bestimmte integrierte Ressourcen in Campaign v8.
+Benutzende, die von Campaign Standard migriert wurden, haben Lesezugriff auf bestimmte integrierte Ressourcen in Campaign v8.
 
 ## Nicht migrierte Sicherheitsgruppen und -rollen {#non-migrated-groups-roles}
 
@@ -100,7 +110,7 @@ Nachfolgend finden Sie eine Liste der Campaign Standard-Rollen, die noch nicht u
 
 * Message Center-Push 
 
-Nachfolgend finden Sie eine Liste der Campaign Standard-Sicherheitsgruppenzuordnungen, die noch nicht übergegangen wurden.
+Nachfolgend finden Sie eine Liste der Campaign Standard-Sicherheitsgruppenzuordnungen, die nicht übergegangen wurden.
 
 * Message Center-Agenten
 
@@ -109,3 +119,5 @@ Nachfolgend finden Sie eine Liste der Campaign Standard-Sicherheitsgruppenzuordn
 * Anwendungsverantwortlicher für Adobe Experience Manager
 
 * Relais-Konto
+
+Beachten Sie, dass benutzerdefinierte Rollen, die in Adobe Campaign Standard erstellt und Benutzenden zugewiesen wurden, nicht nach Campaign v8 migriert werden.
