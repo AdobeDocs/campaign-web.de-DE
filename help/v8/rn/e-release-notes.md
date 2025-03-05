@@ -5,9 +5,9 @@ hide: true
 hidefromtoc: true
 exl-id: a4c6ecb7-d657-46de-aa55-90c4cb45164b
 source-git-commit: 256d78c616891b4893186c6ad58cb6cbc4f6cde1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '254'
-ht-degree: 42%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Die Adobe Campaign Web-Benutzeroberfläche bietet kontinuierlich neue Funktionen
 
 **Veröffentlichungsdatum**: 18. Februar 2025
 
-Die folgenden Funktionen und Verbesserungen sind ab der Februarversion verfügbar.
+Die folgenden Funktionen und Verbesserungen sind ab der Version Februar verfügbar.
 
 ### Funktionen {#25-2-ern-features}
 
@@ -34,7 +34,7 @@ Die folgenden Funktionen und Verbesserungen sind ab der Februarversion verfügba
 <tbody>
 <tr>
 <td>
-<p>Sie können jetzt Typologien und Typologieregeln in der Web-Benutzeroberfläche von Adobe Campaign erstellen. Mit Typologien können Sie den Versand von Sendungen steuern, filtern und priorisieren. Typologien werden verwendet, um zu überprüfen, ob Sendungen immer obligatorische Komponenten enthalten (z. B. einen Abmelde-Link oder eine Betreffzeile) oder Filterregeln, um Gruppen aus Ihrer Audience auszuschließen (z. B. Abonnenten, Konkurrenten oder Kunden, die nicht Mitglied im Treueprogramm sind).</p>
+<p>Sie können jetzt Typologien und Typologieregeln in der Adobe Campaign Web-Benutzeroberfläche erstellen. Mit Typologien können Sie die Durchführung von Sendungen steuern, filtern und priorisieren. Mithilfe von Typologien können Sie überprüfen, ob Ihre Sendungen immer bestimmte Pflichtkomponenten enthalten (z. B. einen Abmelde-Link oder eine Betreffzeile), oder Filterregeln verwenden, um bestimmte Zielgruppen auszuschließen. Dazu zählen z. B. Abonnentinnen und Abonnenten, Mitbewerberinnen und Mitbewerber oder Kundinnen und Kunden, die nicht am Treueprogramm teilnehmen.</p>
 <img src="assets/do-not-localize/typology.gif">
 <p>Weitere Informationen finden Sie in der <a href="../administration/typologies.md">entsprechenden Dokumentation</a>.</p>
 </td>
@@ -51,7 +51,7 @@ Die folgenden Funktionen und Verbesserungen sind ab der Februarversion verfügba
 <tbody>
 <tr>
 <td>
-<p>Sie können jetzt Zielgruppen-Mappings in der Web-Benutzeroberfläche von Campaign erstellen. Zielgruppen-Mappings definieren, wie verschiedene Versandkanäle (E-Mail, SMS, Push-Benachrichtigungen) mit den Datenfeldern eines Schemas verknüpft werden. Mit dem Zielgruppen-Mapping können Sie die Zielgruppe definieren: Profile, Vertragsbegünstigte, Benutzer, Abonnenten, Interessenten usw.</p>
+<p>Sie können jetzt Zielgruppen-Mappings in der Campaign Web-Benutzeroberfläche erstellen. Zielgruppen-Mappings definieren, wie verschiedene Versandkanäle (E-Mail, SMS, Push-Benachrichtigungen) mit den Datenfeldern eines Schemas verknüpft werden. Hier können Sie die Zielgruppen festlegen: Profile, Vertragsbegünstigte, Benutzerinnen und Benutzer, Abonnierende, Interessentinnen und Interessenten usw.</p>
 <p>Weitere Informationen finden Sie in der <a href="../administration/typologies.md">entsprechenden Dokumentation</a>.</p>
 </td>
 </tr>

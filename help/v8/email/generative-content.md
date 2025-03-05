@@ -4,9 +4,9 @@ title: Generative Inhalte
 description: Erste Schritte mit dem KI-Assistenten
 exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
 source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1563'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -17,12 +17,12 @@ ht-degree: 92%
 >Bevor Sie mit der Verwendung dieser Funktion beginnen, lesen Sie die entsprechenden Informationen zu [Schutzmechanismen und Einschränkungen](generative-gs.md#generative-guardrails).
 ></br>
 >
->Sie müssen einer [Benutzervereinbarung“ zustimmen](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} bevor Sie den KI-Assistenten in Adobe Campaign Web verwenden können. Weitere Informationen erhalten Sie vom Adobe-Support.
+>Sie müssen einer [Benutzervereinbarung](https://www.adobe.com/de/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} zustimmen, bevor Sie den KI-Assistenten in Adobe Campaign Web verwenden können. Weitere Informationen erhalten Sie vom Adobe-Support.
 
 
-Nachdem Sie Ihre E-Mails erstellt und personalisiert haben, verwenden Sie den KI-Assistenten in Adobe Campaign Web in Campaign, der auf generativer KI basiert, um Ihre Inhalte auf die nächste Stufe zu heben.
+Wenn Sie Ihre E-Mails erstellt und personalisiert haben, können Sie Ihre Inhalte mithilfe des auf generativer KI basierenden KI-Assistenten in Adobe Campaign Web auf die nächste Ebene bringen.
 
-Der KI-Assistent in Adobe Campaign Web kann Ihnen dabei helfen, die Wirkung Ihrer Sendungen zu optimieren, indem er ganze E-Mails, zielgerichtete Textinhalte und sogar Bilder generiert, die speziell auf Ihre Zielgruppe zugeschnitten sind. Dadurch werden Ihre E-Mail-Kampagnen für bessere Interaktion optimiert.
+Der KI-Assistent in Adobe Campaign Web kann Ihnen dabei helfen, die Wirkung Ihrer Sendungen zu optimieren, indem er ganze E-Mails, gezielte Textinhalte und sogar Bilder generiert, die speziell auf Ihre Zielgruppe zugeschnitten sind. Dadurch werden Ihre E-Mail-Kampagnen für bessere Interaktion optimiert.
 
 Bei Ihren E-Mail-Kampagnen können Sie den KI-Assistenten nutzen, um vollständige E-Mails, Texte oder Bilder zu generieren. Auf den folgenden Registerkarten erfahren Sie, wie Sie den KI-Assistenten in Adobe Campaign Web verwenden.
 
@@ -30,7 +30,7 @@ Bei Ihren E-Mail-Kampagnen können Sie den KI-Assistenten nutzen, um vollständi
 
 >[!TAB Generierung kompletter E-Mails]
 
-Im folgenden Beispiel verwenden wir den KI-Assistenten in Adobe Campaign Web, um eine bestehende E-Mail zu verfeinern und für ein spezielles Ereignis anzupassen.
+Im folgenden Beispiel nutzen wir den KI-Assistenten in Adobe Campaign Web, um eine vorhandene E-Mail zu optimieren und für ein besonderes Ereignis anzupassen.
 
 1. Nachdem Sie Ihren E-Mail-Versand erstellt und konfiguriert haben, klicken Sie auf **[!UICONTROL Inhalt bearbeiten]**.
 
@@ -190,7 +190,7 @@ Im folgenden Beispiel erfahren Sie, wie Sie den KI-Assistenten nutzen können, u
 
    Zuvor hochgeladene Dateien sind in der Dropdown-Liste **[!UICONTROL Hochgeladene Marken-Assets]** verfügbar. Aktivieren Sie einfach die Assets, die in den Generierungsprozess einbezogen werden sollen.
 
-1. Sobald Sie mit der Konfiguration der Eingabeaufforderung zufrieden sind, klicken Sie auf **[!UICONTROL Generieren]**.
+1. Sobald Sie mit der Konfiguration des Prompts zufrieden sind, klicken Sie auf **[!UICONTROL Generieren]**.
 
 1. Durchsuchen Sie die **[!UICONTROL Variantenvorschläge]**, um das gewünschte Asset zu finden. 
 

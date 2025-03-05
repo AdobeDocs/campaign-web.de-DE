@@ -3,9 +3,9 @@ title: Verwalten eines externen Kontos
 description: Informationen zum Konfigurieren externer Konten
 exl-id: e37d6cb0-f8fa-4f1c-9cdd-46f9666c2d18
 source-git-commit: 8fccae9906d7a04ec1e8e10ad7be60f597a43492
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '686'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 93%
 >
 >* Externe Konten sind derzeit nur für Bounce Messages (POP3), Routing und die Ausführungsinstanz verfügbar. Weitere Kontotypen werden in Zukunft hinzugefügt.
 >
->* Nicht unterstützte externe Konten, die in der Adobe Campaign-Konsole erstellt wurden, sind in der Web-Benutzeroberfläche sichtbar, können jedoch nicht bearbeitet oder aufgerufen werden.
+>* Nicht unterstützte externe Konten, die in der Adobe Campaign-Konsole erstellt wurden, sind zwar in der Web-Benutzeroberfläche sichtbar, können jedoch nicht bearbeitet oder aufgerufen werden.
 
 Adobe Campaign verfügt über eine Reihe vordefinierter externer Konten, sodass eine einfache Integration mit verschiedenen Systeme möglich ist.  Wenn Sie eine Verbindung zu zusätzlichen Plattformen herstellen oder die Verbindungen an Ihren Workflow anpassen müssen, können Sie jetzt einfach neue externe Konten über die Web-Benutzeroberfläche erstellen, um Ihre spezifischen Anforderungen zu erfüllen und eine nahtlose Datenübertragung zu gewährleisten.
 

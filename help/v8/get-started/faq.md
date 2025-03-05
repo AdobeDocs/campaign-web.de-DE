@@ -3,9 +3,9 @@ title: Verwenden der KI-gestützten Kontexthilfe in Campaign Web
 description: Stellen von Fragen in Campaign Web-Hilfe-Popovers
 exl-id: 332db61b-a82d-4bca-a2f5-51557f06120c
 source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '801'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Informationen zu den ersten Schritten finden Sie auf [dieser Seite](../get-start
 
 +++ Welche neuen Funktionen und Merkmale bietet die neue Web-Benutzeroberfläche?
 
-Die neue Benutzeroberfläche in Adobe Campaign v8 sorgt für Konsistenz mit Adobe Experience Platform und ist auf Marketing-Effizienz ausgelegt. Die neue Workflow-Arbeitsfläche bietet einen intuitiven und erweiterten Arbeitsbereich für die Zielgruppenkomposition, die Workflow-Verwaltung und das Design von Inhalten sowie integrierte Anwendungsfälle mit nativen Adobe Experience Platform-Programmen wie Journey Optimizer und Real-Time CDP.  Mit dem nativ in WYSIWYG Message Designer eingebetteten KI-Assistenten können Sie Kreativität anregen, die Produktivität steigern und kanalübergreifende Kampagnen skaliert personalisieren.
+Die neue Benutzeroberfläche in Adobe Campaign v8 sorgt für Konsistenz mit Adobe Experience Platform und ist auf Marketing-Effizienz ausgelegt. Die neue Workflow-Arbeitsfläche bietet einen intuitiven und erweiterten Arbeitsbereich für die Zielgruppenkomposition, die Workflow-Verwaltung und das Design von Inhalten sowie integrierte Anwendungsfälle mit nativen Adobe Experience Platform-Programmen wie Journey Optimizer und Real-Time CDP.  Mit demKI-Assistenten, der nativ in den WYSIWYG-Nachrichten-Designer eingebettet ist, können Sie Kreativität entfachen, die Produktivität steigern und Cross-Channel-Kampagnen skaliert personalisieren.
 
 Marketing-Fachleute können generative KI für die vollständige Ideenbildung für E-Mails in HTML und die Text- und Bildgenerierung mit Vorschlägen zu Verfeinerung und Varianten verwenden. Neue Funktionen und Leistungsmerkmale können Sie auf [dieser Seite](../rn/whats-new.md) einsehen. Weitere Informationen zur neuen Oberfläche und deren Verwendung finden Sie auf [dieser Seite](../get-started/user-interface.md). Darüber hinaus finden Sie in den [Tutorials](https://experienceleague.adobe.com/de/docs/campaign-web-learn/tutorials/overview){target="_blank"} in einer Reihe von Anleitungsvideos weitere Informationen über die neue Oberfläche.
 

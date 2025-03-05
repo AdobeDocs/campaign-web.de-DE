@@ -4,9 +4,9 @@ description: Hilfe-Center zu Campaign Web
 title: Produktdokumentation zu Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 source-git-commit: c0a40e8c68b009b6803d8f24e6572c4ea359ba9f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '456'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -54,14 +54,14 @@ Hier erhalten Sie einen Einblick in die neuesten Verbesserungen in Adobe Campaig
 
 >[!TAB Version Februar &#39;25]
 
-Die Februarversion ist jetzt verfügbar, einschließlich Geschäftsregeln, Zielgruppen-Mappings und weiterer Verbesserungen.
+Die Februar-Version ist jetzt live. Sie umfasst Geschäftsregeln, Zielgruppen-Mappings sowie weitere Verbesserungen.
 
 [![Schaltfläche „Weitere Informationen“](assets/do-not-localize/learn-more-button.svg)](../v8/rn/release-notes.md)
 
 
 >[!TAB KI-Assistent]
 
-✨ Tauchen Sie mit unserer Live-Funktionsvorschau des [AI Assistant](../v8/email/generative-gs.md) in eine praktische Erfahrung ein, damit Sie die Funktionen des Assistenten aus erster Hand kennenlernen und seine Möglichkeiten voll und ganz verstehen können.
+✨ Nehmen Sie an unserer Live-Funktionsvorstellung des [KI-Assistenten](../v8/email/generative-gs.md) teil, um die Funktionen in der Praxis selbst zu erkunden und die vielfältigen Einsatzmöglichkeiten zu verstehen.
 
 [![Schaltfläche „Weitere Informationen“](assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/de/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 

@@ -4,7 +4,7 @@ title: Erste Schritte mit externen Sendungen
 description: Erfahren Sie, wie Sie mit Adobe Campaign Web externe Sendungen erstellen und durchführen.
 exl-id: 08fe9333-aa35-4acf-ba41-4c6895049bbc
 source-git-commit: 1f3f3afb9b21ab37aeea73057d832cea172c00bf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '465'
 ht-degree: 100%
 

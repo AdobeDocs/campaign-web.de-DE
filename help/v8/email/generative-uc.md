@@ -1,11 +1,11 @@
 ---
 title: Anwendungsfälle für den KI-Assistenten
-description: Erfahren Sie durch Anwendungsfälle, wie Sie den KI-Assistenten verwenden
+description: Erfahren Sie anhand von Anwendungsfällen, wie Sie den KI-Assistenten verwenden.
 exl-id: ead51ef0-f7ba-4bc4-8d4a-f6a6d1df6a0f
 source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '525'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 87%
 
 1. Öffnen Sie den Abschnitt **[!UICONTROL KI-Assistent]**.
 
-1. Aktivieren Sie im KI-Assistenten **[!UICONTROL Funktion]** Verwenden von Originalinhalten&#39;, um neue Inhalte an Ihre Versanddetails anzupassen, einschließlich des Versandnamens und der Zielgruppe.
+1. Aktivieren Sie die Funktion **[!UICONTROL Originalinhalt verwenden]** im KI-Assistenten, um neue Inhalte entsprechend Ihren Versanddetails anzupassen, einschließlich des Versandnamens und der Zielgruppe.
 
 1. Passen Sie den Inhalt an, indem Sie Ihre Anfrage im Feld **[!UICONTROL Prompt]** angeben und die Einstellungen nach Bedarf anpassen.
 
@@ -93,7 +93,7 @@ Wenn Sie Inhalt, Zielgruppe und Zeitplan definiert haben, können Sie den SMS-Ve
 
 1. Wählen Sie aus dem Menü im rechten Bereich die Option **[!UICONTROL KI-Assistent]**.
 
-1. Aktivieren Sie die Option **[!UICONTROL Referenzstil]** , damit der KI-Assistent mithilfe des Referenzmaterials neue Inhalte generieren kann.
+1. Aktivieren Sie die Option **[!UICONTROL Referenzstil]**, damit der KI-Assistent neue Inhalte mithilfe des Referenzmaterials generieren kann.
 
 1. Klicken Sie auf **[!UICONTROL Bild hochladen]**, um ein Bild einzuschließen, das Kontext zu Ihrer Variante hinzufügt.
 

@@ -3,9 +3,9 @@ title: Benutzerdefinierte Felder
 description: Erfahren Sie, wie Sie benutzerdefinierte Felder und ihre Sichtbarkeit in der Benutzeroberfläche konfigurieren.
 exl-id: 34e7e0b7-3981-43b1-95a5-6c672adafdc9
 source-git-commit: 27e44682178267353418de210af51067eee4141b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '925'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 87%
 >title="Attributeinstellungen"
 >abstract="Attributeinstellungen"
 
-Benutzerdefinierte Felder sind zusätzliche Attribute, die über die Adobe Campaign-Konsole zu vorkonfigurierten Schemata hinzugefügt werden. Sie ermöglichen es Ihnen, Schemata anzupassen, indem neue Attribute entsprechend den Anforderungen Ihres Unternehmens eingefügt werden. Wie Sie ein Schema erweitern, erfahren Sie in der [Dokumentation zu Adobe Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema.html?lang=de){target="_blank"}.
+Benutzerdefinierte Felder sind zusätzliche Attribute, die über die Adobe Campaign-Konsole zu vorkonfigurierten Schemata hinzugefügt werden. Sie ermöglichen es Ihnen, Schemata anzupassen, indem neue Attribute entsprechend den Anforderungen Ihrer Organisation eingefügt werden. Wie Sie ein Schema erweitern, erfahren Sie in der [Dokumentation zu Adobe Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema.html?lang=de){target="_blank"}.
 
 Benutzerdefinierte Felder können auf verschiedenen Bildschirmen angezeigt werden, z. B. in den Profildetails in der Campaign Web-Benutzeroberfläche. Admins können steuern, welche Felder sichtbar sind und wie sie angezeigt werden. Diese Änderungen gelten für alle Campaign-Benutzenden.
 
@@ -71,7 +71,7 @@ Gehen Sie wie folgt vor, um benutzerdefinierte Felder in der Benutzeroberfläche
 
    ![](assets/custom-fields-open.png)
 
-1. Wählen Sie den Schemanamen in der Liste aus, um ihn zu öffnen. Eine detaillierte Schemaansicht wird angezeigt [Weitere Informationen zu Schemadetails](../administration/schemas.md). Klicken Sie auf die **[!UICONTROL Benutzerdefinierte Details bearbeiten]**, um auf benutzerdefinierte Felder zuzugreifen. In diesem Beispiel sollen Felder zum Schema **[!UICONTROL Empfänger]** hinzugefügt werden.
+1. Wählen Sie den Schemanamen in der Liste aus, um das Schema zu öffnen. Eine detaillierte Schemaansicht wird angezeigt [Weitere Informationen zu Schemadetails](../administration/schemas.md). Klicken Sie auf die Schaltfläche **[!UICONTROL Benutzerdefinierte Details bearbeiten]**, um auf benutzerdefinierte Felder zuzugreifen. In diesem Beispiel sollen Felder zum Schema **[!UICONTROL Empfänger]** hinzugefügt werden.
 
    ![](assets/custom-fields-edit.png)
 
@@ -83,7 +83,7 @@ Gehen Sie wie folgt vor, um benutzerdefinierte Felder in der Benutzeroberfläche
 
 1. Um der Benutzeroberfläche ein benutzerdefiniertes Feld hinzuzufügen, klicken Sie auf die Schaltfläche mit den Auslassungspunkten und wählen Sie eine der folgenden Optionen:
 
-   * **[!UICONTROL Benutzerdefinierte Felder auswählen]**: Wählen Sie ein oder mehrere benutzerdefinierte Felder aus, die auf der Benutzeroberfläche angezeigt werden sollen.
+   * **[!UICONTROL Benutzerdefinierte Felder auswählen]**: Wählen Sie ein oder mehrere benutzerdefinierte Felder aus, die in der Benutzeroberfläche angezeigt werden sollen.
    * **[!UICONTROL Liste der benutzerdefinierten Felder automatisch ausfüllen]**: Fügen Sie der Benutzeroberfläche alle benutzerdefinierten Felder hinzu, die für das Schema definiert sind.
 
    ![](assets/custom-fields-add.png)
