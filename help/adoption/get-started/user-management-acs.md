@@ -4,7 +4,7 @@ description: Erfahren Sie, wie Sie die Benutzerzugriffsverwaltung von Campaign S
 feature: Technote
 role: Admin
 exl-id: a7f333ba-0b84-47de-8f91-b6c8f3f3322a
-source-git-commit: d575ab25d4bd3f80bd8db1a778961fc0f45cab1c
+source-git-commit: 31befa42b04bef1a2777df9f2bd494481ccf67cd
 workflow-type: tm+mt
 source-wordcount: '982'
 ht-degree: 5%
@@ -89,7 +89,9 @@ Durch die Verwendung von **Gruppen** und **spezifischen Berechtigungen** kann **
 Da ein **Programm** in Campaign v8 als **Ordner** behandelt wird, kann sein Zugriff auf dieselbe Weise wie für jeden anderen Ordner verwaltet werden. Nach der Migration können Campaign Standard-Administratoren die folgenden Schritte ausführen:
 
 1. Klicken Sie im Explorer mit der rechten Maustaste auf einen beliebigen Ordner und wählen Sie **[!UICONTROL Eigenschaften…]**.
+
 1. Navigieren Sie zur Registerkarte **[!UICONTROL Sicherheit]** .
+
 1. Ändern Sie die Benutzergruppenberechtigungen entsprechend dem gewünschten Zugriffsmodell. 
 
 ## Produktprofilzuordnung für den Zugriff auf REST-APIs 
