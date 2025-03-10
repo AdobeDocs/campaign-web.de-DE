@@ -5,10 +5,10 @@ user-guide-description: Produktdokumentation zur Adobe Campaign Web-Benutzerober
 title: Dokumentation zu Adobe Campaign Web
 description: Dokumentation zu Campaign Web
 breadcrumb-title: Campaign Web-Benutzeroberfläche
-source-git-commit: c0a40e8c68b009b6803d8f24e6572c4ea359ba9f
-workflow-type: ht
-source-wordcount: '804'
-ht-degree: 100%
+source-git-commit: f645d8bf45e92028485ffdab138ed7b637e9a4a5
+workflow-type: tm+mt
+source-wordcount: '809'
+ht-degree: 99%
 
 ---
 
@@ -124,6 +124,7 @@ ht-degree: 100%
       + [Generierung von Push-Benachrichtigungen mit KI](email/generative-push.md)
       + [Landingpage-Generierung mit KI](email/generative-lp.md)
       + [Anwendungsfälle für den KI-Assistenten](email/generative-uc.md)
+      + [Marken erstellen und verwalten (Beta)](content/brands.md)
 + Landingpages {#landing-pages}
    + [Erste Schritte mit Landingpages](landing-pages/get-started-lp.md)
    + [Erstellen und Veröffentlichen einer Landingpage](landing-pages/create-lp.md)
