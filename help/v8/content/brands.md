@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie Ihre Markenrichtlinien erstellen und verwalte
 hide: true
 hidefromtoc: true
 badge: label="Beta" type="Informative"
-source-git-commit: e6e23a758cce657b582174e522d61193dc7326cf
+source-git-commit: 4baa86395b3cbd062d641ea53ef337523bc7772d
 workflow-type: tm+mt
 source-wordcount: '455'
 ht-degree: 2%
@@ -104,6 +104,6 @@ Um Ihre Markenrichtlinien zu erstellen und zu verwalten, können Sie die Details
 
    ![](assets/brands_5.png)
 
-Ihre Markenrichtlinien sind jetzt über die Dropdown-Liste **[!UICONTROL Marke]** im Menü KI-Assistent verfügbar, sodass Inhalte und Assets generiert werden können, die mit Ihren Spezifikationen übereinstimmen. [Weitere Informationen zum KI-Assistenten](gs-generative.md)
+Ihre Markenrichtlinien sind jetzt über die Dropdown-Liste **[!UICONTROL Marke]** im Menü KI-Assistent verfügbar, sodass Inhalte und Assets generiert werden können, die mit Ihren Spezifikationen übereinstimmen. [Weitere Informationen zum KI-Assistenten](../email/generative-gs.md)
 
 ![](assets/brands_6.png)
