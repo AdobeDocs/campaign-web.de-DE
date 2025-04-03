@@ -3,10 +3,10 @@ audience: end-user
 title: Senden Ihrer ersten E-Mail
 description: Erfahren Sie, wie Sie Ihre erste E-Mail mit der Campaign Web-Benutzeroberfläche senden.
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+source-git-commit: cf114d180774a1956bafa340e9ceac13acc93489
 workflow-type: tm+mt
-source-wordcount: '1348'
-ht-degree: 100%
+source-wordcount: '1493'
+ht-degree: 90%
 
 ---
 
@@ -162,6 +162,10 @@ Weitere Informationen über die Vorschau einer E-Mail und das Durchführen von T
 
    ![](assets/review-email.png){zoomable="yes"}
 
+   >[!NOTE]
+   >
+   >Die **[!UICONTROL Inhalt simulieren]** ist in bestimmten Anwendungsfällen deaktiviert. Einschränkungen werden [ (in diesem Abschnitt](#content-simulation-limitations) beschrieben.
+
 1. Wählen Sie im linken Seitenbereich die Profile aus, die für die Vorschau der E-Mail verwendet werden sollen.
 
    Im rechten Bereich wird eine Vorschau der E-Mail auf der Basis des ausgewählten Profils angezeigt. Wenn Sie mehrere Profile hinzugefügt haben, können Sie zwischen diesen Profilen wechseln, um eine Vorschau der jeweiligen E-Mail anzuzeigen.
@@ -190,6 +194,37 @@ Weitere Informationen über die Vorschau einer E-Mail und das Durchführen von T
    ![](assets/proof-sent.png){zoomable="yes"}
 
    Sie können den Status des Versands überprüfen und jederzeit auf die gesendeten Testsendungen zugreifen, indem Sie auf die Schaltfläche **[!UICONTROL Testsendungen anzeigen]** auf dem Bildschirm „Inhalt simulieren“ klicken.
+
+## Einschränkungen bei der Inhaltsimulation {#content-simulation-limitations}
+
+>[!CONTEXTUALHELP]
+>id="acw_simulation_limitation_multilingual"
+>title="Die Inhaltsimulation wird nicht unterstützt"
+>abstract="Die Schaltfläche **Inhalt simulieren** ist deaktiviert, da die mehrsprachige Bereitstellung nur ein Gebietsschema enthält."
+
+>[!CONTEXTUALHELP]
+>id="acw_simulation_limitation_reconcilied_deliveries"
+>title="Die Inhaltsimulation wird nicht unterstützt"
+>abstract="Die Schaltfläche **Inhalt simulieren** ist deaktiviert, da sie in dieser Phase nicht mit abgestimmten Sendungen kompatibel ist."
+
+>[!CONTEXTUALHELP]
+>id="acw_simulation_limitation_ffda"
+>title="Die Inhaltsimulation wird nicht unterstützt"
+>abstract="Die Schaltfläche **Inhalt simulieren** ist deaktiviert, da sie im FFDA-Modus (Full Federated Access) von Campaign Enterprise nicht unterstützt wird."
+
+>[!CONTEXTUALHELP]
+>id="acw_simulation_limitation_no_file"
+>title="Die Inhaltsimulation wird nicht unterstützt"
+>abstract="Die Schaltfläche **Inhalt simulieren** ist deaktiviert, da kein Inhalt hochgeladen wurde."
+
+In einigen Fällen können Sie keine Inhaltssimulation durchführen, und die Schaltfläche **[!UICONTROL Inhalt simulieren]** ist deaktiviert.
+
+Die Inhaltsimulation wird in diesen Fällen nicht unterstützt:
+
+<!--* When a multilingual delivery contains only one locale,-->
+* Mit abgestimmten Sendungen
+* Wenn Ihr Campaign-Bereitstellungsmodell [Adobe Campaign Enterprise Full Federated Access (FFDA) ist](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/config/architecture/ffda/enterprise-deployment){target="_blank"}
+* Wenn keine Datei hochgeladen wurde.
 
 ## Senden und Überwachen der E-Mail {#prepare-send}
 
