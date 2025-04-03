@@ -3,9 +3,9 @@ audience: end-user
 title: Senden Ihrer ersten E-Mail
 description: Erfahren Sie, wie Sie Ihre erste E-Mail mit der Campaign Web-Benutzeroberfläche senden.
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: cf114d180774a1956bafa340e9ceac13acc93489
+source-git-commit: bab5f3355be8b667dd72774b95245e9f7c3ac28f
 workflow-type: tm+mt
-source-wordcount: '1493'
+source-wordcount: '1492'
 ht-degree: 90%
 
 ---
@@ -164,7 +164,7 @@ Weitere Informationen über die Vorschau einer E-Mail und das Durchführen von T
 
    >[!NOTE]
    >
-   >Die **[!UICONTROL Inhalt simulieren]** ist in bestimmten Anwendungsfällen deaktiviert. Einschränkungen werden [ (in diesem Abschnitt](#content-simulation-limitations) beschrieben.
+   >Die Schaltfläche **[!UICONTROL Inhalt simulieren]** ist in bestimmten Kontexten deaktiviert. Einschränkungen werden [ (in diesem Abschnitt](#content-simulation-limitations) beschrieben.
 
 1. Wählen Sie im linken Seitenbereich die Profile aus, die für die Vorschau der E-Mail verwendet werden sollen.
 
@@ -195,7 +195,7 @@ Weitere Informationen über die Vorschau einer E-Mail und das Durchführen von T
 
    Sie können den Status des Versands überprüfen und jederzeit auf die gesendeten Testsendungen zugreifen, indem Sie auf die Schaltfläche **[!UICONTROL Testsendungen anzeigen]** auf dem Bildschirm „Inhalt simulieren“ klicken.
 
-## Einschränkungen bei der Inhaltsimulation {#content-simulation-limitations}
+### Einschränkungen bei der Inhaltsimulation {#content-simulation-limitations}
 
 >[!CONTEXTUALHELP]
 >id="acw_simulation_limitation_multilingual"
