@@ -2,10 +2,10 @@
 title: Herstellen einer Verbindung zur Adobe Campaign Web-Benutzeroberfläche
 description: Erfahren Sie, wie Sie eine Verbindung mit der Benutzeroberfläche von Adobe Campaign Web herstellen.
 exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
-source-git-commit: 43a296fa8bf630a2a1183cd6d7eee1c5f38e4a80
+source-git-commit: 11bad3c29ebeb4e81187ae2c1786262b6ac89a70
 workflow-type: tm+mt
 source-wordcount: '845'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -31,7 +31,7 @@ Die Anmeldung bei Adobe Experience Cloud erfolgt anhand der folgenden einfachen 
 
    ![](assets/exc-orgs.png){zoomable="yes"}{width="50%" align="left"}
 
-   Erfahren Sie mehr über Organisationen in Adobe Experience Cloud in [diesem Artikel](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=de){target="_blank"}.
+   Weitere Informationen zu Organisationen in Adobe Experience Cloud finden Sie in [diesem Artikel](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=de){target="_blank"}.
 
 
 ## Zugriff auf Adobe Campaign {#access-to-campaign}
@@ -100,7 +100,7 @@ Verwenden Sie die obere Leiste der Benutzeroberfläche, um folgende Aktionen dur
 * Geben von Feedback zur Campaign Web-Benutzeroberfläche
 * Wechseln zwischen Ihren Organisationen
 * Wechseln zwischen Ihren Adobe Experience Cloud-Lösungen und -Apps
-* nach Hilfe zu [Adobe Experience League](https://experienceleague.adobe.com/docs/?lang=de){target="_blank"} suchen
+* Hilfe zu [Adobe Experience League](https://experienceleague.adobe.com/docs/?lang=de){target="_blank"}
 * Produktbenachrichtigungen überprüfen
 * Ihr Adobe-Profil bearbeiten und Einstellungen verwalten wie [Ihre Lieblingssprache aktualisieren](#language-pref) oder [Umschalten zwischen hellem/dunklem Design](#dark-theme)
 
@@ -134,17 +134,10 @@ So ändern Sie Ihre Sprache:
 1. Klicken Sie dann auf den Sprach-Link, der unter Ihrer E-Mail-Adresse angezeigt wird.
 1. Wählen Sie Ihre bevorzugte Sprache aus und klicken Sie auf **Speichern**. Sie können eine zweite Sprache auswählen, falls die von Ihnen verwendete Komponente nicht in Ihrer gewählten Sprache lokalisiert ist.
 
-<!--
->[!CAUTION]
->
->If you plan to use [AI-powered contextual help](using-ai.md) capabilities, you must set your prefered language to English. Other languages are not supported.
->
--->
-
 ## Dunkles und helles Design {#dark-theme}
 
 Adobe Campaign ist in hellem und dunklem Design verfügbar. Standardmäßig ist die Benutzeroberfläche im hellen Design aktiviert. Um zum dunklen Design zu wechseln, klicken Sie auf das Profilsymbol und verwenden Sie die Option **Dunkles Design**, um es zu aktivieren/deaktivieren.
 
-Benutzerprofileinstellungen und Kontovoreinstellungen werden in [diesem Abschnitt](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=de#preferences){target="_blank"} genauer beschrieben.
+Die Einstellungen für Benutzerprofile und Kontovoreinstellungen finden Sie [ (diesem Abschnitt](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=de#preferences){target="_blank"}.
 
-Weitere Informationen zu den zentralen Benutzeroberflächen-Komponenten in Experience Cloud finden Sie in [dieser Dokumentation](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=de){target="_blank"}.
+Weitere Informationen zu den Komponenten der zentralen Experience Cloud-Benutzeroberfläche finden Sie [ (dieser Dokumentation](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=de){target="_blank"}.
