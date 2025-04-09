@@ -3,10 +3,10 @@ audience: end-user
 title: Arbeiten mit dem Abfrage-Modeler
 description: Lernen Sie, mit dem Abfrage-Modeler von Adobe Campaign Web zu arbeiten.
 exl-id: 56708a66-f654-413a-80ed-1865077b3c0a
-source-git-commit: ecff4e56bd346aadf381a1bf2077204804938f62
+source-git-commit: bf7ee45a0702b66af6962453893cf9c50c140d54
 workflow-type: tm+mt
-source-wordcount: '620'
-ht-degree: 100%
+source-wordcount: '639'
+ht-degree: 97%
 
 ---
 
@@ -51,6 +51,11 @@ Der Abfrage-Modeler ist in jedem Kontext verfügbar, in dem Sie Regeln zum Filte
 >![](assets/target-warning.png){zoomable="yes"}
 
 ## Benutzeroberfläche des Abfrage-Modelers {#interface}
+
+>[!CONTEXTUALHELP]
+>id="acw_rule_builder_switch_button"
+>title="Neues Anwendererlebnis"
+>abstract="Verwenden Sie diesen Umschalter, um zwischen dem klassischen Abfrage-Modellierer und dem neuen Regel-Builder-Erlebnis zu wechseln."
 
 Der Abfrage-Modeler bietet eine zentrale Arbeitsfläche, auf der Sie Ihre Abfrage erstellen, sowie einen rechten Bereich mit Informationen zu Ihrer Abfrage.
 
