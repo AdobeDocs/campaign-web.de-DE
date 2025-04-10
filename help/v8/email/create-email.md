@@ -4,9 +4,9 @@ title: Senden Ihrer ersten E-Mail
 description: Erfahren Sie, wie Sie Ihre erste E-Mail mit der Campaign Web-Benutzeroberfläche senden.
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 source-git-commit: bab5f3355be8b667dd72774b95245e9f7c3ac28f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1492'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -50,7 +50,7 @@ Gehen Sie wie folgt vor, um einen neuen E-Mail-Versand zu erstellen.
    >
    >Vorlagen sind vorkonfigurierte Versandeinstellungen, die für die zukünftige Verwendung gespeichert werden. [Weitere Informationen](../msg/delivery-template.md)
 
-   ![](assets/channel-template.png){zoomable="yes"}
+   ![](assets/channel-template.png)
 
 1. Klicken Sie zur Bestätigung auf **[!UICONTROL Versand erstellen]**.
 1. Geben Sie einen Titel für den Versand ein und konfigurieren Sie zusätzliche Optionen entsprechend Ihren Anforderungen:
@@ -65,7 +65,7 @@ Gehen Sie wie folgt vor, um einen neuen E-Mail-Versand zu erstellen.
    >
    >Wenn Sie Ihr Schema mit bestimmten benutzerdefinierten Feldern erweitert haben, können Sie diese im Abschnitt **[!UICONTROL Benutzerdefinierte Optionen]** aufrufen.
 
-   ![](assets/email-properties.png){zoomable="yes"}
+   ![](assets/email-properties.png)
 
 1. Erweiterte Einstellungen wie Typologieregeln und Zielgruppen-Mappings sind darüber hinaus über die Schaltfläche **[!UICONTROL Einstellungen]** oben rechts im Bildschirm verfügbar. Diese Einstellungen sind zwar in der ausgewählten Vorlage vorkonfiguriert, können jedoch für diese E-Mail nach Bedarf bearbeitet werden. [Weitere Informationen](../advanced-settings/delivery-settings.md)
 
@@ -86,15 +86,15 @@ Weitere Anweisungen zur Verwendung von Zielgruppen finden Sie in [diesem Abschni
 
    In diesem Beispiel möchten wir eine bestehende Zielgruppe verwenden, die auf Kunden der Treuepunktestufen Silber und Gold abzielt.
 
-   ![](assets/create-audience.png){zoomable="yes"}
+   ![](assets/create-audience.png)
 
    >[!NOTE]
    >
-   >Die in der Liste verfügbaren Zielgruppen stammen entweder von Ihrer Campaign v8-Instanz oder von Adobe Experience Platform, wenn die Integration von Ziel/Quelle in Ihrer Instanz konfiguriert wurde. Diese Integration ermöglicht es Ihnen, Experience Platform-Segmente an Adobe Campaign zu senden und Versand- und -Trackinglogs von Campaign an Adobe Experience Platform zu senden. Erfahren Sie mehr über die Arbeit mit Campaign und Adobe Experience Platform in der [Dokumentation zu Campaign v8 (Client-Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html?lang=de){target="_blank"}.
+   >Die in der Liste verfügbaren Zielgruppen stammen entweder von Ihrer Campaign v8-Instanz oder von Adobe Experience Platform, wenn die Integration von Ziel/Quelle in Ihrer Instanz konfiguriert wurde. Diese Integration ermöglicht es Ihnen, Experience Platform-Segmente an Adobe Campaign zu senden und Versand- und -Trackinglogs von Campaign an Adobe Experience Platform zu senden. Erfahren Sie mehr über die Arbeit mit Campaign und Adobe Experience Platform in der [Dokumentation zu Campaign v8 (Client-Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html?lang=de).
 
-1. Nach Auswahl der Zielgruppe können Sie die Zielgruppe durch Anwendung zusätzlicher Regeln weiter verfeinern.
+1. Nach Auswahl der Audience können Sie die Zielgruppe durch Anwendung zusätzlicher Regeln weiter verfeinern.
 
-   ![](assets/audience-selected.png){zoomable="yes"}
+   ![](assets/audience-selected.png)
 
 1. Sie können auch eine Kontrollgruppe einrichten, um das Verhalten der E-Mail-Empfängerinnen und -Empfänger im Vergleich zum Verhalten von nicht angesprochenen Profilen zu analysieren. [Erfahren Sie, wie Sie mit Kontrollgruppen arbeiten](../audience/control-group.md)
 
@@ -106,31 +106,31 @@ Gehen Sie wie folgt vor, um mit der Erstellung Ihres E-Mail-Inhalts zu beginnen.
 
 1. Klicken Sie im Dashboard des E-Mail-Versands auf die Schaltfläche **[!UICONTROL Inhalt bearbeiten]**.
 
-   ![](assets/email-edit-content.png){zoomable="yes"}
+   ![](assets/email-edit-content.png)
 
    Dadurch gelangen Sie zu einer dedizierten Oberfläche, auf der Sie den E-Mail-Inhalt konfigurieren und auf den E-Mail-Designer zugreifen können. [Weitere Informationen](edit-content.md)
 
-   ![](assets/edit-content.png){zoomable="yes"}
+   ![](assets/edit-content.png)
 
 1. Geben Sie die Betreffzeile Ihrer E-Mail ein und personalisieren Sie sie mit dem Ausdruckseditor. [Erfahren Sie, wie Sie Ihren Inhalt personalisieren können](../personalization/personalize.md)
 
-   ![](assets/subject-line.png){zoomable="yes"}
+   ![](assets/subject-line.png)
 
 1. Um den Inhalt der E-Mail zu gestalten, klicken Sie auf die Schaltfläche **[!UICONTROL E-Mail-Textkörper bearbeiten]**.
 
    Wählen Sie die Methode zur Erstellung des Inhalts Ihrer E-Mail aus. Verwenden Sie in diesem Beispiel eine [vordefinierte Inhaltsvorlage](create-email-templates.md).
 
-   ![](assets/select-template.png){zoomable="yes"}
+   ![](assets/select-template.png)
 
 1. Sobald Sie die Vorlage auswählen, wird sie im [E-Mail-Designer](create-email-content.md) angezeigt, wo Sie alle notwendigen Änderungen vornehmen und eine Personalisierung hinzufügen können.
 
    Um zum Beispiel dem E-Mail-Titel eine Personalisierung hinzuzufügen, wählen Sie den Komponentenblock aus und klicken Sie auf **[!UICONTROL Personalisierung hinzufügen]**.
 
-   ![](assets/add-perso.png){zoomable="yes"}
+   ![](assets/add-perso.png)
 
 1. Wenn Sie mit dem Inhalt zufrieden sind, speichern und schließen Sie Ihren Entwurf. Klicken Sie auf **[!UICONTROL Speichern]**, um zum Bildschirm für die E-Mail-Erstellung zurückzukehren.
 
-   ![](assets/save-content.png){zoomable="yes"}
+   ![](assets/save-content.png)
 
 ## Planen des Versands {#schedule}
 
@@ -142,7 +142,7 @@ Wenn ein Versand im Rahmen eines Workflows durchgeführt wird, müssen Sie die *
 
 1. Legen Sie Datum und Uhrzeit für den Versand fest.
 
-   ![](assets/schedule.png){zoomable="yes"}
+   ![](assets/schedule.png)
 
 Nach dem Versand beginnt der eigentliche Versand am von Ihnen definierten Kontaktdatum.
 
@@ -160,17 +160,17 @@ Weitere Informationen über die Vorschau einer E-Mail und das Durchführen von T
 
 1. Um eine Vorschau der E-Mail anzuzeigen und Testsendungen durchzuführen, klicken Sie auf die Schaltfläche **[!UICONTROL Inhalt simulieren]**.
 
-   ![](assets/review-email.png){zoomable="yes"}
+   ![](assets/review-email.png)
 
    >[!NOTE]
    >
-   >Die Schaltfläche **[!UICONTROL Inhalt simulieren]** ist in bestimmten Kontexten deaktiviert. Einschränkungen werden [ (in diesem Abschnitt](#content-simulation-limitations) beschrieben.
+   >Die Schaltfläche **[!UICONTROL Inhalte simulieren]** ist in bestimmten Situationen deaktiviert. Einschränkungen sind in [diesem Abschnitt](#content-simulation-limitations) aufgeführt.
 
 1. Wählen Sie im linken Seitenbereich die Profile aus, die für die Vorschau der E-Mail verwendet werden sollen.
 
    Im rechten Bereich wird eine Vorschau der E-Mail auf der Basis des ausgewählten Profils angezeigt. Wenn Sie mehrere Profile hinzugefügt haben, können Sie zwischen diesen Profilen wechseln, um eine Vorschau der jeweiligen E-Mail anzuzeigen.
 
-   ![](assets/preview.png){zoomable="yes"}
+   ![](assets/preview.png)
 
    <!--Additionally, the **[!UICONTROL Render email]** button allows you to preview the email using mutiple devices or mail providers. Learn on how to preview email rendering
     -->
@@ -179,52 +179,52 @@ Weitere Informationen über die Vorschau einer E-Mail und das Durchführen von T
 
    Verwenden Sie in diesem Beispiel den Modus **[!UICONTROL Aus Hauptzielgruppe ersetzen]**, der Testsendungen an bestimmte E-Mail-Adressen sendet und sich dabei stellvertretend als einige der Profile ausgibt, auf die die E-Mail abzielt.
 
-   ![](assets/proof-mode.png){zoomable="yes"}
+   ![](assets/proof-mode.png)
 
 1. Klicken Sie auf **[!UICONTROL Adresse hinzufügen]** und geben Sie die E-Mail-Adresse(n) an, die die Testsendungen erhalten soll(en).
 
    Wählen Sie für jede E-Mail-Adresse ein Ersatzprofil aus. Sie können Adobe Campaign auch ein zufälliges Profil aus der Zielgruppe auswählen lassen.
 
-   ![](assets/proof-test-profile.png){zoomable="yes"}
+   ![](assets/proof-test-profile.png)
 
 1. Klicken Sie auf **[!UICONTROL Testsendung durchführen]** und bestätigen Sie dann den Versand.
 
    Es werden Testsendungen unter Verwendung des ausgewählten Profils mit dem Präfix **[Proof x]** an die angegebenen E-Mail-Adressen gesendet.
 
-   ![](assets/proof-sent.png){zoomable="yes"}
+   ![](assets/proof-sent.png)
 
    Sie können den Status des Versands überprüfen und jederzeit auf die gesendeten Testsendungen zugreifen, indem Sie auf die Schaltfläche **[!UICONTROL Testsendungen anzeigen]** auf dem Bildschirm „Inhalt simulieren“ klicken.
 
-### Einschränkungen bei der Inhaltsimulation {#content-simulation-limitations}
+### Einschränkungen bei der Inhaltssimulation {#content-simulation-limitations}
 
 >[!CONTEXTUALHELP]
 >id="acw_simulation_limitation_multilingual"
->title="Die Inhaltsimulation wird nicht unterstützt"
->abstract="Die Schaltfläche **Inhalt simulieren** ist deaktiviert, da die mehrsprachige Bereitstellung nur ein Gebietsschema enthält."
+>title="Die Inhaltssimulation wird nicht unterstützt"
+>abstract="Die Schaltfläche **Inhalte simulieren** ist deaktiviert, da der mehrsprachige Versand nur ein Gebietsschema enthält."
 
 >[!CONTEXTUALHELP]
 >id="acw_simulation_limitation_reconcilied_deliveries"
->title="Die Inhaltsimulation wird nicht unterstützt"
->abstract="Die Schaltfläche **Inhalt simulieren** ist deaktiviert, da sie in dieser Phase nicht mit abgestimmten Sendungen kompatibel ist."
+>title="Die Inhaltssimulation wird nicht unterstützt"
+>abstract="Die Schaltfläche **Inhalte simulieren** ist deaktiviert, da die Funktion in dieser Phase nicht mit abgestimmten Sendungen kompatibel ist."
 
 >[!CONTEXTUALHELP]
 >id="acw_simulation_limitation_ffda"
->title="Die Inhaltsimulation wird nicht unterstützt"
->abstract="Die Schaltfläche **Inhalt simulieren** ist deaktiviert, da sie im FFDA-Modus (Full Federated Access) von Campaign Enterprise nicht unterstützt wird."
+>title="Die Inhaltssimulation wird nicht unterstützt"
+>abstract="Die Schaltfläche **Inhalte simulieren** ist deaktiviert, da sie im FFDA-Modus (Full Federated Access) von Campaign Enterprise nicht unterstützt wird."
 
 >[!CONTEXTUALHELP]
 >id="acw_simulation_limitation_no_file"
->title="Die Inhaltsimulation wird nicht unterstützt"
->abstract="Die Schaltfläche **Inhalt simulieren** ist deaktiviert, da kein Inhalt hochgeladen wurde."
+>title="Die Inhaltssimulation wird nicht unterstützt"
+>abstract="Die Schaltfläche **Inhalte simulieren** ist deaktiviert, da keine Inhalte hochgeladen wurden."
 
-In einigen Fällen können Sie keine Inhaltssimulation durchführen, und die Schaltfläche **[!UICONTROL Inhalt simulieren]** ist deaktiviert.
+In einigen Fällen können Sie keine Inhaltssimulation durchführen und die Schaltfläche **[!UICONTROL Inhalte simulieren]** ist deaktiviert.
 
-Die Inhaltsimulation wird in diesen Fällen nicht unterstützt:
+Die Inhaltssimulation wird in folgenden Fällen nicht unterstützt:
 
 <!--* When a multilingual delivery contains only one locale,-->
 * Mit abgestimmten Sendungen
-* Wenn Ihr Campaign-Bereitstellungsmodell [Adobe Campaign Enterprise Full Federated Access (FFDA) ist](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/config/architecture/ffda/enterprise-deployment){target="_blank"}
-* Wenn keine Datei hochgeladen wurde.
+* Wenn es sich beim Campaign-Bereitstellungsmodell um [Adobe Campaign Enterprise Full Federated Access (FFDA)](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/config/architecture/ffda/enterprise-deployment) handelt
+* Wenn keine Datei hochgeladen wurde
 
 ## Senden und Überwachen der E-Mail {#prepare-send}
 
@@ -232,13 +232,13 @@ Nachdem Sie Ihre E-Mail geprüft und getestet haben, können Sie die Vorbereitun
 
 1. Um die Vorbereitung der E-Mail zu starten, klicken Sie auf **[!UICONTROL Vorbereiten]**. [Erfahren Sie, wie Sie eine E-Mail vorbereiten](../monitor/prepare-send.md)
 
-   ![](assets/preparation.png){zoomable="yes"}
+   ![](assets/preparation.png)
 
 1. Wenn Ihre E-Mail versandbereit ist, klicken Sie auf die Schaltfläche **[!UICONTROL Senden]** (oder **[!UICONTROL Nach Zeitplan senden]**, wenn Sie den Versand zeitlich geplant haben) und bestätigen Sie den Versand.
 
 1. Während des Sendevorgangs können Sie seinen Fortschritt verfolgen und Statistiken in Echtzeit direkt in diesem Bildschirm einsehen.
 
-   ![](assets/sending-email.png){zoomable="yes"}
+   ![](assets/sending-email.png)
 
    <!--
     ![](assets/sent-email.png){zoomable="yes"}-->
@@ -247,7 +247,7 @@ Nachdem Sie Ihre E-Mail geprüft und getestet haben, können Sie die Vorbereitun
 
 1. Nachdem die E-Mail versendet wurde, können Sie auf spezielle Berichte zur weiteren Analyse zugreifen, indem Sie auf die Schaltfläche **[!UICONTROL Reporting]** klicken.
 
-![](assets/reports.png){zoomable="yes"}
+![](assets/reports.png)
 
 ## Anleitungsvideo {#video}
 
