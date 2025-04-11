@@ -2,10 +2,10 @@
 title: Anwendungsfälle für den KI-Assistenten
 description: Erfahren Sie anhand von Anwendungsfällen, wie Sie den KI-Assistenten verwenden.
 exl-id: ead51ef0-f7ba-4bc4-8d4a-f6a6d1df6a0f
-source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
-workflow-type: ht
-source-wordcount: '525'
-ht-degree: 100%
+source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+workflow-type: tm+mt
+source-wordcount: '542'
+ht-degree: 56%
 
 ---
 
@@ -13,11 +13,11 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->Bevor Sie mit der Verwendung dieser Funktion beginnen, lesen Sie die entsprechenden Informationen zu [Schutzmechanismen und Einschränkungen](generative-gs.md#generative-guardrails).
+>Bevor Sie mit der Verwendung dieser Funktion beginnen, lesen Sie die entsprechenden [Leitplanken und Einschränkungen](generative-gs.md#generative-guardrails).
 
 ## Verwenden von vorhandenen Inhalten
 
-![](assets/do-not-localize/gen-ai-reuse-text.gif)
+![Demonstration der Wiederverwendung vorhandener Inhalte mit dem KI-Assistenten](assets/do-not-localize/gen-ai-reuse-text.gif)
 
 1. Wählen Sie nach der Einrichtung Ihres Versands die Option **[!UICONTROL Inhalt bearbeiten]** aus.
 
@@ -25,31 +25,31 @@ ht-degree: 100%
 
 1. Aktivieren Sie die Funktion **[!UICONTROL Originalinhalt verwenden]** im KI-Assistenten, um neue Inhalte entsprechend Ihren Versanddetails anzupassen, einschließlich des Versandnamens und der Zielgruppe.
 
-1. Passen Sie den Inhalt an, indem Sie Ihre Anfrage im Feld **[!UICONTROL Prompt]** angeben und die Einstellungen nach Bedarf anpassen.
+1. Passen Sie den Inhalt an, indem Sie Ihre Anfrage im Feld **[!UICONTROL Eingabeaufforderung]** angeben und die Einstellungen nach Bedarf anpassen.
 
-1. Wenn Sie mit dem Prompt zufrieden sind, klicken Sie auf **[!UICONTROL Generieren]**.
+1. Wenn Sie mit der Eingabeaufforderung zufrieden sind, klicken Sie auf **[!UICONTROL Generieren]**.
 
 1. Durchsuchen Sie die verfügbaren **[!UICONTROL Varianten]** und klicken Sie auf **[!UICONTROL Vorschau]**, um die ausgewählte Variante im Vollbildmodus anzuzeigen.
 
-Wenn Sie Inhalt, Zielgruppe und Zeitplan definiert haben, können Sie den SMS-Versand vorbereiten.
+Bereiten Sie den Versand vor, nachdem Sie Inhalt, Zielgruppe und Zeitplan definiert haben.
 
 ## Verfeinern von Varianten
 
-![](assets/do-not-localize/gen-ai-variation.gif)
+![Demonstration der Verfeinerung von Inhaltsvarianten mit dem KI-Assistenten](assets/do-not-localize/gen-ai-variation.gif)
 
 1. Wenn Ihr Versand eingerichtet und konfiguriert ist, klicken Sie auf **[!UICONTROL Inhalt bearbeiten]**.
 
 1. Öffnen Sie das Menü **[!UICONTROL KI-Assistent]**.
 
-1. Passen Sie den Inhalt an, indem Sie die gewünschte Anfrage in das Feld **[!UICONTROL Prompt]** eingeben und die Einstellungen nach Bedarf ändern.
+1. Passen Sie den Inhalt an, indem Sie Ihre gewünschte Anfrage in das Feld **[!UICONTROL Prompt]** eingeben und die Einstellungen nach Bedarf ändern.
 
-1. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Generieren]**.
+1. Wenn Sie bereit sind, klicken Sie auf **[!UICONTROL Generieren]**.
 
 1. Überprüfen Sie die generierten **[!UICONTROL Varianten]** und wählen Sie **[!UICONTROL Vorschau]** aus, um eine Vollbildansicht der ausgewählten Option anzuzeigen.
 
 1. Gehen Sie im Fenster **[!UICONTROL Vorschau]** zur Option **[!UICONTROL Verfeinern]**, um weitere Anpassungen vorzunehmen, z. B.:
 
-   * **[!UICONTROL Als Referenzinhalt verwenden]**: Die ausgewählte Variante dient als Referenz, um weitere Inhalte zu generieren.
+   * **[!UICONTROL Als Referenzinhalt verwenden]**: Die ausgewählte Variante dient als Referenz, um mehr Inhalte zu generieren.
 
    * **[!UICONTROL Ausführlich]**: Lassen Sie den KI-Assistenten auf bestimmte Punkte genauer eingehen, um tiefer gehende und detailliertere Informationen für eine bessere Interaktion bereitstellen zu können.
 
@@ -59,33 +59,33 @@ Wenn Sie Inhalt, Zielgruppe und Zeitplan definiert haben, können Sie den SMS-Ve
 
    * **[!UICONTROL Einfachere Sprache verwenden]**: Vereinfachen Sie die Sprache mit dem KI-Assistenten, um sicherzustellen, dass die Nachricht verständlich und für alle Lesenden zugänglich ist.
 
-   Darüber hinaus können Sie den **[!UICONTROL Ton]** und die **[!UICONTROL Kommunikationsstrategie]** Ihres Inhalts anpassen.
+   Passen Sie außerdem die **[!UICONTROL Ton]** und **[!UICONTROL Kommunikationsstrategie]** Ihres Inhalts an.
 
-1. Wenn Sie den richtigen Inhalt gefunden haben, klicken Sie auf **[!UICONTROL Auswählen]**.
+1. Sobald Ihr Inhalt fertig ist, klicken Sie auf **[!UICONTROL Auswählen]**.
 
-## Generieren ähnlicher Bilder
+## Ähnliches Bild generieren
 
-![](assets/do-not-localize/uc-image-similar.gif)
+![Demonstration zum Erzeugen ähnlicher Bilder mit dem KI-Assistenten](assets/do-not-localize/uc-image-similar.gif)
 
 1. Wählen Sie nach der Einrichtung Ihres Versands die Option **[!UICONTROL Inhalt bearbeiten]** aus.
 
 1. Öffnen Sie den Abschnitt **[!UICONTROL KI-Assistent]**.
 
-1. Passen Sie den Inhalt an, indem Sie Ihre Anfrage im Feld **[!UICONTROL Prompt]** angeben und die Einstellungen nach Bedarf anpassen.
+1. Passen Sie den Inhalt an, indem Sie Ihre Anfrage im Feld **[!UICONTROL Eingabeaufforderung]** angeben und die Einstellungen nach Bedarf anpassen.
 
-1. Wenn Sie mit dem Prompt zufrieden sind, klicken Sie auf **[!UICONTROL Generieren]**.
+1. Wenn Sie mit der Eingabeaufforderung zufrieden sind, klicken Sie auf **[!UICONTROL Generieren]**.
 
-1. Durchsuchen Sie die **[!UICONTROL Variantenvorschläge]**, um das gewünschte Asset zu finden. 
+1. Durchsuchen Sie die **[!UICONTROL Variantenvorschläge]**, um das gewünschte Asset zu finden.
 
    Klicken Sie auf **[!UICONTROL Vorschau]**, um eine Vollbildversion der ausgewählten Variante anzuzeigen.
 
-1. Wählen Sie **[!UICONTROL Ähnliche generieren]**, um Bildvarianten zu untersuchen, die der aktuellen Option ähnlich sind, und alternative Designs mit einem ähnlichen Thema anzubieten.
+1. Wählen Sie **[!UICONTROL Ähnlich generieren]**, um Bildvarianten zu untersuchen, die der aktuellen Option sehr ähnlich sind und alternative Designs mit ähnlichem Design bieten.
 
-1. Klicken Sie auf **[!UICONTROL Auswählen]**, sobald Sie den passenden Inhalt gefunden haben.
+1. Klicken Sie **[!UICONTROL Auswählen]**, sobald Sie den entsprechenden Inhalt gefunden haben.
 
 ## Hochladen von Stilreferenzen
 
-![](assets/do-not-localize/uc-image-reference.gif)
+![Demonstration zum Hochladen einer Stilreferenz für den KI-Assistenten](assets/do-not-localize/uc-image-reference.gif)
 
 1. Klicken Sie nach der Einrichtung und Konfiguration Ihres Versands auf **[!UICONTROL Inhalt bearbeiten]**.
 
@@ -97,9 +97,9 @@ Wenn Sie Inhalt, Zielgruppe und Zeitplan definiert haben, können Sie den SMS-Ve
 
 1. Klicken Sie auf **[!UICONTROL Bild hochladen]**, um ein Bild einzuschließen, das Kontext zu Ihrer Variante hinzufügt.
 
-1. Verfeinern Sie den Inhalt, indem Sie im Feld **[!UICONTROL Prompt]** angeben, was generiert werden soll, und passen Sie die Einstellungen nach Bedarf an.
+1. Verfeinern Sie den Inhalt, indem Sie im Feld &quot;**[!UICONTROL &quot; angeben]** was generiert werden soll, und passen Sie die Einstellungen nach Bedarf an.
 
-1. Wenn Sie mit dem Prompt zufrieden sind, klicken Sie auf **[!UICONTROL Generieren]**.
+1. Wenn Sie mit Ihrer Eingabeaufforderung zufrieden sind, klicken Sie auf **[!UICONTROL Generieren]**.
 
 1. Überprüfen Sie die **[!UICONTROL Variantenvorschläge]**, um das von Ihnen bevorzugte Asset zu finden.
 

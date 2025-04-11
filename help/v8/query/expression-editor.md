@@ -3,44 +3,45 @@ audience: end-user
 title: Erstellen Ihrer erste Abfrage mithilfe des Abfrage-Modelers
 description: Erfahren Sie, wie Sie Ihre erste Abfrage im Abfrage-Modeler in Adobe Campaign Web erstellen.
 exl-id: f9a365ac-c8be-423f-a99d-40ad5492223c
-source-git-commit: 664876e479b0580f99b77be5fbf31a18b3bfcecb
+source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
 workflow-type: tm+mt
-source-wordcount: '2098'
-ht-degree: 100%
+source-wordcount: '2106'
+ht-degree: 87%
 
 ---
 
+
 # Bearbeiten von Ausdrücken {#expression}
 
-Die Bearbeitung von Ausdrücken erfolgt durch die manuelle Eingabe von Bedingungen, die in ihrer Gesamtheit eine Regel bilden. Dieser Modus bietet erweiterte Funktionen, mit denen Sie die Werte zur Durchführung bestimmter Abfragen ändern können, z. B. Bearbeitung von Daten, Zeichenfolgen, Nummernfeldern, Sortierungen, usw.
+Die Bearbeitung von Ausdrücken erfolgt durch die manuelle Eingabe von Bedingungen, die in ihrer Gesamtheit eine Regel bilden. In diesem Modus können Sie erweiterte Funktionen verwenden, mit denen Sie die Werte bearbeiten können, die zur Durchführung bestimmter Abfragen verwendet werden, z. B. das Bearbeiten von Datumsangaben, Zeichenfolgen, numerischen Feldern und der Sortierung.
 
 >[!IMPORTANT]
 >
->Im folgenden Abschnitt finden Sie Informationen zum Erstellen von Regeln mit dem Ausdruckseditor. Beachten Sie, dass sich die zum Erstellen von Regeln verwendete Syntax von der für die Personalisierung verwendeten unterscheidet.
+>Im folgenden Abschnitt finden Sie Informationen zum Erstellen von Regeln mit dem Ausdruckseditor. Beachten Sie, dass sich die zum Erstellen von Regeln verwendete Syntax von der zum Hinzufügen der Personalisierung verwendeten unterscheidet.
 
 ## Arbeiten mit dem Ausdruckseditor {#edit}
 
 Der Ausdruckseditor steht bei der Konfiguration einer benutzerdefinierten Bedingung im Abfrage-Modeler unter **[!UICONTROL Ausdruck bearbeiten]** für die Felder **[!UICONTROL Attribut]** und **[!UICONTROL Wert]** zur Verfügung.
 
 | Zugriff über das Feld **Attribut** | Zugriff über das Feld **Wert** |
-|  ---  |  ---  |
-| ![](assets/expression-editor-attribute.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} | ![](assets/edit-expression.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
+| --- | --- |
+| ![Ausdruckseditor für Attributfeld](assets/expression-editor-attribute.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} | ![Ausdruckseditor für Wertefeld](assets/edit-expression.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
 
 Der Ausdruckseditor bietet Folgendes:
 
-* Ein **Eingabefeld (1)**, in dem der Ausdruck definiert wird.
-* Die Liste der verfügbaren **Felder (2)**, die im Ausdruck verwendet werden können und die der Zielgruppendimension der Abfrage entsprechen.
+* Ein **Eingabefeld (1)** in dem der Ausdruck definiert ist.
+* Eine Liste der verfügbaren **Felder (2**, die im Ausdruck verwendet werden können und der Zielgruppendimension der Abfrage entsprechen.
 * **Hilfsfunktionen (3)**, sortiert nach Kategorie.
 
 Bearbeiten Sie den Ausdruck, indem Sie ihn direkt in das Eingabefeld eingeben. Um ein Feld oder eine Hilfsfunktion hinzuzufügen, gehen Sie mit dem Cursor zu dem Ausdruck, zu dem Sie es/sie hinzufügen möchten, und klicken Sie auf die Schaltfläche „+“.
 
-![](assets/expression-editor.png){zoomable="yes"}
+![Benutzeroberfläche des Ausdruckseditors](assets/expression-editor.png){zoomable="yes"}
 
 Wenn Ihr Ausdruck fertig ist, klicken Sie auf **[!UICONTROL Bestätigen]**. Der Ausdruck wird im ausgewählten Feld angezeigt. Öffnen Sie zum Bearbeiten den Ausdruckseditor und nehmen Sie die gewünschten Änderungen vor.
 
-Das folgende Beispiel zeigt einen für das Feld **[!UICONTROL Wert]** konfigurierten Ausdruck. Um ihn zu bearbeiten, müssen Sie den Ausdruckseditor über die Schaltfläche **[!UICONTROL Ausdruck bearbeiten]** öffnen.
+Das folgende Beispiel zeigt einen für das Feld **[!UICONTROL Wert]** konfigurierten Ausdruck. Um ihn zu bearbeiten, öffnen Sie den Ausdruckseditor mithilfe der Schaltfläche **[!UICONTROL Ausdruck bearbeiten]**.
 
-![](assets/edit-expression-value.png){zoomable="yes"}
+![Beispiel für die Bearbeitung eines Ausdrucks für ein Wertfeld](assets/edit-expression-value.png){zoomable="yes"}
 
 ## Hilfsfunktionen
 
@@ -48,330 +49,326 @@ Der Abfrageeditor bietet fortgeschrittene Funktionen zur Erstellung komplexer Fi
 
 ### Aggregat
 
-Die Aggregatfunktionen dienen der Durchführung von Berechnungen zu einer Reihe von Werten.
+Aggregatfunktionen führen Berechnungen für einen Wertesatz durch.
 
-<table> 
- <tbody> 
-  <tr> 
-   <td> <strong>Name</strong><br /> </td> 
-   <td> <strong>Beschreibung</strong><br /> </td> 
-   <td> <strong>Syntax</strong><br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <strong>Avg</strong><br /> </td> 
-   <td> Gibt den Durchschnittswert einer Spalte vom Typ Zahl aus<br /> </td> 
-   <td> Avg(&lt;Wert&gt;)<br /></td> 
-  </tr> 
-  <tr> 
-   <td> <strong>Count</strong><br /> </td> 
-   <td> Zählt die Werte ungleich null einer Spalte<br /> </td> 
-   <td> Count(&lt;Wert&gt;)<br /></td>  
-  </tr> 
-  <tr> 
-   <td> <strong>CountAll</strong><br /> </td> 
-   <td> Zählt die ausgegebenen Werte (alle Felder)<br /> </td> 
-   <td> CountAll()<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <strong>Countdistinct</strong><br /> </td> 
-   <td> Zählt die unterschiedlichen Werte ungleich null einer Spalte<br /> </td> 
-   <td> Countdistinct(&lt;Wert&gt;)<br /></td> 
-  </tr> 
-  <tr> 
-   <td> <strong>Max</strong><br /> </td> 
-   <td> Gibt den Höchstwert einer Spalte vom Typ Zahl, String oder Datum aus<br /> </td> 
-   <td> Max(&lt;Wert&gt;)<br /></td>  
-  </tr> 
-  <tr> 
-   <td> <strong>Min</strong><br /> </td> 
-   <td> Gibt den Mindestwert einer Spalte vom Typ Zahl, String oder Datum aus<br /> </td> 
-   <td> Min(&lt;Wert&gt;)<br /></td> 
-  </tr> 
-  <tr> 
-   <td> <strong>StdDev</strong><br /> </td> 
-   <td> Gibt die Standardabweichung einer Zahl, Zeichenfolge oder Datumsspalte aus<br /> </td> 
-   <td> StdDev(&lt;Wert&gt;)<br /></td> 
-  </tr>
-  <tr> 
-   <td> <strong>StringAgg</strong><br /> </td> 
-   <td> Gibt die Verkettung der Werte einer Spalte vom Typ „String“ zurück, getrennt durch das Zeichen im zweiten Argument<br /> </td> 
-   <td> StringAgg(&lt;Wert&gt;, &lt;String&gt;)<br /></td> 
-  </tr> 
-  <tr> 
-   <td> <strong>Sum</strong><br /> </td> 
-   <td> Gibt die Summe der Werte einer Spalte vom Typ Zahl, String oder Datum aus<br /> </td> 
-   <td> Sum(&lt;Wert&gt;)<br /></td> 
-  </tr> 
- </tbody> 
+<table>
+<tbody>
+<tr>
+<td><strong>Name</strong></td>
+<td><strong>Beschreibung </strong></td>
+<td><strong>Syntax</strong></td>
+</tr>
+<tr>
+<td><strong>Avg</strong></td>
+<td>Gibt den Durchschnittswert einer Spalte vom Typ Zahl aus</td>
+<td>Avg(&lt;Wert&gt;)</td>
+</tr>
+<tr>
+<td><strong>Count</strong></td>
+<td>Zählt die Werte ungleich null einer Spalte</td>
+<td>Count(&lt;Wert&gt;)</td>
+</tr>
+<tr>
+<td><strong>CountAll</strong></td>
+<td>Zählt die ausgegebenen Werte (alle Felder)</td>
+<td>CountAll()</td>
+</tr>
+<tr>
+<td><strong>Countdistinct</strong></td>
+<td>Zählt die unterschiedlichen Werte ungleich null einer Spalte</td>
+<td>Countdistinct(&lt;Wert&gt;)</td>
+</tr>
+<tr>
+<td><strong>Max</strong></td>
+<td>Gibt den Höchstwert einer Spalte vom Typ Zahl, String oder Datum aus</td>
+<td>Max(&lt;Wert&gt;)</td>
+</tr>
+<tr>
+<td><strong>Min</strong></td>
+<td>Gibt den Mindestwert einer Spalte vom Typ Zahl, Zeichenfolge oder Datum zurück.</td>
+<td>Min(&lt;Wert&gt;)</td>
+</tr>
+<tr>
+<td><strong>StdDev</strong></td>
+<td>Gibt die Standardabweichung einer Zahl, Zeichenfolge oder Datumsspalte zurück.</td>
+<td>StdDev(&lt;Wert&gt;)</td>
+</tr>
+<tr>
+<td><strong>StringAgg</strong></td>
+<td>Gibt die Konkatenation der Werte einer Spalte vom String-Typ zurück, getrennt durch das Zeichen im zweiten Argument.</td>
+<td>StringAgg(&lt;Wert&gt;, &lt;String&gt;)</td>
+</tr>
+<tr>
+<td><strong>Sum</strong></td>
+<td>Gibt die Summe der Werte einer Spalte vom Typ Zahl, String oder Datum aus</td>
+<td>Sum(&lt;Wert&gt;)</td>
+</tr>
+</tbody>
 </table>
 
 ### Datum
 
-Die Datumsfunktionen dienen der Manipulation von Datums- oder Uhrzeitwerten.
+Datumsfunktionen bearbeiten Datums- oder Zeitwerte.
 
-<table> 
- <tbody> 
-  <tr> 
-   <td> <strong>Name</strong><br /> </td> 
-   <td> <strong>Beschreibung</strong><br /> </td> 
-   <td> <strong>Syntax</strong><br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <strong>AddDays</strong><br /> </td> 
-   <td> Fügt dem Datum eine Anzahl an Tagen hinzu<br /> </td> 
-   <td> AddDays(&lt;Datum&gt;, &lt;Zahl&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>AddHours</strong><br /> </td> 
-   <td> Fügt dem Datum eine Anzahl an Stunden hinzu<br /> </td> 
-   <td> AddHours(&lt;Datum&gt;, &lt;Zahl&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>AddMinutes</strong><br /> </td> 
-   <td> Fügt dem Datum eine Anzahl an Minuten hinzu<br /> </td> 
-   <td> AddMinutes(&lt;Datum&gt;, &lt;Zahl&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>AddMonths</strong><br /> </td> 
-   <td> Fügt dem Datum eine Anzahl an Monaten hinzu<br /> </td> 
-   <td> AddMonths(&lt;Datum&gt;, &lt;Zahl&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>AddSeconds</strong><br /> </td> 
-   <td> Fügt dem Datum eine Anzahl an Sekunden hinzu<br /> </td> 
-   <td> AddSeconds(&lt;Datum&gt;, &lt;Zahl&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>AddYears</strong><br /> </td> 
-   <td> Fügt dem Datum eine Anzahl an Jahren hinzu<br /> </td> 
-   <td> AddYears(&lt;Datum&gt;, &lt;Zahl&gt;)<br /> </td>  
-  </tr>
-  <tr> 
-   <td> <strong>ConvertNTZ</strong><br /> </td> 
-   <td> Konvertiert NTZ-Zeitstempel (Zeitstempel ohne Zeitzone) in TZ (Zeitstempel mit Zeitzone) unter Anwendung der definierten Sitzungs-Zeitzone<br/> </td> 
-   <td> ConvertNTZ (&lt;date+time&gt;)<br /> </td>  
-  </tr>
-  <tr> 
-   <!--<td> <strong>ConvertTimezone</strong><br /> </td> 
-   <td> <br/> </td> 
-   <td> ConvertNTZ (&lt;date+time&gt;)<br /> </td>  
-  </tr>-->
-  <tr> 
-   <td> <strong>DateCmp</strong><br /> </td> 
-   <td> Vergleicht zwei Daten<br/> </td> 
-   <td> DateCmp(&lt;Datum&gt;,&lt;Datum&gt;)<br /> </td>  
-  </tr>
-  <tr> 
-   <td> <strong>DateOnly</strong><br /> </td> 
-   <td> Gibt nur das Datum aus (mit Uhrzeit = 00:00 Uhr)*<br /> </td> 
-   <td> DateOnly(&lt;Datum&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>Day</strong><br /> </td> 
-   <td> Gibt die Zahl aus, die dem Tag des Datums entspricht<br /> </td> 
-   <td> Day(&lt;Datum&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>DayOfYear</strong><br /> </td> 
-   <td> Gibt die Zahl des Tages im Jahr des angegebenen Datums aus<br /> </td> 
-   <td> DayOfYear(&lt;Datum&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>DaysAgo</strong><br /> </td> 
-   <td> Gibt das Datum aus, das dem aktuellen Datum abzüglich n Tage entspricht<br /> </td> 
-   <td> DaysAgo(&lt;Zahl&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>DaysAgoInt</strong><br /> </td> 
-   <td> Gibt das Datum (Integer JJJJMMTT) aus, das dem aktuellen Datum abzüglich n Tage entspricht<br /> </td> 
-   <td> DaysAgoInt(&lt;Zahl&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>DaysDiff</strong><br /> </td> 
-   <td> Anzahl von Tagen zwischen zwei Daten<br /> </td> 
-   <td> DaysDiff(&lt;Enddatum&gt;, &lt;Startdatum&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>DaysOld</strong><br /> </td> 
-   <td> Gibt das Alter in Tagen in Bezug auf ein Datum aus<br /> </td> 
-   <td> DaysOld(&lt;Datum&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>GetDate</strong><br /> </td> 
-   <td> Gibt das aktuelle Systemdatum des Servers aus<br /> </td> 
-   <td> GetDate()<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <strong>Hour</strong><br /> </td> 
-   <td> Gibt die Stunde der im Datum angegebenen Uhrzeit aus<br /> </td> 
-   <td> Hour(&lt;Datum&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>HoursDiff</strong><br /> </td> 
-   <td> Gibt die Anzahl von Stunden zwischen zwei Daten aus<br /> </td> 
-   <td> HoursDiff(&lt;Enddatum&gt;, &lt;Startdatum&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>Minute</strong><br /> </td> 
-   <td> Gibt die Minuten der im Datum angegebenen Uhrzeit aus<br /> </td> 
-   <td> Minute(&lt;Datum&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>MinutesDiff</strong><br /> </td> 
-   <td> Gibt die Anzahl von Minuten zwischen zwei Daten aus<br /> </td> 
-   <td> MinutesDiff(&lt;Enddatum&gt;, &lt;Startdatum&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>Month</strong><br /> </td> 
-   <td> Gibt die Zahl aus, die dem Monat des Datums entspricht<br /> </td> 
-   <td> Month(&lt;Datum&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>MonthsAgo</strong><br /> </td> 
-   <td> Gibt das Datum aus, das dem aktuellen Datum abzüglich n Monate entspricht<br /> </td> 
-   <td> MonthsAgo(&lt;Zahl&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>MonthsDiff</strong><br /> </td> 
-   <td> Gibt die Anzahl von Monaten zwischen zwei Daten aus<br /> </td> 
-   <td> MonthsDiff(&lt;Enddatum&gt;, &lt;Startdatum&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>MonthsOld</strong><br /> </td> 
-   <td> Gibt das Alter in Monaten in Bezug auf ein Datum aus<br /> </td> 
-   <td> MonthsOld(&lt;Datum&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>Oldest</strong><br /> </td> 
-   <td> Gibt das älteste Datum in einem Bereich zurück<br /> </td> 
-   <td> Oldest(&lt;Datum, Datum&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>Second</strong><br /> </td> 
-   <td> Gibt die Sekunden der im Datum angegebenen Uhrzeit aus<br /> </td> 
-   <td> Second(&lt;Datum&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>SecondsDiff</strong><br /> </td> 
-   <td> Gibt die Anzahl von Sekunden zwischen zwei Daten aus<br /> </td> 
-   <td> SecondsDiff(&lt;Enddatum&gt;, &lt;Startdatum&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>SubDays</strong><br /> </td> 
-   <td> Zieht die angegebene Anzahl von Tagen vom Datum ab<br /> </td> 
-   <td> SubDays(&lt;Datum&gt;, &lt;Zahl&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>SubHours</strong><br /> </td> 
-   <td> Zieht die angegebene Anzahl von Stunden vom Datum ab<br /> </td> 
-   <td> SubHours(&lt;Datum&gt;, &lt;Zahl&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>SubMinutes</strong><br /> </td> 
-   <td> Zieht die angegebene Anzahl von Minuten vom Datum ab<br /> </td> 
-   <td> SubMinutes(&lt;Datum&gt;, &lt;Zahl&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>SubMonths</strong><br /> </td> 
-   <td> Zieht die angegebene Anzahl von Monaten vom Datum ab<br /> </td> 
-   <td> SubMonths(&lt;Datum&gt;, &lt;Zahl&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>SubSeconds</strong><br /> </td> 
-   <td> Zieht die angegebene Anzahl von Sekunden vom Datum ab<br /> </td> 
-   <td> SubSeconds(&lt;Datum&gt;, &lt;Zahl&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>SubYears</strong><br /> </td> 
-   <td> Zieht die angegebene Anzahl von Jahren vom Datum ab<br /> </td> 
-   <td> SubYears(&lt;Datum&gt;, &lt;Zahl&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>ToDate</strong><br /> </td> 
-   <td> Konvertiert eine Angabe Datum+Uhrzeit in Datum alleine<br /> </td> 
-   <td> ToDate(&lt;Datum + Uhrzeit&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>ToDateTime</strong><br /> </td> 
-   <td> Konvertiert einen String in Datum+Uhrzeit<br /> </td> 
-   <td> ToDateTime(&lt;String&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>ToTimestamp</strong><br /> </td> 
-   <td> Konvertiert einen String in einen Zeitstempel<br /> </td> 
-   <td> ToTimestamp(&lt;String&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>ToTimeZone</strong><br /> </td> 
-   <td> Konvertiert Datum + Uhrzeit in eine Zeitzone<br /> </td> 
-   <td> ToTimeZone(&lt;Datum&gt;,&lt;time zone&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>TruncDate</strong><br /> </td> 
-   <td> Kürzt die Angabe Datum+Uhrzeit auf Sekunden<br /> </td> 
-   <td> TruncDate(@lastModified, &lt;Anzahl Sekunden&gt;)<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <strong>TruncDateTZ</strong><br /> </td> 
-   <td> Kürzt die Angabe Datum+Uhrzeit auf Sekunden<br /> </td> 
-   <td> TruncDateTZ(&lt;Datum&gt;, &lt;Anzahl Sekunden&gt;, &lt;Zeitzone&gt;)<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <strong>TruncQuarter</strong><br /> </td> 
-   <td> Kürzt die Angabe des Datums auf den ersten Tag des Quartals<br /> </td> 
-   <td> TruncQuarter(&lt;Datum&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>TruncTime</strong><br /> </td> 
-   <td> Kürzt die Uhrzeitangabe auf Sekunden<br /> </td> 
-   <td> TruncTime(&lt;Datum&gt;, &lt;Anzahl Sekunden&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>TruncWeek</strong><br /> </td> 
-   <td> Kürzt ein Datum auf die Woche<br /> </td> 
-   <td> TruncWeek(&lt;Datum&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>TruncYear</strong><br /> </td> 
-   <td> Kürzt die Angabe Datum+Uhrzeit auf den ersten Januar des Jahres<br /> </td> 
-   <td> TruncYear(&lt;Datum&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>WeekDay</strong><br /> </td> 
-   <td> Gibt die Zahl des Wochentages in Bezug auf das Datum aus (0=Montag, 6=Sonntag)<br /> </td> 
-   <td> WeekDay(&lt;Datum&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>Year</strong><br /> </td> 
-   <td> Gibt die Zahl aus, die dem Jahr des Datums entspricht<br /> </td> 
-   <td> Year(&lt;Datum&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>YearAndMonth</strong><br /> </td> 
-   <td> Gibt Jahr und Monat eines Datums aus<br /> </td> 
-   <td> YearAndMonth(&lt;Datum&gt;)<br /> </td>  
-  </tr>
-  <tr> 
-   <td> <strong>YearsAgo</strong><br /> </td> 
-   <td> Gibt die Anzahl von Jahren zwischen einem bestimmten Datum und dem aktuellen Datum wieder<br /> </td> 
-   <td> YearsAgo(&lt;date&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>YearsDiff</strong><br /> </td> 
-   <td> Gibt die Anzahl von Jahren zwischen zwei Daten aus<br /> </td> 
-   <td> YearsDiff(&lt;Enddatum&gt;, &lt;Startdatum&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>YearsOld</strong><br /> </td> 
-   <td> Gibt das Alter in Jahren in Bezug auf ein Datum aus<br /> </td> 
-   <td> YearsOld(&lt;Datum&gt;)<br /> </td>  
-  </tr> 
- </tbody> 
+<table>
+<tbody>
+<tr>
+<td><strong>Name</strong></td>
+<td><strong>Beschreibung </strong></td>
+<td><strong>Syntax</strong></td>
+</tr>
+<tr>
+<td><strong>AddDays</strong></td>
+<td>Fügt dem Datum eine Anzahl an Tagen hinzu</td>
+<td>AddDays(&lt;Datum&gt;, &lt;Zahl&gt;)</td>
+</tr>
+<tr>
+<td><strong>AddHours</strong></td>
+<td>Fügt dem Datum eine Anzahl an Stunden hinzu</td>
+<td>AddHours(&lt;Datum&gt;, &lt;Zahl&gt;)</td>
+</tr>
+<tr>
+<td><strong>AddMinutes</strong></td>
+<td>Fügt dem Datum eine Anzahl an Minuten hinzu</td>
+<td>AddMinutes(&lt;Datum&gt;, &lt;Zahl&gt;)</td>
+</tr>
+<tr>
+<td><strong>AddMonths</strong></td>
+<td>Fügt dem Datum eine Anzahl an Monaten hinzu</td>
+<td>AddMonths(&lt;Datum&gt;, &lt;Zahl&gt;)</td>
+</tr>
+<tr>
+<td><strong>AddSeconds</strong></td>
+<td>Fügt dem Datum eine Anzahl an Sekunden hinzu</td>
+<td>AddSeconds(&lt;Datum&gt;, &lt;Zahl&gt;)</td>
+</tr>
+<tr>
+<td><strong>AddYears</strong></td>
+<td>Fügt dem Datum eine Anzahl an Jahren hinzu</td>
+<td>AddYears(&lt;Datum&gt;, &lt;Zahl&gt;)</td>
+</tr>
+<tr>
+<td><strong>ConvertNTZ</strong></td>
+<td>Konvertiert Zeitstempel NTZ (Zeitstempel ohne Zeitzone) in TZ (Zeitstempel mit Zeitzone) unter Anwendung der definierten Sitzungs-TZ</td>
+<td>ConvertNTZ(&lt;date+time&gt;)</td>
+</tr>
+<tr>
+<td><strong>DateCmp</strong></td>
+<td>Vergleicht zwei Daten</td>
+<td>DateCmp(&lt;date&gt;, &lt;date&gt;)</td>
+</tr>
+<tr>
+<td><strong>DateOnly</strong></td>
+<td>Gibt nur das Datum aus (mit Uhrzeit = 00:00 Uhr)</td>
+<td>DateOnly(&lt;Datum&gt;)</td>
+</tr>
+<tr>
+<td><strong>Tag</strong></td>
+<td>Gibt die Zahl aus, die dem Tag des Datums entspricht</td>
+<td>Day(&lt;Datum&gt;)</td>
+</tr>
+<tr>
+<td><strong>DayOfYear</strong></td>
+<td>Gibt die Zahl des Tages im Jahr des angegebenen Datums aus</td>
+<td>DayOfYear(&lt;Datum&gt;)</td>
+</tr>
+<tr>
+<td><strong>DaysAgo</strong></td>
+<td>Gibt das Datum aus, das dem aktuellen Datum abzüglich n Tage entspricht</td>
+<td>DaysAgo(&lt;Zahl&gt;)</td>
+</tr>
+<tr>
+<td><strong>DaysAgoInt</strong></td>
+<td>Gibt das Datum (Integer JJJJMMTT) aus, das dem aktuellen Datum abzüglich n Tage entspricht</td>
+<td>DaysAgoInt(&lt;Zahl&gt;)</td>
+</tr>
+<tr>
+<td><strong>DaysDiff</strong></td>
+<td>Gibt die Anzahl von Tagen zwischen zwei Datumsangaben zurück.</td>
+<td>DaysDiff(&lt;Enddatum&gt;, &lt;Startdatum&gt;)</td>
+</tr>
+<tr>
+<td><strong>DaysOld</strong></td>
+<td>Gibt das Alter in Tagen in Bezug auf ein Datum aus</td>
+<td>DaysOld(&lt;Datum&gt;)</td>
+</tr>
+<tr>
+<td><strong>GetDate</strong></td>
+<td>Gibt das aktuelle Systemdatum des Servers aus</td>
+<td>GetDate()</td>
+</tr>
+<tr>
+<td><strong>Stunde</strong></td>
+<td>Gibt die Stunde der im Datum angegebenen Uhrzeit aus</td>
+<td>Hour(&lt;Datum&gt;)</td>
+</tr>
+<tr>
+<td><strong>HoursDiff</strong></td>
+<td>Gibt die Anzahl von Stunden zwischen zwei Daten aus</td>
+<td>HoursDiff(&lt;Enddatum&gt;, &lt;Startdatum&gt;)</td>
+</tr>
+<tr>
+<td><strong>Minute</strong></td>
+<td>Gibt die Minuten der im Datum angegebenen Uhrzeit aus</td>
+<td>Minute(&lt;Datum&gt;)</td>
+</tr>
+<tr>
+<td><strong>MinutesDiff</strong></td>
+<td>Gibt die Anzahl von Minuten zwischen zwei Daten aus</td>
+<td>MinutesDiff(&lt;Enddatum&gt;, &lt;Startdatum&gt;)</td>
+</tr>
+<tr>
+<td><strong>Monat</strong></td>
+<td>Gibt die Zahl aus, die dem Monat des Datums entspricht</td>
+<td>Month(&lt;Datum&gt;)</td>
+</tr>
+<tr>
+<td><strong>MonthsAgo</strong></td>
+<td>Gibt das Datum aus, das dem aktuellen Datum abzüglich n Monate entspricht</td>
+<td>MonthsAgo(&lt;Zahl&gt;)</td>
+</tr>
+<tr>
+<td><strong>MonthsDiff</strong></td>
+<td>Gibt die Anzahl von Monaten zwischen zwei Daten aus</td>
+<td>MonthsDiff(&lt;Enddatum&gt;, &lt;Startdatum&gt;)</td>
+</tr>
+<tr>
+<td><strong>MonthsOld</strong></td>
+<td>Gibt das Alter in Monaten in Bezug auf ein Datum aus</td>
+<td>MonthsOld(&lt;Datum&gt;)</td>
+</tr>
+<tr>
+<td><strong>Älteste</strong></td>
+<td>Gibt das älteste Datum in einem Bereich zurück.</td>
+<td>Oldest(&lt;date, date&gt;)</td>
+</tr>
+<tr>
+<td><strong>Second</strong></td>
+<td>Gibt die Sekunden der im Datum angegebenen Uhrzeit aus</td>
+<td>Second(&lt;Datum&gt;)</td>
+</tr>
+<tr>
+<td><strong>SecondsDiff</strong></td>
+<td>Gibt die Anzahl von Sekunden zwischen zwei Daten aus</td>
+<td>SecondsDiff(&lt;Enddatum&gt;, &lt;Startdatum&gt;)</td>
+</tr>
+<tr>
+<td><strong>SubDays</strong></td>
+<td>Zieht die angegebene Anzahl von Tagen vom Datum ab</td>
+<td>SubDays(&lt;Datum&gt;, &lt;Zahl&gt;)</td>
+</tr>
+<tr>
+<td><strong>SubHours</strong></td>
+<td>Zieht die angegebene Anzahl von Stunden vom Datum ab</td>
+<td>SubHours(&lt;Datum&gt;, &lt;Zahl&gt;)</td>
+</tr>
+<tr>
+<td><strong>SubMinutes</strong></td>
+<td>Zieht die angegebene Anzahl von Minuten vom Datum ab</td>
+<td>SubMinutes(&lt;Datum&gt;, &lt;Zahl&gt;)</td>
+</tr>
+<tr>
+<td><strong>SubMonths</strong></td>
+<td>Zieht die angegebene Anzahl von Monaten vom Datum ab</td>
+<td>SubMonths(&lt;Datum&gt;, &lt;Zahl&gt;)</td>
+</tr>
+<tr>
+<td><strong>SubSeconds</strong></td>
+<td>Zieht die angegebene Anzahl von Sekunden vom Datum ab</td>
+<td>SubSeconds(&lt;Datum&gt;, &lt;Zahl&gt;)</td>
+</tr>
+<tr>
+<td><strong>SubYears</strong></td>
+<td>Zieht die angegebene Anzahl von Jahren vom Datum ab</td>
+<td>SubYears(&lt;Datum&gt;, &lt;Zahl&gt;)</td>
+</tr>
+<tr>
+<td><strong>ToDate</strong></td>
+<td>Konvertiert eine Angabe Datum+Uhrzeit in Datum alleine</td>
+<td>ToDate(&lt;Datum + Uhrzeit&gt;)</td>
+</tr>
+<tr>
+<td><strong>ToDateTime</strong></td>
+<td>Konvertiert einen String in Datum+Uhrzeit</td>
+<td>ToDateTime(&lt;String&gt;)</td>
+</tr>
+<tr>
+<td><strong>ToTimestamp</strong></td>
+<td>Konvertiert eine Zeichenfolge in einen Zeitstempel</td>
+<td>ToTimestamp(&lt;string&gt;)</td>
+</tr>
+<tr>
+<td><strong>ToTimeZone</strong></td>
+<td>Konvertiert ein Datum + eine Uhrzeit in eine Zeitzone.</td>
+<td>ToTimeZone(&lt;date&gt;, &lt;time zone&gt;)</td>
+</tr>
+<tr>
+<td><strong>TruncDate</strong></td>
+<td>Rundet ein Datum + eine Uhrzeit auf die nächste Sekunde</td>
+<td>TruncDate(@lastModified, &lt;Anzahl Sekunden&gt;)</td>
+</tr>
+<tr>
+<td><strong>TruncDateTZ</strong></td>
+<td>Kürzt die Angabe Datum+Uhrzeit auf Sekunden</td>
+<td>TruncDateTZ(&lt;Datum&gt;, &lt;Anzahl Sekunden&gt;, &lt;Zeitzone&gt;)</td>
+</tr>
+<tr>
+<td><strong>TruncQuarter</strong></td>
+<td>Kürzt die Angabe des Datums auf den ersten Tag des Quartals</td>
+<td>TruncQuarter(&lt;Datum&gt;)</td>
+</tr>
+<tr>
+<td><strong>TruncTime</strong></td>
+<td>Kürzt die Uhrzeitangabe auf Sekunden</td>
+<td>TruncTime(&lt;Datum&gt;, &lt;Anzahl Sekunden&gt;)</td>
+</tr>
+<tr>
+<td><strong>WeekDay</strong></td>
+<td>Kürzt ein Datum auf die Woche</td>
+<td>TruncWeek(&lt;Datum&gt;)</td>
+</tr>
+<tr>
+<td><strong>TruncYear</strong></td>
+<td>Kürzt die Angabe Datum+Uhrzeit auf den ersten Januar des Jahres</td>
+<td>TruncYear(&lt;Datum&gt;)</td>
+</tr>
+<tr>
+<td><strong>Wochentag</strong></td>
+<td>Gibt die Zahl des Wochentages in Bezug auf das Datum aus (0=Montag, 6=Sonntag).</td>
+<td>WeekDay(&lt;Datum&gt;)</td>
+</tr>
+<tr>
+<td><strong>Jahr</strong></td>
+<td>Gibt die Zahl aus, die dem Jahr des Datums entspricht</td>
+<td>Year(&lt;Datum&gt;)</td>
+</tr>
+<tr>
+<td><strong>Jahr und Monat</strong></td>
+<td>Gibt Jahr und Monat eines Datums aus</td>
+<td>YearAndMonth(&lt;Datum&gt;)</td>
+</tr>
+<tr>
+<td><strong>vor Jahren</strong></td>
+<td>Gibt die Anzahl der Jahre zwischen einem bestimmten Datum und dem aktuellen Datum zurück.</td>
+<td>Vor Jahren(&lt;date&gt;)</td>
+</tr>
+<tr>
+<td><strong>YearsDiff</strong></td>
+<td>Gibt die Anzahl der Jahre zwischen zwei Datumsangaben zurück.</td>
+<td>YearsDiff(&lt;Enddatum&gt;, &lt;Startdatum&gt;)</td>
+</tr>
+<tr>
+<td><strong>YearsOld</strong></td>
+<td>Gibt das Alter in Jahren in Bezug auf ein Datum aus</td>
+<td>YearsOld(&lt;Datum&gt;)</td>
+</tr>
+</tbody>
 </table>
 
 >[!NOTE]
 >
->Beachten Sie, dass die Funktion **Dateonly** nicht die Zeitzone des Benutzers, sondern des Servers verwendet.
+>Beachten Sie, **die Funktion** dateOnly) die Zeitzone des Servers berücksichtigt, nicht die des Operators.
+
 
 ### Geomarketing
 

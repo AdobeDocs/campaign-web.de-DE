@@ -4,23 +4,23 @@ title: Audit-Protokoll
 description: Erfahren Sie, wie Sie Ihre Instanz mit dem Audit-Protokoll von Campaign überwachen.
 feature: Audit Trail, Monitoring, Workflows
 exl-id: f4b4a33f-8250-4f4e-b2dc-129c56f9ea0f
-source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
-workflow-type: ht
-source-wordcount: '581'
-ht-degree: 100%
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+workflow-type: tm+mt
+source-wordcount: '595'
+ht-degree: 51%
 
 ---
 
-# Audit-Protokoll{#audit-trail}
+# Audit-Protokoll {#audit-trail}
 
-In der Adobe Campaign Web-Benutzeroberfläche bietet die Funktion **[!UICONTROL Audit-Protokoll]** Benutzerinnen und Benutzern vollständige Einsicht in alle Änderungen, die an wichtigen Entitäten in Ihrer Instanz vorgenommen wurden. Dies sind typischerweise Änderungen, die den reibungslosen Betrieb der Instanz wesentlich beeinflussen.
+In der Web-Benutzeroberfläche von Adobe Campaign bietet die Funktion **[!UICONTROL Audit-Protokoll]** Benutzern vollständige Einblicke in alle Änderungen, die an wichtigen Entitäten in Ihrer Instanz vorgenommen wurden. Dies betrifft in der Regel diejenigen Änderungen, die den reibungslosen Betrieb der Instanz erheblich beeinträchtigen.
 
 >[!IMPORTANT]
 >
->* Die Adobe Campaign Web-Benutzeroberfläche prüft keine Änderungen an Benutzerrechten, Vorlagen, Personalisierungen oder Kampagnen.
->* Das Audit-Protokoll kann nur von Admins der Instanz verwaltet werden.
+>* Die Web-Benutzeroberfläche von Adobe Campaign überwacht keine Änderungen, die in Benutzerrechten, Vorlagen, Personalisierung oder Kampagnen vorgenommen wurden.
+>* Nur Administratoren der Instanz können das Audit-Protokoll verwalten.
 
-Die Funktion **[!UICONTROL Audit-Protokoll]** zeichnet im Rahmen eines detaillierten Protokolls ständig und in Echtzeit die Aktionen und Ereignisse auf, die in der Adobe Campaign-Instanz stattfinden. Dies bietet eine einfache Methode, um auf einen chronologischen Dateneintrag mit Abfragen zuzugreifen, wie zum Status von Workflows, den Personen, die diese geändert haben oder den Aktivitäten, die von Benutzerinnen und Benutzern innerhalb der Instanz ausgeführt wurden.
+Die **[!UICONTROL Audit-Protokoll]**-Funktion zeichnet kontinuierlich und in Echtzeit ein detailliertes Protokoll der Aktionen und Ereignisse auf, die innerhalb der Adobe Campaign-Instanz stattfinden. Sie bietet eine praktische Methode für den Zugriff auf einen chronologischen Datensatz mit Daten und adressiert Abfragen wie den Status von Workflows, die neuesten Personen, die sie ändern möchten, oder die Aktivitäten, die von Benutzern innerhalb der Instanz ausgeführt werden.
 
 +++ Weitere Informationen über die verfügbaren Entitäten im Audit-Protokoll
 
@@ -34,9 +34,9 @@ Die Funktion **[!UICONTROL Audit-Protokoll]** zeichnet im Rahmen eines detaillie
    * Aussetzen
    * Stoppen
    * Neu starten
-   * Bereinigen, was der Aktion „Verlauf bereinigen“ entspricht
-   * Simulieren, was der Aktion „Starten“ im Simulationsmodus entspricht
-   * Wecken, was der Aktion „Vorgezogene Ausführung der ausstehenden Aufgaben“ entspricht
+   * Bereinigung, die der Aktion „Verlauf bereinigen“ entspricht
+   * Simulieren, was der Aktion „Im Simulationsmodus starten“ entspricht
+   * Wakeup entspricht der Aktion „Ausstehende Aufgaben jetzt ausführen“.
    * Unbedingter Stopp
 
   Weiterführende Informationen zu Workflows finden Sie auf [dieser Seite](../workflows/gs-workflows.md).
@@ -51,15 +51,15 @@ Die Funktion **[!UICONTROL Audit-Protokoll]** zeichnet im Rahmen eines detaillie
 
 * **Externes Konto** ermöglicht Ihnen die Überprüfung von Änderungen an externen Konten in Campaign v8, die von technischen Prozessen wie technischen Workflows oder Kampagnen-Workflows verwendet werden.
 
-  Weiterführende Informationen zu „Externes Konto“ finden Sie auf [dieser Seite](../administration/external-account.md).
+  Weiterführende Informationen zu externen Konten finden Sie auf dieser [Seite](../administration/external-account.md).
 
 * **Versand-Mapping** ermöglicht es Ihnen, Aktivitäten und kürzlich an Ihrer Versand-Zuordnung vorgenommene Änderungen in Campaign v8 zu überwachen.
 
   Weiterführende Informationen zu „Versand-Mapping“ finden Sie auf [dieser Seite](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/audience/add-profiles/target-mappings).
 
-* **Web-Anwendung** ermöglicht Ihnen das Überprüfen von Änderungen an Web-Formularen in Campaign V8, die zum Erstellen von Seiten mit Eingabe- und Auswahlfeldern verwendet werden und die Daten aus der Datenbank enthalten können.
+* **Web-Anwendung** ermöglicht es Ihnen, Änderungen an Web-Formularen in Campaign v8 zu überprüfen, die zum Erstellen von Seiten mit Eingabe- und Auswahlfeldern verwendet werden und Daten aus der Datenbank enthalten können.
 
-  Weiterführende Informationen zu „Web-Anwendung“ finden Sie auf [dieser Seite](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/content/webapps).
+  Weitere Informationen zu Web-Anwendungen finden Sie auf dieser [Seite](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/content/webapps).
 
 * **Angebot** ermöglicht es Ihnen, die Aktivitäten und letzten Änderungen an Ihren Angeboten zu überprüfen.
 
@@ -77,20 +77,20 @@ So greifen auf das **[!UICONTROL Audit-Protokoll]** Ihrer Instanz zu:
 
 1. Wählen Sie im Menü **[!UICONTROL Administration]** die Option **[!UICONTROL Audit-Protokoll]** aus.
 
-   ![](assets/audit-trail-1.png)
+   ![Screenshot mit dem Menü Administration mit ausgewählter Option „Audit-Protokoll“](assets/audit-trail-1.png)
 
-1. Das Fenster **[!UICONTROL Audit-Protokoll]** wird mit der Liste Ihrer Entitäten geöffnet. Die Adobe Campaign Web-Benutzeroberfläche protokolliert die Aktionen zum Erstellen, Bearbeiten und Löschen von Workflows, Optionen, Sendungen oder Schemata.
+1. Das Fenster **[!UICONTROL Audit-Protokoll]** wird mit der Liste Ihrer Entitäten geöffnet. Die Web-Benutzeroberfläche von Adobe Campaign prüft die Aktionen zum Erstellen, Bearbeiten und Löschen von Workflows, Optionen, Sendungen und Schemata.
 
    Wählen Sie eine der Entitäten aus, um mehr über die letzten Änderungen zu erfahren.
 
-1. Im Fenster **[!UICONTROL Audit-Entität]** erhalten Sie detailliertere Informationen zu der ausgewählten Entität, z. B.:
+1. Das Fenster **[!UICONTROL Audit-]**&quot; enthält detaillierte Informationen zur ausgewählten Entität, z. B.:
 
-   * **[!UICONTROL Typ]**: Workflow, Optionen, Sendungen oder Schemata.
+   * **[!UICONTROL type]**: Workflow, Optionen, Sendungen oder Schemata.
    * **[!UICONTROL Entität]**: Interner Name Ihrer Aktivitäten.
    * **[!UICONTROL Geändert von]**: Benutzername der Person, die diese Entität zuletzt geändert hat.
-   * **[!UICONTROL Aktion]**: Letzte Aktion, die für diese Entität ausgeführt wurde, entweder „Erstellt“, „Geändert“ oder „Gelöscht“.
+   * **[!UICONTROL Action]**: Letzte Aktion, die an dieser Entität ausgeführt wurde, entweder erstellt, geändert oder gelöscht.
    * **[!UICONTROL Änderungsdatum]**: Datum der letzten Aktion, die an dieser Entität durchgeführt wurde.
 
-   Der Codeblock gibt Ihnen weitere Informationen darüber, was genau in Ihrer Entität geändert wurde.
+   Der Code-Block enthält weitere Informationen darüber, was in Ihrer Entität genau geändert wurde.
 
-   ![](assets/audit-trail-2.png)
+   ![Screenshot mit dem Fenster „Audit-Entität“ mit detaillierten Informationen zu Änderungen](assets/audit-trail-2.png)

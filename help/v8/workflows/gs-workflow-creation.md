@@ -3,52 +3,50 @@ audience: end-user
 title: Grundlegende Prinzipien der Workflow-Erstellung
 description: Lernen Sie die wichtigsten Prinzipien von Workflows mit Adobe Campaign Web kennen
 exl-id: ac6e63fb-34f2-474f-b364-d2af44f649b1
-source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
+source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
 workflow-type: tm+mt
-source-wordcount: '279'
-ht-degree: 100%
+source-wordcount: '300'
+ht-degree: 41%
 
 ---
 
-
 # Grundlegende Prinzipien der Workflow-Erstellung {#gs-workflow-creation}
 
-Mit Adobe Campaign Web können Sie Workflows in einer visuellen Arbeitsfläche erstellen, um kanalübergreifende Prozesse wie Segmentierung, Kampagnenausführung und Dateiverarbeitung zu entwerfen.
+Mit Adobe Campaign Web können Sie Workflows auf einer visuellen Arbeitsfläche erstellen, um kanalübergreifende Prozesse wie Segmentierung, Kampagnenausführung und Dateiverarbeitung zu entwerfen.
 
 ## Was befindet sich in einem Workflow? {#gs-workflow-inside}
 
-Das Workflow-Diagramm zeigt, was passieren soll. Es beschreibt die verschiedenen Aufgaben, die ausgeführt und miteinander verknüpft werden sollen.
+Das Workflow-Diagramm stellt den geplanten Prozess dar. Es beschreibt die verschiedenen Aufgaben, die ausgeführt und miteinander verknüpft werden sollen.
 
-![](assets/workflow-example.png){zoomable="yes"} {zoomable="yes"}
+![Workflow-Beispieldiagramm, das Aufgaben und ihre Verbindungen zeigt](assets/workflow-example.png){zoomable="yes"}
 
 Jeder Workflow besteht aus:
 
-* **Aktivitäten**: Eine Aktivität ist eine Aufgabe, die ausgeführt werden soll. Die verschiedenen verfügbaren Aktivitäten werden im Diagramm durch Symbole dargestellt. Jede Aktivität verfügt über bestimmte Eigenschaften sowie andere Eigenschaften, die für alle Aktivitäten gelten.
+* **Aktivitäten**: Eine Aktivität ist eine Aufgabe, die ausgeführt werden soll. Die Symbole auf dem Diagramm stellen die verschiedenen Aktivitäten dar. Jede Aktivität verfügt über bestimmte Eigenschaften und Eigenschaften, die für alle Aktivitäten gelten.
 
-  In einem Workflow-Diagramm kann eine einzelne Aktivität verschiedene Aufgaben auslösen. Dies ist insbesondere der Fall bei Schleifen oder wiederkehrenden Aktionen.
+  In einem Workflow-Diagramm kann eine bestimmte Aktivität mehrere Aufgaben auslösen, insbesondere bei Schleifen oder wiederkehrenden Aktionen.
 
 * **Transitionen**: Transitionen verknüpfen eine Quellaktivität mit einer Zielaktivität und definieren deren Sequenz.
 
-* **Arbeitstabellen**: Die Arbeitstabelle enthält alle von der Transition übermittelten Informationen. Jeder Workflow verwendet mehrere Arbeitstabellen. Die in diesen Tabellen übermittelten Daten können während des gesamten Lebenszyklus des Workflows verwendet werden.
+* **Arbeitstabellen**: Die Arbeitstabelle enthält alle von der Transition übermittelten Informationen. Jeder Workflow verwendet mehrere Arbeitstabellen. Die Daten in diesen Tabellen können während des gesamten Lebenszyklus des Workflows verwendet werden.
 
 ## Wichtige Schritte zum Erstellen eines Workflows {#gs-workflow-steps}
 
-
 Campaign bietet zwei Möglichkeiten, einen Workflow zu erstellen:
 
-1. Workflows können als eigenständige Workflows über das Menü **Workflows** erstellt werden.
+1. Workflows können über das Menü **Workflows“ als eigenständige Workflows** werden.
 
-   ![](assets/create-a-standalone-wf.png){zoomable="yes"}
+   ![Screenshot der Benutzeroberfläche zum Erstellen eines eigenständigen Workflows](assets/create-a-standalone-wf.png){zoomable="yes"}
 
-1. Workflows können direkt in einer Kampagne erstellt werden, und zwar über die Registerkarte **Workflow** der Kampagne. Wenn der Workflow in einer Kampagne enthalten ist, wird er mit allen anderen Kampagnen-Workflows ausgeführt, und die Berichtsmetriken werden alle auf Kampagnenebene gruppiert.
+1. Workflows können direkt innerhalb einer Kampagne über die Registerkarte **Workflow** der Kampagne erstellt werden. Wenn der Workflow in eine Kampagne aufgenommen wird, wird er zusammen mit allen anderen Kampagnen-Workflows ausgeführt und die Berichtsmetriken werden auf Kampagnenebene gruppiert.
 
-   ![](assets/create-a-wf-from-a-campaign.png){zoomable="yes"}
+   ![Screenshot der Benutzeroberfläche zum Erstellen eines Workflows in einer Kampagne](assets/create-a-wf-from-a-campaign.png){zoomable="yes"}
 
 Die wichtigsten Schritte zum Erstellen von Workflows sehen wie folgt aus:
 
-![](assets/workflow-creation-process.png){zoomable="yes"}
+![Diagramm mit dem Workflow-Erstellungsprozess](assets/workflow-creation-process.png){zoomable="yes"}
 
-Ausführliche Schritte dazu finden Sie im folgenden Abschnitt:
+Diese Schritte werden in den folgenden Abschnitten beschrieben:
 
 1. [Erstellen eines Workflows und Definieren seiner Eigenschaften](create-workflow.md)
 1. [Koordinieren und Konfigurieren von Aktivitäten](orchestrate-activities.md)

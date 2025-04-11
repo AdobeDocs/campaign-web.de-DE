@@ -4,10 +4,10 @@ title: Erste Schritte mit Landingpages
 description: Informationen zu Landingpages in Campaign Web
 feature: Landing Pages
 exl-id: edd313a3-93f4-4596-8dd6-dfc2bc3db21b
-source-git-commit: 362f657c689ce13c6c1fadc381d43e15c32d4d05
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 100%
+source-wordcount: '254'
+ht-degree: 60%
 
 ---
 
@@ -15,9 +15,9 @@ ht-degree: 100%
 
 [!DNL Adobe Campaign] ermöglicht das Erstellen, Entwerfen und Freigeben von Landingpages.
 
-Im Zusammenhang mit Marketing-Kampagnen ist eine Landingpage eine eigenständige Web-Seite, auf die Besuchende geleitet werden, nachdem sie in einem Versand oder auf einer Website auf einen Link geklickt haben.
+Im Kontext von Marketing-Kampagnen ist eine Landingpage eine eigenständige Web-Seite, auf die ein Besucher geleitet wird, nachdem er auf einen Link in einem Versand oder auf einer Website geklickt hat.
 
-Durch Landingpages können Sie Benutzende zu Online-Formularen leiten, auf denen sie ihre Daten aktualisieren, sich für den Erhalt Ihrer Nachrichten anmelden bzw. davon abmelden oder einen bestimmten Dienst wie einen Newsletter abonnieren können.
+Mit Landingpages können Sie Ihre Benutzer zu Online-Formularen weiterleiten, über die sie ihre Daten aktualisieren, sich für den Erhalt Ihrer Nachrichten anmelden oder abmelden oder einen bestimmten Dienst wie einen Newsletter abonnieren können.
 
 >[!CAUTION]
 >
@@ -37,7 +37,7 @@ Die wichtigsten Funktionen von Landingpages sind unten aufgeführt:
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="create-lp.md">
-<img alt="Lead" src="../assets/do-not-localize/lp-subscription.jpeg">
+<img alt="Erstellen von Landingpages mithilfe vorausgefüllter Vorlagen" src="../assets/do-not-localize/lp-subscription.jpeg">
 </a>
 <div><a href="create-lp.md"><strong>Erstellen von Landingpages</strong>
 </div>
@@ -45,7 +45,7 @@ Die wichtigsten Funktionen von Landingpages sind unten aufgeführt:
 </td>
 <td>
 <a href="../audience/manage-services.md">
-<img alt="Gelegentlich" src="../assets/do-not-localize/lp-list.jpg">
+<img alt="Anmeldedienste für Benutzer einrichten" src="../assets/do-not-localize/lp-list.jpg">
 </a>
 <div>
 <a href="../audience/manage-services.md"><strong>Erstellen von Anmeldediensten</strong></a>
@@ -53,7 +53,7 @@ Die wichtigsten Funktionen von Landingpages sind unten aufgeführt:
 <p></td>
 <td>
 <a href="lp-content.md">
-<img alt="Validierung" src="../assets/do-not-localize/lp-design.jpg">
+<img alt="Entwerfen responsiver Landingpages" src="../assets/do-not-localize/lp-design.jpg">
 </a>
 <div>
 <a href="lp-content.md"><strong>Entwerfen von Landingpages</strong></a>
@@ -62,7 +62,7 @@ Die wichtigsten Funktionen von Landingpages sind unten aufgeführt:
 </td>
 <td>
 <a href="lp-templates.md">
-<img alt="Validierung" src="../assets/do-not-localize/lp-reporting.jpg">
+<img alt="Arbeiten mit Inhaltsvorlagen für Landingpages" src="../assets/do-not-localize/lp-reporting.jpg">
 </a>
 <div>
 <a href="lp-templates.md"><strong>Arbeiten mit Inhaltsvorlagen</strong></a>

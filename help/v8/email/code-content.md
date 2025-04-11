@@ -3,31 +3,31 @@ audience: end-user
 title: Codieren Ihrer eigenen E-Mail-Inhalte
 description: Erfahren Sie, wie Sie Ihre eigenen E-Mail-Inhalte codieren
 exl-id: a387bff6-3dc8-421c-9efd-043c16694ef0
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '107'
-ht-degree: 100%
+source-wordcount: '131'
+ht-degree: 32%
 
 ---
 
 # Codieren Ihrer eigenen E-Mail-Inhalte {#code-content}
 
-Verwenden Sie den Modus **[!UICONTROL Eigenen Code erstellen]**, um unformatierte HTML zu importieren und/oder Ihren E-Mail-Inhalt zu codieren.
+Verwenden Sie den Modus **[!UICONTROL Eigenen Code erstellen]**, um unformatierte HTML zu importieren und Ihren E-Mail-Inhalt zu codieren.
 
 >[!CAUTION]
 >
->Diese Methode erfordert HTML-Kenntnisse.
+>Diese Methode erfordert Kenntnisse über HTML.
 
 1. Wählen Sie auf der Startseite von [E-Mail-Designer](get-started-email-designer.md) die Option **[!UICONTROL Eigenen Code schreiben]** aus.
 
-   ![](assets/code-your-own.png){zoomable="yes"}
+   ![Screenshot mit der Option „Eigenen Code erstellen“ auf der Startseite von E-Mail-Designer](assets/code-your-own.png){zoomable="yes"}
 
 1. Geben oder fügen Sie Ihren rohen HTML-Code in die Hauptarbeitsfläche ein.
 
-1. Verwenden Sie den linken Bereich, um die Personalisierungsfunktionen zu nutzen. [Weitere Informationen](../personalization/gs-personalization.md)
+1. Verwenden Sie den linken Bereich, um auf Personalisierungsfunktionen zuzugreifen. [Weitere Informationen](../personalization/gs-personalization.md)
 
-   ![](assets/code-editor-personalization.png){zoomable="yes"}
+   ![Screenshot, der den Code-Editor mit Personalisierungsoptionen im linken Bereich zeigt](assets/code-editor-personalization.png){zoomable="yes"}
 
-1. Klicken Sie auf die Schaltfläche **[!UICONTROL Inhalt simulieren]**, um Design und Personalisierung der Nachricht mithilfe von Testprofilen zu überprüfen. [Weitere Informationen](../preview-test/preview-test.md)
+1. Klicken Sie auf **[!UICONTROL Inhalt simulieren]**, um das Design und die Personalisierung der Nachricht mithilfe von Testprofilen in der Vorschau anzuzeigen. [Weitere Informationen](../preview-test/preview-test.md)
 
-1. Sobald Ihr Code fertig ist, klicken Sie auf **[!UICONTROL Speichern und schließen]**. Gehen Sie dann zurück zum Bildschirm zur Nachrichtenerstellung, um Ihre Nachricht fertigzustellen.
+1. Klicken Sie nach Abschluss des Codes auf **[!UICONTROL Speichern und schließen]** um zum Bildschirm zur Nachrichtenerstellung zurückzukehren und Ihre Nachricht fertigzustellen.

@@ -3,10 +3,10 @@ audience: end-user
 title: Filtern von Listen
 description: Erfahren Sie, wie Sie in Adobe Campaign Web-Listen mithilfe integrierter und benutzerdefinierter Filter filtern.
 exl-id: 41c3c4c3-5991-4223-ad02-e2531d76fdda
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '306'
-ht-degree: 100%
+source-wordcount: '325'
+ht-degree: 65%
 
 ---
 
@@ -14,15 +14,15 @@ ht-degree: 100%
 
 Adobe Campaign Web bietet Filter in jeder Objektliste, mit denen Sie Informationen nach bestimmten Kontextkriterien filtern können. Sie können beispielsweise Sendungen nach Status, Kanal, Kontaktdatum oder Ordner filtern. Sie können Testsendungen auch ausblenden.
 
-## Anwenden von Filtern{#apply}
+## Anwenden von Filtern {#apply}
 
 Um Filter auf eine Liste anzuwenden, klicken Sie auf **[!UICONTROL Filter anzeigen]** links oben in der Liste neben der Suchleiste.
 
-Der Filterbereich wird geöffnet und zeigt die für die ausgewählte Liste verfügbaren Filter an. Sie können beispielsweise Kampagnen nach Status, Start- und Enddatum oder Speicherordner filtern, während die Liste der Abonnementdienste nach Kanal und Speicherordner gefiltert werden kann.
+Der Filterbereich wird geöffnet und zeigt die für die ausgewählte Liste verfügbaren Filter an. Sie können Kampagnen beispielsweise nach Status, Start- und Enddatum oder Speicherordner filtern, während die Liste der Abonnement-Services nach Kanal und Speicherordner gefiltert werden kann.
 
-![](assets/filters-pane.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
+![Bereich „Filter“ mit verfügbaren Filtern für Listen](assets/filters-pane.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 
-Um eine Liste nach Ihren eigenen Kriterien zu filtern, können Sie einen benutzerdefinierten Filter erstellen. Navigieren Sie dazu zum unteren Ende des Filterbereichs und klicken Sie auf **Regeln hinzufügen**. [Erfahren Sie, wie Sie vordefinierte Filter erstellen](#custom)
+Um eine Liste nach Ihren eigenen Kriterien zu filtern, können Sie einen benutzerdefinierten Filter erstellen. Navigieren Sie dazu zum unteren Ende des Filterbereichs und klicken Sie auf **Regeln hinzufügen**. [Erfahren Sie, wie Sie benutzerdefinierte Filter erstellen](#custom).
 
 Nachdem Sie Filter auf eine Liste angewendet haben, werden sie unter der Suchleiste angezeigt. Sie können einen jederzeit einzelne Filter entfernen oder auch alle, indem Sie auf **Alle löschen** klicken.
 
@@ -30,12 +30,12 @@ Nachdem Sie Filter auf eine Liste angewendet haben, werden sie unter der Suchlei
 
 Mit benutzerdefinierten Filtern können Sie Listen anhand Ihrer eigenen spezifischen Kriterien verfeinern. Sie werden mithilfe des Abfrage-Modelers in Campaign entwickelt. Gehen Sie wie folgt vor, um einen benutzerdefinierten Filter zu erstellen:
 
-1. Öffnen Sie das Filterfenster und klicken Sie auf **Regeln hinzufügen** unten im Fenster.
+1. Öffnen Sie den Bereich „Filter“ und klicken Sie **unten** Bereich auf die Schaltfläche „Regeln hinzufügen“.
 
 1. Es öffnet sich der Abfrage-Modeler. Definieren und kombinieren Sie Ihre Filterkriterien entsprechend Ihren Anforderungen. Detaillierte Informationen über die Verwendung des Abfrage-Modelers finden Sie in [diesem Abschnitt](../query/query-modeler-overview.md).
 
-   Das folgende Beispiel zeigt einen benutzerdefinierten Filter, der dazu bestimmt ist, in der Kampagnenliste SMS-Kampagnen anzuzeigen, die von Benutzenden der Abteilungen „Laufen“ oder „Yoga“ ausgeführt werden.
+   Das folgende Beispiel zeigt einen benutzerdefinierten Filter, der in der Kampagnenliste SMS-Kampagnen anzeigt, die von Benutzern der Abteilungen Laufen oder Yoga ausgeführt werden.
 
-   ![](assets/filters-sample.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
+   ![Beispiel für einen benutzerdefinierten Filter mit nach Abteilung gefilterten SMS-Kampagnen](assets/filters-sample.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 
 1. Sobald Ihr benutzerdefinierter Filter konfiguriert ist, klicken Sie auf **[!UICONTROL Bestätigen]**, um ihn auf die Liste anzuwenden.

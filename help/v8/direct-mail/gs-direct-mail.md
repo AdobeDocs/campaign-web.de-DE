@@ -3,30 +3,31 @@ audience: end-user
 title: Erste Schritte mit Briefpostsendungen
 description: Erfahren Sie, wie Sie mit Adobe Campaign Web Briefpostsendungen erstellen und durchführen.
 exl-id: a1c778e2-e950-4b8f-875a-87b39eb732c2
-source-git-commit: 362f657c689ce13c6c1fadc381d43e15c32d4d05
+source-git-commit: eccd1ce6f95682d3dcfc224061f747f7da0b6681
 workflow-type: tm+mt
-source-wordcount: '213'
-ht-degree: 100%
+source-wordcount: '201'
+ht-degree: 35%
 
 ---
 
+
 # Erste Schritte mit Briefpostsendungen {#gs-direct-mail}
 
-Briefpost ist ein Offline-Kanal, über den Sie Dateien erstellen können, um Ihren Kundinnen und Kunden personalisierte Sendungen wie Postkarten, Flyer oder Kataloge in großem Umfang zukommen zu lassen.
+Briefpost ist ein Offline-Kanal, mit dem Sie Dateien erstellen können, um Ihren Kunden personalisierte Massenbriefe wie Postkarten, Flyer oder Kataloge zu senden.
 
-Bei der Erstellung eines Briefpostversands generiert Adobe Campaign automatisch eine Extraktionsdatei, die alle Zielgruppenprofile und ausgewählten Daten wie Postanschriften und Profilattribute enthält. Diese Datei wird an den Server Ihrer Wahl gesendet, damit sie für Ihren ausgewählten Briefpost-Dienstleister zugänglich ist, der den eigentlichen Versandprozess für Sie handhabt.
+Beim Erstellen eines Briefpost-Versands generiert Adobe Campaign eine Extraktionsdatei, die alle Zielgruppenprofile und die ausgewählten Daten enthält, z. B. Postanschriften und Profilattribute. Diese Datei wird an den Server Ihrer Wahl gesendet, sodass sie für Ihren ausgewählten Briefpostanbieter zugänglich ist, der den eigentlichen Versandprozess durchführt.
 
 Um Briefpostsendungen zu erstellen, haben Sie drei Möglichkeiten:
 
-* **Workflows**: Nachdem Sie eine Briefpost-Kanalaktivität zu Ihrem Workflow hinzugefügt und die grundlegenden Einstellungen konfiguriert haben, können Sie den Inhalt Ihrer Briefpostsendungen über das Menü im rechten Bereich erstellen. Detaillierte Anweisungen zum Konfigurieren eines Workflows finden Sie auf [dieser Seite](../workflows/gs-workflow-creation.md).
-* **Kampagnen**: Nachdem Sie eine Kampagne erstellt haben, können Sie einen Briefpostversand erstellen. Weiterführende Informationen zum Einrichten Ihrer Kampagne finden Sie auf [dieser Seite](../campaigns/gs-campaigns.md).
+* **Workflows**: Nachdem Sie eine Aktivität des Typs Briefpostkanal zu Ihrem Workflow hinzugefügt und die Grundeinstellungen konfiguriert haben, erstellen Sie den Inhalt Ihrer Briefpostsendungen über das Menü im rechten Bereich. Detaillierte Anweisungen zum Konfigurieren von Workflows finden Sie auf [dieser Seite](../workflows/gs-workflow-creation.md).
+* **Kampagnen**: Nachdem Sie eine Kampagne erstellt haben, können Sie einen Briefpost-Versand erstellen. Weiterführende Informationen zum Einrichten Ihrer Kampagne finden Sie auf [dieser Seite](../campaigns/gs-campaigns.md).
 * **Eigenständige Sendungen**: Binden Sie Kundinnen und Kunden direkt und sofort mit einem individuellen Briefpostversand ein, ohne dass Workflows oder Kampagnen erforderlich sind. [Erfahren Sie, wie Sie einen Versand erstellen](../msg/gs-deliveries.md).
 
 <!--
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="create-push.md">
-<img alt="Lead" src="assets/do-not-localize/push_create.jpeg">
+<img alt="Create a push delivery" src="assets/do-not-localize/push_create.jpeg">
 </a>
 <div><a href="create-push.md"><strong>Create a push delivery</strong>
 </div>
@@ -34,7 +35,7 @@ Um Briefpostsendungen zu erstellen, haben Sie drei Möglichkeiten:
 </td>
 <td>
 <a href="content-push.md">
-<img alt="Infrequent" src="assets/do-not-localize/push_design.jpeg">
+<img alt="Design a push delivery" src="assets/do-not-localize/push_design.jpeg">
 </a>
 <div>
 <a href="content-push.md"><strong>Design a push delivery<strong></strong></a>
@@ -42,7 +43,7 @@ Um Briefpostsendungen zu erstellen, haben Sie drei Möglichkeiten:
 <p></td>
 <td>
 <a href="send-push.md">
-<img alt="Validation" src="assets/do-not-localize/push_send.jpeg">
+<img alt="Send a push delivery" src="assets/do-not-localize/push_send.jpeg">
 </a>
 <div>
 <a href="send-push.md"><strong>Send a push delivery</strong></a>
@@ -51,7 +52,7 @@ Um Briefpostsendungen zu erstellen, haben Sie drei Möglichkeiten:
 </td>
 <td>
 <a href="send-push.md">
-<img alt="Validation" src="assets/do-not-localize/push_report.jpeg">
+<img alt="Push delivery report" src="assets/do-not-localize/push_report.jpeg">
 </a>
 <div>
 <a href="send-push.md"><strong>Push delivery report</strong></a>

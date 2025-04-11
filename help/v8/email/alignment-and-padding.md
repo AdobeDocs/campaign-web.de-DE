@@ -3,29 +3,28 @@ audience: end-user
 title: Vertikale Ausrichtung und Abstand in E-Mail-Designer anpassen
 description: Erfahren Sie, wie Sie die senkrechte Ausrichtung und das Padding anpassen.
 exl-id: 32e613e4-60ce-43b4-90a6-794af0e3976b
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 100%
+source-wordcount: '204'
+ht-degree: 35%
 
 ---
 
-
 # Anpassen der senkrechten Ausrichtung und des Abstands {#alignment-and-padding}
 
-In diesem Beispiel passen wir den Abstand und die vertikale Ausrichtung innerhalb einer aus drei Spalten bestehenden Strukturkomponente an.
+Passen Sie in diesem Beispiel den Abstand und die vertikale Ausrichtung innerhalb einer Strukturkomponente an, die aus drei Spalten besteht.
 
-1. Wählen Sie eine Strukturkomponente direkt in der E-Mail oder unter Verwendung des **[!UICONTROL Navigationbaums]** im linken Bereich aus.
+1. Wählen Sie eine Strukturkomponente direkt in der E-Mail aus oder verwenden Sie den **[!UICONTROL Navigationsbaum]** der im linken Bereich verfügbar ist.
 
-   ![](assets/alignment_1.png){zoomable="yes"}
+   ![Screenshot zur Auswahl der Strukturkomponente im Navigationsbaum](assets/alignment_1.png){zoomable="yes"}
 
-1. Wählen Sie in der kontextuellen Symbolleiste mithilfe der Option **[!UICONTROL Spalte auswählen]** die gewünschte Spalte aus. Sie können sie auch im Strukturbaum auf der linken Seite auswählen.
+1. Klicken Sie in der kontextuellen Symbolleiste auf **[!UICONTROL Spalte auswählen]** und wählen Sie die Spalte aus, die Sie bearbeiten möchten. Sie können sie auch im Strukturbaum auf der linken Seite auswählen.
 
-   ![](assets/alignment_2.png){zoomable="yes"}
+   ![Screenshot mit der Spaltenauswahl in der kontextuellen Symbolleiste](assets/alignment_2.png){zoomable="yes"}
 
-1. Die bearbeitbaren Parameter für diese Spalte werden auf der Registerkarte **[!UICONTROL Stile]** angezeigt. Passen Sie die **[!UICONTROL Ausrichtung]** im entsprechenden Abschnitt an.
+1. Die bearbeitbaren Parameter für die ausgewählte Spalte werden auf der Registerkarte **[!UICONTROL Stile]** angezeigt. Passen Sie die **[!UICONTROL Ausrichtung]** im entsprechenden Abschnitt an.
 
-   ![](assets/alignment_3.png){zoomable="yes"}
+   ![Screenshot mit den Ausrichtungsoptionen auf der Registerkarte „Stile“](assets/alignment_3.png){zoomable="yes"}
 
    Wählen Sie beispielsweise **[!UICONTROL Unten]**. Die Inhaltskomponente wird an den unteren Rand der Spalte verschoben.
 
@@ -33,10 +32,10 @@ In diesem Beispiel passen wir den Abstand und die vertikale Ausrichtung innerhal
 
    >[!NOTE]
    >
-   >Klicken Sie auf das Schlosssymbol, um die Synchronisation zwischen dem oberen/unteren oder linken/rechten Abstand aufzuheben.
+   >Klicken Sie auf das Schlosssymbol, um die Synchronisierung zwischen dem oberen und unteren bzw. linken und rechten Abstand aufzuheben.
 
-   ![](assets/alignment_4.png){zoomable="yes"}
+   ![Screenshot mit den Anpassungsoptionen für den Abstand](assets/alignment_4.png){zoomable="yes"}
 
-1. Gehen Sie analog mit den anderen Ausrichtungs- und Abstandseinstellungen der Spalten vor.
+1. Passen Sie die Ausrichtung und den Abstand für die anderen Spalten auf die gleiche Weise an.
 
-1. Speichern Sie Ihre Änderungen.
+1. Speichern Sie die Änderungen.

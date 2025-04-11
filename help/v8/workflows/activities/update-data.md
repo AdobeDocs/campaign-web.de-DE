@@ -3,67 +3,67 @@ audience: end-user
 title: Verwenden der Workflow-Aktivität „Daten-Update“
 description: Informationen dazu, wie Sie die Workflow-Aktivität „Daten-Update“ verwenden
 exl-id: db978482-43f6-48a7-8d8d-4b921eb610b2
-source-git-commit: 93ac61808049da6f0d800a19f2baf97946d8612c
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '498'
-ht-degree: 100%
+source-wordcount: '478'
+ht-degree: 33%
 
 ---
 
 # Daten-Update {#update-data}
 
-Die Aktivität **Daten-Update** ist eine **Daten-Management**-Aktivität. Sie ermöglicht eine gebündelte Aktualisierung der Datenbankfelder. Die Art der Datenbankaktualisierung kann über verschiedene Optionen definiert werden.
+Die Aktivität **Daten-Update** ist eine **Daten-Management**-Aktivität. Dies ermöglicht eine gebündelte Aktualisierung von Datenbankfeldern. Mehrere Optionen ermöglichen es Ihnen, die Datenaktualisierung anzupassen.
 
 <!--
-The **Operation type** field lets you choose the process to be carried out on the data in the database. Select the first option to add data or update (it if it has already been added). You can also only add data, only update data, or delete data. Select the **Update and merge collections** to select a primary record to link duplicates to, and delete those duplicates safely
+The **Operation type** field lets you choose the process to be carried out on the data in the database. Select the first option to add data or update it if it has already been added. You can also only add data, only update data, or delete data. Select the **Update and merge collections** to select a primary record to link duplicates to, and delete those duplicates safely.
 
-Specify how to identify the records in the database: if data relate to an existing targeting dimension, select the **Using the targeting dimension** option and select the targeting dimension and fields to update. Otherwise, specify one or more custom links to identify the data in the database, or direct use of reconciliation keys.
+Specify how to identify the records in the database: if data relate to an existing targeting dimension, select the **Using the targeting dimension** option and select the targeting dimension and fields to update. Otherwise, specify one or more custom links to identify the data in the database, or directly use reconciliation keys.
 
 Select the fields to update and reconciliation settings. You can use the **Auto-mapping** option to automatically identify the fields to be updated.
 
-The **Advanced options** section let you specify additional settings to manage data and duplicates.
+The **Advanced options** section lets you specify additional settings to manage data and duplicates.
 
-Toggle the **Generate an outbound transition** option to add an outbound transition that will be activated at the end of the execution of the **Update data** activity. The update generally marks the end of a targeting workflow and therefore the option is not activated by default.
+Toggle the **Generate an outbound transition** option to add an outbound transition that will be activated at the end of the execution of the **Update data** activity. The update generally marks the end of a targeting workflow, and therefore the option is not activated by default.
 
-Toggle the **Generate an outbound transition for rejects** option to add an outbound transition containing records that have not been correctly processed after the update (for example if there is a duplicate). The update generally marks the end of a targeting workflow and therefore the option is not activated by default.
+Toggle the **Generate an outbound transition for rejects** option to add an outbound transition containing records that have not been correctly processed after the update (for example, if there is a duplicate). The update generally marks the end of a targeting workflow, and therefore the option is not activated by default.
 -->
 
-## Konfigurieren der Aktivität „Daten-Update“{#update-data-configuration}
+## Konfigurieren der Aktivität „Daten-Update“ {#update-data-configuration}
 
-Um die Aktivität **Daten-Update** zu konfigurieren, fügen Sie die Aktivität zunächst Ihrem Workflow hinzu und legen Sie einen Titel fest.
+Um die Aktivität **Daten aktualisieren** zu konfigurieren, fügen Sie die Aktivität zu Ihrem Workflow hinzu und definieren Sie einen Titel.
 
-![](../assets/workflow-update-data.png)
+![Aktivität „Workflow-Daten-Update“](../assets/workflow-update-data.png)
 
 ### Aktionstyp
 
 Geben Sie im Feld **Aktionstyp** an, auf welche Weise die Daten aktualisiert werden sollen:
 
-* **Einfügen oder aktualisieren**: Fügt neue Daten ein oder aktualisiert in der Datenbank existierende Einträge.
-* **Einfügen**: Fügt lediglich neue Daten ein, existierende Datensätze werden nicht verändert. Wenn Abstimmkriterien definiert wurden, werden nur nicht abgestimmte Datensätze hinzugefügt.
-* **Aktualisieren** – aktualisiert Daten existierender Datensätze, fügt keine neuen Datensätze hinzu.
-* **Löschen** – löscht in der Datenbank existierende Daten.
+* **Einfügen oder Aktualisieren**: Fügt Daten ein oder aktualisiert sie, wenn die Datensätze bereits in der Datenbank vorhanden sind.
+* **Einfügen**: Nur Daten einfügen. Bereits vorhandene Datensätze werden nicht aktualisiert. Wenn Abstimmkriterien definiert wurden, werden nur nicht abgestimmte Datensätze hinzugefügt.
+* **Aktualisieren**: Aktualisieren Sie nur die Daten der Datensätze, die bereits in der Datenbank vorhanden sind.
+* **Löschen**: Daten löschen.
 
-Im Feld **Aktualisierungsgröße** wird bestimmt, wie viele Elemente der eingehenden Transition aktualisiert werden. Bei Angabe von 500 beispielsweise werden die 500 ersten Datensätze aktualisiert.
+Im Feld **Aktualisierungsgröße** wird bestimmt, wie viele Elemente der eingehenden Transition aktualisiert werden. Wenn Sie beispielsweise 500 angeben, werden die ersten 500 verarbeiteten Datensätze aktualisiert.
 
-### Datensatz-Identifizierung
+###   Identifizierung von Einträgen
 
 In diesem Abschnitt können Sie angeben, auf welche Weise die Einträge der Datenbank erkannt werden:
 
-* Wenn die eingehenden Daten einer existierenden Zielgruppendimension entsprechen, wählen Sie die Option **Über die Zielgruppendimension** und dann die Zielgruppendimension im Feld **Zu aktualisierende Zielgruppendimension** aus.
-* Sie können auch die Option **Verwendung von benutzerdefinierten Links** auswählen und einen oder mehrere Links angeben, was die Identifizierung der Daten in der Datenbank ermöglicht.
-* Wenn eine Aktualisierung durchgeführt werden soll, ist die Verwendung der Option **Verwendung von Abstimmregeln** zwingend erforderlich.
+* Wenn sich Dateneinträge auf eine vorhandene Zielgruppendimension beziehen, wählen Sie die Option **Verwenden der Zielgruppendimension** und wählen Sie sie im Feld **Zu aktualisierende Zielgruppendimension** aus.
+* Sie können auch **Benutzerdefinierte Links verwenden** auswählen und einen oder mehrere Links angeben, die die Identifizierung der Daten in der Datenbank ermöglichen.
+* Wenn für den ausgewählten Vorgangstyp eine Aktualisierung erforderlich ist, verwenden Sie die Option **Abstimmregeln verwenden**.
 
 ### Zu aktualisierende Felder
 
-Fügen Sie im Abschnitt **Zu aktualisierende Felder** die Felder hinzu, auf die die Aktualisierung angewendet werden soll, und geben Sie bei Bedarf Bedingungen für diese Aktualisierung an. Dies ist über das Feld **Berücksichtigt wenn** möglich. Die Bedingungen werden nacheinander, in Reihenfolge der Liste geprüft. Die Reihenfolge kann mithilfe der Pfeile rechts der Tabelle angepasst werden. Es ist möglich, mehrmals dasselbe Zielfeld zu verwenden.
+Fügen Sie im **Zu aktualisierende Felder** die Felder hinzu, auf die die Aktualisierung angewendet wird. Fügen Sie bei Bedarf Bedingungen hinzu, damit diese Aktualisierung durchgeführt wird. Verwenden Sie das Feld **Berücksichtigt wenn**, um Bedingungen zu definieren. Bedingungen werden sequenziell in der Listenreihenfolge angewendet. Die Reihenfolge kann mithilfe der Pfeile rechts der Tabelle angepasst werden. Es ist möglich, mehrmals dasselbe Zielfeld zu verwenden.
 
-Mithilfe der Schaltfläche **Automatische Zuordnung** können Sie die Felder automatisch zuordnen. Die Funktion des automatischen Verbindens erkennt Felder gleichen Namens.
+Verknüpfen Sie Felder automatisch über die Schaltfläche **Automatische Zuordnung**. Die Funktion des automatischen Verbindens erkennt Felder gleichen Namens.
 
-Wenn Sie den Vorgang **Einfügen oder aktualisieren** ausgewählt haben, können Sie im Feld **Typ des Vorgangs** für jedes Feld individuell entscheiden, welche der möglichen Aktionen ausgeführt werden soll.
+Wählen **bei einem Vorgangstyp** Einfügen oder Aktualisieren“ einzeln den Vorgang aus, der für jedes Feld angewendet werden soll. Geben Sie **gewünschten Wert im Feld** Vorgangstyp“ an.
 
 ### Erweiterte Optionen
 
-Über die **erweiterten Optionen** können weitere Optionen zur Aktualisierung von Daten und zum Umgang mit Dubletten definiert werden:
+Im Abschnitt **Erweiterte Optionen** können Sie zusätzliche Optionen zum Aktualisieren von Daten und Verwalten von Duplikaten angeben.
 
 <!--
 * **Disable automatic key management**
@@ -77,4 +77,4 @@ Mit diesen beiden letzten Optionen können Sie bestimmte Aktionen ausführen:
 
 * **Ausgehende Transition erzeugen**: Erstellt eine ausgehende Transition, die am Ende der Ausführung aktiviert wird. Die Aktualisierung signalisiert in der Regel das Ende eines Workflows zur Zielgruppenbestimmung. Daher ist diese Option standardmäßig nicht aktiviert.
 
-* **Ausgehende Transition für die Zurückweisungen erzeugen**: Erstellt eine ausgehende Transition mit Einträgen, die nach der Aktualisierung nicht korrekt verarbeitet wurden (z. B. wenn es eine Dublette gibt). Die Aktualisierung markiert in der Regel das Ende eines Zielgruppenbestimmungs-Workflows. Daher ist die Option standardmäßig nicht aktiviert.
+* **Ausgehende Transition für die Zurückweisungen erzeugen**: Erstellt eine ausgehende Transition, die Datensätze enthält, die nach der Aktualisierung nicht korrekt verarbeitet wurden (z. B. wenn ein Duplikat vorliegt). Die Aktualisierung markiert im Allgemeinen das Ende eines Zielgruppen-Workflows, und die Option ist nicht standardmäßig aktiviert.
