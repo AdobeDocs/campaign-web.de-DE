@@ -2,46 +2,43 @@
 title: Zielgruppendimensionen
 description: Erfahren Sie mehr über Zielgruppendimensionen in Adobe Campaign Web
 exl-id: b910649a-7300-4f99-8f40-3a8965572ee9
-source-git-commit: 395109aeb603ecce53eda89adff70a9ef36fde17
+source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
 workflow-type: tm+mt
-source-wordcount: '445'
-ht-degree: 100%
+source-wordcount: '360'
+ht-degree: 25%
 
 ---
 
 # Zielgruppendimensionen {#targeting-dimensions}
 
 >[!CONTEXTUALHELP]
->id="acw_orchestration_build_audience_dimension"
->title="Auswählen der Zielgruppendimension"
->abstract="Die Zielgruppendimension ermöglicht die Bestimmung der vom Vorgang betroffenen Population: Empfängerinnen und Empfänger, Vertragsbegünstigte, Benutzerinnen und Benutzer, Abonnentinnen und Abonnenten usw. Standardmäßig wird die Zielgruppe für E-Mails und SMS in der integrierten Tabelle der Empfängerinnen und Empfänger ausgewählt. Bei Push-Benachrichtigungen ist die Standard-Zielgruppendimension „Abonnierte Anwendungen“."
-
-Die Zielgruppendimension, auch bekannt als Zielgruppen-Mapping, ist der Datentyp, den ein Vorgang verarbeitet. Hier können Sie die Zielpopulation festlegen: Profile, Vertragsbegünstigte, Benutzerinnen und Benutzern, Abonnierende, usw.
+>
+Die Zielgruppendimension, auch als Zielgruppen-Mapping bezeichnet, ist der Datentyp, den ein Vorgang verarbeitet. Sie definiert die Zielpopulation, z. B. Profile, Vertragsbegünstigte, Benutzer oder Abonnenten.
 
 ## Zielgruppendimensionen von Workflows {#workflow}
 
-Die Zielgruppendimension eines Workflows wird durch die erste Aktivität **[!UICONTROL Zielgruppe erstellen]** definiert und wird bis zum Ende des Workflows für alle weiteren Aktivitäten verwendet. Wenn Sie z. B. Profile aus der Datenbank abfragen, enthält die ausgehende Transition Daten vom Typ „Empfänger“ und wird an die nächste Aktivität weitergeleitet.
+Die Zielgruppendimension eines Workflows wird durch die erste Aktivität **[!UICONTROL Zielgruppe aufbauen]** definiert und für alle nachfolgenden Aktivitäten bis zum Ende des Workflows verwendet. Wenn Sie beispielsweise Profile aus der Datenbank abfragen, enthält die ausgehende Transition Daten vom Typ „Empfänger“, die an die nächste Aktivität übertragen werden.
 
-Beachten Sie, dass Sie die Zielgruppendimension in einem Workflow mithilfe der Aktivität [Dimensionsänderung](../workflows/activities/change-dimension.md) wechseln können. Auf diese Weise können Sie beispielsweise die Datenbank in einer bestimmten Tabelle (z. B. zu Käufen oder Abonnements) abfragen und die Zielgruppendimension in „Empfänger“ ändern, um Sendungen an die entsprechenden Profile durchzuführen.
+Wechseln Sie die Zielgruppendimension in einem Workflow mithilfe einer Aktivität vom Typ [Dimensionsänderung](../workflows/activities/change-dimension.md). Dies ermöglicht die Abfrage der Datenbank für eine bestimmte Tabelle, z. B. Käufe oder Abonnements, und das anschließende Ändern der Zielgruppendimension auf Empfänger , um Sendungen an die entsprechenden Profile zu senden.
 
-Bei der Auswahl einer Zielgruppendimension (in den Workflow-Einstellungen oder in Aktivitäten wie **Zielgruppe erstellen**, **Abstimmung** oder **Dimensionsänderung**) wird in der Liste standardmäßig eine Auswahl häufig verwendeter Schemata angezeigt. Um alle verfügbaren Schemata anzuzeigen, aktivieren Sie die Schaltfläche **[!UICONTROL Alle Schemata anzeigen]**. Die Optionsauswahl wird für jeden Benutzer bzw. jede Benutzerin gespeichert.
+Bei der Auswahl einer Zielgruppendimension (in den Workflow-Einstellungen oder in Aktivitäten wie **Zielgruppe erstellen**, **Abstimmung** oder **Dimensionsänderung** wird standardmäßig eine Liste der häufig verwendeten Schemata angezeigt. Um alle verfügbaren Schemata anzuzeigen, schalten Sie die Schaltfläche **[!UICONTROL Alle Schemata anzeigen]** um. Die Optionsauswahl wird für jeden Benutzer bzw. jede Benutzerin gespeichert.
 
-![](assets/targeting-dimension-show-all.png){zoomable="yes"}
+![Screenshot der Oberfläche der Zielgruppendimension mit aktivierter Schaltfläche „Alle Schemata anzeigen“.](assets/targeting-dimension-show-all.png){zoomable="yes"}
 
 ## Zielgruppendimensionen {#list}
 
-Standardmäßig haben die E-Mail- und SMS-Versandvorlagen Profile als Zielgruppe. Ihr Zielgruppen-Mapping verwendet daher die Felder der Tabelle **nms:recipient**. Für Push-Benachrichtigungen ist die standardmäßige Zielgruppendimension **Abonnierte Anwendungen (nms:appSubscriptionRcp)**, das mit der Empfängertabelle verknüpft ist.
+Standardmäßig haben die E-Mail- und SMS-Versandvorlagen Profile als Zielgruppe. Ihre Zieldimension verwendet die Felder der Tabelle **nms:recipient**. Für Push-Benachrichtigungen ist die standardmäßige Zielgruppendimension **Abonnierte Anwendungen (nms:appSubscriptionRcp)**, das mit der Empfängertabelle verknüpft ist.
 
-Sie können auch andere integrierte Zielgruppen-Mappings in Ihren Workflows und Sendungen verwenden, die unten aufgeführt sind:
+Verwenden Sie andere integrierte Zielgruppen-Mappings in Workflows und Sendungen, wie unten aufgeführt:
 
-| Name | Verwendungszweck | Schema |
-|---|---|---|
-| Empfängerinnen und Empfänger | Versand an Profile/Empfängerinnen und Empfänger (integrierte Empfängertabelle) | nms:recipient |
-| Besucher | Versand an Besucher, deren Profile beispielsweise über Empfehlungen (Viral Marketing) erfasst wurden. | mns:visitor |
-| Abonnements  | Versand richtet sich an Profile, die einen Informationsdienst abonniert haben, wie z. B. einen Newsletter. | nms:subscription |
-| Besucher-Abonnements | Versand richtet sich an Besucher, die einen Informationsdienst beziehen | nms:visitorSub |
-| Benutzer | Versand richtet sich an Adobe Campaign-Benutzer | nms:operator |
-| Externe Datei | Versand basiert auf einer Datei, die alle notwendigen Informationen enthält | Ohne Schema oder Zielgruppe |
-| Abonnierte Anwendungen | Versand an Profile, die eine Anwendung abonniert haben. | nms:appSubscriptionRcp |
+| Name | Für Versand an verwenden | Schema |
+|-----------------------|-------------------------------------------------------|-------------------------|
+| Empfängerinnen und Empfänger | Profile/Empfänger (integrierte Empfängertabelle) | nms:recipient |
+| Besucher | Besucherinnen und Besucher, deren Profile über eine Empfehlung erfasst wurden (z. B. Viral Marketing) | mns:visitor |
+| Abonnements  | Profile, die einen Informationsdienst wie einen Newsletter abonniert haben | nms:subscription |
+| Besucher-Abonnements | Besucherinnen und Besucher haben einen Informationsdienst abonniert | nms:visitorSub |
+| Operatoren | Adobe Campaign-Benutzer | nms:operator |
+| Externe Datei | Versand über eine Datei mit allen erforderlichen Informationen | Ohne Schema oder Zielgruppe |
+| Abonnierte Anwendungen | An eine Anwendung abonnierte Profile | nms:appSubscriptionRcp |
 
-Zusätzlich können Sie je nach Bedarf ein neues Zielgruppen-Mapping erstellen. Dieser Vorgang erfolgt ausschließlich über die Client-Konsole. Weitere Informationen finden Sie in der [Dokumentation zu Campaign v8 (Client-Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=de#new-mapping){target="_blank"}.
+Erstellen Sie außerdem neue Zielgruppen-Mappings basierend auf bestimmten Anforderungen. Führen Sie diesen Vorgang nur über die Client-Konsole aus. Weitere Informationen finden Sie in der [Dokumentation zu Campaign v8 (Client-Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=de#new-mapping){target="_blank"}.

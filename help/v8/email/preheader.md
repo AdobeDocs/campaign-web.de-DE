@@ -3,10 +3,10 @@ audience: end-user
 title: Hinzufügen eines Preheaders in E-Mail-Designer
 description: Erfahren Sie, wie Sie E-Mail-Inhalte erstellen
 exl-id: 8513b069-7155-45ac-8c98-38576c9ddeda
-source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '207'
-ht-degree: 100%
+source-wordcount: '249'
+ht-degree: 69%
 
 ---
 
@@ -29,19 +29,19 @@ Gehen Sie wie folgt vor, um den Preheader einer E-Mail zu definieren.
 
 1. Fügen Sie im [E-Mail-Designer](create-email-content.md) mindestens eine **[!UICONTROL Struktur]**-Komponente hinzu, um mit der Gestaltung Ihrer E-Mail zu beginnen.
 
-1. Klicken Sie auf das Symbol **[!UICONTROL Navigationsbaum]** im linken Bereich und wählen Sie **[!UICONTROL Text]**.
+1. Klicken Sie auf **[!UICONTROL Symbol &quot;]**&quot; im linken Bereich und wählen Sie **[!UICONTROL Hauptteil]**.
 
-   ![](assets/preheader_body.png){zoomable="yes"}
+   ![Screenshot mit dem Symbol für den Navigationsbaum und der Textauswahl in der Benutzeroberfläche von E-Mail-Designer.](assets/preheader_body.png){zoomable="yes"}
 
 1. Geben Sie auf der Registerkarte **[!UICONTROL Einstellungen]** Text für Ihren Preheader ein.
 
 1. Klicken Sie links neben dem Feld **[!UICONTROL Preheader]** auf das Symbol **[!UICONTROL Personalisierung hinzufügen]**, um eine weitere Personalisierung vorzunehmen.
 
-   ![](assets/preheader_body_settings.png){zoomable="yes"}
+   ![Screenshot mit der Registerkarte „Einstellungen“ und dem Symbol „Personalisierung hinzufügen“ in der Benutzeroberfläche von E-Mail-Designer.](assets/preheader_body_settings.png){zoomable="yes"}
 
-1. Über das Fenster **[!UICONTROL Personalisierung bearbeiten]** können Sie [Personalisierungsfelder](../personalization/personalize.md), [Ausdrucksfragmente](../content/use-expression-fragments.md) und [bedingten Inhalt](../personalization/conditions.md) mithilfe der entsprechenden Einträge auf der linken Seite hinzufügen.
+1. Fügen Sie im Fenster **[!UICONTROL Personalization bearbeiten]** &quot;[-Felder](../personalization/personalize.md), [Ausdrucksfragmente](../content/use-expression-fragments.md) und [bedingte Inhalte](../personalization/conditions.md) mithilfe der entsprechenden Einträge auf der linken Seite hinzu.
 
-   ![](assets/preheader_body_personalization.png){zoomable="yes"}
+   ![Screenshot, der das Fenster &quot;Personalization bearbeiten“ mit Optionen für Personalisierungsfelder, Ausdrucksfragmente und bedingte Inhalte zeigt.](assets/preheader_body_personalization.png){zoomable="yes"}
 
 1. Klicken Sie auf **[!UICONTROL Bestätigen]**.
 

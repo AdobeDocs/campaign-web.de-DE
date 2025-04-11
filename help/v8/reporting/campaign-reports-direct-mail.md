@@ -3,10 +3,10 @@ audience: end-user
 title: Kampagnenberichte für den Briefpost-Kanal
 description: Grundlegendes zu Kampagnenberichten für den Briefpost-Kanal
 exl-id: 7817d4c5-1f97-4b17-8a5f-f1a5b8701fe9
-source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '520'
-ht-degree: 100%
+source-wordcount: '554'
+ht-degree: 56%
 
 ---
 
@@ -23,9 +23,9 @@ Jeder Kampagnenbericht ist in verschiedene Widgets unterteilt, die den Erfolg un
 >title="Versandübersicht"
 >abstract="Die **Versandübersicht** präsentiert wichtige Leistungsmetriken (KPI) mit umfassenden Erkenntnissen zur Interaktion Ihrer Besucherinnen und Besucher mit jedem Briefpostversand. Die Metriken sind unten dargestellt."
 
-Die **[!UICONTROL Versandübersicht]** bietet wichtige Leistungsmetriken (KPIs) mit umfassenden Erkenntnissen zur Interaktion Ihrer Besucherinnen und Besucher mit jedem Briefpostversand. Die Metriken sind unten dargestellt.
+Die **[!UICONTROL Versandübersicht]** enthält wichtige Leistungsmetriken (KPIs) und bietet detaillierte Einblicke in die Interaktion Ihrer Besucherinnen und Besucher mit jedem Briefpost-Versand. Die Metriken sind unten dargestellt.
 
-![](assets/direct-mail-campaign-overview.png){zoomable="yes"}{align="center"}
+![Übersicht über die Versandmetriken von Briefpostkampagnen](assets/direct-mail-campaign-overview.png){zoomable="yes"}{align="center"}
 
 +++Erfahren Sie mehr über Versandübersichtsmetriken.
 
@@ -33,7 +33,7 @@ Die **[!UICONTROL Versandübersicht]** bietet wichtige Leistungsmetriken (KPIs) 
 
 * **[!UICONTROL Zugestellt]**: Anzahl der erfolgreich gesendeten Nachrichten im Verhältnis zur Gesamtzahl der gesendeten Nachrichten.
 
-* **[!UICONTROL Fehler]**: Summe der Fehler, die beim Versand und bei der automatischen Rücksendung kumuliert wurden, bezogen auf die Gesamtzahl der gesendeten Nachrichten.
+* **[!UICONTROL Fehler]**: Gesamtzahl der kumulierten Fehler beim Versand und bei der automatischen Rücksendung, bezogen auf die Gesamtzahl der gesendeten Nachrichten.
 
 * **[!UICONTROL Klicks gesamt]**: Gesamtzahl der unterschiedlichen Empfängerinnen und Empfänger, die einen Versand mindestens einmal angeklickt haben.
 
@@ -46,9 +46,9 @@ Die **[!UICONTROL Versandübersicht]** bietet wichtige Leistungsmetriken (KPIs) 
 >title="Statistiken der ursprünglichen Zielgruppe"
 >abstract="Empfängerdaten und Nachrichteninformationen werden in der Tabelle **Statistiken der ursprünglichen Zielgruppe** angezeigt, die die Analyse der Versandvorbereitung widerspiegelt."
 
-Die Tabelle **[!UICONTROL Statistiken der anfänglichen Zielgruppe]** zeigt Daten zu Ihren Empfängerinnen und Empfängern an. Die Metriken werden bei der Versandvorbereitung berechnet und zeigen: die ursprüngliche Zielgruppe, die Anzahl der zu sendenden Nachrichten und die Anzahl der ausgeschlossenen Empfängerinnen und Empfänger.
+Die **[!UICONTROL Ursprüngliche Zielgruppenstatistiken]** zeigt Daten zu Ihren Empfängerinnen und Empfängern an. Metriken werden während der Versandvorbereitung berechnet und zeigen die ursprüngliche Zielgruppe, die Anzahl der zu sendenden Nachrichten und die Anzahl der ausgeschlossenen Empfänger an.
 
-![](assets/direct-mail-campaign-target-audience.png){zoomable="yes"}
+![Statistiken der ursprünglichen Zielgruppe für Briefpostkampagnen](assets/direct-mail-campaign-target-audience.png){zoomable="yes"}
 
 +++Erfahren Sie mehr über die Metriken zu den Statistiken der ursprünglichen Zielgruppe.
 
@@ -56,7 +56,7 @@ Die Tabelle **[!UICONTROL Statistiken der anfänglichen Zielgruppe]** zeigt Date
 
 * **[!UICONTROL Zu versendende Nachricht]**: Gesamtzahl der nach erfolgter Versandvorbereitung zu versendenden Nachrichten.
 
-* **[!UICONTROL Aufgrund von Regeln abgelehnt]**: Gesamtzahl der Adressen, die während der Analyse beim Anwenden von Regeln ignoriert wurden: fehlende Adresse, in Quarantäne, auf Blockierungsliste usw.
+* **[!UICONTROL Aufgrund von Regeln abgelehnt]**: Gesamtzahl der Adressen, die während der Analyse beim Anwenden von Regeln ignoriert wurden, z. B. fehlende Adressen, in Quarantäne befindliche Adressen oder Adressen auf einer Blockierungsliste.
 
 +++
 
@@ -67,9 +67,9 @@ Die Tabelle **[!UICONTROL Statistiken der anfänglichen Zielgruppe]** zeigt Date
 >title="Versandstatistiken"
 >abstract="Die Tabelle **Ausführungsstatistiken** zeigt den Erfolg Ihres Briefpostversands und die aufgetretenen Fehler an."
 
-![](assets/direct-mail-campaign-exec.png)
+![Ausführungsstatistiken für Briefpostkampagnen](assets/direct-mail-campaign-exec.png)
 
-Die Tabelle **[!UICONTROL Ausführungsstatistiken]** bietet eine Aufschlüsselung des Erfolgs jedes Briefpostversands mit folgenden detaillierten Metriken.
+Die **[!UICONTROL Ausführungsstatistiken]** Tabelle enthält eine Aufschlüsselung des Erfolgs jedes Briefpost-Versands mit detaillierten Metriken, die unten beschrieben werden.
 
 +++Erfahren Sie mehr über Versandstatistik-Metriken.
 
@@ -77,9 +77,9 @@ Die Tabelle **[!UICONTROL Ausführungsstatistiken]** bietet eine Aufschlüsselun
 
 * **[!UICONTROL Erfolg]**: Anzahl der erfolgreich verarbeiteten Nachrichten im Verhältnis zur Anzahl der zu versendenden Nachrichten.
 
-* **[!UICONTROL Fehler]**: Gesamtzahl der über alle Sendungen hinweg kumulierten Fehler und der automatischen Bounce-Verarbeitungen im Verhältnis zur Anzahl der zu versendenden Nachrichten.
+* **[!UICONTROL Fehler]**: Gesamtzahl der bei Sendungen und automatischer Bounce-Verarbeitung kumulierten Fehler im Verhältnis zur Anzahl der zu versendenden Nachrichten.
 
-* **[!UICONTROL Neue Quarantänen]**: Gesamtzahl der Adressen, die infolge eines fehlgeschlagenen Versands unter Quarantäne gestellt wurden (unbekannter Nutzer, ungültige Domain), im Verhältnis zur Anzahl der zu versendenden Nachrichten.
+* **[!UICONTROL Neue Quarantänen]**: Gesamtzahl der Adressen, die infolge eines fehlgeschlagenen Versands unter Quarantäne gestellt wurden (z. B. unbekannter Nutzer, ungültige Domain), im Verhältnis zur Anzahl der zu versendenden Nachrichten.
 
 +++
 
@@ -90,7 +90,7 @@ Die Tabelle **[!UICONTROL Ausführungsstatistiken]** bietet eine Aufschlüsselun
 >title="Generierte Clickstreams"
 >abstract="Die Tabelle **Generierte Clickstreams** zeigt Daten dazu an, wie Ihre Empfängerinnen und Empfänger mit Ihrem Versand interagiert haben."
 
-![](assets/direct-mail-campaign-clicks.png){zoomable="yes"}{align="center"}
+![Clickstream-Daten für Briefpostkampagnen](assets/direct-mail-campaign-clicks.png){zoomable="yes"}{align="center"}
 
 Die Tabelle **Erzeugte Clickstreams** zeigt die Gründe, warum aus den Zielprofilen ausgeschlossene Benutzerprofile die Nachricht nicht erhalten haben.
 

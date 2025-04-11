@@ -3,10 +3,10 @@ audience: end-user
 title: Verwenden der Workflow-Aktivität „Datenquelle ändern“
 description: Erfahren Sie, wie Sie die Workflow-Aktivität „Datenquelle ändern“ verwenden.
 exl-id: 4dd28746-7bc7-49fc-91ac-3312af02ef45
-source-git-commit: 52b129be88e48dd70c0f55b404fd3bbe699dbebb
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '343'
-ht-degree: 100%
+source-wordcount: '354'
+ht-degree: 80%
 
 ---
 
@@ -17,21 +17,21 @@ ht-degree: 100%
 >title="Datenquelle ändern"
 >abstract="Die Aktivität **Datenquelle ändern** ermöglicht die Auswahl einer anderen Datenquelle für die Arbeitstabelle Ihres Workflows."
 
-Die Aktivität **Datenquelle ändern** ist eine Aktivität zur **Zielgruppenbestimmung**. Mit dieser Aktivität können Sie die Datenquelle ändern, die von der Arbeitstabelle Ihres Workflows verwendet wird. Dies bietet mehr Flexibilität, da Sie auf diese Weise Daten in Ihren verschiedenen Datenbanken verwalten und die Leistung verbessern können.
+Die Aktivität **Datenquelle ändern** ist eine Aktivität zur **Zielgruppenbestimmung**. Mit dieser Aktivität können Sie die Datenquelle ändern, die von der Arbeitstabelle Ihres Workflows verwendet wird. Dies bietet mehr Flexibilität, da Sie Daten in allen Ihren verschiedenen Datenbanken verwalten und die Leistung verbessern können.
 
 In einem Workflow werden die von einer Aktivität zu einer anderen übertragenen Daten in temporären **Arbeitstabellen** gespeichert. Standardmäßig werden die Arbeitstabellen auf derselben Datenbank erstellt wie die Quelle der verarbeiteten Daten. Wenn Sie beispielsweise die Tabelle „Profile“ in der Cloud-Datenbank abfragen, wird eine Arbeitstabelle in derselben Cloud-Datenbank erstellt.
 
 In einigen Fällen sind entweder keine Daten in der aktuellen Datenbank verfügbar oder sie sind nicht effizient genug, um einzelne Vorgänge durchzuführen. Möglicherweise müssen Sie den Workflow zwingen, eine andere Datenbank zu verwenden, um solche Vorgänge durchzuführen, indem Sie die Aktivität **[!UICONTROL Datenquelle ändern]** hinzufügen.
 
-Detaillierte Informationen zur Campaign-Architektur finden Sie in der [Dokumentation zu Campaign v8 (Client-Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html?lang=de).
+Ausführliche Informationen zur Campaign-Architektur finden Sie in der [ zu Campaign v8 (Client-Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html?lang=de).
 
 >[!IMPORTANT]
 >
->Beachten Sie, dass die Aktivitäten **[!UICONTROL Dimensionsänderung]** und **[!UICONTROL Datenquelle ändern]** nicht in einer Zeile hinzugefügt werden sollten. Wenn Sie beide Aktivitäten nacheinander verwenden müssen, muss die Aktivität **[!UICONTROL Anreicherung]** zwischen ihnen enthalten sein. Dadurch wird eine ordnungsgemäße Ausführung sichergestellt und potenzielle Konflikte oder Fehler werden vermieden.
+>Beachten Sie, dass die Aktivitäten **[!UICONTROL Dimension ändern]** und **[!UICONTROL Datenquelle ändern]** nicht in einer Zeile hinzugefügt werden sollten. Wenn Sie beide Aktivitäten nacheinander verwenden müssen, schließen Sie eine Aktivität **[!UICONTROL Anreicherung]** zwischen sie ein. Dadurch wird eine ordnungsgemäße Ausführung sichergestellt und potenzielle Konflikte oder Fehler werden vermieden.
 
 <!--
 
-Let's say you want to send to your  VIP customers a unique offer code that they can redeem on your online store. To do this, you need to:
+Let's say you want to send VIP customers a unique offer code that they can redeem on your online store. To do this, you need to:
 
 1. Query VIP customers on the "Profiles" table located on the Cloud database,
 1. Retrieve an offer code for each targeted profile through API calls,
@@ -45,9 +45,9 @@ Before executing the operation, the working table is copied to the local databas
 
 ## Konfigurieren der Aktivität „Datenquelle ändern“ {#configure}
 
-Gehen Sie folgendermaßen vor, um die Aktivität **Dimensionsänderung** zu konfigurieren:
+Führen Sie die folgenden Schritte aus, um die Aktivität **Datenquelle ändern** zu konfigurieren:
 
-![](../assets/workflow-change-data-source-add.png)
+![Screenshot, der zeigt, wie die Aktivität „Datenquelle ändern“ zu einem Workflow hinzugefügt wird.](../assets/workflow-change-data-source-add.png)
 
 1. Fügen Sie die Aktivität **Datenquelle ändern** zu Ihrem Workflow hinzu.
 
@@ -65,6 +65,6 @@ Gehen Sie folgendermaßen vor, um die Aktivität **Dimensionsänderung** zu konf
 <!--
 ## Example {#example}
 
-The workflow belows illustrates the use case detailed earlier, i.e. sending VIP customers offer codes that they can redeem on our online store.
+The workflow below illustrates the use case detailed earlier, sending VIP customers offer codes that they can redeem on our online store.
 
 -->

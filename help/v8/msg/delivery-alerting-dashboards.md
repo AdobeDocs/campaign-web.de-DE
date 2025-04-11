@@ -3,10 +3,10 @@ audience: end-user
 title: Versandwarnung
 description: Erfahren Sie, wie Sie mit Versandwarnungen arbeiten können.
 exl-id: b91ef82b-f3e9-4704-87a2-0e3f75104572
-source-git-commit: bbfee1479593ff6ae3f77ef5bfd760d63e640c76
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '1050'
-ht-degree: 100%
+source-wordcount: '1115'
+ht-degree: 87%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 In Versandwarnungs-Dashboards können Sie festlegen, wer E-Mail-Warnungen erhalten soll, die Warnungskriterien zum Senden dieser Warnungen auswählen und konfigurieren sowie auf den Verlauf aller gesendeten Benachrichtigungen zugreifen.  Zugriff darauf erhalten Sie über das Menü **Versandwarnung** im linken Navigationsbereich, und zwar durch die Registerkarte **Dashboards**.
 
-![](assets/alerting-dashboard-list.png)
+![Screenshot mit der Liste der Warnungs-Dashboards im Menü Versandwarnungen.](assets/alerting-dashboard-list.png)
 
 ## Erstellen eines Versand-Dashboards {#dashboards}
 
@@ -47,21 +47,21 @@ Gehen Sie wie folgt vor, um ein Versand-Dashboard zu erstellen:
 
 1. Navigieren Sie zum Menü **Versandwarnung** im linken Navigationsbereich und klicken Sie auf **Versand-Dashboard erstellen**.
 
-   ![](assets/alerting-dashboard.png)
+   ![Screenshot mit der Option „Versand-Dashboard erstellen“ im Menü „Versandwarnung“.](assets/alerting-dashboard.png)
 
 1. Benennen Sie Ihr Dashboard im Feld **Titel**. Das Feld **Interner Name** wird automatisch ausgefüllt und schreibgeschützt.
 
 1. Geben Sie im Feld **Warnungsgruppe auswählen** die **Benutzergruppe** an, um die von diesem Dashboard gesendeten Warnungen zu erhalten. Alle Mitglieder der ausgewählten Benutzergruppe erhalten die Warnungen.
 
-   Weitere Informationen zu Berechtigungen und Benutzergruppen finden Sie in der [Dokumentation zu Adobe Campaign v8 (Konsole)](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/admin/permissions/gs-permissions){target="_blank"}.
+   Weitere Informationen zu Berechtigungen und Benutzergruppen finden Sie in der Dokumentation zu [Adobe Campaign v8 (Konsole)](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/admin/permissions/gs-permissions){target="_blank"}
 
 1. Fügen Sie im Abschnitt **Versandwarnungskriterien** Kriterien hinzu, die Sie zum Senden von Warnungen verwenden möchten. Wählen Sie aus vordefinierten Kriterien oder erstellen Sie eigene Kriterien, um sie an bestimmte Anforderungen anzupassen. [Erfahren Sie, wie Sie mit Kriterien arbeiten](../msg/delivery-alerting-criteria.md)
 
-1. Kriterien verfügen über Standardparameter, die definieren, wie sie angewendet werden sollen. Sie können diese Werte im Abschnitt **Kriterienparameter** Ihren Anforderungen entsprechend ändern.
+1. Kriterien haben standardmäßige Parameterwerte, die definieren, wie sie angewendet werden müssen. Sie können diese Werte im Abschnitt **Kriterienparameter** Ihren Anforderungen entsprechend ändern.
 
-   ![](assets/alerting-criteria-parameters.png)
+   ![Screenshot mit dem Abschnitt „Kriterienparameter“ im Versand-Dashboard.](assets/alerting-criteria-parameters.png)
 
-   Zum Beispiel ist der Kriterienparameter **Mindestgröße der Versandzielgruppe** standardmäßig auf 50 gesetzt, d. h. ein Versand wird nur dann in die von diesem Dashboard gesendete Warnung aufgenommen, wenn er mindestens 50 Profile anspricht. Sie können diesen Parameter ändern, wenn Sie Sendungen einbeziehen möchten, die weniger als 50 Profile ansprechen.
+   Zum Beispiel ist der Kriterienparameter **Mindestgröße der Versandzielgruppe** standardmäßig auf 50 gesetzt, d. h. ein Versand wird nur dann in die von diesem Dashboard gesendete Warnung aufgenommen, wenn er mindestens 50 Profile anspricht. Sie können diesen Parameter ändern, wenn Sie Sendungen mit weniger als 50 Profilen einbeziehen möchten.
 
    Erweitern Sie den folgenden Abschnitt, um weitere Informationen zu den einzelnen Kriterienparametern zu erhalten:
 
@@ -83,7 +83,7 @@ Gehen Sie wie folgt vor, um ein Versand-Dashboard zu erstellen:
 
    Sie können das Dashboard auch speichern und später aktivieren.
 
-   ![](assets/alerting-dashboard-enable.png)
+   ![Screenshot mit der Umschaltoption Aktiviert in den Versand-Dashboard-Einstellungen.](assets/alerting-dashboard-enable.png)
 
 1. Um das Warnungs-Dashboard zu speichern, klicken Sie auf die Schaltfläche **Speichern**.
 
@@ -105,12 +105,12 @@ Immer wenn jetzt ein Versand die von Ihnen in diesem Dashboard definierten Krite
 
 Alle erstellten Warnungs-Dashboards sind über das Menü **Versandwarnung** auf der Registerkarte **Dashboards** zugänglich.
 
-![](assets/alerting-dashboard-list.png)
+![Screenshot mit der Liste der Warnungs-Dashboards im Menü Versandwarnungen.](assets/alerting-dashboard-list.png)
 
 Sie können ein Dashboard über die Schaltfläche **Mehr Aktionen** neben seinem Namen duplizieren oder löschen.
 
 Um auf die detaillierte Ansicht eines Dashboards zuzugreifen, klicken Sie in der Liste auf dessen Namen. Auf diesem Bildschirm können Sie die zuletzt gesendete Warnung visualisieren. Alle gesendeten Warnungen werden im linken Bereich aufgelistet. Klicken Sie auf ein Element, um auf die entsprechenden Warnungen zuzugreifen, die zu dem jeweiligen Zeitpunkt gesendet wurden.
 
-![](assets/alerting-dashboard-details.png)
+![Screenshot mit der Detailansicht eines Warnungs-Dashboards.](assets/alerting-dashboard-details.png)
 
 Um das Dashboard zu bearbeiten, klicken Sie auf die Schaltfläche **Einstellungen** in der oberen rechten Ecke und nehmen Sie die gewünschten Änderungen vor.

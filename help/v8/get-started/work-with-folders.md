@@ -3,10 +3,10 @@ audience: end-user
 title: Arbeiten mit Ordnern
 description: Erfahren Sie, wie Sie in Adobe Campaign einen Ordner verwalten.
 exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
-source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
-workflow-type: ht
-source-wordcount: '574'
-ht-degree: 100%
+source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+workflow-type: tm+mt
+source-wordcount: '626'
+ht-degree: 25%
 
 ---
 
@@ -36,49 +36,45 @@ ht-degree: 100%
 
 Ordner sind Objekte in Adobe Campaign zur Organisation Ihrer Komponenten und Daten.
 
-Sie können Ordner im Navigationsbaum erstellen, umbenennen, neu anordnen und verschieben. Sie können sie auch Ihren Bedürfnissen entsprechend löschen.
+Sie können Ordner im Navigationsbaum erstellen, umbenennen, neu anordnen und verschieben. Sie können sie auch auf Grundlage Ihrer Rechte löschen.
 
-![](assets/folders.png){zoomable="yes"}
+![Ordnerschnittstelle mit Ordnerorganisation](assets/folders.png){zoomable="yes"}
 
-Sie können einen Ordnertyp einrichten. Zum Beispiel: ein Ordner mit Sendungen.
-Das Symbol des Ordners ändert sich je nach Typ.
+Sie können einen Ordnertyp einrichten. Beispiel: ein Versandordner. Das Ordnersymbol ändert sich je nach Typ.
 
 ## Erstellen eines neuen Ordners {#create-a-folder}
 
 Gehen Sie wie folgt vor, um in der Adobe Campaign Web-Benutzeroberfläche einen neuen Ordner zu erstellen:
 
-1. Navigieren Sie dazu in **[!UICONTROL Explorer]** zu dem Ordner, in dem Sie Ihren neuen Ordner erstellen möchten.
-Im Menü **[!UICONTROL …]** finden Sie die Option **[!UICONTROL Neuen Ordner erstellen]**.
+1. Wechseln **[!UICONTROL Explorer]** in den Ordner, in dem Sie den neuen Ordner erstellen möchten. Wählen Sie im Menü **[!UICONTROL …]** die Option **[!UICONTROL Neuen Ordner erstellen]**.
 
-![](assets/folder_create.png){zoomable="yes"}
+![Option Neuen Ordner erstellen im Explorer-Menü](assets/folder_create.png){zoomable="yes"}
 
-Wenn Sie einen neuen Ordner erstellen, ist der Ordner standardmäßig vom selben Typ wie der übergeordnete Ordner.  In unserem Beispiel erstellen wir einen Ordner im Ordner **[!UICONTROL Sendungen]**.
+Wenn Sie einen neuen Ordner erstellen, ist der Ordnertyp standardmäßig auf den Typ des übergeordneten Ordners eingestellt. In diesem Beispiel wird ein Ordner im Ordner **[!UICONTROL Sendungen]** erstellt.
 
-![](assets/folder_new.png){zoomable="yes"}
+![Neuer Ordner im Versandordner erstellt](assets/folder_new.png){zoomable="yes"}
 
-1. Ändern Sie bei Bedarf den Typ des Ordners, indem Sie auf das Symbol des Ordnertyps klicken, und wählen Sie ihn in der angezeigten Liste aus, wie unten dargestellt:
+1. Ändern Sie den Ordnertyp, indem Sie bei Bedarf auf das Symbol Ordnertyp klicken und wählen Sie den gewünschten Ordnertyp aus der angezeigten Liste aus, wie unten dargestellt:
 
-![](assets/folder_type.png){zoomable="yes"}
+![Benutzeroberfläche für die Ordnertypauswahl](assets/folder_type.png){zoomable="yes"}
 
-Richten Sie den Ordnertyp ein, indem Sie auf die Schaltfläche **[!UICONTROL Bestätigen]** klicken.
+Legen Sie den Ordnertyp fest, indem Sie auf die Schaltfläche **[!UICONTROL Bestätigen]** klicken.
 
-Wenn Sie einen Ordner ohne bestimmten Typ erstellen möchten, wählen Sie den Typ **[!UICONTROL Allgemeiner Ordner]** aus.
+Wenn Sie einen Ordner ohne bestimmten Typ erstellen möchten, wählen Sie den Typ **[!UICONTROL Generischer Ordner]** aus.
 
 Sie können auch [Ordner in der Adobe Campaign-Konsole erstellen und verwalten](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/config/configuration/folders-and-views).
 
-
 ## Neuanordnen von Ordner {#reorder-folders}
 
-Sie können die Ordner Ihren Bedürfnissen entsprechend neu anordnen. Klicken Sie dazu auf **[!UICONTROL Ordner neu anordnen]**, wie unten dargestellt.
+Sie können Ordner je nach Bedarf neu anordnen. Klicken Sie dazu auf **[!UICONTROL Ordner neu anordnen]**, wie unten dargestellt.
 
-In unserem Beispiel enthält der Ordner **Sendungen** vier Ordner.
+In diesem Beispiel enthält der Ordner **Sendungen** vier Unterordner.
 
-![](assets/folder-reorder.png){zoomable="yes"}
+![Die Ordnerschnittstelle mit Ordnerhierarchie neu anordnen](assets/folder-reorder.png){zoomable="yes"}
 
-Sie können die Reihenfolge Ihrer Ordner entweder durch **Ziehen und Ablegen** oder durch Verwendung der **Nach-oben- und Nach-unten-Taste** ändern.
+Sie können die Reihenfolge der Ordner ändern, indem Sie entweder **Drag-and-Drop** oder die Pfeile nach **und unten**.
 
-![](assets/folder-draganddrop.png){zoomable="yes"}
-
+![Drag-and-Drop-Funktion für die Neuanordnung von Ordnern](assets/folder-draganddrop.png){zoomable="yes"}
 
 ## Löschen eines Ordners {#delete-a-folder}
 
@@ -86,45 +82,44 @@ Sie können die Reihenfolge Ihrer Ordner entweder durch **Ziehen und Ablegen** o
 >
 >Beim Löschen eines Ordners werden auch alle im Ordner gespeicherten Daten gelöscht.
 
-Um einen Ordner zu löschen, wählen Sie ihn im Baum **[!UICONTROL Explorer]** aus und klicken Sie auf das Menü **[!UICONTROL ...]**.
-Wählen Sie **[!UICONTROL Ordner löschen]** aus.
+Um einen Ordner zu löschen, wählen Sie ihn in Ihrer **[!UICONTROL Explorer]**-Struktur aus und klicken Sie auf das Menü **[!UICONTROL …]**. Wählen Sie **[!UICONTROL Ordner löschen]** aus.
 
-![](assets/folder_delete.png){zoomable="yes"}
+![Option Ordner löschen im Explorer-Menü](assets/folder_delete.png){zoomable="yes"}
 
 ## Werteverteilung in einem Ordner {#distribution-values-folder}
 
-Die Werteverteilung hilft dabei, den Prozentsatz eines Werts in einer Spalte innerhalb einer Tabelle zu ermitteln.
+Die Werteverteilung hilft Ihnen, den Prozentsatz eines Werts in einer Spalte innerhalb einer Tabelle zu verstehen.
 
-Um die Wertverteilung in einem Ordner zu ermitteln, gehen Sie wie folgt vor:
+Um die Werteverteilung in einem Ordner anzuzeigen, gehen Sie wie unten beschrieben vor.
 
-Wir möchten beispielsweise die Werteverteilung der Spalte **Kanal** unter den Sendungen ermitteln.
+Beispielsweise möchten Sie vielleicht über die Verteilung der Werte in der Spalte &quot;**&quot;**.
 
-Um diese Informationen zu erhalten, gehen Sie zum Ordner **[!UICONTROL Sendungen]** und klicken Sie auf das Symbol **[!UICONTROL Spalten konfigurieren]**.
+Rufen Sie diese Informationen im Ordner **[!UICONTROL Sendungen]** ab und klicken Sie auf das Symbol **[!UICONTROL Spalten konfigurieren]**.
 
-Klicken Sie im Fenster **[!UICONTROL Spalten konfigurieren]** auf das Symbol **[!UICONTROL Informationen]** der Spalte, deren Informationen Sie ermitteln möchten. Klicken Sie dann auf die Schaltfläche **[!UICONTROL Werteverteilung]**.
+Klicken Sie **[!UICONTROL Fenster „Spalten konfigurieren]** auf das Symbol **[!UICONTROL Informationen]** für die Spalte, die Sie analysieren möchten. Klicken Sie dann auf die Schaltfläche **[!UICONTROL Werteverteilung]**.
 
-![](assets/values_deliveries.png){zoomable="yes"}
+![Schnittstelle Werteverteilung für Sendungen](assets/values_deliveries.png){zoomable="yes"}
 
-Sie erhalten den Prozentsatz der Werte in der Spalte **[!UICONTROL Kanal]**.
+Der Prozentsatz der Werte wird in der Spalte **[!UICONTROL Kanal]** angezeigt.
 
-![](assets/values_percentage.png){zoomable="yes"}
+![Prozentuale Verteilung der Werte in der Kanalspalte](assets/values_percentage.png){zoomable="yes"}
 
 >[!NOTE]
 >
-> Bei Spalten mit vielen Werten werden nur die ersten zwanzig Werte angezeigt. Sie werden durch die Benachrichtigung **[!UICONTROL Teilladung]** gewarnt.
+>Bei Spalten mit vielen Werten werden nur die ersten zwanzig Werte angezeigt. Eine Benachrichtigung **[!UICONTROL Teillast]** warnt Sie.
 
-Sie können auch die Werteverteilung eines Links ermitteln.
+Sie können auch die Werteverteilung für einen Link anzeigen.
 
-Klicken Sie in der Attributliste auf die Schaltfläche **+** neben dem gewünschten Link, wie unten dargestellt. Dadurch wird der Link zu den **[!UICONTROL Ausgabespalten]** hinzugefügt. Jetzt können Sie über das Symbol **[!UICONTROL Informationen]** verfügen, über das Sie die Verteilung der Werte anzeigen können. Wenn Sie den Link nicht in den **[!UICONTROL Ausgabespalten]** beibehalten möchten, klicken Sie auf die Schaltfläche **[!UICONTROL Abbrechen]**.
+Klicken Sie in der Attributliste auf die Schaltfläche **+** neben dem gewünschten Link, wie unten dargestellt. Dadurch wird der Link zu den **[!UICONTROL Ausgabespalten]** hinzugefügt. Sie können jetzt auf das Symbol **[!UICONTROL Informationen]** zugreifen, über das Sie die Verteilung der Werte anzeigen können. Wenn Sie den Link nicht in den „Ausgabespalten **[!UICONTROL beibehalten möchten,]** Sie auf die Schaltfläche **[!UICONTROL Abbrechen]**.
 
-![](assets/values_link.png){zoomable="yes"}
+![Verteilung der Werte für eine Relation in den Ausgabespalten](assets/values_link.png){zoomable="yes"}
 
-Es ist auch möglich, die Werteverteilung in einem Abfrage-Modeler zu ermitteln. [Weitere Informationen finden Sie hier](../query/build-query.md#distribution-of-values-in-a-query).
+Es ist auch möglich, die Werteverteilung in einem Abfrage-Modellierer anzuzeigen. [Weitere Informationen finden Sie hier](../query/build-query.md#distribution-of-values-in-a-query).
 
 ### Filtern der Werte {#filter-values}
 
-Mithilfe der **[!UICONTROL erweiterten Filter]** im Fenster „Werteverteilung“ können Sie Ihre Ergebnisse nach bestimmten Bedingungen filtern.
+Mithilfe der **[!UICONTROL Erweiterten Filter]** im Fenster Werteverteilung können Sie die Ergebnisse anhand der angegebenen Bedingungen filtern.
 
-Im obigen Beispiel der Versandliste, in der die Verteilung nach Kanal dargestellt wird, können Sie sie beispielsweise so filtern, dass nur die Sendungen angezeigt werden, deren Status **Abgeschlossen** ist.
+Im Beispiel der Versandliste oben, das die Verteilung nach Kanal zeigt, können Sie sie so filtern, dass nur Sendungen mit dem Status **Abgeschlossen“** werden.
 
-![](assets/values_filter.png){zoomable="yes"}
+![Erweiterte Filter werden auf die Werteverteilung angewendet](assets/values_filter.png){zoomable="yes"}

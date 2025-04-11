@@ -3,18 +3,18 @@ audience: end-user
 title: Globale Berichte für den Briefpost-Kanal
 description: Erfahren Sie mehr über globale Berichte für den Briefpost-Kanal
 exl-id: a42536fe-375b-4169-8775-d47ed26692f8
-source-git-commit: 98a0ce67682f8e1ab412be91b5af01e35c638f99
+source-git-commit: aa9ddb8841d8ef77c9f76e4d05cdffd4a1c87c66
 workflow-type: tm+mt
-source-wordcount: '620'
-ht-degree: 100%
+source-wordcount: '659'
+ht-degree: 62%
 
 ---
 
 # Globale Berichte für den Briefpost-Kanal {#global-report-direct}
 
-Die globalen Briefpost-Berichte bieten einen umfassenden Überblick über Traffic- und Interaktionsmetriken auf Kanalebene.
+Die globalen Berichte für Briefpost bieten Benutzenden einen umfassenden Überblick über Traffic- und Interaktionsmetriken auf Kanalebene.
 
-Navigieren Sie zum Menü **[!UICONTROL Berichte]** im Abschnitt **[!UICONTROL Berichterstellung]**. Sie können Ihre Daten nach Berichtsdatum, -ordner oder -regeln filtern. [Weitere Informationen](global-reports.md)
+Navigieren Sie zum Menü **[!UICONTROL Berichte]** im Abschnitt **[!UICONTROL Berichterstellung]**. Sie können Ihre Daten nach Berichtsdatum, Ordner oder Regeln filtern. [Weitere Informationen](global-reports.md)
 
 ## Versandzusammenfassung {#delivery-summary-direct}
 
@@ -25,9 +25,9 @@ Navigieren Sie zum Menü **[!UICONTROL Berichte]** im Abschnitt **[!UICONTROL Be
 >title="Versandübersicht"
 >abstract="Die **Versandübersicht** präsentiert wichtige Leistungsmetriken (KPI) mit umfassenden Erkenntnissen zur Interaktion Ihrer Besucherinnen und Besucher mit jedem Briefpostversand. Die Metriken sind unten dargestellt."
 
-Die **[!UICONTROL Versandübersicht]** bietet wichtige Leistungsmetriken (KPIs) mit umfassenden Erkenntnissen über die Interaktion Ihrer Besucherinnen und Besucher mit jedem Briefpostversand. Die Metriken sind unten dargestellt.
+Die **[!UICONTROL Versandübersicht]** enthält wichtige Leistungsmetriken (KPIs) und bietet detaillierte Einblicke in die Interaktion Ihrer Besucherinnen und Besucher mit jedem Briefpost-Versand. Die Metriken sind unten dargestellt.
 
-![](assets/global_report_direct_mail_delivery_overview.png){zoomable="yes"}{align="center"}
+![Dieses Bild zeigt die Metriken der Versandübersicht für Briefpost-Sendungen.](assets/global_report_direct_mail_delivery_overview.png){zoomable="yes"}{align="center"}
 
 +++Erfahren Sie mehr über Versandübersichtsmetriken.
 
@@ -35,9 +35,10 @@ Die **[!UICONTROL Versandübersicht]** bietet wichtige Leistungsmetriken (KPIs) 
 
 * **[!UICONTROL Zugestellt]**: Anzahl der erfolgreich gesendeten Nachrichten im Verhältnis zur Gesamtzahl der gesendeten Nachrichten.
 
-* **[!UICONTROL Fehler]**: Summe der Fehler, die beim Versand und bei der automatischen Rücksendung kumuliert wurden, bezogen auf die Gesamtzahl der gesendeten Nachrichten.
+* **[!UICONTROL Fehler]**: Gesamtzahl der kumulierten Fehler beim Versand und bei der automatischen Rücksendung, bezogen auf die Gesamtzahl der gesendeten Nachrichten.
 
-* **[!UICONTROL Abmeldungen]**: Anzahl der Empfänger, die auf „Abmelden“ geklickt haben.
+* **[!UICONTROL Abmeldungen]**: Anzahl der Empfängerinnen und Empfänger, die auf Abmelde-Links geklickt haben.
+
 +++
 
 ### Zielgruppe {#delivery-summary-direct-initial-target}
@@ -54,7 +55,7 @@ Die **[!UICONTROL Versandübersicht]** bietet wichtige Leistungsmetriken (KPIs) 
 
 Die Tabelle und der Graph **[!UICONTROL Zielgruppe]** zeigen Daten zu Ihren Empfängerinnen und Empfängern, mit detaillierten Metriken unten.
 
-![](assets/global_report_direct_mail_targeted_audience.png){zoomable="yes"}{align="center"}
+![Dieses Bild zeigt die Zielgruppenmetriken für Briefpost-Sendungen.](assets/global_report_direct_mail_targeted_audience.png){zoomable="yes"}{align="center"}
 
 +++Erfahren Sie mehr über Zielgruppen-Metriken.
 
@@ -62,7 +63,7 @@ Die Tabelle und der Graph **[!UICONTROL Zielgruppe]** zeigen Daten zu Ihren Empf
 
 * **[!UICONTROL Zu versendende Nachricht]**: Gesamtzahl der nach erfolgter Versandvorbereitung zu versendenden Nachrichten.
 
-* **[!UICONTROL Ausschluss]**: Gesamtzahl der Adressen, die bei der Anwendung von Regeln in der Analyse ignoriert werden: fehlende Adresse, in Quarantäne, auf der Blockierungsliste, usw.
+* **[!UICONTROL Ausschluss]**: Gesamtzahl der Adressen, die während der Analyse beim Anwenden von Regeln ignoriert wurden, z. B. fehlende Adresse, in Quarantäne oder auf einer Blockierungsliste.
 
 +++
 
@@ -86,9 +87,9 @@ Der Graph **[!UICONTROL Versandstatistiken]** bietet eine Aufschlüsselung des E
 
 * **[!UICONTROL Erfolg]**: Anzahl der erfolgreich verarbeiteten Nachrichten im Verhältnis zur Anzahl der zu versendenden Nachrichten.
 
-* **[!UICONTROL Fehler/Bounces]**: Gesamtzahl der über alle Sendungen hinweg kumulierten Fehler und der automatischen Bounce-Verarbeitungen im Verhältnis zur Anzahl der zu versendenden Nachrichten.
+* **[!UICONTROL Fehler/Bounces]**: Gesamtzahl der kumulierten Fehler bei Sendungen und automatischer Bounce-Verarbeitung im Verhältnis zur Anzahl der zu versendenden Nachrichten.
 
-* **[!UICONTROL Neue Quarantänen]**: Gesamtzahl der Adressen, die infolge eines fehlgeschlagenen Versands unter Quarantäne gestellt wurden (unbekannter Nutzer, ungültige Domain), im Verhältnis zur Anzahl der zu versendenden Nachrichten.
+* **[!UICONTROL Neue Quarantänen]**: Gesamtzahl der Adressen, die infolge eines fehlgeschlagenen Versands unter Quarantäne gestellt wurden (z. B. unbekannter Nutzer, ungültige Domain), im Verhältnis zur Anzahl der zu versendenden Nachrichten.
 
 +++
 
@@ -104,21 +105,21 @@ Der Graph **[!UICONTROL Versandstatistiken]** bietet eine Aufschlüsselung des E
 >title="Ausschlussgründe"
 >abstract="Der Graph **Ausschlussgründe** zeigt die Verteilung der zurückgewiesenen Nachrichten während der Versandvorbereitung, kategorisiert nach den jeweiligen Regeln."
 
-![](assets/global_report_direct_mail_exclusions.png){zoomable="yes"}{align="center"}
+![Dieses Bild zeigt die Ursachen von Ausschlussmetriken für Briefpost-Sendungen.](assets/global_report_direct_mail_exclusions.png){zoomable="yes"}{align="center"}
 
 Der Graph und die Tabelle „Ausschlüsse“ zeigen die Gründe, aus denen Benutzerprofile, die aus den Zielprofilen ausgeschlossen sind, die Benachrichtigung nicht erhalten haben.
 
 +++Erfahren Sie mehr über Metriken zu Ausschlussgründen.
 
-* **[!UICONTROL Adresse in Quarantäne]**: Fehlertyp, der erzeugt wird, wenn eine Adresse unter Quarantäne gestellt wird.
+* **[!UICONTROL Adresse in Quarantäne]**: Fehlertyp, der erzeugt wird, wenn eine Adresse in Quarantäne gestellt wird.
 
 * **[!UICONTROL Adresse nicht angegeben]**: Fehlertyp, der beim Durchführen eines Versands erzeugt wird, wenn eine Adresse nicht existiert.
 
-* **[!UICONTROL Adresse schlechter Qualität]**: Fehlertyp, der erzeugt wird, wenn der Qualitätsindex der Postanschrift zu niedrig ist.
+* **[!UICONTROL Adresse schlechter Qualität]**: Fehlertyp, der erzeugt wird, wenn die Qualitätsbewertung der Postanschrift zu niedrig ist.
 
 * **[!UICONTROL Adresse, die auf die Blockierungsliste gesetzt wurde]**: Fehlertyp, der erzeugt wird, wenn sich die Empfängerin oder der Empfänger zum Zeitpunkt der Versanddurchführung auf die Blockierungsliste befand.
 
-* **[!UICONTROL Doppelt]**: Fehlertyp, der erzeugt wird, wenn die Empfängerin oder der Empfänger aufgrund nicht eindeutiger Schlüsselwerte ausgeschlossen wurde.
+* **[!UICONTROL Double]**: Fehlertyp, der erzeugt wurde, als der Empfänger ausgeschlossen wurde, weil seine Schlüsselwerte nicht eindeutig waren.
 
 * **[!UICONTROL Kontrollgruppenadresse]**: Die Adresse der Empfängerin oder des Empfängers ist Teil der Kontrollgruppe.
 

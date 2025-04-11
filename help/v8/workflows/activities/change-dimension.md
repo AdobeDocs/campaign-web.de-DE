@@ -3,10 +3,10 @@ audience: end-user
 title: Verwenden der Workflow-Aktivität „Dimensionsänderung“
 description: Erfahren Sie, wie Sie die Workflow-Aktivität „Dimensionsänderung“ verwenden
 exl-id: 08870946-91c6-4ab0-84de-4d9b968884b3
-source-git-commit: 52b129be88e48dd70c0f55b404fd3bbe699dbebb
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 100%
+source-wordcount: '346'
+ht-degree: 52%
 
 ---
 
@@ -15,20 +15,20 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_dimension_complement"
 >title="Erzeugen eines Komplements"
->abstract="Sie können eine zusätzliche ausgehende Transition mit der verbleibenden Population generieren, die als Duplikat ausgeschlossen wurde. Schalten Sie dazu die Option **Komplement erzeugen** ein"
+>abstract="Sie können eine zusätzliche ausgehende Transition mit der verbleibenden Population generieren, die als Duplikat ausgeschlossen wurde. Schalten Sie dazu die Option **Komplement erzeugen** ein."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_change_dimension"
 >title="Aktivität „Dimensionsänderung“"
->abstract="Mithilfe dieser Aktivität können Sie die Zielgruppendimension beim Erstellen einer Zielgruppe ändern. Diese Aktivität verschiebt die Achse je nach Datenvorlage und der Eingabedimension. Beispielsweise können Sie von der Dimension „Verträge“ zur Dimension „Kundinnen und Kunden“ wechseln."
+>abstract="Mithilfe dieser Aktivität können Sie die Zielgruppendimension beim Erstellen einer Zielgruppe ändern. Diese Aktivität verschiebt die Achse je nach Datenvorlage und der Eingabedimension. Sie können beispielsweise von der Dimension „Verträge“ zur Dimension „Kunden“ wechseln."
 
-Die Aktivität **Dimensionsänderung** ist eine Aktivität zur **Zielgruppenbestimmung**. Mithilfe dieser Aktivität können Sie die Zielgruppendimension beim Erstellen des Workflows ändern. Diese Aktivität verschiebt die Achse je nach Datenvorlage und der Eingabedimension. [Weitere Informationen zu Zielgruppendimensionen](../../audience/about-recipients.md#targeting-dimensions)
+Die Aktivität **Dimensionsänderung** ist eine Aktivität zur **Zielgruppenbestimmung**. Mithilfe dieser Aktivität können Sie die Zielgruppendimension beim Erstellen des Workflows ändern. Diese Aktivität verschiebt die Achse je nach Datenvorlage und der Eingabedimension. [Weitere Informationen zu Zielgruppendimensionen](../../audience/about-recipients.md#targeting-dimensions).
 
-Sie können beispielsweise die Zielgruppendimension eines Workflows von „Empfängerinnen und Empfänger“ in „Abonnentenanwendung“ ändern, um Push-Benachrichtigungen an die angesprochenen Empfängerinnen und Empfänger zu senden.
+Sie können beispielsweise die Zielgruppendimension eines Workflows von „Empfänger“ auf „Abonnentenanwendung“ wechseln, um Push-Benachrichtigungen an die Zielgruppenempfängerinnen und -empfänger zu senden.
 
 >[!IMPORTANT]
 >
->Beachten Sie, dass die Aktivitäten **[!UICONTROL Dimensionsänderung]** und **[!UICONTROL Datenquelle ändern]** nicht in einer Zeile hinzugefügt werden sollten. Wenn Sie beide Aktivitäten nacheinander verwenden müssen, muss die Aktivität **[!UICONTROL Anreicherung]** zwischen ihnen enthalten sein. Dadurch wird eine ordnungsgemäße Ausführung sichergestellt und potenzielle Konflikte oder Fehler werden vermieden.
+>Beachten Sie, dass die Aktivitäten **[!UICONTROL Dimension ändern]** und **[!UICONTROL Datenquelle ändern]** nicht in einer Zeile hinzugefügt werden sollten. Wenn Sie beide Aktivitäten nacheinander verwenden müssen, schließen Sie eine Aktivität **[!UICONTROL Anreicherung]** zwischen sie ein. Dadurch wird eine ordnungsgemäße Ausführung sichergestellt und potenzielle Konflikte oder Fehler werden vermieden.
 
 ## Konfigurieren der Aktivität „Dimensionsänderung“ {#configure}
 
@@ -36,16 +36,16 @@ Gehen Sie folgendermaßen vor, um die Aktivität **Dimensionsänderung** zu konf
 
 1. Fügen Sie die Aktivität **Dimensionsänderung** zu Ihrem Workflow hinzu.
 
-   ![](../assets/workflow-change-dimension.png)
+   ![Screenshot der Aktivität Dimensionsänderung, die einem Workflow hinzugefügt wurde](../assets/workflow-change-dimension.png)
 
 1. Definieren Sie die **neue Zielgruppendimension**. Bei einer Dimensionsänderung werden alle Einträge beibehalten. Andere Optionen sind noch nicht verfügbar.
 
-1. Starten Sie den Workflow, um das Ergebnis zu prüfen. Die folgenden Abbildungen zeigen die Tabellen vor und nach der Dimensionsänderung sowie die Struktur der Workflow-Tabellen.
+1. Führen Sie den Workflow aus, um das Ergebnis anzuzeigen. Vergleichen Sie die Daten in den Tabellen vor und nach der Aktivität Dimensionsänderung und vergleichen Sie die Struktur der Workflow-Tabellen.
 
 ## Beispiel {#example}
 
-In diesem Beispiel möchten wir einen SMS-Versand an alle Profile senden, die einen Kauf getätigt haben. Dazu verwenden wir zunächst die Aktivität **[!UICONTROL Zielgruppe erstellen]**, die mit einer benutzerdefinierten Zielgruppendimension „Kauf“ verknüpft ist, um alle erfolgten Käufe auszuwählen.
+In diesem Beispiel wird ein SMS-Versand an alle Profile gesendet, die einen Kauf getätigt haben. Verwenden Sie zunächst eine Aktivität **[!UICONTROL Zielgruppe aufbauen]** die mit einer benutzerdefinierten Zielgruppendimension „Kauf“ verknüpft ist, um alle getätigten Käufe auszuwählen.
 
-Wir verwenden dann die Aktivität **[!UICONTROL Dimensionsänderung]**, um die Zielgruppendimension des Workflows in „Empfängerinnen und Empfänger“ zu ändern. Auf diese Weise können wir die Empfängerinnen und Empfänger ansprechen, die der Abfrage entsprechen.
+Verwenden Sie dann die Aktivität **[!UICONTROL Dimensionsänderung]**, um die Zielgruppendimension des Workflows in „Empfänger“ zu ändern. Dies ermöglicht eine Zielgruppenbestimmung anhand der Empfänger, die mit der Abfrage übereinstimmen.
 
-![](../assets/workflow-change-dimension-example.png)
+![Screenshot mit einem Beispiel für die Aktivität der Dimensionsänderung, die in einem Workflow verwendet wird](../assets/workflow-change-dimension-example.png)

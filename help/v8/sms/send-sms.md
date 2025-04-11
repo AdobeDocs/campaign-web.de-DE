@@ -3,10 +3,10 @@ audience: end-user
 title: Senden eines SMS-Versands
 description: Erfahren Sie, wie Sie SMS mit Adobe Campaign Web senden
 exl-id: 901faf3b-fcdd-4a4e-8de7-7d088686250f
-source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 100%
+source-wordcount: '403'
+ht-degree: 36%
 
 ---
 
@@ -17,58 +17,57 @@ ht-degree: 100%
 >title="Metrik „Neu in Quarantäne“"
 >abstract="Gesamtzahl der Adressen, die infolge eines fehlgeschlagenen Versands unter Quarantäne gestellt wurden (unbekannte Benutzende, ungültige Domain), im Verhältnis zur Anzahl der zu versendenden Nachrichten."
 
-## Vorschau Ihres SMS-Versands{#preview-sms}
+## Vorschau Ihres SMS-Versands {#preview-sms}
 
-Nachdem Sie den Nachrichteninhalt definiert haben, können Sie mithilfe von Testprofilen eine Vorschau anzeigen und einen Testversand durchführen. Wenn Sie personalisierten Inhalt eingefügt haben, können Sie mithilfe von Testprofildaten prüfen, wie dieser Inhalt in der Nachricht angezeigt wird. Auf diese Weise können Sie sicherstellen, dass die Nachricht wie beabsichtigt erscheint und alle personalisierten Informationen korrekt dargestellt werden.
+Nachdem Sie den Nachrichteninhalt definiert haben, können Sie ihn mithilfe von Testprofilen in der Vorschau anzeigen und testen. Wenn personalisierte Inhalte enthalten sind, überprüfen Sie mithilfe von Testprofildaten, wie diese Inhalte in der Nachricht angezeigt werden. Dadurch wird sichergestellt, dass die Nachricht wie beabsichtigt angezeigt wird und personalisierte Informationen korrekt dargestellt werden.
 
 Die wichtigsten Schritte zum Anzeigen eines SMS-Versands in einer Vorschau sind: Weitere Informationen über die Vorschau von Sendungen finden Sie in [diesem Abschnitt](../preview-test/preview-content.md).
 
 1. Auf der Seite für den Versandinhalt können Sie über die Option **[!UICONTROL Inhalt simulieren]** personalisierten Inhalt in einer Vorschau anzeigen.
 
-   ![](assets/sms_send_1.png){zoomable="yes"}
+   ![Vorschau personalisierter SMS-Inhalte](assets/sms_send_1.png){zoomable="yes"}
 
 1. Klicken Sie auf **[!UICONTROL Testprofil(e) hinzufügen]**, um ein oder mehrere Testprofile auszuwählen.
 
    <!--
     Once your test profiles are selected, click **[!UICONTROL Select]**.
-    ![](assets/sms_send_2.png){zoomable="yes"}
+    ![Selecting test profiles for SMS preview](assets/sms_send_2.png){zoomable="yes"}
     -->
 
-1. Im rechten Bereich sehen Sie eine Vorschau des SMS-Versands, in der personalisierte Elemente dynamisch durch Daten aus dem ausgewählten Profil ersetzt werden.
+1. Im rechten Bereich sehen Sie sich eine Vorschau des SMS-Versands an, in dem personalisierte Elemente dynamisch durch Daten aus dem ausgewählten Profil ersetzt werden.
 
-   ![](assets/sms_send_3.png){zoomable="yes"}
+   ![Vorschaufenster mit personalisiertem SMS-Versand](assets/sms_send_3.png){zoomable="yes"}
 
-Jetzt können Sie Ihre SMS-Nachricht überprüfen und an Ihre Zielgruppe senden.
+Überprüfen Sie Ihre SMS-Nachricht und senden Sie sie an Ihre Audience.
 
 ## Testen Ihres SMS-Versands {#test-sms}
 
-Mit **Adobe Campaign** können Sie eine Nachricht testen, bevor Sie sie an die Hauptzielgruppe senden. Dies ist ein wichtiger Schritt beim Validieren Ihrer E-Mail-Kampagne und beim Identifizieren potenzieller Probleme.
+Testen Sie mit **Adobe Campaign** eine Nachricht, bevor Sie sie an die Hauptzielgruppe senden. Dieser Schritt validiert Ihre E-Mail-Kampagne und identifiziert potenzielle Probleme.
 
-Der Versand von Testsendungen ist ein wichtiger Schritt, um die Qualität und Effektivität Ihres Versands sicherzustellen. Empfängerinnen und Empfänger von Testsendungen können verschiedene Elemente wie Links, Opt-out-Links und Bilder überprüfen sowie Fehler bei Rendering, Inhalt, Personalisierungseinstellungen und SMS-Konfiguration identifizieren. Dieser Prozess hilft Ihnen, Ihre SMS gründlich zu bewerten und zu optimieren, bevor Sie Ihre Hauptzielgruppe ansprechen.
+Testsendungen sind von entscheidender Bedeutung, um die Qualität und Effektivität Ihres Versands sicherzustellen. Testversand-Empfänger überprüfen verschiedene Elemente wie Links, Opt-out-Links und Bilder und identifizieren Fehler bei Rendering, Inhalt, Personalisierungseinstellungen und SMS-Konfiguration. Dieser Prozess bewertet und optimiert Ihre SMS gründlich, bevor sie Ihre Hauptzielgruppe erreicht.
 
-![](../assets/do-not-localize/book.png) In [diesem Abschnitt](../preview-test/test-deliveries.md) finden Sie Informationen dazu, wie Sie Testsendungen durchführen können.
+![Buchsymbol für Testsendungen](../assets/do-not-localize/book.png) Erfahren Sie in [diesem Abschnitt](../preview-test/test-deliveries.md), wie Sie einen Testversand durchführen können.
 
-![](assets/sms_send_6.png){zoomable="yes"}
+![SMS-Versand testen](assets/sms_send_6.png){zoomable="yes"}
 
 ## Senden Ihres SMS-Versands {#send-sms}
 
 1. Nachdem Sie den Inhalt Ihrer SMS personalisiert haben, klicken Sie auf der Seite **[!UICONTROL Versand]** auf **[!UICONTROL Überprüfen und versenden]**.
 
-   ![](assets/sms_send_4.png){zoomable="yes"}
+   ![SMS-Versand überprüfen und senden](assets/sms_send_4.png){zoomable="yes"}
 
 1. Klicken Sie auf **[!UICONTROL Vorbereiten]** und überwachen Sie den Fortschritt und die bereitgestellten Statistiken.
 
    Wenn Fehler auftreten, finden Sie im Menü „Protokolle“ detaillierte Informationen zum Fehler.
 
-1. Senden Sie die Nachrichten, indem Sie auf **[!UICONTROL Senden]** klicken, um mit dem endgültigen Versandprozess fortzufahren.
+1. Senden Sie die Nachrichten, indem Sie **[!UICONTROL Senden]** klicken, um mit dem endgültigen Versandprozess fortzufahren.
 
-   ![](assets/sms_send_5.png){zoomable="yes"}
+   ![SMS-Versand durchführen](assets/sms_send_5.png){zoomable="yes"}
 
-   Wenn der SMS-Versand geplant wurde, klicken Sie auf die Schaltfläche **[!UICONTROL Nach Zeitplan senden]**. Weitere Informationen zur Versandplanung finden Sie in [diesem Abschnitt](../msg/gs-messages.md#schedule-the-delivery-sending).
-
+   Wenn der SMS-Versand geplant ist, klicken Sie auf die Schaltfläche **[!UICONTROL Nach Zeitplan senden]**. Weitere Informationen zur Versandplanung finden Sie in [diesem Abschnitt](../msg/gs-messages.md#schedule-the-delivery-sending).
 
 1. Bestätigen Sie den Sendevorgang durch Auswahl der Schaltfläche **[!UICONTROL Senden]**.
 
-Nach dem Versand können Sie Ihre KPI(Key Performance Indicator)-Daten über Ihre Versandseite und weitere Daten über das Menü **[!UICONTROL Protokolle]** verfolgen.
+Nach dem Versand verfolgen Sie Ihre KPI-Daten (Key Performance Indicator) von Ihrer Versandseite und Daten über das Menü **[!UICONTROL Protokolle]**.
 
-Nun können Sie beginnen, mit integrierten Berichten die Wirkung Ihrer Nachricht zu messen. [Weitere Informationen](../reporting/sms-report.md)
+Beginnen Sie mit der Messung der Wirkung Ihrer Nachricht mit integrierten Berichten. [Weitere Informationen](../reporting/sms-report.md)

@@ -3,10 +3,10 @@ audience: end-user
 title: Verwenden der Workflow-Aktivität „Zielgruppe erstellen“
 description: Erfahren Sie, wie Sie die Workflow-Aktivität „Zielgruppe erstellen“ verwenden.
 exl-id: c07bb025-51b7-428e-ba00-cd552f0db9d4
-source-git-commit: b34b8e95e9fce265de96335f3d7d22aab84a0350
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '392'
-ht-degree: 100%
+source-wordcount: '414'
+ht-degree: 90%
 
 ---
 
@@ -42,7 +42,7 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 
 Führen Sie die folgenden Schritte aus, um die Aktivität **Zielgruppe erstellen** zu konfigurieren:
 
-![](../assets/workflow-audience.png)
+![Screenshot der Benutzeroberfläche für die Konfiguration der Workflow-Zielgruppe.](../assets/workflow-audience.png)
 
 1. Fügen Sie die Aktivität **Zielgruppe erstellen** hinzu.
 1. Definieren Sie einen Titel.
@@ -56,7 +56,7 @@ Führen Sie die folgenden Schritte aus, um die Aktivität **Zielgruppe erstellen
 Gehen Sie wie folgt vor, um Ihre eigene Abfrage zu erstellen:
 
 1. Wählen Sie **Eigene erstellen (Abfrage)** aus.
-1. Wählen Sie die **Zielgruppendimension**. Die Zielgruppendimension ermöglicht die Bestimmung der vom Vorgang betroffenen Population: Empfängerinnen und Empfänger, Vertragsbegünstigte, Benutzerinnen und Benutzer, Abonnentinnen und Abonnenten usw. Standardmäßig wird die Zielgruppe aus den Empfängerinnen und Empfängern ausgewählt. [Erfahren Sie mehr über Zielgruppendimensionen](../../audience/about-recipients.md#targeting-dimensions)
+1. Wählen Sie die **Zielgruppendimension**. Mit der Zielgruppendimension können Sie die Population definieren, auf die sich der Vorgang bezieht, z. B. Empfängerinnen und Empfänger, Vertragsbegünstigte, Benutzerinnen und Benutzer oder Abonnentinnen und Abonnenten. Standardmäßig wird die Zielgruppe aus den Empfängerinnen und Empfängern ausgewählt. [Erfahren Sie mehr über Zielgruppendimensionen](../../audience/about-recipients.md#targeting-dimensions)
 1. Klicken Sie auf **Fortfahren**.
 1. Verwenden Sie den Abfrage-Modeler, um Ihre Abfrage zu definieren, genauso wie Sie eine Zielgruppe beim Entwerfen einer neuen E-Mail erstellen. [Erfahren sie mehr über die Arbeit mit dem Abfrage-Modeler](../../query/query-modeler-overview.md)
 
@@ -70,8 +70,8 @@ Gehen Sie wie folgt vor, um eine vorhandene Zielgruppe auszuwählen:
 
 >[!ENDTABS]
 
-## Beispiele{#build-audience-examples}
+## Beispiele {#build-audience-examples}
 
 Im Folgenden finden Sie ein Beispiel für einen Workflow mit zwei Aktivitäten vom Typ **Zielgruppe erstellen**. Die erste Version richtet sich an die Zielgruppe derjenigen, die Poker spielen, gefolgt von einem E-Mail-Versand. Die zweite Version ist die Zielgruppe der VIP-Kundinnen und -Kunden, gefolgt von einem SMS-Versand.
 
-![](../assets/workflow-audience-example.png)
+![Screenshot mit einem Beispiel-Workflow mit zwei Aktivitäten vom Typ Zielgruppe aufbauen , die auf verschiedene Zielgruppen ausgerichtet sind.](../assets/workflow-audience-example.png)

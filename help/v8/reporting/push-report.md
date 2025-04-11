@@ -3,10 +3,10 @@ audience: end-user
 title: Push-Versandberichte
 description: Erfahren Sie, wie Sie auf Push-Versandberichte zugreifen und diese verwenden können
 exl-id: 4187b553-8de7-40f4-8f30-f62e43323862
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '476'
-ht-degree: 100%
+source-wordcount: '567'
+ht-degree: 73%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 >title="Versandberichte"
 >abstract="Auf der Registerkarte **Senden** Ihres Berichts erhalten Sie einen umfassenden Einblick in die Interaktionen Ihrer Besucherinnen und Besucher mit Ihren Sendungen und in etwaige Fehler, die bei ihnen aufgetreten sind."
 
-Der **Push-Versandbericht** bietet einen umfassenden Überblick über den Push-Kanal mit umfangreichen Einblicken und spezifischen Daten. Er bietet umfassende Informationen über Performance, Effektivität und Ergebnisse jedes Versands.
+Der **Push-Versandbericht** bietet einen umfassenden Überblick über den Push-Kanal mit umfangreichen Einblicken und spezifischen Daten. Er bietet umfassende Informationen über Leistung, Effektivität und Ergebnisse jedes Versands.
 
 ## Push-Zusammenfassung {#push-summary}
 
@@ -30,16 +30,13 @@ Der **Push-Versandbericht** bietet einen umfassenden Überblick über den Push-K
 
 Der **[!UICONTROL Versandübersichtsbericht]** bietet wichtige Performance-Indikatoren (KPIs), die detaillierte Informationen darüber enthalten, wie Ihre Besucherinnen und Besucher mit Ihren Push-Nachrichten interagieren.
 
-![](assets/reporting_push_3.png){zoomable="yes"}
+![Dieser Screenshot zeigt den Bericht Versandübersicht , der KPIs zur Besucherinteraktion mit Push-Nachrichten bereitstellt.](assets/reporting_push_3.png){zoomable="yes"}
 
 +++Erfahren Sie mehr über die Metriken des Push-Versandberichts.
 
 * **[!UICONTROL Insgesamt gesendet]**: Gesamtzahl der während der Versandvorbereitung verarbeiteten Nachrichten.
-
 * **[!UICONTROL Zugestellt]**: Anzahl der erfolgreich gesendeten Nachrichten im Verhältnis zur Gesamtzahl der gesendeten Nachrichten.
-
 * **[!UICONTROL Klicks]**: Gesamtzahl der Empfängerinnen und Empfänger, die mit der Push-Nachricht interagiert haben.
-
 * **[!UICONTROL Fehler]**: Gesamtzahl der bei einem Versand aufgetretenen Fehler, die den Versand an Profile verhindert haben.
 
 +++
@@ -53,12 +50,11 @@ Der **[!UICONTROL Versandübersichtsbericht]** bietet wichtige Performance-Indik
 
 Der Graph und die Tabelle zur **Zielpopulation** zeigen Daten in Bezug auf Ihre Zielgruppe an: zu sendende Nachrichten und Ausschlüsse. Metriken werden nachfolgend beschrieben.
 
-![](assets/reporting_push_4.png){zoomable="yes"}
+![Dieser Screenshot zeigt das Diagramm und die Tabelle Zielgruppenpopulation, in denen Daten zu zu versendenden Nachrichten und Ausschlüssen angezeigt werden.](assets/reporting_push_4.png){zoomable="yes"}
 
 +++Erfahren Sie mehr über die Metriken des Push-Versandberichts.
 
 * **[!UICONTROL Zu versenden]**: Gesamtzahl der während der Versandvorbereitung verarbeiteten Nachrichten.
-
 * **[!UICONTROL Ausnahmen]**: Anzahl der Profile, die aus der Analyse ausgeschlossen wurden.
 
 +++
@@ -70,17 +66,15 @@ Der Graph und die Tabelle zur **Zielpopulation** zeigen Daten in Bezug auf Ihre 
 >title="Push-Gesamtstatistik"
 >abstract="Der **Gesamtstatistikbericht** enthält Daten zu den gesendeten Push-Benachrichtigungen: Erfolge, Fehler und Quarantänen."
 
-Der **Gesamtstatistikbericht** enthält Daten zu den gesendeten Push-Benachrichtigungen: Erfolge, Fehler und Quarantänen. Metriken werden nachfolgend beschrieben.
+Der Bericht **Gesamtstatistiken** enthält Daten zu den gesendeten Push-Benachrichtigungen: Erfolg, Fehler und Quarantänen. Metriken werden nachfolgend beschrieben.
 
-![](assets/reporting_push_5.png){zoomable="yes"}
+![Dieser Screenshot zeigt den Bericht Gesamtstatistik mit Daten zu Erfolg, Fehlern und Quarantänen für gesendete Push-Benachrichtigungen.](assets/reporting_push_5.png){zoomable="yes"}
 
 +++Erfahren Sie mehr über die Metriken des Push-Versandberichts.
 
 * **[!UICONTROL Erfolg]**: Anzahl der erfolgreich verarbeiteten Nachrichten.
-
 * **[!UICONTROL Fehler]**: Gesamtzahl der beim Versand aufgetretenen Fehler, die den Versand der Nachrichten an bestimmte Profile verhindert haben.
-
-* **[!UICONTROL Neue Quarantäne]**: Anzahl der Profile, die ausgeschlossen und der Quarantäne hinzugefügt wurden.
+* **[!UICONTROL Neue]**: Anzahl der Profile, die ausgeschlossen und der Quarantäne hinzugefügt wurden.
 
 +++
 
@@ -93,8 +87,7 @@ Der **Gesamtstatistikbericht** enthält Daten zu den gesendeten Push-Benachricht
 
 Der Graph und die Tabelle **[!UICONTROL Ausschlüsse]** zeigen die verschiedenen Gründe an, die verhindert haben, dass Benutzerprofile, die von den Zielgruppenprofilen ausgeschlossen wurden, die Nachricht erhalten haben. Ausschlussregeln werden in der[Dokumentation zu Campaign v8 (Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=de#push-error-types){_blank} detailliert beschrieben.
 
-
-![](assets/reporting_push_6.png){zoomable="yes"}
+![Dieser Screenshot zeigt das Ausschlussdiagramm und die Tabelle mit den Gründen, die verhindert haben, dass ausgeschlossene Benutzerprofile Nachrichten erhalten.](assets/reporting_push_6.png){zoomable="yes"}
 
 ## Versanddurchsatz {#delivery-throughput}
 
@@ -105,4 +98,4 @@ Der Graph und die Tabelle **[!UICONTROL Ausschlüsse]** zeigen die verschiedenen
 
 Der Bericht **Versanddurchsatz** enthält detaillierte Informationen zum Versanddurchsatz der gesamten Plattform innerhalb eines bestimmten Zeitraums. Die wichtigste Kennzahl, mit der die Geschwindigkeit des Nachrichtenversands gemessen wird, ist die Anzahl der pro Stunde gesendeten Nachrichten.
 
-![](assets/reporting_push_2.png){zoomable="yes"}
+![Dieser Screenshot zeigt den Bericht zum Versanddurchsatz, der Details zur Versandgeschwindigkeit der Plattform innerhalb eines bestimmten Zeitraums enthält.](assets/reporting_push_2.png){zoomable="yes"}

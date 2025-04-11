@@ -3,26 +3,25 @@ audience: end-user
 title: Verwendung der Workflow-Aktivität „Und-Verknüpfung“
 description: Erfahren Sie, wie Sie die Workflow-Aktivität „Und-Verknüpfung“ verwenden.
 exl-id: 2470e5fa-5596-4441-b9b9-7e8b5d1d53aa
-source-git-commit: 5d13a654974b8a448c2bbaded46f9f6f5727682f
+source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 100%
+source-wordcount: '262'
+ht-degree: 45%
 
 ---
 
 # Und-Verknüpfung {#join}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_and-join"
 >title="Aktivität &quot;Und-Verknüpfung&quot;"
->abstract="Die Aktivität **Und-Verknüpfung** ermöglicht es, die Ausführung verschiedener Workflow-Verzweigungen zu synchronisieren. Sie wird ausgelöst, sobald alle vorangehenden Aktivitäten beendet sind. Auf diese Weise können Sie sicherstellen, dass bestimmte Aktivitäten abgeschlossen sind, bevor Sie mit der Ausführung des Workflows fortfahren."
+>abstract="Die Aktivität **Und-Verknüpfung** ermöglicht es, die Ausführung verschiedener Workflow-Verzweigungen zu synchronisieren. Sie wird ausgelöst, sobald alle vorangehenden Aktivitäten beendet sind. Dadurch wird sichergestellt, dass bestimmte Aktivitäten abgeschlossen sind, bevor der Workflow ausgeführt wird."
 
-Die Aktivität **Und-Verknüpfung** ist eine Aktivität zur **Flusskontrolle**. Sie ermöglicht es, die Ausführung verschiedener Workflow-Verzwweigungen zu synchronisieren.
+Die Aktivität **Und-Verknüpfung** ist eine Aktivität zur **Flusskontrolle**. Es synchronisiert mehrere Ausführungszweige eines Workflows.
 
-Bei dieser Aktivität wird die ausgehende Transition erst aktiviert, wenn alle eingehenden Transitionen aktiviert wurden, d. h. wenn alle vorangehenden Aktivitäten beendet sind. Auf diese Weise können Sie sicherstellen, dass bestimmte Aktivitäten abgeschlossen sind, bevor Sie mit der Ausführung des Workflows fortfahren.
+Die ausgehende Transition wird erst Trigger, nachdem alle eingehenden Transitionen aktiviert wurden. Mit anderen Worten, sie wird aktiviert, sobald alle vorherigen Aktivitäten abgeschlossen sind. Dadurch wird sichergestellt, dass bestimmte Aktivitäten abgeschlossen sind, bevor der Workflow ausgeführt wird.
 
-## Konfigurieren der Aktivität „Und-Verknüpfung“{#and-join-configuration}
+## Konfigurieren der Aktivität „Und-Verknüpfung“ {#and-join-configuration}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_and-join_merging"
@@ -31,15 +30,15 @@ Bei dieser Aktivität wird die ausgehende Transition erst aktiviert, wenn alle e
 
 Führen Sie die folgenden Schritte aus, um die Aktivität **Und-Verknüpfung** zu konfigurieren:
 
-![](../assets/workflow-andjoin.png)
+![Screenshot der Konfigurationsoberfläche für die Aktivität „Und-Verknüpfung“.](../assets/workflow-andjoin.png)
 
-1. Fügen Sie mehrere Aktivitäten wie z. B. Kanalaktivitäten hinzu, um mindestens zwei verschiedene Ausführungsverzweigungen zu bilden.
+1. Fügen Sie mehrere Aktivitäten hinzu, z. B. Kanalaktivitäten, um mindestens zwei verschiedene Ausführungszweige zu bilden.
 1. Fügen Sie die Aktivität **Und-Verknüpfung** zu einer der Verzweigungen hinzu.
-1. Aktivieren Sie im Abschnitt **Zusammenführungsoptionen** alle vorherigen Aktivitäten, denen Sie beitreten möchten.
-1. Wählen Sie in der Dropdown-Liste **Hauptmenge** die Population der eingehenden Transition aus, die Sie beibehalten möchten. Die ausgehende Transition darf nur eine der Populationen der eingehenden Transition enthalten.
+1. Aktivieren Sie **Abschnitt „Zusammenführungsoptionen** alle vorherigen Aktivitäten, die Sie zusammenführen möchten.
+1. Wählen Sie in der Dropdown-**** Primär die Population der eingehenden Transition aus, die beibehalten werden soll. Die ausgehende Transition darf nur eine der Populationen der eingehenden Transition enthalten.
 
-## Beispiel{#and-join-example}
+## Beispiel {#and-join-example}
 
-Das folgende Beispiel zeigt zwei Workflow-Verzweigungen mit einem E-Mail- und SMS-Versand. Die Und-Verknüpfung wird ausgelöst, wenn beide eingehenden Transitionen aktiviert sind. Die Push-Benachrichtigungen werden erst dann gesendet, wenn beide Sendungen abgeschlossen sind.
+Das folgende Beispiel zeigt zwei Workflow-Verzweigungen mit einem E-Mail- und SMS-Versand. Die UND-Verknüpfungs-Trigger, wenn beide eingehenden Transitionen aktiviert sind. Push-Benachrichtigungen werden erst gesendet, nachdem beide Sendungen abgeschlossen sind.
 
-![](../assets/workflow-andjoin-example.png){zoomable="yes"}
+![Beispiel eines Workflows mit zwei Verzweigungen, der den E-Mail- und SMS-Versand gefolgt von Push-Benachrichtigungen anzeigt.](../assets/workflow-andjoin-example.png){zoomable="yes"}

@@ -3,10 +3,10 @@ audience: end-user
 title: Verwenden der Aktivität „Dateiübertragung“
 description: Informationen dazu, wie Sie die Workflow-Aktivität „Dateiübertragung“ verwenden
 exl-id: a40c007e-c0c6-4e0f-aa0d-0260ecb74a03
-source-git-commit: 5d13a654974b8a448c2bbaded46f9f6f5727682f
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '1246'
-ht-degree: 100%
+source-wordcount: '1253'
+ht-degree: 73%
 
 ---
 
@@ -41,24 +41,24 @@ Die Aktivität **Dateiübertragung** ist eine **Daten-Management-Aktivität**. M
 
 >[!NOTE]
 >
->Bei der Campaign Web-Benutzeroberfläche haben wir zwei Aktivitäten zu einer zusammengefasst, indem wir die Funktionen **Dateiübertragung** und **Web-Download** zusammengeführt haben. Diese Zusammenführung wirkt sich in keiner Weise auf die Funktionalität der Aktivität aus.
+>In der Web-Benutzeroberfläche von Campaign wurden zwei Aktivitäten zusammengeführt, indem die Funktionen **Dateiübertragung** und **Web-Download** zusammengeführt wurden. Diese Zusammenführung wirkt sich in keiner Weise auf die Funktionalität der Aktivität aus.
 
 Führen Sie die nachfolgend aufgeführten Schritte aus, um die Aktivität **Dateiübertragung** zu konfigurieren.
 
 ## Auswählen von Übertragungsprotokoll und Vorgang {#protocol}
 
-1. Fügen Sie die Aktivität **Dateiübertragung** in Ihren Workflow ein und geben Sie dann den Übertragungstyp an, der je nach dem zu verwendenden Protokoll durchgeführt werden soll:
+1. Fügen Sie **Workflow die Aktivität** Datei übertragen“ hinzu und geben Sie dann den Typ der durchzuführenden Übertragung an, der vom zu verwendenden Protokoll abhängt:
 
-   * Wählen Sie für das HTTP-Protokoll **[!UICONTROL Web-Download]** aus. Auf diese Weise können Sie einen GET- oder POST-Download ausführen, um eine Datei auf eine explizite URL, ein externes Konto oder eine Adobe Campaign-Instanz herunterzuladen.
+   * Wählen Sie für das HTTP-Protokoll **[!UICONTROL Web-Download]** aus. Auf diese Weise können Sie einen GET- oder POST-Vorgang ausführen, um eine Datei über eine explizite URL, ein externes Konto oder eine Adobe Campaign-Instanz herunterzuladen.
    * Wählen Sie für andere Server-zu-Server-Protokolle und zugehörige Aktionen **[!UICONTROL Dateiübertragung]** aus.
 
-1. Wählen Sie die mit der Aktivität auszuführende Aktion aus. Die verfügbaren Aktionen hängen vom gewählten Übertragungstyp ab. Erweitern Sie die folgenden Abschnitte, um weitere Informationen zu erhalten.
+1. Wählen Sie die mit der Aktivität auszuführende Aktion aus. Die verfügbaren Aktionen hängen vom ausgewählten Übertragungstyp ab. Erweitern Sie die folgenden Abschnitte, um weitere Informationen zu erhalten.
 
    +++Mit Aktivitäten des Typs **Dateiübertragung** verfügbare Aktionen
 
    * **[!UICONTROL Datei-Download]**: Mit dieser Aktivität laden Sie eine Datei vom Server herunter.
-   * **[!UICONTROL Datei-Upload]**: Mit dieser Aktivität laden Sie eine Datei auf den Server hoch.
-   * **[!UICONTROL Existenztest einer Datei]**: Mit dieser Aktivität überprüfen Sie, ob eine bestimmte Datei auf dem Server vorhanden ist. Erzeugt im Anschluss an die Aktivität zwei ausgehende Transitionen: „Datei vorhanden“ und „Datei nicht vorhanden“.
+   * **[!UICONTROL Datei-Upload]**: Laden Sie eine Datei auf den Server hoch.
+   * **[!UICONTROL Existenztest einer Datei]**: Mit dieser Aktivität überprüfen Sie, ob eine bestimmte Datei auf dem Server vorhanden ist. Erzeugt zwei ausgehende Transitionen nach der Aktivität: „Datei existiert“ und „Datei existiert nicht“.
    * **[!UICONTROL Dateiauflistung]**: Mit dieser Aktivität listen Sie alle auf dem Server verfügbaren Dateien auf.
 
 +++
@@ -70,7 +70,7 @@ Führen Sie die nachfolgend aufgeführten Schritte aus, um die Aktivität **Date
 
 +++
 
-   ![](../assets/workflow-transfer-file-action.png)
+   ![Screenshot mit Optionen für die Workflow-Dateiübertragung](../assets/workflow-transfer-file-action.png)
 
 1. Bei Aktionen zum Hochladen von Dateien verwendet die Aktivität standardmäßig die in der vorherigen Aktivität angegebene Datei. Um eine andere Datei zu verwenden, schalten Sie die Option **[!UICONTROL Datei aus vorhergehender Aktivität verwenden]** ein und klicken Sie auf die Schaltfläche **[!UICONTROL Datei hinzufügen]**.
 
@@ -84,11 +84,11 @@ Führen Sie die nachfolgend aufgeführten Schritte aus, um die Aktivität **Date
    * **[!UICONTROL Schnelle Konfiguration]**: Geben Sie die URL der Datei (oder des Ordners für die Dateiauflistungsaktionen) ein.
    * **[!UICONTROL Adobe Campaign-Instanz]** (Aktivitäten des Typs „Web-Download“): Laden Sie eine Datei von einem Adobe Campaign-Instanz-Server herunter.
 
-   ![](../assets/workflow-transfer-file-server.png)
+   ![Screenshot mit den Konfigurationsoptionen für den Workflow-Dateiübertragungs-Server](../assets/workflow-transfer-file-server.png)
 
 1. Bei POST-Aktionen für Web-Downloads können Sie zusätzliche Parameter mit dem Vorgang übergeben. Klicken Sie dazu auf die Schaltfläche **[!UICONTROL Parameter hinzufügen]** und geben Sie dann den Namen und den Wert der Parameter an. Sie können so viele Parameter wie nötig hinzufügen. 
 
-1. Bei einem Datei-Upload werden die auf einen Server hochgeladenen Dateien standardmäßig automatisch gespeichert. Wenn Sie diesen Verlauf nicht beibehalten möchten, schalten Sie die Option **[!UICONTROL Verlauf der übertragenen Dateien speichern]** aus.
+1. Standardmäßig werden beim Datei-Upload die auf einen Server hochgeladenen Dateien automatisch gespeichert. Wenn Sie diesen Verlauf nicht beibehalten möchten, schalten Sie die Option **[!UICONTROL Verlauf der übertragenen Dateien speichern]** aus.
 
 ## Verlaufsparameter {#historization}
 
@@ -99,26 +99,26 @@ Führen Sie die nachfolgend aufgeführten Schritte aus, um die Aktivität **Date
 
 Jedes Mal, wenn die Aktivität **[!UICONTROL Dateiübertragung]** ausgeführt wird, werden die hoch- oder heruntergeladenen Dateien in einem bestimmten Ordner gespeichert. Für jede Aktivität „Dateiübertragung“ in einem Workflow wird ein Ordner erstellt. Die Dateien werden standardmäßig im Standardspeicherverzeichnis des Adobe Campaign-Installationsordners (`/vars`) gespeichert, bevor sie verarbeitet werden. Schalten Sie für die Verwendung eines bestimmten Ordners die Option **[!UICONTROL Standardspeicherverzeichnis verwenden]** aus und geben Sie den Pfad des Verzeichnisses ein.
 
-![](../assets/workflow-transfer-file-historization.png)
+![Screenshot mit den Einstellungen für den Verlauf von Workflow-Übertragungsdateien](../assets/workflow-transfer-file-historization.png)
 
-Es ist wichtig, die Größe dieses Ordners begrenzen zu können, um physischen Platz auf dem Server zu sparen.  Hierzu können Sie eine Höchstzahl an Dateien oder die Gesamtgröße des Ordners für die Aktivität definieren. Standardmäßig sind 100 Dateien und 50 MB zugelassen.
+Es ist wichtig, die Größe dieses Ordners zu begrenzen, um physischen Speicherplatz auf dem Server zu sparen. Definieren Sie dazu eine maximale Anzahl von Dateien oder eine Gesamtgröße für den Ordner der Aktivität. Standardmäßig sind 100 Dateien und 50 MB zugelassen.
 
 Jedes Mal, wenn die Aktivität ausgeführt wird, wird der Ordner folgendermaßen überprüft:
 
 * Nur Dateien, die mehr als 24 Stunden vor der Durchführung der Aktivität erstellt wurden, werden berücksichtigt.
-* Wenn die Anzahl der berücksichtigten Dateien größer ist als der Wert des Felds **[!UICONTROL Anzahl an Dateien]**, werden die ältesten Dateien gelöscht, bis die zulässige maximale Dateianzahl erreicht ist.
-* Wenn die Gesamtzahl der berücksichtigten Dateien größer ist als der Wert des Parameters **[!UICONTROL Maximale Größe (in MB)]**, werden die ältesten Dateien gelöscht, bis die zulässige maximale Größe (in MB) erreicht ist.
+* Wenn die Anzahl der berücksichtigten Dateien den Wert des Felds **[!UICONTROL Anzahl der Dateien]** überschreitet, werden die ältesten Dateien gelöscht, bis die maximal zulässige Anzahl von Dateien erreicht ist.
+* Wenn die Gesamtgröße der berücksichtigten Dateien den Wert des Parameters **[!UICONTROL Maximale Größe (in MB)]**, werden die ältesten Dateien gelöscht, bis die maximal zulässige Größe erreicht ist.
 
 >[!CAUTION]
 >
->Wenn die Aktivität nicht ausgeführt wird, wird der Ordner weder überprüft noch geleert. Seien Sie deshalb achtsam beim Transfer großer Dateien.
+>Wenn die Aktivität nicht erneut ausgeführt wird, wird ihr Ordner nicht überprüft oder gelöscht. Seien Sie beim Übertragen großer Dateien vorsichtig.
 
 ## Erweiterte Optionen und Optionen zur Fehlerverwaltung {#advanced}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_advancedoptions_delete_file"
 >title="Quelldateien nach der Übertragung löschen"
->abstract="Löschen Sie die Quelldateien nach einer erfolgreichen Übertragung."
+>abstract="Löschen Sie die Quelldateien nach erfolgreicher Übertragung."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_advancedoptions_display_logs"
@@ -144,8 +144,8 @@ Jedes Mal, wenn die Aktivität ausgeführt wird, wird der Ordner folgendermaßen
 
    +++Zusätzliche Optionen für Aktivitäten des Typs **[!UICONTROL Dateiübertragung]**
 
-   * **[!UICONTROL Quelldateien nach der Übertragung löschen]**: Mit dieser Aktivität löschen Sie die Quelldateien nach einer erfolgreichen Übertragung.
-   * **[!UICONTROL Sitzungslogs anzeigen]**: Wenn diese Option aktiviert ist, werden Informationen zum Übertragungsvorgang in den Workflow-Protokollen angezeigt, nachdem der Workflow ausgeführt wurde.
+   * **[!UICONTROL Quelldateien nach der Übertragung löschen]**: Quelldateien nach erfolgreicher Übertragung löschen.
+   * **[!UICONTROL Sitzungsprotokolle anzeigen]**: Wenn diese Option aktiviert ist, werden nach Ausführung des Workflows Informationen zum Übertragungsvorgang in den Workflow-Protokollen angezeigt.
    * **[!UICONTROL Alle Dateien auflisten]** (Dateiauflistungsaktionen): Diese Option indiziert alle Dateien, die auf dem Server in der Ereignisvariablen `vars.filenames` vorhanden sind, in der die Dateinamen durch die `n`-Zeichen getrennt sind. [Informationen dazu, wie Sie mit Ereignisvariablen arbeiten](../event-variables.md)
 
 +++

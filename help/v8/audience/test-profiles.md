@@ -5,10 +5,10 @@ feature: Audiences, Profiles, Seed Address, Proofs
 role: User
 level: Beginner
 exl-id: d372713d-3024-46a1-b62e-f271b8ac829f
-source-git-commit: 321fd5f5cb7940f8395f11cebb207548af6733d9
+source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
 workflow-type: tm+mt
-source-wordcount: '614'
-ht-degree: 100%
+source-wordcount: '644'
+ht-degree: 76%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 >title="Erstellen von Testprofilen"
 >abstract="Testprofile sind zusätzliche Empfängerinnen und Empfänger, die Ihnen ermöglichen, die Personalisierung und das Rendern vor dem Nachrichtenversand in der Vorschau anzusehen und zu testen. Bei der Vorschau eines Nachrichteninhalts können Sie ein Testprofil auswählen und Testsendungen an die Testprofile durchführen, um den Nachrichteninhalt und die Einstellungen zu kontrollieren und zu validieren."
 
-Testprofile werden verwendet, um Testsendungen durchzuführen und den Inhalt sowie die Einstellungen Ihrer Nachricht zu validieren. Diese Profile sind zusätzliche Empfängerinnen und Empfänger, die Ihnen ermöglichen, vor dem Senden Ihrer Nachrichten die Personalisierung und das Rendern in der Vorschau anzusehen und zu testen. Bei der Vorschau eines Nachrichteninhalts können Sie ein Testprofil auswählen und Testsendungen an die Testprofile durchführen, um den Nachrichteninhalt und die Einstellungen zu kontrollieren und zu validieren.
+Testprofile werden verwendet, um Testsendungen durchzuführen und den Inhalt und die Einstellungen Ihrer Nachricht zu validieren. Bei diesen Profilen handelt es sich um zusätzliche Empfängerinnen und Empfänger, mit denen Sie Personalisierung und Rendering vor dem Nachrichtenversand in der Vorschau ansehen und testen können. Sie können bei der Vorschau eines Nachrichteninhalts ein Testprofil auswählen und einen Testversand an die Testprofile durchführen, um den Inhalt und die Einstellungen Ihrer Nachricht zu steuern und zu validieren.
 
 ➡️ [Entdecken Sie diese Funktion im Video](#video)
 
@@ -35,19 +35,19 @@ Informationen zum Versand von Testsendungen an Testprofile finden Sie in [diesem
 
 ## Zugreifen auf und Verwalten von Testprofilen {#access-test-profiles}
 
-Um auf die Testprofilliste zuzugreifen, wählen Sie **[!UICONTROL Kunden-Management]** > **[!UICONTROL Profile]** im linken Menü und öffnen Sie die Registerkarte **[!UICONTROL Testprofile]**.
+Um auf die Liste der Testprofile zuzugreifen, wählen Sie **[!UICONTROL Kundenverwaltung]** > **[!UICONTROL Profile]** aus dem linken Menü aus und klicken Sie auf die Registerkarte **[!UICONTROL Testprofile]**.
 
-![](assets/test-profile-list.png){zoomable="yes"}
+![Testprofil-Listenansicht](assets/test-profile-list.png){zoomable="yes"}
 
 * Über die Dropdown-Liste können Sie nach einem bestimmten [Ordner](../get-started/permissions.md#folders) filtern oder mithilfe des [Abfrage-Modelers](../query/query-modeler-overview.md) Regeln hinzufügen.
 
-  ![](assets/test-profile-list-filters.png){zoomable="yes"}
+  ![Filter für Testprofillisten](assets/test-profile-list-filters.png){zoomable="yes"}
 
 * Sie können jedes Testprofil nach Bedarf duplizieren und aktualisieren. Die Schritte zum Bearbeiten eines Testprofils sind dieselben wie beim [Erstellen eines Testprofils](#create-test-profile).
 
 * Um ein Testprofil zu löschen, wählen Sie die entsprechende Option aus dem Menü **[!UICONTROL Mehr Aktionen]**.
 
-  ![](assets/test-profile-list-delete.png){zoomable="yes"}
+  ![Option „Testprofil löschen“](assets/test-profile-list-delete.png){zoomable="yes"}
 
 * Klicken Sie auf das gewünschte Element in der Liste, um ein Testprofil zu bearbeiten. Die Schritte zum Bearbeiten eines Testprofils sind dieselben wie beim [Erstellen eines Testprofils](#create-test-profile).
 
@@ -55,9 +55,9 @@ Sie können auch in der **[!UICONTROL Explorer]**-Ansicht unter dem Knoten **[!U
 
 Dort können Sie Ordner oder Unterordner durchsuchen, erstellen und verwalten sowie die zugehörigen Berechtigungen überprüfen. [Erfahren Sie, wie Sie Ordner erstellen](../get-started/permissions.md#folders)
 
-![](assets/test-profiles-folders.png){zoomable="yes"}
+![Ansicht der Testprofilordner](assets/test-profiles-folders.png){zoomable="yes"}
 
-In der **[!UICONTROL Explorer]**-Ansicht können Sie Testprofile auch filtern, löschen, bearbeiten und [erstellen](#create-test-profile).
+In der **[!UICONTROL Explorer]** Ansicht können Sie auch Testprofile filtern, löschen, bearbeiten [ erstellen](#create-test-profile).
 
 ## Erstellen eines Testprofils {#create-test-profile}
 
@@ -68,15 +68,15 @@ In der **[!UICONTROL Explorer]**-Ansicht können Sie Testprofile auch filtern, l
 
 Gehen Sie wie folgt vor, um ein Testprofil zu erstellen:
 
-1. Navigieren Sie zu **[!UICONTROL Kunden-Management]** > **[!UICONTROL Profile]** und öffnen Sie die Registerkarte **[!UICONTROL Testprofile]**.
+1. Navigieren Sie zu **[!UICONTROL Kundenverwaltung]** > **[!UICONTROL Profile]** und wählen Sie die Registerkarte **[!UICONTROL Testprofile]** aus.
 
 1. Klicken Sie auf die Schaltfläche **[!UICONTROL Testprofil erstellen]**.
 
-   ![](assets/test-profile-create.png){zoomable="yes"}
+   ![Schaltfläche „Testprofil erstellen“](assets/test-profile-create.png){zoomable="yes"}
 
 1. Geben Sie die Details des Testprofils nach Bedarf ein. <!--Most of the fields are the same as when creating profiles. [Learn more]-->
 
-   ![](assets/test-profile-details.png){zoomable="yes"}
+   ![Formular mit Testprofildetails](assets/test-profile-details.png){zoomable="yes"}
 
    >[!NOTE]
    >
@@ -92,13 +92,13 @@ You do not need to enter all fields of each tab when creating a seed address. Mi
 
 1. Geben Sie im Abschnitt **[!UICONTROL Kontaktdaten]** die E-Mail-Adresse und andere relevante Daten ein. Die E-Mail-Adresse wird in eckigen Klammern hinter der Testprofilbezeichnung angezeigt.
 
-   ![](assets/test-profile-address.png){zoomable="yes"}
+   ![Abschnitt „Kontaktinformationen“](assets/test-profile-address.png){zoomable="yes"}
 
 1. Wenn Sie die Option **[!UICONTROL Nicht mehr kontaktieren (alle Kanäle)]** aktivieren, befindet sich das Testprofil auf der Blockierungsliste. Solch eine Person wird auf keinem Kanal (E-Mail, SMS, usw.) mehr ausgewählt.
 
 1. Geben Sie in der Registerkarte **[!UICONTROL Zusätzliche Daten]** die Personalisierungsdaten ein, mit denen die Sendungen in den Daten-Management-Workflows erstellt wurden und denen Sie einen bestimmten Wert zuweisen möchten. [Erfahren Sie mehr über Workflows](../workflows/gs-workflows.md)
 
-   ![](assets/test-profile-additional-data.png){zoomable="yes"}
+   ![Registerkarte „Zusätzliche Daten“](assets/test-profile-additional-data.png){zoomable="yes"}
 
    Stellen Sie sicher, dass in der Workflow-Aktivität **[!UICONTROL Anreicherung]** zusätzliche Zielgruppendaten mit einem Alias definiert wurden, der mit „@“ beginnt. Andernfalls können Sie sie in der Versandaktivität nicht ordnungsgemäß mit Ihren Testadressen verwenden. [Erfahren Sie mehr über die Anreicherungs-Aktivität](../workflows/activities/enrichment.md)
 

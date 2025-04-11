@@ -3,10 +3,10 @@ audience: end-user
 title: Kampagnenberichte für den E-Mail-Kanal
 description: Weitere Informationen zu Kampagnenberichten für den E-Mail-Kanal
 exl-id: c44c91f8-1f88-4087-8417-34be64a2ab19
-source-git-commit: 39dcf11797339ee9800da6c5a32b1a1c3470529a
+source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
 workflow-type: tm+mt
-source-wordcount: '1571'
-ht-degree: 100%
+source-wordcount: '1677'
+ht-degree: 93%
 
 ---
 
@@ -25,7 +25,7 @@ Jeder Kampagnenbericht ist in verschiedene Widgets unterteilt, die den Erfolg un
 
 Der Bericht **[!UICONTROL Versandübersicht]** bietet wichtige Performance-Indikatoren (KPIs), die detaillierte Informationen darüber enthalten, wie Ihre Besucherinnen und Besucher mit Ihrem E-Mail-Versand interagieren. Metriken werden nachfolgend beschrieben.
 
-![](assets/campaign_report_email_1.png){zoomable="yes"}
+![Screenshot des Berichts mit der Versandübersicht](assets/campaign_report_email_1.png){zoomable="yes"}
 
 +++Erfahren Sie mehr über die Metriken der E-Mail-Kampagnen-Berichte.
 
@@ -50,7 +50,7 @@ Der Bericht **[!UICONTROL Versandübersicht]** bietet wichtige Performance-Indik
 
 Die Tabelle **[!UICONTROL Statistiken der anfänglichen Zielgruppe]** zeigt Daten zu Ihren Empfängerinnen und Empfängern an. Metriken werden nachfolgend beschrieben.
 
-![](assets/campaign_report_email_2.png){zoomable="yes"}
+![Screenshot der Tabelle mit den Statistiken zur anfänglichen Zielgruppe](assets/campaign_report_email_2.png){zoomable="yes"}
 
 +++Erfahren Sie mehr über die Metriken der E-Mail-Kampagnen-Berichte.
 
@@ -71,7 +71,7 @@ Die Tabelle **[!UICONTROL Statistiken der anfänglichen Zielgruppe]** zeigt Date
 
 Die Tabelle **[!UICONTROL Ausführungsstatistiken]** zeigt den Erfolg Ihres Versands im Detail. Metriken werden nachfolgend beschrieben.
 
-![](assets/campaign_report_email_3.png){zoomable="yes"}
+![Screenshot der Tabelle mit den Ausführungsstatistiken, auf der der Erfolg des Versands im Detail dargestellt ist](assets/campaign_report_email_3.png){zoomable="yes"}
 
 +++Erfahren Sie mehr über die Metriken der E-Mail-Kampagnen-Berichte.
 
@@ -96,7 +96,7 @@ Die Tabelle **[!UICONTROL Ausführungsstatistiken]** zeigt den Erfolg Ihres Vers
 
 Die Tabelle **[!UICONTROL Reaktionsstatistik]** enthält die verfügbaren Daten zur Empfängeraktivität für Ihren Versand. Metriken werden nachfolgend beschrieben.
 
-![](assets/campaign_report_email_4.png){zoomable="yes"}
+![Screenshot der Tabelle mit Reaktionsstatistiken mit den verfügbaren Daten zur Empfängeraktivität für den Versand](assets/campaign_report_email_4.png){zoomable="yes"}
 
 +++Erfahren Sie mehr über die Metriken der E-Mail-Kampagnen-Berichte.
 
@@ -120,7 +120,7 @@ Die Tabelle **[!UICONTROL Reaktionsstatistik]** enthält die verfügbaren Daten 
 
 Die Tabelle **[!UICONTROL Generierte Clickstreams]** zeigt Daten dazu an, wie Ihre Empfängerinnen und Empfänger mit Ihrem Versand interagiert haben. Metriken werden nachfolgend beschrieben.
 
-![](assets/campaign_report_email_5.png){zoomable="yes"}
+![Screenshot der Tabelle Erzeugte Clickstreams](assets/campaign_report_email_5.png){zoomable="yes"}
 
 +++Erfahren Sie mehr über die Metriken der E-Mail-Kampagnen-Berichte.
 
@@ -145,7 +145,7 @@ Die Tabelle und der Graph zur **[!UICONTROL Aufschlüsselung der Fehler nach Typ
 
 Die in diesem Bericht angezeigten Fehler lösen einen Quarantäneprozess aus. Weitere Informationen zur Quarantäneverwaltung finden Sie in der [Dokumentation zu Campaign v8 (Client-Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=de){target="_blank"}.
 
-![](assets/campaign_report_email_6.png){zoomable="yes"}
+![Screenshot der Aufschlüsselung der Fehler nach Diagrammtyp und Tabelle](assets/campaign_report_email_6.png){zoomable="yes"}
 
 +++Erfahren Sie mehr über die Metriken der E-Mail-Kampagnen-Berichte.
 
@@ -185,7 +185,7 @@ Die Tabelle und der Graph zur **[!UICONTROL Aufschlüsselung der Fehler nach Dom
 
 Die Metriken der **[!UICONTROL Versandstatistiken]** bieten wichtige Performance-Indikatoren (KPIs), die detaillierte Informationen zu den Daten liefern, die für gesendete E-Mails verfügbar sind. Metriken werden nachfolgend beschrieben.
 
-![](assets/campaign_report_email_7.png){zoomable="yes"}
+![Screenshot der Metriken für Versandstatistiken](assets/campaign_report_email_7.png){zoomable="yes"}
 
 +++Erfahren Sie mehr über die Metriken der E-Mail-Kampagnen-Berichte.
 
@@ -211,7 +211,7 @@ Die Metriken der **[!UICONTROL Versandstatistiken]** bieten wichtige Performance
 
 Die Tabelle **[!UICONTROL Öffnungs- und Clickthrough-Rate]** zeigt Daten zu Ihren Empfängerinnen und Empfängern an. Metriken werden nachfolgend beschrieben.
 
-![](assets/campaign_report_email_8.png){zoomable="yes"}
+![Screenshot der Tabelle mit den Öffnungs- und Klickraten](assets/campaign_report_email_8.png){zoomable="yes"}
 
 +++ Erfahren Sie mehr über die Metriken von E-Mail-Kampagnen-Berichten.
 
@@ -236,7 +236,7 @@ Die Tabelle **[!UICONTROL Öffnungs- und Clickthrough-Rate]** zeigt Daten zu Ihr
 
 Der Bericht **[!UICONTROL URLs und Clickstreams]** bietet wichtige Performance-Indikatoren (KPIs), die detaillierte Informationen zu den URLs enthalten, auf die während eines Versands am häufigsten geklickt wurde. Metriken werden nachfolgend beschrieben.
 
-![](assets/campaign_report_email_9.png){zoomable="yes"}
+![Screenshot des Berichts zu URLs und Clickstreams](assets/campaign_report_email_9.png){zoomable="yes"}
 
 +++ Erfahren Sie mehr über die Metriken von E-Mail-Kampagnen-Berichten.
 
@@ -259,7 +259,7 @@ Der Bericht **[!UICONTROL URLs und Clickstreams]** bietet wichtige Performance-I
 
 Der Graph und die Tabelle zu den **[!UICONTROL 10 meistbesuchten Links]** enthalten die verfügbaren Daten zum Empfängerverhalten für die einzelnen Links. Metriken werden nachfolgend beschrieben.
 
-![](assets/campaign_report_email_10.png){zoomable="yes"}
+![Screenshot der 10 meistbesuchten Links-Diagramme](assets/campaign_report_email_10.png){zoomable="yes"}
 
 +++Erfahren Sie mehr über die Metriken der E-Mail-Kampagnen-Berichte.
 
@@ -278,7 +278,7 @@ Der Graph und die Tabelle zu den **[!UICONTROL 10 meistbesuchten Links]** enthal
 
 Der Graph zur **[!UICONTROL Aufschlüsselung der Klicks im Zeitverlauf]** enthält die verfügbaren Daten zum Empfängerverhalten für jeden Link.
 
-![](assets/campaign_report_email_11.png){zoomable="yes"}
+![Screenshot der Aufschlüsselung der Klicks im Zeitverlauf](assets/campaign_report_email_11.png){zoomable="yes"}
 
 ## Benutzeraktivitäten {#user-activities-email}
 
@@ -289,7 +289,7 @@ Der Graph zur **[!UICONTROL Aufschlüsselung der Klicks im Zeitverlauf]** enthä
 
 Der Bericht **[!UICONTROL Benutzeraktivitäten]** zeigt die Aufschlüsselung der Öffnungen und Klicks in Form eines Diagramms. Die Metriken für diesen Bericht werden nachfolgend beschrieben.
 
-![](assets/campaign_report_email_user_activities.png){zoomable="yes"}{align="center"}
+![Screenshot des Berichts zu Benutzeraktivitäten](assets/campaign_report_email_user_activities.png){zoomable="yes"}{align="center"}
 
 +++Erfahren Sie mehr über die Metriken des E-Mail-Versandberichts.
 

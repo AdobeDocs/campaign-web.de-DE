@@ -2,20 +2,19 @@
 title: Benutzerdefinierte Felder
 description: Erfahren Sie, wie Sie benutzerdefinierte Felder und ihre Sichtbarkeit in der Benutzeroberfläche konfigurieren.
 exl-id: 34e7e0b7-3981-43b1-95a5-6c672adafdc9
-source-git-commit: 27e44682178267353418de210af51067eee4141b
-workflow-type: ht
-source-wordcount: '925'
-ht-degree: 100%
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+workflow-type: tm+mt
+source-wordcount: '1003'
+ht-degree: 76%
 
 ---
-
 
 # Konfigurieren benutzerdefinierter Felder {#custom-fields}
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields"
 >title="Bearbeiten benutzerdefinierter Details"
->abstract="Alle benutzerdefinierten Felder, die in der Benutzeroberfläche für das ausgewählte Schema angezeigt werden, werden eingeblendet. Sie können die Reihenfolge, in der sie in der Benutzeroberfläche angezeigt werden, mithilfe der Pfeile nach oben und unten ändern und Felder durch Hinzufügen von Trennzeichen in Unterabschnitte gruppieren. Um ein benutzerdefiniertes Feld zu löschen oder Einstellungen wie etwa Sichtbarkeitsbedingungen zu bearbeiten, klicken Sie auf die Schaltfläche mit den Auslassungspunkten."
+>abstract="Alle benutzerdefinierten Felder, die in der Benutzeroberfläche für das ausgewählte Schema angezeigt werden, werden eingeblendet. Sie können die Reihenfolge ändern, in der die Felder in der Benutzeroberfläche angezeigt werden, indem Sie die Pfeile nach oben und unten verwenden, und Felder durch Hinzufügen von Trennzeichen in Unterabschnitten gruppieren. Um ein benutzerdefiniertes Feld zu löschen oder Einstellungen wie etwa Sichtbarkeitsbedingungen zu bearbeiten, klicken Sie auf die Schaltfläche mit den Auslassungspunkten."
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields_settings_general"
@@ -46,7 +45,7 @@ ht-degree: 100%
 
 Benutzerdefinierte Felder sind zusätzliche Attribute, die über die Adobe Campaign-Konsole zu vorkonfigurierten Schemata hinzugefügt werden. Sie ermöglichen es Ihnen, Schemata anzupassen, indem neue Attribute entsprechend den Anforderungen Ihrer Organisation eingefügt werden. Wie Sie ein Schema erweitern, erfahren Sie in der [Dokumentation zu Adobe Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema.html?lang=de){target="_blank"}.
 
-Benutzerdefinierte Felder können auf verschiedenen Bildschirmen angezeigt werden, z. B. in den Profildetails in der Campaign Web-Benutzeroberfläche. Admins können steuern, welche Felder sichtbar sind und wie sie angezeigt werden. Diese Änderungen gelten für alle Campaign-Benutzenden.
+Benutzerdefinierte Felder können auf verschiedenen Bildschirmen angezeigt werden, z. B. in Profildetails in der Web-Benutzeroberfläche von Campaign. Admins können steuern, welche Felder sichtbar sind und wie sie angezeigt werden. Diese Änderungen gelten für alle Campaign-Benutzenden.
 
 >[!NOTE]
 >
@@ -65,28 +64,28 @@ Benutzerdefinierte Felder sind für die folgenden Schemata verfügbar:
 
 Gehen Sie wie folgt vor, um benutzerdefinierte Felder in der Benutzeroberfläche anzuzeigen:
 
-1. Navigieren Sie im linken Navigationsbereich zum Menü **[!UICONTROL Schemata]** und suchen Sie das gewünschte Schema.
+1. Navigieren Sie zum Menü **[!UICONTROL Schemata]** im linken Navigationsbereich und suchen Sie das gewünschte Schema.
 
    Verwenden Sie im Bereich „Filter“ den Filter **[!UICONTROL Bearbeitbar]**, um Schemata mit benutzerdefinierten Feldern schnell zu identifizieren.
 
-   ![](assets/custom-fields-open.png)
+   ![Screenshot mit dem Menü „Schemata“ und dem bearbeitbaren Filter im Navigationsbereich](assets/custom-fields-open.png)
 
-1. Wählen Sie den Schemanamen in der Liste aus, um das Schema zu öffnen. Eine detaillierte Schemaansicht wird angezeigt [Weitere Informationen zu Schemadetails](../administration/schemas.md). Klicken Sie auf die Schaltfläche **[!UICONTROL Benutzerdefinierte Details bearbeiten]**, um auf benutzerdefinierte Felder zuzugreifen. In diesem Beispiel sollen Felder zum Schema **[!UICONTROL Empfänger]** hinzugefügt werden.
+1. Wählen Sie den Schemanamen in der Liste aus, um das Schema zu öffnen. Eine detaillierte Schemaansicht wird angezeigt. [Weitere Informationen zu Schemadetails](../administration/schemas.md). Klicken Sie auf die Schaltfläche **[!UICONTROL Benutzerdefinierte Details bearbeiten]**, um auf benutzerdefinierte Felder zuzugreifen. In diesem Beispiel werden Felder für das Schema **[!UICONTROL Empfänger]** hinzugefügt.
 
-   ![](assets/custom-fields-edit.png)
+   ![Screenshot mit der Schaltfläche Benutzerdefinierte Details bearbeiten in der Schemaansicht](assets/custom-fields-edit.png)
 
-1. Die Liste der benutzerdefinierten Felder, die in der Benutzeroberfläche für das Schema angezeigt werden, wird eingeblendet. Hier ist das Feld „Kennung im CRM“ im Detailbildschirm des Profils zu sehen, das als Pflichtfeld markiert ist.
+1. Die Liste der benutzerdefinierten Felder, die in der Benutzeroberfläche für das Schema angezeigt werden, wird angezeigt. Hier ist das Feld „Kennung im CRM“ im Detailbildschirm des Profils zu sehen, das als Pflichtfeld markiert ist.
 
    | Konfiguration benutzerdefinierter Felder | Rendern in der Benutzeroberfläche |
    |  ---  |  ---  |
-   | ![](assets/custom-fields-detail.png){zoomable="yes"} | ![](assets/custom-fields-detail-crm.png){zoomable="yes"} |
+   | ![Screenshot mit der Konfiguration der benutzerdefinierten Felder](assets/custom-fields-detail.png){zoomable="yes"} | ![Screenshot zur Darstellung des CRM-ID-Felds in der Benutzeroberfläche](assets/custom-fields-detail-crm.png){zoomable="yes"} |
 
 1. Um der Benutzeroberfläche ein benutzerdefiniertes Feld hinzuzufügen, klicken Sie auf die Schaltfläche mit den Auslassungspunkten und wählen Sie eine der folgenden Optionen:
 
    * **[!UICONTROL Benutzerdefinierte Felder auswählen]**: Wählen Sie ein oder mehrere benutzerdefinierte Felder aus, die in der Benutzeroberfläche angezeigt werden sollen.
    * **[!UICONTROL Liste der benutzerdefinierten Felder automatisch ausfüllen]**: Fügen Sie der Benutzeroberfläche alle benutzerdefinierten Felder hinzu, die für das Schema definiert sind.
 
-   ![](assets/custom-fields-add.png)
+   ![Screenshot mit den Optionen zum Hinzufügen benutzerdefinierter Felder](assets/custom-fields-add.png)
 
 1. Wenn benutzerdefinierte Felder hinzugefügt wurden, können Sie:
 
@@ -100,7 +99,7 @@ Gehen Sie wie folgt vor, um benutzerdefinierte Felder in der Benutzeroberfläche
 
 Um bestimmte Einstellungen für jedes benutzerdefinierte Feld zu konfigurieren, klicken Sie auf die Schaltfläche mit den Auslassungspunkten neben dem gewünschten Feld und wählen Sie **[!UICONTROL Bearbeiten]** aus.
 
-![](assets/custom-fields-settings.png)
+![Screenshot mit dem Einstellungsmenü für benutzerdefinierte Felder](assets/custom-fields-settings.png)
 
 Folgende Einstellungen sind verfügbar:
 
@@ -117,15 +116,15 @@ Folgende Einstellungen sind verfügbar:
 
   +++Beispiel anzeigen
 
-  ![](assets/custom-fields-ref.png)
+  ![Screenshot mit einem Beispiel für Filtereinstellungen für benutzerdefinierte Felder](assets/custom-fields-ref.png)
 
 +++
 
-* **[!UICONTROL Zwei Spalten]**: Standardmäßig werden benutzerdefinierte Felder in der Benutzeroberfläche in zwei Spalten angezeigt. Schalten Sie diese Option ein, um das benutzerdefinierte Feld über die gesamte Breite des Bildschirms und nicht in zwei Spalten anzuzeigen.
+* **[!UICONTROL Über zwei Spalten]**: Standardmäßig werden benutzerdefinierte Felder in der Benutzeroberfläche in zwei Spalten angezeigt. Schalten Sie diese Option ein, um das benutzerdefinierte Feld über die gesamte Breite des Bildschirms und nicht in zwei Spalten anzuzeigen.
 
 ## Organisieren benutzerdefinierter Felder in Unterabschnitten {#separator}
 
-In der Campaign Web-Benutzeroberfläche können Sie Trennzeichen hinzufügen, um benutzerdefinierte Felder in der Benutzeroberfläche zu gruppieren und so die Lesbarkeit zu verbessern. Gehen Sie dazu wie folgt vor:
+In der Web-Benutzeroberfläche von Campaign können Sie Trennzeichen hinzufügen, um benutzerdefinierte Felder in der Benutzeroberfläche zu gruppieren und so die Lesbarkeit zu verbessern. Gehen Sie dazu wie folgt vor:
 
 1. Klicken Sie auf die Schaltfläche mit den Auslassungspunkten neben den Pfeilen nach oben und unten und wählen Sie **[!UICONTROL Trennzeichen hinzufügen]**.
 
@@ -137,4 +136,4 @@ In der Campaign Web-Benutzeroberfläche können Sie Trennzeichen hinzufügen, u
 
    | Konfiguration benutzerdefinierter Felder | Rendern in der Benutzeroberfläche |
    |  ---  |  ---  |
-   | ![](assets/custom-fields-separator.png){zoomable="yes"} | ![](assets/custom-fields-section.png){zoomable="yes"} |
+   | ![Screenshot zur Konfiguration einer Trennlinie](assets/custom-fields-separator.png){zoomable="yes"} | ![Screenshot, der das Rendering eines Unterabschnitts in der Benutzeroberfläche zeigt](assets/custom-fields-section.png){zoomable="yes"} |

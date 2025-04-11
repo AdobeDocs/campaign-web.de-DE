@@ -3,18 +3,18 @@ audience: end-user
 title: Globale Berichte für den E-Mail-Kanal
 description: Erfahren Sie mehr über globale Berichte für den E-Mail-Kanal
 exl-id: 37c575e5-fd18-4a35-a11a-922d5bda1bae
-source-git-commit: 39dcf11797339ee9800da6c5a32b1a1c3470529a
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '1592'
-ht-degree: 100%
+source-wordcount: '1653'
+ht-degree: 72%
 
 ---
 
 # Globale Berichte für den E-Mail-Kanal {#global-report-direct}
 
-Die globalen Berichte bieten einen umfassenden Überblick über Traffic- und Interaktionsmetriken auf Kanalebene.
+Die globalen Berichte bieten den Benutzenden einen umfassenden Überblick über Traffic- und Interaktionsmetriken auf Kanalebene.
 
-Navigieren Sie zum Menü **[!UICONTROL Berichte]** im Abschnitt **[!UICONTROL Berichterstellung]**. Sie können Ihre Daten nach Berichtsdatum, -ordner oder -regeln filtern. [Weitere Informationen](global-reports.md)
+Navigieren Sie zum Menü **[!UICONTROL Berichte]** im Abschnitt **[!UICONTROL Berichterstellung]**. Sie können Ihre Daten nach Berichtsdatum, Ordner oder Regeln filtern. [Weitere Informationen](global-reports.md)
 
 ## Versandzusammenfassung {#delivery-summary-email}
 
@@ -25,9 +25,9 @@ Navigieren Sie zum Menü **[!UICONTROL Berichte]** im Abschnitt **[!UICONTROL Be
 >title="Versandübersicht"
 >abstract="Die **Versandübersicht** enthält wichtige Leistungsindikatoren (KPI), die einen umfassenden Einblick in die Interaktion Ihrer Zielgruppe mit Ihren E-Mail-Sendungen und Kampagnen bieten."
 
-Die **[!UICONTROL Versandübersicht]** präsentiert wichtige Leistungsmetriken (KPI) mit umfassenden Einblicken in die Interaktion Ihrer Besuchenden mit jedem E-Mail-Versand. Die Metriken sind unten dargestellt.
+Die **[!UICONTROL Versandübersicht]** enthält wichtige Leistungsmetriken (KPIs) und bietet detaillierte Einblicke in die Interaktion Ihrer Besucherinnen und Besucher mit jedem E-Mail-Versand. Die Metriken sind unten dargestellt.
 
-![](assets/global_report_email_delivery_overview.png){zoomable="yes"}{align="center"}
+![Metriken der Versandübersicht](assets/global_report_email_delivery_overview.png){zoomable="yes"}{align="center"}
 
 +++Erfahren Sie mehr über Versandübersichtsmetriken.
 
@@ -39,7 +39,7 @@ Die **[!UICONTROL Versandübersicht]** präsentiert wichtige Leistungsmetriken (
 
 * **[!UICONTROL Klicks gesamt]**: Gesamtzahl der Empfängerinnen und Empfänger, die einen Versand mindestens einmal angeklickt haben.
 
-* **[!UICONTROL Bounces und Fehler]**: Gesamtzahl der über alle Sendungen hinweg kumulierten Fehler und der automatischen Bounce-Verarbeitung in Bezug auf die Gesamtzahl der gesendeten Nachrichten.
+* **[!UICONTROL Bounces und Fehler]**: Summe der Fehler, die beim Versand und bei der automatischen Rücksendung kumuliert wurden, bezogen auf die Gesamtzahl der gesendeten Nachrichten.
 
 * **[!UICONTROL Abmeldungen]**: Anzahl der Empfängerinnen und Empfänger, die auf „Abmelden“ geklickt haben.
 +++
@@ -53,7 +53,7 @@ Die **[!UICONTROL Versandübersicht]** präsentiert wichtige Leistungsmetriken (
 
 Die Tabelle und der Graph **[!UICONTROL Zielgruppe]** zeigen Daten zu Ihren Empfängerinnen und Empfängern, mit detaillierten Metriken unten.
 
-![](assets/global_report_email_targeted_audience.png){zoomable="yes"}{align="center"}
+![Zielgruppenmetriken](assets/global_report_email_targeted_audience.png){zoomable="yes"}{align="center"}
 
 +++Erfahren Sie mehr über Zielgruppen-Metriken.
 
@@ -61,7 +61,7 @@ Die Tabelle und der Graph **[!UICONTROL Zielgruppe]** zeigen Daten zu Ihren Empf
 
 * **[!UICONTROL Zu versendende Nachricht]**: Gesamtzahl der nach erfolgter Versandvorbereitung zu versendenden Nachrichten.
 
-* **[!UICONTROL Ausschluss]**: Gesamtzahl der Adressen, die bei der Anwendung von Regeln in der Analyse ignoriert werden: fehlende Adresse, in Quarantäne, auf der Blockierungsliste, usw.
+* **[!UICONTROL Ausschluss]**: Gesamtzahl der Adressen, die während der Analyse beim Anwenden von Regeln ignoriert wurden, z. B. fehlende Adresse, in Quarantäne oder auf Blockierungsliste.
 
 +++
 
@@ -74,7 +74,7 @@ Die Tabelle und der Graph **[!UICONTROL Zielgruppe]** zeigen Daten zu Ihren Empf
 
 Die Tabelle **[!UICONTROL Versandstatistiken]** bietet eine Aufschlüsselung des Erfolgs jedes E-Mail-Versands mit detaillierten Metriken, die unten beschrieben werden.
 
-![](assets/global_report_email_delivery_statistics.png){zoomable="yes"}{align="center"}
+![Metriken für Versandstatistiken](assets/global_report_email_delivery_statistics.png){zoomable="yes"}{align="center"}
 
 +++Erfahren Sie mehr über Versandstatistik-Metriken.
 
@@ -82,7 +82,7 @@ Die Tabelle **[!UICONTROL Versandstatistiken]** bietet eine Aufschlüsselung des
 
 * **[!UICONTROL Erfolg]**: Anzahl der erfolgreich verarbeiteten Nachrichten im Verhältnis zur Anzahl der zu versendenden Nachrichten.
 
-* **[!UICONTROL Fehler/Bounces]**: Gesamtzahl der über alle Sendungen hinweg kumulierten Fehler und der automatischen Bounce-Verarbeitungen im Verhältnis zur Anzahl der zu versendenden Nachrichten.
+* **[!UICONTROL Fehler/Bounces]**: Gesamtzahl der bei Sendungen akkumulierten Fehler und der automatischen Bounce-Verarbeitungen im Verhältnis zur Anzahl der zu versendenden Nachrichten.
 
 * **[!UICONTROL Neue Quarantänen]**: Gesamtzahl der Adressen, die infolge eines fehlgeschlagenen Versands unter Quarantäne gestellt wurden (unbekannter Nutzer, ungültige Domain), im Verhältnis zur Anzahl der zu versendenden Nachrichten.
 
@@ -95,9 +95,9 @@ Die Tabelle **[!UICONTROL Versandstatistiken]** bietet eine Aufschlüsselung des
 >title="Ausschlussgründe"
 >abstract="Der Graph und die Tabelle **Ausschlussgründe** veranschaulichen die spezifischen Gründe für die Zurückweisung von Nachrichten während der Versandvorbereitung und bieten eine detaillierte Aufschlüsselung nach Regel."
 
-![](assets/global_report_email_exclusions.png){zoomable="yes"}{align="center"}
+![Ausschlussmetriken - Ursachen](assets/global_report_email_exclusions.png){zoomable="yes"}{align="center"}
 
-Der Graph und die Tabelle „Ausschlüsse“ zeigen die Gründe, aus denen Benutzerprofile, die aus den Zielprofilen ausgeschlossen sind, die Benachrichtigung nicht erhalten haben.
+Das Ausschlussdiagramm und die Tabelle zeigen die Gründe, die verhindert haben, dass Benutzerprofile, die von den Zielgruppenprofilen ausgeschlossen wurden, die Nachricht erhalten haben.
 
 Die E-Mail-Fehlertypen werden in der [Dokumentation zu Adobe Campaign v8 (Client-Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=de#email-error-types){target="_blank"} aufgelistet.
 
@@ -108,7 +108,7 @@ Die E-Mail-Fehlertypen werden in der [Dokumentation zu Adobe Campaign v8 (Client
 >title="Versanddurchsatz"
 >abstract="Dieser **Versanddurchsatz** liefert umfassende Einblicke in den Versanddurchsatz und hebt die Erfolgs- und Fehlerquoten innerhalb eines bestimmten Zeitraums hervor."
 
-![](assets/global_report_email_delivery_throughput.png){zoomable="yes"}{align="center"}
+![Versanddurchsatzmetriken](assets/global_report_email_delivery_throughput.png){zoomable="yes"}{align="center"}
 
 Der Versanddurchsatz-Bericht bietet einen umfassenden Einblick in die Effizienz des Versandprozesses und einen detaillierten Überblick über Erfolgs- und Fehlerquoten innerhalb eines bestimmten Zeitraums.
 
@@ -116,7 +116,7 @@ Der Versanddurchsatz-Bericht bietet einen umfassenden Einblick in die Effizienz 
 
 * **[!UICONTROL Erfolg]**: Anzahl der erfolgreich verarbeiteten Nachrichten im Verhältnis zur Anzahl der zu versendenden Nachrichten.
 
-* **[!UICONTROL Fehler]**: Gesamtzahl der über alle Sendungen hinweg kumulierten Fehler und der automatischen Bounce-Verarbeitungen im Verhältnis zur Anzahl der zu versendenden Nachrichten.
+* **[!UICONTROL Fehler]**: Gesamtzahl der bei Sendungen akkumulierten Fehler und der automatischen Bounce-Verarbeitungen im Verhältnis zur Anzahl der zu versendenden Nachrichten.
 
 +++
 
@@ -129,7 +129,7 @@ Der Versanddurchsatz-Bericht bietet einen umfassenden Einblick in die Effizienz 
 >title="Aufschlüsselung der Fehler nach Typen"
 >abstract="Die Tabelle und der Graph mit Details zur **Verteilung der Fehler nach Typ** liefern Informationen zu verschiedenen Fehlertypen, die während des Prozesses aufgetreten sind, einschließlich unbekannter Nutzer, Postfach voll, ungültige Domain und anderer."
 
-![](assets/global_report_email_breakdown_type.png){zoomable="yes"}{align="center"}
+![Aufschlüsselung der Fehler nach Metriktyp](assets/global_report_email_breakdown_type.png){zoomable="yes"}{align="center"}
 
 Die Tabelle und der Graph **[!UICONTROL Verteilung der Fehler nach Typ]** enthalten die Daten zu potenziellen Fehlern in verschiedenen Domains, deren spezifische Metriken unten angegeben sind.
 
@@ -145,9 +145,9 @@ Die in diesem Bericht angezeigten Fehler lösen einen Quarantäneprozess aus. We
 
 * **[!UICONTROL Account deaktiviert]**: Fehlertyp, der beim Senden eines Versands erzeugt wird, um anzuzeigen, dass die Adresse nicht mehr existiert.
 
-* **[!UICONTROL Verweigert]**: Fehlertyp, der erzeugt wird, wenn eine Adresse vom IAP (Internet Access Provider) abgelehnt wird, z. B. nach Anwendung einer Sicherheitsregel (Anti-Spam-Software).
+* **[!UICONTROL Verweigert]**: Fehlertyp, der erzeugt wird, wenn eine Adresse vom Internetzugangsanbieter abgelehnt wird, z. B. nach Anwendung einer Sicherheitsregel (Anti-Spam-Software).
 
-* **[!UICONTROL Unerreichbar]**: Fehlertyp, der in der Nachrichtenverteilungs-Zeichenfolge auftritt: Vorfall im SMTP-Relais, Domain vorübergehend unerreichbar usw.
+* **[!UICONTROL Unerreichbar]**: Fehlertyp, der in der Verteilungskette der Nachricht auftritt, z. B. ein Vorfall im SMTP-Relais oder eine Domain, die vorübergehend nicht erreichbar ist.
 
 * **[!UICONTROL Nicht angemeldet]**: Fehlertyp, wenn das Mobiltelefon der Empfängerin bzw. des Empfängers zum Zeitpunkt des Versands ausgeschaltet war oder über keinen Netzempfang verfügte.
 
@@ -160,7 +160,7 @@ Die in diesem Bericht angezeigten Fehler lösen einen Quarantäneprozess aus. We
 >title="Aufschlüsselung der Fehler nach Domain"
 >abstract="Die Tabelle und der Graph zur Darstellung der **Verteilung der Fehler nach Domain** enthalten die Daten jedes aufgetretenen Fehlertyps, kategorisiert nach bestimmten Domains."
 
-![](assets/global_report_email_breakdown_domain.png){zoomable="yes"}{align="center"}
+![Aufschlüsselung der Fehler nach Domain-Metriken](assets/global_report_email_breakdown_domain.png){zoomable="yes"}{align="center"}
 
 Die Tabelle und der Graph **[!UICONTROL Verteilung der Fehler nach Domain]** enthalten die Daten zu potenziellen Fehlern innerhalb der einzelnen Domains. Die Metriken sind dieselben wie die der Tabelle und des Graphen **[!UICONTROL Aufschlüsselung der Fehler nach Typ]** weiter oben.
 
@@ -171,11 +171,11 @@ Die Tabelle und der Graph **[!UICONTROL Verteilung der Fehler nach Domain]** ent
 >[!CONTEXTUALHELP]
 >id="acw_global_delivery_statistics_summary_email"
 >title="Versandstatistiken"
->abstract="Die Leistungskennzahlen (KPI) zu **Versandstatistiken** bieten einen umfassenden Überblick über die Leistung Ihrer Sendungen und Kampagnen und bieten Einblicke sowohl zu erfolgreichen Sendungen als auch zu aufgetretenen Fehlern und Benutzerinteraktionen."
+>abstract="Die **Versandstatistiken** Key Performance Indicators (KPIs) bieten einen umfassenden Überblick über die Leistung Ihrer Sendungen und Kampagnen und bieten Einblicke sowohl in erfolgreiche Sendungen, aufgetretene Fehler als auch die Benutzerinteraktion."
 
-Die Metriken zu **[!UICONTROL Versandstatistiken]** bieten wichtige Leistungskennzahlen (KPI) mit detaillierten Informationen zu den mit jedem E-Mail-Versand verbundenen Daten. Weitere Details zu diesen Metriken finden Sie unten.
+Die Metriken **[!UICONTROL Versandstatistiken]** bieten wichtige Leistungsindikatoren (KPIs), die detaillierte Informationen zu den mit jedem E-Mail-Versand verknüpften Daten enthalten. Weitere Details zu diesen Metriken finden Sie unten.
 
-![](assets/global_report_email_delivery_statistics_tracking.png){zoomable="yes"}{align="center"}
+![Tracking-Metriken für Versandstatistiken](assets/global_report_email_delivery_statistics_tracking.png){zoomable="yes"}{align="center"}
 
 +++Erfahren Sie mehr über Versandstatistik-Metriken.
 
@@ -187,7 +187,7 @@ Die Metriken zu **[!UICONTROL Versandstatistiken]** bieten wichtige Leistungsken
 
 * **[!UICONTROL Öffnungen insgesamt]**: Anzahl der unterschiedlichen Zielgruppenempfängerinnen und -empfänger dieser Domain, die mindestens einmal eine Nachricht geöffnet haben.
 
-* **[!UICONTROL Klicks auf den Abmelde-Link]**: Anzahl der Klicks auf den Abmelde-Link.
+* **[!UICONTROL Klicks auf den Abmelde-]**: Anzahl der Klicks auf den Abmelde-Link.
 
 * **[!UICONTROL Klicks auf den Mirror-Link]**: Anzahl der Klicks auf den Link der Mirrorseite.
 
@@ -203,9 +203,9 @@ Die Metriken zu **[!UICONTROL Versandstatistiken]** bieten wichtige Leistungsken
 
 Die Tabelle **[!UICONTROL Öffnungs- und Clickthrough-Rate]** zeigt Daten zu Ihren Empfängerinnen und Empfängern an. Metriken werden nachfolgend beschrieben.
 
-![](assets/global_report_email_opens.png){zoomable="yes"}{align="center"}
+![Öffnungs- und Klickraten-Metriken](assets/global_report_email_opens.png){zoomable="yes"}{align="center"}
 
-+++Erfahren Sie mehr über die Metriken zu Öffnungs- und Klickraten.
++++Erfahren Sie mehr über die Metriken Öffnungs- und Klickrate.
 
 * **[!UICONTROL Gesendet]**: Gesamtzahl der gesendeten Nachrichten.
 
@@ -227,9 +227,9 @@ Die Tabelle **[!UICONTROL Öffnungs- und Clickthrough-Rate]** zeigt Daten zu Ihr
 >title="URLs und Clickstreams"
 >abstract="Der Bericht **URL und Clickstreams** liefert wichtige Leistungskennzahlen (KPI) und bietet detaillierte Einblicke in die während eines Versands am häufigsten angeklickten URLs."
 
-Der Bericht **[!UICONTROL URLs und Clickstreams]** bietet durch die enthaltenen Leistungskennzahlen (KPIs) einen detaillierten Einblick in die URLs, die während eines Versands am häufigsten angeklickt wurden. Metriken werden nachfolgend beschrieben.
+Der Bericht **[!UICONTROL URLs und Clickstreams]** bietet wichtige Leistungsindikatoren (KPIs), die detaillierte Einblicke in die URLs bieten, die während eines Versands die höchste Anzahl an Klicks erhalten haben. Metriken werden nachfolgend beschrieben.
 
-![](assets/campaign_report_email_9.png){zoomable="yes"}{align="center"}
+![URLs und Clickstreams-Metriken](assets/campaign_report_email_9.png){zoomable="yes"}{align="center"}
 
 +++Weitere Informationen zu Metriken zu URL und Clickstreams.
 
@@ -239,7 +239,7 @@ Der Bericht **[!UICONTROL URLs und Clickstreams]** bietet durch die enthaltenen 
 
 * **[!UICONTROL Klicks insgesamt]**: Gesamtzahl der Klicks auf Links in Sendungen.
 
-* **[!UICONTROL Plattform-Durchschnitt]**: Dieser Durchschnittswert, der unter jeder Rate (Reaktivität, Unique Clicks und Klicks insgesamt) angezeigt wird, bezieht sich auf die in den letzten sechs Monaten verschickten Sendungen. Es werden nur Sendungen mit derselben Typologie und mit demselben Kanal berücksichtigt. Testsendungen sind ausgeschlossen.
+* **[!UICONTROL Plattform-Durchschnitt]**: Dieser unter jeder Rate (Reaktivität, Unique Clicks und kumulative Klicks) angezeigte Wert bezieht sich auf die Gesamtheit der in den letzten sechs Monaten gesendeten Sendungen. Es werden nur Sendungen berücksichtigt, die dieselbe Typologie aufweisen und sich auf demselben Kanal befinden. Testsendungen sind ausgeschlossen.
 +++
 
 ### Die 10 meistbesuchten Links {#top10-global-report-email}
@@ -247,11 +247,11 @@ Der Bericht **[!UICONTROL URLs und Clickstreams]** bietet durch die enthaltenen 
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_top10_email"
 >title="Die 10 meistbesuchten Links"
->abstract="Der Graph und die Tabelle zu den **10 meistbesuchten Links** enthalten umfassende Daten zur Empfängerinteraktion mit jedem Link."
+>abstract="Das Diagramm **Die 10 meistbesuchten Links** und die Tabelle enthalten umfassende Daten zur Empfängerinteraktion mit jedem Link."
 
 Der Graph und die Tabelle zu den **[!UICONTROL 10 meistbesuchten Links]** enthalten die verfügbaren Daten zum Empfängerverhalten für die einzelnen Links. Metriken werden nachfolgend beschrieben.
 
-![](assets/global_report_email_top10.png){zoomable="yes"}{align="center"}
+![Die 10 meistbesuchten Links-Metriken](assets/global_report_email_top10.png){zoomable="yes"}{align="center"}
 
 +++Erfahren Sie mehr über die Metriken zu den 10 meistbesuchten Links.
 
@@ -270,7 +270,7 @@ Der Graph und die Tabelle zu den **[!UICONTROL 10 meistbesuchten Links]** enthal
 
 Der Graph zur **[!UICONTROL Aufschlüsselung der Klicks im Zeitverlauf]** enthält die verfügbaren Daten zum Empfängerverhalten für jeden Link.
 
-![](assets/global_report_email_breakdown_clicks.png){zoomable="yes"}{align="center"}
+![Aufschlüsselung der Klicks im Zeitverlauf](assets/global_report_email_breakdown_clicks.png){zoomable="yes"}{align="center"}
 
 ## Benutzeraktivitäten {#user-activities-email}
 
@@ -281,7 +281,7 @@ Der Graph zur **[!UICONTROL Aufschlüsselung der Klicks im Zeitverlauf]** enthä
 
 Der Bericht **[!UICONTROL Benutzeraktivitäten]** zeigt die Aufschlüsselung der Öffnungen und Klicks in Form eines Diagramms. Die Metriken für diesen Bericht werden nachfolgend beschrieben.
 
-![](assets/global_report_email_user.png){zoomable="yes"}{align="center"}
+![Metriken der Benutzeraktivitäten](assets/global_report_email_user.png){zoomable="yes"}{align="center"}
 
 +++Erfahren Sie mehr über die Metriken zu Benutzeraktivitäten.
 
