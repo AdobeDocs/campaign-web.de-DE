@@ -14,7 +14,7 @@ ht-degree: 29%
 
 >[!CONTEXTUALHELP]
 >
-Die Aktivität **Planung** ist eine Aktivität zur **Flusssteuerung**. Damit können Sie planen, wann der Workflow gestartet werden soll. Diese Aktivität sollte als geplanter Start betrachtet werden. Sie kann nur als erste Aktivität des Workflows verwendet werden.
+>Die Aktivität **Planung** ist eine Aktivität zur **Flusssteuerung**. Damit können Sie planen, wann der Workflow gestartet werden soll. Diese Aktivität sollte als geplanter Start betrachtet werden. Sie kann nur als erste Aktivität des Workflows verwendet werden.
 
 ## Best Practices {#scheduler-best-practices}
 
@@ -24,9 +24,15 @@ Die Aktivität **Planung** ist eine Aktivität zur **Flusssteuerung**. Damit kö
 
 ## Konfigurieren der Aktivität „Planung“ {#scheduler-configuration}
 
-[!CONTEXTUALHELP]
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_schedule_validity"
+>title="Scheduler validity"
+>abstract="You can define a validity period for the scheduler. It can be permanent (default), or can be valid until a specific date."
 
-[!CONTEXTUALHELP]
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_schedule_options"
+>title="Scheduler options"
+>abstract="Define the frequency of the scheduler. It can be executed at a specific moment, once or several times a day, week or month."
 
 Gehen Sie folgendermaßen vor, um die Aktivität **Planung** zu konfigurieren:
 
