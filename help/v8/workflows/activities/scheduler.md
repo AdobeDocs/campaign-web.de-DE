@@ -13,8 +13,9 @@ ht-degree: 29%
 # Planung {#scheduler}
 
 >[!CONTEXTUALHELP]
->
->Die Aktivität **Planung** ist eine Aktivität zur **Flusssteuerung**. Damit können Sie planen, wann der Workflow gestartet werden soll. Diese Aktivität sollte als geplanter Start betrachtet werden. Sie kann nur als erste Aktivität des Workflows verwendet werden.
+>id="acw_orchestration_scheduler"
+>title="Scheduler activity"
+>abstract="The **Scheduler** activity allows you to schedule when the workflow gets started. This activity should be considered as a scheduled start. It can only be used as the first activity of the workflow."
 
 ## Best Practices {#scheduler-best-practices}
 

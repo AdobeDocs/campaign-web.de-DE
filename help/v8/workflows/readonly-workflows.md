@@ -13,8 +13,9 @@ ht-degree: 21%
 # Über schreibgeschützte Workflows {#readonly-workflows}
 
 >[!CONTEXTUALHELP]
->
-Einige Workflows sind schreibgeschützt. Integrierte technische Workflows sind immer schreibgeschützt, aber diese Einschränkung kann auch für andere Arten von Workflows gelten.
+>id="acw_wf_read_only_canvas"
+>title="This workflow is read only"
+>abstract="You cannot edit this workflow due to your rights or the type of the workflow."
 
 Campaign-Benutzende haben möglicherweise eingeschränkten Zugriff auf Adobe Campaign-Daten. Ein Campaign-Administrator kann ihnen das Recht gewähren, bestimmte Funktionen anzuzeigen, sie jedoch nicht zu bearbeiten oder zu ändern. Benutzerberechtigungen für -Daten sind unerlässlich, um Daten- und Prozesssicherheit zu gewährleisten. Weitere Informationen zur Berechtigungsverwaltung in Campaign finden [ in diesem Abschnitt ](../get-started/permissions.md).
 
