@@ -13,8 +13,10 @@ ht-degree: 57%
 # Auswählen einer bestehenden Zielgruppe {#add-audience}
 
 >[!CONTEXTUALHELP]
->
-In diesem Abschnitt wird beschrieben, wie Sie bei der Definition der Zielgruppe eines E-Mail-Versands eine bestehende Zielgruppe auswählen. Bei der Bestimmung der Hauptzielgruppe eines Versands haben Sie außerdem folgende Möglichkeiten:
+>id="acw_deliveries_email_audience_select"
+>title="Select an existing audience"
+>abstract="Browse the list to select an existing audience. Use the 'Show filters' icon to filter the list, or select a specific folder."
+
 * [Erstellen einer einmaligen Zielgruppe](one-time-audience.md) mithilfe des Abfrage-Modelers.
 * [Laden einer Zielgruppe aus einer externen Datei](file-audience.md) (nur für E-Mails).
 

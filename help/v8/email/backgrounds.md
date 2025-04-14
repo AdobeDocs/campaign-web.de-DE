@@ -13,8 +13,9 @@ ht-degree: 40%
 # Personalisieren Ihres E-Mail-Hintergrunds {#backgrounds}
 
 >[!CONTEXTUALHELP]
->
-Beim Festlegen von Hintergründen mit der E-Mail-Designer empfiehlt Adobe Folgendes:
+>id="ac_edition_backgroundimage"
+>title="Background settings"
+>abstract="You can personalize the background color or background image for your content. Note that background image is not supported by all email clients."
 
 1. Wenden Sie eine Hintergrundfarbe auf den Hauptteil Ihrer E-Mail an, wenn das Design es so verlangt.
 1. Legen Sie in den meisten Fällen Hintergrundfarben auf Spaltenebene fest.
