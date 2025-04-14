@@ -3,9 +3,9 @@ audience: end-user
 title: Erste Schritte mit Zielgruppen
 description: Erfahren Sie, wie Sie in Adobe Campaign Web mit Zielgruppen arbeiten.
 exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: d982d55a7667442f4ff4751dbaa29dfaa243b22c
 workflow-type: tm+mt
-source-wordcount: '289'
+source-wordcount: '371'
 ht-degree: 66%
 
 ---
@@ -14,13 +14,13 @@ ht-degree: 66%
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_properties"
->title="Properties"
->abstract="Here you can find a summary of the audience properties, such as its origin or its storage folder. Click the link in the **Last workflow** section to open the workflow that has been used to create the audience."
+>title="Eigenschaften"
+>abstract="Hier finden Sie eine Zusammenfassung der Zielgruppeneigenschaften, z. B. Herkunft oder Speicherordner. Klicken Sie auf den Link im Abschnitt **Letzter Workflow**, um den Workflow zu öffnen, der zur Erstellung der Zielgruppe verwendet wurde."
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_count"
->title="Audience size"
->abstract="Here you can find the total number of profiles within the audience. Click the **Calculate** button to update and recalculate the audience results."
+>title="Zielgruppengröße"
+>abstract="Hier finden Sie die Gesamtzahl der Profile innerhalb der Zielgruppe. Klicken Sie auf die Schaltfläche **Berechnen**, um die Zielgruppenergebnisse zu aktualisieren und neu zu berechnen."
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_targeting"
@@ -29,8 +29,8 @@ ht-degree: 66%
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_workflow_error_data_execution"
->title="Audience error"
->abstract="Audience data is not available. Please wait for the end of the workflow execution."
+>title="Zielgruppenfehler"
+>abstract="Zielgruppendaten sind nicht verfügbar. Bitte warten Sie bis zum Ende der Workflow-Ausführung."
 
 Die Zielgruppe ist das hauptsächliche Ziel Ihres Versands: die Profile, die die Nachrichten erhalten. Die Liste der Zielgruppen, die in Campaign Web verwendet werden können, ist über das Menü **[!UICONTROL Zielgruppen]** verfügbar.
 

@@ -2,10 +2,10 @@
 title: 'Konfigurieren von Optionen in [!DNL Campaign] '
 description: Erfahren Sie, wie Sie Campaign-Optionen konfigurieren und Ihre eigenen benutzerdefinierten Optionen erstellen.
 exl-id: 44f90e34-e72e-4506-90d5-06ab68242d34
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 93a79b471c236e5bf67da0dbd0d76274598dcb0e
 workflow-type: tm+mt
-source-wordcount: '425'
-ht-degree: 49%
+source-wordcount: '431'
+ht-degree: 50%
 
 ---
 
@@ -13,18 +13,18 @@ ht-degree: 49%
 
 >[!CONTEXTUALHELP]
 >id="acw_options_list"
->title="Options"
->abstract="Options"
+>title="Optionen"
+>abstract="Optionen"
 
 >[!CONTEXTUALHELP]
 >id="acw_options_create"
->title="Create option"
->abstract="Create option"
+>title="Option „Erstellen“"
+>abstract="Option „Erstellen“"
 
 Adobe Campaign Web enthält technische Optionen, mit denen Sie die Anwendung spezifischer konfigurieren können. Einige dieser Optionen sind integriert, während andere bei Bedarf manuell hinzugefügt werden können.
 
 >[!IMPORTANT]\
-Die integrierten Optionen sind vorkonfiguriert und sollten nur von erfahrenen Benutzenden geändert werden. Wenden Sie sich bei Fragen oder Anfragen an Ihren Adobe-Support-Mitarbeiter.
+>Die integrierten Optionen sind vorkonfiguriert und sollten nur von erfahrenen Benutzenden geändert werden. Wenden Sie sich bei Fragen oder Anfragen an Ihren Adobe-Support-Mitarbeiter.
 
 ## Zugriff auf Campaign-Optionen {#access}
 
@@ -34,7 +34,7 @@ Optionen sind im Menü **[!UICONTROL Administration]** > **[!UICONTROL Optionen]
 [Optionsliste, die im Menü Administration / Optionen angezeigt wird]
 
 >[!NOTE]\
-Obwohl die Position des Menüs „Optionen“ in der Adobe Campaign-Konsole im Vergleich zur Web-Benutzeroberfläche abweicht, ist die Liste identisch und agiert wie ein Spiegel. Weitere Informationen zu den verfügbaren Optionen finden Sie in der Optionsliste in der [ zu Campaign v7](https://experienceleague.adobe.com/de/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options){target="_blank"}.
+>Obwohl die Position des Menüs „Optionen“ in der Adobe Campaign-Konsole im Vergleich zur Web-Benutzeroberfläche abweicht, ist die Liste identisch und agiert wie ein Spiegel. Weitere Informationen zu den verfügbaren Optionen finden Sie in der Optionsliste in der [ zu Campaign v7](https://experienceleague.adobe.com/de/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options){target="_blank"}.
 
 Über die Optionsliste haben Sie folgende Möglichkeiten:
 

@@ -2,10 +2,10 @@
 title: Zielgruppendimensionen
 description: Erfahren Sie mehr über Zielgruppendimensionen in Adobe Campaign Web
 exl-id: b910649a-7300-4f99-8f40-3a8965572ee9
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 93a79b471c236e5bf67da0dbd0d76274598dcb0e
 workflow-type: tm+mt
-source-wordcount: '360'
-ht-degree: 25%
+source-wordcount: '408'
+ht-degree: 29%
 
 ---
 
@@ -13,8 +13,10 @@ ht-degree: 25%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_build_audience_dimension"
->title="Select the targeting dimension"
->abstract="The targeting dimension lets you define the population targeted by the operation: recipients, contract beneficiaries, operator, subscribers, and more. By default, for emails and SMS, the target is selected from the Recipients built-in table. For Push notifications, the default target dimension is Subscriber applications."
+>title="Auswählen der Zielgruppendimension"
+>abstract="Mit der Zielgruppendimension können Sie die Population definieren, auf die sich der Vorgang bezieht: Empfänger, Vertragsbegünstigte, Benutzer, Abonnenten und mehr. Standardmäßig wird die Zielgruppe für E-Mails und SMS in der integrierten Tabelle der Empfängerinnen und Empfänger ausgewählt. Bei Push-Benachrichtigungen ist die Standard-Zielgruppendimension „Abonnierte Anwendungen“."
+
+Die Zielgruppendimension, auch als Zielgruppen-Mapping bezeichnet, ist der Datentyp, den ein Vorgang verarbeitet. Sie definiert die Zielpopulation, z. B. Profile, Vertragsbegünstigte, Benutzer oder Abonnenten.
 
 ## Zielgruppendimensionen von Workflows {#workflow}
 
