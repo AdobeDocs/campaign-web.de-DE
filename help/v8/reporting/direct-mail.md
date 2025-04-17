@@ -3,10 +3,10 @@ audience: end-user
 title: Briefpost-Berichte
 description: Erfahren Sie, wie Sie auf Briefpost-Berichte zugreifen und diese verwenden können.
 exl-id: 268fe1e3-bd5c-40f1-8973-7671cd8c9960
-source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
-source-wordcount: '678'
-ht-degree: 41%
+source-wordcount: '677'
+ht-degree: 35%
 
 ---
 
@@ -27,7 +27,7 @@ Die **[!UICONTROL Versandübersicht]** bietet detaillierte Einblicke in die Besu
 
 ![Diagramm mit Metriken zur Versandübersicht mit wichtigen Leistungsindikatoren für den Briefpost-Versand.](assets/direct-overview.png){zoomable="yes"}{align="center"}
 
-+++Erfahren Sie mehr über Versandübersichtsmetriken.
++++ Erfahren Sie mehr über Metriken zur Versandübersicht.
 
 * **[!UICONTROL Zu versendende Nachrichten]**: Gesamtzahl der bei der Versandvorbereitung verarbeiteten Nachrichten.
 * **[!UICONTROL Ausgewählt]**: Anzahl der Benutzerprofile, die sich als Zielgruppenprofile für Briefpostnachrichten eignen.
@@ -49,7 +49,7 @@ Bewegen Sie den Mauszeiger über einen Teil des Diagramms, um die genaue Zahl an
 
 ![Detailansicht des Diagramms der ursprünglichen Zielpopulation mit Hover-Funktion.](assets/direct-mail-delivery-targeted-population_2.png){zoomable="yes"}
 
-+++Erfahren Sie mehr über die Metriken eines Briefpost-Versandberichts.
++++ Erfahren Sie mehr über die Metriken des Briefpost-Versandberichts.
 
 * **[!UICONTROL Ursprüngliche Zielgruppe]**: Gesamtzahl der Zielgruppenempfängerinnen und -empfänger.
 * **[!UICONTROL Zu versenden]**: Gesamtzahl der nach erfolgter Versandanalyse zu versendenden Nachrichten.
@@ -67,7 +67,7 @@ Das Diagramm **[!UICONTROL Versandstatistiken]** bietet einen Überblick über d
 
 ![Diagramm mit Versandstatistiken, das Erfolgsraten, Fehler und Quarantänen anzeigt.](assets/direct-mail-delivery-stats.png){zoomable="yes"}
 
-+++Erfahren Sie mehr über die Metriken der Briefpost-Kampagnenberichte.
++++ Erfahren Sie mehr über die Metriken des Briefpost-Kampagnenberichts.
 
 * **[!UICONTROL Gesendete Nachricht]**: Gesamtzahl der nach erfolgter Versandvorbereitung zu versendenden Nachrichten.
 * **[!UICONTROL Erfolg]**: Anzahl der erfolgreich verarbeiteten Nachrichten im Vergleich zur Anzahl der zu versendenden Nachrichten.
@@ -82,11 +82,11 @@ Das Diagramm **[!UICONTROL Versandstatistiken]** bietet einen Überblick über d
 >title="Versand – Ausschlussgründe"
 >abstract="Der Graph **Ausschlussgründe** zeigt die Verteilung der zurückgewiesenen Nachrichten während der Versandvorbereitung, kategorisiert nach den jeweiligen Regeln."
 
-Das Diagramm **[!UICONTROL Ausschlussgründe]** enthält eine Aufschlüsselung der Gründe für die Zurückweisung von Nachrichten während der Versandvorbereitung. Diese Aufschlüsselung ist nach verschiedenen Regeln gegliedert und bietet eine detaillierte Ansicht der Faktoren, die zum Nachrichtenausschluss beitragen. Ausschlussregeln werden in der[Dokumentation zu Campaign v8 (Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=de#email-error-types){_blank} detailliert beschrieben.
+Das Diagramm **[!UICONTROL Ausschlussgründe]** enthält eine Aufschlüsselung der Gründe für die Zurückweisung von Nachrichten während der Versandvorbereitung. Diese Aufschlüsselung ist nach verschiedenen Regeln gegliedert und bietet eine detaillierte Ansicht der Faktoren, die zum Nachrichtenausschluss beitragen. Ausschlussregeln werden in der Dokumentation zu [ v8 (Konsole) ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=de#email-error-types){_blank}.
 
 ![Diagramm „Ausschlussgründe“, das die Verteilung der zurückgewiesenen Nachrichten nach Regel anzeigt.](assets/direct-mail-delivery-exclusions.png){zoomable="yes"}{align="center" zoomable="yes"}
 
-+++Erfahren Sie mehr über Metriken zu Ausschlussgründen.
++++ Erfahren Sie mehr über die Ursachen von Ausschlussmetriken.
 
 * **[!UICONTROL Adresse in Quarantäne]**: Fehlertyp, der erzeugt wird, wenn eine Adresse in Quarantäne gestellt wird.
 * **[!UICONTROL Adresse nicht angegeben]**: Fehlertyp, der erzeugt wird, wenn eine Adresse nicht existiert.

@@ -3,10 +3,10 @@ audience: end-user
 title: Globale Berichte für den Push-Kanal
 description: Grundlegendes zu globalen Berichten für den Push-Kanal
 exl-id: 829a9b68-5c41-47dd-843c-412b6d255e8b
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '600'
-ht-degree: 71%
+ht-degree: 63%
 
 ---
 
@@ -29,7 +29,7 @@ Der Bericht zur **[!UICONTROL Versandübersicht]** liefert Leistungskennzahlen (
 
 ![Versandübersichtsmetriken mit KPIs in Bezug auf die Leistung von Push-Benachrichtigungen.](assets/global_report_push_delivery_overview.png){zoomable="yes"}
 
-+++Erfahren Sie mehr über Versandübersichtsmetriken.
++++ Erfahren Sie mehr über Metriken zur Versandübersicht.
 
 * **[!UICONTROL Zu sendende Nachrichten]**: Gesamtzahl der während der Versandvorbereitung verarbeiteten Nachrichten.
 
@@ -52,7 +52,7 @@ Die Tabelle und der Graph **[!UICONTROL Zielgruppe]** enthalten Daten zu den Emp
 
 ![Zielgruppen-Metriken, die Daten zu Empfängern und Ausschlüssen für Push-Benachrichtigungen anzeigen.](assets/global_report_push_targeted_audience.png){zoomable="yes"}
 
-+++Erfahren Sie mehr über Zielgruppen-Metriken.
++++ Erfahren Sie mehr über Metriken für zielgerichtete Zielgruppen.
 
 * **[!UICONTROL Zielgruppe]**: Gesamtzahl der angesprochenen Empfängerinnen und Empfänger.
 
@@ -73,7 +73,7 @@ Die Tabelle **[!UICONTROL Versandstatistik]** zeigt den Erfolg jedes einzelnen P
 
 ![Versandstatistiken : Metriken zu Erfolgsraten, Fehlern und Quarantänen für Push-Benachrichtigungen.](assets/global_report_push_delivery_statistics.png){zoomable="yes"}
 
-+++Erfahren Sie mehr über Versandstatistik-Metriken.
++++ Erfahren Sie mehr über Metriken der Versandstatistiken.
 
 * **[!UICONTROL Nachrichten gesamt]**: Gesamtzahl der nach erfolgter Versandvorbereitung zu versendenden Nachrichten.
 
@@ -83,7 +83,7 @@ Die Tabelle **[!UICONTROL Versandstatistik]** zeigt den Erfolg jedes einzelnen P
 
 * **[!UICONTROL Neue Quarantänen]**: Gesamtzahl der Adressen, die infolge eines fehlgeschlagenen Versands unter Quarantäne gestellt wurden (ungültige Registrierung, Nachrichtenablehnung, Payload-Fehler und ähnliche Gründe), im Verhältnis zur Anzahl der zu versendenden Nachrichten.
 
-  Die Fehlertypen von Push-Benachrichtigungen werden im Abschnitt [Dokumentation zu Adobe Campaign v8 (Client-Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=de#push-error-types){target="_blank"} aufgelistet.
+  Die Fehlertypen für Push-Benachrichtigungen sind in der Dokumentation zu [Adobe Campaign v8 (Client-Konsole) ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=de#push-error-types){target="_blank"}.
 
 +++
 
@@ -96,7 +96,7 @@ Die Tabelle **[!UICONTROL Versandstatistik]** zeigt den Erfolg jedes einzelnen P
 
 Der Graph und die Tabelle **[!UICONTROL Ausschlussgründe]** zeigen die Gründe, aus denen Benutzerprofile, die aus den Zielgruppenprofilen ausgeschlossen wurden, die Nachricht nicht erhalten haben.
 
-Die Fehlertypen von Push-Benachrichtigungen werden im Abschnitt [Dokumentation zu Adobe Campaign v8 (Client-Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=de#push-error-types){target="_blank"} aufgelistet.
+Die Fehlertypen für Push-Benachrichtigungen sind in der Dokumentation zu [Adobe Campaign v8 (Client-Konsole) ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=de#push-error-types){target="_blank"}.
 
 ## Versanddurchsatz {#delivery-throughput-sms}
 

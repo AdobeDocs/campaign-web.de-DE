@@ -4,20 +4,20 @@ description: Erfahren Sie, wie Sie die Benutzerzugriffsverwaltung von Campaign S
 feature: Technote
 role: Admin
 exl-id: a7f333ba-0b84-47de-8f91-b6c8f3f3322a
-source-git-commit: cc1f89fe5a67898e0905bd2823f73aa8b9424164
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
-source-wordcount: '1020'
-ht-degree: 5%
+source-wordcount: '1425'
+ht-degree: 3%
 
 ---
 
-# Benutzerzugriffsverwaltung von Campaign Standard zu Campaign V8 {#user-management-acs}
+# Verwaltung des Benutzerzugriffs von Campaign Standard auf Campaign v8 {#user-management-acs}
 
-Sowohl Adobe Campaign Standard als auch Adobe Campaign v8 ermöglichen es Benutzenden, Berechtigungen für verschiedene Benutzende/Benutzende zu definieren und zu verwalten. Diese Berechtigungen bestehen aus spezifischen Rechten, die Benutzern Zugriff auf verschiedene Funktionen des Produkts gewähren. Die beiden Produkte verwenden jedoch unterschiedliche Ansätze und Implementierungen für die Verwaltung des Benutzerzugriffs.
+Sowohl Adobe Campaign Standard als auch Adobe Campaign v8 ermöglichen es Benutzern, Berechtigungen für verschiedene Benutzer/Benutzer zu definieren und zu verwalten. Diese Berechtigungen bestehen aus spezifischen Rechten, die Benutzern Zugriff auf verschiedene Funktionen des Produkts gewähren. Die beiden Produkte verwenden jedoch unterschiedliche Ansätze und Implementierungen für die Verwaltung des Benutzerzugriffs.
 
 Die folgenden Konzepte werden in Adobe Campaign Standard und Campaign v8 verwendet, um die Benutzerzugriffsverwaltung zu ermöglichen:
 
-| Campaign Standard | Campaign v8 |
+| Campaign Standard | Campaign v8 |
 |---------|----------|
 | Benutzer | Operator |
 | Rolle | Spezifische Berechtigung |
@@ -26,9 +26,11 @@ Die folgenden Konzepte werden in Adobe Campaign Standard und Campaign v8 verwend
 
 ## Migrationsansatz von der Sicherheitsgruppe zur Benutzergruppe
 
->[!CAUTION]
->
->Die Funktionen dieser Rollen/spezifischen Berechtigungen können in der Implementierung variieren und möglicherweise zu Autorisierungsproblemen führen (z. B. Berechtigungserweiterung oder Funktionsstörungen). Wir empfehlen Benutzern, diese Zuordnungen nach der Transition zu überprüfen, um eine ordnungsgemäße Zugriffssteuerung sicherzustellen. [Weitere Informationen zu Berechtigungen](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/admin/permissions/manage-permissions)
+### Warnhinweise
+
+Die Funktionen dieser Rollen/spezifischen Berechtigungen können in der Implementierung variieren und möglicherweise zu Autorisierungsproblemen führen (z. B. Berechtigungserweiterung oder Funktionsstörungen). Wir empfehlen Benutzern, diese Zuordnungen nach der Transition zu überprüfen, um eine ordnungsgemäße Zugriffssteuerung sicherzustellen. [Erfahren Sie mehr über Berechtigungen](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/admin/permissions/manage-permissions)
+
+### Sicherheitsgruppen und Benutzergruppen
 
 In der folgenden Tabelle wird der Migrationsansatz für Benutzergruppen beim Wechsel von Adobe Campaign Standard zu Campaign v8 beschrieben. In Campaign Standard wird eine **Sicherheitsgruppe** in Campaign v8 als **Benutzergruppe** bezeichnet, um einem Benutzer eine Reihe von Rollen zuzuweisen. Einige Sicherheitsgruppen/Benutzergruppen sind zwar vorkonfiguriert verfügbar, Benutzer können jedoch neue Gruppen erstellen oder bei Bedarf vorhandene ändern.
 
@@ -46,11 +48,13 @@ Sowohl in Adobe Campaign Standard als auch in Campaign v8 **Sicherheitsgruppen**
 
 ## Migrationsansatz von Benutzerrollen zu spezifischen Berechtigungen
 
->[!CAUTION]
->
->Während der Migration von Adobe Campaign Standard zu Campaign v8 erhalten Benutzende mit der **Datenmodell**-Rolle, aber nicht **Administration** automatisch **Administration**-Zugriff, da für die Schemaerstellung in Campaign v8 Administratorrechte erforderlich sind. Um dies zu verhindern, entfernen Sie vor **Migration die** „Datenmodell“.
+### Warnhinweise
 
-In Adobe Campaign Standard wird der Begriff **Benutzerrolle** in Campaign V8 **Spezifische Berechtigung** bezeichnet. In der folgenden Tabelle ist die Terminologie aufgeführt, die für **Spezifische Berechtigungen** in Campaign v8 verwendet wird und **Benutzerrollen** in Campaign Standard entspricht.
+Während der Migration von Adobe Campaign Standard zu Campaign v8 erhalten Benutzende mit der **Datenmodell**-Rolle, aber nicht **Administration** automatisch **Administration**-Zugriff, da für die Schemaerstellung in Campaign v8 Administratorrechte erforderlich sind. Um dies zu verhindern, entfernen Sie vor **Migration die** „Datenmodell“.
+
+### Benutzerrollen und spezifische Berechtigungen
+
+In Adobe Campaign Standard wird der Begriff **Benutzerrolle** in Campaign v8 **Spezifische Berechtigung** bezeichnet. In der folgenden Tabelle ist die Terminologie aufgeführt, die für **Spezifische Berechtigungen** in Campaign v8 verwendet wird und **Benutzerrollen** in Campaign Standard entspricht.
 
 | **Campaign Standard-Benutzerrolle** | **Spezifische Berechtigung für Campaign v8** | **Beschreibung**  |
 |----------|---------|---------|
@@ -70,9 +74,9 @@ In Adobe Campaign Standard wird der Begriff **Benutzerrolle** in Campaign V8 **S
 
 ### Warnhinweise
 
-Organisationseinheiten in Adobe Campaign Standard ohne **Alle (alle)** als direkt oder indirekt übergeordnetes Element werden nicht nach Campaign V8 migriert.
+Organisationseinheiten in Adobe Campaign Standard ohne **Alle (alle)** als direkt oder indirekt übergeordnetes Element werden nicht nach Campaign v8 migriert.
 
-Benutzern in mehreren Sicherheitsgruppen wird die Organisationseinheit der höchsten Sicherheitsgruppe zugewiesen. Wenn mehrere Gruppen parallele Einheiten der obersten Ebene haben, wählt das System die Organisationseinheit für den Benutzer in Campaign Standard aus, und der Benutzer hätte nur Zugriff auf die vom System ausgewählte Organisationseinheit und deren untergeordnete Elemente. In Campaign v8 hätte der Benutzer nach der Migration Zugriff auf **alle zugewiesenen Organisationseinheiten und ihre untergeordneten Elemente** was zu einer möglichen Eskalation der Berechtigungen führen könnte. Um dies zu verhindern, vermeiden Sie die Zuweisung von Benutzern zu Sicherheitsgruppen mit parallelen Organisationseinheiten. <!--Know more about parallel organizational unit assignment here (link to ' Parallel Organizational Unit Assignment' section)-->
+Benutzern in mehreren Sicherheitsgruppen wird die Organisationseinheit der höchsten Sicherheitsgruppe zugewiesen. Wenn mehrere Gruppen parallele Einheiten der obersten Ebene haben, wählt das System die Organisationseinheit für den Benutzer in Campaign Standard aus, und der Benutzer hätte nur Zugriff auf die vom System ausgewählte Organisationseinheit und deren untergeordnete Elemente. In Campaign v8 hätte der Benutzer nach der Migration Zugriff auf **alle zugewiesenen Organisationseinheiten und ihre untergeordneten Elemente** was zu einer möglichen Eskalation der Berechtigungen führen könnte. Um dies zu verhindern, vermeiden Sie die Zuweisung von Benutzern zu Sicherheitsgruppen mit parallelen Organisationseinheiten. Weitere Informationen über [parallele Zuweisung von Organisationseinheiten](#parallel-assignments).
 
 ### Organisationseinheiten und Ordnerverwaltung
 
@@ -81,6 +85,61 @@ In Adobe Campaign Standard wird die **Organisationseinheit** dem in Campaign v8 
 | | **Campaign Standard** | **Campaign v8** |
 |---------|----------|---------|
 | **Terminologie**  | Organizational unit | Ordner |
+
+
+### Über die Zuweisung paralleler Organisationseinheiten {#parallel-assignments}
+
+Eine parallele Zuweisung von Organisationseinheiten tritt auf, wenn ein Benutzer Zugriff auf mehrere Einheiten (die über Sicherheitsgruppen zugewiesen werden) hat, die in separaten Zweigen der Hierarchie vorhanden sind, ohne Zugriff auf eine gemeinsame übergeordnete Organisationseinheit zu haben. Dies stellt ein Sicherheitsrisiko während der Migration dar.
+
+Betrachten Sie beispielsweise die folgende Organisationseinheitshierarchie:
+
+![Beispieldiagramm für die Zuweisung paralleler Organisationseinheiten](assets/do-not-localize/parallel-org-units-sample.png){width="50%" zoomable="yes"}
+
+Eine Zuweisung ohne parallele Organisationseinheiten würde wie folgt aussehen:
+
+![Ohne paralleles Organigramm-Beispieldiagramm](assets/do-not-localize/without-parallel-org-units-assignment.png){width="50%" zoomable="yes"}
+
+Hier hat der Benutzer Zugriff auf die Organisationseinheiten A, A1 und A2-1, die alle unter der übergeordneten Organisationseinheit A verbunden sind. Der Benutzer kann auf alles unter A zugreifen.
+
+Die folgende Zuweisung enthält parallele Organisationseinheiten:
+
+![Mit parallelem Organigramm](assets/do-not-localize/with-parallel-org-units-assignment.png){width="50%" zoomable="yes"}
+
+Der Benutzer hat Zugriff auf A1-1, A2 und A2-1, die in separaten Verzweigungen ohne gemeinsames übergeordnetes Element vorhanden sind.
+
+
+**Auswirkungen auf die Sicherheit**
+
+* In Campaign Standard wählt das System eine Organisationseinheit der obersten Ebene (A1-1 oder A2) für den Benutzer aus und beschränkt den Zugriff auf diese Einheit und ihre untergeordneten Elemente.
+* Nach der Migration auf Campaign v8 erhält der Benutzer Zugriff auf Ressourcen in allen zugewiesenen Organisationseinheiten und deren untergeordneten Elemente.
+
+**Auflösung**
+
+Die parallele Zuweisung von Organisationseinheiten kann aufgelöst werden, indem sichergestellt wird, dass alle Organisationseinheiten, die einem Benutzer zugewiesen sind, unter eine einzige, gemeinsame übergeordnete Einheit fallen, die auch dem Benutzer zugewiesen ist.
+
+Im Folgenden werden einige Möglichkeiten zur Erreichung dieses Ziels beschrieben:
+
+1. Entfernen des Zugriffs auf mehrere Verzweigungen: Widerrufen Sie den Zugriff auf mehrere parallele Verzweigungen und stellen Sie sicher, dass sich der gesamte Zugriff unter einem einzigen übergeordneten Element befindet.
+1. Gemeinsam übergeordnetes Element zuweisen: Gewähren Sie Zugriff auf eine entsprechende gemeinsame übergeordnete Organisationseinheit, die alle erforderlichen Zugriffspunkte enthält.
+1. Hierarchie neu strukturieren: Ändern Sie die Struktur der Organisationseinheit, um den gesamten erforderlichen Zugriff in einer einzigen Verzweigung zu platzieren.
+
+Im obigen Beispiel, bei dem ein Benutzer Zugriff auf A1-1, A2 und A2-1 hat, lauten die spezifischen Auflösungsschritte:
+
+1. Entfernen des Zugriffs auf mehrere Verzweigungen:
+
+   1. den Zugriff auf A1-1 zu widerrufen, sodass nur der Zugriff auf A2 (einschließlich A2-1) verbleibt, oder
+   1. Widerrufen des Zugriffs auf A2 und A2-1, sodass nur der Zugriff auf A1-1 verbleibt
+
+1. Einem gemeinsamen übergeordneten Element zuweisen:
+
+   1. Zugriff auf die Organisationseinheit A gewähren, die das gemeinsame übergeordnete Element sowohl von A1-1 als auch von A2 ist, oder
+   1. Zugriff auf alle gewähren, sodass die gesamte Hierarchie abgedeckt ist
+
+1. Strukturieren Sie die Hierarchie um:
+
+   1. A1-1 unter A2 verschieben oder
+   1. A2 und A2-1 unter A1-1 verschieben
+
 
 ## Aus dem Programm stammender Migrationsansatz
 
@@ -100,7 +159,7 @@ Da ein **Programm** in Campaign v8 als **Ordner** behandelt wird, kann sein Zugr
 
 Für den Zugriff auf Transaktions-APIs über die Ausführungsinstanz in Campaign v8 ist **neues** Produktprofil) zusätzlich zu den Produktprofilen **Administrator** und **Message Center** erforderlich. Dieses **Produktprofil** wird bestehenden oder vorab erstellten technischen Konten in Campaign Standard hinzugefügt.
 
-Nach der Migration sollten Campaign Standard-Benutzende ihre **Produktprofilzuordnungen** überprüfen und das entsprechende **Produktprofil** zuweisen, wenn sie ihre **technischen Konten** nicht mit dem **Administrator** Produktprofil verknüpfen möchten. Für zukünftige Integrationen empfehlen wir die Verwendung von Campaign V8 **Mandanten-ID** in der **REST-URL** anstelle der vorherigen Campaign Standard **Mandanten-ID**.
+Nach der Migration sollten Campaign Standard-Benutzende ihre **Produktprofilzuordnungen** überprüfen und das entsprechende **Produktprofil** zuweisen, wenn sie ihre **technischen Konten** nicht mit dem **Administrator** Produktprofil verknüpfen möchten. Für zukünftige Integrationen empfehlen wir die Verwendung von Campaign v8 **Mandanten** in der **REST-URL** anstelle der vorherigen Campaign Standard **Mandanten-ID**.
 
 ## Migration des Zugriffs auf integrierte Campaign-Ressourcen für Campaign Standard-Benutzer
 

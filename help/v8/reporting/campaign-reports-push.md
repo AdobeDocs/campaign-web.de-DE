@@ -3,10 +3,10 @@ audience: end-user
 title: Kampagnenberichte für den Push-Kanal
 description: Grundlegendes zu Kampagnenberichten für den Push-Kanal
 exl-id: 5e7ac2b8-b543-427b-846c-7c0b489cc21c
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '533'
-ht-degree: 64%
+ht-degree: 56%
 
 ---
 
@@ -25,7 +25,7 @@ Der Bericht **[!UICONTROL Versandübersicht]** bietet wichtige Performance-Indik
 
 ![Versandzusammenfassungsmetriken, die im Bericht Versandübersicht angezeigt werden](assets/campaign-reporting-push-summary.png){zoomable="yes"}
 
-+++Erfahren Sie mehr über die Metriken für Push-Kampagnenberichte.
++++ Erfahren Sie mehr über die Metriken des Push-Kampagnenberichts.
 
 * **[!UICONTROL Zu sendende Nachrichten]**: Gesamtzahl der während der Versandvorbereitung verarbeiteten Nachrichten.
 
@@ -48,7 +48,7 @@ Die Tabelle **[!UICONTROL Statistiken der anfänglichen Zielgruppe]** zeigt Date
 
 ![Im Bericht werden Statistiken zur ursprünglichen Zielgruppe angezeigt](assets/campaign-reporting-push-target.png){zoomable="yes"}
 
-+++Erfahren Sie mehr über die Metriken für Push-Kampagnenberichte.
++++ Erfahren Sie mehr über die Metriken des Push-Kampagnenberichts.
 
 * **[!UICONTROL Ursprüngliche Zielgruppe]**: Gesamtzahl der Zielgruppenempfängerinnen und -empfänger.
 
@@ -69,7 +69,7 @@ Die Tabelle **[!UICONTROL Ausführungsstatistiken]** zeigt den Erfolg Ihres Vers
 
 ![Im Bericht angezeigte Ausführungsstatistiken](assets/campaign-reporting-push-exec.png){zoomable="yes"}
 
-+++Erfahren Sie mehr über die Metriken für Push-Kampagnenberichte.
++++ Erfahren Sie mehr über die Metriken des Push-Kampagnenberichts.
 
 * **[!UICONTROL Zu versendende Nachricht]**: Gesamtzahl der nach erfolgter Versandvorbereitung zu versendenden Nachrichten.
 
@@ -79,7 +79,7 @@ Die Tabelle **[!UICONTROL Ausführungsstatistiken]** zeigt den Erfolg Ihres Vers
 
 * **[!UICONTROL Neue Quarantänen]**: Gesamtzahl der Adressen, die infolge eines fehlgeschlagenen Versands unter Quarantäne gestellt wurden (z. B. ungültige Registrierung, Nachrichtenablehnung oder Payload-Fehler), im Verhältnis zur Anzahl der zu versendenden Nachrichten.
 
-  Die Fehlertypen von Push-Benachrichtigungen werden im Abschnitt [Dokumentation zu Adobe Campaign v8 (Client-Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=de#push-error-types){target="_blank"} aufgelistet.
+  Die Fehlertypen für Push-Benachrichtigungen sind in der Dokumentation zu [Adobe Campaign v8 (Client-Konsole) ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=de#push-error-types){target="_blank"}.
 
 +++
 
@@ -94,7 +94,7 @@ Die Tabelle **[!UICONTROL Generierte Clickstreams]** zeigt Daten dazu an, wie Ih
 
 ![Generierte Clickstreams werden im Bericht angezeigt](assets/campaign-reporting-push-clicks.png){zoomable="yes"}
 
-+++Erfahren Sie mehr über die Metriken für Push-Kampagnenberichte.
++++ Erfahren Sie mehr über die Metriken des Push-Kampagnenberichts.
 
 * **[!UICONTROL Einzelklicks]**: Gesamtzahl der unterschiedlichen Empfängerinnen und Empfänger, die einen Versand mindestens einmal angeklickt haben.
 

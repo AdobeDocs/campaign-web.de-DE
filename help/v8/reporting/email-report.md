@@ -3,10 +3,10 @@ audience: end-user
 title: E-Mail-Versandberichte
 description: Erfahren Sie, wie Sie auf E-Mail-Versandberichte zugreifen und diese verwenden können
 exl-id: 2a0bd3e9-5d75-47c8-bd6a-b3e0b1ce0a01
-source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
-source-wordcount: '2449'
-ht-degree: 93%
+source-wordcount: '2448'
+ht-degree: 89%
 
 ---
 
@@ -36,7 +36,7 @@ Bewegen Sie den Mauszeiger über einen Abschnitt des Graphen, um die genaue Zahl
 
 ![Screenshot eines Diagramms mit einer Maus über einen Teil, um die genaue Zahl anzuzeigen](assets/reporting_email_1.1.png){zoomable="yes"}
 
-+++Erfahren Sie mehr über die Metriken des E-Mail-Versandberichts.
++++ Erfahren Sie mehr über die Metriken des E-Mail-Versandberichts.
 
 * **[!UICONTROL Ursprüngliche Zielgruppe]**: Gesamtzahl der Zielgruppenempfängerinnen und -empfänger.
 
@@ -56,7 +56,7 @@ Der Graph **[!UICONTROL Versandstatistiken]** gibt Auskunft über den Erfolg Ihr
 
 ![Screenshot eines Diagramms mit den Details der Versandstatistiken](assets/reporting_email_2.png){zoomable="yes"}
 
-+++Erfahren Sie mehr über die Metriken des E-Mail-Kampagnen-Berichts.
++++ Erfahren Sie mehr über die Metriken des E-Mail-Kampagnenberichts.
 
 * **[!UICONTROL Gesendete Nachricht]**: Gesamtzahl der nach erfolgter Versandvorbereitung zu versendenden Nachrichten.
 
@@ -75,11 +75,11 @@ Der Graph **[!UICONTROL Versandstatistiken]** gibt Auskunft über den Erfolg Ihr
 >title="Versand – Ausschlussgründe"
 >abstract="Der Graph und die Tabelle zu den **Ausschlussgründen** zeigen die Aufschlüsselung der im Zuge der Versandvorbereitung abgelehnten Nachrichten nach Regeln."
 
-Der Graph und die Tabelle zu den **[!UICONTROL Ausschlussgründen]** zeigen die Aufschlüsselung der im Zuge der Versandvorbereitung abgelehnten Nachrichten nach Regeln. Ausschlussregeln werden in der[Dokumentation zu Campaign v8 (Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=de#email-error-types){_blank} detailliert beschrieben.
+Der Graph und die Tabelle zu den **[!UICONTROL Ausschlussgründen]** zeigen die Aufschlüsselung der im Zuge der Versandvorbereitung abgelehnten Nachrichten nach Regeln. Ausschlussregeln werden in der Dokumentation zu [ v8 (Konsole) ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=de#email-error-types){_blank}.
 
 ![Screenshot des Diagramms und der Tabelle mit den Ausschlussgründen](assets/reporting_email_3.png){zoomable="yes"}{align="center" zoomable="yes"}
 
-+++Erfahren Sie mehr über die Metriken des E-Mail-Versandberichts.
++++ Erfahren Sie mehr über die Metriken des E-Mail-Versandberichts.
 
 * **[!UICONTROL Unbekannter Nutzer]**: Fehlertyp, der während des Versands erzeugt wird, um anzuzeigen, dass die E-Mail-Adresse ungültig ist.
 
@@ -120,7 +120,7 @@ Die Tabelle **[!UICONTROL Broadcast-Statistiken]** enthält die verfügbaren Dat
 
 ![Screenshot der Broadcast-Statistiken](assets/reporting_email_4.png){zoomable="yes"}{align="center" zoomable="yes"}
 
-+++Erfahren Sie mehr über die Metriken des E-Mail-Versandberichts.
++++ Erfahren Sie mehr über die Metriken des E-Mail-Versandberichts.
 
 * **[!UICONTROL Verarbeitete E-Mails]**: Gesamtzahl der Nachrichten, die vom Versand-Server verarbeitet wurden.
 
@@ -153,11 +153,11 @@ Die Tabelle **[!UICONTROL Broadcast-Statistiken]** enthält die verfügbaren Dat
 
 Die Tabelle und der Graph zur **[!UICONTROL Aufschlüsselung der Fehler nach Typen]** enthalten die verfügbaren Daten für jeden Fehlertyp. Metriken werden nachfolgend beschrieben.
 
-Die in diesem Bericht angezeigten Fehler lösen einen Quarantäneprozess aus. Weitere Informationen zur Quarantäneverwaltung finden Sie in der [Dokumentation zu Campaign v8 (Client-Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=de){target="_blank"}.
+Die in diesem Bericht angezeigten Fehler lösen einen Quarantäneprozess aus. Weitere Informationen zur Quarantäneverwaltung finden Sie in der [ zu Campaign v8 (Client-Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=de){target="_blank"}.
 
 ![Screenshot der Aufschlüsselung der Fehler nach Typ](assets/campaign_report_email_6.png){zoomable="yes"}{align="left" zoomable="yes"}
 
-+++Erfahren Sie mehr über die Metriken des E-Mail-Versandberichts.
++++ Erfahren Sie mehr über die Metriken des E-Mail-Versandberichts.
 
 * **[!UICONTROL Unbekannter Nutzer]**: Fehlertyp, der während des Versands erzeugt wird, um anzuzeigen, dass die E-Mail-Adresse ungültig ist.
 
@@ -218,7 +218,7 @@ Der Bericht **[!UICONTROL Versandstatistiken]** bietet wichtige Performance-Indi
 
 ![Screenshot der Versandstatistiken](assets/reporting_email_5.png){zoomable="yes"}{align="center"}
 
-+++Erfahren Sie mehr über die Metriken des E-Mail-Versandberichts.
++++ Erfahren Sie mehr über die Metriken des E-Mail-Versandberichts.
 
 * **[!UICONTROL Erfolg]**: Anzahl der erfolgreich verarbeiteten Nachrichten im Verhältnis zur Anzahl der zu versendenden Nachrichten.
 
@@ -246,7 +246,7 @@ Die Tabelle **[!UICONTROL Öffnungs- und Clickthrough-Rate]** zeigt Daten zu Ihr
 
 ![Screenshot der Tabelle mit den Öffnungs- und Klickraten](assets/reporting_email_6.png){zoomable="yes"}{align="center"}
 
-+++Erfahren Sie mehr über die Metriken des E-Mail-Versandberichts.
++++ Erfahren Sie mehr über die Metriken des E-Mail-Versandberichts.
 
 * **[!UICONTROL Gesendet]**: Gesamtzahl der gesendeten Nachrichten.
 
@@ -271,7 +271,7 @@ Der Bericht **[!UICONTROL URLs und Clickstreams]** bietet wichtige Performance-I
 
 ![Screenshot des Berichts zu URLs und Clickstreams](assets/reporting_email_7.png){zoomable="yes"}{align="center"}
 
-+++Erfahren Sie mehr über die Metriken des E-Mail-Versandberichts.
++++ Erfahren Sie mehr über die Metriken des E-Mail-Versandberichts.
 
 * **[!UICONTROL Reaktionsrate]**: Verhältnis der Anzahl an Zielgruppenempfängerinnen und -empfängern, die auf einen Versand geklickt haben, in Bezug zur geschätzten Anzahl der Zielgruppenempfängerinnen und -empfänger, die einen Versand geöffnet haben.
 
@@ -296,7 +296,7 @@ Der Graph und die Tabelle zu den **[!UICONTROL 10 meistbesuchten Links]** enthal
 
 ![Screenshot der 10 meistbesuchten Links-Diagramme](assets/reporting_email_8.png){zoomable="yes"}{align="center"}
 
-+++Erfahren Sie mehr über die Metriken des E-Mail-Versandberichts.
++++ Erfahren Sie mehr über die Metriken des E-Mail-Versandberichts.
 
 * **[!UICONTROL Klicks]**: Gesamtzahl der Klicks auf Links in Sendungen.
 
@@ -328,7 +328,7 @@ Der Bericht **[!UICONTROL Benutzeraktivitäten]** zeigt die Aufschlüsselung der
 
 ![Screenshot des Berichts zu Benutzeraktivitäten](assets/reporting_email_10.png){zoomable="yes"}{align="center"}
 
-+++Erfahren Sie mehr über die Metriken des E-Mail-Versandberichts.
++++ Erfahren Sie mehr über die Metriken des E-Mail-Versandberichts.
 
 * **[!UICONTROL Klicks]**: Gesamtzahl der Klicks auf Links in Sendungen.
 
@@ -347,7 +347,7 @@ Das Diagramm **[!UICONTROL Tracking-Statistiken]** liefert Statistiken über Öf
 
 ![Screenshot des Diagramms für Tracking-Statistiken](assets/reporting_email_11.png){zoomable="yes"}{align="center"}
 
-+++Erfahren Sie mehr über die Metriken des E-Mail-Versandberichts.
++++ Erfahren Sie mehr über die Metriken des E-Mail-Versandberichts.
 
 * **[!UICONTROL Klicks]**: Gesamtzahl der Klicks auf Links in Sendungen.
 

@@ -3,10 +3,10 @@ audience: end-user
 title: Laden einer E-Mail-Zielgruppe aus einer Datei
 description: Erfahren Sie, wie Sie Profile aus einer externen Datei laden, um eine E-Mail-Zielgruppe zu erstellen.
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '691'
-ht-degree: 66%
+ht-degree: 64%
 
 ---
 
@@ -99,7 +99,7 @@ Campaign Web ermöglicht Ihnen die Vorschau und das Versenden von Testsendungen,
 
 1. Die in der hochgeladenen Datei enthaltenen Profile werden angezeigt. Wählen Sie die Profile aus, die Sie für die Vorschau Ihrer Inhalte verwenden möchten, und klicken Sie auf **[!UICONTROL Auswählen]**.
 
-1. Eine Vorschau des Versandinhalts wird im rechten Bereich des Bildschirms angezeigt. Personalisierte Elemente werden durch die Daten aus dem Profil ersetzt, das im linken Bereich ausgewählt wurde. [Weitere Informationen zur Inhaltsvorschau eines Versands](../preview-test/preview-content.md)
+1. Eine Vorschau des Versandinhalts wird im rechten Bereich des Bildschirms angezeigt. Personalisierte Elemente werden durch die Daten aus dem Profil ersetzt, das im linken Bereich ausgewählt wurde. [Erfahren Sie mehr über die Vorschau von Versandinhalten](../preview-test/preview-content.md)
 
    ![Screenshot der Vorschau des Versandinhalts mit personalisierten Elementen](assets/file-upload-preview.png){zoomable="yes"}
 
@@ -115,4 +115,4 @@ Campaign Web ermöglicht Ihnen die Vorschau und das Versenden von Testsendungen,
 
    ![Screenshot des Testversand-Prozesses](assets/file-upload-test.png){zoomable="yes"}
 
-1. Überwachen Sie den Versand des Testversands mithilfe der Schaltfläche **[!UICONTROL Testsendungen anzeigen]** jederzeit. [Weitere Informationen zur Überwachung von Testsendungen](../preview-test/test-deliveries.md#access-test-deliveries)
+1. Überwachen Sie den Versand des Testversands mithilfe der Schaltfläche **[!UICONTROL Testsendungen anzeigen]** jederzeit. [Erfahren Sie mehr über die Überwachung von Testsendungen](../preview-test/test-deliveries.md#access-test-deliveries)

@@ -3,7 +3,7 @@ title: Erstellen einer Landingpage
 description: Hier erfahren Sie, wie Sie in Campaign Web eine Landingpage konfigurieren und veröffentlichen können.
 feature: Landing Pages
 exl-id: d4a49048-5ab1-4b69-9e12-1ffa235c51f4
-source-git-commit: bd938c3e2046123a9a9c6b64890bf41d0c272d4d
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '1731'
 ht-degree: 73%
@@ -39,7 +39,7 @@ Das Inventar der **[!UICONTROL Landingpages]** zeigt alle erstellten Elemente an
 
 >[!CAUTION]
 >
->Landingpages, die über die Client-Konsole (Web-Formulare) erstellt wurden, können nicht in der Campaign Web-Benutzeroberfläche angezeigt oder bearbeitet werden. Weitere Informationen finden Sie in der [Dokumentation zur Campaign-Konsole](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html?lang=de){target="_blank"}.
+>Landingpages, die über die Client-Konsole (Web-Formulare) erstellt wurden, können nicht in der Campaign Web-Benutzeroberfläche angezeigt oder bearbeitet werden. Weitere Informationen finden Sie in der [ zur Campaign-Konsole](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html?lang=de){target="_blank"}.
 
 <!--If you unpublish a landing page which is referenced in a message, the link to the landing page will be broken and an error page will be displayed. You cannot delete a published landing page. To delete it, you must first unpublish it.-->
 

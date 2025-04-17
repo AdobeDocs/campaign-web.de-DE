@@ -2,10 +2,10 @@
 title: Entdecken der Details von Profilen
 description: Erfahren Sie, wie Sie die Details eines Profils durchsuchen.
 exl-id: 172dec7d-24c6-4c35-bb45-5dc3ce9fadeb
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '217'
-ht-degree: 49%
+ht-degree: 43%
 
 ---
 
@@ -24,11 +24,11 @@ Informationen zum Profil sind wie folgt organisiert:
 
   ![Screenshot mit der Registerkarte „Details“ des Profils, einschließlich integrierter und benutzerdefinierter Attribute.](assets/profile-details.png){zoomable="yes"}
 
-* Unter der Registerkarte **[!UICONTROL Abonnements]** finden Sie Informationen zu den Diensten, für die das Profil angemeldet ist. [Erfahren Sie mehr über Abonnementdienste](manage-services.md)
+* Unter der Registerkarte **[!UICONTROL Abonnements]** finden Sie Informationen zu den Diensten, für die das Profil angemeldet ist. [Erfahren Sie mehr über Abonnement-Services](manage-services.md)
 
   ![Screenshot mit der Registerkarte „Abonnements“, auf der die Services aufgeführt sind, die das Profil abonniert hat.](assets/profile-subscriptions.png){zoomable="yes"}
 
-* Darüber hinaus können Sie mit **[!UICONTROL Schaltfläche „Protokolle]** in der rechten oberen Ecke des Bildschirms den Verlauf der Interaktionen des Profils durch Senden, Ausschließen und Trackinglogs anzeigen. [Erfahren Sie mehr über Versandprotokolle](../monitor/delivery-logs.md)
+* Darüber hinaus können Sie mit **[!UICONTROL Schaltfläche „Protokolle]** in der rechten oberen Ecke des Bildschirms den Verlauf der Interaktionen des Profils durch Senden, Ausschließen und Trackinglogs anzeigen. [Erfahren Sie mehr über Versandlogs](../monitor/delivery-logs.md)
 
   Auf der Registerkarte **[!UICONTROL Vorschläge]** in diesen Protokollen können Sie auch sehen, welche Angebote dem Profil unterbreitet wurden. [Erfahren Sie mehr über Angebote](../msg/offers.md)
 

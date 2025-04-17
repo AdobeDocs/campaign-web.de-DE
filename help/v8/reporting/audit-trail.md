@@ -4,10 +4,10 @@ title: Audit-Protokoll
 description: Erfahren Sie, wie Sie Ihre Instanz mit dem Audit-Protokoll von Campaign überwachen.
 feature: Audit Trail, Monitoring, Workflows
 exl-id: f4b4a33f-8250-4f4e-b2dc-129c56f9ea0f
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '595'
-ht-degree: 51%
+ht-degree: 33%
 
 ---
 
@@ -22,9 +22,9 @@ In der Web-Benutzeroberfläche von Adobe Campaign bietet die Funktion **[!UICONT
 
 Die **[!UICONTROL Audit-Protokoll]**-Funktion zeichnet kontinuierlich und in Echtzeit ein detailliertes Protokoll der Aktionen und Ereignisse auf, die innerhalb der Adobe Campaign-Instanz stattfinden. Sie bietet eine praktische Methode für den Zugriff auf einen chronologischen Datensatz mit Daten und adressiert Abfragen wie den Status von Workflows, die neuesten Personen, die sie ändern möchten, oder die Aktivitäten, die von Benutzern innerhalb der Instanz ausgeführt werden.
 
-+++ Weitere Informationen über die verfügbaren Entitäten im Audit-Protokoll
++++ Weitere Informationen zu verfügbaren Entitäten des Audit-Protokolls
 
-* Das **Audit-Protokoll für Quellschemata** ermöglicht es Ihnen, Aktivitäten und aktuelle Änderungen an Ihren Schemata in der Client-Konsole von Campaign v8 zu überwachen.
+* **Audit-Protokoll für Source-**: Ermöglicht Ihnen, Aktivitäten und aktuelle Änderungen an Ihren Schemata in der Client-Konsole von Campaign v8 zu überwachen.
 
   Detaillierte Informationen zu Schemata finden Sie in der [Dokumentation zu Campaign v8](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/developer/shemas-forms/schemas).
 
@@ -41,7 +41,7 @@ Die **[!UICONTROL Audit-Protokoll]**-Funktion zeichnet kontinuierlich und in Ech
 
   Weiterführende Informationen zu Workflows finden Sie auf [dieser Seite](../workflows/gs-workflows.md).
 
-* Das **Optionen-Audit-Protokoll** ermöglicht es Ihnen, Aktivitäten und aktuelle Änderungen an Ihren Optionen in Campaign V8 zu überwachen.
+* **Audit-Protokoll für Optionen** ermöglicht es Ihnen, Aktivitäten und aktuelle Änderungen an Ihren Optionen in Campaign v8 zu überwachen.
 
   Weiterführende Informationen zu Optionen finden Sie auf [dieser Seite](https://experienceleague.adobe.com/de/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options).
 
@@ -49,11 +49,11 @@ Die **[!UICONTROL Audit-Protokoll]**-Funktion zeichnet kontinuierlich und in Ech
 
   Weiterführende Informationen zu Sendungen finden Sie auf [dieser Seite](../msg/gs-deliveries.md).
 
-* **Externes Konto** ermöglicht Ihnen die Überprüfung von Änderungen an externen Konten in Campaign v8, die von technischen Prozessen wie technischen Workflows oder Kampagnen-Workflows verwendet werden.
+* Mit **Externes Konto** können Sie Änderungen an externen Konten in Campaign v8 überprüfen, die von technischen Prozessen wie technischen Workflows oder Kampagnen-Workflows verwendet werden.
 
   Weiterführende Informationen zu externen Konten finden Sie auf dieser [Seite](../administration/external-account.md).
 
-* **Versand-Mapping** ermöglicht es Ihnen, Aktivitäten und kürzlich an Ihrer Versand-Zuordnung vorgenommene Änderungen in Campaign v8 zu überwachen.
+* **Versand-Mapping** ermöglicht Ihnen das Überwachen von Aktivitäten und aktuellen Änderungen an Ihrem Versand-Mapping in Campaign v8.
 
   Weiterführende Informationen zu „Versand-Mapping“ finden Sie auf [dieser Seite](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/audience/add-profiles/target-mappings).
 
@@ -65,7 +65,7 @@ Die **[!UICONTROL Audit-Protokoll]**-Funktion zeichnet kontinuierlich und in Ech
 
   Weiterführende Informationen zu Angeboten finden Sie auf [dieser Seite](../msg/offers.md).
 
-* **Benutzer** ermöglicht es Ihnen, Aktivitäten und Änderungen zu überwachen, die vor Kurzem an Ihren Benutzenden in Campaign v8 vorgenommen wurden.
+* **Operator** ermöglicht es Ihnen, Aktivitäten und aktuelle Änderungen an Ihren Operatoren in Campaign v8 zu überwachen.
 
   Weiterführende Informationen zu Benutzerinnen und Benutzern finden Sie auf [dieser Seite](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/offers/interaction-settings/interaction-operators).
 

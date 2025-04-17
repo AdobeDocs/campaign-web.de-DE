@@ -3,10 +3,10 @@ audience: end-user
 title: Auswählen einer bestehenden Zielgruppe
 description: Erfahren Sie, wie Sie eine Zielgruppe auswählen
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
-source-git-commit: 93a79b471c236e5bf67da0dbd0d76274598dcb0e
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '381'
-ht-degree: 60%
+ht-degree: 58%
 
 ---
 
@@ -33,7 +33,7 @@ Gehen Sie wie folgt vor, um eine vorhandene Zielgruppe für Ihre Nachricht auszu
 
    [Dieser Screenshot zeigt die Liste der im aktuellen Ordner vorhandenen Zielgruppen.](assets/create-audience2.png){zoomable="yes"}
 
-   Um eine Zielgruppe aus Adobe Experience Platform auszuwählen, suchen Sie im Abschnitt „Filter“ des Bildschirms nach `AEP Audiences folder`. [Weitere Informationen zu Adobe Experience Platform-Zielgruppen](manage-audience.md#monitor)
+   Um eine Zielgruppe aus Adobe Experience Platform auszuwählen, suchen Sie im Abschnitt „Filter“ des Bildschirms nach `AEP Audiences folder`. [Erfahren Sie mehr über Adobe Experience Platform-Zielgruppen](manage-audience.md#monitor)
 
    [Dieser Screenshot zeigt den Filterabschnitt mit dem ausgewählten AEP Audiences-Ordner.](assets/select-audience-folder.png){zoomable="yes"}
 

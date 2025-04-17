@@ -3,10 +3,10 @@ audience: end-user
 title: Globale Berichte für den SMS-Kanal
 description: Grundlegendes zu globalen Berichten für den SMS-Kanal
 exl-id: 346cf2ff-b6e4-4d8f-ba26-197eadeaf5e6
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '664'
-ht-degree: 54%
+ht-degree: 48%
 
 ---
 
@@ -29,7 +29,7 @@ Der **[!UICONTROL Versandübersicht]** bietet umfassende KPIs (Key Performance I
 
 ![Screenshot des Berichts mit der Versandübersicht, der die wichtigsten Leistungsindikatoren für den SMS-Versand zeigt.](assets/global_report_sms_delivery_overview.png){zoomable="yes"}
 
-+++Erfahren Sie mehr über Versandübersichtsmetriken.
++++ Erfahren Sie mehr über Metriken zur Versandübersicht.
 
 * **[!UICONTROL Zu sendende Nachrichten]**: Gesamtzahl der während der Versandvorbereitung verarbeiteten Nachrichten.
 
@@ -52,7 +52,7 @@ Die Tabelle und der Graph **[!UICONTROL Zielgruppe]** enthalten Daten zu den Emp
 
 ![Screenshot des Berichts Zielgruppe mit Daten zu Empfängern und Ausschlüssen für SMS-Sendungen.](assets/global_report_sms_targeted_audience.png){zoomable="yes"}
 
-+++Erfahren Sie mehr über Zielgruppen-Metriken.
++++ Erfahren Sie mehr über Metriken für zielgerichtete Zielgruppen.
 
 * **[!UICONTROL Zielgruppe]**: Gesamtzahl der angesprochenen Empfängerinnen und Empfänger.
 
@@ -73,7 +73,7 @@ Die **[!UICONTROL Versandstatistiken]** gibt Auskunft über den Erfolg jedes SMS
 
 ![Screenshot des Berichts Versandstatistiken mit Erfolgsraten, Fehlern und Quarantänen für SMS-Sendungen.](assets/global_report_sms_delivery_statistics.png){zoomable="yes"}
 
-+++Erfahren Sie mehr über Versandstatistik-Metriken.
++++ Erfahren Sie mehr über Metriken der Versandstatistiken.
 
 * **[!UICONTROL Nachrichten gesamt]**: Gesamtzahl der nach erfolgter Versandvorbereitung zu versendenden Nachrichten.
 
@@ -83,7 +83,7 @@ Die **[!UICONTROL Versandstatistiken]** gibt Auskunft über den Erfolg jedes SMS
 
 * **[!UICONTROL Neue Quarantänen]**: Gesamtzahl der Adressen, die infolge eines fehlgeschlagenen Versands unter Quarantäne gestellt wurden (z. B. unbekannter Nutzer, ungültige Domain), im Verhältnis zur Anzahl der zu versendenden Nachrichten.
 
-  Die SMS-Fehlertypen werden im Abschnitt [Dokumentation zu Adobe Campaign v8 (Client-Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=de#sms-quarantines){target="_blank"} aufgelistet.
+  SMS-Fehlertypen sind in der Dokumentation zu [Adobe Campaign v8 (Client-Konsole) ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=de#sms-quarantines){target="_blank"}.
 
 +++
 
@@ -96,7 +96,7 @@ Die **[!UICONTROL Versandstatistiken]** gibt Auskunft über den Erfolg jedes SMS
 
 Der Graph und die Tabelle **[!UICONTROL Ausschlussgründe]** veranschaulichen die Gründe, aus denen Benutzerprofile, die von den Zielprofilen ausgeschlossen wurden, Ihre SMS-Sendungen nicht erhalten haben.
 
-Die E-Mail-Fehlertypen werden in der [Dokumentation zu Adobe Campaign v8 (Client-Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=de#email-error-types){target="_blank"} aufgelistet.
+Die Fehlertypen sind in der Dokumentation zu [Adobe Campaign v8 (Client-Konsole) ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=de#email-error-types){target="_blank"}.
 
 ![Screenshot des Berichts „Ausschlussgründe“ mit Gründen für SMS-Versandausschlüsse.](assets/global_report_sms_causes_exclusion.png){zoomable="yes"}
 

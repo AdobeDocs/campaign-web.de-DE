@@ -3,10 +3,10 @@ audience: end-user
 title: Globale Berichte für den E-Mail-Kanal
 description: Erfahren Sie mehr über globale Berichte für den E-Mail-Kanal
 exl-id: 37c575e5-fd18-4a35-a11a-922d5bda1bae
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '1653'
-ht-degree: 72%
+ht-degree: 67%
 
 ---
 
@@ -29,7 +29,7 @@ Die **[!UICONTROL Versandübersicht]** enthält wichtige Leistungsmetriken (KPIs
 
 ![Metriken der Versandübersicht](assets/global_report_email_delivery_overview.png){zoomable="yes"}{align="center"}
 
-+++Erfahren Sie mehr über Versandübersichtsmetriken.
++++ Erfahren Sie mehr über Metriken zur Versandübersicht.
 
 * **[!UICONTROL Zu sendende Nachrichten]**: Gesamtzahl der während der Versandvorbereitung verarbeiteten Nachrichten.
 
@@ -55,7 +55,7 @@ Die Tabelle und der Graph **[!UICONTROL Zielgruppe]** zeigen Daten zu Ihren Empf
 
 ![Zielgruppenmetriken](assets/global_report_email_targeted_audience.png){zoomable="yes"}{align="center"}
 
-+++Erfahren Sie mehr über Zielgruppen-Metriken.
++++ Erfahren Sie mehr über Metriken für zielgerichtete Zielgruppen.
 
 * **[!UICONTROL Zielgruppe]**: Gesamtzahl der angesprochenen Empfängerinnen und Empfänger.
 
@@ -76,7 +76,7 @@ Die Tabelle **[!UICONTROL Versandstatistiken]** bietet eine Aufschlüsselung des
 
 ![Metriken für Versandstatistiken](assets/global_report_email_delivery_statistics.png){zoomable="yes"}{align="center"}
 
-+++Erfahren Sie mehr über Versandstatistik-Metriken.
++++ Erfahren Sie mehr über Metriken der Versandstatistiken.
 
 * **[!UICONTROL Zu versendende Nachricht]**: Gesamtzahl der nach erfolgter Versandvorbereitung zu versendenden Nachrichten.
 
@@ -99,7 +99,7 @@ Die Tabelle **[!UICONTROL Versandstatistiken]** bietet eine Aufschlüsselung des
 
 Das Ausschlussdiagramm und die Tabelle zeigen die Gründe, die verhindert haben, dass Benutzerprofile, die von den Zielgruppenprofilen ausgeschlossen wurden, die Nachricht erhalten haben.
 
-Die E-Mail-Fehlertypen werden in der [Dokumentation zu Adobe Campaign v8 (Client-Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=de#email-error-types){target="_blank"} aufgelistet.
+Die Typen von E-Mail-Fehlern sind in der Dokumentation zu [Adobe Campaign v8 (Client-Konsole) ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=de#email-error-types){target="_blank"}.
 
 ## Versanddurchsatz {#delivery-throughput}
 
@@ -112,7 +112,7 @@ Die E-Mail-Fehlertypen werden in der [Dokumentation zu Adobe Campaign v8 (Client
 
 Der Versanddurchsatz-Bericht bietet einen umfassenden Einblick in die Effizienz des Versandprozesses und einen detaillierten Überblick über Erfolgs- und Fehlerquoten innerhalb eines bestimmten Zeitraums.
 
-+++Erfahren Sie mehr über Versanddurchsatzmetriken.
++++ Erfahren Sie mehr über Metriken zum Versanddurchsatz.
 
 * **[!UICONTROL Erfolg]**: Anzahl der erfolgreich verarbeiteten Nachrichten im Verhältnis zur Anzahl der zu versendenden Nachrichten.
 
@@ -133,9 +133,9 @@ Der Versanddurchsatz-Bericht bietet einen umfassenden Einblick in die Effizienz 
 
 Die Tabelle und der Graph **[!UICONTROL Verteilung der Fehler nach Typ]** enthalten die Daten zu potenziellen Fehlern in verschiedenen Domains, deren spezifische Metriken unten angegeben sind.
 
-Die in diesem Bericht angezeigten Fehler lösen einen Quarantäneprozess aus. Weitere Informationen zur Quarantäneverwaltung finden Sie in der [Dokumentation zu Campaign v8 (Client-Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=de){target="_blank"}.
+Die in diesem Bericht angezeigten Fehler lösen einen Quarantäneprozess aus. Weitere Informationen zur Quarantäneverwaltung finden Sie in der [ zu Campaign v8 (Client-Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=de){target="_blank"}.
 
-+++Erfahren Sie mehr über die Metriken zur Fehleraufschlüsselung nach Typ.
++++ Erfahren Sie mehr über die Aufschlüsselung der Fehler nach Metriktyp.
 
 * **[!UICONTROL Unbekannter Nutzer]**: Fehlertyp, der während des Versands erzeugt wird, um anzuzeigen, dass die E-Mail-Adresse ungültig ist.
 
@@ -177,7 +177,7 @@ Die Metriken **[!UICONTROL Versandstatistiken]** bieten wichtige Leistungsindika
 
 ![Tracking-Metriken für Versandstatistiken](assets/global_report_email_delivery_statistics_tracking.png){zoomable="yes"}{align="center"}
 
-+++Erfahren Sie mehr über Versandstatistik-Metriken.
++++ Erfahren Sie mehr über Metriken der Versandstatistiken.
 
 * **[!UICONTROL Zu sendende Nachrichten]**: Gesamtzahl der während der Versandvorbereitung verarbeiteten Nachrichten.
 
@@ -205,7 +205,7 @@ Die Tabelle **[!UICONTROL Öffnungs- und Clickthrough-Rate]** zeigt Daten zu Ihr
 
 ![Öffnungs- und Klickraten-Metriken](assets/global_report_email_opens.png){zoomable="yes"}{align="center"}
 
-+++Erfahren Sie mehr über die Metriken Öffnungs- und Klickrate.
++++ Erfahren Sie mehr über Metriken der Öffnungs- und Klickrate.
 
 * **[!UICONTROL Gesendet]**: Gesamtzahl der gesendeten Nachrichten.
 
@@ -231,7 +231,7 @@ Der Bericht **[!UICONTROL URLs und Clickstreams]** bietet wichtige Leistungsindi
 
 ![URLs und Clickstreams-Metriken](assets/campaign_report_email_9.png){zoomable="yes"}{align="center"}
 
-+++Weitere Informationen zu Metriken zu URL und Clickstreams.
++++ Erfahren Sie mehr über URLs und Clickstreams-Metriken.
 
 * **[!UICONTROL Reaktionsrate]**: Verhältnis der Anzahl an Zielgruppenempfängerinnen und -empfängern, die auf einen Versand geklickt haben, im Verhältnis zur geschätzten Anzahl der Zielgruppenempfängerinnen und -empfänger, die einen Versand geöffnet haben.
 
@@ -253,7 +253,7 @@ Der Graph und die Tabelle zu den **[!UICONTROL 10 meistbesuchten Links]** enthal
 
 ![Die 10 meistbesuchten Links-Metriken](assets/global_report_email_top10.png){zoomable="yes"}{align="center"}
 
-+++Erfahren Sie mehr über die Metriken zu den 10 meistbesuchten Links.
++++ Erfahren Sie mehr über die 10 meistbesuchten Links-Metriken.
 
 * **[!UICONTROL Klicks insgesamt]**: Gesamtzahl der Klicks auf Links in Sendungen.
 
@@ -283,7 +283,7 @@ Der Bericht **[!UICONTROL Benutzeraktivitäten]** zeigt die Aufschlüsselung der
 
 ![Metriken der Benutzeraktivitäten](assets/global_report_email_user.png){zoomable="yes"}{align="center"}
 
-+++Erfahren Sie mehr über die Metriken zu Benutzeraktivitäten.
++++Erfahren Sie mehr über die Metriken der Benutzeraktivitäten.
 
 * **[!UICONTROL Klicks insgesamt]**: Gesamtzahl der Klicks auf Links in Sendungen.
 

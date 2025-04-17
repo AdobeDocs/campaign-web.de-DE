@@ -5,10 +5,10 @@ feature: Audiences, Profiles, Seed Address, Proofs
 role: User
 level: Beginner
 exl-id: d372713d-3024-46a1-b62e-f271b8ac829f
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '644'
-ht-degree: 76%
+ht-degree: 75%
 
 ---
 
@@ -23,7 +23,7 @@ Testprofile werden verwendet, um Testsendungen durchzuführen und den Inhalt und
 
 ➡️ [Entdecken Sie diese Funktion im Video](#video)
 
-<!--Learn more on test profiles in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}.-->
+<!--Learn more about test profiles in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}.-->
 
 Informationen zum Versand von Testsendungen an Testprofile finden Sie in [diesem Abschnitt](../preview-test/test-deliveries.md#test-profiles).
 
@@ -100,7 +100,7 @@ You do not need to enter all fields of each tab when creating a seed address. Mi
 
    ![Registerkarte „Zusätzliche Daten“](assets/test-profile-additional-data.png){zoomable="yes"}
 
-   Stellen Sie sicher, dass in der Workflow-Aktivität **[!UICONTROL Anreicherung]** zusätzliche Zielgruppendaten mit einem Alias definiert wurden, der mit „@“ beginnt. Andernfalls können Sie sie in der Versandaktivität nicht ordnungsgemäß mit Ihren Testadressen verwenden. [Erfahren Sie mehr über die Anreicherungs-Aktivität](../workflows/activities/enrichment.md)
+   Stellen Sie sicher, dass in der Workflow-Aktivität **[!UICONTROL Anreicherung]** zusätzliche Zielgruppendaten mit einem Alias definiert wurden, der mit „@“ beginnt. Andernfalls können Sie sie in der Versandaktivität nicht ordnungsgemäß mit Ihren Testadressen verwenden. [Weitere Informationen zur Aktivität „Anreicherung“](../workflows/activities/enrichment.md)
 
 1. Klicken Sie auf die Schaltfläche **[!UICONTROL Speichern]**.
 
