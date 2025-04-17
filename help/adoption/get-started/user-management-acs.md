@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie die Benutzerzugriffsverwaltung von Campaign S
 feature: Technote
 role: Admin
 exl-id: a7f333ba-0b84-47de-8f91-b6c8f3f3322a
-source-git-commit: 1dd416d0a1a3579075462821edd4d55e738e602f
+source-git-commit: 9354c07f173f67c23ce64e591f869bdd374c3334
 workflow-type: tm+mt
-source-wordcount: '1404'
+source-wordcount: '1403'
 ht-degree: 3%
 
 ---
@@ -178,4 +178,6 @@ Nachfolgend finden Sie eine Liste der Campaign Standard-Sicherheitsgruppenzuordn
 
 * Relais-Konto
 
-Beachten Sie, dass benutzerdefinierte Rollen, die in Adobe Campaign Standard erstellt und Benutzenden zugewiesen wurden, nicht nach Campaign v8 migriert werden.
+>[!NOTE]
+>
+>Benutzerdefinierte Rollen, die in Adobe Campaign Standard erstellt und Benutzenden zugewiesen wurden, werden nicht nach Adobe Campaign v8 migriert.
