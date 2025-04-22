@@ -6,7 +6,7 @@ exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
 source-git-commit: d982d55a7667442f4ff4751dbaa29dfaa243b22c
 workflow-type: tm+mt
 source-wordcount: '371'
-ht-degree: 66%
+ht-degree: 51%
 
 ---
 
@@ -38,9 +38,9 @@ Die Zielgruppe ist das hauptsächliche Ziel Ihres Versands: die Profile, die die
 
 Zielgruppen können aus mehreren Quellen stammen. Die Spalte **[!UICONTROL Herkunft]** gibt an, wo eine bestimmte Zielgruppe erstellt wurde:
 
-* **[!UICONTROL Adobe Campaign]**: Diese Zielgruppen wurden in der [Adobe Campaign Web-Benutzeroberfläche](create-audience.md) oder in der [Adobe Campaign v8 Client-Konsole](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/create-audiences/create-audiences.html?lang=de){target="_blank"} erstellt.
+* **[!UICONTROL Adobe Campaign]**: Diese Zielgruppen wurden in der [Adobe Campaign Web-Benutzeroberfläche](create-audience.md) oder in der [Adobe Campaign v8 Client-Konsole erstellt](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/create-audiences/create-audiences.html?lang=de){target="_blank"}.
 
-* **[!UICONTROL Adobe Experience Platform:]** Diese Zielgruppen wurden in Adobe Experience Platform erstellt und mithilfe der Integration von Adobe-Quellen und -Zielen in Campaign Web integriert. Erfahren Sie in der [Dokumentation zu Campaign v8 (Client-Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html?lang=de){target="_blank"}, wie Sie diese Integration einrichten.
+* **[!UICONTROL Adobe Experience Platform:]** Diese Zielgruppen wurden in Adobe Experience Platform erstellt und mithilfe der Integration von Adobe-Quellen und -Zielen in Campaign Web integriert. Wie Sie diese Integration einrichten, erfahren Sie in der Dokumentation [Campaign v8 (Client-Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html?lang=de){target="_blank"}.
 
   ➡️ [Entdecken Sie diese Funktion im Video](#video)
 
@@ -58,4 +58,4 @@ Erfahren Sie, wie Sie ein Ziel für die Verwendung einer Experience Platform-Zie
 
 >[!VIDEO](https://video.tv.adobe.com/v/3427635?quality=12)
 
-Detaillierte Informationen zum Einrichten der Adobe-Quell- und Zielintegration finden Sie in der [Dokumentation zu Campaign v8 (Client-Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html?lang=de){target="_blank"}.
+Detaillierte Informationen zum Einrichten der Integration von Adobe-Quellen und -Zielen finden Sie in der Dokumentation [Campaign v8 (Client-Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html?lang=de){target="_blank"}.
