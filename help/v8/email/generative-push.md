@@ -1,16 +1,16 @@
 ---
 audience: end-user
-title: Push-Benachrichtigungen mit dem KI-Assistenten
+title: Push-Benachrichtigung mit KI-Assistent
 description: Erste Schritte mit dem KI-Assistenten
 exl-id: a361f75d-63c2-4fdc-993c-f8414b18e13e
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
 workflow-type: tm+mt
-source-wordcount: '557'
-ht-degree: 23%
+source-wordcount: '548'
+ht-degree: 17%
 
 ---
 
-# Generierung von Push-Benachrichtigungen mit dem KI-Assistenten {#generative-push}
+# Generieren von Push-Benachrichtigungen mit dem KI-Assistenten {#generative-push}
 
 >[!IMPORTANT]
 >
@@ -19,7 +19,7 @@ ht-degree: 23%
 >
 >Sie müssen einer [Benutzervereinbarung“ zustimmen](https://www.adobe.com/de/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) bevor Sie den KI-Assistenten in Adobe Campaign Web verwenden. Weitere Informationen erhalten Sie vom Adobe-Support.
 
-Der KI-Assistent hilft Ihnen, die Wirkung Ihrer Sendungen zu optimieren, indem er verschiedene Inhalte vorschlägt, die bei Ihrer Audience Anklang finden.
+Der KI-Assistent hilft Ihnen, die Wirkung Ihrer Sendungen zu optimieren, indem er verschiedene Inhalte vorschlägt, die Ihre Audience ansprechen.
 
 Im folgenden Beispiel wird der KI-Assistent genutzt, um überzeugende Botschaften zu erstellen und ein ansprechenderes Kundenerlebnis zu schaffen.
 
@@ -31,7 +31,7 @@ Im folgenden Beispiel wird der KI-Assistent genutzt, um überzeugende Botschafte
 
    ![Screenshot mit dem Menü „KI-Assistenten anzeigen“](assets/push-genai-1.png){zoomable="yes"}
 
-1. Aktivieren Sie für den KI-Assistenten die Option **[!UICONTROL Originalinhalt verwenden]**, um neue Inhalte basierend auf dem ausgewählten Inhalt zu personalisieren.
+1. Aktivieren Sie die Option **[!UICONTROL Original-Inhalt verwenden]** für den KI-Assistenten, um neue Inhalte basierend auf den ausgewählten Inhalten zu personalisieren.
 
 1. Passen Sie den Inhalt an, indem Sie beschreiben, was Sie im Feld **[!UICONTROL Eingabeaufforderung]** generieren möchten.
 
@@ -57,7 +57,7 @@ Im folgenden Beispiel wird der KI-Assistent genutzt, um überzeugende Botschafte
 
    ![Screenshot mit Optionen für Bildeinstellungen](assets/push-genai-4.png){zoomable="yes"}
 
-1. Klicken Sie im Menü **[!UICONTROL Marken-Assets]** auf **[!UICONTROL Marken-Asset hochladen]**, um jedes Marken-Asset mit Inhalten hinzuzufügen, das zusätzlichen Kontext für den KI-Assistenten bietet, oder wählen Sie ein zuvor hochgeladenes Asset aus.
+1. Klicken Sie im Menü **[!UICONTROL Marken-Assets]** auf **[!UICONTROL Marken-Asset hochladen]**, um ein Marken-Asset mit Inhalten hinzuzufügen, das zusätzlichen Kontext für den KI-Assistenten bietet, oder wählen Sie ein zuvor hochgeladenes Asset aus.
 
    Zuvor hochgeladene Dateien sind in der Dropdown-Liste **[!UICONTROL Hochgeladene Marken-Assets]** verfügbar. Schalten Sie die Assets ein, die Sie in Ihre Generation aufnehmen möchten.
 

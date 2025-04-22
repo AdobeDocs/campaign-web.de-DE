@@ -5,10 +5,10 @@ user-guide-description: Produktdokumentation zur Adobe Campaign Web-Benutzerober
 title: Dokumentation zu Adobe Campaign Web
 description: Dokumentation zu Campaign Web
 breadcrumb-title: Campaign Web-Benutzeroberfläche
-source-git-commit: f645d8bf45e92028485ffdab138ed7b637e9a4a5
-workflow-type: ht
-source-wordcount: '809'
-ht-degree: 100%
+source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
+workflow-type: tm+mt
+source-wordcount: '808'
+ht-degree: 94%
 
 ---
 
@@ -53,7 +53,7 @@ ht-degree: 100%
    + Push-Benachrichtigungen {#push}
       + [Erste Schritte mit Push-Benachrichtigungen](push/gs-push.md)
       + [Erstellen eines Push-Benachrichtigungs-Versands](push/create-push.md)
-      + Rich-Push {#rich-push}
+      + Rich Push {#rich-push}
          + [Entwerfen eines Rich-Push-Versands für Android](push/rich-push.md)
          + [Erstellen eines Rich-Push-Versands für iOS](push/rich-push-ios.md)
       + [Entwerfen eines Push-Versands](push/content-push.md)
@@ -77,7 +77,7 @@ ht-degree: 100%
    + [Hinzufügen von Angeboten zu Ihren Nachrichten](msg/offers.md)
    + [Versenden von Nachrichten an Ihre Abonnentinnen und Abonnenten](msg/send-to-subscribers.md)
    + [Konfigurieren der Versandeinstellungen](advanced-settings/delivery-settings.md)
-   + Vorschau und Testen eines Versands{#preview-test}
+   + Vorschau und Testen eines Versands {#preview-test}
       + [Vorschau und Testsendungen](preview-test/preview-test.md)
       + [Vorschau des Nachrichteninhalts](preview-test/preview-content.md)
       + [Durchführen von Testsendungen](preview-test/test-deliveries.md)
@@ -87,7 +87,7 @@ ht-degree: 100%
       + [Versandwarnungs-Dashboards](msg/delivery-alerting-dashboards.md)
       + [Versandwarnungskriterien](msg/delivery-alerting-criteria.md)
 + Content-Management {#content}
-   + Erstellen dynamischer Inhalte {#dynamic-content}
+   + Dynamische Inhalte erstellen {#dynamic-content}
       + [Wie lässt sich der Inhalt dynamisch gestalten?](personalization/gs-personalization.md)
       + [Hinzufügen von Personalisierung](personalization/personalize.md)
       + [Erstellen bedingter Inhalte](personalization/conditions.md)
@@ -98,26 +98,26 @@ ht-degree: 100%
          + [Erstellen und Bearbeiten von Inhaltsfragmenten](content/create-fragment.md)
          + [Verwenden visueller Fragmente in E-Mails](content/use-visual-fragments.md)
          + [Verwenden von Ausdrucksfragmenten im Ausdruckseditor](content/use-expression-fragments.md)
-   + Gestalten von E-Mails {#email-design}
+   + Entwerfen von E-Mails {#email-design}
       + [Erste Schritte mit dem E-Mail-Designer](email/get-started-email-designer.md)
-      + Beginnen Sie mit der Gestaltung Ihrer E-Mail {#start-design}
+      + E-Mail gestalten {#start-design}
          + [Beginnen von Grund auf](email/create-email-content.md)
          + [Importieren Ihrer E-Mail-Inhalte](email/existing-content.md)
          + [Codieren Sie Ihre eigenen Inhalte](email/code-content.md)
          + [Verwenden von E-Mail-Inhaltsvorlagen](email/use-email-templates.md)
-      + Gestalten Ihres Inhalts {#design-content}
+      + Inhalte gestalten {#design-content}
          + [Verwenden von Inhaltskomponenten](email/content-components.md)
          + [Hinzufügen von Links und Verfolgen von Nachrichten](email/message-tracking.md)
          + [Hinzufügen eines Links zur Mirrorseite](email/mirror-page.md)
          + [Hinzufügen eines Preheaders](email/preheader.md)
          + [Erstellen der Textversion](email/text-version-email.md)
-      + Gestalten von Inhalten {#style}
+      + Gestalten Ihrer Inhalte {#style}
          + [Erste Schritte mit E-Mail-Stil](email/get-started-email-style.md)
          + [Bearbeiten von Hintergrundeinstellungen](email/backgrounds.md)
          + [Anpassen der senkrechten Ausrichtung und des Abstands](email/alignment-and-padding.md)
          + [Definieren eines Stils für Links](email/styling-links.md)
          + [Hinzufügen von Inline-Styling-Attributen](email/inline-styling.md)
-   + KI-Assistent {#ai-assistant}
+   + KI-Assistent {#ai-assistant}
       + [Arbeiten mit dem KI-Assistenten](email/generative-gs.md)
       + [E-Mail-Generierung mit KI](email/generative-content.md)
       + [SMS-Generierung mit KI](email/generative-sms.md)
@@ -131,19 +131,19 @@ ht-degree: 100%
    + [Entwerfen von Inhalten für eine Landingpage](landing-pages/lp-content.md)
    + [Arbeiten mit Landingpage-Vorlagen](landing-pages/lp-templates.md)
    + [Lernen durch Anwendungsfälle](landing-pages/lp-use-cases.md)
-+ Profile und Audiences {#audiences}
++ Profile und Audiences  {#audiences}
    + [Erste Schritte mit Profilen und Zielgruppen](audience/gs-audiences-recipients.md)
    + [Targeting-Dimensionen](audience/targeting-dimensions.md)
    + [Quarantäne](audience/quarantine.md)
-   + Arbeiten mit Profilen {#work-with-profiles}
+   + Arbeiten mit Profilen  {#work-with-profiles}
       + [Erste Schritte mit Profilen](audience/about-recipients.md)
       + [Entdecken der Details von Profilen](audience/profile-view.md)
       + [Erstellen eines Profils](audience/create-profile.md)
       + [Arbeiten mit Testprofilen](audience/test-profiles.md)
-   + Arbeiten mit Zielgruppen {#audiences}
+   + Verwenden von Zielgruppen {#audiences}
       + [Erste Schritte mit Zielgruppen](audience/manage-audience.md)
-      + [Zielgruppen erstellen](audience/create-audience.md)
-   + Auswählen der Empfängerinnen und Empfänger des Versands {#target-audiences}
+      + [Erstellen von Zielgruppen](audience/create-audience.md)
+   + Auswählen der Versandempfänger {#target-audiences}
       + [Erste Schritte mit der Zielgruppenauswahl](audience/delivery-recipients.md)
       + [Auswählen einer bestehenden Zielgruppe](audience/add-audience.md)
       + [Erstellen einer einmaligen Zielgruppe](audience/one-time-audience.md)
@@ -153,7 +153,7 @@ ht-degree: 100%
    + Arbeiten mit Anmeldediensten {#work-with-services}
       + [Erstellen und Verwalten von Abonnements](audience/manage-services.md)
       + [Verwalten von Abonnenten](audience/manage-subscribers.md)
-+ Cross-Channel-Kampagnen {#campaigns}
++ Kanalübergreifende Kampagnen {#campaigns}
    + [Erste Schritte mit Kampagnen](campaigns/gs-campaigns.md)
    + [Zugreifen auf und Verwalten von Kampagnen](campaigns/manage-campaigns.md)
    + [Erste Kampagne erstellen](campaigns/create-campaigns.md)
@@ -224,7 +224,7 @@ ht-degree: 100%
       + [Globaler Push-Bericht](reporting/global-report-push.md)
       + [Globaler SMS-Bericht](reporting/global-report-sms.md)
       + [Globaler Briefpost-Bericht](reporting/global-report-direct.md)
-+ Integrationen {#integrations}
++ Integrationen  {#integrations}
    + [Arbeiten mit anderen Adobe-Lösungen](integrations/integration.md)
    + [Verwalten von Assets mit Adobe Experience Manager Assets as a Cloud Service](integrations/aem-assets.md)
    + [Verwalten von Vorlagen mit Adobe Experience Manager as a Cloud Service](integrations/aem-content.md)

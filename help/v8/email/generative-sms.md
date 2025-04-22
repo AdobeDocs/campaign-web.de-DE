@@ -1,16 +1,16 @@
 ---
 audience: end-user
-title: SMS mit dem KI-Assistenten
+title: SMS mit KI-Assistent
 description: Erste Schritte mit dem KI-Assistenten
 exl-id: db0459e5-8759-42d9-8945-8c9667450527
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
 workflow-type: tm+mt
-source-wordcount: '897'
-ht-degree: 38%
+source-wordcount: '884'
+ht-degree: 30%
 
 ---
 
-# Generierung von SMS mit dem KI-Assistenten {#generative-sms}
+# SMS-Generierung mit KI-Assistent {#generative-sms}
 
 >[!IMPORTANT]
 >
@@ -19,7 +19,7 @@ ht-degree: 38%
 >
 >Sie müssen einer [Benutzervereinbarung“ zustimmen](https://www.adobe.com/de/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) bevor Sie den KI-Assistenten in Adobe Campaign Web verwenden. Weitere Informationen erhalten Sie vom Adobe-Support.
 
-Sobald Sie Ihre SMS-Nachrichten entsprechend Ihren Zielgruppen gestaltet und personalisiert haben, verbessern Sie Ihre Kommunikation mit dem KI-Assistenten in Adobe Campaign Web, der auf innovativer KI-Technologie basiert.
+Sobald Sie Ihre SMS-Nachrichten entsprechend Ihren Zielgruppen gestaltet und personalisiert haben, verbessern Sie Ihre Kommunikation mit dem KI-Assistenten im Adobe Campaign Web, der auf innovativer KI-Technologie basiert.
 
 Dieses Tool bietet intelligente Vorschläge zur Verfeinerung Ihrer Inhalte, um sicherzustellen, dass Ihre Nachrichten effektiv widerhallen und die Interaktion maximieren.
 
@@ -51,7 +51,7 @@ Dieses Tool bietet intelligente Vorschläge zur Verfeinerung Ihrer Inhalte, um s
 
    ![Screenshot mit Optionen für Texteinstellungen](assets/sms-genai-3.png){zoomable="yes"}
 
-1. Klicken Sie im Menü **[!UICONTROL Marken-Assets]** auf **[!UICONTROL Marken-Asset hochladen]**, um jedes Marken-Asset mit Inhalten hinzuzufügen, das zusätzlichen Kontext für den KI-Assistenten bietet, oder wählen Sie ein zuvor hochgeladenes Asset aus.
+1. Klicken Sie im Menü **[!UICONTROL Marken-Assets]** auf **[!UICONTROL Marken-Asset hochladen]**, um ein Marken-Asset mit Inhalten hinzuzufügen, das zusätzlichen Kontext für den KI-Assistenten bietet, oder wählen Sie ein zuvor hochgeladenes Asset aus.
 
    Zuvor hochgeladene Dateien sind in der Dropdown-Liste **[!UICONTROL Hochgeladene Marken-Assets]** verfügbar. Schalten Sie die Assets ein, die Sie in Ihre Generation aufnehmen möchten.
 
@@ -97,7 +97,7 @@ Bereiten Sie den SMS-Versand vor, wenn Sie Inhalt, Zielgruppe und Zeitplan defin
 
    ![Screenshot mit dem Menü „KI-Assistent“](assets/sms-text-1.png){zoomable="yes"}
 
-1. Aktivieren Sie für den KI-Assistenten die Option **[!UICONTROL Als Referenzinhalt verwenden]**, um neue Inhalte basierend auf dem ausgewählten Inhalt zu personalisieren.
+1. Aktivieren Sie die Option **[!UICONTROL Referenzinhalt verwenden]** für den KI-Assistenten, um neue Inhalte basierend auf den ausgewählten Inhalten zu personalisieren.
 
 1. Passen Sie den Inhalt an, indem Sie beschreiben, was Sie im Feld **[!UICONTROL Eingabeaufforderung]** generieren möchten.
 
@@ -114,7 +114,7 @@ Bereiten Sie den SMS-Versand vor, wenn Sie Inhalt, Zielgruppe und Zeitplan defin
 
    ![Screenshot mit Optionen für Texteinstellungen](assets/sms-text-3.png){zoomable="yes"}
 
-1. Klicken Sie im Menü **[!UICONTROL Marken-Assets]** auf **[!UICONTROL Marken-Asset hochladen]**, um jedes Marken-Asset mit Inhalten hinzuzufügen, das zusätzlichen Kontext für den KI-Assistenten bietet, oder wählen Sie ein zuvor hochgeladenes Asset aus.
+1. Klicken Sie im Menü **[!UICONTROL Marken-Assets]** auf **[!UICONTROL Marken-Asset hochladen]**, um ein Marken-Asset mit Inhalten hinzuzufügen, das zusätzlichen Kontext für den KI-Assistenten bietet, oder wählen Sie ein zuvor hochgeladenes Asset aus.
 
    Zuvor hochgeladene Dateien sind in der Dropdown-Liste **[!UICONTROL Hochgeladene Marken-Assets]** verfügbar. Schalten Sie die Assets ein, die Sie in Ihre Generation aufnehmen möchten.
 
@@ -125,8 +125,8 @@ Bereiten Sie den SMS-Versand vor, wenn Sie Inhalt, Zielgruppe und Zeitplan defin
 1. Navigieren Sie zur Option **[!UICONTROL Verfeinern]** im Fenster **[!UICONTROL Vorschau]**, um auf weitere Anpassungsfunktionen zuzugreifen und Ihre Variante nach Ihren Vorlieben zu gestalten:
 
    * **[!UICONTROL Als Referenzinhalt verwenden]**: Die ausgewählte Variante dient als Referenzinhalt für die Generierung anderer Ergebnisse.
-   * **[!UICONTROL Umformulieren]**: Der KI-Assistent kann Ihre Nachricht auf verschiedene Arten umformulieren, sodass Ihre Texte für verschiedene Zielgruppen interessant und ansprechend klingen.
-   * **[!UICONTROL Einfachere Sprache verwenden]**: Nutzen Sie den KI-Assistenten, um Ihren Text zu vereinfachen, damit er für eine breitere Zielgruppe verständlich und zugänglich ist.
+   * **[!UICONTROL Umformulieren]**: Der KI-Assistent kann Ihre Nachricht auf unterschiedliche Weise umformulieren, sodass Sie frisch schreiben und für unterschiedliche Zielgruppen interessant sind.
+   * **[!UICONTROL Einfachere Sprache verwenden]**: Nutzen Sie den KI-Assistenten, um Ihre Sprache zu vereinfachen und einer breiteren Zielgruppe Klarheit und Barrierefreiheit zu bieten.
 
    Sie können auch den **[!UICONTROL Ton]** und die **[!UICONTROL Kommunikationsstrategie]** Ihres Textes ändern.
 

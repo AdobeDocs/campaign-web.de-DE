@@ -3,10 +3,10 @@ audience: end-user
 title: Erste Schritte mit dem KI-Assistenten
 description: Erste Schritte mit dem KI-Assistenten
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
 workflow-type: tm+mt
-source-wordcount: '745'
-ht-degree: 25%
+source-wordcount: '732'
+ht-degree: 18%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 25%
 >[!CONTEXTUALHELP]
 >id="acw_generation_settings"
 >title="KI-Assistent"
->abstract="Nachdem Sie den Versand erstellt und personalisiert haben, verwenden Sie den KI-Assistenten, um Ihre Inhalte zu verbessern. Diese Funktion vereinfacht die Personalisierung und Inhaltsverbesserung, indem sie es Ihnen ermöglicht, den Inhalt durch die Beschreibung dessen, was Sie generieren möchten, fein abzustimmen."
+>abstract="Nachdem Sie Ihren Versand erstellt und personalisiert haben, verwenden Sie den KI-Assistenten, um Ihre Inhalte zu verbessern. Diese Funktion vereinfacht die Personalisierung und Inhaltsverbesserung, indem sie es Ihnen ermöglicht, den Inhalt durch die Beschreibung dessen, was Sie generieren möchten, fein abzustimmen."
 
 >[!CONTEXTUALHELP]
 >id="acw_generation_context"
@@ -42,7 +42,7 @@ Der KI-Assistent vereinfacht die Erstellung und Ausführung von Marketing-Kampag
 >
 >* Sie müssen einer [Benutzervereinbarung“ zustimmen](https://www.adobe.com/de/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) bevor Sie den KI-Assistenten in Adobe Campaign Web verwenden. Weitere Informationen erhalten Sie vom Adobe-Support.
 
-## Zugreifen auf den KI-Assistenten {#generative-access}
+## Zugriff auf KI-Assistenten {#generative-access}
 
 Der KI-Assistent für E-Mails, Push-Benachrichtigungen und SMS ist jetzt allgemein verfügbar (General Availability, GA) und steht allen Benutzern zur Verfügung. Die erforderlichen Berechtigungen und Schritte zum Gewähren des Zugriffs für Benutzende werden nachfolgend beschrieben.
 
@@ -61,12 +61,12 @@ Informationen zum Definieren von Berechtigungen in Campaign finden Sie in [diese
 
 ## Schutzmechanismen und Einschränkungen {#generative-guardrails}
 
-Im Folgenden sind die allgemeinen Richtlinien zur Verwendung des KI-Assistenten in Adobe Campaign Web für die Generierung von E-Mails aufgeführt:
+Allgemeine Richtlinien zur Verwendung des KI-Assistenten in Adobe Campaign Web für die E-Mail-Generierung finden Sie unten:
 
 * Die Qualität der generierten Inhalte hängt stark von dem von Ihnen definierten Marketing-Ziel oder der von Ihnen definierten Eingabeaufforderung ab. Verwenden Sie eine klar definierte Eingabeaufforderung für das GenAI-Modell, um genau zu interpretieren.
 * Laden Sie Marken-Assets hoch, um genaue, markeninterne Inhalte sicherzustellen. Andernfalls basiert der Inhalt auf öffentlich verfügbaren Informationen. Der hochgeladene Inhalt kann in den folgenden Formaten vorliegen: PDF, JPEG, PNG oder ZIP-Dateien (mit unterstützten Dateiformaten).
 * Die maximale Größe für hochgeladene Marken-Assets beträgt 50 MB. Größere Dateien oder eine Vielzahl von Bildern können die Verarbeitungszeit erhöhen.
-* Verwenden [integrierte E-Mail](../email/create-email-templates.md)Vorlagen), markenspezifische Vorlagen oder benutzerdefinierte Vorlagen, um Ihren E-Mail-Inhalt mithilfe des KI-Assistenten zu erstellen. E-Mail-Vorlagen mit bis zu 8-10 Bildern werden empfohlen.
+* Verwenden Sie [integrierten E-Mail](../email/create-email-templates.md)Vorlagen), markenspezifische Vorlagen oder benutzerdefinierte Vorlagen, um Ihren E-Mail-Inhalt mithilfe des KI-Assistenten zu erstellen. E-Mail-Vorlagen mit bis zu 8-10 Bildern werden empfohlen.
 * Melden Sie problematische Ausgaben mithilfe der Symbole „Daumen hoch“, „Daumen runter“ oder „Flag“ bei der Auswahl von Varianten.
 * Ihre Verwendung des KI-Assistenten unterliegt den Adobe Experience Cloud Generative AI-Benutzerrichtlinien. [Weitere Informationen](https://www.adobe.com/de/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html).
 * Als Teil des Engagements von Adobe für Transparenz bei der Verwendung von generativen KI-Tools bei der Medienerstellung wendet Adobe Content Credentials an, wenn Inhalte oder ein Projekt, das ein von Firefly generiertes Asset enthält, heruntergeladen oder exportiert werden. [Weitere Informationen](https://helpx.adobe.com/de/firefly/using/content-credentials.html).
@@ -86,7 +86,7 @@ Die folgenden Einschränkungen gelten für den KI-Assistenten in Adobe Campaign 
 <img alt="[E-Mail-Erstellung mit KI-Assistenten]" src="assets/do-not-localize/text-genai.jpeg">
 </a>
 <div>
-<a href="generative-content.md"><strong>Generierung von E-Mails mit dem KI-Assistenten</strong></a>
+<a href="generative-content.md"><strong>E-Mail-Generierung mit KI-Assistent</strong></a>
 </div>
 <p>
 </td>
@@ -94,7 +94,7 @@ Die folgenden Einschränkungen gelten für den KI-Assistenten in Adobe Campaign 
 <a href="generative-sms.md">
 <img alt="[SMS-Generierung mit KI-Assistenten]" src="assets/do-not-localize/image-genai.jpeg">
 </a>
-<div><a href="generative-sms.md"><strong>Generierung von SMS mit dem KI-Assistenten</strong>
+<div><a href="generative-sms.md"><strong>SMS-Generierung mit dem KI-Assistenten</strong>
 </div>
 <p>
 </td>
@@ -103,7 +103,7 @@ Die folgenden Einschränkungen gelten für den KI-Assistenten in Adobe Campaign 
 <img alt="[Generieren von Push-Benachrichtigungen mit dem KI-Assistenten]" src="assets/do-not-localize/email-genai.jpeg">
 </a>
 <div>
-<a href="generative-push.md"><strong>Generierung von Push-Benachrichtigungen mit dem KI-Assistenten</strong></a>
+<a href="generative-push.md"><strong>Generieren von Push-Benachrichtigungen mit dem KI-Assistenten</strong></a>
 </div>
 <p></td>
 </tr></table>

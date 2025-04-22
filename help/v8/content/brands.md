@@ -6,10 +6,10 @@ hide: true
 hidefromtoc: true
 badge: label="Beta" type="Informative"
 exl-id: d4d2c6bb-7fd0-49a0-9d73-356f4a24f021
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
 workflow-type: tm+mt
-source-wordcount: '512'
-ht-degree: 40%
+source-wordcount: '508'
+ht-degree: 37%
 
 ---
 
@@ -83,7 +83,7 @@ Benutzer können die Details entweder manuell eingeben oder ein Dokument mit Mar
 
    ![Registerkarte „Visueller Inhalt“ mit Beispielbildoptionen](assets/brands_3.png)
 
-1. Klicken Sie nach der Konfiguration auf **[!UICONTROL Speichern]** und dann auf **[!UICONTROL Veröffentlichen]**, um Ihre Markenrichtlinie im KI-Assistenten verfügbar zu machen.
+1. Klicken Sie nach der Konfiguration **[!UICONTROL Speichern]** und anschließend **[!UICONTROL Veröffentlichen]**, um Ihre Markenrichtlinie im KI-Assistenten verfügbar zu machen.
 
 1. Um Ihre veröffentlichte Marke zu ändern, klicken Sie auf **[!UICONTROL Marke bearbeiten]**.
 
@@ -104,6 +104,6 @@ Benutzer können die Details entweder manuell eingeben oder ein Dokument mit Mar
 
    ![Erweiterte Menüoptionen im Marken-Dashboard](assets/brands_5.png)
 
-Ihre Markenrichtlinien sind jetzt über die Dropdown-Liste **[!UICONTROL Marke]** im Menü KI-Assistent verfügbar. Dadurch kann der KI-Assistent Inhalte und Assets generieren, die mit Ihren Spezifikationen übereinstimmen. [Erfahren Sie mehr über den KI-Assistenten](../email/generative-gs.md)
+Ihre Markenrichtlinien sind jetzt über die Dropdown-Liste **[!UICONTROL Marke]** im Menü KI-Assistent verfügbar. Dadurch kann der KI-Assistent Inhalte und Assets generieren, die mit Ihren Spezifikationen übereinstimmen. [Weitere Informationen zum KI-Assistenten](../email/generative-gs.md)
 
 ![KI-Assistenten-Menü mit Dropdown-Liste „Marke“](assets/brands_6.png)

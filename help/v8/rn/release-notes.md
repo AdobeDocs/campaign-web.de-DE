@@ -2,10 +2,10 @@
 title: Versionshinweise zur Web-Benutzeroberfläche von Campaign v8
 description: Entdecken Sie die neuen Funktionen der neuesten Version der Campaign Web-Benutzeroberfläche
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
 workflow-type: tm+mt
-source-wordcount: '838'
-ht-degree: 56%
+source-wordcount: '836'
+ht-degree: 53%
 
 ---
 
@@ -175,13 +175,13 @@ Die folgenden Funktionen und Verbesserungen sind ab der Version Januar verfügba
 <table>
 <thead>
 <tr>
-<th><strong>Generieren von Landingpages mit dem KI-Assistenten</strong><br/></th>
+<th><strong>Generieren von Landingpages mit KI-Assistenten</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Der KI-Assistent ist nun für den Versand von Landingpages verfügbar, sodass Sie Text, Bilder oder vollständige Seiten-Layouts generieren können.</p>
+<p>Der KI-Assistent ist jetzt für Ihre Landingpage-Sendungen verfügbar und ermöglicht Ihnen die Erstellung von Text, Bildern oder vollständigen Seiten-Layouts.</p>
 <img src="assets/do-not-localize/ai-lp.gif" alt="Abbildung der Verwendung des KI-Assistenten für die Erstellung von Landingpages in der Web-Benutzeroberfläche von Adobe Campaign">
 <p>Weiterführende Informationen zum KI-Assistenten finden Sie im <a href="../email/generative-lp.md">entsprechenden Handbuch</a>.</p>
 </td>
