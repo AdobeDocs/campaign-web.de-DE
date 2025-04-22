@@ -3,10 +3,10 @@ audience: end-user
 title: Verwenden der Workflow-Aktivität „Datei laden“
 description: So verwenden Sie die Workflow-Aktivität „Datei laden“
 exl-id: 230177e2-1926-451a-8a66-0db962ada514
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: b94c1263ea09c9537d1a33983ea78d41b5644fb7
 workflow-type: tm+mt
-source-wordcount: '1241'
-ht-degree: 78%
+source-wordcount: '1264'
+ht-degree: 76%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 78%
 Die Aktivität **Datei laden** ist eine **Daten-Management**-Aktivität. Mit dieser Aktivität können Sie mit Profilen und Daten arbeiten, die in einer externen Datei gespeichert sind. Profile und Daten werden nicht zur Datenbank hinzugefügt, aber alle Felder in der Eingabedatei sind verfügbar zur [Personalisierung](../../personalization/gs-personalization.md) oder um Profile oder andere Tabellen zu aktualisieren.
 
 >[!NOTE]
->Unterstützte Dateiformate sind: Text (TXT) und kommagetrennte Werte (CSV). Sie können Dateien mit einer maximalen Größe von 50 MB laden.
+>Unterstützte Dateiformate sind: Text (TXT) und kommagetrennte Werte (CSV). Mit der Web-Benutzeroberflächen-Konsole können Sie Dateien mit einer maximalen Größe von 50 MB laden. In der Client-Konsole ist das Laden von Daten auf 150 MB beschränkt. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/load-file.html){target="_blank"}
 
 Diese Aktivität kann mit einer [Abstimmungs](reconciliation.md)-Aktivität verwendet werden, um nicht identifizierte Daten mit vorhandenen Ressourcen zu verknüpfen. Zum Beispiel kann die Aktivität **Datei laden** vor dem Import nicht standardmäßiger Daten in die Datenbank vor einer **Abstimmungs**-Aktivität platziert werden.
 
