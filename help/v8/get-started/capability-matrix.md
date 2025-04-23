@@ -3,10 +3,10 @@ audience: end-user
 title: Funktionsmatrix für die Benutzeroberfläche/Client-Konsole von Campaign Web
 description: Liste der in der Campaign Web-Benutzeroberfläche unterstützten Funktionen
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 031d157feb122283c0b9bec24fb3ffafc3e63297
 workflow-type: tm+mt
-source-wordcount: '2102'
-ht-degree: 50%
+source-wordcount: '2072'
+ht-degree: 47%
 
 ---
 
@@ -103,12 +103,18 @@ Typologieregeln können für einen Versand oder eine Versandvorlage in der Web-B
 
 Verwenden Sie die bereitgestellten Links, um die Dokumentation zu Campaign v8 (Client-Konsole) zu durchsuchen und mehr über Typologieregeln zu erfahren:
 
-* Erstellung von Kontrollregeln. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html?lang=de){target="_blank"}
+<!--
+* Control rules creation. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html){target="_blank"}
+-->
 * Erstellung von Ermüdungs-/Druckregeln. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=de){target="_blank"}
-* Erstellung von Filterregeln. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/filtering-rules.html?lang=de){target="_blank"}
-* Verwaltung von Typologieregeln. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/apply-rules.html?lang=de){target="_blank"}
+<!--
+* Filtering rules creation. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/filtering-rules.html){target="_blank"}
+* Typology rules management. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/apply-rules.html){target="_blank"}
+-->
 * Kampagnensimulation. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-simulations.html?lang=de){target="_blank"}
-* JavaScript-Kodierung für die Erstellung von Typologieregeln. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=de#use-cases-on-pressure-rules){target="_blank"}
+<!--
+* JavaScript coding for typology rules authoring. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html#use-cases-on-pressure-rules){target="_blank"}
+-->
 
 ## Workflows {#wf-capabilities}
 
@@ -116,16 +122,19 @@ Die neue Campaign-Web-Benutzeroberfläche bietet eine neu gestaltete Workflow-Ar
 
 Beachten Sie, dass die folgenden Funktionen nur in der Campaign-Client-Konsole verfügbar sind:
 
-* Skripterstellung in Workflows
+<!--
+* Scripting in workflows
+-->
+
 * ETL-Aktivitäten: exportieren, Schema bearbeiten, laden, Datenextraktion, SQL-Code
 
-Weitere Informationen über verfügbare Workflow-Aktivitäten finden Sie [hier](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/activities.html?lang=de){target="_blank"} in der Dokumentation zum Adobe Campaign v8-Workflow (Konsole).
+Weitere Informationen zu verfügbaren Workflow-Aktivitäten finden Sie in der Dokumentation zum Workflow von Adobe Campaign v8 (Konsole[ (hier](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/activities.html?lang=de){target="_blank"}.
 
 ## Angebotsverwaltung {#offer-capabilities}
 
 Sie können in die in der Adobe Campaign-Web-Benutzeroberfläche erstellten Sendungen auch Angebote einfügen. Diese Angebote müssen in der Client-Konsole mit dem Modul **[!UICONTROL Interaktion]** erstellt worden sein. Angebotsdesign, Eignungsregeln und Angebotsverwaltung sind nur in der Client-Konsole von Campaign verfügbar. [Weitere Informationen](../msg/offers.md)
 
-Wie Sie einen Angebotskatalog verwalten, erfahren Sie in der [Dokumentation zu Campaign v8 (Client-Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=de){target="_blank"}.
+Wie Sie einen Angebotskatalog verwalten, erfahren Sie in der Dokumentation [Campaign v8 (Client-Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=de){target="_blank"}.
 
 ## Integrationen mit Adobe Experience Cloud-Lösungen {#exc-capabilities}
 
@@ -164,7 +173,7 @@ Die Erstellung, Änderung und Erweiterung von Schemata sind auf erfahrene Benutz
 
 ### Daten-Management-Funktionen von Workflows {#data}
 
-Das Daten-Management kombiniert eine Reihe von Aktivitäten zur Lösung komplexer Targeting-Probleme mit effizienteren und flexibleren Tools wie Laden der Daten, Extraktion (Datei), Daten-Update, Schemabearbeitung oder technische Import/Export-Workflows. [Weitere Informationen zu den Daten-Management-Funktionen von Workflows in der Client-Konsole](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html?lang=de#data-management){target="_blank"}
+Das Daten-Management kombiniert eine Reihe von Aktivitäten zur Lösung komplexer Targeting-Probleme mit effizienteren und flexibleren Tools wie Laden der Daten, Extraktion (Datei), Daten-Update, Schemabearbeitung oder technische Import/Export-Workflows. [Entdecken Sie die Funktionen für das Daten-Management von Workflows in der Client-Konsole](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html?lang=de#data-management){target="_blank"}
 
 >[!NOTE]
 >
@@ -183,7 +192,7 @@ Die Konfiguration und Verbindung von Campaign mit externen Systemen ist erfahren
 
 Die Web-Benutzeroberfläche von Campaign bietet keine Oberfläche für die Validierungsverwaltung für Inhalte, Sendungen, Workflows, Kampagnen und Zielgruppen. Sie sind nur in der Client-Konsole verfügbar.
 
-Wie Sie Genehmigungen in Workflows verwalten, erfahren Sie in der [Dokumentation zu Campaign v8 (Client-Konsole)](https://experienceleague.adobe.com/docs/campaign/automation/workflows/executing-a-workflow/define-approvals.html?lang=de){target="_blank"}.
+Wie Sie Validierungen in Workflows verwalten, erfahren Sie in der [Dokumentation zu Campaign v8 (Client-Konsole)](https://experienceleague.adobe.com/docs/campaign/automation/workflows/executing-a-workflow/define-approvals.html?lang=de){target="_blank"}.
 
 Erfahren Sie in der Dokumentation zu Campaign v8 (Client[Konsole) , wie Sie die Validierungen für Versand, Inhalte und Zielgruppen in Kampagnen ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-approval.html?lang=de){target="_blank"}.
 
