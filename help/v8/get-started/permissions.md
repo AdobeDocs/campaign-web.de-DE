@@ -4,44 +4,44 @@ title: Berechtigungsverwaltung in der Campaign Web-Benutzeroberfläche
 description: Erfahren Sie mehr über Berechtigungen in der Campaign Web-Benutzeroberfläche
 exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '239'
-ht-degree: 14%
+ht-degree: 100%
 
 ---
 
 # Berechtigungen {#permissions}
 
-Jeder Anwender in Adobe Campaign verfügt über bestimmte Berechtigungen und Einschränkungen in der Anwendung. Der Benutzer kann einer Benutzergruppe angehören und die Berechtigungen der Gruppe übernehmen.
+Jede Benutzerin und jeder Benutzer in Adobe Campaign hat spezifische Berechtigungen und Einschränkungen in der Anwendung. Benutzerinnen und Benutzer können zu einer Benutzergruppe gehören und die Berechtigungen der Gruppe erben.
 
-Basierend auf ihren Berechtigungen kann ein Benutzer:
+Benutzerinnen und Benutzer haben je nach Berechtigung:
 
-* Zugriff auf bestimmte Funktionen
+* Zugriff auf bestimmte Fähigkeiten
 * Zugriff auf bestimmte Daten
 * Zugriff auf bestimmte Aktionen (Erstellen, Ändern, Löschen)
 
-Eine ausführliche Anleitung zum Einrichten von Berechtigungen in Adobe Campaign finden Sie in der Dokumentation zu [Adobe Campaign v8 (Konsole)](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/admin/permissions/gs-permissions){target="_blank"}.
+Detaillierte Anweisungen zum Festlegen von Berechtigungen in Adobe Campaign sind in der [Dokumentation zu Adobe Campaign v8 (Konsole)](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/admin/permissions/gs-permissions){target="_blank"} verfügbar.
 
 ## Berechtigungen für Ordner {#folder-permissions}
 
-Basierend auf Ihren Rechten können Sie Berechtigungen für Ordner in den **[!UICONTROL Ordnereinstellungen“ anzeigen und]**.
+Basierend auf Ihren Berechtigungen können Sie die Berechtigungen für Ordner in den **[!UICONTROL Ordnereinstellungen]** anzeigen und verwalten.
 
-Nachfolgend finden Sie ein Beispiel für einen Versandordner:
+Hier ist ein Beispiel für einen Versandordner:
 
 ![Beispiel für Ordnereinstellungen in Adobe Campaign](assets/folder_settings.png){zoomable="yes"}
 
-Im Abschnitt **[!UICONTROL Sicherheit]** der **[!UICONTROL Ordnereinstellungen]** können Sie Benutzer oder Gruppen anzeigen und verwalten (hinzufügen oder löschen), die auf den Ordner zugreifen können.
+Unter **[!UICONTROL Ordnereinstellungen]** können Sie im Abschnitt **[!UICONTROL Sicherheit]** Benutzende oder Gruppen, die Zugriff auf den Ordner haben, anzeigen und verwalten (hinzufügen oder löschen).
 
-![Beispiel für Ordnersicherheitseinstellungen in Adobe Campaign](assets/folder_security.png){zoomable="yes"}
+![Beispiel für die Sicherheitseinstellungen eines Ordners in Adobe Campaign](assets/folder_security.png){zoomable="yes"}
 
-Sie können direkt auf die Berechtigungen klicken und sie entweder in &quot;**[!UICONTROL &quot;]** &quot;**[!UICONTROL &quot;]**.
+Sie können direkt auf die Berechtigungen klicken und sie entweder in **[!UICONTROL Zulässig]** oder **[!UICONTROL Abgelehnt]** ändern.
 
-![Beispiel für verweigerte Berechtigungen in Ordnersicherheitseinstellungen](assets/folder_security_denied.png){zoomable="yes"}
+![Beispiel für abgelehnte Berechtigungen in den Sicherheitseinstellungen eines Ordners](assets/folder_security_denied.png){zoomable="yes"}
 
-Wenn die **[!UICONTROL Propagieren]**-Option aktiviert ist, gelten alle für einen Ordner definierten Berechtigungen für alle zugehörigen Unterordner. Diese Berechtigungen können für jeden Unterordner überschrieben werden.
+Wenn die Option **[!UICONTROL Ausdehnen]** aktiviert ist, werden alle für einen Ordner definierten Berechtigungen auf alle zugehörigen Unterordner angewendet. Diese Berechtigungen können für jeden Unterordner überschrieben werden.
 
-Wenn die Option **[!UICONTROL Systemordner]** ausgewählt ist, wird der Zugriff allen Benutzern unabhängig von ihren Berechtigungen gewährt.
+Wenn die Option **[!UICONTROL Systemordner]** aktiviert ist, haben alle Benutzenden unabhängig von ihren Berechtigungen Zugriff.
 
 Sie können auch [die Berechtigungen für Ordner in der Adobe Campaign-Konsole verwalten](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/admin/permissions/folder-permissions){target="_blank"}.
 
-Alle Berechtigungen in der Web-Benutzeroberfläche von Campaign werden mit den Berechtigungen der Campaign-Client-Konsole synchronisiert.
+Alle Berechtigungen in der Benutzeroberfläche von Campaign Web werden mit den Berechtigungen der Campaign-Client-Konsole synchronisiert.

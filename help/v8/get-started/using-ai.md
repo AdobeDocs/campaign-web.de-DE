@@ -6,30 +6,30 @@ hide: true
 hidefromtoc: true
 exl-id: 577f4652-b3e5-4fa1-9a98-91815fe92d83
 source-git-commit: b2de0d0061e5c2b582c3e73ccaf2dab1490cc854
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '508'
-ht-degree: 14%
+ht-degree: 100%
 
 ---
 
 # KI-gestützte Kontexthilfe {#using-ai}
 
-Erhalten Sie schnelle, KI-generierte Antworten, die auf der Produktdokumentation und Ihrem aktuellen Produktkontext basieren, mithilfe der kontextuellen Hilfe mit Fragen und Antworten, die auf KI basiert und in den kontextuellen Hilfefeldern des Produkts verfügbar ist.
+Die KI-gestützte Kontexthilfe für Fragen und Antworten in den Produkt-Kontexthilfefeldern liefert Ihnen schnelle KI-gestützte Antworten auf Grundlage der Produktdokumentation und Ihres aktuellen Produktkontexts.
 
-Die **Kontextuelle Hilfe mit Gen AI**, die in die kontextuelle Hilfe eingebettet ist, revolutioniert die Dokumentationssuche und die Beantwortung von Anleitungsfragen, indem sie mühelos durch riesige Dokumentations-Repositorys navigiert und sofort die genauen Informationen identifiziert, die Sie benötigen.
+Die in die Kontexthilfe integrierte **Kontexthilfe mit generativer KI** revolutioniert die Durchsuchung von Dokumenten und Beantwortung von Fragen, indem sie riesige Dokumentations-Repositorys mühelos durchsucht und die gewünschten Informationen unverzüglich anzeigt.
 
-Dank der Funktionen der KI von Campaign Gen verbessert diese Komponente Ihr Erlebnis, sodass der Abruf von Informationen und die Problemlösung einfach sind. Egal, ob Sie Anleitung für eine komplexe Aufgabe suchen oder durch umfangreiche Dokumente navigieren, die KI-gestützte kontextuelle Hilfe dient als ultimativer Begleiter und bietet unübertroffene Effizienz und Genauigkeit in jeder Interaktion.
+Dank der Funktionen für generative KI von Campaign optimiert diese Komponente Ihr Erlebnis und macht das Abrufen von Informationen und die Problembehebung zu einem Kinderspiel. Ob Sie Hilfe bei einer komplexen Aufgabe oder beim Navigieren durch umfangreiche Dokumente brauchen – unsere KI-gestützte Kontexthilfe ist Ihr ultimativer Begleiter und bietet Ihnen bei jeder Interaktion höchste Effizienz und Präzision.
 
 <!--
 [Animation showing AI-powered contextual help in action](assets/do-not-localize/CH+AI-BETA.gif)-->
 
 >[!AVAILABILITY]
 >
->* Die KI-gestützte kontextuelle Hilfe ist in der Beta-Version verfügbar und kann ohne vorherige Ankündigung geändert werden.
+>* Die KI-gestützte Kontexthilfe ist als Beta-Version verfügbar und kann ohne vorherige Ankündigung geändert werden.
 >
->* Diese Funktion ist nur auf **Englisch** verfügbar. Andere Sprachen werden in dieser Version nicht unterstützt. Stellen Sie daher sicher, [Ihre bevorzugte Sprache](connect-to-campaign.md#language-pref) auf Englisch eingestellt ist, bevor Sie diese Funktion verwenden.
+>* Diese Funktion ist nur auf **Englisch** verfügbar. Andere Sprachen werden in dieser Version nicht unterstützt. Vergewissern Sie sich deshalb, dass [Ihre bevorzugte Sprache](connect-to-campaign.md#language-pref) auf Englisch eingestellt ist, bevor Sie diese Funktion nutzen.
 >
->* KI-gestützte kontextuelle Hilfe ist derzeit in Campaign Email Designer nicht verfügbar.
+>* Die KI-gestützte Kontexthilfe ist derzeit im E-Mail-Designer von Campaign nicht verfügbar.
 
 <!--
 ## Consent {#consent-ai}
@@ -47,32 +47,32 @@ For information specific to Adobe AI policies in Experience Cloud apps and solut
 
 ## Vorgeschlagene Fragen {#questions-ai}
 
-Aus dem Eingabefeld bietet die von Adobe Campaign KI unterstützte kontextuelle Hilfe drei vorgeschlagene Fragen. Diese Fragen werden von KI generiert, beziehen sich auf das Hilfefeld und sind an den aktuellen Produktkontext angepasst. Wählen Sie eine Frage aus, um die Antwort zu erhalten.
+Im Eingabefeld bietet die KI-gestützte Kontexthilfe von Adobe Campaign drei vorgeschlagene Fragen. Diese Fragen werden von KI generiert, beziehen sich auf das Hilfefeld und sind auf den aktuellen Produktkontext ausgerichtet. Wählen Sie eine Frage aus, um die Antwort zu erhalten.
 
-[Beispiel für empfohlene Fragen in der kontextuellen Hilfe](assets/do-not-localize/suggested-questions.png){width="600" align="left"}{zoomable="yes"}
+[Beispiel für vorgeschlagene Fragen in der Kontexthilfe](assets/do-not-localize/suggested-questions.png){width="600" align="left"}{zoomable="yes"}
 
 ## Antworten {#answers-ai}
 
-Die KI-gestützte Kontexthilfe von Adobe Campaign bietet Unterstützung, aber Sie sollten dennoch die Fakten überprüfen. Sie kann falsche, ungenaue oder irreführende Informationen ausgeben. Überprüfen Sie immer die Produktdokumentation, die in jedem Hilfefeld verknüpft ist.
+Die KI-gestützte Kontexthilfe von Adobe Campaign bietet Unterstützung, aber Sie sollten dennoch die Fakten überprüfen. Ihre Antworten können falsche, ungenaue oder irreführende Informationen enthalten. Überprüfen Sie stets die Produktdokumentation, die in jedem Hilfefeld verlinkt ist.
 
-Kopieren Sie eine Antwort in die Zwischenablage mithilfe des **Kopieren**-Symbols unten im Hilfe-Pop-up.
+Kopieren Sie eine Antwort mithilfe des Symbols **Kopieren** am unteren Rand des Hilfe-Popups in die Zwischenablage.
 
-[Beispiel für das Kopieren einer Antwort in der kontextuellen Hilfe](assets/do-not-localize/copy-answer.png){width="600" align="left"}{zoomable="yes"}
+[Beispiel für das Kopieren einer Antwort in der Kontexthilfe](assets/do-not-localize/copy-answer.png){width="600" align="left"}{zoomable="yes"}
 
 ## Feedback {#feedback-ai}
 
-Künstliche Intelligenz und Modelle des maschinellen Lernens werden im Laufe der Zeit verbessert, um besser auf bestimmte Anwendungsfälle einzugehen. Die KI-gestützte kontextuelle Hilfe von Campaign verbessert sich weiter. Verwenden des <img src="assets/do-not-localize/thumb.png" width="10%"/> Schaltflächen, wenn Sie eine Antwort lesen, um unangemessene Antworten auf unsere Techniker zu kennzeichnen.
+Künstliche Intelligenz und Modelle des maschinellen Lernens werden im Laufe der Zeit verbessert, um besser auf bestimmte Anwendungsfälle einzugehen. Die KI-gestützte Kontexthilfe von Campaign wird kontinuierlich verbessert. Verwenden Sie die <img src="assets/do-not-localize/thumb.png" width="10%"/>-Schaltflächen, wenn Sie eine Antwort lesen, um unser technisches Personal auf unangemessene Antworten hinzuweisen.
 
 ## Empfehlungen {#recommendations-ai}
 
-Wenn Sie in der KI-gestützten kontextuellen Hilfe eine Frage stellen, wird der aktuelle Produktkontext berücksichtigt, z. B. der Bildschirm, in dem Sie sich befinden, und der Inhalt des aktuellen Hilfefelds.
+Wenn Sie in der KI-gestützten Kontexthilfe eine Frage stellen, werden der aktuelle Produktkontext, d. h. der Bildschirm, auf dem Sie sich befinden, und der Inhalt des aktuellen Hilfefelds berücksichtigt.
 
-Daher empfiehlt es sich, Fragen zum Kontext der Benutzeroberfläche zu stellen. Wenn Sie z. B. lernen möchten, wie ein Push-Versand in einem Workflow gesendet wird, gehen Sie zum linken **Workflow** und verwenden Sie in diesem Kontext ein kontextuelles Hilfefeld. Um mehr über Reporting-Metriken zu erfahren, gehen Sie zu Kampagnen- oder Versandberichten und beginnen Sie dort.
+Daher lautet die Best Practice, Fragen in Bezug auf den Kontext der Benutzeroberfläche zu stellen. Wenn Sie beispielsweise erfahren möchten, wie Sie einen Push-Versand in einem Workflow senden, navigieren Sie zum Eintrag **Workflow** im linken Menü und verwenden Sie in diesem Kontext ein kontextbezogenes Hilfefeld. Um mehr über Berichtsmetriken zu erfahren, navigieren Sie zu den Kampagnen- oder Versandberichten und beginnen Sie von dort aus.
 
-Um die Vorteile der KI-gestützten kontextuellen Hilfe zu maximieren, befolgen Sie die folgenden Empfehlungen:
+Zur Maximierung der Vorteile der KI-gestützten Kontexthilfe wird Folgendes empfohlen:
 
-* Präzise und präzise sein und Unklarheiten vermeiden. Präzise Antworten hängen von klaren Fragen ab.
-* Geben Sie detaillierte Informationen darüber ein, was Sie lernen möchten, um der KI-gestützten kontextuellen Hilfe zu helfen, die richtigen Informationen zu finden.
-* Formulieren und verfeinern Sie Ihre Fragen, um die Genauigkeit der Antworten zu verbessern. Wenn die Antwort nicht hilfreich ist, probieren Sie verschiedene Ansätze aus und fügen Sie Kontext hinzu.
-* Verwenden Sie geeignete Begriffe und Formulierungen mit einem neutralen Ton.
-* Bewerten Sie die Antworten und geben Sie Feedback, damit Ingenieure die Ergebnisse verbessern können.
+* Seien Sie präzise und spezifisch und vermeiden Sie Zweideutigkeiten. Genaue Antworten hängen von eindeutigen Fragen ab.
+* Geben Sie detaillierte Informationen dazu an, was Sie lernen möchten, damit die KI-gestützte Kontexthilfe die richtigen Informationen leichter finden kann.
+* Durch Umformulieren und Präzisieren Ihrer Fragen kann die Genauigkeit der Antworten verbessert werden. Wenn die Antwort nicht präzise ist, versuchen Sie verschiedene Ansätze und fügen Sie mehr Kontext hinzu.
+* Verwenden Sie geeignete Begriffe und Formulierungen mit neutralem Ton.
+* Bewerten Sie die Antworten und geben Sie Feedback, damit unser technisches Personal die Ergebnisse verbessern kann.
