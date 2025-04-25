@@ -5,7 +5,7 @@ exl-id: 430dc1ba-dfa9-4d51-b4ed-f3f048da6ec0
 source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
 workflow-type: tm+mt
 source-wordcount: '2501'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -156,7 +156,7 @@ Sie können nun Rich-Push-Benachrichtigungen senden. Eine Rich-Push-Benachrichti
 
 >[!AVAILABILITY]
 >
->Diese Funktion erfordert eine Aktualisierung auf Campaign v8.6.3 <!--or v8.7.2-->. Weitere Informationen finden Sie in den Versionshinweisen zur Client[Konsole von Campaign v8](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/releases/release-notes){target="_blank"}.
+>Diese Funktion erfordert eine Aktualisierung auf Campaign v8.6.3 <!--or v8.7.2-->. Weitere Informationen finden Sie in den [Versionshinweisen](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/releases/release-notes){target="_blank"} zur Client-Konsole von Campaign v8.
 
 ### Verbesserungen {#improvements-24-7}
 
@@ -272,7 +272,7 @@ Die folgenden Verbesserungen stehen allen Kundinnen und Kunden ab der April-Vers
 
 >[!AVAILABILITY]
 >
->Diese Version steht allen Benutzenden ab [Campaign-Version (Konsole) v8.6](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=de) zur Verfügung. Weitere Informationen zu Versionen und Upgrades der Adobe Campaign-Client-Konsole finden Sie in [ Dokumentation zu Campaign v8 (Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/upgrades.html?lang=de){target="_blank"}.
+>Diese Version steht allen Benutzenden ab [Campaign-Version (Konsole) v8.6](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=de) zur Verfügung. Weitere Informationen zu Versionen und Upgrades der Adobe Campaign-Client-Konsole finden Sie in der [Dokumentation zu Campaign v8 (Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/upgrades.html?lang=de){target="_blank"}.
 
 **Veröffentlichungsdatum**: 19.–20. März 2024
 

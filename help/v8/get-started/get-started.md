@@ -6,7 +6,7 @@ exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '566'
-ht-degree: 28%
+ht-degree: 100%
 
 ---
 
@@ -27,25 +27,25 @@ ht-degree: 28%
 >title="Erste Schritte"
 >abstract="Die neue Adobe Campaign Web-Schnittstelle bietet ein integriertes, intuitives und konsistentes Benutzererlebnis."
 
-Adobe Campaign bietet eine Plattform für die Gestaltung kanalübergreifender Kundenerlebnisse und eine Umgebung für die visuelle Kampagnenorchestrierung, die Echtzeit-Interaktionsverwaltung und die kanalübergreifende Ausführung.
+Adobe Campaign bietet eine Plattform für die Gestaltung kanalübergreifender Kundenerlebnisse und eine Umgebung für visuelle Kampagnenorchestrierungen, Interaktions-Management in Echtzeit und kanalübergreifende Ausführung.
 
-Adobe Campaign v8 ist das Campaign-Tool der nächsten Generation, das für verschiedene Marketing-Kanäle wie E-Mail, Push-Benachrichtigungen, SMS und Briefpost entwickelt wurde. Adobe Campaign v8 bietet zuverlässige ETL- und Daten-Management-Funktionen, mit denen Sie die perfekte Kampagne erstellen und kuratieren können. Die Orchestrierungs-Engine ermöglicht umfangreiche Multitouch-Marketing-Programme mit einem Schwerpunkt auf Batch-gesteuerten Journey. Dazu gehört auch ein skalierbarer Echtzeit-Messaging-Server, der es Marketing-Teams ermöglicht, vordefinierte Nachrichten basierend auf einer umfassenden Payload von jedem IT-System für Kommunikationen wie Passwortrücksetzungen, Bestellbestätigungen, E-Quittungen und vieles mehr zu senden.
+Adobe Campaign v8 ist das Kampagnen-Tool der nächsten Generation und wurde für verschiedene Marketing-Kanäle wie E-Mail, Push-Benachrichtigungen, SMS und Direkt-Mail entwickelt. Adobe Campaign v8 bietet zuverlässige ETL- und Daten-Management-Funktionen, mit denen Sie die perfekte Kampagne erstellen und kuratieren können. Die Orchestrierungs-Engine ermöglicht umfassende Multi-Touch-Marketing-Programme mit einem Schwerpunkt auf Batch-gesteuerten Journeys. Darüber hinaus umfasst es einen skalierbaren Echtzeit-Messaging-Server, mit dem Marketing-Teams vordefinierte Nachrichten basierend auf einer umfassenden Payload von jedem IT-System aus versenden können, beispielsweise für das Zurücksetzen von Passwörtern, Bestellbestätigungen, elektronische Empfangsbestätigungen und vieles mehr.
 
 Mit Campaign haben Sie folgende Möglichkeiten:
 
-* **Personalisierung** Interaktion mit der Hilfe einer umfassenden, zentralen Sicht auf den Kunden fördern.
-* **Integration** von E-Mail-, Mobile-, Online- und Offline-Kanälen in die Kunden-Journey.
-* **Automatisieren** Versand von aussagekräftigen und zeitnahen Nachrichten und Angeboten.
+* **Fördern** von Personalisierung und Interaktion mithilfe einer umfassenden, zentralen Sicht auf Kundinnen und Kunden
+* **Integrieren** von E-Mail-, Mobile-, Online- und Offline-Kanälen in die Customer Journey
+* **Automatisieren** des Versands aussagekräftiger, zeitlich optimal abgestimmter Nachrichten und Angebote 
 
 ## Funktionsweise der Campaign Web-Benutzeroberfläche {#web}
 
-Ursprünglich nur über eine umfangreiche [Client-Konsole](#ac-client) verfügbar, bietet Campaign jetzt eine neue Web-Benutzeroberfläche (UI) mit verbesserter Benutzerfreundlichkeit, Barrierefreiheit und einem neuen Design, um das Anwendererlebnis deutlich zu verbessern. Diese moderne Benutzeroberfläche vereinfacht die Gestaltung und den Versand von Marketing-Kampagnen und sorgt für Konsistenz mit anderen Adobe-Lösungen, einschließlich Adobe Experience Platform.
+Campaign war ursprünglich nur über eine umfangreiche [Client-Konsole](#ac-client) verfügbar, bietet jetzt aber eine neue Web-Benutzeroberfläche mit mehr Benutzerfreundlichkeit, Barrierefreiheit und einem neuen Design, um das Anwendererlebnis deutlich zu verbessern. Diese moderne Benutzeroberfläche vereinfacht die Gestaltung und den Versand von Marketing-Kampagnen und sorgt für Konsistenz mit anderen Adobe-Lösungen, einschließlich Adobe Experience Platform.
 
-![Screenshot des Startbildschirms der Adobe Campaign-Web-Benutzeroberfläche](assets/home.png){zoomable="yes"}
+![Screenshot des Startbildschirms der Adobe Campaign Web-Benutzeroberfläche](assets/home.png){zoomable="yes"}
 
-Diese neue Web-Benutzeroberfläche erfüllt in erster Linie die Anforderungen von **Business Practitioners**. Typische Administrationsaufgaben sind in dieser ersten Version nicht verfügbar, werden aber in späteren Versionen berücksichtigt. Beachten Sie, dass derzeit nicht alle in der Client-Konsole verfügbaren Funktionen oder Optionen in der neuen Benutzeroberfläche verfügbar sind. In zukünftigen Versionen werden neue Anwendungsfälle, Optionen und Funktionen eingeführt.
+Diese neue Web-Benutzeroberfläche erfüllt in erster Linie die Anforderungen von **Business-Anwendenden**. Typische Administrationsaufgaben sind in dieser ersten Version nicht verfügbar, werden aber in nachfolgenden Versionen berücksichtigt. Beachten Sie, dass in der neuen Benutzeroberfläche derzeit nicht alle Funktionen und Optionen der Client-Konsole verfügbar sind. In zukünftigen Versionen werden neue Anwendungsfälle, Optionen und Funktionen zur Verfügung gestellt.
 
-Wenn Sie als Administrator oder erfahrener Benutzer auf Campaign v8-Funktionen zugreifen müssen, die nicht in der Campaign Web-Benutzeroberfläche verfügbar sind, stellen Sie eine Verbindung zur [Client-Konsole](#ac-client) her.
+Wenn Admins oder erfahrene Benutzende auf Funktionen von Campaign v8 zugreifen möchten, die nicht in der Campaign Web-Benutzeroberfläche verfügbar sind, können sie sich mit der [Client-Konsole](#ac-client) verbinden.
 
 Auf [dieser Seite](connect-to-campaign.md) finden Sie Informationen dazu, wie Sie eine Verbindung zu Adobe Campaign Web herstellen können.
 
@@ -53,13 +53,13 @@ Auf [dieser Seite](connect-to-campaign.md) finden Sie Informationen dazu, wie Si
 
 ## Über die Campaign-Client-Konsole {#ac-client}
 
-Die Client-Konsole ist für Admins und erfahrene Benutzende zur Ausführung ihrer Aufgaben vorgesehen. Die Campaign-Client-Konsole ist eine Browser-basierte Anwendung, die auf Ihrem System installiert ist. Sie nutzt die Web-Services-API, um eine Verbindung zu Ihrem Campaign-Anwendungs-Server herzustellen.
+Die Client-Konsole ist für Admins und erfahrene Benutzende zur Ausführung ihrer Aufgaben vorgesehen. Die Campaign-Client-Konsole ist eine Browser-basierte Anwendung, die auf Ihrem System installiert ist. Sie nutzt das Web-Services-API, um eine Verbindung zu Ihrem Campaign-Anwendungs-Server herzustellen.
 
-Kampagnendaten werden auf dem Anwendungs-Server gespeichert. Die Daten sind sowohl über die Client-Konsole als auch über die Campaign Web-Benutzeroberfläche zugänglich. Wenn Sie beispielsweise eine Versandvorlage mithilfe der Client-Konsole erstellen, ist diese auch in der Web-Benutzeroberfläche von Campaign verfügbar. Wenn Sie in der Web-Benutzeroberfläche von Campaign einen E-Mail-Versand erstellen, kann dieser Versand über die Client-Konsole aufgerufen werden.
+Kampagnendaten werden auf dem Anwendungs-Server gespeichert. Auf Daten kann sowohl über die Client-Konsole als auch über die Campaign Web-Benutzeroberfläche zugegriffen werden. Wenn Sie beispielsweise eine Versandvorlage mithilfe der Client-Konsole erstellen, ist diese ebenfalls in der Campaign Web-Benutzeroberfläche verfügbar. Ist in der Campaign Web-Benutzeroberfläche ein E-Mail-Versand eingerichtet, kann diese Versandart wiederum über die Client-Konsole aufgerufen werden.
 
-Einige Objekte können nur in der Client-Konsole erstellt und verwaltet werden. Diese Objekte können in der Web-Benutzeroberfläche von Campaign angezeigt und verwendet werden, können jedoch nicht in dieser Umgebung erstellt oder geändert werden. Alle Campaign-Objekte und -Komponenten sind in der Explorer-Ansicht verfügbar, auf die über die linke Navigation zugegriffen werden kann.
+Einige Objekte können nur in der Client-Konsole erstellt und verwaltet werden. Sie können in der Campaign Web-Benutzeroberfläche angezeigt und verwendet, aber nicht in dieser Umgebung erstellt oder geändert werden. Alle Campaign-Objekte und -Komponenten stehen in der Explorer-Ansicht zur Verfügung, auf die über den linken Navigationsbereich zugegriffen werden kann.
 
-Weitere Informationen zur Verwendung von Campaign v8 mit der Client-Konsole finden Sie in der [ zu Campaign v8 (Client-Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=de){target="_blank"}.
+Weitere Informationen zur Verwendung von Campaign v8 mit der Client-Konsole finden Sie in der [Dokumentation zu Campaign v8 (Client-Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=de){target="_blank"}.
 
 <!--
 ## How-to video {#video}

@@ -6,16 +6,16 @@ exl-id: a5b966bb-09da-4a50-98d4-010fdfbb75cf
 source-git-commit: d7fc756b2e1d94b43c76ced748e1bf7c7ae5da0d
 workflow-type: tm+mt
 source-wordcount: '409'
-ht-degree: 61%
+ht-degree: 95%
 
 ---
 
 
 # Erste Schritte mit dem E-Mail-Designer {#get-started-email-designer}
 
-Nachdem Sie eine E-Mail in Adobe Campaign erstellt haben, müssen Sie ihren Inhalt definieren.
+Nach der Erstellung einer E-Mail in Adobe Campaign müssen Sie deren Inhalt definieren.
 
-Mit dem E-Mail-Designer können Sie über eine intuitive Drag-and-Drop-Oberfläche überzeugende, individuell zugeschnittene E-Mails erstellen. Egal, ob Sie bei null anfangen, vorhandene Inhalte importieren oder vorhandene Vorlagen nutzen, entwerfen und verfeinern Sie alle Inhalte für jede E-Mail, egal ob für Werbeaktionen oder Transaktionen.
+Mit dem E-Mail-Designer können Sie über eine intuitive Drag-and-Drop-Oberfläche überzeugende, individuell zugeschnittene E-Mails erstellen. Egal, ob Sie bei null anfangen, vorhandene Inhalte importieren oder Vorlagen nutzen, Sie können für jede E-Mail alle Inhalte gestalten und präzisieren. Dies gilt sowohl für Promotions als auch für Transaktionen.
 
 <!--Built to deliver HTML optimized for responsive design, the Email Designer allows you to easily define and apply visibility conditions and dynamic content to an email, template, or content fragment directly through the user interface. You can seamlessly switch between the drag and drop interface and HTML code at the click of a button.
 
@@ -23,13 +23,13 @@ The Email Designer allows you to create email content and email content template
 
 * Verwenden Sie die Fähigkeiten zur E-Mail-Gestaltung von [!DNL Campaign], um auf einfache Weise responsive E-Mails zu erstellen. [Weitere Informationen](create-email-content.md)
 
-* Verbessern Sie das Kundenerlebnis, indem Sie personalisierte E-Mails auf der Basis von Kundenprofil-Attributen erstellen. [Weitere Informationen](../personalization/personalize.md)
+* Verbessern Sie das Kundenerlebnis, indem Sie personalisierte Inhalte basierend auf den Profilattributen der Kundinnen und Kunden erstellen. [Weitere Informationen](../personalization/personalize.md)
 
 * Konfigurieren Sie bedingte Inhaltsfelder, um eine dynamische Personalisierung basierend auf dem Empfängerprofil zu erstellen. [Weitere Informationen](../personalization/conditions.md)
 
 ## Best Practices für die E-Mail-Gestaltung {#best-practices}
 
-Beachten Sie beim Senden von E-Mails, dass Empfängerinnen und Empfänger sie weiterleiten können, was manchmal zu Problemen mit dem Rendering der E-Mail führen kann. Dies gilt insbesondere bei der Verwendung von CSS-Klassen, die von dem für die Weiterleitung verwendeten E-Mail-Anbieter möglicherweise nicht unterstützt werden. Wenn Sie beispielsweise die CSS-Klasse „is-desktop-hidden“ verwenden, um ein Bild auf Mobilgeräten auszublenden, wird es möglicherweise nicht korrekt gerendert.
+Beachten Sie beim Senden von E-Mails, dass die Empfängerinnen und Empfänger sie weiterleiten könnten, was manchmal zu Problemen mit dem Rendering der E-Mail führen kann. Dies gilt insbesondere bei der Verwendung von CSS-Klassen, die vom E-Mail-Anbieter, über den die Weiterleitung läuft, möglicherweise nicht unterstützt werden. Wenn Sie beispielsweise die CSS-Klasse „is-desktop-hidden“ verwenden, um ein Bild auf Mobilgeräten auszublenden, wird es möglicherweise nicht korrekt gerendert.
 
 Um diese Rendering-Probleme zu minimieren, empfehlen wir, die Struktur des E-Mail-Designs so einfach wie möglich zu halten. Versuchen Sie, ein einziges Design zu verwenden, das sowohl für Desktop- als auch für Mobilgeräte gut funktioniert, und vermeiden Sie die Verwendung komplexer CSS-Klassen oder anderer Design-Elemente, die möglicherweise nicht von allen E-Mail-Clients vollständig unterstützt werden. Wenn Sie Bilder in Ihren E-Mails verwenden, vermeiden Sie Bilder, die größer als 2 MB sind, oder verwenden Sie kodierte Bild-Links.
 
@@ -43,8 +43,8 @@ Gehen Sie im Dashboard des E-Mail-Versands durch den Bildschirm [Inhalt bearbeit
 
 * **Codieren und Einfügen von rohen HTML-Zeilen** direkt in den E-Mail-Designer. Erfahren Sie in [diesem Abschnitt](code-content.md), wie Sie Ihre eigenen Inhalte codieren. 
 
-* **Importieren von vorhandenen HTML-Inhalten** aus einer Datei oder einem ZIP-Ordner. Erfahren Sie in ([ Abschnitt), wie Sie E-Mail-Inhalte ](existing-content.md).
+* **Importieren von vorhandenen HTML-Inhalten** aus einer Datei oder einem ZIP-Ordner. In [diesem Abschnitt](existing-content.md) erfahren Sie, wie Sie E-Mail-Inhalte importieren.
 
-* **Auswählen eines vorhandenen Inhalts** aus einer Liste integrierter oder benutzerdefinierter Vorlagen. In (diesem Abschnitt) erfahren Sie[ wie Sie mit E-](create-email-templates.md)-Vorlagen arbeiten.
+* **Auswählen eines vorhandenen Inhalts** aus einer Liste integrierter oder benutzerdefinierter Vorlagen. In [diesem Abschnitt](create-email-templates.md) erfahren Sie, wie Sie mit E-Mail-Vorlagen arbeiten.
 
-  ![In der E-Mail-Designer-Benutzeroberfläche verfügbare Optionen zum Erstellen von E-Mail-Inhalten](assets/email_designer_create_options.png){zoomable="yes"}
+  ![Optionen in der E-Mail-Designer-Benutzeroberfläche zum Erstellen von E-Mail-Inhalten](assets/email_designer_create_options.png){zoomable="yes"}
