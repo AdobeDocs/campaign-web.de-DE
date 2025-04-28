@@ -3,10 +3,10 @@ audience: end-user
 title: Arbeiten mit Geschäftsregeln (Typologien)
 description: Erfahren Sie, wie Sie mit Typologien und Typologieregeln arbeiten können, um den Versand von Sendungen zu steuern, zu filtern und zu überwachen.
 exl-id: 54fdd03a-e49d-4f22-b6d4-6055c8922e58
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: f676ecd055cd9b9ea5c0e724c479e9ba6dbda73d
 workflow-type: tm+mt
-source-wordcount: '1425'
-ht-degree: 42%
+source-wordcount: '1474'
+ht-degree: 39%
 
 ---
 
@@ -23,6 +23,11 @@ ht-degree: 42%
 >title="Typologien und Typologieregeln"
 >abstract="Mit Typologien können Sie Geschäftspraktiken für alle Sendungen standardisieren. Eine Typologie ist eine Sammlung von Typologieregeln, mit denen Sie den Versand von Nachrichten steuern, filtern und priorisieren können. Profile, die den Kriterien einer Typologieregel entsprechen, werden während der Vorbereitungsphase aus den Versand-Audiences ausgeschlossen."
 
+>[!CONTEXTUALHELP]
+>id="acw_business_rules_typology_rules_type"
+>title="Filtern"
+>abstract=" Es stehen zwei Arten von Typologieregeln zur Verfügung: <br/><br/>**Kontrolle** Regeln, die die Qualität und Gültigkeit von Nachrichten vor dem Senden sicherstellen, z. B. Zeichenanzeige, SMS-Länge, Adressformat oder URL-Verkürzung. <br/><br/>**Filterregeln** die Segmente der Zielgruppe basierend auf bestimmten Kriterien wie Alter, Standort, Land oder Telefonnummern ausschließen."
+
 ## Über Typologien
 
 Mit Typologien können Sie Geschäftspraktiken für alle Sendungen standardisieren. Eine **Typologie** ist eine Sammlung von **Typologieregeln** mit denen Sie den Versand von Sendungen steuern, filtern und priorisieren können. Profile, die den Kriterien einer Typologieregel entsprechen, werden während der Vorbereitungsphase aus den Versand-Audiences ausgeschlossen.
@@ -35,7 +40,7 @@ Auf Typologien können Sie über das Menü **[!UICONTROL Administration]** > **[
 
 >[!NOTE]
 >
->Die Liste **[!UICONTROL Typologieregeln]** zeigt alle vorhandenen Regeln an, die bisher in der Web-Benutzeroberfläche oder der Client-Konsole erstellt wurden. Es können jedoch nur **Steuerungs**- und **Filterregeln** in der Web-Benutzeroberfläche erstellt werden. Verwenden Sie die Client-Konsole von Campaign v8, um andere Typen von Typologieregeln wie Druck- oder Kapazitätsregeln zu erstellen. [Erfahren Sie, wie Sie Typologieregeln in der Client-Konsole erstellen.](https://experienceleague.adobe.com/de/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}
+>Die Liste **[!UICONTROL Typologieregeln]** zeigt alle vorhandenen Regeln an, die bisher in der Web-Benutzeroberfläche oder der Client-Konsole erstellt wurden. Es können jedoch nur **Steuerungs**- und **Filterregeln** in der Web-Benutzeroberfläche erstellt werden. Verwenden Sie die Client-Konsole von Campaign v8, um andere Typen von Typologieregeln wie Druck- oder Kapazitätsregeln zu erstellen. [Erfahren Sie, wie Sie Typologieregeln in der Client-Konsole erstellen](https://experienceleague.adobe.com/de/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}
 
 Die wichtigsten Schritte zum Anwenden von Typologien auf Ihre Nachrichten sind:
 
@@ -103,7 +108,7 @@ So definieren Sie die Eigenschaften der Typologieregel:
 
    >[!NOTE]
    >
-   >Derzeit können nur **Kontrolle** und **Filterung** Typologieregeln über die Web-Benutzeroberfläche erstellt werden. Verwenden Sie zum Erstellen anderer Regeltypen die Client-Konsole. [Erfahren Sie, wie Sie Typologieregeln in der Client-Konsole erstellen.](https://experienceleague.adobe.com/de/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}
+   >Derzeit können nur **Kontrolle** und **Filterung** Typologieregeln über die Web-Benutzeroberfläche erstellt werden. Verwenden Sie zum Erstellen anderer Regeltypen die Client-Konsole. [Erfahren Sie, wie Sie Typologieregeln in der Client-Konsole erstellen](https://experienceleague.adobe.com/de/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}
 
 1. Wählen Sie einen **[!UICONTROL Kanal]** aus, um ihn mit der Regel zu verknüpfen.
 
