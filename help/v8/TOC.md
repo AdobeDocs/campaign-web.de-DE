@@ -5,9 +5,9 @@ user-guide-description: Produktdokumentation zur Adobe Campaign Web-Benutzerober
 title: Dokumentation zu Adobe Campaign Web
 description: Dokumentation zu Campaign Web
 breadcrumb-title: Campaign Web-Benutzeroberfläche
-source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
+source-git-commit: 9817507124ddbf25c7ece3893f4c4d853ce09372
 workflow-type: tm+mt
-source-wordcount: '808'
+source-wordcount: '823'
 ht-degree: 94%
 
 ---
@@ -68,6 +68,9 @@ ht-degree: 94%
       + [Erstellen eines Briefpostversands](direct-mail/create-direct-mail.md)
       + [Gestalten der Extraktionsdatei](direct-mail/content-direct-mail.md)
       + [Vorschau und Durchführen eines Briefpostversands](direct-mail/send-direct-mail.md)
+   + Callcenter {#call-center}
+      + [Erste Schritte mit Callcenter-Sendungen](call-center/gs-call-center.md)
+      + [Erstellen und Senden eines Callcenter-Versands](call-center/create-call-center.md)
    + Transaktionsnachrichten {#transactional-messages}
       + [Erste Schritte mit Transaktionsnachrichten](transactional-messaging/transactional.md)
       + [Erstellen einer Transaktionsnachricht](transactional-messaging/create-transactional.md)

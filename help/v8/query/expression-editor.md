@@ -3,10 +3,10 @@ audience: end-user
 title: Erstellen Ihrer erste Abfrage mithilfe des Abfrage-Modelers
 description: Erfahren Sie, wie Sie Ihre erste Abfrage im Abfrage-Modeler in Adobe Campaign Web erstellen.
 exl-id: f9a365ac-c8be-423f-a99d-40ad5492223c
-source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
+source-git-commit: df5883f8178bc5287145c587b06dd5664400ed90
 workflow-type: tm+mt
-source-wordcount: '2106'
-ht-degree: 87%
+source-wordcount: '2192'
+ht-degree: 83%
 
 ---
 
@@ -15,9 +15,14 @@ ht-degree: 87%
 
 Die Bearbeitung von Ausdrücken erfolgt durch die manuelle Eingabe von Bedingungen, die in ihrer Gesamtheit eine Regel bilden. In diesem Modus können Sie erweiterte Funktionen verwenden, mit denen Sie die Werte bearbeiten können, die zur Durchführung bestimmter Abfragen verwendet werden, z. B. das Bearbeiten von Datumsangaben, Zeichenfolgen, numerischen Feldern und der Sortierung.
 
->[!IMPORTANT]
+>[!NOTE]
 >
 >Im folgenden Abschnitt finden Sie Informationen zum Erstellen von Regeln mit dem Ausdruckseditor. Beachten Sie, dass sich die zum Erstellen von Regeln verwendete Syntax von der zum Hinzufügen der Personalisierung verwendeten unterscheidet.
+
+>[!IMPORTANT]
+>
+>Eine brandneue Benutzeroberfläche für den Abfrage-Modellierer ist verfügbar. Um zu diesem neuen Erlebnis im Regel-Builder zu wechseln, drücken Sie die Umschalttaste in der oberen rechten Ecke. Sie können jederzeit zum klassischen Abfrage-Modellierer zurückkehren, indem Sie einfach den Umschalter drücken, um die neue Benutzeroberfläche zu deaktivieren. Sie können in dieser neuen Benutzeroberfläche dieselben Prinzipien wie beim Abfrage-Modellierer anwenden.
+>![Bild, das den Umschalter für die neue Benutzeroberfläche des Regel-Builders zeigt](assets/query-modeler-toggle.png){zoomable="yes"}
 
 ## Arbeiten mit dem Ausdruckseditor {#edit}
 
@@ -41,7 +46,17 @@ Wenn Ihr Ausdruck fertig ist, klicken Sie auf **[!UICONTROL Bestätigen]**. Der 
 
 Das folgende Beispiel zeigt einen für das Feld **[!UICONTROL Wert]** konfigurierten Ausdruck. Um ihn zu bearbeiten, öffnen Sie den Ausdruckseditor mithilfe der Schaltfläche **[!UICONTROL Ausdruck bearbeiten]**.
 
+>[!BEGINTABS]
+
+>[!TAB Klassischer Abfrage-Modellierer]
+
 ![Beispiel für die Bearbeitung eines Ausdrucks für ein Wertfeld](assets/edit-expression-value.png){zoomable="yes"}
+
+>[!TAB Neuer Regel-Builder]
+
+![Beispiel für die Bearbeitung eines Ausdrucks für ein Wertfeld](assets/ruleb-12.png){zoomable="yes"}
+
+>[!ENDTABS]
 
 ## Hilfsfunktionen
 

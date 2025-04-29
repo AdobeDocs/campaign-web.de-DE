@@ -3,10 +3,10 @@ audience: end-user
 title: Erstellen Ihrer erste Abfrage mithilfe des Abfrage-Modelers
 description: Erfahren Sie, wie Sie Ihre erste Abfrage im Abfrage-Modeler in Adobe Campaign Web erstellen.
 exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
-source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
+source-git-commit: df5883f8178bc5287145c587b06dd5664400ed90
 workflow-type: tm+mt
-source-wordcount: '2310'
-ht-degree: 73%
+source-wordcount: '2780'
+ht-degree: 62%
 
 ---
 
@@ -15,19 +15,48 @@ ht-degree: 73%
 
 Um mit der Erstellung einer Abfrage zu beginnen, greifen Sie je nach der Aktion, die Sie ausführen wollen, vom gewünschten Speicherort aus auf den Abfrage-Modeler zu. Der Abfrage-Modellierer wird mit einer leeren Arbeitsfläche geöffnet. Klicken Sie auf die Schaltfläche **+**, um den ersten Knoten der Abfrage zu konfigurieren.
 
+>[!IMPORTANT]
+>
+>Eine brandneue Benutzeroberfläche für den Abfrage-Modellierer ist verfügbar. Mit dem neuen Regel-Builder können Sie Ihre Abfrage dank der vereinfachten Benutzeroberfläche einfacher erstellen. Um zu diesem Erlebnis zu wechseln, drücken Sie die Umschalttaste in der oberen rechten Ecke. Sie können jederzeit zum klassischen Abfrage-Modellierer zurückkehren, indem Sie einfach den Umschalter drücken, um die neue Benutzeroberfläche zu deaktivieren. Sie können in dieser neuen Benutzeroberfläche dieselben Prinzipien wie beim Abfrage-Modellierer anwenden.
+>![Bild, das den Umschalter für die neue Benutzeroberfläche des Regel-Builders zeigt](assets/query-modeler-toggle.png){zoomable="yes"}
+
 Sie können zwei Elementtypen hinzufügen:
 
 * **Filterkomponenten** (benutzerdefinierte Bedingung, Zielgruppe auswählen, vordefinierter Filter) ermöglichen es Ihnen, eigene Regeln zu erstellen, eine Zielgruppe auszuwählen oder einen vordefinierten Filter zu verwenden, um Ihre Abfrage zu verfeinern. Sie werden zu Beginn Ihrer Abfrage und bei gepunkteten Transitionen hinzugefügt. [Erfahren Sie, wie Sie mit Filterkomponenten arbeiten können](#filtering)
 
   Beispiel: *Empfänger, die den Newsletter „Sport“ abonniert haben*, *Empfänger in New York*, *Empfänger in San Francisco*
 
-  ![Beispiel für das Hinzufügen von Filterkomponenten zu einer Abfrage.](assets/query-add-component.png){zoomable="yes"}
+>[!BEGINTABS]
+
+>[!TAB Klassischer Abfrage-Modellierer]
+
+![Beispiel für das Hinzufügen von Filterkomponenten zu einer Abfrage.](assets/query-add-component.png){zoomable="yes"}
+
+
+>[!TAB Neuer Regel-Builder]
+
+![Beispiel für das Hinzufügen von Filterkomponenten zu einer Abfrage.](assets/ruleb-1.png){zoomable="yes"}
+
+>[!ENDTABS]
+
+
 
 * Mit **Gruppenoperatoren** (AND, OR, EXCEPT) können Sie Filterkomponenten im Diagramm gruppieren. Sie werden bei vorhandenen Transitionen vor einer Filterkomponente hinzugefügt. [Erfahren Sie, wie man mit Operatoren arbeitet](#filtering)
 
-  Beispiel: *Empfängerinnen und Empfänger, die den Newsletter „Sport“ abonniert haben **UND**in New York **ODER**San Francisco leben*
+  Beispiel: *Empfänger, die Super VIP **AND** VIP sind, um **OR** VIP Demo zu belohnen, **EXCEPT** Empfänger unter 21 Jahren und über 45 Jahren.
 
-  ![Beschreibung: Beispiel für das Hinzufügen von Gruppenoperatoren zu einer Abfrage.](assets/query-add-operator.png){zoomable="yes"}
+>[!BEGINTABS]
+
+>[!TAB Klassischer Abfrage-Modellierer]
+
+![Beschreibung: Beispiel für das Hinzufügen von Gruppenoperatoren zu einer Abfrage.](assets/ruleb-13.png){zoomable="yes"}
+
+>[!TAB Neuer Regel-Builder]
+
+![Beispiel für das Hinzufügen von Filterkomponenten zu einer Abfrage.](assets/ruleb-14.png){zoomable="yes"}
+
+>[!ENDTABS]
+
 
 ## Werteverteilung in einer Abfrage {#distribution-values-query}
 
@@ -99,11 +128,31 @@ Gehen Sie wie folgt vor, um Ihre Abfrage mit einer benutzerdefinierten Bedingung
 
    *Abfragebeispiel, in dem alle Profile im Alter von 21 Jahren oder älter zurückgegeben werden:*
 
-   ![Beispiel einer Abfrage mit Profilen ab 21 Jahren.](assets/query-custom-condition.png){zoomable="yes"}
+>[!BEGINTABS]
 
-   Für Attribute vom Typ „Datum“ sind vordefinierte Werte bei Verwendung der Option **[!UICONTROL Voreinstellungen]** verfügbar.
+>[!TAB Klassischer Abfrage-Modellierer]
 
-   ![Beispiel für die Verwendung von Datumsvorgaben in einer Abfrage.](assets/date-presets.png){zoomable="yes"}
+![Beispiel einer Abfrage mit Profilen ab 21 Jahren.](assets/query-custom-condition.png){zoomable="yes"}
+
+>[!TAB Neuer Regel-Builder]
+
+![Beispiel einer Abfrage mit Profilen ab 21 Jahren.](assets/ruleb-3.png){zoomable="yes"}
+
+>[!ENDTABS]
+
+Für Attribute vom Typ „Datum“ sind vordefinierte Werte bei Verwendung der Option **[!UICONTROL Voreinstellungen]** verfügbar.
+
+>[!BEGINTABS]
+
+>[!TAB Klassischer Abfrage-Modellierer]
+
+![Beispiel für die Verwendung von Datumsvorgaben in einer Abfrage.](assets/date-presets.png){zoomable="yes"}
+
+>[!TAB Neuer Regel-Builder]
+
+![Beispiel für die Verwendung von Datumsvorgaben in einer Abfrage.](assets/ruleb-4.png){zoomable="yes"}
+
+>[!ENDTABS]
 
 #### Benutzerdefinierte Bedingungen für verknüpfte Tabellen (1:1- und 1:n-Relation){#links}
 
@@ -165,7 +214,17 @@ Mit benutzerdefinierten Bedingungen können Sie Aggregierungsvorgänge ausführe
 
 1. Aktivieren Sie im Eigenschaften-Fenster die Option **Daten aggregieren** und wählen Sie die gewünschte Aggregierungsfunktion aus.
 
-   ![Screenshot der Option „Daten aggregieren“](assets/aggregate.png){zoomable="yes"}{width="85%" align="center"}
+>[!BEGINTABS]
+
+>[!TAB Klassischer Abfrage-Modellierer]
+
+![Screenshot der Option „Daten aggregieren“](assets/aggregate.png){zoomable="yes"}{width="85%" align="center"}
+
+>[!TAB Neuer Regel-Builder]
+
+![Screenshot der Option „Daten aggregieren“](assets/ruleb-5.png){zoomable="yes"}{width="85%" align="center"}
+
+>[!ENDTABS]
 
 ### Auswählen einer Zielgruppe {#audiences}
 
@@ -176,6 +235,10 @@ Mit benutzerdefinierten Bedingungen können Sie Aggregierungsvorgänge ausführe
 
 Gehen Sie wie folgt vor, um Ihre Abfrage mithilfe einer vorhandenen Zielgruppe zu filtern:
 
+>[!BEGINTABS]
+
+>[!TAB Klassischer Abfrage-Modellierer]
+
 1. Klicken Sie auf die Schaltfläche **+** auf dem gewünschten Knoten und wählen Sie **[!UICONTROL Zielgruppe auswählen]** aus.
 
 1. Der Bereich mit den Eigenschaften **Zielgruppe auswählen** wird auf der rechten Seite geöffnet. Wählen Sie die Zielgruppe aus, die Sie zum Filtern Ihrer Abfrage verwenden möchten.
@@ -183,6 +246,18 @@ Gehen Sie wie folgt vor, um Ihre Abfrage mithilfe einer vorhandenen Zielgruppe z
    *Abfragebeispiel, in dem alle Profile der Zielgruppe „Festivalbesuchende“ zurückgegeben werden:*
 
    ![Screenshot eines Abfragebeispiels](assets/query-audience.png){zoomable="yes"}
+
+>[!TAB Neuer Regel-Builder]
+
+1. Klicken Sie auf **Erweitern** neben der Schaltfläche **[!UICONTROL Bedingung hinzufügen]** und wählen Sie **[!UICONTROL Audience auswählen]**.
+
+1. Der Bereich mit den Eigenschaften **Zielgruppe auswählen** wird auf der rechten Seite geöffnet. Wählen Sie die Zielgruppe aus, die Sie zum Filtern Ihrer Abfrage verwenden möchten.
+
+   *Abfragebeispiel, das alle Profile zurückgibt, die zur Audience „Coffee Works“ gehören“*
+
+   ![Screenshot eines Abfragebeispiels](assets/ruleb-7.png){zoomable="yes"}
+
+>[!ENDTABS]
 
 ### Verwenden eines vordefinierten Filters {#predefined-filters}
 
@@ -193,6 +268,10 @@ Gehen Sie wie folgt vor, um Ihre Abfrage mithilfe einer vorhandenen Zielgruppe z
 
 Gehen Sie wie folgt vor, um Ihre Abfrage mithilfe eines vordefinierten Filters zu filtern:
 
+>[!BEGINTABS]
+
+>[!TAB Klassischer Abfrage-Modellierer]
+
 1. Klicken Sie auf die Schaltfläche **+** auf dem gewünschten Knoten und wählen Sie **[!UICONTROL Vordefinierter Filter]** aus.
 
 1. Der Bereich mit den Eigenschaften **Vordefinierter Filter** wird auf der rechten Seite geöffnet. Wählen Sie einen Filter aus der Liste der vordefinierten Filter oder aus den Favoriten aus.
@@ -201,6 +280,18 @@ Gehen Sie wie folgt vor, um Ihre Abfrage mithilfe eines vordefinierten Filters z
 
    ![Screenshot eines Abfragebeispiels](assets/query-predefined-filter.png){zoomable="yes"}
 
+>[!TAB Neuer Regel-Builder]
+
+1. Klicken Sie auf **Erweitern** neben der Schaltfläche **[!UICONTROL Bedingung hinzufügen]** und wählen Sie **[!UICONTROL Vordefinierter Filter]**.
+
+1. Der Bereich mit den Eigenschaften **Vordefinierter Filter** wird auf der rechten Seite geöffnet. Wählen Sie einen Filter aus der Liste der vordefinierten Filter oder aus den Favoriten aus.
+
+   *Abfragebeispiel, in dem alle Profile zurückgegeben werden, die dem vordefinierten Filter „Inaktive Kunden“ entsprechen:*
+
+   ![Screenshot eines Abfragebeispiels](assets/ruleb-8.png){zoomable="yes"}
+
+>[!ENDTABS]
+
 ### Kopieren und Einfügen von Komponenten {#copy}
 
 Mithilfe des Abfrage-Modelers können Sie eine oder mehrere Filterkomponenten kopieren und am Ende einer Transition einfügen. Dieser Vorgang kann in der aktuellen Abfragearbeitsfläche oder in einer beliebigen Arbeitsfläche innerhalb Ihrer Instanz ausgeführt werden.
@@ -208,6 +299,11 @@ Mithilfe des Abfrage-Modelers können Sie eine oder mehrere Filterkomponenten ko
 >[!NOTE]
 >
 >Die kopierte Auswahl wird beibehalten, solange Sie in Ihrer Instanz arbeiten. Wenn Sie sich abmelden und wieder anmelden, steht Ihre Auswahl nicht mehr zum Einfügen zur Verfügung.
+
+>[!IMPORTANT]
+>
+>Es ist derzeit nicht möglich, Komponenten in der neuen Regel-Builder-Version zu kopieren und einzufügen. Um diese nächsten Schritte auszuführen, klicken Sie oben auf den Umschalter **[!UICONTROL Zurück zum klassischen Erlebnis]**, um den klassischen Abfrage-Modellierer zu verwenden.
+
 
 Gehen Sie wie folgt vor, um Filterkomponenten zu kopieren und einzufügen:
 
@@ -232,7 +328,11 @@ Gehen Sie wie folgt vor, um Filterkomponenten zu kopieren und einzufügen:
 
 Jedes Mal, wenn Sie zu Ihrer Abfrage eine neue Filterkomponente hinzufügen, wird diese automatisch durch einen **UND**-Operator mit der anderen Komponente verknüpft. Dadurch werden die Ergebnisse der beiden Filterkomponenten kombiniert.
 
-In diesem Beispiel haben wir für die zweite Transition neue Zielgruppentyp-Filterkomponenten hinzugefügt. Die Komponente ist mit der vordefinierten Filterbedingung durch einen **UND**-Operator verknüpft, d. h., die Abfrageergebnisse enthalten Empfängerinnen und Empfänger, auf die der vordefinierte Filter „Wohnhaft in Madrid“ zutrifft UND die zur Zielgruppe „Rabattjäger“ gehören.
+In diesem Beispiel haben wir für die zweite Transition neue Zielgruppentyp-Filterkomponenten hinzugefügt. Die Komponente ist mit der vordefinierten Filterbedingung mit einem **AND**-Operator verknüpft. Das bedeutet, dass die Abfrageergebnisse Empfänger enthalten, die vom vordefinierten Filter „Newsletter-Abonnenten - MADRID“ angesprochen werden UND zur Zielgruppe „Käufer (alle Zeiten)“ gehören.
+
+>[!BEGINTABS]
+
+>[!TAB Klassischer Abfrage-Modellierer]
 
 ![Beispiel einer Abfrage](assets/query-operator.png){zoomable="yes"}
 
@@ -246,11 +346,37 @@ Die folgenden Operatoren sind verfügbar:
 
 ![Beispiel einer Abfrage](assets/query-operator-change.png){zoomable="yes"}
 
-Darüber hinaus können Sie Zwischengruppen von Komponenten erstellen, indem Sie auf die Schaltfläche **+** auf einer Transition klicken. Auf diese Weise können Sie einen Operator an dieser bestimmten Stelle hinzufügen, um mehrere Komponenten zu gruppieren und Ihre Abfrage zu verfeinern.
+Darüber hinaus können Sie Zwischengruppen von Komponenten erstellen, indem Sie Komponenten zu einer Gruppe gruppieren und miteinander verknüpfen. Auf diese Weise wird der AND-Operator standardmäßig gesetzt, Sie können ihn dann in den gewünschten Operator ändern.
+
+>[!TAB Neuer Regel-Builder]
+
+![Beispiel einer Abfrage](assets/ruleb-9.png){zoomable="yes"}
+
+Um den Operator zu ändern, der verwendet wird, um Filterbedingungen miteinander zu verknüpfen, klicken Sie darauf, es ändert sich in ODER, AUSSER und dann zurück in UND, und wählen Sie den gewünschten Operator.
+
+Die folgenden Operatoren sind verfügbar:
+
+* **UND (Schnittmenge)**: Kombiniert Ergebnisse, die allen Filterkomponenten in den ausgehenden Transitionen entsprechen.
+* **ODER (Vereinigung)**: Umfasst Ergebnisse, die mindestens einer der Filterkomponenten in den ausgehenden Transitionen entsprechen.
+* **AUSSER (Ausschluss)**: Schließt Ergebnisse aus, die allen Filterkomponenten in der ausgehenden Transition entsprechen.
+
+![Beispiel einer Abfrage](assets/ruleb-10.gif){zoomable="yes"}
+
+>[!ENDTABS]
 
 Im folgenden Beispiel haben wir eine Zwischengruppe erstellt, um Ergebnisse aus den Zielgruppen „Zu belohnende VIP“ oder „Super VIP“ einzubeziehen.
 
+>[!BEGINTABS]
+
+>[!TAB Klassischer Abfrage-Modellierer]
+
 ![Beispiel einer Abfrage](assets/query-intermediate-group.png){zoomable="yes"}
+
+>[!TAB Neuer Regel-Builder]
+
+![Beispiel einer Abfrage im neuen Regel-Builder](assets/ruleb-11.png){zoomable="yes"}
+
+>[!ENDTABS]
 
 ## Überprüfen und Validieren einer Abfrage
 
@@ -272,7 +398,19 @@ Nachdem Sie Ihre Abfrage auf der Arbeitsfläche erstellt haben, können Sie sie 
 
 Wenn Ihre Abfrage fertig ist, klicken Sie auf die Schaltfläche **[!UICONTROL Bestätigen]** in der rechten oberen Ecke, um sie zu speichern.
 
+
+>[!BEGINTABS]
+
+>[!TAB Klassischer Abfrage-Modellierer]
+
 Sie können Ihre Abfrage jederzeit ändern, indem Sie sie öffnen. Beachten Sie, dass beim Öffnen einer vorhandenen Abfrage diese in einer vereinfachten Ansicht angezeigt wird, ohne dass die Schaltflächen **+** angezeigt werden. Um der Abfrage neue Elemente hinzuzufügen, wählen Sie eine Komponente oder einen Operator auf der Arbeitsfläche aus, um die Schaltflächen **+** anzuzeigen.
 
 ![Beispiel einer Abfrage](assets/edit-audience.png){zoomable="yes"}
 
+>[!TAB Neuer Regel-Builder]
+
+Sie können Ihre Abfrage jederzeit ändern, indem Sie sie öffnen. Klicken Sie dazu oben links auf **[!UICONTROL Schaltfläche]** Bedingung hinzufügen“.
+
+![Beispiel einer Abfrage im neuen Regel-Builder](assets/ruleb-11.png){zoomable="yes"}
+
+>[!ENDTABS]

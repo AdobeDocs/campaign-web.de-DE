@@ -3,16 +3,21 @@ audience: end-user
 title: Filtern von Listen
 description: Erfahren Sie, wie Sie in Adobe Campaign Web-Listen mithilfe integrierter und benutzerdefinierter Filter filtern.
 exl-id: 41c3c4c3-5991-4223-ad02-e2531d76fdda
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 485d8b4b715192cc5edb6442df0fa958e29d15ff
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 65%
+source-wordcount: '413'
+ht-degree: 51%
 
 ---
 
 # Filtern von Listen {#filter-lists}
 
 Adobe Campaign Web bietet Filter in jeder Objektliste, mit denen Sie Informationen nach bestimmten Kontextkriterien filtern können. Sie können beispielsweise Sendungen nach Status, Kanal, Kontaktdatum oder Ordner filtern. Sie können Testsendungen auch ausblenden.
+
+>[!IMPORTANT]
+>
+>Eine brandneue Benutzeroberfläche für den Abfrage-Modellierer ist verfügbar. Mit dem neuen Regel-Builder können Sie Ihre Abfrage dank der vereinfachten Benutzeroberfläche einfacher erstellen. Um zu diesem Erlebnis zu wechseln, drücken Sie die Umschalttaste in der oberen rechten Ecke. Sie können jederzeit zum klassischen Abfrage-Modellierer zurückkehren, indem Sie einfach den Umschalter drücken, um die neue Benutzeroberfläche zu deaktivieren. Sie können in dieser neuen Benutzeroberfläche dieselben Prinzipien wie beim Abfrage-Modellierer anwenden.
+>![Bild, das den Umschalter für die neue Benutzeroberfläche des Regel-Builders zeigt](assets/query-modeler-toggle.png){zoomable="yes"}
 
 ## Anwenden von Filtern {#apply}
 

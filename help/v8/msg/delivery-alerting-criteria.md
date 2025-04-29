@@ -3,10 +3,10 @@ audience: end-user
 title: Versandwarnung
 description: Erfahren Sie, wie Sie mit Versandwarnungen arbeiten können.
 exl-id: fc98d4e3-7986-42bb-82d5-b4f874aa71db
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 7b78b6d710fa88be1be60f514b2fe8219bd04d75
 workflow-type: tm+mt
-source-wordcount: '754'
-ht-degree: 51%
+source-wordcount: '712'
+ht-degree: 50%
 
 ---
 
@@ -61,11 +61,6 @@ Vordefinierte Warnungskriterien sind in der Campaign Web-Benutzeroberfläche ver
 >title="Frequenz des Kriteriums"
 >abstract="Steuern Sie die Häufigkeit der Warnungen pro Tag für jeden Versand, der das Kriterium erfüllt."
 
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_filter"
->title="Erstellen eines Warnungskriteriums"
->abstract="Um eigene Versandfilter zu erstellen, erstellen Sie einen neuen vordefinierten Filter in der Campaign v8-Konsole aus dem Knoten unter **Administration** > **Konfiguration** > **Vordefinierte Filter**."
-
 Gehen Sie wie folgt vor, um ein neues Kriterium zu erstellen:
 
 1. Navigieren Sie zum Menü **Versandwarnung** im linken Navigationsbereich und wählen Sie die Registerkarte **Kriterien** aus.
@@ -79,7 +74,7 @@ Gehen Sie wie folgt vor, um ein neues Kriterium zu erstellen:
 
    >[!NOTE]
    >
-   >Wenn keiner der vordefinierten Filter Ihren Anforderungen entspricht, wenden Sie sich an Ihren Administrator, um Ihren eigenen Filter zu erstellen. Detaillierte Informationen zum Erstellen vordefinierter Filter in der Campaign-Konsole finden Sie in der Dokumentation zu [Adobe Campaign v8 (Konsole)](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/audience/create-audiences/create-filters){target="_blank"}.
+   >Wenn keiner der vordefinierten Filter Ihren Anforderungen entspricht, können Sie eigene Filter im Menü **Kundenverwaltung** > **Vordefinierte Filter** erstellen. [Weitere Informationen](../get-started/predefined-filters.md)
    >
    >Dieser Vorgang sollte nur von erfahrenen Benutzenden durchgeführt werden.
 

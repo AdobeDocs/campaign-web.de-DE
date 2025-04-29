@@ -3,10 +3,10 @@ audience: end-user
 title: Arbeiten mit dem Abfrage-Modeler
 description: Lernen Sie, mit dem Abfrage-Modeler von Adobe Campaign Web zu arbeiten.
 exl-id: 56708a66-f654-413a-80ed-1865077b3c0a
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: 485d8b4b715192cc5edb6442df0fa958e29d15ff
 workflow-type: tm+mt
-source-wordcount: '697'
-ht-degree: 53%
+source-wordcount: '888'
+ht-degree: 41%
 
 ---
 
@@ -54,10 +54,16 @@ Der Abfrage-Modeler ist in jedem Kontext verfügbar, in dem Sie Regeln zum Filte
 
 Der Abfrage-Modellierer bietet eine zentrale Arbeitsfläche, auf der Sie Ihre Abfrage erstellen, und einen rechten Bereich mit Informationen zu Ihrer Abfrage.
 
+>[!IMPORTANT]
+>
+>Eine brandneue Benutzeroberfläche für den Abfrage-Modellierer ist verfügbar. Mit dem neuen Regel-Builder können Sie Ihre Abfrage dank der vereinfachten Benutzeroberfläche einfacher erstellen. Um zu diesem Erlebnis zu wechseln, drücken Sie die Umschalttaste in der oberen rechten Ecke. Sie können jederzeit zum klassischen Abfrage-Modellierer zurückkehren, indem Sie einfach den Umschalter drücken, um die neue Benutzeroberfläche zu deaktivieren. Sie können in dieser neuen Benutzeroberfläche dieselben Prinzipien wie beim Abfrage-Modellierer anwenden.
+>![Bild, das den Umschalter für die neue Benutzeroberfläche des Regel-Builders zeigt](assets/query-modeler-toggle.png){zoomable="yes"}
+
+
 >[!CONTEXTUALHELP]
 >id="acw_rule_builder_switch_button"
->title="Neues Anwendererlebnis"
->abstract="Verwenden Sie diesen Umschalter, um zwischen dem klassischen Abfrage-Modellierer und dem neuen Regel-Builder-Erlebnis zu wechseln."
+>title="Neues Rule Builder-Erlebnis"
+>abstract="Verwenden Sie diesen Umschalter, um zwischen dem klassischen Abfrage-Modellierer und dem neuen Regel-Builder-Erlebnis zu wechseln. Mit dem neuen Regel-Builder können Sie Ihre Abfrage dank der vereinfachten und intuitiven Benutzeroberfläche einfacher erstellen."
 
 ![Bild, das die Benutzeroberfläche des Abfrage-Modellierers zeigt](assets/query-interface.png){zoomable="yes"}
 
@@ -65,13 +71,31 @@ Der Abfrage-Modellierer bietet eine zentrale Arbeitsfläche, auf der Sie Ihre Ab
 
 Auf der zentralen Arbeitsfläche des Abfrage-Modellierers können Sie die verschiedenen Komponenten hinzufügen und kombinieren, um Ihre Abfrage zu erstellen. [So erstellen Sie eine Abfrage](build-query.md)
 
-Die Symbolleiste oben rechts auf der Arbeitsfläche bietet Optionen zum einfachen Bearbeiten der Abfragekomponenten und zum Navigieren auf der Arbeitsfläche:
+>[!BEGINTABS]
+
+>[!TAB Klassischer Abfrage-Modellierer]
+
+Die Symbolleiste in der rechten unteren Ecke der Arbeitsfläche bietet Optionen zum einfachen Bearbeiten der Abfragekomponenten und zum Navigieren auf der Arbeitsfläche:
 
 * **Mehrfachauswahl-Modus**: Wählen Sie mehrere Filterkomponenten aus, um sie zu kopieren und am gewünschten Ort einzufügen.
 * **Drehen**: Dreht die Arbeitsfläche vertikal.
 * **An Bildschirm anpassen**: Passt die Vergrößerung der Arbeitsfläche an Ihren Bildschirm an.
 * **Verkleinern**/**Einzoomen**: Verkleinern oder vergrößern Sie die Arbeitsfläche.
 * **Karte anzeigen**: Öffnet einen Schnappschuss der Arbeitsfläche, der Ihre aktuelle Position anzeigt.
+
+>[!TAB Neues Rule Builder-Erlebnis]
+
+Die Symbolleiste oben rechts auf der Arbeitsfläche bietet Optionen zum einfachen Bearbeiten der Abfragekomponenten und zum Navigieren auf der Arbeitsfläche:
+
+* **Auswahl nach oben**: Verschiebt die Komponente um eine Zeile nach oben.
+* **Auswahl nach unten verschieben**: Verschieben der Komponente in einer Zeile nach unten.
+* **Gruppenauswahl**: Fügen Sie zwei Komponenten in eine Gruppe ein.
+* **Auswahl aufheben**: Trennen Sie die Komponenten einer einzelnen Gruppe.
+* **Alle**: Alle Gruppen erweitern.
+* **Alle reduzieren**: Alle Gruppen reduzieren.
+* **Alle entfernen**: Entfernen Sie alle Gruppen und Komponenten.
+
+>[!ENDTABS]
 
 ### Das Fenster „Regeleigenschaften“ {#rule-properties}
 

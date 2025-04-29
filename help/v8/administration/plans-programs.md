@@ -3,9 +3,9 @@ audience: end-user
 title: Pläne und Programme
 description: Erfahren Sie, wie Sie Pläne und Programme in Adobe Campaign erstellen und konfigurieren können.
 exl-id: 0307bcb7-7ab5-4226-bad1-cb7cf10e97fc
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 1a751aed6d5185e700dafb1de2afd88300dfcd79
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '522'
 ht-degree: 23%
 
 ---
@@ -38,9 +38,13 @@ So verwalten Sie die **[!UICONTROL benutzerdefinierten Optionen]**:
 
 1. Navigieren Sie zu **[!UICONTROL Schemata]**.
 1. Wählen Sie die **[!UICONTROL bearbeitbaren]** Schemata in den Filtern aus.
-1. Klicken Sie auf **[!UICONTROL Symbol Benutzerdefinierte]** bearbeiten .
+1. Klicken Sie auf das Schema.
 
 ![Screenshot zur Bearbeitung benutzerdefinierter Details für einen Plan](assets/plan_edit.png){zoomable="yes"}
+
+1. Klicken Sie auf die Schaltfläche **[!UICONTROL Bildschirmbearbeitung]**.
+
+   ![](assets/plan_edit2.png){zoomable="yes"}
 
 Konfigurieren Sie die benutzerdefinierten Optionen:
 
@@ -64,9 +68,13 @@ So verwalten Sie die **[!UICONTROL benutzerdefinierten Optionen]**:
 
 1. Navigieren Sie zu **[!UICONTROL Schemata]**.
 1. Wählen Sie die **[!UICONTROL bearbeitbaren]** Schemata in den Filtern aus.
-1. Klicken Sie auf **[!UICONTROL Symbol Benutzerdefinierte]** bearbeiten .
+1. Klicken Sie auf das Schema.
 
 ![Screenshot zur Bearbeitung benutzerdefinierter Details für ein Programm](assets/program_edit.png){zoomable="yes"}
+
+1. Klicken Sie auf die Schaltfläche **[!UICONTROL Bildschirmbearbeitung]**.
+
+   ![](assets/program_edit2.png){zoomable="yes"}
 
 Konfigurieren Sie die benutzerdefinierten Optionen:
 

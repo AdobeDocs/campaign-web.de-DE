@@ -2,10 +2,10 @@
 title: Versionshinweise zur Web-Benutzeroberfläche von Campaign v8
 description: Entdecken Sie die neuen Funktionen der neuesten Version der Campaign Web-Benutzeroberfläche
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
+source-git-commit: 589d78737a498ffe91cb49a6f689f4104b244d0b
 workflow-type: tm+mt
-source-wordcount: '836'
-ht-degree: 96%
+source-wordcount: '681'
+ht-degree: 34%
 
 ---
 
@@ -16,30 +16,31 @@ ht-degree: 96%
 >title="Versionshinweise"
 >abstract="Die Versionen der Adobe Campaign Web-Benutzeroberfläche basieren auf einem kontinuierlichen Bereitstellungsmodell, das einen besser skalierbaren, schrittweisen Ansatz für die Implementierung von Funktionen ermöglicht. Dementsprechend werden die Versionshinweise zu Campaign mehrmals im Monat mit den neuesten Funktionen, Verbesserungen und Fehlerbehebungen aktualisiert. Wir empfehlen Ihnen, sich diese regelmäßig anzusehen."
 
-Die Versionen der Web-Benutzeroberfläche von Adobe Campaign basiert auf einem kontinuierlichen Versandmodell, das einen skalierbaren, schrittweisen Ansatz für die Bereitstellung von Funktionen ermöglicht. Dementsprechend werden diese Versionshinweise mehrmals im Monat aktualisiert. Sie sollten daher regelmäßig nachschauen.
+Die Versionen der Adobe Campaign Web-Benutzeroberfläche basieren auf einem kontinuierlichen Bereitstellungsmodell, das einen besser skalierbaren, schrittweisen Ansatz für die Implementierung von Funktionen ermöglicht. Dementsprechend werden diese Versionshinweise mehrmals im Monat aktualisiert. Sie sollten daher regelmäßig nachschauen.
 
-Änderungen und Verbesserungen, die in früheren Versionen verfügbar sind, sind [auf dieser Seite](release-notes-24.md) aufgeführt.
+Änderungen und Verbesserungen, die mit früheren Versionen verfügbar sind, sind in den [2024](release-notes-24.md) und [2025](release-notes-25.md) aufgeführt.
 
-## Version Februar &#39;25 {#25-2-release}
+## Version April &#39;25 {#25-4-release}
 
-**Veröffentlichungsdatum**: 18. Februar 2025
+**Veröffentlichungsdatum**: Mittwoch, 29. April 2025
 
-Die folgenden Funktionen und Verbesserungen sind ab der Version Februar verfügbar.
 
-### Funktionen {#25-2-features}
+### Neue Funktionen {#25-4-features}
+
+Die folgenden Funktionen stehen allen Benutzenden ab der April-Version zur Verfügung.
 
 <table>
 <thead>
 <tr>
-<th><strong>Erstellen von Geschäftsregeln (Typologieregeln)</strong><br/></th>
+<th><strong>Callcenter-Kanal</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Sie können jetzt Typologien und Typologieregeln in der Adobe Campaign Web-Benutzeroberfläche erstellen. Mit Typologien kann die Durchführung von Sendungen gesteuert, gefiltert und priorisiert werden. Typologien überprüfen, ob Sendungen immer bestimmte Pflichtkomponenten enthalten (z. B. einen Abmelde-Link oder eine Betreffzeile), oder Filterregeln verwenden, um bestimmte Gruppen aus Ihrer Zielgruppe auszuschließen. Dazu zählen z. B. Abonnentinnen und Abonnenten, Mitbewerberinnen und Mitbewerber oder Kundinnen und Kunden, die nicht am Treueprogramm teilnehmen.</p>
-<img src="assets/do-not-localize/typology.gif" alt="Abbildung der Erstellung von Typologieregeln in der Web-Benutzeroberfläche von Adobe Campaign">
-<p>Weitere Informationen finden Sie in der <a href="../administration/typologies.md">entsprechenden Dokumentation</a>.</p>
+<p>Der Callcenter-Kanal ist jetzt in der Web-Benutzeroberfläche von Campaign verfügbar. Dieser Kanal bezieht sich auf eine Kommunikationsmethode, die verwendet wird, um Kommunikationen oder Interaktionen zu verwalten und zu verfolgen, die über ein Callcenter abgewickelt werden - in der Regel Telefonanrufe, die von Agenten an Kunden oder Interessenten getätigt werden.</p>
+<img src="assets/do-not-localize/call-center.gif">
+<p>Weitere Informationen finden Sie in der <a href="../call-center/gs-call-center.md">entsprechenden Dokumentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -48,15 +49,15 @@ Die folgenden Funktionen und Verbesserungen sind ab der Version Februar verfügb
 <table>
 <thead>
 <tr>
-<th><strong>Zielgruppen-Mappings</strong><br/></th>
+<th><strong>Neuer Regel-Builder</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Sie können jetzt Zielgruppen-Mappings in der Campaign Web-Benutzeroberfläche erstellen. Zielgruppen-Mappings definieren, wie verschiedene Versandkanäle (E-Mail, SMS, Push-Benachrichtigungen) mit den Datenfeldern eines Schemas verknüpft werden. Das Zielgruppen-Mapping legt die Zielgruppe fest: Profile, Vertragsbegünstigte, Benutzende, Abonnierende, Interessierte und andere.</p>
-<img src="assets/do-not-localize/target-mapping.gif" alt="Abbildung der Erstellung von Zielgruppen-Mappings in der Web-Benutzeroberfläche von Adobe Campaign">
-<p>Weitere Informationen finden Sie in der <a href="../administration/target-mappings.md">entsprechenden Dokumentation</a>.</p>
+<p>Es ist jetzt ein neuer Regel-Builder verfügbar, der Ihnen bei der Definition komplexer Bedingungen in einer verbesserten Benutzeroberfläche hilft. Sie können bei Bedarf vom alten zum neuen Regel-Builder wechseln.</p>
+<img src="assets/do-not-localize/rule-builder-release.gif">
+<p>Weitere Informationen finden Sie in der <a href="../query/query-modeler-overview.md">entsprechenden Dokumentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -65,138 +66,56 @@ Die folgenden Funktionen und Verbesserungen sind ab der Version Februar verfügb
 <table>
 <thead>
 <tr>
-<th><strong>Schemadetails</strong><br/></th>
+<th><strong>Erstellen externer Konten</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Sie können jetzt auf die Details eines Schemas zugreifen, indem Sie dessen Namen in der Liste auswählen. Die Bearbeitung benutzerdefinierter Felder ist jetzt über die Schaltfläche <b>Benutzerdefinierte Felder bearbeiten</b> in den Schemadetails verfügbar.</p>
-<img src="assets/do-not-localize/schemas.gif" alt="Abbildung von Schemadetails und der Bearbeitung benutzerdefinierter Felder in der Web-Benutzeroberfläche von Adobe Campaign">
-<p>Weitere Informationen finden Sie in der <a href="../administration/schemas.md">entsprechenden Dokumentation</a>.</p>
+<p>Als Campaign-Administrator können Sie jetzt über die Campaign Web-Benutzeroberfläche neue Verbindungen mit externen Systemen einrichten.
+Sie können auch vorhandene externe Konten anzeigen, aktualisieren und verwalten.</p>
+<p>Weitere Informationen finden Sie in der <a href="../administration/external-account.md">entsprechenden Dokumentation</a>.</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-## Version Januar 2025 {#25-1-release}
+### Verbesserungen {#25-4-improvements}
 
-**Veröffentlichungsdatum**: 5. Februar 2025
+**Allgemeine Verbesserungen an der Benutzeroberfläche**
 
-Die folgenden Funktionen und Verbesserungen sind ab der Version Januar verfügbar.
+* Die Optionen Feldbeschreibung, Zu Favoriten hinzufügen und Verteilung von Werten für Schemaattribute sind jetzt in der Benutzeroberfläche besser sichtbar. Weitere Informationen finden Sie in der [entsprechenden Dokumentation](../get-started/attributes.md).
+* Auf der Benutzeroberfläche werden jetzt Datum und Uhrzeit entsprechend der in den Experience League-Voreinstellungen festgelegten Primärsprache angezeigt. Diese Verbesserung ist nur für mehrere Sprachen verfügbar. Die vollständige Liste der unterstützten Sprachen finden Sie in der [ Dokumentation](https://experienceleague.adobe.com/en/docs/core-services/interface/features/browser-language){target=_blank}.
 
-### Funktionen {#25-1-features}
+<!--
+ko * Built-in options are now only visible in the list of options if the **Show advanced options** toggle is activated.
+ko * The typology rules creation screen has been updated to facilitate the selection of the type of rule.
+-->
 
-<table>
-<thead>
-<tr>
-<th><strong>Erstellen und Verwenden visueller Fragmente</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Visuelle Fragmente sind vordefinierte visuelle Bausteine, die Sie in mehreren E-Mail-Sendungen oder in Inhaltsvorlagen wiederverwenden können. Diese Funktion steht nun allen Kundinnen und Kunden mit Serverbuild 8.6.4 und höher zur Verfügung.</p>
-<img src="assets/do-not-localize/visual-fragment.gif" alt="Abbildung der Erstellung und Verwendung visueller Fragmente in der Web-Benutzeroberfläche von Adobe Campaign">
-<p>Weitere Informationen finden Sie in der <a href="../content/use-visual-fragments.md">entsprechenden Dokumentation</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>
+**E-Mail-Editor**: Um die Barrierefreiheit in der Web-Benutzeroberfläche von Campaign zu verbessern, stehen in der E-Mail-Designer jetzt zwei neue Felder zur Verfügung, die dem `title`- und dem lang-Attribut im `html`-Element Ihres E-Mail-Inhalts entsprechen. Sie können diese Einstellungen zusätzlich zum Feld Preheader im Abschnitt E-Mail-Textkörper definieren.
 
-<table>
-<thead>
-<tr>
-<th><strong>Verwenden eines Drittanbietersystems für Sendungen</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>In der Campaign Web-Benutzeroberfläche können nun externe Sendungen und Versandvorlagen definiert werden. In diesem Modus werden Nachrichten in einer Ausgabedatei zusammengefasst, die für einen externen Anbieter freigegeben werden kann. Standardmäßig wird der externe Versandmodus für den Briefpostkanal verwendet.</p>
-<img src="assets/do-not-localize/external-delivery.gif" alt="Abbildung der Einrichtung des externen Versands in der Web-Benutzeroberfläche von Adobe Campaign">
-<p>Weitere Informationen finden Sie in der <a href="../msg/send-external-deliveries.md">entsprechenden Dokumentation</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>
+<!--
+**Workflow**: You can now select an existing Javascript code in workflow properties or in a Javascript activity.    
+-->
 
-<table>
-<thead>
-<tr>
-<th><strong>Verwalten von Auflistungen</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Sie können Auflistungen nun direkt über die Adobe Campaign Web-Benutzeroberfläche erstellen. Eine Auflistung ist eine Liste von Werten, die vom System zum Auffüllen von Feldern vorgeschlagen werden. Verwenden Sie Auflistungen, um die Werte dieser Felder zu standardisieren, die Dateneingabe zu unterstützen oder sie in Abfragen zu verwenden.</p>
-<img src="assets/do-not-localize/enumerations.gif" alt="Abbildung der Auflistungsverwaltung in der Web-Benutzeroberfläche von Adobe Campaign">
-<p>Weitere Informationen finden Sie in der <a href="../administration/enumerations.md">entsprechenden Dokumentation</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>
+**Schemata**
 
-<table>
-<thead>
-<tr>
-<th><strong>Erstellen benutzerdefinierter Optionen</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Sie können nun in der Adobe Campaign Web-Benutzeroberfläche auf technische Optionen zugreifen und eigene benutzerdefinierte Optionen entsprechend Ihren Anforderungen erstellen. Dies ist besonders nützlich, wenn Sie mit JavaScript-Code-Workflow-Aktivitäten arbeiten, um Zwischenergebnisse zu speichern.</p>
-<img src="assets/do-not-localize/options.gif" alt="Abbildung der Erstellung von benutzerdefinierten Optionen in der Web-Benutzeroberfläche von Adobe Campaign">
-<p>Weitere Informationen finden Sie in der <a href="../administration/options.md">entsprechenden Dokumentation</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>
+* Sie können jetzt das temporäre Schema einer Liste über die Web-Benutzeroberfläche von Campaign bearbeiten. Weitere Informationen finden Sie in der [entsprechenden Dokumentation](../audience/manage-audience.md).
+* Sie können jetzt die benutzerdefinierten Felder eines Schemas in einem Beispielbildschirm in der Vorschau anzeigen. Weitere Informationen finden Sie in der [entsprechenden Dokumentation](../administration/custom-fields.md#add).
+* Benutzerdefinierte Felder können jetzt per Drag-and-Drop in der Liste verschoben werden. Weitere Informationen finden Sie in der [entsprechenden Dokumentation](../administration/custom-fields.md#add).
 
-<table>
-<thead>
-<tr>
-<th><strong>Definieren und Aufrufen von JavaScript-Code</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Sie können nun JavaScript-Code in der Adobe Campaign Web-Benutzeroberfläche erstellen. Auf diese Weise können Sie wiederverwendbare Funktionen erstellen, die in Workflows genutzt werden können, ähnlich wie bei einer Bibliothek.</p>
-<img src="assets/do-not-localize/javascript.gif" alt="Abbildung der Erstellung von JavaScript-Code in der Web-Benutzeroberfläche von Adobe Campaign">
-<p>Weitere Informationen finden Sie in der <a href="../administration/javascript-codes.md">entsprechenden Dokumentation</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>
 
-<table>
-<thead>
-<tr>
-<th><strong>Generieren von Landingpages mit KI-Assistenten</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Der KI-Assistent ist jetzt für Ihre Landingpage-Sendungen verfügbar und ermöglicht Ihnen die Erstellung von Text, Bildern oder vollständigen Seiten-Layouts.</p>
-<img src="assets/do-not-localize/ai-lp.gif" alt="Abbildung der Nutzung des KI-Assistenten für das Generieren von Landingpages in der Web-Benutzeroberfläche von Adobe Campaign">
-<p>Weiterführende Informationen zum KI-Assistenten finden Sie im <a href="../email/generative-lp.md">entsprechenden Handbuch</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>
+### Neue Funktionen in eingeschränkter Verfügbarkeit {#25-4-features-la}
 
-### Verbesserungen {#25-1-improvements}
+>[!AVAILABILITY]
+>
+>Die folgenden Funktionen sind nur eingeschränkt verfügbar. Sie sind auf Kunden beschränkt, die **von Adobe Campaign Standard zu Adobe Campaign v8** migrieren, und können nicht in einer anderen Umgebung bereitgestellt werden. Dazu ist ein Upgrade des Campaign-Servers auf Version 8.7.4 erforderlich.
+>
+>Weitere Informationen finden Sie auf den folgenden Seiten der Dokumentation: [Wechsel von Campaign Standard zu Campaign v8](../rn/acs-migration.md) und [Funktionen für Campaign Standard-Benutzende](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=de).
 
-* Anpassen der Anzeige benutzerdefinierter Felder in der Benutzeroberfläche:
-   * Wählen Sie zusätzliche benutzerdefinierte Felder aus, die in der Benutzeroberfläche angezeigt werden sollen.
-   * Legen Sie Regeln zum Anzeigen benutzerdefinierter Felder vom Typ „Link“ fest, z. B. Listenwerte basierend auf der Eingabe eines anderen Felds beschränken.
-   * Flexiblere Anordnung von Feldern in der Benutzeroberfläche: Felder können sich nun über eine einzelne Spalte erstrecken oder zur besseren Organisation in Unterabschnitten gruppiert werden.
-   * Legen Sie bestimmte Felder als schreibgeschützt fest.
+* **Erstellung eines mehrsprachigen Versands** - Sie können jetzt in der Web-Benutzeroberfläche von Adobe Campaign mehrere E-Mail-Sendungen in verschiedenen Sprachen senden. Mit der Funktion „Mehrsprachiger Versand“ können Sie die Standardsprache Ihres Versands sowie die verschiedenen Sprachen auswählen, in denen der Versand durchgeführt werden kann. Sie können diese Sendungen auch in den von Ihnen ausgewählten Sprachen in der Vorschau anzeigen. Weitere Informationen finden Sie in der [entsprechenden Dokumentation](../email/edit-content.md).
 
-* Filter „Zuletzt ausgewertet“ und „Favoriten“: Fügen Sie häufig verwendete Attribute zu Favoriten hinzu, um schnelleren Zugriff zu ermöglichen. Zusätzlich zu den Favoriten können Sie die zuletzt ausgewählten Attribute anzeigen und verwenden.
+* **Dynamisches Reporting für mehrsprachige**) - Dynamische Berichte sind jetzt für mehrsprachige E-Mail-Sendungen verfügbar. Weitere Informationen finden Sie in der [entsprechenden Dokumentation](../reporting/global-reports.md).
 
-* Externe Konten: Der neue **[!UICONTROL Routing]**-Typ steht beim Erstellen eines neuen externen Kontos zur Auswahl. Damit können Sie ein bestimmtes externes Konto für Ihre externen Sendungen konfigurieren. [Weitere Informationen](../administration/external-account.md#routing).
+* **SMS-REST-API-Unterstützung (LA)** - Die REST-API für Transaktionsnachrichten ist jetzt für den SMS-Kanal verfügbar. Wenn sowohl E-Mail als auch Mobiltelefon in der Payload vorhanden sind, können Sie das Feld „wishChannel“ verwenden, um den Kanal anzugeben. Wenn keine E-Mail-Adresse angegeben wird, wird sie standardmäßig verwendet, es sei denn, WishedChannel fordert explizit SMS an. Weitere Informationen finden Sie in der [entsprechenden Dokumentation](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/apis/managing-transactional-messages){target=_blank}.
+

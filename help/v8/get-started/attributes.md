@@ -3,10 +3,10 @@ audience: end-user
 title: Auswählen von Attributen und Hinzufügen dieser Auswahl zu Favoriten
 description: Erfahren Sie, wie Sie mit Attributen arbeiten und einfach auf bevorzugte und zuletzt verwendete Attribute zugreifen können.
 exl-id: 27663e57-fdab-4371-b7c6-12064ed6526f
-source-git-commit: c0c9c5da3369e55269411b7348004006cd3c139e
-workflow-type: ht
-source-wordcount: '503'
-ht-degree: 100%
+source-git-commit: 6ed904273453ad355c615d330c234462cf3985e8
+workflow-type: tm+mt
+source-wordcount: '506'
+ht-degree: 91%
 
 ---
 
@@ -29,15 +29,15 @@ Die Oberfläche bietet außerdem das Tool „Werteverteilung“, mit dem Sie die
 
 Das Menü **[!UICONTROL Favoriten und zuletzt ausgewertet]** in der Attributauswahl bietet eine organisierte Ansicht der Attribute, die den Favoriten hinzugefügt wurden, sowie eine Liste der zuletzt verwendeten Attribute. Bevorzugte Attribute werden zuerst angezeigt, gefolgt von den zuletzt verwendeten Attributen, sodass die benötigten Attribute leicht gefunden werden können.
 
-![Attributmenü „Favoriten und zuletzt ausgewertet“ mit den bevorzugten und zuletzt verwendeten Attributen](assets/attributes-favorites.png)
+![Attributmenü „Favoriten und zuletzt ausgewertet“ mit den bevorzugten und zuletzt verwendeten Attributen](assets/attributes-favorite.png)
 
-Um ein Attribut zu den Favoriten hinzuzufügen, bewegen Sie den Mauszeiger über die Informationsschaltfläche und wählen Sie das Sternsymbol aus. Das Attribut wird dann automatisch zur Favoritenliste hinzugefügt. Um ein Attribut aus den Favoriten zu entfernen, klicken Sie erneut auf das Sternsymbol.
+Um ein Attribut zu den Favoriten hinzuzufügen, klicken Sie auf die Schaltfläche Erweitern und wählen Sie **[!UICONTROL Zu Favoriten hinzufügen]** aus. Das Attribut wird dann automatisch zur Favoritenliste hinzugefügt. Um ein Attribut aus den Favoriten zu entfernen, klicken Sie erneut auf das Sternsymbol.
 
 Benutzende können bis zu 20 Attribute zu den Favoriten hinzufügen. Allen Benutzenden in einer Organisation werden bevorzugte und zuletzt verwendete Attribute zugeordnet, um die Zugänglichkeit auf verschiedenen Computern und ein nahtloses Erlebnis auf allen Geräten sicherzustellen.
 
 ## Bestimmen der Werteverteilung in einer Tabelle {#distribution}
 
-Mit der Schaltfläche **Werteverteilung** im Informationsbereich eines Attributs können Benutzende die Werteverteilung für dieses Attribut innerhalb der Tabelle analysieren. Diese Funktion ist nützlich, um die verfügbaren Werte, ihre Anzahl und Prozentsätze zu verstehen. Außerdem lassen sich Probleme wie inkonsistente Groß- und Kleinschreibung oder Schreibweisen beim Erstellen von Abfragen oder Ausdrücken vermeiden.
+Mit **Schaltfläche „Werteverteilung**, die beim Klicken auf die Schaltfläche „Erweitern“ neben dem Attribut verfügbar ist, können Benutzer die Werteverteilung für dieses Attribut innerhalb der Tabelle analysieren. Diese Funktion ist nützlich, um die verfügbaren Werte, ihre Anzahl und Prozentsätze zu verstehen. Außerdem lassen sich Probleme wie inkonsistente Groß- und Kleinschreibung oder Schreibweisen beim Erstellen von Abfragen oder Ausdrücken vermeiden.
 
 ![Benutzeroberfläche des Tools „Werteverteilung“ mit Anzeige der Anzahl und der Prozentsätze der Attributwerte](assets/attributes-distribution-values.png)
 

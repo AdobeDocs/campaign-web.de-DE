@@ -2,10 +2,10 @@
 title: Arbeiten mit Schemata
 description: Erfahren Sie, wie Sie mit Schemata arbeiten.
 exl-id: 1433a441-1673-45a2-9fec-be9550fbba0d
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 4aafc800b971ff9ab5e6d07242af2e00de399379
 workflow-type: tm+mt
-source-wordcount: '504'
-ht-degree: 69%
+source-wordcount: '513'
+ht-degree: 66%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 69%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn3"
 >title="Arbeiten mit Schemata"
->abstract="Sie können jetzt auf die Details eines Schemas zugreifen, indem Sie dessen Namen in der Liste auswählen. Die Bearbeitung benutzerdefinierter Felder ist auch über die Schaltfläche **Benutzerdefiniertes Detail bearbeiten** zugänglich."
+>abstract="Sie können jetzt auf die Details eines Schemas zugreifen, indem Sie dessen Namen in der Liste auswählen. Die Bearbeitung benutzerdefinierter Felder ist auch über die Schaltfläche **Bildschirmbearbeitung** zugänglich."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=de" text="Siehe Versionshinweise"
 
 >[!CONTEXTUALHELP]
@@ -73,8 +73,10 @@ Die Registerkarte **[!UICONTROL Daten]** enthält Informationen zu den Schemadat
 
 Benutzerdefinierte Felder sind zusätzliche Attribute, die über die Adobe Campaign-Konsole zu vorkonfigurierten Schemata hinzugefügt werden. Sie ermöglichen es Ihnen, Schemata anzupassen, indem neue Attribute entsprechend den Anforderungen Ihrer Organisation eingefügt werden. 
 
-Benutzerdefinierte Felder können auf verschiedenen Bildschirmen angezeigt werden, z. B. in Profildetails in der Web-Benutzeroberfläche von Campaign. Sie können steuern, welche Felder sichtbar sind und wie sie in der Oberfläche angezeigt werden. Klicken Sie dazu auf die Schaltfläche **[!UICONTROL Benutzerdefinierte Details bearbeiten]** im Menü **[!UICONTROL Schemata]**.
+Benutzerdefinierte Felder können auf verschiedenen Bildschirmen angezeigt werden, z. B. in Profildetails in der Web-Benutzeroberfläche von Campaign. Sie können steuern, welche Felder sichtbar sind und wie sie in der Oberfläche angezeigt werden. Klicken Sie dazu auf die Schaltfläche **[!UICONTROL Bildschirmbearbeitung]** im Menü **[!UICONTROL Schemata]**.
 
 ![Bildschirm für benutzerdefinierte Felder mit bearbeitbaren Attributen](assets/schemas-custom.png)
+
+Klicken Sie **[!UICONTROL Vorschau]**, um die benutzerdefinierten Felder in einem Beispielbildschirm anzuzeigen.
 
 Detaillierte Informationen zum Bearbeiten von benutzerdefinierten Feldern in einem Schema finden Sie in diesem Abschnitt: [Konfigurieren von benutzerdefinierten Feldern](../administration/custom-fields.md).

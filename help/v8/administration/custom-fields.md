@@ -2,10 +2,10 @@
 title: Benutzerdefinierte Felder
 description: Erfahren Sie, wie Sie benutzerdefinierte Felder und ihre Sichtbarkeit in der Benutzeroberfläche konfigurieren.
 exl-id: 34e7e0b7-3981-43b1-95a5-6c672adafdc9
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: f08603afde2493457bc81a0d808b647b70a52f7c
 workflow-type: tm+mt
-source-wordcount: '1003'
-ht-degree: 75%
+source-wordcount: '988'
+ht-degree: 72%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 75%
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields"
->title="Bearbeiten benutzerdefinierter Details"
+>title="Bildschirmbearbeitung"
 >abstract="Alle benutzerdefinierten Felder, die in der Benutzeroberfläche für das ausgewählte Schema angezeigt werden, werden eingeblendet. Sie können die Reihenfolge ändern, in der die Felder in der Benutzeroberfläche angezeigt werden, indem Sie die Pfeile nach oben und unten verwenden, und Felder durch Hinzufügen von Trennzeichen in Unterabschnitten gruppieren. Um ein benutzerdefiniertes Feld zu löschen oder Einstellungen wie etwa Sichtbarkeitsbedingungen zu bearbeiten, klicken Sie auf die Schaltfläche mit den Auslassungspunkten."
 
 >[!CONTEXTUALHELP]
@@ -70,15 +70,19 @@ Gehen Sie wie folgt vor, um benutzerdefinierte Felder in der Benutzeroberfläche
 
    ![Screenshot mit dem Menü „Schemata“ und dem bearbeitbaren Filter im Navigationsbereich](assets/custom-fields-open.png)
 
-1. Wählen Sie den Schemanamen in der Liste aus, um das Schema zu öffnen. Eine detaillierte Schemaansicht wird angezeigt. [Weitere Informationen zu Schemadetails](../administration/schemas.md). Klicken Sie auf die Schaltfläche **[!UICONTROL Benutzerdefinierte Details bearbeiten]**, um auf benutzerdefinierte Felder zuzugreifen. In diesem Beispiel werden Felder für das Schema **[!UICONTROL Empfänger]** hinzugefügt.
+1. Wählen Sie den Schemanamen in der Liste aus, um das Schema zu öffnen. Eine detaillierte Schemaansicht wird angezeigt. [Weitere Informationen zu Schemadetails](../administration/schemas.md). Klicken Sie auf die Schaltfläche **[!UICONTROL Bildschirmbearbeitung]**, um auf benutzerdefinierte Felder zuzugreifen. In diesem Beispiel werden Felder für das Schema **[!UICONTROL Empfänger]** hinzugefügt.
 
-   ![Screenshot mit der Schaltfläche Benutzerdefinierte Details bearbeiten in der Schemaansicht](assets/custom-fields-edit.png)
+   ![Screenshot mit der Schaltfläche für die Bildschirmdefinition in der Schemaansicht](assets/custom-fields-edit.png)
 
-1. Die Liste der benutzerdefinierten Felder, die in der Benutzeroberfläche für das Schema angezeigt werden, wird angezeigt. Hier ist das Feld „Kennung im CRM“ im Detailbildschirm des Profils zu sehen, das als Pflichtfeld markiert ist.
+   Die Liste der benutzerdefinierten Felder, die in der Benutzeroberfläche für das Schema angezeigt werden, wird angezeigt.
 
-   | Konfiguration benutzerdefinierter Felder | Rendern in der Benutzeroberfläche |
-   |  ---  |  ---  |
-   | ![Screenshot mit der Konfiguration der benutzerdefinierten Felder](assets/custom-fields-detail.png){zoomable="yes"} | ![Screenshot zur Darstellung des CRM-ID-Felds in der Benutzeroberfläche](assets/custom-fields-detail-crm.png){zoomable="yes"} |
+1. Klicken Sie auf **[!UICONTROL Vorschau]**, um die benutzerdefinierten Felder in einem Beispielbildschirm anzuzeigen.
+
+   ![](assets/custom-fields-edit2.png)
+
+   Hier wurde das Feld „Betrag“ als Pflichtfeld markiert.
+
+   ![](assets/custom-fields-edit3.png)
 
 1. Um der Benutzeroberfläche ein benutzerdefiniertes Feld hinzuzufügen, klicken Sie auf die Schaltfläche mit den Auslassungspunkten und wählen Sie eine der folgenden Optionen:
 
@@ -89,7 +93,7 @@ Gehen Sie wie folgt vor, um benutzerdefinierte Felder in der Benutzeroberfläche
 
 1. Wenn benutzerdefinierte Felder hinzugefügt wurden, können Sie:
 
-   * **Felder neu anordnen**: Verwenden Sie die Pfeile nach oben und unten.
+   * **Felder neu anordnen**: Verwenden Sie die Pfeile nach oben und unten oder verschieben Sie Felder per Drag-and-Drop.
    * **Felder als Pflichtfelder festlegen**: Aktivieren Sie das Kontrollkästchen **Pflichtfeld**.
    * **Feldeinstellungen bearbeiten**: Klicken Sie auf die Schaltfläche mit den Auslassungspunkten und wählen Sie **[!UICONTROL Bearbeiten]**. [Weitere Informationen](#settings)
    * **Felder löschen**: Klicken Sie auf die Schaltfläche mit den Auslassungspunkten und wählen Sie **[!UICONTROL Löschen]**.
