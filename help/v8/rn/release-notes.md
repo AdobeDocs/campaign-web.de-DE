@@ -2,10 +2,10 @@
 title: Versionshinweise zur Web-Benutzeroberfläche von Campaign v8
 description: Entdecken Sie die neuen Funktionen der neuesten Version der Campaign Web-Benutzeroberfläche
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 589d78737a498ffe91cb49a6f689f4104b244d0b
+source-git-commit: e825b7859bff299906725eddf3ba014ed0b5e1b7
 workflow-type: tm+mt
-source-wordcount: '681'
-ht-degree: 34%
+source-wordcount: '689'
+ht-degree: 35%
 
 ---
 
@@ -92,7 +92,7 @@ ko * Built-in options are now only visible in the list of options if the **Show 
 ko * The typology rules creation screen has been updated to facilitate the selection of the type of rule.
 -->
 
-**E-Mail-Editor**: Um die Barrierefreiheit in der Web-Benutzeroberfläche von Campaign zu verbessern, stehen in der E-Mail-Designer jetzt zwei neue Felder zur Verfügung, die dem `title`- und dem lang-Attribut im `html`-Element Ihres E-Mail-Inhalts entsprechen. Sie können diese Einstellungen zusätzlich zum Feld Preheader im Abschnitt E-Mail-Textkörper definieren.
+**E-Mail-Editor**: Um die Barrierefreiheit in der Web-Benutzeroberfläche von Campaign zu verbessern, stehen in der E-Mail-Designer jetzt zwei neue Felder zur Verfügung, die dem `title`- und dem lang-Attribut im `html`-Element Ihres E-Mail-Inhalts entsprechen. Sie können diese Einstellungen zusätzlich zum Feld Preheader im Abschnitt E-Mail-Textkörper definieren. Weitere Informationen finden Sie in der [entsprechenden Dokumentation](../email/metadata.md).
 
 <!--
 **Workflow**: You can now select an existing Javascript code in workflow properties or in a Javascript activity.    
