@@ -2,9 +2,10 @@
 audience: end-user
 title: Erstellen eines Callcenter-Versands
 description: Erfahren Sie, wie Sie mit Adobe Campaign Web einen Callcenter-Versand erstellen
-source-git-commit: 0721d20ddec3271d9fac5f5645bd5865380ef9ba
+exl-id: fe8d4773-2271-46ec-9b2e-f50311a4ccf3
+source-git-commit: c22011fcc25592bfda2999630bb91e311d85fb1a
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: '738'
 ht-degree: 13%
 
 ---
@@ -16,7 +17,7 @@ Sie können einen eigenständigen Callcenter-Versand erstellen oder einen im Kon
 Gehen Sie wie folgt vor, um einen neuen eigenständigen Callcenter-Versand zu erstellen und zu senden:
 
 1. Versand erstellen, [mehr dazu](#create-delivery)
-1. Auswählen der Audience [mehr dazu](#select-audience)
+1. Definieren Sie die Audience [mehr dazu](#select-audience)
 1. Inhalt bearbeiten, [mehr dazu](#edit-content)
 1. Vorschau und Versand des Versands [mehr dazu](#preview-send)
 
@@ -42,7 +43,7 @@ Führen Sie die folgenden Schritte aus, um den Versand zu erstellen und seine Ei
 >
 >Sie können den Versand so planen, dass er zu einem bestimmten Datum erfolgt. Weitere Informationen hierzu finden Sie in diesem [Abschnitt](../msg/gs-deliveries.md#gs-schedule).
 
-## Auswählen der Zielgruppe{#select-audience}
+## Zielgruppe definieren{#select-audience}
 
 Definieren Sie nun die Audience für die Extraktionsdatei.
 
@@ -65,7 +66,7 @@ Definieren Sie nun die Audience für die Extraktionsdatei.
 
 ## Inhalt bearbeiten{#edit-content}
 
-Entwerfen wir nun den Inhalt der Extraktionsdatei, die vom Callcenter-Versand generiert wird.
+Bearbeiten wir nun den Inhalt der Extraktionsdatei, die vom Callcenter-Versand generiert wird.
 
 1. Klicken Sie auf der Versandseite auf die Schaltfläche **[!UICONTROL Inhalt bearbeiten]**.
 
@@ -101,7 +102,7 @@ Wenn der Versandinhalt fertig ist, können Sie ihn mithilfe von Testprofilen in 
 
 Die wichtigsten Schritte zum Anzeigen einer Vorschau und zum Senden der Extraktionsdatei sind: Weitere Informationen finden Sie auf [dieser Seite](../direct-mail/send-direct-mail.md).
 
-1. Verwenden Sie auf der Seite für den Versandinhalt **[!UICONTROL Inhalt simulieren]**.
+1. Klicken Sie auf der Inhaltsseite des Versands auf die Schaltfläche **[!UICONTROL Inhalt simulieren]**.
 
    ![Screenshot mit der Option „Inhalt simulieren“ auf der Seite mit den Versandinhalten](assets/cc-simulate0.png){zoomable="yes"}
 
@@ -124,5 +125,3 @@ Nach dem Versand wird die Extraktionsdatei automatisch generiert und an den Spei
 Verfolgen Sie Ihre KPI-Daten (Key Performance Indicator) von Ihrer Versandseite und Daten über das Menü **[!UICONTROL Protokolle]**.
 
 Beginnen Sie mit der Messung der Wirkung Ihrer Nachricht mit integrierten Berichten. [Weitere Informationen](../reporting/direct-mail.md)
-
-
