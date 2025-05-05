@@ -85,7 +85,7 @@ Sie können auch vorhandene externe Konten anzeigen, aktualisieren und verwalten
 **Allgemeine Verbesserungen an der Benutzeroberfläche**
 
 * Die Optionen Feldbeschreibung, Zu Favoriten hinzufügen und Verteilung von Werten für Schemaattribute sind jetzt in der Benutzeroberfläche besser sichtbar. Weitere Informationen finden Sie in der [entsprechenden Dokumentation](../get-started/attributes.md).
-* Auf der Benutzeroberfläche werden jetzt Datum und Uhrzeit entsprechend der in den Experience League-Voreinstellungen festgelegten Primärsprache angezeigt. Diese Verbesserung ist nur für mehrere Sprachen verfügbar. Die vollständige Liste der unterstützten Sprachen finden Sie in der [ Dokumentation](https://experienceleague.adobe.com/en/docs/core-services/interface/features/browser-language){target=_blank}.
+* Auf der Benutzeroberfläche werden jetzt Datum und Uhrzeit entsprechend der in den Experience League-Voreinstellungen festgelegten Primärsprache angezeigt. Diese Verbesserung ist nur für mehrere Sprachen verfügbar. Die vollständige Liste der unterstützten Sprachen finden Sie in der [ Dokumentation](https://experienceleague.adobe.com/de/docs/core-services/interface/features/browser-language){target=_blank}.
 
 <!--
 ko * Built-in options are now only visible in the list of options if the **Show advanced options** toggle is activated.
@@ -117,5 +117,5 @@ ko * The typology rules creation screen has been updated to facilitate the selec
 
 * **Dynamisches Reporting für mehrsprachige**) - Dynamische Berichte sind jetzt für mehrsprachige E-Mail-Sendungen verfügbar. Weitere Informationen finden Sie in der [entsprechenden Dokumentation](../reporting/global-reports.md).
 
-* **SMS-REST-API-Unterstützung (LA)** - Die REST-API für Transaktionsnachrichten ist jetzt für den SMS-Kanal verfügbar. Wenn sowohl E-Mail als auch Mobiltelefon in der Payload vorhanden sind, können Sie das Feld „wishChannel“ verwenden, um den Kanal anzugeben. Wenn keine E-Mail-Adresse angegeben wird, wird sie standardmäßig verwendet, es sei denn, WishedChannel fordert explizit SMS an. Weitere Informationen finden Sie in der [entsprechenden Dokumentation](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/apis/managing-transactional-messages){target=_blank}.
+* **SMS-REST-API-Unterstützung (LA)** - Die REST-API für Transaktionsnachrichten ist jetzt für den SMS-Kanal verfügbar. Wenn sowohl E-Mail als auch Mobiltelefon in der Payload vorhanden sind, können Sie das Feld „wishChannel“ verwenden, um den Kanal anzugeben. Wenn keine E-Mail-Adresse angegeben wird, wird sie standardmäßig verwendet, es sei denn, WishedChannel fordert explizit SMS an. Weitere Informationen finden Sie in der [entsprechenden Dokumentation](https://experienceleague.adobe.com/de/docs/experience-cloud/campaign/apis/managing-transactional-messages){target=_blank}.
 

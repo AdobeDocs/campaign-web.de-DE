@@ -129,7 +129,7 @@ Gehen Sie wie folgt vor, um Sprachvarianten zu erstellen:
 
    >[!IMPORTANT]
    >
-   >Die Schaltfläche **[!UICONTROL Sprache hinzufügen]** ist nur verfügbar, wenn die Zieldimension das Sprachschema enthält. Weitere Informationen zu Schemata und Zielgruppendimensionen finden Sie in der [ Dokumentation](https://experienceleague.adobe.com/en/docs/campaign-web/v8/audiences/targeting-dimensions){target=_blank}.
+   >Die Schaltfläche **[!UICONTROL Sprache hinzufügen]** ist nur verfügbar, wenn die Zieldimension das Sprachschema enthält. Weitere Informationen zu Schemata und Zielgruppendimensionen finden Sie in der [ Dokumentation](https://experienceleague.adobe.com/de/docs/campaign-web/v8/audiences/targeting-dimensions){target=_blank}.
 
    ![](assets/edit-content_2.png){zoomable="yes"}
 
@@ -138,7 +138,7 @@ Gehen Sie wie folgt vor, um Sprachvarianten zu erstellen:
 
    >[!NOTE]
    >
-   >Die in dieser Liste verfügbaren Sprachen hängen von den Werten ab, die durch das Attribut Sprache definiert wurden (Werte wie: system, user, dbenum usw.) Weitere Informationen zur Auflistungsverwaltung finden Sie in [Abschnitt](https://experienceleague.adobe.com/en/docs/campaign-web/v8/conf/enumerations){target=_blank}.
+   >Die in dieser Liste verfügbaren Sprachen hängen von den Werten ab, die durch das Attribut Sprache definiert wurden (Werte wie: system, user, dbenum usw.) Weitere Informationen zur Auflistungsverwaltung finden Sie in [Abschnitt](https://experienceleague.adobe.com/de/docs/campaign-web/v8/conf/enumerations){target=_blank}.
 
 
    ![](assets/edit-content_3.png){zoomable="yes"}
