@@ -38,7 +38,7 @@ In der [!DNL Adobe Campaign Web] können Sie mit vier vordefinierten Vorlagen ve
 
    ![Screenshot mit den Eigenschaften und Einstellungen der Landingpage.](assets/lp-uc-properties.png){zoomable="yes"}
 
-1. Auf die Blockierungsliste setzen Wählen Sie je nach Fall die Seite **[!UICONTROL Akquise]**, **[!UICONTROL Abonnement]**, **[!UICONTROL Abmeldung]** oder **** aus.
+1. Auf die Blockierungsliste setzen Wählen Sie je nach Fall die Seite **[!UICONTROL Akquise]**, **[!UICONTROL Abonnement]**, **[!UICONTROL Abmeldung]** oder **&#x200B;**&#x200B;aus.
 
 1. Der Inhalt der Seite wird angezeigt. Wählen Sie den dem Landingpage-Formular entsprechenden Teil aus.
 

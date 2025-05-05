@@ -61,14 +61,14 @@ Führen Sie die nachfolgend aufgeführten Schritte aus, um die Aktivität **Date
    * **[!UICONTROL Existenztest einer Datei]**: Mit dieser Aktivität überprüfen Sie, ob eine bestimmte Datei auf dem Server vorhanden ist. Erzeugt zwei ausgehende Transitionen nach der Aktivität: „Datei existiert“ und „Datei existiert nicht“.
    * **[!UICONTROL Dateiauflistung]**: Mit dieser Aktivität listen Sie alle auf dem Server verfügbaren Dateien auf.
 
-+++
+   +++
 
    +++Mit Aktivitäten des Typs **Web-Download** verfügbare Aktionen
 
    * **[!UICONTROL Einfache Übertragung (GET)]**: Mit dieser Aktivität rufen Sie eine Datei ab.
    * **[!UICONTROL Übertragung mit Formularübermittlung (POST)]**: Mit dieser Aktivität laden Sie eine Datei und zusätzliche Parameter hoch.
 
-+++
+   +++
 
    ![Screenshot mit Optionen für die Workflow-Dateiübertragung](../assets/workflow-transfer-file-action.png)
 
@@ -148,7 +148,7 @@ Jedes Mal, wenn die Aktivität ausgeführt wird, wird der Ordner folgendermaßen
    * **[!UICONTROL Sitzungsprotokolle anzeigen]**: Wenn diese Option aktiviert ist, werden nach Ausführung des Workflows Informationen zum Übertragungsvorgang in den Workflow-Protokollen angezeigt.
    * **[!UICONTROL Alle Dateien auflisten]** (Dateiauflistungsaktionen): Diese Option indiziert alle Dateien, die auf dem Server in der Ereignisvariablen `vars.filenames` vorhanden sind, in der die Dateinamen durch die `n`-Zeichen getrennt sind. [Informationen dazu, wie Sie mit Ereignisvariablen arbeiten](../event-variables.md)
 
-+++
+   +++
 
    +++Zusätzliche Optionen für Aktivitäten des Typs **[!UICONTROL Web-Download]**
 

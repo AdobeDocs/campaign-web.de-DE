@@ -45,7 +45,7 @@ Geben Sie im Feld **Aktionstyp** an, auf welche Weise die Daten aktualisiert wer
 
 Im Feld **Aktualisierungsgröße** wird bestimmt, wie viele Elemente der eingehenden Transition aktualisiert werden. Wenn Sie beispielsweise 500 angeben, werden die ersten 500 verarbeiteten Datensätze aktualisiert.
 
-###   Identifizierung von Einträgen
+### Identifizierung von Einträgen
 
 In diesem Abschnitt können Sie angeben, auf welche Weise die Einträge der Datenbank erkannt werden:
 

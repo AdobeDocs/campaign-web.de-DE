@@ -40,7 +40,8 @@ Im Folgenden finden Sie die verfügbaren Hintergrundeinstellungen, die Sie verwe
   [Wenden Sie über den Navigationsbaum eindeutige Hintergrundfarben auf einzelne Strukturkomponenten an.]\
   ![](assets/background_3.png){zoomable="yes"}
 
-  >[!NOTE]\
+  >[!NOTE]
+  >\
   >Stellen Sie sicher, dass Sie keine Viewport-Hintergrundfarbe festlegen, da dadurch die Strukturhintergrundfarben ausgeblendet werden können.
 
 * Legen Sie für den Inhalt einer Strukturkomponente ein **[!UICONTROL Hintergrundbild]** fest.
@@ -48,7 +49,8 @@ Im Folgenden finden Sie die verfügbaren Hintergrundeinstellungen, die Sie verwe
   [Fügen Sie ein Hintergrundbild zum Inhalt einer bestimmten Strukturkomponente hinzu.]\
   ![](assets/background_4.png){zoomable="yes"}
 
-  >[!NOTE]\
+  >[!NOTE]
+  >\
   >Manche E-Mail-Programme unterstützen keine Hintergrundbilder. Wenn dies nicht unterstützt wird, wird stattdessen die Hintergrundfarbe der Zeile verwendet. Wählen Sie eine entsprechende Fallback-Hintergrundfarbe aus, falls das Bild nicht angezeigt werden kann.
 
 * Legen Sie auf Spaltenebene eine Hintergrundfarbe fest.
@@ -56,7 +58,8 @@ Im Folgenden finden Sie die verfügbaren Hintergrundeinstellungen, die Sie verwe
   [Wenden Sie für mehr Flexibilität eine Hintergrundfarbe auf Spaltenebene an.]\
   ![](assets/background_5.png){zoomable="yes"}
 
-  >[!NOTE]\
+  >[!NOTE]
+  >\
   >Dies ist der häufigste Anwendungsfall. Adobe empfiehlt, Hintergrundfarben auf Spaltenebene festzulegen, da dies bei der Bearbeitung des gesamten E-Mail-Inhalts mehr Flexibilität bietet.
 
   Sie können auch ein Hintergrundbild auf Spaltenebene einrichten, was aber nur selten verwendet wird.

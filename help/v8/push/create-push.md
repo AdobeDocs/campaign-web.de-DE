@@ -51,7 +51,8 @@ Konfigurieren Sie Ihre Versandeinstellungen wie unten beschrieben:
    * **[!UICONTROL Versand-Code]**: Verwenden Sie dieses Feld, um Ihre Sendungen basierend auf Ihrer eigenen Namenskonvention zu organisieren.
    * **[!UICONTROL Beschreibung]**: Geben Sie eine Beschreibung für den Versand an.
    * **[!UICONTROL Art]**: Geben Sie die Art des Versands zu Klassifizierungszwecken an.
-+++
+
+   +++
 
 ## Auswählen der Zielgruppe für den Push-Versand {#create-audience-push}
 

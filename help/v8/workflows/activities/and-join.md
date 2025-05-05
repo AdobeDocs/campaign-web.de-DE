@@ -35,7 +35,7 @@ Führen Sie die folgenden Schritte aus, um die Aktivität **Und-Verknüpfung** z
 1. Fügen Sie mehrere Aktivitäten hinzu, z. B. Kanalaktivitäten, um mindestens zwei verschiedene Ausführungszweige zu bilden.
 1. Fügen Sie die Aktivität **Und-Verknüpfung** zu einer der Verzweigungen hinzu.
 1. Aktivieren Sie **Abschnitt „Zusammenführungsoptionen** alle vorherigen Aktivitäten, die Sie zusammenführen möchten.
-1. Wählen Sie in der Dropdown-**** Primär die Population der eingehenden Transition aus, die beibehalten werden soll. Die ausgehende Transition darf nur eine der Populationen der eingehenden Transition enthalten.
+1. Wählen Sie in der Dropdown-**&#x200B;** Primär die Population der eingehenden Transition aus, die beibehalten werden soll. Die ausgehende Transition darf nur eine der Populationen der eingehenden Transition enthalten.
 
 ## Beispiel {#and-join-example}
 

@@ -16,7 +16,7 @@ ht-degree: 37%
 
 Die Integration der Adobe Campaign-Web-Benutzeroberfläche mit Adobe Experience Manager ermöglicht die optimierte Verwaltung von E-Mail-Versandinhalten und -Formularen direkt in der Adobe Experience Manager-Plattform.
 
-![](assets/do-not-localize/book.png)[Erfahren Sie mehr über Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/getting-started/quick-start.html?lang=de)
+![](assets/do-not-localize/book.png) [Erfahren Sie mehr über Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/getting-started/quick-start.html?lang=de)
 
 ## Erstellen einer Vorlage in [!DNL Adobe Experience Manager as a Cloud Service]{#create-aem-template}
 

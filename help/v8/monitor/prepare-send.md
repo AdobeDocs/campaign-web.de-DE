@@ -51,7 +51,7 @@ Die wichtigsten Schritte zur Versandvorbereitung sind unten aufgeführt.
 
    * **[!UICONTROL Zielgruppe]**: Anzahl der Zielgruppenempfängerinnen und -empfänger.
    * **[!UICONTROL Zu versenden]**: die Anzahl der zu sendenden Nachrichten.
-   * **[!UICONTROL Auszuschließen]**[: Anzahl der Nachrichten, die durch eine Typologieregel ausgeschlossen werden](../advanced-settings/delivery-settings.md#typology).
+   * **[!UICONTROL Auszuschließen]**&#x200B;[: Anzahl der Nachrichten, die durch eine Typologieregel ausgeschlossen werden](../advanced-settings/delivery-settings.md#typology).
 
 1. Klicken Sie auf **[!UICONTROL Protokolle]** und vergewissern Sie sich, dass keine Fehler vorliegen. Die letzte Log-Nachricht zeigt eventuelle Fehler und deren Anzahl an. [Weitere Informationen](delivery-logs.md)
 

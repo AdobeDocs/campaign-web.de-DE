@@ -60,7 +60,8 @@ Gehen Sie folgendermaßen vor, um die Aktivität **Planung** zu konfigurieren:
    * **Permanent (läuft nie ab)**: Der Workflow wird mit der angegebenen Häufigkeit ausgeführt, ohne Begrenzung des Zeitrahmens oder der Anzahl der Iterationen.
    * **Gültigkeitszeitraum**: Der Workflow wird entsprechend der angegebenen Häufigkeit bis zu einem bestimmten Datum ausgeführt. Geben Sie das Start- und Enddatum an.
 
->[!NOTE]\
+>[!NOTE]
+>\
 >Wenn Sie den Workflow sofort starten möchten, klicken Sie in der oberen Aktionsleiste **Planung auf** Aufgabe ausführen. Diese Schaltfläche ist nur verfügbar, wenn der Workflow gestartet wurde.
 
 ## Beispiel {#scheduler-example}
