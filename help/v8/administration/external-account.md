@@ -2,14 +2,20 @@
 title: Verwalten eines externen Kontos
 description: Informationen zum Konfigurieren externer Konten
 exl-id: e37d6cb0-f8fa-4f1c-9cdd-46f9666c2d18
-source-git-commit: 59f41ed2074484727a66a164b3633cb113b1f4af
+source-git-commit: 609718356ace500b831601dac077f9a3333e00e9
 workflow-type: tm+mt
-source-wordcount: '1342'
-ht-degree: 36%
+source-wordcount: '1378'
+ht-degree: 35%
 
 ---
 
 # Verwalten externer Konten {#external-accounts}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn3"
+>title="Erstellen externer Konten"
+>abstract="Als Campaign-Administrator können Sie jetzt über die Campaign Web-Benutzeroberfläche neue Verbindungen mit externen Systemen einrichten. Sie können auch vorhandene externe Konten anzeigen, aktualisieren und verwalten."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=de" text="Siehe Versionshinweise"
 
 Adobe Campaign enthält vorkonfigurierte externe Konten für eine einfache Integration in verschiedene Systeme. Um eine Verbindung zu zusätzlichen Plattformen herzustellen oder Verbindungen an Ihren Workflow anzupassen, erstellen Sie neue externe Konten über die Web-Benutzeroberfläche. Dies gewährleistet eine nahtlose Datenübertragung.
 
@@ -200,7 +206,7 @@ Um über eine Adobe ID eine Verbindung zur Adobe Campaign-Konsole herzustellen, 
 
 ### Amazon Simple Storage Service (S3) {#amazon-simple-storage-service--s3--external-account}
 
-Der Amazon Simple Storage Service (S3)-Connector kann zum Importieren oder Exportieren von Daten in Adobe Campaign verwendet werden. Sie kann in einer Workflow-Aktivität eingerichtet werden. Weitere Informationen hierzu finden Sie auf [dieser Seite](https://experienceleague.adobe.com/de/docs/campaign-web/v8/wf/design-workflows/transfer-file){target=_blank}.
+Der Amazon Simple Storage Service (S3)-Connector kann zum Importieren oder Exportieren von Daten in Adobe Campaign verwendet werden. Sie kann in einer Workflow-Aktivität eingerichtet werden. Weitere Informationen hierzu finden Sie auf [dieser Seite](https://experienceleague.adobe.com/en/docs/campaign-web/v8/wf/design-workflows/transfer-file){target=_blank}.
 
 ![](assets/external-AWS.png)
 
@@ -231,7 +237,7 @@ Informationen dazu, wo Sie die Kennung des Zugriffsschlüssels und den geheimen 
 
 ### Azur Blob-Speicherung {#azure-blob-external-account}
 
-Das externe **[!UICONTROL Azure Blob Storage]**-Konto kann mithilfe einer Workflow-Aktivität vom Typ **[!UICONTROL Dateiübertragung“ zum Importieren]** Exportieren von Daten in Adobe Campaign verwendet werden. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](https://experienceleague.adobe.com/de/docs/campaign-web/v8/wf/design-workflows/transfer-file){target=_blank}.
+Das externe **[!UICONTROL Azure Blob Storage]**-Konto kann mithilfe einer Workflow-Aktivität vom Typ **[!UICONTROL Dateiübertragung“ zum Importieren]** Exportieren von Daten in Adobe Campaign verwendet werden. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](https://experienceleague.adobe.com/en/docs/campaign-web/v8/wf/design-workflows/transfer-file){target=_blank}.
 
 ![](assets/external-azure.png)
 
@@ -251,7 +257,7 @@ Um das externe **[!UICONTROL Azure]** Konto für die Verwendung mit Adobe Campai
 
 ## Hadoop
 
-Mit dem externen Konto Hadoop können Sie Ihre Campaign-Instanz mit Ihrer externen Hadoop-Datenbank verbinden. Weitere Informationen zu Hadoop finden Sie in der Dokumentation zur [ v7-Konsole](https://experienceleague.adobe.com/de/docs/campaign-classic/using/installing-campaign-classic/accessing-external-database/configure-fda/config-databases/configure-fda-hadoop){target=_blank}.
+Mit dem externen Konto Hadoop können Sie Ihre Campaign-Instanz mit Ihrer externen Hadoop-Datenbank verbinden. Weitere Informationen zu Hadoop finden Sie in der Dokumentation zur [ v7-Konsole](https://experienceleague.adobe.com/en/docs/campaign-classic/using/installing-campaign-classic/accessing-external-database/configure-fda/config-databases/configure-fda-hadoop){target=_blank}.
 
 ![Screenshot der Konfiguration für das externe Hadoop-Konto.](assets/external-hadoop.png)
 
