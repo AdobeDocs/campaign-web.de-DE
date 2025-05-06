@@ -84,7 +84,7 @@ Um ein neues Zielgruppen-Mapping zu erstellen, rufen Sie das Menü **[!UICONTROL
 
    1. **[!UICONTROL Trackinglogs]**: Aktivieren Sie die Option **[!UICONTROL Schema für das Tracking erstellen]**, um ein Speicherschema für Trackinglogs zu generieren.
 
-+++
+   +++
 
 1. Verwenden Sie den Abschnitt **[!UICONTROL Zuordnung]**, um festzulegen, welche Attribute aus dem Schema des Zielgruppen-Mappings für jedes Feld der Versandadresse verwendet werden sollen. Wählen Sie für jedes Feld das gewünschte Attribut aus, das zugeordnet werden soll. Sie können auch einen Ausdruck erstellen, um das Feld zu identifizieren. Wenden Sie beispielsweise eine niedrigere Funktion auf das Adressattribut an.
 
