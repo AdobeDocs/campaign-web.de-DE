@@ -3,7 +3,7 @@ audience: end-user
 title: Arbeiten mit Geschäftsregeln (Typologien)
 description: Erfahren Sie, wie Sie mit Typologien und Typologieregeln arbeiten können, um den Versand von Sendungen zu steuern, zu filtern und zu überwachen.
 exl-id: 54fdd03a-e49d-4f22-b6d4-6055c8922e58
-source-git-commit: f676ecd055cd9b9ea5c0e724c479e9ba6dbda73d
+source-git-commit: 4444fc6742754137d1d73d7ea8bc12388ce1bc7d
 workflow-type: tm+mt
 source-wordcount: '1474'
 ht-degree: 39%
@@ -13,7 +13,7 @@ ht-degree: 39%
 # Arbeiten mit Geschäftsregeln (Typologien) {#typologies}
 
 >[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn1"
+>id="acw_homepage_welcome_rn4"
 >title="Geschäftsregeln"
 >abstract="Sie können jetzt Typologien und Typologieregeln in der Adobe Campaign Web-Benutzeroberfläche erstellen. Mit Typologien können Sie die Durchführung von Sendungen steuern, filtern und priorisieren."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=de" text="Siehe Versionshinweise"
@@ -134,7 +134,7 @@ So definieren Sie die Eigenschaften der Typologieregel:
 
    **[!UICONTROL Am Ende der Analyse]**: Übernehmen Sie Prüfungen, für die eine vollständige Nachrichtenpersonalisierung erforderlich ist.
 
-   +++
++++
 
    * **[!UICONTROL Level]**: Geben Sie die Warnstufe für die Regel an. Erweitern Sie die folgenden Abschnitte, um weitere Informationen zu erhalten.
 
@@ -148,7 +148,7 @@ So definieren Sie die Eigenschaften der Typologieregel:
 
    **[!UICONTROL Verbose]**: Es werden Informationen in den Serverlogs angezeigt.
 
-   +++
++++
 
 ### Erstellen des Regelinhalts {#build}
 

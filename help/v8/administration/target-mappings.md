@@ -2,17 +2,17 @@
 title: Verwalten von Zielgruppen-Mappings
 description: Erfahren Sie, wie Sie Zielgruppen-Mappings verwalten.
 exl-id: 144d5650-9632-4af3-b64e-f6e81503a621
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 4444fc6742754137d1d73d7ea8bc12388ce1bc7d
 workflow-type: tm+mt
 source-wordcount: '808'
-ht-degree: 54%
+ht-degree: 52%
 
 ---
 
 # Verwalten von Zielgruppen-Mappings {#target-mappings}
 
 >[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn2"
+>id="acw_homepage_welcome_rn5"
 >title="Zielgruppen-Mappings"
 >abstract="Sie können jetzt Zielgruppen-Mappings in der Campaign Web-Benutzeroberfläche erstellen. Zielgruppen-Mappings definieren, wie verschiedene Versandkanäle (E-Mail, SMS, Push-Benachrichtigungen) mit den Datenfeldern eines Schemas verknüpft werden."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=de" text="Siehe Versionshinweise"
@@ -30,7 +30,7 @@ Zielgruppen-Mappings sind über das Menü **[!UICONTROL Administration]** > **[!
 
 ![Bildschirm mit der Liste der Zielgruppen-Mappings mit den verfügbaren Mappings](assets/target-mappings-list.png)
 
-Weitere Informationen zu den in Adobe Campaign bereitgestellten integrierten Zielgruppen-Mappings finden Sie in der [Dokumentation zur Client-Konsole von Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=de){target="_blank"}.
+Weitere Informationen zu den in Adobe Campaign bereitgestellten integrierten Zielgruppen-Mappings finden Sie in der Dokumentation zur [ v8-Client-Konsole](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=de){target="_blank"}.
 
 ## Erstellen eines Zielgruppen-Mappings {#create-mapping}
 
@@ -84,7 +84,7 @@ Um ein neues Zielgruppen-Mapping zu erstellen, rufen Sie das Menü **[!UICONTROL
 
    1. **[!UICONTROL Trackinglogs]**: Aktivieren Sie die Option **[!UICONTROL Schema für das Tracking erstellen]**, um ein Speicherschema für Trackinglogs zu generieren.
 
-   +++
++++
 
 1. Verwenden Sie den Abschnitt **[!UICONTROL Zuordnung]**, um festzulegen, welche Attribute aus dem Schema des Zielgruppen-Mappings für jedes Feld der Versandadresse verwendet werden sollen. Wählen Sie für jedes Feld das gewünschte Attribut aus, das zugeordnet werden soll. Sie können auch einen Ausdruck erstellen, um das Feld zu identifizieren. Wenden Sie beispielsweise eine niedrigere Funktion auf das Adressattribut an.
 
