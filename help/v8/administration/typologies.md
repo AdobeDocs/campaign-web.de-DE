@@ -134,7 +134,7 @@ So definieren Sie die Eigenschaften der Typologieregel:
 
    **[!UICONTROL Am Ende der Analyse]**: Übernehmen Sie Prüfungen, für die eine vollständige Nachrichtenpersonalisierung erforderlich ist.
 
-   +++
++++
 
    * **[!UICONTROL Level]**: Geben Sie die Warnstufe für die Regel an. Erweitern Sie die folgenden Abschnitte, um weitere Informationen zu erhalten.
 
@@ -148,7 +148,7 @@ So definieren Sie die Eigenschaften der Typologieregel:
 
    **[!UICONTROL Verbose]**: Es werden Informationen in den Serverlogs angezeigt.
 
-   +++
++++
 
 ### Erstellen des Regelinhalts {#build}
 
