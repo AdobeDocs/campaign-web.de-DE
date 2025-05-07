@@ -3,7 +3,7 @@ audience: end-user
 title: Verwenden der Workflow-Aktivität „Planung“
 description: Erfahren Sie, wie Sie die Workflow-Aktivität „Planung“ verwenden.
 exl-id: 84142fbe-fd8a-4329-88a5-cf7a8f4e8b8f
-source-git-commit: d982d55a7667442f4ff4751dbaa29dfaa243b22c
+source-git-commit: 058a9347329b35e49463b7d74bffa5b3c69b4a92
 workflow-type: tm+mt
 source-wordcount: '505'
 ht-degree: 40%
@@ -61,7 +61,6 @@ Gehen Sie folgendermaßen vor, um die Aktivität **Planung** zu konfigurieren:
    * **Gültigkeitszeitraum**: Der Workflow wird entsprechend der angegebenen Häufigkeit bis zu einem bestimmten Datum ausgeführt. Geben Sie das Start- und Enddatum an.
 
 >[!NOTE]
->\
 >Wenn Sie den Workflow sofort starten möchten, klicken Sie in der oberen Aktionsleiste **Planung auf** Aufgabe ausführen. Diese Schaltfläche ist nur verfügbar, wenn der Workflow gestartet wurde.
 
 ## Beispiel {#scheduler-example}
