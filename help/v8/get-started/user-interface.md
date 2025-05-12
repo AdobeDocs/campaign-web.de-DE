@@ -2,10 +2,14 @@
 audience: end-user
 title: Erkunden der Benutzeroberfläche
 description: Adobe Campaign Web-Benutzeroberfläche
+hidefromtoc: true
+hide: true
+robots: noindex
+googlebot: noindex
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 19a7540af7502709b7eafdace038b5958e077173
 workflow-type: tm+mt
-source-wordcount: '1548'
+source-wordcount: '1521'
 ht-degree: 100%
 
 ---
@@ -156,7 +160,7 @@ Erfahren Sie, wie Sie in E-Mails und SMS Angebote erstellen und senden, in [dies
 
 * **Schemata**: Benutzerdefinierte Felder sind zusätzliche Attribute, die über die Adobe Campaign-Konsole zu nativen Schemata hinzugefügt werden. [Weitere Informationen](../administration/custom-fields.md).
 
-* **Versandwarnung**: Bei Versandwarnungen handelt es sich um ein System zum Warnungs-Management, über das Benutzergruppen automatisch E-Mail-Benachrichtigungen mit Informationen zu ihren Versandausführungen erhalten.  [Weitere Informationen](../msg/delivery-alerting.md).
+<!--* **Delivery Alerting** - Delivery Alerting is an alert management system that enables groups of users to automatically receive email notifications with information on their delivery executions. [Learn more](../msg/delivery-alerting.md).-->
 
 ## Weitere Informationen {#learn-more}
 

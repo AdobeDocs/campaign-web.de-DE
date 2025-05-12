@@ -2,8 +2,12 @@
 audience: end-user
 title: Versandwarnung
 description: Erfahren Sie, wie Sie mit Versandwarnungen arbeiten können.
+hidefromtoc: true
+hide: true
+robots: noindex
+googlebot: noindex
 exl-id: b91ef82b-f3e9-4704-87a2-0e3f75104572
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 19a7540af7502709b7eafdace038b5958e077173
 workflow-type: tm+mt
 source-wordcount: '1115'
 ht-degree: 87%
@@ -77,7 +81,7 @@ Gehen Sie wie folgt vor, um ein Versand-Dashboard zu erstellen:
    * **Erwarteter Mindestdurchsatz (in gesendeten Nachrichten pro Stunde)**: Nur Sendungen mit einem Durchsatz, der unter dem festgelegten Wert liegt, werden für die Bedingung „Sendungen mit geringem Durchsatz“ berücksichtigt.
    * **Für Kriterium &#39;Versand gestartet&#39; erforderliche Mindestverarbeitungsrate**: Nur Sendungen mit einem Prozentsatz an verarbeiteten Nachrichten, der über dem festgelegten Wert liegt, werden berücksichtigt.
 
-   +++
++++
 
 1. Warnungs-Dashboards sind standardmäßig deaktiviert, d. h., mit diesem Dashboard verknüpfte E-Mail-Warnungen werden nicht gesendet. Um das Dashboard sofort zu aktivieren, schalten Sie die Option **Aktiviert** im Abschnitt **Allgemein** neben dem Feld für die Warnungsgruppenauswahl ein.
 
