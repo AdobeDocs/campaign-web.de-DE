@@ -3,9 +3,9 @@ title: Herstellen einer Verbindung zur Adobe Campaign Web-Benutzeroberfläche
 description: Erfahren Sie, wie Sie eine Verbindung mit der Benutzeroberfläche von Adobe Campaign Web herstellen.
 exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
 source-git-commit: 497335e6f176d33c4e9cd214abf46665ad75e1eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '919'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -124,7 +124,7 @@ Adobe Campaign Web ist derzeit in den folgenden Sprachen verfügbar:
 * Vereinfachtes Chinesisch – CHS
 * Traditionelles Chinesisch – CHT
 
-Darüber hinaus kann die gebietsschemaspezifische Formatierung (z. B. Daten, Zeiten, Kalender, Zahlen) auch in Varianten der von der Benutzeroberfläche unterstützten Sprachen verfügbar sein:
+Darüber hinaus kann eine gebietsschemaspezifische Formatierung (z. B. Daten, Zeiten, Kalender, Zahlen) auch in Varianten der von der Benutzeroberfläche unterstützten Sprachen verfügbar sein:
 
 * Englisch (Israel)
 * Englisch (Vereinigtes Königreich)

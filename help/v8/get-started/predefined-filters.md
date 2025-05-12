@@ -3,9 +3,9 @@ title: Arbeiten mit vordefinierten Filtern
 description: Erfahren Sie, wie Sie in Adobe Campaign Web vordefinierte Filter erstellen und verwalten
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
 source-git-commit: 1a751aed6d5185e700dafb1de2afd88300dfcd79
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '803'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 98%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_filter"
 >title="Erstellen eines Warnungskriteriums"
->abstract="Sie können Ihre eigenen Versandfilter über das Menü Kundenverwaltung > Vordefinierte Filter erstellen."
+>abstract="Sie können Ihre eigenen Versandfilter über das Menü „Kunden-Management“ > „Vordefinierte Filter“ erstellen."
 
 Vordefinierte Filter sind benutzerdefinierte Filter, die für zukünftige Verwendungen erstellt und gespeichert werden. Sie fungieren beim Filtern von Vorgängen mit dem Abfrage-Modeler als Verknüpfungen. Sie können beispielsweise beim Filtern einer Datenliste oder beim Erstellen der Zielgruppe eines Versands verwendet werden.
 

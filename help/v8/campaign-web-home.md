@@ -4,9 +4,9 @@ description: Hilfe-Center zu Campaign Web
 title: Produktdokumentation zu Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 source-git-commit: f1d244a015f2e8e629567d09bafc571b656857a4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '460'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -52,9 +52,9 @@ Hier erhalten Sie einen Einblick in die neuesten Verbesserungen in Adobe Campaig
 >[!BEGINTABS]
 
 
->[!TAB Version April &#39;25]
+>[!TAB Version April 2025]
 
-Die April-Version ist jetzt verfügbar, einschließlich des Callcenter-Kanals, des neuen Regel-Builders und weiterer Verbesserungen.
+Die Version April ist jetzt live. Sie umfasst den Callcenter-Kanal, den neuen Regel-Builder sowie weiterer Verbesserungen.
 
 [![Schaltfläche „Weitere Informationen“](assets/do-not-localize/learn-more-button.svg)](../v8/rn/release-notes.md)
 
@@ -132,5 +132,5 @@ Häufig gestellte Fragen zur Campaign Web-Benutzeroberfläche werden auf einer 
 
 ## Zusätzliche Ressourcen
 
-* [Adobe Campaign-Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}
-* Dokumentation zu [Adobe Campaign v8](https://experienceleague.adobe.com/docs/campaign-v8.html?lang=de){target="_blank"}
+* [Adobe Campaign – Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}
+* [Dokumentation zu Adobe Campaign v8](https://experienceleague.adobe.com/docs/campaign-v8.html?lang=de){target="_blank"}

@@ -4,9 +4,9 @@ title: Bearbeiten des E-Mail-Inhalts
 description: Informationen dazu, wie Sie damit beginnen können, mit dem E-Mail-Designer in der Campaign Web-Benutzeroberfläche Inhalte zu erstellen
 exl-id: a5b966bb-09da-4a50-98d4-010fdfbb75cf
 source-git-commit: d7fc756b2e1d94b43c76ced748e1bf7c7ae5da0d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '409'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ The Email Designer allows you to create email content and email content template
 
 Beachten Sie beim Senden von E-Mails, dass die Empfängerinnen und Empfänger sie weiterleiten könnten, was manchmal zu Problemen mit dem Rendering der E-Mail führen kann. Dies gilt insbesondere bei der Verwendung von CSS-Klassen, die vom E-Mail-Anbieter, über den die Weiterleitung läuft, möglicherweise nicht unterstützt werden. Wenn Sie beispielsweise die CSS-Klasse „is-desktop-hidden“ verwenden, um ein Bild auf Mobilgeräten auszublenden, wird es möglicherweise nicht korrekt gerendert.
 
-Um diese Rendering-Probleme zu minimieren, empfehlen wir, die Struktur des E-Mail-Designs so einfach wie möglich zu halten. Versuchen Sie, ein einziges Design zu verwenden, das sowohl für Desktop- als auch für Mobilgeräte gut funktioniert, und vermeiden Sie die Verwendung komplexer CSS-Klassen oder anderer Design-Elemente, die möglicherweise nicht von allen E-Mail-Clients vollständig unterstützt werden. Wenn Sie Bilder in Ihren E-Mails verwenden, vermeiden Sie Bilder, die größer als 2 MB sind, oder verwenden Sie kodierte Bild-Links.
+Um diese Rendering-Probleme zu minimieren, empfehlen wir, die Struktur des E-Mail-Designs so einfach wie möglich zu halten. Versuchen Sie, ein einziges Design zu verwenden, das sowohl für Desktop- als auch für Mobilgeräte gut funktioniert, und vermeiden Sie die Verwendung komplexer CSS-Klassen oder anderer Design-Elemente, die möglicherweise nicht von allen E-Mail-Clients vollständig unterstützt werden. Vermeiden Sie in Ihren E-Mails Bilder, die größer als 2 MB sind, oder nutzen Sie kodierte Bild-Links.
 
 Mithilfe dieser Best Practices können Sie sicherstellen, dass Ihre E-Mails konsistent gerendert werden, unabhängig davon, wie sie von Empfängerinnen und Empfängern angezeigt oder weitergeleitet werden.
 
