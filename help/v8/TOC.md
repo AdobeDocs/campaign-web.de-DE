@@ -8,7 +8,7 @@ breadcrumb-title: Campaign Web-Benutzeroberfläche
 source-git-commit: 61078f86bcd433b1bc3a995489f283eb709b3687
 workflow-type: tm+mt
 source-wordcount: '828'
-ht-degree: 93%
+ht-degree: 99%
 
 ---
 
@@ -53,7 +53,7 @@ ht-degree: 93%
    + Push-Benachrichtigungen {#push}
       + [Erste Schritte mit Push-Benachrichtigungen](push/gs-push.md)
       + [Erstellen eines Push-Benachrichtigungs-Versands](push/create-push.md)
-      + Rich Push {#rich-push}
+      + Rich-Push {#rich-push}
          + [Entwerfen eines Rich-Push-Versands für Android](push/rich-push.md)
          + [Erstellen eines Rich-Push-Versands für iOS](push/rich-push-ios.md)
       + [Entwerfen eines Push-Versands](push/content-push.md)
@@ -63,14 +63,14 @@ ht-degree: 93%
       + [Erstellen eines SMS-Versands](sms/create-sms.md)
       + [Gestalten eines SMS-Versands](sms/content-sms.md)
       + [Vorschau und Senden eines SMS-Versands](sms/send-sms.md)
-   + Briefpost {#direct-mail}
+   + Direkt-Mail {#direct-mail}
       + [Erste Schritte mit Briefpostsendungen](direct-mail/gs-direct-mail.md)
       + [Erstellen eines Briefpostversands](direct-mail/create-direct-mail.md)
       + [Gestalten der Extraktionsdatei](direct-mail/content-direct-mail.md)
       + [Vorschau und Durchführen eines Briefpostversands](direct-mail/send-direct-mail.md)
    + Callcenter {#call-center}
       + [Erste Schritte mit Callcenter-Sendungen](call-center/gs-call-center.md)
-      + [Erstellen und Senden eines Callcenter-Versands](call-center/create-call-center.md)
+      + [Erstellen und Durchführen eines Callcenter-Versands](call-center/create-call-center.md)
    + Transaktionsnachrichten {#transactional-messages}
       + [Erste Schritte mit Transaktionsnachrichten](transactional-messaging/transactional.md)
       + [Erstellen einer Transaktionsnachricht](transactional-messaging/create-transactional.md)
@@ -90,7 +90,7 @@ ht-degree: 93%
       + [Versandwarnungs-Dashboards](msg/delivery-alerting-dashboards.md)
       + [Versandwarnungskriterien](msg/delivery-alerting-criteria.md)
 + Content-Management {#content}
-   + Dynamische Inhalte erstellen {#dynamic-content}
+   + Erstellen dynamischer Inhalte {#dynamic-content}
       + [Wie lässt sich der Inhalt dynamisch gestalten?](personalization/gs-personalization.md)
       + [Hinzufügen von Personalisierung](personalization/personalize.md)
       + [Erstellen bedingter Inhalte](personalization/conditions.md)
@@ -103,12 +103,12 @@ ht-degree: 93%
          + [Verwenden von Ausdrucksfragmenten im Ausdruckseditor](content/use-expression-fragments.md)
    + Entwerfen von E-Mails {#email-design}
       + [Erste Schritte mit dem E-Mail-Designer](email/get-started-email-designer.md)
-      + E-Mail gestalten {#start-design}
+      + Gestalten Ihrer E-Mail {#start-design}
          + [Beginnen von Grund auf](email/create-email-content.md)
          + [Importieren Ihrer E-Mail-Inhalte](email/existing-content.md)
          + [Codieren Sie Ihre eigenen Inhalte](email/code-content.md)
          + [Verwenden von E-Mail-Inhaltsvorlagen](email/use-email-templates.md)
-      + Inhalte gestalten {#design-content}
+      + Entwerfen Ihres Inhalts {#design-content}
          + [Verwenden von Inhaltskomponenten](email/content-components.md)
          + [Hinzufügen von Links und Verfolgen von Nachrichten](email/message-tracking.md)
          + [Hinzufügen eines Links zur Mirrorseite](email/mirror-page.md)
@@ -136,7 +136,7 @@ ht-degree: 93%
    + [Entwerfen von Inhalten für eine Landingpage](landing-pages/lp-content.md)
    + [Arbeiten mit Landingpage-Vorlagen](landing-pages/lp-templates.md)
    + [Lernen durch Anwendungsfälle](landing-pages/lp-use-cases.md)
-+ Profile und Audiences  {#audiences}
++ Profile und Zielgruppen  {#audiences}
    + [Erste Schritte mit Profilen und Zielgruppen](audience/gs-audiences-recipients.md)
    + [Targeting-Dimensionen](audience/targeting-dimensions.md)
    + [Quarantäne](audience/quarantine.md)
@@ -148,7 +148,7 @@ ht-degree: 93%
    + Verwenden von Zielgruppen {#audiences}
       + [Erste Schritte mit Zielgruppen](audience/manage-audience.md)
       + [Erstellen von Zielgruppen](audience/create-audience.md)
-   + Auswählen der Versandempfänger {#target-audiences}
+   + Auswählen der Versandempfängerinnen und -empfänger {#target-audiences}
       + [Erste Schritte mit der Zielgruppenauswahl](audience/delivery-recipients.md)
       + [Auswählen einer bestehenden Zielgruppe](audience/add-audience.md)
       + [Erstellen einer einmaligen Zielgruppe](audience/one-time-audience.md)
@@ -157,8 +157,8 @@ ht-degree: 93%
       + [Hinzufügen einer Trap-Gruppe](audience/trap-group.md)
    + Arbeiten mit Anmeldediensten {#work-with-services}
       + [Erstellen und Verwalten von Abonnements](audience/manage-services.md)
-      + [Verwalten von Abonnenten](audience/manage-subscribers.md)
-+ Kanalübergreifende Kampagnen {#campaigns}
+      + [Verwalten von Abonnierenden](audience/manage-subscribers.md)
++ Cross-Channel-Kampagnen {#campaigns}
    + [Erste Schritte mit Kampagnen](campaigns/gs-campaigns.md)
    + [Zugreifen auf und Verwalten von Kampagnen](campaigns/manage-campaigns.md)
    + [Erste Kampagne erstellen](campaigns/create-campaigns.md)
