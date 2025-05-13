@@ -2,10 +2,10 @@
 title: Versionshinweise zur Web-Benutzeroberfläche von Campaign v8
 description: Entdecken Sie die neuen Funktionen der neuesten Version der Campaign Web-Benutzeroberfläche
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: e825b7859bff299906725eddf3ba014ed0b5e1b7
-workflow-type: ht
-source-wordcount: '689'
-ht-degree: 100%
+source-git-commit: b730eeeaab5bfc87e8c9c10b6e25bed0e484fb64
+workflow-type: tm+mt
+source-wordcount: '737'
+ht-degree: 94%
 
 ---
 
@@ -20,10 +20,28 @@ Die Versionen der Adobe Campaign Web-Benutzeroberfläche basieren auf einem kont
 
 Änderungen und Verbesserungen, die in früheren Versionen verfügbar sind, sind in den [Versionshinweisen 2024](release-notes-24.md) und [Versionshinweisen 2025](release-notes-25.md) aufgeführt.
 
+## Mai &#39;25 Updates {#25-5-release}
+
+<table>
+<thead>
+<tr>
+<th><strong>Bewertung der Markenausrichtung (Beta)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Die Funktion zur Bewertung der Markenausrichtung bietet ein klares Feedback direkt im E-Mail-Designer, sodass Sie sehen können, ob Ihr Inhalt mit dem Ton, dem Stil und den Richtlinien Ihrer Marke übereinstimmt. Diese Funktion ist in Beta verfügbar.</p>
+<p>Weitere Informationen finden Sie in der <a href="../content/brands-score.md">entsprechenden Dokumentation</a>.</p>
+<img src="assets/do-not-localize/brand-score.gif">
+</td>
+</tr>
+</tbody>
+</table>
+
 ## Version April 2025 {#25-4-release}
 
 **Veröffentlichungsdatum**: 29. April 2025
-
 
 ### Neue Funktionen {#25-4-features}
 
