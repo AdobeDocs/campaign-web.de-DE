@@ -4,9 +4,9 @@ title: Erste Schritte mit Inhaltsfragmenten
 description: Erfahren Sie, wie Sie Inhaltsfragmente erstellen
 exl-id: d155d102-a5bc-4b9b-b29c-24fde4d95ceb
 source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '366'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -24,11 +24,11 @@ ht-degree: 77%
 
 ## Was sind Inhaltsfragmente? {#what}
 
-Ein Inhaltsfragment ist eine wiederverwendbare Komponente, die in einer oder mehreren Nachrichten referenziert werden kann. Wenn Sie ein Fragment ändern, wird jeder Inhalt, der dieses Fragment verwendet, aktualisiert. Mit dieser Funktion können Marketing-Benutzer mehrere benutzerdefinierte Inhaltsbausteine vorab erstellen und in einem verbesserten Design-Prozess schnell Nachrichteninhalte zusammenstellen.
+Ein Inhaltsfragment ist eine wiederverwendbare Komponente, die in einer oder mehreren Nachrichten referenziert werden kann. Wenn Sie ein Fragment ändern, wird jeder Inhalt, der dieses Fragment verwendet, aktualisiert. Diese Funktionalität ermöglicht es Benutzenden aus dem Bereich Marketing, mehrere benutzerdefinierte Inhaltsbausteine vorab zu erstellen und Nachrichteninhalte in einem verbesserten Design-Prozess schnell zusammenzustellen. 
 
 Es stehen zwei Arten von Fragmenten zur Verfügung:
 
-* **Ausdrucksfragmente** sind vordefinierte Ausdrücke, die über einen dedizierten Eintrag im Ausdruckseditor verfügbar sind. Campaign enthält eine Reihe vordefinierter Inhaltsbausteine, die bestimmte Renderings enthalten, die Sie in Ihre Sendungen einfügen können. Sie können zum Beispiel ein Logo, eine Grußbotschaft oder einen Link zur Mirrorseite der Nachricht hinzufügen. Sie können auch eigene Ausdrucksfragmente erstellen, die Ihren Anforderungen entsprechen.
+* **Ausdrucksfragmente** sind vordefinierte Ausdrücke, die über einen dedizierten Eintrag im Ausdruckseditor verfügbar sind. Campaign umfasst eine Reihe vordefinierter Inhaltsbausteine, die bestimmte Renderings ermöglichen, die Sie in Ihre Sendungen einfügen können. Sie können zum Beispiel ein Logo, eine Grußbotschaft oder einen Link zur Mirrorseite der Nachricht hinzufügen. Sie können auch eigene Ausdrucksfragmente erstellen, die Ihren Anforderungen entsprechen.
 
 * **Visuelle Fragmente** sind vordefinierte visuelle Bausteine, die Sie in mehreren [E-Mail-Sendungen](../email/get-started-email-designer.md) oder in [Inhaltsvorlagen](../email/use-email-templates.md) wiederverwenden können. 
 
@@ -38,7 +38,7 @@ Es stehen zwei Arten von Fragmenten zur Verfügung:
 
 ## Tauchen wir tiefer in die Materie ein
 
-Nachdem Sie nun wissen, was Inhaltsfragmente sind und was Sie mit ihnen in Adobe Campaign tun können, lesen Sie die folgenden Dokumentationsabschnitte, um mit der Funktion zu arbeiten.
+Jetzt, da Sie wissen, was Inhaltsfragmente sind und was Sie mit ihnen in Adobe Campaign tun können, befassen Sie sich näher mit den folgenden Dokumentationsabschnitten, um mit der Funktion zu arbeiten.
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>

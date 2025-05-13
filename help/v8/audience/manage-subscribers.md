@@ -4,9 +4,9 @@ title: Verwalten von Abonnentinnen und Abonnenten
 description: Erfahren Sie, wie Sie Abonnentinnen und Abonnenten eines Dienstes i Adobe Campaign Web verwalten und wie Sie an sie versenden.
 exl-id: cf72d27e-365c-4edc-b661-a67c148f0eeb
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '359'
-ht-degree: 62%
+ht-degree: 100%
 
 ---
 
@@ -22,17 +22,17 @@ Gehen Sie wie folgt vor, um Abonnentinnen und Abonnenten manuell hinzuzufügen.
 
 1. Wählen Sie einen vorhandenen Dienst aus der Liste **[!UICONTROL Anmeldedienste]** aus.
 
-1. Gehen Sie zur Registerkarte **[!UICONTROL Abonnenten]** und klicken Sie auf **[!UICONTROL Abonnenten hinzufügen]**.
+1. Navigieren Sie zu der Registerkarte **[!UICONTROL Abonnierende]** und klicken Sie auf **[!UICONTROL Abonnierende hinzufügen]**.
 
-   ![Screenshot mit der Registerkarte „Abonnenten“ in der Benutzeroberfläche der Abonnement-Services.](assets/service-subscribers-tab.png){zoomable="yes"}
+   ![Screenshot mit der Registerkarte „Abonnierende“ in der Benutzeroberfläche der Abonnementdienste.](assets/service-subscribers-tab.png){zoomable="yes"}
 
-1. Wählen Sie die Profile aus, die Sie hinzufügen möchten, und klicken Sie auf **[!UICONTROL Bestätigen]**.
+1. Wählen Sie die hinzuzufügenden Profile aus der Liste aus und klicken Sie auf **[!UICONTROL Bestätigen]**.
 
-   ![Screenshot der Oberfläche zur Profilauswahl für das Hinzufügen von Abonnentinnen und Abonnenten.](assets/service-subscribers-select-profiles.png){zoomable="yes"}
+   ![Screenshot mit der Benutzeroberfläche für die Profilauswahl zum Hinzufügen von Abonnierenden](assets/service-subscribers-select-profiles.png){zoomable="yes"}
 
-1. Klicken Sie **[!UICONTROL Senden]**<!--if you click cancel, does it mean that no message is sent but recipients are still subscribed, or they are not subscribed? it's 2 different actions in the console)-->, damit die ausgewählten Empfängerinnen und Empfänger die Abonnement[Bestätigungsnachricht](manage-services.md#create-confirmation-message) erhalten, die Sie beim [Erstellen des Services](manage-services.md#create-service) definiert haben.
+1. Klicken Sie auf **[!UICONTROL Senden]**<!--if you click cancel, does it mean that no message is sent but recipients are still subscribed, or they are not subscribed? it's 2 different actions in the console)-->, damit die ausgewählten Empfängerinnen und Empfänger die [Bestätigungsnachricht](manage-services.md#create-confirmation-message) für das Abonnement erhalten, die Sie beim [Erstellen des Dienstes](manage-services.md#create-service) definiert haben.
 
-   ![Screenshot der Bestätigungsnachrichten-Oberfläche zum Hinzufügen von Abonnentinnen und Abonnenten.](assets/service-subscribers-confirmation-msg.png){zoomable="yes"}
+   ![Screenshot mit der Benutzeroberfläche für die Bestätigungsnachricht zum Hinzufügen von Abonnierenden](assets/service-subscribers-confirmation-msg.png){zoomable="yes"}
 
    >[!NOTE]
    >
@@ -48,15 +48,15 @@ Wenn Sie für Ihren Dienst [Abonnentinnen und Abonnenten](#add-subscribers) hinz
 
 1. Wählen Sie einen vorhandenen Dienst aus der Liste **[!UICONTROL Anmeldedienste]** aus.
 
-1. Klicken Sie auf das Symbol mit den drei Punkten neben dem gewünschten Empfängernamen und wählen Sie **[!UICONTROL Löschen]**.
+1. Klicken Sie auf das Drei-Punkte-Symbol neben dem Namen der gewünschten Empfängerin bzw. des gewünschten Empfängers und wählen Sie **[!UICONTROL Löschen]** aus.
 
-   ![Screenshot mit der Löschoption für die Abmeldung von Profilen.](assets/service-subscribers-delete.png){zoomable="yes"}
+   ![Screenshot mit der Option „Löschen“ für die Abmeldung von Profilen](assets/service-subscribers-delete.png){zoomable="yes"}
 
 1. Bestätigen Sie den Löschvorgang.
 
 1. Klicken Sie auf **[!UICONTROL Senden]**, damit die ausgewählte Empfängerin bzw. der Empfänger die [Bestätigungsnachricht](manage-services.md#create-confirmation-message) für die Abmeldung erhält, die Sie beim [Erstellen des Dienstes](manage-services.md#create-service) definiert haben.
 
-   ![Screenshot der Benutzeroberfläche für Bestätigungsnachrichten zum Abmelden von Profilen.](assets/service-subscribers-delete-confirmation.png){zoomable="yes"}
+   ![Screenshot mit der Benutzeroberfläche für die Bestätigungsnachricht für die Abmeldung von Profilen](assets/service-subscribers-delete-confirmation.png){zoomable="yes"}
 
 Die Empfängerin bzw. der Empfänger wird aus der Registerkarte **[!UICONTROL Abonnierende]** entfernt und hat Ihren Dienst nicht länger abonniert.
 
@@ -64,8 +64,8 @@ Die Empfängerin bzw. der Empfänger wird aus der Registerkarte **[!UICONTROL Ab
 
 Ein Anmeldedienst kann von begrenzter Dauer sein. Die Abmeldung von Profilen erfolgt automatisch, wenn der Gültigkeitszeitraum abgelaufen ist.
 
-Dieser Zeitraum wird angegeben, wenn der [Dienst erstellt](manage-services.md#create-service) wird. Deaktivieren Sie in **[!UICONTROL Zusätzliche Optionen]** die Option **[!UICONTROL Unbegrenzte Gültigkeitsdauer]** und definieren Sie einen Gültigkeitszeitraum für den Service.
+Dieser Zeitraum wird angegeben, wenn der [Dienst erstellt](manage-services.md#create-service) wird. Deaktivieren Sie in **[!UICONTROL Zusätzliche Optionen]** die Option **[!UICONTROL Unbegrenzter Gültigkeitszeitraum]** und legen Sie einen Gültigkeitszeitraum für den Dienst fest.
 
-![Screenshot der Konfiguration des Gültigkeitszeitraums für einen Abonnement-Service.](assets/service-create-validity-period.png){zoomable="yes"}
+![Screenshot der Konfiguration des Gültigkeitszeitraums für einen Abonnementdienst](assets/service-create-validity-period.png){zoomable="yes"}
 
 Nach Ablauf der angegebenen Dauer werden alle Abonnentinnen und Abonnenten automatisch von diesem Dienst abgemeldet.

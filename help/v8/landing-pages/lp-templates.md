@@ -5,9 +5,9 @@ description: Erfahren Sie, wie Sie Landingpage-Inhalte als Design-Vorlage speich
 feature: Landing Pages
 exl-id: 2298265b-6ca6-461f-8c69-c60d98e8f445
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '255'
-ht-degree: 33%
+ht-degree: 100%
 
 ---
 
@@ -15,21 +15,21 @@ ht-degree: 33%
 
 ## Speichern einer Seite als Vorlage {#save-as-template}
 
-Sobald Sie Ihre [Landingpage-Inhalte](lp-content.md) entworfen haben, können Sie sie zur späteren Wiederverwendung speichern. Gehen Sie wie folgt vor, um eine Seite als Vorlage zu speichern.
+Nachdem Sie den [Inhalt der Landingpage](lp-content.md) erstellt haben, können Sie ihn zur späteren Wiederverwendung speichern. Um eine Seite als Vorlage zu speichern, gehen Sie wie folgt vor:
 
-1. Klicken Sie auf **[!UICONTROL Mehr]** oben rechts auf dem Bildschirm.
+1. Klicken Sie auf die Schaltfläche **[!UICONTROL Mehr]** oben rechts auf dem Bildschirm.
 
 1. Wählen Sie im Dropdown-Menü **[!UICONTROL Als Inhaltsvorlage speichern]** aus.
 
-   ![Screenshot mit der Option Als Inhaltsvorlage speichern im Dropdown-Menü](assets/lp-save-as-template.png){zoomable="yes"}
+   ![Screenshot mit der Option „Als Inhaltsvorlage speichern“ im Dropdown-Menü](assets/lp-save-as-template.png){zoomable="yes"}
 
 1. Fügen Sie dieser Vorlage einen Namen hinzu.
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
-Sie können diese Vorlage verwenden, um Ihre Inhalte zu erstellen, wenn Sie das nächste Mal eine Landingpage erstellen. Im folgenden [Abschnitt](#use-saved-template) erfahren Sie mehr dazu.
+Wenn Sie das nächste Mal eine Landingpage erstellen, können Sie diese Vorlage zur Inhaltserstellung verwenden. Im folgenden [Abschnitt](#use-saved-template) erfahren Sie mehr dazu.
 
-![Screenshot mit einer gespeicherten Vorlage in der Benutzeroberfläche der Landingpage](assets/lp-saved-template.png){zoomable="yes"}
+![Screenshot mit einer gespeicherten Vorlage auf der Benutzeroberfläche der Landingpage](assets/lp-saved-template.png){zoomable="yes"}
 
 ## Verwenden einer gespeicherten Vorlage {#use-saved-template}
 
@@ -37,19 +37,19 @@ Sie können diese Vorlage verwenden, um Ihre Inhalte zu erstellen, wenn Sie das 
 
 1. Klicken Sie beim Bearbeiten des Inhalts einer Landingpage auf die Schaltfläche **[!UICONTROL Mehr]** und wählen Sie **[!UICONTROL Design ändern]** aus.
 
-   ![Screenshot, der die Option Design ändern im Dropdown-Menü zeigt](assets/lp-change-your-design.png){zoomable="yes"}
+   ![Screenshot mit der Option „Design ändern“ im Dropdown-Menü](assets/lp-change-your-design.png){zoomable="yes"}
 
 1. Bestätigen Sie Ihre Auswahl.
 
    >[!NOTE]
    >
-   >Diese Aktion löscht und ersetzt den aktuellen Inhalt durch den Inhalt aus der neuen Vorlage.
+   >Diese Aktion löscht den aktuellen Inhalt und ersetzt ihn durch den Inhalt aus der neuen Vorlage.
 
-1. Die Liste aller zuvor gespeicherten Vorlagen wird auf der Registerkarte **[!UICONTROL Gespeicherte Vorlagen]** angezeigt. Sie können sie sortieren **[!UICONTROL nach]**, **[!UICONTROL Zuletzt geändert]** und **[!UICONTROL Zuletzt erstellt]**.
+1. Die Liste aller zuvor gespeicherten Vorlagen wird auf der Registerkarte **[!UICONTROL Gespeicherte Vorlagen]** angezeigt. Sie können sie **[!UICONTROL Nach Name]**, nach **[!UICONTROL Zuletzt geändert]** und nach **[!UICONTROL Zuletzt erstellt]** sortieren.
 
-   ![Screenshot mit der Registerkarte Gespeicherte Vorlagen mit Sortieroptionen](assets/lp-saved-templates.png){zoomable="yes"}
+   ![Screenshot mit der Registerkarte „Gespeicherte Vorlagen“ mit Sortieroptionen](assets/lp-saved-templates.png){zoomable="yes"}
 
-1. Wählen Sie die gewünschte Vorlage aus der Liste aus. Nach der Auswahl können Sie mithilfe der Rechts- und Linkspfeile zwischen allen gespeicherten Vorlagen navigieren.
+1. Wählen Sie die gewünschte Vorlage aus der Liste aus. Nachdem Sie eine Vorlage ausgewählt haben, können Sie mit den Rechts- und Links-Pfeiltasten zwischen allen gespeicherten Vorlagen navigieren.
 
    ![Screenshot, der die Navigation zwischen gespeicherten Vorlagen mithilfe der Pfeile zeigt](assets/lp-select-saved-template.png){zoomable="yes"}
 

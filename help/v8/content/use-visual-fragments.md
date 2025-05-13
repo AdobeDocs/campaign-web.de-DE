@@ -5,9 +5,9 @@ description: Erfahren Sie, wie Sie visuelle Fragmente zu Ihren E-Mails hinzufüg
 badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: 6d6f38f9-9d3e-47cb-beb8-177b5a5d8306
 source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '609'
-ht-degree: 47%
+ht-degree: 100%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 47%
 >
 >Diese Funktion erfordert ein Update auf Campaign v8.6.4. Weitere Informationen finden Sie in den [Versionshinweisen zur Client Console von Campaign v8](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/releases/release-notes).
 
-In der Web-Benutzeroberfläche von Campaign **visuelle Fragmente** vordefinierte visuelle Blöcke, die Sie in mehreren E-[-Sendungen ](../email/get-started-email-designer.md) in [Inhaltsvorlagen](../email/use-email-templates.md) wiederverwenden können. Weitere Informationen zur Erstellung und Verwaltung von Inhaltsfragmenten finden Sie in [diesem Abschnitt](fragments.md).
+In der Campaign Web-Benutzeroberfläche sind **visuelle Fragmente** vordefinierte visuelle Bausteine, die Sie in mehreren [E-Mail-Sendungen](../email/get-started-email-designer.md) oder in [Inhaltsvorlagen](../email/use-email-templates.md) wiederverwenden können. Weitere Informationen zur Erstellung und Verwaltung von Inhaltsfragmenten finden Sie in [diesem Abschnitt](fragments.md).
 
-![Visuelle Darstellung der verwendeten visuellen Fragmente](assets/do-not-localize/fragments.gif)
+![Visuelle Darstellung verwendeter visueller Fragmente](assets/do-not-localize/fragments.gif)
 
 ## Verwenden eines visuellen Fragments {#use-fragment}
 
@@ -30,25 +30,25 @@ In der Web-Benutzeroberfläche von Campaign **visuelle Fragmente** vordefinierte
 
 <!-- pas vu dans l'UI-->
 
-Gehen Sie wie folgt vor, um ein visuelles Fragment in E-Mail-Inhalt einzufügen:
+Gehen Sie wie folgt vor, um ein visuelles Fragment in den Inhalt einer E-Mail einzufügen:
 
 1. Öffnen Sie eine E-Mail oder eine Inhaltsvorlage mit [E-Mail-Designer](../email/get-started-email-designer.md).
 
 1. Wählen Sie in der linken Leiste das Symbol **[!UICONTROL Fragmente]** aus.
 
-   ![Screenshot mit dem Symbol für Fragmente in der Benutzeroberfläche von E-Mail-Designer](assets/fragments-in-designer.png)
+   ![Screenshot mit dem Symbol „Fragmente“ in der Benutzeroberfläche des E-Mail-Designers](assets/fragments-in-designer.png)
 
 1. Es wird eine Liste mit allen in der aktuellen Sandbox erstellten visuellen Fragmente angezeigt. Sie haben folgende Möglichkeiten:
 
-   * Suchen Sie nach einem bestimmten Fragment, indem Sie dessen Titel eingeben.
+   * Suchen Sie nach einem bestimmten Fragment, indem Sie sein Label eingeben.
    * Sortieren Sie Fragmente in auf- oder absteigender Reihenfolge.
    * Ändern Sie die Anzeige der Fragmente (Karten- oder Listenansicht).
 
    >[!NOTE]
    >
-   >Fragmente werden nach Erstellungsdatum sortiert. Kürzlich hinzugefügte Fragmente werden in der Liste zuerst angezeigt.
+   >Fragmente werden nach ihrem Erstellungsdatum sortiert. Zuletzt hinzugefügte Fragmente werden in der Liste zuerst angezeigt.
 
-   Wenn visuelle Fragmente während der Bearbeitung des Inhalts geändert oder hinzugefügt werden, klicken Sie auf das Symbol **Aktualisieren**, um die Liste mit den neuesten Änderungen zu aktualisieren.
+   Wenn visuelle Fragmente beim Bearbeiten von Inhalten geändert oder hinzugefügt werden, klicken Sie auf das Symbol **Aktualisieren**, um die Liste mit den neuesten Änderungen zu aktualisieren.
 
 1. Ziehen Sie ein beliebiges visuelles Fragment aus der Liste in den Bereich, in den es eingefügt werden soll. Wie jede andere Komponente können Sie das Fragment innerhalb Ihres Inhalts verschieben.
 
@@ -65,19 +65,19 @@ Gehen Sie wie folgt vor, um ein visuelles Fragment in E-Mail-Inhalt einzufügen:
 
 1. Unterbrechen Sie bei Bedarf die Vererbung mit dem ursprünglichen visuellen Fragment. [Weitere Informationen](#break-inheritance)
 
-   Sie können das Fragment auch aus Ihrem Inhalt löschen oder duplizieren. Führen Sie diese Aktionen direkt über das Kontextmenü aus, das über dem Fragment angezeigt wird.
+   Sie können das Fragment auch aus dem Inhalt löschen oder duplizieren. Diese Aktionen werden direkt über das Kontextmenü ausgeführt, das über dem Fragment angezeigt wird.
 
-1. Fügen Sie so viele visuelle Fragmente wie nötig hinzu und **[!UICONTROL Sie]** Änderungen.
+1. Fügen Sie so viele visuelle Fragmente wie erforderlich hinzu und **[!UICONTROL speichern]** Sie Ihre Änderungen.
 
 ### Visuelles Fragment im schreibgeschützten Modus {#fragment-readonly}
 
-Zugriffsrechte können für visuelle Fragmente gelten.
+Visuelle Fragmente können Zugriffsberechtigungen unterliegen.
 
-Wenn für ein bestimmtes visuelles Fragment keine Berechtigung zur Bearbeitung erteilt wurde, wird die Inhaltsvorlage im **schreibgeschützten Modus)**. In diesem Fall wird die Schaltfläche **[!UICONTROL Inhalt bearbeiten]** durch die Schaltfläche **[!UICONTROL Inhalt anzeigen]** ersetzt, sodass Sie das Fragment ohne Änderungen anzeigen können.
+Wenn keine Berechtigungen zur Bearbeitung eines bestimmten visuellen Fragments vorliegen, wird die Inhaltsvorlage im **schreibgeschützten Modus** angezeigt. In diesem Fall wird die Schaltfläche **[!UICONTROL Inhalt bearbeiten]** durch die Schaltfläche **[!UICONTROL Inhalt anzeigen]** ersetzt, sodass Sie das Fragment anzeigen, aber keine Änderungen vornehmen können.
 
 ![Screenshot mit einem visuellen Fragment im schreibgeschützten Modus](assets/fragment-readonly.png){zoomable="yes"}
 
-Wie unten gezeigt, sind alle Funktionssymbole deaktiviert, sodass die Interaktion auf die Anzeige beschränkt ist.
+Wie unten dargestellt, werden alle Funktionssymbole deaktiviert, wodurch die Interaktion auf das Anzeigen beschränkt bleibt.
 
 ![Screenshot mit deaktivierten Funktionssymbolen im schreibgeschützten Modus](assets/fragment-readonly-view.png){zoomable="yes"}
 
@@ -85,9 +85,9 @@ Wie unten gezeigt, sind alle Funktionssymbole deaktiviert, sodass die Interaktio
 
 Wenn Sie ein visuelles Fragment bearbeiten, werden die Änderungen synchronisiert und automatisch auf alle E-Mail-Sendungen und Inhaltsvorlagen übertragen, die dieses Fragment enthalten.
 
-Standardmäßig werden Fragmente synchronisiert, wenn sie zu einer E-Mail oder Inhaltsvorlage hinzugefügt werden.
+Standardmäßig werden Fragmente synchronisiert, wenn sie einer E-Mail oder Inhaltsvorlage hinzugefügt werden.
 
-Sie können jedoch die Vererbung vom ursprünglichen Fragment unterbrechen. In diesem Fall wird der Inhalt des Fragments in das aktuelle Design kopiert, und die Änderungen werden nicht mehr synchronisiert.
+Sie können jedoch die Vererbung vom ursprünglichen Fragment unterbrechen. In diesem Fall wird der Inhalt des Fragments in den aktuellen Entwurf kopiert und die Änderungen werden nicht mehr synchronisiert.
 
 Gehen Sie wie folgt vor, um die Vererbung zu unterbrechen:
 

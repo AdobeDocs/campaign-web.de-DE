@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
 source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1102'
-ht-degree: 62%
+ht-degree: 100%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 62%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_for_campaign"
 >title="Versandvorlagen"
->abstract="Um den Design-Prozess zu beschleunigen und zu verbessern, erstellen Sie Versandvorlagen, um benutzerdefinierte Inhalte und Einstellungen in Ihren Kampagnen wiederzuverwenden. Diese Funktion standardisiert das kreative Erscheinungsbild und ermöglicht eine schnellere Ausführung und den Start von Kampagnen."
+>abstract="Erstellen Sie Versandvorlagen, um benutzerdefinierte Inhalte und Einstellungen in Ihren Kampagnen wiederzuverwenden und so den Design-Prozess zu beschleunigen und zu verbessern. Diese Funktion standardisiert das kreative Look-and-Feel, wodurch Kampagnen schneller gestartet und ausgeführt werden können."
 
-Um den Design-Prozess zu beschleunigen und zu verbessern, erstellen Sie Versandvorlagen, um benutzerdefinierte Inhalte und Einstellungen in Ihren Kampagnen wiederzuverwenden. Diese Funktion standardisiert das kreative Erscheinungsbild und ermöglicht eine schnellere Ausführung und den Start von Kampagnen.
+Erstellen Sie Versandvorlagen, um benutzerdefinierte Inhalte und Einstellungen in Ihren Kampagnen wiederzuverwenden und so den Design-Prozess zu beschleunigen und zu verbessern. Diese Funktion standardisiert das kreative Look-and-Feel, wodurch Kampagnen schneller gestartet und ausgeführt werden können.
 
 Eine Vorlage enthält:
 
@@ -35,20 +35,20 @@ Eine Vorlage enthält:
 
 >[!NOTE]
 >
->Versandvorlagen unterscheiden sich von [Inhaltsvorlagen](../email/create-email-templates.md) die es Ihnen ermöglichen, nur den Inhalt Ihrer E-Mails wiederzuverwenden und Inhalte mit einer der standardmäßigen Beispiel-E-Mail-Vorlagen zu erstellen.
+>Versandvorlagen unterscheiden sich von [Inhaltsvorlagen](../email/create-email-templates.md) darin, dass Sie in letzteren nur den Inhalt Ihrer E-Mails wiederverwenden und Inhalte nur anhand einer der vordefinierten E-Mail-Mustervorlagen erstellen können
 
 ## Aufrufen und Verwalten von Versandvorlagen {#access-manage-templates}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_templates"
 >title="Arbeiten mit Versandvorlagen"
->abstract="Verwenden Sie Versandvorlagen, um Versandeinstellungen zu erstellen und zu speichern, damit Sie sie in zukünftigen Kampagnen verwenden können. Erstellen Sie Versandvorlagen von Grund auf, duplizieren Sie eine vorhandene Vorlage oder konvertieren Sie einen Versand in eine Vorlage."
+>abstract="Verwenden Sie Versandvorlagen, um Versandeinstellungen zu erstellen und zu speichern, damit Sie sie in zukünftigen Kampagnen verwenden können. Erstellen Sie Versandvorlagen von Grund auf neu, duplizieren Sie existierende Vorlagen oder konvertieren Sie einen Versand in eine Vorlage."
 
 Um auf die Liste der Inhaltsvorlagen zuzugreifen, wählen Sie aus dem linken Menü **[!UICONTROL Kampagnenverwaltung]** > **[!UICONTROL Sendungen]** und wechseln Sie zur Registerkarte **Vorlagen**.
 
-![Registerkarte Vorlagen im Menü Sendungen ](assets/templates-tab.png){zoomable="yes"}
+![Registerkarte „Vorlagen“ im Menü „Sendungen“](assets/templates-tab.png){zoomable="yes"}
 
-Alle in der aktuellen Umgebung erstellten Vorlagen werden angezeigt.
+Es werden alle in der aktuellen Umgebung erstellten Vorlagen angezeigt.
 
 Sie können Inhaltsvorlagen nach Kanälen und Ordnern filtern. Sie können auch erweiterte Filter festlegen, indem Sie eine Regel mit Versandattributen erstellen. [Weitere Informationen über den Abfrage-Modeler](../audience/../query/query-modeler-overview.md)
 
@@ -59,7 +59,7 @@ Um eine Vorlage zu bearbeiten, klicken Sie in der Liste auf das gewünschte Elem
 * Ändern Sie den Inhalt, die Eigenschaften, die Zielgruppe und alle damit verbundenen Angebote.
 * Testen Sie Ihre Vorlage. [Weitere Informationen](#test-template)
 
-![Bearbeiten einer Vorlage](assets/templates-edition.png){zoomable="yes"}
+![Bearbeitung einer Vorlage](assets/templates-edition.png){zoomable="yes"}
 
 Zum Löschen oder [Duplizieren](#copy-an-existing-template) einer Vorlage wählen Sie die entsprechende Aktion aus dem Menü **[!UICONTROL Mehr Aktionen]**, entweder über das Menü **[!UICONTROL Vorlagenliste]** oder von einem Bildschirm zur Vorlagenbearbeitung aus.
 
@@ -79,7 +79,7 @@ Um eine Versandvorlage zu erstellen, haben Sie folgende Möglichkeiten:
 
 ### Duplizieren einer vorhandene Versandvorlage {#copy-an-existing-template}
 
-Campaign enthält integrierte Vorlagen für jeden Kanal: E-Mail, Push und SMS. Die einfachste Möglichkeit, eine Versandvorlage zu erstellen, besteht darin, eine integrierte Vorlage zu duplizieren und anzupassen.
+Campaign umfasst eine Reihe integrierter Vorlagen für jeden Kanal: E-Mail, Push und SMS. Die einfachste Möglichkeit, eine Versandvorlage zu erstellen, besteht darin, eine integrierte Vorlage zu duplizieren und anzupassen.
 
 >[!NOTE]
 >
@@ -87,10 +87,10 @@ Campaign enthält integrierte Vorlagen für jeden Kanal: E-Mail, Push und SMS. D
 
 Gehen Sie wie folgt vor, um eine Versandvorlage zu duplizieren:
 
-1. Navigieren Sie im linken Menü **Sendungen** zur Registerkarte **Vorlagen** . [Weitere Informationen](#access-manage-templates)
-1. Klicken Sie auf **[!UICONTROL Mehr Aktionen]** rechts neben dem gewünschten Vorlagennamen und wählen Sie **[!UICONTROL Duplizieren]**.
+1. Navigieren Sie über das Menü **Sendungen** auf der linken Seite zur Registerkarte **Vorlagen**. [Weitere Informationen](#access-manage-templates)
+1. Klicken Sie auf die Schaltfläche **[!UICONTROL Mehr Aktionen]** rechts neben dem gewünschten Vorlagennamen und wählen Sie **[!UICONTROL Duplizieren]**.
 
-   Sie können auch eine Vorlage aus der Liste auswählen und diese Option auf dem Bildschirm zur Vorlagenbearbeitung auswählen.
+   Sie können auch eine Vorlage aus der Liste auswählen und diese Option im Bildschirm zur Vorlagenbearbeitung auswählen.
 
 1. Bestätigen Sie die Duplizierung.
 
@@ -98,7 +98,7 @@ Gehen Sie wie folgt vor, um eine Versandvorlage zu duplizieren:
 
 1. Das Dashboard der neuen Vorlage wird nun im mittleren Bereich des Bildschirms geöffnet. Bearbeiten Sie die Vorlageneinstellungen nach Bedarf.
 
-   ![Dashboard duplizierter Vorlagen](assets/templates-duplicated-item.png){zoomable="yes"}
+   ![Dashboard der duplizierten Vorlage](assets/templates-duplicated-item.png){zoomable="yes"}
 
 1. Klicken Sie auf die Schaltfläche **[!UICONTROL Überprüfen]** zum Speichern und Überprüfen Ihrer Vorlage. Sie können weiterhin alle Einstellungen bearbeiten, löschen und duplizieren.
 
@@ -112,14 +112,14 @@ Die neue Vorlage wird der Liste [**Vorlagen** hinzugefügt](#access-manage-templ
 
 Jeder Versand kann in eine Vorlage für zukünftige, wiederholte Versandaktionen umgewandelt werden.
 
-Gehen Sie wie folgt vor, um einen Versand als Vorlage zu speichern:
+Um einen Versand als Vorlage zu speichern, gehen Sie wie folgt vor:
 
 1. Navigieren Sie zum Menü **[!UICONTROL Kampagnenverwaltung]** > **[!UICONTROL Sendungen]**.
 1. Klicken Sie auf der Registerkarte **[!UICONTROL Durchsuchen]** auf die Schaltfläche **[!UICONTROL Mehr Aktionen]** rechts neben dem Namen des gewünschten Versands und wählen Sie **[!UICONTROL Als Vorlage kopieren]** aus.
 
    ![Option zum Kopieren eines Versands als Vorlage](assets/templates-convert-delivery.png){zoomable="yes"}
 
-   Sie können auch eine Vorlage aus der Liste auswählen und diese Option auf dem Bildschirm zur Vorlagenbearbeitung auswählen.
+   Sie können auch eine Vorlage aus der Liste auswählen und diese Option im Bildschirm zur Vorlagenbearbeitung auswählen.
 
 1. Bestätigen Sie die Duplizierung.
 
@@ -135,11 +135,11 @@ Die neue Vorlage wird der Liste [**Vorlagen** hinzugefügt](#access-manage-templ
 
 >[!NOTE]
 >
->Zur Vermeidung von Konfigurationsfehlern wird in Adobe empfohlen[ eine integrierte Vorlage zu duplizieren und ](#copy-an-existing-template) Eigenschaften anzupassen, anstatt eine neue Vorlage zu erstellen.
+>Zur Vermeidung von Konfigurationsfehlern empfiehlt Adobe, keine neuen Vorlagen zu erstellen, sondern [eine integrierte Vorlage zu duplizieren](#copy-an-existing-template) und die Eigenschaften je nach Bedarf anzupassen.
 
 Gehen Sie wie folgt vor, um eine Versandvorlage von Grund auf zu konfigurieren:
 
-1. Navigieren Sie im linken Menü **Sendungen** zur Registerkarte **Vorlagen** . [Weitere Informationen](#access-manage-templates)
+1. Navigieren Sie über das Menü **Sendungen** auf der linken Seite zur Registerkarte **Vorlagen**. [Weitere Informationen](#access-manage-templates)
 1. Klicken Sie auf die Schaltfläche **[!UICONTROL Vorlage erstellen]**.
 
    ![Schaltfläche „Vorlage erstellen“](assets/templates-create-button.png){zoomable="yes"}
@@ -152,7 +152,7 @@ Gehen Sie wie folgt vor, um eine Versandvorlage von Grund auf zu konfigurieren:
 
 1. Klicken Sie erneut auf die Schaltfläche **[!UICONTROL Vorlage erstellen]**.
 
-1. Definieren Sie die Vorlageneigenschaften, [Zielgruppe](../audience/add-audience.md) und den Inhalt je nach ausgewähltem Kanal.
+1. Definieren Sie die Vorlageneigenschaften, die [Zielgruppe](../audience/add-audience.md) und den Inhalt je nach ausgewähltem Kanal.
 
    >[!NOTE]
    >
@@ -176,19 +176,19 @@ Sie können das Rendering einer beliebigen Versandvorlage testen, unabhängig da
 
 1. Wechseln Sie über das Menü **[!UICONTROL Kampagnenverwaltung]** > **[!UICONTROL Sendungen]** zur Registerkarte **Vorlagen** und wählen Sie eine Vorlage aus. [Weitere Informationen](#access-manage-templates)
 
-1. Klicken Sie **[!UICONTROL oben rechts]** Bildschirm auf die Schaltfläche „Inhalt simulieren“.
+1. Klicken Sie oben rechts auf dem Bildschirm auf die Schaltfläche **[!UICONTROL Inhalte simulieren]**.
 
-   ![Schaltfläche „Inhalt simulieren“](assets/templates-simulate-button.png){zoomable="yes"}
+   ![Schaltfläche „Inhalte simulieren“](assets/templates-simulate-button.png){zoomable="yes"}
 
-1. Wählen Sie ein oder mehrere Testprofile aus, um Ihr E-Mail-Rendering zu überprüfen. Sie können auch echte Profile aus Ihrer Datenbank auswählen. [Erfahren Sie mehr über Testprofile](../audience/test-profiles.md)
+1. Wählen Sie ein oder mehrere Testprofile aus, um Ihr E-Mail-Rendering zu überprüfen. Sie können auch echte Profile aus Ihrer Datenbank auswählen. [Weitere Informationen zu Testprofilen](../audience/test-profiles.md)
 
 1. Wechseln Sie zwischen den verschiedenen Profilen, um eine personalisierte Darstellung der Nachricht entsprechend dem ausgewählten Profil zu erhalten. Sie können auch den Zoomfaktor anpassen und die Desktop- oder Mobilansicht auswählen.
 
-[Weitere Informationen über die Vorschau von Inhalten](../preview-test/preview-content.md)
+[Weitere Informationen zur Vorschau von Inhalten](../preview-test/preview-content.md)
 
    ![Vorschau des simulierten Inhalts](assets/templates-stimulate.png){zoomable="yes"}
 
-1. Schließen Sie das Fenster, um zum Bildschirm zur Vorlagenbearbeitung zurückzukehren.
+1. Schließen Sie das Fenster, um zum Bildschirm für die Vorlagenbearbeitung zurückzukehren.
 
 >[!NOTE]
 >

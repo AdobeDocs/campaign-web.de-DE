@@ -4,38 +4,38 @@ title: Erstellen von Workflows mit Adobe Campaign Web
 description: Erfahren Sie, wie Sie Workflows mit Adobe Campaign Web erstellen
 exl-id: c9c41189-0150-49a4-bdb3-317fe543eb2c
 source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '563'
-ht-degree: 34%
+ht-degree: 100%
 
 ---
 
 # Starten und Überwachen Ihres Workflows {#start-monitor}
 
-Nachdem Sie Ihren Workflow erstellt und die Aufgaben entworfen haben, die auf der Arbeitsfläche ausgeführt werden sollen, können Sie ihn starten und seine Ausführung überwachen.
+Sobald Sie Ihren Workflow erstellt und die Aufgaben in der Arbeitsfläche entworfen haben, können Sie ihn starten und seine Ausführung überwachen.
 
 ## Starten des Workflows {#start}
 
-Um den Workflow zu starten, navigieren Sie zum **[!UICONTROL Workflows]**-Menü oder zur zugehörigen Kampagne und klicken Sie auf die **[!UICONTROL Starten]**-Schaltfläche in der oberen rechten Ecke der Arbeitsfläche.
+Um den Workflow zu starten, navigieren Sie zum Menü **[!UICONTROL Workflows]** oder zur zugehörigen Kampagne und klicken Sie auf die Schaltfläche **[!UICONTROL Starten]** in der rechten oberen Ecke der Arbeitsfläche.
 
 Nach Ausführung des Workflows wird jede Aktivität auf der Arbeitsfläche sequenziell ausgeführt, bis das Ende des Workflows erreicht ist.
 
-Sie können den Fortschritt von Zielgruppenprofilen in Echtzeit über einen visuellen Fluss verfolgen. Auf diese Weise können Sie den Status jeder Aktivität und die Anzahl der Profile, die zwischen ihnen wechseln, schnell identifizieren.
+Anhand eines visuellen Flusses können Sie den Fortschritt von Zielgruppenprofilen in Echtzeit verfolgen. Auf diese Weise können Sie den Status jeder Aktivität und die Anzahl der Profile, die zwischen ihnen wechseln, schnell identifizieren.
 
 ![Visuelle Darstellung der laufenden Workflow-Ausführung.](assets/workflow-execution.png){zoomable="yes"}
 
 ## Workflow-Transitionen {#transitions}
 
-In einem Workflow werden die von einer Aktivität zu einer anderen übertragenen Daten in temporären Arbeitstabellen gespeichert. Diese Daten können für jede Transition angezeigt werden. Um die Daten anzuzeigen, wählen Sie eine Transition aus, um ihre Eigenschaften auf der rechten Seite des Bildschirms zu öffnen.
+In einem Workflow werden die von einer Aktivität zu einer anderen übertragenen Daten in temporären Arbeitstabellen gespeichert. Diese Daten können für jede Transition angezeigt werden. Wählen Sie zum Anzeigen der Daten eine Transition aus, um ihre Eigenschaften auf der rechten Seite des Bildschirms zu öffnen.
 
 * Klicken Sie auf **[!UICONTROL Vorschau für Schema]**, um das Schema der Arbeitstabelle anzuzeigen.
 * Klicken Sie auf **[!UICONTROL Vorschau der Ergebnisse]**, um die in der ausgewählten Transition übertragenen Daten anzuzeigen.
 
-![Beispiel für Übergangseigenschaften und Datenvorschau.](assets/transition.png){zoomable="yes"}
+![Beispiel für Transitionseigenschaften und Datenvorschau.](assets/transition.png){zoomable="yes"}
 
 ## Überwachen der Aktivitätsausführung {#activities}
 
-Visuelle Indikatoren in der rechten oberen Ecke jedes Aktivitätsfeldes ermöglichen es, den Ausführungsstatus zu überprüfen:
+Visuelle Indikatoren in der rechten oberen Ecke eines jeden Aktivitätsfeldes ermöglichen es, den Ausführungsstatus zu überprüfen:
 
 | Visueller Indikator | Beschreibung |
 |------------------|-------------|
@@ -46,23 +46,23 @@ Visuelle Indikatoren in der rechten oberen Ecke jedes Aktivitätsfeldes ermögli
 
 ## Überwachen der Protokolle und Aufgaben {#logs-tasks}
 
-Die Überwachung von Workflow-Protokollen und -Aufgaben ist ein wichtiger Schritt, um Ihre Workflows zu analysieren und sicherzustellen, dass sie ordnungsgemäß ausgeführt werden. Protokolle und Aufgaben sind über das Symbol **[!UICONTROL Protokolle]** zugänglich, das in der Aktionssymbolleiste und im Eigenschaftenbereich jeder Aktivität verfügbar ist.
+Die Überwachung von Workflow-Protokollen und -Aufgaben ist ein wichtiger Schritt, um Ihre Workflows zu analysieren und sicherzustellen, dass sie ordnungsgemäß ausgeführt werden. Protokolle und Aufgaben können über das Symbol **[!UICONTROL Logs]** in der Aktionssymbolleiste und im Eigenschaftenbereich jeder Aktivität aufgerufen werden.
 
-Das Menü **[!UICONTROL Protokolle und Aufgaben]** enthält einen Verlauf der Workflow-Ausführung, in dem alle Benutzeraktionen und aufgetretenen Fehler aufgezeichnet werden. Dieser Verlauf wird für die in den [Ausführungsoptionen](workflow-settings.md) des Workflows angegebene Dauer gespeichert. Während dieser Dauer werden alle Nachrichten gespeichert, auch nach einem Neustart des Workflows. Wenn Sie keine Nachrichten aus einer früheren Ausführung speichern möchten, klicken Sie auf die Schaltfläche **[!UICONTROL Verlauf bereinigen]**.
+Das Menü **[!UICONTROL Logs und Aufgaben]** enthält einen Verlauf der Workflow-Ausführung, in dem alle Benutzeraktionen und aufgetretenen Fehler aufgezeichnet werden. Dieser Verlauf wird für die in den [Ausführungsoptionen](workflow-settings.md) des Workflows angegebene Dauer gespeichert. Innerhalb dieser Dauer werden alle Nachrichten gespeichert, auch wenn der Workflow neu gestartet wurde. Wenn Sie die Nachrichten einer früheren Ausführung nicht speichern möchten, klicken Sie auf die Schaltfläche **[!UICONTROL Verlauf bereinigen]**.
 
-![Beispiel für die Benutzeroberfläche für Workflow-Protokolle und Aufgaben.](assets/workflow-logs.png){zoomable="yes"}
+![Beispiel für die Benutzeroberfläche für Workflow-Protokolle und -Aufgaben.](assets/workflow-logs.png){zoomable="yes"}
 
 Es stehen zwei Arten von Informationen zur Verfügung:
 
-* Die **[!UICONTROL Log]**-Registerkarte enthält den Ausführungsverlauf aller Workflow-Aktivitäten. Dabei werden die durchgeführten Vorgänge und Ausführungsfehler in chronologischer Reihenfolge indiziert.
+* Die Registerkarte **[!UICONTROL Log]** enthält den Ausführungsverlauf aller Workflow-Aktivitäten. Er zeigt in chronologischer Abfolge alle Vorgänge und Ausführungsfehler.
 * Die Registerkarte **[!UICONTROL Aufgaben]** liefert Details zur Ausführungsabfolge der Aktivitäten.
 
 In beiden Registerkarten können Sie die angezeigten Spalten und ihre Reihenfolge auswählen, Filter anwenden und das Suchfeld verwenden, um die gewünschten Informationen schnell zu finden.
 
 ## Workflow-Ausführungsbefehle {#execution-commands}
 
-Die Aktionsleiste in der rechten oberen Ecke enthält Befehle zur Verwaltung der Workflow-Ausführung. Sie haben folgende Möglichkeiten:
+Die Symbolleiste oben rechts enthält Befehle, mit denen Sie die Ausführung des Workflows verwalten können. Sie haben folgende Möglichkeiten:
 
-* **[!UICONTROL Starten]**/**[!UICONTROL Fortsetzen]** der Ausführung des Workflows. Wenn der Workflow angehalten wurde, wird er fortgesetzt. Andernfalls wird gestartet und die anfänglichen Aktivitäten werden aktiviert.
-* **[!UICONTROL Pause]** die Ausführung des Workflows. Der Workflow übernimmt dann den Status „Angehalten“. Neue Aktivitäten werden erst aktiviert, wenn sie fortgesetzt werden, die laufenden Vorgänge werden jedoch nicht ausgesetzt.
-* **[!UICONTROL Anhalten]** Ein Workflow, der ausgeführt wird. Der Workflow nimmt dann den Status Beendet an. Laufende Vorgänge werden nach Möglichkeit unterbrochen. Sie können den Workflow nicht an der Stelle fortsetzen, an der er gestoppt wurde.
+* **[!UICONTROL Starten]**/**[!UICONTROL Wieder aufnehmen]** der Ausführung des Workflows. Wenn der Workflow angehalten wurde, wird er fortgesetzt. Andernfalls wird gestartet und die anfänglichen Aktivitäten werden aktiviert.
+* **[!UICONTROL Aussetzen]** der Ausführung des Workflows. Der Workflow nimmt dann den Status „Ausgesetzt“ an. Bis zur Wiederaufnahme werden keine neuen Aktivitäten aktiviert, laufende Vorgänge werden jedoch fortgeführt.
+* **[!UICONTROL Anhalten]** eines Workflows, der ausgeführt wird. Der Workflow nimmt dann den Status „Abgeschlossen“ an. Laufende Vorgänge werden nach Möglichkeit unterbrochen. Sie können den Workflow nicht an dem Punkt wieder aufnehmen, an dem er gestoppt wurde.

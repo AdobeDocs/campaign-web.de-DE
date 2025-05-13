@@ -4,9 +4,9 @@ title: Importieren Ihrer E-Mail-Inhalte
 description: Erfahren Sie, wie Sie E-Mail-Inhalte importieren
 exl-id: ef9c8e6f-f422-404e-9ebb-a89d1bd45e7f
 source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '291'
-ht-degree: 58%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 58%
 Sie können vorhandene HTML-Inhalte in den E-Mail-Designer importieren. Dieser Inhalt kann Folgendes sein:
 
 * Eine **HTML-Datei** mit integriertem Stylesheet,
-* Ein Ordner **.zip** der HTML-Datei, dem Stylesheet (.css) und Bildern.
+* Ein **komprimierter Ordner** (.zip) mit HTML-Datei, Stylesheet (.css) und Bildern.
 
 >[!NOTE]
 >
@@ -32,28 +32,28 @@ Gehen Sie wie folgt vor, um eine Datei mit HTML-Inhalten zu importieren:
 
 1. Wählen Sie auf der Startseite des [E-Mail-Designers](get-started-email-designer.md) die Option **[!UICONTROL HTML importieren]** aus.
 
-   ![Screenshot mit der Option HTML importieren auf der Startseite von E-Mail-Designer.](assets/html-import.png){zoomable="yes"}
+   ![Screenshot mit der Option „HTML importieren“ auf der Startseite des E-Mail-Designers](assets/html-import.png){zoomable="yes"}
 
-1. Ziehen Sie die HTML- oder ZIP-Datei mit Ihrem HTML-Inhalt per Drag-and-Drop und klicken Sie auf **[!UICONTROL Importieren]**.
+1. Ziehen Sie die HTML- oder ZIP-Datei, die Ihren HTML-Inhalt enthält, per Drag-and-Drop und klicken Sie auf **[!UICONTROL Importieren]**.
 
 1. Sobald der HTML-Inhalt hochgeladen wurde, befindet sich Ihr Inhalt im **[!UICONTROL Kompatibilitätsmodus]**.
 
-   In diesem Modus können Sie Ihren Text personalisieren, Links hinzufügen oder Assets in Ihren Inhalt aufnehmen.
+   In diesem Modus können Sie Ihren Text personalisieren, Links hinzufügen oder Assets zu Ihrem Inhalt hinzufügen.
 
-   ![Screenshot mit den hochgeladenen HTML-Inhalten im Kompatibilitätsmodus.](assets/html-imported.png){zoomable="yes"}
+   ![Screenshot mit den hochgeladenen HTML-Inhalten im Kompatibilitätsmodus](assets/html-imported.png){zoomable="yes"}
 
-1. Um die Inhaltskomponenten von Email Designer zu nutzen, rufen Sie die Registerkarte **[!UICONTROL HTML Converter]** auf und klicken Sie auf **[!UICONTROL Konvertieren]**.
+1. Um die Inhaltskomponenten des E-Mail-Designers nutzen zu können, gehen Sie zur Registerkarte **[!UICONTROL HTML-Converter]** und klicken Sie auf **[!UICONTROL Konvertieren]**.
 
-   ![Screenshot mit der Registerkarte &quot;HTML Converter“ und der Schaltfläche „Konvertieren“.](assets/html-imported-2.png){zoomable="yes"}
+   ![Screenshot mit der Registerkarte „HTML-Converter“ und der Schaltfläche „Konvertieren“](assets/html-imported-2.png){zoomable="yes"}
 
 >[!NOTE]
 >
 >Wenn ein `<table>`-Tag als erste Ebene in einer HTML-Datei verwendet wird, kann dies zum Verlust von Stileinstellungen finden, einschließlich der Einstellungen für Hintergrund und Breite im Tag der obersten Ebene.
 
-1. Personalisieren Sie Ihre importierte Datei nach Bedarf mit den Funktionen von E-Mail-Designer. [Weitere Informationen](content-components.md)
+1. Personalisieren Sie Ihre importierte Datei nach Bedarf mit den Funktionen des E-Mail-Designers. [Weitere Informationen](content-components.md)
 
 ## Anleitungsvideo {#video}
 
-Erfahren Sie, wie Sie eine E-Mail erstellen, indem Sie HTML hochladen, mit der E-Mail-Designer kompatibel machen und in eine Vorlage konvertieren.
+Erfahren Sie, wie Sie eine E-Mail durch Hochladen von HTML erstellen, mit dem E-Mail-Designer kompatibel machen und in eine Vorlage umwandeln.
 
->[!VIDEO](https://video.tv.adobe.com/v/3447041/?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3427633/?quality=12)

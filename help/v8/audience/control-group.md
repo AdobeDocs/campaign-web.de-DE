@@ -4,36 +4,36 @@ title: Festlegen einer Kontrollgruppe
 description: Erfahren Sie, wie Sie in der Campaign Web-Benutzeroberfläche eine Kontrollgruppe für Ihre Nachrichten einrichten
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
 source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '799'
-ht-degree: 41%
+ht-degree: 100%
 
 ---
 
 # Festlegen einer Kontrollgruppe {#control-group}
 
-Eine Kontrollgruppe ist eine vom Versand ausgeschlossene Unterpopulation. Sie können eine Kontrollgruppe definieren, um zu vermeiden, dass Nachrichten an einen Teil Ihrer Audience gesendet werden, und das Verhalten nach dem Versand mit der Hauptzielgruppe vergleichen. Mit dieser Option können Sie die Wirkung Ihrer Kampagne messen.
+Eine Kontrollgruppe ist eine vom Versand ausgeschlossene Unterpopulation. Sie können eine Kontrollgruppe definieren, um zu verhindern, dass Nachrichten an einen Teil Ihrer Zielgruppe gesendet werden, und das Verhalten nach dem Versand mit der Hauptzielgruppe vergleichen. Mit dieser Option können Sie die Wirkung Ihrer Kampagne messen.
 
 ➡️ [Entdecken Sie diese Funktion im Video](create-audience.md#video)
 
 ## Aktivieren einer Kontrollgruppe {#add-a-control-group}
 
-Um eine Kontrollgruppe hinzuzufügen, aktivieren Sie die entsprechende Option, wenn Sie die Zielgruppe Ihres Versands definieren. Die Kontrollgruppe kann nach dem Zufallsprinzip aus der Hauptzielgruppe extrahiert oder aus einer bestimmten Population ausgewählt werden. Es gibt daher zwei Möglichkeiten, eine Kontrollgruppe zu definieren:
+Um eine Kontrollgruppe hinzuzufügen, aktivieren Sie die entsprechende Option, wenn Sie die Zielgruppe Ihres Versands definieren. Die Kontrollgruppe kann nach dem Zufallsprinzip aus der Hauptzielgruppe extrahiert oder aus einer bestimmten Population ausgewählt werden. Daher gibt es zwei Möglichkeiten, eine Kontrollgruppe zu definieren:
 
 * Extrahieren Sie eine Reihe von Profilen aus der Hauptzielgruppe.
 * Schließen Sie einige Profile aus einer Liste oder basierend auf in einer Abfrage definierten Kriterien aus.
 
 Beim Definieren einer Kontrollgruppe können Sie beide Methoden kombinieren.
 
-Alle Profile, die bei der Versandvorbereitung in der Kontrollgruppe enthalten sind, werden aus der Hauptzielgruppe entfernt. Sie erhalten die Nachricht nicht.
+Alle Profile, die bei der Versandvorbereitung zur Kontrollgruppe gehören, werden aus der Hauptzielgruppe entfernt. Sie erhalten die Nachricht nicht.
 
 >[!CAUTION]
 >
 >Sie können keine Kontrollgruppen verwenden, wenn Sie die Zielgruppen-Population [aus einer externen Datei](file-audience.md) laden.
 
-Um eine Kontrollgruppe zu einem Versand hinzuzufügen, aktivieren Sie den Umschalter **[!UICONTROL Kontrollgruppe aktivieren]** im Abschnitt **Audience** des Bildschirms für die Versanderstellung.
+Um eine Kontrollgruppe zu einem Versand hinzuzufügen, aktivieren Sie im Abschnitt **Zielgruppe** des Bildschirms für die Versanderstellung den Umschalter **[!UICONTROL Kontrollgruppe aktivieren]**.
 
-![Optionsfeld Kontrollgruppe aktivieren im Bildschirm zur Versanderstellung](assets/control-group1.png)
+![Umschalter „Kontrollgruppe aktivieren“ im Bildschirm für die Versanderstellung](assets/control-group1.png)
 
 ## Aus Zielgruppe extrahieren {#extract-target}
 
@@ -44,16 +44,16 @@ Um eine Kontrollgruppe zu einem Versand hinzuzufügen, aktivieren Sie den Umscha
 
 ### Erstellen einer Kontrollgruppe {#build-extract-target}
 
-Um eine Kontrollgruppe zu definieren, wählen Sie nach dem Zufallsprinzip oder basierend auf einer Sortierung einen Prozentsatz oder eine feste Anzahl von Profilen aus der Zielpopulation aus. Wenn Sie eine zusätzliche Population hinzufügen, wählen Sie die Option **Keine Extraktion** und wählen Sie die zusätzliche Population [wie hier beschrieben](#extra-population).
+Um eine Kontrollgruppe zu definieren, extrahieren Sie nach dem Zufallsprinzip oder basierend auf einer Sortierung einen Prozentsatz oder eine feste Anzahl von Profilen aus der Zielpopulation. Wenn Sie eine zusätzliche Population hinzufügen, wählen Sie die Option **Keine Extraktion** und dann die zusätzliche Population aus, [wie hier beschrieben](#extra-population).
 
-Legen Sie zunächst fest, wie die Profile aus der Zielgruppe extrahiert werden sollen: zufällig oder auf der Grundlage einer Sortierung.
+Legen Sie zunächst fest, wie die Profile aus der Zielgruppe extrahiert werden sollen: zufällig oder auf Grundlage einer Sortierung.
 
 Wählen Sie unter dem Abschnitt **Kontrollgruppe** einen **Extraktionsmodus**:
 
-* **Zufällig**: Bei der Versandvorbereitung extrahiert Adobe Campaign nach dem Zufallsprinzip eine Anzahl von Profilen, die dem Prozentwert oder der maximalen Anzahl entsprechen, die als Größenbeschränkung festgelegt wurde.
-* **Nach Attribut(en) sortiert**: Mit dieser Option wird eine Gruppe von Profilen auf der Grundlage bestimmter Attribute in einer bestimmten Sortierreihenfolge ausgeschlossen.
+* **Zufällig**: Bei der Versandvorbereitung extrahiert Adobe Campaign nach dem Zufallsprinzip eine gewisse Anzahl von Profilen, die dem Prozentsatz oder der maximalen Anzahl entspricht, die als maximale Größe festgelegt wurde.
+* **Rangfolge nach Attribut(en)**: Mit dieser Option wird anhand bestimmter Attribute in einer bestimmten Reihenfolge eine Gruppe von Profilen ausgeschlossen.
 
-Verwenden Sie dann den Abschnitt **Größenbeschränkung**, um die Anzahl der Profile festzulegen, die aus der Hauptzielgruppe extrahiert werden sollen. Dabei kann es sich um eine Rohanzahl (z. B. 50 Profile, die ausgeschlossen werden sollen) oder einen Prozentsatz der ursprünglichen Zielgruppe handeln (z. B. 5 % der Hauptzielgruppe).
+Verwenden Sie dann den Abschnitt **Maximale Größe**, um die Anzahl der Profile festzulegen, die aus der Hauptzielgruppe extrahiert werden sollen. Dabei kann es sich um eine Rohanzahl (z. B. 50 Profile, die ausgeschlossen werden sollen) oder einen Prozentsatz der ursprünglichen Zielgruppe (z. B. 5 % der Hauptzielgruppe) handeln.
 
 ### Beispiel einer Kontrollgruppe {#control-group-sample}
 
@@ -69,15 +69,15 @@ Diese 100 jüngsten Profile werden dann aus der Hauptzielgruppe ausgeschlossen.
 
 ### Überprüfen Sie Ihre Kontrollgruppe {#check-control-group}
 
-Anzeigen der Protokolle zur Überprüfung und Identifizierung der ausgeschlossenen Profile Betrachten Sie beispielsweise einen zufälligen Ausschluss von fünf Profilen.
+Zeigen Sie die Protokolle an, um die ausgeschlossenen Profile zu überprüfen und zu identifizieren. Ziehen Sie beispielsweise einen zufälligen Ausschluss von fünf Profilen in Betracht.
 
 ![Beispiel für ausgeschlossene Profile in Protokollen](assets/control-group4.png){zoomable="yes"}
 
 Überprüfen Sie nach der Versandvorbereitung, wie die Ausschlüsse angewendet wurden:
 
-* Aktivieren Sie im Versand-Dashboard vor dem Versand den KPI **Ausschließen**.
+* Aktivieren Sie im Versand-Dashboard vor dem Versand den KPI **Auszuschließen**.
 
-  ![Versand-Dashboard mit dem KPI „Ausschließen“](assets/control-group5.png){zoomable="yes"}
+  ![Versand-Dashboard mit dem KPI „Auszuschließen“](assets/control-group5.png){zoomable="yes"}
 
 * In den Versandlogs wird in der Registerkarte „Logs“ der Ausschlussschritt angezeigt.
 
@@ -91,9 +91,9 @@ Anzeigen der Protokolle zur Überprüfung und Identifizierung der ausgeschlossen
 
 -->
 
-* Auf **Registerkarte** Ausschlussgründe“ wird die Anzahl der ausgeschlossenen Profile für jede Typologieregel angezeigt.
+* Auf der Registerkarte **Ausschlussgründe** wird für jede Typologieregel die Anzahl der ausgeschlossenen Profile angegeben.
 
-  ![Registerkarte „Ausschlussgründe“ mit Typologieregel-Ausschlüssen](assets/control-group7.png){zoomable="yes"}
+  ![Registerkarte „Ausschlussgründe“ mit auf Typologieregel basierenden Ausschlüssen](assets/control-group7.png){zoomable="yes"}
 
 Weitere Informationen über Versandlogs finden Sie in [diesem Abschnitt](../monitor/delivery-logs.md).
 
@@ -104,7 +104,7 @@ Weitere Informationen über Versandlogs finden Sie in [diesem Abschnitt](../moni
 >title="Zusätzliche Population"
 >abstract="Eine Kontrollgruppe ist ein Satz von Profilen, die vom Versand ausgeschlossen sind. Sie können eine bestimmte Population aus der Versand-Zielgruppe ausschließen, indem Sie eine existierende Zielgruppe auswählen oder eine Abfrage definieren."
 
-Eine andere Möglichkeit, eine Kontrollgruppe zu definieren, besteht darin, eine bestimmte Population in einer bestehenden Audience auszuwählen oder eine Abfrage zu definieren.
+Eine andere Möglichkeit, eine Kontrollgruppe zu definieren, ist die Auswahl einer bestimmten Population in einer bestehenden Zielgruppe oder die Definition einer Abfrage.
 
 Klicken Sie im Abschnitt **Zusätzliche Population** des Definitionsbildschirms der **Kontrollgruppe** auf die Schaltfläche **[!UICONTROL Zielgruppe auswählen]**.
 
@@ -113,10 +113,10 @@ Klicken Sie im Abschnitt **Zusätzliche Population** des Definitionsbildschirms 
 * Um eine vorhandene Zielgruppe zu verwenden, klicken Sie auf **Zielgruppe auswählen**. Weiterführende Informationen finden Sie in [diesem Abschnitt](add-audience.md).
 * Um eine neue Abfrage zu definieren, wählen Sie **Eigene erstellen** und definieren Sie die Ausschlusskriterien mithilfe des Abfrage-Modelers. Weiterführende Informationen finden Sie in [diesem Abschnitt](../query/query-modeler-overview.md).
 
-Die Profile, die in der Audience enthalten sind oder mit dem Ergebnis der Abfrage übereinstimmen, werden **der Versandzielgruppe** ausgeschlossen“. Sie erhalten keine Nachricht.
+Die Profile, die in der Zielgruppe enthalten sind oder mit dem Ergebnis der Abfrage übereinstimmen, werden aus der Versandzielgruppe **ausgeschlossen**. Sie erhalten keine Nachrichten
 
 ## Vergleichen der Ergebnisse {#control-group-results}
 
-Extrahieren Sie nach dem Versand die Versandlogs, um das Verhalten zwischen den Profilen, die die Nachricht nicht erhalten haben, und der tatsächlichen Zielgruppe zu vergleichen. Versandlogs zum Erstellen einer neuen Zielgruppenbestimmung verwenden.
+Nach dem Versand extrahieren Sie die Versandlogs, um das Verhalten zwischen den Profilen, die die Nachricht nicht erhalten haben, und der tatsächlichen Zielgruppe zu vergleichen. Verwenden Sie die Versandlogs für eine neue Zielgruppenbestimmung.
 
 Um zu sehen, welche Profile aus der Zielgruppe entfernt wurden, überprüfen Sie die **Versandlogs**. Weitere Informationen finden Sie in [diesem Abschnitt](#check-control-group).

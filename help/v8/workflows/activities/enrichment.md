@@ -4,9 +4,9 @@ title: Verwendung der Workflow-Aktivität „Anreicherung“
 description: Erfahren Sie, wie Sie die Workflow-Aktivität „Anreicherung“ verwenden.
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
 source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2043'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -18,19 +18,19 @@ ht-degree: 79%
 >title="Aktivität „Anreicherung“"
 >abstract="Die Aktivität **Anreicherung** ermöglicht es Ihnen, die Zielgruppendaten um zusätzliche Informationen aus der Datenbank zu erweitern. Sie wird in einem Workflow häufig nach den Segmentierungsaktivitäten verwendet."
 
-Die Aktivität der **Anreicherung** ist eine **Zielgruppenbestimmungs-Aktivität**. Die Zielgruppendaten werden um zusätzliche Informationen aus der Datenbank erweitert. Sie wird in einem Workflow häufig nach den Segmentierungsaktivitäten verwendet.
+Die Aktivität der **Anreicherung** ist eine **Zielgruppenbestimmungs-Aktivität**. Sie erweitert die Zielgruppendaten um zusätzliche Informationen aus der Datenbank. Sie wird in einem Workflow häufig nach den Segmentierungsaktivitäten verwendet.
 
-Anreicherungsdaten können aus folgenden Quellen stammen:
+Anreicherungsdaten können verschiedene Ursprünge haben:
 
 * **Dieselbe Arbeitstabelle** wie die Zielgruppe in Ihrem Workflow:
-   * Targeting einer Kundengruppe und Hinzufügen des Felds „Geburtsdatum“ zur aktuellen Arbeitstabelle.
+   * Bestimmung einer Kundenzielgruppe und Hinzufügen des Felds „Geburtsdatum“ zur aktuellen Arbeitstabelle
 
-* **Eine weitere Arbeitstabelle**:
-   * Targeting einer Kundengruppe und Hinzufügen der Felder „Betrag“ und „Produkttyp“ aus der Tabelle „Kauf“.
+* **Andere Arbeitstabelle**:
+   * Targeting einer Kundengruppe und Hinzufügen der Felder „Betrag“ und „Produkttyp“ aus der „Kauf“-Tabelle.
 
-Nachdem die Anreicherungsdaten zum Workflow hinzugefügt wurden, können sie in nachfolgenden Aktivitäten verwendet werden, um Kundinnen und Kunden basierend auf ihren Verhaltensweisen, Voreinstellungen und Anforderungen in verschiedene Gruppen zu unterteilen. Sie können damit auch personalisierte Marketing-Nachrichten und -Kampagnen erstellen, die bei Ihrer Zielgruppe Anklang finden.
+Nachdem die Anreicherungsdaten dem Workflow hinzugefügt wurden, können sie in nachfolgenden Aktivitäten verwendet werden, um Kundinnen und Kunden basierend auf ihren Verhaltensweisen, Vorlieben und Bedürfnissen in unterschiedliche Gruppen zu segmentieren. Sie können auch zur Erstellung personalisierter Marketing-Nachrichten und -Kampagnen verwendet werden, die bei Ihrer Zielgruppe Anklang finden.
 
-Sie können der Workflow-Tabelle beispielsweise Informationen zu Käufen von Kunden hinzufügen und diese Daten verwenden, um E-Mails mit ihrem neuesten Kauf oder dem für diese Käufe ausgegebenen Betrag zu personalisieren.
+Sie können beispielsweise der Workflow-Tabelle Informationen zu Käufen von Kundinnen und Kunden hinzufügen und diese Daten verwenden, um E-Mails mit ihrem neuesten Kauf oder dem für diese Käufe ausgegebenen Betrag zu personalisieren. 
 
 ## Hinzufügen einer Anreicherungsaktivität {#enrichment-configuration}
 
@@ -38,7 +38,7 @@ Führen Sie die folgenden Schritte aus, um die Aktivität **Anreicherung** zu ko
 
 1. Fügen Sie Aktivitäten wie **Zielgruppe erstellen** und **Kombinieren** hinzu.
 1. Fügen Sie eine Aktivität vom Typ **Anreicherung** hinzu.
-1. Wenn in Ihrem Workflow mehrere Transitionen konfiguriert sind, verwenden Sie das Feld **[!UICONTROL Primäres Set]**, um festzulegen, welche Transition als Hauptmenge für die Anreicherung verwendet werden soll.
+1. Wenn in Ihrem Workflow mehrere Transitionen konfiguriert wurden, verwenden Sie das Feld **[!UICONTROL Hauptmenge]**, um festzulegen, welche Transition als Hauptmenge für die Anreicherung verwendet werden soll.
 
 ## Hinzufügen von Anreicherungsdaten {#enrichment-add}
 
@@ -50,17 +50,17 @@ Führen Sie die folgenden Schritte aus, um die Aktivität **Anreicherung** zu ko
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment_data"
 >title="Aktivität „Anreicherung“"
->abstract="Nachdem Anreicherungsdaten zum Workflow hinzugefügt wurden, können sie in nachfolgenden Aktivitäten verwendet werden, um Kundinnen und Kunden basierend auf ihren Verhaltensweisen, Voreinstellungen und Anforderungen in verschiedene Gruppen zu unterteilen oder um personalisierte Marketing-Nachrichten und -Kampagnen zu erstellen, die Ihre Zielgruppe ansprechen."
+>abstract="Nachdem Anreicherungsdaten zum Workflow hinzugefügt wurden, können sie in den nachfolgenden Aktivitäten verwendet werden, um Kundinnen und Kunden basierend auf ihren Verhaltensweisen, Voreinstellungen und Anforderungen in verschiedene Gruppen zu segmentieren oder um personalisierte Marketing-Nachrichten und -Kampagnen zu erstellen, die bei Ihrer Zielgruppe Anklang finden."
 
-1. Klicken Sie **Anreicherungsdaten hinzufügen** und wählen Sie das Attribut aus, das für die Anreicherung verwendet werden soll. [Erfahren Sie, wie Sie Attribute auswählen und zu Favoriten hinzufügen](../../get-started/attributes.md).
+1. Klicken Sie auf **Anreicherungsdaten hinzufügen** und wählen Sie das Attribut aus, das für die Anreicherung verwendet werden soll. [Erfahren Sie, wie Sie Attribute auswählen und zu den Favoriten hinzufügen](../../get-started/attributes.md).
 
-   Sie können zwei Arten von Anreicherungsdaten auswählen: ein einzelnes Anreicherungsattribut aus der Zielgruppendimension oder eine Sammlungsrelation. Die einzelnen Typen werden in den folgenden Beispielen beschrieben:
+   Sie können zwei Arten von Anreicherungsdaten auswählen: ein einzelnes Anreicherungsattribut aus der Zielgruppendimension oder eine Sammlungsrelation. Jeder Typ wird in den Beispielen unten detailliert beschrieben:
    * [Einzelnes Anreicherungsattribut](#single-attribute)
    * [Sammlungsrelation](#collection-link)
 
    >[!NOTE]
    >
-   >Über die **Schaltfläche „Ausdruck bearbeiten“** im Attributauswahl-Bildschirm können Sie erweiterte Ausdrücke zur Attributauswahl erstellen. [Erfahren Sie, wie Sie mit dem Ausdruckseditor arbeiten](../../query/expression-editor.md).
+   >Über die **Schaltfläche „Ausdruck bearbeiten“** im Attributauswahl-Bildschirm können Sie erweiterte Ausdrücke zur Attributauswahl erstellen. [Erfahren Sie mehr über die Arbeit mit dem Ausdruckseditor](../../query/expression-editor.md).
 
    ![Screenshot mit dem Bildschirm zur Auswahl der Anreicherungsdaten](../assets/workflow-enrichment1.png)
 
@@ -69,21 +69,21 @@ Führen Sie die folgenden Schritte aus, um die Aktivität **Anreicherung** zu ko
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment_simplejoin"
 >title="Definition der Relation"
->abstract="Erstellen Sie eine Verknüpfung zwischen den Daten der Arbeitstabelle und der Adobe Campaign-Datenbank. Wenn Sie beispielsweise Daten aus einer Datei laden, die die Kontonummer, das Land und die E-Mail-Adresse der Empfänger enthält, müssen Sie einen Link zur Tabelle Land erstellen, um diese Informationen in deren Profilen zu aktualisieren."
+>abstract="Erstellen Sie eine Verknüpfung zwischen den Daten der Arbeitstabelle und der Adobe Campaign-Datenbank. Wenn Sie beispielsweise Daten aus einer Datei laden, die die Kundennummer, das Land und die E-Mail-Adresse der Empfängerinnen und Empfänger enthält, müssen Sie eine Verknüpfung zur Ländertabelle erstellen, um diese Information in den Empfangsprofilen zu aktualisieren."
 
-Der Abschnitt **[!UICONTROL Relationsdefinition]** dient der Erzeugung einer Relation zwischen den Daten der Arbeitstabelle und der Adobe Campaign-Datenbank. Wenn Sie beispielsweise Daten aus einer Datei laden, die die Kontonummer, das Land und die E-Mail-Adresse der Empfänger enthält, müssen Sie einen Link zur Tabelle Land erstellen, um diese Informationen in deren Profilen zu aktualisieren.
+Der Abschnitt **[!UICONTROL Relationsdefinition]** dient der Erzeugung einer Relation zwischen den Daten der Arbeitstabelle und der Adobe Campaign-Datenbank. Wenn Sie beispielsweise Daten aus einer Datei laden, die die Kundennummer, das Land und die E-Mail-Adresse der Empfängerinnen und Empfänger enthält, müssen Sie eine Verknüpfung zur Ländertabelle erstellen, um diese Information in den Empfangsprofilen zu aktualisieren.
 
 Es stehen verschiedene Relationstypen zur Verfügung:
 
-* Einfache Relation mit **[!UICONTROL 1-Kardinalität]**: Jeder Datensatz aus der primären Gruppe ist einem und genau einem Datensatz aus den verknüpften Daten zugeordnet.
-* **[!UICONTROL Einfache Relation mit Kardinalität 0 oder 1]**: Jeder Datensatz aus der primären Gruppe ist einem Datensatz mit 0 oder 1 aus den verknüpften Daten zugeordnet, jedoch nicht mehr als einem.
-* **[!UICONTROL Sammlungsrelation mit Kardinalität N]**: Jeder Datensatz aus der primären Gruppe ist mit 0, 1 oder mehr (N) Datensätzen aus den verknüpften Daten verknüpft.
+* **[!UICONTROL Einfache Relation mit Kardinalität 1]**: Jeder Eintrag aus der Hauptmenge wird genau einem Eintrag aus den verknüpften Daten zugeordnet.
+* **[!UICONTROL Einfache Relation mit Kardinalität 0 oder 1]**: Jeder Eintrag der Hauptmenge wird 0 oder maximal 1 Eintrag der verknüpften Menge zugeordnet.
+* **[!UICONTROL Sammlungsrelation mit Kardinalität N]**: Jeder Eintrag aus der Hauptmenge wird 0, 1 oder mehr (N) Einträgen der verknüpften Daten zugeordnet.
 
 Gehen Sie wie folgt vor, um eine Relation zu erzeugen:
 
 1. Klicken Sie im Abschnitt **[!UICONTROL Relationsdefinition]** auf die Schaltfläche **[!UICONTROL Relation hinzufügen]** .
 
-   ![Screenshot mit dem Abschnitt zur Link-Definition](../assets/workflow-enrichment-link.png)
+   ![Screenshot mit dem Abschnitt zur Relationsdefinition](../assets/workflow-enrichment-link.png)
 
 1. Wählen Sie in der Dropdown-Liste **Relationstyp** den Relationstyp aus, den Sie erzeugen möchten.
 
@@ -188,7 +188,7 @@ Wenn Sie nur Angebote aus der Anreicherungsaktivität anzeigen möchten, setzen 
 
 ### Einzelnes Anreicherungsattribut {#single-attribute}
 
-Hier fügen wir nur ein einziges Anreicherungsattribut hinzu, z. B. das Geburtsdatum. Gehen Sie dazu wie folgt vor:
+Hier fügen wir nur ein einziges Anreicherungsattribut hinzu, z. B. das Geburtsdatum. Führen Sie folgende Schritte aus:
 
 1. Klicken Sie in das Feld **Attribut**.
 1. Wählen Sie ein einfaches Feld aus der Zielgruppendimension aus, in unserem Beispiel das Geburtsdatum.

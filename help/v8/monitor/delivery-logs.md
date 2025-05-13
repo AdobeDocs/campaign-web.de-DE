@@ -4,9 +4,9 @@ title: Überwachen von Versandlogs
 description: Erfahren Sie, wie Sie Versandlogs überwachen
 exl-id: 2eb7457e-32f7-4729-99c8-91bf287f0192
 source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '428'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 66%
 >title="Versandlogs"
 >abstract="Die Versandlogs zeigen die Details des Versands an. Sie zeigen die Details des Versands, welche Zielgruppe ausgeschlossen wurde und warum, sowie die Tracking-Informationen wie Öffnungen und Klicks."
 
-Sobald der Versand vorbereitet wurde und Sie auf die Schaltfläche **Senden** klicken, navigieren Sie zu den Versandlogs, um Warnungen, Fehler, Status, Ausschlüsse und Tracking-Daten zu überprüfen. Diese Logs können direkt über das Nachrichten-Dashboard aufgerufen werden. Sie zeigen die Details des Versands, welche Zielgruppe ausgeschlossen wurde und warum, sowie die Tracking-Informationen wie Öffnungen und Klicks.
+Nachdem der Versand vorbereitet wurde und Sie auf die Schaltfläche **Senden** geklickt haben, navigieren Sie zu den Versandlogs, um die Warnungen, Fehler, Status, Ausschlüsse und Tracking-Daten zu überprüfen. Diese Logs können direkt über das Nachrichten-Dashboard aufgerufen werden. Sie zeigen die Details des Versands, welche Zielgruppe ausgeschlossen wurde und warum, sowie die Tracking-Informationen wie Öffnungen und Klicks.
 
 Um die Logs anzuzeigen, rufen Sie Ihr Versand-Dashboard auf und klicken Sie auf die Schaltfläche **Protokolle**.
 
@@ -40,37 +40,37 @@ Alle Validierungsschritte, Warnungen und Fehler werden aufgelistet. Farbige Symb
 * Das gelbe Symbol steht für einen nicht kritischen Verarbeitungsfehler.
 * Das rote Symbol steht für einen kritischen Fehler, der die Durchführung des Versands verhindert. Kritische Fehler müssen behoben sein, damit der Versand durchgeführt werden kann.
 
-![ Registerkarte „Protokolle“ mit Validierungsschritten, Warnungen und Fehlern mit farbigen Symbolen, die auf Nachrichtentypen hinweisen.](assets/logs.png){zoomable="yes"}
+![ Registerkarte „Logs“ mit Validierungsschritten, Warnungen und Fehlern mit farbigen Symbolen, die auf Nachrichtentypen hinweisen.](assets/logs.png){zoomable="yes"}
 
 ## Sendungen {#deliveries-tab}
 
 Der Tab **Versandlogs** zeigt die Liste der einzelnen Nachrichten eines Versands. Hier wird die Liste der gesendeten Nachrichten und deren Status gespeichert. Für jeden einzelnen Empfänger können Sie anhand des Status das Ergebnis des Versands verfolgen.
 
-![ Registerkarte Sendungen mit dem Verlauf der gesendeten Nachrichten und ihrem Status.](assets/logs2.png){zoomable="yes"}
+![ Registerkarte „Sendungen“ mit dem Verlauf der gesendeten Nachrichten und ihren Status.](assets/logs2.png){zoomable="yes"}
 
 ## Ausschlüsse {#exclusion-tab}
 
 Die Registerkarte **Ausschlusslogs** zeigt die Liste aller aus der Zielgruppe ausgeschlossenen Nachrichten an und den Grund für den fehlgeschlagenen Versand.
 
-![Registerkarte „Ausschlüsse“ mit den ausgeschlossenen Nachrichten und den Gründen für fehlgeschlagene Sendungen.](assets/logs3.png){zoomable="yes"}
+![Registerkarte „Ausschlüsse“ mit den ausgeschlossenen Nachrichten und den Gründen für fehlgeschlagene Sendungen](assets/logs3.png){zoomable="yes"}
 
 ## Ausschlussgründe {#exclusion-causes-tab}
 
 Die Registerkarte **Ausschlussgründe** zeigt für jede mögliche Ursache die Anzahl der Nachrichten an, die von der Zielgruppe ausgeschlossen wurden.
 
-![Registerkarte „Ausschlussgründe“ mit der Anzahl der ausgeschlossenen Nachrichten für jede Ursache.](assets/logs4.png){zoomable="yes"}
+![Registerkarte „Ausschlussgründe“ mit der Anzahl der ausgeschlossenen Nachrichten für jeden Grund](assets/logs4.png){zoomable="yes"}
 
 ## Getrackte URLs {#tracked-urls-tab}
 
-Die Registerkarte **Getrackte URLs** gibt Auskunft über die in den gesendeten Nachrichten enthaltenen URLs, ihren Typ sowie ihre Quell-URLs.
+Die Registerkarte **Getrackte URLs** gruppiert die in den gesendeten Nachrichten enthaltenen URLs, ihren URL-Typ sowie ihre Quell-URL.
 
-![Registerkarte „Getrackte URLs“ mit den in gesendeten Nachrichten enthaltenen URLs, ihren Typen und Quell-URLs.](assets/logs5.png){zoomable="yes"}
+![Registerkarte „Getrackte URLs“ mit den in gesendeten Nachrichten enthaltenen URLs, ihre Typen und Quell-URLs.](assets/logs5.png){zoomable="yes"}
 
 ## Tracking {#tracking-tab}
 
-Die **Tracking** listet den Tracking-Verlauf für diesen Versand auf. Auf dieser Registerkarte werden Tracking-Daten zu den gesendeten Nachrichten angezeigt, einschließlich aller URLs, die von Adobe Campaign getrackt werden.
+Auf der Registerkarte **Tracking** wird der Tracking-Verlauf für den vorliegenden Versand angezeigt. Auf dieser Registerkarte werden Tracking-Daten zu den gesendeten Nachrichten angezeigt, einschließlich aller URLs, die von Adobe Campaign getrackt werden.
 
-![Registerkarte „Tracking“ mit Tracking-Verlauf und Daten für gesendete Nachrichten.](assets/logs6.png){zoomable="yes"}
+![Registerkarte „Tracking“ mit Tracking-Verlauf und -Daten für gesendete Nachrichten](assets/logs6.png){zoomable="yes"}
 
 >[!NOTE]
 >

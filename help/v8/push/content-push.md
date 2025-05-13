@@ -4,9 +4,9 @@ title: Erstellen eines Push-Benachrichtigungs-Versands
 description: Erfahren Sie, wie Sie einen Push-Benachrichtigungs-Versand mit Adobe Campaign Web erstellen
 exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
 source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1569'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -38,40 +38,40 @@ ht-degree: 83%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_ios_silent"
 >title="Stille Benachrichtigung für iOS"
->abstract="Im Modus Silent Push kann eine „stille“ Benachrichtigung an eine Mobile App gesendet werden. Dem Benutzer wird das Eintreffen der Benachrichtigung nicht mitgeteilt. Sie wird direkt an die Mobile App übertragen."
+>abstract="Im Modus „Stilles Pushen“ kann eine „stille“ Benachrichtigung an eine App gesendet werden. Dem Benutzer wird das Eintreffen der Benachrichtigung nicht mitgeteilt. Sie wird direkt an die Mobile App übertragen."
 
-Definieren Sie nach der Erstellung Ihres Push-Versands dessen Inhalt. Parameter und Einstellungen hängen vom mobilen Betriebssystem ab: Android oder iOS. Auf den folgenden Registerkarten erfahren Sie, wie Sie eine Nachricht für jedes Betriebssystem erstellen.
+Sobald Ihr Push-Versand erstellt wurde, können Sie seinen Inhalt festlegen. Parameter und Einstellungen hängen vom mobilen Betriebssystem ab: Android oder iOS. Auf den folgenden Registerkarten erfahren Sie, wie Sie eine Nachricht für jedes Betriebssystem erstellen.
 
 >[!BEGINTABS]
 
 >[!TAB Android]
 
-Bei Firebase Cloud Messaging können Sie zwischen zwei Nachrichtentypen wählen:
+Bei Firebase Cloud Messaging stehen Ihnen zwei Nachrichtentypen zur Auswahl:
 
 * Die **[!UICONTROL Datenmeldung]** wird von der Client-App verarbeitet. Diese Meldungen werden direkt an die App gesendet, die auf dem Gerät eine Android-Benachrichtigung generiert und anzeigt. Datennachrichten enthalten nur die von Ihnen definierten Anwendungsvariablen.
 
-  Um den Inhalt zu definieren, Daten zu personalisieren und dynamische Inhalte hinzuzufügen, klicken Sie auf das Feld **[!UICONTROL Nachricht]** und verwenden Sie den Ausdruckseditor. Zugriff auf diesen Editor, um Ihre Nachrichten anzupassen.
-Im Menü **[!UICONTROL Anwendungsvariablen]** werden Ihre Anwendungsvariablen automatisch hinzugefügt. Mit diesen Variablen können Sie das Verhalten von Benachrichtigungen definieren. Konfigurieren Sie beispielsweise einen bestimmten Anwendungsbildschirm, der angezeigt werden soll, wenn Benutzende die Benachrichtigung aktivieren.
+  Um den Inhalt zu definieren, Daten zu personalisieren und dynamische Inhalte hinzuzufügen, klicken Sie auf das Feld **[!UICONTROL Nachricht]** und verwenden Sie den Ausdruckseditor. Greifen Sie auf diesen Editor zu, um Ihre Nachrichten anzupassen.
+Ihre Anwendungsvariablen werden automatisch im Menü **[!UICONTROL Anwendungsvariablen]** hinzugefügt. Mit diesen Variablen können Sie das Verhalten von Benachrichtigungen definieren. Konfigurieren Sie beispielsweise einen bestimmten Anwendungsbildschirm, der angezeigt wird, wenn die Benutzerin oder der Benutzer die Benachrichtigung aktiviert.
 
-  ![Beschreibung: Beispiel für die Definition von Inhalten für eine Datennachricht in Android-Benachrichtigungen](assets/push_content_4.png){zoomable="yes"}
+  ![Beschreibung: Beispiel für das Definieren von Inhalten für eine Datennachricht in Android-Benachrichtigungen](assets/push_content_4.png){zoomable="yes"}
 
 * Die **[!UICONTROL Benachrichtigungsmeldung]** wird automatisch vom FCM SDK verarbeitet. FCM übernimmt für die Client-App automatisch das Anzeigen der Nachricht auf den Geräten Ihrer Benutzenden. Benachrichtigungsmeldungen enthalten einen vordefinierten Satz von Parametern und Optionen, können aber mit benutzerspezifischen Anwendungsvariablen weiter personalisiert werden.
 
-  Um eine Nachricht zu verfassen, auf die Felder **[!UICONTROL Titel]** und **[!UICONTROL Nachricht]** klicken. Mit dem Ausdruckseditor können Sie Inhalte definieren, Daten personalisieren und dynamische Inhalte hinzufügen.
+  Um eine Nachricht zu verfassen, auf die Felder **[!UICONTROL Titel]** und **[!UICONTROL Nachricht]** klicken. Verwenden Sie den Ausdruckseditor, um Inhalte zu definieren, Daten zu personalisieren und dynamische Inhalte hinzuzufügen.
 
-  Um Ihre Push-Benachrichtigung weiter zu personalisieren, wählen Sie ein Bild, das Ihrer Push-Benachrichtigung hinzugefügt werden soll, das Symbol der Benachrichtigung, das auf den Geräten Ihrer Profile angezeigt werden soll, und ihre Farbe aus.
+  Push-Benachrichtigungen können weiter personalisiert werden. Wählen Sie hierzu ein Bild aus, das der Push-Benachrichtigung hinzugefügt werden soll, sowie das Symbol der Benachrichtigung, das auf den Geräten der Profile angezeigt werden soll, und dessen Farbe. 
 
-  ![Beschreibung: Beispiel für die Definition von Inhalten für eine Benachrichtigungsmeldung in Android-Benachrichtigungen](assets/push_content_3.png){zoomable="yes"}
+  ![Beschreibung: Beispiel für das Definieren von Inhalten für eine Benachrichtigung in Android-Benachrichtigungen](assets/push_content_3.png){zoomable="yes"}
 
 >[!TAB iOS]
 
-Um eine Nachricht zu verfassen, auf die Felder **[!UICONTROL Titel]** und **[!UICONTROL Nachricht]** klicken. Mit dem Ausdruckseditor können Sie Inhalte definieren, Daten personalisieren und dynamische Inhalte hinzufügen.
+Um eine Nachricht zu verfassen, auf die Felder **[!UICONTROL Titel]** und **[!UICONTROL Nachricht]** klicken. Verwenden Sie den Ausdruckseditor, um Inhalte zu definieren, Daten zu personalisieren und dynamische Inhalte hinzuzufügen.
 
-Sie können einen **[!UICONTROL Untertitel]** hinzufügen, der dem Wert des Parameters „subtitle“ der iOS-Benachrichtigungs-Payload entspricht. Siehe diesen Abschnitt.
+Sie können einen **[!UICONTROL Untertitel]** hinzufügen, den Wert des Parameters „subtitle“ der iOS-Benachrichtigungs-Payload. Weitere Informationen dazu finden Sie in diesem Abschnitt.
 
 Im Modus „Stilles Pushen“ kann eine „stille“ Benachrichtigung an eine Mobile App gesendet werden. Dem Benutzer wird das Eintreffen der Benachrichtigung nicht mitgeteilt. Sie wird direkt an die Mobile App übertragen.
 
-![Beschreibung: Beispiel für die Definition von Inhalten für iOS-Benachrichtigungen](assets/push_content_1.png){zoomable="yes"}
+![Beschreibung: Beispiel für das Definieren von Inhalten für iOS-Benachrichtigungen](assets/push_content_1.png){zoomable="yes"}
 
 >[!ENDTABS]
 
@@ -144,10 +144,10 @@ Die erweiterten Optionen hängen vom mobilen Betriebssystem ab: Android oder iOS
 | **[!UICONTROL Lautstärke]** | Lautstärke Ihres Tons auf einer Skala von 0 bis 100. |
 | **[!UICONTROL Veränderlicher Inhalt]** | Aktivieren Sie diese Option, damit die App mit der Benachrichtigung verknüpfte Medieninhalte herunterladen kann. Weiterführende Informationen dazu finden Sie im [Apple-Entwickler-Handbuch](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html). |
 | **[!UICONTROL Relevanzwert]** | Legen Sie einen Relevanzwert von 0 bis 100 fest, um die Reihenfolge der Benachrichtigungen in der Zusammenfassung der Benachrichtigungen zu priorisieren. Höhere Werte weisen auf wichtigere Benachrichtigungen hin. |
-| **[!UICONTROL Unterbrechungsgrad]** | <ul> <li>**[!UICONTROL Aktiv]**: Ist dies als Standardeinstellung festgelegt, wird die Benachrichtigung sofort angezeigt, der Bildschirm wird beleuchtet und eventuell wird ein Ton abgespielt. Benachrichtigungen umgehen nicht den Fokusmodus.</li><li>**[!UICONTROL Passiv]**: Die Benachrichtigung wird zur Benachrichtigungsliste hinzugefügt, ohne dass der Bildschirm beleuchtet oder ein Ton abgespielt wird. Benachrichtigungen umgehen nicht den Fokusmodus.</li><li>**[!UICONTROL Zeitabhängig]**: Die Benachrichtigung wird sofort angezeigt, der Bildschirm wird beleuchtet, eventuell wird ein Ton abgespielt und der Fokusmodus kann umgangen werden. Für diese Ebene ist keine spezielle Berechtigung von Apple erforderlich.</li> <li>**[!UICONTROL Kritisch]**: Die Benachrichtigung wird sofort angezeigt, der Bildschirm wird beleuchtet und der Stummschaltungs- oder Fokusmodus wird umgangen. Beachten Sie, dass für diese Ebene eine spezielle Berechtigung von Apple erforderlich ist.</ul> |
+| **[!UICONTROL Unterbrechungsgrad]** | <ul> <li>**[!UICONTROL Aktiv]**: Ist dies als Standardeinstellung festgelegt, wird die Benachrichtigung sofort angezeigt, der Bildschirm wird beleuchtet und eventuell wird ein Ton abgespielt. Benachrichtigungen umgehen nicht den Fokusmodus.</li><li>**[!UICONTROL Passiv]**: Die Benachrichtigung wird zur Benachrichtigungsliste hinzugefügt, ohne dass der Bildschirm beleuchtet oder ein Ton abgespielt wird. Benachrichtigungen umgehen nicht den Fokusmodus.</li><li>**[!UICONTROL Zeitabhängig]**: Die Benachrichtigung wird sofort angezeigt, der Bildschirm wird beleuchtet, eventuell wird ein Ton abgespielt und der Fokusmodus kann umgangen werden. Für diese Stufe ist keine spezielle Berechtigung von Apple erforderlich.</li> <li>**[!UICONTROL Kritisch]**: Die Benachrichtigung wird sofort angezeigt, der Bildschirm wird beleuchtet und der Stummschaltungs- oder Fokusmodus wird umgangen. Beachten Sie, dass für diese Stufe eine spezielle Berechtigung von Apple erforderlich ist.</ul> |
 | **[!UICONTROL Thread-ID]** | Kennung, die verwendet wird, um verknüpfte Benachrichtigungen zu gruppieren. Benachrichtigungen mit derselben Thread-ID werden in der Benachrichtigungsliste als eine einzige Konversation oder ein einziger Thread organisiert. |
 | **[!UICONTROL Kategorie]** | Geben Sie den Namen der Kategorie-ID an, die mit der Benachrichtigung verknüpft ist. Dies ermöglicht die Anzeige von Aktionsschaltflächen, mit denen Sie direkt über die Benachrichtigung verschiedene Aufgaben ausführen können, ohne die Anwendung zu öffnen. |
-| **[!UICONTROL Zielgruppen-Inhalts-ID]** | Kennung, die angibt, welches Anwendungsfenster beim Öffnen der Benachrichtigung vorgezogen werden soll. |
+| **[!UICONTROL Zielgruppen-Inhalts-ID]** | Kennung, die angibt, welches Anwendungsfenster beim Öffnen der Benachrichtigung in den Vordergrund gebracht werden soll. |
 | **[!UICONTROL Startbild]** | Geben Sie den Namen der Bilddatei für den Start an, die angezeigt werden soll, wenn die Anwendung über die Benachrichtigung gestartet wird. Das ausgewählte Bild wird anstelle des regulären Startbildschirms Ihrer Anwendung angezeigt. |
 | **[!UICONTROL Anwendungsvariablen]** | Damit können Sie das Verhalten von Benachrichtigungen definieren. Diese Variablen sind vollständig anpassbar und Teil der an das Mobilgerät gesendeten Nachrichten-Payload. |
 

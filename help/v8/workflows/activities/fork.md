@@ -4,9 +4,9 @@ title: Verwenden der Workflow-Aktivität „Verzweigung“
 description: Erfahren Sie, wie Sie die Workflow-Aktivität „Verzweigung“ verwenden.
 exl-id: 5c7ff58b-5504-4b8e-879f-44754b7dcf8a
 source-git-commit: eccd1ce6f95682d3dcfc224061f747f7da0b6681
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '168'
-ht-degree: 58%
+ht-degree: 100%
 
 ---
 
@@ -23,23 +23,23 @@ ht-degree: 58%
 >title="Transitionen von Verzweigungsaktivitäten"
 >abstract="Standardmäßig werden zwei Transitionen mit einer **Verzweigungsaktivität** erstellt. Klicken Sie auf die Schaltfläche **Transition hinzufügen**, um eine zusätzliche ausgehende Transition zu definieren, und geben Sie deren Titel ein."
 
-Die Aktivität **Verzweigung** ist eine Aktivität zur **Flusssteuerung**. Dies ermöglicht es Ihnen, ausgehende Transitionen zu erstellen, um mehrere Aktivitäten gleichzeitig zu starten.
+Die Aktivität **Verzweigung** ist eine Aktivität zur **Flusssteuerung**. Sie ermöglicht Ihnen, ausgehende Transitionen zum gleichzeitigen Start mehrerer Aktivitäten zu erstellen.
 
 ## Konfigurieren der Verzweigungsaktivität {#fork-configuration}
 
 Führen Sie die folgenden Schritte aus, um die Aktivität **Verzweigung** zu konfigurieren:
 
-![Screenshot zur Konfiguration der Workflow-Verzweigung](../assets/workflow-fork.png)
+![Screenshot zur Konfiguration der Workflow-Aktivität „Verzweigung“](../assets/workflow-fork.png)
 
 1. Fügen Sie Ihrem Workflow eine Aktivität **Verzweigung** hinzu.
 1. Klicken Sie auf **Transition hinzufügen**, um eine neue ausgehende Transition hinzuzufügen. Standardmäßig sind zwei Transitionen definiert.
-1. Fügen Sie jeder Transition einen Titel hinzu.
+1. Fügen Sie jeder Transition ein Label hinzu.
 
 ## Beispiel {#fork-example}
 
-Im folgenden Beispiel werden zwei **Verzweigung**-Aktivitäten verwendet:
+Im folgenden Beispiel werden zwei Aktivitäten vom Typ **Verzweigung** verwendet:
 
-* Eine vor den beiden Abfragen, um sie gleichzeitig auszuführen.
-* Eine nach der Schnittmenge, um eine E-Mail und eine SMS gleichzeitig an die Zielpopulation zu senden.
+* eine vor den beiden Abfragen, um sie gleichzeitig auszuführen
+* eine nach der Schnittmenge, um eine E-Mail und eine SMS gleichzeitig an die Zielpopulation zu senden
 
-![Beispiel-Screenshot der Workflow-Verzweigung](../assets/workflow-fork-example.png)
+![Screenshot einer beispielhaften Workflow-Verzweigung](../assets/workflow-fork-example.png)
