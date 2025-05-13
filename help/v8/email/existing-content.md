@@ -56,4 +56,4 @@ Gehen Sie wie folgt vor, um eine Datei mit HTML-Inhalten zu importieren:
 
 Erfahren Sie, wie Sie eine E-Mail durch Hochladen von HTML erstellen, mit dem E-Mail-Designer kompatibel machen und in eine Vorlage umwandeln.
 
->[!VIDEO](https://video.tv.adobe.com/v/3427633/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3447041/?quality=12&captions=ger)
