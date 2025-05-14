@@ -3,8 +3,8 @@ audience: end-user
 title: Personalisieren Ihres E-Mail-Hintergrunds
 description: Erfahren Sie, wie Sie Ihren E-Mail-Hintergrund personalisieren
 exl-id: 180e61d3-bc1e-4dde-84cf-06bd8ba4d724
-source-git-commit: 93a79b471c236e5bf67da0dbd0d76274598dcb0e
-workflow-type: ht
+source-git-commit: bf5bfdf94748c526e18adf8687ef5dd12c67f655
+workflow-type: tm+mt
 source-wordcount: '351'
 ht-degree: 100%
 
@@ -41,7 +41,6 @@ Unten finden Sie die verfügbaren Einstellungen für den Hintergrund:
   ![](assets/background_3.png){zoomable="yes"}
 
   >[!NOTE]
-  >\
   >Wählen Sie aber keine Viewport-Hintergrundfarbe aus, da diese die Struktur-Hintergrundfarben verdecken könnte.
 
 * Legen Sie für den Inhalt einer Strukturkomponente ein **[!UICONTROL Hintergrundbild]** fest.
@@ -50,7 +49,6 @@ Unten finden Sie die verfügbaren Einstellungen für den Hintergrund:
   ![](assets/background_4.png){zoomable="yes"}
 
   >[!NOTE]
-  >\
   >Manche E-Mail-Programme unterstützen keine Hintergrundbilder. Wenn dies nicht unterstützt wird, wird stattdessen die Hintergrundfarbe der Zeile verwendet. Wählen Sie daher eine passende Fallback-Hintergrundfarbe auf, falls das Bild nicht dargestellt werden kann.
 
 * Legen Sie auf Spaltenebene eine Hintergrundfarbe fest.
@@ -59,7 +57,6 @@ Unten finden Sie die verfügbaren Einstellungen für den Hintergrund:
   ![](assets/background_5.png){zoomable="yes"}
 
   >[!NOTE]
-  >\
   >Dies ist der häufigste Anwendungsfall. Adobe empfiehlt, Hintergrundfarben auf Spaltenebene festzulegen, da dies mehr Flexibilität bietet, wenn der gesamte E-Mail-Inhalt bearbeitet wird.
 
   Sie können auch ein Hintergrundbild auf Spaltenebene einrichten, was aber nur selten verwendet wird.
