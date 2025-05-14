@@ -4,7 +4,7 @@ title: Gestalten eines Briefpostversands
 description: Erfahren Sie, wie Sie mit Adobe Campaign Web einen Briefpostversand gestalten.
 exl-id: aefba651-4125-4b1e-992f-1fe90fd95e4c
 source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '605'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_directmail_properties_content"
 >title="Inhalt"
->abstract="In diesem Abschnitt werden die Spalten angegeben, die in der Extraktionsdatei angezeigt werden sollen. Anschließend können Sie die Extraktionsdatei mit der Schaltfläche **Inhalte simulieren** in einer Vorschau anzeigen."
+>abstract="In diesem Abschnitt werden die Spalten angegeben, die in der Extraktionsdatei angezeigt werden sollen. Danach kann die Extraktionsdatei mithilfe der Schaltfläche **Inhalt simulieren** in der Vorschau angezeigt werden."
 
 Um den Inhalt der durch Ihren Briefpostversand generierten Extraktionsdatei zu gestalten, klicken Sie auf Ihrer Versandseite auf die Schaltfläche **[!UICONTROL Inhalt bearbeiten]** und konfigurieren Sie dann die Dateieigenschaften und den Inhalt.
 
