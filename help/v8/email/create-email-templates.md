@@ -9,7 +9,7 @@ role: User
 level: Beginner
 exl-id: 23818080-d7c6-4829-8117-d6b359bd76dd
 source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1085'
 ht-degree: 100%
 
@@ -121,7 +121,7 @@ Gehen Sie wie folgt vor, um im Dashboard für Inhaltsvorlagen eine neue Inhaltsv
 
 Die Vorlage ist in der Liste **[!UICONTROL Inhaltsvorlagen]** verfügbar. [Weitere Informationen](#access-templates)
 
-Sie können diese Vorlage jetzt zum Erstellen neuer Inhalte verwenden. Sie ist auf der Registerkarte **[!UICONTROL Gespeicherte Vorlagen]** des E-Mail-Designers verfügbar. [Weitere Informationen dazu](use-email-templates.md)
+Sie können diese Vorlage jetzt zum Erstellen neuer Inhalte verwenden. Sie ist auf der Registerkarte **[!UICONTROL Gespeicherte Vorlagen]** des E-Mail-Designers verfügbar. [Weitere Informationen](use-email-templates.md)
 
 ### Speichern von E-Mail-Inhalten als Vorlage {#save-as-template}
 

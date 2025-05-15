@@ -6,13 +6,13 @@ exl-id: 0df9b999-84c8-4e42-b5da-857b2ef0dd75
 source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '521'
-ht-degree: 62%
+ht-degree: 94%
 
 ---
 
 # Kampagnenberichte für den SMS-Kanal {#campaign-reports-sms-channel}
 
-Jeder Kampagnenbericht ist in verschiedene Widgets unterteilt, die den Erfolg und die Fehler Ihrer Kampagne detailliert beschreiben. Für den SMS-Kanal werden im Folgenden Berichte und Metriken beschrieben. Auf [ Seite erfahren Sie, wie Sie auf Ihre Kampagnenberichte ](campaign-reports.md).
+Jeder Kampagnenbericht ist in verschiedene Widgets unterteilt, die den Erfolg und die Fehler Ihrer Kampagne detailliert beschreiben. Für den SMS-Kanal werden im Folgenden Berichte und Metriken beschrieben. Auf [dieser Seite](campaign-reports.md) erfahren Sie, wie Sie auf Ihre Kampagnenberichte zugreifen können.
 
 ## Versandzusammenfassung {#delivery-summary-sms}
 
@@ -23,15 +23,15 @@ Jeder Kampagnenbericht ist in verschiedene Widgets unterteilt, die den Erfolg un
 
 Die **[!UICONTROL Versandübersicht]** bietet wichtige Performance-Indikatoren (KPIs), die detaillierte Informationen darüber enthalten, wie Ihre Besucherinnen und Besucher mit Ihrem SMS-Versand interagieren. Metriken werden nachfolgend beschrieben.
 
-![Versandübersichtsbericht mit SMS-Metriken](assets/campaign_report_sms_1.png){zoomable="yes"}
+![Bericht „Versandübersicht“ mit SMS-Metriken](assets/campaign_report_sms_1.png){zoomable="yes"}
 
 +++ Erfahren Sie mehr über die Metriken des SMS-Kampagnenberichts.
 
 * **[!UICONTROL Insgesamt gesendet]**: Gesamtzahl der während der Versandvorbereitung verarbeiteten Nachrichten.
 
-* **[!UICONTROL Zugestellt]**: Anzahl der erfolgreich gesendeten Nachrichten im Verhältnis zur Gesamtzahl der gesendeten Nachrichten.
+* **[!UICONTROL Zugestellt]**: Anzahl der erfolgreich gesendeten Nachrichten, bezogen auf die Gesamtzahl der gesendeten Nachrichten.
 
-* **[!UICONTROL Fehler]**: Summe der Fehler, die beim Versand und bei der automatischen Rücksendung kumuliert wurden, bezogen auf die Gesamtzahl der gesendeten Nachrichten.
+* **[!UICONTROL Fehler]**: Gesamtzahl der beim Versand und der automatischen Rücksendung kumulierten Fehler, bezogen auf die Gesamtzahl der gesendeten Nachrichten.
 
 * **[!UICONTROL Unterschiedliche Klicks (Unique Clicks)]**: Gesamtzahl der unterschiedlichen Empfängerinnen und Empfänger, die einen Versand mindestens einmal angeklickt haben.
 
@@ -42,11 +42,11 @@ Die **[!UICONTROL Versandübersicht]** bietet wichtige Performance-Indikatoren (
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_sms_target"
 >title="Statistiken der ursprünglichen Zielgruppe"
->abstract="Die **Ursprüngliche Zielgruppenstatistiken** zeigt Daten zu Ihren Empfängerinnen und Empfängern an."
+>abstract="Die Tabelle **Statistiken der ursprünglichen Zielgruppe** zeigt Daten zu Ihren Empfängerinnen und Empfängern an. "
 
 Die Tabelle **[!UICONTROL Statistiken der anfänglichen Zielgruppe]** zeigt Daten zu Ihren Empfängerinnen und Empfängern an. Metriken werden nachfolgend beschrieben.
 
-![Tabelle mit Statistiken zur ursprünglichen Zielgruppe mit Empfängerdaten](assets/campaign_report_sms_2.png){zoomable="yes"}
+![Tabelle „Statistiken der ursprünglichen Zielgruppe“ mit Empfängerdaten](assets/campaign_report_sms_2.png){zoomable="yes"}
 
 +++ Erfahren Sie mehr über die Metriken des SMS-Kampagnenberichts.
 
@@ -54,7 +54,7 @@ Die Tabelle **[!UICONTROL Statistiken der anfänglichen Zielgruppe]** zeigt Date
 
 * **[!UICONTROL Zu versendende Nachricht]**: Gesamtzahl der nach erfolgter Versandvorbereitung zu versendenden Nachrichten.
 
-* **[!UICONTROL Aufgrund von Regeln abgelehnt]**: Gesamtzahl der Adressen, die während der Analyse beim Anwenden von Regeln ignoriert wurden, z. B. fehlende Adresse, in Quarantäne oder auf Blockierungsliste.
+* **[!UICONTROL Aufgrund von Regeln abgelehnt]**: Gesamtzahl der Adressen, die während der Analyse beim Anwenden von Regeln ignoriert wurden, z. B. fehlende Adressen, Adressen in Quarantäne oder Adressen auf einer Blockierungsliste.
 
 +++
 
@@ -67,19 +67,19 @@ Die Tabelle **[!UICONTROL Statistiken der anfänglichen Zielgruppe]** zeigt Date
 
 Die Tabelle **[!UICONTROL Ausführungsstatistiken]** zeigt den Erfolg Ihres Versands im Detail. Metriken werden nachfolgend beschrieben.
 
-![Tabelle mit Ausführungsstatistiken mit Erfolgsmetriken zum Versand](assets/campaign_report_sms_3.png){zoomable="yes"}
+![Tabelle „Ausführungsstatistiken“ mit Erfolgsmetriken zum Versand](assets/campaign_report_sms_3.png){zoomable="yes"}
 
 +++ Erfahren Sie mehr über die Metriken des SMS-Kampagnenberichts.
 
-* **[!UICONTROL Zu versendende Nachricht]**: Gesamtzahl der nach erfolgter Versandvorbereitung zu versendenden Nachrichten.
+* **[!UICONTROL Zu versendende Nachricht(en)]**: Gesamtzahl der nach erfolgter Versandvorbereitung zu versendenden Nachrichten.
 
 * **[!UICONTROL Erfolg]**: Anzahl der erfolgreich verarbeiteten Nachrichten im Verhältnis zur Anzahl der zu versendenden Nachrichten.
 
-* **[!UICONTROL Fehler]**: Gesamtzahl der bei Sendungen und automatischer Bounce-Verarbeitung akkumulierten Fehler im Verhältnis zur Anzahl der zu versendenden Nachrichten.
+* **[!UICONTROL Fehler]**: Gesamtzahl der über alle Sendungen und der automatischen Bounce-Verarbeitungen hinweg kumulierten Fehler im Verhältnis zur Anzahl der zu versendenden Nachrichten.
 
-* **[!UICONTROL Neue Quarantänen]**: Gesamtzahl der Adressen, die infolge eines fehlgeschlagenen Versands unter Quarantäne gestellt wurden (unbekannter Nutzer, ungültige Domain), im Verhältnis zur Anzahl der zu versendenden Nachrichten.
+* **[!UICONTROL Neue in Quarantäne]**: Gesamtzahl der Adressen, die infolge eines fehlgeschlagenen Versands unter Quarantäne gestellt wurden („Unbekannte Nutzerin bzw. unbekannter Nutzer“, „Ungültige Domain“), bezogen auf die Anzahl der zu versendenden Nachrichten.
 
-  SMS-Fehlertypen sind in der Dokumentation zu [Adobe Campaign v8 (Client-Konsole) ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=de#sms-quarantines){target="_blank"}.
+  Die SMS-Fehlertypen sind in der [Dokumentation zu Adobe Campaign v8 (Client-Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=de#sms-quarantines){target="_blank"} aufgelistet.
 
 +++
 
@@ -92,7 +92,7 @@ Die Tabelle **[!UICONTROL Ausführungsstatistiken]** zeigt den Erfolg Ihres Vers
 
 Die Tabelle **[!UICONTROL Generierte Clickstreams]** zeigt Daten dazu an, wie Ihre Empfängerinnen und Empfänger mit Ihrem Versand interagiert haben. Metriken werden nachfolgend beschrieben.
 
-![Tabelle der generierten Clickstreams mit Daten zur Empfängerinteraktion](assets/campaign_report_sms_4.png){zoomable="yes"}
+![Tabelle „Erzeugte Clickstreams“ mit Daten zur Empfängerinteraktion](assets/campaign_report_sms_4.png){zoomable="yes"}
 
 +++ Erfahren Sie mehr über die Metriken des SMS-Kampagnenberichts.
 

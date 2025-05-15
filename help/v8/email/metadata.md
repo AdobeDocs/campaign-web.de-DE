@@ -6,7 +6,7 @@ exl-id: 8513b069-7155-45ac-8c98-38576c9ddeda
 source-git-commit: cf83616e8bd22759b9488dd4d8de2895c3ef9cab
 workflow-type: tm+mt
 source-wordcount: '326'
-ht-degree: 25%
+ht-degree: 26%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 25%
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_preheader"
->title="Preheader definieren"
+>title="Definieren eines Preheaders"
 >abstract="Ein Preheader ist ein kurzer Zusammenfassungstext, der beim Anzeigen einer E-Mail über einen E-Mail-Client der Betreffzeile folgt. In vielen Fällen handelt es sich um eine kurze Zusammenfassung der E-Mail, die in der Regel einen Satz lang ist."
 
 Beim Entwerfen Ihrer E-Mails können Sie zur besseren Lesbarkeit und Barrierefreiheit zusätzliche Metaattribute für Ihre Inhalte definieren. Mit [!DNL Journey Optimizer] [E-Mail-Designer](get-started-email-designer.md) können Sie die folgenden Elemente angeben:

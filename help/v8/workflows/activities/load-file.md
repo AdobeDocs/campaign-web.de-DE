@@ -6,7 +6,7 @@ exl-id: 230177e2-1926-451a-8a66-0db962ada514
 source-git-commit: b94c1263ea09c9537d1a33983ea78d41b5644fb7
 workflow-type: tm+mt
 source-wordcount: '1264'
-ht-degree: 76%
+ht-degree: 97%
 
 ---
 
@@ -30,13 +30,13 @@ ht-degree: 76%
 Die Aktivität **Datei laden** ist eine **Daten-Management**-Aktivität. Mit dieser Aktivität können Sie mit Profilen und Daten arbeiten, die in einer externen Datei gespeichert sind. Profile und Daten werden nicht zur Datenbank hinzugefügt, aber alle Felder in der Eingabedatei sind verfügbar zur [Personalisierung](../../personalization/gs-personalization.md) oder um Profile oder andere Tabellen zu aktualisieren.
 
 >[!NOTE]
->Unterstützte Dateiformate sind: Text (TXT) und kommagetrennte Werte (CSV). Mit der Web-Benutzeroberflächen-Konsole können Sie Dateien mit einer maximalen Größe von 50 MB laden. In der Client-Konsole ist das Laden von Daten auf 150 MB beschränkt. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/load-file.html?lang=de){target="_blank"}
+>Unterstützte Dateiformate sind: Text (TXT) und kommagetrennte Werte (CSV). Mit der Web-Benutzeroberflächen-Konsole können Sie Dateien mit einer maximalen Größe von 50 MB laden. In der Client-Konsole ist das Laden von Daten auf 150 MB beschränkt. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/load-file.html){target="_blank"}
 
 Diese Aktivität kann mit einer [Abstimmungs](reconciliation.md)-Aktivität verwendet werden, um nicht identifizierte Daten mit vorhandenen Ressourcen zu verknüpfen. Zum Beispiel kann die Aktivität **Datei laden** vor dem Import nicht standardmäßiger Daten in die Datenbank vor einer **Abstimmungs**-Aktivität platziert werden.
 
 ## Konfigurieren der Aktivität „Datei laden“ {#load-configuration}
 
-Die Konfiguration der Aktivität **Datei laden** erfolgt in zwei Schritten. Definieren Sie zunächst die erwartete Dateistruktur, indem Sie eine Beispieldatei hochladen. Geben Sie anschließend den Ursprung der Datei an, deren Daten importiert werden sollen. Führen Sie zur Konfiguration der Aktivität die folgenden Schritte aus:
+Die Konfiguration der Aktivität **Datei laden** erfolgt in zwei Schritten. Definieren Sie zunächst die erwartete Dateistruktur, indem Sie eine Beispieldatei hochladen. Geben Sie im Anschluss daran die Herkunft der Datei an, die die zu importierenden Daten enthält. Führen Sie zur Konfiguration der Aktivität die folgenden Schritte aus:
 
 ![Screenshot zur Konfiguration der Workflow-Aktivität „Datei laden“](../assets/workflow-load-file.png)
 
@@ -55,7 +55,7 @@ Die Konfiguration der Aktivität **Datei laden** erfolgt in zwei Schritten. Defi
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_valueremapping"
 >title="Erneute Wertzuweisung für die Aktivität „Datei laden“"
->abstract="Verwenden Sie diese Option, um bestimmte Werte aus den geladenen Dateien neuen Werten zuzuordnen. Wenn die Spalte beispielsweise die Werte „true“/„false“ enthält, können Sie eine Zuordnung hinzufügen, um diese Werte automatisch durch „0“/„1“-Zeichen zu ersetzen."
+>abstract="Verwenden Sie diese Option, um bestimmte Werte aus den geladenen Dateien neuen Werten zuzuordnen. Wenn die Spalte beispielsweise Werte vom Typ „True“/„False“ enthält, können Sie eine Zuordnung hinzufügen, um diese Werte automatisch durch „0“/„1“ zu ersetzen."
 
 Führen Sie diese Schritte aus, um die Beispieldatei zu konfigurieren, mit der die erwartete Dateistruktur definiert wird:
 
@@ -65,13 +65,13 @@ Führen Sie diese Schritte aus, um die Beispieldatei zu konfigurieren, mit der d
 
    >[!NOTE]
    >
-   >Die Daten der Beispieldatei werden für die Konfiguration der Aktivität verwendet, aber nicht importiert. Verwenden Sie eine Beispieldatei mit wenigen Daten. Das Dateiformat muss [dieser Beispieldatei](../../audience/file-audience.md#sample-file) entsprechen.
+   >Die Daten der Beispieldatei werden für die Konfiguration der Aktivität verwendet, aber nicht importiert. Verwenden Sie eine Beispieldatei mit einer geringen Anzahl an Daten. Das Dateiformat muss [dieser Beispieldatei](../../audience/file-audience.md#sample-file) entsprechen.
 
 1. Es wird eine Vorschau der Beispieldatei mit maximal 30 Zeilen angezeigt.
 
-1. Geben **[!UICONTROL in der Dropdown]** Liste Dateityp an, ob Spalten mit Trennzeichen oder Spalten mit fester Breite verwendet werden sollen.
+1. Geben Sie in der Dropdown-Liste **[!UICONTROL Dateityp]** an, ob die Datei getrennte Spalten oder Spalten mit fester Breite verwendet.
 
-   ![Screenshot zur Beispieldateikonfiguration](../assets/workflow-load-file-sample.png)
+   ![Screenshot zur Konfiguration einer Beispieldatei](../assets/workflow-load-file-sample.png)
 
 1. Für die Dateitypen mit getrennten Spalten verwenden Sie den Abschnitt **Spalten**, um die Eigenschaften der einzelnen Spalten zu konfigurieren.
 
@@ -82,12 +82,12 @@ Führen Sie diese Schritte aus, um die Beispieldatei zu konfigurieren, mit der d
    * **[!UICONTROL Breite]** (Datentyp Zeichenfolge): Maximale Anzahl an Zeichen, die in der Spalte angezeigt werden sollen.
    * **[!UICONTROL Datentransformation]** (Datentyp Zeichenfolge): Wenden Sie die Transformation auf die in der Spalte enthaltenen Werte an.
    * **[!UICONTROL Umgang mit Leerzeichen]** (Datentyp Zeichenfolge): Geben Sie an, wie die in der Spalte enthaltenen Leerzeichen behandelt werden sollen.
-   * **[!UICONTROL Trennzeichen]** (Datentypen für Datum, Uhrzeit, Ganzzahl und Zahl): Geben Sie die Zeichen an, die als Trennzeichen verwendet werden sollen.
+   * **[!UICONTROL Trennzeichen]** (Datentyp Datum, Uhrzeit, Ganzzahl und Zahl): Geben Sie die als Trennzeichen zu verwendenden Zeichen an.
    * **[!UICONTROL NULL erlauben]**: Geben Sie an, wie leere Werte in der Spalte behandelt werden sollen. Bei der Option „Adobe Campaign-Standardeinstellung“ wird ein Fehler ausgegeben, wenn ein leerer Wert vorhanden ist.
-   * **[!UICONTROL Fehlerverarbeitung]** (Datentyp „Zeichenfolge„): Geben Sie das Verhalten im Falle von Fehlern in einer der Zeilen an.
+   * **[!UICONTROL Fehlerverarbeitung]** (Datentyp String): Legen Sie das Verhalten fest, wenn in einer der Zeilen Fehler auftreten.
    * **[!UICONTROL Neukodifizierung der Werte]**: Mit dieser Option können Sie bestimmte Werte neuen zuordnen. Wenn die Spalte beispielsweise Werte vom Typ „True“/„False“ enthält, können Sie eine Zuordnung hinzufügen, um diese Werte automatisch durch „0“/„1“ zu ersetzen.
 
-   +++
++++
 
 1. Geben Sie im Abschnitt **Formatierung** an, wie die Datei formatiert ist, um sicherzustellen, dass die Daten korrekt importiert werden.
 
@@ -106,7 +106,7 @@ Führen Sie diese Schritte aus, um die Beispieldatei zu konfigurieren, mit der d
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_targetdb"
 >title="Zieldatenbank"
->abstract="Wenn Sie auf eine Aktivität **[!UICONTROL Datei laden]** zugreifen, die bereits in der Client-Konsole eingerichtet wurde, ist ein zusätzlicher Abschnitt **[!UICONTROL Zieldatenbank]** verfügbar, falls Sie die Aktivität zum Hochladen der Datei in eine externe Datenbank konfiguriert haben."
+>abstract="Beim Zugreifen auf eine Aktivität **[!UICONTROL Datei laden]**, die bereits in der Client-Konsole eingerichtet wurde, ist ein zusätzlicher Abschnitt **[!UICONTROL Zieldatenbank]** verfügbar, wenn Sie die Aktivität zum Hochladen der Datei in eine externe Datenbank konfiguriert haben."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_command"
@@ -129,11 +129,11 @@ Gehen Sie wie folgt vor, um die hochzuladende Zieldatei zu definieren:
 
    * **[!UICONTROL Berechnet]**: Laden Sie die Datei hoch, deren Name im Feld **[!UICONTROL Dateiname]** angegeben ist. Klicken Sie auf das Symbol **[!UICONTROL Personalisierungsdialog öffnen]**, um den Dateinamen mit dem Ausdruckseditor, einschließlich Ereignisvariablen, zu ermitteln.
 
-   ![Screenshot zur Konfiguration der Target-Datei](../assets/workflow-load-file-config.png)
+   ![Screenshot zur Konfiguration der Zieldatei](../assets/workflow-load-file-config.png)
 
    >[!NOTE]
    >
-   >Wenn Sie auf eine Aktivität **[!UICONTROL Datei laden]** zugreifen, die bereits in der Client-Konsole eingerichtet wurde, wird ein zusätzlicher Abschnitt **[!UICONTROL Zieldatenbank]** angezeigt, wenn Sie die Aktivität zum Hochladen der Datei in eine externe Datenbank konfiguriert haben. Sie können damit angeben, ob die Datei auf den Campaign-Server oder in die externe Datenbank hochgeladen werden soll.
+   >Beim Zugreifen auf eine Aktivität **[!UICONTROL Datei laden]**, die bereits in der Client-Konsole eingerichtet wurde, wird ein zusätzlicher Abschnitt **[!UICONTROL Zieldatenbank]** angezeigt, wenn Sie die Aktivität zum Hochladen der Datei in eine externe Datenbank konfiguriert haben. Sie können damit angeben, ob die Datei auf den Campaign-Server oder in die externe Datenbank hochgeladen werden soll.
 
 ### Weitere Optionen {#options}
 
@@ -149,15 +149,15 @@ Gehen Sie wie folgt vor, um die hochzuladende Zieldatei zu definieren:
 
 1. Legen Sie im Abschnitt **Zurückweisungsverwaltung** fest, wie sich die Aktivität bei einem Fehler verhalten soll:
 
-   * Geben Sie im Feld **[!UICONTROL Erlaubte Fehleranzahl]** die maximale Anzahl der Fehler an, die bei der Verarbeitung der zu ladenden Datei zulässig sind. Wenn der Wert beispielsweise auf „20“ festgelegt ist, schlägt die Workflow-Ausführung fehl, wenn beim Laden der Datei mehr als 20 Fehler auftreten.
+   * Geben Sie im Feld **[!UICONTROL Erlaubte Fehleranzahl]** die maximale Anzahl der Fehler an, die bei der Verarbeitung der zu ladenden Datei zulässig sind. Bei einem festgelegten Wert von „20“ schlägt die Workflow-Ausführung fehl, wenn beim Laden der Datei mehr als 20 Fehler auftreten.
 
    * Um die beim Laden der Datei aufgetretenen Fehler beizubehalten, aktivieren Sie die Option **[!UICONTROL Zurückweisungen in einer Datei speichern]** und geben Sie den gewünschten Namen für die Datei im Feld **[!UICONTROL Zurückweisungsdatei]** an.
 
-     Nach der Aktivierung dieser Option wird nach der Aktivität eine zusätzliche ausgehende Transition mit dem Namen „Komplement“ hinzugefügt. Jeder Fehler, der beim Import auftritt, wird in der angegebenen Datei auf dem Server gespeichert.
+     Nach der Aktivierung dieser Option wird nach der Aktivität eine zusätzliche ausgehende Transition mit dem Namen „Komplement“ hinzugefügt. Fehler, die während des Imports auftreten, werden in der angegebenen Datei auf dem Server gespeichert.
 
 1. Um die hochgeladene Datei nach der Workflow-Ausführung vom Server zu löschen, müssen Sie die Option **[!UICONTROL Datei nach Import löschen]** aktivieren.
 
-   ![Screenshot zur Konfiguration zusätzlicher Optionen](../assets/workflow-load-file-options.png)
+   ![Screenshot zur Konfiguration weiterer Optionen](../assets/workflow-load-file-options.png)
 
 1. Klicken Sie auf **Bestätigen**, wenn die Einstellungen korrekt sind.
 

@@ -10,7 +10,7 @@ exl-id: fc98d4e3-7986-42bb-82d5-b4f874aa71db
 source-git-commit: 19a7540af7502709b7eafdace038b5958e077173
 workflow-type: tm+mt
 source-wordcount: '712'
-ht-degree: 50%
+ht-degree: 96%
 
 ---
 
@@ -21,11 +21,11 @@ ht-degree: 50%
 >title="Dashboard für Versandwarnungskriterien"
 >abstract="Die Campaign Web-Benutzeroberfläche bietet vordefinierte Warnungskriterien (Sendungen mit geringem Durchsatz oder Sendungen, deren Vorbereitung fehlgeschlagen ist), die Sie Ihrem Dashboard hinzufügen können. Sie können auch eigene Kriterien erstellen, die Ihren Anforderungen entsprechen."
 
-Die Web-Benutzeroberfläche von Campaign bietet vordefinierte Warnkriterien, die Sie Ihrem Dashboard hinzufügen können, z. B. Sendungen mit geringem Durchsatz oder Sendungen, bei denen die Vorbereitung fehlgeschlagen ist. Sie können auch eigene Kriterien erstellen, die Ihren Anforderungen entsprechen.
+Die Web-Benutzeroberfläche von Campaign bietet vordefinierte Warnungskriterien, zum Beispiel Sendungen mit geringem Durchsatz oder Sendungen, deren Vorbereitung fehlgeschlagen ist, die Sie Ihrem Dashboard hinzufügen können. Sie können auch eigene Kriterien erstellen, die Ihren Anforderungen entsprechen.
 
 Sie können über das Menü **Versandwarnung** im linken Navigationsbereich auf der Registerkarte **Kriterien** auf die Warnungskriterien zugreifen.
 
-![Liste der Warnungskriterien, die im Menü Versandwarnung angezeigt werden](assets/alerting-criteria-list.png)
+![Liste der Warnungskriterien, die im Menü „Versandwarnung“ angezeigt werden](assets/alerting-criteria-list.png)
 
 ## Vordefinierte Warnungskriterien {#ootb-criteria}
 
@@ -33,11 +33,11 @@ Vordefinierte Warnungskriterien sind in der Campaign Web-Benutzeroberfläche ver
 
 * **Versandfehler**: Alle in einem bestimmten Zeitraum geplanten Sendungen mit einem Fehler als Status.
 * **Sendungen mit fehlgeschlagener Vorbereitung**: Alle in einem bestimmten Zeitraum geänderten Sendungen, deren Vorbereitung (Zielgruppenberechnung und Inhaltserstellung) fehlgeschlagen ist.
-* **Versand mit der Fehlerquote für Softbounces**: Jeder Versand, der innerhalb eines definierten Bereichs geplant wurde und einen Status von mindestens „In Bearbeitung“ aufweist sowie eine Fehlerquote für Softbounces, die größer als ein definierter Prozentsatz ist.
-* **Versand mit der Fehlerquote für Hardbounces**: Jeder Versand, der innerhalb eines definierten Bereichs geplant ist und einen Status von mindestens „In Bearbeitung“ aufweist sowie eine Fehlerquote für Hardbounces, die größer als ein definierter Prozentsatz ist.
-* **Sendungen mit langem ausstehendem Start**: Jeder innerhalb eines definierten Bereichs geplante Versand mit dem Status „Start ausstehend“, der länger als eine definierte Dauer ist. Der Status „Start ausstehend“ bedeutet, dass die Nachrichten vom System noch nicht berücksichtigt wurden.
-* **Sendungen mit niedrigem Durchsatz**: Jeder Versand, der länger als eine definierte Dauer gestartet wurde, weniger als einen definierten Prozentsatz verarbeiteter Nachrichten und einen Durchsatz hat, der kleiner als einen definierten Wert ist.
-* **Sendungen in Bearbeitung**: Jeder innerhalb eines definierten Bereichs geplante Versand mit dem Status „In Bearbeitung“.
+* **Versand mit zu hoher Softbounce-Fehlerrate**: Alle in einem bestimmten Zeitraum geplanten Sendungen, deren Status zumindest „In Bearbeitung“ lautet und deren Softbounce-Fehlerrate über dem festgelegten Prozentsatz liegt.
+* **Versand mit zu hoher Hardbounce-Fehlerrate**: Alle in einem bestimmten Zeitraum geplanten Sendungen, deren Status zumindest „In Bearbeitung“ lautet und deren Hardbounce-Fehlerrate über dem festgelegten Prozentsatz liegt.
+* **Sendungen mit lange ausstehendem Start**: Alle in einem bestimmten Zeitraum geplanten Sendungen, die sich länger als die definierte Dauer im Status „Start ausstehend“ befinden. „Start ausstehend“ bedeutet, dass die Nachrichten vom System noch nicht berücksichtigt wurden.
+* **Sendungen mit geringem Durchsatz**: Alle Sendungen, deren Start länger als die definierte Dauer zurückliegt, die einen niedrigeren als den definierten Prozentsatz an verarbeiteten Nachrichten aufweisen oder deren Durchsatz unter einem definierten Wert liegt.
+* **Gestartete Sendungen**: Alle in einem bestimmten Zeitraum geplanten Sendungen, deren Status „In Bearbeitung“ lautet.
 
 >[!NOTE]
 >
@@ -53,12 +53,12 @@ Vordefinierte Warnungskriterien sind in der Campaign Web-Benutzeroberfläche ver
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_criteria_create_indicators"
 >title="Indikatoren, die in Warnungen hinzugefügt werden sollen"
->abstract="Indikatoren auswählen, die als Spalten im Abschnitt „Details“ der E-Mail-Warnhinweise angezeigt werden sollen."
+>abstract="Wählen Sie die Indikatoren aus, die im Bereich „Details“ der E-Mail-Warnungen als Spalten angezeigt werden sollen."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_criteria_create_alert"
 >title="Warnungstyp"
->abstract="Geben Sie für **Kriterium den** Warnhinweistyp“ an, d. h. den Titel und die Farbe, die neben dem Versandkriterium im Abschnitt „Zusammenfassung“ der Warnhinweise angezeigt werden sollen."
+>abstract="Geben Sie den **Warnungstyp** für das Kriterium ein, d. h. das Label und die Farbe, die neben dem Versandkriterium im Abschnitt „Zusammenfassung“ der Warnungen angezeigt werden sollen."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_criteria_create_frequency"
@@ -67,14 +67,14 @@ Vordefinierte Warnungskriterien sind in der Campaign Web-Benutzeroberfläche ver
 
 Gehen Sie wie folgt vor, um ein neues Kriterium zu erstellen:
 
-1. Navigieren Sie zum Menü **Versandwarnung** im linken Navigationsbereich und wählen Sie die Registerkarte **Kriterien** aus.
+1. Navigieren Sie im linken Navigationsbereich zum Menü **Versandwarnung** und wählen Sie die Registerkarte **Kriterien** aus.
 1. Klicken Sie auf die Schaltfläche **Versandwarnungskriterien erstellen**.
 1. Geben Sie einen Titel für das Kriterium an. Der interne Name wird automatisch ausgefüllt und schreibgeschützt.
-1. Verwenden Sie den **von diesem Kriterium angewendeten Versandfilter** um den Umfang des Kriteriums durch Anwendung eines vordefinierten Filters zu verfeinern.
+1. Mit dem **von diesen Kriterien angewendeten Versandfilter** können Sie den Umfang des Kriteriums durch Anwendung eines vordefinierten Filters verfeinern.
 
    Im unten abgebildeten Beispiel wurde der Filter **Versand gestartet (critInProgressDeliveries)** ausgewählt, d. h., das Kriterium berücksichtigt nur Sendungen mit dem Status „Gestartet“.
 
-   ![Beispiel für Warnungskriterieneigenschaften mit ausgewähltem Filter](assets/alerting-criteria-properties.png)
+   ![Beispiel für die Eigenschaften von Warnungskriterien mit ausgewähltem Filter](assets/alerting-criteria-properties.png)
 
    >[!NOTE]
    >
@@ -86,7 +86,7 @@ Gehen Sie wie folgt vor, um ein neues Kriterium zu erstellen:
 
 1. Geben Sie den **Warnungstyp** für das Kriterium ein, d. h. den Titel und die Farbe, die neben dem Versandkriterium im Abschnitt „Zusammenfassung“ der Warnungen angezeigt werden sollen.
 
-1. Verwenden Sie den **Kriterienfrequenz**, um die Häufigkeit der Warnhinweise pro Tag für jeden Versand zu steuern, der dieses Kriterium erfüllt:
+1. Im Abschnitt **Bedingungsfrequenz** können Sie die Häufigkeit von Warnungen pro Tag für jeden Versand steuern, der das Kriterium erfüllt:
 
    * **Dieses Versandkriterium wird in jeder Benachrichtigung wiederholt**: Zeigt einen Versand, der das Kriterium erfüllt, in jeder E-Mail-Warnung des Tages an.
-   * **Dieses Versandkriterium wird nur beim ersten Auftreten des Tages gesendet**: Zeigt einen Versand an, der das Kriterium nur im ersten Bericht des Tages erfüllt, ohne ihn in nachfolgenden E-Mail-Warnhinweisen zu wiederholen.
+   * **Dieses Versandkriterium wird nur beim ersten Auftreten des Tages gesendet**: Zeigt einen Versand, der das Kriterium erfüllt, nur im ersten Bericht des Tages an, aber wiederholt dies nicht in nachfolgenden E-Mail-Warnungen.
