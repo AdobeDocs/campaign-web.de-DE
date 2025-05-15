@@ -87,7 +87,7 @@ Führen Sie diese Schritte aus, um die Beispieldatei zu konfigurieren, mit der d
    * **[!UICONTROL Fehlerverarbeitung]** (Datentyp String): Legen Sie das Verhalten fest, wenn in einer der Zeilen Fehler auftreten.
    * **[!UICONTROL Neukodifizierung der Werte]**: Mit dieser Option können Sie bestimmte Werte neuen zuordnen. Wenn die Spalte beispielsweise Werte vom Typ „True“/„False“ enthält, können Sie eine Zuordnung hinzufügen, um diese Werte automatisch durch „0“/„1“ zu ersetzen.
 
-+++
+   +++
 
 1. Geben Sie im Abschnitt **Formatierung** an, wie die Datei formatiert ist, um sicherzustellen, dass die Daten korrekt importiert werden.
 
