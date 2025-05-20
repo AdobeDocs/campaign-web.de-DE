@@ -5,10 +5,10 @@ user-guide-description: Produktdokumentation zur Adobe Campaign Web-Benutzerober
 title: Dokumentation zu Adobe Campaign Web
 description: Dokumentation zu Campaign Web
 breadcrumb-title: Campaign Web-Benutzeroberfläche
-source-git-commit: 61078f86bcd433b1bc3a995489f283eb709b3687
-workflow-type: ht
-source-wordcount: '828'
-ht-degree: 100%
+source-git-commit: c47d0fd299d55520d66b08dd8bbfd2cc33e698cc
+workflow-type: tm+mt
+source-wordcount: '831'
+ht-degree: 99%
 
 ---
 
@@ -71,6 +71,7 @@ ht-degree: 100%
    + Callcenter {#call-center}
       + [Erste Schritte mit Callcenter-Sendungen](call-center/gs-call-center.md)
       + [Erstellen und Durchführen eines Callcenter-Versands](call-center/create-call-center.md)
+   + [Benutzerdefinierter externer Kanal](call-center/gs-custom-channel.md)
    + Transaktionsnachrichten {#transactional-messages}
       + [Erste Schritte mit Transaktionsnachrichten](transactional-messaging/transactional.md)
       + [Erstellen einer Transaktionsnachricht](transactional-messaging/create-transactional.md)

@@ -3,14 +3,14 @@ audience: end-user
 title: Erstellen eines Callcenter-Versands
 description: Erfahren Sie, wie Sie mit Adobe Campaign Web einen Callcenter-Versand erstellen
 exl-id: fe8d4773-2271-46ec-9b2e-f50311a4ccf3
-source-git-commit: c22011fcc25592bfda2999630bb91e311d85fb1a
+source-git-commit: 1581943b0f13cbd4296e1f42fae8560626b61bdf
 workflow-type: tm+mt
-source-wordcount: '738'
-ht-degree: 13%
+source-wordcount: '756'
+ht-degree: 24%
 
 ---
 
-# Erstellen und Senden eines Callcenter-Versands {#create-call-center}
+# Erstellen und Durchführen eines Callcenter-Versands {#create-call-center}
 
 Sie können einen eigenständigen Callcenter-Versand erstellen oder einen im Kontext eines Kampagnen-Workflows erstellen. Die folgenden Schritte beschreiben das Verfahren für einen eigenständigen (einmaligen) Versand. Wenn Sie im Kontext eines Kampagnen-Workflows arbeiten, werden in [diesem Abschnitt](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow) die Schritte beschrieben, die zum Erstellen eines solchen Versands erforderlich sind.
 
@@ -62,7 +62,7 @@ Definieren Sie nun die Audience für die Extraktionsdatei.
 >
 >Callcenter-Empfänger müssen mindestens ihren Namen und ihre Telefonnummer enthalten. Alle Empfänger mit unvollständigen Informationen werden von den Sendungen an das Callcenter ausgeschlossen.
 >
->Informationen zum Konfigurieren von Kontrollgruppen finden Sie auf dieser [Seite](../audience/control-group.md)
+>Informationen zum Konfigurieren von Kontrollgruppen finden Sie auf dieser [Seite](../audience/control-group.md).
 
 ## Inhalt bearbeiten{#edit-content}
 
@@ -72,7 +72,7 @@ Bearbeiten wir nun den Inhalt der Extraktionsdatei, die vom Callcenter-Versand g
 
    ![Screenshot der Inhaltsbearbeitung für einen Callcenter-Versand](assets/cc-content0.png){zoomable="yes"}
 
-1. Geben Sie das Feld **[!UICONTROL Dateiname]** an. Informationen zum Personalisieren des Dateinamens finden Sie auf dieser [Seite](../personalization/personalize.md).
+1. Geben Sie den **[!UICONTROL Dateinamen“]**. Informationen zum Personalisieren des Dateinamens finden Sie auf dieser [Seite](../personalization/personalize.md).
 
 1. Wählen Sie ein **[!UICONTROL Dateiformat]** aus: **Text**, **Text mit Spalten fester Breite**, **CSV (Excel)** oder **XML**.
 
@@ -86,7 +86,7 @@ Bearbeiten wir nun den Inhalt der Extraktionsdatei, die vom Callcenter-Versand g
 
 1. Klicken **[!UICONTROL Abschnitt „Inhalt]** auf die Schaltfläche **[!UICONTROL Attribut hinzufügen]**, um eine neue Spalte zu erstellen, die in der Extraktionsdatei angezeigt wird.
 
-1. Wählen Sie das Attribut aus, das in der Spalte angezeigt werden soll, und bestätigen Sie dann Ihre Auswahl. Weitere Informationen zum Auswählen von Attributen und Hinzufügen zu Favoriten finden Sie auf dieser [Seite](../get-started/attributes.md).
+1. Wählen Sie das Attribut aus, das in der Spalte angezeigt werden soll, und bestätigen Sie dann die Auswahl. Weitere Informationen zum Auswählen von Attributen und Hinzufügen zu Favoriten finden Sie auf dieser [Seite](../get-started/attributes.md).
 
    ![Screenshot mit der Schaltfläche „Attribut hinzufügen“ und Optionen zum Hinzufügen von Attributen zur Extraktionsdatei.](assets/cc-add-attribute.png)
 
@@ -94,7 +94,7 @@ Bearbeiten wir nun den Inhalt der Extraktionsdatei, die vom Callcenter-Versand g
 
    Anschließend können Sie die Attribute bearbeiten, die Extraktionsdatei sortieren oder die Position der Spalten ändern. Weiterführende Informationen hierzu finden Sie auf [dieser Seite](../direct-mail/content-direct-mail.md#content).
 
-   ![Screenshot mit den Attributkonfigurationsoptionen für die Extraktionsdatei.](assets/cc-content-attributes.png)
+   ![Screenshot mit den Konfigurationsoptionen für Attribute für die Extraktionsdatei](assets/cc-content-attributes.png)
 
 ## Vorschau anzeigen und Versand durchführen{#preview-send}
 
@@ -104,11 +104,11 @@ Die wichtigsten Schritte zum Anzeigen einer Vorschau und zum Senden der Extrakti
 
 1. Klicken Sie auf der Inhaltsseite des Versands auf die Schaltfläche **[!UICONTROL Inhalt simulieren]**.
 
-   ![Screenshot mit der Option „Inhalt simulieren“ auf der Seite mit den Versandinhalten](assets/cc-simulate0.png){zoomable="yes"}
+   ![Screenshot mit der Option „Inhalte simulieren“ auf der Seite für den Versandinhalt](assets/cc-simulate0.png){zoomable="yes"}
 
 1. Wählen Sie ein oder mehrere Testprofile aus, um eine Vorschau des personalisierten Inhalts anzuzeigen. Sie können auch Testsendungen durchführen. [Weitere Informationen](../direct-mail/send-direct-mail.md#preview-dm)
 
-   ![Screenshot mit der Option „Inhalt simulieren“ auf der Seite mit den Versandinhalten](assets/cc-simulate.png){zoomable="yes"}
+   ![Screenshot mit der Option „Inhalte simulieren“ auf der Seite für den Versandinhalt](assets/cc-simulate.png){zoomable="yes"}
 
 1. Klicken Sie auf der Versandseite auf **[!UICONTROL Überprüfen und senden]**.
 
@@ -116,12 +116,12 @@ Die wichtigsten Schritte zum Anzeigen einer Vorschau und zum Senden der Extrakti
 
 1. Klicken Sie **[!UICONTROL Vorbereiten]** und überwachen Sie den Fortschritt und die bereitgestellten Statistiken und bestätigen Sie dann.
 
-   ![Screenshot mit der Option „Vorbereiten“ und dem Menü „Protokolle“](assets/cc-prepare.png){zoomable="yes"}
+   ![Screenshot mit der Option „Vorbereiten“ und dem Menü „Logs“](assets/cc-prepare.png){zoomable="yes"}
 
 1. Klicken Sie **[!UICONTROL Senden]**, um mit dem endgültigen Sendevorgang fortzufahren, und bestätigen Sie dann.
 
-Nach dem Versand wird die Extraktionsdatei automatisch generiert und an den Speicherort exportiert, der im in den [erweiterten Einstellungen](../advanced-settings/delivery-settings.md) der Versandvorlage ausgewählten externen Konto **[!UICONTROL Routing]** angegeben ist.
+Nach dem Versand wird die Extraktionsdatei automatisch generiert und an den Speicherort exportiert, der im externen **[!UICONTROL Routing]**-Konto angegeben ist, das in den erweiterten [ der Versandvorlage ausgewählt ](../advanced-settings/delivery-settings.md). Sie können die Datei auch in der Vorschau anzeigen **indem Sie im Abschnitt** Inhalt **des Bildschirms auf die Schaltfläche „Vorschau der Datei** klicken.
 
-Verfolgen Sie Ihre KPI-Daten (Key Performance Indicator) von Ihrer Versandseite und Daten über das Menü **[!UICONTROL Protokolle]**.
+Verfolgen Sie die Daten Ihrer KPIs (Key Performance Indicators) über Ihre Versandseite und weitere Daten über das Menü **[!UICONTROL Logs]**.
 
-Beginnen Sie mit der Messung der Wirkung Ihrer Nachricht mit integrierten Berichten. [Weitere Informationen](../reporting/direct-mail.md)
+Messen Sie die Wirkung Ihrer Nachricht mit integrierten Berichten. [Weitere Informationen](../reporting/direct-mail.md)

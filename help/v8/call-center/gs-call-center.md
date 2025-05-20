@@ -3,10 +3,10 @@ audience: end-user
 title: Erste Schritte mit dem Callcenter-Kanal
 description: Erfahren Sie, wie Sie mit Adobe Campaign Web Callcenter-Sendungen erstellen und durchführen
 exl-id: d176c1ef-875f-4bea-9cc3-d568cf5cf55a
-source-git-commit: 609718356ace500b831601dac077f9a3333e00e9
+source-git-commit: ffd0075e79a94443df4a957ee4a72da37476b21b
 workflow-type: tm+mt
-source-wordcount: '243'
-ht-degree: 100%
+source-wordcount: '267'
+ht-degree: 81%
 
 ---
 
@@ -20,9 +20,13 @@ ht-degree: 100%
 
 Mit dem Callcenter-Kanal können Sie bestimmte Kontaktlisten für ausgehende Telefonkampagnen direkt über die Adobe Campaign Web-Benutzeroberfläche exportieren. Verwenden Sie diesen Kanal, um Anrufe über interne Teams oder externe Kontaktzentren zu koordinieren.
 
-Sie können Anrufsendungen in Workflows oder als eigenständige Sendungen konfigurieren, Ihre Zielgruppe definieren und anpassbare Exportdateien mit allen erforderlichen Kontakt- und Personalisierungsdaten generieren.
+Sie können Callcenter-Sendungen in Workflows oder als eigenständige Sendungen konfigurieren, Ihre Audience definieren und anpassbare Exportdateien mit allen erforderlichen Kontakt- und Personalisierungsdaten generieren.
 
 Dieser Kanal eignet sich ideal für Lead-Follow-ups, Anrufe zur Kundenbindung oder Kundendienstinteraktionen und erweitert Ihre Omni-Channel-Strategie um personalisierte Sprachinteraktionen.
+
+>[!NOTE]
+>
+>Berichte sind in der Web-Benutzeroberfläche für den Callcenter-Kanal nicht verfügbar. Sie müssen zur Client-Konsole gehen, um auf Berichte zuzugreifen.
 
 Sie haben folgende Möglichkeiten, um den Callcenter-Kanal zu verwenden:
 
