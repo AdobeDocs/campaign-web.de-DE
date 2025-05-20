@@ -78,7 +78,7 @@ Bearbeiten wir nun den Inhalt der Extraktionsdatei, die vom Versand des benutzer
 
    ![Screenshot mit den Konfigurationsoptionen für Attribute für die Extraktionsdatei](assets/cc-content-attributes.png)
 
-Weitere Informationen zur Inhaltsbearbeitung finden Sie in der Dokumentation zum Callcenter [](../call-center/create-call-center.md#edit-content).
+Weitere Informationen zur Inhaltsbearbeitung finden Sie in der Dokumentation zum Callcenter [&#128279;](../call-center/create-call-center.md#edit-content).
 
 ## Vorschau anzeigen und Versand durchführen{#preview-send}
 
