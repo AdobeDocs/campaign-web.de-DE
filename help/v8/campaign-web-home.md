@@ -3,10 +3,10 @@ keywords: Campaign Web;Startseite;beliebte Themen
 description: Hilfe-Center zu Campaign Web
 title: Produktdokumentation zu Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: f1d244a015f2e8e629567d09bafc571b656857a4
-workflow-type: ht
-source-wordcount: '460'
-ht-degree: 100%
+source-git-commit: c54f56620570ba9520dc9fc11410d3628641d0a5
+workflow-type: tm+mt
+source-wordcount: '459'
+ht-degree: 89%
 
 ---
 
@@ -52,16 +52,16 @@ Hier erhalten Sie einen Einblick in die neuesten Verbesserungen in Adobe Campaig
 >[!BEGINTABS]
 
 
->[!TAB Version April 2025]
+>[!TAB Version Mai &#39;25]
 
-Die Version April ist jetzt live. Sie umfasst den Callcenter-Kanal, den neuen Regel-Builder sowie weiterer Verbesserungen.
+Die Mai-Version ist jetzt live, einschließlich des Callcenter-Kanals, des neuen Regel-Builders und weiterer Verbesserungen.
 
 [![Schaltfläche „Weitere Informationen“](assets/do-not-localize/learn-more-button.svg)](../v8/rn/release-notes.md)
 
 
 >[!TAB KI-Assistent]
 
-✨ Nehmen Sie an unserer Live-Funktionsvorstellung des [KI-Assistenten](../v8/email/generative-gs.md) teil, um die Funktionen in der Praxis selbst zu erkunden und die vielfältigen Einsatzmöglichkeiten zu verstehen.
+✨ Tauchen Sie ein in eine praktische Erfahrung mit unserer Live-Funktionsvorschau des [AI Assistant](../v8/email/generative-gs.md), mit der Sie seine Funktionen aus erster Hand erkunden und seine Möglichkeiten voll verstehen können.
 
 [![Schaltfläche „Weitere Informationen“](assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/de/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 
