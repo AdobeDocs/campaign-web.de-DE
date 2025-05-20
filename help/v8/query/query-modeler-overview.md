@@ -56,7 +56,7 @@ Der Abfrage-Modeler ist in jedem Kontext verfügbar, in dem Sie Regeln zum Filte
 >
 >![Bild, das einen Warnhinweis zur Verfeinerung von Zielgruppen zeigt](assets/target-warning.png){zoomable="yes"}
 
-## Benutzeroberfläche des Abfrage-Modelers {#interface}
+## Benutzeroberfläche des Abfrage-Modellierers {#interface}
 
 Der Abfrage-Modeler bietet eine zentrale Arbeitsfläche, auf der Sie Ihre Abfrage erstellen, sowie einen rechten Bereich mit Informationen zu Ihrer Abfrage.
 
@@ -69,7 +69,7 @@ Der Abfrage-Modeler bietet eine zentrale Arbeitsfläche, auf der Sie Ihre Abfrag
 >[!CONTEXTUALHELP]
 >id="acw_rule_builder_switch_button"
 >title="Neues Regel-Builder-Erlebnis"
->abstract="Verwenden Sie diesen Umschalter, um zwischen dem klassischen Abfrage-Modeler und dem neuen Regel-Builder-Erlebnis zu wechseln. Mit dem neuen Regel-Builder können Sie Ihre Abfrage dank der vereinfachten und intuitiven Benutzeroberfläche einfacher erstellen."
+>abstract="Verwenden Sie diesen Umschalter, um zwischen dem klassischen Abfrage-Modeler und dem neuen Regel-Builder-Erlebnis zu wechseln. Mit dem neuen Rule Builder können Abfragen dank der vereinfachten und intuitiven Benutzeroberfläche leichter erstellt werden."
 
 ![Bild, das die Benutzeroberfläche des Abfrage-Modelers zeigt](assets/query-interface.png){zoomable="yes"}
 
