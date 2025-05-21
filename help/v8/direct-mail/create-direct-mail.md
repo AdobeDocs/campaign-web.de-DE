@@ -34,7 +34,8 @@ Gehen Sie wie folgt vor, um einen neuen eigenständigen Briefpostversand zu erst
    * **[!UICONTROL Versand-Code]**: Verwenden Sie dieses Feld, um Ihre Sendungen basierend auf Ihrer eigenen Namenskonvention zu organisieren.
    * **[!UICONTROL Beschreibung]**: Geben Sie eine Beschreibung für den Versand an.
    * **[!UICONTROL Art]**: Geben Sie die Art des Versands zu Klassifizierungszwecken an.
-+++
+
+   +++
 
 1. Klicken Sie auf die Schaltfläche **[!UICONTROL Zielgruppe auswählen]**, um eine vorhandene Zielgruppe anzusprechen oder eine eigene zu erstellen. 
 
