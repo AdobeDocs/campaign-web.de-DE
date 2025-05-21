@@ -30,7 +30,7 @@ ht-degree: 97%
 Die Aktivität **Datei laden** ist eine **Daten-Management**-Aktivität. Mit dieser Aktivität können Sie mit Profilen und Daten arbeiten, die in einer externen Datei gespeichert sind. Profile und Daten werden nicht zur Datenbank hinzugefügt, aber alle Felder in der Eingabedatei sind verfügbar zur [Personalisierung](../../personalization/gs-personalization.md) oder um Profile oder andere Tabellen zu aktualisieren.
 
 >[!NOTE]
->Unterstützte Dateiformate sind: Text (TXT) und kommagetrennte Werte (CSV). Mit der Web-Benutzeroberflächen-Konsole können Sie Dateien mit einer maximalen Größe von 50 MB laden. In der Client-Konsole ist das Laden von Daten auf 150 MB beschränkt. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/load-file.html){target="_blank"}
+>Unterstützte Dateiformate sind: Text (TXT) und kommagetrennte Werte (CSV). Mit der Web-Benutzeroberflächen-Konsole können Sie Dateien mit einer maximalen Größe von 50 MB laden. In der Client-Konsole ist das Laden von Daten auf 150 MB beschränkt. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/load-file.html?lang=de){target="_blank"}
 
 Diese Aktivität kann mit einer [Abstimmungs](reconciliation.md)-Aktivität verwendet werden, um nicht identifizierte Daten mit vorhandenen Ressourcen zu verknüpfen. Zum Beispiel kann die Aktivität **Datei laden** vor dem Import nicht standardmäßiger Daten in die Datenbank vor einer **Abstimmungs**-Aktivität platziert werden.
 
