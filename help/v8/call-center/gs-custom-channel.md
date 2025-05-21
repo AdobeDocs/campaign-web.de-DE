@@ -37,7 +37,7 @@ Zunächst müssen Sie den benutzerdefinierten externen Kanal konfigurieren. Im F
 1. Erstellen Sie ein neues externes Routing-Konto.
 1. Erstellen Sie eine neue Versandvorlage, die mit dem neuen Kanal verknüpft ist.
 
-Weitere Informationen finden Sie in der [Dokumentation zur Client-Konsole](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/custom-channel.html)
+Weitere Informationen finden Sie in der [Dokumentation zur Client-Konsole](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/custom-channel.html?lang=de)
 
 ## Erstellen des Versands{#create-delivery}
 
