@@ -252,4 +252,4 @@ Nachdem Sie Ihre E-Mail geprüft und getestet haben, können Sie die Vorbereitun
 
 Hier erfahren Sie, wie Sie einen neuen E-Mail-Versand erstellen, die Zielgruppe definieren, den Inhalt gestalten, eine Vorschau simulieren und einen Testversand durchführen können.
 
->[!VIDEO](https://video.tv.adobe.com/v/3454014/?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3425866/?quality=12)
