@@ -4,7 +4,7 @@ title: Verwenden der Workflow-Aktivität „Daten-Update“
 description: Informationen dazu, wie Sie die Workflow-Aktivität „Daten-Update“ verwenden
 exl-id: db978482-43f6-48a7-8d8d-4b921eb610b2
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '478'
 ht-degree: 100%
 

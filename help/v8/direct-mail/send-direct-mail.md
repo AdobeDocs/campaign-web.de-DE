@@ -4,7 +4,7 @@ title: Vorschau und Senden eines Briefpostversands
 description: Erfahren Sie, wie Sie mit Adobe Campaign Web einen Briefpostversand in einer Vorschau anzeigen und senden.
 exl-id: 06ce7535-e84d-4aed-bea9-b85b4ee0d008
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '572'
 ht-degree: 100%
 

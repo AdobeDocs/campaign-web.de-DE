@@ -6,7 +6,7 @@ exl-id: 2a0bd3e9-5d75-47c8-bd6a-b3e0b1ce0a01
 source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '2448'
-ht-degree: 89%
+ht-degree: 96%
 
 ---
 
@@ -34,7 +34,7 @@ Der Graph **[!UICONTROL Anfängliche Zielgruppenpopulation]** zeigt Daten zu Ihr
 
 Bewegen Sie den Mauszeiger über einen Abschnitt des Graphen, um die genaue Zahl anzuzeigen.
 
-![Screenshot eines Diagramms mit einer Maus über einen Teil, um die genaue Zahl anzuzeigen](assets/reporting_email_1.1.png){zoomable="yes"}
+![Screenshot eines Diagramms, auf dem ein Mauszeiger über einen Abschnitt bewegt wird, um die genaue Zahl anzuzeigen](assets/reporting_email_1.1.png){zoomable="yes"}
 
 +++ Erfahren Sie mehr über die Metriken des E-Mail-Versandberichts.
 
@@ -75,7 +75,7 @@ Der Graph **[!UICONTROL Versandstatistiken]** gibt Auskunft über den Erfolg Ihr
 >title="Versand – Ausschlussgründe"
 >abstract="Der Graph und die Tabelle zu den **Ausschlussgründen** zeigen die Aufschlüsselung der im Zuge der Versandvorbereitung abgelehnten Nachrichten nach Regeln."
 
-Der Graph und die Tabelle zu den **[!UICONTROL Ausschlussgründen]** zeigen die Aufschlüsselung der im Zuge der Versandvorbereitung abgelehnten Nachrichten nach Regeln. Ausschlussregeln werden in der Dokumentation zu [ v8 (Konsole) ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=de#email-error-types){_blank}.
+Der Graph und die Tabelle zu den **[!UICONTROL Ausschlussgründen]** zeigen die Aufschlüsselung der im Zuge der Versandvorbereitung abgelehnten Nachrichten nach Regeln. Ausschlussregeln werden in der [Dokumentation zu Campaign v8 (Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=de#email-error-types){_blank} beschrieben.
 
 ![Screenshot des Diagramms und der Tabelle mit den Ausschlussgründen](assets/reporting_email_3.png){zoomable="yes"}{align="center" zoomable="yes"}
 
@@ -104,7 +104,7 @@ Der Graph und die Tabelle zu den **[!UICONTROL Ausschlussgründen]** zeigen die 
 >title="Versanddurchsatz"
 >abstract="Der Bericht **Versanddurchsatz** enthält detaillierte Informationen zum Versanddurchsatz der gesamten Plattform innerhalb eines bestimmten Zeitraums."
 
-Dieser Bericht enthält detaillierte Informationen zum Versanddurchsatz der gesamten Plattform innerhalb eines bestimmten Zeitraums. Die wichtigste Kennzahl, mit der die Geschwindigkeit des Nachrichtenversands gemessen wird, ist die Anzahl der pro Stunde gesendeten Nachrichten.
+Dieser Bericht enthält detaillierte Informationen zum Versanddurchsatz der gesamten Plattform innerhalb eines bestimmten Zeitraums. Die wichtigste Metrik, mit der die Geschwindigkeit des Nachrichtenversands gemessen wird, ist die Anzahl der pro Stunde gesendeten Nachrichten.
 
 ![Screenshot des Versanddurchsatzes](assets/reporting_email_3.1.png){zoomable="yes"}{align="center" zoomable="yes"}
 
@@ -118,7 +118,7 @@ Dieser Bericht enthält detaillierte Informationen zum Versanddurchsatz der gesa
 
 Die Tabelle **[!UICONTROL Broadcast-Statistiken]** enthält die verfügbaren Daten zu Fehlern, die bei jeder Domain aufgetreten sind. Metriken werden nachfolgend beschrieben.
 
-![Screenshot der Broadcast-Statistiken](assets/reporting_email_4.png){zoomable="yes"}{align="center" zoomable="yes"}
+![Screenshot der Versandstatistiken](assets/reporting_email_4.png){zoomable="yes"}{align="center" zoomable="yes"}
 
 +++ Erfahren Sie mehr über die Metriken des E-Mail-Versandberichts.
 
@@ -153,7 +153,7 @@ Die Tabelle **[!UICONTROL Broadcast-Statistiken]** enthält die verfügbaren Dat
 
 Die Tabelle und der Graph zur **[!UICONTROL Aufschlüsselung der Fehler nach Typen]** enthalten die verfügbaren Daten für jeden Fehlertyp. Metriken werden nachfolgend beschrieben.
 
-Die in diesem Bericht angezeigten Fehler lösen einen Quarantäneprozess aus. Weitere Informationen zur Quarantäneverwaltung finden Sie in der [ zu Campaign v8 (Client-Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=de){target="_blank"}.
+Die in diesem Bericht angezeigten Fehler lösen einen Quarantäneprozess aus. Weitere Informationen zur Quarantäneverwaltung finden Sie in der [Dokumentation zu Campaign v8 (Client-Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=de){target="_blank"}.
 
 ![Screenshot der Aufschlüsselung der Fehler nach Typ](assets/campaign_report_email_6.png){zoomable="yes"}{align="left" zoomable="yes"}
 
@@ -193,7 +193,7 @@ Die Tabelle und der Graph zur **[!UICONTROL Aufschlüsselung der Fehler nach Dom
 
 Klicken Sie auf das Symbol neben dem Namen der einzelnen Domains, um Details anzuzeigen.
 
-![Screenshot der Aufschlüsselung der Fehler nach Domain mit den Details der einzelnen Domain](assets/campaign_report_email_6.1.png){zoomable="yes"}{align="left" zoomable="yes"}
+![Screenshot der Aufschlüsselung der Fehler nach Domain mit den Details jeder einzelnen Domain](assets/campaign_report_email_6.1.png){zoomable="yes"}{align="left" zoomable="yes"}
 
 Die verfügbaren Metriken sind die gleichen wie die für die weiter oben beschriebene [Aufschlüsselung der Fehler nach Typen](#email-delivery-breakdown-type).
 
@@ -244,7 +244,7 @@ Der Bericht **[!UICONTROL Versandstatistiken]** bietet wichtige Performance-Indi
 
 Die Tabelle **[!UICONTROL Öffnungs- und Clickthrough-Rate]** zeigt Daten zu Ihren Empfängerinnen und Empfängern an. Metriken werden nachfolgend beschrieben.
 
-![Screenshot der Tabelle mit den Öffnungs- und Klickraten](assets/reporting_email_6.png){zoomable="yes"}{align="center"}
+![Screenshot der Tabelle „Öffnungs- und Clickthrough-Rate“](assets/reporting_email_6.png){zoomable="yes"}{align="center"}
 
 +++ Erfahren Sie mehr über die Metriken des E-Mail-Versandberichts.
 
@@ -269,7 +269,7 @@ Die Tabelle **[!UICONTROL Öffnungs- und Clickthrough-Rate]** zeigt Daten zu Ihr
 
 Der Bericht **[!UICONTROL URLs und Clickstreams]** bietet wichtige Performance-Indikatoren (KPIs), die detaillierte Informationen zu den URLs enthalten, auf die während eines Versands am häufigsten geklickt wurde.
 
-![Screenshot des Berichts zu URLs und Clickstreams](assets/reporting_email_7.png){zoomable="yes"}{align="center"}
+![Screenshot des Berichts „URLs und Clickstreams“](assets/reporting_email_7.png){zoomable="yes"}{align="center"}
 
 +++ Erfahren Sie mehr über die Metriken des E-Mail-Versandberichts.
 
@@ -294,7 +294,7 @@ Der Bericht **[!UICONTROL URLs und Clickstreams]** bietet wichtige Performance-I
 
 Der Graph und die Tabelle zu den **[!UICONTROL 10 meistbesuchten Links]** enthalten die verfügbaren Daten für das Empfängerverhalten für die einzelnen Links.
 
-![Screenshot der 10 meistbesuchten Links-Diagramme](assets/reporting_email_8.png){zoomable="yes"}{align="center"}
+![Screenshot des Diagramms „Die 10 meistbesuchten Links“](assets/reporting_email_8.png){zoomable="yes"}{align="center"}
 
 +++ Erfahren Sie mehr über die Metriken des E-Mail-Versandberichts.
 
@@ -315,7 +315,7 @@ Der Graph und die Tabelle zu den **[!UICONTROL 10 meistbesuchten Links]** enthal
 
 Der Graph zur **[!UICONTROL Aufschlüsselung der Klicks im Zeitverlauf]** enthält die verfügbaren Daten zum Empfängerverhalten für jeden Link.
 
-![Screenshot der Aufschlüsselung der Klicks im Zeitverlauf](assets/reporting_email_9.png){zoomable="yes"}{align="center"}
+![Screenshot des Diagramms „Aufschlüsselung der Klicks im Zeitverlauf“](assets/reporting_email_9.png){zoomable="yes"}{align="center"}
 
 ## Benutzeraktivitäten {#user-activities-email}
 
@@ -326,7 +326,7 @@ Der Graph zur **[!UICONTROL Aufschlüsselung der Klicks im Zeitverlauf]** enthä
 
 Der Bericht **[!UICONTROL Benutzeraktivitäten]** zeigt die Aufschlüsselung der Öffnungen und Klicks in Form eines Diagramms. Sie können den Zeitraum der Zielgruppendaten auswählen: letzter Tag, letzte Stunde oder letzte 30 Minuten.
 
-![Screenshot des Berichts zu Benutzeraktivitäten](assets/reporting_email_10.png){zoomable="yes"}{align="center"}
+![Screenshot des Berichts „Nutzeraktivitäten“](assets/reporting_email_10.png){zoomable="yes"}{align="center"}
 
 +++ Erfahren Sie mehr über die Metriken des E-Mail-Versandberichts.
 
@@ -345,7 +345,7 @@ Der Bericht **[!UICONTROL Benutzeraktivitäten]** zeigt die Aufschlüsselung der
 
 Das Diagramm **[!UICONTROL Tracking-Statistiken]** liefert Statistiken über Öffnungen und Klicks. Sie haben die Möglichkeit, den spezifischen Zeitrahmen für die Zielgruppendaten auszuwählen.
 
-![Screenshot des Diagramms für Tracking-Statistiken](assets/reporting_email_11.png){zoomable="yes"}{align="center"}
+![Screenshot des Diagramms „Tracking-Statistiken“](assets/reporting_email_11.png){zoomable="yes"}{align="center"}
 
 +++ Erfahren Sie mehr über die Metriken des E-Mail-Versandberichts.
 
@@ -368,7 +368,7 @@ Der Bericht **Aufschlüsselung nach Gerät** zeigt die Aufschlüsselung der Öff
 
 Für jede Kategorie werden zwei Diagramme verwendet. Das erste zeigt Statistiken zu Öffnungen auf Computern und Mobilgeräten. Das zweite zeigt die genaue Anzahl und den genauen Prozentsatz für jeden Gerätetyp an.
 
-![Screenshot des Berichts zur Aufschlüsselung nach Gerät](assets/reporting_email_13.png){zoomable="yes"}{align="center"}
+![Screenshot des Berichts „Aufschlüsselung nach Gerät“](assets/reporting_email_13.png){zoomable="yes"}{align="center"}
 
 
 ### Aufschlüsselung der Öffnungen nach Betriebssystem {#breakdown-opens-os}
@@ -382,7 +382,7 @@ Der Bericht **Aufschlüsselung nach Betriebssystem** zeigt die Aufschlüsselung 
 
 Für jede Kategorie werden zwei Diagramme verwendet. Das erste zeigt Statistiken zu Öffnungen auf Betriebssystemen von Computern und Mobilgeräten. Das zweite zeigt die genaue Anzahl und den genauen Prozentsatz für jedes Betriebssystem an.
 
-![Screenshot des Berichts zur Aufschlüsselung nach Betriebssystem](assets/reporting_email_13.1.png){zoomable="yes"}{align="center"}
+![Screenshot des Berichts „Aufschlüsselung nach Betriebssystem“](assets/reporting_email_13.1.png){zoomable="yes"}{align="center"}
 
 ### Aufschlüsselung der Öffnungen nach Browser {#breakdown-opens-browser}
 
@@ -395,7 +395,7 @@ Der Bericht **Aufschlüsselung nach Browser** zeigt die Aufschlüsselung der Öf
 
 Für jede Kategorie werden zwei Diagramme verwendet. Das erste zeigt Statistiken zu Öffnungen auf Betriebssystemen von Computern und Mobilgeräten. Das zweite zeigt die genaue Anzahl und den genauen Prozentsatz für jeden Browser an.
 
-![Screenshot der Aufschlüsselung der Öffnungen nach Browser-Bericht](assets/reporting_email_13.2.png){zoomable="yes"}{align="center"}
+![Screenshot des Berichts „Aufschlüsselung nach Browser“](assets/reporting_email_13.2.png){zoomable="yes"}{align="center"}
 
 
 ## Hotclicks {#hotclicks}

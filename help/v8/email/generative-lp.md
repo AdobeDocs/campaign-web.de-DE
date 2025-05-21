@@ -6,18 +6,18 @@ exl-id: f4baa23f-f289-4837-b5b3-c479eaeff86c
 source-git-commit: 609718356ace500b831601dac077f9a3333e00e9
 workflow-type: tm+mt
 source-wordcount: '1463'
-ht-degree: 26%
+ht-degree: 77%
 
 ---
 
-# Generieren von Landingpages mit KI-Assistenten{#generative-lp}
+# Generieren von Landingpages mit dem KI-Assistenten{#generative-lp}
 
 >[!IMPORTANT]
 >
->Bevor Sie mit der Verwendung dieser Funktion beginnen, lesen Sie die entsprechenden [Leitplanken und Einschränkungen](generative-gs.md#generative-guardrails).
+>Bevor Sie mit der Verwendung dieser Funktion beginnen, lesen Sie die entsprechenden Informationen unter [Schutzmechanismen und Einschränkungen](generative-gs.md#generative-guardrails).
 ></br>
 >
->Sie müssen einer [Benutzervereinbarung“ zustimmen](https://www.adobe.com/de/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) bevor Sie den KI-Assistenten in Adobe Campaign Web verwenden können. Weitere Informationen erhalten Sie vom Adobe-Support.
+>Sie müssen einer [Benutzervereinbarung“ zustimmen](https://www.adobe.com/de/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) bevor Sie den KI-Assistenten in Adobe Campaign Web verwenden können. Weitere Informationen erhalten Sie beim Adobe-Support.
 
 Transformieren Sie Ihre Landingpages mit dem KI-Assistenten im Adobe Campaign Web, der auf generativer KI basiert.
 
@@ -35,40 +35,40 @@ Im folgenden Beispiel erfahren Sie, wie Sie mit dem KI-Assistenten eine vorhande
 
    Weitere Informationen zur Konfiguration Ihrer Landingpage finden Sie auf [dieser Seite](../landing-pages/create-lp.md).
 
-1. Personalisieren Sie Ihr Layout nach Bedarf und greifen Sie auf das Menü **[!UICONTROL KI-Assistent]** zu.
+1. Personalisieren Sie Ihr Layout nach Bedarf und rufen Sie das Menü **[!UICONTROL KI-Assistent]** auf.
 
    ![Screenshot mit dem Menü „KI-Assistent“ im Landingpage-Editor.](assets/lp_full_gen_1.png){zoomable="yes"}
 
 1. Aktivieren Sie die Option **[!UICONTROL Original-Inhalt verwenden]** für den KI-Assistenten, um neue Inhalte basierend auf den ausgewählten Inhalten zu personalisieren.
 
-1. Passen Sie den Inhalt an, indem Sie beschreiben, was Sie im Feld **[!UICONTROL Eingabeaufforderung]** generieren möchten.
+1. Passen Sie den Inhalt an, indem Sie im Feld **[!UICONTROL Prompt]** beschreiben, was Sie generieren möchten.
 
-   Wenn Sie Hilfe bei der Erstellung Ihrer Eingabeaufforderung benötigen, rufen Sie die **[!UICONTROL Eingabeaufforderungsbibliothek]** auf, die eine Vielzahl von Ideen für die Eingabeaufforderung enthält, um Ihre Landingpage zu verbessern.
+   Wenn Sie Hilfe bei der Erstellung Ihres Prompts benötigen, finden Sie in der **[!UICONTROL Prompt-Bibliothek]** eine Vielzahl von Ideen für Prompts, mit denen Sie Ihre Landingpage verbessern können.
 
-   ![Screenshot mit der Eingabeaufforderung für die Bibliotheksoberfläche.](assets/lp_full_gen_2.png){zoomable="yes"}
+   ![Screenshot der Benutzeroberfläche der Prompt-Bibliothek](assets/lp_full_gen_2.png){zoomable="yes"}
 
 1. Passen Sie Ihr Prompt mit der Option **[!UICONTROL Texteinstellungen]** an:
 
    * **[!UICONTROL Kommunikationsstrategie]**: Wählen Sie den am besten geeigneten Kommunikationsstil für den generierten Text aus.
    * **[!UICONTROL Ton]**: Der Ton Ihrer Landingpage sollte bei Ihrer Zielgruppe ankommen. Egal, ob Sie informativ, spielerisch oder überzeugend klingen möchten, der KI-Assistent kann die Nachricht entsprechend anpassen.
 
-   ![Screenshot mit Optionen für Texteinstellungen.](assets/lp_full_gen_3.png){zoomable="yes"}
+   ![Screenshot mit Optionen für Texteinstellungen](assets/lp_full_gen_3.png){zoomable="yes"}
 
 1. Wählen Sie Ihre **[!UICONTROL Bildeinstellungen]** aus:
 
-   * **[!UICONTROL Content-Typ]**: Kategorisieren der Art des visuellen Elements, wobei zwischen verschiedenen Formen der visuellen Darstellung wie Fotos, Grafiken oder Kunst unterschieden wird.
-   * **[!UICONTROL Visuelle Intensität]**: Kontrollieren Sie die Wirkung des Bildes, indem Sie seine Intensität anpassen. Eine niedrigere Einstellung (2) sorgt für ein weicheres Erscheinungsbild, während eine höhere Einstellung (10) das Bild lebendiger macht.
-   * **[!UICONTROL Farbe und Ton]**: Passen Sie das allgemeine Erscheinungsbild der Farben in einem Bild und die Stimmung oder Atmosphäre an, die es vermittelt.
-   * **[!UICONTROL Beleuchtung]**: Ändern Sie die Beleuchtung in einem Bild, um die Atmosphäre zu formen und bestimmte Elemente hervorzuheben.
+   * **[!UICONTROL Inhaltstyp]**: Kategorisieren Sie die Art des visuellen Elements, wobei zwischen verschiedenen Arten der visuellen Darstellung wie Fotos, Grafiken oder Kunst unterschieden wird.
+   * **[!UICONTROL Visuelle Intensität]**: Steuern Sie die Wirkung des Bildes durch Anpassen seiner Intensität. Durch eine niedrigere Einstellung (2) wird das Erscheinungsbild weicher, während eine höhere Einstellung (10) das Bild lebendiger macht.
+   * **[!UICONTROL Farbe und Ton]**: Passen Sie die Gesamterscheinung der Farben in einem Bild und die vermittelte Stimmung oder Atmosphäre an.
+   * **[!UICONTROL Beleuchtung]**: Ändern Sie die Beleuchtung in einem Bild, die dessen Atmosphäre prägt und bestimmte Elemente hervorhebt.
    * **[!UICONTROL Komposition]**: Ordnen Sie Elemente innerhalb des Rahmens eines Bildes an.
 
-   ![Screenshot mit Optionen für Bildeinstellungen.](assets/lp_full_gen_4.png){zoomable="yes"}
+   ![Screenshot mit Optionen für Bildeinstellungen](assets/lp_full_gen_4.png){zoomable="yes"}
 
 1. Klicken Sie im Menü **[!UICONTROL Marken-Assets]** auf **[!UICONTROL Marken-Asset hochladen]**, um jedes Marken-Asset hinzuzufügen, das zusätzlichen Kontext für den KI-Assistenten bietet, oder wählen Sie ein zuvor hochgeladenes Asset aus.
 
-   Zuvor hochgeladene Dateien sind in der Dropdown-Liste **[!UICONTROL Hochgeladene Marken-Assets]** verfügbar. Schalten Sie die Assets ein, die Sie in Ihre Generation aufnehmen möchten.
+   Zuvor hochgeladene Dateien sind in der Dropdown-Liste **[!UICONTROL Hochgeladene Marken-Assets]** verfügbar. Aktivieren Sie die Assets, die in den Generierungsprozess einbezogen werden sollen.
 
-   ![Screenshot mit dem Menü „Marken-Assets“.](assets/lp_full_gen_5.png){zoomable="yes"}
+   ![Screenshot mit dem Menü „Marken-Assets“](assets/lp_full_gen_5.png){zoomable="yes"}
 
 1. Wenn das Prompt fertig ist, klicken Sie auf **[!UICONTROL Generieren]**.
 
@@ -77,17 +77,17 @@ Im folgenden Beispiel erfahren Sie, wie Sie mit dem KI-Assistenten eine vorhande
 1. Navigieren Sie im Fenster **[!UICONTROL Vorschau]** zur Option **[!UICONTROL Verfeinern]**, um auf zusätzliche Anpassungsfunktionen zuzugreifen:
 
    * **[!UICONTROL Umformulieren]**: Der KI-Assistent kann Ihre Nachricht auf unterschiedliche Weise umformulieren, sodass Sie frisch schreiben und für unterschiedliche Zielgruppen interessant sind.
-   * **[!UICONTROL Einfachere Sprache verwenden]**: Vereinfachen Sie Ihre Sprache, um einer breiteren Zielgruppe Klarheit und Zugänglichkeit zu verschaffen.
+   * **[!UICONTROL Einfachere Sprache verwenden]**: Vereinfachen Sie Ihren Text, damit er für eine breitere Zielgruppe verständlich und zugänglich ist.
 
    Sie können auch den **[!UICONTROL Ton]** und die **[!UICONTROL Kommunikationsstrategie]** Ihres Textes ändern.
 
-   ![Screenshot mit den Verfeinerungsoptionen.](assets/lp_full_gen_6.png){zoomable="yes"}
+   ![Screenshot mit den Verfeinerungsoptionen](assets/lp_full_gen_6.png){zoomable="yes"}
 
-1. Klicken Sie **[!UICONTROL Auswählen]**, sobald Sie den entsprechenden Inhalt gefunden haben.
+1. Klicken Sie auf **[!UICONTROL Auswählen]**, sobald Sie den passenden Inhalt gefunden haben.
 
-1. Fügen Sie Personalisierungsfelder ein, um den Inhalt Ihrer Landingpage auf der Grundlage von Profildaten anzupassen. Klicken Sie anschließend auf die Schaltfläche **[!UICONTROL Inhalt simulieren]**, um das Rendering zu steuern und die Personalisierungseinstellungen mit Testprofilen zu überprüfen. [Weitere Informationen](../landing-pages/create-lp.md#test-landing-page).
+1. Fügen Sie Personalisierungsfelder ein, um Ihre Landingpage-Inhalte auf der Grundlage von Profildaten anzupassen. Klicken Sie danach auf die Schaltfläche **[!UICONTROL Inhalte simulieren]**, um das Rendern zu steuern, und überprüfen Sie die Personalisierungseinstellungen mit Testprofilen. [Weitere Informationen](../landing-pages/create-lp.md#test-landing-page).
 
-Sobald Ihre Landingpage fertig ist, veröffentlichen Sie sie, um sie für die Verwendung in einer Nachricht verfügbar zu machen. [Weitere Informationen](../landing-pages/create-lp.md#publish-landing-page).
+Sobald Ihre Landingpage fertig ist, veröffentlichen Sie sie, damit sie in einer Nachricht verwendet werden kann. [Weitere Informationen](../landing-pages/create-lp.md#publish-landing-page).
 
 >[!TAB Nur Textgenerierung]
 
@@ -97,17 +97,17 @@ Im folgenden Beispiel erfahren Sie, wie Sie den KI-Assistenten nutzen können, u
 
    Weitere Informationen zur Konfiguration Ihrer Landingpage finden Sie auf [dieser Seite](../landing-pages/create-lp.md).
 
-1. Wählen Sie eine **[!UICONTROL Textkomponente]** aus, um bestimmte Inhalte anzusprechen, und rufen Sie das Menü **[!UICONTROL KI-Assistent]** auf.
+1. Wählen Sie eine **[!UICONTROL Textkomponente]** aus, um bestimmte Inhalte zu erfassen, und rufen Sie das Menü **[!UICONTROL KI-Assistent]** auf.
 
    ![Screenshot mit dem Menü „KI-Assistent“ für Textkomponenten.](assets/lp-text-genai-1.png){zoomable="yes"}
 
 1. Aktivieren Sie die Option **[!UICONTROL Original-Inhalt verwenden]** für den KI-Assistenten, um neue Inhalte basierend auf den ausgewählten Inhalten zu personalisieren.
 
-1. Passen Sie den Inhalt an, indem Sie beschreiben, was Sie im Feld **[!UICONTROL Eingabeaufforderung]** generieren möchten.
+1. Passen Sie den Inhalt an, indem Sie im Feld **[!UICONTROL Prompt]** beschreiben, was Sie generieren möchten.
 
-   Wenn Sie Hilfe bei der Erstellung Ihrer Eingabeaufforderung benötigen, rufen Sie die **[!UICONTROL Eingabeaufforderungsbibliothek]** auf, die eine Vielzahl von Ideen für die Eingabeaufforderung zur Verbesserung Ihrer Landingpages bietet.
+   Wenn Sie Hilfe bei der Erstellung Ihres Prompts benötigen, finden Sie in der **[!UICONTROL Prompt-Bibliothek]** eine Vielzahl von Ideen für Prompts, mit denen Sie Ihre Landingpage verbessern können.
 
-   ![Screenshot mit der Eingabeaufforderung für die Bibliotheksoberfläche.](assets/lp-text-genai-2.png){zoomable="yes"}
+   ![Screenshot der Benutzeroberfläche der Prompt-Bibliothek](assets/lp-text-genai-2.png){zoomable="yes"}
 
 1. Passen Sie Ihr Prompt mit der Option **[!UICONTROL Texteinstellungen]** an:
 
@@ -115,35 +115,35 @@ Im folgenden Beispiel erfahren Sie, wie Sie den KI-Assistenten nutzen können, u
    * **[!UICONTROL Ton]**: Der Ton Ihrer Landingpage sollte bei Ihrer Zielgruppe ankommen. Egal, ob Sie informativ, spielerisch oder überzeugend klingen möchten, der KI-Assistent kann die Nachricht entsprechend anpassen.
    * **Textlänge**: Wählen Sie mit dem Regler die gewünschte Textlänge aus.
 
-   ![Screenshot mit Optionen für Texteinstellungen.](assets/lp-text-genai-3.png){zoomable="yes"}
+   ![Screenshot mit Optionen für Texteinstellungen](assets/lp-text-genai-3.png){zoomable="yes"}
 
 1. Klicken Sie im Menü **[!UICONTROL Marken-Assets]** auf **[!UICONTROL Marken-Asset hochladen]**, um jedes Marken-Asset hinzuzufügen, das zusätzlichen Kontext für den KI-Assistenten bietet, oder wählen Sie ein zuvor hochgeladenes Asset aus.
 
-   Zuvor hochgeladene Dateien sind in der Dropdown-Liste **[!UICONTROL Hochgeladene Marken-Assets]** verfügbar. Schalten Sie die Assets ein, die Sie in Ihre Generation aufnehmen möchten.
+   Zuvor hochgeladene Dateien sind in der Dropdown-Liste **[!UICONTROL Hochgeladene Marken-Assets]** verfügbar. Aktivieren Sie die Assets, die in den Generierungsprozess einbezogen werden sollen.
 
-   ![Screenshot mit dem Menü „Marken-Assets“.](assets/lp-text-genai-4.png){zoomable="yes"}
+   ![Screenshot mit dem Menü „Marken-Assets“](assets/lp-text-genai-4.png){zoomable="yes"}
 
 1. Wenn das Prompt fertig ist, klicken Sie auf **[!UICONTROL Generieren]**.
 
 1. Durchsuchen Sie die generierten **[!UICONTROL Varianten]** und klicken Sie auf **[!UICONTROL Vorschau]**, um eine Vollbildversion der ausgewählten Variante anzuzeigen.
 
-1. Navigieren Sie zur Option **[!UICONTROL Verfeinern]** im Fenster **[!UICONTROL Vorschau]**, um auf zusätzliche Anpassungsfunktionen zuzugreifen:
+1. Navigieren Sie im Fenster **[!UICONTROL Vorschau]** zur Option **[!UICONTROL Verfeinern]**, um auf zusätzliche Anpassungsfunktionen zuzugreifen:
 
    * **[!UICONTROL Als Referenzinhalt verwenden]**: Die gewählte Variante dient hierbei als Referenzinhalt für die Generierung anderer Ergebnisse.
-   * **[!UICONTROL Ausarbeiten]**: Erweitern Sie Ihre Kenntnisse zu bestimmten Themen und liefern Sie zusätzliche Details, um das Verständnis und die Interaktion zu verbessern.
-   * **[!UICONTROL Zusammenfassen]**: Zusammenfassen umfangreicher Informationen in klaren, knappen Zusammenfassungen, die Aufmerksamkeit erregen und zum weiteren Lesen anregen.
-   * **[!UICONTROL Umformulieren]**: Formulieren Sie Ihre Nachricht auf unterschiedliche Weise neu, sodass Sie neu schreiben und unterschiedliche Zielgruppen ansprechen können.
-   * **[!UICONTROL Einfachere Sprache verwenden]**: Vereinfachen Sie Ihre Sprache, um einer breiteren Zielgruppe Klarheit und Zugänglichkeit zu verschaffen.
+   * **[!UICONTROL Ausführlich]**: Gehen Sie genauer auf bestimmte Themen ein und liefern Sie zusätzliche Details, um das Verständnis und die Interaktion zu verbessern.
+   * **[!UICONTROL Zusammenfassen]**: Fassen Sie umfangreiche Informationen in klaren, prägnanten Aussagen zusammen, die die Aufmerksamkeit der Leserinnen und Leser wecken und sie zum Weiterlesen animieren.
+   * **[!UICONTROL Neu formulieren]**: Formulieren Sie Ihre Nachricht auf verschiedene Arten um, sodass Ihr Text frisch und für verschiedene Zielgruppen ansprechend bleibt.
+   * **[!UICONTROL Einfachere Sprache verwenden]**: Vereinfachen Sie Ihren Text, damit er für eine breitere Zielgruppe verständlich und zugänglich ist.
 
    Sie können auch den **[!UICONTROL Ton]** und die **[!UICONTROL Kommunikationsstrategie]** Ihres Textes ändern.
 
-   ![Screenshot mit den Verfeinerungsoptionen.](assets/lp-text-genai-5.png){zoomable="yes"}
+   ![Screenshot mit den Verfeinerungsoptionen](assets/lp-text-genai-5.png){zoomable="yes"}
 
-1. Klicken Sie **[!UICONTROL Auswählen]**, sobald Sie den entsprechenden Inhalt gefunden haben.
+1. Klicken Sie auf **[!UICONTROL Auswählen]**, sobald Sie den passenden Inhalt gefunden haben.
 
-1. Fügen Sie Personalisierungsfelder ein, um den Inhalt Ihrer Landingpage auf der Grundlage von Profildaten anzupassen. Klicken Sie anschließend auf die Schaltfläche **[!UICONTROL Inhalt simulieren]**, um das Rendering zu steuern und die Personalisierungseinstellungen mit Testprofilen zu überprüfen. [Weitere Informationen](../landing-pages/create-lp.md#test-landing-page).
+1. Fügen Sie Personalisierungsfelder ein, um Ihre Landingpage-Inhalte auf der Grundlage von Profildaten anzupassen. Klicken Sie danach auf die Schaltfläche **[!UICONTROL Inhalte simulieren]**, um das Rendern zu steuern, und überprüfen Sie die Personalisierungseinstellungen mit Testprofilen. [Weitere Informationen](../landing-pages/create-lp.md#test-landing-page).
 
-Sobald Ihre Landingpage fertig ist, veröffentlichen Sie sie, um sie für die Verwendung in einer Nachricht verfügbar zu machen. [Weitere Informationen](../landing-pages/create-lp.md#publish-landing-page).
+Sobald Ihre Landingpage fertig ist, veröffentlichen Sie sie, damit sie in einer Nachricht verwendet werden kann. [Weitere Informationen](../landing-pages/create-lp.md#publish-landing-page).
 
 >[!TAB Nur Bildgenerierung]
 
@@ -161,26 +161,26 @@ Im folgenden Beispiel erfahren Sie, wie Sie mit dem KI-Assistenten Ihre Assets o
 
 1. Aktivieren Sie die Option **[!UICONTROL Referenzstil]** für den KI-Assistenten, um neue Inhalte basierend auf dem Referenzinhalt zu personalisieren. Sie können auch ein Bild hochladen, um Kontext zu Ihrer Variante hinzuzufügen.
 
-1. Passen Sie den Inhalt an, indem Sie beschreiben, was Sie im Feld **[!UICONTROL Eingabeaufforderung]** generieren möchten.
+1. Passen Sie den Inhalt an, indem Sie im Feld **[!UICONTROL Prompt]** beschreiben, was Sie generieren möchten.
 
-   Wenn Sie Hilfe bei der Erstellung Ihrer Eingabeaufforderung benötigen, rufen Sie die **[!UICONTROL Eingabeaufforderungsbibliothek]** auf, die eine Vielzahl von Ideen für die Eingabeaufforderung zur Verbesserung Ihrer Landingpages bietet.
+   Wenn Sie Hilfe bei der Erstellung Ihres Prompts benötigen, finden Sie in der **[!UICONTROL Prompt-Bibliothek]** eine Vielzahl von Ideen für Prompts, mit denen Sie Ihre Landingpage verbessern können.
 
-   ![Screenshot mit der Eingabeaufforderung für die Bibliotheksoberfläche.](assets/lp-image-gen-2.png){zoomable="yes"}
+   ![Screenshot der Benutzeroberfläche der Prompt-Bibliothek](assets/lp-image-gen-2.png){zoomable="yes"}
 
 1. Passen Sie Ihr Prompt mit der Option **[!UICONTROL Texteinstellungen]** an:
 
-   * **[!UICONTROL Seitenverhältnis]**: Legen Sie die Breite und Höhe des Assets fest. Wählen Sie aus gängigen Verhältnissen wie 16:9, 4:3, 3:2 oder 1:1 oder geben Sie eine benutzerdefinierte Größe ein.
-   * **[!UICONTROL Content-Typ]**: Kategorisieren der Art des visuellen Elements, wobei zwischen verschiedenen Formen der visuellen Darstellung wie Fotos, Grafiken oder Kunst unterschieden wird.
-   * **[!UICONTROL Visuelle Intensität]**: Kontrollieren Sie die Wirkung des Bildes, indem Sie seine Intensität anpassen. Eine niedrigere Einstellung (2) sorgt für ein weicheres Erscheinungsbild, während eine höhere Einstellung (10) das Bild lebendiger macht.
-   * **[!UICONTROL Farbe und Ton]**: Passen Sie das allgemeine Erscheinungsbild der Farben in einem Bild und die Stimmung oder Atmosphäre an, die es vermittelt.
-   * **[!UICONTROL Beleuchtung]**: Ändern Sie die Beleuchtung in einem Bild, um die Atmosphäre zu formen und bestimmte Elemente hervorzuheben.
+   * **[!UICONTROL Seitenverhältnis]**: Bestimmen Sie die Breite und Höhe des Assets. Wählen Sie aus gängigen Verhältnissen wie 16:9, 4:3, 3:2 oder 1:1 oder geben Sie eine benutzerdefinierte Größe ein.
+   * **[!UICONTROL Inhaltstyp]**: Kategorisieren Sie die Art des visuellen Elements, wobei zwischen verschiedenen Arten der visuellen Darstellung wie Fotos, Grafiken oder Kunst unterschieden wird.
+   * **[!UICONTROL Visuelle Intensität]**: Steuern Sie die Wirkung des Bildes durch Anpassen seiner Intensität. Durch eine niedrigere Einstellung (2) wird das Erscheinungsbild weicher, während eine höhere Einstellung (10) das Bild lebendiger macht.
+   * **[!UICONTROL Farbe und Ton]**: Passen Sie die Gesamterscheinung der Farben in einem Bild und die vermittelte Stimmung oder Atmosphäre an.
+   * **[!UICONTROL Beleuchtung]**: Ändern Sie die Beleuchtung in einem Bild, die dessen Atmosphäre prägt und bestimmte Elemente hervorhebt.
    * **[!UICONTROL Komposition]**: Ordnen Sie Elemente innerhalb des Rahmens eines Bildes an.
 
-   ![Screenshot mit Optionen für Bildeinstellungen.](assets/lp-image-gen-3.png){zoomable="yes"}
+   ![Screenshot mit Optionen für Bildeinstellungen](assets/lp-image-gen-3.png){zoomable="yes"}
 
 1. Klicken Sie im Menü **[!UICONTROL Marken-Assets]** auf **[!UICONTROL Marken-Asset hochladen]**, um jedes Marken-Asset hinzuzufügen, das zusätzlichen Kontext für den KI-Assistenten bietet, oder wählen Sie ein zuvor hochgeladenes Asset aus.
 
-   Zuvor hochgeladene Dateien sind in der Dropdown-Liste **[!UICONTROL Hochgeladene Marken-Assets]** verfügbar. Schalten Sie die Assets ein, die Sie in Ihre Generation aufnehmen möchten.
+   Zuvor hochgeladene Dateien sind in der Dropdown-Liste **[!UICONTROL Hochgeladene Marken-Assets]** verfügbar. Aktivieren Sie die Assets, die in den Generierungsprozess einbezogen werden sollen.
 
 1. Sobald Sie mit der Konfiguration des Prompts zufrieden sind, klicken Sie auf **[!UICONTROL Generieren]**.
 
@@ -190,12 +190,12 @@ Im folgenden Beispiel erfahren Sie, wie Sie mit dem KI-Assistenten Ihre Assets o
 
 1. Wählen Sie **[!UICONTROL Ähnliche generieren]** aus, wenn Sie verwandte Bilder zu dieser Variante anzeigen möchten.
 
-   ![Screenshot mit der Oberfläche für Variantenvorschläge.](assets/lp-image-gen-4.png){zoomable="yes"}
+   ![Screenshot mit der Oberfläche für Variantenvorschläge](assets/lp-image-gen-4.png){zoomable="yes"}
 
-1. Klicken Sie **[!UICONTROL Auswählen]**, sobald Sie den entsprechenden Inhalt gefunden haben.
+1. Klicken Sie auf **[!UICONTROL Auswählen]**, sobald Sie den passenden Inhalt gefunden haben.
 
-1. Klicken Sie nach der Definition des Nachrichteninhalts auf die Schaltfläche **[!UICONTROL Inhalt simulieren]**, um das Rendering zu steuern und die Personalisierungseinstellungen mit Testprofilen zu überprüfen. [Weitere Informationen](../landing-pages/create-lp.md#test-landing-page).
+1. Klicken Sie nach der Definition des Nachrichteninhalts auf die Schaltfläche **[!UICONTROL Inhalte simulieren]**, um das Rendern zu steuern, und überprüfen Sie die Personalisierungseinstellungen mit Testprofilen. [Weitere Informationen](../landing-pages/create-lp.md#test-landing-page).
 
-Sobald Ihre Landingpage fertig ist, veröffentlichen Sie sie, um sie für die Verwendung in einer Nachricht verfügbar zu machen. [Weitere Informationen](../landing-pages/create-lp.md#publish-landing-page).
+Sobald Ihre Landingpage fertig ist, veröffentlichen Sie sie, damit sie in einer Nachricht verwendet werden kann. [Weitere Informationen](../landing-pages/create-lp.md#publish-landing-page).
 
 >[!ENDTABS]

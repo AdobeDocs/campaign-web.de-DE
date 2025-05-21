@@ -6,7 +6,7 @@ exl-id: 7817d4c5-1f97-4b17-8a5f-f1a5b8701fe9
 source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '554'
-ht-degree: 51%
+ht-degree: 95%
 
 ---
 
@@ -23,9 +23,9 @@ Jeder Kampagnenbericht ist in verschiedene Widgets unterteilt, die den Erfolg un
 >title="Versandübersicht"
 >abstract="Die **Versandübersicht** präsentiert wichtige Leistungsmetriken (KPI) mit umfassenden Erkenntnissen zur Interaktion Ihrer Besucherinnen und Besucher mit jedem Briefpostversand. Die Metriken sind unten dargestellt."
 
-Die **[!UICONTROL Versandübersicht]** enthält wichtige Leistungsmetriken (KPIs) und bietet detaillierte Einblicke in die Interaktion Ihrer Besucherinnen und Besucher mit jedem Briefpost-Versand. Die Metriken sind unten dargestellt.
+Die **[!UICONTROL Versandübersicht]** bietet wichtige Leistungsmetriken (KPIs) mit umfassenden Erkenntnissen über die Interaktion Ihrer Besucherinnen und Besucher mit jedem Briefpostversand. Die Metriken sind unten dargestellt.
 
-![Übersicht über die Versandmetriken von Briefpostkampagnen](assets/direct-mail-campaign-overview.png){zoomable="yes"}{align="center"}
+![Überblick über die Versandmetriken von Briefpostkampagnen](assets/direct-mail-campaign-overview.png){zoomable="yes"}{align="center"}
 
 +++ Erfahren Sie mehr über Metriken zur Versandübersicht.
 
@@ -33,7 +33,7 @@ Die **[!UICONTROL Versandübersicht]** enthält wichtige Leistungsmetriken (KPIs
 
 * **[!UICONTROL Zugestellt]**: Anzahl der erfolgreich gesendeten Nachrichten im Verhältnis zur Gesamtzahl der gesendeten Nachrichten.
 
-* **[!UICONTROL Fehler]**: Gesamtzahl der kumulierten Fehler beim Versand und bei der automatischen Rücksendung, bezogen auf die Gesamtzahl der gesendeten Nachrichten.
+* **[!UICONTROL Fehler]**: Gesamtzahl der beim Versand und bei der automatischen Rücksendung kumulierten Fehler, bezogen auf die Gesamtzahl der gesendeten Nachrichten.
 
 * **[!UICONTROL Klicks gesamt]**: Gesamtzahl der unterschiedlichen Empfängerinnen und Empfänger, die einen Versand mindestens einmal angeklickt haben.
 
@@ -46,7 +46,7 @@ Die **[!UICONTROL Versandübersicht]** enthält wichtige Leistungsmetriken (KPIs
 >title="Statistiken der ursprünglichen Zielgruppe"
 >abstract="Empfängerdaten und Nachrichteninformationen werden in der Tabelle **Statistiken der ursprünglichen Zielgruppe** angezeigt, die die Analyse der Versandvorbereitung widerspiegelt."
 
-Die **[!UICONTROL Ursprüngliche Zielgruppenstatistiken]** zeigt Daten zu Ihren Empfängerinnen und Empfängern an. Metriken werden während der Versandvorbereitung berechnet und zeigen die ursprüngliche Zielgruppe, die Anzahl der zu sendenden Nachrichten und die Anzahl der ausgeschlossenen Empfänger an.
+Die Tabelle **[!UICONTROL Statistiken der ursprünglichen Zielgruppe]** zeigt Daten zu Ihren Empfängerinnen und Empfängern an. Die Metriken werden bei der Versandvorbereitung berechnet und zeigen die ursprüngliche Zielgruppe, die Anzahl der zu sendenden Nachrichten und die Anzahl der ausgeschlossenen Empfängerinnen und Empfänger.
 
 ![Statistiken der ursprünglichen Zielgruppe für Briefpostkampagnen](assets/direct-mail-campaign-target-audience.png){zoomable="yes"}
 
@@ -56,7 +56,7 @@ Die **[!UICONTROL Ursprüngliche Zielgruppenstatistiken]** zeigt Daten zu Ihren 
 
 * **[!UICONTROL Zu versendende Nachricht]**: Gesamtzahl der nach erfolgter Versandvorbereitung zu versendenden Nachrichten.
 
-* **[!UICONTROL Aufgrund von Regeln abgelehnt]**: Gesamtzahl der Adressen, die während der Analyse beim Anwenden von Regeln ignoriert wurden, z. B. fehlende Adressen, in Quarantäne befindliche Adressen oder Adressen auf einer Blockierungsliste.
+* **[!UICONTROL Aufgrund von Regeln abgelehnt]**: Gesamtzahl der Adressen, die während der Analyse beim Anwenden von Regeln ignoriert wurden, z. B. fehlende Adressen, Adressen in Quarantäne oder Adressen auf einer Blockierungsliste.
 
 +++
 
@@ -69,17 +69,17 @@ Die **[!UICONTROL Ursprüngliche Zielgruppenstatistiken]** zeigt Daten zu Ihren 
 
 ![Ausführungsstatistiken für Briefpostkampagnen](assets/direct-mail-campaign-exec.png)
 
-Die **[!UICONTROL Ausführungsstatistiken]** Tabelle enthält eine Aufschlüsselung des Erfolgs jedes Briefpost-Versands mit detaillierten Metriken, die unten beschrieben werden.
+Die Tabelle **[!UICONTROL Ausführungsstatistiken]** bietet eine Aufschlüsselung des Erfolgs jedes Briefpostversands mit folgenden detaillierten Metriken.
 
 +++ Erfahren Sie mehr über Metriken der Versandstatistiken.
 
-* **[!UICONTROL Zu versendende Nachricht]**: Gesamtzahl der nach erfolgter Versandvorbereitung zu versendenden Nachrichten.
+* **[!UICONTROL Zu versendende Nachricht(en)]**: Gesamtzahl der nach erfolgter Versandvorbereitung zu versendenden Nachrichten.
 
-* **[!UICONTROL Erfolg]**: Anzahl der erfolgreich verarbeiteten Nachrichten im Verhältnis zur Anzahl der zu versendenden Nachrichten.
+* **[!UICONTROL Erfolg]**: Anzahl der erfolgreich verarbeiteten Nachrichten, bezogen auf die Anzahl der zu versendenden Nachrichten.
 
-* **[!UICONTROL Fehler]**: Gesamtzahl der bei Sendungen und automatischer Bounce-Verarbeitung kumulierten Fehler im Verhältnis zur Anzahl der zu versendenden Nachrichten.
+* **[!UICONTROL Fehler]**: Gesamtzahl der über alle Sendungen und automatischen Bounce-Verarbeitungen hinweg kumulierten Fehler, bezogen auf die Anzahl der zu versendenden Nachrichten.
 
-* **[!UICONTROL Neue Quarantänen]**: Gesamtzahl der Adressen, die infolge eines fehlgeschlagenen Versands unter Quarantäne gestellt wurden (z. B. unbekannter Nutzer, ungültige Domain), im Verhältnis zur Anzahl der zu versendenden Nachrichten.
+* **[!UICONTROL Neu in Quarantäne]**: Gesamtzahl der Adressen, die infolge eines fehlgeschlagenen Versands unter Quarantäne gestellt wurden (Fehler „Unbekannter Nutzer“, „Ungültige Domain“), bezogen auf die Anzahl der zu versendenden Nachrichten.
 
 +++
 
@@ -100,6 +100,6 @@ Die Tabelle **Erzeugte Clickstreams** zeigt die Gründe, warum aus den Zielprofi
 
 * **[!UICONTROL Klicks gesamt]**: Gesamtzahl der Klicks auf Links in Sendungen.
 
-* **[!UICONTROL Reaktionsrate]**: Verhältnis der Anzahl an Zielgruppenempfängerinnen und -empfängern, die auf einen Versand geklickt haben, in Bezug zur geschätzten Anzahl der Zielgruppenempfängerinnen und -empfänger, die einen Versand geöffnet haben.
+* **[!UICONTROL Reaktionsrate]**: Verhältnis der Anzahl an Zielgruppenempfängerinnen und -empfängern, die auf einen Versand geklickt haben, bezogen auf die geschätzten Anzahl der Zielgruppenempfängerinnen und -empfänger, die einen Versand geöffnet haben.
 
 +++

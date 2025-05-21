@@ -10,17 +10,17 @@ exl-id: 120afaa0-7017-4644-b6db-229b4a5c8a91
 source-git-commit: 19a7540af7502709b7eafdace038b5958e077173
 workflow-type: tm+mt
 source-wordcount: '315'
-ht-degree: 42%
+ht-degree: 98%
 
 ---
 
 # Erste Schritte mit Versandwarnungen {#gs-delivery-alerting}
 
-Versandwarnungen sind ein System zur Verwaltung von Warnhinweisen, mit dem Benutzergruppen automatisch E-Mail-Benachrichtigungen mit Informationen zu ihren Versandausführungen erhalten können. Empfänger und Empfängerinnen überwachen die von Adobe Campaign verarbeiteten Sendungen und ergreifen geeignete Maßnahmen, wenn Probleme auftreten.
+Bei Versandwarnungen handelt es sich um ein System zum Warnungs-Management, über das Benutzergruppen automatisch E-Mail-Benachrichtigungen mit Informationen zu ihren Versandausführungen erhalten.  Empfängerinnen und Empfänger überwachen die von Adobe Campaign verarbeiteten Sendungen und ergreifen entsprechende Maßnahmen, wenn Fehler auftreten.
 
-Benachrichtigungen werden anhand spezifischer Warnkriterien angepasst, die in der Web-Benutzeroberfläche von Adobe Campaign definiert sind.
+Benachrichtigungen werden basierend auf bestimmten Warnungskriterien angepasst, die über die Adobe Campaign Web-Benutzeroberfläche definiert werden.
 
-Weitere Informationen zur Verwaltung von fehlgeschlagenen Sendungen finden Sie in der [Dokumentation zu Adobe Campaign v8 (Konsole)](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/send/failures/delivery-failures#send){target="_blank"}.
+Weitere Informationen zum Verwalten von Versandfehlern finden Sie in der [Dokumentation zu Adobe Campaign v8 (Konsole)](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/send/failures/delivery-failures#send){target="_blank"}
 
 ## Inhalt der E-Mail-Benachrichtigung {#content}
 
@@ -29,16 +29,16 @@ E-Mail-Benachrichtigungen enthalten die folgenden Abschnitte:
 * **Zusammenfassung**: Zeigt die Anzahl der Sendungen an, die den von Ihnen definierten Kriterien entsprechen, mit den Titeln und Farben für jedes Kriterium.
 * **Details**: Führt alle für das Dashboard definierten Versandkriterien und die entsprechenden Sendungen für jedes Kriterium auf.
 
-![Beschreibung: Dieser Screenshot zeigt das Layout der E-Mail-Benachrichtigung, einschließlich der Abschnitte Zusammenfassung und Details.](assets/alerting-email.png)
+![Beschreibung: Dieser Screenshot zeigt das Layout der E-Mail-Benachrichtigung, einschließlich der Abschnitte „Zusammenfassung“ und „Details“.](assets/alerting-email.png)
 
 ## Einrichten von Versandwarnungen {#set-up}
 
-Um diese Warnhinweise einzurichten, können Sie in der Web-Benutzeroberfläche von Campaign folgende Elemente erstellen und verwalten:
+Für die Einrichtung dieser Warnungen können Sie über die Campaign Web-Benutzeroberfläche Folgendes erstellen und verwalten:
 
 * **Versandwarnungs-Dashboards**: Geben Sie Empfängerinnen und Empfänger an, legen Sie Warnungskriterien fest, die in das Dashboard aufgenommen werden sollen, und greifen Sie auf den Verlauf der gesendeten Warnungen zu. [Erfahren Sie, wie Sie mit Dashboards arbeiten](../msg/delivery-alerting-dashboards.md).
-* **Kriterien für Versandwarnungen**: Die Web-Benutzeroberfläche von Campaign bietet vordefinierte Warnkriterien, wie Sendungen mit geringem Durchsatz oder Sendungen, deren Vorbereitung fehlgeschlagen ist. Sie können diese Kriterien zu Ihrem Dashboard hinzufügen oder eigene Kriterien erstellen, die Ihren Anforderungen entsprechen. [Erfahren Sie, wie Sie mit Kriterien arbeiten](../msg/delivery-alerting-criteria.md).
+* **Versandwarnungskriterien**: Die Campaign Web-Benutzeroberfläche bietet vordefinierte Warnungskriterien wie Sendungen mit geringem Durchsatz oder Sendungen, deren Vorbereitung fehlgeschlagen ist. Sie können diese Kriterien zu Ihrem Dashboard hinzufügen oder eigene Kriterien erstellen, die Ihren Anforderungen entsprechen. [Erfahren Sie, wie Sie mit Kriterien arbeiten](../msg/delivery-alerting-criteria.md).
 
-Benachrichtigen Sie beispielsweise Benutzende mit Administratorrechten nur über fehlgeschlagene Sendungen und Marketing-Benutzende über Sendungen mit einer hohen Softbounce-Fehlerquote. Erstellen Sie dazu zwei separate Dashboards mit den entsprechenden Kriterien für jede Empfängergruppe.
+Sie können beispielsweise Benutzende mit Administratorrechten nur über fehlgeschlagene Sendungen benachrichtigen und Marketing-Benutzende über Sendungen mit einer hohen Softbounce-Fehlerrate informieren. Erstellen Sie dazu zwei separate Dashboards mit den entsprechenden Kriterien für jede Empfängergruppe.
 
 >[!NOTE]
 >

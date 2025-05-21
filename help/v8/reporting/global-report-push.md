@@ -6,15 +6,15 @@ exl-id: 829a9b68-5c41-47dd-843c-412b6d255e8b
 source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '600'
-ht-degree: 63%
+ht-degree: 97%
 
 ---
 
 # Globale Berichte für den Push-Kanal {#campaign-reports-push}
 
-Die globalen Berichte bieten den Benutzenden einen umfassenden Überblick über Traffic- und Interaktionsmetriken auf Kanalebene.
+Die globalen Berichte bieten einen umfassenden Überblick über Traffic- und Interaktionsmetriken auf Kanalebene.
 
-Navigieren Sie zum Menü **[!UICONTROL Berichte]** im Abschnitt **[!UICONTROL Berichterstellung]**. Sie können Ihre Daten nach Berichtsdatum, Ordner oder Regeln filtern. [Weitere Informationen](global-reports.md)
+Navigieren Sie zum Menü **[!UICONTROL Berichte]** im Abschnitt **[!UICONTROL Reporting]**. Sie können Ihre Daten nach Berichtsdatum, -ordner oder -regeln filtern. [Weitere Informationen](global-reports.md)
 
 ## Versandzusammenfassung {#delivery-summary-push}
 
@@ -37,7 +37,7 @@ Der Bericht zur **[!UICONTROL Versandübersicht]** liefert Leistungskennzahlen (
 
 * **[!UICONTROL Klicks gesamt]**: Gesamtzahl der unterschiedlichen Empfängerinnen und Empfänger, die einen Versand mindestens einmal angeklickt haben.
 
-* **[!UICONTROL Fehler]**: Summe der Fehler, die beim Versand und bei der automatischen Rücksendung kumuliert wurden, bezogen auf die Gesamtzahl der gesendeten Nachrichten.
+* **[!UICONTROL Fehler]**: Gesamtzahl der beim Versand und der automatischen Rücksendung kumulierten Fehler, bezogen auf die Gesamtzahl der gesendeten Nachrichten.
 
 +++
 
@@ -50,7 +50,7 @@ Der Bericht zur **[!UICONTROL Versandübersicht]** liefert Leistungskennzahlen (
 
 Die Tabelle und der Graph **[!UICONTROL Zielgruppe]** enthalten Daten zu den Empfängerinnen und Empfängern für den Versand jeder gesendeten Push-Benachrichtigung. Metriken werden nachfolgend beschrieben.
 
-![Zielgruppen-Metriken, die Daten zu Empfängern und Ausschlüssen für Push-Benachrichtigungen anzeigen.](assets/global_report_push_targeted_audience.png){zoomable="yes"}
+![Zielgruppen-Metriken, die Daten zu Empfängerinnen und Empfängern sowie Ausschlüssen für Push-Benachrichtigungen anzeigen.](assets/global_report_push_targeted_audience.png){zoomable="yes"}
 
 +++ Erfahren Sie mehr über Metriken für zielgerichtete Zielgruppen.
 
@@ -58,7 +58,7 @@ Die Tabelle und der Graph **[!UICONTROL Zielgruppe]** enthalten Daten zu den Emp
 
 * **[!UICONTROL Zu versendende Nachricht]**: Gesamtzahl der nach erfolgter Versandvorbereitung zu versendenden Nachrichten.
 
-* auf die Blockierungsliste setzen **[!UICONTROL Ausschluss]**: Gesamtzahl der Adressen, die während der Analyse beim Anwenden von Regeln ignoriert wurden: fehlende Adresse, in Quarantäne, Fehler und ähnliche Gründe.
+* **[!UICONTROL Ausschlusss]**: Gesamtzahl der Adressen, die bei Anwendung von Regeln bei der Analyse ignoriert wurden: fehlende Adresse, in Quarantäne, auf der Blockierungsliste und ähnliche Gründe.
 
 +++
 
@@ -71,7 +71,7 @@ Die Tabelle und der Graph **[!UICONTROL Zielgruppe]** enthalten Daten zu den Emp
 
 Die Tabelle **[!UICONTROL Versandstatistik]** zeigt den Erfolg jedes einzelnen Push-Nachrichtenversands auf. Metriken werden nachfolgend beschrieben.
 
-![Versandstatistiken : Metriken zu Erfolgsraten, Fehlern und Quarantänen für Push-Benachrichtigungen.](assets/global_report_push_delivery_statistics.png){zoomable="yes"}
+![Versandstatistik-Metriken, die Erfolgsraten, Fehler und Quarantänen für Push-Benachrichtigungen anzeigen.](assets/global_report_push_delivery_statistics.png){zoomable="yes"}
 
 +++ Erfahren Sie mehr über Metriken der Versandstatistiken.
 
@@ -79,11 +79,11 @@ Die Tabelle **[!UICONTROL Versandstatistik]** zeigt den Erfolg jedes einzelnen P
 
 * **[!UICONTROL Erfolg]**: Anzahl der erfolgreich verarbeiteten Nachrichten im Verhältnis zur Anzahl der zu versendenden Nachrichten.
 
-* **[!UICONTROL Fehler/Bounces]**: Gesamtzahl der bei Sendungen akkumulierten Fehler und der automatischen Bounce-Verarbeitungen im Verhältnis zur Anzahl der zu versendenden Nachrichten.
+* **[!UICONTROL Fehler/Bounces]**: Gesamtzahl der über alle Sendungen hinweg kumulierten Fehler und der automatischen Bounce-Verarbeitungen im Verhältnis zur Anzahl der zu versendenden Nachrichten.
 
-* **[!UICONTROL Neue Quarantänen]**: Gesamtzahl der Adressen, die infolge eines fehlgeschlagenen Versands unter Quarantäne gestellt wurden (ungültige Registrierung, Nachrichtenablehnung, Payload-Fehler und ähnliche Gründe), im Verhältnis zur Anzahl der zu versendenden Nachrichten.
+* **[!UICONTROL Neu in Quarantäne]**: Gesamtzahl der Adressen, die infolge eines fehlgeschlagenen Versands unter Quarantäne gestellt wurden (ungültige Registrierung, Zurückweisung der Nachricht, Payload-Fehler und ähnliche Gründe), im Verhältnis zur Anzahl der zu versendenden Nachrichten.
 
-  Die Fehlertypen für Push-Benachrichtigungen sind in der Dokumentation zu [Adobe Campaign v8 (Client-Konsole) ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=de#push-error-types){target="_blank"}.
+  Die Fehlertypen von Push-Benachrichtigungen sind in der [Dokumentation zu Adobe Campaign v8 (Client-Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=de#push-error-types){target="_blank"} aufgelistet.
 
 +++
 
@@ -96,7 +96,7 @@ Die Tabelle **[!UICONTROL Versandstatistik]** zeigt den Erfolg jedes einzelnen P
 
 Der Graph und die Tabelle **[!UICONTROL Ausschlussgründe]** zeigen die Gründe, aus denen Benutzerprofile, die aus den Zielgruppenprofilen ausgeschlossen wurden, die Nachricht nicht erhalten haben.
 
-Die Fehlertypen für Push-Benachrichtigungen sind in der Dokumentation zu [Adobe Campaign v8 (Client-Konsole) ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=de#push-error-types){target="_blank"}.
+Die Fehlertypen von Push-Benachrichtigungen sind in der [Dokumentation zu Adobe Campaign v8 (Client-Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=de#push-error-types){target="_blank"} aufgelistet.
 
 ## Versanddurchsatz {#delivery-throughput-sms}
 
@@ -105,6 +105,6 @@ Die Fehlertypen für Push-Benachrichtigungen sind in der Dokumentation zu [Adobe
 >title="Bericht zum Versanddurchsatz"
 >abstract="Der Bericht zum **Versanddurchsatz** enthält detaillierte Informationen zum Durchsatz des Push-Versands über die gesamte Plattform innerhalb eines bestimmten Zeitraums."
 
-![Versanddurchsatzmetriken, die Erfolgs- und Fehlerquoten für Push-Benachrichtigungen über einen bestimmten Zeitraum anzeigen.](assets/global_report_push_delivery_throughput.png){zoomable="yes"}
+![Versanddurchsatz-Metriken, die Erfolgs- und Fehlerraten für Push-Benachrichtigungen über einen bestimmten Zeitraum anzeigen.](assets/global_report_push_delivery_throughput.png){zoomable="yes"}
 
 Der Bericht zum **[!UICONTROL Versanddurchsatz]** bietet umfassende Einblicke in die Effektivität des Push-Nachrichtenversandsystems und eine detaillierte Zusammenfassung der Erfolgs- und Fehlerquoten über einen bestimmten Zeitraum hinweg.

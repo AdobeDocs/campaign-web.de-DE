@@ -7,8 +7,8 @@ level: Beginner
 exl-id: d372713d-3024-46a1-b62e-f271b8ac829f
 source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
-source-wordcount: '644'
-ht-degree: 75%
+source-wordcount: '643'
+ht-degree: 99%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 75%
 >title="Erstellen von Testprofilen"
 >abstract="Testprofile sind zusätzliche Empfängerinnen und Empfänger, die Ihnen ermöglichen, die Personalisierung und das Rendern vor dem Nachrichtenversand in der Vorschau anzusehen und zu testen. Bei der Vorschau eines Nachrichteninhalts können Sie ein Testprofil auswählen und Testsendungen an die Testprofile durchführen, um den Nachrichteninhalt und die Einstellungen zu kontrollieren und zu validieren."
 
-Testprofile werden verwendet, um Testsendungen durchzuführen und den Inhalt und die Einstellungen Ihrer Nachricht zu validieren. Bei diesen Profilen handelt es sich um zusätzliche Empfängerinnen und Empfänger, mit denen Sie Personalisierung und Rendering vor dem Nachrichtenversand in der Vorschau ansehen und testen können. Sie können bei der Vorschau eines Nachrichteninhalts ein Testprofil auswählen und einen Testversand an die Testprofile durchführen, um den Inhalt und die Einstellungen Ihrer Nachricht zu steuern und zu validieren.
+Testprofile werden verwendet, um Testsendungen durchzuführen und den Inhalt sowie die Einstellungen Ihrer Nachricht zu validieren. Diese Profile stehen für zusätzliche Empfängerinnen und Empfänger, die Ihnen ermöglichen, vor dem Senden Ihrer Nachrichten die Personalisierung und das Rendern in der Vorschau anzusehen und zu testen. Bei der Vorschau eines Nachrichteninhalts können Sie ein Testprofil auswählen und Testsendungen an die Testprofile durchführen, um den Nachrichteninhalt und die Einstellungen zu kontrollieren und zu validieren.
 
 ➡️ [Entdecken Sie diese Funktion im Video](#video)
 
-<!--Learn more about test profiles in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html?lang=de){target="_blank"}.-->
+<!--Learn more about test profiles in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}.-->
 
 Informationen zum Versand von Testsendungen an Testprofile finden Sie in [diesem Abschnitt](../preview-test/test-deliveries.md#test-profiles).
 
@@ -35,19 +35,19 @@ Informationen zum Versand von Testsendungen an Testprofile finden Sie in [diesem
 
 ## Zugreifen auf und Verwalten von Testprofilen {#access-test-profiles}
 
-Um auf die Liste der Testprofile zuzugreifen, wählen Sie **[!UICONTROL Kundenverwaltung]** > **[!UICONTROL Profile]** aus dem linken Menü aus und klicken Sie auf die Registerkarte **[!UICONTROL Testprofile]**.
+Um auf die Testprofilliste zuzugreifen, wählen Sie im linken Menü die Option **[!UICONTROL Kunden-Management]** > **[!UICONTROL Profile]** aus und klicken Sie auf die Registerkarte **[!UICONTROL Testprofile]**.
 
-![Testprofil-Listenansicht](assets/test-profile-list.png){zoomable="yes"}
+![Ansicht einer Testprofilliste](assets/test-profile-list.png){zoomable="yes"}
 
 * Über die Dropdown-Liste können Sie nach einem bestimmten [Ordner](../get-started/permissions.md#folders) filtern oder mithilfe des [Abfrage-Modelers](../query/query-modeler-overview.md) Regeln hinzufügen.
 
-  ![Filter für Testprofillisten](assets/test-profile-list-filters.png){zoomable="yes"}
+  ![Filter einer Testprofilliste](assets/test-profile-list-filters.png){zoomable="yes"}
 
 * Sie können jedes Testprofil nach Bedarf duplizieren und aktualisieren. Die Schritte zum Bearbeiten eines Testprofils sind dieselben wie beim [Erstellen eines Testprofils](#create-test-profile).
 
 * Um ein Testprofil zu löschen, wählen Sie die entsprechende Option aus dem Menü **[!UICONTROL Mehr Aktionen]**.
 
-  ![Option „Testprofil löschen“](assets/test-profile-list-delete.png){zoomable="yes"}
+  ![Option zum Löschen eines Testprofils](assets/test-profile-list-delete.png){zoomable="yes"}
 
 * Klicken Sie auf das gewünschte Element in der Liste, um ein Testprofil zu bearbeiten. Die Schritte zum Bearbeiten eines Testprofils sind dieselben wie beim [Erstellen eines Testprofils](#create-test-profile).
 
@@ -57,7 +57,7 @@ Dort können Sie Ordner oder Unterordner durchsuchen, erstellen und verwalten so
 
 ![Ansicht der Testprofilordner](assets/test-profiles-folders.png){zoomable="yes"}
 
-In der **[!UICONTROL Explorer]** Ansicht können Sie auch Testprofile filtern, löschen, bearbeiten [ erstellen](#create-test-profile).
+In der Ansicht **[!UICONTROL Explorer]** können Sie Testprofile auch filtern, löschen, bearbeiten und [erstellen](#create-test-profile).
 
 ## Erstellen eines Testprofils {#create-test-profile}
 
@@ -68,7 +68,7 @@ In der **[!UICONTROL Explorer]** Ansicht können Sie auch Testprofile filtern, l
 
 Gehen Sie wie folgt vor, um ein Testprofil zu erstellen:
 
-1. Navigieren Sie zu **[!UICONTROL Kundenverwaltung]** > **[!UICONTROL Profile]** und wählen Sie die Registerkarte **[!UICONTROL Testprofile]** aus.
+1. Navigieren Sie zu **[!UICONTROL Kunden-Management]** > **[!UICONTROL Profile]** und wählen Sie die Registerkarte **[!UICONTROL Testprofile]** aus.
 
 1. Klicken Sie auf die Schaltfläche **[!UICONTROL Testprofil erstellen]**.
 
@@ -112,4 +112,4 @@ Das soeben erstellte Testprofil kann jetzt zur Durchführung einer Testsendung v
 
 Erfahren Sie, wie Sie mit der Campaign Web-Benutzeroberfläche Testprofile erstellen und verwalten.
 
->[!VIDEO](https://video.tv.adobe.com/v/3442904?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3442844?quality=12)

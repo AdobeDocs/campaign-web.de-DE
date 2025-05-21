@@ -6,18 +6,18 @@ exl-id: f9a365ac-c8be-423f-a99d-40ad5492223c
 source-git-commit: df5883f8178bc5287145c587b06dd5664400ed90
 workflow-type: tm+mt
 source-wordcount: '2192'
-ht-degree: 83%
+ht-degree: 96%
 
 ---
 
 
 # Bearbeiten von Ausdrücken {#expression}
 
-Die Bearbeitung von Ausdrücken erfolgt durch die manuelle Eingabe von Bedingungen, die in ihrer Gesamtheit eine Regel bilden. In diesem Modus können Sie erweiterte Funktionen verwenden, mit denen Sie die Werte bearbeiten können, die zur Durchführung bestimmter Abfragen verwendet werden, z. B. das Bearbeiten von Datumsangaben, Zeichenfolgen, numerischen Feldern und der Sortierung.
+Die Bearbeitung von Ausdrücken erfolgt durch die manuelle Eingabe von Bedingungen, die in ihrer Gesamtheit eine Regel bilden. Dieser Modus bietet erweiterte Funktionen, mit denen Sie die Werte zur Durchführung bestimmter Abfragen ändern können, z. B. Bearbeitung von Daten, Strings, numerischen Feldern und Sortierungen.
 
 >[!NOTE]
 >
->Im folgenden Abschnitt finden Sie Informationen zum Erstellen von Regeln mit dem Ausdruckseditor. Beachten Sie, dass sich die zum Erstellen von Regeln verwendete Syntax von der zum Hinzufügen der Personalisierung verwendeten unterscheidet.
+>Im folgenden Abschnitt finden Sie Informationen zum Erstellen von Regeln mit dem Ausdruckseditor. Beachten Sie, dass sich die zum Erstellen von Regeln verwendete Syntax von der für die Personalisierung verwendeten unterscheidet.
 
 >[!IMPORTANT]
 >
@@ -34,8 +34,8 @@ Der Ausdruckseditor steht bei der Konfiguration einer benutzerdefinierten Beding
 
 Der Ausdruckseditor bietet Folgendes:
 
-* Ein **Eingabefeld (1)** in dem der Ausdruck definiert ist.
-* Eine Liste der verfügbaren **Felder (2**, die im Ausdruck verwendet werden können und der Zielgruppendimension der Abfrage entsprechen.
+* ein **Eingabefeld (1)**, in dem der Ausdruck definiert wird,
+* eine Liste der verfügbaren **Felder (2)**, die im Ausdruck verwendet werden können und die der Zielgruppendimension der Abfrage entsprechen,
 * **Hilfsfunktionen (3)**, sortiert nach Kategorie.
 
 Bearbeiten Sie den Ausdruck, indem Sie ihn direkt in das Eingabefeld eingeben. Um ein Feld oder eine Hilfsfunktion hinzuzufügen, gehen Sie mit dem Cursor zu dem Ausdruck, zu dem Sie es/sie hinzufügen möchten, und klicken Sie auf die Schaltfläche „+“.
@@ -44,17 +44,17 @@ Bearbeiten Sie den Ausdruck, indem Sie ihn direkt in das Eingabefeld eingeben. U
 
 Wenn Ihr Ausdruck fertig ist, klicken Sie auf **[!UICONTROL Bestätigen]**. Der Ausdruck wird im ausgewählten Feld angezeigt. Öffnen Sie zum Bearbeiten den Ausdruckseditor und nehmen Sie die gewünschten Änderungen vor.
 
-Das folgende Beispiel zeigt einen für das Feld **[!UICONTROL Wert]** konfigurierten Ausdruck. Um ihn zu bearbeiten, öffnen Sie den Ausdruckseditor mithilfe der Schaltfläche **[!UICONTROL Ausdruck bearbeiten]**.
+Das folgende Beispiel zeigt einen für das Feld **[!UICONTROL Wert]** konfigurierten Ausdruck. Um ihn zu bearbeiten, öffnen Sie den Ausdruckseditor über die Schaltfläche **[!UICONTROL Ausdruck bearbeiten]**.
 
 >[!BEGINTABS]
 
 >[!TAB Klassischer Abfrage-Modellierer]
 
-![Beispiel für die Bearbeitung eines Ausdrucks für ein Wertfeld](assets/edit-expression-value.png){zoomable="yes"}
+![Beispiel für die Bearbeitung eines Ausdrucks für ein Wertefeld](assets/edit-expression-value.png){zoomable="yes"}
 
 >[!TAB Neuer Regel-Builder]
 
-![Beispiel für die Bearbeitung eines Ausdrucks für ein Wertfeld](assets/ruleb-12.png){zoomable="yes"}
+![Beispiel für die Bearbeitung eines Ausdrucks für ein Wertefeld](assets/ruleb-12.png){zoomable="yes"}
 
 >[!ENDTABS]
 
@@ -64,7 +64,7 @@ Der Abfrageeditor bietet fortgeschrittene Funktionen zur Erstellung komplexer Fi
 
 ### Aggregat
 
-Aggregatfunktionen führen Berechnungen für einen Wertesatz durch.
+Aggregatfunktionen führen Berechnungen für eine Reihe von Werten durch.
 
 <table>
 <tbody>
@@ -100,12 +100,12 @@ Aggregatfunktionen führen Berechnungen für einen Wertesatz durch.
 </tr>
 <tr>
 <td><strong>Min</strong></td>
-<td>Gibt den Mindestwert einer Spalte vom Typ Zahl, Zeichenfolge oder Datum zurück.</td>
+<td>Gibt den Mindestwert einer Spalte vom Typ Zahl, String oder Datum aus</td>
 <td>Min(&lt;Wert&gt;)</td>
 </tr>
 <tr>
 <td><strong>StdDev</strong></td>
-<td>Gibt die Standardabweichung einer Zahl, Zeichenfolge oder Datumsspalte zurück.</td>
+<td>Gibt die Standardabweichung einer Spalte vom Typ Zahl, String oder Datum aus</td>
 <td>StdDev(&lt;Wert&gt;)</td>
 </tr>
 <tr>
@@ -123,7 +123,7 @@ Aggregatfunktionen führen Berechnungen für einen Wertesatz durch.
 
 ### Datum
 
-Datumsfunktionen bearbeiten Datums- oder Zeitwerte.
+Datumsfunktionen dienen zur Bearbeitung von Datums- oder Zeitwerten.
 
 <table>
 <tbody>
@@ -164,13 +164,13 @@ Datumsfunktionen bearbeiten Datums- oder Zeitwerte.
 </tr>
 <tr>
 <td><strong>ConvertNTZ</strong></td>
-<td>Konvertiert Zeitstempel NTZ (Zeitstempel ohne Zeitzone) in TZ (Zeitstempel mit Zeitzone) unter Anwendung der definierten Sitzungs-TZ</td>
-<td>ConvertNTZ(&lt;date+time&gt;)</td>
+<td>Konvertiert NTZ-Zeitstempel (Zeitstempel ohne Zeitzone) in TZ (Zeitstempel mit Zeitzone) unter Anwendung der definierten Sitzungszeitzone</td>
+<td>ConvertNTZ(&lt;Datum+Zeit&gt;)</td>
 </tr>
 <tr>
 <td><strong>DateCmp</strong></td>
 <td>Vergleicht zwei Daten</td>
-<td>DateCmp(&lt;date&gt;, &lt;date&gt;)</td>
+<td>DateCmp(&lt;Datum&gt;, &lt;Datum&gt;)</td>
 </tr>
 <tr>
 <td><strong>DateOnly</strong></td>
@@ -199,7 +199,7 @@ Datumsfunktionen bearbeiten Datums- oder Zeitwerte.
 </tr>
 <tr>
 <td><strong>DaysDiff</strong></td>
-<td>Gibt die Anzahl von Tagen zwischen zwei Datumsangaben zurück.</td>
+<td>Gibt die Anzahl von Tagen zwischen zwei Daten aus</td>
 <td>DaysDiff(&lt;Enddatum&gt;, &lt;Startdatum&gt;)</td>
 </tr>
 <tr>
@@ -253,9 +253,9 @@ Datumsfunktionen bearbeiten Datums- oder Zeitwerte.
 <td>MonthsOld(&lt;Datum&gt;)</td>
 </tr>
 <tr>
-<td><strong>Älteste</strong></td>
-<td>Gibt das älteste Datum in einem Bereich zurück.</td>
-<td>Oldest(&lt;date, date&gt;)</td>
+<td><strong>Oldest</strong></td>
+<td>Gibt das älteste Datum in einem Bereich zurück</td>
+<td>Oldest(&lt;Datum, Datum&gt;)</td>
 </tr>
 <tr>
 <td><strong>Second</strong></td>
@@ -309,17 +309,17 @@ Datumsfunktionen bearbeiten Datums- oder Zeitwerte.
 </tr>
 <tr>
 <td><strong>ToTimestamp</strong></td>
-<td>Konvertiert eine Zeichenfolge in einen Zeitstempel</td>
-<td>ToTimestamp(&lt;string&gt;)</td>
+<td>Konvertiert einen String in einen Zeitstempel</td>
+<td>ToTimestamp(&lt;String&gt;)</td>
 </tr>
 <tr>
 <td><strong>ToTimeZone</strong></td>
-<td>Konvertiert ein Datum + eine Uhrzeit in eine Zeitzone.</td>
-<td>ToTimeZone(&lt;date&gt;, &lt;time zone&gt;)</td>
+<td>Konvertiert Datum und Uhrzeit in eine Zeitzone</td>
+<td>ToTimeZone(&lt;Datum&gt;, &lt;time zone&gt;)</td>
 </tr>
 <tr>
 <td><strong>TruncDate</strong></td>
-<td>Rundet ein Datum + eine Uhrzeit auf die nächste Sekunde</td>
+<td>Kürzt die Angabe des Datums und der Uhrzeit auf Sekunden</td>
 <td>TruncDate(@lastModified, &lt;Anzahl Sekunden&gt;)</td>
 </tr>
 <tr>
@@ -338,7 +338,7 @@ Datumsfunktionen bearbeiten Datums- oder Zeitwerte.
 <td>TruncTime(&lt;Datum&gt;, &lt;Anzahl Sekunden&gt;)</td>
 </tr>
 <tr>
-<td><strong>WeekDay</strong></td>
+<td><strong>TruncWeek</strong></td>
 <td>Kürzt ein Datum auf die Woche</td>
 <td>TruncWeek(&lt;Datum&gt;)</td>
 </tr>
@@ -348,7 +348,7 @@ Datumsfunktionen bearbeiten Datums- oder Zeitwerte.
 <td>TruncYear(&lt;Datum&gt;)</td>
 </tr>
 <tr>
-<td><strong>Wochentag</strong></td>
+<td><strong>WeekDay</strong></td>
 <td>Gibt die Zahl des Wochentages in Bezug auf das Datum aus (0=Montag, 6=Sonntag).</td>
 <td>WeekDay(&lt;Datum&gt;)</td>
 </tr>
@@ -358,18 +358,18 @@ Datumsfunktionen bearbeiten Datums- oder Zeitwerte.
 <td>Year(&lt;Datum&gt;)</td>
 </tr>
 <tr>
-<td><strong>Jahr und Monat</strong></td>
+<td><strong>YearAndMonth</strong></td>
 <td>Gibt Jahr und Monat eines Datums aus</td>
 <td>YearAndMonth(&lt;Datum&gt;)</td>
 </tr>
 <tr>
-<td><strong>vor Jahren</strong></td>
-<td>Gibt die Anzahl der Jahre zwischen einem bestimmten Datum und dem aktuellen Datum zurück.</td>
-<td>Vor Jahren(&lt;date&gt;)</td>
+<td><strong>YearsAgo</strong></td>
+<td>Gibt die Anzahl von Jahren zwischen einem bestimmten Datum und dem aktuellen Datum aus</td>
+<td>YearsAgo(&lt;Datum&gt;)</td>
 </tr>
 <tr>
 <td><strong>YearsDiff</strong></td>
-<td>Gibt die Anzahl der Jahre zwischen zwei Datumsangaben zurück.</td>
+<td>Gibt die Anzahl von Jahren zwischen zwei Daten aus</td>
 <td>YearsDiff(&lt;Enddatum&gt;, &lt;Startdatum&gt;)</td>
 </tr>
 <tr>
@@ -382,7 +382,7 @@ Datumsfunktionen bearbeiten Datums- oder Zeitwerte.
 
 >[!NOTE]
 >
->Beachten Sie, **die Funktion** dateOnly) die Zeitzone des Servers berücksichtigt, nicht die des Operators.
+>Beachten Sie, dass die Funktion **DateOnly** nicht die Zeitzone der bzw. des Benutzenden, sondern des Servers verwendet.
 
 
 ### Geomarketing

@@ -7,7 +7,7 @@ exl-id: d4d2c6bb-7fd0-49a0-9d73-356f4a24f021
 source-git-commit: 61078f86bcd433b1bc3a995489f283eb709b3687
 workflow-type: tm+mt
 source-wordcount: '1275'
-ht-degree: 17%
+ht-degree: 31%
 
 ---
 
@@ -15,37 +15,37 @@ ht-degree: 17%
 
 >[!AVAILABILITY]
 >
->Diese Funktion wird als private Betaversion veröffentlicht. Sie wird in kommenden Versionen schrittweise für alle Kunden verfügbar sein.
+>Diese Funktion wird als private Betaversion veröffentlicht. Sie wird in zukünftigen Versionen nach und nach allen Kundinnen und Kunden zur Verfügung stehen.
 
 Markenrichtlinien sind ein umfassender Satz von Regeln und Standards, die die visuelle und verbale Identität einer Marke definieren. Sie dienen als Referenz, um eine konsistente Markendarstellung auf allen Marketing- und Kommunikationskanälen sicherzustellen.
 
-In [!DNL Adobe Campaign Web] können Benutzer Markeninformationen manuell eingeben und organisieren oder Dokumente zu Markenrichtlinien hochladen, um die Daten automatisch zu extrahieren.
+In [!DNL Adobe Campaign Web] können Benutzende Markeninformationen manuell eingeben und organisieren oder Dokumente zu Markenrichtlinien hochladen, um die Daten automatisch zu extrahieren.
 
 ## Zugriff auf Marken {#generative-access}
 
-Um auf das Menü **[!UICONTROL Marken]** in [!DNL Adobe Campaign Web] zugreifen zu können, müssen Benutzenden die Produktprofile **[!UICONTROL Administrator (]**) und **[!UICONTROL Brand Kit]** zugewiesen werden, um Marken zu erstellen und zu verwalten. Für den schreibgeschützten Zugriff benötigen Benutzende das Produktprofil [!UICONTROL KI]Assistent“.
+Für den Zugriff auf das Menü **[!UICONTROL Marken]** in [!DNL Adobe Campaign Web] müssen Benutzenden die Produktprofile **[!UICONTROL Administrator (admin)]** und **[!UICONTROL Marken-Kit]** zugewiesen werden, damit sie Marken erstellen und verwalten können. Für den schreibgeschützten Zugriff benötigen Benutzende das Produktprofil [!UICONTROL KI-Assistent].
 
 [Weitere Informationen](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/admin/permissions/manage-permissions)
 
-+++ Erfahren Sie, wie Sie markenbezogene Berechtigungen zuweisen
++++ Erfahren Sie, wie Sie markenbezogene Berechtigungen zuweisen.
 
 1. Greifen Sie auf der Startseite der [Admin Console](https://adminconsole.adobe.com/enterprise) auf Ihr Campaign-Produkt zu.
 
-   ![Admin Console-Startseite mit Campaign-Produktzugriff](assets/brands_admin_1.png)
+   ![Startseite der Admin Console mit Zugriff auf das Campaign-Produkt](assets/brands_admin_1.png)
 
-1. Wählen Sie die **[!DNL Product profile]** basierend auf der Berechtigungsstufe aus, die Sie Ihrem Benutzer gewähren möchten.
+1. Wählen Sie das **[!DNL Product profile]** basierend auf der Berechtigungsstufe aus, die Sie Ihrer Benutzerin oder Ihrem Benutzer gewähren möchten.
 
-   ![Produktprofilauswahl in Admin Console](assets/brands_admin_2.png)
+   ![Auswahl des Produktprofils in der Admin Console](assets/brands_admin_2.png)
 
 1. Klicken Sie zum Zuweisen des ausgewählten Produktprofils auf **[!DNL Add users]**.
 
-   ![Option „Benutzer hinzufügen“ in Admin Console](assets/brands_admin_3.png)
+   ![Option „Benutzer hinzufügen“ in der Admin Console](assets/brands_admin_3.png)
 
-1. Geben Sie den Namen, die Benutzergruppe oder die E-Mail-Adresse Ihres Benutzers ein.
+1. Geben Sie den Namen, die Benutzergruppe oder die E-Mail-Adresse der Benutzerin oder des Benutzers ein.
 
 1. Klicken Sie zum Anwenden der Änderungen auf **Speichern**.
 
-Die Berechtigungen von Benutzenden, die dieser Rolle bereits zugewiesen sind, werden automatisch aktualisiert.
+Für alle Benutzenden, die dieser Rolle bereits zugewiesen sind, werden die Berechtigungen automatisch aktualisiert.
 
 +++
 
@@ -53,7 +53,7 @@ Die Berechtigungen von Benutzenden, die dieser Rolle bereits zugewiesen sind, we
 
 Gehen Sie wie folgt vor, um Ihre Markenrichtlinien zu erstellen und zu verwalten:
 
-Benutzer können die Details entweder manuell eingeben oder ein Dokument mit Markenrichtlinien hochladen, um die Informationen automatisch zu extrahieren:
+Benutzende können die Details entweder manuell eingeben oder ein Dokument mit den Markenrichtlinien hochladen, damit die Informationen automatisch extrahiert werden:
 
 1. Klicken Sie im Menü **[!UICONTROL Marken]** auf **[!UICONTROL Marke erstellen]**.
 
@@ -99,7 +99,7 @@ Benutzer können die Details entweder manuell eingeben oder ein Dokument mit Mar
 
 Ihre Markenrichtlinien sind jetzt über die Dropdown-Liste **[!UICONTROL Marke]** im Menü KI-Assistent verfügbar. Dadurch kann der KI-Assistent Inhalte und Assets generieren, die mit Ihren Spezifikationen übereinstimmen. [Weitere Informationen zum KI-Assistenten](../email/generative-gs.md)
 
-![KI-Assistenten-Menü mit Dropdown-Liste „Marke“](assets/brands_6.png)
+![Menü des KI-Assistenten mit Dropdown-Liste „Marke“](assets/brands_6.png)
 
 ### Festlegen einer Standardmarke {#default-brand}
 
@@ -252,7 +252,7 @@ So personalisieren Sie **[!UICONTROL Schreibstil]**:
 
 1. Wählen Sie eine der Richtlinien oder einen Ausschluss aus, die aktualisiert oder gelöscht werden sollen.
 
-1. Klicken Sie auf ![ALT-Text/] (assets/do-not-localize/Smock_Edit_18_N.svg "), ") Ihr Beispiel zu bearbeiten, oder auf das ![Alternativtext für Tauchbild](assets/do-not-localize/Smock_Delete_18_N.svg "Löschen")Symbol, um es zu löschen.
+1. Klicken Sie auf ![ALT-Text/](assets/do-not-localize/Smock_Edit_18_N.svg "), ") Ihr Beispiel zu bearbeiten, oder auf das ![Alternativtext für Tauchbild](assets/do-not-localize/Smock_Delete_18_N.svg "Löschen")Symbol, um es zu löschen.
 
    ![](assets/brands-11.png)
 

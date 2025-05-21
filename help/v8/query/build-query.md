@@ -3,17 +3,17 @@ audience: end-user
 title: Erstellen Ihrer erste Abfrage mithilfe des Abfrage-Modelers
 description: Erfahren Sie, wie Sie Ihre erste Abfrage im Abfrage-Modeler in Adobe Campaign Web erstellen.
 exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
-source-git-commit: df5883f8178bc5287145c587b06dd5664400ed90
+source-git-commit: c54f56620570ba9520dc9fc11410d3628641d0a5
 workflow-type: tm+mt
 source-wordcount: '2780'
-ht-degree: 62%
+ht-degree: 85%
 
 ---
 
 
 # Erstellen Ihrer ersten Abfrage {#build-query}
 
-Um mit der Erstellung einer Abfrage zu beginnen, greifen Sie je nach der Aktion, die Sie ausführen wollen, vom gewünschten Speicherort aus auf den Abfrage-Modeler zu. Der Abfrage-Modellierer wird mit einer leeren Arbeitsfläche geöffnet. Klicken Sie auf die Schaltfläche **+**, um den ersten Knoten der Abfrage zu konfigurieren.
+Um mit der Erstellung einer Abfrage zu beginnen, greifen Sie je nach der Aktion, die Sie ausführen wollen, vom gewünschten Speicherort aus auf den Abfrage-Modeler zu. Der Abfrage-Modeler wird mit einer leeren Arbeitsfläche geöffnet. Klicken Sie auf die Schaltfläche **+**, um den ersten Knoten der Abfrage zu konfigurieren.
 
 >[!IMPORTANT]
 >
@@ -22,26 +22,26 @@ Um mit der Erstellung einer Abfrage zu beginnen, greifen Sie je nach der Aktion,
 
 Sie können zwei Elementtypen hinzufügen:
 
-* **Filterkomponenten** (benutzerdefinierte Bedingung, Zielgruppe auswählen, vordefinierter Filter) ermöglichen es Ihnen, eigene Regeln zu erstellen, eine Zielgruppe auszuwählen oder einen vordefinierten Filter zu verwenden, um Ihre Abfrage zu verfeinern. Sie werden zu Beginn Ihrer Abfrage und bei gepunkteten Transitionen hinzugefügt. [Erfahren Sie, wie Sie mit Filterkomponenten arbeiten können](#filtering)
+* **Filterkomponenten** („Benutzerdefinierte Bedingung“, „Zielgruppe auswählen“, „Vordefinierter Filter“) ermöglichen es Ihnen, eigene Regeln zu erstellen, eine Zielgruppe auszuwählen oder Ihre Abfrage mit einem vordefinierten Filter zu verfeinern. Sie werden zu Beginn Ihrer Abfrage und bei gepunkteten Transitionen hinzugefügt. [Erfahren Sie, wie Sie mit Filterkomponenten arbeiten können](#filtering)
 
-  Beispiel: *Empfänger, die den Newsletter „Sport“ abonniert haben*, *Empfänger in New York*, *Empfänger in San Francisco*
+  Beispiel: *Empfängerinnen und Empfänger, die den Newsletter „Sport“ abonniert haben*, *Empfängerinnen und Empfänger, die in New York leben*, *Empfängerinnen und Empfänger, die in San Francisco leben*
 
 >[!BEGINTABS]
 
 >[!TAB Klassischer Abfrage-Modellierer]
 
-![Beispiel für das Hinzufügen von Filterkomponenten zu einer Abfrage.](assets/query-add-component.png){zoomable="yes"}
+![Beispiel für das Hinzufügen von Filterkomponenten zu einer Abfrage](assets/query-add-component.png){zoomable="yes"}
 
 
 >[!TAB Neuer Regel-Builder]
 
-![Beispiel für das Hinzufügen von Filterkomponenten zu einer Abfrage.](assets/ruleb-1.png){zoomable="yes"}
+![Beispiel für das Hinzufügen von Filterkomponenten zu einer Abfrage](assets/ruleb-1.png){zoomable="yes"}
 
 >[!ENDTABS]
 
 
 
-* Mit **Gruppenoperatoren** (AND, OR, EXCEPT) können Sie Filterkomponenten im Diagramm gruppieren. Sie werden bei vorhandenen Transitionen vor einer Filterkomponente hinzugefügt. [Erfahren Sie, wie man mit Operatoren arbeitet](#filtering)
+* **Gruppenoperatoren** (UND, ODER, AUSSER) ermöglichen es Ihnen, Filterkomponenten im Diagramm zu gruppieren. Sie werden bei vorhandenen Transitionen vor einer Filterkomponente hinzugefügt. [Erfahren Sie, wie man mit Operatoren arbeitet](#filtering)
 
   Beispiel: *Empfänger, die Super VIP **AND** VIP sind, um **OR** VIP Demo zu belohnen, **EXCEPT** Empfänger unter 21 Jahren und über 45 Jahren.
 
@@ -49,28 +49,28 @@ Sie können zwei Elementtypen hinzufügen:
 
 >[!TAB Klassischer Abfrage-Modellierer]
 
-![Beschreibung: Beispiel für das Hinzufügen von Gruppenoperatoren zu einer Abfrage.](assets/ruleb-13.png){zoomable="yes"}
+![Beschreibung: Beispiel für das Hinzufügen von Gruppenoperatoren zu einer Abfrage](assets/ruleb-13.png){zoomable="yes"}
 
 >[!TAB Neuer Regel-Builder]
 
-![Beispiel für das Hinzufügen von Filterkomponenten zu einer Abfrage.](assets/ruleb-14.png){zoomable="yes"}
+![Beispiel für das Hinzufügen von Filterkomponenten zu einer Abfrage](assets/ruleb-14.png){zoomable="yes"}
 
 >[!ENDTABS]
 
 
 ## Werteverteilung in einer Abfrage {#distribution-values-query}
 
-Die Werteverteilung zeigt den Prozentsatz jedes Werts eines Felds in einer Tabelle auf der Grundlage der aktuellen Abfrageparameter an. Die Kenntnis der Werteverteilung innerhalb einer Abfrage hilft, die Segmentierung zu verfeinern.
+Die Werteverteilung zeigt den Prozentsatz der einzelnen Werte eines Felds innerhalb einer Tabelle basierend auf den aktuellen Abfrageparametern an. Kenntnisse über die Werteverteilung in einer Abfrage können dabei helfen, die Segmentierung zu verfeinern.
 
 Um auf diese Option zuzugreifen, klicken Sie in Ihrer Abfrage auf die Schaltfläche zur Attributauswahl, wie unten dargestellt. Klicken Sie dann auf das Symbol **[!UICONTROL Informationen]** neben dem ausgewählten Attribut. Sie können auf die Schaltfläche **[!UICONTROL Werteverteilung]** zugreifen.
 
-![Beschreibung: Zugriff auf die Option „Werteverteilung“ in einer Abfrage.](assets/values_query.png){zoomable="yes"}
+![Beschreibung: Zugreifen auf die Option „Werteverteilung“ in einer Abfrage](assets/values_query.png){zoomable="yes"}
 
 >[!NOTE]
 >
->* Bei Feldern mit vielen Werten werden nur die ersten zwanzig Werte angezeigt. In solchen Fällen werden Sie von einer Benachrichtigung **[!UICONTROL Teillast]** gewarnt.
+>* Bei Feldern mit vielen Werten werden nur die ersten zwanzig Werte angezeigt. In solchen Fällen werden Sie durch die Benachrichtigung **[!UICONTROL Teilweise geladen]** gewarnt.
 >* Die Option **[!UICONTROL Werteverteilung]** ist in jeder Attributauswahl verfügbar. [Erfahren Sie, wie Sie Attribute auswählen](../get-started/attributes.md)
->* Mithilfe der **[ !Aerweiterten Filter]** können Sie Bedingungen zu den Ergebnissen hinzufügen. [Weitere Informationen finden Sie hier](../get-started/work-with-folders.md#filter-the-values).
+>* Mithilfe der **[!Aerweiterten Filter]** können Sie Bedingungen zu den Ergebnissen hinzufügen. [Weitere Informationen finden Sie hier](../get-started/work-with-folders.md#filter-the-values).
 
 ## Hinzufügen von Filterkomponenten {#filtering}
 
@@ -89,15 +89,15 @@ Filterkomponenten ermöglichen es Ihnen, eine Abfrage mithilfe von folgenden Fil
 
 Gehen Sie wie folgt vor, um Ihre Abfrage mit einer benutzerdefinierten Bedingung zu filtern:
 
-1. Klicken Sie auf die Schaltfläche **+** auf dem gewünschten Knoten und wählen Sie **[!UICONTROL Benutzerdefinierte Bedingung]** aus. Der Eigenschaftenbereich für benutzerdefinierte Bedingungen wird auf der rechten Seite geöffnet.
+1. Klicken Sie auf die Schaltfläche **+** auf dem gewünschten Knoten und wählen Sie **[!UICONTROL Benutzerdefinierte Bedingung]** aus. Der Bereich mit den benutzerdefinierten Bedingungseigenschaften wird auf der rechten Seite geöffnet.
 
-1. Wählen Sie **Feld „Attribut** das Attribut aus der Datenbank aus, das Sie zum Erstellen Ihrer Bedingung verwenden möchten. Die Attributliste enthält alle Attribute aus Ihrer Campaign-Datenbank, einschließlich der Attribute aus verknüpften Tabellen. [Erfahren Sie, wie Sie Attribute auswählen und zu den Favoriten hinzufügen](../get-started/attributes.md)
+1. Wählen Sie im Feld **Attribut** das Attribut aus der Datenbank aus, das Sie zum Erstellen Ihrer Bedingung verwenden möchten. Die Attributliste enthält alle Attribute aus Ihrer Kampagnen-Datenbank, einschließlich Attributen aus verknüpften Tabellen. [Erfahren Sie, wie Sie Attribute auswählen und zu den Favoriten hinzufügen](../get-started/attributes.md)
 
-   ![Auswählen von Attributen für eine benutzerdefinierte Bedingung in einer Abfrage.](assets/query-custom-condition-fields.png){zoomable="yes"}
+   ![Auswählen von Attributen für eine benutzerdefinierte Bedingung in einer Abfrage](assets/query-custom-condition-fields.png){zoomable="yes"}
 
    >[!NOTE]
    >
-   >Mit der Schaltfläche **Ausdruck bearbeiten** können Sie den Ausdruckseditor von Campaign Web verwenden, um einen Ausdruck manuell mithilfe von Feldern aus der Datenbank und Hilfsfunktionen zu definieren. [Erfahren Sie, wie Sie Ausdrücke bearbeiten](expression-editor.md)
+   >Über die Schaltfläche **Ausdruck bearbeiten** können Sie den Campaign Web-Ausdruckseditor starten, um einen Ausdruck mithilfe von Datenbankfeldern und Hilfsfunktionen manuell festzulegen. [Erfahren Sie, wie Sie Ausdrücke bearbeiten](expression-editor.md)
 
 1. Wählen Sie in der Dropdown-Liste den anzuwendenden Operator aus. Es stehen verschiedene Operatoren zur Verfügung. Beachten Sie, dass die in der Dropdown-Liste verfügbaren Operatoren vom Datentyp des Attributs abhängen.
 
@@ -105,26 +105,26 @@ Gehen Sie wie folgt vor, um Ihre Abfrage mit einer benutzerdefinierten Bedingung
 
    | Operator | Zweck | Beispiel |
    |---|---|---|
-   | Gleich | Die zurückgegebenen Daten stimmen vollständig mit dem in der zweiten Spalte angegebenen Wert überein. | Nachname (@lastName) gleich „Jones“ gibt nur Empfänger zurück, deren Nachname Jones ist. |
-   | Ungleich | Die ausgegebenen Daten unterscheiden sich vom angegebenen Wert. | Sprache (@language) ist ungleich &#39;Englisch&#39;. |
-   | Größer als | Die ausgegebenen Daten übersteigen den angegebenen Wert. | Alter (@age) größer als 50 gibt alle Werte größer als „50“ zurück, z. B. „51“, „52“. |
-   | Kleiner als | Der ausgegebene Wert unterschreitet den eingegebenen Wert. | Erstellungsdatum (@created) vor &#39;DaysAgo(100)&#39; gibt alle Empfänger zurück, die vor weniger als 100 Tagen erstellt wurden. |
-   | Größer als oder gleich | Die ausgegebenen Daten sind identisch mit oder übersteigen den angegebenen Wert. | Alter (@age) größer oder gleich „30“ gibt alle Empfänger ab 30 zurück. |
-   | Kleiner als oder gleich | Die ausgegebenen Daten sind identisch mit oder unterschreiten den angegebenen Wert. | Mit Alter (@age) kleiner oder gleich „60“ werden alle Empfänger mit einem Alter von 60 Jahren oder jünger zurückgegeben. |
-   | Eingeschlossen in | Die ausgegebenen Daten sind in den angegebenen Werten enthalten. Diese Werte müssen durch ein Komma getrennt werden. | Das Geburtsdatum (@birthDate) ist in &#39;12/10/1979,12/10/1984&#39; enthalten und gibt die Empfänger zurück, die zwischen diesen Daten geboren wurden. |
-   | Ist nicht enthalten in | Funktioniert wie der Operator Ist enthalten in . Hier werden Empfänger anhand der eingegebenen Werte ausgeschlossen. | Das Geburtsdatum (@birthDate) ist nicht in &#39;12/10/1979,12/10/1984&#39; enthalten. Empfänger, die innerhalb dieser Daten geboren wurden, werden nicht zurückgegeben. |
-   | Ist leer | Gibt Ergebnisse zurück, die einem leeren Wert in der zweiten Spalte Wert entsprechen. | „Mobiltelefon (@mobilePhone) ist leer“ gibt alle Empfängerinnen und Empfänger zurück, die keine Mobiltelefonnummer haben. |
+   | Gleich | Die zurückgegebenen Daten stimmen vollständig mit dem in der zweiten Spalte angegebenen Wert überein. | „Nachname (@lastName) gleich ‚Müller‘“ gibt nur die Empfängerinnen und Empfänger mit dem Nachnamen „Müller“ unter Beachtung der genauen Schreibung aus. |
+   | Ungleich | Die ausgegebenen Daten unterscheiden sich vom angegebenen Wert. | Sprache (@language) ungleich „Englisch“. |
+   | Größer als | Die ausgegebenen Daten übersteigen den angegebenen Wert. | „Alter (@age) größer als 50“ gibt alle Werte von mehr als 50 Jahren aus (also „51“, „52“ usw.). |
+   | Kleiner als | Der ausgegebene Wert unterschreitet den eingegebenen Wert. | „Erstellungsdatum (@created) kleiner als ‚DaysAgo(100)‘“ gibt alle Empfängerinnen und Empfänger aus, die vor weniger als 100 Tagen angelegt wurden. |
+   | Größer als oder gleich | Die ausgegebenen Daten sind identisch mit oder übersteigen den angegebenen Wert. | „Alter (@age) größer oder gleich ‚30‘“ gibt alle Empfängerinnen und Empfänger ab 30 Jahren aus. |
+   | Kleiner als oder gleich | Die ausgegebenen Daten sind identisch mit oder unterschreiten den angegebenen Wert. | „Alter (@age) kleiner oder gleich ‚60‘“ gibt alle Empfängerinnen und Empfänger bis 60 Jahren aus. |
+   | Eingeschlossen in | Die ausgegebenen Daten sind in den angegebenen Werten enthalten. Die Werte müssen durch Kommata getrennt werden. | „Geburtsdatum (@birthDate) ist enthalten in ‚10.12.1979,10.12.1984‘“ gibt die Empfängerinnen und Empfänger aus, die zwischen diesen beiden Daten geboren wurden. |
+   | Ist nicht enthalten in | Negative Form des Operators „ist enthalten in“. Hier werden Empfängerinnen und Empfänger anhand der eingegebenen Werte ausgeschlossen. | Das Geburtsdatum (@birthDate) ist nicht in &#39;12/10/1979,12/10/1984&#39; enthalten. Empfängerinnen und Empfänger, die innerhalb dieses Datumsbereichs geboren wurden, werden nicht ausgegeben. |
+   | Ist leer | Die ausgegebenen Daten stimmen mit einem leeren Wert in der zweiten Spalte überein. | „Mobiltelefon (@mobilePhone) ist leer“ gibt alle Empfängerinnen und Empfänger zurück, die keine Mobiltelefonnummer haben. |
    | Ist nicht leer | Negative Form des Operators „Ist leer“. Es ist nicht nötig, Daten in die zweite Wert-Spalte einzugeben. | E-Mail (@email) ist nicht leer. |
-   | Beginnt mit | Gibt Ergebnisse zurück, die mit dem eingegebenen Wert beginnen. | Kundennummer (@account) beginnt mit &#39;32010&#39;. |
-   | Beginnt nicht mit | Gibt Ergebnisse zurück, die nicht mit dem eingegebenen Wert beginnen. | Konto # (@account) beginnt nicht mit „20“. |
-   | Enthält | Gibt Ergebnisse zurück, die mindestens den eingegebenen Wert enthalten. | E-Mail-Domain (@domain) enthält „mail“. Gibt alle Domain-Namen zurück, die „mail“ enthalten, z. B. „gmail.com“. |
-   | Enthält nicht | Die ausgegebenen Daten enthalten den angegebenen Wert nicht. | E-Mail-Domain (@domain) enthält nicht „vo“. Domänennamen, die „vo“ enthalten, wie z. B. „voila.fr“, werden nicht in den Ergebnissen angezeigt. |
-   | Ist wie | Ähnlich wie beim Operator „Enthält“ können Sie damit ein Platzhalterzeichen % in den Wert einfügen. | Nachname (@lastName) ist wie &#39;Me%er&#39;. Das Platzhalterzeichen dient als „Joker“, um Namen wie „Jones“ zu finden. |
-   | Ist nicht wie | Ähnlich wie beim Operator „Enthält“ können Sie damit ein Platzhalterzeichen % in den Wert einfügen. | Nachname (@lastName) nicht wie „Schmi%t“. Empfänger mit dem Nachnamen „Smith“ werden nicht zurückgegeben. |
+   | Beginnt mit | Die ausgegebenen Daten beginnen mit dem angegebenen Wert. | Kundennummer (@account) beginnt mit &#39;32010&#39;. |
+   | Beginnt nicht mit | Die ausgegebenen Daten beginnen nicht mit dem angegebenen Wert. | Kundennummer (@account) beginnt nicht mit „20“. |
+   | Enthält | Die ausgegebenen Daten enthalten den angegebenen Wert. | „E-Mail-Domain (@domain) enthält ‚mail‘“ gibt nur Domain-Namen aus, die den Wert „mail“, z. B. „gmail.com“, enthalten. |
+   | Enthält nicht | Die ausgegebenen Daten enthalten den angegebenen Wert nicht. | E-Mail-Domain (@domain) enthält nicht „vo“. Domain-Namen, die „vo“ enthalten, z. B. „voila.fr“, werden nicht in den Ergebnissen angezeigt. |
+   | Ist wie | Dieser Operator ähnelt „Enthält“ und erlaubt das Einfügen des Platzhalters „%“ im Wert. | Nachname (@lastName) ist wie &#39;Me%er&#39;. Das Platzhalterzeichen dient als „Joker“, um Namen wie „Meier“ zu finden. |
+   | Ist nicht wie | Dieser Operator ähnelt „Enthält“ und erlaubt das Einfügen des Platzhalters „%“ im Wert. | Nachname (@lastName) nicht wie „Schmi%t“. Empfängerinnen und Empfänger, deren Nachname „Schmi%t“ lautet, also etwa „Schmidt“ oder „Schmitt“, werden nicht ausgegeben. |
 
-   +++
++++
 
-1. Legen Sie im Feld **Wert** den erwarteten Wert fest. Sie können auch den Web-Ausdruckseditor von Campaign verwenden, um einen Ausdruck manuell mithilfe von Feldern aus der Datenbank und Hilfsfunktionen zu definieren. Klicken Sie dazu auf die Schaltfläche **Ausdruck bearbeiten**. [Erfahren Sie, wie Sie Ausdrücke bearbeiten](expression-editor.md)
+1. Legen Sie im Feld **Wert** den erwarteten Wert fest. Sie können auch den Campaign Web-Ausdruckseditor verwenden, um einen Ausdruck mithilfe von Feldern aus der Datenbank und Hilfsfunktionen manuell zu definieren. Klicken Sie dazu auf die Schaltfläche **Ausdruck bearbeiten**. [Erfahren Sie, wie Sie Ausdrücke bearbeiten](expression-editor.md)
 
    *Abfragebeispiel, in dem alle Profile im Alter von 21 Jahren oder älter zurückgegeben werden:*
 
@@ -132,11 +132,11 @@ Gehen Sie wie folgt vor, um Ihre Abfrage mit einer benutzerdefinierten Bedingung
 
 >[!TAB Klassischer Abfrage-Modellierer]
 
-![Beispiel einer Abfrage mit Profilen ab 21 Jahren.](assets/query-custom-condition.png){zoomable="yes"}
+![Beispiel einer Abfrage für Profile ab 21 Jahren](assets/query-custom-condition.png){zoomable="yes"}
 
 >[!TAB Neuer Regel-Builder]
 
-![Beispiel einer Abfrage mit Profilen ab 21 Jahren.](assets/ruleb-3.png){zoomable="yes"}
+![Beispiel einer Abfrage für Profile ab 21 Jahren](assets/ruleb-3.png){zoomable="yes"}
 
 >[!ENDTABS]
 
@@ -146,11 +146,11 @@ Für Attribute vom Typ „Datum“ sind vordefinierte Werte bei Verwendung der O
 
 >[!TAB Klassischer Abfrage-Modellierer]
 
-![Beispiel für die Verwendung von Datumsvorgaben in einer Abfrage.](assets/date-presets.png){zoomable="yes"}
+![Beispiel für die Verwendung von Datumsvoreinstellungen in einer Abfrage](assets/date-presets.png){zoomable="yes"}
 
 >[!TAB Neuer Regel-Builder]
 
-![Beispiel für die Verwendung von Datumsvorgaben in einer Abfrage.](assets/ruleb-4.png){zoomable="yes"}
+![Beispiel für die Verwendung von Datumsvoreinstellungen in einer Abfrage](assets/ruleb-4.png){zoomable="yes"}
 
 >[!ENDTABS]
 
@@ -168,7 +168,7 @@ Hier geht es bei der Abfrage um Marken mit der Bezeichnung „Laufen“.
 
 1. Navigieren Sie durch die Tabelle **Marke** und wählen Sie das Attribut **Titel**.
 
-   ![Screenshot der Brand-Tabelle](assets/1-1-attribute.png){zoomable="yes"}{width="85%" align="center"}
+   ![Screenshot der Tabelle „Marke“](assets/1-1-attribute.png){zoomable="yes"}{width="85%" align="center"}
 
 1. Definieren Sie den erwarteten Wert für das Attribut.
 
@@ -176,7 +176,7 @@ Hier geht es bei der Abfrage um Marken mit der Bezeichnung „Laufen“.
 
 Hier ist ein Abfragebeispiel, bei dem eine Tabellenverknüpfung direkt ausgewählt wurde. Die verfügbaren Werte für diese Tabelle müssen über eine spezielle Auswahl ausgewählt werden.
 
-![Beispiel für eine Abfrage](assets/1-1-table-direct.png){zoomable="yes"}{width="85%" align="center"}
+![Abfragebeispiel](assets/1-1-table-direct.png){zoomable="yes"}{width="85%" align="center"}
 
 +++
 
@@ -188,15 +188,15 @@ In unserem Beispiel zielt die Abfrage auf Empfängerinnen und Empfänger ab, die
 
 1. Wählen Sie die Tabelle **Käufe** und bestätigen Sie.
 
-   ![Screenshot der Tabelle „Einkauf“](assets/1-N-collection.png){zoomable="yes"}{width="50%" align="center"}
+   ![Screenshot der Tabelle „Käufe“](assets/1-N-collection.png){zoomable="yes"}{width="50%" align="center"}
 
 1. Es wird eine ausgehende Transition hinzugefügt, die die Erstellung von Unterbedingungen ermöglicht.
 
-   ![Beispiel einer ausgehenden Transition](assets/1-n-subcondition.png){zoomable="yes"}{width="85%" align="center"}
+   ![Beispiel für eine ausgehende Transition](assets/1-n-subcondition.png){zoomable="yes"}{width="85%" align="center"}
 
 1. Wählen Sie das Attribut **Preis** und Zielkäufe von 1000 USD oder mehr
 
-   ![Screenshot des Preisattributs](assets/1-n-price.png){zoomable="yes"}{width="85%" align="center"}
+   ![Screenshot des Attributs „Preis“](assets/1-n-price.png){zoomable="yes"}{width="85%" align="center"}
 
 1. Fügen Sie Unterbedingungen hinzu, die Ihren Anforderungen entsprechen. In unserem Beispiel haben wir eine Bedingung für Profile hinzugefügt, die ein BrewMaster-Produkt erworben haben.
 
@@ -317,7 +317,7 @@ Gehen Sie wie folgt vor, um Filterkomponenten zu kopieren und einzufügen:
 
 1. Um die Komponente(n) einzufügen, klicken Sie auf die Schaltfläche „+“ am Ende der gewünschten Transition und wählen Sie **(n) Elemente einfügen**.
 
-   ![Beispiel für das Einfügen der Komponenten](assets/copy-paste.png){zoomable="yes"}
+   ![Beispiel für das Einfügen von Komponenten](assets/copy-paste.png){zoomable="yes"}
 
 ## Kombinieren von Filterkomponenten mit Operatoren {#operators}
 
@@ -334,7 +334,7 @@ In diesem Beispiel haben wir für die zweite Transition neue Zielgruppentyp-Filt
 
 >[!TAB Klassischer Abfrage-Modellierer]
 
-![Beispiel einer Abfrage](assets/query-operator.png){zoomable="yes"}
+![Abfragebeispiel](assets/query-operator.png){zoomable="yes"}
 
 Um den Operator für die Verknüpfung der Filterbedingungen zu ändern, klicken Sie darauf und wählen Sie den gewünschten Operator im Bereich **Gruppe** aus, der sich rechts öffnet.
 
@@ -344,13 +344,13 @@ Die folgenden Operatoren sind verfügbar:
 * **ODER (Vereinigung)**: Umfasst Ergebnisse, die mindestens einer der Filterkomponenten in den ausgehenden Transitionen entsprechen.
 * **AUSSER (Ausschluss)**: Schließt Ergebnisse aus, die allen Filterkomponenten in der ausgehenden Transition entsprechen.
 
-![Beispiel einer Abfrage](assets/query-operator-change.png){zoomable="yes"}
+![Abfragebeispiel](assets/query-operator-change.png){zoomable="yes"}
 
 Darüber hinaus können Sie Zwischengruppen von Komponenten erstellen, indem Sie Komponenten zu einer Gruppe gruppieren und miteinander verknüpfen. Auf diese Weise wird der AND-Operator standardmäßig gesetzt, Sie können ihn dann in den gewünschten Operator ändern.
 
 >[!TAB Neuer Regel-Builder]
 
-![Beispiel einer Abfrage](assets/ruleb-9.png){zoomable="yes"}
+![Abfragebeispiel](assets/ruleb-9.png){zoomable="yes"}
 
 Um den Operator zu ändern, der verwendet wird, um Filterbedingungen miteinander zu verknüpfen, klicken Sie darauf, es ändert sich in ODER, AUSSER und dann zurück in UND, und wählen Sie den gewünschten Operator.
 
@@ -360,7 +360,7 @@ Die folgenden Operatoren sind verfügbar:
 * **ODER (Vereinigung)**: Umfasst Ergebnisse, die mindestens einer der Filterkomponenten in den ausgehenden Transitionen entsprechen.
 * **AUSSER (Ausschluss)**: Schließt Ergebnisse aus, die allen Filterkomponenten in der ausgehenden Transition entsprechen.
 
-![Beispiel einer Abfrage](assets/ruleb-10.gif){zoomable="yes"}
+![Abfragebeispiel](assets/ruleb-10.gif){zoomable="yes"}
 
 >[!ENDTABS]
 
@@ -370,7 +370,7 @@ Im folgenden Beispiel haben wir eine Zwischengruppe erstellt, um Ergebnisse aus 
 
 >[!TAB Klassischer Abfrage-Modellierer]
 
-![Beispiel einer Abfrage](assets/query-intermediate-group.png){zoomable="yes"}
+![Abfragebeispiel](assets/query-intermediate-group.png){zoomable="yes"}
 
 >[!TAB Neuer Regel-Builder]
 
@@ -405,7 +405,7 @@ Wenn Ihre Abfrage fertig ist, klicken Sie auf die Schaltfläche **[!UICONTROL Be
 
 Sie können Ihre Abfrage jederzeit ändern, indem Sie sie öffnen. Beachten Sie, dass beim Öffnen einer vorhandenen Abfrage diese in einer vereinfachten Ansicht angezeigt wird, ohne dass die Schaltflächen **+** angezeigt werden. Um der Abfrage neue Elemente hinzuzufügen, wählen Sie eine Komponente oder einen Operator auf der Arbeitsfläche aus, um die Schaltflächen **+** anzuzeigen.
 
-![Beispiel einer Abfrage](assets/edit-audience.png){zoomable="yes"}
+![Abfragebeispiel](assets/edit-audience.png){zoomable="yes"}
 
 >[!TAB Neuer Regel-Builder]
 

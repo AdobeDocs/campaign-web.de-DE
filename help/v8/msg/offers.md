@@ -4,7 +4,7 @@ title: Hinzufügen von Angeboten in Ihren Nachrichten
 description: Erfahren Sie, wie Sie Angebote hinzufügen und senden
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '795'
 ht-degree: 100%
 

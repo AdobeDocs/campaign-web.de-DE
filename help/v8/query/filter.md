@@ -6,7 +6,7 @@ exl-id: 41c3c4c3-5991-4223-ad02-e2531d76fdda
 source-git-commit: 485d8b4b715192cc5edb6442df0fa958e29d15ff
 workflow-type: tm+mt
 source-wordcount: '413'
-ht-degree: 51%
+ht-degree: 78%
 
 ---
 
@@ -23,9 +23,9 @@ Adobe Campaign Web bietet Filter in jeder Objektliste, mit denen Sie Information
 
 Um Filter auf eine Liste anzuwenden, klicken Sie auf **[!UICONTROL Filter anzeigen]** links oben in der Liste neben der Suchleiste.
 
-Der Filterbereich wird geöffnet und zeigt die für die ausgewählte Liste verfügbaren Filter an. Sie können Kampagnen beispielsweise nach Status, Start- und Enddatum oder Speicherordner filtern, während die Liste der Abonnement-Services nach Kanal und Speicherordner gefiltert werden kann.
+Der Filterbereich wird geöffnet und zeigt die für die ausgewählte Liste verfügbaren Filter an. Sie können beispielsweise Kampagnen nach Status, Start- und Enddatum oder Speicherordner filtern, während die Liste der Anmeldedienste nach Kanal und Speicherordner gefiltert werden kann.
 
-![Bereich „Filter“ mit verfügbaren Filtern für Listen](assets/filters-pane.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
+![Bereich „Filter“ mit für Listen verfügbaren Filtern](assets/filters-pane.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 
 Um eine Liste nach Ihren eigenen Kriterien zu filtern, können Sie einen benutzerdefinierten Filter erstellen. Navigieren Sie dazu zum unteren Ende des Filterbereichs und klicken Sie auf **Regeln hinzufügen**. [Erfahren Sie, wie Sie benutzerdefinierte Filter erstellen](#custom).
 
@@ -35,11 +35,11 @@ Nachdem Sie Filter auf eine Liste angewendet haben, werden sie unter der Suchlei
 
 Mit benutzerdefinierten Filtern können Sie Listen anhand Ihrer eigenen spezifischen Kriterien verfeinern. Sie werden mithilfe des Abfrage-Modelers in Campaign entwickelt. Gehen Sie wie folgt vor, um einen benutzerdefinierten Filter zu erstellen:
 
-1. Öffnen Sie den Bereich „Filter“ und klicken Sie **unten** Bereich auf die Schaltfläche „Regeln hinzufügen“.
+1. Öffnen Sie den Bereich „Filter“ und klicken Sie unten auf **Regeln hinzufügen**.
 
 1. Es öffnet sich der Abfrage-Modeler. Definieren und kombinieren Sie Ihre Filterkriterien entsprechend Ihren Anforderungen. Detaillierte Informationen über die Verwendung des Abfrage-Modelers finden Sie in [diesem Abschnitt](../query/query-modeler-overview.md).
 
-   Das folgende Beispiel zeigt einen benutzerdefinierten Filter, der in der Kampagnenliste SMS-Kampagnen anzeigt, die von Benutzern der Abteilungen Laufen oder Yoga ausgeführt werden.
+   Das folgende Beispiel zeigt einen benutzerdefinierten Filter, der dazu bestimmt ist, in der Kampagnenliste SMS-Kampagnen anzuzeigen, die von Benutzenden der Abteilungen „Laufen“ oder „Yoga“ ausgeführt werden.
 
    ![Beispiel für einen benutzerdefinierten Filter mit nach Abteilung gefilterten SMS-Kampagnen](assets/filters-sample.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 
