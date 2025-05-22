@@ -3,7 +3,7 @@ keywords: Campaign Web;Startseite;beliebte Themen
 description: Hilfe-Center zu Campaign Web
 title: Produktdokumentation zu Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: c54f56620570ba9520dc9fc11410d3628641d0a5
+source-git-commit: 2c79d81c70d86a3b7c626389870d921ee378bd67
 workflow-type: tm+mt
 source-wordcount: '459'
 ht-degree: 89%
@@ -54,7 +54,7 @@ Hier erhalten Sie einen Einblick in die neuesten Verbesserungen in Adobe Campaig
 
 >[!TAB Version Mai &#39;25]
 
-Die Mai-Version ist jetzt live, einschließlich des Callcenter-Kanals, des neuen Regel-Builders und weiterer Verbesserungen.
+Die Mai-Version ist jetzt live, einschließlich des neuen benutzerdefinierten Kanals, der Bewertung der Markenausrichtung und der Verbesserung der Typologieregeln.
 
 [![Schaltfläche „Weitere Informationen“](assets/do-not-localize/learn-more-button.svg)](../v8/rn/release-notes.md)
 
