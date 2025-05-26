@@ -3,9 +3,9 @@ audience: end-user
 title: Arbeiten mit Ordnern
 description: Erfahren Sie, wie Sie in Adobe Campaign einen Ordner verwalten.
 exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
-workflow-type: ht
-source-wordcount: '626'
+source-git-commit: 5f9cc8915f2897ebc14d571357773fef057cf9c1
+workflow-type: tm+mt
+source-wordcount: '628'
 ht-degree: 100%
 
 ---
@@ -31,6 +31,11 @@ ht-degree: 100%
 >id="acw_folder_schedule"
 >title="Ordnerzeitplan"
 >abstract="Ordnerzeitplan"
+
+>[!CONTEXTUALHELP]
+>id="acw_folder_favorites"
+>title="Favoriten"
+>abstract="Favoriten"
 
 ## Über Ordner {#about-folders}
 
