@@ -4,9 +4,9 @@ title: Verwalten von Assets mit Adobe Experience Manager as a Cloud Service
 description: Erfahren Sie, wie Sie Inhalte mit Adobe Experience Manager as a Cloud Service verwalten können
 exl-id: 43b186c8-294e-4cbe-b269-e127065515ed
 source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '582'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 97%
 
 Die Integration der Adobe Campaign Web-Oberfläche in Adobe Experience Manager ermöglicht eine optimierte Verwaltung von E-Mail-Versandinhalten und Formularen direkt auf der Adobe Experience Manager-Plattform.
 
-![](assets/do-not-localize/book.png) [Erfahren Sie mehr über Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/getting-started/quick-start.html?lang=de)
+![](assets/do-not-localize/book.png)[Weitere Informationen zu Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/getting-started/quick-start.html?lang=de)
 
 ## Erstellen einer Vorlage in [!DNL Adobe Experience Manager as a Cloud Service]{#create-aem-template}
 
@@ -84,7 +84,7 @@ Sobald die Experience Manager-Vorlage im Adobe Campaign Web als Inhaltsvorlage v
 
    ![Screenshot mit der Option „Verknüpfung von AEM-Inhalt aufheben“](assets/aem_9.png)
 
-1. Wenn Sie Ihrer Experience Manager-Vorlage personalisierten Inhalt hinzugefügt haben, klicken Sie auf **[!UICONTROL Inhalt simulieren]**, um mithilfe von Testprofilen eine Vorschau des Nachrichteninhalts anzuzeigen.
+1. Wenn Sie Ihrer Experience Manager-Vorlage personalisierten Inhalt hinzugefügt haben, klicken Sie auf **[!UICONTROL Inhalte simulieren]**, um mithilfe von Testprofilen eine Vorschau des Nachrichteninhalts anzuzeigen.
 
 [Weitere Informationen zu Vorschau und Testprofilen](../preview-test/preview-content.md)
 

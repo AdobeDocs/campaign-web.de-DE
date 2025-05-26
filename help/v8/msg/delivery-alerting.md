@@ -8,9 +8,9 @@ robots: noindex
 googlebot: noindex
 exl-id: 120afaa0-7017-4644-b6db-229b4a5c8a91
 source-git-commit: 19a7540af7502709b7eafdace038b5958e077173
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '315'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -42,4 +42,4 @@ Sie können beispielsweise Benutzende mit Administratorrechten nur über fehlges
 
 >[!NOTE]
 >
->Um Dashboards und Warnungskriterien öffnen und konfigurieren zu können, müssen Sie über **Administratorrechte** verfügen oder der Sicherheitsgruppe **Versand-Supervisoren** angehören. Standardmäßige Benutzerinnen und Benutzer können nicht auf Dashboards in der Adobe Campaign-Benutzeroberfläche zugreifen, aber Benachrichtigungen zu Warnungen empfangen. [Weitere Informationen zu Zugriff und Berechtigungen](../get-started/permissions.md).
+>Um Dashboards und Warnungskriterien öffnen und konfigurieren zu können, müssen Sie über **Administratorrechte** verfügen oder der Sicherheitsgruppe **Versand-Supervisoren** angehören. Standardmäßige Benutzerinnen und Benutzer können nicht auf Dashboards in der Adobe Campaign-Benutzeroberfläche zugreifen, aber Benachrichtigungen zu Warnungen empfangen. [Erfahren Sie mehr über Zugriff und Berechtigungen](../get-started/permissions.md).

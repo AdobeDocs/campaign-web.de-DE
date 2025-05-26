@@ -5,9 +5,9 @@ description: Erfahren Sie, wie Sie Ihre Instanz mit dem Audit-Protokoll von Camp
 feature: Audit Trail, Monitoring, Workflows
 exl-id: f4b4a33f-8250-4f4e-b2dc-129c56f9ea0f
 source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '595'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -22,9 +22,9 @@ In der Adobe Campaign Web-Benutzeroberfläche bietet die Funktion **[!UICONTROL 
 
 Die Funktion **[!UICONTROL Audit-Protokoll]** zeichnet im Rahmen eines detaillierten Protokolls ständig und in Echtzeit die Aktionen und Ereignisse auf, die in der Adobe Campaign-Instanz stattfinden. Dies bietet eine einfache Methode, um auf einen chronologischen Dateneintrag mit Abfragen zuzugreifen, wie zum Status von Workflows, den Personen, die diese geändert haben oder den Aktivitäten, die von Benutzerinnen und Benutzern innerhalb der Instanz ausgeführt wurden.
 
-+++ Weitere Informationen zu verfügbaren Entitäten des Audit-Protokolls
++++ Weitere Informationen über die verfügbaren Entitäten im Audit-Protokoll
 
-* **Audit-Protokoll für Source-**: Ermöglicht Ihnen, Aktivitäten und aktuelle Änderungen an Ihren Schemata in der Client-Konsole von Campaign v8 zu überwachen.
+* Das **Audit-Protokoll für Quellschemata** ermöglicht es Ihnen, Aktivitäten und aktuelle Änderungen an Ihren Schemata in der Client-Konsole von Campaign v8 zu überwachen.
 
   Detaillierte Informationen zu Schemata finden Sie in der [Dokumentation zu Campaign v8](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/developer/shemas-forms/schemas).
 
@@ -41,7 +41,7 @@ Die Funktion **[!UICONTROL Audit-Protokoll]** zeichnet im Rahmen eines detaillie
 
   Weiterführende Informationen zu Workflows finden Sie auf [dieser Seite](../workflows/gs-workflows.md).
 
-* **Audit-Protokoll für Optionen** ermöglicht es Ihnen, Aktivitäten und aktuelle Änderungen an Ihren Optionen in Campaign v8 zu überwachen.
+* Das **Audit-Protokoll für Optionen** ermöglicht es Ihnen, Aktivitäten und aktuelle Änderungen an Ihren Optionen in Campaign v8 zu überwachen.
 
   Weiterführende Informationen zu Optionen finden Sie auf [dieser Seite](https://experienceleague.adobe.com/de/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options).
 
@@ -49,15 +49,15 @@ Die Funktion **[!UICONTROL Audit-Protokoll]** zeichnet im Rahmen eines detaillie
 
   Weiterführende Informationen zu Sendungen finden Sie auf [dieser Seite](../msg/gs-deliveries.md).
 
-* Mit **Externes Konto** können Sie Änderungen an externen Konten in Campaign v8 überprüfen, die von technischen Prozessen wie technischen Workflows oder Kampagnen-Workflows verwendet werden.
+* Die Option **Externes Konto** ermöglicht Ihnen die Überprüfung von Änderungen an externen Konten in Campaign v8, die von technischen Prozessen wie technischen Workflows oder Kampagnen-Workflows verwendet werden.
 
   Weitere Informationen zu externen Konten finden Sie auf dieser [Seite](../administration/external-account.md).
 
-* **Versand-Mapping** ermöglicht Ihnen das Überwachen von Aktivitäten und aktuellen Änderungen an Ihrem Versand-Mapping in Campaign v8.
+* Das **Versand-Mapping** ermöglicht es Ihnen, Aktivitäten und kürzlich an Ihrem Versand-Mapping vorgenommene Änderungen in Campaign v8 zu überwachen.
 
   Weiterführende Informationen zu „Versand-Mapping“ finden Sie auf [dieser Seite](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/audience/add-profiles/target-mappings).
 
-* **Web-Anwendung** ermöglicht es Ihnen, Änderungen an Web-Formularen in Campaign v8 zu überprüfen, die zum Erstellen von Seiten mit Eingabe- und Auswahlfeldern verwendet werden und Daten aus der Datenbank enthalten können.
+* Eine **Web-Anwendung** ermöglicht Ihnen das Überprüfen von Änderungen an Web-Formularen in Campaign v8, die zum Erstellen von Seiten mit Eingabe- und Auswahlfeldern verwendet werden und die Daten aus der Datenbank enthalten können.
 
   Weitere Informationen zu Web-Anwendungen finden Sie auf dieser [Seite](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/content/webapps).
 
@@ -65,7 +65,7 @@ Die Funktion **[!UICONTROL Audit-Protokoll]** zeichnet im Rahmen eines detaillie
 
   Weiterführende Informationen zu Angeboten finden Sie auf [dieser Seite](../msg/offers.md).
 
-* **Operator** ermöglicht es Ihnen, Aktivitäten und aktuelle Änderungen an Ihren Operatoren in Campaign v8 zu überwachen.
+* Die Option **Operator** ermöglichen es Ihnen, Aktivitäten und Änderungen zu überwachen, die vor Kurzem an Ihren Operatoren in Campaign v8 vorgenommen wurden.
 
   Weiterführende Informationen zu Benutzerinnen und Benutzern finden Sie auf [dieser Seite](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/offers/interaction-settings/interaction-operators).
 

@@ -3,9 +3,9 @@ title: Benutzerdefinierte Felder
 description: Erfahren Sie, wie Sie benutzerdefinierte Felder und ihre Sichtbarkeit in der Benutzeroberfläche konfigurieren.
 exl-id: 34e7e0b7-3981-43b1-95a5-6c672adafdc9
 source-git-commit: f08603afde2493457bc81a0d808b647b70a52f7c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '988'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -70,13 +70,13 @@ Gehen Sie wie folgt vor, um benutzerdefinierte Felder in der Benutzeroberfläche
 
    ![Screenshot mit dem Menü „Schemata“ und bearbeitbarem Filter im Navigationsbereich](assets/custom-fields-open.png)
 
-1. Wählen Sie den Schemanamen in der Liste aus, um das Schema zu öffnen. Es wird eine detaillierte Schemaansicht angezeigt. [Weitere Informationen zu Schemadetails](../administration/schemas.md). Klicken Sie auf die Schaltfläche **[!UICONTROL Bildschirmbearbeitung]**, um auf benutzerdefinierte Felder zuzugreifen. In diesem Beispiel werden Felder für das Schema **[!UICONTROL Empfangende]** hinzugefügt.
+1. Wählen Sie den Schemanamen in der Liste aus, um das Schema zu öffnen. Es wird eine detaillierte Schemaansicht angezeigt. [Erfahren Sie mehr über Schemadetails](../administration/schemas.md). Klicken Sie auf die Schaltfläche **[!UICONTROL Bildschirmbearbeitung]**, um auf benutzerdefinierte Felder zuzugreifen. In diesem Beispiel werden Felder für das Schema **[!UICONTROL Empfangende]** hinzugefügt.
 
-   ![Screenshot mit der Schaltfläche für die Bildschirmdefinition in der Schemaansicht](assets/custom-fields-edit.png)
+   ![Screenshot mit der Schaltfläche „Bildschirmdefinition“ in der Schemaansicht](assets/custom-fields-edit.png)
 
-   Die Liste der benutzerdefinierten Felder, die in der Benutzeroberfläche für das Schema angezeigt werden, wird angezeigt.
+   Die Liste der benutzerdefinierten Felder, die in der Benutzeroberfläche für das Schema angezeigt werden, wird eingeblendet.
 
-1. Klicken Sie auf **[!UICONTROL Vorschau]**, um die benutzerdefinierten Felder in einem Beispielbildschirm anzuzeigen.
+1. Klicken Sie auf die Schaltfläche **[!UICONTROL Vorschau]**, um die benutzerdefinierten Felder auf einem Beispielbildschirm anzuzeigen.
 
    ![](assets/custom-fields-edit2.png)
 
@@ -93,7 +93,7 @@ Gehen Sie wie folgt vor, um benutzerdefinierte Felder in der Benutzeroberfläche
 
 1. Wenn benutzerdefinierte Felder hinzugefügt wurden, können Sie:
 
-   * **Felder neu anordnen**: Verwenden Sie die Pfeile nach oben und unten oder verschieben Sie Felder per Drag-and-Drop.
+   * **Felder neu anordnen**: Verwenden Sie die Pfeile nach oben und unten, oder verschieben Sie Felder per Drag-and-Drop.
    * **Felder als Pflichtfelder festlegen**: Aktivieren Sie das Kontrollkästchen **Pflichtfeld**.
    * **Feldeinstellungen bearbeiten**: Klicken Sie auf die Schaltfläche mit den Auslassungspunkten und wählen Sie bearbeiten **[!UICONTROL Bearbeiten]**. [Weitere Informationen](#settings)
    * **Felder löschen**: Klicken Sie auf die Schaltfläche mit den Auslassungspunkten und wählen Sie **[!UICONTROL Löschen]**.
@@ -122,7 +122,7 @@ Folgende Einstellungen sind verfügbar:
 
   ![Screenshot mit einem Beispiel für Filtereinstellungen für benutzerdefinierte Felder](assets/custom-fields-ref.png)
 
-  +++
++++
 
 * **[!UICONTROL Zwei Spalten umfassen]**: Standardmäßig werden benutzerdefinierte Felder in der Benutzeroberfläche in zwei Spalten angezeigt. Schalten Sie diese Option ein, um das benutzerdefinierte Feld über die gesamte Breite des Bildschirms und nicht in zwei Spalten anzuzeigen.
 

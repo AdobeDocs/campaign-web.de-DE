@@ -5,9 +5,9 @@ role: User, Admin, Developer
 level: Beginner
 exl-id: 39d1f1b6-626b-48a2-92c3-9b593a377d66
 source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1555'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -105,19 +105,19 @@ Wenn Sie von Campaign Standard zu Campaign v8 wechseln, stehen Ihnen nun die fol
 
   ![](../../v8/email/assets/full-email-2.png){zoomable="yes"}
 
-  Er bietet eine Reihe von E-Mail-Vorlagen und generiert Bilder (neu). Weitere Informationen zum KI-Assistenten finden [ in diesem Abschnitt](../../v8/email/generative-content.md). Adobe Campaign v8 verfügt über einen KI-Assistenten für [E-Mail](../../v8/email/generative-content.md), [SMS](../../v8/email/generative-sms.md) und [Push](../../v8/email/generative-push.md).
+  Er bietet eine Reihe von E-Mail-Vorlagen und generiert Bilder (neu). Weitere Informationen zum KI-Assistenten finden Sie in [diesem Abschnitt](../../v8/email/generative-content.md). Adobe Campaign v8 verfügt über einen KI-Assistenten für [E-Mail](../../v8/email/generative-content.md), [SMS](../../v8/email/generative-sms.md) und [Push](../../v8/email/generative-push.md).
 
 * **Aktualisierte SMS-Infrastruktur – SMS v2.0**
 
   Die Einfachheit und Anwenderfreundlichkeit von SMS machen sie neben ihrer Robustheit und der konkurrenzlosen Kompatibilität mit Milliarden von Endgeräten zu einem sehr wertvollen Kommunikationskanal.
 
-  Adobe Campaign v8 verfügt über eine neue Infrastruktur, die den SMS-Versand verbessert. [Erfahren Sie mehr über neue SMS-Einstellungen](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/send/sms/sms){target="_blank"}.
+  Adobe Campaign v8 verfügt über eine neue Infrastruktur, die den SMS-Versand verbessert. [Weitere Informationen über die neuen SMS-Einstellungen](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/send/sms/sms){target="_blank"}
 
 * **Aktualisierte Push-Infrastruktur**
 
   Adobe Campaign v8 führt unseren neuesten Push-Benachrichtigungsdienst ein. Dieser wird durch ein robustes Framework gestützt, das auf moderner Spitzentechnologie aufbaut. Dieser Dienst wurde entwickelt, um neue Ebenen der Skalierbarkeit zu erschließen und sicherzustellen, dass Ihre Benachrichtigungen eine größere Zielgruppe mit nahtloser Effizienz erreichen können. Mit unserer verbesserten Infrastruktur und optimierten Prozessen können Sie höhere Skalierbarkeit und Zuverlässigkeit erwarten, die es Ihnen ermöglicht, mit Ihren App-Nutzenden wie nie zuvor in Kontakt zu treten und Verbindungen herzustellen.
 
-  [Erfahren Sie mehr über die aktualisierte Push-Infrastruktur](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/send/push/push-data-collection){target="_blank"}.
+  [Weitere Informationen über die aktualisierte Push-Infrastruktur](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/send/push/push-data-collection){target="_blank"}
 
 
 ## Managed Services {#ac-managed-services}
@@ -126,7 +126,7 @@ Adobe Campaign v8 ist als Managed Cloud Service verfügbar und bietet proaktive 
 
 ## In v8 hinzugefügte Campaign Standard-Funktionen {#ac-v8-added}
 
-Damit Sie reibungslos zu Campaign v8 wechseln können, wurden wichtige Funktionen von Campaign Standard in Campaign v8 aufgenommen. Weitere Informationen finden Sie in [dieser Dokumentation](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=de){target="_blank"}.
+Damit Sie reibungslos zu Campaign v8 wechseln können, wurden wichtige Funktionen von Campaign Standard in Campaign v8 aufgenommen. Weitere Informationen dazu finden Sie in [dieser Dokumentation](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=de){target="_blank"}.
 
 * **Dynamisches Reporting**: Das dynamische Reporting ermöglicht vollständig anpassbare und in Echtzeit aktualisierte Berichte, um die Wirkung Ihrer Marketing-Aktivitäten zu messen. Dadurch kann auf Profildaten zugegriffen werden, was die demografische Analyse nach Profildimensionen wie Geschlecht, Ort und Alter sowie nach Daten von E-Mail-Kampagnen wie Öffnungen und Klicks ermöglicht. [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html?lang=de){target="_blank"}.
 
@@ -229,4 +229,4 @@ Rufen Sie das entsprechende Referenzhandbuch für Ihre Rolle auf, um sich mit de
 
 Adobe constantly evaluates product capabilities to identify older features that should be replaced with more modern alternatives to improve overall customer value, always under careful consideration of backward compatibility.
 
-Please refer to [this documentation for information on deprecated items](https://experienceleague.adobe.com/de/docs/campaign-standard/using/release-notes/deprecated-features).-->
+Please refer to [this documentation for information on deprecated items](https://experienceleague.adobe.com/en/docs/campaign-standard/using/release-notes/deprecated-features).-->

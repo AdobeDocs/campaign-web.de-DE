@@ -4,9 +4,9 @@ title: Arbeiten mit dem Abfrage-Modeler
 description: Lernen Sie, mit dem Abfrage-Modeler von Adobe Campaign Web zu arbeiten.
 exl-id: 56708a66-f654-413a-80ed-1865077b3c0a
 source-git-commit: 609718356ace500b831601dac077f9a3333e00e9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '926'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -56,20 +56,20 @@ Der Abfrage-Modeler ist in jedem Kontext verfügbar, in dem Sie Regeln zum Filte
 >
 >![Bild, das einen Warnhinweis zur Verfeinerung von Zielgruppen zeigt](assets/target-warning.png){zoomable="yes"}
 
-## Benutzeroberfläche des Abfrage-Modellierers {#interface}
+## Benutzeroberfläche des Abfrage-Modelers {#interface}
 
 Der Abfrage-Modeler bietet eine zentrale Arbeitsfläche, auf der Sie Ihre Abfrage erstellen, sowie einen rechten Bereich mit Informationen zu Ihrer Abfrage.
 
 >[!IMPORTANT]
 >
->Eine brandneue Benutzeroberfläche für den Abfrage-Modellierer ist verfügbar. Mit dem neuen Regel-Builder können Sie Ihre Abfrage dank der vereinfachten Benutzeroberfläche einfacher erstellen. Um zu diesem Erlebnis zu wechseln, drücken Sie die Umschalttaste in der oberen rechten Ecke. Sie können jederzeit zum klassischen Abfrage-Modellierer zurückkehren, indem Sie einfach den Umschalter drücken, um die neue Benutzeroberfläche zu deaktivieren. Sie können in dieser neuen Benutzeroberfläche dieselben Prinzipien wie beim Abfrage-Modellierer anwenden.
+>Eine brandneue Benutzeroberfläche für den Abfrage-Modeler ist verfügbar. Mit dem neuen Regel-Builder können Sie Ihre Abfrage dank der vereinfachten und intuitiven Benutzeroberfläche leichter erstellen. Um zu diesem Erlebnis zu wechseln, klicken Sie auf den Umschalter in der oberen rechten Ecke. Sie können jederzeit zum klassischen Abfrage-Modeler zurückkehren, indem Sie einfach auf den Umschalter klicken, um die neue Benutzeroberfläche zu deaktivieren. Sie können in dieser neuen Benutzeroberfläche dieselben Prinzipien wie beim Abfrage-Modeler anwenden.
 >![Bild, das den Umschalter für die neue Benutzeroberfläche des Regel-Builders zeigt](assets/query-modeler-toggle.png){zoomable="yes"}
 
 
 >[!CONTEXTUALHELP]
 >id="acw_rule_builder_switch_button"
 >title="Neues Regel-Builder-Erlebnis"
->abstract="Verwenden Sie diesen Umschalter, um zwischen dem klassischen Abfrage-Modeler und dem neuen Regel-Builder-Erlebnis zu wechseln. Mit dem neuen Rule Builder können Abfragen dank der vereinfachten und intuitiven Benutzeroberfläche leichter erstellt werden."
+>abstract="Verwenden Sie diesen Umschalter, um zwischen dem klassischen Abfrage-Modeler und dem neuen Regel-Builder-Erlebnis zu wechseln. Mit dem neuen Regel-Builder können Sie Ihre Abfrage dank der vereinfachten und intuitiven Benutzeroberfläche einfacher erstellen."
 
 ![Bild, das die Benutzeroberfläche des Abfrage-Modelers zeigt](assets/query-interface.png){zoomable="yes"}
 
@@ -79,9 +79,9 @@ Der Abfrage-Modeler bietet eine zentrale Arbeitsfläche, auf der Sie die verschi
 
 >[!BEGINTABS]
 
->[!TAB Klassischer Abfrage-Modellierer]
+>[!TAB Klassischer Abfrage-Modeler]
 
-Die Symbolleiste in der rechten unteren Ecke der Arbeitsfläche bietet Optionen zum einfachen Bearbeiten der Abfragekomponenten und zum Navigieren auf der Arbeitsfläche:
+Die Symbolleiste unten rechts in der Arbeitsfläche bietet Optionen zum einfachen Bearbeiten der Abfragekomponenten und Navigieren auf der Arbeitsfläche:
 
 * **Mehrfachauswahl-Modus**: Wählen Sie mehrere Filterkomponenten aus, um sie zu kopieren und am gewünschten Ort einzufügen.
 * **Drehen**: Dreht die Arbeitsfläche vertikal.
@@ -89,17 +89,17 @@ Die Symbolleiste in der rechten unteren Ecke der Arbeitsfläche bietet Optionen 
 * **Verkleinern**/**Vergrößern**: Verkleinert bzw. vergrößert die Arbeitsfläche.
 * **Karte anzeigen**: Öffnet einen Snapshot der Arbeitsfläche mit Ihrer aktuellen Position.
 
->[!TAB Neues Rule Builder-Erlebnis]
+>[!TAB Neues Regel-Builder-Erlebnis]
 
-Die Symbolleiste oben rechts in der Arbeitsfläche bietet Optionen zum einfachen Bearbeiten der Abfragekomponenten und Navigieren auf der Arbeitsfläche:
+Die Symbolleiste oben rechts in der Arbeitsfläche bietet Optionen zum einfachen Bearbeiten der Abfragekomponenten und Navigieren in der Arbeitsfläche:
 
-* **Auswahl nach oben**: Verschiebt die Komponente um eine Zeile nach oben.
-* **Auswahl nach unten verschieben**: Verschieben der Komponente in einer Zeile nach unten.
-* **Gruppenauswahl**: Fügen Sie zwei Komponenten in eine Gruppe ein.
-* **Auswahl aufheben**: Trennen Sie die Komponenten einer einzelnen Gruppe.
-* **Alle**: Alle Gruppen erweitern.
-* **Alle reduzieren**: Alle Gruppen reduzieren.
-* **Alle entfernen**: Entfernen Sie alle Gruppen und Komponenten.
+* **Auswahl nach oben verschieben**: Verschiebt die Komponente um eine Zeile nach oben.
+* **Auswahl nach unten verschieben**: Verschiebt die Komponente um eine Zeile nach unten.
+* **Auswahl gruppieren**: Fügt zwei Komponenten zu einer Gruppe zusammen.
+* **Gruppierung aufheben**: Trennt die Komponenten einer einzelnen Gruppe.
+* **Alle erweitern**: Erweitert alle Gruppen.
+* **Alle reduzieren**: Reduziert alle Gruppen.
+* **Alle entfernen**: Entfernt alle Gruppen und Komponenten.
 
 >[!ENDTABS]
 

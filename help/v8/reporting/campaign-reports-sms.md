@@ -4,9 +4,9 @@ title: Kampagnenberichte für den SMS-Kanal
 description: Grundlegendes zu Kampagnenberichten für den SMS-Kanal
 exl-id: 0df9b999-84c8-4e42-b5da-857b2ef0dd75
 source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '521'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 

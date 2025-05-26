@@ -3,9 +3,9 @@ title: Anwendungsfälle für den KI-Assistenten
 description: Erfahren Sie anhand von Anwendungsfällen, wie Sie den KI-Assistenten verwenden.
 exl-id: ead51ef0-f7ba-4bc4-8d4a-f6a6d1df6a0f
 source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '535'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 75%
 
 1. Öffnen Sie den Abschnitt **[!UICONTROL KI-Assistent]**.
 
-1. Aktivieren Sie die Funktion **[!UICONTROL Original-Inhalt verwenden]** im KI-Assistenten, um neue Inhalte an Ihre Versanddetails anzupassen, einschließlich des Versandnamens und der Zielgruppe.
+1. Aktivieren Sie die Funktion **[!UICONTROL Originalinhalt verwenden]** im KI-Assistenten, um neue Inhalte entsprechend Ihren Versanddetails anzupassen, einschließlich des Versandnamens und der Zielgruppe.
 
 1. Passen Sie den Inhalt an, indem Sie Ihre Anfrage im Feld **[!UICONTROL Prompt]** angeben und die Einstellungen nach Bedarf anpassen.
 
@@ -51,13 +51,13 @@ Bereiten Sie den Versand vor, nachdem Sie Inhalt, Zielgruppe und Zeitplan defini
 
    * **[!UICONTROL Als Referenzinhalt verwenden]**: Die ausgewählte Variante dient als Referenz, um weitere Inhalte zu generieren.
 
-   * **[!UICONTROL Ausarbeiten]**: Lassen Sie den KI-Assistenten auf bestimmte Punkte eingehen und bieten Sie mehr Tiefe und Details für eine bessere Interaktion.
+   * **[!UICONTROL Ausführlich]**: Lassen Sie den KI-Assistenten auf bestimmte Punkte genauer eingehen, um tiefer gehende und detailliertere Informationen für eine bessere Interaktion bereitstellen zu können.
 
-   * **[!UICONTROL Zusammenfassen]**: Für ausführliche Informationen verwenden Sie den KI-Assistenten, um knappe Zusammenfassungen zu erstellen, die E-Mail-Empfängern das Digest erleichtern.
+   * **[!UICONTROL Zusammenfassen]**: Verwenden Sie den KI-Assistenten, um aus detaillierten Informationen kurze Zusammenfassungen zu erstellen, die von E-Mail-Empfängerinnen und -Empfängern einfacher aufgenommen werden können.
 
-   * **[!UICONTROL Umformulieren]**: Der KI-Assistent kann Ihre Nachricht auf unterschiedliche Weise präsentieren und so dazu beitragen, den Inhalt für eine Vielzahl von Zielgruppen aktuell zu halten.
+   * **[!UICONTROL Neu formulieren]**: Der KI-Assistent kann Ihre Nachricht auf unterschiedliche Weise darstellen und so dazu beitragen, den Inhalt für eine Vielzahl von Zielgruppen interessant zu präsentieren.
 
-   * **[!UICONTROL Einfachere Sprache verwenden]**: Vereinfachen Sie die Sprache mit dem KI-Assistenten, um sicherzustellen, dass die Nachricht klar und für alle Leser zugänglich ist.
+   * **[!UICONTROL Einfachere Sprache verwenden]**: Vereinfachen Sie die Sprache mit dem KI-Assistenten, um sicherzustellen, dass die Nachricht verständlich und für alle Lesenden zugänglich ist.
 
    Darüber hinaus können Sie den **[!UICONTROL Ton]** und die **[!UICONTROL Kommunikationsstrategie]** Ihres Inhalts anpassen.
 
@@ -93,7 +93,7 @@ Bereiten Sie den Versand vor, nachdem Sie Inhalt, Zielgruppe und Zeitplan defini
 
 1. Wählen Sie aus dem Menü im rechten Bereich die Option **[!UICONTROL KI-Assistent]**.
 
-1. Aktivieren Sie die Option **[!UICONTROL Referenzstil]** , damit der KI-Assistent mithilfe des Referenzmaterials neue Inhalte generieren kann.
+1. Aktivieren Sie die Option **[!UICONTROL Referenzstil]**, damit der KI-Assistent neue Inhalte mithilfe des Referenzmaterials generieren kann.
 
 1. Klicken Sie auf **[!UICONTROL Bild hochladen]**, um ein Bild einzuschließen, das Kontext zu Ihrer Variante hinzufügt.
 

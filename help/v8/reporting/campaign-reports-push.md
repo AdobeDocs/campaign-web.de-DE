@@ -4,9 +4,9 @@ title: Kampagnenberichte für den Push-Kanal
 description: Grundlegendes zu Kampagnenberichten für den Push-Kanal
 exl-id: 5e7ac2b8-b543-427b-846c-7c0b489cc21c
 source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '533'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Der Bericht **[!UICONTROL Versandübersicht]** bietet wichtige Performance-Indik
 
 ![Im Bericht „Versandübersicht“ angezeigte Metriken zur Versandzusammenfassung](assets/campaign-reporting-push-summary.png){zoomable="yes"}
 
-+++ Erfahren Sie mehr über die Metriken des Push-Kampagnenberichts.
++++Erfahren Sie mehr über die Metriken des Push-Kampagnenberichts.
 
 * **[!UICONTROL Zu sendende Nachrichten]**: Gesamtzahl der während der Versandvorbereitung verarbeiteten Nachrichten.
 
@@ -48,7 +48,7 @@ Die Tabelle **[!UICONTROL Statistiken der anfänglichen Zielgruppe]** zeigt Date
 
 ![Im Bericht angezeigte Statistiken der ursprünglichen Zielgruppe](assets/campaign-reporting-push-target.png){zoomable="yes"}
 
-+++ Erfahren Sie mehr über die Metriken des Push-Kampagnenberichts.
++++Erfahren Sie mehr über die Metriken des Push-Kampagnenberichts.
 
 * **[!UICONTROL Ursprüngliche Zielgruppe]**: Gesamtzahl der Zielgruppenempfängerinnen und -empfänger.
 
@@ -69,7 +69,7 @@ Die Tabelle **[!UICONTROL Ausführungsstatistiken]** zeigt den Erfolg Ihres Vers
 
 ![Im Bericht angezeigte Ausführungsstatistiken](assets/campaign-reporting-push-exec.png){zoomable="yes"}
 
-+++ Erfahren Sie mehr über die Metriken des Push-Kampagnenberichts.
++++Erfahren Sie mehr über die Metriken des Push-Kampagnenberichts.
 
 * **[!UICONTROL Zu versendende Nachricht(en)]**: Gesamtzahl der nach erfolgter Versandvorbereitung zu versendenden Nachrichten.
 
@@ -94,7 +94,7 @@ Die Tabelle **[!UICONTROL Generierte Clickstreams]** zeigt Daten dazu an, wie Ih
 
 ![Im Bericht angezeigte erzeugte Clickstreams](assets/campaign-reporting-push-clicks.png){zoomable="yes"}
 
-+++ Erfahren Sie mehr über die Metriken des Push-Kampagnenberichts.
++++Erfahren Sie mehr über die Metriken des Push-Kampagnenberichts.
 
 * **[!UICONTROL Einzelklicks]**: Gesamtzahl der unterschiedlichen Empfängerinnen und Empfänger, die einen Versand mindestens einmal angeklickt haben.
 

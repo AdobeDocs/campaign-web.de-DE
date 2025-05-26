@@ -4,32 +4,32 @@ title: Generative Inhalte
 description: Erste Schritte mit dem KI-Assistenten
 exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
 source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1525'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
-# E-Mail-Generierung mit KI-Assistent {#generative-content}
+# Generierung von E-Mails mit dem KI-Assistenten {#generative-content}
 
 >[!IMPORTANT]
 >
 >Bevor Sie mit der Verwendung dieser Funktion beginnen, lesen Sie die entsprechenden Informationen unter [Schutzmechanismen und Einschränkungen](generative-gs.md#generative-guardrails).
 ></br>
 >
->Sie müssen einer [Benutzervereinbarung“ zustimmen](https://www.adobe.com/de/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} bevor Sie den KI-Assistenten in Adobe Campaign Web verwenden. Weitere Informationen erhalten Sie beim Adobe-Support.
+>Sie müssen einer [Benutzervereinbarung](https://www.adobe.com/de/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} zustimmen, bevor Sie den KI-Assistenten in Adobe Campaign Web verwenden können. Weitere Informationen erhalten Sie beim Adobe-Support.
 
-Nachdem Sie Ihre E-Mails erstellt und personalisiert haben, können Sie den KI-Assistenten in Adobe Campaign Web verwenden, um Ihre Inhalte zu verbessern.
+Sobald Sie Ihre E-Mails erstellt und personalisiert haben, können Sie Ihren Inhalt mithilfe des KI-Assistenten in Adobe Campaign Web optimieren.
 
-Der KI-Assistent in Adobe Campaign Web hilft Ihnen, die Wirkung Ihrer Sendungen zu optimieren, indem er ganze E-Mails, zielgerichtete Textinhalte und Bilder generiert, die auf Ihre Audience zugeschnitten sind. Dadurch werden Ihre E-Mail-Kampagnen für eine bessere Interaktion optimiert.
+Der KI-Assistent in Adobe Campaign Web hilft Ihnen dabei, die Wirkung Ihrer Sendungen zu optimieren, indem er ganze E-Mails, gezielte Textinhalte und Bilder generiert, die auf Ihre Zielgruppe zugeschnitten sind. Dadurch werden Ihre E-Mail-Kampagnen für eine bessere Interaktion optimiert.
 
-Verwenden Sie bei Ihren E-Mail-Kampagnen den KI-Assistenten, um vollständige E-Mails, Text oder Bilder zu generieren. Auf den folgenden Registerkarten erfahren Sie, wie Sie den KI-Assistenten in Adobe Campaign Web verwenden.
+Verwenden Sie bei Ihren E-Mail-Kampagnen den KI-Assistenten, um vollständige E-Mails, Texte oder Bilder zu generieren. Auf den folgenden Registerkarten erfahren Sie, wie Sie den KI-Assistenten in Adobe Campaign Web verwenden.
 
 >[!BEGINTABS]
 
 >[!TAB Generierung kompletter E-Mails]
 
-Im folgenden Beispiel nutzen Sie den KI-Assistenten in Adobe Campaign Web, um eine bestehende E-Mail zu verfeinern und für ein spezielles Ereignis anzupassen.
+Im folgenden Beispiel wird der KI-Assistent in Adobe Campaign Web verwendet, um eine vorhandene E-Mail zu optimieren und für ein besonderes Ereignis anzupassen.
 
 1. Nachdem Sie Ihren E-Mail-Versand erstellt und konfiguriert haben, klicken Sie auf **[!UICONTROL Inhalt bearbeiten]**.
 
@@ -37,9 +37,9 @@ Im folgenden Beispiel nutzen Sie den KI-Assistenten in Adobe Campaign Web, um ei
 
 1. Personalisieren Sie Ihr Layout nach Bedarf und rufen Sie das Menü **[!UICONTROL KI-Assistent]** auf.
 
-   ![Screenshot mit dem Menü „KI-Assistent“ in Adobe Campaign Web](assets/full-email-1.png){zoomable="yes"}
+   ![Screenshot des Menüs „KI-Assistent“ in Adobe Campaign Web](assets/full-email-1.png){zoomable="yes"}
 
-1. Aktivieren Sie die Option **[!UICONTROL Original-Inhalt verwenden]** für den KI-Assistenten, um neue Inhalte basierend auf den ausgewählten Inhalten zu personalisieren.
+1. Aktivieren Sie für den KI-Assistenten die Option **[!UICONTROL Originalinhalt verwenden]**, um neue Inhalte basierend auf dem ausgewählten Inhalt zu personalisieren.
 
 1. Passen Sie den Inhalt an, indem Sie im Feld **[!UICONTROL Prompt]** beschreiben, was Sie generieren möchten.
 
@@ -52,7 +52,7 @@ Im folgenden Beispiel nutzen Sie den KI-Assistenten in Adobe Campaign Web, um ei
 1. Passen Sie Ihren Prompt mit der Option **[!UICONTROL Texteinstellungen]** an:
 
    * **[!UICONTROL Kommunikationsstrategie]**: Wählen Sie den am besten geeigneten Kommunikationsstil für den generierten Text aus.
-   * **[!UICONTROL Ton]**: Stellen Sie sicher, dass der Ton Ihrer E-Mail bei Ihrer Zielgruppe ankommt. Egal ob informativ, verspielt oder überzeugend klingen soll, der KI-Assistent passt die Nachricht entsprechend an.
+   * **[!UICONTROL Ton]**: Stellen Sie sicher, dass der Ton Ihrer E-Mail bei Ihrer Zielgruppe ankommt. Je nachdem, ob Sie informativ, humorvoll oder überzeugend klingen möchten, passt der KI-Assistent die Nachricht entsprechend an.
 
    ![Screenshot mit Optionen für Texteinstellungen in Adobe Campaign Web](assets/full-email-3.png){zoomable="yes"}
 
@@ -66,7 +66,7 @@ Im folgenden Beispiel nutzen Sie den KI-Assistenten in Adobe Campaign Web, um ei
 
    ![Screenshot mit Optionen für Bildeinstellungen in Adobe Campaign Web](assets/full-email-4.png){zoomable="yes"}
 
-1. Klicken Sie im Menü **[!UICONTROL Marken-Assets]** auf **[!UICONTROL Marken-Asset hochladen]**, um jedes Marken-Asset hinzuzufügen, das zusätzlichen Kontext für den KI-Assistenten bietet, oder wählen Sie ein zuvor hochgeladenes Asset aus.
+1. Klicken Sie im Menü **[!UICONTROL Marken-Assets]** auf **[!UICONTROL Marken-Asset hochladen]**, um beliebige Marken-Assets hinzuzufügen, die zusätzlichen Kontext für den KI-Assistenten liefern. Wählen Sie alternativ ein zuvor hochgeladenes Asset aus.
 
    Zuvor hochgeladene Dateien sind in der Dropdown-Liste **[!UICONTROL Hochgeladene Marken-Assets]** verfügbar. Aktivieren Sie die Assets, die in den Generierungsprozess einbezogen werden sollen.
 
@@ -76,7 +76,7 @@ Im folgenden Beispiel nutzen Sie den KI-Assistenten in Adobe Campaign Web, um ei
 
 1. Navigieren Sie im Fenster **[!UICONTROL Vorschau]** zur Option **[!UICONTROL Verfeinern]**, um auf zusätzliche Anpassungsfunktionen zuzugreifen:
 
-   * **[!UICONTROL Umformulieren]**: Der KI-Assistent formuliert Ihre Nachricht auf unterschiedliche Weise neu, sodass Sie frisch schreiben und für unterschiedliche Zielgruppen interessant sind.
+   * **[!UICONTROL Neu formulieren]**: Der KI-Assistent formuliert Ihre Nachricht auf verschiedene Arten um, sodass Ihre Texte für verschiedene Zielgruppen interessant und ansprechend klingen.
    * **[!UICONTROL Einfachere Sprache verwenden]**: Vereinfachen Sie Ihren Text, damit er für eine breitere Zielgruppe verständlich und zugänglich ist.
 
    Sie können auch den **[!UICONTROL Ton]** und die **[!UICONTROL Kommunikationsstrategie]** Ihres Textes ändern.
@@ -93,7 +93,7 @@ Bereiten Sie den E-Mail-Versand vor, wenn Sie Inhalt, Zielgruppe und Zeitplan de
 
 >[!TAB Nur Textgenerierung]
 
-Nutzen Sie im folgenden Beispiel den KI-Assistenten, um den Inhalt Ihrer E-Mail-Einladung für ein bevorstehendes Ereignis zu erweitern.
+Im folgenden Beispiel wird der KI-Assistent verwendet, um den Inhalt Ihrer E-Mail-Einladung für ein bevorstehendes Ereignis zu verbessern.
 
 1. Nachdem Sie Ihren E-Mail-Versand erstellt und konfiguriert haben, klicken Sie auf **[!UICONTROL Inhalt bearbeiten]**.
 
@@ -103,7 +103,7 @@ Nutzen Sie im folgenden Beispiel den KI-Assistenten, um den Inhalt Ihrer E-Mail-
 
    ![Screenshot mit Auswahl der Textkomponente in Adobe Campaign Web](assets/text-genai-1.png){zoomable="yes"}
 
-1. Aktivieren Sie die Option **[!UICONTROL Original-Inhalt verwenden]** für den KI-Assistenten, um neue Inhalte basierend auf den ausgewählten Inhalten zu personalisieren.
+1. Aktivieren Sie für den KI-Assistenten die Option **[!UICONTROL Originalinhalt verwenden]**, um neue Inhalte basierend auf dem ausgewählten Inhalt zu personalisieren.
 
 1. Passen Sie den Inhalt an, indem Sie im Feld **[!UICONTROL Prompt]** beschreiben, was Sie generieren möchten.
 
@@ -114,12 +114,12 @@ Nutzen Sie im folgenden Beispiel den KI-Assistenten, um den Inhalt Ihrer E-Mail-
 1. Passen Sie Ihren Prompt mit der Option **[!UICONTROL Texteinstellungen]** an:
 
    * **[!UICONTROL Kommunikationsstrategie]**: Wählen Sie den am besten geeigneten Kommunikationsstil für den generierten Text aus.
-   * **[!UICONTROL Ton]**: Stellen Sie sicher, dass der Ton Ihrer E-Mail bei Ihrer Zielgruppe ankommt. Egal ob informativ, verspielt oder überzeugend klingen soll, der KI-Assistent passt die Nachricht entsprechend an.
+   * **[!UICONTROL Ton]**: Stellen Sie sicher, dass der Ton Ihrer E-Mail bei Ihrer Zielgruppe ankommt. Je nachdem, ob Sie informativ, humorvoll oder überzeugend klingen möchten, passt der KI-Assistent die Nachricht entsprechend an.
    * **Textlänge**: Wählen Sie mit dem Regler die gewünschte Textlänge aus.
 
    ![Screenshot mit Optionen für Texteinstellungen in Adobe Campaign Web](assets/text-genai-3.png){zoomable="yes"}
 
-1. Klicken Sie im Menü **[!UICONTROL Marken-Assets]** auf **[!UICONTROL Marken-Asset hochladen]**, um jedes Marken-Asset hinzuzufügen, das zusätzlichen Kontext für den KI-Assistenten bietet, oder wählen Sie ein zuvor hochgeladenes Asset aus.
+1. Klicken Sie im Menü **[!UICONTROL Marken-Assets]** auf **[!UICONTROL Marken-Asset hochladen]**, um beliebige Marken-Assets hinzuzufügen, die zusätzlichen Kontext für den KI-Assistenten liefern. Wählen Sie alternativ ein zuvor hochgeladenes Asset aus.
 
    Zuvor hochgeladene Dateien sind in der Dropdown-Liste **[!UICONTROL Hochgeladene Marken-Assets]** verfügbar. Aktivieren Sie die Assets, die in den Generierungsprozess einbezogen werden sollen.
 
@@ -147,7 +147,7 @@ Bereiten Sie den E-Mail-Versand vor, wenn Sie Inhalt, Zielgruppe und Zeitplan de
 
 >[!TAB Bildgenerierung]
 
-Im folgenden Beispiel erfahren Sie, wie Sie mit dem KI-Assistenten Ihre Assets optimieren und verbessern und so ein benutzerfreundlicheres Erlebnis gewährleisten können.
+Im folgenden Beispiel erfahren Sie, wie Sie den KI-Assistenten nutzen können, um Ihre Assets zu optimieren und zu verbessern und so ein benutzerfreundlicheres Erlebnis zu gewährleisten.
 
 1. Nachdem Sie Ihren E-Mail-Versand erstellt und konfiguriert haben, klicken Sie auf **[!UICONTROL Inhalt bearbeiten]**.
 
@@ -155,13 +155,13 @@ Im folgenden Beispiel erfahren Sie, wie Sie mit dem KI-Assistenten Ihre Assets o
 
 1. Geben Sie die **[!UICONTROL grundlegenden Details]** zu Ihrem Versand an. Klicken Sie abschließend auf **[!UICONTROL E-Mail-Inhalt bearbeiten]**.
 
-1. Wählen Sie das Asset aus, das Sie mit dem KI-Assistenten ändern möchten.
+1. Wählen Sie mit dem KI-Assistenten das Asset aus, das Sie ändern möchten.
 
 1. Wählen Sie aus dem Menü auf der rechten Seite die Option **[!UICONTROL KI-Assistent]** aus.
 
    ![Screenshot mit dem Menü „KI-Assistent“ für die Bildgenerierung in Adobe Campaign Web](assets/image-genai-1.png){zoomable="yes"}
 
-1. Aktivieren Sie die Option **[!UICONTROL Referenzstil]** für den KI-Assistenten, um neue Inhalte basierend auf den ausgewählten Inhalten zu personalisieren.
+1. Aktivieren Sie für den KI-Assistenten die Option **[!UICONTROL Referenzstil]**, um neue Inhalte basierend auf dem ausgewählten Inhalt zu personalisieren.
 
 1. Passen Sie den Inhalt an, indem Sie im Feld **[!UICONTROL Prompt]** beschreiben, was Sie generieren möchten.
 
@@ -180,7 +180,7 @@ Im folgenden Beispiel erfahren Sie, wie Sie mit dem KI-Assistenten Ihre Assets o
 
    ![Screenshot mit Optionen für Bildeinstellungen in Adobe Campaign Web](assets/image-genai-3.png){zoomable="yes"}
 
-1. Klicken Sie im Menü **[!UICONTROL Marken-Assets]** auf **[!UICONTROL Marken-Asset hochladen]**, um jedes Marken-Asset hinzuzufügen, das zusätzlichen Kontext für den KI-Assistenten bietet, oder wählen Sie ein zuvor hochgeladenes Asset aus.
+1. Klicken Sie im Menü **[!UICONTROL Marken-Assets]** auf **[!UICONTROL Marken-Asset hochladen]**, um beliebige Marken-Assets hinzuzufügen, die zusätzlichen Kontext für den KI-Assistenten liefern. Wählen Sie alternativ ein zuvor hochgeladenes Asset aus.
 
    Zuvor hochgeladene Dateien sind in der Dropdown-Liste **[!UICONTROL Hochgeladene Marken-Assets]** verfügbar. Aktivieren Sie die Assets, die in den Generierungsprozess einbezogen werden sollen.
 
@@ -206,6 +206,6 @@ Im folgenden Beispiel erfahren Sie, wie Sie mit dem KI-Assistenten Ihre Assets o
 
 ## Anleitungsvideo {#video}
 
-Erfahren Sie, wie Sie mit dem KI-Assistenten vollständige E-Mail-Inhalte, Texte und Bilder generieren können.
+Erfahren Sie, wie Sie den KI-Assistenten nutzen können, um ganze E-Mails, Texte oder Bilder zu erstellen.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3428984)

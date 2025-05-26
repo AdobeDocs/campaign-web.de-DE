@@ -8,9 +8,9 @@ robots: noindex
 googlebot: noindex
 exl-id: fc98d4e3-7986-42bb-82d5-b4f874aa71db
 source-git-commit: 19a7540af7502709b7eafdace038b5958e077173
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '712'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -78,7 +78,7 @@ Gehen Sie wie folgt vor, um ein neues Kriterium zu erstellen:
 
    >[!NOTE]
    >
-   >Wenn keiner der vordefinierten Filter Ihren Anforderungen entspricht, können Sie eigene Filter im Menü **Kundenverwaltung** > **Vordefinierte Filter** erstellen. [Weitere Informationen](../get-started/predefined-filters.md)
+   >Wenn keiner der vordefinierten Filter Ihren Anforderungen entspricht, können Sie eigene Filter im Menü **Kunden-Management** > **Vordefinierte Filter** erstellen. [Weitere Informationen](../get-started/predefined-filters.md)
    >
    >Dieser Vorgang sollte nur von erfahrenen Benutzenden durchgeführt werden.
 

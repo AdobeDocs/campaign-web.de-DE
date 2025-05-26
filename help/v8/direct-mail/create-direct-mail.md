@@ -4,15 +4,15 @@ title: Erstellen eines Briefpostversands
 description: Erfahren Sie, wie Sie mit Adobe Campaign Web einen Briefpostversand erstellen.
 exl-id: 9b5172b2-1880-4768-a33b-8a20ec5a30ab
 source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '502'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 # Erstellen eines Briefpostversands {#create-direct-mail}
 
-Sie können einen eigenständigen Briefpostversand erstellen oder einen Briefpostversand im Kontext eines Kampagnen-Workflows erstellen. Die folgenden Schritte beschreiben die Vorgehensweise für einen eigenständigen (einmaligen) Briefpostversand. Wenn Sie im Kontext eines Kampagnen-Workflows arbeiten, werden in [diesem Abschnitt](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow) die Schritte beschrieben, die zum Erstellen eines solchen Versands erforderlich sind.
+Sie können einen eigenständigen Briefpostversand erstellen oder einen Briefpostversand im Kontext eines Kampagnen-Workflows erstellen. Die folgenden Schritte beschreiben die Vorgehensweise für einen eigenständigen (einmaligen) Briefpostversand. Wenn Sie im Kontext eines Kampagnen-Workflows arbeiten, werden die Erstellungsschritte in [diesem Abschnitt](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow) beschrieben.
 
 Gehen Sie wie folgt vor, um einen neuen eigenständigen Briefpostversand zu erstellen:
 
@@ -34,8 +34,7 @@ Gehen Sie wie folgt vor, um einen neuen eigenständigen Briefpostversand zu erst
    * **[!UICONTROL Versand-Code]**: Verwenden Sie dieses Feld, um Ihre Sendungen basierend auf Ihrer eigenen Namenskonvention zu organisieren.
    * **[!UICONTROL Beschreibung]**: Geben Sie eine Beschreibung für den Versand an.
    * **[!UICONTROL Art]**: Geben Sie die Art des Versands zu Klassifizierungszwecken an.
-
-   +++
++++
 
 1. Klicken Sie auf die Schaltfläche **[!UICONTROL Zielgruppe auswählen]**, um eine vorhandene Zielgruppe anzusprechen oder eine eigene zu erstellen. 
 
@@ -58,7 +57,7 @@ Gehen Sie wie folgt vor, um einen neuen eigenständigen Briefpostversand zu erst
 
    >[!NOTE]
    >
-   >Wenn ein Versand im Rahmen eines Workflows durchgeführt wird, müssen Sie die **Planungs**-Aktivität verwenden. Weitere Informationen über [diese Seite](../workflows/activities/scheduler.md).
+   >Wenn ein Versand im Rahmen eines Workflows durchgeführt wird, müssen Sie die **Planungs**-Aktivität verwenden. Erfahren Sie mehr über [diese Seite](../workflows/activities/scheduler.md).
 
 1. Klicken Sie auf **[!UICONTROL Einstellungen]**, um auf die erweiterten Optionen für Ihre Versandvorlage zuzugreifen. [Weitere Informationen](../advanced-settings/delivery-settings.md)
 

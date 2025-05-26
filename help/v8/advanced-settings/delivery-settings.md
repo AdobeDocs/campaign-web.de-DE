@@ -5,9 +5,9 @@ description: Erfahren Sie, wie Sie Versandeinstellungen in Campaign Web konfigur
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2765'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -72,7 +72,7 @@ Drei Modi sind verfügbar:
 
 >[!NOTE]
 >
->Die Ermüdungsverwaltung und Druckregeln werden in der Campaign-Client-Konsole konfiguriert. Weitere Informationen finden Sie in [ Dokumentation zu Campaign v8 (Client-Konsole](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=de){target="_blank"}.
+>Die Ermüdungsverwaltung und Druckregeln werden in der Campaign-Client-Konsole konfiguriert. Weitere Informationen finden Sie in der [Dokumentation zu Campaign v8 (Client-Konsole)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=de){target="_blank"}.
 
 ### Kapazitätseinstellungen {#capacity-settings}
 
@@ -92,7 +92,7 @@ Das Feld **[!UICONTROL Wichtigkeit der Empfängerin bzw. des Empfängers]** ist 
 
 >[!NOTE]
 >
->Typologieregeln werden in der Campaign-Client-Konsole konfiguriert. Weitere Informationen finden Sie in [ Dokumentation zu Campaign v8 (Client-Konsole](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html?lang=de){target="_blank"}.
+>Typologieregeln werden in der Campaign-Client-Konsole konfiguriert. Weitere Informationen finden Sie in der [Dokumentation zu Campaign v8 (Client-Konsole)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html?lang=de){target="_blank"}.
 
 ## Zielgruppeneinstellungen {#audience}
 
@@ -101,7 +101,7 @@ Das Feld **[!UICONTROL Wichtigkeit der Empfängerin bzw. des Empfängers]** ist 
 >title="Zielgruppeneinstellungen für den Versand"
 >abstract="Ein **Zielgruppen-Mapping** unter den verfügbaren Optionen auswählen. Zielgruppen-Mappings werden in der Adobe Campaign v8-Konsole definiert. Außerdem können die Ausschlussparameter für den Versand festgelegt werden."
 
-In diesem Abschnitt können Sie ein verfügbares **Zielgruppen-Mapping** auswählen. Zielgruppen-Mappings werden in der Adobe Campaign v8-Konsole definiert. Zielgruppen-Mapping ist der Datentyp, den ein Vorgang verarbeitet. Es ermöglicht die Bestimmung der Zielpopulation: Empfängerinnen und Empfänger, Vertragsbegünstigte, Benutzerinnen und Benutzer sowie Abonnentinnen und Abonnenten.  [Weitere Informationen zu Zielgruppen-Mappings](../audience/targeting-dimensions.md).
+In diesem Abschnitt können Sie ein verfügbares **Zielgruppen-Mapping** auswählen. Zielgruppen-Mappings werden in der Adobe Campaign v8-Konsole definiert. Zielgruppen-Mapping ist der Datentyp, den ein Vorgang verarbeitet. Es ermöglicht die Bestimmung der Zielpopulation: Empfängerinnen und Empfänger, Vertragsbegünstigte, Benutzerinnen und Benutzer sowie Abonnentinnen und Abonnenten.  [Erfahren Sie mehr zu Zielgruppen-Mappings](../audience/targeting-dimensions.md).
 
 Im Feld **[!UICONTROL Ausschluss]** können Sie Profile ausschließen, die nicht mehr kontaktiert werden möchten oder sich in Quarantäne befinden. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html?lang=de){target="_blank"}
 
@@ -130,7 +130,7 @@ Sie können folgende **[!UICONTROL Versandeinstellungen]** definieren:
 
 * **[!UICONTROL SMTP-Versand testen]** (E-Mail-Kanal): Diese Option wird verwendet, um den Versand über SMTP zu testen. Die E-Mail wird bis zur Verbindung mit dem SMTP-Server verarbeitet, aber nicht gesendet: Für jede Empfängerin und jeden Empfänger der E-Mail stellt Campaign eine Verbindung mit dem Server des SMTP-Anbieters her, führt den SMTP-Befehl RCPT TO aus und trennt die Verbindung vor dem SMTP-Befehl DATA.
 
-* **[!UICONTROL E-Mail-BCC]** (E-Mail-Kanal): Diese Option wird verwendet, um mit der BCC-Funktion E-Mails in einem externen System zu speichern, indem einfach eine E-Mail-Adresse als BCC zu Ihrer Nachrichtenzielgruppe hinzugefügt wird. Weitere Informationen finden Sie in [ Dokumentation zu Campaign v8 (Client-Konsole](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email-bcc.html?lang=de){target="_blank"}.
+* **[!UICONTROL E-Mail-BCC]** (E-Mail-Kanal): Diese Option wird verwendet, um mit der BCC-Funktion E-Mails in einem externen System zu speichern, indem einfach eine E-Mail-Adresse als BCC zu Ihrer Nachrichtenzielgruppe hinzugefügt wird. Weitere Informationen finden Sie in der [Dokumentation zu Campaign v8 (Client-Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email-bcc.html?lang=de){target="_blank"}.
 
 Wählen Sie im Abschnitt **[!UICONTROL Wellendefinition]** die Option **[!UICONTROL In mehreren Schüben versenden]**, um das gesendete Volumen progressiv in Schüben zu erhöhen. Dadurch wird verhindert, dass Ihre Nachrichten als Spam gekennzeichnet werden, oder Sie können die Anzahl der pro Tag versendeten Nachrichten beschränken. Mit Schüben können Sie Sendungen in mehrere Teilsendungen unterteilen, anstatt große Mengen von Nachrichten gleichzeitig zu senden. [Weitere Informationen](send-using-waves.md)
 
@@ -159,7 +159,7 @@ Außerdem können die Tags definiert werden, die für das verwendete Analyse-Too
 
 >[!NOTE]
 >
->Web-Analyse-Funktionen werden in der Campaign-Client-Konsole konfiguriert. Weitere Informationen finden Sie in [ Dokumentation zu Campaign v8 (Client-Konsole](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aa.html?lang=de#external-account-ac){target="_blank"}.
+>Web-Analyse-Funktionen werden in der Campaign-Client-Konsole konfiguriert. Weitere Informationen finden Sie in der [Dokumentation zu Campaign v8 (Client-Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aa.html?lang=de#external-account-ac){target="_blank"}.
 
 ## Weitere Zustellversuche {#retries}
 
@@ -228,7 +228,7 @@ Das Feld **[!UICONTROL Gültigkeit von Ressourcen]** wird für hochgeladene Ress
 
 <!--Change screenshot to be consistent with prod > not sure which version is correct-->
 
-Weitere Informationen zur Versandgültigkeit finden Sie in der [ zu Campaign v8 (Client-Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=de#validity-period){target="_blank"}.
+Weitere Informationen zur Gültigkeitsdauer von Sendungen finden Sie in der [Dokumentation zu Campaign v8 (Client-Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=de#validity-period){target="_blank"}.
 
 ### Verwaltung der Mirrorseite (E-Mail-Kanal) {#mirror}
 

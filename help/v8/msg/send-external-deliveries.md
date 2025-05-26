@@ -4,23 +4,23 @@ title: Erste Schritte mit externen Sendungen
 description: Erfahren Sie, wie Sie mit Adobe Campaign Web externe Sendungen erstellen und durchführen.
 exl-id: 08fe9333-aa35-4acf-ba41-4c6895049bbc
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '464'
-ht-degree: 37%
+ht-degree: 100%
 
 ---
 
 # Durchführen von externen Sendungen {#gs-direct-mail}
 
-Mit Adobe Campaign können Sie Sendungen verwalten, die außerhalb von Campaign erstellt wurden, um über ein externes System personalisierte E-Mails, SMS-Nachrichten oder Push-Benachrichtigungen (iOS und Android) in großen Mengen zu versenden.
+Adobe Campaign ermöglicht das Verwalten von Sendungen, die außerhalb von Campaign erstellt wurden, um personalisierte E-Mails, SMS-Nachrichten oder Push-Benachrichtigungen (iOS und Android) in großen Mengen über ein externes System zu versenden.
 
 <!--The supported channels are Email, Mobile (SMS), and Push (iOS and Android).-->
 
-Beim Erstellen eines externen Versands generiert Adobe Campaign automatisch eine Extraktionsdatei, die alle Zielgruppenprofile und ausgewählten Daten enthält. Diese Datei wird an den Server Ihrer Wahl gesendet, der den Sendevorgang verarbeitet.
+Beim Erstellen eines externen Versands generiert Adobe Campaign automatisch eine Extraktionsdatei, die alle Zielgruppenprofile und ausgewählten Daten enthält. Diese Datei wird an den Server Ihrer Wahl gesendet, der den Versandprozess verarbeitet.
 
 ## Erstellen eines dedizierten externen Kontos {#routing-external-account}
 
-Sie müssen ein bestimmtes externes Konto konfigurieren, das in Ihren externen Sendungen verwendet werden soll. Es muss vom Typ **[!UICONTROL Routing]** sein.
+Sie müssen ein bestimmtes externes Konto für Ihre externen Sendungen konfigurieren. Es muss vom Typ **[!UICONTROL Routing]** sein.
 
 >[!NOTE]
 >
@@ -38,37 +38,37 @@ Nachdem das spezifische externe Konto konfiguriert wurde, erstellen Sie den exte
 
    Sie haben drei Möglichkeiten:
 
-   * **In einem Workflow**: Fügen Sie eine externe Kanalaktivität (E-Mail, SMS oder Push) zu Ihrem Workflow hinzu. Detaillierte Anweisungen zum Konfigurieren von Workflows finden Sie auf [dieser Seite](../workflows/gs-workflow-creation.md).
-   * **In einer Kampagne**: Nach der Erstellung einer Kampagne können Sie einen externen E-Mail-, SMS- oder Push-Kanal-Versand erstellen. Weiterführende Informationen zum Einrichten Ihrer Kampagne finden Sie auf [dieser Seite](../campaigns/gs-campaigns.md).
+   * **In einem Workflow**: Fügen Sie Ihrem Workflow eine externe Kanalaktivität (E-Mail, SMS oder Push) hinzu. Detaillierte Anweisungen zum Konfigurieren von Workflows finden Sie auf [dieser Seite](../workflows/gs-workflow-creation.md).
+   * **In einer Kampagne**: Nachdem Sie eine Kampagne erstellt haben, können Sie einen externen Versand über den E-Mail-, SMS- oder Push-Kanal erstellen. Weiterführende Informationen zum Einrichten Ihrer Kampagne finden Sie auf [dieser Seite](../campaigns/gs-campaigns.md).
    * **Eigenständiger Versand**: Binden Sie Kundinnen und Kunden direkt und sofort mit einem individuellen externen Versand ein. [Erfahren Sie, wie Sie einen Versand erstellen](../msg/gs-deliveries.md).
 
-1. Wählen Sie in Versand oder Versandvorlage [Einstellungen](../advanced-settings/delivery-settings.md) das externe Konto aus, das für den Kanal Ihrer Wahl erstellt wurde (in diesem Beispiel den SMS-Kanal), und speichern Sie.
+1. Wählen Sie in den [Einstellungen](../advanced-settings/delivery-settings.md) des Versands oder der Versandvorlage das für den Kanal Ihrer Wahl erstellte externe Konto aus (in diesem Beispiel den SMS-Kanal) und speichern Sie es.
 
-   ![Routing-Konfiguration für externe Sendungen](assets/external-delivery-routing.png){zoomable="yes"}
+   ![Konfiguration des Routings des externen Versands](assets/external-delivery-routing.png){zoomable="yes"}
 
    >[!NOTE]
    >
-   >Wenn Sie einen Versand erstellen, stellen Sie sicher, dass Sie eine [Versandvorlage](delivery-template.md) mit einem externen Konto vom Typ **[!UICONTROL Routing]** ausgewählt haben. Andernfalls können Sie das erstellte dedizierte Konto nicht auswählen [oben](#routing-external-account).
+   >Stellen Sie beim Erstellen eines Versands sicher, dass Sie eine [Versandvorlage](delivery-template.md) mit einem externen Konto vom Typ **[!UICONTROL Routing]** ausgewählt haben. Andernfalls können Sie das [oben](#routing-external-account) erstellte dedizierte Konto nicht auswählen.
 
-1. Klicken Sie im Abschnitt **[!UICONTROL Inhaltsversand]** auf **[!UICONTROL Inhalt bearbeiten]**.
+1. Klicken Sie im Abschnitt **[!UICONTROL Inhalt]** für den Versand auf **[!UICONTROL Inhalt bearbeiten]**.
 
-   ![Inhalt im externen Versand bearbeiten](assets/external-delivery-edit-content.png){zoomable="yes"}
+   ![Bearbeiten von Inhalt im externen Versand](assets/external-delivery-edit-content.png){zoomable="yes"}
 
-1. Im Gegensatz zu einem Standardversand entwerfen Sie den Inhalt der Nachricht nicht selbst. Definieren Sie stattdessen die Eigenschaften und Spalten der Datei, die an das externe System gesendet werden soll.
+1. Im Gegensatz zu einem Standardversand gestalten Sie nicht den Inhalt der Nachricht selbst. Stattdessen definieren Sie die Eigenschaften und Spalten der Datei, die an das externe System gesendet wird.
 
    ![Konfiguration der Dateieigenschaften für den externen Versand](assets/external-delivery-file-properties.png){zoomable="yes"}
 
    Führen Sie die gleichen Schritte wie beim Entwerfen des Inhalts der von [Briefpost-Sendungen](../direct-mail/content-direct-mail.md) generierten Extraktionsdatei aus:
 
    * Definieren Sie die Eigenschaften der Extraktionsdatei. [Weitere Informationen](../direct-mail/content-direct-mail.md#properties)
-   * Auswahl der Spalten mit den Informationen, die in die Datei exportiert werden sollen. [Weitere Informationen](../direct-mail/content-direct-mail.md#content)
+   * Wählen Sie die Spalten mit den Informationen aus, die in die Datei exportiert werden sollen. [Weitere Informationen](../direct-mail/content-direct-mail.md#content)
 
-1. Vorschau der Datei und Testversand<!--not in UI right now - to check-->. [Weitere Informationen](../direct-mail/send-direct-mail.md#preview-dm)
+1. Zeigen Sie eine Vorschau der Datei an und senden Sie Testsendungen<!--not in UI right now - to check-->. [Weitere Informationen](../direct-mail/send-direct-mail.md#preview-dm)
 
    ![Simulieren des externen Versands](assets/external-delivery-simulate.png){zoomable="yes"}
 
 1. Senden Sie den Versand, damit die Extraktionsdatei generiert wird. [Weitere Informationen](../direct-mail/send-direct-mail.md#send-dm)
 
-Nach dem Versand wird die Extraktionsdatei automatisch generiert und an den Speicherort exportiert, der im [externen Konto](../administration/external-account.md#create-ext-account) angegeben ist, das in den Einstellungen der Versandvorlage ausgewählt wurde.
+Nach dem Versand wird die Extraktionsdatei automatisch generiert und an den Speicherort exportiert, der in dem [externen Konto](../administration/external-account.md#create-ext-account) angegeben ist, das in den Einstellungen der Versandvorlage ausgewählt ist.
 
-Verfolgen Sie die KPIs auf der Versandseite und die Daten im Menü **[!UICONTROL Protokolle]**.
+Verfolgen Sie die Daten der KPIs über die Versandseite und weitere Daten über das Menü **[!UICONTROL Logs]**.

@@ -4,7 +4,7 @@ title: Arbeiten mit Geschäftsregeln (Typologien)
 description: Erfahren Sie, wie Sie mit Typologien und Typologieregeln arbeiten können, um den Versand von Sendungen zu steuern, zu filtern und zu überwachen.
 exl-id: 54fdd03a-e49d-4f22-b6d4-6055c8922e58
 source-git-commit: 4444fc6742754137d1d73d7ea8bc12388ce1bc7d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1474'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="acw_business_rules_typology_rules_type"
->title="Filtern"
+>title="Filterung"
 >abstract=" Es stehen zwei Arten von Typologieregeln zur Verfügung: <br/><br/>**Steuerungsregeln**, die vor dem Versand die Qualität und Gültigkeit der Nachrichten sicherstellen, z. B. Zeichenanzeige, SMS-Länge, Adressformat oder URL-Verkürzung. Und <br/><br/>**Filterregeln**, die Segmente der Zielgruppe anhand bestimmter Kriterien wie Alter, Standort, Land oder Telefonnummern ausschließen. "
 
 ## Über Typologien
@@ -154,7 +154,7 @@ So definieren Sie die Eigenschaften der Typologieregel:
 
 >[!CONTEXTUALHELP]
 >id="acw_business_rules_typology_rules_filtering"
->title="Filtern"
+>title="Filterung"
 >abstract="**Filterregeln** schließen Segmente der Zielgruppe basierend auf bestimmten Kriterien wie Alter, Standort, Land oder Telefonnummern aus. Wählen Sie die Zielgruppendimension der Typologieregel aus und klicken Sie auf die Schaltfläche **[!UICONTROL Regeln hinzufügen]**, um auf den Abfrage-Modeler zuzugreifen und die Regel zu erstellen."
 
 >[!CONTEXTUALHELP]

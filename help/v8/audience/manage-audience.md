@@ -4,9 +4,9 @@ title: Erste Schritte mit Zielgruppen
 description: Erfahren Sie, wie Sie in Adobe Campaign Web mit Zielgruppen arbeiten.
 exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
 source-git-commit: b330230a031a366b674ebac37681274ee89ec6c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '387'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ Zielgruppen können aus mehreren Quellen stammen. Die Spalte **[!UICONTROL Herku
 
 Um weitere Informationen zu einer Zielgruppe zu erhalten, öffnen Sie sie in der Liste. Die Eigenschaften der Zielgruppe werden zusammen mit der Anzahl der in der Zielgruppe enthaltenen Profile angezeigt. Die Zielgruppengröße kann jederzeit mit der Schaltfläche **[!UICONTROL Berechnen]** aktualisiert werden.
 
-Um das temporäre Schema einer Zielgruppe in der Vorschau anzuzeigen, klicken Sie auf die Schaltfläche **[!UICONTROL Schemavorschau]** unter dem Abschnitt Eigenschaften .
+Um das temporäre Schema einer Zielgruppe in der Vorschau anzuzeigen, klicken Sie auf die Schaltfläche **[!UICONTROL Schemavorschau]** unter dem Abschnitt „Eigenschaften“.
 
 Die Registerkarte **[!UICONTROL Daten]** ermöglicht die Visualisierung der Profile, die Teil der Zielgruppe sind. Sie können diese Ansicht anpassen, indem Sie weitere Spalten hinzufügen oder erweiterte Filter nutzen, um die angezeigten Daten zu präzisieren.
 

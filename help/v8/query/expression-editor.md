@@ -4,9 +4,9 @@ title: Erstellen Ihrer erste Abfrage mithilfe des Abfrage-Modelers
 description: Erfahren Sie, wie Sie Ihre erste Abfrage im Abfrage-Modeler in Adobe Campaign Web erstellen.
 exl-id: f9a365ac-c8be-423f-a99d-40ad5492223c
 source-git-commit: df5883f8178bc5287145c587b06dd5664400ed90
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2192'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Die Bearbeitung von Ausdrücken erfolgt durch die manuelle Eingabe von Bedingung
 
 >[!IMPORTANT]
 >
->Eine brandneue Benutzeroberfläche für den Abfrage-Modellierer ist verfügbar. Um zu diesem neuen Erlebnis im Regel-Builder zu wechseln, drücken Sie die Umschalttaste in der oberen rechten Ecke. Sie können jederzeit zum klassischen Abfrage-Modellierer zurückkehren, indem Sie einfach den Umschalter drücken, um die neue Benutzeroberfläche zu deaktivieren. Sie können in dieser neuen Benutzeroberfläche dieselben Prinzipien wie beim Abfrage-Modellierer anwenden.
+>Eine brandneue Benutzeroberfläche für den Abfrage-Modeler ist verfügbar. Um zu diesem neuen Erlebnis im Regel-Builder zu wechseln, klicken Sie auf den Umschalter in der oberen rechten Ecke. Sie können jederzeit zum klassischen Abfrage-Modeler zurückkehren, indem Sie einfach auf den Umschalter klicken, um die neue Benutzeroberfläche zu deaktivieren. Sie können in dieser neuen Benutzeroberfläche dieselben Prinzipien wie beim Abfrage-Modeler anwenden.
 >![Bild, das den Umschalter für die neue Benutzeroberfläche des Regel-Builders zeigt](assets/query-modeler-toggle.png){zoomable="yes"}
 
 ## Arbeiten mit dem Ausdruckseditor {#edit}
@@ -48,7 +48,7 @@ Das folgende Beispiel zeigt einen für das Feld **[!UICONTROL Wert]** konfigurie
 
 >[!BEGINTABS]
 
->[!TAB Klassischer Abfrage-Modellierer]
+>[!TAB Klassischer Abfrage-Modeler]
 
 ![Beispiel für die Bearbeitung eines Ausdrucks für ein Wertefeld](assets/edit-expression-value.png){zoomable="yes"}
 

@@ -3,9 +3,9 @@ title: Entdecken der Details von Profilen
 description: Erfahren Sie, wie Sie die Details eines Profils durchsuchen.
 exl-id: 172dec7d-24c6-4c35-bb45-5dc3ce9fadeb
 source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '217'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -24,12 +24,12 @@ Informationen zum Profil sind wie folgt organisiert:
 
   ![Screenshot mit der Registerkarte mit den Profildetails, einschließlich integrierten und benutzerdefinierten Attributen.](assets/profile-details.png){zoomable="yes"}
 
-* Unter der Registerkarte **[!UICONTROL Abonnements]** finden Sie Informationen zu den Diensten, für die das Profil angemeldet ist. [Erfahren Sie mehr über Abonnement-Services](manage-services.md)
+* Unter der Registerkarte **[!UICONTROL Abonnements]** finden Sie Informationen zu den Diensten, für die das Profil angemeldet ist. [Weitere Informationen zu Abonnementdiensten](manage-services.md)
 
   ![Screenshot mit der Registerkarte „Abonnements“, auf der die Dienste aufgeführt sind, für die das Profil angemeldet ist.](assets/profile-subscriptions.png){zoomable="yes"}
 
-* Des Weiteren könnten Sie über die Schaltfläche **[!UICONTROL Logs]** oben rechts im Bildschirm den Verlauf der Interaktionen des Profils in Form von Versand-, Ausschluss- und Trackinglogs anzeigen. [Erfahren Sie mehr über Versandlogs](../monitor/delivery-logs.md)
+* Des Weiteren könnten Sie über die Schaltfläche **[!UICONTROL Logs]** oben rechts im Bildschirm den Verlauf der Interaktionen des Profils in Form von Versand-, Ausschluss- und Trackinglogs anzeigen. [Weitere Informationen zu Versandlogs](../monitor/delivery-logs.md)
 
-  Auf der Registerkarte **[!UICONTROL Vorschläge]** in diesen Protokollen können Sie auch sehen, welche Angebote dem Profil unterbreitet wurden. [Erfahren Sie mehr über Angebote](../msg/offers.md)
+  Auf der Registerkarte **[!UICONTROL Vorschläge]** in diesen Protokollen können Sie auch sehen, welche Angebote dem Profil unterbreitet wurden. [Weitere Informationen zu Angeboten](../msg/offers.md)
 
   ![Screenshot mit der Registerkarte „Logs“, einschließlich Versand-, Ausschluss- und Trackinglogs, sowie der Registerkarte „Vorschläge“ zur Überprüfung von Angeboten.](assets/profile-logs.png){zoomable="yes"}

@@ -3,9 +3,9 @@ title: Arbeiten mit Schemata
 description: Erfahren Sie, wie Sie mit Schemata arbeiten.
 exl-id: 1433a441-1673-45a2-9fec-be9550fbba0d
 source-git-commit: 609718356ace500b831601dac077f9a3333e00e9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '479'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -67,10 +67,10 @@ Die Registerkarte **[!UICONTROL Daten]** enthält Informationen zu den Schemadat
 
 Benutzerdefinierte Felder sind zusätzliche Attribute, die über die Adobe Campaign-Konsole zu vorkonfigurierten Schemata hinzugefügt werden. Sie ermöglichen es Ihnen, Schemata anzupassen, indem neue Attribute entsprechend den Anforderungen Ihrer Organisation eingefügt werden. 
 
-Benutzerdefinierte Felder können auf verschiedenen Bildschirmen angezeigt werden, z. B. in den Profildetails der Campaign Web-Benutzeroberfläche. Sie können steuern, welche Felder sichtbar sind und wie sie in der Oberfläche angezeigt werden. Klicken Sie dazu auf die Schaltfläche **[!UICONTROL Bildschirmbearbeitung]** im Menü **[!UICONTROL Schemata]**.
+Benutzerdefinierte Felder können auf verschiedenen Bildschirmen angezeigt werden, z. B. in den Profildetails der Campaign Web-Benutzeroberfläche. Sie können steuern, welche Felder sichtbar sind und wie sie in der Oberfläche angezeigt werden. Klicken Sie dazu im Menü **[!UICONTROL Schemata]** auf die Schaltfläche **[!UICONTROL Bildschirmbearbeitung]**.
 
 ![Bildschirm für benutzerdefinierte Felder mit bearbeitbaren Attributen](assets/schemas-custom.png)
 
-Klicken Sie **[!UICONTROL Vorschau]**, um die benutzerdefinierten Felder in einem Beispielbildschirm anzuzeigen.
+Klicken Sie auf **[!UICONTROL Vorschau]**, um die benutzerdefinierten Felder auf einem Beispielbildschirm anzuzeigen.
 
 Detaillierte Informationen zum Bearbeiten von benutzerdefinierten Feldern in einem Schema finden Sie unter [Konfigurieren benutzerdefinierter Felder](../administration/custom-fields.md).

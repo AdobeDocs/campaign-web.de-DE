@@ -4,9 +4,9 @@ title: Globale Berichte für den Briefpost-Kanal
 description: Erfahren Sie mehr über globale Berichte für den Briefpost-Kanal
 exl-id: a42536fe-375b-4169-8775-d47ed26692f8
 source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '659'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Die **[!UICONTROL Versandübersicht]** bietet wichtige Leistungsmetriken (KPIs) 
 
 ![Dieses Bild zeigt die Metriken der Versandübersicht für Briefpost-Sendungen.](assets/global_report_direct_mail_delivery_overview.png){zoomable="yes"}{align="center"}
 
-+++ Erfahren Sie mehr über Metriken zur Versandübersicht.
++++Erfahren Sie mehr über Versandübersichtsmetriken.
 
 * **[!UICONTROL Zu sendende Nachrichten]**: Gesamtzahl der während der Versandvorbereitung verarbeiteten Nachrichten.
 
@@ -57,7 +57,7 @@ Die Tabelle und der Graph **[!UICONTROL Zielgruppe]** zeigen Daten zu Ihren Empf
 
 ![Dieses Bild zeigt die Metriken der angesprochenen Zielgruppe für Briefpost-Sendungen.](assets/global_report_direct_mail_targeted_audience.png){zoomable="yes"}{align="center"}
 
-+++ Erfahren Sie mehr über Metriken für zielgerichtete Zielgruppen.
++++Erfahren Sie mehr über Zielgruppenmetriken.
 
 * **[!UICONTROL Zielgruppe]**: Gesamtzahl der angesprochenen Empfängerinnen und Empfänger.
 
@@ -81,7 +81,7 @@ Die Tabelle und der Graph **[!UICONTROL Zielgruppe]** zeigen Daten zu Ihren Empf
 
 Der Graph **[!UICONTROL Versandstatistiken]** bietet eine Aufschlüsselung des Erfolgs jedes Briefpostversands mit folgenden detaillierten Metriken.
 
-+++ Erfahren Sie mehr über Metriken der Versandstatistiken.
++++Erfahren Sie mehr über Versandstatistikmetriken.
 
 * **[!UICONTROL Zu versendende Nachricht(en)]**: Gesamtzahl der nach erfolgter Versandvorbereitung zu versendenden Nachrichten.
 
@@ -109,7 +109,7 @@ Der Graph **[!UICONTROL Versandstatistiken]** bietet eine Aufschlüsselung des E
 
 Der Graph und die Tabelle „Ausschlüsse“ zeigen die Gründe, aus denen Benutzerprofile, die aus den Zielprofilen ausgeschlossen sind, die Benachrichtigung nicht erhalten haben.
 
-+++ Erfahren Sie mehr über die Ursachen von Ausschlussmetriken.
++++Erfahren Sie mehr über Metriken zu Ausschlussgründen.
 
 * **[!UICONTROL Adresse in Quarantäne]**: Fehlertyp, der erzeugt wird, wenn eine Adresse unter Quarantäne gestellt wird.
 

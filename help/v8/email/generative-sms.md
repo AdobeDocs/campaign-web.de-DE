@@ -1,25 +1,25 @@
 ---
 audience: end-user
-title: SMS mit KI-Assistent
+title: SMS mit dem KI-Assistenten
 description: Erste Schritte mit dem KI-Assistenten
 exl-id: db0459e5-8759-42d9-8945-8c9667450527
 source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '884'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
-# SMS-Generierung mit KI-Assistent {#generative-sms}
+# Generierung von SMS mit dem KI-Assistenten {#generative-sms}
 
 >[!IMPORTANT]
 >
 >Bevor Sie mit der Verwendung dieser Funktion beginnen, lesen Sie die entsprechenden Informationen unter [Schutzmechanismen und Einschränkungen](generative-gs.md#generative-guardrails).
 ></br>
 >
->Sie müssen einer [Benutzervereinbarung“ zustimmen](https://www.adobe.com/de/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) bevor Sie den KI-Assistenten in Adobe Campaign Web verwenden. Weitere Informationen erhalten Sie beim Adobe-Support.
+>Sie müssen einer [Benutzervereinbarung](https://www.adobe.com/de/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) zustimmen, bevor Sie den KI-Assistenten in Adobe Campaign Web verwenden können. Weitere Informationen erhalten Sie beim Adobe-Support.
 
-Sobald Sie Ihre SMS-Nachrichten entsprechend Ihren Zielgruppen gestaltet und personalisiert haben, verbessern Sie Ihre Kommunikation mit dem KI-Assistenten im Adobe Campaign Web, der auf innovativer KI-Technologie basiert.
+Wenn Sie die SMS-Nachrichten für Ihre Zielgruppe erstellt und personalisiert haben, können Sie Ihre Kommunikation mit dem auf innovativer KI-Technologie basierenden KI-Assistenten in Adobe Campaign Web auf die nächste Ebene bringen.
 
 Dieses Tool liefert intelligente Vorschläge für die Verfeinerung Ihrer Inhalte und stellt sicher, dass Ihre Nachrichten effektiv ankommen und die Interaktion maximiert wird.
 
@@ -46,12 +46,12 @@ Dieses Tool liefert intelligente Vorschläge für die Verfeinerung Ihrer Inhalte
 1. Passen Sie Ihren Prompt mit der Option **[!UICONTROL Texteinstellungen]** an:
 
    * **[!UICONTROL Kommunikationsstrategie]**: Wählen Sie den am besten geeigneten Kommunikationsstil für den generierten Text aus.
-   * **[!UICONTROL Ton]**: Stellen Sie sicher, dass der Ton Ihrer E-Mail bei Ihrer Zielgruppe ankommt. Egal ob informativ, verspielt oder überzeugend klingen soll, der KI-Assistent passt die Nachricht entsprechend an.
+   * **[!UICONTROL Ton]**: Stellen Sie sicher, dass der Ton Ihrer E-Mail bei Ihrer Zielgruppe ankommt. Je nachdem, ob Sie informativ, humorvoll oder überzeugend klingen möchten, passt der KI-Assistent die Nachricht entsprechend an.
    * **Textlänge**: Wählen Sie mit dem Regler die gewünschte Textlänge aus.
 
    ![Screenshot mit Optionen für Texteinstellungen](assets/sms-genai-3.png){zoomable="yes"}
 
-1. Klicken Sie im Menü **[!UICONTROL Marken-Assets]** auf **[!UICONTROL Marken-Asset hochladen]**, um ein Marken-Asset mit Inhalten hinzuzufügen, das zusätzlichen Kontext für den KI-Assistenten bietet, oder wählen Sie ein zuvor hochgeladenes Asset aus.
+1. Klicken Sie im Menü **[!UICONTROL Marken-Assets]** auf **[!UICONTROL Marken-Asset hochladen]**, um beliebige Marken-Assets mit Inhalten hinzuzufügen, die zusätzlichen Kontext für den KI-Assistenten liefern können. Wählen Sie alternativ ein zuvor hochgeladenes Asset aus.
 
    Zuvor hochgeladene Dateien sind in der Dropdown-Liste **[!UICONTROL Hochgeladene Marken-Assets]** verfügbar. Aktivieren Sie die Assets, die in den Generierungsprozess einbezogen werden sollen.
 
@@ -64,8 +64,8 @@ Dieses Tool liefert intelligente Vorschläge für die Verfeinerung Ihrer Inhalte
 1. Navigieren Sie zur Option **[!UICONTROL Verfeinern]** im Fenster **[!UICONTROL Vorschau]**, um auf weitere Anpassungsfunktionen zuzugreifen und Ihre Variante nach Ihren Vorlieben zu gestalten:
 
    * **[!UICONTROL Als Referenzinhalt verwenden]**: Die gewählte Variante dient hierbei als Referenzinhalt für die Generierung anderer Ergebnisse.
-   * **[!UICONTROL Einfachere Sprache verwenden]**: Der KI-Assistent hilft Ihnen, klare, knappe Botschaften zu schreiben, die jeder verstehen kann.
-   * **[!UICONTROL Umformulieren]**: Der KI-Assistent formuliert Ihre Nachricht neu, damit sie für verschiedene Zielgruppen interessant bleibt.
+   * **[!UICONTROL Einfachere Sprache verwenden]**: Der KI-Assistent hilft Ihnen, klare, präzise Nachrichten zu schreiben, die alle verstehen.
+   * **[!UICONTROL Neu formulieren]**: Der KI-Assistent formuliert Ihre Nachricht um, um sie für verschiedene Zielgruppen ansprechend zu gestalten.
 
    Sie können auch den **[!UICONTROL Ton]** und die **[!UICONTROL Kommunikationsstrategie]** Ihres Textes ändern.
 
@@ -97,7 +97,7 @@ Bereiten Sie den SMS-Versand vor, wenn Sie Inhalt, Zielgruppe und Zeitplan defin
 
    ![Screenshot mit dem Menü „KI-Assistent“](assets/sms-text-1.png){zoomable="yes"}
 
-1. Aktivieren Sie die Option **[!UICONTROL Referenzinhalt verwenden]** für den KI-Assistenten, um neue Inhalte basierend auf den ausgewählten Inhalten zu personalisieren.
+1. Aktivieren Sie für den KI-Assistenten die Option **[!UICONTROL Referenzinhalt verwenden]**, um neue Inhalte basierend auf dem ausgewählten Inhalt zu personalisieren.
 
 1. Passen Sie den Inhalt an, indem Sie im Feld **[!UICONTROL Prompt]** beschreiben, was Sie generieren möchten.
 
@@ -114,7 +114,7 @@ Bereiten Sie den SMS-Versand vor, wenn Sie Inhalt, Zielgruppe und Zeitplan defin
 
    ![Screenshot mit Optionen für Texteinstellungen](assets/sms-text-3.png){zoomable="yes"}
 
-1. Klicken Sie im Menü **[!UICONTROL Marken-Assets]** auf **[!UICONTROL Marken-Asset hochladen]**, um ein Marken-Asset mit Inhalten hinzuzufügen, das zusätzlichen Kontext für den KI-Assistenten bietet, oder wählen Sie ein zuvor hochgeladenes Asset aus.
+1. Klicken Sie im Menü **[!UICONTROL Marken-Assets]** auf **[!UICONTROL Marken-Asset hochladen]**, um beliebige Marken-Assets mit Inhalten hinzuzufügen, die zusätzlichen Kontext für den KI-Assistenten liefern können. Wählen Sie alternativ ein zuvor hochgeladenes Asset aus.
 
    Zuvor hochgeladene Dateien sind in der Dropdown-Liste **[!UICONTROL Hochgeladene Marken-Assets]** verfügbar. Aktivieren Sie die Assets, die in den Generierungsprozess einbezogen werden sollen.
 
@@ -125,8 +125,8 @@ Bereiten Sie den SMS-Versand vor, wenn Sie Inhalt, Zielgruppe und Zeitplan defin
 1. Navigieren Sie zur Option **[!UICONTROL Verfeinern]** im Fenster **[!UICONTROL Vorschau]**, um auf weitere Anpassungsfunktionen zuzugreifen und Ihre Variante nach Ihren Vorlieben zu gestalten:
 
    * **[!UICONTROL Als Referenzinhalt verwenden]**: Die gewählte Variante dient hierbei als Referenzinhalt für die Generierung anderer Ergebnisse.
-   * **[!UICONTROL Umformulieren]**: Der KI-Assistent kann Ihre Nachricht auf unterschiedliche Weise umformulieren, sodass Sie frisch schreiben und für unterschiedliche Zielgruppen interessant sind.
-   * **[!UICONTROL Einfachere Sprache verwenden]**: Nutzen Sie den KI-Assistenten, um Ihre Sprache zu vereinfachen und einer breiteren Zielgruppe Klarheit und Barrierefreiheit zu bieten.
+   * **[!UICONTROL Umformulieren]**: Der KI-Assistent kann Ihre Nachricht auf verschiedene Arten umformulieren, sodass Ihre Texte für verschiedene Zielgruppen interessant und ansprechend klingen.
+   * **[!UICONTROL Einfachere Sprache verwenden]**: Nutzen Sie den KI-Assistenten, um Ihren Text zu vereinfachen, damit er für eine breitere Zielgruppe verständlich und zugänglich ist.
 
    Sie können auch den **[!UICONTROL Ton]** und die **[!UICONTROL Kommunikationsstrategie]** Ihres Textes ändern.
 
