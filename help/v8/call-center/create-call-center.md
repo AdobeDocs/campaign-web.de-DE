@@ -4,9 +4,9 @@ title: Erstellen eines Callcenter-Versands
 description: Weitere Informationen zum Erstellen eines Callcenter-Versands mit Adobe Campaign Web
 exl-id: fe8d4773-2271-46ec-9b2e-f50311a4ccf3
 source-git-commit: 1581943b0f13cbd4296e1f42fae8560626b61bdf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '756'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -62,7 +62,7 @@ Definieren Sie nun die Zielgruppe für die Extraktionsdatei.
 >
 >Für die Empfängerinnen und Empfänger des Callcenter-Versands müssen mindestens Name und Telefonnummer angegeben sein. Empfängerinnen und Empfänger mit unvollständigen Informationen werden von Callcenter-Sendungen ausgeschlossen.
 >
->Informationen zum Konfigurieren von Kontrollgruppen finden Sie auf dieser [Seite](../audience/control-group.md).
+>Weitere Informationen zur Konfiguration von Kontrollgruppen finden Sie auf dieser [Seite](../audience/control-group.md).
 
 ## Bearbeiten des Inhalts{#edit-content}
 
@@ -72,7 +72,7 @@ Nun wird der Inhalt der Extraktionsdatei bearbeitet, die vom Callcenter-Versand 
 
    ![Screenshot der Inhaltsbearbeitung für einen Callcenter-Versand](assets/cc-content0.png){zoomable="yes"}
 
-1. Geben Sie den **[!UICONTROL Dateinamen“]**. Weitere Informationen zur Personalisierung des Dateinamens finden Sie auf dieser [Seite](../personalization/personalize.md).
+1. Füllen Sie das Feld **[!UICONTROL Dateiname]** aus. Weitere Informationen zur Personalisierung des Dateinamens finden Sie auf dieser [Seite](../personalization/personalize.md).
 
 1. Wählen Sie ein **[!UICONTROL Dateiformat]** aus: **Text**, **Text in Spalten mit fester Breite**, **CSV (Excel)** oder **XML**.
 
@@ -120,7 +120,7 @@ Nachfolgend werden die wichtigsten Schritte beschrieben, um die Extraktionsdatei
 
 1. Klicken Sie auf **[!UICONTROL Senden]**, um mit dem endgültigen Sendevorgang fortzufahren, und bestätigen Sie dann.
 
-Nach dem Versand wird die Extraktionsdatei automatisch generiert und an den Speicherort exportiert, der im externen **[!UICONTROL Routing]**-Konto angegeben ist, das in den erweiterten [ der Versandvorlage ausgewählt ](../advanced-settings/delivery-settings.md). Sie können die Datei auch in der Vorschau anzeigen **indem Sie im Abschnitt** Inhalt **des Bildschirms auf die Schaltfläche „Vorschau der Datei** klicken.
+Nach dem Versand wird die Extraktionsdatei automatisch generiert und an den Speicherort exportiert, der im in den [erweiterten Einstellungen](../advanced-settings/delivery-settings.md) in der Versandvorlage ausgewählten externen Konto **[!UICONTROL Routing]** angegeben ist. Sie können die Datei auch in der Vorschau anzeigen, indem Sie im Abschnitt **Inhalt** des Bildschirms auf die Schaltfläche **Datei in Vorschau anzeigen** klicken.
 
 Verfolgen Sie die Daten Ihrer KPIs (Key Performance Indicators) über Ihre Versandseite und weitere Daten über das Menü **[!UICONTROL Logs]**.
 

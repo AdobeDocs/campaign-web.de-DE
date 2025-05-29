@@ -3,9 +3,9 @@ title: Versionshinweise zur Web-Benutzeroberfläche von Campaign v8
 description: Entdecken Sie die neuen Funktionen der neuesten Version der Campaign Web-Benutzeroberfläche
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 source-git-commit: cc17e9e6aaf94aacbd8e73a6fe26f2b6ca710458
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '277'
-ht-degree: 62%
+ht-degree: 100%
 
 ---
 
@@ -20,9 +20,9 @@ Die Versionen der Adobe Campaign Web-Benutzeroberfläche basieren auf einem kont
 
 Änderungen und Verbesserungen, die in früheren Versionen verfügbar sind, sind in den [Versionshinweisen 2024](release-notes-24.md) und [Versionshinweisen 2025](release-notes-25.md) aufgeführt.
 
-## Version Mai &#39;25 {#25-5-release}
+## Version Mai 2025 {#25-5-release}
 
-Die folgenden Funktionen stehen allen Benutzern ab der Mai-Version zur Verfügung.
+Die folgenden Funktionen stehen allen Benutzenden ab der Version Mai zur Verfügung.
 
 <table>
 <thead>
@@ -50,8 +50,8 @@ Die folgenden Funktionen stehen allen Benutzern ab der Mai-Version zur Verfügun
 <tbody>
 <tr>
 <td>
-<p>Sie können jetzt Sendungen direkt über die Adobe Campaign-Web-Benutzeroberfläche koordinieren und auf der Grundlage benutzerdefinierter externer Kanäle ausführen. Diese Sendungen können eigenständig oder Teil eines Workflows sein. Die Erstellung des benutzerdefinierten externen Kanals, der mit einem Drittanbieter integriert ist, erfolgt in der Konsole.</p>
-<p>Hinweis: Reporting ist in der Web-Benutzeroberfläche für den benutzerdefinierten Kanal nicht verfügbar. Sie müssen zur Client-Konsole gehen, um auf Berichte zuzugreifen.</p>
+<p>Sie können nun Sendungen direkt über die Adobe Campaign Web-Benutzeroberfläche orchestrieren und auf Grundlage benutzerdefinierter externer Kanäle ausführen. Diese Sendungen können eigenständig oder Teil eines Workflows sein. Die Erstellung des benutzerdefinierten, mit einem Drittanbieter integrierten externen Kanals erfolgt in der Konsole.</p>
+<p>Hinweis: Die Reporting-Funktion ist in der Web-Benutzeroberfläche für den benutzerdefinierten Kanal nicht verfügbar. Sie müssen zur Client-Konsole wechseln, um auf Berichte zuzugreifen.</p>
 <p>Weitere Informationen finden Sie in der <a href="../call-center/gs-custom-channel.md">entsprechenden Dokumentation</a>.</p>
 <img src="assets/do-not-localize/custom-channel.gif">
 </td>

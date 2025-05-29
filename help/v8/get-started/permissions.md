@@ -4,9 +4,9 @@ title: Berechtigungsverwaltung in der Campaign Web-Benutzeroberfläche
 description: Erfahren Sie mehr über Berechtigungen in der Campaign Web-Benutzeroberfläche
 exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
 source-git-commit: 692a9badf72e465791e6f964d02753e7f1a25713
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '296'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ Sie können direkt auf die Berechtigungen klicken und sie entweder in **[!UICONT
 >
 >Sie sollten kein Objekt erstellen können, für das Sie nicht über mindestens einen Ordner mit Schreibrechten verfügen.
 >
->Sie müssen kein Administrator sein, um Fragmente zu erstellen, Sie müssen jedoch über Schreibrechte für mindestens einen Ordner „Visuelle Inhaltsfragmente“ verfügen. Andernfalls können Sie kein visuelles Fragment erstellen.
+>Sie müssen nicht Teil des Admin-Teams sein, um Fragmente zu erstellen, benötigen aber Schreibrechte für mindestens einen Ordner „Inhalt – Visuelle Fragmente“. Andernfalls können Sie kein visuelles Fragment erstellen.
 
 Wenn die Option **[!UICONTROL Ausdehnen]** aktiviert ist, werden alle für einen Ordner definierten Berechtigungen auf alle zugehörigen Unterordner angewendet. Diese Berechtigungen können für jeden Unterordner überschrieben werden.
 
