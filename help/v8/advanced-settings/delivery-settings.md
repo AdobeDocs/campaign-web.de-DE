@@ -4,15 +4,23 @@ title: Konfigurieren von Versandeinstellungen
 description: Erfahren Sie, wie Sie Versandeinstellungen in Campaign Web konfigurieren
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
-workflow-type: ht
-source-wordcount: '2765'
-ht-degree: 100%
+source-git-commit: 3adf28810800c3059e63ec3af675690318051f56
+workflow-type: tm+mt
+source-wordcount: '2800'
+ht-degree: 98%
 
 ---
 
 
 # Konfigurieren der Versandeinstellungen {#del-settings}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_sms_delivery_settings"
+>title="SMS-Versandeinstellungen"
+>abstract="SMS-Versandparameter sind technische Einstellungen, die für Ihren SMS-Versand gelten. Sie können die Absenderadresse, Service-Parameter, den Übertragungsmodus und mehr definieren. Diese Optionen sind erfahrenen Benutzerinnen und Benutzern vorbehalten."
+
+
 
 Bei den Versandeinstellungen handelt es sich um **technische Versandparameter**, die in der Versandvorlage definiert sind. Sie können bei jedem Versand überschrieben werden.  Diese Einstellungen sind über die Schaltfläche **Einstellungen** verfügbar, wenn ein Versand oder eine Versandvorlage bearbeitet wird.
 
@@ -109,7 +117,7 @@ Im Feld **[!UICONTROL Ausschluss]** können Sie Profile ausschließen, die nicht
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_delivery"
->title="Versandeinstellungen für den Versand"
+>title="Globale Versandeinstellungen"
 >abstract="Versandparameter sind technische Einstellungen, die für Ihren Versand gelten. Sie können den Versand und die Routinemodi ändern, E-Mail-BCC aktivieren, in Schüben senden und auch das Format der gesendeten E-Mail-Nachrichten auswählen. Diese Optionen sind erfahrenen Benutzerinnen und Benutzern vorbehalten."
 
 **[!UICONTROL Versandparameter]** sind technische Einstellungen, die für Ihren Versand gelten.
