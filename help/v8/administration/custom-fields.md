@@ -2,10 +2,10 @@
 title: Benutzerdefinierte Felder
 description: Erfahren Sie, wie Sie benutzerdefinierte Felder und ihre Sichtbarkeit in der Benutzeroberfläche konfigurieren.
 exl-id: 34e7e0b7-3981-43b1-95a5-6c672adafdc9
-source-git-commit: f08603afde2493457bc81a0d808b647b70a52f7c
-workflow-type: ht
-source-wordcount: '988'
-ht-degree: 100%
+source-git-commit: 2c047d85df42503815c6ff15f43066ec5fb83755
+workflow-type: tm+mt
+source-wordcount: '1017'
+ht-degree: 98%
 
 ---
 
@@ -60,7 +60,13 @@ Benutzerdefinierte Felder sind für die folgenden Schemata verfügbar:
 * Testadressen (nms)
 * Sendungen (nms)
 
-## Hinzufügen benutzerdefinierter Felder zur Benutzeroberfläche {#add}
+## Hinzufügen benutzerdefinierter Felder zur Benutzeroberfläche {#add-custom}
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_screen_definition"
+>title="Bildschirmdefinition"
+>abstract="Definieren Sie die Liste der benutzerdefinierten Felder, die für das Schema und dessen Eigenschaften bearbeitet werden sollen. Klicken Sie auf die Schaltfläche **Vorschau**, um die benutzerdefinierten Felder auf einem Beispielbildschirm anzuzeigen."
+
 
 Gehen Sie wie folgt vor, um benutzerdefinierte Felder in der Benutzeroberfläche anzuzeigen:
 
