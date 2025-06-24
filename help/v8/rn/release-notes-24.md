@@ -2,10 +2,10 @@
 title: Frühere Versionshinweise zur Web-Benutzeroberfläche von Campaign v8
 description: Versionen der Campaign-Web-Benutzeroberfläche 2024
 exl-id: 430dc1ba-dfa9-4d51-b4ed-f3f048da6ec0
-source-git-commit: 19a7540af7502709b7eafdace038b5958e077173
-workflow-type: ht
-source-wordcount: '2470'
-ht-degree: 100%
+source-git-commit: c572c2edd037b8d6bb6cbfcb77a5fbe5885a2799
+workflow-type: tm+mt
+source-wordcount: '2535'
+ht-degree: 98%
 
 ---
 
@@ -122,7 +122,7 @@ Die folgenden Funktionen und Verbesserungen sind ab der Version August verfügba
 * **Captcha in Landingpages**: Sie können jetzt Captcha zum Schutz Ihrer Landingpage vor Spam und Missbrauch durch Bots hinzufügen. Dies erfordert nur wenig Einsatz aufseiten Ihrer Kundschaft, da nur eine Interaktion mit Ihrer Website erforderlich ist. [Weitere Informationen](../landing-pages/create-lp.md#captcha)
 
 <!--
-* **Rest APIs** - As a Campaign Standard migrated user, you can now use Rest APIs to work with transactional messages. [Read more](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html?lang=de){target="_blank"}.-->
+* **Rest APIs** - As a Campaign Standard migrated user, you can now use Rest APIs to work with transactional messages. [Read more](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html){target="_blank"}.-->
 
 
 ## Versionshinweise für Juli {#24-7-release}
@@ -168,9 +168,6 @@ Sie können nun Rich-Push-Benachrichtigungen senden. Eine Rich-Push-Benachrichti
 
 Die folgenden Funktionen und Verbesserungen stehen allen Benutzenden ab der Juni-Version zur Verfügung.
 
-<!--### Delivery alerting {#24-6-3}
-
-The Delivery alerting feature is an alert management system that enables a group of users to automatically receive notifications containing information on the execution of their deliveries. [Read more](../msg/delivery-alerting.md)-->
 
 ### Pläne und Programme {#24-6-4}
 
@@ -179,6 +176,18 @@ Sie können jetzt Pläne und Programme zur Organisation Ihrer Kampagnen erstelle
 ### Verbesserungen {#improvements-24-6}
 
 * **Abstimmung in der Anreicherungsaktivität**: Die Aktivität **Anreicherung** kann jetzt verwendet werden, um Daten aus dem Campaign-Datenbankschema mit Daten aus einem anderen Schema abzustimmen oder aber mit Daten aus einem temporären Schema, z. B. mit Daten, die mithilfe der Aktivität „Datei laden“ hochgeladen wurden. Mit dieser Option können Sie zum Beispiel das Land eines Profils, das in einer hochgeladenen Datei angegeben ist, mit einem der Länder abstimmen, die in der dedizierten Tabelle der Campaign-Datenbank verfügbar sind. [Weitere Informationen](../workflows/activities/enrichment.md)
+
+
+### Neue Funktion in begrenzter Verfügbarkeit {#acs-24-6}
+
+>[!AVAILABILITY]
+>
+>Die folgende Funktion ist nur in begrenzter Verfügbarkeit verfügbar. Sie ist auf Kunden beschränkt, **(von Adobe Campaign Standard zu Adobe Campaign v8** migrieren, und kann nicht in einer anderen Umgebung bereitgestellt werden.
+
+* **Versandwarnungen**
+
+Bei der Funktion „Versandwarnungen“ handelt es sich um ein System zum Warnungs-Management, über das eine Benutzergruppe automatisch Benachrichtigungen zu ihren Sendungen erhält.  [Weitere Informationen](../msg/delivery-alerting.md)
+
 
 ## Versionshinweise für Mai {#24-5-release}
 

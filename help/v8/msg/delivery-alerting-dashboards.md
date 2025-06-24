@@ -2,15 +2,11 @@
 audience: end-user
 title: Versandwarnung
 description: Erfahren Sie, wie Sie mit Versandwarnungen arbeiten können.
-hidefromtoc: true
-hide: true
-robots: noindex
-googlebot: noindex
 exl-id: b91ef82b-f3e9-4704-87a2-0e3f75104572
-source-git-commit: 19a7540af7502709b7eafdace038b5958e077173
+source-git-commit: c572c2edd037b8d6bb6cbfcb77a5fbe5885a2799
 workflow-type: tm+mt
-source-wordcount: '1115'
-ht-degree: 100%
+source-wordcount: '1144'
+ht-degree: 95%
 
 ---
 
@@ -24,6 +20,10 @@ ht-degree: 100%
 In Versandwarnungs-Dashboards können Sie festlegen, wer E-Mail-Warnungen erhalten soll, die Warnungskriterien zum Senden dieser Warnungen auswählen und konfigurieren sowie auf den Verlauf aller gesendeten Benachrichtigungen zugreifen.  Zugriff darauf erhalten Sie über das Menü **Versandwarnung** im linken Navigationsbereich, und zwar durch die Registerkarte **Dashboards**.
 
 ![Screenshot mit der Liste der Warnungs-Dashboards im Menü „Versandwarnung“](assets/alerting-dashboard-list.png)
+
+>[!AVAILABILITY]
+>
+>Diese Funktion ist nur eingeschränkt verfügbar. Sie ist Kundinnen und Kunden vorbehalten, die **von Adobe Campaign Standard zu Adobe Campaign v8** migrieren, und kann nicht in anderen Umgebungen bereitgestellt werden.
 
 ## Erstellen eines Versand-Dashboards {#dashboards}
 
@@ -75,11 +75,11 @@ Gehen Sie wie folgt vor, um ein Versand-Dashboard zu erstellen:
    * **Monitoring-Zeitraum vor und nach dem Kontaktdatum (in Stunden)**: Anzahl der Stunden vor und nach der aktuellen Zeit. Berücksichtigt werden nur Sendungen, deren Kontaktdatum in diesem Zeitraum liegt. Dieser Parameter gilt für alle Bedingungen. Standardmäßig ist der Wert dieses Feldes mit 24 Stunden festgelegt.
    * **Maximale Softbounce-Fehlerrate**: Eine Benachrichtigung wird für alle Sendungen gesendet, deren Softbounce-Fehlerrate über dem definierten Wert liegt. Standardmäßig ist der Wert dieses Feldes auf 0,05 (5 %) festgelegt.
    * **Maximale Hardbounce-Fehlerrate**: Eine Benachrichtigung wird für alle Sendungen gesendet, deren Hardbounce-Fehlerrate über dem definierten Wert liegt. Standardmäßig ist der Wert dieses Feldes auf 0,05 (5 %) festgelegt.
-   * **Mindestens erforderliche Zeit für Versand im Status „Start ausstehend“ (in Minuten)**: Eine Benachrichtigung wird für alle Sendungen gesendet, deren Status „Start ausstehend“ die in diesem Feld definierte Dauer übersteigt. „Start ausstehend“ bedeutet, dass die Nachrichten vom System noch nicht berücksichtigt wurden.
+   * **Mindestzeitschwelle für einen Versand im Status „Start ausstehend“ (in Minuten)**: Es wird eine Benachrichtigung für alle Sendungen gesendet, deren Status „Start ausstehend“ länger als die in diesem Feld angegebene Dauer ist. Der Status „Start ausstehend“ bedeutet, dass die Nachrichten noch nicht vom System berücksichtigt wurden.
    * **Mindestdauer (in Minuten) für die Berechnung des Durchsatzes**: Nur Sendungen, deren Dauer länger ist als der spezifizierte Wert (mit Status „Gestartet“), werden für die Bedingung „Sendungen mit geringem Durchsatz“ berücksichtigt.
    * **Maximaler Prozentsatz verarbeiteter Nachrichten zur Berechnung des Durchsatzes**: Nur Sendungen mit einem Prozentsatz an verarbeiteten Nachrichten, der unter dem definierten Wert liegt, werden für die Bedingung „Sendungen mit geringem Durchsatz“ berücksichtigt.
    * **Erwarteter Mindestdurchsatz (in gesendeten Nachrichten pro Stunde)**: Nur Sendungen mit einem Durchsatz, der unter dem festgelegten Wert liegt, werden für die Bedingung „Sendungen mit geringem Durchsatz“ berücksichtigt.
-   * **Für Kriterium &#39;Versand gestartet&#39; erforderliche Mindestverarbeitungsrate**: Nur Sendungen mit einem Prozentsatz an verarbeiteten Nachrichten, der über dem festgelegten Wert liegt, werden berücksichtigt.
+   * **Für Versandbedingung &#39;Gestartet&#39; erforderliche Mindest-Verarbeitungsrate**: Nur Sendungen mit einem Prozentsatz an verarbeiteten Nachrichten, der über dem festgelegten Wert liegt, werden berücksichtigt.
 
 +++
 
