@@ -3,10 +3,10 @@ audience: end-user
 title: Arbeiten mit dem Abfrage-Modeler
 description: Lernen Sie, mit dem Abfrage-Modeler von Adobe Campaign Web zu arbeiten.
 exl-id: 56708a66-f654-413a-80ed-1865077b3c0a
-source-git-commit: 609718356ace500b831601dac077f9a3333e00e9
-workflow-type: ht
+source-git-commit: dfe670447ed3f1e09191460e8ac6aceee9035bb2
+workflow-type: tm+mt
 source-wordcount: '926'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -43,12 +43,12 @@ Der Abfrage-Modeler ist in jedem Kontext verfügbar, in dem Sie Regeln zum Filte
 
 | Verwendung | Beispiel |
 |  ---  |  ---  |
-| **Zielgruppen definieren**: Geben Sie die Population an, die Sie in Ihren Nachrichten oder Workflows ansprechen möchten, und erstellen Sie mühelos neue Zielgruppen, die auf Ihre Anforderungen zugeschnitten sind. [Weitere Informationen zum Erstellen von Zielgruppen](../audience/one-time-audience.md) | ![](assets/access-audience.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} [Bild, das den Zugriff auf die Benutzeroberfläche zur Zielgruppenerstellung zeigt] |
-| **Workflow-Aktivitäten anpassen**: Wenden Sie Regeln innerhalb von Workflow-Aktivitäten an, z. B. **Aufspaltung** und **Abstimmung**, um sie an Ihre spezifischen Anforderungen anzupassen.  [Weitere Informationen zu Workflow-Aktivitäten](../workflows/activities/about-activities.md) | ![](assets/access-workflow.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} [Bild, das den Zugriff auf Optionen zur Workflow-Anpassung zeigt] |
-| **Vordefinierte Filter**: Erstellen Sie vordefinierte Filter, die bei verschiedenen Filtervorgängen als Abkürzungen dienen, unabhängig davon, ob Sie mit Datenlisten arbeiten oder die Zielgruppe für einen Versand bilden.  [Erfahren Sie, wie Sie mit vordefinierten Filtern arbeiten](../get-started/predefined-filters.md) | ![](assets/access-predefined-filter.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} [Bild, das den Zugriff auf vordefinierte Filter zeigt] |
-| **Berichtsdaten filtern**: Fügen Sie Regeln hinzu, um die in Berichten angezeigten Daten zu filtern. [Informationen zum Arbeiten mit Profilen](../reporting/gs-reports.md) | ![](assets/access-reports.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} [Bild, das die Filterung von Daten in Berichten zeigt] |
-| **Listen anpassen**: Erstellen Sie benutzerdefinierte Regeln, um die in Listen angezeigten Daten zu filtern, wie z. B. Empfängerinnen und Empfänger oder Sendungslisten. [Informationen zum Filtern von Listen](../get-started/list-filters.md#list-built-in-filters) | ![](assets/access-lists.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} [Bild, das die Anpassung von Listenfiltern zeigt] |
-| **Bedingten Inhalt erstellen**: Gestalten Sie den E-Mail-Inhalt dynamisch, indem Sie Bedingungen erstellen, die festlegen, welche Inhalte den verschiedenen Empfangenden angezeigt werden sollen, und so personalisierte und relevante Nachrichten sicherstellen. [Informationen zum Erstellen von bedingten Inhalten](../personalization/conditions.md) | ![](assets/conditional-content.png){width="200" align="center" zoomable="yes"} [Bild, das die Erstellung von bedingten Inhalten zeigt] |
+| **Zielgruppen definieren**: Geben Sie die Population an, die Sie in Ihren Nachrichten oder Workflows ansprechen möchten, und erstellen Sie mühelos neue Zielgruppen, die auf Ihre Anforderungen zugeschnitten sind. [Weitere Informationen zum Erstellen von Zielgruppen](../audience/one-time-audience.md) | ![Bild, das den Zugriff auf die Benutzeroberfläche zur Zielgruppenerstellung zeigt](assets/access-audience.png){width="200" align="center" zoomable="yes"} |
+| **Workflow-Aktivitäten anpassen**: Wenden Sie Regeln innerhalb von Workflow-Aktivitäten an, z. B. **Aufspaltung** und **Abstimmung**, um sie an Ihre spezifischen Anforderungen anzupassen.  [Weitere Informationen zu Workflow-Aktivitäten](../workflows/activities/about-activities.md) | ![Bild, das zeigt, wie auf Workflow-Anpassungsoptionen zugegriffen werden kann](assets/access-workflow.png){width="200" align="center" zoomable="yes"} |
+| **Vordefinierte Filter**: Erstellen Sie vordefinierte Filter, die bei verschiedenen Filtervorgängen als Abkürzungen dienen, unabhängig davon, ob Sie mit Datenlisten arbeiten oder die Zielgruppe für einen Versand bilden.  [Erfahren Sie, wie Sie mit vordefinierten Filtern arbeiten](../get-started/predefined-filters.md) | ![Bild, das den Zugriff auf vordefinierte Filter zeigt](assets/access-predefined-filter.png){width="200" align="center" zoomable="yes"} |
+| **Berichtsdaten filtern**: Fügen Sie Regeln hinzu, um die in Berichten angezeigten Daten zu filtern. [Informationen zum Arbeiten mit Profilen](../reporting/gs-reports.md) | ![Bild, das zeigt, wie Daten in Berichten gefiltert werden](assets/access-reports.png){width="200" align="center" zoomable="yes"} |
+| **Listen anpassen**: Erstellen Sie benutzerdefinierte Regeln, um die in Listen angezeigten Daten zu filtern, wie z. B. Empfängerinnen und Empfänger oder Sendungslisten. [Informationen zum Filtern von Listen](../get-started/list-filters.md#list-built-in-filters) | ![Bild, das zeigt, wie Listenfilter angepasst werden](assets/access-lists.png){width="200" align="center" zoomable="yes"} |
+| **Bedingten Inhalt erstellen**: Gestalten Sie den E-Mail-Inhalt dynamisch, indem Sie Bedingungen erstellen, die festlegen, welche Inhalte den verschiedenen Empfangenden angezeigt werden sollen, und so personalisierte und relevante Nachrichten sicherstellen. [Informationen zum Erstellen von bedingten Inhalten](../personalization/conditions.md) | ![Bild, das zeigt, wie bedingte Inhalte erstellt werden](assets/conditional-content.png){width="200" align="center" zoomable="yes"} |
 
 >[!NOTE]
 >
@@ -56,20 +56,20 @@ Der Abfrage-Modeler ist in jedem Kontext verfügbar, in dem Sie Regeln zum Filte
 >
 >![Bild, das einen Warnhinweis zur Verfeinerung von Zielgruppen zeigt](assets/target-warning.png){zoomable="yes"}
 
-## Benutzeroberfläche des Abfrage-Modelers {#interface}
+## Benutzeroberfläche des Abfrage-Modellierers {#interface}
 
 Der Abfrage-Modeler bietet eine zentrale Arbeitsfläche, auf der Sie Ihre Abfrage erstellen, sowie einen rechten Bereich mit Informationen zu Ihrer Abfrage.
 
 >[!IMPORTANT]
 >
 >Eine brandneue Benutzeroberfläche für den Abfrage-Modeler ist verfügbar. Mit dem neuen Regel-Builder können Sie Ihre Abfrage dank der vereinfachten und intuitiven Benutzeroberfläche leichter erstellen. Um zu diesem Erlebnis zu wechseln, klicken Sie auf den Umschalter in der oberen rechten Ecke. Sie können jederzeit zum klassischen Abfrage-Modeler zurückkehren, indem Sie einfach auf den Umschalter klicken, um die neue Benutzeroberfläche zu deaktivieren. Sie können in dieser neuen Benutzeroberfläche dieselben Prinzipien wie beim Abfrage-Modeler anwenden.
->![Bild, das den Umschalter für die neue Benutzeroberfläche des Regel-Builders zeigt](assets/query-modeler-toggle.png){zoomable="yes"}
+>>![Bild, das den Umschalter für die neue Benutzeroberfläche des Regel-Builders zeigt](assets/query-modeler-toggle.png){zoomable="yes"}
 
 
 >[!CONTEXTUALHELP]
 >id="acw_rule_builder_switch_button"
 >title="Neues Regel-Builder-Erlebnis"
->abstract="Verwenden Sie diesen Umschalter, um zwischen dem klassischen Abfrage-Modeler und dem neuen Regel-Builder-Erlebnis zu wechseln. Mit dem neuen Regel-Builder können Sie Ihre Abfrage dank der vereinfachten und intuitiven Benutzeroberfläche einfacher erstellen."
+>abstract="Verwenden Sie diesen Umschalter, um zwischen dem klassischen Abfrage-Modeler und dem neuen Regel-Builder-Erlebnis zu wechseln. Mit dem neuen Rule Builder können Abfragen dank der vereinfachten und intuitiven Benutzeroberfläche leichter erstellt werden."
 
 ![Bild, das die Benutzeroberfläche des Abfrage-Modelers zeigt](assets/query-interface.png){zoomable="yes"}
 
