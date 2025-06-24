@@ -3,10 +3,10 @@ audience: end-user
 title: Arbeiten mit Ordnern
 description: Erfahren Sie, wie Sie in Adobe Campaign einen Ordner verwalten.
 exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
-source-git-commit: 5f9cc8915f2897ebc14d571357773fef057cf9c1
-workflow-type: ht
-source-wordcount: '628'
-ht-degree: 100%
+source-git-commit: 6901533f1f5c45ce9ebf77a4f1095d8476c6a21b
+workflow-type: tm+mt
+source-wordcount: '721'
+ht-degree: 86%
 
 ---
 
@@ -23,19 +23,9 @@ ht-degree: 100%
 >abstract="Ordnersicherheit"
 
 >[!CONTEXTUALHELP]
->id="acw_folder_restrictions"
->title="Ordnereinschränkungen"
->abstract="Ordnereinschränkungen"
-
->[!CONTEXTUALHELP]
 >id="acw_folder_schedule"
 >title="Ordnerzeitplan"
 >abstract="Ordnerzeitplan"
-
->[!CONTEXTUALHELP]
->id="acw_folder_favorites"
->title="Favoriten"
->abstract="Favoriten"
 
 ## Über Ordner {#about-folders}
 
@@ -46,6 +36,16 @@ Sie können Ordner im Navigationsbaum erstellen, umbenennen, neu anordnen und ve
 ![Ordneroberfläche mit Ordnerorganisation](assets/folders.png){zoomable="yes"}
 
 Sie können einen Ordnertyp einrichten. Zum Beispiel einen Ordner mit Sendungen. Das Ordnersymbol ändert sich je nach Typ.
+
+>[!CONTEXTUALHELP]
+>id="acw_folder_restrictions"
+>title="Ordnereinschränkungen"
+>abstract="Die automatisch erstellten Ordner und technischen Workflows sind eingeschränkt und können im linken Seitenbereich nicht angezeigt werden."
+
+>[!IMPORTANT]
+>
+>Die Ordner **[!UICONTROL Automatisch erstellte Objekte]** und **[!UICONTROL Technische Workflows]** sind eingeschränkt und können im linken Seitenbereich nicht angezeigt werden.
+
 
 ## Erstellen eines neuen Ordners {#create-a-folder}
 
@@ -80,6 +80,19 @@ In diesem Beispiel enthält der Ordner **Sendungen** vier Unterordner.
 Sie können die Reihenfolge der Ordner entweder durch **Ziehen und Ablegen** oder durch Verwendung der **Nach-oben- und Nach-unten-Taste** ändern.
 
 ![Funktion zum Ziehen und Ablegen für die Neuanordnung von Ordnern](assets/folder-draganddrop.png){zoomable="yes"}
+
+### Favoritenordner {#favorite-folders}
+
+>[!CONTEXTUALHELP]
+>id="acw_folder_favorites"
+>title="Favoriten"
+>abstract="Ihre Lieblingsordner werden oben auf der linken Registerkarte angezeigt."
+
+Die als „Favorit“ markierten Ordner werden immer oben in der linken Registerkarte angezeigt.
+
+Sie können Ordner als Favoriten hinzufügen, indem Sie beim Anzeigen eines Ordners auf die Sternschaltfläche oben rechts klicken.
+
+![Screenshot zum Speicherort der Favoritenordner](assets/folders-favorite.png){zoomable="yes"}
 
 ## Löschen eines Ordners {#delete-a-folder}
 

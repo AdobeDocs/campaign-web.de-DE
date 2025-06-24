@@ -4,23 +4,15 @@ title: Konfigurieren von Versandeinstellungen
 description: Erfahren Sie, wie Sie Versandeinstellungen in Campaign Web konfigurieren
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: 3adf28810800c3059e63ec3af675690318051f56
+source-git-commit: 73c9e30ab93787630e973da71f0381b14c64cc2c
 workflow-type: tm+mt
-source-wordcount: '2800'
-ht-degree: 98%
+source-wordcount: '3324'
+ht-degree: 87%
 
 ---
 
 
 # Konfigurieren der Versandeinstellungen {#del-settings}
-
-
->[!CONTEXTUALHELP]
->id="acw_sms_delivery_settings"
->title="SMS-Versandeinstellungen"
->abstract="SMS-Versandparameter sind technische Einstellungen, die für Ihren SMS-Versand gelten. Sie können die Absenderadresse, Service-Parameter, den Übertragungsmodus und mehr definieren. Diese Optionen sind erfahrenen Benutzerinnen und Benutzern vorbehalten."
-
-
 
 Bei den Versandeinstellungen handelt es sich um **technische Versandparameter**, die in der Versandvorlage definiert sind. Sie können bei jedem Versand überschrieben werden.  Diese Einstellungen sind über die Schaltfläche **Einstellungen** verfügbar, wenn ein Versand oder eine Versandvorlage bearbeitet wird.
 
@@ -287,8 +279,62 @@ Sie können auch den Namen der Testsendungen anpassen:
 * Verwenden Sie die Option **[!UICONTROL Versandcode für den Testversand beibehalten]**, um den Testversand mit demselben Versand-Code zu verknüpfen, der für den Versand, auf den er sich bezieht, definiert ist.
 * Standardmäßig wird dem Betreff des Testversands „TESTVERSAND #“ vorangestellt, wobei # die Nummer des Testversands ist. Sie können dieses Präfix im Feld **[!UICONTROL Titelpräfix]** ändern.
 
+## SMS-Einstellungen (SMS-Kanal) {#sms-tab}
+
+>[!CONTEXTUALHELP]
+>id="acw_sms_delivery_settings"
+>title="SMS-Versandeinstellungen"
+>abstract="SMS-Versandparameter sind technische Einstellungen, die für Ihren SMS-Versand gelten. Sie können die Absenderadresse, Service-Parameter, den Übertragungsmodus und mehr definieren. Diese Optionen sind erfahrenen Benutzerinnen und Benutzern vorbehalten."
+
+SMS-Versandparameter sind technische Einstellungen, die für Ihren SMS-Versand gelten. Sie können die Absenderadresse, Service-Parameter, den Übertragungsmodus und mehr definieren. Diese Optionen sind erfahrenen Benutzerinnen und Benutzern vorbehalten.
+
+* **[!UICONTROL Absenderadresse]**
+
+  Das Feld ist durch die SMPP-Spezifikation auf 21 Zeichen begrenzt, einige Provider können jedoch längere Werte zulassen. Beachten Sie auch, dass in einigen Ländern sehr strenge Einschränkungen angewendet werden können (Länge, Inhalt, zulässige Zeichen, …), sodass Sie möglicherweise überprüfen müssen, ob der Inhalt, den Sie hier platzieren, legal ist. Seien Sie besonders vorsichtig bei der Verwendung personalisierter Felder.
 
 
+  Mit diesem optionalen Feld können Sie die Absenderadresse (oADC) überschreiben. Der Inhalt wird im Feld *source_addr* der PDU SUBMIT_SM platziert.
+
+  Obwohl dieses Feld in der SMPP-Spezifikation auf 21 Zeichen beschränkt ist, unterstützen einige Anbieter möglicherweise längere Werte. Beachten Sie, dass in bestimmten Ländern strenge Vorschriften für Absenderadressen (Länge, Inhalt, zulässige Zeichen usw.) gelten. Überprüfen Sie daher immer, ob Ihre Eingabe den lokalen Anforderungen entspricht. Seien Sie beim Arbeiten mit personalisierten Feldern besonders vorsichtig.
+
+  Bleibt das entsprechende Feld leer, wird stattdessen der im externen Konto festgelegte Wert des Felds „Anrufernummer“ verwendet. Wenn beide Werte leer sind, bleibt das Feld *source_addr* leer.
+
+* **[!UICONTROL Service-Typ]**:
+
+  Dieser Parameter wird unverändert an den Anbieter übergeben.
+
+* **[!UICONTROL Dienst- oder Programm-ID]**
+
+  >[!NOTE]
+  >
+  >Von der Verwendung dieses Feldes wird abgeraten. Optionale SMPP-Parameter, die in der Client-Konsole verfügbar sind, bieten eine wesentlich flexiblere Implementierung.
+  >
+  >Dieses Feld kann nicht gleichzeitig mit optionalen SMPP-Parametern verwendet werden.
+
+  Ermöglicht in Kombination mit der entsprechenden Einstellung des externen Kontos das Senden eines optionalen Parameters mit jedem MT. Dieses Feld definiert den Werteteil des TLV.
+
+* **[!UICONTROL Übermittlungsmodus]**
+
+  Dieses Feld definiert den Typ der zu sendenden SMS: ob es sich um eine normale oder eine Flash-Nachricht handelt und ob sie auf dem Mobilgerät oder der SIM-Karte gespeichert werden soll. Diese Einstellung wird im optionalen Feld „dest_addr_subunit“ in der SUBMIT_SM-PDU übertragen.
+
+   * **Flash** setzt den Wert auf 1. Sendet eine Flash-SMS, die sofort auf dem Bildschirm erscheint und nicht gespeichert wird.
+   * **Normal** setzt den Wert auf 0. Sendet eine Standard-SMS.
+   * **Auf Mobilgerät gespeichert** setzt den Wert auf 2. Weist das Gerät an, die SMS im internen Speicher zu speichern.
+   * **Im Terminal gespeichert** setzt den Wert auf 3. Weist das Gerät an, die SMS auf der SIM-Karte zu speichern.
+
+* **[!UICONTROL Priorität, Kommunikationstyp]**
+
+  Diese Felder werden vom erweiterten SMPP-Connector ignoriert.
+
+* **[!UICONTROL Maximale Anzahl an SMS pro Nachricht]**
+
+  Diese Einstellung ist nur wirksam, wenn die Option Nachrichten-Payload deaktiviert ist (weitere Einzelheiten finden Sie in den Einstellungen des externen Kontos). Wenn für die Nachricht mehr SMS als dieser Wert erforderlich sind, wird ein Fehler ausgelöst.
+
+  Während das SMS-Protokoll die Aufteilung von Nachrichten in bis zu 255 Teile ermöglicht, können einige mobile Geräte Probleme haben, Nachrichten mit mehr als 10 Teilen neu zusammenzustellen (die Begrenzung hängt vom Gerätemodell ab). Aus Gründen der Zuverlässigkeit empfiehlt es sich, Nachrichten auf maximal 5 Teile zu beschränken.
+
+  Beachten Sie, dass aufgrund der Funktionsweise personalisierter Nachrichten in Adobe Campaign die Nachrichtengrößen variieren können. Eine hohe Anzahl langer Nachrichten kann zu erhöhten Versandkosten führen, sodass die Verwendung eines sinnvollen Limits hilft, die Kosten zu kontrollieren.
+
+  Wenn Sie diesen Wert auf 0 setzen, wird die Begrenzung deaktiviert.
 
 ## SMTP-Einstellungen für den E-Mail-Versand {#smtp}
 

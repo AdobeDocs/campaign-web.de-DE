@@ -3,10 +3,10 @@ audience: end-user
 title: Erstellen Ihrer erste Abfrage mithilfe des Abfrage-Modelers
 description: Erfahren Sie, wie Sie Ihre erste Abfrage im Abfrage-Modeler in Adobe Campaign Web erstellen.
 exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
-source-git-commit: df5883f8178bc5287145c587b06dd5664400ed90
-workflow-type: ht
-source-wordcount: '2780'
-ht-degree: 100%
+source-git-commit: a9c7ac9a7b43166bd3adba0d3463020b7f9353ab
+workflow-type: tm+mt
+source-wordcount: '2863'
+ht-degree: 97%
 
 ---
 
@@ -18,7 +18,7 @@ Um mit der Erstellung einer Abfrage zu beginnen, greifen Sie je nach der Aktion,
 >[!IMPORTANT]
 >
 >Eine brandneue Benutzeroberfläche für den Abfrage-Modeler ist verfügbar. Mit dem neuen Regel-Builder können Sie Ihre Abfrage dank der vereinfachten und intuitiven Benutzeroberfläche leichter erstellen. Um zu diesem Erlebnis zu wechseln, klicken Sie auf den Umschalter in der oberen rechten Ecke. Sie können jederzeit zum klassischen Abfrage-Modeler zurückkehren, indem Sie einfach auf den Umschalter klicken, um die neue Benutzeroberfläche zu deaktivieren. Sie können in dieser neuen Benutzeroberfläche dieselben Prinzipien wie beim Abfrage-Modeler anwenden.
->![Bild, das den Umschalter für die neue Benutzeroberfläche des Regel-Builders zeigt](assets/query-modeler-toggle.png){zoomable="yes"}
+>>![Bild, das den Umschalter für die neue Benutzeroberfläche des Regel-Builders zeigt](assets/query-modeler-toggle.png){zoomable="yes"}
 
 Sie können zwei Elementtypen hinzufügen:
 
@@ -318,6 +318,18 @@ Gehen Sie wie folgt vor, um Filterkomponenten zu kopieren und einzufügen:
 1. Um die Komponente(n) einzufügen, klicken Sie auf die Schaltfläche „+“ am Ende der gewünschten Transition und wählen Sie **(n) Elemente einfügen**.
 
    ![Beispiel für das Einfügen von Komponenten](assets/copy-paste.png){zoomable="yes"}
+
+## Drag-and-Drop von Komponenten {#drag-and-drop}
+
+>[!IMPORTANT]
+>
+>Diese Funktion ist nur für die neue Regel-Builder-Version verfügbar.
+
+Wenn Sie Ihrer Abfrage Komponenten hinzufügen, können Sie diese mithilfe der Drag-and-Drop-Funktion nach oben und unten verschieben.
+
+Links von jeder Komponente können Sie auf die Punkte klicken und sie halten, um die Komponente je nach Position und Gruppierung der Komponenten nach oben und unten zu ziehen.
+
+![Gif zeigt, wie die Komponenten per Drag-and-Drop in den neuen Regel-Builder gezogen werden](assets/ruleb-drag.gif){zoomable="yes"}
 
 ## Kombinieren von Filterkomponenten mit Operatoren {#operators}
 

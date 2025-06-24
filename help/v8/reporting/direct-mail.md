@@ -3,16 +3,18 @@ audience: end-user
 title: Briefpost-Berichte
 description: Erfahren Sie, wie Sie auf Briefpost-Berichte zugreifen und diese verwenden können.
 exl-id: 268fe1e3-bd5c-40f1-8973-7671cd8c9960
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
-workflow-type: ht
-source-wordcount: '677'
-ht-degree: 100%
+source-git-commit: 1a2ab055822bea4cd55230fb63b59234aa114ff7
+workflow-type: tm+mt
+source-wordcount: '696'
+ht-degree: 94%
 
 ---
 
-# Briefpost-Versandbericht {#direct-mail-report}
+# Externer Versandbericht {#direct-mail-report}
 
-Der **Briefpost-Versandbericht** bietet umfassende Erkenntnisse und Daten, die speziell für Ihren Briefpost-Versand gelten. Er enthält detaillierte Informationen über die Leistung, Effektivität und Ergebnisse der einzelnen Sendungen und bieten Ihnen einen vollständigen Überblick.
+Der **Bericht zum externen Versand** bietet umfassende Einblicke und Daten, die speziell für Ihren externen Versand gelten. Er enthält detaillierte Informationen über die Leistung, Effektivität und Ergebnisse der einzelnen Sendungen und bieten Ihnen einen vollständigen Überblick.
+
+Der folgende Bericht wird im Zusammenhang mit Briefpost beschrieben. Es ist auch für Callcenter- und benutzerdefinierte externe Kanäle verfügbar.
 
 ## Versandzusammenfassung {#delivery-summary-direct-mail}
 
@@ -53,7 +55,7 @@ Bewegen Sie den Mauszeiger über einen Abschnitt des Diagramms, um die genaue Za
 
 * **[!UICONTROL Ursprüngliche Zielgruppe]**: Gesamtzahl der Zielgruppenempfängerinnen und -empfänger.
 * **[!UICONTROL Zu versenden]**: Gesamtzahl der nach erfolgter Versandanalyse zu versendenden Nachrichten.
-* **[!UICONTROL Ausschluss]**: Gesamtzahl der vom Versand an die Zielgruppe ausgeschlossenen Nachrichten.
+* **[!UICONTROL Ausschluss]**: Gesamtzahl der vom Versand an die Zielpopulation ausgeschlossenen Nachrichten.
 +++
 
 ### Versandstatistiken {#direct-mail-delivery-stats}

@@ -2,10 +2,10 @@
 title: Versionshinweise zur Web-Benutzeroberfläche von Campaign v8
 description: Entdecken Sie die neuen Funktionen der neuesten Version der Campaign Web-Benutzeroberfläche
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: cc17e9e6aaf94aacbd8e73a6fe26f2b6ca710458
-workflow-type: ht
-source-wordcount: '277'
-ht-degree: 100%
+source-git-commit: a9c7ac9a7b43166bd3adba0d3463020b7f9353ab
+workflow-type: tm+mt
+source-wordcount: '286'
+ht-degree: 45%
 
 ---
 
@@ -20,45 +20,22 @@ Die Versionen der Adobe Campaign Web-Benutzeroberfläche basieren auf einem kont
 
 Änderungen und Verbesserungen, die in früheren Versionen verfügbar sind, sind in den [Versionshinweisen 2024](release-notes-24.md) und [Versionshinweisen 2025](release-notes-25.md) aufgeführt.
 
-## Version Mai 2025 {#25-5-release}
+## Version Juni 2025 {#25-6-release}
 
-Die folgenden Funktionen stehen allen Benutzenden ab der Version Mai zur Verfügung.
+### Verbesserungen {#25-6-improvements}
 
-<table>
-<thead>
-<tr>
-<th><strong>Markenausrichtungswert (Beta)</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Die Funktion zur Bewertung der Markenausrichtung bietet klares Feedback direkt im E-Mail-Designer, sodass Sie sehen können, ob der Inhalt mit dem Ton, dem Stil und den Richtlinien Ihrer Marke übereinstimmt. Diese Funktion ist in der Beta-Version verfügbar.</p>
-<p>Weitere Informationen finden Sie in der <a href="../content/brands-score.md">entsprechenden Dokumentation</a>.</p>
-<img src="assets/do-not-localize/brand-score.gif">
-</td>
-</tr>
-</tbody>
-</table>
+* Der Bericht Versandzusammenfassung ist jetzt sowohl für Callcenter- als auch für benutzerdefinierte Kanäle verfügbar. [Weitere Informationen](../reporting/direct-mail.md)
 
-<table>
-<thead>
-<tr>
-<th><strong>Benutzerdefinierter Kanal für externe Sendungen</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Sie können nun Sendungen direkt über die Adobe Campaign Web-Benutzeroberfläche orchestrieren und auf Grundlage benutzerdefinierter externer Kanäle ausführen. Diese Sendungen können eigenständig oder Teil eines Workflows sein. Die Erstellung des benutzerdefinierten, mit einem Drittanbieter integrierten externen Kanals erfolgt in der Konsole.</p>
-<p>Hinweis: Die Reporting-Funktion ist in der Web-Benutzeroberfläche für den benutzerdefinierten Kanal nicht verfügbar. Sie müssen zur Client-Konsole wechseln, um auf Berichte zuzugreifen.</p>
-<p>Weitere Informationen finden Sie in der <a href="../call-center/gs-custom-channel.md">entsprechenden Dokumentation</a>.</p>
-<img src="assets/do-not-localize/custom-channel.gif">
-</td>
-</tr>
-</tbody>
-</table>
+* Beim Konfigurieren eines SMS-Versands haben Sie jetzt Zugriff auf die spezifischen SMS-Parameter. Hierbei handelt es sich um die gleichen Parameter, die auch in der Client-Konsole verfügbar sind. [Weitere Informationen](../advanced-settings/delivery-settings.md#sms-tab)
 
-### Verbesserungen {#25-5-improvements}
+* Ihre bevorzugten Ordner werden jetzt oben im linken Bereich auf der Explorer-Seite angezeigt, wodurch sie leichter zugänglich sind. [Weitere Informationen](../get-started/work-with-folders.md#favorite-folders)
 
-Der Bildschirm zur Erstellung von Typologieregeln wurde aktualisiert, um die Auswahl des Regeltyps zu erleichtern.
+* Der Regel-Builder unterstützt jetzt Drag-and-Drop, sodass Sie Komponenten Ihrer Abfrage effizienter neu anordnen können. [Weitere Informationen](../query/build-query.md#drag-and-drop)
+
+* Die Bedingung „Mensch“ im Regel-Builder wurde verbessert. Hierbei handelt es sich um die geschriebene, übersetzte Version Ihrer Regeln, die unten auf dem Bildschirm angezeigt wird:
+
+   * Attribute sind jetzt hervorgehoben und das zugehörige Schema wird angezeigt.
+   * Sie können auf diese Elemente klicken, um detailliertere Informationen anzuzeigen.
+   * Sie können die Bedingung Mensch nun mithilfe der entsprechenden Schaltfläche kopieren.
+
+* Der Zugriff auf die Ordner „Technische Workflows“ und „Automatisch erstellte Objekte“ ist jetzt eingeschränkt, um deren Anzeige zu verhindern. [Weitere Informationen](../get-started/work-with-folders.md#about-folders)
