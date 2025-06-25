@@ -4,10 +4,10 @@ title: Konfigurieren von Versandeinstellungen
 description: Erfahren Sie, wie Sie Versandeinstellungen in Campaign Web konfigurieren
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: 73c9e30ab93787630e973da71f0381b14c64cc2c
+source-git-commit: 5835d45ea2a383eed7d280fdd263548ea2e8530d
 workflow-type: tm+mt
-source-wordcount: '3324'
-ht-degree: 87%
+source-wordcount: '3159'
+ht-degree: 90%
 
 ---
 
@@ -288,16 +288,20 @@ Sie können auch den Namen der Testsendungen anpassen:
 
 SMS-Versandparameter sind technische Einstellungen, die für Ihren SMS-Versand gelten. Sie können die Absenderadresse, Service-Parameter, den Übertragungsmodus und mehr definieren. Diese Optionen sind erfahrenen Benutzerinnen und Benutzern vorbehalten.
 
-* **[!UICONTROL Absenderadresse]**
+<!--
 
-  Das Feld ist durch die SMPP-Spezifikation auf 21 Zeichen begrenzt, einige Provider können jedoch längere Werte zulassen. Beachten Sie auch, dass in einigen Ländern sehr strenge Einschränkungen angewendet werden können (Länge, Inhalt, zulässige Zeichen, …), sodass Sie möglicherweise überprüfen müssen, ob der Inhalt, den Sie hier platzieren, legal ist. Seien Sie besonders vorsichtig bei der Verwendung personalisierter Felder.
+* **[!UICONTROL Sender address]**
+
+  The field is limited to 21 characters by the SMPP specification, but some providers may allow longer values. Note also that very strict restrictions may be applied in some countries (length, content, allowed characters, …), so you may need to double-check that the content you place here is legal. Be especially careful when using personalized fields.
 
 
-  Mit diesem optionalen Feld können Sie die Absenderadresse (oADC) überschreiben. Der Inhalt wird im Feld *source_addr* der PDU SUBMIT_SM platziert.
+  This optional field allows you to override the sender address (oADC). Its content is placed in the *source_addr* field of the SUBMIT_SM PDU.
 
-  Obwohl dieses Feld in der SMPP-Spezifikation auf 21 Zeichen beschränkt ist, unterstützen einige Anbieter möglicherweise längere Werte. Beachten Sie, dass in bestimmten Ländern strenge Vorschriften für Absenderadressen (Länge, Inhalt, zulässige Zeichen usw.) gelten. Überprüfen Sie daher immer, ob Ihre Eingabe den lokalen Anforderungen entspricht. Seien Sie beim Arbeiten mit personalisierten Feldern besonders vorsichtig.
+  Although the SMPP specification limits this field to 21 characters, some providers may support longer values. Be aware that certain countries impose strict regulations on sender addresses (regarding length, content, allowed characters, etc.), so always verify that your input complies with local requirements. Use extra caution when working with personalized fields.
 
-  Bleibt das entsprechende Feld leer, wird stattdessen der im externen Konto festgelegte Wert des Felds „Anrufernummer“ verwendet. Wenn beide Werte leer sind, bleibt das Feld *source_addr* leer.
+  If this field is left empty, the value of the Source number field defined in the external account will be used instead. If both values are empty, the *source_addr* field will be left empty.
+
+-->
 
 * **[!UICONTROL Service-Typ]**:
 
