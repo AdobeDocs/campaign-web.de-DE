@@ -2,9 +2,9 @@
 title: Frühere Versionshinweise zur Web-Benutzeroberfläche von Campaign v8
 description: Versionen der Campaign-Web-Benutzeroberfläche 2025
 exl-id: eecb4b18-4826-47a6-88b2-f2ed7b576d3e
-source-git-commit: 8ec342d565bc8418c202cdba834d74a99cff3a47
+source-git-commit: d70409846dbe950e3e4e475be6866fb5ed9799de
 workflow-type: tm+mt
-source-wordcount: '1281'
+source-wordcount: '1438'
 ht-degree: 100%
 
 ---
@@ -12,6 +12,49 @@ ht-degree: 100%
 # Versionshinweise 2025 {#2025-release}
 
 Auf dieser Seite werden alle Änderungen und Verbesserungen aufgelistet, die in **Versionen von 2025** verfügbar sind. Die neuesten Versionshinweise finden Sie auf [dieser Seite](release-notes.md).
+
+## Version Mai 2025 {#25-5-release}
+
+Die folgenden Funktionen stehen allen Benutzenden ab der Version Mai zur Verfügung.
+
+<table>
+<thead>
+<tr>
+<th><strong>Markenausrichtungswert (Beta)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Die Funktion zur Bewertung der Markenausrichtung bietet klares Feedback direkt im E-Mail-Designer, sodass Sie sehen können, ob der Inhalt mit dem Ton, dem Stil und den Richtlinien Ihrer Marke übereinstimmt. Diese Funktion ist in der Beta-Version verfügbar.</p>
+<p>Weitere Informationen finden Sie in der <a href="../content/brands-score.md">entsprechenden Dokumentation</a>.</p>
+<img src="assets/do-not-localize/brand-score.gif">
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Benutzerdefinierter Kanal für externe Sendungen</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Sie können nun Sendungen direkt über die Adobe Campaign Web-Benutzeroberfläche orchestrieren und auf Grundlage benutzerdefinierter externer Kanäle ausführen. Diese Sendungen können eigenständig oder Teil eines Workflows sein. Die Erstellung des benutzerdefinierten, mit einem Drittanbieter integrierten externen Kanals erfolgt in der Konsole.</p>
+<p>Hinweis: Die Reporting-Funktion ist in der Web-Benutzeroberfläche für den benutzerdefinierten Kanal nicht verfügbar. Sie müssen zur Client-Konsole wechseln, um auf Berichte zuzugreifen.</p>
+<p>Weitere Informationen finden Sie in der <a href="../call-center/gs-custom-channel.md">entsprechenden Dokumentation</a>.</p>
+<img src="assets/do-not-localize/custom-channel.gif">
+</td>
+</tr>
+</tbody>
+</table>
+
+### Verbesserungen {#25-5-improvements}
+
+Der Bildschirm zur Erstellung von Typologieregeln wurde aktualisiert, um die Auswahl des Regeltyps zu erleichtern.
 
 ## Version April 2025 {#25-4-release}
 
