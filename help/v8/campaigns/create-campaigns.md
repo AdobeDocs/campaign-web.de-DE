@@ -56,7 +56,7 @@ Sie können auch die entsprechenden Berichte anzeigen, indem Sie auf die Schaltf
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_schedule"
 >title="Kampagnenzeitplan"
->abstract="Wählen Sie den Kampagnenzeitplan aus. Sie können eine Kampagne erstellen, die beginnt, wenn das Anfangsdatum erreicht ist. Standardmäßig ist das Kampagnenstartdatum das Erstellungsdatum, und sie dauert fünf Tage. Start- und Enddatum werden in der Kampagnenliste angezeigt und können als Filter verwendet werden."
+>abstract="Wählen Sie den Kampagnenzeitplan aus. Sie können eine Kampagne erstellen, die beginnt, wenn das Startdatum erreicht ist. Standardmäßig ist das Kampagnenstartdatum das Erstellungsdatum, und sie dauert fünf Tage. Start- und Enddatum werden in der Kampagnenliste angezeigt und können als Filter verwendet werden."
 
 Die Kampagne beginnt, wenn das Startdatum erreicht ist. Solange das Startdatum nicht erreicht ist, verfügt die Kampagne über den Status **[!UICONTROL Entwurf]**. Wenn das Startdatum erreicht ist, ändert sich der Status zu **[!UICONTROL In Bearbeitung]**. Sobald das Enddatum erreicht ist, wechselt die Kampagne in den Status **[!UICONTROL Abgeschlossen]**.
 

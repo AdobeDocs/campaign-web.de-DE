@@ -1,5 +1,5 @@
 ---
-title: Hinzufügen von benutzerdefiniertem CSS zu Ihrem E-Mail-Inhalt
+title: Hinzufügen von benutzerdefinierten CSS zu E-Mail-Inhalten
 description: Erfahren Sie, wie Sie Ihrem E-Mail-Inhalt direkt in der E-Mail-Designer in Adobe Campaign benutzerdefiniertes CSS hinzufügen.
 feature: Email Design
 topic: Content Management
@@ -8,19 +8,20 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 keywords: CSS, Editor, Zusammenfassung, E-Mail
-source-git-commit: cabc4f810878001102f57a93581ff4be23fcbcd5
+exl-id: 7969b656-8130-49cf-9c85-d80bd74b285a
+source-git-commit: 416dab7e671a33a44da43d93d6de9fc73d816600
 workflow-type: tm+mt
 source-wordcount: '649'
-ht-degree: 1%
+ht-degree: 8%
 
 ---
 
-# Hinzufügen von benutzerdefiniertem CSS zu Ihrem E-Mail-Inhalt {#email-metadata}
+# Hinzufügen von benutzerdefinierten CSS zu E-Mail-Inhalten {#email-metadata}
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_css"
->title="Eigenes CSS eingeben"
->abstract="Für mehr Flexibilität und Kontrolle über das Erscheinungsbild Ihrer Inhalte können Sie benutzerdefiniertes CSS direkt in der E-Mail-Designer hinzufügen, um erweiterte und spezifische Stile anzuwenden."
+>title="Eingeben eigener CSS"
+>abstract="Für mehr Flexibilität und Kontrolle über das Erscheinungsbild Ihrer Inhalte können Sie benutzerdefinierte CSS direkt im E-Mail-Designer hinzufügen, um erweiterte und spezifische Stile anzuwenden."
 
 Beim Entwerfen Ihrer E-Mails können Sie Ihr eigenes benutzerdefiniertes CSS direkt in der (E-[-Designer) ](get-started-email-designer.md). Mit dieser Funktion können Sie erweiterte und spezifische Stile anwenden, um die Flexibilität und Kontrolle über das Erscheinungsbild Ihrer Inhalte zu erhöhen.
 
@@ -253,4 +254,3 @@ Wenn Ihr benutzerdefiniertes CSS nicht angewendet wird, sollten Sie die folgende
     }
     ```
     -->
-
