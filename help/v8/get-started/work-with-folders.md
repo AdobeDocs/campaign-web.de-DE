@@ -6,7 +6,7 @@ exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
 source-git-commit: 6901533f1f5c45ce9ebf77a4f1095d8476c6a21b
 workflow-type: tm+mt
 source-wordcount: '721'
-ht-degree: 86%
+ht-degree: 91%
 
 ---
 
@@ -40,7 +40,7 @@ Sie können einen Ordnertyp einrichten. Zum Beispiel einen Ordner mit Sendungen.
 >[!CONTEXTUALHELP]
 >id="acw_folder_restrictions"
 >title="Ordnereinschränkungen"
->abstract="Die automatisch erstellten Ordner und technischen Workflows sind eingeschränkt und können im linken Seitenbereich nicht angezeigt werden."
+>abstract="Die automatisch erstellten Ordner „Objekte“ und technischen Workflows sind eingeschränkt und können nicht im linken Panel angezeigt werden."
 
 >[!IMPORTANT]
 >
@@ -81,12 +81,12 @@ Sie können die Reihenfolge der Ordner entweder durch **Ziehen und Ablegen** ode
 
 ![Funktion zum Ziehen und Ablegen für die Neuanordnung von Ordnern](assets/folder-draganddrop.png){zoomable="yes"}
 
-### Favoritenordner {#favorite-folders}
+### Ordnerfavoriten {#favorite-folders}
 
 >[!CONTEXTUALHELP]
 >id="acw_folder_favorites"
 >title="Favoriten"
->abstract="Ihre Lieblingsordner werden oben auf der linken Registerkarte angezeigt."
+>abstract="Ihre Ordnerfavoriten werden oben auf der linken Registerkarte angezeigt."
 
 Die als „Favorit“ markierten Ordner werden immer oben in der linken Registerkarte angezeigt.
 
