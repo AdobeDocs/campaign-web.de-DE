@@ -9,10 +9,10 @@ hide: true
 hidefromtoc: true
 keywords: CSS, Editor, Zusammenfassung, E-Mail
 exl-id: 7969b656-8130-49cf-9c85-d80bd74b285a
-source-git-commit: 416dab7e671a33a44da43d93d6de9fc73d816600
+source-git-commit: d21538237340bc73ea8505d29d54aea7f541588d
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 8%
+source-wordcount: '712'
+ht-degree: 7%
 
 ---
 
@@ -41,14 +41,13 @@ Gehen Sie wie folgt vor, um benutzerdefinierten CSS-Code zu Ihrem E-Mail-Inhalt 
 
 1. Klicken Sie auf **[!UICONTROL Schaltfläche Benutzerdefiniertes CSS]**.
 
-1. Geben Sie Ihren CSS-Code in den entsprechenden Textbereich ein, der angezeigt wird. Stellen Sie sicher, dass das benutzerdefinierte CSS gültig ist und der richtigen Syntax folgt. [Weitere Informationen](#use-valid-css)
-
-   ![Geben Sie benutzerdefiniertes CSS in den entsprechenden Textbereich ein](assets/email-body-custom-css.png){width="65%"}
-
    >[!NOTE]
    >
    >Die Schaltfläche **[!UICONTROL Benutzerdefiniertes CSS hinzufügen]** ist nur verfügbar, wenn **[!UICONTROL Body]** ausgewählt ist. Sie können jedoch benutzerdefinierte CSS-Stile auf alle Komponenten in Ihrem Inhalt anwenden.
 
+1. Geben Sie Ihren CSS-Code in den entsprechenden Textbereich ein, der angezeigt wird. Stellen Sie sicher, dass das benutzerdefinierte CSS gültig ist und der richtigen Syntax folgt. [Weitere Informationen](#use-valid-css)
+
+   ![Geben Sie benutzerdefiniertes CSS in den entsprechenden Textbereich ein](assets/email-body-custom-css.png){width="65%"}
 
 1. Speichern Sie das benutzerdefinierte CSS und überprüfen Sie, ob das benutzerdefinierte CSS korrekt auf Ihren Inhalt angewendet wird. Ist dies nicht der Fall, lesen Sie den Abschnitt [Fehlerbehebung](#troubleshooting).
 
@@ -68,8 +67,9 @@ Sie können eine beliebige gültige CSS-Zeichenfolge im Textbereich **[!UICONTRO
 >
 >Vermeiden Sie die Verwendung von CSS, das unbeabsichtigt das Layout oder die Funktionalität des Inhalts beeinträchtigen könnte.
 
-+++ Beispiele für eine gültige CSS
++++ Beispiele für CSS
 
+Im Folgenden finden Sie Beispiele für gültiges CSS.
 
 ```css
 .acr-component[data-component-id="form"] {
@@ -220,7 +220,7 @@ Beispiel:
 
 +++
 
-## Schutzmechanismen
+## Schutzmechanismen - Importierte Inhalte
 
 Wenn Sie benutzerdefiniertes CSS mit Inhalten verwenden möchten, die in die E-Mail-Designer importiert wurden, sollten Sie Folgendes beachten:
 
@@ -237,20 +237,30 @@ Wenn Ihr benutzerdefiniertes CSS nicht angewendet wird, sollten Sie die folgende
 
 * Stellen Sie sicher, dass Ihr CSS gültig und frei von Syntaxfehlern (z. B. fehlende Klammern, falsche Eigenschaftsnamen) ist. [Weitere Informationen](#use-valid-css)
 
-* Stellen Sie sicher, dass Ihr CSS zum `<style>`-Tag mit dem `data-name="global-custom"`-Attribut hinzugefügt wird und dass `data-disabled` nicht auf `global-custom` angewendet wird. [Weitere Informationen](#implementation)
+* Stellen Sie sicher, dass Ihr CSS zum `<style>`-Tag mit dem `data-name="global-custom"` hinzugefügt wird.
 
-<!--
-* Ensure that your CSS is not overridden by other CSS rules, including any [theme](apply-email-themes.md) applied to your content.
- 
-  * Use your browser developer tools to inspect the content and verify that your CSS is targeting the correct selectors.
-  
-  * Consider adding `!important` to your declarations to ensure they take precedence. 
-    
-    For example:
+* Überprüfen Sie, ob für das `global-custom`-Stil-Tag das Attribut `data-disabled` auf `true` festgelegt ist. In diesem Fall wird das benutzerdefinierte CSS nicht angewendet.
 
-    ```css
-    .acr-Form {
-      background: red !important;
-    }
-    ```
-    -->
+  +++Beispiel:
+
+  ```html
+  <style data-name="global-custom" type="text/css" data-disabled="true"> body: { color: red; } </style>
+  ```
+
++++
+
+* Stellen Sie sicher, dass Ihre CSS-Datei nicht durch andere CSS-Regeln überschrieben wird.
+
+   * Verwenden Sie Ihre Browser-Entwickler-Tools, um den Inhalt zu überprüfen und sicherzustellen, dass Ihr CSS auf die richtigen Selektoren abzielt.
+
+   * Erwägen Sie, Ihren Deklarationen `!important` hinzuzufügen, um sicherzustellen, dass sie Vorrang haben.
+
++++ Beispiel:
+
+     ```css
+     .acr-Form {
+       background: red !important;
+     }
+     ```
+
++++
