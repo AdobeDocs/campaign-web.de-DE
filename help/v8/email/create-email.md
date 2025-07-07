@@ -72,7 +72,7 @@ Gehen Sie wie folgt vor, um einen neuen E-Mail-Versand zu erstellen.
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience"
->title="Auswählen einer Zielgruppe für Ihren Versand"
+>title="Auswählen einer Zielgruppe für den Versand"
 >abstract="Die optimale Zielgruppe für Marketing-Nachrichten auswählen. Sie können eine vorhandene Zielgruppe auswählen (die bereits in einer Campaign v8-Instanz oder in Adobe Experience Platform definiert ist), mit dem Abfrage-Modeler eine neue Zielgruppe erstellen oder eine Datei hochladen, die Ihre Zielgruppe enthält. Kontrollgruppen sind nicht aktiviert für die Option **Aus Datei auswählen** und umgekehrt."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/add-audience.html?lang=de" text="Auswählen der Hauptzielgruppen"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html?lang=de" text="Festlegen einer Kontrollgruppe"
@@ -252,4 +252,4 @@ Nachdem Sie Ihre E-Mail geprüft und getestet haben, können Sie die Vorbereitun
 
 Hier erfahren Sie, wie Sie einen neuen E-Mail-Versand erstellen, die Zielgruppe definieren, den Inhalt gestalten, eine Vorschau simulieren und einen Testversand durchführen können.
 
->[!VIDEO](https://video.tv.adobe.com/v/3454014/?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3425866/?quality=12)

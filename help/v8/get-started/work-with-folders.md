@@ -86,7 +86,7 @@ Sie können die Reihenfolge der Ordner entweder durch **Ziehen und Ablegen** ode
 >[!CONTEXTUALHELP]
 >id="acw_folder_favorites"
 >title="Favoriten"
->abstract="Ihre Ordnerfavoriten werden oben auf der linken Registerkarte angezeigt."
+>abstract="Die Favoriten-Ordner werden oben auf der linken Registerkarte angezeigt."
 
 Die als „Favorit“ markierten Ordner werden immer oben in der linken Registerkarte angezeigt.
 
