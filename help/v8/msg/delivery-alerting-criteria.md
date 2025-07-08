@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie mit Versandwarnungen arbeiten können.
 badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: fc98d4e3-7986-42bb-82d5-b4f874aa71db
 source-git-commit: a28bc98d1735232d8aa0b0daaeca3969913e548c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '743'
 ht-degree: 100%
 

@@ -5,9 +5,9 @@ description: Erfahren Sie, wie Sie Versandeinstellungen in Campaign Web konfigur
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 source-git-commit: 5835d45ea2a383eed7d280fdd263548ea2e8530d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3159'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -110,7 +110,7 @@ Im Feld **[!UICONTROL Ausschluss]** können Sie Profile ausschließen, die nicht
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_delivery"
 >title="Globale Einstellungen für den Versand"
->abstract="Versandparameter sind technische Einstellungen, die für Ihren Versand gelten. Sie können den Versand und die Routinemodi ändern, E-Mail-BCC aktivieren, in Schüben senden und auch das Format der gesendeten E-Mail-Nachrichten auswählen. Diese Optionen sind erfahrenen Benutzerinnen und Benutzern vorbehalten."
+>abstract="Versandparameter sind technische Einstellungen, die für Ihren Versand gelten. Sie können den Versand und die Routinemodi ändern, E-Mail-BCC aktivieren, in Schüben senden und auch das Format der gesendeten E-Mail-Nachrichten auswählen. Diese Optionen sind erfahrenen Benutzenden vorbehalten."
 
 **[!UICONTROL Versandparameter]** sind technische Einstellungen, die für Ihren Versand gelten.
 
@@ -284,9 +284,9 @@ Sie können auch den Namen der Testsendungen anpassen:
 >[!CONTEXTUALHELP]
 >id="acw_sms_delivery_settings"
 >title="SMS-Versandeinstellungen"
->abstract="SMS-Versandparameter sind technische Einstellungen, die für Ihren SMS-Versand gelten. Sie können die Absenderadresse, Dienstparameter, den Übertragungsmodus und mehr definieren. Diese Optionen sind erfahrenen Benutzerinnen und Benutzern vorbehalten."
+>abstract="SMS-Versandparameter sind technische Einstellungen, die für Ihren SMS-Versand gelten. Sie können die Absendeadresse, Dienstparameter, den Übertragungsmodus und mehr definieren. Diese Optionen sind erfahrenen Benutzenden vorbehalten."
 
-SMS-Versandparameter sind technische Einstellungen, die für Ihren SMS-Versand gelten. Sie können die Absenderadresse, Dienstparameter, den Übertragungsmodus und mehr definieren. Diese Optionen sind erfahrenen Benutzerinnen und Benutzern vorbehalten.
+SMS-Versandparameter sind technische Einstellungen, die für Ihren SMS-Versand gelten. Sie können die Absendeadresse, Dienstparameter, den Übertragungsmodus und mehr definieren. Diese Optionen sind erfahrenen Benutzenden vorbehalten.
 
 <!--
 
@@ -303,7 +303,7 @@ SMS-Versandparameter sind technische Einstellungen, die für Ihren SMS-Versand g
 
 -->
 
-* **[!UICONTROL Service-Typ]**:
+* **[!UICONTROL Diensttyp]**:
 
   Dieser Parameter wird unverändert an den Anbieter übergeben.
 
@@ -319,12 +319,12 @@ SMS-Versandparameter sind technische Einstellungen, die für Ihren SMS-Versand g
 
 * **[!UICONTROL Übermittlungsmodus]**
 
-  Dieses Feld definiert den Typ der zu sendenden SMS: ob es sich um eine normale oder eine Flash-Nachricht handelt und ob sie auf dem Mobilgerät oder der SIM-Karte gespeichert werden soll. Diese Einstellung wird im optionalen Feld „dest_addr_subunit“ in der SUBMIT_SM-PDU übertragen.
+  Dieses Feld definiert den Typ der zu sendenden SMS und legt fest, ob es sich um eine normale Nachricht oder eine Flash-Nachricht handelt und ob sie auf dem Mobilgerät oder der SIM-Karte gespeichert werden soll. Diese Einstellung wird im optionalen Feld „dest_addr_subunit“ in der SUBMIT_SM-PDU übertragen.
 
    * **Flash** setzt den Wert auf 1. Sendet eine Flash-SMS, die sofort auf dem Bildschirm erscheint und nicht gespeichert wird.
    * **Normal** setzt den Wert auf 0. Sendet eine Standard-SMS.
-   * **Auf Mobilgerät gespeichert** setzt den Wert auf 2. Weist das Gerät an, die SMS im internen Speicher zu speichern.
-   * **Im Terminal gespeichert** setzt den Wert auf 3. Weist das Gerät an, die SMS auf der SIM-Karte zu speichern.
+   * **Speicherung im Mobiltelefon** setzt den Wert auf 2. Das Gerät wird angewiesen, die SMS im internen Speicher zu speichern.
+   * **Speicherung im Endgerät** setzt den Wert auf 3. Das Gerät wird angewiesen, die SMS auf der SIM-Karte zu speichern.
 
 * **[!UICONTROL Priorität, Kommunikationstyp]**
 
@@ -332,13 +332,13 @@ SMS-Versandparameter sind technische Einstellungen, die für Ihren SMS-Versand g
 
 * **[!UICONTROL Maximale Anzahl an SMS pro Nachricht]**
 
-  Diese Einstellung ist nur wirksam, wenn die Option Nachrichten-Payload deaktiviert ist (weitere Einzelheiten finden Sie in den Einstellungen des externen Kontos). Wenn für die Nachricht mehr SMS als dieser Wert erforderlich sind, wird ein Fehler ausgelöst.
+  Diese Einstellung ist nur wirksam, wenn die Option „Nachrichten-Payload“ deaktiviert ist (weitere Informationen finden Sie in den Einstellungen für das externe Konto). Wenn die Nachricht mehr SMS erfordert, als dieser Wert angibt, wird ein Fehler ausgelöst.
 
-  Während das SMS-Protokoll die Aufteilung von Nachrichten in bis zu 255 Teile ermöglicht, können einige mobile Geräte Probleme haben, Nachrichten mit mehr als 10 Teilen neu zusammenzustellen (die Begrenzung hängt vom Gerätemodell ab). Aus Gründen der Zuverlässigkeit empfiehlt es sich, Nachrichten auf maximal 5 Teile zu beschränken.
+  Während das SMS-Protokoll die Aufspaltung von Nachrichten in bis zu 255 Teile ermöglicht, haben einige Mobilgeräte möglicherweise Probleme, Nachrichten mit mehr als 10 Teilen wieder zusammenzusetzen (das Limit hängt vom Gerätemodell ab). Aus Gründen der Zuverlässigkeit empfiehlt es sich, Nachrichten auf maximal 5 Teile zu beschränken.
 
   Beachten Sie, dass aufgrund der Funktionsweise personalisierter Nachrichten in Adobe Campaign die Nachrichtengrößen variieren können. Eine hohe Anzahl langer Nachrichten kann zu erhöhten Versandkosten führen, sodass die Verwendung eines sinnvollen Limits hilft, die Kosten zu kontrollieren.
 
-  Wenn Sie diesen Wert auf 0 setzen, wird die Begrenzung deaktiviert.
+  Wenn Sie diesen Wert auf 0 setzen, wird das Limit deaktiviert.
 
 ## SMTP-Einstellungen für den E-Mail-Versand {#smtp}
 

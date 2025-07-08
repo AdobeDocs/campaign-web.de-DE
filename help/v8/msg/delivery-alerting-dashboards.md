@@ -5,9 +5,9 @@ description: Erfahren Sie, wie Sie mit Versandwarnungen arbeiten können.
 badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: b91ef82b-f3e9-4704-87a2-0e3f75104572
 source-git-commit: a28bc98d1735232d8aa0b0daaeca3969913e548c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1146'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -76,13 +76,13 @@ Gehen Sie wie folgt vor, um ein Versand-Dashboard zu erstellen:
    * **Monitoring-Zeitraum vor und nach dem Kontaktdatum (in Stunden)**: Anzahl der Stunden vor und nach der aktuellen Zeit. Berücksichtigt werden nur Sendungen, deren Kontaktdatum in diesem Zeitraum liegt. Dieser Parameter gilt für alle Bedingungen. Standardmäßig ist der Wert dieses Feldes mit 24 Stunden festgelegt.
    * **Maximale Softbounce-Fehlerrate**: Eine Benachrichtigung wird für alle Sendungen gesendet, deren Softbounce-Fehlerrate über dem definierten Wert liegt. Standardmäßig ist der Wert dieses Feldes auf 0,05 (5 %) festgelegt.
    * **Maximale Hardbounce-Fehlerrate**: Eine Benachrichtigung wird für alle Sendungen gesendet, deren Hardbounce-Fehlerrate über dem definierten Wert liegt. Standardmäßig ist der Wert dieses Feldes auf 0,05 (5 %) festgelegt.
-   * **Mindestzeitschwelle für einen Versand im Status „Start ausstehend“ (in Minuten)**: Es wird eine Benachrichtigung für alle Sendungen gesendet, deren Status „Start ausstehend“ länger als die in diesem Feld angegebene Dauer ist. Der Status „Start ausstehend“ bedeutet, dass die Nachrichten noch nicht vom System berücksichtigt wurden.
+   * **Mindestens erforderliche Zeit für Versand im Status „Start ausstehend“ (in Minuten)**: Eine Benachrichtigung wird für alle Sendungen gesendet, deren Status „Start ausstehend“ die in diesem Feld definierte Dauer überschreitet. Der Status „Start ausstehend“ bedeutet, dass die Nachrichten vom System noch nicht berücksichtigt wurden.
    * **Mindestdauer (in Minuten) für die Berechnung des Durchsatzes**: Nur Sendungen, deren Dauer länger ist als der spezifizierte Wert (mit Status „Gestartet“), werden für die Bedingung „Sendungen mit geringem Durchsatz“ berücksichtigt.
    * **Maximaler Prozentsatz verarbeiteter Nachrichten zur Berechnung des Durchsatzes**: Nur Sendungen mit einem Prozentsatz an verarbeiteten Nachrichten, der unter dem definierten Wert liegt, werden für die Bedingung „Sendungen mit geringem Durchsatz“ berücksichtigt.
    * **Erwarteter Mindestdurchsatz (in gesendeten Nachrichten pro Stunde)**: Nur Sendungen mit einem Durchsatz, der unter dem festgelegten Wert liegt, werden für die Bedingung „Sendungen mit geringem Durchsatz“ berücksichtigt.
-   * **Für Versandbedingung &#39;Gestartet&#39; erforderliche Mindest-Verarbeitungsrate**: Nur Sendungen mit einem Prozentsatz an verarbeiteten Nachrichten, der über dem festgelegten Wert liegt, werden berücksichtigt.
+   * **Für Versandbedingung „Gestartet“ erforderliche Mindest-Verarbeitungsrate**: Nur Sendungen mit einem Prozentsatz an verarbeiteten Nachrichten, der über dem festgelegten Wert liegt, werden berücksichtigt.
 
-   +++
++++
 
 1. Warnungs-Dashboards sind standardmäßig deaktiviert, d. h., mit diesem Dashboard verknüpfte E-Mail-Warnungen werden nicht gesendet. Um das Dashboard sofort zu aktivieren, schalten Sie die Option **Aktiviert** im Abschnitt **Allgemein** neben dem Feld für die Warnungsgruppenauswahl ein.
 

@@ -4,17 +4,17 @@ title: Kampagnenberichte für den Briefpost-Kanal
 description: Grundlegendes zu Kampagnenberichten für den Briefpost-Kanal
 exl-id: 7817d4c5-1f97-4b17-8a5f-f1a5b8701fe9
 source-git-commit: 1a2ab055822bea4cd55230fb63b59234aa114ff7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '574'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
-# Kampagnenberichte für externe Versandkanäle {#campaign-reports-direct-mail}
+# Kampagnenberichte für die Kanäle externer Sendungen {#campaign-reports-direct-mail}
 
-Jeder Kampagnenbericht ist in verschiedene Widgets unterteilt, die den Erfolg und die Fehler Ihrer Kampagne detailliert beschreiben. Für externe Versandkanäle werden Berichte und Metriken im Folgenden beschrieben. Erfahren Sie auf [dieser Seite](campaign-reports.md), wie Sie auf Ihre Kampagnenberichte zugreifen können.
+Jeder Kampagnenbericht ist in verschiedene Widgets unterteilt, die den Erfolg und die Fehler Ihrer Kampagne detailliert beschreiben. Im Folgenden werden Berichte und Metriken für die Kanäle externer Sendungen beschrieben. Erfahren Sie auf [dieser Seite](campaign-reports.md), wie Sie auf Ihre Kampagnenberichte zugreifen können.
 
-Der folgende Bericht wird im Zusammenhang mit Briefpost beschrieben. Es ist auch für Callcenter- und benutzerdefinierte externe Kanäle verfügbar.
+Der folgende Bericht wird im Zusammenhang mit Briefpost beschrieben. Es ist auch für Callcenter-Kanäle und benutzerdefinierte externe Kanäle verfügbar.
 
 ## Versandzusammenfassung {#delivery-summary-direct}
 

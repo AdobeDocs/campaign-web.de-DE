@@ -4,17 +4,17 @@ title: Briefpost-Berichte
 description: Erfahren Sie, wie Sie auf Briefpost-Berichte zugreifen und diese verwenden können.
 exl-id: 268fe1e3-bd5c-40f1-8973-7671cd8c9960
 source-git-commit: 1a2ab055822bea4cd55230fb63b59234aa114ff7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '696'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
-# Externer Versandbericht {#direct-mail-report}
+# Bericht zum externen Versand {#direct-mail-report}
 
-Der **Bericht zum externen Versand** bietet umfassende Einblicke und Daten, die speziell für Ihren externen Versand gelten. Er enthält detaillierte Informationen über die Leistung, Effektivität und Ergebnisse der einzelnen Sendungen und bieten Ihnen einen vollständigen Überblick.
+Der **Bericht zum externen Versand** bietet umfassende Erkenntnisse und Daten, die speziell für Ihren externen Versand gelten. Er enthält detaillierte Informationen über Leistung, Effektivität und Ergebnisse der einzelnen Sendungen und bieten Ihnen einen vollständigen Überblick.
 
-Der folgende Bericht wird im Zusammenhang mit Briefpost beschrieben. Es ist auch für Callcenter- und benutzerdefinierte externe Kanäle verfügbar.
+Der folgende Bericht wird im Zusammenhang mit Briefpost beschrieben. Es ist auch für Callcenter-Kanäle und benutzerdefinierte externe Kanäle verfügbar.
 
 ## Versandzusammenfassung {#delivery-summary-direct-mail}
 

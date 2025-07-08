@@ -4,9 +4,9 @@ title: Arbeiten mit Ordnern
 description: Erfahren Sie, wie Sie in Adobe Campaign einen Ordner verwalten.
 exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
 source-git-commit: 6901533f1f5c45ce9ebf77a4f1095d8476c6a21b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '721'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -40,11 +40,11 @@ Sie können einen Ordnertyp einrichten. Zum Beispiel einen Ordner mit Sendungen.
 >[!CONTEXTUALHELP]
 >id="acw_folder_restrictions"
 >title="Ordnereinschränkungen"
->abstract="Die automatisch erstellten Ordner „Objekte“ und technischen Workflows sind eingeschränkt und können nicht im linken Panel angezeigt werden."
+>abstract="Die Ordner „Automatisch erstellte Objekte“ und „Technische Workflows“ sind eingeschränkt und können im linken Seiten-Panel nicht angezeigt werden."
 
 >[!IMPORTANT]
 >
->Die Ordner **[!UICONTROL Automatisch erstellte Objekte]** und **[!UICONTROL Technische Workflows]** sind eingeschränkt und können im linken Seitenbereich nicht angezeigt werden.
+>Die Ordner **[!UICONTROL Automatisch erstellte Objekte]** und **[!UICONTROL Technische Workflows]** sind eingeschränkt und können im linken Seiten-Panel nicht angezeigt werden.
 
 
 ## Erstellen eines neuen Ordners {#create-a-folder}
@@ -81,18 +81,18 @@ Sie können die Reihenfolge der Ordner entweder durch **Ziehen und Ablegen** ode
 
 ![Funktion zum Ziehen und Ablegen für die Neuanordnung von Ordnern](assets/folder-draganddrop.png){zoomable="yes"}
 
-### Ordnerfavoriten {#favorite-folders}
+### Favoritenordner {#favorite-folders}
 
 >[!CONTEXTUALHELP]
 >id="acw_folder_favorites"
 >title="Favoriten"
->abstract="Die Favoriten-Ordner werden oben auf der linken Registerkarte angezeigt."
+>abstract="Ihre Favoritenordner werden oben auf der linken Registerkarte angezeigt."
 
-Die als „Favorit“ markierten Ordner werden immer oben in der linken Registerkarte angezeigt.
+Die als „Favorit“ gekennzeichneten Ordner werden immer oben auf der linken Registerkarte angezeigt.
 
-Sie können Ordner als Favoriten hinzufügen, indem Sie beim Anzeigen eines Ordners auf die Sternschaltfläche oben rechts klicken.
+Sie können Ordner zu den Favoriten hinzufügen, indem Sie beim Anzeigen eines Ordners auf die Sternschaltfläche oben rechts klicken.
 
-![Screenshot zum Speicherort der Favoritenordner](assets/folders-favorite.png){zoomable="yes"}
+![Screenshot des Orts der Favoritenordner](assets/folders-favorite.png){zoomable="yes"}
 
 ## Löschen eines Ordners {#delete-a-folder}
 
