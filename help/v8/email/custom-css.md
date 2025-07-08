@@ -249,7 +249,7 @@ Wenn Ihr benutzerdefiniertes CSS nicht angewendet wird, sollten Sie die folgende
   <style data-name="global-custom" type="text/css" data-disabled="true"> body: { color: red; } </style>
   ```
 
-+++
+  +++
 
 * Stellen Sie sicher, dass Ihre CSS-Datei nicht durch andere CSS-Regeln überschrieben wird.
 
