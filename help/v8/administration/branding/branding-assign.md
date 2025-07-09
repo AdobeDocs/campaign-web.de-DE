@@ -47,7 +47,7 @@ Sie können diese Vorlage jetzt zum Senden Ihrer Sendungen verwenden.
 
 >[!TAB Adobe Campaign v8]
 
-Um eine Versandvorlage zu erstellen, können Sie eine integrierte Vorlage duplizieren, einen vorhandenen Versand in eine Vorlage konvertieren oder eine neue Versandvorlage erstellen. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html)
+Um eine Versandvorlage zu erstellen, können Sie eine integrierte Vorlage duplizieren, einen vorhandenen Versand in eine Vorlage konvertieren oder eine neue Versandvorlage erstellen. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html?lang=de)
 
 Nach der Erstellung Ihrer Vorlage können Sie sie mit einer Marke verknüpfen. Gehen Sie wie folgt vor:
 
