@@ -3,9 +3,9 @@ title: Erstellen einer Landingpage
 description: Hier erfahren Sie, wie Sie in Campaign Web eine Landingpage konfigurieren und veröffentlichen können.
 feature: Landing Pages
 exl-id: d4a49048-5ab1-4b69-9e12-1ffa235c51f4
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
-workflow-type: ht
-source-wordcount: '1731'
+source-git-commit: e82c19df7faecbb75521bca54e32b1ba84ea1f81
+workflow-type: tm+mt
+source-wordcount: '1643'
 ht-degree: 100%
 
 ---
@@ -116,10 +116,6 @@ Gehen Sie wie folgt vor, um eine Landingpage zu erstellen:
 
    * Die Option **[!UICONTROL Fehlende ID zulassen]** ermöglicht allen Besuchenden den Zugriff auf die Landingpage. Durch das Deaktivieren dieser Option wird verhindert, dass sie von anonymen Besuchenden verwendet wird. Dies bedeutet, dass nur identifizierte Personen auf das Formular zugreifen und es senden können.
 
-     >[!AVAILABILITY]
-     >
-     >Diese Funktion ist nur eingeschränkt verfügbar. Sie ist Kundinnen und Kunden vorbehalten, die **von Adobe Campaign Standard zu Adobe Campaign v8** migrieren, und kann nicht in anderen Umgebungen bereitgestellt werden.
-
      Diese Option ist für die Vorlagen **[!UICONTROL Akquise]** und **[!UICONTROL Abonnement]** standardmäßig aktiviert. Diese Option ist für die Vorlagen **[!UICONTROL Abmeldung]** und **[!UICONTROL Blockierungsliste]** standardmäßig deaktiviert und kann nicht geändert werden.
 
 1. Eine Landingpage kann über nachfolgende Seiten verfügen. Um Seiten hinzuzufügen, navigieren Sie zum Abschnitt **[!UICONTROL Seiten]**. Klicken Sie dann für jede Seite, die für diese Landingpage entworfen werden soll, auf die Schaltfläche **[!UICONTROL Inhalt bearbeiten]**. Der Inhalt jeder Seite ist bereits vorausgefüllt. Bearbeiten Sie ihn nach Bedarf. [Weitere Informationen](lp-content.md).
@@ -133,10 +129,6 @@ Gehen Sie wie folgt vor, um eine Landingpage zu erstellen:
    ![Screenshot mit den Speicheroptionen für die Landingpage](assets/lp-storage.png){zoomable="yes"}
 
 1. Erstellen Sie **[!UICONTROL Zusatzdaten]**, um interne Daten beim Senden der Landingpage zu speichern. Die Daten sind für Besucherinnen und Besucher der Seite nicht sichtbar.  Nur konstante Werte werden berücksichtigt.
-
-   >[!AVAILABILITY]
-   >
-   >Diese Funktion ist nur eingeschränkt verfügbar. Sie ist Kundinnen und Kunden vorbehalten, die **von Adobe Campaign Standard zu Adobe Campaign v8** migrieren, und kann nicht in anderen Umgebungen bereitgestellt werden.
 
    ![Screenshot mit dem Abschnitt „Zusatzdaten“](assets/lp-additional-data.png){zoomable="yes"}
 
@@ -161,10 +153,6 @@ Gehen Sie wie folgt vor, um eine Landingpage zu erstellen:
 Nachdem Sie alle Einstellungen definiert und alle Seiten [entworfen](lp-content.md) haben, können Sie Ihre Landingpage wie unten beschrieben [testen](#test-landing-page) und [veröffentlichen](#publish-landing-page).
 
 ## Sichern Ihrer Landingpage mit einem Captcha {#captcha}
-
->[!AVAILABILITY]
->
->Diese Funktion ist nur eingeschränkt verfügbar. Sie ist Kundinnen und Kunden vorbehalten, die **Adobe Campaign v8.7.2 mit dem Upgrade der letzten Version zur Fehlerbehebung** verwenden, und kann nicht in anderen Umgebungen bereitgestellt werden.
 
 Durch das Einrichten eines Captcha können Sie Ihre Landingpage vor Spam und Missbrauch schützen.
 

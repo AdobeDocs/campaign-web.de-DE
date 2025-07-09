@@ -2,11 +2,10 @@
 audience: end-user
 title: Versandwarnung
 description: Erfahren Sie, wie Sie mit Versandwarnungen arbeiten können.
-badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: b91ef82b-f3e9-4704-87a2-0e3f75104572
-source-git-commit: a28bc98d1735232d8aa0b0daaeca3969913e548c
-workflow-type: ht
-source-wordcount: '1146'
+source-git-commit: 037b04475370b1a34ecec31ef2a774866278ce65
+workflow-type: tm+mt
+source-wordcount: '1115'
 ht-degree: 100%
 
 ---
@@ -21,10 +20,6 @@ ht-degree: 100%
 In Versandwarnungs-Dashboards können Sie festlegen, wer E-Mail-Warnungen erhalten soll, die Warnungskriterien zum Senden dieser Warnungen auswählen und konfigurieren sowie auf den Verlauf aller gesendeten Benachrichtigungen zugreifen.  Zugriff darauf erhalten Sie über das Menü **Versandwarnung** im linken Navigationsbereich, und zwar durch die Registerkarte **Dashboards**.
 
 ![Screenshot mit der Liste der Warnungs-Dashboards im Menü „Versandwarnung“](assets/alerting-dashboard-list.png)
-
->[!AVAILABILITY]
->
->Diese Funktion ist nur eingeschränkt verfügbar. Sie ist Kundinnen und Kunden vorbehalten, die **von Adobe Campaign Standard zu Adobe Campaign v8** migrieren, und kann nicht in anderen Umgebungen bereitgestellt werden.
 
 ## Erstellen eines Versand-Dashboards {#dashboards}
 

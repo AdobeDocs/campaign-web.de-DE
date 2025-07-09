@@ -2,11 +2,10 @@
 audience: end-user
 title: Versandwarnung
 description: Erfahren Sie, wie Sie mit Versandwarnungen arbeiten können.
-badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: 120afaa0-7017-4644-b6db-229b4a5c8a91
-source-git-commit: a28bc98d1735232d8aa0b0daaeca3969913e548c
-workflow-type: ht
-source-wordcount: '346'
+source-git-commit: 037b04475370b1a34ecec31ef2a774866278ce65
+workflow-type: tm+mt
+source-wordcount: '315'
 ht-degree: 100%
 
 ---
@@ -18,10 +17,6 @@ Bei Versandwarnungen handelt es sich um ein System zum Warnungs-Management, übe
 Benachrichtigungen werden basierend auf bestimmten Warnungskriterien angepasst, die über die Adobe Campaign Web-Benutzeroberfläche definiert werden.
 
 Weitere Informationen zum Verwalten von Versandfehlern finden Sie in der [Dokumentation zu Adobe Campaign v8 (Konsole)](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/send/failures/delivery-failures#send){target="_blank"}
-
->[!AVAILABILITY]
->
->Diese Funktion ist nur eingeschränkt verfügbar. Sie ist Kundinnen und Kunden vorbehalten, die **von Adobe Campaign Standard zu Adobe Campaign v8** migrieren, und kann nicht in anderen Umgebungen bereitgestellt werden.
 
 ## Inhalt der E-Mail-Benachrichtigung {#content}
 

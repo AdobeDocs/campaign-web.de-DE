@@ -3,8 +3,8 @@ audience: end-user
 title: Bearbeiten des E-Mail-Inhalts
 description: Erfahren Sie, wie Sie den E-Mail-Inhalt in der Campaign Web-Benutzeroberfläche bearbeiten können
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-source-git-commit: df5883f8178bc5287145c587b06dd5664400ed90
-workflow-type: ht
+source-git-commit: d64e4c2833757239be181cbd333a9d2ce95aa35f
+workflow-type: tm+mt
 source-wordcount: '1229'
 ht-degree: 100%
 
@@ -113,7 +113,7 @@ Gehen Sie wie folgt vor, um den Inhalt einer E-Mail zu konfigurieren oder zu bea
 
 1. Nachdem Sie den Inhalt Ihrer E-Mail definiert haben, können Sie vor dem Versand mit der Schaltfläche **[!UICONTROL Inhalt simulieren]** überprüfen, wie die E-Mail dargestellt wird. [Erfahren Sie, wie Sie Ihre E-Mail in einer Vorschau anzeigen und testen](../preview-test/preview-test.md).
 
-## Konfigurieren eines mehrsprachigen Versands
+## Konfigurieren eines mehrsprachigen Versands {#multilingual-delivery}
 
 In der Web-Benutzeroberfläche von Campaign können Sie Ihre E-Mail-Sendungen als mehrsprachig einrichten, sodass Sie Nachrichten basierend auf der bevorzugten Sprache eines Profils senden können. Wenn keine Voreinstellung definiert ist, wird die Nachricht in der Standardsprache gesendet.
 

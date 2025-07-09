@@ -3,9 +3,9 @@ title: Definieren des Inhalts für die Landingpage
 description: Erfahren Sie, wie Sie in Campaign Web Landingpage-spezifische Inhalte erstellen
 feature: Landing Pages
 exl-id: 6ca3c8c1-3633-4e3f-a9a1-f46ae27c5c8a
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
-workflow-type: ht
-source-wordcount: '1248'
+source-git-commit: e82c19df7faecbb75521bca54e32b1ba84ea1f81
+workflow-type: tm+mt
+source-wordcount: '1161'
 ht-degree: 100%
 
 ---
@@ -35,10 +35,6 @@ So gestalten Sie den Inhalt Ihrer Landingpage weitergehend:
 * Verwenden Sie dieselben Komponenten wie für E-Mail-Entwürfe. [Weitere Informationen](../email/content-components.md#add-content-components)
 
 * Fügen Sie Ihren Landingpages bedingte Inhalte so wie bei E-Mails hinzu. [Weitere Informationen](../personalization/conditions.md#condition-condition-builder)
-
-  >[!AVAILABILITY]
-  >
-  >Diese Funktion ist nur eingeschränkt verfügbar. Sie ist Kundinnen und Kunden vorbehalten, die **von Adobe Campaign Standard zu Adobe Campaign v8** migrieren, und kann nicht in anderen Umgebungen bereitgestellt werden.
 
 ## Verwenden von Formularkomponenten {#use-form-component}
 
@@ -125,10 +121,6 @@ Um bestimmte Inhalte zu definieren, mit denen Benutzende ihre Auswahl auf Ihrer 
 
 1. Wählen Sie die Option **[!UICONTROL Dienst über URL]** aus, damit die Landingpage für mehrere Dienste verwendet werden kann, wodurch sie dynamisch wird. Definieren Sie, ob Benutzende bei der Formularübermittlung angemeldet oder abgemeldet werden sollen.
 
-   >[!AVAILABILITY]
-   >
-   >Diese Funktion ist nur eingeschränkt verfügbar. Sie ist Kundinnen und Kunden vorbehalten, die **von Adobe Campaign Standard zu Adobe Campaign v8** migrieren, und kann nicht in anderen Umgebungen bereitgestellt werden.
-
    ![Einstellungen „Dienst aus URL“ in der Formularkomponente](assets/lp-form-service-from-url.png){zoomable="yes"}
 
    Wenn Sie beim Entwerfen einer E-Mail einen Link vom Typ **[!UICONTROL Landingpage]** zu dieser Landingpage definieren, können Sie einen beliebigen Dienst aus der Liste auswählen. Sie können dann bei der Definition anderer Links zu dieser Landingpage andere Dienste auswählen. [Weitere Informationen zum Einfügen von Links](../email/message-tracking.md)
@@ -138,10 +130,6 @@ Um bestimmte Inhalte zu definieren, mit denen Benutzende ihre Auswahl auf Ihrer 
 1. Senden Sie eine Nachricht beim Einreichen der Landingpage. [Weitere Informationen finden Sie hier](#lp-message)
 
 ### Senden einer Nachricht nach der Einreichung {#lp-message}
-
->[!AVAILABILITY]
->
->Diese Funktion ist nur eingeschränkt verfügbar. Sie ist Kundinnen und Kunden vorbehalten, die **von Adobe Campaign Standard zu Adobe Campaign v8** migrieren, und kann nicht in anderen Umgebungen bereitgestellt werden.
 
 Gehen Sie wie folgt vor, um nach dem Einreichen einer Landingpage automatisch eine Bestätigungsnachricht zu senden:
 

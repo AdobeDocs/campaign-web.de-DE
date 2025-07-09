@@ -2,11 +2,10 @@
 audience: end-user
 title: Versandwarnung
 description: Erfahren Sie, wie Sie mit Versandwarnungen arbeiten können.
-badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: fc98d4e3-7986-42bb-82d5-b4f874aa71db
-source-git-commit: a28bc98d1735232d8aa0b0daaeca3969913e548c
-workflow-type: ht
-source-wordcount: '743'
+source-git-commit: 037b04475370b1a34ecec31ef2a774866278ce65
+workflow-type: tm+mt
+source-wordcount: '712'
 ht-degree: 100%
 
 ---
@@ -23,10 +22,6 @@ Die Web-Benutzeroberfläche von Campaign bietet vordefinierte Warnungskriterien,
 Sie können über das Menü **Versandwarnung** im linken Navigationsbereich auf der Registerkarte **Kriterien** auf die Warnungskriterien zugreifen.
 
 ![Liste der Warnungskriterien, die im Menü „Versandwarnung“ angezeigt werden](assets/alerting-criteria-list.png)
-
->[!AVAILABILITY]
->
->Diese Funktion ist nur eingeschränkt verfügbar. Sie ist Kundinnen und Kunden vorbehalten, die **von Adobe Campaign Standard zu Adobe Campaign v8** migrieren, und kann nicht in anderen Umgebungen bereitgestellt werden.
 
 ## Vordefinierte Warnungskriterien {#ootb-criteria}
 

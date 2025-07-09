@@ -2,16 +2,36 @@
 title: Frühere Versionshinweise zur Web-Benutzeroberfläche von Campaign v8
 description: Versionen der Campaign-Web-Benutzeroberfläche 2025
 exl-id: eecb4b18-4826-47a6-88b2-f2ed7b576d3e
-source-git-commit: d70409846dbe950e3e4e475be6866fb5ed9799de
-workflow-type: ht
-source-wordcount: '1438'
-ht-degree: 100%
+source-git-commit: 4f32adbbe360b76d227c431281ef10a47e6a37ba
+workflow-type: tm+mt
+source-wordcount: '1604'
+ht-degree: 99%
 
 ---
 
 # Versionshinweise 2025 {#2025-release}
 
 Auf dieser Seite werden alle Änderungen und Verbesserungen aufgelistet, die in **Versionen von 2025** verfügbar sind. Die neuesten Versionshinweise finden Sie auf [dieser Seite](release-notes.md).
+
+## Version Juni 2025 {#25-6-release}
+
+### Verbesserungen {#25-6-improvements}
+
+* Der Bericht „Versandzusammenfassung“ ist jetzt sowohl für Callcenter-Kanäle als auch für benutzerdefinierte Kanäle verfügbar. [Weitere Informationen](../reporting/direct-mail.md)
+
+* Beim Konfigurieren eines SMS-Versands haben Sie jetzt Zugriff auf die spezifischen SMS-Parameter. Hierbei handelt es sich um die gleichen Parameter, die auch in der Client-Konsole verfügbar sind. [Weitere Informationen](../advanced-settings/delivery-settings.md#sms-tab)
+
+* Ihre Favoritenordner werden jetzt oben im linken Panel auf der Explorer-Seite angezeigt, wodurch leichter auf sie zugegriffen werden kann. [Weitere Informationen](../get-started/work-with-folders.md#favorite-folders)
+
+* Der Regel-Builder unterstützt jetzt Drag-and-Drop, sodass Sie Komponenten Ihrer Abfrage effizienter neu anordnen können. [Weitere Informationen](../query/build-query.md#drag-and-drop)
+
+* Die „menschliche Bedingung“ im Regel-Builder wurde verbessert. Hierbei handelt es sich um die geschriebene, übersetzte Version Ihrer Regeln, die unten auf dem Bildschirm angezeigt wird:
+
+   * Attribute werden jetzt hervorgehoben und das zugehörige Schema wird angezeigt.
+   * Sie können auf diese Elemente klicken, um detailliertere Informationen anzuzeigen.
+   * Sie können die menschliche Bedingung nun mithilfe der entsprechenden Schaltfläche kopieren.
+
+* Der Zugriff auf die Ordner „Technische Workflows“ und „Automatisch erstellte Objekte“ ist jetzt eingeschränkt, um deren Anzeige zu verhindern. [Weitere Informationen](../get-started/work-with-folders.md#about-folders)
 
 ## Version Mai 2025 {#25-5-release}
 
@@ -153,7 +173,7 @@ ko * The typology rules creation screen has been updated to facilitate the selec
 
 * **Dynamische Berichte für mehrsprachige Sendungen**: Dynamische Berichte sind jetzt für mehrsprachige E-Mail-Sendungen verfügbar. Weitere Informationen finden Sie in der [entsprechenden Dokumentation](../reporting/global-reports.md).
 
-* **SMS REST API-Unterstützung (LA)**: Das REST-API für Transaktionsnachrichten ist nun für den SMS-Kanal verfügbar. Wenn sowohl „email“ als auch „mobilePhone“ in der Payload vorhanden sind, können Sie den Kanal über das Feld „wishedChannel“ angeben. Ohne Angabe wird standardmäßig „email“ verwendet, es sei denn, „wishedChannel“ fordert explizit SMS an. Weitere Informationen finden Sie in der [entsprechenden Dokumentation](https://experienceleague.adobe.com/de/docs/experience-cloud/campaign/apis/managing-transactional-messages){target=_blank}.
+* **SMS REST API-Unterstützung (LA)**: Das REST-API für Transaktionsnachrichten ist nun für den SMS-Kanal verfügbar. Wenn sowohl „email“ als auch „mobilePhone“ in der Payload vorhanden sind, können Sie den Kanal über das Feld „wishedChannel“ angeben. Ohne Angabe wird standardmäßig „email“ verwendet, es sei denn, „wishedChannel“ fordert explizit SMS an. Weitere Informationen finden Sie in der [entsprechenden Dokumentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html){target=_blank}.
 
 ## Version Februar &#39;25 {#25-2-release}
 

@@ -3,9 +3,9 @@ audience: end-user
 title: Arbeiten mit Anmeldediensten
 description: Erfahren Sie, wie Sie in Adobe Campaign Web auf Anmeldedienste zugreifen, diese erstellen und sie verwalten können.
 exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: e82c19df7faecbb75521bca54e32b1ba84ea1f81
 workflow-type: tm+mt
-source-wordcount: '1156'
+source-wordcount: '1127'
 ht-degree: 100%
 
 ---
@@ -87,10 +87,6 @@ Gehen Sie wie folgt vor, um einen Anmeldedienst zu erstellen.
 1. Klicken Sie auf **[!UICONTROL Speichern und überprüfen]**. Der neue Dienst wird zur Liste **[!UICONTROL Anmeldedienste]** hinzugefügt.
 
 1. Wählen Sie die standardmäßigen Abonnement- und Abmeldungs-Landingpages aus, die diesem Dienst zugeordnet sind.
-
-   >[!AVAILABILITY]
-   >
-   >Diese Funktion ist nur eingeschränkt verfügbar. Sie ist Kundinnen und Kunden vorbehalten, die **von Adobe Campaign Standard zu Adobe Campaign v8** migrieren, und kann nicht in anderen Umgebungen bereitgestellt werden.
 
    ![Screenshot mit den standardmäßigen Landingpage-Einstellungen für einen Abonnementdienst](assets/service-create-default-lp.png){zoomable="yes"}
 

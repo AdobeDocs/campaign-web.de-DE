@@ -3,10 +3,10 @@ audience: end-user
 title: Wechsel von Campaign Standard zu Adobe Campaign Web
 description: Funktionsweise der Campaign Web-Benutzeroberfläche
 exl-id: 4cf406af-4cf5-434d-b1c7-a7c102f8dc2f
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
-workflow-type: ht
-source-wordcount: '589'
-ht-degree: 100%
+source-git-commit: 4f32adbbe360b76d227c431281ef10a47e6a37ba
+workflow-type: tm+mt
+source-wordcount: '587'
+ht-degree: 99%
 
 ---
 
@@ -72,11 +72,11 @@ Die meisten Konzepte in Campaign v8 und Campaign Standard sind sich ähnlich. E
 
 Um einen reibungslosen Wechsel zu Campaign v8 gewährleisten zu können, wurden wichtige Funktionen von Campaign Standard in Campaign v8 aufgenommen. Diese Funktionen werden in [dieser Dokumentation](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=de){target=&quot;_blank} beschrieben und stehen nur Benutzenden zur Verfügung, die einen Wechsel von Campaign Standard durchführen.
 
-* **Dynamisches Reporting**: Das dynamische Reporting ermöglicht anpassbare und in Echtzeit aktualisierte Berichte, um die Wirkung von Marketing-Aktivitäten zu messen. Es umfasst den Zugriff auf Profildaten für die demografische Analyse nach Profildimensionen wie Geschlecht, Ort und Alter sowie nach funktionalen Daten von E-Mail-Kampagnen wie Öffnungen und Klicks. [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html?lang=de){target="_blank"}.
+* **Dynamisches Reporting**: Das dynamische Reporting ermöglicht anpassbare und in Echtzeit aktualisierte Berichte, um die Wirkung von Marketing-Aktivitäten zu messen. Es umfasst den Zugriff auf Profildaten für die demografische Analyse nach Profildimensionen wie Geschlecht, Ort und Alter sowie nach funktionalen Daten von E-Mail-Kampagnen wie Öffnungen und Klicks. [Weitere Informationen](../reporting/dynamic-reporting/get-started-reporting.md).
 
-* **Zentrales Branding**: Adobe Campaign ermöglicht Unternehmen das Festlegen von Richtlinien bezüglich der optischen Darstellung und technischen Charakteristika ihrer Marken. Benutzende können Kundinnen und Kunden ihre Marke einheitlich präsentieren, von Logos bis hin zu technischen Aspekten wie E-Mail-Absender, URL oder Domains. [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-cloud/campaign/branding/branding-gs.html?lang=de).
+* **Zentrales Branding**: Adobe Campaign ermöglicht Unternehmen das Festlegen von Richtlinien bezüglich der optischen Darstellung und technischen Charakteristika ihrer Marken. Benutzende können Kundinnen und Kunden ihre Marke einheitlich präsentieren, von Logos bis hin zu technischen Aspekten wie E-Mail-Absender, URL oder Domains. [Weitere Informationen](../administration/branding/branding-gs.md).
 
-* **REST-APIs**: Von Campaign Standard migrierte Benutzende können REST-APIs verwenden, um Integrationen für Adobe Campaign und Ökosysteme zu erstellen, indem sie Adobe Campaign mit anderen Technologien verbinden. [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html?lang=de){target="_blank"}.
+* **REST-APIs**: Von Campaign Standard migrierte Benutzende können REST-APIs verwenden, um Integrationen für Adobe Campaign und Ökosysteme zu erstellen, indem sie Adobe Campaign mit anderen Technologien verbinden. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html){target="_blank"}.
 
 * **Landingpages**: Die Landingpages von Campaign v8 umfassen Verbesserungen zur Gewährleistung der Vergleichbarkeit der Funktionen mit denen von Campaign Standard. Weitere Informationen finden Sie in den [Versionshinweisen](../rn/release-notes.md#new-24-4) und in der [Dokumentation](../landing-pages/get-started-lp.md) zu Landingpages.
 

@@ -5,10 +5,10 @@ user-guide-description: Produktdokumentation zur Adobe Campaign Web-Benutzerober
 title: Dokumentation zu Adobe Campaign Web
 description: Dokumentation zu Campaign Web
 breadcrumb-title: Campaign Web-Benutzeroberfläche
-source-git-commit: eb0e725c8b3af2f478919fe80b75a4ee20b341f3
-workflow-type: ht
-source-wordcount: '834'
-ht-degree: 100%
+source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
+workflow-type: tm+mt
+source-wordcount: '910'
+ht-degree: 99%
 
 ---
 
@@ -140,7 +140,7 @@ ht-degree: 100%
    + [Lernen durch Anwendungsfälle](landing-pages/lp-use-cases.md)
 + Profile und Zielgruppen  {#audiences}
    + [Erste Schritte mit Profilen und Zielgruppen](audience/gs-audiences-recipients.md)
-   + [Targeting-Dimensionen](audience/targeting-dimensions.md)
+   + [Zielgruppendimensionen](audience/targeting-dimensions.md)
    + [Quarantäne](audience/quarantine.md)
    + Arbeiten mit Profilen  {#work-with-profiles}
       + [Erste Schritte mit Profilen](audience/about-recipients.md)
@@ -209,33 +209,64 @@ ht-degree: 100%
    + [Beispiele für Abfragen](query/query-samples.md)
    + [Filterlisten](query/filter.md)
 + Reporting {#reports}
-   + [Erste Schritte mit Berichten](reporting/gs-reports.md)
    + [Audit-Protokoll](reporting/audit-trail.md)
-   + [Exportieren der Berichte](reporting/export-reports.md)
    + [Wichtige Performance-Indikatoren](reporting/kpis.md)
-   + Versandberichte {#delivery-report}
-      + [Erste Schritte mit Versandberichten](reporting/delivery-reports.md)
-      + [E-Mail-Versandbericht](reporting/email-report.md)
-      + [Push-Versandbericht](reporting/push-report.md)
-      + [SMS-Versandbericht](reporting/sms-report.md)
-      + [Bericht zum externen Versand](reporting/direct-mail.md)
-   + Kampagnenberichte {#campaign-report}
-      + [Erste Schritte mit Kampagnenberichten](reporting/campaign-reports.md)
-      + [E-Mail-Kampagnenbericht](reporting/campaign-reports-email.md)
-      + [Push-Kampagnenbericht](reporting/campaign-reports-push.md)
-      + [SMS-Kampagnenbericht](reporting/campaign-reports-sms.md)
-      + [Kampagnenbericht zum externen Versand](reporting/campaign-reports-direct-mail.md)
-   + Allgemeine Berichte {#global-report}
-      + [Erste Schritte mit globalen Berichten](reporting/global-reports.md)
-      + [Globaler E-Mail-Bericht](reporting/global-report-email.md)
-      + [Globaler Push-Bericht](reporting/global-report-push.md)
-      + [Globaler SMS-Bericht](reporting/global-report-sms.md)
-      + [Globaler Briefpost-Bericht](reporting/global-report-direct.md)
+   + Standardberichte {#standard-reports}
+      + [Erste Schritte mit Berichten](reporting/gs-reports.md)
+      + [Exportieren der Berichte](reporting/export-reports.md)
+      + Versandberichte {#delivery-report}
+         + [Erste Schritte mit Versandberichten](reporting/delivery-reports.md)
+         + [E-Mail-Versandbericht](reporting/email-report.md)
+         + [Push-Versandbericht](reporting/push-report.md)
+         + [SMS-Versandbericht](reporting/sms-report.md)
+         + [Bericht zum externen Versand](reporting/direct-mail.md)
+      + Kampagnenberichte {#campaign-report}
+         + [Erste Schritte mit Kampagnenberichten](reporting/campaign-reports.md)
+         + [E-Mail-Kampagnenbericht](reporting/campaign-reports-email.md)
+         + [Push-Kampagnenbericht](reporting/campaign-reports-push.md)
+         + [SMS-Kampagnenbericht](reporting/campaign-reports-sms.md)
+         + [Kampagnenbericht zum externen Versand](reporting/campaign-reports-direct-mail.md)
+      + Allgemeine Berichte {#global-report}
+         + [Erste Schritte mit globalen Berichten](reporting/global-reports.md)
+         + [Globaler E-Mail-Bericht](reporting/global-report-email.md)
+         + [Globaler Push-Bericht](reporting/global-report-push.md)
+         + [Globaler SMS-Bericht](reporting/global-report-sms.md)
+         + [Globaler Briefpost-Bericht](reporting/global-report-direct.md)
+   + Dynamische Berichterstellung {#dynamic-reporting}
+      + [Erste Schritte mit dynamischen Berichten](reporting/dynamic-reporting/get-started-reporting.md)
+      + Über Reporting {#about-reporting}
+         + [Über dynamische Berichte](reporting/dynamic-reporting/about-dynamic-reports.md)
+         + [Benutzeroberfläche für die Berichterstellung](reporting/dynamic-reporting/reporting-interface.md)
+         + [Liste von Komponenten](reporting/dynamic-reporting/list-of-components.md)
+         + [Indikatorberechnung](reporting/dynamic-reporting/indicator-calculation.md)
+         + [Fehlerbehebung](reporting/dynamic-reporting/troubleshooting.md)
+      + Liste von Berichten {#list-of-reports}
+         + [Berichtszeitraum definieren](reporting/dynamic-reporting/defining-the-report-period.md)
+         + [Bounces](reporting/dynamic-reporting/bounce-summary.md)
+         + [Aufschlüsselung nach Domains](reporting/dynamic-reporting/breakdown-by-domains.md)
+         + [Beschwerden](reporting/dynamic-reporting/complaints.md)
+         + [Versandzusammenfassung](reporting/dynamic-reporting/delivery-summary.md)
+         + [Versanddurchsatz](reporting/dynamic-reporting/delivery-throughput.md)
+         + [Unzustellbare Nachrichten und Bounces](reporting/dynamic-reporting/non-deliverables-and-bounces.md)
+         + [Öffnungen](reporting/dynamic-reporting/opens.md)
+         + [Trackingindikatoren](reporting/dynamic-reporting/tracking-indicators.md)
+         + [Abmeldungen](reporting/dynamic-reporting/unsubscriptions.md)
+         + [URLs und Clickstreams](reporting/dynamic-reporting/urls-and-click-streams.md)
+      + Berichte anpassen {#customizing-reports}
+         + [Panels hinzufügen](reporting/dynamic-reporting/adding-panels.md)
+         + [Visualisierungen hinzufügen](reporting/dynamic-reporting/adding-visualizations.md)
+         + [Komponenten hinzufügen](reporting/dynamic-reporting/adding-components.md)
+         + [Benutzerdefinierte Profildimension erstellen](reporting/dynamic-reporting/creating-a-custom-profile-dimension.md)
+         + [Nutzungsvereinbarung zur dynamischen Berichterstattung](reporting/dynamic-reporting/pii-agreement.md)
 + Integrationen  {#integrations}
    + [Arbeiten mit anderen Adobe-Lösungen](integrations/integration.md)
    + [Verwalten von Assets mit Adobe Experience Manager Assets as a Cloud Service](integrations/aem-assets.md)
    + [Verwalten von Vorlagen mit Adobe Experience Manager as a Cloud Service](integrations/aem-content.md)
 + Konfiguration {#conf}
+   + Branding {#branding}
+      + [Über Branding](administration/branding/branding-gs.md)
+      + [Konfigurieren einer Marke](administration/branding/branding-configure.md)
+      + [Marke zuweisen](administration/branding/branding-assign.md)
    + [Arbeiten mit Geschäftsregeln (Typologien)](administration/typologies.md)
    + [Verwalten von Zielgruppen-Mappings](administration/target-mappings.md)
    + [Arbeiten mit Schemata](administration/schemas.md)
