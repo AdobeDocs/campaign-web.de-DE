@@ -59,7 +59,7 @@ Die folgenden Funktionen, die zuvor nur in begrenztem Umfang verfügbar waren, s
 Zusätzlich zu den oben aufgeführten Funktionen bietet diese Version auch eine Reihe von Funktionen, die in der Client-Konsole verfügbar sind:
 
 * [Neuer SMS-Versand-Connector](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/sms.html?lang=de).
-* [REST-APIs](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html)
+* [REST-APIs](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=de)
 
 Siehe die Client-Konsole [Versionshinweise](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=de){target="_blank"}.
 

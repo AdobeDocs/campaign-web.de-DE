@@ -76,7 +76,7 @@ Um einen reibungslosen Wechsel zu Campaign v8 gewährleisten zu können, wurden
 
 * **Zentrales Branding**: Adobe Campaign ermöglicht Unternehmen das Festlegen von Richtlinien bezüglich der optischen Darstellung und technischen Charakteristika ihrer Marken. Benutzende können Kundinnen und Kunden ihre Marke einheitlich präsentieren, von Logos bis hin zu technischen Aspekten wie E-Mail-Absender, URL oder Domains. [Weitere Informationen](../administration/branding/branding-gs.md).
 
-* **REST-APIs**: Von Campaign Standard migrierte Benutzende können REST-APIs verwenden, um Integrationen für Adobe Campaign und Ökosysteme zu erstellen, indem sie Adobe Campaign mit anderen Technologien verbinden. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html){target="_blank"}.
+* **REST-APIs**: Von Campaign Standard migrierte Benutzende können REST-APIs verwenden, um Integrationen für Adobe Campaign und Ökosysteme zu erstellen, indem sie Adobe Campaign mit anderen Technologien verbinden. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=de){target="_blank"}.
 
 * **Landingpages**: Die Landingpages von Campaign v8 umfassen Verbesserungen zur Gewährleistung der Vergleichbarkeit der Funktionen mit denen von Campaign Standard. Weitere Informationen finden Sie in den [Versionshinweisen](../rn/release-notes.md#new-24-4) und in der [Dokumentation](../landing-pages/get-started-lp.md) zu Landingpages.
 
