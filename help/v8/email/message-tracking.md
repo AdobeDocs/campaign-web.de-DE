@@ -3,9 +3,9 @@ audience: end-user
 title: Verfolgen von Nachrichten
 description: Erfahren Sie, wie Sie Links hinzufügen und gesendete Nachrichten verfolgen können.
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 53f3cc27ed6d768d134902a9196f0b221fedcde0
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '568'
 ht-degree: 100%
 
 ---
@@ -31,10 +31,6 @@ Gehen Sie wie folgt vor, um Links in Ihren E-Mail-Inhalt einzufügen:
    ![Screenshot der Benutzeroberfläche zum Einfügen von Links im Nachrichten-Tracking-Tool](assets/message-tracking-insert-link.png){zoomable="yes"}
 
    * **[!UICONTROL Externer Link]**: Fügen Sie einen Link zu einer externen URL ein.
-
-     >[!AVAILABILITY]
-     >
-     >Die folgenden Funktionen (Link zu **[!UICONTROL Landingpage]**, **[!UICONTROL Anmelde-Link]** und **[!UICONTROL Abmelde-Link]**) sind nur eingeschränkt verfügbar. Sie sind Kundinnen und Kunden vorbehalten, die **von Adobe Campaign Standard zu Adobe Campaign v8** migrieren, und können nicht in anderen Umgebungen bereitgestellt werden.
 
    * **[!UICONTROL Landingpage]**: Fügen Sie einen Link zu einer Landingpage ein. Wenn Sie eine dynamische Landingpage auswählen (und die Option **[!UICONTROL Dienst über URL]** ausgewählt ist), können Sie einen beliebigen Dienst aus der Liste auswählen. [Weitere Informationen](../landing-pages/create-lp.md#define-actions-on-form-submission)
 
