@@ -5,9 +5,9 @@ description: Erfahren Sie, wie Sie Versandeinstellungen in Campaign Web konfigur
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 source-git-commit: 5835d45ea2a383eed7d280fdd263548ea2e8530d
-workflow-type: ht
-source-wordcount: '3159'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '3158'
+ht-degree: 99%
 
 ---
 
@@ -377,7 +377,7 @@ Diese beiden Felder können wie in [diesem Abschnitt](../personalization/gs-pers
 
 Auf der Registerkarte „SMTP“ der Versandeinstellungen können Sie Ihrem E-Mail-Versand **[!UICONTROL SMTP-Header]** hinzufügen.
 
-Das in diesem Fenster erfasste Skript muss pro Zeile einen Header im Format „Name:Wert“ enthalten.
+Das in diesem Fenster eingegebene Script muss pro Zeile auf einen einzelnen Header verweisen, und zwar im folgenden Formular: name:value.
 
 Werte werden bei Bedarf automatisch verschlüsselt.
 

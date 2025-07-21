@@ -3,7 +3,7 @@ title: Verwalten eines externen Kontos
 description: Informationen zum Konfigurieren externer Konten
 exl-id: e37d6cb0-f8fa-4f1c-9cdd-46f9666c2d18
 source-git-commit: 75bb03c393ddafeeb869a44a523ab875a893ec3b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1400'
 ht-degree: 100%
 

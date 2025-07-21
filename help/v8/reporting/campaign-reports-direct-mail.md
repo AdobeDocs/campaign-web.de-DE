@@ -4,7 +4,7 @@ title: Kampagnenberichte für den Briefpost-Kanal
 description: Grundlegendes zu Kampagnenberichten für den Briefpost-Kanal
 exl-id: 7817d4c5-1f97-4b17-8a5f-f1a5b8701fe9
 source-git-commit: 1a2ab055822bea4cd55230fb63b59234aa114ff7
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '574'
 ht-degree: 100%
 

@@ -4,7 +4,7 @@ title: Globale Berichte für den E-Mail-Kanal
 description: Erfahren Sie mehr über globale Berichte für den E-Mail-Kanal
 exl-id: 37c575e5-fd18-4a35-a11a-922d5bda1bae
 source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1653'
 ht-degree: 100%
 

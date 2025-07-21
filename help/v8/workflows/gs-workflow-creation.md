@@ -4,7 +4,7 @@ title: Grundlegende Prinzipien der Workflow-Erstellung
 description: Lernen Sie die wichtigsten Prinzipien von Workflows mit Adobe Campaign Web kennen
 exl-id: ac6e63fb-34f2-474f-b364-d2af44f649b1
 source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '300'
 ht-degree: 100%
 

@@ -4,7 +4,7 @@ title: Globale Berichte für den Push-Kanal
 description: Grundlegendes zu globalen Berichten für den Push-Kanal
 exl-id: 829a9b68-5c41-47dd-843c-412b6d255e8b
 source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '600'
 ht-degree: 100%
 

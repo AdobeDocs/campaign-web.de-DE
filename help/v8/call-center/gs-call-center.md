@@ -4,7 +4,7 @@ title: Erste Schritte mit dem Callcenter-Kanal
 description: Erfahren Sie, wie Sie mit Adobe Campaign Web Callcenter-Sendungen erstellen und durchführen
 exl-id: d176c1ef-875f-4bea-9cc3-d568cf5cf55a
 source-git-commit: ffd0075e79a94443df4a957ee4a72da37476b21b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '267'
 ht-degree: 100%
 

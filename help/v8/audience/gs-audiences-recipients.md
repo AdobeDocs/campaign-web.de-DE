@@ -3,7 +3,7 @@ title: Erste Schritte mit Profilen und Zielgruppen
 description: Erfahren Sie, wie Sie in Campaign Web mit Profilen und Zielgruppen arbeiten
 exl-id: 71a1ec92-cd79-4654-9ae3-9a92a01c6279
 source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '203'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 In Adobe Campaign Web ist ein **Profil** ein in der Datenbank gespeicherter Eintrag, der als Schlüsselkomponente dient, um Zielgruppen für Sendungen zu erstellen und Personalisierungsdaten zu Ihrem Inhalt hinzuzufügen. In der Datenbank werden verschiedene Profiltypen gespeichert, z. B. **Testprofile**, mit denen Ihre Sendungen getestet werden können, bevor sie an die endgültige Zielgruppe gesendet werden.
 
-**Zielgruppen** sind Gruppen von Profilen mit ähnlichen Verhaltensweisen und Merkmalen. Diese Sammlung von Profilen kann entweder erstellt, ausgewählt oder geladen werden. Nach dem Erstellen können Zielgruppen als Zielgruppe für Ihre Sendungen verwendet werden.
+**Zielgruppen** sind Gruppen von Profilen mit ähnlichen Verhaltensweisen und Merkmalen. Diese Sammlung von Profilen kann entweder erstellt, ausgewählt oder geladen werden. Nach dem Erstellen können Zielgruppen als Zielpopulation für Ihre Sendungen verwendet werden.
 
 Außerdem können Sie Adobe Campaign Web nutzen, um **Dienste**, z. B. Newsletter, zu verwalten und zu erstellen und die Abonnements und Abmeldungen für diese Dienste zu überprüfen. Nach Abschluss dieser Aufgaben können Sie Abonnierende hinzufügen, Profile abmelden und Nachrichten an die Abonnierenden Ihrer Dienste senden.
 

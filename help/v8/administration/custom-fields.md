@@ -3,7 +3,7 @@ title: Benutzerdefinierte Felder
 description: Erfahren Sie, wie Sie benutzerdefinierte Felder und ihre Sichtbarkeit in der Benutzeroberfläche konfigurieren.
 exl-id: 34e7e0b7-3981-43b1-95a5-6c672adafdc9
 source-git-commit: 2c047d85df42503815c6ff15f43066ec5fb83755
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1017'
 ht-degree: 100%
 

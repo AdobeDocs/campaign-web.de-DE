@@ -3,7 +3,7 @@ title: Schutzmechanismen und Begrenzungen in den Campaign Web-Benutzeroberfläch
 description: Schutzmechanismen und Begrenzungen bei der Arbeit mit Workflows auf der Campaign Web-Benutzeroberfläche
 exl-id: 9c8c67ce-9823-4082-b0bd-5613f3feb6e3
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '435'
 ht-degree: 100%
 

@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie Ihre Markenrichtlinien erstellen und verwalte
 badge: label="Beta" type="Informative"
 exl-id: d4d2c6bb-7fd0-49a0-9d73-356f4a24f021
 source-git-commit: 61078f86bcd433b1bc3a995489f283eb709b3687
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1275'
 ht-degree: 100%
 

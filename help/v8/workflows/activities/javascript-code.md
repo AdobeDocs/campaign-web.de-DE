@@ -25,7 +25,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_execution"
 >title="JavaScript-Ausführung"
->abstract="Konfigurieren Sie die Ausführungsverzögerung so, dass die Aktivität nach einer bestimmten Ausführungsdauer beendet wird. Standardmäßig darf die Ausführungsphase nicht länger als eine Stunde dauern. Nach dieser Verzögerung wird der Vorgang mit einer Fehlermeldung abgebrochen und die Ausführung der Aktivität schlägt fehl. Um diese Begrenzung zu ignorieren, setzen Sie den Wert auf 0."
+>abstract="Konfigurieren Sie die Ausführungsverzögerung so, dass die Aktivität nach einer bestimmten Ausführungsdauer gestoppt wird. Standardmäßig darf die Ausführungsphase nicht länger als eine Stunde dauern. Nach dieser Verzögerung wird der Vorgang mit einer Fehlermeldung abgebrochen und die Ausführung der Aktivität schlägt fehl. Um diese Begrenzung zu ignorieren, setzen Sie den Wert auf 0."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_transition"
@@ -58,7 +58,7 @@ Führen Sie die folgenden Schritte aus, um die Aktivität **JavaScript-Code** zu
 
    ![Ausdruckseditor-Benutzeroberfläche für JavaScript-Code-Aktivitäten](../assets/javascript-editor.png)
 
-1. Konfigurieren Sie im Abschnitt **[!UICONTROL Ausführung]** die Verzögerung so, dass die Aktivität nach einer bestimmten Ausführungsdauer beendet wird. Standardmäßig darf die Ausführungsphase nicht länger als eine Stunde dauern. Nach dieser Verzögerung wird der Vorgang mit einer Fehlermeldung abgebrochen und die Ausführung der Aktivität schlägt fehl. Um diese Begrenzung zu ignorieren, setzen Sie den Wert auf 0.
+1. Konfigurieren Sie im Abschnitt **[!UICONTROL Ausführung]** die Verzögerung so, dass die Aktivität nach einer bestimmten Ausführungsdauer gestoppt wird. Standardmäßig darf die Ausführungsphase nicht länger als eine Stunde dauern. Nach dieser Verzögerung wird der Vorgang mit einer Fehlermeldung abgebrochen und die Ausführung der Aktivität schlägt fehl. Um diese Begrenzung zu ignorieren, setzen Sie den Wert auf 0.
 
    ![Konfigurationsbenutzeroberfläche für Ausführungsverzögerungen](../assets/javascript-config.png)
 

@@ -6,9 +6,9 @@ content-type: reference
 level: Intermediate
 exl-id: a12dc772-13c7-45ff-9fbf-3dfdd3801eae
 source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
-workflow-type: ht
-source-wordcount: '478'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '477'
+ht-degree: 97%
 
 ---
 
@@ -28,7 +28,7 @@ Um ein neues Profilfeld hinzuzufügen, müssen Sie Ihr Schema erweitern. Gehen S
 
    ![](assets/custom_field_1.png)
 
-1. Identifizieren Sie Ihr benutzerdefiniertes Empfängerschema und wählen Sie es aus. Wenn Sie das integrierte Schema „nms:recipient“ noch nicht erweitert haben, machen Sie sich mit [diesem Verfahren](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema) vertraut.
+1. Identifizieren Sie Ihr benutzerdefiniertes Empfängerschema und wählen Sie es aus. Wenn Sie das integrierte Schema nms:recipient noch nicht erweitert haben, lesen Sie [dieses Verfahren](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema).
 
 1. Fügen Sie dem Schema-Editor das benutzerdefinierte Feld hinzu.
 

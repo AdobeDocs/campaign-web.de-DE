@@ -4,7 +4,7 @@ title: Erste Schritte mit benutzerdefinierten externen Kanälen
 description: Erfahren Sie, wie Sie mit Adobe Campaign Web Sendungen über benutzerdefinierte externe Kanäle erstellen und durchführen.
 exl-id: b4336a0a-d845-4024-a06b-400fce1316a4
 source-git-commit: ded0942ef4a145189007e3ce428f1cd7594bc347
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '550'
 ht-degree: 100%
 

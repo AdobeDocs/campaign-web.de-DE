@@ -3,7 +3,7 @@ title: Anwendungsfälle für den KI-Assistenten
 description: Erfahren Sie anhand von Anwendungsfällen, wie Sie den KI-Assistenten verwenden.
 exl-id: ead51ef0-f7ba-4bc4-8d4a-f6a6d1df6a0f
 source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '535'
 ht-degree: 100%
 

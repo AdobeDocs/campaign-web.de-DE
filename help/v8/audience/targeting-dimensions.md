@@ -4,8 +4,8 @@ description: Erfahren Sie mehr über Zielgruppendimensionen in Adobe Campaign We
 exl-id: b910649a-7300-4f99-8f40-3a8965572ee9
 source-git-commit: 93a79b471c236e5bf67da0dbd0d76274598dcb0e
 workflow-type: tm+mt
-source-wordcount: '408'
-ht-degree: 100%
+source-wordcount: '400'
+ht-degree: 91%
 
 ---
 
@@ -30,15 +30,15 @@ Bei der Auswahl einer Zielgruppendimension (in den Workflow-Einstellungen oder i
 
 ## Zielgruppendimensionen {#list}
 
-Standardmäßig haben die E-Mail- und SMS-Versandvorlagen Profile als Zielgruppe. Ihre Zielgruppendimension verwendet daher die Felder der Tabelle **nms:recipient**. Für Push-Benachrichtigungen ist die standardmäßige Zielgruppendimension **Abonnierte Anwendungen (nms:appSubscriptionRcp)**, das mit der Empfängertabelle verknüpft ist.
+Standardmäßig haben die E-Mail- und SMS-Versandvorlagen Profile als Zielgruppe. Ihre Zieldimension verwendet die Felder der **nms:recipient**-Tabelle. Bei Push-Benachrichtigungen ist die standardmäßige Zieldimension **Abonnierte Anwendungen nms:appSubscriptionRcp**, die mit der Empfängertabelle verknüpft ist.
 
 Verwenden Sie andere integrierte Zielgruppen-Mappings in Workflows und Sendungen, wie unten aufgeführt:
 
 | Name | Für den Versand an | Schema |
 |-----------------------|-------------------------------------------------------|-------------------------|
 | Empfängerinnen und Empfänger | Profile/Empfängerinnen und Empfänger (integrierte Empfängertabelle) | nms:recipient |
-| Besucher | Besuchende, deren Profile beispielsweise über Empfehlungen (z. B. Viral Marketing) erfasst wurden | mns:visitor |
-| Abonnements  | Profile, die einen Informationsdienst abonniert haben, z. B. einen Newsletter | nms:subscription |
+| Besucher | Besuchende, deren Profile beispielsweise über Empfehlungen (z. B. Viral Marketing) erfasst wurden | MNS:visitor |
+| Abonnements     | Profile, die einen Informationsdienst abonniert haben, z. B. einen Newsletter | nms:subscription |
 | Besucher-Abonnements | Besuchende, die einen Informationsdienst abonniert haben | nms:visitorSub |
 | Operatoren | Adobe Campaign-Benutzende | nms:operator |
 | Externe Datei | Versand über eine Datei mit allen erforderlichen Informationen | Ohne Schema oder Zielgruppe |

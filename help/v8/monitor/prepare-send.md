@@ -43,7 +43,7 @@ Die wichtigsten Schritte zur Versandvorbereitung sind unten aufgeführt.
    >[!NOTE]
    >Dies ist mit keinerlei Risiko verbunden, da in dieser Phase keine Nachrichten gesendet werden. Das Starten oder Anhalten dieses Vorgangs ist mit keinerlei Auswirkungen verbunden.
 
-1. Wenn die Vorbereitung abgeschlossen ist, überprüfen Sie die KPIs. Wenn die Anzahl zu sendender Nachrichten nicht Ihren Erwartungen entspricht, ändern Sie Ihre Zielgruppe und starten Sie die Vorbereitung erneut.
+1. Wenn die Vorbereitung abgeschlossen ist, überprüfen Sie die KPIs. Wenn die Anzahl zu sendender Nachrichten nicht Ihren Erwartungen entspricht, ändern Sie Ihre Zielgruppe und starten Sie die Vorbereitung neu.
 
    ![Bildschirm für die abgeschlossene Vorbereitung mit den KPIs](assets/email-preparation-complete.png){zoomable="yes"}
 
@@ -61,7 +61,7 @@ Die wichtigsten Schritte zur Versandvorbereitung sind unten aufgeführt.
 
    ![Fehlerstatus im Versand-Dashboard](assets/email-prepare-error.png){zoomable="yes"}
 
-1. Wenn Sie nach der Vorbereitung Änderungen am Versand vornehmen möchten, starten Sie die Vorbereitung erneut, damit diese Änderungen berücksichtigt werden.
+1. Wenn Sie nach der Vorbereitung Änderungen am Versand vornehmen möchten, starten Sie die Vorbereitung neu, damit diese Änderungen berücksichtigt werden.
 
 Nachdem die Vorbereitung fehlerfrei abgeschlossen wurde, kann Ihre Nachricht gesendet werden.
 

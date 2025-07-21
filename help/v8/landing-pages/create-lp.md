@@ -4,7 +4,7 @@ description: Hier erfahren Sie, wie Sie in Campaign Web eine Landingpage konfigu
 feature: Landing Pages
 exl-id: d4a49048-5ab1-4b69-9e12-1ffa235c51f4
 source-git-commit: e82c19df7faecbb75521bca54e32b1ba84ea1f81
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1643'
 ht-degree: 100%
 

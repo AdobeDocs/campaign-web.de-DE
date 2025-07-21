@@ -4,7 +4,7 @@ title: Verwalten von Assets mit Adobe Experience Manager as a Cloud Service
 description: Erfahren Sie, wie Sie Inhalte mit Adobe Experience Manager as a Cloud Service verwalten können
 exl-id: 43b186c8-294e-4cbe-b269-e127065515ed
 source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '582'
 ht-degree: 100%
 

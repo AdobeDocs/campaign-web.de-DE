@@ -5,8 +5,8 @@ description: Erfahren Sie, wie Sie Ihre E-Mail-Inhalte von Grund auf neu gestalt
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '651'
-ht-degree: 100%
+source-wordcount: '650'
+ht-degree: 97%
 
 ---
 
@@ -72,7 +72,7 @@ Gehen Sie wie folgt vor, um mit der Erstellung Ihres E-Mail-Inhalts zu beginnen.
 
    ![Screenshot mit dem Bereich mit den Strukturkomponenten im E-Mail-Designer](assets/email_designer_structure_components.png){zoomable="yes"}
 
-1. Wählen Sie die Komponente **[!UICONTROL n:n Spalte]** aus, um die Anzahl der Spalten zu definieren (3 bis 10). Legen Sie die Breite jeder Spalte fest, indem Sie die Pfeile am unteren Rand einer jeden Spalte verschieben.
+1. Wählen Sie die Komponente **[!UICONTROL n:n Column]** aus, um die Anzahl der Spalten zu definieren (3 bis 10). Legen Sie die Breite jeder Spalte fest, indem Sie die Pfeile am unteren Rand einer jeden Spalte verschieben.
 
    >[!NOTE]
    >
@@ -110,4 +110,4 @@ Gehen Sie wie folgt vor, um mit der Erstellung Ihres E-Mail-Inhalts zu beginnen.
 
 Hier erfahren Sie, wie Sie im E-Mail-Designer navigieren. Erfahren Sie, wie Sie eine E-Mail neu strukturieren und entwerfen sowie personalisieren und testen können.
 
->[!VIDEO](https://video.tv.adobe.com/v/3453574/?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3425867/?quality=12)

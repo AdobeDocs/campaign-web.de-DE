@@ -4,7 +4,7 @@ title: Arbeiten mit dem Abfrage-Modeler
 description: Lernen Sie, mit dem Abfrage-Modeler von Adobe Campaign Web zu arbeiten.
 exl-id: 56708a66-f654-413a-80ed-1865077b3c0a
 source-git-commit: dfe670447ed3f1e09191460e8ac6aceee9035bb2
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '926'
 ht-degree: 100%
 

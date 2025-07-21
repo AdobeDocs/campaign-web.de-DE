@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie markenkonforme Inhalte mithilfe der Markenbew
 badge: label="Beta" type="Informative"
 exl-id: 5e65d3f4-6a4e-4390-94ae-e59856f1370d
 source-git-commit: 86c28c023adc7a70ea9d0c47fdd40857e05cb8b7
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '247'
 ht-degree: 100%
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 >[!AVAILABILITY]
 >
 >Diese Funktion wird als private Betaversion veröffentlicht. Sie wird in zukünftigen Versionen nach und nach allen Kundinnen und Kunden zur Verfügung stehen.
->Sie müssen einer [Benutzervereinbarung](https://www.adobe.com/de/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} zustimmen, bevor Sie den KI-Assistenten verwenden können. Weitere Informationen erhalten Sie beim Adobe-Support.
+>>Sie müssen einer [Benutzervereinbarung](https://www.adobe.com/de/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} zustimmen, bevor Sie den KI-Assistenten verwenden können. Weitere Informationen erhalten Sie beim Adobe-Support.
 
 Die Funktion „Markenausrichtung“ soll Ihnen dabei helfen, Inhalte zu erstellen, zu überprüfen und zu verwalten, die Ihren Markenrichtlinien entsprechen. Dies sorgt für Konsistenz in Ton, Messaging und visueller Identität in all Ihren E-Mail-Kampagnen und dient gleichzeitig als Qualitätsprüfung vor der Live-Schaltung Ihres Inhalts.
 

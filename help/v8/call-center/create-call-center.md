@@ -4,7 +4,7 @@ title: Erstellen eines Callcenter-Versands
 description: Weitere Informationen zum Erstellen eines Callcenter-Versands mit Adobe Campaign Web
 exl-id: fe8d4773-2271-46ec-9b2e-f50311a4ccf3
 source-git-commit: 1581943b0f13cbd4296e1f42fae8560626b61bdf
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '756'
 ht-degree: 100%
 

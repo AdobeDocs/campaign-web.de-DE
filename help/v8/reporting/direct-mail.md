@@ -4,7 +4,7 @@ title: Briefpost-Berichte
 description: Erfahren Sie, wie Sie auf Briefpost-Berichte zugreifen und diese verwenden können.
 exl-id: 268fe1e3-bd5c-40f1-8973-7671cd8c9960
 source-git-commit: 1a2ab055822bea4cd55230fb63b59234aa114ff7
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '696'
 ht-degree: 100%
 

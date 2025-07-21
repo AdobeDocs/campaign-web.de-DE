@@ -5,8 +5,8 @@ description: Hier erfahren Sie, wie Sie Nachrichten an die Abonnentinnen und Abo
 exl-id: f6e14db5-261c-4fa6-bd19-fd8bdc04aaf1
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '297'
-ht-degree: 100%
+source-wordcount: '296'
+ht-degree: 95%
 
 ---
 
