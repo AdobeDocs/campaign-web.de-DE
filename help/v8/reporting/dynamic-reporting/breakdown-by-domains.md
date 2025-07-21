@@ -5,9 +5,9 @@ level: Intermediate
 audience: end-user
 exl-id: 9b6126b7-3f9c-4810-9288-33a3f0a034d8
 source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '233'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -32,4 +32,4 @@ Die zweite Tabelle **Trackingstatistiken** enthält die verfügbaren Daten bezü
 * **Klicken**: Die Anzahl der Klicks auf einen Inhalt in einem Versand.
 * **Abgemeldet**: Gesamtanzahl der Klicks auf den Abmelde-Link.
 * **Mirrorseite**: Die Anzahl der Klicks auf die Mirrorseite.
-* **Auf Blockierungsliste**: Die Anzahl der Empfängerinnen und Empfänger, die eine E-Mail als Spam oder Junk gekennzeichnet haben.
+* **Auf Blockierungsliste**: Die Anzahl der Empfangenden, die eine E-Mail als Spam oder Junk gekennzeichnet haben.

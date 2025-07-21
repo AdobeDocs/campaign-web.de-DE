@@ -4,9 +4,9 @@ description: Hilfe-Center zu Campaign Web
 title: Produktdokumentation zu Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 source-git-commit: bf1b45af28305c07060097280d7cb1e12db87368
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '480'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -52,9 +52,9 @@ Hier erhalten Sie einen Einblick in die neuesten Verbesserungen in Adobe Campaig
 >[!BEGINTABS]
 
 
->[!TAB Updates vom 25. Juli]
+>[!TAB Aktualisierungen von Juli 2025]
 
-Neue Funktionen und Verbesserungen sind jetzt in der Web-Benutzeroberfläche von Campaign verfügbar. Um diese Verbesserungen nutzen zu können, müssen Sie Ihre Campaign-Umgebung auf Version 8.8 aktualisieren. Eine vollständige Übersicht finden Sie in den Versionshinweisen .
+Neue Funktionen und Verbesserungen sind jetzt in der Benutzeroberfläche von Campaign Web verfügbar. Um diese Verbesserungen nutzen zu können, müssen Sie Ihre Campaign-Umgebung auf Version 8.8 aktualisieren. Einen vollständigen Überblick finden Sie in den Versionshinweisen.
 
 [![Schaltfläche „Weitere Informationen“](assets/do-not-localize/learn-more-button.svg)](../v8/rn/release-notes.md)
 

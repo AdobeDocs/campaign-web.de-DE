@@ -5,15 +5,15 @@ level: Beginner
 audience: end-user
 exl-id: 5c58db92-7878-4c70-b076-a393f1cda8b7
 source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '761'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
 # Liste von Komponenten {#list-of-components}
 
-Wenn zwei Komponenten nicht kompatibel sind, zeigt die Zelle den Wert &quot;**&quot;**.
+Beachten Sie, dass die Zelle bei Inkompatibilität zweier Komponenten den Wert **Ohne** anzeigt.
 
 ## Dimensionen {#dimensions}
 
@@ -57,7 +57,7 @@ In der Tabelle unten finden Sie die Liste der Dimensionen, die in Berichten verw
   </tr> 
   <tr> 
    <td> Profil<br/> </td> 
-   <td> Gruppiert vordefinierte und benutzerdefinierte Profilfelder neu, die während der Profilressourcenerweiterung erstellt wurden.<br/> </td> 
+   <td> Gruppiert native und benutzerdefinierte Profilfelder neu, die während der Profilressourcenerweiterung erstellt wurden.<br/> </td> 
   </tr> 
   <tr> 
    <td> Empfänger-Domain<br/> </td> 
@@ -213,7 +213,7 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Metriken
    <td> Anzahl der Empfänger, die den Versand geöffnet haben<br/> </td> 
   </tr> 
   <tr> 
-   <td> Eindeutig abgemeldet<br/> </td> 
+   <td> Einzelabmeldung<br/> </td> 
    <td> Die Anzahl der Empfänger, die den Abmelde-Link angeklickt haben.<br/> </td> 
   </tr> 
   <tr> 

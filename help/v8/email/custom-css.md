@@ -10,9 +10,9 @@ hidefromtoc: true
 keywords: CSS, Editor, Zusammenfassung, E-Mail
 exl-id: 7969b656-8130-49cf-9c85-d80bd74b285a
 source-git-commit: 88d1a6bd2b4e36852ee6d5332ff8d24bc5efeed9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '692'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -222,7 +222,7 @@ For example:
 +++
 -->
 
-## Schutzmechanismen - Importierte Inhalte
+## Schutzmechanismen – Importierte Inhalte
 
 Wenn Sie benutzerdefiniertes CSS auf in den E-Mail-Designer importierte Inhalte anwenden möchten, sollten Sie Folgendes beachten:
 
@@ -239,9 +239,9 @@ Wenn Ihr benutzerdefiniertes CSS nicht angewendet wird, sollten Sie die folgende
 
 * Stellen Sie sicher, dass Ihr CSS gültig und frei von Syntaxfehlern ist (z. B. fehlende Klammern, falsche Eigenschaftsnamen). [Weitere Informationen](#use-valid-css)
 
-* Stellen Sie sicher, dass Ihr CSS zum `<style>`-Tag mit dem `data-name="global-custom"` hinzugefügt wird.
+* Stellen Sie sicher, dass Ihr CSS zum `<style>`-Tag mit dem Attribut `data-name="global-custom"` hinzugefügt wird.
 
-* Überprüfen Sie, ob für das `global-custom`-Stil-Tag das Attribut `data-disabled` auf `true` festgelegt ist. In diesem Fall wird das benutzerdefinierte CSS nicht angewendet.
+* Überprüfen Sie, ob das Attribut `data-disabled` des Stil-Tags `global-custom` auf `true` festgelegt ist. In diesem Fall wird das benutzerdefinierte CSS nicht angewendet.
 
   +++Beispiel:
 
@@ -249,11 +249,11 @@ Wenn Ihr benutzerdefiniertes CSS nicht angewendet wird, sollten Sie die folgende
   <style data-name="global-custom" type="text/css" data-disabled="true"> body: { color: red; } </style>
   ```
 
-  +++
++++
 
-* Stellen Sie sicher, dass Ihre CSS-Datei nicht durch andere CSS-Regeln überschrieben wird.
+* Stellen Sie sicher, dass Ihr CSS nicht durch andere CSS-Regeln überschrieben wird.
 
-   * Verwenden Sie Ihre Browser-Entwickler-Tools, um den Inhalt zu überprüfen und sicherzustellen, dass Ihr CSS auf die richtigen Selektoren abzielt.
+   * Verwenden Sie die Entwickler-Tools Ihres Browsers, um den Inhalt zu überprüfen und sicherzustellen, dass Ihr CSS auf die richtigen Selektoren abzielt.
 
    * Erwägen Sie, Ihren Deklarationen `!important` hinzuzufügen, um sicherzustellen, dass sie Vorrang haben.
 

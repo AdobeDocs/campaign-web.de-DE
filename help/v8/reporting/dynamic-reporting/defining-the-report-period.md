@@ -5,9 +5,9 @@ audience: end-user
 level: Intermediate
 exl-id: 36506f7d-aeeb-41cf-b971-6e42e1c7cdc8
 source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '229'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 96%
 
 >[!NOTE]
 >
->Daten-Reporting ist für die letzten 13 Monate verfügbar. Weitere Informationen zu Datenspeicherungszeiträumen erhalten Sie vom Adobe-Beratungspersonal oder von Ihren technischen Admins.
+>Datenberichte sind für die letzten 13 Monate verfügbar. Weitere Informationen zu Datenspeicherungszeiträumen erhalten Sie vom Adobe-Beratungspersonal oder von Ihren technischen Admins.
 
 Bevor Sie einen Bericht erstellen oder öffnen, müssen Sie einen Zeitraum festlegen. Rechts oben neben dem Bericht können Sie auf den jeweiligen Zeitraum zugreifen.
 

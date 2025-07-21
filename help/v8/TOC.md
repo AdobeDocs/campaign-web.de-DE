@@ -6,9 +6,9 @@ title: Dokumentation zu Adobe Campaign Web
 description: Dokumentation zu Campaign Web
 breadcrumb-title: Campaign Web-Benutzeroberfläche
 source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '910'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -232,7 +232,7 @@ ht-degree: 99%
          + [Globaler Push-Bericht](reporting/global-report-push.md)
          + [Globaler SMS-Bericht](reporting/global-report-sms.md)
          + [Globaler Briefpost-Bericht](reporting/global-report-direct.md)
-   + Dynamische Berichterstellung {#dynamic-reporting}
+   + Dynamisches Reporting {#dynamic-reporting}
       + [Erste Schritte mit dynamischen Berichten](reporting/dynamic-reporting/get-started-reporting.md)
       + Über Reporting {#about-reporting}
          + [Über dynamische Berichte](reporting/dynamic-reporting/about-dynamic-reports.md)
@@ -252,21 +252,21 @@ ht-degree: 99%
          + [Trackingindikatoren](reporting/dynamic-reporting/tracking-indicators.md)
          + [Abmeldungen](reporting/dynamic-reporting/unsubscriptions.md)
          + [URLs und Clickstreams](reporting/dynamic-reporting/urls-and-click-streams.md)
-      + Berichte anpassen {#customizing-reports}
+      + Anpassen von Berichten {#customizing-reports}
          + [Panels hinzufügen](reporting/dynamic-reporting/adding-panels.md)
          + [Visualisierungen hinzufügen](reporting/dynamic-reporting/adding-visualizations.md)
          + [Komponenten hinzufügen](reporting/dynamic-reporting/adding-components.md)
          + [Benutzerdefinierte Profildimension erstellen](reporting/dynamic-reporting/creating-a-custom-profile-dimension.md)
-         + [Nutzungsvereinbarung zur dynamischen Berichterstattung](reporting/dynamic-reporting/pii-agreement.md)
+         + [Nutzungsvereinbarung zu dynamischem Reporting](reporting/dynamic-reporting/pii-agreement.md)
 + Integrationen  {#integrations}
    + [Arbeiten mit anderen Adobe-Lösungen](integrations/integration.md)
    + [Verwalten von Assets mit Adobe Experience Manager Assets as a Cloud Service](integrations/aem-assets.md)
    + [Verwalten von Vorlagen mit Adobe Experience Manager as a Cloud Service](integrations/aem-content.md)
 + Konfiguration {#conf}
    + Branding {#branding}
-      + [Über Branding](administration/branding/branding-gs.md)
+      + [Informationen zum Branding](administration/branding/branding-gs.md)
       + [Konfigurieren einer Marke](administration/branding/branding-configure.md)
-      + [Marke zuweisen](administration/branding/branding-assign.md)
+      + [Zuweisen einer Marke](administration/branding/branding-assign.md)
    + [Arbeiten mit Geschäftsregeln (Typologien)](administration/typologies.md)
    + [Verwalten von Zielgruppen-Mappings](administration/target-mappings.md)
    + [Arbeiten mit Schemata](administration/schemas.md)

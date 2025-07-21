@@ -5,9 +5,9 @@ audience: end-user
 level: Intermediate
 exl-id: a58fc8fd-e510-45ef-8fe9-c75ff4498113
 source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1230'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -185,7 +185,7 @@ So beheben Sie das Problem:
 
 * Nach dem Importieren Ihres Zielgruppen-Mappings aus einer XML-Datei müssen Sie auch die Berichtsanreicherung importieren.
 
-* Anstatt Ihr Zielgruppen-Mapping zu importieren, können Sie es auch direkt in der Web-Benutzeroberfläche von Adobe Campaign erstellen. Dadurch wird die Berichtsanreicherung automatisch erstellt.
+* Anstatt Ihr Zielgruppen-Mappings zu importieren, können Sie es auch direkt in der Benutzeroberfläche von Adobe Campaign Web erstellen, wodurch die Berichtsanreicherung automatisch erstellt wird.
 
 ## Diskrepanz zwischen der Spaltentitelnummer und der Summe der Zeilen
 
