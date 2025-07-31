@@ -3,10 +3,10 @@ audience: end-user
 title: Erstellen eines Versands von Rich-Push-Benachrichtigungen für iOS
 description: Erfahren Sie, wie Sie einen Versand von Rich-Push-Benachrichtigungen für iOS mit Adobe Campaign Web erstellen.
 exl-id: e6058d60-9f34-412b-aac2-6e319a3ab898
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 53f4662e9497c8614036f9f89c1ea2b1233756f0
 workflow-type: tm+mt
-source-wordcount: '1562'
-ht-degree: 100%
+source-wordcount: '1625'
+ht-degree: 96%
 
 ---
 
@@ -203,6 +203,7 @@ Sobald Sie den Inhalt Ihrer Nachricht definiert haben, können Sie Testabonniere
 | Parameter | Beschreibung |
 |-----------|-------------|
 | **[!UICONTROL Veränderlicher Inhalt]** | Aktivieren Sie diese Option, damit die Mobile App Medieninhalte herunterladen kann. |
+| **[!UICONTROL Inhalt verfügbar]** | Aktivieren Sie diese Option, damit Ihre Benachrichtigung Hintergrundaktualisierungen für Trigger auf iOS-Geräten anzeigen kann, auch wenn die App nicht aktiv geöffnet ist. Dadurch wird sichergestellt, dass Inhalte wie Nachrichten oder Datenaktualisierungen verarbeitet und im Posteingang der Mobile App gespeichert werden können, ohne dass die Benutzerinteraktion erforderlich ist. Wenn diese Option aktiviert ist, wird das `content-available: 1`-Flag gemäß den Standards des Apple Push Notification Service (APNS) zur `aps`-Payload hinzugefügt. |
 | **[!UICONTROL Relevanzwert]** | Legen Sie einen Relevanzwert auf der Skala von 0 bis 100 fest. Das System verwendet diesen Wert, um die Benachrichtigungen in der Benachrichtigungszusammenfassung zu sortieren. |
 | **[!UICONTROL Unterbrechungsgrad]** | <ul><li>**Aktiv**: Ist dies als Standardeinstellung festgelegt, wird die Benachrichtigung sofort angezeigt, der Bildschirm wird beleuchtet und eventuell wird ein Ton abgespielt. Benachrichtigungen umgehen die Fokusmodi nicht.</li><li>**Passiv**: Die Benachrichtigung wird zur Benachrichtigungsliste hinzugefügt, ohne dass der Bildschirm beleuchtet oder ein Ton abgespielt wird. Benachrichtigungen umgehen die Fokusmodi nicht.</li><li>**Zeitabhängig**: Die Benachrichtigung wird sofort angezeigt, der Bildschirm wird beleuchtet, eventuell wird ein Ton abgespielt und der Fokusmodus kann umgangen werden. Für diese Stufe ist keine spezielle Berechtigung von Apple erforderlich.</li><li>**Kritisch**: Die Benachrichtigung wird sofort angezeigt, der Bildschirm wird beleuchtet und der Stummschaltungs- oder Fokusmodus wird umgangen. Beachten Sie, dass für diese Stufe eine spezielle Berechtigung von Apple erforderlich ist.</li></ul> |
 | **[!UICONTROL Thread-ID]** | Legen Sie die Kennung fest, die zur Gruppierung zusammengehöriger Meldungen verwendet wird. |

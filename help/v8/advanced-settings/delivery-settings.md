@@ -4,9 +4,9 @@ title: Konfigurieren von Versandeinstellungen
 description: Erfahren Sie, wie Sie Versandeinstellungen in Campaign Web konfigurieren
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: 5835d45ea2a383eed7d280fdd263548ea2e8530d
+source-git-commit: 49457bf8d6ac292ad20df28867c0eefc92e26dea
 workflow-type: tm+mt
-source-wordcount: '3158'
+source-wordcount: '3449'
 ht-degree: 99%
 
 ---
@@ -339,6 +339,29 @@ SMS-Versandparameter sind technische Einstellungen, die für Ihren SMS-Versand g
   Beachten Sie, dass aufgrund der Funktionsweise personalisierter Nachrichten in Adobe Campaign die Nachrichtengrößen variieren können. Eine hohe Anzahl langer Nachrichten kann zu erhöhten Versandkosten führen, sodass die Verwendung eines sinnvollen Limits hilft, die Kosten zu kontrollieren.
 
   Wenn Sie diesen Wert auf 0 setzen, wird das Limit deaktiviert.
+
+* **[!UICONTROL Optionale SMPP-Parameter (TLV)]**
+
+  Sie können zusätzliche Felder als optionale SMPP-Parameter (TLV) angeben. Diese zusätzlichen Felder werden mit jedem MT gesendet und personalisierte Felder ermöglichen es, unterschiedliche Werte für jeden MT zu haben.
+Die Tabelle enthält optionale Parameter, die mit jeder Nachricht gesendet werden können. Spalten enthalten die folgenden Informationen:
+
+   * **Titel**: Dies ist ein optionaler, frei formulierter Titel. Er wird nicht an den Provider übermittelt. Sie können eine Textbeschreibung des Parameters angeben.
+   * **Tag**: der Tag-Wert im Dezimalformat (z. B. 12345) oder im Hexadezimalformat mit 0x-Präfix (z. B. 0x12ab). Tags können zwischen 0 und 65535 liegen. Fragen Sie den SMPP-Dienstleister, welche Tags unterstützt werden
+   * **Wert**: Der Wert, der im optionalen Parameter gesendet werden soll. Dies ist ein personalisiertes Feld.
+   * **Format**: Für den Parameter verwendete Codierung. Sie können eine beliebige unterstützte Textcodierung oder die gängigsten Binärformate auswählen. Erfragen Sie das benötigte Format beim SMPP-Dienstleister.
+   * **Maximale Länge**: Die maximale Anzahl an Bytes für diesen Parameter. Diese wird bei binären Feldern ignoriert, da binäre Felder eine feste Größe haben.
+
+  **Verwenden von Binärformaten für TLV**
+
+  Campaign unterstützt das Senden von TLV im Binärformat. Die Binärdatei ist auf das Senden von Nummern beschränkt.
+
+  Da bei personalisierten Feldern immer Text ausgegeben wird, muss das personalisierte Feld eine Dezimaldarstellung der Zahl enthalten (eine beliebige Zeichenfolge ist zulässig, solange sie nur Ziffern enthält). Die Werte können sowohl signiert als auch nicht signiert sein. Die Personalisierungs-Engine konvertiert sie einfach in die richtige binäre Darstellung.
+
+  Bei Verwendung von Binärformaten deaktivieren die Sonderwerte „(leere Zeichenfolge)“, „null“ und „undefined“ das Feld vollständig, ohne einen Fehler auszulösen. In diesen 3 Sonderfällen wird das Tag überhaupt nicht übergeben. Dies ermöglicht die Übergabe eines bestimmten TLV nur für einige Nachrichten, wenn sorgfältig erstelltes JavaScript im Personalisierungsfeld verwendet wird.
+
+  >[!NOTE]
+  >
+  >Binärformate werden immer in Big-Endian-Form codiert.
 
 ## SMTP-Einstellungen für den E-Mail-Versand {#smtp}
 

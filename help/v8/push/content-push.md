@@ -3,10 +3,10 @@ audience: end-user
 title: Erstellen eines Push-Benachrichtigungs-Versands
 description: Erfahren Sie, wie Sie einen Push-Benachrichtigungs-Versand mit Adobe Campaign Web erstellen
 exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
-source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
+source-git-commit: 53f4662e9497c8614036f9f89c1ea2b1233756f0
 workflow-type: tm+mt
-source-wordcount: '1569'
-ht-degree: 100%
+source-wordcount: '1632'
+ht-degree: 96%
 
 ---
 
@@ -143,6 +143,7 @@ Die erweiterten Optionen hängen vom mobilen Betriebssystem ab: Android oder iOS
 | **[!UICONTROL Anzahl der Benachrichtigungen]** | Damit wird eine Zahl festgelegt, die direkt auf dem App-Symbol angezeigt wird und die Anzahl der neuen, ungelesenen Informationen angibt. Dies bietet eine schnelle visuelle Referenz für die Benutzenden. |
 | **[!UICONTROL Lautstärke]** | Lautstärke Ihres Tons auf einer Skala von 0 bis 100. |
 | **[!UICONTROL Veränderlicher Inhalt]** | Aktivieren Sie diese Option, damit die App mit der Benachrichtigung verknüpfte Medieninhalte herunterladen kann. Weiterführende Informationen dazu finden Sie im [Apple-Entwickler-Handbuch](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html). |
+| **[!UICONTROL Inhalt verfügbar]** | Aktivieren Sie diese Option, damit Ihre Benachrichtigung Hintergrundaktualisierungen für Trigger auf iOS-Geräten anzeigen kann, auch wenn die App nicht aktiv geöffnet ist. Dadurch wird sichergestellt, dass Inhalte wie Nachrichten oder Datenaktualisierungen verarbeitet und im Posteingang der Mobile App gespeichert werden können, ohne dass die Benutzerinteraktion erforderlich ist. Wenn diese Option aktiviert ist, wird das `content-available: 1`-Flag gemäß den Standards des Apple Push Notification Service (APNS) zur `aps`-Payload hinzugefügt. |
 | **[!UICONTROL Relevanzwert]** | Legen Sie einen Relevanzwert von 0 bis 100 fest, um die Reihenfolge der Benachrichtigungen in der Zusammenfassung der Benachrichtigungen zu priorisieren. Höhere Werte weisen auf wichtigere Benachrichtigungen hin. |
 | **[!UICONTROL Unterbrechungsgrad]** | <ul> <li>**[!UICONTROL Aktiv]**: Ist dies als Standardeinstellung festgelegt, wird die Benachrichtigung sofort angezeigt, der Bildschirm wird beleuchtet und eventuell wird ein Ton abgespielt. Benachrichtigungen umgehen nicht den Fokusmodus.</li><li>**[!UICONTROL Passiv]**: Die Benachrichtigung wird zur Benachrichtigungsliste hinzugefügt, ohne dass der Bildschirm beleuchtet oder ein Ton abgespielt wird. Benachrichtigungen umgehen nicht den Fokusmodus.</li><li>**[!UICONTROL Zeitabhängig]**: Die Benachrichtigung wird sofort angezeigt, der Bildschirm wird beleuchtet, eventuell wird ein Ton abgespielt und der Fokusmodus kann umgangen werden. Für diese Stufe ist keine spezielle Berechtigung von Apple erforderlich.</li> <li>**[!UICONTROL Kritisch]**: Die Benachrichtigung wird sofort angezeigt, der Bildschirm wird beleuchtet und der Stummschaltungs- oder Fokusmodus wird umgangen. Beachten Sie, dass für diese Stufe eine spezielle Berechtigung von Apple erforderlich ist.</ul> |
 | **[!UICONTROL Thread-ID]** | Kennung, die verwendet wird, um verknüpfte Benachrichtigungen zu gruppieren. Benachrichtigungen mit derselben Thread-ID werden in der Benachrichtigungsliste als eine einzige Konversation oder ein einziger Thread organisiert. |

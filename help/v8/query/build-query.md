@@ -3,10 +3,10 @@ audience: end-user
 title: Erstellen Ihrer erste Abfrage mithilfe des Abfrage-Modelers
 description: Erfahren Sie, wie Sie Ihre erste Abfrage im Abfrage-Modeler in Adobe Campaign Web erstellen.
 exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
-source-git-commit: a9c7ac9a7b43166bd3adba0d3463020b7f9353ab
+source-git-commit: 6a2bc8f2c36db04c466ed51a96e281156b224d48
 workflow-type: tm+mt
-source-wordcount: '2863'
-ht-degree: 100%
+source-wordcount: '2921'
+ht-degree: 98%
 
 ---
 
@@ -407,6 +407,13 @@ Nachdem Sie Ihre Abfrage auf der Arbeitsfläche erstellt haben, können Sie sie 
   >[!IMPORTANT]
   >
   >Wählen Sie im Bereich mit den Regeleigenschaften einen vordefinierten Filter aus, um die in der Arbeitsfläche erstellte Abfrage durch den ausgewählten Filter zu ersetzen.
+
+Bei Verwendung des neuen Erlebnisses im Regel-Builder können Sie die Zielpopulation direkt für jede Bedingung und Gruppe anzeigen:
+
+* Klicken Sie auf **Symbol „Bedingung berechnen** der gewünschten Bedingung oder Gruppe, um die Anzahl der Datensätze zu berechnen und anzuzeigen, auf die Ihre Abfrage abzielt.
+* Klicken Sie auf die Ergebnisnummer, um die detaillierte Liste der Datensätze anzuzeigen.
+
+![Population und Ergebnisanzeige](assets/ruleb-11bis.png){zoomable="yes"}
 
 Wenn Ihre Abfrage fertig ist, klicken Sie auf die Schaltfläche **[!UICONTROL Bestätigen]** in der rechten oberen Ecke, um sie zu speichern.
 
