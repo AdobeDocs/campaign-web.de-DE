@@ -2,20 +2,15 @@
 audience: end-user
 title: Verwalten einer Marke
 description: Erfahren Sie, wie Sie Ihre Markenrichtlinien erstellen und verwalten.
-badge: label="Beta" type="Informative"
 exl-id: d4d2c6bb-7fd0-49a0-9d73-356f4a24f021
-source-git-commit: 61078f86bcd433b1bc3a995489f283eb709b3687
+source-git-commit: 127c65a466c41e1aba8408aa9cf41c2d89c93801
 workflow-type: tm+mt
-source-wordcount: '1275'
+source-wordcount: '1255'
 ht-degree: 100%
 
 ---
 
 # Erstellen und Verwalten Ihrer Marken {#brands}
-
->[!AVAILABILITY]
->
->Diese Funktion wird als private Betaversion veröffentlicht. Sie wird in zukünftigen Versionen nach und nach allen Kundinnen und Kunden zur Verfügung stehen.
 
 Markenrichtlinien sind ein umfassender Satz von Regeln und Standards, die die visuelle und verbale Identität einer Marke definieren. Sie dienen als Referenz, um eine konsistente Markendarstellung auf allen Marketing- und Kommunikationskanälen sicherzustellen.
 

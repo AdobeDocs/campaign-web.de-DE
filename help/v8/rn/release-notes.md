@@ -2,10 +2,10 @@
 title: Versionshinweise zur Web-Benutzeroberfläche von Campaign v8
 description: Entdecken Sie die neuen Funktionen der neuesten Version der Campaign Web-Benutzeroberfläche
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 6f09df9a4686a56b56e837536db11a71ba5158f4
+source-git-commit: 127c65a466c41e1aba8408aa9cf41c2d89c93801
 workflow-type: tm+mt
-source-wordcount: '694'
-ht-degree: 98%
+source-wordcount: '900'
+ht-degree: 61%
 
 ---
 
@@ -18,25 +18,221 @@ ht-degree: 98%
 
 Die Versionen der Adobe Campaign Web-Benutzeroberfläche basieren auf einem kontinuierlichen Bereitstellungsmodell, das einen besser skalierbaren, schrittweisen Ansatz für die Implementierung von Funktionen ermöglicht. Dementsprechend werden diese Versionshinweise mehrmals im Monat aktualisiert. Sie sollten daher regelmäßig nachschauen.
 
-Änderungen und Verbesserungen, die in früheren Versionen verfügbar sind, sind in den [Versionshinweisen 2024](release-notes-24.md) und [Versionshinweisen 2025](release-notes-25.md) aufgeführt.
+Änderungen und Verbesserungen, die mit früheren Versionen verfügbar sind, sind auf den Seiten [2024](release-notes-24.md) und [2025](release-notes-25.md) aufgeführt.
 
-## Aktualisierungen von Juli 2025 {#25-7-updates}
+## Version Juli &#39;25 {#25-7-release}
+
+### Neue Funktionen {#25-7-features}
+
+Die folgenden Funktionen sind ab Juli verfügbar.
+
+<!--table>
+<thead>
+<tr>
+<th><strong>Multilingual email and SMS</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now send multiple email and SMS deliveries in different languages in Adobe Campaign Web UI. The multilingual delivery feature allows you to choose the default language of your delivery as well as the different languages in which the delivery can be sent. You can also preview these deliveries in the languages you have chosen.
+</p>
+<p>For Multilingual email, your server must be upgraded to 8.8.1 minimum. Refer to the Client Console <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html" target="_blank">release notes</a>.
+<p>For more information, refer to the <a href="../email/edit-content.md#multilingual-delivery">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table-->
+
+<!--table>
+<thead>
+<tr>
+<th><strong>Custom channel for API deliveries</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now, directly from Adobe Campaign Web UI, orchestrate and execute deliveries based on custom API channels. These deliveries can be standalone or part of a workflow. The configuration of the custom API channel is performed in the console.</p>
+<p>For more information, refer to the detailed documentation.</p>
+</td>
+</tr>
+</tbody>
+</table-->
+
+<table>
+<thead>
+<tr>
+<th><strong>Unterstützung von benutzerdefiniertem CSS in der E-Mail-Designer</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Beim Entwerfen Ihrer E-Mails können Sie jetzt Ihr eigenes benutzerdefiniertes CSS direkt in der E-Mail-Designer hinzufügen. Mit dieser Funktion können Sie erweiterte und spezifische Stile anwenden, um die Flexibilität und Kontrolle über das Erscheinungsbild Ihrer Inhalte zu erhöhen.</p>
+<p>Weitere Informationen finden Sie in der <a href="../email/custom-css.md">entsprechenden Dokumentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Marken</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Sie können jetzt Ihre eigenen Marken erstellen und anpassen, um Ihre visuelle und verbale Identität in der gesamten Kommunikation klar zu definieren. Mit der Bewertung zur Markenausrichtung erhalten Sie Echtzeit-Feedback dazu, wie gut Ihr Inhalt den Ton, den Stil und die Richtlinien Ihrer Marke widerspiegelt. So bleiben Sie mit jeder gesendeten Nachricht konsequent auf dem Laufenden.
+</p>
+<p>Weitere Informationen finden Sie in der <a href="../content/brands.md">entsprechenden Dokumentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Versandwarnung</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Bei der Funktion „Versandwarnungen“ handelt es sich um ein System zum Warnungs-Management, über das eine Benutzergruppe automatisch Benachrichtigungen zu ihren Sendungen erhält. </p>
+<p>Weitere Informationen finden Sie in der <a href="../msg/delivery-alerting.md">entsprechenden Dokumentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<!--table>
+<thead>
+<tr>
+<th><strong>Landing pages improvements</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>The following improvements to landing pages are now available:</p>
+<ul>
+    <li>You can now reference a default subscription/unsubscription landing page when configuring a service. When designing an email, if you define a link to that landing page, users submitting the landing page form are automatically subscribed to or unsubscribed from this service. <a href="../audience/manage-services.md#create-service">Read more</a></li>
+    <li>A new option in the landing page configuration allows anonymous visitors to access the landing page. If you unselect this option, only identified users can access and submit the form. <a href="../landing-pages/create-lp.md#create-landing-page">Read more</a></li>
+    <li>A new option in the landing page configuration allows to store additional internal data when the landing page is being submitted. <a href="../landing-pages/create-lp.md#create-landing-page">Read more</a></li>
+    <li>A new option enables to use a landing page for several services, making it dynamic. When adding a link to an email, if you select a dynamic landing page, you can select any service. If you select a landing page that has a specific service associated, this service will be automatically used (you cannot select another one). <a href="../landing-pages/create-lp.md#define-actions-on-form-submission">Read more</a></li>
+    <li>Conditional content is now supported in landing pages. <a href="../landing-pages/lp-content.md">Read more</a></li>
+    <li>You can link a landing page to a service, and send a confirmation message when users validate it. <a href="../landing-pages/lp-content.md#lp-message">Read more</a></li>
+    <li>You can add captcha to protect your landing page from spam and abuse caused by bots. This is non-intrusive for your customers since it does not require any interaction from them and is based on interactions with your site. <a href="../landing-pages/create-lp.md#captcha">Read more</a></li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table-->
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Dynamische Berichterstellung</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Sie können jetzt auf das dynamische Reporting zugreifen, das vollständig anpassbare Echtzeitberichte zur Messung der Wirkung Ihrer Marketing-Aktivitäten bereitstellt. Dadurch kann auf Profildaten zugegriffen werden, was die demografische Analyse nach Profildimensionen wie Geschlecht, Ort und Alter ermöglicht, zusätzlich zur Analyse basierend auf Daten von E-Mail-Kampagnen wie Öffnungen und Klicks. Dynamische Berichte sind auch für mehrsprachige E-Mail-Sendungen und Transaktionsnachrichten verfügbar.</p>
+<p>Diese Funktion ist nur bei Bedarf verfügbar. Wenden Sie sich an Ihren Adobe-Support-Mitarbeiter, um Zugriff zu erhalten. Ihr Server muss ein Upgrade auf mindestens 8.8.1 erhalten. Weitere Informationen finden Sie in den <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=de" target="_blank">Versionshinweisen</a> zur Client-Konsole.
+<p>Weitere Informationen finden Sie in der <a href="../reporting/dynamic-reporting/get-started-reporting.md">entsprechenden Dokumentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Zentrales Branding</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ihre technischen Admins können jetzt eine oder mehrere Marken definieren, um die Parameter, die die Identität einer Marke beeinflussen, zu zentralisieren. das Logo der Marke, die Domain der Zugangs-URL zu den Landingpages, Einstellungen zum Nachrichten-Tracking. Sie können diese Marken erstellen und mit verschiedenen Nachrichten oder Landingpages verknüpfen. Diese Konfiguration wird in Vorlagen verwaltet. Branding-Optionen sind für alle Kanäle verfügbar, einschließlich SMS und Briefpost.</p>
+<p>Diese Funktion ist nur bei Bedarf für neue Implementierungen verfügbar. Wenden Sie sich an Ihren Adobe-Support-Mitarbeiter, um Zugriff zu erhalten. Ihr Server muss ein Upgrade auf mindestens 8.8.1 erhalten. Weitere Informationen finden Sie in den <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=de" target="_blank">Versionshinweisen</a> zur Client-Konsole.
+<p>Weitere Informationen finden Sie in der <a href="../administration/branding/branding-gs.md">entsprechenden Dokumentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+Zusätzlich zu den oben aufgeführten Funktionen bietet diese Version auch eine Reihe von Funktionen, die in der Client-Konsole verfügbar sind:
+
+* [Neuer SMS-Versand-Connector](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/sms.html?lang=de) (FDA-Umgebungen)
+* [Rest-APIs](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=de) (On-Demand, FDA-Umgebungen)
+
+Weitere Informationen finden Sie in den [Versionshinweisen](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=de){target="_blank"} zur Client-Konsole.
+
+<!--
+
+### Features previously in Limited Availability {#25-7-limited} 
 
 >[!AVAILABILITY]
 >
->Damit Sie von diesen Aktualisierungen profitieren können, muss Ihr Server mindestens auf 8.8.1 aktualisiert sein. Weitere Informationen finden Sie in den [Versionshinweisen](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=de){target="_blank"} zur Client-Konsole.
+>To benefit from these updates, your server must be upgrated to 8.8.1 mininum. Refer to the Client Console [release notes](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html){target="_blank"}.
 
-Die folgenden Funktionen, die zuvor in eingeschränkter Verfügbarkeit veröffentlicht waren, stehen nun allen Umgebungen zur Verfügung (allgemeine Verfügbarkeit):
+Previously released in Limited Availability, the following capabilities are now available to all environments (General Availability):
 
-* **Erstellung eines mehrsprachigen Versands**: In der Adobe Campaign Web-Benutzeroberfläche ist nun die Durchführung mehrerer E-Mail-Sendungen in verschiedenen Sprachen möglich. Mit der Funktion „Mehrsprachiger Versand“ können Sie die Standardsprache Ihres Versands sowie die verschiedenen Sprachen festlegen, in denen der Versand durchgeführt werden kann. Sie können diese Sendungen auch in einer Vorschau in den von Ihnen ausgewählten Sprachen anzeigen. [Weitere Informationen](../email/edit-content.md#multilingual-delivery)
+* **Multilingual delivery creation** - You can now send multiple email deliveries in different languages in Adobe Campaign Web User Interface. The Multilingual delivery feature allows you to choose the default language of your delivery as well as the different languages in which the delivery can be sent. You can also preview these deliveries in the languages you have chosen. [Read more](../email/edit-content.md#multilingual-delivery).
 
-<!--
-* **Visual fragments** - You can now create, use and archive content fragments. Visual fragments are pre-defined visual blocks that you can reuse across multiple email deliveries, or in content templates. [Learn more](https://experienceleague.adobe.com/docs/campaign-web/v8/content/manage-reusable-content/fragments/fragments.html?lang=de){target="_blank"}
+
+* **Visual fragments** - You can now create, use and archive content fragments. Visual fragments are pre-defined visual blocks that you can reuse across multiple email deliveries, or in content templates. [Learn more](https://experienceleague.adobe.com/docs/campaign-web/v8/content/manage-reusable-content/fragments/fragments.html){target="_blank"}
+
+* **Delivery alerting** - The Delivery alerting feature is an alert management system that enables a group of users to automatically receive notifications containing information on the execution of their deliveries. [Read more](../msg/delivery-alerting.md)
+
+
+* **Landing pages improvements** - The following improvements to landing pages are now available:
+
+    * You can now reference a default subscription/unsubscription landing page when configuring a service. When designing an email, if you define a link to that landing page, users submitting the landing page form are automatically subscribed to or unsubscribed from this service. [Read more](../audience/manage-services.md#create-service)
+    * A new option in the landing page configuration allows anonymous visitors to access the landing page. If you unselect this option, only identified users can access and submit the form. [Read more](../landing-pages/create-lp.md#create-landing-page)
+    * A new option in the landing page configuration allows to store additional internal data when the landing page is being submitted. [Read more](../landing-pages/create-lp.md#create-landing-page)
+    * A new option enables to use a landing page for several services, making it dynamic. When adding a link to an email, if you select a dynamic landing page, you can select any service. If you select a landing page that has a specific service associated, this service will be automatically used (you cannot select another one). [Read more](../landing-pages/create-lp.md#define-actions-on-form-submission)
+    * Conditional content is now supported in landing pages. [Read more](../landing-pages/lp-content.md)
+    * You can link a landing page to a service, and send a confirmation message when users validate it. [Learn more](../landing-pages/lp-content.md#lp-message)
+    * You can add captcha to protect your landing page from spam and abuse caused by bots. This is non-intrusive for your customers since it does not require any interaction from them and is based on interactions with your site. [Learn more](../landing-pages/create-lp.md#captcha)
+
+Previously released in Limited Availability, the following capabilities are now available **on demand**:
+
+* **Dynamic Reporting** - You can now access Dynamic Reporting which provides fully customizable and real-time reports to measure the impact of your marketing activities. It adds access to profile data, enabling demographic analysis by profile dimensions such as gender, city and age in addition to functional email campaign data like opens and clicks. Dynamic reporting is also available for multilingual email deliveries and transactional messages. [Read more](../reporting/dynamic-reporting/get-started-reporting.md)
+
+* **Centralized Branding** -  Your technical administrators can now define one or several brands to centralize the parameters that affect a brand's identity. This includes the brand logo, the domain of the landing pages' access URL, or message tracking settings. You can create these brands and link them to messages or landing pages. This configuration is managed in templates. Branding options are available for all channels, including SMS and Direct mail. [Read more](../administration/branding/branding-gs.md){target="_blank"}
+
+    >[!NOTE]
+    >
+    >This feature is only available for new implementations.
+
+In addition to the features listed above, this release also comes with a set of functionalities available in the Client Console:
+
+* [New SMS sending connector](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/sms.html) (FDA environments)
+* [Rest APIs](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html) (on demand, FDA environments)
+
+Refer to the Client Console [release notes](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html){target="_blank"}.
+
 -->
 
-* **Versandwarnung**: Bei der Funktion „Versandwarnung“ handelt es sich um ein System zur Verwaltung von Warnungen, über das eine Benutzergruppe automatisch Benachrichtigungen mit Informationen zur Ausführung ihrer Sendungen erhält. [Weitere Informationen](../msg/delivery-alerting.md)
+### Verbesserungen {#25-7-improvements}
 
-* **Verbesserungen für Landingpages**: Die folgenden Verbesserungen für Landingpages sind jetzt verfügbar:
+* Sie können jetzt die Zielpopulation direkt für jede Bedingung und Gruppe im Regel-Builder berechnen. Klicken Sie auf die Ergebnisnummer, um die detaillierte Liste der Datensätze anzuzeigen. [Weitere Informationen](../query/build-query.md#validate-query)
+
+* Sie können jetzt einen vordefinierten Filter direkt im Regel-Builder bearbeiten oder löschen. [Weitere Informationen](../get-started/predefined-filters.md#manage-predefined-filter)
+
+* Beim Konfigurieren eines SMS-Versands haben Sie im **SMS**-Abschnitt jetzt Zugriff auf die **Optionalen SMPP-Parameter (TLV)**. Dieser Parameter entspricht dem Parameter in der Client-Konsole. [Weitere Informationen](../advanced-settings/delivery-settings.md#sms-tab)
+
+* Sie können jetzt Hintergrundbenachrichtigungen für iOS mit der neuen Option **Inhalt verfügbar** aktivieren, die im Abschnitt **Erweiterte Einstellungen** des Bildschirms zur Inhaltsbearbeitung von iOS verfügbar ist. Dadurch wird das `content-available:1`-Flag in der `aps` Payload hinzugefügt. Weitere Informationen [auf dieser Seite](../push/content-push.md). Siehe auch [diese Seite](../push/rich-push-ios.md)
+
+* Die folgenden Verbesserungen bei Landingpages sind jetzt verfügbar:
 
    * Sie können nun beim Konfigurieren eines Dienstes auf eine standardmäßige Landingpage zur An-/Abmeldung verweisen. Wenn Sie bei der Erstellung einer E-Mail einen Link zu dieser Landingpage definieren, werden die Benutzenden, die das Landingpage-Formular senden, automatisch für diesen Dienst angemeldet bzw. von ihm abgemeldet. [Weitere Informationen](../audience/manage-services.md#create-service)
    * Eine neue Option in der Landingpage-Konfiguration ermöglicht anonymen Besuchenden, auf die Landingpage zuzugreifen. Wenn Sie diese Option deaktivieren, können nur identifizierte Benutzende auf das Formular zugreifen und dieses absenden. [Weitere Informationen](../landing-pages/create-lp.md#create-landing-page)
@@ -45,29 +241,3 @@ Die folgenden Funktionen, die zuvor in eingeschränkter Verfügbarkeit veröffen
    * Bedingte Inhalte werden nun auf Landingpages unterstützt. [Weitere Informationen](../landing-pages/lp-content.md)
    * Es ist jetzt möglich, eine Landingpage mit einem Dienst zu verknüpfen und eine Bestätigungsnachricht zu versenden, wenn Benutzende dies validieren. [Weitere Informationen](../landing-pages/lp-content.md#lp-message)
    * Sie können Captcha zum Schutz Ihrer Landingpage vor Spam und Missbrauch durch Bots hinzufügen. Dies erfordert nur wenig Einsatz aufseiten Ihrer Kundschaft, da nur eine Interaktion mit Ihrer Website erforderlich ist. [Weitere Informationen](../landing-pages/create-lp.md#captcha)
-
-Die folgenden Funktionen, die zuvor in eingeschränkter Verfügbarkeit veröffentlicht waren, sind jetzt **auf Anfrage** verfügbar:
-
-* **Dynamische Berichte**: Sie können nun auf dynamische Berichte zugreifen, die vollständig anpassbare Berichte und Echtzeitberichte zum Messen der Wirkung Ihrer Marketing-Aktivitäten bieten. Dadurch kann auf Profildaten zugegriffen werden, was die demografische Analyse nach Profildimensionen wie Geschlecht, Ort und Alter ermöglicht, zusätzlich zur Analyse basierend auf Daten von E-Mail-Kampagnen wie Öffnungen und Klicks. Dynamische Berichte sind auch für mehrsprachige E-Mail-Sendungen und Transaktionsnachrichten verfügbar. [Weitere Informationen](../reporting/dynamic-reporting/get-started-reporting.md)
-
-* **Zentralisiertes Branding**: Ihre technischen Admins können nun eine oder mehrere Marken definieren, um die Parameter zu zentralisieren, die sich auf die Markenidentität auswirken. das Logo der Marke, die Domain der Zugangs-URL zu den Landingpages, Einstellungen zum Nachrichten-Tracking. Sie können diese Marken erstellen und mit verschiedenen Nachrichten oder Landingpages verknüpfen. Diese Konfiguration wird in Vorlagen verwaltet. Branding-Optionen sind für alle Kanäle verfügbar, einschließlich SMS und Briefpost. [Weitere Informationen](../administration/branding/branding-gs.md){target="_blank"}
-
-  >[!NOTE]
-  >
-  >Diese Funktion ist nur für neue Implementierungen verfügbar.
-
-Zusätzlich zu den oben aufgeführten Funktionen bietet diese Version auch eine Reihe von Funktionen, die in der Client-Konsole verfügbar sind:
-
-* [Neuer SMS-Versand-Connector](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/sms.html?lang=de). (FDA-Umgebungen)
-* [Rest-APIs](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=de) (On-Demand, FDA-Umgebungen)
-
-Weitere Informationen finden Sie in den [Versionshinweisen](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=de){target="_blank"} zur Client-Konsole.
-
-<!--
-ACC * **Branding** - Branding options are now available for all channels, including SMS and Direct mail. [Read more](https://experienceleague.adobe.com/docs/experience-cloud/campaign/branding/branding-gs.html?lang=de){target="_blank"}
-web - * **Branding for Direct Mail** - Technical administrators can now define one or several brands to centralize the parameters that affect a brand's identity. This includes the brand logo, the domain of the landing pages' access URL, or message tracking settings. You can now create these brands and link them to messages or landing pages. This configuration is managed in templates. [Learn more](https://experienceleague.adobe.com/de/docs/experience-cloud/campaign/branding/branding-assign)
-ACC - Branding - As a Campaign Standard migrated user, your technical administrators can now define one or several brands to centralize the parameters that affect a brand’s identity. This includes the brand logo, the domain of the landing pages’ access URL, or message tracking settings. You can create these brands and link them to messages or landing pages. This configuration is managed in templates. Read more
-Previously released in Limited Availability, the following capability is now available **on demand, only for [Campaign FDA deployments](../architecture/fda-deployment.md)**. To gain access, contact your Adobe representative.
-Previously released in Limited Availability, the following capability is now available by default **for new implementations**, and available **on demand for existing environments**. To gain access, contact your Adobe representative.
-Previously released in Limited Availability, the following capability is now available **on demand**. To gain access, contact your Adobe representative.
--->

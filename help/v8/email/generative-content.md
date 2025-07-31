@@ -3,10 +3,10 @@ audience: end-user
 title: Generative Inhalte
 description: Erste Schritte mit dem KI-Assistenten
 exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
-source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
+source-git-commit: 127c65a466c41e1aba8408aa9cf41c2d89c93801
 workflow-type: tm+mt
-source-wordcount: '1521'
-ht-degree: 98%
+source-wordcount: '1624'
+ht-degree: 87%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 98%
 >[!IMPORTANT]
 >
 >Bevor Sie mit der Verwendung dieser Funktion beginnen, lesen Sie die entsprechenden Informationen unter [Schutzmechanismen und Einschränkungen](generative-gs.md#generative-guardrails).
->&#x200B;></br>
+>></br>
 >
 >Sie müssen einer [Benutzervereinbarung](https://www.adobe.com/de/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} zustimmen, bevor Sie den KI-Assistenten in Adobe Campaign Web verwenden können. Weitere Informationen erhalten Sie beim Adobe-Support.
 
@@ -54,7 +54,7 @@ Im folgenden Beispiel wird der KI-Assistent in Adobe Campaign Web verwendet, um 
    * **[!UICONTROL Kommunikationsstrategie]**: Wählen Sie den am besten geeigneten Kommunikationsstil für den generierten Text aus.
    * **[!UICONTROL Ton]**: Stellen Sie sicher, dass der Ton Ihrer E-Mail bei Ihrer Zielgruppe ankommt. Je nachdem, ob Sie informativ, humorvoll oder überzeugend klingen möchten, passt der KI-Assistent die Nachricht entsprechend an.
 
-   ![Screenshot mit Optionen für Texteinstellungen in Adobe Campaign Web](assets/full-email-3.png){zoomable="yes"}
+   ![Screenshot mit Optionen für Texteinstellungen in Adobe Campaign Web](assets/full-email-4.png){zoomable="yes"}
 
 1. Wählen Sie Ihre **[!UICONTROL Bildeinstellungen]** aus:
 
@@ -64,15 +64,21 @@ Im folgenden Beispiel wird der KI-Assistent in Adobe Campaign Web verwendet, um 
    * **[!UICONTROL Beleuchtung]**: Ändern Sie die Beleuchtung in einem Bild, um dessen Atmosphäre zu prägen und bestimmte Elemente hervorzuheben.
    * **[!UICONTROL Komposition]**: Ordnen Sie Elemente innerhalb des Rahmens eines Bildes an.
 
-   ![Screenshot mit Optionen für Bildeinstellungen in Adobe Campaign Web](assets/full-email-4.png){zoomable="yes"}
-
 1. Klicken Sie im Menü **[!UICONTROL Marken-Assets]** auf **[!UICONTROL Marken-Asset hochladen]**, um beliebige Marken-Assets hinzuzufügen, die zusätzlichen Kontext für den KI-Assistenten liefern. Wählen Sie alternativ ein zuvor hochgeladenes Asset aus.
 
    Zuvor hochgeladene Dateien sind in der Dropdown-Liste **[!UICONTROL Hochgeladene Marken-Assets]** verfügbar. Aktivieren Sie die Assets, die in den Generierungsprozess einbezogen werden sollen.
 
+   ![Screenshot mit den Optionen für die Markeneinstellungen in Adobe Campaign Web](assets/full-email-3.png){zoomable="yes"}
+
 1. Wenn das Prompt fertig ist, klicken Sie auf **[!UICONTROL Generieren]**.
 
-1. Durchsuchen Sie die generierten **[!UICONTROL Varianten]** und klicken Sie auf **[!UICONTROL Vorschau]**, um eine Vollbildversion der ausgewählten Variante anzuzeigen.
+1. Durchsuchen Sie die generierten **[!UICONTROL Varianten]** und klicken Sie auf **[!UICONTROL Vorschau]**, um eine Vollbildversion der ausgewählten Variante anzuzeigen, oder **[!UICONTROL Anwenden]**, um Ihren aktuellen Inhalt zu ersetzen.
+
+1. Klicken Sie auf das Prozentsymbol, um Ihre **[!UICONTROL Markenausrichtungsbewertung]** anzuzeigen und Abweichungen von Ihrer Marke zu identifizieren.
+
+   Weitere Informationen finden Sie unter [Bewertung der Markenausrichtung](../content/brands-score.md).
+
+   ![](assets/full-email-7.png){zoomable="yes"}
 
 1. Navigieren Sie im Fenster **[!UICONTROL Vorschau]** zur Option **[!UICONTROL Verfeinern]**, um auf zusätzliche Anpassungsfunktionen zuzugreifen:
 
@@ -83,11 +89,11 @@ Im folgenden Beispiel wird der KI-Assistent in Adobe Campaign Web verwendet, um 
 
    ![Screenshot mit Verfeinerungsoptionen in Adobe Campaign Web](assets/full-email-5.png){zoomable="yes"}
 
+1. Öffnen Sie die Registerkarte **[!UICONTROL Markenausrichtung]**, um zu sehen, wie Ihr Inhalt mit Ihren [Markenrichtlinien](../content/brands.md) abgestimmt ist.
+
 1. Klicken Sie auf **[!UICONTROL Auswählen]**, sobald Sie den passenden Inhalt gefunden haben.
 
 1. Fügen Sie Personalisierungsfelder ein, um Ihre E-Mail-Inhalte auf der Grundlage von Profildaten anzupassen. Klicken Sie danach auf die Schaltfläche **[!UICONTROL Inhalte simulieren]**, um das Rendern zu steuern, und überprüfen Sie die Personalisierungseinstellungen mit Testprofilen. [Weitere Informationen](../preview-test/preview-content.md)
-
-   ![Screenshot mit der Schaltfläche „Inhalte simulieren“ in Adobe Campaign Web](assets/full-email-6.png){zoomable="yes"}
 
 Bereiten Sie den E-Mail-Versand vor, wenn Sie Inhalt, Zielgruppe und Zeitplan definieren. [Weitere Informationen](../monitor/prepare-send.md)
 
@@ -117,7 +123,7 @@ Im folgenden Beispiel wird der KI-Assistent verwendet, um den Inhalt Ihrer E-Mai
    * **[!UICONTROL Ton]**: Stellen Sie sicher, dass der Ton Ihrer E-Mail bei Ihrer Zielgruppe ankommt. Je nachdem, ob Sie informativ, humorvoll oder überzeugend klingen möchten, passt der KI-Assistent die Nachricht entsprechend an.
    * **Textlänge**: Wählen Sie mit dem Regler die gewünschte Textlänge aus.
 
-   ![Screenshot mit Optionen für Texteinstellungen in Adobe Campaign Web](assets/text-genai-3.png){zoomable="yes"}
+   ![Screenshot mit Optionen für Texteinstellungen in Adobe Campaign Web](assets/text-genai-4.png){zoomable="yes"}
 
 1. Klicken Sie im Menü **[!UICONTROL Marken-Assets]** auf **[!UICONTROL Marken-Asset hochladen]**, um beliebige Marken-Assets hinzuzufügen, die zusätzlichen Kontext für den KI-Assistenten liefern. Wählen Sie alternativ ein zuvor hochgeladenes Asset aus.
 
@@ -125,7 +131,13 @@ Im folgenden Beispiel wird der KI-Assistent verwendet, um den Inhalt Ihrer E-Mai
 
 1. Wenn das Prompt fertig ist, klicken Sie auf **[!UICONTROL Generieren]**.
 
-1. Durchsuchen Sie die generierten **[!UICONTROL Varianten]** und klicken Sie auf **[!UICONTROL Vorschau]**, um eine Vollbildversion der ausgewählten Variante anzuzeigen.
+1. Durchsuchen Sie die generierten **[!UICONTROL Varianten]** und klicken Sie auf **[!UICONTROL Vorschau]**, um eine Vollbildversion der ausgewählten Variante anzuzeigen, oder **[!UICONTROL Anwenden]**, um Ihren aktuellen Inhalt zu ersetzen.
+
+1. Klicken Sie auf das Prozentsymbol, um Ihre **[!UICONTROL Markenausrichtungsbewertung]** anzuzeigen und Abweichungen von Ihrer Marke zu identifizieren.
+
+   Weitere Informationen finden Sie unter [Bewertung der Markenausrichtung](../content/brands-score.md).
+
+   ![](assets/text-genai-6.png){zoomable="yes"}
 
 1. Navigieren Sie im Fenster **[!UICONTROL Vorschau]** zur Option **[!UICONTROL Verfeinern]**, um auf zusätzliche Anpassungsfunktionen zuzugreifen:
 
@@ -137,7 +149,9 @@ Im folgenden Beispiel wird der KI-Assistent verwendet, um den Inhalt Ihrer E-Mai
 
    Sie können auch den **[!UICONTROL Ton]** und die **[!UICONTROL Kommunikationsstrategie]** Ihres Textes ändern.
 
-   ![Screenshot mit Verfeinerungsoptionen in Adobe Campaign Web](assets/text-genai-4.png){zoomable="yes"}
+   ![Screenshot mit Verfeinerungsoptionen in Adobe Campaign Web](assets/text-genai-5.png){zoomable="yes"}
+
+1. Öffnen Sie die Registerkarte **[!UICONTROL Markenausrichtung]**, um zu sehen, wie Ihr Inhalt mit Ihren [Markenrichtlinien](../content/brands.md) abgestimmt ist.
 
 1. Klicken Sie auf **[!UICONTROL Auswählen]**, sobald Sie den passenden Inhalt gefunden haben.
 
@@ -178,7 +192,7 @@ Im folgenden Beispiel erfahren Sie, wie Sie den KI-Assistenten nutzen können, u
    * **[!UICONTROL Beleuchtung]**: Ändern Sie die Beleuchtung in einem Bild, um dessen Atmosphäre zu prägen und bestimmte Elemente hervorzuheben.
    * **[!UICONTROL Komposition]**: Ordnen Sie Elemente innerhalb des Rahmens eines Bildes an.
 
-   ![Screenshot mit Optionen für Bildeinstellungen in Adobe Campaign Web](assets/image-genai-3.png){zoomable="yes"}
+   ![Screenshot mit Optionen für Bildeinstellungen in Adobe Campaign Web](assets/image-genai-4.png){zoomable="yes"}
 
 1. Klicken Sie im Menü **[!UICONTROL Marken-Assets]** auf **[!UICONTROL Marken-Asset hochladen]**, um beliebige Marken-Assets hinzuzufügen, die zusätzlichen Kontext für den KI-Assistenten liefern. Wählen Sie alternativ ein zuvor hochgeladenes Asset aus.
 
@@ -186,15 +200,17 @@ Im folgenden Beispiel erfahren Sie, wie Sie den KI-Assistenten nutzen können, u
 
 1. Sobald Sie mit der Konfiguration des Prompts zufrieden sind, klicken Sie auf **[!UICONTROL Generieren]**.
 
-1. Durchsuchen Sie die **[!UICONTROL Variantenvorschläge]**, um das gewünschte Asset zu finden.
+1. Durchsuchen Sie die generierten **[!UICONTROL Varianten]** und klicken Sie auf **[!UICONTROL Vorschau]**, um eine Vollbildversion der ausgewählten Variante anzuzeigen, oder **[!UICONTROL Anwenden]**, um Ihren aktuellen Inhalt zu ersetzen.
 
-   Klicken Sie auf **[!UICONTROL Vorschau]**, um eine Vollbildversion der ausgewählten Variante anzuzeigen.
+1. Klicken Sie auf das Prozentsymbol, um Ihre **[!UICONTROL Markenausrichtungsbewertung]** anzuzeigen und Abweichungen von Ihrer Marke zu identifizieren.
 
-   ![Screenshot mit Variantenvorschlägen für die Bildgenerierung in Adobe Campaign Web](assets/image-genai-5.png){zoomable="yes"}
+   Weitere Informationen finden Sie unter [Bewertung der Markenausrichtung](../content/brands-score.md).
+
+   ![](assets/image-genai-3.png){zoomable="yes"}
 
 1. Wählen Sie **[!UICONTROL Ähnliche generieren]** aus, wenn Sie verwandte Bilder zu dieser Variante anzeigen möchten.
 
-   ![Screenshot mit der Option „Ähnliche generieren“ in Adobe Campaign Web](assets/image-genai-6.png){zoomable="yes"}
+1. Öffnen Sie die Registerkarte **[!UICONTROL Markenausrichtung]**, um zu sehen, wie Ihr Inhalt mit Ihren [Markenrichtlinien](../content/brands.md) abgestimmt ist.
 
 1. Klicken Sie auf **[!UICONTROL Auswählen]**, sobald Sie den passenden Inhalt gefunden haben.
 

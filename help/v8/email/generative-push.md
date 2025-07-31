@@ -3,10 +3,10 @@ audience: end-user
 title: Push-Benachrichtigungen mit dem KI-Assistenten
 description: Erste Schritte mit dem KI-Assistenten
 exl-id: a361f75d-63c2-4fdc-993c-f8414b18e13e
-source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
+source-git-commit: 127c65a466c41e1aba8408aa9cf41c2d89c93801
 workflow-type: tm+mt
-source-wordcount: '548'
-ht-degree: 100%
+source-wordcount: '589'
+ht-degree: 87%
 
 ---
 
@@ -39,7 +39,7 @@ Im folgenden Beispiel wird der KI-Assistent verwendet, um mit einer überzeugend
 
    ![Screenshot der Benutzeroberfläche der Prompt-Bibliothek](assets/push-genai-2.png){zoomable="yes"}
 
-1. Wählen Sie das zu generierende Feld aus: **[!UICONTROL Titel]**, **[!UICONTROL Nachricht]** und/oder **[!UICONTROL Bild]**.
+1. Wählen Sie das Feld aus, das Sie generieren möchten: **[!UICONTROL Titel]**, **[!UICONTROL Untertitel]**, **[!UICONTROL Nachricht]** und/oder **[!UICONTROL Bild]**.
 
 1. Passen Sie Ihren Prompt mit der Option **[!UICONTROL Texteinstellungen]** an:
 
@@ -61,9 +61,15 @@ Im folgenden Beispiel wird der KI-Assistent verwendet, um mit einer überzeugend
 
    Zuvor hochgeladene Dateien sind in der Dropdown-Liste **[!UICONTROL Hochgeladene Marken-Assets]** verfügbar. Aktivieren Sie die Assets, die in den Generierungsprozess einbezogen werden sollen.
 
-1. Wenn der Prompt fertig ist, klicken Sie auf **[!UICONTROL Generieren]**.
+1. Wenn das Prompt fertig ist, klicken Sie auf **[!UICONTROL Generieren]**.
 
-1. Durchsuchen Sie die generierten **[!UICONTROL Varianten]** und klicken Sie auf **[!UICONTROL Vorschau]**, um eine Vollbildversion der ausgewählten Variante anzuzeigen.
+1. Durchsuchen Sie die generierten **[!UICONTROL Varianten]** und klicken Sie auf **[!UICONTROL Vorschau]**, um eine Vollbildversion der ausgewählten Variante anzuzeigen, oder **[!UICONTROL Anwenden]**, um Ihren aktuellen Inhalt zu ersetzen.
+
+1. Klicken Sie auf das Prozentsymbol, um Ihre **[!UICONTROL Markenausrichtungsbewertung]** anzuzeigen und Abweichungen von Ihrer Marke zu identifizieren.
+
+   Weitere Informationen finden Sie unter [Bewertung der Markenausrichtung](../content/brands-score.md).
+
+   ![](assets/push-genai-6.png){zoomable="yes"}
 
 1. Navigieren Sie im Fenster **[!UICONTROL Vorschau]** zur Option **[!UICONTROL Verfeinern]**, um auf zusätzliche Anpassungsfunktionen zuzugreifen:
 
@@ -75,10 +81,10 @@ Im folgenden Beispiel wird der KI-Assistent verwendet, um mit einer überzeugend
 
    ![Screenshot mit Verfeinerungsoptionen](assets/push-genai-5.png){zoomable="yes"}
 
+1. Öffnen Sie die Registerkarte **[!UICONTROL Markenausrichtung]**, um zu sehen, wie Ihr Inhalt mit Ihren [Markenrichtlinien](../content/brands.md) abgestimmt ist.
+
 1. Klicken Sie auf **[!UICONTROL Auswählen]**, sobald Sie den passenden Inhalt gefunden haben.
 
 1. Fügen Sie Personalisierungsfelder ein, um Ihre E-Mail-Inhalte auf der Grundlage von Profildaten anzupassen. Klicken Sie danach auf die Schaltfläche **[!UICONTROL Inhalte simulieren]**, um das Rendern zu steuern, und überprüfen Sie die Personalisierungseinstellungen mit Testprofilen. [Weitere Informationen](../preview-test/preview-content.md)
-
-   ![Screenshot mit der Schaltfläche „Inhalte simulieren“](assets/push-genai-6.png){zoomable="yes"}
 
 Bereiten Sie den Push-Versand vor, wenn Sie Inhalt, Zielgruppe und Zeitplan definieren. [Weitere Informationen](../monitor/prepare-send.md)

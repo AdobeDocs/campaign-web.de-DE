@@ -2,21 +2,19 @@
 audience: end-user
 title: Markenausrichtung
 description: Erfahren Sie, wie Sie markenkonforme Inhalte mithilfe der Markenbewertung erstellen, validieren und verwalten können.
-badge: label="Beta" type="Informative"
 exl-id: 5e65d3f4-6a4e-4390-94ae-e59856f1370d
-source-git-commit: 86c28c023adc7a70ea9d0c47fdd40857e05cb8b7
+source-git-commit: 127c65a466c41e1aba8408aa9cf41c2d89c93801
 workflow-type: tm+mt
-source-wordcount: '247'
+source-wordcount: '226'
 ht-degree: 100%
 
 ---
 
-# Markenausrichtung (Beta){#brands-score}
+# Markenausrichtung {#brands-score}
 
 >[!AVAILABILITY]
 >
->Diese Funktion wird als private Betaversion veröffentlicht. Sie wird in zukünftigen Versionen nach und nach allen Kundinnen und Kunden zur Verfügung stehen.
->>Sie müssen einer [Benutzervereinbarung](https://www.adobe.com/de/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} zustimmen, bevor Sie den KI-Assistenten verwenden können. Weitere Informationen erhalten Sie beim Adobe-Support.
+>Sie müssen einer [Benutzervereinbarung](https://www.adobe.com/de/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} zustimmen, bevor Sie den KI-Assistenten verwenden können. Weitere Informationen erhalten Sie beim Adobe-Support.
 
 Die Funktion „Markenausrichtung“ soll Ihnen dabei helfen, Inhalte zu erstellen, zu überprüfen und zu verwalten, die Ihren Markenrichtlinien entsprechen. Dies sorgt für Konsistenz in Ton, Messaging und visueller Identität in all Ihren E-Mail-Kampagnen und dient gleichzeitig als Qualitätsprüfung vor der Live-Schaltung Ihres Inhalts.
 
