@@ -4,9 +4,9 @@ title: Landingpage mit dem KI-Assistenten
 description: Erste Schritte mit dem KI-Assistenten
 exl-id: f4baa23f-f289-4837-b5b3-c479eaeff86c
 source-git-commit: 127c65a466c41e1aba8408aa9cf41c2d89c93801
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1595'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 86%
 >[!IMPORTANT]
 >
 >Bevor Sie mit der Verwendung dieser Funktion beginnen, lesen Sie die entsprechenden Informationen unter [Schutzmechanismen und Einschränkungen](generative-gs.md#generative-guardrails).
->&#x200B;></br>
+>></br>
 >
 >Sie müssen einer [Benutzervereinbarung](https://www.adobe.com/de/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) zustimmen, bevor Sie den KI-Assistenten in Adobe Campaign Web verwenden können. Weitere Informationen erhalten Sie beim Adobe-Support.
 
@@ -70,11 +70,11 @@ Im folgenden Beispiel erfahren Sie, wie Sie mit dem KI-Assistenten eine vorhande
 
 1. Wenn das Prompt fertig ist, klicken Sie auf **[!UICONTROL Generieren]**.
 
-1. Durchsuchen Sie die generierten **[!UICONTROL Varianten]** und klicken Sie auf **[!UICONTROL Vorschau]**, um eine Vollbildversion der ausgewählten Variante anzuzeigen, oder **[!UICONTROL Anwenden]**, um Ihren aktuellen Inhalt zu ersetzen.
+1. Durchsuchen Sie die generierten **[!UICONTROL Varianten]** und klicken Sie auf **[!UICONTROL Vorschau]**, um eine Vollbildversion der ausgewählten Variante anzuzeigen, oder auf **[!UICONTROL Anwenden]**, um Ihren aktuellen Inhalt zu ersetzen.
 
-1. Klicken Sie auf das Prozentsymbol, um Ihre **[!UICONTROL Markenausrichtungsbewertung]** anzuzeigen und Abweichungen von Ihrer Marke zu identifizieren.
+1. Klicken Sie auf das Prozentsymbol, um den **[!UICONTROL Markenausrichtungswert]** anzuzeigen und Abweichungen von Ihrer Marke zu ermitteln.
 
-   Weitere Informationen finden Sie unter [Bewertung der Markenausrichtung](../content/brands-score.md).
+   Weitere Informationen finden Sie unter [Markenausrichtungswert](../content/brands-score.md).
 
    ![](assets/lp_full_gen_5.png){zoomable="yes"}
 
@@ -87,7 +87,7 @@ Im folgenden Beispiel erfahren Sie, wie Sie mit dem KI-Assistenten eine vorhande
 
    ![Screenshot mit den Verfeinerungsoptionen](assets/lp_full_gen_6.png){zoomable="yes"}
 
-1. Öffnen Sie die Registerkarte **[!UICONTROL Markenausrichtung]**, um zu sehen, wie Ihr Inhalt mit Ihren [Markenrichtlinien](../content/brands.md) abgestimmt ist.
+1. Öffnen Sie die Registerkarte **[!UICONTROL Markenausrichtung]**, um die Übereinstimmung Ihres Inhalts mit den [Markenrichtlinien](../content/brands.md) anzuzeigen.
 
 1. Klicken Sie auf **[!UICONTROL Auswählen]**, sobald Sie den passenden Inhalt gefunden haben.
 
@@ -131,11 +131,11 @@ Im folgenden Beispiel erfahren Sie, wie Sie mit dem KI-Assistenten den Inhalt Ih
 
 1. Wenn das Prompt fertig ist, klicken Sie auf **[!UICONTROL Generieren]**.
 
-1. Durchsuchen Sie die generierten **[!UICONTROL Varianten]** und klicken Sie auf **[!UICONTROL Vorschau]**, um eine Vollbildversion der ausgewählten Variante anzuzeigen, oder **[!UICONTROL Anwenden]**, um Ihren aktuellen Inhalt zu ersetzen.
+1. Durchsuchen Sie die generierten **[!UICONTROL Varianten]** und klicken Sie auf **[!UICONTROL Vorschau]**, um eine Vollbildversion der ausgewählten Variante anzuzeigen, oder auf **[!UICONTROL Anwenden]**, um Ihren aktuellen Inhalt zu ersetzen.
 
-1. Klicken Sie auf das Prozentsymbol, um Ihre **[!UICONTROL Markenausrichtungsbewertung]** anzuzeigen und Abweichungen von Ihrer Marke zu identifizieren.
+1. Klicken Sie auf das Prozentsymbol, um den **[!UICONTROL Markenausrichtungswert]** anzuzeigen und Abweichungen von Ihrer Marke zu ermitteln.
 
-   Weitere Informationen finden Sie unter [Bewertung der Markenausrichtung](../content/brands-score.md).
+   Weitere Informationen finden Sie unter [Markenausrichtungswert](../content/brands-score.md).
 
    ![Screenshot mit dem Menü „Marken-Assets“](assets/lp-text-genai-4.png){zoomable="yes"}
 
@@ -151,7 +151,7 @@ Im folgenden Beispiel erfahren Sie, wie Sie mit dem KI-Assistenten den Inhalt Ih
 
    ![Screenshot mit den Verfeinerungsoptionen](assets/lp-text-genai-5.png){zoomable="yes"}
 
-1. Öffnen Sie die Registerkarte **[!UICONTROL Markenausrichtung]**, um zu sehen, wie Ihr Inhalt mit Ihren [Markenrichtlinien](../content/brands.md) abgestimmt ist.
+1. Öffnen Sie die Registerkarte **[!UICONTROL Markenausrichtung]**, um die Übereinstimmung Ihres Inhalts mit den [Markenrichtlinien](../content/brands.md) anzuzeigen.
 
 1. Klicken Sie auf **[!UICONTROL Auswählen]**, sobald Sie den passenden Inhalt gefunden haben.
 
@@ -198,17 +198,17 @@ Im folgenden Beispiel erfahren Sie, wie Sie den KI-Assistenten nutzen können, u
 
 1. Sobald Sie mit der Konfiguration des Prompts zufrieden sind, klicken Sie auf **[!UICONTROL Generieren]**.
 
-1. Durchsuchen Sie die generierten **[!UICONTROL Varianten]** und klicken Sie auf **[!UICONTROL Vorschau]**, um eine Vollbildversion der ausgewählten Variante anzuzeigen, oder **[!UICONTROL Anwenden]**, um Ihren aktuellen Inhalt zu ersetzen.
+1. Durchsuchen Sie die generierten **[!UICONTROL Varianten]** und klicken Sie auf **[!UICONTROL Vorschau]**, um eine Vollbildversion der ausgewählten Variante anzuzeigen, oder auf **[!UICONTROL Anwenden]**, um Ihren aktuellen Inhalt zu ersetzen.
 
-1. Klicken Sie auf das Prozentsymbol, um Ihre **[!UICONTROL Markenausrichtungsbewertung]** anzuzeigen und Abweichungen von Ihrer Marke zu identifizieren.
+1. Klicken Sie auf das Prozentsymbol, um den **[!UICONTROL Markenausrichtungswert]** anzuzeigen und Abweichungen von Ihrer Marke zu ermitteln.
 
-   Weitere Informationen finden Sie unter [Bewertung der Markenausrichtung](../content/brands-score.md).
+   Weitere Informationen finden Sie unter [Markenausrichtungswert](../content/brands-score.md).
 
    ![Screenshot mit dem Menü „Marken-Assets“](assets/lp-image-gen-4.png){zoomable="yes"}
 
-1. Wählen **[!UICONTROL im Fenster]** Vorschau **[!UICONTROL „Ähnliche generieren]** aus, wenn Sie verwandte Bilder für diese Variante anzeigen möchten.
+1. Wählen Sie im Fenster **[!UICONTROL Vorschau]** die Option **[!UICONTROL Ähnliche generieren]** aus, wenn Sie dieser Variante ähnliche Bilder anzeigen möchten.
 
-1. Öffnen Sie die Registerkarte **[!UICONTROL Markenausrichtung]**, um zu sehen, wie Ihr Inhalt mit Ihren [Markenrichtlinien](../content/brands.md) abgestimmt ist.
+1. Öffnen Sie die Registerkarte **[!UICONTROL Markenausrichtung]**, um die Übereinstimmung Ihres Inhalts mit den [Markenrichtlinien](../content/brands.md) anzuzeigen.
 
 1. Klicken Sie auf **[!UICONTROL Auswählen]**, sobald Sie den passenden Inhalt gefunden haben.
 

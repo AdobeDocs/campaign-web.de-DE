@@ -3,9 +3,9 @@ title: Versionshinweise zur Web-Benutzeroberfläche von Campaign v8
 description: Entdecken Sie die neuen Funktionen der neuesten Version der Campaign Web-Benutzeroberfläche
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 source-git-commit: 127c65a466c41e1aba8408aa9cf41c2d89c93801
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '900'
-ht-degree: 61%
+ht-degree: 100%
 
 ---
 
@@ -18,13 +18,13 @@ ht-degree: 61%
 
 Die Versionen der Adobe Campaign Web-Benutzeroberfläche basieren auf einem kontinuierlichen Bereitstellungsmodell, das einen besser skalierbaren, schrittweisen Ansatz für die Implementierung von Funktionen ermöglicht. Dementsprechend werden diese Versionshinweise mehrmals im Monat aktualisiert. Sie sollten daher regelmäßig nachschauen.
 
-Änderungen und Verbesserungen, die mit früheren Versionen verfügbar sind, sind auf den Seiten [2024](release-notes-24.md) und [2025](release-notes-25.md) aufgeführt.
+Änderungen und Verbesserungen, die in früheren Versionen verfügbar sind, sind auf den Seiten für [2024](release-notes-24.md) und [2025](release-notes-25.md) aufgeführt.
 
-## Version Juli &#39;25 {#25-7-release}
+## Version Juli 2025 {#25-7-release}
 
 ### Neue Funktionen {#25-7-features}
 
-Die folgenden Funktionen sind ab Juli verfügbar.
+Die folgenden Funktionen sind ab der Version Juli verfügbar.
 
 <!--table>
 <thead>
@@ -37,7 +37,7 @@ Die folgenden Funktionen sind ab Juli verfügbar.
 <td>
 <p>You can now send multiple email and SMS deliveries in different languages in Adobe Campaign Web UI. The multilingual delivery feature allows you to choose the default language of your delivery as well as the different languages in which the delivery can be sent. You can also preview these deliveries in the languages you have chosen.
 </p>
-<p>For Multilingual email, your server must be upgraded to 8.8.1 minimum. Refer to the Client Console <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=de" target="_blank">release notes</a>.
+<p>For Multilingual email, your server must be upgraded to 8.8.1 minimum. Refer to the Client Console <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html" target="_blank">release notes</a>.
 <p>For more information, refer to the <a href="../email/edit-content.md#multilingual-delivery">detailed documentation</a>.</p>
 </td>
 </tr>
@@ -63,13 +63,13 @@ Die folgenden Funktionen sind ab Juli verfügbar.
 <table>
 <thead>
 <tr>
-<th><strong>Unterstützung von benutzerdefiniertem CSS in der E-Mail-Designer</strong><br/></th>
+<th><strong>Unterstützung von benutzerdefiniertem CSS im E-Mail-Designer</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Beim Entwerfen Ihrer E-Mails können Sie jetzt Ihr eigenes benutzerdefiniertes CSS direkt in der E-Mail-Designer hinzufügen. Mit dieser Funktion können Sie erweiterte und spezifische Stile anwenden, um die Flexibilität und Kontrolle über das Erscheinungsbild Ihrer Inhalte zu erhöhen.</p>
+<p>Beim Erstellen Ihrer E-Mails können Sie nun Ihr eigenes benutzerdefiniertes CSS direkt im E-Mail-Designer hinzufügen. Mit dieser Funktion können Sie erweiterte und spezifische Stile anwenden, um die Flexibilität und Kontrolle über das Erscheinungsbild Ihrer Inhalte zu erhöhen.</p>
 <p>Weitere Informationen finden Sie in der <a href="../email/custom-css.md">entsprechenden Dokumentation</a>.</p>
 </td>
 </tr>
@@ -85,7 +85,7 @@ Die folgenden Funktionen sind ab Juli verfügbar.
 <tbody>
 <tr>
 <td>
-<p>Sie können jetzt Ihre eigenen Marken erstellen und anpassen, um Ihre visuelle und verbale Identität in der gesamten Kommunikation klar zu definieren. Mit der Bewertung zur Markenausrichtung erhalten Sie Echtzeit-Feedback dazu, wie gut Ihr Inhalt den Ton, den Stil und die Richtlinien Ihrer Marke widerspiegelt. So bleiben Sie mit jeder gesendeten Nachricht konsequent auf dem Laufenden.
+<p>Sie können nun Ihre eigenen Marken erstellen und anpassen, um Ihre visuelle und verbale Identität in der gesamten Kommunikation klar zu definieren. Über den Markenausrichtungswert erhalten Sie Echtzeit-Feedback dazu, wie gut Ihr Inhalt den Ton, den Stil und die Richtlinien Ihrer Marke widerspiegelt. So können Sie sicherstellen, dass jede gesendete Nachricht markenkonform ist.
 </p>
 <p>Weitere Informationen finden Sie in der <a href="../content/brands.md">entsprechenden Dokumentation</a>.</p>
 </td>
@@ -137,14 +137,14 @@ Die folgenden Funktionen sind ab Juli verfügbar.
 <table>
 <thead>
 <tr>
-<th><strong>Dynamische Berichterstellung</strong><br/></th>
+<th><strong>Dynamisches Reporting</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Sie können jetzt auf das dynamische Reporting zugreifen, das vollständig anpassbare Echtzeitberichte zur Messung der Wirkung Ihrer Marketing-Aktivitäten bereitstellt. Dadurch kann auf Profildaten zugegriffen werden, was die demografische Analyse nach Profildimensionen wie Geschlecht, Ort und Alter ermöglicht, zusätzlich zur Analyse basierend auf Daten von E-Mail-Kampagnen wie Öffnungen und Klicks. Dynamische Berichte sind auch für mehrsprachige E-Mail-Sendungen und Transaktionsnachrichten verfügbar.</p>
-<p>Diese Funktion ist nur bei Bedarf verfügbar. Wenden Sie sich an Ihren Adobe-Support-Mitarbeiter, um Zugriff zu erhalten. Ihr Server muss ein Upgrade auf mindestens 8.8.1 erhalten. Weitere Informationen finden Sie in den <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=de" target="_blank">Versionshinweisen</a> zur Client-Konsole.
+<p>Sie können nun auf dynamisches Reporting zugreifen, das vollständig anpassbare Berichte und Echtzeitberichte zum Messen der Wirkung Ihrer Marketing-Aktivitäten bietet. Dadurch kann auf Profildaten zugegriffen werden, was die demografische Analyse nach Profildimensionen wie Geschlecht, Ort und Alter ermöglicht, zusätzlich zur Analyse basierend auf Daten von E-Mail-Kampagnen wie Öffnungen und Klicks. Dynamische Berichte sind auch für mehrsprachige E-Mail-Sendungen und Transaktionsnachrichten verfügbar.</p>
+<p>Diese Funktion ist nur auf Anfrage verfügbar. Wenden Sie sich für Zugriff an den Adobe-Support. Ihr Server muss mindestens auf 8.8.1 aktualisiert sein. Weitere Informationen finden Sie in den <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=de" target="_blank">Versionshinweisen</a> zur Client-Konsole.
 <p>Weitere Informationen finden Sie in der <a href="../reporting/dynamic-reporting/get-started-reporting.md">entsprechenden Dokumentation</a>.</p>
 </td>
 </tr>
@@ -154,14 +154,14 @@ Die folgenden Funktionen sind ab Juli verfügbar.
 <table>
 <thead>
 <tr>
-<th><strong>Zentrales Branding</strong><br/></th>
+<th><strong>Zentralisiertes Branding</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Ihre technischen Admins können jetzt eine oder mehrere Marken definieren, um die Parameter, die die Identität einer Marke beeinflussen, zu zentralisieren. das Logo der Marke, die Domain der Zugangs-URL zu den Landingpages, Einstellungen zum Nachrichten-Tracking. Sie können diese Marken erstellen und mit verschiedenen Nachrichten oder Landingpages verknüpfen. Diese Konfiguration wird in Vorlagen verwaltet. Branding-Optionen sind für alle Kanäle verfügbar, einschließlich SMS und Briefpost.</p>
-<p>Diese Funktion ist nur bei Bedarf für neue Implementierungen verfügbar. Wenden Sie sich an Ihren Adobe-Support-Mitarbeiter, um Zugriff zu erhalten. Ihr Server muss ein Upgrade auf mindestens 8.8.1 erhalten. Weitere Informationen finden Sie in den <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=de" target="_blank">Versionshinweisen</a> zur Client-Konsole.
+<p>Ihre technischen Admins können nun eine oder mehrere Marken definieren, um die Parameter zu zentralisieren, die sich auf die Markenidentität auswirken. das Logo der Marke, die Domain der Zugangs-URL zu den Landingpages, Einstellungen zum Nachrichten-Tracking. Sie können diese Marken erstellen und mit verschiedenen Nachrichten oder Landingpages verknüpfen. Diese Konfiguration wird in Vorlagen verwaltet. Branding-Optionen sind für alle Kanäle verfügbar, einschließlich SMS und Briefpost.</p>
+<p>Diese Funktion ist nur auf Anfrage und nur für neue Implementierungen verfügbar. Wenden Sie sich für Zugriff an den Adobe-Support. Ihr Server muss mindestens auf 8.8.1 aktualisiert sein. Weitere Informationen finden Sie in den <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=de" target="_blank">Versionshinweisen</a> zur Client-Konsole.
 <p>Weitere Informationen finden Sie in der <a href="../administration/branding/branding-gs.md">entsprechenden Dokumentation</a>.</p>
 </td>
 </tr>
@@ -170,8 +170,8 @@ Die folgenden Funktionen sind ab Juli verfügbar.
 
 Zusätzlich zu den oben aufgeführten Funktionen bietet diese Version auch eine Reihe von Funktionen, die in der Client-Konsole verfügbar sind:
 
-* [Neuer SMS-Versand-Connector](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/sms.html?lang=de) (FDA-Umgebungen)
-* [Rest-APIs](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=de) (On-Demand, FDA-Umgebungen)
+* [Neuer Connector für den SMS-Versand](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/sms.html?lang=de) (FDA-Umgebungen)
+* [Rest-APIs](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=de) (nach Bedarf, FDA-Umgebungen)
 
 Weitere Informationen finden Sie in den [Versionshinweisen](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=de){target="_blank"} zur Client-Konsole.
 
@@ -181,14 +181,14 @@ Weitere Informationen finden Sie in den [Versionshinweisen](https://experiencele
 
 >[!AVAILABILITY]
 >
->To benefit from these updates, your server must be upgrated to 8.8.1 mininum. Refer to the Client Console [release notes](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=de){target="_blank"}.
+>To benefit from these updates, your server must be upgrated to 8.8.1 mininum. Refer to the Client Console [release notes](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html){target="_blank"}.
 
 Previously released in Limited Availability, the following capabilities are now available to all environments (General Availability):
 
 * **Multilingual delivery creation** - You can now send multiple email deliveries in different languages in Adobe Campaign Web User Interface. The Multilingual delivery feature allows you to choose the default language of your delivery as well as the different languages in which the delivery can be sent. You can also preview these deliveries in the languages you have chosen. [Read more](../email/edit-content.md#multilingual-delivery).
 
 
-* **Visual fragments** - You can now create, use and archive content fragments. Visual fragments are pre-defined visual blocks that you can reuse across multiple email deliveries, or in content templates. [Learn more](https://experienceleague.adobe.com/docs/campaign-web/v8/content/manage-reusable-content/fragments/fragments.html?lang=de){target="_blank"}
+* **Visual fragments** - You can now create, use and archive content fragments. Visual fragments are pre-defined visual blocks that you can reuse across multiple email deliveries, or in content templates. [Learn more](https://experienceleague.adobe.com/docs/campaign-web/v8/content/manage-reusable-content/fragments/fragments.html){target="_blank"}
 
 * **Delivery alerting** - The Delivery alerting feature is an alert management system that enables a group of users to automatically receive notifications containing information on the execution of their deliveries. [Read more](../msg/delivery-alerting.md)
 
@@ -215,24 +215,24 @@ Previously released in Limited Availability, the following capabilities are now 
 
 In addition to the features listed above, this release also comes with a set of functionalities available in the Client Console:
 
-* [New SMS sending connector](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/sms.html?lang=de) (FDA environments)
-* [Rest APIs](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=de) (on demand, FDA environments)
+* [New SMS sending connector](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/sms.html) (FDA environments)
+* [Rest APIs](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html) (on demand, FDA environments)
 
-Refer to the Client Console [release notes](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=de){target="_blank"}.
+Refer to the Client Console [release notes](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html){target="_blank"}.
 
 -->
 
 ### Verbesserungen {#25-7-improvements}
 
-* Sie können jetzt die Zielpopulation direkt für jede Bedingung und Gruppe im Regel-Builder berechnen. Klicken Sie auf die Ergebnisnummer, um die detaillierte Liste der Datensätze anzuzeigen. [Weitere Informationen](../query/build-query.md#validate-query)
+* Sie können jetzt die Zielpopulation direkt für jede Bedingung und Gruppe im Regel-Builder berechnen. Klicken Sie auf die Ergebnisnummer, um die detaillierte Liste der Einträge anzuzeigen. [Weitere Informationen](../query/build-query.md#validate-query)
 
 * Sie können jetzt einen vordefinierten Filter direkt im Regel-Builder bearbeiten oder löschen. [Weitere Informationen](../get-started/predefined-filters.md#manage-predefined-filter)
 
-* Beim Konfigurieren eines SMS-Versands haben Sie im **SMS**-Abschnitt jetzt Zugriff auf die **Optionalen SMPP-Parameter (TLV)**. Dieser Parameter entspricht dem Parameter in der Client-Konsole. [Weitere Informationen](../advanced-settings/delivery-settings.md#sms-tab)
+* Beim Konfigurieren eines SMS-Versands haben Sie jetzt im Abschnitt **SMS** Zugriff auf die **optionalen SMPP-Parameter (TLV)**. Dieser Parameter entspricht dem Parameter in der Client-Konsole. [Weitere Informationen](../advanced-settings/delivery-settings.md#sms-tab)
 
-* Sie können jetzt Hintergrundbenachrichtigungen für iOS mit der neuen Option **Inhalt verfügbar** aktivieren, die im Abschnitt **Erweiterte Einstellungen** des Bildschirms zur Inhaltsbearbeitung von iOS verfügbar ist. Dadurch wird das `content-available:1`-Flag in der `aps` Payload hinzugefügt. Weitere Informationen [auf dieser Seite](../push/content-push.md). Siehe auch [diese Seite](../push/rich-push-ios.md)
+* Sie können jetzt Hintergrundbenachrichtigungen für iOS mit der neuen Option **Inhalt verfügbar** aktivieren, die im Abschnitt **Erweiterte Einstellungen** des Bildschirms zur iOS-Inhaltsbearbeitung verfügbar ist. Dadurch wird die Markierung `content-available:1` in der `aps`-Payload hinzugefügt. Weitere Informationen finden Sie [auf dieser Seite](../push/content-push.md). Siehe auch [diese Seite](../push/rich-push-ios.md)
 
-* Die folgenden Verbesserungen bei Landingpages sind jetzt verfügbar:
+* Die folgenden Verbesserungen für Landingpages sind jetzt verfügbar:
 
    * Sie können nun beim Konfigurieren eines Dienstes auf eine standardmäßige Landingpage zur An-/Abmeldung verweisen. Wenn Sie bei der Erstellung einer E-Mail einen Link zu dieser Landingpage definieren, werden die Benutzenden, die das Landingpage-Formular senden, automatisch für diesen Dienst angemeldet bzw. von ihm abgemeldet. [Weitere Informationen](../audience/manage-services.md#create-service)
    * Eine neue Option in der Landingpage-Konfiguration ermöglicht anonymen Besuchenden, auf die Landingpage zuzugreifen. Wenn Sie diese Option deaktivieren, können nur identifizierte Benutzende auf das Formular zugreifen und dieses absenden. [Weitere Informationen](../landing-pages/create-lp.md#create-landing-page)

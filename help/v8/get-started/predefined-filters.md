@@ -3,9 +3,9 @@ title: Arbeiten mit vordefinierten Filtern
 description: Erfahren Sie, wie Sie in Adobe Campaign Web vordefinierte Filter erstellen und verwalten
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
 source-git-commit: 3136381c92a19a7b918372868fb3c242cb312ec1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '832'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -131,7 +131,7 @@ Von dieser Liste ausgehend können Sie einen neuen Filter erstellen wie oben bes
 * einen vordefinierten Filter duplizieren
 * einen vordefinierten Filter löschen
 
-Sie können einen vordefinierten Filter auch direkt im Regel-Builder bearbeiten oder löschen. Verwenden Sie im vordefinierten Filterauswahlfenster die Schaltfläche **Mehr Aktionen**. Sie können den Filter löschen oder bearbeiten. Sie können die Bezeichnung ändern, eine Beschreibung hinzufügen und sie als Favorit hinzufügen.
+Sie können einen vordefinierten Filter auch direkt im Regel-Builder bearbeiten oder löschen. Verwenden Sie im Auswahlfenster für vordefinierte Filter die Schaltfläche **Mehr Aktionen**. Sie können den Filter löschen oder bearbeiten. Sie können das Label ändern, eine Beschreibung hinzufügen und ihn zu den Favoriten hinzufügen.
 
 ![Bearbeitung vordefinierter Filter](assets/filter-edit.png){zoomable="yes"}
 

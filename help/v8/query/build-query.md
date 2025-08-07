@@ -4,9 +4,9 @@ title: Erstellen Ihrer erste Abfrage mithilfe des Abfrage-Modelers
 description: Erfahren Sie, wie Sie Ihre erste Abfrage im Abfrage-Modeler in Adobe Campaign Web erstellen.
 exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
 source-git-commit: 6a2bc8f2c36db04c466ed51a96e281156b224d48
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2921'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ Um mit der Erstellung einer Abfrage zu beginnen, greifen Sie je nach der Aktion,
 >[!IMPORTANT]
 >
 >Eine brandneue Benutzeroberfläche für den Abfrage-Modeler ist verfügbar. Mit dem neuen Regel-Builder können Sie Ihre Abfrage dank der vereinfachten und intuitiven Benutzeroberfläche leichter erstellen. Um zu diesem Erlebnis zu wechseln, klicken Sie auf den Umschalter in der oberen rechten Ecke. Sie können jederzeit zum klassischen Abfrage-Modeler zurückkehren, indem Sie einfach auf den Umschalter klicken, um die neue Benutzeroberfläche zu deaktivieren. Sie können in dieser neuen Benutzeroberfläche dieselben Prinzipien wie beim Abfrage-Modeler anwenden.
->&#x200B;>![Bild, das den Umschalter für die neue Benutzeroberfläche des Regel-Builders zeigt](assets/query-modeler-toggle.png){zoomable="yes"}
+>>![Bild, das den Umschalter für die neue Benutzeroberfläche des Regel-Builders zeigt](assets/query-modeler-toggle.png){zoomable="yes"}
 
 Sie können zwei Elementtypen hinzufügen:
 
@@ -70,7 +70,7 @@ Um auf diese Option zuzugreifen, klicken Sie in Ihrer Abfrage auf die Schaltflä
 >
 >* Bei Feldern mit vielen Werten werden nur die ersten zwanzig Werte angezeigt. In solchen Fällen werden Sie durch die Benachrichtigung **[!UICONTROL Teilweise geladen]** gewarnt.
 >* Die Option **[!UICONTROL Werteverteilung]** ist in jeder Attributauswahl verfügbar. [Erfahren Sie, wie Sie Attribute auswählen](../get-started/attributes.md)
->* Mithilfe der **[ !Aerweiterten Filter]** können Sie Bedingungen zu den Ergebnissen hinzufügen. [Weitere Informationen finden Sie hier](../get-started/work-with-folders.md#filter-the-values).
+>* Mithilfe der **[!Aerweiterten Filter]** können Sie Bedingungen zu den Ergebnissen hinzufügen. [Weitere Informationen finden Sie hier](../get-started/work-with-folders.md#filter-the-values).
 
 ## Hinzufügen von Filterkomponenten {#filtering}
 
@@ -122,7 +122,7 @@ Gehen Sie wie folgt vor, um Ihre Abfrage mit einer benutzerdefinierten Bedingung
    | Ist wie | Dieser Operator ähnelt „Enthält“ und erlaubt das Einfügen des Platzhalters „%“ im Wert. | Nachname (@lastName) ist wie &#39;Me%er&#39;. Das Platzhalterzeichen dient als „Joker“, um Namen wie „Meier“ zu finden. |
    | Ist nicht wie | Dieser Operator ähnelt „Enthält“ und erlaubt das Einfügen des Platzhalters „%“ im Wert. | Nachname (@lastName) nicht wie „Schmi%t“. Empfängerinnen und Empfänger, deren Nachname „Schmi%t“ lautet, also etwa „Schmidt“ oder „Schmitt“, werden nicht ausgegeben. |
 
-   +++
++++
 
 1. Legen Sie im Feld **Wert** den erwarteten Wert fest. Sie können auch den Campaign Web-Ausdruckseditor verwenden, um einen Ausdruck mithilfe von Feldern aus der Datenbank und Hilfsfunktionen manuell zu definieren. Klicken Sie dazu auf die Schaltfläche **Ausdruck bearbeiten**. [Erfahren Sie, wie Sie Ausdrücke bearbeiten](expression-editor.md)
 
@@ -408,10 +408,10 @@ Nachdem Sie Ihre Abfrage auf der Arbeitsfläche erstellt haben, können Sie sie 
   >
   >Wählen Sie im Bereich mit den Regeleigenschaften einen vordefinierten Filter aus, um die in der Arbeitsfläche erstellte Abfrage durch den ausgewählten Filter zu ersetzen.
 
-Bei Verwendung des neuen Erlebnisses im Regel-Builder können Sie die Zielpopulation direkt für jede Bedingung und Gruppe anzeigen:
+Bei Verwendung des neuen Regel-Builders können Sie die Zielpopulation direkt für jede Bedingung und Gruppe anzeigen:
 
-* Klicken Sie auf **Symbol „Bedingung berechnen** der gewünschten Bedingung oder Gruppe, um die Anzahl der Datensätze zu berechnen und anzuzeigen, auf die Ihre Abfrage abzielt.
-* Klicken Sie auf die Ergebnisnummer, um die detaillierte Liste der Datensätze anzuzeigen.
+* Klicken Sie auf das Symbol **Bedingung berechnen** der gewünschten Bedingung oder Gruppe, um die Anzahl der auf Ihre Abfrage passenden Einträge zu berechnen und anzuzeigen.
+* Klicken Sie auf die Ergebnisnummer, um die detaillierte Liste der Einträge anzuzeigen.
 
 ![Population und Ergebnisanzeige](assets/ruleb-11bis.png){zoomable="yes"}
 

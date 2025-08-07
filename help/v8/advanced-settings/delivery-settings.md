@@ -5,9 +5,9 @@ description: Erfahren Sie, wie Sie Versandeinstellungen in Campaign Web konfigur
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 source-git-commit: 49457bf8d6ac292ad20df28867c0eefc92e26dea
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3449'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -342,7 +342,7 @@ SMS-Versandparameter sind technische Einstellungen, die für Ihren SMS-Versand g
 
 * **[!UICONTROL Optionale SMPP-Parameter (TLV)]**
 
-  Sie können zusätzliche Felder als optionale SMPP-Parameter (TLV) angeben. Diese zusätzlichen Felder werden mit jedem MT gesendet und personalisierte Felder ermöglichen es, unterschiedliche Werte für jeden MT zu haben.
+  Sie können zusätzliche Felder angeben, die als optionale SMPP-Parameter (TLV) gesendet werden sollen. Diese zusätzlichen Felder werden mit jedem MT gesendet und personalisierte Felder ermöglichen es, unterschiedliche Werte für jeden MT zu haben.
 Die Tabelle enthält optionale Parameter, die mit jeder Nachricht gesendet werden können. Spalten enthalten die folgenden Informationen:
 
    * **Titel**: Dies ist ein optionaler, frei formulierter Titel. Er wird nicht an den Provider übermittelt. Sie können eine Textbeschreibung des Parameters angeben.
@@ -400,7 +400,7 @@ Diese beiden Felder können wie in [diesem Abschnitt](../personalization/gs-pers
 
 Auf der Registerkarte „SMTP“ der Versandeinstellungen können Sie Ihrem E-Mail-Versand **[!UICONTROL SMTP-Header]** hinzufügen.
 
-Das in diesem Fenster eingegebene Script muss pro Zeile auf einen einzelnen Header verweisen, und zwar im folgenden Formular: name:value.
+Das in diesem Fenster eingegebene Skript muss pro Zeile einen Header im Format „Name:value“ enthalten.
 
 Werte werden bei Bedarf automatisch verschlüsselt.
 

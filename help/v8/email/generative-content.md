@@ -4,9 +4,9 @@ title: Generative Inhalte
 description: Erste Schritte mit dem KI-Assistenten
 exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
 source-git-commit: 127c65a466c41e1aba8408aa9cf41c2d89c93801
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1624'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 87%
 >[!IMPORTANT]
 >
 >Bevor Sie mit der Verwendung dieser Funktion beginnen, lesen Sie die entsprechenden Informationen unter [Schutzmechanismen und Einschränkungen](generative-gs.md#generative-guardrails).
->&#x200B;></br>
+>></br>
 >
 >Sie müssen einer [Benutzervereinbarung](https://www.adobe.com/de/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} zustimmen, bevor Sie den KI-Assistenten in Adobe Campaign Web verwenden können. Weitere Informationen erhalten Sie beim Adobe-Support.
 
@@ -68,15 +68,15 @@ Im folgenden Beispiel wird der KI-Assistent in Adobe Campaign Web verwendet, um 
 
    Zuvor hochgeladene Dateien sind in der Dropdown-Liste **[!UICONTROL Hochgeladene Marken-Assets]** verfügbar. Aktivieren Sie die Assets, die in den Generierungsprozess einbezogen werden sollen.
 
-   ![Screenshot mit den Optionen für die Markeneinstellungen in Adobe Campaign Web](assets/full-email-3.png){zoomable="yes"}
+   ![Screenshot der Optionen für Markeneinstellungen in Adobe Campaign Web](assets/full-email-3.png){zoomable="yes"}
 
-1. Wenn das Prompt fertig ist, klicken Sie auf **[!UICONTROL Generieren]**.
+1. Wenn der Prompt fertig ist, klicken Sie auf **[!UICONTROL Generieren]**.
 
-1. Durchsuchen Sie die generierten **[!UICONTROL Varianten]** und klicken Sie auf **[!UICONTROL Vorschau]**, um eine Vollbildversion der ausgewählten Variante anzuzeigen, oder **[!UICONTROL Anwenden]**, um Ihren aktuellen Inhalt zu ersetzen.
+1. Durchsuchen Sie die generierten **[!UICONTROL Varianten]** und klicken Sie auf **[!UICONTROL Vorschau]**, um eine Vollbildversion der ausgewählten Variante anzuzeigen, oder auf **[!UICONTROL Anwenden]**, um Ihren aktuellen Inhalt zu ersetzen.
 
-1. Klicken Sie auf das Prozentsymbol, um Ihre **[!UICONTROL Markenausrichtungsbewertung]** anzuzeigen und Abweichungen von Ihrer Marke zu identifizieren.
+1. Klicken Sie auf das Prozentsymbol, um den **[!UICONTROL Markenausrichtungswert]** anzuzeigen und Abweichungen von Ihrer Marke zu ermitteln.
 
-   Weitere Informationen finden Sie unter [Bewertung der Markenausrichtung](../content/brands-score.md).
+   Weitere Informationen finden Sie unter [Markenausrichtungswert](../content/brands-score.md).
 
    ![](assets/full-email-7.png){zoomable="yes"}
 
@@ -89,7 +89,7 @@ Im folgenden Beispiel wird der KI-Assistent in Adobe Campaign Web verwendet, um 
 
    ![Screenshot mit Verfeinerungsoptionen in Adobe Campaign Web](assets/full-email-5.png){zoomable="yes"}
 
-1. Öffnen Sie die Registerkarte **[!UICONTROL Markenausrichtung]**, um zu sehen, wie Ihr Inhalt mit Ihren [Markenrichtlinien](../content/brands.md) abgestimmt ist.
+1. Öffnen Sie die Registerkarte **[!UICONTROL Markenausrichtung]**, um die Übereinstimmung Ihres Inhalts mit den [Markenrichtlinien](../content/brands.md) anzuzeigen.
 
 1. Klicken Sie auf **[!UICONTROL Auswählen]**, sobald Sie den passenden Inhalt gefunden haben.
 
@@ -131,11 +131,11 @@ Im folgenden Beispiel wird der KI-Assistent verwendet, um den Inhalt Ihrer E-Mai
 
 1. Wenn das Prompt fertig ist, klicken Sie auf **[!UICONTROL Generieren]**.
 
-1. Durchsuchen Sie die generierten **[!UICONTROL Varianten]** und klicken Sie auf **[!UICONTROL Vorschau]**, um eine Vollbildversion der ausgewählten Variante anzuzeigen, oder **[!UICONTROL Anwenden]**, um Ihren aktuellen Inhalt zu ersetzen.
+1. Durchsuchen Sie die generierten **[!UICONTROL Varianten]** und klicken Sie auf **[!UICONTROL Vorschau]**, um eine Vollbildversion der ausgewählten Variante anzuzeigen, oder auf **[!UICONTROL Anwenden]**, um Ihren aktuellen Inhalt zu ersetzen.
 
-1. Klicken Sie auf das Prozentsymbol, um Ihre **[!UICONTROL Markenausrichtungsbewertung]** anzuzeigen und Abweichungen von Ihrer Marke zu identifizieren.
+1. Klicken Sie auf das Prozentsymbol, um den **[!UICONTROL Markenausrichtungswert]** anzuzeigen und Abweichungen von Ihrer Marke zu ermitteln.
 
-   Weitere Informationen finden Sie unter [Bewertung der Markenausrichtung](../content/brands-score.md).
+   Weitere Informationen finden Sie unter [Markenausrichtungswert](../content/brands-score.md).
 
    ![](assets/text-genai-6.png){zoomable="yes"}
 
@@ -151,7 +151,7 @@ Im folgenden Beispiel wird der KI-Assistent verwendet, um den Inhalt Ihrer E-Mai
 
    ![Screenshot mit Verfeinerungsoptionen in Adobe Campaign Web](assets/text-genai-5.png){zoomable="yes"}
 
-1. Öffnen Sie die Registerkarte **[!UICONTROL Markenausrichtung]**, um zu sehen, wie Ihr Inhalt mit Ihren [Markenrichtlinien](../content/brands.md) abgestimmt ist.
+1. Öffnen Sie die Registerkarte **[!UICONTROL Markenausrichtung]**, um die Übereinstimmung Ihres Inhalts mit den [Markenrichtlinien](../content/brands.md) anzuzeigen.
 
 1. Klicken Sie auf **[!UICONTROL Auswählen]**, sobald Sie den passenden Inhalt gefunden haben.
 
@@ -200,17 +200,17 @@ Im folgenden Beispiel erfahren Sie, wie Sie den KI-Assistenten nutzen können, u
 
 1. Sobald Sie mit der Konfiguration des Prompts zufrieden sind, klicken Sie auf **[!UICONTROL Generieren]**.
 
-1. Durchsuchen Sie die generierten **[!UICONTROL Varianten]** und klicken Sie auf **[!UICONTROL Vorschau]**, um eine Vollbildversion der ausgewählten Variante anzuzeigen, oder **[!UICONTROL Anwenden]**, um Ihren aktuellen Inhalt zu ersetzen.
+1. Durchsuchen Sie die generierten **[!UICONTROL Varianten]** und klicken Sie auf **[!UICONTROL Vorschau]**, um eine Vollbildversion der ausgewählten Variante anzuzeigen, oder auf **[!UICONTROL Anwenden]**, um Ihren aktuellen Inhalt zu ersetzen.
 
-1. Klicken Sie auf das Prozentsymbol, um Ihre **[!UICONTROL Markenausrichtungsbewertung]** anzuzeigen und Abweichungen von Ihrer Marke zu identifizieren.
+1. Klicken Sie auf das Prozentsymbol, um den **[!UICONTROL Markenausrichtungswert]** anzuzeigen und Abweichungen von Ihrer Marke zu ermitteln.
 
-   Weitere Informationen finden Sie unter [Bewertung der Markenausrichtung](../content/brands-score.md).
+   Weitere Informationen finden Sie unter [Markenausrichtungswert](../content/brands-score.md).
 
    ![](assets/image-genai-3.png){zoomable="yes"}
 
-1. Wählen Sie **[!UICONTROL Ähnliche generieren]** aus, wenn Sie verwandte Bilder zu dieser Variante anzeigen möchten.
+1. Wählen Sie **[!UICONTROL Ähnliche generieren]** aus, wenn Sie dieser Variante ähnliche Bilder anzeigen möchten.
 
-1. Öffnen Sie die Registerkarte **[!UICONTROL Markenausrichtung]**, um zu sehen, wie Ihr Inhalt mit Ihren [Markenrichtlinien](../content/brands.md) abgestimmt ist.
+1. Öffnen Sie die Registerkarte **[!UICONTROL Markenausrichtung]**, um die Übereinstimmung Ihres Inhalts mit den [Markenrichtlinien](../content/brands.md) anzuzeigen.
 
 1. Klicken Sie auf **[!UICONTROL Auswählen]**, sobald Sie den passenden Inhalt gefunden haben.
 

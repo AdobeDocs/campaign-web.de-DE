@@ -4,9 +4,9 @@ title: Push-Benachrichtigungen mit dem KI-Assistenten
 description: Erste Schritte mit dem KI-Assistenten
 exl-id: a361f75d-63c2-4fdc-993c-f8414b18e13e
 source-git-commit: 127c65a466c41e1aba8408aa9cf41c2d89c93801
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '589'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 87%
 >[!IMPORTANT]
 >
 >Bevor Sie mit der Verwendung dieser Funktion beginnen, lesen Sie die entsprechenden Informationen unter [Schutzmechanismen und Einschränkungen](generative-gs.md#generative-guardrails).
->&#x200B;></br>
+>></br>
 >
 >Sie müssen einer [Benutzervereinbarung](https://www.adobe.com/de/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) zustimmen, bevor Sie den KI-Assistenten in Adobe Campaign Web verwenden können. Weitere Informationen erhalten Sie beim Adobe-Support.
 
@@ -39,7 +39,7 @@ Im folgenden Beispiel wird der KI-Assistent verwendet, um mit einer überzeugend
 
    ![Screenshot der Benutzeroberfläche der Prompt-Bibliothek](assets/push-genai-2.png){zoomable="yes"}
 
-1. Wählen Sie das Feld aus, das Sie generieren möchten: **[!UICONTROL Titel]**, **[!UICONTROL Untertitel]**, **[!UICONTROL Nachricht]** und/oder **[!UICONTROL Bild]**.
+1. Wählen Sie das zu generierende Feld aus: **[!UICONTROL Titel]**, **[!UICONTROL Untertitel]**, **[!UICONTROL Nachricht]** und/oder **[!UICONTROL Bild]**.
 
 1. Passen Sie Ihren Prompt mit der Option **[!UICONTROL Texteinstellungen]** an:
 
@@ -61,13 +61,13 @@ Im folgenden Beispiel wird der KI-Assistent verwendet, um mit einer überzeugend
 
    Zuvor hochgeladene Dateien sind in der Dropdown-Liste **[!UICONTROL Hochgeladene Marken-Assets]** verfügbar. Aktivieren Sie die Assets, die in den Generierungsprozess einbezogen werden sollen.
 
-1. Wenn das Prompt fertig ist, klicken Sie auf **[!UICONTROL Generieren]**.
+1. Wenn der Prompt fertig ist, klicken Sie auf **[!UICONTROL Generieren]**.
 
-1. Durchsuchen Sie die generierten **[!UICONTROL Varianten]** und klicken Sie auf **[!UICONTROL Vorschau]**, um eine Vollbildversion der ausgewählten Variante anzuzeigen, oder **[!UICONTROL Anwenden]**, um Ihren aktuellen Inhalt zu ersetzen.
+1. Durchsuchen Sie die generierten **[!UICONTROL Varianten]** und klicken Sie auf **[!UICONTROL Vorschau]**, um eine Vollbildversion der ausgewählten Variante anzuzeigen, oder auf **[!UICONTROL Anwenden]**, um Ihren aktuellen Inhalt zu ersetzen.
 
-1. Klicken Sie auf das Prozentsymbol, um Ihre **[!UICONTROL Markenausrichtungsbewertung]** anzuzeigen und Abweichungen von Ihrer Marke zu identifizieren.
+1. Klicken Sie auf das Prozentsymbol, um den **[!UICONTROL Markenausrichtungswert]** anzuzeigen und Abweichungen von Ihrer Marke zu ermitteln.
 
-   Weitere Informationen finden Sie unter [Bewertung der Markenausrichtung](../content/brands-score.md).
+   Weitere Informationen finden Sie unter [Markenausrichtungswert](../content/brands-score.md).
 
    ![](assets/push-genai-6.png){zoomable="yes"}
 
@@ -81,7 +81,7 @@ Im folgenden Beispiel wird der KI-Assistent verwendet, um mit einer überzeugend
 
    ![Screenshot mit Verfeinerungsoptionen](assets/push-genai-5.png){zoomable="yes"}
 
-1. Öffnen Sie die Registerkarte **[!UICONTROL Markenausrichtung]**, um zu sehen, wie Ihr Inhalt mit Ihren [Markenrichtlinien](../content/brands.md) abgestimmt ist.
+1. Öffnen Sie die Registerkarte **[!UICONTROL Markenausrichtung]**, um die Übereinstimmung Ihres Inhalts mit den [Markenrichtlinien](../content/brands.md) zu prüfen.
 
 1. Klicken Sie auf **[!UICONTROL Auswählen]**, sobald Sie den passenden Inhalt gefunden haben.
 
