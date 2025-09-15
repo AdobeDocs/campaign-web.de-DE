@@ -5,10 +5,10 @@ user-guide-description: Produktdokumentation zur Adobe Campaign Web-Benutzerober
 title: Dokumentation zu Adobe Campaign Web
 description: Dokumentation zu Campaign Web
 breadcrumb-title: Campaign Web-Benutzeroberfläche
-source-git-commit: 127c65a466c41e1aba8408aa9cf41c2d89c93801
-workflow-type: ht
-source-wordcount: '909'
-ht-degree: 100%
+source-git-commit: 3acaa4c2bad2f265d8bb24c0840d12ad77a5d248
+workflow-type: tm+mt
+source-wordcount: '916'
+ht-degree: 99%
 
 ---
 
@@ -122,6 +122,8 @@ ht-degree: 100%
          + [Definieren eines Stils für Links](email/styling-links.md)
          + [Hinzufügen von Inline-Styling-Attributen](email/inline-styling.md)
          + [Hinzufügen von benutzerdefiniertem CSS](email/custom-css.md)
+         + [Verwalten von Inhalten für den dunklen Modus](email/dark-mode.md)
+      + [Erstellen barrierefreier Inhalte](email/accessible-content.md)
    + KI-Assistent {#ai-assistant}
       + [Arbeiten mit dem KI-Assistenten](email/generative-gs.md)
       + [E-Mail-Generierung mit KI](email/generative-content.md)
@@ -273,6 +275,6 @@ ht-degree: 100%
    + [Konfigurieren benutzerdefinierter Felder](administration/custom-fields.md)
    + [Konfigurieren von Optionen in [!DNL Campaign] ](administration/options.md)
    + [Konfigurieren externer Konten](administration/external-account.md)
-   + [Verwalten von Auflistungen](administration/enumerations.md)
+   + [Verwalten von Aufzählungen](administration/enumerations.md)
    + [Arbeiten mit JavaScript-Code](administration/javascript-codes.md)
 + [Dokumentation zu Campaign v8 (Konsole) >](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/campaign-home)
