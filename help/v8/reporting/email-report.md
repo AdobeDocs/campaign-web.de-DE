@@ -6,7 +6,7 @@ exl-id: 2a0bd3e9-5d75-47c8-bd6a-b3e0b1ce0a01
 source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '2448'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -56,7 +56,7 @@ Der Graph **[!UICONTROL Versandstatistiken]** gibt Auskunft über den Erfolg Ihr
 
 ![Screenshot eines Diagramms mit den Details der Versandstatistiken](assets/reporting_email_2.png){zoomable="yes"}
 
-+++Erfahren Sie mehr über die Metriken des E-Mail-Kampagnenberichts.
++++Erfahren Sie mehr über die Metriken von E-Mail-Kampagnenberichten.
 
 * **[!UICONTROL Gesendete Nachricht]**: Gesamtzahl der nach erfolgter Versandvorbereitung zu versendenden Nachrichten.
 
@@ -341,9 +341,9 @@ Der Bericht **[!UICONTROL Benutzeraktivitäten]** zeigt die Aufschlüsselung der
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_statistics"
 >title="Tracking-Statistiken"
->abstract="Das Diagramm **Tracking-Statistiken** liefert Statistiken über Öffnungen und Klicks. Sie haben die Möglichkeit, den spezifischen Zeitrahmen für die Zielgruppendaten auszuwählen."
+>abstract="Das Diagramm **Tracking-Statistiken** liefert Statistiken über Öffnungen und Klicks. Sie haben die Möglichkeit, den spezifischen Zeitrahmen für die Zielgruppenbestimmungsdaten auszuwählen."
 
-Das Diagramm **[!UICONTROL Tracking-Statistiken]** liefert Statistiken über Öffnungen und Klicks. Sie haben die Möglichkeit, den spezifischen Zeitrahmen für die Zielgruppendaten auszuwählen.
+Das Diagramm **[!UICONTROL Tracking-Statistiken]** liefert Statistiken über Öffnungen und Klicks. Sie haben die Möglichkeit, den spezifischen Zeitrahmen für die Zielgruppenbestimmungsdaten auszuwählen.
 
 ![Screenshot des Diagramms „Tracking-Statistiken“](assets/reporting_email_11.png){zoomable="yes"}{align="center"}
 

@@ -4,7 +4,7 @@ title: Erstellen Ihrer erste Abfrage mithilfe des Abfrage-Modelers
 description: Erfahren Sie, wie Sie Ihre erste Abfrage im Abfrage-Modeler in Adobe Campaign Web erstellen.
 exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
 source-git-commit: 6a2bc8f2c36db04c466ed51a96e281156b224d48
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2921'
 ht-degree: 100%
 
@@ -122,7 +122,7 @@ Gehen Sie wie folgt vor, um Ihre Abfrage mit einer benutzerdefinierten Bedingung
    | Ist wie | Dieser Operator ähnelt „Enthält“ und erlaubt das Einfügen des Platzhalters „%“ im Wert. | Nachname (@lastName) ist wie &#39;Me%er&#39;. Das Platzhalterzeichen dient als „Joker“, um Namen wie „Meier“ zu finden. |
    | Ist nicht wie | Dieser Operator ähnelt „Enthält“ und erlaubt das Einfügen des Platzhalters „%“ im Wert. | Nachname (@lastName) nicht wie „Schmi%t“. Empfängerinnen und Empfänger, deren Nachname „Schmi%t“ lautet, also etwa „Schmidt“ oder „Schmitt“, werden nicht ausgegeben. |
 
-+++
+   +++
 
 1. Legen Sie im Feld **Wert** den erwarteten Wert fest. Sie können auch den Campaign Web-Ausdruckseditor verwenden, um einen Ausdruck mithilfe von Feldern aus der Datenbank und Hilfsfunktionen manuell zu definieren. Klicken Sie dazu auf die Schaltfläche **Ausdruck bearbeiten**. [Erfahren Sie, wie Sie Ausdrücke bearbeiten](expression-editor.md)
 
@@ -162,7 +162,7 @@ Navigieren Sie bei einer **1:1-Relation** zur verknüpften Tabelle, wählen Sie 
 
 Sie können auch direkt eine Tabellenverknüpfung in der Auswahl **Wert** auswählen und bestätigen. In diesem Fall müssen die für die ausgewählte Tabelle verfügbaren Werte mit einer speziellen Auswahl ausgewählt werden, wie im folgenden Beispiel gezeigt.
 
-+++Abfragebeispiel
++++Anwendungsbeispiel
 
 Hier geht es bei der Abfrage um Marken mit der Bezeichnung „Laufen“.
 
@@ -178,11 +178,11 @@ Hier ist ein Abfragebeispiel, bei dem eine Tabellenverknüpfung direkt ausgewäh
 
 ![Abfragebeispiel](assets/1-1-table-direct.png){zoomable="yes"}{width="85%" align="center"}
 
-+++
++++ 
 
 Für eine **1:n-Relation** können Sie Unterbedingungen definieren, um Ihre Abfrage zu verfeinern, wie im folgenden Beispiel gezeigt.
 
-+++Abfragebeispiel
++++Anwendungsbeispiel
 
 In unserem Beispiel zielt die Abfrage auf Empfängerinnen und Empfänger ab, die im Zusammenhang mit dem BrewMaster-Produkt Einkäufe getätigt haben, und zwar für einen Gesamtbetrag von mindestens 100 USD.
 
@@ -202,7 +202,7 @@ In unserem Beispiel zielt die Abfrage auf Empfängerinnen und Empfänger ab, die
 
    ![Beispiel für Unterbedingungen](assets/custom-condition-1-N.png){zoomable="yes"}{width="85%" align="center"}
 
-+++
++++ 
 
 #### Arbeiten mit aggregierten Daten {#aggregate}
 
