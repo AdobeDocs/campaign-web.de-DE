@@ -5,9 +5,9 @@ user-guide-description: Produktdokumentation zur Adobe Campaign Web-Benutzerober
 title: Dokumentation zu Adobe Campaign Web
 description: Dokumentation zu Campaign Web
 breadcrumb-title: Campaign Web-Benutzeroberfläche
-source-git-commit: 3acaa4c2bad2f265d8bb24c0840d12ad77a5d248
+source-git-commit: 94098841096c06894a5bfed4cbc8ea58b60b96d7
 workflow-type: tm+mt
-source-wordcount: '916'
+source-wordcount: '912'
 ht-degree: 99%
 
 ---
@@ -122,7 +122,6 @@ ht-degree: 99%
          + [Definieren eines Stils für Links](email/styling-links.md)
          + [Hinzufügen von Inline-Styling-Attributen](email/inline-styling.md)
          + [Hinzufügen von benutzerdefiniertem CSS](email/custom-css.md)
-         + [Verwalten von Inhalten für den dunklen Modus](email/dark-mode.md)
       + [Erstellen barrierefreier Inhalte](email/accessible-content.md)
    + KI-Assistent {#ai-assistant}
       + [Arbeiten mit dem KI-Assistenten](email/generative-gs.md)
