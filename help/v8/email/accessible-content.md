@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: E-Mail, Design, Barrierefreiheit
-source-git-commit: 3acaa4c2bad2f265d8bb24c0840d12ad77a5d248
+source-git-commit: b271ae6ade10fae32253768029dee109b24fd4e1
 workflow-type: tm+mt
-source-wordcount: '1595'
+source-wordcount: '1536'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,6 @@ Auf dieser Seite geht es darum, Ihre Inhalte für alle Ihre Empfängerinnen und 
 
 <!--On the other hand, the accessibility of the [!DNL Adobe Campaign] interface itself is detailed in this section.-->
  
-
 ## Textlesbarkeit sicherstellen {#text-readability}
 
 Verwenden Sie die Registerkarte **[!UICONTROL Stile]** der Komponente **[!UICONTROL Text]**, um sicherzustellen, dass Ihr Text lesbar ist, z. B. mit einem ordnungsgemäßen Farbkontrast und einfachen Schriftarten. [Weitere Informationen](content-components.md#text)
@@ -138,15 +137,19 @@ Um konsistenter zu überprüfen, ob Ihre Inhalte zuverlässig zugänglich sind, 
 
 ## Dunklen Modus verwenden {#dark-mode}
 
-<!--TO PUBLISH WHEN DARK MODE IS RELEASED-->
+Zu den Best Practices für die Erstellung von Inhalten im dunklen Modus gehören die Verwendung transparenter PNGs oder SVGs, das Festlegen geeigneter Meta-Tags und CSS sowie das Bereitstellen zugänglicher Fallback-Stile, wenn der dunkle Modus nicht unterstützt wird.
 
-Der Dunkelmodus verbessert die visuelle Barrierefreiheit für Benutzer mit Lichtempfindlichkeit oder Sehbehinderungen, um das Seherlebnis zu verbessern.
+<!--TO PUBLISH WHEN DARK MODE IS RELEASED
+
+Dark mode enhances visual accessibility for users with light sensitivity or visual impairments, for an improved viewing experience.
 
 ![](assets/accessible-dark-mode.png){width="90%"}
 
-Zu den Best Practices für die Erstellung von Inhalten im dunklen Modus gehören die Verwendung transparenter PNGs oder SVGs, das Festlegen geeigneter Meta-Tags und CSS sowie das Bereitstellen zugänglicher Fallback-Stile, wenn der dunkle Modus nicht unterstützt wird. Stellen Sie abschließend sicher, dass Ihre E-Mails im Dunkelmodus korrekt gerendert werden, indem Sie alle E-Mail-Inhalte und Benutzeroberflächenelemente sowohl im hellen als auch im dunklen Modus testen.
+Amongst the best practices for designing content in dark mode, use transparent PNGs or SVGs, set appropriate meta tags and CSS, and provide accessible fallback styling if dark mode is not supported. Finally, make sure your emails render correctly in dark mode by testing all email content and UI elements in both light and dark modes.
 
-Detaillierte Best Practices für den Dunkelmodus, einschließlich Richtlinien zur Sicherstellung der Barrierefreiheit, finden Sie [diesem Abschnitt](dark-mode.md#best-practices). <!--KEEP dark mode accessibility best practices IN ONE SINGLE LOCATION - for now listed on the Dark mode page.-->
+Detailed best practices specific to dark mode, including guidelines to ensure accessibility, are listed in [this section](dark-mode.md#best-practices).
+
+KEEP dark mode accessibility best practices IN ONE SINGLE LOCATION - for now listed on the Dark mode page.-->
 
 ## Verwenden spezifischer Attribute für die Barrierefreiheit {#attributes}
 
