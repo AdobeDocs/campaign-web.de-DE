@@ -3,7 +3,7 @@ audience: end-user
 title: Erste Schritte mit Inhaltsfragmenten
 description: Erfahren Sie, wie Sie Inhaltsfragmente erstellen
 exl-id: d155d102-a5bc-4b9b-b29c-24fde4d95ceb
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
 workflow-type: tm+mt
 source-wordcount: '366'
 ht-degree: 100%
@@ -30,7 +30,7 @@ Es stehen zwei Arten von Fragmenten zur Verfügung:
 
 * **Ausdrucksfragmente** sind vordefinierte Ausdrücke, die über einen dedizierten Eintrag im Ausdruckseditor verfügbar sind. Campaign umfasst eine Reihe vordefinierter Inhaltsbausteine, die bestimmte Renderings ermöglichen, die Sie in Ihre Sendungen einfügen können. Sie können zum Beispiel ein Logo, eine Grußbotschaft oder einen Link zur Mirrorseite der Nachricht hinzufügen. Sie können auch eigene Ausdrucksfragmente erstellen, die Ihren Anforderungen entsprechen.
 
-* **Visuelle Fragmente** sind vordefinierte visuelle Bausteine, die Sie in mehreren [E-Mail-Sendungen](../email/get-started-email-designer.md) oder in [Inhaltsvorlagen](../email/use-email-templates.md) wiederverwenden können. 
+* **Visuelle Fragmente** sind vordefinierte visuelle Bausteine, die Sie in mehreren [E-Mail-Sendungen](../email/get-started-email-designer.md) oder in [Inhaltsvorlagen](../content/use-email-templates.md) wiederverwenden können. 
 
   >[!AVAILABILITY]
   >

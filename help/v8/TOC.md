@@ -5,10 +5,10 @@ user-guide-description: Produktdokumentation zur Adobe Campaign Web-Benutzerober
 title: Dokumentation zu Adobe Campaign Web
 description: Dokumentation zu Campaign Web
 breadcrumb-title: Campaign Web-Benutzeroberfläche
-source-git-commit: 94098841096c06894a5bfed4cbc8ea58b60b96d7
+source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
 workflow-type: tm+mt
-source-wordcount: '912'
-ht-degree: 99%
+source-wordcount: '929'
+ht-degree: 98%
 
 ---
 
@@ -71,7 +71,7 @@ ht-degree: 99%
    + Callcenter {#call-center}
       + [Erste Schritte mit Callcenter-Sendungen](call-center/gs-call-center.md)
       + [Erstellen und Durchführen eines Callcenter-Versands](call-center/create-call-center.md)
-   + [Benutzerdefinierter externer Kanal](call-center/gs-custom-channel.md)
+   + [Benutzerdefinierte Kanäle](call-center/gs-custom-channel.md)
    + Transaktionsnachrichten {#transactional-messages}
       + [Erste Schritte mit Transaktionsnachrichten](transactional-messaging/transactional.md)
       + [Erstellen einer Transaktionsnachricht](transactional-messaging/create-transactional.md)
@@ -96,7 +96,10 @@ ht-degree: 99%
       + [Hinzufügen von Personalisierung](personalization/personalize.md)
       + [Erstellen bedingter Inhalte](personalization/conditions.md)
    + Wiederverwenden von Inhalten {#manage-reusable-content}
-      + [Arbeiten mit Inhaltsvorlagen](email/create-email-templates.md)
+      + Inhaltsvorlagen  {#content-templates}
+         + [Arbeiten mit Inhaltsvorlagen](content/create-email-templates.md)
+         + [Verwenden von E-Mail-Inhaltsvorlagen](content/use-email-templates.md)
+         + [Sperren von Inhalt in E-Mail-Vorlagen](content/content-locking.md)
       + Inhaltsfragmente {#fragments}
          + [Erste Schritte mit Inhaltsfragmenten](content/fragments.md)
          + [Erstellen und Bearbeiten von Inhaltsfragmenten](content/create-fragment.md)
@@ -108,7 +111,6 @@ ht-degree: 99%
          + [Beginnen von Grund auf](email/create-email-content.md)
          + [Importieren Ihrer E-Mail-Inhalte](email/existing-content.md)
          + [Codieren Sie Ihre eigenen Inhalte](email/code-content.md)
-         + [Verwenden von E-Mail-Inhaltsvorlagen](email/use-email-templates.md)
       + Entwerfen Ihres Inhalts {#design-content}
          + [Verwenden von Inhaltskomponenten](email/content-components.md)
          + [Hinzufügen von Links und Verfolgen von Nachrichten](email/message-tracking.md)
@@ -273,7 +275,13 @@ ht-degree: 99%
    + [Arbeiten mit Schemata](administration/schemas.md)
    + [Konfigurieren benutzerdefinierter Felder](administration/custom-fields.md)
    + [Konfigurieren von Optionen in [!DNL Campaign] ](administration/options.md)
-   + [Konfigurieren externer Konten](administration/external-account.md)
+   + Externe Konten {#external-accounts}
+      + [Externe Konten erstellen](administration/create-external-account.md)
+      + [Adobe Lösungsintegration](administration/integration-external-account.md)
+      + [Kampagnenspezifisch](administration/external-account.md)
+      + [Externe Datenbank](administration/external-account-database.md)
+      + [Hadoop](administration/external-hadoop.md)
+      + [Daten übertragen](administration/transfer-external-account.md)
    + [Verwalten von Aufzählungen](administration/enumerations.md)
    + [Arbeiten mit JavaScript-Code](administration/javascript-codes.md)
 + [Dokumentation zu Campaign v8 (Konsole) >](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/campaign-home)

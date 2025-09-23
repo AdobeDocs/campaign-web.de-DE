@@ -3,7 +3,7 @@ audience: end-user
 title: Bearbeiten des E-Mail-Inhalts
 description: Informationen dazu, wie Sie damit beginnen können, mit dem E-Mail-Designer in der Campaign Web-Benutzeroberfläche Inhalte zu erstellen
 exl-id: a5b966bb-09da-4a50-98d4-010fdfbb75cf
-source-git-commit: d7fc756b2e1d94b43c76ced748e1bf7c7ae5da0d
+source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
 workflow-type: tm+mt
 source-wordcount: '409'
 ht-degree: 100%
@@ -45,6 +45,6 @@ Gehen Sie im Dashboard des E-Mail-Versands durch den Bildschirm [Inhalt bearbeit
 
 * **Importieren von vorhandenen HTML-Inhalten** aus einer Datei oder einem ZIP-Ordner. In [diesem Abschnitt](existing-content.md) erfahren Sie, wie Sie E-Mail-Inhalte importieren.
 
-* **Auswählen eines vorhandenen Inhalts** aus einer Liste integrierter oder benutzerdefinierter Vorlagen. In [diesem Abschnitt](create-email-templates.md) erfahren Sie, wie Sie mit E-Mail-Vorlagen arbeiten.
+* **Auswählen eines vorhandenen Inhalts** aus einer Liste integrierter oder benutzerdefinierter Vorlagen. In [diesem Abschnitt](../content/create-email-templates.md) erfahren Sie, wie Sie mit E-Mail-Vorlagen arbeiten.
 
   ![Optionen in der E-Mail-Designer-Benutzeroberfläche zum Erstellen von E-Mail-Inhalten](assets/email_designer_create_options.png){zoomable="yes"}

@@ -3,10 +3,10 @@ audience: end-user
 title: Verwenden der Workflow-Aktivität „Zielgruppe erstellen“
 description: Erfahren Sie, wie Sie die Workflow-Aktivität „Zielgruppe erstellen“ verwenden.
 exl-id: c07bb025-51b7-428e-ba00-cd552f0db9d4
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 100%
+source-wordcount: '454'
+ht-degree: 92%
 
 ---
 
@@ -56,7 +56,8 @@ Führen Sie die folgenden Schritte aus, um die Aktivität **Zielgruppe erstellen
 Gehen Sie wie folgt vor, um Ihre eigene Abfrage zu erstellen:
 
 1. Wählen Sie **Eigene erstellen (Abfrage)** aus.
-1. Wählen Sie die **Zielgruppendimension**. Die Zielgruppendimension ermöglicht die Bestimmung der vom Vorgang betroffenen Population wie Empfängerinnen und Empfänger, Vertragsbegünstigte, Benutzerinnen und Benutzer oder Abonnierende. Standardmäßig wird die Zielgruppe aus den Empfängerinnen und Empfängern ausgewählt. [Erfahren Sie mehr über Zielgruppendimensionen](../../audience/about-recipients.md#targeting-dimensions)
+1. Wählen Sie die **Zielgruppendimension**. Die Zielgruppendimension ermöglicht die Bestimmung der vom Vorgang betroffenen Population wie Empfängerinnen und Empfänger, Vertragsbegünstigte, Benutzerinnen und Benutzer oder Abonnierende. Standardmäßig wird die Zielgruppe aus den Empfängerinnen und Empfängern ausgewählt. [Erfahren Sie mehr über Zielgruppendimensionen](../../audience/targeting-dimensions.md#targeting)
+1. Wählen Sie die **Filterdimension** aus, indem Sie auf das Symbol neben der Zielgruppendimension klicken. Mit der Filterdimension können Sie Filter auf die Zielpopulation anwenden, indem Sie auf zugehörige Kriterien verweisen, ohne die Hauptzieldimension zu ändern. [Erfahren Sie mehr über Zielgruppendimensionen](../../audience/targeting-dimensions.md#filtering)
 1. Klicken Sie auf **Fortfahren**.
 1. Verwenden Sie den Abfrage-Modeler, um Ihre Abfrage zu definieren, genauso wie Sie eine Zielgruppe beim Entwerfen einer neuen E-Mail erstellen. [Erfahren sie mehr über die Arbeit mit dem Abfrage-Modeler](../../query/query-modeler-overview.md)
 

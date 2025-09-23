@@ -3,7 +3,7 @@ audience: end-user
 title: Senden Ihrer ersten E-Mail
 description: Erfahren Sie, wie Sie Ihre erste E-Mail mit der Campaign Web-Benutzeroberfläche senden.
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 8006eeb6088d7d6ef99f374b2b846978cd679c01
+source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
 workflow-type: tm+mt
 source-wordcount: '1625'
 ht-degree: 100%
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 Erfahren Sie, wie Sie Ihre erste E-Mail an eine bestimmte Zielgruppe senden. In diesem Anwendungsfall planen Sie den Versand einer E-Mail an Silber- und Gold-Mitglieder des Treueprogramms zu einem bestimmten Datum.
 
-Die E-Mail basiert auf einer vordefinierten [Design-Vorlage](../email/create-email-templates.md) und enthält außerdem personalisierte Inhalte, die anhand von Kundenprofilattributen erstellt werden.
+Die E-Mail basiert auf einer vordefinierten [Design-Vorlage](../content/create-email-templates.md) und enthält außerdem personalisierte Inhalte, die anhand von Kundenprofilattributen erstellt werden.
 
 ➡️ [Entdecken Sie diese Funktion im Video](#video)
 
@@ -117,7 +117,7 @@ Gehen Sie wie folgt vor, um mit der Erstellung Ihres E-Mail-Inhalts zu beginnen.
 
 1. Um den Inhalt der E-Mail zu gestalten, klicken Sie auf die Schaltfläche **[!UICONTROL E-Mail-Textkörper bearbeiten]**.
 
-   Wählen Sie die Methode zur Erstellung des Inhalts Ihrer E-Mail aus. Verwenden Sie in diesem Beispiel eine [vordefinierte Inhaltsvorlage](create-email-templates.md).
+   Wählen Sie die Methode zur Erstellung des Inhalts Ihrer E-Mail aus. Verwenden Sie in diesem Beispiel eine [vordefinierte Inhaltsvorlage](../content/create-email-templates.md).
 
    ![Screenshot mit der Auswahl einer vordefinierten Inhaltsvorlage](assets/select-template.png){zoomable="yes"}
 
@@ -252,4 +252,4 @@ Nachdem Sie Ihre E-Mail geprüft und getestet haben, können Sie die Vorbereitun
 
 Hier erfahren Sie, wie Sie einen neuen E-Mail-Versand erstellen, die Zielgruppe definieren, den Inhalt gestalten, eine Vorschau simulieren und einen Testversand durchführen können.
 
->[!VIDEO](https://video.tv.adobe.com/v/3454014/?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3425866/?quality=12)

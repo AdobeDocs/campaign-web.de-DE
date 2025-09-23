@@ -7,7 +7,7 @@ hide: true
 robots: noindex
 googlebot: noindex
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 19a7540af7502709b7eafdace038b5958e077173
+source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
 workflow-type: tm+mt
 source-wordcount: '1521'
 ht-degree: 100%
@@ -119,7 +119,7 @@ Im Abschnitt **Kampagnen-Management** haben Sie Zugriff auf Marketing-Kampagnen,
 
 Im Abschnitt **Content-Management** können Sie Ihre Inhaltsvorlagen und -fragmente einsehen.
 
-* **Inhaltsvorlagen**: Sie können eigenständige Vorlagen erstellen, um den Design-Prozess zu beschleunigen und zu verbessern und benutzerdefinierte Inhalte problemlos in allen Bereichen von [!DNL Adobe Campaign] wiederzuverwenden. Diese nur für E-Mails verfügbare Funktion ermöglicht es inhaltsorientierten Benutzenden, an eigenständigen Vorlagen zu arbeiten, sodass Anwenderinnen und Anwender von Marketing diese in ihren E-Mail-Kampagnen wiederverwenden und anpassen können. Weiterführende Informationen finden Sie in [diesem Abschnitt](../email/create-email-templates.md).
+* **Inhaltsvorlagen**: Sie können eigenständige Vorlagen erstellen, um den Design-Prozess zu beschleunigen und zu verbessern und benutzerdefinierte Inhalte problemlos in allen Bereichen von [!DNL Adobe Campaign] wiederzuverwenden. Diese nur für E-Mails verfügbare Funktion ermöglicht es inhaltsorientierten Benutzenden, an eigenständigen Vorlagen zu arbeiten, sodass Anwenderinnen und Anwender von Marketing diese in ihren E-Mail-Kampagnen wiederverwenden und anpassen können. Weiterführende Informationen finden Sie in [diesem Abschnitt](../content/create-email-templates.md).
 
 * **Fragmente**: Ein Fragment ist eine wiederverwendbare Komponente, die kampagnenübergreifend in einer oder mehreren Sendungen referenziert werden kann. Wenn Sie ein Fragment ändern, wird jeder Inhalt, der dieses Fragment verwendet, aktualisiert. [Erfahren Sie, wie Sie mit Fragmenten arbeiten](../content/fragments.md).
 

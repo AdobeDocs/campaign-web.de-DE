@@ -6,7 +6,7 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
-source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
+source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
 workflow-type: tm+mt
 source-wordcount: '1102'
 ht-degree: 100%
@@ -35,7 +35,7 @@ Eine Vorlage enthält:
 
 >[!NOTE]
 >
->Versandvorlagen unterscheiden sich von [Inhaltsvorlagen](../email/create-email-templates.md) darin, dass Sie in letzteren nur den Inhalt Ihrer E-Mails wiederverwenden und Inhalte nur anhand einer der vordefinierten E-Mail-Mustervorlagen erstellen können
+>Versandvorlagen unterscheiden sich von [Inhaltsvorlagen](../content/create-email-templates.md) darin, dass Sie in letzteren nur den Inhalt Ihrer E-Mails wiederverwenden und Inhalte nur anhand einer der vordefinierten E-Mail-Mustervorlagen erstellen können
 
 ## Aufrufen und Verwalten von Versandvorlagen {#access-manage-templates}
 

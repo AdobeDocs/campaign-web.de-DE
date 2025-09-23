@@ -4,7 +4,7 @@ title: Hinzufügen visueller Fragmente zu E-Mails
 description: Erfahren Sie, wie Sie visuelle Fragmente zu Ihren E-Mails hinzufügen
 badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: 6d6f38f9-9d3e-47cb-beb8-177b5a5d8306
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
 workflow-type: tm+mt
 source-wordcount: '609'
 ht-degree: 100%
@@ -17,7 +17,7 @@ ht-degree: 100%
 >
 >Diese Funktion erfordert ein Update auf Campaign v8.6.4. Weitere Informationen finden Sie in den [Versionshinweisen zur Client Console von Campaign v8](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/releases/release-notes).
 
-In der Campaign Web-Benutzeroberfläche sind **visuelle Fragmente** vordefinierte visuelle Bausteine, die Sie in mehreren [E-Mail-Sendungen](../email/get-started-email-designer.md) oder in [Inhaltsvorlagen](../email/use-email-templates.md) wiederverwenden können. Weitere Informationen zur Erstellung und Verwaltung von Inhaltsfragmenten finden Sie in [diesem Abschnitt](fragments.md).
+In der Campaign Web-Benutzeroberfläche sind **visuelle Fragmente** vordefinierte visuelle Bausteine, die Sie in mehreren [E-Mail-Sendungen](../email/get-started-email-designer.md) oder in [Inhaltsvorlagen](../content/use-email-templates.md) wiederverwenden können. Weitere Informationen zur Erstellung und Verwaltung von Inhaltsfragmenten finden Sie in [diesem Abschnitt](fragments.md).
 
 ![Visuelle Darstellung verwendeter visueller Fragmente](assets/do-not-localize/fragments.gif)
 

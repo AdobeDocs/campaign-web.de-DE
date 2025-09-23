@@ -1,24 +1,24 @@
 ---
-title: Zielgruppendimensionen
-description: Erfahren Sie mehr über Zielgruppendimensionen in Adobe Campaign Web
+title: Zielgruppenbestimmungs- und Filterdimensionen
+description: Erfahren Sie mehr über Zielgruppenbestimmungs- und Filterdimensionen in der Adobe Campaign-Web-Benutzeroberfläche
 exl-id: b910649a-7300-4f99-8f40-3a8965572ee9
-source-git-commit: 93a79b471c236e5bf67da0dbd0d76274598dcb0e
+source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 91%
+source-wordcount: '571'
+ht-degree: 64%
 
 ---
 
-# Zielgruppendimensionen {#targeting-dimensions}
+# Zielgruppenbestimmungs- und Filterdimensionen {#targeting-dimensions}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_build_audience_dimension"
 >title="Auswählen der Zielgruppendimension"
 >abstract="Die Zielgruppendimension ermöglicht die Bestimmung der vom Vorgang betroffenen Population: Empfängerinnen und Empfänger, Vertragsbegünstigte, Benutzerinnen und Benutzer, Abonnentinnen und Abonnenten usw. Standardmäßig wird die Zielgruppe für E-Mails und SMS in der integrierten Tabelle der Empfängerinnen und Empfänger ausgewählt. Bei Push-Benachrichtigungen ist die Standard-Zielgruppendimension „Abonnierte Anwendungen“."
 
-Bei der Zielgruppendimension, auch als Zielgruppen-Mapping bezeichnet, handelt es sich um den Datentyp, den ein Vorgang verarbeitet. Sie definiert die Zielpopulation, z. B. Profile, Vertragsbegünstigte, Benutzende oder Abonnierende.
+Bei der Zielgruppendimension, auch als Zielgruppen-Mapping bezeichnet, handelt es sich um den Datentyp, den ein Vorgang verarbeitet. Sie definiert die Zielpopulation, z. B. Profile, Vertragsbegünstigte, Benutzer oder Abonnenten. Mit der Filterdimension können Sie Filter auf die Zielpopulation anwenden, indem Sie auf zugehörige Kriterien verweisen, ohne die Hauptzieldimension zu ändern.
 
-## Zielgruppendimensionen von Workflows {#workflow}
+## Zielgruppendimensionen {#targeting}
 
 Die Zielgruppendimension eines Workflows wird durch die erste Aktivität **[!UICONTROL Zielgruppe erstellen]** definiert und wird bis zum Ende des Workflows für alle nachfolgenden Aktivitäten verwendet. Wenn Sie beispielsweise Profile aus der Datenbank abfragen, enthält die ausgehende Transition Daten vom Typ „Empfänger“, die an die nächste Aktivität übertragen werden.
 
@@ -27,8 +27,6 @@ Wechseln Sie die Zielgruppendimension in einem Workflow mithilfe der Aktivität 
 Bei der Auswahl einer Zielgruppendimension (in den Workflow-Einstellungen oder in Aktivitäten wie **Zielgruppe erstellen**, **Abstimmung** oder **Dimensionsänderung**) wird standardmäßig eine Liste häufig verwendeter Schemata angezeigt. Um alle verfügbaren Schemata anzuzeigen, aktivieren Sie die Schaltfläche **[!UICONTROL Alle Schemata anzeigen]**. Die Optionsauswahl wird für jeden Benutzer bzw. jede Benutzerin gespeichert.
 
 ![Screenshot der Zielgruppendimension-Benutzeroberfläche mit aktivierter Schaltfläche „Alle Schemata anzeigen“](assets/targeting-dimension-show-all.png){zoomable="yes"}
-
-## Zielgruppendimensionen {#list}
 
 Standardmäßig haben die E-Mail- und SMS-Versandvorlagen Profile als Zielgruppe. Ihre Zieldimension verwendet die Felder der **nms:recipient**-Tabelle. Bei Push-Benachrichtigungen ist die standardmäßige Zieldimension **Abonnierte Anwendungen nms:appSubscriptionRcp**, die mit der Empfängertabelle verknüpft ist.
 
@@ -45,3 +43,18 @@ Verwenden Sie andere integrierte Zielgruppen-Mappings in Workflows und Sendungen
 | Abonnierte Anwendungen | Profile, die eine Anwendung abonniert haben | nms:appSubscriptionRcp |
 
 Erstellen Sie außerdem neue Zielgruppen-Mappings basierend auf bestimmten Anforderungen. Führen Sie diesen Vorgang nur über die Client-Konsole aus. Weitere Informationen finden Sie in der [Dokumentation zu Campaign v8 (Client-Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=de#new-mapping){target="_blank"}.
+
+## Filterdimensionen {#filtering}
+
+Die Zielgruppendimension ermöglicht die Bestimmung der vom Vorgang betroffenen Population: Empfängerinnen und Empfänger, Vertragsbegünstigte, Benutzerinnen und Benutzer, Abonnentinnen und Abonnenten usw. Mit der Filterdimension können Sie Filter auf diese Population anwenden, indem Sie auf verwandte Daten verweisen, ohne die Hauptzielgruppendimension zu ändern. Sie können beispielsweise die Population anhand bestimmter Kriterien wie Vertragsinhaber oder Newsletter-Abonnenten auswählen.
+
+Filterdimensionen sind nur in der Aktivität „Zielgruppe **&quot;**.
+
+Um Kunden auszuwählen, die seit mehr als 5 Jahren eine Lebensversicherung haben, wählen Sie Folgendes:
+
+* Zielgruppendimension: **Clients**
+* Filterdimension: **Vertragsinhaber**.
+
+Anschließend können Sie die Filterbedingungen in der Aktivität **Zielgruppe aufbauen** definieren. Mehr dazu erfahren Sie auf [dieser Seite](../workflows/activities/build-audience.md).
+
+Bei der Auswahl der Zielgruppendimension werden in der Benutzeroberfläche nur kompatible Filterdimensionen angezeigt. Diese beiden Dimensionen müssen miteinander verknüpft sein. Daher hängt der Inhalt der Filterdimensions-Liste von der im ersten Feld ausgewählten Zielgruppendimension ab.

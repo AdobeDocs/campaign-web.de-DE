@@ -3,7 +3,7 @@ audience: end-user
 title: Erste Schritte mit dem KI-Assistenten
 description: Erste Schritte mit dem KI-Assistenten
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
-source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
+source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
 workflow-type: tm+mt
 source-wordcount: '732'
 ht-degree: 100%
@@ -66,7 +66,7 @@ Im Folgenden sind die allgemeinen Richtlinien zur Verwendung des KI-Assistenten 
 * Die Qualität des generierten Inhalts wird stark durch das von Ihnen definierte Marketing-Ziel bzw. den von Ihnen definierten Prompt beeinflusst. Verwenden Sie einen gut definierten Prompt, den das GenAI-Modell genau interpretieren kann.
 * Laden Sie Marken-Assets hoch, um genaue, markenkonforme Inhalte sicherzustellen. Andernfalls basieren Inhalte auf öffentlich verfügbaren Informationen. Der hochgeladene Inhalt kann folgende Formate haben: PDF-, JPEG-, PNG- oder ZIP-Dateien (mit unterstützten Dateiformaten).
 * Die maximale Größe für hochgeladene Marken-Assets beträgt 50 MB.  Größere Dateien oder viele Bilder können die Verarbeitungszeit erhöhen.
-* Verwenden Sie [integrierte E-Mail-Vorlagen](../email/create-email-templates.md), markenspezifische Vorlagen oder benutzerdefinierte Vorlagen, um Ihre E-Mail-Inhalte mit dem KI-Assistenten zu erstellen. Es werden E-Mail-Vorlagen mit 8 bis 10 Bildern empfohlen.
+* Verwenden Sie [integrierte E-Mail-Vorlagen](../content/create-email-templates.md), markenspezifische Vorlagen oder benutzerdefinierte Vorlagen, um Ihre E-Mail-Inhalte mit dem KI-Assistenten zu erstellen. Es werden E-Mail-Vorlagen mit 8 bis 10 Bildern empfohlen.
 * Melden Sie problematische Ausgaben, indem Sie bei der Auswahl von Varianten die Symbole mit dem Daumen nach oben, dem Daumen nach unten oder andere Kennzeichnungssymbole verwenden.
 * Ihre Nutzung des KI-Assistenten unterliegt den Benutzerrichtlinien für generative KI in Adobe Experience Cloud. [Weitere Informationen](https://www.adobe.com/de/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html).
 * Adobe setzt sich für Transparenz bei der Verwendung generativer KI-Tools zur Medienerstellung ein und wendet daher Content Credentials an, wenn Inhalte oder Projekte mit Firefly-generierten Assets heruntergeladen oder exportiert werden. [Weitere Informationen](https://helpx.adobe.com/de/firefly/using/content-credentials.html).

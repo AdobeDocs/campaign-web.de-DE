@@ -3,7 +3,7 @@ audience: end-user
 title: Erstellen von Inhaltsfragmenten
 description: Erfahren Sie, wie Sie Inhaltsfragmente erstellen
 exl-id: 8f37e9e6-3085-4a68-9746-8ca34cfa4242
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
 workflow-type: tm+mt
 source-wordcount: '1026'
 ht-degree: 100%
@@ -70,7 +70,7 @@ Gehen Sie wie folgt vor, um ein Inhaltsfragment von Grund auf neu zu erstellen.
 
 1. Wenn der Inhalt bereit ist, klicken Sie auf **Speichern**.
 
-Das Inhaltsfragment kann nun beim Erstellen eines beliebigen Versands oder [Inhaltsvorlagen](../email/use-email-templates.md) in Campaign verwendet werden. In diesem Abschnitt erfahren Sie, wie Sie visuelle und Ausdrucksfragmente verwenden:
+Das Inhaltsfragment kann nun beim Erstellen eines beliebigen Versands oder [Inhaltsvorlagen](../content/use-email-templates.md) in Campaign verwendet werden. In diesem Abschnitt erfahren Sie, wie Sie visuelle und Ausdrucksfragmente verwenden:
 * [Hinzufügen visueller Fragmente zu E-Mails](use-visual-fragments.md)
 * [Hinzufügen von Ausdrucksfragmenten zum Ausdruckseditor](use-expression-fragments.md)
 
@@ -83,7 +83,7 @@ Das Inhaltsfragment kann nun beim Erstellen eines beliebigen Versands oder [Inha
 
 <!--pas vu dans l'UI-->
 
-Jeder E-Mail-Inhalt kann zur späteren Wiederverwendung als visuelles Fragment gespeichert werden. Speichern Sie beim Entwerfen einer [Inhaltsvorlage](../email/use-email-templates.md) oder eines [E-Mail-Versands](../email/get-started-email-designer.md) einen Teil des Inhalts als visuelles Fragment. Gehen Sie dazu wie folgt vor:
+Jeder E-Mail-Inhalt kann zur späteren Wiederverwendung als visuelles Fragment gespeichert werden. Speichern Sie beim Entwerfen einer [Inhaltsvorlage](../content/use-email-templates.md) oder eines [E-Mail-Versands](../email/get-started-email-designer.md) einen Teil des Inhalts als visuelles Fragment. Gehen Sie dazu wie folgt vor:
 
 1. Klicken Sie oben rechts auf dem Bildschirm im [E-Mail-Designer](../email/get-started-email-designer.md) auf **Mehr**.
 
@@ -103,7 +103,7 @@ Jeder E-Mail-Inhalt kann zur späteren Wiederverwendung als visuelles Fragment g
 
    ![Bestätigungsbildschirm zum Speichern visueller Fragmente](assets/fragment-save-confirm.png)
 
-   Dieser Inhalt ist jetzt ein eigenständiges Fragment, das zur [Fragmentliste](#manage-fragments) hinzugefügt wurde und das über das dedizierte Menü aufgerufen werden kann. Verwenden Sie dieses Fragment beim Erstellen von [E-Mails](../email/get-started-email-designer.md) oder [Inhaltsvorlagen](../email/use-email-templates.md) in Campaign. [Weitere Informationen](../content/use-visual-fragments.md)
+   Dieser Inhalt ist jetzt ein eigenständiges Fragment, das zur [Fragmentliste](#manage-fragments) hinzugefügt wurde und das über das dedizierte Menü aufgerufen werden kann. Verwenden Sie dieses Fragment beim Erstellen von [E-Mails](../email/get-started-email-designer.md) oder [Inhaltsvorlagen](../content/use-email-templates.md) in Campaign. [Weitere Informationen](../content/use-visual-fragments.md)
 
 >[!NOTE]
 >
