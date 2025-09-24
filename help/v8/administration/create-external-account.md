@@ -1,14 +1,21 @@
 ---
 title: Verwalten eines externen Kontos
 description: Informationen zum Konfigurieren externer Konten
-source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
+exl-id: 52b4ec99-4f55-4e0b-8a54-b25058d97b02
+source-git-commit: 1a5f49cfdf56a21faedcef3029b62b88ebd81c8d
 workflow-type: tm+mt
-source-wordcount: '210'
-ht-degree: 84%
+source-wordcount: '246'
+ht-degree: 86%
 
 ---
 
 # Erstellen eines externen Kontos {#create-external-account}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn2"
+>title="Erstellen externer Konten"
+>abstract="Als Campaign-Admin können Sie nun über die Campaign Web-Benutzeroberfläche neue Verbindungen mit externen Systemen einrichten. Sie haben zudem die Möglichkeit, vorhandene externe Konten anzuzeigen, zu aktualisieren und zu verwalten."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=de" text="Siehe Versionshinweise"
 
 Gehen Sie wie folgt vor, um ein neues externes Konto zu erstellen. Die spezifischen Konfigurationseinstellungen hängen vom Typ des externen Kontos ab, das Sie erstellen.
 

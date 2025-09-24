@@ -3,20 +3,14 @@ audience: end-user
 title: Arbeiten mit dem Abfrage-Modeler
 description: Lernen Sie, mit dem Abfrage-Modeler von Adobe Campaign Web zu arbeiten.
 exl-id: 56708a66-f654-413a-80ed-1865077b3c0a
-source-git-commit: dfe670447ed3f1e09191460e8ac6aceee9035bb2
+source-git-commit: 1a5f49cfdf56a21faedcef3029b62b88ebd81c8d
 workflow-type: tm+mt
-source-wordcount: '926'
+source-wordcount: '888'
 ht-degree: 100%
 
 ---
 
 # Arbeiten mit dem Abfrage-Modeler {#segment-builder}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn1"
->title="Neuer Regel-Builder"
->abstract="Es ist nun ein neuer Regel-Builder verfügbar, der Sie bei der Definition komplexer Bedingungen in einer verbesserten Benutzeroberfläche unterstützt. Sie können bei Bedarf vom alten zum neuen Regel-Builder wechseln."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=de" text="Siehe Versionshinweise"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_card5"
