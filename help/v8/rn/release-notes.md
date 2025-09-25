@@ -5,7 +5,7 @@ exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
 workflow-type: tm+mt
 source-wordcount: '334'
-ht-degree: 64%
+ht-degree: 70%
 
 ---
 
@@ -159,7 +159,7 @@ Die folgenden Funktionen sind ab September verfügbar.
 
 ### Verbesserungen {#25-9-improvements}
 
-* Beim Einrichten einer Bedingung mit der Funktion Bedingter Inhalt von E-Mail-Designer wurde eine Reihe neuer Operatoren hinzugefügt.
+* Beim Einrichten einer Bedingung mithilfe der Funktion „Bedingter Inhalt“ des E-Mail-Designers wurde eine neue Benutzergruppe hinzugefügt.
 * Die Filterdimension ist jetzt in der Workflow-Aktivität **Zielgruppe** verfügbar. Klicken Sie zum Anzeigen oder Ändern auf das Symbol neben der Zielgruppendimension. [Weitere Informationen](../workflows/activities/build-audience.md#build-audience-configuration).
 <!--
 

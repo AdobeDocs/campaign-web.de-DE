@@ -124,7 +124,7 @@ ht-degree: 98%
          + [Definieren eines Stils für Links](email/styling-links.md)
          + [Hinzufügen von Inline-Styling-Attributen](email/inline-styling.md)
          + [Hinzufügen von benutzerdefiniertem CSS](email/custom-css.md)
-      + [Erstellen barrierefreier Inhalte](email/accessible-content.md)
+      + [Erstellen von barrierefreien Inhalten](email/accessible-content.md)
    + KI-Assistent {#ai-assistant}
       + [Arbeiten mit dem KI-Assistenten](email/generative-gs.md)
       + [E-Mail-Generierung mit KI](email/generative-content.md)
