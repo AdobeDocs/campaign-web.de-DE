@@ -4,10 +4,10 @@ description: Dieses Tutorial bietet einen Überblick über die wichtigsten Verwa
 role: Admin, Developer
 level: Beginner, Experienced
 exl-id: 1554f85f-22e1-4b51-a916-194ea0d24816
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: 2093338e3ba9f31954561171029ec0f7336c73c4
 workflow-type: tm+mt
-source-wordcount: '2657'
-ht-degree: 100%
+source-wordcount: '2777'
+ht-degree: 95%
 
 ---
 
@@ -57,7 +57,7 @@ Beachten Sie, dass die Client-Konsole in einer unterstützten Umgebung installie
 
 In diesem Tutorial-Video erfahren Sie mehr über die Benutzeroberfläche von Adobe Campaign v8 und darüber, wie Sie durch die Hauptfunktionen navigieren.
 
->[!VIDEO](https://video.tv.adobe.com/v/3426435?quality=12&learn=on&captions=ger){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/334496?quality=12&learn=on){transcript=true}
 
 Weitere Informationen finden Sie unter [Arbeiten mit der Client-Konsole](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/new/campaign-ui){target="_blank"}.
 
@@ -156,7 +156,7 @@ Links zu anderen nützlichen Ressourcen finden Sie im folgenden Abschnitt:
 
 * In diesem Video erfahren Sie, was Zielgruppendimensionen und Arbeitstabellen sind und wie Adobe Campaign Daten aus verschiedenen Datenquellen verwaltet:
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3452603?quality=12&learn=on&captions=ger){transcript=true}
+  >[!VIDEO](https://video.tv.adobe.com/v/339992?quality=12&learn=on){transcript=true}
 
 * Mit Campaign können Sie der Cloud-Datenbank Kontakte hinzufügen. Sie können eine Datei laden, mehrere Kontaktaktualisierungen planen und automatisieren, Daten im Internet sammeln oder Profilinformationen direkt in die Empfängertabelle eingeben. Weitere Informationen finden Sie in der [Dokumentation zum Importieren von Daten (Konsole)](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/data/import){target="_blank"}.
 
@@ -195,10 +195,18 @@ Workflow templates contain pre-configured settings and activities which can be r
 
 You can design your landing page content, and save it for future reuse. See the [landing page template documentation](../../v8/landing-pages/lp-templates.md).
 
-Each event can trigger a personalized message. For this to happen, you need to create a message template to match each event type. Templates contain the necessary information for personalizing the transactional message. See the [Transactional messaging template documentation](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/send/real-time/transactional-template)
+Each event can trigger a personalized message. For this to happen, you need to create a message template to match each event type. Templates contain the necessary information for personalizing the transactional message. See the [Transactional messaging template documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional-template)
 
-Using a workflow template is a best practice if you need to regularly import files with the same structure. See the [Import template documentation](https://experienceleague.adobe.com/de/docs/campaign/automation/workflows/use-cases/data-management/recurring-import-workflow){target="_blank"}
+Using a workflow template is a best practice if you need to regularly import files with the same structure. See the [Import template documentation](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/use-cases/data-management/recurring-import-workflow){target="_blank"}
 -->
+
+## Datenschutz und Einverständniserklärung
+
+Beim Wechsel von Campaign Standard zu Campaign v8 ist es wichtig zu überprüfen, wie sich Datenschutzbestimmungen auf Ihre Datenvorgänge auswirken. Abhängig von Ihrem Unternehmen und den Gerichtsbarkeiten, in denen Sie tätig sind, haben Kundinnen und Kunden möglicherweise das gesetzliche Recht, auf die Daten zuzugreifen, die Sie über sie besitzen, oder ihre Löschung zu beantragen.
+
+In Campaign v8 müssen alle Datenschutzanfragen über die Integration **Adobe Privacy Service** verwaltet werden. Weitere Informationen finden Sie in [ Dokumentation zu Campaign v8 (Konsole](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/privacy/privacy).
+
+Beachten Sie, dass Ihre Campaign Standard-Umgebung nach der Umstellung noch einige Zeit aktiv bleibt. Während dieser Zeit können Datenschutzanfragen auf beiden Systemen eintreffen. Um die Einhaltung von Vorschriften sicherzustellen und Lücken zu vermeiden, stimmen Sie sich mit Ihrem Adobe Transition Manager ab, um die Anfragen in beiden Umgebungen ordnungsgemäß zu bearbeiten.
 
 ## Anmeldedienste {#acs-gs-admin-sub}
 
@@ -206,7 +214,7 @@ Wie in Campaign Standard können Sie als Admin Anmeldedienste erstellen und Mark
 
 Erfahren Sie, wie Sie Anmeldungen und Abonnements einrichten und verwalten und Zielgruppen adressieren.
 
->[!VIDEO](https://video.tv.adobe.com/v/3426550?quality=12&learn=on&captions=ger){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/334305?quality=12&learn=on){transcript=true}
 
 * Weitere Informationen zu den Anmeldediensten finden Sie in der [Dokumentation zur Web-Benutzeroberfläche](../../v8/audience/manage-subscribers.md).
 
@@ -264,7 +272,7 @@ Verwenden Sie Campaign, um dynamische Inhalte zu erstellen und personalisierte N
 
 In diesem Video erfahren Sie, wie Sie als Admin mit Campaign v8 dynamische Inhaltsbausteine definieren und festlegen, wie diese zur Personalisierung des Inhalts Ihres E-Mail-Versands verwendet werden:
 
->[!VIDEO](https://video.tv.adobe.com/v/3449015?quality=12&learn=on&captions=ger){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/342088?quality=12&learn=on){transcript=true}
 
 Nützliche Links:
 

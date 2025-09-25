@@ -4,9 +4,9 @@ description: Erfahren Sie, was für die ersten Schritte mit Ihrer neuen Campaign
 role: User, Admin, Developer
 level: Beginner
 exl-id: 39d1f1b6-626b-48a2-92c3-9b593a377d66
-source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
+source-git-commit: 2093338e3ba9f31954561171029ec0f7336c73c4
 workflow-type: tm+mt
-source-wordcount: '1555'
+source-wordcount: '1553'
 ht-degree: 100%
 
 ---
@@ -83,7 +83,7 @@ Wenn Sie von Campaign Standard zu Campaign v8 wechseln, stehen Ihnen nun die fol
 
   Im Folgenden finden Sie die wichtigsten Funktionen, die durch diese Integration bereitgestellt werden:
 
-   * *Asset-Management*: In Adobe Campaign v8 bietet der E-Mail-Designer eine Auswahl für den Zugriff auf und die Verwaltung von Assets. Diese Funktion vereinfacht die Integration von Elementen aus Adobe Experience Manager in Ihren Versand und sorgt so für ein effizienteres Content-Mangagement. [Weitere Informationen über das Asset-Management](../../v8/integrations/aem-assets.md)
+   * *Asset-Management*: In Adobe Campaign v8 bietet der E-Mail-Designer eine Auswahl für den Zugriff auf und die Verwaltung von Assets. Diese Funktion vereinfacht die Integration von Elementen aus Adobe Experience Manager in Ihren Versand und sorgt so für ein effizienteres Content-Management. [Weitere Informationen über das Asset-Management](../../v8/integrations/aem-assets.md)
 
      ![](../../v8/integrations/assets/assets_6.png){zoomable="yes"}
 
@@ -142,8 +142,6 @@ Damit Sie reibungslos zu Campaign v8 wechseln können, wurden wichtige Funktion
 
 Die meisten Konzepte in Adobe Campaign v8 und Adobe Campaign Standard sind sich ähnlich. Es gibt jedoch einige Unterschiede, wie nachfolgend beschrieben.
 
-### Terminologieänderungen {#terminology-changes}
-
 Im Folgenden sind einige terminologische Unterschiede zwischen Campaign Standard und Campaign v8 aufgeführt:
 
 * Benutzerdefinierte Ressourcen sind **Schemata**
@@ -160,6 +158,7 @@ Bestehende Campaign-Benutzende sollten zudem beachten, dass einige Konzepte ents
 * Die Versandanalyse heißt jetzt **Versandvorbereitung**. Wenn Sie die Vorbereitung von Nachrichten starten möchten, klicken Sie auf die Schaltfläche **Vorbereiten**.  [Weitere Informationen](../../v8/monitor/prepare-send.md).
 * Die E-Mail-Vorschau ist jetzt über die Schaltfläche **Inhalt simulieren** verfügbar. [Weitere Informationen](../../v8/preview-test/preview-test.md)
 * Listen heißen jetzt **Zielgruppen**. [Weitere Informationen](../../v8/audience/gs-audiences-recipients.md).
+
 
 ## Neues Anwendererlebnis
 
@@ -229,4 +228,4 @@ Rufen Sie das entsprechende Referenzhandbuch für Ihre Rolle auf, um sich mit de
 
 Adobe constantly evaluates product capabilities to identify older features that should be replaced with more modern alternatives to improve overall customer value, always under careful consideration of backward compatibility.
 
-Please refer to [this documentation for information on deprecated items](https://experienceleague.adobe.com/de/docs/campaign-standard/using/release-notes/deprecated-features).-->
+Please refer to [this documentation for information on deprecated items](https://experienceleague.adobe.com/en/docs/campaign-standard/using/release-notes/deprecated-features).-->
