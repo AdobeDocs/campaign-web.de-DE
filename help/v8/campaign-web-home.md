@@ -3,10 +3,10 @@ keywords: Campaign Web;Startseite;beliebte Themen
 description: Hilfe-Center zu Campaign Web
 title: Produktdokumentation zu Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 1a5f49cfdf56a21faedcef3029b62b88ebd81c8d
+source-git-commit: 1cec57c38b5f196db0881c498044fc9b999ed3b0
 workflow-type: tm+mt
-source-wordcount: '480'
-ht-degree: 99%
+source-wordcount: '481'
+ht-degree: 91%
 
 ---
 
@@ -54,7 +54,7 @@ Hier erhalten Sie einen Einblick in die neuesten Verbesserungen in Adobe Campaig
 
 >[!TAB Version September &#39;25]
 
-Neue Funktionen und Verbesserungen sind jetzt in der Benutzeroberfläche von Campaign Web verfügbar. Um diese Verbesserungen nutzen zu können, müssen Sie Ihre Campaign-Umgebung auf Version 8.8 aktualisieren. Einen vollständigen Überblick finden Sie in den Versionshinweisen.
+Die September-Version ist live. Neue Funktionen und Verbesserungen sind jetzt in der Web-Benutzeroberfläche von Campaign verfügbar, einschließlich eines benutzerdefinierten Kanals für API-Sendungen, der Erstellung externer Konten und der Sperrung von E-Mail-Inhalten. Eine vollständige Übersicht finden Sie in den Versionshinweisen .
 
 [![Schaltfläche „Weitere Informationen“](assets/do-not-localize/learn-more-button.svg)](../v8/rn/release-notes.md)
 
