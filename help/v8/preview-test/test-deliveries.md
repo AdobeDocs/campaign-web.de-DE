@@ -3,10 +3,10 @@ audience: end-user
 title: Senden von Testsendungen
 description: Definieren und Durchführen von Testsendungen
 exl-id: b2677579-c95d-443d-b207-466af364c208
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: fc794f4eceaed7ca5f49ef8add8e9da8306b6a69
 workflow-type: tm+mt
-source-wordcount: '1161'
-ht-degree: 100%
+source-wordcount: '1167'
+ht-degree: 99%
 
 ---
 
@@ -16,6 +16,11 @@ ht-degree: 100%
 >id="acw_email_preview_mode"
 >title="Vorschaumodus"
 >abstract="Erstellen Sie eine Vorschau und testen Sie die Nachricht, indem Sie die Testpopulation zur Hauptzielgruppe hinzufügen."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_additional_proof_target"
+>title="Zusätzliche Testversand-Zielgruppe"
+>abstract="Zusätzliche Testversand-Zielgruppe."
 
 Nachdem der Nachrichteninhalt definiert wurde, können Sie ihn in der Vorschau anzeigen und testen, indem Sie Testsendungen an Testprofile senden. Wenn Sie personalisierte Inhalte eingefügt haben, können Sie mithilfe von Testprofildaten überprüfen, wie diese Inhalte in der Nachricht angezeigt werden.
 
