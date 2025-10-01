@@ -5,9 +5,9 @@ audience: end-user
 level: Intermediate
 exl-id: a58fc8fd-e510-45ef-8fe9-c75ff4498113
 source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1245'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ In diesem Abschnitt finden Sie häufig gestellte Fragen zu dynamischen Berichten
 
 ## In welchen Sprachen sind dynamische Berichte verfügbar? {#langages}
 
-Derzeit ist das dynamische Reporting nur auf Englisch verfügbar.
+Derzeit sind dynamische Berichte nur in Englisch verfügbar.
 
 ## Bei Einzelöffnungen und Einzelklicks entspricht die Zahl in der Aggregat-Zeile nicht der Zahl in den einzelnen Zeilen {#unique-open-clicks-no-match}
 

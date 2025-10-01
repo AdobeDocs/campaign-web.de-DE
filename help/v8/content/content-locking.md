@@ -9,13 +9,13 @@ role: User
 level: Beginner, Intermediate
 exl-id: 2835c114-0878-4c41-9071-165d71840941
 source-git-commit: 155a7f3fb55a579dbf9a2ad81a1dc7e4ea3847df
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1234'
-ht-degree: 30%
+ht-degree: 100%
 
 ---
 
-# Sperren von Inhalt in E-Mail-Vorlagen {#lock-content-email-templates}
+# Sperren von Inhalten in E-Mail-Vorlagen {#lock-content-email-templates}
 
 >[!CONTEXTUALHELP]
 >id="ajo_locking_governance"
@@ -42,25 +42,25 @@ ht-degree: 30%
 >title="Schreibgeschützt"
 >abstract="Dieser Inhalt befindet sich im schreibgeschützten Modus und kann nicht geändert werden."
 
-Mit Adobe Campaign können Sie Inhalte in E-Mail-Vorlagen sperren, indem Sie entweder die gesamte Vorlage oder bestimmte Strukturen und Komponenten sperren. Dadurch werden unbeabsichtigte Änderungen oder Löschungen verhindert, was Ihnen mehr Kontrolle über die Vorlagenanpassung gibt und die Effizienz und Zuverlässigkeit Ihrer E-Mail-Kampagnen verbessert.
+Adobe Campaign ermöglicht es Ihnen, Inhalte in E-Mail-Vorlagen zu sperren, entweder durch Sperren der gesamten Vorlage oder durch Sperren bestimmter Strukturen und Komponenten. Auf diese Weise werden unbeabsichtigte Bearbeitungen oder Löschungen verhindert, sodass Sie das Anpassen von Vorlagen besser steuern und die Effizienz sowie Zuverlässigkeit Ihrer E-Mail-Kampagnen optimieren können.
 <!--
 >[!IMPORTANT]
 >
 >Content locking is an editor-level feature for authors and does not guarantee the content will remain unedited when imported or created through API.-->
 
-Inhaltssperren können entweder auf der Ebene **Struktur** oder auf der Ebene **Komponente** angewendet werden. Im Folgenden finden Sie die wichtigsten Prinzipien, die auf Struktur- und Komponentenebene beim Sperren von Inhalten in Ihrer Vorlage gelten:
+Inhaltssperren können entweder auf **Strukturebene** oder auf **Komponentenebene** angewendet werden. Im Folgenden finden Sie die wichtigsten Prinzipien, die auf Struktur- und Komponentenebene beim Sperren von Inhalten in Ihrer Vorlage gelten:
 
-* Wenn eine Struktur gesperrt ist:
+* Bei gesperrter Struktur:
 
    * Alle Inhalte in dieser Struktur sind ebenfalls standardmäßig gesperrt.
    * Der Struktur kann kein Inhalt hinzugefügt werden.
-   * Standardmäßig können Sie die Struktur nicht löschen. Sie können diese Einschränkung außer Kraft setzen, indem Sie die Option „Löschen zulassen“ aktivieren.
+   * Standardmäßig können Sie die Struktur nicht löschen. Sie können diese Einschränkung überschreiben, indem Sie die Option „Löschen zulassen“ aktivieren.
    * Einzelne Inhaltskomponenten innerhalb der gesperrten Struktur können als bearbeitbar festgelegt werden.
 
-* Wenn eine Struktur bearbeitbar ist (Struktur nicht gesperrt):
+* Bei bearbeitbarer (nicht gesperrter) Struktur:
 
    * Einzelne Inhaltskomponenten können in dieser Struktur gesperrt werden.
-   * Standardmäßig können Sie eine Komponente nicht löschen, wenn sie gesperrt ist oder wenn die Option „Nur bearbeitbare Inhalte sperren“ ausgewählt ist. Sie können diese Einschränkung außer Kraft setzen, indem Sie die Option „Löschen zulassen“ aktivieren.
+   * Standardmäßig können Sie eine Komponente nicht löschen, wenn sie gesperrt oder wenn die Option „Nur Sperre für bearbeitbare Inhalte“ ausgewählt ist. Sie können diese Einschränkung überschreiben, indem Sie die Option „Löschen zulassen“ aktivieren.
 
 >[!AVAILABILITY]
 >
@@ -69,37 +69,37 @@ Inhaltssperren können entweder auf der Ebene **Struktur** oder auf der Ebene **
 <!--
 ➡️ [Discover this feature in video](#video)-->
 
-## E-Mail-Vorlage sperren {#define}
+## Sperren einer E-Mail-Vorlage {#define}
 
-### Inhaltssperrung aktivieren {#enable}
+### Aktivieren der Inhaltssperre {#enable}
 
-Sie können die Inhaltssperre für eine E-Mail-Vorlage direkt in der E-Mail-Designer aktivieren, unabhängig davon, ob Sie eine neue Vorlage erstellen oder eine vorhandene bearbeiten. Führen Sie folgende Schritte aus:
+Sie können die Inhaltssperre für eine E-Mail-Vorlage direkt im E-Mail-Designer aktivieren, unabhängig davon, ob Sie eine neue Vorlage erstellen oder eine vorhandene bearbeiten. Führen Sie folgende Schritte aus:
 
-1. Öffnen oder erstellen Sie eine E-Mail-Vorlage und rufen Sie den Bildschirm zur Inhaltsbearbeitung in der [E-Mail-Designer](../email/get-started-email-designer.md) auf.
+1. Öffnen oder erstellen Sie eine E-Mail-Vorlage und rufen Sie den Bildschirm zur Inhaltsbearbeitung im [E-Mail-Designer](../email/get-started-email-designer.md) auf.
 
-1. Aktivieren Sie **[!UICONTROL Bereich]** Hauptteil“ auf der rechten Seite die Option **[!UICONTROL Governance]** .
+1. Aktivieren Sie im Bereich **[!UICONTROL Hauptteil]** auf der rechten Seite die Option **[!UICONTROL Governance]**.
 
-1. Wählen Sie aus **[!UICONTROL Dropdown]** Liste Modus den gewünschten Sperrmodus für die Vorlage aus:
+1. Wählen Sie aus der Dropdown-Liste **[!UICONTROL Modus]** den gewünschten Sperrmodus für die Vorlage aus:
 
-   * **[!UICONTROL Inhaltssperrung]**: Sperren bestimmter Inhaltsabschnitte in der Vorlage. Standardmäßig können alle Strukturen und Komponenten bearbeitet werden. Anschließend können Sie einzelne Elemente selektiv sperren.
-   * **[!UICONTROL Schreibgeschützt]**: Sperren Sie den gesamten Inhalt der Vorlage, um Änderungen zu verhindern.
+   * **[!UICONTROL Inhaltssperre]**: Sperrt bestimmte Inhaltsabschnitte in der Vorlage. Standardmäßig werden alle Strukturen und Komponenten bearbeitbar. Anschließend können Sie einzelne Elemente selektiv sperren.
+   * **[!UICONTROL Schreibgeschützt]**: Sperrt den gesamten Inhalt der Vorlage, um Änderungen zu vermeiden.
 
    ![](assets/template-lock-enable.png)
 
-1. Wenn Sie den Modus **[!UICONTROL Inhaltssperrung]** ausgewählt haben, können Sie weiter definieren, wie Benutzer mit der Vorlage interagieren können. Schalten Sie die Option **[!UICONTROL Hinzufügen von Inhalten aktivieren]** ein und wählen Sie eine der folgenden Optionen:
+1. Wenn Sie den Modus **[!UICONTROL Inhaltssperre]** ausgewählt haben, können Sie weiter definieren, wie Benutzende mit der Vorlage interagieren können. Aktivieren Sie die Option **[!UICONTROL Hinzufügen von Inhalten aktivieren]** und wählen Sie eine der folgenden Optionen aus:
 
-   * **[!UICONTROL Zulassen von Struktur und Hinzufügen von Inhalten]**: Benutzer können Strukturen zwischen vorhandenen Strukturen hinzufügen und Inhaltskomponenten oder Fragmente innerhalb bearbeitbarer Strukturen hinzufügen.
+   * **[!UICONTROL Hinzufügen von Struktur und Inhalten zulassen]**: Benutzende können Strukturen zwischen vorhandenen Strukturen und Inhaltskomponenten oder -fragmente in bearbeitbaren Strukturen hinzufügen. 
 
-   * **[!UICONTROL Nur Inhaltshinzufügen zulassen]**: Benutzer können Inhaltskomponenten oder Fragmente in bearbeitbaren Strukturen hinzufügen, aber keine Strukturen hinzufügen oder duplizieren.
+   * **[!UICONTROL Nur Hinzufügen von Inhalten zulassen]**: Benutzende können Inhaltskomponenten oder -fragmente in bearbeitbaren Strukturen hinzufügen, jedoch keine Strukturen hinzufügen oder duplizieren.
 
-1. Nach Auswahl des Sperrmodus können Sie festlegen, welche Strukturen und/oder Komponenten gesperrt werden sollen, wenn Sie den **[!UICONTROL Inhaltssperrmodus]** ausgewählt haben:
+1. Nach Auswahl des Sperrmodus können Sie festlegen, welche Strukturen und/oder Komponenten gesperrt werden sollen, wenn der Modus **[!UICONTROL Inhaltssperre]** ausgewählt ist:
 
-   * [Erfahren Sie, wie Sie Strukturen sperren](#lock-structures)
-   * [Erfahren Sie, wie Sie Komponenten sperren](#lock-components)
+   * [Informationen zum Sperren von Strukturen](#lock-structures)
+   * [Informationen zum Sperren von Komponenten](#lock-components)
 
    Wenn Sie den Modus **[!UICONTROL Schreibgeschützt]** ausgewählt haben, fahren Sie mit dem Fertigstellen und Speichern Ihrer Vorlage wie gewohnt fort.
 
-Sie können die **[!UICONTROL Governance]**-Einstellungen jederzeit beim Entwerfen Ihrer Vorlage anpassen, indem Sie den Vorlagentext auswählen. Klicken Sie dazu auf den **[!UICONTROL Textkörper]** in der Navigationsleiste oben im rechten Bereich.
+Sie können die Einstellungen bezüglich der **[!UICONTROL Governance]** jederzeit beim Entwerfen Ihrer Vorlage anpassen, indem Sie den Vorlagentext auswählen. Klicken Sie dazu auf die Verknüpfung **[!UICONTROL Hauptteil]** in der Navigationsleiste oben im rechten Bereich.
 
 ![](assets/template-lock-body.png)
 
@@ -114,7 +114,7 @@ So sperren Sie eine Struktur in Ihrer Vorlage:
 
 1. Wählen Sie die Struktur aus, die Sie sperren möchten.
 
-1. Wählen Sie in **[!UICONTROL Dropdown]** Liste „Sperrtyp“ die Option **[!UICONTROL Gesperrt]**.
+1. Wählen Sie in der Dropdown-Liste **[!UICONTROL Art der Sperre]** die Option **[!UICONTROL Gesperrt]** aus.
 
    ![](assets/template-lock-structure.png)
 
@@ -122,13 +122,13 @@ So sperren Sie eine Struktur in Ihrer Vorlage:
    >
    >Standardmäßig können Benutzende gesperrte Strukturen nicht löschen. Sie können diese Einschränkung überschreiben, indem Sie die Option **[!UICONTROL Löschen zulassen]** aktivieren.
 
-Nach dem Sperren einer Struktur können keine weiteren Inhaltskomponenten oder Fragmente dupliziert oder hinzugefügt werden. Alle Komponenten innerhalb einer gesperrten Struktur sind ebenfalls standardmäßig gesperrt. So machen Sie eine Komponente in einer gesperrten Struktur bearbeitbar:
+Nach dem Sperren einer Struktur können keine weiteren Inhaltskomponenten oder -fragmente dupliziert oder hinzugefügt werden. Alle Komponenten innerhalb einer gesperrten Struktur sind ebenfalls standardmäßig gesperrt. So machen Sie eine Komponente in einer gesperrten Struktur bearbeitbar:
 
 1. Wählen Sie die Komponente aus, die Sie entsperren möchten.
 
-1. Schalten Sie die Option **[!UICONTROL Spezifische Sperre verwenden]** ein.
+1. Aktivieren Sie die Option **[!UICONTROL Spezifische Sperre verwenden]**.
 
-1. Wählen Sie in **[!UICONTROL Dropdown]** Liste „Sperrtyp“ die Option **[!UICONTROL Bearbeitbar]**. Um die Inhaltsbearbeitung beim Sperren von Stilen zu ermöglichen, wählen Sie **[!UICONTROL Nur bearbeitbare Inhalte]** aus. [Erfahren Sie, wie Sie Komponenten sperren](#lock-components)
+1. Wählen Sie in der Dropdown-Liste **[!UICONTROL Art der Sperre]** die Option **[!UICONTROL Bearbeitbar]** aus. Um die Inhaltsbearbeitung bei gesperrten Stilen zu ermöglichen, wählen Sie **[!UICONTROL Nur bearbeitbare Inhalte]** aus. [Informationen zum Sperren von Komponenten](#lock-components)
 
    ![](assets/template-lock-editable-component.png)
 
@@ -141,26 +141,26 @@ Nach dem Sperren einer Struktur können keine weiteren Inhaltskomponenten oder F
 
 So sperren Sie eine bestimmte Komponente in einer Struktur:
 
-1. Wählen Sie die Komponente aus und aktivieren **[!UICONTROL die Option „Spezifische]** verwenden“ im rechten Bereich.
+1. Wählen Sie die Komponente aus und aktivieren Sie im rechten Bereich die Option **[!UICONTROL Spezifische Sperre verwenden]**.
 
-1. Wählen Sie in **[!UICONTROL Dropdown-Liste]** Sperrtyp“ Ihre bevorzugte Sperroption aus:
+1. Wählen Sie aus der Dropdown-Liste **[!UICONTROL Art der Sperre]** den gewünschten Sperrmodus aus:
 
    ![](assets/template-lock-component.png)
 
-   * **[!UICONTROL Nur bearbeitbare Inhalte]**: Sperren der Stile der Komponente, aber Bearbeitung der Inhalte möglich.
-   * **[!UICONTROL Gesperrt]**: Sperren Sie sowohl den Inhalt als auch die Stile der Komponente vollständig.
+   * **[!UICONTROL Nur bearbeitbare Inhalte]**: Sperrt die Stile der Komponente, aber lässt das Bearbeiten der Inhalte zu.
+   * **[!UICONTROL Gesperrt]**: Sperrt sowohl den Inhalt als auch die Stile der Komponente vollständig.
 
    >[!NOTE]
    >
-   >Der **[!UICONTROL Bearbeitbare]** Sperrtyp ermöglicht Benutzern das Bearbeiten einer Komponente, auch innerhalb einer gesperrten Struktur. [Erfahren Sie, wie Sie Strukturen sperren](#lock-structures)
+   >Der Sperrtyp **[!UICONTROL Bearbeitbar]** ermöglicht Benutzenden das Bearbeiten einer Komponente auch innerhalb einer gesperrten Struktur. [Informationen zum Sperren von Strukturen](#lock-structures)
 
 1. Standardmäßig können Benutzende gesperrte Komponenten nicht löschen. Sie können das Löschen aktivieren, indem Sie die Option **[!UICONTROL Löschen zulassen]** aktivieren.
 
 ### Identifizieren gesperrter Inhalte {#identify}
 
-Um gesperrte Strukturen und Komponenten in Ihrer Vorlage leicht zu identifizieren, verwenden Sie **[!UICONTROL Navigationsbaum]** im Menü links. Dieses Menü bietet einen visuellen Überblick über alle Vorlagenelemente, wobei gesperrte Elemente mit einem Sperrsymbol und bearbeitbare Elemente mit einem Bleistiftsymbol hervorgehoben werden.
+Um gesperrte Strukturen und Komponenten in Ihrer Vorlage leicht zu identifizieren, verwenden Sie den **[!UICONTROL Navigationsbaum]** im Menü links. Dieses Menü bietet einen visuellen Überblick über alle Vorlagenelemente, wobei gesperrte Elemente mit einem Sperrsymbol und bearbeitbare Elemente mit einem Bleistiftsymbol gekennzeichnet sind.
 
-Im folgenden Beispiel ist Governance für den Vorlagentext aktiviert. *Struktur 2* ist mit *Komponente 1* bearbeitbar gesperrt, während *Struktur 3* vollständig gesperrt ist.
+Im folgenden Beispiel ist „Governance“ für den Vorlagentext aktiviert. *Struktur 2* ist gesperrt, wobei *Komponente 1* bearbeitbar ist. *Struktur 3* ist vollständig gesperrt.
 
 ![](assets/template-lock-navigation.png)
 
@@ -175,7 +175,7 @@ Bei Verwendung einer Vorlage mit gesperrtem Inhalt wird im rechten Bereich eine 
 
 Je nach Typ der auf die Vorlage angewendeten Sperre können Sie verschiedene Aktionen für die Strukturen und Komponenten der Vorlage ausführen. Um alle bearbeitbaren Bereiche in der Vorlage schnell zu identifizieren, schalten Sie die Option **[!UICONTROL Bearbeitbare Bereiche markieren]** ein.
 
-In der folgenden Vorlage können beispielsweise alle Bereiche bearbeitet werden, mit Ausnahme des oberen Bildes, das gesperrt wurde, sodass Sie es nicht bearbeiten oder entfernen können.
+In der folgenden Vorlage können beispielsweise alle Bereiche bearbeitet werden, mit Ausnahme des oberen Bildes. Dieses ist gesperrt, sodass Sie es nicht bearbeiten oder entfernen können.
 
 ![](assets/template-lock-highlight.png)
 
@@ -184,14 +184,14 @@ Detaillierte Informationen zu den verschiedenen Sperrtypen, die angewendet werde
 * [Sperren von Strukturen](#lock-structures)
 * [Sperren von Komponenten](#lock-components)
 
-Im Folgenden finden Sie einige Beispiele für E-Mail-Editionen und die zugehörigen Konfigurationen zum Sperren von Inhalten, die eingerichtet wurden:
+Im Folgenden finden Sie einige Beispiele für E-Mail-Bearbeitungen und die zugehörigen Konfigurationen zum Sperren von Inhalten, die eingerichtet wurden:
 
-| Typ der Inhaltssperre | Vorlagenkonfiguration | E-Mail-Bearbeitung |
+| Typ der Inhaltssperre | Konfiguration der Vorlage | E-Mail-Bearbeitung |
 | ------- | ------- | ------- |
 | Schreibgeschützte Inhaltsvorlage | ![](assets/locking-sample-read-only-conf.png){zoomable="yes"} | ![](assets/locking-sample-read-only.png){zoomable="yes"} |
-| Vollständiger Inhalt kann bearbeitet werden, Benutzende können jedoch keine Struktur oder Komponente hinzufügen | ![](assets/locking-sample-no-addition-conf.png){zoomable="yes"} | ![](assets/locking-sample-no-addition.png){zoomable="yes"} |
+| Gesamter Inhalt kann bearbeitet werden, Benutzende können jedoch weder Strukturen noch Komponenten hinzufügen | ![](assets/locking-sample-no-addition-conf.png){zoomable="yes"} | ![](assets/locking-sample-no-addition.png){zoomable="yes"} |
 | Gesperrte Struktur, die nicht gelöscht werden kann | ![](assets/locking-sample-structure-locked-conf.png){zoomable="yes"} | ![](assets/locking-sample-structure-locked.png){zoomable="yes"} |
-| Komponente mit gesperrten Stilen. Benutzer können nur den Inhalt ändern. | ![](assets/locking-sample-content-only-conf.png){zoomable="yes"} | ![](assets/locking-sample-content-only.png){zoomable="yes"} |
+| Komponente mit gesperrten Stilen. Benutzende können nur den Inhalt ändern. | ![](assets/locking-sample-content-only-conf.png){zoomable="yes"} | ![](assets/locking-sample-content-only.png){zoomable="yes"} |
 | Bearbeitbare Komponente in einer gesperrten Struktur. | ![](assets/locking-sample-editable-component-conf.png){zoomable="yes"} | ![](assets/locking-sample-editable-component.png){zoomable="yes"} |
 
 <!--
@@ -201,4 +201,4 @@ TO REPLACE WITH VIDEO FOR CAMPAIGN IF/WHEN CREATED
 
 Learn how to lock content in email templates.
 
->[!VIDEO](https://video.tv.adobe.com/v/3451616?quality=12&captions=ger)-->
+>[!VIDEO](https://video.tv.adobe.com/v/3451591?quality=12)-->

@@ -3,9 +3,9 @@ title: Verwalten eines externen Kontos
 description: Informationen zum Konfigurieren externer Konten
 exl-id: 52b4ec99-4f55-4e0b-8a54-b25058d97b02
 source-git-commit: 1a5f49cfdf56a21faedcef3029b62b88ebd81c8d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '246'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 86%
 >abstract="Als Campaign-Admin können Sie nun über die Campaign Web-Benutzeroberfläche neue Verbindungen mit externen Systemen einrichten. Sie haben zudem die Möglichkeit, vorhandene externe Konten anzuzeigen, zu aktualisieren und zu verwalten."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=de" text="Siehe Versionshinweise"
 
-Gehen Sie wie folgt vor, um ein neues externes Konto zu erstellen. Die spezifischen Konfigurationseinstellungen hängen vom Typ des externen Kontos ab, das Sie erstellen.
+Gehen Sie wie folgt vor, um ein neues externes Konto zu erstellen. Die konkreten Konfigurationseinstellungen hängen vom Typ des externen Kontos ab, das Sie erstellen.
 
 1. Wählen Sie im Menü im linken Fensterbereich unter **[!UICONTROL Administration]** die Option **[!UICONTROL Externe Konten]** aus.
 
@@ -25,11 +25,11 @@ Gehen Sie wie folgt vor, um ein neues externes Konto zu erstellen. Die spezifisc
 
    ![Screenshot mit der Option zum Erstellen eines externen Kontos in der Web-Benutzeroberfläche](assets/external_account_create_1.png)
 
-1. Geben Sie Ihren **[!UICONTROL Titel]** ein und wählen Sie den **[!UICONTROL Typ]** des externen Kontos aus.
+1. Geben Sie Ihren **[!UICONTROL Label]** ein und wählen Sie den **[!UICONTROL Typ]** des externen Kontos aus.
 
-   * [Kampagnenspezifische Typen](external-account.md)
-   * [Adobe Lösungsintegration](integration-external-account.md)
-   * [Daten übertragen](transfer-external-account.md)
+   * [Campaign-spezifische Typen](external-account.md)
+   * [Integration von Adobe-Lösungen](integration-external-account.md)
+   * [Übertragen von Daten](transfer-external-account.md)
    * [Externe Datenbank](external-account-database.md)
 
    ![Screenshot mit Feldern zum Eingeben des Labels und Auswählen des externen Kontotyps](assets/external_account_create_2.png)

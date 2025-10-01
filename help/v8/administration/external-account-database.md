@@ -1,50 +1,51 @@
 ---
 title: Verwalten eines externen Kontos
 description: Informationen zum Konfigurieren externer Konten
-source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
-workflow-type: tm+mt
+exl-id: 8f41312e-422f-4be1-b874-1b143c500912
+source-git-commit: 155a7f3fb55a579dbf9a2ad81a1dc7e4ea3847df
+workflow-type: ht
 source-wordcount: '3892'
-ht-degree: 2%
+ht-degree: 100%
 
 ---
 
 # Externe Datenbankkonten {#external-accounts}
 
-Verwenden Sie ein externes Konto vom Typ Externe Datenbank , um Adobe Campaign mit einer Drittanbieterdatenbank zu verbinden.
+Verwenden Sie ein externes Konto vom Typ „Externe Datenbank“, um Adobe Campaign mit einer Drittanbieterdatenbank zu verbinden.
 
 Die Konfigurationseinstellungen für das externe Konto variieren je nach der Datenbank-Engine, mit der Sie eine Verbindung herstellen. Detaillierte Anweisungen zu den einzelnen unterstützten Datenbanken finden Sie in den folgenden Abschnitten.
 
 ## Amazon Redshift
 
-Mit dem externen Konto von Amazon Redshift können Sie Ihre Campaign-Instanz mit Ihrer externen Amazon Redshift-Datenbank verbinden.
+Über das externe Konto „Amazon Redshift“ können Sie Ihre Campaign-Instanz mit Ihrer externen Amazon Redshift-Datenbank verbinden.
 
-Konfigurieren Sie in der Adobe Campaign-Web-Benutzeroberfläche Ihr externes Amazon Redshift-Konto.
+Konfigurieren Sie Ihr externes Konto „Amazon Redshift“ in der Adobe Campaign Web-Benutzeroberfläche.
 
-1. [Erstellen Sie Ihr externes ](external-account.md) und wählen Sie **[!UICONTROL Externe]**) als **[!UICONTROL Typ]** Ihres externen Kontos und Amazon Redshift als **[!UICONTROL Anbietertyp]**.
+1. [Erstellen Sie Ihr externes Konto](external-account.md) und wählen Sie **[!UICONTROL Externe Datenbank]** als **[!UICONTROL Typ]** Ihres externen Kontos und „Amazon Redshift“ als **[!UICONTROL Anbietertyp]** aus.
 
 1. Klicken Sie auf **[!UICONTROL Erstellen]**.
 
-1. Um das externe Konto **[!UICONTROL Amazon Redshift]** zu konfigurieren, füllen Sie die folgenden Felder aus:
+1. Um das externe Konto **[!UICONTROL Amazon Redshift]** zu konfigurieren, füllen Sie folgende Felder aus:
 
-   * **[!UICONTROL Type]**: Amazon Redshift
+   * **[!UICONTROL Typ]**: Amazon Redshift
 
    * **[!UICONTROL Server]**: Geben Sie den DNS-Namen Ihres Redshift-Servers ein.
 
-   * **[!UICONTROL Konto]**: Geben Sie den RedShift-Benutzernamen an, der für die Authentifizierung verwendet wird.
+   * **[!UICONTROL Konto]**: Geben Sie den RedShift-Benutzernamen an, der für die Authentifizierung verwendet werden soll.
 
-   * **[!UICONTROL Kennwort]**: Geben Sie das mit dem Benutzerkonto verknüpfte Kennwort ein.
+   * **[!UICONTROL Passwort]**: Geben Sie das mit dem Benutzerkonto verknüpfte Passwort ein.
 
    * **[!UICONTROL Datenbank]**: Geben Sie den Datenbanknamen an, sofern er nicht bereits im DSN definiert ist. Lassen Sie dieses Feld leer, wenn das DSN die Datenbank enthält.
 
-   * **[!UICONTROL Arbeitsschema]**: Geben Sie den Schemanamen ein, in dem Adobe Campaign ausgeführt werden soll.
+   * **[!UICONTROL Arbeitsschema]**: Geben Sie den Namen des Schemas ein, in dem Adobe Campaign ausgeführt werden soll.
 
    * **[!UICONTROL Optionen]**: Fügen Sie alle erweiterten Konfigurationsoptionen hinzu, die für Ihre Umgebung erforderlich sein können.
 
    * **[!UICONTROL Zeitzone]**: Wählen Sie die Zeitzone des Servers aus oder geben Sie sie ein, um genaue zeitbasierte Vorgänge sicherzustellen.
 
-   ![Screenshot mit den Konfigurationsfeldern für das externe Amazon Redshift-Konto.](assets/ext-account-amazon.png)
+   ![Screenshot mit den Feldern zur Konfiguration des externen Kontos „Amazon Redshift“.](assets/ext-account-amazon.png)
 
-1. Erstellen Sie nach dem Einrichten der Verbindung die Adobe Campaign SQL-Funktionen in Ihrer Remote Redshift-Datenbank. Sobald diese Funktionen verfügbar sind, klicken Sie auf **[!UICONTROL Funktionen bereitstellen]** um sie zu aktivieren.
+1. Erstellen Sie nach dem Einrichten der Verbindung die Adobe Campaign SQL-Funktionen in Ihrer Redshift-Remote-Datenbank. Sobald diese Funktionen verfügbar sind, klicken Sie auf **[!UICONTROL Funktionen bereitstellen]**, um sie zu aktivieren.
 
 1. Verknüpfen Sie Ihr **[!UICONTROL Speicherkonto]**, um die Leistung zu optimieren und schnellere Datenladevorgänge zwischen Adobe Campaign und Amazon Redshift zu ermöglichen.
 
@@ -52,468 +53,468 @@ Konfigurieren Sie in der Adobe Campaign-Web-Benutzeroberfläche Ihr externes Ama
 
 ## Amazon Redshift (veraltet)
 
-Mit dem externen Konto Amazon Redshift (Legacy) können Sie Ihre Campaign-Instanz mit Ihrer externen Amazon Redshift-Datenbank verbinden.
+Über das externe Konto „Amazon Redshift (veraltet)“ können Sie Ihre Campaign-Instanz mit Ihrer externen Amazon Redshift-Datenbank verbinden.
 
-Konfigurieren Sie in der Adobe Campaign-Web-Benutzeroberfläche Ihr externes Amazon Redshift-Konto (veraltetes Konto).
+Konfigurieren Sie Ihr externes Konto „Amazon Redshift (veraltet)“ in der Adobe Campaign Web-Benutzeroberfläche.
 
-1. [Erstellen Sie Ihr externes ](external-account.md) und wählen Sie **[!UICONTROL Externe Datenbank]** als **[!UICONTROL Typ]** Ihres externen Kontos und Amazon Redshift (veraltet) als **[!UICONTROL Anbietertyp]**.
+1. [Erstellen Sie Ihr externes Konto](external-account.md) und wählen Sie **[!UICONTROL Externe Datenbank]** als **[!UICONTROL Typ]** Ihres externen Kontos und „Amazon Redshift (veraltet)“ als **[!UICONTROL Anbietertyp]** aus.
 
 1. Klicken Sie auf **[!UICONTROL Erstellen]**.
 
-1. Um das externe Konto **[!UICONTROL Amazon Redshift (Legacy)]** zu konfigurieren, füllen Sie die folgenden Felder aus:
+1. Um das externe Konto **[!UICONTROL Amazon Redshift (veraltet)]** zu konfigurieren, füllen Sie folgende Felder aus:
 
-   * **[!UICONTROL Type]**: Amazon Redshift (veraltet)
+   * **[!UICONTROL Typ]**: Amazon Redshift (veraltet)
 
    * **[!UICONTROL Server]**: Geben Sie den DNS-Namen Ihres Redshift-Servers ein.
 
-   * **[!UICONTROL Konto]**: Geben Sie den RedShift-Benutzernamen an, der für die Authentifizierung verwendet wird.
+   * **[!UICONTROL Konto]**: Geben Sie den RedShift-Benutzernamen an, der für die Authentifizierung verwendet werden soll.
 
-   * **[!UICONTROL Kennwort]**: Geben Sie das mit dem Benutzerkonto verknüpfte Kennwort ein.
+   * **[!UICONTROL Passwort]**: Geben Sie das mit dem Benutzerkonto verknüpfte Passwort ein.
 
    * **[!UICONTROL Datenbank]**: Geben Sie den Datenbanknamen an, sofern er nicht bereits im DSN definiert ist. Lassen Sie dieses Feld leer, wenn das DSN die Datenbank enthält.
 
-   * **[!UICONTROL Arbeitsschema]**: Geben Sie den Schemanamen ein, in dem Adobe Campaign ausgeführt werden soll.
+   * **[!UICONTROL Arbeitsschema]**: Geben Sie den Namen des Schemas ein, in dem Adobe Campaign ausgeführt werden soll.
 
    * **[!UICONTROL Zeitzone]**: Wählen Sie die Zeitzone des Servers aus oder geben Sie sie ein, um genaue zeitbasierte Vorgänge sicherzustellen.
 
-   ![Screenshot mit den Konfigurationsfeldern für das externe Amazon Redshift (veraltete)-Konto.](assets/ext-account-amazon-legacy.png)
+   ![Screenshot mit den Feldern zur Konfiguration des externen Kontos „Amazon Redshift (veraltet)“.](assets/ext-account-amazon-legacy.png)
 
-1. Erstellen Sie nach dem Einrichten der Verbindung die Adobe Campaign SQL-Funktionen in Ihrer Remote Redshift-Datenbank. Sobald diese Funktionen verfügbar sind, klicken Sie auf **[!UICONTROL Funktionen bereitstellen]** um sie zu aktivieren.
+1. Erstellen Sie nach dem Einrichten der Verbindung die Adobe Campaign SQL-Funktionen in Ihrer Redshift-Remote-Datenbank. Sobald diese Funktionen verfügbar sind, klicken Sie auf **[!UICONTROL Funktionen bereitstellen]**, um sie zu aktivieren.
 
 ## Azure Synapse Analytics
 
-Mit dem externen Konto Azure Synapse Analytics können Sie Ihre Campaign-Instanz mit Ihrer externen Azure Synapse-Datenbank verbinden.
+Über das externe Konto „Azure Synapse Analytics“ können Sie Ihre Campaign-Instanz mit Ihrer externen Azure Synapse-Datenbank verbinden.
 
-Konfigurieren Sie in der Adobe Campaign-Web-Benutzeroberfläche Ihr externes Azure Synapse Analytics-Konto.
+Konfigurieren Sie Ihr externes Konto „Azure Synapse Analytics“ in der Adobe Campaign Web-Benutzeroberfläche.
 
-1. [Erstellen Sie Ihr externes ](external-account.md) und wählen Sie **[!UICONTROL Externe]**) als **[!UICONTROL Typ]** Ihres externen Kontos und Amazon Redshift als **[!UICONTROL Anbietertyp]**.
+1. [Erstellen Sie Ihr externes Konto](external-account.md) und wählen Sie **[!UICONTROL Externe Datenbank]** als **[!UICONTROL Typ]** Ihres externen Kontos und „Amazon Redshift“ als **[!UICONTROL Anbietertyp]** aus.
 
 1. Klicken Sie auf **[!UICONTROL Erstellen]**.
 
-1. Um das externe Konto **[!UICONTROL Azure Synapse Analytics]** zu konfigurieren, füllen Sie die folgenden Felder aus:
+1. Um das externe Konto **[!UICONTROL Azure Synapse Analytics]** zu konfigurieren, füllen Sie folgende Felder aus:
 
-   * **[!UICONTROL Typ]**: Azurblase Synapse Analytics
+   * **[!UICONTROL Typ]**: Azure Synapse Analytics
 
    * **[!UICONTROL Server]**: Geben Sie die URL des Azure Synapse-Servers ein.
 
-   * **[!UICONTROL Konto]**: Geben Sie den Benutzernamen an, der sich bei der Synapse-Datenbank authentifiziert.
+   * **[!UICONTROL Konto]**: Geben Sie den Benutzernamen an, der für die Authentifizierung bei der Synapse-Datenbank verwendet werden soll.
 
-   * **[!UICONTROL Kennwort]**: Geben Sie das mit dem Konto verknüpfte Kennwort ein.
+   * **[!UICONTROL Passwort]**: Geben Sie das mit dem Konto verknüpfte Passwort ein.
 
    * **[!UICONTROL Datenbank]**: Geben Sie die Zieldatenbank an, mit der Adobe Campaign eine Verbindung herstellen soll.
 
-   * **[!UICONTROL Präfix für Tabellen und Funktionen]**: Standardmäßig ist dies auf den Kontonamen festgelegt. Sie können sie anpassen, wenn Sie ein anderes Präfix zum Identifizieren von Campaign-bezogenen Objekten verwenden möchten.
+   * **[!UICONTROL Präfix für Tabellen und Funktionen]**: Standardmäßig ist dies auf den Kontonamen festgelegt. Sie können diese Option anpassen, wenn Sie ein anderes Präfix zum Identifizieren von Campaign-bezogenen Objekten verwenden möchten.
 
    * **[!UICONTROL Optionen]**: Fügen Sie alle erweiterten Konfigurationsoptionen hinzu, die für Ihre Umgebung erforderlich sein können.
 
    * **[!UICONTROL Zeitzone]**: Wählen Sie die Zeitzone des Servers aus oder geben Sie sie ein, um genaue zeitbasierte Vorgänge sicherzustellen.
 
-   ![Screenshot mit den Konfigurationsfeldern für das externe Azure Synapse Analytics-Konto.](assets/ext-account-azure.png)
+   ![Screenshot mit den Feldern zur Konfiguration des externen Kontos „Azure Synapse Analytics“.](assets/ext-account-azure.png)
 
-1. Sie können die Option **[!UICONTROL Arbeits-Tablespace für Tabellen verwenden]** aktivieren und dann den **[!UICONTROL Tablespace für Tabellen]** angeben, in dem Ihre Arbeitstabellen gespeichert werden.
+1. Sie können die Option **[!UICONTROL Arbeits-Tablespace für Tabellen verwenden]** aktivieren und dann den **[!UICONTROL Tabellen-Tablespace]** angeben, in dem Ihre Arbeitstabellen gespeichert werden.
 
 1. Aktivieren Sie bei Bedarf die Option **[!UICONTROL Arbeits-Tablespace für Indizes verwenden]** und geben Sie dann den **[!UICONTROL Index-Tablespace]** an.
 
-   ![Screenshot mit den Konfigurationsfeldern für das externe Azure Synapse Analytics-Konto.](assets/ext-account-azure-2.png)
+   ![Screenshot mit den Feldern zur Konfiguration des externen Kontos „Azure Synapse Analytics“.](assets/ext-account-azure-2.png)
 
-1. Erstellen Sie nach dem Einrichten der Verbindung die Adobe Campaign SQL-Funktionen in Ihrer Remote-Azure Synapse Analytics-Datenbank. Sobald diese Funktionen verfügbar sind, klicken Sie auf **[!UICONTROL Funktionen bereitstellen]** um sie zu aktivieren.
+1. Erstellen Sie nach dem Einrichten der Verbindung die Adobe Campaign SQL-Funktionen in Ihrer Azure Synapse Analytics-Remote-Datenbank. Sobald diese Funktionen verfügbar sind, klicken Sie auf **[!UICONTROL Funktionen bereitstellen]**, um sie zu aktivieren.
 
 ## Databricks
 
-Mit dem externen Konto Databricks können Sie Ihre Campaign-Instanz mit Ihrer externen Databricks-Datenbank verbinden.
+Über das externe Konto „Databricks“ können Sie Ihre Campaign-Instanz mit Ihrer externen Databricks-Datenbank verbinden.
 
-Konfigurieren Sie in der Adobe Campaign-Web-Benutzeroberfläche Ihr externes DataBricks-Konto.
+Konfigurieren Sie Ihr externes Konto „Databricks“ in der Adobe Campaign Web-Benutzeroberfläche.
 
-1. [Erstellen Sie Ihr externes ](external-account.md) und wählen Sie **[!UICONTROL Externe Datenbank]** als **[!UICONTROL Typ]** und Datenblöcke als **[!UICONTROL Anbietertyp]**.
+1. [Erstellen Sie Ihr externes Konto](external-account.md) und wählen Sie **[!UICONTROL Externe Datenbank]** als **[!UICONTROL Typ]** Ihres externen Kontos und „Databricks“ als **[!UICONTROL Anbietertyp]** aus.
 
 1. Klicken Sie auf **[!UICONTROL Erstellen]**.
 
-1. Um das externe Konto **[!UICONTROL Databricks]** zu konfigurieren, füllen Sie die folgenden Felder aus:
+1. Um das externe Konto **[!UICONTROL Databricks]** zu konfigurieren, füllen Sie folgende Felder aus:
 
-   * **[!UICONTROL type]**: Databricks
+   * **[!UICONTROL Typ]**: Databricks
 
    * **[!UICONTROL Server]**: Geben Sie den DNS-Namen Ihres Databricks-Servers ein.
 
-   * **[!UICONTROL Konto]**: Geben Sie den Databricks-Benutzernamen an, der für die Authentifizierung verwendet wird.
+   * **[!UICONTROL Konto]**: Geben Sie den Databricks-Benutzernamen an, der für die Authentifizierung verwendet werden soll.
 
-   * **[!UICONTROL Kennwort]**: Geben Sie das mit dem Benutzerkonto verknüpfte Kennwort ein.
+   * **[!UICONTROL Passwort]**: Geben Sie das mit dem Benutzerkonto verknüpfte Passwort ein.
 
    * **[!UICONTROL Katalog]**: Geben Sie den Katalog an, den Sie verwenden möchten.
 
-   * **[!UICONTROL Arbeitsschema]**: Geben Sie den Namen des Schemas ein, in dem Adobe Campaign seine Arbeitsobjekte erstellt und verwaltet.
+   * **[!UICONTROL Arbeitsschema]**: Geben Sie den Namen des Schemas ein, in dem Adobe Campaign seine Arbeitsobjekte erstellen und verwalten soll.
 
    * **[!UICONTROL Optionen]**: Fügen Sie alle erweiterten Konfigurationsoptionen hinzu, die für Ihre Umgebung erforderlich sein können.
 
-   ![Screenshot mit den Konfigurationsfeldern des externen Datenbricks-Kontos.](assets/ext-account-databricks.png)
+   ![Screenshot mit den Feldern zur Konfiguration des externen Kontos „Databricks“.](assets/ext-account-databricks.png)
 
-1. Erstellen Sie nach dem Einrichten der Verbindung die Adobe Campaign SQL-Funktionen in Ihrer Remote-Datenbank von Databricks. Sobald diese Funktionen verfügbar sind, klicken Sie auf **[!UICONTROL Funktionen bereitstellen]** um sie zu aktivieren.
+1. Erstellen Sie nach dem Einrichten der Verbindung die Adobe Campaign SQL-Funktionen in Ihrer Databricks-Remote-Datenbank. Sobald diese Funktionen verfügbar sind, klicken Sie auf **[!UICONTROL Funktionen bereitstellen]**, um sie zu aktivieren.
 
 1. Verknüpfen Sie Ihr **[!UICONTROL Speicherkonto]**, um die Leistung zu optimieren und schnellere Datenladevorgänge zwischen Adobe Campaign und Databricks zu ermöglichen.
 
 ## Google BigQuery
 
-Mit dem externen Google BigQuery-Konto können Sie Ihre Campaign-Instanz mit Ihrer externen Google BigQuery-Datenbank verbinden.
+Über das externe Konto „Google BigQuery“ können Sie Ihre Campaign-Instanz mit Ihrer externen Google BigQuery-Datenbank verbinden.
 
-Konfigurieren Sie in der Adobe Campaign-Web-Benutzeroberfläche Ihr externes Google BigQuery-Konto.
+Konfigurieren Sie Ihr externes Konto „Google BigQuery“ in der Adobe Campaign Web-Benutzeroberfläche.
 
-1. [Erstellen Sie Ihr externes ](external-account.md) und wählen Sie **[!UICONTROL Externe]** Datenbank) als **[!UICONTROL Typ]** und Google BigQuery als **[!UICONTROL Anbietertyp]**.
+1. [Erstellen Sie Ihr externes Konto](external-account.md) und wählen Sie **[!UICONTROL Externe Datenbank]** als **[!UICONTROL Typ]** Ihres externen Kontos und „Google BigQuery“ als **[!UICONTROL Anbietertyp]** aus.
 
 1. Klicken Sie auf **[!UICONTROL Erstellen]**.
 
-1. Um das externe Konto **[!UICONTROL Google BigQuery]** zu konfigurieren, füllen Sie die folgenden Felder aus:
+1. Um das externe Konto **[!UICONTROL Google BigQuery]** zu konfigurieren, füllen Sie folgende Felder aus:
 
-   * **[!UICONTROL Type]**: Google BigQuery
+   * **[!UICONTROL Typ]**: Google BigQuery
 
-   * **[!UICONTROL Konto]**: Geben Sie den Benutzernamen oder das Dienstkonto ein, das Adobe Campaign für die Verbindung mit BigQuery verwenden wird.
+   * **[!UICONTROL Konto]**: Geben Sie den Benutzernamen oder das Service-Konto ein, den bzw. das Adobe Campaign für die Verbindung mit BigQuery verwenden soll.
 
-   * **[!UICONTROL Methode zum Hochladen der Anmeldedatei]**: Wählen Sie aus, wie der Schlüssel für das Service-Konto bereitgestellt werden soll, indem Sie entweder den Pfad der Schlüsseldatei manuell eingeben oder die Schlüsseldatei direkt auf den Server hochladen.
+   * **[!UICONTROL Upload-Methode für Anmeldedatei]**: Wählen Sie aus, wie der Schlüssel für das Service-Konto bereitgestellt werden soll. Geben Sie entweder den Pfad der Schlüsseldatei manuell ein oder laden Sie die Schlüsseldatei direkt auf den Server hoch.
 
    * **[!UICONTROL Server]**: Wenn Sie die Option für die manuelle Eingabe auswählen, geben Sie die Server-URL an.
 
-   * **[!UICONTROL Projekt]**: Geben Sie die Google Cloud-Projekt-ID an, die Ihrer BigQuery-Instanz zugeordnet ist.
+   * **[!UICONTROL Projekt]**: Geben Sie die Google Cloud-Projekt-ID an, die mit Ihrer BigQuery-Instanz verknüpft ist.
 
    * **[!UICONTROL Datensatz]**: Geben Sie den Namen des Datensatzes ein, in dem Adobe Campaign Daten speichert und abfragt.
 
    * **[!UICONTROL Optionen]**: Fügen Sie alle erweiterten Konfigurationsoptionen hinzu, die für Ihre Umgebung erforderlich sein können.
 
-   ![Screenshot mit den Konfigurationsfeldern für das externe Google BigQuery-Konto.](assets/ext-account-google.png)
+   ![Screenshot mit den Feldern zur Konfiguration des externen Kontos „Google BigQuery“.](assets/ext-account-google.png)
 
-1. Fügen **[!UICONTROL unter &quot;]**&quot; den Inhalt der JSON-Datei des Service-Kontoschlüssels ein, um Adobe Campaign mit Google BigQuery zu authentifizieren.
+1. Fügen Sie unter **[!UICONTROL Parameter]** den Inhalt der JSON-Schlüsseldatei für das Service-Konto ein, um Adobe Campaign bei Google BigQuery zu authentifizieren.
 
-1. Erstellen Sie nach dem Einrichten der Verbindung die Adobe Campaign SQL-Funktionen in Ihrer Remote-Google BigQuery-Datenbank. Sobald diese Funktionen verfügbar sind, klicken Sie auf **[!UICONTROL Funktionen bereitstellen]** um sie zu aktivieren.
+1. Erstellen Sie nach dem Einrichten der Verbindung die Adobe Campaign SQL-Funktionen in Ihrer Google BigQuery-Remote-Datenbank. Sobald diese Funktionen verfügbar sind, klicken Sie auf **[!UICONTROL Funktionen bereitstellen]**, um sie zu aktivieren.
 
-1. Wenn Ihre Umgebung Proxy-Zugriff benötigt, um eine Verbindung zum BigQuery-Server herzustellen, konfigurieren Sie die Proxy-Einstellungen.
+1. Wenn Ihre Umgebung Proxy-Zugriff zum Herstellen einer Verbindung zum BigQuery-Server benötigt, konfigurieren Sie die Proxy-Einstellungen.
 
-   Wählen Sie zunächst Ihren Proxy-Typ aus: http, http_no_tunnel, socks4 oder socks5.
+   Wählen Sie zunächst Ihren Proxy-Typ aus: „http“, „http_no_tunnel“, „socks4“ oder „socks5“.
 
-1. Füllen Sie die folgenden Proxy-Konfigurationsfelder aus, um einen sicheren Zugriff zu ermöglichen:
+1. Füllen Sie die folgenden Felder zur Proxy-Konfiguration aus, um einen sicheren Zugriff zu ermöglichen:
 
    * **[!UICONTROL Proxy-Host]**: Die Adresse des Proxy-Servers.
    * **[!UICONTROL Proxy-Port]**: Der vom Proxy-Server verwendete Port.
-   * **[!UICONTROL Proxy UID]**: Die Benutzer-ID für die Authentifizierung beim Proxy-Server, falls erforderlich.
-   * **[!UICONTROL Proxy-Host]**: Das Kennwort, das dem Proxy-UID entspricht (falls zutreffend).
+   * **[!UICONTROL Proxy-UID]**: Die Benutzer-ID für die Authentifizierung beim Proxy-Server, falls erforderlich.
+   * **[!UICONTROL Proxy-Host]**: Das Passwort, das der Proxy-UID entspricht (falls zutreffend).
 
-   ![Screenshot mit den Konfigurationsfeldern für das externe Google BigQuery-Konto.](assets/ext-account-google-2.png)
+   ![Screenshot mit den Feldern zur Konfiguration des externen Kontos „Google BigQuery“.](assets/ext-account-google-2.png)
 
 ## Microsoft SQL Server
 
-Mit dem externen Microsoft SQL Server-Konto können Sie Ihre Campaign-Instanz mit Ihrer externen Microsoft SQL Server-Datenbank verbinden.
+Über das externe Konto „Microsoft SQL Server“ können Sie Ihre Campaign-Instanz mit Ihrer externen Microsoft SQL Server-Datenbank verbinden.
 
-Konfigurieren Sie in der Adobe Campaign-Web-Benutzeroberfläche Ihr externes Microsoft SQL Server-Konto.
+Konfigurieren Sie Ihr externes Konto „Microsoft SQL Server“ in der Adobe Campaign Web-Benutzeroberfläche.
 
-1. [Externes Konto erstellen](external-account.md) und wählen Sie **[!UICONTROL Externe]** Datenbank) als **[!UICONTROL Typ]** und Microsoft SQL Server als **[!UICONTROL Anbietertyp]**.
+1. [Erstellen Sie Ihr externes Konto](external-account.md) und wählen Sie **[!UICONTROL Externe Datenbank]** als **[!UICONTROL Typ]** Ihres externen Kontos und „Microsoft SQL Server“ als **[!UICONTROL Anbietertyp]** aus.
 
 1. Klicken Sie auf **[!UICONTROL Erstellen]**.
 
-1. Um das externe Konto **[!UICONTROL Microsoft SQL Server]** zu konfigurieren, füllen Sie die folgenden Felder aus:
+1. Um das externe Konto **[!UICONTROL Microsoft SQL Server]** zu konfigurieren, füllen Sie folgende Felder aus:
 
-   * **[!UICONTROL Type]**: Microsoft SQL Server
+   * **[!UICONTROL Typ]**: Microsoft SQL Server
 
-   * **[!UICONTROL Server]**: Geben Sie den DNS-Namen Ihres Microsoft SQL Servers ein.
+   * **[!UICONTROL Server]**: Geben Sie den DNS-Namen Ihres Microsoft SQL-Servers ein.
 
-   * **[!UICONTROL Konto]**: Geben Sie den Microsoft SQL Server-Benutzernamen an, der für die Authentifizierung verwendet wird.
+   * **[!UICONTROL Konto]**: Geben Sie den Microsoft SQL Server-Benutzernamen an, der für die Authentifizierung verwendet werden soll.
 
-   * **[!UICONTROL Kennwort]**: Geben Sie das mit dem Benutzerkonto verknüpfte Kennwort ein.
+   * **[!UICONTROL Passwort]**: Geben Sie das mit dem Benutzerkonto verknüpfte Passwort ein.
 
    * **[!UICONTROL Datenbank]**: Geben Sie den Datenbanknamen an, sofern er nicht bereits im DSN definiert ist. Lassen Sie dieses Feld leer, wenn das DSN die Datenbank enthält.
 
    * **[!UICONTROL Optionen]**: Fügen Sie alle erweiterten Konfigurationsoptionen hinzu, die für Ihre Umgebung erforderlich sein können.
 
-   * **[!UICONTROL Präfix für Tabellen und Funktionen]**: Standardmäßig ist dies auf den Kontonamen festgelegt. Sie können sie anpassen, wenn Sie ein anderes Präfix zum Identifizieren von Campaign-bezogenen Objekten verwenden möchten.
+   * **[!UICONTROL Präfix für Tabellen und Funktionen]**: Standardmäßig ist dies auf den Kontonamen festgelegt. Sie können diese Option anpassen, wenn Sie ein anderes Präfix zum Identifizieren von Campaign-bezogenen Objekten verwenden möchten.
 
    * **[!UICONTROL Zeitzone]**: Wählen Sie die Zeitzone des Servers aus oder geben Sie sie ein, um genaue zeitbasierte Vorgänge sicherzustellen.
 
-   ![Screenshot mit den Konfigurationsfeldern für das externe Microsoft SQL Server-Konto.](assets/ext-account-microsoft-sql.png)
+   ![Screenshot mit den Feldern zur Konfiguration des externen Kontos „Microsoft SQL Server“.](assets/ext-account-microsoft-sql.png)
 
-1. Sie können die Option **[!UICONTROL Arbeits-Tablespace für Tabellen verwenden]** aktivieren und dann den **[!UICONTROL Tablespace für Tabellen]** angeben, in dem Ihre Arbeitstabellen gespeichert werden.
+1. Sie können die Option **[!UICONTROL Arbeits-Tablespace für Tabellen verwenden]** aktivieren und dann den **[!UICONTROL Tabellen-Tablespace]** angeben, in dem Ihre Arbeitstabellen gespeichert werden.
 
 1. Aktivieren Sie bei Bedarf die Option **[!UICONTROL Arbeits-Tablespace für Indizes verwenden]** und geben Sie dann den **[!UICONTROL Index-Tablespace]** an.
 
-1. Erstellen Sie nach dem Einrichten der Verbindung die Adobe Campaign SQL-Funktionen in Ihrer Remote-Microsoft SQL Server-Datenbank. Sobald diese Funktionen verfügbar sind, klicken Sie auf **[!UICONTROL Funktionen bereitstellen]** um sie zu aktivieren.
+1. Erstellen Sie nach dem Einrichten der Verbindung die Adobe Campaign SQL-Funktionen in Ihrer Microsoft SQL Server-Remote-Datenbank. Sobald diese Funktionen verfügbar sind, klicken Sie auf **[!UICONTROL Funktionen bereitstellen]**, um sie zu aktivieren.
 
 ## MySQL
 
-Mit dem externen MySQL-Konto können Sie Ihre Campaign-Instanz mit Ihrer externen MySQL-Datenbank verbinden.
-Konfigurieren Sie in der Adobe Campaign-Web-Benutzeroberfläche Ihr externes MySQL-Konto.
+Über das externe Konto „MySQL“ können Sie Ihre Campaign-Instanz mit Ihrer externen MySQL-Datenbank verbinden.
+Konfigurieren Sie Ihr externes Konto „MySQL“ in der Adobe Campaign Web-Benutzeroberfläche.
 
-1. [Erstellen Sie Ihr externes ](external-account.md) und wählen Sie **[!UICONTROL Externe Datenbank]** als **[!UICONTROL Typ]** Ihres externen Kontos und MySQL als **[!UICONTROL Anbietertyp]**.
+1. [Erstellen Sie Ihr externes Konto](external-account.md) und wählen Sie **[!UICONTROL Externe Datenbank]** als **[!UICONTROL Typ]** Ihres externen Kontos und „MySQL“ als **[!UICONTROL Anbietertyp]** aus.
 
 1. Klicken Sie auf **[!UICONTROL Erstellen]**.
 
-1. Um das externe **[!UICONTROL MySQL]**-Konto zu konfigurieren, füllen Sie die folgenden Felder aus:
+1. Um das externe Konto **[!UICONTROL MySQL]** zu konfigurieren, füllen Sie folgende Felder aus:
 
-   * **[!UICONTROL Type]**: MySQL
+   * **[!UICONTROL Typ]**: MySQL
 
    * **[!UICONTROL Server]**: Geben Sie den DNS-Namen Ihres MySQL-Servers ein.
 
-   * **[!UICONTROL Konto]**: Geben Sie den MySQL-Benutzernamen an, der für die Authentifizierung verwendet wird.
+   * **[!UICONTROL Konto]**: Geben Sie den MySQL-Benutzernamen an, der für die Authentifizierung verwendet werden soll.
 
-   * **[!UICONTROL Kennwort]**: Geben Sie das mit dem Benutzerkonto verknüpfte Kennwort ein.
+   * **[!UICONTROL Passwort]**: Geben Sie das mit dem Benutzerkonto verknüpfte Passwort ein.
 
    * **[!UICONTROL Datenbank]**: Geben Sie den Datenbanknamen an, sofern er nicht bereits im DSN definiert ist. Lassen Sie dieses Feld leer, wenn das DSN die Datenbank enthält.
 
    * **[!UICONTROL Zeitzone]**: Wählen Sie die Zeitzone des Servers aus oder geben Sie sie ein, um genaue zeitbasierte Vorgänge sicherzustellen.
 
-   ![Screenshot mit den Konfigurationsfeldern für das externe MySQL-Konto.](assets/ext-account-mysql.png)
+   ![Screenshot mit den Feldern zur Konfiguration des externen Kontos „MySQL“.](assets/ext-account-mysql.png)
 
-1. Sie können die Option **[!UICONTROL Arbeits-Tablespace für Tabellen verwenden]** aktivieren und dann den **[!UICONTROL Tablespace für Tabellen]** angeben, in dem Ihre Arbeitstabellen gespeichert werden.
+1. Sie können die Option **[!UICONTROL Arbeits-Tablespace für Tabellen verwenden]** aktivieren und dann den **[!UICONTROL Tabellen-Tablespace]** angeben, in dem Ihre Arbeitstabellen gespeichert werden.
 
 1. Aktivieren Sie bei Bedarf die Option **[!UICONTROL Arbeits-Tablespace für Indizes verwenden]** und geben Sie dann den **[!UICONTROL Index-Tablespace]** an.
 
-1. Erstellen Sie nach dem Verbindungsaufbau die Adobe Campaign SQL-Funktionen in Ihrer entfernten MySQL-Datenbank. Sobald diese Funktionen verfügbar sind, klicken Sie auf **[!UICONTROL Funktionen bereitstellen]** um sie zu aktivieren.
+1. Erstellen Sie nach dem Einrichten der Verbindung die Adobe Campaign SQL-Funktionen in Ihrer MySQL-Remote-Datenbank. Sobald diese Funktionen verfügbar sind, klicken Sie auf **[!UICONTROL Funktionen bereitstellen]**, um sie zu aktivieren.
 
 ## Netezza
 
-Mit dem externen Konto Netezza können Sie Ihre Campaign-Instanz mit Ihrer externen Netezza-Datenbank verbinden.
+Über das externe Konto „Netezza“ können Sie Ihre Campaign-Instanz mit Ihrer externen Netezza-Datenbank verbinden.
 
-Konfigurieren Sie in der Adobe Campaign-Web-Benutzeroberfläche Ihr externes Netezza-Konto.
+Konfigurieren Sie Ihr externes Konto „Netezza“ in der Adobe Campaign Web-Benutzeroberfläche.
 
-1. [Erstellen Sie Ihr externes ](external-account.md) und wählen Sie **[!UICONTROL Externe]**) als **[!UICONTROL Typ]** und Netezza als **[!UICONTROL Anbietertyp]**.
+1. [Erstellen Sie Ihr externes Konto](external-account.md) und wählen Sie **[!UICONTROL Externe Datenbank]** als **[!UICONTROL Typ]** Ihres externen Kontos und „Netezza“ als **[!UICONTROL Anbietertyp]** aus.
 
 1. Klicken Sie auf **[!UICONTROL Erstellen]**.
 
-1. Um das externe Konto **[!UICONTROL Netezza]** zu konfigurieren, füllen Sie die folgenden Felder aus:
+1. Um das externe Konto **[!UICONTROL Netezza]** zu konfigurieren, füllen Sie folgende Felder aus:
 
    * **[!UICONTROL Typ]**: Netezza
 
    * **[!UICONTROL Server]**: Geben Sie den DNS-Namen Ihres Netezza-Servers ein.
 
-   * **[!UICONTROL Konto]**: Geben Sie den Netezza-Benutzernamen an, der für die Authentifizierung verwendet wird.
+   * **[!UICONTROL Konto]**: Geben Sie den Netezza-Benutzernamen an, der für die Authentifizierung verwendet werden soll.
 
-   * **[!UICONTROL Kennwort]**: Geben Sie das mit dem Benutzerkonto verknüpfte Kennwort ein.
+   * **[!UICONTROL Passwort]**: Geben Sie das mit dem Benutzerkonto verknüpfte Passwort ein.
 
    * **[!UICONTROL Datenbank]**: Geben Sie den Datenbanknamen an, sofern er nicht bereits im DSN definiert ist. Lassen Sie dieses Feld leer, wenn das DSN die Datenbank enthält.
 
    * **[!UICONTROL Zeitzone]**: Wählen Sie die Zeitzone des Servers aus oder geben Sie sie ein, um genaue zeitbasierte Vorgänge sicherzustellen.
 
-   ![Screenshot mit den Konfigurationsfeldern für das externe Netezza-Konto.](assets/ext-account-netezza.png)
+   ![Screenshot mit den Feldern zur Konfiguration des externen Kontos „Netezza“.](assets/ext-account-netezza.png)
 
-1. Sie können die Option **[!UICONTROL Arbeits-Tablespace für Tabellen verwenden]** aktivieren und dann den **[!UICONTROL Tablespace für Tabellen]** angeben, in dem Ihre Arbeitstabellen gespeichert werden.
+1. Sie können die Option **[!UICONTROL Arbeits-Tablespace für Tabellen verwenden]** aktivieren und dann den **[!UICONTROL Tabellen-Tablespace]** angeben, in dem Ihre Arbeitstabellen gespeichert werden.
 
 1. Aktivieren Sie bei Bedarf die Option **[!UICONTROL Arbeits-Tablespace für Indizes verwenden]** und geben Sie dann den **[!UICONTROL Index-Tablespace]** an.
 
-1. Erstellen Sie nach dem Einrichten der Verbindung die Adobe Campaign SQL-Funktionen in Ihrer Remote-Netezza-Datenbank. Sobald diese Funktionen verfügbar sind, klicken Sie auf **[!UICONTROL Funktionen bereitstellen]** um sie zu aktivieren.
+1. Erstellen Sie nach dem Einrichten der Verbindung die Adobe Campaign SQL-Funktionen in Ihrer Netezza-Remote-Datenbank. Sobald diese Funktionen verfügbar sind, klicken Sie auf **[!UICONTROL Funktionen bereitstellen]**, um sie zu aktivieren.
 
 ## ODBC (Sybase ASE, Sybase IQ)
 
-Mit dem externen ODBC-Konto (Sybase ASE, Sybase IQ) können Sie Ihre Campaign-Instanz mit Ihrer externen ODBC-Datenbank (Sybase ASE, Sybase IQ) verbinden.
-Konfigurieren Sie in der Web-Benutzeroberfläche von Adobe Campaign Ihr externes ODBC-Konto (Sybase ASE, Sybase IQ).
+Über das externe Konto „ODBC (Sybase ASE, Sybase IQ)“ können Sie Ihre Campaign-Instanz mit Ihrer externen Datenbank des Typs „ODBC (Sybase ASE, Sybase IQ)“ verbinden.
+Konfigurieren Sie Ihr externes Konto „ODBC (Sybase ASE, Sybase IQ)“ in der Adobe Campaign Web-Benutzeroberfläche.
 
-1. [Externes Konto erstellen](external-account.md) und **[!UICONTROL Externe Datenbank]** als **[!UICONTROL Typ]** und ODBC (Sybase ASE, Sybase IQ) als **[!UICONTROL Anbietertyp]**.
+1. [Erstellen Sie Ihr externes Konto](external-account.md) und wählen Sie **[!UICONTROL Externe Datenbank]** als **[!UICONTROL Typ]** Ihres externen Kontos und „ODBC (Sybase ASE, Sybase IQ)“ als **[!UICONTROL Anbietertyp]** aus.
 
 1. Klicken Sie auf **[!UICONTROL Erstellen]**.
 
-1. Um das externe **[!UICONTROL ODBC (Sybase ASE, Sybase IQ)]** konfigurieren, füllen Sie die folgenden Felder aus:
+1. Um das externe Konto **[!UICONTROL ODBC (Sybase ASE, Sybase IQ)]** zu konfigurieren, füllen Sie folgende Felder aus:
 
    * **[!UICONTROL Typ]**: ODBC (Sybase ASE, Sybase IQ)
 
-   * **[!UICONTROL Server]**: Geben Sie den DNS-Namen Ihres ODBC-Servers (Sybase ASE, Sybase IQ) ein.
+   * **[!UICONTROL Server]**: Geben Sie den DNS-Namen Ihres Servers für ODBC (Sybase ASE, Sybase IQ) ein.
 
-   * **[!UICONTROL Konto]**: Geben Sie den ODBC-Servernamen (Sybase ASE, Sybase IQ) an, der für die Authentifizierung verwendet wird.
+   * **[!UICONTROL Konto]**: Geben Sie den Namen des Servers für ODBC (Sybase ASE, Sybase IQ) an, der für die Authentifizierung verwendet wird.
 
-   * **[!UICONTROL Kennwort]**: Geben Sie das mit dem Benutzerkonto verknüpfte Kennwort ein.
+   * **[!UICONTROL Passwort]**: Geben Sie das mit dem Benutzerkonto verknüpfte Passwort ein.
 
    * **[!UICONTROL Datenbank]**: Geben Sie den Datenbanknamen an, sofern er nicht bereits im DSN definiert ist. Lassen Sie dieses Feld leer, wenn das DSN die Datenbank enthält.
 
    * **[!UICONTROL Optionen]**: Fügen Sie alle erweiterten Konfigurationsoptionen hinzu, die für Ihre Umgebung erforderlich sein können.
 
-   * **[!UICONTROL Sammel-Einfügewerkzeug]**: Geben Sie den vollständigen Pfad zur ausführbaren Datei des Sammel-Einfügewerkzeugs an.
+   * **[!UICONTROL Sammel-Einfügewerkzeug]**: Geben Sie den vollständigen Pfad zum ausführbaren Sammel-Einfügewerkzeug an.
 
    * **[!UICONTROL Zeitzone]**: Wählen Sie die Zeitzone des Servers aus oder geben Sie sie ein, um genaue zeitbasierte Vorgänge sicherzustellen.
 
-   ![Screenshot mit den Konfigurationsfeldern für das externe ODBC-Konto.](assets/ext-account-odbc.png)
+   ![Screenshot mit den Feldern zur Konfiguration des externen Kontos „ODBC“.](assets/ext-account-odbc.png)
 
-1. Sie können die Option **[!UICONTROL Arbeits-Tablespace für Tabellen verwenden]** aktivieren und dann den **[!UICONTROL Tablespace für Tabellen]** angeben, in dem Ihre Arbeitstabellen gespeichert werden.
+1. Sie können die Option **[!UICONTROL Arbeits-Tablespace für Tabellen verwenden]** aktivieren und dann den **[!UICONTROL Tabellen-Tablespace]** angeben, in dem Ihre Arbeitstabellen gespeichert werden.
 
 1. Aktivieren Sie bei Bedarf die Option **[!UICONTROL Arbeits-Tablespace für Indizes verwenden]** und geben Sie dann den **[!UICONTROL Index-Tablespace]** an.
 
-1. Erstellen Sie nach dem Einrichten der Verbindung die Adobe Campaign SQL-Funktionen in Ihrer Remote-ODBC-Datenbank. Sobald diese Funktionen verfügbar sind, klicken Sie auf **[!UICONTROL Funktionen bereitstellen]** um sie zu aktivieren.
+1. Erstellen Sie nach dem Einrichten der Verbindung die Adobe Campaign SQL-Funktionen in Ihrer ODBC-Remote-Datenbank. Sobald diese Funktionen verfügbar sind, klicken Sie auf **[!UICONTROL Funktionen bereitstellen]**, um sie zu aktivieren.
 
 ## HTTP-Weiterleitung auf Remote-Datenbank
 
-Mit dem externen Konto HTTP-Weiterleitung auf Remote-Datenbank können Sie Ihre Campaign-Instanz mit Ihrem HTTP-Weiterleitungskonto mit der externen Remote-Datenbank verbinden.
+Über das externe Konto „HTTP-Weiterleitung auf Remote-Datenbank“ können Sie Ihre Campaign-Instanz mit Ihrer externen Datenbank des Typs „HTTP-Weiterleitung auf Remote-Datenbank“ verbinden.
 
-Konfigurieren Sie in der Adobe Campaign-Web-Benutzeroberfläche Ihr externes HTTP-Weiterleitungskonto zur Remote-Datenbank.
+Konfigurieren Sie Ihr externes Konto „HTTP-Weiterleitung auf Remote-Datenbank“ in der Adobe Campaign Web-Benutzeroberfläche.
 
-1. [Erstellen Sie Ihr externes ](external-account.md) und wählen Sie **[!UICONTROL Externe]**) als **[!UICONTROL Typ]** Ihres externen Kontos und Amazon Redshift als **[!UICONTROL Anbietertyp]**.
+1. [Erstellen Sie Ihr externes Konto](external-account.md) und wählen Sie **[!UICONTROL Externe Datenbank]** als **[!UICONTROL Typ]** Ihres externen Kontos und „Amazon Redshift“ als **[!UICONTROL Anbietertyp]** aus.
 
 1. Klicken Sie auf **[!UICONTROL Erstellen]**.
 
-1. Um das externe Konto **[!UICONTROL HTTP-Weiterleitung auf Remote-Datenbank]** zu konfigurieren, füllen Sie die folgenden Felder aus:
+1. Um das externe Konto **[!UICONTROL HTTP-Weiterleitung auf Remote-Datenbank]** zu konfigurieren, füllen Sie folgende Felder aus:
 
-   * **[!UICONTROL Type]**: HTTP-Weiterleitung auf Remote-Datenbank
+   * **[!UICONTROL Typ]**: HTTP-Weiterleitung auf Remote-Datenbank
 
-   * **[!UICONTROL Server]**: Geben Sie die vollständige URL des HTTP-Weiterleitungsservers ein, der eine Verbindung zu Ihrer Remote-Datenbank herstellt.
+   * **[!UICONTROL Server]**: Geben Sie die vollständige URL des HTTP-Weiterleitungs-Servers ein, der eine Verbindung zu Ihrer Remote-Datenbank herstellt.
 
-   * **[!UICONTROL Konto]**: Geben Sie den Benutzernamen an, der für die Authentifizierung beim HTTP-Weiterleitungsserver verwendet wird.
+   * **[!UICONTROL Konto]**: Geben Sie den Benutzernamen an, der für die Authentifizierung beim HTTP-Weiterleitungs-Server verwendet werden soll.
 
-   * **[!UICONTROL Kennwort]**: Geben Sie das diesem Konto zugeordnete Kennwort ein.
+   * **[!UICONTROL Passwort]**: Geben Sie das mit diesem Konto verknüpfte Passwort ein.
 
    * **[!UICONTROL Datenquelle]**: Geben Sie die Zieldatenbank an, mit der sich Adobe Campaign über das Relais verbinden soll.
 
    * **[!UICONTROL Optionen]**: Fügen Sie alle erweiterten Konfigurationsoptionen hinzu, die für Ihre Umgebung erforderlich sein können.
 
-   ![Screenshot mit den Konfigurationsfeldern für das HTTP-Weiterleiten an die externe Remote-Datenbank-Konto.](assets/ext-account-azure.png)
+   ![Screenshot mit den Feldern zur Konfiguration des externen Kontos „HTTP-Weiterleitung auf Remote-Datenbank“.](assets/ext-account-azure.png)
 
-1. Sie können die Option **[!UICONTROL Arbeits-Tablespace für Tabellen verwenden]** aktivieren und dann den **[!UICONTROL Tablespace für Tabellen]** angeben, in dem Ihre Arbeitstabellen gespeichert werden.
+1. Sie können die Option **[!UICONTROL Arbeits-Tablespace für Tabellen verwenden]** aktivieren und dann den **[!UICONTROL Tabellen-Tablespace]** angeben, in dem Ihre Arbeitstabellen gespeichert werden.
 
 1. Aktivieren Sie bei Bedarf die Option **[!UICONTROL Arbeits-Tablespace für Indizes verwenden]** und geben Sie dann den **[!UICONTROL Index-Tablespace]** an.
 
-1. Erstellen Sie nach dem Einrichten der Verbindung die Adobe Campaign SQL-Funktionen in Ihrem Remote-HTTP-Relais zur Remote-Datenbank. Sobald diese Funktionen verfügbar sind, klicken Sie auf **[!UICONTROL Funktionen bereitstellen]** um sie zu aktivieren.
+1. Erstellen Sie nach dem Einrichten der Verbindung die Adobe Campaign SQL-Funktionen in Ihrer Remote-Datenbank des Typs „HTTP-Weiterleitung auf Remote-Datenbank“. Sobald diese Funktionen verfügbar sind, klicken Sie auf **[!UICONTROL Funktionen bereitstellen]**, um sie zu aktivieren.
 
 ## Oracle
 
-Mit dem externen Konto Oracle können Sie Ihre Campaign-Instanz mit Ihrer externen Oracle-Datenbank verbinden.
-Konfigurieren Sie in der Adobe Campaign-Web-Benutzeroberfläche Ihr externes Oracle-Konto.
+Über das externe Konto „Oracle“ können Sie Ihre Campaign-Instanz mit Ihrer externen Oracle-Datenbank verbinden.
+Konfigurieren Sie Ihr externes Konto „Oracle“ in der Adobe Campaign Web-Benutzeroberfläche.
 
-1. [Erstellen Sie Ihr externes ](external-account.md) und wählen Sie **[!UICONTROL Externe]**) als **[!UICONTROL Typ]** und Oracle als **[!UICONTROL Anbietertyp]**.
+1. [Erstellen Sie Ihr externes Konto](external-account.md) und wählen Sie **[!UICONTROL Externe Datenbank]** als **[!UICONTROL Typ]** Ihres externen Kontos und „Oracle“ als **[!UICONTROL Anbietertyp]** aus.
 
 1. Klicken Sie auf **[!UICONTROL Erstellen]**.
 
-1. Um das externe Konto **[!UICONTROL Oracle]** zu konfigurieren, füllen Sie die folgenden Felder aus:
+1. Um das externe Konto **[!UICONTROL Oracle]** zu konfigurieren, füllen Sie folgende Felder aus:
 
    * **[!UICONTROL Typ]**: Oracle
 
    * **[!UICONTROL Server]**: Geben Sie den DNS-Namen Ihres Oracle-Servers ein.
 
-   * **[!UICONTROL Konto]**: Geben Sie den Oracle-Benutzernamen an, der für die Authentifizierung verwendet wird.
+   * **[!UICONTROL Konto]**: Geben Sie den Oracle-Benutzernamen an, der für die Authentifizierung verwendet werden soll.
 
-   * **[!UICONTROL Kennwort]**: Geben Sie das mit dem Benutzerkonto verknüpfte Kennwort ein.
+   * **[!UICONTROL Passwort]**: Geben Sie das mit dem Benutzerkonto verknüpfte Passwort ein.
 
    * **[!UICONTROL Zeitzone]**: Wählen Sie die Zeitzone des Servers aus oder geben Sie sie ein, um genaue zeitbasierte Vorgänge sicherzustellen.
 
-   ![Screenshot mit den Konfigurationsfeldern für das externe Oracle-Konto.](assets/ext-account-oracle.png)
+   ![Screenshot mit den Feldern zur Konfiguration des externen Kontos „Oracle“.](assets/ext-account-oracle.png)
 
-1. Sie können die Option **[!UICONTROL Arbeits-Tablespace für Tabellen verwenden]** aktivieren und dann den **[!UICONTROL Tablespace für Tabellen]** angeben, in dem Ihre Arbeitstabellen gespeichert werden.
+1. Sie können die Option **[!UICONTROL Arbeits-Tablespace für Tabellen verwenden]** aktivieren und dann den **[!UICONTROL Tabellen-Tablespace]** angeben, in dem Ihre Arbeitstabellen gespeichert werden.
 
 1. Aktivieren Sie bei Bedarf die Option **[!UICONTROL Arbeits-Tablespace für Indizes verwenden]** und geben Sie dann den **[!UICONTROL Index-Tablespace]** an.
 
-1. Erstellen Sie nach dem Einrichten der Verbindung die Adobe Campaign SQL-Funktionen in Ihrer Remote-Oracle-Datenbank. Sobald diese Funktionen verfügbar sind, klicken Sie auf **[!UICONTROL Funktionen bereitstellen]** um sie zu aktivieren.
+1. Erstellen Sie nach dem Einrichten der Verbindung die Adobe Campaign SQL-Funktionen in Ihrer Oracle-Remote-Datenbank. Sobald diese Funktionen verfügbar sind, klicken Sie auf **[!UICONTROL Funktionen bereitstellen]**, um sie zu aktivieren.
 
 ## PostgreSQL
 
-Mit dem externen PostgreSQL-Konto können Sie Ihre Campaign-Instanz mit Ihrer externen PostgreSQL-Datenbank verbinden.
-Konfigurieren Sie in der Adobe Campaign-Web-Benutzeroberfläche Ihr externes PostgreSQL-Konto.
+Über das externe Konto „PostgreSQL“ können Sie Ihre Campaign-Instanz mit Ihrer externen PostgreSQL-Datenbank verbinden.
+Konfigurieren Sie Ihr externes Konto „PostgreSQL“ in der Adobe Campaign Web-Benutzeroberfläche.
 
-1. [Erstellen Sie Ihr externes ](external-account.md) und wählen Sie **[!UICONTROL Externe Datenbank]** als **[!UICONTROL Typ]** Ihres externen Kontos und PostgreSQL als **[!UICONTROL Anbietertyp]**.
+1. [Erstellen Sie Ihr externes Konto](external-account.md) und wählen Sie **[!UICONTROL Externe Datenbank]** als **[!UICONTROL Typ]** Ihres externen Kontos und „PostgreSQL“ als **[!UICONTROL Anbietertyp]** aus.
 
 1. Klicken Sie auf **[!UICONTROL Erstellen]**.
 
-1. Um das externe **[!UICONTROL PostgreSQL]**-Konto zu konfigurieren, füllen Sie die folgenden Felder aus:
+1. Um das externe Konto **[!UICONTROL PostgreSQL]** zu konfigurieren, füllen Sie folgende Felder aus:
 
-   * **[!UICONTROL Type]**: PostgreSQL
+   * **[!UICONTROL Typ]**: PostgreSQL
 
    * **[!UICONTROL Server]**: Geben Sie den DNS-Namen Ihres PostgreSQL-Servers ein.
 
-   * **[!UICONTROL Konto]**: Geben Sie den PostgreSQL-Benutzernamen an, der für die Authentifizierung verwendet wird.
+   * **[!UICONTROL Konto]**: Geben Sie den PostgreSQL-Benutzernamen an, der für die Authentifizierung verwendet werden soll.
 
-   * **[!UICONTROL Kennwort]**: Geben Sie das mit dem Benutzerkonto verknüpfte Kennwort ein.
+   * **[!UICONTROL Passwort]**: Geben Sie das mit dem Benutzerkonto verknüpfte Passwort ein.
 
    * **[!UICONTROL Datenbank]**: Geben Sie den Datenbanknamen an, sofern er nicht bereits im DSN definiert ist. Lassen Sie dieses Feld leer, wenn das DSN die Datenbank enthält.
 
-   * **[!UICONTROL Arbeitsschema]**: Geben Sie den Namen des Schemas ein, in dem Adobe Campaign seine Arbeitsobjekte erstellt und verwaltet.
+   * **[!UICONTROL Arbeitsschema]**: Geben Sie den Namen des Schemas ein, in dem Adobe Campaign seine Arbeitsobjekte erstellen und verwalten soll.
 
    * **[!UICONTROL Zeitzone]**: Wählen Sie die Zeitzone des Servers aus oder geben Sie sie ein, um genaue zeitbasierte Vorgänge sicherzustellen.
 
-   ![Screenshot mit den Konfigurationsfeldern für das externe PostgreSQL-Konto.](assets/ext-account-postgresql.png)
+   ![Screenshot mit den Feldern zur Konfiguration des externen Kontos „PostgreSQL“.](assets/ext-account-postgresql.png)
 
-1. Sie können die Option **[!UICONTROL Arbeits-Tablespace für Tabellen verwenden]** aktivieren und dann den **[!UICONTROL Tablespace für Tabellen]** angeben, in dem Ihre Arbeitstabellen gespeichert werden.
+1. Sie können die Option **[!UICONTROL Arbeits-Tablespace für Tabellen verwenden]** aktivieren und dann den **[!UICONTROL Tabellen-Tablespace]** angeben, in dem Ihre Arbeitstabellen gespeichert werden.
 
 1. Aktivieren Sie bei Bedarf die Option **[!UICONTROL Arbeits-Tablespace für Indizes verwenden]** und geben Sie dann den **[!UICONTROL Index-Tablespace]** an.
 
-1. Erstellen Sie nach dem Einrichten der Verbindung die Adobe Campaign SQL-Funktionen in Ihrer Remote-PostgreSQL-Datenbank. Sobald diese Funktionen verfügbar sind, klicken Sie auf **[!UICONTROL Funktionen bereitstellen]** um sie zu aktivieren.
+1. Erstellen Sie nach dem Einrichten der Verbindung die Adobe Campaign SQL-Funktionen in Ihrer PostgreSQL-Remote-Datenbank. Sobald diese Funktionen verfügbar sind, klicken Sie auf **[!UICONTROL Funktionen bereitstellen]**, um sie zu aktivieren.
 
 ## SAP HANA
 
-Mit dem externen Konto SAP HANA können Sie Ihre Campaign-Instanz mit Ihrer externen SAP HANA-Datenbank verbinden.
+Über das externe Konto „SAP HANA“ können Sie Ihre Campaign-Instanz mit Ihrer externen SAP HANA-Datenbank verbinden.
 
-Konfigurieren Sie in der Adobe Campaign-Web-Benutzeroberfläche Ihr externes SAP HANA-Konto.
+Konfigurieren Sie Ihr externes Konto „SAP HANA“ in der Adobe Campaign Web-Benutzeroberfläche.
 
-1. [Erstellen Sie Ihr externes ](external-account.md) und wählen Sie **[!UICONTROL Externe]**) als **[!UICONTROL Typ]** und SAP HANA als **[!UICONTROL Anbietertyp]**.
+1. [Erstellen Sie Ihr externes Konto](external-account.md) und wählen Sie **[!UICONTROL Externe Datenbank]** als **[!UICONTROL Typ]** Ihres externen Kontos und „SAP HANA“ als **[!UICONTROL Anbietertyp]** aus.
 
 1. Klicken Sie auf **[!UICONTROL Erstellen]**.
 
-1. Um das externe Konto **[!UICONTROL SAP HANA]** zu konfigurieren, füllen Sie die folgenden Felder aus:
+1. Um das externe Konto **[!UICONTROL SAP HANA]** zu konfigurieren, füllen Sie folgende Felder aus:
 
-   * **[!UICONTROL Typ]**: SAP HANA
+   * **[!UICONTROL Typ]**: SAP HANA
 
-   * **[!UICONTROL Server]**: Geben Sie den DNS-Namen Ihres SAP HANA-Servers ein.
+   * **[!UICONTROL Server]**: Geben Sie den DNS-Namen Ihres SAP HANA-Servers ein.
 
-   * **[!UICONTROL Konto]**: Geben Sie den SAP HANA-Benutzernamen an, der für die Authentifizierung verwendet wird.
+   * **[!UICONTROL Konto]**: Geben Sie den SAP HANA-Benutzernamen an, der für die Authentifizierung verwendet werden soll.
 
-   * **[!UICONTROL Kennwort]**: Geben Sie das mit dem Benutzerkonto verknüpfte Kennwort ein.
+   * **[!UICONTROL Passwort]**: Geben Sie das mit dem Benutzerkonto verknüpfte Passwort ein.
 
    * **[!UICONTROL Optionen]**: Fügen Sie alle erweiterten Konfigurationsoptionen hinzu, die für Ihre Umgebung erforderlich sein können.
 
-   * **[!UICONTROL Arbeitsschema]**: Geben Sie den Namen des Schemas ein, in dem Adobe Campaign seine Arbeitsobjekte erstellt und verwaltet.
+   * **[!UICONTROL Arbeitsschema]**: Geben Sie den Namen des Schemas ein, in dem Adobe Campaign seine Arbeitsobjekte erstellen und verwalten soll.
 
    * **[!UICONTROL Zeitzone]**: Wählen Sie die Zeitzone des Servers aus oder geben Sie sie ein, um genaue zeitbasierte Vorgänge sicherzustellen.
 
-   ![Screenshot mit den Konfigurationsfeldern für das externe SAP HANA-Konto.](assets/ext-account-saphana.png)
+   ![Screenshot mit den Feldern zur Konfiguration des externen Kontos „SAP HANA“.](assets/ext-account-saphana.png)
 
-1. Sie können die Option **[!UICONTROL Arbeits-Tablespace für Tabellen verwenden]** aktivieren und dann den **[!UICONTROL Tablespace für Tabellen]** angeben, in dem Ihre Arbeitstabellen gespeichert werden.
+1. Sie können die Option **[!UICONTROL Arbeits-Tablespace für Tabellen verwenden]** aktivieren und dann den **[!UICONTROL Tabellen-Tablespace]** angeben, in dem Ihre Arbeitstabellen gespeichert werden.
 
 1. Aktivieren Sie bei Bedarf die Option **[!UICONTROL Arbeits-Tablespace für Indizes verwenden]** und geben Sie dann den **[!UICONTROL Index-Tablespace]** an.
 
-1. Erstellen Sie nach dem Einrichten der Verbindung die Adobe Campaign SQL-Funktionen in Ihrer Remote-SAP HANA-Datenbank. Sobald diese Funktionen verfügbar sind, klicken Sie auf **[!UICONTROL Funktionen bereitstellen]** um sie zu aktivieren.
+1. Erstellen Sie nach dem Einrichten der Verbindung die Adobe Campaign SQL-Funktionen in Ihrer SAP HANA-Remote-Datenbank. Sobald diese Funktionen verfügbar sind, klicken Sie auf **[!UICONTROL Funktionen bereitstellen]**, um sie zu aktivieren.
 
 ## Snowflake
 
-Mit dem externen Konto Snowflake können Sie Ihre Campaign-Instanz mit Ihrer externen Snowflake-Datenbank verbinden.
+Über das externe Konto „Snowflake“ können Sie Ihre Campaign-Instanz mit Ihrer externen Snowflake-Datenbank verbinden.
 
-Konfigurieren Sie in der Adobe Campaign-Web-Benutzeroberfläche Ihr externes Snowflake-Konto.
+Konfigurieren Sie Ihr externes Konto „Snowflake“ in der Adobe Campaign Web-Benutzeroberfläche.
 
-1. [Erstellen Sie Ihr externes ](external-account.md) und wählen Sie **[!UICONTROL Externe]**) als **[!UICONTROL Typ]** und Snowflake als **[!UICONTROL Anbietertyp]**.
+1. [Erstellen Sie Ihr externes Konto](external-account.md) und wählen Sie **[!UICONTROL Externe Datenbank]** als **[!UICONTROL Typ]** Ihres externen Kontos und „Snowflake“ als **[!UICONTROL Anbietertyp]** aus.
 
 1. Klicken Sie auf **[!UICONTROL Erstellen]**.
 
-1. Um das externe Konto **[!UICONTROL Snowflake]** zu konfigurieren, füllen Sie die folgenden Felder aus:
+1. Um das externe Konto **[!UICONTROL Snowflake]** zu konfigurieren, füllen Sie folgende Felder aus:
 
    * **[!UICONTROL Typ]**: Snowflake
 
    * **[!UICONTROL Server]**: Geben Sie den DNS-Namen Ihres Snowflake-Servers ein.
 
-   * **[!UICONTROL Konto]**: Geben Sie den Snowflake-Benutzernamen an, der für die Authentifizierung verwendet wird.
+   * **[!UICONTROL Konto]**: Geben Sie den Snowflake-Benutzernamen an, der für die Authentifizierung verwendet werden soll.
 
-   * **[!UICONTROL Kennwort]**: Geben Sie das mit dem Benutzerkonto verknüpfte Kennwort ein.
+   * **[!UICONTROL Passwort]**: Geben Sie das mit dem Benutzerkonto verknüpfte Passwort ein.
 
    * **[!UICONTROL Datenbank]**: Geben Sie den Datenbanknamen an, sofern er nicht bereits im DSN definiert ist. Lassen Sie dieses Feld leer, wenn das DSN die Datenbank enthält.
 
-   * **[!UICONTROL Arbeitsschema]**: Geben Sie den Namen des Schemas ein, in dem Adobe Campaign seine Arbeitsobjekte erstellt und verwaltet.
+   * **[!UICONTROL Arbeitsschema]**: Geben Sie den Namen des Schemas ein, in dem Adobe Campaign seine Arbeitsobjekte erstellen und verwalten soll.
 
    * **[!UICONTROL Optionen]**: Fügen Sie alle erweiterten Konfigurationsoptionen hinzu, die für Ihre Umgebung erforderlich sein können.
 
    * **[!UICONTROL Zeitzone]**: Wählen Sie die Zeitzone des Servers aus oder geben Sie sie ein, um genaue zeitbasierte Vorgänge sicherzustellen.
 
-   ![Screenshot mit den Konfigurationsfeldern für das externe Snowflake-Konto.](assets/ext-account-snowflake.png)
+   ![Screenshot mit den Feldern zur Konfiguration des externen Kontos „Snowflake“.](assets/ext-account-snowflake.png)
 
-1. Erstellen Sie nach dem Einrichten der Verbindung die Adobe Campaign SQL-Funktionen in Ihrer Remote-Snowflake-Datenbank. Sobald diese Funktionen verfügbar sind, klicken Sie auf **[!UICONTROL Funktionen bereitstellen]** um sie zu aktivieren.
+1. Erstellen Sie nach dem Einrichten der Verbindung die Adobe Campaign SQL-Funktionen in Ihrer Snowflake-Remote-Datenbank. Sobald diese Funktionen verfügbar sind, klicken Sie auf **[!UICONTROL Funktionen bereitstellen]**, um sie zu aktivieren.
 
-1. Wenn Sie die Schlüsselpaar-Authentifizierung verwenden, geben Sie im Menü **[!UICONTROL keypair.auth]** die erforderlichen Werte für Folgendes ein:
+1. Wenn Sie die Authentifizierung über ein Schlüsselpaar verwenden, geben Sie im Menü **[!UICONTROL Schlüsselpaar-Authentifizierung]** die erforderlichen Werte für Folgendes ein:
 
-   * **[!UICONTROL Password]**: Die Passphrase zum Schutz des privaten Schlüssels, falls zutreffend.
+   * **[!UICONTROL Passwort]**: Die Passphrase zum Schutz des privaten Schlüssels, falls zutreffend.
 
    * **[!UICONTROL Privater Schlüssel]**: Der zur Authentifizierung des Snowflake-Kontos verwendete private Schlüssel.
 
 ## Teradata
 
-Mit dem externen Konto Teradata können Sie Ihre Campaign-Instanz mit Ihrer externen Teradata-Datenbank verbinden.
+Über das externe Konto „Teradata“ können Sie Ihre Campaign-Instanz mit Ihrer externen Teradata-Datenbank verbinden.
 
-Konfigurieren Sie in der Adobe Campaign-Web-Benutzeroberfläche Ihr externes Teradata-Konto.
+Konfigurieren Sie Ihr externes Konto „Teradata“ in der Adobe Campaign Web-Benutzeroberfläche.
 
-1. [Erstellen Sie Ihr externes ](external-account.md) und wählen Sie **[!UICONTROL Externe]**) als **[!UICONTROL Typ]** und Teradata als **[!UICONTROL Anbietertyp]**.
+1. [Erstellen Sie Ihr externes Konto](external-account.md) und wählen Sie **[!UICONTROL Externe Datenbank]** als **[!UICONTROL Typ]** Ihres externen Kontos und „Teradata“ als **[!UICONTROL Anbietertyp]** aus.
 
 1. Klicken Sie auf **[!UICONTROL Erstellen]**.
 
-1. Um das externe Konto **[!UICONTROL Teradata]** zu konfigurieren, füllen Sie die folgenden Felder aus:
+1. Um das externe Konto **[!UICONTROL Teradata]** zu konfigurieren, füllen Sie folgende Felder aus:
 
    * **[!UICONTROL Typ]**: Teradata
 
    * **[!UICONTROL Server]**: Geben Sie den DNS-Namen Ihres Teradata-Servers ein.
 
-   * **[!UICONTROL Konto]**: Geben Sie den Teradata-Benutzernamen an, der für die Authentifizierung verwendet wird.
+   * **[!UICONTROL Konto]**: Geben Sie den Teradata-Benutzernamen an, der für die Authentifizierung verwendet werden soll.
 
-   * **[!UICONTROL Kennwort]**: Geben Sie das mit dem Benutzerkonto verknüpfte Kennwort ein.
+   * **[!UICONTROL Passwort]**: Geben Sie das mit dem Benutzerkonto verknüpfte Passwort ein.
 
    * **[!UICONTROL Datenbank]**: Geben Sie den Datenbanknamen an, sofern er nicht bereits im DSN definiert ist. Lassen Sie dieses Feld leer, wenn das DSN die Datenbank enthält.
 
@@ -521,72 +522,72 @@ Konfigurieren Sie in der Adobe Campaign-Web-Benutzeroberfläche Ihr externes Ter
 
    * **[!UICONTROL Zeitzone]**: Wählen Sie die Zeitzone des Servers aus oder geben Sie sie ein, um genaue zeitbasierte Vorgänge sicherzustellen.
 
-   ![Screenshot mit den Konfigurationsfeldern für das externe Teradata-Konto.](assets/ext-account-teradata.png)
+   ![Screenshot mit den Feldern zur Konfiguration des externen Kontos „Teradata“.](assets/ext-account-teradata.png)
 
-1. Sie können die Option **[!UICONTROL Arbeits-Tablespace für Tabellen verwenden]** aktivieren und dann den **[!UICONTROL Tablespace für Tabellen]** angeben, in dem Ihre Arbeitstabellen gespeichert werden.
+1. Sie können die Option **[!UICONTROL Arbeits-Tablespace für Tabellen verwenden]** aktivieren und dann den **[!UICONTROL Tabellen-Tablespace]** angeben, in dem Ihre Arbeitstabellen gespeichert werden.
 
 1. Aktivieren Sie bei Bedarf die Option **[!UICONTROL Arbeits-Tablespace für Indizes verwenden]** und geben Sie dann den **[!UICONTROL Index-Tablespace]** an.
 
-1. Erstellen Sie nach dem Einrichten der Verbindung die Adobe Campaign SQL-Funktionen in Ihrer Remote-Teradata-Datenbank. Sobald diese Funktionen verfügbar sind, klicken Sie auf **[!UICONTROL Funktionen bereitstellen]** um sie zu aktivieren.
+1. Erstellen Sie nach dem Einrichten der Verbindung die Adobe Campaign SQL-Funktionen in Ihrer Teradata-Remote-Datenbank. Sobald diese Funktionen verfügbar sind, klicken Sie auf **[!UICONTROL Funktionen bereitstellen]**, um sie zu aktivieren.
 
-1. Geben Sie bei Bedarf Ihr **[!UICONTROL PostConnect-Skript]** ein, wenn Sie möchten, dass ein Skript nach jeder Verbindung automatisch ausgeführt wird. Wenn das Skript jedes Mal ausgeführt werden soll, aktivieren Sie die Option **[!UICONTROL Jedes Mal ausführen]**.
+1. Geben Sie bei Bedarf Ihr **[!UICONTROL PostConnect-Skript]** ein, wenn Sie möchten, dass nach jedem Herstellen einer Verbindung automatisch ein Skript ausgeführt wird. Wenn das Skript jedes Mal ausgeführt werden soll, aktivieren Sie die Option **[!UICONTROL Jedes Mal ausführen]**.
 
 ## Vertica Analytics
 
-Konfigurieren Sie in der Adobe Campaign-Web-Benutzeroberfläche Ihr externes Vertica Analytics-Konto.
+Konfigurieren Sie Ihr externes Konto „Vertica Analytics“ in der Adobe Campaign Web-Benutzeroberfläche.
 
-1. [Erstellen Sie Ihr externes ](external-account.md) und wählen Sie **[!UICONTROL Externe]**) als **[!UICONTROL Typ]** und Vertica Analytics als **[!UICONTROL Anbietertyp]**.
+1. [Erstellen Sie Ihr externes Konto](external-account.md) und wählen Sie **[!UICONTROL Externe Datenbank]** als **[!UICONTROL Typ]** Ihres externen Kontos und „Vertica Analytics“ als **[!UICONTROL Anbietertyp]** aus.
 
 1. Klicken Sie auf **[!UICONTROL Erstellen]**.
 
-1. Um das externe Konto **[!UICONTROL Vertica Analytics]** zu konfigurieren, füllen Sie die folgenden Felder aus:
+1. Um das externe Konto **[!UICONTROL Vertica Analytics]** zu konfigurieren, füllen Sie folgende Felder aus:
 
    * **[!UICONTROL Typ]**: Vertica Analytics
 
-   * **[!UICONTROL Server]**: Geben Sie den DNS-Namen Ihres Vertica Analytics-Servers ein.
+   * **[!UICONTROL Server]**: Geben Sie den DNS-Namen Ihres Vertica Analytics-Servers ein.
 
-   * **[!UICONTROL Konto]**: Geben Sie den Vertica Analytics-Benutzernamen an, der für die Authentifizierung verwendet wird.
+   * **[!UICONTROL Konto]**: Geben Sie den Vertica Analytics-Benutzernamen an, der für die Authentifizierung verwendet werden soll.
 
-   * **[!UICONTROL Kennwort]**: Geben Sie das mit dem Benutzerkonto verknüpfte Kennwort ein.
+   * **[!UICONTROL Passwort]**: Geben Sie das mit dem Benutzerkonto verknüpfte Passwort ein.
 
    * **[!UICONTROL Datenbank]**: Geben Sie den Datenbanknamen an, sofern er nicht bereits im DSN definiert ist. Lassen Sie dieses Feld leer, wenn das DSN die Datenbank enthält.
 
-   * **[!UICONTROL Arbeitsschema]**: Geben Sie den Namen des Schemas ein, in dem Adobe Campaign seine Arbeitsobjekte erstellt und verwaltet.
+   * **[!UICONTROL Arbeitsschema]**: Geben Sie den Namen des Schemas ein, in dem Adobe Campaign seine Arbeitsobjekte erstellen und verwalten soll.
 
    * **[!UICONTROL Optionen]**: Fügen Sie alle erweiterten Konfigurationsoptionen hinzu, die für Ihre Umgebung erforderlich sein können.
 
    * **[!UICONTROL Zeitzone]**: Wählen Sie die Zeitzone des Servers aus oder geben Sie sie ein, um genaue zeitbasierte Vorgänge sicherzustellen.
 
-   ![Screenshot mit den Konfigurationsfeldern für das externe Vertica Analytics-Konto.](assets/ext-account-vertica.png)
+   ![Screenshot mit den Feldern zur Konfiguration des externen Kontos „Vertica Analytics“.](assets/ext-account-vertica.png)
 
-1. Erstellen Sie nach dem Einrichten der Verbindung die Adobe Campaign SQL-Funktionen in Ihrer Remote-Vertica Analytics-Datenbank. Sobald diese Funktionen verfügbar sind, klicken Sie auf **[!UICONTROL Funktionen bereitstellen]** um sie zu aktivieren.
+1. Erstellen Sie nach dem Einrichten der Verbindung die Adobe Campaign SQL-Funktionen in Ihrer Vertica Analytics-Remote-Datenbank. Sobald diese Funktionen verfügbar sind, klicken Sie auf **[!UICONTROL Funktionen bereitstellen]**, um sie zu aktivieren.
 
 ## Microsoft Fabric {#fabric}
 
-Mit dem externen Konto Microsoft Fabric können Sie Ihre Campaign-Instanz mit Ihrer externen Microsoft Fabric-Datenbank verbinden.
+Über das externe Konto „Microsoft Fabric“ können Sie Ihre Campaign-Instanz mit Ihrer externen Microsoft Fabric-Datenbank verbinden.
 
-Konfigurieren Sie in der Adobe Campaign-Web-Benutzeroberfläche Ihr externes Microsoft Fabric-Konto.
+Konfigurieren Sie Ihr externes Konto „Microsoft Fabric“ in der Adobe Campaign Web-Benutzeroberfläche.
 
-1. [Erstellen Sie Ihr externes ](external-account.md) und wählen Sie **[!UICONTROL Externe]** Datenbank) als **[!UICONTROL Typ]** und Microsoft Fabric als **[!UICONTROL Anbietertyp]**.
+1. [Erstellen Sie Ihr externes Konto](external-account.md) und wählen Sie **[!UICONTROL Externe Datenbank]** als **[!UICONTROL Typ]** Ihres externen Kontos und „Microsoft Fabric“ als **[!UICONTROL Anbietertyp]** aus.
 
 1. Klicken Sie auf **[!UICONTROL Erstellen]**.
 
-1. Um das externe Konto **[!UICONTROL Microsoft Fabric]** zu konfigurieren, füllen Sie die folgenden Felder aus:
+1. Um das externe Konto **[!UICONTROL Microsoft Fabric]** zu konfigurieren, füllen Sie folgende Felder aus:
 
-   * **[!UICONTROL Type]**: Microsoft-Fabric
+   * **[!UICONTROL Typ]**: Microsoft Fabric
 
-   * **[!UICONTROL Server]**: Geben Sie den DNS-Namen Ihres Microsoft Fabric-Servers ein.
+   * **[!UICONTROL Server]**: Geben Sie den DNS-Namen Ihres Microsoft Fabric-Servers ein.
 
-   * **[!UICONTROL Konto]**: Geben Sie den Microsoft Fabric-Benutzernamen (oder Service-Prinzipal) an, der für die Authentifizierung verwendet wird.
+   * **[!UICONTROL Konto]**: Geben Sie den Microsoft Fabric-Benutzernamen (oder Service-Prinzipal) an, der für die Authentifizierung verwendet werden soll.
 
-   * **[!UICONTROL Kennwort]**: Geben Sie das Kennwort oder das Geheimnis ein, das bzw. das mit dem Konto verknüpft ist.
+   * **[!UICONTROL Passwort]**: Geben Sie das mit dem Konto verknüpfte Passwort oder Geheimnis ein.
 
    * **[!UICONTROL Optionen]**: Fügen Sie alle erweiterten Konfigurationsoptionen hinzu, die für Ihre Umgebung erforderlich sein können.
 
-   ![Screenshot mit den Konfigurationsfeldern für das externe Microsoft Fabric-Konto.](assets/ext-account-fabric.png)
+   ![Screenshot mit den Feldern zur Konfiguration des externen Kontos „Microsoft Fabric“.](assets/ext-account-fabric.png)
 
-1. Erstellen Sie nach dem Einrichten der Verbindung die Adobe Campaign SQL-Funktionen in Ihrer Remote Redshift-Datenbank. Sobald diese Funktionen verfügbar sind, klicken Sie auf **[!UICONTROL Funktionen bereitstellen]** um sie zu aktivieren.
+1. Erstellen Sie nach dem Einrichten der Verbindung die Adobe Campaign SQL-Funktionen in Ihrer Redshift-Remote-Datenbank. Sobald diese Funktionen verfügbar sind, klicken Sie auf **[!UICONTROL Funktionen bereitstellen]**, um sie zu aktivieren.
 
 1. Verknüpfen Sie Ihr **[!UICONTROL Speicherkonto]**, um die Leistung zu optimieren und schnellere Datenladevorgänge zwischen Adobe Campaign und Microsoft Fabric zu ermöglichen.
 
-1. Geben Sie Ihre **[!UICONTROL Kontorolle]** ein, die die Berechtigungen bestimmt, die Adobe Campaign bei der Interaktion mit Ihrer Redshift-Umgebung verwenden wird.
+1. Geben Sie Ihre **[!UICONTROL Kontorolle]** ein, die die Berechtigungen bestimmt, die Adobe Campaign bei der Interaktion mit Ihrer Redshift-Umgebung verwendet.

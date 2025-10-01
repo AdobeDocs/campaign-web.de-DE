@@ -3,9 +3,9 @@ title: Versionshinweise zur Web-Benutzeroberfläche von Campaign v8
 description: Entdecken Sie die neuen Funktionen der neuesten Version der Campaign Web-Benutzeroberfläche
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '334'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
@@ -20,11 +20,11 @@ Die Versionen der Adobe Campaign Web-Benutzeroberfläche basieren auf einem kont
 
 Änderungen und Verbesserungen, die in früheren Versionen verfügbar sind, sind auf den Seiten für [2024](release-notes-24.md) und [2025](release-notes-25.md) aufgeführt.
 
-## Version September &#39;25 {#25-9-release}
+## Version September 2025 {#25-9-release}
 
-_23. September 2025_
+_23. September 2025_
 
-Die folgenden Funktionen sind ab September verfügbar.
+Die folgenden Funktionen sind ab der Version September verfügbar.
 
 <table>
 <thead>
@@ -35,7 +35,7 @@ Die folgenden Funktionen sind ab September verfügbar.
 <tbody>
 <tr>
 <td>
-<p>Sie können jetzt direkt über die Adobe Campaign-Web-Benutzeroberfläche Sendungen koordinieren und ausführen, die auf benutzerdefinierten API-Kanälen basieren. Diese Sendungen können eigenständig oder Teil eines Workflows sein. Die Konfiguration des benutzerdefinierten API-Kanals erfolgt in der Konsole.</p>
+<p>Sie können nun Sendungen direkt über die Adobe Campaign Web-Benutzeroberfläche orchestrieren und auf Grundlage benutzerdefinierter API-Kanäle ausführen. Diese Sendungen können eigenständig oder Teil eines Workflows sein. Die Konfiguration des benutzerdefinierten API-Kanals erfolgt in der Konsole.</p>
 <p>Weitere Informationen finden Sie in der <a href="../call-center/gs-custom-channel.md">entsprechenden Dokumentation</a>.</p>
 </td>
 </tr>
@@ -67,7 +67,7 @@ Die folgenden Funktionen sind ab September verfügbar.
 <tbody>
 <tr>
 <td>
-<p>Mit Campaign können Sie jetzt Inhalte in E-Mail-Vorlagen sperren, indem Sie entweder die gesamte Vorlage oder bestimmte Strukturen und Komponenten sperren. Auf diese Weise können Sie unbeabsichtigte Bearbeitungen oder Löschungen verhindern, sodass Sie das Anpassen von Vorlagen besser steuern und die Effizienz sowie Zuverlässigkeit Ihrer E-Mail-Kampagnen optimieren können.</p>
+<p>Campaign ermöglicht es Ihnen nun, Inhalte in E-Mail-Vorlagen zu sperren, entweder durch Sperren der gesamten Vorlage oder durch Sperren bestimmter Strukturen und Komponenten. Auf diese Weise können Sie unbeabsichtigte Bearbeitungen oder Löschungen verhindern, sodass Sie das Anpassen von Vorlagen besser steuern und die Effizienz sowie Zuverlässigkeit Ihrer E-Mail-Kampagnen optimieren können.</p>
 <p>Weitere Informationen finden Sie in der <a href="../content/content-locking.md">entsprechenden Dokumentation</a>.</p>
 </td>
 </tr>
@@ -160,7 +160,7 @@ Die folgenden Funktionen sind ab September verfügbar.
 ### Verbesserungen {#25-9-improvements}
 
 * Beim Einrichten einer Bedingung mithilfe der Funktion „Bedingter Inhalt“ des E-Mail-Designers wurde eine neue Benutzergruppe hinzugefügt.
-* Die Filterdimension ist jetzt in der Workflow-Aktivität **Zielgruppe** verfügbar. Klicken Sie zum Anzeigen oder Ändern auf das Symbol neben der Zielgruppendimension. [Weitere Informationen](../workflows/activities/build-audience.md#build-audience-configuration).
+* Die Filterdimension ist jetzt in der Workflow-Aktivität **Zielgruppe erstellen** verfügbar. Um sie anzuzeigen oder zu ändern, klicken Sie auf das Symbol neben der Zielgruppendimension. [Weitere Informationen](../workflows/activities/build-audience.md#build-audience-configuration).
 <!--
 
 NEO-84915 Stop button for deliveries???? ->>> met pas, juste bouton ajouté dans webUI meme comportement que console. bleu, marche, marche pas.

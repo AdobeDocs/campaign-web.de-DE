@@ -1,10 +1,11 @@
 ---
 title: Verwalten eines externen Kontos
 description: Informationen zum Konfigurieren externer Konten
-source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
-workflow-type: tm+mt
+exl-id: 6daa35c2-21cf-4121-ba57-3749e1ed9c2d
+source-git-commit: 155a7f3fb55a579dbf9a2ad81a1dc7e4ea3847df
+workflow-type: ht
 source-wordcount: '664'
-ht-degree: 47%
+ht-degree: 100%
 
 ---
 
@@ -62,11 +63,11 @@ Um das **[!UICONTROL externe Azure-Konto]** für die gemeinsame Verwendung mit A
 
 ## SFTP
 
-Mit dem externen SFTP -Konto können Sie den Zugriff auf einen Server außerhalb von Adobe Campaign konfigurieren und testen.
+Mit dem externen Konto „SFTP“ können Sie den Zugriff auf einen Server außerhalb von Adobe Campaign konfigurieren und testen.
 
-![Screenshot mit den Konfigurationsfeldern für das externe SFTP-Konto.](assets/ext-account-sftp.png)
+![Screenshot mit den Feldern zur Konfiguration des externen Kontos „SFTP“.](assets/ext-account-sftp.png)
 
-Um das externe **[!UICONTROL SFTP]**-Konto zu konfigurieren, füllen Sie die folgenden Felder aus:
+Um das externe Konto **[!UICONTROL SFTP]** zu konfigurieren, füllen Sie folgende Felder aus:
 
 * **[!UICONTROL Server]**
 
@@ -78,7 +79,7 @@ Um das externe **[!UICONTROL SFTP]**-Konto zu konfigurieren, füllen Sie die fol
 
 * **[!UICONTROL Konto]**
 
-  Geben Sie den Benutzernamen ein, mit dem eine Verbindung zum SFTP-Server hergestellt wird.
+  Geben Sie den Benutzernamen ein, der für die Verbindung zum SFTP-Server verwendet wird.
 
 * **[!UICONTROL Passwort]**
 
@@ -86,33 +87,33 @@ Um das externe **[!UICONTROL SFTP]**-Konto zu konfigurieren, füllen Sie die fol
 
 * **[!UICONTROL SFTP-Authentifizierungstyp]**
 
-  Methode zur Authentifizierung beim SFTP-Server auswählen. Zu den Optionen gehören:
+  Wählen Sie die Methode zur Authentifizierung beim SFTP-Server aus. Zu den Optionen gehören:
 
-   * **[!UICONTROL Kennwort]**: Authentifizierung mit dem Kennwort des Kontos.
+   * **[!UICONTROL Passwort]**: Authentifizierung mit dem Passwort des Kontos.
 
    * **[!UICONTROL Öffentlicher Schlüssel]**: Authentifizierung mithilfe eines SSH-Schlüsselpaars (privater und öffentlicher Schlüssel).
 
-Wenn **[!UICONTROL Öffentlicher Schlüssel]**-Authentifizierung ausgewählt ist, müssen die folgenden Felder ausgefüllt werden:
+Wenn die Authentifizierung über den **[!UICONTROL öffentlichen Schlüssel]** ausgewählt ist, müssen die folgenden Felder ausgefüllt werden:
 
-* **[!UICONTROL Datei mit privatem Schlüssel]**
+* **[!UICONTROL Datei für den privaten Schlüssel]**
 
-  Geben Sie die private SSH-Schlüsseldatei an, die für die Authentifizierung verwendet wird.
+  Geben Sie die SSH-Datei für den privaten Schlüssel an, der für die Authentifizierung verwendet wird.
 
-* **[!UICONTROL Datei mit öffentlichem Schlüssel]**
+* **[!UICONTROL Datei für den öffentlichen Schlüssel]**
 
   Geben Sie den entsprechenden öffentlichen SSH-Schlüssel an, der auf dem SFTP-Server registriert ist.
 
 * **[!UICONTROL SSH-Schlüssel-Passphrase]**
 
-  Geben Sie die Passphrase zum Entschlüsseln des privaten Schlüssels ein, wenn er geschützt ist.
+  Geben Sie die Passphrase zum Entschlüsseln des privaten Schlüssels ein, wenn dieser geschützt ist.
 
 ## HTTP
 
-Mit dem externen HTTP-Konto können Sie den Zugriff auf einen Server außerhalb von Adobe Campaign konfigurieren und testen.
+Mit dem externen Konto „HTTP“ können Sie den Zugriff auf einen Server außerhalb von Adobe Campaign konfigurieren und testen.
 
-![Screenshot mit den Konfigurationsfeldern für das externe HTTP-Konto.](assets/ext-account-http.png)
+![Screenshot mit den Feldern zur Konfiguration des externen Kontos „HTTP“.](assets/ext-account-http.png)
 
-Um das externe **[!UICONTROL HTTP]**-Konto zu konfigurieren, füllen Sie die folgenden Felder aus:
+Um das externe Konto **[!UICONTROL HTTP]** zu konfigurieren, füllen Sie folgende Felder aus:
 
 * **[!UICONTROL Server]**
 
@@ -132,14 +133,14 @@ Um das externe **[!UICONTROL HTTP]**-Konto zu konfigurieren, füllen Sie die fol
 
 * **[!UICONTROL SFTP-Authentifizierungstyp]**
 
-  Wählen Sie den Authentifizierungstyp für die Verbindung. Zu den Optionen gehören:
+  Wählen Sie den Authentifizierungstyp für die Verbindung aus. Zu den Optionen gehören:
 
    * Passwort
    * Öffentlicher Schlüssel
 
-Wenn Sie die Authentifizierung **[!UICONTROL Öffentlicher Schlüssel]** verwenden, geben Sie im Menü **[!UICONTROL PublicKey-]**) die erforderlichen Werte für Folgendes ein:
+Wenn Sie die Authentifizierung über den **[!UICONTROL öffentlichen Schlüssel]** verwenden, geben Sie im Menü **[!UICONTROL Authentifizierung mit öffentlichem Schlüssel]** die erforderlichen Werte für Folgendes ein:
 
-* **[!UICONTROL Password]**: Die Passphrase zum Schutz des privaten Schlüssels, falls zutreffend.
+* **[!UICONTROL Passwort]**: Die Passphrase zum Schutz des privaten Schlüssels, falls zutreffend.
 
 * **[!UICONTROL Privater Schlüssel]**: Der zur Authentifizierung des Snowflake-Kontos verwendete private Schlüssel.
 
@@ -147,11 +148,11 @@ Wenn Sie die Authentifizierung **[!UICONTROL Öffentlicher Schlüssel]** verwend
 
 ## FTP
 
-Mit dem externen FTP -Konto können Sie den Zugriff auf einen Server außerhalb von Adobe Campaign konfigurieren und testen.
+Mit dem externen Konto „FTP“ können Sie den Zugriff auf einen Server außerhalb von Adobe Campaign konfigurieren und testen.
 
-![Screenshot mit den Konfigurationsfeldern für das externe FTP-Konto.](assets/ext-account-ftp.png)
+![Screenshot mit den Feldern zur Konfiguration des externen Kontos „FTP“.](assets/ext-account-ftp.png)
 
-Um das externe **[!UICONTROL FTP]**-Konto zu konfigurieren, füllen Sie die folgenden Felder aus:
+Um das externe Konto **[!UICONTROL FTP]** zu konfigurieren, füllen Sie folgende Felder aus:
 
 * **[!UICONTROL Server]**
 
@@ -175,5 +176,5 @@ Um das externe **[!UICONTROL FTP]**-Konto zu konfigurieren, füllen Sie die folg
 
    * Standard
    * POP3 + STARTTLS
-   * POP3 nicht gesichert
-   * POP3 gesichert
+   * POP3 (nicht gesichert)
+   * POP3 (gesichert)

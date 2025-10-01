@@ -6,9 +6,9 @@ title: Dokumentation zu Adobe Campaign Web
 description: Dokumentation zu Campaign Web
 breadcrumb-title: Campaign Web-Benutzeroberfläche
 source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '929'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -99,7 +99,7 @@ ht-degree: 98%
       + Inhaltsvorlagen  {#content-templates}
          + [Arbeiten mit Inhaltsvorlagen](content/create-email-templates.md)
          + [Verwenden von E-Mail-Inhaltsvorlagen](content/use-email-templates.md)
-         + [Sperren von Inhalt in E-Mail-Vorlagen](content/content-locking.md)
+         + [Sperren von Inhalten in E-Mail-Vorlagen](content/content-locking.md)
       + Inhaltsfragmente {#fragments}
          + [Erste Schritte mit Inhaltsfragmenten](content/fragments.md)
          + [Erstellen und Bearbeiten von Inhaltsfragmenten](content/create-fragment.md)
@@ -276,12 +276,12 @@ ht-degree: 98%
    + [Konfigurieren benutzerdefinierter Felder](administration/custom-fields.md)
    + [Konfigurieren von Optionen in [!DNL Campaign] ](administration/options.md)
    + Externe Konten {#external-accounts}
-      + [Externe Konten erstellen](administration/create-external-account.md)
-      + [Adobe Lösungsintegration](administration/integration-external-account.md)
-      + [Kampagnenspezifisch](administration/external-account.md)
+      + [Erstellen externer Konten](administration/create-external-account.md)
+      + [Integration von Adobe-Lösungen](administration/integration-external-account.md)
+      + [Campaign-spezifisch](administration/external-account.md)
       + [Externe Datenbank](administration/external-account-database.md)
       + [Hadoop](administration/external-hadoop.md)
-      + [Daten übertragen](administration/transfer-external-account.md)
+      + [Übertragen von Daten](administration/transfer-external-account.md)
    + [Verwalten von Aufzählungen](administration/enumerations.md)
    + [Arbeiten mit JavaScript-Code](administration/javascript-codes.md)
 + [Dokumentation zu Campaign v8 (Konsole) >](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/campaign-home)
