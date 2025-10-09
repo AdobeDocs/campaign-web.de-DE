@@ -2,9 +2,9 @@
 audience: end-user
 title: Konfigurieren eines mehrsprachigen Versands
 description: Erfahren Sie, wie Sie einen mehrsprachigen Versand konfigurieren
-source-git-commit: 0457e4d0150fe445ae5313377eb299cde40a51b9
+source-git-commit: d8d78f97cdf99e67c59827a91c54851b1cbbeb16
 workflow-type: tm+mt
-source-wordcount: '585'
+source-wordcount: '586'
 ht-degree: 18%
 
 ---
@@ -20,7 +20,7 @@ In der Web-Benutzeroberfläche von Campaign können Sie Ihre Sendungen als mehrs
 
 Bei einem mehrsprachigen Versand basiert die Sprachverwaltung auf Varianten. Jede Variante stellt eine Sprache dar. Bei der Versanderstellung können Sie entsprechend der Anzahl der erforderlichen Sprachen in Ihrer Nachricht mehrere Sprachvarianten hinzufügen. Sie können die Standardsprache auch jederzeit ändern, nachdem Sie diese Varianten hinzugefügt haben.
 
-Die mehrsprachige Funktion ist derzeit für E-Mail, Push-Benachrichtigungen und Transaktionsnachrichten verfügbar.
+Die mehrsprachige Funktion ist derzeit für E-Mail, Push-Benachrichtigungen, Transaktionsnachrichten und SMS verfügbar.
 
 >[!AVAILABILITY]
 >
@@ -40,7 +40,7 @@ Gehen Sie wie folgt vor, um eine Sprachvariante zu erstellen:
 
    >[!IMPORTANT]
    >
-   >Die Schaltfläche **[!UICONTROL Sprache hinzufügen]** ist nur verfügbar, wenn die Zieldimension das Schema **Sprache** enthält. Weitere Informationen zu Schemata und Zieldimensionen finden Sie in der [&#x200B; Dokumentation](../audience/targeting-dimensions.md).
+   >Die Schaltfläche **[!UICONTROL Sprache hinzufügen]** ist nur verfügbar, wenn die Zieldimension das Schema **Sprache** enthält. Weitere Informationen zu Schemata und Zieldimensionen finden Sie in der [ Dokumentation](../audience/targeting-dimensions.md).
 
    ![](assets/edit-content_2.png){zoomable="yes"}
 
