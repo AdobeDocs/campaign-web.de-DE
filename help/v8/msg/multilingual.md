@@ -40,7 +40,7 @@ Gehen Sie wie folgt vor, um eine Sprachvariante zu erstellen:
 
    >[!IMPORTANT]
    >
-   >Die Schaltfläche **[!UICONTROL Sprache hinzufügen]** ist nur verfügbar, wenn die Zieldimension das Schema **Sprache** enthält. Weitere Informationen zu Schemata und Zieldimensionen finden Sie in der [ Dokumentation](../audience/targeting-dimensions.md).
+   >Die Schaltfläche **[!UICONTROL Sprache hinzufügen]** ist nur verfügbar, wenn die Zieldimension das Schema **Sprache** enthält. Weitere Informationen zu Schemata und Zieldimensionen finden Sie in der [&#x200B; Dokumentation](../audience/targeting-dimensions.md).
 
    ![](assets/edit-content_2.png){zoomable="yes"}
 
