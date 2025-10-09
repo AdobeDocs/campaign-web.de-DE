@@ -2,10 +2,10 @@
 title: Versionshinweise zur Web-Benutzeroberfläche von Campaign v8
 description: Entdecken Sie die neuen Funktionen der neuesten Version der Campaign Web-Benutzeroberfläche
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
-workflow-type: ht
-source-wordcount: '334'
-ht-degree: 100%
+source-git-commit: 0457e4d0150fe445ae5313377eb299cde40a51b9
+workflow-type: tm+mt
+source-wordcount: '524'
+ht-degree: 71%
 
 ---
 
@@ -19,6 +19,45 @@ ht-degree: 100%
 Die Versionen der Adobe Campaign Web-Benutzeroberfläche basieren auf einem kontinuierlichen Bereitstellungsmodell, das einen besser skalierbaren, schrittweisen Ansatz für die Implementierung von Funktionen ermöglicht. Dementsprechend werden diese Versionshinweise mehrmals im Monat aktualisiert. Sie sollten daher regelmäßig nachschauen.
 
 Änderungen und Verbesserungen, die in früheren Versionen verfügbar sind, sind auf den Seiten für [2024](release-notes-24.md) und [2025](release-notes-25.md) aufgeführt.
+
+## Updates Oktober &#39;25 {#25-9-updates}
+
+_9. Oktober 2025_
+
+<table>
+<thead>
+<tr>
+<th><strong>Mehrsprachige Funktionen für Transaktionsnachrichten, Push-Benachrichtigungen und SMS (LA)</strong><br/></th> 
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Sie können jetzt mehrere Transaktionsnachrichten, Push-Benachrichtigungen und SMS-Nachrichten in verschiedenen Sprachen in der Web-Benutzeroberfläche von Adobe Campaign senden. Mit der Funktion „Mehrsprachiger Versand“ können Sie die Standardsprache Ihres Versands sowie die verschiedenen Sprachen festlegen, in denen der Versand durchgeführt werden kann. Sie können diese Sendungen auch in den von Ihnen ausgewählten Sprachen in der Vorschau anzeigen.</p>
+<p>Hinweis: Diese Funktion ist nur für eine Reihe von Organisationen verfügbar (eingeschränkte Verfügbarkeit) und wird in einer zukünftigen Version global eingeführt.</p>
+<p>Weitere Informationen finden Sie in der <a href="../msg/multilingual.md">entsprechenden Dokumentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Profilanreicherung in Transaktionsnachrichten (LA)</strong><br/></th> 
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Mit dieser Funktion können Sie Transaktionsnachrichten personalisieren, indem Sie Adobe Campaign-Datenbankfelder mit dem Nachrichteninhalt verknüpfen. Sie können Zielgruppen-Mappings, Anreicherungsspalten und einen Abstimmschlüssel auswählen, um eine genaue Echtzeit-Personalisierung unter Einhaltung der Leistungsschwellen sicherzustellen.</p>
+<p>Hinweis: Diese Funktion ist nur für eine Reihe von Organisationen verfügbar (eingeschränkte Verfügbarkeit) und wird in einer zukünftigen Version global eingeführt. Diese Funktion ist derzeit nur für E-Mails verfügbar.</p>
+<p>Weitere Informationen finden Sie in der <a href="../transactional-messaging/profile-enrichment.md">entsprechenden Dokumentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 
 ## Version September 2025 {#25-9-release}
 

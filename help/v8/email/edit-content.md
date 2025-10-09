@@ -3,10 +3,10 @@ audience: end-user
 title: Bearbeiten des E-Mail-Inhalts
 description: Erfahren Sie, wie Sie den E-Mail-Inhalt in der Campaign Web-Benutzeroberfläche bearbeiten können
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-source-git-commit: d64e4c2833757239be181cbd333a9d2ce95aa35f
+source-git-commit: 0457e4d0150fe445ae5313377eb299cde40a51b9
 workflow-type: tm+mt
-source-wordcount: '1229'
-ht-degree: 100%
+source-wordcount: '662'
+ht-degree: 99%
 
 ---
 
@@ -33,17 +33,12 @@ ht-degree: 100%
 >abstract="Standardmäßig ist das Tracking für den Versand aktiviert, d. h. alle im Nachrichteninhalt enthaltenen Links werden verfolgt. Sie können diese Option hier deaktivieren."
 >additional-url="https://experienceleague.adobe.com/de/docs/campaign-web/v8/content/email-design/design-content/message-tracking" text="Hinzufügen von Links und Nachverfolgen von Nachrichten"
 
->[!CONTEXTUALHELP]
->id="acw_deliveries_email_multilingual"
->title="Sprachen hinzufügen"
->abstract="Auf dieser Registerkarte finden Sie eine Liste der Sprachen, in denen der Versand durchgeführt werden soll. Sie können weitere Sprachen hinzufügen, indem Sie auf die Schaltfläche „Sprache hinzufügen“ klicken oder über diese Registerkarte eine andere Sprache duplizieren."
-
 Der E-Mail-Bildschirm **[!UICONTROL Inhalt bearbeiten]** ermöglicht Ihnen Folgendes:
 
 * Definieren der grundlegenden Elemente Ihrer Nachricht, z. B. die Absenderadresse und die Betreffzeile
 * Durchführen zusätzlicher Aktionen, z. B. Hinzufügen von Anhängen oder Einrichten von Angeboten
 * Zugriff auf den [E-Mail-Designer](get-started-email-designer.md#start-authoring), um mit der Erstellung des eigentlichen Inhalts Ihrer E-Mail zu beginnen
-* Fügen Sie Sprachvarianten zu Ihren Sendungen hinzu.
+* Hinzufügen von Sprachvarianten zu Ihren Sendungen. [Weitere Informationen](../msg/multilingual.md)
 
 >[!NOTE]
 >
@@ -110,82 +105,5 @@ Gehen Sie wie folgt vor, um den Inhalt einer E-Mail zu konfigurieren oder zu bea
    * [Gestalten Ihrer Inhalte](get-started-email-style.md)
 
 1. Standardmäßig ist für den Versand Tracking aktiviert. Sie können diese Option im Bereich **[!UICONTROL Optionale Funktionen]** deaktivieren. [Erfahren Sie, wie Sie Links hinzufügen und das Tracking verwalten](message-tracking.md)
-
-1. Nachdem Sie den Inhalt Ihrer E-Mail definiert haben, können Sie vor dem Versand mit der Schaltfläche **[!UICONTROL Inhalt simulieren]** überprüfen, wie die E-Mail dargestellt wird. [Erfahren Sie, wie Sie Ihre E-Mail in einer Vorschau anzeigen und testen](../preview-test/preview-test.md).
-
-## Konfigurieren eines mehrsprachigen Versands {#multilingual-delivery}
-
-In der Web-Benutzeroberfläche von Campaign können Sie Ihre E-Mail-Sendungen als mehrsprachig einrichten, sodass Sie Nachrichten basierend auf der bevorzugten Sprache eines Profils senden können. Wenn keine Voreinstellung definiert ist, wird die Nachricht in der Standardsprache gesendet.
-
-Bei einem mehrsprachigen Versand basiert die Sprachverwaltung auf Varianten. Jede Variante steht für eine Sprache.
-
-Während der Erstellung des Versands können Sie die Anzahl der Varianten entsprechend der Anzahl der für die Nachricht erforderlichen Sprachen hinzufügen. Sie können auch die Standardsprache festlegen, wenn Sie neue Sprachen hinzufügen.
-
-### Hinzufügen einer Sprachvariante
-
-Gehen Sie wie folgt vor, um eine Sprachvariante zu erstellen:
-
-1. Klicken Sie auf die Schaltfläche **[!UICONTROL Sprache hinzufügen]** im oberen Abschnitt des Bildschirms „E-Mail-Konfiguration“.
-
-   >[!IMPORTANT]
-   >
-   >Die Schaltfläche **[!UICONTROL Sprache hinzufügen]** ist nur verfügbar, wenn die Zieldimension das Sprachschema enthält. Weitere Informationen zu Schemata und Zieldimensionen finden Sie in der [ausführlichen Dokumentation](https://experienceleague.adobe.com/de/docs/campaign-web/v8/audiences/targeting-dimensions){target=_blank}.
-
-   ![](assets/edit-content_2.png){zoomable="yes"}
-
-
-1. Wählen Sie die hinzuzufügende Sprache in der Dropdown-Liste **[!UICONTROL Sprache]** aus. Beim Hinzufügen der ersten Sprache wird diese als Standard festgelegt und der aktuelle Inhalt ist der Standardinhalt. Wenn Sie neue Sprachen hinzufügen, basiert der Inhalt auf dem Standardinhalt.
-
-   >[!NOTE]
-   >
-   >Die in dieser Liste verfügbaren Sprachen hängen von den Werten ab, die durch das Attribut „Sprache“ definiert wurden (Werte wie: „system“, „user“, „dbenum“ usw.) Weitere Informationen zur Auflistungsverwaltung finden Sie in diesem [Abschnitt](https://experienceleague.adobe.com/de/docs/campaign-web/v8/conf/enumerations){target=_blank}.
-
-
-   ![](assets/edit-content_3.png){zoomable="yes"}
-
-   Hier finden Sie ein Beispiel für Englisch (USA):
-
-   ![](assets/edit-content_8.png){zoomable="yes"}
-
-
-1. Wiederholen Sie diesen Vorgang, um weitere Sprachen hinzuzufügen. Im Panel **[!UICONTROL Sprache]** wird die Liste der ausgewählten Sprachen, die Anzahl der verschiedenen Sprachen sowie die Standardsprache angezeigt.
-
-   Wenn Sie beispielsweise Englisch, Französisch und Schwedisch ausgewählt haben, können Sie diese 3 Sprachen wie unten angezeigt sehen:
-
-   ![](assets/edit-content_9.png){zoomable="yes"}
-
-   Sie können oben rechts auf die Schaltfläche „Erweitern“ klicken, um jede Sprache zu löschen.
-
-### Definieren des E-Mail-Inhalts für jede Variante
-
-Sobald Sprachen festgelegt sind, definieren Sie den Inhalt der E-Mail, die an die Profile mit dieser bevorzugten Sprache gesendet wird.
-
-Gehen Sie wie folgt vor, um einen E-Mail-Inhalt zu definieren:
-
-1. Öffnen Sie den [E-Mail-Designer](get-started-email-designer.md#start-authoring), indem Sie auf die Schaltfläche **[!UICONTROL E-Mail-Text bearbeiten]** klicken.
-
-   >[!NOTE]
-   >
-   >Sie können auch den Mauszeiger über die E-Mail-Vorschau bewegen und **[!UICONTROL E-Mail-Designer öffnen]** auswählen.
-
-   ![](assets/edit-content_11.png){zoomable="yes"}
-
-
-1. Sie können eine Vorschau des Versands anzeigen, indem Sie auf die Schaltfläche **[!UICONTROL Inhalte simulieren]** klicken und das Profil und die Sprache auswählen, in denen die E-Mail angezeigt werden soll.
-
-1. Im Fenster „Inhalte simulieren“ können Sie zwischen Profilen wechseln, um eine Vorschau des Inhalts der E-Mail anzuzeigen, die der für dieses Profil festgelegten Sprache entspricht.
-
-   ![](assets/edit-content_5.png){zoomable="yes"}
-
-### Duplizieren oder Entfernen von Sprachvarianten
-
-Klicken Sie oben rechts auf die Schaltfläche „Erweitern“ und dann auf die Schaltfläche **[!UICONTROL Alle Varianten löschen]**, um alle Sprachen zu löschen.
-
-![](assets/edit-content_13.png){zoomable="yes"}
-
-Um eine Sprachvariante zu entfernen, klicken Sie auf die drei Punkte auf der rechten Seite der Registerkarte und wählen Sie „Entfernen“ aus.
-
-Um eine Sprachvariante zu duplizieren, klicken Sie auf die drei Punkte auf der rechten Seite der Registerkarte und wählen Sie „Duplizieren“. Wenn Sie eine andere Sprache als die Standardsprache duplizieren, basiert der duplizierte Inhalt auf der Sprache, die Sie dupliziert haben.
-
 
 1. Nachdem Sie den Inhalt Ihrer E-Mail definiert haben, können Sie vor dem Versand mit der Schaltfläche **[!UICONTROL Inhalt simulieren]** überprüfen, wie die E-Mail dargestellt wird. [Erfahren Sie, wie Sie Ihre E-Mail in einer Vorschau anzeigen und testen](../preview-test/preview-test.md).
