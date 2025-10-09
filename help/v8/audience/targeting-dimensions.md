@@ -3,7 +3,7 @@ title: Zielgruppen- und Filterdimensionen
 description: Erfahren Sie mehr über Zielgruppen- und Filterdimensionen in der Adobe Campaign Web-Benutzeroberfläche
 exl-id: b910649a-7300-4f99-8f40-3a8965572ee9
 source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '571'
 ht-degree: 100%
 
