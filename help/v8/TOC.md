@@ -6,9 +6,9 @@ title: Dokumentation zu Adobe Campaign Web
 description: Dokumentation zu Campaign Web
 breadcrumb-title: Campaign Web-Benutzeroberfläche
 source-git-commit: 0457e4d0150fe445ae5313377eb299cde40a51b9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '939'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -77,7 +77,7 @@ ht-degree: 99%
       + [Erstellen einer Transaktionsnachricht](transactional-messaging/create-transactional.md)
       + [Validieren der Transaktionsnachricht](transactional-messaging/validate-transactional.md)
       + [Überwachen von Transaktionsnachrichten](transactional-messaging/monitor-transactional.md)
-      + [Transaktionsnachrichten mit Profildaten anreichern](transactional-messaging/profile-enrichment.md)
+      + [Anreichern von Transaktionsnachrichten mit Profildaten](transactional-messaging/profile-enrichment.md)
    + [Durchführen von externen Sendungen](msg/send-external-deliveries.md)
    + [Hinzufügen von Angeboten zu Ihren Nachrichten](msg/offers.md)
    + [Konfigurieren eines mehrsprachigen Versands](msg/multilingual.md)
@@ -194,10 +194,10 @@ ht-degree: 99%
       + [Anreicherung](workflows/activities/enrichment.md)
       + [Externes Signal](workflows/activities/external-signal.md)
       + [Dateiextraktion](workflows/activities/extract-file.md)
-      + [Verzweigung &#x200B;](workflows/activities/fork.md)
+      + [Verzweigung ](workflows/activities/fork.md)
       + [Inkrementelle Abfrage](workflows/activities/incremental-query.md)
       + [JavaScript-Code](workflows/activities/javascript-code.md)
-      + [Datei laden &#x200B;](workflows/activities/load-file.md)
+      + [Datei laden ](workflows/activities/load-file.md)
       + [Abstimmung](workflows/activities/reconciliation.md)
       + [Zielgruppe speichern](workflows/activities/save-audience.md)
       + [Planung](workflows/activities/scheduler.md)
@@ -276,7 +276,7 @@ ht-degree: 99%
    + [Verwalten von Zielgruppen-Mappings](administration/target-mappings.md)
    + [Arbeiten mit Schemata](administration/schemas.md)
    + [Konfigurieren benutzerdefinierter Felder](administration/custom-fields.md)
-   + [Konfigurieren von Optionen in [!DNL Campaign] &#x200B;](administration/options.md)
+   + [Konfigurieren von Optionen in [!DNL Campaign] ](administration/options.md)
    + Externe Konten {#external-accounts}
       + [Erstellen externer Konten](administration/create-external-account.md)
       + [Integration von Adobe-Lösungen](administration/integration-external-account.md)

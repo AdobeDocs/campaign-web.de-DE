@@ -3,9 +3,9 @@ title: Versionshinweise zur Web-Benutzeroberfläche von Campaign v8
 description: Entdecken Sie die neuen Funktionen der neuesten Version der Campaign Web-Benutzeroberfläche
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 source-git-commit: 0457e4d0150fe445ae5313377eb299cde40a51b9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '524'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
@@ -20,21 +20,21 @@ Die Versionen der Adobe Campaign Web-Benutzeroberfläche basieren auf einem kont
 
 Änderungen und Verbesserungen, die in früheren Versionen verfügbar sind, sind auf den Seiten für [2024](release-notes-24.md) und [2025](release-notes-25.md) aufgeführt.
 
-## Updates Oktober &#39;25 {#25-9-updates}
+## Updates im Oktober 2025 {#25-9-updates}
 
-_9. Oktober 2025_
+_9. Okt. 2025_
 
 <table>
 <thead>
 <tr>
-<th><strong>Mehrsprachige Funktionen für Transaktionsnachrichten, Push-Benachrichtigungen und SMS (LA)</strong><br/></th> 
+<th><strong>Mehrsprachige Funktionen für Transaktionsnachrichten, Push-Benachrichtigungen und SMS (eingeschränkte Verfügbarkeit)</strong><br/></th> 
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Sie können jetzt mehrere Transaktionsnachrichten, Push-Benachrichtigungen und SMS-Nachrichten in verschiedenen Sprachen in der Web-Benutzeroberfläche von Adobe Campaign senden. Mit der Funktion „Mehrsprachiger Versand“ können Sie die Standardsprache Ihres Versands sowie die verschiedenen Sprachen festlegen, in denen der Versand durchgeführt werden kann. Sie können diese Sendungen auch in den von Ihnen ausgewählten Sprachen in der Vorschau anzeigen.</p>
-<p>Hinweis: Diese Funktion ist nur für eine Reihe von Organisationen verfügbar (eingeschränkte Verfügbarkeit) und wird in einer zukünftigen Version global eingeführt.</p>
+<p>Sie können über die Adobe Campaign Web-Benutzeroberfläche jetzt mehrere Transaktionsnachrichten, Push-Benachrichtigungen und SMS-Nachrichten in verschiedenen Sprachen versenden. Mit der Funktion „Mehrsprachiger Versand“ können Sie die Standardsprache Ihres Versands sowie die verschiedenen Sprachen festlegen, in denen der Versand durchgeführt werden kann. Sie können diese Sendungen auch in einer Vorschau in den von Ihnen ausgewählten Sprachen anzeigen.</p>
+<p>Hinweis: Diese Funktion ist nur für eine bestimmte Gruppe von Unternehmen verfügbar (eingeschränkte Verfügbarkeit) und wird in einer zukünftigen Version global eingeführt.</p>
 <p>Weitere Informationen finden Sie in der <a href="../msg/multilingual.md">entsprechenden Dokumentation</a>.</p>
 </td>
 </tr>
@@ -44,14 +44,14 @@ _9. Oktober 2025_
 <table>
 <thead>
 <tr>
-<th><strong>Profilanreicherung in Transaktionsnachrichten (LA)</strong><br/></th> 
+<th><strong>Profilanreicherung in Transaktionsnachrichten (eingeschränkte Verfügbarkeit)</strong><br/></th> 
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Mit dieser Funktion können Sie Transaktionsnachrichten personalisieren, indem Sie Adobe Campaign-Datenbankfelder mit dem Nachrichteninhalt verknüpfen. Sie können Zielgruppen-Mappings, Anreicherungsspalten und einen Abstimmschlüssel auswählen, um eine genaue Echtzeit-Personalisierung unter Einhaltung der Leistungsschwellen sicherzustellen.</p>
-<p>Hinweis: Diese Funktion ist nur für eine Reihe von Organisationen verfügbar (eingeschränkte Verfügbarkeit) und wird in einer zukünftigen Version global eingeführt. Diese Funktion ist derzeit nur für E-Mails verfügbar.</p>
+<p>Mit dieser Funktion können Sie Transaktionsnachrichten personalisieren, indem Sie Adobe Campaign-Datenbankfelder mit dem Nachrichteninhalt verknüpfen. Sie können Zielgruppen-Mappings, Anreicherungsspalten und einen Abstimmschlüssel auswählen, um präzise Echtzeit-Personalisierung unter Einhaltung der Leistungsschwellen sicherzustellen.</p>
+<p>Hinweis: Diese Funktion ist nur für eine bestimmte Gruppe von Unternehmen verfügbar (eingeschränkte Verfügbarkeit) und wird in einer zukünftigen Version global eingeführt. Diese Funktion ist derzeit nur für E-Mails verfügbar.</p>
 <p>Weitere Informationen finden Sie in der <a href="../transactional-messaging/profile-enrichment.md">entsprechenden Dokumentation</a>.</p>
 </td>
 </tr>

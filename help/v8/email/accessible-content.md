@@ -8,9 +8,9 @@ level: Beginner, Intermediate
 keywords: E-Mail, Design, Barrierefreiheit
 exl-id: ddfa989b-8a30-4912-bed6-cc1ee7fa2eaa
 source-git-commit: 82128a2d628a44e2718a9a1d2f848584140d5532
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1536'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -24,8 +24,7 @@ Mit [!DNL Adobe Campaign] [E-Mail-Designer](create-email-content.md), mit dem Ma
 
 Dementsprechend finden Sie im Folgenden Best Practices für die Gestaltung barrierefreier Inhalte mit [!DNL Adobe Campaign].
 
-Auf dieser Seite geht es darum, Ihre Inhalte für alle Ihre Empfängerinnen und Empfänger zugänglich zu machen, um sicherzustellen, dass Menschen mit Behinderungen Ihre mit [!DNL Adobe Campaign] entworfenen E-Mails und Landingpages lesen, verstehen und mit ihnen interagieren können.
- 
+Auf dieser Seite geht es darum, Ihre Inhalte für alle Empfängerinnen und Empfänger barrierefrei zu machen, um sicherzustellen, dass Menschen mit Behinderungen Ihre mit [!DNL Adobe Campaign] entworfenen E-Mails und Landingpages lesen, verstehen und mit ihnen interagieren können.
 
 ## Sicherstellen der Lesbarkeit von Text {#text-readability}
 

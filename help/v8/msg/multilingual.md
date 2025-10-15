@@ -1,11 +1,11 @@
 ---
 audience: end-user
 title: Konfigurieren eines mehrsprachigen Versands
-description: Erfahren Sie, wie Sie einen mehrsprachigen Versand konfigurieren
+description: Informationen zum Konfigurieren eines mehrsprachigen Versands
 source-git-commit: d8d78f97cdf99e67c59827a91c54851b1cbbeb16
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '586'
-ht-degree: 18%
+ht-degree: 100%
 
 ---
 
@@ -16,21 +16,21 @@ ht-degree: 18%
 >title="Sprachen hinzufügen"
 >abstract="Auf dieser Registerkarte finden Sie eine Liste der Sprachen, in denen der Versand durchgeführt werden soll. Sie können weitere Sprachen hinzufügen, indem Sie auf die Schaltfläche „Sprache hinzufügen“ klicken oder über diese Registerkarte eine andere Sprache duplizieren."
 
-In der Web-Benutzeroberfläche von Campaign können Sie Ihre Sendungen als mehrsprachig einrichten, sodass Sie Nachrichten basierend auf der bevorzugten Sprache eines Profils senden können. Wenn keine Voreinstellung definiert ist, wird die Nachricht in der Standardsprache gesendet.
+In der Campaign Web-Benutzeroberfläche können Sie Ihre Sendungen als mehrsprachig einrichten, sodass Sie Nachrichten basierend auf der bevorzugten Sprache eines Profils senden können. Wenn keine Voreinstellung definiert ist, wird die Nachricht in der Standardsprache gesendet.
 
-Bei einem mehrsprachigen Versand basiert die Sprachverwaltung auf Varianten. Jede Variante stellt eine Sprache dar. Bei der Versanderstellung können Sie entsprechend der Anzahl der erforderlichen Sprachen in Ihrer Nachricht mehrere Sprachvarianten hinzufügen. Sie können die Standardsprache auch jederzeit ändern, nachdem Sie diese Varianten hinzugefügt haben.
+Bei einem mehrsprachigen Versand basiert die Sprachverwaltung auf Varianten. Jede Variante steht für eine Sprache. Bei der Versanderstellung können Sie entsprechend der Anzahl der erforderlichen Sprachen in Ihrer Nachricht mehrere Sprachvarianten hinzufügen. Sie können die Standardsprache auch jederzeit ändern, nachdem Sie diese Varianten hinzugefügt haben.
 
-Die mehrsprachige Funktion ist derzeit für E-Mail, Push-Benachrichtigungen, Transaktionsnachrichten und SMS verfügbar.
+Die mehrsprachige Funktion ist derzeit für E-Mails, Push-Benachrichtigungen, Transaktionsnachrichten und SMS verfügbar.
 
 >[!AVAILABILITY]
 >
->Mehrsprachige Push-Benachrichtigungen, Transaktionsnachrichten und SMS sind nur für eine Reihe von Unternehmen verfügbar (eingeschränkte Verfügbarkeit) und werden in einer zukünftigen Version global bereitgestellt. Ihr Server muss auf Version 8.8.2 oder höher aktualisiert werden.
+>Mehrsprachige Push-Benachrichtigungen, Transaktionsnachrichten und SMS sind nur für eine bestimmte Gruppe von Unternehmen verfügbar (eingeschränkte Verfügbarkeit) und werden in einer zukünftigen Version global eingeführt. Ihr Server muss auf 8.8.2 oder höher aktualisiert sein.
 
-Gehen Sie wie folgt vor, um einen mehrsprachigen Versand einzurichten:
+Führen Sie die folgenden Schritte durch, um den mehrsprachigen Versand einzurichten:
 
-1. Hinzufügen einer Sprachvariante, [mehr dazu](#add-variant)
-1. Definieren des Inhalts für jede Variante, [mehr dazu](#define-content)
-1. Sprachvarianten verwalten, [mehr dazu](#manage-variant)
+1. Hinzufügen einer Sprachvariante, [weitere Informationen](#add-variant)
+1. Definieren des Inhalts für jede Variante, [weitere Informationen](#define-content)
+1. Verwalten der Sprachvarianten, [weitere Informationen](#manage-variant)
 
 ## Hinzufügen einer Sprachvariante{#add-variant}
 
@@ -40,11 +40,11 @@ Gehen Sie wie folgt vor, um eine Sprachvariante zu erstellen:
 
    >[!IMPORTANT]
    >
-   >Die Schaltfläche **[!UICONTROL Sprache hinzufügen]** ist nur verfügbar, wenn die Zieldimension das Schema **Sprache** enthält. Weitere Informationen zu Schemata und Zieldimensionen finden Sie in der [&#x200B; Dokumentation](../audience/targeting-dimensions.md).
+   >Die Schaltfläche **[!UICONTROL Sprache hinzufügen]** ist nur verfügbar, wenn die Zielgruppendimension das Schema **Sprache** enthält. Weitere Informationen zu Schemata und Zielgruppendimensionen finden Sie in der [ausführlichen Dokumentation](../audience/targeting-dimensions.md).
 
    ![](assets/edit-content_2.png){zoomable="yes"}
 
-1. Wählen Sie aus **Dropdown-Liste** Sprache hinzufügen“ die hinzuzufügende Sprache aus und bestätigen Sie dann Ihre Auswahl.
+1. Wählen Sie aus der Dropdown-Liste **Sprache hinzufügen** die gewünschte Sprache aus und bestätigen Sie dann Ihre Auswahl.
 
    Die erste hinzugefügte Sprache wird automatisch als Standard festgelegt und der vorhandene Inhalt wird zur Standardversion. Wenn zusätzliche Sprachen hinzugefügt werden, wird deren Inhalt zunächst aus der Standardsprache kopiert.
 
@@ -52,9 +52,9 @@ Gehen Sie wie folgt vor, um eine Sprachvariante zu erstellen:
 
    >[!NOTE]
    >
-   >Die in dieser Liste verfügbaren Sprachen hängen von den Werten ab, die durch das Attribut **Language** definiert wurden (Werte wie: system, user, dbenum usw.). Weitere Informationen zur Auflistungsverwaltung finden Sie in [Abschnitt](../administration/enumerations.md).
+   >Die in dieser Liste verfügbaren Sprachen hängen von den Werten ab, die durch das Attribut **Sprache** definiert wurden (Werte wie: „system“, „user“, „dbenum“ usw.). Weitere Informationen zur Auflistungsverwaltung finden Sie in diesem [Abschnitt](../administration/enumerations.md).
 
-1. Wiederholen Sie diesen Vorgang, um weitere Sprachen hinzuzufügen. Das **[!UICONTROL Languages]** auf der linken Seite zeigt die Liste der ausgewählten Sprachen, die Anzahl der Sprachen und die Standardsprache an.
+1. Wiederholen Sie diesen Vorgang, um weitere Sprachen hinzuzufügen. Im Panel **[!UICONTROL Sprachen]** werden auf der linken Seite die Liste der ausgewählten Sprachen, die Anzahl der verschiedenen Sprachen sowie die Standardsprache angezeigt.
 
    Wenn Sie beispielsweise Englisch, Französisch und Schwedisch ausgewählt haben, können Sie diese 3 Sprachen wie unten angezeigt sehen:
 
@@ -66,7 +66,7 @@ Gehen Sie wie folgt vor, um eine Sprachvariante zu erstellen:
 
 Definieren Sie nach dem Festlegen der Sprachen den Versandinhalt für jede Sprache.
 
-1. Wählen Sie auf dem Bildschirm zur Bearbeitung des Versandinhalts eine Sprache **[!UICONTROL Bedienfeld]** Sprachen“ auf der linken Seite aus.
+1. Wählen Sie auf dem Bildschirm zur Bearbeitung des Versandinhalts über das Panel **[!UICONTROL Sprachen]** auf der linken Seite eine Sprache aus.
 
    ![](assets/edit-content_11.png){zoomable="yes"}
 
@@ -101,22 +101,22 @@ Definieren Sie nach dem Festlegen der Sprachen den Versandinhalt für jede Sprac
 
 -->
 
-Um eine Vorschau des Versands anzuzeigen, klicken Sie auf die **[!UICONTROL Inhalt simulieren]** und wählen Sie Profile aus. Stellen Sie sicher, dass für jedes Profil der richtige Inhalt angezeigt wird.
+Um eine Vorschau des Versands anzuzeigen, klicken Sie auf die Schaltfläche **[!UICONTROL Inhalte simulieren]** und wählen Sie „Profile“ aus. Stellen Sie sicher, dass für jedes Profil der richtige Inhalt angezeigt wird.
 
 ![](assets/edit-content_5.png){zoomable="yes"}
 
 ## Verwalten von Sprachvarianten{#manage-variant}
 
-Im linken Bedienfeld werden alle Sprachvarianteninformationen angezeigt. Um alle Sprachen zu löschen, klicken Sie auf die Schaltfläche Erweitern und anschließend auf **[!UICONTROL Alle Varianten löschen]**.
+Im linken Panel werden die Informationen zu allen Sprachvarianten angezeigt. Um alle Sprachen zu löschen, klicken Sie auf die Schaltfläche „Erweitern“ und anschließend auf **[!UICONTROL Alle Varianten löschen]**.
 
 ![](assets/edit-content_13.png){zoomable="yes"}
 
 In der Liste der Sprachvarianten können Sie die folgenden Aktionen ausführen:
 
-* **Bearbeiten**: Ändern Sie die Sprache, während Sie die zugehörigen Inhalte beibehalten.
-* **Als Standard festlegen**: Legen Sie die Sprache als Standardsprache fest. Wenn für ein Profil keine Sprache definiert ist, wird die Nachricht in der Standardsprache gesendet.
-* **Duplizieren**: Den für diese Sprache definierten Inhalt duplizieren und eine andere Variante auswählen.
-* **Löschen**: Löschen der Variante und des zugehörigen Inhalts.
+* **Bearbeiten**: die Sprache ändern und gleichzeitig die zugehörigen Inhalte beibehalten.
+* **Als Standard festlegen**: die Sprache als Standardsprache festlegen. Wenn für ein Profil keine Sprache definiert ist, wird die Nachricht in der Standardsprache gesendet.
+* **Duplizieren**: den für diese Sprache definierten Inhalt duplizieren und eine andere Variante auswählen.
+* **Löschen**: die Variante und den zugehörigen Inhalt löschen.
 
 ![](assets/edit-content_13-sms.png){zoomable="yes"}
 
