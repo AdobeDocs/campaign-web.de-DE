@@ -3,10 +3,10 @@ audience: end-user
 title: Arbeiten mit Geschäftsregeln (Typologien)
 description: Erfahren Sie, wie Sie mit Typologien und Typologieregeln arbeiten können, um den Versand von Sendungen zu steuern, zu filtern und zu überwachen.
 exl-id: 54fdd03a-e49d-4f22-b6d4-6055c8922e58
-source-git-commit: 4444fc6742754137d1d73d7ea8bc12388ce1bc7d
+source-git-commit: 73dfc1e14e04493a76e1ca91fab0306cd1e88b26
 workflow-type: tm+mt
-source-wordcount: '1474'
-ht-degree: 100%
+source-wordcount: '1503'
+ht-degree: 85%
 
 ---
 
@@ -88,69 +88,25 @@ Der Bildschirm mit den Typologiedetails wird geöffnet. Verweisen Sie über dies
 >title="Eigenschaften einer Typologieregel"
 >abstract="Definieren Sie die Eigenschaften der Typologieregel. Mit **Steuerungsregeln** werden vor dem Versand die Qualität und Gültigkeit der Nachrichten überprüft. **Filterregeln** dienen hingegen dazu, Segmente der Zielgruppe anhand bestimmter Kriterien auszuschließen.<br/><br/>Sie können auch die Anwendungsreihenfolge der Regel ändern, um die Anwendungsreihenfolge von Typologieregeln zu steuern, wenn mehrere Regeln desselben Typs während derselben Nachrichtenverarbeitungsphase ausgeführt werden."
 
-Um eine Typologieregel zu erstellen, navigieren Sie zum Menü **[!UICONTROL Geschäftsregeln]** und wählen Sie dann die Registerkarte **[!UICONTROL Typologieregeln]** aus.
+Es stehen zwei Arten von Typologieregeln zur Verfügung:
 
-Klicken Sie auf die Schaltfläche **[!UICONTROL Typologieregel erstellen]** und führen Sie dann die nachfolgend beschriebenen Schritte aus.
+* **Kontrolle**: Stellt die Qualität und Gültigkeit der Nachrichten vor dem Senden sicher, z. B. die Zeichenanzeige, die SMS-Länge, das Adressformat oder die URL-Verkürzung. Diese Regeln werden mithilfe einer Skripting-Oberfläche erstellt, um komplexe Logik für Inhaltsprüfungen und -änderungen zu definieren.
 
-### Definieren der Eigenschaften der Typologieregel {#properties}
+* **Filter**: Schließt Segmente der Zielgruppe basierend auf bestimmten Kriterien wie Alter, Standort, Land oder Telefonnummern aus. Diese Regeln sind mit einer Zielgruppendimension verknüpft.
 
-So definieren Sie die Eigenschaften der Typologieregel:
+>[!NOTE]
+>
+>Aktuell können über die Web-Benutzeroberfläche nur Typologieregeln vom Typ **Kontrolle** und **Filter** erstellt werden. Verwenden Sie zum Erstellen anderer Regeltypen die Client-Konsole. [Weitere Informationen zum Erstellen von Typologieregeln in der Client-Konsole](https://experienceleague.adobe.com/de/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}
 
-1. Geben Sie einen **[!UICONTROL Titel]** für die Regel ein. 
+Gehen Sie wie folgt vor, um eine Typologieregel zu erstellen:
 
-   ![Benutzeroberfläche zum Erstellen von Kontrollregeln](assets/business-rules-control-rule.png)
+1. Navigieren Sie zum Menü **[!UICONTROL Geschäftsregeln]** und wählen Sie dann die Registerkarte **[!UICONTROL Typologieregeln]** aus.
 
-1. Legen Sie den **[!UICONTROL Typ]** für die Typologieregel fest:
+1. Klicken Sie auf die Schaltfläche **[!UICONTROL Typologieregel erstellen]** und führen Sie dann die nachfolgend beschriebenen Schritte aus.
 
-   * **Kontrolle**: Stellt die Qualität und Gültigkeit der Nachrichten vor dem Senden sicher, z. B. die Zeichenanzeige, die SMS-Länge, das Adressformat oder die URL-Verkürzung. Diese Regeln werden mithilfe einer Skripting-Oberfläche erstellt, um komplexe Logik für Inhaltsprüfungen und -änderungen zu definieren.
+[Typologieregel erstellen](assets/business-rules-create-typo.png)
 
-   * **Filter**: Schließt Segmente der Zielgruppe basierend auf bestimmten Kriterien wie Alter, Standort, Land oder Telefonnummern aus. Diese Regeln sind mit einer Zielgruppendimension verknüpft.
-
-   >[!NOTE]
-   >
-   >Aktuell können über die Web-Benutzeroberfläche nur Typologieregeln vom Typ **Kontrolle** und **Filter** erstellt werden. Verwenden Sie zum Erstellen anderer Regeltypen die Client-Konsole. [Weitere Informationen zum Erstellen von Typologieregeln in der Client-Konsole](https://experienceleague.adobe.com/de/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}
-
-1. Wählen Sie einen **[!UICONTROL Kanal]** aus, um ihn mit der Regel zu verknüpfen.
-
-1. Schalten Sie die Option **[!UICONTROL Aktiv]** aus, wenn die Regel nicht direkt nach ihrer Erstellung aktiv sein soll.
-
-1. Definieren Sie die **[!UICONTROL Anwendungsreihenfolge]** für die Regel.
-
-   Standardmäßig ist diese Priorität einer Typologieregel auf 50 festgelegt. Passen Sie diesen Wert an, um die Anwendungsreihenfolge von Typologieregeln zu steuern, wenn mehrere Regeln desselben Typs während derselben Nachrichtenverarbeitungsphase ausgeführt werden. Beispielsweise wird eine Filterregel mit einem Wert der Anwendungsreihenfolge von 20 vor einer Filterregel mit einem Wert von 30 ausgeführt.
-
-1. Erweitern Sie den Abschnitt **[!UICONTROL Weitere Optionen]**, um auf erweiterte Einstellungen wie den internen Namen, den Speicherordner und die Beschreibung der Regel zuzugreifen.
-
-1. Für Kontrollregeln stehen in den weiteren Optionen zwei zusätzliche Felder zur Verfügung. Legen Sie fest, wann die Regel angewendet werden soll, und bestimmen Sie die zugehörige Warnstufe:
-
-   * **[!UICONTROL Phase]**: Geben Sie an, zu welchem Zeitpunkt des Versandlebenszyklus die Regel angewendet wird. Wählen Sie den Wert in der Dropdown-Liste **[!UICONTROL Phase]** aus. Erweitern Sie den folgenden Abschnitt, um weitere Details zu den möglichen Werten zu erhalten:
-
-   +++Phasen einer Steuerungsregel
-
-   **[!UICONTROL Zu Beginn der Zielgruppenbestimmung]**: Verhindern Sie, dass der Personalisierungsschritt bei Fehlern ausgeführt wird.
-
-   **[!UICONTROL Nach der Zielgruppenbestimmung]**: Wählen Sie diese Phase aus, wenn Sie die Größe der Zielgruppe kennen müssen, um die Kontrollregel anzuwenden. Die Kontrollregel **[!UICONTROL Prüfung der Testversandgröße]** beispielsweise wird zwingend nach der Zielbestimmungsphase angewendet. Diese Regel verhindert eine Nachrichtenpersonalisierung, wenn die Zielgruppe des Testversands zu groß ist.
-
-   **[!UICONTROL Zu Beginn der Personalisierung]**: Wählen Sie diese Phase aus, wenn die Kontrolle die Validierung der Nachrichtenpersonalisierung betrifft. Die Nachrichtenpersonalisierung erfolgt während der Analysephase.
-
-   **[!UICONTROL Am Ende der Analyse]**: Wenden Sie Prüfungen an, für die eine vollständige Nachrichtenpersonalisierung erforderlich ist.
-
-+++
-
-   * **[!UICONTROL Ebene]**: Geben Sie die Warnstufe für die Regel an. Erweitern Sie den folgenden Abschnitt, um weitere Informationen zu erhalten.
-
-   +++Ebenen einer Steuerungsregel:
-
-   **[!UICONTROL Fehler]**: Die Nachrichtenvorbereitung wird angehalten.
-
-   **[!UICONTROL Warnung]**: Es wird eine Warnung in den Vorbereitungs-Logs angezeigt.
-
-   **[!UICONTROL Info]**: Es werden Informationen in den Vorbereitungs-Logs angezeigt.
-
-   **[!UICONTROL Verbose]**: Es werden Informationen in den Serverlogs angezeigt.
-
-+++
-
-### Erstellen des Regelinhalts {#build}
+### Definieren der Haupteigenschaften der Regel {#properties}
 
 >[!CONTEXTUALHELP]
 >id="acw_business_rules_typology_rules_filtering"
@@ -162,17 +118,84 @@ So definieren Sie die Eigenschaften der Typologieregel:
 >title="Code"
 >abstract="**Steuerungsregeln** überprüfen vor dem Versand die Qualität und Gültigkeit der Nachrichten, z. B. Zeichenanzeige, SMS-Länge, Adressformat oder URL-Verkürzung. Diese Regeln werden mit JavaScript-Code erstellt."
 
-Nachdem Sie die Eigenschaften der Typologieregel definiert haben, erstellen Sie den Inhalt der Regel.
+Dies sind die wichtigsten Eigenschaften beim Erstellen einer neuen Typologieregel.
 
-* Klicken Sie für **Steuerungsregeln** auf die Schaltfläche **Code bearbeiten** und geben Sie die Logik für die Regel mithilfe von JavaScript ein. Im folgenden Beispiel wird eine Regel erstellt, um eine Warnung in den Logs anzuzeigen, wenn das Ziel leer ist.
+>[!BEGINTABS]
 
-  ![Code-Editor für Steuerungsregeln](assets/business-rules-code.png)
+>[!TAB Kontrollregeln]
 
-* Wählen Sie für **Filterregeln** die Zielgruppendimension aus und klicken Sie auf die Schaltfläche **[!UICONTROL Regeln hinzufügen]**, um Filterkriterien mithilfe des [Abfrage-Modelers](../query/query-modeler-overview.md) zu definieren.
+1. Geben Sie einen **[!UICONTROL Titel]** für die Regel ein. 
 
-  ![Filterregel-Abfragemodellierer](assets/business-rules-query.png)
+[Kontrollregel erstellen](assets/business-rules-create-typo1.png)
 
-Wenn Ihre Regel fertig ist, klicken Sie auf die Schaltfläche **[!UICONTROL Erstellen]**, um die Typologieregel zu erstellen. Referenzieren Sie die Regel in einer Typologie, um sie auf Nachrichten anzuwenden.
+1. Erweitern Sie den Abschnitt **[!UICONTROL Zusätzliche Optionen]**, um auf erweiterte Einstellungen wie den internen Namen der Regel, den Ordnerspeicher und die Beschreibung zuzugreifen. Sie können auch angeben, wann die Regel angewendet werden soll, und die Warnstufe festlegen. Erweitern Sie die folgenden Abschnitte, um weitere Informationen zu erhalten.
+
+   +++Phasen:
+
+   Geben Sie an, zu welchem Zeitpunkt des Versandlebenszyklus die Regel angewendet wird. Wählen Sie den Wert in der **[!UICONTROL Phase]** Dropdown-Liste aus:
+
+   * **[!UICONTROL Zu Beginn der Zielgruppenbestimmung]**: Verhindern Sie, dass der Personalisierungsschritt bei Fehlern ausgeführt wird.
+
+   * **[!UICONTROL Nach der Zielgruppenbestimmung]**: Wählen Sie diese Phase aus, wenn Sie die Größe der Zielgruppe kennen müssen, um die Kontrollregel anzuwenden. Die Kontrollregel **[!UICONTROL Prüfung der Testversandgröße]** beispielsweise wird zwingend nach der Zielgruppenbestimmungsphase angewendet. Diese Regel verhindert eine Nachrichtenpersonalisierung, wenn die Zielgruppe des Testversands zu groß ist.
+
+   * **[!UICONTROL Zu Beginn der Personalisierung]**: Wählen Sie diese Phase aus, wenn die Kontrolle die Validierung der Nachrichtenpersonalisierung betrifft. Die Nachrichtenpersonalisierung erfolgt während der Analysephase.
+
+   * **[!UICONTROL Am Ende der Analyse]**: Wenden Sie Prüfungen an, für die eine vollständige Nachrichtenpersonalisierung erforderlich ist.
+
+   +++
+
+   +++Ebene:
+
+   Geben Sie die Warnstufe für die Regel an:
+
+   * **[!UICONTROL Fehler]**: Die Nachrichtenvorbereitung wird angehalten.
+
+   * **[!UICONTROL Warnung]**: Es wird eine Warnung in den Vorbereitungs-Logs angezeigt.
+
+   * **[!UICONTROL Info]**: Es werden Informationen in den Vorbereitungs-Logs angezeigt.
+
+   * **[!UICONTROL Verbose]**: Es werden Informationen in den Serverlogs angezeigt.
+
+   +++
+
+1. Um den Inhalt der Regel zu erstellen, klicken Sie auf die Schaltfläche **Code bearbeiten** und geben Sie die Logik für die Regel mithilfe von JavaScript ein. Im folgenden Beispiel wird eine Regel erstellt, um eine Warnung in den Logs anzuzeigen, wenn das Ziel leer ist.
+
+   ![Code-Editor für Steuerungsregeln](assets/business-rules-code.png)
+
+1. Klicken Sie auf **Erstellen**.
+
+
+>[!TAB Filterregeln]
+
+1. Geben Sie einen **[!UICONTROL Titel]** für die Regel ein. 
+
+[Filterregel erstellen](assets/business-rules-create-typo2.png)
+
+1. Erweitern Sie den Abschnitt **[!UICONTROL Weitere Optionen]**, um auf erweiterte Einstellungen wie den internen Namen, den Speicherordner und die Beschreibung der Regel zuzugreifen.
+
+1. Um den Inhalt der Regel zu erstellen, wählen Sie die Zielgruppendimension aus und klicken Sie auf die Schaltfläche **[!UICONTROL Regeln hinzufügen]**, um Filterkriterien mithilfe des [Regel-Builders“ ](../query/query-modeler-overview.md) definieren.
+
+   ![Filterregel-Abfragemodellierer](assets/business-rules-query.png)
+
+1. Klicken Sie auf **Erstellen**
+
+>[!ENDTABS]
+
+### Definieren der zusätzlichen Eigenschaften der Regel {#add-properties}
+
+Definieren wir nun die zusätzlichen Parameter. In diesem Bildschirm können Sie weiterhin die zuvor definierten Haupteigenschaften ändern.
+
+[Erstellen einer zusätzlichen Filterregel](assets/business-rules-create-typo2.png)
+
+1. Schalten Sie die Option **[!UICONTROL Aktiv]** aus, wenn die Regel nicht direkt nach ihrer Erstellung aktiv sein soll.
+
+1. Definieren Sie die **[!UICONTROL Anwendungsreihenfolge]** für die Regel.
+
+   Standardmäßig ist diese Priorität einer Typologieregel auf 50 festgelegt. Passen Sie diesen Wert an, um die Anwendungsreihenfolge von Typologieregeln zu steuern, wenn mehrere Regeln desselben Typs während derselben Nachrichtenverarbeitungsphase ausgeführt werden. Beispielsweise wird eine Filterregel mit einem Wert der Anwendungsreihenfolge von 20 vor einer Filterregel mit einem Wert von 30 ausgeführt.
+
+1. Wählen Sie einen **[!UICONTROL Kanal]** aus, um ihn mit der Regel zu verknüpfen.
+
+Ihre Regel kann jetzt in einer Typologie referenziert werden, um sie auf Nachrichten anzuwenden.
 
 ## Referenzieren von Typologieregeln in einer Typologie {#add-rules}
 
@@ -180,7 +203,7 @@ Gehen Sie wie folgt vor, um eine oder mehrere Regeln in einer Typologie zu refer
 
 1. Navigieren Sie zur Registerkarte **[!UICONTROL Typologie]** und öffnen Sie die Typologie, in der Sie die Regel(n) referenzieren möchten.
 
-1. Wählen Sie die **[!UICONTROL Typologieregeln]** und klicken Sie auf die Schaltfläche **[!UICONTROL Typologieregel(n) hinzufügen]**.
+1. Wählen Sie die Registerkarte **[!UICONTROL Typologieregeln]** und klicken Sie auf die Schaltfläche **[!UICONTROL Regeln hinzufügen]**.
 
    ![Benutzeroberfläche zum Hinzufügen von Typologieregeln](assets/business-rules-reference.png)
 

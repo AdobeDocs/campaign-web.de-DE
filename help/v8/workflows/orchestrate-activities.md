@@ -3,10 +3,10 @@ audience: end-user
 title: Erstellen von Workflows mit Adobe Campaign Web
 description: Erfahren Sie, wie Sie Workflows mit Adobe Campaign Web erstellen
 exl-id: 0c8e2158-518c-4620-9971-00ed2eccdd4f
-source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
+source-git-commit: 73dfc1e14e04493a76e1ca91fab0306cd1e88b26
 workflow-type: tm+mt
-source-wordcount: '1196'
-ht-degree: 100%
+source-wordcount: '1302'
+ht-degree: 90%
 
 ---
 
@@ -106,7 +106,12 @@ Sie können die Ausführungsoptionen aller Aktivitäten verwalten.  Wählen Sie
 
 ![Panel „Ausführungsoptionen“](assets/workflow-execution-options.png){zoomable="yes"}{width="70%"}
 
-### Eigenschaften
+### Eigenschaften {#properties}
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_activity_execution_options_properties"
+>title="Aktivitätseigenschaften    "
+>abstract="In diesem Abschnitt können Sie festlegen, wie und wo eine Aktivität ausgeführt wird. Sie können die Ausführungsaktion festlegen, die Ausführungsdauer begrenzen, eine Zeitzone auswählen, eine Computeraffinität zuweisen, das asynchrone Verhalten verwalten und festlegen, was im Fehlerfall passieren soll."
 
 Im Feld **Ausführung** können Sie die Aktion definieren, die beim Starten der Aufgabe ausgelöst werden soll.
 
@@ -118,11 +123,21 @@ Das Feld **Affinität** bietet die Möglichkeit, die Ausführung eines Workflows
 
 Im Feld **Verhalten** können Sie das Verhalten des Workflows im Fall von asynchronen Aufgaben bestimmen.
 
-### Umgang mit Fehlern
+### Umgang mit Fehlern {#execution-options}
 
-Im Feld **Bei Fehler** lassen sich mögliche Reaktionen bei Auftreten eines Fehlers bestimmen.
+>[!CONTEXTUALHELP]
+>id="acw_workflow_activity_execution_options_error"
+>title="Initialisierungsskript"
+>abstract="In diesem Abschnitt können Sie festlegen, was passiert, wenn eine Aktivität fehlschlägt. Sie können Aktionen auswählen, z. B. den Workflow stoppen, zur nächsten Aktivität wechseln oder einen benutzerdefinierten Fehlerverarbeitungsprozess auslösen."
 
-### Initialisierungsskript
+Im Feld **Im Fehlerfall** können Sie die Aktion angeben, die ausgeführt werden soll, wenn bei der Aktivität ein Fehler auftritt. Weitere Informationen finden Sie in diesem [Abschnitt](workflow-settings.md#error-settings).
+
+### Initialisierungsskript {#initialization-options}
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_activity_execution_options_initialization"
+>title="Initialisierungsskript"
+>abstract="In diesem Abschnitt können Sie JavaScript hinzufügen, das ausgeführt wird, wenn die Aktivität beginnt. Verwenden Sie sie, um Variablen zu initialisieren, Parameter festzulegen oder Daten vorzubereiten, die für die Ausführung dieser Aktivität spezifisch sind."
 
 Mit dem **Initialisierungsskript** können Sie Variablen initialisieren oder Aktivitätseigenschaften ändern. Klicken Sie auf die Schaltfläche **Code bearbeiten** und geben Sie das auszuführende Code-Fragment ein. Das Skript wird aufgerufen, wenn die Aktivität ausgeführt wird. Weitere Informationen finden Sie im Abschnitt zu den [Ereignisvariablen](../workflows/event-variables.md).
 

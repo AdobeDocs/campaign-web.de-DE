@@ -3,10 +3,10 @@ audience: end-user
 title: Konfigurieren von Workflow-Einstellungen
 description: Erfahren Sie, wie Sie Workflow-Einstellungen mit Adobe Campaign Web festlegen
 exl-id: 3aef912b-086b-4aa4-9556-c09396112313
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 73dfc1e14e04493a76e1ca91fab0306cd1e88b26
 workflow-type: tm+mt
-source-wordcount: '1048'
-ht-degree: 100%
+source-wordcount: '1083'
+ht-degree: 96%
 
 ---
 
@@ -100,5 +100,10 @@ Wenn der Workflow [mit einer Kampagne verknüpft](create-workflow.md) ist, wird 
 * **[!UICONTROL Aufeinanderfolgende Fehler]**: Dieses Feld wird verfügbar, wenn im Feld **[!UICONTROL Im Fehlerfall]** der Wert **[!UICONTROL Ignorieren]** ausgewählt wurde. Geben Sie die Anzahl der Fehler an, die ignoriert werden können, bevor der Prozess angehalten wird. Sobald diese Zahl erreicht ist, wechselt der Workflow-Status zu **[!UICONTROL Fehlgeschlagen]**. Wenn der Wert dieses Felds 0 beträgt, wird der Workflow unabhängig von der Fehleranzahl nie angehalten.
 
 ## Initialisierungsskript {#initialization-script}
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_settings_initialization"
+>title="Initialisierungsskript"
+>abstract="In diesem Abschnitt können Sie JavaScript-Code definieren, der am Anfang des Workflows ausgeführt wird. Er kann verwendet werden, um Variablen zu initialisieren, Parameter festzulegen oder Daten vorzubereiten, bevor Workflow-Aktivitäten ausgeführt werden."
 
 Mit dem **Initialisierungsskript** können Sie Variablen initialisieren oder Aktivitätseigenschaften ändern. Klicken Sie auf die Schaltfläche **Code bearbeiten** und geben Sie das auszuführende Code-Snippet ein. Das Skript wird aufgerufen, wenn der Workflow ausgeführt wird. Weitere Informationen finden Sie im Abschnitt zu den [Ereignisvariablen](../workflows/event-variables.md).
