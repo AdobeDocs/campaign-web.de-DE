@@ -173,7 +173,7 @@ Dies sind die wichtigsten Eigenschaften, die beim Erstellen einer neuen Typologi
 
 1. Erweitern Sie den Abschnitt **[!UICONTROL Weitere Optionen]**, um auf erweiterte Einstellungen wie den internen Namen, den Speicherordner und die Beschreibung der Regel zuzugreifen.
 
-1. Um den Inhalt der Regel zu erstellen, wählen Sie die Zielgruppendimension aus und klicken Sie auf die Schaltfläche **[!UICONTROL Regeln hinzufügen]**, um Filterkriterien mithilfe des [Regel-Builders“ ](../query/query-modeler-overview.md) definieren.
+1. Um den Inhalt der Regel zu erstellen, wählen Sie die Zielgruppendimension aus und klicken Sie auf die Schaltfläche **[!UICONTROL Regeln hinzufügen]**, um Filterkriterien mithilfe des [Regel-Builders“ &#x200B;](../query/query-modeler-overview.md) definieren.
 
    ![Filterregel-Abfragemodellierer](assets/business-rules-query.png)
 
