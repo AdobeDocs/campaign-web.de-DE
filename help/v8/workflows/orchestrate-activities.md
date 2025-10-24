@@ -3,10 +3,10 @@ audience: end-user
 title: Erstellen von Workflows mit Adobe Campaign Web
 description: Erfahren Sie, wie Sie Workflows mit Adobe Campaign Web erstellen
 exl-id: 0c8e2158-518c-4620-9971-00ed2eccdd4f
-source-git-commit: 73dfc1e14e04493a76e1ca91fab0306cd1e88b26
+source-git-commit: 8ba304ef0bf922fc8057a5ee6f1e296805793735
 workflow-type: tm+mt
-source-wordcount: '1302'
-ht-degree: 90%
+source-wordcount: '1287'
+ht-degree: 91%
 
 ---
 
@@ -111,7 +111,7 @@ Sie können die Ausführungsoptionen aller Aktivitäten verwalten.  Wählen Sie
 >[!CONTEXTUALHELP]
 >id="acw_workflow_activity_execution_options_properties"
 >title="Aktivitätseigenschaften    "
->abstract="In diesem Abschnitt können Sie festlegen, wie und wo eine Aktivität ausgeführt wird. Sie können die Ausführungsaktion festlegen, die Ausführungsdauer begrenzen, eine Zeitzone auswählen, eine Computeraffinität zuweisen, das asynchrone Verhalten verwalten und festlegen, was im Fehlerfall passieren soll."
+>abstract="In diesem Abschnitt können Sie die Ausführungseinstellungen für eine Aktivität konfigurieren, einschließlich der auszuführenden Aktion, der maximalen Dauer, der Zeitzone, der Maschinenaffinität und des asynchronen Verhaltens."
 
 Im Feld **Ausführung** können Sie die Aktion definieren, die beim Starten der Aufgabe ausgelöst werden soll.
 
