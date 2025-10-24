@@ -3,10 +3,10 @@ audience: end-user
 title: Senden von Testsendungen
 description: Definieren und Durchführen von Testsendungen
 exl-id: b2677579-c95d-443d-b207-466af364c208
-source-git-commit: fc794f4eceaed7ca5f49ef8add8e9da8306b6a69
-workflow-type: ht
-source-wordcount: '1167'
-ht-degree: 100%
+source-git-commit: 1ed20f88d9a11dcac7aa4a3aa93e3058b18c04ff
+workflow-type: tm+mt
+source-wordcount: '1193'
+ht-degree: 95%
 
 ---
 
@@ -109,7 +109,7 @@ Gehen Sie wie folgt vor, um Profildaten aus der Hauptzielgruppe zu ersetzen:
 
    >[!CAUTION]
    >
-   >Wenn Sie kein [Zielgruppe](../audience/about-recipients.md) für den Versand ausgewählt haben, ist die Option **[!UICONTROL Von Hauptzielgruppe ersetzen]** ausgegraut und Sie können keine Ersatzprofile auswählen.
+   >Wenn Sie keine [Zielgruppe](../audience/about-recipients.md) für den Versand ausgewählt haben, ist **[!UICONTROL Option „Aus Hauptzielgruppe]**&quot; ausgegraut und Sie können keine Ersatzprofile auswählen. Darüber hinaus ist diese Option für wiederkehrende Sendungen auch dann ausgegraut, wenn eine Zielgruppe ausgewählt ist, da der Hauptversand eine Vorlage ist.
 
 1. Klicken Sie auf die Schaltfläche **[!UICONTROL Adresse hinzufügen]** und geben Sie die empfangende E-Mail-Adresse oder Telefonnummer für die Testsendung an.
 
