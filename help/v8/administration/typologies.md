@@ -4,9 +4,9 @@ title: Arbeiten mit Geschäftsregeln (Typologien)
 description: Erfahren Sie, wie Sie mit Typologien und Typologieregeln arbeiten können, um den Versand von Sendungen zu steuern, zu filtern und zu überwachen.
 exl-id: 54fdd03a-e49d-4f22-b6d4-6055c8922e58
 source-git-commit: 8ba304ef0bf922fc8057a5ee6f1e296805793735
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1506'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -88,7 +88,7 @@ Der Bildschirm mit den Typologiedetails wird geöffnet. Verweisen Sie über dies
 >title="Eigenschaften einer Typologieregel"
 >abstract="Definieren Sie die Eigenschaften der Typologieregel. Mit **Steuerungsregeln** werden vor dem Versand die Qualität und Gültigkeit der Nachrichten überprüft. **Filterregeln** dienen hingegen dazu, Segmente der Zielgruppe anhand bestimmter Kriterien auszuschließen.<br/><br/>Sie können auch die Anwendungsreihenfolge der Regel ändern, um die Anwendungsreihenfolge von Typologieregeln zu steuern, wenn mehrere Regeln desselben Typs während derselben Nachrichtenverarbeitungsphase ausgeführt werden."
 
-Es stehen zwei Arten von Typologieregeln zur Verfügung:
+Zwei Arten von Typologieregeln stehen zur Verfügung:
 
 * **Kontrolle**: Stellt die Qualität und Gültigkeit der Nachrichten vor dem Senden sicher, z. B. die Zeichenanzeige, die SMS-Länge, das Adressformat oder die URL-Verkürzung. Diese Regeln werden mithilfe einer Skripting-Oberfläche erstellt, um komplexe Logik für Inhaltsprüfungen und -änderungen zu definieren.
 
@@ -104,9 +104,9 @@ Gehen Sie wie folgt vor, um eine Typologieregel zu erstellen:
 
 1. Klicken Sie auf die Schaltfläche **[!UICONTROL Typologieregel erstellen]** und führen Sie dann die nachfolgend beschriebenen Schritte aus.
 
-   ![Typologieregel erstellen](assets/business-rules-create-typo.png)
+   ![Erstellen einer Typologieregel](assets/business-rules-create-typo.png)
 
-### Definieren der Haupteigenschaften der Regel {#properties}
+### Definieren der wichtigsten Eigenschaften der Regel {#properties}
 
 >[!CONTEXTUALHELP]
 >id="acw_business_rules_typology_rules_filtering"
@@ -126,13 +126,13 @@ Dies sind die wichtigsten Eigenschaften, die beim Erstellen einer neuen Typologi
 
 1. Geben Sie einen **[!UICONTROL Titel]** für die Regel ein. 
 
-   ![Kontrollregel erstellen](assets/business-rules-create-typo1.png)
+   ![Erstellen einer Kontrollregel](assets/business-rules-create-typo1.png)
 
-1. Im Abschnitt **[!UICONTROL Zusätzliche Optionen]** können Sie auf erweiterte Einstellungen wie den internen Namen der Regel, den Ordnerspeicher und die Beschreibung zugreifen. Sie können auch angeben, wann die Regel angewendet werden soll, und die Warnstufe festlegen. Erweitern Sie die folgenden Abschnitte, um weitere Informationen zu erhalten.
+1. Im Abschnitt **[!UICONTROL Weitere Optionen]** können Sie auf erweiterte Einstellungen zugreifen, wie z. B. den internen Namen der Regel, den Speicherordner und die Beschreibung. Sie können außerdem festlegen, wann die Regel angewendet werden soll und welche Warnstufe sie hat. Erweitern Sie die folgenden Abschnitte, um weitere Informationen zu erhalten.
 
    +++Phasen
 
-   Geben Sie an, zu welchem Zeitpunkt des Versandlebenszyklus die Regel angewendet wird. Wählen Sie den Wert in der **[!UICONTROL Phase]** Dropdown-Liste aus:
+   Geben Sie an, zu welchem Zeitpunkt im Versandzyklus die Regel angewendet werden soll. Wählen Sie den Wert in der Dropdown-Liste **[!UICONTROL Phase]** aus:
 
    * **[!UICONTROL Zu Beginn der Zielgruppenbestimmung]**: Verhindern Sie, dass der Personalisierungsschritt bei Fehlern ausgeführt wird.
 
@@ -148,13 +148,13 @@ Dies sind die wichtigsten Eigenschaften, die beim Erstellen einer neuen Typologi
 
    Geben Sie die Warnstufe für die Regel an:
 
-   * **[!UICONTROL Fehler]**: Die Nachrichtenvorbereitung stoppen
+   * **[!UICONTROL Fehler]**: Die Nachrichtenvorbereitung wird gestoppt
 
-   * **[!UICONTROL Warnung]**: Eine Warnung in den Vorbereitungsprotokollen anzeigen
+   * **[!UICONTROL Warnung]**: In den Vorbereitungsprotokollen wird eine Warnung angezeigt
 
-   * **[!UICONTROL Info]**: Informationen in den Vorbereitungsprotokollen anzeigen
+   * **[!UICONTROL Info]**: In den Vorbereitungsprotokollen werden Informationen angezeigt
 
-   * **[!UICONTROL Verbose]**: Informationen in den Serverprotokollen anzeigen
+   * **[!UICONTROL Verbose]**: In den Server-Protokollen werden Informationen angezeigt
 
    +++
 
@@ -169,11 +169,11 @@ Dies sind die wichtigsten Eigenschaften, die beim Erstellen einer neuen Typologi
 
 1. Geben Sie einen **[!UICONTROL Titel]** für die Regel ein. 
 
-   ![Filterregel erstellen](assets/business-rules-create-typo2.png)
+   ![Erstellen einer Filterregel](assets/business-rules-create-typo2.png)
 
 1. Erweitern Sie den Abschnitt **[!UICONTROL Weitere Optionen]**, um auf erweiterte Einstellungen wie den internen Namen, den Speicherordner und die Beschreibung der Regel zuzugreifen.
 
-1. Um den Inhalt der Regel zu erstellen, wählen Sie die Zielgruppendimension aus und klicken Sie auf die Schaltfläche **[!UICONTROL Regeln hinzufügen]**, um Filterkriterien mithilfe des [Regel-Builders“ &#x200B;](../query/query-modeler-overview.md) definieren.
+1. Um den Inhalt der Regel zu erstellen, wählen Sie die Zielgruppendimension aus und klicken Sie auf die Schaltfläche **[!UICONTROL Regeln hinzufügen]**, um Filterkriterien mithilfe des [Regel-Builders](../query/query-modeler-overview.md) zu definieren.
 
    ![Filterregel-Abfragemodellierer](assets/business-rules-query.png)
 
@@ -183,9 +183,9 @@ Dies sind die wichtigsten Eigenschaften, die beim Erstellen einer neuen Typologi
 
 ### Definieren der zusätzlichen Eigenschaften der Regel {#add-properties}
 
-Definieren wir nun die zusätzlichen Parameter. In diesem Bildschirm können Sie weiterhin die zuvor definierten Haupteigenschaften ändern.
+Definieren wir nun die zusätzlichen Parameter. In diesem Bildschirm können Sie die zuvor definierten wichtigsten Eigenschaften noch ändern.
 
-![Filterregel zusätzlich erstellen](assets/business-rules-create-typo3.png)
+![Erstellen einer zusätzlichen Filterregel](assets/business-rules-create-typo3.png)
 
 1. Schalten Sie die Option **[!UICONTROL Aktiv]** aus, wenn die Regel nicht direkt nach ihrer Erstellung aktiv sein soll.
 
@@ -195,7 +195,7 @@ Definieren wir nun die zusätzlichen Parameter. In diesem Bildschirm können Sie
 
 1. Wählen Sie einen **[!UICONTROL Kanal]** aus, um ihn mit der Regel zu verknüpfen.
 
-Ihre Regel kann jetzt in einer Typologie referenziert werden, um sie auf Nachrichten anzuwenden.
+Ihre Regel kann nun in einer Typologie referenziert werden, um sie auf Nachrichten anzuwenden.
 
 ## Referenzieren von Typologieregeln in einer Typologie {#add-rules}
 
@@ -203,7 +203,7 @@ Gehen Sie wie folgt vor, um eine oder mehrere Regeln in einer Typologie zu refer
 
 1. Navigieren Sie zur Registerkarte **[!UICONTROL Typologie]** und öffnen Sie die Typologie, in der Sie die Regel(n) referenzieren möchten.
 
-1. Wählen Sie die Registerkarte **[!UICONTROL Typologieregeln]** und klicken Sie auf die Schaltfläche **[!UICONTROL Regeln hinzufügen]**.
+1. Wählen Sie die Registerkarte **[!UICONTROL Typologieregeln]** aus und klicken Sie auf die Schaltfläche **[!UICONTROL Regeln hinzufügen]**.
 
    ![Benutzeroberfläche zum Hinzufügen von Typologieregeln](assets/business-rules-reference.png)
 

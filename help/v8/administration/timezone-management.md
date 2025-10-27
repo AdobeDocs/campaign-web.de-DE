@@ -1,18 +1,18 @@
 ---
 title: Zeitzonen-Management
-description: Erfahren Sie, wie die Adobe Campaign-Web-Benutzeroberfläche Datums- und Zeitwerte basierend auf Browser, Operator, Workflow und Server-Zeitzonen anzeigt.
+description: Erfahren Sie, wie die Adobe Campaign Web-Benutzeroberfläche Datums- und Zeitwerte basierend auf der Zeitzone des Browsers, der Benutzerin oder des Benutzers, des Workflows und des Servers anzeigt.
 source-git-commit: 357d2014ade1e783b3bf1e1c363894084199738d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '374'
-ht-degree: 4%
+ht-degree: 100%
 
 ---
 
 # Zeitzonen-Management {#timezone-management}
 
-Die Adobe Campaign-Web-Benutzeroberfläche zeigt alle Datums- und Zeitwerte entsprechend **lokalen Zeitzone des Webbrowsers des Benutzers** an. Dieses Verhalten kann beim Vergleich von Zeitstempeln zwischen der Web-Benutzeroberfläche und der Client-Konsole zu Unterschieden führen.
+Die Adobe Campaign Web-Benutzeroberfläche zeigt alle Datums- und Zeitwerte entsprechend der **lokalen Zeitzone des Webbrowsers der oder des Benutzenden** an. Dieses Verhalten kann zu Abweichungen führen, wenn Zeitstempel zwischen der Web-Benutzeroberfläche und der Client-Konsole verglichen werden.
 
-In diesem Abschnitt werden die erwarteten Unterschiede zwischen den Zeitzonen **Web**, **Client-**) und **Workflow-Ausführung** erläutert.
+In diesem Abschnitt werden die zu erwartenden Unterschiede zwischen den Zeitzonen der **Web-Benutzeroberfläche**, der **Client-Konsole** und der **Workflow-Ausführung** erklärt.
 
 >[!NOTE]
 >
@@ -20,42 +20,42 @@ In diesem Abschnitt werden die erwarteten Unterschiede zwischen den Zeitzonen **
 
 ## Schlüsselkonzepte
 
-* **Zeitzone des Servers**: Die Zeitzone des Servers entspricht der Zeitzone, die auf dem Betriebssystem des Servers konfiguriert ist. Alle Zeitstempel werden intern in UTC auf dem Server gespeichert.
+* **Server-Zeitzone**: Die Server-Zeitzone entspricht der im Betriebssystem des Servers konfigurierten Zeitzone. Alle Zeitstempel werden intern auf dem Server in UTC gespeichert.
 
-* **Verhalten der Client** Konsole: Die Client-Konsole zeigt Zeitstempel anhand der **Zeitzone des Benutzers** an, die in den Benutzereinstellungen definiert ist. Standardmäßig entspricht dies der **Zeitzone des Servers**.
+* **Verhalten der Client-Konsole**: Die Client-Konsole zeigt Zeitstempel anhand der **Zeitzone der oder des Benutzenden** an, die in den Benutzereinstellungen definiert ist. Standardmäßig entspricht dies der **Zeitzone des Servers**.
 
-* **Verhalten der Web** Benutzeroberfläche: Die Web-Benutzeroberfläche zeigt Zeitstempel mithilfe der **lokalen Zeitzone des Browsers**. Wenn ein(e) Benutzende(r) den Browser oder die Systemzeitzone ändert, werden die angezeigten Datums-/Zeitwerte automatisch aktualisiert.
+* **Verhalten der Web-Benutzeroberfläche**: Die Web-Benutzeroberfläche zeigt Zeitstempel anhand der **lokalen Zeitzone des Browsers** an. Wenn Benutzende die Zeitzone des Browsers oder des Systems ändern, werden die angezeigten Datums-/Zeitwerte automatisch aktualisiert.
 
-* **Workflow-**: Workflows interpretieren lokale Zeitstempel basierend auf der konfigurierten **des Workflows**. Wenn kein Wert angegeben ist **wird standardmäßig die Zeitzone** Servers verwendet.
+* **Verhalten des Workflows**: Workflows interpretieren lokale Zeitstempel basierend auf der **im Workflow konfigurierten Zeitzone**. Falls nicht anders angegeben, wird standardmäßig die **Zeitzone des Servers** verwendet.
 
 ## Beispiel
 
-| Benutzeroberfläche | Verwendete Zeitzone | Beispiel-Anzeige |
+| Benutzeroberfläche | Verwendete Zeitzone | Beispielanzeige |
 |------------|----------------|-----------------|
-| Client-Konsole | Benutzer des Benutzers (Standard = Server) | `2025-10-20 14:00:00` |
+| Client-Konsole | Benutzende (Standard = Server) | `2025-10-20 14:00:00` |
 | Web-Benutzeroberfläche | Lokale Zeitzone des Browsers | `2025-10-20 21:00:00` (für Browser in UTC +7) |
 
-In diesem Beispiel verweisen beide Schnittstellen auf denselben zugrunde liegenden UTC-Zeitstempel, aber jede rendert ihn mit einer anderen Zeitzone.
+In diesem Beispiel verweisen beide Benutzeroberflächen auf denselben zugrunde liegenden UTC-Zeitstempel, aber jede rendert ihn in einer anderen Zeitzone.
 
 ## Auswirkung
 
 Unterschiede in den angezeigten Zeiten können auftreten bei:
 
-* Profil- oder Datenfelder, die `datetime` enthalten
-* Versandlogs oder Kontaktdaten
-* Workflow-Ausführung und Zeitstempel importieren
+* Profil- oder Datenfeldern, die `datetime`-Werte enthalten
+* Versandprotokollen oder Kontaktdaten
+* Workflow-Ausführung und Import-Zeitstempeln
 
-Die zugrunde liegenden Daten bleiben identisch. Der Unterschied besteht nur in **Rendering**.
+Die zugrunde liegenden Daten bleiben identisch. Der Unterschied besteht lediglich im **Rendern**.
 
 >[!NOTE]
 >
->Wenn Benutzende aus mehreren Regionen an derselben Instanz zusammenarbeiten, können offensichtliche Diskrepanzen zwischen den Zeitstempeln der Web-Benutzeroberfläche und der Konsole auftreten.
+>Wenn Benutzende aus mehreren Regionen auf derselben Instanz zusammenarbeiten, können scheinbare Abweichungen zwischen den Zeitstempeln in der Web-Benutzeroberfläche und der Konsole auftreten.
 
 ## Empfehlungen
 
-Um Anzeigewerte über Schnittstellen hinweg auszurichten, haben Sie folgende Möglichkeiten:
+Um Anzeigewerte über Benutzeroberflächen hinweg anzupassen, haben Sie folgende Möglichkeiten:
 
-* Ändern Sie **Zeitzone des Browsers** entsprechend der **Zeitzone des Benutzers oder Servers**.
-* Stellen Sie beim Exportieren von Daten (Exporte verwenden UTC) in den Reporting-Tools eine konsistente Konvertierung sicher.
-* Legen Sie beim Entwerfen von Workflows explizit die **Workflow-Zeitzone** in den Aktivitätseigenschaften fest, um ein vorhersehbares Planungs- und Importverhalten zu erzielen.
-* Kommunizieren Sie Geschäftsbenutzern, dass die Zeitstempelunterschiede zwischen den Ansichten der Web-Benutzeroberfläche und der Client-Konsole **normal und erwartet** sind.
+* Ändern Sie die **Zeitzone Ihres Browsers**, sodass sie mit der **Zeitzone der Benutzenden oder des Servers** übereinstimmt.
+* Achten Sie beim Exportieren von Daten (Exporte verwenden UTC) auf eine konsistente Konvertierung in den Reporting-Tools.
+* Legen Sie beim Entwerfen von Workflows explizit die **Zeitzone des Workflows** in den Eigenschaften der Aktivität fest, um ein vorhersehbares Planungs- und Importverhalten zu gewährleisten.
+* Weisen Sie Geschäftsanwendende darauf hin, dass Zeitstempelunterschiede zwischen den Ansichten der Web-Benutzeroberfläche und der Client-Konsole **normal und zu erwarten** sind.

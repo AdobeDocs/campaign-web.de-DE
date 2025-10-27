@@ -4,9 +4,9 @@ title: Erstellen von Workflows mit Adobe Campaign Web
 description: Erfahren Sie, wie Sie Workflows mit Adobe Campaign Web erstellen
 exl-id: 0c8e2158-518c-4620-9971-00ed2eccdd4f
 source-git-commit: 8ba304ef0bf922fc8057a5ee6f1e296805793735
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1287'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -128,16 +128,16 @@ Im Feld **Verhalten** können Sie das Verhalten des Workflows im Fall von asynch
 >[!CONTEXTUALHELP]
 >id="acw_workflow_activity_execution_options_error"
 >title="Initialisierungsskript"
->abstract="In diesem Abschnitt können Sie festlegen, was passiert, wenn eine Aktivität fehlschlägt. Sie können Aktionen auswählen, z. B. den Workflow stoppen, zur nächsten Aktivität wechseln oder einen benutzerdefinierten Fehlerverarbeitungsprozess auslösen."
+>abstract="In diesem Abschnitt können Sie festlegen, was geschieht, wenn eine Aktivität fehlschlägt. Sie können Aktionen wie das Stoppen des Workflows, das Wechseln zur nächsten Aktivität oder das Auslösen eines benutzerdefinierten Fehlerbehandlungsprozesses auswählen."
 
-Im Feld **Im Fehlerfall** können Sie die Aktion angeben, die ausgeführt werden soll, wenn bei der Aktivität ein Fehler auftritt. Weitere Informationen finden Sie in diesem [Abschnitt](workflow-settings.md#error-settings).
+Im Feld **Bei Fehler** können Sie die Aktion festlegen, die ausgeführt werden soll, wenn bei der Aktivität ein Fehler auftritt. Weitere Informationen finden Sie in diesem [Abschnitt](workflow-settings.md#error-settings).
 
 ### Initialisierungsskript {#initialization-options}
 
 >[!CONTEXTUALHELP]
 >id="acw_workflow_activity_execution_options_initialization"
 >title="Initialisierungsskript"
->abstract="In diesem Abschnitt können Sie JavaScript hinzufügen, das ausgeführt wird, wenn die Aktivität beginnt. Verwenden Sie sie, um Variablen zu initialisieren, Parameter festzulegen oder Daten vorzubereiten, die für die Ausführung dieser Aktivität spezifisch sind."
+>abstract="In diesem Abschnitt können Sie JavaScript hinzufügen, das ausgeführt wird, wenn die Aktivität beginnt. Verwenden Sie es, um Variablen zu initialisieren, Parameter festzulegen oder Daten speziell für die Ausführung dieser Aktivität vorzubereiten."
 
 Mit dem **Initialisierungsskript** können Sie Variablen initialisieren oder Aktivitätseigenschaften ändern. Klicken Sie auf die Schaltfläche **Code bearbeiten** und geben Sie das auszuführende Code-Fragment ein. Das Skript wird aufgerufen, wenn die Aktivität ausgeführt wird. Weitere Informationen finden Sie im Abschnitt zu den [Ereignisvariablen](../workflows/event-variables.md).
 

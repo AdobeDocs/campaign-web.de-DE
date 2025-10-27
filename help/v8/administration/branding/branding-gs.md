@@ -7,9 +7,9 @@ role: Admin
 level: Experienced
 exl-id: f6438303-5ae8-47c6-8c34-8e586f4b6fe7
 source-git-commit: 1ed20f88d9a11dcac7aa4a3aa93e3058b18c04ff
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '405'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -40,12 +40,12 @@ Sie können in Campaign neue Entitäten Ihrer Organisation hinzufügen oder eine
 
 1. **Zustellbarkeitsrichtlinien prüfen**: Bevor Sie mit der Verwendung der neuen Domain beginnen, sollte die Strategie mit dem Adobe Zustellbarkeits-Team besprochen werden. Sie unterstützen bei der Definition von Best Practices sowie bei der Entscheidung, ob eine neue Affinität erstellt werden soll, beispielsweise zur Aufspaltung von IPs zwischen Domains, und/oder ob ein Anlaufplan definiert werden soll. 
 
-## Kompatibilitätshinweis {#compatibility-note}
+## Hinweis zur Kompatibilität {#compatibility-note}
 
-Das neue zentralisierte Branding-Modell ist nicht mit der [veralteten Branding](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/configure-transactional-messaging/additional-configurations.htmml#configuring-multibranding){target="_blank"}-Konfiguration kompatibel, die zuvor in der Client-Konsole verwendet wurde.
+Das neue zentralisierte Branding-Modell ist nicht mit der [alten Branding-Konfiguration](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/configure-transactional-messaging/additional-configurations.html?lang=de#configuring-multibranding){target="_blank"} kompatibel, die zuvor in der Client-Konsole verwendet wurde.
 
-Im alten Ansatz implementierten Kunden das Branding, indem sie das extAccount-Formular erweiterten und die Registerkarte **Branding** verwendeten.
+Beim bisherigen Ansatz implementierten Kundinnen und Kunden das Branding, indem sie das Formular „extAccount“ erweiterten und die Registerkarte **Branding** verwendeten.
 
 ![](assets/branding-legacy.png)
 
-Wenn Ihre bestehende Umgebung diese alte Konfiguration verwendet, kann sie nicht direkt zum neuen zentralisierten Branding-Modell migriert werden. Um das neue System zu übernehmen, müssen die Branding-Einstellungen vollständig neu implementiert werden.
+Wenn Ihre bestehende Umgebung diese alte Konfiguration verwendet, kann sie nicht direkt auf das neue zentralisierte Branding-Modell migriert werden. Eine vollständige Neuimplementierung der Branding-Einstellungen ist erforderlich, um das neue System zu übernehmen.

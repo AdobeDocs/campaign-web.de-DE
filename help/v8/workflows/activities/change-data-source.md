@@ -4,9 +4,9 @@ title: Verwenden der Workflow-Aktivität „Datenquelle ändern“
 description: Erfahren Sie, wie Sie die Workflow-Aktivität „Datenquelle ändern“ verwenden.
 exl-id: 4dd28746-7bc7-49fc-91ac-3312af02ef45
 source-git-commit: 1ed20f88d9a11dcac7aa4a3aa93e3058b18c04ff
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '380'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Detaillierte Informationen zur Campaign-Architektur finden Sie in der [Dokumenta
 
 >[!NOTE]
 >
->Die **Change Data Source**-Aktivität kann maximal eine Million Datensätze pro Ausführung verarbeiten. Wenden Sie sich an den Adobe-Support-Mitarbeiter, wenn Sie dieses Limit erhöhen möchten.
+>Die Aktivität **Datenquelle ändern** kann maximal eine Million Einträge pro Ausführung verarbeiten. Wenden Sie sich an den Adobe-Support, wenn Sie dieses Limit erhöhen möchten.
 
 <!--
 

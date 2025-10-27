@@ -7,9 +7,9 @@ role: Admin
 level: Experienced
 exl-id: 8f6a5255-0245-497b-880f-d91ea82ee19e
 source-git-commit: 1ed20f88d9a11dcac7aa4a3aa93e3058b18c04ff
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '617'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -133,19 +133,19 @@ Gehen Sie wie folgt vor, um einen neuen eigenständigen Versand zu erstellen.
 >
 >Dieser Abschnitt gilt nur für Transaktionsnachrichten (Message Center).
 >
->Auch wenn in der Web-Benutzeroberfläche von Campaign Transaktionsfunktionen verfügbar sind, müssen die nachfolgenden Verifizierungsschritte in der Client-Konsole von Campaign v8 (Kontrollinstanz) ausgeführt werden.
+>Auch wenn in der Campaign Web-Benutzeroberfläche Transaktionsfunktionen verfügbar sind, müssen die nachfolgenden Verifizierungsschritte in der Client-Konsole von Campaign v8 (Kontrollinstanz) ausgeführt werden.
 
-Transaktionssendungen, die von Echtzeit-Ausführungsinstanzen (RT) auf die Kontrollinstanz synchronisiert wurden, replizieren keine Eigenschaften wie Routing oder Branding. Diese synchronisierten Sendungen werden wöchentlich aus derselben Vorlage generiert, um Versandindikatoren in der Kontrollinstanz zurückzusetzen.
+Transaktionssendungen, die von Real Time (RT)-Ausführungsinstanzen mit der Kontrollinstanz synchronisiert wurden, replizieren keine Eigenschaften wie Routing oder Branding. Diese synchronisierten Sendungen werden wöchentlich aus derselben Vorlage generiert, um die Versandindikatoren in die Kontrollinstanz zurückzuführen.
 
-Aus diesem Grund zeigt die Kontrollinstanz die Standardmarke an. Die tatsächlichen Marken- und Routing-Einstellungen, die während der Nachrichtenausführung verwendet werden, werden in der Transaktionsnachrichtenvorlage auf der Kontrollinstanz definiert.
+Aus diesem Grund zeigt die Kontrollinstanz die Standardmarke an. Die tatsächlichen Marken- und Routing-Einstellungen, die während der Nachrichtenausführung verwendet werden, sind in der Transaktionsnachrichtenvorlage auf der Kontrollinstanz definiert.
 
 So überprüfen Sie, welche Marke für eine Transaktionsnachricht verwendet wurde:
 
-1. Identifizieren Sie den internen Namen der in Echtzeit veröffentlichten Transaktionsvorlage (z. B. `TransactionalMessaging4768`).
+1. Identifizieren Sie den internen Namen der in Real-Time veröffentlichten Transaktionsvorlage (z. B. „`TransactionalMessaging4768`“).
 
    ![](assets/branding-transactional.png)
 
-1. Suchen Sie in der Kontrollinstanz unter „Transaktionsnachrichtenvorlagen **nach diesem internen Namen**.
+1. Suchen Sie in der Kontrollinstanz unter **Transaktionsnachrichtenvorlagen** nach diesem internen Namen.
 
    ![](assets/branding-transactional2.png)
 
