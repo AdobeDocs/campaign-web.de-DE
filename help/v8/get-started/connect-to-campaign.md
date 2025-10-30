@@ -143,7 +143,7 @@ So ändern Sie Ihre Sprache:
 
 ## Dunkles und helles Design {#dark-theme}
 
-Adobe Campaign ist in hellem und dunklem Design verfügbar. Standardmäßig ist die Benutzeroberfläche im hellen Design aktiviert. Um zum dunklen Design zu wechseln, klicken Sie auf das Profilsymbol und verwenden Sie die Option **Dunkles Design**, um es zu aktivieren oder zu deaktivieren.
+Adobe Campaign ist in hellem und dunklem Design verfügbar. Standardmäßig ist die Benutzeroberfläche im hellen Design aktiviert. Um zum dunklen Design zu wechseln, klicken Sie auf das Profilsymbol und verwenden Sie den Umschalter **Dunkles Design**, um es zu aktivieren oder zu deaktivieren.
 
 Benutzerprofileinstellungen und Kontovoreinstellungen werden in [diesem Abschnitt](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=de#preferences){target="_blank"} beschrieben.
 

@@ -27,7 +27,7 @@ In diesen Panels können Sie nach Bedarf Ihre Berichte erstellen. Sie können be
 
    ![](assets/dynamic_report_panel.png)
 
-Dann können Sie eine Freiformtabelle in Ihr Panel einfügen, um mit der Datensuche zu beginnen.
+Dann können Sie eine Freiformtabelle in Ihr Bedienfeld einfügen, um mit der Datensuche zu beginnen.
 
 ## Freiformtabelle hinzufügen            {#adding-a-freeform-table}
 

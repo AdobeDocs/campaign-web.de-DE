@@ -8,7 +8,7 @@ level: Intermediate
 keywords: CSS, Editor, Zusammenfassung, E-Mail
 exl-id: 7969b656-8130-49cf-9c85-d80bd74b285a
 source-git-commit: 8f8c1645952c6a7f73c083573e18d2b04e9d9ac7
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '692'
 ht-degree: 100%
 
@@ -167,7 +167,7 @@ body {
 
 Ihr benutzerdefiniertes CSS wird am Ende des `<head>`-Abschnitts als Teil eines `<style>`-Tags mit dem Attribut `data-name="global-custom"` hinzugefügt, wie im folgenden Beispiel dargestellt. Dadurch wird sichergestellt, dass die benutzerdefinierten Stile global auf die Inhalte angewendet werden.
 
-+++ Siehe Beispiel
++++ Siehe Beispiel 
 
 ```html
 <!DOCTYPE html>
@@ -247,7 +247,7 @@ Wenn Ihr benutzerdefiniertes CSS nicht angewendet wird, sollten Sie die folgende
   <style data-name="global-custom" type="text/css" data-disabled="true"> body: { color: red; } </style>
   ```
 
-+++
+  +++
 
 * Stellen Sie sicher, dass Ihr CSS nicht durch andere CSS-Regeln überschrieben wird.
 
@@ -255,7 +255,7 @@ Wenn Ihr benutzerdefiniertes CSS nicht angewendet wird, sollten Sie die folgende
 
    * Erwägen Sie, Ihren Deklarationen `!important` hinzuzufügen, um sicherzustellen, dass sie Vorrang haben.
 
-+++ Beispiel:
+     +++ Beispiel:
 
      ```css
      .acr-Form {
@@ -263,4 +263,4 @@ Wenn Ihr benutzerdefiniertes CSS nicht angewendet wird, sollten Sie die folgende
      }
      ```
 
-+++
+     +++

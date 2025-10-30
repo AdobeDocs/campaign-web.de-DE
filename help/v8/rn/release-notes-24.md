@@ -48,7 +48,7 @@ Die folgenden Funktionen und Verbesserungen sind ab der Version Oktober verfügb
 <tbody>
 <tr>
 <td>
-<p>„Transaktionsnachricht (Message Center)“ ist jetzt in der Campaign Web-Benutzeroberfläche verfügbar.  Dieses Add-on dient dem Auslösen von Nachrichten, die durch Ereignisse erzeugt werden, die von Informationssystemen ausgelöst werden. Hierzu zählen u. a.: Rechnungen, Bestellbestätigungen, Lieferbestätigungen, Passwortänderungen, Benachrichtigungen über die Nicht-Verfügbarkeit eines Produkts, Kontostandsinformationen oder die Erstellung eines Website-Kontos.</p>
+<p>„Transaktionsnachricht (Message Center)“ ist jetzt in der Campaign Web-Benutzeroberfläche verfügbar.  Dieses Add-on dient dem Auslösen von Nachrichten, die durch Ereignisse erzeugt werden, die von Informationssystemen ausgelöst werden. Hierzu zählen u. a.: Rechnungen, Bestellbestätigungen, Versandbestätigungen, Passwortänderungen, Benachrichtigungen über die Nicht-Verfügbarkeit eines Produkts, Kontostandsinformationen oder die Erstellung eines Website-Kontos.</p>
 <p>Weitere Informationen finden Sie in der <a href="../transactional-messaging/transactional.md">entsprechenden Dokumentation</a>.</p>
 </td>
 </tr>
@@ -122,7 +122,7 @@ Die folgenden Funktionen und Verbesserungen sind ab der Version August verfügba
 * **Captcha in Landingpages**: Sie können jetzt Captcha zum Schutz Ihrer Landingpage vor Spam und Missbrauch durch Bots hinzufügen. Dies erfordert nur wenig Einsatz aufseiten Ihrer Kundschaft, da nur eine Interaktion mit Ihrer Website erforderlich ist. [Weitere Informationen](../landing-pages/create-lp.md#captcha)
 
 <!--
-* **Rest APIs** - As a Campaign Standard migrated user, you can now use Rest APIs to work with transactional messages. [Read more](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=de){target="_blank"}.-->
+* **Rest APIs** - As a Campaign Standard migrated user, you can now use Rest APIs to work with transactional messages. [Read more](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html){target="_blank"}.-->
 
 
 ## Versionshinweise für Juli {#24-7-release}

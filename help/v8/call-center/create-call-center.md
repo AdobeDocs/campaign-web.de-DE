@@ -80,7 +80,7 @@ Nun wird der Inhalt der Extraktionsdatei bearbeitet, die vom Callcenter-Versand 
 
    >[!NOTE]
    >
-   >Mögliche Formatoptionen werden auf dieser [Seite](../direct-mail/content-direct-mail.md#properties) beschrieben.
+   >Mögliche Optionen für das Extraktionsformat werden auf dieser [Seite](../direct-mail/content-direct-mail.md#properties) beschrieben.
 
 1. Schalten Sie die Option **[!UICONTROL Anz. abzurufender Datensätze]** ein, wenn Sie die Anzahl der Empfängerinnen und Empfänger für Ihren Versand zu begrenzen möchten.
 

@@ -24,7 +24,7 @@ ht-degree: 100%
 
 ## Zugreifen auf Landingpages {#access-landing-pages}
 
-Um auf die Liste der Landingpages zuzugreifen, wählen Sie im Menü links **[!UICONTROL Kampagnen-Management]** > **[!UICONTROL Landingpages]** aus.
+Um auf die Liste der Landingpages zuzugreifen, wählen Sie im Menü links **[!UICONTROL Content-Management]** > **[!UICONTROL Landingpages]** aus.
 
 ![Screenshot mit dem Inventar der Landingpages auf der Benutzeroberfläche von Campaign Web](assets/lp-inventory.png){zoomable="yes"}
 

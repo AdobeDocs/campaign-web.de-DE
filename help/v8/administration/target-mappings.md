@@ -5,7 +5,7 @@ exl-id: 144d5650-9632-4af3-b64e-f6e81503a621
 source-git-commit: 4444fc6742754137d1d73d7ea8bc12388ce1bc7d
 workflow-type: tm+mt
 source-wordcount: '806'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 96%
 
 ## Über Zielgruppen-Mappings {#about}
 
-Jeder Kommunikationskanal verwendet ein standardmäßiges Zielgruppen-Mapping, um die Empfängerinnen und Empfänger anzusprechen. Beispielsweise haben die E-Mail- und SMS-Versandvorlagen standardmäßig **[!UICONTROL Empfängerinnen und Empfänger]** als Zielgruppe. Ihr Zielgruppen-Mapping verwendet daher die Felder der **nms:recipient**-Tabelle. Für Push-Benachrichtigungen ist das standardmäßige Zielgruppen-Mapping **Abonnierte Anwendungen (nms:appSubscriptionRcp)**, das mit der Empfängertabelle verknüpft ist.
+Jeder Kommunikationskanal verwendet ein standardmäßiges Zielgruppen-Mapping, um die Empfängerinnen und Empfänger anzusprechen. Beispielsweise haben die E-Mail- und SMS-Versandvorlagen standardmäßig **[!UICONTROL Empfängerinnen und Empfänger]** als Zielgruppe. Das Zielgruppen-Mapping verwendet also die Felder der Tabelle **nms:recipient**. Für Push-Benachrichtigungen ist das standardmäßige Zielgruppen-Mapping **Abonnierte Anwendungen (nms:appSubscriptionRcp)**, das mit der Empfängertabelle verknüpft ist.
 
 Zielgruppen-Mappings sind über das Menü **[!UICONTROL Administration]** > **[!UICONTROL Zielgruppen-Mappings]** zugänglich. Auf diesem Bildschirm können Sie auf Details zu jedem Zielgruppen-Mapping zugreifen oder neue Zielgruppen-Mappings erstellen, die Ihren Anforderungen entsprechen.
 

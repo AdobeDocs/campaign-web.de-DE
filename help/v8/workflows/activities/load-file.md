@@ -6,7 +6,7 @@ exl-id: 230177e2-1926-451a-8a66-0db962ada514
 source-git-commit: b94c1263ea09c9537d1a33983ea78d41b5644fb7
 workflow-type: tm+mt
 source-wordcount: '1264'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -87,7 +87,7 @@ Führen Sie diese Schritte aus, um die Beispieldatei zu konfigurieren, mit der d
    * **[!UICONTROL Fehlerverarbeitung]** (Datentyp String): Legen Sie das Verhalten fest, wenn in einer der Zeilen Fehler auftreten.
    * **[!UICONTROL Neukodifizierung der Werte]**: Mit dieser Option können Sie bestimmte Werte neuen zuordnen. Wenn die Spalte beispielsweise Werte vom Typ „True“/„False“ enthält, können Sie eine Zuordnung hinzufügen, um diese Werte automatisch durch „0“/„1“ zu ersetzen.
 
-+++
+   +++
 
 1. Geben Sie im Abschnitt **Formatierung** an, wie die Datei formatiert ist, um sicherzustellen, dass die Daten korrekt importiert werden.
 

@@ -37,7 +37,7 @@ Um den Inhalt der durch Ihren Briefpostversand generierten Extraktionsdatei zu g
 
 1. Erweitern Sie den Abschnitt **[!UICONTROL Extraktionsformat]**, um auf bestimmte Optionen im Zusammenhang mit dem Format der Extraktionsdatei zuzugreifen. Die verfügbaren Werte hängen vom ausgewählten Format ab.
 
-+++ Verfügbare Optionen für das Extraktionsformat
+   +++ Verfügbare Optionen für das Extraktionsformat
 
    * **[!UICONTROL Erste Zeile für Spaltenüberschrift verwenden]** (Text-/CSV[Excel]-Format): Schalten Sie diese Option ein, um die erste Spalte als Kopfzeile zu verwenden.
    * **[!UICONTROL Spaltentrennzeichen]** (Textformat): Geben Sie das Zeichen an, das in der Extraktionsdatei als Spaltentrennzeichen verwendet werden soll.
@@ -46,9 +46,9 @@ Um den Inhalt der durch Ihren Briefpostversand generierten Extraktionsdatei zu g
    * **[!UICONTROL Kodierung]**: Wählen Sie die Kodierung für die Extraktionsdatei aus.
    * **[!UICONTROL Datumsformat und Trennzeichen]**: Geben Sie an, wie Datumsangaben in der Extraktionsdatei formatiert werden sollen.
    * **[!UICONTROL Zahlenformat]**: Geben Sie an, wie Zahlen in der Extraktionsdatei formatiert werden sollen.
-   * **[!UICONTROL Label anstelle der internen Werte der Auflistungen exportieren]**: Schalten Sie diese Option ein, wenn Sie Auflistungswerte exportieren und Label der Spalten abrufen möchten, die leichter verständlich sind als interne IDs.
+   * **[!UICONTROL Label anstelle der internen Werte der Aufzählungen exportieren]**: Schalten Sie diese Option ein, wenn Sie Aufzählungswerte exportieren und Label der Spalten abrufen möchten, die leichter verständlich sind als interne IDs.
 
-+++
+   +++
 
 1. Schalten Sie die Option **[!UICONTROL Anzahl abzurufender Datensätze]** ein, um die Anzahl der Empfängerinnen und Empfänger für Ihren Versand zu begrenzen.
 

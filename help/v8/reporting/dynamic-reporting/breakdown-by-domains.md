@@ -1,6 +1,6 @@
 ---
-title: Verteilung nach Domain
-description: Im vordefinierten Bericht über die Verteilung nach Domain erhalten Sie Performance-Daten Ihrer Sendungen aufgeschlüsselt nach der Domain Ihrer Kunden.
+title: Aufschlüsselung nach Domain
+description: Im vordefinierten Bericht über die Aufschlüsselung nach Domain erhalten Sie Performance-Daten Ihrer Sendungen aufgeschlüsselt nach der Domain Ihrer Kunden.
 level: Intermediate
 audience: end-user
 exl-id: 9b6126b7-3f9c-4810-9288-33a3f0a034d8

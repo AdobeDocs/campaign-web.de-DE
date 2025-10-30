@@ -6,7 +6,7 @@ exl-id: a40c007e-c0c6-4e0f-aa0d-0260ecb74a03
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
 source-wordcount: '1253'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -54,21 +54,21 @@ Führen Sie die nachfolgend aufgeführten Schritte aus, um die Aktivität **Date
 
 1. Wählen Sie die mit der Aktivität auszuführende Aktion aus. Die verfügbaren Aktionen hängen vom gewählten Übertragungstyp ab. Erweitern Sie die folgenden Abschnitte, um weitere Informationen zu erhalten.
 
-   +++Mit Aktivitäten des Typs **Dateiübertragung** verfügbare Aktionen
+   +++Bei Aktivitäten vom Typ **Dateiübertragung** verfügbare Aktionen
 
    * **[!UICONTROL Datei-Download]**: Mit dieser Aktivität laden Sie eine Datei vom Server herunter.
    * **[!UICONTROL Dateiversand]**: Mit dieser Aktivität laden Sie eine Datei auf den Server hoch.
    * **[!UICONTROL Existenztest einer Datei]**: Mit dieser Aktivität überprüfen Sie, ob eine bestimmte Datei auf dem Server vorhanden ist. Erzeugt im Anschluss an die Aktivität zwei ausgehende Transitionen: „Datei existiert“ und „Datei existiert nicht“.
    * **[!UICONTROL Dateiauflistung]**: Mit dieser Aktivität listen Sie alle auf dem Server verfügbaren Dateien auf.
 
-+++
+   +++
 
-   +++Mit Aktivitäten des Typs **Web-Download** verfügbare Aktionen
+   +++Bei Aktivitäten vom Typ **Webdownload** verfügbare Aktionen
 
    * **[!UICONTROL Einfache Übertragung (GET)]**: Mit dieser Aktivität rufen Sie eine Datei ab.
    * **[!UICONTROL Übertragung mit Formularübermittlung (POST)]**: Mit dieser Aktivität laden Sie eine Datei und zusätzliche Parameter hoch.
 
-+++
+   +++
 
    ![Screenshot mit Optionen zur Workflow-Dateiübertragung](../assets/workflow-transfer-file-action.png)
 
@@ -142,15 +142,15 @@ Jedes Mal, wenn die Aktivität ausgeführt wird, wird der Ordner folgendermaßen
 
 1. Unter **[!UICONTROL Erweiterte Optionen]** stehen je nach Typ der Aktivität, die Sie konfigurieren, zusätzliche Optionen zur Verfügung. Erweitern Sie die folgenden Abschnitte, um weitere Informationen zu erhalten.
 
-   +++Zusätzliche Optionen für Aktivitäten des Typs **[!UICONTROL Dateiübertragung]**
+   +++Zusätzliche Optionen für Aktivitäten **[!UICONTROL Dateitransfer]**-Typ
 
    * **[!UICONTROL Quelldateien nach der Übertragung löschen]**: Mit dieser Aktivität löschen Sie die Quelldateien nach einer erfolgreichen Übertragung.
    * **[!UICONTROL Sitzungslogs anzeigen]**: Wenn diese Option aktiviert ist, werden Informationen zum Übertragungsvorgang in den Workflow-Protokollen angezeigt, nachdem der Workflow ausgeführt wurde.
    * **[!UICONTROL Alle Dateien auflisten]** (Dateiauflistungsaktionen): Diese Option indiziert alle Dateien, die auf dem Server in der Ereignisvariablen `vars.filenames` vorhanden sind, in der die Dateinamen durch die `n`-Zeichen getrennt sind. [Informationen dazu, wie Sie mit Ereignisvariablen arbeiten](../event-variables.md)
 
-+++
+   +++
 
-   +++Zusätzliche Optionen für Aktivitäten des Typs **[!UICONTROL Web-Download]**
+   +++Zusätzliche Optionen für Aktivitäten **[!UICONTROL Webdownload]**-Typ
 
    * **[!UICONTROL Den Weiterleitungen folgen]**: Mithilfe der Dateiweiterleitung können Sie Überschreibungen verwenden, um die Dateneingabe oder -ausgabe an ein Gerät eines anderen Typs zu leiten.
    * **[!UICONTROL HTTP-Header zur Datei hinzufügen]**: In einigen Fällen ist es vorteilhaft, einer Datei zusätzliche HTTP-Header hinzuzufügen. In den meisten Fällen werden diese Header verwendet, um zusätzliche Informationen zur Fehlerbehebung zu liefern, oder für [Cross-Origin Resource Sharing (CORS)](https://developer.mozilla.org/docs/Web/HTTP/CORS) oder um bestimmte Caching-Anweisungen festzulegen.

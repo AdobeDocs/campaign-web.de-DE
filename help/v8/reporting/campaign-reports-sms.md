@@ -6,7 +6,7 @@ exl-id: 0df9b999-84c8-4e42-b5da-857b2ef0dd75
 source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '521'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -25,7 +25,7 @@ Die **[!UICONTROL Versandübersicht]** bietet wichtige Performance-Indikatoren (
 
 ![Bericht „Versandübersicht“ mit SMS-Metriken](assets/campaign_report_sms_1.png){zoomable="yes"}
 
-+++ Erfahren Sie mehr über die Metriken des SMS-Kampagnenberichts.
++++Erfahren Sie mehr über die Metriken des SMS-Kampagnenberichts.
 
 * **[!UICONTROL Insgesamt gesendet]**: Gesamtzahl der während der Versandvorbereitung verarbeiteten Nachrichten.
 
@@ -48,7 +48,7 @@ Die Tabelle **[!UICONTROL Statistiken der anfänglichen Zielgruppe]** zeigt Date
 
 ![Tabelle „Statistiken der ursprünglichen Zielgruppe“ mit Empfängerdaten](assets/campaign_report_sms_2.png){zoomable="yes"}
 
-+++ Erfahren Sie mehr über die Metriken des SMS-Kampagnenberichts.
++++Erfahren Sie mehr über die Metriken des SMS-Kampagnenberichts.
 
 * **[!UICONTROL Ursprüngliche Zielgruppe]**: Gesamtzahl der Zielgruppenempfängerinnen und -empfänger.
 
@@ -69,7 +69,7 @@ Die Tabelle **[!UICONTROL Ausführungsstatistiken]** zeigt den Erfolg Ihres Vers
 
 ![Tabelle „Ausführungsstatistiken“ mit Erfolgsmetriken zum Versand](assets/campaign_report_sms_3.png){zoomable="yes"}
 
-+++ Erfahren Sie mehr über die Metriken des SMS-Kampagnenberichts.
++++Erfahren Sie mehr über die Metriken des SMS-Kampagnenberichts.
 
 * **[!UICONTROL Zu versendende Nachricht(en)]**: Gesamtzahl der nach erfolgter Versandvorbereitung zu versendenden Nachrichten.
 
@@ -94,7 +94,7 @@ Die Tabelle **[!UICONTROL Generierte Clickstreams]** zeigt Daten dazu an, wie Ih
 
 ![Tabelle „Erzeugte Clickstreams“ mit Daten zur Empfängerinteraktion](assets/campaign_report_sms_4.png){zoomable="yes"}
 
-+++ Erfahren Sie mehr über die Metriken des SMS-Kampagnenberichts.
++++Erfahren Sie mehr über die Metriken des SMS-Kampagnenberichts.
 
 * **[!UICONTROL Unterschiedliche Klicks (Unique Clicks)]**: Gesamtzahl der unterschiedlichen Empfängerinnen und Empfänger, die einen Versand mindestens einmal angeklickt haben.
 

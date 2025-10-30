@@ -32,7 +32,7 @@ Diese Aktivitäten sind spezifisch für die Zielgruppenbestimmung. Sie ermöglic
 * [Kombinieren](combine.md): Mit dieser Aktivität segmentieren Sie Ihre eingehende Population. Verwenden Sie eine Vereinigung, eine Schnittmenge oder einen Ausschluss.
 * [Deduplizierung](deduplication.md): Mit dieser Aktivität löschen Sie Duplikate in Ergebnissen aus eingehenden Aktivitäten.
 * [Anreicherung](enrichment.md): Mit dieser Aktivität definieren Sie zusätzliche Daten, die in Ihrem Workflow verarbeitet werden sollen. Konfigurieren Sie die Aktivität, um die ausgehende Transition mit Zusatzdaten zu ergänzen.
-* [Inkrementelle Abfrage](incremental-query.md): Mit dieser Aktivität fragen Sie die Datenbank nach einem Plan ab. Bei jeder Ausführung dieser Aktivität werden die Ergebnisse vofangehenden Ausführungen ausgeschlossen, sodass nur neue Elemente berücksichtigt werden.
+* [Inkrementelle Abfrage](incremental-query.md): Mit dieser Aktivität fragen Sie die Datenbank nach einem Plan ab. Bei jeder Ausführung dieser Aktivität werden die Ergebnisse vorangehenden Ausführungen ausgeschlossen, sodass nur neue Elemente berücksichtigt werden.
 * [Abstimmung](reconciliation.md): Mit dieser Aktivität definieren Sie die Verknüpfung zwischen den Daten in der Adobe Campaign-Datenbank und den Daten in einer Arbeitstabelle, z. B. Daten, die aus einer externen Datei geladen werden.
 * [Zielgruppe speichern](save-audience.md): Mit dieser Aktivität aktualisieren Sie vorhandene Zielgruppen oder erstellen neue. Die hierfür erforderlichen Populationen werden im Vorfeld durch andere Workflow-Aktivitäten ermittelt.
 * [Aufspaltung](split.md): Mit dieser Aktivität unterteilen Sie die eingehende Population in mehrere Teilmengen.

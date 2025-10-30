@@ -6,7 +6,7 @@ exl-id: e4244ecc-5e37-41a6-a4dd-6e32da6d5512
 source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
 workflow-type: tm+mt
 source-wordcount: '390'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -51,7 +51,7 @@ Führen Sie die folgenden Schritte aus, um die Aktivität **Externes Signal** zu
 
      ![Der Screenshot zeigt den internen Namen des Workflows neben seinem Label.](../assets/external-signal-workflow-name.png)
 
-+++
+     +++
 
    * Den **Namen der Aktivität „Externes Signal“**, der in den **[!UICONTROL Ausführungsoptionen]** des Workflows angezeigt wird.
 
@@ -59,7 +59,7 @@ Führen Sie die folgenden Schritte aus, um die Aktivität **Externes Signal** zu
 
      ![Der Screenshot zeigt den Namen der Aktivität „Externes Signal“ in den Ausführungsoptionen.](../assets/external-signal-name.png)
 
-+++
+     +++
 
 1. Führen Sie zum Auslösen des Workflows die JavaScript-Funktion `PostEvent` aus. Mit dieser Funktion können Sie Variablen mit den Werten Ihrer Wahl übergeben und im ausgelösten Workflow nutzen.
 
@@ -79,6 +79,6 @@ Führen Sie die folgenden Schritte aus, um die Aktivität **Externes Signal** zu
 
    ![Der Screenshot zeigt ein Beispiel für das Auslösen der Aktivität „Externes Signal“ mithilfe der PostEvent-Funktion.](../assets/external-signal-sample.png)
 
-+++
+   +++
 
    * Um die Aktivität **[!UICONTROL Externes Signal]** über einen API-Aufruf auszuführen, befolgen Sie die in der Dokumentation zu Campaign-APIs beschriebenen Schritte. [Erfahren Sie, wie Sie die statische `PostEvent`-Methode verwenden](https://experienceleague.adobe.com/developer/campaign-api/api/sm-workflow-PostEvent.html?lang=de).

@@ -2,7 +2,7 @@
 title: Zeitzonen-Management
 description: Erfahren Sie, wie die Adobe Campaign Web-Benutzeroberfläche Datums- und Zeitwerte basierend auf der Zeitzone des Browsers, der Benutzerin oder des Benutzers, des Workflows und des Servers anzeigt.
 source-git-commit: 357d2014ade1e783b3bf1e1c363894084199738d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '374'
 ht-degree: 100%
 

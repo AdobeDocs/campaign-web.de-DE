@@ -23,7 +23,7 @@ Testprofile werden verwendet, um Testsendungen durchzuführen und den Inhalt sow
 
 ➡️ [Entdecken Sie diese Funktion im Video](#video)
 
-<!--Learn more about test profiles in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html?lang=de){target="_blank"}.-->
+<!--Learn more about test profiles in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}.-->
 
 Informationen zum Versand von Testsendungen an Testprofile finden Sie in [diesem Abschnitt](../preview-test/test-deliveries.md#test-profiles).
 
@@ -112,4 +112,4 @@ Das soeben erstellte Testprofil kann jetzt zur Durchführung einer Testsendung v
 
 Erfahren Sie, wie Sie mit der Campaign Web-Benutzeroberfläche Testprofile erstellen und verwalten.
 
->[!VIDEO](https://video.tv.adobe.com/v/3442904?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3442844?quality=12)

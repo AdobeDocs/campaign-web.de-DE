@@ -6,7 +6,7 @@ exl-id: 346cf2ff-b6e4-4d8f-ba26-197eadeaf5e6
 source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '664'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -29,7 +29,7 @@ Der Bericht **[!UICONTROL Versandübersicht]** bietet anhand umfassender KPIs (K
 
 ![Screenshot des Berichts „Versandübersicht“ mit KPIs für den SMS-Versand](assets/global_report_sms_delivery_overview.png){zoomable="yes"}
 
-+++Erfahren Sie mehr über Versandübersichtsmetriken.
++++Weitere Informationen zu Metriken der Versandübersicht.
 
 * **[!UICONTROL Zu sendende Nachrichten]**: Gesamtzahl der während der Versandvorbereitung verarbeiteten Nachrichten.
 
@@ -52,7 +52,7 @@ Die Tabelle und der Graph **[!UICONTROL Zielgruppe]** enthalten Daten zu den Emp
 
 ![Screenshot des Berichts „Zielgruppe“ mit Daten zu Empfängerinnen und Empfängern und Ausschlüssen für SMS-Sendungen](assets/global_report_sms_targeted_audience.png){zoomable="yes"}
 
-+++Erfahren Sie mehr über Zielgruppenmetriken.
++++Weitere Informationen zu Metriken für Zielgruppen.
 
 * **[!UICONTROL Zielgruppe]**: Gesamtzahl der angesprochenen Empfängerinnen und Empfänger.
 
@@ -73,7 +73,7 @@ Die Tabelle **[!UICONTROL Versandstatistiken]** gibt Auskunft über den Erfolg j
 
 ![Screenshot des Berichts „Versandstatistiken“ mit Erfolgsraten, Fehlern und Quarantänen für SMS-Sendungen](assets/global_report_sms_delivery_statistics.png){zoomable="yes"}
 
-+++Erfahren Sie mehr über Versandstatistikmetriken.
++++Weitere Informationen zu Metriken der Versandstatistik.
 
 * **[!UICONTROL Nachrichten gesamt]**: Gesamtzahl der nach erfolgter Versandvorbereitung zu versendenden Nachrichten.
 

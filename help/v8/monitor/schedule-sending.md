@@ -22,7 +22,7 @@ Planen Sie bei eigenständigen Sendungen Datum und Uhrzeit direkt im Versand. Na
 
 Gehen Sie wie folgt vor, um die Durchführung eines E-Mail-Versands zu planen:
 
-1. Aktivieren Sie im Abschnitt **[!UICONTROL Zeitplan]** der Versandeigenschaften das Kontrollkästchen **[!UICONTROL Zeitplanung aktivieren]**.
+1. Aktivieren Sie im Abschnitt **[!UICONTROL Zeitplan]** der Versandeigenschaften den Umschalter **[!UICONTROL Zeitplanung aktivieren]**.
 
 1. Legen Sie das gewünschte Datum und die gewünschte Uhrzeit für den Versand fest und klicken Sie auf die Schaltfläche **[!UICONTROL Überprüfen und senden]**.
 

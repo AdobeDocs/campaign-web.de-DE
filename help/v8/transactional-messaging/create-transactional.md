@@ -66,7 +66,7 @@ Gehen Sie wie folgt vor, um eine Transaktionsnachrichtenvorlage zu erstellen:
 * **[!UICONTROL Ausführungsordner]**: Darin wird die Nachricht nach der Ausführung gespeichert.
 * **[!UICONTROL Versandcode]**: Ein Code, der bei Bedarf dazu beiträgt, die Nachricht für das Reporting zu erkennen.
 * **[!UICONTROL Beschreibung]**: Dieses Feld enthält Erläuterungen.
-* **[!UICONTROL Art]**: Dies ist die Art Ihres Versands, wie in der Auflistung *deliveryNature* aufgeführt. [Erfahren Sie mehr über Auslistungen](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/config/configuration/ui-settings#enumerations).
+* **[!UICONTROL Art]**: Dies ist die Art Ihres Versands, wie in der Aufzählung *deliveryNature* aufgeführt. [Erfahren Sie mehr über Aufzählungen](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/config/configuration/ui-settings#enumerations).
 
 ![Screenshot mit dem Abschnitt „Eigenschaften“ einer Transaktionsnachrichtenvorlage](assets/template-properties.png){zoomable="yes"}
 

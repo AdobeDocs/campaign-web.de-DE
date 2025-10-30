@@ -62,7 +62,7 @@ Im Abschnitt **[!UICONTROL Zielformat]** können Sie konfigurieren, wie die extr
 
 1. Klicken Sie auf die Schaltfläche **[!UICONTROL Extraktionsformat]**, um auf bestimmte Optionen im Zusammenhang mit dem ausgewählten Format zuzugreifen. Erweitern Sie den folgenden Abschnitt, um weitere Informationen zu erhalten.
 
-+++ Verfügbare Optionen für das Extraktionsformat
+   +++ Verfügbare Optionen für das Extraktionsformat
 
    * **[!UICONTROL Erste Zeile für Spaltenüberschrift verwenden]** (Text-/CSV[Excel]-Format): Schalten Sie diese Option ein, um die erste Spalte als Kopfzeile zu verwenden.
    * **[!UICONTROL Spaltentrennzeichen]** (Textformat): Geben Sie das Zeichen an, das in der Ausgabedatei als Spaltentrennzeichen verwendet werden soll.
@@ -71,9 +71,9 @@ Im Abschnitt **[!UICONTROL Zielformat]** können Sie konfigurieren, wie die extr
    * **[!UICONTROL Kodierung]**: Wählen Sie die Kodierung für die Ausgabedatei aus.
    * **[!UICONTROL Datumsformat und Trennzeichen]**: Geben Sie an, wie Datumsangaben in der Ausgabedatei formatiert werden sollen.
    * **[!UICONTROL Zahlenformat]**: Geben Sie an, wie Zahlen in der Ausgabedatei formatiert werden sollen.
-   * **[!UICONTROL Label anstelle der internen Werte der Auflistungen exportieren]**: Schalten Sie diese Option ein, wenn Sie Auflistungswerte exportieren und Spaltentitel abrufen möchten, die leichter verständlich sind als interne IDs.
+   * **[!UICONTROL Label anstelle der internen Werte der Aufzählungen exportieren]**: Schalten Sie diese Option ein, wenn Sie Aufzählungswerte exportieren und Spaltentitel abrufen möchten, die leichter verständlich sind als interne IDs.
 
-+++
+   +++
 
    ![Screenshot mit den Konfigurationsoptionen für die zu extrahierende Datei](../assets/extract-file-format.png)
 

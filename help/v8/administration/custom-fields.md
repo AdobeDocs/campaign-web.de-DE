@@ -5,7 +5,7 @@ exl-id: 34e7e0b7-3981-43b1-95a5-6c672adafdc9
 source-git-commit: 2c047d85df42503815c6ff15f43066ec5fb83755
 workflow-type: tm+mt
 source-wordcount: '1017'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -128,7 +128,7 @@ Folgende Einstellungen sind verfügbar:
 
   ![Screenshot mit einem Beispiel für Filtereinstellungen für benutzerdefinierte Felder](assets/custom-fields-ref.png)
 
-+++
+  +++
 
 * **[!UICONTROL Zwei Spalten umfassen]**: Standardmäßig werden benutzerdefinierte Felder in der Benutzeroberfläche in zwei Spalten angezeigt. Schalten Sie diese Option ein, um das benutzerdefinierte Feld über die gesamte Breite des Bildschirms und nicht in zwei Spalten anzuzeigen.
 

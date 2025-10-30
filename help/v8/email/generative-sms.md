@@ -4,7 +4,7 @@ title: SMS mit dem KI-Assistenten
 description: Erste Schritte mit dem KI-Assistenten
 exl-id: db0459e5-8759-42d9-8945-8c9667450527
 source-git-commit: 127c65a466c41e1aba8408aa9cf41c2d89c93801
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '505'
 ht-degree: 100%
 
@@ -51,7 +51,7 @@ Dieses Tool liefert intelligente Vorschläge für die Verfeinerung Ihrer Inhalte
 
    Zuvor hochgeladene Dateien sind in der Dropdown-Liste **[!UICONTROL Hochgeladene Marken-Assets]** verfügbar. Aktivieren Sie die Assets, die in den Generierungsprozess einbezogen werden sollen.
 
-1. Wenn das Prompt fertig ist, klicken Sie auf **[!UICONTROL Generieren]**.
+1. Wenn der Prompt fertig ist, klicken Sie auf **[!UICONTROL Generieren]**.
 
 1. Durchsuchen Sie die generierten **[!UICONTROL Varianten]** und klicken Sie auf **[!UICONTROL Vorschau]**, um eine Vollbildversion der ausgewählten Variante anzuzeigen, oder auf **[!UICONTROL Anwenden]**, um Ihren aktuellen Inhalt zu ersetzen.
 

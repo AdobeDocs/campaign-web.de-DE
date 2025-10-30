@@ -4,7 +4,7 @@ title: Landingpage mit dem KI-Assistenten
 description: Erste Schritte mit dem KI-Assistenten
 exl-id: f4baa23f-f289-4837-b5b3-c479eaeff86c
 source-git-commit: 127c65a466c41e1aba8408aa9cf41c2d89c93801
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1595'
 ht-degree: 100%
 
@@ -68,7 +68,7 @@ Im folgenden Beispiel erfahren Sie, wie Sie mit dem KI-Assistenten eine vorhande
 
    Zuvor hochgeladene Dateien sind in der Dropdown-Liste **[!UICONTROL Hochgeladene Marken-Assets]** verfügbar. Aktivieren Sie die Assets, die in den Generierungsprozess einbezogen werden sollen.
 
-1. Wenn das Prompt fertig ist, klicken Sie auf **[!UICONTROL Generieren]**.
+1. Wenn der Prompt fertig ist, klicken Sie auf **[!UICONTROL Generieren]**.
 
 1. Durchsuchen Sie die generierten **[!UICONTROL Varianten]** und klicken Sie auf **[!UICONTROL Vorschau]**, um eine Vollbildversion der ausgewählten Variante anzuzeigen, oder auf **[!UICONTROL Anwenden]**, um Ihren aktuellen Inhalt zu ersetzen.
 
@@ -129,7 +129,7 @@ Im folgenden Beispiel erfahren Sie, wie Sie mit dem KI-Assistenten den Inhalt Ih
 
    ![Screenshot mit dem Menü „Marken-Assets“](assets/lp-text-genai-4.png){zoomable="yes"}
 
-1. Wenn das Prompt fertig ist, klicken Sie auf **[!UICONTROL Generieren]**.
+1. Wenn der Prompt fertig ist, klicken Sie auf **[!UICONTROL Generieren]**.
 
 1. Durchsuchen Sie die generierten **[!UICONTROL Varianten]** und klicken Sie auf **[!UICONTROL Vorschau]**, um eine Vollbildversion der ausgewählten Variante anzuzeigen, oder auf **[!UICONTROL Anwenden]**, um Ihren aktuellen Inhalt zu ersetzen.
 
