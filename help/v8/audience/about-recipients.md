@@ -46,4 +46,4 @@ Um ein Profil zu löschen, wählen Sie die entsprechende Option im Menü **[!UIC
 
 Informationen dazu, wie Sie mit der Campaign Web-Benutzeroberfläche auf Profile zugreifen und diese verwalten und erkunden können
 
->[!VIDEO](https://video.tv.adobe.com/v/3427293?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3448373?captions=ger&quality=12)
