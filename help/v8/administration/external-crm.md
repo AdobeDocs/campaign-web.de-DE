@@ -20,7 +20,7 @@ Mit dem externen Microsoft Dynamics CRM -Konto können Sie Ihre Campaign-Instanz
 
 Konfigurieren Sie in der Web-Benutzeroberfläche von Adobe Campaign Ihr externes Microsoft Dynamics CRM-Konto.
 
-1. [Erstellen Sie Ihr externes ](external-account.md) und wählen Sie **[!UICONTROL Externe]**) als **[!UICONTROL Typ]** Ihres externen Kontos und Microsoft Dynamics CRM als **[!UICONTROL Anbietertyp]**.
+1. [Erstellen Sie Ihr externes &#x200B;](external-account.md) und wählen Sie **[!UICONTROL Externe]**) als **[!UICONTROL Typ]** Ihres externen Kontos und Microsoft Dynamics CRM als **[!UICONTROL Anbietertyp]**.
 
 1. Klicken Sie auf **[!UICONTROL Erstellen]**.
 
@@ -98,7 +98,7 @@ Konfigurieren Sie in der Web-Benutzeroberfläche von Adobe Campaign Ihr externes
 
 Um das externe Salesforce-Konto für die Verwendung mit Adobe Campaign zu konfigurieren, müssen Sie die folgenden Details angeben:
 
-1. [Erstellen Sie Ihr externes ](external-account.md) und wählen Sie **[!UICONTROL Externe Datenbank]** als **[!UICONTROL Typ]** Ihres externen Kontos und Salesforce.com als **[!UICONTROL Anbietertyp]**.
+1. [Erstellen Sie Ihr externes &#x200B;](external-account.md) und wählen Sie **[!UICONTROL Externe Datenbank]** als **[!UICONTROL Typ]** Ihres externen Kontos und Salesforce.com als **[!UICONTROL Anbietertyp]**.
 
    ![Screenshot mit den Konfigurationsfeldern für das externe Salesforce-Konto.](assets/crm-salesforce-1.png)
 
@@ -118,7 +118,7 @@ Um das externe Salesforce-Konto für die Verwendung mit Adobe Campaign zu konfig
 
    ![Screenshot mit den Konfigurationsfeldern für das externe Salesforce-Konto.](assets/crm-salesforce-2.png)
 
-1. Öffnen Sie den Konfigurationsassistenten für Salesforce CRM **** um Ihre Salesforce CRM-Tabellenliste zu generieren, und klicken Sie dann auf **[!UICONTROL Weiter]**.
+1. Öffnen Sie den Konfigurationsassistenten für Salesforce CRM **&#x200B;**&#x200B;um Ihre Salesforce CRM-Tabellenliste zu generieren, und klicken Sie dann auf **[!UICONTROL Weiter]**.
 
    ![Screenshot mit den Konfigurationsfeldern für das externe Salesforce CRM-Konto.](assets/crm-salesforce-3.png)
 
