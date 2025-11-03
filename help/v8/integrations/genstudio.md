@@ -3,13 +3,12 @@ title: Arbeiten mit GenStudio for Performance Marketing in Adobe Campaign
 description: Erfahren Sie, wie Sie in Adobe Campaign mit GenStudio for Performance Marketing arbeiten
 feature: Email Design
 topic: Content Management, Artificial Intelligence
-badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 role: User
 level: Beginner, Intermediate
 exl-id: c22a44a8-e4e2-453a-9ca2-b80f7c0edc19
-source-git-commit: 934a37cfebfacd2df0b7610285252d883611f252
+source-git-commit: 61e6dcf13fc6a405f5e25328bf336e863701b2fe
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '504'
 ht-degree: 9%
 
 ---
@@ -23,7 +22,7 @@ ht-degree: 9%
 
 ## Erste Schritte mit GenStudio {#gs-genstudio}
 
-[Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/de/docs/genstudio-for-performance-marketing/user-guide/home){target="_blank"} ist eine generative KI-First-Anwendung, mit der Marketing-Teams ihre eigenen Anzeigen und E-Mails erstellen können, um wirkungsvolle, personalisierte Marketing-Kampagnen zu fördern, die Ihren Markenstandards entsprechen und Ihren Unternehmensrichtlinien entsprechen. Durch die Nutzung der KI-Technologie von Adobe bietet diese eine umfassende Palette an Tools, die die komplexe Erstellung und Verwaltung von Inhalten vereinfachen, sodass sich Kreative auf Innovationen konzentrieren können.
+[Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home){target="_blank"} ist eine generative KI-First-Anwendung, mit der Marketing-Teams ihre eigenen Anzeigen und E-Mails erstellen können, um wirkungsvolle, personalisierte Marketing-Kampagnen zu fördern, die Ihren Markenstandards entsprechen und Ihren Unternehmensrichtlinien entsprechen. Durch die Nutzung der KI-Technologie von Adobe bietet diese eine umfassende Palette an Tools, die die komplexe Erstellung und Verwaltung von Inhalten vereinfachen, sodass sich Kreative auf Innovationen konzentrieren können.
 
 >[!AVAILABILITY]
 >
@@ -33,7 +32,7 @@ Um die Marketing-Effizienz zu steigern und die Markenkonsistenz zu wahren, könn
 
 >[!INFO]
 >
->Weitere Informationen finden Sie in dieser [Übersicht](https://business.adobe.com/de/products/genstudio-for-performance-marketing.html#watch-overview){target="_blank"} und einer [Demo](https://business.adobe.com/de/products/genstudio-for-performance-marketing.html#demo){target="_blank"} von [!DNL Adobe GenStudio for Performance Marketing].
+>Weitere Informationen finden Sie in dieser [Übersicht](https://business.adobe.com/products/genstudio-for-performance-marketing.html#watch-overview){target="_blank"} und einer [Demo](https://business.adobe.com/products/genstudio-for-performance-marketing.html#demo){target="_blank"} von [!DNL Adobe GenStudio for Performance Marketing].
 
 ## Verwenden von GenStudio-Funktionen in Adobe Campaign {#use-genstudio}
 
@@ -57,13 +56,13 @@ Zunächst können Sie eine [!DNL Adobe Campaign] HTML-Vorlage mit den Richtlinie
 
    >[!NOTE]
    >
-   >Wie Sie eine HTML-Vorlage in [!DNL GenStudio] hochladen, erfahren Sie im [Adobe GenStudio for Performance Marketing-Benutzerhandbuch](https://experienceleague.adobe.com/de/docs/genstudio-for-performance-marketing/user-guide/content/templates/use-templates#templates-from-ajo-and-marketo){target="_blank"} Abschnitt.<!--GenStudio doc to be updated with Campaign-->
+   >Wie Sie eine HTML-Vorlage in [!DNL GenStudio] hochladen, erfahren Sie im [Adobe GenStudio for Performance Marketing-Benutzerhandbuch](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/content/templates/use-templates#templates-from-ajo-and-marketo){target="_blank"} Abschnitt.<!--GenStudio doc to be updated with Campaign-->
 
 1. Verwenden Sie in GenStudio diese Vorlage, um mehrere E-Mail-Varianten mit KI-Eingabeaufforderungen zu erstellen und zu speichern.
 
    >[!NOTE]
    >
-   >Wie Sie E-Mail-Erlebnisse erstellen, erfahren Sie im entsprechenden Abschnitt [&#x200B; GenStudio](https://experienceleague.adobe.com/de/docs/genstudio-for-performance-marketing/user-guide/create/create-email-experience){target="_blank"}.
+   >Wie Sie E-Mail-Erlebnisse erstellen, erfahren Sie im entsprechenden Abschnitt [ GenStudio](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/create/create-email-experience){target="_blank"}.
 
 ### GenStudio-Erlebnisse in Adobe Campaign nutzen {#leverage-genstudio-experiences}
 
@@ -95,7 +94,7 @@ Gehen Sie wie folgt vor, um die [!DNL GenStudio] E-Mail-Varianten zu nutzen, die
 
    >[!NOTE]
    >
-   >GenStudio-Erlebnisse [erstellt aus einer  [!DNL Adobe Campaign] -Vorlage](#export-from-ajo-to-genstudio) werden direkt in die E-Mail-Designer importiert. GenStudio-Erlebnisse, die ohne [!DNL Adobe Campaign] erstellt wurden, werden in den [Kompatibilitätsmodus“ &#x200B;](../email/existing-content.md).
+   >GenStudio-Erlebnisse [erstellt aus einer  [!DNL Adobe Campaign] -Vorlage](#export-from-ajo-to-genstudio) werden direkt in die E-Mail-Designer importiert. GenStudio-Erlebnisse, die ohne [!DNL Adobe Campaign] erstellt wurden, werden in den [Kompatibilitätsmodus“ ](../email/existing-content.md).
 
    Verwenden Sie die [Tools zur Bearbeitung von E](../email/create-email-content.md)Mail-Inhalten und [Personalisierungsfelder](../personalization/personalize.md), um Ihre E-Mail nach Bedarf zu bearbeiten. Speichern Sie Ihren Inhalt.
 
@@ -107,6 +106,6 @@ Gehen Sie wie folgt vor, um die [!DNL GenStudio] E-Mail-Varianten zu nutzen, die
 
 Discover the process of exporting an email template from Adobe Campaign to GenStudio for Performance Marketing, crafting brand-compliant emails using the template in GenStudio, and importing them seamlessly back into Adobe Campaign.
 
->[!VIDEO](https://video.tv.adobe.com/v/3456058/?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3456038/?quality=12)
 TO REPLACE WITH CAMPAIGN VIDEO WHEN/IF RELEASED
 -->
