@@ -62,7 +62,7 @@ Zunächst können Sie eine [!DNL Adobe Campaign] HTML-Vorlage mit den Richtlinie
 
    >[!NOTE]
    >
-   >Wie Sie E-Mail-Erlebnisse erstellen, erfahren Sie im entsprechenden Abschnitt [ GenStudio](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/create/create-email-experience){target="_blank"}.
+   >Wie Sie E-Mail-Erlebnisse erstellen, erfahren Sie im entsprechenden Abschnitt [&#x200B; GenStudio](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/create/create-email-experience){target="_blank"}.
 
 ### GenStudio-Erlebnisse in Adobe Campaign nutzen {#leverage-genstudio-experiences}
 
@@ -94,7 +94,7 @@ Gehen Sie wie folgt vor, um die [!DNL GenStudio] E-Mail-Varianten zu nutzen, die
 
    >[!NOTE]
    >
-   >GenStudio-Erlebnisse [erstellt aus einer  [!DNL Adobe Campaign] -Vorlage](#export-from-ajo-to-genstudio) werden direkt in die E-Mail-Designer importiert. GenStudio-Erlebnisse, die ohne [!DNL Adobe Campaign] erstellt wurden, werden in den [Kompatibilitätsmodus“ ](../email/existing-content.md).
+   >GenStudio-Erlebnisse [erstellt aus einer  [!DNL Adobe Campaign] -Vorlage](#export-from-ajo-to-genstudio) werden direkt in die E-Mail-Designer importiert. GenStudio-Erlebnisse, die ohne [!DNL Adobe Campaign] erstellt wurden, werden in den [Kompatibilitätsmodus“ &#x200B;](../email/existing-content.md).
 
    Verwenden Sie die [Tools zur Bearbeitung von E](../email/create-email-content.md)Mail-Inhalten und [Personalisierungsfelder](../personalization/personalize.md), um Ihre E-Mail nach Bedarf zu bearbeiten. Speichern Sie Ihren Inhalt.
 
