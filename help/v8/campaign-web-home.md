@@ -3,10 +3,10 @@ keywords: Campaign Web;Startseite;beliebte Themen
 description: Hilfe-Center zu Campaign Web
 title: Produktdokumentation zu Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 1cec57c38b5f196db0881c498044fc9b999ed3b0
+source-git-commit: cf576041294efc1c699fee4cb5ffb7ad68b78953
 workflow-type: tm+mt
-source-wordcount: '481'
-ht-degree: 100%
+source-wordcount: '488'
+ht-degree: 91%
 
 ---
 
@@ -52,9 +52,9 @@ Hier erhalten Sie einen Einblick in die neuesten Verbesserungen in Adobe Campaig
 >[!BEGINTABS]
 
 
->[!TAB Version September 2025]
+>[!TAB Version Oktober &#39;25]
 
-Die Version September ist live. In der Campaign Web-Benutzeroberfläche sind jetzt neue Funktionen und Verbesserungen verfügbar, einschließlich eines benutzerdefinierten Kanals für API-Sendungen, der Erstellung externer Konten und der Sperre von E-Mail-Inhalten. Eine vollständige Übersicht finden Sie in den Versionshinweisen.
+Die Oktober-Version ist live. Neue Funktionen und Verbesserungen sind jetzt in der Web-Benutzeroberfläche von Campaign verfügbar, einschließlich mehrsprachiger Funktionen für Transaktionsnachrichten, Push-Benachrichtigungen und SMS, Integration mit Adobe GenStudio und Profilanreicherung in Transaktionsnachrichten. Eine vollständige Übersicht finden Sie in den Versionshinweisen.
 
 [![Schaltfläche „Weitere Informationen“](assets/do-not-localize/learn-more-button.svg)](../v8/rn/release-notes.md)
 
