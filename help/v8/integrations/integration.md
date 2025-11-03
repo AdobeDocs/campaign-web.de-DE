@@ -5,10 +5,10 @@ feature: Overview
 role: Admin, User
 level: Beginner
 exl-id: a50f3269-b559-4dbf-bd8f-af046f332d23
-source-git-commit: eccd1ce6f95682d3dcfc224061f747f7da0b6681
+source-git-commit: 934a37cfebfacd2df0b7610285252d883611f252
 workflow-type: tm+mt
-source-wordcount: '160'
-ht-degree: 100%
+source-wordcount: '277'
+ht-degree: 58%
 
 ---
 
@@ -21,9 +21,19 @@ Adobe Campaign umfasst mehrere Connectoren, die die Kommunikation mit externen A
 
 In der [Dokumentation zu Campaign v8 (Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/integration.html?lang=de){target="_blank"} erfahren Sie, welche Lösungen und Anwendungen mit Campaign verbunden werden können und welche Anwendungsfälle dazugehören.
 
+## Adobe Experience Manager {#integration-aem}
+
 Darüber hinaus können Sie Ihre Adobe Experience Manager as a Cloud Service-Umgebung über die neue Campaign Web-Benutzeroberfläche verbinden, um die folgenden Anwendungsfälle zu ermöglichen:
 
 * Verwalten Ihrer Adobe Experience Manager as a Cloud Service-Assets. [Weitere Informationen](aem-assets.md)
 * Verwalten von Vorlagen mit Adobe Experience Manager as a Cloud Service.  [Weitere Informationen](aem-content.md)
 
 Diese Verbindung wird über ein dediziertes externes Konto verwaltet, das in der Adobe Campaign-Client-Konsole konfiguriert ist.
+
+## GenStudio for Performance Marketing {#integration-genstudio}
+
+Adobe GenStudio for Performance Marketing ist eine generative KI-First-Anwendung, mit der Marketing-Teams ihre eigenen Anzeigen und E-Mails erstellen können, um wirkungsvolle, personalisierte Marketing-Kampagnen zu entwickeln, die Ihren Markenstandards entsprechen und Ihren Unternehmensrichtlinien entsprechen. Durch die Nutzung der KI-Technologie von Adobe bietet diese eine umfassende Palette an Tools, die die komplexe Erstellung und Verwaltung von Inhalten vereinfachen, sodass sich Kreative auf Innovationen konzentrieren können.
+
+Um die Marketing-Effizienz zu steigern und die Markenkonsistenz zu wahren, können Sie [!DNL **GenStudio for Performance Marketing**]-Erlebnisse nahtlos mit [!DNL **Adobe Campaign**] integrieren. Auf diese Weise können Sie die KI-gestützte Inhaltserstellung von [!DNL GenStudio] zusammen mit den erweiterten Orchestrierungsfunktionen von [!DNL Adobe Campaign] nutzen.
+
+Weitere Informationen zu [Adobe Campaign und GenStudio for Performance Marketing](genstudio.md).

@@ -2,10 +2,10 @@
 title: Arbeiten mit Schemata
 description: Erfahren Sie, wie Sie mit Schemata arbeiten.
 exl-id: 1433a441-1673-45a2-9fec-be9550fbba0d
-source-git-commit: 609718356ace500b831601dac077f9a3333e00e9
+source-git-commit: 934a37cfebfacd2df0b7610285252d883611f252
 workflow-type: tm+mt
-source-wordcount: '479'
-ht-degree: 100%
+source-wordcount: '597'
+ht-degree: 80%
 
 ---
 
@@ -63,7 +63,9 @@ Die Registerkarte **[!UICONTROL Daten]** enthält Informationen zu den Schemadat
 
 ![Registerkarte „Daten“ des Schemas mit Datenstruktur und Attributen](assets/schemas-data.png)
 
-## Bearbeiten benutzerdefinierter Felder {#fields}
+## Bildschirmdefinition konfigurieren {#screen-definition}
+
+### Bearbeiten benutzerdefinierter Felder {#fields}
 
 Benutzerdefinierte Felder sind zusätzliche Attribute, die über die Adobe Campaign-Konsole zu vorkonfigurierten Schemata hinzugefügt werden. Sie ermöglichen es Ihnen, Schemata anzupassen, indem neue Attribute entsprechend den Anforderungen Ihrer Organisation eingefügt werden. 
 
@@ -74,3 +76,27 @@ Benutzerdefinierte Felder können auf verschiedenen Bildschirmen angezeigt werde
 Klicken Sie auf **[!UICONTROL Vorschau]**, um die benutzerdefinierten Felder auf einem Beispielbildschirm anzuzeigen.
 
 Detaillierte Informationen zum Bearbeiten von benutzerdefinierten Feldern in einem Schema finden Sie unter [Konfigurieren benutzerdefinierter Felder](../administration/custom-fields.md).
+
+### Sammlungslisten hinzufügen {#collection-lists}
+
+In diesem **Liste benutzerdefinierter Listen** können Sie Sammlungslinks definieren, z. B. Käufe. Die zugehörigen Daten werden dann auf Profilbildschirmen über eine dedizierte Registerkarte angezeigt.
+
+>[!NOTE]
+>
+>Diese Funktion ist derzeit nur für das Empfängerschema verfügbar.
+
+1. Um der Benutzeroberfläche eine Sammlungsliste hinzuzufügen, klicken Sie auf die Schaltfläche mit den Auslassungspunkten und wählen Sie **Benutzerdefinierte Listen auswählen**.
+
+   ![Erstellung von Sammlungslisten](assets/schemas-collection1.png)
+
+1. Wählen Sie eine der verfügbaren benutzerdefinierten Listen aus, z. B. Käufe, und klicken Sie dann auf **Bestätigen**.
+
+   ![Erstellung von Sammlungslisten](assets/schemas-collection2.png)
+
+1. Navigieren Sie zum Menü **Profile** und filtern Sie Profile, die Käufe getätigt haben.
+
+   ![Erstellung von Sammlungslisten](assets/schemas-collection3.png)
+
+1. Klicken Sie auf ein Profil. Sie werden feststellen, dass die neue Registerkarte angezeigt wird. Sie können bei Bedarf weitere Spalten hinzufügen.
+
+   ![Erstellung von Sammlungslisten](assets/schemas-collection4.png)

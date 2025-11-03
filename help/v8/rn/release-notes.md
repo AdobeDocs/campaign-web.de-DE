@@ -2,10 +2,10 @@
 title: Versionshinweise zur Web-Benutzeroberfläche von Campaign v8
 description: Entdecken Sie die neuen Funktionen der neuesten Version der Campaign Web-Benutzeroberfläche
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 0457e4d0150fe445ae5313377eb299cde40a51b9
+source-git-commit: 934a37cfebfacd2df0b7610285252d883611f252
 workflow-type: tm+mt
-source-wordcount: '524'
-ht-degree: 100%
+source-wordcount: '506'
+ht-degree: 64%
 
 ---
 
@@ -20,9 +20,9 @@ Die Versionen der Adobe Campaign Web-Benutzeroberfläche basieren auf einem kont
 
 Änderungen und Verbesserungen, die in früheren Versionen verfügbar sind, sind auf den Seiten für [2024](release-notes-24.md) und [2025](release-notes-25.md) aufgeführt.
 
-## Updates im Oktober 2025 {#25-9-updates}
+## Version Oktober &#39;25 {#25-10-updates}
 
-_9. Okt. 2025_
+_28. Okt. 2025_
 
 <table>
 <thead>
@@ -41,6 +41,10 @@ _9. Okt. 2025_
 </tbody>
 </table>
 
+<!--
+* Enable OOTB File Upload for Multi-lingual Push Notification Deliveries. 
+-->
+
 <table>
 <thead>
 <tr>
@@ -58,24 +62,17 @@ _9. Okt. 2025_
 </tbody>
 </table>
 
-
-## Version September 2025 {#25-9-release}
-
-_23. September 2025_
-
-Die folgenden Funktionen sind ab der Version September verfügbar.
-
 <table>
 <thead>
 <tr>
-<th><strong>Benutzerdefinierter Kanal für API-Sendungen</strong><br/></th>
+<th><strong>Integration mit Adobe GenStudio</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Sie können nun Sendungen direkt über die Adobe Campaign Web-Benutzeroberfläche orchestrieren und auf Grundlage benutzerdefinierter API-Kanäle ausführen. Diese Sendungen können eigenständig oder Teil eines Workflows sein. Die Konfiguration des benutzerdefinierten API-Kanals erfolgt in der Konsole.</p>
-<p>Weitere Informationen finden Sie in der <a href="../call-center/gs-custom-channel.md">entsprechenden Dokumentation</a>.</p>
+<p>Um die Marketing-Effizienz zu steigern und die Markenkonsistenz zu gewährleisten, können GenStudio for Performance Marketing-Erlebnisse jetzt nahtlos in Campaign integriert werden. Auf diese Weise können Sie die KI-gestützte Inhaltserstellung von GenStudio zusammen mit den erweiterten Orchestrierungsfunktionen von Campaign nutzen.<p>
+<p>Weitere Informationen finden Sie in der <a href="../integrations/genstudio.md">entsprechenden Dokumentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -84,130 +81,47 @@ Die folgenden Funktionen sind ab der Version September verfügbar.
 <table>
 <thead>
 <tr>
-<th><strong>Erstellen externer Konten</strong><br/></th>
+<th><strong>Unterstützung des Dunkelmodus in Email Designer</strong><br/></th> 
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Als Campaign-Admin können Sie nun über die Campaign Web-Benutzeroberfläche neue Verbindungen mit externen Systemen einrichten. Sie haben zudem die Möglichkeit, vorhandene externe Konten anzuzeigen, zu aktualisieren und zu verwalten.</p>
-<p>Weitere Informationen finden Sie in der <a href="../administration/create-external-account.md">entsprechenden Dokumentation</a>.</p>
+<p>Die E-Mail-Designer bietet jetzt die Möglichkeit, in die Dunkelmodusansicht zu wechseln, in der Sie zusätzlich bestimmte benutzerdefinierte Einstellungen definieren können. Beachten Sie, dass das endgültige Rendering vom E-Mail-Client des Empfängers abhängt. Nicht alle E-Mail-Clients unterstützen den Dunkelmodus.</p>
+<p>Weitere Informationen finden Sie in der <a href="../email/accessible-content.md#dark-mode">entsprechenden Dokumentation</a>.</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-<table>
+<!-- table>
 <thead>
 <tr>
-<th><strong>Sperren von E-Mail-Inhalten</strong><br/></th>
+<th><strong>Continuous delivery activity</strong><br/></th> not ready
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Campaign ermöglicht es Ihnen nun, Inhalte in E-Mail-Vorlagen zu sperren, entweder durch Sperren der gesamten Vorlage oder durch Sperren bestimmter Strukturen und Komponenten. Auf diese Weise können Sie unbeabsichtigte Bearbeitungen oder Löschungen verhindern, sodass Sie das Anpassen von Vorlagen besser steuern und die Effizienz sowie Zuverlässigkeit Ihrer E-Mail-Kampagnen optimieren können.</p>
-<p>Weitere Informationen finden Sie in der <a href="../content/content-locking.md">entsprechenden Dokumentation</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<!--table>
-<thead>
-<tr>
-<th><strong>Integration with Adobe GenStudio</strong><br/></th>  LA? sort? Juliette
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>To enhance marketing efficiency and to maintain brand consistency, you can now seamlessly integrate GenStudio for Performance Marketing experiences with Campaign. This enables you to leverage GenStudio's AI-power content creation alongside Campaign's advanced orchestration capabilities.<p>
+<p>Continuous delivery activity</p>
 <p>For more information, refer to the detailed documentation.</p>
 </td>
 </tr>
 </tbody>
 </table-->
 
-<!--table>
-<thead>
-<tr>
-<th><strong>Dark mode support in the Email designer</strong><br/></th> -> pas sept, modifier composant... -> Juliette
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>The Email Designer now offers the ability to switch to dark mode view, where you can additionally define specific custom settings. Note that the final rendering depends on the recipient's email client, and not all email clients support dark mode.</p>
-<p>For more information, refer to the detailed documentation.</p>
-</td>
-</tr>
-</tbody>
-</table-->
+### Verbesserungen {#25-10-improvements}
 
-<!--table>>
-<thead>
-<tr>
-<th><strong>Multilingual capabilities for transactional messaging and push notifications (LA)</strong><br/></th> 
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>You can now send multiple transactional messages and push notifications in different languages in Adobe Campaign Web User Interface. The Multilingual delivery feature allows you to choose the default language of your delivery as well as the different languages in which the delivery can be sent. You can also preview these deliveries in the languages you have chosen.</p>
-<p>Note: this capability is only available for a set of organizations (Limited Availability), and will be rolled out globally in a future release.</p>
-<p>For more information, refer to the detailed documentation.</p>
-</td>
-</tr>
-</tbody>
-</table-->
+* In Sendungen, die in der Client-Konsole erstellt wurden, zeigt der Abschnitt **Zielgruppe** jetzt an, ob eine dynamische Bedingung für Testversand-Ziele definiert wurde. <!-- [Learn more](../msg/gs-deliveries.md#access)-->
 
-<!--table>
-<thead>
-<tr>
-<th><strong>Profile enrichment in Transactional Messages (LA)</strong><br/></th> 
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>This capability allows you to personalize transactional messages (Email, SMS, Push) by linking Adobe Campaign database fields to the message content. You can select target mappings, enrichment columns, and a reconciliation key to ensure accurate, real-time personalization while maintaining performance thresholds.</p>
-<p>Note: this capability is only available for a set of organizations (Limited Availability), and will be rolled out globally in a future release.</p>
-<p>For more information, refer to the detailed documentation.</p>
-</td>
-</tr>
-</tbody>
-</table-->
+* Beim Einrichten einer Bedingung mit der Funktion für bedingte Inhalte von Email Designer können Sie jetzt zwischen dem neuen und dem alten Regel-Builder wechseln. <!-- [Learn more](../personalization/conditions.md#condition-condition-builder)-->
 
-<!--table>
-<thead>
-<tr>
-<th><strong>Dynamic reporting for transactional messaging (LA)</strong><br/></th> 
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Note: this capability is only available for a set of organizations (Limited Availability), and will be rolled out globally in a future release.</p>
-<p>For more information, refer to the detailed documentation.</p>
-</td>
-</tr>
-</tbody>
-</table-->
+* Sie können jetzt in der Bildschirmdefinition des Empfängerschemas Sammlungs-Links wie Käufe auswählen. Dadurch werden die zugehörigen Daten auf Profilbildschirmen über eine dedizierte Registerkarte angezeigt. <!-- [Learn more](../administration/schemas.md#collection-lists)-->
 
+* Als Campaign-Administrator können Sie jetzt Verbindungen zu Salesforce CRM und Microsoft Dynamics einrichten.
+  [Weitere Informationen](../administration/external-crm.md)
 
-### Verbesserungen {#25-9-improvements}
-
-* Beim Einrichten einer Bedingung mithilfe der Funktion „Bedingter Inhalt“ des E-Mail-Designers wurde eine neue Benutzergruppe hinzugefügt.
-* Die Filterdimension ist jetzt in der Workflow-Aktivität **Zielgruppe erstellen** verfügbar. Um sie anzuzeigen oder zu ändern, klicken Sie auf das Symbol neben der Zielgruppendimension. [Weitere Informationen](../workflows/activities/build-audience.md#build-audience-configuration).
 <!--
-
-NEO-84915 Stop button for deliveries???? ->>> met pas, juste bouton ajouté dans webUI meme comportement que console. bleu, marche, marche pas.
-NEO-90345 WebUI - Extended operators for dynamic content ->>>> deja mis
-NEO-88858 WebUI - Send proof from execution recurring delivery -> bug
-NEO-89777 Content locking on create email template -> juliette
-NEO-90365 Multi-lingual – Identify fields editable from variants???? -> fix pour SMS
-query activity -> query ds workflow fitleting dimentsion 
-
+* Stop button for deliveries not linked to release and no info
 -->
 

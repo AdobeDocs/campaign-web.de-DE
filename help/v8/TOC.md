@@ -5,10 +5,10 @@ user-guide-description: Produktdokumentation zur Adobe Campaign Web-Benutzerober
 title: Dokumentation zu Adobe Campaign Web
 description: Dokumentation zu Campaign Web
 breadcrumb-title: Campaign Web-Benutzeroberfläche
-source-git-commit: 357d2014ade1e783b3bf1e1c363894084199738d
+source-git-commit: 934a37cfebfacd2df0b7610285252d883611f252
 workflow-type: tm+mt
-source-wordcount: '941'
-ht-degree: 100%
+source-wordcount: '954'
+ht-degree: 99%
 
 ---
 
@@ -126,6 +126,7 @@ ht-degree: 100%
          + [Definieren eines Stils für Links](email/styling-links.md)
          + [Hinzufügen von Inline-Styling-Attributen](email/inline-styling.md)
          + [Hinzufügen von benutzerdefiniertem CSS](email/custom-css.md)
+         + [Verwalten von Inhalten für den dunklen Modus](email/dark-mode.md)
       + [Erstellen von barrierefreien Inhalten](email/accessible-content.md)
    + KI-Assistent {#ai-assistant}
       + [Arbeiten mit dem KI-Assistenten](email/generative-gs.md)
@@ -267,6 +268,7 @@ ht-degree: 100%
    + [Arbeiten mit anderen Adobe-Lösungen](integrations/integration.md)
    + [Verwalten von Assets mit Adobe Experience Manager Assets as a Cloud Service](integrations/aem-assets.md)
    + [Verwalten von Vorlagen mit Adobe Experience Manager as a Cloud Service](integrations/aem-content.md)
+   + [Arbeiten mit GenStudio for Performance Marketing](integrations/genstudio.md)
 + Konfiguration {#conf}
    + Branding {#branding}
       + [Informationen zum Branding](administration/branding/branding-gs.md)
@@ -285,6 +287,7 @@ ht-degree: 100%
       + [Externe Datenbank](administration/external-account-database.md)
       + [Hadoop](administration/external-hadoop.md)
       + [Übertragen von Daten](administration/transfer-external-account.md)
+      + [Externes CRM-Konto](administration/external-crm.md)
    + [Verwalten von Aufzählungen](administration/enumerations.md)
    + [Arbeiten mit JavaScript-Code](administration/javascript-codes.md)
 + [Dokumentation zu Campaign v8 (Konsole) >](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/campaign-home)

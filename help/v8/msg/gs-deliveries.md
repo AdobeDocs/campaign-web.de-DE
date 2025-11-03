@@ -6,10 +6,10 @@ feature: Email, Push, SMS, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 3afff35c-c15f-46f8-b791-9bad5e38ea44
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 934a37cfebfacd2df0b7610285252d883611f252
 workflow-type: tm+mt
-source-wordcount: '469'
-ht-degree: 100%
+source-wordcount: '486'
+ht-degree: 90%
 
 ---
 
@@ -35,11 +35,13 @@ Um einen Versand zu öffnen, klicken Sie in der Liste auf dessen Namen. Der Vers
 
 ![Bildschirm mit Versanddetails samt Parametern und Berichten](assets/delivery-details.png)
 
->[!NOTE]
->
->Wenn Sie einen in der Client-Konsole erstellten Versand öffnen, wird möglicherweise der Abschnitt **[!UICONTROL Zusätzliche Zielgruppe]** für die Zielgruppe angezeigt. Dies bedeutet, dass für diesen Versand mehrere Zielgruppen konfiguriert wurden. Diese Parameter können nur in der Konsole geändert werden.
->
->![Warnmeldung über zusätzliche Zielgruppenkonfigurationen](assets/target-warning-audience.png){zoomable="yes"}
+Wenn Sie einen in der Client-Konsole erstellten Versand öffnen, werden möglicherweise zwei neue Abschnitte für die Zielgruppe angezeigt. Diese Parameter können nur in der Konsole geändert werden.
+
+* **[!UICONTROL Zusätzliche Zielgruppe]**: gibt an, dass mehrere Zielgruppen für diesen Versand konfiguriert wurden.
+
+* **[!UICONTROL Zusätzliche Testversand-Zielgruppe]**: gibt an, dass eine dynamische Bedingung für die Testversand-Zielgruppen in diesem Versand definiert wurde.
+
+![Warnmeldung über zusätzliche Zielgruppenkonfigurationen](assets/target-warning-audience.png){zoomable="yes"}
 
 ## Duplizieren eines Versands {#delivery-duplicate}
 

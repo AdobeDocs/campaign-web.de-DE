@@ -2,10 +2,10 @@
 title: Entdecken der Details von Profilen
 description: Erfahren Sie, wie Sie die Details eines Profils durchsuchen.
 exl-id: 172dec7d-24c6-4c35-bb45-5dc3ce9fadeb
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: 934a37cfebfacd2df0b7610285252d883611f252
 workflow-type: tm+mt
-source-wordcount: '217'
-ht-degree: 100%
+source-wordcount: '246'
+ht-degree: 88%
 
 ---
 
@@ -27,6 +27,10 @@ Informationen zum Profil sind wie folgt organisiert:
 * Unter der Registerkarte **[!UICONTROL Abonnements]** finden Sie Informationen zu den Diensten, für die das Profil angemeldet ist. [Weitere Informationen zu Abonnementdiensten](manage-services.md)
 
   ![Screenshot mit der Registerkarte „Abonnements“, auf der die Dienste aufgeführt sind, für die das Profil angemeldet ist.](assets/profile-subscriptions.png){zoomable="yes"}
+
+* Sie können benutzerdefinierte Registerkarten, z. B. Käufe, anzeigen, indem Sie Sammlungslinks in der Bildschirmdefinition des Empfängerschemas definieren. [Weitere Informationen zu Sammlungslinks](../administration/schemas.md#collection-lists)
+
+  ![Screenshot mit benutzerdefinierter Registerkarte](assets/schemas-collection4.png){zoomable="yes"}
 
 * Des Weiteren könnten Sie über die Schaltfläche **[!UICONTROL Logs]** oben rechts im Bildschirm den Verlauf der Interaktionen des Profils in Form von Versand-, Ausschluss- und Trackinglogs anzeigen. [Weitere Informationen zu Versandlogs](../monitor/delivery-logs.md)
 

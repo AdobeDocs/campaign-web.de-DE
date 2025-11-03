@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 keywords: E-Mail, Design, Barrierefreiheit
 exl-id: ddfa989b-8a30-4912-bed6-cc1ee7fa2eaa
-source-git-commit: 82128a2d628a44e2718a9a1d2f848584140d5532
+source-git-commit: 934a37cfebfacd2df0b7610285252d883611f252
 workflow-type: tm+mt
-source-wordcount: '1536'
-ht-degree: 100%
+source-wordcount: '1623'
+ht-degree: 92%
 
 ---
 
@@ -136,19 +136,17 @@ Um konsistenter zu überprüfen, ob Ihre Inhalte zuverlässig barrierefrei sind,
 
 ## Verwenden des dunklen Modus {#dark-mode}
 
-Zu den Best Practices für die Gestaltung von Inhalten im dunklen Modus gehören die Verwendung transparenter PNGs oder SVGs, das Festlegen geeigneter Meta-Tags und CSS sowie das Bereitstellen barrierefreier Fallback-Stile, wenn der dunkle Modus nicht unterstützt wird. 
+Der Dunkelmodus verbessert die visuelle Barrierefreiheit für Benutzer mit Lichtempfindlichkeit oder Sehbehinderungen, um das Seherlebnis zu verbessern.
 
-<!--TO PUBLISH WHEN DARK MODE IS RELEASED
-
-Dark mode enhances visual accessibility for users with light sensitivity or visual impairments, for an improved viewing experience.
+Mit der E-Mail-Designer können Sie in den **[!UICONTROL Dunkelmodus“ wechseln]** bestimmte benutzerdefinierte Einstellungen definieren, die von den unterstützenden E-Mail-Clients angezeigt werden. [Weitere Informationen](dark-mode.md)
 
 ![](assets/accessible-dark-mode.png){width="90%"}
 
-Amongst the best practices for designing content in dark mode, use transparent PNGs or SVGs, set appropriate meta tags and CSS, and provide accessible fallback styling if dark mode is not supported. Finally, make sure your emails render correctly in dark mode by testing all email content and UI elements in both light and dark modes.
+Zu den Best Practices für die Erstellung von Inhalten im dunklen Modus gehören die Verwendung transparenter PNGs oder SVGs, das Festlegen geeigneter Meta-Tags und CSS sowie das Bereitstellen zugänglicher Fallback-Stile, wenn der dunkle Modus nicht unterstützt wird. Stellen Sie abschließend sicher, dass Ihre E-Mails im Dunkelmodus korrekt gerendert werden, indem Sie alle E-Mail-Inhalte und Benutzeroberflächenelemente sowohl im hellen als auch im dunklen Modus testen.
 
-Detailed best practices specific to dark mode, including guidelines to ensure accessibility, are listed in [this section](dark-mode.md#best-practices).
+Detaillierte Best Practices für den Dunkelmodus, einschließlich Richtlinien zur Sicherstellung der Barrierefreiheit, finden Sie [diesem Abschnitt](dark-mode.md#best-practices).
 
-KEEP dark mode accessibility best practices IN ONE SINGLE LOCATION - for now listed on the Dark mode page.-->
+<!--KEEP dark mode accessibility best practices IN ONE SINGLE LOCATION - for now listed on the Dark mode page.-->
 
 ## Verwenden spezifischer Attribute für Barrierefreiheit {#attributes}
 
