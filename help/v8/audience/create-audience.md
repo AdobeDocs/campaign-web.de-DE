@@ -3,10 +3,10 @@ audience: end-user
 title: Erstellen von Zielgruppen
 description: Erfahren Sie, wie Sie Zielgruppen in Adobe Campaign Web erstellen.
 exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 2890e5b19cb9b668f3f429cf60dbfd98278b3649
 workflow-type: tm+mt
-source-wordcount: '924'
-ht-degree: 100%
+source-wordcount: '1015'
+ht-degree: 91%
 
 ---
 
@@ -23,6 +23,8 @@ ht-degree: 100%
 >title="Audience settings"
 >abstract="Enter the name of the audience and additional options, then click the **Create Audience** button."-->
 
+## Über die Erstellung von Audiences
+
 Mit Campaign Web können Sie neue Zielgruppen in einer visuellen Workflow-Arbeitsfläche erstellen. Sie können nicht nur von Grund auf eine einfache Zielgruppe erstellen, sondern auch Workflow-Aktivitäten nutzen, um Ihre Zielgruppe zu präzisieren. Sie können beispielsweise mehrere Zielgruppen zu einer einzigen zusammenfassen, Ihre Zielgruppe mit externen Attributen anreichern oder eine Zielgruppe basierend auf Regeln Ihrer Wahl in mehrere Zielgruppen unterteilen.
 
 Nachdem Sie Ihren Workflow erstellt haben, werden die resultierenden Zielgruppen automatisch in der Campaign-Datenbank zusammen mit den bereits vorhandenen Zielgruppen gespeichert. Diese Zielgruppen können dann in Workflows oder in eigenständigen Sendungen ausgewählt werden.
@@ -30,6 +32,14 @@ Nachdem Sie Ihren Workflow erstellt haben, werden die resultierenden Zielgruppen
 Die Spalte **[!UICONTROL Herkunft]** gibt die Herkunft der Zielgruppen an: **[!UICONTROL Adobe Campaign]**-Zielgruppen werden in der Adobe Campaign v8-Konsole oder der Web-Benutzeroberfläche erstellt, während **[!UICONTROL Adobe Experience Platform]**-Zielgruppen in Adobe Experience Platform erstellt und durch Integration von Adobe-Quellen und -Zielen in Campaign integriert werden.
 
 ➡️ [Entdecken Sie diese Funktion im Video](#video)
+
+## Berechtigungen für benutzerdefinierte Benutzergruppen
+
+Beim Erstellen einer neuen Zielgruppe wird automatisch ein Workflow erstellt und im Ordner **[!UICONTROL Profile und Zielgruppen]** / **[!UICONTROL Aufträge]** / **[!UICONTROL Zielgruppen-Workflows]** gespeichert.
+
+Wenn Sie einer benutzerdefinierten Benutzergruppe zugewiesen sind und beim Erstellen von Zielgruppen der Fehler „Sie haben keine Rechte“ auftritt, müssen Sie sicherstellen, dass Ihre Benutzergruppe über die erforderlichen Berechtigungen für diesen Ordner verfügt.
+
+Um dies zu beheben, muss ein Administrator Ihre benutzerdefinierte Benutzergruppe zum Abschnitt Ordnersicherheit in der Campaign-Konsole hinzufügen. [Erfahren Sie, wie Sie Berechtigungen für Ordner verwalten](../get-started/permissions.md#folder-permissions)
 
 ## Erstellen Ihrer ersten Zielgruppe {#create}
 
@@ -98,4 +108,4 @@ Wenn Sie die vorherigen Zielgruppenergebnisse nicht ersetzen möchten, konfiguri
 
 Erfahren Sie, wie Sie Zielgruppen erstellen und verwalten, wie Sie Zielgruppen für einen Versand auswählen und Kontrollgruppen definieren.
 
->[!VIDEO](https://video.tv.adobe.com/v/3453211?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425861?quality=12)
