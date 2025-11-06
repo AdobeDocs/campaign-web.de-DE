@@ -3,9 +3,9 @@ audience: end-user
 title: Senden von Testsendungen
 description: Definieren und Durchführen von Testsendungen
 exl-id: b2677579-c95d-443d-b207-466af364c208
-source-git-commit: 1ed20f88d9a11dcac7aa4a3aa93e3058b18c04ff
+source-git-commit: 3afb50f14fbc6b7efcedb43f4c8c323fd21d1e70
 workflow-type: tm+mt
-source-wordcount: '1193'
+source-wordcount: '1200'
 ht-degree: 100%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_additional_proof_target"
 >title="Zusätzliche Testversand-Zielgruppe"
->abstract="Zusätzliche Testversand-Zielgruppe."
+>abstract="Diese Regeln können nur in der Client-Konsole geändert werden."
 
 Nachdem der Nachrichteninhalt definiert wurde, können Sie ihn in der Vorschau anzeigen und testen, indem Sie Testsendungen an Testprofile senden. Wenn Sie personalisierte Inhalte eingefügt haben, können Sie mithilfe von Testprofildaten überprüfen, wie diese Inhalte in der Nachricht angezeigt werden.
 
