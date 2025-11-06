@@ -2,7 +2,7 @@
 title: Versionshinweise zur Web-Benutzeroberfläche von Campaign v8
 description: Entdecken Sie die neuen Funktionen der neuesten Version der Campaign Web-Benutzeroberfläche
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: cf576041294efc1c699fee4cb5ffb7ad68b78953
+source-git-commit: ca1a437f8a8a25c0a15b9148e9c73271795f16c7
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 64%
@@ -88,7 +88,7 @@ _3. November 2025_
 <tr>
 <td>
 <p>Die E-Mail-Designer bietet jetzt die Möglichkeit, in die Dunkelmodusansicht zu wechseln, in der Sie zusätzlich bestimmte benutzerdefinierte Einstellungen definieren können. Beachten Sie, dass das endgültige Rendering vom E-Mail-Client des Empfängers abhängt. Nicht alle E-Mail-Clients unterstützen den Dunkelmodus.</p>
-<p>Weitere Informationen finden Sie in der <a href="../email/accessible-content.md#dark-mode">entsprechenden Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie in der <a href="../email/dark-mode.md">entsprechenden Dokumentation</a>.</p>
 </td>
 </tr>
 </tbody>
