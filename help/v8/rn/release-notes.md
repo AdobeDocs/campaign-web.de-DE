@@ -3,9 +3,9 @@ title: Versionshinweise zur Web-Benutzeroberfläche von Campaign v8
 description: Entdecken Sie die neuen Funktionen der neuesten Version der Campaign Web-Benutzeroberfläche
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 source-git-commit: ca1a437f8a8a25c0a15b9148e9c73271795f16c7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '506'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
@@ -20,9 +20,9 @@ Die Versionen der Adobe Campaign Web-Benutzeroberfläche basieren auf einem kont
 
 Änderungen und Verbesserungen, die in früheren Versionen verfügbar sind, sind auf den Seiten für [2024](release-notes-24.md) und [2025](release-notes-25.md) aufgeführt.
 
-## Version Oktober &#39;25 {#25-10-updates}
+## Version Oktober 2025 {#25-10-updates}
 
-_3. November 2025_
+_3. November 2025_
 
 <table>
 <thead>
@@ -71,7 +71,7 @@ _3. November 2025_
 <tbody>
 <tr>
 <td>
-<p>Um die Marketing-Effizienz zu steigern und die Markenkonsistenz zu gewährleisten, können GenStudio for Performance Marketing-Erlebnisse jetzt nahtlos in Campaign integriert werden. Auf diese Weise können Sie die KI-gestützte Inhaltserstellung von GenStudio zusammen mit den erweiterten Orchestrierungsfunktionen von Campaign nutzen.<p>
+<p>Um die Marketing-Effizienz zu steigern und die Markenkonsistenz zu wahren, können Sie Erlebnisse aus GenStudio for Performance Marketing nahtlos mit Campaign integrieren. Auf diese Weise können Sie die KI-gestützte Content-Erstellung von GenStudio zusammen mit den erweiterten Orchestrierungsfunktionen von Campaign nutzen.<p>
 <p>Weitere Informationen finden Sie in der <a href="../integrations/genstudio.md">entsprechenden Dokumentation</a>.</p>
 </td>
 </tr>
@@ -81,13 +81,13 @@ _3. November 2025_
 <table>
 <thead>
 <tr>
-<th><strong>Unterstützung des Dunkelmodus in Email Designer</strong><br/></th> 
+<th><strong>Unterstützung für den dunklen Modus im E-Mail-Designer</strong><br/></th> 
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Die E-Mail-Designer bietet jetzt die Möglichkeit, in die Dunkelmodusansicht zu wechseln, in der Sie zusätzlich bestimmte benutzerdefinierte Einstellungen definieren können. Beachten Sie, dass das endgültige Rendering vom E-Mail-Client des Empfängers abhängt. Nicht alle E-Mail-Clients unterstützen den Dunkelmodus.</p>
+<p>Der E-Mail-Designer bietet jetzt die Möglichkeit, in den dunklen Modus zu wechseln, in dem Sie zusätzlich spezifische benutzerdefinierte Einstellungen festlegen können. Beachten Sie, dass das endgültige Rendern vom E-Mail-Client der oder des Empfangenden abhängt. Nicht alle E-Mail-Clients unterstützen den dunklen Modus.</p>
 <p>Weitere Informationen finden Sie in der <a href="../email/dark-mode.md">entsprechenden Dokumentation</a>.</p>
 </td>
 </tr>
@@ -112,13 +112,13 @@ _3. November 2025_
 
 ### Verbesserungen {#25-10-improvements}
 
-* In Sendungen, die in der Client-Konsole erstellt wurden, zeigt der Abschnitt **Zielgruppe** jetzt an, ob eine dynamische Bedingung für Testversand-Ziele definiert wurde. <!-- [Learn more](../msg/gs-deliveries.md#access)-->
+* In Sendungen, die in der Client-Konsole erstellt wurden, zeigt der Abschnitt **Zielgruppe** jetzt an, ob eine dynamische Bedingung für Testversandziele definiert wurde. <!-- [Learn more](../msg/gs-deliveries.md#access)-->
 
-* Beim Einrichten einer Bedingung mit der Funktion für bedingte Inhalte von Email Designer können Sie jetzt zwischen dem neuen und dem alten Regel-Builder wechseln. <!-- [Learn more](../personalization/conditions.md#condition-condition-builder)-->
+* Beim Einrichten einer Bedingung mit der Funktion für bedingte Inhalte des E-Mail-Designers können Sie jetzt zwischen dem neuen und dem alten Regel-Builder wechseln. <!-- [Learn more](../personalization/conditions.md#condition-condition-builder)-->
 
-* Sie können jetzt in der Bildschirmdefinition des Empfängerschemas Sammlungs-Links wie Käufe auswählen. Dadurch werden die zugehörigen Daten auf Profilbildschirmen über eine dedizierte Registerkarte angezeigt. <!-- [Learn more](../administration/schemas.md#collection-lists)-->
+* Sie können jetzt in der Bildschirmdefinition des Empfängerschemas Sammlungs-Links wie Käufe auswählen. Dadurch werden die zugehörigen Daten über eine dedizierte Registerkarte auf Profilbildschirmen angezeigt. <!-- [Learn more](../administration/schemas.md#collection-lists)-->
 
-* Als Campaign-Administrator können Sie jetzt Verbindungen zu Salesforce CRM und Microsoft Dynamics einrichten.
+* Als Campaign-Admin können Sie jetzt Verbindungen zu Salesforce CRM und Microsoft Dynamics einrichten.
   [Weitere Informationen](../administration/external-crm.md)
 
 <!--

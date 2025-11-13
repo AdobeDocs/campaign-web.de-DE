@@ -4,7 +4,7 @@ title: Senden von Testsendungen
 description: Definieren und Durchführen von Testsendungen
 exl-id: b2677579-c95d-443d-b207-466af364c208
 source-git-commit: 3afb50f14fbc6b7efcedb43f4c8c323fd21d1e70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1200'
 ht-degree: 100%
 

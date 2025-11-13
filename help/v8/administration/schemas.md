@@ -3,9 +3,9 @@ title: Arbeiten mit Schemata
 description: Erfahren Sie, wie Sie mit Schemata arbeiten.
 exl-id: 1433a441-1673-45a2-9fec-be9550fbba0d
 source-git-commit: 934a37cfebfacd2df0b7610285252d883611f252
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '597'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -63,7 +63,7 @@ Die Registerkarte **[!UICONTROL Daten]** enthält Informationen zu den Schemadat
 
 ![Registerkarte „Daten“ des Schemas mit Datenstruktur und Attributen](assets/schemas-data.png)
 
-## Bildschirmdefinition konfigurieren {#screen-definition}
+## Konfigurieren der Bildschirmdefinition {#screen-definition}
 
 ### Bearbeiten benutzerdefinierter Felder {#fields}
 
@@ -77,19 +77,19 @@ Klicken Sie auf **[!UICONTROL Vorschau]**, um die benutzerdefinierten Felder auf
 
 Detaillierte Informationen zum Bearbeiten von benutzerdefinierten Feldern in einem Schema finden Sie unter [Konfigurieren benutzerdefinierter Felder](../administration/custom-fields.md).
 
-### Sammlungslisten hinzufügen {#collection-lists}
+### Hinzufügen von Sammlungslisten {#collection-lists}
 
-In diesem **Liste benutzerdefinierter Listen** können Sie Sammlungslinks definieren, z. B. Käufe. Die zugehörigen Daten werden dann auf Profilbildschirmen über eine dedizierte Registerkarte angezeigt.
+Im Abschnitt **Liste benutzerdefinierter Listen** können Sie Sammlungs-Links definieren, z. B. Käufe. Die zugehörigen Daten werden dann über eine dedizierte Registerkarte auf Profilbildschirmen angezeigt.
 
 >[!NOTE]
 >
 >Diese Funktion ist derzeit nur für das Empfängerschema verfügbar.
 
-1. Um der Benutzeroberfläche eine Sammlungsliste hinzuzufügen, klicken Sie auf die Schaltfläche mit den Auslassungspunkten und wählen Sie **Benutzerdefinierte Listen auswählen**.
+1. Um der Benutzeroberfläche eine Sammlungsliste hinzuzufügen, klicken Sie auf die Schaltfläche mit den Auslassungspunkten und wählen Sie **Benutzerdefinierte Listen auswählen** aus.
 
    ![Erstellung von Sammlungslisten](assets/schemas-collection1.png)
 
-1. Wählen Sie eine der verfügbaren benutzerdefinierten Listen aus, z. B. Käufe, und klicken Sie dann auf **Bestätigen**.
+1. Wählen Sie eine der verfügbaren benutzerdefinierten Listen aus, z. B. Käufe, und klicken Sie dann auf **Bestätigen**.
 
    ![Erstellung von Sammlungslisten](assets/schemas-collection2.png)
 

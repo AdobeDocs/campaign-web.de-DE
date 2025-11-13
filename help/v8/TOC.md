@@ -6,9 +6,9 @@ title: Dokumentation zu Adobe Campaign Web
 description: Dokumentation zu Campaign Web
 breadcrumb-title: Campaign Web-Benutzeroberfläche
 source-git-commit: 934a37cfebfacd2df0b7610285252d883611f252
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '954'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -126,7 +126,7 @@ ht-degree: 99%
          + [Definieren eines Stils für Links](email/styling-links.md)
          + [Hinzufügen von Inline-Styling-Attributen](email/inline-styling.md)
          + [Hinzufügen von benutzerdefiniertem CSS](email/custom-css.md)
-         + [Verwalten von Inhalten für den dunklen Modus](email/dark-mode.md)
+         + [Verwalten von Inhalten im dunklen Modus](email/dark-mode.md)
       + [Erstellen von barrierefreien Inhalten](email/accessible-content.md)
    + KI-Assistent {#ai-assistant}
       + [Arbeiten mit dem KI-Assistenten](email/generative-gs.md)
@@ -195,10 +195,10 @@ ht-degree: 99%
       + [Anreicherung](workflows/activities/enrichment.md)
       + [Externes Signal](workflows/activities/external-signal.md)
       + [Dateiextraktion](workflows/activities/extract-file.md)
-      + [Verzweigung &#x200B;](workflows/activities/fork.md)
+      + [Verzweigung ](workflows/activities/fork.md)
       + [Inkrementelle Abfrage](workflows/activities/incremental-query.md)
       + [JavaScript-Code](workflows/activities/javascript-code.md)
-      + [Datei laden &#x200B;](workflows/activities/load-file.md)
+      + [Datei laden ](workflows/activities/load-file.md)
       + [Abstimmung](workflows/activities/reconciliation.md)
       + [Zielgruppe speichern](workflows/activities/save-audience.md)
       + [Planung](workflows/activities/scheduler.md)
@@ -278,7 +278,7 @@ ht-degree: 99%
    + [Verwalten von Zielgruppen-Mappings](administration/target-mappings.md)
    + [Arbeiten mit Schemata](administration/schemas.md)
    + [Konfigurieren benutzerdefinierter Felder](administration/custom-fields.md)
-   + [Konfigurieren von Optionen in [!DNL Campaign] &#x200B;](administration/options.md)
+   + [Konfigurieren von Optionen in [!DNL Campaign] ](administration/options.md)
    + [Zeitzonenverwaltung](administration/timezone-management.md)
    + Externe Konten {#external-accounts}
       + [Erstellen externer Konten](administration/create-external-account.md)

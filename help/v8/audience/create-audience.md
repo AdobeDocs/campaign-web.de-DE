@@ -4,9 +4,9 @@ title: Erstellen von Zielgruppen
 description: Erfahren Sie, wie Sie Zielgruppen in Adobe Campaign Web erstellen.
 exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
 source-git-commit: ba7ba504a8ea62ad6ecea65f9b93ee5848077201
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1015'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 91%
 >title="Audience settings"
 >abstract="Enter the name of the audience and additional options, then click the **Create Audience** button."-->
 
-## Über die Erstellung von Audiences
+## Informationen zur Zielgruppenerstellung
 
 Mit Campaign Web können Sie neue Zielgruppen in einer visuellen Workflow-Arbeitsfläche erstellen. Sie können nicht nur von Grund auf eine einfache Zielgruppe erstellen, sondern auch Workflow-Aktivitäten nutzen, um Ihre Zielgruppe zu präzisieren. Sie können beispielsweise mehrere Zielgruppen zu einer einzigen zusammenfassen, Ihre Zielgruppe mit externen Attributen anreichern oder eine Zielgruppe basierend auf Regeln Ihrer Wahl in mehrere Zielgruppen unterteilen.
 
@@ -39,7 +39,7 @@ Beim Erstellen einer neuen Zielgruppe wird automatisch ein Workflow erstellt und
 
 Wenn Sie einer benutzerdefinierten Benutzergruppe zugewiesen sind und beim Erstellen von Zielgruppen der Fehler „Sie haben keine Rechte“ auftritt, müssen Sie sicherstellen, dass Ihre Benutzergruppe über die erforderlichen Berechtigungen für diesen Ordner verfügt.
 
-Um dies zu beheben, muss ein Administrator Ihre benutzerdefinierte Benutzergruppe zum Abschnitt Ordnersicherheit in der Campaign-Konsole hinzufügen. [Erfahren Sie, wie Sie Berechtigungen für Ordner verwalten](../get-started/permissions.md#folder-permissions)
+Um dies zu beheben, muss eine bzw. ein Admin Ihre benutzerdefinierte Benutzergruppe zum Abschnitt „Ordnersicherheit“ in der Campaign-Konsole hinzufügen. [Informationen zum Verwalten von Berechtigungen für Ordner](../get-started/permissions.md#folder-permissions)
 
 ## Erstellen Ihrer ersten Zielgruppe {#create}
 
@@ -108,4 +108,4 @@ Wenn Sie die vorherigen Zielgruppenergebnisse nicht ersetzen möchten, konfiguri
 
 Erfahren Sie, wie Sie Zielgruppen erstellen und verwalten, wie Sie Zielgruppen für einen Versand auswählen und Kontrollgruppen definieren.
 
->[!VIDEO](https://video.tv.adobe.com/v/3453211?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425861?quality=12)

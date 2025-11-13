@@ -7,13 +7,13 @@ role: User
 level: Beginner, Intermediate
 keywords: Dunkler Modus, E-Mail, Farbe, Editor
 source-git-commit: 934a37cfebfacd2df0b7610285252d883611f252
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1515'
 ht-degree: 100%
 
 ---
 
-# Verwalten von Inhalten für den dunklen Modus {#dark-mode}
+# Verwalten von Inhalten im dunklen Modus {#dark-mode}
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_darkmode"
