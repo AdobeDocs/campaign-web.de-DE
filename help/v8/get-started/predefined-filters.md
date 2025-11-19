@@ -4,8 +4,8 @@ description: Erfahren Sie, wie Sie in Adobe Campaign Web vordefinierte Filter er
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
 source-git-commit: f2a3bb0ba95466d9574cab2915980d4fad3c328b
 workflow-type: tm+mt
-source-wordcount: '832'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
