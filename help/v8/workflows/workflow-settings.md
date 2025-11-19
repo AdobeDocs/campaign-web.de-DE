@@ -5,8 +5,8 @@ description: Erfahren Sie, wie Sie Workflow-Einstellungen mit Adobe Campaign Web
 exl-id: 3aef912b-086b-4aa4-9556-c09396112313
 source-git-commit: 73dfc1e14e04493a76e1ca91fab0306cd1e88b26
 workflow-type: tm+mt
-source-wordcount: '1083'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
