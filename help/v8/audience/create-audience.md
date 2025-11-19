@@ -4,7 +4,7 @@ title: Erstellen von Zielgruppen
 description: Erfahren Sie, wie Sie Zielgruppen in Adobe Campaign Web erstellen.
 exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
 source-git-commit: ba7ba504a8ea62ad6ecea65f9b93ee5848077201
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1015'
 ht-degree: 100%
 
@@ -108,4 +108,4 @@ Wenn Sie die vorherigen Zielgruppenergebnisse nicht ersetzen möchten, konfiguri
 
 Erfahren Sie, wie Sie Zielgruppen erstellen und verwalten, wie Sie Zielgruppen für einen Versand auswählen und Kontrollgruppen definieren.
 
->[!VIDEO](https://video.tv.adobe.com/v/3453211?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425861?quality=12)
