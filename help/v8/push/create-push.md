@@ -67,7 +67,7 @@ Sie müssen zuerst die App auswählen und können dann die Zielgruppe für Push-
 
    ![Screenshot mit der Zielgruppenauswahl für den Push-Versand](assets/push_create_2.png){zoomable="yes"}
 
-1. Wählen Sie eine vorhandene Zielgruppe aus oder erstellen Sie eine eigene Zielgruppe, um die Zielpopulation für Ihren Push-Versand zu verfeinern. Bei Push-Benachrichtigungen lautet [ Standarddimension ](../audience/about-recipients.md#targeting-dimensions)Abonnierte **Abonnierte Anwendung** (nms:appSubscriptionRcp), die mit der Empfängertabelle verknüpft ist.
+1. Wählen Sie eine vorhandene Zielgruppe aus oder erstellen Sie eine eigene Zielgruppe, um die Zielpopulation für Ihren Push-Versand zu verfeinern. Bei Push-Benachrichtigungen lautet [&#x200B; Standarddimension &#x200B;](../audience/about-recipients.md#targeting-dimensions)Abonnierte **Abonnierte Anwendung** (nms:appSubscriptionRcp), die mit der Empfängertabelle verknüpft ist.
 
    Weitere Informationen dazu, wie Sie eine vorhandene Zielgruppe auswählen, finden Sie auf [dieser Seite](../audience/add-audience.md).
 

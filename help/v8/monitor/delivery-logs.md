@@ -40,13 +40,13 @@ Alle Validierungsschritte, Warnungen und Fehler werden aufgelistet. Farbige Symb
 * Das gelbe Symbol steht für einen nicht kritischen Verarbeitungsfehler.
 * Das rote Symbol steht für einen kritischen Fehler, der die Durchführung des Versands verhindert. Kritische Fehler müssen behoben sein, damit der Versand durchgeführt werden kann.
 
-![ Registerkarte „Logs“ mit Validierungsschritten, Warnungen und Fehlern mit farbigen Symbolen, die auf Nachrichtentypen hinweisen.](assets/logs.png){zoomable="yes"}
+![&#x200B; Registerkarte „Logs“ mit Validierungsschritten, Warnungen und Fehlern mit farbigen Symbolen, die auf Nachrichtentypen hinweisen.](assets/logs.png){zoomable="yes"}
 
 ## Sendungen {#deliveries-tab}
 
 Der Tab **Versandlogs** zeigt die Liste der einzelnen Nachrichten eines Versands. Hier wird die Liste der gesendeten Nachrichten und deren Status gespeichert. Für jeden einzelnen Empfänger können Sie anhand des Status das Ergebnis des Versands verfolgen.
 
-![ Registerkarte „Sendungen“ mit dem Verlauf der gesendeten Nachrichten und ihren Status.](assets/logs2.png){zoomable="yes"}
+![&#x200B; Registerkarte „Sendungen“ mit dem Verlauf der gesendeten Nachrichten und ihren Status.](assets/logs2.png){zoomable="yes"}
 
 ## Ausschlüsse {#exclusion-tab}
 
