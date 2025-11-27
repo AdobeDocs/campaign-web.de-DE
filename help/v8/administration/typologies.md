@@ -3,7 +3,7 @@ audience: end-user
 title: Arbeiten mit Geschäftsregeln (Typologien)
 description: Erfahren Sie, wie Sie mit Typologien und Typologieregeln arbeiten können, um den Versand von Sendungen zu steuern, zu filtern und zu überwachen.
 exl-id: 54fdd03a-e49d-4f22-b6d4-6055c8922e58
-source-git-commit: 8ba304ef0bf922fc8057a5ee6f1e296805793735
+source-git-commit: 6bc40942166531d9adb94a9ce2a691ddd031a005
 workflow-type: tm+mt
 source-wordcount: '1506'
 ht-degree: 100%
@@ -13,7 +13,7 @@ ht-degree: 100%
 # Arbeiten mit Geschäftsregeln (Typologien) {#typologies}
 
 >[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn4"
+>id="acw_homepage_welcome_rn3"
 >title="Geschäftsregeln"
 >abstract="Sie können jetzt Typologien und Typologieregeln in der Adobe Campaign Web-Benutzeroberfläche erstellen. Mit Typologien können Sie die Durchführung von Sendungen steuern, filtern und priorisieren."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=de" text="Siehe Versionshinweise"
