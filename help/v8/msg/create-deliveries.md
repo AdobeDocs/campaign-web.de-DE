@@ -6,14 +6,21 @@ feature: Email, Push, SMS, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 803a20ac-e75f-45c6-af89-054b84eb3405
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 0e48f27982368b00a29a64b7dbcb0b6be965efd2
 workflow-type: tm+mt
-source-wordcount: '930'
-ht-degree: 100%
+source-wordcount: '939'
+ht-degree: 99%
 
 ---
 
 # Erstellen eines Versands {#create-delivery}
+
+<!-- /NEO-92684 / DOCAC-13767-->
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_profile_enrichment_settings"
+>title="Profilanreicherung aktivieren"
+>abstract="Auswahl der Felder zur Profilanreicherung."
 
 Sie können eigenständige Sendungen über das linke Menü **[!UICONTROL Sendungen]** oder im Kontext eines Workflows erstellen, egal ob er in einer Kampagne enthalten ist oder nicht.
 

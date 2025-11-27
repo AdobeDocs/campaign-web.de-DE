@@ -3,10 +3,10 @@ audience: end-user
 title: Verwendung der Workflow-Aktivität „Anreicherung“
 description: Erfahren Sie, wie Sie die Workflow-Aktivität „Anreicherung“ verwenden.
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
-source-git-commit: 29e8ad045155fc561b1645f91d4a980911bdf259
+source-git-commit: 0e48f27982368b00a29a64b7dbcb0b6be965efd2
 workflow-type: tm+mt
-source-wordcount: '2053'
-ht-degree: 99%
+source-wordcount: '2043'
+ht-degree: 100%
 
 ---
 
@@ -52,12 +52,7 @@ Führen Sie die folgenden Schritte aus, um die Aktivität **Anreicherung** zu ko
 >title="Aktivität „Anreicherung“"
 >abstract="Nachdem Anreicherungsdaten zum Workflow hinzugefügt wurden, können sie in den nachfolgenden Aktivitäten verwendet werden, um Kundinnen und Kunden basierend auf ihren Verhaltensweisen, Voreinstellungen und Anforderungen in verschiedene Gruppen zu segmentieren oder um personalisierte Marketing-Nachrichten und -Kampagnen zu erstellen, die bei Ihrer Zielgruppe Anklang finden."
 
-<!-- /NEO-92684 -->
 
->[!CONTEXTUALHELP]
->id="acw_orchestration_enrichment_settings"
->title="Anreicherungseinstellungen"
->abstract="Anreicherungseinstellungen: Zielgruppendimension, zusätzliche Attribute und Optionen."
 
 1. Klicken Sie auf **Anreicherungsdaten hinzufügen** und wählen Sie das Attribut aus, das für die Anreicherung verwendet werden soll. [Erfahren Sie, wie Sie Attribute auswählen und zu den Favoriten hinzufügen](../../get-started/attributes.md).
 
