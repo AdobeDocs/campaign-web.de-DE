@@ -6,10 +6,10 @@ context-tags: branding,overview;branding,main
 role: Admin
 level: Experienced
 exl-id: 8f6a5255-0245-497b-880f-d91ea82ee19e
-source-git-commit: 1ed20f88d9a11dcac7aa4a3aa93e3058b18c04ff
+source-git-commit: 8b93ddd9c655c9ca461f28392c70872e4005b44f
 workflow-type: tm+mt
-source-wordcount: '617'
-ht-degree: 100%
+source-wordcount: '651'
+ht-degree: 94%
 
 ---
 
@@ -125,7 +125,10 @@ Gehen Sie wie folgt vor, um einen neuen eigenständigen Versand zu erstellen.
 
 1. Personalisieren Sie Ihre Sendungen weiter. Weitere Informationen zum Erstellen einer E-Mail finden Sie im Abschnitt [Entwerfen und Senden von E-Mails](../../email/create-email.md).
 
+1. Sie können mit den Personalisierungsfeldern auch Markeninformationen hinzufügen. Navigieren Sie zu **[!UICONTROL Branding]** und wählen Sie die markenbezogenen Gestaltungsbausteine aus, die Sie einfügen möchten (z. B. Markenname, Logo-URL, Website-URL, Absenderinformationen usw.).
+
 >[!ENDTABS]
+
 
 ## Überprüfen des mit Transaktionsnachrichten verknüpften Brandings {#check-branding-transactional}
 
