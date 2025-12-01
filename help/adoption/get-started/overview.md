@@ -4,7 +4,7 @@ description: Erfahren Sie, was für die ersten Schritte mit Ihrer neuen Campaign
 role: User, Admin, Developer
 level: Beginner
 exl-id: 39d1f1b6-626b-48a2-92c3-9b593a377d66
-source-git-commit: 2093338e3ba9f31954561171029ec0f7336c73c4
+source-git-commit: 336845c8d21a39c9f9124a5c6f7d0667cd111dcb
 workflow-type: tm+mt
 source-wordcount: '1553'
 ht-degree: 100%
@@ -105,7 +105,7 @@ Wenn Sie von Campaign Standard zu Campaign v8 wechseln, stehen Ihnen nun die fol
 
   ![](../../v8/email/assets/full-email-2.png){zoomable="yes"}
 
-  Er bietet eine Reihe von E-Mail-Vorlagen und generiert Bilder (neu). Weitere Informationen zum KI-Assistenten finden Sie in [diesem Abschnitt](../../v8/email/generative-content.md). Adobe Campaign v8 verfügt über einen KI-Assistenten für [E-Mail](../../v8/email/generative-content.md), [SMS](../../v8/email/generative-sms.md) und [Push](../../v8/email/generative-push.md).
+  Er bietet eine Reihe von E-Mail-Vorlagen und generiert Bilder (neu). Weitere Informationen zum KI-Assistenten finden Sie in [diesem Abschnitt](../../v8/content/generative-full-content.md). Adobe Campaign v8 verfügt über einen KI-Assistenten für [E-Mail](../../v8/content/generative-full-content.md), [SMS](../../v8/content/generative-text.md) und [Push](../../v8/content/generative-full-content.md).
 
 * **Aktualisierte SMS-Infrastruktur – SMS v2.0**
 
@@ -228,4 +228,4 @@ Rufen Sie das entsprechende Referenzhandbuch für Ihre Rolle auf, um sich mit de
 
 Adobe constantly evaluates product capabilities to identify older features that should be replaced with more modern alternatives to improve overall customer value, always under careful consideration of backward compatibility.
 
-Please refer to [this documentation for information on deprecated items](https://experienceleague.adobe.com/de/docs/campaign-standard/using/release-notes/deprecated-features).-->
+Please refer to [this documentation for information on deprecated items](https://experienceleague.adobe.com/en/docs/campaign-standard/using/release-notes/deprecated-features).-->

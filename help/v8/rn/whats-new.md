@@ -3,7 +3,7 @@ audience: end-user
 title: Neue Funktionen in der Campaign Web-Benutzeroberfläche
 description: Entdecken Sie neue Funktionen in der Campaign Web-Benutzeroberfläche.
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
+source-git-commit: 336845c8d21a39c9f9124a5c6f7d0667cd111dcb
 workflow-type: tm+mt
 source-wordcount: '1311'
 ht-degree: 100%
@@ -78,7 +78,7 @@ Verabschieden Sie sich von der manuellen Inhaltserstellung und begrüßen Sie ei
 
 Definieren Sie den Versand von Inhalten neu mit unserem erweiterten WYSIWYG-Editor mit Drag-and-Drop-Funktion, der ein einfaches und effizientes Arbeiten ermöglicht. Durch die nahtlose AEM-Integration, die Funktionen für dynamische Inhalte und den fortschrittlichen KI-Assistenten ist die Erstellung des Versands mit diesem vielfältigen Tool intuitiv, effizient und hochgradig personalisiert.
 
-Nutzen Sie die Vorteile der erweiterten Algorithmen des KI-Assistenten, um ansprechende, maßgeschneiderte Inhalte zu erstellen, die Ergebnisse liefern. Steigern Sie Öffnungsraten, Klickraten und Konversionen mit einer intelligenten, KI-gestützten Inhaltsgenerierung. Weiterführende Informationen finden Sie in [diesem Abschnitt](../email/generative-gs.md).
+Nutzen Sie die Vorteile der erweiterten Algorithmen des KI-Assistenten, um ansprechende, maßgeschneiderte Inhalte zu erstellen, die Ergebnisse liefern. Steigern Sie Öffnungsraten, Klickraten und Konversionen mit einer intelligenten, KI-gestützten Inhaltsgenerierung. Weiterführende Informationen finden Sie in [diesem Abschnitt](../content/generative-gs.md).
 
 **Neue und neu gestaltete Kampagnen-Workflow-Aktivitäten**
 

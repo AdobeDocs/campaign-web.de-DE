@@ -5,10 +5,10 @@ user-guide-description: Produktdokumentation zur Adobe Campaign Web-Benutzerober
 title: Dokumentation zu Adobe Campaign Web
 description: Dokumentation zu Campaign Web
 breadcrumb-title: Campaign Web-Benutzeroberfläche
-source-git-commit: 934a37cfebfacd2df0b7610285252d883611f252
+source-git-commit: 336845c8d21a39c9f9124a5c6f7d0667cd111dcb
 workflow-type: tm+mt
-source-wordcount: '954'
-ht-degree: 100%
+source-wordcount: '953'
+ht-degree: 98%
 
 ---
 
@@ -129,12 +129,12 @@ ht-degree: 100%
          + [Verwalten von Inhalten im dunklen Modus](email/dark-mode.md)
       + [Erstellen von barrierefreien Inhalten](email/accessible-content.md)
    + KI-Assistent {#ai-assistant}
-      + [Arbeiten mit dem KI-Assistenten](email/generative-gs.md)
-      + [E-Mail-Generierung mit KI](email/generative-content.md)
-      + [SMS-Generierung mit KI](email/generative-sms.md)
-      + [Generierung von Push-Benachrichtigungen mit KI](email/generative-push.md)
-      + [Landingpage-Generierung mit KI](email/generative-lp.md)
-      + [Anwendungsfälle für den KI-Assistenten](email/generative-uc.md)
+      + [Arbeiten mit dem KI-Assistenten](content/generative-gs.md)
+      + [Best Practices für KI-Eingabeaufforderung](content/ai-assistant-prompting-guide.md)
+      + [Vollständige Inhaltserstellung mit KI](content/generative-full-content.md)
+      + [Textgenerierung mit KI](content/generative-text.md)
+      + [Bildgenerierung mit KI](content/generative-image.md)
+      + [Anwendungsfälle für den KI-Assistenten](content/generative-uc.md)
       + Marken {#ai-assistant}
          + [Erstellen und Verwalten von Marken](content/brands.md)
          + [Auswerten des Markenausrichtungswerts](content/brands-score.md)
