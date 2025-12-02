@@ -4,7 +4,7 @@ description: Erfahren Sie, wie Sie die Benutzerzugriffsverwaltung von Campaign S
 feature: Technote
 role: Admin
 exl-id: a7f333ba-0b84-47de-8f91-b6c8f3f3322a
-source-git-commit: 9354c07f173f67c23ce64e591f869bdd374c3334
+source-git-commit: 85ebbbe1e318cf0561b33d4c14250cded6ffbc65
 workflow-type: tm+mt
 source-wordcount: '1403'
 ht-degree: 3%
@@ -71,8 +71,8 @@ In Adobe Campaign Standard wird der Begriff **Benutzerrolle** in Campaign v8 **S
 >[!IMPORTANT]
 >
 >Organisationseinheiten in Adobe Campaign Standard ohne **Alle (alle)** als direkt oder indirekt übergeordnetes Element werden nicht nach Campaign v8 migriert.
->&#x200B;></br>
->&#x200B;>Benutzern in mehreren Sicherheitsgruppen wird die Organisationseinheit der höchsten Sicherheitsgruppe zugewiesen. Wenn mehrere Gruppen parallele Einheiten der obersten Ebene haben, wählt das System die Organisationseinheit für den Benutzer in Campaign Standard aus, und der Benutzer hätte nur Zugriff auf die vom System ausgewählte Organisationseinheit und deren untergeordnete Elemente. In Campaign v8 hätte der Benutzer nach der Migration Zugriff auf **alle zugewiesenen Organisationseinheiten und ihre untergeordneten Elemente** was zu einer möglichen Eskalation der Berechtigungen führen könnte. Um dies zu verhindern, vermeiden Sie die Zuweisung von Benutzern zu Sicherheitsgruppen mit parallelen Organisationseinheiten. Weitere Informationen über [parallele Zuweisung von Organisationseinheiten](#parallel-assignments).
+></br>
+>Benutzern in mehreren Sicherheitsgruppen wird die Organisationseinheit der höchsten Sicherheitsgruppe zugewiesen. Wenn mehrere Gruppen parallele Einheiten der obersten Ebene haben, wählt das System die Organisationseinheit für den Benutzer in Campaign Standard aus, und der Benutzer hätte nur Zugriff auf die vom System ausgewählte Organisationseinheit und deren untergeordnete Elemente. In Campaign v8 hätte der Benutzer nach der Migration Zugriff auf **alle zugewiesenen Organisationseinheiten und ihre untergeordneten Elemente** was zu einer möglichen Eskalation der Berechtigungen führen könnte. Um dies zu verhindern, vermeiden Sie die Zuweisung von Benutzern zu Sicherheitsgruppen mit parallelen Organisationseinheiten. Weitere Informationen über [parallele Zuweisung von Organisationseinheiten](#parallel-assignments).
 
 
 In Adobe Campaign Standard wird die **Organisationseinheit** dem in Campaign v8 vorhandenen **Ordner**-Hierarchiemodell zugeordnet, um eine ähnliche Zugriffssteuerung zu gewährleisten. [Weitere Informationen zur Ordnerverwaltung](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/admin/permissions/folder-permissions?lang=de)

@@ -2,10 +2,10 @@
 audience: end-user
 title: Generative Inhalte
 description: Erfahren Sie, wie Sie mit dem KI-Assistenten Textinhalte generieren können.
-source-git-commit: 336845c8d21a39c9f9124a5c6f7d0667cd111dcb
+source-git-commit: 2066f29b0867f82f2130361c8ccdb15889085886
 workflow-type: tm+mt
-source-wordcount: '1454'
-ht-degree: 40%
+source-wordcount: '1441'
+ht-degree: 39%
 
 ---
 
@@ -112,8 +112,6 @@ Bevor Sie mit der Generierung von Text mit dem KI-Assistenten für mobile Kanäl
 1. Mobile-Versand erstellen und konfigurieren:
    * **Push-Benachrichtigungen**: Nachdem Sie Ihren Push-Benachrichtigungs-Versand erstellt und konfiguriert haben, klicken Sie auf **[!UICONTROL Inhalt bearbeiten]**. [Weitere Informationen](../push/create-push.md)
    * **SMS**: Nachdem Sie Ihren SMS-Versand erstellt und konfiguriert haben, klicken Sie auf **[!UICONTROL Inhalt bearbeiten]**. [Weitere Informationen](../sms/create-sms.md)
-
-1. Geben Sie die **[!UICONTROL grundlegenden Details]** zu Ihrem Versand an. Klicken Sie abschließend auf **[!UICONTROL Inhalt bearbeiten]**.
 
 1. Personalisieren Sie Ihre Nachricht nach Bedarf:
    * **Push-Benachrichtigungen**: [Weitere Informationen](../push/content-push.md)

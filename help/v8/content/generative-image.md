@@ -2,10 +2,10 @@
 audience: end-user
 title: Generative Inhalte
 description: Erfahren Sie, wie Sie mit dem KI-Assistenten Bilder generieren
-source-git-commit: 336845c8d21a39c9f9124a5c6f7d0667cd111dcb
+source-git-commit: 2066f29b0867f82f2130361c8ccdb15889085886
 workflow-type: tm+mt
-source-wordcount: '1151'
-ht-degree: 46%
+source-wordcount: '1098'
+ht-degree: 47%
 
 ---
 
@@ -18,11 +18,11 @@ ht-degree: 46%
 >
 >Sie müssen einer [Benutzervereinbarung](https://www.adobe.com/de/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} zustimmen, bevor Sie den KI-Assistenten in Adobe Campaign Web verwenden können. Weitere Informationen erhalten Sie beim Adobe-Support.
 
-Verwenden Sie den KI-Assistenten in Adobe Campaign Web, um ansprechende visuelle Inhalte zu erstellen, mit denen Ihre Nachrichten in E-Mails, Web-Seiten, Landingpages und Push-Benachrichtigungen verbessert werden können. Der KI-Assistent hilft Ihnen, Bilder zu generieren und zu optimieren, um sicherzustellen, dass Ihr Inhalt visuell ansprechend und auf Ihre Marke abgestimmt ist.
+Verwenden Sie den KI-Assistenten in Adobe Campaign Web, um ansprechende visuelle Inhalte zu erstellen, die Ihre Nachrichten für E-Mails, Landingpages und Push-Benachrichtigungen optimieren. Der KI-Assistent hilft Ihnen, Bilder zu generieren und zu optimieren, um sicherzustellen, dass Ihr Inhalt visuell ansprechend und auf Ihre Marke abgestimmt ist.
 
 ## Für E-Mail und Landingpages {#email-web-channels}
 
-Der KI-Assistent kann vollständige visuelle Erlebnisse für Ihre E-Mail-Kampagnen und Landingpages generieren. Mit dieser Funktion können Sie markeninterne, aufmerksamkeitsstarke Bilder erstellen, die über digitale Touchpoints hinweg bei Ihrer Zielgruppe Anklang finden.
+Der KI-Assistent kann vollständige visuelle Erlebnisse für Ihre E-Mail-Sendungen und Landingpages generieren. Mit dieser Funktion können Sie markeninterne, aufmerksamkeitsstarke Bilder erstellen, die über digitale Touchpoints hinweg bei Ihrer Zielgruppe Anklang finden.
 
 ### Zugreifen auf und Konfigurieren {#access-configure}
 
@@ -68,6 +68,8 @@ Um mit dem Generieren von Bildern mit dem KI-Assistenten zu beginnen, richten Si
 
 ### Verfeinern und abschließen {#refine-finalize}
 
+Nachdem Sie Bildvarianten erstellt haben, können Sie die Ergebnisse überprüfen, die Markenausrichtung überprüfen und die beste Option für Ihren Inhalt auswählen.
+
 1. Durchsuchen Sie die generierte **[!UICONTROL Varianten]**.
 
 1. Klicken Sie auf das Prozentsymbol, um den **[!UICONTROL Markenausrichtungswert]** anzuzeigen und Abweichungen von Ihrer Marke zu ermitteln.
@@ -92,23 +94,13 @@ Um mit dem Generieren von Bildern mit dem KI-Assistenten zu beginnen, richten Si
 
 ## Für mobile Kanäle {#mobile-channels}
 
-Der KI-Assistent ermöglicht es Ihnen, ansprechenden Text für Push-Benachrichtigungen und SMS-Nachrichten zu generieren, sodass Sie eine mobile Kommunikation erstellen können, die die Aufmerksamkeit Ihrer Zielgruppe auf allen mobilen Touchpoints erfasst und sie anspricht.
+Der KI-Assistent ermöglicht es Ihnen, ansprechende Bilder für Push-Benachrichtigungen zu generieren, sodass Sie visuell ansprechende Mobilkommunikation erstellen können, die die Aufmerksamkeit Ihrer Zielgruppe auf sich zieht und sie anspricht.
 
 ### Zugreifen auf und Konfigurieren {#mobile-access-configure}
 
-Um mit der Generierung von Text für mobile Kanäle mit dem KI-Assistenten zu beginnen, richten Sie zunächst Ihren Versand ein und öffnen Sie den KI-Assistenten. Die Schritte für den Zugriff auf den KI-Assistenten unterscheiden sich geringfügig, je nachdem, ob Sie mit Push-Benachrichtigungen oder SMS-Nachrichten arbeiten.
+Um mit dem Generieren von Bildern für Push-Benachrichtigungen mit dem KI-Assistenten zu beginnen, richten Sie zunächst Ihren Versand ein und öffnen Sie den KI-Assistenten.
 
-1. Mobile-Versand erstellen und konfigurieren:
-
-   * **Push-Benachrichtigungen**: Nachdem Sie Ihren Push-Benachrichtigungs-Versand erstellt und konfiguriert haben, klicken Sie auf **[!UICONTROL Inhalt bearbeiten]**. [Weitere Informationen](../push/create-push.md)
-   * **SMS**: Nachdem Sie Ihren SMS-Versand erstellt und konfiguriert haben, klicken Sie auf **[!UICONTROL Inhalt bearbeiten]**. [Weitere Informationen](../sms/create-sms.md)
-
-1. Geben Sie die **[!UICONTROL grundlegenden Details]** zu Ihrem Versand an. Klicken Sie abschließend auf **[!UICONTROL Inhalt bearbeiten]**.
-
-1. Personalisieren Sie Ihre Nachricht nach Bedarf:
-
-   * **Push-Benachrichtigungen**: [Weitere Informationen](../push/content-push.md)
-   * **SMS**: [Weitere Informationen](../sms/content-sms.md)
+1. Nachdem Sie Ihren Push-Benachrichtigungs-Versand erstellt und konfiguriert haben, klicken Sie auf **[!UICONTROL Inhalt bearbeiten]**. [Weitere Informationen](../push/create-push.md)
 
 1. Rufen Sie das Menü **[!UICONTROL KI-Assistenten anzeigen]** auf.
 

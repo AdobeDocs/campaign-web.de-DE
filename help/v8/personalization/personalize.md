@@ -3,13 +3,14 @@ title: Personalisieren von Inhalten in Campaign
 description: Erfahren Sie, wie Sie Inhalte in Adobe Campaign Web personalisieren
 feature: Personalization
 topic: Personalization
-role: Data Engineer
+old-role: Data Engineer
+role: Developer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 85ebbbe1e318cf0561b33d4c14250cded6ffbc65
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '658'
+ht-degree: 100%
 
 ---
 
@@ -28,7 +29,7 @@ Die Personalisierung des Versands verbessert das Anwendererlebnis und die Intera
 
 ## Verwenden von Profildaten zur Personalisierung {#data-personalization}
 
-Personalisieren Sie jeden Versand mit Profildaten, indem Sie den Ausdruckseditor verwenden. Auf den Ausdruckseditor können Sie in allen Feldern mit dem Symbol **[!UICONTROL Personalisierungsdialog öffnen]** zugreifen, z. B. Betreffzeile, E-Mail-Links und Text-/Schaltflächen-Inhaltskomponenten. [Erfahren Sie, wie Sie auf den Ausdruckseditor zugreifen](gs-personalization.md/#access).
+Personalisieren Sie jeden Versand mit Profildaten, indem Sie den Ausdruckseditor verwenden. Auf den Ausdruckseditor können Sie in allen Feldern mit dem Symbol **[!UICONTROL Personalisierungsdialog öffnen]** zugreifen, z. B. Betreffzeile, E-Mail-Links und Text-/Schaltflächen-Inhaltskomponenten. [Erfahren Sie, wie Sie auf den Ausdruckseditor zugreifen](gs-personalization.md#access).
 
 ### Personalisierungssyntax {#syntax}
 
@@ -42,7 +43,7 @@ Beim Hochladen von Kontakten aus einer externen Datei für einen eigenständigen
 
 Gehen Sie wie folgt vor, um einem Versand Personalisierungs-Tags hinzuzufügen:
 
-1. Öffnen Sie den Ausdruckseditor mithilfe des Symbols **[!UICONTROL Personalisierungsdialog öffnen]**, auf das über Textbearbeitungsfelder (wie Betreffzeile oder SMS-Text) zugegriffen werden kann. [Erfahren Sie, wie Sie auf den Ausdruckseditor zugreifen](gs-personalization.md/#access).
+1. Öffnen Sie den Ausdruckseditor mithilfe des Symbols **[!UICONTROL Personalisierungsdialog öffnen]**, auf das über Textbearbeitungsfelder (wie Betreffzeile oder SMS-Text) zugegriffen werden kann. [Erfahren Sie, wie Sie auf den Ausdruckseditor zugreifen](gs-personalization.md#access).
 
    ![Screenshot, der zeigt, wie auf das Personalisierungsdialogfeld zugegriffen wird](assets/perso-access.png){zoomable="yes"}{width="800" align="center"}
 
