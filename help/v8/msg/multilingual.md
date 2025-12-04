@@ -16,7 +16,7 @@ ht-degree: 92%
 >title="Sprachen hinzufügen"
 >abstract="Auf dieser Registerkarte finden Sie eine Liste der Sprachen, in denen der Versand durchgeführt werden soll. Sie können weitere Sprachen hinzufügen, indem Sie auf die Schaltfläche „Sprache hinzufügen“ klicken oder über diese Registerkarte eine andere Sprache duplizieren."
 
-[!CONTEXTUALHELP]
+>[!CONTEXTUALHELP]
 >id=„ACW_MULTILINGUAL_FILE_UPLOAD“
 >title=„Sprachvarianten importieren“
 >abstract=„Verwenden Sie dieses Dialogfeld, um eine Sprachvariante hinzuzufügen, indem Sie eine CSV-Datei importieren. Die Datei füllt automatisch alle verfügbaren Felder für die ausgewählte Sprache. Sie können Ihre Datei per Drag-and-Drop ziehen oder vor der Bestätigung vom Computer auswählen.“
