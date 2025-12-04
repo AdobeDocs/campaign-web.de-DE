@@ -2,10 +2,10 @@
 audience: end-user
 title: Konfigurieren eines mehrsprachigen Versands
 description: Informationen zum Konfigurieren eines mehrsprachigen Versands
-source-git-commit: d8d78f97cdf99e67c59827a91c54851b1cbbeb16
+source-git-commit: e005c409a61748d99b70b2a99f4f4f89d4d6229e
 workflow-type: tm+mt
-source-wordcount: '586'
-ht-degree: 100%
+source-wordcount: '632'
+ht-degree: 92%
 
 ---
 
@@ -15,6 +15,11 @@ ht-degree: 100%
 >id="acw_deliveries_email_multilingual"
 >title="Sprachen hinzufügen"
 >abstract="Auf dieser Registerkarte finden Sie eine Liste der Sprachen, in denen der Versand durchgeführt werden soll. Sie können weitere Sprachen hinzufügen, indem Sie auf die Schaltfläche „Sprache hinzufügen“ klicken oder über diese Registerkarte eine andere Sprache duplizieren."
+
+[!CONTEXTUALHELP]
+>id=„ACW_MULTILINGUAL_FILE_UPLOAD“
+>title=„Sprachvarianten importieren“
+>abstract=„Verwenden Sie dieses Dialogfeld, um eine Sprachvariante hinzuzufügen, indem Sie eine CSV-Datei importieren. Die Datei füllt automatisch alle verfügbaren Felder für die ausgewählte Sprache. Sie können Ihre Datei per Drag-and-Drop ziehen oder vor der Bestätigung vom Computer auswählen.“
 
 In der Campaign Web-Benutzeroberfläche können Sie Ihre Sendungen als mehrsprachig einrichten, sodass Sie Nachrichten basierend auf der bevorzugten Sprache eines Profils senden können. Wenn keine Voreinstellung definiert ist, wird die Nachricht in der Standardsprache gesendet.
 

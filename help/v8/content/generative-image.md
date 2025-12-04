@@ -2,10 +2,10 @@
 audience: end-user
 title: Generative Inhalte
 description: Erfahren Sie, wie Sie mit dem KI-Assistenten Bilder generieren
-source-git-commit: 2066f29b0867f82f2130361c8ccdb15889085886
+source-git-commit: c51877d1926e1a8a6766ea1a5aa00f826071a3fc
 workflow-type: tm+mt
-source-wordcount: '1098'
-ht-degree: 47%
+source-wordcount: '1152'
+ht-degree: 45%
 
 ---
 
@@ -38,6 +38,8 @@ Um mit dem Generieren von Bildern mit dem KI-Assistenten zu beginnen, richten Si
    ![Screenshot mit Auswahl der Textkomponente in Adobe Campaign Web](assets/image-genai-1.png){zoomable="yes"}
 
 ### Inhalt erzeugen {#generate-content}
+
+Erfahren Sie, wie Sie mit dem KI-Assistenten effektive Eingabeaufforderungen erstellen und Bildeinstellungen konfigurieren können, um visuell überzeugende Bilder zu generieren. Passen Sie Parameter wie Seitenverhältnis, visuelle Intensität und Beleuchtung an, um Bilder zu erstellen, die Ihren Marken- und Kampagnenzielen entsprechen.
 
 1. Aktivieren Sie für den KI-Assistenten die Option **[!UICONTROL Referenzstil]**, um neue Inhalte basierend auf dem ausgewählten Inhalt zu personalisieren.
 
@@ -108,7 +110,7 @@ Um mit dem Generieren von Bildern für Push-Benachrichtigungen mit dem KI-Assist
 
 ### Inhalt erzeugen {#mobile-generate-content}
 
-Nach dem Zugriff auf den KI-Assistenten können Sie die Generierungseinstellungen anpassen, um Bilder zu erstellen, die Ihrer Marke entsprechen und Ihre Ziele unterstützen.
+Nach dem Zugriff auf den KI-Assistenten können Sie die Generierungseinstellungen anpassen, um Bilder zu erstellen, die Ihrer Marke entsprechen und Ihre Push-Benachrichtigungsziele unterstützen. Konfigurieren Sie die Eingabeaufforderung und Bildparameter, um für mobile Displays optimierte Visualisierungen zu generieren.
 
 1. Wählen Sie Ihre **[!UICONTROL Marke]** aus, um sicherzustellen, dass die von KI generierten Inhalte mit Ihren Markenspezifikationen übereinstimmen. [Weitere Informationen](brands.md) zu Marken.
 
