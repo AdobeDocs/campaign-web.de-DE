@@ -4,9 +4,9 @@ title: Erste Schritte mit dem KI-Assistenten
 description: Erste Schritte mit dem KI-Assistenten
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
 source-git-commit: 336845c8d21a39c9f9124a5c6f7d0667cd111dcb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '735'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ Der KI-Assistent vereinfacht die Erstellung und Durchführung von Marketing-Kamp
 
 ## Zugriff auf den KI-Assistenten {#generative-access}
 
-Der KI-Assistent für E-Mails, Push-Benachrichtigungen, Landingpages und SMS ist jetzt allgemein verfügbar (General Availability, GA) und steht allen Benutzern zur Verfügung. Die erforderlichen Berechtigungen und Schritte zum Gewähren des Zugriffs für Benutzende werden nachfolgend beschrieben.
+Der KI-Assistent für E-Mails, Push-Benachrichtigungen, Landingpages und SMS ist nun allgemein für alle Benutzenden verfügbar. Die erforderlichen Berechtigungen und Schritte zum Gewähren des Zugriffs für Benutzende werden nachfolgend beschrieben.
 
 +++ Erfahren Sie, wie Sie Berechtigungen für die Inhaltserstellung zuweisen
 
@@ -83,16 +83,16 @@ Die folgenden Einschränkungen gelten für den KI-Assistenten in Adobe Campaign 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="generative-full-content.md">
-<img alt="[Vollständige Inhaltserstellung mit KI-Assistenten]" src="assets/do-not-localize/text-genai.jpeg">
+<img alt="[Vollständige Inhaltsgenerierung mit dem KI-Assistenten]" src="assets/do-not-localize/text-genai.jpeg">
 </a>
 <div>
-<a href="generative-full-content.md"><strong>Vollständige Inhaltserstellung mit dem KI-Assistenten</strong></a>
+<a href="generative-full-content.md"><strong>Vollständige Inhaltsgenerierung mit dem KI-Assistenten</strong></a>
 </div>
 <p>
 </td>
 <td>
 <a href="generative-text.md">
-<img alt="[Generieren von Textinhalten mit dem KI-Assistenten]" src="assets/do-not-localize/image-genai.jpeg">
+<img alt="[Textgenerierung mit dem KI-Assistenten]" src="assets/do-not-localize/image-genai.jpeg">
 </a>
 <div><a href="generative-text.md"><strong>Textgenerierung mit dem KI-Assistenten</strong>
 </div>
@@ -100,10 +100,10 @@ Die folgenden Einschränkungen gelten für den KI-Assistenten in Adobe Campaign 
 </td>
 <td>
 <a href="generative-image.md">
-<img alt="[Bildgenerierung mit KI-Assistent]" src="assets/do-not-localize/email-genai.jpeg">
+<img alt="[Bildgenerierung mit dem KI-Assistenten]" src="assets/do-not-localize/email-genai.jpeg">
 </a>
 <div>
-<a href="generative-image.md"><strong>Bildgenerierung mit KI-Assistent</strong></a>
+<a href="generative-image.md"><strong>Bildgenerierung mit dem KI-Assistenten</strong></a>
 </div>
 <p></td>
 </tr></table>

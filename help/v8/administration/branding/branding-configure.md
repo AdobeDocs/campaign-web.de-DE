@@ -7,9 +7,9 @@ role: Admin
 level: Experienced
 exl-id: 7afc802d-e90c-48c8-aa04-3ea543dfdfbc
 source-git-commit: 8b93ddd9c655c9ca461f28392c70872e4005b44f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '548'
-ht-degree: 68%
+ht-degree: 100%
 
 ---
 
@@ -61,21 +61,21 @@ Eine **[!UICONTROL Marke]** wird durch die folgenden Eigenschaften definiert:
 
   Diese Parameter werden auf getrackte URLs angewendet, die mit einem in der **[!UICONTROL Liste der Domain-Namen]** angegebenen Domain-Namen übereinstimmen, der reguläre Ausdrücke enthalten kann.
 
-  **Beispiel:** Eine getrackte URL wie `https://www.example.com` wird `https://www.example.com/?age=21&deliveryName=DM101`, wenn die zusätzlichen Parameter `age=21` und `deliveryName=DM101` für diese Domain konfiguriert sind.
+  **Beispiel:** Eine nachverfolgte URL wie `https://www.example.com` wird `https://www.example.com/?age=21&deliveryName=DM101`, wenn die zusätzlichen Parameter `age=21` und `deliveryName=DM101` für diese Domain konfiguriert sind.
 
-## Konfigurieren des Brandings für Transaktionsnachrichten {#branding-transactional-config}
+## Konfigurieren von Branding für Transaktions-Messaging {#branding-transactional-config}
 
 >[!IMPORTANT]
 >
->Dieser Abschnitt gilt nur für Transaktionsnachrichten (Message Center).
+>Dieser Abschnitt gilt nur für Transaktions-Messaging (Message Center).
 >
->Auch wenn in der Web-Benutzeroberfläche von Campaign Transaktionsfunktionen verfügbar sind, müssen die folgenden Schritte in der Client-Konsole von Campaign v8 (Kontrollinstanz) ausgeführt werden.
+>Auch wenn in der Campaign Web-Benutzeroberfläche Transaktionsfunktionen verfügbar sind, müssen die nachfolgenden Schritte in der Client-Konsole von Campaign v8 (Kontrollinstanz) ausgeführt werden.
 
-Wenn Sie Transaktionsnachrichten (Message Center) mit Branding verwenden, ist eine zusätzliche Konfiguration erforderlich.
+Wenn Sie Transaktions-Messaging (Message Center) mit Branding verwenden, ist eine zusätzliche Konfiguration erforderlich.
 
-### Tracking-Formeln für Echtzeitinstanzen
+### Tracking-Formeln für Real-Time-Instanzen
 
-Wenn das Branding auf einer Echtzeit-Kontrollinstanz (RT) aktiviert wird, werden spezifische Tracking-Optionen zur Verwaltung von Tracking-Formeln verwendet. Diese Formeln werden zentral auf der RT-Kontrollinstanz und nicht einzeln auf jeder RT-Ausführungsinstanz konfiguriert.
+Wenn das Branding auf einer Real-Time-Kontrollinstanz (RT) aktiviert wird, werden spezifische Tracking-Optionen zur Verwaltung von Tracking-Formeln verwendet. Diese Formeln werden zentral auf der RT-Kontrollinstanz und nicht einzeln auf jeder RT-Ausführungsinstanz konfiguriert.
 
 Die folgenden Optionen definieren die von RT-Sendungen verwendeten Tracking-Formeln:
 
@@ -83,6 +83,6 @@ Die folgenden Optionen definieren die von RT-Sendungen verwendeten Tracking-Form
 
 * **`NmsTracking_RT_OpenFormula`**: gibt die Formel an, die für das Öffnungs-Tracking auf RT-Instanzen verwendet wird
 
-Wenn für Ihre Implementierung benutzerdefinierte Tracking-Formeln für Transaktionsnachrichten erforderlich sind, verwenden Sie die folgende Option:
+Wenn für Ihre Implementierung benutzerdefinierte Tracking-Formeln für Transaktions-Messaging erforderlich sind, verwenden Sie die folgende Option:
 
-* **`Branding_RT_ListXtkOptions_toPublish`**: Listen Sie hier die XTK-Optionsnamen für Ihre benutzerdefinierten Formeln auf (durch Kommas getrennt). Dadurch wird sichergestellt, dass RT-Sendungen die benutzerdefinierten Tracking-Formeln anwenden können.
+* **`Branding_RT_ListXtkOptions_toPublish`**: Listen Sie hier die XTK-Optionsnamen für Ihre benutzerdefinierten Formeln auf (durch Kommata getrennt). Dadurch wird sichergestellt, dass RT-Sendungen die benutzerdefinierten Tracking-Formeln anwenden können.

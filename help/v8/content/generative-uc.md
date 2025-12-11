@@ -3,9 +3,9 @@ title: Anwendungsfälle für den KI-Assistenten
 description: Erfahren Sie anhand von Anwendungsfällen, wie Sie den KI-Assistenten verwenden.
 exl-id: ead51ef0-f7ba-4bc4-8d4a-f6a6d1df6a0f
 source-git-commit: 2066f29b0867f82f2130361c8ccdb15889085886
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '635'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -115,11 +115,11 @@ Bereiten Sie den Versand vor, nachdem Sie Inhalt, Zielgruppe und Zeitplan defini
 
 1. Öffnen Sie das Menü **[!UICONTROL KI-Assistent]**.
 
-1. Passen Sie den Inhalt an, indem Sie Ihre gewünschte Anfrage in das Feld **[!UICONTROL Prompt]** auf Französisch, Spanisch, Deutsch, Italienisch, Japanisch, Schwedisch, Niederländisch oder Norwegisch eingeben.
+1. Passen Sie den Inhalt an, indem Sie Ihre gewünschte Anfrage auf Französisch, Spanisch, Deutsch, Italienisch, Japanisch, Schwedisch, Niederländisch oder Norwegisch in das Feld **[!UICONTROL Prompt]** eingeben.
 
-1. Passen Sie Ihre Eingabeaufforderung mit der Option **[!UICONTROL Texteinstellungen]** an und wählen Sie die gewünschten **[!UICONTROL Sprachen]** für Ihren generierten Inhalt aus.
+1. Passen Sie Ihren Prompt mit der Option **[!UICONTROL Texteinstellungen]** an und wählen Sie die gewünschten **[!UICONTROL Sprachen]** für Ihren generierten Inhalt aus.
 
-1. Personalisieren Sie Ihre Eingabeaufforderung nach Bedarf weiter und klicken Sie auf **[!UICONTROL Generieren]**.
+1. Personalisieren Sie Ihren Prompt nach Bedarf weiter und klicken Sie auf **[!UICONTROL Generieren]**.
 
 1. Überprüfen Sie die **[!UICONTROL Variantenvorschläge]** in Ihrer ausgewählten Sprache.
 

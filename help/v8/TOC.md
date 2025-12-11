@@ -6,9 +6,9 @@ title: Dokumentation zu Adobe Campaign Web
 description: Dokumentation zu Campaign Web
 breadcrumb-title: Campaign Web-Benutzeroberfläche
 source-git-commit: 336845c8d21a39c9f9124a5c6f7d0667cd111dcb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '953'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -130,8 +130,8 @@ ht-degree: 98%
       + [Erstellen von barrierefreien Inhalten](email/accessible-content.md)
    + KI-Assistent {#ai-assistant}
       + [Arbeiten mit dem KI-Assistenten](content/generative-gs.md)
-      + [Best Practices für KI-Eingabeaufforderung](content/ai-assistant-prompting-guide.md)
-      + [Vollständige Inhaltserstellung mit KI](content/generative-full-content.md)
+      + [Best Practices für KI-Prompts](content/ai-assistant-prompting-guide.md)
+      + [Vollständige Inhaltsgenerierung mit KI](content/generative-full-content.md)
       + [Textgenerierung mit KI](content/generative-text.md)
       + [Bildgenerierung mit KI](content/generative-image.md)
       + [Anwendungsfälle für den KI-Assistenten](content/generative-uc.md)
@@ -195,10 +195,10 @@ ht-degree: 98%
       + [Anreicherung](workflows/activities/enrichment.md)
       + [Externes Signal](workflows/activities/external-signal.md)
       + [Dateiextraktion](workflows/activities/extract-file.md)
-      + [Verzweigung &#x200B;](workflows/activities/fork.md)
+      + [Verzweigung ](workflows/activities/fork.md)
       + [Inkrementelle Abfrage](workflows/activities/incremental-query.md)
       + [JavaScript-Code](workflows/activities/javascript-code.md)
-      + [Datei laden &#x200B;](workflows/activities/load-file.md)
+      + [Datei laden ](workflows/activities/load-file.md)
       + [Abstimmung](workflows/activities/reconciliation.md)
       + [Zielgruppe speichern](workflows/activities/save-audience.md)
       + [Planung](workflows/activities/scheduler.md)
@@ -278,7 +278,7 @@ ht-degree: 98%
    + [Verwalten von Zielgruppen-Mappings](administration/target-mappings.md)
    + [Arbeiten mit Schemata](administration/schemas.md)
    + [Konfigurieren benutzerdefinierter Felder](administration/custom-fields.md)
-   + [Konfigurieren von Optionen in [!DNL Campaign] &#x200B;](administration/options.md)
+   + [Konfigurieren von Optionen in [!DNL Campaign] ](administration/options.md)
    + [Zeitzonenverwaltung](administration/timezone-management.md)
    + Externe Konten {#external-accounts}
       + [Erstellen externer Konten](administration/create-external-account.md)

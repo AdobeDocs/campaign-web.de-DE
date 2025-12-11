@@ -3,9 +3,9 @@ title: Verwalten von Zielgruppen-Mappings
 description: Erfahren Sie, wie Sie Zielgruppen-Mappings verwalten.
 exl-id: 144d5650-9632-4af3-b64e-f6e81503a621
 source-git-commit: 6bc40942166531d9adb94a9ce2a691ddd031a005
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '806'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -69,7 +69,7 @@ Um ein neues Zielgruppen-Mapping zu erstellen, rufen Sie das Menü **[!UICONTROL
 
 1. Wenn die ausgewählte Dimension noch nicht von einem vorhandenen Zielgruppen-Mapping verwendet wird, müssen die Schemata zum Speichern der Protokolle erstellt werden. Zusätzliche Optionen stehen im Abschnitt **[!UICONTROL Speicher]** zur Verfügung. Erweitern Sie den folgenden Abschnitt, um weitere Informationen zu erhalten.
 
-   +++Speicheroptionen für neue Zielgruppendimensionen
+   +++Speicheroptionen für neue Targeting-Dimensionen
 
    1. **[!UICONTROL Namespace]**: Identifizieren Sie den Namespace, der zum Erstellen der Protokolle verwendet wird.
    1. **[!UICONTROL Suffix des Erweiterungsschemas]**: Geben Sie ein Suffix für das neue Schema an.

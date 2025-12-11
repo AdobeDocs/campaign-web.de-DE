@@ -7,9 +7,9 @@ role: Admin
 level: Experienced
 exl-id: 8f6a5255-0245-497b-880f-d91ea82ee19e
 source-git-commit: 8b93ddd9c655c9ca461f28392c70872e4005b44f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '651'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -125,7 +125,7 @@ Gehen Sie wie folgt vor, um einen neuen eigenständigen Versand zu erstellen.
 
 1. Personalisieren Sie Ihre Sendungen weiter. Weitere Informationen zum Erstellen einer E-Mail finden Sie im Abschnitt [Entwerfen und Senden von E-Mails](../../email/create-email.md).
 
-1. Sie können mit den Personalisierungsfeldern auch Markeninformationen hinzufügen. Navigieren Sie zu **[!UICONTROL Branding]** und wählen Sie die markenbezogenen Gestaltungsbausteine aus, die Sie einfügen möchten (z. B. Markenname, Logo-URL, Website-URL, Absenderinformationen usw.).
+1. Sie können mit den Personalisierungsfeldern auch Markeninformationen hinzufügen. Navigieren Sie zu **[!UICONTROL Branding]** und wählen Sie die markenbezogenen Gestaltungsbausteine aus, die Sie einfügen möchten (z. B. Markenname, Logo-URL, Website-URL, Absenderinformationen usw.).
 
 >[!ENDTABS]
 
@@ -134,7 +134,7 @@ Gehen Sie wie folgt vor, um einen neuen eigenständigen Versand zu erstellen.
 
 >[!IMPORTANT]
 >
->Dieser Abschnitt gilt nur für Transaktionsnachrichten (Message Center).
+>Dieser Abschnitt gilt nur für Transaktions-Messaging (Message Center).
 >
 >Auch wenn in der Campaign Web-Benutzeroberfläche Transaktionsfunktionen verfügbar sind, müssen die nachfolgenden Verifizierungsschritte in der Client-Konsole von Campaign v8 (Kontrollinstanz) ausgeführt werden.
 

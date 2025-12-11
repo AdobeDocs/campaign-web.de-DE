@@ -3,9 +3,9 @@ title: Arbeiten mit vordefinierten Filtern
 description: Erfahren Sie, wie Sie in Adobe Campaign Web vordefinierte Filter erstellen und verwalten
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
 source-git-commit: b904870f256ec2eeac9a4e353ea8cb9d854524ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '936'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -28,8 +28,8 @@ ht-degree: 93%
 
 >[!CONTEXTUALHELP]
 >id="acw_predefined-filters-select"
->title="Filter speichern"
->abstract="Einen vorhandenen vordefinierten Filter auswählen. Vordefinierte Filter sind benutzerdefinierte Filter, die für zukünftige Verwendungen erstellt und gespeichert werden. Sie fungieren beim Filtern von Vorgängen mit dem Abfrage-Modeler als Verknüpfungen. Sie können beispielsweise beim Filtern einer Datenliste oder beim Erstellen der Zielgruppe eines Versands verwendet werden."
+>title="Speichern eines Filters"
+>abstract="Wählen Sie einen vorhandenen vordefinierten Filter aus. Vordefinierte Filter sind benutzerdefinierte Filter, die für zukünftige Verwendungen erstellt und gespeichert werden. Sie fungieren beim Filtern von Vorgängen mit dem Abfrage-Modeler als Verknüpfungen. Sie können beispielsweise beim Filtern einer Datenliste oder beim Erstellen der Zielgruppe eines Versands verwendet werden."
 
 Vordefinierte Filter sind benutzerdefinierte Filter, die für zukünftige Verwendungen erstellt und gespeichert werden. Sie fungieren beim Filtern von Vorgängen mit dem Abfrage-Modeler als Verknüpfungen. Sie können beispielsweise beim Filtern einer Datenliste oder beim Erstellen der Zielgruppe eines Versands verwendet werden.
 
@@ -51,8 +51,8 @@ Sie können vorhandene integrierte Filter verwenden, um auf eine bestimmte Teilm
 
 >[!CONTEXTUALHELP]
 >id="acw_predefined-filters-save"
->title="Filter speichern"
->abstract="Auf diesem Bildschirm können Sie Ihre Regel als vordefinierten Filter speichern. Sie können entweder einen neuen vordefinierten Filter erstellen oder einen vorhandenen Filter überschreiben. Um den Filter als Favorit zu speichern, aktivieren Sie die Option **[!UICONTROL Favoritenfilter]** . Sie können auch die Option **[!UICONTROL Freigegebener Filter]** aktivieren, um den Filter für andere Benutzer zugänglich zu machen."
+>title="Speichern eines Filters"
+>abstract="Über diesen Bildschirm können Sie Ihre Regel als vordefinierten Filter speichern. Sie können entweder einen neuen vordefinierten Filter erstellen oder einen vorhandenen Filter überschreiben. Um den Filter als Favoriten zu speichern, aktivieren Sie die Option **[!UICONTROL Bevorzugte Filter]**. Sie können auch die Option **[!UICONTROL Freigegebener Filter]** aktivieren, um den Filter für andere Benutzende zugänglich zu machen."
 
 ### Erstellen eines Filters mit dem Abfrage-Modeler {#create-from-rule-builder}
 

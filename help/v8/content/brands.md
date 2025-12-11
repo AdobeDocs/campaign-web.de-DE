@@ -4,9 +4,9 @@ title: Verwalten einer Marke
 description: Erfahren Sie, wie Sie Ihre Markenrichtlinien erstellen und verwalten.
 exl-id: d4d2c6bb-7fd0-49a0-9d73-356f4a24f021
 source-git-commit: 2066f29b0867f82f2130361c8ccdb15889085886
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1420'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ In [!DNL Adobe Campaign Web] können Benutzende Markeninformationen manuell eing
 
 ## Zugriff auf Marken {#generative-access}
 
-Für den Zugriff auf das Menü **[!UICONTROL Marken]** in [!DNL Adobe Campaign Web] müssen Benutzenden die Produktprofile **[!UICONTROL Administrator (admin)]** und **[!UICONTROL Marken-Kit]** zugewiesen werden, damit sie Marken erstellen und verwalten können. Für den schreibgeschützten Zugriff benötigen Benutzende das Produktprofil [!UICONTROL KI]Assistent“. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/admin/permissions/manage-permissions)
+Für den Zugriff auf das Menü **[!UICONTROL Marken]** in [!DNL Adobe Campaign Web] müssen Benutzenden die Produktprofile **[!UICONTROL Administrator (admin)]** und **[!UICONTROL Marken-Kit]** zugewiesen werden, damit sie Marken erstellen und verwalten können. Für den schreibgeschützten Zugriff benötigen Benutzende das Produktprofil [!UICONTROL KI-Assistent]. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/admin/permissions/manage-permissions)
 
 +++ Erfahren Sie, wie Sie markenbezogene Berechtigungen zuweisen.
 
@@ -239,20 +239,20 @@ So personalisieren Sie den **[!UICONTROL Schreibstil]**:
 
 1. Klicken Sie auf der Registerkarte **[!UICONTROL Schreibstil]** auf ![](assets/do-not-localize/Smock_Add_18_N.svg), um eine Richtlinie, eine Ausnahme oder einen Ausschluss hinzuzufügen.
 
-1. Geben Sie Richtlinie, Ausnahme oder Ausschluss ein. Sie können auch &quot;**[!UICONTROL &quot;]**, um die Anwendung besser zu veranschaulichen.
+1. Geben Sie die Richtlinie, die Ausnahme oder den Ausschluss ein. Sie können auch **[!UICONTROL Beispiele]** hinzufügen, um die Anwendung besser zu veranschaulichen.
 
    ![](assets/brands-3.png)
 
-1. Geben Sie den **[!UICONTROL Nutzungskontext]** für Ihre Richtlinie, Ausnahme oder Ausschluss an:
+1. Geben Sie den **[!UICONTROL Verwendungskontext]** für die Richtlinie, die Ausnahme oder den Ausschluss an:
 
-   * **[!UICONTROL Kanaltyp]**: Wählen Sie aus, wo diese Richtlinie, Ausnahme oder Ausnahme gelten soll. Beispielsweise soll ein bestimmter Schreibstil nur in E-Mail-, Mobile-, Druck- oder anderen Kommunikationskanälen angezeigt werden.
+   * **[!UICONTROL Kanaltyp]**: Wählen Sie aus, wo die Richtlinie, die Ausnahme oder der Ausschluss gelten soll. Beispielsweise soll möglicherweise ein bestimmter Schreibstil nur in E-Mail-, Mobile-, Print- oder anderen Kommunikationskanälen verwendet werden.
 
-   * **[!UICONTROL Elementtyp]**: Geben Sie an, für welches Inhaltselement die Regel gilt. Dazu können Elemente wie Überschriften, Schaltflächen, Links oder andere Komponenten in Ihrem Inhalt gehören.
+   * **[!UICONTROL Elementtyp]**: Geben Sie an, für welches Inhaltselement die Regel gilt. Das können Elemente wie Überschriften, Schaltflächen, Links oder andere Komponenten in Ihrem Inhalt sein.
 
    ![](assets/brands-16.png)
 
-1. Nachdem Sie Ihre Richtlinie, Ausnahme oder Ausnahme eingerichtet haben, klicken Sie auf **[!UICONTROL Hinzufügen]**.
-1. Wählen Sie bei Bedarf eine der Richtlinien oder einen Ausschluss aus, die aktualisiert oder gelöscht werden sollen.
+1. Nachdem Sie die Richtlinie, die Ausnahme oder den Ausschluss eingerichtet haben, klicken Sie auf **[!UICONTROL Hinzufügen]**.
+1. Wählen Sie bei Bedarf eine Richtlinie oder einen Ausschluss zum Aktualisieren oder Löschen aus.
 
 1. Klicken Sie auf ![ALT-Text des Bildes](assets/do-not-localize/Smock_Edit_18_N.svg "Bearbeiten"), um Ihr Beispiel zu bearbeiten, oder auf das Symbol ![ALT-Text des Bildes](assets/do-not-localize/Smock_Delete_18_N.svg "Löschen"), um es zu löschen.
 
@@ -305,19 +305,19 @@ So personalisieren Sie **[!UICONTROL visuelle Inhalte]**:
 
 1. Klicken Sie auf der Registerkarte **[!UICONTROL Visueller Inhalt]** auf ![](assets/do-not-localize/Smock_Add_18_N.svg), um eine Richtlinie, einen Ausschluss oder ein Beispiel hinzuzufügen.
 
-1. Geben Sie Ihre Richtlinie, Ihren Ausschluss oder Ihr Beispiel ein.
+1. Geben Sie die Richtlinie, den Ausschluss oder das Beispiel ein. 
 
    ![Schaltfläche „Ausschluss oder Beispiel hinzufügen“](assets/brands-4.png)
 
-1. Geben Sie den **[!UICONTROL Nutzungskontext]** für Ihre Richtlinie oder Ihren Ausschluss an:
+1. Geben Sie den **[!UICONTROL Verwendungskontext]** für die Richtlinie oder den Ausschluss an:
 
-   * **[!UICONTROL Kanaltyp]**: Wählen Sie aus, wo diese Richtlinie, Ausnahme oder Ausnahme gelten soll. Beispielsweise soll ein bestimmter Schreibstil nur in E-Mail-, Mobile-, Druck- oder anderen Kommunikationskanälen angezeigt werden.
+   * **[!UICONTROL Kanaltyp]**: Wählen Sie aus, wo die Richtlinie, die Ausnahme oder der Ausschluss gelten soll. Beispielsweise soll möglicherweise ein bestimmter Schreibstil nur in E-Mail-, Mobile-, Print- oder anderen Kommunikationskanälen verwendet werden.
 
-   * **[!UICONTROL Elementtyp]**: Geben Sie an, für welches Inhaltselement die Regel gilt. Dazu können Elemente wie Überschriften, Schaltflächen, Links oder andere Komponenten in Ihrem Inhalt gehören.
+   * **[!UICONTROL Elementtyp]**: Geben Sie an, für welches Inhaltselement die Regel gilt. Das können Elemente wie Überschriften, Schaltflächen, Links oder andere Komponenten in Ihrem Inhalt sein.
 
-     ![Nutzungsinhalt hinzufügen](assets/brands-17.png)
+     ![Hinzufügen von Verwendungsinhalt](assets/brands-17.png)
 
-1. Nachdem Sie Ihre Richtlinie, Ausnahme oder Ausnahme eingerichtet haben, klicken Sie auf **[!UICONTROL Hinzufügen]**.
+1. Nachdem Sie die Richtlinie, die Ausnahme oder den Ausschluss eingerichtet haben, klicken Sie auf **[!UICONTROL Hinzufügen]**.
 
 1. Um ein Bild hinzuzufügen, das die korrekte Verwendung zeigt, wählen Sie **[!UICONTROL Beispiel]** und klicken Sie auf **[!UICONTROL Bild auswählen]**. Sie können auch ein Bild mit falscher Verwendung als Ausschlussbeispiel hinzufügen.
 
