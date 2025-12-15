@@ -14,7 +14,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_multilingual"
 >title="Sprachen hinzufügen"
->abstract="Auf dieser Registerkarte finden Sie eine Liste der Sprachen, in denen der Versand durchgeführt werden soll. Sie können weitere Sprachen hinzufügen, indem Sie auf die Schaltfläche „Sprache hinzufügen“ klicken oder über diese Registerkarte eine andere Sprache duplizieren."
+>abstract="Auf dieser Registerkarte befindet sich eine Liste der Sprachen, in denen der Versand durchgeführt werden soll. Es können weitere Sprachen hinzufügt werden, indem auf die Schaltfläche „Sprache hinzufügen“ geklickt oder über diese Registerkarte eine andere Sprache dupliziert wird."
 
 >[!CONTEXTUALHELP]
 >id="acw_multilingual_file_upload"
