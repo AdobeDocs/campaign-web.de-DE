@@ -38,11 +38,11 @@ Gehen Sie wie folgt vor, um einen eigenständigen, benutzerdefinierten Versand d
 
 Zunächst müssen Sie den benutzerdefinierten Kanal konfigurieren. Im Folgenden finden Sie die wichtigsten Schritte, die in der Client-Konsole ausgeführt werden müssen. Diese Schritte gelten für benutzerdefinierte externe Kanäle und API-Kanäle:
 
-1. Konfigurieren Sie das Schema, um den neuen Kanal zur Liste der verfügbaren Kanäle hinzuzufügen. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/other-channels/custom-channel.html#configure-schema){target="_blank"}
-1. Erstellen Sie ein neues externes Konto „Routing“. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/other-channels/custom-channel.html#create-ext-account){target="_blank"}
-1. Erstellen Sie eine neue Versandvorlage, die mit dem neuen Kanal verknüpft ist. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/other-channels/custom-channel.html#create-template){target="_blank"}
+1. Konfigurieren Sie das Schema, um den neuen Kanal zur Liste der verfügbaren Kanäle hinzuzufügen. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/other-channels/custom-channel.html?lang=de#configure-schema){target="_blank"}
+1. Erstellen Sie ein neues externes Konto „Routing“. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/other-channels/custom-channel.html?lang=de#create-ext-account){target="_blank"}
+1. Erstellen Sie eine neue Versandvorlage, die mit dem neuen Kanal verknüpft ist. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/other-channels/custom-channel.html?lang=de#create-template){target="_blank"}
 
-Benutzerdefinierte API-Kanäle erfordern eine zusätzliche Konfiguration. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/other-channels/custom-channel.html#api-additional){target="_blank"}
+Benutzerdefinierte API-Kanäle erfordern eine zusätzliche Konfiguration. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/other-channels/custom-channel.html?lang=de#api-additional){target="_blank"}
 
 ## Erstellen des Versands{#create-delivery}
 
@@ -90,7 +90,7 @@ Bearbeiten wir nun den Inhalt des Versands.
 
 1. Klicken Sie im Versand-Dashboard auf die Schaltfläche **[!UICONTROL Inhalt bearbeiten]**.
 
-1. Füllen Sie die Felder nach Bedarf aus. Informationen zur Einrichtung dieses Bildschirms finden Sie auf dieser [Seite](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/other-channels/custom-channel.html#api-additional-screen){target="_blank"}.
+1. Füllen Sie die Felder nach Bedarf aus. Informationen zur Einrichtung dieses Bildschirms finden Sie auf dieser [Seite](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/other-channels/custom-channel.html?lang=de#api-additional-screen){target="_blank"}.
 
    ![Screenshot mit den Konfigurationsoptionen für Attribute für den API-Kanal.](assets/cc-content-attributes-api.png)
 
@@ -118,7 +118,7 @@ Wenn der Versandinhalt fertig ist, können Sie ihn mithilfe von Testprofilen in 
 
 1. Klicken Sie auf der Seite mit dem Versandinhalt auf die Schaltfläche **[!UICONTROL Inhalte simulieren]** und wählen Sie „Testprofile“ aus.
 
-1. Klicken Sie auf der rechten Seite auf **Vorschau öffnen**. Diese Funktion muss mithilfe von JSSP konfiguriert werden. Mehr dazu erfahren Sie auf [dieser Seite](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/other-channels/custom-channel.html#api-additional-preview){target="_blank"}.
+1. Klicken Sie auf der rechten Seite auf **Vorschau öffnen**. Diese Funktion muss mithilfe von JSSP konfiguriert werden. Mehr dazu erfahren Sie auf [dieser Seite](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/other-channels/custom-channel.html?lang=de#api-additional-preview){target="_blank"}.
 
    ![Screenshot mit der Option „Inhalte simulieren“ auf der Seite für den Versandinhalt für API](assets/cus-simulate-api.png){zoomable="yes"}
 
