@@ -3,7 +3,7 @@ audience: end-user
 title: Erstellen von Kampagnen mit Adobe Campaign Web
 description: Erfahren Sie, wie Sie mit Adobe Campaign Web Cross-Channel-Kampagnen erstellen
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: f1fe8e08401f6ad98ab6920c9ae33fa6336c209d
 workflow-type: tm+mt
 source-wordcount: '454'
 ht-degree: 100%
@@ -35,7 +35,7 @@ Um eine neue Kampagne zu erstellen, gehen Sie folgendermaßen vor:
 1. Wählen Sie die zu verwendende **Vorlage** aus und geben Sie ein Label für die Kampagne ein. [Weitere Informationen](manage-campaigns.md#manage-campaign-templates)
 1. Ändern Sie bei bei Bedarf die folgenden **zusätzlichen Optionen**: interner Name, Ordner, Zuweisung, Beschreibung und Art.
 1. Definieren Sie den **Zeitplan** für Ihre Kampagne. Erfahren Sie in [diesem Abschnitt](#campaign-schedule), wie Sie Ihre Kampagnenplanung festlegen.
-1. Klicken Sie auf **Erstellen**.
+1. Wählen Sie **Erstellen** aus.
 
    ![Screenshot mit dem Bildschirm mit den Kampagneneigenschaften, einschließlich der Felder für internen Namen, Ordner, Zuweisung, Beschreibung und Art.](assets/create-a-campaign-properties.png)
 
