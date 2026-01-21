@@ -3,10 +3,10 @@ audience: end-user
 title: Arbeiten mit Workflow-Aktivitäten
 description: Erfahren Sie, wie Sie Workflow-Aktivitäten durchführen.
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 61f3a2bff32bba1e202d3e811e9f116f3987c191
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 100%
+source-wordcount: '562'
+ht-degree: 96%
 
 ---
 
@@ -18,11 +18,11 @@ Alle Aktivitäten werden in den folgenden Abschnitten beschrieben:
 
 * [Zielgruppenbestimmungs- und Daten-Management-Aktivitäten](#targeting)
 * [Kanalaktivitäten](#channel)
-* [Aktivitäten zur Flusskontrolle](#flow-control)
+* [Flusssteuerungsaktivitäten](#flow-control)
 
 ![Überblick über die Workflow-Aktivitäten](../assets/workflow-activities.png)
 
-## Zielgruppenbestimmungs-Aktivitäten {#targeting}
+## Zielgruppenbestimmungsaktivitäten {#targeting}
 
 Diese Aktivitäten sind spezifisch für die Zielgruppenbestimmung. Sie ermöglichen es Ihnen, eine oder mehrere Zielgruppen zu erstellen, indem Sie eine Zielgruppe definieren und diese Zielgruppen mithilfe von Schnittmenge, Vereinigung oder Ausschluss aufteilen oder kombinieren.
 
@@ -52,12 +52,17 @@ Diese Aktivitäten dienen der Manipulation und Anreicherung von Populationsdaten
 
 In Adobe Campaign Web können Sie Marketing-Kampagnen automatisieren und über mehrere Kanäle hinweg ausführen. Kombinieren Sie Kanalaktivitäten in den Arbeitsflächen, um Cross-Channel-Workflows zu erstellen, mit denen je nach Kundenverhalten Aktionen ausgelöst werden können. Es sind folgende **Kanalaktivitäten** verfügbar: E-Mail-, SMS-, Android- und iOS-Push-Benachrichtigungen. [Erfahren Sie, wie Sie einen Versand im Rahmen eines Workflows einrichten.](channels.md).
 
-## Aktivitäten zur Flusskontrolle {#flow-control}
+## Flusssteuerungsaktivitäten {#flow-control}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_end"
 >title="Endaktivität"
 >abstract="Mit der Aktivität **Ende** können Sie das Ende eines Workflows grafisch markieren. Diese Aktivität hat keine funktionalen Auswirkungen und ist daher optional."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_signal"
+>title="Externes Signal"
+>abstract="Platzhalter für den Abschnitt „Externes Signal“ in den Parametern der Endaktivität. Nur für koordinierte Kampagnen verfügbar. KEINE DELETE"
 
 Die folgenden Aktivitäten dienen der Anordnung und Ausführung von Workflows. Ihre Hauptaufgabe ist es, die anderen Aktivitäten zu koordinieren:
 
