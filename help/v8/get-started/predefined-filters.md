@@ -3,7 +3,7 @@ title: Arbeiten mit vordefinierten Filtern
 description: Erfahren Sie, wie Sie in Adobe Campaign Web vordefinierte Filter erstellen und verwalten
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
 source-git-commit: b904870f256ec2eeac9a4e353ea8cb9d854524ee
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '936'
 ht-degree: 100%
 
@@ -56,7 +56,7 @@ Sie können vorhandene integrierte Filter verwenden, um auf eine bestimmte Teilm
 
 ### Erstellen eines Filters mit dem Abfrage-Modeler {#create-from-rule-builder}
 
-Speichern Sie einen benutzerdefinierten Filter im [Abfrage-Modeler](../query/query-modeler-overview.md), damit er für zukünftige Verwendungen verfügbar ist. Gehen Sie dazu wie folgt vor:
+Speichern Sie einen benutzerdefinierten Filter im [Abfrage-Modeler](../query/query-modeler-overview.md), damit er für zukünftige Verwendungen verfügbar ist. Führen Sie folgende Schritte aus:
 
 1. Öffnen Sie den Abfrage-Modeler und definieren Sie Ihre Filterbedingungen. Im folgenden Beispiel werden Empfängerinnen und Empfänger gefiltert, die in Madrid leben und einen Newsletter abonniert haben.
 1. Klicken Sie auf die Schaltfläche **Filter auswählen oder speichern** und wählen Sie **Als Filter speichern**.
@@ -75,7 +75,7 @@ Ihr benutzerdefinierter Filter ist jetzt in der Liste der **vordefinierten Filte
 
 ### Erstellen eines Filters in der Filterliste {#create-filter-from-list}
 
-Erstellen Sie einen Filter im linken Menü über den Eintrag **Vordefinierte Filter**. Gehen Sie dazu wie folgt vor:
+Erstellen Sie einen Filter im linken Menü über den Eintrag **Vordefinierte Filter**. Führen Sie folgende Schritte aus:
 
 1. Navigieren Sie im linken Menü zum Eintrag **Vordefinierte Filter**.
 1. Klicken Sie auf die Schaltfläche **Erstellen**.

@@ -14,7 +14,7 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_and-join"
->title="Aktivität &quot;Und-Verknüpfung&quot;"
+>title="Aktivität &quot;UND-Verknüpfung&quot;"
 >abstract="Die Aktivität **Und-Verknüpfung** ermöglicht es, die Ausführung verschiedener Workflow-Verzweigungen zu synchronisieren. Sie wird ausgelöst, sobald alle vorangehenden Aktivitäten beendet sind. Auf diese Weise wird sichergestellt, dass bestimmte Aktivitäten abgeschlossen sind, bevor Sie mit der Ausführung des Workflows fortfahren."
 
 Die Aktivität **Und-Verknüpfung** ist eine Aktivität zur **Flusskontrolle**. Sie synchronisiert mehrere Ausführungszweige eines Workflows.

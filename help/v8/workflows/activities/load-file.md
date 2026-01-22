@@ -10,7 +10,7 @@ ht-degree: 99%
 
 ---
 
-# Datei laden  {#load-file}
+# Datei laden {#load-file}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile"
@@ -65,7 +65,7 @@ Führen Sie diese Schritte aus, um die Beispieldatei zu konfigurieren, mit der d
 
    >[!NOTE]
    >
-   >Die Daten der Beispieldatei werden für die Konfiguration der Aktivität verwendet, aber nicht importiert. Verwenden Sie eine Beispieldatei mit einer geringen Anzahl an Daten. Das Dateiformat muss [dieser Beispieldatei](../../audience/file-audience.md#sample-file) entsprechen.
+   >Die Daten der Beispieldatei werden für die Konfiguration der Aktivität verwendet aber nicht importiert. Verwenden Sie eine Beispieldatei mit einer geringen Anzahl an Daten. Das Dateiformat muss [dieser Beispieldatei](../../audience/file-audience.md#sample-file) entsprechen.
 
 1. Es wird eine Vorschau der Beispieldatei mit maximal 30 Zeilen angezeigt.
 

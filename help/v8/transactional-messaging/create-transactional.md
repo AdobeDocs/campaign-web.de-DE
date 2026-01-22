@@ -5,8 +5,8 @@ description: Informationen zum Erstellen einer Transaktionsnachricht in der Camp
 exl-id: 74e468f5-d9c3-4470-8ff2-68648b5f396f
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1312'
+ht-degree: 100%
 
 ---
 
@@ -119,7 +119,7 @@ Der Kontextinhalt hängt von der benötigten Personalisierung ab.
 
 >[!CONTEXTUALHELP]
 >id="acw_personalization_editor_event_context"
->title="Ereigniskontext"
+>title="Event context"
 >abstract="Dieses Menü enthält Variablen aus dem Trigger-Ereignis, die Sie zur Personalisierung Ihres Transaktionsnachrichteninhalts nutzen können."
 
 Die Bearbeitung des Inhalts einer Transaktionsnachricht ist ähnlich wie die Inhaltserstellung für einen Versand. Klicken Sie auf **[!UICONTROL E-Mail-Designer öffnen]** oder **[!UICONTROL E-Mail-Text bearbeiten]** und wählen Sie einen Vorlageninhalt aus oder importieren Sie Ihren HTML-Code.

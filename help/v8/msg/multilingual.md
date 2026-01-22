@@ -3,7 +3,7 @@ audience: end-user
 title: Konfigurieren eines mehrsprachigen Versands
 description: Informationen zum Konfigurieren eines mehrsprachigen Versands
 source-git-commit: 50a798abea166e89d58e8e46eb55590333071ef0
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '628'
 ht-degree: 100%
 

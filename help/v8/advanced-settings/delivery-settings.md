@@ -12,7 +12,7 @@ ht-degree: 100%
 ---
 
 
-# Konfigurieren der Versandeinstellungen {#del-settings}
+# Versandeinstellungen konfigurieren {#del-settings}
 
 Bei den Versandeinstellungen handelt es sich um **technische Versandparameter**, die in der Versandvorlage definiert sind. Sie können bei jedem Versand überschrieben werden.  Diese Einstellungen sind über die Schaltfläche **Einstellungen** verfügbar, wenn ein Versand oder eine Versandvorlage bearbeitet wird.
 
@@ -24,7 +24,7 @@ Bei den Versandeinstellungen handelt es sich um **technische Versandparameter**,
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_typology"
->title="Typologie"
+>title="Typology"
 >abstract="Typologien ermöglichen es Ihnen, Geschäftspraktiken über alle Sendungen hinweg zu standardisieren. Eine Typologie ist eine Sammlung von Typologieregeln, mit denen der Versand von Sendungen gesteuert, gefiltert und priorisiert werden kann. Profile, die den Kriterien einer Typologieregel entsprechen, werden in der Vorbereitungsphase von den Versandzielgruppen ausgeschlossen."
 
 >[!CONTEXTUALHELP]
@@ -60,7 +60,7 @@ Im Feld **[!UICONTROL Gewichtungstyp]** stehen drei Optionen zur Verfügung:
 * **[!UICONTROL Empfängerabhängig]**
 * **[!UICONTROL Wird in jeder Regel definiert]**
 
-Verwenden Sie das Feld **[!UICONTROL Versandgewichtung]**, um die Versandpriorität zu definieren. Jeder Versand verfügt über eine Gewichtung, die die jeweilige Priorität darstellt. Standardmäßig ist die Versandgewichtung auf den Wert 5 festgelegt. Mit Druckregeln können Sie die Gewichtung der Sendungen festlegen, auf die sie angewendet werden. Die Gewichtung kann konstant sein oder mithilfe einer Formel empfängerabhängig berechnet werden. Beispielsweise kann die Gewichtung eines Versands den Interessen eines Empfängers bzw. einer Empfängerin entsprechend bestimmt werden.
+Verwenden Sie das Feld **[!UICONTROL Versandgewichtung]**, um die Versandpriorität zu definieren. Jeder Versand verfügt über eine Gewichtung, die die jeweilige Priorität darstellt. Standardmäßig ist die Versandgewichtung auf den Wert 5 festgelegt. Mit Druckregeln können Sie die Gewichtung der Sendungen festlegen, auf die sie angewendet werden. Die Gewichtung kann konstant sein oder mithilfe einer Formel empfängerabhängig berechnet werden. Beispielsweise kann die Gewichtung eines Versands den Interessen eines Empfängers entsprechend bestimmt werden.
 
 Verwenden Sie das Feld **[!UICONTROL Versandmodus]**, um den Zielgruppenauswertungsmodus auszuwählen.
 
@@ -146,7 +146,7 @@ Bei E-Mails können Sie auch die **[!UICONTROL Mail-Formate]** der gesendeten Na
 
 * **[!UICONTROL Alle Nachrichten im Textformat senden]**: Die E-Mail wird im Textformat gesendet.  Das HTML-Format wird nicht gesendet, sondern lediglich für die Mirrorseite verwendet, wenn die Empfängerin bzw. der Empfänger auf die Nachricht klickt.
 
-## Web-Analyse {#web-analytics}
+## Web Analytics {#web-analytics}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_webanalytics"
@@ -197,7 +197,7 @@ Sie können im entsprechenden Feld einen anderen Validierungsmodus auswählen. F
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_validity"
 >title="Gültigkeit der Einstellungen"
->abstract="Im Feld **Versandlaufzeit** können Sie die Zeitspanne angeben, während der erneute Zustellversuche unternommen werden. Dies bedeutet konkret, dass Adobe Campaign die Nachrichten ab dem Startdatum versendet und bis zum Ablauf der angegebenen Spanne nicht zustellbare Nachrichten in regelmäßigen Abständen erneut sendet.<br>Das Feld **Gültigkeit von Ressourcen** wird für hochgeladene Ressourcen verwendet, wie etwa die Mirrorseite oder Bilder. Nach Erreichen des Grenzwerts sind keine Ressourcen mehr verfügbar."
+>abstract="Im Feld **Versandlaufzeit** kann die Zeitspanne angegeben werden, in der erneute globale Zustellversuche unternommen werden. Dies bedeutet konkret, dass Adobe Campaign die Nachrichten ab dem Startdatum versendet und bis zum Ablauf der angegebenen Spanne nicht zustellbare Nachrichten in regelmäßigen Abständen erneut sendet.<br>Das Feld **Gültigkeit von Ressourcen** wird für hochgeladene Ressourcen verwendet, wie etwa die Mirrorseite oder Bilder. Nach Erreichen des Grenzwerts sind keine Ressourcen mehr verfügbar."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_resources_validity"
@@ -207,7 +207,7 @@ Sie können im entsprechenden Feld einen anderen Validierungsmodus auswählen. F
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_delivery_duration"
 >title="Versandlaufzeit"
->abstract="Im Feld **Versandlaufzeit** können Sie die Zeitspanne angeben, während der erneute Zustellversuche unternommen werden. Dies bedeutet konkret, dass Adobe Campaign die Nachrichten ab dem Startdatum versendet und bis zum Ablauf der angegebenen Spanne nicht zustellbare Nachrichten in regelmäßigen Abständen erneut sendet."
+>abstract="Im Feld **Versandlaufzeit** kann die Zeitspanne angegeben werden, in der erneute globale Zustellversuche unternommen werden. Dies bedeutet konkret, dass Adobe Campaign die Nachrichten ab dem Startdatum versendet und bis zum Ablauf der angegebenen Spanne nicht zustellbare Nachrichten in regelmäßigen Abständen erneut sendet."
 
 <!--
 >[!CONTEXTUALHELP]
@@ -411,7 +411,7 @@ Werte werden bei Bedarf automatisch verschlüsselt.
 >
 >Das Hinzufügen eines Scripts für zusätzliche SMTP-Header ist eine Aufgabe für erfahrene Benutzer. Die Syntax des Scripts muss die Anforderungen für diesen Inhaltstyp (keine überflüssigen Leerzeichen, keine Leerzeilen usw.) erfüllen.
 
-## Hinzufügen von Variablen {#variables-delivery}
+## Variablen hinzufügen {#variables-delivery}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_settings_variable"

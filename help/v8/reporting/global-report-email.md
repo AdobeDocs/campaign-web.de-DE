@@ -276,7 +276,7 @@ Der Graph zur **[!UICONTROL Aufschlüsselung der Klicks im Zeitverlauf]** enthä
 
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_user_activities_email"
->title="Benutzeraktivitäten"
+>title="Nutzer-Aktivitäten"
 >abstract="Die grafische Darstellung der **Benutzeraktivitäten** bietet eine detaillierte Aufschlüsselung der Empfängerinteraktionen und zeigt die Öffnungen und Klicks in einem informativen Tabellenformat an."
 
 Der Bericht **[!UICONTROL Benutzeraktivitäten]** zeigt die Aufschlüsselung der Öffnungen und Klicks in Form eines Diagramms. Die Metriken für diesen Bericht werden nachfolgend beschrieben.

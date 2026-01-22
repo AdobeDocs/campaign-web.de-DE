@@ -5,8 +5,8 @@ description: Erfahren Sie, wie Sie Workflow-Einstellungen mit Adobe Campaign Web
 exl-id: 3aef912b-086b-4aa4-9556-c09396112313
 source-git-commit: 73dfc1e14e04493a76e1ca91fab0306cd1e88b26
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1083'
+ht-degree: 100%
 
 ---
 
@@ -23,11 +23,11 @@ Diese Einstellungen sind in der bei der Workflow-Erstellung ausgewählten Vorlag
 
 ![Benutzeroberfläche mit der Schaltfläche „Workflow-Einstellungen“](assets/workflow-settings-button.png){zoomable="yes"}{width="70%" align="left"}
 
-## Workflow-Eigenschaften  {#properties}
+## Workflow-Eigenschaften {#properties}
 
 >[!CONTEXTUALHELP]
 >id="acw_workflow_settings_properties"
->title="Workflow-Eigenschaften "
+>title="Workflow-Eigenschaften"
 >abstract="Dieser Abschnitt enthält allgemeine Workflow-Eigenschaften, auf die auch beim Erstellen des Workflows zugegriffen werden kann. Sie können die Vorlage auswählen, die zum Erstellen des Workflows verwendet werden soll, und einen Titel angeben. Erweitern Sie den Abschnitt „Weitere Optionen“, um bestimmte Einstellungen zu konfigurieren, z. B. den Ordner, in dem der Workflow gespeichert wird, oder die Zeitzone."
 
 Der Abschnitt **[!UICONTROL Eigenschaften]** bietet allgemeine Einstellungen, die beim Erstellen eines Workflows konfiguriert werden können. Um auf die Eigenschaften eines bestehenden Workflows zuzugreifen, klicken Sie auf die Schaltfläche **[!UICONTROL Einstellungen]**, die in der Aktionsleiste über der Workflow-Arbeitsfläche verfügbar ist.

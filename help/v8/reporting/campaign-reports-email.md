@@ -223,7 +223,7 @@ Die Tabelle **[!UICONTROL Öffnungs- und Clickthrough-Rate]** zeigt Daten zu Ihr
 
 * **[!UICONTROL Einzelklicks]**: Anzahl und Prozentsatz der unterschiedlichen Zielgruppenempfängerinnen und -empfänger, die mindestens einmal im betreffenden Versand geklickt haben.
 
-* **[!UICONTROL Brutto-Reaktionsrate]**: Prozentualer Anteil der Empfängerinnen und Empfänger, die mindestens einmal in einem Versand geklickt haben, in Bezug auf die Empfängerinnen und Empfänger, die mindestens einmal einen Versand geöffnet haben.
+* **[!UICONTROL Brutto-Reaktionsrate]**: Prozentualer Anteil der Empfängerinnen und Empfänger, die mindestens einmal in einem Versand geklickt haben, im Vergleich zur Anzahl der Empfängerinnen und Empfänger, die mindestens einmal einen Versand geöffnet haben.
 
 +++
 
@@ -284,7 +284,7 @@ Der Graph zur **[!UICONTROL Aufschlüsselung der Klicks im Zeitverlauf]** enthä
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_user_activities"
->title="Benutzeraktivitäten"
+>title="Nutzer-Aktivitäten"
 >abstract="Der Graph **Benutzeraktivitäten** zeigt die Aufschlüsselung der Öffnungen und Klicks in Form eines Diagramms."
 
 Der Bericht **[!UICONTROL Benutzeraktivitäten]** zeigt die Aufschlüsselung der Öffnungen und Klicks in Form eines Diagramms. Die Metriken für diesen Bericht werden nachfolgend beschrieben.

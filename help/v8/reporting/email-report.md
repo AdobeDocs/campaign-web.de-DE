@@ -149,7 +149,7 @@ Die Tabelle **[!UICONTROL Broadcast-Statistiken]** enthält die verfügbaren Dat
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_error_type_table"
 >title="Aufschlüsselung der Fehler nach Typen"
->abstract="Die **Aufschlüsselung der Fehler nach Typen** bietet eine umfassende Aufschlüsselung des Vorkommens der einzelnen Fehlertypen."
+>abstract="Die Tabelle **Aufschlüsselung der Fehler nach Typen** bietet eine umfassende Aufschlüsselung des Vorkommens der einzelnen Fehlertypen."
 
 Die Tabelle und der Graph zur **[!UICONTROL Aufschlüsselung der Fehler nach Typen]** enthalten die verfügbaren Daten für jeden Fehlertyp. Metriken werden nachfolgend beschrieben.
 
@@ -185,7 +185,7 @@ Die in diesem Bericht angezeigten Fehler lösen einen Quarantäneprozess aus. We
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_error_domain_table"
 >title="Aufschlüsselung der Fehler nach Domain"
->abstract="Die **Aufschlüsselung der Fehler nach Domain** bietet eine umfassende Aufschlüsselung des Vorkommens der einzelnen Fehler entsprechend der verwendeten Domain."
+>abstract="Die Tabelle **Aufschlüsselung der Fehler nach Domain** bietet eine umfassende Aufschlüsselung des Vorkommens der einzelnen Fehler entsprechend der verwendeten Domain."
 
 Die Tabelle und der Graph zur **[!UICONTROL Aufschlüsselung der Fehler nach Domain]** zeigen die verfügbaren Daten zu Fehlern an, die bei den einzelnen Domains aufgetreten sind.
 
@@ -256,7 +256,7 @@ Die Tabelle **[!UICONTROL Öffnungs- und Clickthrough-Rate]** zeigt Daten zu Ihr
 
 * **[!UICONTROL Klicks]**: Anzahl der unterschiedlichen Zielgruppenempfängerinnen und -empfänger, die mindestens einmal in einem Versand geklickt haben.
 
-* **[!UICONTROL Brutto-Reaktionsrate]**: Prozentualer Anteil der Empfängerinnen und Empfänger, die mindestens einmal in einem Versand geklickt haben, in Bezug auf die Empfängerinnen und Empfänger, die mindestens einmal einen Versand geöffnet haben.
+* **[!UICONTROL Brutto-Reaktionsrate]**: Prozentualer Anteil der Empfängerinnen und Empfänger, die mindestens einmal in einem Versand geklickt haben, im Vergleich zur Anzahl der Empfängerinnen und Empfänger, die mindestens einmal einen Versand geöffnet haben.
 +++
 
 ## URLs und Clickstreams {#url-email}
@@ -321,7 +321,7 @@ Der Graph zur **[!UICONTROL Aufschlüsselung der Klicks im Zeitverlauf]** enthä
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_user_activities"
->title="Benutzeraktivitäten"
+>title="Nutzer-Aktivitäten"
 >abstract="Das Diagramm **Benutzeraktivitäten** zeigt die Aufschlüsselung der Öffnungen und Klicks in Form eines Diagramms. Sie können den Zeitraum der Zielgruppendaten auswählen: letzter Tag, letzte Stunde oder letzte 30 Minuten."
 
 Der Bericht **[!UICONTROL Benutzeraktivitäten]** zeigt die Aufschlüsselung der Öffnungen und Klicks in Form eines Diagramms. Sie können den Zeitraum der Zielgruppendaten auswählen: letzter Tag, letzte Stunde oder letzte 30 Minuten.

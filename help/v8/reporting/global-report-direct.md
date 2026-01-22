@@ -77,7 +77,7 @@ Die Tabelle und der Graph **[!UICONTROL Zielgruppe]** zeigen Daten zu Ihren Empf
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_delivery_statistics_summary_direct_mail_table"
 >title="Versandstatistiken"
->abstract="Der Graph **Versandstatistiken** zeigt den Erfolg Ihres Briefpostversands und die aufgetretenen Fehler an."
+>abstract="Die Tabelle **Versandstatistiken** zeigt den Erfolg Ihres Briefpostversands und die aufgetretenen Fehler an."
 
 Der Graph **[!UICONTROL Versandstatistiken]** bietet eine Aufschlüsselung des Erfolgs jedes Briefpostversands mit folgenden detaillierten Metriken.
 

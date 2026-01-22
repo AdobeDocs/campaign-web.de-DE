@@ -1,5 +1,5 @@
 ---
-title: Zielgruppen- und Filterdimensionen
+title: Zielgruppenbestimmungs- und Filterdimensionen
 description: Erfahren Sie mehr über Zielgruppen- und Filterdimensionen in der Adobe Campaign Web-Benutzeroberfläche
 exl-id: b910649a-7300-4f99-8f40-3a8965572ee9
 source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
@@ -9,7 +9,7 @@ ht-degree: 100%
 
 ---
 
-# Zielgruppen- und Filterdimensionen {#targeting-dimensions}
+# Zielgruppenbestimmungs- und Filterdimensionen {#targeting-dimensions}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_build_audience_dimension"
@@ -34,11 +34,11 @@ Verwenden Sie andere integrierte Zielgruppen-Mappings in Workflows und Sendungen
 
 | Name | Für den Versand an | Schema |
 |-----------------------|-------------------------------------------------------|-------------------------|
-| Empfängerinnen und Empfänger | Profile/Empfängerinnen und Empfänger (integrierte Empfängertabelle) | nms:recipient |
+| Bereich Empfänger | Profile/Empfängerinnen und Empfänger (integrierte Empfängertabelle) | nms:recipient |
 | Besuchende | Besuchende, deren Profile beispielsweise über Empfehlungen (z. B. Viral Marketing) erfasst wurden | mns:visitor |
 | Abonnements     | Profile, die einen Informationsdienst abonniert haben, z. B. einen Newsletter | nms:subscription |
 | Besucher-Abonnements | Besuchende, die einen Informationsdienst abonniert haben | nms:visitorSub |
-| Operatoren | Adobe Campaign-Benutzende | nms:operator |
+| Benutzer | Adobe Campaign-Benutzende | nms:operator |
 | Externe Datei | Versand über eine Datei mit allen erforderlichen Informationen | Ohne Schema oder Zielgruppe |
 | Abonnierte Anwendungen | Profile, die eine Anwendung abonniert haben | nms:appSubscriptionRcp |
 
