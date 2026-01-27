@@ -79,7 +79,7 @@ Wählen Sie Ihre Adobe Experience Manager-Inhalte und die Sprachvarianten aus, d
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
-1. Überprüfen Sie Ihre Sprachvarianten im Inhaltseditor. Sie können jetzt [jede Variante einzeln verwalten](#manage-variants) oder mit dem [Versand) ](../monitor/prepare-send.md).
+1. Überprüfen Sie Ihre Sprachvarianten im Inhaltseditor. Sie können jetzt [jede Variante einzeln verwalten](#manage-variants) oder mit dem [Versand) &#x200B;](../monitor/prepare-send.md).
 
    ![](assets/lg-copy-7.png)
 

@@ -67,7 +67,7 @@ Speichern Sie einen benutzerdefinierten Filter im [Abfrage-Modeler](../query/que
 
    ![Benutzeroberfläche zum Speichern von Filterdetails](assets/predefined-filters-save-filter.png){zoomable="yes"}
 
-   Sie können den Filter bei Bedarf als Favorit speichern. Weitere Informationen finden Sie [ (diesem Abschnitt](#fav-filter). Sie können auch die Option **[!UICONTROL Freigegebener Filter]** aktivieren, um den Filter für andere Benutzer zugänglich zu machen. Weiterführende Informationen finden Sie in [diesem Abschnitt](#share-filter).
+   Sie können den Filter bei Bedarf als Favorit speichern. Weitere Informationen finden Sie [&#x200B; (diesem Abschnitt](#fav-filter). Sie können auch die Option **[!UICONTROL Freigegebener Filter]** aktivieren, um den Filter für andere Benutzer zugänglich zu machen. Weiterführende Informationen finden Sie in [diesem Abschnitt](#share-filter).
 
 1. Klicken Sie auf **Bestätigen**, um Ihre Änderungen zu speichern.
 
@@ -89,7 +89,7 @@ Erstellen Sie einen Filter im linken Menü über den Eintrag **Vordefinierte Fil
 
    ![Benutzeroberfläche mit neuem gespeichertem Filter](assets/new-filter.png){zoomable="yes"}
 
-Der Filter wird zur Liste der vordefinierten Filter hinzugefügt. Sie können den Filter bei Bedarf als Favorit speichern. Weitere Informationen finden Sie [ (diesem Abschnitt](#fav-filter). Sie können den Filter auch für andere Benutzer freigeben, indem Sie die Option **[!UICONTROL Freigegebener Filter]** aktivieren. Weiterführende Informationen finden Sie in [diesem Abschnitt](#share-filter).
+Der Filter wird zur Liste der vordefinierten Filter hinzugefügt. Sie können den Filter bei Bedarf als Favorit speichern. Weitere Informationen finden Sie [&#x200B; (diesem Abschnitt](#fav-filter). Sie können den Filter auch für andere Benutzer freigeben, indem Sie die Option **[!UICONTROL Freigegebener Filter]** aktivieren. Weiterführende Informationen finden Sie in [diesem Abschnitt](#share-filter).
 
 ## Speichern des Filters als Favorit {#fav-filter}
 
