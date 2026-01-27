@@ -2,10 +2,10 @@
 title: Arbeiten mit vordefinierten Filtern
 description: Erfahren Sie, wie Sie in Adobe Campaign Web vordefinierte Filter erstellen und verwalten
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
-source-git-commit: b904870f256ec2eeac9a4e353ea8cb9d854524ee
+source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
 workflow-type: tm+mt
-source-wordcount: '936'
-ht-degree: 100%
+source-wordcount: '1055'
+ht-degree: 85%
 
 ---
 
@@ -67,11 +67,11 @@ Speichern Sie einen benutzerdefinierten Filter im [Abfrage-Modeler](../query/que
 
    ![Benutzeroberfläche zum Speichern von Filterdetails](assets/predefined-filters-save-filter.png){zoomable="yes"}
 
-   Sie können den Filter bei Bedarf als Favorit speichern. Weiterführende Informationen finden Sie in [diesem Abschnitt](#fav-filter).
+   Sie können den Filter bei Bedarf als Favorit speichern. Weitere Informationen finden Sie [ (diesem Abschnitt](#fav-filter). Sie können auch die Option **[!UICONTROL Freigegebener Filter]** aktivieren, um den Filter für andere Benutzer zugänglich zu machen. Weiterführende Informationen finden Sie in [diesem Abschnitt](#share-filter).
 
 1. Klicken Sie auf **Bestätigen**, um Ihre Änderungen zu speichern.
 
-Ihr benutzerdefinierter Filter ist jetzt in der Liste der **vordefinierten Filter** verfügbar und für alle Campaign-Benutzenden zugänglich.
+Ihr benutzerdefinierter Filter ist jetzt in der Liste **Vordefinierte Filter** verfügbar.
 
 ### Erstellen eines Filters in der Filterliste {#create-filter-from-list}
 
@@ -89,7 +89,7 @@ Erstellen Sie einen Filter im linken Menü über den Eintrag **Vordefinierte Fil
 
    ![Benutzeroberfläche mit neuem gespeichertem Filter](assets/new-filter.png){zoomable="yes"}
 
-Der Filter wird zur Liste der vordefinierten Filter hinzugefügt. Sie können den Filter bei Bedarf als Favorit speichern. Weiterführende Informationen finden Sie in [diesem Abschnitt](#fav-filter).
+Der Filter wird zur Liste der vordefinierten Filter hinzugefügt. Sie können den Filter bei Bedarf als Favorit speichern. Weitere Informationen finden Sie [ (diesem Abschnitt](#fav-filter). Sie können den Filter auch für andere Benutzer freigeben, indem Sie die Option **[!UICONTROL Freigegebener Filter]** aktivieren. Weiterführende Informationen finden Sie in [diesem Abschnitt](#share-filter).
 
 ## Speichern des Filters als Favorit {#fav-filter}
 
@@ -98,6 +98,14 @@ Aktivieren Sie bei der Erstellung eines vordefinierten Filters die Option **Als 
 Wenn ein Filter als Favorit gespeichert wird, steht er allen Benutzenden im Abschnitt **Favoritenfilter** der Filtererstellungsliste zur Verfügung, wie unten dargestellt:
 
 ![Abschnitt „Bevorzugte Filter“](assets/predefined-filters-favorite.png){zoomable="yes"}
+
+## Freigeben eines vordefinierten Filters {#share-filter}
+
+Standardmäßig sind vordefinierte Filter, die Sie erstellen, privat und nur für Sie sichtbar. Um anderen Benutzenden in Ihrer Organisation Zugriff auf einen Filter zu gewähren, aktivieren Sie die Option **[!UICONTROL Freigegebener Filter]**.
+
+![Option „Freigegebener Filter“](assets/predefined-filters-shared.png){zoomable="yes"}
+
+Freigegebene Filter werden in der vordefinierten Filterliste für alle Benutzer angezeigt, sodass sie diese Filter in ihren eigenen Workflows und Abfragen verwenden können.
 
 ## Verwenden eines vordefinierten Filters {#use-predefined-filter}
 
@@ -121,6 +129,8 @@ Gehen Sie wie folgt vor, um beispielsweise eine Zielgruppe aus einem vordefinier
 
    ![Benutzeroberfläche mit Liste vordefinierter Filter](assets/build-audience-filter-list.png){zoomable="yes"}
 
+   Sie können einen vorhandenen vordefinierten Filter auch mithilfe der Schaltfläche ![](../content/assets/do-not-localize/Smock_More_18_N.svg) bearbeiten oder löschen.
+
 1. Überprüfen Sie die Regeleigenschaften für diesen Filter und bestätigen Sie sie.
 
    Der Filter wird jetzt als Abfrage in der **Abfrage**-Aktivität genutzt.
@@ -141,7 +151,7 @@ Von dieser Liste ausgehend können Sie einen neuen Filter erstellen wie oben bes
 * einen vordefinierten Filter duplizieren
 * einen vordefinierten Filter löschen
 
-Sie können einen vordefinierten Filter auch direkt im Regel-Builder bearbeiten oder löschen. Verwenden Sie im Auswahlfenster für vordefinierte Filter die Schaltfläche **Mehr Aktionen**. Sie können den Filter löschen oder bearbeiten. Sie können das Label ändern, eine Beschreibung hinzufügen und ihn zu den Favoriten hinzufügen.
+Sie können einen vordefinierten Filter auch direkt im Regel-Builder bearbeiten oder löschen. Verwenden Sie im Auswahlfenster für vordefinierte Filter die Schaltfläche **Mehr Aktionen**. Sie können den Filter löschen oder bearbeiten. Sie können die Beschriftung ändern, eine Beschreibung hinzufügen, sie als Favorit hinzufügen oder die Option **[!UICONTROL Freigegebener Filter]** umschalten, um zu steuern, wer auf den Filter zugreifen kann.
 
 ![Bearbeitung vordefinierter Filter](assets/filter-edit.png){zoomable="yes"}
 

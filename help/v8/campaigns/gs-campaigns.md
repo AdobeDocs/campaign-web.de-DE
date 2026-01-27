@@ -3,10 +3,10 @@ audience: end-user
 title: Erste Schritte mit Kampagnen
 description: Erfahren Sie, wie Sie mit kanalübergreifenden Kampagnen beginnen
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '221'
+ht-degree: 100%
 
 ---
 
@@ -29,4 +29,5 @@ Erfahren Sie in den folgenden Abschnitten, wie Sie Kampagnen erstellen, verwalte
 
 * [Zugreifen auf und Verwalten von Kampagnen](manage-campaigns.md)
 * [Erste Kampagne erstellen](create-campaigns.md)
+* [Einrichten und Verwalten des Validierungsprozesses](campaign-approvals.md)
 * [Durchsuchen Ihrer Kampagnenberichte](../reporting/campaign-reports.md).

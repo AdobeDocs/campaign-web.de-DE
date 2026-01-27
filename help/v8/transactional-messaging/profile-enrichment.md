@@ -2,21 +2,15 @@
 audience: end-user
 title: Profilanreicherung in Transaktionsnachrichten
 description: Informationen zum Erstellen einer Transaktionsnachricht in der Campaign Web-Benutzeroberfläche
-source-git-commit: 0457e4d0150fe445ae5313377eb299cde40a51b9
+source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
 workflow-type: tm+mt
-source-wordcount: '482'
-ht-degree: 100%
+source-wordcount: '464'
+ht-degree: 97%
 
 ---
 
 
 # Anreichern von Transaktionsnachrichten mit Profildaten{#profile-enrichment}
-
->[!AVAILABILITY]
->
->Diese Funktion ist nur für eine bestimmte Gruppe von Unternehmen verfügbar (eingeschränkte Verfügbarkeit) und wird in einer zukünftigen Version global eingeführt. Ihr Server muss auf 8.8.2 oder höher aktualisiert sein.
->
->Diese Funktion ist derzeit nur für E-Mails verfügbar.
 
 Mit dieser Funktion können Sie Transaktionsnachrichten personalisieren, indem Sie Adobe Campaign-Datenbankfelder mit dem Nachrichteninhalt verknüpfen. Sie können Zielgruppen-Mappings, Anreicherungsspalten und einen Abstimmschlüssel auswählen, um präzise Echtzeit-Personalisierung unter Einhaltung der Leistungsschwellen sicherzustellen.
 
@@ -31,6 +25,12 @@ Führen Sie die folgenden Schritte durch, um die Profilanreicherung einzurichten
 1. Definieren des Inhalts, [weitere Informationen](#content-enrichment)
 1. Validieren und Versenden der Nachricht, [weitere Informationen](#send-enrichment)
 
+>[!NOTE]
+>
+>Ihr Server muss auf 8.8.2 oder höher aktualisiert sein.
+>
+>Diese Funktion ist derzeit nur für E-Mails, SMS und Push-Benachrichtigungen verfügbar.
+
 ## Erstellen der Transaktionsnachricht{#create-enrichment}
 
 Zunächst müssen Sie eine neue Transaktionsnachricht erstellen.
@@ -39,7 +39,7 @@ Zunächst müssen Sie eine neue Transaktionsnachricht erstellen.
 
    ![](assets/transactional-browse.png){zoomable="yes"}
 
-1. Wählen Sie eine Vorlage aus und definieren Sie die Eigenschaften. Weiterführende Informationen hierzu finden Sie auf [dieser Seite](create-transactional.md#transactional-message).
+1. Wählen Sie eine Vorlage aus und definieren Sie die Eigenschaften. Weiterführende Informationen hierzu finden Sie auf dieser [Seite](create-transactional.md#transactional-message).
 
 ## Definieren des Ereignistyps{#event-enrichment}
 
@@ -85,7 +85,7 @@ Jetzt fügen wir dem Ereignis Felder hinzu, mit denen Sie die Transaktionsnachri
    * Nachricht wird ohne Personalisierung gesendet
    * Nachricht wird nicht gesendet
 
-## Definieren des Inhalts{#content-enrichment}
+## Inhalt des Berichts definieren{#content-enrichment}
 
 Anschließend müssen Sie den Inhalt der Transaktionsnachricht definieren.
 

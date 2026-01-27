@@ -3,10 +3,10 @@ audience: end-user
 title: Bearbeiten des E-Mail-Inhalts
 description: Erfahren Sie, wie Sie den E-Mail-Inhalt in der Campaign Web-Benutzeroberfläche bearbeiten können
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-source-git-commit: 0457e4d0150fe445ae5313377eb299cde40a51b9
+source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
 workflow-type: tm+mt
-source-wordcount: '662'
-ht-degree: 100%
+source-wordcount: '683'
+ht-degree: 96%
 
 ---
 
@@ -38,7 +38,7 @@ Der E-Mail-Bildschirm **[!UICONTROL Inhalt bearbeiten]** ermöglicht Ihnen Folge
 * Definieren der grundlegenden Elemente Ihrer Nachricht, z. B. die Absenderadresse und die Betreffzeile
 * Durchführen zusätzlicher Aktionen, z. B. Hinzufügen von Anhängen oder Einrichten von Angeboten
 * Zugriff auf den [E-Mail-Designer](get-started-email-designer.md#start-authoring), um mit der Erstellung des eigentlichen Inhalts Ihrer E-Mail zu beginnen
-* Hinzufügen von Sprachvarianten zu Ihren Sendungen. [Weitere Informationen](../msg/multilingual.md)
+* Hinzufügen von Sprachvarianten zu Ihren Sendungen. [Mehr dazu](../msg/multilingual.md)
 
 >[!NOTE]
 >
@@ -106,4 +106,6 @@ Gehen Sie wie folgt vor, um den Inhalt einer E-Mail zu konfigurieren oder zu bea
 
 1. Standardmäßig ist für den Versand Tracking aktiviert. Sie können diese Option im Bereich **[!UICONTROL Optionale Funktionen]** deaktivieren. [Erfahren Sie, wie Sie Links hinzufügen und das Tracking verwalten](message-tracking.md)
 
-1. Nachdem Sie den Inhalt Ihrer E-Mail definiert haben, können Sie vor dem Versand mit der Schaltfläche **[!UICONTROL Inhalt simulieren]** überprüfen, wie die E-Mail dargestellt wird. [Erfahren Sie, wie Sie Ihre E-Mail in einer Vorschau anzeigen und testen](../preview-test/preview-test.md).
+1. Nachdem Sie den Inhalt Ihrer E-Mail definiert haben, können Sie vor dem Versand mit der Schaltfläche **[!UICONTROL Inhalt simulieren]** überprüfen, wie die E-Mail dargestellt wird. Sie können auch die Qualität Ihrer Inhalte überprüfen, um die Lesbarkeit, die Effektivität von CTA und die Gesamtqualität zu bewerten. [Erfahren Sie mehr über die Validierung der Inhaltsqualität](../content/brands-score.md#validate-quality)
+
+1. [Erfahren Sie, wie Sie Ihre E-Mail in einer Vorschau anzeigen und testen](../preview-test/preview-test.md).

@@ -3,10 +3,10 @@ audience: end-user
 title: Senden Ihrer ersten E-Mail
 description: Erfahren Sie, wie Sie Ihre erste E-Mail mit der Campaign Web-Benutzeroberfläche senden.
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
+source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1648'
+ht-degree: 98%
 
 ---
 
@@ -68,7 +68,7 @@ Gehen Sie wie folgt vor, um einen neuen E-Mail-Versand zu erstellen.
 
 1. Erweiterte Einstellungen wie Typologieregeln und Zielgruppen-Mappings sind darüber hinaus über die Schaltfläche **[!UICONTROL Einstellungen]** oben rechts im Bildschirm verfügbar. Diese Einstellungen sind zwar in der ausgewählten Vorlage vorkonfiguriert, können jedoch für diese spezifische E-Mail nach Bedarf bearbeitet werden. [Weitere Informationen](../advanced-settings/delivery-settings.md)
 
-## Definieren der Zielgruppe {#define-audience}
+## Zielgruppe definieren {#define-audience}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience"
@@ -152,6 +152,8 @@ Weitere Informationen zur Versandplanung finden Sie in [diesem Abschnitt](../msg
 Bevor Sie Ihre E-Mail versenden, können Sie sie in der Vorschau anzeigen und testen, um sicherzustellen, dass sie Ihren Erwartungen entspricht.
 
 In diesem Anwendungsbeispiel sehen Sie sich die E-Mail-Vorschau an und senden Testsendungen an bestimmte E-Mail-Adressen inklusive Identitätswechsel einiger Audience-Profile.
+
+Sie können auch die Qualität Ihrer Inhalte überprüfen, um ihre Lesbarkeit, die Effektivität von CTA, die Qualität der Betreffzeile und mehr zu überprüfen. [Erfahren Sie mehr über die Validierung der Inhaltsqualität](../content/brands-score.md#validate-quality)
 
 Weitere Informationen über die Vorschau einer E-Mail und das Senden von Testsendungen finden Sie in [diesem Abschnitt](../preview-test/preview-test.md).
 
@@ -250,6 +252,6 @@ Nachdem Sie Ihre E-Mail geprüft und getestet haben, können Sie die Vorbereitun
 
 ## Anleitungsvideo {#video}
 
-Hier erfahren Sie, wie Sie einen neuen E-Mail-Versand erstellen, die Zielgruppe definieren, den Inhalt gestalten, eine Vorschau simulieren und einen Testversand durchführen können.
+Hier erfahren Sie, wie Sie einen neuen E-Mail-Versand erstellen, die Zielgruppe definieren, den Inhalt gestalten, eine Vorschau simulieren und einen Testversand durchführen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3454014/?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425866/?quality=12)

@@ -3,10 +3,10 @@ audience: end-user
 title: Entwerfen von E-Mails in E-Mail-Designer
 description: Erfahren Sie, wie Sie Ihre E-Mail-Inhalte von Grund auf neu gestalten
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
 workflow-type: tm+mt
-source-wordcount: '650'
-ht-degree: 97%
+source-wordcount: '673'
+ht-degree: 93%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 97%
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_email"
 >title="Definieren von E-Mail-Spalten"
->abstract="Mit E-Mail-Designer können Sie das Layout Ihrer E-Mail einfach definieren, indem Sie die Spaltenstruktur definieren."
+>abstract="Mit Email Designer können Sie das Layout Ihrer E-Mail einfach definieren, indem Sie die Spaltenstruktur definieren."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_landing_page"
@@ -104,10 +104,12 @@ Gehen Sie wie folgt vor, um mit der Erstellung Ihres E-Mail-Inhalts zu beginnen.
 
    ![Screenshot mit den Simulationsoptionen im E-Mail-Designer](assets/email_designer-simulate.png){zoomable="yes"}
 
+1. Sie können auch die Qualität Ihrer Inhalte überprüfen, um die Lesbarkeit, die Effektivität von CTA, die Qualität der Betreffzeile und mehr zu bewerten. [Erfahren Sie mehr über die Validierung der Inhaltsqualität](../content/brands-score.md#validate-quality)
+
 1. Wenn Ihre E-Mail bereit ist, klicken Sie auf **[!UICONTROL Speichern]**.
 
 ## Anleitungsvideo {#video}
 
 Hier erfahren Sie, wie Sie im E-Mail-Designer navigieren. Erfahren Sie, wie Sie eine E-Mail neu strukturieren und entwerfen sowie personalisieren und testen können.
 
->[!VIDEO](https://video.tv.adobe.com/v/3453574/?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425867/?quality=12)

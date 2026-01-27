@@ -3,10 +3,10 @@ audience: end-user
 title: Erstellen eines SMS-Versands
 description: Erfahren Sie, wie Sie SMS mit Adobe Campaign Web erstellen und senden
 exl-id: 54181498-8164-4600-8b3f-20892b77d5d7
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
 workflow-type: tm+mt
-source-wordcount: '511'
-ht-degree: 98%
+source-wordcount: '532'
+ht-degree: 94%
 
 ---
 
@@ -60,6 +60,8 @@ Gehen Sie wie folgt vor, um einen eigenständigen SMS-Versand zu erstellen:
    Weitere Informationen dazu, wie Sie eine neue Zielgruppe erstellen, finden Sie auf [dieser Seite](../audience/one-time-audience.md).
 
 1. Aktivieren Sie die Option **[!UICONTROL Kontrollgruppe aktivieren]**, um eine Kontrollgruppe zum Messen der Wirkung Ihres Versands einzurichten. Nachrichten werden nicht an diese Kontrollgruppe gesendet, sodass Sie das Verhalten der Population, die die Nachricht erhalten hat, mit dem Verhalten der Kontakte vergleichen können, die die Nachricht nicht erhalten haben. [Weitere Informationen](../audience/control-group.md)
+
+1. Sie können Ihren SMS-Versand als mehrsprachigen Versand konfigurieren, um Nachrichten basierend auf der bevorzugten Sprache eines Profils zu senden. [Weitere Informationen](../msg/multilingual.md).
 
 1. Klicken Sie auf **[!UICONTROL Inhalt bearbeiten]**, um mit der Erstellung des Inhalts Ihrer SMS-Nachricht zu beginnen. [Weitere Informationen](content-sms.md)
 

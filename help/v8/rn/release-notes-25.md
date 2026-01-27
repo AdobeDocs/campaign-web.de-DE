@@ -2,9 +2,9 @@
 title: Frühere Versionshinweise zur Web-Benutzeroberfläche von Campaign v8
 description: Versionen der Campaign-Web-Benutzeroberfläche 2025
 exl-id: eecb4b18-4826-47a6-88b2-f2ed7b576d3e
-source-git-commit: 336845c8d21a39c9f9124a5c6f7d0667cd111dcb
-workflow-type: ht
-source-wordcount: '2667'
+source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
+workflow-type: tm+mt
+source-wordcount: '3052'
 ht-degree: 100%
 
 ---
@@ -12,6 +12,111 @@ ht-degree: 100%
 # Versionshinweise 2025 {#2025-release}
 
 Auf dieser Seite werden alle Änderungen und Verbesserungen aufgelistet, die in **Versionen von 2025** verfügbar sind. Die neuesten Versionshinweise finden Sie auf [dieser Seite](release-notes.md).
+
+## Version Oktober 2025 {#25-10-updates}
+
+_3. November 2025_
+
+<table>
+<thead>
+<tr>
+<th><strong>Mehrsprachige Funktionen für Transaktionsnachrichten, Push-Benachrichtigungen und SMS (eingeschränkte Verfügbarkeit)</strong><br/></th> 
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Sie können über die Adobe Campaign Web-Benutzeroberfläche jetzt mehrere Transaktionsnachrichten, Push-Benachrichtigungen und SMS-Nachrichten in verschiedenen Sprachen versenden. Mit der Funktion „Mehrsprachiger Versand“ können Sie die Standardsprache Ihres Versands sowie die verschiedenen Sprachen festlegen, in denen der Versand durchgeführt werden kann. Sie können diese Sendungen auch in einer Vorschau in den von Ihnen ausgewählten Sprachen anzeigen.</p>
+<p>Hinweis: Diese Funktion ist nur für eine bestimmte Gruppe von Unternehmen verfügbar (eingeschränkte Verfügbarkeit) und wird in einer zukünftigen Version global eingeführt.</p>
+<p>Weitere Informationen finden Sie im <a href="../msg/multilingual.md">entsprechenden Handbuch</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<!--
+* Enable OOTB File Upload for Multi-lingual Push Notification Deliveries. 
+-->
+
+<table>
+<thead>
+<tr>
+<th><strong>Profilanreicherung in Transaktionsnachrichten (eingeschränkte Verfügbarkeit)</strong><br/></th> 
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Mit dieser Funktion können Sie Transaktionsnachrichten personalisieren, indem Sie Adobe Campaign-Datenbankfelder mit dem Nachrichteninhalt verknüpfen. Sie können Zielgruppen-Mappings, Anreicherungsspalten und einen Abstimmschlüssel auswählen, um präzise Echtzeit-Personalisierung unter Einhaltung der Leistungsschwellen sicherzustellen.</p>
+<p>Hinweis: Diese Funktion ist nur für eine bestimmte Gruppe von Unternehmen verfügbar (eingeschränkte Verfügbarkeit) und wird in einer zukünftigen Version global eingeführt. Diese Funktion ist derzeit nur für E-Mails verfügbar.</p>
+<p>Weitere Informationen finden Sie im <a href="../transactional-messaging/profile-enrichment.md">entsprechenden Handbuch</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Integration mit Adobe GenStudio</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Um die Marketing-Effizienz zu steigern und die Markenkonsistenz zu wahren, können Sie Erlebnisse aus GenStudio for Performance Marketing nahtlos mit Campaign integrieren. Auf diese Weise können Sie die KI-gestützte Content-Erstellung von GenStudio zusammen mit den erweiterten Orchestrierungsfunktionen von Campaign nutzen.<p>
+<p>Weitere Informationen finden Sie im <a href="../integrations/genstudio.md">entsprechenden Handbuch</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Unterstützung für den dunklen Modus im E-Mail-Designer</strong><br/></th> 
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Der E-Mail-Designer bietet jetzt die Möglichkeit, in den dunklen Modus zu wechseln, in dem Sie zusätzlich spezifische benutzerdefinierte Einstellungen festlegen können. Beachten Sie, dass das endgültige Rendern vom E-Mail-Client der oder des Empfangenden abhängt. Nicht alle E-Mail-Clients unterstützen den dunklen Modus.</p>
+<p>Weitere Informationen finden Sie im <a href="../email/dark-mode.md">entsprechenden Handbuch</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<!-- table>
+<thead>
+<tr>
+<th><strong>Continuous delivery activity</strong><br/></th> not ready
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Continuous delivery activity</p>
+<p>For more information, refer to the detailed documentation.</p>
+</td>
+</tr>
+</tbody>
+</table-->
+
+### Verbesserungen {#25-10-improvements}
+
+* In Sendungen, die in der Client-Konsole erstellt wurden, zeigt der Abschnitt **Zielgruppe** jetzt an, ob eine dynamische Bedingung für Testversandziele definiert wurde. <!-- [Learn more](../msg/gs-deliveries.md#access)-->
+
+* Beim Einrichten einer Bedingung mit der Funktion für bedingte Inhalte des E-Mail-Designers können Sie jetzt zwischen dem neuen und dem alten Regel-Builder wechseln. <!-- [Learn more](../personalization/conditions.md#condition-condition-builder)-->
+
+* Sie können jetzt in der Bildschirmdefinition des Empfängerschemas Sammlungs-Links wie Käufe auswählen. Dadurch werden die zugehörigen Daten über eine dedizierte Registerkarte auf Profilbildschirmen angezeigt. <!-- [Learn more](../administration/schemas.md#collection-lists)-->
+
+* Als Campaign-Admin können Sie jetzt Verbindungen zu Salesforce CRM und Microsoft Dynamics einrichten.
+  [Weitere Informationen](../administration/external-crm.md)
+
+<!--
+* Stop button for deliveries not linked to release and no info
+-->
 
 ## Version September 2025 {#25-9-release}
 
@@ -29,7 +134,7 @@ Die folgenden Funktionen sind ab der Version September verfügbar.
 <tr>
 <td>
 <p>Sie können nun Sendungen direkt über die Adobe Campaign Web-Benutzeroberfläche orchestrieren und auf Grundlage benutzerdefinierter API-Kanäle ausführen. Diese Sendungen können eigenständig oder Teil eines Workflows sein. Die Konfiguration des benutzerdefinierten API-Kanals erfolgt in der Konsole.</p>
-<p>Weitere Informationen finden Sie in der <a href="../call-center/gs-custom-channel.md">entsprechenden Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie im <a href="../call-center/gs-custom-channel.md">entsprechenden Handbuch</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -45,7 +150,7 @@ Die folgenden Funktionen sind ab der Version September verfügbar.
 <tr>
 <td>
 <p>Als Campaign-Admin können Sie nun über die Campaign Web-Benutzeroberfläche neue Verbindungen mit externen Systemen einrichten. Sie haben zudem die Möglichkeit, vorhandene externe Konten anzuzeigen, zu aktualisieren und zu verwalten.</p>
-<p>Weitere Informationen finden Sie in der <a href="../administration/create-external-account.md">entsprechenden Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie im <a href="../administration/create-external-account.md">entsprechenden Handbuch</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -61,7 +166,7 @@ Die folgenden Funktionen sind ab der Version September verfügbar.
 <tr>
 <td>
 <p>Campaign ermöglicht es Ihnen nun, Inhalte in E-Mail-Vorlagen zu sperren, entweder durch Sperren der gesamten Vorlage oder durch Sperren bestimmter Strukturen und Komponenten. Auf diese Weise können Sie unbeabsichtigte Bearbeitungen oder Löschungen verhindern, sodass Sie das Anpassen von Vorlagen besser steuern und die Effizienz sowie Zuverlässigkeit Ihrer E-Mail-Kampagnen optimieren können.</p>
-<p>Weitere Informationen finden Sie in der <a href="../content/content-locking.md">entsprechenden Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie im <a href="../content/content-locking.md">entsprechenden Handbuch</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -190,7 +295,7 @@ Die folgenden Funktionen sind ab der Version Juli verfügbar.
 <td>
 <p>You can now send multiple email and SMS deliveries in different languages in Adobe Campaign Web UI. The multilingual delivery feature allows you to choose the default language of your delivery as well as the different languages in which the delivery can be sent. You can also preview these deliveries in the languages you have chosen.
 </p>
-<p>For Multilingual email, your server must be upgraded to 8.8.1 minimum. Refer to the Client Console <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=de" target="_blank">release notes</a>.
+<p>For Multilingual email, your server must be upgraded to 8.8.1 minimum. Refer to the Client Console <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html" target="_blank">release notes</a>.
 <p>For more information, refer to the <a href="../email/edit-content.md#multilingual-delivery">detailed documentation</a>.</p>
 </td>
 </tr>
@@ -223,7 +328,7 @@ Die folgenden Funktionen sind ab der Version Juli verfügbar.
 <tr>
 <td>
 <p>Beim Erstellen Ihrer E-Mails können Sie nun Ihr eigenes benutzerdefiniertes CSS direkt im E-Mail-Designer hinzufügen. Mit dieser Funktion können Sie erweiterte und spezifische Stile anwenden, um die Flexibilität und Kontrolle über das Erscheinungsbild Ihrer Inhalte zu erhöhen.</p>
-<p>Weitere Informationen finden Sie in der <a href="../email/custom-css.md">entsprechenden Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie im <a href="../email/custom-css.md">entsprechenden Handbuch</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -240,7 +345,7 @@ Die folgenden Funktionen sind ab der Version Juli verfügbar.
 <td>
 <p>Sie können nun Ihre eigenen Marken erstellen und anpassen, um Ihre visuelle und verbale Identität in der gesamten Kommunikation klar zu definieren. Über den Markenausrichtungswert erhalten Sie Echtzeit-Feedback dazu, wie gut Ihr Inhalt den Ton, den Stil und die Richtlinien Ihrer Marke widerspiegelt. So können Sie sicherstellen, dass jede gesendete Nachricht markenkonform ist.
 </p>
-<p>Weitere Informationen finden Sie in der <a href="../content/brands.md">entsprechenden Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie im <a href="../content/brands.md">entsprechenden Handbuch</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -256,7 +361,7 @@ Die folgenden Funktionen sind ab der Version Juli verfügbar.
 <tr>
 <td>
 <p>Bei der Funktion „Versandwarnungen“ handelt es sich um ein System zum Warnungs-Management, über das eine Benutzergruppe automatisch Benachrichtigungen zu ihren Sendungen erhält. </p>
-<p>Weitere Informationen finden Sie in der <a href="../msg/delivery-alerting.md">entsprechenden Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie im <a href="../msg/delivery-alerting.md">entsprechenden Handbuch</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -298,7 +403,7 @@ Die folgenden Funktionen sind ab der Version Juli verfügbar.
 <td>
 <p>Sie können nun auf dynamisches Reporting zugreifen, das vollständig anpassbare Berichte und Echtzeitberichte zum Messen der Wirkung Ihrer Marketing-Aktivitäten bietet. Dadurch kann auf Profildaten zugegriffen werden, was die demografische Analyse nach Profildimensionen wie Geschlecht, Ort und Alter ermöglicht, zusätzlich zur Analyse basierend auf Daten von E-Mail-Kampagnen wie Öffnungen und Klicks. Dynamische Berichte sind auch für mehrsprachige E-Mail-Sendungen und Transaktionsnachrichten verfügbar.</p>
 <p>Diese Funktion ist nur auf Anfrage verfügbar. Wenden Sie sich für Zugriff an den Adobe-Support. Ihr Server muss mindestens auf 8.8.1 aktualisiert sein. Weitere Informationen finden Sie in den <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=de" target="_blank">Versionshinweisen</a> zur Client-Konsole.
-<p>Weitere Informationen finden Sie in der <a href="../reporting/dynamic-reporting/get-started-reporting.md">entsprechenden Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie im <a href="../reporting/dynamic-reporting/get-started-reporting.md">entsprechenden Handbuch</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -315,7 +420,7 @@ Die folgenden Funktionen sind ab der Version Juli verfügbar.
 <td>
 <p>Ihre technischen Admins können nun eine oder mehrere Marken definieren, um die Parameter zu zentralisieren, die sich auf die Markenidentität auswirken. das Logo der Marke, die Domain der Zugangs-URL zu den Landingpages, Einstellungen zum Nachrichten-Tracking. Sie können diese Marken erstellen und mit verschiedenen Nachrichten oder Landingpages verknüpfen. Diese Konfiguration wird in Vorlagen verwaltet. Branding-Optionen sind für alle Kanäle verfügbar, einschließlich SMS und Briefpost.</p>
 <p>Diese Funktion ist nur auf Anfrage und nur für neue Implementierungen verfügbar. Wenden Sie sich für Zugriff an den Adobe-Support. Ihr Server muss mindestens auf 8.8.1 aktualisiert sein. Weitere Informationen finden Sie in den <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=de" target="_blank">Versionshinweisen</a> zur Client-Konsole.
-<p>Weitere Informationen finden Sie in der <a href="../administration/branding/branding-gs.md">entsprechenden Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie im <a href="../administration/branding/branding-gs.md">entsprechenden Handbuch</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -334,14 +439,14 @@ Weitere Informationen finden Sie in den [Versionshinweisen](https://experiencele
 
 >[!AVAILABILITY]
 >
->To benefit from these updates, your server must be upgrated to 8.8.1 mininum. Refer to the Client Console [release notes](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=de){target="_blank"}.
+>To benefit from these updates, your server must be upgrated to 8.8.1 mininum. Refer to the Client Console [release notes](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html){target="_blank"}.
 
 Previously released in Limited Availability, the following capabilities are now available to all environments (General Availability):
 
 * **Multilingual delivery creation** - You can now send multiple email deliveries in different languages in Adobe Campaign Web User Interface. The Multilingual delivery feature allows you to choose the default language of your delivery as well as the different languages in which the delivery can be sent. You can also preview these deliveries in the languages you have chosen. [Read more](../email/edit-content.md#multilingual-delivery).
 
 
-* **Visual fragments** - You can now create, use and archive content fragments. Visual fragments are pre-defined visual blocks that you can reuse across multiple email deliveries, or in content templates. [Learn more](https://experienceleague.adobe.com/docs/campaign-web/v8/content/manage-reusable-content/fragments/fragments.html?lang=de){target="_blank"}
+* **Visual fragments** - You can now create, use and archive content fragments. Visual fragments are pre-defined visual blocks that you can reuse across multiple email deliveries, or in content templates. [Learn more](https://experienceleague.adobe.com/docs/campaign-web/v8/content/manage-reusable-content/fragments/fragments.html){target="_blank"}
 
 * **Delivery alerting** - The Delivery alerting feature is an alert management system that enables a group of users to automatically receive notifications containing information on the execution of their deliveries. [Read more](../msg/delivery-alerting.md)
 
@@ -368,10 +473,10 @@ Previously released in Limited Availability, the following capabilities are now 
 
 In addition to the features listed above, this release also comes with a set of functionalities available in the Client Console:
 
-* [New SMS sending connector](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/sms.html?lang=de) (FDA environments)
-* [Rest APIs](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=de) (on demand, FDA environments)
+* [New SMS sending connector](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/sms.html) (FDA environments)
+* [Rest APIs](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html) (on demand, FDA environments)
 
-Refer to the Client Console [release notes](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=de){target="_blank"}.
+Refer to the Client Console [release notes](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html){target="_blank"}.
 
 -->
 
@@ -387,13 +492,13 @@ Refer to the Client Console [release notes](https://experienceleague.adobe.com/d
 
 * Die folgenden Verbesserungen für Landingpages sind jetzt verfügbar:
 
-   * Sie können nun beim Konfigurieren eines Dienstes auf eine standardmäßige Landingpage zur An-/Abmeldung verweisen. Wenn Sie bei der Erstellung einer E-Mail einen Link zu dieser Landingpage definieren, werden die Benutzenden, die das Landingpage-Formular senden, automatisch für diesen Dienst angemeldet bzw. von ihm abgemeldet. [Weitere Informationen](../audience/manage-services.md#create-service)
-   * Eine neue Option in der Landingpage-Konfiguration ermöglicht anonymen Besuchenden, auf die Landingpage zuzugreifen. Wenn Sie diese Option deaktivieren, können nur identifizierte Benutzende auf das Formular zugreifen und dieses absenden. [Weitere Informationen](../landing-pages/create-lp.md#create-landing-page)
-   * Eine neue Option in der Landingpage-Konfiguration ermöglicht, zusätzliche interne Daten bei der Landingpage-Übermittlung zu speichern. [Weitere Informationen](../landing-pages/create-lp.md#create-landing-page)
-   * Eine neue Option ermöglicht Ihnen die Verwendung einer Landingpage für mehrere Dienste, wodurch sie dynamisch wird. Wenn Sie einen Link zu einer E-Mail hinzufügen und eine dynamische Landingpage auswählen, können Sie einen beliebigen Dienst auswählen. Wenn Sie eine Landingpage auswählen, der ein bestimmter Dienst zugeordnet ist, wird dieser Dienst automatisch verwendet. Sie können keinen anderen Dienst auswählen. [Weitere Informationen](../landing-pages/create-lp.md#define-actions-on-form-submission)
-   * Bedingte Inhalte werden nun auf Landingpages unterstützt. [Weitere Informationen](../landing-pages/lp-content.md)
+   * Sie können nun beim Konfigurieren eines Dienstes auf eine standardmäßige Landingpage zur An-/Abmeldung verweisen. Wenn Sie bei der Erstellung einer E-Mail einen Link zu dieser Landingpage definieren, werden die Benutzenden, die das Landingpage-Formular senden, automatisch für diesen Dienst angemeldet bzw. von ihm abgemeldet. [Mehr dazu](../audience/manage-services.md#create-service)
+   * Eine neue Option in der Landingpage-Konfiguration ermöglicht anonymen Besuchenden, auf die Landingpage zuzugreifen. Wenn Sie diese Option deaktivieren, können nur identifizierte Benutzende auf das Formular zugreifen und dieses absenden. [Mehr dazu](../landing-pages/create-lp.md#create-landing-page)
+   * Eine neue Option in der Landingpage-Konfiguration ermöglicht, zusätzliche interne Daten bei der Landingpage-Übermittlung zu speichern. [Mehr dazu](../landing-pages/create-lp.md#create-landing-page)
+   * Eine neue Option ermöglicht Ihnen die Verwendung einer Landingpage für mehrere Dienste, wodurch sie dynamisch wird. Wenn Sie einen Link zu einer E-Mail hinzufügen und eine dynamische Landingpage auswählen, können Sie einen beliebigen Dienst auswählen. Wenn Sie eine Landingpage auswählen, der ein bestimmter Dienst zugeordnet ist, wird dieser Dienst automatisch verwendet. Sie können keinen anderen Dienst auswählen. [Mehr dazu](../landing-pages/create-lp.md#define-actions-on-form-submission)
+   * Bedingte Inhalte werden nun auf Landingpages unterstützt. [Mehr dazu](../landing-pages/lp-content.md)
    * Es ist jetzt möglich, eine Landingpage mit einem Dienst zu verknüpfen und eine Bestätigungsnachricht zu versenden, wenn Benutzende dies validieren. [Weitere Informationen](../landing-pages/lp-content.md#lp-message)
-   * Sie können Captcha zum Schutz Ihrer Landingpage vor Spam und Missbrauch durch Bots hinzufügen. Dies erfordert nur wenig Einsatz aufseiten Ihrer Kundschaft, da nur eine Interaktion mit Ihrer Website erforderlich ist. [Weitere Informationen](../landing-pages/create-lp.md#captcha)
+   * Sie können Captcha zum Schutz Ihrer Landingpage vor Spam und Missbrauch durch Bots hinzufügen. Dies erfordert nur wenig Einsatz aufseiten Ihrer Kunden, da nur eine Interaktion mit Ihrer Website erforderlich ist. [Weitere Informationen](../landing-pages/create-lp.md#captcha)
 
 ## Version Juni 2025 {#25-6-release}
 
@@ -429,7 +534,7 @@ Die folgenden Funktionen stehen allen Benutzenden ab der Version Mai zur Verfüg
 <tr>
 <td>
 <p>Die Funktion zur Bewertung der Markenausrichtung bietet klares Feedback direkt im E-Mail-Designer, sodass Sie sehen können, ob der Inhalt mit dem Ton, dem Stil und den Richtlinien Ihrer Marke übereinstimmt. Diese Funktion ist in der Beta-Version verfügbar.</p>
-<p>Weitere Informationen finden Sie in der <a href="../content/brands-score.md">entsprechenden Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie im <a href="../content/brands-score.md">entsprechenden Handbuch</a>.</p>
 <img src="assets/do-not-localize/brand-score.gif">
 </td>
 </tr>
@@ -447,7 +552,7 @@ Die folgenden Funktionen stehen allen Benutzenden ab der Version Mai zur Verfüg
 <td>
 <p>Sie können nun Sendungen direkt über die Adobe Campaign Web-Benutzeroberfläche orchestrieren und auf Grundlage benutzerdefinierter externer Kanäle ausführen. Diese Sendungen können eigenständig oder Teil eines Workflows sein. Die Erstellung des benutzerdefinierten, mit einem Drittanbieter integrierten externen Kanals erfolgt in der Konsole.</p>
 <p>Hinweis: Die Reporting-Funktion ist in der Web-Benutzeroberfläche für den benutzerdefinierten Kanal nicht verfügbar. Sie müssen zur Client-Konsole wechseln, um auf Berichte zuzugreifen.</p>
-<p>Weitere Informationen finden Sie in der <a href="../call-center/gs-custom-channel.md">entsprechenden Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie im <a href="../call-center/gs-custom-channel.md">entsprechenden Handbuch</a>.</p>
 <img src="assets/do-not-localize/custom-channel.gif">
 </td>
 </tr>
@@ -478,7 +583,7 @@ Die folgenden Funktionen stehen allen Benutzenden ab der April-Version zur Verf�
 <p>Der Callcenter-Kanal ist jetzt in der Campaign Web-Benutzeroberfläche verfügbar. Dieser Kanal bezieht sich auf eine Kommunikationsmethode, mit der über ein Callcenter abgewickelte Mitteilungen oder Interaktionen verwalten und verfolgt werden. In der Regel handelt es sich dabei um Telefonanrufe, die von Callcenter-Mitarbeitenden an bestehende oder potenzielle Kundinnen und Kunden erfolgen.</p>
 <p>Hinweis: Die Reporting-Funktion ist in der Web-Benutzeroberfläche für den Callcenter-Kanal nicht verfügbar. Sie müssen zur Client-Konsole wechseln, um auf Berichte zuzugreifen.</p>
 <img src="assets/do-not-localize/call-center.gif">
-<p>Weitere Informationen finden Sie in der <a href="../call-center/gs-call-center.md">entsprechenden Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie im <a href="../call-center/gs-call-center.md">entsprechenden Handbuch</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -495,7 +600,7 @@ Die folgenden Funktionen stehen allen Benutzenden ab der April-Version zur Verf�
 <td>
 <p>Es ist nun ein neuer Regel-Builder verfügbar, der Sie bei der Definition komplexer Bedingungen in einer verbesserten Benutzeroberfläche unterstützt. Sie können bei Bedarf vom alten zum neuen Regel-Builder wechseln.</p>
 <img src="assets/do-not-localize/rule-builder-release.gif">
-<p>Weitere Informationen finden Sie in der <a href="../query/query-modeler-overview.md">entsprechenden Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie im <a href="../query/query-modeler-overview.md">entsprechenden Handbuch</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -512,7 +617,7 @@ Die folgenden Funktionen stehen allen Benutzenden ab der April-Version zur Verf�
 <td>
 <p>Als Campaign-Admin können Sie nun über die Campaign Web-Benutzeroberfläche neue Verbindungen mit externen Systemen einrichten.
 Sie haben zudem die Möglichkeit, vorhandene externe Konten anzuzeigen, zu aktualisieren und zu verwalten.</p>
-<p>Weitere Informationen finden Sie in der <a href="../administration/external-account.md">entsprechenden Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie im <a href="../administration/external-account.md">entsprechenden Handbuch</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -522,7 +627,7 @@ Sie haben zudem die Möglichkeit, vorhandene externe Konten anzuzeigen, zu aktua
 
 **Allgemeine Verbesserungen an der Benutzeroberfläche**
 
-* Das Feld „Beschreibung“ sowie die Optionen „Zu Favoriten hinzufügen“ und „Werteverteilung“ für Schemaattribute sind jetzt auf der Benutzeroberfläche besser sichtbar. Weitere Informationen finden Sie in der [entsprechenden Dokumentation](../get-started/attributes.md).
+* Das Feld „Beschreibung“ sowie die Optionen „Zu Favoriten hinzufügen“ und „Werteverteilung“ für Schemaattribute sind jetzt auf der Benutzeroberfläche besser sichtbar. Weitere Informationen finden Sie im [entsprechenden Handbuch](../get-started/attributes.md).
 * Auf der Benutzeroberfläche werden nun Datum und Uhrzeit entsprechend der in den Experience League-Voreinstellungen festgelegten Primärsprache angezeigt. Diese Verbesserung ist nur für einige Sprachen verfügbar. Die vollständige Liste der unterstützten Sprachen finden Sie in der [entsprechenden Dokumentation](https://experienceleague.adobe.com/de/docs/core-services/interface/features/browser-language){target=_blank}.
 
 <!--
@@ -530,7 +635,7 @@ ko * Built-in options are now only visible in the list of options if the **Show 
 ko * The typology rules creation screen has been updated to facilitate the selection of the type of rule.
 -->
 
-**E-Mail-Editor**: Um die Barrierefreiheit in der Campaign Web-Benutzeroberfläche zu verbessern, sind im E-Mail-Designer nun zwei neue Felder verfügbar. Sie entsprechen dem Element `title` und dem lang-Attribut im Element `html` Ihres E-Mail-Inhalts. Sie können diese Einstellungen zusätzlich zum Feld „Preheader“ im Abschnitt für den E-Mail-Text definieren. Weitere Informationen finden Sie in der [entsprechenden Dokumentation](../email/metadata.md).
+**E-Mail-Editor**: Um die Barrierefreiheit in der Campaign Web-Benutzeroberfläche zu verbessern, sind im E-Mail-Designer nun zwei neue Felder verfügbar. Sie entsprechen dem Element `title` und dem lang-Attribut im Element `html` Ihres E-Mail-Inhalts. Sie können diese Einstellungen zusätzlich zum Feld „Preheader“ im Abschnitt für den E-Mail-Text definieren. Weitere Informationen finden Sie im [entsprechenden Handbuch](../email/metadata.md).
 
 <!--
 **Workflow**: You can now select an existing Javascript code in workflow properties or in a Javascript activity.    
@@ -538,9 +643,9 @@ ko * The typology rules creation screen has been updated to facilitate the selec
 
 **Schemata**
 
-* Sie können nun das temporäre Schema einer Liste über die Campaign Web-Benutzeroberfläche bearbeiten. Weitere Informationen finden Sie in der [entsprechenden Dokumentation](../audience/manage-audience.md).
-* Sie können nun die benutzerdefinierten Felder eines Schemas in einem Beispielbildschirm in der Vorschau anzeigen. Weitere Informationen finden Sie in der [entsprechenden Dokumentation](../administration/custom-fields.md#add).
-* Sie können nun benutzerdefinierte Felder per Drag-and-Drop in der Liste verschieben. Weitere Informationen finden Sie in der [entsprechenden Dokumentation](../administration/custom-fields.md#add).
+* Sie können nun das temporäre Schema einer Liste über die Campaign Web-Benutzeroberfläche bearbeiten. Weitere Informationen finden Sie im [entsprechenden Handbuch](../audience/manage-audience.md).
+* Sie können nun die benutzerdefinierten Felder eines Schemas in einem Beispielbildschirm in der Vorschau anzeigen. Weitere Informationen finden Sie im [entsprechenden Handbuch](../administration/custom-fields.md#add).
+* Sie können nun benutzerdefinierte Felder per Drag-and-Drop in der Liste verschieben. Weitere Informationen finden Sie im [entsprechenden Handbuch](../administration/custom-fields.md#add).
 
 
 ### Neue Funktionen in eingeschränkter Verfügbarkeit {#25-4-features-la}
@@ -551,11 +656,11 @@ ko * The typology rules creation screen has been updated to facilitate the selec
 >
 >Weitere Informationen finden Sie auf den folgenden Seiten der Dokumentation: [Wechsel von Campaign Standard zu Campaign v8](../rn/acs-migration.md) und [Funktionen für Campaign Standard-Benutzende](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=de).
 
-* **Erstellung eines mehrsprachigen Versands**: In der Adobe Campaign Web-Benutzeroberfläche ist nun die Durchführung mehrerer E-Mail-Sendungen in verschiedenen Sprachen möglich. Mit der Funktion „Mehrsprachiger Versand“ können Sie die Standardsprache Ihres Versands sowie die verschiedenen Sprachen festlegen, in denen der Versand durchgeführt werden kann. Sie können diese Sendungen auch in einer Vorschau in den von Ihnen ausgewählten Sprachen anzeigen. Weitere Informationen finden Sie in der [entsprechenden Dokumentation](../email/edit-content.md).
+* **Erstellung eines mehrsprachigen Versands**: In der Adobe Campaign Web-Benutzeroberfläche ist nun die Durchführung mehrerer E-Mail-Sendungen in verschiedenen Sprachen möglich. Mit der Funktion „Mehrsprachiger Versand“ können Sie die Standardsprache Ihres Versands sowie die verschiedenen Sprachen festlegen, in denen der Versand durchgeführt werden kann. Sie können diese Sendungen auch in einer Vorschau in den von Ihnen ausgewählten Sprachen anzeigen. Weitere Informationen finden Sie im [entsprechenden Handbuch](../email/edit-content.md).
 
-* **Dynamische Berichte für mehrsprachige Sendungen**: Dynamische Berichte sind jetzt für mehrsprachige E-Mail-Sendungen verfügbar. Weitere Informationen finden Sie in der [entsprechenden Dokumentation](../reporting/global-reports.md).
+* **Dynamische Berichte für mehrsprachige Sendungen**: Dynamische Berichte sind jetzt für mehrsprachige E-Mail-Sendungen verfügbar. Weitere Informationen finden Sie im [entsprechenden Handbuch](../reporting/global-reports.md).
 
-* **SMS REST API-Unterstützung (LA)**: Das REST-API für Transaktionsnachrichten ist nun für den SMS-Kanal verfügbar. Wenn sowohl „email“ als auch „mobilePhone“ in der Payload vorhanden sind, können Sie den Kanal über das Feld „wishedChannel“ angeben. Ohne Angabe wird standardmäßig „email“ verwendet, es sei denn, „wishedChannel“ fordert explizit SMS an. Weitere Informationen finden Sie in der [entsprechenden Dokumentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=de){target=_blank}.
+* **SMS REST API-Unterstützung (LA)**: Das REST-API für Transaktionsnachrichten ist nun für den SMS-Kanal verfügbar. Wenn sowohl „email“ als auch „mobilePhone“ in der Payload vorhanden sind, können Sie den Kanal über das Feld „wishedChannel“ angeben. Ohne Angabe wird standardmäßig „email“ verwendet, es sei denn, „wishedChannel“ fordert explizit SMS an. Weitere Informationen finden Sie im [entsprechenden Handbuch](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=de){target=_blank}.
 
 ## Version Februar &#39;25 {#25-2-release}
 
@@ -576,7 +681,7 @@ Die folgenden Funktionen und Verbesserungen sind ab der Version Februar verfügb
 <td>
 <p>Sie können jetzt Typologien und Typologieregeln in der Adobe Campaign Web-Benutzeroberfläche erstellen. Mit Typologien können Sie die Durchführung von Sendungen steuern, filtern und priorisieren. Mithilfe von Typologien können Sie überprüfen, ob Ihre Sendungen immer bestimmte Pflichtkomponenten enthalten (z. B. einen Abmelde-Link oder eine Betreffzeile), oder Filterregeln verwenden, um bestimmte Zielgruppen auszuschließen. Dazu zählen z. B. Abonnentinnen und Abonnenten, Mitbewerberinnen und Mitbewerber oder Kundinnen und Kunden, die nicht am Treueprogramm teilnehmen.</p>
 <img src="assets/do-not-localize/typology.gif">
-<p>Weitere Informationen finden Sie in der <a href="../administration/typologies.md">entsprechenden Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie im <a href="../administration/typologies.md">entsprechenden Handbuch</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -593,7 +698,7 @@ Die folgenden Funktionen und Verbesserungen sind ab der Version Februar verfügb
 <td>
 <p>Sie können jetzt Zielgruppen-Mappings in der Campaign Web-Benutzeroberfläche erstellen. Zielgruppen-Mappings definieren, wie verschiedene Versandkanäle (E-Mail, SMS, Push-Benachrichtigungen) mit den Datenfeldern eines Schemas verknüpft werden. Hier können Sie die Zielgruppen festlegen: Profile, Vertragsbegünstigte, Benutzerinnen und Benutzer, Abonnierende, Interessentinnen und Interessenten usw.</p>
 <img src="assets/do-not-localize/target-mapping.gif">
-<p>Weitere Informationen finden Sie in der <a href="../administration/target-mappings.md">entsprechenden Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie im <a href="../administration/target-mappings.md">entsprechenden Handbuch</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -610,7 +715,7 @@ Die folgenden Funktionen und Verbesserungen sind ab der Version Februar verfügb
 <td>
 <p>Sie können jetzt auf die Details eines Schemas zugreifen, indem Sie dessen Namen in der Liste auswählen. Die Bearbeitung benutzerdefinierter Felder ist jetzt über die Schaltfläche <b>Benutzerdefinierte Felder bearbeiten</b> in den Schemadetails verfügbar.</p>
 <img src="assets/do-not-localize/schemas.gif">
-<p>Weitere Informationen finden Sie in der <a href="../administration/schemas.md">entsprechenden Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie im <a href="../administration/schemas.md">entsprechenden Handbuch</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -636,7 +741,7 @@ Die folgenden Funktionen und Verbesserungen sind ab der Version Januar verfügba
 <td>
 <p>Visuelle Fragmente sind vordefinierte visuelle Bausteine, die Sie in mehreren E-Mail-Sendungen oder in Inhaltsvorlagen wiederverwenden können. Diese Funktion steht nun allen Kundinnen und Kunden mit Serverbuild 8.6.4 und höher zur Verfügung.</p>
 <img src="assets/do-not-localize/visual-fragment.gif">
-<p>Weitere Informationen finden Sie in der <a href="../content/use-visual-fragments.md">entsprechenden Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie im <a href="../content/use-visual-fragments.md">entsprechenden Handbuch</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -653,7 +758,7 @@ Die folgenden Funktionen und Verbesserungen sind ab der Version Januar verfügba
 <td>
 <p>In der Campaign Web-Benutzeroberfläche können nun externe Sendungen und Versandvorlagen definiert werden. In diesem Modus werden Nachrichten in einer Ausgabedatei zusammengefasst, die für einen externen Anbieter freigegeben werden kann. Standardmäßig wird der externe Versandmodus für den Briefpostkanal verwendet.</p>
 <img src="assets/do-not-localize/external-delivery.gif">
-<p>Weitere Informationen finden Sie in der <a href="../msg/send-external-deliveries.md">entsprechenden Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie im <a href="../msg/send-external-deliveries.md">entsprechenden Handbuch</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -670,7 +775,7 @@ Die folgenden Funktionen und Verbesserungen sind ab der Version Januar verfügba
 <td>
 <p>Sie können Aufzählungen nun direkt über die Adobe Campaign Web-Benutzeroberfläche erstellen. Eine Aufzählung ist eine Liste von Werten, die vom System zum Auffüllen von Feldern vorgeschlagen werden. Verwenden Sie Aufzählungen, um die Werte dieser Felder zu standardisieren, die Dateneingabe zu unterstützen oder sie in Abfragen zu verwenden.</p>
 <img src="assets/do-not-localize/enumerations.gif">
-<p>Weitere Informationen finden Sie in der <a href="../administration/enumerations.md">entsprechenden Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie im <a href="../administration/enumerations.md">entsprechenden Handbuch</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -687,7 +792,7 @@ Die folgenden Funktionen und Verbesserungen sind ab der Version Januar verfügba
 <td>
 <p>Sie können nun in der Adobe Campaign Web-Benutzeroberfläche auf technische Optionen zugreifen und eigene benutzerdefinierte Optionen entsprechend Ihren Anforderungen erstellen. Dies ist besonders nützlich, wenn Sie mit JavaScript-Code-Workflow-Aktivitäten arbeiten, um Zwischenergebnisse zu speichern.</p>
 <img src="assets/do-not-localize/options.gif">
-<p>Weitere Informationen finden Sie in der <a href="../administration/options.md">entsprechenden Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie im <a href="../administration/options.md">entsprechenden Handbuch</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -705,7 +810,7 @@ Die folgenden Funktionen und Verbesserungen sind ab der Version Januar verfügba
 <td>
 <p>Sie können nun JavaScript-Code in der Adobe Campaign Web-Benutzeroberfläche erstellen. Auf diese Weise können Sie wiederverwendbare Funktionen erstellen, die in Workflows genutzt werden können, ähnlich wie bei einer Bibliothek.</p>
 <img src="assets/do-not-localize/javascript.gif">
-<p>Weitere Informationen finden Sie in der <a href="../administration/javascript-codes.md">entsprechenden Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie im <a href="../administration/javascript-codes.md">entsprechenden Handbuch</a>.</p>
 </td>
 </tr>
 </tbody>

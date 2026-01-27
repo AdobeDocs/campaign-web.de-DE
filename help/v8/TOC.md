@@ -5,10 +5,10 @@ user-guide-description: Produktdokumentation zur Adobe Campaign Web-Benutzerober
 title: Dokumentation zu Adobe Campaign Web
 description: Dokumentation zu Campaign Web
 breadcrumb-title: Campaign Web-Benutzeroberfläche
-source-git-commit: 336845c8d21a39c9f9124a5c6f7d0667cd111dcb
-workflow-type: ht
-source-wordcount: '953'
-ht-degree: 100%
+source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
+workflow-type: tm+mt
+source-wordcount: '973'
+ht-degree: 98%
 
 ---
 
@@ -34,10 +34,10 @@ ht-degree: 100%
    + [Auswählen von Attributen und Hinzufügen dieser Auswahl zu den Favoriten](get-started/attributes.md)
    + [Berechtigungen](get-started/permissions.md)
    + [Campaign Web und Client-Konsole](get-started/capability-matrix.md)
-   + [Von Campaign Standard zu v8](rn/acs-migration.md)
+   + [Wechsel von Campaign Standard zu v8](rn/acs-migration.md)
    + [KI-gestützte Kontexthilfe](get-started/using-ai.md)
    + [Häufig gestellte Fragen](get-started/faq.md)
-+ Nachrichten und Sendungen {#msg}
+   + Nachrichten und Sendungen {#msg}
    + [Erste Schritte mit Nachrichten](msg/gs-messages.md)
    + [Zugreifen auf Sendungen](msg/gs-deliveries.md)
    + [Erstellen eines Versands](msg/create-deliveries.md)
@@ -45,17 +45,18 @@ ht-degree: 100%
    + E-Mails {#email}
       + [Erstellen Ihrer ersten E-Mail](email/create-email.md)
       + [Konfigurieren des E-Mail-Inhalts](email/edit-content.md)
+      + [Erstellen von Inhaltsexperimenten](email/ab-testing.md)
       + Senden und Überwachen der E-Mail {#monitor}
          + [Vorbereiten und Senden einer E-Mail](monitor/prepare-send.md)
          + [Versenden in mehreren Schüben](advanced-settings/send-using-waves.md)
          + [Überwachen von Versandlogs](monitor/delivery-logs.md)
          + [Planen des Sendevorgangs eines Versands](monitor/schedule-sending.md)
-   + Push-Benachrichtigungen {#push}
+   + Push-Benachrichtigungen  {#push}
       + [Erste Schritte mit Push-Benachrichtigungen](push/gs-push.md)
       + [Erstellen eines Push-Benachrichtigungs-Versands](push/create-push.md)
       + Rich-Push {#rich-push}
          + [Entwerfen eines Rich-Push-Versands für Android](push/rich-push.md)
-         + [Erstellen eines Rich-Push-Versands für iOS](push/rich-push-ios.md)
+         + [Erstellen eines Rich-Push-Versands in iOS](push/rich-push-ios.md)
       + [Entwerfen eines Push-Versands](push/content-push.md)
       + [Vorschau und Senden eines Push-Versands](push/send-push.md)
    + SMS {#sms}
@@ -63,7 +64,7 @@ ht-degree: 100%
       + [Erstellen eines SMS-Versands](sms/create-sms.md)
       + [Gestalten eines SMS-Versands](sms/content-sms.md)
       + [Vorschau und Senden eines SMS-Versands](sms/send-sms.md)
-   + Direkt-Mail {#direct-mail}
+   + Briefpost {#direct-mail}
       + [Erste Schritte mit Briefpostsendungen](direct-mail/gs-direct-mail.md)
       + [Erstellen eines Briefpostversands](direct-mail/create-direct-mail.md)
       + [Gestalten der Extraktionsdatei](direct-mail/content-direct-mail.md)
@@ -82,16 +83,16 @@ ht-degree: 100%
    + [Hinzufügen von Angeboten zu Ihren Nachrichten](msg/offers.md)
    + [Konfigurieren eines mehrsprachigen Versands](msg/multilingual.md)
    + [Versenden von Nachrichten an Ihre Abonnentinnen und Abonnenten](msg/send-to-subscribers.md)
-   + [Konfigurieren der Versandeinstellungen](advanced-settings/delivery-settings.md)
+   + [Versandeinstellungen konfigurieren](advanced-settings/delivery-settings.md)
    + Vorschau und Testen eines Versands {#preview-test}
       + [Vorschau und Testsendungen](preview-test/preview-test.md)
       + [Vorschau des Nachrichteninhalts](preview-test/preview-content.md)
-      + [Durchführen von Testsendungen](preview-test/test-deliveries.md)
+      + [Durchführen eines Testversands](preview-test/test-deliveries.md)
       + [Testen des E-Mail-Renderings](preview-test/email-rendering.md)
    + Versandwarnung {#delivery-alerting}
       + [Erste Schritte mit Versandwarnungen](msg/delivery-alerting.md)
       + [Versandwarnungs-Dashboards](msg/delivery-alerting-dashboards.md)
-      + [Versandwarnungskriterien](msg/delivery-alerting-criteria.md)
+      + [Versandwarnungsbedingungen        ](msg/delivery-alerting-criteria.md)
 + Content-Management {#content}
    + Erstellen dynamischer Inhalte {#dynamic-content}
       + [Wie lässt sich der Inhalt dynamisch gestalten?](personalization/gs-personalization.md)
@@ -108,7 +109,7 @@ ht-degree: 100%
          + [Verwenden visueller Fragmente in E-Mails](content/use-visual-fragments.md)
          + [Verwenden von Ausdrucksfragmenten im Ausdruckseditor](content/use-expression-fragments.md)
    + Entwerfen von E-Mails {#email-design}
-      + [Erste Schritte mit dem E-Mail-Designer](email/get-started-email-designer.md)
+      + [Erste Schritte mit E-Mail-Designer](email/get-started-email-designer.md)
       + Gestalten Ihrer E-Mail {#start-design}
          + [Beginnen von Grund auf](email/create-email-content.md)
          + [Importieren Ihrer E-Mail-Inhalte](email/existing-content.md)
@@ -137,7 +138,8 @@ ht-degree: 100%
       + [Anwendungsfälle für den KI-Assistenten](content/generative-uc.md)
       + Marken {#ai-assistant}
          + [Erstellen und Verwalten von Marken](content/brands.md)
-         + [Auswerten des Markenausrichtungswerts](content/brands-score.md)
+         + [Personalisieren Ihrer Marke](content/brands-personalize.md)
+         + [Inhalt auswerten](content/brands-score.md)
 + Landingpages {#landing-pages}
    + [Erste Schritte mit Landingpages](landing-pages/get-started-lp.md)
    + [Erstellen und Veröffentlichen einer Landingpage](landing-pages/create-lp.md)
@@ -155,7 +157,7 @@ ht-degree: 100%
       + [Arbeiten mit Testprofilen](audience/test-profiles.md)
    + Verwenden von Zielgruppen {#audiences}
       + [Erste Schritte mit Zielgruppen](audience/manage-audience.md)
-      + [Erstellen von Zielgruppen](audience/create-audience.md)
+      + [Zielgruppen erstellen](audience/create-audience.md)
    + Auswählen der Versandempfängerinnen und -empfänger {#target-audiences}
       + [Erste Schritte mit der Zielgruppenauswahl](audience/delivery-recipients.md)
       + [Auswählen einer bestehenden Zielgruppe](audience/add-audience.md)
@@ -170,16 +172,17 @@ ht-degree: 100%
    + [Erste Schritte mit Kampagnen](campaigns/gs-campaigns.md)
    + [Zugreifen auf und Verwalten von Kampagnen](campaigns/manage-campaigns.md)
    + [Erste Kampagne erstellen](campaigns/create-campaigns.md)
+   + [Einrichten und Verwalten des Validierungsprozesses](campaigns/campaign-approvals.md)
    + [Pläne und Programme](administration/plans-programs.md)
 + Workflows {#wf}
    + [Erste Schritte mit Workflows](workflows/gs-workflows.md)
-   + [Schutzmechanismen und Begrenzungen](get-started/guardrails.md)
+   + [Schutzmechanismen und Einschränkungen](get-started/guardrails.md)
    + [Workflow-Ereignisvariablen](workflows/event-variables.md)
    + [Zugriff auf Workflows und deren Verwaltung](workflows/access-monitor.md)
    + [Über schreibgeschützte Workflows](workflows/readonly-workflows.md)
    + Erstellen und Ausführen des ersten Workflows {#create-workflow}
       + [Grundlegende Prinzipien der Workflow-Erstellung](workflows/gs-workflow-creation.md)
-      + [Erstellen des Workflows](workflows/create-workflow.md)
+      + [Erstellen eines Workflows](workflows/create-workflow.md)
       + [Orchestrieren von Aktivitäten](workflows/orchestrate-activities.md)
       + [Konfigurieren von Workflow-Einstellungen](workflows/workflow-settings.md)
       + [Starten und Überwachen Ihres Workflows](workflows/start-monitor-workflows.md)
@@ -190,15 +193,16 @@ ht-degree: 100%
       + [Datenquelle ändern](workflows/activities/change-data-source.md)
       + [Dimensionsänderung](workflows/activities/change-dimension.md)
       + [Kombinieren](workflows/activities/combine.md)
+      + [Versand (fortlaufend)](workflows/activities/continuous-delivery.md)
       + [Deduplizierung](workflows/activities/deduplication.md)
       + [E-Mail, SMS, Push, Briefpost](workflows/activities/channels.md)
       + [Anreicherung](workflows/activities/enrichment.md)
       + [Externes Signal](workflows/activities/external-signal.md)
       + [Dateiextraktion](workflows/activities/extract-file.md)
-      + [Verzweigung ](workflows/activities/fork.md)
+      + [Verzweigung](workflows/activities/fork.md)
       + [Inkrementelle Abfrage](workflows/activities/incremental-query.md)
       + [JavaScript-Code](workflows/activities/javascript-code.md)
-      + [Datei laden ](workflows/activities/load-file.md)
+      + [Datei laden](workflows/activities/load-file.md)
       + [Abstimmung](workflows/activities/reconciliation.md)
       + [Zielgruppe speichern](workflows/activities/save-audience.md)
       + [Planung](workflows/activities/scheduler.md)
@@ -206,7 +210,7 @@ ht-degree: 100%
       + [Abonnementdienste](workflows/activities/subscription-services.md)
       + [Test](workflows/activities/test.md)
       + [Dateiübertragung](workflows/activities/transfer-file.md)
-      + [Daten-Update](workflows/activities/update-data.md)
+      + [Aktualisieren von Daten](workflows/activities/update-data.md)
       + [Warten](workflows/activities/wait.md)
 + Abfragen der Datenbank {#query-database}
    + [Arbeiten mit dem Abfrage-Modeler](query/query-modeler-overview.md)
@@ -255,7 +259,7 @@ ht-degree: 100%
          + [Versanddurchsatz](reporting/dynamic-reporting/delivery-throughput.md)
          + [Unzustellbare Nachrichten und Bounces](reporting/dynamic-reporting/non-deliverables-and-bounces.md)
          + [Öffnungen](reporting/dynamic-reporting/opens.md)
-         + [Trackingindikatoren](reporting/dynamic-reporting/tracking-indicators.md)
+         + [Tracking-Indikatoren](reporting/dynamic-reporting/tracking-indicators.md)
          + [Abmeldungen](reporting/dynamic-reporting/unsubscriptions.md)
          + [URLs und Clickstreams](reporting/dynamic-reporting/urls-and-click-streams.md)
       + Anpassen von Berichten {#customizing-reports}
@@ -263,11 +267,12 @@ ht-degree: 100%
          + [Visualisierungen hinzufügen](reporting/dynamic-reporting/adding-visualizations.md)
          + [Komponenten hinzufügen](reporting/dynamic-reporting/adding-components.md)
          + [Benutzerdefinierte Profildimension erstellen](reporting/dynamic-reporting/creating-a-custom-profile-dimension.md)
-         + [Nutzungsvereinbarung zu dynamischem Reporting](reporting/dynamic-reporting/pii-agreement.md)
+         + [Nutzungsvereinbarung zur dynamischen Berichterstattung](reporting/dynamic-reporting/pii-agreement.md)
 + Integrationen  {#integrations}
    + [Arbeiten mit anderen Adobe-Lösungen](integrations/integration.md)
    + [Verwalten von Assets mit Adobe Experience Manager Assets as a Cloud Service](integrations/aem-assets.md)
    + [Verwalten von Vorlagen mit Adobe Experience Manager as a Cloud Service](integrations/aem-content.md)
+   + [Verwalten von Sprachkopien mit Adobe Experience Manager](integrations/aem-multilingual.md)
    + [Arbeiten mit GenStudio for Performance Marketing](integrations/genstudio.md)
 + Konfiguration {#conf}
    + Branding {#branding}

@@ -3,10 +3,10 @@ audience: end-user
 title: Erstellen eines Push-Benachrichtigungs-Versands
 description: Erfahren Sie, wie Sie mit Adobe Campaign Web einen Versand für eine Push-Benachrichtigung erstellen
 exl-id: 49a3c05c-5806-4269-a98d-915eee216f90
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
 workflow-type: tm+mt
-source-wordcount: '738'
-ht-degree: 96%
+source-wordcount: '759'
+ht-degree: 94%
 
 ---
 
@@ -53,6 +53,8 @@ Konfigurieren Sie Ihre Versandeinstellungen wie unten beschrieben:
    * **[!UICONTROL Art]**: Geben Sie die Art des Versands zu Klassifizierungszwecken an.
    +++
 
+1. Sie können Ihre Push-Benachrichtigung als mehrsprachigen Versand konfigurieren, um Nachrichten basierend auf der bevorzugten Sprache eines Profils zu senden. [Weitere Informationen](../msg/multilingual.md).
+
 ## Auswählen der Zielgruppe für den Push-Versand {#create-audience-push}
 
 >[!CONTEXTUALHELP]
@@ -67,7 +69,7 @@ Sie müssen zuerst die App auswählen und können dann die Zielgruppe für Push-
 
    ![Screenshot mit der Zielgruppenauswahl für den Push-Versand](assets/push_create_2.png){zoomable="yes"}
 
-1. Wählen Sie eine vorhandene Zielgruppe aus oder erstellen Sie eine eigene Zielgruppe, um die Zielpopulation für Ihren Push-Versand zu verfeinern. Bei Push-Benachrichtigungen lautet [&#x200B; Standarddimension &#x200B;](../audience/about-recipients.md#targeting-dimensions)Abonnierte **Abonnierte Anwendung** (nms:appSubscriptionRcp), die mit der Empfängertabelle verknüpft ist.
+1. Wählen Sie eine vorhandene Zielgruppe aus oder erstellen Sie eine eigene Zielgruppe, um die Zielpopulation für Ihren Push-Versand zu verfeinern. Bei Push-Benachrichtigungen lautet [ Standarddimension ](../audience/about-recipients.md#targeting-dimensions)Abonnierte **Abonnierte Anwendung** (nms:appSubscriptionRcp), die mit der Empfängertabelle verknüpft ist.
 
    Weitere Informationen dazu, wie Sie eine vorhandene Zielgruppe auswählen, finden Sie auf [dieser Seite](../audience/add-audience.md).
 

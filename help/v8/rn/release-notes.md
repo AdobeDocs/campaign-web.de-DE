@@ -2,10 +2,10 @@
 title: Versionshinweise zur Web-Benutzeroberfläche von Campaign v8
 description: Entdecken Sie die neuen Funktionen der neuesten Version der Campaign Web-Benutzeroberfläche
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: ca1a437f8a8a25c0a15b9148e9c73271795f16c7
+source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
 workflow-type: tm+mt
-source-wordcount: '506'
-ht-degree: 100%
+source-wordcount: '700'
+ht-degree: 30%
 
 ---
 
@@ -20,43 +20,28 @@ Die Versionen der Adobe Campaign Web-Benutzeroberfläche basieren auf einem kont
 
 Änderungen und Verbesserungen, die in früheren Versionen verfügbar sind, sind auf den Seiten für [2024](release-notes-24.md) und [2025](release-notes-25.md) aufgeführt.
 
-## Version Oktober 2025 {#25-10-updates}
+## Version Januar &#39;26 {#26-1-release}
 
-_3. November 2025_
+_27. Januar 2026_
+
+### Neue Funktionen {#26-1-features}
 
 <table>
 <thead>
 <tr>
-<th><strong>Mehrsprachige Funktionen für Transaktionsnachrichten, Push-Benachrichtigungen und SMS (eingeschränkte Verfügbarkeit)</strong><br/></th> 
+<th><strong>Mehrsprachige Bereitstellungsfunktionen (GA)</strong><br/></th> 
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Sie können über die Adobe Campaign Web-Benutzeroberfläche jetzt mehrere Transaktionsnachrichten, Push-Benachrichtigungen und SMS-Nachrichten in verschiedenen Sprachen versenden. Mit der Funktion „Mehrsprachiger Versand“ können Sie die Standardsprache Ihres Versands sowie die verschiedenen Sprachen festlegen, in denen der Versand durchgeführt werden kann. Sie können diese Sendungen auch in einer Vorschau in den von Ihnen ausgewählten Sprachen anzeigen.</p>
-<p>Hinweis: Diese Funktion ist nur für eine bestimmte Gruppe von Unternehmen verfügbar (eingeschränkte Verfügbarkeit) und wird in einer zukünftigen Version global eingeführt.</p>
-<p>Weitere Informationen finden Sie in der <a href="../msg/multilingual.md">entsprechenden Dokumentation</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<!--
-* Enable OOTB File Upload for Multi-lingual Push Notification Deliveries. 
--->
-
-<table>
-<thead>
-<tr>
-<th><strong>Profilanreicherung in Transaktionsnachrichten (eingeschränkte Verfügbarkeit)</strong><br/></th> 
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Mit dieser Funktion können Sie Transaktionsnachrichten personalisieren, indem Sie Adobe Campaign-Datenbankfelder mit dem Nachrichteninhalt verknüpfen. Sie können Zielgruppen-Mappings, Anreicherungsspalten und einen Abstimmschlüssel auswählen, um präzise Echtzeit-Personalisierung unter Einhaltung der Leistungsschwellen sicherzustellen.</p>
-<p>Hinweis: Diese Funktion ist nur für eine bestimmte Gruppe von Unternehmen verfügbar (eingeschränkte Verfügbarkeit) und wird in einer zukünftigen Version global eingeführt. Diese Funktion ist derzeit nur für E-Mails verfügbar.</p>
-<p>Weitere Informationen finden Sie in der <a href="../transactional-messaging/profile-enrichment.md">entsprechenden Dokumentation</a>.</p>
+<p>Die Funktion zur Bereitstellung in mehreren Sprachen steht nun allen Kunden zur Verfügung. Mit dieser Funktion können Sie mehrere Nachrichten in verschiedenen Sprachen in der Web-Benutzeroberfläche von Adobe Campaign senden. Sie können die Standardsprache Ihres Versands sowie die verschiedenen Sprachen auswählen, in denen der Versand durchgeführt werden kann. Sie können diese Sendungen auch in einer Vorschau in den von Ihnen ausgewählten Sprachen anzeigen. 
+<p>Weitere Informationen finden Sie im <a href="../msg/multilingual.md">entsprechenden Handbuch</a>.</p>
+<p>Die folgenden Verbesserungen wurden an mehrsprachigen Push-Benachrichtigungen vorgenommen:</p>
+<ul>
+<li>Sie können jetzt alle Sprachvarianten schnell füllen, indem Sie eine CSV-Datei mit mehrsprachigen Inhalten hochladen. <a href="../msg/multilingual.md#csv-upload">Weitere Informationen</a>
+</li>
+<li>Rich-Push-Benachrichtigungen werden jetzt unterstützt.</li>
 </td>
 </tr>
 </tbody>
@@ -65,14 +50,14 @@ _3. November 2025_
 <table>
 <thead>
 <tr>
-<th><strong>Integration mit Adobe GenStudio</strong><br/></th>
+<th><strong>Profilanreicherung in Transaktionsnachrichten (GA)</strong><br/></th> 
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Um die Marketing-Effizienz zu steigern und die Markenkonsistenz zu wahren, können Sie Erlebnisse aus GenStudio for Performance Marketing nahtlos mit Campaign integrieren. Auf diese Weise können Sie die KI-gestützte Content-Erstellung von GenStudio zusammen mit den erweiterten Orchestrierungsfunktionen von Campaign nutzen.<p>
-<p>Weitere Informationen finden Sie in der <a href="../integrations/genstudio.md">entsprechenden Dokumentation</a>.</p>
+<p>Die Funktion Profilanreicherung in Transaktionsnachrichten steht nun allen Kunden (GA) zur Verfügung. Zusätzlich zu E-Mails werden jetzt auch SMS- und Push-Benachrichtigungen unterstützt. Mit dieser Funktion können Sie Transaktionsnachrichten personalisieren, indem Sie Adobe Campaign-Datenbankfelder mit dem Nachrichteninhalt verknüpfen. Sie können Zielgruppen-Mappings, Anreicherungsspalten und einen Abstimmschlüssel auswählen, um präzise Echtzeit-Personalisierung unter Einhaltung der Leistungsschwellen sicherzustellen.</p>
+<p>Weitere Informationen finden Sie im <a href="../transactional-messaging/profile-enrichment.md">entsprechenden Handbuch</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -81,47 +66,71 @@ _3. November 2025_
 <table>
 <thead>
 <tr>
-<th><strong>Unterstützung für den dunklen Modus im E-Mail-Designer</strong><br/></th> 
+<th><strong>Adobe Experience Manager Live Copies und Sprachkopien</strong><br/></th> 
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Der E-Mail-Designer bietet jetzt die Möglichkeit, in den dunklen Modus zu wechseln, in dem Sie zusätzlich spezifische benutzerdefinierte Einstellungen festlegen können. Beachten Sie, dass das endgültige Rendern vom E-Mail-Client der oder des Empfangenden abhängt. Nicht alle E-Mail-Clients unterstützen den dunklen Modus.</p>
-<p>Weitere Informationen finden Sie in der <a href="../email/dark-mode.md">entsprechenden Dokumentation</a>.</p>
+<p>Durch die Adobe Experience Manager-Inhaltsintegration können Sie direkt in Campaign auf alle in Adobe Experience Manager erstellten Sprach- und Live Copies zugreifen, wenn Sie Sendungen erstellen. Sie können Inhalte in Echtzeit aktualisieren, um die neuesten Adobe Experience Manager-Versionen abzurufen. Durch diese Integration wird die manuelle Synchronisierung von Inhalten zwischen Adobe Experience Manager und Campaign überflüssig, was den mehrsprachigen Kampagnen-Workflow optimiert.</p>
+<p>Weitere Informationen finden Sie im <a href="../integrations/aem-multilingual.md">entsprechenden Handbuch</a>.</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-<!-- table>
+<table>
 <thead>
 <tr>
-<th><strong>Continuous delivery activity</strong><br/></th> not ready
+<th><strong>Inhaltsexperimente - A/B-Tests</strong><br/></th> 
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Continuous delivery activity</p>
-<p>For more information, refer to the detailed documentation.</p>
+<p>Mit Inhaltsexperimenten in Adobe Campaign Web können Sie mehrere Varianten von A/B-Tests für die Bereitstellung definieren, um zu messen, welche für Ihre Zielgruppe am besten geeignet ist. Sie können Versandinhalt, Betreff oder Absender variieren, um verschiedene Versionen zu testen und festzustellen, welche Variante die besten Ergebnisse erzielt. Sie können A/B-Tests für verschiedene E-Mail-Elemente durchführen, z. B. Betreffzeile, Absendername und E-Mail-Textinhalt.</p>
+<p>Weitere Informationen finden Sie im <a href="../email/ab-testing.md">entsprechenden Handbuch</a>.</p>
 </td>
 </tr>
 </tbody>
-</table-->
+</table>
 
-### Verbesserungen {#25-10-improvements}
+<table>
+<thead>
+<tr>
+<th><strong>Kontinuierliche Versandaktivität</strong><br/></th> 
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Die Aktivität Versand (fortlaufend) ermöglicht das Hinzufügen neuer Empfänger zu einem bestehenden Versand. Bei diesem Versandtyp muss nicht jedes Mal ein neuer Versand erstellt werden, was ihn effizienter für Benachrichtigungen oder Benachrichtigungen mit geringem Volumen macht, die nach Bedarf gesendet werden. Bei einem fortlaufenden Versand wird eine einzige Versandinstanz erstellt. Alle Versandlogs (broadLog) und Trackinglogs verweisen auf diesen Versand und vereinfachen die Überwachung und das Reporting.</p>
+<p>Weitere Informationen finden Sie im <a href="../workflows/activities/continuous-delivery.md">entsprechenden Handbuch</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
-* In Sendungen, die in der Client-Konsole erstellt wurden, zeigt der Abschnitt **Zielgruppe** jetzt an, ob eine dynamische Bedingung für Testversandziele definiert wurde. <!-- [Learn more](../msg/gs-deliveries.md#access)-->
+<table>
+<thead>
+<tr>
+<th><strong>Validierungsverwaltung für Kampagnen</strong><br/></th> 
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Der Validierungsprozess hilft, mehrere Stakeholder zu koordinieren, und stellt die Qualitätskontrolle vor dem Versand sicher. Verwenden Sie Validierungen, wenn Ihr Unternehmen die Validierung durch verschiedene Teams erfordert, z. B. durch Marketing-Manager, die Inhalte überprüfen, oder durch Datenanalysten, die Zielgruppen validieren.</p>
+<p>Weitere Informationen finden Sie im <a href="../campaigns/campaign-approvals.md">entsprechenden Handbuch</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
-* Beim Einrichten einer Bedingung mit der Funktion für bedingte Inhalte des E-Mail-Designers können Sie jetzt zwischen dem neuen und dem alten Regel-Builder wechseln. <!-- [Learn more](../personalization/conditions.md#condition-condition-builder)-->
+### Verbesserungen {#26-1-improvements}
 
-* Sie können jetzt in der Bildschirmdefinition des Empfängerschemas Sammlungs-Links wie Käufe auswählen. Dadurch werden die zugehörigen Daten über eine dedizierte Registerkarte auf Profilbildschirmen angezeigt. <!-- [Learn more](../administration/schemas.md#collection-lists)-->
-
-* Als Campaign-Admin können Sie jetzt Verbindungen zu Salesforce CRM und Microsoft Dynamics einrichten.
-  [Weitere Informationen](../administration/external-crm.md)
-
-<!--
-* Stop button for deliveries not linked to release and no info
--->
-
+* Dynamische Berichte unterstützen jetzt Push-Benachrichtigungen und SMS. [Weitere Informationen](../reporting/dynamic-reporting/get-started-reporting.md)
+* Vordefinierte Filter - Mit der neuen Option „Freigegebener Filter“ können Sie einen vordefinierten Filter für andere Benutzer in Ihrer Organisation verfügbar machen. [Weitere Informationen](../get-started/predefined-filters.md#share-filter)
+* In Adobe Experience Manager erstellte Personalisierungsfelder wie Name, E-Mail, Datum und Adresse sind jetzt bei der Verwendung von Inhaltsvorlagen enthalten und verfügbar.
+* Die Bewertung der Inhaltsqualität prüft jetzt Probleme mit Lesbarkeit, Kohärenz und Effektivität unabhängig von Markenrichtlinien und erkennt unklare Botschaften, inkonsistenten Ton oder strukturelle Lücken. [Weitere Informationen](../content/brands-score.md)
+* Markenrichtlinien enthalten jetzt einen Abschnitt Farben , der Standards für das Farbsystem Ihrer Marke definiert und die konsistente Verwendung von primären, sekundären, Akzent- und neutralen Farben für alle Erlebnisse sicherstellt. [Weitere Informationen](../content/brands-personalize.md)
