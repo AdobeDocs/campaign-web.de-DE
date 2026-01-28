@@ -2,10 +2,10 @@
 title: Versionshinweise zur Web-Benutzeroberfläche von Campaign v8
 description: Entdecken Sie die neuen Funktionen der neuesten Version der Campaign Web-Benutzeroberfläche
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
+source-git-commit: 36d2b7a67ef087d628151199a223ceee54f84180
 workflow-type: tm+mt
-source-wordcount: '700'
-ht-degree: 30%
+source-wordcount: '670'
+ht-degree: 31%
 
 ---
 
@@ -133,4 +133,3 @@ _27. Januar 2026_
 * Vordefinierte Filter - Mit der neuen Option „Freigegebener Filter“ können Sie einen vordefinierten Filter für andere Benutzer in Ihrer Organisation verfügbar machen. [Weitere Informationen](../get-started/predefined-filters.md#share-filter)
 * In Adobe Experience Manager erstellte Personalisierungsfelder wie Name, E-Mail, Datum und Adresse sind jetzt bei der Verwendung von Inhaltsvorlagen enthalten und verfügbar.
 * Die Bewertung der Inhaltsqualität prüft jetzt Probleme mit Lesbarkeit, Kohärenz und Effektivität unabhängig von Markenrichtlinien und erkennt unklare Botschaften, inkonsistenten Ton oder strukturelle Lücken. [Weitere Informationen](../content/brands-score.md)
-* Markenrichtlinien enthalten jetzt einen Abschnitt Farben , der Standards für das Farbsystem Ihrer Marke definiert und die konsistente Verwendung von primären, sekundären, Akzent- und neutralen Farben für alle Erlebnisse sicherstellt. [Weitere Informationen](../content/brands-personalize.md)
