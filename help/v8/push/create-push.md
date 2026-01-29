@@ -16,7 +16,7 @@ ht-degree: 93%
 >id="acw_push_notification_template"
 >title="Vorlage für Push-Benachrichtigungen"
 >abstract="Wählen Sie eine Vorlage für Push-Benachrichtigungen aus, um Ihren Push-Versand zu starten. Versandvorlagen ermöglichen die einfache Wiederverwendung benutzerdefinierter Inhalte und Einstellungen in allen Kampagnen und Sendungen."
->additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/delivery-template" text="Verwenden von Versandvorlagen"
+>additional-url="https://experienceleague.adobe.com/de/docs/campaign-web/v8/start/delivery-template" text="Verwenden von Versandvorlagen"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_properties"
