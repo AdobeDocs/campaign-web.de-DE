@@ -2,7 +2,7 @@
 audience: end-user
 title: Konfigurieren eines mehrsprachigen Versands
 description: Informationen zum Konfigurieren eines mehrsprachigen Versands
-source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
+source-git-commit: 926ebfbe775a7af809fa80175c6baed15fd761f5
 workflow-type: tm+mt
 source-wordcount: '1484'
 ht-degree: 39%
@@ -249,5 +249,5 @@ Während des Versands ersetzt Campaign diese Platzhalter durch die tatsächliche
 | Falsch formatiertes JSON | customFields-Spalte enthält ungültiges JSON | Stellen Sie sicher, dass die JSON-Syntax korrekt ist: `{"key":"value"}` oder leer lassen |
 | Groß-/Kleinschreibung des Spaltennamens stimmt nicht überein | Spaltennamen stimmen nicht genau überein | Bei Spaltennamen wird zwischen Groß- und Kleinschreibung unterschieden. Verwenden Sie die oben aufgeführten exakten Namen (z. B. `badge`, nicht `Badge` oder `BADGE`). |
 
->Best Practices sind in diesem Abschnitt [&#128279;](#csv-best-practices). Die Spaltenstruktur wird in diesem [Abschnitt](#csv-columns) beschrieben.
+>Best Practices sind in diesem Abschnitt [](#csv-best-practices). Die Spaltenstruktur wird in diesem [Abschnitt](#csv-columns) beschrieben.
 
