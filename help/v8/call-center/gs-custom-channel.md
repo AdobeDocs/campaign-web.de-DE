@@ -3,20 +3,14 @@ audience: end-user
 title: Erste Schritte mit benutzerdefinierten Kanälen
 description: Erfahren Sie, wie Sie mit Adobe Campaign Web Sendungen für benutzerdefinierte Kanäle erstellen und durchführen
 exl-id: b4336a0a-d845-4024-a06b-400fce1316a4
-source-git-commit: 3943a045cd8412fb5b702f3b3fb623af4941e0a8
+source-git-commit: f772e19fd033b007680777f75b48775b6d7851b9
 workflow-type: tm+mt
-source-wordcount: '700'
+source-wordcount: '663'
 ht-degree: 99%
 
 ---
 
 # Erste Schritte mit benutzerdefinierten Kanälen {#gs-custom-channel}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn1"
->title="Benutzerdefinierter Kanal für API-Sendungen"
->abstract="Sie können nun Sendungen direkt über die Adobe Campaign Web-Benutzeroberfläche orchestrieren und auf Grundlage benutzerdefinierter API-Kanäle ausführen. Diese Sendungen können eigenständig oder Teil eines Workflows sein."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=de" text="Siehe Versionshinweise"
 
 Sie können Sendungen direkt über die Adobe Campaign Web-Benutzeroberfläche orchestrieren und auf Grundlage von benutzerdefinierten, mit Drittanbietern integrierten Kanälen ausführen. Die Konfiguration des benutzerdefinierten Kanals erfolgt in der Client-Konsole.
 
@@ -38,11 +32,11 @@ Gehen Sie wie folgt vor, um einen eigenständigen, benutzerdefinierten Versand d
 
 Zunächst müssen Sie den benutzerdefinierten Kanal konfigurieren. Im Folgenden finden Sie die wichtigsten Schritte, die in der Client-Konsole ausgeführt werden müssen. Diese Schritte gelten für benutzerdefinierte externe Kanäle und API-Kanäle:
 
-1. Konfigurieren Sie das Schema, um den neuen Kanal zur Liste der verfügbaren Kanäle hinzuzufügen. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/other-channels/custom-channel.html?lang=de#configure-schema){target="_blank"}
-1. Erstellen Sie ein neues externes Konto „Routing“. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/other-channels/custom-channel.html?lang=de#create-ext-account){target="_blank"}
-1. Erstellen Sie eine neue Versandvorlage, die mit dem neuen Kanal verknüpft ist. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/other-channels/custom-channel.html?lang=de#create-template){target="_blank"}
+1. Konfigurieren Sie das Schema, um den neuen Kanal zur Liste der verfügbaren Kanäle hinzuzufügen. [Mehr dazu](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/other-channels/custom-channel.html#configure-schema){target="_blank"}
+1. Erstellen Sie ein neues externes Konto „Routing“. [Mehr dazu](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/other-channels/custom-channel.html#create-ext-account){target="_blank"}
+1. Erstellen Sie eine neue Versandvorlage, die mit dem neuen Kanal verknüpft ist. [Mehr dazu](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/other-channels/custom-channel.html#create-template){target="_blank"}
 
-Benutzerdefinierte API-Kanäle erfordern eine zusätzliche Konfiguration. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/other-channels/custom-channel.html?lang=de#api-additional){target="_blank"}
+Benutzerdefinierte API-Kanäle erfordern eine zusätzliche Konfiguration. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/other-channels/custom-channel.html#api-additional){target="_blank"}
 
 ## Erstellen des Versands{#create-delivery}
 
@@ -60,7 +54,7 @@ Führen Sie die folgenden Schritte aus, um den Versand zu erstellen und seine Ei
 
 Weitere Informationen zum Erstellen eines Versands finden Sie in der [Dokumentation](../call-center/create-call-center.md#create-delivery) zum Callcenter.
 
-## Definieren der Zielgruppe{#select-audience}
+## Zielgruppe definieren{#select-audience}
 
 Definieren Sie nun die Zielgruppe.
 
@@ -90,7 +84,7 @@ Bearbeiten wir nun den Inhalt des Versands.
 
 1. Klicken Sie im Versand-Dashboard auf die Schaltfläche **[!UICONTROL Inhalt bearbeiten]**.
 
-1. Füllen Sie die Felder nach Bedarf aus. Informationen zur Einrichtung dieses Bildschirms finden Sie auf dieser [Seite](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/other-channels/custom-channel.html?lang=de#api-additional-screen){target="_blank"}.
+1. Füllen Sie die Felder nach Bedarf aus. Informationen zur Einrichtung dieses Bildschirms finden Sie auf dieser [Seite](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/other-channels/custom-channel.html#api-additional-screen){target="_blank"}.
 
    ![Screenshot mit den Konfigurationsoptionen für Attribute für den API-Kanal.](assets/cc-content-attributes-api.png)
 
@@ -118,7 +112,7 @@ Wenn der Versandinhalt fertig ist, können Sie ihn mithilfe von Testprofilen in 
 
 1. Klicken Sie auf der Seite mit dem Versandinhalt auf die Schaltfläche **[!UICONTROL Inhalte simulieren]** und wählen Sie „Testprofile“ aus.
 
-1. Klicken Sie auf der rechten Seite auf **Vorschau öffnen**. Diese Funktion muss mithilfe von JSSP konfiguriert werden. Mehr dazu erfahren Sie auf [dieser Seite](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/other-channels/custom-channel.html?lang=de#api-additional-preview){target="_blank"}.
+1. Klicken Sie auf der rechten Seite auf **Vorschau öffnen**. Diese Funktion muss mithilfe von JSSP konfiguriert werden. Mehr dazu erfahren Sie auf [dieser Seite](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/other-channels/custom-channel.html#api-additional-preview){target="_blank"}.
 
    ![Screenshot mit der Option „Inhalte simulieren“ auf der Seite für den Versandinhalt für API](assets/cus-simulate-api.png){zoomable="yes"}
 

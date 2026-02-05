@@ -2,14 +2,20 @@
 audience: end-user
 title: Verwenden der Workflow-Aktivität „Fortlaufender Versand“
 description: Erfahren Sie, wie Sie die Workflow-Aktivität „Fortlaufender Versand“ verwenden
-source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
+source-git-commit: f772e19fd033b007680777f75b48775b6d7851b9
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '280'
 ht-degree: 6%
 
 ---
 
 # Versand (fortlaufend) {#continuous-delivery}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn5"
+>title="Kontinuierliche Versandaktivität"
+>abstract="Sie können jetzt neue Empfänger zu einem vorhandenen Versand hinzufügen. Bei diesem Versandtyp muss nicht jedes Mal ein neuer Versand erstellt werden, was ihn effizienter für Benachrichtigungen oder Benachrichtigungen mit geringem Volumen macht, die nach Bedarf gesendet werden."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=de" text="Siehe Versionshinweise"
 
 Die Aktivität **Fortlaufender Versand** ermöglicht es Ihnen, einem bestehenden Versand neue Empfänger hinzuzufügen. Bei diesem Versandtyp muss nicht jedes Mal ein neuer Versand erstellt werden, was ihn effizienter für Benachrichtigungen oder Benachrichtigungen mit geringem Volumen macht, die nach Bedarf gesendet werden.
 

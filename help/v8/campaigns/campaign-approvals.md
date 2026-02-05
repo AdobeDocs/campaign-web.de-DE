@@ -3,14 +3,20 @@ audience: end-user
 title: Einrichten und Verwalten des Validierungsprozesses
 description: Erfahren Sie, wie Sie in Campaign Web Validierungen von Marketing-Kampagnen verwalten.
 feature: Approvals, Campaigns
-source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
+source-git-commit: f772e19fd033b007680777f75b48775b6d7851b9
 workflow-type: tm+mt
-source-wordcount: '694'
-ht-degree: 4%
+source-wordcount: '723'
+ht-degree: 5%
 
 ---
 
 # Genehmigungsprozess verwalten {#campaign-approvals}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn6"
+>title="Validierungsverwaltung für Kampagnen"
+>abstract="Sie können jetzt die Validierung durch Stakeholder koordinieren, bevor Sie Sendungen durchführen. Sie benötigen Genehmigungen von Marketing-Managern, Datenanalysten oder anderen Teams zur Qualitätskontrolle."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=de" text="Siehe Versionshinweise"
 
 >[!IMPORTANT]
 >

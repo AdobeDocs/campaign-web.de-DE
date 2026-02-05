@@ -7,10 +7,10 @@ hide: true
 robots: noindex
 googlebot: noindex
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: eb18e2cfc97c13bb0cffac0f8a5bcfa5b18ceabb
+source-git-commit: f772e19fd033b007680777f75b48775b6d7851b9
 workflow-type: tm+mt
-source-wordcount: '1519'
-ht-degree: 100%
+source-wordcount: '1525'
+ht-degree: 99%
 
 ---
 
@@ -140,6 +140,7 @@ Im Abschnitt **Kunden-Management** können Sie Ihre Profile, Zielgruppen und Abo
 >id="acw_offers_list"
 >title="Angebote"
 >abstract="Durchsuchen Sie die Listen mit Angeboten und Angebotsvorlagen, die in der Konsole erstellt wurden, mithilfe des Moduls **Interaktion**. Diese Listen sind schreibgeschützt."
+>additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/offers" text="Hinzufügen von Angeboten zu einem Versand"
 
 Im Abschnitt **Entscheidungs-Management** können Sie die Angebote und Angebotsvorlagen anzeigen. Diese Listen sind schreibgeschützt.
 

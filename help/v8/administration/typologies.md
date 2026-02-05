@@ -3,20 +3,14 @@ audience: end-user
 title: Arbeiten mit Geschäftsregeln (Typologien)
 description: Erfahren Sie, wie Sie mit Typologien und Typologieregeln arbeiten können, um den Versand von Sendungen zu steuern, zu filtern und zu überwachen.
 exl-id: 54fdd03a-e49d-4f22-b6d4-6055c8922e58
-source-git-commit: 6bc40942166531d9adb94a9ce2a691ddd031a005
-workflow-type: ht
-source-wordcount: '1506'
+source-git-commit: f772e19fd033b007680777f75b48775b6d7851b9
+workflow-type: tm+mt
+source-wordcount: '1475'
 ht-degree: 100%
 
 ---
 
 # Arbeiten mit Geschäftsregeln (Typologien) {#typologies}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn3"
->title="Geschäftsregeln"
->abstract="Sie können jetzt Typologien und Typologieregeln in der Adobe Campaign Web-Benutzeroberfläche erstellen. Mit Typologien können Sie die Durchführung von Sendungen steuern, filtern und priorisieren."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=de" text="Siehe Versionshinweise"
 
 >[!CONTEXTUALHELP]
 >id="acw_business_rules"
@@ -25,7 +19,7 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="acw_business_rules_typology_rules_type"
->title="Filterung"
+>title="Filter"
 >abstract=" Es stehen zwei Arten von Typologieregeln zur Verfügung: <br/><br/>**Steuerungsregeln**, die vor dem Versand die Qualität und Gültigkeit der Nachrichten sicherstellen, z. B. Zeichenanzeige, SMS-Länge, Adressformat oder URL-Verkürzung. Und <br/><br/>**Filterregeln**, die Segmente der Zielgruppe anhand bestimmter Kriterien wie Alter, Standort, Land oder Telefonnummern ausschließen. "
 
 ## Über Typologien
@@ -73,7 +67,7 @@ Gehen Sie wie folgt vor, um eine Typologie zu erstellen:
 
    >[!NOTE]
    >
-   >Mit dem Feld **[!UICONTROL IP-Affinität]** können Sie IP-Affinitäten mit Typologien verknüpfen. Hierdurch können Sie den ausgehenden SMTP-Traffic besser steuern. Legen Sie dazu fest, welche IP-Adressen jeweils für die einzelnen Affinitäten verwendet werden können. So können Sie beispielsweise eine Affinität pro Land oder Subdomain verwenden. Dann können Sie für jedes Land eine Typologie erstellen und jede Affinität mit der entsprechenden Typologie verbinden.
+   >Mit dem Feld **[!UICONTROL IP-Affinität]** können Sie IP-Affinitäten mit Typologien verknüpfen. Hierdurch können Sie den ausgehenden SMTP-Traffic besser steuern. Legen Sie dazu fest, welche IP-Adressen jeweils für die einzelnen Affinitäten verwendet werden können. So können Sie beispielsweise eine Affinität pro Land oder Sub-Domain verwenden. Dann können Sie für jedes Land eine Typologie erstellen und jede Affinität mit der entsprechenden Typologie verbinden.
 
 1. Klicken Sie auf **[!UICONTROL Erstellen]**, um die Erstellung der Typologie zu bestätigen.
 
@@ -110,7 +104,7 @@ Gehen Sie wie folgt vor, um eine Typologieregel zu erstellen:
 
 >[!CONTEXTUALHELP]
 >id="acw_business_rules_typology_rules_filtering"
->title="Filterung"
+>title="Filter"
 >abstract="**Filterregeln** schließen Segmente der Zielgruppe basierend auf bestimmten Kriterien wie Alter, Standort, Land oder Telefonnummern aus. Wählen Sie die Zielgruppendimension der Typologieregel aus und klicken Sie auf die Schaltfläche **[!UICONTROL Regeln hinzufügen]**, um auf den Abfrage-Modeler zuzugreifen und die Regel zu erstellen."
 
 >[!CONTEXTUALHELP]
@@ -162,7 +156,7 @@ Dies sind die wichtigsten Eigenschaften, die beim Erstellen einer neuen Typologi
 
    ![Code-Editor für Steuerungsregeln](assets/business-rules-code.png)
 
-1. Klicken Sie auf **Erstellen**.
+1. Wählen Sie **Erstellen** aus.
 
 
 >[!TAB Filterregeln]
