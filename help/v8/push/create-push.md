@@ -3,10 +3,10 @@ audience: end-user
 title: Erstellen eines Push-Benachrichtigungs-Versands
 description: Erfahren Sie, wie Sie mit Adobe Campaign Web einen Versand für eine Push-Benachrichtigung erstellen
 exl-id: 49a3c05c-5806-4269-a98d-915eee216f90
-source-git-commit: f772e19fd033b007680777f75b48775b6d7851b9
+source-git-commit: 93525fd1900c3a667051720205219ae5f9884736
 workflow-type: tm+mt
 source-wordcount: '759'
-ht-degree: 93%
+ht-degree: 94%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 93%
 >id="acw_push_notification_template"
 >title="Vorlage für Push-Benachrichtigungen"
 >abstract="Wählen Sie eine Vorlage für Push-Benachrichtigungen aus, um Ihren Push-Versand zu starten. Versandvorlagen ermöglichen die einfache Wiederverwendung benutzerdefinierter Inhalte und Einstellungen in allen Kampagnen und Sendungen."
->additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/delivery-template" text="Verwenden von Versandvorlagen"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html?lang=de" text="Verwenden von Versandvorlagen"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_properties"
@@ -69,7 +69,7 @@ Sie müssen zuerst die App auswählen und können dann die Zielgruppe für Push-
 
    ![Screenshot mit der Zielgruppenauswahl für den Push-Versand](assets/push_create_2.png){zoomable="yes"}
 
-1. Wählen Sie eine vorhandene Zielgruppe aus oder erstellen Sie eine eigene Zielgruppe, um die Zielpopulation für Ihren Push-Versand zu verfeinern. Bei Push-Benachrichtigungen lautet [&#x200B; Standarddimension &#x200B;](../audience/about-recipients.md#targeting-dimensions)Abonnierte **Abonnierte Anwendung** (nms:appSubscriptionRcp), die mit der Empfängertabelle verknüpft ist.
+1. Wählen Sie eine vorhandene Zielgruppe aus oder erstellen Sie eine eigene Zielgruppe, um die Zielpopulation für Ihren Push-Versand zu verfeinern. Bei Push-Benachrichtigungen lautet [ Standarddimension ](../audience/about-recipients.md#targeting-dimensions)Abonnierte **Abonnierte Anwendung** (nms:appSubscriptionRcp), die mit der Empfängertabelle verknüpft ist.
 
    Weitere Informationen dazu, wie Sie eine vorhandene Zielgruppe auswählen, finden Sie auf [dieser Seite](../audience/add-audience.md).
 
