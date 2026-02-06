@@ -6,13 +6,13 @@ feature: Email
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: f772e19fd033b007680777f75b48775b6d7851b9
+exl-id: 6fc6ff43-ac7f-46c7-aa1a-9489ffc45423
+source-git-commit: bc43288d58145aa28e914f7a9480cb9ab90f5a54
 workflow-type: tm+mt
 source-wordcount: '546'
 ht-degree: 3%
 
 ---
-
 
 # Erstellen mehrsprachiger E-Mails mit Adobe Experience Manager {#aem-multilingual}
 
@@ -29,7 +29,7 @@ Die Adobe Experience Manager-Integration ermöglicht es Ihnen, mehrsprachige E-M
 Bevor Sie einen mehrsprachigen E-Mail-Versand erstellen, stellen Sie Folgendes sicher:
 
 * Zugriff auf eine Adobe Experience Manager-Instanz, die für die Adobe Campaign-Web-Schnittstellenintegration konfiguriert ist.
-* Adobe Experience Manager-Inhalte mit Sprachkopien wurden bereits erstellt und genehmigt. Weitere Informationen zum Sprachkopie-Assistenten finden Sie in der Dokumentation zu [Adobe Experience Manager](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/sites/administering/reusing-content/translation/wizard)
+* Adobe Experience Manager-Inhalte mit Sprachkopien wurden bereits erstellt und genehmigt. Weitere Informationen zum Sprachkopie-Assistenten finden Sie in der Dokumentation zu [Adobe Experience Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/reusing-content/translation/wizard)
 * E-Mail-Versandvorlage für den Empfang von Adobe Experience Manager-Inhalten konfiguriert. Siehe die Schritte, die im Abschnitt [Mehrsprachigen Modus aktivieren](#enable-multilingual) beschrieben sind.
 
 ## Erstellen eines mehrsprachigen Versands
@@ -85,7 +85,7 @@ Wählen Sie Ihre Adobe Experience Manager-Inhalte und die Sprachvarianten aus, d
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
-1. Überprüfen Sie Ihre Sprachvarianten im Inhaltseditor. Sie können jetzt [jede Variante einzeln verwalten](#manage-variants) oder mit dem [Versand) &#x200B;](../monitor/prepare-send.md).
+1. Überprüfen Sie Ihre Sprachvarianten im Inhaltseditor. Sie können jetzt [jede Variante einzeln verwalten](#manage-variants) oder mit dem [Versand) ](../monitor/prepare-send.md).
 
    ![](assets/lg-copy-7.png)
 
@@ -116,5 +116,3 @@ Nachdem Sie Inhaltsvarianten erstellt haben, können Sie sie direkt im Versand v
    >[!CAUTION]
    >
    >Nach dem Aufheben der Verknüpfung können Sie Inhalte nicht mehr aus Adobe Experience Manager aktualisieren oder neue Varianten erstellen. Der Inhalt wird unabhängig von Adobe Experience Manager.
-
-
