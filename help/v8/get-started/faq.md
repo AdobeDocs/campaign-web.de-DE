@@ -2,10 +2,10 @@
 title: Häufig gestellte Fragen
 description: Häufig gestellte Fragen zur Campaign Web-Benutzeroberfläche
 exl-id: 332db61b-a82d-4bca-a2f5-51557f06120c
-source-git-commit: 8006eeb6088d7d6ef99f374b2b846978cd679c01
+source-git-commit: 94926311c3e3c512e48f5af4a5bedeb3f218cbcd
 workflow-type: tm+mt
-source-wordcount: '782'
-ht-degree: 100%
+source-wordcount: '780'
+ht-degree: 98%
 
 ---
 
@@ -59,7 +59,7 @@ Um auf die neue Benutzeroberfläche zugreifen zu können, müssen Sie Adobe Camp
 
 +++ Bedeutet dies, dass die Unterstützung für Adobe Campaign Classic v7 eingestellt wird?
 
-Adobe Campaign Classic v7 wird bis zum 31. März 2027 unterstützt. Besuchen Sie die Seite [Produkte und Zeiträume für technischen Support](https://helpx.adobe.com/de/support/programs/eol-matrix.html){target="_blank"}.
+Besuchen Sie die [Produkte und Zeiträume für technischen ](https://helpx.adobe.com/de/support/programs/eol-matrix.html){target="_blank"}&quot;, um das Ende der Unterstützung für Adobe Campaign Classic v7 anzuzeigen.
 
 +++
 
