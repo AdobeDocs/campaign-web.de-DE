@@ -59,7 +59,7 @@ Um auf die neue Benutzeroberfläche zugreifen zu können, müssen Sie Adobe Camp
 
 +++ Bedeutet dies, dass die Unterstützung für Adobe Campaign Classic v7 eingestellt wird?
 
-Besuchen Sie die [Produkte und Zeiträume für technischen ](https://helpx.adobe.com/de/support/programs/eol-matrix.html){target="_blank"}&quot;, um das Ende der Unterstützung für Adobe Campaign Classic v7 anzuzeigen.
+Besuchen Sie die [Produkte und Zeiträume für technischen &#x200B;](https://helpx.adobe.com/de/support/programs/eol-matrix.html){target="_blank"}&quot;, um das Ende der Unterstützung für Adobe Campaign Classic v7 anzuzeigen.
 
 +++
 
