@@ -7,7 +7,7 @@ hide: true
 robots: noindex
 googlebot: noindex
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: e4f374cdab838717e46ac0b67a99306b310880ec
+source-git-commit: 28f7bcf5f65671136be25c79b414f149532b749f
 workflow-type: tm+mt
 source-wordcount: '1525'
 ht-degree: 100%
@@ -158,7 +158,7 @@ Erfahren Sie, wie Sie in E-Mails und SMS Angebote erstellen und senden, in [dies
 
 * **Externe Konten**: Erstellen Sie mithilfe der Web-Benutzeroberfläche neue externe Konten, um Ihre spezifischen Anforderungen zu erfüllen und eine nahtlose Datenübertragung sicherzustellen. [Weitere Informationen](../administration/external-account.md).
 
-* **Schemata**: Benutzerdefinierte Felder sind zusätzliche Attribute, die über die Adobe Campaign-Konsole zu nativen Schemata hinzugefügt werden. [Weitere Informationen](../administration/custom-fields.md).
+* **Schemata**: Benutzerdefinierte Felder sind zusätzliche Attribute, die über die Adobe Campaign-Konsole zu nativen Schemata hinzugefügt werden. [Weitere Informationen](../administration/schemas-custom-fields.md).
 
 <!--* **Delivery Alerting** - Delivery Alerting is an alert management system that enables groups of users to automatically receive email notifications with information on their delivery executions. [Learn more](../msg/delivery-alerting.md).-->
 

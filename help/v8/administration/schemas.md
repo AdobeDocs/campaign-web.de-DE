@@ -1,22 +1,20 @@
 ---
-title: Arbeiten mit Schemata
+title: Über Schemata
 description: Erfahren Sie, wie Sie mit Schemata arbeiten.
 exl-id: 1433a441-1673-45a2-9fec-be9550fbba0d
-source-git-commit: 934a37cfebfacd2df0b7610285252d883611f252
+source-git-commit: 28f7bcf5f65671136be25c79b414f149532b749f
 workflow-type: tm+mt
-source-wordcount: '597'
-ht-degree: 100%
+source-wordcount: '266'
+ht-degree: 42%
 
 ---
 
-# Arbeiten mit Schemata {#schemas}
+# Über Schemata {#schemas}
 
 >[!CONTEXTUALHELP]
 >id="acw_schema"
 >title="Schemata"
->abstract="**[!DNL Adobe Campaign]** verwendet XML-basierte Schemata, um die physische und logische Struktur von Daten innerhalb der Anwendung zu definieren. Auf diesem Bildschirm können Sie alle vorhandenen Schemata anzeigen und auf die Details eines Schemas zugreifen, indem Sie dessen Namen in der Liste auswählen. Es stehen Filter zur Verfügung, mit denen Sie die Liste einschränken können und z. B. nur bearbeitbare Schemata anzeigen."
-
-## Über Schemata {#about}
+>abstract="Adobe Campaign verwendet XML-basierte Schemata, um die physische und logische Struktur von Daten innerhalb des Programms zu definieren. Auf diesem Bildschirm können Sie alle vorhandenen Schemata anzeigen, auf Schemadetails zugreifen, benutzerdefinierte Formulare konfigurieren und Schemata direkt über die Web-Benutzeroberfläche erstellen oder erweitern."
 
 **[!DNL Adobe Campaign]** verwendet XML-basierte Schemata, um die physische und logische Struktur von Daten innerhalb der Anwendung zu definieren. Ein Schema ist ein mit einer Datenbanktabelle verknüpftes XML-Dokument, mit dem folgende Aspekte definiert werden: 
 
@@ -31,72 +29,18 @@ Schemata spielen eine wichtige Rolle bei folgenden Aktivitäten:
 
 Jede Entität in Adobe Campaign verfügt über ein dediziertes Schema, was die Datenkonsistenz und -organisation gewährleistet.
 
-Detaillierte Informationen zu Schemata finden Sie in der [Dokumentation zur Campaign-Konsole](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/developer/shemas-forms/schemas){target="_blank"}
+Die Benutzeroberfläche Schemata bietet folgende Möglichkeiten:
 
-## Zugreifen auf Schemata über die Web-Benutzeroberfläche {#access}
-
-Auf Schemata kann über das Menü **[!UICONTROL Administration]** > **[!UICONTROL Schemata]** zugegriffen werden.
-
-![Bildschirm mit der Liste der Schemata samt verfügbaren Schemata und Filtern](assets/schemas-list.png)
-
-Auf diesem Bildschirm können Sie alle vorhandenen Schemata anzeigen. Es stehen Filter zur Verfügung, mit denen Sie die Liste einschränken können, um beispielsweise nur bearbeitbare Schemata anzuzeigen.
-
-Um ein Schema zu öffnen, wählen Sie seinen Namen aus. Eine detaillierte Schemaansicht wird angezeigt.
-
-![Bildschirm mit Schemadetails samt Schemaeigenschaften und -inhalten](assets/schema-details.png)
-
-### Übersicht über das Schema {#overview}
-
-Auf der Registerkarte **[!UICONTROL Übersicht]** finden Sie eine allgemeine Ansicht des Schemas:
-
-* Im Abschnitt **[!UICONTROL Eigenschaften]** werden wichtige Informationen angezeigt, z. B. der Schemaname, der Namespace und der zugehörige Tabellenname.
-
-* Der Abschnitt **[!UICONTROL Schemadefinition]** zeigt Details zur Schemadefinition an, z. B. den für die Datenabstimmung verwendeten Primärschlüssel und seine Verknüpfungen mit anderen Tabellen.
-
-  Klicken Sie auf die Schaltfläche **[!UICONTROL Schemavorschau]**, um die verschiedenen Felder und Links anzuzeigen, aus denen das Schema besteht. Auf diese Weise können Sie die vollständige Struktur eines Schemas überprüfen. Wenn das Schema mit benutzerdefinierten Feldern erweitert wurde, können Sie alle Erweiterungen visualisieren.
-
-* Im Abschnitt **[!UICONTROL Inhalt]** wird der XML-Inhalt des Schemas angezeigt, sodass Sie zwischen der Quelle und der generierten Syntax wechseln können.
-
-### Schemadaten {#data}
-
-Die Registerkarte **[!UICONTROL Daten]** enthält Informationen zu den Schemadaten.
-
-![Registerkarte „Daten“ des Schemas mit Datenstruktur und Attributen](assets/schemas-data.png)
-
-## Konfigurieren der Bildschirmdefinition {#screen-definition}
-
-### Bearbeiten benutzerdefinierter Felder {#fields}
-
-Benutzerdefinierte Felder sind zusätzliche Attribute, die über die Adobe Campaign-Konsole zu vorkonfigurierten Schemata hinzugefügt werden. Sie ermöglichen es Ihnen, Schemata anzupassen, indem neue Attribute entsprechend den Anforderungen Ihrer Organisation eingefügt werden. 
-
-Benutzerdefinierte Felder können auf verschiedenen Bildschirmen angezeigt werden, z. B. in den Profildetails der Campaign Web-Benutzeroberfläche. Sie können steuern, welche Felder sichtbar sind und wie sie in der Oberfläche angezeigt werden. Klicken Sie dazu im Menü **[!UICONTROL Schemata]** auf die Schaltfläche **[!UICONTROL Bildschirmbearbeitung]**.
-
-![Bildschirm für benutzerdefinierte Felder mit bearbeitbaren Attributen](assets/schemas-custom.png)
-
-Klicken Sie auf **[!UICONTROL Vorschau]**, um die benutzerdefinierten Felder auf einem Beispielbildschirm anzuzeigen.
-
-Detaillierte Informationen zum Bearbeiten von benutzerdefinierten Feldern in einem Schema finden Sie unter [Konfigurieren benutzerdefinierter Felder](../administration/custom-fields.md).
-
-### Hinzufügen von Sammlungslisten {#collection-lists}
-
-Im Abschnitt **Liste benutzerdefinierter Listen** können Sie Sammlungs-Links definieren, z. B. Käufe. Die zugehörigen Daten werden dann über eine dedizierte Registerkarte auf Profilbildschirmen angezeigt.
+* [Zugreifen auf und Anpassen von Schemata](schemas-browse-access.md) - Anzeigen verfügbarer Schemata, Erkunden ihrer Details und Anpassen der Bildschirmanzeige
+* [Listenspalten konfigurieren](schemas-list-columns.md) - Konfigurieren Sie, welche Spalten in Listenansichten standardmäßig angezeigt werden.
+* [Benutzerdefinierte Felder bearbeiten](schemas-custom-fields.md) - Konfigurieren Sie, welche benutzerdefinierten Felder auf Detailbildschirmen angezeigt werden, und organisieren Sie sie in Abschnitte.
+* [Sammlungslisten hinzufügen](schemas-collection-lists.md) - Sammlungslisten hinzufügen, um verwandte Daten in Profilbildern anzuzeigen.
+* [Erstellen und Verwalten von Schemata](schemas-create-publish.md#create-schemas) - Erstellen neuer Schemata und Erweitern vorhandener Schemata
+* [Schemas veröffentlichen und synchronisieren](schemas-create-publish.md#publish) - Synchronisieren von Schemaänderungen mit der Datenbankstruktur.
+* [Arbeiten mit benutzerdefinierten Formularen](schemas-custom-forms.md) - Erstellen, Bearbeiten und Verwalten von Datensätzen in benutzerdefinierten Schemata mithilfe von Dateneingabeformularen.
 
 >[!NOTE]
 >
->Diese Funktion ist derzeit nur für das Empfängerschema verfügbar.
+>Sie benötigen Administratorrechte, um Schemata zu verwalten.
 
-1. Um der Benutzeroberfläche eine Sammlungsliste hinzuzufügen, klicken Sie auf die Schaltfläche mit den Auslassungspunkten und wählen Sie **Benutzerdefinierte Listen auswählen** aus.
-
-   ![Erstellung von Sammlungslisten](assets/schemas-collection1.png)
-
-1. Wählen Sie eine der verfügbaren benutzerdefinierten Listen aus, z. B. Käufe, und klicken Sie dann auf **Bestätigen**.
-
-   ![Erstellung von Sammlungslisten](assets/schemas-collection2.png)
-
-1. Navigieren Sie zum Menü **Profile** und filtern Sie Profile, die Käufe getätigt haben.
-
-   ![Erstellung von Sammlungslisten](assets/schemas-collection3.png)
-
-1. Klicken Sie auf ein Profil. Sie werden feststellen, dass die neue Registerkarte angezeigt wird. Sie können bei Bedarf weitere Spalten hinzufügen.
-
-   ![Erstellung von Sammlungslisten](assets/schemas-collection4.png)
+Detaillierte Informationen zu Schemata finden Sie in der [Dokumentation zur Campaign-Konsole](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/developer/shemas-forms/schemas){target="_blank"}

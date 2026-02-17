@@ -5,10 +5,10 @@ user-guide-description: Produktdokumentation zur Adobe Campaign Web-Benutzerober
 title: Dokumentation zu Adobe Campaign Web
 description: Dokumentation zu Campaign Web
 breadcrumb-title: Campaign Web-Benutzeroberfläche
-source-git-commit: 4e671c438092342b6a53dd8ef3df8276b08d36a3
+source-git-commit: 039d5447d7283072feb1a8555d203e15b0fadcc7
 workflow-type: tm+mt
-source-wordcount: '975'
-ht-degree: 98%
+source-wordcount: '998'
+ht-degree: 97%
 
 ---
 
@@ -93,7 +93,7 @@ ht-degree: 98%
    + Versandwarnung {#delivery-alerting}
       + [Erste Schritte mit Versandwarnungen](msg/delivery-alerting.md)
       + [Versandwarnungs-Dashboards](msg/delivery-alerting-dashboards.md)
-      + [Versandwarnungsbedingungen        &#x200B;](msg/delivery-alerting-criteria.md)
+      + [Versandwarnungsbedingungen        ](msg/delivery-alerting-criteria.md)
 + Content-Management {#content}
    + Erstellen dynamischer Inhalte {#dynamic-content}
       + [Wie lässt sich der Inhalt dynamisch gestalten?](personalization/gs-personalization.md)
@@ -282,9 +282,16 @@ ht-degree: 98%
       + [Zuweisen einer Marke](administration/branding/branding-assign.md)
    + [Arbeiten mit Geschäftsregeln (Typologien)](administration/typologies.md)
    + [Verwalten von Zielgruppen-Mappings](administration/target-mappings.md)
-   + [Arbeiten mit Schemata](administration/schemas.md)
+   + Arbeiten mit Schemata {#schemas}
+      + [Über Schemata](administration/schemas.md)
+      + [Zugreifen auf und Konfigurieren von Schemata](administration/schemas-browse-access.md)
+      + [Konfigurieren von Listenspalten](administration/schemas-list-columns.md)
+      + [Bearbeiten benutzerdefinierter Felder](administration/schemas-custom-fields.md)
+      + [Hinzufügen von Sammlungslisten](administration/schemas-collection-lists.md)
+      + [Erstellen und Veröffentlichen von Schemata](administration/schemas-create-publish.md)
+      + [Arbeiten mit benutzerdefinierten Formularen](administration/schemas-custom-forms.md)
    + [Konfigurieren benutzerdefinierter Felder](administration/custom-fields.md)
-   + [Konfigurieren von Optionen in [!DNL Campaign] &#x200B;](administration/options.md)
+   + [Konfigurieren von Optionen in [!DNL Campaign] ](administration/options.md)
    + [Zeitzonenverwaltung](administration/timezone-management.md)
    + Externe Konten {#external-accounts}
       + [Erstellen externer Konten](administration/create-external-account.md)

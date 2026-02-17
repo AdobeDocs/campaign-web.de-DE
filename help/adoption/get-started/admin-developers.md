@@ -4,7 +4,7 @@ description: Dieses Tutorial bietet einen Überblick über die wichtigsten Verwa
 role: Admin, Developer
 level: Beginner, Experienced
 exl-id: 1554f85f-22e1-4b51-a916-194ea0d24816
-source-git-commit: 2093338e3ba9f31954561171029ec0f7336c73c4
+source-git-commit: be4876090ecaac853aaa88948505c444bef27ec2
 workflow-type: tm+mt
 source-wordcount: '2777'
 ht-degree: 100%
@@ -43,7 +43,7 @@ Nützliche Links für den Beginn:
 
 Administrations- und Konfigurationsaufgaben werden in der Admin Console durchgeführt. Der erste Schritt besteht darin, Ihre Umgebung einzurichten.
 
-Die Campaign-Client-Konsole ist eine native Anwendung, die über Standard-Internet-Protokolle wie SOAP und HTTP mit dem Adobe Campaign-Anwendungs-Server kommuniziert. In der Campaign Client-Konsole sind alle Funktionen und Einstellungen verfügbar. Sie benötigt minimale Bandbreite, da sie auf einem lokalen Cache beruht. Die für einfache Bereitstellungen entwickelte Campaign-Client-Konsole kann über einen Internet-Browser bereitgestellt sowie automatisch aktualisiert werden und erfordert keine spezielle Netzwerkkonfiguration, da sie ausschließlich HTTP(S)-Traffic erzeugt.
+Die Campaign-Client-Konsole ist eine native Anwendung, die über Standard-Internet-Protokolle wie SOAP und HTTP mit dem Adobe Campaign-Anwendungs-Server kommuniziert. In der Campaign Client-Konsole sind alle Funktionen und Einstellungen verfügbar. Sie erfordert eine minimale Bandbreite, da sie auf einem lokalen Cache beruht. Die für einfache Bereitstellungen entwickelte Campaign-Client-Konsole kann über einen Internet-Browser bereitgestellt sowie automatisch aktualisiert werden und erfordert keine spezielle Netzwerkkonfiguration, da sie ausschließlich HTTP(S)-Traffic erzeugt.
 
 Das folgende Video erklärt, wie Sie die Adobe Campaign-Client-Konsole herunterladen und installieren und wie Sie die Verbindung zu Ihrer Instanz verwalten.
 
@@ -57,7 +57,7 @@ Beachten Sie, dass die Client-Konsole in einer unterstützten Umgebung installie
 
 In diesem Tutorial-Video erfahren Sie mehr über die Benutzeroberfläche von Adobe Campaign v8 und darüber, wie Sie durch die Hauptfunktionen navigieren.
 
->[!VIDEO](https://video.tv.adobe.com/v/3426435?captions=ger&quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/334496?quality=12&learn=on){transcript=true}
 
 Weitere Informationen finden Sie unter [Arbeiten mit der Client-Konsole](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/new/campaign-ui){target="_blank"}.
 
@@ -69,11 +69,11 @@ Sicherheitsmaßnahmen sind tief in unsere internen Prozesse und Tools rund um di
 
 ### Zugriffsrechte und Berechtigungen {#acs-gs-admin-rights}
 
-Mit Adobe Campaign können Sie die Benutzenden zugewiesenen Rechte definieren und verwalten. Diese Berechtigungen werden durch die Kombination von Benutzergruppenberechtigungen, spezifischen Berechtigungen und Berechtigungen für Ordner definiert.
+Mit Adobe Campaign können Sie die den Benutzern zugewiesenen Rechte definieren und verwalten. Diese Berechtigungen werden durch die Kombination von Benutzergruppenberechtigungen, spezifischen Berechtigungen und Berechtigungen für Ordner definiert.
 
 Wenn Sie von Campaign Standard zu Campaign v8 wechseln, bleiben Ihre Berechtigungen und Zugriffsrechte unverändert erhalten. Sicherheitsgruppen wurden von Adobe in die Benutzergruppen von Campaign v8 verschoben und Ihre Berechtigungen für Organisationseinheiten wurden auf Ordnerberechtigungen umgestellt. Campaign-Benutzende verbinden sich über ihre Adobe ID mit Campaign v8 und können dann dieselben Anmelde- und Kennwortdaten wie in Campaign Standard verwenden.
 
-Campaign-[Ordner](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/config/configuration/folders-and-views){target="_blank"} werden im Explorer-Baum der Client-Konsole als Knoten dargestellt. Je nach Typ enthalten sie bestimmte Datentypen. Programme werden durch Ordner in Campaign v8 materialisiert. Sie können Ordner erstellen und Berechtigungen für sie verwalten, um den Zugriff zu beschränken. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/admin/permissions/folder-permissions){target="_blank"}.
+Campaign-[Ordner](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/config/configuration/folders-and-views){target="_blank"} werden im Explorer-Baum der Client-Konsole als Knoten dargestellt. Je nach Typ enthalten sie bestimmte Datentypen. Programme werden durch Ordner in Campaign v8 materialisiert. Sie können Ordner erstellen und Berechtigungen für sie verwalten, um den Zugriff zu beschränken. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/admin/permissions/folder-permissions?lang=de){target="_blank"}.
 
 Weitere Informationen finden Sie in der [Dokumentation zu Benutzerberechtigungen](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/admin/permissions/gs-permissions){target="_blank"}.
 
@@ -100,7 +100,7 @@ Das Audit-Protokoll, das bereits in Campaign Standard verfügbar gewesen ist, ka
 
 In der Adobe Campaign Web-Benutzeroberfläche bietet die Funktion „Audit-Protokoll“ Benutzenden vollständige Einsicht in alle Änderungen, die an wichtigen Entitäten in Ihrer Instanz vorgenommen wurden. Dies sind typischerweise Änderungen, die den reibungslosen Betrieb der Instanz wesentlich beeinflussen. Weitere Informationen finden Sie in der [Dokumentation zum Audit-Protokoll](../../v8/reporting/audit-trail.md).
 
-### Daten-Packages {#acs-gs-admin-audit-packages}
+### Daten-Paket {#acs-gs-admin-audit-packages}
 
 Ähnlich wie in Campaign Standard können Admins Packages definieren, mit denen der Austausch von Ressourcen zwischen verschiedenen Adobe Campaign-Instanzen über strukturierte XML-Dateien ermöglicht wird. Packages können Konfigurationsparameter oder Daten enthalten.
 
@@ -120,7 +120,7 @@ In der Client-Konsole stehen verschiedene Optionen zum Anpassen der Benutzerober
 
 * **Ordnerverwaltung**: Ordner sind Objekte in Adobe Campaign, mit denen Sie Ihre Komponenten und Daten konfigurieren können. Sie werden auch zur Verwaltung von Berechtigungen eingesetzt. Weitere Informationen finden Sie unter [Arbeiten mit Ordnern](../../v8/get-started/work-with-folders.md).
 
-* **Benutzerdefinierte Felder**: Benutzerdefinierte Felder sind zusätzliche Attribute, die über die Adobe Campaign-Konsole zu vorkonfigurierten Schemata hinzugefügt werden. Diese benutzerdefinierten Felder werden in verschiedenen Bildschirmen angezeigt, z. B. in den Details eines Profils oder Testprofils. Weitere Informationen finden Sie in der [Dokumentation zur Konfiguration von benutzerdefinierten Feldern](../../v8/administration/custom-fields.md).
+* **Benutzerdefinierte Felder**: Benutzerdefinierte Felder sind zusätzliche Attribute, die über die Adobe Campaign-Konsole zu vorkonfigurierten Schemata hinzugefügt werden. Diese benutzerdefinierten Felder werden in verschiedenen Bildschirmen angezeigt, z. B. in den Details eines Profils oder Testprofils. Weitere Informationen finden Sie in der [Dokumentation zur Konfiguration von benutzerdefinierten Feldern](../../v8/administration/schemas-custom-fields.md).
 
 ## Konfigurieren des Brandings {#acs-gs-admin-branding}
 
@@ -156,7 +156,7 @@ Links zu anderen nützlichen Ressourcen finden Sie im folgenden Abschnitt:
 
 * In diesem Video erfahren Sie, was Zielgruppendimensionen und Arbeitstabellen sind und wie Adobe Campaign Daten aus verschiedenen Datenquellen verwaltet:
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3452603?captions=ger&quality=12&learn=on){transcript=true}
+  >[!VIDEO](https://video.tv.adobe.com/v/339992?quality=12&learn=on){transcript=true}
 
 * Mit Campaign können Sie der Cloud-Datenbank Kontakte hinzufügen. Sie können eine Datei laden, mehrere Kontaktaktualisierungen planen und automatisieren, Daten im Internet sammeln oder Profilinformationen direkt in die Empfängertabelle eingeben. Weitere Informationen finden Sie in der [Dokumentation zum Importieren von Daten (Konsole)](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/data/import){target="_blank"}.
 
@@ -195,9 +195,9 @@ Workflow templates contain pre-configured settings and activities which can be r
 
 You can design your landing page content, and save it for future reuse. See the [landing page template documentation](../../v8/landing-pages/lp-templates.md).
 
-Each event can trigger a personalized message. For this to happen, you need to create a message template to match each event type. Templates contain the necessary information for personalizing the transactional message. See the [Transactional messaging template documentation](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/send/real-time/transactional-template)
+Each event can trigger a personalized message. For this to happen, you need to create a message template to match each event type. Templates contain the necessary information for personalizing the transactional message. See the [Transactional messaging template documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional-template)
 
-Using a workflow template is a best practice if you need to regularly import files with the same structure. See the [Import template documentation](https://experienceleague.adobe.com/de/docs/campaign/automation/workflows/use-cases/data-management/recurring-import-workflow){target="_blank"}
+Using a workflow template is a best practice if you need to regularly import files with the same structure. See the [Import template documentation](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/use-cases/data-management/recurring-import-workflow){target="_blank"}
 -->
 
 ## Datenschutz und Einverständniserklärung
@@ -214,7 +214,7 @@ Wie in Campaign Standard können Sie als Admin Anmeldedienste erstellen und Mark
 
 Erfahren Sie, wie Sie Anmeldungen und Abonnements einrichten und verwalten und Zielgruppen adressieren.
 
->[!VIDEO](https://video.tv.adobe.com/v/3426550?captions=ger&quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/334305?quality=12&learn=on){transcript=true}
 
 * Weitere Informationen zu den Anmeldediensten finden Sie in der [Dokumentation zur Web-Benutzeroberfläche](../../v8/audience/manage-subscribers.md).
 
@@ -272,7 +272,7 @@ Verwenden Sie Campaign, um dynamische Inhalte zu erstellen und personalisierte N
 
 In diesem Video erfahren Sie, wie Sie als Admin mit Campaign v8 dynamische Inhaltsbausteine definieren und festlegen, wie diese zur Personalisierung des Inhalts Ihres E-Mail-Versands verwendet werden:
 
->[!VIDEO](https://video.tv.adobe.com/v/3449015?captions=ger&quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/342088?quality=12&learn=on){transcript=true}
 
 Nützliche Links:
 
@@ -293,7 +293,7 @@ Als Admin sind Sie für die Erstellung und Pflege der Typologieregeln für Ihre 
 
 Beim Wechsel von einer Campaign Standard-Umgebung zu Campaign v8 werden Ihre Typologieregeln nach Campaign v8 verschoben.
 
-In Campaign v8 verfügen Typologieregeln über einen speziellen Modus zur Kampagnenoptimierung. Mit diesem Modul können Sie die Durchführung von Sendungen steuern, filtern und überwachen. Zur Vermeidung von Konflikten zwischen Kampagnen kann Adobe Campaign verschiedene Kombinationen testen, indem es spezifische Beschränkungsregeln anwendet. Auf diese Weise werden ein ideal auf Kundenbedürfnisse abgestimmter Nachrichtenversand sowie eine kohärente Unternehmenskommunikation sichergestellt. Weitere Informationen finden Sie in der [Dokumentation zu Topologieregeln](https://experienceleague.adobe.com/de/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}.
+In Campaign v8 verfügen Typologieregeln über einen speziellen Modus zur Kampagnenoptimierung. Mit diesem Modul können Sie die Durchführung von Sendungen steuern, filtern und überwachen. Um Konflikte zwischen Kampagnen zu vermeiden, kann Adobe Campaign verschiedene Kombinationen durch Anwendung spezifischer Beschränkungsregeln testen. Auf diese Weise werden ein ideal auf Kundenbedürfnisse abgestimmter Nachrichtenversand sowie eine kohärente Unternehmenskommunikation sichergestellt. Weitere Informationen finden Sie in der [Dokumentation zu Topologieregeln](https://experienceleague.adobe.com/de/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}.
 
 ### Quarantäneverwaltung {#acs-gs-admin-quarantine}
 

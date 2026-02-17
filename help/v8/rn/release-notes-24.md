@@ -2,8 +2,8 @@
 title: Frühere Versionshinweise zur Web-Benutzeroberfläche von Campaign v8
 description: Versionen der Campaign-Web-Benutzeroberfläche 2024
 exl-id: 430dc1ba-dfa9-4d51-b4ed-f3f048da6ec0
-source-git-commit: 336845c8d21a39c9f9124a5c6f7d0667cd111dcb
-workflow-type: ht
+source-git-commit: 28f7bcf5f65671136be25c79b414f149532b749f
+workflow-type: tm+mt
 source-wordcount: '2532'
 ht-degree: 100%
 
@@ -32,7 +32,7 @@ Die folgenden Funktionen und Verbesserungen sind ab der Version Oktober verfügb
 <tr>
 <td>
 <p>Sie können externe Konten jetzt direkt über die Web-Benutzeroberfläche in Adobe Campaign einrichten und verwalten. Diese neue Funktion vereinfacht die Konfiguration verschiedener Typen von externen Konten, wie z. B. Bounce-E-Mails (POP3) oder Ausführungsinstanzen.</p>
-<p>Weitere Informationen finden Sie in der <a href="../administration/external-account.md">entsprechenden Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie im <a href="../administration/external-account.md">entsprechenden Handbuch</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -49,7 +49,7 @@ Die folgenden Funktionen und Verbesserungen sind ab der Version Oktober verfügb
 <tr>
 <td>
 <p>„Transaktionsnachricht (Message Center)“ ist jetzt in der Campaign Web-Benutzeroberfläche verfügbar.  Dieses Add-on dient dem Auslösen von Nachrichten, die durch Ereignisse erzeugt werden, die von Informationssystemen ausgelöst werden. Hierzu zählen u. a.: Rechnungen, Bestellbestätigungen, Versandbestätigungen, Passwortänderungen, Benachrichtigungen über die Nicht-Verfügbarkeit eines Produkts, Kontostandsinformationen oder die Erstellung eines Website-Kontos.</p>
-<p>Weitere Informationen finden Sie in der <a href="../transactional-messaging/transactional.md">entsprechenden Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie im <a href="../transactional-messaging/transactional.md">entsprechenden Handbuch</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -87,7 +87,7 @@ Die folgenden Funktionen und Verbesserungen sind ab der Version Oktober verfügb
 <td>
 <p>Nachdem Sie Ihre Nachricht erstellt und angepasst haben, entwickeln Sie sie mit dem KI-Assistenten in Adobe Campaign Web weiter. Mit diesem leistungsstarken Tool können Sie die Wirkung Ihrer Inhalte optimieren, indem Sie eine Reihe ansprechender Texte, Haupttitel und visuell überzeugender Bilder generieren.</p>
 <p>Nehmen Sie an unserer <a href="https://experienceleague.adobe.com/de/apps/journey-optimizer/ai-assistant-content-accelerator">Live-Funktionsvorstellung</a> teil, um die Funktionen in der Praxis selbst zu erkunden und die vielfältigen Einsatzmöglichkeiten zu verstehen.</a></p>
-<p>Weitere Informationen finden Sie in der <a href="../content/generative-gs.md">entsprechenden Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie im <a href="../content/generative-gs.md">entsprechenden Handbuch</a>.</p>
 <img src="assets/do-not-localize/ai-content-webui.gif"/>
 <p>Verfügbarkeitsdatum: 12. September</p>
 </td>
@@ -119,10 +119,10 @@ Die folgenden Funktionen und Verbesserungen sind ab der Version August verfügba
 
 * **Visuelle Fragmente**: Visuelle Inhaltsfragmente können jetzt archiviert werden. [Weitere Informationen](../content/create-fragment.md#archive)
 
-* **Captcha in Landingpages**: Sie können jetzt Captcha zum Schutz Ihrer Landingpage vor Spam und Missbrauch durch Bots hinzufügen. Dies erfordert nur wenig Einsatz aufseiten Ihrer Kundschaft, da nur eine Interaktion mit Ihrer Website erforderlich ist. [Weitere Informationen](../landing-pages/create-lp.md#captcha)
+* **Captcha in Landingpages**: Sie können jetzt Captcha zum Schutz Ihrer Landingpage vor Spam und Missbrauch durch Bots hinzufügen. Dies erfordert nur wenig Einsatz aufseiten Ihrer Kunden, da nur eine Interaktion mit Ihrer Website erforderlich ist. [Weitere Informationen](../landing-pages/create-lp.md#captcha)
 
 <!--
-* **Rest APIs** - As a Campaign Standard migrated user, you can now use Rest APIs to work with transactional messages. [Read more](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=de){target="_blank"}.-->
+* **Rest APIs** - As a Campaign Standard migrated user, you can now use Rest APIs to work with transactional messages. [Read more](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html){target="_blank"}.-->
 
 
 ## Versionshinweise für Juli {#24-7-release}
@@ -171,11 +171,11 @@ Die folgenden Funktionen und Verbesserungen stehen allen Benutzenden ab der Juni
 
 ### Pläne und Programme {#24-6-4}
 
-Sie können jetzt Pläne und Programme zur Organisation Ihrer Kampagnen erstellen. Durch die Definition einer Ordnerhierarchie können Sie Ihre Kampagnen in Programme und Ihre Programme in Pläne organisieren. [Weitere Informationen](../administration/plans-programs.md)
+Sie können jetzt Pläne und Programme zur Organisation Ihrer Kampagnen erstellen. Durch die Definition einer Ordnerhierarchie können Sie Ihre Kampagnen in Programme und Ihre Programme in Pläne organisieren. [Mehr dazu](../administration/plans-programs.md)
 
 ### Verbesserungen {#improvements-24-6}
 
-* **Abstimmung in der Anreicherungsaktivität**: Die Aktivität **Anreicherung** kann jetzt verwendet werden, um Daten aus dem Campaign-Datenbankschema mit Daten aus einem anderen Schema abzustimmen oder aber mit Daten aus einem temporären Schema, z. B. mit Daten, die mithilfe der Aktivität „Datei laden“ hochgeladen wurden. Mit dieser Option können Sie zum Beispiel das Land eines Profils, das in einer hochgeladenen Datei angegeben ist, mit einem der Länder abstimmen, die in der dedizierten Tabelle der Campaign-Datenbank verfügbar sind. [Weitere Informationen](../workflows/activities/enrichment.md)
+* **Abstimmung in der Anreicherungsaktivität**: Die Aktivität **Anreicherung** kann jetzt verwendet werden, um Daten aus dem Campaign-Datenbankschema mit Daten aus einem anderen Schema abzustimmen oder aber mit Daten aus einem temporären Schema, z. B. mit Daten, die mithilfe der Aktivität „Datei laden“ hochgeladen wurden. Mit dieser Option können Sie zum Beispiel das Land eines Profils, das in einer hochgeladenen Datei angegeben ist, mit einem der Länder abstimmen, die in der dedizierten Tabelle der Campaign-Datenbank verfügbar sind. [Mehr dazu](../workflows/activities/enrichment.md)
 
 
 ### Neue Funktion in eingeschränkter Verfügbarkeit {#acs-24-6}
@@ -186,7 +186,7 @@ Sie können jetzt Pläne und Programme zur Organisation Ihrer Kampagnen erstelle
 
 * **Versandwarnungen**
 
-Bei der Funktion „Versandwarnungen“ handelt es sich um ein System zum Warnungs-Management, über das eine Benutzergruppe automatisch Benachrichtigungen zu ihren Sendungen erhält.  [Weitere Informationen](../msg/delivery-alerting.md)
+Bei der Funktion „Versandwarnungen“ handelt es sich um ein System zum Warnungs-Management, über das eine Benutzergruppe automatisch Benachrichtigungen zu ihren Sendungen erhält.  [Mehr dazu](../msg/delivery-alerting.md)
 
 
 ## Versionshinweise für Mai {#24-5-release}
@@ -197,21 +197,21 @@ Die folgenden Funktionen und Verbesserungen stehen allen Benutzenden ab der Mai-
 
 ### Audit-Protokoll  {#24-5-1}
 
-Die neue Funktion **Audit-Protokoll** bietet eine detaillierte, chronologische Aufzeichnung aller Aktionen und Ereignisse, die in Echtzeit an Ihrer Adobe Campaign-Instanz durchgeführt wurden. Dies bietet eine einfache Methode, um alle Änderungen an Ihren Campaign-Daten zu verfolgen und Abfragen durchzuführen, wie zum Status von Workflows, den Personen, die diese geändert haben oder den Aktivitäten, die von Benutzerinnen und Benutzern innerhalb der Instanz ausgeführt wurden. [Weitere Informationen](../reporting/audit-trail.md)
+Die neue Funktion **Audit-Protokoll** bietet eine detaillierte, chronologische Aufzeichnung aller Aktionen und Ereignisse, die in Echtzeit an Ihrer Adobe Campaign-Instanz durchgeführt wurden. Dies bietet eine einfache Methode, um alle Änderungen an Ihren Campaign-Daten zu verfolgen und Abfragen durchzuführen, wie zum Status von Workflows, den Personen, die diese geändert haben oder den Aktivitäten, die von Benutzerinnen und Benutzern innerhalb der Instanz ausgeführt wurden. [Mehr dazu](../reporting/audit-trail.md)
 
 ### Benutzerdefinierte Felder {#24-5-2}
 
-**Benutzerdefinierte Felder** sind zusätzliche Attribute, die über die Adobe Campaign-Konsole zu vorkonfigurierten Schemata hinzugefügt werden. In der Campaign Web-Benutzeroberfläche sind diese benutzerdefinierten Felder nun in verschiedenen Bildschirmen sichtbar, z. B. in den Details eines Profils oder eines Testprofils. In der Web-Benutzeroberfläche können Sie zwar keine benutzerdefinierten Felder erstellen, dafür aber ihre Anzeige ändern. [Weitere Informationen](../administration/custom-fields.md)
+**Benutzerdefinierte Felder** sind zusätzliche Attribute, die über die Adobe Campaign-Konsole zu vorkonfigurierten Schemata hinzugefügt werden. In der Campaign Web-Benutzeroberfläche sind diese benutzerdefinierten Felder nun in verschiedenen Bildschirmen sichtbar, z. B. in den Details eines Profils oder eines Testprofils. In der Web-Benutzeroberfläche können Sie zwar keine benutzerdefinierten Felder erstellen, dafür aber ihre Anzeige ändern. [Mehr dazu](../administration/schemas-custom-fields.md)
 
 ### Erstellen von Relationen zwischen Tabellen {#24-5-3}
 
-Sie können jetzt in der Workflow-Aktivität **Anreicherung** Relationen mit einer anderen Tabelle erstellen. Verwenden Sie den neuen Abschnitt **Relationsdefinition** in den Aktivitätsparametern, um eine Relation zwischen den Daten der Arbeitstabelle und der Adobe Campaign-Datenbank herzustellen. Wenn Sie beispielsweise Daten aus einer Datei laden, die die Kundennummer, das Land und die E-Mail-Adresse der Empfängerinnen und Empfänger enthält, können Sie jetzt eine Relation zur Ländertabelle erzeugen, um die entsprechende Information in den Profilen zu aktualisieren. [Weitere Informationen](../workflows/activities/enrichment.md#create-links)
+Sie können jetzt in der Workflow-Aktivität **Anreicherung** Relationen mit einer anderen Tabelle erstellen. Verwenden Sie den neuen Abschnitt **Relationsdefinition** in den Aktivitätsparametern, um eine Relation zwischen den Daten der Arbeitstabelle und der Adobe Campaign-Datenbank herzustellen. Wenn Sie beispielsweise Daten aus einer Datei laden, die die Kundennummer, das Land und die E-Mail-Adresse der Empfängerinnen und Empfänger enthält, können Sie jetzt eine Relation zur Ländertabelle erzeugen, um die entsprechende Information in den Profilen zu aktualisieren. [Mehr dazu](../workflows/activities/enrichment.md#create-links)
 
 ### Allgemeine Verbesserungen {#improvements-24-5}
 
-* **Briefpost** – Sie können jetzt den Ausdruckseditor verwenden, um die Attribute auszuwählen, die in Briefpost-Extraktionsdateien angezeigt werden sollen. [Weitere Informationen](../direct-mail/content-direct-mail.md)
+* **Briefpost** – Sie können jetzt den Ausdruckseditor verwenden, um die Attribute auszuwählen, die in Briefpost-Extraktionsdateien angezeigt werden sollen. [Mehr dazu](../direct-mail/content-direct-mail.md)
 
-* **Ordnerverwaltung** – Sie können jetzt einen Unterordner von einem anderen Typ als den übergeordneten Ordner erstellen. [Weitere Informationen](../get-started/permissions.md#folders)
+* **Ordnerverwaltung** – Sie können jetzt einen Unterordner von einem anderen Typ als den übergeordneten Ordner erstellen. [Mehr dazu](../get-started/permissions.md#folders)
 
 * **Globalisierung** – Im Rahmen unserer kontinuierlichen Bemühungen um ein einheitliches Benutzererlebnis harmonisieren wir die in den Adobe Experience Cloud-Produkten und -Apps verwendete Terminologie. Dies wirkt sich auf den deutschen Begriff „Titel“ aus, der in „Label“ geändert wird, wenn er sich auf den Namen eines Objekts bezieht. Die Änderungen werden schrittweise in der Benutzeroberfläche und Dokumentation eingeführt.
 
@@ -226,18 +226,18 @@ Die folgenden Funktionen stehen allen Benutzenden ab der April-Version zur Verf�
 
 **Neue Workflow-Aktivitäten**
 
-* **Daten-Update**: Verwenden Sie diese Aktivität, um gebündelte Aktualisierungen der Datenbankfelder durchzuführen. Die Art der Datenaktualisierung kann über verschiedene Optionen definiert werden. [Weitere Informationen](../workflows/activities/update-data.md)
-* **Anmeldedienste**: Verwenden Sie diese Aktivität, um in einer einzigen Aktion mehrere Profile bei einem Dienst anzumelden oder von diesem abzumelden. [Weitere Informationen](../workflows/activities/subscription-services.md)
-* **Dateiextraktion**: Verwenden Sie diese Aktivität, um Daten aus Adobe Campaign als externe Datei in ein anderes System zu exportieren. [Weitere Informationen](../workflows/activities/extract-file.md)
-* **Dateiübertragung**: Verwenden Sie diese Aktivität, um Dateien zu senden oder zu empfangen, das Vorhandensein von Dateien zu prüfen oder Dateien auf einem Server aufzulisten. Das verwendete Protokoll kann entweder ein Server-zu-Server-Protokoll oder ein HTTP-Protokoll sein. [Weitere Informationen](../workflows/activities/transfer-file.md)
-* **Test**: Verwenden Sie diese Aktivität, um Transitionen auf der Basis der angegebenen Bedingungen zu aktivieren. [Weitere Informationen](../workflows/activities/test.md)
-* **JavaScript-Code**: Verwenden Sie diese Aktivität, um ein JavaScript-Code-Snippet im Kontext eines Workflows auszuführen. [Weitere Informationen](../workflows/activities/javascript-code.md)
-* **Externes Signal**: Verwenden Sie diese Aktivität, um die Ausführung eines Workflows über einen anderen Workflow oder einen API-Aufruf auszulösen. [Weitere Informationen](../workflows/activities/external-signal.md)
-* **Inkrementelle Abfrage**: Verwenden Sie diese Aktivität, um die Datenbank planmäßig abzufragen. Bei jeder neuen Ausführung dieser Aktivität werden die Ergebnisse der vorangehenden Ausführungen ausgeschlossen. Dadurch ist es möglich, ausschließlich neue Elemente einzubeziehen. [Weitere Informationen](../workflows/activities/incremental-query.md)
+* **Daten-Update**: Verwenden Sie diese Aktivität, um gebündelte Aktualisierungen der Datenbankfelder durchzuführen. Die Art der Datenaktualisierung kann über verschiedene Optionen definiert werden. [Mehr dazu](../workflows/activities/update-data.md)
+* **Anmeldedienste**: Verwenden Sie diese Aktivität, um in einer einzigen Aktion mehrere Profile bei einem Dienst anzumelden oder von diesem abzumelden. [Mehr dazu](../workflows/activities/subscription-services.md)
+* **Dateiextraktion**: Verwenden Sie diese Aktivität, um Daten aus Adobe Campaign als externe Datei in ein anderes System zu exportieren. [Mehr dazu](../workflows/activities/extract-file.md)
+* **Dateiübertragung**: Verwenden Sie diese Aktivität, um Dateien zu senden oder zu empfangen, das Vorhandensein von Dateien zu prüfen oder Dateien auf einem Server aufzulisten. Das verwendete Protokoll kann entweder ein Server-zu-Server-Protokoll oder ein HTTP-Protokoll sein. [Mehr dazu](../workflows/activities/transfer-file.md)
+* **Test**: Verwenden Sie diese Aktivität, um Transitionen auf der Basis der angegebenen Bedingungen zu aktivieren. [Mehr dazu](../workflows/activities/test.md)
+* **JavaScript-Code**: Verwenden Sie diese Aktivität, um ein JavaScript-Code-Snippet im Kontext eines Workflows auszuführen. [Mehr dazu](../workflows/activities/javascript-code.md)
+* **Externes Signal**: Verwenden Sie diese Aktivität, um die Ausführung eines Workflows über einen anderen Workflow oder einen API-Aufruf auszulösen. [Mehr dazu](../workflows/activities/external-signal.md)
+* **Inkrementelle Abfrage**: Verwenden Sie diese Aktivität, um die Datenbank planmäßig abzufragen. Bei jeder neuen Ausführung dieser Aktivität werden die Ergebnisse der vorangehenden Ausführungen ausgeschlossen. Dadurch ist es möglich, ausschließlich neue Elemente einzubeziehen. [Mehr dazu](../workflows/activities/incremental-query.md)
 
 **Vorlagen für Rich-Push-Benachrichtigungen**
 
-Sie können nun Rich-Push-Benachrichtigungen über Android senden. Rich-Push-Benachrichtigungen sind eine erweiterte Form von Benachrichtigungen an Mobilgeräte, die über einfache Textnachrichten hinausgehen und Multimedia-Elemente wie Bilder, interaktive Schaltflächen oder andere Rich-Media-Inhalte enthalten. [Weitere Informationen](../push/rich-push.md)
+Sie können nun Rich-Push-Benachrichtigungen über Android senden. Rich-Push-Benachrichtigungen sind eine erweiterte Form von Benachrichtigungen an Mobilgeräte, die über einfache Textnachrichten hinausgehen und Multimedia-Elemente wie Bilder, interaktive Schaltflächen oder andere Rich-Media-Inhalte enthalten. [Mehr dazu](../push/rich-push.md)
 
 Beachten Sie, dass diese Funktion nur **eingeschränkt verfügbar** ist.
 
@@ -258,24 +258,24 @@ Beachten Sie, dass diese Funktion nur **eingeschränkt verfügbar** ist.
 
 * **Landingpages**: Die folgenden Verbesserungen an Landingpages sind nur für Benutzende verfügbar, die einen Wechsel von Campaign Standard durchführen:
 
-   * Sie können nun beim Konfigurieren eines Dienstes auf eine standardmäßige Landingpage zur An-/Abmeldung verweisen. Wenn Sie bei der Erstellung einer E-Mail einen Link zu dieser Landingpage definieren, werden die Benutzenden, die das Landingpage-Formular senden, automatisch für diesen Dienst angemeldet bzw. von ihm abgemeldet. [Weitere Informationen](../audience/manage-services.md#create-service)
-   * Eine neue Option in der Landingpage-Konfiguration ermöglicht anonymen Besuchenden, auf die Landingpage zuzugreifen. Wenn Sie diese Option deaktivieren, können nur identifizierte Benutzende auf das Formular zugreifen und dieses absenden. [Weitere Informationen](../landing-pages/create-lp.md#create-landing-page)
-   * Eine neue Option in der Landingpage-Konfiguration ermöglicht, zusätzliche interne Daten bei der Landingpage-Übermittlung zu speichern. [Weitere Informationen](../landing-pages/create-lp.md#create-landing-page)
-   * Eine neue Option ermöglicht Ihnen die Verwendung einer Landingpage für mehrere Dienste, wodurch sie dynamisch wird. Wenn Sie einen Link zu einer E-Mail hinzufügen und eine dynamische Landingpage auswählen, können Sie einen beliebigen Dienst auswählen. Wenn Sie eine Landingpage auswählen, der ein bestimmter Dienst zugeordnet ist, wird dieser Dienst automatisch verwendet. Sie können keinen anderen Dienst auswählen. [Weitere Informationen](../landing-pages/create-lp.md#define-actions-on-form-submission)
-   * Bedingte Inhalte werden nun auf Landingpages unterstützt. [Weitere Informationen](../landing-pages/lp-content.md)
+   * Sie können nun beim Konfigurieren eines Dienstes auf eine standardmäßige Landingpage zur An-/Abmeldung verweisen. Wenn Sie bei der Erstellung einer E-Mail einen Link zu dieser Landingpage definieren, werden die Benutzenden, die das Landingpage-Formular senden, automatisch für diesen Dienst angemeldet bzw. von ihm abgemeldet. [Mehr dazu](../audience/manage-services.md#create-service)
+   * Eine neue Option in der Landingpage-Konfiguration ermöglicht anonymen Besuchenden, auf die Landingpage zuzugreifen. Wenn Sie diese Option deaktivieren, können nur identifizierte Benutzende auf das Formular zugreifen und dieses absenden. [Mehr dazu](../landing-pages/create-lp.md#create-landing-page)
+   * Eine neue Option in der Landingpage-Konfiguration ermöglicht, zusätzliche interne Daten bei der Landingpage-Übermittlung zu speichern. [Mehr dazu](../landing-pages/create-lp.md#create-landing-page)
+   * Eine neue Option ermöglicht Ihnen die Verwendung einer Landingpage für mehrere Dienste, wodurch sie dynamisch wird. Wenn Sie einen Link zu einer E-Mail hinzufügen und eine dynamische Landingpage auswählen, können Sie einen beliebigen Dienst auswählen. Wenn Sie eine Landingpage auswählen, der ein bestimmter Dienst zugeordnet ist, wird dieser Dienst automatisch verwendet. Sie können keinen anderen Dienst auswählen. [Mehr dazu](../landing-pages/create-lp.md#define-actions-on-form-submission)
+   * Bedingte Inhalte werden nun auf Landingpages unterstützt. [Mehr dazu](../landing-pages/lp-content.md)
 
 ### Allgemeine Verbesserungen {#improvements-24-4}
 
 Die folgenden Verbesserungen stehen allen Kundinnen und Kunden ab der April-Version zur Verfügung.
 
-* Die Aktivität **Datei laden** wurde um mehrere Abschnitte erweitert, durch die Sie eine Beispieldatei hochladen, Fehler und Zurückweisungen verwalten sowie hochgeladene Dateien nach Ausführung der Aktivität löschen können. [Weitere Informationen](../workflows/activities/load-file.md)
+* Die Aktivität **Datei laden** wurde um mehrere Abschnitte erweitert, durch die Sie eine Beispieldatei hochladen, Fehler und Zurückweisungen verwalten sowie hochgeladene Dateien nach Ausführung der Aktivität löschen können. [Mehr dazu](../workflows/activities/load-file.md)
 
 
-* Sie haben nun die Möglichkeit, **Aktivitäten in einem Workflow zu kopieren** und in einen Workflow von einer anderen Browser-Registerkarte einzufügen. [Weitere Informationen](../workflows/orchestrate-activities.md#copy-activities-copy)
+* Sie haben nun die Möglichkeit, **Aktivitäten in einem Workflow zu kopieren** und in einen Workflow von einer anderen Browser-Registerkarte einzufügen. [Mehr dazu](../workflows/orchestrate-activities.md#copy-activities-copy)
 
-* Die **Ausführungsoptionen** aller Workflow-Aktivitäten können jetzt verwaltet werden. Auf diese Weise können Sie den Ausführungsmodus und das Verhalten der Aktivität im Falle eines Fehlers definieren. [Weitere Informationen](../workflows/orchestrate-activities.md#execution-options-execution)
+* Die **Ausführungsoptionen** aller Workflow-Aktivitäten können jetzt verwaltet werden. Auf diese Weise können Sie den Ausführungsmodus und das Verhalten der Aktivität im Falle eines Fehlers definieren. [Mehr dazu](../workflows/orchestrate-activities.md#execution-options-execution)
 
-* Mit der Option „Transition nicht aktivieren, wenn die Population leer ist“ der **Aktivität „Aufspaltung“** können Sie festlegen, ob der Workflow bei einem leeren Segmentergebnis zur nächsten Aktivität übergehen soll. [Weitere Informationen](../workflows/activities/split.md)
+* Mit der Option „Transition nicht aktivieren, wenn die Population leer ist“ der **Aktivität „Aufspaltung“** können Sie festlegen, ob der Workflow bei einem leeren Segmentergebnis zur nächsten Aktivität übergehen soll. [Mehr dazu](../workflows/activities/split.md)
 
 ## Versionshinweise für März {#24-3-release}
 

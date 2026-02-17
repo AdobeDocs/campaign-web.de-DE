@@ -2,10 +2,10 @@
 title: Entdecken der Details von Profilen
 description: Erfahren Sie, wie Sie die Details eines Profils durchsuchen.
 exl-id: 172dec7d-24c6-4c35-bb45-5dc3ce9fadeb
-source-git-commit: 934a37cfebfacd2df0b7610285252d883611f252
+source-git-commit: 8815abf9a7851b67f45038acad5ff8bff84db81b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '246'
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Informationen zum Profil sind wie folgt organisiert:
 
   ![Screenshot mit der Registerkarte „Abonnements“, auf der die Dienste aufgeführt sind, für die das Profil angemeldet ist.](assets/profile-subscriptions.png){zoomable="yes"}
 
-* Sie können benutzerdefinierte Registerkarten anzeigen, z. B. Käufe, indem Sie Sammlungs-Links in der Bildschirmdefinition des Empfängerschemas definieren. [Weitere Informationen zu Sammlungs-Links](../administration/schemas.md#collection-lists)
+* Sie können benutzerdefinierte Registerkarten anzeigen, z. B. Käufe, indem Sie Sammlungs-Links in der Bildschirmdefinition des Empfängerschemas definieren. [Weitere Informationen zu Sammlungs-Links](../administration/schemas-collection-lists.md)
 
   ![Screenshot einer benutzerdefinierten Registerkarte](assets/schemas-collection4.png){zoomable="yes"}
 
