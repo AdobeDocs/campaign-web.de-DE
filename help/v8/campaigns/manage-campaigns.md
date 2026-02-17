@@ -3,10 +3,10 @@ audience: end-user
 title: Erste Schritte mit Kampagnen
 description: Erfahren Sie, wie Sie mit kanalübergreifenden Kampagnen beginnen
 exl-id: 690229e7-73e1-4cc1-b69a-f3e5d8de58af
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 176b6abeee5391cc806b1660b2fd5bb39c654945
 workflow-type: tm+mt
-source-wordcount: '773'
-ht-degree: 100%
+source-wordcount: '995'
+ht-degree: 71%
 
 ---
 
@@ -17,11 +17,7 @@ ht-degree: 100%
 >title="Kampagnenzeitplan"
 >abstract="Legen Sie Ihren Kampagnenzeitplan fest oder ändern Sie ihn."
 
-Um auf Ihre Kampagnen zuzugreifen und sie zu verwalten, klicken Sie auf das Menü **[!UICONTROL Kampagnen]** in der linken Navigation.
-
-## Kampagnenliste {#access-campaigns}
-
-In der Kampagnenliste stehen zwei Registerkarten zur Verfügung:
+Um auf Ihre Kampagnen zuzugreifen und sie zu verwalten **[!UICONTROL klicken Sie im linken Navigationsbereich auf]** Kampagnen“. Zwei Registerkarten sind verfügbar:
 
 * Die Registerkarte **Durchsuchen** enthält alle vorhandenen Kampagnen. Sie können auf eine Kampagne klicken, um ihr Dashboard zu öffnen, oder eine neue Kampagne erstellen, indem Sie auf die Schaltfläche **Kampagne erstellen** klicken. Weitere Informationen finden Sie in diesem [Abschnitt](create-campaigns.md#create-campaigns).
 
@@ -29,15 +25,31 @@ In der Kampagnenliste stehen zwei Registerkarten zur Verfügung:
 
 ![Beschreibung: der Bildschirm der Kampagnenliste mit den Registerkarten „Durchsuchen“ und „Vorlagen“ sowie den Optionen zum Erstellen oder Anzeigen von Kampagnen](assets/campaign-list.png)
 
-Standardmäßig enthält jede Kampagne in der Liste verschiedene Informationen, etwa zum aktuellen Status, zum Start- und Enddatum, zum Erstellungsdatum und zum Zeitpunkt der letzten Änderung.
+## Kampagneninventar {#inventory}
 
-Sie können die angezeigten Spalten anpassen, indem Sie auf das Symbol **Spalte für ein benutzerdefiniertes Layout konfigurieren** in der oberen rechten Ecke der Liste klicken. So können Sie Spalten hinzufügen oder entfernen und Informationen in der Kampagnenliste neu anordnen.
+Die **[!UICONTROL Durchsuchen]** enthält Informationen zum aktuellen Status der Kampagnen, zum Start- und Enddatum, zum Erstellungsdatum, zum letzten Änderungszeitpunkt usw. Sie können die angezeigten Spalten anpassen, indem Sie auf das Symbol **Spalte für ein benutzerdefiniertes Layout konfigurieren** in der oberen rechten Ecke der Liste klicken. So können Sie Spalten hinzufügen oder entfernen und Informationen in der Kampagnenliste neu anordnen.
 
-Darüber hinaus stehen eine Suchleiste und Filter zur Verfügung, um die Suche innerhalb der Liste zu erleichtern. [Weitere Informationen](../get-started/user-interface.md#list-screens).
+### Durchsuchen und Filtern des Inventars {#search}
 
-Sie können beispielsweise nach Ihrem Kampagnenkalender filtern. Öffnen Sie das Panel „Filter“ und verwenden Sie den Abschnitt **Anfangsdatum – Enddatum**:
+Eine Suchleiste und Filter sind verfügbar, um die Suche innerhalb der Liste zu erleichtern. [Mehr dazu](../get-started/user-interface.md#list-screens). Sie können beispielsweise nach Ihrem Kampagnenkalender filtern. Öffnen Sie das Panel „Filter“ und verwenden Sie den Abschnitt **Anfangsdatum – Enddatum**:
 
 ![Beschreibung: das Panel „Filter“ mit Optionen zum Filtern von Kampagnen nach Start- und Enddatum](assets/campaign-filter-on-dates.png)
+
+### Zeitleisten-Ansicht {#timeline}
+
+Standardmäßig wird auf dem Kampagnenbildschirm die **Listenansicht“ (**) angezeigt. Sie können jederzeit zur **Zeitleisten** Ansicht wechseln, indem Sie den Umschalter Ansicht verwenden. Beide Ansichten zeigen dieselben Kampagnen und nutzen dieselben Filter und Suchen. Wenn Sie in einer Ansicht Filter ändern oder suchen, spiegelt die andere Ansicht dieselbe Auswahl wider.
+
+Die Zeitleisten -Ansicht hilft Ihnen bei der Visualisierung und Verwaltung Ihrer Kampagnen im Zeitverlauf. Sie können alle Ihre Kampagnen in einem zeitbasierten Format anzeigen, sodass Sie Ihre Marketing-Aktivitäten einfacher planen, planen und koordinieren können.
+
+![](assets/timeline-view.png)
+
+**Funktionsweise der Timeline:**
+
+* In der Zeitleiste werden Ihre Kampagnen entsprechend ihrem Start- und Enddatum angezeigt. Kampagnen, die sich über mehrere Tage erstrecken, werden über die relevanten Datumsbereiche hinweg angezeigt.
+* Sie können nach Woche, Monat oder Tag navigieren. Verwenden Sie die Datumsauswahl- oder Pfeiltasten, um zwischen Punkten zu wechseln. Mit der Schaltfläche **Heute** können Sie schnell zum aktuellen Datum zurückkehren.
+* Wenn Sie eine Kampagne auswählen, wird ein Rechtsbedienfeld mit Kampagnendetails geöffnet: Status, Start- und Enddatum, Liste der Workflows und Liste der Sendungen. Sie können zu diesen Workflows und Sendungen über das Bedienfeld navigieren.
+* In Bearbeitung befindliche Kampagnen werden in der Anzeige priorisiert, wenn viele Kampagnen auf dasselbe Datum fallen.
+* Wenn viele Kampagnen auf einen einzelnen Tag fallen (z. B. in der Monatsansicht), können Sie mit dem Steuerelement **Mehr** erweitern, um den vollständigen Satz für diesen Tag anzuzeigen, oder zur Wochen- oder Tagesansicht wechseln, um weitere Details anzuzeigen.
 
 ## Kampagnen-Dashboard {#campaign-dashboard}
 
@@ -109,5 +121,5 @@ Gehen Sie wie folgt vor, um eine Kampagnenvorlage zu erstellen:
 1. Geben Sie einen Titel für Ihre Vorlage an.
 1. Ändern Sie bei bei Bedarf die folgenden **zusätzlichen Optionen**: interner Name, Ordner, Zuweisung, Beschreibung und Art.
 1. Definieren Sie den **Zeitplan** für Ihre Kampagne. Erfahren Sie in [diesem Abschnitt](create-campaigns.md#campaign-schedule), wie Sie Ihre Kampagnenplanung festlegen.
-1. Klicken Sie auf **Erstellen**.
+1. Wählen Sie **Erstellen** aus.
 1. Fügen Sie Ihrer Kampagne Workflows und Versandvorlagen hinzu.

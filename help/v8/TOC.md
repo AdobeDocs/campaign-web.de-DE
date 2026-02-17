@@ -5,9 +5,9 @@ user-guide-description: Produktdokumentation zur Adobe Campaign Web-Benutzerober
 title: Dokumentation zu Adobe Campaign Web
 description: Dokumentation zu Campaign Web
 breadcrumb-title: Campaign Web-Benutzeroberfläche
-source-git-commit: 0f12c504e92d564bdd7a07915a54905975ffbe10
+source-git-commit: 4e671c438092342b6a53dd8ef3df8276b08d36a3
 workflow-type: tm+mt
-source-wordcount: '973'
+source-wordcount: '975'
 ht-degree: 98%
 
 ---
@@ -21,6 +21,7 @@ ht-degree: 98%
    + [Frühere Version](rn/e-release-notes.md)
    + [Aktuelle Version](rn/release-notes.md)
    + Frühere Versionen {#previous-release-notes}
+      + [Versionen 2026](rn/release-notes-26.md)
       + [Versionen 2025](rn/release-notes-25.md)
       + [Versionen 2024](rn/release-notes-24.md)
    + [Aktualisierungen der Dokumentation](rn/documentation-updates.md)
@@ -92,7 +93,7 @@ ht-degree: 98%
    + Versandwarnung {#delivery-alerting}
       + [Erste Schritte mit Versandwarnungen](msg/delivery-alerting.md)
       + [Versandwarnungs-Dashboards](msg/delivery-alerting-dashboards.md)
-      + [Versandwarnungsbedingungen        &#x200B;](msg/delivery-alerting-criteria.md)
+      + [Versandwarnungsbedingungen        ](msg/delivery-alerting-criteria.md)
 + Content-Management {#content}
    + Erstellen dynamischer Inhalte {#dynamic-content}
       + [Wie lässt sich der Inhalt dynamisch gestalten?](personalization/gs-personalization.md)
@@ -283,7 +284,7 @@ ht-degree: 98%
    + [Verwalten von Zielgruppen-Mappings](administration/target-mappings.md)
    + [Arbeiten mit Schemata](administration/schemas.md)
    + [Konfigurieren benutzerdefinierter Felder](administration/custom-fields.md)
-   + [Konfigurieren von Optionen in [!DNL Campaign] &#x200B;](administration/options.md)
+   + [Konfigurieren von Optionen in [!DNL Campaign] ](administration/options.md)
    + [Zeitzonenverwaltung](administration/timezone-management.md)
    + Externe Konten {#external-accounts}
       + [Erstellen externer Konten](administration/create-external-account.md)
