@@ -22,7 +22,7 @@ Hinzufügen von Sammlungslisten:
 
 1. Navigieren Sie zum Menü **[!UICONTROL Schemata]** und suchen Sie mithilfe der Filter nach bearbeitbaren Schemata.
 
-1. Wählen Sie den Schemanamen in der Liste aus, um ihn zu öffnen, und klicken Sie in der Ansicht mit den Schemadetails auf **** Bildschirmbearbeitung“, um auf die Bildschirmdefinition zuzugreifen.
+1. Wählen Sie den Schemanamen in der Liste aus, um ihn zu öffnen, und klicken Sie in der Ansicht mit den Schemadetails auf **&#x200B;**&#x200B;Bildschirmbearbeitung“, um auf die Bildschirmdefinition zuzugreifen.
 
 1. Klicken Sie auf das Symbol mit den Auslassungspunkten und wählen Sie **[!UICONTROL Benutzerdefinierte Listen auswählen]**.
 

@@ -48,7 +48,7 @@ So greifen Sie auf die Bildschirmdefinition zu:
 
    ![Bildschirm mit der Liste der Schemata samt verfügbaren Schemata und Filtern](assets/schemas-list2.png)
 
-1. Wählen Sie den Schemanamen in der Liste aus, um ihn zu öffnen, und klicken Sie in der Ansicht mit den Schemadetails auf **** Bildschirmbearbeitung“, um auf die Bildschirmdefinition zuzugreifen.
+1. Wählen Sie den Schemanamen in der Liste aus, um ihn zu öffnen, und klicken Sie in der Ansicht mit den Schemadetails auf **&#x200B;**&#x200B;Bildschirmbearbeitung“, um auf die Bildschirmdefinition zuzugreifen.
 
    ![Bildschirm mit der Liste der Schemata samt verfügbaren Schemata und Filtern](assets/schemas-list3.png)
 
