@@ -2,10 +2,10 @@
 title: Versionshinweise zur Web-Benutzeroberfläche von Campaign v8
 description: Entdecken Sie die neuen Funktionen der neuesten Version der Campaign Web-Benutzeroberfläche
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 4e671c438092342b6a53dd8ef3df8276b08d36a3
+source-git-commit: c1c081688c6e7f48baf0514fbea1292ea40d96c7
 workflow-type: tm+mt
-source-wordcount: '256'
-ht-degree: 43%
+source-wordcount: '274'
+ht-degree: 47%
 
 ---
 
@@ -66,7 +66,7 @@ _17. Februar 2026_
 <tr>
 <td>
 <p>Das Kampagneninventar enthält jetzt eine Zeitleisten -Ansicht, mit der Sie Kampagnen im Zeitverlauf visualisieren und verwalten können: Wechseln zwischen Liste und Zeitleiste, Navigieren nach Woche, Monat oder Tag, Verwenden der Schaltfläche Heute , um zum aktuellen Datum zu springen, und Öffnen von Kampagnendetails (Status, Workflows, Sendungen) in einem rechten Bedienfeld - mit denselben Filtern und Suchvorgängen wie die Listenansicht.</p>
-<!--p>For more information, refer to the detailed documentation.</p-->
+<p>Weitere Informationen finden Sie im <a href="../campaigns/manage-campaigns.md#timeline">entsprechenden Handbuch</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -82,16 +82,16 @@ _17. Februar 2026_
 <tr>
 <td>
 <p>Sie können Schemata jetzt direkt über die Web-Benutzeroberfläche von Campaign erstellen und verwalten. Mit dieser Funktion können Sie neue Tabellen erstellen, vorhandene Schemata erweitern und benutzerdefinierte Formulare erstellen. Sie können benutzerdefinierte Datenstrukturen definieren, um Ihre spezifischen Geschäftsanforderungen zu unterstützen, ohne Zugriff auf die Client-Konsole zu benötigen.</p>
-<!--p>For more information, refer to the <a href="../administration/schemas.md">detailed documentation</a>.</p-->
+<p>Weitere Informationen finden Sie im <a href="../administration/schemas.md">entsprechenden Handbuch</a>.</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-### Verbesserungen {#26-2-improvements}
+### Verbesserung {#26-2-improvements}
 
 * Markenrichtlinien enthalten jetzt einen Abschnitt Farben , der Standards für das Farbsystem Ihrer Marke definiert und die konsistente Verwendung von primären, sekundären, Akzent- und neutralen Farben für alle Erlebnisse sicherstellt.
-  <!--[Learn more](../content/brands-personalize.md)-->
+  [Weitere Informationen](../content/brands-personalize.md)
 
 
 
