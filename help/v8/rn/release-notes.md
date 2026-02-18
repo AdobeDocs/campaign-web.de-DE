@@ -89,6 +89,7 @@ _17. Februar 2026_
 </table>
 
 <!-->
+
 ### Verbesserung {#26-2-improvements}
 
 * Markenrichtlinien enthalten jetzt einen Abschnitt Farben , der Standards für das Farbsystem Ihrer Marke definiert und die konsistente Verwendung von primären, sekundären, Akzent- und neutralen Farben für alle Erlebnisse sicherstellt.

@@ -251,6 +251,7 @@ So personalisieren Sie **[!UICONTROL visuelle Inhalte]**:
 Jetzt können Sie Ihre Marke weiter personalisieren oder sie [veröffentlichen](#create-brand-kit).
 
 <!-->
+
 ## Farben {#colors}
 
 Im Abschnitt **[!UICONTROL Farben]** werden die Standards für das Farbsystem Ihrer Marke beschrieben, in denen beschrieben wird, wie Farben in Erlebnissen ausgewählt, organisiert und angewendet werden. Es sorgt für die konsistente Verwendung von primären, sekundären, Akzent- und neutralen Farben, um eine kohärente, barrierefreie und erkennbare Markenidentität aufrechtzuerhalten.
