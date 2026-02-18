@@ -3,9 +3,9 @@ keywords: Campaign Web;Startseite;beliebte Themen
 description: Hilfe-Center zu Campaign Web
 title: Produktdokumentation zu Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 62e064b5a2e2c0d8b81755d2a8a9ea04c512e6f2
+source-git-commit: 48e7712a3471a063537f4e8e05d389acd77c7123
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '468'
 ht-degree: 99%
 
 ---
@@ -52,9 +52,9 @@ Hier erhalten Sie einen Einblick in die neuesten Verbesserungen in Adobe Campaig
 >[!BEGINTABS]
 
 
->[!TAB Version Januar &#39;26]
+>[!TAB Version Februar &#39;26]
 
-Die Version Oktober ist live. In der Campaign Web-Benutzeroberfläche sind jetzt neue Funktionen und Verbesserungen verfügbar, einschließlich mehrsprachiger Funktionen für Transaktions-Messaging, Push-Benachrichtigungen und SMS, Integration mit Adobe GenStudio und Profilanreicherung in Transaktionsnachrichten. Eine vollständige Übersicht finden Sie in den Versionshinweisen.
+Die Februarversion ist live. Neue Funktionen und Verbesserungen sind jetzt in der Benutzeroberfläche von Campaign Web verfügbar. Eine vollständige Übersicht finden Sie in den Versionshinweisen.
 
 [![Schaltfläche „Weitere Informationen“](assets/do-not-localize/learn-more-button.svg)](../v8/rn/release-notes.md)
 
