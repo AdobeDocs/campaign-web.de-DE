@@ -5,9 +5,9 @@ description: Informationen zum Personalisieren Ihrer Markenrichtlinien
 role: User
 level: Beginner, Intermediate
 exl-id: e02f8137-d6a8-46ec-a317-2ac5fb5d0c48
-source-git-commit: 3426490deea7dc8653b30f29c530ecc21b52f7b6
+source-git-commit: 06208ed2cbb08d9cebfceff3ebbc661c0b9682ee
 workflow-type: tm+mt
-source-wordcount: '1452'
+source-wordcount: '1444'
 ht-degree: 71%
 
 ---
@@ -19,7 +19,7 @@ Um ein umfassendes Marken-Kit zu erstellen, das die Konsistenz Ihrer Inhalte und
 * **[!UICONTROL Über die Marke]** legt die Identität und die Werte Ihrer Marke fest.
 * **[!UICONTROL Schreibstil]** definiert Sprach- und Inhaltsstandards.
 * **[!UICONTROL Visueller Inhalt]** legt Richtlinien für Bilder und Design fest.
-* **[!UICONTROL Farben]** verwaltet das Farbsystem und die Verwendung Ihrer Marke.
+  <!--* **[!UICONTROL Colors]** manages your brand's color system and usage.-->
 
 Nach der Konfiguration können Sie Ihre Markenrichtlinien verwenden, um die Qualität der Inhalte und die Markenausrichtung zu überprüfen. [Erfahren Sie mehr über die Validierung der Inhaltsqualität](brands-score.md#validate-quality)
 
@@ -250,6 +250,7 @@ So personalisieren Sie **[!UICONTROL visuelle Inhalte]**:
 
 Jetzt können Sie Ihre Marke weiter personalisieren oder sie [veröffentlichen](#create-brand-kit).
 
+<!-->
 ## Farben {#colors}
 
 Im Abschnitt **[!UICONTROL Farben]** werden die Standards für das Farbsystem Ihrer Marke beschrieben, in denen beschrieben wird, wie Farben in Erlebnissen ausgewählt, organisiert und angewendet werden. Es sorgt für die konsistente Verwendung von primären, sekundären, Akzent- und neutralen Farben, um eine kohärente, barrierefreie und erkennbare Markenidentität aufrechtzuerhalten.
@@ -345,5 +346,5 @@ So personalisieren Sie **[!UICONTROL Farben]**:
 
 1. Klicken Sie **[!UICONTROL Gruppe hinzufügen]**, um zusätzliche Farben für Ihre Marke zu definieren oder eine Farbskalagruppe hinzuzufügen.
 
-Jetzt können Sie Ihre Marke weiter personalisieren oder sie [veröffentlichen](brands.md#create-brand-kit).
-
+Jetzt können Sie Ihre Marke weiter personalisieren oder [Ihre Marke veröffentlichen](brands.md#create-brand-kit).
+—>

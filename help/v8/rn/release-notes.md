@@ -2,10 +2,10 @@
 title: Versionshinweise zur Web-Benutzeroberfläche von Campaign v8
 description: Entdecken Sie die neuen Funktionen der neuesten Version der Campaign Web-Benutzeroberfläche
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: c1c081688c6e7f48baf0514fbea1292ea40d96c7
+source-git-commit: 06208ed2cbb08d9cebfceff3ebbc661c0b9682ee
 workflow-type: tm+mt
 source-wordcount: '274'
-ht-degree: 47%
+ht-degree: 46%
 
 ---
 
@@ -88,10 +88,11 @@ _17. Februar 2026_
 </tbody>
 </table>
 
+<!-->
 ### Verbesserung {#26-2-improvements}
 
 * Markenrichtlinien enthalten jetzt einen Abschnitt Farben , der Standards für das Farbsystem Ihrer Marke definiert und die konsistente Verwendung von primären, sekundären, Akzent- und neutralen Farben für alle Erlebnisse sicherstellt.
-  [Weitere Informationen](../content/brands-personalize.md)
+  [Weitere Informationen](../content/brands-personalize.md)—>
 
 
 
