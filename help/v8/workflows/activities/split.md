@@ -60,7 +60,7 @@ Die Aktivität **Aufspaltung** ist eine Aktivität zur **Zielgruppenbestimmung**
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_enable_overlapping"
 >title="Überlappen von Ausgabepopulationen ermöglichen"
->abstract="Die Option **[!UICONTROL Überschneidung der Ausgabepopulationen zulassen]** ermöglicht den Umgang mit Populationen, die in mehreren Teilmengen enthalten sind. Wenn diese Option deaktiviert ist, stellt die Aktivität „Aufspaltung“ sicher, dass eine Empfängerin oder ein Empfänger nicht in mehreren ausgehenden Transitionen enthalten sein kann, auch wenn sie bzw. er den Kriterien anderer Teilmengen entspricht. Sie befinden sich in der Zielgruppe der ersten Registerkarte mit passenden Kriterien. Wenn die Option aktiviert ist, sind die Profile in allen Teilmengen enthalten, deren Filterkriterien sie erfüllen. Es wird für Adobe Campaign jedoch empfohlen, keine Überschneidungen zuzulassen."
+>abstract="Die Option **[!UICONTROL Überschneidung der Ausgabepopulationen zulassen]** ermöglicht den Umgang mit Populationen, die in mehreren Teilmengen enthalten sind. Wenn diese Option deaktiviert ist, stellt die Aktivität „Aufspaltung“ sicher, dass eine Empfängerin oder ein Empfänger nicht in mehreren ausgehenden Transitionen enthalten sein kann, auch wenn sie bzw. er den Kriterien anderer Teilmengen entspricht. Sie befinden sich in der Zielgruppe der ersten Registerkarte mit passenden Kriterien. Wenn die Option aktiviert ist, sind die Profile in allen Teilmengen enthalten, deren Filterkriterien sie erfüllen. Es wird für Adobe Campaign jedoch empfohlen, ausschließende Kriterien zu verwenden."
 
 Folgen Sie diesen Schritten, um die Aktivität **Aufspaltung** zu konfigurieren:
 
@@ -102,7 +102,7 @@ Folgen Sie diesen Schritten, um die Aktivität **Aufspaltung** zu konfigurieren:
    >
    >Die Option **[!UICONTROL Alle Teilmengen in derselben Tabelle generieren]** ermöglicht die Gruppierung aller Teilmengen in einer ausgehenden Transition.
 
-1. Die Option **[!UICONTROL Überlappung der Ausgabepopulationen zulassen]** ermöglicht den Umgang mit Profilen, die in mehreren Teilmengen enthalten sind:
+1. Die Option **[!UICONTROL Überlappung der Ausgabepopulationen zulassen]** ermöglicht Ihnen die Verwaltung von Populationen, die in mehreren Teilmengen enthalten sind:
 
    * Wenn diese Option deaktiviert ist, stellt die Aktivität „Aufspaltung“ sicher, dass eine Empfängerin oder ein Empfänger nicht in mehreren ausgehenden Transitionen enthalten sein kann, auch wenn sie bzw. er den Kriterien anderer Teilmengen entspricht. Sie befinden sich in der Zielgruppe der ersten Registerkarte mit passenden Kriterien.
    * Wenn die Option aktiviert ist, sind die Profile in allen Teilmengen enthalten, deren Filterkriterien sie erfüllen. Es wird für Adobe Campaign jedoch empfohlen, ausschließende Kriterien zu verwenden.

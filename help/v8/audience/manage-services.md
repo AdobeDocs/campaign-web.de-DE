@@ -102,7 +102,7 @@ Sie können jetzt:
 
 * Ihre Kundinnen und Kunden über eine Landingpage dazu einladen, sich für diesen Dienst anzumelden. [Weitere Informationen](../landing-pages/lp-use-cases.md#lp-subscription)
 
-* Nachrichten an Abonnentinnen und Abonnenten dieses Dienstes senden. [Weitere Informationen dazu](../msg/send-to-subscribers.md)
+* Nachrichten an Abonnentinnen und Abonnenten dieses Dienstes senden. [Weitere Informationen](../msg/send-to-subscribers.md)
 
 ## Erstellen einer Bestätigungsnachricht {#create-confirmation-message}
 
@@ -116,7 +116,7 @@ Sie können jetzt:
 >title="Auswählen der Versandvorlage für Abmeldungen"
 >abstract="Um den Benutzerinnen und Benutzern, die sich von Ihrem Dienst abgemeldet haben, Bestätigungsnachrichten zu senden, müssen Sie eine Versandvorlage mit dem Zielgruppen-Mapping für die **[!UICONTROL Abonnements]** erstellen, und zwar ohne eine definierte Zielgruppe. "
 
-Um den Benutzerinnen und Benutzern, die sich für Ihren Dienst angemeldet haben oder davon abmelden, Bestätigungsnachrichten zu senden, erstellen Sie eine Versandvorlage mit dem Zielgruppen-Mapping für **[!UICONTROL Abonnements]**, und zwar ohne eine definierte Zielgruppe. Gehen Sie dazu wie folgt vor:
+Um den Benutzerinnen und Benutzern, die sich für Ihren Dienst angemeldet haben oder davon abmelden, Bestätigungsnachrichten zu senden, erstellen Sie eine Versandvorlage mit dem Zielgruppen-Mapping für **[!UICONTROL Abonnements]**, und zwar ohne eine definierte Zielgruppe. Gehen Sie wie folgt vor:
 
 1. Erstellen Sie eine Versandvorlage für die Abonnementbestätigung. [Erfahren Sie, wie Sie eine Vorlage erstellen](../msg/delivery-template.md)
 

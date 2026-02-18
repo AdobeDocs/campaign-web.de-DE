@@ -9,7 +9,7 @@ exl-id: 803a20ac-e75f-45c6-af89-054b84eb3405
 source-git-commit: f611f57ea0e1d52056cf14e6b08f44148fef31ad
 workflow-type: tm+mt
 source-wordcount: '956'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 99%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_profile_enrichment_settings"
 >title="Profilanreicherung aktivieren"
->abstract="Auswahl der Felder zur Profilanreicherung. Nur Felder mit einem Index können als Abstimmschlüssel ausgewählt werden. Nicht unterstützte Felder sind ausgegraut."
+>abstract="Wählen Sie die Felder zur Profilanreicherung aus. Nur Felder mit einem Index können als Abstimmschlüssel ausgewählt werden. Nicht unterstützte Felder sind ausgegraut."
 
 Sie können eigenständige Sendungen über das linke Menü **[!UICONTROL Sendungen]** oder im Kontext eines Workflows erstellen, egal ob er in einer Kampagne enthalten ist oder nicht.
 

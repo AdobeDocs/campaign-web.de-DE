@@ -1,12 +1,12 @@
 ---
-title: Erstellen einer Landingpage
+title: Landingpage erstellen
 description: Hier erfahren Sie, wie Sie in Campaign Web eine Landingpage konfigurieren und veröffentlichen können.
 feature: Landing Pages
 exl-id: d4a49048-5ab1-4b69-9e12-1ffa235c51f4
 source-git-commit: e82c19df7faecbb75521bca54e32b1ba84ea1f81
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1643'
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ Das Inventar der **[!UICONTROL Landingpages]** zeigt alle erstellten Elemente an
 
 Sie können eine Landingpage duplizieren oder löschen. Klicken Sie auf die Auslassungspunkte neben einer Landingpage, um die gewünschte Aktion auszuwählen.
 
-## Erstellen einer Landingpage {#create-landing-page}
+## Landingpage erstellen {#create-landing-page}
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_properties"
@@ -96,7 +96,7 @@ Gehen Sie wie folgt vor, um eine Landingpage zu erstellen:
    >
    >Auf [dieser Seite](lp-use-cases.md) erfahren Sie, wie Sie die verschiedenen Anwendungsfälle für die jeweiligen Vorlagen implementieren können.
 
-1. Klicken Sie auf **[!UICONTROL Erstellen]**.
+1. Wählen Sie **[!UICONTROL Erstellen]** aus.
 
 1. Füllen Sie die Felder **[!UICONTROL Eigenschaften]** aus, z. B. „Titel“. 
 

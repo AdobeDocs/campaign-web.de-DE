@@ -51,7 +51,7 @@ Gehen Sie wie folgt vor, um eine Aufzählung zu erstellen:
    * Aufzählungen vom Typ **[!UICONTROL System]** sind mit Systemfeldern verknüpft.
    * Aufzählungen vom Typ **[!UICONTROL Emoticon]** werden verwendet, um die Liste der Smileys zu aktualisieren.
 
-1. Klicken Sie auf **[!UICONTROL Erstellen]**. Die Aufzählungsdetails werden angezeigt, sodass Sie der Liste Werte hinzufügen können.
+1. Wählen Sie **[!UICONTROL Erstellen]** aus. Die Aufzählungsdetails werden angezeigt, sodass Sie der Liste Werte hinzufügen können.
 
    ![Bildschirm mit Aufzählungsdetails und Optionen zum Hinzufügen von Werten](assets/enumeration-details.png)
 

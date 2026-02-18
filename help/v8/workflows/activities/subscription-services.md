@@ -88,7 +88,7 @@ Der folgende Workflow zeigt, wie Sie eine Zielgruppe für einen vorhandenen Dien
 
 * Mit der Aktivität **[!UICONTROL Anmeldedienste]** können Sie den Dienst auswählen, bei dem die Profile angemeldet sein müssen.
 
-### Aktualisieren von mehreren Abonnementstatus über eine Datei {#uc2}
+### Mehrere Abonnementstatus über eine Datei aktualisieren {#uc2}
 
 Der nachfolgende Workflow zeigt, wie Sie eine Datei mit Profilen importieren und die zugehörigen Abonnements für mehrere in der Datei angegebene Dienste aktualisieren.
 
@@ -111,7 +111,7 @@ Der nachfolgende Workflow zeigt, wie Sie eine Datei mit Profilen importieren und
 
   ![Screenshot des Workflows – Benutzeroberfläche zur Zuordnung des Anmeldediensts](../assets/workflow-subscription-service-uc2-mapping.png)
 
-  Wenn in Ihrer Datei der Vorgang bereits mit „0“ und „1“ spezifiziert ist, müssen Sie diese Werte nicht erneut kodifizieren. Achten Sie nur darauf, dass die Spalte als **Boolesch** oder **Ganzzahl** in den Spalten der Beispieldatei verarbeitet wird.
+  Wenn in Ihrer Datei der Vorgang bereits mit &quot;0&quot; und &quot;1&quot; spezifiziert ist, müssen Sie diese Werte nicht erneut kodifizieren. Achten Sie nur darauf, dass die Spalte als **Boolesch** oder **Ganzzahl** in den Spalten der Beispieldatei verarbeitet wird.
 
 * Mit der Aktivität **[!UICONTROL Abstimmung]** werden die Daten der Datei als der Profildimension der Adobe Campaign-Datenbank zugehörig identifiziert. Das Feld **E-Mail** der Datei wird dem Feld **E-Mail** der Profil-Ressource zugeordnet.
 

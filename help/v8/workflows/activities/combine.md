@@ -51,7 +51,7 @@ Führen Sie die folgenden Schritte aus, um mit der Aktivität **Kombinieren** zu
 1. Fügen Sie mehrere Aktivitäten wie **Zielgruppe erstellen** hinzu, um mindestens zwei verschiedene Ausführungszweige zu bilden.
 1. Fügen Sie die Aktivität **Kombinieren** zu einer der vorherigen Verzweigungen hinzu.
 1. Wählen Sie einen der Segmentierungstypen aus: [Vereinigung](#union), [Schnittmenge](#intersection) oder [Ausschluss](#exclusion).
-1. Klicken Sie auf **Fortfahren**.
+1. Bestätigen Sie die Angaben mit der Schaltfläche **Fortfahren**.
 1. Aktivieren Sie im Abschnitt **Zusammenzuführende Mengen** alle vorherigen Aktivitäten, die Sie zusammenfügen möchten.
 
 ## Vereinigung {#combine-union}
@@ -78,7 +78,7 @@ Konfigurieren Sie in der Aktivität **Kombinieren** eine **Schnittmenge**, indem
 1. Wählen Sie den **Abstimmtyp**, um festzulegen, wie Duplikate behandelt werden. Siehe den Abschnitt [Vereinigung](#union).
 1. Aktivieren Sie die Option **Komplement erzeugen**, wenn Sie auch die nicht in der Schnittmenge enthaltene Population verwenden möchten. Das Komplement enthält die Vereinigung der Ergebnisse aller eingehenden Aktivitäten abzüglich der Schnittmenge. Der Aktivität wird daraufhin eine zusätzliche ausgehende Transition hinzugefügt.
 
-## Ausschluss  {#combine-exclusion}
+## Ausschluss {#combine-exclusion}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_exclusion_options"
@@ -88,7 +88,7 @@ Konfigurieren Sie in der Aktivität **Kombinieren** eine **Schnittmenge**, indem
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_combine_sets"
 >title="Auswählen von Sets, die kombiniert werden sollen"
->abstract="Wählen Sie im Abschnitt **Zusammenzuführende Mengen** die **Hauptmenge** aus den eingehenden Transitionen. Dies ist die Menge, aus der Elemente ausgeschlossen werden. Die anderen Mengen stimmen mit Elementen überein, bevor sie aus der Primärmenge ausgeschlossen werden."
+>abstract="Wählen Sie im Abschnitt **Zusammenzuführende Mengen** die **Hauptmenge** aus den eingehenden Transitionen. Dies ist die Menge, aus der Elemente ausgeschlossen werden. Die eingehenden Transitionen müssen Populationen gleichen Typs enthalten."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_combine_exclusion"
@@ -102,7 +102,7 @@ Konfigurieren Sie in der Aktivität **Kombinieren** eine **Schnittmenge**, indem
 
 Konfigurieren Sie in der Aktivität **Kombinieren** einen **Ausschluss**, indem Sie diese zusätzlichen Schritte ausführen: 
 
-1. Wählen Sie im Abschnitt **Zusammenzuführende Mengen** die **Hauptmenge** aus den eingehenden Transitionen. Dies ist die Menge, aus der Elemente ausgeschlossen werden. Die anderen Mengen stimmen mit Elementen überein, bevor sie aus der Primärmenge ausgeschlossen werden.
+1. Wählen Sie im Abschnitt **Zusammenzuführende Mengen** die **Hauptmenge** aus den eingehenden Transitionen. Dies ist die Menge, aus der Elemente ausgeschlossen werden. Die eingehenden Transitionen müssen Populationen gleichen Typs enthalten.
 1. Bei Bedarf können die eingehenden Tabellen angepasst werden. Um eine Zielgruppe aus einer anderen Dimension auszuschließen, setzen Sie diese Zielgruppe auf dieselbe Zielgruppendimension wie die Hauptzielgruppe zurück. Klicken Sie im Abschnitt **Ausschlussregeln** auf **Regel hinzufügen** und geben Sie die Bedingungen für die Dimensionsänderung an. Die Datenabstimmung wird entweder über ein Attribut oder einen Join durchgeführt.
 1. Aktivieren Sie die Option **Komplement erzeugen**, wenn Sie auch die nicht in der Schnittmenge enthaltene Population verwenden möchten. Siehe den Abschnitt [Schnittmenge](#intersection).
 

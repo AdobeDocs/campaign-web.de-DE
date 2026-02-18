@@ -5,12 +5,12 @@ description: Erfahren Sie, wie Sie mit Versandwarnungen arbeiten können.
 exl-id: fc98d4e3-7986-42bb-82d5-b4f874aa71db
 source-git-commit: 037b04475370b1a34ecec31ef2a774866278ce65
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '712'
+ht-degree: 100%
 
 ---
 
-# Versandwarnungskriterien {#delivery-alerting-criteria}
+# Versandwarnungsbedingungen         {#delivery-alerting-criteria}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_criteria"
@@ -74,7 +74,7 @@ Gehen Sie wie folgt vor, um ein neues Kriterium zu erstellen:
 
    >[!NOTE]
    >
-   >Wenn keiner der vordefinierten Filter Ihren Anforderungen entspricht, können Sie eigene Filter im Menü **Kunden-Management** > **Vordefinierte Filter** erstellen. [Weitere Informationen](../get-started/predefined-filters.md)
+   >Wenn keiner der vordefinierten Filter Ihren Anforderungen entspricht, können Sie eigene Filter im Menü **Kunden-Management** > **Vordefinierte Filter** erstellen. [Mehr dazu](../get-started/predefined-filters.md)
    >
    >Dieser Vorgang sollte nur von erfahrenen Benutzenden durchgeführt werden.
 

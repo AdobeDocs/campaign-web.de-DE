@@ -31,7 +31,7 @@ ht-degree: 100%
 
 Es gibt zwei Möglichkeiten, Inhaltsfragmente zu erstellen:
 
-* Erstellen Sie ein Fragment mithilfe des dediziertes Menüs **[!UICONTROL Fragmente]** von Grund auf neu. [Weitere Informationen dazu](#create-from-scratch)
+* Erstellen Sie ein Fragment mithilfe des dediziertes Menüs **[!UICONTROL Fragmente]** von Grund auf neu. [Weitere Informationen](#create-from-scratch)
 * Speichern Sie beim Entwerfen von Inhalten einen Teil des Inhalts als Fragment. [Weitere Informationen](#save-as-fragment)
 
   >[!NOTE]
@@ -58,7 +58,7 @@ Gehen Sie wie folgt vor, um ein Inhaltsfragment von Grund auf neu zu erstellen.
    >
    >Für visuelle Fragmente ist eine Aktualisierung auf Campaign v8.6.4 erforderlich. Weitere Informationen finden Sie in den [Versionshinweisen zur Client Console von Campaign v8](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/releases/release-notes).
 
-1. Klicken Sie auf die Schaltfläche **Erstellen**.
+1. Wählen Sie die **Erstellen**-Schaltfläche aus.
 
    * Für **visuelle Fragmente** wird der [E-Mail-Designer](../email/get-started-email-designer.md) angezeigt. Bearbeiten Sie den Inhalt nach Bedarf, so wie bei jeder anderen E-Mail in einer Kampagne. Klicken Sie anschließend auf die Schaltfläche **Speichern und schließen**. Fügen Sie Bilder, Links, Personalisierungsfelder und dynamische Inhalte hinzu.
 
@@ -99,7 +99,7 @@ Jeder E-Mail-Inhalt kann zur späteren Wiederverwendung als visuelles Fragment g
 
    ![Bildschirm „Als Fragment speichern“ mit Elementauswahl](assets/fragment-save-as-screen.png)
 
-1. Klicken Sie auf **[!UICONTROL Erstellen]**. Geben Sie den Fragmentnamen an und speichern Sie es.
+1. Wählen Sie **[!UICONTROL Erstellen]** aus. Geben Sie den Fragmentnamen an und speichern Sie es.
 
    ![Bestätigungsbildschirm zum Speichern visueller Fragmente](assets/fragment-save-confirm.png)
 

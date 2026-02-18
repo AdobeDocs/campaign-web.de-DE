@@ -38,7 +38,7 @@ Um eine Aktivität zu entfernen, wählen Sie sie auf der Arbeitsfläche aus und 
 
 Die Symbolleiste oben rechts in der Arbeitsfläche bietet Optionen zum einfachen Bearbeiten der Aktivitäten und Navigieren auf der Arbeitsfläche:
 
-* **Mehrfachauswahl-Modus**: Wählen Sie mehrere Aktivitäten aus, um sie alle gleichzeitig zu löschen oder zu kopieren/einzufügen. Weitere Informationen finden Sie [in diesem Abschnitt](#copy).
+* **Mehrfachauswahl-Modus**: Wählen Sie mehrere Aktivitäten aus, um sie alle gleichzeitig zu löschen oder zu kopieren/einzufügen. Siehe [diesen Abschnitt](#copy).
 * **Drehen**: Dreht die Arbeitsfläche vertikal.
 * **An Bildschirm anpassen**: Passt die Vergrößerung der Arbeitsfläche an Ihren Bildschirm an.
 * **Verkleinern**/**Vergrößern**: Verkleinert bzw. vergrößert die Arbeitsfläche.
@@ -57,8 +57,8 @@ Sie haben folgende Möglichkeiten:
 * **Löschen** der Aktivität von der Arbeitsfläche aus.
 * **Deaktivieren/Aktivieren** der Aktivität. Wenn der Workflow ausgeführt wird, werden deaktivierte Aktivitäten und auf demselben Pfad folgende Aktivitäten nicht ausgeführt und der Workflow wird angehalten.
 * **Anhalten/Fortsetzen** der Aktivität. Wenn der Workflow ausgeführt wird, wird er bei der angehaltenen Aktivität angehalten. Die entsprechende Aufgabe sowie alle auf demselben Pfad folgenden Aufgaben werden nicht ausgeführt.
-* **Kopieren** der Aktivität. Weitere Informationen finden Sie in diesem [Abschnitt](#copy).
-* **Verschieben** Sie eine Aktivität und alle untergeordneten Knoten in eine andere Transition. Weitere Informationen finden Sie [in diesem Abschnitt](#move).
+* **Kopieren** der Aktivität. Siehe [diesen Abschnitt](#copy).
+* **Verschieben** Sie eine Aktivität und alle untergeordneten Knoten in eine andere Transition. Siehe [diesen Abschnitt](#move).
 * Rufen Sie die **Ausführungsoptionen** der Aktivität auf.
 * Zugreifen auf die **Protokolle und Aufgaben** der Aktivität.
 

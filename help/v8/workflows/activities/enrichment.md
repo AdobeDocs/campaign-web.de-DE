@@ -4,7 +4,7 @@ title: Verwendung der Workflow-Aktivität „Anreicherung“
 description: Erfahren Sie, wie Sie die Workflow-Aktivität „Anreicherung“ verwenden.
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
 source-git-commit: 0e48f27982368b00a29a64b7dbcb0b6be965efd2
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2043'
 ht-degree: 100%
 
@@ -140,7 +140,7 @@ Das folgende Beispiel zeigt einen Workflow zum Erstellen eines Links zwischen de
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment_offer_proposition"
->title="Angebotsvorschlag"
+>title="Angebotsvorschläge"
 >abstract="Die Aktivität „Anreicherung“ ermöglicht das Hinzufügen von Angeboten für jedes Profil."
 
 Mit der Aktivität **[!UICONTROL Anreicherung]** können Sie jedem Profil Angebote hinzufügen.
