@@ -1,9 +1,10 @@
 ---
 title: Erstellen und Veröffentlichen von Schemata
 description: Erfahren Sie, wie Sie Schemata erstellen, erweitern und veröffentlichen.
-source-git-commit: 28f7bcf5f65671136be25c79b414f149532b749f
+exl-id: 1da53fe0-1d64-4907-ba06-206f69e83d7c
+source-git-commit: 4cd545973f21ba4a77faa9b3cd421b49047dd243
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '528'
 ht-degree: 0%
 
 ---
@@ -13,6 +14,10 @@ ht-degree: 0%
 ## Erstellen und Verwalten von Schemata {#create-schemas}
 
 Sie können neue Schemata erstellen, vorhandene Schemata erweitern und auf externe Datenbanken zugreifen.
+
+>[!NOTE]
+>
+>Diese Funktion ist nur für eine Reihe von Organisationen verfügbar (eingeschränkte Verfügbarkeit) und wird in einer zukünftigen Version global eingeführt.
 
 ### Erstellen oder Erweitern eines Schemas {#create-new}
 

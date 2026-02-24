@@ -2,10 +2,10 @@
 title: Versionshinweise zur Web-Benutzeroberfläche von Campaign v8
 description: Entdecken Sie die neuen Funktionen der neuesten Version der Campaign Web-Benutzeroberfläche
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 46ea5bf6355de875947bda84b25f3e779ab08539
+source-git-commit: 4cd545973f21ba4a77faa9b3cd421b49047dd243
 workflow-type: tm+mt
-source-wordcount: '243'
-ht-degree: 52%
+source-wordcount: '267'
+ht-degree: 56%
 
 ---
 
@@ -75,13 +75,14 @@ _17. Februar 2026_
 <table>
 <thead>
 <tr>
-<th><strong>Schema-Authoring</strong><br/></th> 
+<th><strong>Schema-Authoring (LA)</strong><br/></th> 
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
 <p>Sie können Schemata jetzt direkt über die Web-Benutzeroberfläche von Campaign erstellen und verwalten. Mit dieser Funktion können Sie neue Tabellen erstellen, vorhandene Schemata erweitern und benutzerdefinierte Formulare erstellen. Sie können benutzerdefinierte Datenstrukturen definieren, um Ihre spezifischen Geschäftsanforderungen zu unterstützen, ohne Zugriff auf die Client-Konsole zu benötigen.</p>
+<p>Hinweis: Diese Funktion ist nur für eine bestimmte Gruppe von Unternehmen verfügbar (eingeschränkte Verfügbarkeit) und wird in einer zukünftigen Version global eingeführt.</p>
 <p>Weitere Informationen finden Sie im <a href="../administration/schemas.md">entsprechenden Handbuch</a>.</p>
 </td>
 </tr>
