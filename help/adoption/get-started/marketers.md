@@ -4,10 +4,10 @@ description: Entdecken Sie die wichtigsten Funktionen von Campaign v8. Es richt
 role: User
 level: Beginner, Experienced
 exl-id: 514da15d-325b-4d28-9a58-50c1ae2e4925
-source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
+source-git-commit: a343e7c3387e185eec62b4e63ed93ae6fb9eeb80
 workflow-type: tm+mt
 source-wordcount: '2453'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -33,7 +33,7 @@ Der Hauptunterschied liegt in der Benutzeroberfläche. Nachfolgend finden Sie ei
 
 Im folgenden Video erfahren Sie, wie Sie auf die Campaign Web-Benutzeroberfläche zugreifen, darin navigieren und Bestandslisten anpassen können.
 
->[!VIDEO](https://video.tv.adobe.com/v/3453431?captions=ger&quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3427278?quality=12&learn=on){transcript=true}
 
 Weitere Informationen finden Sie in der nachstehenden Dokumentation:
 
@@ -54,11 +54,13 @@ In Adobe Campaign ist ein Profil ein in der Datenbank gespeicherter Eintrag, der
 
 1. In diesem Video erfahren Sie, wie Sie mit der Campaign Web-Benutzeroberfläche auf Profile zugreifen, diese verwalten und erkunden:
 
-   >[!VIDEO](https://video.tv.adobe.com/v/3448373?captions=ger&quality=12&learn=on){transcript=true}
+   >[!VIDEO](https://video.tv.adobe.com/v/3427293?quality=12&learn=on){transcript=true}
 
    Weitere Informationen finden Sie unter [Erste Schritte mit Profilen](../../v8/audience/about-recipients.md).
 
-1. Erfahren Sie, wie Sie in Campaign v8 [Testprofile erstellen und verwalten](../../v8/audience/test-profiles.md).
+1. Erfahren Sie, wie Sie in Campaign v8 Testprofile erstellen und verwalten.
+
+   >[!VIDEO](https://video.tv.adobe.com/v/3442844?quality=12&learn=on){transcript=true}
 
 ### Verwalten von Zielgruppen {#acs-gs-marketers-audiences}
 
@@ -66,7 +68,7 @@ Zielgruppen sind Gruppen von Profilen mit ähnlichen Verhaltensweisen und/oder M
 
 In diesem Video erfahren Sie, wie Sie Zielgruppen erstellen und verwalten, Zielgruppen für einen Versand auswählen und Kontrollgruppen definieren:
 
->[!VIDEO](https://video.tv.adobe.com/v/3453211?captions=ger&quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3425861?quality=12&learn=on){transcript=true}
 
 Weitere Informationen finden Sie unter [Erste Schritte mit Zielgruppen](../../v8/audience/manage-audience.md){target="_blank"}.
 
@@ -83,7 +85,7 @@ Erfahren Sie, wie Sie eine [Kontrollgruppe festlegen](../../v8/audience/control-
 >
 >* Dateityp-Zielgruppen in Campaign Standard werden als Listentyp ohne Dimensionen migriert.
 
-### Verwalten von Abonnements {#acs-gs-marketers-sub}
+### Abonnements verwalten {#acs-gs-marketers-sub}
 
 Sie können Ihre Dienste, z. B. Newsletter, verwalten und erstellen sowie Anmeldungen und Abmeldungen für diese Dienste überprüfen. Die wichtigsten Schritte stimmen allgemein mit denen in Campaign Standard überein. Weitere Informationen finden Sie auf den nachfolgenden Seiten:
 
@@ -144,7 +146,7 @@ Die Workflow-Benutzeroberfläche wurde in der Campaign Web-Benutzeroberfläche 
 
 In diesem Video erfahren Sie, wie Workflows funktionieren und wie Sie einen Zielgruppen-Workflow erstellen:
 
->[!VIDEO](https://video.tv.adobe.com/v/3453981?captions=ger&quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3425873?quality=12&learn=on){transcript=true}
 
 Weitere Informationen finden Sie in der [Workflow-Dokumentation](../../v8/workflows/gs-workflows.md).
 
@@ -200,7 +202,7 @@ Nützliche Links:
 
 In diesem Video erfahren Sie, wie Sie einen neuen E-Mail-Versand erstellen, die Zielgruppe definieren, den Inhalt gestalten, eine Vorschau simulieren und einen Testversand durchführen:
 
->[!VIDEO](https://video.tv.adobe.com/v/3454014?captions=ger&quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3425866?quality=12&learn=on){transcript=true}
 
 Informationen zum Erstellen Ihrer ersten Targeting-E-Mail finden Sie in der [Dokumentation zum Erstellen der ersten E-Mail](../../v8/email/create-email.md)
 
@@ -212,13 +214,13 @@ In Campaign v8 ähneln die detaillierten Schritte zum Erstellen, Testen und Dur
 
    Hier erfahren Sie, wie Sie im E-Mail-Designer navigieren. Im folgenden Video erfahren Sie, wie Sie eine E-Mail neu strukturieren und entwerfen und wie Sie Ihre E-Mail personalisieren und testen:
 
-   >[!VIDEO](https://video.tv.adobe.com/v/3453574?captions=ger&quality=12&learn=on){transcript=true}
+   >[!VIDEO](https://video.tv.adobe.com/v/3425867?quality=12&learn=on){transcript=true}
 
    Mit dem E-Mail-Designer können Sie über eine intuitive Drag-and-Drop-Oberfläche überzeugende, individuell zugeschnittene E-Mails erstellen. Weitere Informationen finden Sie in der [Dokumentation zum E-Mail-Designer](../../v8/email/get-started-email-designer.md).
 
    In diesem Video erfahren Sie, wie Sie eine E-Mail durch Hochladen von HTML erstellen, mit dem E-Mail-Designer kompatibel machen und in eine Vorlage umwandeln:
 
-   >[!VIDEO](https://video.tv.adobe.com/v/3447041?captions=ger&quality=12&learn=on){transcript=true}
+   >[!VIDEO](https://video.tv.adobe.com/v/3427633?quality=12&learn=on){transcript=true}
 
    Ein Inhaltsfragment ist eine wiederverwendbare Komponente, die in einer oder mehreren Nachrichten referenziert werden kann. Erfahren Sie mehr über [Inhaltsfragmente](../../v8/content/fragments.md), um die Erstellung Ihres E-Mail-Versands zu vereinfachen.
 
@@ -228,7 +230,7 @@ In Campaign v8 ähneln die detaillierten Schritte zum Erstellen, Testen und Dur
 
    In diesem Video erfahren Sie, wie Sie sich eine Vorschau des Inhalts und der Personalisierung von E-Mail-Nachrichten anzeigen, Testsendungen durchführen und das E-Mail-Rendering in gängigen Desktop-, Mobile- und Web-basierten Clients überprüfen:
 
-   >[!VIDEO](https://video.tv.adobe.com/v/3450346?captions=ger&quality=12&learn=on){transcript=true}
+   >[!VIDEO](https://video.tv.adobe.com/v/3425862?quality=12&learn=on){transcript=true}
 
 1. **Senden von E-Mails und Prüfen von Protokollen**
 
@@ -273,7 +275,7 @@ In Campaign v8 ähneln die detaillierten Schritte zum Erstellen, Testen und Dur
 </td>
 </tr></table>
 
-### Push-Benachrichtigungen {#acs-gs-marketers-push}
+### Push-Benachrichtigungen  {#acs-gs-marketers-push}
 
 Push-Benachrichtigungen sind unverzichtbar, um die Benutzenden Ihrer App zu erreichen, auch wenn sie die App nicht aktiv nutzen. Sie dienen verschiedenen Zwecken, z. B. der Bereitstellung von Aktualisierungen, der Durchführung spezifischer Aktionen und der Benachrichtigung über Angebote.
 
@@ -317,6 +319,8 @@ In Campaign v8 ähneln die detaillierten Schritte zum Erstellen, Testen und Dur
 ### Briefpost {#acs-gs-marketers-direct-mail}
 
 Briefpost ist ein Offline-Kanal, über den Sie Dateien erstellen können, um Ihrer Kundschaft personalisierte Sendungen wie Postkarten, Flyer oder Kataloge in großem Umfang zukommen zu lassen. Bei der Erstellung eines Briefpostversands generiert Adobe Campaign automatisch eine Extraktionsdatei, die alle Zielgruppenprofile und ausgewählten Daten wie Postanschriften und Profilattribute enthält.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3433316/?learn=on)
 
 In Campaign v8 ähneln die detaillierten Schritte zum Erstellen, Testen und Durchführen eines Briefpostversands denen in Campaign Standard.
 
@@ -373,7 +377,7 @@ Adobe Campaign bietet verschiedene [Reporting-Tools](https://experienceleague.ad
 
 Die umfassende Suite an Reporting-Tools von Adobe Campaign liefert wertvolle Erkenntnisse zur Effektivität Ihrer Marketing-Maßnahmen, sodass Sie Ihre Kampagnen für eine maximale Wirkung optimieren können. Weitere Informationen finden Sie in der [Dokumentation zum Reporting](../../v8/reporting/gs-reports.md).
 
-Zusätzlich stehen Ihnen in Campaign v8 entsprechend dem Adobe Campaign Standard-Erlebnis dynamische Berichte für Ihre E-Mail-Sendungen zur Verfügung. Sie erhalten vollständig anpassbare und in Echtzeit aktualisierte Berichte, um die Wirkung Ihrer Marketing-Aktivitäten zu messen. Dadurch kann auf Profildaten zugegriffen werden, was die demografische Analyse nach Profildimensionen wie Geschlecht, Ort und Alter sowie nach Daten von E-Mail-Kampagnen wie Öffnungen und Klicks ermöglicht. Weitere Informationen finden Sie in der [Dokumentation zu dynamischen Berichten](https://experienceleague.adobe.com/de/docs/experience-cloud/campaign/reporting/get-started-reporting){target="_blank"}.
+Zusätzlich stehen Ihnen in Campaign v8 entsprechend dem Adobe Campaign Standard-Erlebnis dynamische Berichte für Ihre E-Mail-Sendungen zur Verfügung. Sie erhalten vollständig anpassbare und in Echtzeit aktualisierte Berichte, um die Wirkung Ihrer Marketing-Aktivitäten zu messen. Dadurch kann auf Profildaten zugegriffen werden, was die demografische Analyse nach Profildimensionen wie Geschlecht, Ort und Alter ermöglicht, zusätzlich zur Analyse basierend auf Daten von E-Mail-Kampagnen wie Öffnungen und Klicks. Weitere Informationen finden Sie in der [Dokumentation zu dynamischen Berichten](https://experienceleague.adobe.com/de/docs/experience-cloud/campaign/reporting/get-started-reporting){target="_blank"}.
 
 >[!AVAILABILITY]
 >
