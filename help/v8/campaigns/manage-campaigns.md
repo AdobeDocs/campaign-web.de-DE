@@ -3,7 +3,7 @@ audience: end-user
 title: Erste Schritte mit Kampagnen
 description: Erfahren Sie, wie Sie mit kanalübergreifenden Kampagnen beginnen
 exl-id: 690229e7-73e1-4cc1-b69a-f3e5d8de58af
-source-git-commit: 176b6abeee5391cc806b1660b2fd5bb39c654945
+source-git-commit: ca35e633f2b7a3a286155c4f564378ebf1f72f4f
 workflow-type: tm+mt
 source-wordcount: '995'
 ht-degree: 71%
@@ -29,7 +29,7 @@ Um auf Ihre Kampagnen zuzugreifen und sie zu verwalten **[!UICONTROL klicken Sie
 
 Die **[!UICONTROL Durchsuchen]** enthält Informationen zum aktuellen Status der Kampagnen, zum Start- und Enddatum, zum Erstellungsdatum, zum letzten Änderungszeitpunkt usw. Sie können die angezeigten Spalten anpassen, indem Sie auf das Symbol **Spalte für ein benutzerdefiniertes Layout konfigurieren** in der oberen rechten Ecke der Liste klicken. So können Sie Spalten hinzufügen oder entfernen und Informationen in der Kampagnenliste neu anordnen.
 
-### Durchsuchen und Filtern des Inventars {#search}
+### Durchsuchen und Filtern des Inventars {#search-and-filter}
 
 Eine Suchleiste und Filter sind verfügbar, um die Suche innerhalb der Liste zu erleichtern. [Mehr dazu](../get-started/user-interface.md#list-screens). Sie können beispielsweise nach Ihrem Kampagnenkalender filtern. Öffnen Sie das Panel „Filter“ und verwenden Sie den Abschnitt **Anfangsdatum – Enddatum**:
 
