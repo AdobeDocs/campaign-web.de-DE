@@ -5,10 +5,10 @@ user-guide-description: Produktdokumentation zur Adobe Campaign Web-Benutzerober
 title: Dokumentation zu Adobe Campaign Web
 description: Dokumentation zu Campaign Web
 breadcrumb-title: Campaign Web-Benutzeroberfläche
-source-git-commit: 039d5447d7283072feb1a8555d203e15b0fadcc7
+source-git-commit: 881412b57de83ed7a7098653a03a77523e86c790
 workflow-type: tm+mt
-source-wordcount: '998'
-ht-degree: 97%
+source-wordcount: '1003'
+ht-degree: 96%
 
 ---
 
@@ -93,7 +93,7 @@ ht-degree: 97%
    + Versandwarnung {#delivery-alerting}
       + [Erste Schritte mit Versandwarnungen](msg/delivery-alerting.md)
       + [Versandwarnungs-Dashboards](msg/delivery-alerting-dashboards.md)
-      + [Versandwarnungsbedingungen        &#x200B;](msg/delivery-alerting-criteria.md)
+      + [Versandwarnungsbedingungen        ](msg/delivery-alerting-criteria.md)
 + Content-Management {#content}
    + Erstellen dynamischer Inhalte {#dynamic-content}
       + [Wie lässt sich der Inhalt dynamisch gestalten?](personalization/gs-personalization.md)
@@ -140,6 +140,7 @@ ht-degree: 97%
       + Marken {#ai-assistant}
          + [Erstellen und Verwalten von Marken](content/brands.md)
          + [Personalisieren Ihrer Marke](content/brands-personalize.md)
+         + [Erstellen und Verwalten generativer Modelle](content/generative-models.md)
          + [Inhalt auswerten](content/brands-score.md)
 + Landingpages {#landing-pages}
    + [Erste Schritte mit Landingpages](landing-pages/get-started-lp.md)
@@ -291,7 +292,7 @@ ht-degree: 97%
       + [Erstellen und Veröffentlichen von Schemata](administration/schemas-create-publish.md)
       + [Arbeiten mit benutzerdefinierten Formularen](administration/schemas-custom-forms.md)
    + [Konfigurieren benutzerdefinierter Felder](administration/custom-fields.md)
-   + [Konfigurieren von Optionen in [!DNL Campaign] &#x200B;](administration/options.md)
+   + [Konfigurieren von Optionen in [!DNL Campaign] ](administration/options.md)
    + [Zeitzonenverwaltung](administration/timezone-management.md)
    + Externe Konten {#external-accounts}
       + [Erstellen externer Konten](administration/create-external-account.md)
