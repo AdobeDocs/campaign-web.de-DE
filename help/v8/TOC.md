@@ -93,7 +93,7 @@ ht-degree: 96%
    + Versandwarnung {#delivery-alerting}
       + [Erste Schritte mit Versandwarnungen](msg/delivery-alerting.md)
       + [Versandwarnungs-Dashboards](msg/delivery-alerting-dashboards.md)
-      + [Versandwarnungsbedingungen        ](msg/delivery-alerting-criteria.md)
+      + [Versandwarnungsbedingungen        &#x200B;](msg/delivery-alerting-criteria.md)
 + Content-Management {#content}
    + Erstellen dynamischer Inhalte {#dynamic-content}
       + [Wie lässt sich der Inhalt dynamisch gestalten?](personalization/gs-personalization.md)
@@ -292,7 +292,7 @@ ht-degree: 96%
       + [Erstellen und Veröffentlichen von Schemata](administration/schemas-create-publish.md)
       + [Arbeiten mit benutzerdefinierten Formularen](administration/schemas-custom-forms.md)
    + [Konfigurieren benutzerdefinierter Felder](administration/custom-fields.md)
-   + [Konfigurieren von Optionen in [!DNL Campaign] ](administration/options.md)
+   + [Konfigurieren von Optionen in [!DNL Campaign] &#x200B;](administration/options.md)
    + [Zeitzonenverwaltung](administration/timezone-management.md)
    + Externe Konten {#external-accounts}
       + [Erstellen externer Konten](administration/create-external-account.md)
