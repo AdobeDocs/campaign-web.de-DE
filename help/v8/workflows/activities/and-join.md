@@ -3,10 +3,10 @@ audience: end-user
 title: Verwendung der Workflow-Aktivität „Und-Verknüpfung“
 description: Erfahren Sie, wie Sie die Workflow-Aktivität „Und-Verknüpfung“ verwenden.
 exl-id: 2470e5fa-5596-4441-b9b9-7e8b5d1d53aa
-source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
+source-git-commit: f0929390f9873516afec641d2febf3e58cb67e3d
 workflow-type: tm+mt
-source-wordcount: '262'
-ht-degree: 100%
+source-wordcount: '268'
+ht-degree: 97%
 
 ---
 
@@ -16,6 +16,11 @@ ht-degree: 100%
 >id="acw_orchestration_and-join"
 >title="Aktivität &quot;UND-Verknüpfung&quot;"
 >abstract="Die Aktivität **Und-Verknüpfung** ermöglicht es, die Ausführung verschiedener Workflow-Verzweigungen zu synchronisieren. Sie wird ausgelöst, sobald alle vorangehenden Aktivitäten beendet sind. Auf diese Weise wird sichergestellt, dass bestimmte Aktivitäten abgeschlossen sind, bevor Sie mit der Ausführung des Workflows fortfahren."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_join"
+>title="Aktivität „Zusammenführen“"
+>abstract="Platzhalter für die Aktivität „Zusammenführen“."
 
 Die Aktivität **Und-Verknüpfung** ist eine Aktivität zur **Flusskontrolle**. Sie synchronisiert mehrere Ausführungszweige eines Workflows.
 
