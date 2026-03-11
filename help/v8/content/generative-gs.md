@@ -3,10 +3,10 @@ audience: end-user
 title: Erste Schritte mit dem KI-Assistenten
 description: Erste Schritte mit dem KI-Assistenten
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
-source-git-commit: 336845c8d21a39c9f9124a5c6f7d0667cd111dcb
-workflow-type: ht
-source-wordcount: '735'
-ht-degree: 100%
+source-git-commit: 3d6943c5856a2631846f773b864f52bbedff6ce1
+workflow-type: tm+mt
+source-wordcount: '775'
+ht-degree: 96%
 
 ---
 
@@ -33,6 +33,39 @@ ht-degree: 100%
 >Nehmen Sie an unserer [Live-Funktionsvorstellung](https://experienceleague.adobe.com/de/apps/journey-optimizer/ai-assistant-content-accelerator) teil, um die Funktionen in der Praxis selbst zu erkunden und die vielfältigen Einsatzmöglichkeiten zu verstehen.
 
 Da die Marketing-Branche immer wettbewerbsintensiver wird, suchen Marken nach effizienten Wegen, um wirkungsvolle Inhalte schnell zu erstellen. Der KI-Assistent in Adobe Campaign Web basiert auf Microsoft Azure OpenAI und Adobe Firefly. Er ist das Angebot von Adobe zur KI-gestützten Generierung von Inhalten und transformiert die Erstellung professioneller und markenkonformer Inhalte für verschiedene Kanäle wie E-Mail, SMS und Push. Mit fortschrittlichen GenAI-Modellen und einem tiefgreifenden Verständnis der Markenrichtlinien generiert der KI-Assistent automatisch personalisierte, ansprechende und effektive Inhalte auf der Grundlage des Marketing-Ziels, wobei die Inhalte für die von der Marke vorgegebenen Stile, Layouts, die Tonalität und mehr optimiert sind.
+
+Der KI-Assistent unterstützt die Generierung **in mehreren Sprachen** sodass Sie unterschiedliche globale Zielgruppen erreichen und ansprechen können. Der KI-Assistent ist in den folgenden Sprachen verfügbar:
+
+<table style="table-layout:fixed; margin-top: 0px; margin-bottom: 0px;">
+  <tbody>
+    <tr style="border: 0;background-color: #FFFFFF;">
+      <td>
+        <ul>
+          <li>Chinesisch (Hongkong)</li>
+          <li>Chinesisch (vereinfacht)</li>
+          <li>Chinesisch (Taiwan)</li>
+          <li>Niederländisch</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Französisch</li>
+          <li>Deutsch</li>
+          <li>Italienisch</li>
+          <li>Japanisch</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Norwegisch</li>
+          <li>Portugiesisch</li>
+          <li>Spanisch</li>
+          <li>Schwedisch</li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 Der KI-Assistent vereinfacht die Erstellung und Durchführung von Marketing-Kampagnen über Kanäle wie E-Mail, SMS und Push-Benachrichtigungen, spart Zeit, erhöht die Effizienz und führt zu besseren Ergebnissen.
 
