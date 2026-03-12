@@ -3,10 +3,10 @@ audience: end-user
 title: Erste Schritte mit dem KI-Assistenten
 description: Erste Schritte mit dem KI-Assistenten
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
-source-git-commit: 3d6943c5856a2631846f773b864f52bbedff6ce1
+source-git-commit: dbaf192b6d5200d8606859a1a09972df6bb3c26b
 workflow-type: tm+mt
-source-wordcount: '775'
-ht-degree: 96%
+source-wordcount: '828'
+ht-degree: 83%
 
 ---
 
@@ -79,14 +79,19 @@ Der KI-Assistent vereinfacht die Erstellung und Durchführung von Marketing-Kamp
 
 Der KI-Assistent für E-Mails, Push-Benachrichtigungen, Landingpages und SMS ist nun allgemein für alle Benutzenden verfügbar. Die erforderlichen Berechtigungen und Schritte zum Gewähren des Zugriffs für Benutzende werden nachfolgend beschrieben.
 
-+++ Erfahren Sie, wie Sie Berechtigungen für die Inhaltserstellung zuweisen
++++ Erfahren Sie, wie Sie Berechtigungen zum Erzeugen von Inhalten zuweisen
 
-1. **Produktprofil erstellen**: Erstellen Sie in der [Admin Console](https://stage.adminconsole.adobe.com/) ein Produktprofil mit dem folgenden spezifischen Muster:
+1. **Rufen Sie [Admin Console](https://adminconsole.adobe.com/)** auf, navigieren Sie zum Menü **Produkte** und wählen Sie dann **Adobe Campaign Managed Cloud** aus.
+
+1. Greifen Sie auf die Instanz zu, für die Sie Berechtigungen erteilen möchten, und klicken Sie dann auf **Neues Profil**, um ein neues Produktprofil mit dem folgenden spezifischen Produktprofilnamen zu erstellen:
+
    `Campaign - <instance-name> - AIAssistant`
 
-1. **Benutzende hinzufügen**: Fügen Sie diesem Produktprofil die erforderlichen Benutzenden hinzu\
-   oder\
-   **Benutzergruppe erstellen**: Fügen Sie dem Produktprofil diese Benutzergruppe und diesem Produktprofil Benutzende hinzu.
+1. Richten Sie das Produktprofil mit den erforderlichen Berechtigungen für den Zugriff auf den KI-Assistenten ein.
+
+1. **Benutzer oder Benutzergruppen hinzufügen**. Wählen Sie eine der folgenden Optionen:
+   * **Einzelne Benutzer hinzufügen**: Fügen Sie die erforderlichen Benutzer direkt zum Produktprofil hinzu.
+   * **Benutzergruppen hinzufügen**: Erstellen Sie eine Benutzergruppe, fügen Sie dieser Gruppe Benutzer hinzu und fügen Sie dann die Benutzergruppe zum Produktprofil hinzu.
 
 Informationen zum Definieren von Berechtigungen in Campaign finden Sie in [diesem Abschnitt](../get-started/permissions.md).
 
