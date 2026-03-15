@@ -10,7 +10,7 @@ exl-id: 6fc6ff43-ac7f-46c7-aa1a-9489ffc45423
 source-git-commit: 3a5121a4dca59532e1aada49c26de6ece1a58e4b
 workflow-type: tm+mt
 source-wordcount: '546'
-ht-degree: 3%
+ht-degree: 10%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn3"
 >title="Experience Manager Live Copies und Sprachkopien"
->abstract="Sie können jetzt direkt in Campaign auf die Adobe Experience Manager-Sprache und Live Copies zugreifen. Durch die Aktualisierung von Inhalten in Echtzeit entfällt die manuelle Synchronisierung für optimierte mehrsprachige Workflows."
+>abstract="Sie haben jetzt direkten Zugriff auf Adobe Experience Manager-Sprachkopien und -Live-Copies in Campaign. Durch die Inhaltsaktualisierung in Echtzeit entfällt die manuelle Synchronisierung für optimierte mehrsprachige Workflows."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=de" text="Siehe Versionshinweise"
 
 Die Adobe Experience Manager-Integration ermöglicht es Ihnen, mehrsprachige E-Mail-Sendungen mithilfe von Adobe Experience Manager-Sprachkopien zu erstellen. Auf diese Weise können Sie Inhaltsvarianten in verschiedenen Sprachen verwalten und basierend auf den Voreinstellungen der Empfängersprache personalisierte E-Mails versenden.
@@ -29,7 +29,7 @@ Die Adobe Experience Manager-Integration ermöglicht es Ihnen, mehrsprachige E-M
 Bevor Sie einen mehrsprachigen E-Mail-Versand erstellen, stellen Sie Folgendes sicher:
 
 * Zugriff auf eine Adobe Experience Manager-Instanz, die für die Adobe Campaign-Web-Schnittstellenintegration konfiguriert ist.
-* Adobe Experience Manager-Inhalte mit Sprachkopien wurden bereits erstellt und genehmigt. Weitere Informationen zum Sprachkopie-Assistenten finden Sie in der Dokumentation zu [Adobe Experience Manager](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/sites/administering/reusing-content/translation/wizard)
+* Adobe Experience Manager-Inhalte mit Sprachkopien wurden bereits erstellt und genehmigt. Weitere Informationen zum Sprachkopie-Assistenten finden Sie in der Dokumentation zu [Adobe Experience Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/reusing-content/translation/wizard)
 * E-Mail-Versandvorlage für den Empfang von Adobe Experience Manager-Inhalten konfiguriert. Siehe die Schritte, die im Abschnitt [Mehrsprachigen Modus aktivieren](#enable-multilingual) beschrieben sind.
 
 ## Erstellen eines mehrsprachigen Versands
@@ -85,7 +85,7 @@ Wählen Sie Ihre Adobe Experience Manager-Inhalte und die Sprachvarianten aus, d
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
-1. Überprüfen Sie Ihre Sprachvarianten im Inhaltseditor. Sie können jetzt [jede Variante einzeln verwalten](#manage-variants) oder mit dem [Versand) &#x200B;](../monitor/prepare-send.md).
+1. Überprüfen Sie Ihre Sprachvarianten im Inhaltseditor. Sie können jetzt [jede Variante einzeln verwalten](#manage-variants) oder mit dem [Versand) ](../monitor/prepare-send.md).
 
    ![](assets/lg-copy-7.png)
 

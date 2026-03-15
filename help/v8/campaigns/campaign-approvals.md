@@ -7,16 +7,16 @@ exl-id: 8140f904-ec0a-44e1-981f-0e050d3c9cdb
 source-git-commit: bc43288d58145aa28e914f7a9480cb9ab90f5a54
 workflow-type: tm+mt
 source-wordcount: '723'
-ht-degree: 5%
+ht-degree: 9%
 
 ---
 
-# Genehmigungsprozess verwalten {#campaign-approvals}
+# Verwalten des Genehmigungsprozesses {#campaign-approvals}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn6"
->title="Validierungsverwaltung für Kampagnen"
->abstract="Sie können jetzt die Validierung durch Stakeholder koordinieren, bevor Sie Sendungen durchführen. Sie benötigen Genehmigungen von Marketing-Managern, Datenanalysten oder anderen Teams zur Qualitätskontrolle."
+>title="Verwaltung der Genehmigung von Kampagnen"
+>abstract="Sie können nun die Validierung durch Stakeholderinnen und Stakeholder koordinieren, bevor Sie Sendungen durchführen. Holen Sie Genehmigungen von Marketing, der Datenanalyse oder anderen Teams zur Qualitätskontrolle ein."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=de" text="Siehe Versionshinweise"
 
 >[!IMPORTANT]

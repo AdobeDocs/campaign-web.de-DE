@@ -40,7 +40,7 @@ Beginnen Sie, Ihren Workflow mit den entsprechenden Aktivitäten aufzubauen:
 
      ![Screenshot mit den Abstimmbedingungen des Workflows](../assets/workflow-reconciliation-criteria.png)
 
-* Um einen wiederkehrenden Versand durchzuführen, starten Sie Ihren Workflow mit der Aktivität **Planung**. Verwenden Sie die Aktivität **Planung** für einmalige Einzelsendungen, um für diesen Versand das Kontaktdatum festzulegen. Dieses Kontaktdatum kann auch in den Versandeinstellungen festgelegt werden. Weitere Informationen finden Sie in diesem [Abschnitt](scheduler.md).
+* Um einen wiederkehrenden Versand durchzuführen, starten Sie Ihren Workflow mit der Aktivität **Planung**. Verwenden Sie die Aktivität **Planung** für einmalige Einzelsendungen, um für diesen Versand das Kontaktdatum festzulegen. Dieses Kontaktdatum kann auch in den Versandeinstellungen festgelegt werden. Siehe [diesen Abschnitt](scheduler.md).
 
 ## Konfigurieren der Kanalaktivität {#create-a-delivery-in-a-workflow}
 

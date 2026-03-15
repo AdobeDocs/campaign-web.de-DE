@@ -6,7 +6,7 @@ exl-id: 659bddcb-280c-4623-8115-6f975515d1a2
 source-git-commit: bc43288d58145aa28e914f7a9480cb9ab90f5a54
 workflow-type: tm+mt
 source-wordcount: '280'
-ht-degree: 6%
+ht-degree: 28%
 
 ---
 
@@ -14,11 +14,11 @@ ht-degree: 6%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn5"
->title="Kontinuierliche Versandaktivität"
->abstract="Sie können jetzt neue Empfänger zu einem vorhandenen Versand hinzufügen. Bei diesem Versandtyp muss nicht jedes Mal ein neuer Versand erstellt werden, was ihn effizienter für Benachrichtigungen oder Benachrichtigungen mit geringem Volumen macht, die nach Bedarf gesendet werden."
+>title="Aktivität „Versand (fortlaufend)“"
+>abstract="Sie können jetzt neue Empfängerinnen und Empfänger zu einem vorhandenen Versand hinzufügen. Bei diesem Versandtyp muss nicht jedes Mal ein neuer Versand erstellt werden, was ihn effizienter für Warnhinweise für geringes Volumen oder Benachrichtigungen macht, die bei Bedarf gesendet werden."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=de" text="Siehe Versionshinweise"
 
-Die Aktivität **Fortlaufender Versand** ermöglicht es Ihnen, einem bestehenden Versand neue Empfänger hinzuzufügen. Bei diesem Versandtyp muss nicht jedes Mal ein neuer Versand erstellt werden, was ihn effizienter für Benachrichtigungen oder Benachrichtigungen mit geringem Volumen macht, die nach Bedarf gesendet werden.
+Die Aktivität **Fortlaufender Versand** ermöglicht es Ihnen, einem bestehenden Versand neue Empfänger hinzuzufügen. Bei diesem Versandtyp muss nicht jedes Mal ein neuer Versand erstellt werden, was ihn effizienter für Warnhinweise für geringes Volumen oder Benachrichtigungen macht, die bei Bedarf gesendet werden.
 
 Bei einem fortlaufenden Versand wird eine einzige Versandinstanz erstellt. Alle Versandlogs (broadLog) und Trackinglogs verweisen auf diesen Versand und vereinfachen die Überwachung und das Reporting.
 

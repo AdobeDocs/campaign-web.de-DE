@@ -6,7 +6,7 @@ exl-id: eea0e997-4da2-4998-b010-234626b21353
 source-git-commit: bc43288d58145aa28e914f7a9480cb9ab90f5a54
 workflow-type: tm+mt
 source-wordcount: '1514'
-ht-degree: 39%
+ht-degree: 40%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 39%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn1"
 >title="Mehrsprachige Sendungen"
->abstract="Sie können jetzt in der Web-Benutzeroberfläche von Campaign Nachrichten in mehreren Sprachen senden. Füllen Sie für Push-Benachrichtigungen alle Sprachvarianten, indem Sie eine CSV-Datei hochladen."
+>abstract="Sie können jetzt in der Campaign Web-Benutzeroberfläche Nachrichten in mehreren Sprachen senden. Füllen Sie für Push-Benachrichtigungen alle Sprachvarianten durch Hochladen einer CSV-Datei aus."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=de" text="Siehe Versionshinweise"
 
 >[!CONTEXTUALHELP]
@@ -245,7 +245,7 @@ Während des Versands ersetzt Campaign diese Platzhalter durch die tatsächliche
 
 ### Fehlerbehebung {#csv-troubleshooting}
 
-| Fehler | Ursache | Lösung |
+| Fehler | Grund | Lösung |
 |-------|-------|----------|
 | Erforderliche Spalten fehlen | CSV-Datei enthält nicht alle 14 Spalten | Stellen Sie sicher, dass Ihre CSV-Datei alle 14 Spalten in der exakt oben gezeigten Reihenfolge enthält. Verwenden Sie leere Werte für nicht verwendete Spalten. |
 | Ungültige Gebietsschema-/Sprachwerte | Gebietsschema- oder Sprachspalten sind leer | Sowohl die Spalten des Gebietsschemas als auch der Sprache müssen Werte für jede Zeile aufweisen |
@@ -256,4 +256,4 @@ Während des Versands ersetzt Campaign diese Platzhalter durch die tatsächliche
 | Falsch formatiertes JSON | customFields-Spalte enthält ungültiges JSON | Stellen Sie sicher, dass die JSON-Syntax korrekt ist: `{"key":"value"}` oder leer lassen |
 | Groß-/Kleinschreibung des Spaltennamens stimmt nicht überein | Spaltennamen stimmen nicht genau überein | Bei Spaltennamen wird zwischen Groß- und Kleinschreibung unterschieden. Verwenden Sie die oben aufgeführten exakten Namen (z. B. `badge`, nicht `Badge` oder `BADGE`). |
 
->Best Practices sind in diesem Abschnitt [&#128279;](#csv-best-practices). Die Spaltenstruktur wird in diesem [Abschnitt](#csv-columns) beschrieben.
+>Best Practices sind in diesem Abschnitt [](#csv-best-practices). Die Spaltenstruktur wird in diesem [Abschnitt](#csv-columns) beschrieben.
