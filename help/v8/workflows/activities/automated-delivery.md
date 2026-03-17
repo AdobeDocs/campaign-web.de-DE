@@ -16,4 +16,4 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_automated-delivery"
 >title="Versandaktivität automatisieren"
->abstract="Die Aktivität **Automatisierter Versand** ermöglicht die Erstellung, Konfiguration und Ausführung von Versandaktionen innerhalb Ihres Workflows. Sie können einen neuen Versand aus einer Vorlage erstellen, einen vorhandenen expliziten Versand auswählen, der separat erstellt wurde, oder einen in der eingehenden Transition angegebenen Versand verwenden. Konfigurieren Sie Empfänger und Inhalte und wählen Sie dann die Ausführungsaktion aus.
+>abstract="Die Aktivität **Automatisierter Versand** ermöglicht die Erstellung, Konfiguration und Ausführung von Versandaktionen innerhalb Ihres Workflows. Sie können einen neuen Versand aus einer Vorlage erstellen, einen vorhandenen expliziten Versand auswählen, der separat erstellt wurde, oder einen in der eingehenden Transition angegebenen Versand verwenden. Konfigurieren Sie Empfänger und Inhalte und wählen Sie dann die Ausführungsaktion aus."
