@@ -88,14 +88,14 @@ Durch Klicken auf das Suchsymbol können Sie auf die Liste der Apps in Ihrer Ado
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_context"
 >title="Kontext von Transaktionsnachrichten"
->abstract="Im Kontextbeispiel können Sie ein Testereignis erstellen, um eine Vorschau der mit der Profilpersonalisierung empfangenen Transaktionsnachricht anzuzeigen."
+>abstract="Im Kontextbeispiel kann ein testereignis erstellt werden, um eine Vorschau der mit der Profilpersonalisierung empfangenen Transaktionsnachricht anzuzeigen."
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_addcontext"
 >title="Kontext von Transaktionsnachrichten"
->abstract="Im Kontextbeispiel können Sie ein Testereignis erstellen, um eine Vorschau der mit der Profilpersonalisierung empfangenen Transaktionsnachricht anzuzeigen."
+>abstract="Im Kontextbeispiel kann ein testereignis erstellt werden, um eine Vorschau der mit der Profilpersonalisierung empfangenen Transaktionsnachricht anzuzeigen."
 
-Im Kontextbeispiel können Sie ein Testereignis erstellen, um eine Vorschau der mit der Profilpersonalisierung empfangenen Transaktionsnachricht anzuzeigen.
+Im Kontextbeispiel kann ein testereignis erstellt werden, um eine Vorschau der mit der Profilpersonalisierung empfangenen Transaktionsnachricht anzuzeigen.
 
 Dieser Schritt ist optional. Sie können die Vorlage ohne das Kontextbeispiel verwenden. Der Nachteil: Sie können die personalisierten Inhalte nicht in einer Vorschau anzeigen.
 
