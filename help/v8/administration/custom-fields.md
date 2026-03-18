@@ -67,7 +67,7 @@ Benutzerdefinierte Felder sind für die folgenden Schemata verfügbar:
 >[!CONTEXTUALHELP]
 >id="acw_schema_screen_definition"
 >title="Bildschirmdefinition"
->abstract="Definieren Sie die Liste der benutzerdefinierten Felder, die für das Schema und dessen Eigenschaften bearbeitet werden sollen. Klicken Sie auf die Schaltfläche **Vorschau**, um die benutzerdefinierten Felder auf einem Beispielbildschirm anzuzeigen."
+>abstract="Definieren der Liste der benutzerdefinierten Felder, die für das Schema und dessen Eigenschaften bearbeitet werden sollen. Auf die Schalrfläche **Vorschau**, um die benutzerdefinierten Felder auf einem Beispielbildschirm anzuzeigen."
 
 
 Gehen Sie wie folgt vor, um benutzerdefinierte Felder in der Benutzeroberfläche anzuzeigen:
@@ -84,7 +84,7 @@ Gehen Sie wie folgt vor, um benutzerdefinierte Felder in der Benutzeroberfläche
 
    Die Liste der benutzerdefinierten Felder, die in der Benutzeroberfläche für das Schema angezeigt werden, wird eingeblendet.
 
-1. Klicken Sie auf die Schaltfläche **[!UICONTROL Vorschau]**, um die benutzerdefinierten Felder auf einem Beispielbildschirm anzuzeigen.
+1. Auf die Schalrfläche **[!UICONTROL Vorschau]**, klicken, um die benutzerdefinierten Felder auf einem Beispielbildschirm anzuzeigen.
 
    ![](assets/custom-fields-edit2.png)
 
