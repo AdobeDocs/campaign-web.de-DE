@@ -35,7 +35,7 @@ Die Aktivität **Planung** ist eine Aktivität zur **Flusssteuerung**. Damit kö
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_schedule_options"
 >title="Planungsoptionen"
->abstract="Definieren Sie die Häufigkeit der Planung. Er kann zu einem bestimmten Zeitpunkt, einmal oder mehrmals pro Tag, Woche oder Monat, ausgeführt werden."
+>abstract="Definieren Sie die Häufigkeit der Planung. Der Plan kann zu einem bestimmten Zeitpunkt, einmal oder mehrmals pro Tag, Woche oder Monat, ausgeführt werden."
 
 Gehen Sie folgendermaßen vor, um die Aktivität **Planung** zu konfigurieren:
 
