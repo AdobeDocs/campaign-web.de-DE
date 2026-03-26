@@ -25,7 +25,7 @@ ht-degree: 91%
 
 Die Aktivität **Verzweigung** ist eine Aktivität zur **Flusssteuerung**. Sie ermöglicht Ihnen, ausgehende Transitionen zum gleichzeitigen Start mehrerer Aktivitäten zu erstellen.
 
-Sie können auch eine separate Verzweigung mithilfe der Symbolleistenschaltfläche **Verzweigung hinzufügen** (**+**) erstellen. Siehe [Aktivitäten ](../orchestrate-activities.md#toolbar).
+Sie können auch eine separate Verzweigung mithilfe der Symbolleistenschaltfläche **Verzweigung hinzufügen** (**+**) erstellen. Siehe [Aktivitäten &#x200B;](../orchestrate-activities.md#toolbar).
 
 ## Konfigurieren der Verzweigungsaktivität {#fork-configuration}
 
