@@ -3,20 +3,14 @@ audience: end-user
 title: Profilanreicherung in Transaktionsnachrichten
 description: Informationen zum Erstellen einer Transaktionsnachricht in der Campaign Web-Benutzeroberfläche
 exl-id: 933c73ba-ca00-447a-99fd-a7490bb101a4
-source-git-commit: bc43288d58145aa28e914f7a9480cb9ab90f5a54
+source-git-commit: 9b51dc84a5b6954c973e1560aad877ef770eb8f9
 workflow-type: tm+mt
-source-wordcount: '495'
-ht-degree: 92%
+source-wordcount: '464'
+ht-degree: 97%
 
 ---
 
 # Anreichern von Transaktionsnachrichten mit Profildaten{#profile-enrichment}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn2"
->title="Profilanreicherung"
->abstract="Sie können jetzt Transaktionsnachrichten personalisieren, indem Sie Campaign-Datenbankfelder mit Inhalten verknüpfen. Wählen Sie Zielgruppen-Mappings, Anreicherungsspalten und Abstimmschlüssel aus, um eine präzise Echtzeit-Personalisierung zu ermöglichen."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=de" text="Siehe Versionshinweise"
 
 Mit dieser Funktion können Sie Transaktionsnachrichten personalisieren, indem Sie Adobe Campaign-Datenbankfelder mit dem Nachrichteninhalt verknüpfen. Sie können Zielgruppen-Mappings, Anreicherungsspalten und einen Abstimmschlüssel auswählen, um präzise Echtzeit-Personalisierung unter Einhaltung der Leistungsschwellen sicherzustellen.
 

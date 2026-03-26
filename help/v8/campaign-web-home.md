@@ -3,10 +3,10 @@ keywords: Campaign Web;Startseite;beliebte Themen
 description: Hilfe-Center zu Campaign Web
 title: Produktdokumentation zu Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 48e7712a3471a063537f4e8e05d389acd77c7123
+source-git-commit: 9b51dc84a5b6954c973e1560aad877ef770eb8f9
 workflow-type: tm+mt
-source-wordcount: '468'
-ht-degree: 99%
+source-wordcount: '530'
+ht-degree: 84%
 
 ---
 
@@ -52,9 +52,15 @@ Hier erhalten Sie einen Einblick in die neuesten Verbesserungen in Adobe Campaig
 >[!BEGINTABS]
 
 
->[!TAB Version Februar &#39;26]
+>[!TAB Version vom 26. März]
 
-Die Februarversion ist live. Neue Funktionen und Verbesserungen sind jetzt in der Benutzeroberfläche von Campaign Web verfügbar. Eine vollständige Übersicht finden Sie in den Versionshinweisen.
+Die März-Version ist live. Neue Funktionen und Verbesserungen sind jetzt in der Web-Benutzeroberfläche von Campaign verfügbar. Zu den Highlights gehören:
+
+* **Schema-Authoring (GA)** - Erstellen und verwalten Sie Schemas direkt in der Web-Benutzeroberfläche von Campaign.
+* **Designs in Email Designer (LA)** - Wenden Sie wiederverwendbare Designstile und Variablen an, um den E-Mail-Inhalt konsistent mit Ihrer Marke zu halten.
+* **Workflow-**: Die Aktivitäten **Automatisierter Versand** und **Start** sind jetzt verfügbar und **Zusammenführen** unterstützt jetzt die Option „ODER“. Sie können Ihren Workflows jetzt auch mehrere Verzweigungen hinzufügen.
+
+Eine vollständige Übersicht finden Sie in den Versionshinweisen.
 
 [![Schaltfläche „Weitere Informationen“](assets/do-not-localize/learn-more-button.svg)](../v8/rn/release-notes.md)
 

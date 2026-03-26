@@ -4,14 +4,21 @@ description: Erfahren Sie, wie Sie generative Modelle erstellen und verwalten
 topic: Content Management
 role: User
 level: Beginner, Intermediate
-source-git-commit: f77c4998c3db462c3caaece98a65be1226ab7c69
+exl-id: e4db43de-5dc1-4ab7-a703-598534e54826
+source-git-commit: 9b51dc84a5b6954c973e1560aad877ef770eb8f9
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: '506'
 ht-degree: 0%
 
 ---
 
 # Erstellen und Verwalten generativer Modelle {#generative-models}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn3"
+>title="Integration von Bilderzeugungsmodellen"
+>abstract="Ermöglichen Sie die nahtlose Integration von standardmäßigen und benutzerdefinierten Firefly-Modellen zusammen mit genehmigten Bildmodellen von Drittanbietern, um die Flexibilität, Kontrolle und Markenausrichtung beim Erzeugen von Bildern zu verbessern."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=de" text="Siehe Versionshinweise"
 
 Erweitern Sie Ihre KI-Bilderstellungsfunktionen mit integrierten Modellen, benutzerdefinierten Firefly-Modellen und Drittanbietern von Bildgenerierungsdiensten, um Ihre spezifischen Anforderungen zu erfüllen und die Markenausrichtung zu verbessern.
 
@@ -21,7 +28,7 @@ Wählen Sie das richtige Modell für Ihre Anforderungen:
 - **[!UICONTROL Partnermodell]**, unterstützt durch Gemini 2.5 Flash, bietet spezielle Funktionen für bestimmte Anwendungsfälle.
 - **[!UICONTROL Benutzerdefinierte Modelle]** sind markenspezifische Modelle, die auf Ihren eigenen Assets trainiert und von Ihrem Unternehmen hinzugefügt werden.
 
-  Weitere Informationen zu **[!UICONTROL benutzerdefinierten Modellen]** finden Sie in der Dokumentation zu [Adobe Firefly](https://helpx.adobe.com/de/firefly/web/work-with-enterprise-features/train-custom-models/custom-models-overview.html)
+  Weitere Informationen zu **[!UICONTROL benutzerdefinierten Modellen]** finden Sie in der Dokumentation zu [Adobe Firefly](https://helpx.adobe.com/firefly/web/work-with-enterprise-features/train-custom-models/custom-models-overview.html)
 
 Nach der Konfiguration können Sie jedes Ihrer generativen Modelle auswählen, wenn Sie Bilder in Ihrem Inhalt erstellen. [Erfahren Sie mehr über das Generieren von Bildern](generative-image.md).
 
@@ -59,7 +66,7 @@ Benutzerdefinierte Firefly-Modelle sind markenspezifische KI-Modelle, die auf Ih
 
 Durch die Erstellung benutzerdefinierter Firefly-Modellanbieter können Sie Ihre KI-Funktionen über die Standardmodelle hinaus erweitern und sicherstellen, dass der generierte Inhalt konsistent die einzigartige Ästhetik und die Anforderungen Ihrer Marke widerspiegelt.
 
-➡️ [Erfahren Sie, wie Sie Ihr benutzerdefiniertes Modell trainieren](https://helpx.adobe.com/de/firefly/web/work-with-enterprise-features/train-custom-models/train-firefly-custom-models.html)
+➡️ [Erfahren Sie, wie Sie Ihr benutzerdefiniertes Modell trainieren](https://helpx.adobe.com/firefly/web/work-with-enterprise-features/train-custom-models/train-firefly-custom-models.html)
 
 1. Rufen Sie im Menü **[!UICONTROL Marken]** die Registerkarte **[!UICONTROL Generative Modelle]** auf und klicken Sie auf **[!UICONTROL Modell hinzufügen]**.
 
@@ -69,7 +76,7 @@ Durch die Erstellung benutzerdefinierter Firefly-Modellanbieter können Sie Ihre
 
 1. Geben Sie Ihre **[!UICONTROL Modell-ID]** ein.
 
-   Rufen Sie die Firefly-Website auf und navigieren Sie zu Ihren trainierten Modellen, um Ihre Firefly-Modell-ID zu finden. Die eindeutige Kennung ist nach der Veröffentlichung im Verwaltungsabschnitt des Modells verfügbar. Weitere Informationen finden Sie in der Dokumentation zu benutzerdefinierten Modellen für [Firefly](https://helpx.adobe.com/de/firefly/web/work-with-enterprise-features/train-custom-models/manage-custom-models.html).
+   Rufen Sie die Firefly-Website auf und navigieren Sie zu Ihren trainierten Modellen, um Ihre Firefly-Modell-ID zu finden. Die eindeutige Kennung ist nach der Veröffentlichung im Verwaltungsabschnitt des Modells verfügbar. Weitere Informationen finden Sie in der Dokumentation zu benutzerdefinierten Modellen für [Firefly](https://helpx.adobe.com/firefly/web/work-with-enterprise-features/train-custom-models/manage-custom-models.html).
 
    ![](assets/gen-model-manage-5.png){zoomable="yes"}
 

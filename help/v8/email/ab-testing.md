@@ -3,20 +3,14 @@ audience: end-user
 title: Erstellen von Inhaltsexperimenten
 description: Erfahren Sie, wie Sie Inhaltsexperimente in Adobe Campaign Web erstellen
 exl-id: 476aaaef-c4b2-4007-a050-9b88460435a6
-source-git-commit: 6ed7b0bc20d456b781339eb2d82607691e9e7dd7
+source-git-commit: 9b51dc84a5b6954c973e1560aad877ef770eb8f9
 workflow-type: tm+mt
-source-wordcount: '1198'
-ht-degree: 6%
+source-wordcount: '1165'
+ht-degree: 3%
 
 ---
 
 # Erstellen von Inhaltsexperimenten {#content-experiment}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn4"
->title="Inhaltsexperimente – A/B-Tests"
->abstract="Sie können jetzt mehrere Versandvarianten definieren, um zu testen, welche am besten funktioniert. Variieren Sie Inhalt, Betreff oder absendende Person in den E-Mail-Elementen, um die optimalen Ergebnisse zu ermitteln."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=de" text="Siehe Versionshinweise"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_content_experiment"
@@ -45,7 +39,7 @@ Gehen Sie wie folgt vor, um Ihrem E-Mail-Versand ein Inhaltsexperiment hinzuzuf�
 
 1. Erstellen Sie einen E-Mail-Versand oder öffnen Sie einen vorhandenen Versandentwurf. [Erfahren Sie, wie Sie eine E-Mail erstellen](create-email.md)
 
-1. Klicken Sie auf der Seite mit den Eigenschaften des E **&#x200B;**&#x200B;Mail-Versands im Abschnitt **[!UICONTROL Inhalt]** auf die Schaltfläche Experiment erstellen .
+1. Klicken Sie auf der Seite mit den Eigenschaften des E **** Mail-Versands im Abschnitt **[!UICONTROL Inhalt]** auf die Schaltfläche Experiment erstellen .
 
    ![Screenshot, der die Schaltfläche Experiment erstellen in den E-Mail-Eigenschaften zeigt](assets/ab-testing-1.png){zoomable="yes"}
 
