@@ -250,4 +250,4 @@ Während des Versands ersetzt Campaign diese Platzhalter durch die tatsächliche
 | Falsch formatiertes JSON | customFields-Spalte enthält ungültiges JSON | Stellen Sie sicher, dass die JSON-Syntax korrekt ist: `{"key":"value"}` oder leer lassen |
 | Groß-/Kleinschreibung des Spaltennamens stimmt nicht überein | Spaltennamen stimmen nicht genau überein | Bei Spaltennamen wird zwischen Groß- und Kleinschreibung unterschieden. Verwenden Sie die oben aufgeführten exakten Namen (z. B. `badge`, nicht `Badge` oder `BADGE`). |
 
->Best Practices sind in diesem Abschnitt [](#csv-best-practices). Die Spaltenstruktur wird in diesem [Abschnitt](#csv-columns) beschrieben.
+>Best Practices sind in diesem Abschnitt [&#128279;](#csv-best-practices). Die Spaltenstruktur wird in diesem [Abschnitt](#csv-columns) beschrieben.
