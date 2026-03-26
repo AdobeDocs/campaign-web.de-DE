@@ -6,10 +6,10 @@ feature: Email, Push, SMS, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 803a20ac-e75f-45c6-af89-054b84eb3405
-source-git-commit: f611f57ea0e1d52056cf14e6b08f44148fef31ad
+source-git-commit: 0cc09a983d412889f2b734a5bfb30bf422247ec0
 workflow-type: tm+mt
-source-wordcount: '956'
-ht-degree: 100%
+source-wordcount: '983'
+ht-degree: 90%
 
 ---
 
@@ -113,11 +113,18 @@ Nachdem der Nachrichteninhalt definiert wurde, können Sie eine Vorschau davon a
 
 Sie können für das Senden Ihrer Nachrichten das Datum und die genaue Uhrzeit festlegen. Durch die Auswahl des für Ihre Marketing-Nachricht am besten geeigneten Zeitpunkts können Sie die Öffnungsraten maximieren.
 
-Um einen Versand zeitlich zu planen, öffnen Sie den Versand und navigieren Sie zum Abschnitt **[!UICONTROL Zeitplan]**. Verwenden Sie den Umschalter **[!UICONTROL Zeitplanung aktivieren]**, um dies zu aktivieren, und legen Sie das gewünschte Datum und die gewünschte Uhrzeit für den Versand fest. Nach dem Versand beginnt der eigentliche Versand am von Ihnen definierten Kontaktdatum.
+Gehen Sie wie folgt vor, um den Versand eines Versands zu planen:
+
+1. Öffnen Sie den Versand und navigieren Sie zum Abschnitt **[!UICONTROL Zeitplan]** .
+1. Betätigen Sie den Umschalter, um **[!UICONTROL Planung aktivieren]** zu aktivieren.
+1. Klicken Sie **[!UICONTROL Feld &quot;]**&quot; auf das Kalendersymbol und legen Sie das gewünschte Datum und die gewünschte Uhrzeit für den Versand fest.
+1. Wählen **[!UICONTROL im Feld]** die gewünschte Zeitzone aus dem Dropdown-Menü aus.
+
+Nach dem Versand beginnt der eigentliche Versand am von Ihnen definierten Kontaktdatum.
 
 ![Screenshot der Planungsbenutzeroberfläche für einen Versand](assets/schedule.png){zoomable="yes"}
 
-Standardmäßig ist die Option **[!UICONTROL Bestätigung vor dem Senden aktivieren]** aktiviert. Für diese Option müssen Sie das Senden bestätigen, bevor der Versand zum geplanten Zeitpunkt gesendet wird. Wenn Sie den Versand automatisch zum geplanten Zeitpunkt durchführen lassen möchten, können Sie diese Option deaktivieren.
+Standardmäßig ist die Option **[!UICONTROL Bestätigung vor dem Senden aktivieren]** aktiviert. Für diese Option müssen Sie den Versand bestätigen, bevor der Versand zum geplanten Datum gesendet wird. Wenn Sie den Versand automatisch zum geplanten Datum und zur geplanten Uhrzeit senden müssen, können Sie diese Option deaktivieren.
 
 Erfahren Sie Schritte für die Durchführung eines zeitlich geplanten Versands in [diesem Abschnitt](../monitor/prepare-send.md#schedule-the-send).
 

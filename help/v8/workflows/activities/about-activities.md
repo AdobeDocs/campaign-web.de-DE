@@ -3,10 +3,10 @@ audience: end-user
 title: Arbeiten mit Workflow-Aktivitäten
 description: Erfahren Sie, wie Sie Workflow-Aktivitäten durchführen.
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: 61f3a2bff32bba1e202d3e811e9f116f3987c191
+source-git-commit: 0cc09a983d412889f2b734a5bfb30bf422247ec0
 workflow-type: tm+mt
-source-wordcount: '562'
-ht-degree: 100%
+source-wordcount: '617'
+ht-degree: 88%
 
 ---
 
@@ -60,16 +60,26 @@ In Adobe Campaign Web können Sie Marketing-Kampagnen automatisieren und über m
 >abstract="Mit der Aktivität **Ende** können Sie das Ende eines Workflows grafisch markieren. Diese Aktivität hat keine funktionalen Auswirkungen und ist daher optional."
 
 >[!CONTEXTUALHELP]
+>id="acw_orchestration_start"
+>title="Endaktivität"
+>abstract="Die **Start**-Aktivität ermöglicht es Ihnen, den Start eines Workflows grafisch zu markieren. Diese Aktivität hat keine funktionalen Auswirkungen und ist daher optional."
+
+>[!CONTEXTUALHELP]
 >id="acw_orchestration_signal"
 >title="Externes Signal"
 >abstract="Platzhalter für den Abschnitt „Externes Signal“ in den Parametern der Endaktivität. Nur für orchestrierte Kampagnen verfügbar. NICHT LÖSCHEN"
 
 Die folgenden Aktivitäten dienen der Anordnung und Ausführung von Workflows. Ihre Hauptaufgabe ist es, die anderen Aktivitäten zu koordinieren:
 
-* [Und-Verknüpfung](and-join.md): Mit dieser Aktivität synchronisieren Sie mehrere Ausführungszweige eines Workflows.
-* **Ende**: Mit dieser Aktivität markieren Sie grafisch das Ende eines Workflows. Diese Aktivität hat keine funktionalen Auswirkungen und ist daher optional.
 * [Externes Signal](external-signal.md): Mit dieser Aktivität lösen Sie die Ausführung eines Workflows über einen anderen Workflow oder einen API-Aufruf aus.
 * [Verzweigung](fork.md): Mit dieser Aktivität erstellen Sie ausgehende Transitionen, um mehrere Aktivitäten gleichzeitig zu starten.
+* [Zusammenführen](join.md): Synchronisieren mehrerer Ausführungszweige eines Workflows.
 * [Planung](scheduler.md): Mit dieser Aktivität planen Sie, wann der Workflow starten soll.
+* **Start** und **Ende**: Markieren Sie den Anfang und das Ende eines Workflows grafisch. Sie sind optional und haben selbst keine funktionalen Auswirkungen.
+
+  >[!NOTE]
+  >
+  >Beachten Sie, **die Aktivität** automatisch zu allen Workflows hinzugefügt wird, die vor der Version 26.3 erstellt wurden. Sie wird in neuen Workflows nicht standardmäßig eingefügt.
+
 * [Test](test.md): Mit dieser Aktivität aktivieren Sie Transitionen auf Grundlage der angegebenen Bedingungen.
 * [Warten](wait.md): Mit dieser Aktivität halten Sie die Ausführung eines Teils eines Workflows vorübergehend an.

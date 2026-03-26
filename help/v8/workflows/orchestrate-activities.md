@@ -3,10 +3,10 @@ audience: end-user
 title: Erstellen von Workflows mit Adobe Campaign Web
 description: Erfahren Sie, wie Sie Workflows mit Adobe Campaign Web erstellen
 exl-id: 0c8e2158-518c-4620-9971-00ed2eccdd4f
-source-git-commit: 8ba304ef0bf922fc8057a5ee6f1e296805793735
+source-git-commit: 0cc09a983d412889f2b734a5bfb30bf422247ec0
 workflow-type: tm+mt
-source-wordcount: '1287'
-ht-degree: 100%
+source-wordcount: '1321'
+ht-degree: 97%
 
 ---
 
@@ -39,6 +39,7 @@ Um eine Aktivität zu entfernen, wählen Sie sie auf der Arbeitsfläche aus und 
 Die Symbolleiste oben rechts in der Arbeitsfläche bietet Optionen zum einfachen Bearbeiten der Aktivitäten und Navigieren auf der Arbeitsfläche:
 
 * **Mehrfachauswahl-Modus**: Wählen Sie mehrere Aktivitäten aus, um sie alle gleichzeitig zu löschen oder zu kopieren/einzufügen. Siehe [diesen Abschnitt](#copy).
+* **Verzweigung hinzufügen**: Klicken Sie auf die Schaltfläche **+** in der Symbolleiste, um eine separate Ausführungsverzweigung auf der Arbeitsfläche zu erstellen. Das Ergebnis entspricht der Verwendung eines [Verzweigung](activities/fork.md) für parallele Pfade, das Diagramm ist jedoch grafisch klarer.
 * **Drehen**: Dreht die Arbeitsfläche vertikal.
 * **An Bildschirm anpassen**: Passt die Vergrößerung der Arbeitsfläche an Ihren Bildschirm an.
 * **Verkleinern**/**Vergrößern**: Verkleinert bzw. vergrößert die Arbeitsfläche.

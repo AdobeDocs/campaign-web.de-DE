@@ -5,10 +5,10 @@ user-guide-description: Produktdokumentation zur Adobe Campaign Web-Benutzerober
 title: Dokumentation zu Adobe Campaign Web
 description: Dokumentation zu Campaign Web
 breadcrumb-title: Campaign Web-Benutzeroberfläche
-source-git-commit: 881412b57de83ed7a7098653a03a77523e86c790
+source-git-commit: 0cc09a983d412889f2b734a5bfb30bf422247ec0
 workflow-type: tm+mt
-source-wordcount: '1003'
-ht-degree: 96%
+source-wordcount: '1011'
+ht-degree: 97%
 
 ---
 
@@ -93,7 +93,7 @@ ht-degree: 96%
    + Versandwarnung {#delivery-alerting}
       + [Erste Schritte mit Versandwarnungen](msg/delivery-alerting.md)
       + [Versandwarnungs-Dashboards](msg/delivery-alerting-dashboards.md)
-      + [Versandwarnungsbedingungen        &#x200B;](msg/delivery-alerting-criteria.md)
+      + [Versandwarnungsbedingungen        ](msg/delivery-alerting-criteria.md)
 + Content-Management {#content}
    + Erstellen dynamischer Inhalte {#dynamic-content}
       + [Wie lässt sich der Inhalt dynamisch gestalten?](personalization/gs-personalization.md)
@@ -115,6 +115,7 @@ ht-degree: 96%
          + [Beginnen von Grund auf](email/create-email-content.md)
          + [Importieren Ihrer E-Mail-Inhalte](email/existing-content.md)
          + [Codieren Sie Ihre eigenen Inhalte](email/code-content.md)
+         + [Anwenden von Designs auf Ihren E-Mail-Inhalt](email/apply-email-themes.md)
       + Entwerfen Ihres Inhalts {#design-content}
          + [Verwenden von Inhaltskomponenten](email/content-components.md)
          + [Hinzufügen von Links und Verfolgen von Nachrichten](email/message-tracking.md)
@@ -190,7 +191,7 @@ ht-degree: 96%
       + [Starten und Überwachen Ihres Workflows](workflows/start-monitor-workflows.md)
    + Arbeiten mit Workflow-Aktivitäten {#design-workflows}
       + [Über Workflow-Aktivitäten](workflows/activities/about-activities.md)
-      + [Und-Verknüpfung](workflows/activities/and-join.md)
+      + [Automatischer Versand](workflows/activities/automated-delivery.md)
       + [Zielgruppe erstellen](workflows/activities/build-audience.md)
       + [Datenquelle ändern](workflows/activities/change-data-source.md)
       + [Dimensionsänderung](workflows/activities/change-dimension.md)
@@ -204,6 +205,7 @@ ht-degree: 96%
       + [Verzweigung](workflows/activities/fork.md)
       + [Inkrementelle Abfrage](workflows/activities/incremental-query.md)
       + [JavaScript-Code](workflows/activities/javascript-code.md)
+      + [Join](workflows/activities/join.md)
       + [Datei laden](workflows/activities/load-file.md)
       + [Abstimmung](workflows/activities/reconciliation.md)
       + [Zielgruppe speichern](workflows/activities/save-audience.md)
@@ -270,7 +272,7 @@ ht-degree: 96%
          + [Komponenten hinzufügen](reporting/dynamic-reporting/adding-components.md)
          + [Benutzerdefinierte Profildimension erstellen](reporting/dynamic-reporting/creating-a-custom-profile-dimension.md)
          + [Nutzungsvereinbarung zur dynamischen Berichterstattung](reporting/dynamic-reporting/pii-agreement.md)
-+ Integrationen  {#integrations}
++ Integrationen {#integrations}
    + [Arbeiten mit anderen Adobe-Lösungen](integrations/integration.md)
    + [Verwalten von Assets mit Adobe Experience Manager Assets as a Cloud Service](integrations/aem-assets.md)
    + [Verwalten von Vorlagen mit Adobe Experience Manager as a Cloud Service](integrations/aem-content.md)
@@ -292,7 +294,7 @@ ht-degree: 96%
       + [Erstellen und Veröffentlichen von Schemata](administration/schemas-create-publish.md)
       + [Arbeiten mit benutzerdefinierten Formularen](administration/schemas-custom-forms.md)
    + [Konfigurieren benutzerdefinierter Felder](administration/custom-fields.md)
-   + [Konfigurieren von Optionen in [!DNL Campaign] &#x200B;](administration/options.md)
+   + [Konfigurieren von Optionen in [!DNL Campaign] ](administration/options.md)
    + [Zeitzonenverwaltung](administration/timezone-management.md)
    + Externe Konten {#external-accounts}
       + [Erstellen externer Konten](administration/create-external-account.md)
