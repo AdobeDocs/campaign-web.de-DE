@@ -23,7 +23,7 @@ Die Adobe Experience Manager-Integration ermöglicht es Ihnen, mehrsprachige E-M
 Bevor Sie einen mehrsprachigen E-Mail-Versand erstellen, stellen Sie Folgendes sicher:
 
 * Zugriff auf eine Adobe Experience Manager-Instanz, die für die Adobe Campaign-Web-Schnittstellenintegration konfiguriert ist.
-* Adobe Experience Manager-Inhalte mit Sprachkopien wurden bereits erstellt und genehmigt. Weitere Informationen zum Sprachkopie-Assistenten finden Sie in der Dokumentation zu [Adobe Experience Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/reusing-content/translation/wizard)
+* Adobe Experience Manager-Inhalte mit Sprachkopien wurden bereits erstellt und genehmigt. Weitere Informationen zum Sprachkopie-Assistenten finden Sie in der Dokumentation zu [Adobe Experience Manager](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/sites/administering/reusing-content/translation/wizard)
 * E-Mail-Versandvorlage für den Empfang von Adobe Experience Manager-Inhalten konfiguriert. Siehe die Schritte, die im Abschnitt [Mehrsprachigen Modus aktivieren](#enable-multilingual) beschrieben sind.
 
 ## Erstellen eines mehrsprachigen Versands
