@@ -47,7 +47,7 @@ Wenn **OR** ausgewählt ist, wird die Ausführung fortgesetzt, sobald eine der a
 
 Führen Sie die folgenden Schritte aus, um die Aktivität **Zusammenführen** zu konfigurieren:
 
-1. Fügen Sie mehrere Aktivitäten hinzu, z. B. Kanalaktivitäten, um mindestens zwei verschiedene Ausführungszweige zu bilden. Sie können einen **Verzweigung** verwenden oder eine separate Verzweigung mit der Symbolleistenschaltfläche **Verzweigung hinzufügen** (+) hinzufügen. Siehe [Aktivitäten &#x200B;](../orchestrate-activities.md#toolbar).
+1. Fügen Sie mehrere Aktivitäten hinzu, z. B. Kanalaktivitäten, um mindestens zwei verschiedene Ausführungszweige zu bilden. Sie können einen **Verzweigung** verwenden oder eine separate Verzweigung mit der Symbolleistenschaltfläche **Verzweigung hinzufügen** (+) hinzufügen. Siehe [Aktivitäten ](../orchestrate-activities.md#toolbar).
 
    ![Screenshot mit zwei Verzweigungen.](../assets/workflow-join.png)
 
@@ -61,7 +61,7 @@ Führen Sie die folgenden Schritte aus, um die Aktivität **Zusammenführen** zu
 
    >[!NOTE]
    >
-   >Das Primäre Feld **&#x200B;**&#x200B;ist nur für die Join **Option „AND** verfügbar.
+   >Das Primäre Feld **** ist nur für die Join **Option „AND** verfügbar.
 
    ![Screenshot mit konfiguriertem Join.](../assets/workflow-join3.png)
 
