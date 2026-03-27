@@ -31,7 +31,7 @@ Die Aktivität **Automatisierter Versand** ermöglicht die Erstellung, Konfigura
 Gehen Sie wie folgt vor, um diese Aktivität zu konfigurieren:
 
 1. Definieren der Versandeinstellungen [weitere Informationen](#delivery-settings)
-1. auszuführende Aktion auswählen ([ dazu](#action-to-execute)
+1. auszuführende Aktion auswählen ([&#x200B; dazu](#action-to-execute)
 1. Einrichten der Transition, [mehr dazu](#transition-to-execute)
 1. Definieren eines Änderungsskripts, [mehr dazu](#script)
 
