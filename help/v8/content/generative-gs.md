@@ -25,7 +25,7 @@ ht-degree: 83%
 >[!CONTEXTUALHELP]
 >id="acw_emagica_generate"
 >title="Bedingungen der generativen KI in Adobe"
->abstract="Der Zugriff auf diese Funktion ist abhängig von Ihrer Zustimmung zu den Benutzerrichtlinien für generative KI in Adobe Experience Cloud.  Prüfen Sie alle Ausgaben dieser Funktion auf ihre Richtigkeit und stellen Sie sicher, dass sie für den Anwendungsfall geeignet sind."
+>abstract="Der Zugriff auf diese Funktion ist abhängig von Ihrer Zustimmung zu den Benutzerrichtlinien für generative KI in Adobe Experience Cloud.  Alle Ausgaben dieser Funktion auf ihre Richtigkeit prüfen und sicherstellen, dass sie für den Anwendungsfall geeignet sind."
 >additional-url="https://www.adobe.com/de/legal/licenses-terms/adobe-gen-ai-user-guidelines.html" text="Adobe Generative KI – Benutzungsrichtlinien"
 
 >[!INFO]
