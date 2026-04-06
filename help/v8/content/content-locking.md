@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 2835c114-0878-4c41-9071-165d71840941
-source-git-commit: 155a7f3fb55a579dbf9a2ad81a1dc7e4ea3847df
+source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
 workflow-type: tm+mt
 source-wordcount: '1234'
 ht-degree: 100%
@@ -46,7 +46,8 @@ Adobe Campaign ermöglicht es Ihnen, Inhalte in E-Mail-Vorlagen zu sperren, entw
 <!--
 >[!IMPORTANT]
 >
->Content locking is an editor-level feature for authors and does not guarantee the content will remain unedited when imported or created through API.-->
+>Content locking is an editor-level feature for authors and does not guarantee the content will remain unedited when imported or created through API.
+-->
 
 Inhaltssperren können entweder auf **Strukturebene** oder auf **Komponentenebene** angewendet werden. Im Folgenden finden Sie die wichtigsten Prinzipien, die auf Struktur- und Komponentenebene beim Sperren von Inhalten in Ihrer Vorlage gelten:
 
@@ -67,7 +68,8 @@ Inhaltssperren können entweder auf **Strukturebene** oder auf **Komponenteneben
 >Benutzende mit der Berechtigung zum Erstellen von Inhaltsvorlagen können die Inhaltssperre aktivieren.
 
 <!--
-➡️ [Discover this feature in video](#video)-->
+➡️ [Discover this feature in video](#video)
+-->
 
 ## Sperren einer E-Mail-Vorlage {#define}
 
@@ -201,4 +203,5 @@ TO REPLACE WITH VIDEO FOR CAMPAIGN IF/WHEN CREATED
 
 Learn how to lock content in email templates.
 
->[!VIDEO](https://video.tv.adobe.com/v/3451616?captions=ger&quality=12)-->
+>[!VIDEO](https://video.tv.adobe.com/v/3451591?quality=12)
+-->

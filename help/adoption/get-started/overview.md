@@ -4,14 +4,14 @@ description: Erfahren Sie, was für die ersten Schritte mit Ihrer neuen Campaign
 role: User, Admin, Developer
 level: Beginner
 exl-id: 39d1f1b6-626b-48a2-92c3-9b593a377d66
-source-git-commit: 336845c8d21a39c9f9124a5c6f7d0667cd111dcb
-workflow-type: ht
+source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
+workflow-type: tm+mt
 source-wordcount: '1553'
 ht-degree: 100%
 
 ---
 
-# Von Campaign Standard zu v8 {#ac-acs}
+# Wechsel von Campaign Standard zu v8 {#ac-acs}
 
 Herzlich willkommen bei Adobe Campaign v8!
 
@@ -128,7 +128,7 @@ Adobe Campaign v8 ist als Managed Cloud Service verfügbar und bietet proaktive 
 
 Damit Sie reibungslos zu Campaign v8 wechseln können, wurden wichtige Funktionen von Campaign Standard in Campaign v8 aufgenommen. Weitere Informationen dazu finden Sie in [dieser Dokumentation](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=de){target="_blank"}.
 
-* **Dynamisches Reporting**: Das dynamische Reporting ermöglicht vollständig anpassbare und in Echtzeit aktualisierte Berichte, um die Wirkung Ihrer Marketing-Aktivitäten zu messen. Dadurch kann auf Profildaten zugegriffen werden, was die demografische Analyse nach Profildimensionen wie Geschlecht, Ort und Alter sowie nach Daten von E-Mail-Kampagnen wie Öffnungen und Klicks ermöglicht. [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html?lang=de){target="_blank"}.
+* **Dynamisches Reporting**: Das dynamische Reporting ermöglicht vollständig anpassbare und in Echtzeit aktualisierte Berichte, um die Wirkung Ihrer Marketing-Aktivitäten zu messen. Dadurch kann auf Profildaten zugegriffen werden, was die demografische Analyse nach Profildimensionen wie Geschlecht, Ort und Alter ermöglicht, zusätzlich zur Analyse basierend auf Daten von E-Mail-Kampagnen wie Öffnungen und Klicks. [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html?lang=de){target="_blank"}.
 
 * **Zentrales Branding**: Jedes Unternehmen hat seine Richtlinien bezüglich der Darstellung und technischen Charakteristika seiner Marken. Mit Adobe Campaign können Sie Spezifikationen festlegen, um Ihre Marke Ihren Kundinnen und Kunden einheitlich zu präsentieren, angefangen bei den Logos bis hin zu technischen Aspekten wie E-Mail-Absenderinnen und -Absendern, URLs oder Domains. [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-cloud/campaign/branding/branding-gs.html?lang=de)
 
@@ -228,4 +228,5 @@ Rufen Sie das entsprechende Referenzhandbuch für Ihre Rolle auf, um sich mit de
 
 Adobe constantly evaluates product capabilities to identify older features that should be replaced with more modern alternatives to improve overall customer value, always under careful consideration of backward compatibility.
 
-Please refer to [this documentation for information on deprecated items](https://experienceleague.adobe.com/de/docs/campaign-standard/using/release-notes/deprecated-features).-->
+Please refer to [this documentation for information on deprecated items](https://experienceleague.adobe.com/en/docs/campaign-standard/using/release-notes/deprecated-features).
+-->

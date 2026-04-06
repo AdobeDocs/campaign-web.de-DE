@@ -3,10 +3,10 @@ audience: end-user
 title: Senden Ihrer ersten E-Mail
 description: Erfahren Sie, wie Sie Ihre erste E-Mail mit der Campaign Web-Benutzeroberfläche senden.
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
+source-git-commit: d69042d4d968325d9d7d3e58f02d804cf435f8f6
 workflow-type: tm+mt
-source-wordcount: '1648'
-ht-degree: 98%
+source-wordcount: '1672'
+ht-degree: 97%
 
 ---
 
@@ -173,8 +173,10 @@ Weitere Informationen über die Vorschau einer E-Mail und das Senden von Testsen
 
    ![Screenshot mit der E-Mail-Vorschau basierend auf ausgewählten Profilen](assets/preview.png){zoomable="yes"}
 
-   <!--Additionally, the **[!UICONTROL Render email]** button allows you to preview the email using multiple devices or mail providers. Learn on how to preview email rendering
-    -->
+   <!--
+Darüber hinaus ermöglicht die Schaltfläche **[!UICONTROL E-Mail rendern]** die Vorschau der E-Mail mit mehreren Geräten oder E-Mail-Anbietern. Erfahren Sie, wie Sie das E-Mail-Rendering in der Vorschau anzeigen
+
+—>
 
 1. Klicken Sie zum Senden von Testsendungen auf die Schaltfläche **[!UICONTROL Testsendungen senden]** und wählen Sie dann den gewünschten Modus aus.
 
@@ -242,7 +244,8 @@ Nachdem Sie Ihre E-Mail geprüft und getestet haben, können Sie die Vorbereitun
    ![Screenshot mit dem Prozess des E-Mail-Versands](assets/sending-email.png){zoomable="yes"}
 
    <!--
-    ![Screenshot showing the email sent confirmation](assets/sent-email.png){zoomable="yes"}-->
+    ![Screenshot showing the email sent confirmation](assets/sent-email.png){zoomable="yes"}
+    -->
 
    Sie können auch detaillierte Informationen über die Sendung abrufen, indem Sie auf die Schaltfläche **[!UICONTROL Logs]** klicken. [Erfahren Sie, wie Sie Versandlogs überwachen](../monitor/delivery-logs.md)
 
@@ -254,4 +257,4 @@ Nachdem Sie Ihre E-Mail geprüft und getestet haben, können Sie die Vorbereitun
 
 Hier erfahren Sie, wie Sie einen neuen E-Mail-Versand erstellen, die Zielgruppe definieren, den Inhalt gestalten, eine Vorschau simulieren und einen Testversand durchführen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3454014/?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425866/?quality=12)

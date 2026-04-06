@@ -8,7 +8,7 @@ role: User
 level: Intermediate
 keywords: Landing, Landingpage, Anwendungsfall
 exl-id: e51cf54c-9db1-4704-bc5b-0df098d67c7d
-source-git-commit: a9ce4fd103c4af8f47ba887031e8d6d53e8d5f0b
+source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
 workflow-type: tm+mt
 source-wordcount: '1419'
 ht-degree: 100%
@@ -26,7 +26,7 @@ ht-degree: 100%
 >id="acw_landingpages_templates"
 >title="Vorsicht beim Kopieren der URL"
 >abstract="Bei der Erstellung einer Landingpage können Sie mit vier nativen Vorlagen verschiedene Anwendungsfälle implementieren: Hinzufügen oder Aktualisieren eines Profils zur Campaign-Datenbank, Abonnieren eines Dienstes, Abmelden von einem Dienst oder Abmelden von Benutzenden."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html?lang=de#create-landing-page" text="Erstellen einer Landingpage"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html?lang=de#create-landing-page" text="Landingpage erstellen"
 
 Um Ihre Landingpage richtig zu nutzen, referenzieren Sie sie als Link in einer Nachricht mit der entsprechenden Option. Sie können den im Dashboard des veröffentlichten Versands angezeigten Link nicht kopieren und direkt in Ihre Sendungen oder auf einer Web-Seite einfügen. Verwenden Sie stattdessen die Funktion **Inhalte simulieren**, um ihn zu testen.
 
@@ -137,7 +137,8 @@ Eines der häufigsten Anwendungsszenarien besteht darin, dass Sie Ihre Kundschaf
 
    ![Screenshot mit der Benutzeroberfläche für das Kontrollkästchen für das Abonnement](assets/lp-uc-subscription-checkbox-1.png){zoomable="yes"}
 <!--
-1. You can add an additional checkbox to offer subscription to your newsletter for example.-->
+1. You can add an additional checkbox to offer subscription to your newsletter for example.
+-->
 
 1. Passen Sie den Inhalt nach Bedarf an und speichern Sie Ihre Änderungen.
 

@@ -7,7 +7,7 @@ role: User
 level: Beginner, Intermediate
 keywords: E-Mail, Design, Barrierefreiheit
 exl-id: ddfa989b-8a30-4912-bed6-cc1ee7fa2eaa
-source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
+source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
 workflow-type: tm+mt
 source-wordcount: '1643'
 ht-degree: 98%
@@ -315,7 +315,8 @@ Die Bildschirmlesehilfen lesen:
 <!--
 >[!TIP]
 >
->Always ensure link text is discernible (visible) and descriptive (clear about purpose). Avoid vague labels like 'here' or 'more'.-->
+>Always ensure link text is discernible (visible) and descriptive (clear about purpose). Avoid vague labels like 'here' or 'more'.
+-->
 
 ## Bereitstellen von Tastaturnavigation und Fokusunterstützung {#keyboard}
 

@@ -3,7 +3,7 @@ keywords: Campaign Classic;Startseite;beliebte Themen
 description: Campaign Standard-Benutzende, die zu Campaign v8 wechseln, werden über die ersten Schritte informiert.
 title: Einführungsleitfaden für Adobe Campaign Classic
 exl-id: 1adffb16-2373-4ad4-8009-b53ff7a9c425
-source-git-commit: bca2b133968d9392098e9b8b76d65e44d7e84645
+source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
 workflow-type: tm+mt
 source-wordcount: '319'
 ht-degree: 91%
@@ -89,7 +89,8 @@ Informieren Sie sich über die Unterschiede, die für Admins/Entwickelnde in Bez
       <strong>Developer resources</strong><br/><a href="../v8/dev/datamodel.md">Campaign v8 datamodel</a> - <a href="../v8/dev/schemas.md">Schemas</a> - <a href="../v8/dev/api.md">APIs</a>
     </td>
   </tr>
-</table> -->
+</table> 
+-->
 
 ## Zusätzliche Ressourcen
 

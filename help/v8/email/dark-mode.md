@@ -7,7 +7,7 @@ role: User
 level: Beginner, Intermediate
 keywords: Dunkler Modus, E-Mail, Farbe, Editor
 exl-id: 0f1bbaf9-d648-4625-94fa-2e0c240d7264
-source-git-commit: bc43288d58145aa28e914f7a9480cb9ab90f5a54
+source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
 workflow-type: tm+mt
 source-wordcount: '1515'
 ht-degree: 100%
@@ -148,7 +148,8 @@ Nach dem Wechsel in den **[!UICONTROL dunklen Modus]** können Sie bestimmte Sti
 <!--
 >[!WARNING]
 >
->Not all email clients support dark mode. Moreover, some email clients only apply their own default dark mode for all emails that are received. In both cases, the custom settings that you defined in the Email Designer cannot be rendered.-->
+>Not all email clients support dark mode. Moreover, some email clients only apply their own default dark mode for all emails that are received. In both cases, the custom settings that you defined in the Email Designer cannot be rendered.
+-->
 
 Journey Optimizer nutzt <!-- `@media (prefers-color-scheme: dark)` method-->, um den benutzerdefinierten Stil für den dunklen Modus des E-Mail-Designers zu verwenden CSS-Abfrage `@media (prefers-color-scheme: dark)`, die erkennt, ob der E-Mail-Client der oder des Benutzenden auf den dunklen Modus eingestellt ist, und das in Ihrer E-Mail definierte dunkle Design anwendet.
 
@@ -204,15 +205,19 @@ Der dunkle Modus kann Farben, Hintergründe und Bilder verändern – und manchm
 
 * Vermeiden Sie es, sich für wichtige Inhalte ausschließlich auf Hintergrundfarben zu verlassen. Einige Clients überschreiben Hintergrundfarben im dunklen Modus. Stellen Sie daher sicher, dass wichtige Informationen weiterhin sichtbar sind.
 
-<!--**Inline critical styles**
+<!--
+**Inline critical styles**
 
-Inline CSS helps maintain more control over styling, as some clients strip external styles in dark mode.-->
+Inline CSS helps maintain more control over styling, as some clients strip external styles in dark mode.
+-->
 
 **Gestalten barrierefreier Inhalte im dunklen Modus**
 
-<!--KEEP dark mode accessibility best practices IN ONE SINGLE LOCATION - for now listed on this page.
+<!--
+KEEP dark mode accessibility best practices IN ONE SINGLE LOCATION - for now listed on this page.
 If needed, it can be moved to the Design accessible content page:
-The best practices for designing accesible content in dark mode are listed in [this section](accessible-content.md#dark-mode).-->
+The best practices for designing accesible content in dark mode are listed in [this section](accessible-content.md#dark-mode).
+-->
 
 * Verwenden Sie Farbkombinationen, die für Menschen mit Farbenblindheit leicht zu unterscheiden sind.
 

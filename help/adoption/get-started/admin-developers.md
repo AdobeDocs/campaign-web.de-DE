@@ -4,7 +4,7 @@ description: Dieses Tutorial bietet einen Überblick über die wichtigsten Verwa
 role: Admin, Developer
 level: Beginner, Experienced
 exl-id: 1554f85f-22e1-4b51-a916-194ea0d24816
-source-git-commit: be4876090ecaac853aaa88948505c444bef27ec2
+source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
 workflow-type: tm+mt
 source-wordcount: '2777'
 ht-degree: 100%
@@ -57,7 +57,7 @@ Beachten Sie, dass die Client-Konsole in einer unterstützten Umgebung installie
 
 In diesem Tutorial-Video erfahren Sie mehr über die Benutzeroberfläche von Adobe Campaign v8 und darüber, wie Sie durch die Hauptfunktionen navigieren.
 
->[!VIDEO](https://video.tv.adobe.com/v/3426435?captions=ger&quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/334496?quality=12&learn=on){transcript=true}
 
 Weitere Informationen finden Sie unter [Arbeiten mit der Client-Konsole](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/new/campaign-ui){target="_blank"}.
 
@@ -110,7 +110,8 @@ Sie können Daten-Packages verwenden, um benutzerdefinierte Plattformeinstellung
 MISSING LINKS: 
 
 - System options
-- Data Encryption/Decryption-->
+- Data Encryption/Decryption
+-->
 
 ### Personalisieren der Benutzeroberfläche {#acs-gs-admin-ui}
 
@@ -156,7 +157,7 @@ Links zu anderen nützlichen Ressourcen finden Sie im folgenden Abschnitt:
 
 * In diesem Video erfahren Sie, was Zielgruppendimensionen und Arbeitstabellen sind und wie Adobe Campaign Daten aus verschiedenen Datenquellen verwaltet:
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3452603?captions=ger&quality=12&learn=on){transcript=true}
+  >[!VIDEO](https://video.tv.adobe.com/v/339992?quality=12&learn=on){transcript=true}
 
 * Mit Campaign können Sie der Cloud-Datenbank Kontakte hinzufügen. Sie können eine Datei laden, mehrere Kontaktaktualisierungen planen und automatisieren, Daten im Internet sammeln oder Profilinformationen direkt in die Empfängertabelle eingeben. Weitere Informationen finden Sie in der [Dokumentation zum Importieren von Daten (Konsole)](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/data/import){target="_blank"}.
 
@@ -195,9 +196,9 @@ Workflow templates contain pre-configured settings and activities which can be r
 
 You can design your landing page content, and save it for future reuse. See the [landing page template documentation](../../v8/landing-pages/lp-templates.md).
 
-Each event can trigger a personalized message. For this to happen, you need to create a message template to match each event type. Templates contain the necessary information for personalizing the transactional message. See the [Transactional messaging template documentation](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/send/real-time/transactional-template)
+Each event can trigger a personalized message. For this to happen, you need to create a message template to match each event type. Templates contain the necessary information for personalizing the transactional message. See the [Transactional messaging template documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional-template)
 
-Using a workflow template is a best practice if you need to regularly import files with the same structure. See the [Import template documentation](https://experienceleague.adobe.com/de/docs/campaign/automation/workflows/use-cases/data-management/recurring-import-workflow){target="_blank"}
+Using a workflow template is a best practice if you need to regularly import files with the same structure. See the [Import template documentation](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/use-cases/data-management/recurring-import-workflow){target="_blank"}
 -->
 
 ## Datenschutz und Einverständniserklärung
@@ -214,7 +215,7 @@ Wie in Campaign Standard können Sie als Admin Anmeldedienste erstellen und Mark
 
 Erfahren Sie, wie Sie Anmeldungen und Abonnements einrichten und verwalten und Zielgruppen adressieren.
 
->[!VIDEO](https://video.tv.adobe.com/v/3426550?captions=ger&quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/334305?quality=12&learn=on){transcript=true}
 
 * Weitere Informationen zu den Anmeldediensten finden Sie in der [Dokumentation zur Web-Benutzeroberfläche](../../v8/audience/manage-subscribers.md).
 
@@ -255,7 +256,8 @@ MISSING LINKS :
 <!--
 MISSING LINKS: 
 - Setting external account 
-- Adding vender details etc. -->
+- Adding vender details etc. 
+-->
 
 <!--
 **Mobile app**
@@ -272,7 +274,7 @@ Verwenden Sie Campaign, um dynamische Inhalte zu erstellen und personalisierte N
 
 In diesem Video erfahren Sie, wie Sie als Admin mit Campaign v8 dynamische Inhaltsbausteine definieren und festlegen, wie diese zur Personalisierung des Inhalts Ihres E-Mail-Versands verwendet werden:
 
->[!VIDEO](https://video.tv.adobe.com/v/3449015?captions=ger&quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/342088?quality=12&learn=on){transcript=true}
 
 Nützliche Links:
 

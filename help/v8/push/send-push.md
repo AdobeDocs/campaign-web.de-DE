@@ -3,7 +3,7 @@ audience: end-user
 title: Senden eines Push-Benachrichtigungs-Versands
 description: Erfahren Sie, wie Sie mit Adobe Campaign Web einen Push-Benachrichtigungs-Versand senden.
 exl-id: 16b3b33b-36db-4635-8e44-707694b859db
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
 workflow-type: tm+mt
 source-wordcount: '391'
 ht-degree: 100%
@@ -24,8 +24,10 @@ Die wichtigsten Schritte zum Anzeigen einer Push-Benachrichtigung in einer Vorsc
 
 1. Klicken Sie auf **[!UICONTROL Abonnentin(nen) oder Abonnent(en) hinzufügen]**, um mindestens ein Profil anzuzeigen und dessen Daten im Inhalt der Push-Benachrichtigung in einer Vorschau anzuzeigen.
 
-   <!--Once your test subscribers are selected, click **[!UICONTROL Select]**.
-    ![](assets/push_send_5.png){zoomable="yes"}-->
+   <!--
+    Once your test subscribers are selected, click **[!UICONTROL Select]**.
+    ![](assets/push_send_5.png){zoomable="yes"}
+    -->
 
 1. Im rechten Bereich sehen Sie eine Vorschau der Push-Benachrichtigung, in der personalisierte Elemente dynamisch durch Daten aus dem ausgewählten Profil ersetzt werden.
 

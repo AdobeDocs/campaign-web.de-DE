@@ -3,7 +3,7 @@ audience: end-user
 title: Workflow-Aktivität für automatisierten Versand
 description: Erfahren Sie, wie Sie die Workflow-Aktivität für automatisierte Sendungen verwenden
 exl-id: a9c485f1-0369-414d-9e43-bedb0390a2f5
-source-git-commit: 9b51dc84a5b6954c973e1560aad877ef770eb8f9
+source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
 workflow-type: tm+mt
 source-wordcount: '622'
 ht-degree: 5%
@@ -26,12 +26,13 @@ ht-degree: 5%
 Die Aktivität **Automatisierter Versand** ermöglicht die Erstellung, Konfiguration und Ausführung von Versandaktionen direkt in Ihrem Workflow. Verwenden Sie diese Option, wenn Sie einen vordefinierten Versand nach einem Zeitplan oder als Teil eines automatisierten Flusses ausführen möchten oder wenn Sie bei jeder Ausführung der Aktivität einen neuen Versand aus einer Vorlage generieren möchten.
 
 <!--
-**[Continuous delivery](continuous-delivery.md)** always uses a template. The first run creates one delivery; later runs send to new recipients through that same delivery. **Automated delivery** is different: you either reuse one existing delivery every run, or you create a new delivery from a template each time—so each run can be its own delivery if you want. -->
+**[Continuous delivery](continuous-delivery.md)** always uses a template. The first run creates one delivery; later runs send to new recipients through that same delivery. **Automated delivery** is different: you either reuse one existing delivery every run, or you create a new delivery from a template each time—so each run can be its own delivery if you want. 
+-->
 
 Gehen Sie wie folgt vor, um diese Aktivität zu konfigurieren:
 
 1. Definieren der Versandeinstellungen [weitere Informationen](#delivery-settings)
-1. auszuführende Aktion auswählen ([&#x200B; dazu](#action-to-execute)
+1. auszuführende Aktion auswählen ([ dazu](#action-to-execute)
 1. Einrichten der Transition, [mehr dazu](#transition-to-execute)
 1. Definieren eines Änderungsskripts, [mehr dazu](#script)
 
