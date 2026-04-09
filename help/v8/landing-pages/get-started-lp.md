@@ -4,10 +4,10 @@ title: Erste Schritte mit Landingpages
 description: Informationen zu Landingpages in Campaign Web
 feature: Landing Pages
 exl-id: edd313a3-93f4-4596-8dd6-dfc2bc3db21b
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 5791677fbbb21591efecff7689495f405dc341a3
 workflow-type: tm+mt
 source-wordcount: '254'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -61,11 +61,11 @@ Die wichtigsten Funktionen von Landingpages sind unten aufgeführt:
 <p>
 </td>
 <td>
-<a href="lp-templates.md">
-<img alt="Arbeiten mit Inhaltsvorlagen für Landingpages" src="../assets/do-not-localize/lp-reporting.jpg">
+<a href="lp-use-cases.md">
+<img alt="Anwendungsfälle und integrierte Vorlagen für Landingpages" src="../assets/do-not-localize/lp-reporting.jpg">
 </a>
 <div>
-<a href="lp-templates.md"><strong>Arbeiten mit Inhaltsvorlagen</strong></a>
+<a href="lp-use-cases.md"><strong>Anwendungsfälle für Landingpages</strong></a>
 </div>
 <p>
 </td>
