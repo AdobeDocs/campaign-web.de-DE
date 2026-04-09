@@ -361,11 +361,11 @@ Weitere Informationen über Landingpages finden Sie in den folgenden Abschnitten
 <p>
 </td>
 <td>
-<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/landing-pages/lp-use-cases">
+<a href="https://experienceleague.adobe.com/de/docs/campaign-web/v8/landing-pages/lp-use-cases">
 <img alt="Anwendungsfälle und integrierte Vorlagen für Landingpages" src="assets/lp-reporting.jpg">
 </a>
 <div>
-<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/landing-pages/lp-use-cases"><strong>Anwendungsfälle und integrierte Vorlagen für Landingpages</strong></a>
+<a href="https://experienceleague.adobe.com/de/docs/campaign-web/v8/landing-pages/lp-use-cases"><strong>Anwendungsfälle und integrierte Vorlagen für Landingpages</strong></a>
 </div>
 <p>
 </td>
