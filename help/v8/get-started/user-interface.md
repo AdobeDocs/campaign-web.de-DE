@@ -2,15 +2,14 @@
 audience: end-user
 title: Erkunden der Benutzeroberfläche
 description: Adobe Campaign Web-Benutzeroberfläche
-hidefromtoc: true
 hide: true
 robots: noindex
 googlebot: noindex
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 28f7bcf5f65671136be25c79b414f149532b749f
+source-git-commit: 464be736082dfd895954388d879a9244d06824c9
 workflow-type: tm+mt
-source-wordcount: '1525'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

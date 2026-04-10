@@ -5,10 +5,10 @@ user-guide-description: Produktdokumentation zur Adobe Campaign Web-Benutzerober
 title: Dokumentation zu Adobe Campaign Web
 description: Dokumentation zu Campaign Web
 breadcrumb-title: Campaign Web-Benutzeroberfläche
-source-git-commit: 5791677fbbb21591efecff7689495f405dc341a3
+source-git-commit: 464be736082dfd895954388d879a9244d06824c9
 workflow-type: tm+mt
 source-wordcount: '1006'
-ht-degree: 97%
+ht-degree: 95%
 
 ---
 
@@ -18,17 +18,17 @@ ht-degree: 97%
 + [Dokumentation zur Adobe Campaign Web-Benutzeroberfläche](campaign-web-home.md)
 + Versionshinweise {#release-notes}
    + [Neue Funktionen](rn/whats-new.md)
-   + [Frühere Version](rn/e-release-notes.md)
+   + {hide-from-toc}[Frühzeitige Veröffentlichung](rn/e-release-notes.md)
    + [Aktuelle Version](rn/release-notes.md)
    + Frühere Versionen {#previous-release-notes}
       + [Versionen 2026](rn/release-notes-26.md)
       + [Versionen 2025](rn/release-notes-25.md)
       + [Versionen 2024](rn/release-notes-24.md)
-   + [Aktualisierungen der Dokumentation](rn/documentation-updates.md)
+   + {hide-from-toc}[Aktualisierungen der Dokumentation](rn/documentation-updates.md)
 + Erste Schritte mit Adobe Campaign {#start}
    + [Erste Schritte](get-started/get-started.md)
    + [Herstellen einer Verbindung zu Campaign](get-started/connect-to-campaign.md)
-   + [Erkunden der Benutzeroberfläche](get-started/user-interface.md)
+   + {hide-from-toc}[Entdecken der Benutzeroberfläche](get-started/user-interface.md)
    + [Durchsuchen und Filtern von Listen](get-started/list-filters.md)
    + [Arbeiten mit vordefinierten Filtern](get-started/predefined-filters.md)
    + [Arbeiten mit Ordnern](get-started/work-with-folders.md)
@@ -36,7 +36,7 @@ ht-degree: 97%
    + [Berechtigungen](get-started/permissions.md)
    + [Campaign Web und Client-Konsole](get-started/capability-matrix.md)
    + [Wechsel von Campaign Standard zu v8](rn/acs-migration.md)
-   + [KI-gestützte Kontexthilfe](get-started/using-ai.md)
+   + {hide-from-toc}[KI-gestützte kontextuelle Hilfe](get-started/using-ai.md)
    + [Häufig gestellte Fragen](get-started/faq.md)
 + Nachrichten und Sendungen {#msg}
    + [Erste Schritte mit Nachrichten](msg/gs-messages.md)
@@ -93,7 +93,7 @@ ht-degree: 97%
    + Versandwarnung {#delivery-alerting}
       + [Erste Schritte mit Versandwarnungen](msg/delivery-alerting.md)
       + [Versandwarnungs-Dashboards](msg/delivery-alerting-dashboards.md)
-      + [Versandwarnungsbedingungen        &#x200B;](msg/delivery-alerting-criteria.md)
+      + [Versandwarnungsbedingungen        ](msg/delivery-alerting-criteria.md)
 + Content-Management {#content}
    + Erstellen dynamischer Inhalte {#dynamic-content}
       + [Wie lässt sich der Inhalt dynamisch gestalten?](personalization/gs-personalization.md)
@@ -219,7 +219,7 @@ ht-degree: 97%
    + [Arbeiten mit dem Abfrage-Modeler](query/query-modeler-overview.md)
    + [Erstellen Ihrer ersten Abfrage](query/build-query.md)
    + [Bearbeitung von Ausdrücken](query/expression-editor.md)
-   + [Beispiele für Abfragen](query/query-samples.md)
+   + {hide-from-toc}[Beispiele für Abfragen](query/query-samples.md)
    + [Filterlisten](query/filter.md)
 + Reporting {#reports}
    + [Audit-Protokoll](reporting/audit-trail.md)
@@ -292,8 +292,8 @@ ht-degree: 97%
       + [Hinzufügen von Sammlungslisten](administration/schemas-collection-lists.md)
       + [Erstellen und Veröffentlichen von Schemata](administration/schemas-create-publish.md)
       + [Arbeiten mit benutzerdefinierten Formularen](administration/schemas-custom-forms.md)
-   + [Konfigurieren benutzerdefinierter Felder](administration/custom-fields.md)
-   + [Konfigurieren von Optionen in [!DNL Campaign] &#x200B;](administration/options.md)
+   + {hide-from-toc}[Benutzerdefinierte Felder konfigurieren](administration/custom-fields.md)
+   + [Konfigurieren von Optionen in [!DNL Campaign] ](administration/options.md)
    + [Zeitzonenverwaltung](administration/timezone-management.md)
    + Externe Konten {#external-accounts}
       + [Erstellen externer Konten](administration/create-external-account.md)
