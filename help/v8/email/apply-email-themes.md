@@ -53,7 +53,7 @@ Diese Funktion ermöglicht es Marketing-Experten, visuell ansprechende, markenko
 
 * Wenn Sie einen in HTML erstellten Inhalt verwenden, befinden Sie sich im [Kompatibilitätsmodus](existing-content.md) und Sie können keine Designs direkt auf diesen Inhalt anwenden.
 
-   * Um Designs anzuwenden, müssen Sie zunächst den importierten Inhalt [als neue Vorlage](../content/create-email-templates.md#save-as-template) speichern und diese Vorlage dann in einen Design-kompatiblen Inhalt konvertieren. Anschließend können Sie diese Vorlage verwenden, um E-Mail-Inhalte zu erstellen. In diesem Abschnitt erfahren Sie, wie Sie eine mit manuellem Stil erstellte [&#x200B; konvertieren](#theme-convertor).
+   * Um Designs anzuwenden, müssen Sie zunächst den importierten Inhalt [als neue Vorlage](../content/create-email-templates.md#save-as-template) speichern und diese Vorlage dann in einen Design-kompatiblen Inhalt konvertieren. Anschließend können Sie diese Vorlage verwenden, um E-Mail-Inhalte zu erstellen. In diesem Abschnitt erfahren Sie, wie Sie eine mit manuellem Stil erstellte [ konvertieren](#theme-convertor).
 
    * Sie können auch weiterhin Ihre importierten HTML-Inhalte konvertieren. [Weitere Informationen](existing-content.md)
 
@@ -131,7 +131,7 @@ Gehen Sie wie folgt vor, um ein Design zu definieren, das Sie in künftigen E-Ma
 
 Gehen Sie wie folgt vor, um standardmäßige oder benutzerdefinierte Stildesigns auf eine Inhaltsvorlage oder eine E-Mail anzuwenden.
 
-1. Erstellen Sie [!DNL Adobe Campaign] [E-Mail-Versand](create-email.md) oder verwenden Sie einen vorhandenen Versand oder erstellen Sie eine E-Mail [Inhaltsvorlage](../content/create-email-templates.md#create-template-from-scratch) und [&#x200B; Sie den E-Mail-Inhalt](get-started-email-designer.md#start-authoring).
+1. Erstellen Sie [!DNL Adobe Campaign] [E-Mail-Versand](create-email.md) oder verwenden Sie einen vorhandenen Versand oder erstellen Sie eine E-Mail [Inhaltsvorlage](../content/create-email-templates.md#create-template-from-scratch) und [ Sie den E-Mail-Inhalt](get-started-email-designer.md#start-authoring).
 
 1. Sie können eine der folgenden Aktionen auswählen:
 
@@ -231,7 +231,7 @@ Gehen Sie wie folgt vor, um ein mit Designs kompatibles Fragment zu erstellen.
 
    >[!CAUTION]
    >
-   >Wenn Sie das Fragment in einem E-Mail-Inhalt verwenden[&#x200B; stellen Sie sicher, dass Sie (](#apply-themes-email) Design anwenden), das Sie für dieses Fragment definiert haben. Andernfalls kann es zu Anzeigeproblemen kommen, insbesondere in Outlook 2021 und früheren Versionen.
+   >Wenn Sie das Fragment in einem E-Mail-Inhalt verwenden[ stellen Sie sicher, dass Sie (](#apply-themes-email) Design anwenden), das Sie für dieses Fragment definiert haben. Andernfalls kann es zu Anzeigeproblemen kommen, insbesondere in Outlook 2021 und früheren Versionen.
 
 1. Klicken Sie auf **[!UICONTROL Schließen]**.
 

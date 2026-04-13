@@ -40,7 +40,7 @@ Um eine Kontrollgruppe zu einem Versand hinzuzufügen, aktivieren Sie im Abschni
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_controlgroup_target"
 >title="Extraktionsmodus"
->abstract="Eine Kontrollgruppe ist ein Satz von Profilen, die vom Versand ausgeschlossen sind. Um eine Kontrollgruppe zu definieren, können Sie nach dem Zufallsprinzip oder basierend auf einer Sortierung einen Prozentsatz oder eine feste Anzahl von Profilen aus der Zielgruppenpopulation extrahieren."
+>abstract="Eine Kontrollgruppe ist ein Satz von Profilen, die vom Versand ausgeschlossen sind. Um eine Kontrollgruppe zu definieren, können Sie nach dem Zufallsprinzip oder basierend auf einer Sortierung einen Prozentsatz oder eine feste Anzahl von Profilen aus der Zielpopulation extrahieren."
 
 ### Erstellen einer Kontrollgruppe {#build-extract-target}
 

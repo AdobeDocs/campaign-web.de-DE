@@ -19,7 +19,7 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication"
->title="Aktivität „Deduplizierung“"
+>title="Aktivität &quot;Deduplizierung&quot;"
 >abstract="Die Aktivität **Deduplizierung** löscht Duplikate in den Ergebnissen eingehender Aktivitäten. Sie wird hauptsächlich nach Zielgruppenbestimmungsaktivitäten und vor Aktivitäten verwendet, die Zielgruppendaten verwenden."
 
 >[!CONTEXTUALHELP]

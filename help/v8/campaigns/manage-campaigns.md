@@ -35,7 +35,7 @@ Eine Suchleiste und Filter sind verfügbar, um die Suche innerhalb der Liste zu 
 
 ![Beschreibung: das Panel „Filter“ mit Optionen zum Filtern von Kampagnen nach Start- und Enddatum](assets/campaign-filter-on-dates.png)
 
-### Zeitleisten-Ansicht {#timeline}
+### Zeitleistenansicht {#timeline}
 
 Standardmäßig wird auf dem Kampagnenbildschirm die **Listenansicht“ (**) angezeigt. Sie können jederzeit zur **Zeitleisten** Ansicht wechseln, indem Sie den Umschalter Ansicht verwenden. Beide Ansichten zeigen dieselben Kampagnen und nutzen dieselben Filter und Suchen. Wenn Sie in einer Ansicht Filter ändern oder suchen, spiegelt die andere Ansicht dieselbe Auswahl wider.
 

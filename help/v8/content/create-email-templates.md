@@ -73,7 +73,7 @@ Wie unten dargestellt, werden alle Funktionssymbole deaktiviert, wodurch die Int
 
 Inhaltsvorlagen können durch das [Speichern einer vorhandenen E-Mail als Vorlage](#save-as-template) oder aus der Liste der E-Mail-Vorlagen über die Schaltfläche **Inhaltsvorlage erstellen** erstellt werden, [wie unten beschrieben](#create-template-from-scratch).
 
-Nachdem Sie diese Vorlage gespeichert haben, können Sie sie beim Erstellen einer [E-Mail](../email/create-email.md) in [!DNL Adobe Campaign] verwenden. [Weitere Informationen dazu](use-email-templates.md)
+Nachdem Sie diese Vorlage gespeichert haben, können Sie sie beim Erstellen einer [E-Mail](../email/create-email.md) in [!DNL Adobe Campaign] verwenden. [Weitere Informationen](use-email-templates.md)
 
 >[!NOTE]
 >

@@ -23,7 +23,7 @@ Testprofile werden verwendet, um Testsendungen durchzuführen und den Inhalt sow
 
 ➡️ [Entdecken Sie diese Funktion im Video](#video)
 
-<!--Learn more about test profiles in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html?lang=de){target="_blank"}.-->
+<!--Learn more about test profiles in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}.-->
 
 Informationen zum Versand von Testsendungen an Testprofile finden Sie in [diesem Abschnitt](../preview-test/test-deliveries.md#test-profiles).
 
@@ -102,7 +102,7 @@ You do not need to enter all fields of each tab when creating a seed address. Mi
 
    Stellen Sie sicher, dass in der Workflow-Aktivität **[!UICONTROL Anreicherung]** zusätzliche Zielgruppendaten mit einem Alias definiert wurden, der mit „@“ beginnt. Andernfalls können Sie sie in der Versandaktivität nicht ordnungsgemäß mit Ihren Testadressen verwenden. [Weitere Informationen zur Aktivität „Anreicherung“](../workflows/activities/enrichment.md)
 
-1. Klicken Sie auf die Schaltfläche **[!UICONTROL Speichern]**.
+1. Wählen Sie die Schaltfläche **[!UICONTROL Speichern]** aus.
 
 Das soeben erstellte Testprofil kann jetzt zur Durchführung einer Testsendung verwendet werden. [Weitere Informationen](../preview-test/test-deliveries.md#test-profiles)
 
@@ -112,4 +112,4 @@ Das soeben erstellte Testprofil kann jetzt zur Durchführung einer Testsendung v
 
 Erfahren Sie, wie Sie mit der Campaign Web-Benutzeroberfläche Testprofile erstellen und verwalten.
 
->[!VIDEO](https://video.tv.adobe.com/v/3442904?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3442844?quality=12)

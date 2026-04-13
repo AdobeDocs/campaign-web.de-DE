@@ -35,7 +35,7 @@ In Versandwarnungs-Dashboards können Sie festlegen, wer E-Mail-Warnungen erhalt
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_create_criteria_add"
->title="Versandwarnungskriterien"
+>title="Versandwarnungsbedingungen        "
 >abstract="Fügen Sie in diesem Abschnitt Kriterien hinzu, mit denen Sie Warnungen über dieses Dashboard senden möchten. Wählen Sie aus vordefinierten Kriterien oder erstellen Sie eigene Kriterien, um sie an bestimmte Anforderungen anzupassen."
 
 >[!CONTEXTUALHELP]
@@ -75,7 +75,7 @@ Gehen Sie wie folgt vor, um ein Versand-Dashboard zu erstellen:
    * **Mindestdauer (in Minuten) für die Berechnung des Durchsatzes**: Nur Sendungen, deren Dauer länger ist als der spezifizierte Wert (mit Status „Gestartet“), werden für die Bedingung „Sendungen mit geringem Durchsatz“ berücksichtigt.
    * **Maximaler Prozentsatz verarbeiteter Nachrichten zur Berechnung des Durchsatzes**: Nur Sendungen mit einem Prozentsatz an verarbeiteten Nachrichten, der unter dem definierten Wert liegt, werden für die Bedingung „Sendungen mit geringem Durchsatz“ berücksichtigt.
    * **Erwarteter Mindestdurchsatz (in gesendeten Nachrichten pro Stunde)**: Nur Sendungen mit einem Durchsatz, der unter dem festgelegten Wert liegt, werden für die Bedingung „Sendungen mit geringem Durchsatz“ berücksichtigt.
-   * **Für Versandbedingung „Gestartet“ erforderliche Mindest-Verarbeitungsrate**: Nur Sendungen mit einem Prozentsatz an verarbeiteten Nachrichten, der über dem festgelegten Wert liegt, werden berücksichtigt.
+   * **Für Versandbedingung &#39;Gestartet&#39; erforderliche Mindest-Verarbeitungsrate**: Nur Sendungen mit einem Prozentsatz an verarbeiteten Nachrichten, der über dem festgelegten Wert liegt, werden berücksichtigt.
 
    +++
 

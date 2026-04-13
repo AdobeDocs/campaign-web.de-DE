@@ -16,7 +16,7 @@ Die meisten Links aus dem linken Navigationsmenü zeigen Listen von Objekten an,
 
 ## Anpassen von Listenbildschirmen {#custom-lists}
 
-Die Listen werden in Spalten angezeigt. Sie können auch zusätzliche Informationen anzeigen, indem Sie die Spaltenkonfiguration ändern. Klicken Sie dazu auf das Symbol **Spalte für ein benutzerdefiniertes Layout konfigurieren** in der oberen rechten Ecke der Liste.
+Listen werden in Spalten angezeigt. Sie können auch zusätzliche Informationen anzeigen, indem Sie die Spaltenkonfiguration ändern. Klicken Sie dazu auf das Symbol **Spalte für ein benutzerdefiniertes Layout konfigurieren** in der oberen rechten Ecke der Liste.
 
 ![Screenshot mit dem Symbol „Spalte konfigurieren“, das zum Anpassen des Layouts von Listenspalten verwendet wird](assets/config-columns.png){zoomable="yes"}{width="70%" align="left"}
 

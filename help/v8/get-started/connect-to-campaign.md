@@ -4,12 +4,12 @@ description: Erfahren Sie, wie Sie eine Verbindung mit der Benutzeroberfläche v
 exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
 source-git-commit: 497335e6f176d33c4e9cd214abf46665ad75e1eb
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '919'
+ht-degree: 100%
 
 ---
 
-# Herstellen einer Verbindung zu Adobe Campaign {#connect-to-campaign}
+# Verbindung mit Adobe Campaign herstellen {#connect-to-campaign}
 
 Experience Cloud ist die integrierte Familie von Anwendungen, Produkten und Diensten von Adobe für das digitale Marketing. Über die intuitive Benutzeroberfläche können Sie schnell auf Ihre Cloud-Anwendungen, Produktfunktionen und Dienste zugreifen. Auf dieser Seite erfahren Sie, wie Sie eine Verbindung mit Adobe Experience Cloud herstellen und auf die Adobe Campaign Web-Benutzeroberfläche zugreifen.
 
