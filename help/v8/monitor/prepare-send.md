@@ -5,8 +5,8 @@ description: Erfahren Sie, wie Sie eine E-Mail mit der Campaign Web-Benutzerober
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '949'
+ht-degree: 100%
 
 ---
 
@@ -51,9 +51,9 @@ Die wichtigsten Schritte zur Versandvorbereitung sind unten aufgeführt.
 
    * **[!UICONTROL Zielgruppe]**: Anzahl der Zielgruppenempfängerinnen und -empfänger.
    * **[!UICONTROL Zu versenden]**: die Anzahl der zu sendenden Nachrichten.
-   * **[!UICONTROL Auszuschließen]**&#x200B;[: Anzahl der Nachrichten, die durch eine Typologieregel ausgeschlossen werden](../advanced-settings/delivery-settings.md#typology).
+   * **[!UICONTROL Auszuschließen]**[: Anzahl der Nachrichten, die durch eine Typologieregel ausgeschlossen werden](../advanced-settings/delivery-settings.md#typology).
 
-1. Klicken Sie auf die Schaltfläche **[!UICONTROL Logs]** und vergewissern Sie sich, dass keine Fehler vorliegen. Die letzte Log-Nachricht zeigt eventuelle Fehler und deren Anzahl an. [Weitere Informationen](delivery-logs.md)
+1. Klicken Sie auf die Schaltfläche **[!UICONTROL Logs]** und vergewissern Sie sich, dass keine Fehler vorliegen. Der letzte Logeintrag zeigt eventuelle Fehler und deren Anzahl an. [Weitere Informationen](delivery-logs.md)
 
    ![Schaltfläche „Logs“ im Versand-Dashboard](assets/email-prepare-logs.png){zoomable="yes"}
 

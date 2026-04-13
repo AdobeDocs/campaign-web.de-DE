@@ -5,8 +5,8 @@ description: Erfahren Sie, wie Sie in Adobe Campaign Web mit Zielgruppen arbeite
 exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
 source-git-commit: b330230a031a366b674ebac37681274ee89ec6c8
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '387'
+ht-degree: 100%
 
 ---
 
@@ -24,8 +24,8 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_targeting"
->title="Targeting"
->abstract="Targeting"
+>title="Zielgruppenbestimmung"
+>abstract="Zielgruppenbestimmung"
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_workflow_error_data_execution"

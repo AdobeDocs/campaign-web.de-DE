@@ -1,5 +1,5 @@
 ---
-title: Erstellen bedingter Inhalte
+title: Bedingte Inhalte erstellen
 description: Erfahren Sie, wie Sie in Adobe Campaign Web Bedingungen definieren, um Ihre Inhalte zu personalisieren
 feature: Personalization
 topic: Personalization
@@ -8,7 +8,7 @@ role: Developer
 level: Beginner
 exl-id: 101ad23b-7ea5-42c7-9249-7c14febe6eb7
 source-git-commit: 85ebbbe1e318cf0561b33d4c14250cded6ffbc65
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1069'
 ht-degree: 100%
 

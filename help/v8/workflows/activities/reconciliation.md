@@ -14,7 +14,7 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation"
->title="Aktivität „Abstimmung“"
+>title="Aktivität &quot;Abstimmung&quot;"
 >abstract="Die Aktivität **Abstimmung** ist eine Aktivität zur **Zielgruppenbestimmung**, mit der die Verknüpfung zwischen den Daten in der Adobe Campaign-Datenbank und den Daten in einer Arbeitstabelle definiert wird. Zum Beispiel kann die Aktivität **Abstimmung** hinter der Aktivität **Datei laden** platziert werden, um nicht standardmäßige Daten in die Datenbank zu laden. In diesem Fall definiert die Aktivität **Abstimmung** die Verknüpfung zwischen den Daten in der Adobe Campaign-Datenbank und den Daten in der externen Tabelle."
 
 >[!CONTEXTUALHELP]
@@ -94,7 +94,7 @@ Standardmäßig werden nicht abgestimmte Daten in der ausgehenden Transition bei
 
 ## Beispiel {#reconciliation-example}
 
-Das folgende Beispiel zeigt einen Workflow zur Erstellung einer Zielgruppe von Profilen,  direkt aus einer importierten Datei mit neuen Kundinnen und Kunden. Er umfasst die folgenden Aktivitäten:
+Das folgende Beispiel zeigt einen Workflow zur Erstellung einer Profil-Zielgruppe, die direkt von einer importierten Datei mit neuen Kunden ausgeht. Er umfasst die folgenden Aktivitäten:
 
 Der Workflow setzt sich folgendermaßen zusammen:
 

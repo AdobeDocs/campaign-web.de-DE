@@ -3,10 +3,10 @@ audience: end-user
 title: Senden Ihrer ersten E-Mail
 description: Erfahren Sie, wie Sie Ihre erste E-Mail mit der Campaign Web-Benutzeroberfläche senden.
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: d69042d4d968325d9d7d3e58f02d804cf435f8f6
+source-git-commit: 2f7f29f1c6e137c9a8b75c4f24c12526843ddd9f
 workflow-type: tm+mt
-source-wordcount: '1672'
-ht-degree: 97%
+source-wordcount: '1648'
+ht-degree: 98%
 
 ---
 
@@ -173,10 +173,7 @@ Weitere Informationen über die Vorschau einer E-Mail und das Senden von Testsen
 
    ![Screenshot mit der E-Mail-Vorschau basierend auf ausgewählten Profilen](assets/preview.png){zoomable="yes"}
 
-   <!--
-Darüber hinaus ermöglicht die Schaltfläche **[!UICONTROL E-Mail rendern]** die Vorschau der E-Mail mit mehreren Geräten oder E-Mail-Anbietern. Erfahren Sie, wie Sie das E-Mail-Rendering in der Vorschau anzeigen
-
-—>
+   <!--Additionally, the **[!UICONTROL Render email]** button allows you to preview the email using multiple devices or mail providers. Learn on how to preview email rendering-->
 
 1. Klicken Sie zum Senden von Testsendungen auf die Schaltfläche **[!UICONTROL Testsendungen senden]** und wählen Sie dann den gewünschten Modus aus.
 

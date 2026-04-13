@@ -3,9 +3,8 @@ audience: end-user
 title: Beispiele für Abfragen
 description: So arbeiten Sie mit dem Abfrage-Modeler.
 hide: true
-hidefromtoc: true
 exl-id: 6f8154ea-5d64-4950-9da3-427070ec7bf0
-source-git-commit: eccd1ce6f95682d3dcfc224061f747f7da0b6681
+source-git-commit: 464be736082dfd895954388d879a9244d06824c9
 workflow-type: tm+mt
 source-wordcount: '179'
 ht-degree: 100%
@@ -33,4 +32,4 @@ ht-degree: 100%
 
 * Senden Sie einen Folgeversand.
 
-  Ein „Sommersport-Angebot“ wird versendet. Vier Tage nach dem Versand werden zwei weitere Sendungen gesendet. Eine davon ist ein „Wassersport-Angebot“, die andere ist ein Folgeversand für das erste Sommersport-Angebot. Der Versand „Wassersport-Angebot“ richtet sich an Empfängerinnen und Empfänger, die im ersten Versand auf den Link zum Thema Wassersport geklickt haben. Diese Klicks zeugen vom Interesse der Person, sodass ähnliche Angebote ebenfalls für sie infrage kommen könnten. Empfängerinnen und Empfänger hingegen, die im „Sommersport-Angebot“ nicht darauf geklickt haben, bekommen dieselben Angebote wie zuvor.
+  Ein „Sommersport-Angebot“ wird versendet. Vier Tage nach dem Versand werden zwei weitere Sendungen gesendet. Eine davon ist ein „Wassersport-Angebot“, die andere ist ein Folgeversand für das erste Sommersport-Angebot. Der Versand &quot;Wassersport-Angebote&quot; richtet sich an Empfänger, die in der ersten E-Mail auf Inhalte zum Thema Wassersport geklickt haben. Diese Klicks zeugen vom Interesse der Empfänger. Ähnliche Angebote könnten daher ebenfalls für diese Interessenten infrage kommen. Empfänger hingegen, die die &quot;Sommersport-Angebote&quot;-E-Mail nicht angeklickt haben, bekommen dieselben Angebote wie zuvor.

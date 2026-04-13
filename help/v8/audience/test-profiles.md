@@ -102,7 +102,7 @@ You do not need to enter all fields of each tab when creating a seed address. Mi
 
    Stellen Sie sicher, dass in der Workflow-Aktivität **[!UICONTROL Anreicherung]** zusätzliche Zielgruppendaten mit einem Alias definiert wurden, der mit „@“ beginnt. Andernfalls können Sie sie in der Versandaktivität nicht ordnungsgemäß mit Ihren Testadressen verwenden. [Weitere Informationen zur Aktivität „Anreicherung“](../workflows/activities/enrichment.md)
 
-1. Klicken Sie auf die Schaltfläche **[!UICONTROL Speichern]**.
+1. Wählen Sie die Schaltfläche **[!UICONTROL Speichern]** aus.
 
 Das soeben erstellte Testprofil kann jetzt zur Durchführung einer Testsendung verwendet werden. [Weitere Informationen](../preview-test/test-deliveries.md#test-profiles)
 

@@ -31,7 +31,7 @@ Eine Vorlage enthält:
 * benutzerdefinierte [Inhalte](../email/edit-content.md),
 * [personalisierte Felder](../personalization/personalize.md) und [bedingte Inhalte](../personalization/conditions.md),
 * Links zur [Mirrorseite](../email/mirror-page.md) und [Links](../email/message-tracking.md) zur Abmeldung,
-* Andere Versandeigenschaften, z. B. die Gültigkeit der Ressource, die Parameter für erneute Zustellversuche oder die Quarantäneeinstellungen.
+* Andere Versandeigenschaften, z. B. die Gültigkeit der Ressource, die Parameter für erneute Versuche oder die Quarantäneeinstellungen.
 
 >[!NOTE]
 >

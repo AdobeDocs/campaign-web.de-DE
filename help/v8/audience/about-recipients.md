@@ -4,8 +4,8 @@ description: Erfahren Sie, wie Sie Profile in Adobe Campaign Web überwachen und
 exl-id: 0b28741a-28f6-4f46-8c4c-820c5036aeda
 source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '439'
+ht-degree: 100%
 
 ---
 

@@ -24,7 +24,7 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="acw_directmail_properties_content"
->title="Inhalt"
+>title="Content"
 >abstract="In diesem Abschnitt werden die Spalten angegeben, die in der Extraktionsdatei angezeigt werden sollen. Danach kann die Extraktionsdatei mithilfe der Schaltfläche **Inhalt simulieren** in der Vorschau angezeigt werden."
 
 Um den Inhalt der durch Ihren Briefpostversand generierten Extraktionsdatei zu gestalten, klicken Sie auf Ihrer Versandseite auf die Schaltfläche **[!UICONTROL Inhalt bearbeiten]** und konfigurieren Sie dann die Dateieigenschaften und den Inhalt.
