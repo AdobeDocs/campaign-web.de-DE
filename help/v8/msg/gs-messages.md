@@ -1,19 +1,19 @@
 ---
 audience: end-user
 title: Erste Schritte mit Nachrichten und Sendungen in Adobe Campaign Web
-description: Erfahren Sie, wie Sie Campaign Web verwenden, um mit Sendungen zu arbeiten und Nachrichten zu senden
+description: Erfahren Sie, wie Sie mit Sendungen arbeiten und Nachrichten über die Web-Benutzeroberfläche von Adobe Campaign senden.
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: eccd1ce6f95682d3dcfc224061f747f7da0b6681
+source-git-commit: c0e5809611c81684ba951b1f1fc8723e809a9573
 workflow-type: tm+mt
-source-wordcount: '163'
-ht-degree: 100%
+source-wordcount: '170'
+ht-degree: 75%
 
 ---
 
 
 # Erste Schritte mit Nachrichten{#gs-messages}
 
-Mit Adobe Campaign können Sie kanalübergreifende Kampagnen, einschließlich E-Mails, SMS und Push-Benachrichtigungen, senden und deren Wirkung mithilfe verschiedener dedizierter Berichte messen.
+Mit Adobe Campaign können Sie Cross-Channel-Kampagnen wie E-Mails, SMS, Push-Benachrichtigungen, [WhatsApp](../whatsapp/get-started-whatsapp.md) und Briefpost senden und ihre Wirkung mithilfe verschiedener dedizierter Berichte messen.
 
 Diese Nachrichten werden mittels Sendungen entworfen und gesendet und können für alle Empfangenden personalisiert werden. Diese Sendungen können einzeln oder im Rahmen einer Marketing-Kampagne durch Workflows durchgeführt werden. In [diesem Abschnitt](gs-deliveries.md) erfahren Sie, wie Sie Sendungen in Adobe Campaign erstellen und verwalten.
 
