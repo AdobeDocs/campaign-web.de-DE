@@ -4,8 +4,8 @@ description: Erfahren Sie, wie Sie mit Schemata arbeiten.
 exl-id: 1433a441-1673-45a2-9fec-be9550fbba0d
 source-git-commit: 9b51dc84a5b6954c973e1560aad877ef770eb8f9
 workflow-type: tm+mt
-source-wordcount: '298'
-ht-degree: 39%
+source-wordcount: '319'
+ht-degree: 56%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 39%
 >[!CONTEXTUALHELP]
 >id="acw_schema"
 >title="Schemata"
->abstract="Adobe Campaign verwendet XML-basierte Schemata, um die physische und logische Struktur von Daten innerhalb des Programms zu definieren. Auf diesem Bildschirm können Sie alle vorhandenen Schemata anzeigen, auf Schemadetails zugreifen, benutzerdefinierte Formulare konfigurieren und Schemata direkt über die Web-Benutzeroberfläche erstellen oder erweitern."
+>abstract="Adobe Campaign verwendet XML-basierte Schemata, um die physische und logische Struktur von Daten innerhalb der Anwendung zu definieren. Auf diesem Bildschirm können Sie alle vorhandenen Schemata anzeigen, auf Schemadetails zugreifen, benutzerdefinierte Formulare konfigurieren und Schemata direkt über die Web-Benutzeroberfläche erstellen oder erweitern."
 
-**[!DNL Adobe Campaign]** verwendet XML-basierte Schemata, um die physische und logische Struktur von Daten innerhalb der Anwendung zu definieren. Ein Schema ist ein mit einer Datenbanktabelle verknüpftes XML-Dokument, mit dem folgende Aspekte definiert werden: 
+**[!DNL Adobe Campaign]** verwendet XML-basierte Schemata, um die physische und logische Struktur von Daten innerhalb der Anwendung zu definieren. Ein Schema ist ein mit einer Datenbanktabelle verknüpftes XML-Dokument, mit dem folgende Aspekte definiert werden:
 
 * die SQL-Tabellenstruktur, wie Tabellenname, Felder und Beziehungen
 * die XML-Datenstruktur, wie Elemente, Attribute, Hierarchie, Typen, Standardwerte und Label

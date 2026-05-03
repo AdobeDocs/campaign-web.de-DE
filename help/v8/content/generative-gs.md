@@ -5,8 +5,8 @@ description: Erste Schritte mit dem KI-Assistenten
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
 source-git-commit: dbaf192b6d5200d8606859a1a09972df6bb3c26b
 workflow-type: tm+mt
-source-wordcount: '828'
-ht-degree: 83%
+source-wordcount: '887'
+ht-degree: 84%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 83%
 >[!CONTEXTUALHELP]
 >id="acw_emagica_generate"
 >title="Bedingungen der generativen KI in Adobe"
->abstract="Der Zugriff auf diese Funktion ist abhängig von Ihrer Zustimmung zu den Benutzerrichtlinien für generative KI in Adobe Experience Cloud.  Alle Ausgaben dieser Funktion auf ihre Richtigkeit prüfen und sicherstellen, dass sie für den Anwendungsfall geeignet sind."
+>abstract="Der Zugriff auf diese Funktion ist abhängig von der Zustimmung zu den Benutzerrichtlinien für generative KI in Adobe Experience Cloud. Alle Ausgaben dieser Funktion auf ihre Richtigkeit prüfen und sicherstellen, dass sie für den Anwendungsfall geeignet sind."
 >additional-url="https://www.adobe.com/de/legal/licenses-terms/adobe-gen-ai-user-guidelines.html" text="Adobe Generative KI – Benutzungsrichtlinien"
 
 >[!INFO]
@@ -103,7 +103,7 @@ Im Folgenden sind die allgemeinen Richtlinien zur Verwendung des KI-Assistenten 
 
 * Die Qualität des generierten Inhalts wird stark durch das von Ihnen definierte Marketing-Ziel bzw. den von Ihnen definierten Prompt beeinflusst. Verwenden Sie einen gut definierten Prompt, den das GenAI-Modell genau interpretieren kann.
 * Laden Sie Marken-Assets hoch, um genaue, markenkonforme Inhalte sicherzustellen. Andernfalls basieren Inhalte auf öffentlich verfügbaren Informationen. Der hochgeladene Inhalt kann folgende Formate haben: PDF-, JPEG-, PNG- oder ZIP-Dateien (mit unterstützten Dateiformaten).
-* Die maximale Größe für hochgeladene Marken-Assets beträgt 50 MB.  Größere Dateien oder viele Bilder können die Verarbeitungszeit erhöhen.
+* Die maximale Größe für hochgeladene Marken-Assets beträgt 50 MB. Größere Dateien oder viele Bilder können die Verarbeitungszeit erhöhen.
 * Verwenden Sie [integrierte E-Mail-Vorlagen](../content/create-email-templates.md), markenspezifische Vorlagen oder benutzerdefinierte Vorlagen, um Ihre E-Mail-Inhalte mit dem KI-Assistenten zu erstellen. Es werden E-Mail-Vorlagen mit 8 bis 10 Bildern empfohlen.
 * Melden Sie problematische Ausgaben, indem Sie bei der Auswahl von Varianten die Symbole mit dem Daumen nach oben, dem Daumen nach unten oder andere Kennzeichnungssymbole verwenden.
 * Ihre Nutzung des KI-Assistenten unterliegt den Benutzerrichtlinien für generative KI in Adobe Experience Cloud. [Weitere Informationen](https://www.adobe.com/de/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html).
