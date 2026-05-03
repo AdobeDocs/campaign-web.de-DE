@@ -5,8 +5,8 @@ description: Informationen zum Erstellen einer Transaktionsnachricht in der Camp
 exl-id: 74e468f5-d9c3-4470-8ff2-68648b5f396f
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '1312'
-ht-degree: 100%
+source-wordcount: '1334'
+ht-degree: 99%
 
 ---
 
@@ -172,7 +172,7 @@ Gehen Sie wie folgt vor, um eine Transaktionsnachricht zu erstellen:
    * [Eigenschaften der Transaktionsnachricht](#transactional-properties)
    * [Kontextbeispiel](#context-sample)
    * [Nachrichteninhalt](#transactional-content)
-[Konfigurieren Sie dann den Ereignistyp](#event-type), wie unten beschrieben.
+und [Konfigurieren Sie den Ereignistyp](#event-type) wie unten beschrieben.
 
 * Klicken Sie nach der [Validierung Ihrer Transaktionsnachricht](validate-transactional.md) auf die Schaltfläche **[!UICONTROL Überprüfen und veröffentlichen]**, um Ihre Nachricht zu erstellen und zu veröffentlichen. Die Trigger können jetzt den Versand Ihrer Transaktionsnachricht per Push durchführen.
 
@@ -199,6 +199,6 @@ Sie können Angebote in Ihre Transaktionsnachrichten aufnehmen, damit Sie Ihren 
 
 Diese Funktion ist während der Inhaltsbearbeitung Ihrer Transaktionsnachricht verfügbar. Klicken Sie auf die Schaltfläche **[!UICONTROL Angebote einrichten]**, um sie zu konfigurieren.
 
-Der Einrichtungsprozess ist identisch mit dem Konfigurieren von Angeboten für Standardsendungen.  [Erfahren Sie, wie Sie Angebote zu Ihrer Nachricht hinzufügen](../msg/offers.md).
+Der Einrichtungsprozess ist identisch mit dem Konfigurieren von Angeboten für Standardsendungen. [Erfahren Sie, wie Sie Angebote zu Ihrer Nachricht hinzufügen](../msg/offers.md).
 
 ![Screenshot zur Einrichtung von Angeboten in Transaktionsnachrichten](assets/transactional-offers.png){zoomable="yes"}
