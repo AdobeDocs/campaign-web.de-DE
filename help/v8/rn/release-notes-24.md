@@ -1,10 +1,10 @@
 ---
-title: Frühere Versionshinweise zur Web-Benutzeroberfläche von Campaign v8
+title: Frühere Versionshinweise zur Web-Benutzeroberfläche von Campaign v8
 description: Versionen der Campaign-Web-Benutzeroberfläche 2024
 exl-id: 430dc1ba-dfa9-4d51-b4ed-f3f048da6ec0
 source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
-workflow-type: tm+mt
-source-wordcount: '2532'
+workflow-type: ht
+source-wordcount: '2612'
 ht-degree: 100%
 
 ---
@@ -48,7 +48,7 @@ Die folgenden Funktionen und Verbesserungen sind ab der Version Oktober verfügb
 <tbody>
 <tr>
 <td>
-<p>„Transaktionsnachricht (Message Center)“ ist jetzt in der Campaign Web-Benutzeroberfläche verfügbar.  Dieses Add-on dient dem Auslösen von Nachrichten, die durch Ereignisse erzeugt werden, die von Informationssystemen ausgelöst werden. Hierzu zählen u. a.: Rechnungen, Bestellbestätigungen, Versandbestätigungen, Passwortänderungen, Benachrichtigungen über die Nicht-Verfügbarkeit eines Produkts, Kontostandsinformationen oder die Erstellung eines Website-Kontos.</p>
+<p>„Transaktionsnachricht (Message Center)“ ist jetzt in der Campaign Web-Benutzeroberfläche verfügbar. Dieses Add-on dient dem Auslösen von Nachrichten, die durch Ereignisse erzeugt werden, die von Informationssystemen ausgelöst werden. Hierzu zählen u. a.: Rechnungen, Bestellbestätigungen, Versandbestätigungen, Passwortänderungen, Benachrichtigungen über die Nicht-Verfügbarkeit eines Produkts, Kontostandsinformationen oder die Erstellung eines Website-Kontos.</p>
 <p>Weitere Informationen finden Sie im <a href="../transactional-messaging/transactional.md">entsprechenden Handbuch</a>.</p>
 </td>
 </tr>
@@ -147,7 +147,7 @@ Es stehen zwei Arten von Fragmenten zur Verfügung:
 
 ### Trap-Gruppe {#24-7-2}
 
-Eine **Trap-Gruppe** ist eine Liste von Testadressen. Sie wird verwendet, um bestimmte Adressen in Ihre Sendungen einzubeziehen und dann Profile auszuwählen, die nicht den definierten Zielgruppenkriterien entsprechen. Auf diese Weise können Empfängerinnen und Empfänger, die außerhalb der Versandzielgruppe liegen, die Nachricht ebenso wie jede andere Person innerhalb der Zielgruppe erhalten.  Sie können Testadressen beim Versand von Testsendungen oder zum Schutz Ihrer Mailing-Liste verwenden. [Weitere Informationen](../audience/trap-group.md)
+Eine **Trap-Gruppe** ist eine Liste von Testadressen. Sie wird verwendet, um bestimmte Adressen in Ihre Sendungen einzubeziehen und dann Profile auszuwählen, die nicht den definierten Zielgruppenkriterien entsprechen. Auf diese Weise können Empfängerinnen und Empfänger, die außerhalb der Versandzielgruppe liegen, die Nachricht ebenso wie jede andere Person innerhalb der Zielgruppe erhalten. Sie können Testadressen beim Versand von Testsendungen oder zum Schutz Ihrer Mailing-Liste verwenden. [Weitere Informationen](../audience/trap-group.md)
 
 ### Vorlagen für Rich-Push-Benachrichtigungen {#24-7-3}
 
@@ -187,7 +187,7 @@ Sie können jetzt Pläne und Programme zur Organisation Ihrer Kampagnen erstelle
 
 * **Versandwarnungen**
 
-Bei der Funktion „Versandwarnungen“ handelt es sich um ein System zum Warnungs-Management, über das eine Benutzergruppe automatisch Benachrichtigungen zu ihren Sendungen erhält.  [Mehr dazu](../msg/delivery-alerting.md)
+Bei der Funktion „Versandwarnungen“ handelt es sich um ein System zum Warnungs-Management, über das eine Benutzergruppe automatisch Benachrichtigungen zu ihren Sendungen erhält. [Mehr dazu](../msg/delivery-alerting.md)
 
 
 ## Versionshinweise für Mai {#24-5-release}
@@ -234,7 +234,7 @@ Die folgenden Funktionen stehen allen Benutzenden ab der April-Version zur Verf�
 * **Test**: Verwenden Sie diese Aktivität, um Transitionen auf der Basis der angegebenen Bedingungen zu aktivieren. [Mehr dazu](../workflows/activities/test.md)
 * **JavaScript-Code**: Verwenden Sie diese Aktivität, um ein JavaScript-Code-Snippet im Kontext eines Workflows auszuführen. [Mehr dazu](../workflows/activities/javascript-code.md)
 * **Externes Signal**: Verwenden Sie diese Aktivität, um die Ausführung eines Workflows über einen anderen Workflow oder einen API-Aufruf auszulösen. [Mehr dazu](../workflows/activities/external-signal.md)
-* **Inkrementelle Abfrage**: Verwenden Sie diese Aktivität, um die Datenbank planmäßig abzufragen. Bei jeder neuen Ausführung dieser Aktivität werden die Ergebnisse der vorangehenden Ausführungen ausgeschlossen. Dadurch ist es möglich, ausschließlich neue Elemente einzubeziehen. [Mehr dazu](../workflows/activities/incremental-query.md)
+* **Inkrementelle Abfrage**: Verwenden Sie diese Aktivität, um die Datenbank planmäßig abzufragen. Bei jeder neuen Ausführung dieser Aktivität werden die Ergebnisse der vorangehenden Ausführungen ausgeschlossen. Dadurch lassen sich ausschließlich neue Elemente abrufen. [Mehr dazu](../workflows/activities/incremental-query.md)
 
 **Vorlagen für Rich-Push-Benachrichtigungen**
 
@@ -296,10 +296,10 @@ Mit der Targeting-Aktivität **Datenquelle ändern** können Sie die Datenquelle
 
 ### Verbesserung der Workflow-Aktivität „Aufspaltung“ {#24-3-split}
 
-Sie können nun die Option **Alle Teilmengen in derselben Tabelle erzeugen** in der Workflow-Aktivität **Aufspaltung** verwenden, um alle Teilmengen in einer einzigen ausgehenden Transition zu gruppieren. 
+Sie können nun die Option **Alle Teilmengen in derselben Tabelle erzeugen** in der Workflow-Aktivität **Aufspaltung** verwenden, um alle Teilmengen in einer einzigen ausgehenden Transition zu gruppieren.
 
 ### Abfrage-Modeler {#24-3-query-modeler}
 
-* Das Abfragemodell ist jetzt im E-Mail-Designer verfügbar. Damit können Sie Bedingungen beim Erstellen bedingter Inhalte festlegen. 
-* Beim Erstellen einer benutzerdefinierten Bedingung sind jetzt vordefinierte Werte für Attribute vom Typ „Datum“ verfügbar. 
-* Operatoren können nicht mehr zu einer neuen Transition im Diagramm hinzugefügt werden. Sie können nur für eine vorhandene Transition hinzugefügt werden, bevor Komponenten gefiltert werden, um sie zusammen zu gruppieren. 
+* Das Abfragemodell ist jetzt im E-Mail-Designer verfügbar. Damit können Sie Bedingungen beim Erstellen bedingter Inhalte festlegen.
+* Beim Erstellen einer benutzerdefinierten Bedingung sind jetzt vordefinierte Werte für Attribute vom Typ „Datum“ verfügbar.
+* Operatoren können nicht mehr zu einer neuen Transition im Diagramm hinzugefügt werden. Sie können nur für eine vorhandene Transition hinzugefügt werden, bevor Komponenten gefiltert werden, um sie zusammen zu gruppieren.

@@ -1,10 +1,10 @@
 ---
-title: Frühere Versionshinweise zur Web-Benutzeroberfläche von Campaign v8
+title: Frühere Versionshinweise zur Web-Benutzeroberfläche von Campaign v8
 description: Versionen der Campaign-Web-Benutzeroberfläche 2025
 exl-id: eecb4b18-4826-47a6-88b2-f2ed7b576d3e
 source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
-workflow-type: tm+mt
-source-wordcount: '3052'
+workflow-type: ht
+source-wordcount: '3136'
 ht-degree: 100%
 
 ---
@@ -288,7 +288,7 @@ Diese Version enthält eine Reihe von Fehlerbehebungen, einschließlich:
 
 * Der Prozess zum Duplizieren von Profilen wurde verbessert, um ihn an das Verhalten der Client-Konsole anzupassen und ein konsistentes Erlebnis über beide Oberflächen hinweg sicherzustellen. Dies behebt ein Problem, das die Erstellung duplizierter Profile verhindern konnte.
 
-* Die Option **[!UICONTROL E-Mail-BCC]** auf dem Bildschirm für Versandkonfiguration funktioniert jetzt mit Momentum (Erweiterter MTA). Diese Funktion war zuvor nur in der Client-Konsole verfügbar. 
+* Die Option **[!UICONTROL E-Mail-BCC]** auf dem Bildschirm für Versandkonfiguration funktioniert jetzt mit Momentum (Erweiterter MTA). Diese Funktion war zuvor nur in der Client-Konsole verfügbar.
 
 ## Version Juli 2025 {#25-7-release}
 
@@ -376,7 +376,7 @@ table>
 <tbody>
 <tr>
 <td>
-<p>Bei der Funktion „Versandwarnungen“ handelt es sich um ein System zum Warnungs-Management, über das eine Benutzergruppe automatisch Benachrichtigungen zu ihren Sendungen erhält. </p>
+<p>Bei der Funktion „Versandwarnungen“ handelt es sich um ein System zum Warnungs-Management, über das eine Benutzergruppe automatisch Benachrichtigungen zu ihren Sendungen erhält.</p>
 <p>Weitere Informationen finden Sie im <a href="../msg/delivery-alerting.md">entsprechenden Handbuch</a>.</p>
 </td>
 </tr>

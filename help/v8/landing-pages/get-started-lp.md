@@ -5,9 +5,9 @@ description: Informationen zu Landingpages in Campaign Web
 feature: Landing Pages
 exl-id: edd313a3-93f4-4596-8dd6-dfc2bc3db21b
 source-git-commit: 5791677fbbb21591efecff7689495f405dc341a3
-workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 95%
+workflow-type: ht
+source-wordcount: '268'
+ht-degree: 100%
 
 ---
 
@@ -65,7 +65,7 @@ Die wichtigsten Funktionen von Landingpages sind unten aufgeführt:
 <img alt="Anwendungsfälle und integrierte Vorlagen für Landingpages" src="../assets/do-not-localize/lp-reporting.jpg">
 </a>
 <div>
-<a href="lp-use-cases.md"><strong>Anwendungsfälle für Landingpages</strong></a>
+<a href="lp-use-cases.md"><strong>Landingpage – Anwendungsfälle</strong></a>
 </div>
 <p>
 </td>
