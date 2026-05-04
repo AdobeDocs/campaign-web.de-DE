@@ -3,9 +3,9 @@ title: Häufig gestellte Fragen
 description: Häufig gestellte Fragen zur Campaign Web-Benutzeroberfläche
 exl-id: 332db61b-a82d-4bca-a2f5-51557f06120c
 source-git-commit: 94926311c3e3c512e48f5af4a5bedeb3f218cbcd
-workflow-type: tm+mt
-source-wordcount: '780'
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: '865'
+ht-degree: 100%
 
 ---
 
@@ -59,13 +59,13 @@ Um auf die neue Benutzeroberfläche zugreifen zu können, müssen Sie Adobe Camp
 
 +++ Bedeutet dies, dass die Unterstützung für Adobe Campaign Classic v7 eingestellt wird?
 
-Besuchen Sie die [Produkte und Zeiträume für technischen &#x200B;](https://helpx.adobe.com/de/support/programs/eol-matrix.html){target="_blank"}&quot;, um das Ende der Unterstützung für Adobe Campaign Classic v7 anzuzeigen.
+Rufen Sie die Seite [Produkte und Zeiträume für technischen Support](https://helpx.adobe.com/de/support/programs/eol-matrix.html){target="_blank"} auf, um sich über das Ende der Unterstützung für Adobe Campaign Classic v7 zu informieren.
 
 +++
 
 +++ Ich nutze derzeit Adobe Campaign Standard. Wie kann ich auf die neue Benutzeroberfläche zugreifen?
 
-Um auf die neue Benutzeroberfläche zugreifen zu können, müssen Sie Adobe Campaign v8.6 verwenden. Der erste Schritt besteht darin, sich eine Lizenz für Managed Cloud Service Advanced oder Enterprise SKUs zu beschaffen. Setzen Sie sich dazu mit Ihrer Adobe-Kontaktperson in Verbindung. Wenn Sie bereits Managed Cloud Service Advanced oder Enterprise verwenden, wenden Sie sich an die für das Transition-Management zuständige Person, um den Wechsel zu v8 zu planen. Weitere Informationen finden Sie im entsprechenden [Einführungsleitfaden](../../adoption/home.md).
+Um auf die neue Benutzeroberfläche zugreifen zu können, müssen Sie Adobe Campaign v8.6 verwenden. Der erste Schritt besteht darin, eine Lizenz für Managed Cloud Services Advanced oder Enterprise SKUs zu erwerben. Setzen Sie sich dazu mit Ihrer Adobe-Kontaktperson in Verbindung. Wenn Sie bereits Managed Cloud Service Advanced oder Enterprise verwenden, wenden Sie sich an die für das Transition-Management zuständige Person, um den Wechsel zu v8 zu planen. Weitere Informationen finden Sie im entsprechenden [Einführungsleitfaden](../../adoption/home.md).
 
 +++
 

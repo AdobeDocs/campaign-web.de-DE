@@ -1,19 +1,19 @@
 ---
 audience: end-user
 title: Erste Schritte mit Nachrichten und Sendungen in Adobe Campaign Web
-description: Erfahren Sie, wie Sie mit Sendungen arbeiten und Nachrichten über die Web-Benutzeroberfläche von Adobe Campaign senden.
+description: Erfahren Sie, wie Sie die Benutzeroberfläche von Adobe Campaign Web verwenden, um mit Sendungen zu arbeiten und Nachrichten zu senden
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
 source-git-commit: c0e5809611c81684ba951b1f1fc8723e809a9573
-workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 75%
+workflow-type: ht
+source-wordcount: '172'
+ht-degree: 100%
 
 ---
 
 
 # Erste Schritte mit Nachrichten{#gs-messages}
 
-Mit Adobe Campaign können Sie Cross-Channel-Kampagnen wie E-Mails, SMS, Push-Benachrichtigungen, [WhatsApp](../whatsapp/get-started-whatsapp.md) und Briefpost senden und ihre Wirkung mithilfe verschiedener dedizierter Berichte messen.
+Mit Adobe Campaign können Sie kanalübergreifende Kampagnen versenden, darunter E-Mails, SMS, Push-Benachrichtigungen, [WhatsApp](../whatsapp/get-started-whatsapp.md) und Briefpost, und deren Wirkung mithilfe verschiedener dedizierter Berichte messen.
 
 Diese Nachrichten werden mittels Sendungen entworfen und gesendet und können für alle Empfangenden personalisiert werden. Diese Sendungen können einzeln oder im Rahmen einer Marketing-Kampagne durch Workflows durchgeführt werden. In [diesem Abschnitt](gs-deliveries.md) erfahren Sie, wie Sie Sendungen in Adobe Campaign erstellen und verwalten.
 
@@ -52,10 +52,10 @@ In den folgenden Abschnitten erfahren Sie, wie Nachrichten erstellt und gesendet
     </td>
     <td align="center">
     <a href="../direct-mail/gs-direct-mail.md">
-      <img alt="Abschnitt „Erstellen von Direkt-Mail-Nachrichten“" src="assets/do-not-localize/direct-mail.jpg">
+      <img alt="Abschnitt „Erstellen von Briefpost-Nachrichten“" src="assets/do-not-localize/direct-mail.jpg">
     </a>
     <div>
-    <a href="../direct-mail/gs-direct-mail.md"><strong>Erstellen von Direkt-Mail-Nachrichten</strong></a>
+    <a href="../direct-mail/gs-direct-mail.md"><strong>Erstellen von Briefpost-Nachrichten</strong></a>
     </div>
     <p>
     </td>

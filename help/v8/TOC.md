@@ -6,9 +6,9 @@ title: Dokumentation zu Adobe Campaign Web
 description: Dokumentation zu Campaign Web
 breadcrumb-title: Campaign Web-Benutzeroberfläche
 source-git-commit: f0c22710efcda2f59f75ea26cf239d549ff34f96
-workflow-type: tm+mt
-source-wordcount: '1014'
-ht-degree: 95%
+workflow-type: ht
+source-wordcount: '1027'
+ht-degree: 100%
 
 ---
 
@@ -18,10 +18,10 @@ ht-degree: 95%
 + [Dokumentation zur Adobe Campaign Web-Benutzeroberfläche](campaign-web-home.md)
 + Versionshinweise {#release-notes}
    + [Neue Funktionen](rn/whats-new.md)
-   + {hide-from-toc}[Frühzeitige Veröffentlichung](rn/e-release-notes.md)
+   + {hide-from-toc}[Vorzeitige Veröffentlichung](rn/e-release-notes.md)
    + [Aktuelle Version](rn/release-notes.md)
    + Frühere Versionen {#previous-release-notes}
-      + [Versionen 2026](rn/release-notes-26.md)
+      + [Versionen 2026](rn/release-notes-26.md)
       + [Versionen 2025](rn/release-notes-25.md)
       + [Versionen 2024](rn/release-notes-24.md)
    + {hide-from-toc}[Aktualisierungen der Dokumentation](rn/documentation-updates.md)
@@ -36,7 +36,7 @@ ht-degree: 95%
    + [Berechtigungen](get-started/permissions.md)
    + [Campaign Web und Client-Konsole](get-started/capability-matrix.md)
    + [Wechsel von Campaign Standard zu v8](rn/acs-migration.md)
-   + {hide-from-toc}[KI-gestützte kontextuelle Hilfe](get-started/using-ai.md)
+   + {hide-from-toc}[KI-gestützte Kontexthilfe](get-started/using-ai.md)
    + [Häufig gestellte Fragen](get-started/faq.md)
 + Nachrichten und Sendungen {#msg}
    + [Erste Schritte mit Nachrichten](msg/gs-messages.md)
@@ -52,7 +52,7 @@ ht-degree: 95%
          + [Versenden in mehreren Schüben](advanced-settings/send-using-waves.md)
          + [Überwachen von Versandlogs](monitor/delivery-logs.md)
          + [Planen des Sendevorgangs eines Versands](monitor/schedule-sending.md)
-   + Push-Benachrichtigungen  {#push}
+   + Push-Benachrichtigungen {#push}
       + [Erste Schritte mit Push-Benachrichtigungen](push/gs-push.md)
       + [Erstellen eines Push-Benachrichtigungs-Versands](push/create-push.md)
       + Rich-Push {#rich-push}
@@ -95,14 +95,14 @@ ht-degree: 95%
    + Versandwarnung {#delivery-alerting}
       + [Erste Schritte mit Versandwarnungen](msg/delivery-alerting.md)
       + [Versandwarnungs-Dashboards](msg/delivery-alerting-dashboards.md)
-      + [Versandwarnungsbedingungen        &#x200B;](msg/delivery-alerting-criteria.md)
+      + [Versandwarnungsbedingungen](msg/delivery-alerting-criteria.md)
 + Content-Management {#content}
    + Erstellen dynamischer Inhalte {#dynamic-content}
       + [Wie lässt sich der Inhalt dynamisch gestalten?](personalization/gs-personalization.md)
       + [Hinzufügen von Personalisierung](personalization/personalize.md)
       + [Erstellen bedingter Inhalte](personalization/conditions.md)
    + Wiederverwenden von Inhalten {#manage-reusable-content}
-      + Inhaltsvorlagen  {#content-templates}
+      + Inhaltsvorlagen {#content-templates}
          + [Arbeiten mit Inhaltsvorlagen](content/create-email-templates.md)
          + [Verwenden von E-Mail-Inhaltsvorlagen](content/use-email-templates.md)
          + [Sperren von Inhalten in E-Mail-Vorlagen](content/content-locking.md)
@@ -144,17 +144,17 @@ ht-degree: 95%
          + [Erstellen und Verwalten von Marken](content/brands.md)
          + [Personalisieren Ihrer Marke](content/brands-personalize.md)
          + [Erstellen und Verwalten generativer Modelle](content/generative-models.md)
-         + [Inhalt auswerten](content/brands-score.md)
+         + [Auswerten Ihrer Inhalte](content/brands-score.md)
 + Landingpages {#landing-pages}
    + [Erste Schritte mit Landingpages](landing-pages/get-started-lp.md)
    + [Erstellen und Veröffentlichen einer Landingpage](landing-pages/create-lp.md)
    + [Entwerfen von Inhalten für eine Landingpage](landing-pages/lp-content.md)
    + [Lernen durch Anwendungsfälle](landing-pages/lp-use-cases.md)
-+ Profile und Zielgruppen  {#audiences}
++ Profile und Zielgruppen {#audiences}
    + [Erste Schritte mit Profilen und Zielgruppen](audience/gs-audiences-recipients.md)
    + [Zielgruppendimensionen](audience/targeting-dimensions.md)
    + [Quarantäne](audience/quarantine.md)
-   + Arbeiten mit Profilen  {#work-with-profiles}
+   + Arbeiten mit Profilen {#work-with-profiles}
       + [Erste Schritte mit Profilen](audience/about-recipients.md)
       + [Entdecken der Details von Profilen](audience/profile-view.md)
       + [Erstellen eines Profils](audience/create-profile.md)
@@ -294,8 +294,8 @@ ht-degree: 95%
       + [Hinzufügen von Sammlungslisten](administration/schemas-collection-lists.md)
       + [Erstellen und Veröffentlichen von Schemata](administration/schemas-create-publish.md)
       + [Arbeiten mit benutzerdefinierten Formularen](administration/schemas-custom-forms.md)
-   + {hide-from-toc}[Benutzerdefinierte Felder konfigurieren](administration/custom-fields.md)
-   + [Konfigurieren von Optionen in [!DNL Campaign] &#x200B;](administration/options.md)
+   + {hide-from-toc}[Konfigurieren benutzerdefinierter Felder](administration/custom-fields.md)
+   + [Konfigurieren von Optionen in [!DNL Campaign] ](administration/options.md)
    + [Zeitzonenverwaltung](administration/timezone-management.md)
    + Externe Konten {#external-accounts}
       + [Erstellen externer Konten](administration/create-external-account.md)
