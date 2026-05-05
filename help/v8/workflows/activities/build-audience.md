@@ -3,10 +3,10 @@ audience: end-user
 title: Verwenden der Workflow-Aktivität „Zielgruppe erstellen“
 description: Erfahren Sie, wie Sie die Workflow-Aktivität „Zielgruppe erstellen“ verwenden.
 exl-id: c07bb025-51b7-428e-ba00-cd552f0db9d4
-source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
+source-git-commit: b995e3c16d6f21852f565c504e3cc4709555943c
 workflow-type: tm+mt
-source-wordcount: '454'
-ht-degree: 100%
+source-wordcount: '514'
+ht-degree: 88%
 
 ---
 
@@ -60,6 +60,7 @@ Gehen Sie wie folgt vor, um Ihre eigene Abfrage zu erstellen:
 1. Wählen Sie die **Filterdimension** aus, indem Sie auf das Symbol neben der Zielgruppendimension klicken. Mit der Filterdimension können Sie Filter auf die Zielpopulation anwenden, indem Sie auf zugehörige Kriterien verweisen, ohne die Hauptzielgruppendimension zu ändern. [Erfahren Sie mehr über Zielgruppendimensionen](../../audience/targeting-dimensions.md#filtering)
 1. Bestätigen Sie die Angaben mit der Schaltfläche **Fortfahren**.
 1. Verwenden Sie den Abfrage-Modeler, um Ihre Abfrage zu definieren, genauso wie Sie eine Zielgruppe beim Entwerfen einer neuen E-Mail erstellen. [Erfahren sie mehr über die Arbeit mit dem Abfrage-Modeler](../../query/query-modeler-overview.md)
+1. Im Abschnitt **Anreicherungsdaten** können Sie die Zielgruppendaten um zusätzliche Informationen aus der Datenbank erweitern, z. B. Vertragsverweise oder Newsletter-Abonnements. Diese Daten werden mit der Audience in der Workflow-**Arbeitstabelle** gespeichert und stehen für folgende Aktivitäten zur Verfügung. Sie können einzelne Anreicherungsattribute, Sammlungslinks oder Ausdrücke hinzufügen. Ausführliche Anweisungen und Beispiele finden Sie unter [Anreicherungsdaten hinzufügen](enrichment.md#enrichment-add).
 
 >[!TAB Zielgruppe lesen]
 

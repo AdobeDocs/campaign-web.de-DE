@@ -3,10 +3,10 @@ audience: end-user
 title: Verwendung der Workflow-Aktivität „Anreicherung“
 description: Erfahren Sie, wie Sie die Workflow-Aktivität „Anreicherung“ verwenden.
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
-source-git-commit: 0e48f27982368b00a29a64b7dbcb0b6be965efd2
+source-git-commit: b995e3c16d6f21852f565c504e3cc4709555943c
 workflow-type: tm+mt
-source-wordcount: '2043'
-ht-degree: 100%
+source-wordcount: '2064'
+ht-degree: 99%
 
 ---
 
@@ -20,6 +20,10 @@ ht-degree: 100%
 
 Die Aktivität der **Anreicherung** ist eine **Zielgruppenbestimmungs-Aktivität**. Sie erweitert die Zielgruppendaten um zusätzliche Informationen aus der Datenbank. Sie wird in einem Workflow häufig nach den Segmentierungsaktivitäten verwendet.
 
+>[!NOTE]
+>
+>Mit **Aktivität „Zielgruppe**&quot; können Sie auch **zusätzliche Daten“**. Siehe [Verwenden der Aktivität „Zielgruppe aufbauen](build-audience.md#build-audience-configuration).
+
 Anreicherungsdaten können verschiedene Ursprünge haben:
 
 * **Dieselbe Arbeitstabelle** wie die Zielgruppe in Ihrem Workflow:
@@ -30,7 +34,7 @@ Anreicherungsdaten können verschiedene Ursprünge haben:
 
 Nachdem die Anreicherungsdaten dem Workflow hinzugefügt wurden, können sie in nachfolgenden Aktivitäten verwendet werden, um Kundinnen und Kunden basierend auf ihren Verhaltensweisen, Vorlieben und Bedürfnissen in unterschiedliche Gruppen zu segmentieren. Sie können auch zur Erstellung personalisierter Marketing-Nachrichten und -Kampagnen verwendet werden, die bei Ihrer Zielgruppe Anklang finden.
 
-Sie können beispielsweise der Workflow-Tabelle Informationen zu Käufen von Kundinnen und Kunden hinzufügen und diese Daten verwenden, um E-Mails mit ihrem neuesten Kauf oder dem für diese Käufe ausgegebenen Betrag zu personalisieren. 
+Sie können beispielsweise der Workflow-Tabelle Informationen zu Käufen von Kundinnen und Kunden hinzufügen und diese Daten verwenden, um E-Mails mit ihrem neuesten Kauf oder dem für diese Käufe ausgegebenen Betrag zu personalisieren.
 
 ## Hinzufügen einer Anreicherungsaktivität {#enrichment-configuration}
 
@@ -130,7 +134,7 @@ Führen Sie die Schritte zum Konfigurieren einer **Anreicherungsaktivität** mit
      >
      >Sie können eine oder mehrere Bedingungen für **Einfacher Join** verwenden. In diesem Fall müssen alle Bedingungen überprüft werden, damit die Daten miteinander verknüpft werden können.
 
-   * **Erweiterter Join**: Konfigurieren Sie die Abstimmbedingungen mithilfe des Abfrage-Modelers.  Klicken Sie dazu auf die Schaltfläche **Bedingung erstellen** und definieren Sie dann Ihre Abstimmbedingungen, indem Sie Ihre eigene Regel mithilfe von UND- und ODER-Operationen erstellen.
+   * **Erweiterter Join**: Konfigurieren Sie die Abstimmbedingungen mithilfe des Abfrage-Modelers. Klicken Sie dazu auf die Schaltfläche **Bedingung erstellen** und definieren Sie dann Ihre Abstimmbedingungen, indem Sie Ihre eigene Regel mithilfe von UND- und ODER-Operationen erstellen.
 
 Das folgende Beispiel zeigt einen Workflow zum Erstellen eines Links zwischen der Empfängertabelle der Adobe Campaign-Datenbank und einer temporären Tabelle, die durch die Aktivität **Datei laden** generiert wurde. In diesem Beispiel stimmt die Anreicherungsaktivität beide Tabellen unter Verwendung der E-Mail-Adresse als Abstimmbedingung miteinander ab.
 
