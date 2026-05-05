@@ -2,9 +2,9 @@
 title: Schutzmechanismen und Begrenzungen in den Campaign Web-Benutzeroberflächen-Workflows
 description: Schutzmechanismen und Begrenzungen bei der Arbeit mit Workflows auf der Campaign Web-Benutzeroberfläche
 exl-id: 9c8c67ce-9823-4082-b0bd-5613f3feb6e3
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 21c2b9735c465f582516b9b4c07126a4ba620583
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '382'
 ht-degree: 100%
 
 ---
@@ -28,11 +28,14 @@ Workflow-Aktivitäten, die noch nicht in der Campaign Web-Benutzeroberfläche u
 | --- | --- |
 | ![Screenshot zu Einschränkungen von Aktivitäten in der Konsole](assets/limitations-activities-console.png){zoomable="yes"}{width="800px" align="left" zoomable="yes"} | ![Screenshot zu Einschränkungen von Aktivitäten in der Web-Benutzeroberfläche](assets/limitations-activities-web.png){zoomable="yes"}{width="800px" align="left" zoomable="yes"} |
 
-Wenn eine **Abfrageaktivität** oder **Anreicherungsaktivität** mit zusätzlichen Daten in der Konsole konfiguriert ist, werden die Anreicherungsdaten im Campaign Web berücksichtigt und an die ausgehende Transition übergeben. Sie können jedoch nicht bearbeitet werden.
+<!--
+When a **Query** or an **Enrichment** activity is configured with additional data in the console, the enrichment data is taken into account in Campaign Web and passed into the outbound transition, but it cannot be edited.
 
-| Konsole | Web |
+| Console | Web |
 | --- | --- |
-| ![Screenshot zu Einschränkungen von Optionen in der Konsole](assets/limitations-options-console.png){zoomable="yes"}{width="800px" align="left" zoomable="yes"} | ![Screenshot zu Einschränkungen von Optionen in der Web-Benutzeroberfläche](assets/limitations-options-web.png){zoomable="yes"}{width="800px" align="left" zoomable="yes"} |
+| ![Screenshot showing limitations of options in the console](assets/limitations-options-console.png){zoomable="yes"}{width="800px" align="left" zoomable="yes"} | ![Screenshot showing limitations of options in the web interface](assets/limitations-options-web.png){zoomable="yes"}{width="800px" align="left" zoomable="yes"} |
+
+-->
 
 In der Konsole kann die Aktivität **Anreicherung** sowohl Abstimmungen als auch Anreicherungen durchführen. Wenn Sie in der Client-Konsole Abstimmungseinstellungen in der Aktivität **Anreicherung** definiert haben, wird diese in der Campaign Web-Benutzeroberfläche als Aktivität **Abstimmung** angezeigt.
 

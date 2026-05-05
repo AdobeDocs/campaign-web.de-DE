@@ -3,10 +3,10 @@ audience: end-user
 title: Arbeiten mit Workflow-Aktivitäten
 description: Erfahren Sie, wie Sie Workflow-Aktivitäten durchführen.
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: 0cc09a983d412889f2b734a5bfb30bf422247ec0
+source-git-commit: b995e3c16d6f21852f565c504e3cc4709555943c
 workflow-type: tm+mt
-source-wordcount: '617'
-ht-degree: 88%
+source-wordcount: '629'
+ht-degree: 87%
 
 ---
 
@@ -26,7 +26,7 @@ Alle Aktivitäten werden in den folgenden Abschnitten beschrieben:
 
 Diese Aktivitäten sind spezifisch für die Zielgruppenbestimmung. Sie ermöglichen es Ihnen, eine oder mehrere Zielgruppen zu erstellen, indem Sie eine Zielgruppe definieren und diese Zielgruppen mithilfe von Schnittmenge, Vereinigung oder Ausschluss aufteilen oder kombinieren.
 
-* [Zielgruppe erstellen](build-audience.md): Mit dieser Aktivität definieren Sie Ihre Zielpopulation. Wählen Sie eine vorhandene Zielgruppe aus oder verwenden Sie den Abfrage-Modeler, um Ihre eigene Abfrage zu definieren.
+* [Zielgruppe erstellen](build-audience.md): Mit dieser Aktivität definieren Sie Ihre Zielpopulation. Wählen Sie eine vorhandene Zielgruppe aus oder verwenden Sie den Abfrage-Modeler, um Ihre eigene Abfrage zu definieren. Sie können auch „Anreicherungsdaten **konfigurieren (** für Abfragen verfügbar).
 * [Datenquelle ändern](change-data-source.md): Mit dieser Aktivität ändern Sie die Datenquelle für die Arbeitstabelle Ihres Workflows.
 * [Dimensionsänderung](change-dimension.md): Mit dieser Aktivität ändern Sie die Zielgruppendimension, während Sie Ihren Workflow erstellen.
 * [Kombinieren](combine.md): Mit dieser Aktivität segmentieren Sie Ihre eingehende Population. Verwenden Sie eine Vereinigung, eine Schnittmenge oder einen Ausschluss.

@@ -3,10 +3,10 @@ audience: end-user
 title: Erstellen von Workflows mit Adobe Campaign Web
 description: Erfahren Sie, wie Sie Workflows mit Adobe Campaign Web erstellen
 exl-id: 2a9b7e52-2b8b-4293-9b4d-a228ba95bed3
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: a84d816e87bcbe05837c502b7e3c4e8d898752fe
 workflow-type: tm+mt
-source-wordcount: '351'
-ht-degree: 100%
+source-wordcount: '363'
+ht-degree: 89%
 
 ---
 
@@ -40,8 +40,7 @@ Workflows können mehrere Status aufweisen:
 * **[!UICONTROL Entwurf]**: Der Workflow wurde erstellt und gespeichert.
 * **[!UICONTROL In Bearbeitung]**: Der Workflow wird derzeit ausgeführt.
 * **[!UICONTROL Abgeschlossen]**: Die Ausführung des Workflows ist abgeschlossen.
-* **[!UICONTROL Ausgesetzt]**: Der Workflow wurde angehalten.
-* **[!UICONTROL Fehlerhaft]**: Beim Workflow ist ein Fehler aufgetreten. Öffnen Sie den Workflow und greifen Sie auf die Protokolle und Aufgaben zu, um den Fehler zu identifizieren und zu beheben. [Erfahren Sie, wie Sie Protokolle und Aufgaben überwachen.](start-monitor-workflows.md#logs-tasks)
+* **[!UICONTROL Ausgesetzt]**: Der Workflow wurde entweder manuell oder automatisch nach einem Fehler angehalten. Wenn der Workflow aufgrund eines Fehlers angehalten wurde, öffnen Sie ihn und greifen Sie auf die Protokolle und Aufgaben zu, um das Problem zu identifizieren und zu beheben. [Erfahren Sie, wie Sie Protokolle und Aufgaben überwachen.](start-monitor-workflows.md#logs-tasks)
 
 Ausführliche Informationen zum Starten und Überwachen der Workflow-Ausführung finden Sie auf [dieser Seite](start-monitor-workflows.md).
 
@@ -49,6 +48,6 @@ Ausführliche Informationen zum Starten und Überwachen der Workflow-Ausführung
 
 Die Registerkarte **[!UICONTROL Vorlagen]** enthält alle verfügbaren Workflow-Vorlagen.
 
-Workflow-Vorlagen enthalten vorkonfigurierte Aktivitäten und allgemeine Eigenschaftskonfigurationen, die zur Erstellung neuer Workflows wiederverwendet werden können. 
+Workflow-Vorlagen enthalten vorkonfigurierte Aktivitäten und allgemeine Eigenschaftskonfigurationen, die zur Erstellung neuer Workflows wiederverwendet werden können.
 
 Erstellen Sie Workflow-Vorlagen aus einem vorhandenen Workflow oder von Grund auf neu. [So erstellen Sie Workflow-Vorlagen](create-workflow.md#workflow-templates)
