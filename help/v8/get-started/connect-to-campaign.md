@@ -2,10 +2,10 @@
 title: Herstellen einer Verbindung zur Adobe Campaign Web-Benutzeroberfläche
 description: Erfahren Sie, wie Sie eine Verbindung mit der Benutzeroberfläche von Adobe Campaign Web herstellen.
 exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
-source-git-commit: 497335e6f176d33c4e9cd214abf46665ad75e1eb
+source-git-commit: ff5aee62c18b435addba10fa982b385be23931e7
 workflow-type: tm+mt
-source-wordcount: '919'
-ht-degree: 100%
+source-wordcount: '964'
+ht-degree: 95%
 
 ---
 
@@ -86,7 +86,7 @@ Sie sind jetzt mit Campaign verbunden. Auf [dieser Seite](user-interface.md) erf
 
 Die Zugriffskontrolle schränkt den Zugriff auf Objekte und Daten aus Hauptlisten, wie Sendungen, Empfängerinnen bzw. Empfänger oder Workflows, ein. Diese Einschränkungen gelten auch für die Navigationsstruktur des Explorers. Darüber hinaus benötigen Sie die Berechtigung, Objekte über die Benutzeroberfläche zu erstellen, zu löschen, zu duplizieren und zu bearbeiten.
 
-Alle Berechtigungen in Campaign Web werden mit den Berechtigungen der Campaign-Client-Konsole synchronisiert. Nur Campaign-Admins können Benutzerberechtigungen festlegen und ändern. 
+Alle Berechtigungen in Campaign Web werden mit den Berechtigungen der Campaign-Client-Konsole synchronisiert. Nur Campaign-Admins können Benutzerberechtigungen festlegen und ändern.
 
 Wenn Sie in der Campaign Web-Benutzeroberfläche navigieren, können Sie abhängig von Ihren Berechtigungen auf Daten, Objekte und Funktionen zugreifen. Wenn Sie beispielsweise keine Zugriffsberechtigungen für einen Ordner haben, können Sie ihn nicht sehen. Ihre Berechtigungen wirken sich auch auf die Objekte- und Datenverwaltung aus. Ohne Schreibberechtigungen für einen bestimmten Ordner können Sie einen Versand nicht in diesem Ordner erstellen, selbst wenn er in der Benutzeroberfläche angezeigt wird.
 
@@ -94,16 +94,18 @@ Wenn Sie in der Campaign Web-Benutzeroberfläche navigieren, können Sie abhäng
 
 ## Obere Navigationsleiste in Adobe Experience Cloud {#top-bar}
 
-Verwenden Sie die obere Leiste der Benutzeroberfläche, um folgende Aktionen durchzuführen:
+Die obere Leiste der Benutzeroberfläche bietet schnellen Zugriff auf die wichtigsten Funktionen von Experience Cloud.
+
+![Screenshot der oberen Navigationsleiste von Adobe Experience Cloud](assets/do-not-localize/unified-shell.png){zoomable="yes"}
+
+Verwenden Sie die obere Leiste für Folgendes:
 
 * Feedback zur Campaign Web-Benutzeroberfläche geben
 * zwischen Ihren Organisationen wechseln
 * zwischen Ihren Adobe Experience Cloud-Lösungen und -Anwendungen wechseln
 * nach Hilfe auf [Adobe Experience League](https://experienceleague.adobe.com/docs/?lang=de){target="_blank"} suchen
-* Produktbenachrichtigungen überprüfen
-* Ihr Adobe-Profil bearbeiten und Einstellungen verwalten, z. B. [Ihre bevorzugte Sprache aktualisieren](#language-pref) oder [zwischen hellem/dunklem Design umschalten](#dark-theme)
-
-![Screenshot der oberen Navigationsleiste von Adobe Experience Cloud](assets/do-not-localize/unified-shell.png){zoomable="yes"}{width="50%" align="left"}
+* Anzeigen Ihrer Produktbenachrichtigungen
+* Bearbeiten Sie Ihr Adobe-Profil und verwalten Sie Einstellungen wie [Aktualisieren Ihrer bevorzugten Sprache](#language-pref) oder [Wechseln zwischen hellen und dunklen Themen](#dark-theme).
 
 ## Unterstützte Browser {#browsers}
 
