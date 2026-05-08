@@ -3,9 +3,9 @@ audience: end-user
 title: Erstellen Ihrer erste Abfrage mithilfe des Abfrage-Modelers
 description: Erfahren Sie, wie Sie Ihre erste Abfrage im Abfrage-Modeler in Adobe Campaign Web erstellen.
 exl-id: f9a365ac-c8be-423f-a99d-40ad5492223c
-source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
+source-git-commit: 469165c375718dfe71fe7eac8e5711db1731843b
 workflow-type: tm+mt
-source-wordcount: '2192'
+source-wordcount: '2199'
 ht-degree: 100%
 
 ---
@@ -525,12 +525,12 @@ In dieser Tabelle sind die restlichen verfügbaren Funktionen enthalten.
    <td> Decode(&lt;Wert 1&gt;, &lt;Wert 2&gt;, &lt;Wert 3&gt;, &lt;Wert 4&gt;)<br /> </td>  
   </tr> 
   <!--
-<tr> 
+  <tr> 
    <td> <strong>DefaultFolder</strong><br /> </td> 
    <td> Returns value 3 if value 1 = value 2. If not returns value 4.<br /> </td> 
    <td> Decode(&lt;value 1&gt;, &lt;value 2&gt;, &lt;value 3&gt;, &lt;value 4&gt;)<br /> </td>  
   </tr> 
--->
+  -->
   <tr> 
    <td> <strong>Else</strong><br /> </td> 
    <td> Gibt den Wert 1 aus (kann nur als Parameter der 'Case'-Funktion verwendet werden)<br /> </td> 
