@@ -112,4 +112,4 @@ Das soeben erstellte Testprofil kann jetzt zur Durchführung einer Testsendung v
 
 Erfahren Sie, wie Sie mit der Campaign Web-Benutzeroberfläche Testprofile erstellen und verwalten.
 
->[!VIDEO](https://video.tv.adobe.com/v/3442844?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3442904?captions=ger&quality=12)
