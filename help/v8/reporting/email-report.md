@@ -3,10 +3,10 @@ audience: end-user
 title: E-Mail-Versandberichte
 description: Erfahren Sie, wie Sie auf E-Mail-Versandberichte zugreifen und diese verwenden können
 exl-id: 2a0bd3e9-5d75-47c8-bd6a-b3e0b1ce0a01
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '2448'
-ht-degree: 97%
+source-wordcount: '2481'
+ht-degree: 95%
 
 ---
 
@@ -279,7 +279,7 @@ Der Bericht **[!UICONTROL URLs und Clickstreams]** bietet wichtige Performance-I
 
 * **[!UICONTROL Klicks]**: Gesamtzahl der Klicks auf Links in Sendungen.
 
-* **[!UICONTROL Plattform-Durchschnitt]**: Dieser Durchschnittswert, der unter jeder Rate (Reaktivität, Unique Clicks und Klicks insgesamt) angezeigt wird, bezieht sich auf die in den letzten sechs Monaten verschickten Sendungen. Es werden nur Sendungen mit derselben Typologie und mit demselben Kanal berücksichtigt. Testsendungen sind ausgeschlossen.
+* **[!UICONTROL Plattform-Durchschnitt]**: Dieser unter jeder Rate (Reaktivität, Unique Clicks und Klicks insgesamt) angezeigte Wert bezieht sich auf die Gesamtheit der in den letzten sechs Monaten gesendeten Sendungen. Es werden nur Sendungen mit derselben Typologie und mit demselben Kanal berücksichtigt. Testsendungen sind ausgeschlossen.
 
 +++
 
@@ -405,6 +405,6 @@ Für jede Kategorie werden zwei Diagramme verwendet. Das erste zeigt Statistiken
 >title="Hotclicks-Bericht"
 >abstract="Der Bericht **Hotclicks** zeigt den E-Mail-Inhalt (HTML und/oder Text) mit dem prozentualen Klickanteil für jeden Link. Gestaltungsbausteine, Abmelde-Links, Mirrorseiten-Links und Angebots-Links werden bei der Gesamtanzahl der Klicks berücksichtigt, jedoch nicht im Bericht angezeigt."
 
-Dieser Bericht zeigt den Nachrichteninhalt (HTML und/oder Text) mit dem prozentualen Klickanteil für jeden Link. Gestaltungsbausteine, Abmelde-Links, Mirrorseiten-Links und Angebots-Links werden bei der Gesamtanzahl der Klicks berücksichtigt, jedoch nicht im Bericht angezeigt.
+Dieser Bericht zeigt den Nachrichteninhalt (HTML und/oder Text) mit dem prozentualen Anteil der Klicks auf Links für jeden Link. Gestaltungsbausteine, Abmelde-Links, Mirrorseiten-Links und Angebots-Links werden bei der Gesamtanzahl der Klicks berücksichtigt, jedoch nicht im Bericht angezeigt.
 
 ![Screenshot des Berichts „Hotclicks“](assets/reporting11.png){zoomable="yes"}

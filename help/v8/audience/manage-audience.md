@@ -3,9 +3,9 @@ audience: end-user
 title: Erste Schritte mit Zielgruppen
 description: Erfahren Sie, wie Sie in Adobe Campaign Web mit Zielgruppen arbeiten.
 exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
-source-git-commit: b330230a031a366b674ebac37681274ee89ec6c8
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '418'
 ht-degree: 100%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_audiences_properties"
 >title="Eigenschaften"
->abstract="Hier finden Sie eine Zusammenfassung der Zielgruppeneigenschaften wie Herkunft oder Speicherordner.  Klicken Sie auf den Link im Abschnitt **Letzter Workflow**, um den Workflow zu öffnen, der zur Erstellung der Zielgruppe verwendet wurde."
+>abstract="Hier finden Sie eine Zusammenfassung der Zielgruppeneigenschaften wie Herkunft oder Speicherordner. Klicken Sie auf den Link im Abschnitt **Letzter Workflow**, um den Workflow zu öffnen, der zur Erstellung der Zielgruppe verwendet wurde."
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_count"

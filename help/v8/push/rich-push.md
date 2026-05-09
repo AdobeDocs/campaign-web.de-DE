@@ -3,9 +3,9 @@ audience: end-user
 title: Erstellen eines Rich-Push-Benachrichtigungsversands
 description: Erfahren Sie, wie Sie mit Adobe Campaign Web einen Rich-Push-Benachrichtigungs-Versand für Android erstellen.
 exl-id: a87cb933-b564-4fa4-b173-6a94d7e27da5
-source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '3379'
+source-wordcount: '3472'
 ht-degree: 100%
 
 ---
@@ -96,7 +96,7 @@ Sobald Sie den Inhalt Ihrer Nachricht definiert haben, können Sie Testabonnenti
 
 1. Fügen Sie die URL hinzu, die die **[!UICONTROL Klick-Aktion]** definiert, die mit einem Benutzerklick auf Ihre Benachrichtigung verbunden ist. Dies bestimmt das Verhalten bei der Interaktion der Benutzenden mit der Benachrichtigung, z. B. beim Öffnen eines bestimmten Bildschirms oder beim Ausführen einer bestimmten Aktion in der App.
 
-1. Wählen Sie den **[!UICONTROL Link-Typ]** der URL, die Sie zum Feld **[!UICONTROL Klick-Aktion]** hinzugefügt haben:
+1. Wählen Sie den **[!UICONTROL Link-Typ]** der URL aus, die Sie in das Feld **[!UICONTROL Klick-Aktion]** eingefügt haben:
 
    * **[!UICONTROL Web-URL]**: Web-URLs leiten Benutzende zu Online-Inhalten weiter. Beim Anklicken öffnen sie den Standard-Webbrowser des Geräts und navigieren zu der angegebenen URL.
 
@@ -187,7 +187,7 @@ Sobald Sie den Inhalt Ihrer Nachricht definiert haben, können Sie Testabonnenti
 
 1. Fügen Sie die URL hinzu, die die **[!UICONTROL Klick-Aktion]** definiert, die mit einem Benutzerklick auf Ihre Benachrichtigung verbunden ist. Dies bestimmt das Verhalten bei der Interaktion der Benutzenden mit der Benachrichtigung, z. B. beim Öffnen eines bestimmten Bildschirms oder beim Ausführen einer bestimmten Aktion in der App.
 
-1. Wählen Sie den **[!UICONTROL Link-Typ]** der URL, die Sie zum Feld **[!UICONTROL Klick-Aktion]** hinzugefügt haben:
+1. Wählen Sie den **[!UICONTROL Link-Typ]** der URL aus, die Sie in das Feld **[!UICONTROL Klick-Aktion]** eingefügt haben:
 
    * **[!UICONTROL Web-URL]**: Web-URLs leiten Benutzende zu Online-Inhalten weiter. Beim Anklicken öffnen sie den Standard-Webbrowser des Geräts und navigieren zu der angegebenen URL.
 
@@ -233,7 +233,7 @@ Sobald Sie den Inhalt Ihrer Nachricht definiert haben, können Sie Testabonnenti
 
 1. Fügen Sie die URL hinzu, die die **[!UICONTROL Klick-Aktion]** definiert, die mit einem Benutzerklick auf Ihre Benachrichtigung verbunden ist. Dies bestimmt das Verhalten bei der Interaktion der Benutzenden mit der Benachrichtigung, z. B. beim Öffnen eines bestimmten Bildschirms oder beim Ausführen einer bestimmten Aktion in der App.
 
-1. Wählen Sie den **[!UICONTROL Link-Typ]** der URL, die Sie zum Feld **[!UICONTROL Klick-Aktion]** hinzugefügt haben:
+1. Wählen Sie den **[!UICONTROL Link-Typ]** der URL aus, die Sie in das Feld **[!UICONTROL Klick-Aktion]** eingefügt haben:
 
    * **[!UICONTROL Web-URL]**: Web-URLs leiten Benutzende zu Online-Inhalten weiter. Beim Anklicken öffnen sie den Standard-Webbrowser des Geräts und navigieren zu der angegebenen URL.
 
@@ -256,7 +256,7 @@ Sobald Sie den Inhalt Ihrer Nachricht definiert haben, können Sie Testabonnenti
 
 1. Konfigurieren Sie die **[!UICONTROL erweiterten Einstellungen]** Ihrer Push-Benachrichtigung. [Weitere Informationen](#push-advanced)
 
-Sobald Sie den Inhalt Ihrer Nachricht definiert haben, können Sie Testabonnentinnen und -abonnenten einsetzen, um die Nachricht in einer Vorschau anzuzeigen und zu testen.
+Sobald Sie den Inhalt Ihrer Nachricht definiert haben, können Sie Testabonnentinnen und -abonnenten verwenden, um die Nachricht in der Vorschau anzuzeigen und zu testen.
 
 >[!TAB Produktkatalog]
 
@@ -272,7 +272,7 @@ Sobald Sie den Inhalt Ihrer Nachricht definiert haben, können Sie Testabonnenti
 
 1. Fügen Sie die URL hinzu, die die **[!UICONTROL Klick-Aktion]** definiert, die mit einem Benutzerklick auf Ihre Benachrichtigung verbunden ist. Dies bestimmt das Verhalten bei der Interaktion der Benutzenden mit der Benachrichtigung, z. B. beim Öffnen eines bestimmten Bildschirms oder beim Ausführen einer bestimmten Aktion in der App.
 
-1. Wählen Sie den **[!UICONTROL Link-Typ]** der URL, die Sie zum Feld **[!UICONTROL Klick-Aktion]** hinzugefügt haben:
+1. Wählen Sie den **[!UICONTROL Link-Typ]** der URL aus, die Sie in das Feld **[!UICONTROL Klick-Aktion]** eingefügt haben:
 
    * **[!UICONTROL Web-URL]**: Web-URLs leiten Benutzende zu Online-Inhalten weiter. Beim Anklicken öffnen sie den Standard-Webbrowser des Geräts und navigieren zu der angegebenen URL.
 
@@ -298,7 +298,7 @@ Sobald Sie den Inhalt Ihrer Nachricht definiert haben, können Sie Testabonnenti
 
 1. Konfigurieren Sie die **[!UICONTROL erweiterten Einstellungen]** Ihrer Push-Benachrichtigung. [Weitere Informationen](#push-advanced)
 
-Sobald Sie den Inhalt Ihrer Nachricht definiert haben, können Sie Testabonnentinnen und -abonnenten einsetzen, um die Nachricht in einer Vorschau anzuzeigen und zu testen.
+Sobald Sie den Inhalt Ihrer Nachricht definiert haben, können Sie Testabonnentinnen und -abonnenten verwenden, um die Nachricht in der Vorschau anzuzeigen und zu testen.
 
 >[!TAB Produktbewertung]
 
@@ -314,7 +314,7 @@ Sobald Sie den Inhalt Ihrer Nachricht definiert haben, können Sie Testabonnenti
 
 1. Fügen Sie die URL hinzu, die die **[!UICONTROL Klick-Aktion]** definiert, die mit einem Benutzerklick auf Ihre Benachrichtigung verbunden ist. Dies bestimmt das Verhalten bei der Interaktion der Benutzenden mit der Benachrichtigung, z. B. beim Öffnen eines bestimmten Bildschirms oder beim Ausführen einer bestimmten Aktion in der App.
 
-1. Wählen Sie den **[!UICONTROL Link-Typ]** der URL, die Sie zum Feld **[!UICONTROL Klick-Aktion]** hinzugefügt haben:
+1. Wählen Sie den **[!UICONTROL Link-Typ]** der URL aus, die Sie in das Feld **[!UICONTROL Klick-Aktion]** eingefügt haben:
 
    * **[!UICONTROL Web-URL]**: Web-URLs leiten Benutzende zu Online-Inhalten weiter. Beim Anklicken öffnen sie den Standard-Webbrowser des Geräts und navigieren zu der angegebenen URL.
 
@@ -356,7 +356,7 @@ Sobald Sie den Inhalt Ihrer Nachricht definiert haben, können Sie Testabonnenti
 
 1. Fügen Sie die URL hinzu, die die **[!UICONTROL Klick-Aktion]** definiert, die mit einem Benutzerklick auf Ihre Benachrichtigung verbunden ist. Dies bestimmt das Verhalten bei der Interaktion der Benutzenden mit der Benachrichtigung, z. B. beim Öffnen eines bestimmten Bildschirms oder beim Ausführen einer bestimmten Aktion in der App.
 
-1. Wählen Sie den **[!UICONTROL Link-Typ]** der URL, die Sie zum Feld **[!UICONTROL Klick-Aktion]** hinzugefügt haben:
+1. Wählen Sie den **[!UICONTROL Link-Typ]** der URL aus, die Sie in das Feld **[!UICONTROL Klick-Aktion]** eingefügt haben:
 
    * **[!UICONTROL Web-URL]**: Web-URLs leiten Benutzende zu Online-Inhalten weiter. Beim Anklicken öffnen sie den Standard-Webbrowser des Geräts und navigieren zu der angegebenen URL.
 
@@ -380,7 +380,7 @@ Sobald Sie den Inhalt Ihrer Nachricht definiert haben, können Sie Testabonnenti
 
 1. Konfigurieren Sie die **[!UICONTROL erweiterten Einstellungen]** Ihrer Push-Benachrichtigung. [Weitere Informationen](#push-advanced)
 
-Sobald Sie den Inhalt Ihrer Nachricht definiert haben, können Sie Testabonnentinnen und -abonnenten einsetzen, um die Nachricht in einer Vorschau anzuzeigen und zu testen.
+Sobald Sie den Inhalt Ihrer Nachricht definiert haben, können Sie Testabonnentinnen und -abonnenten verwenden, um die Nachricht in der Vorschau anzuzeigen und zu testen.
 
 >[!TAB Rahmenlos]
 
@@ -398,7 +398,7 @@ Sobald Sie den Inhalt Ihrer Nachricht definiert haben, können Sie Testabonnenti
 
 1. Fügen Sie die URL hinzu, die die **[!UICONTROL Klick-Aktion]** definiert, die mit einem Benutzerklick auf Ihre Benachrichtigung verbunden ist. Dies bestimmt das Verhalten bei der Interaktion der Benutzenden mit der Benachrichtigung, z. B. beim Öffnen eines bestimmten Bildschirms oder beim Ausführen einer bestimmten Aktion in der App.
 
-1. Wählen Sie den **[!UICONTROL Link-Typ]** der URL, die Sie zum Feld **[!UICONTROL Klick-Aktion]** hinzugefügt haben:
+1. Wählen Sie den **[!UICONTROL Link-Typ]** der URL aus, die Sie in das Feld **[!UICONTROL Klick-Aktion]** eingefügt haben:
 
    * **[!UICONTROL Web-URL]**: Web-URLs leiten Benutzende zu Online-Inhalten weiter. Beim Anklicken öffnen sie den Standard-Webbrowser des Geräts und navigieren zu der angegebenen URL.
 

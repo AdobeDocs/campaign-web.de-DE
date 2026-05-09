@@ -3,10 +3,10 @@ audience: end-user
 title: Arbeiten mit Geschäftsregeln (Typologien)
 description: Erfahren Sie, wie Sie mit Typologien und Typologieregeln arbeiten können, um den Versand von Sendungen zu steuern, zu filtern und zu überwachen.
 exl-id: 54fdd03a-e49d-4f22-b6d4-6055c8922e58
-source-git-commit: f772e19fd033b007680777f75b48775b6d7851b9
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '1475'
-ht-degree: 100%
+source-wordcount: '1500'
+ht-degree: 98%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_business_rules_typology_rules_type"
 >title="Filter"
->abstract=" Es stehen zwei Arten von Typologieregeln zur Verfügung: <br/><br/>**Steuerungsregeln**, die vor dem Versand die Qualität und Gültigkeit der Nachrichten sicherstellen, z. B. Zeichenanzeige, SMS-Länge, Adressformat oder URL-Verkürzung. Und <br/><br/>**Filterregeln**, die Segmente der Zielgruppe anhand bestimmter Kriterien wie Alter, Standort, Land oder Telefonnummern ausschließen. "
+>abstract=" Es stehen zwei Arten von Typologieregeln zur Verfügung: <br/><br/>**Steuerungsregeln**, die vor dem Versand die Qualität und Gültigkeit der Nachrichten sicherstellen, z. B. Zeichenanzeige, SMS-Länge, Adressformat oder URL-Verkürzung. Und <br/><br/>**Filterregeln**, die Segmente der Zielgruppe anhand bestimmter Kriterien wie Alter, Standort, Land oder Telefonnummern ausschließen."
 
 ## Über Typologien
 
@@ -67,7 +67,7 @@ Gehen Sie wie folgt vor, um eine Typologie zu erstellen:
 
    >[!NOTE]
    >
-   >Mit dem Feld **[!UICONTROL IP-Affinität]** können Sie IP-Affinitäten mit Typologien verknüpfen. Hierdurch können Sie den ausgehenden SMTP-Traffic besser steuern. Legen Sie dazu fest, welche IP-Adressen jeweils für die einzelnen Affinitäten verwendet werden können. So können Sie beispielsweise eine Affinität pro Land oder Sub-Domain verwenden. Dann können Sie für jedes Land eine Typologie erstellen und jede Affinität mit der entsprechenden Typologie verbinden.
+   >Mit dem Feld **[!UICONTROL IP-Affinität]** können Sie IP-Affinitäten mit Typologien verknüpfen. Hierdurch können Sie den ausgehenden SMTP-Traffic besser steuern. Legen Sie dazu fest, welche IP-Adressen jeweils für die einzelnen Affinitäten verwendet werden können. Sie können beispielsweise eine Affinität pro Land oder Subdomain verwenden. Anschließend können Sie für jedes Land eine Typologie erstellen und jede Affinität mit der entsprechenden Typologie verknüpfen.
 
 1. Klicken Sie auf **[!UICONTROL Erstellen]**, um die Erstellung der Typologie zu bestätigen.
 
@@ -118,7 +118,7 @@ Dies sind die wichtigsten Eigenschaften, die beim Erstellen einer neuen Typologi
 
 >[!TAB Kontrollregeln]
 
-1. Geben Sie einen **[!UICONTROL Titel]** für die Regel ein. 
+1. Geben Sie einen **[!UICONTROL Titel]** für die Regel ein.
 
    ![Erstellen einer Kontrollregel](assets/business-rules-create-typo1.png)
 
@@ -161,7 +161,7 @@ Dies sind die wichtigsten Eigenschaften, die beim Erstellen einer neuen Typologi
 
 >[!TAB Filterregeln]
 
-1. Geben Sie einen **[!UICONTROL Titel]** für die Regel ein. 
+1. Geben Sie einen **[!UICONTROL Titel]** für die Regel ein.
 
    ![Erstellen einer Filterregel](assets/business-rules-create-typo2.png)
 

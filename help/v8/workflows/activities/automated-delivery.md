@@ -3,10 +3,10 @@ audience: end-user
 title: Workflow-Aktivität für automatisierten Versand
 description: Erfahren Sie, wie Sie die Workflow-Aktivität für automatisierte Sendungen verwenden
 exl-id: a9c485f1-0369-414d-9e43-bedb0390a2f5
-source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '622'
-ht-degree: 5%
+source-wordcount: '643'
+ht-degree: 13%
 
 ---
 
@@ -14,13 +14,13 @@ ht-degree: 5%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn4"
->title="Versandaktivität automatisieren"
->abstract="Die Workflow-Aktivität Automatisierter Versand ist jetzt in der Workflow-Palette verfügbar. Sie können damit Versandaktionen (Vorbereiten, Testversand durchführen, Vorbereiten und starten usw.) direkt in Ihrem Workflow erstellen oder ausführen."
+>title="Aktivität „Automatischer Versand“"
+>abstract="Die Workflow-Aktivität Automatisierter Versand ist jetzt in der Workflow-Palette verfügbar. Sie können damit Versandaktionen (vorbereiten, einen Testversand durchführen, vorbereiten und starten) direkt in Ihrem Workflow erstellen und ausführen."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=de" text="Siehe Versionshinweise"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_automated-delivery"
->title="Versandaktivität automatisieren"
+>title="Aktivität „Automatischer Versand“"
 >abstract="Die Aktivität **Automatisierter Versand** wird für die Automatisierung verwendet: Erstellen oder wiederverwenden Sie einen Versand in Ihrem Workflow und wählen Sie dann die auszuführende Aktion aus (vorbereiten, vorbereiten und starten, Testversand durchführen usw.). Sie können einen außerhalb des Workflows erstellten bestehenden expliziten Versand auswählen oder bei jeder Ausführung der Aktivität einen neuen Versand aus einer Vorlage erstellen."
 
 Die Aktivität **Automatisierter Versand** ermöglicht die Erstellung, Konfiguration und Ausführung von Versandaktionen direkt in Ihrem Workflow. Verwenden Sie diese Option, wenn Sie einen vordefinierten Versand nach einem Zeitplan oder als Teil eines automatisierten Flusses ausführen möchten oder wenn Sie bei jeder Ausführung der Aktivität einen neuen Versand aus einer Vorlage generieren möchten.
@@ -32,7 +32,7 @@ Die Aktivität **Automatisierter Versand** ermöglicht die Erstellung, Konfigura
 Gehen Sie wie folgt vor, um diese Aktivität zu konfigurieren:
 
 1. Definieren der Versandeinstellungen [weitere Informationen](#delivery-settings)
-1. auszuführende Aktion auswählen ([&#x200B; dazu](#action-to-execute)
+1. auszuführende Aktion auswählen ([ dazu](#action-to-execute)
 1. Einrichten der Transition, [mehr dazu](#transition-to-execute)
 1. Definieren eines Änderungsskripts, [mehr dazu](#script)
 

@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 2835c114-0878-4c41-9071-165d71840941
-source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '1234'
+source-wordcount: '1244'
 ht-degree: 100%
 
 ---
@@ -90,7 +90,7 @@ Sie können die Inhaltssperre für eine E-Mail-Vorlage direkt im E-Mail-Designer
 
 1. Wenn Sie den Modus **[!UICONTROL Inhaltssperre]** ausgewählt haben, können Sie weiter definieren, wie Benutzende mit der Vorlage interagieren können. Aktivieren Sie die Option **[!UICONTROL Hinzufügen von Inhalten aktivieren]** und wählen Sie eine der folgenden Optionen aus:
 
-   * **[!UICONTROL Hinzufügen von Struktur und Inhalten zulassen]**: Benutzende können Strukturen zwischen vorhandenen Strukturen und Inhaltskomponenten oder -fragmente in bearbeitbaren Strukturen hinzufügen. 
+   * **[!UICONTROL Hinzufügen von Struktur und Inhalten zulassen]**: Benutzende können Strukturen zwischen vorhandenen Strukturen und Inhaltskomponenten oder -fragmente in bearbeitbaren Strukturen hinzufügen.
 
    * **[!UICONTROL Nur Hinzufügen von Inhalten zulassen]**: Benutzende können Inhaltskomponenten oder -fragmente in bearbeitbaren Strukturen hinzufügen, jedoch keine Strukturen hinzufügen oder duplizieren.
 
@@ -203,5 +203,5 @@ TO REPLACE WITH VIDEO FOR CAMPAIGN IF/WHEN CREATED
 
 Learn how to lock content in email templates.
 
->[!VIDEO](https://video.tv.adobe.com/v/3451616?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3451591?quality=12)
 -->

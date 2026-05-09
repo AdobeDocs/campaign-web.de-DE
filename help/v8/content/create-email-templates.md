@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 23818080-d7c6-4829-8117-d6b359bd76dd
-source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '1085'
+source-wordcount: '1096'
 ht-degree: 100%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_menu"
->title="Inhaltsvorlagen "
+>title="Inhaltsvorlagen"
 >abstract="Um den Design-Prozess zu beschleunigen und zu verbessern, können Sie eigenständige E-Mail-Vorlagen erstellen, um benutzerdefinierte Inhalte in Adobe Campaign einfach wiederzuverwenden. Diese Inhaltsvorlagen können von Grund auf neu erstellt werden, basierend auf integrierten oder benutzerdefinierten Vorlagen, die aus einem vorhandenen Inhalt erstellt oder in den Inhaltsvorlagen-Editor importiert werden."
 
 Um den Design-Prozess zu beschleunigen und zu verbessern, können Sie eigenständige Vorlagen erstellen, um benutzerdefinierte Inhalte in [!DNL Adobe Campaign] einfach wiederzuverwenden. Diese Inhaltsvorlagen können von Grund auf neu erstellt werden, basierend auf integrierten oder benutzerdefinierten Vorlagen, die aus vorhandenem Inhalt erstellt oder in den Inhaltsvorlagen-Editor importiert werden.

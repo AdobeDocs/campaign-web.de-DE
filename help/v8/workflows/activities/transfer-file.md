@@ -3,9 +3,9 @@ audience: end-user
 title: Verwenden der Aktivität „Dateiübertragung“
 description: Informationen dazu, wie Sie die Workflow-Aktivität „Dateiübertragung“ verwenden
 exl-id: a40c007e-c0c6-4e0f-aa0d-0260ecb74a03
-source-git-commit: ca35e633f2b7a3a286155c4f564378ebf1f72f4f
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '1253'
+source-wordcount: '1266'
 ht-degree: 97%
 
 ---
@@ -74,7 +74,7 @@ Führen Sie die nachfolgend aufgeführten Schritte aus, um die Aktivität **Date
 
 1. Bei Aktionen zum Hochladen von Dateien verwendet die Aktivität standardmäßig die in der vorherigen Aktivität angegebene Datei. Um eine andere Datei zu verwenden, schalten Sie die Option **[!UICONTROL Datei aus vorhergehender Aktivität verwenden]** ein und klicken Sie auf die Schaltfläche **[!UICONTROL Datei hinzufügen]**.
 
-   Geben Sie im Feld **[!UICONTROL Quelle]** den gewünschten gewünschten Dateinamen ein oder verwenden Sie den Ausdruckseditor, um den Dateinamen mithilfe von Ereignisvariablen zu berechnen. [Informationen dazu, wie Sie mit Ereignisvariablen und dem Ausdruckseditor arbeiten](../event-variables.md).  Wiederholen Sie den Vorgang, um so viele Dateien wie nötig hinzuzufügen.
+   Geben Sie im Feld **[!UICONTROL Quelle]** den gewünschten gewünschten Dateinamen ein oder verwenden Sie den Ausdruckseditor, um den Dateinamen mithilfe von Ereignisvariablen zu berechnen. [Informationen dazu, wie Sie mit Ereignisvariablen und dem Ausdruckseditor arbeiten](../event-variables.md). Wiederholen Sie den Vorgang, um so viele Dateien wie nötig hinzuzufügen.
 
 ## Definieren der Zielgruppe für die Übertragung {#destination}
 
@@ -86,7 +86,7 @@ Führen Sie die nachfolgend aufgeführten Schritte aus, um die Aktivität **Date
 
    ![Screenshot mit Server-Konfigurationsoptionen für Workflow-Dateiübertragungen](../assets/workflow-transfer-file-server.png)
 
-1. Bei POST-Aktionen für Web-Downloads können Sie zusätzliche Parameter mit dem Vorgang übergeben. Klicken Sie dazu auf die Schaltfläche **[!UICONTROL Parameter hinzufügen]** und geben Sie dann den Namen und den Wert der Parameter an. Sie können so viele Parameter wie nötig hinzufügen. 
+1. Bei POST-Aktionen für Web-Downloads können Sie zusätzliche Parameter mit dem Vorgang übergeben. Klicken Sie dazu auf die Schaltfläche **[!UICONTROL Parameter hinzufügen]** und geben Sie dann den Namen und den Wert der Parameter an. Sie können so viele Parameter wie nötig hinzufügen.
 
 1. Bei einem Datei-Upload werden die auf einen Server hochgeladenen Dateien standardmäßig automatisch gespeichert. Wenn Sie diesen Verlauf nicht beibehalten möchten, schalten Sie die Option **[!UICONTROL Verlauf der übertragenen Dateien speichern]** aus.
 
@@ -101,7 +101,7 @@ Jedes Mal, wenn die Aktivität **[!UICONTROL Dateiübertragung]** ausgeführt wi
 
 ![Screenshot mit Verlaufsparametern für Workflow-Dateiübertragungen](../assets/workflow-transfer-file-historization.png)
 
-Es ist wichtig, die Größe dieses Ordners zu begrenzen, um physischen Platz auf dem Server zu sparen.  Definieren Sie hierzu eine Höchstzahl an Dateien oder die Gesamtgröße des Ordners für die Aktivität. Standardmäßig sind 100 Dateien und 50 MB zugelassen.
+Es ist wichtig, die Größe dieses Ordners zu begrenzen, um physischen Platz auf dem Server zu sparen. Definieren Sie hierzu eine Höchstzahl an Dateien oder die Gesamtgröße des Ordners für die Aktivität. Standardmäßig sind 100 Dateien und 50 MB zugelassen.
 
 Jedes Mal, wenn die Aktivität ausgeführt wird, wird der Ordner folgendermaßen überprüft:
 

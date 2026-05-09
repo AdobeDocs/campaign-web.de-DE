@@ -2,10 +2,10 @@
 title: Über Schemata
 description: Erfahren Sie, wie Sie mit Schemata arbeiten.
 exl-id: 1433a441-1673-45a2-9fec-be9550fbba0d
-source-git-commit: 9b51dc84a5b6954c973e1560aad877ef770eb8f9
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
 source-wordcount: '319'
-ht-degree: 56%
+ht-degree: 64%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 56%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn1"
 >title="Schema-Authoring"
->abstract="Sie können Schemata jetzt direkt über die Web-Benutzeroberfläche von Campaign erstellen und verwalten. Sie können neue Tabellen erstellen, vorhandene Schemata erweitern und benutzerdefinierte Formulare erstellen."
+>abstract="Sie können Schemata jetzt direkt über die Campaign Web-Benutzeroberfläche erstellen und verwalten. Sie können neue Tabellen erstellen, vorhandene Schemata erweitern und benutzerdefinierte Formulare erstellen."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=de" text="Siehe Versionshinweise"
 
 >[!CONTEXTUALHELP]

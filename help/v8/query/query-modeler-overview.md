@@ -3,9 +3,9 @@ audience: end-user
 title: Arbeiten mit dem Abfrage-Modeler
 description: Lernen Sie, mit dem Abfrage-Modeler von Adobe Campaign Web zu arbeiten.
 exl-id: 56708a66-f654-413a-80ed-1865077b3c0a
-source-git-commit: 1a5f49cfdf56a21faedcef3029b62b88ebd81c8d
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '888'
+source-wordcount: '892'
 ht-degree: 100%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_querymessage"
 >title="Abfrage-Modeler"
->abstract="Definieren Sie Filterkriterien für Empfängerinnen und Empfänger oder jede andere Zielgruppendimension aus der Datenbank. Nutzen Sie Ihre Adobe Experience Platform-Zielgruppe, um die Zielgruppe weiter zu verfeinern und die Wirkung der Kampagne zu maximieren."
+>abstract="Definieren Sie Filterkriterien für Empfängerinnen und Empfänger oder eine beliebige andere Zielgruppendimension aus der Datenbank. Nutzen Sie die Vorteile der Adobe Experience Platform-Zielgruppe, um die Zielgruppe weiter zu verfeinern und die Wirkung der Kampagne zu maximieren."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_refine_target"
@@ -38,8 +38,8 @@ Der Abfrage-Modeler ist in jedem Kontext verfügbar, in dem Sie Regeln zum Filte
 | Verwendung | Beispiel |
 |  ---  |  ---  |
 | **Zielgruppen definieren**: Geben Sie die Population an, die Sie in Ihren Nachrichten oder Workflows ansprechen möchten, und erstellen Sie mühelos neue Zielgruppen, die auf Ihre Anforderungen zugeschnitten sind. [Weitere Informationen zum Erstellen von Zielgruppen](../audience/one-time-audience.md) | ![Bild, das den Zugriff auf die Benutzeroberfläche zur Zielgruppenerstellung zeigt](assets/access-audience.png){width="200" align="center" zoomable="yes"} |
-| **Workflow-Aktivitäten anpassen**: Wenden Sie Regeln innerhalb von Workflow-Aktivitäten an, z. B. **Aufspaltung** und **Abstimmung**, um sie an Ihre spezifischen Anforderungen anzupassen.  [Weitere Informationen zu Workflow-Aktivitäten](../workflows/activities/about-activities.md) | ![Bild, das den Zugriff auf Optionen zur Workflow-Anpassung zeigt](assets/access-workflow.png){width="200" align="center" zoomable="yes"} |
-| **Vordefinierte Filter**: Erstellen Sie vordefinierte Filter, die bei verschiedenen Filtervorgängen als Abkürzungen dienen, unabhängig davon, ob Sie mit Datenlisten arbeiten oder die Zielgruppe für einen Versand bilden.  [Erfahren Sie, wie Sie mit vordefinierten Filtern arbeiten](../get-started/predefined-filters.md) | ![Bild, das den Zugriff auf vordefinierte Filter zeigt](assets/access-predefined-filter.png){width="200" align="center" zoomable="yes"} |
+| **Workflow-Aktivitäten anpassen**: Wenden Sie Regeln innerhalb von Workflow-Aktivitäten an, z. B. **Aufspaltung** und **Abstimmung**, um sie an Ihre spezifischen Anforderungen anzupassen. [Weitere Informationen zu Workflow-Aktivitäten](../workflows/activities/about-activities.md) | ![Bild, das den Zugriff auf Optionen zur Workflow-Anpassung zeigt](assets/access-workflow.png){width="200" align="center" zoomable="yes"} |
+| **Vordefinierte Filter**: Erstellen Sie vordefinierte Filter, die bei verschiedenen Filtervorgängen als Abkürzungen dienen, unabhängig davon, ob Sie mit Datenlisten arbeiten oder die Zielgruppe für einen Versand bilden. [Erfahren Sie, wie Sie mit vordefinierten Filtern arbeiten](../get-started/predefined-filters.md) | ![Bild, das den Zugriff auf vordefinierte Filter zeigt](assets/access-predefined-filter.png){width="200" align="center" zoomable="yes"} |
 | **Berichtsdaten filtern**: Fügen Sie Regeln hinzu, um die in Berichten angezeigten Daten zu filtern. [Informationen zum Arbeiten mit Profilen](../reporting/gs-reports.md) | ![Bild, das die Filterung von Daten in Berichten zeigt](assets/access-reports.png){width="200" align="center" zoomable="yes"} |
 | **Listen anpassen**: Erstellen Sie benutzerdefinierte Regeln, um die in Listen angezeigten Daten zu filtern, wie z. B. Empfängerinnen und Empfänger oder Sendungslisten. [Informationen zum Filtern von Listen](../get-started/list-filters.md#list-built-in-filters) | ![Bild, das die Anpassung von Listenfiltern zeigt](assets/access-lists.png){width="200" align="center" zoomable="yes"} |
 | **Bedingten Inhalt erstellen**: Gestalten Sie den E-Mail-Inhalt dynamisch, indem Sie Bedingungen erstellen, die festlegen, welche Inhalte den verschiedenen Empfangenden angezeigt werden sollen, und so personalisierte und relevante Nachrichten sicherstellen. [Informationen zum Erstellen von bedingten Inhalten](../personalization/conditions.md) | ![Bild, das die Erstellung von bedingten Inhalten zeigt](assets/conditional-content.png){width="200" align="center" zoomable="yes"} |

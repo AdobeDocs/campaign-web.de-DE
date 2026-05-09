@@ -3,9 +3,9 @@ audience: end-user
 title: Konfigurieren von Workflow-Einstellungen
 description: Erfahren Sie, wie Sie Workflow-Einstellungen mit Adobe Campaign Web festlegen
 exl-id: 3aef912b-086b-4aa4-9556-c09396112313
-source-git-commit: 73dfc1e14e04493a76e1ca91fab0306cd1e88b26
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '1083'
+source-wordcount: '1087'
 ht-degree: 100%
 
 ---
@@ -106,4 +106,4 @@ Wenn der Workflow [mit einer Kampagne verknüpft](create-workflow.md) ist, wird 
 >title="Initialisierungsskript"
 >abstract="In diesem Abschnitt können Sie JavaScript-Code definieren, der zu Beginn des Workflows ausgeführt wird. Er kann verwendet werden, um Variablen zu initialisieren, Parameter festzulegen oder Daten vorzubereiten, bevor Workflow-Aktivitäten ausgeführt werden."
 
-Mit dem **Initialisierungsskript** können Sie Variablen initialisieren oder Aktivitätseigenschaften ändern. Klicken Sie auf die Schaltfläche **Code bearbeiten** und geben Sie das auszuführende Code-Snippet ein. Das Skript wird aufgerufen, wenn der Workflow ausgeführt wird. Weitere Informationen finden Sie im Abschnitt zu den [Ereignisvariablen](../workflows/event-variables.md).
+Mit dem **Initialisierungsskript** können Sie Variablen initialisieren oder Aktivitätseigenschaften ändern. Klicken Sie auf die Schaltfläche **Code bearbeiten** und geben Sie das auszuführende Code-Fragment ein. Das Skript wird aufgerufen, wenn der Workflow ausgeführt wird. Weitere Informationen finden Sie im Abschnitt zu den [Ereignisvariablen](../workflows/event-variables.md).

@@ -3,9 +3,9 @@ audience: end-user
 title: Arbeiten mit Ordnern
 description: Erfahren Sie, wie Sie in Adobe Campaign einen Ordner verwalten.
 exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
-source-git-commit: 6901533f1f5c45ce9ebf77a4f1095d8476c6a21b
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '721'
+source-wordcount: '735'
 ht-degree: 100%
 
 ---
@@ -55,7 +55,7 @@ Gehen Sie wie folgt vor, um in der Adobe Campaign Web-Benutzeroberfläche einen 
 
 ![Option „Neuen Ordner erstellen“ im Menü „Explorer“](assets/folder_create.png){zoomable="yes"}
 
-Wenn Sie einen neuen Ordner erstellen, ist der Ordnertyp standardmäßig vom selben Typ wie der übergeordnete Ordner.  In diesem Beispiel wird ein Ordner im Ordner **[!UICONTROL Sendungen]** erstellt.
+Wenn Sie einen neuen Ordner erstellen, ist der Ordnertyp standardmäßig vom selben Typ wie der übergeordnete Ordner. In diesem Beispiel wird ein Ordner im Ordner **[!UICONTROL Sendungen]** erstellt.
 
 ![Neuer Ordner, der im Ordner „Sendungen“ erstellt wurde](assets/folder_new.png){zoomable="yes"}
 

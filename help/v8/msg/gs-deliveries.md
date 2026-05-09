@@ -6,7 +6,7 @@ feature: Email, Push, SMS, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 3afff35c-c15f-46f8-b791-9bad5e38ea44
-source-git-commit: 934a37cfebfacd2df0b7610285252d883611f252
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
 source-wordcount: '486'
 ht-degree: 100%
@@ -51,7 +51,7 @@ Um einen Versand aus der Liste der Sendungen zu duplizieren, gehen Sie wie folgt
 
 1. Klicken Sie auf die Schaltfläche mit den drei Punkten rechts neben dem Namen des zu duplizierenden Versands.
 1. Wählen Sie **[!UICONTROL Duplizieren]** aus.
-1. Bestätigen Sie die Duplizierung. Das Dashboard des neuen Versands wird nun im mittleren Bereich des Bildschirms geöffnet. 
+1. Bestätigen Sie die Duplizierung. Das Dashboard des neuen Versands wird nun im mittleren Bereich des Bildschirms geöffnet.
 
 Gehen Sie wie folgt vor, um einen Versand über sein Dashboard zu duplizieren:
 

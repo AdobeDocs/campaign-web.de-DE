@@ -6,9 +6,9 @@ feature: Email, Push, SMS, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 803a20ac-e75f-45c6-af89-054b84eb3405
-source-git-commit: 0cc09a983d412889f2b734a5bfb30bf422247ec0
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '983'
+source-wordcount: '986'
 ht-degree: 90%
 
 ---
@@ -36,7 +36,7 @@ Gehen Sie wie folgt vor, um einen eigenständigen Versand zu erstellen:
 
    ![Screenshot mit der Schaltfläche „Versand erstellen“ im Menü „Sendungen“](assets/create-a-delivery.png){zoomable="yes"}
 
-1. Wählen Sie einen Kanal für den Versand aus. 
+1. Wählen Sie einen Kanal für den Versand aus.
 1. Definieren Sie die Versandzielgruppe sowohl für die Hauptzielgruppe als auch für die Kontrollgruppe. [Weitere Informationen zu Zielgruppen](../audience/about-recipients.md).
 
    ![Screenshot mit der Benutzeroberfläche zur Zielgruppenauswahl](assets/select-audience.png){zoomable="yes"}{width="70%" align="left"}
@@ -59,7 +59,7 @@ Gehen Sie wie folgt vor, um einen eigenständigen Versand zu erstellen:
 Gehen Sie wie folgt vor, um einen Versand in einem Workflow zu erstellen:
 
 1. Erstellen Sie einen neuen Workflow oder öffnen Sie einen vorhandenen. [Erfahren Sie mehr über Workflows](../workflows/gs-workflow-creation.md#gs-workflow-steps)
-1. Fügen Sie eine Aktivität [**[!UICONTROL Zielgruppe erstellen]**](../workflows/activities/build-audience.md) hinzu und konfigurieren Sie sie. 
+1. Fügen Sie eine Aktivität [**[!UICONTROL Zielgruppe erstellen]**](../workflows/activities/build-audience.md) hinzu und konfigurieren Sie sie.
 1. Klicken Sie auf das `+`-Symbol und wählen Sie eine Versandaktivität aus: **[!UICONTROL E-Mail]**, **[!UICONTROL SMS]**, **[!UICONTROL Push-Benachrichtigung (Android)]** oder **[!UICONTROL Push-Benachrichtigung (iOS)]**. In [diesem Abschnitt](../workflows/activities/channels.md) erfahren Sie mehr über die Versandkanalaktivitäten in einem Workflow und darüber, wie Sie Versandinhalte definieren.
 
    ![Screenshot mit dem Hinzufügen einer Versandaktivität zu einem Workflow](assets/add-delivery-in-wf.png){zoomable="yes"}

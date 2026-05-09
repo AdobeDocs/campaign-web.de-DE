@@ -3,9 +3,9 @@ audience: end-user
 title: Erstellen eines Push-Benachrichtigungs-Versands
 description: Erfahren Sie, wie Sie einen Push-Benachrichtigungs-Versand mit Adobe Campaign Web erstellen
 exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
-source-git-commit: 53f4662e9497c8614036f9f89c1ea2b1233756f0
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '1632'
+source-wordcount: '1657'
 ht-degree: 100%
 
 ---
@@ -59,7 +59,7 @@ Ihre Anwendungsvariablen werden automatisch im Menü **[!UICONTROL Anwendungsvar
 
   Um eine Nachricht zu verfassen, auf die Felder **[!UICONTROL Titel]** und **[!UICONTROL Nachricht]** klicken. Verwenden Sie den Ausdruckseditor, um Inhalte zu definieren, Daten zu personalisieren und dynamische Inhalte hinzuzufügen.
 
-  Push-Benachrichtigungen können weiter personalisiert werden. Wählen Sie hierzu ein Bild aus, das der Push-Benachrichtigung hinzugefügt werden soll, sowie das Symbol der Benachrichtigung, das auf den Geräten der Profile angezeigt werden soll, und dessen Farbe. 
+  Push-Benachrichtigungen können weiter personalisiert werden. Wählen Sie hierzu ein Bild aus, das der Push-Benachrichtigung hinzugefügt werden soll, sowie das Symbol der Benachrichtigung, das auf den Geräten der Profile angezeigt werden soll, und dessen Farbe.
 
   ![Beschreibung: Beispiel für das Definieren von Inhalten für eine Benachrichtigung in Android-Benachrichtigungen](assets/push_content_3.png){zoomable="yes"}
 

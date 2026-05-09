@@ -3,9 +3,9 @@ audience: end-user
 title: Verwenden der Workflow-Aktivität „Inkrementelle Abfrage“
 description: Informationen dazu, wie Sie die Workflow-Aktivität „Inkrementelle Abfrage“ verwenden
 exl-id: 72bd307b-eba2-42a0-9744-05e089c34925
-source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '716'
+source-wordcount: '717'
 ht-degree: 100%
 
 ---
@@ -36,7 +36,7 @@ Die Aktivität **Inkrementelle Abfrage** ist eine Aktivität zur **Zielgruppenbe
 Die Aktivität **[!UICONTROL Inkrementelle Abfrage]** kann zu verschiedenen Zwecken eingesetzt werden:
 
 * Segmentierung von Populationen, um die Zielgruppe für eine Nachricht, Zielgruppe oder andere Vorgänge zu definieren.
-* Export von Daten.  Verwenden Sie die Aktivität beispielsweise, um regelmäßig neue Protokolle in Dateien zu exportieren. Dies ist für externe Berichte oder Business Intelligence-Tools nützlich.
+* Export von Daten. Verwenden Sie die Aktivität beispielsweise, um regelmäßig neue Protokolle in Dateien zu exportieren. Dies ist für externe Berichte oder Business Intelligence-Tools nützlich.
 
 Die bereits bei früheren Ausführungen ausgewählte Population wird im Workflow gespeichert. Zwei Workflows, die aus derselben Vorlage gestartet werden, verwenden nicht dasselbe Protokoll. Zwei Aufgaben, die auf derselben inkrementellen Abfrage im selben Workflow basieren, verwenden jedoch dasselbe Protokoll.
 

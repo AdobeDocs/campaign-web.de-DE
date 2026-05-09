@@ -3,9 +3,9 @@ audience: end-user
 title: Laden einer E-Mail-Zielgruppe aus einer Datei
 description: Erfahren Sie, wie Sie Profile aus einer externen Datei laden, um eine E-Mail-Zielgruppe zu erstellen.
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '694'
 ht-degree: 100%
 
 ---
@@ -42,7 +42,7 @@ Die Profile aus der Eingabedatei werden nicht in die Datenbank aufgenommen. Sie 
 
 ## Wichtige Informationen {#must-read}
 
-* Diese Funktion ist nur für **E-Mail-Sendungen** verfügbar. 
+* Diese Funktion ist nur für **E-Mail-Sendungen** verfügbar.
 * Unterstützte Dateiformate sind: Text (TXT) und kommagetrennte Werte (CSV).
 * Sie können keine [Kontrollgruppen](control-group.md) verwenden, wenn Sie die Zielgruppenpopulation aus einer externen Datei laden.
 

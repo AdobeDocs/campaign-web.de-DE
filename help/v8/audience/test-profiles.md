@@ -5,9 +5,9 @@ feature: Audiences, Profiles, Seed Address, Proofs
 role: User
 level: Beginner
 exl-id: d372713d-3024-46a1-b62e-f271b8ac829f
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '643'
+source-wordcount: '645'
 ht-degree: 100%
 
 ---
@@ -23,15 +23,15 @@ Testprofile werden verwendet, um Testsendungen durchzuführen und den Inhalt sow
 
 ➡️ [Entdecken Sie diese Funktion im Video](#video)
 
-<!--Learn more about test profiles in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html?lang=de){target="_blank"}.-->
+<!--Learn more about test profiles in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}.-->
 
 Informationen zum Versand von Testsendungen an Testprofile finden Sie in [diesem Abschnitt](../preview-test/test-deliveries.md#test-profiles).
 
 >[!NOTE]
 >
->* Testprofile werden als Testadressen in der Client-Konsole erstellt. 
+>* Testprofile werden als Testadressen in der Client-Konsole erstellt.
 >
->* Testprofile werden aus Berichten zu folgenden Versandstatistiken automatisch ausgeschlossen: **[!UICONTROL Klicks]**, **[!UICONTROL Öffnungen]**, **[!UICONTROL Abmeldungen]**. 
+>* Testprofile werden aus Berichten zu folgenden Versandstatistiken automatisch ausgeschlossen: **[!UICONTROL Klicks]**, **[!UICONTROL Öffnungen]**, **[!UICONTROL Abmeldungen]**.
 
 ## Zugreifen auf und Verwalten von Testprofilen {#access-test-profiles}
 
@@ -112,4 +112,4 @@ Das soeben erstellte Testprofil kann jetzt zur Durchführung einer Testsendung v
 
 Erfahren Sie, wie Sie mit der Campaign Web-Benutzeroberfläche Testprofile erstellen und verwalten.
 
->[!VIDEO](https://video.tv.adobe.com/v/3442904?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3442844?quality=12)

@@ -3,7 +3,7 @@ audience: end-user
 title: Verwenden der Workflow-Aktivität „Kombinieren“.
 description: Erfahren Sie, wie Sie die Workflow-Aktivität „Kombinieren“ verwenden.
 exl-id: 7e821678-e6a2-4613-b05e-6ccbe4df41c3
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
 source-wordcount: '950'
 ht-degree: 100%
@@ -59,7 +59,7 @@ Führen Sie die folgenden Schritte aus, um mit der Aktivität **Kombinieren** zu
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_combine_reconciliation"
 >title="Abstimmoptionen"
->abstract="Wählen Sie den **Abstimmtyp** aus, um festzulegen, wie Duplikate behandelt werden. Die Option **Schlüssel** ist standardmäßig aktiviert. Das heißt, die Aktivität behält nur ein Element bei, wenn mehrere aus verschiedenen eingehenden Transitionen stammende Elemente denselben Schlüssel aufweisen. Verwenden Sie die Option **Auswahl an Spalten**, um die Liste der Spalten zu definieren, auf die die Datenabstimmung angewendet werden soll. "
+>abstract="Wählen Sie den **Abstimmtyp** aus, um festzulegen, wie Duplikate behandelt werden. Die Option **Schlüssel** ist standardmäßig aktiviert. Das heißt, die Aktivität behält nur ein Element bei, wenn mehrere aus verschiedenen eingehenden Transitionen stammende Elemente denselben Schlüssel aufweisen. Verwenden Sie die Option **Auswahl an Spalten**, um die Liste der Spalten zu definieren, auf die die Datenabstimmung angewendet werden soll."
 
 Konfigurieren Sie in der Aktivität **Kombinieren** eine **Vereinigung**, indem Sie den **Abstimmtyp** auswählen, um die Verarbeitung von Duplikaten zu definieren:
 
@@ -71,9 +71,9 @@ Konfigurieren Sie in der Aktivität **Kombinieren** eine **Vereinigung**, indem 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_intersection_reconciliation_options"
 >title="Abstimmoptionen für Schnittmengen"
->abstract="Wählen Sie den **Abstimmtyp** aus, um festzulegen, wie Duplikate behandelt werden. Die Option **Schlüssel** ist standardmäßig aktiviert. Das heißt, die Aktivität behält nur ein Element bei, wenn mehrere aus verschiedenen eingehenden Transitionen stammende Elemente denselben Schlüssel aufweisen. Verwenden Sie die Option **Auswahl an Spalten**, um die Liste der Spalten zu definieren, auf die die Datenabstimmung angewendet werden soll. "
+>abstract="Wählen Sie den **Abstimmtyp** aus, um festzulegen, wie Duplikate behandelt werden. Die Option **Schlüssel** ist standardmäßig aktiviert. Das heißt, die Aktivität behält nur ein Element bei, wenn mehrere aus verschiedenen eingehenden Transitionen stammende Elemente denselben Schlüssel aufweisen. Verwenden Sie die Option **Auswahl an Spalten**, um die Liste der Spalten zu definieren, auf die die Datenabstimmung angewendet werden soll."
 
-Konfigurieren Sie in der Aktivität **Kombinieren** eine **Schnittmenge**, indem Sie diese zusätzlichen Schritte ausführen: 
+Konfigurieren Sie in der Aktivität **Kombinieren** eine **Schnittmenge**, indem Sie diese zusätzlichen Schritte ausführen:
 
 1. Wählen Sie den **Abstimmtyp**, um festzulegen, wie Duplikate behandelt werden. Siehe den Abschnitt [Vereinigung](#union).
 1. Aktivieren Sie die Option **Komplement erzeugen**, wenn Sie auch die nicht in der Schnittmenge enthaltene Population verwenden möchten. Das Komplement enthält die Vereinigung der Ergebnisse aller eingehenden Aktivitäten abzüglich der Schnittmenge. Der Aktivität wird daraufhin eine zusätzliche ausgehende Transition hinzugefügt.
@@ -100,7 +100,7 @@ Konfigurieren Sie in der Aktivität **Kombinieren** eine **Schnittmenge**, indem
 >title="Kombinieren von „Komplement erzeugen“"
 >abstract="Aktivieren Sie die Option „Komplement erzeugen“, um die verbleibende Population in einer zusätzlichen Transition zu verarbeiten."
 
-Konfigurieren Sie in der Aktivität **Kombinieren** einen **Ausschluss**, indem Sie diese zusätzlichen Schritte ausführen: 
+Konfigurieren Sie in der Aktivität **Kombinieren** einen **Ausschluss**, indem Sie diese zusätzlichen Schritte ausführen:
 
 1. Wählen Sie im Abschnitt **Zusammenzuführende Mengen** die **Hauptmenge** aus den eingehenden Transitionen. Dies ist die Menge, aus der Elemente ausgeschlossen werden. Die eingehenden Transitionen müssen Populationen gleichen Typs enthalten.
 1. Bei Bedarf können die eingehenden Tabellen angepasst werden. Um eine Zielgruppe aus einer anderen Dimension auszuschließen, setzen Sie diese Zielgruppe auf dieselbe Zielgruppendimension wie die Hauptzielgruppe zurück. Klicken Sie im Abschnitt **Ausschlussregeln** auf **Regel hinzufügen** und geben Sie die Bedingungen für die Dimensionsänderung an. Die Datenabstimmung wird entweder über ein Attribut oder einen Join durchgeführt.

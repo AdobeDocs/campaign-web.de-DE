@@ -2,9 +2,9 @@
 title: Erste Schritte mit Profilen
 description: Erfahren Sie, wie Sie Profile in Adobe Campaign Web überwachen und verwalten können.
 exl-id: 0b28741a-28f6-4f46-8c4c-820c5036aeda
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '441'
 ht-degree: 100%
 
 ---
@@ -46,4 +46,4 @@ Um ein Profil zu löschen, wählen Sie die entsprechende Option im Menü **[!UIC
 
 Informationen dazu, wie Sie mit der Campaign Web-Benutzeroberfläche auf Profile zugreifen und diese verwalten und erkunden können
 
->[!VIDEO](https://video.tv.adobe.com/v/3448373?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3427293?quality=12)

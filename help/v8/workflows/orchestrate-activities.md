@@ -3,9 +3,9 @@ audience: end-user
 title: Erstellen von Workflows mit Adobe Campaign Web
 description: Erfahren Sie, wie Sie Workflows mit Adobe Campaign Web erstellen
 exl-id: 0c8e2158-518c-4620-9971-00ed2eccdd4f
-source-git-commit: 0cc09a983d412889f2b734a5bfb30bf422247ec0
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '1321'
+source-wordcount: '1326'
 ht-degree: 97%
 
 ---
@@ -49,7 +49,7 @@ Die Symbolleiste oben rechts in der Arbeitsfläche bietet Optionen zum einfachen
 
 ## Verwalten von Aktivitäten {#manage}
 
-Beim Hinzufügen von Aktivitäten sind im Bereich mit den Eigenschaften Aktionsschaltflächen verfügbar, mit denen Sie mehrere Vorgänge ausführen können. 
+Beim Hinzufügen von Aktivitäten sind im Bereich mit den Eigenschaften Aktionsschaltflächen verfügbar, mit denen Sie mehrere Vorgänge ausführen können.
 
 ![Aktionsschaltflächen für Aktivitäten](assets/activity-action.png){zoomable="yes"}
 
@@ -103,7 +103,7 @@ So verschieben Sie eine Aktivität:
 
 ## Ausführungsoptionen {#execution}
 
-Sie können die Ausführungsoptionen aller Aktivitäten verwalten.  Wählen Sie eine Aktivität aus und klicken Sie auf die Schaltfläche **Ausführungsoptionen**. Auf diese Weise können Sie den Ausführungsmodus und das Verhalten der Aktivität im Falle eines Fehlers definieren.
+Sie können die Ausführungsoptionen aller Aktivitäten verwalten. Wählen Sie eine Aktivität aus und klicken Sie auf die Schaltfläche **Ausführungsoptionen**. Auf diese Weise können Sie den Ausführungsmodus und das Verhalten der Aktivität im Falle eines Fehlers definieren.
 
 ![Panel „Ausführungsoptionen“](assets/workflow-execution-options.png){zoomable="yes"}{width="70%"}
 
@@ -111,7 +111,7 @@ Sie können die Ausführungsoptionen aller Aktivitäten verwalten.  Wählen Sie
 
 >[!CONTEXTUALHELP]
 >id="acw_workflow_activity_execution_options_properties"
->title="Aktivitätseigenschaften    "
+>title="Aktivitätseigenschaften"
 >abstract="In diesem Abschnitt können Sie die Ausführungseinstellungen für eine Aktivität konfigurieren, einschließlich der auszuführenden Aktion, der maximalen Dauer, der Zeitzone, der Maschinenaffinität und des asynchronen Verhaltens."
 
 Im Feld **Ausführung** können Sie die Aktion definieren, die beim Starten der Aufgabe ausgelöst werden soll.

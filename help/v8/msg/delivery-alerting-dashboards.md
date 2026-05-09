@@ -3,9 +3,9 @@ audience: end-user
 title: Versandwarnung
 description: Erfahren Sie, wie Sie mit Versandwarnungen arbeiten können.
 exl-id: b91ef82b-f3e9-4704-87a2-0e3f75104572
-source-git-commit: 037b04475370b1a34ecec31ef2a774866278ce65
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '1115'
+source-wordcount: '1130'
 ht-degree: 99%
 
 ---
@@ -15,9 +15,9 @@ ht-degree: 99%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_dashboards"
 >title="Versandwarnungs-Dashboards"
->abstract="Bei Versandwarnungen handelt es sich um ein System zum Warnungs-Management, über das Benutzergruppen automatisch E-Mail-Benachrichtigungen mit Informationen zu ihren Versandausführungen erhalten.  In Versandwarnungs-Dashboards können Sie festlegen, wer E-Mail-Warnungen erhalten soll, die Warnungskriterien zum Senden dieser Warnungen auswählen und konfigurieren sowie auf den Verlauf aller gesendeten Benachrichtigungen zugreifen."
+>abstract="Bei Versandwarnungen handelt es sich um ein System zum Warnungs-Management, über das Benutzergruppen automatisch E-Mail-Benachrichtigungen mit Informationen zu ihren Versandausführungen erhalten. In Versandwarnungs-Dashboards können Sie festlegen, wer E-Mail-Warnungen erhalten soll, die Warnungskriterien zum Senden dieser Warnungen auswählen und konfigurieren sowie auf den Verlauf aller gesendeten Benachrichtigungen zugreifen."
 
-In Versandwarnungs-Dashboards können Sie festlegen, wer E-Mail-Warnungen erhalten soll, die Warnungskriterien zum Senden dieser Warnungen auswählen und konfigurieren sowie auf den Verlauf aller gesendeten Benachrichtigungen zugreifen.  Zugriff darauf erhalten Sie über das Menü **Versandwarnung** im linken Navigationsbereich, und zwar durch die Registerkarte **Dashboards**.
+In Versandwarnungs-Dashboards können Sie festlegen, wer E-Mail-Warnungen erhalten soll, die Warnungskriterien zum Senden dieser Warnungen auswählen und konfigurieren sowie auf den Verlauf aller gesendeten Benachrichtigungen zugreifen. Zugriff darauf erhalten Sie über das Menü **Versandwarnung** im linken Navigationsbereich, und zwar durch die Registerkarte **Dashboards**.
 
 ![Screenshot mit der Liste der Warnungs-Dashboards im Menü „Versandwarnung“](assets/alerting-dashboard-list.png)
 
@@ -35,7 +35,7 @@ In Versandwarnungs-Dashboards können Sie festlegen, wer E-Mail-Warnungen erhalt
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_create_criteria_add"
->title="Versandwarnungsbedingungen        "
+>title="Versandwarnungsbedingungen"
 >abstract="Fügen Sie in diesem Abschnitt Kriterien hinzu, mit denen Sie Warnungen über dieses Dashboard senden möchten. Wählen Sie aus vordefinierten Kriterien oder erstellen Sie eigene Kriterien, um sie an bestimmte Anforderungen anzupassen."
 
 >[!CONTEXTUALHELP]

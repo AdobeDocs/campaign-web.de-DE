@@ -3,9 +3,9 @@ audience: end-user
 title: Briefpost-Berichte
 description: Erfahren Sie, wie Sie auf Briefpost-Berichte zugreifen und diese verwenden können.
 exl-id: 268fe1e3-bd5c-40f1-8973-7671cd8c9960
-source-git-commit: 1a2ab055822bea4cd55230fb63b59234aa114ff7
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '696'
+source-wordcount: '710'
 ht-degree: 95%
 
 ---
@@ -25,7 +25,7 @@ Der folgende Bericht wird im Zusammenhang mit Briefpost beschrieben. Es ist auch
 >title="Versandübersicht"
 >abstract="Die **Versandübersicht** präsentiert wichtige Leistungsmetriken (KPI) mit umfassenden Erkenntnissen zur Interaktion Ihrer Besucherinnen und Besucher mit jedem Briefpostversand. Die Metriken sind unten dargestellt."
 
-Die **[!UICONTROL Versandübersicht]** bietet detaillierte Erkenntnisse über die Interaktion Ihrer Besucherinnen und Besucher mit jedem Briefpostversand und zeigt wichtige Leistungsmetriken (KPIs).  Die Metriken sind unten dargestellt.
+Die **[!UICONTROL Versandübersicht]** bietet detaillierte Erkenntnisse über die Interaktion Ihrer Besucherinnen und Besucher mit jedem Briefpostversand und zeigt wichtige Leistungsmetriken (KPIs). Die Metriken sind unten dargestellt.
 
 ![Diagramm mit Metriken zur Versandübersicht mit Key Performance Indicators für den Briefpost-Versand](assets/direct-overview.png){zoomable="yes"}{align="center"}
 

@@ -3,7 +3,7 @@ audience: end-user
 title: Verwenden der Workflow-Aktivität „Verzweigung“
 description: Erfahren Sie, wie Sie die Workflow-Aktivität „Verzweigung“ verwenden.
 exl-id: 5c7ff58b-5504-4b8e-879f-44754b7dcf8a
-source-git-commit: 0cc09a983d412889f2b734a5bfb30bf422247ec0
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
 source-wordcount: '184'
 ht-degree: 91%
@@ -25,7 +25,7 @@ ht-degree: 91%
 
 Die Aktivität **Verzweigung** ist eine Aktivität zur **Flusssteuerung**. Sie ermöglicht Ihnen, ausgehende Transitionen zum gleichzeitigen Start mehrerer Aktivitäten zu erstellen.
 
-Sie können auch eine separate Verzweigung mithilfe der Symbolleistenschaltfläche **Verzweigung hinzufügen** (**+**) erstellen. Siehe [Aktivitäten &#x200B;](../orchestrate-activities.md#toolbar).
+Sie können auch eine separate Verzweigung mithilfe der Symbolleistenschaltfläche **Verzweigung hinzufügen** (**+**) erstellen. Siehe [Aktivitäten ](../orchestrate-activities.md#toolbar).
 
 ## Konfigurieren der Verzweigungsaktivität {#fork-configuration}
 

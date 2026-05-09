@@ -3,10 +3,10 @@ audience: end-user
 title: Erstellen eines SMS-Versands
 description: Erfahren Sie, wie Sie SMS mit Adobe Campaign Web erstellen und senden
 exl-id: 54181498-8164-4600-8b3f-20892b77d5d7
-source-git-commit: 93525fd1900c3a667051720205219ae5f9884736
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '532'
-ht-degree: 94%
+source-wordcount: '552'
+ht-degree: 95%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 94%
 >abstract="Wählen Sie eine vordefinierte Vorlage aus, um Ihren SMS-Versand zu starten. Versandvorlagen ermöglichen die Wiederverwendung benutzerdefinierter Inhalte und Einstellungen in allen Kampagnen und Sendungen."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html?lang=de" text="Verwenden von Versandvorlagen"
 
-Sie können einen eigenständigen SMS-Versand erstellen oder eine SMS im Kontext eines Kampagnen-Workflows erstellen. Die folgenden Schritte beschreiben die Vorgehensweise für einen eigenständigen (einmaligen) SMS-Versand. Wenn Sie im Kontext eines Kampagnen-Workflows arbeiten, finden Sie in [diesem Abschnitt](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow) detaillierte Schritte, um einen solchen Versand zu erstellen. 
+Sie können einen eigenständigen SMS-Versand erstellen oder eine SMS im Kontext eines Kampagnen-Workflows erstellen. Die folgenden Schritte beschreiben die Vorgehensweise für einen eigenständigen (einmaligen) SMS-Versand. Wenn Sie im Kontext eines Kampagnen-Workflows arbeiten, finden Sie in [diesem Abschnitt](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow) detaillierte Schritte, um einen solchen Versand zu erstellen.
 
 Gehen Sie wie folgt vor, um einen eigenständigen SMS-Versand zu erstellen:
 

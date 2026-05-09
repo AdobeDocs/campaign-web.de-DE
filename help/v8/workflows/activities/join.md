@@ -3,10 +3,10 @@ audience: end-user
 title: Verwenden der Workflow-Aktivität „Zusammenführen“
 description: Erfahren Sie, wie Sie die Workflow-Aktivität „Zusammenführen“ verwenden
 exl-id: 2470e5fa-5596-4441-b9b9-7e8b5d1d53aa
-source-git-commit: 9b51dc84a5b6954c973e1560aad877ef770eb8f9
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '475'
-ht-degree: 33%
+source-wordcount: '489'
+ht-degree: 43%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 33%
 >title="Aktivität „Zusammenführen“"
 >abstract="Die **Zusammenführen** ermöglicht das Zusammenführen mehrerer eingehender Transitionen. Wählen Sie aus, ob der Vorgang fortgesetzt werden soll, wenn alle eingehenden Transitionen abgeschlossen sind (AND) oder wenn eine eingehende Transition abgeschlossen ist (OR)."
 
-Die Aktivität **Zusammenführen** ist eine Aktivität **Fluss-Steuerung**. Es synchronisiert mehrere Ausführungszweige eines Workflows.
+Die Aktivität **Zusammenführen** ist eine Aktivität **Fluss-Steuerung**. Sie synchronisiert mehrere Ausführungszweige eines Workflows.
 Sie können auswählen, wie eingehende Transitionen ausgewertet werden sollen:
 
 * **AND**: Wird nur fortgesetzt, nachdem alle ausgewählten eingehenden Transitionen aktiviert wurden.
@@ -47,7 +47,7 @@ Wenn **OR** ausgewählt ist, wird die Ausführung fortgesetzt, sobald eine der a
 
 Führen Sie die folgenden Schritte aus, um die Aktivität **Zusammenführen** zu konfigurieren:
 
-1. Fügen Sie mehrere Aktivitäten hinzu, z. B. Kanalaktivitäten, um mindestens zwei verschiedene Ausführungszweige zu bilden. Sie können einen **Verzweigung** verwenden oder eine separate Verzweigung mit der Symbolleistenschaltfläche **Verzweigung hinzufügen** (+) hinzufügen. Siehe [Aktivitäten &#x200B;](../orchestrate-activities.md#toolbar).
+1. Fügen Sie mehrere Aktivitäten wie z. B. Kanalaktivitäten hinzu, um mindestens zwei verschiedene Ausführungszweige zu bilden. Sie können einen **Verzweigung** verwenden oder eine separate Verzweigung mit der Symbolleistenschaltfläche **Verzweigung hinzufügen** (+) hinzufügen. Siehe [Aktivitäten ](../orchestrate-activities.md#toolbar).
 
    ![Screenshot mit zwei Verzweigungen.](../assets/workflow-join.png)
 
@@ -61,12 +61,12 @@ Führen Sie die folgenden Schritte aus, um die Aktivität **Zusammenführen** zu
 
    >[!NOTE]
    >
-   >Das Primäre Feld **&#x200B;**&#x200B;ist nur für die Join **Option „AND** verfügbar.
+   >Das Primäre Feld **** ist nur für die Join **Option „AND** verfügbar.
 
    ![Screenshot mit konfiguriertem Join.](../assets/workflow-join3.png)
 
 ## Beispiel {#join-example}
 
-Das folgende Beispiel zeigt zwei Workflow-Verzweigungen mit einem E-Mail- und SMS-Versand. Die **Zusammenführen**-Aktivität, die auf **UND** festgelegt ist, führt zu Triggern, wenn beide eingehenden Transitionen aktiviert sind. Push-Benachrichtigungen werden erst gesendet, nachdem beide Sendungen abgeschlossen sind. Wenn Sie die Join-Option auf **ODER** setzen, werden die Push-Benachrichtigungen gesendet, sobald die erste eingehende Versandaktivität abgeschlossen ist.
+Das folgende Beispiel zeigt zwei Workflow-Verzweigungen mit einem E-Mail- und SMS-Versand. Die **Zusammenführen**-Aktivität, die auf **UND** festgelegt ist, führt zu Triggern, wenn beide eingehenden Transitionen aktiviert sind. Push-Benachrichtigungen werden erst dann gesendet, wenn beide Sendungen abgeschlossen sind. Wenn Sie die Join-Option auf **ODER** setzen, werden die Push-Benachrichtigungen gesendet, sobald die erste eingehende Versandaktivität abgeschlossen ist.
 
 ![Beispiel eines Workflows mit zwei Verzweigungen, der den E-Mail- und SMS-Versand gefolgt von Push-Benachrichtigungen anzeigt](../assets/workflow-join4.png){zoomable="yes"}

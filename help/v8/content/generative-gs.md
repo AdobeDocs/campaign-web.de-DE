@@ -3,7 +3,7 @@ audience: end-user
 title: Erste Schritte mit dem KI-Assistenten
 description: Erste Schritte mit dem KI-Assistenten
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
-source-git-commit: dbaf192b6d5200d8606859a1a09972df6bb3c26b
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
 source-wordcount: '887'
 ht-degree: 84%

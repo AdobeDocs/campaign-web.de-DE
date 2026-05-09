@@ -3,10 +3,10 @@ audience: end-user
 title: Kampagnenberichte für den E-Mail-Kanal
 description: Weitere Informationen zu Kampagnenberichten für den E-Mail-Kanal
 exl-id: c44c91f8-1f88-4087-8417-34be64a2ab19
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '1677'
-ht-degree: 99%
+source-wordcount: '1707'
+ht-degree: 98%
 
 ---
 
@@ -172,7 +172,7 @@ Die in diesem Bericht angezeigten Fehler lösen einen Quarantäneprozess aus. We
 >title="Aufschlüsselung der Fehler nach Domain"
 >abstract="Die Tabelle und der Graph zur **Aufschlüsselung der Fehler nach Domain** enthalten die verfügbaren Daten für jeden Fehlertyp, der für die einzelnen Domains aufgetreten ist."
 
-Die Tabelle und der Graph zur **[!UICONTROL Aufschlüsselung der Fehler nach Domain]** enthalten die verfügbaren Daten für mögliche Fehler, die bei den einzelnen Domains aufgetreten sind. Die Metriken sind dieselben wie die der Tabelle und des Graphen **[!UICONTROL Aufschlüsselung der Fehler nach Typen]** weiter oben.
+Die Tabelle und der Graph zur **[!UICONTROL Aufschlüsselung der Fehler nach Domain]** enthalten die verfügbaren Daten für mögliche Fehler, die bei den einzelnen Domains aufgetreten sind. Die Metriken sind dieselben wie die der Tabelle und des Graphen **[!UICONTROL Aufschlüsselung der Fehler nach Typ]** weiter oben.
 
 ## Tracking-Indikatoren {#tracking-indicators-email}
 
@@ -246,7 +246,7 @@ Der Bericht **[!UICONTROL URLs und Clickstreams]** bietet wichtige Performance-I
 
 * **[!UICONTROL Klicks insgesamt]**: Gesamtzahl der Klicks auf Links in Sendungen.
 
-* **[!UICONTROL Plattform-Durchschnitt]**: Dieser Durchschnittswert, der unter jeder Rate (Reaktivität, Unique Clicks und Klicks insgesamt) angezeigt wird, bezieht sich auf die in den letzten sechs Monaten verschickten Sendungen. Es werden nur Sendungen mit derselben Typologie und mit demselben Kanal berücksichtigt. Testsendungen sind ausgeschlossen.
+* **[!UICONTROL Plattform-Durchschnitt]**: Dieser unter jeder Rate (Reaktivität, Unique Clicks und Klicks insgesamt) angezeigte Wert bezieht sich auf die Gesamtheit der in den letzten sechs Monaten gesendeten Sendungen. Es werden nur Sendungen mit derselben Typologie und mit demselben Kanal berücksichtigt. Testsendungen sind ausgeschlossen.
 
 +++
 
@@ -285,7 +285,7 @@ Der Graph zur **[!UICONTROL Aufschlüsselung der Klicks im Zeitverlauf]** enthä
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_user_activities"
 >title="Nutzer-Aktivitäten"
->abstract="Der Graph **Benutzeraktivitäten** zeigt die Aufschlüsselung der Öffnungen und Klicks in Form eines Diagramms."
+>abstract="Das Diagramm **Benutzeraktivitäten** zeigt die Aufschlüsselung der Öffnungen und Klicks in Form eines Diagramms."
 
 Der Bericht **[!UICONTROL Benutzeraktivitäten]** zeigt die Aufschlüsselung der Öffnungen und Klicks in Form eines Diagramms. Die Metriken für diesen Bericht werden nachfolgend beschrieben.
 

@@ -3,14 +3,14 @@ audience: end-user
 title: Versandwarnung
 description: Erfahren Sie, wie Sie mit Versandwarnungen arbeiten können.
 exl-id: fc98d4e3-7986-42bb-82d5-b4f874aa71db
-source-git-commit: 037b04475370b1a34ecec31ef2a774866278ce65
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '712'
+source-wordcount: '718'
 ht-degree: 100%
 
 ---
 
-# Versandwarnungsbedingungen         {#delivery-alerting-criteria}
+# Versandwarnungsbedingungen {#delivery-alerting-criteria}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_criteria"
@@ -28,7 +28,7 @@ Sie können über das Menü **Versandwarnung** im linken Navigationsbereich auf 
 Vordefinierte Warnungskriterien sind in der Campaign Web-Benutzeroberfläche verfügbar. Diese Kriterien decken eine Reihe von Szenarien ab, die unten aufgeführt sind:
 
 * **Versandfehler**: Alle in einem bestimmten Zeitraum geplanten Sendungen mit einem Fehler als Status.
-* **Sendungen mit fehlgeschlagener Vorbereitung**: Alle in einem bestimmten Zeitraum geänderten Sendungen, deren Vorbereitung (Zielgruppenberechnung und Inhaltserstellung) fehlgeschlagen ist.
+* **Sendungen mit fehlgeschlagener Vorbereitung**: Alle in einem bestimmten Zeitraum geänderten Sendungen, deren Vorbereitung (Zielgruppenberechnung und Inhaltsvorbereitung) fehlgeschlagen ist.
 * **Versand mit zu hoher Softbounce-Fehlerrate**: Alle in einem bestimmten Zeitraum geplanten Sendungen, deren Status zumindest „In Bearbeitung“ lautet und deren Softbounce-Fehlerrate über dem festgelegten Prozentsatz liegt.
 * **Versand mit zu hoher Hardbounce-Fehlerrate**: Alle in einem bestimmten Zeitraum geplanten Sendungen, deren Status zumindest „In Bearbeitung“ lautet und deren Hardbounce-Fehlerrate über dem festgelegten Prozentsatz liegt.
 * **Sendungen mit lange ausstehendem Start**: Alle in einem bestimmten Zeitraum geplanten Sendungen, die sich länger als die definierte Dauer im Status „Start ausstehend“ befinden. „Start ausstehend“ bedeutet, dass die Nachrichten vom System noch nicht berücksichtigt wurden.

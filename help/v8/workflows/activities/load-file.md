@@ -3,9 +3,9 @@ audience: end-user
 title: Verwenden der Workflow-Aktivität „Datei laden“
 description: So verwenden Sie die Workflow-Aktivität „Datei laden“
 exl-id: 230177e2-1926-451a-8a66-0db962ada514
-source-git-commit: b94c1263ea09c9537d1a33983ea78d41b5644fb7
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '1264'
+source-wordcount: '1281'
 ht-degree: 99%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 99%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile"
 >title="Aktivität „Datei laden“"
->abstract="Die Aktivität **Datei laden** ist eine **Daten-Management**-Aktivität. Durch diese Aktivität kann mit Daten gearbeitet werden, die in einer externen Datei gespeichert sind.  Es werden keine Profile und Daten zur Datenbank hinzugefügt, aber alle Felder in der Eingabedatei sind verfügbar zur Personalisierung oder um Profile oder andere Tabellen zu aktualisieren."
+>abstract="Die Aktivität **Datei laden** ist eine **Daten-Management**-Aktivität. Durch diese Aktivität kann mit Daten gearbeitet werden, die in einer externen Datei gespeichert sind. Es werden keine Profile und Daten zur Datenbank hinzugefügt, aber alle Felder in der Eingabedatei sind verfügbar zur Personalisierung oder um Profile oder andere Tabellen zu aktualisieren."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_outboundtransition"

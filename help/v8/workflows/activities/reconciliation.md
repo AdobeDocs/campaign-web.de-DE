@@ -3,9 +3,9 @@ audience: end-user
 title: Verwenden der Workflow-Aktivität „Abstimmung“
 description: Erfahren Sie, wie Sie die Workflow-Aktivität „Abstimmung“ verwenden
 exl-id: 33f2aa76-1e75-4545-805a-016c95824e09
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '824'
+source-wordcount: '850'
 ht-degree: 100%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 100%
 >title="Abstimmung – Komplement erzeugen"
 >abstract="Abstimmung – Komplement erzeugen"
 
-Die Aktivität **Abstimmung** ist eine Aktivität zur **Zielgruppenbestimmung**, die die Verknüpfung zwischen den Daten in der Adobe Campaign-Datenbank und den Daten in einer Arbeitstabelle definiert, z. B. aus einer externen Datei geladene Daten. 
+Die Aktivität **Abstimmung** ist eine Aktivität zur **Zielgruppenbestimmung**, die die Verknüpfung zwischen den Daten in der Adobe Campaign-Datenbank und den Daten in einer Arbeitstabelle definiert, z. B. aus einer externen Datei geladene Daten.
 
 Zum Beispiel kann die Aktivität **Abstimmung** hinter der Aktivität **Datei laden** platziert werden, um nicht standardmäßige Daten in die Datenbank zu laden. In diesem Fall wird definiert die Aktivität **Abstimmung** die Verknüpfung zwischen den Daten in der Adobe Campaign-Datenbank und den Daten in der Arbeitstabelle.
 

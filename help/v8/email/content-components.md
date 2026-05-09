@@ -3,10 +3,10 @@ audience: end-user
 title: Verwenden der Inhaltskomponenten von E-Mail-Designer
 description: Erfahren Sie, wie Sie Inhaltskomponenten in E-Mails verwenden
 exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '1389'
-ht-degree: 100%
+source-wordcount: '1402'
+ht-degree: 98%
 
 ---
 
@@ -94,7 +94,7 @@ Verwenden Sie die Komponente **[!UICONTROL Schaltfläche]**, um eine oder mehrer
 
 ## Text {#text}
 
-Verwenden Sie die Komponente **[!UICONTROL Text]**, um Text in Ihre E-Mail einzufügen und den Stil (Rahmen, Größe, Abstand usw.) mithilfe der Registerkarten **[!UICONTROL Einstellungen]** und **[!UICONTROL Stile]** anzupassen
+Verwenden Sie die **[!UICONTROL Text]**-Komponente, um Text in Ihre E-Mail einzufügen und den Stil (Rahmen, Größe, Abstand usw.) mithilfe der Registerkarten **[!UICONTROL Einstellungen]** und **[!UICONTROL Stile]**.
 
 1. Ziehen Sie **[!UICONTROL Text]** aus dem Menü **[!UICONTROL Inhalte]** per Drag-and-Drop in eine **[!UICONTROL Strukturkomponente]**.
 

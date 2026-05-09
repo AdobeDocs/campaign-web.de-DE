@@ -3,7 +3,7 @@ audience: end-user
 title: Verwenden der Aktivität „Anmeldedienste“
 description: Informationen dazu, wie Sie die Workflow-Aktivität „Anmeldedienste“ verwenden
 exl-id: 0e7c2e9a-3301-4988-ae0e-d901df5b84db
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
 source-wordcount: '1135'
 ht-degree: 100%
@@ -30,7 +30,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription_additionalinfo"
 >title="Zusätzliche Informationen"
->abstract="Geben Sie die Daten und den Ursprung des Abonnements für jeden Eintrag an. Sie können diesen Abschnitt leer lassen. In diesem Fall wird aber bei der Ausführung des Workflows weder ein Datum noch ein Ursprung festgelegt. Wenn die eingehenden Daten eine Spalte enthalten, die das Anmeldedatum des Profils für den Dienst angibt, können Sie diese im Feld **[!UICONTROL Datum]** auswählen. Definieren Sie im Feld **[!UICONTROL Ursprungspfad]** den Ursprung der Anmeldung. Sie können dazu den Wert eines der Felder der eingehenden Daten oder eine beliebige Konstante verwenden, indem Sie die Option **[!UICONTROL Konstante als Ursprung festlegen]** aktivieren. "
+>abstract="Geben Sie die Daten und den Ursprung des Abonnements für jeden Eintrag an. Sie können diesen Abschnitt leer lassen. In diesem Fall wird aber bei der Ausführung des Workflows weder ein Datum noch ein Ursprung festgelegt. Wenn die eingehenden Daten eine Spalte enthalten, die das Anmeldedatum des Profils für den Dienst angibt, können Sie diese im Feld **[!UICONTROL Datum]** auswählen. Definieren Sie im Feld **[!UICONTROL Ursprungspfad]** den Ursprung der Anmeldung. Sie können dazu den Wert eines der Felder der eingehenden Daten oder eine beliebige Konstante verwenden, indem Sie die Option **[!UICONTROL Konstante als Ursprung festlegen]** aktivieren."
 
 Die Aktivität **Anmeldedienste** ist eine **Daten-Management**-Aktivität. Darüber können Sie eine Anmeldung zu einem Informationsdienst für die in der Transition angegebene Population erstellen oder löschen.
 
@@ -54,7 +54,7 @@ Führen Sie die folgenden Schritte aus, um die Aktivität **Anmeldedienste** zu 
 
    * **Bestimmten Vorgangstyp auswählen**: Wählen Sie den durchzuführenden Vorgang (**Abonnieren** oder **Abmelden**) manuell aus.
 
-   * **Aktionstyp aus einem Pfad der eingehenden Transition auswählen**: Wählen Sie die Spalte der eingehenden Daten aus, in der für jeden Eintrag der auszuführende Vorgang angegeben ist. Sie können beispielsweise eine Datei importieren, in der der Vorgang festgelegt ist, der für jede Zeile in einer Spalte „Vorgang“ durchzuführen ist. 
+   * **Aktionstyp aus einem Pfad der eingehenden Transition auswählen**: Wählen Sie die Spalte der eingehenden Daten aus, in der für jeden Eintrag der auszuführende Vorgang angegeben ist. Sie können beispielsweise eine Datei importieren, in der der Vorgang festgelegt ist, der für jede Zeile in einer Spalte „Vorgang“ durchzuführen ist.
 
      Hier können nur die Felder mit booleschen Werten oder Ganzzahlen ausgewählt werden. Stellen Sie sicher, dass die Daten, die den auszuführenden Vorgang enthalten, diesem Format entsprechen. Wenn Sie beispielsweise Daten aus einer Aktivität „Datei laden“ laden, überprüfen Sie, ob Sie das Format der Spalte, die den Vorgang enthält, in der Aktivität **[!UICONTROL Datei laden]** korrekt festgelegt haben. Ein Beispiel finden Sie in [diesem Abschnitt](#uc2).
 
@@ -70,7 +70,7 @@ Führen Sie die folgenden Schritte aus, um die Aktivität **Anmeldedienste** zu 
 
    * Wenn die eingehenden Daten eine Spalte enthalten, die das Anmeldedatum des Profils für den Dienst angibt, können Sie diese im Feld **[!UICONTROL Datum]** auswählen.
 
-   * Definieren Sie im Feld **[!UICONTROL Ursprungspfad]** den Ursprung der Anmeldung. Sie können dazu den Wert eines der Felder der eingehenden Daten oder eine beliebige Konstante verwenden, indem Sie die Option **[!UICONTROL Konstante als Ursprung festlegen]** aktivieren. 
+   * Definieren Sie im Feld **[!UICONTROL Ursprungspfad]** den Ursprung der Anmeldung. Sie können dazu den Wert eines der Felder der eingehenden Daten oder eine beliebige Konstante verwenden, indem Sie die Option **[!UICONTROL Konstante als Ursprung festlegen]** aktivieren.
 
    ![Screenshot mit der Benutzeroberfläche für den Abonnementdienst des Workflows – Zusätzliche Informationen.](../assets/workflow-subscription-service-additional.png)
 
