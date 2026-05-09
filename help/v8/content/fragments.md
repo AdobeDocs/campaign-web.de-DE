@@ -34,7 +34,7 @@ Es stehen zwei Arten von Fragmenten zur Verfügung:
 
   >[!AVAILABILITY]
   >
-  >Diese Funktion erfordert eine Aktualisierung auf Campaign v8.6.4. Weitere Informationen finden Sie in den [ zur Client-Konsole von Campaign v8](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/releases/release-notes).
+  >Diese Funktion erfordert eine Aktualisierung auf Campaign v8.6.4. Weitere Informationen finden Sie in den [&#x200B; zur Client-Konsole von Campaign v8](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/releases/release-notes).
 
 ## Tauchen wir tiefer in die Materie ein
 
