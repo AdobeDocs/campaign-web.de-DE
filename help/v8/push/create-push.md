@@ -3,9 +3,9 @@ audience: end-user
 title: Erstellen eines Push-Benachrichtigungs-Versands
 description: Erfahren Sie, wie Sie mit Adobe Campaign Web einen Versand für eine Push-Benachrichtigung erstellen
 exl-id: 49a3c05c-5806-4269-a98d-915eee216f90
-source-git-commit: 93525fd1900c3a667051720205219ae5f9884736
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '759'
+source-wordcount: '779'
 ht-degree: 94%
 
 ---
@@ -65,7 +65,7 @@ Konfigurieren Sie Ihre Versandeinstellungen wie unten beschrieben:
 
 Sie müssen zuerst die App auswählen und können dann die Zielgruppe für Push-Benachrichtigungen wie unten beschrieben verfeinern:
 
-1. Wählen Sie im Abschnitt **[!UICONTROL Zielgruppe]** die Anwendung aus, die Sie für diesen Versand verwenden möchten. Die Push-Benachrichtigung wird standardmäßig an alle Abonnentinnen und Abonnenten der Anwendung gesendet. Die Auswahl kann auf eine bestimmte Zielgruppe eingeschränkt werden, indem man auf die **[!UICONTROL Zielgruppe auswählen]** auswählen klickt. 
+1. Wählen Sie im Abschnitt **[!UICONTROL Zielgruppe]** die Anwendung aus, die Sie für diesen Versand verwenden möchten. Die Push-Benachrichtigung wird standardmäßig an alle Abonnentinnen und Abonnenten der Anwendung gesendet. Die Auswahl kann auf eine bestimmte Zielgruppe eingeschränkt werden, indem man auf die **[!UICONTROL Zielgruppe auswählen]** auswählen klickt.
 
    ![Screenshot mit der Zielgruppenauswahl für den Push-Versand](assets/push_create_2.png){zoomable="yes"}
 
@@ -91,7 +91,7 @@ Wenn ein Versand im Rahmen eines Workflows durchgeführt wird, müssen Sie die *
 
 Gehen Sie wie folgt vor, um einen eigenständigen Push-Versand für ein bestimmtes Datum und eine bestimmte Uhrzeit zu planen:
 
-1. Navigieren Sie zum Abschnitt **[!UICONTROL Zeitplan]** in den Versandeigenschaften.
+1. Navigieren Sie in den Versandeigenschaften zum Abschnitt **[!UICONTROL Zeitplan]**.
 
 1. Betätigen Sie den Umschalter, um **[!UICONTROL Planung aktivieren]** zu aktivieren.
 

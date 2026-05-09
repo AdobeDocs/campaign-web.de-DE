@@ -2,9 +2,9 @@
 title: Verwalten von Aufzählungen
 description: Erfahren Sie, wie Sie mit Aufzählungen arbeiten.
 exl-id: d2a30fef-2cc4-49af-9f5d-d42c6396a8ab
-source-git-commit: 609718356ace500b831601dac077f9a3333e00e9
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '646'
 ht-degree: 100%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_enumerations_properties"
 >title="Eigenschaften"
->abstract="Definiert die Eigenschaften der Aufzählung, z. B. ihren Namen, internen Namen und Typ. Aufzählungen vom Typ **[!UICONTROL Geschlossen]** verfügen über eine feste Liste von Werten, die nur über das Menü **[!UICONTROL Aufzählungen]** geändert werden kann. Aufzählungen vom Typ **[!UICONTROL Offen]** ermöglichen es den Benutzenden, neue Werte direkt in die auf dieser Aufzählung basierenden Felder einzufügen. Aufzählungen vom Typ **[!UICONTROL System]** sind mit Systemfeldern verknüpft. Aufzählungen vom Typ **[!UICONTROL Emoticon]** werden verwendet, um die Liste der Smileys zu aktualisieren. "
+>abstract="Definiert die Eigenschaften der Aufzählung, z. B. ihren Namen, internen Namen und Typ. Aufzählungen vom Typ **[!UICONTROL Geschlossen]** verfügen über eine feste Liste von Werten, die nur über das Menü **[!UICONTROL Aufzählungen]** geändert werden kann. Aufzählungen vom Typ **[!UICONTROL Offen]** ermöglichen es den Benutzenden, neue Werte direkt in die auf dieser Aufzählung basierenden Felder einzufügen. Aufzählungen vom Typ **[!UICONTROL System]** sind mit Systemfeldern verknüpft. Aufzählungen vom Typ **[!UICONTROL Emoticon]** werden verwendet, um die Liste der Smileys zu aktualisieren."
 
 >[!CONTEXTUALHELP]
 >id="acw_enumerations_values"
@@ -46,7 +46,7 @@ Gehen Sie wie folgt vor, um eine Aufzählung zu erstellen:
 
 1. Wählen Sie einen **[!UICONTROL Typ]** für die Aufzählung aus:
 
-   * Aufzählungen vom Typ **[!UICONTROL Geschlossen]** verfügen über eine feste Liste von Werten, die nur über das Menü **[!UICONTROL Aufzählungen]** geändert werden kann. 
+   * Aufzählungen vom Typ **[!UICONTROL Geschlossen]** verfügen über eine feste Liste von Werten, die nur über das Menü **[!UICONTROL Aufzählungen]** geändert werden kann.
    * Aufzählungen vom Typ **[!UICONTROL Offen]** ermöglichen es den Benutzenden, neue Werte direkt in die auf dieser Aufzählung basierenden Felder einzufügen.
    * Aufzählungen vom Typ **[!UICONTROL System]** sind mit Systemfeldern verknüpft.
    * Aufzählungen vom Typ **[!UICONTROL Emoticon]** werden verwendet, um die Liste der Smileys zu aktualisieren.

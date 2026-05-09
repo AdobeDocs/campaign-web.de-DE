@@ -7,9 +7,9 @@ old-role: Data Engineer
 role: Developer
 level: Beginner
 exl-id: 101ad23b-7ea5-42c7-9249-7c14febe6eb7
-source-git-commit: 85ebbbe1e318cf0561b33d4c14250cded6ffbc65
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '1069'
+source-wordcount: '1072'
 ht-degree: 100%
 
 ---
@@ -53,7 +53,7 @@ Gehen Sie wie folgt vor, um mit dem Ausdruckseditor bedingte Inhalte für einen 
 1. Um mit der Erstellung Ihrer Bedingung zu beginnen, klicken Sie auf das Symbol „+“ neben der Funktion **Wenn**. Die folgende Zeile wird zum mittleren Bereich des Bildschirms hinzugefügt: `<% if (<FIELD>==<VALUE>) { %>Insert content here<% } %>`
 
    * Ersetzen Sie `<FIELD>` durch ein Personalisierungsfeld, z. B. die Empfängersprache: `recipient.language`.
-   * Ersetzen Sie `<VALUE>` durch den Wert, der erfüllt werden soll, z. B. `'French'`. 
+   * Ersetzen Sie `<VALUE>` durch den Wert, der erfüllt werden soll, z. B. `'French'`.
    * Ersetzen Sie `Insert content here` durch den Inhalt, der für die Profile angezeigt werden soll, die die angegebene Bedingung erfüllen.
 
      ![Screenshot einer Beispielbedingung im Ausdruckseditor mit Platzhaltern für Feld, Wert und Inhalt](assets/condition-sample1.png){zoomable="yes"}{width="800" align="center"}
@@ -90,7 +90,7 @@ Bedingte Inhalte in E-Mails können auf zwei Arten erstellt werden:
 * im Ausdruckseditor durch Erstellen einer Bedingung mit Hilfsfunktionen
 * in einem speziellen Builder für bedingte Inhalte, auf den Sie beim Entwerfen einer E-Mail zugreifen können
 
-Im folgenden Abschnitt finden Sie eine schrittweise Anleitung zum Erstellen von Bedingungen mithilfe der Funktion des E-Mail-Designers für bedingte Inhalte. Detaillierte Informationen zum Erstellen von Bedingungen mithilfe des Ausdruckseditors finden Sie [hier](#condition-perso-editor). 
+Im folgenden Abschnitt finden Sie eine schrittweise Anleitung zum Erstellen von Bedingungen mithilfe der Funktion des E-Mail-Designers für bedingte Inhalte. Detaillierte Informationen zum Erstellen von Bedingungen mithilfe des Ausdruckseditors finden Sie [hier](#condition-perso-editor).
 
 In diesem Beispiel wird eine E-Mail-Nachricht mit mehreren Varianten erstellt, die auf der Empfängersprache basieren. Führen Sie folgende Schritte aus:
 

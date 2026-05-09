@@ -3,10 +3,10 @@ audience: end-user
 title: Erste Schritte mit Kampagnen
 description: Erfahren Sie, wie Sie mit kanalübergreifenden Kampagnen beginnen
 exl-id: 690229e7-73e1-4cc1-b69a-f3e5d8de58af
-source-git-commit: ca35e633f2b7a3a286155c4f564378ebf1f72f4f
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '995'
-ht-degree: 71%
+source-wordcount: '1002'
+ht-degree: 69%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 71%
 >title="Kampagnenzeitplan"
 >abstract="Legen Sie Ihren Kampagnenzeitplan fest oder ändern Sie ihn."
 
-Um auf Ihre Kampagnen zuzugreifen und sie zu verwalten **[!UICONTROL klicken Sie im linken Navigationsbereich auf]** Kampagnen“. Zwei Registerkarten sind verfügbar:
+Um auf Ihre Kampagnen zuzugreifen und sie zu verwalten, klicken Sie auf das Menü **[!UICONTROL Kampagnen]** in der linken Navigation. Zwei Registerkarten sind verfügbar:
 
 * Die Registerkarte **Durchsuchen** enthält alle vorhandenen Kampagnen. Sie können auf eine Kampagne klicken, um ihr Dashboard zu öffnen, oder eine neue Kampagne erstellen, indem Sie auf die Schaltfläche **Kampagne erstellen** klicken. Weitere Informationen finden Sie in diesem [Abschnitt](create-campaigns.md#create-campaigns).
 
@@ -31,7 +31,7 @@ Die **[!UICONTROL Durchsuchen]** enthält Informationen zum aktuellen Status der
 
 ### Durchsuchen und Filtern des Inventars {#search-and-filter}
 
-Eine Suchleiste und Filter sind verfügbar, um die Suche innerhalb der Liste zu erleichtern. [Mehr dazu](../get-started/user-interface.md#list-screens). Sie können beispielsweise nach Ihrem Kampagnenkalender filtern. Öffnen Sie das Panel „Filter“ und verwenden Sie den Abschnitt **Anfangsdatum – Enddatum**:
+Eine Suchleiste und Filter sind verfügbar, um die Suche innerhalb der Liste zu erleichtern. [Weitere Informationen](../get-started/user-interface.md#list-screens). Sie können beispielsweise nach Ihrem Kampagnenkalender filtern. Öffnen Sie das Panel „Filter“ und verwenden Sie den Abschnitt **Anfangsdatum – Enddatum**:
 
 ![Beschreibung: das Panel „Filter“ mit Optionen zum Filtern von Kampagnen nach Start- und Enddatum](assets/campaign-filter-on-dates.png)
 

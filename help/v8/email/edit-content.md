@@ -3,9 +3,9 @@ audience: end-user
 title: Bearbeiten des E-Mail-Inhalts
 description: Erfahren Sie, wie Sie den E-Mail-Inhalt in der Campaign Web-Benutzeroberfläche bearbeiten können
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '683'
+source-wordcount: '699'
 ht-degree: 96%
 
 ---
@@ -38,7 +38,7 @@ Der E-Mail-Bildschirm **[!UICONTROL Inhalt bearbeiten]** ermöglicht Ihnen Folge
 * Definieren der grundlegenden Elemente Ihrer Nachricht, z. B. die Absenderadresse und die Betreffzeile
 * Durchführen zusätzlicher Aktionen, z. B. Hinzufügen von Anhängen oder Einrichten von Angeboten
 * Zugriff auf den [E-Mail-Designer](get-started-email-designer.md#start-authoring), um mit der Erstellung des eigentlichen Inhalts Ihrer E-Mail zu beginnen
-* Hinzufügen von Sprachvarianten zu Ihren Sendungen. [Mehr dazu](../msg/multilingual.md)
+* Hinzufügen von Sprachvarianten zu Ihren Sendungen. [Weitere Informationen](../msg/multilingual.md)
 
 >[!NOTE]
 >
@@ -92,7 +92,7 @@ Gehen Sie wie folgt vor, um den Inhalt einer E-Mail zu konfigurieren oder zu bea
 
 ## Bearbeiten des E-Mail-Texts
 
-1. Klicken Sie auf die Schaltfläche **[!UICONTROL E-Mail-Text bearbeiten]**, um den Inhalt der E-Mail mithilfe des [E-Mail-Designers](get-started-email-designer.md#start-authoring) zu strukturieren und zu gestalten. 
+1. Klicken Sie auf die Schaltfläche **[!UICONTROL E-Mail-Text bearbeiten]**, um den Inhalt der E-Mail mithilfe des [E-Mail-Designers](get-started-email-designer.md#start-authoring) zu strukturieren und zu gestalten.
 
    >[!NOTE]
    >

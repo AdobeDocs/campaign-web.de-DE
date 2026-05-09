@@ -3,9 +3,9 @@ audience: end-user
 title: Verwenden der Workflow-Aktivität „Dateiextraktion“
 description: Informationen dazu, wie Sie die Workflow-Aktivität „Dateiextraktion“ verwenden
 exl-id: fa50ab5b-2539-4517-9d7b-93315f1e505c
-source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '945'
+source-wordcount: '951'
 ht-degree: 100%
 
 ---
@@ -32,7 +32,7 @@ Im Abschnitt **[!UICONTROL Zu extrahierende Datei]** können Sie die Dateieigens
 
 ![Screenshot mit den Konfigurationsoptionen für die zu extrahierende Datei](../assets/extract-file-file.png)
 
-1. Geben Sie im Feld **[!UICONTROL Dateiname]** den gewünschten Namen für die zu extrahierende Datei an. 
+1. Geben Sie im Feld **[!UICONTROL Dateiname]** den gewünschten Namen für die zu extrahierende Datei an.
 
    Sie können den Namen der Datei mit Ereignisvariablen, Bedingungen und Datums-/Uhrzeitfunktionen personalisieren. Klicken Sie dazu auf das Symbol **[!UICONTROL Personalisierungsdialog öffnen]**, um den Ausdruckseditor zu öffnen. [Erfahren Sie, wie Sie mit Ereignisvariablen und dem Ausdruckseditor arbeiten.](../event-variables.md)
 
@@ -84,7 +84,7 @@ Im Abschnitt **[!UICONTROL Zielformat]** können Sie konfigurieren, wie die extr
 >title="Nachbearbeitung"
 >abstract="Definieren Sie einen Nachbearbeitungsschritt, wie beispielsweise Komprimieren oder Verschlüsseln."
 
-Mit dem **[!UICONTROL Skript zur Änderung des Exports]** können Sie eine Verarbeitungsphase anwenden, die während der Datenextraktion ausgeführt wird, z. B. Komprimieren oder Verschlüsseln. Klicken Sie dazu auf die Schaltfläche **[!UICONTROL Script bearbeiten]**. 
+Mit dem **[!UICONTROL Skript zur Änderung des Exports]** können Sie eine Verarbeitungsphase anwenden, die während der Datenextraktion ausgeführt wird, z. B. Komprimieren oder Verschlüsseln. Klicken Sie dazu auf die Schaltfläche **[!UICONTROL Script bearbeiten]**.
 
 Der Ausdruckseditor wird geöffnet und Sie können den Befehl eingeben, der auf die Datei angewendet werden soll. Der linke Seitenbereich enthält vordefinierte Syntaxen, die Sie zum Erstellen Ihres Skripts verwenden können. [Erfahren Sie, wie Sie mit Ereignisvariablen und dem Ausdruckseditor arbeiten](../event-variables.md).
 

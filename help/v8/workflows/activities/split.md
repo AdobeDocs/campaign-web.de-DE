@@ -3,9 +3,9 @@ audience: end-user
 title: Verwenden der Workflow-Aktivität „Aufspaltung“
 description: Weitere Informationen zur Verwendung der Workflow-Aktivität „Aufspaltung“
 exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '1065'
+source-wordcount: '1076'
 ht-degree: 100%
 
 ---
@@ -60,7 +60,7 @@ Die Aktivität **Aufspaltung** ist eine Aktivität zur **Zielgruppenbestimmung**
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_enable_overlapping"
 >title="Überlappen von Ausgabepopulationen ermöglichen"
->abstract="Die Option **[!UICONTROL Überschneidung der Ausgabepopulationen zulassen]** ermöglicht den Umgang mit Populationen, die in mehreren Teilmengen enthalten sind. Wenn diese Option deaktiviert ist, stellt die Aktivität „Aufspaltung“ sicher, dass eine Empfängerin oder ein Empfänger nicht in mehreren ausgehenden Transitionen enthalten sein kann, auch wenn sie bzw. er den Kriterien anderer Teilmengen entspricht. Sie befinden sich in der Zielgruppe der ersten Registerkarte mit passenden Kriterien. Wenn die Option aktiviert ist, sind die Profile in allen Teilmengen enthalten, deren Filterkriterien sie erfüllen. Es wird für Adobe Campaign jedoch empfohlen, ausschließende Kriterien zu verwenden."
+>abstract="Die Option **[!UICONTROL Überschneidung der Ausgabepopulationen zulassen]** ermöglicht den Umgang mit Populationen, die in mehreren Teilmengen enthalten sind. Wenn diese Option deaktiviert ist, stellt die Aktivität „Aufspaltung“ sicher, dass eine Empfängerin oder ein Empfänger nicht in mehreren ausgehenden Transitionen enthalten sein kann, auch wenn sie bzw. er den Kriterien anderer Teilmengen entspricht. Sie befinden sich in der Zielgruppe der ersten Registerkarte mit passenden Kriterien. Wenn das Kästchen aktiviert ist, können die Empfängerinnen und Empfänger in mehreren Teilmengen gefunden werden, wenn sie ihre Filterkriterien erfüllen. Adobe Campaign empfiehlt, Ausschlusskriterien zu verwenden."
 
 Folgen Sie diesen Schritten, um die Aktivität **Aufspaltung** zu konfigurieren:
 
@@ -82,7 +82,7 @@ Folgen Sie diesen Schritten, um die Aktivität **Aufspaltung** zu konfigurieren:
 
    1. Öffnen Sie die Teilmenge, um ihre Eigenschaften anzuzeigen.
 
-   1. Auf **[!UICONTROL Filter erstellen]** klicken und die gewünschte Filterregel mithilfe des Abfrage-Modelers konfigurieren, um eine Filterbedingung auf die Teilmenge anzuwenden. Es können beispielsweise Profile aus der eingehenden Population eingeschlossen werden, deren E-Mail-Adresse in der Datenbank vorhanden ist.  [Erfahren Sie mehr über die Arbeit mit dem Abfrage-Modeler](../../query/query-modeler-overview.md).
+   1. Auf **[!UICONTROL Filter erstellen]** klicken und die gewünschte Filterregel mithilfe des Abfrage-Modelers konfigurieren, um eine Filterbedingung auf die Teilmenge anzuwenden. Es können beispielsweise Profile aus der eingehenden Population eingeschlossen werden, deren E-Mail-Adresse in der Datenbank vorhanden ist. [Erfahren Sie mehr über die Arbeit mit dem Abfrage-Modeler](../../query/query-modeler-overview.md).
 
    1. Um die Anzahl der von der Teilmenge ausgewählten Profile zu begrenzen, muss **[!UICONTROL Grenzwert aktivieren]** aktiviert und die Anzahl oder der Prozentsatz der einzuschließenden Population angegeben werden.
 
@@ -105,7 +105,7 @@ Folgen Sie diesen Schritten, um die Aktivität **Aufspaltung** zu konfigurieren:
 1. Die Option **[!UICONTROL Überlappung der Ausgabepopulationen zulassen]** ermöglicht Ihnen die Verwaltung von Populationen, die in mehreren Teilmengen enthalten sind:
 
    * Wenn diese Option deaktiviert ist, stellt die Aktivität „Aufspaltung“ sicher, dass eine Empfängerin oder ein Empfänger nicht in mehreren ausgehenden Transitionen enthalten sein kann, auch wenn sie bzw. er den Kriterien anderer Teilmengen entspricht. Sie befinden sich in der Zielgruppe der ersten Registerkarte mit passenden Kriterien.
-   * Wenn die Option aktiviert ist, sind die Profile in allen Teilmengen enthalten, deren Filterkriterien sie erfüllen. Es wird für Adobe Campaign jedoch empfohlen, ausschließende Kriterien zu verwenden.
+   * Wenn das Kästchen aktiviert ist, können die Empfängerinnen und Empfänger in mehreren Teilmengen gefunden werden, wenn sie ihre Filterkriterien erfüllen. Adobe Campaign empfiehlt, Ausschlusskriterien zu verwenden.
 
 Der Aktivität ist jetzt konfiguriert. Bei der Ausführung des Workflows wird die Population in die verschiedenen Teilmengen segmentiert, und zwar in der Reihenfolge, in der diese der Aktivität hinzugefügt wurden.
 

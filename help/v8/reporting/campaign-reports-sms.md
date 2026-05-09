@@ -3,9 +3,9 @@ audience: end-user
 title: Kampagnenberichte für den SMS-Kanal
 description: Grundlegendes zu Kampagnenberichten für den SMS-Kanal
 exl-id: 0df9b999-84c8-4e42-b5da-857b2ef0dd75
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '532'
 ht-degree: 94%
 
 ---
@@ -42,7 +42,7 @@ Die **[!UICONTROL Versandübersicht]** bietet wichtige Performance-Indikatoren (
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_sms_target"
 >title="Statistiken der ursprünglichen Zielgruppe"
->abstract="Die Tabelle **Statistiken der ursprünglichen Zielgruppe** zeigt Daten zu Ihren Empfängerinnen und Empfängern an. "
+>abstract="Die Tabelle **Statistiken der ursprünglichen Zielgruppe** zeigt Daten zu Ihren Empfängerinnen und Empfängern an."
 
 Die Tabelle **[!UICONTROL Statistiken der anfänglichen Zielgruppe]** zeigt Daten zu Ihren Empfängerinnen und Empfängern an. Metriken werden nachfolgend beschrieben.
 
@@ -73,7 +73,7 @@ Die Tabelle **[!UICONTROL Ausführungsstatistiken]** zeigt den Erfolg Ihres Vers
 
 * **[!UICONTROL Zu versendende Nachricht(en)]**: Gesamtzahl der nach erfolgter Versandvorbereitung zu versendenden Nachrichten.
 
-* **[!UICONTROL Erfolg]**: Anzahl der erfolgreich verarbeiteten Nachrichten im Verhältnis zur Anzahl der zu versendenden Nachrichten.
+* **[!UICONTROL Erfolg]**: Anzahl der erfolgreich verarbeiteten Nachrichten, bezogen auf die Anzahl der zu versendenden Nachrichten.
 
 * **[!UICONTROL Fehler]**: Gesamtzahl der über alle Sendungen und der automatischen Bounce-Verarbeitungen hinweg kumulierten Fehler im Verhältnis zur Anzahl der zu versendenden Nachrichten.
 

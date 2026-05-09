@@ -3,10 +3,10 @@ audience: end-user
 title: Entwerfen von E-Mails in E-Mail-Designer
 description: Erfahren Sie, wie Sie Ihre E-Mail-Inhalte von Grund auf neu gestalten
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
-source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '673'
-ht-degree: 93%
+source-wordcount: '676'
+ht-degree: 96%
 
 ---
 
@@ -72,7 +72,7 @@ Gehen Sie wie folgt vor, um mit der Erstellung Ihres E-Mail-Inhalts zu beginnen.
 
    ![Screenshot mit dem Bereich mit den Strukturkomponenten im E-Mail-Designer](assets/email_designer_structure_components.png){zoomable="yes"}
 
-1. Wählen Sie die Komponente **[!UICONTROL n:n Column]** aus, um die Anzahl der Spalten zu definieren (3 bis 10). Legen Sie die Breite jeder Spalte fest, indem Sie die Pfeile am unteren Rand einer jeden Spalte verschieben.
+1. Wählen Sie die Komponente **[!UICONTROL n:n Spalte]** aus, um die gewünschte Anzahl der Spalten zu definieren (3 bis 10). Legen Sie die Breite jeder Spalte fest, indem Sie die Pfeile am unteren Rand einer jeden Spalte verschieben.
 
    >[!NOTE]
    >
@@ -90,7 +90,7 @@ Gehen Sie wie folgt vor, um mit der Erstellung Ihres E-Mail-Inhalts zu beginnen.
 
    Klicken Sie auf die Registerkarte **[!UICONTROL Links]** im linken Bereich, um die Liste aller zu verfolgenden URLs Ihres Inhalts anzuzeigen. Sie können bei Bedarf deren **[!UICONTROL Trackingtyp]** oder **[!UICONTROL Label]** ändern und **[!UICONTROL Kategorien]** hinzufügen.
 
-[Weitere Informationen über Links und Nachrichten-Tracking](message-tracking.md)
+   [Weitere Informationen über Links und Nachrichten-Tracking](message-tracking.md)
 
    ![Screenshot mit der Registerkarte mit den Links im E-Mail-Designer](assets/email_designer-links.png){zoomable="yes"}
 

@@ -3,9 +3,9 @@ title: Landingpage erstellen
 description: Hier erfahren Sie, wie Sie in Campaign Web eine Landingpage konfigurieren und veröffentlichen können.
 feature: Landing Pages
 exl-id: d4a49048-5ab1-4b69-9e12-1ffa235c51f4
-source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '1643'
+source-wordcount: '1661'
 ht-degree: 100%
 
 ---
@@ -28,7 +28,7 @@ Um auf die Liste der Landingpages zuzugreifen, wählen Sie im Menü links **[!UI
 
 ![Screenshot mit dem Inventar der Landingpages auf der Benutzeroberfläche von Campaign Web](assets/lp-inventory.png){zoomable="yes"}
 
-Das Inventar der **[!UICONTROL Landingpages]** zeigt alle erstellten Elemente an. Sie können sie mithilfe der Schaltfläche **[!UICONTROL Filter zeigen]** filtern. 
+Das Inventar der **[!UICONTROL Landingpages]** zeigt alle erstellten Elemente an. Sie können sie mithilfe der Schaltfläche **[!UICONTROL Filter zeigen]** filtern.
 
 * Sie können nach den von Ihnen erstellten oder geänderten Elementen filtern.
 * Sie können die Ergebnisse über die Dropdown-Liste auf einen bestimmten [Ordner](../get-started/permissions.md#folders) beschränken oder mithilfe des [Abfrage-Modelers](../query/query-modeler-overview.md) Regeln hinzufügen.
@@ -100,7 +100,7 @@ Gehen Sie wie folgt vor, um eine Landingpage zu erstellen:
 
 1. Wählen Sie **[!UICONTROL Erstellen]** aus.
 
-1. Füllen Sie die Felder **[!UICONTROL Eigenschaften]** aus, z. B. „Titel“. 
+1. Füllen Sie die Felder **[!UICONTROL Eigenschaften]** aus, z. B. „Titel“.
 
    Standardmäßig werden Landingpages im Ordner **[!UICONTROL Web-Anwendungen]** gespeichert. Sie können dies ändern, indem Sie unter **[!UICONTROL Zusätzliche Optionen]** zum gewünschten Speicherort wechseln. [Erfahren Sie, wie Sie mit Ordnern arbeiten](../get-started/permissions.md#folders).
 
@@ -124,17 +124,17 @@ Gehen Sie wie folgt vor, um eine Landingpage zu erstellen:
 
    ![Screenshot mit dem Abschnitt „Seiten“ des Landingpage-Editors](assets/lp-pages.png){zoomable="yes"}
 
-1. Die Option **[!UICONTROL Vorausgefüllten Eintrag aktualisieren]** im Abschnitt **[!UICONTROL Speicher]** ist standardmäßig ausgewählt. Dadurch können die in der Datenbank gespeicherten Profile über die Landingpage aktualisiert werden. Mit der Option zum Vorausfüllen können Sie angeben, wie der zu aktualisierende Eintrag in der Datenbank gesucht werden soll. 
+1. Die Option **[!UICONTROL Vorausgefüllten Eintrag aktualisieren]** im Abschnitt **[!UICONTROL Speicher]** ist standardmäßig ausgewählt. Dadurch können die in der Datenbank gespeicherten Profile über die Landingpage aktualisiert werden. Mit der Option zum Vorausfüllen können Sie angeben, wie der zu aktualisierende Eintrag in der Datenbank gesucht werden soll.
 
    Sie können außerdem aus den Feldern im aktuellen Kontext der Landingpage auswählen. Anhand dieser Felder wird das entsprechende Profil in der Datenbank gesucht. Deaktivieren Sie hierzu die Option **[!UICONTROL Vorausgefüllten Eintrag aktualisieren]** und aktivieren Sie die gewünschten Felder unter **[!UICONTROL Abstimmoptionen]**.
 
    ![Screenshot mit den Speicheroptionen für die Landingpage](assets/lp-storage.png){zoomable="yes"}
 
-1. Erstellen Sie **[!UICONTROL Zusatzdaten]**, um interne Daten beim Senden der Landingpage zu speichern. Die Daten sind für Besucherinnen und Besucher der Seite nicht sichtbar.  Nur konstante Werte werden berücksichtigt.
+1. Erstellen Sie **[!UICONTROL Zusatzdaten]**, um interne Daten beim Senden der Landingpage zu speichern. Die Daten sind für Besucherinnen und Besucher der Seite nicht sichtbar. Nur konstante Werte werden berücksichtigt.
 
    ![Screenshot mit dem Abschnitt „Zusatzdaten“](assets/lp-additional-data.png){zoomable="yes"}
 
-1. Sie können ein Start- und ein Enddatum für Ihre Landingpage definieren. Wählen Sie **[!UICONTROL Zeitplanung aktivieren]** aus und legen Sie die Daten fest. 
+1. Sie können ein Start- und ein Enddatum für Ihre Landingpage definieren. Wählen Sie **[!UICONTROL Zeitplanung aktivieren]** aus und legen Sie die Daten fest.
 
    ![Screenshot mit den Planungsoptionen für die Landingpage](assets/lp-schedule.png){zoomable="yes"}
 
@@ -232,4 +232,4 @@ Nach der Veröffentlichung:
 
 ![Screenshot mit der Landingpage-URL](assets/lp-published.png){zoomable="yes"}
 
-Sie können die Wirkung Ihrer Landingpage über Protokolle<!--and specific reports--> überwachen.  Klicken Sie auf die Schaltfläche **[!UICONTROL Protokolle]**.
+Sie können die Wirkung Ihrer Landingpage über Protokolle<!--and specific reports--> überwachen. Klicken Sie auf die Schaltfläche **[!UICONTROL Protokolle]**.

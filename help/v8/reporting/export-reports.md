@@ -3,7 +3,7 @@ audience: end-user
 title: Exportieren der Berichte
 description: Informationen zum Exportieren Ihrer Berichte
 exl-id: ac48e541-7735-4961-80ee-ce9d24c8b9ad
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
 source-wordcount: '113'
 ht-degree: 100%
@@ -17,7 +17,7 @@ ht-degree: 100%
 >title="Exportieren der Berichte"
 >abstract="Auf die Schaltfläche **Exportieren** klicken, um diese Metriken im PDF- oder CSV-Format zu exportieren, sodass sie freigegeben oder gedruckt werden können."
 
-Sie können Ihre Berichte in das PDF- oder CSV-Format exportieren, sodass Sie sie weitergeben, bearbeiten oder drucken können. 
+Sie können Ihre Berichte in das PDF- oder CSV-Format exportieren, sodass Sie sie weitergeben, bearbeiten oder drucken können.
 
 1. Klicken Sie in Ihrem Bericht auf **[!UICONTROL Exportieren]** und wählen Sie **[!UICONTROL Als PDF-Datei exportieren]** bzw. **[!UICONTROL Als CSV-Datei exportieren]**.
 

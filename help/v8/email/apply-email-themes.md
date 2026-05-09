@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: E-Mail-Designs, Module, Wiederverwendbarkeit, Markenkonsistenz, E-Mail-Design, benutzerdefiniertes CSS, Optimierung für Mobilgeräte
 exl-id: c9e02bca-032d-4771-ad53-5bbebabc4c5d
-source-git-commit: 9b51dc84a5b6954c973e1560aad877ef770eb8f9
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '2060'
-ht-degree: 2%
+source-wordcount: '2077'
+ht-degree: 3%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 2%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn2"
->title="Designs in der E-Mail Designer (LA)"
+>title="Designs im E-Mail-Designer (LA)"
 >abstract="Wenden Sie wiederverwendbare Design-Stile und -Variablen an, um den E-Mail-Inhalt mit Ihrer Marke konsistent zu halten. Diese Funktion ist nur für ausgewählte Organisationen verfügbar (eingeschränkte Verfügbarkeit)"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=de" text="Siehe Versionshinweise"
 
@@ -175,7 +175,7 @@ Gehen Sie wie folgt vor, um standardmäßige oder benutzerdefinierte Stildesigns
    >
    >Diese Aktion kann nicht für Inhaltskomponenten ausgeführt werden.
 
-   Wählen Sie dazu eine Strukturkomponente aus, klicken Sie auf der Registerkarte **[!UICONTROL Stile]** rechts auf die Option **[!UICONTROL Variante eines bestimmten Designs verwenden]** und wenden Sie die gewünschte Variante auf diese Struktur an.
+   Wählen Sie dazu eine Strukturkomponente aus, klicken Sie auf der Registerkarte **[!UICONTROL Stile]** rechts auf die Option **Variante eines bestimmten Designs verwenden** und wenden Sie die gewünschte Variante auf diese Struktur an.
 
    ![Ausgewählte Struktur mit der Option Variante des bestimmten Designs verwenden auf der Registerkarte Stile](assets/theme-structure-variant.png)
 
@@ -261,7 +261,7 @@ Gehen Sie wie folgt vor, um ein mit Designs kompatibles Fragment zu erstellen.
 
 1. Geben Sie einen Namen für Ihr Design an.
 
-1. Nehmen Sie Ihre eigenen Anpassungen vor, wie Sie es tun, wenn Sie ein Design von Grund auf neu erstellen, z. B. eine Farbvariante hinzufügen oder Schriftarten bearbeiten. [Weitere Informationen](#create-and-edit-themes)
+1. Nehmen Sie Ihre eigenen Anpassungen vor, wie Sie es tun, wenn Sie ein Design von Grund auf neu erstellen, z. B. eine Farbvariante hinzufügen, Schriftarten bearbeiten usw. [Erfahren Sie, wie](#create-and-edit-themes)
 
    ![Generiertes Design im Editor mit Farbpaletten- und Variantensteuerelementen](assets/generate-theme-colors.png){width=90%}
 

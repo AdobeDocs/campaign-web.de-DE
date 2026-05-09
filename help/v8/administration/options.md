@@ -2,9 +2,9 @@
 title: 'Konfigurieren von Optionen in [!DNL Campaign] '
 description: Erfahren Sie, wie Sie Campaign-Optionen konfigurieren und Ihre eigenen benutzerdefinierten Optionen erstellen.
 exl-id: 44f90e34-e72e-4506-90d5-06ab68242d34
-source-git-commit: 10a43da9df57a32f987b3d4c51bea91da10cbf92
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '447'
 ht-degree: 100%
 
 ---
@@ -50,7 +50,7 @@ So erstellen Sie eine Option:
 
 1. Greifen Sie auf die Optionsliste zu und klicken Sie auf **[!UICONTROL Option erstellen]**.
 1. Geben Sie einen Namen für die Option ein, wählen Sie ihren Typ aus und legen Sie den gewünschten Wert fest.
-1. Klicken Sie auf **[!UICONTROL Erstellen]**, um die Option zu erstellen. 
+1. Klicken Sie auf **[!UICONTROL Erstellen]**, um die Option zu erstellen.
 
 ![Benutzeroberfläche „Option erstellen“ mit Feldern für Name, Typ und Wert](assets/options-create.png)
 

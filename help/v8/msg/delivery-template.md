@@ -6,9 +6,9 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
-source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '1102'
+source-wordcount: '1109'
 ht-degree: 100%
 
 ---
@@ -184,7 +184,7 @@ Sie können das Rendering einer beliebigen Versandvorlage testen, unabhängig da
 
 1. Wechseln Sie zwischen den verschiedenen Profilen, um eine personalisierte Darstellung der Nachricht entsprechend dem ausgewählten Profil zu erhalten. Sie können auch den Zoomfaktor anpassen und die Desktop- oder Mobilansicht auswählen.
 
-[Weitere Informationen zur Vorschau von Inhalten](../preview-test/preview-content.md)
+   [Weitere Informationen zur Vorschau von Inhalten](../preview-test/preview-content.md)
 
    ![Vorschau des simulierten Inhalts](assets/templates-stimulate.png){zoomable="yes"}
 

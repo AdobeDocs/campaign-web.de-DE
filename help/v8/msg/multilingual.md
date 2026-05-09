@@ -3,10 +3,10 @@ audience: end-user
 title: Konfigurieren eines mehrsprachigen Versands
 description: Informationen zum Konfigurieren eines mehrsprachigen Versands
 exl-id: eea0e997-4da2-4998-b010-234626b21353
-source-git-commit: 9b51dc84a5b6954c973e1560aad877ef770eb8f9
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '1484'
-ht-degree: 39%
+source-wordcount: '1489'
+ht-degree: 40%
 
 ---
 
@@ -46,7 +46,7 @@ Gehen Sie wie folgt vor, um eine Sprachvariante zu erstellen:
 
    ![](assets/edit-content_2.png){zoomable="yes"}
 
-1. Wählen Sie aus **Dropdown-Liste** Sprache hinzufügen“ die hinzuzufügende Sprache aus und bestätigen Sie dann Ihre Auswahl. Für Push-Benachrichtigungen können Sie auch [CSV-Datei hochladen](#csv-upload) um alle Sprachvarianten gleichzeitig zu importieren.
+1. Wählen Sie aus der Dropdown-Liste **Sprache hinzufügen** die gewünschte Sprache aus und bestätigen Sie dann Ihre Auswahl. Für Push-Benachrichtigungen können Sie auch [CSV-Datei hochladen](#csv-upload) um alle Sprachvarianten gleichzeitig zu importieren.
 
    Die erste hinzugefügte Sprache wird automatisch als Standard festgelegt und der vorhandene Inhalt wird zur Standardversion. Wenn zusätzliche Sprachen hinzugefügt werden, wird deren Inhalt zunächst aus der Standardsprache kopiert.
 

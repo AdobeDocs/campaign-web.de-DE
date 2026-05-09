@@ -3,9 +3,9 @@ audience: end-user
 title: Arbeiten mit Anmeldediensten
 description: Erfahren Sie, wie Sie in Adobe Campaign Web auf Anmeldedienste zugreifen, diese erstellen und sie verwalten können.
 exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
-source-git-commit: e82c19df7faecbb75521bca54e32b1ba84ea1f81
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '1127'
+source-wordcount: '1130'
 ht-degree: 100%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 100%
 >title="Erstellen und Verwalten von Diensten"
 >abstract="Verwenden Sie Adobe Campaign, um Dienste wie z. B. Newsletter zu erstellen und zu überwachen und die Abonnements und Abmeldungen für diese Dienste zu überprüfen. Abonnements gelten nur für den E-Mail- und SMS-Versand."
 
-Verwenden Sie Adobe Campaign Web, um Dienste wie z. B. Newsletter zu verwalten und zu erstellen und die Abonnements und Abmeldungen für diese Dienste zu überprüfen. 
+Verwenden Sie Adobe Campaign Web, um Dienste wie z. B. Newsletter zu verwalten und zu erstellen und die Abonnements und Abmeldungen für diese Dienste zu überprüfen.
 
 Dabei können mehrere Dienste parallel definiert werden, z. B. Newsletter für bestimmte Produktkategorien, Themen oder Bereiche einer Website, Abonnements für verschiedene Arten von Warnmeldungen und Echtzeitbenachrichtigungen.
 
@@ -90,7 +90,7 @@ Gehen Sie wie folgt vor, um einen Anmeldedienst zu erstellen.
 
    ![Screenshot mit den standardmäßigen Landingpage-Einstellungen für einen Abonnementdienst](assets/service-create-default-lp.png){zoomable="yes"}
 
-   Sobald Sie fertig sind, wählen Sie beim [Einsetzen eines Links](../email/message-tracking.md) in eine E-Mail die Option **[!UICONTROL Anmelde-Link]** oder **[!UICONTROL Abmelde-Link]** aus.  Wenn Benutzende auf diesen Link klicken, werden sie zur Anmelde- bzw. Abmelde-Landingpage weitergeleitet, auf die im Dienst verwiesen wird. <!--After submitting the form, they will be subscribed to / unsubscribed from the service.-->
+   Sobald Sie fertig sind, wählen Sie beim [Einsetzen eines Links](../email/message-tracking.md) in eine E-Mail die Option **[!UICONTROL Anmelde-Link]** oder **[!UICONTROL Abmelde-Link]** aus. Wenn Benutzende auf diesen Link klicken, werden sie zur Anmelde- bzw. Abmelde-Landingpage weitergeleitet, auf die im Dienst verwiesen wird. <!--After submitting the form, they will be subscribed to / unsubscribed from the service.-->
 
    ![Screenshot mit den Einstellungen für An- und Abmelde-Links](assets/service-create-default-lp-link.png){zoomable="yes"}
 
@@ -114,7 +114,7 @@ Sie können jetzt:
 >[!CONTEXTUALHELP]
 >id="acw_unsubscriptions_delivery_template"
 >title="Auswählen der Versandvorlage für Abmeldungen"
->abstract="Um den Benutzerinnen und Benutzern, die sich von Ihrem Dienst abgemeldet haben, Bestätigungsnachrichten zu senden, müssen Sie eine Versandvorlage mit dem Zielgruppen-Mapping für die **[!UICONTROL Abonnements]** erstellen, und zwar ohne eine definierte Zielgruppe. "
+>abstract="Um den Benutzerinnen und Benutzern, die sich von Ihrem Dienst abgemeldet haben, Bestätigungsnachrichten zu senden, müssen Sie eine Versandvorlage mit dem Zielgruppen-Mapping für die **[!UICONTROL Abonnements]** erstellen, und zwar ohne eine definierte Zielgruppe."
 
 Um den Benutzerinnen und Benutzern, die sich für Ihren Dienst angemeldet haben oder davon abmelden, Bestätigungsnachrichten zu senden, erstellen Sie eine Versandvorlage mit dem Zielgruppen-Mapping für **[!UICONTROL Abonnements]**, und zwar ohne eine definierte Zielgruppe. Gehen Sie wie folgt vor:
 
@@ -168,7 +168,7 @@ Um die Effektivität Ihrer Abonnementdienste für Ihre SMS- und E-Mail-Kanäle z
 
    ![Screenshot zur Berechnung der Gesamtzahl der Abonnierenden](assets/service-logs-subscribers-count.png){zoomable="yes"}
 
-1. Wählen Sie im Dashboard des Dienstes die Option **[!UICONTROL Logs]** aus, um die Liste der Abonnentinnen und Abonnenten dieses Dienstes anzuzeigen. 
+1. Wählen Sie im Dashboard des Dienstes die Option **[!UICONTROL Logs]** aus, um die Liste der Abonnentinnen und Abonnenten dieses Dienstes anzuzeigen.
 
    Sie können die Gesamtzahl der Abonnierenden, den Namen und die Adresse jeder Empfängerin bzw. jedes Empfängers sowie den Zeitpunkt der An- oder Abmeldung überprüfen. Sie können auch danach filtern.
 

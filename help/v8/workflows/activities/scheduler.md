@@ -3,9 +3,9 @@ audience: end-user
 title: Verwenden der Workflow-Aktivität „Planung“
 description: Erfahren Sie, wie Sie die Workflow-Aktivität „Planung“ verwenden.
 exl-id: 84142fbe-fd8a-4329-88a5-cf7a8f4e8b8f
-source-git-commit: 058a9347329b35e49463b7d74bffa5b3c69b4a92
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '505'
+source-wordcount: '510'
 ht-degree: 100%
 
 ---
@@ -30,12 +30,12 @@ Die Aktivität **Planung** ist eine Aktivität zur **Flusssteuerung**. Damit kö
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_schedule_validity"
 >title="Gültigkeit der Planung"
->abstract="Sie können einen Gültigkeitszeitraum für die Planung definieren. Er kann dauerhaft sein (Standard) oder bis zu einem bestimmten Datum gültig sein."
+>abstract="Für die Planung kann ein Gültigkeitszeitraum definiert werden. Er kann dauerhaft sein (Standard) oder bis zu einem bestimmten Datum gültig sein."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_schedule_options"
 >title="Planungsoptionen"
->abstract="Definieren Sie die Häufigkeit der Planung. Der Plan kann zu einem bestimmten Zeitpunkt, einmal oder mehrmals pro Tag, Woche oder Monat, ausgeführt werden."
+>abstract="Definieren der Häufigkeit der Planung. Der Plan kann zu einem bestimmten Zeitpunkt, einmal oder mehrmals pro Tag, Woche oder Monat, ausgeführt werden."
 
 Gehen Sie folgendermaßen vor, um die Aktivität **Planung** zu konfigurieren:
 
@@ -58,7 +58,7 @@ Gehen Sie folgendermaßen vor, um die Aktivität **Planung** zu konfigurieren:
 1. Definieren Sie den Gültigkeitszeitraum der Planung:
 
    * **Permanent (läuft nie ab)**: Der Workflow wird entsprechend der angegebenen Häufigkeit ausgeführt, ohne Begrenzungen, was den Zeitrahmen oder die Anzahl von Iterationen betrifft.
-   * **Gültigkeitszeitraum**: Der Workflow wird in der angegebenen Häufigkeit bis zu einem bestimmten Datum ausgeführt. Geben Sie Start- und Enddatum ein. 
+   * **Gültigkeitszeitraum**: Der Workflow wird in der angegebenen Häufigkeit bis zu einem bestimmten Datum ausgeführt. Geben Sie Start- und Enddatum ein.
 
 >[!NOTE]
 >Wenn Sie den Workflow sofort starten möchten, klicken Sie auf die Schaltfläche **Ausstehende Aufgabe ausführen** in der oberen Symbolleiste der Planung. Diese Schaltfläche ist nur verfügbar, wenn der Workflow gestartet wurde.
