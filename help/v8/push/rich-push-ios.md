@@ -4,7 +4,8 @@ title: Erstellen eines Versands von Rich-Push-Benachrichtigungen für iOS
 description: Erfahren Sie, wie Sie einen Rich-Push-Benachrichtigungsversand in iOS mit Adobe Campaign Web erstellen.
 exl-id: e6058d60-9f34-412b-aac2-6e319a3ab898
 TQID: https://experienceleague.adobe.com/B4dcgNoG8uflTmYejb0fPp9NjWPawctMacxjZBxa0zU
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
 source-wordcount: 1653
