@@ -3,10 +3,15 @@ audience: end-user
 title: Erste Schritte mit benutzerdefinierten Kanälen
 description: Erfahren Sie, wie Sie mit Adobe Campaign Web Sendungen für benutzerdefinierte Kanäle erstellen und durchführen
 exl-id: b4336a0a-d845-4024-a06b-400fce1316a4
-source-git-commit: f772e19fd033b007680777f75b48775b6d7851b9
+TQID: https://experienceleague.adobe.com/OJ-3-J3wnbTyQ3qiIYauUtPnhCjk-CgM-tUyVALnVUw
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '663'
-ht-degree: 99%
+source-wordcount: 740
+ht-degree: 89%
 
 ---
 
@@ -48,7 +53,7 @@ Führen Sie die folgenden Schritte aus, um den Versand zu erstellen und seine Ei
 
    ![Screenshot zur Erstellung eines benutzerdefinierten Versands](assets/cus-create.png){zoomable="yes"}
 
-1. Geben Sie unter **[!UICONTROL Eigenschaften]** ein **[!UICONTROL Label]** für den Versand ein. 
+1. Geben Sie unter **[!UICONTROL Eigenschaften]** ein **[!UICONTROL Label]** für den Versand ein.
 
    ![Screenshot zur Konfiguration der Eigenschaften für einen benutzerdefinierten Versand](assets/cus-properties.png){zoomable="yes"}
 

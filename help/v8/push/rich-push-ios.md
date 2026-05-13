@@ -1,11 +1,14 @@
 ---
 audience: end-user
 title: Erstellen eines Versands von Rich-Push-Benachrichtigungen für iOS
-description: Erfahren Sie, wie Sie einen Versand von Rich-Push-Benachrichtigungen für iOS mit Adobe Campaign Web erstellen.
+description: Erfahren Sie, wie Sie einen Rich-Push-Benachrichtigungsversand in iOS mit Adobe Campaign Web erstellen.
 exl-id: e6058d60-9f34-412b-aac2-6e319a3ab898
-source-git-commit: 53f4662e9497c8614036f9f89c1ea2b1233756f0
+TQID: https://experienceleague.adobe.com/B4dcgNoG8uflTmYejb0fPp9NjWPawctMacxjZBxa0zU
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '1625'
+source-wordcount: 1653
 ht-degree: 100%
 
 ---
@@ -35,11 +38,11 @@ Navigieren Sie durch die folgenden Registerkarten, um mehr über die Personalisi
 
    ![Bildschirm mit der Auswahl der Standardvorlage](assets/rich_push_ios_default_1.png)
 
-1. Geben Sie in das Feld **[!UICONTROL Label]** die Bezeichnung ein, die in der Liste der im Benachrichtigungscenter verfügbaren Benachrichtigungen erscheinen soll.
+1. Geben Sie in das Feld **[!UICONTROL Titel]** die Bezeichnung ein, die in der Liste der im Benachrichtigungscenter verfügbaren Benachrichtigungen erscheinen soll.
 
    Dieses Feld definiert den Wert des Parameters **title** der iOS-Benachrichtigungs-Payload.
 
-1. Sie können optional einen **[!UICONTROL Untertitel]** hinzufügen, der dem Parameter **subtitle** der iOS-Benachrichtigungs-Payload entspricht.
+1. Fügen Sie optional einen **[!UICONTROL Untertitel]** hinzu, der dem Parameter **subtitle** der iOS-Benachrichtigungs-Payload entspricht.
 
 1. Geben Sie den Inhalt der Nachricht in das Feld **[!UICONTROL Nachricht]** ein.
 
@@ -75,7 +78,7 @@ Sobald Sie den Inhalt Ihrer Nachricht definiert haben, können Sie Testabonniere
 
 1. Verwenden Sie den Ausdruckseditor, um Inhalte zu definieren, Daten zu personalisieren und dynamische Inhalte hinzuzufügen. [Weitere Informationen](../personalization/personalize.md)
 
-1. Sie können optional einen **[!UICONTROL Untertitel]** hinzufügen, der dem Parameter **subtitle** der iOS-Benachrichtigungs-Payload entspricht.
+1. Fügen Sie optional einen **[!UICONTROL Untertitel]** hinzu, der dem Parameter **subtitle** der iOS-Benachrichtigungs-Payload entspricht.
 
 1. Fügen Sie die URL hinzu, die die **[!UICONTROL Klick-Aktion]** definiert, die mit einem Benutzerklick auf Ihre Benachrichtigung verbunden ist. Dies bestimmt das Verhalten bei der Interaktion der Benutzenden mit der Benachrichtigung, z. B. beim Öffnen eines bestimmten Bildschirms oder beim Ausführen einer bestimmten Aktion in der App.
 
@@ -109,7 +112,7 @@ Sobald Sie den Inhalt Ihrer Nachricht definiert haben, können Sie Testabonniere
 
 1. Verwenden Sie den Ausdruckseditor, um Inhalte zu definieren, Daten zu personalisieren und dynamische Inhalte hinzuzufügen. [Weitere Informationen](../personalization/personalize.md)
 
-1. Sie können optional einen **[!UICONTROL Untertitel]** hinzufügen, der dem Parameter **subtitle** der iOS-Benachrichtigungs-Payload entspricht.
+1. Fügen Sie optional einen **[!UICONTROL Untertitel]** hinzu, der dem Parameter **subtitle** der iOS-Benachrichtigungs-Payload entspricht.
 
 1. Fügen Sie die URL hinzu, die die **[!UICONTROL Klick-Aktion]** definiert, die mit einem Benutzerklick auf Ihre Benachrichtigung verbunden ist. Dies bestimmt das Verhalten bei der Interaktion der Benutzenden mit der Benachrichtigung, z. B. beim Öffnen eines bestimmten Bildschirms oder beim Ausführen einer bestimmten Aktion in der App.
 
@@ -152,7 +155,7 @@ Sobald Sie den Inhalt Ihrer Nachricht definiert haben, können Sie Testabonniere
 
 1. Verwenden Sie den Ausdruckseditor, um Inhalte zu definieren, Daten zu personalisieren und dynamische Inhalte hinzuzufügen. [Weitere Informationen](../personalization/personalize.md)
 
-1. Sie können optional einen **[!UICONTROL Untertitel]** hinzufügen, der dem Parameter **subtitle** der iOS-Benachrichtigungs-Payload entspricht.
+1. Fügen Sie optional einen **[!UICONTROL Untertitel]** hinzu, der dem Parameter **subtitle** der iOS-Benachrichtigungs-Payload entspricht.
 
 1. Fügen Sie die URL hinzu, die die **[!UICONTROL Klick-Aktion]** definiert, die mit einem Benutzerklick auf Ihre Benachrichtigung verbunden ist. Dies bestimmt das Verhalten bei der Interaktion der Benutzenden mit der Benachrichtigung, z. B. beim Öffnen eines bestimmten Bildschirms oder beim Ausführen einer bestimmten Aktion in der App.
 
@@ -187,8 +190,8 @@ Sobald Sie den Inhalt Ihrer Nachricht definiert haben, können Sie Testabonniere
 | **[!UICONTROL Kritischer Alarmmodus]** | Aktivieren Sie diese Option, um Ihrer Benachrichtigung einen Ton hinzuzufügen, selbst wenn das Telefon der Benutzerin oder des Benutzers auf den Fokusmodus festgelegt oder stummgeschaltet ist. |
 | **[!UICONTROL Badge entfernen]** | Aktivieren Sie diese Option, um den Badge-Wert zu aktualisieren. |
 | **[!UICONTROL Ton]** | Legt den Ton fest, der abgespielt werden soll, wenn das Gerät Ihre Benachrichtigung erhält. |
-| **[!UICONTROL Anzahl der Benachrichtigungen]** | Legen Sie eine Zahl fest, die direkt auf dem App-Symbol angezeigt wird und die Anzahl der neuen, ungelesenen Benachrichtigungen angibt.  |
-| **[!UICONTROL Lautstärke]** | Legen Sie die Lautstärke des Tons auf einer Skala von 0 bis 100 fest. Töne müssen in der App vorhanden sein und bei der Erstellung des Dienstes definiert werden. |
+| **[!UICONTROL Anzahl der Benachrichtigungen]** | Legen Sie eine Zahl fest, die direkt auf dem App-Symbol angezeigt wird und die Anzahl der neuen, ungelesenen Benachrichtigungen angibt. |
+| **[!UICONTROL Lautstärke]** | Legen Sie die Lautstärke des Tons auf einer Skala von 0 bis 100 fest. Töne müssen in die App integriert und zum Zeitpunkt der Erstellung des entsprechenden Service konfiguriert werden. |
 
 ### Farboptionen {#color}
 
@@ -207,5 +210,5 @@ Sobald Sie den Inhalt Ihrer Nachricht definiert haben, können Sie Testabonniere
 | **[!UICONTROL Relevanzwert]** | Legen Sie einen Relevanzwert auf der Skala von 0 bis 100 fest. Das System verwendet diesen Wert, um die Benachrichtigungen in der Benachrichtigungszusammenfassung zu sortieren. |
 | **[!UICONTROL Unterbrechungsgrad]** | <ul><li>**Aktiv**: Ist dies als Standardeinstellung festgelegt, wird die Benachrichtigung sofort angezeigt, der Bildschirm wird beleuchtet und eventuell wird ein Ton abgespielt. Benachrichtigungen umgehen die Fokusmodi nicht.</li><li>**Passiv**: Die Benachrichtigung wird zur Benachrichtigungsliste hinzugefügt, ohne dass der Bildschirm beleuchtet oder ein Ton abgespielt wird. Benachrichtigungen umgehen die Fokusmodi nicht.</li><li>**Zeitabhängig**: Die Benachrichtigung wird sofort angezeigt, der Bildschirm wird beleuchtet, eventuell wird ein Ton abgespielt und der Fokusmodus kann umgangen werden. Für diese Stufe ist keine spezielle Berechtigung von Apple erforderlich.</li><li>**Kritisch**: Die Benachrichtigung wird sofort angezeigt, der Bildschirm wird beleuchtet und der Stummschaltungs- oder Fokusmodus wird umgangen. Beachten Sie, dass für diese Stufe eine spezielle Berechtigung von Apple erforderlich ist.</li></ul> |
 | **[!UICONTROL Thread-ID]** | Legen Sie die Kennung fest, die zur Gruppierung zusammengehöriger Meldungen verwendet wird. |
-| **[!UICONTROL Kategorie]** | Legen Sie den Namen Ihrer Kategorie-ID fest, über die Aktionsschaltflächen angezeigt werden. Diese Benachrichtigungen ermöglichen es Benutzerinnen und Benutzern, verschiedene Aufgaben als Reaktion auf eine Benachrichtigung schneller auszuführen, ohne die App öffnen oder darin navigieren zu müssen. |
+| **[!UICONTROL Kategorie]** | Legen Sie den Namen Ihrer Kategorie-ID fest, über die Aktionsschaltflächen angezeigt werden. Mit diesen Benachrichtigungen können Benutzer rascher unterschiedliche Aufgaben ausführen, ohne die Anwendung öffnen oder darin navigieren zu müssen. |
 | **[!UICONTROL ID des Zielinhalts]** | Legen Sie eine Kennung fest, die angibt, welches App-Fenster beim Öffnen der Benachrichtigung im Vordergrund erscheint. |

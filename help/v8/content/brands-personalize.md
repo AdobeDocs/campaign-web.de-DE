@@ -5,9 +5,19 @@ description: Informationen zum Personalisieren Ihrer Markenrichtlinien
 role: User
 level: Beginner, Intermediate
 exl-id: e02f8137-d6a8-46ec-a317-2ac5fb5d0c48
-source-git-commit: 46ea5bf6355de875947bda84b25f3e779ab08539
+TQID: https://experienceleague.adobe.com/Wwn4Gh2Xgf8A5dHJ-2bWu6DIziufzW7TsAlKDrUgWY4
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '998'
+source-wordcount: 997
 ht-degree: 91%
 
 ---
@@ -225,7 +235,7 @@ So personalisieren Sie **[!UICONTROL visuelle Inhalte]**:
 
 1. Klicken Sie auf der Registerkarte **[!UICONTROL Visueller Inhalt]** auf ![](assets/do-not-localize/Smock_Add_18_N.svg), um eine Richtlinie, einen Ausschluss oder ein Beispiel hinzuzufügen.
 
-1. Geben Sie die Richtlinie, den Ausschluss oder das Beispiel ein. 
+1. Geben Sie die Richtlinie, den Ausschluss oder das Beispiel ein.
 
    ![Schaltfläche „Ausschluss oder Beispiel hinzufügen“](assets/brands-4.png)
 

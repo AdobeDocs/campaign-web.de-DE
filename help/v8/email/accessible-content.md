@@ -7,10 +7,22 @@ role: User
 level: Beginner, Intermediate
 keywords: E-Mail, Design, Barrierefreiheit
 exl-id: ddfa989b-8a30-4912-bed6-cc1ee7fa2eaa
-source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
+TQID: https://experienceleague.adobe.com/TdKnrX1xVgdzvOq9npp-UR2GlDYA2RBmCLumqg2cjjY
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: b631758a-142d-425f-b9aa-f756d85cb979
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '1643'
-ht-degree: 98%
+source-wordcount: 1687
+ht-degree: 96%
 
 ---
 
@@ -25,6 +37,7 @@ Mit [!DNL Adobe Campaign] [E-Mail-Designer](create-email-content.md), mit dem Ma
 Dementsprechend finden Sie im Folgenden Best Practices für die Gestaltung barrierefreier Inhalte mit [!DNL Adobe Campaign].
 
 Auf dieser Seite geht es darum, Ihre Inhalte für alle Empfängerinnen und Empfänger barrierefrei zu machen, um sicherzustellen, dass Menschen mit Behinderungen Ihre mit [!DNL Adobe Campaign] entworfenen E-Mails und Landingpages lesen, verstehen und mit ihnen interagieren können.
+ 
 
 ## Sicherstellen der Lesbarkeit von Text {#text-readability}
 
@@ -73,7 +86,7 @@ Sie können beispielsweise den [Hintergrund](backgrounds.md) aktualisieren oder 
 
 ![](assets/accessible-styles.png){width="80%"}
 
-Darüber hinaus können Sie mit dem E-Mail-Designer von [!DNL Adobe Campaign] das Design für verschiedene Geräte und Bildschirmgrößen in der Vorschau anzeigen und optimieren. Sie können jederzeit die Option **[!UICONTROL Zur Live-Ansicht wechseln]** wählen, um zu überprüfen, wie Ihre Inhalte auf verschiedenen Gerätegrößen gerendert werden. 
+Darüber hinaus können Sie mit dem E-Mail-Designer von [!DNL Adobe Campaign] das Design für verschiedene Geräte und Bildschirmgrößen in der Vorschau anzeigen und optimieren. Sie können jederzeit die Option **[!UICONTROL Zur Live-Ansicht wechseln]** wählen, um zu überprüfen, wie Ihre Inhalte auf verschiedenen Gerätegrößen gerendert werden.
 
 ![](assets/accessible-live-view.png){width="80%"}
 
@@ -90,7 +103,7 @@ Verwenden Sie die Komponente **[!UICONTROL Bild]**, um alternativen Text für Bi
 Wenden Sie die folgenden Richtlinien an, um in digitalen Produkten effektiven Alternativtext zu nutzen:
 
 * Beschreiben Sie den Zweck des Bildes kurz und kontextbezogen.
-* Vermeiden Sie redundante Ausdrücke wie „Abbildung von …“ und verwenden Sie leeren Alternativtext für dekorative Bilder.
+* Vermeiden Sie redundante Ausdrücke wie „Bild von …“ und leeren Alternativtext für dekorative Bilder verwenden.
 * Geben Sie für Symbole mit Bedeutung aussagekräftige Labels an. Nutzen Sie für komplexe Bilder einen kurzen Alternativtext und an anderer Stelle eine längere Beschreibung.
 
 ## Verwenden von lesbarem Format {#readable-format}
@@ -293,7 +306,7 @@ Verwenden Sie den E-Mail-Designer, um [einen Link](message-tracking.md#insert-li
 ```
 
 Die Bildschirmlesehilfen lesen:
-„Link, Versionshinweise August.“&quot;
+„Link, Versionshinweise August.“
 
 +++
 

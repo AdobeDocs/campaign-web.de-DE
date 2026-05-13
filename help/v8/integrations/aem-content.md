@@ -3,9 +3,17 @@ audience: end-user
 title: Verwalten von Assets mit Adobe Experience Manager as a Cloud Service
 description: Erfahren Sie, wie Sie Inhalte mit Adobe Experience Manager as a Cloud Service verwalten können
 exl-id: 43b186c8-294e-4cbe-b269-e127065515ed
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+TQID: https://experienceleague.adobe.com/gzygZHjIMZx5Zq-dnSiaUSUKyYdwhrkxFB4eFUXrS90
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: 615
 ht-degree: 100%
 
 ---
@@ -20,7 +28,7 @@ Die Integration der Adobe Campaign Web-Oberfläche in Adobe Experience Manager e
 
 ## Erstellen einer Vorlage in [!DNL Adobe Experience Manager as a Cloud Service]{#create-aem-template}
 
-1. Navigieren Sie zu Ihrer [!DNL Adobe Experience Manager]-Autoreninstanz und klicken Sie oben links auf der Seite auf „Adobe Experience“. Wählen im Menü die Option **[!UICONTROL Sites]** aus.
+1. Navigieren Sie zu Ihrer [!DNL Adobe Experience Manager]-Autoreninstanz und klicken Sie oben links auf der Seite auf „Adobe Experience“. Wählen Sie **[!UICONTROL Sites]** im Menü.
 
 1. Rufen Sie **[!UICONTROL Kampagnen > Name Ihrer Marke > Hauptbereich > Name Ihrer Seite]** auf.
 
@@ -52,7 +60,7 @@ Ihr Newsletter ist jetzt fertig und in Adobe Campaign synchronisiert.
 
 Sobald die Experience Manager-Vorlage im Adobe Campaign Web als Inhaltsvorlage verfügbar ist, können Sie den für die E-Mail erforderlichen Inhalt einschließlich Personalisierung identifizieren und integrieren.
 
-1. Klicken Sie im Menü **[!UICONTROL Sendungen]** auf **[!UICONTROL Versand erstellen]**. 
+1. Klicken Sie im Menü **[!UICONTROL Sendungen]** auf **[!UICONTROL Versand erstellen]**.
 
 1. Wählen Sie im Fenster der E-Mail-Vorlage die integrierte Vorlage **[!UICONTROL E-Mail-Versand mit AEM Inhalt]** aus.
 
@@ -86,7 +94,7 @@ Sobald die Experience Manager-Vorlage im Adobe Campaign Web als Inhaltsvorlage v
 
 1. Wenn Sie Ihrer Experience Manager-Vorlage personalisierten Inhalt hinzugefügt haben, klicken Sie auf **[!UICONTROL Inhalte simulieren]**, um mithilfe von Testprofilen eine Vorschau des Nachrichteninhalts anzuzeigen.
 
-[Weitere Informationen zu Vorschau und Testprofilen](../preview-test/preview-content.md)
+   [Weitere Informationen zu Vorschau und Testprofilen](../preview-test/preview-content.md)
 
 1. Bei der Anzeige der Nachrichtenvorschau werden alle personalisierten Elemente automatisch durch die entsprechenden Daten aus dem ausgewählten Testprofil ersetzt.
 

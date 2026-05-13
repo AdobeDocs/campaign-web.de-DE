@@ -3,10 +3,26 @@ title: Handbuch zur Erstellung von Prompts für die Inhaltsgenerierung mit dem K
 description: Erfahren Sie, wie Sie mit dem CO-STAR-Framework effektive Prompts zur KI-gestützten Inhaltsgenerierung erstellen können, um markenorientierte Marketing-Inhalte mit hoher Konversionsrate zu erstellen.
 role: User
 level: Intermediate
-source-git-commit: 336845c8d21a39c9f9124a5c6f7d0667cd111dcb
-workflow-type: ht
-source-wordcount: '2085'
-ht-degree: 100%
+exl-id: 2ae7ae4b-79fb-427a-8386-0602d313c0ed
+TQID: https://experienceleague.adobe.com/IAlzJ0kutFAF8RwYMe4L9wjLD4hXe-lR4ZndjIocQPw
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+workflow-type: tm+mt
+source-wordcount: 2111
+ht-degree: 91%
 
 ---
 
@@ -113,19 +129,19 @@ Diese Anfragen werden nicht unterstützt und sollten mit anderen Tools erledigt 
 
 Stellen Sie vor dem Generieren von Inhalten Folgendes sicher:
 
-&amp;check; **Klares Ziel**: Gibt Aktion, Produkt/Dienst, Wert und Kontext klar an.
+&check; **Ziel löschen**: Gibt die Aktion, das Produkt/den Service, den Wert und den Kontext klar an.
 
-&amp;check; **Zielgruppe definiert**: Gibt Demografie, Rolle oder Segment an.
+&check; **Zielgruppe definiert**: Gibt die demografische Zielgruppe, die Rolle oder das Segment an.
 
-&amp;check; **Ausrichtung des Content-Typs**: Ziel entspricht dem ausgewählten Kanal oder Format.
+&check; **Content type align**: Ziel entspricht dem ausgewählten Kanal oder Format.
 
-&amp;check; **Dropdown-Auswahlen konfiguriert**: Ton, Strategie und Gebietsschema werden ausgewählt und sollen nicht im Prompt enthalten sein.
+&check; **Dropdown-Auswahl konfiguriert**: Tonwert, Strategie und Gebietsschema ausgewählt sind, schließen Sie diese nicht in die Eingabeaufforderung ein.
 
-&amp;check; **Dokumentfokus festgelegt**: Markiert die Inhalte oder Abschnitte, auf die verwiesen werden soll.
+&check; **Dokumentfokus angegeben**: Markiert die Inhalte oder Abschnitte, auf die verwiesen werden soll.
 
-&amp;check; **Marke angewendet**: Es sind passende Markenrichtlinien ausgewählt.
+&check; **Marke angewendet**: Es werden die entsprechenden Markenrichtlinien ausgewählt.
 
-&amp;check; **Realistischer Umfang**: Vermeiden Sie das Anfordern von Layout-Änderungen, Formatierung oder strukturellen Bearbeitungen.
+&check; **Realistischer Umfang**: Vermeiden Sie Anforderungen an Layout-Änderungen, Stile oder strukturelle Bearbeitungen.
 
 ## Erstellen effektiver Marketing-Ziele {#marketing-objectives}
 
@@ -135,11 +151,11 @@ Achten Sie bei der Formulierung von Marketing-Zielen darauf, dass diese klar, um
 
 **Beispiele für gute Ziele:**
 
-&amp;check; „Steigere die Anmeldungen für unsere kostenlose 30-tägige Testversion des neuen KI-gestützten Analyse-Dashboards“
+&check; „Fordern Sie die Anmeldungen für unsere kostenlose 30-tägige Testversion des neuen KI-gestützten Analyse-Dashboards an“
 
-&amp;check; „Generiere Leads für unser B2B-Webinar zum Thema ,Reduzierung der Cloud-Kosten um 40 %‘, das am 15. März stattfindet“
+&check; „Generieren Sie Leads für unser B2B-Webinar zum Thema „Reduzierung der Cloud-Kosten um 40 %&quot;, das am 15. März stattfindet“
 
-&amp;check; „Bewirb unseren zeitlich begrenzten Feiertagsrabatt von 25 % auf Premium-Abonnements, der am 25. Dezember endet“
+&check; „Werben Sie für unseren zeitlich begrenzten 25-%-Urlaubsrabatt auf Premium-Abonnements, der am 25. Dezember endet“
 
 **Beispiele für zu vermeidende Ziele:**
 
@@ -156,11 +172,11 @@ Verwenden Sie diese Formel, um effektive Ziele zu schreiben: **Aktion + Produkt/
 
 **Beispiele für gute Ziele:**
 
-&amp;check; „Steigere die Downloads unserer neuen App, die Benutzenden hilft, nachhaltige Lebensgewohnheiten mit personalisierten umweltfreundlichen Empfehlungen zu verfolgen“
+&check; „Ermutigen Sie Downloads unserer neuen mobilen App, die Benutzern hilft, nachhaltige Lebensgewohnheiten mit personalisierten umweltfreundlichen Empfehlungen zu verfolgen“
 
-&amp;check; „Bewirb die Anmeldung für unseren exklusiven Workshop über fortschrittliche Datenvisualisierungstechniken für Marketing-Fachleute“
+&check; „Registrierung für unseren exklusiven Workshop zu fortgeschrittenen Datenvisualisierungstechniken für Marketing-Experten fördern“
 
-&amp;check; „Steigere die Teilnahme an unserer Produkteinführungsveranstaltung, auf der der revolutionäre KI-Schreibassistent vorgestellt wird, der mehr als 5 Stunden pro Woche einspart“
+&check; „Ermöglichen Sie die Teilnahme an unserer Produkteinführung, bei der der revolutionäre KI-Schreibassistent vorgestellt wird, der mehr als 5 Stunden pro Woche einspart“
 
 **Beispiele für zu vermeidende Formulierungen:**
 

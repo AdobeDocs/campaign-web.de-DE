@@ -4,10 +4,27 @@ description: Erfahren Sie, wie Sie die Benutzerzugriffsverwaltung von Campaign S
 feature: Technote
 role: Admin
 exl-id: a7f333ba-0b84-47de-8f91-b6c8f3f3322a
-source-git-commit: 85ebbbe1e318cf0561b33d4c14250cded6ffbc65
+TQID: https://experienceleague.adobe.com/mzGXV-UDaMU1UlCJPmmP6jPD9jSdRLesXnsHPvUfbRY
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+subfeature_v2:
+  - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+  - id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
+  - id: efa38731-2723-4334-8d8b-a778af834835
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '1403'
-ht-degree: 3%
+source-wordcount: 1453
+ht-degree: 6%
 
 ---
 
@@ -42,7 +59,7 @@ Sowohl in Adobe Campaign Standard als auch in Campaign v8 **Sicherheitsgruppen**
 |----------|---------|
 | Administratoren | Administratoren |
 | Versand-Verantwortliche | Administratoren |
-| Workflow-Verantwortliche | Workflow-Supervisoren  |
+| Workflow-Verantwortliche | Workflow-Verantwortliche  |
 
 ## Migrationsansatz von Benutzerrollen zu spezifischen Berechtigungen
 
@@ -59,7 +76,7 @@ In Adobe Campaign Standard wird der Begriff **Benutzerrolle** in Campaign v8 **S
 | Zustellbarkeit  | Administration  | Recht auf Validierung zuvor analysierter Sendungen.  |
 | Exportieren | Exportieren | Recht auf Datenexport.  |
 | Dateizugriff  | Dateizugriff  | Recht auf Validierung zuvor analysierter Sendungen.  |
-| Allgemeiner Import  | importieren  | Recht auf allgemeinen Datenimport |
+| Allgemeiner Import  | Import  | Recht auf allgemeinen Datenimport |
 | Sendungen vorbereiten | Sendungen vorbereiten | Berechtigung zur Erstellung, Änderung, Vorbereitung und Löschung von Sendungen.  |
 | Ausführung von SQL-Scripts | Ausführung von SQL-Scripts | Berechtigung zur Ausführung eines beliebigen SQL-Befehls direkt in der Datenbank. |
 | Sendungen starten  | Sendungen starten  | Recht auf Validierung zuvor analysierter Sendungen.  |
@@ -71,8 +88,7 @@ In Adobe Campaign Standard wird der Begriff **Benutzerrolle** in Campaign v8 **S
 >[!IMPORTANT]
 >
 >Organisationseinheiten in Adobe Campaign Standard ohne **Alle (alle)** als direkt oder indirekt übergeordnetes Element werden nicht nach Campaign v8 migriert.
-></br>
->Benutzern in mehreren Sicherheitsgruppen wird die Organisationseinheit der höchsten Sicherheitsgruppe zugewiesen. Wenn mehrere Gruppen parallele Einheiten der obersten Ebene haben, wählt das System die Organisationseinheit für den Benutzer in Campaign Standard aus, und der Benutzer hätte nur Zugriff auf die vom System ausgewählte Organisationseinheit und deren untergeordnete Elemente. In Campaign v8 hätte der Benutzer nach der Migration Zugriff auf **alle zugewiesenen Organisationseinheiten und ihre untergeordneten Elemente** was zu einer möglichen Eskalation der Berechtigungen führen könnte. Um dies zu verhindern, vermeiden Sie die Zuweisung von Benutzern zu Sicherheitsgruppen mit parallelen Organisationseinheiten. Weitere Informationen über [parallele Zuweisung von Organisationseinheiten](#parallel-assignments).
+></br>>Benutzern in mehreren Sicherheitsgruppen wird die Organisationseinheit der höchsten Sicherheitsgruppe zugewiesen. Wenn mehrere Gruppen parallele Einheiten der obersten Ebene haben, wählt das System die Organisationseinheit für den Benutzer in Campaign Standard aus, und der Benutzer hätte nur Zugriff auf die vom System ausgewählte Organisationseinheit und deren untergeordnete Elemente. In Campaign v8 hätte der Benutzer nach der Migration Zugriff auf **alle zugewiesenen Organisationseinheiten und ihre untergeordneten Elemente** was zu einer möglichen Eskalation der Berechtigungen führen könnte. Um dies zu verhindern, vermeiden Sie die Zuweisung von Benutzern zu Sicherheitsgruppen mit parallelen Organisationseinheiten. Weitere Informationen über [parallele Zuweisung von Organisationseinheiten](#parallel-assignments).
 
 
 In Adobe Campaign Standard wird die **Organisationseinheit** dem in Campaign v8 vorhandenen **Ordner**-Hierarchiemodell zugeordnet, um eine ähnliche Zugriffssteuerung zu gewährleisten. [Weitere Informationen zur Ordnerverwaltung](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/admin/permissions/folder-permissions?lang=de)

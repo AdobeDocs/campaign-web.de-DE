@@ -3,14 +3,19 @@ audience: end-user
 title: Verwenden der Workflow-Aktivität „Daten-Update“
 description: Informationen dazu, wie Sie die Workflow-Aktivität „Daten-Update“ verwenden
 exl-id: db978482-43f6-48a7-8d8d-4b921eb610b2
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+TQID: https://experienceleague.adobe.com/XEGIeWi9D0dUYRFTD-fRY3P2BEpbOTvmm9aD06uq8RA
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2:
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: 480
 ht-degree: 100%
 
 ---
 
-# Daten-Update {#update-data}
+# Aktualisieren von Daten {#update-data}
 
 Die Aktivität **Daten-Update** ist eine **Daten-Management**-Aktivität. Sie ermöglicht eine gebündelte Aktualisierung der Datenbankfelder. Die Art der Datenbankaktualisierung kann über verschiedene Optionen angepasst werden.
 
@@ -39,13 +44,13 @@ Um die Aktivität **Daten-Update** zu konfigurieren, fügen Sie die Aktivität z
 Geben Sie im Feld **Aktionstyp** an, auf welche Weise die Daten aktualisiert werden sollen:
 
 * **Einfügen oder aktualisieren**: Fügt neue Daten ein oder aktualisiert in der Datenbank existierende Einträge.
-* **Einfügen**: Fügt lediglich neue Daten ein. Existierende Einträge werden nicht aktualisiert. Wenn Abstimmkriterien definiert wurden, werden nur nicht abgestimmte Einträge hinzugefügt.
+* **Einfügen**: Fügt lediglich neue Daten ein. Existierende Einträge werden nicht aktualisiert. Wenn Abstimmkriterien definiert wurden, werden nur nicht abgestimmte Datensätze hinzugefügt.
 * **Aktualisieren**: Aktualisiert nur die Daten der Einträge, die bereits in der Datenbank vorhanden sind.
 * **Löschen**: Löscht in der Datenbank existierende Daten.
 
-Im Feld **Aktualisierungsgröße** wird bestimmt, wie viele Elemente der eingehenden Transition aktualisiert werden. Bei Angabe von 500 beispielsweise werden die ersten 500 verarbeiteten Einträge aktualisiert.
+Im Feld **Batch-Größe** können Sie festlegen, wie viele Elemente der eingehenden Transition aktualisiert werden sollen. Bei Angabe von 500 beispielsweise werden die ersten 500 verarbeiteten Einträge aktualisiert.
 
-### Identifizierung von Einträgen
+### Datensatz-Identifizierung
 
 In diesem Abschnitt können Sie angeben, auf welche Weise die Einträge der Datenbank erkannt werden:
 
@@ -57,7 +62,7 @@ In diesem Abschnitt können Sie angeben, auf welche Weise die Einträge der Date
 
 Fügen Sie im Abschnitt **Zu aktualisierende Felder** die Felder hinzu, auf die die Aktualisierung angewendet wird. Fügen Sie bei Bedarf Bedingungen hinzu, damit diese Aktualisierung durchgeführt wird. Verwenden Sie das Feld **Berücksichtigt wenn**, um Bedingungen zu definieren. Bedingungen werden nacheinander in der Listenreihenfolge angewendet. Die Reihenfolge kann mithilfe der Pfeile rechts der Tabelle angepasst werden. Es ist möglich, mehrmals dasselbe Zielfeld zu verwenden.
 
-Ordnen Sie die Felder mithilfe der Schaltfläche **Automatisches Mapping** automatisch zu. Die Funktion des automatischen Verbindens erkennt Felder gleichen Namens.
+Ordnen Sie die Felder mithilfe der Schaltfläche **Automatisches Mapping** automatisch zu. Die Funktion erkennt Felder gleichen Namens.
 
 Wählen Sie während eines Vorgangs vom Typ **Einfügen oder aktualisieren** den gewünschten Vorgang für jedes Feld einzeln aus. Verwenden Sie das Feld **Vorgangsfeld**, um den gewünschten Wert anzugeben.
 

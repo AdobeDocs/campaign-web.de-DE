@@ -3,10 +3,15 @@ audience: end-user
 title: Verwenden der Workflow-Aktivität „Fortlaufender Versand“
 description: Erfahren Sie, wie Sie die Workflow-Aktivität „Fortlaufender Versand“ verwenden
 exl-id: 659bddcb-280c-4623-8115-6f975515d1a2
-source-git-commit: 9b51dc84a5b6954c973e1560aad877ef770eb8f9
+TQID: https://experienceleague.adobe.com/uWGhvUmHdS0ixFI4d-uEPgpxSnZoOwNRMbn8aZfqA98
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '241'
-ht-degree: 17%
+source-wordcount: 242
+ht-degree: 26%
 
 ---
 
@@ -14,7 +19,7 @@ ht-degree: 17%
 
 Die Aktivität **Fortlaufender Versand** ermöglicht es Ihnen, einem bestehenden Versand neue Empfänger hinzuzufügen. Bei diesem Versandtyp muss nicht jedes Mal ein neuer Versand erstellt werden, was ihn effizienter für Warnhinweise für geringes Volumen oder Benachrichtigungen macht, die bei Bedarf gesendet werden.
 
-Bei einem fortlaufenden Versand wird eine einzige Versandinstanz erstellt. Alle Versandlogs (broadLog) und Trackinglogs verweisen auf diesen Versand und vereinfachen die Überwachung und das Reporting.
+Bei einem fortlaufenden Versand wird eine einzige Versandinstanz erstellt. Alle Versandlogs (broadLog) und Trackinglogs verweisen auf diesen Versand und vereinfachen das Monitoring und das Reporting.
 
 ## Konfigurieren der Aktivität Versand (fortlaufend) {#configure}
 

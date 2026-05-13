@@ -3,9 +3,12 @@ audience: end-user
 title: Erstellen eines Briefpostversands
 description: Erfahren Sie, wie Sie mit Adobe Campaign Web einen Briefpostversand erstellen.
 exl-id: 9b5172b2-1880-4768-a33b-8a20ec5a30ab
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+TQID: https://experienceleague.adobe.com/ae0IUbZBdla45dSwwODEJg0Dd8rvA1TyR-fuzx2X6Vg
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: 504
 ht-degree: 98%
 
 ---
@@ -36,7 +39,7 @@ Gehen Sie wie folgt vor, um einen neuen eigenständigen Briefpostversand zu erst
    * **[!UICONTROL Art]**: Geben Sie die Art des Versands zu Klassifizierungszwecken an.
    +++
 
-1. Klicken Sie auf die Schaltfläche **[!UICONTROL Zielgruppe auswählen]**, um eine vorhandene Zielgruppe anzusprechen oder eine eigene zu erstellen. 
+1. Klicken Sie auf die Schaltfläche **[!UICONTROL Zielgruppe auswählen]**, um eine vorhandene Zielgruppe anzusprechen oder eine eigene zu erstellen.
 
    * [Erfahren Sie, wie Sie eine vorhandene Zielgruppe auswählen.](../audience/add-audience.md)
    * [Erfahren Sie, wie Sie eine neue Zielgruppe erstellen.](../audience/one-time-audience.md)

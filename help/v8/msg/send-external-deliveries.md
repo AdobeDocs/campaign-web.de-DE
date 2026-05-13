@@ -3,9 +3,14 @@ audience: end-user
 title: Erste Schritte mit externen Sendungen
 description: Erfahren Sie, wie Sie mit Adobe Campaign Web externe Sendungen erstellen und durchführen.
 exl-id: 08fe9333-aa35-4acf-ba41-4c6895049bbc
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+TQID: https://experienceleague.adobe.com/PssWyAdLFJ02--DZtt2AOjtbyoVcYip-cJvSqrr0aH4
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: 466
 ht-degree: 100%
 
 ---
@@ -40,7 +45,7 @@ Nachdem das spezifische externe Konto konfiguriert wurde, erstellen Sie den exte
 
    * **In einem Workflow**: Fügen Sie Ihrem Workflow eine externe Kanalaktivität (E-Mail, SMS oder Push) hinzu. Detaillierte Anweisungen zum Konfigurieren von Workflows finden Sie auf [dieser Seite](../workflows/gs-workflow-creation.md).
    * **In einer Kampagne**: Nachdem Sie eine Kampagne erstellt haben, können Sie einen externen Versand über den E-Mail-, SMS- oder Push-Kanal erstellen. Weiterführende Informationen zum Einrichten Ihrer Kampagne finden Sie auf [dieser Seite](../campaigns/gs-campaigns.md).
-   * **Eigenständiger Versand**: Binden Sie Kundinnen und Kunden direkt und sofort mit einem individuellen externen Versand ein. [Erfahren Sie, wie Sie einen Versand erstellen](../msg/gs-deliveries.md).
+   * **Eigenständiger Versand**: Binden Sie Kundinnen und Kunden direkt und sofort mit einem individuellen externen Versand ein. [Weitere Informationen zum Erstellen eines Versands](../msg/gs-deliveries.md)
 
 1. Wählen Sie in den [Einstellungen](../advanced-settings/delivery-settings.md) des Versands oder der Versandvorlage das für den Kanal Ihrer Wahl erstellte externe Konto aus (in diesem Beispiel den SMS-Kanal) und speichern Sie es.
 

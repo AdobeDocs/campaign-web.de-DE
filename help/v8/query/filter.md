@@ -3,9 +3,14 @@ audience: end-user
 title: Filtern von Listen
 description: Erfahren Sie, wie Sie in Adobe Campaign Web-Listen mithilfe integrierter und benutzerdefinierter Filter filtern.
 exl-id: 41c3c4c3-5991-4223-ad02-e2531d76fdda
-source-git-commit: 485d8b4b715192cc5edb6442df0fa958e29d15ff
+TQID: https://experienceleague.adobe.com/a683b5CBnXIK41ltJJeX9cBgMh2drsjlzoAicypOLzA
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: 416
 ht-degree: 100%
 
 ---
@@ -17,7 +22,7 @@ Adobe Campaign Web bietet Filter in jeder Objektliste, mit denen Sie Information
 >[!IMPORTANT]
 >
 >Eine brandneue Benutzeroberfläche für den Abfrage-Modeler ist verfügbar. Mit dem neuen Regel-Builder können Sie Ihre Abfrage dank der vereinfachten und intuitiven Benutzeroberfläche leichter erstellen. Um zu diesem Erlebnis zu wechseln, klicken Sie auf den Umschalter in der oberen rechten Ecke. Sie können jederzeit zum klassischen Abfrage-Modeler zurückkehren, indem Sie einfach auf den Umschalter klicken, um die neue Benutzeroberfläche zu deaktivieren. Sie können in dieser neuen Benutzeroberfläche dieselben Prinzipien wie beim Abfrage-Modeler anwenden.
->>![Bild, das den Umschalter für die neue Benutzeroberfläche des Regel-Builders zeigt](assets/query-modeler-toggle.png){zoomable="yes"}
+>![Bild, das den Umschalter für die neue Benutzeroberfläche des Regel-Builders zeigt](assets/query-modeler-toggle.png){zoomable="yes"}
 
 ## Anwenden von Filtern {#apply}
 

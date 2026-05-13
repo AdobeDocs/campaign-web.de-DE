@@ -2,9 +2,12 @@
 title: Anwendungsfälle für den KI-Assistenten
 description: Erfahren Sie anhand von Anwendungsfällen, wie Sie den KI-Assistenten verwenden.
 exl-id: ead51ef0-f7ba-4bc4-8d4a-f6a6d1df6a0f
-source-git-commit: 1580057d519aa1c9b2822cefc7fcf4c363c7a7e6
+TQID: https://experienceleague.adobe.com/WcuIJGn2iv3OY8MT5qQ8sYiQ1zNbPd55hCmAi-dQUeQ
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '1237'
+source-wordcount: 1244
 ht-degree: 51%
 
 ---
@@ -81,7 +84,7 @@ Wenn ein Bild nahezu geeignet ist, generieren Sie zusätzliche Optionen, die das
 
 1. Wenn Sie mit dem Prompt zufrieden sind, klicken Sie auf **[!UICONTROL Generieren]**.
 
-1. Durchsuchen Sie die **[!UICONTROL Variantenvorschläge]**, um das gewünschte Asset zu finden. 
+1. Durchsuchen Sie die **[!UICONTROL Variantenvorschläge]**, um das gewünschte Asset zu finden.
 
    Klicken Sie auf **[!UICONTROL Vorschau]**, um eine Vollbildversion der ausgewählten Variante anzuzeigen.
 

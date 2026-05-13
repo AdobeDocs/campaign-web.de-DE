@@ -3,9 +3,14 @@ audience: end-user
 title: Berechtigungsverwaltung in der Campaign Web-Benutzeroberfläche
 description: Erfahren Sie mehr über Berechtigungen in der Campaign Web-Benutzeroberfläche
 exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
-source-git-commit: 692a9badf72e465791e6f964d02753e7f1a25713
+TQID: https://experienceleague.adobe.com/RJbtR10FIXBaSjXv-HxYIsJg1vpDA71Gwu99Jl9GQh0
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: 318
 ht-degree: 100%
 
 ---
@@ -48,6 +53,6 @@ Wenn die Option **[!UICONTROL Ausdehnen]** aktiviert ist, werden alle für einen
 
 Wenn die Option **[!UICONTROL Systemordner]** aktiviert ist, haben alle Benutzenden unabhängig von ihren Berechtigungen Zugriff.
 
-Sie können auch [die Berechtigungen für Ordner in der Adobe Campaign-Konsole verwalten](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/admin/permissions/folder-permissions){target="_blank"}.
+Sie können auch [die Berechtigungen für Ordner in der Adobe Campaign-Konsole verwalten](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/admin/permissions/folder-permissions?lang=de){target="_blank"}.
 
 Alle Berechtigungen in der Benutzeroberfläche von Campaign Web werden mit den Berechtigungen der Campaign-Client-Konsole synchronisiert.
