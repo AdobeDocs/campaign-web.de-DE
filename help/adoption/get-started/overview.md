@@ -4,10 +4,17 @@ description: Erfahren Sie, was für die ersten Schritte mit Ihrer neuen Campaign
 role: User, Admin, Developer
 level: Beginner
 exl-id: 39d1f1b6-626b-48a2-92c3-9b593a377d66
-source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
+TQID: https://experienceleague.adobe.com/ef945wiVtBxLFJEMMYmrrSHMg8ZtxFn-UUkEE7ntk58
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: b12f6872-9271-4369-85e5-86969a0b99a2id: c309ee4e-82e4-4f7e-b608-ef345678c34eid: d5ef99fa-df0c-4153-bf94-105ad0724167
+subfeature_v2: id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '1553'
-ht-degree: 100%
+source-wordcount: 1621
+ht-degree: 99%
 
 ---
 
@@ -136,7 +143,7 @@ Damit Sie reibungslos zu Campaign v8 wechseln können, wurden wichtige Funktion
 
 * **Landingpages**: An den Landingpages von Campaign v8 wurden einige Verbesserungen vorgenommen, damit die Funktionen mit denen von Campaign Standard vergleichbar sind. Weitere Informationen finden Sie in den [Versionshinweisen](../../v8/rn/release-notes.md#new-24-4) und in der [Dokumentation](../../v8/landing-pages/get-started-lp.md) zu Landingpages.
 
-* **Visuelle Fragmente**: Visuelle Fragmente sind wiederverwendbare visuelle Komponenten, die in einer oder mehreren E-Mail-Sendungen oder in Inhaltsvorlagen referenziert werden können. Wenn Sie ein Fragment ändern, wird jeder Inhalt, der dieses Fragment verwendet, aktualisiert. Diese Funktionalität ermöglicht es, mehrere benutzerdefinierte Inhaltsbausteine vorab zu erstellen, die anschließend von Benutzenden aus dem Bereich Marketing verwendet werden können, um NachrichtenInhalte in einem verbesserten Designprozess schnell zusammenzustellen. [Weitere Informationen](../../v8//content/use-visual-fragments.md)
+* **Visuelle Fragmente**: Visuelle Fragmente sind wiederverwendbare visuelle Komponenten, die in einer oder mehreren E-Mail-Sendungen oder in Inhaltsvorlagen referenziert werden können. Wenn Sie ein Fragment ändern, wird jeder Inhalt, der dieses Fragment verwendet, aktualisiert. Mit dieser Funktion können Sie mehrere benutzerdefinierte Inhaltsbausteine vorab erstellen, mit denen Marketing-Benutzende Inhalte von Nachrichten schnell in einem verbesserten Design-Prozess zusammenstellen können. [Weitere Informationen](../../v8//content/use-visual-fragments.md)
 
 ## Hauptunterschiede zwischen Campaign Standard und Campaign v8 {#experiences}
 
@@ -155,7 +162,7 @@ Bestehende Campaign-Benutzende sollten zudem beachten, dass einige Konzepte ents
 
 * Empfängerinnen und Empfänger werden jetzt als **Profile** bezeichnet. [Weitere Informationen](../../v8/audience/gs-audiences-recipients.md).
 * Testadressen werden jetzt als **Testprofile** bezeichnet. [Weitere Informationen](../../v8/preview-test/test-deliveries.md).
-* Die Versandanalyse heißt jetzt **Versandvorbereitung**. Wenn Sie die Vorbereitung von Nachrichten starten möchten, klicken Sie auf die Schaltfläche **Vorbereiten**.  [Weitere Informationen](../../v8/monitor/prepare-send.md).
+* Die Versandanalyse heißt jetzt **Versandvorbereitung**. Wenn Sie die Vorbereitung von Nachrichten starten möchten, klicken Sie auf die Schaltfläche **Vorbereiten**. [Weitere Informationen](../../v8/monitor/prepare-send.md).
 * Die E-Mail-Vorschau ist jetzt über die Schaltfläche **Inhalt simulieren** verfügbar. [Weitere Informationen](../../v8/preview-test/preview-test.md)
 * Listen heißen jetzt **Zielgruppen**. [Weitere Informationen](../../v8/audience/gs-audiences-recipients.md).
 
@@ -182,12 +189,12 @@ Rufen Sie das entsprechende Referenzhandbuch für Ihre Rolle auf, um sich mit de
   <tr>
     <td>
     <a href="marketers.md">
-    <strong>Marketing-Fachleute</strong>
+    <strong>Marketer</strong>
     </a>
     </td>
     <td>
       <a href="admin-developers.md">
-      <strong>Admins oder Entwicklerinnen bzw. Entwickler</strong>
+      <strong>Administrator oder Entwickler</strong>
       </a>
     </td>
   </tr>
@@ -215,7 +222,7 @@ Rufen Sie das entsprechende Referenzhandbuch für Ihre Rolle auf, um sich mit de
       <li>Optimieren von automatisierten Kampagnen
     </td>
     <td>
-        <li>Zugriffsverwaltung 
+        <li>Zugriffsverwaltung
         <li>Systemkonfiguration
         <li>Systemanpassung
     </td>
@@ -228,5 +235,5 @@ Rufen Sie das entsprechende Referenzhandbuch für Ihre Rolle auf, um sich mit de
 
 Adobe constantly evaluates product capabilities to identify older features that should be replaced with more modern alternatives to improve overall customer value, always under careful consideration of backward compatibility.
 
-Please refer to [this documentation for information on deprecated items](https://experienceleague.adobe.com/de/docs/campaign-standard/using/release-notes/deprecated-features).
+Please refer to [this documentation for information on deprecated items](https://experienceleague.adobe.com/en/docs/campaign-standard/using/release-notes/deprecated-features).
 -->

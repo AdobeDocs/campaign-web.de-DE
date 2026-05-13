@@ -3,9 +3,11 @@ audience: end-user
 title: Erstellen eines Callcenter-Versands
 description: Weitere Informationen zum Erstellen eines Callcenter-Versands mit Adobe Campaign Web
 exl-id: fe8d4773-2271-46ec-9b2e-f50311a4ccf3
-source-git-commit: 1581943b0f13cbd4296e1f42fae8560626b61bdf
+TQID: https://experienceleague.adobe.com/ZzmvZqFd6YxjWRtXC5BdWR8yKOYot2l6CNxBOZs6--4
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '756'
+source-wordcount: 759
 ht-degree: 100%
 
 ---
@@ -41,9 +43,9 @@ Führen Sie die folgenden Schritte aus, um den Versand zu erstellen und seine Ei
 
 >[!NOTE]
 >
->Sie können den Versand so planen, dass er zu einem bestimmten Datum erfolgt. Weitere Informationen hierzu finden Sie in diesem [Abschnitt](../msg/gs-deliveries.md#gs-schedule).
+>Sie können den Versand so planen, dass er zu einem bestimmten Datum erfolgt. Weitere Informationen hierzu finden Sie in [diesem Abschnitt](../msg/gs-deliveries.md#gs-schedule).
 
-## Definieren der Zielgruppe{#select-audience}
+## Zielgruppe definieren{#select-audience}
 
 Definieren Sie nun die Zielgruppe für die Extraktionsdatei.
 
@@ -92,7 +94,7 @@ Nun wird der Inhalt der Extraktionsdatei bearbeitet, die vom Callcenter-Versand 
 
 1. Wiederholen Sie diese Schritte, um so viele Spalten hinzuzufügen, wie Sie für Ihre Extraktionsdatei benötigen.
 
-   Anschließend können Sie die Attribute bearbeiten, die Extraktionsdatei sortieren oder die Position der Spalten ändern. Weiterführende Informationen hierzu finden Sie auf [dieser Seite](../direct-mail/content-direct-mail.md#content).
+   Anschließend können Sie die Attribute bearbeiten, die Extraktionsdatei sortieren oder die Position der Spalten ändern. Weiterführende Informationen hierzu finden Sie auf dieser [Seite](../direct-mail/content-direct-mail.md#content).
 
    ![Screenshot mit den Konfigurationsoptionen für Attribute für die Extraktionsdatei](assets/cc-content-attributes.png)
 
@@ -106,7 +108,7 @@ Nachfolgend werden die wichtigsten Schritte beschrieben, um die Extraktionsdatei
 
    ![Screenshot mit der Option „Inhalte simulieren“ auf der Seite für den Versandinhalt](assets/cc-simulate0.png){zoomable="yes"}
 
-1. Wählen Sie mindestens ein Testprofil aus, um eine Vorschau des personalisierten Inhalts anzuzeigen. Sie können auch Testsendungen durchführen. [Weitere Informationen](../direct-mail/send-direct-mail.md#preview-dm)
+1. Wählen Sie mindestens ein Testprofil aus, um eine Vorschau des personalisierten Inhalts anzuzeigen. Sie können auch Testsendungen durchführen. [Mehr dazu](../direct-mail/send-direct-mail.md#preview-dm)
 
    ![Screenshot mit der Option „Inhalte simulieren“ auf der Seite für den Versandinhalt](assets/cc-simulate.png){zoomable="yes"}
 

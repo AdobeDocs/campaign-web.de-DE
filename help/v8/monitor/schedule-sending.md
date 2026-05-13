@@ -3,9 +3,11 @@ audience: end-user
 title: Planen des Sendevorgangs eines Versands
 description: Erfahren Sie, wie Sie einen Versand planen
 exl-id: 0738a148-d550-41c2-a8c2-6054684ba789
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+TQID: https://experienceleague.adobe.com/H3QUVSdkbLfPhBEo3J-T1Wjj5Xguriva1E43S2kCKyE
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '533'
+source-wordcount: 534
 ht-degree: 100%
 
 ---
@@ -51,7 +53,7 @@ Sie können auch überprüfen, ob der Zeitplan angewendet wird:
 
 ![Überprüfen des SMS-Zeitplans](assets/schedule-sms-standalone-prepare.png){zoomable="yes"}
 
-### Push-Benachrichtigung
+### Push notification
 
 Gehen Sie so wie bei E-Mail-Sendungen vor, um einen eigenständigen Push-Versand für ein bestimmtes Datum und eine bestimmte Uhrzeit zu planen. [Siehe oben](#schedule-email-standalone).
 

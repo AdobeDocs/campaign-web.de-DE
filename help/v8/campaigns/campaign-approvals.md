@@ -4,10 +4,14 @@ title: Einrichten und Verwalten des Validierungsprozesses
 description: Erfahren Sie, wie Sie in Campaign Web Validierungen von Marketing-Kampagnen verwalten.
 feature: Approvals, Campaigns
 exl-id: 8140f904-ec0a-44e1-981f-0e050d3c9cdb
-source-git-commit: 9b51dc84a5b6954c973e1560aad877ef770eb8f9
+TQID: https://experienceleague.adobe.com/Gpk7fY-VSFdgvgJo2STGjJ8-mHBkVZnp8cD-bFZrWpU
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '694'
-ht-degree: 5%
+source-wordcount: 696
+ht-degree: 10%
 
 ---
 
@@ -17,7 +21,7 @@ ht-degree: 5%
 >
 >Validierungen sind nur für Sendungen verfügbar, die innerhalb einer Kampagne erstellt wurden. Dies gilt nicht für eigenständige Sendungen oder Sendungen, die in Workflows außerhalb eines Kampagnenkontexts erstellt wurden.
 
-Der Validierungsprozess hilft, mehrere Stakeholder zu koordinieren, und stellt die Qualitätskontrolle vor dem Versand sicher. Verwenden Sie Validierungen, wenn Ihr Unternehmen die Validierung durch verschiedene Teams erfordert, z. B. durch Marketing-Manager, die Inhalte überprüfen, oder durch Datenanalysten, die Zielgruppen validieren.
+Der Validierungsprozess hilft, mehrere Stakeholder zu koordinieren, und stellt die Qualitätskontrolle vor dem Versand sicher. Verwenden Sie Validierungen, wenn Ihre Organisation die Validierung durch verschiedene Teams erfordert, z. B. durch das Marketing-Management, das Inhalte überprüft, oder durch das Datenanalyse-Team, das Zielgruppen validiert.
 
 Wenn Validierungen aktiviert sind, müssen Sie Inhalte oder Zielgruppen zur Genehmigung einreichen. Designierte Validierungsverantwortliche erhalten E-Mail-Benachrichtigungen, in denen sie zur Validierung aufgefordert werden, und können diese direkt über die Web-Benutzeroberfläche genehmigen oder ablehnen. Sendungen können erst durchgeführt werden, wenn alle erforderlichen Genehmigungen erteilt wurden. Sie können Folgendes aktivieren:
 
@@ -48,7 +52,7 @@ Validierungseinstellungen werden von der Kampagnenvorlage übernommen und könne
 >* Wenn kein Validierungsverantwortlicher angegeben ist, wird der Kampagnenverantwortliche als Validierungsverantwortliche zugewiesen.
 >* Validierungsverantwortliche benötigen entsprechende Berechtigungen, um Sendungen zu genehmigen. Nur in der Reviewer-Liste identifizierte Benutzer können genehmigen.
 
-## Zur Genehmigung unterbreiten {#submit-approval}
+## Zur Validierung unterbreiten {#submit-approval}
 
 Führen Sie nach der Erstellung des Versands die folgenden Schritte aus, um den Inhalt und die Zielgruppe zur Genehmigung einzureichen.
 

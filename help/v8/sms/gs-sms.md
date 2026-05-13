@@ -3,13 +3,15 @@ audience: end-user
 title: Erste Schritte mit SMS-Sendungen
 description: Erfahren Sie, wie Sie SMS mit Adobe Campaign Web erstellen und senden
 exl-id: 642c4180-0439-43dd-ba3f-0c4843bbfe84
-source-git-commit: eccd1ce6f95682d3dcfc224061f747f7da0b6681
+TQID: https://experienceleague.adobe.com/o-0MeELRewgw68-diUevmn9qDYgEK8rzDlHv54Kx00A
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: 173
 ht-degree: 100%
 
 ---
-
 
 # Erste Schritte mit SMS-Sendungen {#sms}
 
@@ -39,7 +41,7 @@ Der SMS-Kanal bietet drei Methoden zur Erstellung von SMS-Sendungen:
 <img alt="Gestalten eines SMS-Versands" src="assets/do-not-localize/design_sms.png">
 </a>
 <div>
-<a href="content-sms.md"><strong>Gestalten eines SMS-Versands<strong></strong></a>
+<a href="content-sms.md"><strong>Entwerfen eines SMS-Versands<strong></strong></a>
 </div>
 <p></td>
 <td>

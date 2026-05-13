@@ -3,9 +3,11 @@ audience: end-user
 title: Erstellen von Workflows mit Adobe Campaign Web
 description: Erfahren Sie, wie Sie Workflows mit Adobe Campaign Web erstellen
 exl-id: c9c41189-0150-49a4-bdb3-317fe543eb2c
-source-git-commit: 85ebbbe1e318cf0561b33d4c14250cded6ffbc65
-workflow-type: ht
-source-wordcount: '563'
+TQID: https://experienceleague.adobe.com/82in9AqdvERH39JBxOfB5B6yFjo9dFyVpvTRY3QxUCg
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+workflow-type: tm+mt
+source-wordcount: 567
 ht-degree: 100%
 
 ---
@@ -14,7 +16,7 @@ ht-degree: 100%
 
 Sobald Sie Ihren Workflow erstellt und die Aufgaben in der Arbeitsfläche entworfen haben, können Sie ihn starten und seine Ausführung überwachen.
 
-## Starten des Workflows {#start}
+## Workflow starten {#start}
 
 Um den Workflow zu starten, navigieren Sie zum Menü **[!UICONTROL Workflows]** oder zur zugehörigen Kampagne und klicken Sie auf die Schaltfläche **[!UICONTROL Starten]** in der rechten oberen Ecke der Arbeitsfläche.
 

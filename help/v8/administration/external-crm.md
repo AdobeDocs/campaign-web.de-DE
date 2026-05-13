@@ -1,9 +1,13 @@
 ---
 title: Verwalten eines externen Kontos
 description: Informationen zum Konfigurieren externer CRM-Konten
-source-git-commit: 934a37cfebfacd2df0b7610285252d883611f252
-workflow-type: ht
-source-wordcount: '857'
+exl-id: b8dd0cef-c2ab-4e3a-9fe4-d44b6c2902a6
+TQID: https://experienceleague.adobe.com/CBkfqiJfkVMtI76CIM9X95EdlhKOFpFVhSrVZQFMMd4
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+workflow-type: tm+mt
+source-wordcount: 863
 ht-degree: 100%
 
 ---
@@ -22,7 +26,7 @@ Konfigurieren Sie Ihr externes Konto „Microsoft Dynamics CRM“ in der Adobe C
 
 1. [Erstellen Sie Ihr externes Konto](external-account.md) und wählen Sie **[!UICONTROL Externe Datenbank]** als **[!UICONTROL Typ]** Ihres externen Kontos und „Microsoft Dynamics CRM“ als **[!UICONTROL Anbietertyp]** aus.
 
-1. Klicken Sie auf **[!UICONTROL Erstellen]**.
+1. Wählen Sie **[!UICONTROL Erstellen]** aus.
 
 1. Um das externe Konto **[!UICONTROL Microsoft Dynamics CRM]** zu konfigurieren, füllen Sie folgende Felder aus:
 
@@ -40,7 +44,7 @@ Konfigurieren Sie Ihr externes Konto „Microsoft Dynamics CRM“ in der Adobe C
 
    * **[!UICONTROL Clientkennung]**: Geben Sie die Client-ID ein, die im Verwaltungsportal von Microsoft Azure zu finden ist.
 
-   * **[!UICONTROL CRM-Version]**: Hier wählen Sie die CRM-Version „Dynamics CRM 365“ aus.
+   * **[!UICONTROL CRM-Version]**: Hier wählen Sie die CRM-Version &quot;Dynamics CRM 365&quot; aus.
 
    +++
 
@@ -62,7 +66,7 @@ Konfigurieren Sie Ihr externes Konto „Microsoft Dynamics CRM“ in der Adobe C
 
    * **[!UICONTROL Clientkennung]**: Geben Sie die Client-ID ein, die in der Microsoft Azure-Verwaltung zu finden ist.
 
-   * **[!UICONTROL CRM-Version]**: Hier wählen Sie die CRM-Version „Dynamics CRM 365“ aus.
+   * **[!UICONTROL CRM-Version]**: Hier wählen Sie die CRM-Version &quot;Dynamics CRM 365&quot; aus.
 
    +++
 
@@ -102,7 +106,7 @@ Um dieses externe Konto „Salesforce“ für die gemeinsame Verwendung mit Adob
 
    ![Screenshot mit den Feldern zur Konfiguration des externen Kontos „Salesforce“.](assets/crm-salesforce-1.png)
 
-1. Klicken Sie auf **[!UICONTROL Erstellen]**.
+1. Wählen Sie **[!UICONTROL Erstellen]** aus.
 
 1. Um das externe Konto **[!UICONTROL Salesforce]** zu konfigurieren, füllen Sie folgende Felder aus:
 
@@ -147,4 +151,3 @@ Um dieses externe Konto „Salesforce“ für die gemeinsame Verwendung mit Adob
    Um Adobe Campaign-Werte durch Salesforce-Werte zu ersetzen, aktivieren Sie die Option **[!UICONTROL Ersetzen]**.
 
    ![Screenshot mit den Feldern zur Konfiguration des externen Kontos „Salesforce CRM“.](assets/crm-salesforce-5.png)
-

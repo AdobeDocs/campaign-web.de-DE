@@ -3,9 +3,11 @@ audience: end-user
 title: Verfolgen von Nachrichten
 description: Erfahren Sie, wie Sie Links hinzufügen und gesendete Nachrichten verfolgen können.
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
-source-git-commit: 53f3cc27ed6d768d134902a9196f0b221fedcde0
+TQID: https://experienceleague.adobe.com/0cPQ1ZElguYmeDUybrkRyzW0l-ZXxoxSdQTesjPLrps
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: 571
 ht-degree: 100%
 
 ---
@@ -36,11 +38,11 @@ Gehen Sie wie folgt vor, um Links in Ihren E-Mail-Inhalt einzufügen:
 
      ![Screenshot der Benutzeroberfläche zum Verknüpfen mit einer Landingpage im E-Mail-Designer](assets/email-link-to-landing-page.png){zoomable="yes"}
 
-   * **[!UICONTROL Anmelde-Link]**: Fügen Sie einen Link zu einem Anmelde-Dienst ein.  Wenn Benutzende auf den Link klicken, werden sie zur Abonnement-Landingpage weitergeleitet, auf die im ausgewählten Dienst verwiesen wird. [Weitere Informationen](../audience/manage-services.md#create-service)
+   * **[!UICONTROL Anmelde-Link]**: Fügen Sie einen Link zu einem Anmelde-Dienst ein. Wenn Benutzende auf den Link klicken, werden sie zur Abonnement-Landingpage weitergeleitet, auf die im ausgewählten Dienst verwiesen wird. [Weitere Informationen](../audience/manage-services.md#create-service)
 
      ![Screenshot der Benutzeroberfläche zum Erstellen eines standardmäßigen Abonnement-Links im Dienst-Tool](assets/service-create-default-lp-link.png){zoomable="yes"}
 
-   * **[!UICONTROL Abmelde-Link]**: Fügen Sie einen Link zu einem Abmelde-Dienst ein.  Wenn Abonnentinnen und Abonnenten auf den Link klicken, werden sie zur Abmeldungs-Landingpage weitergeleitet, auf die im ausgewählten Dienst verwiesen wird. [Weitere Informationen](../audience/manage-services.md#create-service)
+   * **[!UICONTROL Abmelde-Link]**: Fügen Sie einen Link zu einem Abmelde-Dienst ein. Wenn Abonnentinnen und Abonnenten auf den Link klicken, werden sie zur Abmeldungs-Landingpage weitergeleitet, auf die im ausgewählten Dienst verwiesen wird. [Weitere Informationen](../audience/manage-services.md#create-service)
 
    <!--* **[!UICONTROL Mirror page]**: Add a link to display the email content in a web browser. [Learn more]-->
 
@@ -69,7 +71,7 @@ Der [E-Mail-Designer](create-email-content.md) ermöglicht Ihnen die Verwaltung 
 
 1. Klicken Sie im linken Bereich auf das Symbol **[!UICONTROL Links]**, um die Liste aller URLs in Ihren zu verfolgenden Inhalten anzuzeigen.
 
-   Diese Liste bietet einen guten Überblick und ermöglicht das Auffinden aller im E-Mail-Inhalt vorhandenen URLs. 
+   Diese Liste bietet einen guten Überblick und ermöglicht das Auffinden aller im E-Mail-Inhalt vorhandenen URLs.
 
 1. Um einen Link zu bearbeiten, wählen Sie das entsprechende Stiftsymbol aus.
 

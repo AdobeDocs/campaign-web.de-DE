@@ -2,9 +2,12 @@
 title: Verwalten eines externen Kontos
 description: Informationen zum Konfigurieren externer Konten
 exl-id: 8f41312e-422f-4be1-b874-1b143c500912
-source-git-commit: 155a7f3fb55a579dbf9a2ad81a1dc7e4ea3847df
+TQID: https://experienceleague.adobe.com/3UXLVWPQ0AxtloNmhumWXdi4VOVbHqveeZdkGlxhlQQ
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '3892'
+source-wordcount: 3911
 ht-degree: 100%
 
 ---
@@ -23,7 +26,7 @@ Konfigurieren Sie Ihr externes Konto „Amazon Redshift“ in der Adobe Campaign
 
 1. [Erstellen Sie Ihr externes Konto](external-account.md) und wählen Sie **[!UICONTROL Externe Datenbank]** als **[!UICONTROL Typ]** Ihres externen Kontos und „Amazon Redshift“ als **[!UICONTROL Anbietertyp]** aus.
 
-1. Klicken Sie auf **[!UICONTROL Erstellen]**.
+1. Wählen Sie **[!UICONTROL Erstellen]** aus.
 
 1. Um das externe Konto **[!UICONTROL Amazon Redshift]** zu konfigurieren, füllen Sie folgende Felder aus:
 
@@ -59,7 +62,7 @@ Konfigurieren Sie Ihr externes Konto „Amazon Redshift (veraltet)“ in der Ado
 
 1. [Erstellen Sie Ihr externes Konto](external-account.md) und wählen Sie **[!UICONTROL Externe Datenbank]** als **[!UICONTROL Typ]** Ihres externen Kontos und „Amazon Redshift (veraltet)“ als **[!UICONTROL Anbietertyp]** aus.
 
-1. Klicken Sie auf **[!UICONTROL Erstellen]**.
+1. Wählen Sie **[!UICONTROL Erstellen]** aus.
 
 1. Um das externe Konto **[!UICONTROL Amazon Redshift (veraltet)]** zu konfigurieren, füllen Sie folgende Felder aus:
 
@@ -89,7 +92,7 @@ Konfigurieren Sie Ihr externes Konto „Azure Synapse Analytics“ in der Adobe 
 
 1. [Erstellen Sie Ihr externes Konto](external-account.md) und wählen Sie **[!UICONTROL Externe Datenbank]** als **[!UICONTROL Typ]** Ihres externen Kontos und „Amazon Redshift“ als **[!UICONTROL Anbietertyp]** aus.
 
-1. Klicken Sie auf **[!UICONTROL Erstellen]**.
+1. Wählen Sie **[!UICONTROL Erstellen]** aus.
 
 1. Um das externe Konto **[!UICONTROL Azure Synapse Analytics]** zu konfigurieren, füllen Sie folgende Felder aus:
 
@@ -127,7 +130,7 @@ Konfigurieren Sie Ihr externes Konto „Databricks“ in der Adobe Campaign Web-
 
 1. [Erstellen Sie Ihr externes Konto](external-account.md) und wählen Sie **[!UICONTROL Externe Datenbank]** als **[!UICONTROL Typ]** Ihres externen Kontos und „Databricks“ als **[!UICONTROL Anbietertyp]** aus.
 
-1. Klicken Sie auf **[!UICONTROL Erstellen]**.
+1. Wählen Sie **[!UICONTROL Erstellen]** aus.
 
 1. Um das externe Konto **[!UICONTROL Databricks]** zu konfigurieren, füllen Sie folgende Felder aus:
 
@@ -159,7 +162,7 @@ Konfigurieren Sie Ihr externes Konto „Google BigQuery“ in der Adobe Campaign
 
 1. [Erstellen Sie Ihr externes Konto](external-account.md) und wählen Sie **[!UICONTROL Externe Datenbank]** als **[!UICONTROL Typ]** Ihres externen Kontos und „Google BigQuery“ als **[!UICONTROL Anbietertyp]** aus.
 
-1. Klicken Sie auf **[!UICONTROL Erstellen]**.
+1. Wählen Sie **[!UICONTROL Erstellen]** aus.
 
 1. Um das externe Konto **[!UICONTROL Google BigQuery]** zu konfigurieren, füllen Sie folgende Felder aus:
 
@@ -204,7 +207,7 @@ Konfigurieren Sie Ihr externes Konto „Microsoft SQL Server“ in der Adobe Cam
 
 1. [Erstellen Sie Ihr externes Konto](external-account.md) und wählen Sie **[!UICONTROL Externe Datenbank]** als **[!UICONTROL Typ]** Ihres externen Kontos und „Microsoft SQL Server“ als **[!UICONTROL Anbietertyp]** aus.
 
-1. Klicken Sie auf **[!UICONTROL Erstellen]**.
+1. Wählen Sie **[!UICONTROL Erstellen]** aus.
 
 1. Um das externe Konto **[!UICONTROL Microsoft SQL Server]** zu konfigurieren, füllen Sie folgende Felder aus:
 
@@ -239,7 +242,7 @@ Konfigurieren Sie Ihr externes Konto „MySQL“ in der Adobe Campaign Web-Benut
 
 1. [Erstellen Sie Ihr externes Konto](external-account.md) und wählen Sie **[!UICONTROL Externe Datenbank]** als **[!UICONTROL Typ]** Ihres externen Kontos und „MySQL“ als **[!UICONTROL Anbietertyp]** aus.
 
-1. Klicken Sie auf **[!UICONTROL Erstellen]**.
+1. Wählen Sie **[!UICONTROL Erstellen]** aus.
 
 1. Um das externe Konto **[!UICONTROL MySQL]** zu konfigurieren, füllen Sie folgende Felder aus:
 
@@ -271,7 +274,7 @@ Konfigurieren Sie Ihr externes Konto „Netezza“ in der Adobe Campaign Web-Ben
 
 1. [Erstellen Sie Ihr externes Konto](external-account.md) und wählen Sie **[!UICONTROL Externe Datenbank]** als **[!UICONTROL Typ]** Ihres externen Kontos und „Netezza“ als **[!UICONTROL Anbietertyp]** aus.
 
-1. Klicken Sie auf **[!UICONTROL Erstellen]**.
+1. Wählen Sie **[!UICONTROL Erstellen]** aus.
 
 1. Um das externe Konto **[!UICONTROL Netezza]** zu konfigurieren, füllen Sie folgende Felder aus:
 
@@ -302,7 +305,7 @@ Konfigurieren Sie Ihr externes Konto „ODBC (Sybase ASE, Sybase IQ)“ in der A
 
 1. [Erstellen Sie Ihr externes Konto](external-account.md) und wählen Sie **[!UICONTROL Externe Datenbank]** als **[!UICONTROL Typ]** Ihres externen Kontos und „ODBC (Sybase ASE, Sybase IQ)“ als **[!UICONTROL Anbietertyp]** aus.
 
-1. Klicken Sie auf **[!UICONTROL Erstellen]**.
+1. Wählen Sie **[!UICONTROL Erstellen]** aus.
 
 1. Um das externe Konto **[!UICONTROL ODBC (Sybase ASE, Sybase IQ)]** zu konfigurieren, füllen Sie folgende Felder aus:
 
@@ -338,7 +341,7 @@ Konfigurieren Sie Ihr externes Konto „HTTP-Weiterleitung auf Remote-Datenbank�
 
 1. [Erstellen Sie Ihr externes Konto](external-account.md) und wählen Sie **[!UICONTROL Externe Datenbank]** als **[!UICONTROL Typ]** Ihres externen Kontos und „Amazon Redshift“ als **[!UICONTROL Anbietertyp]** aus.
 
-1. Klicken Sie auf **[!UICONTROL Erstellen]**.
+1. Wählen Sie **[!UICONTROL Erstellen]** aus.
 
 1. Um das externe Konto **[!UICONTROL HTTP-Weiterleitung auf Remote-Datenbank]** zu konfigurieren, füllen Sie folgende Felder aus:
 
@@ -369,7 +372,7 @@ Konfigurieren Sie Ihr externes Konto „Oracle“ in der Adobe Campaign Web-Benu
 
 1. [Erstellen Sie Ihr externes Konto](external-account.md) und wählen Sie **[!UICONTROL Externe Datenbank]** als **[!UICONTROL Typ]** Ihres externen Kontos und „Oracle“ als **[!UICONTROL Anbietertyp]** aus.
 
-1. Klicken Sie auf **[!UICONTROL Erstellen]**.
+1. Wählen Sie **[!UICONTROL Erstellen]** aus.
 
 1. Um das externe Konto **[!UICONTROL Oracle]** zu konfigurieren, füllen Sie folgende Felder aus:
 
@@ -398,7 +401,7 @@ Konfigurieren Sie Ihr externes Konto „PostgreSQL“ in der Adobe Campaign Web-
 
 1. [Erstellen Sie Ihr externes Konto](external-account.md) und wählen Sie **[!UICONTROL Externe Datenbank]** als **[!UICONTROL Typ]** Ihres externen Kontos und „PostgreSQL“ als **[!UICONTROL Anbietertyp]** aus.
 
-1. Klicken Sie auf **[!UICONTROL Erstellen]**.
+1. Wählen Sie **[!UICONTROL Erstellen]** aus.
 
 1. Um das externe Konto **[!UICONTROL PostgreSQL]** zu konfigurieren, füllen Sie folgende Felder aus:
 
@@ -432,7 +435,7 @@ Konfigurieren Sie Ihr externes Konto „SAP HANA“ in der Adobe Campaign Web-B
 
 1. [Erstellen Sie Ihr externes Konto](external-account.md) und wählen Sie **[!UICONTROL Externe Datenbank]** als **[!UICONTROL Typ]** Ihres externen Kontos und „SAP HANA“ als **[!UICONTROL Anbietertyp]** aus.
 
-1. Klicken Sie auf **[!UICONTROL Erstellen]**.
+1. Wählen Sie **[!UICONTROL Erstellen]** aus.
 
 1. Um das externe Konto **[!UICONTROL SAP HANA]** zu konfigurieren, füllen Sie folgende Felder aus:
 
@@ -466,7 +469,7 @@ Konfigurieren Sie Ihr externes Konto „Snowflake“ in der Adobe Campaign Web-B
 
 1. [Erstellen Sie Ihr externes Konto](external-account.md) und wählen Sie **[!UICONTROL Externe Datenbank]** als **[!UICONTROL Typ]** Ihres externen Kontos und „Snowflake“ als **[!UICONTROL Anbietertyp]** aus.
 
-1. Klicken Sie auf **[!UICONTROL Erstellen]**.
+1. Wählen Sie **[!UICONTROL Erstellen]** aus.
 
 1. Um das externe Konto **[!UICONTROL Snowflake]** zu konfigurieren, füllen Sie folgende Felder aus:
 
@@ -504,7 +507,7 @@ Konfigurieren Sie Ihr externes Konto „Teradata“ in der Adobe Campaign Web-Be
 
 1. [Erstellen Sie Ihr externes Konto](external-account.md) und wählen Sie **[!UICONTROL Externe Datenbank]** als **[!UICONTROL Typ]** Ihres externen Kontos und „Teradata“ als **[!UICONTROL Anbietertyp]** aus.
 
-1. Klicken Sie auf **[!UICONTROL Erstellen]**.
+1. Wählen Sie **[!UICONTROL Erstellen]** aus.
 
 1. Um das externe Konto **[!UICONTROL Teradata]** zu konfigurieren, füllen Sie folgende Felder aus:
 
@@ -538,7 +541,7 @@ Konfigurieren Sie Ihr externes Konto „Vertica Analytics“ in der Adobe Campa
 
 1. [Erstellen Sie Ihr externes Konto](external-account.md) und wählen Sie **[!UICONTROL Externe Datenbank]** als **[!UICONTROL Typ]** Ihres externen Kontos und „Vertica Analytics“ als **[!UICONTROL Anbietertyp]** aus.
 
-1. Klicken Sie auf **[!UICONTROL Erstellen]**.
+1. Wählen Sie **[!UICONTROL Erstellen]** aus.
 
 1. Um das externe Konto **[!UICONTROL Vertica Analytics]** zu konfigurieren, füllen Sie folgende Felder aus:
 
@@ -570,7 +573,7 @@ Konfigurieren Sie Ihr externes Konto „Microsoft Fabric“ in der Adobe Campai
 
 1. [Erstellen Sie Ihr externes Konto](external-account.md) und wählen Sie **[!UICONTROL Externe Datenbank]** als **[!UICONTROL Typ]** Ihres externen Kontos und „Microsoft Fabric“ als **[!UICONTROL Anbietertyp]** aus.
 
-1. Klicken Sie auf **[!UICONTROL Erstellen]**.
+1. Wählen Sie **[!UICONTROL Erstellen]** aus.
 
 1. Um das externe Konto **[!UICONTROL Microsoft Fabric]** zu konfigurieren, füllen Sie folgende Felder aus:
 

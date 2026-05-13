@@ -3,9 +3,12 @@ audience: end-user
 title: Entwerfen von E-Mails in E-Mail-Designer
 description: Erfahren Sie, wie Sie Ihre E-Mail-Inhalte von Grund auf neu gestalten
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
-source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
+TQID: https://experienceleague.adobe.com/z3yAopnbrS2h1jYhH1EgQYU89rNTDQBwjXiDK0YeiLU
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: 676
 ht-degree: 96%
 
 ---
@@ -112,4 +115,4 @@ Gehen Sie wie folgt vor, um mit der Erstellung Ihres E-Mail-Inhalts zu beginnen.
 
 Hier erfahren Sie, wie Sie im E-Mail-Designer navigieren. Erfahren Sie, wie Sie eine E-Mail neu strukturieren und entwerfen sowie personalisieren und testen können.
 
->[!VIDEO](https://video.tv.adobe.com/v/3453574/?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425867/?quality=12)
