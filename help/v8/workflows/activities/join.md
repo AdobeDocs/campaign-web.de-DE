@@ -6,7 +6,7 @@ exl-id: 2470e5fa-5596-4441-b9b9-7e8b5d1d53aa
 source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
 source-wordcount: '489'
-ht-degree: 43%
+ht-degree: 58%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 43%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn5"
 >title="Mehrere Workflow-Verzweigungen und Join-Aktivität"
->abstract="Mehrere Verzweigungen werden jetzt unterstützt. Anstatt eine Verzweigung zu verwenden, können Sie auf der Symbolleiste auf Verzweigung hinzufügen klicken. Die Und-Verknüpfung wurde ebenfalls verbessert. Es handelt sich jetzt um eine generische Aktivität vom Typ Join , mit der Sie zwischen den Join-Optionen AND und OR wählen können."
+>abstract="Mehrere Verzweigungen werden jetzt unterstützt. Anstatt eine Verzweigung zu verwenden, können Sie auf der Symbolleiste auf „Verzweigung hinzufügen“ klicken. Die Aktivität „Und-Join“ wurde ebenfalls verbessert. Es handelt sich jetzt um eine allgemeine Join-Aktivität, die es Ihnen ermöglicht, zwischen den Join-Optionen UND und ODER zu wählen."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=de" text="Siehe Versionshinweise"
 
 >[!CONTEXTUALHELP]
@@ -26,7 +26,7 @@ ht-degree: 43%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_join"
 >title="Aktivität „Zusammenführen“"
->abstract="Die **Zusammenführen** ermöglicht das Zusammenführen mehrerer eingehender Transitionen. Wählen Sie aus, ob der Vorgang fortgesetzt werden soll, wenn alle eingehenden Transitionen abgeschlossen sind (AND) oder wenn eine eingehende Transition abgeschlossen ist (OR)."
+>abstract="Mit der Aktivität **Join** können Sie mehrere eingehende Transitionen zusammenführen. Wählen Sie aus, ob der Vorgang fortgesetzt werden soll, wenn alle eingehenden Transitionen abgeschlossen sind (UND) oder wenn eine beliebige eingehende Transition abgeschlossen ist (ODER)."
 
 Die Aktivität **Zusammenführen** ist eine Aktivität **Fluss-Steuerung**. Sie synchronisiert mehrere Ausführungszweige eines Workflows.
 Sie können auswählen, wie eingehende Transitionen ausgewertet werden sollen:
@@ -38,7 +38,7 @@ Wenn **AND** ausgewählt ist, wird die ausgehende Transition erst dann durch die
 
 Wenn **OR** ausgewählt ist, wird die Ausführung fortgesetzt, sobald eine der ausgewählten eingehenden Transitionen aktiviert wird. Es wartet nicht auf jede Verzweigung.
 
-## Konfigurieren der Aktivität „Zusammenführen“ {#join-configuration}
+## Konfigurieren der Join-Aktivität {#join-configuration}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_and-join_merging"

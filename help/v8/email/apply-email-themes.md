@@ -12,7 +12,7 @@ exl-id: c9e02bca-032d-4771-ad53-5bbebabc4c5d
 source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
 source-wordcount: '2077'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn2"
 >title="Designs im E-Mail-Designer (LA)"
->abstract="Wenden Sie wiederverwendbare Design-Stile und -Variablen an, um den E-Mail-Inhalt mit Ihrer Marke konsistent zu halten. Diese Funktion ist nur für ausgewählte Organisationen verfügbar (eingeschränkte Verfügbarkeit)"
+>abstract="Wenden Sie wiederverwendbare Design-Stile und -Variablen an, um den E-Mail-Inhalt mit Ihrer Marke konsistent zu halten. Diese Funktion ist nur für eine ausgewählte Gruppe von Organisationen verfügbar (eingeschränkte Verfügbarkeit)."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=de" text="Siehe Versionshinweise"
 
 >[!CONTEXTUALHELP]

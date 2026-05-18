@@ -17,7 +17,7 @@ topic_v2:
 source-git-commit: 777611699d3d4189cdd7d0d7ded66a9b08cf26cd
 workflow-type: tm+mt
 source-wordcount: 629
-ht-degree: 87%
+ht-degree: 89%
 
 ---
 
@@ -73,7 +73,7 @@ In Adobe Campaign Web können Sie Marketing-Kampagnen automatisieren und über m
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_start"
 >title="Endaktivität"
->abstract="Die **Start**-Aktivität ermöglicht es Ihnen, den Start eines Workflows grafisch zu markieren. Diese Aktivität hat keine funktionalen Auswirkungen und ist daher optional."
+>abstract="Mit der Aktivität **Start** können Sie den Start eines Workflows grafisch kennzeichnen. Diese Aktivität hat keine funktionalen Auswirkungen und ist daher optional."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_signal"
