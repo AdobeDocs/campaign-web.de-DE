@@ -10,7 +10,7 @@ exl-id: cac6f675-59e0-431d-8c20-f24ef16d7bf2
 hide: true
 source-git-commit: aa1a7c48d1708e73e4d6c6bbe4decd2e5ca69102
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '472'
 ht-degree: 5%
 
 ---
@@ -83,13 +83,13 @@ Ihre WhatsApp-Vorlage muss vor der Verwendung von Meta genehmigt werden. Die Gen
 
 1. Wählen Sie Marketing als **Vorlagenkategorie**:
 
-   [Erfahren Sie mehr über Vorlagenkategorien](https://developers.facebook.com/docs/whatsapp/updates-to-pricing/new-template-guidelines/#template-category-guidelines)
+   [Weitere Informationen zu Vorlagenkategorien](https://developers.facebook.com/docs/whatsapp/updates-to-pricing/new-template-guidelines/#template-category-guidelines)
 
    ![](assets/whatsapp-design-1.png)
 
 1. Wählen Sie aus der **WhatsApp** Vorlage“ Ihre von Meta genehmigte Vorlage aus.
 
-   [Erfahren Sie mehr darüber, wie Sie WhatsApp-Vorlagen erstellen](https://www.facebook.com/business/help/2055875911147364?id=2129163877102343)
+   [Weitere Informationen zum Erstellen von WhatsApp-Vorlagen](https://www.facebook.com/business/help/2055875911147364?id=2129163877102343)
 
    ![](assets/whatsapp-design-2.png)
 
