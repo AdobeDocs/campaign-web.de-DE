@@ -4,8 +4,7 @@ title: Importieren Ihrer E-Mail-Inhalte
 description: Erfahren Sie, wie Sie E-Mail-Inhalte importieren
 exl-id: ef9c8e6f-f422-404e-9ebb-a89d1bd45e7f
 TQID: https://experienceleague.adobe.com/tBeOFkGoxZ-QYEt6dse2-1KSiE318onNSEtGTYzTCO8
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
 source-wordcount: 291
@@ -59,4 +58,4 @@ Gehen Sie wie folgt vor, um eine Datei mit HTML-Inhalten zu importieren:
 
 Erfahren Sie, wie Sie eine E-Mail durch Hochladen von HTML erstellen, mit dem E-Mail-Designer kompatibel machen und in eine Vorlage umwandeln.
 
->[!VIDEO](https://video.tv.adobe.com/v/3447041/?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3427633/?quality=12)
