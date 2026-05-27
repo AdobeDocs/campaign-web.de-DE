@@ -4,7 +4,7 @@ description: Informationen zum Konfigurieren externer Konten
 exl-id: 24e70106-3312-4138-bf2d-ffad74e2962d
 source-git-commit: 155a7f3fb55a579dbf9a2ad81a1dc7e4ea3847df
 workflow-type: tm+mt
-source-wordcount: '648'
+source-wordcount: '674'
 ht-degree: 100%
 
 ---
@@ -15,7 +15,7 @@ Gehen Sie wie folgt vor, um die Kontoeinstellungen je nach ausgewähltem Typ des
 
 ## Bounce Messages (POP3) {#bounce}
 
-Das externe Konto „Bounce-E-Mails“ gibt das externe POP3-Konto an, das für die Verbindung mit dem E-Mail-Service verwendet werden soll.  Alle Server, die für den POP3-Zugriff konfiguriert sind, können Antwort-Mails empfangen.
+Das externe Konto „Bounce-E-Mails“ gibt das externe POP3-Konto an, das für die Verbindung mit dem E-Mail-Service verwendet werden soll. Alle Server, die für den POP3-Zugriff konfiguriert sind, können Antwort-Mails empfangen.
 
 ![Screenshot mit den Feldern zur Konfiguration des externen Kontos „Bounce Messages (POP3)“](assets/external_account_bounce.png)
 

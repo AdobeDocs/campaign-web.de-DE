@@ -7,19 +7,19 @@ role: Admin
 level: Experienced
 exl-id: 8f6a5255-0245-497b-880f-d91ea82ee19e
 source-git-commit: 8b93ddd9c655c9ca461f28392c70872e4005b44f
-workflow-type: ht
-source-wordcount: '651'
+workflow-type: tm+mt
+source-wordcount: '667'
 ht-degree: 100%
 
 ---
 
 # Zuweisen Ihrer Marke {#branding-assign}
 
-## Verknüpfen von Marken mit einer Vorlage {#linking-a-brand-to-a-template}
+## Marken mit einer Vorlage verknüpfen {#linking-a-brand-to-a-template}
 
 Um die für eine Marke definierten Parameter zu nutzen, muss diese mit einer Versandvorlage verknüpft sein. Dafür ist die Erstellung oder Anpassung einer Vorlage erforderlich.
 
-Ihre Vorlage wird mit der Marke verknüpft. Im E-Mail-Editor werden die für die Marke konfigurierten Daten in den Feldern **Standard-E-Mail-Adresse des Absenders**, **Standard-Absendername** oder **Logo** verwendet.
+Ihre Vorlage wird mit der Marke verknüpft. Im E-Mail-Editor werden die für die Marke konfigurierten Daten in den Feldern **Standard-E-Mail-Adresse des Absenders**, **Name des Standard-Absenders** oder **Logo** verwendet.
 
 >[!BEGINTABS]
 
@@ -27,13 +27,13 @@ Ihre Vorlage wird mit der Marke verknüpft. Im E-Mail-Editor werden die für die
 
 Um eine Versandvorlage zu erstellen, können Sie eine integrierte Vorlage duplizieren, einen bestehenden Versand in eine Vorlage konvertieren oder eine Versandvorlage von Grund auf erstellen. [Weitere Informationen](../../msg/delivery-template.md)
 
-Nach der Erstellung Ihrer Vorlage können Sie sie mit einer Marke verknüpfen. Gehen Sie wie folgt vor:
+Nach der Erstellung Ihrer Vorlage können Sie sie mit einer Marke verknüpfen. Gehen Sie dazu wie folgt vor:
 
 1. Navigieren Sie im linken Menü **[!UICONTROL Sendungen]** zur Registerkarte **[!UICONTROL Vorlagen]** und wählen Sie eine Versandvorlage aus.
 
    ![](assets/branding_assign_web_1.png)
 
-1. Klicken Sie auf **[!UICONTROL Einstellungen]**. 
+1. Klicken Sie auf **[!UICONTROL Einstellungen]**.
 
    ![](assets/branding_assign_web_2.png)
 
@@ -49,11 +49,11 @@ Sie können diese Vorlage jetzt zum Durchführen Ihrer Sendungen verwenden.
 
 Um eine Versandvorlage zu erstellen, können Sie eine integrierte Vorlage duplizieren, einen bestehenden Versand in eine Vorlage konvertieren oder eine Versandvorlage von Grund auf erstellen. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html?lang=de)
 
-Nach der Erstellung Ihrer Vorlage können Sie sie mit einer Marke verknüpfen. Gehen Sie wie folgt vor:
+Nach der Erstellung Ihrer Vorlage können Sie sie mit einer Marke verknüpfen. Gehen Sie dazu wie folgt vor:
 
 1. Navigieren Sie im Adobe Campaign-Explorer zu **[!UICONTROL Ressourcen]** `>` **[!UICONTROL Vorlagen]** `>` **[!UICONTROL Versandvorlagen]**.
 
-1. Wählen Sie eine Versandvorlage aus oder duplizieren Sie eine vorhandene. 
+1. Wählen Sie eine Versandvorlage aus oder duplizieren Sie eine vorhandene.
 
    ![](assets/branding_assign_V8_1.png)
 
@@ -111,7 +111,7 @@ Gehen Sie wie folgt vor, um einen neuen eigenständigen Versand zu erstellen.
 
    ![](assets/branding_assign_V8_4.png)
 
-1. Wählen Sie eine Versandvorlage aus. 
+1. Wählen Sie eine Versandvorlage aus.
 
 1. Rufen Sie die **[!UICONTROL Eigenschaften]** der ausgewählten Versandvorlage auf.
 
