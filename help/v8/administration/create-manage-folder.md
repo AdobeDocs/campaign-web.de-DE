@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie in Adobe Campaign einen Ordner erstellen und 
 exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '205'
 ht-degree: 100%
 
 ---
@@ -18,7 +18,7 @@ Wählen Sie unter der Schaltfläche **[!UICONTROL …]** die Option **[!UICONTR
 
 ![Screenshot mit der Option „Neuen Ordner erstellen“ unter der Schaltfläche „…“](assets/folder_create.png){zoomable="yes"}
 
-Wenn Sie einen neuen Ordner erstellen, ist der Ordnertyp standardmäßig vom selben Typ wie der übergeordnete Ordner. \
+Wenn Sie einen neuen Ordner erstellen, ist der Ordnertyp standardmäßig vom selben Typ wie der übergeordnete Ordner.\
 In diesem Beispiel wird ein Ordner im Ordner **[!UICONTROL Sendungen]** erstellt.
 
 ![Screenshot mit einem neuen Ordner, der im Ordner „Sendungen“ erstellt wurde](assets/folder_new.png){zoomable="yes"}
@@ -31,4 +31,4 @@ Richten Sie den Ordnertyp ein, indem Sie auf die Schaltfläche **[!UICONTROL Be
 
 Um einen Ordner ohne bestimmten Typ zu erstellen, wählen Sie den Typ **[!UICONTROL Allgemeiner Ordner]** aus.
 
-In der Adobe Campaign-Konsole wird die Erstellung und Verwaltung von Ordnern [hier](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/config/configuration/folders-and-views) erläutert. Sie können auch Berechtigungen für Ordner einrichten. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/admin/permissions/folder-permissions).
+In der Adobe Campaign-Konsole wird die Erstellung und Verwaltung von Ordnern [hier](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/config/configuration/folders-and-views) erläutert. Sie können auch Berechtigungen für Ordner einrichten. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/admin/permissions/folder-permissions?lang=de).
