@@ -5,11 +5,20 @@ role: User
 level: Intermediate
 exl-id: 2ae7ae4b-79fb-427a-8386-0602d313c0ed
 TQID: https://experienceleague.adobe.com/IAlzJ0kutFAF8RwYMe4L9wjLD4hXe-lR4ZndjIocQPw
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
 source-wordcount: 2111
@@ -120,19 +129,19 @@ Diese Anfragen werden nicht unterstützt und sollten mit anderen Tools erledigt 
 
 Stellen Sie vor dem Generieren von Inhalten Folgendes sicher:
 
-&amp;check; **Ziel löschen**: Gibt die Aktion, das Produkt/den Service, den Wert und den Kontext klar an.
+&check; **Ziel löschen**: Gibt die Aktion, das Produkt/den Service, den Wert und den Kontext klar an.
 
-&amp;check; **Zielgruppe definiert**: Gibt die demografische Zielgruppe, die Rolle oder das Segment an.
+&check; **Zielgruppe definiert**: Gibt die demografische Zielgruppe, die Rolle oder das Segment an.
 
-&amp;check; **Content type align**: Ziel entspricht dem ausgewählten Kanal oder Format.
+&check; **Content type align**: Ziel entspricht dem ausgewählten Kanal oder Format.
 
-&amp;check; **Dropdown-Auswahl konfiguriert**: Tonwert, Strategie und Gebietsschema ausgewählt sind, schließen Sie diese nicht in die Eingabeaufforderung ein.
+&check; **Dropdown-Auswahl konfiguriert**: Tonwert, Strategie und Gebietsschema ausgewählt sind, schließen Sie diese nicht in die Eingabeaufforderung ein.
 
-&amp;check; **Dokumentfokus angegeben**: Markiert die Inhalte oder Abschnitte, auf die verwiesen werden soll.
+&check; **Dokumentfokus angegeben**: Markiert die Inhalte oder Abschnitte, auf die verwiesen werden soll.
 
-&amp;check; **Marke angewendet**: Es werden die entsprechenden Markenrichtlinien ausgewählt.
+&check; **Marke angewendet**: Es werden die entsprechenden Markenrichtlinien ausgewählt.
 
-&amp;check; **Realistischer Umfang**: Vermeiden Sie Anforderungen an Layout-Änderungen, Stile oder strukturelle Bearbeitungen.
+&check; **Realistischer Umfang**: Vermeiden Sie Anforderungen an Layout-Änderungen, Stile oder strukturelle Bearbeitungen.
 
 ## Erstellen effektiver Marketing-Ziele {#marketing-objectives}
 
@@ -142,11 +151,11 @@ Achten Sie bei der Formulierung von Marketing-Zielen darauf, dass diese klar, um
 
 **Beispiele für gute Ziele:**
 
-&amp;check; „Fordern Sie die Anmeldungen für unsere kostenlose 30-tägige Testversion des neuen KI-gestützten Analyse-Dashboards an“
+&check; „Fordern Sie die Anmeldungen für unsere kostenlose 30-tägige Testversion des neuen KI-gestützten Analyse-Dashboards an“
 
-&amp;check; „Generieren Sie Leads für unser B2B-Webinar zum Thema „Reduzierung der Cloud-Kosten um 40 %&quot;, das am 15. März stattfindet“
+&check; „Generieren Sie Leads für unser B2B-Webinar zum Thema „Reduzierung der Cloud-Kosten um 40 %&quot;, das am 15. März stattfindet“
 
-&amp;check; „Werben Sie für unseren zeitlich begrenzten 25-%-Urlaubsrabatt auf Premium-Abonnements, der am 25. Dezember endet“
+&check; „Werben Sie für unseren zeitlich begrenzten 25-%-Urlaubsrabatt auf Premium-Abonnements, der am 25. Dezember endet“
 
 **Beispiele für zu vermeidende Ziele:**
 
@@ -163,11 +172,11 @@ Verwenden Sie diese Formel, um effektive Ziele zu schreiben: **Aktion + Produkt/
 
 **Beispiele für gute Ziele:**
 
-&amp;check; „Ermutigen Sie Downloads unserer neuen mobilen App, die Benutzern hilft, nachhaltige Lebensgewohnheiten mit personalisierten umweltfreundlichen Empfehlungen zu verfolgen“
+&check; „Ermutigen Sie Downloads unserer neuen mobilen App, die Benutzern hilft, nachhaltige Lebensgewohnheiten mit personalisierten umweltfreundlichen Empfehlungen zu verfolgen“
 
-&amp;check; „Registrierung für unseren exklusiven Workshop zu fortgeschrittenen Datenvisualisierungstechniken für Marketing-Experten fördern“
+&check; „Registrierung für unseren exklusiven Workshop zu fortgeschrittenen Datenvisualisierungstechniken für Marketing-Experten fördern“
 
-&amp;check; „Ermöglichen Sie die Teilnahme an unserer Produkteinführung, bei der der revolutionäre KI-Schreibassistent vorgestellt wird, der mehr als 5 Stunden pro Woche einspart“
+&check; „Ermöglichen Sie die Teilnahme an unserer Produkteinführung, bei der der revolutionäre KI-Schreibassistent vorgestellt wird, der mehr als 5 Stunden pro Woche einspart“
 
 **Beispiele für zu vermeidende Formulierungen:**
 
