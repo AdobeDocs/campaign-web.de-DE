@@ -3,7 +3,7 @@ title: Frühere Versionshinweise zur Web-Benutzeroberfläche von Campaign v8
 description: Versionen der Campaign Web-Benutzeroberfläche 2026
 exl-id: 40735c57-94ae-4646-8c3d-68197569fbd4
 source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '753'
 ht-degree: 100%
 
@@ -11,7 +11,7 @@ ht-degree: 100%
 
 # Versionshinweise für 2026 {#2026-release}
 
-Auf dieser Seite werden alle Änderungen und Verbesserungen aufgelistet, die in **Versionen 2026** verfügbar sind.Die neuesten Versionshinweise finden Sie auf [dieser Seite](release-notes.md).
+Auf dieser Seite werden alle Änderungen und Verbesserungen aufgelistet, die in **Versionen 2026** verfügbar sind. Die neuesten Versionshinweise finden Sie auf [dieser Seite](release-notes.md).
 
 ## Version Februar 2026 {#26-2-release}
 
