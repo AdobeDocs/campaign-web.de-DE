@@ -4,8 +4,7 @@ title: Erstellen eines Push-Benachrichtigungs-Versands
 description: Erfahren Sie, wie Sie mit Adobe Campaign Web einen Versand für eine Push-Benachrichtigung erstellen
 exl-id: 49a3c05c-5806-4269-a98d-915eee216f90
 TQID: https://experienceleague.adobe.com/J2FB-oR-oGwBw18HLWt3F3nzu-mHXVnRlyPlSr5ISiI
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
 source-wordcount: 779
@@ -72,7 +71,7 @@ Sie müssen zuerst die App auswählen und können dann die Zielgruppe für Push-
 
    ![Screenshot mit der Zielgruppenauswahl für den Push-Versand](assets/push_create_2.png){zoomable="yes"}
 
-1. Wählen Sie eine vorhandene Zielgruppe aus oder erstellen Sie eine eigene Zielgruppe, um die Zielpopulation für Ihren Push-Versand zu verfeinern. Bei Push-Benachrichtigungen lautet [&#x200B; Standarddimension &#x200B;](../audience/about-recipients.md#targeting-dimensions)Abonnierte **Abonnierte Anwendung** (nms:appSubscriptionRcp), die mit der Empfängertabelle verknüpft ist.
+1. Wählen Sie eine vorhandene Zielgruppe aus oder erstellen Sie eine eigene Zielgruppe, um die Zielpopulation für Ihren Push-Versand zu verfeinern. Bei Push-Benachrichtigungen lautet [ Standarddimension ](../audience/about-recipients.md#targeting-dimensions)Abonnierte **Abonnierte Anwendung** (nms:appSubscriptionRcp), die mit der Empfängertabelle verknüpft ist.
 
    Weitere Informationen dazu, wie Sie eine vorhandene Zielgruppe auswählen, finden Sie auf [dieser Seite](../audience/add-audience.md).
 
