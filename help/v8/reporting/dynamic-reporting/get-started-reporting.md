@@ -6,7 +6,7 @@ level: Beginner
 exl-id: 6feac90f-f7c1-48b5-94ff-7fef92a2af83
 source-git-commit: 6f09df9a4686a56b56e837536db11a71ba5158f4
 workflow-type: tm+mt
-source-wordcount: '292'
+source-wordcount: '303'
 ht-degree: 100%
 
 ---
@@ -26,11 +26,11 @@ Das dynamische Reporting ermöglicht vollständig anpassbare und in Echtzeit akt
 
 ## Verwalten von Berichten {#manage-share-reports}
 
-Mit der **Drag-and-Drop-Benutzeroberfläche** für die dynamisches Reporting können Sie von einer zentralen Stelle aus Daten untersuchen, bestimmen, wie Ihre E-Mail-Kampagnen bei Ihren wichtigsten Kundensegmenten angekommen sind, und deren Wirkung auf die Empfangende messen.
+Mit der **Drag &amp; Drop-Benutzeroberfläche** für die dynamische Berichterstellung können Sie von einer zentralen Stelle aus Daten untersuchen, bestimmen, wie Ihre E-Mail-Kampagnen bei Ihren wichtigsten Kundensegmenten angekommen sind, und deren Wirkung auf die Empfänger messen.
 
 **Verwalten Sie Ihre dynamischen Berichte** dank verschiedener Funktionen: Aktualisieren Sie die Daten in Echtzeit, drucken Sie Ihre Berichte oder exportieren Sie sie als CSV-Dateien.
 
-Weitere Informationen:
+mehr dazu:
 
 * [Über dynamische Berichte](about-dynamic-reports.md)
 * [Benutzeroberfläche für die Berichterstellung](reporting-interface.md)
@@ -41,7 +41,7 @@ Die Benutzeroberfläche von Adobe Campaign Web verfügt über eine Reihe **vorde
 
 **Kombinieren Sie verschiedene Komponenten** (Dimensionen, Metriken und Segmente, Zeiträume), um eigene Berichte zu erstellen oder native Berichte zu personalisieren.
 
-Weitere Informationen:
+mehr dazu:
 
 * [Liste von Komponenten](list-of-components.md)
 * [Indikatorberechnung](indicator-calculation.md)
@@ -53,7 +53,7 @@ Weitere Informationen:
 
 Ziehen Sie **Visualisierungselemente** per Drag-and-Drop in den Arbeitsbereich, um den Berichten grafische Darstellungen Ihrer Daten hinzuzufügen und diese entsprechend Ihren Anforderungen zu konfigurieren.
 
-Weitere Informationen:
+mehr dazu:
 
 * [Panels hinzufügen](adding-panels.md)
 * [Visualisierungen hinzufügen](adding-visualizations.md)
