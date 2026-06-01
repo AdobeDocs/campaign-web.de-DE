@@ -23,7 +23,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 8de6db4dc4aa20cfb72a9e9c997f4348fccb2c39
 workflow-type: tm+mt
 source-wordcount: 1564
 ht-degree: 100%
@@ -127,7 +127,7 @@ Im Abschnitt **Kampagnen-Management** haben Sie Zugriff auf Marketing-Kampagnen,
 
   Verwenden Sie die Schaltfläche **Mehr Aktionen**, um einen Versand zu löschen oder zu duplizieren.
 
-  ![](assets/more-actions.png){zoomable="yes"}{width="70%" align="left"} [Screenshot mit der Schaltfläche „Mehr Aktionen“ mit Optionen zum Löschen oder Duplizieren eines Versands]
+  ![](assets/more-actions.png){zoomable="yes"}{width="70%"} [Screenshot mit der Schaltfläche „Mehr Aktionen“ mit Optionen zum Löschen oder Duplizieren eines Versands]
 
 * **Workflows** – Auf diesem Bildschirm können Sie auf die vollständige Liste der Workflows und Workflow-Vorlagen zugreifen. Sie können den Status und das letzte bzw. nächste Ausführungsdatum überprüfen und einen neuen Workflow oder eine neue Workflow-Vorlage erstellen. Sie können die Liste nach denselben Kriterien filtern wie für andere Objekte. Darüber hinaus können Sie Workflows filtern, die zu einer Kampagne gehören oder nicht. Weiterführende Informationen zu Workflows finden Sie [in diesem Abschnitt](../workflows/gs-workflows.md).
 

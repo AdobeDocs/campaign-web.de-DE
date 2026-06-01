@@ -17,7 +17,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 8de6db4dc4aa20cfb72a9e9c997f4348fccb2c39
 workflow-type: tm+mt
 source-wordcount: 986
 ht-degree: 90%
@@ -50,7 +50,7 @@ Gehen Sie wie folgt vor, um einen eigenständigen Versand zu erstellen:
 1. Wählen Sie einen Kanal für den Versand aus.
 1. Definieren Sie die Versandzielgruppe sowohl für die Hauptzielgruppe als auch für die Kontrollgruppe. [Weitere Informationen zu Zielgruppen](../audience/about-recipients.md).
 
-   ![Screenshot mit der Benutzeroberfläche zur Zielgruppenauswahl](assets/select-audience.png){zoomable="yes"}{width="70%" align="left"}
+   ![Screenshot mit der Benutzeroberfläche zur Zielgruppenauswahl](assets/select-audience.png){zoomable="yes"}{width="70%"}
 
 1. Definieren Sie den Nachrichteninhalt. Weitere Informationen zu Versandkanälen und zum Definieren von Versandinhalten finden Sie in den folgenden Abschnitten:
 

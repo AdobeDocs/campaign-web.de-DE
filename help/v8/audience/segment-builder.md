@@ -3,7 +3,7 @@ audience: end-user
 title: Erstellen einer Zielgruppe mit dem Campaign-Regel-Builder
 description: Erfahren Sie, wie Sie mit dem Regel-Builder arbeiten
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 8de6db4dc4aa20cfb72a9e9c997f4348fccb2c39
 workflow-type: tm+mt
 source-wordcount: '624'
 ht-degree: 100%
@@ -21,7 +21,7 @@ Mit Regel-Builder können Sie die Population definieren, die mit Ihrem Versand a
 
 Die Palette auf der linken Seite enthält alle Elemente, nach denen Sie filtern können, um Ihre Zielgruppe zu erstellen. Verwenden Sie die Suchleiste, um Elemente schnell zu finden. Verschieben Sie die in der Palette enthaltenen Kacheln in die mittlere Arbeitsfläche, damit sie konfiguriert und berücksichtigt werden können.
 
-![Die Benutzeroberfläche der Palette mit Filteroptionen und Registerkarten](assets/segment-builder2.png){zoomable="yes"}{width="70%" align="left"}
+![Die Benutzeroberfläche der Palette mit Filteroptionen und Registerkarten](assets/segment-builder2.png){zoomable="yes"}{width="70%"}
 
 Die Palette ist in zwei Registerkarten unterteilt:
 
@@ -37,13 +37,13 @@ Die Palette ist in zwei Registerkarten unterteilt:
 
 Die Arbeitsfläche ist der zentrale Bereich, in dem Sie die Regeln basierend auf den aus der Palette hier abgelegten Elementen konfigurieren und kombinieren können. Um eine neue Regel hinzuzufügen, ziehen Sie eine Kachel aus der Palette auf die Arbeitsfläche. Je nach Art der hinzuzufügenden Daten werden Ihnen dann kontextspezifische Optionen angezeigt.
 
-![Die Benutzeroberfläche der Arbeitsfläche mit Optionen für die Regelkonfiguration](assets/segment-builder4.png){zoomable="yes"}{width="70%" align="left"}
+![Die Benutzeroberfläche der Arbeitsfläche mit Optionen für die Regelkonfiguration](assets/segment-builder4.png){zoomable="yes"}{width="70%"}
 
 ## Der Bereich „Regeleigenschaften“
 
 Auf der rechten Seite können Sie im Bereich **Regeleigenschaften** die folgenden Aktionen ausführen.
 
-![Der Bereich „Regeleigenschaften“ mit den verfügbaren Aktionen](assets/segment-builder5.png){zoomable="yes"}{width="70%" align="left"}
+![Der Bereich „Regeleigenschaften“ mit den verfügbaren Aktionen](assets/segment-builder5.png){zoomable="yes"}{width="70%"}
 
 * **Ergebnisse anzeigen:** Zeigt die Liste der von der Zielgruppe angesprochenen Profile an.
 * **Code-Ansicht**: Zeigt eine Code-basierte Version der Zielgruppe in SQL an.

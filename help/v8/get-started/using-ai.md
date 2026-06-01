@@ -13,7 +13,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 8de6db4dc4aa20cfb72a9e9c997f4348fccb2c39
 workflow-type: tm+mt
 source-wordcount: 525
 ht-degree: 100%
@@ -58,7 +58,7 @@ For information specific to Adobe AI policies in Experience Cloud apps and solut
 
 Im Eingabefeld bietet die KI-gestützte Kontexthilfe von Adobe Campaign drei vorgeschlagene Fragen. Diese Fragen werden von KI generiert, beziehen sich auf das Hilfefeld und sind auf den aktuellen Produktkontext ausgerichtet. Wählen Sie eine Frage aus, um die Antwort zu erhalten.
 
-[Beispiel für vorgeschlagene Fragen in der Kontexthilfe](assets/do-not-localize/suggested-questions.png){width="600" align="left"}{zoomable="yes"}
+[Beispiel für vorgeschlagene Fragen in der Kontexthilfe](assets/do-not-localize/suggested-questions.png){width="600"}{zoomable="yes"}
 
 ## Antworten {#answers-ai}
 
@@ -66,7 +66,7 @@ Die KI-gestützte Kontexthilfe von Adobe Campaign bietet Unterstützung, aber Si
 
 Kopieren Sie eine Antwort mithilfe des Symbols **Kopieren** am unteren Rand des Hilfe-Popups in die Zwischenablage.
 
-[Beispiel für das Kopieren einer Antwort in der Kontexthilfe](assets/do-not-localize/copy-answer.png){width="600" align="left"}{zoomable="yes"}
+[Beispiel für das Kopieren einer Antwort in der Kontexthilfe](assets/do-not-localize/copy-answer.png){width="600"}{zoomable="yes"}
 
 ## Feedback {#feedback-ai}
 
