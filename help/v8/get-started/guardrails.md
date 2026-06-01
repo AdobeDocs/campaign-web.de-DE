@@ -3,9 +3,8 @@ title: Schutzmechanismen und Begrenzungen in den Campaign Web-Benutzeroberfläch
 description: Schutzmechanismen und Begrenzungen bei der Arbeit mit Workflows auf der Campaign Web-Benutzeroberfläche
 exl-id: 9c8c67ce-9823-4082-b0bd-5613f3feb6e3
 TQID: https://experienceleague.adobe.com/ueMHT8uicRU5nggOtC1xtoSIp8sGd82zlA2hoFrXodc
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-source-git-commit: 777611699d3d4189cdd7d0d7ded66a9b08cf26cd
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+source-git-commit: 8de6db4dc4aa20cfb72a9e9c997f4348fccb2c39
 workflow-type: tm+mt
 source-wordcount: 382
 ht-degree: 100%
@@ -29,14 +28,14 @@ Workflow-Aktivitäten, die noch nicht in der Campaign Web-Benutzeroberfläche u
 
 | Konsole | Web |
 | --- | --- |
-| ![Screenshot zu Einschränkungen von Aktivitäten in der Konsole](assets/limitations-activities-console.png){zoomable="yes"}{width="800px" align="left" zoomable="yes"} | ![Screenshot zu Einschränkungen von Aktivitäten in der Web-Benutzeroberfläche](assets/limitations-activities-web.png){zoomable="yes"}{width="800px" align="left" zoomable="yes"} |
+| ![Screenshot zu Einschränkungen von Aktivitäten in der Konsole](assets/limitations-activities-console.png){zoomable="yes"}{width="800px" zoomable="yes"} | ![Screenshot zu Einschränkungen von Aktivitäten in der Web-Benutzeroberfläche](assets/limitations-activities-web.png){zoomable="yes"}{width="800px" zoomable="yes"} |
 
 <!--
 When a **Query** or an **Enrichment** activity is configured with additional data in the console, the enrichment data is taken into account in Campaign Web and passed into the outbound transition, but it cannot be edited.
 
 | Console | Web |
 | --- | --- |
-| ![Screenshot showing limitations of options in the console](assets/limitations-options-console.png){zoomable="yes"}{width="800px" align="left" zoomable="yes"} | ![Screenshot showing limitations of options in the web interface](assets/limitations-options-web.png){zoomable="yes"}{width="800px" align="left" zoomable="yes"} |
+| ![Screenshot showing limitations of options in the console](assets/limitations-options-console.png){zoomable="yes"}{width="800px" zoomable="yes"} | ![Screenshot showing limitations of options in the web interface](assets/limitations-options-web.png){zoomable="yes"}{width="800px" zoomable="yes"} |
 
 -->
 
@@ -44,7 +43,7 @@ In der Konsole kann die Aktivität **Anreicherung** sowohl Abstimmungen als auch
 
 | Konsole | Web |
 | --- | --- |
-| ![Screenshot der Aktivität „Anreicherung“ in der Konsole](assets/limitations-enrichment-console.png){zoomable="yes"}{width="800px" align="left" zoomable="yes"} | ![Screenshot der Aktivität „Anreicherung“ in der Web-Benutzeroberfläche](assets/limitations-enrichment-web.png){zoomable="yes"}{width="800px" align="left" zoomable="yes"} |
+| ![Screenshot der Aktivität „Anreicherung“ in der Konsole](assets/limitations-enrichment-console.png){zoomable="yes"}{width="800px" zoomable="yes"} | ![Screenshot der Aktivität „Anreicherung“ in der Web-Benutzeroberfläche](assets/limitations-enrichment-web.png){zoomable="yes"}{width="800px" zoomable="yes"} |
 
 ## Workflow-Arbeitsfläche {#wkf-canvas}
 
@@ -52,10 +51,10 @@ Beim Erstellen eines neuen Workflows in der Campaign Web-Benutzeroberfläche unt
 
 | Konsole | Web |
 | --- | --- |
-| ![Screenshot mit mehreren Einstiegspunkten in der Konsole](assets/limitations-multiple-console.png){zoomable="yes"}{width="800px" align="left" zoomable="yes"} | ![Screenshot mit mehreren Einstiegspunkten in der Web-Benutzeroberfläche](assets/limitations-multiple-web.png){zoomable="yes"}{width="800px" align="left" zoomable="yes"} |
+| ![Screenshot mit mehreren Einstiegspunkten in der Konsole](assets/limitations-multiple-console.png){zoomable="yes"}{width="800px" zoomable="yes"} | ![Screenshot mit mehreren Einstiegspunkten in der Web-Benutzeroberfläche](assets/limitations-multiple-web.png){zoomable="yes"}{width="800px" zoomable="yes"} |
 
 Die Positionierung der Knoten wird bei jedem Hinzufügen oder Entfernen einer Aktivität aktualisiert. Wenn Sie einen Workflow in der Konsole erstellen, ihn über die Campaign Web-Benutzeroberfläche ändern und dann in der Konsole erneut öffnen, treten möglicherweise kleinere Ungenauigkeiten bei der Positionierung auf. Dies hat keine Auswirkungen auf die Prozesse und Aufgaben des Workflows.
 
 | Anfangs-Workflow | Positionsänderung |
 | --- | --- |
-| ![Screenshot zur ersten Workflow-Positionierung](assets/limitations-positioning1.png){zoomable="yes"}{width="800px" align="left" zoomable="yes"} | ![Screenshot mit im Anschluss von Änderungen durchgeführten Positionsänderungen](assets/limitations-positioning2.png){zoomable="yes"}{width="800px" align="left" zoomable="yes"} |
+| ![Screenshot zur ersten Workflow-Positionierung](assets/limitations-positioning1.png){zoomable="yes"}{width="800px" zoomable="yes"} | ![Screenshot mit im Anschluss von Änderungen durchgeführten Positionsänderungen](assets/limitations-positioning2.png){zoomable="yes"}{width="800px" zoomable="yes"} |

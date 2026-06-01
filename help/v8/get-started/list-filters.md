@@ -4,11 +4,9 @@ title: Durchsuchen und Filtern von Listen
 description: Erfahren Sie, wie Sie Listen in Campaign Web v8 durchsuchen und filtern
 exl-id: 46b83e8c-6c8c-40a1-a08b-9d0b438b80cb
 TQID: https://experienceleague.adobe.com/GKGmvMJtlQgAftvZuOb33tQSgqHC9s8qlYJMVFnWjz0
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+source-git-commit: 8de6db4dc4aa20cfb72a9e9c997f4348fccb2c39
 workflow-type: tm+mt
 source-wordcount: 325
 ht-degree: 100%
@@ -23,21 +21,21 @@ Die meisten Links aus dem linken Navigationsmenü zeigen Listen von Objekten an,
 
 Listen werden in Spalten angezeigt. Sie können auch zusätzliche Informationen anzeigen, indem Sie die Spaltenkonfiguration ändern. Klicken Sie dazu auf das Symbol **Spalte für ein benutzerdefiniertes Layout konfigurieren** in der oberen rechten Ecke der Liste.
 
-![Screenshot mit dem Symbol „Spalte konfigurieren“, das zum Anpassen des Layouts von Listenspalten verwendet wird](assets/config-columns.png){zoomable="yes"}{width="70%" align="left"}
+![Screenshot mit dem Symbol „Spalte konfigurieren“, das zum Anpassen des Layouts von Listenspalten verwendet wird](assets/config-columns.png){zoomable="yes"}{width="70%"}
 
 Im Bildschirm **Spalten konfigurieren** können Sie Spalten hinzufügen oder entfernen und die Reihenfolge ändern, in der sie angezeigt werden.
 
 Sie können die Reihenfolge Ihrer Liste entweder durch **Ziehen und Ablegen** oder durch Verwendung der **Nach-oben- und Nach-unten-Taste** ändern.
 
-![Screenshot zur Veranschaulichung, wie Listenspalten per Drag-and-Drop oder Pfeilschaltflächen neu angeordnet werden können](assets/list-reorder.png){zoomable="yes"}{width="70%" align="left"}
+![Screenshot zur Veranschaulichung, wie Listenspalten per Drag-and-Drop oder Pfeilschaltflächen neu angeordnet werden können](assets/list-reorder.png){zoomable="yes"}{width="70%"}
 
 Für diese Einstellungen:
 
-![Screenshot mit beispielhaften Spalteneinstellungen im Bildschirm „Spalten konfigurieren“](assets/columns.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
+![Screenshot mit beispielhaften Spalteneinstellungen im Bildschirm „Spalten konfigurieren“](assets/columns.png){zoomable="yes"}{width="70%" zoomable="yes"}
 
 enthält die Liste beispielsweise die folgenden Spalten:
 
-![Screenshot der resultierenden Liste mit Spalten, die gemäß den Beispieleinstellungen konfiguriert wurden](assets/column-sample.png){zoomable="yes"}{width="70%" align="left"}
+![Screenshot der resultierenden Liste mit Spalten, die gemäß den Beispieleinstellungen konfiguriert wurden](assets/column-sample.png){zoomable="yes"}{width="70%"}
 
 ## Sortieren der Daten {#sort-lists}
 
@@ -49,7 +47,7 @@ Bei numerischen Spalten oder Datumsspalten bedeutet der **Aufwärtspfeil**, dass
 
 Um Elemente schneller zu finden, können Sie die Suchleiste verwenden oder die Liste nach Kontextkriterien filtern.
 
-![Screenshot mit Filteroptionen zum Verfeinern der Listenansicht](assets/filter.png){zoomable="yes"}{width="70%" align="left"}
+![Screenshot mit Filteroptionen zum Verfeinern der Listenansicht](assets/filter.png){zoomable="yes"}{width="70%"}
 
 Detaillierte Informationen zur Verwendung von Filtern und zur Erstellung eigener benutzerdefinierter Filter finden Sie in [diesem Abschnitt](../query/filter.md).
 
@@ -75,5 +73,5 @@ Only the most common attributes are displayed by default in the attribute list a
 
 Activate the **Display advanced attributes** toggle to see all available attributes for the current list in the left palette of the rule builder, such as nodes, groupings, 1-1 links, 1-N links. The attribute list updates instantly.
 
-[The screenshot shows the Display advanced attributes toggle used to reveal hidden attributes in the rule builder palette.](assets/adv-toggle.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
+[The screenshot shows the Display advanced attributes toggle used to reveal hidden attributes in the rule builder palette.](assets/adv-toggle.png){zoomable="yes"}{width="70%" zoomable="yes"}
 -->
