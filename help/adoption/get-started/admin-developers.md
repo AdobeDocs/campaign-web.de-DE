@@ -41,10 +41,10 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 096132b46c985e1b23ca0fc6fbcf06a70e1630c7
 workflow-type: tm+mt
-source-wordcount: 3258
-ht-degree: 98%
+source-wordcount: 3217
+ht-degree: 96%
 
 ---
 
@@ -125,7 +125,7 @@ Weitere Informationen finden Sie in den [Tutorials zum Control Panel](https://ex
 
 * **IP-Adressen hinzufügen**: Im Control Panel von Campaign können Sie neue Verbindungen zu Ihren Instanzen einrichten, indem Sie IP-Adressbereiche auf die Zulassungsliste setzen. Weitere Informationen finden Sie in der [Dokumentation zur IP-Zulassungsauflistung](https://experienceleague.adobe.com/de/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access){target="_blank"}
 
-* **Subdomain konfigurieren**: Sie können einen Teil Ihrer Domain (technisch eine „DNS-Zone“) für die Verwendung mit Adobe Campaign konfigurieren.
+* **Subdomain-Konfiguration** Sie können einen Unterabschnitt Ihrer Domain (technisch eine „DNS-Zone„) für die Verwendung mit Adobe Campaign konfigurieren.
 Weitere Informationen finden Sie in der [Dokumentation zur Subdomain-Delegierung](https://experienceleague.adobe.com/de/docs/control-panel/using/subdomains-and-certificates/subdomains-branding){target="_blank"}
 
 * **SFTP-Server verwalten**: Über das Control Panel können Sie mit allen SFTP-Servern interagieren, die mit Campaign-Instanzen verbunden sind, auf die Sie Zugriff haben. Weitere Informationen finden Sie in der [Dokumentation zur SFTP-Verwaltung](https://experienceleague.adobe.com/de/docs/control-panel/using/sftp-management/about-sftp-management){target="_blank"}
@@ -164,7 +164,7 @@ In der Client-Konsole stehen verschiedene Optionen zum Anpassen der Benutzerober
 
 Jedes Unternehmen verfügt über Markenrichtlinien, die sowohl visuelle Elemente als auch technische Details definieren. Was Adobe Campaign Standard angeht, hilft Ihnen Adobe Campaign v8 bei der zentralen Verwaltung dieser Richtlinien, sodass Sie Ihrer Kundschaft ein konsistentes Markenbild präsentieren können – von den Logos in E-Mails bis hin zu den in Ihren Kampagnen verwendeten URLs und Domains. Als Mitglied der Gruppe der technischen Admins haben Sie die Möglichkeit, mehrere Marken in Adobe Campaign zu erstellen und zu verwalten.
 
-Weitere Informationen finden Sie in der [Dokumentation zum Branding](https://experienceleague.adobe.com/de/docs/experience-cloud/campaign/branding/branding-gs){target="_blank"}
+Weitere Informationen finden Sie in der [Dokumentation zum Branding](../../v8/administration/branding/branding-gs.md)
 
 ## Grundlegendes zur Erstellung von Datenmodellen {#acs-gs-admin-data-model-creation}
 
@@ -206,9 +206,9 @@ Mit Campaign REST-APIs können Sie Integrationen für Adobe Campaign erstellen u
 
 Wenn Sie von Campaign Standard zu Campaign v8 wechseln, stehen Ihnen REST-APIs zur Verfügung.
 
-Weitere Informationen finden Sie in der [Dokumentation zu REST-APIs](https://experienceleague.adobe.com/de/docs/experience-cloud/campaign/apis/get-started-apis){target="_blank"}.
+Weitere Informationen finden Sie in der [Dokumentation zu REST-APIs](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=de){target="_blank"}.
 
-Beim Wechsel von Campaign Standard zu Campaign v8 gelten verschiedene Empfehlungen und Einschränkungen für REST-APIs. Diese sind auf [dieser Seite](https://experienceleague.adobe.com/de/docs/experience-cloud/campaign/apis/limitations){target="_blank"} aufgeführt. Beim Wechsel zu Campaign v8 bestehen bestimmte Einschränkungen, wie im unten stehenden Hinweis zur Verfügbarkeit beschrieben:
+Beim Wechsel von Campaign Standard zu Campaign v8 gelten verschiedene Empfehlungen und Einschränkungen für REST-APIs. Diese sind auf [dieser Seite](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/developer/apis/limitations){target="_blank"} aufgeführt. Beim Wechsel zu Campaign v8 bestehen bestimmte Einschränkungen, wie im unten stehenden Hinweis zur Verfügbarkeit beschrieben:
 
 >[!AVAILABILITY]
 >
@@ -348,7 +348,7 @@ Sie können Ihre Campaign-Instanz mit Adobe Experience Cloud-Lösungen verbinden
 Wenn Sie von Campaign Standard zu Campaign v8 migrieren, gilt Folgendes:
 
 * Wenn Sie diese Integrationen mit Campaign Standard verwendet haben, werden Ihre **Adobe Analytics**- und **Audience Manager**-Konfigurationen sowie -Daten von Adobe migriert.
-* Wenn Ihre Campaign Standard-Umgebung mit **Adobe Experience Manager** integriert wurde, empfiehlt Adobe, zu **Adobe Experience Manager as a Cloud Service** zu wechseln. Dadurch können Sie diese Funktion beim Erstellen von E-Mails in der Campaign Web-Benutzeroberfläche verwenden. Außerdem wird eine optimierte Verwaltung von E-Mail-Versandinhalten und Formularen direkt in Ihrer Adobe Experience Manager-Umgebung ermöglicht. Weitere Informationen finden Sie auf [dieser Seite](../../v8/integrations/aem-content.md).
+* Wenn Ihre Campaign Standard-Umgebung mit **Adobe Experience Manager** integriert wurde, empfiehlt Adobe, zu **Adobe Experience Manager as a Cloud Service** zu wechseln, damit Sie diese Funktion beim Entwerfen von E-Mails in der Web-Benutzeroberfläche von Campaign verwenden und die optimierte Verwaltung von E-Mail-Versandinhalten und Formularen direkt in Ihrer Adobe Experience Manager-Umgebung erleichtern können. Weitere Informationen finden Sie auf [dieser Seite](../../v8/integrations/aem-content.md).
 Beachten Sie, dass Campaign auch mit Adobe Experience Manager 6.5 integriert werden kann. Informationen zur Konfiguration dieser Integration finden Sie [dieser Dokumentation](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/connect/ac-aem){target="_blank"}.
 * Wenn Ihre Campaign Standard-Umgebung mit **Triggers** integriert wurde, müssen Sie diese Integration in Campaign v8 einrichten und konfigurieren, wie auf [dieser Seite](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/connect/ac-triggers){target="_blank"} beschrieben.
 * Wenn Ihre Campaign Standard-Umgebung mit **Adobe Target** integriert wurde, müssen Sie diese Integration in Campaign v8 einrichten und konfigurieren, wie auf [dieser Seite](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/connect/ac-at){target="_blank"} beschrieben.

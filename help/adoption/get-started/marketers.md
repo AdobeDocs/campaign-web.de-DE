@@ -24,10 +24,10 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 096132b46c985e1b23ca0fc6fbcf06a70e1630c7
 workflow-type: tm+mt
-source-wordcount: 2877
-ht-degree: 98%
+source-wordcount: 2803
+ht-degree: 97%
 
 ---
 
@@ -92,8 +92,8 @@ In diesem Video erfahren Sie, wie Sie Zielgruppen erstellen und verwalten, Zielg
 
 Weitere Informationen finden Sie unter [Erste Schritte mit Zielgruppen](../../v8/audience/manage-audience.md){target="_blank"}.
 
-Wie im Campaign Standard können Sie Ihrem Versand eine Kontrollgruppe hinzufügen. Sie können eine Kontrollgruppe definieren, um zu verhindern, dass Nachrichten an einen Teil Ihrer Zielgruppe gesendet werden, und das Verhalten nach dem Versand mit der Hauptzielgruppe vergleichen. Mit dieser Option können Sie die Wirkung Ihrer Kampagne messen.
-Erfahren Sie, wie Sie eine [Kontrollgruppe festlegen](../../v8/audience/control-group.md){target="_blank"}.
+Wie in Campaign Standard können Sie eine Kontrollgruppe zu Ihrem Versand hinzufügen. Sie können eine Kontrollgruppe definieren, um zu vermeiden, dass Nachrichten an einen Teil Ihrer Audience gesendet werden, und das Verhalten nach dem Versand mit der Hauptzielgruppe vergleichen. Mit dieser Option können Sie die Wirkung Ihrer Kampagne messen.
+Erfahren Sie, wie [eine Kontrollgruppe festlegen](../../v8/audience/control-group.md){target="_blank"}.
 
 >[!AVAILABILITY]
 >
@@ -123,7 +123,7 @@ Sie können Ihre Dienste, z. B. Newsletter, verwalten und erstellen sowie Anmel
 <img alt="Gelegentlich" src="assets/workflow-activities.jpeg">
 </a>
 <div>
-<a href="https://experienceleague.adobe.com/de/docs/campaign-web/v8/audiences/work-with-services/manage-subscribers"><strong>Verwalten von Abonnierenden<strong></strong></a>
+<a href="https://experienceleague.adobe.com/de/docs/campaign-web/v8/audiences/work-with-services/manage-subscribers"><strong>Verwalten von Abonnentinnen und Abonnenten<strong></strong></a>
 </div>
 <p></td>
 <td>
@@ -216,7 +216,7 @@ Nützliche Links:
 >
 >* Trackinglinks, Mirror-Seiten-URL-Links, Anmelde-/Abmelde-Links funktionieren wie in Campaign Standard.
 >
->Weitere Informationen finden Sie zudem in den Abschnitten [Tracking und Monitoring](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/analytics/tracking){target="_blank"} sowie [Branding](https://experienceleague.adobe.com/de/docs/experience-cloud/campaign/branding/branding-gs){target="_blank"} in Adobe Campaign.
+>Weitere Informationen finden Sie zudem in den Abschnitten [Tracking und Monitoring](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/analytics/tracking){target="_blank"} sowie [Branding](../../v8/administration/branding/branding-gs.md) in Adobe Campaign.
 
 ### E-Mail-Versand {#acs-gs-marketers-email}
 
@@ -281,7 +281,7 @@ In Campaign v8 ähneln die detaillierten Schritte zum Erstellen, Testen und Dur
 <img alt="Gelegentlich" src="assets/design_sms.png">
 </a>
 <div>
-<a href="https://experienceleague.adobe.com/de/docs/campaign-web/v8/msg/sms/content-sms"><strong>Entwerfen eines SMS-Versands<strong></strong></a>
+<a href="https://experienceleague.adobe.com/de/docs/campaign-web/v8/msg/sms/content-sms"><strong>Gestalten eines SMS-Versands<strong></strong></a>
 </div>
 <p></td>
 <td>
@@ -398,11 +398,11 @@ Adobe Campaign bietet verschiedene [Reporting-Tools](https://experienceleague.ad
 
 Die umfassende Suite an Reporting-Tools von Adobe Campaign liefert wertvolle Erkenntnisse zur Effektivität Ihrer Marketing-Maßnahmen, sodass Sie Ihre Kampagnen für eine maximale Wirkung optimieren können. Weitere Informationen finden Sie in der [Dokumentation zum Reporting](../../v8/reporting/gs-reports.md).
 
-Zusätzlich stehen Ihnen in Campaign v8 entsprechend dem Adobe Campaign Standard-Erlebnis dynamische Berichte für Ihre E-Mail-Sendungen zur Verfügung. Sie erhalten vollständig anpassbare und in Echtzeit aktualisierte Berichte, um die Wirkung Ihrer Marketing-Aktivitäten zu messen. Dadurch kann auf Profildaten zugegriffen werden, was die demografische Analyse nach Profildimensionen wie Geschlecht, Ort und Alter ermöglicht, zusätzlich zur Analyse basierend auf Daten von E-Mail-Kampagnen wie Öffnungen und Klicks. Weitere Informationen finden Sie in der [Dokumentation zu dynamischen Berichten](https://experienceleague.adobe.com/de/docs/experience-cloud/campaign/reporting/get-started-reporting){target="_blank"}.
+Zusätzlich stehen Ihnen in Campaign v8 entsprechend dem Adobe Campaign Standard-Erlebnis dynamische Berichte für Ihre E-Mail-Sendungen zur Verfügung. Sie erhalten vollständig anpassbare und in Echtzeit aktualisierte Berichte, um die Wirkung Ihrer Marketing-Aktivitäten zu messen. Dadurch kann auf Profildaten zugegriffen werden, was die demografische Analyse nach Profildimensionen wie Geschlecht, Ort und Alter ermöglicht, zusätzlich zur Analyse basierend auf Daten von E-Mail-Kampagnen wie Öffnungen und Klicks. Weitere Informationen finden Sie in der [Dokumentation zu dynamischen Berichten](../../v8/reporting/dynamic-reporting/get-started-reporting.md).
 
 >[!AVAILABILITY]
 >
->* Die Funktion [dynamische Berichte](https://experienceleague.adobe.com/de/docs/experience-cloud/campaign/reporting/get-started-reporting){target="_blank"} kann für Berichte zu E-Mail-Sendungen, Kampagnen mit E-Mail-Sendungen und Transaktionsnachrichten verwendet werden. Eine demografische Analyse nach Profildimension ist ebenfalls verfügbar.
+>* Die Funktion [dynamische Berichte](../../v8/reporting/dynamic-reporting/get-started-reporting.md) kann für Berichte zu E-Mail-Sendungen, Kampagnen mit E-Mail-Sendungen und Transaktionsnachrichten verwendet werden. Eine demografische Analyse nach Profildimension ist ebenfalls verfügbar.
 >
 > * Die [Reporting-Funktion der Adobe Campaign Web-Benutzeroberfläche](../../v8/reporting/campaign-reports.md) ist auch für alle Benutzenden verfügbar, die von Adobe Campaign Standard zu Adobe Campaign v8 wechseln.
 
