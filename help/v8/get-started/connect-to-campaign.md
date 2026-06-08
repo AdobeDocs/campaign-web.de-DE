@@ -3,15 +3,12 @@ title: Herstellen einer Verbindung zur Adobe Campaign Web-Benutzeroberfläche
 description: Erfahren Sie, wie Sie eine Verbindung mit der Benutzeroberfläche von Adobe Campaign Web herstellen.
 exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
 TQID: https://experienceleague.adobe.com/TSbgkDH1v-9HH-szfGQx0z6-6fP8tny4s7Vx2SE8gUo
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 8de6db4dc4aa20cfb72a9e9c997f4348fccb2c39
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 964
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -100,7 +97,7 @@ Wenn Sie in der Campaign Web-Benutzeroberfläche navigieren, können Sie abhäng
 
 ## Obere Navigationsleiste in Adobe Experience Cloud {#top-bar}
 
-Die obere Leiste der Benutzeroberfläche bietet schnellen Zugriff auf die wichtigsten Funktionen von Experience Cloud.
+Die obere Leiste der Benutzeroberfläche bietet schnellen Zugriff auf wichtige Funktionen von Experience Cloud.
 
 ![Screenshot der oberen Navigationsleiste von Adobe Experience Cloud](assets/do-not-localize/unified-shell.png){zoomable="yes"}
 
@@ -110,8 +107,8 @@ Verwenden Sie die obere Leiste für Folgendes:
 * zwischen Ihren Organisationen wechseln
 * zwischen Ihren Adobe Experience Cloud-Lösungen und -Anwendungen wechseln
 * nach Hilfe auf [Adobe Experience League](https://experienceleague.adobe.com/docs/?lang=de){target="_blank"} suchen
-* Anzeigen Ihrer Produktbenachrichtigungen
-* Bearbeiten Sie Ihr Adobe-Profil und verwalten Sie Einstellungen wie [Aktualisieren Ihrer bevorzugten Sprache](#language-pref) oder [Wechseln zwischen hellen und dunklen Themen](#dark-theme).
+* Produktbenachrichtigungen anzeigen
+* Ihr Adobe-Profil bearbeiten und Einstellungen verwalten, z. B. [Ihre bevorzugte Sprache aktualisieren](#language-pref) oder [zwischen hellem und dunklem Design umschalten](#dark-theme)
 
 ## Unterstützte Browser {#browsers}
 

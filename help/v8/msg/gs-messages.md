@@ -4,12 +4,10 @@ title: Erste Schritte mit Nachrichten und Sendungen in Adobe Campaign Web
 description: Erfahren Sie, wie Sie die Benutzeroberfläche von Adobe Campaign Web verwenden, um mit Sendungen zu arbeiten und Nachrichten zu senden
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
 TQID: https://experienceleague.adobe.com/ol49rogAOsMFxY7k6DlSEmhkuplXBAYwKVM-KOflNQI
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 172
 ht-degree: 100%
 
@@ -59,7 +57,7 @@ In den folgenden Abschnitten erfahren Sie, wie Nachrichten erstellt und gesendet
       <img alt="Abschnitt „Erstellen von Briefpost-Nachrichten“" src="assets/do-not-localize/direct-mail.jpg">
     </a>
     <div>
-    <a href="../direct-mail/gs-direct-mail.md"><strong>Erstellen von Briefpost-Nachrichten</strong></a>
+    <a href="../direct-mail/gs-direct-mail.md"><strong>Erstellen von Direkt-Mail-Nachrichten</strong></a>
     </div>
     <p>
     </td>

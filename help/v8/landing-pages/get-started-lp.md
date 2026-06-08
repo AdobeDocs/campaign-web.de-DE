@@ -5,15 +5,12 @@ description: Informationen zu Landingpages in Campaign Web
 feature: Landing Pages
 exl-id: edd313a3-93f4-4596-8dd6-dfc2bc3db21b
 TQID: https://experienceleague.adobe.com/2iCdY2zsGGy6us4VqszVNGpB1LeVmtZ2D1jKImBUuMA
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
-source-wordcount: 268
+workflow-type: ht
+source-wordcount: 266
 ht-degree: 100%
 
 ---
@@ -38,7 +35,7 @@ Die wichtigsten Funktionen von Landingpages sind unten aufgeführt:
 * Verwenden von [!DNL Adobe Campaign]-Funktionen zur Inhaltserstellung, um mühelos **responsive Landingpages** zu erstellen. [Weitere Informationen](lp-content.md)
 * Schnelles und nahtloses Einrichten von **Opt-in- und Opt-out-Flüssen**. [Weitere Informationen](lp-use-cases.md)
 * Erstellen Sie Anmeldedienste, damit sich Benutzende **für einen Dienst anmelden können**. [Weitere Informationen](lp-use-cases.md#lp-subscription)
-* Empfängerinnen und Empfängern die Möglichkeit bieten, sich vom Empfang Ihrer Nachrichten **abzumelden**. [Weitere Informationen](lp-use-cases.md#lp-unsubscription)
+* Ermöglichen Sie Ihren Empfängerinnen und Empfängern, sich vom Empfang Ihrer Nachrichten **abzumelden**. [Weitere Informationen](lp-use-cases.md#lp-unsubscription)
   <!--Send a **confirmation email** upon opt-in or opt-out.-->
 
 <table style="table-layout:fixed"><tr style="border: 0;">

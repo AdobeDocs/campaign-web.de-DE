@@ -4,16 +4,12 @@ description: Hilfe-Center zu Campaign Web
 title: Produktdokumentation zu Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 TQID: https://experienceleague.adobe.com/MgMH03lZa-uSVm-e1ZN-jvJrbjDUvKBpnmCIzxMmi1A
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
-source-wordcount: 547
+workflow-type: ht
+source-wordcount: 506
 ht-degree: 100%
 
 ---
@@ -94,7 +90,7 @@ Häufig gestellte Fragen zur Campaign Web-Benutzeroberfläche werden auf einer 
   <tr style="border: 0;">
     <td>
     <a href="get-started/user-interface.md"><img src="assets/do-not-localize/menu-ui.jpeg"></a>
-    <div><strong>Erkunden Sie die neue Benutzeroberfläche</strong><br/>Entdecken Sie die neue Benutzeroberfläche und Navigation von Adobe Campaign Web, das mit Adobe Experience Platform integriert ist.</div>
+    <div><strong>Entdecken Sie die neue Benutzeroberfläche</strong><br/>Entdecken Sie die neue Benutzeroberfläche und Navigation von Adobe Campaign Web, die in die Adobe Experience Platform integriert ist.</div>
     </td>
     <td>
     <a href="workflows/gs-workflows.md"><img src="assets/do-not-localize/menu-workflows.jpeg"></a>
@@ -102,11 +98,11 @@ Häufig gestellte Fragen zur Campaign Web-Benutzeroberfläche werden auf einer 
     </td>
     <td>
     <a href="email/get-started-email-designer.md"><img src="assets/do-not-localize/menu-email.png"></a>
-    <div><strong>Lernen Sie E-Mail-Designer kennen</strong><br/>Beginnen Sie mit einer Vorlage oder verwenden Sie den neuen E-Mail-Designer von Adobe Campaign, um E-Mails zu erstellen, ohne eine einzige Zeile Code schreiben zu müssen.
+    <div><strong>Kennenlernen von E-Mail-Designer</strong><br/>Beginnen Sie mit einer Vorlage oder verwenden Sie den neuen E-Mail-Designer von Adobe Campaign, um E-Mails zu erstellen, ohne eine einzige Zeile Code schreiben zu müssen.
     </div></td>
     <td>
     <a href="personalization/gs-personalization.md"><img src="assets/do-not-localize/menu-dynamic.png"></a>
-    <div><strong>Gestalten Sie Ihre Inhalte dynamisch</strong><br/>Lernen Sie, wie Sie die Inhalte anhand der Informationen anpassen können, die Sie über Profile gesammelt haben, um Ihre Inhalte ansprechender zu gestalten und die Wahrscheinlichkeit zu erhöhen, dass diese gelesen werden.</div>
+    <div><strong>Gestalten Sie Ihre Inhalte dynamisch</strong><br/>Lernen Sie, wie Sie die Inhalte anhand der Informationen, die Sie über Profile gesammelt haben, anpassen können, um Ihre Inhalte ansprechender zu gestalten und die Wahrscheinlichkeit zu erhöhen, dass diese gelesen werden.</div>
     </td>
   </tr>
   <tr style="border: 0;">
@@ -124,22 +120,22 @@ Häufig gestellte Fragen zur Campaign Web-Benutzeroberfläche werden auf einer 
     <td>
       <img src="assets/do-not-localize/icon-start.svg" width="35px">
     <br/>
-      <strong>Erste Schritte</strong><br/><a href="get-started/user-interface.md">Benutzeroberfläche</a> – <a href="get-started/connect-to-campaign.md">Herstellen einer Verbindung zu Campaign</a> – <a href="get-started/permissions.md">Zugriff und Berechtigungen</a>
+      <strong>Erste Schritte</strong><br/><a href="get-started/user-interface.md">Benutzeroberfläche</a> – <a href="get-started/connect-to-campaign.md">Herstellen einer Verbindung zu Campaign</a> – <a href="get-started/permissions.md">Zugriff und Berechtigungen</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-experience.svg" width="35px">
     <br/>
-      <strong>Kundenerlebnis</strong><br/><a href="workflows/gs-workflows.md" target="_blank">Automatisieren mit Workflows</a> – <a href="campaigns/gs-campaigns.md" target="_blank">Kampagnenorchestrierung</a> –  <a href="personalization/gs-personalization.md">Dynamische Inhalte</a> – <a href="reporting/gs-reports.md">Berichte und Analysen</a>
-    </td>
+      <strong>Kundenerlebnis</strong><br/><a href="workflows/gs-workflows.md" target="_blank">Automatisieren mit Workflows</a> – <a href="campaigns/gs-campaigns.md" target="_blank">Kampagnenorchestrierung</a> – <a href="personalization/gs-personalization.md">Dynamische Inhalte</a> – <a href="reporting/gs-reports.md">Berichte und Analysen</a>
+  </td>
     <td>
       <img src="assets/do-not-localize/icon-message.svg" width="35px">
     <br/>
-      <strong>Senden von Nachrichten</strong><br/><a href="msg/gs-deliveries.md">Erstellen eines Versands</a> – <a href="email/create-email.md">E-Mail</a> – <a href="push/gs-push.md">Push-Benachrichtigungen</a> – <a href="sms/gs-sms.md">SMS</a> – <a href="msg/delivery-template.md">Versandvorlagen</a> – <a href="preview-test/preview-test.md">Vorschau und Test</a> 
-    </td>
+      <strong>Senden von Nachrichten</strong><br/><a href="msg/gs-deliveries.md">Erstellen eines Versands</a> – <a href="email/create-email.md">E-Mail</a> – <a href="push/gs-push.md">Push-Benachrichtigungen</a> – <a href="sms/gs-sms.md">SMS</a> – <a href="msg/delivery-template.md">Versandvorlagen</a> – <a href="preview-test/preview-test.md">Vorschau und Test</a> 
+   </td>
     <td>
       <img src="assets/do-not-localize/icon_profile.svg" width="35px">
     <br/>
-      <strong>Profile und Zielgruppen</strong><br/><a href="audience/gs-audiences-recipients.md">Erste Schritte</a> – <a href="audience/create-audience.md">Erstellen von Zielgruppen</a> – <a href="audience/test-profiles.md">Testprofile</a> – <a href="audience/manage-services.md">Abonnementdienste</a> – <a href="query/query-modeler-overview.md">Abfrage-Modeler</a>
+      <strong>Profile und Zielgruppen</strong><br/><a href="audience/gs-audiences-recipients.md">Erste Schritte</a> – <a href="audience/create-audience.md">Erstellen von Zielgruppen</a> – <a href="audience/test-profiles.md">Testprofile</a> – <a href="audience/manage-services.md">Abonnements</a> – <a href="query/query-modeler-overview.md">Abfrage-Modeler</a>
     </td>
   </tr>
 </table>

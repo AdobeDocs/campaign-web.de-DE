@@ -3,19 +3,13 @@ title: Versionshinweise zur Web-Benutzeroberfläche von Campaign v8
 description: Entdecken Sie die neuen Funktionen der neuesten Version der Campaign Web-Benutzeroberfläche
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 TQID: https://experienceleague.adobe.com/HkI2JUqLNM805hPfVsXl-8nwR70TzxRP31V9EI4yKGA
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
-  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: c309ee4e-82e4-4f7e-b608-ef345678c34eid: d5ef99fa-df0c-4153-bf94-105ad0724167
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 777611699d3d4189cdd7d0d7ded66a9b08cf26cd
-workflow-type: tm+mt
-source-wordcount: 631
-ht-degree: 91%
+workflow-type: ht
+source-wordcount: 610
+ht-degree: 100%
 
 ---
 
@@ -28,19 +22,19 @@ ht-degree: 91%
 
 Die Versionen der Adobe Campaign Web-Benutzeroberfläche basieren auf einem kontinuierlichen Bereitstellungsmodell, das einen besser skalierbaren, schrittweisen Ansatz für die Implementierung von Funktionen ermöglicht. Dementsprechend werden diese Versionshinweise mehrmals im Monat aktualisiert. Sie sollten daher regelmäßig nachschauen.
 
-## Version April &#39;26 {#26-4-release}
+## Version April 2026 {#26-4-release}
 
-_29. April 2026_
+_29. April 2026_
 
 ### Verbesserung {#26-4-improvement}
 
-Der Abschnitt **Anreicherungsdaten** ist jetzt in der Workflow-Aktivität **Zielgruppe aufbauen** (Abfragetyp) verfügbar. Sie können &quot;**Daten“ direkt in der Web-Benutzeroberfläche von Campaign anzeigen** hinzufügen, bearbeiten und entfernen. Wie bei der Aktivität **Anreicherung** können Sie einzelne Anreicherungsattribute, Sammlungslinks und Ausdrücke hinzufügen.
+Der Abschnitt **Anreicherungsdaten** ist jetzt in der Workflow-Aktivität **Zielgruppe erstellen** verfügbar (Abfrageart). Sie können **zusätzliche Daten** direkt in der Campaign Web-Benutzeroberfläche anzeigen, hinzufügen, bearbeiten und entfernen. Wie bei der Aktivität **Anreicherung** können Sie einzelne Anreicherungsattribute, Sammlungs-Links und Ausdrücke hinzufügen.
 
 [Weitere Informationen](../workflows/activities/build-audience.md)
 
 ## Version März 2026 {#26-3-release}
 
-_24_ März 2026_
+24. _März_ 2026_
 
 ### Neue Funktionen {#26-3-features}
 
@@ -132,6 +126,6 @@ _24_ März 2026_
 
 ### Verbesserungen {#26-3-improvements}
 
-* Die Workflow-Aktivität **Start** wurde hinzugefügt, um die Kompatibilität mit der Client-Konsole zu verbessern. Diese Aktivität ist optional und wird in neuen Workflows nicht standardmäßig eingefügt. Sie wird jedoch automatisch zu vorhandenen Workflows hinzugefügt.
+* Die Workflow-Aktivität **Start** wurde hinzugefügt, um die Kompatibilität mit der Client-Konsole zu verbessern. Diese Aktivität ist optional und wird in neuen Workflows nicht standardmäßig eingefügt. Sie wird jedoch automatisch in vorhandene Workflows eingefügt.
   [Weitere Informationen](../workflows/activities/about-activities.md#flow-control)
 * Das Feld für die Zeitzonenauswahl in den Einstellungen für den **Zeitplan** eines Versands wurde unter das Feld **Kontaktdatum** verschoben. [Weitere Informationen](../msg/create-deliveries.md#gs-schedule)
