@@ -12,7 +12,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 233
 ht-degree: 100%
 
@@ -45,7 +45,7 @@ Adobe Campaign bietet drei unterschiedliche Arten von Berichten:
 </td>
 <td>
 <a href="delivery-reports.md">
-<img alt="[Erkenntnisse zu Versandberichten]" src="assets/do-not-localize/email_report.jpeg">
+<img alt="[Erkenntnisse aus Versandberichten]" src="assets/do-not-localize/email_report.jpeg">
 </a>
 <div><a href="delivery-reports.md"><strong>Versandberichte</strong>
 </div>

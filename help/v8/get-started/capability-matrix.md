@@ -29,7 +29,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 2548
 ht-degree: 100%
 
@@ -69,7 +69,7 @@ Verwenden Sie die angegebenen Links, um die Dokumentation zu Campaign v8 (Client
 
 * **LINE-Messaging**. LINE ist eine Anwendung für kostenloses Instant Messaging, Sprach- und Videoanrufe, die für alle Mobilgeräte und für Desktops verfügbar ist. Adobe Campaign ermöglicht den Versand von LINE-Nachrichten nur von der Client-Konsole aus. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/line.html?lang=de){target="_blank"}
 * **Callcenter- und benutzerdefinierte Kanäle**. Callcenter- und andere benutzerdefinierte Kanäle können in Ihrer Campaign-Umgebung implementiert werden. Diese Kanäle sind nur in der Client-Konsole verfügbar. [Weitere Informationen finden Sie in der Dokumentation zu Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/communication-channels.html?lang=de#other-channels){target="_blank"}
-* **Social-Media-Marketing** mit X (Twitter). Sie interagieren mit Ihren Kundinnen und Kunden über X (Twitter), indem Sie Nachrichten posten und Direktnachrichten versenden. Diese Funktion ist in Verbindung mit dem Add-on für Social-Media-Marketing nur in der Client-Konsole verfügbar. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html?lang=de){target="_blank"}
+* **Social-Media-Marketing** mit X (Twitter). Sie interagieren mit Ihren Kundinnen und Kunden über X (Twitter), indem Sie Nachrichten posten und Direktnachrichten versenden. Diese Funktion ist in Verbindung mit dem Add-on für Social-Media-Marketing nur in der Client-Konsole verfügbar. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-tw.html?lang=de){target="_blank"}
 
 ## Landingpages und Web-Anwendungen {#Webapps-capabilities}
 

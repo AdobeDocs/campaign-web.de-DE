@@ -19,9 +19,9 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 096132b46c985e1b23ca0fc6fbcf06a70e1630c7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 3032
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -375,7 +375,7 @@ table>
 <tbody>
 <tr>
 <td>
-<p>Sie können jetzt Ihre eigenen Marken erstellen und anpassen, um Ihre visuelle und verbale Identität in der gesamten Kommunikation klar zu definieren. Mit der Bewertung zur Markenausrichtung erhalten Sie Echtzeit-Feedback dazu, wie gut Ihr Inhalt den Ton, den Stil und die Richtlinien Ihrer Marke widerspiegelt. So bleiben Sie mit jeder gesendeten Nachricht konsequent auf dem Laufenden.
+<p>Sie können nun Ihre eigenen Marken erstellen und anpassen, um Ihre visuelle und verbale Identität in der gesamten Kommunikation klar zu definieren. Über den Markenausrichtungswert können Sie Echtzeit-Feedback dazu erhalten, wie gut Ihre Inhalte den Ton, den Stil und die Richtlinien Ihrer Marke widerspiegeln. So können Sie sicherstellen, dass jede gesendete Nachricht markenkonform ist.
 </p>
 <p>Weitere Informationen finden Sie im <a href="../content/brands.md">entsprechenden Handbuch</a>.</p>
 </td>
@@ -436,7 +436,7 @@ table>
 <tr>
 <td>
 <p>Sie können nun auf dynamisches Reporting zugreifen, das vollständig anpassbare Berichte und Echtzeitberichte zum Messen der Wirkung Ihrer Marketing-Aktivitäten bietet. Dadurch kann auf Profildaten zugegriffen werden, was die demografische Analyse nach Profildimensionen wie Geschlecht, Ort und Alter ermöglicht, zusätzlich zur Analyse basierend auf Daten von E-Mail-Kampagnen wie Öffnungen und Klicks. Dynamische Berichte sind auch für mehrsprachige E-Mail-Sendungen und Transaktionsnachrichten verfügbar.</p>
-<p>Diese Funktion ist nur bei Bedarf verfügbar. Wenden Sie sich an Ihren Adobe-Support-Mitarbeiter, um Zugriff zu erhalten. Ihr Server muss ein Upgrade auf mindestens 8.8.1 erhalten. Siehe die Client-Konsole <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=de" target="_blank">Versionshinweise</a>.
+<p>Diese Funktion ist nur auf Anfrage verfügbar. Wenden Sie sich an Ihre Adobe-Support-Kontaktperson, um Zugriff zu erhalten. Ihr Server muss mindestens auf 8.8.1 aktualisiert sein. Weitere Informationen finden Sie in den <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=de" target="_blank">Versionshinweisen</a> zur Client-Konsole.
 <p>Weitere Informationen finden Sie im <a href="../reporting/dynamic-reporting/get-started-reporting.md">entsprechenden Handbuch</a>.</p>
 </td>
 </tr>
@@ -453,7 +453,7 @@ table>
 <tr>
 <td>
 <p>Ihre technischen Admins können nun eine oder mehrere Marken definieren, um die Parameter zu zentralisieren, die sich auf die Markenidentität auswirken. das Logo der Marke, die Domain der Zugangs-URL zu den Landingpages, Einstellungen zum Nachrichten-Tracking. Sie können diese Marken erstellen und mit verschiedenen Nachrichten oder Landingpages verknüpfen. Diese Konfiguration wird in Vorlagen verwaltet. Branding-Optionen sind für alle Kanäle verfügbar, einschließlich SMS und Briefpost.</p>
-<p>Diese Funktion ist nur bei Bedarf für neue Implementierungen verfügbar. Wenden Sie sich an Ihren Adobe-Support-Mitarbeiter, um Zugriff zu erhalten. Ihr Server muss ein Upgrade auf mindestens 8.8.1 erhalten. Siehe die Client-Konsole <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=de" target="_blank">Versionshinweise</a>.
+<p>Diese Funktion ist nur auf Anfrage und für neue Implementierungen verfügbar. Wenden Sie sich an Ihre Adobe-Support-Kontaktperson, um Zugriff zu erhalten. Ihr Server muss mindestens auf 8.8.1 aktualisiert sein. Weitere Informationen finden Sie in den <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=de" target="_blank">Versionshinweisen</a> zur Client-Konsole.
 <p>Weitere Informationen finden Sie im <a href="../administration/branding/branding-gs.md">entsprechenden Handbuch</a>.</p>
 </td>
 </tr>
@@ -649,8 +649,8 @@ Die folgenden Funktionen stehen allen Benutzenden ab der April-Version zur Verf�
 <tbody>
 <tr>
 <td>
-<p>Als Campaign-Administrator können Sie jetzt über die Campaign Web-Benutzeroberfläche neue Verbindungen mit externen Systemen einrichten.
-Sie können auch vorhandene externe Konten anzeigen, aktualisieren und verwalten.</p>
+<p>Als Campaign-Admin können Sie nun über die Campaign Web-Benutzeroberfläche neue Verbindungen mit externen Systemen einrichten.
+Sie können außerdem bereits vorhandene externe Konten anzeigen, aktualisieren und verwalten.</p>
 <p>Weitere Informationen finden Sie im <a href="../administration/external-account.md">entsprechenden Handbuch</a>.</p>
 </td>
 </tr>
@@ -688,7 +688,7 @@ ko * The typology rules creation screen has been updated to facilitate the selec
 >
 >Die folgenden Funktionen sind nur eingeschränkt verfügbar. Sie sind Kundinnen und Kunden vorbehalten, die **von Adobe Campaign Standard zu Adobe Campaign v8** migrieren, und können nicht in anderen Umgebungen bereitgestellt werden. Dazu ist ein Upgrade des Campaign-Servers auf die Version 8.7.4 erforderlich.
 >
->Weitere Informationen finden Sie auf der folgenden Dokumentationsseite: [Umstellung von Campaign Standard auf Campaign v8](../rn/acs-migration.md)
+>Weitere Informationen finden Sie auf der folgenden Seite der Dokumentation: [Wechsel von Campaign Standard zu Campaign v8](../rn/acs-migration.md)
 
 * **Erstellung eines mehrsprachigen Versands**: In der Adobe Campaign Web-Benutzeroberfläche ist nun die Durchführung mehrerer E-Mail-Sendungen in verschiedenen Sprachen möglich. Mit der Funktion „Mehrsprachiger Versand“ können Sie die Standardsprache Ihres Versands sowie die verschiedenen Sprachen festlegen, in denen der Versand durchgeführt werden kann. Sie können diese Sendungen auch in einer Vorschau in den von Ihnen ausgewählten Sprachen anzeigen. Weitere Informationen finden Sie im [entsprechenden Handbuch](../email/edit-content.md).
 

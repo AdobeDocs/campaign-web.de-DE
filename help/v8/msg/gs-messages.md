@@ -9,7 +9,7 @@ product_v2:
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 172
 ht-degree: 100%
 
@@ -59,7 +59,7 @@ In den folgenden Abschnitten erfahren Sie, wie Nachrichten erstellt und gesendet
       <img alt="Abschnitt „Erstellen von Briefpost-Nachrichten“" src="assets/do-not-localize/direct-mail.jpg">
     </a>
     <div>
-    <a href="../direct-mail/gs-direct-mail.md"><strong>Erstellen von Briefpost-Nachrichten</strong></a>
+    <a href="../direct-mail/gs-direct-mail.md"><strong>Erstellen von Direkt-Mail-Nachrichten</strong></a>
     </div>
     <p>
     </td>

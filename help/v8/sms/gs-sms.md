@@ -9,7 +9,7 @@ product_v2:
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 173
 ht-degree: 100%
 
@@ -43,7 +43,7 @@ Der SMS-Kanal bietet drei Methoden zur Erstellung von SMS-Sendungen:
 <img alt="Gestalten eines SMS-Versands" src="assets/do-not-localize/design_sms.png">
 </a>
 <div>
-<a href="content-sms.md"><strong>Entwerfen eines SMS-Versands<strong></strong></a>
+<a href="content-sms.md"><strong>Gestalten eines SMS-Versands<strong></strong></a>
 </div>
 <p></td>
 <td>

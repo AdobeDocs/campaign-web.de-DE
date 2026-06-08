@@ -17,9 +17,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 096132b46c985e1b23ca0fc6fbcf06a70e1630c7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 570
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -78,7 +78,7 @@ Most concepts are similar between Campaign v8 and Campaign Standard. However, th
 
 ## Spezifische Funktionen {#new-features}
 
-Um einen reibungslosen Übergang zu Campaign v8 zu gewährleisten, wurden wichtige Campaign Standard-Funktionen zu Campaign v8 hinzugefügt:
+Damit ein reibungsloser Wechsel zu Campaign v8 möglich ist, wurden wichtige Funktionen von Campaign Standard in Campaign v8 aufgenommen:
 
 * **Dynamisches Reporting**: Das dynamische Reporting ermöglicht anpassbare und in Echtzeit aktualisierte Berichte, um die Wirkung von Marketing-Aktivitäten zu messen. Es umfasst den Zugriff auf Profildaten für die demografische Analyse nach Profildimensionen wie Geschlecht, Ort und Alter sowie nach funktionalen Daten von E-Mail-Kampagnen wie Öffnungen und Klicks. [Weitere Informationen](../reporting/dynamic-reporting/get-started-reporting.md).
 
