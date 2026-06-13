@@ -11,10 +11,10 @@ feature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
-source-wordcount: 506
-ht-degree: 100%
+source-git-commit: e6737eef2f3566d5a62f36e54ae02d81fbb1716c
+workflow-type: tm+mt
+source-wordcount: 523
+ht-degree: 96%
 
 ---
 
@@ -130,12 +130,12 @@ Häufig gestellte Fragen zur Campaign Web-Benutzeroberfläche werden auf einer 
       <img src="assets/do-not-localize/icon-experience.svg" width="35px">
     <br/>
       <strong>Kundenerlebnis</strong><br/><a href="workflows/gs-workflows.md" target="_blank">Automatisieren mit Workflows</a> – <a href="campaigns/gs-campaigns.md" target="_blank">Kampagnenorchestrierung</a> – <a href="personalization/gs-personalization.md">Dynamische Inhalte</a> – <a href="reporting/gs-reports.md">Berichte und Analysen</a>
-  </td>
+    </td>
     <td>
       <img src="assets/do-not-localize/icon-message.svg" width="35px">
     <br/>
       <strong>Senden von Nachrichten</strong><br/><a href="msg/gs-deliveries.md">Erstellen eines Versands</a> – <a href="email/create-email.md">E-Mail</a> – <a href="push/gs-push.md">Push-Benachrichtigungen</a> – <a href="sms/gs-sms.md">SMS</a> – <a href="msg/delivery-template.md">Versandvorlagen</a> – <a href="preview-test/preview-test.md">Vorschau und Test</a> 
-   </td>
+    </td>
     <td>
       <img src="assets/do-not-localize/icon_profile.svg" width="35px">
     <br/>
@@ -148,3 +148,4 @@ Häufig gestellte Fragen zur Campaign Web-Benutzeroberfläche werden auf einer 
 
 * [Adobe Campaign – Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}
 * [Dokumentation zu Adobe Campaign v8](https://experienceleague.adobe.com/docs/campaign-v8.html?lang=de){target="_blank"}
+* [Pixel für E-Mail-Tracking und CNIL-Anleitung](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/new/cnil-pixel-tracking){target="_blank"}
