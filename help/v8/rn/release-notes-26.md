@@ -25,7 +25,7 @@ Der Abschnitt **Anreicherungsdaten** ist jetzt in der Workflow-Aktivität **Ziel
 
 ## Version März 2026 {#26-3-release}
 
-24. _März_ 2026_
+&#x200B;24. _März_ 2026_
 
 ### Neue Funktionen {#26-3-features}
 
