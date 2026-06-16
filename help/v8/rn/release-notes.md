@@ -12,9 +12,9 @@ feature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 6581a2d6ab44b711ed6aea6736d60f932a7ce315
+source-git-commit: cbecd07b053d0ceb4e9114aa3c6d37752392febc
 workflow-type: tm+mt
-source-wordcount: 242
+source-wordcount: 243
 ht-degree: 45%
 
 ---
@@ -42,11 +42,7 @@ _16. Juni 2026_
 
 * Die **Deduplizierung** und **End**-Workflow-Aktivitäten unterstützen jetzt mehrere eingehende Transitionen. Wenn
 Mehr als eine eingehende Transition ist verfügbar. Verwenden Sie hierzu den Abschnitt **Zusammenzufügende Sätze** in der Aktivität
-Eigenschaften zur Auswahl der zu verbindenden Transitionen. Weitere Informationen finden Sie auf diesen Seiten: [Deduplizierung](../workflows/activities/deduplication.md),
-
-<!--
-[End](../workflows/activities/end.md)
--->
+Eigenschaften zur Auswahl der zu verbindenden Transitionen. Weitere Informationen finden Sie auf diesen Seiten: [Deduplizierung](../workflows/activities/deduplication.md), [Ende](../workflows/activities/end.md)
 
 * Erweiterte Parameter werden jetzt im Abschnitt **Anreicherungsdaten** der Workflow-Aktivitäten **Zielgruppe erstellen** (Abfragetyp) und **Anreicherung** verfügbar gemacht. Mit diesen Parametern können Sie den Aufbau von Anreicherungsdaten feinabstimmen, einschließlich Gruppierung, Deduplizierung, Verarbeitung von Primärschlüsseln und eingehenden Ereignisdaten. [Weitere Informationen](../workflows/activities/enrichment.md)
 
