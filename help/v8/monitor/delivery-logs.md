@@ -4,12 +4,11 @@ title: Überwachen von Versandlogs
 description: Erfahren Sie, wie Sie Versandlogs überwachen
 exl-id: 2eb7457e-32f7-4729-99c8-91bf287f0192
 TQID: https://experienceleague.adobe.com/70yFDGvkMFv82CTMbN3cbzS6nXLmYGRZ7as20DYYXRs
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+source-git-commit: 43a0518b8d273a8b4fcd56a529f6af6bb70a2530
 workflow-type: tm+mt
-source-wordcount: 429
-ht-degree: 100%
+source-wordcount: 456
+ht-degree: 94%
 
 ---
 
@@ -23,6 +22,10 @@ ht-degree: 100%
 Nachdem der Versand vorbereitet wurde und Sie auf die Schaltfläche **Senden** geklickt haben, navigieren Sie zu den Versandlogs, um die Warnungen, Fehler, Status, Ausschlüsse und Tracking-Daten zu überprüfen. Diese Logs können direkt über das Nachrichten-Dashboard aufgerufen werden. In ihnen werden Details zum Versand dargestellt und Sie erfahren, welche Zielgruppe warum ausgeschlossen wurde sowie Tracking-Informationen wie z. B. Öffnungen und Klicks.
 
 Um die Logs anzuzeigen, rufen Sie Ihr Versand-Dashboard auf und klicken Sie auf die Schaltfläche **Protokolle**.
+
+>[!TIP]
+>
+>Jede Protokollregisterkarte kann mithilfe der Schaltfläche **Geladene Zeilen als CSV exportieren** über der Liste als CSV-Datei exportiert werden. Weitere Informationen finden [ unter „Exportieren von Listendaten](../get-started/list-filters.md#export-list).
 
 Folgende Registerkarten stehen zur Verfügung:
 
