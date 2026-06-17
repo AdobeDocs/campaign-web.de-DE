@@ -8,16 +8,16 @@ product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
-source-git-commit: 8de6db4dc4aa20cfb72a9e9c997f4348fccb2c39
-workflow-type: ht
-source-wordcount: 325
-ht-degree: 100%
+source-git-commit: b510c77a5a9c763e37a79137becaf4f192c52ce5
+workflow-type: tm+mt
+source-wordcount: 433
+ht-degree: 72%
 
 ---
 
 # Durchsuchen und Filtern von Listen {#list-screens}
 
-Die meisten Links aus dem linken Navigationsmenü zeigen Listen von Objekten an, wie z. B. die Liste der **Sendungen** oder **Kampagnen**. Einige dieser Listenbildschirme sind schreibgeschützt. Sie können die Listenanzeige anpassen und diese Listen wie unten beschrieben filtern.
+Die meisten Links aus dem linken Navigationsmenü zeigen Listen von Objekten an, wie z. B. die Liste der **Sendungen** oder **Kampagnen**. Einige dieser Listenbildschirme sind schreibgeschützt. Sie können die Listenanzeige anpassen, diese Listen filtern und Listendaten als CSV-Dateien exportieren, wie unten beschrieben.
 
 ## Anpassen von Listenbildschirmen {#custom-lists}
 
@@ -52,6 +52,18 @@ Um Elemente schneller zu finden, können Sie die Suchleiste verwenden oder die L
 ![Screenshot mit Filteroptionen zum Verfeinern der Listenansicht](assets/filter.png){zoomable="yes"}{width="70%"}
 
 Detaillierte Informationen zur Verwendung von Filtern und zur Erstellung eigener benutzerdefinierter Filter finden Sie in [diesem Abschnitt](../query/filter.md).
+
+## Exportieren von Listendaten {#export-list}
+
+Sie können Daten aus jedem Listenbildschirm einschließlich Trackinglogs exportieren. Gehen Sie wie folgt vor, um eine Liste zu exportieren:
+
+1. Öffnen Sie die Liste, die Sie exportieren möchten.
+1. Passen Sie die angezeigten Spalten an und wenden Sie die gewünschten Suchfilter an. Der Export berücksichtigt die auf dem Bildschirm angezeigten Spalten sowie alle aktiven Suchen oder Filter.
+1. Scrollen Sie nach unten, um bei Bedarf weitere Zeilen anzuzeigen. Nur die derzeit in der Liste geladenen Zeilen werden exportiert.
+1. Klicken Sie auf **Schaltfläche „Geladene Zeilen als CSV exportieren** oberhalb der Liste. Die Datei wird im Standard-Download-Ordner Ihres Browsers gespeichert.
+
+![Der Screenshot zeigt den Export einer Liste.](assets/filter-export.png){zoomable="yes"}
+
 
 <!--
 ## Use advanced attributes {#adv-attributes}
