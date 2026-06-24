@@ -17,7 +17,7 @@ topic_v2:
 source-git-commit: 9bb8a5cdd958a693afccff5468df5911237044b2
 workflow-type: tm+mt
 source-wordcount: 583
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ Alle Aktivitäten werden in den folgenden Abschnitten beschrieben:
 
 Diese Aktivitäten sind spezifisch für die Zielgruppenbestimmung. Sie ermöglichen es Ihnen, eine oder mehrere Zielgruppen zu erstellen, indem Sie eine Zielgruppe definieren und diese Zielgruppen mithilfe von Schnittmenge, Vereinigung oder Ausschluss aufteilen oder kombinieren.
 
-* [Zielgruppe erstellen](build-audience.md): Mit dieser Aktivität definieren Sie Ihre Zielpopulation. Wählen Sie eine vorhandene Zielgruppe aus oder verwenden Sie den Abfrage-Modeler, um Ihre eigene Abfrage zu definieren. Sie können auch „Anreicherungsdaten **konfigurieren (** für Abfragen verfügbar).
+* [Zielgruppe erstellen](build-audience.md): Mit dieser Aktivität definieren Sie Ihre Zielpopulation. Wählen Sie eine vorhandene Zielgruppe aus oder verwenden Sie den Abfrage-Modeler, um Ihre eigene Abfrage zu definieren. Sie können auch **Anreicherungsdaten** konfigurieren (für Abfragen verfügbar).
 * [Datenquelle ändern](change-data-source.md): Mit dieser Aktivität ändern Sie die Datenquelle für die Arbeitstabelle Ihres Workflows.
 * [Dimensionsänderung](change-dimension.md): Mit dieser Aktivität ändern Sie die Zielgruppendimension, während Sie Ihren Workflow erstellen.
 * [Kombinieren](combine.md): Mit dieser Aktivität segmentieren Sie Ihre eingehende Population. Verwenden Sie eine Vereinigung, eine Schnittmenge oder einen Ausschluss.
@@ -74,13 +74,13 @@ Die folgenden Aktivitäten dienen der Anordnung und Ausführung von Workflows. I
 
 * [Externes Signal](external-signal.md): Mit dieser Aktivität lösen Sie die Ausführung eines Workflows über einen anderen Workflow oder einen API-Aufruf aus.
 * [Verzweigung](fork.md): Mit dieser Aktivität erstellen Sie ausgehende Transitionen, um mehrere Aktivitäten gleichzeitig zu starten.
-* [Zusammenführen](join.md): Synchronisieren mehrerer Ausführungszweige eines Workflows.
+* [Join](join.md): Mit dieser Aktivität synchronisieren Sie mehrere Ausführungszweige eines Workflows.
 * [Planung](scheduler.md): Mit dieser Aktivität planen Sie, wann der Workflow starten soll.
-* **Start** und [Ende](end.md): Markieren Sie den Anfang und das Ende eines Workflows grafisch. Sie sind optional und haben selbst keine funktionalen Auswirkungen.
+* **Start** und [Ende](end.md): Mit diesen Aktivitäten markieren Sie grafisch den Anfang und das Ende eines Workflows. Sie sind optional und haben selbst keine funktionalen Auswirkungen.
 
   >[!NOTE]
   >
-  >Beachten Sie, **die Aktivität** automatisch zu allen Workflows hinzugefügt wird, die vor der Version 26.3 erstellt wurden. Sie wird in neuen Workflows nicht standardmäßig eingefügt.
+  >Beachten Sie, dass die Aktivität **Start** automatisch zu allen Workflows hinzugefügt wird, die vor Version 26.3 erstellt wurden. Sie wird in neuen Workflows nicht standardmäßig eingefügt.
 
 * [Test](test.md): Mit dieser Aktivität aktivieren Sie Transitionen auf Grundlage der angegebenen Bedingungen.
 * [Warten](wait.md): Mit dieser Aktivität halten Sie die Ausführung eines Teils eines Workflows vorübergehend an.

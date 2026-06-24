@@ -13,7 +13,7 @@ topic_v2:
 source-git-commit: 3207311cda7b2b88b68ef194d2776ae40e907f48
 workflow-type: tm+mt
 source-wordcount: 2327
-ht-degree: 85%
+ht-degree: 87%
 
 ---
 
@@ -62,7 +62,7 @@ Führen Sie die folgenden Schritte aus, um die Aktivität **Anreicherung** zu ko
 >title="Aktivität „Anreicherung“"
 >abstract="Nachdem Anreicherungsdaten zum Workflow hinzugefügt wurden, können sie in den nachfolgenden Aktivitäten verwendet werden, um Kundinnen und Kunden basierend auf ihren Verhaltensweisen, Voreinstellungen und Anforderungen in verschiedene Gruppen zu segmentieren oder um personalisierte Marketing-Nachrichten und -Kampagnen zu erstellen, die bei Ihrer Zielgruppe Anklang finden."
 
-Der Abschnitt **Anreicherungsdaten** ist in den Aktivitäten **Anreicherung** und **Zielgruppe aufbauen** (Abfragetyp) verfügbar. Damit können Sie die Zielgruppendaten um zusätzliche Informationen aus der Datenbank erweitern, z. B. um Vertragsreferenzen oder Newsletter-Abonnements. Diese Daten werden mit der Audience in der Workflow-**Arbeitstabelle** gespeichert und stehen für folgende Aktivitäten zur Verfügung. Sie können einzelne Anreicherungsattribute, Sammlungslinks oder Ausdrücke hinzufügen und auf erweiterte Optionen zugreifen.
+Der Abschnitt **Anreicherungsdaten** ist in den Aktivitäten **Anreicherung** und **Zielgruppe aufbauen** (Abfragetyp) verfügbar. Damit können Sie die Zielgruppendaten um zusätzliche Informationen aus der Datenbank erweitern, z. B. um Vertragsreferenzen oder Newsletter-Abonnements. Diese Daten werden mit der Zielgruppe in der Workflow-**Arbeitstabelle** gespeichert und stehen für folgende Aktivitäten zur Verfügung. Sie können einzelne Anreicherungsattribute, Sammlungslinks oder Ausdrücke hinzufügen und auf erweiterte Optionen zugreifen.
 
 Klicken Sie auf **Anreicherungsdaten hinzufügen** und wählen Sie das Attribut aus, das für die Anreicherung verwendet werden soll. [Erfahren Sie, wie Sie Attribute auswählen und zu den Favoriten hinzufügen](../../get-started/attributes.md).
 
@@ -210,8 +210,8 @@ Sie können das Angebot jetzt in der Versandaktivität verwenden.
 
 Gehen Sie innerhalb eines Workflows wie folgt vor, wenn Sie die Angebote aus einer Anreicherungsaktivität in Ihrem Versand verwenden möchten:
 
-1. Öffnen Sie die Versandaktivität und wechseln Sie in die Inhaltsbearbeitung. Klicken Sie auf **[!UICONTROL Angebotseinstellungen]** und wählen Sie in der Dropdown-Liste die **[!UICONTROL Platzierung Angebote]** aus, die Ihrem Angebot entspricht.
-Wenn Sie nur Angebote aus der Aktivität Anreicherung anzeigen möchten, setzen Sie die Anzahl der **[!UICONTROL Vorschläge]** auf 0 und speichern Sie die Änderungen.
+1. Öffnen Sie die Versandaktivität und gehen Sie zur Inhaltsbearbeitung. Klicken Sie auf die Schaltfläche **[!UICONTROL Angebotseinstellungen]** und wählen Sie die Ihrem Angebot entsprechende **[!UICONTROL Platzierung]** aus der Dropdown-Liste.
+Wenn Sie nur Angebote aus der Anreicherungsaktivität anzeigen möchten, setzen Sie die Anzahl der **[!UICONTROL Vorschläge]** auf 0 und speichern Sie die Änderungen.
 
    ![](../assets/offers-settings.png)
 
