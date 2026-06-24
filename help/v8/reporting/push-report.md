@@ -4,15 +4,12 @@ title: Push-Versandberichte
 description: Erfahren Sie, wie Sie auf Push-Versandberichte zugreifen und diese verwenden können
 exl-id: 4187b553-8de7-40f4-8f30-f62e43323862
 TQID: https://experienceleague.adobe.com/guXWmt9-cw6X5O897TQ9iZR4e7QccWG9iI-OK6XEIDQ
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 579
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +35,7 @@ Der **[!UICONTROL Versandübersichtsbericht]** bietet wichtige Performance-Indik
 
 ![Dieser Screenshot zeigt den Bericht „Versandübersicht“, der KPIs zur Besucherinteraktion mit Push-Nachrichten bereitstellt.](assets/reporting_push_3.png){zoomable="yes"}
 
-+++Erfahren Sie mehr über die Metriken des Push-Versandberichts.
++++Weitere Informationen zu den Metriken „Push-Versandbericht“.
 
 * **[!UICONTROL Insgesamt gesendet]**: Gesamtzahl der während der Versandvorbereitung verarbeiteten Nachrichten.
 * **[!UICONTROL Zugestellt]**: Anzahl der erfolgreich gesendeten Nachrichten, bezogen auf die Gesamtzahl der gesendeten Nachrichten.
@@ -58,7 +55,7 @@ Der Graph und die Tabelle zur **Zielpopulation** zeigen Daten in Bezug auf Ihre 
 
 ![Dieser Screenshot zeigt das Diagramm und die Tabelle „Zielpopulation“, in denen Daten über zu versendende Nachrichten und Ausschlüsse angezeigt werden.](assets/reporting_push_4.png){zoomable="yes"}
 
-+++Erfahren Sie mehr über die Metriken des Push-Versandberichts.
++++Weitere Informationen zu den Metriken „Push-Versandbericht“.
 
 * **[!UICONTROL Zu versenden]**: Gesamtzahl der während der Versandvorbereitung verarbeiteten Nachrichten.
 * **[!UICONTROL Ausnahmen]**: Anzahl der Profile, die aus der Analyse ausgeschlossen wurden.
@@ -76,7 +73,7 @@ Der Bericht **Gesamtstatistik** enthält Daten zu den gesendeten Push-Benachrich
 
 ![Dieser Screenshot zeigt den Bericht „Gesamtstatistik“ mit Daten zu Erfolgen, Fehlern und Quarantänen für gesendete Push-Benachrichtigungen.](assets/reporting_push_5.png){zoomable="yes"}
 
-+++Erfahren Sie mehr über die Metriken des Push-Versandberichts.
++++Weitere Informationen zu den Metriken „Push-Versandbericht“.
 
 * **[!UICONTROL Erfolg]**: Anzahl der erfolgreich verarbeiteten Nachrichten.
 * **[!UICONTROL Fehler]**: Gesamtzahl der beim Versand aufgetretenen Fehler, die den Versand der Nachrichten an bestimmte Profile verhindert haben.

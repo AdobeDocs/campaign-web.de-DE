@@ -1,24 +1,19 @@
 ---
 audience: end-user
 title: Verwalten einer Marke
-description: Informationen zum Personalisieren Ihrer Markenrichtlinien
+description: Erfahren Sie, wie Sie Ihre Markenrichtlinien personalisieren können
 role: User
 level: Beginner, Intermediate
 exl-id: e02f8137-d6a8-46ec-a317-2ac5fb5d0c48
 TQID: https://experienceleague.adobe.com/Wwn4Gh2Xgf8A5dHJ-2bWu6DIziufzW7TsAlKDrUgWY4
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a4671286-a59f-47e3-b97b-90627a1977d5
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a4671286-a59f-47e3-b97b-90627a1977d5
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 997
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -26,13 +21,13 @@ ht-degree: 91%
 
 Um ein umfassendes Marken-Kit zu erstellen, das die Konsistenz Ihrer Inhalte und Kanäle sicherstellt, konfigurieren Sie die folgenden vier Registerkarten, wobei jede einen anderen Aspekt Ihrer Markenidentität behandelt:
 
-* **[!UICONTROL Über die Marke]** legt die Identität und die Werte Ihrer Marke fest.
+* **[!UICONTROL Informationen zur Marke]** legen die Identität und die Werte Ihrer Marke fest.
 * **[!UICONTROL Schreibstil]** definiert Sprach- und Inhaltsstandards.
 * **[!UICONTROL Visueller Inhalt]** legt Richtlinien für Bilder und Design fest.
 
 <!-- * **[!UICONTROL Colors]** manages your brand's color system and usage. -->
 
-Nach der Konfiguration können Sie Ihre Markenrichtlinien verwenden, um die Qualität der Inhalte und die Markenausrichtung zu überprüfen. [Erfahren Sie mehr über die Validierung der Inhaltsqualität](brands-score.md#validate-quality)
+Nach der Konfiguration können Sie Ihre Markenrichtlinien verwenden, um die Qualität der Inhalte und die Markenausrichtung zu überprüfen. [Weitere Informationen zur Qualitätsprüfung von Inhalten](brands-score.md#validate-quality)
 
 ## Informationen zur Marke {#about-brand}
 

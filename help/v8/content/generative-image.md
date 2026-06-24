@@ -4,16 +4,13 @@ title: Generative Inhalte
 description: Informationen zum Generieren von Bildern mit dem KI-Assistenten
 exl-id: 9de12187-c437-467b-974a-1e165adc5fe1
 TQID: https://experienceleague.adobe.com/kMFMddQ-ZYGJIZ7-0BfrUMQzJ701fQlpehO15llbJAw
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1223
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -61,7 +58,7 @@ Erfahren Sie, wie Sie effektive Prompts erstellen und Bildeinstellungen konfigur
 
 1. Passen Sie Ihren Prompt mit der Option **[!UICONTROL Texteinstellungen]** an:
 
-   * **[!UICONTROL Generatives Modell]**: Wählen Sie aus dem einsatzbereiten **[!UICONTROL Adobe-]**, dem **[!UICONTROL Partnermodell]** für spezielle Funktionen oder **[!UICONTROL Benutzerdefinierte Modelle]**, die auf Ihren Marken-Assets trainiert wurden. [Weitere Informationen](generative-models.md)
+   * **[!UICONTROL Generatives Modell]**: Wählen Sie das einsatzbereite **[!UICONTROL Adobe-Modell]**, das **[!UICONTROL Partnermodell]** für spezielle Funktionen oder **[!UICONTROL benutzerdefinierte Modelle]** aus, die auf Grundlage Ihrer Marken-Assets trainiert wurden. [Weitere Informationen](generative-models.md)
    * **[!UICONTROL Seitenverhältnis]**: Bestimmen Sie die Breite und Höhe des Assets. Wählen Sie aus gängigen Verhältnissen wie 16:9, 4:3, 3:2 oder 1:1 oder geben Sie eine benutzerdefinierte Größe ein.
    * **[!UICONTROL Inhaltstyp]**: Kategorisieren Sie die Art des visuellen Elements, wobei zwischen verschiedenen Arten der visuellen Darstellung wie Fotos, Grafiken oder Kunst unterschieden wird.
    * **[!UICONTROL Visuelle Intensität]**: Steuern Sie die Wirkung des Bildes durch Anpassen seiner Intensität. Durch eine niedrigere Einstellung (2) wird das Erscheinungsbild weicher, während eine höhere Einstellung (10) das Bild lebendiger macht.
@@ -133,7 +130,7 @@ Nachdem Sie auf den KI-Assistenten zugegriffen haben, können Sie die Generierun
 
 1. Wählen Sie Ihre **[!UICONTROL Bildeinstellungen]** aus:
 
-   * **[!UICONTROL Generatives Modell]**: Wählen Sie aus dem einsatzbereiten **[!UICONTROL Adobe-]**, dem **[!UICONTROL Partnermodell]** für spezielle Funktionen oder **[!UICONTROL Benutzerdefinierte Modelle]**, die auf Ihren Marken-Assets trainiert wurden. [Weitere Informationen](generative-models.md)
+   * **[!UICONTROL Generatives Modell]**: Wählen Sie das einsatzbereite **[!UICONTROL Adobe-Modell]**, das **[!UICONTROL Partnermodell]** für spezielle Funktionen oder für Ihre Marken-Assets trainierte **[!UICONTROL benutzerdefinierte Modelle]** aus. [Weitere Informationen](generative-models.md)
    * **[!UICONTROL Inhaltstyp]**: Kategorisieren Sie die Art des visuellen Elements, wobei zwischen verschiedenen Arten der visuellen Darstellung wie Fotos, Grafiken oder Kunst unterschieden wird.
    * **[!UICONTROL Visuelle Intensität]**: Steuern Sie die Wirkung des Bildes durch Anpassen seiner Intensität. Durch eine niedrigere Einstellung (2) wird das Erscheinungsbild weicher, während eine höhere Einstellung (10) das Bild lebendiger und visuell eindringlicher macht.
    * **[!UICONTROL Beleuchtung]**: Passen Sie die Beleuchtung in einem Bild, die dessen Atmosphäre prägt und bestimmte Elemente hervorhebt.

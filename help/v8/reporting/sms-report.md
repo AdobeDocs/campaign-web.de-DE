@@ -4,15 +4,12 @@ title: SMS-Versandberichte
 description: Erfahren Sie, wie Sie auf SMS-Versandberichte zugreifen und diese verwenden können
 exl-id: 153d3a85-0d39-42db-9906-1e7f2d1d5bae
 TQID: https://experienceleague.adobe.com/C-KNGxZ2YfM6sHQVJARzemPJ0ltBtmrG7Ps2y5K-jx0
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 620
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +35,7 @@ Die **[!UICONTROL Versandübersicht]** liefert wichtige KPIs (Key Performance In
 
 ![Beschreibung: Das Bild zeigt den Bericht „Versandübersicht“ mit KPIs wie Erfolgs- und Fehlerraten sowie Besucherinteraktion.](assets/reporting_sms_3.png){zoomable="yes"}
 
-+++Erfahren Sie mehr über die Metriken des SMS-Versandberichts.
++++Weitere Informationen zu den Metriken „SMS-Versandbericht“.
 
 * **[!UICONTROL Insgesamt gesendet]**: Gesamtzahl der während der Versandvorbereitung verarbeiteten Nachrichten.
 
@@ -61,7 +58,7 @@ Das Diagramm und die Tabelle **Zielpopulation** zeigen Daten in Bezug auf Ihre Z
 
 ![Beschreibung: Das Bild zeigt das Diagramm und die Tabelle „Zielpopulation“ mit Metriken wie zu sendende Nachrichten und Ausschlüsse.](assets/reporting_sms_4.png){zoomable="yes"}
 
-+++Erfahren Sie mehr über die Metriken des SMS-Versandberichts.
++++Weitere Informationen zu den Metriken „SMS-Versandbericht“.
 
 * **[!UICONTROL Zu versenden]**: Gesamtzahl und Prozentsatz der während der Versandvorbereitung verarbeiteten Nachrichten.
 
@@ -79,7 +76,7 @@ Die **Gesamtstatistik** enthält Daten zu den gesendeten SMS-Benachrichtigungen,
 
 ![Beschreibung: Das Bild zeigt die Gesamtstatistik mit Metriken wie Erfolgsraten, Fehler und Quarantänen.](assets/reporting_sms_5.png){zoomable="yes"}
 
-+++Erfahren Sie mehr über die Metriken des SMS-Versandberichts.
++++Weitere Informationen zu den Metriken „SMS-Versandbericht“.
 
 * **[!UICONTROL Erfolg]**: Anzahl und Prozentsatz der erfolgreich verarbeiteten Nachrichten.
 

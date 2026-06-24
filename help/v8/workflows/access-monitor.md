@@ -4,12 +4,11 @@ title: Erstellen von Workflows mit Adobe Campaign Web
 description: Erfahren Sie, wie Sie Workflows mit Adobe Campaign Web erstellen
 exl-id: 2a9b7e52-2b8b-4293-9b4d-a228ba95bed3
 TQID: https://experienceleague.adobe.com/Xb9IpNhdTmJ3Ho8r8-cWUhVioaSjvMTnFkfk5zexYOA
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
 source-git-commit: 777611699d3d4189cdd7d0d7ded66a9b08cf26cd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 363
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +42,7 @@ Workflows können mehrere Status aufweisen:
 * **[!UICONTROL Entwurf]**: Der Workflow wurde erstellt und gespeichert.
 * **[!UICONTROL In Bearbeitung]**: Der Workflow wird derzeit ausgeführt.
 * **[!UICONTROL Abgeschlossen]**: Die Ausführung des Workflows ist abgeschlossen.
-* **[!UICONTROL Ausgesetzt]**: Der Workflow wurde entweder manuell oder automatisch nach einem Fehler angehalten. Wenn der Workflow aufgrund eines Fehlers angehalten wurde, öffnen Sie ihn und greifen Sie auf die Protokolle und Aufgaben zu, um das Problem zu identifizieren und zu beheben. [Erfahren Sie, wie Sie Protokolle und Aufgaben überwachen.](start-monitor-workflows.md#logs-tasks)
+* **[!UICONTROL Ausgesetzt:]**: Der Workflow wurde entweder manuell oder automatisch nach einem Fehler angehalten. Wenn der Workflow aufgrund eines Fehlers angehalten wurde, öffnen Sie ihn und greifen Sie auf die Protokolle und Aufgaben zu, um das Problem zu identifizieren und zu beheben. [Erfahren Sie, wie Sie Protokolle und Aufgaben überwachen.](start-monitor-workflows.md#logs-tasks)
 
 Ausführliche Informationen zum Starten und Überwachen der Workflow-Ausführung finden Sie auf [dieser Seite](start-monitor-workflows.md).
 

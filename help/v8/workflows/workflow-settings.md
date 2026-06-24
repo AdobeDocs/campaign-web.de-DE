@@ -4,12 +4,11 @@ title: Konfigurieren von Workflow-Einstellungen
 description: Erfahren Sie, wie Sie Workflow-Einstellungen mit Adobe Campaign Web festlegen
 exl-id: 3aef912b-086b-4aa4-9556-c09396112313
 TQID: https://experienceleague.adobe.com/u76tPZP4tkdiIUuXc0yIoIFvy-mEO8JRd-MKYY9J11o
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
 source-git-commit: 8de6db4dc4aa20cfb72a9e9c997f4348fccb2c39
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1070
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -42,8 +41,8 @@ Zu diesen Eigenschaften zählen:
 * Der **[!UICONTROL Titel]** des Workflows, der in der Liste angezeigt wird.
 * Der **[!UICONTROL interne Name]** des Workflows.
 * Der **[!UICONTROL Ordner]**, in dem der Workflow gespeichert werden soll.
-* Die **[!UICONTROL Zeitzone]**, die bei allen Aktivitäten des Workflows verwendet wird. Standardmäßig ist die Zeitzone des Workflows die für den aktuellen Campaign-Benutzer definierte Zeitzone.
-Mögliche Werte sind:
+* Die Standard-**[!UICONTROL Zeitzone]** für alle Aktivitäten des Workflows. Standardmäßig ist die Zeitzone des Workflows die für die bzw. den aktuellen Campaign-Benutzerin oder -Benutzer definierte Zeitzone:
+Folgende Werte sind möglich:
    * **Server-Zeitzone**, um die Zeitzone des Anwendungs-Servers von Adobe Campaign zu verwenden
    * **Benutzer-Zeitzone**, um die Zeitzone der Benutzerin bzw. des Benutzers von Adobe Campaign zu verwenden, die bzw. der den Workflow entsprechend der Definition im Benutzerprofil in der Client-Konsole ausführt.
    * **Zeitzone der Datenbank**, um die Zeitzone des Datenbank-Servers zu verwenden.

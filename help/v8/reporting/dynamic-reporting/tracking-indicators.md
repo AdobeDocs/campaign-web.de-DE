@@ -5,9 +5,9 @@ audience: end-user
 level: Intermediate
 exl-id: cdb41d18-7d92-4128-a29b-70e17b6a3358
 source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '158'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Der Bericht **[!UICONTROL Trackingindikatoren]** enthält die wichtigsten Indika
 
 Die Tabelle **[!UICONTROL Trackingindikatoren]** und das Diagramm **Top 5 Sendungen** enthalten die verfügbaren Daten für das Tracken von E-Mails, z. B.:
 
-* **[!UICONTROL Zugestellt]**: Die Anzahl der erfolgreich gesendeten Nachrichten. Gemeldete Fehler (Bounces) werden abgezogen. Beschwerden (Spam-Deklarationen) und Abwesenheitsnachrichten wie „Abwesend“ werden jedoch nicht berücksichtigt.
+* **[!UICONTROL Zugestellt]**: Die Anzahl der erfolgreich gesendeten Nachrichten. Gemeldete Fehler (Bounces) werden abgezogen. Beschwerden (als Spam gekennzeichnete Nachrichten) und Abwesenheitsnotizen (beispielsweise „Nicht im Büro“) bleiben jedoch eingeschlossen.
 * **Öffnungen**: Die Anzahl der Öffnungen einer Nachricht in einem Versand.
 * **Klicken**: Die Anzahl der Klicks auf einen Inhalt in einem Versand.
 * **Abgemeldet**: Gesamtanzahl der Klicks auf den Abmelde-Link.

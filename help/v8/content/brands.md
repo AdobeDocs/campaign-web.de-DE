@@ -4,16 +4,13 @@ title: Verwalten einer Marke
 description: Erfahren Sie, wie Sie Ihre Markenrichtlinien erstellen und verwalten.
 exl-id: d4d2c6bb-7fd0-49a0-9d73-356f4a24f021
 TQID: https://experienceleague.adobe.com/MAYS264-CrLxRFoLLh8Ph0mujglOSxki7tX5iD2a8rM
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a4671286-a59f-47e3-b97b-90627a1977d5
-topic_v2:
-  - id: e6ff21d3-dec6-4298-8590-7c749fffaf78
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a4671286-a59f-47e3-b97b-90627a1977d5
+topic_v2: id: e6ff21d3-dec6-4298-8590-7c749fffaf78
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 542
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -99,7 +96,7 @@ Benutzende können die Details entweder manuell eingeben oder ein Dokument mit d
 
 Ihre Markenrichtlinien sind jetzt über die Dropdown-Liste **[!UICONTROL Marke]** im Menü des KI-Assistenten verfügbar. Dadurch kann der KI-Assistent Inhalte und Assets generieren, die mit Ihren Spezifikationen übereinstimmen. [Weitere Informationen zum KI-Assistenten](../content/generative-gs.md)
 
-Sie können Ihre Markenrichtlinien auch verwenden, um die Qualität Ihrer Inhalte und die Markenausrichtung zu bewerten. [Erfahren Sie mehr über die Validierung der Inhaltsqualität](brands-score.md#validate-quality)
+Sie können Ihre Markenrichtlinien auch verwenden, um die Qualität Ihrer Inhalte und die Markenausrichtung zu bewerten. [Weitere Informationen zur Qualitätsprüfung von Inhalten](brands-score.md#validate-quality)
 
 ![Menü des KI-Assistenten mit Dropdown-Liste „Marke“](assets/brands_6.png)
 

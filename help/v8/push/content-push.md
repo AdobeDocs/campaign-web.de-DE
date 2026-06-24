@@ -4,11 +4,10 @@ title: Erstellen eines Push-Benachrichtigungs-Versands
 description: Erfahren Sie, wie Sie einen Push-Benachrichtigungs-Versand mit Adobe Campaign Web erstellen
 exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
 TQID: https://experienceleague.adobe.com/G8sMnMSpcXFaVpdkKIkp8Yhmu6fxOiSHdl4icd2z4P8
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
-source-wordcount: 1657
+workflow-type: ht
+source-wordcount: 1615
 ht-degree: 100%
 
 ---
@@ -52,8 +51,8 @@ Bei Firebase Cloud Messaging stehen Ihnen zwei Nachrichtentypen zur Auswahl:
 
 * Die **[!UICONTROL Datenmeldung]** wird von der Client-App verarbeitet. Diese Meldungen werden direkt an die App gesendet, die auf dem Gerät eine Android-Benachrichtigung generiert und anzeigt. Datennachrichten enthalten nur die von Ihnen definierten Anwendungsvariablen.
 
-  Um den Inhalt zu definieren, Daten zu personalisieren und dynamische Inhalte hinzuzufügen, klicken Sie auf das Feld **[!UICONTROL Nachricht]** und verwenden Sie den Ausdruckseditor. Greifen Sie auf diesen Editor zu, um Ihre Nachrichten anzupassen.
-Ihre Anwendungsvariablen werden automatisch im Menü **[!UICONTROL Anwendungsvariablen]** hinzugefügt. Mit diesen Variablen können Sie das Verhalten von Benachrichtigungen definieren. Konfigurieren Sie beispielsweise einen bestimmten Anwendungsbildschirm, der angezeigt wird, wenn die Benutzerin oder der Benutzer die Benachrichtigung aktiviert.
+  Um den Inhalt zu definieren, Daten zu personalisieren und dynamische Inhalte hinzuzufügen, klicken Sie auf das Feld **[!UICONTROL Nachricht]** und verwenden Sie den Ausdruckseditor. Rufen Sie diesen Editor auf, um Ihre Nachrichten anzupassen.
+Im Menü **[!UICONTROL Anwendungsvariablen]** werden Ihre Anwendungsvariablen automatisch hinzugefügt. Mit diesen Variablen können Sie das Verhalten von Benachrichtigungen definieren. Konfigurieren Sie beispielsweise einen bestimmten Anwendungsbildschirm, der angezeigt werden soll, wenn Benutzende die Benachrichtigung aktivieren.
 
   ![Beschreibung: Beispiel für das Definieren von Inhalten für eine Datennachricht in Android-Benachrichtigungen](assets/push_content_4.png){zoomable="yes"}
 

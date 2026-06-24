@@ -7,20 +7,15 @@ role: User
 level: Beginner
 exl-id: 803a20ac-e75f-45c6-af89-054b84eb3405
 TQID: https://experienceleague.adobe.com/zYZcNQ5MrJD4uzlHbZCRcMN7kg6AIb9R-84yEhhCjfs
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 8de6db4dc4aa20cfb72a9e9c997f4348fccb2c39
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 986
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -124,18 +119,18 @@ Nachdem der Nachrichteninhalt definiert wurde, können Sie eine Vorschau davon a
 
 Sie können für das Senden Ihrer Nachrichten das Datum und die genaue Uhrzeit festlegen. Durch die Auswahl des für Ihre Marketing-Nachricht am besten geeigneten Zeitpunkts können Sie die Öffnungsraten maximieren.
 
-Gehen Sie wie folgt vor, um den Versand eines Versands zu planen:
+Gehen Sie wie folgt vor, um die Durchführung eines Versands zu planen:
 
-1. Öffnen Sie den Versand und navigieren Sie zum Abschnitt **[!UICONTROL Zeitplan]** .
+1. Öffnen Sie den Versand und navigieren Sie zum Abschnitt **[!UICONTROL Zeitplan]**.
 1. Betätigen Sie den Umschalter, um **[!UICONTROL Planung aktivieren]** zu aktivieren.
-1. Klicken Sie **[!UICONTROL Feld &quot;]**&quot; auf das Kalendersymbol und legen Sie das gewünschte Datum und die gewünschte Uhrzeit für den Versand fest.
-1. Wählen **[!UICONTROL im Feld]** die gewünschte Zeitzone aus dem Dropdown-Menü aus.
+1. Klicken Sie im Feld **[!UICONTROL Kontaktdatum]** auf das Kalendersymbol und legen Sie Datum und Uhrzeit für den Versand fest.
+1. Wählen Sie im Feld **[!UICONTROL Zeitzone]** die gewünschte Zeitzone aus dem Dropdown-Menü aus.
 
 Nach dem Versand beginnt der eigentliche Versand am von Ihnen definierten Kontaktdatum.
 
 ![Screenshot der Planungsbenutzeroberfläche für einen Versand](assets/schedule.png){zoomable="yes"}
 
-Standardmäßig ist die Option **[!UICONTROL Bestätigung vor dem Senden aktivieren]** aktiviert. Für diese Option müssen Sie den Versand bestätigen, bevor der Versand zum geplanten Datum gesendet wird. Wenn Sie den Versand automatisch zum geplanten Datum und zur geplanten Uhrzeit senden müssen, können Sie diese Option deaktivieren.
+Standardmäßig ist die Option **[!UICONTROL Bestätigung vor dem Senden aktivieren]** aktiviert. Für diese Option müssen Sie das Senden bestätigen, bevor der Versand zum geplanten Zeitpunkt gesendet wird. Wenn Sie den Versand automatisch zum geplanten Zeitpunkt durchführen müssen, können Sie diese Option deaktivieren.
 
 Erfahren Sie Schritte für die Durchführung eines zeitlich geplanten Versands in [diesem Abschnitt](../monitor/prepare-send.md#schedule-the-send).
 

@@ -4,12 +4,11 @@ description: Erfahren Sie, wie Sie in Campaign Web Landingpage-spezifische Inhal
 feature: Landing Pages
 exl-id: 6ca3c8c1-3633-4e3f-a9a1-f46ae27c5c8a
 TQID: https://experienceleague.adobe.com/Q9tP0Cf1np2-49fxWzaqEwfqiTX4UIfUV4evNCd3PLM
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1170
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -91,7 +90,7 @@ Um bestimmte Inhalte zu definieren, mit denen Benutzende ihre Auswahl auf Ihrer 
    * **[!UICONTROL Ja, wenn aktiviert]**
    * **[!UICONTROL Nein, wenn aktiviert]**
 
-1. Löschen Sie beliebig viele Felder (z. B. Textfelder, Optionsschaltflächen, Kontrollkästchen, Dropdown-Listen usw.) und fügen Sie sie hinzu. nach Bedarf.
+1. Sie können beliebig viele Felder (z. B. Textfelder, Optionsfelder, Kontrollkästchen, Dropdown-Listen usw.) löschen oder hinzufügen.
 
 1. Nachdem alle Felder hinzugefügt oder aktualisiert wurden, klicken Sie auf **[!UICONTROL Handlungsaufforderung]**, um den entsprechenden Abschnitt zu erweitern. Damit können Sie das Verhalten der Schaltfläche in der **[!UICONTROL Formularkomponente]** festlegen. [Weitere Informationen](#define-actions-on-form-submission)
 
@@ -154,7 +153,7 @@ Gehen Sie wie folgt vor, um nach dem Einreichen einer Landingpage automatisch ei
 
    ![Stileinstellungen für Kontrollkästchen](assets/lp-checkbox-style.png){zoomable="yes"}
 
-1. Erweitern und bearbeiten Sie jeden anderen Abschnitt, der anderen von Ihnen hinzugefügten Feldern entspricht (Optionsfeld, Dropdown-Liste, Datum und Uhrzeit usw.) in Ihr Formular.
+1. Erweitern und bearbeiten Sie alle anderen Abschnitte, die anderen ggf. von Ihnen zum Formular hinzugefügten Feldern entsprechen (Optionsfeld, Dropdown-Liste, Datum, Uhrzeit usw.).
 
 1. Erweitern Sie den Abschnitt **[!UICONTROL Handlungsaufforderung]**, um das Erscheinungsbild der Schaltfläche im Komponentenformular zu ändern. Ändern Sie beispielsweise die Schrift, fügen Sie einen Rahmen hinzu, bearbeiten Sie die Label-Farbe beim Bewegen des Mauszeigers oder passen Sie die Ausrichtung der Schaltfläche an.
 

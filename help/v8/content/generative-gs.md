@@ -4,14 +4,12 @@ title: Erste Schritte mit dem KI-Assistenten
 description: Erste Schritte mit dem KI-Assistenten
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
 TQID: https://experienceleague.adobe.com/jpw4u-Vy7M2Q9qRyQ2J3rJ-Mr8UKLUpxhw39tglbbNc
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 887
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +37,7 @@ ht-degree: 84%
 
 Da die Marketing-Branche immer wettbewerbsintensiver wird, suchen Marken nach effizienten Wegen, um wirkungsvolle Inhalte schnell zu erstellen. Der KI-Assistent in Adobe Campaign Web basiert auf Microsoft Azure OpenAI und Adobe Firefly. Er ist das Angebot von Adobe zur KI-gestützten Generierung von Inhalten und transformiert die Erstellung professioneller und markenkonformer Inhalte für verschiedene Kanäle wie E-Mail, SMS und Push. Mit fortschrittlichen GenAI-Modellen und einem tiefgreifenden Verständnis der Markenrichtlinien generiert der KI-Assistent automatisch personalisierte, ansprechende und effektive Inhalte auf der Grundlage des Marketing-Ziels, wobei die Inhalte für die von der Marke vorgegebenen Stile, Layouts, die Tonalität und mehr optimiert sind.
 
-Der KI-Assistent unterstützt die Generierung **in mehreren Sprachen** sodass Sie unterschiedliche globale Zielgruppen erreichen und ansprechen können. Der KI-Assistent ist in den folgenden Sprachen verfügbar:
+Der KI-Assistent unterstützt die Generierung **in mehreren Sprachen**, sodass Sie unterschiedliche globale Zielgruppen erreichen und ansprechen können. Der KI-Assistent ist in den folgenden Sprachen verfügbar:
 
 <table style="table-layout:fixed; margin-top: 0px; margin-bottom: 0px;">
   <tbody>
@@ -84,9 +82,9 @@ Der KI-Assistent vereinfacht die Erstellung und Durchführung von Marketing-Kamp
 
 Der KI-Assistent für E-Mails, Push-Benachrichtigungen, Landingpages und SMS ist nun allgemein für alle Benutzenden verfügbar. Die erforderlichen Berechtigungen und Schritte zum Gewähren des Zugriffs für Benutzende werden nachfolgend beschrieben.
 
-+++ Erfahren Sie, wie Sie Berechtigungen zum Erzeugen von Inhalten zuweisen
++++ Erfahren Sie, wie Sie Berechtigungen für die Inhaltserstellung zuweisen
 
-1. **Rufen Sie [Admin Console](https://adminconsole.adobe.com/)** auf, navigieren Sie zum Menü **Produkte** und wählen Sie dann **Adobe Campaign Managed Cloud** aus.
+1. **Rufen Sie die [Admin Console](https://adminconsole.adobe.com/)** auf, navigieren Sie zum Menü **Produkte** und wählen Sie dann **Adobe Campaign Managed Cloud** aus.
 
 1. Greifen Sie auf die Instanz zu, für die Sie Berechtigungen erteilen möchten, und klicken Sie dann auf **Neues Profil**, um ein neues Produktprofil mit dem folgenden spezifischen Produktprofilnamen zu erstellen:
 
@@ -94,9 +92,9 @@ Der KI-Assistent für E-Mails, Push-Benachrichtigungen, Landingpages und SMS ist
 
 1. Richten Sie das Produktprofil mit den erforderlichen Berechtigungen für den Zugriff auf den KI-Assistenten ein.
 
-1. **Benutzer oder Benutzergruppen hinzufügen**. Wählen Sie eine der folgenden Optionen:
-   * **Einzelne Benutzer hinzufügen**: Fügen Sie die erforderlichen Benutzer direkt zum Produktprofil hinzu.
-   * **Benutzergruppen hinzufügen**: Erstellen Sie eine Benutzergruppe, fügen Sie dieser Gruppe Benutzer hinzu und fügen Sie dann die Benutzergruppe zum Produktprofil hinzu.
+1. **Fügen Sie Benutzende oder Benutzergruppen hinzu**. Wählen Sie eine der folgenden Optionen:
+   * **Einzelne Benutzer hinzufügen:** Fügen Sie diesem Produktprofil die erforderlichen Benutzenden direkt hinzu.
+   * **Benutzergruppen hinzufügen:** Erstellen Sie eine Benutzergruppe, fügen Sie dieser Gruppe Benutzende hinzu und fügen Sie die Benutzergruppe dann dem Produktprofil hinzu.
 
 Informationen zum Definieren von Berechtigungen in Campaign finden Sie in [diesem Abschnitt](../get-started/permissions.md).
 

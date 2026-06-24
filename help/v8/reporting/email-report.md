@@ -4,19 +4,13 @@ title: E-Mail-Versandberichte
 description: Erfahren Sie, wie Sie auf E-Mail-Versandberichte zugreifen und diese verwenden können
 exl-id: 2a0bd3e9-5d75-47c8-bd6a-b3e0b1ce0a01
 TQID: https://experienceleague.adobe.com/Pmd2So-q8JbSJs9dMLqpxJv8s0js59AsEJDhvf5kZmQ
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 2481
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -46,7 +40,7 @@ Bewegen Sie den Mauszeiger über einen Abschnitt des Graphen, um die genaue Zahl
 
 ![Screenshot eines Diagramms, auf dem ein Mauszeiger über einen Abschnitt bewegt wird, um die genaue Zahl anzuzeigen](assets/reporting_email_1.1.png){zoomable="yes"}
 
-+++Erfahren Sie mehr über die Metriken des E-Mail-Versandberichts.
++++Weitere Informationen zu den Metriken „E-Mail-Versandbericht“.
 
 * **[!UICONTROL Ursprüngliche Zielgruppe]**: Gesamtzahl der Zielgruppenempfängerinnen und -empfänger.
 
@@ -89,7 +83,7 @@ Der Graph und die Tabelle zu den **[!UICONTROL Ausschlussgründen]** zeigen die 
 
 ![Screenshot des Diagramms und der Tabelle mit den Ausschlussgründen](assets/reporting_email_3.png){zoomable="yes"}{align="center" zoomable="yes"}
 
-+++Erfahren Sie mehr über die Metriken des E-Mail-Versandberichts.
++++Weitere Informationen zu den Metriken „E-Mail-Versandbericht“.
 
 * **[!UICONTROL Unbekannter Nutzer]**: Fehlertyp, der während des Versands erzeugt wird, um anzuzeigen, dass die E-Mail-Adresse ungültig ist.
 
@@ -130,7 +124,7 @@ Die Tabelle **[!UICONTROL Broadcast-Statistiken]** enthält die verfügbaren Dat
 
 ![Screenshot der Versandstatistiken](assets/reporting_email_4.png){zoomable="yes"}{align="center" zoomable="yes"}
 
-+++Erfahren Sie mehr über die Metriken des E-Mail-Versandberichts.
++++Weitere Informationen zu den Metriken „E-Mail-Versandbericht“.
 
 * **[!UICONTROL Verarbeitete E-Mails]**: Gesamtzahl der Nachrichten, die vom Versand-Server verarbeitet wurden.
 
@@ -167,7 +161,7 @@ Die in diesem Bericht angezeigten Fehler lösen einen Quarantäneprozess aus. We
 
 ![Screenshot der Aufschlüsselung der Fehler nach Typ](assets/campaign_report_email_6.png){zoomable="yes"}{align="left" zoomable="yes"}
 
-+++Erfahren Sie mehr über die Metriken des E-Mail-Versandberichts.
++++Weitere Informationen zu den Metriken „E-Mail-Versandbericht“.
 
 * **[!UICONTROL Unbekannter Nutzer]**: Fehlertyp, der während des Versands erzeugt wird, um anzuzeigen, dass die E-Mail-Adresse ungültig ist.
 
@@ -228,7 +222,7 @@ Der Bericht **[!UICONTROL Versandstatistiken]** bietet wichtige Performance-Indi
 
 ![Screenshot der Versandstatistiken](assets/reporting_email_5.png){zoomable="yes"}{align="center"}
 
-+++Erfahren Sie mehr über die Metriken des E-Mail-Versandberichts.
++++Weitere Informationen zu den Metriken „E-Mail-Versandbericht“.
 
 * **[!UICONTROL Erfolg]**: Anzahl der erfolgreich verarbeiteten Nachrichten im Verhältnis zur Anzahl der zu versendenden Nachrichten.
 
@@ -256,7 +250,7 @@ Die Tabelle **[!UICONTROL Öffnungs- und Clickthrough-Rate]** zeigt Daten zu Ihr
 
 ![Screenshot der Tabelle „Öffnungs- und Clickthrough-Rate“](assets/reporting_email_6.png){zoomable="yes"}{align="center"}
 
-+++Erfahren Sie mehr über die Metriken des E-Mail-Versandberichts.
++++Weitere Informationen zu den Metriken „E-Mail-Versandbericht“.
 
 * **[!UICONTROL Gesendet]**: Gesamtzahl der gesendeten Nachrichten.
 
@@ -281,7 +275,7 @@ Der Bericht **[!UICONTROL URLs und Clickstreams]** bietet wichtige Performance-I
 
 ![Screenshot des Berichts „URLs und Clickstreams“](assets/reporting_email_7.png){zoomable="yes"}{align="center"}
 
-+++Erfahren Sie mehr über die Metriken des E-Mail-Versandberichts.
++++Weitere Informationen zu den Metriken „E-Mail-Versandbericht“.
 
 * **[!UICONTROL Reaktionsrate]**: Verhältnis der Anzahl an Zielgruppenempfängerinnen und -empfängern, die auf einen Versand geklickt haben, in Bezug zur geschätzten Anzahl der Zielgruppenempfängerinnen und -empfänger, die einen Versand geöffnet haben.
 
@@ -289,7 +283,7 @@ Der Bericht **[!UICONTROL URLs und Clickstreams]** bietet wichtige Performance-I
 
 * **[!UICONTROL Klicks]**: Gesamtzahl der Klicks auf Links in Sendungen.
 
-* **[!UICONTROL Plattform-Durchschnitt]**: Dieser unter jeder Rate (Reaktivität, Unique Clicks und Klicks insgesamt) angezeigte Wert bezieht sich auf die Gesamtheit der in den letzten sechs Monaten gesendeten Sendungen. Es werden nur Sendungen mit derselben Typologie und mit demselben Kanal berücksichtigt. Testsendungen sind ausgeschlossen.
+* **[!UICONTROL Plattform-Durchschnitt]**: Dieser Durchschnittswert, der unter jeder Rate (Reaktivität, Einzelklicks und Klicks insgesamt) angezeigt wird, wird für die in den letzten sechs Monaten gesendeten Sendungen berechnet. Es werden nur Sendungen mit derselben Typologie und mit demselben Kanal berücksichtigt. Testsendungen sind ausgeschlossen.
 
 +++
 
@@ -306,7 +300,7 @@ Der Graph und die Tabelle zu den **[!UICONTROL 10 meistbesuchten Links]** enthal
 
 ![Screenshot des Diagramms „Die 10 meistbesuchten Links“](assets/reporting_email_8.png){zoomable="yes"}{align="center"}
 
-+++Erfahren Sie mehr über die Metriken des E-Mail-Versandberichts.
++++Weitere Informationen zu den Metriken „E-Mail-Versandbericht“.
 
 * **[!UICONTROL Klicks]**: Gesamtzahl der Klicks auf Links in Sendungen.
 
@@ -338,7 +332,7 @@ Der Bericht **[!UICONTROL Benutzeraktivitäten]** zeigt die Aufschlüsselung der
 
 ![Screenshot des Berichts „Nutzeraktivitäten“](assets/reporting_email_10.png){zoomable="yes"}{align="center"}
 
-+++Erfahren Sie mehr über die Metriken des E-Mail-Versandberichts.
++++Weitere Informationen zu den Metriken „E-Mail-Versandbericht“.
 
 * **[!UICONTROL Klicks]**: Gesamtzahl der Klicks auf Links in Sendungen.
 
@@ -357,7 +351,7 @@ Das Diagramm **[!UICONTROL Tracking-Statistiken]** liefert Statistiken über Öf
 
 ![Screenshot des Diagramms „Tracking-Statistiken“](assets/reporting_email_11.png){zoomable="yes"}{align="center"}
 
-+++Erfahren Sie mehr über die Metriken des E-Mail-Versandberichts.
++++Weitere Informationen zu den Metriken „E-Mail-Versandbericht“.
 
 * **[!UICONTROL Klicks]**: Gesamtzahl der Klicks auf Links in Sendungen.
 
@@ -415,6 +409,6 @@ Für jede Kategorie werden zwei Diagramme verwendet. Das erste zeigt Statistiken
 >title="Hotclicks-Bericht"
 >abstract="Der Bericht **Hotclicks** zeigt den E-Mail-Inhalt (HTML und/oder Text) mit dem prozentualen Klickanteil für jeden Link. Gestaltungsbausteine, Abmelde-Links, Mirrorseiten-Links und Angebots-Links werden bei der Gesamtanzahl der Klicks berücksichtigt, jedoch nicht im Bericht angezeigt."
 
-Dieser Bericht zeigt den Nachrichteninhalt (HTML und/oder Text) mit dem prozentualen Anteil der Klicks auf Links für jeden Link. Gestaltungsbausteine, Abmelde-Links, Mirrorseiten-Links und Angebots-Links werden bei der Gesamtanzahl der Klicks berücksichtigt, jedoch nicht im Bericht angezeigt.
+Dieser Bericht zeigt den Nachrichteninhalt (HTML und/oder Text) mit dem prozentualen Klickanteil für jeden Link. Gestaltungsbausteine, Abmelde-Links, Mirrorseiten-Links und Angebots-Links werden bei der Gesamtanzahl der Klicks berücksichtigt, jedoch nicht im Bericht angezeigt.
 
 ![Screenshot des Berichts „Hotclicks“](assets/reporting11.png){zoomable="yes"}

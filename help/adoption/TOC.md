@@ -6,8 +6,8 @@ user-guide-description: Campaign Standard-Benutzende, die zu Campaign v8 wechsel
 description: Campaign Standard-Benutzende erfahren mehr über die ersten Schritte mit Campaign v8.
 breadcrumb-title: Einführungsleitfaden für Campaign
 source-git-commit: aaf74b9c924c7c0bb3150478e812aec71c579c40
-workflow-type: tm+mt
-source-wordcount: '70'
+workflow-type: ht
+source-wordcount: '87'
 ht-degree: 100%
 
 ---

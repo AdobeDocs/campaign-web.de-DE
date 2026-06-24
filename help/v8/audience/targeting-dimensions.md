@@ -3,16 +3,13 @@ title: Zielgruppenbestimmungs- und Filterdimensionen
 description: Erfahren Sie mehr über Zielgruppen- und Filterdimensionen in der Adobe Campaign Web-Benutzeroberfläche
 exl-id: b910649a-7300-4f99-8f40-3a8965572ee9
 TQID: https://experienceleague.adobe.com/MhYxb45yBenENo-YGBuRDE28l-0Rq891a5PyTS2FlFQ
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
-subfeature_v2:
-  - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+subfeature_v2: id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 587
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -53,7 +50,7 @@ Erstellen Sie außerdem neue Zielgruppen-Mappings basierend auf bestimmten Anfor
 
 ## Filterdimensionen {#filtering}
 
-Mit der Zielgruppendimension können Sie die Population definieren, auf die sich der Vorgang bezieht: Empfängerinnen und Empfänger, Vertragsbegünstigte, Benutzerinnen und Benutzer, Abonnentinnen und Abonnenten usw. Mit der Filterdimension können Sie Filter auf diese Population anwenden, indem Sie auf verwandte Daten verweisen, ohne die Hauptzielgruppendimension zu ändern. Sie können beispielsweise die Population anhand bestimmter Kriterien wie Vertragsinhabende oder Newsletter-Abonnierende auswählen.
+Mit der Zielgruppendimension können Sie die durch den Vorgang angesprochene Population definieren: Empfangende, Vetragsbegünstigte, Benutzende, Abonnierende etc. Mit der Filterdimension können Sie Filter auf diese Population anwenden, indem Sie auf zugehörige Daten verweisen, ohne die Hauptzielgruppendimension zu ändern. Sie können beispielsweise die Population anhand bestimmter Kriterien wie Vertragsinhabende oder Newsletter-Abonnierende auswählen.
 
 Filterdimensionen sind nur in der Aktivität **Zielgruppe erstellen** verfügbar.
 

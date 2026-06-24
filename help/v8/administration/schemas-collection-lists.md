@@ -1,18 +1,19 @@
 ---
 title: Hinzufügen von Sammlungslisten
-description: Erfahren Sie, wie Sie Sammlungslisten hinzufügen, um zugehörige Daten in Profilbildern anzuzeigen.
-source-git-commit: 28f7bcf5f65671136be25c79b414f149532b749f
-workflow-type: tm+mt
+description: Erfahren Sie, wie Sie Sammlungslisten hinzufügen, um zugehörige Daten in Profilbildschirmen anzuzeigen.
+exl-id: 5ae68741-146c-4e0f-b451-c32e9a2290f8
+source-git-commit: 9d7ff3bc648567640ef501bff2228e5c6cff25bc
+workflow-type: ht
 source-wordcount: '185'
-ht-degree: 45%
+ht-degree: 100%
 
 ---
 
 # Hinzufügen von Sammlungslisten {#collection-lists}
 
-Im **Liste benutzerdefinierter Listen** können Sie Sammlungslinks definieren, z. B. Käufe. Die zugehörigen Daten werden dann über eine dedizierte Registerkarte auf Profilbildschirmen angezeigt.
+Im Abschnitt **Liste der benutzerdefinierten Listen** können Sie Sammlungs-Links definieren, z. B. Käufe. Die zugehörigen Daten werden dann über eine dedizierte Registerkarte auf Profilbildschirmen angezeigt.
 
-Weitere Informationen zum Bildschirm-Definitionsbildschirm und zum Zugriff darauf finden Sie im Abschnitt [Zugriff auf die Bildschirmdefinition](schemas-browse-access.md#screen-def).
+Weitere Informationen zum Bildschirm „Bildschirmdefinition“ und zum Zugriff darauf finden Sie im Abschnitt [Zugreifen auf die Bildschirmdefinition](schemas-browse-access.md#screen-def).
 
 >[!NOTE]
 >
@@ -22,7 +23,7 @@ Hinzufügen von Sammlungslisten:
 
 1. Navigieren Sie zum Menü **[!UICONTROL Schemata]** und suchen Sie mithilfe der Filter nach bearbeitbaren Schemata.
 
-1. Wählen Sie den Schemanamen in der Liste aus, um ihn zu öffnen, und klicken Sie in der Ansicht mit den Schemadetails auf **&#x200B;**&#x200B;Bildschirmbearbeitung“, um auf die Bildschirmdefinition zuzugreifen.
+1. Wählen Sie den Schemanamen in der Liste aus, um das Schema zu öffnen, und klicken Sie in der Ansicht der Schemadetails auf die Schaltfläche **[!UICONTROL Bildschirmbearbeitung]**, um die Bildschirmdefinition aufzurufen.
 
 1. Klicken Sie auf das Symbol mit den Auslassungspunkten und wählen Sie **[!UICONTROL Benutzerdefinierte Listen auswählen]**.
 

@@ -4,12 +4,11 @@ title: Erstellen von Workflows mit Adobe Campaign Web
 description: Erfahren Sie, wie Sie Workflows mit Adobe Campaign Web erstellen
 exl-id: 0c8e2158-518c-4620-9971-00ed2eccdd4f
 TQID: https://experienceleague.adobe.com/D9lkZe8AvBCas-wt-Fe6GLaAoBR-JJNfAHSrRrpkP-w
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1326
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +41,7 @@ Um eine Aktivität zu entfernen, wählen Sie sie auf der Arbeitsfläche aus und 
 Die Symbolleiste oben rechts in der Arbeitsfläche bietet Optionen zum einfachen Bearbeiten der Aktivitäten und Navigieren auf der Arbeitsfläche:
 
 * **Mehrfachauswahl-Modus**: Wählen Sie mehrere Aktivitäten aus, um sie alle gleichzeitig zu löschen oder zu kopieren/einzufügen. Siehe [diesen Abschnitt](#copy).
-* **Verzweigung hinzufügen**: Klicken Sie auf die Schaltfläche **+** in der Symbolleiste, um eine separate Ausführungsverzweigung auf der Arbeitsfläche zu erstellen. Das Ergebnis entspricht der Verwendung eines [Verzweigung](activities/fork.md) für parallele Pfade, das Diagramm ist jedoch grafisch klarer.
+* **Verzweigung hinzufügen**: Klicken Sie in der Symbolleiste auf die Schaltfläche **+**, um eine separate Ausführungsverzweigung auf der Arbeitsfläche zu erstellen. Das Ergebnis entspricht der Verwendung einer [Verzweigung](activities/fork.md) für parallele Pfade, das Diagramm ist jedoch grafisch klarer.
 * **Drehen**: Dreht die Arbeitsfläche vertikal.
 * **An Bildschirm anpassen**: Passt die Vergrößerung der Arbeitsfläche an Ihren Bildschirm an.
 * **Verkleinern**/**Vergrößern**: Verkleinert bzw. vergrößert die Arbeitsfläche.

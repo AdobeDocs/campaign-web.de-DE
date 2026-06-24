@@ -3,12 +3,11 @@ title: Anwendungsfälle für den KI-Assistenten
 description: Erfahren Sie anhand von Anwendungsfällen, wie Sie den KI-Assistenten verwenden.
 exl-id: ead51ef0-f7ba-4bc4-8d4a-f6a6d1df6a0f
 TQID: https://experienceleague.adobe.com/WcuIJGn2iv3OY8MT5qQ8sYiQ1zNbPd55hCmAi-dQUeQ
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1244
-ht-degree: 51%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +21,7 @@ ht-degree: 51%
 
 ![Demonstration der Wiederverwendung vorhandener Inhalte mit dem KI-Assistenten](assets/do-not-localize/gen-ai-reuse-text.gif)
 
-Erzeugen Sie Varianten aus dem Inhalt und Kontext, die bereits in Ihrer Kampagne vorhanden sind, damit sie mit Ihrer Nachricht und Audience konsistent bleiben.
+Erzeugen Sie Varianten aus den Inhalten und dem Kontext, die bereits in Ihrer Kampagne vorhanden sind, damit sie mit Ihrer Nachricht und Zielgruppe konsistent bleiben.
 
 1. Wählen Sie nach der Einrichtung Ihres Versands die Option **[!UICONTROL Inhalt bearbeiten]** aus.
 
@@ -42,7 +41,7 @@ Bereiten Sie den Versand vor, nachdem Sie Inhalt, Zielgruppe und Zeitplan defini
 
 ![Demonstration der Verfeinerung von Inhaltsvarianten mit dem KI-Assistenten](assets/do-not-localize/gen-ai-variation.gif)
 
-Passen Sie eine KI-generierte Variante an Ort, Ton, Länge, Wortlaut und Strategie an, bevor Sie den endgültigen Text auswählen.
+Passen Sie eine KI-generierte Variante in Ort, Ton, Länge, Wortlaut und Strategie an, bevor Sie den endgültigen Text auswählen.
 
 1. Wenn Ihr Versand eingerichtet und konfiguriert ist, klicken Sie auf **[!UICONTROL Inhalt bearbeiten]**.
 
@@ -74,7 +73,7 @@ Passen Sie eine KI-generierte Variante an Ort, Ton, Länge, Wortlaut und Strateg
 
 ![Demonstration der Generierung ähnlicher Bilder mit dem KI-Assistenten](assets/do-not-localize/uc-image-similar.gif)
 
-Wenn ein Bild nahezu geeignet ist, generieren Sie zusätzliche Optionen, die dasselbe Gesamterscheinungsbild und Design beibehalten.
+Wenn ein Bild fast geeignet ist, generieren Sie zusätzliche Optionen, die dasselbe Gesamterscheinungsbild und Thema beibehalten.
 
 1. Wählen Sie nach der Einrichtung Ihres Versands die Option **[!UICONTROL Inhalt bearbeiten]** aus.
 
@@ -122,7 +121,7 @@ Laden Sie ein Referenzbild hoch, damit die neuen Visualisierungen dem gewünscht
 
 ![Animierte Demonstration des KI-Assistenten, der Inhalte in mehreren Sprachen generiert, einschließlich Französisch, Spanisch und Deutsch](assets/do-not-localize/ai-language.gif)
 
-Erstellen Sie Text in den vom KI-Assistenten unterstützten Sprachen, indem Sie Ihre Eingabeaufforderung mit expliziten Spracheinstellungen kombinieren.
+Erstellen Sie Text in den vom KI-Assistenten unterstützten Sprachen, indem Sie Ihren Prompt mit expliziten Spracheinstellungen kombinieren.
 
 1. Wenn Ihr Versand eingerichtet und konfiguriert ist, klicken Sie auf **[!UICONTROL Inhalt bearbeiten]**.
 
@@ -142,89 +141,89 @@ Erstellen Sie Text in den vom KI-Assistenten unterstützten Sprachen, indem Sie 
 
 ![Animierte Demonstration des KI-Assistenten zur Inhaltserstellung mit Referenzinhalten](assets/do-not-localize/gen-url.gif)
 
-Sie können dem KI-Assistenten mehr Kontext geben, indem Sie **Referenzinhalte** eine Web-Seite oder hochgeladene Dateien hinzufügen, sodass generierte Kopien und Vorschläge näher an Ihrem Quellmaterial bleiben.
+Sie können dem KI-Assistenten mehr Kontext geben, indem Sie **Referenzinhalte**, eine Web-Seite oder hochgeladene Dateien hinzufügen, sodass generierte Kopien und Vorschläge näher an Ihrem Quellmaterial bleiben.
 
-1. Wenn Ihre Kampagne fertig ist, klicken Sie auf **[!UICONTROL Inhalt bearbeiten]**.
+1. Wenn Ihre Kampagne bereit ist, klicken Sie auf **[!UICONTROL Inhalt bearbeiten]**.
 
-1. Öffnen Sie **[!UICONTROL KI-Assistent]**.
+1. Öffnen Sie den **[!UICONTROL KI-Assistenten]**.
 
-1. Beschreiben Sie im Feld **[!UICONTROL Eingabeaufforderung]**, was Sie möchten.
+1. Beschreiben Sie im Feld **[!UICONTROL Prompt]**, was Sie haben möchten.
 
-1. Geben **[!UICONTROL unter „Referenzinhalt]** die Seiten-URL und einen Namen ein, der sie identifiziert.
+1. Geben Sie unter **[!UICONTROL Referenzinhalt]** die Seiten-URL und einen Namen ein, der sie identifiziert.
 
-1. Klicken Sie ![Upload-Symbol](assets/do-not-localize/Smock_UploadToCloudOutline_18_N.svg), um die Seite abzurufen und als Referenzinhalt für die Generierung hinzuzufügen.
+1. Klicken Sie auf das ![Upload-Symbol](assets/do-not-localize/Smock_UploadToCloudOutline_18_N.svg), um die Seite abzurufen und als Referenzinhalt für die Generierung hinzuzufügen.
 
-1. Um stattdessen eine Datei zu verwenden, wählen Sie **[!UICONTROL Option Datei hochladen]** und wählen Sie Ihr Dokument aus. Unterstützte Formate sind .pdf, .png, .jpg, .jpeg, .zip, .md, .doc, .txt und .docx.
+1. Um stattdessen eine Datei zu verwenden, wählen Sie die Option **[!UICONTROL Datei hochladen]** und wählen Sie Ihr Dokument aus. Unterstützte Formate sind .pdf, .png, .jpg, .jpeg, .zip, .md, .doc, .txt und .docx.
 
-1. Aktivieren **[!UICONTROL in „Hochgeladene]**&quot; einzelne Verweise, deaktivieren oder löschen Sie nicht mehr benötigte.
+1. Aktivieren oder deaktivieren Sie unter **[!UICONTROL Hochgeladener Referenzinhalt]** einzelne Verweise oder löschen Sie nicht mehr benötigte.
 
-1. Passen Sie bei Bedarf Ihre Eingabeaufforderung an und klicken Sie dann auf **[!UICONTROL Generieren]**.
+1. Passen Sie bei Bedarf Ihren Prompt an und klicken Sie dann auf **[!UICONTROL Generieren]**.
 
-1. Überprüfen Sie **[!UICONTROL Variantenvorschläge]** und klicken Sie auf **[!UICONTROL Auswählen]** die Variante, die Sie verwenden möchten.
+1. Überprüfen Sie **[!UICONTROL Variantenvorschläge]** und klicken Sie für die gewünschte Variante auf **[!UICONTROL Auswählen]**.
 
-## Generatives Modell verwenden {#generative-model}
+## Verwenden des generativen Modells {#generative-model}
 
 ![Animierte Demonstration des KI-Assistenten zur Inhaltserstellung mit benutzerdefiniertem Modell](assets/do-not-localize/gen-ai-model.gif)
 
-Registrieren Sie ein benutzerdefiniertes generatives Modell und leiten Sie die Bilderzeugung über den KI-Assistenten weiter.
+Registrieren Sie ein benutzerdefiniertes generatives Modell und leiten Sie vom KI-Assistenten aus die Bildgenerierung daran weiter.
 
 1. Öffnen Sie im Menü **[!UICONTROL Marken]** die Registerkarte **[!UICONTROL Generative Modelle]** und klicken Sie auf **[!UICONTROL Modell hinzufügen]**.
 
-1. Geben Sie einen **[!UICONTROL Namen]** für das Modell und die **[!UICONTROL Modell-ID]** ein.
+1. Geben Sie einen **[!UICONTROL Namen]** und die **[!UICONTROL Modell-ID]** für das Modell ein.
 
-1. Geben Sie optional eine **[!UICONTROL Beschreibung]** ein, um dieses Modell in der Liste zu unterscheiden.
+1. Geben Sie optional eine **[!UICONTROL Beschreibung]** ein, um dieses Modell in der Liste unterscheiden zu können.
 
-1. Klicken Sie **[!UICONTROL Verbindung testen]**, um die Modellkonfiguration zu überprüfen, und klicken Sie dann auf **[!UICONTROL Speichern]**. Das Modell wird der Modellliste hinzugefügt.
+1. Klicken Sie auf **[!UICONTROL Verbindung testen]**, um die Modellkonfiguration zu prüfen, und klicken Sie dann auf **[!UICONTROL Speichern]**. Das neue Modell wird der Liste der Modelle hinzugefügt.
 
 1. Klicken Sie in der Kampagne auf **[!UICONTROL Inhalt bearbeiten]**.
 
-1. Wählen Sie das Asset aus, das mit dem KI-Assistenten geändert werden soll, und öffnen Sie den **[!UICONTROL KI-Assistenten]**.
+1. Wählen Sie das Asset aus, das Sie mit dem KI-Assistenten ändern möchten, und öffnen Sie den **[!UICONTROL KI-Assistenten]**.
 
-1. Geben Sie Ihre Anfrage im Feld **[!UICONTROL Eingabeaufforderung]** an und passen Sie die restlichen Einstellungen entsprechend an.
+1. Geben Sie Ihre Anfrage im Feld **[!UICONTROL Prompt]** ein und passen Sie die restlichen Einstellungen entsprechend an.
 
-1. Öffnen Sie **[!UICONTROL Bildeinstellungen]** und wählen Sie das zuvor konfigurierte **[!UICONTROL Generatives Modell]** aus.
+1. gÖffnen Sie **[!UICONTROL Bildeinstellungen]** und wählen Sie das zuvor konfigurierte **[!UICONTROL generative Modell]** aus.
 
-1. Passen Sie die Eingabeaufforderung nach Bedarf an und klicken Sie dann auf **[!UICONTROL Generieren]**.
+1. Passen Sie den Prompt nach Bedarf an und klicken Sie dann auf **[!UICONTROL Generieren]**.
 
-1. Überprüfen Sie die **[!UICONTROL Variantenvorschläge]** in der ausgewählten Sprache und klicken Sie auf **[!UICONTROL Auswählen]** sobald eine geeignete Variante ermittelt wurde.
+1. Prüfen Sie die **[!UICONTROL Variantenvorschläge]** in der ausgewählten Sprache und klicken Sie auf **[!UICONTROL Auswählen]**, sobald eine geeignete Variante ermittelt wurde.
 
-## Verwenden von Gemini als generatives Modell für Text-Overlay-Bilder
+## Verwenden von Gemini als generatives Modell für Textüberlagerungsbilder
 
 ![Animierte Demonstration des KI-Assistenten, der Inhalte mit Gemini als generatives Modell generiert](assets/do-not-localize/gen-nano.gif)
 
-Wenn **Gemini 2.5** als generatives Modell ausgewählt ist, können Sie Bildvarianten im KI-Assistenten erstellen, Textüberlagerungen aus einer URL, einer Datei oder einer von KI generierten Eingabeaufforderung hinzufügen und dann Überlagerungen positionieren, bevor Sie eine endgültige Variante anwenden.
+Wenn **Gemini 2.5** als generatives Modell ausgewählt ist, können Sie Bildvarianten im KI-Assistenten erstellen, Textüberlagerungen aus einer URL, einer Datei oder einem von KI generierten Prompt hinzufügen und dann Überlagerungen positionieren, bevor Sie eine endgültige Variante anwenden.
 
-1. Wenn Ihre Kampagne fertig ist, klicken Sie auf **[!UICONTROL Inhalt bearbeiten]**.
+1. Wenn Ihre Kampagne bereit ist, klicken Sie auf **[!UICONTROL Inhalt bearbeiten]**.
 
-1. Wählen Sie das als Basisbild zu verwendende Asset aus und öffnen Sie **[!UICONTROL KI-Assistent]**.
+1. Wählen Sie das als Basisbild zu verwendende Asset aus und öffnen Sie den **[!UICONTROL KI-Assistenten]**.
 
-1. Klicken Sie auf **[!UICONTROL Einstellungen öffnen]**, um die Optionen für die Bilderstellung anzupassen.
+1. Klicken Sie auf **[!UICONTROL Einstellungen öffnen]**, um die Optionen für die Bildgenerierung anzupassen.
 
-1. Wählen **[!UICONTROL unter &quot;]**&quot; die Option **Gemini 2.5 (Nano-Banane)**.
+1. Wählen Sie unter **[!UICONTROL Generatives Modell]** die Option **Gemini 2.5 (Nano Banana)** aus.
 
-1. Geben Sie Ihre Anforderung in das Feld **[!UICONTROL Eingabeaufforderung]** ein.
+1. Geben Sie Ihre Anfrage im Feld **[!UICONTROL Prompt]** ein.
 
 1. Wählen Sie aus, wie viele Varianten Sie möchten, und klicken Sie dann auf **[!UICONTROL Generieren]**.
 
-1. Nach der Generierung Varianten in der Vorschau anzeigen oder Einstellungen verfeinern, um sie neu zu generieren. Im erweiterten Menü haben Sie außerdem folgende Möglichkeiten:
+1. Zeigen Sie Varianten nach der Generierung in der Vorschau an oder verfeinern Sie die Einstellungen und generieren Sie sie neu. Im erweiterten Menü haben Sie außerdem folgende Möglichkeiten:
 
    * **[!UICONTROL Erstellen einer Bildüberlagerung]**
-   * **[!UICONTROL Ähnliche generieren]**
-   * **[!UICONTROL Bild zuschneiden]**
-   * **[!UICONTROL In AEM-Assets speichern]**
+   * **[!UICONTROL Generieren eines ähnlichen Bilds]**
+   * **[!UICONTROL Zuschneiden des Bilds]**
+   * **[!UICONTROL Speichern in AEM-Assets]**
    * **[!UICONTROL Löschen]**
 
-1. Wählen **[!UICONTROL Erstellen einer Bildüberlagerung]**. Fügen Sie eine Überlagerung von einer URL hinzu, laden Sie eine Datei hoch oder verwenden Sie **[!UICONTROL Textüberlagerung mit KI generieren]** und beschreiben Sie die Überlagerung in der **[!UICONTROL Eingabeaufforderung]**.
+1. Wählen Sie **[!UICONTROL Bildüberlagerung erstellen]** aus. Fügen Sie eine Überlagerung von einer URL hinzu, laden Sie eine Datei hoch oder verwenden Sie **[!UICONTROL Textüberlagerung mit KI generieren]** und beschreiben Sie die Überlagerung im **[!UICONTROL Prompt]**.
 
-1. Klicken Sie **[!UICONTROL Generieren]**.
+1. Klicken Sie auf **[!UICONTROL Generieren]**.
 
-1. Überprüfen Sie **[!UICONTROL Überlagerungsvarianten]** und klicken Sie auf **[!UICONTROL Anwenden]**.
+1. Prüfen Sie **[!UICONTROL Überlagerungsvarianten]** und klicken Sie auf **[!UICONTROL Anwenden]**.
 
 1. Positionieren Sie die Überlagerung nach Bedarf auf dem Bild. Im erweiterten Menü haben Sie folgende Möglichkeiten:
 
    * **[!UICONTROL Überlagerung löschen]**
-   * **[!UICONTROL Weiter]**
-   * **[!UICONTROL Rückwärts]**
+   * **[!UICONTROL Fortfahren]**
+   * **[!UICONTROL Zurückgehen]**
    * **[!UICONTROL Duplikat]**
 
-1. Wenn die Textüberlagerung nach rechts zeigt, klicken Sie auf **[!UICONTROL Speichern]** und dann auf **[!UICONTROL Anwenden]** für die Variante, die Sie verwenden möchten.
+1. Wenn die Textüberlagerung korrekt aussieht, klicken Sie für die gewünschte Variante auf **[!UICONTROL Speichern]** und dann auf **[!UICONTROL Anwenden]**.
