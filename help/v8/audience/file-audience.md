@@ -4,8 +4,10 @@ title: Laden einer E-Mail-Zielgruppe aus einer Datei
 description: Erfahren Sie, wie Sie Profile aus einer externen Datei laden, um eine E-Mail-Zielgruppe zu erstellen.
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
 TQID: https://experienceleague.adobe.com/nYbaAG2fwqgnoE-Xnw-k5frpOAuD1bkHfUMC91LpXxc
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: ht
 source-wordcount: 694
