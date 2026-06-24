@@ -10,9 +10,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 710
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ Die **[!UICONTROL Versandübersicht]** bietet detaillierte Erkenntnisse über di
 
 ![Diagramm mit Metriken zur Versandübersicht mit Key Performance Indicators für den Briefpost-Versand](assets/direct-overview.png){zoomable="yes"}{align="center"}
 
-+++Weitere Informationen zu Metriken der Versandübersicht.
++++Weitere Informationen zu den Metriken „Versandübersicht“.
 
 * **[!UICONTROL Zu sendende Nachrichten]**: Gesamtzahl der während der Versandvorbereitung verarbeiteten Nachrichten.
 * **[!UICONTROL Zielgruppe]**: Anzahl der Benutzerprofile, die als Zielprofile für Briefpost-Nachrichten gelten.
@@ -57,7 +57,7 @@ Bewegen Sie den Mauszeiger über einen Abschnitt des Diagramms, um die genaue Za
 
 ![Detailansicht des Diagramms „Zielpopulation“ mit Mausberührungsfunktion](assets/direct-mail-delivery-targeted-population_2.png){zoomable="yes"}
 
-+++Erfahren Sie mehr über die Metriken des Briefpost-Versandberichts.
++++Weitere Informationen zu den Metriken „Briefpost-Versandbericht“.
 
 * **[!UICONTROL Ursprüngliche Zielgruppe]**: Gesamtzahl der Zielgruppenempfängerinnen und -empfänger.
 * **[!UICONTROL Zu versenden]**: Gesamtzahl der nach erfolgter Versandanalyse zu versendenden Nachrichten.
@@ -75,7 +75,7 @@ Das Diagramm **[!UICONTROL Versandstatistiken]** bietet einen Überblick über d
 
 ![Diagramm „Versandstatistik“ mit Erfolgsraten, Fehlern und Quarantänen](assets/direct-mail-delivery-stats.png){zoomable="yes"}
 
-+++Erfahren Sie mehr über die Metriken des Briefpost-Kampagnenberichts.
++++Weitere Informationen zu den Metriken „Briefpost-Kampagnenberichte“.
 
 * **[!UICONTROL Gesendete Nachricht]**: Gesamtzahl der nach erfolgter Versandvorbereitung zu versendenden Nachrichten.
 * **[!UICONTROL Erfolg]**: Anzahl der erfolgreich verarbeiteten Nachrichten im Vergleich zur Anzahl der zu versendenden Nachrichten.
@@ -94,7 +94,7 @@ Das Diagramm **[!UICONTROL Ausschlussgründe]** bietet eine Aufschlüsselung der
 
 ![Diagramm „Ausschlussgründe“ mit der Verteilung der abgelehnten Nachrichten nach Regel](assets/direct-mail-delivery-exclusions.png){zoomable="yes"}{align="center" zoomable="yes"}
 
-+++Erfahren Sie mehr über die Ursachen von Ausschlussmetriken.
++++Weitere Informationen zu Gründen für Ausschlussgründen.
 
 * **[!UICONTROL Adresse in Quarantäne]**: Fehlertyp, der erzeugt wird, wenn eine Adresse unter Quarantäne gestellt wird.
 * **[!UICONTROL Adresse nicht angegeben]**: Fehlertyp, der generiert wird, wenn eine Adresse nicht existiert.

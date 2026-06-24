@@ -22,9 +22,9 @@ level_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1519
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -77,7 +77,7 @@ Unabhängig davon, ob Sie im E-Mail-Designer benutzerdefinierte Einstellungen f�
 
 ### Clients, die ihren eigenen dunklen Modus anwenden {#default-support}
 
-Einige E-Mail-Clients wenden systematisch ihren eigenen standardmäßigen dunklen Modus auf alle empfangenen E-Mails an. Farben, Hintergründe, Bilder usw. werden automatisch mit den für den E-Mail-Client spezifischen Einstellungen für den Dunkelmodus angepasst, sodass keine externen Änderungen möglich sind.
+Einige E-Mail-Clients wenden systematisch ihren eigenen standardmäßigen dunklen Modus auf alle empfangenen E-Mails an. Farben, Hintergründe, Bilder usw. werden automatisch an die für den E-Mail-Client spezifischen Einstellungen für den dunklen Modus angepasst, sodass keine externen Änderungen möglich sind.
 
 <!--It is important to note that less than 25% of email clients offer customization options for dark mode. Clients such as Gmail implement their own dark mode rendering, which is not subject to external modification.-->
 

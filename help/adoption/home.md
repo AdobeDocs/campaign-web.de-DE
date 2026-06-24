@@ -11,9 +11,9 @@ feature_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 366
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -101,4 +101,4 @@ Informieren Sie sich über die Unterschiede, die für Admins/Entwickelnde in Bez
 
 ## Zusätzliche Ressourcen
 
-[Adobe Campaign v8-Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} - [Dokumentation zur Adobe Campaign-Web-Benutzeroberfläche](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=de){target="_blank"} - [Dokumentation zur Adobe Campaign Client-Konsole](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/campaign-home){target="_blank"} - [Tutorials zur Client-Konsole](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/overview.html?lang=de){target="_blank"} - [[!DNL Adobe Campaign] Automatisierungshandbuch](https://experienceleague.adobe.com/docs/campaign/automation/home.html?lang=de){target="_blank"} - [Control Panel für Campaign v8](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=de){target="_blank"}
+[Adobe Campaign v8-Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} – [Dokumentation der Web-Benutzeroberfläche von Adobe Campaign](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=de){target="_blank"} – [Dokumentation zur Adobe Campaign Client-Konsole](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/campaign-home){target="_blank"} - [Tutorials zur Client-Console](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/overview.html?lang=de){target="_blank"} – [[!DNL Adobe Campaign] Automatisierungsleitfaden](https://experienceleague.adobe.com/docs/campaign/automation/home.html?lang=de){target="_blank"} – [Control Panel für Campaign v8](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=de){target="_blank"}

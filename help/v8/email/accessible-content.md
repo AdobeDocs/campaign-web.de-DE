@@ -20,9 +20,9 @@ level_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1687
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,6 @@ Dementsprechend finden Sie im Folgenden Best Practices für die Gestaltung barri
 
 Auf dieser Seite geht es darum, Ihre Inhalte für alle Empfängerinnen und Empfänger barrierefrei zu machen, um sicherzustellen, dass Menschen mit Behinderungen Ihre mit [!DNL Adobe Campaign] entworfenen E-Mails und Landingpages lesen, verstehen und mit ihnen interagieren können.
  
-
 ## Sicherstellen der Lesbarkeit von Text {#text-readability}
 
 Verwenden Sie die Registerkarte **[!UICONTROL Stile]** der Komponente **[!UICONTROL Text]**, um dafür zu sorgen, dass Ihr Text lesbar ist (z. B. mit einem angemessenen Farbkontrast und einfachen Schriftarten). [Weitere Informationen](content-components.md#text)
@@ -103,7 +102,7 @@ Verwenden Sie die Komponente **[!UICONTROL Bild]**, um alternativen Text für Bi
 Wenden Sie die folgenden Richtlinien an, um in digitalen Produkten effektiven Alternativtext zu nutzen:
 
 * Beschreiben Sie den Zweck des Bildes kurz und kontextbezogen.
-* Vermeiden Sie redundante Ausdrücke wie „Bild von …“ und leeren Alternativtext für dekorative Bilder verwenden.
+* Vermeiden Sie redundante Ausdrücke wie „Bild von …“ und verwenden Sie leeren Alternativtext für dekorative Bilder.
 * Geben Sie für Symbole mit Bedeutung aussagekräftige Labels an. Nutzen Sie für komplexe Bilder einen kurzen Alternativtext und an anderer Stelle eine längere Beschreibung.
 
 ## Verwenden von lesbarem Format {#readable-format}
@@ -137,7 +136,7 @@ Zum Überprüfen der Barrierefreiheit Ihrer Inhalte können Sie die von [!DNL Ad
 
 * Verwenden Sie die Option [E-Mail-Rendering](../preview-test/email-rendering.md), die Litmus zur Simulation Ihrer Designs in wichtigen E-Mail-Clients (Apple Mail, Gmail, Outlook) nutzt, damit Sie sehen können, ob Text, Farben und Bilder Ihre Inhalte barrierefrei machen. <!--Litmus includes accessibility testing-->
 
-* Validieren Sie die Qualität Ihrer Inhalte, um die Lesbarkeit zu beurteilen, die eine Schlüsselkomponente der Barrierefreiheit ist. [Erfahren Sie mehr über die Validierung der Inhaltsqualität](../content/brands-score.md#validate-quality)
+* Validieren Sie die Qualität Ihrer Inhalte, um die Lesbarkeit zu beurteilen, die eine Schlüsselkomponente der Barrierefreiheit ist. [Weitere Informationen zur Qualitätsprüfung von Inhalten](../content/brands-score.md#validate-quality)
 
 * Führen Sie Testsendungen durch, um das Rendering Ihrer Inhalte zu testen, bevor Sie sie an Ihre echte Zielgruppe senden. [Weitere Informationen](../preview-test/test-deliveries.md)
 

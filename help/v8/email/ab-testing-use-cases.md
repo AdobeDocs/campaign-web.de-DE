@@ -1,12 +1,12 @@
 ---
 audience: end-user
 title: Anwendungsfälle für Inhaltsexperimente
-description: Praktische Anwendungsfälle für Inhaltsexperimente mit A/B-Tests in Adobe Campaign Web
+description: Erkunden Sie praktische Anwendungsfälle für Inhaltsexperimente mit A/B-Tests in Adobe Campaign Web
 exl-id: 7c7d7e0e-8c8e-4e5e-9f9e-0e5e5e5e5e5e
 source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '23'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 

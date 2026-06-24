@@ -12,9 +12,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1707
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -254,7 +254,7 @@ Der Bericht **[!UICONTROL URLs und Clickstreams]** bietet wichtige Performance-I
 
 * **[!UICONTROL Klicks insgesamt]**: Gesamtzahl der Klicks auf Links in Sendungen.
 
-* **[!UICONTROL Plattform-Durchschnitt]**: Dieser unter jeder Rate (Reaktivität, Unique Clicks und Klicks insgesamt) angezeigte Wert bezieht sich auf die Gesamtheit der in den letzten sechs Monaten gesendeten Sendungen. Es werden nur Sendungen mit derselben Typologie und mit demselben Kanal berücksichtigt. Testsendungen sind ausgeschlossen.
+* **[!UICONTROL Plattform-Durchschnitt]**: Dieser Durchschnittswert, der unter jeder Rate (Reaktivität, Einzelklicks und Klicks insgesamt) angezeigt wird, wird für die in den letzten sechs Monaten gesendeten Sendungen berechnet. Es werden nur Sendungen mit derselben Typologie und mit demselben Kanal berücksichtigt. Testsendungen sind ausgeschlossen.
 
 +++
 
@@ -299,7 +299,7 @@ Der Bericht **[!UICONTROL Benutzeraktivitäten]** zeigt die Aufschlüsselung der
 
 ![Screenshot des Berichts „Nutzeraktivitäten“](assets/campaign_report_email_user_activities.png){zoomable="yes"}{align="center"}
 
-+++Erfahren Sie mehr über die Metriken des E-Mail-Versandberichts.
++++Weitere Informationen zu den Metriken „E-Mail-Versandbericht“.
 
 * **[!UICONTROL Klicks]**: Gesamtzahl der Klicks auf Links in Sendungen.
 

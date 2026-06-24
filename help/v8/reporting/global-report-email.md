@@ -13,9 +13,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1689
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ Die **[!UICONTROL Versandübersicht]** bietet wichtige Leistungsmetriken (KPIs) 
 
 ![Metriken der Versandübersicht](assets/global_report_email_delivery_overview.png){zoomable="yes"}{align="center"}
 
-+++Weitere Informationen zu Metriken der Versandübersicht.
++++Weitere Informationen zu den Metriken „Versandübersicht“.
 
 * **[!UICONTROL Zu sendende Nachrichten]**: Gesamtzahl der während der Versandvorbereitung verarbeiteten Nachrichten.
 
@@ -64,7 +64,7 @@ Die Tabelle und der Graph **[!UICONTROL Zielgruppe]** zeigen Daten zu Ihren Empf
 
 ![Zielgruppenmetriken](assets/global_report_email_targeted_audience.png){zoomable="yes"}{align="center"}
 
-+++Weitere Informationen zu Metriken für Zielgruppen.
++++Weitere Informationen zu den Metriken „Zielgruppe“.
 
 * **[!UICONTROL Zielgruppe]**: Gesamtzahl der angesprochenen Empfängerinnen und Empfänger.
 
@@ -85,7 +85,7 @@ Die Tabelle **[!UICONTROL Versandstatistiken]** bietet eine Aufschlüsselung des
 
 ![Metriken zur Versandstatistik](assets/global_report_email_delivery_statistics.png){zoomable="yes"}{align="center"}
 
-+++Weitere Informationen zu Metriken der Versandstatistik.
++++Weitere Informationen zu den Metriken „Versandstatistik“.
 
 * **[!UICONTROL Zu versendende Nachricht(en)]**: Gesamtzahl der nach erfolgter Versandvorbereitung zu versendenden Nachrichten.
 
@@ -121,7 +121,7 @@ Die E-Mail-Fehlertypen sind in der [Dokumentation zu Adobe Campaign v8 (Client-K
 
 Der Bericht „Versanddurchsatz“ bietet umfassende Erkenntnisse zur Effizienz des Versandprozesses und einen detaillierten Überblick über Erfolgs- und Fehlerquoten innerhalb eines bestimmten Zeitraums.
 
-+++Erfahren Sie mehr über Metriken zum Versanddurchsatz.
++++Weitere Informationen zu den Metriken „Versanddurchsatz“.
 
 * **[!UICONTROL Erfolg]**: Anzahl der erfolgreich verarbeiteten Nachrichten im Verhältnis zur Anzahl der zu versendenden Nachrichten.
 
@@ -144,7 +144,7 @@ Die Tabelle und der Graph **[!UICONTROL Aufschlüsselung der Fehler nach Typ]** 
 
 Die in diesem Bericht angezeigten Fehler lösen einen Quarantäneprozess aus. Weitere Informationen zur Quarantäneverwaltung finden Sie in der [Dokumentation zu Campaign v8 (Client-Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=de){target="_blank"}.
 
-+++Erfahren Sie mehr über die Aufschlüsselung der Fehler nach Metriktyp.
++++Weitere Informationen zu den Metriken „Aufschlüsselung der Fehler nach Typ“.
 
 * **[!UICONTROL Unbekannter Nutzer]**: Fehlertyp, der während des Versands erzeugt wird, um anzuzeigen, dass die E-Mail-Adresse ungültig ist.
 
@@ -186,7 +186,7 @@ Die Metriken **[!UICONTROL Versandstatistiken]** bieten wichtige KPIs (Key Perfo
 
 ![Tracking-Metriken zu Versandstatistiken](assets/global_report_email_delivery_statistics_tracking.png){zoomable="yes"}{align="center"}
 
-+++Weitere Informationen zu Metriken der Versandstatistik.
++++Weitere Informationen zu den Metriken „Versandstatistik“.
 
 * **[!UICONTROL Zu sendende Nachrichten]**: Gesamtzahl der während der Versandvorbereitung verarbeiteten Nachrichten.
 
@@ -214,7 +214,7 @@ Die Tabelle **[!UICONTROL Öffnungs- und Clickthrough-Rate]** zeigt Daten zu Ihr
 
 ![Metriken „Öffnungs- und Clickthrough-Rate“](assets/global_report_email_opens.png){zoomable="yes"}{align="center"}
 
-+++Erfahren Sie mehr über Metriken der Öffnungs- und Klickraten.
++++Weitere Inforationen zu den Metriken „Öffnungs- und Clickthrough-Rate“.
 
 * **[!UICONTROL Gesendet]**: Gesamtzahl der gesendeten Nachrichten.
 
@@ -240,7 +240,7 @@ Der Bericht **[!UICONTROL URLs und Clickstreams]** bietet durch die enthaltenen 
 
 ![Metriken zu URLs und Clickstreams](assets/campaign_report_email_9.png){zoomable="yes"}{align="center"}
 
-+++Erfahren Sie mehr über URLs und Clickstreams-Metriken.
++++Weitere Informationen zu den Metriken „URLs und Clickstreams“.
 
 * **[!UICONTROL Reaktionsrate]**: Verhältnis der Anzahl an Zielgruppenempfängerinnen und -empfängern, die auf einen Versand geklickt haben, im Verhältnis zur geschätzten Anzahl der Zielgruppenempfängerinnen und -empfänger, die einen Versand geöffnet haben.
 
@@ -262,7 +262,7 @@ Der Graph und die Tabelle zu den **[!UICONTROL 10 meistbesuchten Links]** enthal
 
 ![Metriken zu „Die 10 meistbesuchten Links“](assets/global_report_email_top10.png){zoomable="yes"}{align="center"}
 
-+++Erfahren Sie mehr über die 10 meistbesuchten Links-Metriken.
++++Weitere Informationen zu den Metriken „Die 10 meistbesuchten Links“.
 
 * **[!UICONTROL Klicks insgesamt]**: Gesamtzahl der Klicks auf Links in Sendungen.
 
@@ -292,7 +292,7 @@ Der Bericht **[!UICONTROL Benutzeraktivitäten]** zeigt die Aufschlüsselung der
 
 ![Metriken zu Nutzeraktivitäten](assets/global_report_email_user.png){zoomable="yes"}{align="center"}
 
-+++Erfahren Sie mehr über die Metriken der Benutzeraktivitäten.
++++Weitere Informationen zu den Metriken „Nutzeraktivitäten“.
 
 * **[!UICONTROL Klicks insgesamt]**: Gesamtzahl der Klicks auf Links in Sendungen.
 

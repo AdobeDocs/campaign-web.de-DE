@@ -1,10 +1,11 @@
 ---
-title: Durchsuchen und Zugreifen auf Schemata
-description: Erfahren Sie, wie Sie in der -Benutzeroberfläche Schemas durchsuchen und darauf zugreifen können.
-source-git-commit: 28f7bcf5f65671136be25c79b414f149532b749f
-workflow-type: tm+mt
+title: Durchsuchen von und Zugreifen auf Schemata
+description: Erfahren Sie, wie Sie in der Benutzeroberfläche Schemata durchsuchen und darauf zugreifen können.
+exl-id: deafd171-0a3f-4ba2-8fa4-09661d8cdb3e
+source-git-commit: 9d7ff3bc648567640ef501bff2228e5c6cff25bc
+workflow-type: ht
 source-wordcount: '417'
-ht-degree: 49%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +39,7 @@ Die Registerkarte **[!UICONTROL Daten]** enthält Informationen zu den Schemadat
 
 ![Registerkarte „Daten“ des Schemas mit Datenstruktur und Attributen](assets/schemas-data.png)
 
-## Bildschirmanzeige anpassen {#screen-def}
+## Anpassen der Bildschirmanzeige {#screen-def}
 
 Mit der Bildschirmdefinition können Sie konfigurieren, wie Schemafelder in der Benutzeroberfläche angezeigt und bearbeitet werden. Sie können Standardspalten für Listenansichten konfigurieren, festlegen, welche benutzerdefinierten Felder in Detailbildschirmen angezeigt werden, Sammlungslisten hinzufügen, um zugehörige Daten anzuzeigen, und Felder in Abschnitte mit Trennzeichen und Sichtbarkeitskriterien organisieren.
 
@@ -48,16 +49,16 @@ So greifen Sie auf die Bildschirmdefinition zu:
 
    ![Bildschirm mit der Liste der Schemata samt verfügbaren Schemata und Filtern](assets/schemas-list2.png)
 
-1. Wählen Sie den Schemanamen in der Liste aus, um ihn zu öffnen, und klicken Sie in der Ansicht mit den Schemadetails auf **&#x200B;**&#x200B;Bildschirmbearbeitung“, um auf die Bildschirmdefinition zuzugreifen.
+1. Wählen Sie den Schemanamen in der Liste aus, um das Schema zu öffnen, und klicken Sie in der Ansicht der Schemadetails auf die Schaltfläche **[!UICONTROL Bildschirmbearbeitung]**, um die Bildschirmdefinition aufzurufen.
 
    ![Bildschirm mit der Liste der Schemata samt verfügbaren Schemata und Filtern](assets/schemas-list3.png)
 
-   Die verschiedenen Listen ermöglichen es Ihnen, Elemente mithilfe der Pfeilsymbole nach oben und unten neu anzuordnen oder sie per Drag-and-Drop abzulegen. Um Elemente zu entfernen, klicken Sie auf das Papierkorbsymbol in einer bestimmten Zeile oder wählen Sie **[!UICONTROL Alle löschen]** aus dem Symbol mit den Auslassungspunkten aus.
+   Die verschiedenen Listen ermöglichen es Ihnen, Elemente mithilfe der Pfeilsymbole nach oben und unten neu anzuordnen oder sie per Drag-and-Drop abzulegen. Um Elemente zu entfernen, klicken Sie auf das Papierkorbsymbol in einer bestimmten Zeile oder wählen Sie **[!UICONTROL Alle löschen]** über das Symbol mit den Auslassungspunkten aus.
 
-   ![Abschnitt „Allgemeine Bildschirmdefinition“](assets/schemas-general.png)
+   ![Abschnitt „Allgemein“ der Bildschirmdefinition](assets/schemas-general.png)
 
-Über die Bildschirmdefinition können Sie folgende Aktionen durchführen:
+In der Bildschirmdefinition haben Sie folgende Möglichkeiten:
 
-* [Standardlistenspalten konfigurieren](schemas-list-columns.md) - Konfigurieren, welche Spalten in Listenansichten standardmäßig angezeigt werden.
-* [Benutzerdefinierte Felder bearbeiten](schemas-custom-fields.md) - Konfigurieren Sie, welche benutzerdefinierten Felder auf Detailbildschirmen angezeigt werden, und organisieren Sie sie in Abschnitte.
-* [Sammlungslisten hinzufügen](schemas-collection-lists.md) - Sammlungslisten hinzufügen, um verwandte Daten in Profilbildern anzuzeigen.
+* [Standardlistenspalten konfigurieren](schemas-list-columns.md) – Konfigurieren Sie, welche Spalten in Listenansichten standardmäßig angezeigt werden.
+* [Benutzerdefinierte Felder bearbeiten](schemas-custom-fields.md) – Konfigurieren Sie, welche benutzerdefinierten Felder auf Detailbildschirmen angezeigt werden, und organisieren Sie sie in Abschnitte.
+* [Sammlungslisten hinzufügen](schemas-collection-lists.md) – Fügen Sie Sammlungslisten hinzu, um verwandte Daten in Profilbildern anzuzeigen.

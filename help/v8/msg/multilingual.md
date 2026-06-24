@@ -4,9 +4,9 @@ title: Konfigurieren eines mehrsprachigen Versands
 description: Informationen zum Konfigurieren eines mehrsprachigen Versands
 exl-id: eea0e997-4da2-4998-b010-234626b21353
 source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1489'
-ht-degree: 40%
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ Gehen Sie wie folgt vor, um eine Sprachvariante zu erstellen:
 
    ![](assets/edit-content_2.png){zoomable="yes"}
 
-1. Wählen Sie aus der Dropdown-Liste **Sprache hinzufügen** die gewünschte Sprache aus und bestätigen Sie dann Ihre Auswahl. Für Push-Benachrichtigungen können Sie auch [CSV-Datei hochladen](#csv-upload) um alle Sprachvarianten gleichzeitig zu importieren.
+1. Wählen Sie aus der Dropdown-Liste **Sprache hinzufügen** die gewünschte Sprache aus und bestätigen Sie dann Ihre Auswahl. Für Push-Benachrichtigungen können Sie auch [eine CSV-Datei hochladen](#csv-upload), um alle Sprachvarianten gleichzeitig zu importieren.
 
    Die erste hinzugefügte Sprache wird automatisch als Standard festgelegt und der vorhandene Inhalt wird zur Standardversion. Wenn zusätzliche Sprachen hinzugefügt werden, wird deren Inhalt zunächst aus der Standardsprache kopiert.
 
@@ -122,78 +122,78 @@ In der Liste der Sprachvarianten können Sie die folgenden Aktionen ausführen:
 
 ![](assets/edit-content_13-sms.png){zoomable="yes"}
 
-## Sprachvarianten aus CSV importieren (Push-Benachrichtigungen) {#csv-upload}
+## Importieren von Sprachvarianten aus CSV (Push-Benachrichtigungen) {#csv-upload}
 
-Für Push-Benachrichtigungen können Sie schnell alle Sprachvarianten ausfüllen, indem Sie eine CSV-Datei mit Ihrem mehrsprachigen Inhalt hochladen. Diese Funktion optimiert die Erstellung mehrsprachiger Kampagnen, indem Sie Inhalte offline vorbereiten und in Massen importieren können.
+Für Push-Benachrichtigungen können Sie jetzt alle Sprachvarianten schnell füllen, indem Sie eine CSV-Datei mit mehrsprachigen Inhalten hochladen. Diese Funktion optimiert die Erstellung mehrsprachiger Kampagnen, da Sie Inhalte offline vorbereiten und in Massen importieren können.
 
-* **Effizienz**: Mehrere Sprachen und deren Inhalte in einem Vorgang hinzufügen
-* **Konsistenz**: Gewährleistung einer einheitlichen Botschaft für alle Sprachvarianten
-* **Collaboration**: Ermöglichen Sie es Inhalts-Teams, Übersetzungen in vertrauten Tabellenkalkulations-Tools vorzubereiten
-* **Massenverwaltung**: Einfaches Verwalten und Aktualisieren einer großen Anzahl von Sprachvarianten
+* **Effizienz**: Fügen Sie mehrere Sprachen und deren Inhalte in einem Vorgang hinzu
+* **Konsistenz**: Gewährleisten Sie ein einheitliches Messaging für alle Sprachvarianten
+* **Zusammenarbeit**: Ermöglichen Sie es Inhalts-Teams, Übersetzungen in vertrauten Tabellenkalkulations-Tools vorzubereiten
+* **Massenverwaltung**: Verwalten und aktualisieren Sie problemlos eine große Anzahl von Sprachvarianten
 
 ### Voraussetzungen {#csv-best-practices}
 
 Befolgen Sie die folgenden Best Practices, um einen erfolgreichen CSV-Import sicherzustellen:
 
 * **Verwenden Sie die exakte Spaltenstruktur**: Alle 14 Spalten müssen in Ihrer CSV-Datei vorhanden sein, auch wenn Sie einige leer lassen. Fehlende Spalten führen zu einem Importfehler. Sie können eine andere Reihenfolge verwenden, aber alle Spalten müssen vorhanden sein.
-* **Spaltennamen genau abgleichen**: Bei Spaltennamen wird zwischen Groß- und Kleinschreibung unterschieden. Verwenden Sie `title` nicht `Title`, `badge` nicht `Bbadge`, `locale` nicht `Locale`.
-* **Gebietsschemakodes in Kleinbuchstaben verwenden**: Formatieren Sie Gebietsschemakodes als `en_us`, `fr_fr`, `de_de` (Kleinbuchstaben mit Unterstrich), nicht `en_US` oder `en-us`.
-* **Pflichtspalten ausfüllen**: Die `locale`- und `language` müssen Werte für jede Zeile enthalten. Leere Werte führen zu einem Importfehler.
-* **Gebietsschemata eindeutig**: Jeder Gebietsschema-Code darf nur einmal in der CSV-Datei angezeigt werden. Doppelte Gebietsschemata werden abgelehnt.
-* **Als UTF-8 speichern**: Speichern Sie Ihre CSV-Datei immer mit UTF-8-Codierung, um internationale Zeichen korrekt zu unterstützen.
-* **Inhalt, der Kommas enthält**: Wenn der Titel oder Nachrichtentext Kommas enthält, setzen Sie das gesamte Feld in doppelte Anführungszeichen: `"Hello, welcome!"`.
-* **Numerische Werte korrekt verwenden**: Verwenden Sie für Markierungsspalten (isContentAvailable, isMutableContent, silentPush) `1` für „true“, `0` für „false“ oder lassen Sie das Feld leer für die Standardeinstellung.
-* **Validieren des JSON-**: Wenn Sie die Spalte „customFields“ verwenden, stellen Sie sicher, dass Ihr JSON ordnungsgemäß formatiert ist: `{"key":"value"}` mit korrekten Anführungszeichen und Klammern.
-* **Testen Sie zuerst mit minimalen Daten**: Beginnen Sie mit einer einfachen 2-3-Sprach-CSV-Datei, um Ihr Format zu überprüfen, bevor Sie große Dateien erstellen.
+* **Gleichen Sie Spaltennamen genau ab**: Bei Spaltennamen wird zwischen Groß- und Kleinschreibung unterschieden. Verwenden Sie `title` und nicht `Title`, `badge` und nicht `Bbadge`, `locale` und nicht `Locale`.
+* **Verwenden Sie Gebietsschema-Codes in Kleinbuchstaben**: Formatieren Sie Gebietsschema-Codes als `en_us`, `fr_fr`, `de_de` (Kleinbuchstaben mit Unterstrich), nicht als `en_US` oder `en-us`.
+* **Füllen Sie obligatorische Spalten aus**: Die Spalten `locale` und `language` müssen für jede Zeile Werte enthalten. Leere Werte führen zu einem Importfehler.
+* **Nutzen Sie eindeutige Gebietsschemata**: Jeder Gebietsschema-Code darf nur einmal in der CSV-Datei vorkommen. Doppelte Gebietsschemata werden abgelehnt.
+* **Speichern Sie als UTF-8**: Speichern Sie Ihre CSV-Datei immer mit UTF-8-Codierung, um internationale Zeichen korrekt zu unterstützen.
+* **Setzen Sie Anführungszeichen bei Inhalten, die Kommas enthalten**: Wenn der Titel oder Nachrichtentext Kommas enthält, setzen Sie das gesamte Feld in doppelte Anführungszeichen: `"Hello, welcome!"`.
+* **Verwenden Sie numerische Werte korrekt**: Verwenden Sie für Flag-Spalten (isContentAvailable, isMutableContent, silentPush) `1` für „wahr“, `0` für „falsch“ oder lassen Sie das Feld leer für die Standardeinstellung.
+* **Validieren Sie das JSON-Format**: Wenn Sie die Spalte „customFields“ verwenden, stellen Sie sicher, dass Ihr JSON ordnungsgemäß formatiert ist: `{"key":"value"}` mit korrekten Anführungszeichen und Klammern.
+* **Testen Sie zuerst mit minimalen Daten**: Beginnen Sie mit einer einfachen CSV-Datei mit 2–3 Sprachen, um Ihr Format zu prüfen, bevor Sie große Dateien erstellen.
 
 >[!NOTE]
 >
->Die Spaltenstruktur wird in diesem [Abschnitt](#csv-columns) beschrieben.
+>Die Spaltenstruktur wird [in diesem Abschnitt](#csv-columns) beschrieben.
 
-### CSV-Datei importieren {#csv-steps}
+### Importieren der CSV-Datei {#csv-steps}
 
 Gehen Sie wie folgt vor, um Sprachvarianten aus einer CSV-Datei zu importieren:
 
 1. Klicken Sie im Editor für Versandinhalte auf **[!UICONTROL Sprache hinzufügen]**.
 
-   ![Screenshot mit der Schaltfläche Sprache hinzufügen im Inhaltseditor für Push-Benachrichtigungen](assets/multilingual-csv.png){zoomable="yes"}
+   ![Screenshot der Schaltfläche „Sprache hinzufügen“ im Inhalts-Editor für Push-Benachrichtigungen](assets/multilingual-csv.png){zoomable="yes"}
 
 1. Wählen Sie Ihre CSV-Datei aus, indem Sie sie per Drag-and-Drop in den Upload-Bereich ziehen, oder klicken Sie, um Ihren Computer zu durchsuchen.
 
    Das System überprüft Ihr Dateiformat und Ihren Inhalt. Wenn die Validierung fehlschlägt, geben Fehlermeldungen an, welche Spalten oder Daten falsch sind. Beheben Sie die Probleme in Ihrer CSV-Datei und laden Sie sie erneut hoch. Weitere Informationen finden Sie in diesem [Abschnitt](#csv-troubleshooting).
 
-   ![Screenshot mit erfolgreicher CSV-Validierung mit allen importierten Sprachen](assets//multilingual-csv2.png){zoomable="yes"}
+   ![Screenshot einer erfolgreichen CSV-Validierung mit allen importierten Sprachen](assets//multilingual-csv2.png){zoomable="yes"}
 
-1. Überprüfen Sie die importierten Inhalte im Bedienfeld Sprachvarianten , um zu bestätigen, dass alle Übersetzungen korrekt geladen wurden.
+1. Überprüfen Sie die importierten Inhalte im Panel „Sprachvarianten“, um zu prüfen, ob alle Übersetzungen korrekt geladen wurden.
 
    ![Screenshot der Vorschau importierter mehrsprachiger Inhaltsvarianten](assets/multilingual-csv3.png){zoomable="yes"}
 
 ### Spaltenstruktur {#csv-columns}
 
-Hier finden Sie die richtige zu verwendende Spaltenstruktur:
+Hier finden Sie die korrekte zu verwendende Spaltenstruktur:
 
 >[!NOTE]
 >
->Sie können eine andere Reihenfolge verwenden, aber alle Spalten müssen vorhanden sein. Weitere Best Practices finden Sie in diesem [Abschnitt](#csv-best-practices).
+>Sie können eine andere Reihenfolge verwenden, aber alle Spalten müssen vorhanden sein. Weitere Best Practices finden Sie [in diesem Abschnitt](#csv-best-practices).
 
 1. **title**: Titel der Benachrichtigung (erforderlich)
 1. **messageBody**: Textkörper der Benachrichtigungsmeldung (erforderlich)
-1. **sound**: Name der Audiodatei (z. B. `default`, `custom_sound.mp3`) - lassen Sie das Feld für die Standardeinstellung leer.
-1. **BADGE**: Badge-Nummer, die auf dem App-Symbol (iOS) angezeigt wird - nur Zahlen verwenden
-1. **deeplinkURI**: Deep-Link-URL, die beim Tippen auf eine Benachrichtigung geöffnet werden soll - leer lassen, wenn nicht verwendet
-1. **category**: Kennung der Benachrichtigungskategorie für benutzerdefinierte Aktionen (iOS) - Leer lassen, wenn nicht verwendet
-1. **iosMediaAttachmentURL**: URL des Medienanhangs für iOS-Benachrichtigungen - Leer lassen, wenn er nicht verwendet wird
-1. **androidMediaAttachmentURL**: URL des Medienanhangs für Android-Benachrichtigungen - Leer lassen, wenn nicht verwendet
-1. **isContentAvailable**: Flag für verfügbaren Inhalt (iOS) - `1` für „true“ verwenden, `0` für „false“, für „default“ leer lassen (0).
-1. **isMutableContent**: Markierung für veränderbaren Inhalt (iOS) - Verwenden Sie `1` für „true“, `0` für „false“ und lassen Sie es leer für „default“ (0).
-1. **customFields**: Benutzerdefinierte Daten im JSON-Format (z. B. `{"key1":"value1","key2":"value2"}`) - Leer lassen, wenn sie nicht verwendet werden
-1. **locale**: Sprach-Code (erforderlich) - z. B. `en_us`, `fr_fr`, `de_de` - **obligatorisch, muss pro Zeile eindeutig sein**
-1. **language**: Sprachname (erforderlich) - z.B. `English-United States`, `French-France` - **obligatorisch**
-1. **silentPush**: Markierung für stille Push - `1` für stille Push verwenden, für reguläre Push `0`, für Standard leer lassen (0)
+1. **sound**: Name der Audiodatei (z. B. `default`, `custom_sound.mp3`) – lassen Sie das Feld für die Standardeinstellung leer
+1. **badge**: Badge-Nummer, die auf dem App-Symbol (iOS) angezeigt wird – verwenden Sie nur Zahlen
+1. **deeplinkURI**: Deep-Link-URL, die beim Tippen auf eine Benachrichtigung geöffnet werden soll – lassen Sie das Feld leer, wenn nicht verwendet
+1. **category**: Kennung der Benachrichtigungskategorie für benutzerdefinierte Aktionen (iOS) – lassen Sie das Feld leer, wenn nicht verwendet
+1. **iosMediaAttachmentURL**: URL des Medienanhangs für iOS-Benachrichtigungen – lassen Sie das Feld leer, wenn nicht verwendet
+1. **androidMediaAttachmentURL**: URL des Medienanhangs für Android-Benachrichtigungen – lassen Sie das Feld leer, wenn nicht verwendet
+1. **isContentAvailable**: Flag für verfügbaren Inhalt (iOS) – verwenden Sie `1` für „wahr“, `0` für „falsch“ und lassen Sie das Feld leer für den Standardwert (0)
+1. **isMutableContent**: Flag für veränderlichen Inhalt (iOS) – verwenden Sie `1` für „wahr“, `0` für „falsch“ und lassen Sie das Feld leer für den Standardwert (0)
+1. **customFields**: Benutzerdefinierte Daten im JSON-Format (z. B. `{"key1":"value1","key2":"value2"}`) – lassen Sie das Feld leer, wenn nicht verwendet
+1. **locale**: Sprach-Code (erforderlich) – z. B. `en_us`, `fr_fr`, `de_de` – **obligatorisch, muss pro Zeile eindeutig sein**
+1. **language**: Sprachname (erforderlich) – z. B. `English-United States`, `French-France` – **obligatorisch**
+1. **silentPush**: Flag für stilles Pushen – verwenden Sie `1` für stilles Pushen, `0` für reguläres Pushen und lassen Sie das Feld leer für den Standardwert (0)
 
 ### Beispiel einer CSV-Datei {#csv-examples}
 
-Im Folgenden finden Sie ein einfaches Beispiel mit den Pflichtfeldern:
+Im Folgenden finden Sie ein einfaches Beispiel mit den obligatorischen Feldern:
 
 ```csv
 title,messageBody,sound,badge,deeplinkURI,category,iosMediaAttachmentURL,androidMediaAttachmentURL,isContentAvailable,isMutableContent,customFields,locale,language,silentPush
@@ -225,9 +225,9 @@ Nouvelle Collection,Découvrez nos derniers produits,default,1,,,,,,,"{"campaign
 >
 >Für Rich-Push-Benachrichtigungen mit Karussells oder Aktionsschaltflächen verwendet Campaign eine andere Konfigurationsmethode als den CSV-Import. Konfigurieren Sie Rich-Push-Inhalte direkt im Versand-Editor nach dem Import grundlegender mehrsprachiger Inhalte.
 
-### Personalization in CSV-Dateien {#csv-personalization}
+### Personalisierung in CSV-Dateien {#csv-personalization}
 
-Um Personalisierungsfelder in Ihren CSV-Inhalten zu verwenden, müssen Sie `<span>` Tags verwenden:
+Um Personalisierungsfelder in Ihren CSV-Inhalten zu verwenden, müssen Sie `<span>`-Tags verwenden:
 
 ```csv
 title,messageBody,sound,badge,deeplinkURI,category,iosMediaAttachmentURL,androidMediaAttachmentURL,isContentAvailable,isMutableContent,customFields,locale,language,silentPush
@@ -241,13 +241,13 @@ Während des Versands ersetzt Campaign diese Platzhalter durch die tatsächliche
 
 | Fehler | Grund | Lösung |
 |-------|-------|----------|
-| Erforderliche Spalten fehlen | CSV-Datei enthält nicht alle 14 Spalten | Stellen Sie sicher, dass Ihre CSV-Datei alle 14 Spalten in der exakt oben gezeigten Reihenfolge enthält. Verwenden Sie leere Werte für nicht verwendete Spalten. |
+| Erforderliche Spalten fehlen | CSV-Datei enthält nicht alle 14 Spalten | Stellen Sie sicher, dass Ihre CSV-Datei alle 14 Spalten exakt in der oben gezeigten Reihenfolge enthält. Verwenden Sie leere Werte für nicht verwendete Spalten. |
 | Ungültige Gebietsschema-/Sprachwerte | Gebietsschema- oder Sprachspalten sind leer | Sowohl die Spalten des Gebietsschemas als auch der Sprache müssen Werte für jede Zeile aufweisen |
-| Doppelte Gebietsschemata | Derselbe Gebietsschema-Code wird mehrmals angezeigt | Jeder Gebietsschemawert muss eindeutig sein - Entfernen doppelter Zeilen |
-| Probleme mit der Dateicodierung | CSV-Datei verwendet eine inkompatible Kodierung | Speichern Sie Ihre CSV-Datei mit UTF-8-Kodierung |
-| Spaltenabweichung | Zeilen haben eine andere Anzahl von Spalten als die Kopfzeile | Stellen Sie sicher, dass alle Zeilen genau 14 Spalten aufweisen, die mit der -Kopfzeile übereinstimmen. |
-| Ungültige numerische Werte | Badge, isContentAvailable, isMutableContent oder silentPush enthalten nicht numerische Werte | Nur Zahlen verwenden: 0 oder 1 für Flags oder leer lassen für Standard |
-| Falsch formatiertes JSON | customFields-Spalte enthält ungültiges JSON | Stellen Sie sicher, dass die JSON-Syntax korrekt ist: `{"key":"value"}` oder leer lassen |
-| Groß-/Kleinschreibung des Spaltennamens stimmt nicht überein | Spaltennamen stimmen nicht genau überein | Bei Spaltennamen wird zwischen Groß- und Kleinschreibung unterschieden. Verwenden Sie die oben aufgeführten exakten Namen (z. B. `badge`, nicht `Badge` oder `BADGE`). |
+| Doppelte Gebietsschemata | Derselbe Gebietsschema-Code wird mehrmals angezeigt | Jeder Gebietsschemawert muss eindeutig sein – entfernen Sie Duplikate |
+| Probleme mit der Datei-Codierung | CSV-Datei verwendet eine inkompatible Codierung | Speichern Sie Ihre CSV-Datei mit der UTF-8-Codierung |
+| Spalte stimmt nicht überein | Zeilen haben eine andere Anzahl von Spalten als die Kopfzeile | Stellen Sie sicher, dass alle Zeilen genau 14 Spalten aufweisen, die mit der Kopfzeile übereinstimmen. |
+| Ungültige numerische Werte | „badge“, „isContentAvailable“, „isMutableContent“ oder „silentPush“ enthalten nicht-numerische Werte | Verwenden Sie nur Zahlen: 0 oder 1 für Flags oder leer lassen für Standard |
+| Fehlerhaftes JSON | Spalte „customFields“ enthält ungültiges JSON | Stellen Sie sicher, dass die JSON-Syntax korrekt ist: `{"key":"value"}` oder leer lassen |
+| Groß-/Kleinschreibung des Spaltennamens stimmt nicht überein | Spaltennamen stimmen nicht genau überein | Bei Spaltennamen wird zwischen Groß- und Kleinschreibung unterschieden – verwenden Sie die oben aufgeführten exakten Namen (z. B. `badge`, nicht `Badge` oder `BADGE`) |
 
->Best Practices sind in diesem Abschnitt [&#128279;](#csv-best-practices). Die Spaltenstruktur wird in diesem [Abschnitt](#csv-columns) beschrieben.
+>Best Practices sind [in diesem Abschnitt aufgeführt](#csv-best-practices). Die Spaltenstruktur wird [in diesem Abschnitt](#csv-columns) beschrieben.

@@ -7,9 +7,9 @@ TQID: https://experienceleague.adobe.com/s8cjbxjs-71srb0hufQBlBgqJhUxBHFSHhBsxID
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
-source-wordcount: 2946
-ht-degree: 99%
+workflow-type: ht
+source-wordcount: 2867
+ht-degree: 100%
 
 ---
 
@@ -19,8 +19,8 @@ Um mit der Erstellung einer Abfrage zu beginnen, greifen Sie je nach der Aktion,
 
 >[!IMPORTANT]
 >
->Eine brandneue Benutzeroberfläche für den Abfrage-Modeler ist verfügbar. Mit dem neuen Regel-Builder können Sie Ihre Abfrage dank der vereinfachten und intuitiven Benutzeroberfläche leichter erstellen. Um zu diesem Erlebnis zu wechseln, klicken Sie auf den Umschalter in der oberen rechten Ecke. Sie können jederzeit zum klassischen Abfrage-Modeler zurückkehren, indem Sie einfach auf den Umschalter klicken, um die neue Benutzeroberfläche zu deaktivieren. Sie können in dieser neuen Benutzeroberfläche dieselben Prinzipien wie beim Abfrage-Modeler anwenden.
->![Bild, das den Umschalter für die neue Benutzeroberfläche des Regel-Builders zeigt](assets/query-modeler-toggle.png){zoomable="yes"}
+>Eine brandneue Benutzeroberfläche für den Abfrage-Modeler ist verfügbar. Mit dem neuen Regel-Builder können Sie Ihre Abfrage dank der vereinfachten Benutzeroberfläche mühelos erstellen. Um zu diesem Erlebnis zu wechseln, klicken Sie rechts oben auf den Umschalter. Sie können jederzeit zum klassischen Abfrage-Modeler zurückkehren, indem Sie einfach erneut auf den Umschalter klicken und die neue Benutzeroberfläche deaktivieren. In der neuen Benutzeroberfläche folgen Sie denselben Prinzipien wie im Abfrage-Modeler.
+>![Bild mit dem Umschalter für die neue Benutzeroberfläche des Regel-Builders](assets/query-modeler-toggle.png){zoomable="yes"}
 
 Sie können zwei Elementtypen hinzufügen:
 
@@ -37,7 +37,7 @@ Sie können zwei Elementtypen hinzufügen:
 
 >[!TAB Neuer Regel-Builder]
 
-![Beispiel für das Hinzufügen von Filterkomponenten zu einer Abfrage.](assets/ruleb-1.png){zoomable="yes"}
+![Beispiel für das Hinzufügen von Filterkomponenten zu einer Abfrage](assets/ruleb-1.png){zoomable="yes"}
 
 >[!ENDTABS]
 
@@ -72,7 +72,7 @@ Um auf diese Option zuzugreifen, klicken Sie in Ihrer Abfrage auf die Schaltflä
 >
 >* Bei Feldern mit vielen Werten werden nur die ersten zwanzig Werte angezeigt. In solchen Fällen werden Sie durch die Benachrichtigung **[!UICONTROL Teilweise geladen]** gewarnt.
 >* Die Option **[!UICONTROL Werteverteilung]** ist in jeder Attributauswahl verfügbar. [Erfahren Sie, wie Sie Attribute auswählen](../get-started/attributes.md)
->* Mithilfe der **[ !Aerweiterten Filter]** können Sie Bedingungen zu den Ergebnissen hinzufügen. [Weitere Informationen finden Sie hier](../get-started/work-with-folders.md#filter-the-values).
+>* Mithilfe der **[!Aerweiterten Filter]** können Sie Bedingungen zu den Ergebnissen hinzufügen. [Weitere Informationen finden Sie hier](../get-started/work-with-folders.md#filter-the-values).
 
 ## Hinzufügen von Filterkomponenten {#filtering}
 
@@ -116,7 +116,7 @@ Gehen Sie wie folgt vor, um Ihre Abfrage mit einer benutzerdefinierten Bedingung
    | Eingeschlossen in | Die ausgegebenen Daten sind in den angegebenen Werten enthalten. Die Werte müssen durch Kommata getrennt werden. | „Geburtsdatum (@birthDate) ist enthalten in ‚10.12.1979,10.12.1984‘“ gibt die Empfängerinnen und Empfänger aus, die zwischen diesen beiden Daten geboren wurden. |
    | Ist nicht enthalten in | Negative Form des Operators „ist enthalten in“. Hier werden Empfängerinnen und Empfänger anhand der eingegebenen Werte ausgeschlossen. | Das Geburtsdatum (@birthDate) ist nicht in &#39;12/10/1979,12/10/1984&#39; enthalten. Empfängerinnen und Empfänger, die innerhalb dieses Datumsbereichs geboren wurden, werden nicht ausgegeben. |
    | Ist leer | Die ausgegebenen Daten stimmen mit einem leeren Wert in der zweiten Spalte überein. | „Mobiltelefon (@mobilePhone) ist leer“ gibt alle Empfängerinnen und Empfänger zurück, die keine Mobiltelefonnummer haben. |
-   | Ist nicht leer | Funktioniert umgekehrt zum Operator Ist leer . Es ist nicht erforderlich, Daten in die zweite Spalte Wert einzugeben. | E-Mail (@email) ist nicht leer. |
+   | Ist nicht leer | Negative Form des Operators „ist leer“. Auch hier wird in der zweiten Wert-Spalte nichts angegeben. | E-Mail (@email) ist nicht leer. |
    | Beginnt mit | Die ausgegebenen Daten beginnen mit dem angegebenen Wert. | Kundennummer (@account) beginnt mit &#39;32010&#39;. |
    | Beginnt nicht mit | Die ausgegebenen Daten beginnen nicht mit dem angegebenen Wert. | Kundennummer (@account) beginnt nicht mit „20“. |
    | Enthält | Die ausgegebenen Daten enthalten den angegebenen Wert. | „E-Mail-Domain (@domain) enthält ‚mail‘“ gibt nur Domain-Namen aus, die den Wert „mail“, z. B. „gmail.com“, enthalten. |

@@ -12,9 +12,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 576
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ Die **[!UICONTROL Versandübersicht]** bietet wichtige Leistungsmetriken (KPIs) 
 
 ![Überblick über die Versandmetriken von Briefpostkampagnen](assets/direct-mail-campaign-overview.png){zoomable="yes"}{align="center"}
 
-+++Weitere Informationen zu Metriken der Versandübersicht.
++++Weitere Informationen zu den Metriken „Versandübersicht“.
 
 * **[!UICONTROL Zu sendende Nachrichten]**: Gesamtzahl der während der Versandvorbereitung verarbeiteten Nachrichten.
 
@@ -60,7 +60,7 @@ Die Tabelle **[!UICONTROL Statistiken der ursprünglichen Zielgruppe]** zeigt Da
 
 ![Statistiken der ursprünglichen Zielgruppe für Briefpostkampagnen](assets/direct-mail-campaign-target-audience.png){zoomable="yes"}
 
-+++Erfahren Sie mehr über die Metriken der ursprünglichen Zielgruppenstatistiken.
++++Weitere Informationen zu den Statistikmetriken der ursprünglichen Zielgruppe.
 
 * **[!UICONTROL Ursprüngliche Zielgruppe]**: Gesamtzahl der Zielgruppenempfängerinnen und -empfänger.
 
@@ -81,7 +81,7 @@ Die Tabelle **[!UICONTROL Statistiken der ursprünglichen Zielgruppe]** zeigt Da
 
 Die Tabelle **[!UICONTROL Ausführungsstatistiken]** bietet eine Aufschlüsselung des Erfolgs jedes Briefpostversands mit folgenden detaillierten Metriken.
 
-+++Weitere Informationen zu Metriken der Versandstatistik.
++++Weitere Informationen zu den Metriken „Versandstatistik“.
 
 * **[!UICONTROL Zu versendende Nachricht(en)]**: Gesamtzahl der nach erfolgter Versandvorbereitung zu versendenden Nachrichten.
 
@@ -104,7 +104,7 @@ Die Tabelle **[!UICONTROL Ausführungsstatistiken]** bietet eine Aufschlüsselun
 
 Die Tabelle **Erzeugte Clickstreams** zeigt die Gründe, warum aus den Zielprofilen ausgeschlossene Benutzerprofile die Nachricht nicht erhalten haben.
 
-+++Erfahren Sie mehr über die Metriken Erzeugte Clickstreams .
++++Weitere Informationen zu den Metriken „Erzeugte Clickstreams“.
 
 * **[!UICONTROL Einzelklicks]**: Gesamtzahl der unterschiedlichen Empfängerinnen und Empfänger, die einen Versand mindestens einmal angeklickt haben.
 

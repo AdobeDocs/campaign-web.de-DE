@@ -10,8 +10,8 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
-source-wordcount: 1661
+workflow-type: ht
+source-wordcount: 1649
 ht-degree: 100%
 
 ---
@@ -163,8 +163,8 @@ Nachdem Sie alle Einstellungen definiert und alle Seiten [entworfen](lp-content.
 
 Durch das Einrichten eines Captcha können Sie Ihre Landingpage vor Spam und Missbrauch schützen.
 
-Um es zu verwenden, navigieren Sie zu den **[!UICONTROL Eigenschaften]** Ihrer Landingpage.
-Sie finden es auch in den **[!UICONTROL zusätzlichen Optionen]**. Aktivieren Sie den Umschalter **[!UICONTROL Captcha-Lösung zusätzlich aktivieren]**.
+Um es zu verwenden, gehen Sie zu **[!UICONTROL Eigenschaften]** auf Ihrer Landingpage.
+Aktivieren Sie in den **[!UICONTROL zusätzlichen Optionen]** auch den Umschalter **[!UICONTROL Zusätzliche CAPTCHA-Lösung aktivieren]**.
 
 ![Screenshot mit dem Umschalter „Zusätzliche Lösung zur Captcha-Aktivierung“](assets/lp-properties-captcha.png){zoomable="yes"}
 

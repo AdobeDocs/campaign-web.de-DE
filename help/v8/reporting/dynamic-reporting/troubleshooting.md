@@ -5,8 +5,8 @@ audience: end-user
 level: Intermediate
 exl-id: a58fc8fd-e510-45ef-8fe9-c75ff4498113
 source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
-workflow-type: tm+mt
-source-wordcount: '1248'
+workflow-type: ht
+source-wordcount: '1146'
 ht-degree: 100%
 
 ---
@@ -21,7 +21,7 @@ Derzeit sind dynamische Berichte nur in Englisch verfügbar.
 
 ## Bei Einzelöffnungen und Einzelklicks entspricht die Zahl in der Aggregat-Zeile nicht der Zahl in den einzelnen Zeilen {#unique-open-clicks-no-match}
 
-Dies ist zu erwarten.
+Dies ist das erwartete Verhalten.
 Im folgenden Beispiel möchten wir dieses Verhalten erläutern.
 
 Eine E-Mail wird an Profil P1 und P2 gesendet.
@@ -29,7 +29,7 @@ Eine E-Mail wird an Profil P1 und P2 gesendet.
 P1 öffnet die E-Mail am ersten Tag zweimal und dann am zweiten Tag dreimal.
 
 P2 öffnet die E-Mail am ersten Tag einmal und an den folgenden Tagen nicht mehr.
-Im Folgenden finden Sie eine Darstellung der Interaktion der Profile mit der gesendeten E-Mail:
+Hier folgt eine visuelle Darstellung der Interaktion des Profils mit der gesendeten E-Mail:
 
 <table> 
  <thead> 
@@ -106,10 +106,10 @@ Solche Ereignisse werden hinzugefügt, da **ein E-Mail-Klick auf eine E-Mail-Öf
 
 ## Wie werden die Zahlen für wiederkehrende Sendungen/den Versand von Transaktionsnachrichten berechnet? {#counts-recurring-deliveries}
 
-Bei wiederkehrenden Sendungen und dem Versand von Transaktionsnachrichten werden die Zahlen sowohl den über- als auch den untergeordneten Sendungen zugeordnet.
-Nehmen Sie zum Beispiel einen wiederkehrenden Versand mit der Bezeichnung **R1**, der täglich an Tag 1 (RC1), Tag 2 (RC2) und Tag 3 (RC3) ausgeführt wird.
-Nehmen wir an, dass nur eine einzige Person alle untergeordneten Sendungen mehrmals geöffnet hat. In diesem Fall wird für die einzelnen wiederkehrenden untergeordneten Sendungen als Anzahl der **[!UICONTROL Öffnungen]** 1 angezeigt.
-Da jedoch dieselbe Person auf alle Sendungen geklickt hat, wird für den übergeordneten wiederkehrenden Versand unter **[!UICONTROL Einzelöffnungen]** ebenfalls 1 angezeigt.
+Bei der Arbeit mit wiederkehrenden und transaktionalen Sendungen werden die Zahlen sowohl den übergeordneten als auch den untergeordneten Sendungen zugeordnet.
+Nehmen wir das Beispiel eines wiederkehrenden Versands mit dem Namen **R1**, der jeden Tag an Tag 1 (RC1), Tag 2 (RC2) und Tag 3 (RC3) ausgeführt werden soll.
+Nehmen wir an, dass nur eine einzige Person alle untergeordneten Sendungen mehrmals geöffnet hat. In diesem Fall zeigen die einzelnen wiederkehrenden untergeordneten Sendungen die Zählung **[!UICONTROL Öffnungen]** für jeden als 1 an.
+Da jedoch dieselbe Person auf alle Sendungen geklickt hat, hat der übergeordnete wiederkehrende Versand auch **[!UICONTROL Einzelöffnungen]** als 1.
 
 Berichte sollten wie folgt aussehen:
 

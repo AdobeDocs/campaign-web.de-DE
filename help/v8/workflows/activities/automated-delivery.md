@@ -1,12 +1,12 @@
 ---
 audience: end-user
-title: Workflow-Aktivität für automatisierten Versand
-description: Erfahren Sie, wie Sie die Workflow-Aktivität für automatisierte Sendungen verwenden
+title: Workflow-Aktivität „Automatischer Versand“
+description: Erfahren Sie, wie Sie die Workflow-Aktivität für automatischen Versand verwenden
 exl-id: a9c485f1-0369-414d-9e43-bedb0390a2f5
 source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '643'
-ht-degree: 23%
+ht-degree: 100%
 
 ---
 
@@ -31,56 +31,56 @@ Die Aktivität **Automatisierter Versand** ermöglicht die Erstellung, Konfigura
 
 Gehen Sie wie folgt vor, um diese Aktivität zu konfigurieren:
 
-1. Definieren der Versandeinstellungen [weitere Informationen](#delivery-settings)
-1. auszuführende Aktion auswählen ([&#x200B; dazu](#action-to-execute)
-1. Einrichten der Transition, [mehr dazu](#transition-to-execute)
-1. Definieren eines Änderungsskripts, [mehr dazu](#script)
+1. Definieren Sie die Versandeinstellungen ([weitere Informationen](#delivery-settings))
+1. Wählen Sie die auszuführende Aktion aus ([weitere Informationen](#action-to-execute))
+1. Konfigurieren Sie die Transition ([weitere Informationen](#transition-to-execute))
+1. Definieren Sie ein Änderungsskripts ([weitere Informationen](#script))
 
 ## Definieren der Versandeinstellungen {#delivery-settings}
 
 Wenn Sie die Aktivität konfigurieren, wählen Sie aus, woher der Versand kommen soll. In diesem Abschnitt stehen zwei Optionen zur Verfügung:
 
-![Screenshot des automatisierten Versands](../assets/automated-delivery.png){zoomable="yes"}
+![Screenshot des automatischen Versands](../assets/automated-delivery.png){zoomable="yes"}
 
-* Wählen Sie **Expliziter Versand** aus, wenn Sie einen vorhandenen Versand bearbeiten möchten, z. B. einen eigenständigen Versand oder einen Versand, der aus einer Kampagne erstellt wurde. Wählen Sie den Versand mithilfe der Schaltfläche **Versand auswählen** aus. Bei jeder Ausführung des Workflows und beim Erreichen dieser Aktivität erfolgt **Versand**. Pro Ausführung wird kein neuer Versand erstellt. Die Aktivität verwendet denselben Versand erneut. Dies ist nützlich, wenn Sie einen einzelnen Versand haben, den Sie vorbereiten oder wiederholt senden möchten, z. B. in einem Zeitplan oder nach einem Validierungsschritt.
+* Wählen Sie **Expliziter Versand** aus, wenn Sie einen vorhandenen Versand bearbeiten möchten, z. B. einen eigenständigen Versand oder einen Versand, der aus einer Kampagne erstellt wurde. Wählen Sie den Versand mit der Schaltfläche **Versand auswählen** aus. Bei jeder Ausführung des Workflows und beim Erreichen dieser Aktivität wird **derselbe** Versand bearbeitet. Es wird kein neuer Versand bei jeder Ausführung erstellt. Die Aktivität verwendet denselben Versand erneut. Dies ist nützlich, wenn Sie einen einzelnen Versand haben, den Sie vorbereiten oder wiederholt senden möchten, z. B. im Rahmen eines Zeitplans oder nach einem Validierungsschritt.
 
 <!-- by default, the list shows unfinished deliveries in the Deliveries folder. You can browse other folders to select a delivery from another campaign. You choose the action to perform (prepare, prepare and start, send a proof, and so on).-->
 
-* Wählen Sie **Neu, basierend auf einer Vorlage** aus, wenn bei jeder Ausführung **Aktivität ein** neuer Versand erstellt werden soll. Wählen Sie mithilfe der Schaltfläche **Vorlage auswählen** die Versandvorlage aus. Jede Ausführung generiert einen neuen Versand basierend auf dieser Vorlage. Verwenden Sie dies, wenn jede Workflow-Ausführung zu einem eigenen Versand führen soll (z. B. eine E-Mail pro Ausführung).
+* Wählen Sie **Neu, basierend auf einer Vorlage erstellt** aus, wenn bei jeder Ausführung der Aktivität ein **neuer** Versand erstellt werden soll. Wählen Sie mit der Schaltfläche **Vorlage auswählen** die Versandvorlage aus. Jede Ausführung generiert einen neuen auf dieser Vorlage basierenden Versand. Verwenden Sie dies, wenn jede Workflow-Ausführung zu einem eigenen Versand führen soll (z. B. eine E-Mail pro Ausführung).
 
 <!-- Unlike the Continuous delivery activity, there is no “append” to a previous execution—each run produces a separate delivery. -->
 
 >[!NOTE]
 >
->Die **In der Transition angegeben** und **Durch Skript berechnet** Optionen, die für erweiterte Anwendungsfälle verwendet werden, können nur in der Client-Konsole konfiguriert werden. Weiterführende Informationen dazu finden Sie in der [Dokumentation zu Campaign v8](https://experienceleague.adobe.com/de/docs/campaign/automation/workflows/wf-activities/action-activities/delivery){target="_blank"}.
+>Die Optionen **Wird durch die Transition angegeben** und **Wird durch Skript berechnet** für erweiterte Anwendungsfälle können nur in der Client-Konsole konfiguriert werden. Weiterführende Informationen dazu finden Sie in der [Dokumentation zu Campaign v8](https://experienceleague.adobe.com/de/docs/campaign/automation/workflows/wf-activities/action-activities/delivery){target="_blank"}.
 
-## Auszuführende Aktion auswählen {#action-to-execute}
+## Auswählen der auszuführenden Aktion {#action-to-execute}
 
-Wählen Sie in diesem Abschnitt aus, wie die Aktivität mit dem Versand umgehen soll. Folgende Optionen stehen zur Verfügung:
+Wählen Sie in diesem Abschnitt aus, wie die Aktivität mit dem Versand vorgehen soll. Folgende Optionen stehen zur Verfügung:
 
-![Screenshot mit den Aktionen, die im automatisierten Versand ausgeführt werden sollen](../assets/automated-delivery2.png){zoomable="yes"}
+![Screenshot der Aktionen, die im automatischen Versand ausgeführt werden sollen](../assets/automated-delivery2.png){zoomable="yes"}
 
 * **Speichern**: Erstellt und speichert den Versand, ohne ihn zu analysieren oder zu versenden.
-* **Zielgruppe schätzen**: Berechnet die Zielgruppe des Versands, um sein Potenzial einzuschätzen (erste Analysephase).
-* **Vorbereiten**: Führt die vollständige Analyse durch (Zielgruppenberechnung und Inhaltsvorbereitung). Der Versand wird nicht durchgeführt.
-* **Testversand durchführen**: Sendet einen Testversand des Versands.
-* **Vorbereiten und starten**: Führt die vollständige Analyse (Zielgruppenberechnung und Inhaltsvorbereitung) aus und sendet den Versand.
+* **Zielgruppe schätzen**: Die Versand-Zielgruppe wird berechnet, um das Potenzial der Kampagne einschätzen zu können (erste Phase der Analyse).
+* **Vorbereiten**: Führt die vollständige Analyse durch (Zielgruppenberechnung und Inhaltsvorbereitung). Der Versand wird nicht gesendet.
+* **Testversand**: Sendet einen Testversand.
+* **Vorbereiten und Starten**: Startet den gesamten Analyseprozess (Zielgruppenberechnung und Inhaltsvorbereitung) und sendet den Versand.
 
 ## Einrichten der Transition {#transition-to-execute}
 
 In diesem Abschnitt können Sie auswählen, ob Sie nach der Aktivität Transitionen generieren möchten. Folgende Optionen stehen zur Verfügung:
 
-![Screenshot mit den Transitionen im automatisierten Versand](../assets/automated-delivery3.png){zoomable="yes"}
+![Screenshot der Transitionen im automatischen Versand](../assets/automated-delivery3.png){zoomable="yes"}
 
-* **Ausgehende Transition erzeugen**: Erzeugt eine ausgehende Transition nach Abschluss der Aktivität.
-* **Transition-Beschriftung**: Ermöglicht die Anpassung der Beschriftung, die auf der Transition auf der Arbeitsfläche angezeigt wird.
+* **Ausgehende Transition erzeugen**: Generiert eine ausgehende Transition, wenn die Aktivität abgeschlossen ist.
+* **Transitionstitel**: Ermöglicht die Anpassung des Labels, das in der Arbeitsfläche auf der Transition angezeigt wird.
 * **Fehler verarbeiten**: Fügt eine zusätzliche Transition für die Fehlerbehandlung hinzu.
 
 ## Definieren eines Änderungsskripts {#script}
 
-Sie können ein Script verwenden, um das Verhalten der Aktivität zu ändern, z. B. Versandparameter wie den Aktivitätstitel. Verwenden Sie dies, wenn Sie benutzerdefinierte Logik für diese Aktivität benötigen.
+Sie können ein Skript verwenden, um das Verhalten der Aktivität zu ändern, z. B. Versandparameter wie das Aktivitäts-Label. Verwenden Sie dies, wenn Sie benutzerdefinierte Logik für diese Aktivität benötigen.
 
-Klicken Sie **Skript erstellen** und schreiben Sie Ihre Änderungslogik in den Editor.
+Klicken Sie auf **Skript erstellen** und schreiben Sie Ihre Änderungslogik im Editor.
 
 ## Verwandte Themen {#related}
 

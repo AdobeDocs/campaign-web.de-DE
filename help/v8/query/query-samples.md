@@ -8,9 +8,9 @@ TQID: https://experienceleague.adobe.com/ho7HNrKlPzv5i-ar4T-GZpVQPLpHzzbH4xrAUdJ
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 180
-ht-degree: 60%
+ht-degree: 100%
 
 ---
 
@@ -34,4 +34,4 @@ ht-degree: 60%
 
 * Senden Sie einen Folgeversand.
 
-  Versand eines „Sommersportangebots“. Vier Tage nach dem Versand werden zwei weitere Sendungen durchgeführt. Eine davon ist ein „Wassersport-Angebot“, die andere ist ein Folgeversand für das erste Sommersport-Angebot. Der Versand „Wassersportangebot“ wird an Empfänger gesendet, die im ersten Versand auf den Link „Wassersport“ geklickt haben. Diese Klicks zeigen, dass der Empfänger an dem Thema interessiert ist. Es ist sinnvoll, sie auf ähnliche Angebote auszurichten. Empfänger, die das „Sommersportangebot“ nicht angeklickt haben, erhalten jedoch wieder denselben Inhalt.
+  Ein Versand „Sommersportangebot“ wird gesendet. Vier Tage nach dem Versand werden zwei weitere Sendungen gesendet. Eine davon ist ein „Wassersport-Angebot“, die andere ist ein Folgeversand für das erste Sommersport-Angebot. Der Versand „Wassersport-Angebot“ wird an Empfangende gesendet, die im ersten Versand auf den Link „Wassersport“ geklickt haben. Diese Klicks zeigen, dass die empfangende Person an dem Thema interessiert ist. Es ist sinnvoll, sie zu ähnlichen Angeboten zu leiten. Empfangende, die nicht auf das „Sommersportangebot“ geklickt haben, erhalten jedoch wieder denselben Inhalt.

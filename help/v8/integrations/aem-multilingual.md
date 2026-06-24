@@ -1,7 +1,7 @@
 ---
 audience: end-user
 title: Erstellen mehrsprachiger E-Mails mit Adobe Experience Manager
-description: Erfahren Sie, wie Sie mehrsprachige E-Mail-Sendungen mithilfe von Adobe Experience Manager-Sprachkopien in Campaign Web erstellen.
+description: Erfahren Sie, wie Sie in Campaign Web mehrsprachige E-Mail-Sendungen mit Adobe Experience Manager-Sprachkopien erstellen.
 feature: Email
 topic: Content Management
 role: User
@@ -17,33 +17,33 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 527
-ht-degree: 5%
+ht-degree: 100%
 
 ---
 
 # Erstellen mehrsprachiger E-Mails mit Adobe Experience Manager {#aem-multilingual}
 
-Die Adobe Experience Manager-Integration ermöglicht es Ihnen, mehrsprachige E-Mail-Sendungen mithilfe von Adobe Experience Manager-Sprachkopien zu erstellen. Auf diese Weise können Sie Inhaltsvarianten in verschiedenen Sprachen verwalten und basierend auf den Voreinstellungen der Empfängersprache personalisierte E-Mails versenden.
+Die Adobe Experience Manager-Integration ermöglicht es Ihnen, mehrsprachige E-Mail-Sendungen mit Adobe Experience Manager-Sprachkopien zu erstellen. Auf diese Weise können Sie Inhaltsvarianten in verschiedenen Sprachen verwalten und basierend auf den Voreinstellungen der Empfängersprache personalisierte E-Mails versenden.
 
 ## Voraussetzungen {#prerequisites}
 
 Bevor Sie einen mehrsprachigen E-Mail-Versand erstellen, stellen Sie Folgendes sicher:
 
-* Zugriff auf eine Adobe Experience Manager-Instanz, die für die Adobe Campaign-Web-Schnittstellenintegration konfiguriert ist.
-* Adobe Experience Manager-Inhalte mit Sprachkopien wurden bereits erstellt und genehmigt. Weitere Informationen zum Sprachkopie-Assistenten finden Sie in der Dokumentation zu [Adobe Experience Manager](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/sites/administering/reusing-content/translation/wizard)
-* E-Mail-Versandvorlage für den Empfang von Adobe Experience Manager-Inhalten konfiguriert. Siehe die Schritte, die im Abschnitt [Mehrsprachigen Modus aktivieren](#enable-multilingual) beschrieben sind.
+* Sie haben Zugriff auf eine Adobe Experience Manager-Instanz, die für die Integration der Adobe Campaign Web-Benutzeroberfläche konfiguriert ist.
+* Adobe Experience Manager-Inhalte mit Sprachkopien wurden bereits erstellt und genehmigt. Weitere Informationen zum Sprachkopie-Assistenten finden Sie in der [Dokumentation zu Adobe Experience Manager](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/sites/administering/reusing-content/translation/wizard).
+* Sie haben eine E-Mail-Versandvorlage, die für den Empfang von Adobe Experience Manager-Inhalten konfiguriert ist. In den Schritten im Abschnitt [Aktivieren des mehrsprachigen Modus](#enable-multilingual) finden Sie weitere Informationen.
 
 ## Erstellen eines mehrsprachigen Versands
 
-Um einen mehrsprachigen E-Mail-Versand zu erstellen, müssen Sie zunächst die Option Mehrsprachig in Ihren Versandeinstellungen aktivieren. Das System erkennt automatisch verfügbare Sprachkopien und ermöglicht die Auswahl der hinzuzufügenden Sprachkopien.
+Um einen mehrsprachigen E-Mail-Versand zu erstellen, müssen Sie zunächst die Option für Mehrsprachigkeit in den Versandeinstellungen aktivieren. Das System erkennt automatisch verfügbare Sprachkopien und ermöglicht die Auswahl der hinzuzufügenden Sprachkopien.
 
-### Mehrsprachigen Modus aktivieren {#enable-multilingual}
+### Aktivieren des mehrsprachigen Modus {#enable-multilingual}
 
-Erstellen Sie einen neuen Versand und aktivieren Sie die Option Mehrsprachig in den erweiterten Einstellungen.
+Erstellen Sie einen neuen Versand und aktivieren Sie die Option für Mehrsprachigkeit in den erweiterten Einstellungen.
 
-1. Klicken Sie **[!UICONTROL Menü]** Sendungen **[!UICONTROL auf Versand erstellen]**.
+1. Klicken Sie im Menü **[!UICONTROL Sendungen]** auf **[!UICONTROL Versand erstellen]**.
 
    ![](assets/lg-copy-1.png)
 
@@ -51,20 +51,20 @@ Erstellen Sie einen neuen Versand und aktivieren Sie die Option Mehrsprachig in 
 
    ![](assets/lg-copy-2.png)
 
-1. Geben Sie einen Titel für den Versand ein und konfigurieren Sie Ihre Audience. [Weitere Informationen](../email/create-email.md)
+1. Geben Sie ein Label für den Versand ein und konfigurieren Sie Ihre Zielgruppe. [Weitere Informationen](../email/create-email.md)
 
-1. Rufen Sie Ihren Versand **[!UICONTROL Einstellungen]** auf und navigieren Sie dann zum Abschnitt **[!UICONTROL Erweitert]**.
+1. Rufen Sie die **[!UICONTROL Einstellungen]** für Ihren Versand auf und navigieren Sie dann zum Abschnitt **[!UICONTROL Erweitert]**.
 
-1. Aktivieren Sie die **[!UICONTROL Mehrsprachige AEM aktivieren]**.
+1. Aktivieren Sie die Option **[!UICONTROL Mehrsprachige AEM-Version aktivieren]**.
 
    ![](assets/lg-copy-3.png)
 
-1. Stellen Sie sicher, dass:
+1. Stellen Sie Folgendes sicher:
 
-   * **[!UICONTROL Inhaltsbearbeitungsmodus]** ist auf **[!UICONTROL AEM&quot;]**.
-   * Das richtige Adobe Experience Manager **[!UICONTROL Externes Konto]** ist ausgewählt.
+   * **[!UICONTROL Inhaltsbearbeitungsmodus]** ist auf **[!UICONTROL AEM]** eingestellt.
+   * Das korrekte **[!UICONTROL Externe Konto]** von Adobe Experience Manager ist ausgewählt.
 
-1. Klicken Sie **[!UICONTROL Speichern und schließen]**.
+1. Klicken Sie auf **[!UICONTROL Speichern und schließen]**.
 
 ### Inhaltsvarianten erstellen {#create-variants}
 
@@ -72,7 +72,7 @@ Wählen Sie Ihre Adobe Experience Manager-Inhalte und die Sprachvarianten aus, d
 
 1. Klicken Sie auf **[!UICONTROL Inhalt bearbeiten]**.
 
-1. Wählen **[!UICONTROL Inhaltsvariante erstellen]** aus.
+1. Wählen Sie **[!UICONTROL Inhaltsvariante erstellen]** aus.
 
    ![](assets/lg-copy-4.png)
 
@@ -80,7 +80,7 @@ Wählen Sie Ihre Adobe Experience Manager-Inhalte und die Sprachvarianten aus, d
 
    ![](assets/lg-copy-5.png)
 
-1. Das System erkennt alle Sprachkopien, die mit dem ausgewählten Inhalt verknüpft sind (Beziehung zwischen über- und untergeordneten Elementen), z. B. wenn Ihr Adobe Experience Manager-Inhalt Varianten auf Französisch, Deutsch und Italienisch aufweist, können alle Varianten ausgewählt werden.
+1. Das System erkennt alle Sprachkopien, die mit dem ausgewählten Inhalt verknüpft sind (Beziehung zwischen über- und untergeordneten Elementen). Wenn Ihr Adobe Experience Manager-Inhalt z. B. Varianten auf Französisch, Deutsch und Italienisch aufweist, können alle Varianten ausgewählt werden.
 
    Wählen Sie die Sprachvarianten aus, die Sie in Ihren Versand aufnehmen möchten.
 
@@ -88,7 +88,7 @@ Wählen Sie Ihre Adobe Experience Manager-Inhalte und die Sprachvarianten aus, d
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
-1. Überprüfen Sie Ihre Sprachvarianten im Inhaltseditor. Sie können jetzt [jede Variante einzeln verwalten](#manage-variants) oder mit dem [Versand) &#x200B;](../monitor/prepare-send.md).
+1. Überprüfen Sie Ihre Sprachvarianten im Inhaltseditor. Sie können jetzt [jede Variante einzeln verwalten](#manage-variants) oder [den Versand absenden](../monitor/prepare-send.md).
 
    ![](assets/lg-copy-7.png)
 
@@ -96,13 +96,13 @@ Wählen Sie Ihre Adobe Experience Manager-Inhalte und die Sprachvarianten aus, d
 
 Nachdem Sie Inhaltsvarianten erstellt haben, können Sie sie direkt im Versand verwalten:
 
-1. Um eine Standardsprache festzulegen, rufen Sie das erweiterte Menü für Ihre ausgewählte Variante auf und wählen Sie **[!UICONTROL Als Standard festlegen]** aus. Die Standardsprache wird verwendet, wenn die Spracheinstellung eines Profils nicht festgelegt ist oder mit keiner verfügbaren Variante übereinstimmt.
+1. Um eine Standardsprache festzulegen, rufen Sie das erweiterte Menü für Ihre ausgewählte Variante auf und wählen Sie **[!UICONTROL Als Standard festlegen]** aus. Wenn die Spracheinstellung eines Profils nicht festgelegt ist oder mit keiner verfügbaren Variante übereinstimmt, wird die Standardsprache verwendet.
 
-   Klicken Sie **[!UICONTROL Löschen]**, um alle Varianten aus Ihrem Versand zu entfernen.
+   Klicken Sie auf **[!UICONTROL Löschen]**, um alle Varianten aus Ihrem Versand zu entfernen.
 
    ![](assets/lg-copy-8.png)
 
-1. Klicken Sie im erweiterten Menü Inhaltsvarianten auf **[!UICONTROL Gebietsschemata verwalten]**, um weitere Gebietsschemata zu Ihrem Versand hinzuzufügen.
+1. Klicken Sie im erweiterten Menü der Inhaltsvarianten auf **[!UICONTROL Gebietsschemata verwalten]**, um weitere Gebietsschemata zu Ihrem Versand hinzuzufügen.
 
    ![](assets/lg-copy-9.png)
 
@@ -114,8 +114,8 @@ Nachdem Sie Inhaltsvarianten erstellt haben, können Sie sie direkt im Versand v
 
    ![](assets/lg-copy-10.png)
 
-1. Klicken Sie **[!UICONTROL Verknüpfung zu AEM-]** aufheben), wenn Sie Inhalte direkt in Campaign bearbeiten oder den Link mit Adobe Experience Manager aufheben möchten.
+1. Klicken Sie auf **[!UICONTROL Verknüpfung von AEM-Inhalt aufheben]**, wenn Sie Inhalte direkt in Campaign bearbeiten oder die Verknüpfung mit Adobe Experience Manager aufheben möchten.
 
    >[!CAUTION]
    >
-   >Nach dem Aufheben der Verknüpfung können Sie Inhalte nicht mehr aus Adobe Experience Manager aktualisieren oder neue Varianten erstellen. Der Inhalt wird unabhängig von Adobe Experience Manager.
+   >Nach dem Aufheben der Verknüpfung können Sie Inhalte nicht mehr aus Adobe Experience Manager aktualisieren oder neue Varianten erstellen. Der Inhalt ist dann unabhängig von Adobe Experience Manager.

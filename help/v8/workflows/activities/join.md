@@ -1,12 +1,12 @@
 ---
 audience: end-user
-title: Verwenden der Workflow-Aktivität „Zusammenführen“
-description: Erfahren Sie, wie Sie die Workflow-Aktivität „Zusammenführen“ verwenden
+title: Verwenden der Workflow-Aktivität „Join“
+description: Erfahren Sie, wie Sie die Workflow-Aktivität „Join“ verwenden
 exl-id: 2470e5fa-5596-4441-b9b9-7e8b5d1d53aa
 source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
-workflow-type: tm+mt
-source-wordcount: '489'
-ht-degree: 58%
+workflow-type: ht
+source-wordcount: '473'
+ht-degree: 100%
 
 ---
 
@@ -28,15 +28,15 @@ ht-degree: 58%
 >title="Aktivität „Zusammenführen“"
 >abstract="Mit der Aktivität **Join** können Sie mehrere eingehende Transitionen zusammenführen. Wählen Sie aus, ob der Vorgang fortgesetzt werden soll, wenn alle eingehenden Transitionen abgeschlossen sind (UND) oder wenn eine beliebige eingehende Transition abgeschlossen ist (ODER)."
 
-Die Aktivität **Zusammenführen** ist eine Aktivität **Fluss-Steuerung**. Sie synchronisiert mehrere Ausführungszweige eines Workflows.
+Die Aktivität **Join** ist eine **Flusssteuerungsaktivität**. Sie synchronisiert mehrere Ausführungszweige eines Workflows.
 Sie können auswählen, wie eingehende Transitionen ausgewertet werden sollen:
 
-* **AND**: Wird nur fortgesetzt, nachdem alle ausgewählten eingehenden Transitionen aktiviert wurden.
-* **OR**: Wird fortgesetzt, sobald eine ausgewählte eingehende Transition aktiviert wird.
+* **UND:** Wird nur fortgesetzt, nachdem alle ausgewählten eingehenden Transitionen aktiviert wurden.
+* **ODER:** Wird fortgesetzt, sobald eine ausgewählte eingehende Transition aktiviert wird.
 
-Wenn **AND** ausgewählt ist, wird die ausgehende Transition erst dann durch diese Aktivität Trigger, wenn alle eingehenden Transitionen aktiviert wurden. Das heißt, sie wird aktiviert, sobald alle vorangehenden Aktivitäten beendet sind. Auf diese Weise wird sichergestellt, dass bestimmte Aktivitäten abgeschlossen sind, bevor Sie mit der Ausführung des Workflows fortfahren.
+Wenn **UND** ausgewählt ist, löst diese Aktivität die ausgehende Transition erst aus, nachdem alle eingehenden Transitionen aktiviert wurden. Das heißt, sie wird aktiviert, sobald alle vorangehenden Aktivitäten beendet sind. Auf diese Weise wird sichergestellt, dass bestimmte Aktivitäten abgeschlossen sind, bevor Sie mit der Ausführung des Workflows fortfahren.
 
-Wenn **OR** ausgewählt ist, wird die Ausführung fortgesetzt, sobald eine der ausgewählten eingehenden Transitionen aktiviert wird. Es wartet nicht auf jede Verzweigung.
+Wenn **ODER** ausgewählt ist, wird die Ausführung fortgesetzt, sobald eine der ausgewählten eingehenden Transitionen aktiviert wird. Dabei wird nicht auf jede Verzweigung gewartet.
 
 ## Konfigurieren der Join-Aktivität {#join-configuration}
 
@@ -45,15 +45,15 @@ Wenn **OR** ausgewählt ist, wird die Ausführung fortgesetzt, sobald eine der a
 >title="Zusammenführungssoptionen"
 >abstract="Wählen Sie die Aktivitäten aus, die Sie verknüpfen möchten. Wählen Sie in der Dropdown-Liste **Hauptmenge** die Population der eingehenden Transition aus, die Sie beibehalten möchten."
 
-Führen Sie die folgenden Schritte aus, um die Aktivität **Zusammenführen** zu konfigurieren:
+Führen Sie die folgenden Schritte aus, um die Aktivität **Join** zu konfigurieren:
 
-1. Fügen Sie mehrere Aktivitäten wie z. B. Kanalaktivitäten hinzu, um mindestens zwei verschiedene Ausführungszweige zu bilden. Sie können einen **Verzweigung** verwenden oder eine separate Verzweigung mit der Symbolleistenschaltfläche **Verzweigung hinzufügen** (+) hinzufügen. Siehe [Aktivitäten &#x200B;](../orchestrate-activities.md#toolbar).
+1. Fügen Sie mehrere Aktivitäten wie z. B. Kanalaktivitäten hinzu, um mindestens zwei verschiedene Ausführungszweige zu bilden. Sie können einen **Verzweigung** verwenden oder einen separaten Zweig mit der Symbolleistenschaltfläche **Verzweigung hinzufügen** (+) hinzufügen. Siehe [Orchestrieren von Aktivitäten](../orchestrate-activities.md#toolbar).
 
    ![Screenshot mit zwei Verzweigungen.](../assets/workflow-join.png)
 
-1. Fügen Sie **Aktivität „Zusammenführen** zu einem der Zweige hinzu.
+1. Fügen Sie eine Aktivität **Join** zu einer beliebigen Verzweigung hinzu.
 
-   ![Screenshot mit der hinzugefügten Aktivität „Zusammenführen“.](../assets/workflow-join2.png)
+   ![Screenshot mit hinzugefügter Aktivität „Join“.](../assets/workflow-join2.png)
 
 1. Wählen Sie in den Join-Optionen **UND** oder **ODER** und klicken Sie auf **Weiter**.
 1. Aktivieren Sie im Abschnitt **Zusammenführungsoptionen** alle vorherigen Aktivitäten, denen Sie beitreten möchten.
@@ -61,12 +61,12 @@ Führen Sie die folgenden Schritte aus, um die Aktivität **Zusammenführen** zu
 
    >[!NOTE]
    >
-   >Das Primäre Feld **&#x200B;**&#x200B;ist nur für die Join **Option „AND** verfügbar.
+   >Das Feld **Hauptmenge** ist nur für die Join-Option **UND** verfügbar.
 
    ![Screenshot mit konfiguriertem Join.](../assets/workflow-join3.png)
 
 ## Beispiel {#join-example}
 
-Das folgende Beispiel zeigt zwei Workflow-Verzweigungen mit einem E-Mail- und SMS-Versand. Die **Zusammenführen**-Aktivität, die auf **UND** festgelegt ist, führt zu Triggern, wenn beide eingehenden Transitionen aktiviert sind. Push-Benachrichtigungen werden erst dann gesendet, wenn beide Sendungen abgeschlossen sind. Wenn Sie die Join-Option auf **ODER** setzen, werden die Push-Benachrichtigungen gesendet, sobald die erste eingehende Versandaktivität abgeschlossen ist.
+Das folgende Beispiel zeigt zwei Workflow-Verzweigungen mit einem E-Mail- und SMS-Versand. Die Aktivität **Join**, auf **UND** eingestellt, wird ausgelöst, wenn beide eingehenden Transitionen aktiviert werden. Push-Benachrichtigungen werden erst dann gesendet, wenn beide Sendungen abgeschlossen sind. Wenn Sie die Join-Option auf **ODER** setzen, werden die Push-Benachrichtigungen gesendet, sobald die erste eingehende Versandaktivität abgeschlossen ist.
 
 ![Beispiel eines Workflows mit zwei Verzweigungen, der den E-Mail- und SMS-Versand gefolgt von Push-Benachrichtigungen anzeigt](../assets/workflow-join4.png){zoomable="yes"}

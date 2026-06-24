@@ -10,9 +10,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 624
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ Der Bericht zur **[!UICONTROL Versandübersicht]** liefert Leistungskennzahlen (
 
 ![Versandübersichtsmetriken mit KPIs in Bezug auf die Leistung von Push-Benachrichtigungen.](assets/global_report_push_delivery_overview.png){zoomable="yes"}
 
-+++Weitere Informationen zu Metriken der Versandübersicht.
++++Weitere Informationen zu den Metriken „Versandübersicht“.
 
 * **[!UICONTROL Zu sendende Nachrichten]**: Gesamtzahl der während der Versandvorbereitung verarbeiteten Nachrichten.
 
@@ -58,7 +58,7 @@ Die Tabelle und der Graph **[!UICONTROL Zielgruppe]** enthalten Daten zu den Emp
 
 ![Zielgruppen-Metriken, die Daten zu Empfängerinnen und Empfängern sowie Ausschlüssen für Push-Benachrichtigungen anzeigen.](assets/global_report_push_targeted_audience.png){zoomable="yes"}
 
-+++Weitere Informationen zu Metriken für Zielgruppen.
++++Weitere Informationen zu den Metriken „Zielgruppe“.
 
 * **[!UICONTROL Zielgruppe]**: Gesamtzahl der angesprochenen Empfängerinnen und Empfänger.
 
@@ -79,7 +79,7 @@ Die Tabelle **[!UICONTROL Versandstatistik]** zeigt den Erfolg jedes einzelnen P
 
 ![Versandstatistik-Metriken, die Erfolgsraten, Fehler und Quarantänen für Push-Benachrichtigungen anzeigen.](assets/global_report_push_delivery_statistics.png){zoomable="yes"}
 
-+++Weitere Informationen zu Metriken der Versandstatistik.
++++Weitere Informationen zu den Metriken „Versandstatistik“.
 
 * **[!UICONTROL Nachrichten gesamt]**: Gesamtzahl der nach erfolgter Versandvorbereitung zu versendenden Nachrichten.
 

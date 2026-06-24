@@ -10,9 +10,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1334
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -178,7 +178,7 @@ Gehen Sie wie folgt vor, um eine Transaktionsnachricht zu erstellen:
    * [Eigenschaften der Transaktionsnachricht](#transactional-properties)
    * [Kontextbeispiel](#context-sample)
    * [Nachrichteninhalt](#transactional-content)
-und [Konfigurieren Sie den Ereignistyp](#event-type) wie unten beschrieben.
+und [konfigurieren Sie den Ereignistyp](#event-type) wie unten beschrieben.
 
 * Klicken Sie nach der [Validierung Ihrer Transaktionsnachricht](validate-transactional.md) auf die Schaltfläche **[!UICONTROL Überprüfen und veröffentlichen]**, um Ihre Nachricht zu erstellen und zu veröffentlichen. Die Trigger können jetzt den Versand Ihrer Transaktionsnachricht per Push durchführen.
 

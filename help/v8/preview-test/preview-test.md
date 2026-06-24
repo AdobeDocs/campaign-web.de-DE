@@ -9,9 +9,9 @@ product_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 229
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Sobald der Versandinhalt definiert ist, können Sie ihn vor dem Senden der Nachr
 * [Anzeigen des Nachrichteninhalts und der Personalisierung in einer Vorschau](preview-content.md)
 * [Durchführen von Testsendungen](test-deliveries.md) für bestimmte Empfängerinnen und Empfänger bzw. Abonnentinnen und Abonnenten zu Test- und Validierungszwecken
 * [Überprüfen des E-Mail-Renderings](email-rendering.md) in beliebten Desktop-, Mobile- und Web-basierten Clients
-* [Validieren der Inhaltsqualität](../content/brands-score.md#validate-quality) um Lesbarkeit, CTA-Effektivität, Betreffzeilenqualität und mehr zu bewerten
+* [Validieren Sie die Inhaltsqualität](../content/brands-score.md#validate-quality), um Lesbarkeit, CTA-Effektivität, Betreffzeilenqualität und mehr zu bewerten
 * [Erstellen einer Vorschau und Testen Ihrer Landingpages](../landing-pages/create-lp.md#test-landing-page)
 
 Führen Sie diese Aktionen über die Schaltfläche **[!UICONTROL Inhalte simulieren]** aus, auf die über den Bildschirm „Inhalt bearbeiten“ Ihres Versands oder über den [E-Mail-Designer](../email/get-started-email-designer.md) zugegriffen werden kann.

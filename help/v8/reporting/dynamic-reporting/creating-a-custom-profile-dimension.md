@@ -6,9 +6,9 @@ content-type: reference
 level: Intermediate
 exl-id: a12dc772-13c7-45ff-9fbf-3dfdd3801eae
 source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
-workflow-type: tm+mt
-source-wordcount: '477'
-ht-degree: 97%
+workflow-type: ht
+source-wordcount: '517'
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Um ein neues Profilfeld hinzuzufügen, müssen Sie Ihr Schema erweitern. Gehen S
 
    ![](assets/custom_field_1.png)
 
-1. Identifizieren Sie Ihr benutzerdefiniertes Empfängerschema und wählen Sie es aus. Wenn Sie das integrierte Schema nms:recipient noch nicht erweitert haben, lesen Sie [dieses Verfahren](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema).
+1. Identifizieren Sie Ihr benutzerdefiniertes Empfängerschema und wählen Sie es aus. Wenn Sie das integrierte nms:recipient-Schema noch nicht erweitert haben, lesen Sie [dieses Verfahren](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema).
 
 1. Fügen Sie dem Schema-Editor das benutzerdefinierte Feld hinzu.
 
@@ -54,7 +54,7 @@ Um ein neues Profilfeld hinzuzufügen, müssen Sie Ihr Schema erweitern. Gehen S
 
    ![](assets/custom_field_4.png)
 
-Ihr neues Profilfeld kann jetzt verwendet und von Empfangenden ausgewählt werden.
+Ihr neues Profilfeld kann jetzt verwendet und von Empfängern ausgewählt werden.
 
 ## Schritt 2: Verknüpfen Ihres neuen benutzerdefinierten Feldes {#link-custom}
 
@@ -64,7 +64,7 @@ Ihr neues Profilfeld kann jetzt verwendet und von Empfangenden ausgewählt werde
 
 Nachdem Ihr Profilfeld erstellt ist, müssen wir es jetzt mit der entsprechenden Dimension für dynamische Berichte verknüpfen.
 
-Bevor das Protokoll mit unserem Profilfeld erweitert werden kann, muss das PII-Fenster akzeptiert werden, damit personenbezogene Daten an den dynamischen Bericht gesendet werden können. Weiterführende Informationen hierzu finden Sie auf [dieser Seite](pii-agreement.md).
+Bevor das Protokoll mit unserem Profilfeld erweitert werden kann, muss das PII-Fenster akzeptiert werden, damit personenbezogene Daten an den dynamischen Bericht gesendet werden können. Weiterführende Informationen hierzu finden Sie auf dieser [Seite](pii-agreement.md).
 
 1. Navigieren Sie im Explorer zum Ordner **[!UICONTROL Administration]** > **[!UICONTROL Konfiguration]** > **[!UICONTROL Datenschemata]** > **[!UICONTROL Zusätzliches Berichtsfeld]**.
 
@@ -90,7 +90,7 @@ Nachdem das Empfängerschema nun um dieses Profilfeld erweitert und Ihre benutze
 
 Nach dem Versand Ihrer Nachricht können Sie die Berichte mithilfe Ihrer Profildimension aufschlüsseln.
 
-1. Wählen Sie auf der Registerkarte **[!UICONTROL Berichte]** einen vordefinierten Bericht oder die Schaltfläche **[!UICONTROL Erstellen]**, um einen neuen Bericht zu erstellen.
+1. Wählen Sie im Tab **[!UICONTROL Berichte]** einen vordefinierten Bericht oder die Schaltfläche **[!UICONTROL Erstellen]**, um einen neuen Bericht zu erstellen.
 
    ![](assets/custom_field_8.png)
 

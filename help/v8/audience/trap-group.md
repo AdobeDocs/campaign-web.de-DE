@@ -9,9 +9,9 @@ product_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 429
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ Navigieren Sie zum Einrichten einer **[!UICONTROL Fallen-Gruppe]** zu den **[!UI
 * [Auswählen der Testprofile](#select-test-profiles)
 * [Erstellen einer Bedingung](#create-condition)
 
-[Screenshot der Oberfläche für Trap-Gruppeneinstellungen](assets/trap-group.png){zoomable="yes"}
+[Screenshot der Benutzeroberfläche mit Einstellungen für die Trap-Gruppe](assets/trap-group.png){zoomable="yes"}
 
 ### Auswählen der Testprofile {#select-test-profiles}
 
@@ -58,28 +58,28 @@ Wenn Sie auf die Schaltfläche klicken, erhalten Sie Zugriff auf die Testprofile
 
 Sie können außerdem neue Testprofile erstellen. [Weitere Informationen](#create-seed)
 
-[Screenshot der Benutzeroberfläche für Testprofile auswählen](assets/trap-select-test-profiles.png){zoomable="yes"}
+[Screenshot der Benutzeroberfläche zur Auswahl der Testprofile](assets/trap-select-test-profiles.png){zoomable="yes"}
 
 Prüfen Sie nach dem Bestätigen der Testprofile, ob unter **[!UICONTROL Fallen-Gruppe]** die richtige Anzahl angezeigt wird.
 
-[Bestätigungs-Screenshot einer Trap-Gruppe](assets/trap-check.png){zoomable="yes"}
+[Screenshot der Bestätigung für Trap-Gruppe](assets/trap-check.png){zoomable="yes"}
 
 ### Erstellen einer Bedingung {#create-condition}
 
 Mit der Option **[!UICONTROL Bedingung erstellen]** erstellen Sie eine Abfrage, um die Testprofile zu definieren, die Sie verwenden möchten:
 
-[Screenshot der Benutzeroberfläche für Bedingungen erstellen](assets/trap-create-condition.png){zoomable="yes"}
+[Screenshot der Benutzeroberfläche zum Erstellen einer Bedingung](assets/trap-create-condition.png){zoomable="yes"}
 
 Ihre Abfrage wird unter **[!UICONTROL Trap-Gruppe]** angezeigt.
 
-[Screenshot der Trap-Gruppen-Abfrage](assets/trap-custom.png){zoomable="yes"}
+[Screenshot mit der Anzeige der Abfrage für die Trap-Gruppe](assets/trap-custom.png){zoomable="yes"}
 
 ## Erstellen eines neuen Testprofils {#create-seed}
 
 Sie können ein neues **[!UICONTROL Testprofil]** unter **[!UICONTROL Explorer]** > **[!UICONTROL Ressourcen]** > **[!UICONTROL Kampagnenverwaltung]** > **[!UICONTROL Testempfänger]** erstellen.
 
-[Screenshot zur Erstellung der Testprofil-Navigation](assets/trap-create.png){zoomable="yes"}
+[Screenshot der Navigation für das Erstellen von Testprofilen](assets/trap-create.png){zoomable="yes"}
 
 Konfigurieren Sie alle Einstellungen für Ihr **[!UICONTROL Testprofil]** wie für jedes Profil:
 
-[Screenshot der Testprofilkonfiguration](assets/trap-create-contact.png){zoomable="yes"}
+[Screenshot der Konfiguration des Testprofils](assets/trap-create-contact.png){zoomable="yes"}

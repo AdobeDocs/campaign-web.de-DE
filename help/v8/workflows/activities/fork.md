@@ -7,9 +7,9 @@ TQID: https://experienceleague.adobe.com/a6KZ9gWNyGRY2D5vYKVJ-MP6WB4H-weR5RZTMbD
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 184
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 91%
 
 Die Aktivität **Verzweigung** ist eine Aktivität zur **Flusssteuerung**. Sie ermöglicht Ihnen, ausgehende Transitionen zum gleichzeitigen Start mehrerer Aktivitäten zu erstellen.
 
-Sie können auch eine separate Verzweigung mithilfe der Symbolleistenschaltfläche **Verzweigung hinzufügen** (**+**) erstellen. Siehe [Aktivitäten &#x200B;](../orchestrate-activities.md#toolbar).
+Sie können auch eine separate Verzweigung mithilfe der Symbolleistenschaltfläche **Verzweigung hinzufügen** (**+**) erstellen. Siehe [Orchestrieren von Aktivitäten](../orchestrate-activities.md#toolbar).
 
 ## Konfigurieren der Verzweigungsaktivität {#fork-configuration}
 

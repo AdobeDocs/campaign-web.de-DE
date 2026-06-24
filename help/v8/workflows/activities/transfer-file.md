@@ -10,9 +10,9 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1266
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -69,7 +69,7 @@ Führen Sie die nachfolgend aufgeführten Schritte aus, um die Aktivität **Date
 
    +++
 
-   +++Bei Aktivitäten vom Typ **Webdownload** verfügbare Aktionen
+   +++Bei Aktivitäten vom Typ **Web-Download** verfügbare Aktionen
 
    * **[!UICONTROL Einfache Übertragung (GET)]**: Mit dieser Aktivität rufen Sie eine Datei ab.
    * **[!UICONTROL Übertragung mit Formularübermittlung (POST)]**: Mit dieser Aktivität laden Sie eine Datei und zusätzliche Parameter hoch.
@@ -148,7 +148,7 @@ Jedes Mal, wenn die Aktivität ausgeführt wird, wird der Ordner folgendermaßen
 
 1. Unter **[!UICONTROL Erweiterte Optionen]** stehen je nach Typ der Aktivität, die Sie konfigurieren, zusätzliche Optionen zur Verfügung. Erweitern Sie die folgenden Abschnitte, um weitere Informationen zu erhalten.
 
-   +++Zusätzliche Optionen für Aktivitäten **[!UICONTROL Dateitransfer]**-Typ
+   +++Zusätzliche Optionen für Aktivitäten des Typs **[!UICONTROL Dateitransfer]**
 
    * **[!UICONTROL Quelldateien nach der Übertragung löschen]**: Mit dieser Aktivität löschen Sie die Quelldateien nach einer erfolgreichen Übertragung.
    * **[!UICONTROL Sitzungslogs anzeigen]**: Wenn diese Option aktiviert ist, werden Informationen zum Übertragungsvorgang in den Workflow-Protokollen angezeigt, nachdem der Workflow ausgeführt wurde.
@@ -156,7 +156,7 @@ Jedes Mal, wenn die Aktivität ausgeführt wird, wird der Ordner folgendermaßen
 
    +++
 
-   +++Zusätzliche Optionen für Aktivitäten **[!UICONTROL Webdownload]**-Typ
+   +++Zusätzliche Optionen für Aktivitäten des Typs **[!UICONTROL Web-Download]**
 
    * **[!UICONTROL Den Weiterleitungen folgen]**: Mithilfe der Dateiweiterleitung können Sie Überschreibungen verwenden, um die Dateneingabe oder -ausgabe an ein Gerät eines anderen Typs zu leiten.
    * **[!UICONTROL HTTP-Header zur Datei hinzufügen]**: In einigen Fällen ist es vorteilhaft, einer Datei zusätzliche HTTP-Header hinzuzufügen. In den meisten Fällen werden diese Header verwendet, um zusätzliche Informationen zur Fehlerbehebung zu liefern, oder für [Cross-Origin Resource Sharing (CORS)](https://developer.mozilla.org/docs/Web/HTTP/CORS) oder um bestimmte Caching-Anweisungen festzulegen.

@@ -10,9 +10,9 @@ feature_v2:
 subfeature_v2:
   - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 587
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -53,7 +53,7 @@ Erstellen Sie außerdem neue Zielgruppen-Mappings basierend auf bestimmten Anfor
 
 ## Filterdimensionen {#filtering}
 
-Mit der Zielgruppendimension können Sie die Population definieren, auf die sich der Vorgang bezieht: Empfängerinnen und Empfänger, Vertragsbegünstigte, Benutzerinnen und Benutzer, Abonnentinnen und Abonnenten usw. Mit der Filterdimension können Sie Filter auf diese Population anwenden, indem Sie auf verwandte Daten verweisen, ohne die Hauptzielgruppendimension zu ändern. Sie können beispielsweise die Population anhand bestimmter Kriterien wie Vertragsinhabende oder Newsletter-Abonnierende auswählen.
+Mit der Zielgruppendimension können Sie die durch den Vorgang angesprochene Population definieren: Empfangende, Vetragsbegünstigte, Benutzende, Abonnierende etc. Mit der Filterdimension können Sie Filter auf diese Population anwenden, indem Sie auf zugehörige Daten verweisen, ohne die Hauptzielgruppendimension zu ändern. Sie können beispielsweise die Population anhand bestimmter Kriterien wie Vertragsinhabende oder Newsletter-Abonnierende auswählen.
 
 Filterdimensionen sind nur in der Aktivität **Zielgruppe erstellen** verfügbar.
 

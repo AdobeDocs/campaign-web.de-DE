@@ -9,9 +9,9 @@ product_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 532
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Die **[!UICONTROL Versandübersicht]** bietet wichtige Performance-Indikatoren (
 
 ![Bericht „Versandübersicht“ mit SMS-Metriken](assets/campaign_report_sms_1.png){zoomable="yes"}
 
-+++Erfahren Sie mehr über die Metriken des SMS-Kampagnenberichts.
++++Weitere Informationen zu den Metriken „SMS-Kampagnenberichte“.
 
 * **[!UICONTROL Insgesamt gesendet]**: Gesamtzahl der während der Versandvorbereitung verarbeiteten Nachrichten.
 
@@ -53,7 +53,7 @@ Die Tabelle **[!UICONTROL Statistiken der anfänglichen Zielgruppe]** zeigt Date
 
 ![Tabelle „Statistiken der ursprünglichen Zielgruppe“ mit Empfängerdaten](assets/campaign_report_sms_2.png){zoomable="yes"}
 
-+++Erfahren Sie mehr über die Metriken des SMS-Kampagnenberichts.
++++Weitere Informationen zu den Metriken „SMS-Kampagnenberichte“.
 
 * **[!UICONTROL Ursprüngliche Zielgruppe]**: Gesamtzahl der Zielgruppenempfängerinnen und -empfänger.
 
@@ -74,7 +74,7 @@ Die Tabelle **[!UICONTROL Ausführungsstatistiken]** zeigt den Erfolg Ihres Vers
 
 ![Tabelle „Ausführungsstatistiken“ mit Erfolgsmetriken zum Versand](assets/campaign_report_sms_3.png){zoomable="yes"}
 
-+++Erfahren Sie mehr über die Metriken des SMS-Kampagnenberichts.
++++Weitere Informationen zu den Metriken „SMS-Kampagnenberichte“.
 
 * **[!UICONTROL Zu versendende Nachricht(en)]**: Gesamtzahl der nach erfolgter Versandvorbereitung zu versendenden Nachrichten.
 
@@ -99,7 +99,7 @@ Die Tabelle **[!UICONTROL Generierte Clickstreams]** zeigt Daten dazu an, wie Ih
 
 ![Tabelle „Erzeugte Clickstreams“ mit Daten zur Empfängerinteraktion](assets/campaign_report_sms_4.png){zoomable="yes"}
 
-+++Erfahren Sie mehr über die Metriken des SMS-Kampagnenberichts.
++++Weitere Informationen zu den Metriken „SMS-Kampagnenberichte“.
 
 * **[!UICONTROL Unterschiedliche Klicks (Unique Clicks)]**: Gesamtzahl der unterschiedlichen Empfängerinnen und Empfänger, die einen Versand mindestens einmal angeklickt haben.
 

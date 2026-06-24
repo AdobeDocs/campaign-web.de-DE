@@ -7,9 +7,9 @@ TQID: https://experienceleague.adobe.com/J2FB-oR-oGwBw18HLWt3F3nzu-mHXVnRlyPlSr5
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 779
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -72,7 +72,7 @@ Sie müssen zuerst die App auswählen und können dann die Zielgruppe für Push-
 
    ![Screenshot mit der Zielgruppenauswahl für den Push-Versand](assets/push_create_2.png){zoomable="yes"}
 
-1. Wählen Sie eine vorhandene Zielgruppe aus oder erstellen Sie eine eigene Zielgruppe, um die Zielpopulation für Ihren Push-Versand zu verfeinern. Bei Push-Benachrichtigungen lautet [&#x200B; Standarddimension &#x200B;](../audience/about-recipients.md#targeting-dimensions)Abonnierte **Abonnierte Anwendung** (nms:appSubscriptionRcp), die mit der Empfängertabelle verknüpft ist.
+1. Wählen Sie eine vorhandene Zielgruppe aus oder erstellen Sie eine eigene Zielgruppe, um die Zielpopulation für Ihren Push-Versand zu verfeinern. Für Push-Benachrichtigungen ist die [Zielgruppendimension ](../audience/about-recipients.md#targeting-dimensions) standardmäßig **Abonnierte Anwendungen** (nms:appSubscriptionRcp), die mit der Empfängertabelle verknüpft ist.
 
    Weitere Informationen dazu, wie Sie eine vorhandene Zielgruppe auswählen, finden Sie auf [dieser Seite](../audience/add-audience.md).
 

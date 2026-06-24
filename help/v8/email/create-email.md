@@ -10,9 +10,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1695
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -159,7 +159,7 @@ Bevor Sie Ihre E-Mail versenden, können Sie sie in der Vorschau anzeigen und te
 
 In diesem Anwendungsbeispiel sehen Sie sich die E-Mail-Vorschau an und senden Testsendungen an bestimmte E-Mail-Adressen inklusive Identitätswechsel einiger Audience-Profile.
 
-Sie können auch die Qualität Ihrer Inhalte überprüfen, um ihre Lesbarkeit, die Effektivität von CTA, die Qualität der Betreffzeile und mehr zu überprüfen. [Erfahren Sie mehr über die Validierung der Inhaltsqualität](../content/brands-score.md#validate-quality)
+Sie können auch die Qualität Ihrer Inhalte überprüfen, um die Lesbarkeit, die CTA-Effektivität, die Qualität der Betreffzeile und mehr zu bewerten. [Weitere Informationen zur Qualitätsprüfung von Inhalten](../content/brands-score.md#validate-quality)
 
 Weitere Informationen über die Vorschau einer E-Mail und das Senden von Testsendungen finden Sie in [diesem Abschnitt](../preview-test/preview-test.md).
 

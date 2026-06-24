@@ -42,9 +42,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 096132b46c985e1b23ca0fc6fbcf06a70e1630c7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 3217
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -125,8 +125,8 @@ Weitere Informationen finden Sie in den [Tutorials zum Control Panel](https://ex
 
 * **IP-Adressen hinzufügen**: Im Control Panel von Campaign können Sie neue Verbindungen zu Ihren Instanzen einrichten, indem Sie IP-Adressbereiche auf die Zulassungsliste setzen. Weitere Informationen finden Sie in der [Dokumentation zur IP-Zulassungsauflistung](https://experienceleague.adobe.com/de/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access){target="_blank"}
 
-* **Subdomain-Konfiguration** Sie können einen Unterabschnitt Ihrer Domain (technisch eine „DNS-Zone„) für die Verwendung mit Adobe Campaign konfigurieren.
-Weitere Informationen finden Sie in der [Dokumentation zur Subdomain-Delegierung](https://experienceleague.adobe.com/de/docs/control-panel/using/subdomains-and-certificates/subdomains-branding){target="_blank"}
+* **Subdomain-Konfiguration:** Sie können einen Teil Ihrer Domain (technisch eine „DNS-Zone“) für die Verwendung mit Adobe Campaign konfigurieren
+Weitere Informationen finden Sie in der [Dokumentation zur Delegierung von Subdomains](https://experienceleague.adobe.com/de/docs/control-panel/using/subdomains-and-certificates/subdomains-branding){target="_blank"}
 
 * **SFTP-Server verwalten**: Über das Control Panel können Sie mit allen SFTP-Servern interagieren, die mit Campaign-Instanzen verbunden sind, auf die Sie Zugriff haben. Weitere Informationen finden Sie in der [Dokumentation zur SFTP-Verwaltung](https://experienceleague.adobe.com/de/docs/control-panel/using/sftp-management/about-sftp-management){target="_blank"}
 
@@ -188,7 +188,7 @@ In diesem Video erfahren Sie, wie Sie in Campaign v8 ein Schema erstellen und e
 
 ## Workflows und Daten-Management {#acs-gs-admin-data-management}
 
-So wie Adobe Campaign Standard enthält Adobe Campaign v8 ein Workflow-Modul, mit dem Sie die gesamte Bandbreite von Prozessen und Aufgaben über die verschiedenen Module des Anwendungs-Servers hinweg orchestrieren können. In dieser grafischen Umgebung können Sie Prozesse wie Segmentierung, Kampagnenausführung, Dateiverarbeitung, Beteiligung von Personen usw. entwerfen. Die Workflow-Engine führt diese Prozesse aus und verfolgt sie. Informationen zu den ersten Schritten mit Workflows in Campaign v8 finden Sie in [dieser Dokumentation](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/data/workflows){target="_blank"}.
+So wie Adobe Campaign Standard enthält Adobe Campaign v8 ein Workflow-Modul, mit dem Sie die gesamte Bandbreite von Prozessen und Aufgaben über die verschiedenen Module des Anwendungs-Servers hinweg orchestrieren können. In dieser vielseitigen grafischen Umgebung können Sie Prozesse erstellen, wie etwa die Segmentierung, die Kampagnenausführung, die Dateiverarbeitung und den Eingriff durch Personen. Die Ausführung und Nachverfolgung dieser Prozesse erfolgt durch die Workflow-Engine. Informationen zu den ersten Schritten mit Workflows in Campaign v8 finden Sie in [dieser Dokumentation](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/data/workflows){target="_blank"}.
 
 Links zu anderen nützlichen Ressourcen finden Sie im folgenden Abschnitt:
 
@@ -348,7 +348,7 @@ Sie können Ihre Campaign-Instanz mit Adobe Experience Cloud-Lösungen verbinden
 Wenn Sie von Campaign Standard zu Campaign v8 migrieren, gilt Folgendes:
 
 * Wenn Sie diese Integrationen mit Campaign Standard verwendet haben, werden Ihre **Adobe Analytics**- und **Audience Manager**-Konfigurationen sowie -Daten von Adobe migriert.
-* Wenn Ihre Campaign Standard-Umgebung mit **Adobe Experience Manager** integriert wurde, empfiehlt Adobe, zu **Adobe Experience Manager as a Cloud Service** zu wechseln, damit Sie diese Funktion beim Entwerfen von E-Mails in der Web-Benutzeroberfläche von Campaign verwenden und die optimierte Verwaltung von E-Mail-Versandinhalten und Formularen direkt in Ihrer Adobe Experience Manager-Umgebung erleichtern können. Weitere Informationen finden Sie auf [dieser Seite](../../v8/integrations/aem-content.md).
-Beachten Sie, dass Campaign auch mit Adobe Experience Manager 6.5 integriert werden kann. Informationen zur Konfiguration dieser Integration finden Sie [dieser Dokumentation](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/connect/ac-aem){target="_blank"}.
+* Wenn Ihre Campaign Standard-Umgebung mit **Adobe Experience Manager** integriert wurde, empfiehlt Adobe, zu **Adobe Experience Manager as a Cloud Service** zu wechseln. Dadurch können Sie diese Funktion beim Erstellen von E-Mails in der Campaign Web-Benutzeroberfläche verwenden. Außerdem wird eine optimierte Verwaltung von E-Mail-Versandinhalten und Formularen direkt in der Adobe Experience Manager-Umgebung ermöglicht. Weitere Informationen finden Sie auf [dieser Seite](../../v8/integrations/aem-content.md).
+Hinweis: Campaign kann auch mit Adobe Experience Manager 6.5 integriert werden. Informationen zur Konfiguration dieser Integration finden Sie [in dieser Dokumentation](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/connect/ac-aem){target="_blank"}.
 * Wenn Ihre Campaign Standard-Umgebung mit **Triggers** integriert wurde, müssen Sie diese Integration in Campaign v8 einrichten und konfigurieren, wie auf [dieser Seite](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/connect/ac-triggers){target="_blank"} beschrieben.
 * Wenn Ihre Campaign Standard-Umgebung mit **Adobe Target** integriert wurde, müssen Sie diese Integration in Campaign v8 einrichten und konfigurieren, wie auf [dieser Seite](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/connect/ac-at){target="_blank"} beschrieben.

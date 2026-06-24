@@ -8,9 +8,9 @@ TQID: https://experienceleague.adobe.com/0ToLS9KSS60CgXGExzD633W-tSMQy3aOAX2byjs
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 623
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 97%
 
 >[!AVAILABILITY]
 >
->Diese Funktion erfordert eine Aktualisierung auf Campaign v8.6.4. Weitere Informationen finden Sie in den [&#x200B; zur Client-Konsole von Campaign v8](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/releases/release-notes).
+>Diese Funktion erfordert eine Aktualisierung auf Campaign v8.6.4. Weitere Informationen finden Sie in den [Versionshinweisen zur Client-Konsole von Campaign v8](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/releases/release-notes).
 
 In der Campaign Web-Benutzeroberfläche sind **visuelle Fragmente** vordefinierte visuelle Bausteine, die Sie in mehreren [E-Mail-Sendungen](../email/get-started-email-designer.md) oder in [Inhaltsvorlagen](../content/use-email-templates.md) wiederverwenden können. Weitere Informationen zur Erstellung und Verwaltung von Inhaltsfragmenten finden Sie in [diesem Abschnitt](fragments.md).
 

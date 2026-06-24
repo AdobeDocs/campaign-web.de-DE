@@ -25,9 +25,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 096132b46c985e1b23ca0fc6fbcf06a70e1630c7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 2803
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -78,7 +78,7 @@ In Adobe Campaign ist ein Profil ein in der Datenbank gespeicherter Eintrag, der
 
    Weitere Informationen finden Sie unter [Erste Schritte mit Profilen](../../v8/audience/about-recipients.md).
 
-1. Erfahren Sie, wie Sie in Campaign v8 Testprofile erstellen und verwalten.
+1. Erfahren Sie, wie Sie in Campaign v8 Testprofile erstellen und verwalten.
 
    >[!VIDEO](https://video.tv.adobe.com/v/3442904?captions=ger&quality=12&learn=on){transcript=true}
 
@@ -92,8 +92,8 @@ In diesem Video erfahren Sie, wie Sie Zielgruppen erstellen und verwalten, Zielg
 
 Weitere Informationen finden Sie unter [Erste Schritte mit Zielgruppen](../../v8/audience/manage-audience.md){target="_blank"}.
 
-Wie in Campaign Standard können Sie eine Kontrollgruppe zu Ihrem Versand hinzufügen. Sie können eine Kontrollgruppe definieren, um zu vermeiden, dass Nachrichten an einen Teil Ihrer Audience gesendet werden, und das Verhalten nach dem Versand mit der Hauptzielgruppe vergleichen. Mit dieser Option können Sie die Wirkung Ihrer Kampagne messen.
-Erfahren Sie, wie [eine Kontrollgruppe festlegen](../../v8/audience/control-group.md){target="_blank"}.
+Wie in Campaign Standard können Sie Ihrem Versand eine Kontrollgruppe hinzufügen. Sie können eine Kontrollgruppe definieren, um zu verhindern, dass Nachrichten an einen Teil Ihrer Zielgruppe gesendet werden, und das Verhalten nach dem Versand mit der Hauptzielgruppe vergleichen. Diese Option ermöglicht die Messung der Wirkung Ihrer Kampagne.
+Weitere Informationen zum [Festlegen einer Kontrollgruppe](../../v8/audience/control-group.md){target="_blank"}.
 
 >[!AVAILABILITY]
 >
@@ -385,7 +385,7 @@ Weitere Informationen über Landingpages finden Sie in den folgenden Abschnitten
 <img alt="Anwendungsfälle und integrierte Vorlagen für Landingpages" src="assets/lp-reporting.jpg">
 </a>
 <div>
-<a href="https://experienceleague.adobe.com/de/docs/campaign-web/v8/landing-pages/lp-use-cases"><strong>Anwendungsfälle und integrierte Vorlagen für Landingpages</strong></a>
+<a href="https://experienceleague.adobe.com/de/docs/campaign-web/v8/landing-pages/lp-use-cases"><strong>Anwendungsfälle für Landingpages und integrierte Vorlagen</strong></a>
 </div>
 <p>
 </td>

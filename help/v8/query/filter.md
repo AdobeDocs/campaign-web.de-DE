@@ -9,9 +9,9 @@ product_v2:
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
 source-git-commit: 8de6db4dc4aa20cfb72a9e9c997f4348fccb2c39
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 337
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -21,8 +21,8 @@ Adobe Campaign Web bietet Filter in jeder Objektliste, mit denen Sie Information
 
 >[!IMPORTANT]
 >
->Eine brandneue Benutzeroberfläche für den Abfrage-Modellierer ist verfügbar. Mit dem neuen Regel-Builder können Sie Ihre Abfrage dank der vereinfachten Benutzeroberfläche einfacher erstellen. Um zu diesem Erlebnis zu wechseln, drücken Sie die Umschalttaste in der oberen rechten Ecke. Sie können jederzeit zum klassischen Abfrage-Modellierer zurückkehren, indem Sie einfach den Umschalter drücken, um die neue Benutzeroberfläche zu deaktivieren. Sie können in dieser neuen Benutzeroberfläche dieselben Prinzipien wie beim Abfrage-Modellierer anwenden.
->![Bild, das den Umschalter für die neue Benutzeroberfläche des Regel-Builders zeigt](assets/query-modeler-toggle.png){zoomable="yes"}
+>Eine brandneue Benutzeroberfläche für den Abfrage-Modeler ist verfügbar. Mit dem neuen Regel-Builder können Sie Ihre Abfrage dank der vereinfachten Benutzeroberfläche mühelos erstellen. Um zu diesem Erlebnis zu wechseln, klicken Sie rechts oben auf den Umschalter. Sie können jederzeit zum klassischen Abfrage-Modeler zurückkehren, indem Sie einfach erneut auf den Umschalter klicken und die neue Benutzeroberfläche deaktivieren. In der neuen Benutzeroberfläche folgen Sie denselben Prinzipien wie im Abfrage-Modeler.
+>![Bild mit dem Umschalter für die neue Benutzeroberfläche des Regel-Builders](assets/query-modeler-toggle.png){zoomable="yes"}
 
 ## Anwenden von Filtern {#apply}
 

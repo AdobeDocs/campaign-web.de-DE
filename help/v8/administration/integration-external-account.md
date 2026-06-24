@@ -8,9 +8,9 @@ product_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 213
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Um das externe Konto **[!UICONTROL Adobe Experience Cloud]** zu konfigurieren, f
 
 * **[!UICONTROL IMS-Server]**
 
-  URL Ihres IMS-Servers Stellen Sie sicher, dass sowohl Staging- als auch Produktionsinstanzen auf denselben IMS-Produktionsendpunkt verweisen.
+  URL Ihres IMS-Servers. Stellen Sie sicher, dass sowohl Staging- als auch Produktionsinstanzen auf denselben IMS-Produktionsendpunkt verweisen.
 
 * **[!UICONTROL IMS-Umfang]**
 
