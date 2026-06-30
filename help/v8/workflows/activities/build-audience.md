@@ -4,12 +4,11 @@ title: Verwenden der Workflow-Aktivität „Zielgruppe erstellen“
 description: Erfahren Sie, wie Sie die Workflow-Aktivität „Zielgruppe erstellen“ verwenden.
 exl-id: c07bb025-51b7-428e-ba00-cd552f0db9d4
 TQID: https://experienceleague.adobe.com/6CerJ1hOBDDc3gAN-AQFuxkiBpbcxH-2YLPAXaBpanE
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
 source-git-commit: 3207311cda7b2b88b68ef194d2776ae40e907f48
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 518
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -63,7 +62,7 @@ Gehen Sie wie folgt vor, um Ihre eigene Abfrage zu erstellen:
 1. Wählen Sie die **Filterdimension** aus, indem Sie auf das Symbol neben der Zielgruppendimension klicken. Mit der Filterdimension können Sie Filter auf die Zielpopulation anwenden, indem Sie auf zugehörige Kriterien verweisen, ohne die Hauptzielgruppendimension zu ändern. [Erfahren Sie mehr über Zielgruppendimensionen](../../audience/targeting-dimensions.md#filtering)
 1. Bestätigen Sie die Angaben mit der Schaltfläche **Fortfahren**.
 1. Verwenden Sie den Abfrage-Modeler, um Ihre Abfrage zu definieren, genauso wie Sie eine Zielgruppe beim Entwerfen einer neuen E-Mail erstellen. [Erfahren sie mehr über die Arbeit mit dem Abfrage-Modeler](../../query/query-modeler-overview.md)
-1. Verwenden Sie die Aktivität **Anreicherungsdaten**, um die Zielgruppendaten um zusätzliche Informationen aus der Datenbank zu erweitern, z. B. Vertragsreferenzen oder Newsletter-Abonnements. Diese Daten werden mit der Zielgruppe in der Workflow-**Arbeitstabelle** gespeichert und stehen für folgende Aktivitäten zur Verfügung. Sie können einzelne Anreicherungsattribute, Sammlungslinks oder Ausdrücke hinzufügen und auf erweiterte Optionen zugreifen. Ausführliche Anweisungen und Beispiele finden Sie unter [Anreicherungsdaten hinzufügen](enrichment.md#enrichment-add).
+1. Verwenden Sie die Aktivität **Anreicherungsdaten**, um die Zielgruppendaten um zusätzliche Informationen aus der Datenbank zu erweitern, z. B. Vertragsreferenzen oder Newsletter-Abonnements. Diese Daten werden mit der Zielgruppe in der Workflow-**Arbeitstabelle** gespeichert und stehen für folgende Aktivitäten zur Verfügung. Sie können einzelne Anreicherungsattribute, Sammlungs-Links oder Ausdrücke hinzufügen und auf erweiterte Optionen zugreifen. Ausführliche Anweisungen und Beispiele finden Sie unter [Anreicherungsdaten hinzufügen](enrichment.md#enrichment-add).
 
 >[!TAB Zielgruppe lesen]
 

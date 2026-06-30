@@ -4,12 +4,11 @@ title: Verwenden der Workflow-Aktivität „Deduplizierung“
 description: Erfahren Sie, wie Sie die Workflow-Aktivität „Deduplizierung“ verwenden.
 exl-id: 8efdc140-6cae-430d-b585-ff581993ff60
 TQID: https://experienceleague.adobe.com/gpvGRMzvpKR3yi3yUiUe9NJPt-FR2FO-qzbhFsBd6ms
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
 source-git-commit: 4eae8f0ea3c176a12e040f7406aac699e14a5ba8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 769
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -23,12 +22,12 @@ ht-degree: 76%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication"
 >title="Aktivität &quot;Deduplizierung&quot;"
->abstract="Die Aktivität **Deduplizierung** löscht Duplikate in den Ergebnissen eingehender Aktivitäten. Sie wird hauptsächlich nach Zielgruppenbestimmungsaktivitäten und vor Aktivitäten verwendet, die Zielgruppendaten verwenden. Wenn mehr als eine eingehende Transition verfügbar ist, wählen Sie im Abschnitt **Zusammenzufügende Sätze** aus, welche Transitionen mit der Aktivität verbunden werden sollen."
+>abstract="Die Aktivität **Deduplizierung** löscht Duplikate in den Ergebnissen eingehender Aktivitäten. Sie wird hauptsächlich nach Zielgruppenbestimmungsaktivitäten und vor Aktivitäten verwendet, die Zielgruppendaten verwenden. Wenn mehr als eine eingehende Transition verfügbar ist, verwenden Sie den Abschnitt **Zusammenzuführende Mengen**, um auszuwählen, welche Transitionen mit der Aktivität verbunden werden sollen."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_sets"
 >title="Zusammenzuführende Mengen"
->abstract="Markieren Sie die vorherigen Aktivitäten, die als eingehende Transitionen der Aktivität **Deduplizierung) verbunden** sollen. Die ausgewählten Aktivitäten werden dann mit der **Deduplizierung)**. Dieser Abschnitt wird nur angezeigt, wenn mehr als eine eingehende Transition zur Verbindung mit der Aktivität verfügbar ist."
+>abstract="Markieren Sie die vorherigen Aktivitäten, die als eingehende Transitionen der Aktivität **Deduplizierung** verbunden werden sollen.Die ausgewählten Aktivitäten werden dann mit der Aktivität **Deduplizierung** verbunden.Dieser Abschnitt wird nur angezeigt, wenn mehr als eine eingehende Transition für die Verbindung mit der Aktivität verfügbar ist."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_complement"
@@ -42,7 +41,7 @@ ht-degree: 76%
 
 Die **Deduplizierungsaktivität** ist eine **Zielgruppenbestimmungsaktivität**. Diese Aktivität löscht Duplikate in den Ergebnissen eingehender Aktivitäten, z. B. doppelte Profile in der Empfängerliste. Die Aktivität **Deduplizierung** wird im Allgemeinen im Anschluss an Zielgruppenbestimmungsaktivitäten und vor Aktivitäten verwendet, die Zielgruppendatum verwenden.
 
-Die Aktivität unterstützt mehrere eingehende Transitionen. Wenn mehr als eine eingehende Transition verfügbar ist, wählen Sie im Abschnitt **Zusammenzufügende Sätze** in den Aktivitätseigenschaften aus, welche Transitionen mit der Aktivität verbunden werden sollen. Die ausgewählten Transitionen werden dann mit der **Deduplizierung) auf** Workflow-Arbeitsfläche verknüpft.
+Die Aktivität unterstützt mehrere eingehende Transitionen.Wenn mehr als eine eingehende Transition verfügbar ist, verwenden Sie den Abschnitt **Zusammenzuführende Mengen** in den Eigenschaften der Aktivität, um auszuwählen, welche Transitionen mit der Aktivität verbunden werden sollen. Die ausgewählten Transitionen werden dann mit der Aktivität **Deduplizierung** auf der Workflow-Arbeitsfläche verknüpft.
 
 ## Konfigurieren der Deduplizierungsaktivität {#deduplication-configuration}
 
@@ -52,7 +51,7 @@ Gehen Sie folgendermaßen vor, um die **Deduplizierungsaktivität** zu konfiguri
 
 1. Fügen Sie eine **Deduplizierungsaktivität** zu Ihrem Workflow hinzu.
 
-1. Markieren Sie im **Zusammenzufügende Sätze** die vorherigen Aktivitäten, die Sie als eingehende Transitionen der Aktivität **Deduplizierung)** möchten. Die ausgewählten Aktivitäten werden dann mit der **Deduplizierung) auf** Workflow-Arbeitsfläche verknüpft. Verwenden Sie das Feld **Primäres Set**, um die eingehende Referenz-Transition zu definieren. Datensätze aus den anderen Sätzen werden mit dem primären Satz abgeglichen, um Duplikate zu identifizieren.
+1. Markieren Sie im Abschnitt **Zusammenzuführende Mengen** die vorherigen Aktivitäten, die Sie als eingehende Transitionen der Aktivität **Deduplizierung** verbinden möchten. Die ausgewählten Aktivitäten werden dann mit der Aktivität **Deduplizierung** auf der Workflow-Arbeitsfläche verknüpft. Verwenden Sie das Feld **Hauptmenge**, um eingehende Referenztransition zu definieren. Einträge aus den anderen Mengen werden mit der Hauptmenge abgeglichen, um Duplikate zu identifizieren.
 
    >[!NOTE]
    >
