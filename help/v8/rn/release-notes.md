@@ -13,9 +13,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: cbecd07b053d0ceb4e9114aa3c6d37752392febc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 243
-ht-degree: 45%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 45%
 
 Die Versionen der Adobe Campaign Web-Benutzeroberfläche basieren auf einem kontinuierlichen Bereitstellungsmodell, das einen besser skalierbaren, schrittweisen Ansatz für die Implementierung von Funktionen ermöglicht. Dementsprechend werden diese Versionshinweise mehrmals im Monat aktualisiert. Sie sollten daher regelmäßig nachschauen.
 
-## Version Juni 2026 {#26-6-release}
+## Version Juni 2026 {#26-6-release}
 
 _16. Juni 2026_
 
@@ -38,13 +38,13 @@ _16. Juni 2026_
 * Technical administrators can now create and configure brands directly from the Campaign Web User Interface, without using the Client Console. All brand settings, including identity, subdmain and protocols, email header parameters and URL tracking parameters, are now available in the Web UI. <!-- [Learn more](../administration/branding/branding-configure.md)
 -->
 
-* Sie können jetzt Daten aus jedem Listenbildschirm einschließlich Trackinglogs exportieren. Suchen Sie Ihre Liste und klicken Sie einfach auf die Schaltfläche Exportieren . Der Export umfasst die derzeit geladenen Zeilen und berücksichtigt die auf dem Bildschirm angezeigten Spalten sowie alle aktiven Such- oder Filtervorgänge. [Weitere Informationen](../get-started/list-filters.md)
+* Sie können jetzt Daten aus jedem Listenbildschirm einschließlich der Trackinglogs exportieren.Suchen Sie Ihre Liste und klicken Sie einfach auf die Schaltfläche „Exportieren“.Der Export umfasst die derzeit geladenen Zeilen und berücksichtigt die auf dem Bildschirm angezeigten Spalten sowie aktive Suchen oder Filter.[Weitere Informationen](../get-started/list-filters.md)
 
-* Die **Deduplizierung** und **End**-Workflow-Aktivitäten unterstützen jetzt mehrere eingehende Transitionen. Wenn
-Mehr als eine eingehende Transition ist verfügbar. Verwenden Sie hierzu den Abschnitt **Zusammenzufügende Sätze** in der Aktivität
-Eigenschaften zur Auswahl der zu verbindenden Transitionen. Weitere Informationen finden Sie auf diesen Seiten: [Deduplizierung](../workflows/activities/deduplication.md), [Ende](../workflows/activities/end.md)
+* Die Workflow-Aktivitäten **Deduplizierung** und **Ende** unterstützen jetzt mehrere eingehende Transitionen. Wenn
+mehr als eine eingehende Transition verfügbar ist, verwenden Sie den Abschnitt **Zusammenzuführende Mengen** in den Eigenschaften der Aktivität,
+um die zu verbindenden Transitionen auszuwählen. Weitere Informationen finden Sie auf den folgenden Seiten: [Deduplizierung](../workflows/activities/deduplication.md), [Ende](../workflows/activities/end.md)
 
-* Erweiterte Parameter werden jetzt im Abschnitt **Anreicherungsdaten** der Workflow-Aktivitäten **Zielgruppe erstellen** (Abfragetyp) und **Anreicherung** verfügbar gemacht. Mit diesen Parametern können Sie den Aufbau von Anreicherungsdaten feinabstimmen, einschließlich Gruppierung, Deduplizierung, Verarbeitung von Primärschlüsseln und eingehenden Ereignisdaten. [Weitere Informationen](../workflows/activities/enrichment.md)
+* Erweiterte Parameter werden jetzt im Abschnitt **Anreicherungsdaten** der Workflow-Aktivitäten **Zielgruppe erstellen** (Abfragetyp) und **Anreicherung** angezeigt. Mit diesen Parametern können Sie die Struktur von Anreicherungsdaten optimieren, einschließlich Gruppierung, Deduplizierung, Verarbeitung von Primärschlüsseln und Daten eingehender Ereignisse. [Weitere Informationen](../workflows/activities/enrichment.md)
 
 <!--
 * Delivery templates now allow you to define a time zone in the Schedule settings.

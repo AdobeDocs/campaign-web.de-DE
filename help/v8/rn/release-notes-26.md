@@ -3,9 +3,9 @@ title: Frühere Versionshinweise zur Web-Benutzeroberfläche von Campaign v8
 description: Versionen der Campaign Web-Benutzeroberfläche 2026
 exl-id: 40735c57-94ae-4646-8c3d-68197569fbd4
 source-git-commit: 4eae8f0ea3c176a12e040f7406aac699e14a5ba8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1204'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Der Abschnitt **Anreicherungsdaten** ist jetzt in der Workflow-Aktivität **Ziel
 
 ## Version März 2026 {#26-3-release}
 
-&#x200B;24. _März_ 2026_
+24. _März_ 2026_
 
 ### Neue Funktionen {#26-3-features}
 
@@ -219,11 +219,11 @@ _27. Januar 2026_
 <tbody>
 <tr>
 <td>
-<p>Die Funktion zur Bereitstellung in mehreren Sprachen steht nun allen Kunden zur Verfügung. Mit dieser Funktion können Sie mehrere Nachrichten in verschiedenen Sprachen in der Web-Benutzeroberfläche von Adobe Campaign senden. Sie können die Standardsprache Ihres Versands sowie die verschiedenen Sprachen auswählen, in denen der Versand durchgeführt werden kann. Sie können diese Sendungen auch in den von Ihnen ausgewählten Sprachen in der Vorschau anzeigen. 
+<p>Die Funktion „Mehrsprachiger Versand“ ist jetzt für alle Kundinnen und Kunden verfügbar (allgemeine Verfügbarkeit). Mit dieser Funktion können Sie in der Adobe Campaign Web-Benutzeroberfläche mehrere Nachrichten in verschiedenen Sprachen versenden. Sie können die Standardsprache Ihres Versands sowie die verschiedenen Sprachen festlegen, in denen der Versand durchgeführt werden kann. Sie können auch eine Vorschau dieser Sendungen in den von Ihnen gewählten Sprachen anzeigen. 
 <p>Weitere Informationen finden Sie im <a href="../msg/multilingual.md">entsprechenden Handbuch</a>.</p>
 <p>Die folgenden Verbesserungen wurden an mehrsprachigen Push-Benachrichtigungen vorgenommen:</p>
 <ul>
-<li>Sie können jetzt alle Sprachvarianten schnell füllen, indem Sie eine CSV-Datei mit mehrsprachigen Inhalten hochladen. <a href="../msg/multilingual.md#csv-upload">Mehr dazu</a>
+<li>Sie können jetzt alle Sprachvarianten schnell ausfüllen, indem Sie eine CSV-Datei mit mehrsprachigen Inhalten hochladen. <a href="../msg/multilingual.md#csv-upload">Weitere Informationen</a>
 </li>
 <li>Rich-Push-Benachrichtigungen werden jetzt unterstützt.</li>
 </td>

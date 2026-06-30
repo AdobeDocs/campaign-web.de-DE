@@ -7,9 +7,9 @@ TQID: https://experienceleague.adobe.com/70yFDGvkMFv82CTMbN3cbzS6nXLmYGRZ7as20DY
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
 source-git-commit: 43a0518b8d273a8b4fcd56a529f6af6bb70a2530
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 456
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Um die Logs anzuzeigen, rufen Sie Ihr Versand-Dashboard auf und klicken Sie auf 
 
 >[!TIP]
 >
->Jede Protokollregisterkarte kann mithilfe der Schaltfläche **Geladene Zeilen als CSV exportieren** über der Liste als CSV-Datei exportiert werden. Weitere Informationen finden [&#x200B; unter „Exportieren von Listendaten](../get-started/list-filters.md#export-list).
+>Jede Protokollregisterkarte kann über die Schaltfläche **Geladene Zeilen als CSV exportieren** über der Liste als CSV-Datei exportiert werden. Weitere Informationen finden Sie unter [Exportieren von Listendaten](../get-started/list-filters.md#export-list).
 
 Folgende Registerkarten stehen zur Verfügung:
 
@@ -47,13 +47,13 @@ Alle Validierungsschritte, Warnungen und Fehler werden aufgelistet. Farbige Symb
 * Das gelbe Symbol steht für einen nicht kritischen Verarbeitungsfehler.
 * Das rote Symbol steht für einen kritischen Fehler, der die Durchführung des Versands verhindert. Kritische Fehler müssen behoben sein, damit der Versand durchgeführt werden kann.
 
-![&#x200B; Registerkarte „Logs“ mit Validierungsschritten, Warnungen und Fehlern mit farbigen Symbolen, die auf Nachrichtentypen hinweisen.](assets/logs.png){zoomable="yes"}
+![ Registerkarte „Logs“ mit Validierungsschritten, Warnungen und Fehlern mit farbigen Symbolen, die auf Nachrichtentypen hinweisen.](assets/logs.png){zoomable="yes"}
 
 ## Sendungen {#deliveries-tab}
 
 Der Tab **Versandlogs** zeigt die Liste der einzelnen Nachrichten eines Versands. Hier wird die Liste der gesendeten Nachrichten und deren Status gespeichert. Für jeden einzelnen Empfänger können Sie anhand des Status das Ergebnis des Versands verfolgen.
 
-![&#x200B; Registerkarte „Sendungen“ mit dem Verlauf der gesendeten Nachrichten und ihren Status.](assets/logs2.png){zoomable="yes"}
+![ Registerkarte „Sendungen“ mit dem Verlauf der gesendeten Nachrichten und ihren Status.](assets/logs2.png){zoomable="yes"}
 
 ## Ausschlüsse {#exclusion-tab}
 

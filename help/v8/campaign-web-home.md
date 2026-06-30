@@ -12,9 +12,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: e6737eef2f3566d5a62f36e54ae02d81fbb1716c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 523
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -148,4 +148,4 @@ Häufig gestellte Fragen zur Campaign Web-Benutzeroberfläche werden auf einer 
 
 * [Adobe Campaign – Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}
 * [Dokumentation zu Adobe Campaign v8](https://experienceleague.adobe.com/docs/campaign-v8.html?lang=de){target="_blank"}
-* [Pixel für E-Mail-Tracking und CNIL-Anleitung](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/new/cnil-pixel-tracking){target="_blank"}
+* [Leitfaden zu E-Mail-Tracking-Pixel und CNIL](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/new/cnil-pixel-tracking){target="_blank"}

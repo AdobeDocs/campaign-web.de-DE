@@ -11,9 +11,9 @@ feature_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 3207311cda7b2b88b68ef194d2776ae40e907f48
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 2327
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Die Aktivität der **Anreicherung** ist eine **Zielgruppenbestimmungs-Aktivität
 
 >[!NOTE]
 >
->Die **Zielgruppe aufbauen**-Aktivität (Abfragetyp) unterstützt auch **Anreicherungsdaten**. Siehe [Weitere Informationen](build-audience.md#build-audience-configuration).
+>Die Aktivität **Zielgruppe erstellen** (Abfragetyp) unterstützt auch **Anreicherungsdaten**.Siehe [Weitere Informationen](build-audience.md#build-audience-configuration).
 
 Anreicherungsdaten können verschiedene Ursprünge haben:
 
@@ -62,7 +62,7 @@ Führen Sie die folgenden Schritte aus, um die Aktivität **Anreicherung** zu ko
 >title="Aktivität „Anreicherung“"
 >abstract="Nachdem Anreicherungsdaten zum Workflow hinzugefügt wurden, können sie in den nachfolgenden Aktivitäten verwendet werden, um Kundinnen und Kunden basierend auf ihren Verhaltensweisen, Voreinstellungen und Anforderungen in verschiedene Gruppen zu segmentieren oder um personalisierte Marketing-Nachrichten und -Kampagnen zu erstellen, die bei Ihrer Zielgruppe Anklang finden."
 
-Der Abschnitt **Anreicherungsdaten** ist in den Aktivitäten **Anreicherung** und **Zielgruppe aufbauen** (Abfragetyp) verfügbar. Damit können Sie die Zielgruppendaten um zusätzliche Informationen aus der Datenbank erweitern, z. B. um Vertragsreferenzen oder Newsletter-Abonnements. Diese Daten werden mit der Zielgruppe in der Workflow-**Arbeitstabelle** gespeichert und stehen für folgende Aktivitäten zur Verfügung. Sie können einzelne Anreicherungsattribute, Sammlungslinks oder Ausdrücke hinzufügen und auf erweiterte Optionen zugreifen.
+Der Abschnitt **Anreicherungsdaten** ist in den Aktivitäten **Anreicherung** und **Zielgruppe erstellen** (Abfragetyp) verfügbar.Damit können Sie die Zieldaten mit zusätzlichen Informationen aus der Datenbank anreichern, z. B. mit Vertragsreferenzen oder Newsletter-Abonnements. Diese Daten werden mit der Zielgruppe in der Workflow-**Arbeitstabelle** gespeichert und stehen für nachfolgende Aktivitäten zur Verfügung. Sie können einzelne Anreicherungsattribute, Sammlungs-Links oder Ausdrücke hinzufügen und auf erweiterte Optionen zugreifen.
 
 Klicken Sie auf **Anreicherungsdaten hinzufügen** und wählen Sie das Attribut aus, das für die Anreicherung verwendet werden soll. [Erfahren Sie, wie Sie Attribute auswählen und zu den Favoriten hinzufügen](../../get-started/attributes.md).
 
@@ -77,32 +77,32 @@ Sie können zwei Arten von Anreicherungsdaten auswählen: ein einzelnes Anreiche
 
 ![Screenshot mit dem Bildschirm zur Auswahl der Anreicherungsdaten](../assets/workflow-enrichment1.png)
 
-Nachdem Sie mindestens ein Anreicherungsattribut hinzugefügt haben, klicken Sie auf **[!UICONTROL Erweiterte Parameter]**, um zu konfigurieren, wie Anreicherungsdaten erstellt werden, einschließlich Gruppierung, Deduplizierung, Verarbeitung des Primärschlüssels und eingehender Ereignisdaten. Diese Optionen spiegeln die Client-Konsole wider und sind für erweiterte Workflow-Szenarien vorgesehen.
+Nachdem Sie mindestens ein Anreicherungsattribut hinzugefügt haben, klicken Sie auf **[!UICONTROL Erweiterte Parameter]**, um zu konfigurieren, wie Anreicherungsdaten strukturiert werden, einschließlich Gruppierung, Deduplizierung, Verarbeitung von Primärschlüsseln und Daten eingehender Ereignisse.Diese Optionen sind gleich wie in der Client-Konsole und sind für Szenarien mit erweiterten Workflows konzipiert.
 
-![Screenshot mit den erweiterten Anreicherungsparametern](../assets/workflow-query-advanced-parameters.png)
+![Screenshot mit den erweiterten Parametern für die Anreicherung](../assets/workflow-query-advanced-parameters.png)
 
 >[!NOTE]
 >
->Die verfügbaren Optionen unterscheiden sich zwischen den Aktivitäten **Zielgruppe aufbauen** und **Anreicherung**.
+>Die verfügbaren Optionen der Aktivität **Zielgruppe erstellen** und **Anreicherung** unterscheiden sich.
 
-Für jede Aktivität stehen die folgenden Optionen zur Verfügung:
+Für jede Aktivität stehen folgende Optionen zur Verfügung:
 
-+++ Aktivität „Zielgruppe aufbauen“ (Abfragetyp)
++++ Aktivität „Zielgruppe erstellen“ (Abfragetyp)
 
-* **[!UICONTROL Alle zusätzlichen Daten aus der Hauptmenge beibehalten]**: Behält zusätzliche Spalten aus der Haupteingangsmenge in der Ausgabetransition bei.
-* **[!UICONTROL Daten nach Zielgruppendimensionselement gruppieren]** Gruppiert das Ergebnis so, dass jeder Zieldatensatz nur einmal angezeigt wird.
-* **[!UICONTROL Doppelte Zeilen entfernen (DISTINCT)]**: Entfernt doppelte Zeilen aus dem Ergebnissatz.
-* **[!UICONTROL Automatisches Hinzufügen der Primärschlüssel der Zielgruppendimension deaktivieren]**: Verhindert, dass die Aktivität dem Ergebnis automatisch Primärschlüssel der Zielgruppendimension hinzufügt.
-* **[!UICONTROL Automatisches Filtern von Datensätzen mit Kennung 0 deaktivieren]**: Behält Datensätze bei, deren Kennungswert 0 ist, anstatt sie automatisch herauszufiltern.
-* **[!UICONTROL Eingehende Ereignisdaten verwenden]**: Verwendet Daten aus der eingehenden Transition als Arbeitseingabe der Aktivität.
+* **[!UICONTROL Alle Zusatzdaten der Hauptmenge beibehalten]**: Behält zusätzliche Spalten aus der eingehenden Hauptmenge in der ausgehenden Transition bei.
+* **[!UICONTROL Daten nach Elementen der Zielgruppendimension gruppieren]**: Gruppiert das Ergebnis so, dass jeder Zieleintrag nur einmal angezeigt wird.
+* **[!UICONTROL Duplikate löschen (DISTINCT)]**: Entfernt doppelte Zeilen aus der Ergebnismenge.
+* **[!UICONTROL Automatisches Hinzufügen der Primärschlüssel der Zielgruppendimension deaktivieren]**: Verhindert, dass die Aktivität die Primärschlüssel der Zielgruppendimension automatisch zum Ergebnis hinzufügt.
+* **[!UICONTROL Automatischen Filter der Einträge mit ID=0 deaktivieren]**: Behält Einträge bei, deren Kennungswert 0 ist, anstatt sie automatisch herauszufiltern.
+* **[!UICONTROL Daten der Eingangsereignisse verwenden]**: Verwendet Daten aus der eingehenden Transition als Arbeitseingabe der Aktivität.
 
 +++
 
 +++ Aktivität „Anreicherung“
 
-* **[!UICONTROL Daten nach Zielgruppendimensionselement gruppieren]** Gruppiert das Ergebnis so, dass jeder Zieldatensatz nur einmal angezeigt wird.
-* **[!UICONTROL Doppelte Zeilen entfernen (DISTINCT)]**: Entfernt doppelte Zeilen aus dem Ergebnissatz.
-* **[!UICONTROL Automatisches Filtern von Datensätzen mit Kennung 0 deaktivieren]**: Behält Datensätze bei, deren Kennungswert 0 ist, anstatt sie automatisch herauszufiltern.
+* **[!UICONTROL Daten nach Elementen der Zielgruppendimension gruppieren]**: Gruppiert das Ergebnis so, dass jeder Zieleintrag nur einmal angezeigt wird.
+* **[!UICONTROL Duplikate löschen (DISTINCT)]**: Entfernt doppelte Zeilen aus der Ergebnismenge.
+* **[!UICONTROL Automatischen Filter der Einträge mit ID=0 deaktivieren]**: Behält Einträge bei, deren Kennungswert 0 ist, anstatt sie automatisch herauszufiltern.
 * **[!UICONTROL Kennung für jede Ergebniszeile hinzufügen]**: Fügt jeder Ausgabezeile eine eindeutige Kennung hinzu.
 
 +++
