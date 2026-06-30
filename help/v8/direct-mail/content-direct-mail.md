@@ -8,10 +8,10 @@ product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
-source-wordcount: 606
-ht-degree: 100%
+source-git-commit: 3890701b9c04bd404848c5447d08522b3cee64d5
+workflow-type: tm+mt
+source-wordcount: 648
+ht-degree: 93%
 
 ---
 
@@ -48,7 +48,7 @@ Um den Inhalt der durch Ihren Briefpostversand generierten Extraktionsdatei zu g
    * **[!UICONTROL Spaltentrennzeichen]** (Textformat): Geben Sie das Zeichen an, das in der Extraktionsdatei als Spaltentrennzeichen verwendet werden soll.
    * **[!UICONTROL Zeichenfolgen-Trennzeichen]** (Textformat): Geben Sie an, wie Zeichenfolgen in der Extraktionsdatei getrennt werden sollen.
    * **[!UICONTROL Zeilenumbruch]** (Textformat): Geben Sie an, wie das Zeilenende in der Extraktionsdatei getrennt werden soll.
-   * **[!UICONTROL Kodierung]**: Wählen Sie die Kodierung für die Extraktionsdatei aus.
+   * **[!UICONTROL Kodierung]**: Wählen Sie die Kodierung für die Extraktionsdatei aus. Die Standardcodierung lautet **Latin-1 (1252)**. Wählen Sie beim Erstellen von Briefpost-Sendungen, die an Empfänger in den CJK-Sprachen (Japanisch, Koreanisch, vereinfachtes Chinesisch, traditionelles Chinesisch) gerichtet sind, stattdessen **UTF-8 (65001)**. Latin-1 kann keine CJK-Zeichen darstellen und führt zu einer leeren Dateivorschau.
    * **[!UICONTROL Datumsformat und Trennzeichen]**: Geben Sie an, wie Datumsangaben in der Extraktionsdatei formatiert werden sollen.
    * **[!UICONTROL Zahlenformat]**: Geben Sie an, wie Zahlen in der Extraktionsdatei formatiert werden sollen.
    * **[!UICONTROL Label anstelle der internen Werte der Aufzählungen exportieren]**: Schalten Sie diese Option ein, wenn Sie Aufzählungswerte exportieren und Label der Spalten abrufen möchten, die leichter verständlich sind als interne IDs.
