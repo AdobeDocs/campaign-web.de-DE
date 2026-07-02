@@ -2,14 +2,20 @@
 title: Bearbeiten benutzerdefinierter Felder
 description: Erfahren Sie, wie Sie benutzerdefinierte Felder und ihre Sichtbarkeit in der Benutzeroberfläche konfigurieren.
 exl-id: 1b531722-0935-4787-a673-60d97f776936
-source-git-commit: 9d7ff3bc648567640ef501bff2228e5c6cff25bc
-workflow-type: ht
-source-wordcount: '703'
-ht-degree: 100%
+source-git-commit: 56b0144bec96f8dbf18d44c1dc8fc0966617195a
+workflow-type: tm+mt
+source-wordcount: '745'
+ht-degree: 95%
 
 ---
 
 # Bearbeiten benutzerdefinierter Felder {#fields}
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_detail_screen_configuration"
+>title="Konfiguration des Detailbildschirms"
+>abstract="Legen Sie fest, welche benutzerdefinierten Felder auf Detailbildschirmen angezeigt werden, und gliedern Sie sie in Abschnitte. Sammlungslisten hinzufügen, um verwandte Daten in Profilbildern anzuzeigen."
+>additional-url="https://experienceleague.adobe.com/de/docs/campaign-web/v8/conf/schemas/schemas-collection-lists" text="Hinzufügen von Sammlungslisten"
 
 Benutzerdefinierte Felder sind zusätzliche Attribute, die über die Adobe Campaign-Konsole zu vorkonfigurierten Schemata hinzugefügt werden. Sie ermöglichen es Ihnen, Schemata anzupassen, indem neue Attribute entsprechend den Anforderungen Ihrer Organisation eingefügt werden.
 

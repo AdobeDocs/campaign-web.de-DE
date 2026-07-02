@@ -2,14 +2,19 @@
 title: Konfigurieren von standardmäßigen Listenspalten
 description: Erfahren Sie, wie Sie konfigurieren können, welche Spalten in Listenansichten standardmäßig angezeigt werden.
 exl-id: 55513ecd-fc3f-4371-93b0-f2c9d01d4db4
-source-git-commit: 9d7ff3bc648567640ef501bff2228e5c6cff25bc
-workflow-type: ht
-source-wordcount: '170'
-ht-degree: 100%
+source-git-commit: 56b0144bec96f8dbf18d44c1dc8fc0966617195a
+workflow-type: tm+mt
+source-wordcount: '192'
+ht-degree: 94%
 
 ---
 
 # Konfigurieren von Listenspalten {#list-columns}
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_inventory_list_configuration"
+>title="Konfiguration der Bestandsliste"
+>abstract="Konfigurieren Sie, welche Spalten in Listenansichten standardmäßig angezeigt werden. Jede Spalte zeigt das Label und das entsprechende Attribut an."
 
 Im Abschnitt **[!UICONTROL Konfiguration der Bestandsliste]** können Sie konfigurieren, welche Spalten standardmäßig in Listenansichten angezeigt werden. Jede Spalte zeigt das Label und das entsprechende Attribut an.
 
