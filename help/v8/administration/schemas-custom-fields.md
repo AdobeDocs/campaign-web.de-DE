@@ -15,7 +15,7 @@ ht-degree: 95%
 >id="acw_schema_detail_screen_configuration"
 >title="Konfiguration des Detailbildschirms"
 >abstract="Legen Sie fest, welche benutzerdefinierten Felder auf Detailbildschirmen angezeigt werden, und gliedern Sie sie in Abschnitte. Sammlungslisten hinzufügen, um verwandte Daten in Profilbildern anzuzeigen."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/conf/schemas/schemas-collection-lists.html" text="Hinzufügen von Sammlungslisten"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/conf/schemas/schemas-collection-lists.html?lang=de" text="Hinzufügen von Sammlungslisten"
 
 Benutzerdefinierte Felder sind zusätzliche Attribute, die über die Adobe Campaign-Konsole zu vorkonfigurierten Schemata hinzugefügt werden. Sie ermöglichen es Ihnen, Schemata anzupassen, indem neue Attribute entsprechend den Anforderungen Ihrer Organisation eingefügt werden.
 
