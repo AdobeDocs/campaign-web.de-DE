@@ -14,10 +14,10 @@ subfeature_v2:
   - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 9bb8a5cdd958a693afccff5468df5911237044b2
-workflow-type: ht
-source-wordcount: 583
-ht-degree: 100%
+source-git-commit: fa12c9e0408d36e41e87ce4caa306671b433d186
+workflow-type: tm+mt
+source-wordcount: 637
+ht-degree: 91%
 
 ---
 
@@ -51,6 +51,11 @@ Diese Aktivitäten sind spezifisch für die Zielgruppenbestimmung. Sie ermöglic
 ## Daten-Management-Aktivitäten {#data}
 
 Diese Aktivitäten dienen der Manipulation und Anreicherung von Populationsdaten.
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_data_loading_rdbms"
+>title="Aktivität „Laden (RDBMS)“"
+>abstract="Die Aktivität **Laden (RDBMS)** ist eine Aktivität **Daten-Management**. Verwenden Sie diese Aktivität, um Daten direkt aus einer externen relationalen Datenbank in Ihren Workflow zu laden, ohne zur Client-Konsole zu wechseln. Die extrahierten Daten stehen während des gesamten Workflows zur Verfügung und können für die Zielgruppenbestimmung, Anreicherung oder weitere Datenverarbeitung verwendet werden."
 
 * [Dateiextraktion](extract-file.md): Mit dieser Aktivität exportieren Sie in Adobe Campaign enthaltene Daten in Form von externen Dateien.
 * [Datei laden](load-file.md): Mit dieser Aktivität können Sie mit Profilen und Daten arbeiten, die in einer externen Datei gespeichert sind.
