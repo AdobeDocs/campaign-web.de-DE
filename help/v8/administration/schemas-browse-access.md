@@ -2,14 +2,19 @@
 title: Durchsuchen von und Zugreifen auf Schemata
 description: Erfahren Sie, wie Sie in der Benutzeroberfläche Schemata durchsuchen und darauf zugreifen können.
 exl-id: deafd171-0a3f-4ba2-8fa4-09661d8cdb3e
-source-git-commit: 9d7ff3bc648567640ef501bff2228e5c6cff25bc
-workflow-type: ht
-source-wordcount: '417'
-ht-degree: 100%
+source-git-commit: c6da1a4cb21c1346982303a29364cf97e26b4f4a
+workflow-type: tm+mt
+source-wordcount: '463'
+ht-degree: 90%
 
 ---
 
 # Zugreifen auf und Konfigurieren von Schemata {#access}
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_action_data"
+>title="Aktionen zur Datenbearbeitung"
+>abstract="Konfigurieren Sie die Aktionen, die für die Detaillisten- und Listenbildschirme des Schemas verfügbar sind. Aktivieren Sie **[!UICONTROL Schreibgeschützt]**, um den Detailbildschirm als schreibgeschützt festzulegen und Aktionen aus der Liste zu entfernen. Aktivieren Sie **[!UICONTROL Löschen nicht zulassen]** um die Löschaktion aus den Detaillisten- und Listenbildschirmen zu entfernen."
 
 Auf Schemata kann über das Menü **[!UICONTROL Administration]** > **[!UICONTROL Schemata]** zugegriffen werden.
 

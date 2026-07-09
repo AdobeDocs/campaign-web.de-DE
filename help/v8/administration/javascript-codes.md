@@ -3,15 +3,12 @@ title: Arbeiten mit JavaScript-Codes
 description: Erfahren Sie, wie Sie mit JavaScript-Codes arbeiten können.
 exl-id: 4f3b7fce-0373-4db1-8239-64b1bda0f14c
 TQID: https://experienceleague.adobe.com/MEB6-W3pMbt97vozcG7sKjyFLHzLqTs3D0B9JjU44hw
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 93bc914bca3d6f729cbb92a925a8ba19fd120bb5
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: fa12c9e0408d36e41e87ce4caa306671b433d186
 workflow-type: tm+mt
-source-wordcount: 535
-ht-degree: 88%
+source-wordcount: 611
+ht-degree: 78%
 
 ---
 
@@ -26,6 +23,16 @@ ht-degree: 88%
 >id="acw_javascript_codes_create"
 >title="JavaScript-Code erstellen"
 >abstract="Definieren Sie einen Namespace, einen Namen und eine Beschriftung für Ihren JavaScript-Code und schreiben Sie dann den Inhalt mit den vordefinierten Funktionen, die für Bedingungen und Datumsformatierung verfügbar sind. Nach der Erstellung können Namespace und Name nicht mehr geändert werden."
+
+>[!CONTEXTUALHELP]
+>id="acw_dynamic_javascript_pages_list"
+>title="Dynamische JavaScript-Seiten"
+>abstract="Mit Dynamic JavaScript Pages (JSSP) können Sie Server-seitige Seiten erstellen, die dynamische Inhalte generieren, wenn über eine URL zugegriffen wird, z. B. benutzerdefinierte APIs, Exporte oder Web-Anwendungslogik. In dieser Liste können Sie eine dynamische JavaScript-Seite erstellen, ändern, duplizieren oder löschen."
+
+>[!CONTEXTUALHELP]
+>id="acw_dynamic_javascript_pages_create"
+>title="Erstellen einer Dynamic JavaScript-Seite"
+>abstract="Definieren Sie einen Namespace, einen Namen und einen Titel für Ihre dynamische JavaScript-Seite und schreiben Sie dann den Inhalt mit JavaScript-Code. Nach der Erstellung können Namespace und Name nicht mehr geändert werden."
 
 ## Über JavaScript-Codes {#about}
 
