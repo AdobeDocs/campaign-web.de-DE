@@ -77,11 +77,11 @@ Der Zugriff auf Angebotsumgebungen und Platzierungen erfolgt über den **[!UICON
 
 Einige Angebotsfunktionen werden noch nicht in der Web-Benutzeroberfläche angezeigt und müssen weiterhin über die Client-Konsole konfiguriert werden:
 
-* **Angebotssimulation** - Das Modul **Simulation**, mit dem Sie die Verteilung von Angeboten vor dem Versand testen können. Siehe [Angebotssimulation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-offer.html#offer-simulation){target="_blank"}.
+* **Angebotssimulation** - Das Modul **Simulation**, mit dem Sie die Verteilung von Angeboten vor dem Versand testen können. Siehe [Angebotssimulation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-offer.html?lang=de#offer-simulation){target="_blank"}.
 
 * **Vordefinierte Filter** Verwaltung - Wiederverwendbare Filterregeln, die von jedem Angebot aus referenziert werden können. Siehe [Verwalten vordefinierter Filter](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-predefined-filters.html){target="_blank"}.
 
-* **Angebotsverfolgung** - Konfigurieren der Angebotsverfolgung für den Vorschlagsverlauf. Siehe [Angebotsvorschläge verfolgen](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-tracking.html){target="_blank"}.
+* **Angebotsverfolgung** - Konfigurieren der Angebotsverfolgung für den Vorschlagsverlauf. Siehe [Angebotsvorschläge verfolgen](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-tracking.html?lang=de){target="_blank"}.
 
 * **Benutzerrollen** — Zuweisung der Rechte des Angebotsverantwortlichen bzw. des Versandverantwortlichen Siehe [Operatoren des Interaction-Moduls](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-operators.html){target="_blank"}.
 

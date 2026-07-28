@@ -136,5 +136,5 @@ Sobald ein Angebot live ist, wird durch Ändern einer beliebigen Einstellung das
 
 Wenn das Angebot live ist, kann es aus jedem Versand ausgewählt werden, der auf die passende Platzierung abzielt. Erfahren Sie in [Hinzufügen von Angeboten zu Ihren Nachrichten](../msg/offers.md), wie Sie Angebote für einen Versand einrichten.
 
-Die vollständige Integration des ausgehenden Versands, einschließlich der Art und Weise, wie der Modulaufruf aufgebaut ist und wie das Tracking auf Angebotslinks angewendet wird, finden Sie in der [Campaign v8-Dokumentation Angebote in ausgehenden Sendungen](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-send-offers.html){target="_blank"}.
+Die vollständige Integration des ausgehenden Versands, einschließlich der Art und Weise, wie der Modulaufruf aufgebaut ist und wie das Tracking auf Angebotslinks angewendet wird, finden Sie in der [Campaign v8-Dokumentation Angebote in ausgehenden Sendungen](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-send-offers.html?lang=de){target="_blank"}.
 
