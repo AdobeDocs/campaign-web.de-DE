@@ -4,12 +4,11 @@ title: Personalisieren Ihres E-Mail-Hintergrunds
 description: Erfahren Sie, wie Sie Ihren E-Mail-Hintergrund personalisieren
 exl-id: 180e61d3-bc1e-4dde-84cf-06bd8ba4d724
 TQID: https://experienceleague.adobe.com/ssELWLmS9gyORG4JCf-6w5lxyn0UeaC63LBNheBGU8M
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
-source-wordcount: 351
-ht-degree: 100%
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+source-git-commit: 1fe9a9727557de8bd1b0b2f10c58d89526b64095
+workflow-type: tm+mt
+source-wordcount: 366
+ht-degree: 96%
 
 ---
 
@@ -30,34 +29,29 @@ Unten finden Sie die verfügbaren Einstellungen für den Hintergrund:
 
 * Legen Sie eine **[!UICONTROL Hintergrundfarbe]** für die gesamte E-Mail fest. Wählen Sie die Einstellungen für den Hauptteil im Navigationsbaum aus, auf den Sie über den linken Bereich zugreifen können.
 
-  [Festlegen der Hintergrundfarbe für den gesamten E-Mail-Hauptteil, auf den über den Navigationsbaum zugegriffen werden kann]\
-  ![](assets/background_1.png){zoomable="yes"}
+  ![Festlegen der Hintergrundfarbe für den gesamten E-Mail-Hauptteil, auf den über den Navigationsbaum zugegriffen werden kann](assets/background_1.png){zoomable="yes"}
 
 * Legen Sie dieselbe Hintergrundfarbe für alle Strukturkomponenten fest, indem Sie **[!UICONTROL Viewport-Hintergrundfarbe auswählen]**. Mit dieser Option können Sie eine andere Einstellung als die Hintergrundfarbe auswählen.
 
-  [Festlegen einer einheitlichen Hintergrundfarben für alle Strukturkomponenten mit der Option „Viewport-Hintergrundfarbe“]\
-  ![](assets/background_2.png){zoomable="yes"}
+  ![Festlegen einer einheitlichen Hintergrundfarben für alle Strukturkomponenten mit der Option „Viewport-Hintergrundfarbe“](assets/background_2.png){zoomable="yes"}
 
 * Legen Sie für jede Strukturkomponente eine andere Hintergrundfarbe fest. Wählen Sie im linken Bereich eine Struktur im Navigationsbaum aus, um eine bestimmte Hintergrundfarbe nur dieser Struktur zuzuweisen.
 
-  [Anwenden eindeutiger Hintergrundfarben auf einzelne Strukturkomponenten über den Navigationsbaum]\
-  ![](assets/background_3.png){zoomable="yes"}
+  ![Anwenden eindeutiger Hintergrundfarben auf einzelne Strukturkomponenten über den Navigationsbaum](assets/background_3.png){zoomable="yes"}
 
   >[!NOTE]
   >Wählen Sie aber keine Viewport-Hintergrundfarbe aus, da diese die Struktur-Hintergrundfarben verdecken könnte.
 
-* Legen Sie für den Inhalt einer Strukturkomponente ein **[!UICONTROL Hintergrundbild]** fest.
+* Legen Sie für den Inhalt einer Strukturkomponente ein **[!UICONTROL Hintergrundbild]** fest. Wählen Sie ein Bild mit **[!UICONTROL Asset auswählen]**, **[!UICONTROL Medien importieren]** oder **[!UICONTROL Öffentliche Ressource importieren]**. [Weitere Informationen](content-components.md#image)
 
-  [Hinzufügen eines Hintergrundbilds zum Inhalt einer bestimmten Strukturkomponente]\
-  ![](assets/background_4.png){zoomable="yes"}
+  ![Hinzufügen eines Hintergrundbilds zum Inhalt einer bestimmten Strukturkomponente](assets/background_4.png){zoomable="yes"}
 
   >[!NOTE]
   >Manche E-Mail-Programme unterstützen keine Hintergrundbilder. Wenn dies nicht unterstützt wird, wird stattdessen die Hintergrundfarbe der Zeile verwendet. Wählen Sie daher eine passende Fallback-Hintergrundfarbe auf, falls das Bild nicht dargestellt werden kann.
 
 * Legen Sie auf Spaltenebene eine Hintergrundfarbe fest.
 
-  [Anwenden einer Hintergrundfarbe auf Spaltenebene für mehr Flexibilität]\
-  ![](assets/background_5.png){zoomable="yes"}
+  ![Anwenden einer Hintergrundfarbe auf Spaltenebene für mehr Flexibilität](assets/background_5.png){zoomable="yes"}
 
   >[!NOTE]
   >Dies ist der häufigste Anwendungsfall. Adobe empfiehlt, Hintergrundfarben auf Spaltenebene festzulegen, da dies mehr Flexibilität bietet, wenn der gesamte E-Mail-Inhalt bearbeitet wird.

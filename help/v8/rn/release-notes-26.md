@@ -2,16 +2,37 @@
 title: Frühere Versionshinweise zur Web-Benutzeroberfläche von Campaign v8
 description: Versionen der Campaign Web-Benutzeroberfläche 2026
 exl-id: 40735c57-94ae-4646-8c3d-68197569fbd4
-source-git-commit: 4eae8f0ea3c176a12e040f7406aac699e14a5ba8
-workflow-type: ht
-source-wordcount: '1204'
-ht-degree: 100%
+source-git-commit: 2f61ad20f37aab1b89e983ee23fa5182b2ef0f29
+workflow-type: tm+mt
+source-wordcount: '1341'
+ht-degree: 98%
 
 ---
 
 # Versionshinweise für 2026 {#2026-release}
 
 Auf dieser Seite werden alle Änderungen und Verbesserungen aufgelistet, die in **Versionen 2026** verfügbar sind. Die neuesten Versionshinweise finden Sie auf [dieser Seite](release-notes.md).
+
+## Version Juni 2026 {#26-6-release}
+
+_16. Juni 2026_
+
+### Verbesserungen {#26-6-improvements}
+
+<!--
+* Technical administrators can now create and configure brands directly from the Campaign Web User Interface, without using the Client Console. All brand settings, including identity, subdmain and protocols, email header parameters and URL tracking parameters, are now available in the Web UI. <!-- [Learn more](../administration/branding/branding-configure.md)
+-->
+
+* Sie können jetzt Daten aus jedem Listenbildschirm einschließlich der Trackinglogs exportieren. Suchen Sie Ihre Liste und klicken Sie einfach auf die Schaltfläche „Exportieren“. Der Export umfasst die derzeit geladenen Zeilen und berücksichtigt die auf dem Bildschirm angezeigten Spalten sowie aktive Suchen oder Filter. [Weitere Informationen](../get-started/list-filters.md)
+
+* Die Workflow-Aktivitäten **Deduplizierung** und **Ende** unterstützen jetzt mehrere eingehende Transitionen. Wenn mehr als eine eingehende Transition verfügbar ist, verwenden Sie den Abschnitt **Zusammenzufügende Sätze** in der Aktivität
+um die zu verbindenden Transitionen auszuwählen. Weitere Informationen finden Sie auf den folgenden Seiten: [Deduplizierung](../workflows/activities/deduplication.md), [Ende](../workflows/activities/end.md)
+
+* Erweiterte Parameter werden jetzt im Abschnitt **Anreicherungsdaten** der Workflow-Aktivitäten **Zielgruppe erstellen** (Abfragetyp) und **Anreicherung** angezeigt. Mit diesen Parametern können Sie die Struktur von Anreicherungsdaten optimieren, einschließlich Gruppierung, Deduplizierung, Verarbeitung von Primärschlüsseln und Daten eingehender Ereignisse. [Weitere Informationen](../workflows/activities/enrichment.md)
+
+<!--
+* Delivery templates now allow you to define a time zone in the Schedule settings.
+-->
 
 ## Version April 2026 {#26-4-release}
 

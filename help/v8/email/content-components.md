@@ -4,14 +4,12 @@ title: Verwenden der Inhaltskomponenten von E-Mail-Designer
 description: Erfahren Sie, wie Sie Inhaltskomponenten in E-Mails verwenden
 exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
 TQID: https://experienceleague.adobe.com/iT-8fzpVcEzhMpuUynQB3uvnA8FcJoJfnzb9-hsN5Vo
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
-source-wordcount: 1402
-ht-degree: 100%
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: e4673544f8e4a06b4fdc517929a03efae35a3715
+workflow-type: tm+mt
+source-wordcount: 1517
+ht-degree: 85%
 
 ---
 
@@ -116,7 +114,7 @@ Verwenden Sie die Komponente **[!UICONTROL Text]**, um Text in Ihre E-Mail einzu
    * **[!UICONTROL Liste erstellen]**: Fügen Sie eine Aufzählungs- oder nummerierte Liste zu Ihrem Text hinzu.
    * **[!UICONTROL Überschrift festlegen]**: Bis zu sechs Überschriftenebenen zu Ihrem Text hinzufügen.
    * **Schriftgröße**: Wählen Sie die Schriftgröße Ihres Textes in Pixel aus.
-   * **[!UICONTROL Bild bearbeiten]**: Ein Bild oder ein Asset zu Ihrer Textkomponente hinzufügen.
+   * **[!UICONTROL Bild bearbeiten]**: Ein Bild von Ihrer Adobe Experience Manager Assets-Bibliothek oder von Ihrem Computer zu Ihrer Textkomponente hinzufügen oder ein in Ihrer Adobe Campaign-Instanz verfügbares Bild wiederverwenden. [Weitere Informationen](#image)
    * **[!UICONTROL Quell-Code anzeigen]**: Den Quell-Code Ihres Textes anzeigen. Es kann nicht geändert werden.
    * **[!UICONTROL Duplizieren]**: Eine Kopie der Textkomponente hinzufügen.
    * **[!UICONTROL Löschen]**: Die ausgewählte Textkomponente aus der E-Mail löschen.
@@ -153,27 +151,53 @@ Verwenden Sie die Komponente **[!UICONTROL HTML]**, um Teile Ihrer existierenden
 
 ## Bild {#image}
 
->[!IMPORTANT]
->
->Der Zugriff auf das Assets-Menü ist auf Benutzerinnen und Benutzer mit einer aktiven Adobe Experience Manager as a Cloud Service-Lizenz beschränkt. Wenn diese Lizenz nicht vorhanden ist, ist das Menü „Assets“ nicht verfügbar.
-
-Verwenden Sie die Komponente **[!UICONTROL Bild]**, um eine Bilddatei von Ihrem Computer in Ihre E-Mail einzufügen.
+Verwenden Sie die **[!UICONTROL Bild]**-Komponente, um ein Bild in Ihre E-Mail einzufügen.
 
 1. Ziehen Sie aus dem Menü **[!UICONTROL Inhalt]** ein **[!UICONTROL Bild]** per Drag-and-Drop in eine **[!UICONTROL Strukturkomponente]**.
 
    ![Screenshot, der zeigt, wie eine Bildkomponente per Drag-and-Drop im E-Mail-Designer verschoben wird](assets/email_designer_9.png){zoomable="yes"}
 
-1. Klicken Sie auf **[!UICONTROL Durchsuchen]**, um eine Bilddatei aus Ihren Assets auszuwählen. Sie können auch Ihre **[!UICONTROL Medien importieren]**.
+1. Wählen Sie eine der folgenden Optionen, um Ihr Bild hinzuzufügen:
+
+   ![Screenshot mit den Optionen für Bildkomponenten in der E-Mail-Designer.](assets/email_designer_28.png){zoomable="yes"}
+
+   +++**[!UICONTROL Durchsuchen]**
+
+   Wählen Sie diese Option, um ein Bild aus Ihrer Adobe Experience Manager Assets-Bibliothek auszuwählen.
+
+   >[!IMPORTANT]
+   >
+   >Diese Option erfordert eine aktive Adobe Experience Manager as a Cloud Service-Lizenz.
+
+   Navigieren Sie durch Ihre Ordner, um das gewünschte Asset zu finden, oder verwenden Sie die Suchleiste, um es effizient zu suchen. Nachdem Sie das Asset gefunden haben, klicken Sie auf **[!UICONTROL Auswählen]**.
+
+   ![Screenshot mit dem Prozess der Asset-Auswahl im E-Mail-Designer](assets/email_designer_29.png){zoomable="yes"}
 
    Weitere Informationen zum Hochladen und Hinzufügen von Assets in Adobe Experience Manager finden Sie in der [Dokumentation zu Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/add-assets.html?lang=de).
 
-   ![Screenshot mit der Option „Durchsuchen“ für Bildkomponenten im E-Mail-Designer](assets/email_designer_28.png){zoomable="yes"}
+   +++
 
-1. Navigieren Sie durch Ihre Ordner, um das gewünschte Asset zu finden, oder verwenden Sie die Suchleiste, um es effizient zu suchen.
+   +++**[!UICONTROL Import]**
 
-   Nachdem Sie das gesuchte Asset gefunden haben, klicken Sie auf **[!UICONTROL Auswählen]**.
+   Wählen Sie diese Option, um ein neues Bild von Ihrem Computer hochzuladen. Die Datei wird als öffentliche Ressource auf Ihre Adobe Campaign-Instanz hochgeladen.
 
-   ![Screenshot mit dem Prozess der Asset-Auswahl im E-Mail-Designer](assets/email_designer_29.png){zoomable="yes"}
+   +++
+
+   +++**[!UICONTROL Öffentliche Ressource importieren]**
+
+   Wählen Sie diese Option, um ein Bild auszuwählen, das bereits in Ihrer Adobe Campaign-Instanz verfügbar ist, z. B. eine zuvor in die E-Mail-Designer importierte Datei oder eine öffentliche Ressource aus der Client-Konsole.
+
+   ![Screenshot mit dem Auswahlprozess für öffentliche Ressourcen in der E-Mail-Designer.](assets/email_designer_30.png){zoomable="yes"}
+
+   Suche nach der Ressource anhand des Namens Sie können auch Filter verwenden und Spalten neu organisieren.
+
+   >[!NOTE]
+   >
+   >Die Sicherheitsbeschränkungen sind dieselben wie in der Client-Konsole: Sie können nur Ressourcen auswählen, auf die Sie Zugriff haben, basierend auf Ihren Benutzerrechten.
+
+   Wählen Sie die Ressource aus und klicken Sie auf **[!UICONTROL Bestätigen]**.
+
+   +++
 
 1. Klicken Sie auf die neu hinzugefügte Komponente und legen Sie die Bildeigenschaften auf der Registerkarte **[!UICONTROL Einstellungen]** fest:
 
