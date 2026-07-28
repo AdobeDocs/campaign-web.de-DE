@@ -3,8 +3,10 @@ audience: end-user
 title: Hinzufügen einer bearbeitbaren Liste zum Angebotsschema
 description: Erfahren Sie, wie Sie einen benutzerdefinierten Sammlungslink direkt im Bildschirm mit den Angebotsdetails als bearbeitbare Liste anzeigen.
 feature: Offers
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 043cc60da1938800404964aa7e698f959ef908fd
 workflow-type: tm+mt
 source-wordcount: 449
@@ -14,7 +16,7 @@ ht-degree: 1%
 
 # Hinzufügen einer bearbeitbaren Liste zum Angebotsschema {#offer-editable-list}
 
-Wenn Sie [Schema [!DNL nms:offer]  mit ](../administration/schemas.md) benutzerdefinierten Sammlungsrelation erweitern, z. B. mit einer Reihe von Segmenten, die mit einem Angebot verknüpft sind, können Sie es direkt im Abschnitt „Benutzerdefinierte Optionen **[!UICONTROL des Angebots als bearbeitbare Liste]**. Anstatt die verknüpften Datensätze über einen separaten Bildschirm zu verwalten, wird die Sammlung als Liste in den Angebotsdetails gerendert, und Sie können neue verknüpfte Datensätze inline über ein dediziertes Dialogfeld erstellen.
+Wenn Sie [Schema [!DNL nms:offer]  mit &#x200B;](../administration/schemas.md) benutzerdefinierten Sammlungsrelation erweitern, z. B. mit einer Reihe von Segmenten, die mit einem Angebot verknüpft sind, können Sie es direkt im Abschnitt „Benutzerdefinierte Optionen **[!UICONTROL des Angebots als bearbeitbare Liste]**. Anstatt die verknüpften Datensätze über einen separaten Bildschirm zu verwalten, wird die Sammlung als Liste in den Angebotsdetails gerendert, und Sie können neue verknüpfte Datensätze inline über ein dediziertes Dialogfeld erstellen.
 
 >[!NOTE]
 >

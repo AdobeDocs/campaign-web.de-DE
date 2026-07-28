@@ -306,7 +306,7 @@ ht-degree: 96%
     + [Erstellen und Veröffentlichen von Schemata](administration/schemas-create-publish.md)
     + [Arbeiten mit benutzerdefinierten Formularen](administration/schemas-custom-forms.md)
   + {hide-from-toc}[Konfigurieren benutzerdefinierter Felder](administration/custom-fields.md)
-  + [Konfigurieren von Optionen in [!DNL Campaign] ](administration/options.md)
+  + [Konfigurieren von Optionen in [!DNL Campaign] &#x200B;](administration/options.md)
   + [Zeitzonenverwaltung](administration/timezone-management.md)
   + Externe Konten {#external-accounts}
     + [Erstellen externer Konten](administration/create-external-account.md)

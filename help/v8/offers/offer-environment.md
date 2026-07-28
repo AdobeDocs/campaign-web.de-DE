@@ -3,8 +3,10 @@ audience: end-user
 title: Überprüfen der Einstellungen für die Angebotsumgebung
 description: Erfahren Sie, wie Sie eine Angebotsumgebung in Campaign Web anzeigen, konfigurieren und bereitstellen
 feature: Offers
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 7be45366e3ae14e6fa7e4569a37c64e6d72f534c
 workflow-type: tm+mt
 source-wordcount: 319
@@ -165,4 +167,4 @@ These two sections are generic Campaign folder controls. They are not specific t
 
 * **[!UICONTROL Restrictions]** — Lets you turn the folder into a view by enabling **[!UICONTROL This folder is a view]** and clicking **[!UICONTROL Edit restrictions]** to define a filter on the records displayed in the folder.
 -->
-Als Nächstes erstellen [ eine Platzierung](offer-space.md) um festzulegen, wo und wie die Angebote bereitgestellt werden.
+Als Nächstes erstellen [&#x200B; eine Platzierung](offer-space.md) um festzulegen, wo und wie die Angebote bereitgestellt werden.

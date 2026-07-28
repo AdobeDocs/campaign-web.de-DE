@@ -3,8 +3,10 @@ audience: end-user
 title: Erstellen und Veröffentlichen eines Angebots
 description: Erfahren Sie, wie Sie ein Angebot in Campaign Web erstellen, konfigurieren, genehmigen und bereitstellen.
 feature: Offers
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 7bd09b83112efb99c90884b7da21a5e9a5c76b6c
 workflow-type: tm+mt
 source-wordcount: 1057
@@ -16,7 +18,7 @@ ht-degree: 3%
 
 Ein **Angebot** ist ein individueller Vorschlag mit eigenem Eignungszeitraum, Zielgruppenfilter, Gewichtung und Inhalt. Angebote sind im Angebotskatalog über **Kategorien** organisiert und werden Empfängerinnen und Empfängern über eine **Platzierung“**.
 
-Bevor Sie ein Angebot erstellen, stellen Sie sicher, dass die Angebotsumgebung konfiguriert und mindestens eine Platzierung veröffentlicht wurde. Weitere Informationen finden [ unter „Konfigurieren einer ](offer-environment.md)&quot; und [Erstellen und Verwalten von Platzierungen](offer-space.md).
+Bevor Sie ein Angebot erstellen, stellen Sie sicher, dass die Angebotsumgebung konfiguriert und mindestens eine Platzierung veröffentlicht wurde. Weitere Informationen finden [&#x200B; unter „Konfigurieren einer &#x200B;](offer-environment.md)&quot; und [Erstellen und Verwalten von Platzierungen](offer-space.md).
 
 ## Zugriff auf den Angebotskatalog {#access}
 
@@ -64,7 +66,7 @@ In diesem Abschnitt können Sie steuern, wann und wem das Angebot unterbreitet w
 
 >[!NOTE]
 >
->Das Angebotsmodul sortiert geeignete Angebote nach abnehmender Gewichtung und gibt zuerst die höchsten gewichteten Vorschläge zurück. Die Auswahllogik - auch als **bezeichnet** - berücksichtigt auch die Eignungsregeln und Gewichtungen, die für die übergeordnete Kategorie und die Umgebung konfiguriert sind. Weitere Informationen zum Schlichtungsprinzip finden Sie in der [ zu Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-best-practices.html?lang=de){target="_blank"}.
+>Das Angebotsmodul sortiert geeignete Angebote nach abnehmender Gewichtung und gibt zuerst die höchsten gewichteten Vorschläge zurück. Die Auswahllogik - auch als **bezeichnet** - berücksichtigt auch die Eignungsregeln und Gewichtungen, die für die übergeordnete Kategorie und die Umgebung konfiguriert sind. Weitere Informationen zum Schlichtungsprinzip finden Sie in der [&#x200B; zu Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-best-practices.html?lang=de){target="_blank"}.
 
 ### Inhalt des Berichts definieren {#content}
 

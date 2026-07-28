@@ -3,8 +3,10 @@ audience: end-user
 title: Erste Schritte mit der Angebotsverwaltung
 description: Erfahren Sie, wie Sie Angebote in Adobe Campaign Web verwalten
 feature: Offers
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 58c94bacd8eaf86f9f90a4c641f42bd04a442fab
 workflow-type: tm+mt
 source-wordcount: 763
@@ -22,7 +24,7 @@ Angebote werden den Empfängern dann durch Sendungen auf der Grundlage von **Eig
 
 >[!NOTE]
 >
->Die Web-Benutzeroberfläche von Campaign konzentriert sich auf die gängigste Verwendung der Angebotsverwaltung. Erweiterte Konfigurationen sind weiterhin in der Campaign-Client-Konsole verfügbar. Weitere Informationen finden Sie in [ Dokumentation zu Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=de){target="_blank"}
+>Die Web-Benutzeroberfläche von Campaign konzentriert sich auf die gängigste Verwendung der Angebotsverwaltung. Erweiterte Konfigurationen sind weiterhin in der Campaign-Client-Konsole verfügbar. Weitere Informationen finden Sie in [&#x200B; Dokumentation zu Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=de){target="_blank"}
 
 <!--
 and check the [Campaign Web and client console capability matrix](../get-started/capability-matrix.md#offer-capabilities) for the current scope.

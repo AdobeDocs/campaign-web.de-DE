@@ -3,8 +3,10 @@ audience: end-user
 title: Erstellen und Verwalten von Platzierungen
 description: Erfahren Sie, wie Sie Platzierungen in Campaign Web erstellen, konfigurieren, bereitstellen und in der Vorschau anzeigen.
 feature: Offers
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 58c94bacd8eaf86f9f90a4c641f42bd04a442fab
 workflow-type: tm+mt
 source-wordcount: 921
@@ -16,7 +18,7 @@ ht-degree: 0%
 
 Eine **Platzierung** definiert, wo und wie ein Angebot einem Kontakt angezeigt wird: welchen Kanal es verwendet (E-Mail, Briefpost, SMS, eingehendes Web usw.), welche Inhaltsfelder das Angebot verwenden kann und wie die endgültige Darstellung erstellt wird. Eine Umgebung kann mehrere Platzierungen enthalten - eine für jeden Ausstellungspunkt.
 
-Eine Platzierung ist kein Kanal an sich. Es stellt eine bestimmte Position dar, an der das Angebot auf einem Kanal angezeigt wird. Zwei Banner auf derselben Web-Seite entsprechen in der Regel zwei verschiedenen Platzierungen. Das vollständige Konzeptmodell finden Sie in der Dokumentation zu [ v8 ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-offer-spaces.html){target="_blank"}.
+Eine Platzierung ist kein Kanal an sich. Es stellt eine bestimmte Position dar, an der das Angebot auf einem Kanal angezeigt wird. Zwei Banner auf derselben Web-Seite entsprechen in der Regel zwei verschiedenen Platzierungen. Das vollständige Konzeptmodell finden Sie in der Dokumentation zu [&#x200B; v8 &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-offer-spaces.html){target="_blank"}.
 
 ## Platzierung erstellen oder ändern{#create-offer-space}
 
@@ -54,7 +56,7 @@ Die Rendering-Funktionen erstellen die endgültige Angebotsdarstellung aus den I
 
 Wählen Sie die Registerkarte **[!UICONTROL HTML]**, **[!UICONTROL XML]** oder **[!UICONTROL Text-Rendering]** aus und aktivieren Sie **[!UICONTROL Überschreiben der Rendering-Funktion]**, um sie zu aktivieren.
 
-Verwenden Sie den Ausdruckseditor, um die Rendering-Funktion zu schreiben. Sie können auf die in der Platzierung definierten Inhaltsfelder, die Angebotsattribute und jede beliebige Funktion im [Ausdruckseditor“ ](../query/expression-editor.md).
+Verwenden Sie den Ausdruckseditor, um die Rendering-Funktion zu schreiben. Sie können auf die in der Platzierung definierten Inhaltsfelder, die Angebotsattribute und jede beliebige Funktion im [Ausdruckseditor“ &#x200B;](../query/expression-editor.md).
 
 >[!NOTE]
 >
@@ -70,7 +72,7 @@ In diesem Abschnitt können Sie steuern, wie Vorschläge, die durch diesen Berei
 
 * **[!UICONTROL Status]** bei Annahme - Status, der angewendet wird, wenn der Empfänger mit dem Angebot interagiert (normalerweise **[!UICONTROL Akzeptiert]**).
 
-Die verfügbaren Statuswerte entsprechen der von der Client-Konsole verwendeten Liste. Weitere Informationen finden Sie in der [ zu Campaign v8 ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-offer-spaces.html#offer-proposition-statuses){target="_blank"} der Konsolendokumentation.
+Die verfügbaren Statuswerte entsprechen der von der Client-Konsole verwendeten Liste. Weitere Informationen finden Sie in der [&#x200B; zu Campaign v8 &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-offer-spaces.html#offer-proposition-statuses){target="_blank"} der Konsolendokumentation.
 
 <!--
 >[!NOTE]
@@ -80,13 +82,13 @@ Die verfügbaren Statuswerte entsprechen der von der Client-Konsole verwendeten 
 
 ### Konfigurieren der erweiterten Einstellungen {#advanced}
 
-In diesem Abschnitt können Sie die &quot;**[!UICONTROL &quot;]**. Klicken Sie auf **[!UICONTROL Hinzufügen]** und wählen Sie ein oder mehrere **[!UICONTROL Empfänger]**-Attribute aus oder klicken Sie **[!UICONTROL Ausdruck bearbeiten]**, um stattdessen einen benutzerdefinierten Ausdruck zu definieren. Diese Einstellung ist für eine einfache Platzierung optional. Die vollständigen Informationen und das Verhalten finden Sie in der [ zu Campaign v8 ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-offer-spaces.html){target="_blank"}.
+In diesem Abschnitt können Sie die &quot;**[!UICONTROL &quot;]**. Klicken Sie auf **[!UICONTROL Hinzufügen]** und wählen Sie ein oder mehrere **[!UICONTROL Empfänger]**-Attribute aus oder klicken Sie **[!UICONTROL Ausdruck bearbeiten]**, um stattdessen einen benutzerdefinierten Ausdruck zu definieren. Diese Einstellung ist für eine einfache Platzierung optional. Die vollständigen Informationen und das Verhalten finden Sie in der [&#x200B; zu Campaign v8 &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-offer-spaces.html){target="_blank"}.
 
-Platzierungen, die im **eingehenden Web-Kanal** erstellt wurden, erfordern außerdem, dass die Website so konfiguriert ist, dass das Angebot angezeigt und das Angebotsmodul aufgerufen wird. Diese Integration erfolgt in der Client-Konsole - siehe [Angebote in Echtzeit ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-present-offers.html){target="_blank"} und [Integration des Angebotsmoduls konfigurieren](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-integration.html){target="_blank"} in der Dokumentation zu Campaign v8.
+Platzierungen, die im **eingehenden Web-Kanal** erstellt wurden, erfordern außerdem, dass die Website so konfiguriert ist, dass das Angebot angezeigt und das Angebotsmodul aufgerufen wird. Diese Integration erfolgt in der Client-Konsole - siehe [Angebote in Echtzeit &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-present-offers.html){target="_blank"} und [Integration des Angebotsmoduls konfigurieren](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-integration.html){target="_blank"} in der Dokumentation zu Campaign v8.
 
 ## Platzierung bereitstellen {#deploy}
 
-Eine Platzierung muss bereitgestellt werden, bevor sie in einem Versand verwendet werden kann. Platzierung speichern und auf „Bereitstellen **** klicken Der Status der Bereitstellung wird in der Platzierung angezeigt.
+Eine Platzierung muss bereitgestellt werden, bevor sie in einem Versand verwendet werden kann. Platzierung speichern und auf „Bereitstellen **&#x200B;**&#x200B;klicken Der Status der Bereitstellung wird in der Platzierung angezeigt.
 
 ![Screenshot zur Bereitstellung des Angebots.](assets/offers-space-2.png){zoomable="yes"}
 
@@ -104,4 +106,4 @@ In der Vorschau können Sie simulieren, wie ein Angebot für eine bestimmte Ziel
 >
 >Wenn keine Vorschläge zurückgegeben werden, überprüfen Sie die Eignungsregeln der Angebote und die Konfiguration der Platzierung.
 
-Als Nächstes [ Sie im ](create-offer.md) ein Angebot erstellen und es dieser Platzierung zuweisen.
+Als Nächstes [&#x200B; Sie im &#x200B;](create-offer.md) ein Angebot erstellen und es dieser Platzierung zuweisen.
