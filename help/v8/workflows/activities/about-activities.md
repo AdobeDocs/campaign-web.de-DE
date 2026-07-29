@@ -14,10 +14,10 @@ subfeature_v2:
   - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: fa12c9e0408d36e41e87ce4caa306671b433d186
+source-git-commit: bece1698fc2ac1020ae28cbef04d3717ee0607bb
 workflow-type: tm+mt
-source-wordcount: 637
-ht-degree: 91%
+source-wordcount: 597
+ht-degree: 97%
 
 ---
 
@@ -52,11 +52,7 @@ Diese Aktivitäten sind spezifisch für die Zielgruppenbestimmung. Sie ermöglic
 
 Diese Aktivitäten dienen der Manipulation und Anreicherung von Populationsdaten.
 
->[!CONTEXTUALHELP]
->id="acw_orchestration_data_loading_rdbms"
->title="Aktivität „Laden (RDBMS)“"
->abstract="Die Aktivität **Laden (RDBMS)** ist eine Aktivität **Daten-Management**. Verwenden Sie diese Aktivität, um Daten direkt aus einer externen relationalen Datenbank in Ihren Workflow zu laden, ohne zur Client-Konsole zu wechseln. Die extrahierten Daten stehen während des gesamten Workflows zur Verfügung und können für die Zielgruppenbestimmung, Anreicherung oder weitere Datenverarbeitung verwendet werden."
-
+* [Laden (RDBMS)](data-loading-rdbms.md): Laden Sie Daten direkt aus einer externen relationalen Datenbank in Ihren Workflow.
 * [Dateiextraktion](extract-file.md): Mit dieser Aktivität exportieren Sie in Adobe Campaign enthaltene Daten in Form von externen Dateien.
 * [Datei laden](load-file.md): Mit dieser Aktivität können Sie mit Profilen und Daten arbeiten, die in einer externen Datei gespeichert sind.
 * [Datei übertragen](transfer-file.md): Mit dieser Aktivität können Sie Dateien senden oder empfangen, das Vorhandensein von Dateien prüfen oder Dateien auf einem Server auflisten. Das verwendete Protokoll kann entweder ein Server-zu-Server-Protokoll oder ein HTTP-Protokoll sein.

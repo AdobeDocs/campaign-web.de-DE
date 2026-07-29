@@ -11,10 +11,10 @@ subfeature_v2:
   - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
-source-wordcount: 319
-ht-degree: 100%
+source-git-commit: b3d611e9a9a723a5b76fdcd1053d93db4417dbaf
+workflow-type: tm+mt
+source-wordcount: 348
+ht-degree: 91%
 
 ---
 
@@ -48,8 +48,10 @@ Die Benutzeroberfläche für Schemata bietet folgende Möglichkeiten:
 
 * [Zugreifen auf und Anpassen von Schemata](schemas-browse-access.md) – Anzeigen verfügbarer Schemata, Erkunden ihrer Details und Anpassen der Bildschirmanzeige
 * [Konfigurieren der Listenspalten](schemas-list-columns.md) – Konfigurieren Sie, welche Spalten in Listenansichten standardmäßig angezeigt werden.
-* [Bearbeiten benutzerdefinierter Felder](schemas-custom-fields.md) – Konfigurieren Sie, welche benutzerdefinierten Felder auf Detailbildschirmen angezeigt werden, und organisieren Sie sie in Abschnitten.
-* [Hinzufügen von Sammlungslisten](schemas-collection-lists.md) – Fügen Sie Sammlungslisten hinzu, um verwandte Daten in Profilbildern anzuzeigen.
+* [Benutzerdefinierte Filter hinzufügen](schemas-custom-filters.md) - Hinzufügen von Schnellzugriffsfilterfeldern im Filterbereich einer Listenansicht.
+* [Benutzerdefinierte Felder bearbeiten](schemas-custom-fields.md) – Konfigurieren Sie, welche benutzerdefinierten Felder auf Detailbildschirmen angezeigt werden, und organisieren Sie sie in Abschnitte.
+* [Sammlungslisten hinzufügen](schemas-collection-lists.md) – Fügen Sie Sammlungslisten hinzu, um verwandte Daten in Profilbildern anzuzeigen.
+* [Steuerungsaktionen für Daten](schemas-action-data.md) - Beschränken Sie das Erstellen, Bearbeiten und Löschen von Aktionen für benutzerdefinierte Schemata.
 * [Erstellen und Verwalten von Schemata](schemas-create-publish.md#create-schemas) – Erstellen Sie neue Schemata und erweitern Sie vorhandene Schemata.
 * [Veröffentlichen und Synchronisieren von Schemata](schemas-create-publish.md#publish) – Synchronisieren Sie Schemaänderungen mit der Datenbankstruktur.
 * [Arbeiten mit benutzerdefinierten Formularen](schemas-custom-forms.md) – Erstellen, bearbeiten und verwalten Sie Einträge in benutzerdefinierten Schemata mithilfe von Dateneingabeformularen.

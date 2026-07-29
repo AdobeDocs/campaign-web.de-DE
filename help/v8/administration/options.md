@@ -9,10 +9,10 @@ feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
-source-wordcount: 447
-ht-degree: 100%
+source-git-commit: 0638cc11f533521f7c8f3df3a80361b040a05b0c
+workflow-type: tm+mt
+source-wordcount: 592
+ht-degree: 75%
 
 ---
 
@@ -83,3 +83,17 @@ Im folgenden Beispiel wird eine benutzerdefinierte Option namens `sampleOption` 
 1. Der aktualisierte Wert ist jetzt im Menü **[!UICONTROL Optionen]** sichtbar.
 
    ![Menü „Optionen“ mit dem aktualisierten Wert der benutzerdefinierten Option](assets/options-sample-updated.png)
+
+## Schränken Sie die Absender-E-Mail-Adresse für Sendungen ein {#restrict-sender-address}
+
+Marketing-Experten können standardmäßig eine beliebige Adresse in das Feld **[!UICONTROL Von E-Mail]** eines E-Mail-Versands eingeben. Um dieses Feld auf eine vordefinierte Liste von Adressen zu beschränken, erstellen oder bearbeiten Sie die integrierte `NmsDelivery_senderAddressMask`-Option und setzen ihren Wert auf eine kommagetrennte Liste der zulässigen Absenderadressen, z. B. `abc@adobe.com,bcd@adobe.com`.
+
+![Option zum Einschränken von Werten im Menü „Von“](assets/option-restrict-from.png)
+
+Sobald diese Option einen Wert hat, wird **[!UICONTROL Feld]** Von E-Mail) zu einer Dropdown-Liste, die nur diese Adressen anstelle eines Freitextfelds enthält. Wenn die Option nicht vorhanden oder ihr Wert leer ist, bleibt das Feld wie zuvor im Freitext.
+
+![Verfügbare Werte in einer E-Mail](assets/option-restrict-from2.png)
+
+Diese Einschränkung gilt global. Sie gilt für jede Marke und Versandvorlage und unterstützt keine Personalisierungsfelder, sondern nur statische Adressen.
+
+Weitere Informationen zum Feld **[!UICONTROL Von E-Mail]** finden Sie unter [Konfigurieren des E-Mail-Inhalts](../email/edit-content.md#edit-content).

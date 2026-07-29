@@ -8,10 +8,10 @@ product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
-source-git-commit: 8de6db4dc4aa20cfb72a9e9c997f4348fccb2c39
-workflow-type: ht
-source-wordcount: 337
-ht-degree: 100%
+source-git-commit: 7b43dd8a4a498fdbd0c205d28645901cf44df3a6
+workflow-type: tm+mt
+source-wordcount: 365
+ht-degree: 92%
 
 ---
 
@@ -33,6 +33,10 @@ Der Filterbereich wird geöffnet und zeigt die für die ausgewählte Liste verf�
 ![Bereich „Filter“ mit für Listen verfügbaren Filtern](assets/filters-pane.png){zoomable="yes"}{width="70%" zoomable="yes"}
 
 Um eine Liste nach Ihren eigenen Kriterien zu filtern, können Sie einen benutzerdefinierten Filter erstellen. Navigieren Sie dazu zum unteren Ende des Filterbereichs und klicken Sie auf **Regeln hinzufügen**. [Erfahren Sie, wie Sie benutzerdefinierte Filter erstellen](#custom).
+
+>[!NOTE]
+>
+>Bei benutzerdefinierten Schemata können Admins ihre eigenen Schnellzugriffsfelder über der Schaltfläche „Regeln hinzufügen **zum** hinzufügen. Weitere Informationen finden Sie unter [Hinzufügen benutzerdefinierter Filter](../administration/schemas-custom-filters.md).
 
 Nachdem Sie Filter auf eine Liste angewendet haben, werden sie unter der Suchleiste angezeigt. Sie können einen jederzeit einzelne Filter entfernen oder auch alle, indem Sie auf **Alle löschen** klicken.
 
