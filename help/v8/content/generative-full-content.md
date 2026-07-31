@@ -4,8 +4,11 @@ title: Generative Inhalte
 description: Erfahren Sie, wie Sie mithilfe von KI in Journey Optimizer vollständige Inhaltserlebnisse generieren.
 exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
 TQID: https://experienceleague.adobe.com/nXCZiZL0nd7Jso0wMFrBCEZCzzcx83-c0BdI-PxCOp4
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2:
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
 workflow-type: tm+mt
 source-wordcount: 1620
@@ -20,7 +23,7 @@ ht-degree: 76%
 >Bevor Sie mit der Verwendung dieser Funktion beginnen, lesen Sie die entsprechenden Informationen unter [Schutzmechanismen und Einschränkungen](generative-gs.md#generative-guardrails).
 ></br>
 >
->Sie müssen einer [Benutzervereinbarung“ zustimmen, ](https://www.adobe.com/de/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} KI zum Generieren von Inhalten in Adobe Campaign Web verwenden zu können. Weitere Informationen erhalten Sie beim Adobe-Support.
+>Sie müssen einer [Benutzervereinbarung“ zustimmen, &#x200B;](https://www.adobe.com/de/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} KI zum Generieren von Inhalten in Adobe Campaign Web verwenden zu können. Weitere Informationen erhalten Sie beim Adobe-Support.
 
 Verwenden Sie KI in Adobe Campaign Web, um vollständige Inhaltserlebnisse für Ihre E-Mail, Landingpages und Push-Benachrichtigungskanäle zu generieren. Mit KI können Sie die Wirkung Ihrer Sendungen optimieren, indem Sie umfassende Inhalte erstellen, die Ihre Audience ansprechen.
 
@@ -133,7 +136,7 @@ Um mithilfe von KI Inhalte für Push-Benachrichtigungen zu generieren, richten S
 
 1. Rufen Sie das Menü **[!UICONTROL Inhalt generieren]** auf.
 
-   ![Screenshot mit dem Menü „Inhalt generieren“ ](assets/push-genai-1.png){zoomable="yes"}
+   ![Screenshot mit dem Menü „Inhalt generieren“ &#x200B;](assets/push-genai-1.png){zoomable="yes"}
 
 ### Vollständigen Inhalt generieren {#mobile-generate-content}
 

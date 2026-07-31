@@ -4,9 +4,13 @@ description: Hilfe-Center zu Campaign Web
 title: Produktdokumentation zu Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 TQID: https://experienceleague.adobe.com/MgMH03lZa-uSVm-e1ZN-jvJrbjDUvKBpnmCIzxMmi1A
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
 workflow-type: tm+mt
 source-wordcount: 523
@@ -71,7 +75,7 @@ Eine vollständige Übersicht finden Sie in den Versionshinweisen.
 
 >[!TAB Inhalt generieren]
 
-✨ Tauchen Sie mit unserer Live-Funktionsvorschau („Inhalt generieren[ in eine praktische Erfahrung ein](../v8/content/generative-gs.md) damit Sie die Funktionen aus erster Hand erkunden und die Möglichkeiten des Programms vollständig verstehen können.
+✨ Tauchen Sie mit unserer Live-Funktionsvorschau („Inhalt generieren[&#x200B; in eine praktische Erfahrung ein](../v8/content/generative-gs.md) damit Sie die Funktionen aus erster Hand erkunden und die Möglichkeiten des Programms vollständig verstehen können.
 
 [![Schaltfläche „Weitere Informationen“](assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/de/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 

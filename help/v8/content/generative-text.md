@@ -4,8 +4,11 @@ title: Generative Inhalte
 description: Erfahren Sie, wie Sie mithilfe von KI Textinhalte generieren
 exl-id: da60d57e-d17f-40eb-9c24-0bfea940d236
 TQID: https://experienceleague.adobe.com/yV28iGW0nS-R6ZgQnfOrpfZlCzQu-1Ng1TH6aWD8QOg
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2:
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
 workflow-type: tm+mt
 source-wordcount: 1450
@@ -20,7 +23,7 @@ ht-degree: 75%
 >Bevor Sie mit der Verwendung dieser Funktion beginnen, lesen Sie die entsprechenden Informationen unter [Schutzmechanismen und Einschränkungen](generative-gs.md#generative-guardrails).
 ></br>
 >
->Sie müssen einer [Benutzervereinbarung“ zustimmen, ](https://www.adobe.com/de/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} KI zum Generieren von Inhalten in Adobe Campaign Web verwenden zu können. Weitere Informationen erhalten Sie beim Adobe-Support.
+>Sie müssen einer [Benutzervereinbarung“ zustimmen, &#x200B;](https://www.adobe.com/de/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} KI zum Generieren von Inhalten in Adobe Campaign Web verwenden zu können. Weitere Informationen erhalten Sie beim Adobe-Support.
 
 Verwenden Sie KI in Adobe Campaign Web, um ansprechenden Text zu generieren, der bei Ihrer Zielgruppe Anklang findet. Egal, ob Sie E-Mail-Kopien verbessern, überzeugende Landingpage-Inhalte erstellen, Push-Benachrichtigungen schreiben oder SMS-Texte verfassen: KI hilft Ihnen, eine klare, wirkungsvolle Kommunikation zu liefern.
 
@@ -123,7 +126,7 @@ Bevor Sie mit der Generierung von Text mit KI für mobile Kanäle beginnen, müs
 
 1. Rufen Sie das Menü **[!UICONTROL Inhalt generieren]** auf.
 
-   ![Screenshot mit dem Menü „Inhalt generieren“ ](assets/sms-genai-1.png){zoomable="yes"}
+   ![Screenshot mit dem Menü „Inhalt generieren“ &#x200B;](assets/sms-genai-1.png){zoomable="yes"}
 
 ### Text generieren {#mobile-generate-content}
 

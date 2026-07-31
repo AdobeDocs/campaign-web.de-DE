@@ -4,9 +4,12 @@ title: Generative Inhalte
 description: Erfahren Sie, wie Sie Bilder mithilfe von KI generieren
 exl-id: 9de12187-c437-467b-974a-1e165adc5fe1
 TQID: https://experienceleague.adobe.com/kMFMddQ-ZYGJIZ7-0BfrUMQzJ701fQlpehO15llbJAw
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
-topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
 workflow-type: tm+mt
 source-wordcount: 1212
@@ -21,7 +24,7 @@ ht-degree: 73%
 >Bevor Sie mit der Verwendung dieser Funktion beginnen, lesen Sie die entsprechenden Informationen unter [Schutzmechanismen und Einschränkungen](generative-gs.md#generative-guardrails).
 ></br>
 >
->Sie müssen einer [Benutzervereinbarung“ zustimmen, ](https://www.adobe.com/de/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} KI zum Generieren von Inhalten in Adobe Campaign Web verwenden zu können. Weitere Informationen erhalten Sie beim Adobe-Support.
+>Sie müssen einer [Benutzervereinbarung“ zustimmen, &#x200B;](https://www.adobe.com/de/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} KI zum Generieren von Inhalten in Adobe Campaign Web verwenden zu können. Weitere Informationen erhalten Sie beim Adobe-Support.
 
 Verwenden Sie KI in Adobe Campaign Web, um ansprechende visuelle Inhalte zu erstellen, mit denen Ihre Nachrichten für E-Mails, Landingpages und Push-Benachrichtigungen optimiert werden. KI hilft Ihnen bei der Erstellung und Optimierung von Bildern und stellt sicher, dass Ihr Inhalt visuell ansprechend und auf Ihre Marke abgestimmt ist.
 
@@ -112,7 +115,7 @@ Um mit dem Generieren von Bildern für Push-Benachrichtigungen mit KI zu beginne
 
 1. Rufen Sie das Menü **[!UICONTROL Inhalt generieren]** auf.
 
-   ![Screenshot mit dem Menü „Inhalt generieren“ ](assets/push-img-1.png){zoomable="yes"}
+   ![Screenshot mit dem Menü „Inhalt generieren“ &#x200B;](assets/push-img-1.png){zoomable="yes"}
 
 ### Bild erzeugen {#mobile-generate-content}
 
