@@ -5,30 +5,16 @@ role: User, Admin, Developer
 level: Beginner
 exl-id: 39d1f1b6-626b-48a2-92c3-9b593a377d66
 TQID: https://experienceleague.adobe.com/ef945wiVtBxLFJEMMYmrrSHMg8ZtxFn-UUkEE7ntk58
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: b12f6872-9271-4369-85e5-86969a0b99a2
-  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
-  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
-subfeature_v2:
-  - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 096132b46c985e1b23ca0fc6fbcf06a70e1630c7
-workflow-type: ht
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: b12f6872-9271-4369-85e5-86969a0b99a2id: c309ee4e-82e4-4f7e-b608-ef345678c34eid: d5ef99fa-df0c-4153-bf94-105ad0724167
+subfeature_v2: id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
+workflow-type: tm+mt
 source-wordcount: 1589
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
@@ -67,14 +53,14 @@ Die wichtigsten Verbesserungen, die Adobe Campaign v8 bietet, sind nachstehend 
 
   Adobe Campaign v8 nutzt fortschrittliche Cloud-basierte Datenbanktechnologien, was die Leistung und Effizienz deutlich verbessert. Diese neu gestaltete Architektur bietet verschiedene wesentliche Vorteile:
 
-   * *Skalierung*: Das System unterstützt nun deutlich höhere Verarbeitungskapazitäten, mit einem Batch-Verarbeitungsdurchsatz von bis zu **20 Millionen Vorgängen pro Stunde**. Mit dieser neuen Architektur können noch höhere Profile mit vorhersehbarer Leistung verwaltet werden.
-   * *Geschwindigkeit*: Das System wurde für jedwede Marketing-Aktivität verbessert: Segmentierung, Versandvorbereitung und Durchsatz für Transaktionsnachrichten, der nun **1 Million pro Stunde** beträgt.
+  * *Skalierung*: Das System unterstützt nun deutlich höhere Verarbeitungskapazitäten, mit einem Batch-Verarbeitungsdurchsatz von bis zu **20 Millionen Vorgängen pro Stunde**. Mit dieser neuen Architektur können noch höhere Profile mit vorhersehbarer Leistung verwaltet werden.
+  * *Geschwindigkeit*: Das System wurde für jedwede Marketing-Aktivität verbessert: Segmentierung, Versandvorbereitung und Durchsatz für Transaktionsnachrichten, der nun **1 Million pro Stunde** beträgt.
 
   Die vollständig verwalteten Cloud-Services bieten Benutzenden Folgendes:
 
-   * Datenexploration in Echtzeit: Sie können sofort auf Daten zugreifen und diese analysieren, um schnelle Erkenntnisse zu erhalten und fundiertere Entscheidungen zu treffen.
+  * Datenexploration in Echtzeit: Sie können sofort auf Daten zugreifen und diese analysieren, um schnelle Erkenntnisse zu erhalten und fundiertere Entscheidungen zu treffen.
 
-   * Schnelles Erstellen von Zielgruppen: Sie können innerhalb von Minuten zielgerichtete Zielgruppen für eine effizientere Kampagnensegmentierung erstellen.
+  * Schnelles Erstellen von Zielgruppen: Sie können innerhalb von Minuten zielgerichtete Zielgruppen für eine effizientere Kampagnensegmentierung erstellen.
 
   Allgemein bietet die robuste Architektur von Adobe Campaign v8 eine leistungsstarke Grundlage für die Verwaltung umfangreicher und komplexer Marketing-Kampagnen mit höherer Geschwindigkeit und Effizienz.
 
@@ -92,9 +78,9 @@ Wenn Sie von Campaign Standard zu Campaign v8 wechseln, stehen Ihnen nun die fol
 
   Sie können Ihre Benachrichtigungen abhängig vom Kundensystem anpassen:
 
-   * Für [Android-Vorlagen](../../v8/push/rich-push.md)
+  * Für [Android-Vorlagen](../../v8/push/rich-push.md)
 
-   * Für [iOS-Vorlagen](../../v8/push/rich-push.md)
+  * Für [iOS-Vorlagen](../../v8/push/rich-push.md)
 
   Push-Benachrichtigungen sind ein wichtiges Instrument, um App-Benutzende anzusprechen und diese auch dann zu erreichen, wenn sie Ihre App nicht aktiv nutzen.
 
@@ -104,29 +90,29 @@ Wenn Sie von Campaign Standard zu Campaign v8 wechseln, stehen Ihnen nun die fol
 
   Im Folgenden finden Sie die wichtigsten Funktionen, die durch diese Integration bereitgestellt werden:
 
-   * *Asset-Management*: In Adobe Campaign v8 bietet der E-Mail-Designer eine Auswahl für den Zugriff auf und die Verwaltung von Assets. Diese Funktion vereinfacht die Integration von Elementen aus Adobe Experience Manager in Ihren Versand und sorgt so für ein effizienteres Content-Management. [Weitere Informationen über das Asset-Management](../../v8/integrations/aem-assets.md)
+  * *Asset-Management*: In Adobe Campaign v8 bietet der E-Mail-Designer eine Auswahl für den Zugriff auf und die Verwaltung von Assets. Diese Funktion vereinfacht die Integration von Elementen aus Adobe Experience Manager in Ihren Versand und sorgt so für ein effizienteres Content-Management. [Weitere Informationen über das Asset-Management](../../v8/integrations/aem-assets.md)
 
-     ![](../../v8/integrations/assets/assets_6.png){zoomable="yes"}
+    ![](../../v8/integrations/assets/assets_6.png){zoomable="yes"}
 
-   * *Import von E-Mail-Vorlagen*: Mit Adobe Campaign v8 können Sie E-Mail-Vorlagen von Adobe Experience Manager direkt in Campaign durchsuchen und importieren. [Weitere Informationen über den Import von E-Mail-Vorlagen](../../v8/integrations/aem-content.md)
+  * *Import von E-Mail-Vorlagen*: Mit Adobe Campaign v8 können Sie E-Mail-Vorlagen von Adobe Experience Manager direkt in Campaign durchsuchen und importieren. [Weitere Informationen über den Import von E-Mail-Vorlagen](../../v8/integrations/aem-content.md)
 
-     ![](../../v8/integrations/assets/aem_6.png){zoomable="yes"}
+    ![](../../v8/integrations/assets/aem_6.png){zoomable="yes"}
 
   Adobe Experience Manager as a Cloud Service bietet Cloud-native Agilität, mit der Sie die Time-to-Value verkürzen und sich auf die sich wandelnden Geschäftsanforderungen einstellen können. Diese Integration verbessert nicht nur Ihre Content-Management-Funktionen, sondern ermöglicht Ihnen auch, Ihrer Kundschaft personalisiertere und ansprechendere Erlebnisse an allen Touchpoints bereitzustellen.
 
-* **KI-Assistent**
+* **Inhalt generieren**
 
-  Der KI-Assistent von Campaign macht die Erstellung und Durchführung von Marketing-Kampagnen über Kanäle wie E-Mail, SMS und Push intuitiv, einfach und mühelos, spart gleichzeitig Zeit, erhöht die Effizienz und führt zu besseren Ergebnissen.
+  Mit der Funktion „Inhalt generieren“ von Campaign können Sie Marketing-Kampagnen über Kanäle wie E-Mail, SMS und Push intuitiv, einfach und unkompliziert erstellen, Zeit sparen, die Effizienz verbessern und bessere Ergebnisse erzielen.
 
   ![](../../v8/email/assets/full-email-1.png){zoomable="yes"}
 
-  Der KI-Assistent revolutioniert die kanalübergreifende Erstellung professioneller und markenkonsistenter Inhalte. Mit fortschrittlichen GenAI-Modellen und einem tiefgreifenden Verständnis der Markenrichtlinien generiert der KI-Assistent automatisch personalisierte, ansprechende und effektive Inhalte auf der Grundlage des Marketing-Ziels, wobei die Inhalte für die von der Marke vorgegebenen Stile, Layouts, die Tonalität und mehr optimiert sind.
+  Generate Content revolutioniert die Art und Weise, wie Sie professionelle und markenkonsistente Inhalte kanalübergreifend erstellen. Mit erweiterten GenAI-Modellen und einem tiefen Verständnis Ihrer Markenrichtlinien generiert Generate Content automatisch personalisierte, ansprechende und effektive Inhalte basierend auf dem Marketing-Ziel mit Inhalten, die für Markenstile, -layouts, -töne und mehr optimiert sind.
 
-  Der KI-Assistent macht die Erstellung und Durchführung von Marketing-Kampagnen über Kanäle intuitiv, einfach und mühelos, spart gleichzeitig Zeit, erhöht die Effizienz und führt zu besseren Ergebnissen.
+  „Inhalt generieren“ macht die Erstellung und Ausführung von Marketing-Kampagnen intuitiv, einfach und unkompliziert und spart gleichzeitig Zeit, verbessert die Effizienz und sorgt für bessere Ergebnisse.
 
   ![](../../v8/email/assets/full-email-2.png){zoomable="yes"}
 
-  Er bietet eine Reihe von E-Mail-Vorlagen und generiert Bilder (neu). Weitere Informationen zum KI-Assistenten finden Sie in [diesem Abschnitt](../../v8/content/generative-full-content.md). Adobe Campaign v8 verfügt über einen KI-Assistenten für [E-Mail](../../v8/content/generative-full-content.md), [SMS](../../v8/content/generative-text.md) und [Push](../../v8/content/generative-full-content.md).
+  Er bietet eine Reihe von E-Mail-Vorlagen und generiert Bilder (neu). Weitere Informationen zum Generieren von Inhalten finden [ in diesem Abschnitt](../../v8/content/generative-full-content.md). Adobe Campaign v8 bietet Generate Content für [E-](../../v8/content/generative-full-content.md), [SMS](../../v8/content/generative-text.md) und [Push](../../v8/content/generative-full-content.md).
 
 * **Aktualisierte SMS-Infrastruktur – SMS v2.0**
 
@@ -249,5 +235,5 @@ Rufen Sie das entsprechende Referenzhandbuch für Ihre Rolle auf, um sich mit de
 
 Adobe constantly evaluates product capabilities to identify older features that should be replaced with more modern alternatives to improve overall customer value, always under careful consideration of backward compatibility.
 
-Please refer to [this documentation for information on deprecated items](https://experienceleague.adobe.com/de/docs/campaign-standard/using/release-notes/deprecated-features).
+Please refer to [this documentation for information on deprecated items](https://experienceleague.adobe.com/en/docs/campaign-standard/using/release-notes/deprecated-features).
 -->

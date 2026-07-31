@@ -4,16 +4,13 @@ title: Verwalten einer Marke
 description: Erfahren Sie, wie Sie Ihre Markenrichtlinien erstellen und verwalten.
 exl-id: d4d2c6bb-7fd0-49a0-9d73-356f4a24f021
 TQID: https://experienceleague.adobe.com/MAYS264-CrLxRFoLLh8Ph0mujglOSxki7tX5iD2a8rM
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a4671286-a59f-47e3-b97b-90627a1977d5
-topic_v2:
-  - id: e6ff21d3-dec6-4298-8590-7c749fffaf78
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a4671286-a59f-47e3-b97b-90627a1977d5
+topic_v2: id: e6ff21d3-dec6-4298-8590-7c749fffaf78
+source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
+workflow-type: tm+mt
 source-wordcount: 542
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
@@ -75,7 +72,7 @@ Benutzende können die Details entweder manuell eingeben oder ein Dokument mit d
 
    ![](assets/brands-15.png)
 
-1. Klicken Sie nach der Konfiguration auf **[!UICONTROL Speichern]** und dann auf **[!UICONTROL Veröffentlichen]**, um Ihre Markenrichtlinie im KI-Assistenten verfügbar zu machen.
+1. Klicken Sie nach der Konfiguration auf **[!UICONTROL Speichern]** und dann auf **[!UICONTROL Veröffentlichen]**, um Ihre Markenrichtlinie unter „Inhalt generieren“ verfügbar zu machen.
 
 1. Um Änderungen an Ihrer veröffentlichten Marke vorzunehmen, klicken Sie auf **[!UICONTROL Marke bearbeiten]**.
 
@@ -97,7 +94,7 @@ Benutzende können die Details entweder manuell eingeben oder ein Dokument mit d
 
    ![Erweiterte Menüoptionen im Marken-Dashboard](assets/brands-6.png)
 
-Ihre Markenrichtlinien sind jetzt über die Dropdown-Liste **[!UICONTROL Marke]** im Menü des KI-Assistenten verfügbar. Dadurch kann der KI-Assistent Inhalte und Assets generieren, die mit Ihren Spezifikationen übereinstimmen. [Weitere Informationen zum KI-Assistenten](../content/generative-gs.md)
+Ihre Markenrichtlinien sind jetzt über die Dropdown-Liste **[!UICONTROL Marke]** im Menü Inhalt generieren verfügbar. Dadurch kann KI Inhalte und Assets generieren, die mit Ihren Spezifikationen übereinstimmen. [Erfahren Sie mehr über das Generieren von Inhalten](../content/generative-gs.md)
 
 Sie können Ihre Markenrichtlinien auch verwenden, um die Qualität Ihrer Inhalte und die Markenausrichtung zu bewerten. [Weitere Informationen zur Qualitätsprüfung von Inhalten](brands-score.md#validate-quality)
 

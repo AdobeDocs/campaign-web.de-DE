@@ -6,10 +6,10 @@ title: Dokumentation zu Adobe Campaign Web
 description: Dokumentation zu Campaign Web
 breadcrumb-title: Campaign Web-Benutzeroberfläche
 nudge: true
-source-git-commit: 68812d0fd77a150e21c40bbae2bb930ddf84a8a0
+source-git-commit: dae21b648eb4278746052eea3a6f33b1f8cc25da
 workflow-type: tm+mt
 source-wordcount: '1072'
-ht-degree: 96%
+ht-degree: 95%
 
 ---
 
@@ -134,13 +134,13 @@ ht-degree: 96%
       + [Hinzufügen von benutzerdefiniertem CSS](email/custom-css.md)
       + [Verwalten von Inhalten im dunklen Modus](email/dark-mode.md)
     + [Erstellen von barrierefreien Inhalten](email/accessible-content.md)
-  + KI-Assistent {#ai-assistant}
-    + [Arbeiten mit dem KI-Assistenten](content/generative-gs.md)
+  + Inhalt generieren {#ai-assistant}
+    + [Arbeiten mit generierten Inhalten](content/generative-gs.md)
     + [Best Practices für KI-Prompts](content/ai-assistant-prompting-guide.md)
     + [Vollständige Inhaltsgenerierung mit KI](content/generative-full-content.md)
     + [Textgenerierung mit KI](content/generative-text.md)
     + [Bildgenerierung mit KI](content/generative-image.md)
-    + [Anwendungsfälle für den KI-Assistenten](content/generative-uc.md)
+    + [Anwendungsfälle für die Inhaltserstellung](content/generative-uc.md)
     + Marken {#ai-assistant}
       + [Erstellen und Verwalten von Marken](content/brands.md)
       + [Personalisieren Ihrer Marke](content/brands-personalize.md)
@@ -306,7 +306,7 @@ ht-degree: 96%
     + [Erstellen und Veröffentlichen von Schemata](administration/schemas-create-publish.md)
     + [Arbeiten mit benutzerdefinierten Formularen](administration/schemas-custom-forms.md)
   + {hide-from-toc}[Konfigurieren benutzerdefinierter Felder](administration/custom-fields.md)
-  + [Konfigurieren von Optionen in [!DNL Campaign] &#x200B;](administration/options.md)
+  + [Konfigurieren von Optionen in [!DNL Campaign] ](administration/options.md)
   + [Zeitzonenverwaltung](administration/timezone-management.md)
   + Externe Konten {#external-accounts}
     + [Erstellen externer Konten](administration/create-external-account.md)

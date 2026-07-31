@@ -1,52 +1,49 @@
 ---
 audience: end-user
 title: Generative Inhalte
-description: Informationen zum Generieren von Textinhaltserlebnissen mit dem KI-Assistenten
+description: Erfahren Sie, wie Sie mithilfe von KI Textinhalte generieren
 exl-id: da60d57e-d17f-40eb-9c24-0bfea940d236
 TQID: https://experienceleague.adobe.com/yV28iGW0nS-R6ZgQnfOrpfZlCzQu-1Ng1TH6aWD8QOg
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
-source-wordcount: 1462
-ht-degree: 100%
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
+workflow-type: tm+mt
+source-wordcount: 1450
+ht-degree: 75%
 
 ---
 
-# Generieren von Text mit dem KI-Assistenten {#generative-text}
+# Text generieren {#generative-text}
 
 >[!IMPORTANT]
 >
 >Bevor Sie mit der Verwendung dieser Funktion beginnen, lesen Sie die entsprechenden Informationen unter [Schutzmechanismen und Einschränkungen](generative-gs.md#generative-guardrails).
 ></br>
 >
->Sie müssen einer [Benutzervereinbarung](https://www.adobe.com/de/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} zustimmen, bevor Sie den KI-Assistenten in Adobe Campaign Web verwenden können. Weitere Informationen erhalten Sie beim Adobe-Support.
+>Sie müssen einer [Benutzervereinbarung“ zustimmen, ](https://www.adobe.com/de/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} KI zum Generieren von Inhalten in Adobe Campaign Web verwenden zu können. Weitere Informationen erhalten Sie beim Adobe-Support.
 
-Verwenden Sie den KI-Assistenten in Adobe Campaign Web, um ansprechenden Text zu generieren, der bei Ihrer Zielgruppe Anklang findet. Unabhängig davon, ob Sie E-Mail-Versionen verbessern, überzeugende Landingpage-Inhalte erstellen, Push-Benachrichtigungen schreiben oder SMS-Texte verfassen, hilft Ihnen der KI-Assistent, eine klare, wirkungsvolle Kommunikation zu erreichen.
+Verwenden Sie KI in Adobe Campaign Web, um ansprechenden Text zu generieren, der bei Ihrer Zielgruppe Anklang findet. Egal, ob Sie E-Mail-Kopien verbessern, überzeugende Landingpage-Inhalte erstellen, Push-Benachrichtigungen schreiben oder SMS-Texte verfassen: KI hilft Ihnen, eine klare, wirkungsvolle Kommunikation zu liefern.
 
 ## Für E-Mail und Landingpages {#email-web-channels}
 
-Der KI-Assistent kann hochwertige Textinhalte für Ihre E-Mail-Sendungen und Landingpages generieren. Mit dieser Funktion können Sie überzeugendes markenkonformes Messaging erstellen, das über digitale Touchpoints hinweg bei Ihrer Zielgruppe Anklang findet.
+Verwenden Sie KI, um hochwertige Textinhalte für Ihre E-Mail-Sendungen und Landingpages zu generieren. Mit dieser Funktion können Sie überzeugendes markenkonformes Messaging erstellen, das über digitale Touchpoints hinweg bei Ihrer Zielgruppe Anklang findet.
 
 ### Zugreifen und Konfigurieren {#access-configure}
 
-Bevor Sie mit dem Generieren von Textinhalten mit dem KI-Assistenten beginnen können, müssen Sie Ihren Versand einrichten und auf den Inhaltseditor zugreifen. Gehen Sie wie folgt vor, um Ihren Arbeitsbereich vorzubereiten und das Panel „KI-Assistent“ zu öffnen.
+Bevor Sie mit der Generierung von Textinhalten mit KI beginnen können, müssen Sie Ihren Versand einrichten und auf den Inhaltseditor zugreifen. Führen Sie diese Schritte aus, um Ihren Arbeitsbereich vorzubereiten und das Bedienfeld Inhalt generieren zu öffnen.
 
 1. Erstellen Sie einen Versand und konfigurieren Sie ihn:
 
    * **E-Mail**: Nachdem Sie Ihren E-Mail-Versand erstellt und konfiguriert haben, klicken Sie auf **[!UICONTROL Inhalt bearbeiten]**. [Weitere Informationen](../email/create-email-content.md)
    * **Landingpage**: Nachdem Sie Ihre Landingpage erstellt und konfiguriert haben, klicken Sie auf **[!UICONTROL Inhalt bearbeiten]**. [Weitere Informationen](../landing-pages/create-lp.md)
 
-1. Wählen Sie eine **[!UICONTROL Textkomponente]** aus, um bestimmte Inhalte zu erfassen, und rufen Sie das Menü **[!UICONTROL KI-Assistent]** auf.
+1. Wählen Sie eine **[!UICONTROL Textkomponente]** aus, um bestimmte Inhalte auszuwählen, und rufen Sie das Menü **[!UICONTROL Inhalt generieren]** auf.
 
    ![Screenshot mit Auswahl der Textkomponente in Adobe Campaign Web](assets/text-genai-1.png){zoomable="yes"}
 
-### Generieren von Inhalt {#generate-content}
+### Text generieren {#generate-content}
 
-Erfahren Sie, wie Sie klare Prompts erstellen, Einstellungen optimieren und maßgeschneiderte Texte mit dem KI-Assistenten generieren können, um sicherzustellen, dass Ihr Messaging mit Ihren Marken- und Kommunikationszielen übereinstimmt.
+Erfahren Sie, wie Sie mit KI klare Eingabeaufforderungen erstellen, Einstellungen optimieren und maßgeschneiderten Text generieren können, um sicherzustellen, dass Ihre Botschaft mit Ihren Marken- und Kommunikationszielen übereinstimmt.
 
 1. Wählen Sie Ihre **[!UICONTROL Marke]** aus, um sicherzustellen, dass die von KI generierten Inhalte mit Ihren Markenspezifikationen übereinstimmen. [Weitere Informationen](brands.md) zu Marken.
 
@@ -60,12 +57,12 @@ Erfahren Sie, wie Sie klare Prompts erstellen, Einstellungen optimieren und maß
 
    * **[!UICONTROL Kommunikationsstrategie]**: Wählen Sie den am besten geeigneten Kommunikationsstil für den generierten Text aus.
    * **[!UICONTROL Sprachen]**: Wählen Sie die Sprache Ihrer generierten Inhalte aus.
-   * **[!UICONTROL Ton]**: Stellen Sie sicher, dass der Ton Ihrer E-Mail bei Ihrer Zielgruppe ankommt. Je nachdem, ob Sie informativ, humorvoll oder überzeugend klingen möchten, passt der KI-Assistent die Nachricht entsprechend an.
+   * **[!UICONTROL Ton]**: Stellen Sie sicher, dass der Ton Ihrer E-Mail bei Ihrer Zielgruppe ankommt. Egal, ob Sie informativ, verspielt oder überzeugend klingen möchten, KI passt die Nachricht entsprechend an.
    * **Textlänge**: Wählen Sie mit dem Regler die gewünschte Textlänge aus.
 
      ![Screenshot mit Optionen für Texteinstellungen in Adobe Campaign Web](assets/text-genai-4.png){zoomable="yes"}
 
-1. Klicken Sie im Menü **[!UICONTROL Referenzinhalt]** auf **[!UICONTROL Datei hochladen]**, um beliebige Marken-Assets mit Inhalten hinzuzufügen, die zusätzlichen Kontext für den KI-Assistenten liefern können. Alternativ können Sie ein zuvor hochgeladenes Asset auswählen.
+1. Klicken Sie im Menü **[!UICONTROL Referenzinhalt]** auf **[!UICONTROL Datei hochladen]**, um jedes Marken-Asset hinzuzufügen, das Inhalte enthält, die zusätzliche Kontext-KI bereitstellen können, oder ein zuvor hochgeladenes Asset auszuwählen.
 
    Zuvor hochgeladene Dateien sind in der Dropdown-Liste **[!UICONTROL Hochgeladener Referenzinhalt]** verfügbar. Aktivieren Sie einfach die Assets, die in den Generierungsprozess einbezogen werden sollen.
 
@@ -110,11 +107,11 @@ Erfahren Sie, wie Sie den generierten Text überprüfen, Anpassungen vornehmen u
 
 ## Für Mobile-Kanäle {#mobile-channels}
 
-Der KI-Assistent kann überzeugende Textinhalte für Ihre Push-Benachrichtigungen und SMS-Nachrichten generieren und Ihnen dabei helfen, ansprechende Mobile-Kommunikation zu erstellen, die über alle Mobile-Touchpoints hinweg bei Ihrer Zielgruppe Anklang findet.
+Verwenden Sie KI, um ansprechende Textinhalte für Ihre Push-Benachrichtigungen und SMS-Nachrichten zu generieren, damit Sie ansprechende mobile Nachrichten erstellen können, die über alle mobilen Touchpoints hinweg mit Ihrer Audience verbunden sind.
 
 ### Zugreifen und Konfigurieren {#mobile-access-configure}
 
-Bevor Sie mit dem Generieren von Text mit dem KI-Assistenten für Mobile-Kanäle beginnen, müssen Sie Ihren Versand einrichten und auf den KI-Assistenten zugreifen.
+Bevor Sie mit der Generierung von Text mit KI für mobile Kanäle beginnen, müssen Sie Ihren Versand einrichten und auf die Funktion „Inhalt generieren“ zugreifen.
 
 1. Erstellen Sie einen Mobile-Versand und konfigurieren Sie ihn:
    * **Push-Benachrichtigungen**: Nachdem Sie Ihren Push-Benachrichtigungsversand erstellt und konfiguriert haben, klicken Sie auf **[!UICONTROL Inhalt bearbeiten]**. [Weitere Informationen](../push/create-push.md)
@@ -124,13 +121,13 @@ Bevor Sie mit dem Generieren von Text mit dem KI-Assistenten für Mobile-Kanäle
    * **Push-Benachrichtigungen**: [Weitere Informationen](../push/content-push.md)
    * **SMS**: [Weitere Informationen](../sms/content-sms.md)
 
-1. Rufen Sie das Menü **[!UICONTROL KI-Assistenten anzeigen]** auf.
+1. Rufen Sie das Menü **[!UICONTROL Inhalt generieren]** auf.
 
-   ![Screenshot mit dem Menü „KI-Assistenten anzeigen“](assets/sms-genai-1.png){zoomable="yes"}
+   ![Screenshot mit dem Menü „Inhalt generieren“ ](assets/sms-genai-1.png){zoomable="yes"}
 
-### Generieren von Inhalt {#mobile-generate-content}
+### Text generieren {#mobile-generate-content}
 
-Nachdem Sie auf den KI-Assistenten zugegriffen haben, können Sie die Generierungseinstellungen so konfigurieren, dass Mobile-Inhalte erstellt werden, die Ihren Marken- und Versandzielen entsprechen. Passen Sie Textparameter an, fügen Sie Marken-Assets hinzu und geben Sie Prompts ein, um die KI beim Generieren relevanter Varianten zu unterstützen.
+Nachdem Sie auf „Inhalt generieren“ zugegriffen haben, können Sie die Generierungseinstellungen so konfigurieren, dass Inhalte für Mobilgeräte erstellt werden, die Ihrer Marke und Ihren Bereitstellungszielen entsprechen. Passen Sie Textparameter an, fügen Sie Marken-Assets hinzu und geben Sie Prompts ein, um die KI beim Generieren relevanter Varianten zu unterstützen.
 
 1. Wählen Sie Ihre **[!UICONTROL Marke]** aus, um sicherzustellen, dass die von KI generierten Inhalte mit Ihren Markenspezifikationen übereinstimmen. [Weitere Informationen](brands.md) zu Marken.
 
@@ -138,7 +135,7 @@ Nachdem Sie auf den KI-Assistenten zugegriffen haben, können Sie die Generierun
 
    Wenn Sie Hilfe bei der Erstellung Ihres Prompts benötigen, finden Sie in der **[!UICONTROL Prompt-Bibliothek]** eine Vielzahl von Ideen für Prompts, mit denen Sie Ihren Versand verbessern können. [Weitere Informationen zu Best Practices für Prompts](ai-assistant-prompting-guide.md)
 
-   ![KI-Assistent mit Feld „Prompt“ und Optionen](assets/sms-genai-2.png){zoomable="yes"}
+   ![Inhalt mit Eingabeaufforderungsfeld und Optionen generieren](assets/sms-genai-2.png){zoomable="yes"}
 
 1. **Wählen Sie für Push-Benachrichtigungen** das zu generierende Textfeld aus: **[!UICONTROL Titel]**, **[!UICONTROL Untertitel]** und/oder **[!UICONTROL Nachricht]**.
 
@@ -146,12 +143,12 @@ Nachdem Sie auf den KI-Assistenten zugegriffen haben, können Sie die Generierun
 
    * **[!UICONTROL Kommunikationsstrategie]**: Wählen Sie den am besten geeigneten Kommunikationsstil für den generierten Text aus.
    * **[!UICONTROL Sprachen]**: Wählen Sie die Sprache Ihrer generierten Inhalte aus.
-   * **[!UICONTROL Ton]**: Der Ton sollte bei Ihrer Zielgruppe Anklang finden. Je nachdem, ob Sie informativ, humorvoll oder überzeugend klingen möchten, kann der KI-Assistent die Nachricht entsprechend anpassen.
+   * **[!UICONTROL Ton]**: Der Ton sollte bei Ihrer Zielgruppe Anklang finden. Egal, ob Sie informativ, verspielt oder überzeugend klingen möchten, KI kann die Nachricht entsprechend anpassen.
    * **[!UICONTROL Länge]**: Legen Sie die Länge Ihres Inhalts mit dem Schieberegler fest.
 
      ![Panel „Texteinstellungen“](assets/sms-genai-3.png){zoomable="yes"}
 
-1. Klicken Sie im Menü **[!UICONTROL Referenzinhalt]** auf **[!UICONTROL Datei hochladen]**, um beliebige Marken-Assets mit Inhalten hinzuzufügen, die zusätzlichen Kontext für den KI-Assistenten liefern können. Alternativ können Sie ein zuvor hochgeladenes Asset auswählen.
+1. Klicken Sie im Menü **[!UICONTROL Referenzinhalt]** auf **[!UICONTROL Datei hochladen]**, um jedes Marken-Asset hinzuzufügen, das Inhalte enthält, die zusätzliche Kontext-KI bereitstellen können, oder ein zuvor hochgeladenes Asset auszuwählen.
 
    Zuvor hochgeladene Dateien sind in der Dropdown-Liste **[!UICONTROL Hochgeladener Referenzinhalt]** verfügbar. Aktivieren Sie einfach die Assets, die in den Generierungsprozess einbezogen werden sollen.
 
@@ -177,7 +174,7 @@ Nachdem Sie Textvarianten für Ihre Mobile-Nachrichten generiert haben, können 
 
    * **[!UICONTROL Neu formulieren]**: Schreiben Sie die Nachricht um und behalten Sie dabei ihre Bedeutung bei. Mit dieser Option können Sie alternative Formulierungen generieren, den Lesefluss verbessern oder die Ausdrucksweise anpassen, ohne die Kernbotschaft zu ändern.
 
-   * **[!UICONTROL Einfachere Sprache verwenden]**: Nutzen Sie den KI-Assistenten, um Ihren Text zu vereinfachen, damit er für eine breitere Zielgruppe verständlich und zugänglich ist.
+   * **[!UICONTROL Einfachere Sprache verwenden]**: Verwenden Sie KI, um Ihre Sprache zu bearbeiten oder zu verfeinern und so für ein breiteres Publikum Klarheit und Barrierefreiheit zu gewährleisten.
 
    * **[!UICONTROL Übersetzen]**: Vereinfachen Sie Ihren Text, damit er für eine breitere Zielgruppe verständlich und zugänglich ist.
 

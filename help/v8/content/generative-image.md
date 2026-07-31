@@ -1,55 +1,52 @@
 ---
 audience: end-user
 title: Generative Inhalte
-description: Informationen zum Generieren von Bildern mit dem KI-Assistenten
+description: Erfahren Sie, wie Sie Bilder mithilfe von KI generieren
 exl-id: 9de12187-c437-467b-974a-1e165adc5fe1
 TQID: https://experienceleague.adobe.com/kMFMddQ-ZYGJIZ7-0BfrUMQzJ701fQlpehO15llbJAw
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
-source-wordcount: 1223
-ht-degree: 100%
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
+workflow-type: tm+mt
+source-wordcount: 1212
+ht-degree: 73%
 
 ---
 
-# Generieren von Bildern mit dem KI-Assistenten {#generative-image}
+# Erstellen von Bildern {#generative-image}
 
 >[!IMPORTANT]
 >
 >Bevor Sie mit der Verwendung dieser Funktion beginnen, lesen Sie die entsprechenden Informationen unter [Schutzmechanismen und Einschränkungen](generative-gs.md#generative-guardrails).
 ></br>
 >
->Sie müssen einer [Benutzervereinbarung](https://www.adobe.com/de/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} zustimmen, bevor Sie den KI-Assistenten in Adobe Campaign Web verwenden können. Weitere Informationen erhalten Sie beim Adobe-Support.
+>Sie müssen einer [Benutzervereinbarung“ zustimmen, ](https://www.adobe.com/de/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} KI zum Generieren von Inhalten in Adobe Campaign Web verwenden zu können. Weitere Informationen erhalten Sie beim Adobe-Support.
 
-Verwenden Sie den KI-Assistenten in Adobe Campaign Web, um ansprechende visuelle Inhalte zu erstellen, die Ihre Nachrichten für E-Mails, Landingpages und Push-Benachrichtigungen optimieren. Der KI-Assistent hilft Ihnen, Bilder zu generieren und zu optimieren, um sicherzustellen, dass Ihr Inhalt visuell ansprechend und auf Ihre Marke abgestimmt ist.
+Verwenden Sie KI in Adobe Campaign Web, um ansprechende visuelle Inhalte zu erstellen, mit denen Ihre Nachrichten für E-Mails, Landingpages und Push-Benachrichtigungen optimiert werden. KI hilft Ihnen bei der Erstellung und Optimierung von Bildern und stellt sicher, dass Ihr Inhalt visuell ansprechend und auf Ihre Marke abgestimmt ist.
 
 ## Für E-Mail und Landingpages {#email-web-channels}
 
-Der KI-Assistent kann vollständige visuelle Erlebnisse für Ihre E-Mail-Sendungen und Landingpages generieren. Mit dieser Funktion können Sie markenkonforme, aufmerksamkeitserregende Bilder erstellen, die über digitale Touchpoints hinweg bei Ihrer Zielgruppe Anklang finden.
+Verwenden Sie KI, um vollständige visuelle Erlebnisse für Ihre E-Mail-Sendungen und Landingpages zu generieren. Mit dieser Funktion können Sie markenkonforme, aufmerksamkeitserregende Bilder erstellen, die über digitale Touchpoints hinweg bei Ihrer Zielgruppe Anklang finden.
 
 ### Zugreifen und Konfigurieren {#access-configure}
 
-Um mit dem Generieren von Bildern mit dem KI-Assistenten zu beginnen, richten Sie zunächst Ihren Versand ein und öffnen Sie den Inhaltseditor. Gehen Sie wie folgt vor, um Ihren Arbeitsbereich vorzubereiten und auf das Panel „KI-Assistent“ zuzugreifen.
+Um mit der Generierung von Bildern mit KI zu beginnen, richten Sie zunächst Ihren Versand ein und öffnen Sie den Inhaltseditor. Gehen Sie wie folgt vor, um Ihren Arbeitsbereich vorzubereiten und auf das Bedienfeld „Inhalt generieren“ zuzugreifen.
 
 1. Erstellen Sie einen Versand und konfigurieren Sie ihn:
 
    * **E-Mail**: Nachdem Sie Ihren E-Mail-Versand erstellt und konfiguriert haben, klicken Sie auf **[!UICONTROL Inhalt bearbeiten]**. [Weitere Informationen](../email/create-email-content.md)
    * **Landingpage**: Nachdem Sie Ihre Landingpage erstellt und konfiguriert haben, klicken Sie auf **[!UICONTROL Inhalt bearbeiten]**. [Weitere Informationen](../landing-pages/create-lp.md)
 
-1. Wählen Sie das Asset aus, das Sie mit dem KI-Assistenten ändern möchten, und rufen Sie das Menü **[!UICONTROL KI-Assistent]** auf.
+1. Wählen Sie das zu ändernde Asset aus und rufen Sie das Menü **[!UICONTROL Inhalt generieren]** auf.
 
    ![Screenshot mit Auswahl der Textkomponente in Adobe Campaign Web](assets/image-genai-1.png){zoomable="yes"}
 
-### Generieren von Inhalt {#generate-content}
+### Bild erzeugen {#generate-content}
 
-Erfahren Sie, wie Sie effektive Prompts erstellen und Bildeinstellungen konfigurieren können, um visuell überzeugende Bilder mit dem KI-Assistenten zu generieren. Passen Sie Parameter wie Seitenverhältnis, visuelle Intensität und Beleuchtung an, um Bilder zu erstellen, die Ihren Marken- und Kampagnenzielen entsprechen.
+Erfahren Sie, wie Sie effektive Eingabeaufforderungen erstellen und Bildeinstellungen konfigurieren können, um mithilfe von KI visuell überzeugende Bilder zu generieren. Passen Sie Parameter wie Seitenverhältnis, visuelle Intensität und Beleuchtung an, um Bilder zu erstellen, die Ihren Marken- und Kampagnenzielen entsprechen.
 
-1. Aktivieren Sie für den KI-Assistenten die Option **[!UICONTROL Referenzstil]**, um neue Inhalte basierend auf dem ausgewählten Inhalt zu personalisieren.
+1. Aktivieren Sie die Option **[!UICONTROL Referenzstil]**, um mithilfe von KI neue Inhalte basierend auf den ausgewählten Inhalten zu personalisieren.
 
 1. Wählen Sie Ihre **[!UICONTROL Marke]** aus, um sicherzustellen, dass die von KI generierten Inhalte mit Ihren Markenspezifikationen übereinstimmen. [Weitere Informationen](brands.md) zu Marken.
 
@@ -71,7 +68,7 @@ Erfahren Sie, wie Sie effektive Prompts erstellen und Bildeinstellungen konfigur
 
      ![Screenshot mit Optionen für Bildeinstellungen in Adobe Campaign Web](assets/image-genai-4.png){zoomable="yes"}
 
-1. Klicken Sie im Menü **[!UICONTROL Referenzinhalt]** auf **[!UICONTROL Datei hochladen]**, um beliebige Marken-Assets mit Inhalten hinzuzufügen, die zusätzlichen Kontext für den KI-Assistenten liefern können. Alternativ können Sie ein zuvor hochgeladenes Asset auswählen.
+1. Klicken Sie im Menü **[!UICONTROL Referenzinhalt]** auf **[!UICONTROL Datei hochladen]**, um jedes Marken-Asset hinzuzufügen, das Inhalte enthält, die zusätzliche Kontext-KI bereitstellen können, oder ein zuvor hochgeladenes Asset auszuwählen.
 
    Zuvor hochgeladene Dateien sind in der Dropdown-Liste **[!UICONTROL Hochgeladener Referenzinhalt]** verfügbar. Aktivieren Sie einfach die Assets, die in den Generierungsprozess einbezogen werden sollen.
 
@@ -105,21 +102,21 @@ Nachdem Sie Bildvarianten generiert haben, können Sie die Ergebnisse sowie die 
 
 ## Für Mobile-Kanäle {#mobile-channels}
 
-Der KI-Assistent ermöglicht es Ihnen, ansprechende Bilder für Push-Benachrichtigungen zu generieren, sodass Sie visuell überzeugende Mobile-Kommunikation erstellen können, die die Aufmerksamkeit Ihrer Zielgruppe auf sich zieht und sie anspricht.
+Verwenden Sie KI, um ansprechende Bilder für Push-Benachrichtigungen zu generieren und so visuell überzeugende mobile Kommunikationen zu erstellen, die die Aufmerksamkeit Ihrer Zielgruppe auf sich ziehen und sie ansprechen.
 
 ### Zugreifen und Konfigurieren {#mobile-access-configure}
 
-Um mit dem Generieren von Bildern für Push-Benachrichtigungen mit dem KI-Assistenten zu beginnen, richten Sie zunächst Ihren Versand ein und öffnen Sie den KI-Assistenten.
+Um mit dem Generieren von Bildern für Push-Benachrichtigungen mit KI zu beginnen, richten Sie zunächst Ihren Versand ein und öffnen Sie „Inhalt generieren“.
 
 1. Nachdem Sie Ihren Push-Benachrichtigungsversand erstellt und konfiguriert haben, klicken Sie auf **[!UICONTROL Inhalt bearbeiten]**. [Weitere Informationen](../push/create-push.md)
 
-1. Rufen Sie das Menü **[!UICONTROL KI-Assistenten anzeigen]** auf.
+1. Rufen Sie das Menü **[!UICONTROL Inhalt generieren]** auf.
 
-   ![Screenshot mit dem Menü „KI-Assistenten anzeigen“](assets/push-img-1.png){zoomable="yes"}
+   ![Screenshot mit dem Menü „Inhalt generieren“ ](assets/push-img-1.png){zoomable="yes"}
 
-### Generieren von Inhalt {#mobile-generate-content}
+### Bild erzeugen {#mobile-generate-content}
 
-Nachdem Sie auf den KI-Assistenten zugegriffen haben, können Sie die Generierungseinstellungen anpassen, um Bilder zu erstellen, die Ihrer Marke entsprechen und Ihre Push-Benachrichtigungsziele unterstützen. Konfigurieren Sie die Prompt- und Bildparameter, um für Mobile-Displays optimierte Visualisierungen zu generieren.
+Nach dem Zugriff auf „Inhalt generieren“ können Sie die Generierungseinstellungen anpassen, um Bilder zu erstellen, die Ihrer Marke entsprechen und Ihre Push-Benachrichtigungsziele unterstützen. Konfigurieren Sie die Prompt- und Bildparameter, um für Mobile-Displays optimierte Visualisierungen zu generieren.
 
 1. Wählen Sie Ihre **[!UICONTROL Marke]** aus, um sicherzustellen, dass die von KI generierten Inhalte mit Ihren Markenspezifikationen übereinstimmen. [Weitere Informationen](brands.md) zu Marken.
 
@@ -127,7 +124,7 @@ Nachdem Sie auf den KI-Assistenten zugegriffen haben, können Sie die Generierun
 
    Wenn Sie Hilfe bei der Erstellung Ihres Prompts benötigen, finden Sie in der **[!UICONTROL Prompt-Bibliothek]** eine Vielzahl von Ideen für Prompts, mit denen Sie Ihre Kampagnen verbessern können. [Weitere Informationen zu Best Practices für Prompts](ai-assistant-prompting-guide.md)
 
-   ![KI-Assistent mit Feld „Prompt“ und Optionen](assets/push-img-2.png){zoomable="yes"}
+   ![Inhalt mit Eingabeaufforderungsfeld und Optionen generieren](assets/push-img-2.png){zoomable="yes"}
 
 1. Wählen Sie **[!UICONTROL Bild]** aus, um nur Assets zu generieren.
 
@@ -141,7 +138,7 @@ Nachdem Sie auf den KI-Assistenten zugegriffen haben, können Sie die Generierun
 
      ![Screenshot mit Optionen für Bildeinstellungen](assets/push-img-3.png){zoomable="yes"}
 
-1. Klicken Sie im Menü **[!UICONTROL Referenzinhalt]** auf **[!UICONTROL Datei hochladen]**, um beliebige Marken-Assets mit Inhalten hinzuzufügen, die zusätzlichen Kontext für den KI-Assistenten liefern können. Alternativ können Sie ein zuvor hochgeladenes Asset auswählen.
+1. Klicken Sie im Menü **[!UICONTROL Referenzinhalt]** auf **[!UICONTROL Datei hochladen]**, um jedes Marken-Asset hinzuzufügen, das Inhalte enthält, die zusätzliche Kontext-KI bereitstellen können, oder ein zuvor hochgeladenes Asset auszuwählen.
 
    Zuvor hochgeladene Dateien sind in der Dropdown-Liste **[!UICONTROL Hochgeladener Referenzinhalt]** verfügbar. Aktivieren Sie einfach die Assets, die in den Generierungsprozess einbezogen werden sollen.
 
