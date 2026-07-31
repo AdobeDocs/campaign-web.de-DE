@@ -18,10 +18,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 096132b46c985e1b23ca0fc6fbcf06a70e1630c7
-workflow-type: ht
-source-wordcount: 3032
-ht-degree: 100%
+source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
+workflow-type: tm+mt
+source-wordcount: 3030
+ht-degree: 98%
 
 ---
 
@@ -526,13 +526,13 @@ Refer to the Client Console [release notes](https://experienceleague.adobe.com/d
 
 * Die folgenden Verbesserungen für Landingpages sind jetzt verfügbar:
 
-   * Sie können nun beim Konfigurieren eines Dienstes auf eine standardmäßige Landingpage zur An-/Abmeldung verweisen. Wenn Sie bei der Erstellung einer E-Mail einen Link zu dieser Landingpage definieren, werden die Benutzenden, die das Landingpage-Formular senden, automatisch für diesen Dienst angemeldet bzw. von ihm abgemeldet. [Mehr dazu](../audience/manage-services.md#create-service)
-   * Eine neue Option in der Landingpage-Konfiguration ermöglicht anonymen Besuchenden, auf die Landingpage zuzugreifen. Wenn Sie diese Option deaktivieren, können nur identifizierte Benutzende auf das Formular zugreifen und dieses absenden. [Mehr dazu](../landing-pages/create-lp.md#create-landing-page)
-   * Eine neue Option in der Landingpage-Konfiguration ermöglicht, zusätzliche interne Daten bei der Landingpage-Übermittlung zu speichern. [Mehr dazu](../landing-pages/create-lp.md#create-landing-page)
-   * Eine neue Option ermöglicht Ihnen die Verwendung einer Landingpage für mehrere Dienste, wodurch sie dynamisch wird. Wenn Sie einen Link zu einer E-Mail hinzufügen und eine dynamische Landingpage auswählen, können Sie einen beliebigen Dienst auswählen. Wenn Sie eine Landingpage auswählen, der ein bestimmter Dienst zugeordnet ist, wird dieser Dienst automatisch verwendet. Sie können keinen anderen Dienst auswählen. [Mehr dazu](../landing-pages/create-lp.md#define-actions-on-form-submission)
-   * Bedingte Inhalte werden nun auf Landingpages unterstützt. [Mehr dazu](../landing-pages/lp-content.md)
-   * Es ist jetzt möglich, eine Landingpage mit einem Dienst zu verknüpfen und eine Bestätigungsnachricht zu versenden, wenn Benutzende dies validieren. [Weitere Informationen](../landing-pages/lp-content.md#lp-message)
-   * Sie können Captcha zum Schutz Ihrer Landingpage vor Spam und Missbrauch durch Bots hinzufügen. Dies erfordert nur wenig Einsatz aufseiten Ihrer Kunden, da nur eine Interaktion mit Ihrer Website erforderlich ist. [Weitere Informationen](../landing-pages/create-lp.md#captcha)
+  * Sie können nun beim Konfigurieren eines Dienstes auf eine standardmäßige Landingpage zur An-/Abmeldung verweisen. Wenn Sie bei der Erstellung einer E-Mail einen Link zu dieser Landingpage definieren, werden die Benutzenden, die das Landingpage-Formular senden, automatisch für diesen Dienst angemeldet bzw. von ihm abgemeldet. [Mehr dazu](../audience/manage-services.md#create-service)
+  * Eine neue Option in der Landingpage-Konfiguration ermöglicht anonymen Besuchenden, auf die Landingpage zuzugreifen. Wenn Sie diese Option deaktivieren, können nur identifizierte Benutzende auf das Formular zugreifen und dieses absenden. [Mehr dazu](../landing-pages/create-lp.md#create-landing-page)
+  * Eine neue Option in der Landingpage-Konfiguration ermöglicht, zusätzliche interne Daten bei der Landingpage-Übermittlung zu speichern. [Mehr dazu](../landing-pages/create-lp.md#create-landing-page)
+  * Eine neue Option ermöglicht Ihnen die Verwendung einer Landingpage für mehrere Dienste, wodurch sie dynamisch wird. Wenn Sie einen Link zu einer E-Mail hinzufügen und eine dynamische Landingpage auswählen, können Sie einen beliebigen Dienst auswählen. Wenn Sie eine Landingpage auswählen, der ein bestimmter Dienst zugeordnet ist, wird dieser Dienst automatisch verwendet. Sie können keinen anderen Dienst auswählen. [Mehr dazu](../landing-pages/create-lp.md#define-actions-on-form-submission)
+  * Bedingte Inhalte werden nun auf Landingpages unterstützt. [Mehr dazu](../landing-pages/lp-content.md)
+  * Es ist jetzt möglich, eine Landingpage mit einem Dienst zu verknüpfen und eine Bestätigungsnachricht zu versenden, wenn Benutzende dies validieren. [Weitere Informationen](../landing-pages/lp-content.md#lp-message)
+  * Sie können Captcha zum Schutz Ihrer Landingpage vor Spam und Missbrauch durch Bots hinzufügen. Dies erfordert nur wenig Einsatz aufseiten Ihrer Kunden, da nur eine Interaktion mit Ihrer Website erforderlich ist. [Weitere Informationen](../landing-pages/create-lp.md#captcha)
 
 ## Version Juni 2025 {#25-6-release}
 
@@ -548,9 +548,9 @@ Refer to the Client Console [release notes](https://experienceleague.adobe.com/d
 
 * Die „menschliche Bedingung“ im Regel-Builder wurde verbessert. Hierbei handelt es sich um die geschriebene, übersetzte Version Ihrer Regeln, die unten auf dem Bildschirm angezeigt wird:
 
-   * Attribute werden jetzt hervorgehoben und das zugehörige Schema wird angezeigt.
-   * Sie können auf diese Elemente klicken, um detailliertere Informationen anzuzeigen.
-   * Sie können die menschliche Bedingung nun mithilfe der entsprechenden Schaltfläche kopieren.
+  * Attribute werden jetzt hervorgehoben und das zugehörige Schema wird angezeigt.
+  * Sie können auf diese Elemente klicken, um detailliertere Informationen anzuzeigen.
+  * Sie können die menschliche Bedingung nun mithilfe der entsprechenden Schaltfläche kopieren.
 
 * Der Zugriff auf die Ordner „Technische Workflows“ und „Automatisch erstellte Objekte“ ist jetzt eingeschränkt, um deren Anzeige zu verhindern. [Weitere Informationen](../get-started/work-with-folders.md#about-folders)
 
@@ -853,15 +853,15 @@ Die folgenden Funktionen und Verbesserungen sind ab der Version Januar verfügba
 <table>
 <thead>
 <tr>
-<th><strong>Generieren von Landingpages mit dem KI-Assistenten</strong><br/></th>
+<th><strong>Generieren einer Landingpage mit Inhalt generieren</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Der KI-Assistent ist nun für den Versand von Landingpages verfügbar, sodass Sie Text, Bilder oder vollständige Seiten-Layouts generieren können.</p>
+<p>„Inhalt generieren“ ist jetzt in Ihren Landingpage-Sendungen verfügbar und ermöglicht Ihnen das Generieren von Text, Bildern oder vollständigen Seiten-Layouts.</p>
 <img src="assets/do-not-localize/ai-lp.gif">
-<p>Weiterführende Informationen zum KI-Assistenten finden Sie im <a href="../content/generative-full-content.md">entsprechenden Handbuch</a>.</p>
+<p>Weitere Informationen zum Generieren von Inhalten finden Sie in der <a href="../content/generative-full-content.md"> Dokumentation </a>.</p>
 </td>
 </tr>
 </tbody>
@@ -872,10 +872,10 @@ Die folgenden Funktionen und Verbesserungen sind ab der Version Januar verfügba
 
 * Anpassen der Anzeige benutzerdefinierter Felder in der Benutzeroberfläche:
 
-   * Sie können nun zusätzliche benutzerdefinierte Felder auswählen, die in der Benutzeroberfläche angezeigt werden sollen.
-   * Sie können nun Regeln zum Anzeigen benutzerdefinierter Felder vom Typ „Link“ festlegen, z. B. Listenwerte basierend auf der Eingabe eines anderen Felds beschränken.
-   * Flexiblere Anordnung von Feldern in der Benutzeroberfläche: Felder können sich nun über eine einzelne Spalte erstrecken oder zur besseren Organisation in Unterabschnitten gruppiert werden.
-   * Sie können nun bestimmte Felder als schreibgeschützt festlegen.
+  * Sie können nun zusätzliche benutzerdefinierte Felder auswählen, die in der Benutzeroberfläche angezeigt werden sollen.
+  * Sie können nun Regeln zum Anzeigen benutzerdefinierter Felder vom Typ „Link“ festlegen, z. B. Listenwerte basierend auf der Eingabe eines anderen Felds beschränken.
+  * Flexiblere Anordnung von Feldern in der Benutzeroberfläche: Felder können sich nun über eine einzelne Spalte erstrecken oder zur besseren Organisation in Unterabschnitten gruppiert werden.
+  * Sie können nun bestimmte Felder als schreibgeschützt festlegen.
 
 * Filter „Zuletzt verwendet“ und „Favoriten“: Um häufig verwendete Attribute schnell wiederzuverwenden, können Sie sie nun zu Favoriten hinzufügen. Dadurch wird sichergestellt, dass sie für zukünftige Aufgaben problemlos zugänglich sind. Zusätzlich zu den Favoriten können Sie auch die zuletzt ausgewählten Attribute anzeigen und verwenden.
 

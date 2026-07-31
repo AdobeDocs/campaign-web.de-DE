@@ -25,10 +25,10 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 096132b46c985e1b23ca0fc6fbcf06a70e1630c7
-workflow-type: ht
+source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
+workflow-type: tm+mt
 source-wordcount: 1589
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
@@ -67,14 +67,14 @@ Die wichtigsten Verbesserungen, die Adobe Campaign v8 bietet, sind nachstehend 
 
   Adobe Campaign v8 nutzt fortschrittliche Cloud-basierte Datenbanktechnologien, was die Leistung und Effizienz deutlich verbessert. Diese neu gestaltete Architektur bietet verschiedene wesentliche Vorteile:
 
-   * *Skalierung*: Das System unterstützt nun deutlich höhere Verarbeitungskapazitäten, mit einem Batch-Verarbeitungsdurchsatz von bis zu **20 Millionen Vorgängen pro Stunde**. Mit dieser neuen Architektur können noch höhere Profile mit vorhersehbarer Leistung verwaltet werden.
-   * *Geschwindigkeit*: Das System wurde für jedwede Marketing-Aktivität verbessert: Segmentierung, Versandvorbereitung und Durchsatz für Transaktionsnachrichten, der nun **1 Million pro Stunde** beträgt.
+  * *Skalierung*: Das System unterstützt nun deutlich höhere Verarbeitungskapazitäten, mit einem Batch-Verarbeitungsdurchsatz von bis zu **20 Millionen Vorgängen pro Stunde**. Mit dieser neuen Architektur können noch höhere Profile mit vorhersehbarer Leistung verwaltet werden.
+  * *Geschwindigkeit*: Das System wurde für jedwede Marketing-Aktivität verbessert: Segmentierung, Versandvorbereitung und Durchsatz für Transaktionsnachrichten, der nun **1 Million pro Stunde** beträgt.
 
   Die vollständig verwalteten Cloud-Services bieten Benutzenden Folgendes:
 
-   * Datenexploration in Echtzeit: Sie können sofort auf Daten zugreifen und diese analysieren, um schnelle Erkenntnisse zu erhalten und fundiertere Entscheidungen zu treffen.
+  * Datenexploration in Echtzeit: Sie können sofort auf Daten zugreifen und diese analysieren, um schnelle Erkenntnisse zu erhalten und fundiertere Entscheidungen zu treffen.
 
-   * Schnelles Erstellen von Zielgruppen: Sie können innerhalb von Minuten zielgerichtete Zielgruppen für eine effizientere Kampagnensegmentierung erstellen.
+  * Schnelles Erstellen von Zielgruppen: Sie können innerhalb von Minuten zielgerichtete Zielgruppen für eine effizientere Kampagnensegmentierung erstellen.
 
   Allgemein bietet die robuste Architektur von Adobe Campaign v8 eine leistungsstarke Grundlage für die Verwaltung umfangreicher und komplexer Marketing-Kampagnen mit höherer Geschwindigkeit und Effizienz.
 
@@ -92,9 +92,9 @@ Wenn Sie von Campaign Standard zu Campaign v8 wechseln, stehen Ihnen nun die fol
 
   Sie können Ihre Benachrichtigungen abhängig vom Kundensystem anpassen:
 
-   * Für [Android-Vorlagen](../../v8/push/rich-push.md)
+  * Für [Android-Vorlagen](../../v8/push/rich-push.md)
 
-   * Für [iOS-Vorlagen](../../v8/push/rich-push.md)
+  * Für [iOS-Vorlagen](../../v8/push/rich-push.md)
 
   Push-Benachrichtigungen sind ein wichtiges Instrument, um App-Benutzende anzusprechen und diese auch dann zu erreichen, wenn sie Ihre App nicht aktiv nutzen.
 
@@ -104,29 +104,29 @@ Wenn Sie von Campaign Standard zu Campaign v8 wechseln, stehen Ihnen nun die fol
 
   Im Folgenden finden Sie die wichtigsten Funktionen, die durch diese Integration bereitgestellt werden:
 
-   * *Asset-Management*: In Adobe Campaign v8 bietet der E-Mail-Designer eine Auswahl für den Zugriff auf und die Verwaltung von Assets. Diese Funktion vereinfacht die Integration von Elementen aus Adobe Experience Manager in Ihren Versand und sorgt so für ein effizienteres Content-Management. [Weitere Informationen über das Asset-Management](../../v8/integrations/aem-assets.md)
+  * *Asset-Management*: In Adobe Campaign v8 bietet der E-Mail-Designer eine Auswahl für den Zugriff auf und die Verwaltung von Assets. Diese Funktion vereinfacht die Integration von Elementen aus Adobe Experience Manager in Ihren Versand und sorgt so für ein effizienteres Content-Management. [Weitere Informationen über das Asset-Management](../../v8/integrations/aem-assets.md)
 
-     ![](../../v8/integrations/assets/assets_6.png){zoomable="yes"}
+    ![](../../v8/integrations/assets/assets_6.png){zoomable="yes"}
 
-   * *Import von E-Mail-Vorlagen*: Mit Adobe Campaign v8 können Sie E-Mail-Vorlagen von Adobe Experience Manager direkt in Campaign durchsuchen und importieren. [Weitere Informationen über den Import von E-Mail-Vorlagen](../../v8/integrations/aem-content.md)
+  * *Import von E-Mail-Vorlagen*: Mit Adobe Campaign v8 können Sie E-Mail-Vorlagen von Adobe Experience Manager direkt in Campaign durchsuchen und importieren. [Weitere Informationen über den Import von E-Mail-Vorlagen](../../v8/integrations/aem-content.md)
 
-     ![](../../v8/integrations/assets/aem_6.png){zoomable="yes"}
+    ![](../../v8/integrations/assets/aem_6.png){zoomable="yes"}
 
   Adobe Experience Manager as a Cloud Service bietet Cloud-native Agilität, mit der Sie die Time-to-Value verkürzen und sich auf die sich wandelnden Geschäftsanforderungen einstellen können. Diese Integration verbessert nicht nur Ihre Content-Management-Funktionen, sondern ermöglicht Ihnen auch, Ihrer Kundschaft personalisiertere und ansprechendere Erlebnisse an allen Touchpoints bereitzustellen.
 
-* **KI-Assistent**
+* **Inhalt generieren**
 
-  Der KI-Assistent von Campaign macht die Erstellung und Durchführung von Marketing-Kampagnen über Kanäle wie E-Mail, SMS und Push intuitiv, einfach und mühelos, spart gleichzeitig Zeit, erhöht die Effizienz und führt zu besseren Ergebnissen.
+  Mit der Funktion „Inhalt generieren“ von Campaign können Sie Marketing-Kampagnen über Kanäle wie E-Mail, SMS und Push intuitiv, einfach und unkompliziert erstellen, Zeit sparen, die Effizienz verbessern und bessere Ergebnisse erzielen.
 
   ![](../../v8/email/assets/full-email-1.png){zoomable="yes"}
 
-  Der KI-Assistent revolutioniert die kanalübergreifende Erstellung professioneller und markenkonsistenter Inhalte. Mit fortschrittlichen GenAI-Modellen und einem tiefgreifenden Verständnis der Markenrichtlinien generiert der KI-Assistent automatisch personalisierte, ansprechende und effektive Inhalte auf der Grundlage des Marketing-Ziels, wobei die Inhalte für die von der Marke vorgegebenen Stile, Layouts, die Tonalität und mehr optimiert sind.
+  Generate Content revolutioniert die Art und Weise, wie Sie professionelle und markenkonsistente Inhalte kanalübergreifend erstellen. Mit erweiterten GenAI-Modellen und einem tiefen Verständnis Ihrer Markenrichtlinien generiert Generate Content automatisch personalisierte, ansprechende und effektive Inhalte basierend auf dem Marketing-Ziel mit Inhalten, die für Markenstile, -layouts, -töne und mehr optimiert sind.
 
-  Der KI-Assistent macht die Erstellung und Durchführung von Marketing-Kampagnen über Kanäle intuitiv, einfach und mühelos, spart gleichzeitig Zeit, erhöht die Effizienz und führt zu besseren Ergebnissen.
+  „Inhalt generieren“ macht die Erstellung und Ausführung von Marketing-Kampagnen intuitiv, einfach und unkompliziert und spart gleichzeitig Zeit, verbessert die Effizienz und sorgt für bessere Ergebnisse.
 
   ![](../../v8/email/assets/full-email-2.png){zoomable="yes"}
 
-  Er bietet eine Reihe von E-Mail-Vorlagen und generiert Bilder (neu). Weitere Informationen zum KI-Assistenten finden Sie in [diesem Abschnitt](../../v8/content/generative-full-content.md). Adobe Campaign v8 verfügt über einen KI-Assistenten für [E-Mail](../../v8/content/generative-full-content.md), [SMS](../../v8/content/generative-text.md) und [Push](../../v8/content/generative-full-content.md).
+  Er bietet eine Reihe von E-Mail-Vorlagen und generiert Bilder (neu). Weitere Informationen zum Generieren von Inhalten finden [&#x200B; in diesem Abschnitt](../../v8/content/generative-full-content.md). Adobe Campaign v8 bietet Generate Content für [E-](../../v8/content/generative-full-content.md), [SMS](../../v8/content/generative-text.md) und [Push](../../v8/content/generative-full-content.md).
 
 * **Aktualisierte SMS-Infrastruktur – SMS v2.0**
 

@@ -1,5 +1,5 @@
 ---
-title: Handbuch zur Erstellung von Prompts für die Inhaltsgenerierung mit dem KI-Assistenten
+title: Leitfaden zur Inhaltserstellung
 description: Erfahren Sie, wie Sie mit dem CO-STAR-Framework effektive Prompts zur KI-gestützten Inhaltsgenerierung erstellen können, um markenorientierte Marketing-Inhalte mit hoher Konversionsrate zu erstellen.
 role: User
 level: Intermediate
@@ -19,21 +19,21 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
-source-wordcount: 2055
-ht-degree: 100%
+source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
+workflow-type: tm+mt
+source-wordcount: 2054
+ht-degree: 97%
 
 ---
 
-# Best Practices für Prompts für den KI-Assistenten {#ai-assistant-prompting-guide}
+# Best Practices für Inhaltserstellung {#ai-assistant-prompting-guide}
 
-Dieses Handbuch hilft Ihnen, Ihre Anfragen zu strukturieren, die Absicht klar zu kommunizieren und sicherzustellen, dass die KI ein Messaging erzeugt, das mit Ihren Markenrichtlinien, Zielgruppenanforderungen und Kampagnenzielen übereinstimmt.
-Erfahren Sie, wie Sie effektive Prompts erstellen, anhand derer der KI-Assistent hochwertige, markenkonforme Marketing-Inhalte generieren kann, die auf Ihre Ziele abgestimmt sind.
+Dieser Leitfaden hilft Ihnen, Ihre Anfragen zu strukturieren, den Zweck klar und deutlich zu kommunizieren und sicherzustellen, dass die KI Botschaften produziert, die mit Ihren Markenrichtlinien, Zielgruppenanforderungen und Kampagnenzielen übereinstimmen.
+Erfahren Sie, wie Sie effektive Eingabeaufforderungen schreiben, mit denen KI hochwertige, auf Ihre Ziele zugeschnittene markeninterne Marketing-Inhalte generieren kann.
 
 ## Verwenden des CO-STAR-Frameworks {#costar-framework}
 
-Um mit dem KI-Assistenten optimale Ergebnisse zu erzielen, sollten Sie Ihre Prompts mit dem CO-STAR-Framework organisieren. Dieser strukturierte Ansatz stellt sicher, dass die KI genau versteht, was Sie benötigen.
+Um optimale Ergebnisse mit der Inhaltserstellung zu erzielen, sollten Sie die Eingabeaufforderungen mit dem CO-STAR-Framework organisieren. Dieser strukturierte Ansatz stellt sicher, dass die KI genau versteht, was Sie benötigen.
 
 | Komponente | Was dies bedeutet | Warum dies wichtig ist |
 |-|-|-|
@@ -129,19 +129,19 @@ Diese Anfragen werden nicht unterstützt und sollten mit anderen Tools erledigt 
 
 Stellen Sie vor dem Generieren von Inhalten Folgendes sicher:
 
-&amp;check; **Klares Ziel**: Gibt Aktion, Produkt/Dienst, Wert und Kontext klar an.
+&check; **Klares Ziel**: Gibt Aktion, Produkt/Dienst, Wert und Kontext klar an.
 
-&amp;check; **Zielgruppe definiert**: Gibt Demografie, Rolle oder Segment an.
+&check; **Zielgruppe definiert**: Gibt Demografie, Rolle oder Segment an.
 
-&amp;check; **Ausrichtung des Inhaltstyps**: Ziel entspricht dem ausgewählten Kanal oder Format.
+&check; **Ausrichtung des Inhaltstyps**: Ziel entspricht dem ausgewählten Kanal oder Format.
 
-&amp;check; **Dropdown-Auswahlen konfiguriert**: Ton, Strategie und Gebietsschema sind ausgewählt und sind nicht im Prompt enthalten.
+&check; **Dropdown-Auswahlen konfiguriert**: Ton, Strategie und Gebietsschema sind ausgewählt und sind nicht im Prompt enthalten.
 
-&amp;check; **Dokumentfokus festgelegt**: Hebt die Inhalte oder Abschnitte hervor, auf die verwiesen werden soll.
+&check; **Dokumentfokus festgelegt**: Hebt die Inhalte oder Abschnitte hervor, auf die verwiesen werden soll.
 
-&amp;check; **Marke angewendet**: Passende Markenrichtlinien sind ausgewählt.
+&check; **Marke angewendet**: Passende Markenrichtlinien sind ausgewählt.
 
-&amp;check; **Realistischer Umfang**: Vermeiden Sie das Anfordern von Layout-Änderungen, Formatierungen oder strukturellen Bearbeitungen.
+&check; **Realistischer Umfang**: Vermeiden Sie das Anfordern von Layout-Änderungen, Formatierungen oder strukturellen Bearbeitungen.
 
 ## Erstellen effektiver Marketing-Ziele {#marketing-objectives}
 
@@ -151,11 +151,11 @@ Achten Sie bei der Formulierung von Marketing-Zielen darauf, dass diese klar, um
 
 **Beispiele für gute Ziele:**
 
-&amp;check; „Steigere die Anmeldungen für unsere kostenlose 30-tägige Testversion des neuen KI-gestützten Analyse-Dashboards“
+&check; „Steigere die Anmeldungen für unsere kostenlose 30-tägige Testversion des neuen KI-gestützten Analyse-Dashboards“
 
-&amp;check; „Generiere Leads für unser B2B-Webinar zum Thema ,Reduzierung der Cloud-Kosten um 40 %‘, das am 15. März stattfindet“
+&check; „Generiere Leads für unser B2B-Webinar zum Thema ,Reduzierung der Cloud-Kosten um 40 %‘, das am 15. März stattfindet“
 
-&amp;check; „Bewirb unseren zeitlich begrenzten Feiertagsrabatt von 25 % auf Premium-Abonnements, der am 25. Dezember endet“
+&check; „Bewirb unseren zeitlich begrenzten Feiertagsrabatt von 25 % auf Premium-Abonnements, der am 25. Dezember endet“
 
 **Beispiele für zu vermeidende Ziele:**
 
@@ -172,11 +172,11 @@ Verwenden Sie folgende Formel, um effektive Ziele zu formulieren: **Aktion + Pro
 
 **Beispiele für gute Ziele:**
 
-&amp;check; „Steigere die Downloads unserer neuen App, die Benutzenden hilft, nachhaltige Lebensgewohnheiten mit personalisierten umweltfreundlichen Empfehlungen zu verfolgen“
+&check; „Steigere die Downloads unserer neuen App, die Benutzenden hilft, nachhaltige Lebensgewohnheiten mit personalisierten umweltfreundlichen Empfehlungen zu verfolgen“
 
-&amp;check; „Bewirb die Anmeldung für unseren exklusiven Workshop über fortschrittliche Datenvisualisierungstechniken für Marketing-Fachleute“
+&check; „Bewirb die Anmeldung für unseren exklusiven Workshop über fortschrittliche Datenvisualisierungstechniken für Marketing-Fachleute“
 
-&amp;check; „Steigere die Teilnahme an unserer Produkteinführungsveranstaltung, auf der der revolutionäre KI-Schreibassistent vorgestellt wird, der mehr als 5 Stunden pro Woche einspart“
+&check; „Steigere die Teilnahme an unserer Produkteinführungsveranstaltung, auf der der revolutionäre KI-Schreibassistent vorgestellt wird, der mehr als 5 Stunden pro Woche einspart“
 
 **Beispiele für zu vermeidende Formulierungen:**
 

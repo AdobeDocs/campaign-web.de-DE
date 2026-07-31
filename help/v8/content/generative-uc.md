@@ -1,18 +1,18 @@
 ---
-title: Anwendungsfälle für den KI-Assistenten
-description: Erfahren Sie anhand von Anwendungsfällen, wie Sie den KI-Assistenten verwenden.
+title: Anwendungsfälle für die Inhaltserstellung
+description: Erfahren Sie durch Anwendungsfälle, wie Sie mit KI Inhalte generieren können
 exl-id: ead51ef0-f7ba-4bc4-8d4a-f6a6d1df6a0f
 TQID: https://experienceleague.adobe.com/WcuIJGn2iv3OY8MT5qQ8sYiQ1zNbPd55hCmAi-dQUeQ
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
-source-wordcount: 1244
-ht-degree: 100%
+source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
+workflow-type: tm+mt
+source-wordcount: 1243
+ht-degree: 69%
 
 ---
 
-# Anwendungsfälle für den KI-Assistenten {#generative-uc}
+# Anwendungsfälle für die Inhaltserstellung {#generative-uc}
 
 >[!NOTE]
 >
@@ -20,15 +20,15 @@ ht-degree: 100%
 
 ## Verwenden von vorhandenen Inhalten
 
-![Demonstration der Wiederverwendung vorhandener Inhalte mit dem KI-Assistenten](assets/do-not-localize/gen-ai-reuse-text.gif)
+![Demonstration der Wiederverwendung vorhandener Inhalte mit „Inhalt generieren“](assets/do-not-localize/gen-ai-reuse-text.gif)
 
 Erzeugen Sie Varianten aus den Inhalten und dem Kontext, die bereits in Ihrer Kampagne vorhanden sind, damit sie mit Ihrer Nachricht und Zielgruppe konsistent bleiben.
 
 1. Wählen Sie nach der Einrichtung Ihres Versands die Option **[!UICONTROL Inhalt bearbeiten]** aus.
 
-1. Öffnen Sie den Abschnitt **[!UICONTROL KI-Assistent]**.
+1. Öffnen Sie den **[!UICONTROL Inhalt generieren]**.
 
-1. Aktivieren Sie die Funktion **[!UICONTROL Originalinhalt verwenden]** im KI-Assistenten, um neue Inhalte entsprechend Ihren Versanddetails anzupassen, einschließlich des Versandnamens und der Zielgruppe.
+1. Aktivieren Sie die Funktion **[!UICONTROL Original-Inhalt verwenden]** in Generate Content , um neue Inhalte an Ihre Versanddetails anzupassen, einschließlich des Versandnamens und der Zielgruppe.
 
 1. Passen Sie den Inhalt an, indem Sie Ihre Anfrage im Feld **[!UICONTROL Prompt]** angeben und die Einstellungen nach Bedarf anpassen.
 
@@ -40,13 +40,13 @@ Bereiten Sie den Versand vor, nachdem Sie Inhalt, Zielgruppe und Zeitplan defini
 
 ## Verfeinern von Varianten {#refine}
 
-![Demonstration der Verfeinerung von Inhaltsvarianten mit dem KI-Assistenten](assets/do-not-localize/gen-ai-variation.gif)
+![Demonstration der Verfeinerung von Inhaltsvarianten mit Inhalt generieren](assets/do-not-localize/gen-ai-variation.gif)
 
 Passen Sie eine KI-generierte Variante in Ort, Ton, Länge, Wortlaut und Strategie an, bevor Sie den endgültigen Text auswählen.
 
 1. Wenn Ihr Versand eingerichtet und konfiguriert ist, klicken Sie auf **[!UICONTROL Inhalt bearbeiten]**.
 
-1. Öffnen Sie das Menü **[!UICONTROL KI-Assistent]**.
+1. Öffnen Sie das Menü **[!UICONTROL Inhalt generieren]**.
 
 1. Passen Sie den Inhalt an, indem Sie die gewünschte Anfrage in das Feld **[!UICONTROL Prompt]** eingeben und die Einstellungen nach Bedarf ändern.
 
@@ -58,13 +58,13 @@ Passen Sie eine KI-generierte Variante in Ort, Ton, Länge, Wortlaut und Strateg
 
    * **[!UICONTROL Als Referenzinhalt verwenden]**: Die ausgewählte Variante dient als Referenz, um weitere Inhalte zu generieren.
 
-   * **[!UICONTROL Ausführlich]**: Lassen Sie den KI-Assistenten auf bestimmte Punkte genauer eingehen, um tiefer gehende und detailliertere Informationen für eine bessere Interaktion bereitstellen zu können.
+   * **[!UICONTROL Ausarbeiten]**: Verwenden Sie KI, um auf bestimmte Punkte einzugehen und mehr Tiefe und Details für eine bessere Interaktion zu bieten.
 
-   * **[!UICONTROL Zusammenfassen]**: Verwenden Sie den KI-Assistenten, um aus detaillierten Informationen kurze Zusammenfassungen zu erstellen, die von E-Mail-Empfängerinnen und -Empfängern einfacher aufgenommen werden können.
+   * **[!UICONTROL Zusammenfassen]**: Für ausführliche Informationen verwenden Sie KI, um Inhalte zu bearbeiten/zu verfeinern und so knappe Zusammenfassungen zu erstellen, die für E-Mail-Empfänger einfacher zu verarbeiten sind.
 
-   * **[!UICONTROL Neu formulieren]**: Der KI-Assistent kann Ihre Nachricht auf unterschiedliche Weise darstellen und so dazu beitragen, den Inhalt für eine Vielzahl von Zielgruppen interessant zu präsentieren.
+   * **[!UICONTROL Umformulieren]**: Verwenden Sie KI, um Ihre Nachricht zu bearbeiten/zu verfeinern und auf unterschiedliche Weise darzustellen, damit der Inhalt für eine Vielzahl von Zielgruppen aktuell bleibt.
 
-   * **[!UICONTROL Einfachere Sprache verwenden]**: Vereinfachen Sie die Sprache mit dem KI-Assistenten, um sicherzustellen, dass die Nachricht verständlich und für alle Lesenden zugänglich ist.
+   * **[!UICONTROL Einfachere Sprache verwenden]**: Verwenden Sie KI, um die Sprache zu bearbeiten/einzuengen, um sicherzustellen, dass die Nachricht klar und für alle Leser zugänglich ist.
 
    Darüber hinaus können Sie den **[!UICONTROL Ton]** und die **[!UICONTROL Kommunikationsstrategie]** Ihres Inhalts anpassen.
 
@@ -72,13 +72,13 @@ Passen Sie eine KI-generierte Variante in Ort, Ton, Länge, Wortlaut und Strateg
 
 ## Generieren ähnlicher Bilder
 
-![Demonstration der Generierung ähnlicher Bilder mit dem KI-Assistenten](assets/do-not-localize/uc-image-similar.gif)
+![Demonstration der Erstellung ähnlicher Bilder mit Inhalt generieren](assets/do-not-localize/uc-image-similar.gif)
 
 Wenn ein Bild fast geeignet ist, generieren Sie zusätzliche Optionen, die dasselbe Gesamterscheinungsbild und Thema beibehalten.
 
 1. Wählen Sie nach der Einrichtung Ihres Versands die Option **[!UICONTROL Inhalt bearbeiten]** aus.
 
-1. Öffnen Sie den Abschnitt **[!UICONTROL KI-Assistent]**.
+1. Öffnen Sie den **[!UICONTROL Inhalt generieren]**.
 
 1. Passen Sie den Inhalt an, indem Sie Ihre Anfrage im Feld **[!UICONTROL Prompt]** angeben und die Einstellungen nach Bedarf anpassen.
 
@@ -94,17 +94,17 @@ Wenn ein Bild fast geeignet ist, generieren Sie zusätzliche Optionen, die dasse
 
 ## Hochladen von Stilreferenzen
 
-![Demonstration des Hochladens einer Stilreferenz für den KI-Assistenten](assets/do-not-localize/uc-image-reference.gif)
+![Demonstration des Uploads einer Stilreferenz für „Inhalt generieren“](assets/do-not-localize/uc-image-reference.gif)
 
 Laden Sie ein Referenzbild hoch, damit die neuen Visualisierungen dem gewünschten Stil, der gewünschten Palette oder der gewünschten Komposition entsprechen.
 
 1. Klicken Sie nach der Einrichtung und Konfiguration Ihres Versands auf **[!UICONTROL Inhalt bearbeiten]**.
 
-1. Wählen Sie das Asset, das Sie mit dem KI-Assistenten ändern möchten.
+1. Wählen Sie das Asset aus, das Sie ändern möchten.
 
-1. Wählen Sie aus dem Menü im rechten Bereich die Option **[!UICONTROL KI-Assistent]**.
+1. Wählen Sie im Menü des rechten Fensterbereichs die Option **[!UICONTROL Inhalt generieren]**.
 
-1. Aktivieren Sie die Option **[!UICONTROL Referenzstil]**, damit der KI-Assistent neue Inhalte mithilfe des Referenzmaterials generieren kann.
+1. Aktivieren Sie die Option **[!UICONTROL Referenzstil]**, um mithilfe von KI neue Inhalte mithilfe des Referenzmaterials zu generieren.
 
 1. Klicken Sie auf **[!UICONTROL Bild hochladen]**, um ein Bild einzuschließen, das Kontext zu Ihrer Variante hinzufügt.
 
@@ -120,13 +120,13 @@ Laden Sie ein Referenzbild hoch, damit die neuen Visualisierungen dem gewünscht
 
 ## Generieren von Inhalten in allen unterstützten Sprachen{#languages}
 
-![Animierte Demonstration des KI-Assistenten, der Inhalte in mehreren Sprachen generiert, einschließlich Französisch, Spanisch und Deutsch](assets/do-not-localize/ai-language.gif)
+![Animierte Demonstration der Inhaltserstellung in mehreren Sprachen, einschließlich Französisch, Spanisch und Deutsch](assets/do-not-localize/ai-language.gif)
 
-Erstellen Sie Text in den vom KI-Assistenten unterstützten Sprachen, indem Sie Ihren Prompt mit expliziten Spracheinstellungen kombinieren.
+Erstellen Sie Text in den von KI unterstützten Sprachen und kombinieren Sie dabei Ihre Eingabeaufforderung mit expliziten Spracheinstellungen.
 
 1. Wenn Ihr Versand eingerichtet und konfiguriert ist, klicken Sie auf **[!UICONTROL Inhalt bearbeiten]**.
 
-1. Öffnen Sie das Menü **[!UICONTROL KI-Assistent]**.
+1. Öffnen Sie das Menü **[!UICONTROL Inhalt generieren]**.
 
 1. Passen Sie den Inhalt an, indem Sie Ihre gewünschte Anfrage auf Französisch, Spanisch, Deutsch, Italienisch, Japanisch, Schwedisch, Niederländisch oder Norwegisch in das Feld **[!UICONTROL Prompt]** eingeben.
 
@@ -140,13 +140,13 @@ Erstellen Sie Text in den vom KI-Assistenten unterstützten Sprachen, indem Sie 
 
 ## Verwenden von Referenzinhalten für die Generierung
 
-![Animierte Demonstration des KI-Assistenten zur Inhaltserstellung mit Referenzinhalten](assets/do-not-localize/gen-url.gif)
+![Animierte Demonstration der Inhaltserstellung mit Referenzinhalten zur Inhaltserstellung](assets/do-not-localize/gen-url.gif)
 
-Sie können dem KI-Assistenten mehr Kontext geben, indem Sie **Referenzinhalte**, eine Web-Seite oder hochgeladene Dateien hinzufügen, sodass generierte Kopien und Vorschläge näher an Ihrem Quellmaterial bleiben.
+Sie können KI mehr Kontext geben, indem Sie **Referenzinhalte** eine Web-Seite oder hochgeladene Dateien hinzufügen, sodass generierte Kopien und Vorschläge näher an Ihrem Quellmaterial bleiben.
 
 1. Wenn Ihre Kampagne bereit ist, klicken Sie auf **[!UICONTROL Inhalt bearbeiten]**.
 
-1. Öffnen Sie den **[!UICONTROL KI-Assistenten]**.
+1. Öffnen Sie **[!UICONTROL Inhalt generieren]**.
 
 1. Beschreiben Sie im Feld **[!UICONTROL Prompt]**, was Sie haben möchten.
 
@@ -164,9 +164,9 @@ Sie können dem KI-Assistenten mehr Kontext geben, indem Sie **Referenzinhalte**
 
 ## Verwenden des generativen Modells {#generative-model}
 
-![Animierte Demonstration des KI-Assistenten zur Inhaltserstellung mit benutzerdefiniertem Modell](assets/do-not-localize/gen-ai-model.gif)
+![Animierte Demonstration der Inhaltserstellung mit benutzerdefiniertem Modell](assets/do-not-localize/gen-ai-model.gif)
 
-Registrieren Sie ein benutzerdefiniertes generatives Modell und leiten Sie vom KI-Assistenten aus die Bildgenerierung daran weiter.
+Registrieren Sie ein benutzerdefiniertes generatives Modell und leiten Sie die Bilderstellung damit von „Inhalt generieren“ weiter.
 
 1. Öffnen Sie im Menü **[!UICONTROL Marken]** die Registerkarte **[!UICONTROL Generative Modelle]** und klicken Sie auf **[!UICONTROL Modell hinzufügen]**.
 
@@ -178,7 +178,7 @@ Registrieren Sie ein benutzerdefiniertes generatives Modell und leiten Sie vom K
 
 1. Klicken Sie in der Kampagne auf **[!UICONTROL Inhalt bearbeiten]**.
 
-1. Wählen Sie das Asset aus, das Sie mit dem KI-Assistenten ändern möchten, und öffnen Sie den **[!UICONTROL KI-Assistenten]**.
+1. Wählen Sie das zu ändernde Asset aus und öffnen Sie das Menü **[!UICONTROL Inhalt generieren]**.
 
 1. Geben Sie Ihre Anfrage im Feld **[!UICONTROL Prompt]** ein und passen Sie die restlichen Einstellungen entsprechend an.
 
@@ -190,13 +190,13 @@ Registrieren Sie ein benutzerdefiniertes generatives Modell und leiten Sie vom K
 
 ## Verwenden von Gemini als generatives Modell für Textüberlagerungsbilder
 
-![Animierte Demonstration des KI-Assistenten, der Inhalte mit Gemini als generatives Modell generiert](assets/do-not-localize/gen-nano.gif)
+![Animierte Demonstration der Inhaltserstellung mit Gemini als generatives Modell](assets/do-not-localize/gen-nano.gif)
 
-Wenn **Gemini 2.5** als generatives Modell ausgewählt ist, können Sie Bildvarianten im KI-Assistenten erstellen, Textüberlagerungen aus einer URL, einer Datei oder einem von KI generierten Prompt hinzufügen und dann Überlagerungen positionieren, bevor Sie eine endgültige Variante anwenden.
+Wenn **Gemini 2.5** als generatives Modell ausgewählt ist, können Sie Bildvarianten in „Inhalt generieren“ erstellen, Textüberlagerungen aus einer URL, einer Datei oder einer KI-generierten Eingabeaufforderung hinzufügen und dann Überlagerungen positionieren, bevor Sie eine endgültige Variante anwenden.
 
 1. Wenn Ihre Kampagne bereit ist, klicken Sie auf **[!UICONTROL Inhalt bearbeiten]**.
 
-1. Wählen Sie das als Basisbild zu verwendende Asset aus und öffnen Sie den **[!UICONTROL KI-Assistenten]**.
+1. Wählen Sie das als Basisbild zu verwendende Asset aus und öffnen Sie **[!UICONTROL Inhalt generieren]**.
 
 1. Klicken Sie auf **[!UICONTROL Einstellungen öffnen]**, um die Optionen für die Bildgenerierung anzupassen.
 
