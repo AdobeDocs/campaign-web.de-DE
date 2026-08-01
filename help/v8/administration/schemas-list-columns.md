@@ -15,7 +15,7 @@ ht-degree: 77%
 >id="acw_schema_inventory_list_configuration"
 >title="Konfiguration der Inventarliste"
 >abstract="Konfigurieren Sie, welche Spalten in Listenansichten standardmäßig angezeigt werden. Jede Spalte zeigt das Label und das entsprechende Attribut an. Fügen Sie benutzerdefinierte Filter hinzu, um Schnellzugriff-Filterfelder im Filterbereich der Listenansicht anzuzeigen."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/conf/schemas/schemas-custom-filters.html" text="Hinzufügen benutzerdefinierter Filter"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/conf/schemas/schemas-custom-filters.html?lang=de" text="Hinzufügen benutzerdefinierter Filter"
 
 Im Abschnitt **[!UICONTROL Konfiguration der Bestandsliste]** können Sie konfigurieren, welche Spalten standardmäßig in Listenansichten angezeigt werden. Jede Spalte zeigt das Label und das entsprechende Attribut an.
 
