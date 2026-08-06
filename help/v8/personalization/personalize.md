@@ -8,16 +8,12 @@ role: Developer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
 TQID: https://experienceleague.adobe.com/j6PlnXc9WwgLcXPJVHxBWvnbJLMzdJ6inWZP3G--Ejw
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: 659
 ht-degree: 100%
 
@@ -28,7 +24,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_personalization_editor_add_current_date"
 >title="Aktuelles Datum hinzufügen"
->abstract="Dieses Menü enthält Funktionen zur Datumsformatierung, die Sie zur Personalisierung Ihrer Inhalte verwenden können."
+>abstract="Dieses Menü enthält Funktionen zur Datumsformatierung, die zur Personalisierung von Inhalten verwendet werden können."
 
 Die Personalisierung von Versandinhalten ist eine Schlüsselfunktion, mit der Sie Nachrichten an einzelne Empfängerinnen und Empfänger anpassen und so die Kommunikation relevanter und ansprechender gestalten können.
 
