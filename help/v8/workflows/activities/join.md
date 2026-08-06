@@ -4,9 +4,9 @@ title: Verwenden der Workflow-Aktivität „Join“
 description: Erfahren Sie, wie Sie die Workflow-Aktivität „Join“ verwenden
 exl-id: 2470e5fa-5596-4441-b9b9-7e8b5d1d53aa
 source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
-workflow-type: ht
-source-wordcount: '473'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '489'
+ht-degree: 96%
 
 ---
 
@@ -25,10 +25,10 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_join"
->title="Aktivität „Zusammenführen“"
->abstract="Mit der Aktivität **Join** können Sie mehrere eingehende Transitionen zusammenführen. Wählen Sie aus, ob der Vorgang fortgesetzt werden soll, wenn alle eingehenden Transitionen abgeschlossen sind (UND) oder wenn eine beliebige eingehende Transition abgeschlossen ist (ODER)."
+>title="Aktivität „Join“"
+>abstract="Die Aktivität **Join** ermöglicht das Zusammenführen mehrerer eingehender Transitionen. Auswählen, ob der Vorgang fortgesetzt werden soll, wenn alle eingehenden Transitionen abgeschlossen sind (AND) oder wenn eine eingehende Transition abgeschlossen ist (OR)."
 
-Die Aktivität **Join** ist eine **Flusssteuerungsaktivität**. Sie synchronisiert mehrere Ausführungszweige eines Workflows.
+Die Aktivität **Zusammenführen** ist eine Aktivität **Fluss-Steuerung**. Sie synchronisiert mehrere Ausführungszweige eines Workflows.
 Sie können auswählen, wie eingehende Transitionen ausgewertet werden sollen:
 
 * **UND:** Wird nur fortgesetzt, nachdem alle ausgewählten eingehenden Transitionen aktiviert wurden.
@@ -43,7 +43,7 @@ Wenn **ODER** ausgewählt ist, wird die Ausführung fortgesetzt, sobald eine der
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_and-join_merging"
 >title="Zusammenführungssoptionen"
->abstract="Wählen Sie die Aktivitäten aus, die Sie verknüpfen möchten. Wählen Sie in der Dropdown-Liste **Hauptmenge** die Population der eingehenden Transition aus, die Sie beibehalten möchten."
+>abstract="Die Aktivitäten auswählen, die verknüpft werden sollen. In der Dropdown-Liste **Hauptmenge** die Population der eingehenden Transition auswählen, die beibehalten werden soll."
 
 Führen Sie die folgenden Schritte aus, um die Aktivität **Join** zu konfigurieren:
 

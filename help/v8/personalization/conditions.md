@@ -19,7 +19,7 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: 1072
 ht-degree: 100%
 
@@ -47,7 +47,7 @@ Darüber hinaus können Sie den dedizierten **Builder für bedingte Inhalte** be
 >[!CONTEXTUALHELP]
 >id="acw_personalization_editor_conditions"
 >title="Bedingungen"
->abstract="Mit diesem Menü können Sie Hilfsfunktionen zum Definieren bedingter Inhalte nutzen."
+>abstract="Mit diesem Menü können Hilfsfunktionen zum Definieren bedingter Inhalte genutzt werden."
 
 Gehen Sie wie folgt vor, um mit dem Ausdruckseditor bedingte Inhalte für einen Versand zu definieren. In diesem Beispiel werden bedingte Inhalte basierend auf der Sprache der Empfängerinnen oder Empfänger (Französisch oder Englisch) erstellt.
 

@@ -17,7 +17,7 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: 659
 ht-degree: 100%
 
@@ -28,7 +28,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_personalization_editor_add_current_date"
 >title="Aktuelles Datum hinzufügen"
->abstract="Dieses Menü enthält Funktionen zur Datumsformatierung, die Sie zur Personalisierung Ihrer Inhalte verwenden können."
+>abstract="Dieses Menü enthält Funktionen zur Datumsformatierung, die zur Personalisierung von Inhalten verwendet werden können."
 
 Die Personalisierung von Versandinhalten ist eine Schlüsselfunktion, mit der Sie Nachrichten an einzelne Empfängerinnen und Empfänger anpassen und so die Kommunikation relevanter und ansprechender gestalten können.
 
