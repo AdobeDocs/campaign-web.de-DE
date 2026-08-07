@@ -11,8 +11,8 @@ feature_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 3207311cda7b2b88b68ef194d2776ae40e907f48
-workflow-type: ht
-source-wordcount: 2327
+workflow-type: tm+mt
+source-wordcount: 2370
 ht-degree: 100%
 
 ---
@@ -28,15 +28,15 @@ Die Aktivität der **Anreicherung** ist eine **Zielgruppenbestimmungs-Aktivität
 
 >[!NOTE]
 >
->Die Aktivität **Zielgruppe erstellen** (Abfragetyp) unterstützt auch **Anreicherungsdaten**.Siehe [Weitere Informationen](build-audience.md#build-audience-configuration).
+>Die Aktivität **Zielgruppe erstellen** (Abfragetyp) unterstützt auch **Anreicherungsdaten**. Siehe [Weitere Informationen](build-audience.md#build-audience-configuration).
 
 Anreicherungsdaten können verschiedene Ursprünge haben:
 
 * **Dieselbe Arbeitstabelle** wie die Zielgruppe in Ihrem Workflow:
-   * Bestimmung einer Kundenzielgruppe und Hinzufügen des Felds „Geburtsdatum“ zur aktuellen Arbeitstabelle
+  * Bestimmung einer Kundenzielgruppe und Hinzufügen des Felds „Geburtsdatum“ zur aktuellen Arbeitstabelle
 
 * **Andere Arbeitstabelle**:
-   * Targeting einer Kundengruppe und Hinzufügen der Felder „Betrag“ und „Produkttyp“ aus der „Kauf“-Tabelle.
+  * Targeting einer Kundengruppe und Hinzufügen der Felder „Betrag“ und „Produkttyp“ aus der „Kauf“-Tabelle.
 
 Nachdem die Anreicherungsdaten dem Workflow hinzugefügt wurden, können sie in nachfolgenden Aktivitäten verwendet werden, um Kundinnen und Kunden basierend auf ihren Verhaltensweisen, Vorlieben und Bedürfnissen in unterschiedliche Gruppen zu segmentieren. Sie können auch zur Erstellung personalisierter Marketing-Nachrichten und -Kampagnen verwendet werden, die bei Ihrer Zielgruppe Anklang finden.
 
@@ -62,7 +62,7 @@ Führen Sie die folgenden Schritte aus, um die Aktivität **Anreicherung** zu ko
 >title="Aktivität „Anreicherung“"
 >abstract="Nachdem Anreicherungsdaten zum Workflow hinzugefügt wurden, können sie in den nachfolgenden Aktivitäten verwendet werden, um Kundinnen und Kunden basierend auf ihren Verhaltensweisen, Voreinstellungen und Anforderungen in verschiedene Gruppen zu segmentieren oder um personalisierte Marketing-Nachrichten und -Kampagnen zu erstellen, die bei Ihrer Zielgruppe Anklang finden."
 
-Der Abschnitt **Anreicherungsdaten** ist in den Aktivitäten **Anreicherung** und **Zielgruppe erstellen** (Abfragetyp) verfügbar.Damit können Sie die Zieldaten mit zusätzlichen Informationen aus der Datenbank anreichern, z. B. mit Vertragsreferenzen oder Newsletter-Abonnements. Diese Daten werden mit der Zielgruppe in der Workflow-**Arbeitstabelle** gespeichert und stehen für nachfolgende Aktivitäten zur Verfügung. Sie können einzelne Anreicherungsattribute, Sammlungs-Links oder Ausdrücke hinzufügen und auf erweiterte Optionen zugreifen.
+Der Abschnitt **Anreicherungsdaten** ist in den Aktivitäten **Anreicherung** und **Zielgruppe erstellen** (Abfragetyp) verfügbar. Damit können Sie die Zieldaten mit zusätzlichen Informationen aus der Datenbank anreichern, z. B. mit Vertragsreferenzen oder Newsletter-Abonnements. Diese Daten werden mit der Zielgruppe in der Workflow-**Arbeitstabelle** gespeichert und stehen für nachfolgende Aktivitäten zur Verfügung. Sie können einzelne Anreicherungsattribute, Sammlungs-Links oder Ausdrücke hinzufügen und auf erweiterte Optionen zugreifen.
 
 Klicken Sie auf **Anreicherungsdaten hinzufügen** und wählen Sie das Attribut aus, das für die Anreicherung verwendet werden soll. [Erfahren Sie, wie Sie Attribute auswählen und zu den Favoriten hinzufügen](../../get-started/attributes.md).
 
@@ -77,7 +77,7 @@ Sie können zwei Arten von Anreicherungsdaten auswählen: ein einzelnes Anreiche
 
 ![Screenshot mit dem Bildschirm zur Auswahl der Anreicherungsdaten](../assets/workflow-enrichment1.png)
 
-Nachdem Sie mindestens ein Anreicherungsattribut hinzugefügt haben, klicken Sie auf **[!UICONTROL Erweiterte Parameter]**, um zu konfigurieren, wie Anreicherungsdaten strukturiert werden, einschließlich Gruppierung, Deduplizierung, Verarbeitung von Primärschlüsseln und Daten eingehender Ereignisse.Diese Optionen sind gleich wie in der Client-Konsole und sind für Szenarien mit erweiterten Workflows konzipiert.
+Nachdem Sie mindestens ein Anreicherungsattribut hinzugefügt haben, klicken Sie auf **[!UICONTROL Erweiterte Parameter]**, um zu konfigurieren, wie Anreicherungsdaten strukturiert werden, einschließlich Gruppierung, Deduplizierung, Verarbeitung von Primärschlüsseln und Daten eingehender Ereignisse. Diese Optionen sind gleich wie in der Client-Konsole und sind für Szenarien mit erweiterten Workflows konzipiert.
 
 ![Screenshot mit den erweiterten Parametern für die Anreicherung](../assets/workflow-query-advanced-parameters.png)
 
@@ -210,7 +210,7 @@ Sie können das Angebot jetzt in der Versandaktivität verwenden.
 
 Gehen Sie innerhalb eines Workflows wie folgt vor, wenn Sie die Angebote aus einer Anreicherungsaktivität in Ihrem Versand verwenden möchten:
 
-1. Öffnen Sie die Versandaktivität und gehen Sie zur Inhaltsbearbeitung. Klicken Sie auf die Schaltfläche **[!UICONTROL Angebotseinstellungen]** und wählen Sie die Ihrem Angebot entsprechende **[!UICONTROL Platzierung]** aus der Dropdown-Liste.
+1. Öffnen Sie die Versandaktivität und navigieren Sie zur Inhaltsbearbeitung. Klicken Sie auf die Schaltfläche **[!UICONTROL Angebotseinstellungen]** und wählen Sie in der Dropdown-Liste die Ihrem Angebot entsprechende **[!UICONTROL Platzierung]** aus.
 Wenn Sie nur Angebote aus der Anreicherungsaktivität anzeigen möchten, setzen Sie die Anzahl der **[!UICONTROL Vorschläge]** auf 0 und speichern Sie die Änderungen.
 
    ![](../assets/offers-settings.png)
