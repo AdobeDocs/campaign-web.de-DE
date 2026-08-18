@@ -12,10 +12,10 @@ feature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: d9d1733854bceac52d54e02125dac92b74872c77
+source-git-commit: d6b9b9c9905d840e65ac0aa267a665997c6e6b16
 workflow-type: tm+mt
-source-wordcount: 716
-ht-degree: 23%
+source-wordcount: 330
+ht-degree: 33%
 
 ---
 
@@ -28,103 +28,38 @@ ht-degree: 23%
 
 Die Versionen der Adobe Campaign Web-Benutzeroberfläche basieren auf einem kontinuierlichen Bereitstellungsmodell, das einen besser skalierbaren, schrittweisen Ansatz für die Implementierung von Funktionen ermöglicht. Dementsprechend werden diese Versionshinweise mehrmals im Monat aktualisiert. Sie sollten daher regelmäßig nachschauen.
 
-## Version Juli &#39;26 {#26-7-release}
+>[!NOTE]
+>
+>Detaillierte Dokumentationen zu den unten aufgeführten Funktionen und Verbesserungen werden in den nächsten Tagen schrittweise hinzugefügt.
 
-_28. Juli 2026_
+## Version August &#39;26 {#26-8-release}
 
-### Neue Funktionen {#26-7-features}
+_18. August 2026_
+
+### Neue Funktionen {#26-8-features}
 
 <table>
 <thead>
 <tr>
-<th><strong>Angebotsverwaltung</strong><br/></th>
+<th><strong>Validierungs-Workflow-Aktivität</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Sie können jetzt Angebote durchgängig direkt über die Web-Benutzeroberfläche von Campaign verwalten. Konfigurieren Sie Angebotsumgebungen und Platzierungen, erstellen Sie Ihren Angebotskatalog und Ihre Kategorien, erstellen Sie Angebote mit Eignungsregeln und Prioritätsgewichten und genehmigen und stellen Sie sie für Ihre Sendungen bereit. Erweiterte Konfigurationen sind weiterhin in der Client-Konsole verfügbar.</p>
-<p>Weitere Informationen finden Sie im <a href="../offers/gs-offer-management.md">entsprechenden Handbuch</a>.</p>
+<p>Die <strong>Validierung</strong> Workflow-Aktivität, die zuvor nur in der Client-Konsole verfügbar war, ist jetzt in der Web-Benutzeroberfläche von Campaign verfügbar. Weisen Sie die Aufgabe einer Gruppe oder einem einzelnen Benutzer zu, passen Sie den Titel und die Nachricht der Benachrichtigung an und definieren Sie die möglichen Antworten (z. B. Ja/Nein) als Ausgabeverzweigungen.</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-<table>
-<thead>
-<tr>
-<th><strong>Markenkonfiguration</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Technische Administratoren können jetzt Marken direkt über die Web-Benutzeroberfläche von Campaign erstellen und konfigurieren, ohne die Client-Konsole zu verwenden. Alle Markeneinstellungen, einschließlich Identität, Subdomain und Protokolle, E-Mail-Header-Parameter und URL-Tracking-Parameter, sind jetzt in der Web-Benutzeroberfläche verfügbar.</p>
-<p>Weitere Informationen finden Sie im <a href="../administration/branding/branding-configure.md">entsprechenden Handbuch</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>
+### Verbesserungen {#26-8-improvements}
 
-<table>
-<thead>
-<tr>
-<th><strong>Öffentliche Ressourcen in der E-Mail-Designer</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Beim Hinzufügen von Bildern zu Ihren E-Mails können Sie jetzt "<strong> Ressourcen“ </strong>. Auf diese Weise können Sie ein Bild auswählen, das bereits in Ihrer Adobe Campaign-Instanz verfügbar ist, z. B. eine zuvor in die E-Mail-Designer importierte Datei oder eine öffentliche Ressource, die über die Client-Konsole hochgeladen wurde.</p>
-<p>Weitere Informationen finden Sie im <a href="../email/content-components.md#image">entsprechenden Handbuch</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Workflow-Aktivität „Laden (RDBMS)“</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Die Aktivität <strong>Laden (RDBMS</strong> ist jetzt in der Web-Benutzeroberfläche von Campaign verfügbar. Verwenden Sie diese Aktivität, um Daten direkt aus einer externen relationalen Datenbank in Ihren Workflow zu laden. Die extrahierten Daten stehen während des gesamten Workflows zur Verfügung und können für die Zielgruppenbestimmung, Anreicherung oder weitere Datenverarbeitung verwendet werden.</p>
-<p>Weitere Informationen finden Sie im <a href="../workflows/activities/data-loading-rdbms.md">entsprechenden Handbuch</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Dynamische JavaScript-Seiten</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Mit Dynamic JavaScript Pages (JSSP) können Sie Server-seitige Seiten erstellen, die dynamische Inhalte generieren, wenn über eine URL zugegriffen wird, z. B. benutzerdefinierte APIs, Exporte oder Web-Anwendungslogik. Sie können diese Seiten jetzt direkt in der Web-Benutzeroberfläche von Campaign erstellen, ändern, duplizieren und löschen.</p>
-<p>Weitere Informationen finden Sie im <a href="../administration/dynamic-javascript-pages.md">entsprechenden Handbuch</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-### Verbesserungen {#26-7-improvements}
-
-* Die folgenden Verbesserungen wurden an der **benutzerdefinierten Schemakonfiguration“**:
-  * Der neue **Aktionsdaten**-Abschnitt ermöglicht es Ihnen, die für die Datensätze eines benutzerdefinierten Schemas verfügbaren Aktionen zu beschränken, unabhängig von den für einzelne Ordner konfigurierten Sicherheitsregeln. [Weitere Informationen](../administration/schemas-action-data.md)
-  * **Benutzerdefinierte Filter** wurden im Abschnitt **Konfiguration der Inventarliste“**. Damit können Sie auswählen, welche Attribute als Schnellzugriffsfelder im Filterbereich der Listenansicht angezeigt werden sollen. [Weitere Informationen](../administration/schemas-custom-filters.md)
-
-* Die folgenden Verbesserungen wurden an (**)**:
-  * Das Löschen einer Workflow-Aktivität ist jetzt flexibler: Wenn eine Aktivität nachfolgende Aktivitäten aufweist, können Sie diese entweder alle löschen, nur die ausgewählte Aktivität löschen oder sie löschen, während ihre nachfolgenden Aktivitäten in einer neuen Verzweigung verbleiben. [Weitere Informationen](../workflows/orchestrate-activities.md#delete-activity)
-  * Sie können jetzt eine Transition zwischen zwei Workflow-Aktivitäten trennen, ohne eine der Workflow-Aktivitäten zu löschen. Auf diese Weise können Sie ein Workflow-Diagramm neu organisieren, z. B. um eine Gruppe von Aktivitäten, die Sie beibehalten möchten, vorübergehend beiseite zu legen, ohne sie löschen und neu erstellen zu müssen. [Weitere Informationen](../workflows/orchestrate-activities.md#disconnect-transition)
-  * Horizontale und vertikale Bildlaufleisten werden jetzt auf der Workflow-Arbeitsfläche angezeigt, sodass Sie durch Ziehen direkt in den Bereich, den Sie anzeigen möchten, in großen Workflows navigieren können. [Weitere Informationen](../workflows/orchestrate-activities.md)
-  * Beim Speichern oder Starten/Neustarten eines Workflows wird jetzt eine Warnung angezeigt, wenn ein anderer Benutzer den Workflow in der Web-Benutzeroberfläche oder der Client-Konsole geändert hat, seit Sie ihn geöffnet haben. Sie können die anderen Änderungen mit Ihren überschreiben, den Workflow neu laden, um die neueste Version zu erhalten, oder abbrechen.
-
-* **Absender-E** Mail-Adresse: Sie können jetzt das Feld **Von E-Mail** Ihrer Sendungen mithilfe der Option **NmsDelivery_senderAddressMask** auf eine vordefinierte Liste von Adressen beschränken. [Weitere Informationen](../administration/options.md#restrict-sender-address)
-* **Login-Fehlermeldungen** wurden verbessert: Wenn ein Anmeldeversuch fehlschlägt, zeigt die Web-Benutzeroberfläche jetzt eine spezifischere Fehlermeldung für mehrere Szenarien an (z. B. wenn dem Benutzer keine Sicherheitszone zugewiesen ist oder seine IP-Adresse eingeschränkt ist).
+* **Öffnungs-Tracking**: Sie können jetzt das Öffnungs-Tracking direkt über die Web-Benutzeroberfläche von Campaign aktivieren oder deaktivieren. Dies hilft Ihnen bei der Einhaltung von Datenschutzbestimmungen.
+* **Programmlistenansicht**: Programme werden jetzt in einer dedizierten Ansicht aufgelistet, die Kampagnen, Sendungen und Workflows ähnelt. Sie können direkt aus dieser Ansicht bestehende Programme durchsuchen und neue erstellen.
+* **Benutzerdefinierte Schemakonfiguration**: Im Abschnitt **Aktionsdaten** können Sie jetzt die Aktion **Duplizieren** für die Datensätze eines benutzerdefinierten Schemas deaktivieren.
+  <!--* **Workflow and delivery templates (only msf???)**: When creating a new workflow or delivery, you must now explicitly select a template. A default template is no longer applied automatically.-->
+* **Benutzerdefinierte Filter**: Im Schema-Editor unterstützen benutzerdefinierte Filter jetzt Filterbedingungen für direkte Links, und Sie können die Standardbeschriftung eines beliebigen Attributs mit der neuen Option **Benutzerdefinierte Filtereinstellungen** überschreiben.
+* **Schemavalidierung**: Sie können jetzt die Struktur eines Schemas direkt im Schema-Editor mithilfe der neuen Schaltfläche **Validieren** validieren.
+* **Ordnersicherheit**: Die Option **Umbenennen** ist jetzt für einen Ordner verfügbar, wenn der Benutzer über die Zugriffsrechte **Einfügen** oder **Bearbeiten** verfügt.
+  <!--* **Enrichment activity**: You can now enrich data from an external database directly from the **Enrichment** workflow activity. This matches the capability already available in the Client Console.-->

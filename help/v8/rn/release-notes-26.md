@@ -2,16 +2,117 @@
 title: Frühere Versionshinweise zur Web-Benutzeroberfläche von Campaign v8
 description: Versionen der Campaign Web-Benutzeroberfläche 2026
 exl-id: 40735c57-94ae-4646-8c3d-68197569fbd4
-source-git-commit: 2f61ad20f37aab1b89e983ee23fa5182b2ef0f29
+source-git-commit: 6ed3a17593d0dc7bda55d9f90fc27526c09d99ed
 workflow-type: tm+mt
-source-wordcount: '1341'
-ht-degree: 98%
+source-wordcount: '2025'
+ht-degree: 72%
 
 ---
 
 # Versionshinweise für 2026 {#2026-release}
 
 Auf dieser Seite werden alle Änderungen und Verbesserungen aufgelistet, die in **Versionen 2026** verfügbar sind. Die neuesten Versionshinweise finden Sie auf [dieser Seite](release-notes.md).
+
+## Version Juli &#39;26 {#26-7-release}
+
+_28. Juli 2026_
+
+### Neue Funktionen {#26-7-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>Angebotsverwaltung</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Sie können jetzt Angebote durchgängig direkt über die Web-Benutzeroberfläche von Campaign verwalten. Konfigurieren Sie Angebotsumgebungen und Platzierungen, erstellen Sie Ihren Angebotskatalog und Ihre Kategorien, erstellen Sie Angebote mit Eignungsregeln und Prioritätsgewichten und genehmigen und stellen Sie sie für Ihre Sendungen bereit. Erweiterte Konfigurationen sind weiterhin in der Client-Konsole verfügbar.</p>
+<p>Weitere Informationen finden Sie im <a href="../offers/gs-offer-management.md">entsprechenden Handbuch</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Markenkonfiguration</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Technische Administratoren können jetzt Marken direkt über die Web-Benutzeroberfläche von Campaign erstellen und konfigurieren, ohne die Client-Konsole zu verwenden. Alle Markeneinstellungen, einschließlich Identität, Subdomain und Protokolle, E-Mail-Header-Parameter und URL-Tracking-Parameter, sind jetzt in der Web-Benutzeroberfläche verfügbar.</p>
+<p>Weitere Informationen finden Sie im <a href="../administration/branding/branding-configure.md">entsprechenden Handbuch</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Öffentliche Ressourcen in der E-Mail-Designer</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Beim Hinzufügen von Bildern zu Ihren E-Mails können Sie jetzt "<strong> Ressourcen“ </strong>. Auf diese Weise können Sie ein Bild auswählen, das bereits in Ihrer Adobe Campaign-Instanz verfügbar ist, z. B. eine zuvor in die E-Mail-Designer importierte Datei oder eine öffentliche Ressource, die über die Client-Konsole hochgeladen wurde.</p>
+<p>Weitere Informationen finden Sie im <a href="../email/content-components.md#image">entsprechenden Handbuch</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Workflow-Aktivität „Laden (RDBMS)“</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Die Aktivität <strong>Laden (RDBMS</strong> ist jetzt in der Web-Benutzeroberfläche von Campaign verfügbar. Verwenden Sie diese Aktivität, um Daten direkt aus einer externen relationalen Datenbank in Ihren Workflow zu laden. Die extrahierten Daten stehen während des gesamten Workflows zur Verfügung und können für die Zielgruppenbestimmung, Anreicherung oder weitere Datenverarbeitung verwendet werden.</p>
+<p>Weitere Informationen finden Sie im <a href="../workflows/activities/data-loading-rdbms.md">entsprechenden Handbuch</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Dynamische JavaScript-Seiten</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Mit Dynamic JavaScript Pages (JSSP) können Sie Server-seitige Seiten erstellen, die dynamische Inhalte generieren, wenn über eine URL zugegriffen wird, z. B. benutzerdefinierte APIs, Exporte oder Web-Anwendungslogik. Sie können diese Seiten jetzt direkt in der Web-Benutzeroberfläche von Campaign erstellen, ändern, duplizieren und löschen.</p>
+<p>Weitere Informationen finden Sie im <a href="../administration/dynamic-javascript-pages.md">entsprechenden Handbuch</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### Verbesserungen {#26-7-improvements}
+
+* Die folgenden Verbesserungen wurden an der **benutzerdefinierten Schemakonfiguration“**:
+  * Der neue **Aktionsdaten**-Abschnitt ermöglicht es Ihnen, die für die Datensätze eines benutzerdefinierten Schemas verfügbaren Aktionen zu beschränken, unabhängig von den für einzelne Ordner konfigurierten Sicherheitsregeln. [Weitere Informationen](../administration/schemas-action-data.md)
+  * **Benutzerdefinierte Filter** wurden im Abschnitt **Konfiguration der Inventarliste“**. Damit können Sie auswählen, welche Attribute als Schnellzugriffsfelder im Filterbereich der Listenansicht angezeigt werden sollen. [Weitere Informationen](../administration/schemas-custom-filters.md)
+
+* Die folgenden Verbesserungen wurden an (**)**:
+  * Das Löschen einer Workflow-Aktivität ist jetzt flexibler: Wenn eine Aktivität nachfolgende Aktivitäten aufweist, können Sie diese entweder alle löschen, nur die ausgewählte Aktivität löschen oder sie löschen, während ihre nachfolgenden Aktivitäten in einer neuen Verzweigung verbleiben. [Weitere Informationen](../workflows/orchestrate-activities.md#delete-activity)
+  * Sie können jetzt eine Transition zwischen zwei Workflow-Aktivitäten trennen, ohne eine der Workflow-Aktivitäten zu löschen. Auf diese Weise können Sie ein Workflow-Diagramm neu organisieren, z. B. um eine Gruppe von Aktivitäten, die Sie beibehalten möchten, vorübergehend beiseite zu legen, ohne sie löschen und neu erstellen zu müssen. [Weitere Informationen](../workflows/orchestrate-activities.md#disconnect-transition)
+  * Horizontale und vertikale Bildlaufleisten werden jetzt auf der Workflow-Arbeitsfläche angezeigt, sodass Sie durch Ziehen direkt in den Bereich, den Sie anzeigen möchten, in großen Workflows navigieren können. [Weitere Informationen](../workflows/orchestrate-activities.md)
+  * Beim Speichern oder Starten/Neustarten eines Workflows wird jetzt eine Warnung angezeigt, wenn ein anderer Benutzer den Workflow in der Web-Benutzeroberfläche oder der Client-Konsole geändert hat, seit Sie ihn geöffnet haben. Sie können die anderen Änderungen mit Ihren überschreiben, den Workflow neu laden, um die neueste Version zu erhalten, oder abbrechen.
+
+* **Absender-E** Mail-Adresse: Sie können jetzt das Feld **Von E-Mail** Ihrer Sendungen mithilfe der Option **NmsDelivery_senderAddressMask** auf eine vordefinierte Liste von Adressen beschränken. [Weitere Informationen](../administration/options.md#restrict-sender-address)
+* **Login-Fehlermeldungen** wurden verbessert: Wenn ein Anmeldeversuch fehlschlägt, zeigt die Web-Benutzeroberfläche jetzt eine spezifischere Fehlermeldung für mehrere Szenarien an (z. B. wenn dem Benutzer keine Sicherheitszone zugewiesen ist oder seine IP-Adresse eingeschränkt ist).
 
 ## Version Juni 2026 {#26-6-release}
 
@@ -138,7 +239,7 @@ Der Abschnitt **Anreicherungsdaten** ist jetzt in der Workflow-Aktivität **Ziel
 
 ### Verbesserungen {#26-3-improvements}
 
-* Die Workflow-Aktivität **Start** wurde hinzugefügt, um die Kompatibilität mit der Client-Konsole zu verbessern. Diese Aktivität ist optional und wird in neuen Workflows nicht standardmäßig eingefügt. Sie wird jedoch automatisch in vorhandene Workflows eingefügt.
+* Die Workflow-Aktivität **Start** wurde hinzugefügt, um die Kompatibilität mit der Client-Konsole zu verbessern. Diese Aktivität ist optional und wird in neuen Workflows nicht standardmäßig eingefügt. Sie wird jedoch automatisch zu vorhandenen Workflows hinzugefügt.
   [Weitere Informationen](../workflows/activities/about-activities.md#flow-control)
 * Das Feld für die Zeitzonenauswahl in den Einstellungen für den **Zeitplan** eines Versands wurde unter das Feld **Kontaktdatum** verschoben. [Weitere Informationen](../msg/create-deliveries.md#gs-schedule)
 
@@ -240,11 +341,11 @@ _27. Januar 2026_
 <tbody>
 <tr>
 <td>
-<p>Die Funktion „Mehrsprachiger Versand“ ist jetzt für alle Kundinnen und Kunden verfügbar (allgemeine Verfügbarkeit). Mit dieser Funktion können Sie in der Adobe Campaign Web-Benutzeroberfläche mehrere Nachrichten in verschiedenen Sprachen versenden. Sie können die Standardsprache Ihres Versands sowie die verschiedenen Sprachen festlegen, in denen der Versand durchgeführt werden kann. Sie können auch eine Vorschau dieser Sendungen in den von Ihnen gewählten Sprachen anzeigen. 
+<p>Die Funktion für den Versand in mehreren Sprachen steht nun allen Kundinnen und Kunden zur Verfügung. Mit dieser Funktion können Sie mehrere Nachrichten in verschiedenen Sprachen in der Adobe Campaign Web-Benutzeroberfläche senden. Sie können die Standardsprache Ihres Versands sowie die verschiedenen Sprachen festlegen, in denen der Versand durchgeführt werden kann. Sie können diese Sendungen auch in einer Vorschau in den von Ihnen ausgewählten Sprachen anzeigen. 
 <p>Weitere Informationen finden Sie im <a href="../msg/multilingual.md">entsprechenden Handbuch</a>.</p>
 <p>Die folgenden Verbesserungen wurden an mehrsprachigen Push-Benachrichtigungen vorgenommen:</p>
 <ul>
-<li>Sie können jetzt alle Sprachvarianten schnell ausfüllen, indem Sie eine CSV-Datei mit mehrsprachigen Inhalten hochladen. <a href="../msg/multilingual.md#csv-upload">Weitere Informationen</a>
+<li>Sie können jetzt alle Sprachvarianten schnell füllen, indem Sie eine CSV-Datei mit mehrsprachigen Inhalten hochladen. <a href="../msg/multilingual.md#csv-upload">Weitere Informationen</a>
 </li>
 <li>Rich-Push-Benachrichtigungen werden jetzt unterstützt.</li>
 </td>
