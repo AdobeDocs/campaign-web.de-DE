@@ -4,14 +4,12 @@ title: Verwenden der Inhaltskomponenten von E-Mail-Designer
 description: Erfahren Sie, wie Sie Inhaltskomponenten in E-Mails verwenden
 exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
 TQID: https://experienceleague.adobe.com/iT-8fzpVcEzhMpuUynQB3uvnA8FcJoJfnzb9-hsN5Vo
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: e4673544f8e4a06b4fdc517929a03efae35a3715
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1517
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -116,7 +114,7 @@ Verwenden Sie die Komponente **[!UICONTROL Text]**, um Text in Ihre E-Mail einzu
    * **[!UICONTROL Liste erstellen]**: Fügen Sie eine Aufzählungs- oder nummerierte Liste zu Ihrem Text hinzu.
    * **[!UICONTROL Überschrift festlegen]**: Bis zu sechs Überschriftenebenen zu Ihrem Text hinzufügen.
    * **Schriftgröße**: Wählen Sie die Schriftgröße Ihres Textes in Pixel aus.
-   * **[!UICONTROL Bild bearbeiten]**: Ein Bild von Ihrer Adobe Experience Manager Assets-Bibliothek oder von Ihrem Computer zu Ihrer Textkomponente hinzufügen oder ein in Ihrer Adobe Campaign-Instanz verfügbares Bild wiederverwenden. [Weitere Informationen](#image)
+   * **[!UICONTROL Bild bearbeiten]**: Fügen Sie Ihrer Textkomponente ein Bild aus Ihrer Adobe Experience Manager Assets-Bibliothek oder von Ihrem Computer hinzu oder verwenden Sie ein Bild wieder, das in Ihrer Adobe Campaign-Instanz verfügbar ist. [Weitere Informationen](#image)
    * **[!UICONTROL Quell-Code anzeigen]**: Den Quell-Code Ihres Textes anzeigen. Es kann nicht geändert werden.
    * **[!UICONTROL Duplizieren]**: Eine Kopie der Textkomponente hinzufügen.
    * **[!UICONTROL Löschen]**: Die ausgewählte Textkomponente aus der E-Mail löschen.
@@ -153,19 +151,19 @@ Verwenden Sie die Komponente **[!UICONTROL HTML]**, um Teile Ihrer existierenden
 
 ## Bild {#image}
 
-Verwenden Sie die **[!UICONTROL Bild]**-Komponente, um ein Bild in Ihre E-Mail einzufügen.
+Verwenden Sie die Komponente **[!UICONTROL Bild]**, um ein Bild in Ihre E-Mail einzufügen.
 
 1. Ziehen Sie aus dem Menü **[!UICONTROL Inhalt]** ein **[!UICONTROL Bild]** per Drag-and-Drop in eine **[!UICONTROL Strukturkomponente]**.
 
    ![Screenshot, der zeigt, wie eine Bildkomponente per Drag-and-Drop im E-Mail-Designer verschoben wird](assets/email_designer_9.png){zoomable="yes"}
 
-1. Wählen Sie eine der folgenden Optionen, um Ihr Bild hinzuzufügen:
+1. Wählen Sie eine der folgenden Optionen aus, um Ihr Bild hinzuzufügen:
 
-   ![Screenshot mit den Optionen für Bildkomponenten in der E-Mail-Designer.](assets/email_designer_28.png){zoomable="yes"}
+   ![Screenshot der Optionen für Bildkomponenten im E-Mail-Designer.](assets/email_designer_28.png){zoomable="yes"}
 
    +++**[!UICONTROL Durchsuchen]**
 
-   Wählen Sie diese Option, um ein Bild aus Ihrer Adobe Experience Manager Assets-Bibliothek auszuwählen.
+   Wählen Sie diese Option aus, um ein Bild aus Ihrer Adobe Experience Manager Assets-Bibliothek auszuwählen.
 
    >[!IMPORTANT]
    >
@@ -179,25 +177,25 @@ Verwenden Sie die **[!UICONTROL Bild]**-Komponente, um ein Bild in Ihre E-Mail e
 
    +++
 
-   +++**[!UICONTROL Import]**
+   +++**[!UICONTROL Importieren]**
 
-   Wählen Sie diese Option, um ein neues Bild von Ihrem Computer hochzuladen. Die Datei wird als öffentliche Ressource auf Ihre Adobe Campaign-Instanz hochgeladen.
+   Wählen Sie diese Option aus, um ein neues Bild von Ihrem Computer hochzuladen. Die Datei wird als öffentliche Ressource in Ihre Adobe Campaign-Instanz hochgeladen.
 
    +++
 
    +++**[!UICONTROL Öffentliche Ressource importieren]**
 
-   Wählen Sie diese Option, um ein Bild auszuwählen, das bereits in Ihrer Adobe Campaign-Instanz verfügbar ist, z. B. eine zuvor in die E-Mail-Designer importierte Datei oder eine öffentliche Ressource aus der Client-Konsole.
+   Wählen Sie diese Option aus, um ein Bild auszuwählen, das bereits in Ihrer Adobe Campaign-Instanz verfügbar ist, z. B. eine zuvor in den E-Mail-Designer importierte Datei oder eine öffentliche Ressource aus der Client-Konsole.
 
-   ![Screenshot mit dem Auswahlprozess für öffentliche Ressourcen in der E-Mail-Designer.](assets/email_designer_30.png){zoomable="yes"}
+   ![Screenshot, der den Auswahlprozess der öffentlichen Ressource im E-Mail-Designer zeigt.](assets/email_designer_30.png){zoomable="yes"}
 
-   Suche nach der Ressource anhand des Namens Sie können auch Filter verwenden und Spalten neu organisieren.
+   Suchen Sie die Ressource anhand des Namens. Sie können auch Filter verwenden und die Spalten neu anordnen.
 
    >[!NOTE]
    >
-   >Die Sicherheitsbeschränkungen sind dieselben wie in der Client-Konsole: Sie können nur Ressourcen auswählen, auf die Sie Zugriff haben, basierend auf Ihren Benutzerrechten.
+   >Die Sicherheitsbeschränkungen sind die gleichen wie in der Client-Konsole: Sie können nur Ressourcen auswählen, auf die Sie basierend auf Ihren Benutzerrechten Zugriff haben.
 
-   Wählen Sie die Ressource aus und klicken Sie auf **[!UICONTROL Bestätigen]**.
+   Wählen Sie die Ressource aus und klicken Sie dann auf **[!UICONTROL Bestätigen]**.
 
    +++
 

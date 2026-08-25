@@ -4,17 +4,13 @@ description: Hilfe-Center zu Campaign Web
 title: Produktdokumentation zu Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 TQID: https://experienceleague.adobe.com/MgMH03lZa-uSVm-e1ZN-jvJrbjDUvKBpnmCIzxMmi1A
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
-workflow-type: tm+mt
-source-wordcount: 523
-ht-degree: 94%
+workflow-type: ht
+source-wordcount: 703
+ht-degree: 100%
 
 ---
 
@@ -73,9 +69,9 @@ Eine vollständige Übersicht finden Sie in den Versionshinweisen.
 [![Schaltfläche „Weitere Informationen“](assets/do-not-localize/learn-more-button.svg)](../v8/rn/release-notes.md)
 
 
->[!TAB Inhalt generieren]
+>[!TAB erzeugen von Inhalt]
 
-✨ Tauchen Sie mit unserer Live-Funktionsvorschau („Inhalt generieren[&#x200B; in eine praktische Erfahrung ein](../v8/content/generative-gs.md) damit Sie die Funktionen aus erster Hand erkunden und die Möglichkeiten des Programms vollständig verstehen können.
+✨ Tauchen Sie in ein interaktives Erlebnis mit unserer Live-Vorschau der Funktion [Inhalt erzeugen](../v8/content/generative-gs.md) ein, die es Ihnen ermöglicht, die Funktionen aus erster Hand zu erkunden und deren Möglichkeiten vollständig zu verstehen.
 
 [![Schaltfläche „Weitere Informationen“](assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/de/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 
@@ -124,22 +120,22 @@ Häufig gestellte Fragen zur Campaign Web-Benutzeroberfläche werden auf einer 
     <td>
       <img src="assets/do-not-localize/icon-start.svg" width="35px">
     <br/>
-      <strong>Erste Schritte</strong><br/><a href="get-started/get-started.md#web">Benutzeroberfläche</a> – <a href="get-started/connect-to-campaign.md">Herstellen einer Verbindung zu Campaign</a> – <a href="get-started/permissions.md">Zugriff und Berechtigungen</a>
+      <strong>Erste Schritte</strong><br/><a href="get-started/get-started.md#web">Benutzeroberfläche</a> – <a href="get-started/connect-to-campaign.md">Herstellen einer Verbindung zu Campaign</a> – <a href="get-started/permissions.md">Zugriff und Berechtigungen</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-experience.svg" width="35px">
     <br/>
-      <strong>Kundenerlebnis</strong><br/><a href="workflows/gs-workflows.md" target="_blank">Automatisieren mit Workflows</a> – <a href="campaigns/gs-campaigns.md" target="_blank">Kampagnenorchestrierung</a> – <a href="personalization/gs-personalization.md">Dynamische Inhalte</a> – <a href="reporting/gs-reports.md">Berichte und Analysen</a>
+      <strong>Kundenerlebnis</strong><br/><a href="workflows/gs-workflows.md" target="_blank">Automatisieren mit Workflows</a> – <a href="campaigns/gs-campaigns.md" target="_blank">Kampagnenorchestrierung</a> –  <a href="personalization/gs-personalization.md">Dynamische Inhalte</a> – <a href="reporting/gs-reports.md">Reporting und Analysen</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-message.svg" width="35px">
     <br/>
-      <strong>Senden von Nachrichten</strong><br/><a href="msg/gs-deliveries.md">Erstellen eines Versands</a> – <a href="email/create-email.md">E-Mail</a> – <a href="push/gs-push.md">Push-Benachrichtigungen</a> – <a href="sms/gs-sms.md">SMS</a> – <a href="msg/delivery-template.md">Versandvorlagen</a> – <a href="preview-test/preview-test.md">Vorschau und Test</a> 
+      <strong>Senden von Nachrichten</strong><br/><a href="msg/gs-deliveries.md">Erstellen eines Versands</a> – <a href="email/create-email.md">E-Mail</a> – <a href="push/gs-push.md">Push-Benachrichtigungen</a> – <a href="sms/gs-sms.md">SMS</a> – <a href="msg/delivery-template.md">Versandvorlagen</a> – <a href="preview-test/preview-test.md">Vorschau und Test</a> 
     </td>
     <td>
       <img src="assets/do-not-localize/icon_profile.svg" width="35px">
     <br/>
-      <strong>Profile und Zielgruppen</strong><br/><a href="audience/gs-audiences-recipients.md">Erste Schritte</a> – <a href="audience/create-audience.md">Erstellen von Zielgruppen</a> – <a href="audience/test-profiles.md">Testprofile</a> – <a href="audience/manage-services.md">Abonnements</a> – <a href="query/query-modeler-overview.md">Abfrage-Modeler</a>
+      <strong>Profile und Zielgruppen</strong><br/><a href="audience/gs-audiences-recipients.md">Erste Schritte</a> – <a href="audience/create-audience.md">Erstellen von Zielgruppen</a> – <a href="audience/test-profiles.md">Testprofile</a> – <a href="audience/manage-services.md">Abonnementdienste</a> – <a href="query/query-modeler-overview.md">Abfrage-Modeler</a>
     </td>
   </tr>
 </table>

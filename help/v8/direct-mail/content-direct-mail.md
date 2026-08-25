@@ -4,14 +4,12 @@ title: Gestalten eines Briefpostversands
 description: Erfahren Sie, wie Sie mit Adobe Campaign Web einen Briefpostversand gestalten.
 exl-id: aefba651-4125-4b1e-992f-1fe90fd95e4c
 TQID: https://experienceleague.adobe.com/fKC3OQ7C-LxYlcHO3IuQt-dI6Ju3jn8ywPxzLzhfbwg
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 057c090eff18a183890d4996b580d74b5aa4732d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 648
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -48,7 +46,7 @@ Um den Inhalt der durch Ihren Briefpostversand generierten Extraktionsdatei zu g
    * **[!UICONTROL Spaltentrennzeichen]** (Textformat): Geben Sie das Zeichen an, das in der Extraktionsdatei als Spaltentrennzeichen verwendet werden soll.
    * **[!UICONTROL Zeichenfolgen-Trennzeichen]** (Textformat): Geben Sie an, wie Zeichenfolgen in der Extraktionsdatei getrennt werden sollen.
    * **[!UICONTROL Zeilenumbruch]** (Textformat): Geben Sie an, wie das Zeilenende in der Extraktionsdatei getrennt werden soll.
-   * **[!UICONTROL Kodierung]**: Wählen Sie die Kodierung für die Extraktionsdatei aus. Die Standardcodierung lautet **Latin-1 (1252)**. Wählen Sie beim Erstellen von Briefpost-Sendungen, die an Empfänger in den CJK-Sprachen (Japanisch, Koreanisch, vereinfachtes Chinesisch, traditionelles Chinesisch) gerichtet sind, stattdessen **UTF-8 (65001)**. Latin-1 kann keine CJK-Zeichen darstellen und führt zu einer leeren Dateivorschau.
+   * **[!UICONTROL Kodierung]**: Wählen Sie die Kodierung für die Extraktionsdatei aus. Die Standardkodierung ist **Latin-1 (1252)**. Wählen Sie beim Erstellen von Briefpostsendungen, die an Empfangende in den CJK-Sprachen (Japanisch, Koreanisch, vereinfachtes Chinesisch, traditionelles Chinesisch) gerichtet sind, stattdessen **UTF-8 (65001)** aus. Latin-1 kann keine CJK-Zeichen darstellen, was zu einer leeren Dateivorschau führt.
    * **[!UICONTROL Datumsformat und Trennzeichen]**: Geben Sie an, wie Datumsangaben in der Extraktionsdatei formatiert werden sollen.
    * **[!UICONTROL Zahlenformat]**: Geben Sie an, wie Zahlen in der Extraktionsdatei formatiert werden sollen.
    * **[!UICONTROL Label anstelle der internen Werte der Aufzählungen exportieren]**: Schalten Sie diese Option ein, wenn Sie Aufzählungswerte exportieren und Label der Spalten abrufen möchten, die leichter verständlich sind als interne IDs.

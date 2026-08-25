@@ -3,14 +3,12 @@ title: Häufig gestellte Fragen
 description: Häufig gestellte Fragen zur Campaign Web-Benutzeroberfläche
 exl-id: 332db61b-a82d-4bca-a2f5-51557f06120c
 TQID: https://experienceleague.adobe.com/ArGP0QngUR7EiLAsdQb6FcneQ1fj4vcna40-tVEMXwE
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
 source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 865
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +30,7 @@ Informationen zu den ersten Schritten finden Sie auf [dieser Seite](../get-start
 
 +++ Welche neuen Funktionen und Merkmale bietet die neue Web-Benutzeroberfläche?
 
-Die neue Benutzeroberfläche in Adobe Campaign v8 sorgt für Konsistenz mit Adobe Experience Platform und ist auf Marketing-Effizienz ausgelegt. Die neue Workflow-Arbeitsfläche bietet einen intuitiven und erweiterten Arbeitsbereich für die Zielgruppenkomposition, die Workflow-Verwaltung und das Design von Inhalten sowie integrierte Anwendungsfälle mit nativen Adobe Experience Platform-Anwendungen wie Journey Optimizer und Real-Time CDP. Sparen Sie Kreativität, steigern Sie die Produktivität und personalisieren Sie Cross-Channel-Kampagnen im großen Maßstab mit Generate Content, der nativ in WYSIWYG Message Designer eingebettet ist.
+Die neue Benutzeroberfläche in Adobe Campaign v8 sorgt für Konsistenz mit Adobe Experience Platform und ist auf Marketing-Effizienz ausgelegt. Die neue Workflow-Arbeitsfläche bietet einen intuitiven und erweiterten Arbeitsbereich für die Zielgruppenkomposition, die Workflow-Verwaltung und das Design von Inhalten sowie integrierte Anwendungsfälle mit nativen Adobe Experience Platform-Anwendungen wie Journey Optimizer und Real-Time CDP. Mit der Funktion „Inhalt erzeugen“, die nativ in den WYSIWYG-Nachrichten-Designer integriert ist, können Sie Kreativität entfachen, Produktivität steigern und Cross-Channel-Kampagnen im benötigten Umfang personalisieren.
 
 Marketing-Fachleute können generative KI zur Ideenfindung für E-Mails mit vollständigen HTML-Inhalten sowie zur Text- und Bildgenerierung mit Vorschlägen zu Verfeinerung und Varianten verwenden. Neue Funktionen und Leistungsmerkmale können Sie auf [dieser Seite](../rn/whats-new.md) einsehen. Weitere Informationen zur neuen Oberfläche und deren Verwendung finden Sie auf [dieser Seite](../get-started/user-interface.md). Darüber hinaus finden Sie in den [Tutorials](https://experienceleague.adobe.com/de/docs/campaign-web-learn/tutorials/overview){target="_blank"} durch eine Reihe von Anleitungsvideos weitere Informationen über die neue Benutzeroberfläche.
 

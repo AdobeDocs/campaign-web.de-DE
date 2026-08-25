@@ -7,9 +7,9 @@ description: Dokumentation zu Campaign Web
 breadcrumb-title: Campaign Web-Benutzeroberfläche
 nudge: true
 source-git-commit: dae21b648eb4278746052eea3a6f33b1f8cc25da
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1072'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -134,13 +134,13 @@ ht-degree: 95%
       + [Hinzufügen von benutzerdefiniertem CSS](email/custom-css.md)
       + [Verwalten von Inhalten im dunklen Modus](email/dark-mode.md)
     + [Erstellen von barrierefreien Inhalten](email/accessible-content.md)
-  + Inhalt generieren {#ai-assistant}
-    + [Arbeiten mit generierten Inhalten](content/generative-gs.md)
+  + Erzeugen von Inhalt {#ai-assistant}
+    + [Arbeiten mit der Funktion „Inhalt erzeugen“](content/generative-gs.md)
     + [Best Practices für KI-Prompts](content/ai-assistant-prompting-guide.md)
     + [Vollständige Inhaltsgenerierung mit KI](content/generative-full-content.md)
     + [Textgenerierung mit KI](content/generative-text.md)
     + [Bildgenerierung mit KI](content/generative-image.md)
-    + [Anwendungsfälle für die Inhaltserstellung](content/generative-uc.md)
+    + [Anwendungsfälle für die Funktion „Inhalt erzeugen“](content/generative-uc.md)
     + Marken {#ai-assistant}
       + [Erstellen und Verwalten von Marken](content/brands.md)
       + [Personalisieren Ihrer Marke](content/brands-personalize.md)
@@ -205,7 +205,7 @@ ht-degree: 95%
     + [Dimensionsänderung](workflows/activities/change-dimension.md)
     + [Kombinieren](workflows/activities/combine.md)
     + [Versand (fortlaufend)](workflows/activities/continuous-delivery.md)
-    + [Laden (DBMS)](workflows/activities/data-loading-rdbms.md)
+    + [Laden (RDBMS)](workflows/activities/data-loading-rdbms.md)
     + [Deduplizierung](workflows/activities/deduplication.md)
     + [E-Mail, SMS, Push, Briefpost](workflows/activities/channels.md)
     + [Ende](workflows/activities/end.md)
@@ -302,11 +302,11 @@ ht-degree: 95%
     + [Hinzufügen benutzerdefinierter Filter](administration/schemas-custom-filters.md)
     + [Bearbeiten benutzerdefinierter Felder](administration/schemas-custom-fields.md)
     + [Hinzufügen von Sammlungslisten](administration/schemas-collection-lists.md)
-    + [Steuerungsaktionen auf Daten](administration/schemas-action-data.md)
+    + [Steuern von Aktionen für Daten](administration/schemas-action-data.md)
     + [Erstellen und Veröffentlichen von Schemata](administration/schemas-create-publish.md)
     + [Arbeiten mit benutzerdefinierten Formularen](administration/schemas-custom-forms.md)
   + {hide-from-toc}[Konfigurieren benutzerdefinierter Felder](administration/custom-fields.md)
-  + [Konfigurieren von Optionen in [!DNL Campaign] &#x200B;](administration/options.md)
+  + [Konfigurieren von Optionen in [!DNL Campaign] ](administration/options.md)
   + [Zeitzonenverwaltung](administration/timezone-management.md)
   + Externe Konten {#external-accounts}
     + [Erstellen externer Konten](administration/create-external-account.md)

@@ -4,18 +4,17 @@ title: Erstellen von Workflows mit Adobe Campaign Web
 description: Erfahren Sie, wie Sie Workflows mit Adobe Campaign Web erstellen
 exl-id: 0c8e2158-518c-4620-9971-00ed2eccdd4f
 TQID: https://experienceleague.adobe.com/D9lkZe8AvBCas-wt-Fe6GLaAoBR-JJNfAHSrRrpkP-w
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
 source-git-commit: 6e68cd4e3741b480dc04d8a86d0cf6cb07835811
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1720
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
 # Orchestrieren von Aktivitäten {#orchestrate}
 
-Sobald Sie einen [Workflow erstellt](create-workflow.md) haben, sei es über das Workflow-Menü oder innerhalb einer Kampagne, können Sie mit der Orchestrierung der verschiedenen Aufgaben beginnen, die er ausführen soll. Zu diesem Zweck wird eine visuelle Arbeitsfläche bereitgestellt, über die Sie ein Workflow-Diagramm erstellen können. Innerhalb dieses Diagramms können Sie verschiedene Aktivitäten hinzufügen und sie in einer sequentiellen Reihenfolge miteinander verbinden. Auf der Arbeitsfläche werden horizontale und vertikale Bildlaufleisten angezeigt, mit denen Sie durch Ziehen direkt in den Bereich, den Sie anzeigen möchten, in großen Workflows navigieren können.
+Sobald Sie einen [Workflow erstellt](create-workflow.md) haben, sei es über das Workflow-Menü oder innerhalb einer Kampagne, können Sie mit der Orchestrierung der verschiedenen Aufgaben beginnen, die er ausführen soll. Zu diesem Zweck wird eine visuelle Arbeitsfläche bereitgestellt, über die Sie ein Workflow-Diagramm erstellen können. Innerhalb dieses Diagramms können Sie verschiedene Aktivitäten hinzufügen und sie in einer sequentiellen Reihenfolge miteinander verbinden. Auf der Arbeitsfläche werden horizontale und vertikale Bildlaufleisten angezeigt, mit denen Sie in großen Workflows durch Ziehen direkt zu dem Bereich navigieren können, den Sie anzeigen möchten.
 
 ## Hinzufügen von Aktivitäten {#add}
 
@@ -31,7 +30,7 @@ Sobald eine Aktivität zum Diagramm hinzugefügt wurde, wird rechts ein Bereich 
 
 Wiederholen Sie diesen Vorgang, um je nach den Aufgaben, die Ihr Workflow ausführt, so viele Aktivitäten wie nötig hinzuzufügen. Sie können auch eine neue Aktivität zwischen zwei Aktivitäten einfügen. Klicken Sie dazu auf die Schaltfläche **+** in der Transition zwischen den Aktivitäten, wählen Sie die gewünschte Aktivität aus und konfigurieren Sie sie im rechten Bereich.
 
-Um eine Aktivität zu entfernen, wählen Sie sie auf der Arbeitsfläche aus und klicken in den Eigenschaften der Aktivität auf das Symbol **Löschen**. Unter [Aktivitäten löschen und trennen](#delete) finden Sie die verfügbaren Optionen.
+Um eine Aktivität zu entfernen, wählen Sie sie auf der Arbeitsfläche aus und klicken in den Eigenschaften der Aktivität auf das Symbol **Löschen**. Unter [Löschen und Trennen von Aktivitäten](#delete) finden Sie die verfügbaren Optionen.
 
 >[!TIP]
 >
@@ -39,7 +38,7 @@ Um eine Aktivität zu entfernen, wählen Sie sie auf der Arbeitsfläche aus und 
 
 ## Die Symbolleiste {#toolbar}
 
-Die Symbolleiste oben rechts auf der Arbeitsfläche bietet Optionen zur einfachen Bearbeitung der Aktivitäten und zur Navigation auf der Arbeitsfläche.
+Die Symbolleiste, die sich in der oberen rechten Ecke der Arbeitsfläche befindet, bietet Optionen, um die Aktivitäten einfach zu bearbeiten und in der Arbeitsfläche zu navigieren.
 
 * **Mehrfachauswahl-Modus**: Wählen Sie mehrere Aktivitäten aus, um sie alle gleichzeitig zu löschen oder zu kopieren/einzufügen. Siehe [diesen Abschnitt](#copy).
 * **Verzweigung hinzufügen**: Klicken Sie in der Symbolleiste auf die Schaltfläche **+**, um eine separate Ausführungsverzweigung auf der Arbeitsfläche zu erstellen. Das Ergebnis entspricht der Verwendung einer [Verzweigung](activities/fork.md) für parallele Pfade, das Diagramm ist jedoch grafisch klarer.
@@ -108,53 +107,53 @@ So verschieben Sie eine Aktivität:
 
 ### Löschen einer Aktivität {#delete-activity}
 
-Um eine Aktivität zu löschen, wählen Sie sie auf der Arbeitsfläche aus und klicken Sie in den Eigenschaften der Aktivität auf **Löschen**-Symbol. Ein Bestätigungsdialogfeld wird angezeigt.
+Um eine Aktivität zu löschen, wählen Sie sie auf der Arbeitsfläche aus und klicken Sie in den Eigenschaften der Aktivität auf das Symbol **Löschen**. Ein Bestätigungsdialogfeld wird angezeigt.
 
 * Wenn die Aktivität nicht mit einer anderen Aktivität verbunden ist, bestätigen Sie, dass Sie sie löschen möchten.
 
-  ![Aktivität löschen einfach](assets/workflow-delete.png)
+  ![Einfaches Löschen einer Aktivität](assets/workflow-delete.png)
 
-* Wenn die Aktivität mit einer oder mehreren nachfolgenden Aktivitäten verbunden ist, wählen Sie aus, wie diese verarbeitet werden sollen:
+* Wenn die Aktivität mit einer oder mehreren nachfolgenden Aktivitäten verbunden ist, wählen Sie aus, wie mit diesen umgegangen werden soll:
 
-  ![Aktivität „Mehrere löschen](assets/workflow-delete2.png)
+  ![Löschen mehrerer Aktivitäten](assets/workflow-delete2.png)
 
   * **Alle nachfolgenden Aktivitäten löschen**: Entfernt die Aktivität und alle Aktivitäten, die ihr auf demselben Pfad folgen.
-  * **Nur diese Aktivität löschen**: Entfernt nur die ausgewählte Aktivität und stellt die Verbindung zum verbleibenden Pfad wieder her. Diese Option ist nur verfügbar, wenn die Aktivität einen einzigen Nachfolger hat.
-  * **Neue Verzweigung löschen und erstellen**: Entfernt die ausgewählte Aktivität, behält jedoch ihre nachfolgenden Aktivitäten bei und verschiebt sie in eine neue, separate Verzweigung.
+  * **Nur diese Aktivität löschen**: Entfernt nur die ausgewählte Aktivität und stellt die Verbindung zum verbleibenden Pfad wieder her. Diese Option steht nur dann zur Verfügung, wenn die Aktivität genau einen Nachfolger hat.
+  * **Löschen und neue Verzweigung erstellen**: Entfernt die ausgewählte Aktivität, behält jedoch ihre nachfolgenden Aktivitäten bei und verschiebt sie in eine neue, separate Verzweigung.
 
-Klicken Sie **Löschen**, um Ihre Auswahl zu bestätigen, oder **Abbrechen**, um das Dialogfeld zu schließen, ohne etwas zu löschen.
+Klicken Sie auf **Löschen**, um Ihre Auswahl zu bestätigen, oder auf **Abbrechen**, um das Dialogfeld zu schließen, ohne etwas zu löschen.
 
-### Trennen von Transitionen {#disconnect-transition}
+### Trennen einer Transition {#disconnect-transition}
 
-Sie können zwei Aktivitäten trennen, ohne eine von ihnen zu löschen. Die Aktivitäten, die nach der getrennten Transition platziert wurden, werden nicht gelöscht: Sie werden in einen neuen, separaten Zweig des Workflows verschoben.
+Sie können zwei Aktivitäten trennen, ohne eine davon zu löschen. Die Aktivitäten, die nach der getrennten Transition platziert wurden, werden nicht gelöscht: Sie werden in eine neue, separate Verzweigung des Workflows verschoben.
 
-Auf diese Weise können Sie ein Workflow-Diagramm neu organisieren, z. B. um eine Gruppe von Aktivitäten, die Sie beibehalten möchten, vorübergehend beiseite zu legen, ohne sie löschen und neu erstellen zu müssen.
+Auf diese Weise können Sie ein Workflow-Diagramm neu organisieren, z. B. um eine Gruppe von Aktivitäten, die Sie beibehalten möchten, vorübergehend beiseite zu legen, ohne sie löschen und neu erstellen zu müssen.
 
-Dies kann mit einer einzigen Transition erfolgen:
+Dies kann in einer einzigen Transition erfolgen:
 
 1. Wählen Sie die Transition aus, die Sie trennen möchten.
 
-1. Klicken Sie in **Übergangseigenschaften auf** Trennen“.
+1. Klicken Sie in den Eigenschaften der Transition auf das Symbol **Trennen**.
 
-   ![Symbol „Verbindung trennen“ im Bereich mit den Übergangseigenschaften](assets/workflow-transition.png)
+   ![Symbol „Trennen“ im Eigenschaftenbereichs der Transition](assets/workflow-transition.png)
 
    Dieses Symbol ist nur verfügbar, wenn die Transition zu einer nachgelagerten Aktivität führt. Ein Bestätigungsdialogfeld wird angezeigt.
 
-1. Klicken Sie **Trennen** zur Bestätigung oder **Abbrechen**, um das Dialogfeld zu schließen, ohne etwas zu trennen.
+1. Klicken Sie zum Bestätigen auf **Trennen** oder auf **Abbrechen**, um das Dialogfeld zu schließen, ohne etwas zu trennen.
 
-   ![Bestätigungsdialogfeld „Transition trennen“](assets/workflow-transition2.png)
+   ![Bestätigungsdialogfeld zum Trennen einer Transition](assets/workflow-transition2.png)
 
-Wenn die Quellaktivität mehrere ausgehende Transitionen aufweist (z. B. eine **Aufspaltung**-Aktivität mit mehreren Ergebnisverzweigungen oder eine **Verzweigung**-Aktivität), können Sie jede dieser Transitionen einzeln aus dem Eigenschaftenbereich der Aktivität entfernen:
+Wenn die Quellaktivität mehrere ausgehende Transitionen aufweist (z. B. eine Aktivität des Typs **Aufspaltung** mit mehreren Ergebnisverzweigungen oder eine Aktivität des Typs **Verzweigung**), können Sie jede dieser Transitionen einzeln aus dem Eigenschaftsbereich der Aktivität entfernen:
 
 1. Wählen Sie die Aktivität aus und suchen Sie dann im Abschnitt **Segment** nach der Transition, die Sie entfernen möchten.
 
 1. Klicken Sie auf das Papierkorbsymbol neben dieser Transition. Ein Bestätigungsdialogfeld wird angezeigt.
 
-   ![Papierkorb-Symbol neben einem Segmentergebnis](assets/workflow-transition3.png)
+   ![Papierkorbsymbol neben einem Segmentergebnis](assets/workflow-transition3.png)
 
-1. Klicken Sie **Entfernen** zur Bestätigung oder **Abbrechen**, um das Dialogfeld zu schließen, ohne etwas zu entfernen.
+1. Klicken Sie zum Bestätigen auf **Entfernen** oder auf **Abbrechen**, um das Dialogfeld zu schließen, ohne etwas zu entfernen.
 
-   ![Bestätigungsdialogfeld für die Transition entfernen](assets/workflow-transition4.png)
+   ![Bestätigungsdialogfeld zum Entfernen einer Transition](assets/workflow-transition4.png)
 
 ## Ausführungsoptionen {#execution}
 

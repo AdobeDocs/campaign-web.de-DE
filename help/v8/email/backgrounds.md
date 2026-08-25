@@ -4,12 +4,11 @@ title: Personalisieren Ihres E-Mail-Hintergrunds
 description: Erfahren Sie, wie Sie Ihren E-Mail-Hintergrund personalisieren
 exl-id: 180e61d3-bc1e-4dde-84cf-06bd8ba4d724
 TQID: https://experienceleague.adobe.com/ssELWLmS9gyORG4JCf-6w5lxyn0UeaC63LBNheBGU8M
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
 source-git-commit: 1fe9a9727557de8bd1b0b2f10c58d89526b64095
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 366
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +42,7 @@ Unten finden Sie die verfügbaren Einstellungen für den Hintergrund:
   >[!NOTE]
   >Wählen Sie aber keine Viewport-Hintergrundfarbe aus, da diese die Struktur-Hintergrundfarben verdecken könnte.
 
-* Legen Sie für den Inhalt einer Strukturkomponente ein **[!UICONTROL Hintergrundbild]** fest. Wählen Sie ein Bild mit **[!UICONTROL Asset auswählen]**, **[!UICONTROL Medien importieren]** oder **[!UICONTROL Öffentliche Ressource importieren]**. [Weitere Informationen](content-components.md#image)
+* Legen Sie für den Inhalt einer Strukturkomponente ein **[!UICONTROL Hintergrundbild]** fest. Wählen Sie ein Bild mit **[!UICONTROL Asset auswählen]**, **[!UICONTROL Medien importieren]** oder **[!UICONTROL Öffentliche Ressource importieren]** aus. [Weitere Informationen](content-components.md#image)
 
   ![Hinzufügen eines Hintergrundbilds zum Inhalt einer bestimmten Strukturkomponente](assets/background_4.png){zoomable="yes"}
 

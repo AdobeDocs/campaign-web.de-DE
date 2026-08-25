@@ -4,16 +4,13 @@ title: Markenausrichtung
 description: Erfahren Sie, wie Sie markenkonforme Inhalte mithilfe der Markenbewertung erstellen, validieren und verwalten können.
 exl-id: 5e65d3f4-6a4e-4390-94ae-e59856f1370d
 TQID: https://experienceleague.adobe.com/j4YLHVWdNYp0UDaf0CNTKqI-qpO4XjDuOJF9NIAEJK0
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 510
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +18,7 @@ ht-degree: 97%
 
 >[!AVAILABILITY]
 >
->Sie müssen der [Benutzervereinbarung“ zustimmen](https://www.adobe.com/de/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} bevor Sie „Inhalt generieren“ verwenden können. Weitere Informationen erhalten Sie beim Adobe-Support.
+>Sie müssen einer [Benutzervereinbarung](https://www.adobe.com/de/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} zustimmen, bevor Sie die Funktion „Inhalt erzeugen“ verwenden können. Weitere Informationen erhalten Sie beim Adobe-Support.
 
 Die Funktion zur Inhaltsüberprüfung bietet umfassende Tools zur Bewertung, mit denen Sie messen können, wie gut Ihre Kampagnen mit Ihren Markenrichtlinien übereinstimmen, und die Qualitätsstandards für Inhalte in allen Kommunikationsbereichen beibehalten:
 

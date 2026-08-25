@@ -5,30 +5,16 @@ role: User, Admin, Developer
 level: Beginner
 exl-id: 39d1f1b6-626b-48a2-92c3-9b593a377d66
 TQID: https://experienceleague.adobe.com/ef945wiVtBxLFJEMMYmrrSHMg8ZtxFn-UUkEE7ntk58
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: b12f6872-9271-4369-85e5-86969a0b99a2
-  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
-  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
-subfeature_v2:
-  - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: b12f6872-9271-4369-85e5-86969a0b99a2id: c309ee4e-82e4-4f7e-b608-ef345678c34eid: d5ef99fa-df0c-4153-bf94-105ad0724167
+subfeature_v2: id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
-workflow-type: tm+mt
-source-wordcount: 1589
-ht-degree: 91%
+workflow-type: ht
+source-wordcount: 1604
+ht-degree: 100%
 
 ---
 
@@ -114,19 +100,19 @@ Wenn Sie von Campaign Standard zu Campaign v8 wechseln, stehen Ihnen nun die fol
 
   Adobe Experience Manager as a Cloud Service bietet Cloud-native Agilität, mit der Sie die Time-to-Value verkürzen und sich auf die sich wandelnden Geschäftsanforderungen einstellen können. Diese Integration verbessert nicht nur Ihre Content-Management-Funktionen, sondern ermöglicht Ihnen auch, Ihrer Kundschaft personalisiertere und ansprechendere Erlebnisse an allen Touchpoints bereitzustellen.
 
-* **Inhalt generieren**
+* **Erzeugen von Inhalt**
 
-  Mit der Funktion „Inhalt generieren“ von Campaign können Sie Marketing-Kampagnen über Kanäle wie E-Mail, SMS und Push intuitiv, einfach und unkompliziert erstellen, Zeit sparen, die Effizienz verbessern und bessere Ergebnisse erzielen.
+  Die Funktion „Inhalt erzeugen“ von Campaign macht die Erstellung und Durchführung von Marketing-Kampagnen über Kanäle wie E-Mail, SMS und Push intuitiv, einfach und mühelos und spart gleichzeitig Zeit, verbessert die Effizienz und führt zu besseren Ergebnissen.
 
   ![](../../v8/email/assets/full-email-1.png){zoomable="yes"}
 
-  Generate Content revolutioniert die Art und Weise, wie Sie professionelle und markenkonsistente Inhalte kanalübergreifend erstellen. Mit erweiterten GenAI-Modellen und einem tiefen Verständnis Ihrer Markenrichtlinien generiert Generate Content automatisch personalisierte, ansprechende und effektive Inhalte basierend auf dem Marketing-Ziel mit Inhalten, die für Markenstile, -layouts, -töne und mehr optimiert sind.
+  Die Funktion „Inhalt erzeugen“ revolutioniert die kanalübergreifende Erstellung professioneller und markenkonsistenter Inhalte. Mit fortschrittlichen GenAI-Modellen und einem tiefgreifenden Verständnis Ihrer Markenrichtlinien generiert die Funktion „Inhalt erzeugen“ automatisch personalisierte, ansprechende und effektive Inhalte, die auf dem Marketing-Ziel basieren und für die von der Marke vorgegebenen Stile, Layouts, die Tonalität und mehr optimiert sind.
 
-  „Inhalt generieren“ macht die Erstellung und Ausführung von Marketing-Kampagnen intuitiv, einfach und unkompliziert und spart gleichzeitig Zeit, verbessert die Effizienz und sorgt für bessere Ergebnisse.
+  „Inhalt erzeugen“ macht die Erstellung und Durchführung von Marketing-Kampagnen über verschiedene Kanäle intuitiv, einfach und problemlos und spart gleichzeitig Zeit, verbessert die Effizienz und führt zu besseren Ergebnissen.
 
   ![](../../v8/email/assets/full-email-2.png){zoomable="yes"}
 
-  Er bietet eine Reihe von E-Mail-Vorlagen und generiert Bilder (neu). Weitere Informationen zum Generieren von Inhalten finden [&#x200B; in diesem Abschnitt](../../v8/content/generative-full-content.md). Adobe Campaign v8 bietet Generate Content für [E-](../../v8/content/generative-full-content.md), [SMS](../../v8/content/generative-text.md) und [Push](../../v8/content/generative-full-content.md).
+  Es werden eine Reihe an E-Mail-Vorlagen zur Verfügung gestellt und Bilder generiert bzw. erneut generiert. Weitere Informationen zur Funktion „Inhalt erzeugen“ finden Sie in [diesem Abschnitt](../../v8/content/generative-full-content.md). Adobe Campaign v8 verfügt über die Funktion „Inhalt erzeugen“ für [E-Mail](../../v8/content/generative-full-content.md), [SMS](../../v8/content/generative-text.md) und [Push](../../v8/content/generative-full-content.md).
 
 * **Aktualisierte SMS-Infrastruktur – SMS v2.0**
 
@@ -213,7 +199,7 @@ Rufen Sie das entsprechende Referenzhandbuch für Ihre Rolle auf, um sich mit de
     </td>
   </tr>
     <td>
-    <em>Kampagnen-Managerinnen und -Manager, Fachleute für Medien-Marketing</em>
+    <em>Kampagnen-Managerinnen bzw. -Manager, Medien-Marketing-Fachleute</em>
     </td>
     <td>
       <em> Systemadmins, Fachleute für technisches Marketing</em>
@@ -249,5 +235,5 @@ Rufen Sie das entsprechende Referenzhandbuch für Ihre Rolle auf, um sich mit de
 
 Adobe constantly evaluates product capabilities to identify older features that should be replaced with more modern alternatives to improve overall customer value, always under careful consideration of backward compatibility.
 
-Please refer to [this documentation for information on deprecated items](https://experienceleague.adobe.com/de/docs/campaign-standard/using/release-notes/deprecated-features).
+Please refer to [this documentation for information on deprecated items](https://experienceleague.adobe.com/en/docs/campaign-standard/using/release-notes/deprecated-features).
 -->

@@ -4,14 +4,12 @@ title: Hinzufügen von Angeboten in Ihren Nachrichten
 description: Erfahren Sie, wie Sie Angebote hinzufügen und senden
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
 TQID: https://experienceleague.adobe.com/aAihPctzpv-wOectPp1y1qntZBX9rH5MqT1e0OLD4uA
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 5eee68c2201dac7b9c3ee6aa894e3ea1bef2c027
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 805
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -19,9 +17,9 @@ ht-degree: 92%
 
 Sie können Ihren Sendungen direkt über die Web-Benutzeroberfläche von Campaign Angebote hinzufügen. Diese Angebote sind über das Menü **Angebote** auf der linken Seite verfügbar. So können Sie auf die Liste der Angebote zugreifen.
 
-Über die Web-Benutzeroberfläche von Campaign können Sie Angebotsumgebungen, Platzierungen und Angebote auch direkt erstellen und verwalten, ohne zur Client-Konsole wechseln zu müssen. [Weitere Informationen](../offers/gs-offer-management.md).
+Über die Web-Benutzeroberfläche von Campaign können Sie auch direkt Angebotsumgebungen, Platzierungen und Angebote erstellen und verwalten, ohne zur Client-Konsole wechseln zu müssen. [Weitere Informationen](../offers/gs-offer-management.md).
 
-Informationen zu erweiterten Konfigurationen finden Sie in der [Dokumentation zu Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=de){target="_blank"}.
+Erweiterte Konfigurationen finden Sie in der [Dokumentation zu Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=de){target="_blank"}.
 
 Die wichtigsten Schritte zum Einschließen von Angeboten in einen Versand sind:
 
@@ -50,7 +48,7 @@ Gehen Sie wie folgt vor, um Angebote auszuwählen, die zu Ihrem Versand hinzugef
 
 1. Konfigurieren Sie, welche Angebote den Empfängerinnen und Empfängern unterbreitet werden sollen.
 
-   Wählen Sie zunächst die **[!UICONTROL Platzierung]** entsprechend Ihrer Angebotsumgebung. Wie Sie eine Platzierung direkt über die Web-Benutzeroberfläche von Campaign erstellen, erfahren Sie in diesem [Abschnitt](../offers/offer-space.md).
+   Wählen Sie zunächst die **[!UICONTROL Platzierung]** entsprechend Ihrer Angebotsumgebung. In diesem [Abschnitt](../offers/offer-space.md) erfahren Sie, wie Sie eine Platzierung direkt über die Web-Benutzeroberfläche von Campaign erstellen.
 
    ![Screenshot zur Auswahl der Platzierung im Inhalt für die Angebotserstellung](assets/offer-create-content.png){zoomable="yes"}
 
