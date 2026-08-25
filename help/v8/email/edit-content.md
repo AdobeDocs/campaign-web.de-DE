@@ -9,9 +9,9 @@ product_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 8d818a3b36f21909cd3ca1f48d1594839a54d0df
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 728
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -79,7 +79,7 @@ Gehen Sie wie folgt vor, um den Inhalt einer E-Mail zu konfigurieren oder zu bea
 
    >[!NOTE]
    >
-   >Administratoren können dieses Feld auf eine vordefinierte Liste von Absenderadressen beschränken. In diesem Fall wählen Sie eine Adresse aus einer Dropdown-Liste aus, anstatt sie einzugeben. [Weitere Informationen](../administration/options.md#restrict-sender-address)
+   >Admins können dieses Feld auf eine vordefinierte Liste von Absenderadressen beschränken. Wählen Sie in diesem Fall eine Adresse aus einer Dropdown-Liste aus, anstatt sie einzugeben. [Weitere Informationen](../administration/options.md#restrict-sender-address)
 
 1. Erweitern Sie den Abschnitt **[!UICONTROL Antwortfelder]**. Name und Adresse der Absenderin bzw. des Absenders werden standardmäßig für Antworten verwendet. Adobe empfiehlt, eine echte Adresse zu verwenden, wie etwa die der Kundenunterstützung Ihrer Marke. So kann sich das Team der Kundenunterstützung ggf. um etwaige Antworten kümmern.
 

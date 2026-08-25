@@ -1,5 +1,5 @@
 ---
-title: Leitfaden zur Inhaltserstellung
+title: Handbuch zur Prompt-Erstellung für „Inhalt erzeugen“
 description: Erfahren Sie, wie Sie mit dem CO-STAR-Framework effektive Prompts zur KI-gestützten Inhaltsgenerierung erstellen können, um markenorientierte Marketing-Inhalte mit hoher Konversionsrate zu erstellen.
 role: User
 level: Intermediate
@@ -20,20 +20,20 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
-workflow-type: tm+mt
-source-wordcount: 2054
-ht-degree: 97%
+workflow-type: ht
+source-wordcount: 2109
+ht-degree: 100%
 
 ---
 
-# Best Practices für Inhaltserstellung {#ai-assistant-prompting-guide}
+# Best Practices zur Prompt-Erstellung für „Inhalt erzeugen“ {#ai-assistant-prompting-guide}
 
-Dieser Leitfaden hilft Ihnen, Ihre Anfragen zu strukturieren, den Zweck klar und deutlich zu kommunizieren und sicherzustellen, dass die KI Botschaften produziert, die mit Ihren Markenrichtlinien, Zielgruppenanforderungen und Kampagnenzielen übereinstimmen.
-Erfahren Sie, wie Sie effektive Eingabeaufforderungen schreiben, mit denen KI hochwertige, auf Ihre Ziele zugeschnittene markeninterne Marketing-Inhalte generieren kann.
+Dieses Handbuch hilft Ihnen, Ihre Anfragen zu strukturieren, die Absicht klar zu kommunizieren und sicherzustellen, dass die KI Messaging erzeugt, das mit Ihren Markenrichtlinien, Zielgruppenanforderungen und Kampagnenzielen übereinstimmt.
+Erfahren Sie, wie Sie effektive Prompts schreiben, die es der KI ermöglichen, hochwertige, markenkonforme Marketing-Inhalte zu generieren, die auf Ihre Ziele zugeschnitten sind.
 
 ## Verwenden des CO-STAR-Frameworks {#costar-framework}
 
-Um optimale Ergebnisse mit der Inhaltserstellung zu erzielen, sollten Sie die Eingabeaufforderungen mit dem CO-STAR-Framework organisieren. Dieser strukturierte Ansatz stellt sicher, dass die KI genau versteht, was Sie benötigen.
+Um mit der Funktion „Inhalt erzeugen“ optimale Ergebnisse zu erzielen, sollten Sie Ihre Prompts mit dem CO-STAR-Framework organisieren. Dieser strukturierte Ansatz stellt sicher, dass die KI genau versteht, was Sie benötigen.
 
 | Komponente | Was dies bedeutet | Warum dies wichtig ist |
 |-|-|-|
@@ -129,19 +129,19 @@ Diese Anfragen werden nicht unterstützt und sollten mit anderen Tools erledigt 
 
 Stellen Sie vor dem Generieren von Inhalten Folgendes sicher:
 
-&check; **Klares Ziel**: Gibt Aktion, Produkt/Dienst, Wert und Kontext klar an.
+&amp;check; **Klares Ziel**: Gibt Aktion, Produkt/Dienst, Wert und Kontext klar an.
 
-&check; **Zielgruppe definiert**: Gibt Demografie, Rolle oder Segment an.
+&amp;check; **Zielgruppe definiert**: Gibt Demografie, Rolle oder Segment an.
 
-&check; **Ausrichtung des Inhaltstyps**: Ziel entspricht dem ausgewählten Kanal oder Format.
+&amp;check; **Ausrichtung des Inhaltstyps**: Ziel entspricht dem ausgewählten Kanal oder Format.
 
-&check; **Dropdown-Auswahlen konfiguriert**: Ton, Strategie und Gebietsschema sind ausgewählt und sind nicht im Prompt enthalten.
+&amp;check; **Dropdown-Auswahlen konfiguriert**: Ton, Strategie und Gebietsschema sind ausgewählt und sind nicht im Prompt enthalten.
 
-&check; **Dokumentfokus festgelegt**: Hebt die Inhalte oder Abschnitte hervor, auf die verwiesen werden soll.
+&amp;check; **Dokumentfokus festgelegt**: Hebt die Inhalte oder Abschnitte hervor, auf die verwiesen werden soll.
 
-&check; **Marke angewendet**: Passende Markenrichtlinien sind ausgewählt.
+&amp;check; **Marke angewendet**: Passende Markenrichtlinien sind ausgewählt.
 
-&check; **Realistischer Umfang**: Vermeiden Sie das Anfordern von Layout-Änderungen, Formatierungen oder strukturellen Bearbeitungen.
+&amp;check; **Realistischer Umfang**: Vermeiden Sie das Anfordern von Layout-Änderungen, Formatierungen oder strukturellen Bearbeitungen.
 
 ## Erstellen effektiver Marketing-Ziele {#marketing-objectives}
 
@@ -151,11 +151,11 @@ Achten Sie bei der Formulierung von Marketing-Zielen darauf, dass diese klar, um
 
 **Beispiele für gute Ziele:**
 
-&check; „Steigere die Anmeldungen für unsere kostenlose 30-tägige Testversion des neuen KI-gestützten Analyse-Dashboards“
+&amp;check; „Steigere die Anmeldungen für unsere kostenlose 30-tägige Testversion des neuen KI-gestützten Analyse-Dashboards“
 
-&check; „Generiere Leads für unser B2B-Webinar zum Thema ,Reduzierung der Cloud-Kosten um 40 %‘, das am 15. März stattfindet“
+&amp;check; „Generiere Leads für unser B2B-Webinar zum Thema ,Reduzierung der Cloud-Kosten um 40 %‘, das am 15. März stattfindet“
 
-&check; „Bewirb unseren zeitlich begrenzten Feiertagsrabatt von 25 % auf Premium-Abonnements, der am 25. Dezember endet“
+&amp;check; „Bewirb unseren zeitlich begrenzten Feiertagsrabatt von 25 % auf Premium-Abonnements, der am 25. Dezember endet“
 
 **Beispiele für zu vermeidende Ziele:**
 
@@ -167,16 +167,16 @@ Achten Sie bei der Formulierung von Marketing-Zielen darauf, dass diese klar, um
 
 ### Strukturieren des Ziels
 
-Geben Sie immer Kontext und das Wertversprechen an, damit die KI relevante Inhalte generieren kann.
-Verwenden Sie folgende Formel, um effektive Ziele zu formulieren: **Aktion + Produkt/Dienst + Wert/Nutzen + Dringlichkeit/Kontext**
+Geben Sie immer den Kontext und das Wertversprechen an, damit die KI relevante Inhalte generieren kann.
+Verwenden Sie diese Formel, um effektive Ziele zu schreiben: **Aktion + Produkt/Dienst + Wert/Nutzen + Dringlichkeit/Kontext**
 
 **Beispiele für gute Ziele:**
 
-&check; „Steigere die Downloads unserer neuen App, die Benutzenden hilft, nachhaltige Lebensgewohnheiten mit personalisierten umweltfreundlichen Empfehlungen zu verfolgen“
+&amp;check; „Steigere die Downloads unserer neuen App, die Benutzenden hilft, nachhaltige Lebensgewohnheiten mit personalisierten umweltfreundlichen Empfehlungen zu verfolgen“
 
-&check; „Bewirb die Anmeldung für unseren exklusiven Workshop über fortschrittliche Datenvisualisierungstechniken für Marketing-Fachleute“
+&amp;check; „Bewirb die Anmeldung für unseren exklusiven Workshop über fortschrittliche Datenvisualisierungstechniken für Marketing-Fachleute“
 
-&check; „Steigere die Teilnahme an unserer Produkteinführungsveranstaltung, auf der der revolutionäre KI-Schreibassistent vorgestellt wird, der mehr als 5 Stunden pro Woche einspart“
+&amp;check; „Steigere die Teilnahme an unserer Produkteinführungsveranstaltung, auf der der revolutionäre KI-Schreibassistent vorgestellt wird, der mehr als 5 Stunden pro Woche einspart“
 
 **Beispiele für zu vermeidende Formulierungen:**
 
@@ -280,7 +280,7 @@ Verwenden Sie die nachstehende Tabelle, um Details zu jedem Ton zu erfahren, ein
 >Wenn Sie bereits ein Marken-Asset über das Menü **Marken-Assets** hochgeladen haben, müssen Sie im Prompt nicht darauf verweisen. Das System verwendet automatisch alle ausgewählten Dokumente.
 
 Marken-Assets bieten sachliche Informationen, die Ihre generierten Inhalte mit konkreten, genauen Details anreichern.
-Wenn Sie umfangreiche Dokumente wie Produktbroschüren hochladen, fügen Sie Ihrem Prompt Angaben darüber hinzu, auf welchen Teilen der Schwerpunkt liegen soll:
+Wenn Sie umfangreiche Dokumente wie Produktbroschüren hochladen, fügen Sie Ihrem Prompt hinzu, auf welchen Teilen der Schwerpunkt liegen soll:
 
 * **Anstelle von** _„Verwende die Produktbroschüre“_ **sollten Sie Folgendes verwenden:** _„Konzentriere dich auf die erweiterten Sicherheitsfunktionen und Compliance-Zertifizierungen, insbesondere auf die SOC-2-Konformität und die Datenverschlüsselung“_
 

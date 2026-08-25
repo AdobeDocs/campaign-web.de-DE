@@ -7,72 +7,72 @@ role: Admin
 level: Experienced
 exl-id: 7afc802d-e90c-48c8-aa04-3ea543dfdfbc
 source-git-commit: 5c9d3db95905f77dddffaf824156c87b9d79013c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '809'
-ht-degree: 37%
+ht-degree: 100%
 
 ---
 
 # Konfigurieren von Marken {#branding-configure}
 
-Technische Administratoren können mehrere Marken direkt über die Web-Benutzeroberfläche erstellen und verwalten. Auf diese Weise können Sie alle Elemente definieren, aus denen Ihre Markenidentität besteht, einschließlich Logos und sogar E-Mail-Tracking-Einstellungen.
+Technische Admins können mehrere Marken direkt über die Web-Benutzeroberfläche erstellen und verwalten. Auf diese Weise können Sie alle Elemente definieren, aus denen Ihre Markenidentität besteht, einschließlich Logos und sogar E-Mail-Tracking-Einstellungen.
 
 >[!NOTE]
 >
->Diese Funktion erfordert das Branding-Paket auf Ihrer Instanz. Wenden Sie sich an den Adobe-Support, wenn das Menü **Branding** nicht angezeigt wird.
+>Diese Funktion erfordert das Branding-Paket für Ihre Instanz. Wenden Sie sich an den Adobe-Support, wenn das Menü **Branding** nicht angezeigt wird.
 
 ## Erstellen oder Bearbeiten einer Marke {#create-edit-brand}
 
 >[!CONTEXTUALHELP]
 >id="acw_branding_create"
->title="Marke erstellen"
->abstract="Klicken Sie **Marke erstellen**, um eine neue Markenidentität zu definieren. Füllen Sie auf den Konfigurationsregisterkarten die Markendetails aus und klicken Sie dann zum Speichern **Marke** Erstellen). Die Marke wird verfügbar und kann mit Versandvorlagen und eigenständigen Sendungen verknüpft werden."
+>title="Erstellen einer Marke"
+>abstract="Klicken Sie auf **Marke erstellen**, um eine neue Markenidentität zu definieren. Füllen Sie auf den Konfigurationsregisterkarten die Markendetails aus und klicken Sie dann zum Speichern auf **Marke erstellen**. Die Marke wird verfügbar und kann mit Versandvorlagen und eigenständigen Sendungen verknüpft werden."
 
-Gehen Sie wie folgt vor, um eine neue Marke zu erstellen:
+Um eine neue Marke zu erstellen, gehen Sie folgendermaßen vor:
 
-1. Navigieren Sie **[!UICONTROL linken Menü zu]** Administration > Branding“ oder vom **[!UICONTROL Explorer]** zu **[!UICONTROL Administration > Plattform]** Branding“.
+1. Navigieren Sie im linken Menü zu **[!UICONTROL Administration > Branding]** oder im **[!UICONTROL Explorer]** zu **[!UICONTROL Administration > Plattform > Branding]**.
 
-1. Klicken Sie auf **[!UICONTROL Marke erstellen]** oberhalb der Liste.
+1. Klicken Sie über der Liste auf **[!UICONTROL Marke erstellen]**.
 
-   ![Screenshot zur Erstellung der Marke](assets/branding-create.png)
+   ![Screenshot der Erstellung der Marke](assets/branding-create.png)
 
 1. Füllen Sie die Markendetails in den verschiedenen Abschnitten aus. Jedes Feld wird im Abschnitt [Markenattribute](#brand-attributes) unten beschrieben.
 
-   ![Screenshot mit den Feldern zur Markenerstellung](assets/branding-create2.png)
+   ![Screenshot der Felder zur Markenerstellung](assets/branding-create2.png)
 
-1. Klicken Sie **[!UICONTROL Marke erstellen]** um zu speichern. Die Marke kann jetzt mit Versandvorlagen und eigenständigen Sendungen verknüpft werden. [Erfahren Sie, wie Sie eine Marke zuweisen](branding-assign.md).
+1. Klicken Sie zum Speichern auf **[!UICONTROL Marke erstellen]**. Die Marke kann jetzt mit Versandvorlagen und eigenständigen Sendungen verknüpft werden. [Erfahren Sie, wie Sie eine Marke zuweisen](branding-assign.md).
 
-Um eine vorhandene Marke zu bearbeiten, wählen Sie sie aus der Liste aus, aktualisieren Sie die Felder und speichern Sie die Änderungen.
+Um eine vorhandene Marke zu bearbeiten, wählen Sie diese aus der Liste aus, aktualisieren Sie die Felder und speichern Sie die Änderungen.
 
 ## Markenattribute {#brand-attributes}
 
-Eine **[!UICONTROL Marke]** wird in vier Abschnitten konfiguriert: **[!UICONTROL Identität]**, **[!UICONTROL Markenkonfigurationen]**, **[!UICONTROL E-Mail-]** und **[!UICONTROL URL-Tracking-Parameter]**.
+Eine **[!UICONTROL Marke]** wird in vier Abschnitten konfiguriert: **[!UICONTROL Identität]**, **[!UICONTROL Markenkonfigurationen]**, **[!UICONTROL E-Mail-Header-Parameter]** und **[!UICONTROL URL-Tracking-Parameter]**.
 
 ### Identität {#identity}
 
-Im **[!UICONTROL Identität]** können Sie Ihre Marke definieren und personalisieren.
+Im Abschnitt **[!UICONTROL Identität]** können Sie Ihre Marke definieren und personalisieren.
 
 ![Screenshot, der die Registerkarte „Identität“ beim Erstellen einer Marke zeigt](assets/branding-create3.png)
 
-Dieser Abschnitt weist folgende Felder auf:
+Dieser Abschnitt enthält die folgenden Felder:
 
 * **[!UICONTROL Markenname]**: Der Name Ihrer Marke. Dieses Feld ist erforderlich.
-* **[!UICONTROL label]**: Die in der Benutzeroberfläche sichtbare Bezeichnung.
-* **[!UICONTROL ID]**: Die automatisch generierte interne Kennung. Man kann es ändern. Nur Buchstaben, Ziffern und Unterstriche sind zulässig. Sonderzeichen werden durch Unterstriche ersetzt.
-* **[!UICONTROL Logo-]**: Die URL des Markenlogo-Bildes.
-* **[!UICONTROL Website]** URL und **[!UICONTROL Website-]**: Die Website-URL und der Titel, die mit der Marke verknüpft sind.
+* **[!UICONTROL Label]**: Das Label, das auf der Benutzeroberfläche angezeigt wird.
+* **[!UICONTROL ID]**: Die automatisch generierte interne Kennung. Sie können diese ändern. Nur Buchstaben, Ziffern und Unterstriche sind erlaubt. Sonderzeichen werden durch Unterstriche ersetzt.
+* **[!UICONTROL Logo-URL]**: Die URL des Markenlogobilds.
+* **[!UICONTROL Website-URL]** und **[!UICONTROL Website-Label]**: Die Website-URL und das Label, die der Marke zugeordnet sind.
 
 
 ### Markenkonfigurationen {#brand-configs}
 
 Im Abschnitt **[!UICONTROL Markenkonfigurationen]** definieren Sie die Subdomain- und URL-Protokolle für das Tracking und den Zugriff auf Landingpages.
 
-![Screenshot mit der Registerkarte „Markenkonfigurationen“](assets/branding-create4.png)
+![Screenshot der Registerkarte „Markenkonfigurationen“](assets/branding-create4.png)
 
-Dieser Abschnitt weist folgende Felder auf:
+Dieser Abschnitt enthält die folgenden Felder:
 
-* **[!UICONTROL Marken-Subdomain]**: Die für diese Marke spezifische Subdomain-URL, die von Adobe delegiert werden soll.
-* **[!UICONTROL Tracking URL Protocol]**, **[!UICONTROL Mirror Page URL Protocol]** und **[!UICONTROL Application URL Protocol]**: Das Protokoll, das für jeden URL-Typ verwendet wird (z. B. **Secure (https)**.
+* **[!UICONTROL Marken-Subdomain]**: Die für diese Marke spezifische Subdomain-URL, deren Delegierung bei Adobe angefordert wurde.
+* **[!UICONTROL Tracking-URL-Protokoll]**, **[!UICONTROL Mirror-Seiten-URL-Protokoll]** und **[!UICONTROL Anwendungs-URL-Protokoll]**: Das Protokoll, das für jeden URL-Typ verwendet wird (z. B. **Secure (https)**).
 
 >[!NOTE]
 >
@@ -80,17 +80,17 @@ Dieser Abschnitt weist folgende Felder auf:
 
 ### E-Mail-Header-Parameter {#header-param}
 
-Mit den **[!UICONTROL E-Mail]** Header-Parametern können Sie personalisieren, was die Empfänger im Header-Abschnitt Ihrer Kampagnen sehen werden.
+Mit den **[!UICONTROL E-Mail-Header-Parametern]** können Sie personalisieren, was die Empfangenden im Header-Abschnitt Ihrer Kampagnen sehen werden.
 
-![Screenshot mit der Registerkarte „Kopfzeilenparameter“ mit E-Mail-Kopfzeilenfeldern](assets/branding-create5.png)
+![Screenshot der Registerkarte „Header-Parameter“ mit E-Mail-Header-Feldern](assets/branding-create5.png)
 
-Dieser Abschnitt weist folgende Felder auf:
+Dieser Abschnitt enthält die folgenden Felder:
 
 * **[!UICONTROL Absender (E-Mail-Adresse)]**: Die E-Mail-Adresse der Marke.
-* **[!UICONTROL Absender (Name)]**: Der Name der Marke.
-* **[!UICONTROL Antwort an (E-Mail-Adresse)]**: Die E-Mail-Adresse, auf die der Kunde antworten kann.
-* **[!UICONTROL Antwort an (Name)]**: Der Anzeigename für Antworten.
-* **[!UICONTROL Fehler (E-Mail-Adresse)]**: Die im Fehlerfall zu verwendende E-Mail-Adresse.
+* **[!UICONTROL Sender (Name)]**: Der Name der Marke.
+* **[!UICONTROL Antwort (E-Mail-Adresse)]**: Die E-Mail-Adresse, an die die Kundin bzw. der Kunde antworten kann.
+* **[!UICONTROL Antworten (Name)]**: Der Anzeigename für Antworten.
+* **[!UICONTROL Fehler (E-Mail-Adresse)]**. Die E-Mail-Adresse, die im Falle eines Fehlers verwendet werden soll.
 
 <!--
 >[!IMPORTANT]
@@ -98,17 +98,17 @@ Dieser Abschnitt weist folgende Felder auf:
 >After having updated the header parameters of the emails, if the name and email address of the sender have not changed in the email created from the template, check the template's advanced settings.
 -->
 
-### URL-Trackingparameter {#tracking-param}
+### URL-Tracking-Parameter {#tracking-param}
 
-Im Abschnitt **[!UICONTROL URL-Tracking]** Parameter können Sie das URL-Tracking verbessern, indem Sie zusätzliche Parameter für die Integration mit Web-Analyse-Tools wie Adobe Analytics und Google Analytics definieren.
+Im Abschnitt **[!UICONTROL URL-Tracking-Parameter]** können Sie das URL-Tracking verbessern, indem Sie zusätzliche Parameter für die Integration mit Web-Analyse-Tools wie Adobe Analytics und Google Analytics definieren.
 
-![Screenshot mit URL-Tracking-Parametern auf der Registerkarte „Kopfzeilenparameter“](assets/branding-create6.png)
+![Screenshot mit URL-Tracking-Parametern auf der Registerkarte „Header-Parameter“](assets/branding-create6.png)
 
-Dieser Abschnitt weist folgende Felder auf:
+Dieser Abschnitt enthält die folgenden Felder:
 
-* **[!UICONTROL Zusätzliche URL-]**: Fügen Sie Parameter als Schlüssel-Wert-Paare zusammen mit ihren Anwendungsbedingungen hinzu. Alle Parameternamen müssen eindeutig und dürfen nicht leer sein. Alle Parameterwerte dürfen nicht leer sein. Die Anwendungsbedingung kann leer sein, aber keiner dieser Werte darf JST-Tags enthalten.
+* **[!UICONTROL Zusätzlich URL-Parameter]**: Fügen Sie Parameter als Schlüssel-Wert-Paare zusammen mit ihren Anwendungsbedingungen hinzu. Alle Parameternamen müssen eindeutig und dürfen nicht leer sein. Alle Parameterwerte dürfen nicht leer sein. Die Anwendungsbedingung kann leer sein, aber keiner dieser Werte darf JST-Tags enthalten.
 
-* **[!UICONTROL Zulassungsliste für Domain-Namen]**: Fügen Sie Domain-Namen oder reguläre Ausdrücke hinzu, um URLs zu entsprechen, an die Tracking-Parameter angehängt werden.
+* **[!UICONTROL Zulassungsliste für Domain-Name]**: Fügen Sie Domain-Namen oder reguläre Ausdrücke hinzu, um URLs zu abzugleichen, an die Tracking-Parameter angehängt werden.
 
 **Beispiel:** Eine nachverfolgte URL wie `https://www.luma.com` wird `https://www.luma.com/?age=21&deliveryName=DM101`, wenn die zusätzlichen Parameter `age=21` und `deliveryName=DM101` für diese Domain konfiguriert sind.
 

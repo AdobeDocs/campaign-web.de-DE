@@ -18,9 +18,9 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1326
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -85,13 +85,13 @@ Verwenden Sie die neue Campaign Web-Benutzeroberfläche für Folgendes:
 * Überwachen, Senden und Messen von Ergebnissen mit integrierten Berichten – [Weitere Informationen](../reporting/delivery-reports.md)
 
 
-**Inhaltserstellung mit Inhalt generieren**
+**Inhaltserstellung mit „Inhalt erzeugen“**
 
 Verabschieden Sie sich von der manuellen Inhaltserstellung und begrüßen Sie eine neue Ära optimierter Kampagnen mit unserem innovativen Inhalts-Designer, der auf Microsoft Azure OpenAI und Adobe Firefly basiert.
 
-Definieren Sie den Versand von Inhalten neu mit unserem erweiterten WYSIWYG-Editor mit Drag-and-Drop-Funktion, der ein einfaches und effizientes Arbeiten ermöglicht. Mit seiner nahtlosen AEM-Integration, den dynamischen Inhaltsfunktionen und dem bahnbrechenden Tool „Generate Content“ ermöglicht dieses All-in-One-Tool die intuitive, effiziente und hochgradig personalisierte Erstellung von Sendungen.
+Definieren Sie den Versand von Inhalten neu mit unserem erweiterten WYSIWYG-Editor mit Drag-and-Drop-Funktion, der ein einfaches und effizientes Arbeiten ermöglicht. Dank der nahtlosen AEM-Integration, den Funktionen für dynamische Inhalte und der bahnbrechenden Funktion „Inhalt erzeugen“ ermöglicht dieses All-in-One-Tool eine intuitive, effiziente und hochgradig personalisierte Erstellung von Inhalten.
 
-Nutzen Sie die Leistungsfähigkeit der fortschrittlichen Algorithmen von KI, um ansprechende, maßgeschneiderte Inhalte zu erstellen, die Ergebnisse vorantreiben. Steigern Sie Öffnungsraten, Klickraten und Konversionen mit einer intelligenten, KI-gestützten Inhaltsgenerierung. Weiterführende Informationen finden Sie in [diesem Abschnitt](../content/generative-gs.md).
+Nutzen Sie die Leistung fortschrittlicher Algorithmen der KI, um ansprechende, maßgeschneiderte Inhalte zu erstellen, die Ergebnisse liefern. Steigern Sie Öffnungsraten, Klickraten und Konversionen mit einer intelligenten, KI-gestützten Inhaltsgenerierung. Weiterführende Informationen finden Sie in [diesem Abschnitt](../content/generative-gs.md).
 
 **Neue und neu gestaltete Kampagnen-Workflow-Aktivitäten**
 

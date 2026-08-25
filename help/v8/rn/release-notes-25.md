@@ -19,9 +19,9 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
-workflow-type: tm+mt
-source-wordcount: 3030
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: 3118
+ht-degree: 100%
 
 ---
 
@@ -375,7 +375,7 @@ table>
 <tbody>
 <tr>
 <td>
-<p>Sie können nun Ihre eigenen Marken erstellen und anpassen, um Ihre visuelle und verbale Identität in der gesamten Kommunikation klar zu definieren. Über den Markenausrichtungswert können Sie Echtzeit-Feedback dazu erhalten, wie gut Ihre Inhalte den Ton, den Stil und die Richtlinien Ihrer Marke widerspiegeln. So können Sie sicherstellen, dass jede gesendete Nachricht markenkonform ist.
+<p>Sie können nun Ihre eigenen Marken erstellen und anpassen, um Ihre visuelle und verbale Identität in der gesamten Kommunikation klar zu definieren. Über den Markenausrichtungswert erhalten Sie Echtzeit-Feedback dazu, wie gut Ihr Inhalt den Ton, den Stil und die Richtlinien Ihrer Marke widerspiegelt. So können Sie sicherstellen, dass jede gesendete Nachricht markenkonform ist.
 </p>
 <p>Weitere Informationen finden Sie im <a href="../content/brands.md">entsprechenden Handbuch</a>.</p>
 </td>
@@ -436,7 +436,7 @@ table>
 <tr>
 <td>
 <p>Sie können nun auf dynamisches Reporting zugreifen, das vollständig anpassbare Berichte und Echtzeitberichte zum Messen der Wirkung Ihrer Marketing-Aktivitäten bietet. Dadurch kann auf Profildaten zugegriffen werden, was die demografische Analyse nach Profildimensionen wie Geschlecht, Ort und Alter ermöglicht, zusätzlich zur Analyse basierend auf Daten von E-Mail-Kampagnen wie Öffnungen und Klicks. Dynamische Berichte sind auch für mehrsprachige E-Mail-Sendungen und Transaktionsnachrichten verfügbar.</p>
-<p>Diese Funktion ist nur auf Anfrage verfügbar. Wenden Sie sich an Ihre Adobe-Support-Kontaktperson, um Zugriff zu erhalten. Ihr Server muss mindestens auf 8.8.1 aktualisiert sein. Weitere Informationen finden Sie in den <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=de" target="_blank">Versionshinweisen</a> zur Client-Konsole.
+<p>Diese Funktion ist nur auf Anfrage verfügbar. Wenden Sie sich für Zugriff an den Adobe-Support. Ihr Server muss mindestens auf 8.8.1 aktualisiert sein. Weitere Informationen finden Sie in den <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=de" target="_blank">Versionshinweisen</a> zur Client-Konsole.
 <p>Weitere Informationen finden Sie im <a href="../reporting/dynamic-reporting/get-started-reporting.md">entsprechenden Handbuch</a>.</p>
 </td>
 </tr>
@@ -453,7 +453,7 @@ table>
 <tr>
 <td>
 <p>Ihre technischen Admins können nun eine oder mehrere Marken definieren, um die Parameter zu zentralisieren, die sich auf die Markenidentität auswirken. das Logo der Marke, die Domain der Zugangs-URL zu den Landingpages, Einstellungen zum Nachrichten-Tracking. Sie können diese Marken erstellen und mit verschiedenen Nachrichten oder Landingpages verknüpfen. Diese Konfiguration wird in Vorlagen verwaltet. Branding-Optionen sind für alle Kanäle verfügbar, einschließlich SMS und Briefpost.</p>
-<p>Diese Funktion ist nur auf Anfrage und für neue Implementierungen verfügbar. Wenden Sie sich an Ihre Adobe-Support-Kontaktperson, um Zugriff zu erhalten. Ihr Server muss mindestens auf 8.8.1 aktualisiert sein. Weitere Informationen finden Sie in den <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=de" target="_blank">Versionshinweisen</a> zur Client-Konsole.
+<p>Diese Funktion ist nur auf Anfrage und nur für neue Implementierungen verfügbar. Wenden Sie sich für Zugriff an den Adobe-Support. Ihr Server muss mindestens auf 8.8.1 aktualisiert sein. Weitere Informationen finden Sie in den <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=de" target="_blank">Versionshinweisen</a> zur Client-Konsole.
 <p>Weitere Informationen finden Sie im <a href="../administration/branding/branding-gs.md">entsprechenden Handbuch</a>.</p>
 </td>
 </tr>
@@ -650,7 +650,7 @@ Die folgenden Funktionen stehen allen Benutzenden ab der April-Version zur Verf�
 <tr>
 <td>
 <p>Als Campaign-Admin können Sie nun über die Campaign Web-Benutzeroberfläche neue Verbindungen mit externen Systemen einrichten.
-Sie können außerdem bereits vorhandene externe Konten anzeigen, aktualisieren und verwalten.</p>
+Sie haben zudem die Möglichkeit, vorhandene externe Konten anzuzeigen, zu aktualisieren und zu verwalten.</p>
 <p>Weitere Informationen finden Sie im <a href="../administration/external-account.md">entsprechenden Handbuch</a>.</p>
 </td>
 </tr>
@@ -853,15 +853,15 @@ Die folgenden Funktionen und Verbesserungen sind ab der Version Januar verfügba
 <table>
 <thead>
 <tr>
-<th><strong>Generieren einer Landingpage mit Inhalt generieren</strong><br/></th>
+<th><strong>Generierung einer Landingpage mit „Inhalt erzeugen“</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>„Inhalt generieren“ ist jetzt in Ihren Landingpage-Sendungen verfügbar und ermöglicht Ihnen das Generieren von Text, Bildern oder vollständigen Seiten-Layouts.</p>
+<p>Mit der Funktion „Inhalt erzeugen“ können Sie jetzt beim Versand Ihrer Landingpages Texte, Bilder oder vollständige Seiten-Layouts erstellen.</p>
 <img src="assets/do-not-localize/ai-lp.gif">
-<p>Weitere Informationen zum Generieren von Inhalten finden Sie in der <a href="../content/generative-full-content.md"> Dokumentation </a>.</p>
+<p>Weitere Informationen zur Funktion „Inhalt erzeugen“ finden Sie in der <a href="../content/generative-full-content.md">detaillierten Dokumentation</a>.</p>
 </td>
 </tr>
 </tbody>

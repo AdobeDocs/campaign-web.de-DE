@@ -26,9 +26,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
-workflow-type: tm+mt
-source-wordcount: 1589
-ht-degree: 91%
+workflow-type: ht
+source-wordcount: 1604
+ht-degree: 100%
 
 ---
 
@@ -114,19 +114,19 @@ Wenn Sie von Campaign Standard zu Campaign v8 wechseln, stehen Ihnen nun die fol
 
   Adobe Experience Manager as a Cloud Service bietet Cloud-native Agilität, mit der Sie die Time-to-Value verkürzen und sich auf die sich wandelnden Geschäftsanforderungen einstellen können. Diese Integration verbessert nicht nur Ihre Content-Management-Funktionen, sondern ermöglicht Ihnen auch, Ihrer Kundschaft personalisiertere und ansprechendere Erlebnisse an allen Touchpoints bereitzustellen.
 
-* **Inhalt generieren**
+* **Erzeugen von Inhalt**
 
-  Mit der Funktion „Inhalt generieren“ von Campaign können Sie Marketing-Kampagnen über Kanäle wie E-Mail, SMS und Push intuitiv, einfach und unkompliziert erstellen, Zeit sparen, die Effizienz verbessern und bessere Ergebnisse erzielen.
+  Die Funktion „Inhalt erzeugen“ von Campaign macht die Erstellung und Durchführung von Marketing-Kampagnen über Kanäle wie E-Mail, SMS und Push intuitiv, einfach und mühelos und spart gleichzeitig Zeit, verbessert die Effizienz und führt zu besseren Ergebnissen.
 
   ![](../../v8/email/assets/full-email-1.png){zoomable="yes"}
 
-  Generate Content revolutioniert die Art und Weise, wie Sie professionelle und markenkonsistente Inhalte kanalübergreifend erstellen. Mit erweiterten GenAI-Modellen und einem tiefen Verständnis Ihrer Markenrichtlinien generiert Generate Content automatisch personalisierte, ansprechende und effektive Inhalte basierend auf dem Marketing-Ziel mit Inhalten, die für Markenstile, -layouts, -töne und mehr optimiert sind.
+  Die Funktion „Inhalt erzeugen“ revolutioniert die kanalübergreifende Erstellung professioneller und markenkonsistenter Inhalte. Mit fortschrittlichen GenAI-Modellen und einem tiefgreifenden Verständnis Ihrer Markenrichtlinien generiert die Funktion „Inhalt erzeugen“ automatisch personalisierte, ansprechende und effektive Inhalte, die auf dem Marketing-Ziel basieren und für die von der Marke vorgegebenen Stile, Layouts, die Tonalität und mehr optimiert sind.
 
-  „Inhalt generieren“ macht die Erstellung und Ausführung von Marketing-Kampagnen intuitiv, einfach und unkompliziert und spart gleichzeitig Zeit, verbessert die Effizienz und sorgt für bessere Ergebnisse.
+  „Inhalt erzeugen“ macht die Erstellung und Durchführung von Marketing-Kampagnen über verschiedene Kanäle intuitiv, einfach und problemlos und spart gleichzeitig Zeit, verbessert die Effizienz und führt zu besseren Ergebnissen.
 
   ![](../../v8/email/assets/full-email-2.png){zoomable="yes"}
 
-  Er bietet eine Reihe von E-Mail-Vorlagen und generiert Bilder (neu). Weitere Informationen zum Generieren von Inhalten finden [&#x200B; in diesem Abschnitt](../../v8/content/generative-full-content.md). Adobe Campaign v8 bietet Generate Content für [E-](../../v8/content/generative-full-content.md), [SMS](../../v8/content/generative-text.md) und [Push](../../v8/content/generative-full-content.md).
+  Es werden eine Reihe an E-Mail-Vorlagen zur Verfügung gestellt und Bilder generiert bzw. erneut generiert. Weitere Informationen zur Funktion „Inhalt erzeugen“ finden Sie in [diesem Abschnitt](../../v8/content/generative-full-content.md). Adobe Campaign v8 verfügt über die Funktion „Inhalt erzeugen“ für [E-Mail](../../v8/content/generative-full-content.md), [SMS](../../v8/content/generative-text.md) und [Push](../../v8/content/generative-full-content.md).
 
 * **Aktualisierte SMS-Infrastruktur – SMS v2.0**
 
@@ -213,7 +213,7 @@ Rufen Sie das entsprechende Referenzhandbuch für Ihre Rolle auf, um sich mit de
     </td>
   </tr>
     <td>
-    <em>Kampagnen-Managerinnen und -Manager, Fachleute für Medien-Marketing</em>
+    <em>Kampagnen-Managerinnen bzw. -Manager, Medien-Marketing-Fachleute</em>
     </td>
     <td>
       <em> Systemadmins, Fachleute für technisches Marketing</em>

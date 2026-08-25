@@ -9,9 +9,9 @@ product_v2:
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
 source-git-commit: 7b43dd8a4a498fdbd0c205d28645901cf44df3a6
-workflow-type: tm+mt
-source-wordcount: 365
-ht-degree: 92%
+workflow-type: ht
+source-wordcount: 450
+ht-degree: 100%
 
 ---
 
@@ -21,8 +21,8 @@ Adobe Campaign Web bietet Filter in jeder Objektliste, mit denen Sie Information
 
 >[!IMPORTANT]
 >
->Eine brandneue Benutzeroberfläche für den Abfrage-Modeler ist verfügbar. Mit dem neuen Regel-Builder können Sie Ihre Abfrage dank der vereinfachten Benutzeroberfläche mühelos erstellen. Um zu diesem Erlebnis zu wechseln, klicken Sie rechts oben auf den Umschalter. Sie können jederzeit zum klassischen Abfrage-Modeler zurückkehren, indem Sie einfach erneut auf den Umschalter klicken und die neue Benutzeroberfläche deaktivieren. In der neuen Benutzeroberfläche folgen Sie denselben Prinzipien wie im Abfrage-Modeler.
->![Bild mit dem Umschalter für die neue Benutzeroberfläche des Regel-Builders](assets/query-modeler-toggle.png){zoomable="yes"}
+>Eine brandneue Benutzeroberfläche für den Abfrage-Modeler ist verfügbar. Mit dem neuen Regel-Builder können Sie Ihre Abfrage dank der vereinfachten und intuitiven Benutzeroberfläche leichter erstellen. Um zu diesem Erlebnis zu wechseln, klicken Sie auf den Umschalter in der oberen rechten Ecke. Sie können jederzeit zum klassischen Abfrage-Modeler zurückkehren, indem Sie einfach auf den Umschalter klicken, um die neue Benutzeroberfläche zu deaktivieren. Sie können in dieser neuen Benutzeroberfläche dieselben Prinzipien wie beim Abfrage-Modeler anwenden.
+>![Bild, das den Umschalter für die neue Benutzeroberfläche des Regel-Builders zeigt](assets/query-modeler-toggle.png){zoomable="yes"}
 
 ## Anwenden von Filtern {#apply}
 
@@ -36,7 +36,7 @@ Um eine Liste nach Ihren eigenen Kriterien zu filtern, können Sie einen benutze
 
 >[!NOTE]
 >
->Bei benutzerdefinierten Schemata können Admins ihre eigenen Schnellzugriffsfelder über der Schaltfläche „Regeln hinzufügen **zum** hinzufügen. Weitere Informationen finden Sie unter [Hinzufügen benutzerdefinierter Filter](../administration/schemas-custom-filters.md).
+>Bei benutzerdefinierten Schemata können Admins ihre eigenen Schnellzugriffsfelder über der Schaltfläche **Regeln hinzufügen** zum Filterbereich hinzufügen. Weitere Informationen finden Sie unter [Hinzufügen benutzerdefinierter Filter](../administration/schemas-custom-filters.md).
 
 Nachdem Sie Filter auf eine Liste angewendet haben, werden sie unter der Suchleiste angezeigt. Sie können einen jederzeit einzelne Filter entfernen oder auch alle, indem Sie auf **Alle löschen** klicken.
 

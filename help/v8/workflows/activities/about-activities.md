@@ -15,9 +15,9 @@ subfeature_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: bece1698fc2ac1020ae28cbef04d3717ee0607bb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 597
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 

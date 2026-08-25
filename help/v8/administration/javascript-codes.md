@@ -9,9 +9,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 2df9759bb21eae0630bcbe9130a1a20b165e8cca
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 535
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -20,12 +20,12 @@ ht-degree: 88%
 >[!CONTEXTUALHELP]
 >id="acw_javascript_codes_list"
 >title="JavaScript-Codes"
->abstract="JavaScript-Codes sind wiederverwendbare Funktionen, die ähnlich wie eine Bibliothek in Workflows verwendet werden können. Aus dieser Liste können Sie JavaScript-Code erstellen, ändern, duplizieren oder löschen."
+>abstract="JavaScript-Codes sind wiederverwendbare Funktionen, die in verschiedenen Workflows eingesetzt werden können, ähnlich wie eine Bibliothek. Über diese Liste können Sie einen JavaScript-Code erstellen, ändern, duplizieren oder löschen."
 
 >[!CONTEXTUALHELP]
 >id="acw_javascript_codes_create"
->title="JavaScript-Code erstellen"
->abstract="Definieren Sie einen Namespace, einen Namen und eine Beschriftung für Ihren JavaScript-Code und schreiben Sie dann den Inhalt mit den vordefinierten Funktionen, die für Bedingungen und Datumsformatierung verfügbar sind. Nach der Erstellung können Namespace und Name nicht mehr geändert werden."
+>title="Erstellen von JavaScript-Code"
+>abstract="Definieren Sie einen Namespace, einen Namen und ein Label für Ihren JavaScript-Code und erstellen Sie dann dessen Inhalt mithilfe der vordefinierten Funktionen, die für Bedingungen und Datumsformatierung verfügbar sind. Nach der Erstellung können der Namespace und der Name nicht mehr geändert werden."
 
 ## Über JavaScript-Codes {#about}
 

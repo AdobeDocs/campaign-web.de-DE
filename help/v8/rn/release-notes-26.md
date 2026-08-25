@@ -3,9 +3,9 @@ title: Frühere Versionshinweise zur Web-Benutzeroberfläche von Campaign v8
 description: Versionen der Campaign Web-Benutzeroberfläche 2026
 exl-id: 40735c57-94ae-4646-8c3d-68197569fbd4
 source-git-commit: 6ed3a17593d0dc7bda55d9f90fc27526c09d99ed
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2025'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 72%
 
 Auf dieser Seite werden alle Änderungen und Verbesserungen aufgelistet, die in **Versionen 2026** verfügbar sind. Die neuesten Versionshinweise finden Sie auf [dieser Seite](release-notes.md).
 
-## Version Juli &#39;26 {#26-7-release}
+## Version Juli 2026 {#26-7-release}
 
 _28. Juli 2026_
 
@@ -28,8 +28,8 @@ _28. Juli 2026_
 <tbody>
 <tr>
 <td>
-<p>Sie können jetzt Angebote durchgängig direkt über die Web-Benutzeroberfläche von Campaign verwalten. Konfigurieren Sie Angebotsumgebungen und Platzierungen, erstellen Sie Ihren Angebotskatalog und Ihre Kategorien, erstellen Sie Angebote mit Eignungsregeln und Prioritätsgewichten und genehmigen und stellen Sie sie für Ihre Sendungen bereit. Erweiterte Konfigurationen sind weiterhin in der Client-Konsole verfügbar.</p>
-<p>Weitere Informationen finden Sie im <a href="../offers/gs-offer-management.md">entsprechenden Handbuch</a>.</p>
+<p>Sie können Angebote jetzt durchgängig direkt über die Campaign Web-Benutzeroberfläche verwalten. Konfigurieren Sie Angebotsumgebungen und -platzierungen, erstellen Sie Ihren Angebotskatalog und Ihre Kategorien, erstellen Sie Angebote mit Eignungsregeln und Prioritätsgewichtungen und validieren und stellen Sie sie für die Verwendung in Ihren Sendungen bereit. Erweiterte Konfigurationen sind weiterhin in der Client-Konsole verfügbar.</p>
+<p>Weitere Informationen finden Sie in der <a href="../offers/gs-offer-management.md">detaillierten Dokumentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -44,8 +44,8 @@ _28. Juli 2026_
 <tbody>
 <tr>
 <td>
-<p>Technische Administratoren können jetzt Marken direkt über die Web-Benutzeroberfläche von Campaign erstellen und konfigurieren, ohne die Client-Konsole zu verwenden. Alle Markeneinstellungen, einschließlich Identität, Subdomain und Protokolle, E-Mail-Header-Parameter und URL-Tracking-Parameter, sind jetzt in der Web-Benutzeroberfläche verfügbar.</p>
-<p>Weitere Informationen finden Sie im <a href="../administration/branding/branding-configure.md">entsprechenden Handbuch</a>.</p>
+<p>Technische Admins können jetzt Marken direkt über die Web-Benutzeroberfläche von Campaign erstellen und konfigurieren, ohne die Client-Konsole zu verwenden. Alle Markeneinstellungen, einschließlich Identität, Subdomain und Protokolle, E-Mail-Header-Parameter und URL-Tracking-Parameter, sind jetzt in der Web-Benutzeroberfläche verfügbar.</p>
+<p>Weitere Informationen finden Sie in der <a href="../administration/branding/branding-configure.md">detaillierten Dokumentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -54,14 +54,14 @@ _28. Juli 2026_
 <table>
 <thead>
 <tr>
-<th><strong>Öffentliche Ressourcen in der E-Mail-Designer</strong><br/></th>
+<th><strong>Öffentliche Ressourcen im E-Mail-Designer</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Beim Hinzufügen von Bildern zu Ihren E-Mails können Sie jetzt "<strong> Ressourcen“ </strong>. Auf diese Weise können Sie ein Bild auswählen, das bereits in Ihrer Adobe Campaign-Instanz verfügbar ist, z. B. eine zuvor in die E-Mail-Designer importierte Datei oder eine öffentliche Ressource, die über die Client-Konsole hochgeladen wurde.</p>
-<p>Weitere Informationen finden Sie im <a href="../email/content-components.md#image">entsprechenden Handbuch</a>.</p>
+<p>Beim Hinzufügen von Bildern zu Ihren E-Mails können Sie jetzt <strong>öffentliche Ressourcen</strong> auswählen. Auf diese Weise können Sie ein Bild auswählen, das bereits in Ihrer Adobe Campaign-Instanz verfügbar ist, z. B. eine zuvor in den E-Mail-Designer importierte Datei oder eine öffentliche Ressource, die über die Client-Konsole hochgeladen wurde.</p>
+<p>Weitere Informationen finden Sie in der <a href="../email/content-components.md#image">detaillierten Dokumentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -76,8 +76,8 @@ _28. Juli 2026_
 <tbody>
 <tr>
 <td>
-<p>Die Aktivität <strong>Laden (RDBMS</strong> ist jetzt in der Web-Benutzeroberfläche von Campaign verfügbar. Verwenden Sie diese Aktivität, um Daten direkt aus einer externen relationalen Datenbank in Ihren Workflow zu laden. Die extrahierten Daten stehen während des gesamten Workflows zur Verfügung und können für die Zielgruppenbestimmung, Anreicherung oder weitere Datenverarbeitung verwendet werden.</p>
-<p>Weitere Informationen finden Sie im <a href="../workflows/activities/data-loading-rdbms.md">entsprechenden Handbuch</a>.</p>
+<p>Die Aktivität <strong>Laden (RDBMS)</strong> ist jetzt in der Web-Benutzeroberfläche von Campaign verfügbar. Verwenden Sie diese Aktivität, um Daten direkt aus einer externen relationalen Datenbank in Ihren Workflow zu laden. Die extrahierten Daten stehen während des gesamten Workflows zur Verfügung und können für die Zielgruppenbestimmung, die Anreicherung oder die weitere Datenverarbeitung verwendet werden.</p>
+<p>Weitere Informationen finden Sie in der <a href="../workflows/activities/data-loading-rdbms.md">detaillierten Dokumentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -92,7 +92,7 @@ _28. Juli 2026_
 <tbody>
 <tr>
 <td>
-<p>Mit Dynamic JavaScript Pages (JSSP) können Sie Server-seitige Seiten erstellen, die dynamische Inhalte generieren, wenn über eine URL zugegriffen wird, z. B. benutzerdefinierte APIs, Exporte oder Web-Anwendungslogik. Sie können diese Seiten jetzt direkt in der Web-Benutzeroberfläche von Campaign erstellen, ändern, duplizieren und löschen.</p>
+<p>Mit dynamischen JavaScript-Seiten (JSSP) können Sie Server-seitige Seiten erstellen, die dynamische Inhalte generieren, wenn über eine URL darauf zugegriffen wird, z. B. benutzerdefinierte APIs, Exporte oder Web-Anwendungslogik. Sie können diese Seiten jetzt direkt über die Web-Benutzeroberfläche von Campaign erstellen, ändern, duplizieren und löschen.</p>
 <p>Weitere Informationen finden Sie im <a href="../administration/dynamic-javascript-pages.md">entsprechenden Handbuch</a>.</p>
 </td>
 </tr>
@@ -101,18 +101,18 @@ _28. Juli 2026_
 
 ### Verbesserungen {#26-7-improvements}
 
-* Die folgenden Verbesserungen wurden an der **benutzerdefinierten Schemakonfiguration“**:
-  * Der neue **Aktionsdaten**-Abschnitt ermöglicht es Ihnen, die für die Datensätze eines benutzerdefinierten Schemas verfügbaren Aktionen zu beschränken, unabhängig von den für einzelne Ordner konfigurierten Sicherheitsregeln. [Weitere Informationen](../administration/schemas-action-data.md)
-  * **Benutzerdefinierte Filter** wurden im Abschnitt **Konfiguration der Inventarliste“**. Damit können Sie auswählen, welche Attribute als Schnellzugriffsfelder im Filterbereich der Listenansicht angezeigt werden sollen. [Weitere Informationen](../administration/schemas-custom-filters.md)
+* Die folgenden Verbesserungen wurden an der **Konfiguration benutzerdefinierter Schemata** vorgenommen:
+  * Der neue Abschnitt **Aktionsdaten** ermöglicht es Ihnen, die für die Einträge eines benutzerdefinierten Schemas verfügbaren Aktionen zu beschränken, unabhängig von den für einzelne Ordner konfigurierten Sicherheitsregeln. [Weitere Informationen](../administration/schemas-action-data.md)
+  * **Benutzerdefinierte Filter** wurden im Abschnitt **Konfiguration der Bestandsliste** hinzugefügt. Damit können Sie auswählen, welche Attribute als Schnellzugriffsfelder im Filterbereich der Listenansicht angezeigt werden. [Weitere Informationen](../administration/schemas-custom-filters.md)
 
-* Die folgenden Verbesserungen wurden an (**)**:
-  * Das Löschen einer Workflow-Aktivität ist jetzt flexibler: Wenn eine Aktivität nachfolgende Aktivitäten aufweist, können Sie diese entweder alle löschen, nur die ausgewählte Aktivität löschen oder sie löschen, während ihre nachfolgenden Aktivitäten in einer neuen Verzweigung verbleiben. [Weitere Informationen](../workflows/orchestrate-activities.md#delete-activity)
-  * Sie können jetzt eine Transition zwischen zwei Workflow-Aktivitäten trennen, ohne eine der Workflow-Aktivitäten zu löschen. Auf diese Weise können Sie ein Workflow-Diagramm neu organisieren, z. B. um eine Gruppe von Aktivitäten, die Sie beibehalten möchten, vorübergehend beiseite zu legen, ohne sie löschen und neu erstellen zu müssen. [Weitere Informationen](../workflows/orchestrate-activities.md#disconnect-transition)
-  * Horizontale und vertikale Bildlaufleisten werden jetzt auf der Workflow-Arbeitsfläche angezeigt, sodass Sie durch Ziehen direkt in den Bereich, den Sie anzeigen möchten, in großen Workflows navigieren können. [Weitere Informationen](../workflows/orchestrate-activities.md)
-  * Beim Speichern oder Starten/Neustarten eines Workflows wird jetzt eine Warnung angezeigt, wenn ein anderer Benutzer den Workflow in der Web-Benutzeroberfläche oder der Client-Konsole geändert hat, seit Sie ihn geöffnet haben. Sie können die anderen Änderungen mit Ihren überschreiben, den Workflow neu laden, um die neueste Version zu erhalten, oder abbrechen.
+* Die folgenden Verbesserungen wurden an **Workflows** vorgenommen:
+  * Das Löschen einer Workflow-Aktivität ist jetzt flexibler: Wenn die Aktivität nachfolgende Aktivitäten hat, können Sie entweder alle löschen, nur die ausgewählte Aktivität löschen oder sie löschen und dabei die nachfolgenden Aktivitäten in einer neuen Verzweigung beibehalten. [Weitere Informationen](../workflows/orchestrate-activities.md#delete-activity)
+  * Sie können jetzt eine Transition zwischen zwei Workflow-Aktivitäten trennen, ohne eine der Aktivitäten zu löschen. Auf diese Weise können Sie ein Workflow-Diagramm neu organisieren, z. B. um eine Gruppe von Aktivitäten, die Sie beibehalten möchten, vorübergehend beiseite zu legen, ohne sie löschen und neu erstellen zu müssen. [Weitere Informationen](../workflows/orchestrate-activities.md#disconnect-transition)
+  * Horizontale und vertikale Bildlaufleisten werden jetzt um die Workflow-Arbeitsfläche herum angezeigt, sodass Sie in großen Workflows durch Ziehen direkt zu dem Bereich navigieren können, den Sie anzeigen möchten. [Weitere Informationen](../workflows/orchestrate-activities.md)
+  * Beim Speichern oder Starten/Neustarten eines Workflows wird jetzt eine Warnung angezeigt, wenn eine andere Benutzerin bzw. ein anderer Benutzer den Workflow in der Web-Benutzeroberfläche oder der Client-Konsole geändert hat, seit Sie ihn geöffnet haben. Sie können die anderen Änderungen mit Ihren eigenen überschreiben, den Workflow neu laden, um die neueste Version zu erhalten, oder den Vorgang abbrechen.
 
-* **Absender-E** Mail-Adresse: Sie können jetzt das Feld **Von E-Mail** Ihrer Sendungen mithilfe der Option **NmsDelivery_senderAddressMask** auf eine vordefinierte Liste von Adressen beschränken. [Weitere Informationen](../administration/options.md#restrict-sender-address)
-* **Login-Fehlermeldungen** wurden verbessert: Wenn ein Anmeldeversuch fehlschlägt, zeigt die Web-Benutzeroberfläche jetzt eine spezifischere Fehlermeldung für mehrere Szenarien an (z. B. wenn dem Benutzer keine Sicherheitszone zugewiesen ist oder seine IP-Adresse eingeschränkt ist).
+* **Absender-E-Mail-Adresse**: Sie können jetzt das Feld **Absender-E-Mail** Ihrer Sendungen mithilfe der Option **NmsDelivery_senderAddressMask** auf eine vordefinierte Liste von Adressen beschränken. [Weitere Informationen](../administration/options.md#restrict-sender-address)
+* **Login-Fehlermeldungen** wurden verbessert: Wenn ein Anmeldeversuch fehlschlägt, zeigt die Web-Benutzeroberfläche jetzt eine spezifischere Fehlermeldung für mehrere Szenarien an (z. B. wenn der Benutzerin bzw. dem Benutzer keine Sicherheitszone zugewiesen ist oder ihre bzw. seine IP-Adresse eingeschränkt ist).
 
 ## Version Juni 2026 {#26-6-release}
 
@@ -126,7 +126,7 @@ _16. Juni 2026_
 
 * Sie können jetzt Daten aus jedem Listenbildschirm einschließlich der Trackinglogs exportieren. Suchen Sie Ihre Liste und klicken Sie einfach auf die Schaltfläche „Exportieren“. Der Export umfasst die derzeit geladenen Zeilen und berücksichtigt die auf dem Bildschirm angezeigten Spalten sowie aktive Suchen oder Filter. [Weitere Informationen](../get-started/list-filters.md)
 
-* Die Workflow-Aktivitäten **Deduplizierung** und **Ende** unterstützen jetzt mehrere eingehende Transitionen. Wenn mehr als eine eingehende Transition verfügbar ist, verwenden Sie den Abschnitt **Zusammenzufügende Sätze** in der Aktivität
+* Die Workflow-Aktivitäten **Deduplizierung** und **Ende** unterstützen jetzt mehrere eingehende Transitionen. Wenn mehr als eine eingehende Transition verfügbar ist, verwenden Sie den Abschnitt **Zusammenzuführende Mengen** in der Aktivität
 um die zu verbindenden Transitionen auszuwählen. Weitere Informationen finden Sie auf den folgenden Seiten: [Deduplizierung](../workflows/activities/deduplication.md), [Ende](../workflows/activities/end.md)
 
 * Erweiterte Parameter werden jetzt im Abschnitt **Anreicherungsdaten** der Workflow-Aktivitäten **Zielgruppe erstellen** (Abfragetyp) und **Anreicherung** angezeigt. Mit diesen Parametern können Sie die Struktur von Anreicherungsdaten optimieren, einschließlich Gruppierung, Deduplizierung, Verarbeitung von Primärschlüsseln und Daten eingehender Ereignisse. [Weitere Informationen](../workflows/activities/enrichment.md)
@@ -147,7 +147,7 @@ Der Abschnitt **Anreicherungsdaten** ist jetzt in der Workflow-Aktivität **Ziel
 
 ## Version März 2026 {#26-3-release}
 
-&#x200B;24. _März_ 2026_
+24. _März_ 2026_
 
 ### Neue Funktionen {#26-3-features}
 

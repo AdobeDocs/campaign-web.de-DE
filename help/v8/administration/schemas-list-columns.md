@@ -3,9 +3,9 @@ title: Konfigurieren von standardmäßigen Listenspalten
 description: Erfahren Sie, wie Sie konfigurieren können, welche Spalten in Listenansichten standardmäßig angezeigt werden.
 exl-id: 55513ecd-fc3f-4371-93b0-f2c9d01d4db4
 source-git-commit: 7b43dd8a4a498fdbd0c205d28645901cf44df3a6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '247'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 77%
 >[!CONTEXTUALHELP]
 >id="acw_schema_inventory_list_configuration"
 >title="Konfiguration der Inventarliste"
->abstract="Konfigurieren Sie, welche Spalten in Listenansichten standardmäßig angezeigt werden. Jede Spalte zeigt das Label und das entsprechende Attribut an. Fügen Sie benutzerdefinierte Filter hinzu, um Schnellzugriff-Filterfelder im Filterbereich der Listenansicht anzuzeigen."
+>abstract="Konfigurieren Sie, welche Spalten in Listenansichten standardmäßig angezeigt werden. Jede Spalte zeigt das Label und das entsprechende Attribut an. Fügen Sie benutzerdefinierte Filter hinzu, um Schnellzugriffs-Filterfelder im Filterbereich der Listenansicht anzuzeigen."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/conf/schemas/schemas-custom-filters.html?lang=de" text="Hinzufügen benutzerdefinierter Filter"
 
 Im Abschnitt **[!UICONTROL Konfiguration der Bestandsliste]** können Sie konfigurieren, welche Spalten standardmäßig in Listenansichten angezeigt werden. Jede Spalte zeigt das Label und das entsprechende Attribut an.
@@ -41,4 +41,4 @@ So fügen Sie der Standardliste neue Spalten hinzu:
 
 >[!NOTE]
 >
->Sie können im Bereich Filter der Listenansicht auch Felder für Schnellfilter hinzufügen. Weitere Informationen finden Sie unter [Hinzufügen benutzerdefinierter Filter](schemas-custom-filters.md).
+>Sie können im Bereich „Filter“ der Listenansicht auch Schnellzugriffs-Filterfelder hinzufügen. Weitere Informationen finden Sie unter [Hinzufügen benutzerdefinierter Filter](schemas-custom-filters.md).

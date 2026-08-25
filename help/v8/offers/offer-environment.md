@@ -1,53 +1,53 @@
 ---
 audience: end-user
 title: Überprüfen der Einstellungen für die Angebotsumgebung
-description: Erfahren Sie, wie Sie eine Angebotsumgebung in Campaign Web anzeigen, konfigurieren und bereitstellen
+description: Erfahren Sie, wie Sie eine Angebotsumgebung in Campaign Web anzeigen, konfigurieren und bereitstellen können.
 feature: Offers
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 7be45366e3ae14e6fa7e4569a37c64e6d72f534c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 319
-ht-degree: 9%
+ht-degree: 100%
 
 ---
 
 # Überprüfen der Einstellungen für die Angebotsumgebung {#offer-environment}
 
-Eine **Angebotsumgebung** ist der Container, in dem Sie Ihren Angebotskatalog und die zugehörigen Platzierungen organisieren. Hier bestehen zwei Arten von Einschränkungen:
+Eine **Angebotsumgebung** ist der Container, in dem Sie Ihren Angebotskatalog und die zugehörigen Platzierungen organisieren. Es gibt zwei Arten von Umgebungen:
 
-* eine **Design**-Umgebung, in der Angebote erstellt, konfiguriert und genehmigt werden,
-* eine schreibgeschützte **Live**-Umgebung, in der die genehmigten und bereitgestellten Angebote für die Versandauswahl verfügbar sind.
+* eine **Design**-Umgebung, in der Angebote erstellt, konfiguriert und validiert werden,
+* eine schreibgeschützte **Live**-Umgebung, in der die validierten und bereitgestellten Angebote für die Versandauswahl verfügbar sind.
 
-Jede **Design**-Umgebung ist mit einer **Live**-Umgebung verknüpft. Wenn ein Angebot vollständig und genehmigt ist, wird es automatisch in der **Live**-Umgebung bereitgestellt und steht zur Bereitstellung zur Verfügung.
+Jede **Design**-Umgebung ist mit einer **Live**-Umgebung verknüpft. Wenn ein Angebot vollständig und validiert ist, wird es automatisch in der **Live**-Umgebung bereitgestellt und steht zum Versand zur Verfügung.
 
 ![Screenshot mit den Umgebungen.](assets/offers-env.png){zoomable="yes"}
 
-Campaign verfügt standardmäßig über zwei **Design** und **Live**-Umgebungen, die für die integrierte Empfängertabelle (identifizierte Angebote) vorkonfiguriert sind.
+Standardmäßig verfügt Campaign über zwei vorkonfigurierte **Design**- und **Live**-Umgebungen, die für die integrierte Empfängertabelle (identifizierte Angebote) vorgesehen sind.
 
-Um eine andere Tabelle auszuwählen, z. B. anonyme Profile, die Ihre Website für eingehende Interaktionen besuchen, müssen Sie zusätzliche Umgebungen erstellen (eine pro Zielgruppendimension). Weitere Informationen finden Sie in der [Dokumentation zu Campaign v8](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/offers/interaction-settings/interaction-env#create-an-offer-environment){target="_blank"}.
+Um eine andere Tabelle auszuwählen, z. B. anonyme Profile, die Ihre Website für eingehende Interaktionen besuchen, müssen Sie zusätzliche Umgebungen erstellen (eine pro Zielgruppendimension). Weitere Informationen finden Sie in der [Dokumentation zu Campaign v8](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/offers/interaction-settings/interaction-env#create-an-offer-environment){target="_blank"}.
 
 ## Zugreifen auf Angebotsumgebungen {#offer-environment-settings}
 
-Angebotsumgebungen werden als Ordner gespeichert. Gehen Sie wie folgt vor, um auf die Umgebungseinstellungen (Eignung, Gewichtsverwaltung, Sicherheit) zuzugreifen und sie zu überprüfen:
+Angebotsumgebungen werden als Ordner gespeichert. Um auf die Umgebungseinstellungen (Berechtigung, Gewichtungsverwaltung, Sicherheit) zuzugreifen und diese zu überprüfen, gehen Sie wie folgt vor:
 
 >[!CAUTION]
 >
->Diese Einstellungen können geändert werden, Sie sollten jedoch sehr vorsichtig sein, da Änderungen Ihre bestehende Implementierung beschädigen können.
+>Diese Einstellungen können geändert werden, aber Sie sollten sehr vorsichtig sein, da Änderungen Ihre bestehende Implementierung beeinträchtigen könnten.
 
-1. Öffnen Sie über das linke Navigationsmenü den **[!UICONTROL Explorer]** und suchen Sie den Ordner Angebotsumgebung unter dem Knoten **Design**.
+1. Öffnen Sie über das linke Navigationsmenü den **[!UICONTROL Explorer]** und suchen Sie den Ordner der Angebotsumgebung unter dem Knoten **Design-Umgebung**.
 
-1. Klicken Sie auf die Schaltfläche … und wählen Sie **[!UICONTROL Ordnereinstellungen]**, um die Umgebungseinstellungen anzuzeigen.
+1. Klicken Sie auf die Schaltfläche mit den Auslassungspunkten (…) und wählen Sie **[!UICONTROL Ordnereinstellungen]** aus, um die Umgebungseinstellungen anzuzeigen.
 
-   ![Screenshot mit der Option Ordnereinstellungen einer Umgebung](assets/offers-env-1.png){zoomable="yes"}
+   ![Screenshot der Option „Ordnereinstellungen“ einer Umgebung](assets/offers-env-1.png){zoomable="yes"}
 
-1. Überprüfen Sie die verschiedenen Abschnitte. Die Ordnereinstellungen einer Angebotsumgebung gruppieren angebotsspezifische Optionen.
+1. Überprüfen Sie die einzelnen Abschnitte. Über die Ordnereinstellungen einer Angebotsumgebung werden angebotsspezifische Optionen gruppiert.
 
-   ![Screenshot mit den Eigenschafteneinstellungen einer Umgebung](assets/offers-env-2.png){zoomable="yes"}
+   ![Screenshot der Einstellungen der Eigenschaften einer Umgebung](assets/offers-env-2.png){zoomable="yes"}
 
-   Die meisten Einstellungen entsprechen der Konfiguration der Angebotsumgebung, die in der Client-Konsole verfügbar ist. Weitere Informationen dazu finden Sie in der entsprechenden [Dokumentation zu Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-env.html){target="_blank"}.
+   Die meisten Einstellungen entsprechen der Konfiguration der Angebotsumgebung, die in der Client-Konsole verfügbar ist. Weitere Informationen dazu finden Sie in der entsprechenden [Dokumentation zu Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-env.html?lang=de){target="_blank"}.
 
 <!--
 ## Create a new offer environment {#create}
@@ -167,4 +167,4 @@ These two sections are generic Campaign folder controls. They are not specific t
 
 * **[!UICONTROL Restrictions]** — Lets you turn the folder into a view by enabling **[!UICONTROL This folder is a view]** and clicking **[!UICONTROL Edit restrictions]** to define a filter on the records displayed in the folder.
 -->
-Als Nächstes erstellen [&#x200B; eine Platzierung](offer-space.md) um festzulegen, wo und wie die Angebote bereitgestellt werden.
+[Erstellen Sie als Nächstes eine Platzierung](offer-space.md), um zu definieren, wo und wie die Angebote angezeigt werden.
