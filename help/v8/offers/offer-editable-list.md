@@ -3,8 +3,10 @@ audience: end-user
 title: Hinzufügen einer bearbeitbaren Liste zum Angebotsschema
 description: Erfahren Sie, wie Sie einen benutzerdefinierten Sammlungs-Link als bearbeitbare Liste direkt im Detailbildschirm des Angebots anzeigen können.
 feature: Offers
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 043cc60da1938800404964aa7e698f959ef908fd
 workflow-type: ht
 source-wordcount: 449

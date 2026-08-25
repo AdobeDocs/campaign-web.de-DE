@@ -3,8 +3,10 @@ audience: end-user
 title: Erstellen und Veröffentlichen eines Angebots
 description: Erfahren Sie, wie Sie ein Angebot in Campaign Web erstellen, konfigurieren, validieren und bereitstellen können.
 feature: Offers
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 7bd09b83112efb99c90884b7da21a5e9a5c76b6c
 workflow-type: ht
 source-wordcount: 1057
