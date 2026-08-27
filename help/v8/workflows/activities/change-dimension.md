@@ -4,10 +4,9 @@ title: Verwenden der Workflow-Aktivität „Dimensionsänderung“
 description: Erfahren Sie, wie Sie die Workflow-Aktivität „Dimensionsänderung“ verwenden
 exl-id: 08870946-91c6-4ab0-84de-4d9b968884b3
 TQID: https://experienceleague.adobe.com/MTG93NcnNoBW6COrBfMkYSk1lSUx3k3Tg7QBvttWrio
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: 346
 ht-degree: 100%
 
@@ -18,7 +17,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_dimension_complement"
 >title="Erzeugen eines Komplements"
->abstract="Sie können eine zusätzliche ausgehende Transition mit der verbleibenden Population generieren, die als Duplikat ausgeschlossen wurde. Schalten Sie dazu die Option **Komplement erzeugen** ein."
+>abstract="Sie können eine zusätzliche ausgehende Transition mit der verbleibenden Population generieren, die als Duplikat ausgeschlossen wurde. Dazu die Option **Komplement generieren** einschalten."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_change_dimension"

@@ -14,7 +14,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_end"
 >title="Endaktivität"
->abstract="Mit der Aktivität **Ende** können Sie das Ende eines Workflows grafisch markieren. Wenn mehr als eine eingehende Transition verfügbar ist, verwenden Sie den Abschnitt **Zusammenzuführende Mengen**, um auszuwählen, welche Transitionen mit der Aktivität verbunden werden sollen."
+>abstract="Mit der Aktivität **Ende** können Sie das Ende eines Workflows grafisch markieren. Wenn mehr als eine eingehende Transition verfügbar ist, den Abschnitt **Zusammenzuführende Mengen** verwenden, um auszuwählen, welche Transitionen mit der Aktivität verbunden werden sollen."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_end_sets"
