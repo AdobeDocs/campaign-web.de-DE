@@ -18,12 +18,12 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_fields"
 >title="Felder zum Identifizieren von Duplikaten"
->abstract="Klicken Sie im Abschnitt **Felder zum Identifizieren von Duplikaten** auf die Schaltfläche **Attribut hinzufügen**, um die Felder anzugeben, für die die Identifizierung von Duplikaten aufgrund identischer Werte möglich ist, wie z. B. E-Mail-Adresse, Vorname und Nachname. Die Reihenfolge der Felder gibt an, welche Felder zuerst verarbeitet werden sollen."
+>abstract="Im Abschnitt **Felder zum Identifizieren von Duplikaten** auf die Schaltfläche **Attribut hinzufügen** klicken, um die Felder anzugeben, für die die Identifizierung von Duplikaten aufgrund identischer Werte möglich ist, wie z. B. E-Mail-Adresse, Vorname und Nachname. Die Reihenfolge der Felder gibt an, welche Felder zuerst verarbeitet werden sollen."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication"
 >title="Aktivität &quot;Deduplizierung&quot;"
->abstract="Die Aktivität **Deduplizierung** löscht Duplikate in den Ergebnissen eingehender Aktivitäten. Sie wird hauptsächlich nach Zielgruppenbestimmungsaktivitäten und vor Aktivitäten verwendet, die Zielgruppendaten verwenden. Wenn mehr als eine eingehende Transition verfügbar ist, verwenden Sie den Abschnitt **Zusammenzuführende Mengen**, um auszuwählen, welche Transitionen mit der Aktivität verbunden werden sollen."
+>abstract="Die Aktivität **Deduplizierung** löscht Duplikate in den Ergebnissen eingehender Aktivitäten. Sie wird hauptsächlich nach Zielgruppenbestimmungsaktivitäten und vor Aktivitäten verwendet, die Zielgruppendaten verwenden. Wenn mehr als eine eingehende Transition verfügbar ist, den Abschnitt **Zusammenzuführende Mengen** verwenden, um auszuwählen, welche Transitionen mit der Aktivität verbunden werden sollen."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_sets"
@@ -33,12 +33,12 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_complement"
 >title="Erzeugen eines Komplements"
->abstract="Sie können eine zusätzliche ausgehende Transition mit der verbleibenden Population generieren, die als Duplikat ausgeschlossen wurde. Schalten Sie dazu die Option **Komplement erzeugen** ein."
+>abstract="Es kann eine zusätzliche ausgehende Transition mit der verbleibenden Population generiert werden, die als Duplikat ausgeschlossen wurde. Dazu die Option **Komplement generieren** einschalten."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_settings"
 >title="Deduplizierungseinstellungen"
->abstract="Um Duplikate in den eingehenden Daten zu löschen, definieren Sie die Deduplizierungsmethode in den folgenden Feldern. Standardmäßig wird nur ein Eintrag beibehalten. Wählen Sie die Deduplizierungsmethode anhand eines Ausdrucks oder Attributs aus. Standardmäßig wird der Eintrag, der von den Duplikaten ausgenommen sein soll, zufällig ausgewählt."
+>abstract="Um Duplikate in den eingehenden Daten zu löschen, die Deduplizierungsmethode in den folgenden Feldern definieren. Standardmäßig wird nur ein Eintrag beibehalten. Die Deduplizierungsmethode anhand eines Ausdrucks oder Attributs auswählen. Standardmäßig wird der Eintrag, der von den Duplikaten ausgenommen sein soll, zufällig ausgewählt."
 
 Die **Deduplizierungsaktivität** ist eine **Zielgruppenbestimmungsaktivität**. Diese Aktivität löscht Duplikate in den Ergebnissen eingehender Aktivitäten, z. B. doppelte Profile in der Empfängerliste. Die Aktivität **Deduplizierung** wird im Allgemeinen im Anschluss an Zielgruppenbestimmungsaktivitäten und vor Aktivitäten verwendet, die Zielgruppendatum verwenden.
 
@@ -58,7 +58,7 @@ Gehen Sie folgendermaßen vor, um die **Deduplizierungsaktivität** zu konfiguri
    >
    >Dieser Abschnitt wird nur angezeigt, wenn mehr als eine eingehende Transition verfügbar ist.
 
-1. Klicken Sie im Abschnitt **Felder zum Identifizieren von Duplikaten** auf die Schaltfläche **Attribut hinzufügen**, um die Felder anzugeben, für die die Identifizierung von Duplikaten aufgrund identischer Werte möglich ist, wie z. B. E-Mail-Adresse, Vorname und Nachname. Die Reihenfolge der Felder gibt an, welche Felder zuerst verarbeitet werden sollen. [Erfahren Sie, wie Sie Attribute auswählen und zu den Favoriten hinzufügen](../../get-started/attributes.md).
+1. Im Abschnitt **Felder zum Identifizieren von Duplikaten** auf die Schaltfläche **Attribut hinzufügen** klicken, um die Felder anzugeben, für die die Identifizierung von Duplikaten aufgrund identischer Werte möglich ist, wie z. B. E-Mail-Adresse, Vorname und Nachname. Die Reihenfolge der Felder gibt an, welche Felder zuerst verarbeitet werden sollen. [Erfahren Sie, wie Sie Attribute auswählen und zu den Favoriten hinzufügen](../../get-started/attributes.md).
 
 1. Wählen Sie im Abschnitt **Deduplizierungseinstellungen** die Anzahl der eindeutigen **beizubehaltenden Duplikate** aus. Der Standardwert dieses Felds ist 1. Beim Wert 0 werden alle Duplikate beibehalten.
 

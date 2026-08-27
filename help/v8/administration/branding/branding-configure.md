@@ -7,7 +7,7 @@ role: Admin
 level: Experienced
 exl-id: 7afc802d-e90c-48c8-aa04-3ea543dfdfbc
 source-git-commit: 5c9d3db95905f77dddffaf824156c87b9d79013c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '809'
 ht-degree: 100%
 
@@ -98,7 +98,7 @@ Dieser Abschnitt enthält die folgenden Felder:
 >After having updated the header parameters of the emails, if the name and email address of the sender have not changed in the email created from the template, check the template's advanced settings.
 -->
 
-### URL-Tracking-Parameter {#tracking-param}
+### URL-Trackingparameter {#tracking-param}
 
 Im Abschnitt **[!UICONTROL URL-Tracking-Parameter]** können Sie das URL-Tracking verbessern, indem Sie zusätzliche Parameter für die Integration mit Web-Analyse-Tools wie Adobe Analytics und Google Analytics definieren.
 

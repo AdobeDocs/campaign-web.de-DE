@@ -7,7 +7,7 @@ TQID: https://experienceleague.adobe.com/EjGgtbMOx1hN-tlD56Fj6SsmGt3jI-rC7ehiKtr
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: 1076
 ht-degree: 100%
 
@@ -48,7 +48,7 @@ Die Aktivität **Aufspaltung** ist eine Aktivität zur **Zielgruppenbestimmung**
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_complement"
 >title="Aufspaltung – Komplement erzeugen"
->abstract="Nachdem Sie alle Teilmengen konfiguriert haben, können Sie die verbleibende Population auswählen, die keiner der Teilmengen entsprochen hat, und in eine zusätzliche ausgehende Transition einschließen. Schalten Sie dazu die Option **Komplement erzeugen** ein."
+>abstract="Nachdem Sie alle Teilmengen konfiguriert haben, können Sie die verbleibende Population auswählen, die keiner der Teilmengen entsprochen hat, und in eine zusätzliche ausgehende Transition einschließen. Dazu die Option **Komplement generieren** einschalten."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_generatesubsets"
@@ -97,7 +97,7 @@ Folgen Sie diesen Schritten, um die Aktivität **Aufspaltung** zu konfigurieren:
       >
       >Beim Festlegen einer Populationsbegrenzung für eine Teilmenge können die ausgewählten Profile anhand eines bestimmten [Profilattributs](../../get-started/attributes.md) in auf- oder absteigender Reihenfolge sortiert werden. Dazu die Option **[!UICONTROL Sortierung aktivieren]** einschalten. Teilmengen können z. B. so eingeschränkt werden, dass nur die 50 Top-Profile mit dem höchsten Einkaufsbetrag einbezogen werden.
 
-1. Nachdem Sie alle Teilmengen konfiguriert haben, können Sie die verbleibende Population auswählen, die keiner der Teilmengen entsprochen hat, und in eine zusätzliche ausgehende Transition einschließen. Schalten Sie dazu die Option **[!UICONTROL Komplement erzeugen]** ein.
+1. Nachdem Sie alle Teilmengen konfiguriert haben, können Sie die verbleibende Population auswählen, die keiner der Teilmengen entsprochen hat, und in eine zusätzliche ausgehende Transition einschließen. Dazu die Option **[!UICONTROL Komplement generieren]** einschalten.
 
    ![Konfigurationsbereich für Komplement-Transition](../assets/workflow-split-complement.png)
 

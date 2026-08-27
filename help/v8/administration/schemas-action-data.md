@@ -2,7 +2,7 @@
 title: Steuern von Aktionen für Daten
 description: Erfahren Sie, wie Sie die Aktionen zum Erstellen, Bearbeiten und Löschen von benutzerdefinierten Schemaeinträgen einschränken können.
 source-git-commit: 75aeccc9878bb0aab7bdaf62113303dbd14f985b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '386'
 ht-degree: 100%
 
@@ -43,7 +43,7 @@ Um die Aktionsdaten zu konfigurieren, gehen Sie wie folgt vor:
      >
      >Bei Aktivierung der Option **[!UICONTROL Schreibgeschützt]** wird das Löschen auch automatisch abgedeckt, sodass die Option **[!UICONTROL Löschen nicht zulassen]** deaktiviert ist, während **[!UICONTROL Schreibgeschützt]** aktiviert ist.
 
-1. Klicken Sie auf **[!UICONTROL Speichern]**.
+1. Wählen Sie **[!UICONTROL Speichern]** aus.
 
 1. Navigieren Sie zur Liste der Einträge für dieses Schema, um das Ergebnis zu überprüfen.
 

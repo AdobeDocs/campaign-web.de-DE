@@ -8,7 +8,7 @@ product_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: 56a7ef49e4ccebcc0fe35abcefcf73d1ff9c1017
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: 772
 ht-degree: 100%
 
@@ -19,9 +19,9 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_data_loading_rdbms"
 >title="Aktivität „Laden (RDBMS)“"
->abstract="Die Aktivität **Laden (RDBMS)** ist eine Aktivität des **Data Management**. Verwenden Sie diese Aktivität, um Daten direkt aus einer externen relationalen Datenbank in Ihren Workflow zu laden. Die extrahierten Daten stehen während des gesamten Workflows zur Verfügung und können für die Zielgruppenbestimmung, die Anreicherung oder die weitere Datenverarbeitung verwendet werden."
+>abstract="Die Aktivität **Laden (RDBMS)** ist eine Aktivität des **Data Management**. Diese Aktivität verwenden, um Daten direkt aus einer externen relationalen Datenbank in Ihren Workflow zu laden. Die extrahierten Daten stehen während des gesamten Workflows zur Verfügung und können für die Zielgruppenbestimmung, die Anreicherung oder die weitere Datenverarbeitung verwendet werden."
 
-Die Aktivität **Laden (RDBMS)** ist eine Aktivität des **Data Management**. Verwenden Sie diese Aktivität, um Daten direkt aus einer externen relationalen Datenbank in Ihren Workflow zu laden. Die extrahierten Daten stehen während des gesamten Workflows zur Verfügung und können für die Zielgruppenbestimmung, die Anreicherung oder die weitere Datenverarbeitung verwendet werden.
+Die Aktivität **Laden (RDBMS)** ist eine Aktivität des **Data Management**. Diese Aktivität verwenden, um Daten direkt aus einer externen relationalen Datenbank in Ihren Workflow zu laden. Die extrahierten Daten stehen während des gesamten Workflows zur Verfügung und können für die Zielgruppenbestimmung, die Anreicherung oder die weitere Datenverarbeitung verwendet werden.
 
 <!--
 This activity relies on the [Federated Data Access (FDA)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html?lang=de){target="_blank"} option, which lets Adobe Campaign process information stored in one or more external databases without changing the structure of the Adobe Campaign data.
