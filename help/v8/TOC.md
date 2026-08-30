@@ -6,10 +6,10 @@ title: Dokumentation zu Adobe Campaign Web
 description: Dokumentation zu Campaign Web
 breadcrumb-title: Campaign Web-Benutzeroberfläche
 nudge: true
-source-git-commit: dae21b648eb4278746052eea3a6f33b1f8cc25da
-workflow-type: ht
-source-wordcount: '1072'
-ht-degree: 100%
+source-git-commit: 645352d9e2ba12d5430ddf1b62852077344c3016
+workflow-type: tm+mt
+source-wordcount: '1080'
+ht-degree: 99%
 
 ---
 
@@ -141,6 +141,7 @@ ht-degree: 100%
     + [Textgenerierung mit KI](content/generative-text.md)
     + [Bildgenerierung mit KI](content/generative-image.md)
     + [Anwendungsfälle für die Funktion „Inhalt erzeugen“](content/generative-uc.md)
+    + [C2PA-Metadaten in E-Mail und Landingpage-Designer](content/c2pa-metadata-email-designer.md)
     + Marken {#ai-assistant}
       + [Erstellen und Verwalten von Marken](content/brands.md)
       + [Personalisieren Ihrer Marke](content/brands-personalize.md)
