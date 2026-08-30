@@ -57,4 +57,4 @@ Es gibt noch keine Möglichkeit, eine Content Credential direkt im E-Mail- oder 
 ## Zusätzliche Ressourcen
 
 * [Arbeiten mit der Funktion „Inhalt erzeugen“](generative-gs.md)
-* [Transparenz des generativen KI-Inhalts](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency)
+* [Transparenz des generativen KI-Inhalts](https://experienceleague.adobe.com/de/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency)
