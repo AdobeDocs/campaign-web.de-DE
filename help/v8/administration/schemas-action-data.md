@@ -43,7 +43,7 @@ Um die Aktionsdaten zu konfigurieren, gehen Sie wie folgt vor:
      >
      >Bei Aktivierung der Option **[!UICONTROL Schreibgeschützt]** wird das Löschen auch automatisch abgedeckt, sodass die Option **[!UICONTROL Löschen nicht zulassen]** deaktiviert ist, während **[!UICONTROL Schreibgeschützt]** aktiviert ist.
 
-1. Wählen Sie **[!UICONTROL Speichern]** aus.
+1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
 1. Navigieren Sie zur Liste der Einträge für dieses Schema, um das Ergebnis zu überprüfen.
 
