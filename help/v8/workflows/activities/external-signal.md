@@ -86,4 +86,4 @@ Führen Sie die folgenden Schritte aus, um die Aktivität **Externes Signal** zu
 
    +++
 
-   * Um die Aktivität **[!UICONTROL Externes Signal]** über einen API-Aufruf auszuführen, befolgen Sie die in der Dokumentation zu Campaign-APIs beschriebenen Schritte. [Erfahren Sie, wie Sie die statische `PostEvent`-Methode verwenden](https://experienceleague.adobe.com/en/tools/campaign-api).
+   * Um die Aktivität **[!UICONTROL Externes Signal]** über einen API-Aufruf auszuführen, befolgen Sie die in der Dokumentation zu Campaign-APIs beschriebenen Schritte. [Erfahren Sie, wie Sie die statische `PostEvent`-Methode verwenden](https://experienceleague.adobe.com/de/tools/campaign-api).
