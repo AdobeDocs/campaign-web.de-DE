@@ -8,10 +8,10 @@ product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
-source-wordcount: 275
-ht-degree: 100%
+source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
+workflow-type: tm+mt
+source-wordcount: 278
+ht-degree: 96%
 
 ---
 
@@ -41,7 +41,7 @@ Gehen Sie wie folgt vor, um den Inhalt eines SMS-Versands zu erstellen:
 
    ![Screenshot mit dem Feld „Nachricht“ mit Optionen zum Hinzufügen dynamischer Inhalte](assets/sms_content_2.png){zoomable="yes"}
 
-1. Standardmäßig ist für Sendungen das Tracking aktiviert. Deaktivieren Sie diese Option ggf. im Abschnitt **[!UICONTROL Optionale Funktionen]**.
+1. Standardmäßig ist für Sendungen das Tracking aktiviert. Deaktivieren Sie diese Option bei Bedarf auf der Registerkarte **[!UICONTROL Einstellungen]** > **[!UICONTROL Tracking]** des Versands. [Weitere Informationen](../advanced-settings/delivery-settings.md#tracking-tab)
 
 1. Klicken Sie auf **[!UICONTROL Einstellungen]**, um auf die erweiterten Optionen für Ihre Versandvorlage zuzugreifen. [Weitere Informationen](../advanced-settings/delivery-settings.md)
 

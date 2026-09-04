@@ -11,10 +11,10 @@ feature_v2:
   - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
-source-wordcount: 522
-ht-degree: 100%
+source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
+workflow-type: tm+mt
+source-wordcount: 640
+ht-degree: 63%
 
 ---
 
@@ -58,35 +58,35 @@ Konfigurieren Sie die benutzerdefinierten Optionen:
 
 ![Screenshot zur Konfiguration von benutzerdefinierten Feldern für einen Plan](assets/plan_customfields.png){zoomable="yes"}
 
-## Erstellen und Konfigurieren eines Programms
+## Erstellen und Konfigurieren eines Programms {#create-program}
 
-Um ein Programm in Ihrem Plan zu erstellen ([weitere Informationen zum Erstellen eines Plans](#create-plan)), navigieren Sie zu Ihrem Plan und erstellen Sie einen Ordner mit dem Ordnertyp **[!UICONTROL Programm]**. [Erfahren Sie mehr zum Erstellen eines Ordners](../get-started/work-with-folders.md).
+Programme sind im linken Navigationsmenü verfügbar, ähnlich wie die Listenansichten für Kampagnen, Sendungen und Workflows. Mit **[!UICONTROL Eintrag]** Programme“ können Sie ein Programm innerhalb eines vorhandenen Programms und nicht unter einem Plan erstellen.
 
-![Screenshot zur Erstellung eines Programmordners](assets/program_create.png){zoomable="yes"}
+Um Ihr erstes Programm auf oberster Ebene in einem Plan zu erstellen, navigieren Sie im Explorer zu Ihrem Plan (siehe [Abschnitt](#create-plan)) und erstellen Sie einen Ordner mit dem Ordnertyp **[!UICONTROL Programm]**. [Erfahren Sie mehr zum Erstellen eines Ordners](../get-started/work-with-folders.md).
 
-Navigieren Sie zu den **[!UICONTROL Ordnereinstellungen]** Ihres Programms, um es zu verwalten.
+Gehen Sie wie folgt vor, um ein Programm innerhalb eines vorhandenen Programms zu erstellen:
 
-![Screenshot mit den Ordnereinstellungen für ein Programm](assets/program_settings.png){zoomable="yes"}
+1. Navigieren Sie im linken Navigationsmenü zum **[!UICONTROL Programme]**-Eintrag. In dieser Ansicht werden alle Ihre Programme aufgelistet und Sie können sie suchen und filtern. Wenn Sie auf ein Programm klicken, wird es in der Explorer-Ansicht geöffnet.
 
-Sie können **[!UICONTROL benutzerdefinierte Optionen]** definieren und das Planungsdatum für Ihr Programm festlegen.
+   ![Screenshot mit der Programmlistenansicht](assets/program_view.png){zoomable="yes"}
 
-![Screenshot mit den benutzerdefinierten Optionen für ein Programm](assets/program_options.png){zoomable="yes"}
+1. Klicken Sie **[!UICONTROL Programm erstellen]** und konfigurieren Sie die folgenden Optionen:
 
-So verwalten Sie die **[!UICONTROL benutzerdefinierten Optionen]**:
+   ![Screenshot mit dem Bildschirm „Programm erstellen“](assets/program_create.png){zoomable="yes"}
 
-1. Navigieren Sie zu den **[!UICONTROL Schemata]**.
-1. Wählen Sie mit den Filtern die **[!UICONTROL bearbeitbaren]** Schemata aus.
-1. Klicken Sie auf das Schema.
+   * Geben Sie einen **[!UICONTROL Titel]** ein.
+   * Wählen Sie das vorhandene Programm aus, das als **[!UICONTROL übergeordneten Ordner“ verwendet]** soll.
+   * Optional können Sie einen **[!UICONTROL Datumsbereich]** im Abschnitt **[!UICONTROL Zeitplan]** festlegen.
 
-![Screenshot zur Bearbeitung benutzerdefinierter Details für ein Programm](assets/program_edit.png){zoomable="yes"}
+   >[!TIP]
+   >
+   >Wenn Sie ein Programm über die Explorer -Ansicht erstellen, wird der übergeordnete Ordner automatisch auf das aktuelle Programm festgelegt.
 
-1. Klicken Sie auf die Schaltfläche **[!UICONTROL Bildschirmbearbeitung]**.
+1. Klicken Sie **[!UICONTROL erneut auf]** Programm erstellen“, um die Änderungen zu speichern und das Programm zu erstellen. Das Programm wird dann in der Explorer-Ansicht angezeigt. Sie können ihn wie jeden anderen Ordner umbenennen, löschen und auf seine Einstellungen zugreifen. Sie können in diesem Programm auch Unterprogramme erstellen.
 
-   ![](assets/program_edit2.png){zoomable="yes"}
+   ![Screenshot, der das Programm in der Explorer-Ansicht zeigt](assets/program_explorer.png){zoomable="yes"}
 
-Konfigurieren Sie die benutzerdefinierten Optionen:
-
-![Screenshot zur Konfiguration von benutzerdefinierten Feldern für ein Programm](assets/program_customfields.png){zoomable="yes"}
+Benutzerdefinierte Optionen für ein Programm werden auf die gleiche Weise konfiguriert wie für einen Plan. Siehe [Erstellen und Konfigurieren eines Plans](#create-plan).
 
 ## Verknüpfen einer Kampagne mit einem Programm
 

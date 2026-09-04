@@ -14,10 +14,10 @@ subfeature_v2:
   - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: bece1698fc2ac1020ae28cbef04d3717ee0607bb
-workflow-type: ht
-source-wordcount: 597
-ht-degree: 100%
+source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
+workflow-type: tm+mt
+source-wordcount: 616
+ht-degree: 96%
 
 ---
 
@@ -73,6 +73,7 @@ In Adobe Campaign Web können Sie Marketing-Kampagnen automatisieren und über m
 
 Die folgenden Aktivitäten dienen der Anordnung und Ausführung von Workflows. Ihre Hauptaufgabe ist es, die anderen Aktivitäten zu koordinieren:
 
+* [Validierung](approval.md): Weisen Sie einer Gruppe oder einem einzelnen Benutzer eine Aufgabe zu und leiten Sie den Workflow entsprechend der Antwort weiter.
 * [Externes Signal](external-signal.md): Mit dieser Aktivität lösen Sie die Ausführung eines Workflows über einen anderen Workflow oder einen API-Aufruf aus.
 * [Verzweigung](fork.md): Mit dieser Aktivität erstellen Sie ausgehende Transitionen, um mehrere Aktivitäten gleichzeitig zu starten.
 * [Join](join.md): Mit dieser Aktivität synchronisieren Sie mehrere Ausführungszweige eines Workflows.
