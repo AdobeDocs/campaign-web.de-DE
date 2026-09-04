@@ -4,12 +4,11 @@ title: Arbeiten mit Ordnern
 description: Erfahren Sie, wie Sie in Adobe Campaign einen Ordner verwalten.
 exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
 TQID: https://experienceleague.adobe.com/VMZuBbHAkU-hffCTjd5QIwXM0c8K3Q9r9tIx4-Ny08s
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
-source-wordcount: 735
-ht-degree: 100%
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
+workflow-type: tm+mt
+source-wordcount: 837
+ht-degree: 88%
 
 ---
 
@@ -49,6 +48,11 @@ Sie können einen Ordnertyp einrichten. Zum Beispiel einen Ordner mit Sendungen.
 >
 >Die Ordner **[!UICONTROL Automatisch erstellte Objekte]** und **[!UICONTROL Technische Workflows]** sind eingeschränkt und können im linken Seiten-Panel nicht angezeigt werden.
 
+Welche Aktionen Ihnen für einen Ordner zur Verfügung stehen, hängt davon ab, welche Berechtigungen Ihnen dafür gewährt wurden. Das Dialogfeld **[!UICONTROL Ordnereinstellungen]** wird möglicherweise im **schreibgeschützten Modus** geöffnet und einige Aktionen oder Abschnitte sind möglicherweise nicht verfügbar, je nach Ihren Berechtigungen.
+
+Wenden Sie sich an Ihren Administrator, wenn Rechte für einen Ordner fehlen. In diesem [Abschnitt](permissions.md#folder-permissions) erfahren Sie, wie Ordnerberechtigungen verwaltet werden.
+
+Spezifische Berechtigungen wie **[!UICONTROL Ordner einfügen]**, **[!UICONTROL Ordner bearbeiten]** und **[!UICONTROL Ordner löschen]** bestimmen auch, welche Ordneraktionen einem Benutzer zur Verfügung stehen. Weitere Informationen finden Sie in der [Dokumentation zu Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/permissions/manage-permissions.html#use-named-rights){target="_blank"}.
 
 ## Erstellen eines neuen Ordners {#create-a-folder}
 

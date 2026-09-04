@@ -5,18 +5,13 @@ description: Erfahren Sie, wie Sie Versandeinstellungen in Campaign Web konfigur
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 TQID: https://experienceleague.adobe.com/bj4PO7hhfT21Xd44PQYyrUbVytxnLSF7mnSJPbmJQRw
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
-source-wordcount: 3482
-ht-degree: 100%
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
+workflow-type: tm+mt
+source-wordcount: 3646
+ht-degree: 97%
 
 ---
 
@@ -153,6 +148,19 @@ Bei E-Mails können Sie auch die **[!UICONTROL Mail-Formate]** der gesendeten Na
   >Diese Option umfasst beide Versionen der Nachricht. Dies hat Auswirkungen auf die Versandrate, da die E-Mail dadurch größer wird.
 
 * **[!UICONTROL Alle Nachrichten im Textformat senden]**: Die E-Mail wird im Textformat gesendet. Das HTML-Format wird nicht gesendet, sondern lediglich für die Mirrorseite verwendet, wenn die Empfängerin bzw. der Empfänger auf die Nachricht klickt.
+
+## Tracking {#tracking-tab}
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_options"
+>title="Bearbeiten des Trackings"
+>abstract="Standardmäßig ist das Tracking für den Versand aktiviert, d. h. alle im Nachrichteninhalt enthaltenen Links werden verfolgt. Sie können diese Option hier deaktivieren."
+>additional-url="https://experienceleague.adobe.com/de/docs/campaign-web/v8/content/email-design/design-content/message-tracking" text="Hinzufügen von Links und Nachverfolgen von Nachrichten"
+
+Diese Registerkarte ist verfügbar, wenn ein Trackinglog-Schema für den Versand konfiguriert ist und der Versandmodus nicht extern ist.
+
+* **[!UICONTROL Tracking aktivieren]**: Aktiviert oder deaktiviert das Tracking für den Versand. Wenn diese Option deaktiviert ist, werden keine Klick- oder Öffnungs-Tracking-Daten erfasst.
+* **[!UICONTROL Öffnungs-Tracking]** (E-Mail-Kanal): Aktiviert oder deaktiviert das Tracking der Nachrichtenöffnungen mithilfe des Tracking-Pixels. Diese Option ist nur verfügbar, wenn **[!UICONTROL Tracking aktivieren]** aktiviert ist. Dies hilft Ihnen bei der Einhaltung von Datenschutzbestimmungen wie CNIL oder DSGVO.
 
 ## Web Analytics {#web-analytics}
 
@@ -329,10 +337,10 @@ SMS-Versandparameter sind technische Einstellungen, die für Ihren SMS-Versand g
 
   Dieses Feld definiert den Typ der zu sendenden SMS und legt fest, ob es sich um eine normale Nachricht oder eine Flash-Nachricht handelt und ob sie auf dem Mobilgerät oder der SIM-Karte gespeichert werden soll. Diese Einstellung wird im optionalen Feld „dest_addr_subunit“ in der SUBMIT_SM-PDU übertragen.
 
-   * **Flash** setzt den Wert auf 1. Sendet eine Flash-SMS, die sofort auf dem Bildschirm erscheint und nicht gespeichert wird.
-   * **Normal** setzt den Wert auf 0. Sendet eine Standard-SMS.
-   * **Speicherung im Mobiltelefon** setzt den Wert auf 2. Das Gerät wird angewiesen, die SMS im internen Speicher zu speichern.
-   * **Speicherung im Endgerät** setzt den Wert auf 3. Das Gerät wird angewiesen, die SMS auf der SIM-Karte zu speichern.
+  * **Flash** setzt den Wert auf 1. Sendet eine Flash-SMS, die sofort auf dem Bildschirm erscheint und nicht gespeichert wird.
+  * **Normal** setzt den Wert auf 0. Sendet eine Standard-SMS.
+  * **Speicherung im Mobiltelefon** setzt den Wert auf 2. Das Gerät wird angewiesen, die SMS im internen Speicher zu speichern.
+  * **Speicherung im Endgerät** setzt den Wert auf 3. Das Gerät wird angewiesen, die SMS auf der SIM-Karte zu speichern.
 
 * **[!UICONTROL Priorität, Kommunikationstyp]**
 
@@ -350,14 +358,14 @@ SMS-Versandparameter sind technische Einstellungen, die für Ihren SMS-Versand g
 
 * **[!UICONTROL Optionale SMPP-Parameter (TLV)]**
 
-  Sie können zusätzliche Felder als optionale SMPP-Parameter (TLV) angeben. Diese zusätzlichen Felder werden mit allen MT gesendet und personalisierte Felder ermöglichen unterschiedliche Werte für alle MT.
-In der Tabelle sind optionale Parameter aufgeführt, die mit jeder Nachricht gesendet werden können. Spalten enthalten die folgenden Informationen:
+  Sie können zusätzliche Felder angeben, die als optionale SMPP-Parameter (TLV) gesendet werden sollen. Diese zusätzlichen Felder werden mit jedem MT gesendet und personalisierte Felder ermöglichen es, unterschiedliche Werte für jeden MT zu haben.
+  Die Tabelle enthält optionale Parameter, die mit jeder Nachricht gesendet werden können. Spalten enthalten die folgenden Informationen:
 
-   * **Titel**: Dies ist ein optionaler, frei formulierter Titel. Er wird nicht an den Provider übermittelt. Sie können eine Textbeschreibung des Parameters angeben.
-   * **Tag**: der Tag-Wert im Dezimalformat (z. B. 12345) oder im Hexadezimalformat mit 0x-Präfix (z. B. 0x12ab). Tags können zwischen 0 und 65535 liegen. Fragen Sie den SMPP-Dienstleister, welche Tags unterstützt werden
-   * **Wert**: Der Wert, der im optionalen Parameter gesendet werden soll. Dies ist ein personalisiertes Feld.
-   * **Format**: Für den Parameter verwendete Codierung. Sie können eine beliebige unterstützte Textcodierung oder die gängigsten Binärformate auswählen. Erfragen Sie das benötigte Format beim SMPP-Dienstleister.
-   * **Maximale Länge**: Die maximale Anzahl an Bytes für diesen Parameter. Diese wird bei binären Feldern ignoriert, da binäre Felder eine feste Größe haben.
+  * **Titel**: Dies ist ein optionaler, frei formulierter Titel. Er wird nicht an den Provider übermittelt. Sie können eine Textbeschreibung des Parameters angeben.
+  * **Tag**: der Tag-Wert im Dezimalformat (z. B. 12345) oder im Hexadezimalformat mit 0x-Präfix (z. B. 0x12ab). Tags können zwischen 0 und 65535 liegen. Fragen Sie den SMPP-Dienstleister, welche Tags unterstützt werden
+  * **Wert**: Der Wert, der im optionalen Parameter gesendet werden soll. Dies ist ein personalisiertes Feld.
+  * **Format**: Für den Parameter verwendete Codierung. Sie können eine beliebige unterstützte Textcodierung oder die gängigsten Binärformate auswählen. Erfragen Sie das benötigte Format beim SMPP-Dienstleister.
+  * **Maximale Länge**: Die maximale Anzahl an Bytes für diesen Parameter. Diese wird bei binären Feldern ignoriert, da binäre Felder eine feste Größe haben.
 
   **Verwenden von Binärformaten für TLV**
 

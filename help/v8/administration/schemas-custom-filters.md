@@ -2,10 +2,10 @@
 title: Hinzufügen benutzerdefinierter Filter
 description: Erfahren Sie, wie Sie benutzerdefinierte Filter als Schnellzugriffsfelder im Filterbereich einer Listenansicht hinzufügen.
 exl-id: 2c3d4e5f-6a7b-4c8d-9e0f-1a2b3c4d5e6f
-source-git-commit: c2e627d322937b80cb0bc09e86680757d4867dcd
-workflow-type: ht
-source-wordcount: '320'
-ht-degree: 100%
+source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
+workflow-type: tm+mt
+source-wordcount: '451'
+ht-degree: 65%
 
 ---
 
@@ -35,7 +35,7 @@ Weitere Informationen zum Bildschirm „Bildschirmdefinition“ und zum Zugriff 
 
    ![Attributauswahl mit direkten Attributen und Link-Unterattributen](assets/schemas-custom-filters2.png)
 
-1. Klicken Sie auf **[!UICONTROL Speichern]**. Sie können benutzerdefinierte Filter mithilfe der Aufwärts- und Abwärtspfeile neu anordnen oder sie per Drag-and-Drop verschieben. Um einen Filter zu entfernen, klicken Sie auf das Papierkorbsymbol in der entsprechenden Zeile.
+1. Klicken Sie auf **[!UICONTROL Speichern]**. Sie können benutzerdefinierte Filter mithilfe der Pfeile nach oben und unten oder durch Ziehen neu anordnen. Um einen Filter zu entfernen, klicken Sie auf das Symbol mit den Auslassungspunkten in der Zeile und wählen Sie **[!UICONTROL Löschen]** aus.
 
 1. Navigieren Sie zur Liste der Einträge für dieses Schema und öffnen Sie den Filterbereich. Die ausgewählten Attribute werden als **[!UICONTROL benutzerdefinierte Filter]** über dem Regel-Builder **[!UICONTROL Erweiterte Filter]** angezeigt.
 
@@ -47,15 +47,20 @@ Weitere Informationen zum Bildschirm „Bildschirmdefinition“ und zum Zugriff 
 
 1. Geben Sie einen Wert in einem der benutzerdefinierten Filter ein oder wählen Sie einen Wert aus, um die Liste zu verfeinern.
 
-<!--
-## Configure a custom filter's settings {#settings}
+## Einschränken von Werten für einen benutzerdefinierten Filter vom Typ „Link“ {#settings}
 
-To configure specific settings for a custom filter, click the ellipsis icon on its row and select **[!UICONTROL Edit]**.
+Bei einem benutzerdefinierten Filter, der auf einem Link-Attribut basiert, können Sie einschränken, welche Werte in der Auswahl verfügbar sind.
 
-![Custom filter settings dialog](assets/schemas-custom-filters5.png)
+>[!NOTE]
+>
+>Die **[!UICONTROL Bearbeiten]** unten beschriebene Option ist nur für benutzerdefinierte Filter verfügbar, die auf einem Link-Attribut basieren. Benutzerdefinierte Filter, die auf anderen Attributtypen basieren, können nur neu angeordnet oder entfernt werden.
 
-Available settings are:
+1. Klicken Sie in der Zeile eines benutzerdefinierten Filters vom Typ Link auf das Symbol mit den Auslassungspunkten und wählen Sie **[!UICONTROL Bearbeiten]** aus.
 
-* **[!UICONTROL Label (custom)]**: The label to display for this filter. If no label is provided, the attribute's label defined in the schema is used.
-* **[!UICONTROL Filter settings]** (for link-type custom filters only): Use the query modeler to specify a condition that restricts the values available in the picker. For example, restrict a delivery filter to deliveries using the email channel.
--->
+   ![Option „Bearbeiten“ für einen benutzerdefinierten Filter vom Typ „Link“](assets/schemas-custom-filters4.png)
+
+1. Klicken Sie auf **[!UICONTROL Registerkarte]** Filtereinstellungen) auf **[!UICONTROL Filter bearbeiten]** und verwenden Sie den Abfrage-Modellierer, um eine Bedingung zu definieren, die die in der Auswahl verfügbaren Werte einschränkt. Sie können beispielsweise einen Versandfilter auf Sendungen beschränken, die den E-Mail-Kanal verwenden.
+
+   ![Registerkarte Filtereinstellungen im Dialogfeld Verknüpfungseinstellungen](assets/schemas-custom-filters5.png)
+
+1. Bestätigen Sie Ihre Änderungen.

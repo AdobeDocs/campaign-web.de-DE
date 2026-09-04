@@ -4,14 +4,12 @@ title: Bearbeiten des E-Mail-Inhalts
 description: Erfahren Sie, wie Sie den E-Mail-Inhalt in der Campaign Web-Benutzeroberfläche bearbeiten können
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 TQID: https://experienceleague.adobe.com/G--NwJZpg2lItNE9tWbJrqG83a8jMEzzfQ4MVfvXFyY
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 8d818a3b36f21909cd3ca1f48d1594839a54d0df
-workflow-type: ht
-source-wordcount: 728
-ht-degree: 100%
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
+workflow-type: tm+mt
+source-wordcount: 734
+ht-degree: 98%
 
 ---
 
@@ -113,7 +111,7 @@ Gehen Sie wie folgt vor, um den Inhalt einer E-Mail zu konfigurieren oder zu bea
    * [Verfassen von E-Mails von Grund auf neu](create-email-content.md)
    * [Gestalten Ihrer Inhalte](get-started-email-style.md)
 
-1. Standardmäßig ist für den Versand Tracking aktiviert. Sie können diese Option im Bereich **[!UICONTROL Optionale Funktionen]** deaktivieren. [Erfahren Sie, wie Sie Links hinzufügen und das Tracking verwalten](message-tracking.md)
+1. Standardmäßig ist für den Versand Tracking aktiviert. Sie können es deaktivieren oder das Öffnungs-Tracking über die Registerkarte **[!UICONTROL Einstellungen]** > **[!UICONTROL Tracking]** des Versands konfigurieren. [Weitere Informationen](../advanced-settings/delivery-settings.md#tracking-tab). [Erfahren Sie, wie Sie Links hinzufügen und das Tracking verwalten](message-tracking.md)
 
 1. Nachdem Sie den Inhalt Ihrer E-Mail definiert haben, können Sie vor dem Versand mit der Schaltfläche **[!UICONTROL Inhalt simulieren]** überprüfen, wie die E-Mail dargestellt wird. Sie können auch die Qualität Ihrer Inhalte überprüfen, um die Lesbarkeit, die CTA-Effektivität und die Gesamtqualität zu bewerten. [Weitere Informationen zur Qualitätsprüfung von Inhalten](../content/brands-score.md#validate-quality)
 

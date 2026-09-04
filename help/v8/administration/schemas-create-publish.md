@@ -2,10 +2,10 @@
 title: Erstellen und Veröffentlichen von Schemata
 description: Erfahren Sie, wie Sie Schemata erstellen, erweitern und veröffentlichen.
 exl-id: 1da53fe0-1d64-4907-ba06-206f69e83d7c
-source-git-commit: 0cc09a983d412889f2b734a5bfb30bf422247ec0
-workflow-type: ht
-source-wordcount: '506'
-ht-degree: 100%
+source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
+workflow-type: tm+mt
+source-wordcount: '537'
+ht-degree: 91%
 
 ---
 
@@ -35,11 +35,15 @@ Das Schema wird erstellt und die generierte Schemastruktur wird angezeigt.
 Standardmäßig ist das Schema leer. Jetzt müssen Sie die Felder, die Sie in Ihr Schema einbeziehen möchten, mit dem Schema-Editor hinzufügen:
 
 1. Klicken Sie auf das Stiftsymbol im Abschnitt **[!UICONTROL Inhalt]** des Bildschirms mit den Schemadetails.
-2. Fügen Sie die erforderlichen Elemente hinzu und speichern Sie sie. Im Folgenden finden Sie ein Beispiel für eine benutzerdefinierte Schemastruktur:
+1. Fügen Sie die erforderlichen Elemente hinzu. Im Folgenden finden Sie ein Beispiel für eine benutzerdefinierte Schemastruktur:
 
    ![Dialog „Schemaerstellung“](assets/schemas-create3.png)
 
-Das System validiert automatisch die XML-Struktur und generiert das Schema.
+1. Klicken Sie auf **[!UICONTROL Überprüfen]**, um die XML-Struktur Ihres Schemas vor dem Speichern zu überprüfen. Identifizierte Fehler werden am unteren Bildschirmrand angezeigt, z. B. „Ungültiges XML-Format“.
+
+   ![Fehler beim Erstellen des Schemas](assets/schemas-create3bis.png)
+
+1. Korrigieren Sie alle Fehler und speichern Sie dann Ihre Änderungen, um das Schema zu generieren.
 
 ### Definieren der Bildschirmbearbeitung {#define-attributes}
 
