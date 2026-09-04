@@ -53,7 +53,7 @@ Welche Aktionen Ihnen für einen Ordner zur Verfügung stehen, hängt davon ab, 
 
 Wenden Sie sich an Ihren Administrator, wenn Rechte für einen Ordner fehlen. In diesem [Abschnitt](permissions.md#folder-permissions) erfahren Sie, wie Ordnerberechtigungen verwaltet werden.
 
-Spezifische Berechtigungen wie **[!UICONTROL Ordner einfügen]**, **[!UICONTROL Ordner bearbeiten]** und **[!UICONTROL Ordner löschen]** bestimmen auch, welche Ordneraktionen einem Benutzer zur Verfügung stehen. Weitere Informationen finden Sie in der [Dokumentation zu Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/permissions/manage-permissions.html#use-named-rights){target="_blank"}.
+Spezifische Berechtigungen wie **[!UICONTROL Ordner einfügen]**, **[!UICONTROL Ordner bearbeiten]** und **[!UICONTROL Ordner löschen]** bestimmen auch, welche Ordneraktionen einem Benutzer zur Verfügung stehen. Weitere Informationen finden Sie in der [Dokumentation zu Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/permissions/manage-permissions.html?lang=de#use-named-rights){target="_blank"}.
 
 ## Erstellen eines neuen Ordners {#create-a-folder}
 

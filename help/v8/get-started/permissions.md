@@ -55,6 +55,6 @@ Wenn die Option **[!UICONTROL Systemordner]** aktiviert ist, haben alle Benutzen
 
 In diesem [Abschnitt](work-with-folders.md#folder-access-rights) erfahren Sie, wie sich diese Rechte auf die Aktionen auswirken, die Sie für einen Ordner ausführen können.
 
-Mit spezifischen Berechtigungen wird auch festgelegt, welche Ordneraktionen einem Benutzer zur Verfügung stehen. Weitere Informationen finden Sie in der [Dokumentation zu Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/permissions/manage-permissions.html#use-named-rights){target="_blank"}.
+Mit spezifischen Berechtigungen wird auch festgelegt, welche Ordneraktionen einem Benutzer zur Verfügung stehen. Weitere Informationen finden Sie in der [Dokumentation zu Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/permissions/manage-permissions.html?lang=de#use-named-rights){target="_blank"}.
 
 Alle Berechtigungen in der Benutzeroberfläche von Campaign Web werden mit den Berechtigungen der Campaign-Client-Konsole synchronisiert.
