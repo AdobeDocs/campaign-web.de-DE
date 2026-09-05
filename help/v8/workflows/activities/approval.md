@@ -38,7 +38,7 @@ Gehen Sie wie folgt vor, um diese Aktivität zu konfigurieren:
 1. Aufgabe zuweisen, [mehr dazu](#assignment)
 1. Benachrichtigungsinhalt definieren, [mehr dazu](#message)
 1. Definieren der möglichen Antworten [mehr dazu](#answers)
-1. Definieren Sie optional einen Gültigkeitszeitraum ([&#x200B; mehr dazu](#expiration)
+1. Definieren Sie optional einen Gültigkeitszeitraum ([ mehr dazu](#expiration)
 
 ## Aufgabe zuweisen {#assignment}
 
