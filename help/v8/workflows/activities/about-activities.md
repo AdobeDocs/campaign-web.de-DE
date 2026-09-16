@@ -171,8 +171,8 @@
 <target xml:lang="en-XX"><ph id="1" ctype="x-STRONG_EMPHASIS">**</ph>Start<ph id="2" ctype="x-STRONG_EMPHASIS">**</ph> und <ph id="3" ctype="x-LINK">[</ph>Ende<ph id="4" ctype="x-LINK">](end.md)</ph>: Mit diesen Aktivitäten markieren Sie grafisch den Anfang und das Ende eines Workflows. Sie sind optional und haben selbst keine funktionalen Auswirkungen.</target>
 </trans-unit>
 <trans-unit id="tu43" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="[!NOTE">[!NOTE]</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="[!NOTE">[!NOTE]</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!NOTE">[!NOTE]</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!NOTE">[!NOTE]</ph></target>
 </trans-unit>
 <trans-unit id="tu44" xml:space="preserve">
 <source xml:lang="en-US">Note that the <ph id="1" ctype="x-STRONG_EMPHASIS">**</ph>Start<ph id="2" ctype="x-STRONG_EMPHASIS">**</ph> activity is automatically added to all workflows created before the 26.3 release. It is not inserted by default in new workflows.</source>

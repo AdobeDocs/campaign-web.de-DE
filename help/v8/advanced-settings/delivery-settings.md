@@ -43,8 +43,8 @@
 <target xml:lang="en-XX">Bei den Versandeinstellungen handelt es sich um <ph id="1" ctype="x-STRONG_EMPHASIS">**</ph>technische Versandparameter<ph id="2" ctype="x-STRONG_EMPHASIS">**</ph>, die in der Versandvorlage definiert sind. Sie können bei jedem Versand überschrieben werden. Diese Einstellungen sind über die Schaltfläche <ph id="3" ctype="x-STRONG_EMPHASIS">**</ph>Einstellungen<ph id="4" ctype="x-STRONG_EMPHASIS">**</ph> verfügbar, wenn ein Versand oder eine Versandvorlage bearbeitet wird.</target>
 </trans-unit>
 <trans-unit id="tu5" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="[!CAUTION">[!CAUTION]</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="[!CAUTION">[!CAUTION]</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!CAUTION">[!CAUTION]</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!CAUTION">[!CAUTION]</ph></target>
 </trans-unit>
 <trans-unit id="tu6" xml:space="preserve">
 <source xml:lang="en-US">These settings are described for your information only. Some of them depend on your configuration and permissions. They must not be modified in this version of the product.</source>
@@ -151,12 +151,12 @@
 <target xml:lang="en-XX"><ph id="1" ctype="x-STRONG_EMPHASIS">**[!UICONTROL </ph>Zielgruppenauswertung<ph id="3" ctype="x-LINK_REF">]**</ph></target>
 </trans-unit>
 <trans-unit id="tu32" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="[!NOTE">[!NOTE]</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="[!NOTE">[!NOTE]</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!NOTE">[!NOTE]</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!NOTE">[!NOTE]</ph></target>
 </trans-unit>
 <trans-unit id="tu33" xml:space="preserve">
-<source xml:lang="en-US">Fatigue management and pressure rules are configured in the Campaign client console. Learn more in <ph id="1" ctype="x-LINK">[</ph>Campaign v8 (client console) documentation<ph id="2" ctype="x-LINK">[#$tu34]{target="_blank"}</ph>.</source>
-<target xml:lang="en-XX">Die Ermüdungsverwaltung und Druckregeln werden in der Campaign-Client-Konsole konfiguriert. Weitere Informationen finden Sie in der <ph id="1" ctype="x-LINK">[</ph>Dokumentation zu Campaign v8 (Client-Konsole)<ph id="2" ctype="x-LINK">[#$tu34]{target="_blank"}</ph>.</target>
+<source xml:lang="en-US">Fatigue management and pressure rules are configured in the Campaign client console. Learn more in <ph id="1" ctype="x-LINK">&lbrack;</ph>Campaign v8 (client console) documentation<ph id="2" ctype="x-LINK">[#$tu34]{target="_blank"}</ph>.</source>
+<target xml:lang="en-XX">Die Ermüdungsverwaltung und Druckregeln werden in der Campaign-Client-Konsole konfiguriert. Weitere Informationen finden Sie in der <ph id="1" ctype="x-LINK">&lbrack;</ph>Dokumentation zu Campaign v8 (Client-Konsole)<ph id="2" ctype="x-LINK">[#$tu34]{target="_blank"}</ph>.</target>
 </trans-unit>
 <trans-unit id="tu35" xml:space="preserve">
 <source xml:lang="en-US">Capacity settings</source>
@@ -187,12 +187,12 @@
 <target xml:lang="en-XX">Das Feld <ph id="1" ctype="x-STRONG_EMPHASIS">**[!UICONTROL </ph>Wichtigkeit der Empfängerin bzw. des Empfängers<ph id="3" ctype="x-LINK_REF">]**</ph> ist eine Formel, mit der definiert wird, welche Profile bei Überschreitung der Kapazitätstypologie-Regeln behalten werden.</target>
 </trans-unit>
 <trans-unit id="tu42" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="[!NOTE">[!NOTE]</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="[!NOTE">[!NOTE]</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!NOTE">[!NOTE]</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!NOTE">[!NOTE]</ph></target>
 </trans-unit>
 <trans-unit id="tu43" xml:space="preserve">
-<source xml:lang="en-US">Typology rules are configured in the Campaign Client console. Learn more in <ph id="1" ctype="x-LINK">[</ph>Campaign v8 (client console) documentation<ph id="2" ctype="x-LINK">[#$tu44]{target="_blank"}</ph>.</source>
-<target xml:lang="en-XX">Typologieregeln werden in der Campaign-Client-Konsole konfiguriert. Weitere Informationen finden Sie in der <ph id="1" ctype="x-LINK">[</ph>Dokumentation zu Campaign v8 (Client-Konsole)<ph id="2" ctype="x-LINK">[#$tu44]{target="_blank"}</ph>.</target>
+<source xml:lang="en-US">Typology rules are configured in the Campaign Client console. Learn more in <ph id="1" ctype="x-LINK">&lbrack;</ph>Campaign v8 (client console) documentation<ph id="2" ctype="x-LINK">[#$tu44]{target="_blank"}</ph>.</source>
+<target xml:lang="en-XX">Typologieregeln werden in der Campaign-Client-Konsole konfiguriert. Weitere Informationen finden Sie in der <ph id="1" ctype="x-LINK">&lbrack;</ph>Dokumentation zu Campaign v8 (Client-Konsole)<ph id="2" ctype="x-LINK">[#$tu44]{target="_blank"}</ph>.</target>
 </trans-unit>
 <trans-unit id="tu45" xml:space="preserve">
 <source xml:lang="en-US">Audience settings</source>
@@ -211,8 +211,8 @@
 <target xml:lang="en-XX">In diesem Abschnitt können Sie ein verfügbares <ph id="1" ctype="x-STRONG_EMPHASIS">**</ph>Zielgruppen-Mapping<ph id="2" ctype="x-STRONG_EMPHASIS">**</ph> auswählen. Zielgruppen-Mappings werden in der Adobe Campaign v8-Konsole definiert. Zielgruppen-Mapping ist der Datentyp, den ein Vorgang verarbeitet. Es ermöglicht die Bestimmung der Zielpopulation: Empfängerinnen und Empfänger, Vertragsbegünstigte, Benutzerinnen und Benutzer, Abonnentinnen und Abonnenten usw. <ph id="3" ctype="x-LINK">[</ph>Erfahren Sie mehr zum Zielgruppen-Mapping<ph id="4" ctype="x-LINK">](../audience/targeting-dimensions.md)</ph>.</target>
 </trans-unit>
 <trans-unit id="tu49" xml:space="preserve">
-<source xml:lang="en-US">In the <ph id="1" ctype="x-STRONG_EMPHASIS">**[!UICONTROL </ph>Exclusion<ph id="3" ctype="x-LINK_REF">]**</ph> field, you can select to exclude profiles who no longer want to be contacted or who are quarantined. <ph id="5" ctype="x-LINK">[</ph>Learn more<ph id="6" ctype="x-LINK">[#$tu50]{target="_blank"}</ph></source>
-<target xml:lang="en-XX">Im Feld <ph id="1" ctype="x-STRONG_EMPHASIS">**[!UICONTROL </ph>Ausschluss<ph id="3" ctype="x-LINK_REF">]**</ph> können Sie Profile ausschließen, die nicht mehr kontaktiert werden möchten oder sich in Quarantäne befinden. <ph id="5" ctype="x-LINK">[</ph>Weitere Informationen<ph id="6" ctype="x-LINK">[#$tu50]{target="_blank"}</ph></target>
+<source xml:lang="en-US">In the <ph id="1" ctype="x-STRONG_EMPHASIS">**[!UICONTROL </ph>Exclusion<ph id="3" ctype="x-LINK_REF">]**</ph> field, you can select to exclude profiles who no longer want to be contacted or who are quarantined. <ph id="5" ctype="x-LINK">&lbrack;</ph>Learn more<ph id="6" ctype="x-LINK">[#$tu50]{target="_blank"}</ph></source>
+<target xml:lang="en-XX">Im Feld <ph id="1" ctype="x-STRONG_EMPHASIS">**[!UICONTROL </ph>Ausschluss<ph id="3" ctype="x-LINK_REF">]**</ph> können Sie Profile ausschließen, die nicht mehr kontaktiert werden möchten oder sich in Quarantäne befinden. <ph id="5" ctype="x-LINK">&lbrack;</ph>Weitere Informationen<ph id="6" ctype="x-LINK">[#$tu50]{target="_blank"}</ph></target>
 </trans-unit>
 <trans-unit id="tu51" xml:space="preserve">
 <source xml:lang="en-US">Delivery</source>
@@ -251,8 +251,8 @@
 <target xml:lang="en-XX"><ph id="1" ctype="x-STRONG_EMPHASIS">**[!UICONTROL </ph>Kontingentgröße<ph id="3" ctype="x-LINK_REF">]**</ph>: Mithilfe dieser Option können Sie die Anzahl der in einem XML-Versand-Package enthaltenen Nachrichten festlegen. Wenn der Parameter auf „0“ gesetzt ist, werden die Nachrichten automatisch gruppiert. Die Package-Größe wird durch die <ph id="5" ctype="x-CODE">`&lt;delivery size>/1024`</ph>-Berechnung definiert, mit mindestens 8 und maximal 256 Nachrichten pro Package.</target>
 </trans-unit>
 <trans-unit id="tu60" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="[!IMPORTANT">[!IMPORTANT]</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="[!IMPORTANT">[!IMPORTANT]</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!IMPORTANT">[!IMPORTANT]</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!IMPORTANT">[!IMPORTANT]</ph></target>
 </trans-unit>
 <trans-unit id="tu61" xml:space="preserve">
 <source xml:lang="en-US">When the delivery is created by duplicating an existing one, this parameter is reset.</source>
@@ -263,8 +263,8 @@
 <target xml:lang="en-XX"><ph id="1" ctype="x-STRONG_EMPHASIS">**[!UICONTROL </ph>SMTP-Versand testen<ph id="3" ctype="x-LINK_REF">]**</ph> (E-Mail-Kanal): Diese Option wird verwendet, um den Versand über SMTP zu testen. Die E-Mail wird bis zur Verbindung mit dem SMTP-Server verarbeitet, aber nicht gesendet: Für jede Empfängerin und jeden Empfänger der E-Mail stellt Campaign eine Verbindung mit dem Server des SMTP-Anbieters her, führt den SMTP-Befehl RCPT TO aus und trennt die Verbindung vor dem SMTP-Befehl DATA.</target>
 </trans-unit>
 <trans-unit id="tu63" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-STRONG_EMPHASIS">**[!UICONTROL </ph>Email BCC<ph id="3" ctype="x-LINK_REF">]**</ph> (email channel): This option is used to store emails on an external system through BCC by simply adding a BCC email address to your message target. Learn more in <ph id="5" ctype="x-LINK">[</ph>Campaign v8 (client console) documentation<ph id="6" ctype="x-LINK">[#$tu64]{target="_blank"}</ph>.</source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-STRONG_EMPHASIS">**[!UICONTROL </ph>E-Mail-BCC<ph id="3" ctype="x-LINK_REF">]**</ph> (E-Mail-Kanal): Diese Option wird verwendet, um mit der BCC-Funktion E-Mails in einem externen System zu speichern, indem einfach eine E-Mail-Adresse als BCC zu Ihrer Nachrichtenzielgruppe hinzugefügt wird. Weitere Informationen finden Sie in der <ph id="5" ctype="x-LINK">[</ph>Dokumentation zu Campaign v8 (Client-Konsole)<ph id="6" ctype="x-LINK">[#$tu64]{target="_blank"}</ph>.</target>
+<source xml:lang="en-US"><ph id="1" ctype="x-STRONG_EMPHASIS">**[!UICONTROL </ph>Email BCC<ph id="3" ctype="x-LINK_REF">]**</ph> (email channel): This option is used to store emails on an external system through BCC by simply adding a BCC email address to your message target. Learn more in <ph id="5" ctype="x-LINK">&lbrack;</ph>Campaign v8 (client console) documentation<ph id="6" ctype="x-LINK">[#$tu64]{target="_blank"}</ph>.</source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-STRONG_EMPHASIS">**[!UICONTROL </ph>E-Mail-BCC<ph id="3" ctype="x-LINK_REF">]**</ph> (E-Mail-Kanal): Diese Option wird verwendet, um mit der BCC-Funktion E-Mails in einem externen System zu speichern, indem einfach eine E-Mail-Adresse als BCC zu Ihrer Nachrichtenzielgruppe hinzugefügt wird. Weitere Informationen finden Sie in der <ph id="5" ctype="x-LINK">&lbrack;</ph>Dokumentation zu Campaign v8 (Client-Konsole)<ph id="6" ctype="x-LINK">[#$tu64]{target="_blank"}</ph>.</target>
 </trans-unit>
 <trans-unit id="tu65" xml:space="preserve">
 <source xml:lang="en-US">In the <ph id="1" ctype="x-STRONG_EMPHASIS">**[!UICONTROL </ph>Wave definition<ph id="3" ctype="x-LINK_REF">]**</ph> section, select the <ph id="5" ctype="x-STRONG_EMPHASIS">**[!UICONTROL </ph>Send using multiple waves<ph id="7" ctype="x-LINK_REF">]**</ph> option to progressively increase the volume sent using waves. This will avoid your messages being marked as spam or when you want to restrict the number of messages per day. Using waves you can divide deliveries into several batches instead of sending high volumes of messages at the same time. <ph id="9" ctype="x-LINK">[</ph>Learn more<ph id="10" ctype="x-LINK">](send-using-waves.md)</ph></source>
@@ -283,8 +283,8 @@
 <target xml:lang="en-XX"><ph id="1" ctype="x-STRONG_EMPHASIS">**[!UICONTROL </ph>E-Mail-Programm der Empfängerin bzw. des Empfängers das beste Format wählen lassen<ph id="3" ctype="x-LINK_REF">]**</ph>: Die E-Mail enthält sowohl das Text- als auch das HTML-Format. Welches Format beim Empfang angezeigt wird, hängt von der Konfiguration des E-Mail-Programms der Empfängerin bzw. des Empfängers ab (Multipart-Alternative).</target>
 </trans-unit>
 <trans-unit id="tu69" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="[!IMPORTANT">[!IMPORTANT]</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="[!IMPORTANT">[!IMPORTANT]</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!IMPORTANT">[!IMPORTANT]</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!IMPORTANT">[!IMPORTANT]</ph></target>
 </trans-unit>
 <trans-unit id="tu70" xml:space="preserve">
 <source xml:lang="en-US">This option includes both versions of the document. It therefore impacts the delivery rate, because the email size is greater.</source>
@@ -347,12 +347,12 @@
 <target xml:lang="en-XX">Außerdem können die Tags definiert werden, die für das verwendete Analyse-Tool freigegeben wurden.</target>
 </trans-unit>
 <trans-unit id="tu85" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="[!NOTE">[!NOTE]</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="[!NOTE">[!NOTE]</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!NOTE">[!NOTE]</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!NOTE">[!NOTE]</ph></target>
 </trans-unit>
 <trans-unit id="tu86" xml:space="preserve">
-<source xml:lang="en-US">Web Analytics capabilities are configured in the Campaign Client console. Learn more in <ph id="1" ctype="x-LINK">[</ph>Campaign v8 (client console) documentation<ph id="2" ctype="x-LINK">[#$tu87]{target="_blank"}</ph>.</source>
-<target xml:lang="en-XX">Web-Analyse-Funktionen werden in der Campaign-Client-Konsole konfiguriert. Weitere Informationen finden Sie in der <ph id="1" ctype="x-LINK">[</ph>Dokumentation zu Campaign v8 (Client-Konsole)<ph id="2" ctype="x-LINK">[#$tu87]{target="_blank"}</ph>.</target>
+<source xml:lang="en-US">Web Analytics capabilities are configured in the Campaign Client console. Learn more in <ph id="1" ctype="x-LINK">&lbrack;</ph>Campaign v8 (client console) documentation<ph id="2" ctype="x-LINK">[#$tu87]{target="_blank"}</ph>.</source>
+<target xml:lang="en-XX">Web-Analyse-Funktionen werden in der Campaign-Client-Konsole konfiguriert. Weitere Informationen finden Sie in der <ph id="1" ctype="x-LINK">&lbrack;</ph>Dokumentation zu Campaign v8 (Client-Konsole)<ph id="2" ctype="x-LINK">[#$tu87]{target="_blank"}</ph>.</target>
 </trans-unit>
 <trans-unit id="tu88" xml:space="preserve">
 <source xml:lang="en-US">Retries</source>
@@ -459,8 +459,8 @@
 <target xml:lang="en-XX"><ph id="1" ctype="x-IMAGE">![](assets/delivery-settings-validity.png){zoomable="yes"}</ph></target>
 </trans-unit>
 <trans-unit id="tu114" xml:space="preserve">
-<source xml:lang="en-US">Learn more about delivery validity period in <ph id="1" ctype="x-LINK">[</ph>Campaign v8 (client console) documentation<ph id="2" ctype="x-LINK">[#$tu115]{target="_blank"}</ph>.</source>
-<target xml:lang="en-XX">Weitere Informationen zur Gültigkeitsdauer von Sendungen finden Sie in der <ph id="1" ctype="x-LINK">[</ph>Dokumentation zu Campaign v8 (Client-Konsole)<ph id="2" ctype="x-LINK">[#$tu115]{target="_blank"}</ph>.</target>
+<source xml:lang="en-US">Learn more about delivery validity period in <ph id="1" ctype="x-LINK">&lbrack;</ph>Campaign v8 (client console) documentation<ph id="2" ctype="x-LINK">[#$tu115]{target="_blank"}</ph>.</source>
+<target xml:lang="en-XX">Weitere Informationen zur Gültigkeitsdauer von Sendungen finden Sie in der <ph id="1" ctype="x-LINK">&lbrack;</ph>Dokumentation zu Campaign v8 (Client-Konsole)<ph id="2" ctype="x-LINK">[#$tu115]{target="_blank"}</ph>.</target>
 </trans-unit>
 <trans-unit id="tu116" xml:space="preserve">
 <source xml:lang="en-US">Mirror page management (email channel)</source>
@@ -579,8 +579,8 @@
 <target xml:lang="en-XX"><ph id="1" ctype="x-STRONG_EMPHASIS">**[!UICONTROL </ph>Dienst- oder Programm-ID<ph id="3" ctype="x-LINK_REF">]**</ph></target>
 </trans-unit>
 <trans-unit id="tu145" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="[!NOTE">[!NOTE]</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="[!NOTE">[!NOTE]</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!NOTE">[!NOTE]</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!NOTE">[!NOTE]</ph></target>
 </trans-unit>
 <trans-unit id="tu146" xml:space="preserve">
 <source xml:lang="en-US">Use of this field is discouraged. Optional SMPP parameters, available in the Client Console, provide a much more flexible implementation.</source>
@@ -693,8 +693,8 @@ Die Tabelle enthält optionale Parameter, die mit jeder Nachricht gesendet werde
 <target xml:lang="en-XX">Bei Verwendung von Binärformaten deaktivieren die Sonderwerte „(leere Zeichenfolge)“, „null“ und „undefined“ das Feld vollständig, ohne einen Fehler auszulösen. In diesen 3 Sonderfällen wird das Tag überhaupt nicht übergeben. Dies ermöglicht die Übergabe eines bestimmten TLV nur für einige Nachrichten, wenn sorgfältig erstelltes JavaScript im Personalisierungsfeld verwendet wird.</target>
 </trans-unit>
 <trans-unit id="tu173" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="[!NOTE">[!NOTE]</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="[!NOTE">[!NOTE]</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!NOTE">[!NOTE]</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!NOTE">[!NOTE]</ph></target>
 </trans-unit>
 <trans-unit id="tu174" xml:space="preserve">
 <source xml:lang="en-US">Binary formats are always encoded into big-endian form.</source>
@@ -785,8 +785,8 @@ Die Tabelle enthält optionale Parameter, die mit jeder Nachricht gesendet werde
 <target xml:lang="en-XX"><ph id="1" ctype="x-IMAGE">![](assets/smtp_headers.png){zoomable="yes"}</ph></target>
 </trans-unit>
 <trans-unit id="tu196" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="[!IMPORTANT">[!IMPORTANT]</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="[!IMPORTANT">[!IMPORTANT]</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!IMPORTANT">[!IMPORTANT]</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!IMPORTANT">[!IMPORTANT]</ph></target>
 </trans-unit>
 <trans-unit id="tu197" xml:space="preserve">
 <source xml:lang="en-US">Adding a script for inserting additional SMTP headers is reserved for advanced users. The syntax of this script must comply with the requirements of this content type: no unused space, no empty line, etc.</source>

@@ -43,8 +43,8 @@
 <target xml:lang="en-XX">Zugriff auf bestimmte Aktionen (Erstellen, Ändern, Löschen)</target>
 </trans-unit>
 <trans-unit id="tu9" xml:space="preserve">
-<source xml:lang="en-US">A detailed procedure for setting up permissions in Adobe Campaign is available in <ph id="1" ctype="x-LINK">[</ph>Adobe Campaign v8 (console) documentation<ph id="2" ctype="x-LINK">[#$tu10]{target="_blank"}</ph>.</source>
-<target xml:lang="en-XX">Detaillierte Anweisungen zum Festlegen von Berechtigungen in Adobe Campaign sind in der <ph id="1" ctype="x-LINK">[</ph>Dokumentation zu Adobe Campaign v8 (Konsole)<ph id="2" ctype="x-LINK">[#$tu10]{target="_blank"}</ph> verfügbar.</target>
+<source xml:lang="en-US">A detailed procedure for setting up permissions in Adobe Campaign is available in <ph id="1" ctype="x-LINK">&lbrack;</ph>Adobe Campaign v8 (console) documentation<ph id="2" ctype="x-LINK">[#$tu10]{target="_blank"}</ph>.</source>
+<target xml:lang="en-XX">Detaillierte Anweisungen zum Festlegen von Berechtigungen in Adobe Campaign sind in der <ph id="1" ctype="x-LINK">&lbrack;</ph>Dokumentation zu Adobe Campaign v8 (Konsole)<ph id="2" ctype="x-LINK">[#$tu10]{target="_blank"}</ph> verfügbar.</target>
 </trans-unit>
 <trans-unit id="tu11" xml:space="preserve">
 <source xml:lang="en-US">Permissions on folders</source>
@@ -79,8 +79,8 @@
 <target xml:lang="en-XX"><ph id="1" ctype="x-IMAGE">![</ph>Beispiel für abgelehnte Berechtigungen in den Sicherheitseinstellungen eines Ordners<ph id="2" ctype="x-IMAGE">](assets/folder_security_denied.png){zoomable="yes"}</ph></target>
 </trans-unit>
 <trans-unit id="tu19" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="[!NOTE">[!NOTE]</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="[!NOTE">[!NOTE]</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!NOTE">[!NOTE]</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!NOTE">[!NOTE]</ph></target>
 </trans-unit>
 <trans-unit id="tu20" xml:space="preserve">
 <source xml:lang="en-US">You should not be able to create an object for which you do not have at least one folder with writing rights.</source>
@@ -103,8 +103,8 @@
 <target xml:lang="en-XX">In diesem <ph id="1" ctype="x-LINK">[</ph>Abschnitt<ph id="2" ctype="x-LINK">](work-with-folders.md#folder-access-rights)</ph> erfahren Sie, wie sich diese Rechte auf die Aktionen auswirken, die Sie für einen Ordner ausführen können.</target>
 </trans-unit>
 <trans-unit id="tu25" xml:space="preserve">
-<source xml:lang="en-US">Named rights also determine which folder actions are available to an operator. Refer to the <ph id="1" ctype="x-LINK">[</ph>Campaign v8 documentation<ph id="2" ctype="x-LINK">[#$tu26]{target="_blank"}</ph>.</source>
-<target xml:lang="en-XX">Mit spezifischen Berechtigungen wird auch festgelegt, welche Ordneraktionen einer Benutzerin bzw. einem Benutzer zur Verfügung stehen. Weitere Informationen finden Sie in der <ph id="1" ctype="x-LINK">[</ph>Dokumentation zu Campaign v8<ph id="2" ctype="x-LINK">[#$tu26]{target="_blank"}</ph>.</target>
+<source xml:lang="en-US">Named rights also determine which folder actions are available to an operator. Refer to the <ph id="1" ctype="x-LINK">&lbrack;</ph>Campaign v8 documentation<ph id="2" ctype="x-LINK">[#$tu26]{target="_blank"}</ph>.</source>
+<target xml:lang="en-XX">Mit spezifischen Berechtigungen wird auch festgelegt, welche Ordneraktionen einer Benutzerin bzw. einem Benutzer zur Verfügung stehen. Weitere Informationen finden Sie in der <ph id="1" ctype="x-LINK">&lbrack;</ph>Dokumentation zu Campaign v8<ph id="2" ctype="x-LINK">[#$tu26]{target="_blank"}</ph>.</target>
 </trans-unit>
 <trans-unit id="tu27" xml:space="preserve">
 <source xml:lang="en-US">All permissions in the Campaign Web user interface synchronize with Campaign Client Console permissions.</source>

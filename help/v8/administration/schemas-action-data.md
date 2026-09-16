@@ -27,8 +27,8 @@
 <target xml:lang="en-XX">Im Abschnitt <ph id="1" ctype="x-STRONG_EMPHASIS">**[!UICONTROL </ph>Aktionsdaten<ph id="3" ctype="x-LINK_REF">]**</ph> können Sie die Aktionen einschränken, die für die Einträge eines benutzerdefinierten Schemas verfügbar sind, unabhängig von den <ph id="5" ctype="x-LINK">[</ph>Sicherheitsregeln<ph id="6" ctype="x-LINK">](../get-started/work-with-folders.md)</ph>, die für einzelne Ordner konfiguriert wurden. Diese Einschränkung gilt auf Schemaebene, in jedem Ordner, für jede Benutzerin bzw. jeden Benutzer, einschließlich Admins.</target>
 </trans-unit>
 <trans-unit id="tu7" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="[!NOTE">[!NOTE]</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="[!NOTE">[!NOTE]</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!NOTE">[!NOTE]</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!NOTE">[!NOTE]</ph></target>
 </trans-unit>
 <trans-unit id="tu8" xml:space="preserve">
 <source xml:lang="en-US">This section is only available for custom schemas.</source>
@@ -75,8 +75,8 @@
 <target xml:lang="en-XX"><ph id="1" ctype="x-STRONG_EMPHASIS">**[!UICONTROL </ph>Keine Duplikate zulassen<ph id="3" ctype="x-LINK_REF">]**</ph>: Die Aktion „Duplizieren“ wird in jedem Ordner aus dem Detailbildschirm und aus der Liste entfernt. Andere Aktionen wie „Erstellen“, „Löschen“ und „Aktualisieren“ bleiben verfügbar.</target>
 </trans-unit>
 <trans-unit id="tu19" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="[!NOTE">[!NOTE]</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="[!NOTE">[!NOTE]</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!NOTE">[!NOTE]</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!NOTE">[!NOTE]</ph></target>
 </trans-unit>
 <trans-unit id="tu20" xml:space="preserve">
 <source xml:lang="en-US">Enabling <ph id="1" ctype="x-STRONG_EMPHASIS">**[!UICONTROL </ph>Read-only<ph id="3" ctype="x-LINK_REF">]**</ph> automatically covers deletion and duplication as well, so the <ph id="5" ctype="x-STRONG_EMPHASIS">**[!UICONTROL </ph>Do not allow deletion<ph id="7" ctype="x-LINK_REF">]**</ph> and <ph id="9" ctype="x-STRONG_EMPHASIS">**[!UICONTROL </ph>Do not allow duplicate<ph id="11" ctype="x-LINK_REF">]**</ph> options are disabled while <ph id="13" ctype="x-STRONG_EMPHASIS">**[!UICONTROL </ph>Read-only<ph id="15" ctype="x-LINK_REF">]**</ph> is selected.</source>
