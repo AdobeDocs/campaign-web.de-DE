@@ -47,7 +47,7 @@
 <target xml:lang="en-XX">Standardmäßig ist das Tracking für den Versand aktiviert, d. h. alle im Nachrichteninhalt enthaltenen Links werden verfolgt. Sie können diese Option hier deaktivieren.</target>
 </trans-unit>
 <trans-unit id="tu12" xml:space="preserve">
-<source xml:lang="en-US">https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/email-design/design-content/message-tracking</source>
+<source xml:lang="en-US">https://experienceleague.adobe.com/de/docs/campaign-web/v8/content/email-design/design-content/message-tracking</source>
 <target xml:lang="en-XX">https://experienceleague.adobe.com/de/docs/campaign-web/v8/content/email-design/design-content/message-tracking</target>
 </trans-unit>
 <trans-unit id="tu13" xml:space="preserve">

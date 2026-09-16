@@ -3,11 +3,11 @@
 <file original="help/v8/advanced-settings/delivery-settings.md.mdsc" source-language="en-US" target-language="en-XX" datatype="x-text/markdown">
 <body>
 <trans-unit id="tu34" xml:space="preserve">
-<source xml:lang="en-US">https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html</source>
+<source xml:lang="en-US">https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=de</source>
 <target xml:lang="en-XX">https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=de</target>
 </trans-unit>
 <trans-unit id="tu44" xml:space="preserve">
-<source xml:lang="en-US">https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html</source>
+<source xml:lang="en-US">https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html?lang=de</source>
 <target xml:lang="en-XX">https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html?lang=de</target>
 </trans-unit>
 <trans-unit id="tu50" xml:space="preserve">
@@ -15,11 +15,11 @@
 <target xml:lang="en-XX">https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html?lang=de</target>
 </trans-unit>
 <trans-unit id="tu64" xml:space="preserve">
-<source xml:lang="en-US">https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email-bcc.html</source>
+<source xml:lang="en-US">https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email-bcc.html?lang=de</source>
 <target xml:lang="en-XX">https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email-bcc.html?lang=de</target>
 </trans-unit>
 <trans-unit id="tu87" xml:space="preserve">
-<source xml:lang="en-US">https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aa.html#external-account-ac</source>
+<source xml:lang="en-US">https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aa.html?lang=de#external-account-ac</source>
 <target xml:lang="en-XX">https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aa.html?lang=de#external-account-ac</target>
 </trans-unit>
 <trans-unit id="tu115" xml:space="preserve">
@@ -307,7 +307,7 @@
 <target xml:lang="en-XX">Standardmäßig ist das Tracking für den Versand aktiviert, d. h. alle im Nachrichteninhalt enthaltenen Links werden verfolgt. Sie können diese Option hier deaktivieren.</target>
 </trans-unit>
 <trans-unit id="tu75" xml:space="preserve">
-<source xml:lang="en-US">https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/email-design/design-content/message-tracking</source>
+<source xml:lang="en-US">https://experienceleague.adobe.com/de/docs/campaign-web/v8/content/email-design/design-content/message-tracking</source>
 <target xml:lang="en-XX">https://experienceleague.adobe.com/de/docs/campaign-web/v8/content/email-design/design-content/message-tracking</target>
 </trans-unit>
 <trans-unit id="tu76" xml:space="preserve">
