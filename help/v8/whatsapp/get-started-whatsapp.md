@@ -8,12 +8,10 @@ role: User
 level: Beginner
 hide: true
 source-git-commit: f0c22710efcda2f59f75ea26cf239d549ff34f96
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 100%
-
 ---
-
 # Erste Schritte mit WhatsApp-Nachrichten {#get-started-whatsapp}
 
 Sie können WhatsApp-Nachrichten über die **Adobe Campaign Web-Benutzeroberfläche** mithilfe der [Cloud-API](https://developers.facebook.com/docs/whatsapp/cloud-api/) von Meta senden. Verwenden Sie WhatsApp in eigenständigen Sendungen, in Kampagnen-Workflows oder innerhalb von Marketing-Kampagnen zusammen mit Ihren anderen Kanälen.

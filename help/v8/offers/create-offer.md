@@ -5,15 +5,15 @@ description: Erfahren Sie, wie Sie ein Angebot in Campaign Web erstellen, konfig
 feature: Offers
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: 7bd09b83112efb99c90884b7da21a5e9a5c76b6c
-workflow-type: ht
-source-wordcount: 1057
+workflow-type: tm+mt
+source-wordcount: '1057'
 ht-degree: 100%
-
 ---
-
 # Erstellen und Veröffentlichen eines Angebots {#create-offer}
 
 Ein **Angebot** ist ein individueller Vorschlag mit eigenem Eignungszeitraum, Zielgruppenfilter, Gewichtung und Inhalt. Angebote sind im Angebotskatalog über **Kategorien** organisiert und werden Empfangenden über eine **Platzierung** unterbreitet.
@@ -28,7 +28,7 @@ Um Angebote zu durchsuchen und zu erstellen, wählen Sie in der linken Navigatio
 
 Klicken Sie auf den Namen eines Angebots, um es zur Bearbeitung zu öffnen, oder wählen Sie die drei Punkte neben dem Angebot aus, um es zu **[!UICONTROL duplizieren]** oder zu **[!UICONTROL löschen]**.
 
-## Erstellen eines Angebots {#create}
+## Angebot erstellen {#create}
 
 Erstellen eines neuen Angebots:
 

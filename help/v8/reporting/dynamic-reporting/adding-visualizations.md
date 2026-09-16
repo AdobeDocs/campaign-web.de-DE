@@ -5,12 +5,10 @@ level: Intermediate
 audience: end-user
 exl-id: 87b53a84-498e-430b-a3ed-22a3a9422dae
 source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 100%
-
 ---
-
 # Visualisierungen hinzufügen{#adding-visualizations}
 
 Im Tab **Visualisierungen** können Sie per Drag-and-Drop Visualisierungselemente wie Bereich, Kreis und Diagramm auswählen. Durch diese Elemente können Sie Ihre Daten unterschiedlich grafisch darstellen.

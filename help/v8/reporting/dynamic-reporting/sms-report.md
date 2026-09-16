@@ -4,12 +4,10 @@ description: Im vordefinierten Bericht über SMS erfahren Sie über die Wirkung 
 level: Intermediate
 audience: end-user
 source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '76'
 ht-degree: 100%
-
 ---
-
 # SMS-Bericht{#sms-report}
 
 Der Bericht **SMS** bietet Informationen zu SMS-Sendungen, wie die Anzahl der zugestellten Nachrichten und die Bounces.

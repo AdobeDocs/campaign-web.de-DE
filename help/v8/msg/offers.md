@@ -6,15 +6,15 @@ exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
 TQID: https://experienceleague.adobe.com/aAihPctzpv-wOectPp1y1qntZBX9rH5MqT1e0OLD4uA
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: 5eee68c2201dac7b9c3ee6aa894e3ea1bef2c027
-workflow-type: ht
-source-wordcount: 805
+workflow-type: tm+mt
+source-wordcount: '805'
 ht-degree: 100%
-
 ---
-
 # Hinzufügen von Angeboten zu Ihren Nachrichten {#offers-content}
 
 Sie können Ihren Sendungen direkt über die Web-Benutzeroberfläche von Campaign Angebote hinzufügen. Diese Angebote sind über das Menü **Angebote** auf der linken Seite verfügbar. So können Sie auf die Liste der Angebote zugreifen.

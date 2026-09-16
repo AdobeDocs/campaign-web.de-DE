@@ -3,12 +3,10 @@ title: Hinzufügen von Sammlungslisten
 description: Erfahren Sie, wie Sie Sammlungslisten hinzufügen, um zugehörige Daten in Profilbildschirmen anzuzeigen.
 exl-id: 5ae68741-146c-4e0f-b451-c32e9a2290f8
 source-git-commit: 9d7ff3bc648567640ef501bff2228e5c6cff25bc
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 100%
-
 ---
-
 # Hinzufügen von Sammlungslisten {#collection-lists}
 
 Im Abschnitt **Liste der benutzerdefinierten Listen** können Sie Sammlungs-Links definieren, z. B. Käufe. Die zugehörigen Daten werden dann über eine dedizierte Registerkarte auf Profilbildschirmen angezeigt.

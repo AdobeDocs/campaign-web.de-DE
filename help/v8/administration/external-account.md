@@ -3,12 +3,10 @@ title: Verwalten eines externen Kontos
 description: Informationen zum Konfigurieren externer Konten
 exl-id: 24e70106-3312-4138-bf2d-ffad74e2962d
 source-git-commit: 155a7f3fb55a579dbf9a2ad81a1dc7e4ea3847df
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '674'
 ht-degree: 100%
-
 ---
-
 # Campaign-spezifische externe Konten {#external-account}
 
 Gehen Sie wie folgt vor, um die Kontoeinstellungen je nach ausgewähltem Typ des externen Kontos zu konfigurieren.
@@ -30,10 +28,10 @@ Um das externe Konto **[!UICONTROL Bounce Messages (POP3)]** zu konfigurieren, 
 * **[!UICONTROL Passwort]** – Passwort des Benutzerkontos.
 
 * **[!UICONTROL Verschlüsselung]** – Typ der Verschlüsselung, z. B.:
-   * Standardmäßig (POP3 wenn Port 110, POP3S wenn Port 995)
-   * POP3 schaltet auf SSL nach Übermittlung von STARTTLS
-   * POP3 nicht gesichert (standardmäßig Port 110)
-   * POP3 gesichert über SSL (standardmäßig Port 995)
+  * Standardmäßig (POP3 wenn Port 110, POP3S wenn Port 995)
+  * POP3 schaltet auf SSL nach Übermittlung von STARTTLS
+  * POP3 nicht gesichert (standardmäßig Port 110)
+  * POP3 gesichert über SSL (standardmäßig Port 995)
 
 * **[!UICONTROL Funktion]** – Wählen Sie **[!UICONTROL Eingehende E-Mail]** aus, um das Konto für den Empfang eingehender E-Mails zu konfigurieren, oder **[!UICONTROL SOAP-Router]**, um SOAP-Anfragen zu verarbeiten.
 

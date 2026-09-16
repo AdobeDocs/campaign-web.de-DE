@@ -5,15 +5,15 @@ exl-id: 8f41312e-422f-4be1-b874-1b143c500912
 TQID: https://experienceleague.adobe.com/3UXLVWPQ0AxtloNmhumWXdi4VOVbHqveeZdkGlxhlQQ
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
-source-wordcount: 3863
+workflow-type: tm+mt
+source-wordcount: '3911'
 ht-degree: 100%
-
 ---
-
 # Externe Datenbankkonten {#external-accounts}
 
 Verwenden Sie ein externes Konto vom Typ „Externe Datenbank“, um Adobe Campaign mit einer Drittanbieterdatenbank zu verbinden.
@@ -240,7 +240,7 @@ Konfigurieren Sie Ihr externes Konto „Microsoft SQL Server“ in der Adobe Cam
 ## MySQL
 
 Über das externe Konto „MySQL“ können Sie Ihre Campaign-Instanz mit Ihrer externen MySQL-Datenbank verbinden.
-Konfigurieren Sie Ihr externes Konto „MySQL“ in der Web-Benutzeroberfläche von Adobe Campaign.
+Konfigurieren Sie Ihr externes Konto „MySQL“ in der Adobe Campaign Web-Benutzeroberfläche.
 
 1. [Erstellen Sie Ihr externes Konto](external-account.md) und wählen Sie **[!UICONTROL Externe Datenbank]** als **[!UICONTROL Typ]** Ihres externen Kontos und „MySQL“ als **[!UICONTROL Anbietertyp]** aus.
 
@@ -303,7 +303,7 @@ Konfigurieren Sie Ihr externes Konto „Netezza“ in der Adobe Campaign Web-Ben
 ## ODBC (Sybase ASE, Sybase IQ)
 
 Über das externe Konto „ODBC (Sybase ASE, Sybase IQ)“ können Sie Ihre Campaign-Instanz mit Ihrer externen Datenbank des Typs „ODBC (Sybase ASE, Sybase IQ)“ verbinden.
-Konfigurieren Sie Ihr externes Konto „ODBC (Sybase ASE, Sybase IQ)“ in der Web-Benutzeroberfläche von Adobe Campaign.
+Konfigurieren Sie Ihr externes Konto „ODBC (Sybase ASE, Sybase IQ)“ in der Adobe Campaign Web-Benutzeroberfläche.
 
 1. [Erstellen Sie Ihr externes Konto](external-account.md) und wählen Sie **[!UICONTROL Externe Datenbank]** als **[!UICONTROL Typ]** Ihres externen Kontos und „ODBC (Sybase ASE, Sybase IQ)“ als **[!UICONTROL Anbietertyp]** aus.
 
@@ -370,7 +370,7 @@ Konfigurieren Sie Ihr externes Konto „HTTP-Weiterleitung auf Remote-Datenbank�
 ## Oracle
 
 Über das externe Konto „Oracle“ können Sie Ihre Campaign-Instanz mit Ihrer externen Oracle-Datenbank verbinden.
-Konfigurieren Sie Ihr externes Konto „Oracle“ in der Web-Benutzeroberfläche von Adobe Campaign.
+Konfigurieren Sie Ihr externes Konto „Oracle“ in der Adobe Campaign Web-Benutzeroberfläche.
 
 1. [Erstellen Sie Ihr externes Konto](external-account.md) und wählen Sie **[!UICONTROL Externe Datenbank]** als **[!UICONTROL Typ]** Ihres externen Kontos und „Oracle“ als **[!UICONTROL Anbietertyp]** aus.
 
@@ -399,7 +399,7 @@ Konfigurieren Sie Ihr externes Konto „Oracle“ in der Web-Benutzeroberfläche
 ## PostgreSQL
 
 Über das externe Konto „PostgreSQL“ können Sie Ihre Campaign-Instanz mit Ihrer externen PostgreSQL-Datenbank verbinden.
-Konfigurieren Sie Ihr externes Konto „PostgreSQL“ in der Web-Benutzeroberfläche von Adobe Campaign.
+Konfigurieren Sie Ihr externes Konto „PostgreSQL“ in der Adobe Campaign Web-Benutzeroberfläche.
 
 1. [Erstellen Sie Ihr externes Konto](external-account.md) und wählen Sie **[!UICONTROL Externe Datenbank]** als **[!UICONTROL Typ]** Ihres externen Kontos und „PostgreSQL“ als **[!UICONTROL Anbietertyp]** aus.
 

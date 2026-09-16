@@ -6,16 +6,17 @@ exl-id: 74e468f5-d9c3-4470-8ff2-68648b5f396f
 TQID: https://experienceleague.adobe.com/oUU-QTPEVgYame-X2qxNKw0hE8W8XNORFjVc-yC3-ww
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
-source-wordcount: 1334
+workflow-type: tm+mt
+source-wordcount: '1334'
 ht-degree: 100%
-
 ---
-
 # Erstellen von Transaktionsnachrichten
 
 In Transaktionsnachrichten wird der Versand einer personalisierten Nachricht durch ein Ereignis ausgelöst. Hierzu müssen Sie für jeden Ereignistyp eine Nachrichtenvorlage erstellen. Diese Vorlagen enthalten alle notwendigen Informationen zur Personalisierung der Transaktionsnachricht.
@@ -175,10 +176,10 @@ Gehen Sie wie folgt vor, um eine Transaktionsnachricht zu erstellen:
   ![Screenshot mit der Konfigurationsseite für Transaktionsnachrichten](assets/transactional-configuration.png){zoomable="yes"}
 
   Füllen Sie die Konfiguration Ihrer Nachricht wie für eine Vorlage aus:
-   * [Eigenschaften der Transaktionsnachricht](#transactional-properties)
-   * [Kontextbeispiel](#context-sample)
-   * [Nachrichteninhalt](#transactional-content)
-und [konfigurieren Sie den Ereignistyp](#event-type) wie unten beschrieben.
+  * [Eigenschaften der Transaktionsnachricht](#transactional-properties)
+  * [Kontextbeispiel](#context-sample)
+  * [Nachrichteninhalt](#transactional-content)
+    und [konfigurieren Sie den Ereignistyp](#event-type) wie unten beschrieben.
 
 * Klicken Sie nach der [Validierung Ihrer Transaktionsnachricht](validate-transactional.md) auf die Schaltfläche **[!UICONTROL Überprüfen und veröffentlichen]**, um Ihre Nachricht zu erstellen und zu veröffentlichen. Die Trigger können jetzt den Versand Ihrer Transaktionsnachricht per Push durchführen.
 

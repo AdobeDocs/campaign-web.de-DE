@@ -6,18 +6,20 @@ exl-id: b353bc86-2228-4e02-879c-ae9425c48489
 TQID: https://experienceleague.adobe.com/YSkF82u-0-DmG1N7SnJwXSdHJdWZwp8A8ZLwkBbYJLg
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
-source-wordcount: 233
+workflow-type: tm+mt
+source-wordcount: '233'
 ht-degree: 100%
-
 ---
-
 # Erste Schritte mit Berichten {#get-started-reports}
 
 Unsere umfassende Suite an Reporting-Tools bietet wertvolle Einblicke in die Effektivität Ihrer Marketing-Maßnahmen, sodass Sie Ihre Kampagnen für eine maximale Wirkung optimieren können. Von Versandraten bis hin zu Öffnungs- und Klickraten bietet unsere Reporting-Suite alles, was Sie benötigen, um datengestützte Entscheidungen zu treffen, die zu Ergebnissen führen.
@@ -45,7 +47,7 @@ Adobe Campaign bietet drei unterschiedliche Arten von Berichten:
 </td>
 <td>
 <a href="delivery-reports.md">
-<img alt="[Erkenntnisse aus Versandberichten]" src="assets/do-not-localize/email_report.jpeg">
+<img alt="[Erkenntnisse zu Versandberichten]" src="assets/do-not-localize/email_report.jpeg">
 </a>
 <div><a href="delivery-reports.md"><strong>Versandberichte</strong>
 </div>

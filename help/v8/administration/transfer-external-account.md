@@ -5,16 +5,17 @@ exl-id: 6daa35c2-21cf-4121-ba57-3749e1ed9c2d
 TQID: https://experienceleague.adobe.com/3bDvcavO8Ias-8gWnaSJr6GAo-Otn9l-W5Qx7uCOaWg
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
-source-wordcount: 743
+workflow-type: tm+mt
+source-wordcount: '743'
 ht-degree: 100%
-
 ---
-
 # Übertragen von Daten mit externen Konten {#transfer-external-account}
 
 ## Amazon Simple Storage Service (S3) {#amazon-simple-storage-service--s3--external-account}
@@ -95,9 +96,9 @@ Um das externe Konto **[!UICONTROL SFTP]** zu konfigurieren, füllen Sie folgend
 
   Wählen Sie die Methode zur Authentifizierung beim SFTP-Server aus. Zu den Optionen gehören:
 
-   * **[!UICONTROL Passwort]**: Authentifizierung mit dem Passwort des Kontos.
+  * **[!UICONTROL Passwort]**: Authentifizierung mit dem Passwort des Kontos.
 
-   * **[!UICONTROL Öffentlicher Schlüssel]**: Authentifizierung mithilfe eines SSH-Schlüsselpaars (privater und öffentlicher Schlüssel).
+  * **[!UICONTROL Öffentlicher Schlüssel]**: Authentifizierung mithilfe eines SSH-Schlüsselpaars (privater und öffentlicher Schlüssel).
 
 Wenn die Authentifizierung über den **[!UICONTROL öffentlichen Schlüssel]** ausgewählt ist, müssen die folgenden Felder ausgefüllt werden:
 
@@ -141,8 +142,8 @@ Um das externe Konto **[!UICONTROL HTTP]** zu konfigurieren, füllen Sie folgend
 
   Wählen Sie den Authentifizierungstyp für die Verbindung aus. Zu den Optionen gehören:
 
-   * Passwort
-   * Öffentlicher Schlüssel
+  * Passwort
+  * Öffentlicher Schlüssel
 
 Wenn Sie die Authentifizierung über den **[!UICONTROL öffentlichen Schlüssel]** verwenden, geben Sie im Menü **[!UICONTROL Authentifizierung mit öffentlichem Schlüssel]** die erforderlichen Werte für Folgendes ein:
 
@@ -180,7 +181,7 @@ Um das externe Konto **[!UICONTROL FTP]** zu konfigurieren, füllen Sie folgende
 
   Wählen Sie den Verschlüsselungstyp für die Verbindung aus. Zu den Optionen gehören:
 
-   * Standard
-   * POP3 + STARTTLS
-   * POP3 (nicht gesichert)
-   * POP3 (gesichert)
+  * Standard
+  * POP3 + STARTTLS
+  * POP3 (nicht gesichert)
+  * POP3 (gesichert)

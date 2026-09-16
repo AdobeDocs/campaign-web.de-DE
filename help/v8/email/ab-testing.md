@@ -4,12 +4,10 @@ title: Erstellen von Inhaltsexperimenten
 description: Erfahren Sie, wie Sie Inhaltsexperimente in Adobe Campaign Web erstellen
 exl-id: 476aaaef-c4b2-4007-a050-9b88460435a6
 source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1170'
 ht-degree: 100%
-
 ---
-
 # Erstellen von Inhaltsexperimenten {#content-experiment}
 
 >[!CONTEXTUALHELP]
@@ -159,13 +157,13 @@ Beachten Sie beim Erstellen von Inhaltsexperimenten die folgenden Empfehlungen:
 * **Testen Sie jeweils ein Element**: Um möglichst klare Ergebnisse zu erzielen, testen Sie Varianten eines einzelnen Elements (z. B. nur die Betreffzeile oder nur den Inhalt) und nicht mehrerer Elemente gleichzeitig.
 
 * **Wählen Sie eine angemessene Dauer**: Erlauben Sie genügend Zeit für statistische Signifikanz:
-   * Bei Tests der Öffnungsrate: 12–24 Stunden sind normalerweise ausreichend
-   * Bei Tests der Klickrate: 24–48 Stunden oder mehr können erforderlich sein
-   * Größere Zielgruppen benötigen möglicherweise weniger Zeit; kleinere Zielgruppen benötigen möglicherweise mehr Zeit
+  * Bei Tests der Öffnungsrate: 12–24 Stunden sind normalerweise ausreichend
+  * Bei Tests der Klickrate: 24–48 Stunden oder mehr können erforderlich sein
+  * Größere Zielgruppen benötigen möglicherweise weniger Zeit; kleinere Zielgruppen benötigen möglicherweise mehr Zeit
 
 * **Wählen Sie eine angemessene Größe der Zielgruppe**:
-   * Stellen Sie sicher, dass die Zielgruppe für Ihr Experiment (der Prozentsatz, der den Tests zugewiesen wird) groß genug ist, um aussagekräftige Ergebnisse zu erzielen
-   * Allgemeine Richtlinie: Mindestens 1.000 Empfängerinnen und Empfänger pro Abwandlung für zuverlässige Ergebnisse
+  * Stellen Sie sicher, dass die Zielgruppe für Ihr Experiment (der Prozentsatz, der den Tests zugewiesen wird) groß genug ist, um aussagekräftige Ergebnisse zu erzielen
+  * Allgemeine Richtlinie: Mindestens 1.000 Empfängerinnen und Empfänger pro Abwandlung für zuverlässige Ergebnisse
 
 * **Testen Sie regelmäßig, aber nicht übermäßig**: Führen Sie Experimente an wichtigen Kampagnen durch, vermeiden Sie jedoch, jeden einzelnen Versand zu testen, um Ressourcen auf wirkungsvolle Entscheidungen zu konzentrieren.
 

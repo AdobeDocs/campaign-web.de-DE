@@ -3,12 +3,10 @@ title: Arbeiten mit benutzerdefinierten Formularen
 description: Erfahren Sie, wie Sie Einträge in benutzerdefinierten Schemata mithilfe von Dateneingabeformularen erstellen, bearbeiten und verwalten.
 exl-id: c997d676-bfe1-4e28-9e11-41e902a782c1
 source-git-commit: 9d7ff3bc648567640ef501bff2228e5c6cff25bc
-workflow-type: ht
-source-wordcount: '416'
-ht-degree: 100%
-
+workflow-type: tm+mt
+source-wordcount: '442'
+ht-degree: 93%
 ---
-
 # Arbeiten mit benutzerdefinierten Formularen {#custom-forms}
 
 Benutzerdefinierte Formulare sind Dateneingabeschnittstellen, mit denen Sie Einträge in benutzerdefinierten Schemata direkt über die Web-Benutzeroberfläche verwalten können. Jedes benutzerdefinierte Formular entspricht einem bestimmten benutzerdefinierten Schema und bietet eine Listenansicht zum Durchsuchen von Einträgen und eine Detailansicht zum Erstellen, Bearbeiten und Löschen von Einträgen.
@@ -49,7 +47,7 @@ Erstellen Sie Ordner im Explorer, um auf Ihr benutzerdefiniertes Formular zuzugr
 
 ![Benutzerdefinierte Formulare](assets/schemas-forms3.png)
 
-Die Listenansicht zeigt alle Einträge für dieses Schema an. Wenn für das Schema eine Formulardefinition konfiguriert ist, kann die Liste bearbeitet werden und Sie können Einträge erstellen, bearbeiten und löschen.
+Die Listenansicht zeigt alle Datensätze für dieses Schema an. Wenn für das Schema eine Formulardefinition konfiguriert ist, kann die Liste bearbeitet werden und Sie können Datensätze erstellen, bearbeiten und löschen.
 ![Benutzerdefinierte Formulare](assets/schemas-forms4.png)
 
 Anschließend können Sie:

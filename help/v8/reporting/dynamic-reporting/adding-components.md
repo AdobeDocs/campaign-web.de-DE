@@ -5,12 +5,10 @@ audience: end-user
 level: Intermediate
 exl-id: 2b22f147-ed75-40ca-8859-8f4b23bca7c3
 source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '286'
 ht-degree: 100%
-
 ---
-
 # Komponenten hinzufügen{#adding-components}
 
 Mit Komponenten können Sie Ihren Berichten unterschiedliche Dimensionen, Messwerte und Zeiträume hinzufügen.

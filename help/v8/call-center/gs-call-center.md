@@ -6,18 +6,20 @@ exl-id: d176c1ef-875f-4bea-9cc3-d568cf5cf55a
 TQID: https://experienceleague.adobe.com/os1kiaEhDXlLEivI4yRz4tRpMkZqYQAQ59Ccr7HTJy4
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
-source-wordcount: 233
+workflow-type: tm+mt
+source-wordcount: '233'
 ht-degree: 100%
-
 ---
-
 # Erste Schritte mit dem Callcenter-Kanal {#gs-call-center}
 
 Mit dem Callcenter-Kanal können Sie bestimmte Kontaktlisten für ausgehende Telefonkampagnen direkt über die Adobe Campaign Web-Benutzeroberfläche exportieren. Verwenden Sie diesen Kanal, um Anrufe über interne Teams oder externe Kontaktzentren zu koordinieren.

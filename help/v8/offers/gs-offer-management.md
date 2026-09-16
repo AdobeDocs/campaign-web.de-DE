@@ -5,15 +5,15 @@ description: Erfahren Sie, wie Sie Angebote in Adobe Campaign Web verwalten.
 feature: Offers
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: 58c94bacd8eaf86f9f90a4c641f42bd04a442fab
-workflow-type: ht
-source-wordcount: 763
+workflow-type: tm+mt
+source-wordcount: '763'
 ht-degree: 100%
-
 ---
-
 # Erste Schritte mit der Angebotsverwaltung {#gs-offer-management}
 
 Mit dieser Funktion können Sie Ihren Sendungen personalisierte Angebote hinzufügen und für jedes Profil in einem bestimmten Kontext das relevanteste Angebot präsentieren. Angebote können eine einfache Kommunikationsnachricht oder Werbeaktionen für ein oder mehrere Produkte sein. Basierend auf den Eignungsregeln und Prioritätsgewichtungen wählt das Angebotsmodul den besten Vorschlag aus.

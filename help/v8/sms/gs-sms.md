@@ -6,15 +6,15 @@ exl-id: 642c4180-0439-43dd-ba3f-0c4843bbfe84
 TQID: https://experienceleague.adobe.com/o-0MeELRewgw68-diUevmn9qDYgEK8rzDlHv54Kx00A
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
-source-wordcount: 173
+workflow-type: tm+mt
+source-wordcount: '173'
 ht-degree: 100%
-
 ---
-
 # Erste Schritte mit SMS-Sendungen {#sms}
 
 SMS-Sendungen bieten eine praktische und effiziente Möglichkeit, Textnachrichten an die Mobilgeräte Ihrer Kundinnen und Kunden zu senden. Mit dieser Funktion können Sie textbasierte Nachrichten erstellen, personalisieren und in der Vorschau anzeigen, um eine effektive Kommunikation zu gewährleisten.
@@ -43,7 +43,7 @@ Der SMS-Kanal bietet drei Methoden zur Erstellung von SMS-Sendungen:
 <img alt="Gestalten eines SMS-Versands" src="assets/do-not-localize/design_sms.png">
 </a>
 <div>
-<a href="content-sms.md"><strong>Gestalten eines SMS-Versands<strong></strong></a>
+<a href="content-sms.md"><strong>Entwerfen eines SMS-Versands<strong></strong></a>
 </div>
 <p></td>
 <td>

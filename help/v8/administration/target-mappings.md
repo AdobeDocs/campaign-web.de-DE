@@ -5,19 +5,21 @@ exl-id: 144d5650-9632-4af3-b64e-f6e81503a621
 TQID: https://experienceleague.adobe.com/z1xVr4EklA-E-ftQfChptYCaC0zYrdY0Ykr-cDI8sM8
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+    internal-label: Schemas
 subfeature_v2:
   - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
+    internal-label: PI
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
-source-wordcount: 781
+workflow-type: tm+mt
+source-wordcount: '781'
 ht-degree: 100%
-
 ---
-
 # Verwalten von Zielgruppen-Mappings {#target-mappings}
 
 >[!CONTEXTUALHELP]
@@ -105,16 +107,16 @@ Nach der Erstellung Ihres Zielgruppen-Mappings werden auf dem Bildschirm zwei zu
 
   ![Abschnitt „Speicher“ mit Tabellenoptionen für Protokolle](assets/target-mappings-storage.png)
 
-   * **[!UICONTROL Nachrichtenschema]**: Gibt das Schema an, das zum Speichern der Versandprotokolle verwendet werden soll.
-   * **[!UICONTROL Ausgeschlossene Nachrichten]**: Legt fest, wie der Speicher für Versand- und Ausschlussprotokolle verwaltet wird.
+  * **[!UICONTROL Nachrichtenschema]**: Gibt das Schema an, das zum Speichern der Versandprotokolle verwendet werden soll.
+  * **[!UICONTROL Ausgeschlossene Nachrichten]**: Legt fest, wie der Speicher für Versand- und Ausschlussprotokolle verwaltet wird.
 
-      * **[!UICONTROL Ausschlüsse und Nachrichten in derselben Tabelle speichern]**
-      * **[!UICONTROL Nur Nachrichten speichern]**: Ausschlüsse werden nicht gespeichert.
-      * **[!UICONTROL Ausschlüsse und Nachrichten in separaten Tabellen speichern]**: Wählen Sie das Schema aus, das zum Speichern der Ausschlussprotokolle im Feld **[!UICONTROL Zurückweisungsschema]** verwendet werden soll.
+    * **[!UICONTROL Ausschlüsse und Nachrichten in derselben Tabelle speichern]**
+    * **[!UICONTROL Nur Nachrichten speichern]**: Ausschlüsse werden nicht gespeichert.
+    * **[!UICONTROL Ausschlüsse und Nachrichten in separaten Tabellen speichern]**: Wählen Sie das Schema aus, das zum Speichern der Ausschlussprotokolle im Feld **[!UICONTROL Zurückweisungsschema]** verwendet werden soll.
 
-   * **[!UICONTROL Trackinglogs]**: Wählen Sie aus, wo Trackinglogs und die Standard-Traffic-Quelle gespeichert werden sollen.
-   * **[!UICONTROL Zusätzliche Felder]**: Geben Sie eine Liste mit zusätzlichen Feldern an, die in den Versandlogs gespeichert werden sollen. Diese Felder können dauerhaft Informationen über einzelne Mitglieder der Zielgruppe speichern (z. B. `recipient/@firstName`) oder zusätzliche Daten, die während des Workflows berechnet werden (z. B. `[targetData/@offeCode]`).
+  * **[!UICONTROL Trackinglogs]**: Wählen Sie aus, wo Trackinglogs und die Standard-Traffic-Quelle gespeichert werden sollen.
+  * **[!UICONTROL Zusätzliche Felder]**: Geben Sie eine Liste mit zusätzlichen Feldern an, die in den Versandlogs gespeichert werden sollen. Diese Felder können dauerhaft Informationen über einzelne Mitglieder der Zielgruppe speichern (z. B. `recipient/@firstName`) oder zusätzliche Daten, die während des Workflows berechnet werden (z. B. `[targetData/@offeCode]`).
 
-     Wählen Sie dazu **[!UICONTROL Feld hinzufügen]**. Geben Sie die zu speichernden Informationen im Feld **[!UICONTROL Quelle]** und das Attribut, das in den Versandlogs zum Speichern dieser Informationen verwendet werden soll, im Feld **[!UICONTROL Ziel]** ein.
+    Wählen Sie dazu **[!UICONTROL Feld hinzufügen]**. Geben Sie die zu speichernden Informationen im Feld **[!UICONTROL Quelle]** und das Attribut, das in den Versandlogs zum Speichern dieser Informationen verwendet werden soll, im Feld **[!UICONTROL Ziel]** ein.
 
-     ![Abschnitt „Zusätzliche Felder“ mit Optionen zum Speichern zusätzlicher Daten](assets/target-mappings-additional.png){width="50%" zoomable="yes"}
+    ![Abschnitt „Zusätzliche Felder“ mit Optionen zum Speichern zusätzlicher Daten](assets/target-mappings-additional.png){width="50%" zoomable="yes"}

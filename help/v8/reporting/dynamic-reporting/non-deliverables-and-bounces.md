@@ -5,12 +5,10 @@ audience: end-user
 level: Intermediate
 exl-id: 325a03dc-1b28-4418-921f-64c029fa8989
 source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '128'
 ht-degree: 100%
-
 ---
-
 # Unzustellbare Nachrichten und Bounces{#non-deliverables-and-bounces}
 
 Der Bericht **[!UICONTROL Unzustellbare Nachrichten und Bounces]** enthält Informationen zu allen beim Versand aufgetretenen Fehlern.

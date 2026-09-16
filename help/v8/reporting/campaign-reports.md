@@ -6,17 +6,18 @@ exl-id: 6a25a636-35d6-44c8-8635-7aec683af1f6
 TQID: https://experienceleague.adobe.com/wabkxP1ZzkHbK3A8FUFFE0TKdlqvMrhE6PMzLuZaPbU
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
-source-wordcount: 315
+workflow-type: tm+mt
+source-wordcount: '315'
 ht-degree: 100%
-
 ---
-
 # Erste Schritte mit Kampagnenberichten {#campaign-reports}
 
 **Kampagnenberichte** bieten einen umfassenden Überblick über Ihre **Kampagne** und enthalten alle relevanten Informationen zu den verschiedenen zugehörigen Sendungen. Diese Berichte enthalten eine ausführliche Analyse der Leistung jedes Versands pro Kanal: Erfolgsraten, Zielgruppeninteraktion und andere Schlüsselmetriken. Sie ermöglichen es Ihnen, die Effektivität und Wirkung Ihrer Kampagne insgesamt zu bewerten.

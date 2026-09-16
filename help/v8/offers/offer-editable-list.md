@@ -5,15 +5,15 @@ description: Erfahren Sie, wie Sie einen benutzerdefinierten Sammlungs-Link als 
 feature: Offers
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: 043cc60da1938800404964aa7e698f959ef908fd
-workflow-type: ht
-source-wordcount: 449
+workflow-type: tm+mt
+source-wordcount: '449'
 ht-degree: 100%
-
 ---
-
 # Hinzufügen einer bearbeitbaren Liste zum Angebotsschema {#offer-editable-list}
 
 Wenn Sie das [ [!DNL nms:offer] Schema](../administration/schemas.md) mit einem benutzerdefinierten Sammlungs-Link erweitern, z. B. mit einer Reihe von Segmenten, die mit einem Angebot verknüpft sind, können Sie es direkt im Abschnitt **[!UICONTROL Benutzerdefinierte Optionen]** des Angebots als bearbeitbare Liste anzeigen. Anstatt die zugehörigen Einträge über einen separaten Bildschirm zu verwalten, wird die Sammlung als Liste in den Angebotsdetails gerendert, und Sie können neue zugehörige Einträge direkt über ein spezielles Dialogfeld erstellen.

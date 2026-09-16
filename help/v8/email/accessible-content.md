@@ -10,22 +10,26 @@ exl-id: ddfa989b-8a30-4912-bed6-cc1ee7fa2eaa
 TQID: https://experienceleague.adobe.com/TdKnrX1xVgdzvOq9npp-UR2GlDYA2RBmCLumqg2cjjY
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: b631758a-142d-425f-b9aa-f756d85cb979
+    internal-label: Campaign Email Designer
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
-source-wordcount: 1687
-ht-degree: 100%
-
+workflow-type: tm+mt
+source-wordcount: '1690'
+ht-degree: 97%
 ---
-
 # Gestalten barrierefreier Inhalte {#accessible-content}
 
 Die [EU-Richtlinie zur Barrierefreiheit](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"} soll die Beseitigung von Hindernissen, die durch unterschiedliche nationale Vorschriften in den Mitgliedstaaten verursacht werden, den Binnenmarkt für barrierefreie Produkte und Dienstleistungen verbessern.
@@ -59,8 +63,8 @@ Befolgen Sie für Schriftarten und Text die folgenden Leitlinien:
 
 **Farbkontrast**
 
-* Wahren Sie zwischen Text und Hintergrund ein Kontrastverhältnis von mindestens 4,5 :1.
-* Achten Sie bei großem Text (≥24 Pixel oder 18 Pixel fett) auf einen Kontrast von mindestens 3 :1.
+* Zwischen Text und Hintergrund ein Kontrastverhältnis von mindestens 4,5:1 beibehalten.
+* Achten Sie bei großem Text (≥24 Pixel oder fett 18 Pixel) auf einen Kontrast von mindestens 3:1.
 * Vermeiden Sie hellgrauen oder pastellfarbenen Text auf weißem Hintergrund.
 * Verlassen Sie sich nicht allein auf Farbe, um Bedeutung zu vermitteln, sondern verwenden Sie auch Unterstreichungen, Symbole usw.
 
@@ -338,40 +342,40 @@ Durch die Bereitstellung von Tastaturnavigation und Fokusunterstützung können 
 
 * Fokus über die Tastatur
 
-   * Sorgen Sie dafür, dass alle interaktiven Elemente (z. B. Schaltflächen, Kontrollkästchen, Links) `tabindex="0"` aufweisen, damit sie in der natürlichen Registerkartenreihenfolge enthalten sind.
+  * Sorgen Sie dafür, dass alle interaktiven Elemente (z. B. Schaltflächen, Kontrollkästchen, Links) `tabindex="0"` aufweisen, damit sie in der natürlichen Registerkartenreihenfolge enthalten sind.
 
-   * Ermöglichen Sie Navigation mithilfe der Tabulatortaste und der Pfeiltasten (↑ ↓ ← →), wobei das fokussierte Element sichtbar hervorgehoben werden sollte.
+  * Ermöglichen Sie Navigation mithilfe der Tabulatortaste und der Pfeiltasten (↑ ↓ ← →), wobei das fokussierte Element sichtbar hervorgehoben werden sollte.
 
 * Benutzerdefinierter Fokusstil
 
-   * Wenden Sie klare und unterscheidbare Stile an, um den Fokus auf umsetzbare Elemente zu lenken:
+  * Wenden Sie klare und unterscheidbare Stile an, um den Fokus auf umsetzbare Elemente zu lenken:
 
-     +++Beispiel (CSS)
+    +++Beispiel (CSS)
 
-     ```
-     [tabindex="0"] : focus { 
-     
-     outline: 2px solid #00AEEF;  /* Cyan border */ 
-     
-     background-color: #20CEFF;   /* Optional background */ 
-     
-     }
-     ```
+    ```
+    [tabindex="0"] : focus { 
+    
+    outline: 2px solid #00AEEF;  /* Cyan border */ 
+    
+    background-color: #20CEFF;   /* Optional background */ 
+    
+    }
+    ```
 
-     +++
+    +++
 
-   * Stellen Sie sicher, dass Fokusindikatoren den WCAG 2.2-Standards für das Erscheinungsbild von Fokussen entsprechen, einschließlich:
+  * Stellen Sie sicher, dass Fokusindikatoren den WCAG 2.2-Standards für das Erscheinungsbild von Fokussen entsprechen, einschließlich:
 
-      * Mindestfläche: 2 CSS-Pixel dicke Kontur.
+    * Mindestfläche: 2 CSS-Pixel dicke Kontur.
 
-      * Kontrastverhältnis: ≥ 3:1 zwischen fokussiertem und unfokussiertem Status.
+    * Kontrastverhältnis: ≥ 3:1 zwischen fokussiertem und unfokussiertem Zustand.
 
 * Unterstützung für Tastaturaktivierung
 
-   * Sorgen Sie dafür, dass Kontrollkästchen und Schaltflächen auf die Eingabetaste und Leertaste reagieren.
+  * Sorgen Sie dafür, dass Kontrollkästchen und Schaltflächen auf die Eingabetaste und Leertaste reagieren.
 
-   * Validieren Sie Interaktion nur mit der Tastatur:
+  * Validieren Sie Interaktion nur mit der Tastatur:
 
-      * Bei Verwendung der Eingabetaste oder Leertaste sollten Kontrollkästchen aktiviert bzw. deaktiviert werden.
+    * Bei Verwendung der Eingabetaste oder Leertaste sollten Kontrollkästchen aktiviert bzw. deaktiviert werden.
 
-      * Die Eingabe- oder Leertaste sollten Schaltflächen auslösen.
+    * Die Eingabe- oder Leertaste sollten Schaltflächen auslösen.
