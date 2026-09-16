@@ -1,60 +1,179 @@
----
-audience: end-user
-product: campaign
-title: C2PA-Metadaten in E-Mail und Landingpage-Designer
-description: Erfahren Sie, was mit C2PA-Metadaten passiert, die bereits an ein Bild angehängt sind, wenn es durch den E-Mail- und Landingpage-Designer in der Web-Benutzeroberfläche von Adobe Campaign navigiert.
-topic: Content Management
-role: User
-level: Beginner
-source-git-commit: 645352d9e2ba12d5430ddf1b62852077344c3016
-workflow-type: tm+mt
-source-wordcount: '536'
-ht-degree: 1%
-
----
-
-
-# C2PA-Metadaten in E-Mail und Landingpage-Designer {#c2pa-email-landing-page-designer}
-
->[!BEGINSHADEBOX]
-
-**Auf dieser Seite:** Erfahren Sie, was mit C2PA-Metadaten passiert, die bereits an ein Bild angehängt sind, wenn es durch den E-Mail- und Landingpage-Designer in der Web-Benutzeroberfläche von Adobe Campaign navigiert.
-
->[!ENDSHADEBOX]
-
->[!INFO]
->
->Im Bereich der generativen KI-Transparenz entstehen neue Gesetze, und Adobe arbeitet daran, die geltenden Anforderungen in allen Rechtssystemen zu erfüllen. C2PA-Metadaten sind das Herkunftstool, das Adobe verwendet, um die Anforderungen dieser Gesetze zu erfüllen.
-
-Der E-Mail- und Landingpage-Designer generiert oder bearbeitet keine Bilder selbst. Sie verweist auf Bilder, die bereits mit generativer KI in einem anderen Adobe-Tool, z. B. „Inhalt generieren“, &quot;Adobe Express&quot; oder &quot;Firefly&quot;, oder in einem Partnermodell generiert oder bearbeitet wurden. An diese Bilder bereits angehängte C2PA-Metadaten bleiben beim Erstellen, Veröffentlichen und Senden unverändert.
-
-## C2PA-Metadaten werden beim Erstellen und Senden beibehalten {#c2pa-preserved}
-
-In der folgenden Tabelle ist zusammengefasst, was mit C2PA-Metadaten bei jedem Schritt des Erstellens und Sendens von Inhalten mit dem E-Mail- und Landingpage-Designer passiert.
-
-| Aktion | Was passiert? | C2PA-Metadaten beibehalten? | Beispiel |
-| --- | --- | --- | --- |
-| **Einfügen eines Bildes in eine Vorlage** | Der Designer fügt einen Verweis auf ein Bild hinzu, das bereits an anderer Stelle mit generativer KI generiert oder bearbeitet wurde, z. B. „Inhalt generieren“, Adobe Express, Firefly oder ein Partnermodell. Die Bilddatei selbst wird nicht geändert. | Ja, unverändert | Ein von Firefly generiertes Banner wird in eine E-Mail-Vorlage eingefügt. |
-| **Größe ändern, neu positionieren oder alternativen Text hinzufügen** | Nur Eigenschaften anzeigen, die sich in der HTML-Änderung der Vorlage befinden. Die Bilddatei wird nicht neu kodiert. | Ja, unverändert | Die Größe eines Bildes wird an ein Layout für Mobilgeräte angepasst, und es wird Alternativtext angegeben. |
-| **Veröffentlichen** | Die E-Mail oder Landingpage wird veröffentlicht und das Bild wird für den Versand gespeichert. | Ja, unverändert | Eine Kampagne wird veröffentlicht und ihre Bilder werden zum Versand gespeichert. |
-| **Senden einer E-Mail oder Anzeigen einer Landingpage** | Das Bild wird an den Posteingang der Empfängerin bzw. des Empfängers gesendet oder auf der Live-Seite angezeigt. | Ja, unverändert | Ein Empfänger öffnet die E-Mail und lädt das Bild herunter. Die Anmeldedaten stimmen weiterhin mit dem Original überein. |
-
-## Inhaltstypen und ihr Umfang {#c2pa-content-types}
-
-* **Bilder**: Überdeckt. Bereits an ein Bild angehängte C2PA-Metadaten werden beim Einfügen, Anpassen, Veröffentlichen und Bereitstellen beibehalten, wie oben gezeigt.
-* **Video, Audio, Text**: Nicht zutreffend. Der E-Mail- und Landingpage-Designer generiert oder bearbeitet diese Inhaltstypen nicht mit generativer KI.
-
-## Was passiert, wenn Inhalte verschoben werden? {#c2pa-content-moves}
-
-C2PA-Metadaten bewegen sich mit dem Bild durch den E-Mail- und Landingpage-Designer in der Adobe Campaign-Web-Benutzeroberfläche, von Ihrem Editor über die Speicherung zum Posteingang der Empfängerin oder zur Live-Seite. Bei keinem dieser Schritte werden Anmeldeinformationen erstellt, geändert oder entfernt.
-
-Wenn ein Bild keine C2PA-Metadaten für generative KI enthält, da es nicht mit generativer KI generiert oder bearbeitet wurde, werden hier keine Anmeldeinformationen angezeigt. Dies ist ein erwarteter Fehler, kein Fehler.
-
-## Überprüfen einer Berechtigung {#c2pa-checking-credential}
-
-Es gibt noch keine Möglichkeit, eine Content Credential direkt im E-Mail- oder Landingpage-Designer zu überprüfen.
-
-## Zusätzliche Ressourcen
-
-* [Arbeiten mit der Funktion „Inhalt erzeugen“](generative-gs.md)
-* [Transparenz des generativen KI-Inhalts](https://experienceleague.adobe.com/de/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency)
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" version="1.2" its:version="2.0">
+<file original="help/v8/content/c2pa-metadata-email-designer.md.mdsc" source-language="en-US" target-language="en-XX" datatype="x-text/markdown">
+<body>
+<trans-unit id="tu1" restype="x-YAML_METADATA_HEADER_VALUE" xml:space="preserve">
+<source xml:lang="en-US">C2PA metadata in Email and Landing Page Designer</source>
+<target xml:lang="en-XX">C2PA-Metadaten im E-Mail- und Landingpage-Designer</target>
+</trans-unit>
+<trans-unit id="tu2" restype="x-YAML_METADATA_HEADER_VALUE" xml:space="preserve">
+<source xml:lang="en-US">Learn what happens to C2PA metadata already attached to an image as it moves through the email and landing page designer in Adobe Campaign Web User Interface.</source>
+<target xml:lang="en-XX">Erfahren Sie, was mit C2PA-Metadaten passiert, die bereits an ein Bild angehängt sind, wenn es den E-Mail- und Landingpage-Designer in der Web-Benutzeroberfläche von Adobe Campaign durchläuft.</target>
+</trans-unit>
+<trans-unit id="tu3" xml:space="preserve">
+<source xml:lang="en-US">C2PA metadata in Email and Landing Page Designer</source>
+<target xml:lang="en-XX">C2PA-Metadaten im E-Mail- und Landingpage-Designer</target>
+</trans-unit>
+<trans-unit id="tu4" xml:space="preserve">
+<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="[!BEGINSHADEBOX">[!BEGINSHADEBOX]</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="[!BEGINSHADEBOX">[!BEGINSHADEBOX]</ph></target>
+</trans-unit>
+<trans-unit id="tu5" xml:space="preserve">
+<source xml:lang="en-US"><ph id="1" ctype="x-STRONG_EMPHASIS">**</ph>On this page:<ph id="2" ctype="x-STRONG_EMPHASIS">**</ph> Learn what happens to C2PA metadata already attached to an image as it moves through the email and landing page designer in Adobe Campaign Web User Interface.</source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-STRONG_EMPHASIS">**</ph>Auf dieser Seite:<ph id="2" ctype="x-STRONG_EMPHASIS">**</ph> Erfahren Sie, was mit C2PA-Metadaten passiert, die bereits an ein Bild angehängt sind, wenn es den E-Mail- und Landingpage-Designer in der Web-Benutzeroberfläche von Adobe Campaign durchläuft.</target>
+</trans-unit>
+<trans-unit id="tu6" xml:space="preserve">
+<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="[!ENDSHADEBOX">[!ENDSHADEBOX]</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="[!ENDSHADEBOX">[!ENDSHADEBOX]</ph></target>
+</trans-unit>
+<trans-unit id="tu7" xml:space="preserve">
+<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="[!INFO">[!INFO]</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="[!INFO">[!INFO]</ph></target>
+</trans-unit>
+<trans-unit id="tu8" xml:space="preserve">
+<source xml:lang="en-US">New laws are emerging around generative AI transparency, and Adobe is working to meet applicable requirements across jurisdictions. C2PA metadata are the provenance tool Adobe uses to meet the requirements of these laws.</source>
+<target xml:lang="en-XX">In Bezug auf die Transparenz generativer KI entstehen laufend neue Gesetze und Adobe arbeitet daran, die geltenden Anforderungen in allen Gerichtsbarkeiten zu erfüllen. C2PA-Metadaten sind das Herkunfts-Tool, das Adobe verwendet, um die Anforderungen dieser Gesetze zu erfüllen.</target>
+</trans-unit>
+<trans-unit id="tu9" xml:space="preserve">
+<source xml:lang="en-US">The email and landing page designer does not generate or edit images itself. It references images that were already generated or edited with generative AI in another Adobe tool, such as Generate Content, Adobe Express, or Firefly, or in a partner model. C2PA metadata already attached to those images are preserved and unchanged as you build, publish, and send.</source>
+<target xml:lang="en-XX">Der E-Mail- und Landingpage-Designer generiert oder bearbeitet keine Bilder selbst. Er verweist auf Bilder, die bereits mit generativer KI in einem anderen Adobe-Tool, z. B. „Inhalt generieren“, Adobe Express oder Firefly, bzw. in einem Partnermodell generiert oder bearbeitet wurden. Bereits an diese Bilder angehängte C2PA-Metadaten bleiben beim Erstellen, Veröffentlichen und Senden unverändert.</target>
+</trans-unit>
+<trans-unit id="tu10" xml:space="preserve">
+<source xml:lang="en-US">C2PA metadata are preserved as you build and send</source>
+<target xml:lang="en-XX">C2PA-Metadaten werden beim Erstellen und Senden beibehalten</target>
+</trans-unit>
+<trans-unit id="tu11" xml:space="preserve">
+<source xml:lang="en-US">The following table summarizes what happens to C2PA metadata at each step of building and sending content with the email and landing page designer.</source>
+<target xml:lang="en-XX">In der folgenden Tabelle ist zusammengefasst, was mit C2PA-Metadaten bei jedem Schritt des Erstellens und Sendens von Inhalten mit dem E-Mail- und Landingpage-Designer passiert.</target>
+</trans-unit>
+<trans-unit id="tu12" restype="x-TABLECELL_TEXT" xml:space="preserve">
+<source xml:lang="en-US">Action</source>
+<target xml:lang="en-XX">Aktion</target>
+</trans-unit>
+<trans-unit id="tu13" restype="x-TABLECELL_TEXT" xml:space="preserve">
+<source xml:lang="en-US">What happens</source>
+<target xml:lang="en-XX">Was passiert</target>
+</trans-unit>
+<trans-unit id="tu14" restype="x-TABLECELL_TEXT" xml:space="preserve">
+<source xml:lang="en-US">C2PA metadata preserved?</source>
+<target xml:lang="en-XX">C2PA-Metadaten beibehalten?</target>
+</trans-unit>
+<trans-unit id="tu15" restype="x-TABLECELL_TEXT" xml:space="preserve">
+<source xml:lang="en-US">Example</source>
+<target xml:lang="en-XX">Beispiel</target>
+</trans-unit>
+<trans-unit id="tu16" restype="x-TABLECELL_TEXT" xml:space="preserve">
+<source xml:lang="en-US"><ph id="1" ctype="x-STRONG_EMPHASIS">**</ph>Insert an image into a template<ph id="2" ctype="x-STRONG_EMPHASIS">**</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-STRONG_EMPHASIS">**</ph>Einfügen eines Bildes in eine Vorlage<ph id="2" ctype="x-STRONG_EMPHASIS">**</ph></target>
+</trans-unit>
+<trans-unit id="tu17" restype="x-TABLECELL_TEXT" xml:space="preserve">
+<source xml:lang="en-US">The designer adds a reference to an image already generated or edited with generative AI elsewhere, such as Generate Content, Adobe Express, Firefly, or a partner model. The image file itself is not changed.</source>
+<target xml:lang="en-XX">Der Designer fügt einen Verweis auf ein Bild hinzu, das bereits an anderer Stelle mit generativer KI generiert oder bearbeitet wurde, z. B. mit „Inhalt generieren“, Adobe Express, Firefly oder einem Partnermodell. Die Bilddatei selbst wird nicht geändert.</target>
+</trans-unit>
+<trans-unit id="tu18" restype="x-TABLECELL_TEXT" xml:space="preserve">
+<source xml:lang="en-US">Yes, unchanged</source>
+<target xml:lang="en-XX">Ja, unverändert</target>
+</trans-unit>
+<trans-unit id="tu19" restype="x-TABLECELL_TEXT" xml:space="preserve">
+<source xml:lang="en-US">A Firefly-generated banner is inserted into an email template.</source>
+<target xml:lang="en-XX">Ein von Firefly generiertes Banner wird in eine E-Mail-Vorlage eingefügt.</target>
+</trans-unit>
+<trans-unit id="tu20" restype="x-TABLECELL_TEXT" xml:space="preserve">
+<source xml:lang="en-US"><ph id="1" ctype="x-STRONG_EMPHASIS">**</ph>Resize, reposition, or add alt text<ph id="2" ctype="x-STRONG_EMPHASIS">**</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-STRONG_EMPHASIS">**</ph>Ändern der Größe, Neupositionieren oder Hinzufügen von Alternativtext<ph id="2" ctype="x-STRONG_EMPHASIS">**</ph></target>
+</trans-unit>
+<trans-unit id="tu21" restype="x-TABLECELL_TEXT" xml:space="preserve">
+<source xml:lang="en-US">Only display properties in the template's HTML change. The image file is not re-encoded.</source>
+<target xml:lang="en-XX">Es ändern sich nur die Anzeigeeigenschaften im HTML-Code der Vorlage. Die Bilddatei wird nicht neu codiert.</target>
+</trans-unit>
+<trans-unit id="tu22" restype="x-TABLECELL_TEXT" xml:space="preserve">
+<source xml:lang="en-US">Yes, unchanged</source>
+<target xml:lang="en-XX">Ja, unverändert</target>
+</trans-unit>
+<trans-unit id="tu23" restype="x-TABLECELL_TEXT" xml:space="preserve">
+<source xml:lang="en-US">An image is resized to fit a mobile layout and given alt text.</source>
+<target xml:lang="en-XX">Die Größe eines Bildes wird an ein Layout für Mobilgeräte angepasst und es wird Alternativtext hinzugefügt.</target>
+</trans-unit>
+<trans-unit id="tu24" restype="x-TABLECELL_TEXT" xml:space="preserve">
+<source xml:lang="en-US"><ph id="1" ctype="x-STRONG_EMPHASIS">**</ph>Publish<ph id="2" ctype="x-STRONG_EMPHASIS">**</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-STRONG_EMPHASIS">**</ph>Veröffentlichen<ph id="2" ctype="x-STRONG_EMPHASIS">**</ph></target>
+</trans-unit>
+<trans-unit id="tu25" restype="x-TABLECELL_TEXT" xml:space="preserve">
+<source xml:lang="en-US">The email or landing page is published, and the image is stored for delivery.</source>
+<target xml:lang="en-XX">Die E-Mail oder Landingpage wird veröffentlicht und das Bild wird für den Versand gespeichert.</target>
+</trans-unit>
+<trans-unit id="tu26" restype="x-TABLECELL_TEXT" xml:space="preserve">
+<source xml:lang="en-US">Yes, unchanged</source>
+<target xml:lang="en-XX">Ja, unverändert</target>
+</trans-unit>
+<trans-unit id="tu27" restype="x-TABLECELL_TEXT" xml:space="preserve">
+<source xml:lang="en-US">A campaign is published and its images are stored for send.</source>
+<target xml:lang="en-XX">Eine Kampagne wird veröffentlicht und ihre Bilder werden zum Versand gespeichert.</target>
+</trans-unit>
+<trans-unit id="tu28" restype="x-TABLECELL_TEXT" xml:space="preserve">
+<source xml:lang="en-US"><ph id="1" ctype="x-STRONG_EMPHASIS">**</ph>Send an email or view a landing page<ph id="2" ctype="x-STRONG_EMPHASIS">**</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-STRONG_EMPHASIS">**</ph>Senden einer E-Mail oder Anzeigen einer Landingpage<ph id="2" ctype="x-STRONG_EMPHASIS">**</ph></target>
+</trans-unit>
+<trans-unit id="tu29" restype="x-TABLECELL_TEXT" xml:space="preserve">
+<source xml:lang="en-US">The image is delivered to the recipient's inbox or displayed on the live page.</source>
+<target xml:lang="en-XX">Das Bild wird an den Posteingang der Empfängerin bzw. des Empfängers gesendet oder auf der Live-Seite angezeigt.</target>
+</trans-unit>
+<trans-unit id="tu30" restype="x-TABLECELL_TEXT" xml:space="preserve">
+<source xml:lang="en-US">Yes, unchanged</source>
+<target xml:lang="en-XX">Ja, unverändert</target>
+</trans-unit>
+<trans-unit id="tu31" restype="x-TABLECELL_TEXT" xml:space="preserve">
+<source xml:lang="en-US">A recipient opens the email and downloads the image; the credential still matches the original.</source>
+<target xml:lang="en-XX">Eine Empfängerin bzw. ein Empfänger öffnet die E-Mail und lädt das Bild herunter. Die Credentials stimmen weiterhin mit dem Original überein.</target>
+</trans-unit>
+<trans-unit id="tu32" xml:space="preserve">
+<source xml:lang="en-US">Content types and their scope</source>
+<target xml:lang="en-XX">Inhaltstypen und ihr Umfang</target>
+</trans-unit>
+<trans-unit id="tu33" xml:space="preserve">
+<source xml:lang="en-US"><ph id="1" ctype="x-STRONG_EMPHASIS">**</ph>Images<ph id="2" ctype="x-STRONG_EMPHASIS">**</ph>: Covered. C2PA metadata already attached to an image are preserved as it is inserted, adjusted, published, and delivered, as shown above.</source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-STRONG_EMPHASIS">**</ph>Bilder<ph id="2" ctype="x-STRONG_EMPHASIS">**</ph>: Abgedeckt. Bereits an ein Bild angehängte C2PA-Metadaten werden beim Einfügen, Anpassen, Veröffentlichen und Bereitstellen beibehalten, wie oben gezeigt.</target>
+</trans-unit>
+<trans-unit id="tu34" xml:space="preserve">
+<source xml:lang="en-US"><ph id="1" ctype="x-STRONG_EMPHASIS">**</ph>Video, audio, text<ph id="2" ctype="x-STRONG_EMPHASIS">**</ph>: Not applicable. The email and landing page designer does not generate or edit these content types with generative AI.</source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-STRONG_EMPHASIS">**</ph>Video, Audio, Text<ph id="2" ctype="x-STRONG_EMPHASIS">**</ph>: Nicht zutreffend. Der E-Mail- und Landingpage-Designer generiert oder bearbeitet diese Inhaltstypen nicht mit generativer KI.</target>
+</trans-unit>
+<trans-unit id="tu35" xml:space="preserve">
+<source xml:lang="en-US">What happens as your content moves</source>
+<target xml:lang="en-XX">Was passiert, wenn Ihre Inhalte verschoben werden</target>
+</trans-unit>
+<trans-unit id="tu36" xml:space="preserve">
+<source xml:lang="en-US">C2PA metadata travel with the image across the email and landing page designer in Adobe Campaign Web User Interface, from your editor through storage to the recipient's inbox or the live page. No credential is created, changed, or removed at any of these steps.</source>
+<target xml:lang="en-XX">C2PA-Metadaten bewegen sich mit dem Bild durch den E-Mail- und Landingpage-Designer in der Web-Benutzeroberfläche von Adobe Campaign und zwar von Ihrem Editor über den Speicher zum Posteingang der Empfängerin bzw. des Empfängers oder zur Live-Seite. Bei keinem dieser Schritte werden Credentials erstellt, geändert oder entfernt.</target>
+</trans-unit>
+<trans-unit id="tu37" xml:space="preserve">
+<source xml:lang="en-US">If an image does not carry generative AI C2PA metadata, because it was not generated or edited with generative AI, no credential appears on it here. That is expected, not an error.</source>
+<target xml:lang="en-XX">Wenn ein Bild keine C2PA-Metadaten für generative KI enthält, da es nicht mit generativer KI generiert oder bearbeitet wurde, werden hier keine Credentials angezeigt. Das ist das erwartete Verhalten und kein Fehler.</target>
+</trans-unit>
+<trans-unit id="tu38" xml:space="preserve">
+<source xml:lang="en-US">Checking a credential</source>
+<target xml:lang="en-XX">Überprüfen von Credentials</target>
+</trans-unit>
+<trans-unit id="tu39" xml:space="preserve">
+<source xml:lang="en-US">There is not yet a way to inspect a Content Credential directly inside the email or landing page designer.</source>
+<target xml:lang="en-XX">Es gibt noch keine Möglichkeit, Content Credentials direkt im E-Mail- oder Landingpage-Designer zu überprüfen.</target>
+</trans-unit>
+<trans-unit id="tu40" xml:space="preserve">
+<source xml:lang="en-US">Additional resources</source>
+<target xml:lang="en-XX">Zusätzliche Ressourcen</target>
+</trans-unit>
+<trans-unit id="tu41" xml:space="preserve">
+<source xml:lang="en-US">Work with Generate Content</source>
+<target xml:lang="en-XX">Arbeiten mit der Funktion „Inhalt generieren“</target>
+</trans-unit>
+<trans-unit id="tu42" xml:space="preserve">
+<source xml:lang="en-US">Generative AI content transparency</source>
+<target xml:lang="en-XX">Transparenz von Inhalten generativer KI</target>
+</trans-unit>
+<trans-unit id="tu43" xml:space="preserve">
+<source xml:lang="en-US">https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency</source>
+<target xml:lang="en-XX">https://experienceleague.adobe.com/de/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency</target>
+</trans-unit>
+</body>
+</file>
+</xliff>
