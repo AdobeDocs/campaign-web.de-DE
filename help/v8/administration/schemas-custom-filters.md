@@ -5,10 +5,8 @@ exl-id: 2c3d4e5f-6a7b-4c8d-9e0f-1a2b3c4d5e6f
 source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
 workflow-type: tm+mt
 source-wordcount: '451'
-ht-degree: 65%
-
+ht-degree: 100%
 ---
-
 # Hinzufügen benutzerdefinierter Filter {#custom-filters}
 
 Im Abschnitt **[!UICONTROL Konfiguration der Bestandsliste]** > **[!UICONTROL Benutzerdefinierte Filter]** können Sie auswählen, welche Attribute als Schnellzugriffsfelder im [Filterbereich](../query/filter.md) der Listenansicht eines Schemas über dem Regel-Builder **[!UICONTROL Erweiterte Filter]** angezeigt werden.
@@ -35,7 +33,7 @@ Weitere Informationen zum Bildschirm „Bildschirmdefinition“ und zum Zugriff 
 
    ![Attributauswahl mit direkten Attributen und Link-Unterattributen](assets/schemas-custom-filters2.png)
 
-1. Klicken Sie auf **[!UICONTROL Speichern]**. Sie können benutzerdefinierte Filter mithilfe der Pfeile nach oben und unten oder durch Ziehen neu anordnen. Um einen Filter zu entfernen, klicken Sie auf das Symbol mit den Auslassungspunkten in der Zeile und wählen Sie **[!UICONTROL Löschen]** aus.
+1. Klicken Sie auf **[!UICONTROL Speichern]**. Sie können benutzerdefinierte Filter mithilfe der Aufwärts- und Abwärtspfeile oder durch Ziehen neu anordnen. Um einen Filter zu entfernen, klicken Sie auf das Symbol mit den Auslassungspunkten in der Zeile und wählen Sie **[!UICONTROL Löschen]** aus.
 
 1. Navigieren Sie zur Liste der Einträge für dieses Schema und öffnen Sie den Filterbereich. Die ausgewählten Attribute werden als **[!UICONTROL benutzerdefinierte Filter]** über dem Regel-Builder **[!UICONTROL Erweiterte Filter]** angezeigt.
 
@@ -53,14 +51,14 @@ Bei einem benutzerdefinierten Filter, der auf einem Link-Attribut basiert, könn
 
 >[!NOTE]
 >
->Die **[!UICONTROL Bearbeiten]** unten beschriebene Option ist nur für benutzerdefinierte Filter verfügbar, die auf einem Link-Attribut basieren. Benutzerdefinierte Filter, die auf anderen Attributtypen basieren, können nur neu angeordnet oder entfernt werden.
+>Die unten beschriebene Option **[!UICONTROL Bearbeiten]** ist nur für benutzerdefinierte Filter verfügbar, die auf einem Link-Attribut basieren. Benutzerdefinierte Filter, die auf anderen Attributtypen basieren, können nur neu angeordnet oder entfernt werden.
 
-1. Klicken Sie in der Zeile eines benutzerdefinierten Filters vom Typ Link auf das Symbol mit den Auslassungspunkten und wählen Sie **[!UICONTROL Bearbeiten]** aus.
+1. Klicken Sie in der Zeile eines benutzerdefinierten Filters vom Typ „Link“ auf das Symbol mit den Auslassungspunkten und wählen Sie **[!UICONTROL Bearbeiten]** aus.
 
    ![Option „Bearbeiten“ für einen benutzerdefinierten Filter vom Typ „Link“](assets/schemas-custom-filters4.png)
 
-1. Klicken Sie auf **[!UICONTROL Registerkarte]** Filtereinstellungen) auf **[!UICONTROL Filter bearbeiten]** und verwenden Sie den Abfrage-Modellierer, um eine Bedingung zu definieren, die die in der Auswahl verfügbaren Werte einschränkt. Sie können beispielsweise einen Versandfilter auf Sendungen beschränken, die den E-Mail-Kanal verwenden.
+1. Klicken Sie auf der Registerkarte **[!UICONTROL Filtereinstellungen]** auf **[!UICONTROL Filter bearbeiten]** und verwenden Sie den Abfrage-Modeler, um eine Bedingung zu definieren, die die in der Auswahl verfügbaren Werte einschränkt. Sie können beispielsweise einen Versandfilter auf Sendungen über den E-Mail-Kanal beschränken.
 
-   ![Registerkarte Filtereinstellungen im Dialogfeld Verknüpfungseinstellungen](assets/schemas-custom-filters5.png)
+   ![Registerkarte „Filtereinstellungen“ im Dialogfeld „Link-Einstellungen“](assets/schemas-custom-filters5.png)
 
 1. Bestätigen Sie Ihre Änderungen.

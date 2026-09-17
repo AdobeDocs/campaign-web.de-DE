@@ -6,21 +6,20 @@ exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
 TQID: https://experienceleague.adobe.com/s8cjbxjs-71srb0hufQBlBgqJhUxBHFSHhBsxIDgVWQ
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
-source-wordcount: 2867
+workflow-type: tm+mt
+source-wordcount: '2952'
 ht-degree: 100%
-
 ---
-
 # Erstellen Ihrer ersten Abfrage {#build-query}
 
 Um mit der Erstellung einer Abfrage zu beginnen, greifen Sie je nach der Aktion, die Sie ausführen wollen, vom gewünschten Speicherort aus auf den Abfrage-Modeler zu. Der Abfrage-Modeler wird mit einer leeren Arbeitsfläche geöffnet. Klicken Sie auf die Schaltfläche **+**, um den ersten Knoten der Abfrage zu konfigurieren.
 
 >[!IMPORTANT]
 >
->Eine brandneue Benutzeroberfläche für den Abfrage-Modeler ist verfügbar. Mit dem neuen Regel-Builder können Sie Ihre Abfrage dank der vereinfachten Benutzeroberfläche mühelos erstellen. Um zu diesem Erlebnis zu wechseln, klicken Sie rechts oben auf den Umschalter. Sie können jederzeit zum klassischen Abfrage-Modeler zurückkehren, indem Sie einfach erneut auf den Umschalter klicken und die neue Benutzeroberfläche deaktivieren. In der neuen Benutzeroberfläche folgen Sie denselben Prinzipien wie im Abfrage-Modeler.
->![Bild mit dem Umschalter für die neue Benutzeroberfläche des Regel-Builders](assets/query-modeler-toggle.png){zoomable="yes"}
+>Eine brandneue Benutzeroberfläche für den Abfrage-Modeler ist verfügbar. Mit dem neuen Regel-Builder können Sie Ihre Abfrage dank der vereinfachten und intuitiven Benutzeroberfläche leichter erstellen. Um zu diesem Erlebnis zu wechseln, klicken Sie auf den Umschalter in der oberen rechten Ecke. Sie können jederzeit zum klassischen Abfrage-Modeler zurückkehren, indem Sie einfach auf den Umschalter klicken, um die neue Benutzeroberfläche zu deaktivieren. Sie können in dieser neuen Benutzeroberfläche dieselben Prinzipien wie beim Abfrage-Modeler anwenden.
+>![Bild, das den Umschalter für die neue Benutzeroberfläche des Regel-Builders zeigt](assets/query-modeler-toggle.png){zoomable="yes"}
 
 Sie können zwei Elementtypen hinzufügen:
 

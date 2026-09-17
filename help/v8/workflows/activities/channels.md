@@ -6,15 +6,15 @@ exl-id: 155b40e2-1aa2-4251-bbaa-7e16e36f649e
 TQID: https://experienceleague.adobe.com/A58FyTL-G-NDqeY27VY8ZKw5iHg7iQ9KMdOob-yFCFM
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
-source-wordcount: 995
+workflow-type: tm+mt
+source-wordcount: '995'
 ht-degree: 100%
-
 ---
-
 # E-Mail-, SMS-, WhatsApp-, Push- und Briefpost-Aktivität {#channel}
 
 Mit Adobe Campaign Web können Sie Marketing-Kampagnen über den E-Mail-, SMS-, WhatsApp-, Briefpost- und Push-Kanal automatisieren und durchführen. Sie können Kanalaktivitäten in die Workflow-Arbeitsfläche kombinieren, um kanalübergreifende Workflows zu erstellen, mit denen basierend auf Kundenverhalten und Daten Aktionen ausgelöst werden.
@@ -38,13 +38,13 @@ Beginnen Sie, Ihren Workflow mit den entsprechenden Aktivitäten aufzubauen:
 
 * Bevor Sie eine Kanalaktivität einfügen, müssen Sie die Zielgruppe definieren. Die Zielgruppe ist das hauptsächliche Ziel Ihres Versands: die Profile, die die Nachrichten erhalten. Beim Senden von Nachrichten im Rahmen eines Kampagnen-Workflows wird die Zielgruppe der Nachricht nicht in der Kanalaktivität, sondern in einer speziellen Aktivität definiert.
 
-   * Eine Aktivität **Zielgruppe erstellen**. [Weitere Informationen](build-audience.md).
+  * Eine Aktivität **Zielgruppe erstellen**. [Weitere Informationen](build-audience.md).
 
-     ![Screenshot mit dem Hinzufügen eines Versands zu einem Workflow](../../msg/assets/add-delivery-in-wf.png)
+    ![Screenshot mit dem Hinzufügen eines Versands zu einem Workflow](../../msg/assets/add-delivery-in-wf.png)
 
-   * Eine Aktivität **Datei laden** gefolgt von einer Aktivität **Abstimmung**. [Weitere Informationen](load-file.md).
+  * Eine Aktivität **Datei laden** gefolgt von einer Aktivität **Abstimmung**. [Weitere Informationen](load-file.md).
 
-     ![Screenshot mit den Abstimmbedingungen des Workflows](../assets/workflow-reconciliation-criteria.png)
+    ![Screenshot mit den Abstimmbedingungen des Workflows](../assets/workflow-reconciliation-criteria.png)
 
 * Um einen wiederkehrenden Versand durchzuführen, starten Sie Ihren Workflow mit der Aktivität **Planung**. Verwenden Sie die Aktivität **Planung** für einmalige Einzelsendungen, um für diesen Versand das Kontaktdatum festzulegen. Dieses Kontaktdatum kann auch in den Versandeinstellungen festgelegt werden. Siehe [diesen Abschnitt](scheduler.md).
 

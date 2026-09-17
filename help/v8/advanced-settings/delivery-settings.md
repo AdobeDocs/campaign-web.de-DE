@@ -7,19 +7,22 @@ exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 TQID: https://experienceleague.adobe.com/bj4PO7hhfT21Xd44PQYyrUbVytxnLSF7mnSJPbmJQRw
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
 workflow-type: tm+mt
-source-wordcount: 3646
-ht-degree: 97%
-
+source-wordcount: '3646'
+ht-degree: 100%
 ---
-
 # Versandeinstellungen konfigurieren {#del-settings}
 
 Bei den Versandeinstellungen handelt es sich um **technische Versandparameter**, die in der Versandvorlage definiert sind. Sie können bei jedem Versand überschrieben werden. Diese Einstellungen sind über die Schaltfläche **Einstellungen** verfügbar, wenn ein Versand oder eine Versandvorlage bearbeitet wird.
@@ -165,7 +168,7 @@ Bei E-Mails können Sie auch die **[!UICONTROL Mail-Formate]** der gesendeten Na
 Diese Registerkarte ist verfügbar, wenn ein Trackinglog-Schema für den Versand konfiguriert ist und der Versandmodus nicht extern ist.
 
 * **[!UICONTROL Tracking aktivieren]**: Aktiviert oder deaktiviert das Tracking für den Versand. Wenn diese Option deaktiviert ist, werden keine Klick- oder Öffnungs-Tracking-Daten erfasst.
-* **[!UICONTROL Öffnungs-Tracking]** (E-Mail-Kanal): Aktiviert oder deaktiviert das Tracking der Nachrichtenöffnungen mithilfe des Tracking-Pixels. Diese Option ist nur verfügbar, wenn **[!UICONTROL Tracking aktivieren]** aktiviert ist. Dies hilft Ihnen bei der Einhaltung von Datenschutzbestimmungen wie CNIL oder DSGVO.
+* **[!UICONTROL Öffnungstracking]** (E-Mail-Kanal): Aktiviert oder deaktiviert das Tracking der Nachrichtenöffnungen mithilfe des Tracking-Pixels. Diese Option ist nur verfügbar, wenn **[!UICONTROL Tracking aktivieren]** aktiviert ist. Dies hilft Ihnen bei der Einhaltung von Datenschutzbestimmungen wie CNIL oder DSGVO.
 
 ## Web Analytics {#web-analytics}
 

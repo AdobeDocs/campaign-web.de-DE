@@ -5,10 +5,8 @@ exl-id: 1da53fe0-1d64-4907-ba06-206f69e83d7c
 source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
 workflow-type: tm+mt
 source-wordcount: '537'
-ht-degree: 91%
-
+ht-degree: 100%
 ---
-
 # Erstellen und Veröffentlichen von Schemata {#create-publish}
 
 ## Erstellen und Verwalten von Schemata {#create-schemas}
@@ -39,9 +37,9 @@ Standardmäßig ist das Schema leer. Jetzt müssen Sie die Felder, die Sie in Ih
 
    ![Dialog „Schemaerstellung“](assets/schemas-create3.png)
 
-1. Klicken Sie auf **[!UICONTROL Überprüfen]**, um die XML-Struktur Ihres Schemas vor dem Speichern zu überprüfen. Identifizierte Fehler werden am unteren Bildschirmrand angezeigt, z. B. „Ungültiges XML-Format“.
+1. Klicken Sie auf die Schaltfläche **[!UICONTROL Überprüfen]**, um die XML-Struktur Ihres Schemas vor dem Speichern zu prüfen. Identifizierte Fehler werden am unteren Bildschirmrand angezeigt, z. B. „Ungültiges XML-Format“.
 
-   ![Fehler beim Erstellen des Schemas](assets/schemas-create3bis.png)
+   ![Fehler im Dialogfeld „Schemaerstellung“](assets/schemas-create3bis.png)
 
 1. Korrigieren Sie alle Fehler und speichern Sie dann Ihre Änderungen, um das Schema zu generieren.
 

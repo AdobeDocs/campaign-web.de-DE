@@ -9,17 +9,18 @@ exl-id: 3afff35c-c15f-46f8-b791-9bad5e38ea44
 TQID: https://experienceleague.adobe.com/P9OIAwfErA7-JDq-nlxKBelTAR0vn8QVVcghdIxyth4
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
-source-wordcount: 486
+workflow-type: tm+mt
+source-wordcount: '486'
 ht-degree: 100%
-
 ---
-
 # Zugreifen auf Sendungen {#work-with-deliveries}
 
 >[!CONTEXTUALHELP]
@@ -38,7 +39,7 @@ Auf Sendungen kann über das Menü **[!UICONTROL Sendungen]** im linken Navigati
 
 ![Liste der in der Benutzeroberfläche angezeigten Sendungen](assets/deliveries-list.png)
 
-Um einen Versand zu öffnen, klicken Sie in der Liste auf dessen Namen. Der Versand wird geöffnet und Sie können verschiedene Aktionen durchführen, z. B. die Parameter bearbeiten, die Ausführung überprüfen oder die Leistung mithilfe dedizierter Berichte überwachen.
+Um einen Versand zu öffnen, klicken Sie in der Liste auf dessen Namen. Der Versand wird geöffnet und Sie können verschiedene Aktionen durchführen, z. B. die Parameter bearbeiten, die Ausführung überprüfen oder die Leistung mithilfe dedizierter Berichte überwachen.
 
 ![Bildschirm mit Versanddetails samt Parametern und Berichten](assets/delivery-details.png)
 

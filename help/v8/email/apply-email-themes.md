@@ -10,12 +10,10 @@ level: Beginner, Intermediate
 keywords: E-Mail-Themen, Module, Wiederverwendbarkeit, Markenkonsistenz, E-Mail-Design, benutzerdefiniertes CSS, Optimierung für Mobilgeräte
 exl-id: c9e02bca-032d-4771-ad53-5bbebabc4c5d
 source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2077'
 ht-degree: 100%
-
 ---
-
 # Anwenden von Designs auf Ihren E-Mail-Inhalt {#apply-email-themes}
 
 >[!CONTEXTUALHELP]
@@ -45,25 +43,25 @@ Diese Funktion ermöglicht es Marketing-Fachleuten, visuell ansprechende, marken
 
 * [Fragmente](../content/fragments.md) sind nicht zwischen dem Modus „Themen verwenden“ und „Manuelle Formatierung“ kompatibel.
 
-   * Themenfragmente sind nicht in E-Mail-Inhalten verfügbar, die ohne die Verwendung von Themen erstellt wurden.
+  * Themenfragmente sind nicht in E-Mail-Inhalten verfügbar, die ohne die Verwendung von Themen erstellt wurden.
 
-   * Damit ein [Fragment](../content/fragments.md) in einem Themeninhalt genutzt werden kann, muss dieses Fragment selbst mithilfe von Themen erstellt worden sein. [Weitere Informationen](#leverage-themes-fragment)
+  * Damit ein [Fragment](../content/fragments.md) in einem Themeninhalt genutzt werden kann, muss dieses Fragment selbst mithilfe von Themen erstellt worden sein. [Weitere Informationen](#leverage-themes-fragment)
 
-   * Wenn Sie ein Fragment im E-Mail-Inhalt verwenden, stellen Sie sicher, dass Sie ein für dieses Fragment definiertes Thema anwenden. Andernfalls kann es zu Anzeigeproblemen kommen, insbesondere in Outlook 2021 und früheren Versionen. [Weitere Informationen](#leverage-themes-fragment)
+  * Wenn Sie ein Fragment im E-Mail-Inhalt verwenden, stellen Sie sicher, dass Sie ein für dieses Fragment definiertes Thema anwenden. Andernfalls kann es zu Anzeigeproblemen kommen, insbesondere in Outlook 2021 und früheren Versionen. [Weitere Informationen](#leverage-themes-fragment)
 
 * Wenn Sie einen in HTML erstellten Inhalt verwenden, befinden Sie sich im [Kompatibilitätsmodus](existing-content.md). Sie können keine Themen direkt auf diesen Inhalt anwenden.
 
-   * Um Themen anzuwenden, müssen Sie zunächst den importierten Inhalt [als neue Vorlage](../content/create-email-templates.md#save-as-template) speichern und diese Vorlage dann in einen themenkompatiblen Inhalt konvertieren. Anschließend können Sie diese Vorlage verwenden, um E-Mail-Inhalte zu erstellen. In [diesem Abschnitt](#theme-convertor) erfahren Sie, wie Sie eine mit manueller Formatierung erstellte Vorlage konvertieren.
+  * Um Themen anzuwenden, müssen Sie zunächst den importierten Inhalt [als neue Vorlage](../content/create-email-templates.md#save-as-template) speichern und diese Vorlage dann in einen themenkompatiblen Inhalt konvertieren. Anschließend können Sie diese Vorlage verwenden, um E-Mail-Inhalte zu erstellen. In [diesem Abschnitt](#theme-convertor) erfahren Sie, wie Sie eine mit manueller Formatierung erstellte Vorlage konvertieren.
 
-   * Sie können auch weiterhin Ihre importierten HTML-Inhalte konvertieren. [Weitere Informationen](existing-content.md)
+  * Sie können auch weiterhin Ihre importierten HTML-Inhalte konvertieren. [Weitere Informationen](existing-content.md)
 
   <!--To fully leverage all the capabilities of the Email Designer, including themes, you must either create a new content in Use Themes mode, or convert your imported HTML content. [Learn more](existing-content.md)-->
 
 * Wenn Sie benutzerdefinierte Web-Schriftarten (einschließlich Google-Schriftarten) in Ihren Themen verwenden, beachten Sie, dass viele E-Mail-Clients diese nicht unterstützen. Definieren Sie immer geeignete Ersatzschriftarten in Ihrem Thema, um die Lesbarkeit für alle E-Mail-Clients sicherzustellen.
 
-   * Gmail und Yahoo! laden keine externen Web-Schriftarten und greifen auf die Systemschriftarten zurück, unabhängig von der in Ihrem HTML/CSS angegebenen Schriftfamilie.
-   * Die einzigen von Gmail unterstützten Google-Schriftarten sind Roboto und Google Sans.
-   * Zu den E-Mail-Clients, die Web-Schriftarten *unterstützen*, gehören unter anderem Apple Mail, iOS Mail, Android Mail, Thunderbird und Outlook für macOS.
+  * Gmail und Yahoo! laden keine externen Web-Schriftarten und greifen auf die Systemschriftarten zurück, unabhängig von der in Ihrem HTML/CSS angegebenen Schriftfamilie.
+  * Die einzigen von Gmail unterstützten Google-Schriftarten sind Roboto und Google Sans.
+  * Zu den E-Mail-Clients, die Web-Schriftarten *unterstützen*, gehören unter anderem Apple Mail, iOS Mail, Android Mail, Thunderbird und Outlook für macOS.
 
 <!--If you apply a theme to a content using a [fragment](../content/fragments.md) created with Manual Styling mode, the rendering may not be optimal.-->
 
@@ -159,7 +157,7 @@ Gehen Sie wie folgt vor, um standardmäßige oder benutzerdefinierte Stilthemen 
 
    ![Liste „Meine Themen“ mit einem benutzerseitig erstellten Thema, das in der Themen-Auswahl ausgewählt wurde](assets/theme-select-custom.png)
 
-1. Klicken Sie auf eine Stelle außerhalb der Dropdown-Liste. Die Stile des ausgewählten benutzerdefinierten Themas werden automatisch auf alle E-Mail-Komponenten angewendet.Sie können zwischen den Farbvarianten wechseln, falls vorhanden.
+1. Klicken Sie auf eine Stelle außerhalb der Dropdown-Liste. Die Stile des ausgewählten benutzerdefinierten Themas werden automatisch auf alle E-Mail-Komponenten angewendet. Sie können zwischen den Farbvarianten wechseln, falls vorhanden.
 
 1. Wenn ein Thema in einer Inhaltsvorlage ausgewählt ist, können Sie auf die Schaltfläche **[!UICONTROL Design bearbeiten]** klicken, um es zu aktualisieren. [Weitere Informationen](#create-and-edit-themes)
 
@@ -205,7 +203,7 @@ Damit ein [Fragment](#apply-themes-email) in einem Themeninhalt genutzt werden k
 
 Gehen Sie wie folgt vor, um ein mit Themen kompatibles Fragment zu erstellen.
 
-1. Erstellen Sie in [!DNL Adobe Campaign] ein visuelles Fragment und klicken Sie auf **[!UICONTROL Erstellen]**, um den Inhalt Ihres Fragments zu gestalten.[Weitere Informationen](../content/create-fragment.md#create-from-scratch)
+1. Erstellen Sie in [!DNL Adobe Campaign] ein visuelles Fragment und klicken Sie auf **[!UICONTROL Erstellen]**, um den Inhalt Ihres Fragments zu gestalten. [Weitere Informationen](../content/create-fragment.md#create-from-scratch)
 
 1. Wählen Sie **[!UICONTROL Themen verwenden]** aus, um mit einem vordefinierten Stilthema zu beginnen.
 
@@ -231,7 +229,7 @@ Gehen Sie wie folgt vor, um ein mit Themen kompatibles Fragment zu erstellen.
 
    >[!CAUTION]
    >
-   >Wenn Sie ein Fragment in einem E-Mail-Inhalt verwenden, stellen Sie sicher, dass Sie ein für dieses Fragment definiertes [Thema anwenden](#apply-themes-email). Andernfalls kann es zu Anzeigeproblemen kommen, insbesondere in Outlook 2021 und früheren Versionen. 
+   >Wenn Sie ein Fragment in einem E-Mail-Inhalt verwenden, stellen Sie sicher, dass Sie ein für dieses Fragment definiertes [Thema anwenden](#apply-themes-email). Andernfalls kann es zu Anzeigeproblemen kommen, insbesondere in Outlook 2021 und früheren Versionen.
 
 1. Klicken Sie auf **[!UICONTROL Schließen]**.
 

@@ -5,15 +5,15 @@ description: Erfahren Sie, wie Sie eine Angebotsumgebung in Campaign Web anzeige
 feature: Offers
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: 7be45366e3ae14e6fa7e4569a37c64e6d72f534c
-workflow-type: ht
-source-wordcount: 319
+workflow-type: tm+mt
+source-wordcount: '319'
 ht-degree: 100%
-
 ---
-
 # Überprüfen der Einstellungen für die Angebotsumgebung {#offer-environment}
 
 Eine **Angebotsumgebung** ist der Container, in dem Sie Ihren Angebotskatalog und die zugehörigen Platzierungen organisieren. Es gibt zwei Arten von Umgebungen:

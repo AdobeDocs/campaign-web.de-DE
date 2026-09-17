@@ -6,15 +6,15 @@ exl-id: 5e7ac2b8-b543-427b-846c-7c0b489cc21c
 TQID: https://experienceleague.adobe.com/2NWIVbSKxC619uzgluzJc5spx3eThohYBbJzrXWjyeI
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
-source-wordcount: 545
+workflow-type: tm+mt
+source-wordcount: '545'
 ht-degree: 100%
-
 ---
-
 # Kampagnenberichte für den Push-Kanal {#campaign-reports-push-channel}
 
 Jeder Kampagnenbericht ist in verschiedene Widgets unterteilt, die den Erfolg und die Fehler Ihrer Kampagne detailliert beschreiben. Im Folgenden werden die Berichte und Metriken für den Push-Kanal beschrieben. Auf [dieser Seite](campaign-reports.md) erfahren Sie, wie Sie auf Ihre Kampagnenberichte zugreifen können.

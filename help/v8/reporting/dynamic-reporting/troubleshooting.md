@@ -5,12 +5,10 @@ audience: end-user
 level: Intermediate
 exl-id: a58fc8fd-e510-45ef-8fe9-c75ff4498113
 source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
-workflow-type: ht
-source-wordcount: '1146'
+workflow-type: tm+mt
+source-wordcount: '1255'
 ht-degree: 100%
-
 ---
-
 # Fehlerbehebung{#troubleshooting}
 
 In diesem Abschnitt finden Sie häufig gestellte Fragen zu dynamischen Berichten.
@@ -21,7 +19,7 @@ Derzeit sind dynamische Berichte nur in Englisch verfügbar.
 
 ## Bei Einzelöffnungen und Einzelklicks entspricht die Zahl in der Aggregat-Zeile nicht der Zahl in den einzelnen Zeilen {#unique-open-clicks-no-match}
 
-Dies ist das erwartete Verhalten.
+Dies ist zu erwarten.
 Im folgenden Beispiel möchten wir dieses Verhalten erläutern.
 
 Eine E-Mail wird an Profil P1 und P2 gesendet.
@@ -29,7 +27,7 @@ Eine E-Mail wird an Profil P1 und P2 gesendet.
 P1 öffnet die E-Mail am ersten Tag zweimal und dann am zweiten Tag dreimal.
 
 P2 öffnet die E-Mail am ersten Tag einmal und an den folgenden Tagen nicht mehr.
-Hier folgt eine visuelle Darstellung der Interaktion des Profils mit der gesendeten E-Mail:
+Im Folgenden finden Sie eine Darstellung der Interaktion der Profile mit der gesendeten E-Mail:
 
 <table> 
  <thead> 
@@ -106,10 +104,10 @@ Solche Ereignisse werden hinzugefügt, da **ein E-Mail-Klick auf eine E-Mail-Öf
 
 ## Wie werden die Zahlen für wiederkehrende Sendungen/den Versand von Transaktionsnachrichten berechnet? {#counts-recurring-deliveries}
 
-Bei der Arbeit mit wiederkehrenden und transaktionalen Sendungen werden die Zahlen sowohl den übergeordneten als auch den untergeordneten Sendungen zugeordnet.
-Nehmen wir das Beispiel eines wiederkehrenden Versands mit dem Namen **R1**, der jeden Tag an Tag 1 (RC1), Tag 2 (RC2) und Tag 3 (RC3) ausgeführt werden soll.
-Nehmen wir an, dass nur eine einzige Person alle untergeordneten Sendungen mehrmals geöffnet hat. In diesem Fall zeigen die einzelnen wiederkehrenden untergeordneten Sendungen die Zählung **[!UICONTROL Öffnungen]** für jeden als 1 an.
-Da jedoch dieselbe Person auf alle Sendungen geklickt hat, hat der übergeordnete wiederkehrende Versand auch **[!UICONTROL Einzelöffnungen]** als 1.
+Bei wiederkehrenden Sendungen und dem Versand von Transaktionsnachrichten werden die Zahlen sowohl den über- als auch den untergeordneten Sendungen zugeordnet.
+Nehmen Sie zum Beispiel einen wiederkehrenden Versand mit der Bezeichnung **R1**, der täglich an Tag 1 (RC1), Tag 2 (RC2) und Tag 3 (RC3) ausgeführt wird.
+Nehmen wir an, dass nur eine einzige Person alle untergeordneten Sendungen mehrmals geöffnet hat. In diesem Fall wird für die einzelnen wiederkehrenden untergeordneten Sendungen als Anzahl der **[!UICONTROL Öffnungen]** 1 angezeigt.
+Da jedoch dieselbe Person auf alle Sendungen geklickt hat, wird für den übergeordneten wiederkehrenden Versand unter **[!UICONTROL Einzelöffnungen]** ebenfalls 1 angezeigt.
 
 Berichte sollten wie folgt aussehen:
 
@@ -199,16 +197,16 @@ In den folgenden Fällen wird eine Diskrepanz zwischen der Spaltentitelnummer un
 
   Beispiel:
 
-   * Wenn Profil A eine E-Mail an drei verschiedenen Tagen öffnet, wird A in der Aufschlüsselung nach Tag in drei Zeilen angezeigt. In der Kopfzeile wird A jedoch als 1 gezählt.
+  * Wenn Profil A eine E-Mail an drei verschiedenen Tagen öffnet, wird A in der Aufschlüsselung nach Tag in drei Zeilen angezeigt. In der Kopfzeile wird A jedoch als 1 gezählt.
 
-   * Wenn Profil A am selben Tag auf drei verschiedene Links in einer E-Mail klickt, wird A für die Aufschlüsselung nach Tracking-URL in drei Zeilen angezeigt. In der Kopfzeile wird A jedoch als 1 gezählt. Dasselbe gilt für Aufschlüsselungen nach Gerät und Browser.
+  * Wenn Profil A am selben Tag auf drei verschiedene Links in einer E-Mail klickt, wird A für die Aufschlüsselung nach Tracking-URL in drei Zeilen angezeigt. In der Kopfzeile wird A jedoch als 1 gezählt. Dasselbe gilt für Aufschlüsselungen nach Gerät und Browser.
 
 * **Öffnungsmetriken**: Die Anzahl der Öffnungen wird durch die Aggregation der Summe der tatsächlichen Öffnungsereignisse und der Einzelklickereignisse (pro Empfängerkennung) ermittelt. Dabei werden Fälle ausgeschlossen, in denen kein Öffnungsereignis aufgetreten ist, da es ohne ein Öffnungsereignis nicht möglich ist, auf einen E-Mail-Link zu klicken.
 
   Beispiel:
 
-   * Wenn Profil A eine nachverfolgte E-Mail öffnet (mit URL U1), wird dies als Öffnungsereignis registriert, wobei die URL als Null aufgezeichnet wird. Beim späteren Klicken auf U1 wird ein Klickereignis generiert. Obwohl der Klick von A auf U1 auch als Öffnungsereignis gezählt wird, gibt es kein spezifisches Öffnungsereignis für U1. Daher wird A nur einmal in der Anzahl der Einzelöffnungen gezählt.
+  * Wenn Profil A eine nachverfolgte E-Mail öffnet (mit URL U1), wird dies als Öffnungsereignis registriert, wobei die URL als Null aufgezeichnet wird. Beim späteren Klicken auf U1 wird ein Klickereignis generiert. Obwohl der Klick von A auf U1 auch als Öffnungsereignis gezählt wird, gibt es kein spezifisches Öffnungsereignis für U1. Daher wird A nur einmal in der Anzahl der Einzelöffnungen gezählt.
 
-   * Profil R öffnet eine E-Mail am ersten Tag, was als Öffnungsereignis registriert wird, und klickt auf einen Link. In den nächsten zwei Tagen öffnet R die E-Mail erneut und klickt wieder auf den Link, wodurch jeden Tag ein Klickereignis generiert wird. Während die Interaktion von R täglich in der Zahl der Öffnungen verfolgt wird, wird R im Spaltentitel nur einmal gezählt, da der Schwerpunkt auf eindeutigen Interaktionen liegt.
+  * Profil R öffnet eine E-Mail am ersten Tag, was als Öffnungsereignis registriert wird, und klickt auf einen Link. In den nächsten zwei Tagen öffnet R die E-Mail erneut und klickt wieder auf den Link, wodurch jeden Tag ein Klickereignis generiert wird. Während die Interaktion von R täglich in der Zahl der Öffnungen verfolgt wird, wird R im Spaltentitel nur einmal gezählt, da der Schwerpunkt auf eindeutigen Interaktionen liegt.
 
 * **Negiertes Ereignis**: In Berichten beschreibt ein negiertes Ereignis Versandversuche, die ursprünglich als erfolgreich gekennzeichnet wurden, nach weiteren Zustellversuchen jedoch letztendlich fehlgeschlagen sind. Diese werden durch die Anzahl „-1“ angegeben. Um Verwirrung zu vermeiden, wird diese negative Anzahl aus den angezeigten Versandmetriken ausgeschlossen. Daher stimmt die Summe aller Zeilen für die Versandmetrik möglicherweise nicht mit der Spaltentitelnummer überein.

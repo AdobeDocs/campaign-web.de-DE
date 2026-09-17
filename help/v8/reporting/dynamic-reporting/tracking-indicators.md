@@ -5,12 +5,10 @@ audience: end-user
 level: Intermediate
 exl-id: cdb41d18-7d92-4128-a29b-70e17b6a3358
 source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '158'
 ht-degree: 100%
-
 ---
-
 # Tracking-Indikatoren{#tracking-indicators}
 
 Der Bericht **[!UICONTROL Trackingindikatoren]** enthält die wichtigsten Indikatoren zum Tracking des Verhaltens nach dem Empfang einer E-Mail-Nachricht.

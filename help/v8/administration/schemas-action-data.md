@@ -4,10 +4,8 @@ description: Erfahren Sie, wie Sie die Aktionen zum Erstellen, Bearbeiten und L�
 source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
 workflow-type: tm+mt
 source-wordcount: '423'
-ht-degree: 84%
-
+ht-degree: 100%
 ---
-
 # Steuern von Aktionen für Daten {#action-data}
 
 >[!CONTEXTUALHELP]
@@ -33,17 +31,17 @@ Um die Aktionsdaten zu konfigurieren, gehen Sie wie folgt vor:
 
    ![Abschnitt „Aktionsdaten“ in der Bildschirmdefinition](assets/schemas-action-data1.png)
 
-1. Eine oder mehrere der verfügbaren Optionen auswählen:
+1. Wählen Sie eine oder mehrere der verfügbaren Optionen aus:
 
    * **[!UICONTROL Schreibgeschützt]**: Der Detailbildschirm wird für alle Benutzenden schreibgeschützt. In der Liste ist keine Aktion zum Erstellen, Duplizieren, Aktualisieren oder Löschen verfügbar, und die Aktionen zum Löschen und Duplizieren sind im Detailbildschirm ausgeblendet. Die Auswahl dieser Option ähnelt der Konfiguration einer Ansicht: Benutzende können weiterhin Einträge öffnen und wiederverwenden, z. B. bei der Zielgruppenbestimmung für einen Versand, aber sie können diese nicht ändern.
 
    * **[!UICONTROL Löschen nicht zulassen]**: Die Löschaktion wird in jedem Ordner aus dem Detailbildschirm und aus der Liste entfernt. Andere Aktionen wie Erstellen, Duplizieren und Aktualisieren bleiben verfügbar.
 
-   * **[!UICONTROL Duplikat nicht zulassen]**: Die Duplikataktion wird in jedem Ordner aus dem Detailbildschirm und der Liste entfernt. Andere Aktionen wie Erstellen, Löschen und Aktualisieren bleiben verfügbar.
+   * **[!UICONTROL Keine Duplikate zulassen]**: Die Aktion „Duplizieren“ wird in jedem Ordner aus dem Detailbildschirm und aus der Liste entfernt. Andere Aktionen wie „Erstellen“, „Löschen“ und „Aktualisieren“ bleiben verfügbar.
 
      >[!NOTE]
      >
-     >Durch die Aktivierung **[!UICONTROL Schreibgeschützt]** werden auch Löschung und Duplizierung automatisch abgedeckt, sodass die Optionen **[!UICONTROL Löschen nicht zulassen]** und **[!UICONTROL Duplizierung nicht zulassen]** deaktiviert sind, während **[!UICONTROL Schreibgeschützt]** ausgewählt ist.
+     >Die Aktivierung der Option **[!UICONTROL Schreibgeschützt]** deckt automatisch auch das Löschen und Duplizieren ab, sodass die Optionen **[!UICONTROL Löschen nicht zulassen]** und **[!UICONTROL Keine Duplikate zulassen]** deaktiviert sind, wenn **[!UICONTROL Schreibgeschützt]** aktiviert ist.
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 

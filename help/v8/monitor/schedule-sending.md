@@ -6,13 +6,12 @@ exl-id: 0738a148-d550-41c2-a8c2-6054684ba789
 TQID: https://experienceleague.adobe.com/H3QUVSdkbLfPhBEo3J-T1Wjj5Xguriva1E43S2kCKyE
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
-source-wordcount: 534
+workflow-type: tm+mt
+source-wordcount: '534'
 ht-degree: 100%
-
 ---
-
 # Planen des Sendevorgangs eines Versands {#schedule-sending}
 
 Sie können den Sendevorgang eines Versands planen. Die Schritte hängen davon ab, ob es sich um einen eigenständigen (einmaligen) Versand handelt oder ob Sie im Rahmen eines Kampagnen-Workflows arbeiten.

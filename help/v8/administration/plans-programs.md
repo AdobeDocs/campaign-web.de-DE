@@ -6,18 +6,20 @@ exl-id: 0307bcb7-7ab5-4226-bad1-cb7cf10e97fc
 TQID: https://experienceleague.adobe.com/FSiHCjupRlS0zoI9HPdcU--Y2PZot5fQOzWICwmV-oQ
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+    internal-label: Schemas
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
 workflow-type: tm+mt
-source-wordcount: 640
-ht-degree: 63%
-
+source-wordcount: '640'
+ht-degree: 100%
 ---
-
 # Pläne und Programme {#plan-and-programs}
 
 Adobe Campaign ermöglicht Ihnen das Konfigurieren Ihrer Ordnerhierarchie für Marketing-Pläne und -Programme.
@@ -60,31 +62,31 @@ Konfigurieren Sie die benutzerdefinierten Optionen:
 
 ## Erstellen und Konfigurieren eines Programms {#create-program}
 
-Programme sind im linken Navigationsmenü verfügbar, ähnlich wie die Listenansichten für Kampagnen, Sendungen und Workflows. Mit **[!UICONTROL Eintrag]** Programme“ können Sie ein Programm innerhalb eines vorhandenen Programms und nicht unter einem Plan erstellen.
+Programme sind im linken Navigationsmenü verfügbar, ähnlich wie die Listenansichten für Kampagnen, Sendungen und Workflows. Mit dem Eintrag **[!UICONTROL Programme]** können Sie ein Programm innerhalb eines vorhandenen Programms und nicht anhand eines Plans erstellen.
 
-Um Ihr erstes Programm auf oberster Ebene in einem Plan zu erstellen, navigieren Sie im Explorer zu Ihrem Plan (siehe [Abschnitt](#create-plan)) und erstellen Sie einen Ordner mit dem Ordnertyp **[!UICONTROL Programm]**. [Erfahren Sie mehr zum Erstellen eines Ordners](../get-started/work-with-folders.md).
+Um Ihr erstes Programm der obersten Ebene in einem Plan zu erstellen, navigieren Sie im Explorer zu Ihrem Plan (siehe diesen [Abschnitt](#create-plan)) und erstellen Sie einen Ordner mit dem Ordnertyp **[!UICONTROL Programm]**. [Erfahren Sie mehr zum Erstellen eines Ordners](../get-started/work-with-folders.md).
 
 Gehen Sie wie folgt vor, um ein Programm innerhalb eines vorhandenen Programms zu erstellen:
 
-1. Navigieren Sie im linken Navigationsmenü zum **[!UICONTROL Programme]**-Eintrag. In dieser Ansicht werden alle Ihre Programme aufgelistet und Sie können sie suchen und filtern. Wenn Sie auf ein Programm klicken, wird es in der Explorer-Ansicht geöffnet.
+1. Navigieren Sie im linken Navigationsmenü zum Eintrag **[!UICONTROL Programme]**. In dieser Ansicht werden alle Ihre Programme aufgelistet und Sie können sie durchsuchen und filtern. Wenn Sie auf ein Programm klicken, wird es in der Explorer-Ansicht geöffnet.
 
-   ![Screenshot mit der Programmlistenansicht](assets/program_view.png){zoomable="yes"}
+   ![Screenshot der Programmlistenansicht](assets/program_view.png){zoomable="yes"}
 
-1. Klicken Sie **[!UICONTROL Programm erstellen]** und konfigurieren Sie die folgenden Optionen:
+1. Klicken Sie auf **[!UICONTROL Programm erstellen]** und konfigurieren Sie die folgenden Optionen:
 
-   ![Screenshot mit dem Bildschirm „Programm erstellen“](assets/program_create.png){zoomable="yes"}
+   ![Screenshot des Bildschirms „Programm erstellen“](assets/program_create.png){zoomable="yes"}
 
-   * Geben Sie einen **[!UICONTROL Titel]** ein.
-   * Wählen Sie das vorhandene Programm aus, das als **[!UICONTROL übergeordneten Ordner“ verwendet]** soll.
+   * Geben Sie einen **[!UICONTROL Label]** ein.
+   * Wählen Sie das vorhandene Programm aus, das als **[!UICONTROL übergeordneter Ordner]** verwendet werden soll.
    * Optional können Sie einen **[!UICONTROL Datumsbereich]** im Abschnitt **[!UICONTROL Zeitplan]** festlegen.
 
    >[!TIP]
    >
-   >Wenn Sie ein Programm über die Explorer -Ansicht erstellen, wird der übergeordnete Ordner automatisch auf das aktuelle Programm festgelegt.
+   >Wenn Sie ein Programm über die Explorer-Ansicht erstellen, wird der übergeordnete Ordner automatisch auf das aktuelle Programm festgelegt.
 
-1. Klicken Sie **[!UICONTROL erneut auf]** Programm erstellen“, um die Änderungen zu speichern und das Programm zu erstellen. Das Programm wird dann in der Explorer-Ansicht angezeigt. Sie können ihn wie jeden anderen Ordner umbenennen, löschen und auf seine Einstellungen zugreifen. Sie können in diesem Programm auch Unterprogramme erstellen.
+1. Klicken Sie erneut auf **[!UICONTROL Programm erstellen]**, um die Änderungen zu speichern und das Programm zu erstellen. Das Programm wird dann in der Explorer-Ansicht angezeigt. Sie können es wie jeden anderen Ordner umbenennen, löschen und auf seine Einstellungen zugreifen. Sie können in diesem Programm auch Unterprogramme erstellen.
 
-   ![Screenshot, der das Programm in der Explorer-Ansicht zeigt](assets/program_explorer.png){zoomable="yes"}
+   ![Screenshot des Programms in der Explorer-Ansicht](assets/program_explorer.png){zoomable="yes"}
 
 Benutzerdefinierte Optionen für ein Programm werden auf die gleiche Weise konfiguriert wie für einen Plan. Siehe [Erstellen und Konfigurieren eines Plans](#create-plan).
 

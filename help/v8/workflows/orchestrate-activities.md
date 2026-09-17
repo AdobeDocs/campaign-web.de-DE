@@ -6,13 +6,12 @@ exl-id: 0c8e2158-518c-4620-9971-00ed2eccdd4f
 TQID: https://experienceleague.adobe.com/D9lkZe8AvBCas-wt-Fe6GLaAoBR-JJNfAHSrRrpkP-w
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 source-git-commit: 6e68cd4e3741b480dc04d8a86d0cf6cb07835811
-workflow-type: ht
-source-wordcount: 1720
+workflow-type: tm+mt
+source-wordcount: '1720'
 ht-degree: 100%
-
 ---
-
 # Orchestrieren von Aktivitäten {#orchestrate}
 
 Sobald Sie einen [Workflow erstellt](create-workflow.md) haben, sei es über das Workflow-Menü oder innerhalb einer Kampagne, können Sie mit der Orchestrierung der verschiedenen Aufgaben beginnen, die er ausführen soll. Zu diesem Zweck wird eine visuelle Arbeitsfläche bereitgestellt, über die Sie ein Workflow-Diagramm erstellen können. Innerhalb dieses Diagramms können Sie verschiedene Aktivitäten hinzufügen und sie in einer sequentiellen Reihenfolge miteinander verbinden. Auf der Arbeitsfläche werden horizontale und vertikale Bildlaufleisten angezeigt, mit denen Sie in großen Workflows durch Ziehen direkt zu dem Bereich navigieren können, den Sie anzeigen möchten.

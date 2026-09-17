@@ -9,10 +9,8 @@ nudge: true
 source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
 workflow-type: tm+mt
 source-wordcount: '1081'
-ht-degree: 99%
-
+ht-degree: 100%
 ---
-
 
 # Dokumentation zu Adobe Campaign Web {#v8}
 
@@ -135,13 +133,13 @@ ht-degree: 99%
       + [Verwalten von Inhalten im dunklen Modus](email/dark-mode.md)
     + [Erstellen von barrierefreien Inhalten](email/accessible-content.md)
   + Erzeugen von Inhalt {#ai-assistant}
-    + [Arbeiten mit der Funktion „Inhalt erzeugen“](content/generative-gs.md)
+    + [Arbeiten mit der Funktion „Inhalt generieren“](content/generative-gs.md)
     + [Best Practices für KI-Prompts](content/ai-assistant-prompting-guide.md)
     + [Vollständige Inhaltsgenerierung mit KI](content/generative-full-content.md)
     + [Textgenerierung mit KI](content/generative-text.md)
     + [Bildgenerierung mit KI](content/generative-image.md)
     + [Anwendungsfälle für die Funktion „Inhalt erzeugen“](content/generative-uc.md)
-    + [C2PA-Metadaten in E-Mail und Landingpage-Designer](content/c2pa-metadata-email-designer.md)
+    + [C2PA-Metadaten im E-Mail- und Landingpage-Designer](content/c2pa-metadata-email-designer.md)
     + Marken {#ai-assistant}
       + [Erstellen und Verwalten von Marken](content/brands.md)
       + [Personalisieren Ihrer Marke](content/brands-personalize.md)
@@ -308,7 +306,7 @@ ht-degree: 99%
     + [Erstellen und Veröffentlichen von Schemata](administration/schemas-create-publish.md)
     + [Arbeiten mit benutzerdefinierten Formularen](administration/schemas-custom-forms.md)
   + {hide-from-toc}[Konfigurieren benutzerdefinierter Felder](administration/custom-fields.md)
-  + [Konfigurieren von Optionen in [!DNL Campaign] &#x200B;](administration/options.md)
+  + [Konfigurieren von Optionen in [!DNL Campaign] ](administration/options.md)
   + [Zeitzonenverwaltung](administration/timezone-management.md)
   + Externe Konten {#external-accounts}
     + [Erstellen externer Konten](administration/create-external-account.md)

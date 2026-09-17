@@ -9,12 +9,10 @@ level: Beginner
 exl-id: cac6f675-59e0-431d-8c20-f24ef16d7bf2
 hide: true
 source-git-commit: aa1a7c48d1708e73e4d6c6bbe4decd2e5ca69102
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 100%
-
 ---
-
 
 # Erstellen einer WhatsApp-Nachricht {#create-whatsapp}
 

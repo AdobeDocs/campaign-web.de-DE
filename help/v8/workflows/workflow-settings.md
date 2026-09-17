@@ -6,13 +6,12 @@ exl-id: 3aef912b-086b-4aa4-9556-c09396112313
 TQID: https://experienceleague.adobe.com/u76tPZP4tkdiIUuXc0yIoIFvy-mEO8JRd-MKYY9J11o
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 source-git-commit: 8de6db4dc4aa20cfb72a9e9c997f4348fccb2c39
-workflow-type: ht
-source-wordcount: 1070
+workflow-type: tm+mt
+source-wordcount: '1087'
 ht-degree: 100%
-
 ---
-
 # Konfigurieren von Workflow-Einstellungen {#workflow-settings}
 
 >[!CONTEXTUALHELP]
@@ -42,12 +41,12 @@ Zu diesen Eigenschaften zählen:
 * Der **[!UICONTROL Titel]** des Workflows, der in der Liste angezeigt wird.
 * Der **[!UICONTROL interne Name]** des Workflows.
 * Der **[!UICONTROL Ordner]**, in dem der Workflow gespeichert werden soll.
-* Die Standard-**[!UICONTROL Zeitzone]** für alle Aktivitäten des Workflows. Standardmäßig ist die Zeitzone des Workflows die für die bzw. den aktuellen Campaign-Benutzerin oder -Benutzer definierte Zeitzone:
-Folgende Werte sind möglich:
-   * **Server-Zeitzone**, um die Zeitzone des Anwendungs-Servers von Adobe Campaign zu verwenden
-   * **Benutzer-Zeitzone**, um die Zeitzone der Benutzerin bzw. des Benutzers von Adobe Campaign zu verwenden, die bzw. der den Workflow entsprechend der Definition im Benutzerprofil in der Client-Konsole ausführt.
-   * **Zeitzone der Datenbank**, um die Zeitzone des Datenbank-Servers zu verwenden.
-   * Eine bestimmte Zeitzone.
+* Die Standard-**[!UICONTROL Zeitzone]**, die in allen Workflow-Aktivitäten zu verwenden ist. Standardmäßig ist die Zeitzone des Workflows die für die bzw. den aktuellen Campaign-Benutzerin oder -Benutzer definierte Zeitzone.
+Mögliche Werte:
+  * **Server-Zeitzone**, um die Zeitzone des Anwendungs-Servers von Adobe Campaign zu verwenden
+  * **Benutzer-Zeitzone**, um die Zeitzone der Benutzerin bzw. des Benutzers von Adobe Campaign zu verwenden, die bzw. der den Workflow entsprechend der Definition im Benutzerprofil in der Client-Konsole ausführt.
+  * **Zeitzone der Datenbank**, um die Zeitzone des Datenbank-Servers zu verwenden.
+  * Eine bestimmte Zeitzone.
 * Wenn ein Workflow fehlschlägt, werden die Benutzenden der im Feld **[!UICONTROL Verantwortliche(r)]** ausgewählten Benutzergruppe per E-Mail benachrichtigt.
 * Geben Sie eine **[!UICONTROL Beschreibung]** Ihres Workflows ein.
 
@@ -96,9 +95,9 @@ Wenn der Workflow [mit einer Kampagne verknüpft](create-workflow.md) ist, wird 
 
 * **[!UICONTROL Umgang mit Fehlern]**: In diesem Feld können Sie festlegen, welche Aktionen ausgeführt werden sollen, wenn eine Workflow-Aufgabe Fehler aufweist. Es gibt drei mögliche Optionen:
 
-   * **[!UICONTROL Prozess aussetzen]**: Der Workflow wird automatisch ausgesetzt und der Status wechselt zu **[!UICONTROL Fehlgeschlagen]**. Sobald das Problem behoben ist, setzen Sie den Workflow mit der Schaltfläche **[!UICONTROL Fortsetzen]** fort.
-   * **[!UICONTROL Ignorieren]**: Der Status der Aufgabe, die den Fehler ausgelöst hat, ändert sich in **[!UICONTROL Fehlgeschlagen]**, der Workflow behält jedoch den Status **[!UICONTROL Gestartet]**. <!-- TO ADD ONCE SCHEDULER IS AVAILABLE This configuration is relevant for recurring tasks: if the branch includes a scheduler, it will start normally next time the workflow is executed.-->
-   * **[!UICONTROL Vorgang abbrechen]**: Der Workflow wird automatisch angehalten und der Status ändert sich zu **[!UICONTROL Fehlgeschlagen]**. Sobald das Problem behoben ist, starten Sie den Workflow mit der Schaltfläche **[!UICONTROL Starten]** neu.
+  * **[!UICONTROL Prozess aussetzen]**: Der Workflow wird automatisch ausgesetzt und der Status wechselt zu **[!UICONTROL Fehlgeschlagen]**. Sobald das Problem behoben ist, setzen Sie den Workflow mit der Schaltfläche **[!UICONTROL Fortsetzen]** fort.
+  * **[!UICONTROL Ignorieren]**: Der Status der Aufgabe, die den Fehler ausgelöst hat, ändert sich in **[!UICONTROL Fehlgeschlagen]**, der Workflow behält jedoch den Status **[!UICONTROL Gestartet]**. <!-- TO ADD ONCE SCHEDULER IS AVAILABLE This configuration is relevant for recurring tasks: if the branch includes a scheduler, it will start normally next time the workflow is executed.-->
+  * **[!UICONTROL Vorgang abbrechen]**: Der Workflow wird automatisch angehalten und der Status ändert sich zu **[!UICONTROL Fehlgeschlagen]**. Sobald das Problem behoben ist, starten Sie den Workflow mit der Schaltfläche **[!UICONTROL Starten]** neu.
 
 * **[!UICONTROL Aufeinanderfolgende Fehler]**: Dieses Feld wird verfügbar, wenn im Feld **[!UICONTROL Im Fehlerfall]** der Wert **[!UICONTROL Ignorieren]** ausgewählt wurde. Geben Sie die Anzahl der Fehler an, die ignoriert werden können, bevor der Prozess angehalten wird. Sobald diese Zahl erreicht ist, wechselt der Workflow-Status zu **[!UICONTROL Fehlgeschlagen]**. Wenn der Wert dieses Felds 0 beträgt, wird der Workflow unabhängig von der Fehleranzahl nie angehalten.
 

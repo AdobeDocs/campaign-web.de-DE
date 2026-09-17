@@ -3,12 +3,10 @@ title: Durchsuchen von und Zugreifen auf Schemata
 description: Erfahren Sie, wie Sie in der Benutzeroberfläche Schemata durchsuchen und darauf zugreifen können.
 exl-id: deafd171-0a3f-4ba2-8fa4-09661d8cdb3e
 source-git-commit: b3d611e9a9a723a5b76fdcd1053d93db4417dbaf
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 100%
-
 ---
-
 # Zugreifen auf und Konfigurieren von Schemata {#access}
 
 Auf Schemata kann über das Menü **[!UICONTROL Administration]** > **[!UICONTROL Schemata]** zugegriffen werden.

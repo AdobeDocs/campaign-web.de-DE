@@ -5,12 +5,10 @@ level: Intermediate
 audience: end-user
 exl-id: bccd04f1-d4f2-474c-89eb-c0b1087a3946
 source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '119'
 ht-degree: 100%
-
 ---
-
 # URLs und Clickstreams{#urls-and-click-streams}
 
 In **URLs und Clickstreams** werden die URLs angezeigt, die während eines Versands oder während mehrerer Sendungen als Teil einer Kampagne oder eines Programms am öftesten angeklickt wurden.

@@ -4,12 +4,10 @@ title: Konfigurieren eines mehrsprachigen Versands
 description: Informationen zum Konfigurieren eines mehrsprachigen Versands
 exl-id: eea0e997-4da2-4998-b010-234626b21353
 source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1489'
 ht-degree: 100%
-
 ---
-
 # Konfigurieren eines mehrsprachigen Versands {#multilingual-delivery}
 
 >[!CONTEXTUALHELP]

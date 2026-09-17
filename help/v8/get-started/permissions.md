@@ -6,15 +6,15 @@ exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
 TQID: https://experienceleague.adobe.com/RJbtR10FIXBaSjXv-HxYIsJg1vpDA71Gwu99Jl9GQh0
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
 source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
 workflow-type: tm+mt
-source-wordcount: 342
-ht-degree: 88%
-
+source-wordcount: '342'
+ht-degree: 100%
 ---
-
 # Berechtigungen {#permissions}
 
 Jede Benutzerin und jeder Benutzer in Adobe Campaign hat spezifische Berechtigungen und Einschränkungen in der Anwendung. Benutzerinnen und Benutzer können zu einer Benutzergruppe gehören und die Berechtigungen der Gruppe erben.
@@ -55,6 +55,6 @@ Wenn die Option **[!UICONTROL Systemordner]** aktiviert ist, haben alle Benutzen
 
 In diesem [Abschnitt](work-with-folders.md#folder-access-rights) erfahren Sie, wie sich diese Rechte auf die Aktionen auswirken, die Sie für einen Ordner ausführen können.
 
-Mit spezifischen Berechtigungen wird auch festgelegt, welche Ordneraktionen einem Benutzer zur Verfügung stehen. Weitere Informationen finden Sie in der [Dokumentation zu Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/permissions/manage-permissions.html?lang=de#use-named-rights){target="_blank"}.
+Mit spezifischen Berechtigungen wird auch festgelegt, welche Ordneraktionen einer Benutzerin bzw. einem Benutzer zur Verfügung stehen. Weitere Informationen finden Sie in der [Dokumentation zu Campaign v8](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/permissions/manage-permissions#use-named-rights){target="_blank"}.
 
 Alle Berechtigungen in der Benutzeroberfläche von Campaign Web werden mit den Berechtigungen der Campaign-Client-Konsole synchronisiert.

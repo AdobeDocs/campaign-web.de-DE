@@ -6,15 +6,15 @@ exl-id: db978482-43f6-48a7-8d8d-4b921eb610b2
 TQID: https://experienceleague.adobe.com/XEGIeWi9D0dUYRFTD-fRY3P2BEpbOTvmm9aD06uq8RA
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
-source-wordcount: 480
+workflow-type: tm+mt
+source-wordcount: '480'
 ht-degree: 100%
-
 ---
-
 # Aktualisieren von Daten {#update-data}
 
 Die Aktivität **Daten-Update** ist eine **Daten-Management**-Aktivität. Sie ermöglicht eine gebündelte Aktualisierung der Datenbankfelder. Die Art der Datenbankaktualisierung kann über verschiedene Optionen angepasst werden.

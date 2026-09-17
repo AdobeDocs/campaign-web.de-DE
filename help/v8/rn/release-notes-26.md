@@ -3,12 +3,10 @@ title: Frühere Versionshinweise zur Web-Benutzeroberfläche von Campaign v8
 description: Versionen der Campaign Web-Benutzeroberfläche 2026
 exl-id: 40735c57-94ae-4646-8c3d-68197569fbd4
 source-git-commit: 6ed3a17593d0dc7bda55d9f90fc27526c09d99ed
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2025'
 ht-degree: 100%
-
 ---
-
 # Versionshinweise für 2026 {#2026-release}
 
 Auf dieser Seite werden alle Änderungen und Verbesserungen aufgelistet, die in **Versionen 2026** verfügbar sind. Die neuesten Versionshinweise finden Sie auf [dieser Seite](release-notes.md).
@@ -76,7 +74,7 @@ _28. Juli 2026_
 <tbody>
 <tr>
 <td>
-<p>Die Aktivität <strong>Laden (RDBMS)</strong> ist jetzt in der Web-Benutzeroberfläche von Campaign verfügbar. Verwenden Sie diese Aktivität, um Daten direkt aus einer externen relationalen Datenbank in Ihren Workflow zu laden. Die extrahierten Daten stehen während des gesamten Workflows zur Verfügung und können für die Zielgruppenbestimmung, die Anreicherung oder die weitere Datenverarbeitung verwendet werden.</p>
+<p>Die Aktivität <strong>Laden (RDBMS)</strong> ist jetzt in der Web-Benutzeroberfläche von Campaign verfügbar. Diese Aktivität verwenden, um Daten direkt aus einer externen relationalen Datenbank in Ihren Workflow zu laden. Die extrahierten Daten stehen während des gesamten Workflows zur Verfügung und können für die Zielgruppenbestimmung, die Anreicherung oder die weitere Datenverarbeitung verwendet werden.</p>
 <p>Weitere Informationen finden Sie in der <a href="../workflows/activities/data-loading-rdbms.md">detaillierten Dokumentation</a>.</p>
 </td>
 </tr>
