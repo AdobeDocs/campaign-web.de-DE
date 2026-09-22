@@ -2,14 +2,46 @@
 title: Frühere Versionshinweise zur Web-Benutzeroberfläche von Campaign v8
 description: Versionen der Campaign Web-Benutzeroberfläche 2026
 exl-id: 40735c57-94ae-4646-8c3d-68197569fbd4
-source-git-commit: 6ed3a17593d0dc7bda55d9f90fc27526c09d99ed
+source-git-commit: 1c4cdd5164d0cf572e9b88881bbe240b06308866
 workflow-type: tm+mt
-source-wordcount: '2025'
+source-wordcount: '2251'
 ht-degree: 100%
 ---
 # Versionshinweise für 2026 {#2026-release}
 
 Auf dieser Seite werden alle Änderungen und Verbesserungen aufgelistet, die in **Versionen 2026** verfügbar sind. Die neuesten Versionshinweise finden Sie auf [dieser Seite](release-notes.md).
+
+## Version August 2026 {#26-8-release}
+
+_18. August 2026_
+
+### Neue Funktionen {#26-8-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>Workflow-Aktivität „Validierung“</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Die Workflow-Aktivität <strong>Validierung</strong>, die zuvor nur in der Client-Konsole verfügbar war, ist jetzt in der Web-Benutzeroberfläche von Campaign verfügbar. Weisen Sie die Aufgabe einer Gruppe oder einer einzelnen Benutzerin bzw. einem einzelnen Benutzer zu, passen Sie den Benachrichtigungstitel und die Nachricht an und definieren Sie die möglichen Antworten (z. B. Ja/Nein) als Ausgabeverzweigungen.</p>
+<p>Weitere Informationen finden Sie im <a href="../workflows/activities/approval.md">entsprechenden Handbuch</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### Verbesserungen {#26-8-improvements}
+
+* **Öffnungs-Tracking**: Sie können jetzt das Öffnungs-Tracking direkt über die Web-Benutzeroberfläche von Campaign aktivieren oder deaktivieren. Dies hilft Ihnen bei der Einhaltung der Datenschutzbestimmungen. [Weitere Informationen](../advanced-settings/delivery-settings.md#tracking-tab)
+* **Programmlistenansicht**: Programme werden jetzt in einer dedizierten Ansicht aufgelistet, ähnlich wie bei Kampagnen, Sendungen und Workflows. Sie können von dieser Ansicht aus bestehende Programme durchsuchen und neue erstellen. [Weitere Informationen](../administration/plans-programs.md#create-program)
+* **Konfiguration benutzerdefinierter Schema**: Im Abschnitt **Aktionsdaten** können Sie jetzt die Aktion **Duplizieren** für die Einträge eines benutzerdefinierten Schemas deaktivieren. [Weitere Informationen](../administration/schemas-action-data.md#action-data)
+* **Benutzerdefinierte Filter**: Im Schema-Editor können Sie jetzt die Werte, die in der Auswahl für einen benutzerdefinierten Filter des Typs „Link“ verfügbar sind, mithilfe des neuen Dialogfelds **Link-Einstellungen** einschränken. [Weitere Informationen](../administration/schemas-custom-filters.md#settings)
+* **Schemavalidierung**: Sie können jetzt die Struktur eines Schemas direkt im Schema-Editor mithilfe der neuen Schaltfläche **Prüfen** validieren. [Weitere Informationen](../administration/schemas-create-publish.md#create-new)
+* **Ordnersicherheit**: Aktionen, die für einen Ordner verfügbar sind, werden nun durchgängig durch die Benutzerberechtigungen geregelt, was dem Verhalten der Client-Konsole entspricht. [Weitere Informationen](../get-started/work-with-folders.md#about-folders).
+  <!--* **Workflow and delivery templates (only msf???)**: When creating a new workflow or delivery, you must now explicitly select a template. A default template is no longer applied automatically.-->
 
 ## Version Juli 2026 {#26-7-release}
 

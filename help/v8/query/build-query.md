@@ -7,10 +7,10 @@ TQID: https://experienceleague.adobe.com/s8cjbxjs-71srb0hufQBlBgqJhUxBHFSHhBsxID
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 1c4cdd5164d0cf572e9b88881bbe240b06308866
 workflow-type: tm+mt
-source-wordcount: '2952'
-ht-degree: 100%
+source-wordcount: '3041'
+ht-degree: 91%
 ---
 # Erstellen Ihrer ersten Abfrage {#build-query}
 
@@ -71,7 +71,7 @@ Um auf diese Option zuzugreifen, klicken Sie in Ihrer Abfrage auf die Schaltflä
 >
 >* Bei Feldern mit vielen Werten werden nur die ersten zwanzig Werte angezeigt. In solchen Fällen werden Sie durch die Benachrichtigung **[!UICONTROL Teilweise geladen]** gewarnt.
 >* Die Option **[!UICONTROL Werteverteilung]** ist in jeder Attributauswahl verfügbar. [Erfahren Sie, wie Sie Attribute auswählen](../get-started/attributes.md)
->* Mithilfe der **[!Aerweiterten Filter]** können Sie Bedingungen zu den Ergebnissen hinzufügen. [Weitere Informationen finden Sie hier](../get-started/work-with-folders.md#filter-the-values).
+>* Mithilfe der **[ !Aerweiterten Filter]** können Sie Bedingungen zu den Ergebnissen hinzufügen. [Weitere Informationen finden Sie hier](../get-started/work-with-folders.md#filter-the-values).
 
 ## Hinzufügen von Filterkomponenten {#filtering}
 
@@ -155,9 +155,11 @@ Für Attribute vom Typ „Datum“ sind vordefinierte Werte bei Verwendung der O
 
 >[!ENDTABS]
 
-#### Benutzerdefinierte Bedingungen für verknüpfte Tabellen (1:1- und 1:n-Relation){#links}
+### Benutzerdefinierte Bedingungen für verknüpfte Tabellen (1:1- und 1:n-Relation){#links}
 
 Mit benutzerdefinierten Bedingungen können Sie Tabellen abfragen, die mit der aktuell von Ihrer Regel verwendeten Tabelle verknüpft sind. Dazu gehören Tabellen mit einer 1:1-Relation oder Sammlungstabellen (1:n-Relation).
+
+#### 1:1-Relation
 
 Navigieren Sie bei einer **1:1-Relation** zur verknüpften Tabelle, wählen Sie das gewünschte Attribut aus und definieren Sie den erwarteten Wert.
 
@@ -169,63 +171,51 @@ Hier geht es bei der Abfrage um Marken mit der Bezeichnung „Laufen“.
 
 1. Navigieren Sie durch die Tabelle **Marke** und wählen Sie das Attribut **Titel**.
 
-   ![Screenshot der Tabelle „Marke“](assets/1-1-attribute.png){zoomable="yes"}{width="85%" align="center"}
+   ![Screenshot der Tabelle „Marke“](assets/rule-builder-1-1-attribute.png){zoomable="yes"}{width="85%" align="center"}
 
 1. Definieren Sie den erwarteten Wert für das Attribut.
 
-   ![Beispiel für einen definierten erwarteten Wert](assets/1-1-table.png){zoomable="yes"}{width="85%" align="center"}
+   ![Screenshot der Tabelle „Marke“](assets/rule-builder-1-1-attribute-value.png){zoomable="yes"}{width="85%" align="center"}
 
 Hier ist ein Abfragebeispiel, bei dem eine Tabellenverknüpfung direkt ausgewählt wurde. Die verfügbaren Werte für diese Tabelle müssen über eine spezielle Auswahl ausgewählt werden.
 
-![Abfragebeispiel](assets/1-1-table-direct.png){zoomable="yes"}{width="85%" align="center"}
+![Screenshot der Tabelle „Marke“](assets/rule-builder-1-1-attribute-table.png){zoomable="yes"}{width="85%" align="center"}
 
 +++ 
 
-Für eine **1:n-Relation** können Sie Unterbedingungen definieren, um Ihre Abfrage zu verfeinern, wie im folgenden Beispiel gezeigt.
+#### 1:n-Relation
 
-+++Anwendungsbeispiel
+Für eine **1-N-** können Bedingungen auf zwei Arten definiert werden:
 
-In unserem Beispiel zielt die Abfrage auf Empfängerinnen und Empfänger ab, die im Zusammenhang mit dem BrewMaster-Produkt Einkäufe getätigt haben, und zwar für einen Gesamtbetrag von mindestens 100 USD.
+* **Wählen Sie die Sammlung selbst aus** z. B. **Bestellungen**. Dadurch wird eine Bedingung **[!UICONTROL vorhanden,]**. B. , erstellt, in der Sie Unterbedingungen hinzufügen können.
 
-1. Wählen Sie die Tabelle **Käufe** und bestätigen Sie.
+  +++Anwendungsbeispiel
 
-   ![Screenshot der Tabelle „Käufe“](assets/1-N-collection.png){zoomable="yes"}{width="50%" align="center"}
+  Hier richtet sich die Abfrage an Empfänger, die für mehr als 100 € Einkäufe im Zusammenhang mit dem BrewMaster-Produkt getätigt haben.
 
-1. Es wird eine ausgehende Transition hinzugefügt, die die Erstellung von Unterbedingungen ermöglicht.
+  1. Wählen Sie die Tabelle **Käufe** und bestätigen Sie.
 
-   ![Beispiel für eine ausgehende Transition](assets/1-n-subcondition.png){zoomable="yes"}{width="85%" align="center"}
+  1. Klicken Sie **[!UICONTROL Bedingung hinzufügen]**, um die Unterbedingungen zu definieren, die auf die ausgewählte Tabelle angewendet werden sollen.
 
-1. Wählen Sie das Attribut **Preis** und Zielkäufe von 1000 USD oder mehr
+     ![Screenshot der Tabelle „Käufe“](assets/rule-builder-1-n-purchase.png){zoomable="yes"}{width="85%" align="center"}
 
-   ![Screenshot des Attributs „Preis“](assets/1-n-price.png){zoomable="yes"}{width="85%" align="center"}
+  1. Fügen Sie Unterbedingungen hinzu, die Ihren Anforderungen entsprechen.
 
-1. Fügen Sie Unterbedingungen hinzu, die Ihren Anforderungen entsprechen. In unserem Beispiel haben wir eine Bedingung für Profile hinzugefügt, die ein BrewMaster-Produkt erworben haben.
+     ![Screenshot der Tabelle „Käufe“](assets/rule-builder-1-n-collection.png){zoomable="yes"}{width="85%" align="center"}
 
-   ![Beispiel für Unterbedingungen](assets/custom-condition-1-N.png){zoomable="yes"}{width="85%" align="center"}
+  +++
 
-+++ 
+* **Wählen Sie ein Attribut aus der Sammlung aus** z. B. **Preis** unter **Bestellungen**. Es stehen drei Optionen zum Definieren der Bedingung zur Verfügung.
 
-#### Arbeiten mit aggregierten Daten {#aggregate}
+  ![Screenshot mit den Optionen für die Sammlungsbedingung](assets/rule-builder-collection.png){zoomable="yes"}{width="85%" align="center"}
 
-Mit benutzerdefinierten Bedingungen können Sie Aggregierungsvorgänge ausführen. Wählen Sie dazu direkt ein Attribut aus einer Sammlungstabelle aus:
+  * **[!UICONTROL Standard]**: die empfohlene Option für die meisten Anwendungsfälle. Es wird automatisch eine **[!UICONTROL vorhanden“ wie]** für die Sammlung erstellt. Dies entspricht der direkten Auswahl der Sammlung mit der oben beschriebenen Methode und erzeugt dasselbe Ergebnis. Wenn Sie beispielsweise das Attribut **Preis** aus **Bestellungen** auswählen, wird eine Bedingung **Bestellungen vorhanden, z** B. Anschließend können Sie den Operator und den Wert festlegen, z. B. **gleich** `0`.
 
-1. Navigieren Sie durch die gewünschte Sammlungstabelle und wählen Sie das Attribut aus, für das Sie einen Aggregierungsvorgang durchführen möchten.
+  * **[!UICONTROL Aggregat]**: Wendet eine Aggregatfunktion auf das ausgewählte Sammlungsattribut an. Wählen Sie beispielsweise **Count**, um eine Bedingung wie **Count(Price) gleich 0** zu erstellen. Sie können die zusätzliche Bedingung verwenden, um die in der Aggregation enthaltenen Datensätze zu verfeinern.
 
-   ![Screenshot der Attributliste](assets/aggregate-attribute.png){zoomable="yes"}{width="85%" align="center"}
+  * **[!UICONTROL Erweitert]**: Verwendet einen direkten Join zum Sammlungselement. Das ausgewählte Attribut wird direkt ausgewertet, z. B **„Preis (Käufe/@price)**. Verwenden Sie diese Option für eine einzelne Bedingung im Sammlungselement.
 
-1. Aktivieren Sie im Eigenschaften-Fenster die Option **Daten aggregieren** und wählen Sie die gewünschte Aggregierungsfunktion aus.
-
->[!BEGINTABS]
-
->[!TAB Klassischer Abfrage-Modeler]
-
-![Screenshot der Option „Daten aggregieren“](assets/aggregate.png){zoomable="yes"}{width="85%" align="center"}
-
->[!TAB Neuer Regel-Builder]
-
-![Screenshot der Option „Daten aggregieren“](assets/ruleb-5.png){zoomable="yes"}{width="85%" align="center"}
-
->[!ENDTABS]
+  Die **[!UICONTROL Standard]**-Option ist standardmäßig ausgewählt. Verwenden Sie **[!UICONTROL Aggregat]**, wenn Sie Sammlungsdatensätze zählen oder aggregieren müssen, oder **[!UICONTROL Erweitert]** wenn Sie eine direkte Verknüpfung zu einem Sammlungsattribut benötigen.
 
 ### Auswählen einer Zielgruppe {#audiences}
 

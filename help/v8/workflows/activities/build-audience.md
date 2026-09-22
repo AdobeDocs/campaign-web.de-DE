@@ -7,10 +7,10 @@ TQID: https://experienceleague.adobe.com/6CerJ1hOBDDc3gAN-AQFuxkiBpbcxH-2YLPAXaB
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
-source-git-commit: 3207311cda7b2b88b68ef194d2776ae40e907f48
+source-git-commit: 1c4cdd5164d0cf572e9b88881bbe240b06308866
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 100%
+source-wordcount: '528'
+ht-degree: 92%
 ---
 # Zielgruppe erstellen {#build-audience}
 
@@ -58,11 +58,11 @@ Führen Sie die folgenden Schritte aus, um die Aktivität **Zielgruppe erstellen
 Gehen Sie wie folgt vor, um Ihre eigene Abfrage zu erstellen:
 
 1. Wählen Sie **Eigene erstellen (Abfrage)** aus.
-1. Wählen Sie die **Zielgruppendimension**. Die Zielgruppendimension ermöglicht die Bestimmung der vom Vorgang betroffenen Population wie Empfängerinnen und Empfänger, Vertragsbegünstigte, Benutzerinnen und Benutzer oder Abonnierende. Standardmäßig wird die Zielgruppe aus den Empfängerinnen und Empfängern ausgewählt. [Erfahren Sie mehr über Zielgruppendimensionen](../../audience/targeting-dimensions.md#targeting)
+1. Wählen Sie die **Zielgruppendimension**. Die Zielgruppendimension ermöglicht die Bestimmung der vom Vorgang betroffenen Population wie Empfängerinnen und Empfänger, Vertragsbegünstigte, Benutzerinnen und Benutzer oder Abonnierende. Standardmäßig ist die Zielgruppe die Empfängerdimension. [Erfahren Sie mehr über Zielgruppendimensionen](../../audience/targeting-dimensions.md#targeting)
 1. Wählen Sie die **Filterdimension** aus, indem Sie auf das Symbol neben der Zielgruppendimension klicken. Mit der Filterdimension können Sie Filter auf die Zielpopulation anwenden, indem Sie auf zugehörige Kriterien verweisen, ohne die Hauptzielgruppendimension zu ändern. [Erfahren Sie mehr über Zielgruppendimensionen](../../audience/targeting-dimensions.md#filtering)
 1. Bestätigen Sie die Angaben mit der Schaltfläche **Fortfahren**.
 1. Verwenden Sie den Abfrage-Modeler, um Ihre Abfrage zu definieren, genauso wie Sie eine Zielgruppe beim Entwerfen einer neuen E-Mail erstellen. [Erfahren sie mehr über die Arbeit mit dem Abfrage-Modeler](../../query/query-modeler-overview.md)
-1. Verwenden Sie die Aktivität **Anreicherungsdaten**, um die Zielgruppendaten um zusätzliche Informationen aus der Datenbank zu erweitern, z. B. Vertragsreferenzen oder Newsletter-Abonnements. Diese Daten werden mit der Zielgruppe in der Workflow-**Arbeitstabelle** gespeichert und stehen für folgende Aktivitäten zur Verfügung. Sie können einzelne Anreicherungsattribute, Sammlungs-Links oder Ausdrücke hinzufügen und auf erweiterte Optionen zugreifen. Ausführliche Anweisungen und Beispiele finden Sie unter [Anreicherungsdaten hinzufügen](enrichment.md#enrichment-add).
+1. Verwenden Sie die Aktivität **Anreicherungsdaten**, um die Zielgruppendaten um zusätzliche Informationen aus der Datenbank zu erweitern, z. B. Vertragsreferenzen oder Newsletter-Abonnements. Diese Daten werden mit der Zielgruppe in der Workflow-**Arbeitstabelle** gespeichert und stehen für folgende Aktivitäten zur Verfügung. Sie können einzelne Anreicherungsattribute, Sammlungslinks, Ausdrücke oder Felder aus einer externen Datenbank hinzufügen und auf erweiterte Optionen zugreifen. Detaillierte Schritte und Beispiele finden Sie unter [Anreicherungsdaten hinzufügen](enrichment.md#enrichment-add) und [Mit externen Datenbankdaten anreichern](enrichment.md#external-data).
 
 >[!TAB Zielgruppe lesen]
 
