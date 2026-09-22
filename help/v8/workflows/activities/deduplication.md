@@ -7,10 +7,10 @@ TQID: https://experienceleague.adobe.com/gpvGRMzvpKR3yi3yUiUe9NJPt-FR2FO-qzbhFsB
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
-source-git-commit: 4eae8f0ea3c176a12e040f7406aac699e14a5ba8
+source-git-commit: 1c4cdd5164d0cf572e9b88881bbe240b06308866
 workflow-type: tm+mt
-source-wordcount: '769'
-ht-degree: 100%
+source-wordcount: '835'
+ht-degree: 82%
 ---
 # Deduplizierung {#deduplication}
 
@@ -69,10 +69,16 @@ Gehen Sie folgendermaßen vor, um die **Deduplizierungsaktivität** zu konfiguri
 
 1. Wählen Sie die **Deduplizierungsmethode** aus, die verwendet werden soll:
 
-   * **Zufällige Auswahl**: Wählt nach dem Zufallsprinzip unter den Duplikaten den Eintrag aus, der beibehalten werden soll.
-   * **Von einem Ausdruck ausgehend**: Behält Einträge bei, für die der angegebene Ausdruck den kleinsten oder größten Wert aufweist.
-   * **Wert nicht leer**: Behält Einträge bei, für die der Ausdruck nicht leer ist.
-   * **Gemäß einer Werteliste**: Definiert eine Priorität nach Wert für ein oder mehrere Felder. Klicken Sie zur Bestimmung dieser Werte auf **Attribute**, um ein Feld auszuwählen, oder erstellen Sie einen Ausdruck und fügen Sie dann die Werte der entsprechenden Tabelle hinzu. Verwenden Sie die Schaltfläche **Hinzufügen** oberhalb der Werteliste, um ein neues Feld zu definieren.
+   * **[!UICONTROL Zufällige Auswahl]**: Wählt nach dem Zufallsprinzip unter den Duplikaten den Eintrag aus, der beibehalten werden soll.
+   * **[!UICONTROL Ausdruck verwenden]**: Behält die Datensätze bei, für die der angegebene Ausdruck den kleinsten oder größten Wert aufweist. Geben Sie den **[!UICONTROL Ausdruck]** ein und wählen Sie dann die **[!UICONTROL Sortieren]** Reihenfolge: **[!UICONTROL Aufsteigend (kleinste Werte zuerst)]** oder **[!UICONTROL Absteigend (größte Werte zuerst)]**.
+   * **[!UICONTROL Nicht leerer Wert]**: Behält die Datensätze bei, für die der Ausdruck nicht leer ist.
+   * **[!UICONTROL Nach einer Werteliste]**: Definiert die Datensatzpriorität durch Abgleich eines oder mehrerer Werte für ein Attribut oder einen Ausdruck. Klicken Sie **[!UICONTROL Attribut hinzufügen]**, um ein Attribut hinzuzufügen. Für jedes Attribut:
+
+     * Wählen Sie **[!UICONTROL Feld]** Attribut“ das Attribut aus oder erstellen Sie einen Ausdruck.
+     * Klicken Sie **[!UICONTROL Wert hinzufügen]**, um die sortierte Liste der zu priorisierenden Werte zu erstellen.
+     * Verwenden Sie die **[!UICONTROL Nach anderen Werten sortieren]** Dropdown-Liste, um festzulegen, wie die Werte sortiert werden sollen, die nicht in der Liste enthalten sind, z. B **[!UICONTROL „Gleichgültig (zufällig)]**.
+
+     Wenn mehrere Attribute definiert sind, wird das erste als Hauptsortierungskriterium verwendet und die folgenden Attribute fungieren als Trennzeichen in der richtigen Reihenfolge.
 
 1. Kreuzen Sie die Option **Komplement erzeugen** an, um die verbleibende Population zu verwenden. Das Komplement besteht aus allen Duplikaten. Der Aktivität wird daraufhin eine zusätzliche Transition hinzugefügt.
 

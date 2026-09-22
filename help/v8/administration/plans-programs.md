@@ -15,9 +15,9 @@ feature_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
+source-git-commit: 1c4cdd5164d0cf572e9b88881bbe240b06308866
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '630'
 ht-degree: 100%
 ---
 # Pläne und Programme {#plan-and-programs}
@@ -97,8 +97,6 @@ Sie haben zwei Möglichkeiten, eine Kampagne mit einem Programm zu verknüpfen:
 ### Möglichkeit 1: Sie verfügen bereits über ein Programm und möchten eine damit verknüpfte Kampagne erstellen.
 
 Um eine neue Kampagne mit Ihrem Programm zu verknüpfen, erstellen Sie die Kampagne direkt im Programm:
-
-![Screenshot zur Erstellung einer Kampagne innerhalb eines Programms](assets/program_campaign_create.png){zoomable="yes"}
 
 Die **[!UICONTROL Ordnereinstellungen]** werden automatisch mit dem Pfad zu Ihrem Programm aufgefüllt.
 

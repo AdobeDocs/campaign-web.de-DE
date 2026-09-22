@@ -2,10 +2,10 @@
 title: Durchsuchen von und Zugreifen auf Schemata
 description: Erfahren Sie, wie Sie in der Benutzeroberfläche Schemata durchsuchen und darauf zugreifen können.
 exl-id: deafd171-0a3f-4ba2-8fa4-09661d8cdb3e
-source-git-commit: b3d611e9a9a723a5b76fdcd1053d93db4417dbaf
+source-git-commit: 1c4cdd5164d0cf572e9b88881bbe240b06308866
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 100%
+source-wordcount: '531'
+ht-degree: 83%
 ---
 # Zugreifen auf und Konfigurieren von Schemata {#access}
 
@@ -62,3 +62,5 @@ In der Bildschirmdefinition haben Sie folgende Möglichkeiten:
 * [Benutzerdefinierte Felder bearbeiten](schemas-custom-fields.md) – Konfigurieren Sie, welche benutzerdefinierten Felder auf Detailbildschirmen angezeigt werden, und organisieren Sie sie in Abschnitte.
 * [Sammlungslisten hinzufügen](schemas-collection-lists.md) – Fügen Sie Sammlungslisten hinzu, um verwandte Daten in Profilbildern anzuzeigen.
 * [Aktionen für Daten steuern](schemas-action-data.md) – Beschränken Sie das Erstellen, Bearbeiten und Löschen von Aktionen für benutzerdefinierte Schemata.
+
+Für Schemata, die einen oder mehrere Einträge im linken Navigationsbereich unterstützen, z. B **nms:delivery** oder **xtk:workflow**, zeigt die Bildschirmdefinition auch einen Abschnitt **[!UICONTROL Seitennavigationszugriff]** an. Aktivieren Sie das **[!UICONTROL Menüzugriff entfernen für]**, das einem Menüeintrag entspricht, um ihn für alle Benutzer in der Instanz aus der linken Navigation auszublenden, unabhängig von ihren individuellen Zugriffsrechten. Einige Schemata unterstützen mehrere Menüeinträge: **nms:delivery** wird beispielsweise für die Einträge **[!UICONTROL Sendungen]** und **[!UICONTROL Transaktionsnachrichten]** freigegeben, sodass für jeden Eintrag ein Kontrollkästchen angezeigt wird.

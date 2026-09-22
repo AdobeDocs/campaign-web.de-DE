@@ -10,10 +10,10 @@ product_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 1c4cdd5164d0cf572e9b88881bbe240b06308866
 workflow-type: tm+mt
-source-wordcount: '694'
-ht-degree: 100%
+source-wordcount: '1012'
+ht-degree: 67%
 ---
 # Laden einer E-Mail-Zielgruppe aus einer Datei {#audience-from-file}
 
@@ -39,7 +39,7 @@ ht-degree: 100%
 
 Über die Web-Benutzeroberfläche von Adobe Campaign können Sie in einer externen Datei gespeicherte Zielprofile verwenden. Sobald die Profile geladen sind, stehen alle Felder der Eingabedatei zur Verfügung, um Ihren Versand zu personalisieren. [Erfahren Sie, wie Sie Ihre Inhalte personalisieren können](../personalization/personalize.md).
 
-Die Profile aus der Eingabedatei werden nicht in die Datenbank aufgenommen. Sie werden geladen und sind nur für diesen speziellen, eigenständigen E-Mail-Versand verfügbar.
+Sie können festlegen, dass nur Profile für diesen speziellen eigenständigen E-Mail-Versand geladen werden sollen, ohne sie zur Datenbank hinzuzufügen, oder dass diese Profile importiert und in die Datenbank abgestimmt werden sollen. [Weitere Informationen](#upload).
 
 >[!NOTE]
 >
@@ -66,7 +66,61 @@ Gehen Sie folgendermaßen vor, um Profile aus einer Datei in Ihre E-Mails aufzun
    ![Screenshot mit der Daten-Mapping-Vorschau im mittleren Abschnitt](assets/select-from-file-map.png)
 
 1. Legen Sie in der Dropdown-Liste **Adressfeld** die Spalte fest, die die E-Mail-Adresse enthält. Sie können auch die Spalte „Blockierungsliste“ auswählen, wenn diese Informationen in der Eingabedatei enthalten sind.
-1. Passen Sie die Spalteneinstellungen an und legen Sie mithilfe der verfügbaren Optionen fest, wie die Daten formatiert werden sollen.
+1. Erweitern Sie im Abschnitt **[!UICONTROL Spalten]** eine Spalte, um ihre Einstellungen anzupassen, und definieren Sie die Formatierung der Daten mithilfe der verfügbaren Optionen. Verwenden Sie für jede Spalte, die Sie für die Abstimmung verwenden möchten **[!UICONTROL „Zielfeld auswählen]**, um sie einem Empfängerschemaattribut zuzuordnen.
+
+1. Verwenden Sie den Umschalter **[!UICONTROL Empfänger nicht in die Datenbank importieren]** um zu steuern, ob die Profile der Datei importiert und in die Datenbank abgestimmt werden. Wenn Sie sie importieren möchten, wird der Abschnitt **[!UICONTROL Feldzuordnung und Abstimmung]** angezeigt. Konfigurieren Sie die folgenden Parameter:
+
+   ![Screenshot mit der Daten-Mapping-Vorschau im mittleren Abschnitt](assets/select-from-file-map2.png)
+
+   +++**[!UICONTROL operation]**
+
+   Wählen Sie die Aktion aus, die in der Datenbank ausgeführt werden soll:
+
+   * **[!UICONTROL Aktualisieren oder einfügen]**: Aktualisiert den Datensatz, sofern er in der Datenbank vorhanden ist, und erstellt ihn, falls nicht.
+   * **[!UICONTROL Einfügen]**: Fügt Datensätze in die Datenbank ein.
+   * **[!UICONTROL Aktualisieren]**: aktualisiert nur vorhandene Datensätze.
+   * **[!UICONTROL Nur Abstimmung]**: Sucht in der Datenbank nach dem Eintrag, führt jedoch keine Aktualisierung durch.
+   * **[!UICONTROL Löschen]**: löscht Datensätze aus der Datenbank.
+
+   +++
+
+   +++**[!UICONTROL Verwaltung von Duplikaten]**
+
+   Wählen Sie aus, wie ein Datensatz verarbeitet werden soll, der sowohl in der Datei als auch in der Datenbank vorhanden ist:
+
+   * **[!UICONTROL Aktualisieren]** (Standard): Aktualisiert den Datensatz.
+   * **[!UICONTROL Entität zurückweisen]**: Schließt sie aus und protokolliert einen Fehler.
+   * **[!UICONTROL Ignorieren]**: Schließt es aus, ohne eine Spur zu behalten.
+
+   +++
+
+   +++**[!UICONTROL Verwaltung von Dubletten]**
+
+   Wählen Sie aus, wie ein Datensatz verarbeitet werden soll, der mehrmals in der Datei selbst enthalten ist:
+
+   * **[!UICONTROL Aktualisieren]** (Standard): Dedupliziert nicht; der letzte übereinstimmende Datensatz hat Priorität.
+   * **[!UICONTROL Entität zurückweisen]**: Schließt die zusätzlichen Einträge aus und protokolliert einen Fehler.
+   * **[!UICONTROL Ignorieren]**: Schließt die zusätzlichen Datensätze aus, ohne eine Verfolgung durchzuführen.
+
+   +++
+
+   +++**[!UICONTROL Typ der Zurückweisung]**
+
+   Wählen Sie aus, wie ein Fehler auf Feldebene bei der Abstimmung gehandhabt werden soll:
+
+   * **[!UICONTROL Warnung ignorieren und protokollieren]**: Importiert alle anderen Felder und protokolliert den Fehler.
+   * **[!UICONTROL Übergeordnetes Element zurückweisen]**: lehnt den gesamten Datensatz ab.
+   * **[!UICONTROL Alle Elemente zurückweisen]**: Hält den Import an und lehnt alles ab.
+
+   +++
+
+   +++**[!UICONTROL Abstimmschlüsselfelder]**
+
+   Im Abschnitt **[!UICONTROL Spalten]** haben Sie einige Spalten einem Zielfeld zugeordnet. Wählen Sie hier aus, welches dieser zugeordneten Felder zur Identifizierung eines Datensatzes verwendet werden soll.
+
+   +++
+
+1. Geben **[!UICONTROL Abschnitt &quot;]**&quot; die Codierung, das Zeichenfolgen-Trennzeichen und das Spaltentrennzeichen an, die von der Datei verwendet werden.
 1. Klicken Sie auf **Bestätigen**, wenn die Einstellungen korrekt sind.
 
 Bei der Erstellung des Nachrichteninhalts kann mithilfe der Felder aus der Eingabedatei eine Personalisierung vorgenommen werden. [Erfahren Sie, wie Sie Inhalte personalisieren](../personalization/personalize.md)
@@ -86,14 +140,12 @@ Wenn Sie eine externe Datei in die Zielprofile Ihrer Sendungen laden, stellen Si
 * Die erste Zeile in der Datei enthält die Spaltenüberschriften.
 * Passen Sie Ihr Dateiformat an die unten stehende Beispieldatei an:
 
-  ```javascript
-  {
+  ```
   lastname,firstname,city,birthdate,email,denylist
   Smith,Hayden,Paris,23/05/1985,hayden.smith@example.com,0
   Mars,Daniel,London,17/11/1999,danny.mars@example.com,0
   Smith,Clara,Roma,08/02/1979,clara.smith@example.com,0
   Durance,Allison,San Francisco,15/12/2000,allison.durance@example.com,1
-  }
   ```
 
 ## Erstellen einer E-Mail-Vorschau und Testen einer E-Mail {#test}

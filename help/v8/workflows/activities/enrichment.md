@@ -13,10 +13,10 @@ feature_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 3207311cda7b2b88b68ef194d2776ae40e907f48
+source-git-commit: 1c4cdd5164d0cf572e9b88881bbe240b06308866
 workflow-type: tm+mt
-source-wordcount: '2370'
-ht-degree: 100%
+source-wordcount: '2702'
+ht-degree: 88%
 ---
 # Anreicherung {#enrichment}
 
@@ -38,6 +38,8 @@ Anreicherungsdaten können verschiedene Ursprünge haben:
 
 * **Andere Arbeitstabelle**:
   * Targeting einer Kundengruppe und Hinzufügen der Felder „Betrag“ und „Produkttyp“ aus der „Kauf“-Tabelle.
+
+* **Eine externe Datenbank**: Felder aus einer in einer externen Datenbank gespeicherten Tabelle hinzufügen. [Weitere Informationen](#external-data).
 
 Nachdem die Anreicherungsdaten dem Workflow hinzugefügt wurden, können sie in nachfolgenden Aktivitäten verwendet werden, um Kundinnen und Kunden basierend auf ihren Verhaltensweisen, Vorlieben und Bedürfnissen in unterschiedliche Gruppen zu segmentieren. Sie können auch zur Erstellung personalisierter Marketing-Nachrichten und -Kampagnen verwendet werden, die bei Ihrer Zielgruppe Anklang finden.
 
@@ -142,6 +144,42 @@ Gehen Sie wie folgt vor, um eine Relation zu erzeugen:
    * **Erweiterter Join**: Erstellen Sie einen Join mit erweiterten Bedingungen. Klicken Sie auf **Join hinzufügen** und klicken Sie auf die Schaltfläche **Bedingung erstellen**, um den Abfrage-Modeler zu öffnen.
 
 Ein Workflow-Beispiel mit Relationen ist im Abschnitt [Beispiele](#link-example) verfügbar.
+
+## Mit externen Datenbankdaten anreichern {#external-data}
+
+Mit den Aktivitäten **Anreicherung** und **Zielgruppe aufbauen** (Abfragetyp) können Sie Felder aus einer Tabelle hinzufügen, die in einer externen Datenbank gespeichert ist, indem Sie ein externes **[!UICONTROL Federated Data Access (FDA)-]** verwenden. [Erfahren Sie, wie Sie ein externes Konto konfigurieren](../../administration/create-external-account.md).
+
+>[!NOTE]
+>
+>Zur Abstimmung externer Datenbankfelder steht nur ein einfacher Join zur Verfügung. Erweiterte Join-Bedingungen werden für diesen Anreicherungstyp nicht unterstützt.
+
+Gehen Sie wie folgt vor, um Felder für externe Datenbanken hinzuzufügen:
+
+1. Klicken Sie im Abschnitt **[!UICONTROL Anreicherungsdaten]** des Aktivitätsbereichs auf **[!UICONTROL Feld Externe Datenbank hinzufügen]**.
+1. Wählen Sie das zu verwendende externe FDA-Konto aus und durchsuchen Sie die Tabelle, oder geben Sie den Namen der Tabelle ein, die Sie verwenden möchten.
+1. Wählen Sie die gewünschten Spalten aus und klicken Sie auf **Hinzufügen**.
+
+   ![Screenshot mit der Schaltfläche für die externe Datenbank](../assets/workflow-enrichment8.png)
+
+1. Definieren Sie **[!UICONTROL Abschnitt „Abstimmkriterien]** das Attribut **[!UICONTROL Source]** und die externe Spalte **[!UICONTROL Destination]**, um Daten abzustimmen. Sie können mehrere Joins hinzufügen, indem Sie auf **[!UICONTROL Verknüpfung hinzufügen]** klicken.
+
+1. Wählen Sie in **[!UICONTROL Dropdown-Liste]** Erfasste Daten“ aus, wie übereinstimmende Zeilen erfasst werden:
+
+   * **[!UICONTROL Alle Zeilen erfassen]**: ruft jede übereinstimmende Zeile ab.
+   * **[!UICONTROL Anzahl der Zeilen begrenzen]**: ruft bis zu einer von Ihnen definierten Anzahl von Zeilen ab. Aktivieren Sie **[!UICONTROL Sortierung aktivieren]**, um die Reihenfolge zu definieren, in der entschieden wird, welche Zeilen beibehalten werden.
+   * **[!UICONTROL Einzelne Zeile (Experte)]**: optimiert die Abfrage, indem angenommen wird, dass eine einzelne Zeile übereinstimmt. Wenn diese Annahme nicht korrekt ist, kann das Ergebnis fehlerhaft sein (fehlende oder duplizierte Daten).
+   * **[!UICONTROL Zeilen aggregieren]**: Verwenden Sie diese Option, wenn die erfassten Spalten bereits aggregierte Werte enthalten, z. B. eine Anzahl oder einen Durchschnitt.
+   * **[!UICONTROL Zusammenführen]**: Führt die übereinstimmenden Zeilen in einem Ergebnis zusammen.
+
+   >[!NOTE]
+   >
+   >Für die Optionen **[!UICONTROL Begrenzung der Zeilenanzahl]** und **[!UICONTROL Zusammenführen]** können Sie **[!UICONTROL Sortierung aktivieren]** um die Reihenfolge zu definieren, mit der entschieden wird, welche Zeilen beibehalten werden, oder die Zusammenführungsreihenfolge.
+
+1. Klicken Sie optional auf **[!UICONTROL Filter erstellen]**, um die externen Daten mithilfe des Abfrage-Modellierers zu filtern. [Erfahren Sie mehr über die Arbeit mit dem Abfrage-Modeler](../../query/query-modeler-overview.md).
+
+   ![Screenshot der Konfiguration der externen Datenbank](../assets/workflow-enrichment8.png)
+
+Die hinzugefügten Felder werden mit dem Aktivitätsnamen und dem Tabellennamen beschriftet.
 
 ## Datenabstimmung {#reconciliation}
 

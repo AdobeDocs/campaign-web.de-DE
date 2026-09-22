@@ -15,10 +15,10 @@ subfeature_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 1c4cdd5164d0cf572e9b88881bbe240b06308866
 workflow-type: tm+mt
-source-wordcount: '781'
-ht-degree: 100%
+source-wordcount: '918'
+ht-degree: 85%
 ---
 # Verwalten von Zielgruppen-Mappings {#target-mappings}
 
@@ -64,6 +64,21 @@ Um ein neues Zielgruppen-Mapping zu erstellen, rufen Sie das Menü **[!UICONTROL
 1. Geben Sie im Abschnitt **[!UICONTROL Eigenschaften]** einen **[!UICONTROL Titel]** für das Zielgruppen-Mapping ein.
 
 1. Erweitern Sie den Abschnitt **[!UICONTROL Weitere Optionen]**, um erweiterte Einstellungen wie den internen Namen, den Speicherordner und die Beschreibung des Zielgruppen-Mappings zu definieren.
+
+1. Aktivieren Sie die Option **[!UICONTROL Zielgruppen-Mapping für Mobile Apps]**, wenn Sie die Empfänger von Mobile Apps ansprechen.
+
+   ![Bildschirm mit den Eigenschaften der Zielgruppen-Mappings mit den Populationsoptionen](assets/target-mappings-properties0.png)
+
+   Dann haben Sie folgende Möglichkeiten:
+
+   * Lassen Sie das **[!UICONTROL Schema vorhandener abonnierter Anwendungen]** leer. Adobe Campaign generiert automatisch das erforderliche Speicherschema für Sie basierend auf der Empfängervorlage. Sie können **[!UICONTROL Zusätzliche Felder angeben]** verwenden, um benutzerdefinierte Felder zum generierten Schema hinzuzufügen.
+   * Ein vorhandenes Abonnentenanwendungsschema auswählen. In diesem Fall ist **[!UICONTROL Zusätzliche Felder angeben]** deaktiviert, da das Schema bereits existiert und die Felder **[!UICONTROL Filterdimension]** und **[!UICONTROL Zielgruppendimension]** basierend auf dem ausgewählten Schema automatisch ausgefüllt werden.
+
+   Mobile Zielgruppen-Mappings verwenden immer ihre eigenen dedizierten Speicherschemata, wobei die Ausschlussprotokolle separat gespeichert werden. Die Option **[!UICONTROL Ausschlüsse]**, die im Abschnitt **[!UICONTROL Speicherung]** unten beschrieben wird, gilt nicht für mobile Zielgruppen-Mappings.
+
+   >[!NOTE]
+   >
+   >Das Schema-Suffix darf keine Leerzeichen enthalten.
 
 1. Wählen Sie die Zielpopulation aus. Sie haben folgende Möglichkeiten:
 
