@@ -55,7 +55,7 @@ Gehen Sie wie folgt vor, um einen eigenständigen SMS-Versand zu erstellen:
 
 1. Klicken Sie auf die Schaltfläche **[!UICONTROL Zielgruppe auswählen]**, um eine vorhandene Zielgruppe anzusprechen oder eine eigene zu erstellen. [Weitere Informationen zu Zielgruppen](../audience/about-recipients.md).
 
-   Zusätzlich zum standardmäßigen Zielgruppen-Mapping **[!UICONTROL Empfänger]** können SMS-Sendungen auch auf (Besucher **** oder **[!UICONTROL Besucherabonnements]**. [Erfahren Sie mehr über Zielgruppendimensionen](../audience/targeting-dimensions.md#targeting)
+   Zusätzlich zum standardmäßigen Zielgruppen-Mapping **[!UICONTROL Empfänger]** können SMS-Sendungen auch auf (Besucher **&#x200B;**&#x200B;oder **[!UICONTROL Besucherabonnements]**. [Erfahren Sie mehr über Zielgruppendimensionen](../audience/targeting-dimensions.md#targeting)
 
    ![Screenshot mit der Schaltfläche „Zielgruppe auswählen“](assets/sms_create_2.png){zoomable="yes"}
 
