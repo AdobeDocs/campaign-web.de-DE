@@ -18,10 +18,10 @@ topic_v2:
     internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
+source-git-commit: 7a22b75c81435fa891fa8aa73c5c1acad1931710
 workflow-type: tm+mt
-source-wordcount: '332'
-ht-degree: 100%
+source-wordcount: '337'
+ht-degree: 38%
 ---
 # Versionshinweise {#latest-release}
 
@@ -32,36 +32,36 @@ ht-degree: 100%
 
 Die Versionen der Adobe Campaign Web-Benutzeroberfläche basieren auf einem kontinuierlichen Bereitstellungsmodell, das einen besser skalierbaren, schrittweisen Ansatz für die Implementierung von Funktionen ermöglicht. Dementsprechend werden diese Versionshinweise mehrmals im Monat aktualisiert. Sie sollten daher regelmäßig nachschauen.
 
-## Version August 2026 {#26-8-release}
+## Version September &#39;26 {#26-9-release}
 
-_18. August 2026_
+_22. September 2026_
 
-### Neue Funktionen {#26-8-features}
+### Neue Funktionen {#26-9-features}
 
 <table>
 <thead>
 <tr>
-<th><strong>Workflow-Aktivität „Validierung“</strong><br/></th>
+<th><strong>LINE-Kanal</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Die Workflow-Aktivität <strong>Validierung</strong>, die zuvor nur in der Client-Konsole verfügbar war, ist jetzt in der Web-Benutzeroberfläche von Campaign verfügbar. Weisen Sie die Aufgabe einer Gruppe oder einer einzelnen Benutzerin bzw. einem einzelnen Benutzer zu, passen Sie den Benachrichtigungstitel und die Nachricht an und definieren Sie die möglichen Antworten (z. B. Ja/Nein) als Ausgabeverzweigungen.</p>
-<p>Weitere Informationen finden Sie im <a href="../workflows/activities/approval.md">entsprechenden Handbuch</a>.</p>
+<p>Adobe Campaign unterstützt jetzt den <strong>LINE</strong>-Kanal, eine beliebte Instant Messaging-Anwendung. Erstellen und senden Sie LINE-Nachrichten mithilfe von Text-, Bild- oder Videoinhalten in eigenständigen Sendungen oder in Workflows neben Ihren anderen Kanälen. <a href="../line/get-started-line.md">Mehr dazu</a></p>
 </td>
 </tr>
 </tbody>
 </table>
 
-### Verbesserungen {#26-8-improvements}
+### Verbesserungen {#26-9-improvements}
 
-* **Öffnungs-Tracking**: Sie können jetzt das Öffnungs-Tracking direkt über die Web-Benutzeroberfläche von Campaign aktivieren oder deaktivieren. Dies hilft Ihnen bei der Einhaltung der Datenschutzbestimmungen. [Weitere Informationen](../advanced-settings/delivery-settings.md#tracking-tab)
-* **Programmlistenansicht**: Programme werden jetzt in einer dedizierten Ansicht aufgelistet, ähnlich wie bei Kampagnen, Sendungen und Workflows. Sie können von dieser Ansicht aus bestehende Programme durchsuchen und neue erstellen. [Weitere Informationen](../administration/plans-programs.md#create-program)
-* **Konfiguration benutzerdefinierter Schema**: Im Abschnitt **Aktionsdaten** können Sie jetzt die Aktion **Duplizieren** für die Einträge eines benutzerdefinierten Schemas deaktivieren. [Weitere Informationen](../administration/schemas-action-data.md#action-data)
-* **Benutzerdefinierte Filter**: Im Schema-Editor können Sie jetzt die Werte, die in der Auswahl für einen benutzerdefinierten Filter des Typs „Link“ verfügbar sind, mithilfe des neuen Dialogfelds **Link-Einstellungen** einschränken. [Weitere Informationen](../administration/schemas-custom-filters.md#settings)
-* **Schemavalidierung**: Sie können jetzt die Struktur eines Schemas direkt im Schema-Editor mithilfe der neuen Schaltfläche **Prüfen** validieren. [Weitere Informationen](../administration/schemas-create-publish.md#create-new)
-* **Ordnersicherheit**: Aktionen, die für einen Ordner verfügbar sind, werden nun durchgängig durch die Benutzerberechtigungen geregelt, was dem Verhalten der Client-Konsole entspricht. [Weitere Informationen](../get-started/work-with-folders.md#about-folders).
-  <!--* **Enrichment activity**: You can now enrich data from an external database directly from the **Enrichment** workflow activity. This matches the capability already available in the Client Console.-->
-  <!--* **Workflow and delivery templates (only msf???)**: When creating a new workflow or delivery, you must now explicitly select a template. A default template is no longer applied automatically.-->
+* **Seitennavigationszugriff**: Administratoren können jetzt bestimmte Menüeinträge in der Seitennavigation ausblenden. [Weitere Informationen](../administration/schemas-browse-access.md#customize-screen-display-screen-def)
+* **Zusätzliche Validierungstypen**: Sie können jetzt neben Inhalts- und Zielgruppengenehmigungen auch Budget- und Versandstart-Genehmigungen für Campaign-Sendungen verlangen. [Weitere Informationen](../campaigns/campaign-approvals.md#configure-approval-settings-configure-approvals)
+* **Besucherbasiertes SMS-Targeting**: Das Besucher-Zielgruppen-Mapping ist jetzt für SMS-Sendungen verfügbar. [Weitere Informationen](../sms/create-sms.md)
+* **Schaltfläche zum Abbrechen des Workflows**: Mit der neuen Schaltfläche **Abbrechen** können Sie nicht gespeicherte Änderungen in einem Workflow rückgängig machen. [Weitere Informationen](../workflows/orchestrate-activities.md#save-or-discard-your-changes-save-cancel)
+* **Deduplizierung mit mehreren Werten**: Die Option **Nach einer Liste von Werten** unterstützt jetzt mehrere Attribute. [Weitere Informationen](../workflows/activities/deduplication.md#configure-the-deduplication-activity-deduplication-configuration)
+* **Mobile-Zielgruppen-Mapping**: Sie können jetzt Zielgruppen-Mappings für Mobile-App-Ziele erstellen. [Weitere Informationen](../administration/target-mappings.md#create-a-target-mapping-create-mapping)
+* **Anreicherung externer Datenbanken**: Sie können jetzt Daten aus einer externen Datenbank in der Aktivität **Anreicherung** oder **Zielgruppe erstellen** anreichern. [Weitere Informationen](../workflows/activities/enrichment.md#external-data)
+* **Abstimmung der Dateizielgruppe**: Sie können jetzt konfigurieren, ob Empfängerinnen und Empfänger in die Datenbank importiert werden sollen, wenn die Zielgruppe aus einer Datei ausgewählt wird. [Weitere Informationen](../audience/file-audience.md#select-and-configure-the-input-file-upload)
+* **Direkte Joins für Sammlungen**: Wenn Sie ein Attribut direkt aus einer Sammlung auswählen, können Sie jetzt auswählen, wie die Bedingung erstellt wird: mithilfe der empfohlenen Standardoption, einer Aggregatfunktion oder einer erweiterten direkten Join. [Weitere Informationen](../query/build-query.md#custom-conditions-on-linked-tables-1-1-and-1-n-links-links)
 
