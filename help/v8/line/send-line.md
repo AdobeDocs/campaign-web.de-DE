@@ -6,7 +6,7 @@ feature: Line App
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 1c4cdd5164d0cf572e9b88881bbe240b06308866
+source-git-commit: 73553f19c6e88256f0e9f38479bdfc292a3221f8
 workflow-type: tm+mt
 source-wordcount: '594'
 ht-degree: 13%
@@ -92,7 +92,7 @@ Mit einer Videonachricht können Sie ein Video an Ihre Empfänger senden.
 
 1. Klicken Sie nach der Definition des Inhalts auf **Speichern** und anschließend auf das Rücksymbol, um zum Bildschirm für die Versandkonfiguration zurückzukehren.
 
-1. Aktivieren Sie **[!UICONTROL Zeitplan aktivieren]**, um die Nachrichten an einem bestimmten Datum und zu einer bestimmten Uhrzeit zu senden. [Weitere Informationen](../msg/gs-deliveries.md#gs-schedule).
+1. Aktivieren Sie **[!UICONTROL Zeitplan aktivieren]**, um die Nachrichten an einem bestimmten Datum und zu einer bestimmten Uhrzeit zu senden. [Weitere Informationen](../msg/create-deliveries.md#gs-schedule).
 
    ![LINE-Nachrichtenzeitplan](assets/line-message9.png)
 
