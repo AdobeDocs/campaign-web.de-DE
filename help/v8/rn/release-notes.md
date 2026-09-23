@@ -18,7 +18,7 @@ topic_v2:
     internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7a22b75c81435fa891fa8aa73c5c1acad1931710
+source-git-commit: 73553f19c6e88256f0e9f38479bdfc292a3221f8
 workflow-type: tm+mt
 source-wordcount: '337'
 ht-degree: 38%
@@ -55,13 +55,13 @@ _22. September 2026_
 
 ### Verbesserungen {#26-9-improvements}
 
-* **Seitennavigationszugriff**: Administratoren können jetzt bestimmte Menüeinträge in der Seitennavigation ausblenden. [Weitere Informationen](../administration/schemas-browse-access.md#customize-screen-display-screen-def)
-* **Zusätzliche Validierungstypen**: Sie können jetzt neben Inhalts- und Zielgruppengenehmigungen auch Budget- und Versandstart-Genehmigungen für Campaign-Sendungen verlangen. [Weitere Informationen](../campaigns/campaign-approvals.md#configure-approval-settings-configure-approvals)
+* **Seitennavigationszugriff**: Administratoren können jetzt bestimmte Menüeinträge in der Seitennavigation ausblenden. [Weitere Informationen](../administration/schemas-browse-access.md#screen-def)
+* **Zusätzliche Validierungstypen**: Sie können jetzt neben Inhalts- und Zielgruppengenehmigungen auch Budget- und Versandstart-Genehmigungen für Campaign-Sendungen verlangen. [Weitere Informationen](../campaigns/campaign-approvals.md#configure-approvals)
 * **Besucherbasiertes SMS-Targeting**: Das Besucher-Zielgruppen-Mapping ist jetzt für SMS-Sendungen verfügbar. [Weitere Informationen](../sms/create-sms.md)
-* **Schaltfläche zum Abbrechen des Workflows**: Mit der neuen Schaltfläche **Abbrechen** können Sie nicht gespeicherte Änderungen in einem Workflow rückgängig machen. [Weitere Informationen](../workflows/orchestrate-activities.md#save-or-discard-your-changes-save-cancel)
-* **Deduplizierung mit mehreren Werten**: Die Option **Nach einer Liste von Werten** unterstützt jetzt mehrere Attribute. [Weitere Informationen](../workflows/activities/deduplication.md#configure-the-deduplication-activity-deduplication-configuration)
-* **Mobile-Zielgruppen-Mapping**: Sie können jetzt Zielgruppen-Mappings für Mobile-App-Ziele erstellen. [Weitere Informationen](../administration/target-mappings.md#create-a-target-mapping-create-mapping)
+* **Schaltfläche zum Abbrechen des Workflows**: Mit der neuen Schaltfläche **Abbrechen** können Sie nicht gespeicherte Änderungen in einem Workflow rückgängig machen. [Weitere Informationen](../workflows/orchestrate-activities.md#save-cancel)
+* **Deduplizierung mit mehreren Werten**: Die Option **Nach einer Liste von Werten** unterstützt jetzt mehrere Attribute. [Weitere Informationen](../workflows/activities/deduplication.md#deduplication-configuration)
+* **Mobile-Zielgruppen-Mapping**: Sie können jetzt Zielgruppen-Mappings für Mobile-App-Ziele erstellen. [Weitere Informationen](../administration/target-mappings.md#create-mapping)
 * **Anreicherung externer Datenbanken**: Sie können jetzt Daten aus einer externen Datenbank in der Aktivität **Anreicherung** oder **Zielgruppe erstellen** anreichern. [Weitere Informationen](../workflows/activities/enrichment.md#external-data)
-* **Abstimmung der Dateizielgruppe**: Sie können jetzt konfigurieren, ob Empfängerinnen und Empfänger in die Datenbank importiert werden sollen, wenn die Zielgruppe aus einer Datei ausgewählt wird. [Weitere Informationen](../audience/file-audience.md#select-and-configure-the-input-file-upload)
-* **Direkte Joins für Sammlungen**: Wenn Sie ein Attribut direkt aus einer Sammlung auswählen, können Sie jetzt auswählen, wie die Bedingung erstellt wird: mithilfe der empfohlenen Standardoption, einer Aggregatfunktion oder einer erweiterten direkten Join. [Weitere Informationen](../query/build-query.md#custom-conditions-on-linked-tables-1-1-and-1-n-links-links)
+* **Abstimmung der Dateizielgruppe**: Sie können jetzt konfigurieren, ob Empfängerinnen und Empfänger in die Datenbank importiert werden sollen, wenn die Zielgruppe aus einer Datei ausgewählt wird. [Weitere Informationen](../audience/file-audience.md#upload)
+* **Direkte Joins für Sammlungen**: Wenn Sie ein Attribut direkt aus einer Sammlung auswählen, können Sie jetzt auswählen, wie die Bedingung erstellt wird: mithilfe der empfohlenen Standardoption, einer Aggregatfunktion oder einer erweiterten direkten Join. [Weitere Informationen](../query/build-query.md#links)
 

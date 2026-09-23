@@ -12,7 +12,7 @@ feature_v2:
 subfeature_v2:
   - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
     internal-label: PI
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 73553f19c6e88256f0e9f38479bdfc292a3221f8
 workflow-type: tm+mt
 source-wordcount: '587'
 ht-degree: 100%
@@ -43,7 +43,7 @@ Verwenden Sie andere integrierte Zielgruppen-Mappings in Workflows und Sendungen
 | Name | Für den Versand an | Schema |
 |-----------------------|-------------------------------------------------------|-------------------------|
 | Bereich Empfänger | Profile/Empfängerinnen und Empfänger (integrierte Empfängertabelle) | nms:recipient |
-| Besuchende | Besuchende, deren Profile beispielsweise über Empfehlungen (z. B. Viral Marketing) erfasst wurden | mns:visitor |
+| Besuchende | Besuchende, deren Profile beispielsweise über Empfehlungen (z. B. Viral Marketing) erfasst wurden | nms:visitor |
 | Abonnements | Profile, die einen Informationsdienst abonniert haben, z. B. einen Newsletter | nms:subscription |
 | Besucher-Abonnements | Besuchende, die einen Informationsdienst abonniert haben | nms:visitorSub |
 | Benutzer | Adobe Campaign-Benutzende | nms:operator |
