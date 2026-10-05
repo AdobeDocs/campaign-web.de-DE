@@ -4,10 +4,14 @@ description: Entdecken Sie die wichtigsten Funktionen von Campaign v8. Es richt
 role: User
 level: Beginner, Experienced
 exl-id: 514da15d-325b-4d28-9a58-50c1ae2e4925
-TQID: https://experienceleague.adobe.com/5IcrHiiZw336nAlxRhiWlE2XfR-9TE7uj-cs6gW3xf4
+TQID: 'https://experienceleague.adobe.com/5IcrHiiZw336nAlxRhiWlE2XfR-9TE7uj-cs6gW3xf4'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
     internal-label: Campaigns
@@ -28,6 +32,8 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
@@ -37,7 +43,7 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 8dcbcd5729840b3e6dc7c0f10cddd8ecc98774b9
+source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
 workflow-type: tm+mt
 source-wordcount: '2851'
 ht-degree: 100%
@@ -64,7 +70,7 @@ Der Hauptunterschied liegt in der Benutzeroberfläche. Nachfolgend finden Sie ei
 
 Im folgenden Video erfahren Sie, wie Sie auf die Campaign Web-Benutzeroberfläche zugreifen, darin navigieren und Bestandslisten anpassen können.
 
->[!VIDEO](https://video.tv.adobe.com/v/3453431?captions=ger&quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3427278?quality=12&learn=on){transcript=true}
 
 Weitere Informationen finden Sie in der nachstehenden Dokumentation:
 
@@ -85,13 +91,13 @@ In Adobe Campaign ist ein Profil ein in der Datenbank gespeicherter Eintrag, der
 
 1. In diesem Video erfahren Sie, wie Sie mit der Campaign Web-Benutzeroberfläche auf Profile zugreifen, diese verwalten und erkunden:
 
-   >[!VIDEO](https://video.tv.adobe.com/v/3448373?captions=ger&quality=12&learn=on){transcript=true}
+   >[!VIDEO](https://video.tv.adobe.com/v/3427293?quality=12&learn=on){transcript=true}
 
    Weitere Informationen finden Sie unter [Erste Schritte mit Profilen](../../v8/audience/about-recipients.md).
 
 1. Erfahren Sie, wie Sie in Campaign v8 Testprofile erstellen und verwalten.
 
-   >[!VIDEO](https://video.tv.adobe.com/v/3442904?captions=ger&quality=12&learn=on){transcript=true}
+   >[!VIDEO](https://video.tv.adobe.com/v/3442844?quality=12&learn=on){transcript=true}
 
 ### Verwalten von Zielgruppen {#acs-gs-marketers-audiences}
 
@@ -99,7 +105,7 @@ Zielgruppen sind Gruppen von Profilen mit ähnlichen Verhaltensweisen und/oder M
 
 In diesem Video erfahren Sie, wie Sie Zielgruppen erstellen und verwalten, Zielgruppen für einen Versand auswählen und Kontrollgruppen definieren:
 
->[!VIDEO](https://video.tv.adobe.com/v/3453211?captions=ger&quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3425861?quality=12&learn=on){transcript=true}
 
 Weitere Informationen finden Sie unter [Erste Schritte mit Zielgruppen](../../v8/audience/manage-audience.md){target="_blank"}.
 
@@ -177,7 +183,7 @@ Die Workflow-Benutzeroberfläche wurde in der Campaign Web-Benutzeroberfläche 
 
 In diesem Video erfahren Sie, wie Workflows funktionieren und wie Sie einen Zielgruppen-Workflow erstellen:
 
->[!VIDEO](https://video.tv.adobe.com/v/3453981?captions=ger&quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3425873?quality=12&learn=on){transcript=true}
 
 Weitere Informationen finden Sie in der [Workflow-Dokumentation](../../v8/workflows/gs-workflows.md).
 
@@ -233,7 +239,7 @@ Nützliche Links:
 
 In diesem Video erfahren Sie, wie Sie einen neuen E-Mail-Versand erstellen, die Zielgruppe definieren, den Inhalt gestalten, eine Vorschau simulieren und einen Testversand durchführen:
 
->[!VIDEO](https://video.tv.adobe.com/v/3454014?captions=ger&quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3425866?quality=12&learn=on){transcript=true}
 
 Informationen zum Erstellen Ihrer ersten Targeting-E-Mail finden Sie in der [Dokumentation zum Erstellen der ersten E-Mail](../../v8/email/create-email.md)
 
@@ -245,13 +251,13 @@ In Campaign v8 ähneln die detaillierten Schritte zum Erstellen, Testen und Dur
 
    Hier erfahren Sie, wie Sie im E-Mail-Designer navigieren. Im folgenden Video erfahren Sie, wie Sie eine E-Mail neu strukturieren und entwerfen und wie Sie Ihre E-Mail personalisieren und testen:
 
-   >[!VIDEO](https://video.tv.adobe.com/v/3453574?captions=ger&quality=12&learn=on){transcript=true}
+   >[!VIDEO](https://video.tv.adobe.com/v/3425867?quality=12&learn=on){transcript=true}
 
    Mit dem E-Mail-Designer können Sie über eine intuitive Drag-and-Drop-Oberfläche überzeugende, individuell zugeschnittene E-Mails erstellen. Weitere Informationen finden Sie in der [Dokumentation zum E-Mail-Designer](../../v8/email/get-started-email-designer.md).
 
    In diesem Video erfahren Sie, wie Sie eine E-Mail durch Hochladen von HTML erstellen, mit dem E-Mail-Designer kompatibel machen und in eine Vorlage umwandeln:
 
-   >[!VIDEO](https://video.tv.adobe.com/v/3447041?captions=ger&quality=12&learn=on){transcript=true}
+   >[!VIDEO](https://video.tv.adobe.com/v/3427633?quality=12&learn=on){transcript=true}
 
    Ein Inhaltsfragment ist eine wiederverwendbare Komponente, die in einer oder mehreren Nachrichten referenziert werden kann. Erfahren Sie mehr über [Inhaltsfragmente](../../v8/content/fragments.md), um die Erstellung Ihres E-Mail-Versands zu vereinfachen.
 
@@ -261,7 +267,7 @@ In Campaign v8 ähneln die detaillierten Schritte zum Erstellen, Testen und Dur
 
    In diesem Video erfahren Sie, wie Sie sich eine Vorschau des Inhalts und der Personalisierung von E-Mail-Nachrichten anzeigen, Testsendungen durchführen und das E-Mail-Rendering in gängigen Desktop-, Mobile- und Web-basierten Clients überprüfen:
 
-   >[!VIDEO](https://video.tv.adobe.com/v/3450346?captions=ger&quality=12&learn=on){transcript=true}
+   >[!VIDEO](https://video.tv.adobe.com/v/3425862?quality=12&learn=on){transcript=true}
 
 1. **Senden von E-Mails und Prüfen von Protokollen**
 
@@ -351,7 +357,7 @@ In Campaign v8 ähneln die detaillierten Schritte zum Erstellen, Testen und Dur
 
 Briefpost ist ein Offline-Kanal, über den Sie Dateien erstellen können, um Ihrer Kundschaft personalisierte Sendungen wie Postkarten, Flyer oder Kataloge in großem Umfang zukommen zu lassen. Bei der Erstellung eines Briefpostversands generiert Adobe Campaign automatisch eine Extraktionsdatei, die alle Zielgruppenprofile und ausgewählten Daten wie Postanschriften und Profilattribute enthält.
 
->[!VIDEO](https://video.tv.adobe.com/v/3451792/?captions=ger&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3433316/?learn=on)
 
 In Campaign v8 ähneln die detaillierten Schritte zum Erstellen, Testen und Durchführen eines Briefpostversands denen in Campaign Standard.
 
@@ -359,7 +365,7 @@ In Campaign v8 ähneln die detaillierten Schritte zum Erstellen, Testen und Dur
 1. [Definieren der Extraktionsdatei](../../v8/direct-mail/content-direct-mail.md)
 1. [Vorschau und Senden](../../v8/direct-mail/send-direct-mail.md)
 
->[!VIDEO](https://video.tv.adobe.com/v/3453574?captions=ger&quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3425867?quality=12&learn=on){transcript=true}
 
 ### In-App-Kanal {#acs-gs-marketers-in-app}
 

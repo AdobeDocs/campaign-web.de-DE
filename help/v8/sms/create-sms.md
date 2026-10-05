@@ -3,11 +3,15 @@ audience: end-user
 title: Erstellen eines SMS-Versands
 description: Erfahren Sie, wie Sie SMS mit Adobe Campaign Web erstellen und senden
 exl-id: 54181498-8164-4600-8b3f-20892b77d5d7
-TQID: https://experienceleague.adobe.com/OoPPDmXtKfikWjcycfkDDBng38EvW6geird8w3BgrL0
+TQID: 'https://experienceleague.adobe.com/OoPPDmXtKfikWjcycfkDDBng38EvW6geird8w3BgrL0'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
-source-git-commit: 73553f19c6e88256f0e9f38479bdfc292a3221f8
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
+source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
 workflow-type: tm+mt
 source-wordcount: '574'
 ht-degree: 97%
@@ -55,7 +59,7 @@ Gehen Sie wie folgt vor, um einen eigenständigen SMS-Versand zu erstellen:
 
 1. Klicken Sie auf die Schaltfläche **[!UICONTROL Zielgruppe auswählen]**, um eine vorhandene Zielgruppe anzusprechen oder eine eigene zu erstellen. [Weitere Informationen zu Zielgruppen](../audience/about-recipients.md).
 
-   Zusätzlich zum standardmäßigen Zielgruppen-Mapping **[!UICONTROL Empfänger]** können SMS-Sendungen auch auf (Besucher **&#x200B;**&#x200B;oder **[!UICONTROL Besucherabonnements]**. [Erfahren Sie mehr über Zielgruppendimensionen](../audience/targeting-dimensions.md#targeting)
+   Zusätzlich zum standardmäßigen Zielgruppen-Mapping **[!UICONTROL Empfänger]** können SMS-Sendungen auch auf (Besucher **** oder **[!UICONTROL Besucherabonnements]**. [Erfahren Sie mehr über Zielgruppendimensionen](../audience/targeting-dimensions.md#targeting)
 
    ![Screenshot mit der Schaltfläche „Zielgruppe auswählen“](assets/sms_create_2.png){zoomable="yes"}
 
