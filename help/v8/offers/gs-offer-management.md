@@ -48,7 +48,7 @@ Bevor Sie mit der Arbeit an Angeboten beginnen, machen Sie sich mit den wichtigs
 * **Angebotskatalog und Kategorien** – Angebote sind in einem hierarchischen Katalog mit **Kategorien** und Unterkategorien angeordnet. Jede Kategorie kann Eignungsregeln, Gültigkeitsdaten und **Anwendungsthemen** enthalten. In der Design-Umgebung steht eine Standardkategorie zur Verfügung, in der alle Angebote gesammelt werden.
 
 <!--
-To configure categories in depth — including sub-categories, fallback categories, and theme management — refer to the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-catalog/interaction-offer-catalog.html){target="_blank"}.
+To configure categories in depth — including sub-categories, fallback categories, and theme management — refer to the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-catalog/interaction-offer-catalog.html?lang=de){target="_blank"}.
 -->
 
 * **Angebot** – Ein individuelles Angebot mit eigenem Eignungszeitraum, Zielgruppenfilter, Gewichtung und Inhalt. Angebote werden validiert und bereitgestellt, bevor sie den Empfangenden vorgelegt werden können. [Weitere Informationen](create-offer.md)
