@@ -86,7 +86,7 @@ Filterkomponenten ermöglichen es Ihnen, eine Abfrage mithilfe von folgenden Fil
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_customcondition"
 >title="Benutzerdefinierte Bedingung"
->abstract="Benutzerdefinierte Bedingungen filtern Komponenten, mit denen Sie Ihre Abfrage filtern können, indem Sie Ihre eigene Bedingung mit Attributen aus der Datenbank und erweiterten Ausdrücken erstellen."
+>abstract="Bei benutzerdefinierten Bedingungen handelt es sich um Filterkomponenten zum Filtern einer Abfrage, mit der eine eigene Bedingung mit Attributen aus der Datenbank und erweiterten Ausdrücken erstellt wird."
 
 Gehen Sie wie folgt vor, um Ihre Abfrage mit einer benutzerdefinierten Bedingung zu filtern:
 
