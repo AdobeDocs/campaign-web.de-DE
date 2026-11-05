@@ -23,10 +23,10 @@ subfeature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 1848b3a9b756587f0ec5a4e9cef5731675f4e1ae
 workflow-type: tm+mt
-source-wordcount: '268'
-ht-degree: 100%
+source-wordcount: '309'
+ht-degree: 86%
 ---
 # Erste Schritte mit Landingpages {#get-sarted-lp}
 
@@ -41,6 +41,8 @@ Durch Landingpages können Sie Benutzende zu Online-Formularen leiten, auf denen
 >Landingpages, die Sie in der Campaign Web-Benutzeroberfläche erstellen, unterscheiden sich von den in der Client-Konsole erstellten Web-Formularen. Sie können keine Web-Formulare anzeigen oder bearbeiten, die in der Client-Konsole der Campaign Web-Benutzeroberfläche erstellt wurden.
 >
 >Weitere Informationen zu Web-Formularen finden Sie in der [Dokumentation zu Campaign v8 (Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html?lang=de){target="_blank"}.
+>
+>In der Web-Benutzeroberfläche von Campaign erstellte Landingpages unterstützen keine ausgeblendeten Eingabefelder oder benutzerdefinierten JavaScript. Um Werte zu berechnen und zu speichern, die Besuchern nicht angezeigt werden, erstellen Sie das Formular stattdessen als Web-Anwendung in der Client-Konsole.
 
 Die wichtigsten Funktionen von Landingpages sind unten aufgeführt:
 
