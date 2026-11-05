@@ -15,10 +15,10 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 4ac71499967647b9e0b51b504669e917c157cf62
 workflow-type: tm+mt
-source-wordcount: '743'
-ht-degree: 100%
+source-wordcount: '794'
+ht-degree: 93%
 ---
 # Übertragen von Daten mit externen Konten {#transfer-external-account}
 
@@ -71,6 +71,10 @@ Um das **[!UICONTROL externe Azure-Konto]** für die gemeinsame Verwendung mit A
 * **[!UICONTROL Zugriffsschlüssel]**
 
   Informationen darüber, wo Sie Ihren **[!UICONTROL Zugangsschlüssel]** finden, erhalten Sie auf dieser [Seite](https://docs.microsoft.com/de-de/azure/storage/common/storage-account-keys-manage?tabs=azure-portal).
+
+  >[!NOTE]
+  >
+  >Der Azure Blob-Speicher filtert Dateien nach Namenspräfix, nicht nach Muster. Ein nachfolgendes Sternchen (`*`) in einer Dateimaske wird entfernt, sodass `TEST_EXPORT_AZURE_*` allen Dateien entspricht, die mit `TEST_EXPORT_AZURE_` beginnen. Zeichen nach dem Sternchen, z. B. in `TEST_EXPORT_AZURE_*.csv`, werden nicht unterstützt. [Weitere Informationen finden Sie in der Dokumentation zu Microsoft](https://learn.microsoft.com/en-us/rest/api/storageservices/list-blobs){target="_blank"}.
 
 ## SFTP
 
