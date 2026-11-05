@@ -18,10 +18,10 @@ feature_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: bc86048e548df4c551cde273c6100c6b5450fc5b
 workflow-type: tm+mt
-source-wordcount: '815'
-ht-degree: 100%
+source-wordcount: '846'
+ht-degree: 96%
 ---
 # Versenden in Schüben {#send-using-waves}
 
@@ -61,6 +61,8 @@ Gehen Sie wie folgt vor, um Sendungen in Schüben zu versenden.
    >Achten Sie darauf, dass die letzten Schübe nicht die Gültigkeitsdauer des Versands überschreiten, die auf der Registerkarte [Gültigkeit](delivery-settings.md#validity) festgelegt ist. Ansonsten werden manche Nachrichten möglicherweise nicht gesendet. Eine spezifische Typologie-Kontrollregel (**[!UICONTROL Prüfung der Schub-Planung]**) stellt sicher, dass der letzte Schub vor dem Ablauf der Versandgültigkeit eingeplant ist. Weitere Informationen zu Kontrollregeln finden Sie in der [Dokumentation zu Campaign v8 (Client-Konsole)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html?lang=de)
    >
    >Planen Sie bei der Konfiguration der letzten Schübe auch genügend Zeit für zusätzliche Versuche ein. [Weitere Informationen](delivery-settings.md#retries)
+   >
+   >Die Schübe werden ab dem Kontaktdatum des Versands geplant. Wenn der Versand nach der geplanten Zeit einiger Wellen beginnt, werden diese Wellen zusammen gesendet, anstatt mit Abständen angeordnet zu werden.
 
 1. Um Ihre Sendungen zu überwachen, navigieren Sie zu den [Versandlogs](../monitor/delivery-logs.md). Die Versandlogs enthalten die bereits in den verarbeiteten Schüben durchgeführten Sendungen (Status **[!UICONTROL Gesendet]**) sowie die in den restlichen Schüben durchzuführenden Sendungen (Status **[!UICONTROL Ausstehend]**).
 
