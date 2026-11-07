@@ -89,4 +89,4 @@ Im Folgenden finden Sie einige Beispiele für den Zugriff auf den Ausdrucksedito
 
 Erfahren Sie, wie Sie Nachrichteninhalte mithilfe des Ausdruckseditors dynamisch gestalten können, um Ihre Nachricht zu personalisieren oder bedingte Inhalte hinzuzufügen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3425795?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3505244?captions=ger&quality=12)
