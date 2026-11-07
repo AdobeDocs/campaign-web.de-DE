@@ -217,4 +217,4 @@ Bereiten Sie den Push-Versand vor, wenn Sie Inhalt, Zielgruppe und Zeitplan defi
 
 Erfahren Sie, wie Sie mithilfe von KI vollständige E-Mail-Inhalte, Texte und Bilder generieren können.
 
->[!VIDEO](https://video.tv.adobe.com/v/3428984)
+>[!VIDEO](https://video.tv.adobe.com/v/3505100?captions=ger)
