@@ -6,10 +6,10 @@ title: Dokumentation zu Adobe Campaign Web
 description: Dokumentation zu Campaign Web
 breadcrumb-title: Campaign Web-Benutzeroberfläche
 nudge: true
-source-git-commit: 1c4cdd5164d0cf572e9b88881bbe240b06308866
+source-git-commit: b1159f7f6d255f739c8344037f1ff1ffa6dc50fa
 workflow-type: tm+mt
-source-wordcount: '1090'
-ht-degree: 99%
+source-wordcount: '1082'
+ht-degree: 98%
 ---
 
 # Dokumentation zu Adobe Campaign Web {#v8}
@@ -24,7 +24,7 @@ ht-degree: 99%
     + [Versionen 2025](rn/release-notes-25.md)
     + [Versionen 2024](rn/release-notes-24.md)
   + {hide-from-toc}[Aktualisierungen der Dokumentation](rn/documentation-updates.md)
-+ Erste Schritte mit Adobe Campaign {#start}
++ Erste Schritte {#start}
   + [Erste Schritte](get-started/get-started.md)
   + [Herstellen einer Verbindung zu Campaign](get-started/connect-to-campaign.md)
   + {hide-from-toc}[Entdecken der Benutzeroberfläche](get-started/user-interface.md)
@@ -37,7 +37,7 @@ ht-degree: 99%
   + [Wechsel von Campaign Standard zu v8](rn/acs-migration.md)
   + {hide-from-toc}[KI-gestützte Kontexthilfe](get-started/using-ai.md)
   + [Häufig gestellte Fragen](get-started/faq.md)
-+ Nachrichten und Sendungen {#msg}
++ Nachrichten {#msg}
   + [Erste Schritte mit Nachrichten](msg/gs-messages.md)
   + [Zugreifen auf Sendungen](msg/gs-deliveries.md)
   + [Erstellen eines Versands](msg/create-deliveries.md)
@@ -97,8 +97,8 @@ ht-degree: 99%
   + Versandwarnung {#delivery-alerting}
     + [Erste Schritte mit Versandwarnungen](msg/delivery-alerting.md)
     + [Versandwarnungs-Dashboards](msg/delivery-alerting-dashboards.md)
-    + [Versandwarnungsbedingungen](msg/delivery-alerting-criteria.md)
-+ Content-Management {#content}
+    + [Versandwarnungskriterien](msg/delivery-alerting-criteria.md)
++ Inhalt und Personalisierung {#content}
   + Erstellen dynamischer Inhalte {#dynamic-content}
     + [Wie lässt sich der Inhalt dynamisch gestalten?](personalization/gs-personalization.md)
     + [Hinzufügen von Personalisierung](personalization/personalize.md)
@@ -148,17 +148,6 @@ ht-degree: 99%
       + [Personalisieren Ihrer Marke](content/brands-personalize.md)
       + [Erstellen und Verwalten generativer Modelle](content/generative-models.md)
       + [Auswerten Ihrer Inhalte](content/brands-score.md)
-+ Landingpages {#landing-pages}
-  + [Erste Schritte mit Landingpages](landing-pages/get-started-lp.md)
-  + [Erstellen und Veröffentlichen einer Landingpage](landing-pages/create-lp.md)
-  + [Entwerfen von Inhalten für eine Landingpage](landing-pages/lp-content.md)
-  + [Lernen durch Anwendungsfälle](landing-pages/lp-use-cases.md)
-+ Angebotsverwaltung {#offers}
-  + [Erste Schritte mit der Angebotsverwaltung](offers/gs-offer-management.md)
-  + [Überprüfen der Einstellungen für die Angebotsumgebung](offers/offer-environment.md)
-  + [Erstellen und Verwalten von Platzierungen](offers/offer-space.md)
-  + [Erstellen und Veröffentlichen eines Angebots](offers/create-offer.md)
-  + [Hinzufügen einer bearbeitbaren Liste zum Angebotsschema](offers/offer-editable-list.md)
 + Profile und Zielgruppen {#audiences}
   + [Erste Schritte mit Profilen und Zielgruppen](audience/gs-audiences-recipients.md)
   + [Zielgruppendimensionen](audience/targeting-dimensions.md)
@@ -181,7 +170,12 @@ ht-degree: 99%
   + Arbeiten mit Anmeldediensten {#work-with-services}
     + [Erstellen und Verwalten von Abonnements](audience/manage-services.md)
     + [Verwalten von Abonnierenden](audience/manage-subscribers.md)
-+ Cross-Channel-Kampagnen {#campaigns}
++ Landingpages und Formulare {#landing-pages}
+  + [Erste Schritte mit Landingpages](landing-pages/get-started-lp.md)
+  + [Erstellen und Veröffentlichen einer Landingpage](landing-pages/create-lp.md)
+  + [Entwerfen von Inhalten für eine Landingpage](landing-pages/lp-content.md)
+  + [Lernen durch Anwendungsfälle](landing-pages/lp-use-cases.md)
++ Kampagnen {#campaigns}
   + [Erste Schritte mit Kampagnen](campaigns/gs-campaigns.md)
   + [Zugreifen auf und Verwalten von Kampagnen](campaigns/manage-campaigns.md)
   + [Erste Kampagne erstellen](campaigns/create-campaigns.md)
@@ -229,13 +223,19 @@ ht-degree: 99%
     + [Dateiübertragung](workflows/activities/transfer-file.md)
     + [Aktualisieren von Daten](workflows/activities/update-data.md)
     + [Warten](workflows/activities/wait.md)
-+ Abfragen der Datenbank {#query-database}
++ Angebote {#offers}
+  + [Erste Schritte mit der Angebotsverwaltung](offers/gs-offer-management.md)
+  + [Überprüfen der Einstellungen für die Angebotsumgebung](offers/offer-environment.md)
+  + [Erstellen und Verwalten von Platzierungen](offers/offer-space.md)
+  + [Erstellen und Veröffentlichen eines Angebots](offers/create-offer.md)
+  + [Hinzufügen einer bearbeitbaren Liste zum Angebotsschema](offers/offer-editable-list.md)
++ Abfrage und Daten {#query-database}
   + [Arbeiten mit dem Abfrage-Modeler](query/query-modeler-overview.md)
   + [Erstellen Ihrer ersten Abfrage](query/build-query.md)
   + [Bearbeitung von Ausdrücken](query/expression-editor.md)
   + {hide-from-toc}[Beispiele für Abfragen](query/query-samples.md)
   + [Filterlisten](query/filter.md)
-+ Reporting {#reports}
++ Reporting und Tracking {#reports}
   + [Audit-Protokoll](reporting/audit-trail.md)
   + [Wichtige Performance-Indikatoren](reporting/kpis.md)
   + Standardberichte {#standard-reports}
@@ -309,7 +309,7 @@ ht-degree: 99%
     + [Erstellen und Veröffentlichen von Schemata](administration/schemas-create-publish.md)
     + [Arbeiten mit benutzerdefinierten Formularen](administration/schemas-custom-forms.md)
   + {hide-from-toc}[Konfigurieren benutzerdefinierter Felder](administration/custom-fields.md)
-  + [Konfigurieren von Optionen in [!DNL Campaign] &#x200B;](administration/options.md)
+  + [Konfigurieren von Optionen in [!DNL Campaign] ](administration/options.md)
   + [Zeitzonenverwaltung](administration/timezone-management.md)
   + Externe Konten {#external-accounts}
     + [Erstellen externer Konten](administration/create-external-account.md)
