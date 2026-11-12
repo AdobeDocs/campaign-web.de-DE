@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: b4c02b038a1cb398f61d30a601b0df61f23f0432
 workflow-type: tm+mt
-source-wordcount: '570'
-ht-degree: 100%
+source-wordcount: '569'
+ht-degree: 97%
 ---
 # Wechsel von Campaign Standard zu Campaign v8 {#acs-to-ac}
 
@@ -96,7 +96,7 @@ Damit ein reibungsloser Wechsel zu Campaign v8 möglich ist, wurden wichtige Fu
 
 * **REST-APIs**: Von Campaign Standard migrierte Benutzende können REST-APIs verwenden, um Integrationen für Adobe Campaign und Ökosysteme zu erstellen, indem sie Adobe Campaign mit anderen Technologien verbinden. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=de){target="_blank"}.
 
-* **Landingpages**: Die Landingpages von Campaign v8 umfassen Verbesserungen zur Gewährleistung der Vergleichbarkeit der Funktionen mit denen von Campaign Standard. Weitere Informationen finden Sie in den [Versionshinweisen](../rn/release-notes.md#new-24-4) und in der [Dokumentation](../landing-pages/get-started-lp.md) zu Landingpages.
+* **Landingpages**: Die Landingpages von Campaign v8 enthalten Verbesserungen hinsichtlich ihrer Ausrichtung an Campaign Standard. <!-- Some differences remain, as listed in [Differences between Campaign Standard and Campaign v8](../../adoption/get-started/acs-v8-differences.md#channels). --> Weitere Informationen finden Sie in den [Versionshinweisen](../rn/release-notes.md#new-24-4) und in der [Dokumentation](../landing-pages/get-started-lp.md) zu Landingpages.
 
 * **Visuelle Fragmente**: Visuelle Fragmente sind wiederverwendbare visuelle Komponenten, die in einer oder mehreren E-Mail-Sendungen oder in Inhaltsvorlagen referenziert werden. Wird ein Fragment geändert, wird jeder Inhalt, der es verwendet, aktualisiert. Diese Funktionalität ermöglicht es Benutzenden aus dem Bereich Marketing, mehrere benutzerdefinierte Inhaltsbausteine vorab zu erstellen, um Nachrichten in einem verbesserten Design-Prozess schnell zusammenzustellen. [Weitere Informationen](../content/use-visual-fragments.md).
 

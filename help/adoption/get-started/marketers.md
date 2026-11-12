@@ -43,10 +43,10 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 071900a6c0b717161ae123097aeae8bf9e97898c
 workflow-type: tm+mt
-source-wordcount: '2851'
-ht-degree: 100%
+source-wordcount: '2849'
+ht-degree: 98%
 ---
 # Erste Schritte für Marketing-Fachleute {#acs-gs-marketers}
 
@@ -231,7 +231,7 @@ Nützliche Links:
 >
 >* Sendungen mit einem der folgenden Status wurden als abgebrochene Sendungen migriert: „Für abgebrochen“ und „Erneuter Versuch läuft“.
 >
->* Trackinglinks, Mirror-Seiten-URL-Links, Anmelde-/Abmelde-Links funktionieren wie in Campaign Standard.
+>* Tracking-Links, Mirrorseiten-URL-Links und An-/Abmelde-Links von Sendungen, die von Campaign v8 gesendet werden, folgen dem Campaign v8-Standard.
 >
 >Weitere Informationen finden Sie zudem in den Abschnitten [Tracking und Monitoring](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/analytics/tracking){target="_blank"} sowie [Branding](../../v8/administration/branding/branding-gs.md) in Adobe Campaign.
 
@@ -375,7 +375,7 @@ Beachten Sie, dass der In-App-Kanal in Campaign v8 nicht verfügbar ist. Wenn S
 
 Die Web-Benutzeroberfläche von Adobe Campaign v8 bietet ein neu gestaltetes Anwendererlebnis für Landingpages. Mit Campaign können Sie Landingpages erstellen, entwerfen und freigeben. Durch Landingpages können Sie Benutzende zu Online-Formularen leiten, auf denen sie ihre Daten aktualisieren, sich für den Erhalt Ihrer Nachrichten anmelden bzw. davon abmelden oder einen bestimmten Dienst wie einen Newsletter abonnieren können.
 
-Wenn Sie von Campaign Standard zu Campaign v8 wechseln, wurden Ihre vorhandenen Landingpages in die Campaign Web-Benutzeroberfläche migriert. Sie haben Zugriff auf dieselbe Bandbreite an Funktionen.
+Als Campaign Standard-Anwender, der zu Campaign v8 wechselt, wurden Ihre bestehenden Landingpages zur Campaign Web-Benutzeroberfläche migriert. <!-- Some differences apply, as listed in [Differences between Campaign Standard and Campaign v8](acs-v8-differences.md#channels). -->
 
 Weitere Informationen über Landingpages finden Sie in den folgenden Abschnitten:
 
