@@ -29,9 +29,9 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 25814ce1c70a139c9727b3bfccccd3efe056b441
+source-git-commit: 071900a6c0b717161ae123097aeae8bf9e97898c
 workflow-type: tm+mt
-source-wordcount: '777'
+source-wordcount: '649'
 ht-degree: 2%
 ---
 # Unterschiede zwischen Campaign Standard und Campaign v8 {#acs-v8-differences}
@@ -44,15 +44,15 @@ Die meisten Konzepte sind in Campaign Standard und Campaign v8 identisch. Auf di
 
 ## Kanäle und Inhalte {#channels}
 
-Die Schritte zum Erstellen und Senden von Nachrichten sind in beiden Produkten ähnlich, wie in der [&#x200B; für Marketing-Fachleute &#x200B;](marketers.md). Die folgenden Unterschiede betreffen die Verfügbarkeit von Kanälen, Testsendungen, Landingpages und Briefpost-Workflows.
+Die Schritte zum Erstellen und Senden von Nachrichten sind in beiden Produkten ähnlich, wie in der [ für Marketing-Fachleute ](marketers.md). Die folgenden Unterschiede betreffen die Verfügbarkeit von Kanälen, Testsendungen, Landingpages und Briefpost-Workflows.
 
 | Änderungen | Weitere Informationen |
 |---|---|
 | Der In-App-Kanal ist in Campaign v8 nicht verfügbar. | [In-App-Kanal](marketers.md#acs-gs-marketers-in-app) |
-| Wenden Sie sich an Ihren Adobe Campaign Transition Manager, um bestehende Push-Workflows und -Sendungen zu übergeben. | [Push-Benachrichtigungen &#x200B;](marketers.md#acs-gs-marketers-push) |
+| Wenden Sie sich an Ihren Adobe Campaign Transition Manager, um bestehende Push-Workflows und -Sendungen zu übergeben. | [Push-Benachrichtigungen ](marketers.md#acs-gs-marketers-push) |
 | In Campaign Standard kann ein Testprofil als „Falle **markiert werden,** den endgültigen Versand zu erhalten. Fügen Sie in Campaign v8 eine **Trap-Gruppe** in den Zielgruppeneinstellungen des Versands hinzu. | [Trap-Gruppe](../../v8/audience/trap-group.md) |
-| In der Web-Benutzeroberfläche von Campaign erstellte Landingpages unterstützen keine ausgeblendeten Eingabefelder oder benutzerdefinierten JavaScript. | [Landingpages &#x200B;](../../v8/landing-pages/get-started-lp.md) |
-| In Campaign Standard wird die generierte Datei auch bei der ausgehenden Transition einer Briefpost-Aktivität übernommen. In Campaign v8 wird nur die Zielpopulation übermittelt. Um die Datei an einen Server zu senden, fügen Sie die Aktivität **Datenextraktion** und dann die Aktivität **Dateiübertragung** hinzu. | [Briefpost](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/send/direct-mail){target="_blank"} |
+| In der Web-Benutzeroberfläche von Campaign erstellte Landingpages unterstützen keine ausgeblendeten Eingabefelder oder benutzerdefinierten JavaScript. | [Landingpages ](../../v8/landing-pages/get-started-lp.md) |
+| In Campaign Standard wird die generierte Datei auch bei der ausgehenden Transition einer Briefpost-Aktivität übernommen. In Campaign v8 wird nur die Zielpopulation übermittelt. Um die Datei an einen Server zu senden, fügen Sie die Aktivität **Datenextraktion** und dann die Aktivität **Dateiübertragung** hinzu. | [Briefpost](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/direct-mail){target="_blank"} |
 
 ## Audiences, Workflows und Sendungen {#data-and-workflows}
 
@@ -77,16 +77,6 @@ Campaign Standard-Sicherheitsgruppen, -Rollen und -Organisationseinheiten sind w
 | Für den Zugriff auf Transaktions-APIs über die Ausführungsinstanz ist ein neues Produktprofil erforderlich. | [Produktprofilzuordnung](user-management-acs.md#product-profile-mapping-to-access-rest-apis) |
 | Datenschutzanfragen können während des Zeitraums, in dem Ihre Campaign Standard-Umgebung aktiv bleibt, sowohl in Campaign Standard als auch in Campaign v8 eingehen. | [Datenschutz und Einverständnis](admin-developers.md#privacy-and-consent) |
 
-## Verwaltung, Tracking und Mirrorseiten {#admin-tracking}
-
-Diese Unterschiede betreffen Sendungen aus Campaign Standard vor der Umstellung sowie administrative Informationen, die nicht auf Campaign v8 übertragen werden.
-
-| Änderungen | Weitere Informationen |
-|---|---|
-| Mirrorseiten von Sendungen, die von Campaign Standard vor der Umstellung gesendet wurden, sind nicht verfügbar. Mirrorseiten der von Campaign v8 gesendeten Sendungen funktionieren wie gewohnt. | [Mirrorseiten](../../v8/email/mirror-page.md) |
-| Tracking-Daten von Echtzeit-Transaktionssendungen, die von Campaign Standard vor der Umstellung gesendet wurden, werden in Campaign v8 nicht erfasst. Die Links dieser Nachrichten werden weiterhin umgeleitet. | [Transaktionsnachrichten überwachen](../../v8/transactional-messaging/monitor-transactional.md) |
-| Geografische Einheiten sind nicht verfügbar. Die Zugriffskontrolle mithilfe geografischer Einheiten geht verloren. | [Zugriffssteuerung](../../v8/get-started/connect-to-campaign.md#access-control) |
-
 ## APIs und Integrationen {#apis-and-integrations}
 
 Diese Unterschiede betreffen die Integrationen, die Campaign über die REST-API aufrufen, sowie die Integrationen mit anderen Adobe-Lösungen und -Tools.
@@ -95,5 +85,4 @@ Diese Unterschiede betreffen die Integrationen, die Campaign über die REST-API 
 |---|---|
 | PKEY-Werte ändern sich nach der Migration. Wenn Sie PKEYs außerhalb von Campaign speichern, befolgen Sie stattdessen die von der API zurückgegebenen. | [REST-APIs](admin-developers.md#acs-gs-admin-apis) |
 | Einige migrierte Profilfelder, wie Zeitzone und `ccpaOptOut`, werden nur von der `profileAndServicesExt/profile`-API zurückgegeben. | [REST-APIs](admin-developers.md#acs-gs-admin-apis) |
-| Die Dreamweaver- und Adobe Experience Platform Data Connector-Integrationen von Campaign Standard sind in Campaign v8 nicht verfügbar. | [Arbeiten mit Campaign und anderen Adobe-Lösungen](../../v8/integrations/integration.md) |
 | Adobe migriert Ihre Adobe Analytics- und Audience Manager-Konfigurationen. Sie müssen die Trigger- und Adobe Target-Integrationen erneut einrichten. | [Verwalten von Adobe Campaign-Integrationen](admin-developers.md#acs-gs-integrations) |
