@@ -43,10 +43,10 @@ topic_v2:
     internal-label: Security
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: b4c02b038a1cb398f61d30a601b0df61f23f0432
 workflow-type: tm+mt
-source-wordcount: '1604'
-ht-degree: 100%
+source-wordcount: '1602'
+ht-degree: 98%
 ---
 # Wechsel von Campaign Standard zu v8 {#ac-acs}
 
@@ -57,6 +57,8 @@ Wenn Sie von Campaign Standard zu Campaign v8 wechseln, ist dieses Referenzhandb
 1. Machen Sie sich zuerst mit den [neuen Funktionen in Adobe Campaign v8](#new) vertraut.
 
 1. Informieren Sie sich als Nächstes über die [Unterschiede, die gemäß Ihrer Rolle in Bezug auf das Erlebnis zwischen Adobe Campaign Standard und Adobe Campaign v8 bestehen](#experiences).
+
+<!-- 1. After your transition, review the [checks and troubleshooting](post-transition-checks.md). -->
 
 ## Neue Funktionen {#new}
 
@@ -171,7 +173,7 @@ Damit Sie reibungslos zu Campaign v8 wechseln können, wurden wichtige Funktion
 
 * **Rest-APIs**: Wenn Sie von Campaign Standard migriert sind, können Sie REST-APIs verwenden, um Integrationen für Adobe Campaign zu erstellen und Ihr eigenes Ökosystem zu erstellen, indem Sie Adobe Campaign mit den von Ihnen verwendeten Technologien verbinden. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=de){target="_blank"}
 
-* **Landingpages**: An den Landingpages von Campaign v8 wurden einige Verbesserungen vorgenommen, damit die Funktionen mit denen von Campaign Standard vergleichbar sind. Weitere Informationen finden Sie in den [Versionshinweisen](../../v8/rn/release-notes.md#new-24-4) und in der [Dokumentation](../../v8/landing-pages/get-started-lp.md) zu Landingpages.
+* **Landingpages** - Die Landingpages von Campaign v8 wurden verbessert, um sie an Campaign Standard anzupassen. <!-- Some differences remain, as listed in [Differences between Campaign Standard and Campaign v8](acs-v8-differences.md#channels). --> Weitere Informationen finden Sie in den [Versionshinweisen](../../v8/rn/release-notes.md#new-24-4) und in der [Dokumentation](../../v8/landing-pages/get-started-lp.md) zu Landingpages.
 
 * **Visuelle Fragmente**: Visuelle Fragmente sind wiederverwendbare visuelle Komponenten, die in einer oder mehreren E-Mail-Sendungen oder in Inhaltsvorlagen referenziert werden können. Wenn Sie ein Fragment ändern, wird jeder Inhalt, der dieses Fragment verwendet, aktualisiert. Mit dieser Funktion können Sie mehrere benutzerdefinierte Inhaltsbausteine vorab erstellen, mit denen Marketing-Benutzende Inhalte von Nachrichten schnell in einem verbesserten Design-Prozess zusammenstellen können. [Weitere Informationen](../../v8//content/use-visual-fragments.md)
 
@@ -195,6 +197,8 @@ Bestehende Campaign-Benutzende sollten zudem beachten, dass einige Konzepte ents
 * Die Versandanalyse heißt jetzt **Versandvorbereitung**. Wenn Sie die Vorbereitung von Nachrichten starten möchten, klicken Sie auf die Schaltfläche **Vorbereiten**. [Weitere Informationen](../../v8/monitor/prepare-send.md).
 * Die E-Mail-Vorschau ist jetzt über die Schaltfläche **Inhalt simulieren** verfügbar. [Weitere Informationen](../../v8/preview-test/preview-test.md)
 * Listen heißen jetzt **Zielgruppen**. [Weitere Informationen](../../v8/audience/gs-audiences-recipients.md).
+
+<!-- For the other differences that affect your transition, see [Differences between Campaign Standard and Campaign v8](acs-v8-differences.md). -->
 
 
 ## Neues Anwendererlebnis
@@ -265,5 +269,5 @@ Rufen Sie das entsprechende Referenzhandbuch für Ihre Rolle auf, um sich mit de
 
 Adobe constantly evaluates product capabilities to identify older features that should be replaced with more modern alternatives to improve overall customer value, always under careful consideration of backward compatibility.
 
-Please refer to [this documentation for information on deprecated items](https://experienceleague.adobe.com/de/docs/campaign-standard/using/release-notes/deprecated-features).
+Please refer to [this documentation for information on deprecated items](https://experienceleague.adobe.com/en/docs/campaign-standard/using/release-notes/deprecated-features).
 -->
