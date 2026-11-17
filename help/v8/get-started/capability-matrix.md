@@ -52,9 +52,9 @@ topic_v2:
     internal-label: Personalization
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 980797ae8e315192d95957fcfd5dbdb68bb6ab32
+source-git-commit: 7bbc2d4c383886788afc1ef83cdd27e7ec4b24ae
 workflow-type: tm+mt
-source-wordcount: '2549'
+source-wordcount: '2543'
 ht-degree: 99%
 ---
 # Campaign Web und Campaign-Client-Konsole {#capabilities-matrix}
@@ -185,14 +185,14 @@ Sie können in die in der Adobe Campaign-Web-Benutzeroberfläche erstellten Send
 
 Wie Sie einen Angebotskatalog verwalten, erfahren Sie in der [Dokumentation zu Campaign v8 (Client-Konsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=de){target="_blank"}.
 
-## Integrationen mit Adobe Experience Cloud-Lösungen {#exc-capabilities}
+## Integrationen mit [!DNL Adobe CX Enterprise] Lösungen {#exc-capabilities}
 
 Diese neue, moderne Campaign-Benutzeroberfläche vereinfacht die Gestaltung und den Versand von Marketing-Kampagnen und sorgt für Konsistenz mit anderen Adobe-Lösungen, einschließlich Adobe Experience Platform und Adobe Experience Manager.
 
 Die folgenden Integrationen sind über die Adobe Campaign-Client-Konsole verfügbar, jedoch noch nicht über die Campaign Web-Benutzeroberfläche. Verwenden Sie die bereitgestellten Links, um die Dokumentation zu Campaign v8 (Client-Konsole) zu durchsuchen und mehr über diese Integrationen zu erfahren:
 
 * Nutzung von Adobe Analytics-Daten und KPI-Freigabe. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aa.html?lang=de){target="_blank"}
-* Zielgruppenfreigabe für Adobe Experience Cloud (Adobe Audience Manager). [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/audience-sharing/sharing-audiences-with-adobe-experience-cloud.html?lang=de){target="_blank"}
+* Freigabe von Audiences mit [!DNL Adobe CX Enterprise] (Adobe Audience Manager). [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/audience-sharing/sharing-audiences-with-adobe-experience-cloud.html?lang=de){target="_blank"}
 * Integration mit Adobe Target. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-at.html?lang=de){target="_blank"}
 * Integration mit Adobe Experience Cloud Triggers. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-triggers.html?lang=de){target="_blank"}
 

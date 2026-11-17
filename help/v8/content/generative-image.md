@@ -17,10 +17,10 @@ feature_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 7bbc2d4c383886788afc1ef83cdd27e7ec4b24ae
 workflow-type: tm+mt
-source-wordcount: '1212'
-ht-degree: 100%
+source-wordcount: '1255'
+ht-degree: 96%
 ---
 # Generieren von Bildern {#generative-image}
 
@@ -29,9 +29,13 @@ ht-degree: 100%
 >Bevor Sie mit der Verwendung dieser Funktion beginnen, lesen Sie die entsprechenden Informationen unter [Schutzmechanismen und Einschränkungen](generative-gs.md#generative-guardrails).
 ></br>
 >
->Sie müssen einer [Benutzervereinbarung](https://www.adobe.com/de/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} zustimmen, bevor Sie den KI-Assistenten in Adobe Campaign Web verwenden können. Weitere Informationen erhalten Sie beim Adobe-Support.
+>Sie müssen einer [Benutzervereinbarung](https://www.adobe.com/de/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} zustimmen, bevor Sie den KI-Assistenten in Adobe Campaign Web verwenden können. Weitere Informationen erhalten Sie von Ihrer Adobe-Kontaktperson.
 
 Nutzen Sie die KI in Adobe Campaign Web, um ansprechende visuelle Inhalte zu erstellen, die Ihre Nachrichten für E-Mails, Landingpages und in Push-Benachrichtigungen verbessern. KI hilft Ihnen, Bilder zu generieren und zu optimieren und sorgt dafür, dass Ihre Inhalte visuell ansprechend und auf Ihre Marke abgestimmt sind.
+
+>[!IMPORTANT]
+>
+>Die Links zu KI-generierten Bildern sind temporär und können nicht verwendet werden, um Ihren Empfängerinnen und Empfängern Bilder bereitzustellen. Wenn Sie Ihren Versand speichern, werden die generierten Bilder in Ihrer Campaign-Instanz gespeichert und die Links werden ersetzt. Versand vor dem Versand speichern
 
 ## Für E-Mail und Landingpages {#email-web-channels}
 

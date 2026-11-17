@@ -31,10 +31,10 @@ topic_v2:
     internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 7bbc2d4c383886788afc1ef83cdd27e7ec4b24ae
 workflow-type: tm+mt
-source-wordcount: '2580'
-ht-degree: 100%
+source-wordcount: '2577'
+ht-degree: 99%
 ---
 # Versionshinweise 2024 {#2024-release}
 
@@ -241,7 +241,7 @@ Sie können jetzt in der Workflow-Aktivität **Anreicherung** Relationen mit ein
 
 * **Ordnerverwaltung** – Sie können jetzt einen Unterordner von einem anderen Typ als den übergeordneten Ordner erstellen. [Mehr dazu](../get-started/permissions.md#folders)
 
-* **Globalisierung** – Im Rahmen unserer kontinuierlichen Bemühungen um ein einheitliches Benutzererlebnis harmonisieren wir die in den Adobe Experience Cloud-Produkten und -Apps verwendete Terminologie. Dies wirkt sich auf den deutschen Begriff „Titel“ aus, der in „Label“ geändert wird, wenn er sich auf den Namen eines Objekts bezieht. Die Änderungen werden schrittweise in der Benutzeroberfläche und Dokumentation eingeführt.
+* **Globalisierung** - Im Rahmen unserer ständigen Bemühungen, ein einheitliches Benutzererlebnis zu schaffen, harmonisieren wir die in den [!DNL Adobe CX Enterprise] Produkten und Apps verwendete Terminologie. Dies wirkt sich auf den deutschen Begriff „Titel“ aus, der in „Label“ geändert wird, wenn er sich auf den Namen eines Objekts bezieht. Die Änderungen werden schrittweise in der Benutzeroberfläche und Dokumentation eingeführt.
 
 
 ## Versionshinweise für April {#april-24-4-release}

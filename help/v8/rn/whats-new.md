@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 7bbc2d4c383886788afc1ef83cdd27e7ec4b24ae
 workflow-type: tm+mt
-source-wordcount: '1326'
-ht-degree: 100%
+source-wordcount: '1317'
+ht-degree: 96%
 ---
 # Neue Funktionen {#new}
 
@@ -48,14 +48,14 @@ Diese neue Campaign Web-Benutzeroberfläche bietet die folgenden Funktionen:
 
 **Modernes, intuitives und einheitliches Erlebnis**
 
-Die neue Web-Benutzeroberfläche von Campaign bietet ein neues Benutzererlebnis, das mit allen Adobe Experience Cloud-Lösungen und -Apps verbunden ist. Sie bietet:
+Die neue Web-Benutzeroberfläche von Campaign bietet ein neues Benutzererlebnis, das mit allen [!DNL Adobe CX Enterprise]-Lösungen und -Programmen verbunden ist. Sie bietet:
 
 * Greifen Sie auf die neue Benutzeroberfläche und Ihre anderen Adobe-Lösungen mit einer einzigen, gemeinsamen Benutzersitzung zu
 * Neues Navigationserlebnis mit Zugriff auf alle Menüs und Ordner in der linken Leiste
 * Umschalter für Lösungen und Organisationen in der oberen Leiste
 * Unified Shell-Integration mit direktem Zugriff auf die Community, die Hilfe und den Support
 
-[Auf dieser Seite](../get-started/connect-to-campaign.md) erfahren Sie, wie Sie sich bei Adobe Experience Cloud anmelden und eine Verbindung zu Campaign herstellen.
+Auf dieser Seite erfahren Sie, wie Sie sich bei [!DNL Adobe CX Enterprise] anmelden und eine Verbindung zu Campaign [&#128279;](../get-started/connect-to-campaign.md).
 
 
 **Neue leistungsstarke Funktionen und nahtlose Prozesse**
@@ -178,7 +178,7 @@ Für diese Version gelten folgende Einschränkungen:
 * Die Funktionen zur Administration und erweiterten Konfiguration sind in der Campaign Web-Benutzeroberfläche nicht verfügbar.
 * Reporting-Metriken (wie Öffnungen und Tracking-Daten) werden stündlich aktualisiert.
 * Die KPIs im Versand-Dashboard werden alle 5 Minuten aktualisiert. – aber die Versandvorbereitung erfolgt in Echtzeit.
-* Benachrichtigungen von Adobe Experience Cloud und die in der Symbolleiste verfügbare einheitliche Hilfe sind noch nicht integriert.
+* [!DNL Adobe CX Enterprise] Benachrichtigungen und die einheitliche Hilfe, die in der oberen Leiste verfügbar sind, sind noch nicht integriert.
 
 Wenn Sie in der Campaign Web-Benutzeroberfläche mit Workflows arbeiten, die in der Campaign-Client-Konsole erstellt oder geändert wurden, gelten bestimmte Schutzmechanismen und Begrenzungen. Sie sind [in diesem Abschnitt aufgeführt](../get-started/guardrails.md).
 

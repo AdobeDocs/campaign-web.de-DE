@@ -77,10 +77,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 7bbc2d4c383886788afc1ef83cdd27e7ec4b24ae
 workflow-type: tm+mt
-source-wordcount: '3256'
-ht-degree: 99%
+source-wordcount: '3253'
+ht-degree: 98%
 ---
 # Erste Schritte für Admins und Entwickelnde {#acs-gs-admin}
 
@@ -377,7 +377,7 @@ Als Admin sollten Sie sich mit der Quarantäneverwaltung in Campaign v8 vertrau
 
 ## Verwalten von Adobe Campaign-Integrationen {#acs-gs-integrations}
 
-Sie können Ihre Campaign-Instanz mit Adobe Experience Cloud-Lösungen verbinden, um Funktionen zu kombinieren. Adobe Campaign verfügt über mehrere Connectoren, über die Sie mit externen Anwendungen kommunizieren, eine Verbindung zu Datenbank-Engines herstellen sowie Daten freigeben und synchronisieren können. Informationen zum Kombinieren Ihrer Lösungen finden Sie [dieser Dokumentation](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/connect/integration){target="_blank"}.
+Sie können Ihre Campaign-Instanz mit [!DNL Adobe CX Enterprise] Lösungen verbinden, um Funktionen zu kombinieren. Adobe Campaign verfügt über mehrere Connectoren, über die Sie mit externen Anwendungen kommunizieren, eine Verbindung zu Datenbank-Engines herstellen sowie Daten freigeben und synchronisieren können. Informationen zum Kombinieren Ihrer Lösungen finden Sie [dieser Dokumentation](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/connect/integration){target="_blank"}.
 
 Wenn Sie von Campaign Standard zu Campaign v8 migrieren, gilt Folgendes:
 

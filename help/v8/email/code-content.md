@@ -14,10 +14,10 @@ product_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 7bbc2d4c383886788afc1ef83cdd27e7ec4b24ae
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 100%
+source-wordcount: '170'
+ht-degree: 77%
 ---
 # Codieren Ihrer eigenen E-Mail-Inhalte {#code-content}
 
@@ -26,6 +26,10 @@ Verwenden Sie den Modus **[!UICONTROL Eigenen Code schreiben]**, um unformatiert
 >[!CAUTION]
 >
 >Diese Methode erfordert HTML-Kenntnisse.
+
+>[!IMPORTANT]
+>
+>Verwenden Sie das HTML `<base>`-Tag nicht in Ihrem E-Mail-Inhalt. Aus Sicherheitsgründen wird dieses Tag nicht unterstützt und kann verhindern, dass Ihre Inhalte im Inhaltseditor geladen werden. Verwenden Sie stattdessen absolute URLs für Ihre Links und externen Ressourcen.
 
 1. Wählen Sie auf der Startseite von [E-Mail-Designer](get-started-email-designer.md) die Option **[!UICONTROL Eigenen Code schreiben]** aus.
 
