@@ -42,7 +42,7 @@ Gehen Sie wie folgt vor, um sich bei [!DNL Adobe CX Enterprise] anzumelden:
 
    ![Screenshot mit der Organisationsauswahl in Adobe CX Enterprise](assets/exc-orgs.png){zoomable="yes"}{width="50%"}
 
-   Weitere Informationen zu Organisationen in [!DNL Adobe CX Enterprise] finden [ in diesem Artikel](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=de){target="_blank"}.
+   Weitere Informationen zu Organisationen in [!DNL Adobe CX Enterprise] finden [&#x200B; in diesem Artikel](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=de){target="_blank"}.
 
 ## Zugriff auf Adobe Campaign {#access-to-campaign}
 

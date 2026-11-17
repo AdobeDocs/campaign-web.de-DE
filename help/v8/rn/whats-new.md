@@ -55,7 +55,7 @@ Die neue Web-Benutzeroberfläche von Campaign bietet ein neues Benutzererlebnis,
 * Umschalter für Lösungen und Organisationen in der oberen Leiste
 * Unified Shell-Integration mit direktem Zugriff auf die Community, die Hilfe und den Support
 
-Auf dieser Seite erfahren Sie, wie Sie sich bei [!DNL Adobe CX Enterprise] anmelden und eine Verbindung zu Campaign [](../get-started/connect-to-campaign.md).
+Auf dieser Seite erfahren Sie, wie Sie sich bei [!DNL Adobe CX Enterprise] anmelden und eine Verbindung zu Campaign [&#128279;](../get-started/connect-to-campaign.md).
 
 
 **Neue leistungsstarke Funktionen und nahtlose Prozesse**
