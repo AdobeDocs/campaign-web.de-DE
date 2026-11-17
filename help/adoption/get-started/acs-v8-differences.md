@@ -29,9 +29,9 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 071900a6c0b717161ae123097aeae8bf9e97898c
+source-git-commit: 64a07e65b7e6d933288b10117aae99f48d13a8d8
 workflow-type: tm+mt
-source-wordcount: '649'
+source-wordcount: '1721'
 ht-degree: 2%
 ---
 # Unterschiede zwischen Campaign Standard und Campaign v8 {#acs-v8-differences}
@@ -44,15 +44,15 @@ Die meisten Konzepte sind in Campaign Standard und Campaign v8 identisch. Auf di
 
 ## Kanäle und Inhalte {#channels}
 
-Die Schritte zum Erstellen und Senden von Nachrichten sind in beiden Produkten ähnlich, wie in der [&#x200B; für Marketing-Fachleute &#x200B;](marketers.md). Die folgenden Unterschiede betreffen die Verfügbarkeit von Kanälen, Testsendungen, Landingpages und Briefpost-Workflows.
+Die Schritte zum Erstellen und Senden von Nachrichten sind in beiden Produkten ähnlich, wie in der [ für Marketing-Fachleute ](marketers.md). Die folgenden Unterschiede betreffen die Verfügbarkeit von Kanälen, Testsendungen, Landingpages und Briefpost-Workflows.
 
 | Änderungen | Weitere Informationen |
 |---|---|
 | Der In-App-Kanal ist in Campaign v8 nicht verfügbar. | [In-App-Kanal](marketers.md#acs-gs-marketers-in-app) |
-| Wenden Sie sich an Ihren Adobe Campaign Transition Manager, um bestehende Push-Workflows und -Sendungen zu übergeben. | [Push-Benachrichtigungen &#x200B;](marketers.md#acs-gs-marketers-push) |
+| Wenden Sie sich an Ihren Adobe Campaign Transition Manager, um bestehende Push-Workflows und -Sendungen zu übergeben. | [Push-Benachrichtigungen ](marketers.md#acs-gs-marketers-push) |
 | In Campaign Standard kann ein Testprofil als „Falle **markiert werden,** den endgültigen Versand zu erhalten. Fügen Sie in Campaign v8 eine **Trap-Gruppe** in den Zielgruppeneinstellungen des Versands hinzu. | [Trap-Gruppe](../../v8/audience/trap-group.md) |
-| In der Web-Benutzeroberfläche von Campaign erstellte Landingpages unterstützen keine ausgeblendeten Eingabefelder oder benutzerdefinierten JavaScript. | [Landingpages &#x200B;](../../v8/landing-pages/get-started-lp.md) |
-| In Campaign Standard wird die generierte Datei auch bei der ausgehenden Transition einer Briefpost-Aktivität übernommen. In Campaign v8 wird nur die Zielpopulation übermittelt. Um die Datei an einen Server zu senden, fügen Sie die Aktivität **Datenextraktion** und dann die Aktivität **Dateiübertragung** hinzu. | [Briefpost](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/send/direct-mail){target="_blank"} |
+| In der Web-Benutzeroberfläche von Campaign erstellte Landingpages unterstützen keine ausgeblendeten Eingabefelder oder benutzerdefinierten JavaScript. | [Landingpages ](../../v8/landing-pages/get-started-lp.md) |
+| In Campaign Standard wird die generierte Datei auch bei der ausgehenden Transition einer Briefpost-Aktivität übernommen. In Campaign v8 wird nur die Zielpopulation übermittelt. Um die Datei an einen Server zu senden, fügen Sie die Aktivität **Datenextraktion** und dann die Aktivität **Dateiübertragung** hinzu. | [Briefpost](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/direct-mail){target="_blank"} |
 
 ## Audiences, Workflows und Sendungen {#data-and-workflows}
 
@@ -83,6 +83,121 @@ Diese Unterschiede betreffen die Integrationen, die Campaign über die REST-API 
 
 | Änderungen | Weitere Informationen |
 |---|---|
-| PKEY-Werte ändern sich nach der Migration. Wenn Sie PKEYs außerhalb von Campaign speichern, befolgen Sie stattdessen die von der API zurückgegebenen. | [REST-APIs](admin-developers.md#acs-gs-admin-apis) |
-| Einige migrierte Profilfelder, wie Zeitzone und `ccpaOptOut`, werden nur von der `profileAndServicesExt/profile`-API zurückgegeben. | [REST-APIs](admin-developers.md#acs-gs-admin-apis) |
+| PKEY-Werte ändern sich nach der Migration. Wenn Sie PKEYs außerhalb von Campaign speichern, befolgen Sie stattdessen die von der API zurückgegebenen. | [Verwendung von Schlüsseln](#key-usage) |
+| Einige migrierte Profilfelder, wie Zeitzone und `ccpaOptOut`, werden nur von der `profileAndServicesExt/profile`-API zurückgegeben. | [Zeitzone des Profils](#profile-timezone) |
 | Adobe migriert Ihre Adobe Analytics- und Audience Manager-Konfigurationen. Sie müssen die Trigger- und Adobe Target-Integrationen erneut einrichten. | [Verwalten von Adobe Campaign-Integrationen](admin-developers.md#acs-gs-integrations) |
+
+## Empfehlungen und Einschränkungen der REST-API {#rest-api-limitations}
+
+Die folgenden Empfehlungen und Einschränkungen gelten für die REST-APIs, wenn Sie von Campaign Standard zu Campaign v8 wechseln.
+
+### Berechtigungen und Sicherheit {#permissions}
+
+#### Zuordnung von Produktprofilen {#rest-product-profiles}
+
+In Campaign Standard wurde Ihnen erhöhte Administratorrolle Zugriff auf APIs gewährt, unabhängig von Ihrem zugewiesenen Produktprofil. Campaign v8 führt einen anderen Satz von Produktprofilen ein, für die eine Zuordnung von Campaign Standard zu Campaign v8-Produktprofilen erforderlich ist.
+
+Bei der Migration werden zwei Produktprofile zu Ihren vorhandenen oder vorab erstellten technischen Konten hinzugefügt: Administrator und Message Center (für den Zugriff auf Transaktions-APIs). Überprüfen Sie die Produktprofilzuordnung und weisen Sie das erforderliche Produktprofil zu, wenn Sie nicht möchten, dass das Admin-Produktprofil Ihrem technischen Konto zugeordnet wird.
+
+#### Mandantenkennung
+
+Nach der Migration wird für alle zukünftigen Integrationen empfohlen, Ihre **Campaign v8-Mandanten-ID** in REST-URLs zu verwenden und Ihre vorherige Campaign Standard-Mandanten-ID zu ersetzen.
+
+#### Verwendung von Schlüsseln
+
+Die Verwaltung der PKey-Werte unterscheidet sich zwischen Campaign Standard und Campaign v8. Wenn Sie PKeys mit Campaign Standard gespeichert haben, stellen Sie sicher, dass Ihre Implementierung nachfolgende API-Aufrufe dynamisch durch PKeys oder aus vorherigen API-Aufrufen erstellt.
+
+### Verfügbare APIs {#available-apis}
+
+Vorerst sind die unten aufgeführten REST-APIs zur Verwendung verfügbar:
+
+* **Profile**
+* **Services und Abonnements**
+* **Benutzerdefinierte Ressourcen**
+* **Workflows**
+* **Transaktionsnachrichten**
+
+>[!AVAILABILITY]
+>
+>Derzeit ist die REST-API **Transaktionsnachrichten** nicht verfügbar.
+>
+>Die unten aufgeführten REST-APIs sind veraltet und nicht mehr verfügbar:
+>* Marketing-Verlauf
+>* Organisationseinheiten
+>* Datenschutzverwaltung
+
+### Filterung {#rest-filtering}
+
+* Um Ihre Filter in den REST-API-Payloads zu verwenden, müssen Sie sie in Campaign v8 bearbeiten und einen Namen angeben, der in Ihren Payloads verwendet werden soll. Greifen Sie dazu über die Registerkarte **[!UICONTROL Parameter]** auf die zusätzlichen Parameter des Filters zu und geben Sie den gewünschten Namen im Feld **[!UICONTROL Filtername in REST-API]** an.
+
+  ![](assets/api-filtering.png)
+
+
+* Das Präfix „by“, das für die Verwendung benutzerdefinierter Filter erforderlich ist, wird nicht mehr benötigt. Der Filtername sollte in Ihren Anfragen unverändert verwendet werden.
+
+  Beispiel:
+
+  `GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/<resourceName>/<customFilterName>?<customFilterparam>=<customFilterValue>`
+
+### Abgelegte Datenbankfelder {#dropped-fields}
+
+Einige Felder aus der Datenbank werden während der Migration gelöscht. Bei Verwendung eines abgelegten Felds geben REST-APIs leere Werte zurück. In Zukunft werden alle abgelegten Felder veraltet sein und entfernt.
+
+### POST mit verknüpften Ressourcen {#post-linked}
+
+Bei Verwendung des folgenden Anfragetext-Formats, wobei „vehierOwner“ den Link zu „nms“ :recipient:
+
+```
+{
+    "vehicleNumber": "20009",
+    "vehicleName": "Model E",
+    "vehicleOwner":{
+        "firstName":"tester 11",
+        "lastName":"Smith 11"
+    }
+}
+```
+
+Die Link-Informationen werden ignoriert. Daher wird unter „cusVehicle“ ein neuer Datensatz generiert, der nur die Werte „vehicleNumber“ und „vehicleName“ enthält. Der Link bleibt jedoch null, was dazu führt, dass für „VehicleOwner“ „null“ festgelegt wird.
+
+Wenn in Campaign v8 dieselbe Anfragekörperstruktur verwendet wird und das „Fahrzeug“ mit einem Profil verknüpft ist, tritt ein Fehler auf. Dieser Fehler tritt auf, weil die Eigenschaft „firstName“ für „cusVehicle“ nicht als gültig erkannt wird. Ein Anfragetext, der nur die Attribute ohne die Relation enthält, funktioniert jedoch problemlos.
+
+### PATCH-Vorgänge {#patch}
+
+* Campaign v8 unterstützt PATCH nicht mit einem leeren Anfrageinhalt: Der Status „Kein Inhalt“ wird 204 zurückgegeben.
+* Campaign Standard unterstützt PATCH zwar für Elemente/Attribute innerhalb eines Schemas, doch beachten Sie, dass PATCH-Vorgänge vor Ort in Campaign v8 nicht unterstützt werden. Der Versuch, einen PATCH-Speicherort zu konfigurieren, führt zu einem internen 500-Server-Fehler mit einer Fehlermeldung, die angibt, dass die Eigenschaft „zipCode“ für die Ressource „profile“ nicht gültig ist.
+
+### REST-Antworten {#rest-responses}
+
+Im folgenden Abschnitt werden geringfügige Unterschiede zwischen REST-Antworten von Campaign Standard und v8 aufgeführt.
+
+* Bei einzelnen GET-Einträgen enthält die Antwort die href in der Antwort.
+* Bei der Abfrage mit dem -Attribut liefert Campaign v8 Anzahl und Paginierung in der Antwort.
+* Nach POST-Vorgängen werden Werte aus verknüpften Ressourcen in der Antwort zurückgegeben.
+
+### Fehlercodes und Meldungen {#rest-errors}
+
+Im folgenden Abschnitt werden die Unterschiede zwischen Fehler-Codes und Fehlermeldungen von Campaign Standard und Campaign v8 aufgeführt.
+
+| Szenario | Campaign Standard | Campaign v8 |
+|  ---  |  ---  |  ---  |
+| Ungültigen PKey im Anfragetext verwenden | 500 - Attribut &#39;O5iRp40EGA&#39; unbekannt (siehe Definition des Schemas &#39;Profiles (nms:recipient)&#39;). XTK-170036 Ausdruck &#39;@id = @O5iRp40EGA&#39; kann nicht analysiert werden. | 404 - PKey kann nicht entschlüsselt werden. (PKey=@jksad) |
+| Ungültigen PKey im URI verwenden | 500 - Attribut &#39;O5iRp40EGA&#39; unbekannt (siehe Definition des Schemas &#39;Profiles (nms:recipient)&#39;). XTK-170036 Ausdruck &#39;@id = @O5iRp40EGA&#39; kann nicht analysiert werden. | 404 - PKey kann nicht entschlüsselt werden. (PKey=@jksad) Nicht unterstützter Endpunkt. (endpoint=rest/profileAndServices/profile/@jksad) |
+| Verwenden zweier verschiedener roher PKey im URI und Anfragetext | 500 - RST-360011 Ein Fehler ist aufgetreten - Bitte Admin kontaktieren. Inkonsistenter RST-360012-Vorgang für Ressource „service“ - Schlüssel „SVC3“ kann nicht auf „SVC4“ aktualisiert werden. | 500 - Ein Fehler ist aufgetreten - Bitte Admin kontaktieren. |
+| Verwenden von PKey im URI und eines anderen rohen PKey im Anfragetext | 500 - Ein &#39;Dienst&#39; mit demselben Schlüssel &#39;SVC4&#39; ist bereits vorhanden. PGS-220000 PostgreSQL-Fehler: FEHLER: Doppelter Schlüsselwert verletzt eindeutige Einschränkung „nmsservice_name“ DETAIL: Schlüssel (sname)=(SVC4) existiert bereits. | 500 - Ein Fehler ist aufgetreten - Bitte Admin kontaktieren. |
+| Verwenden einer nicht vorhandenen Roh-ID im URI | 404 - RST-360011 Ein Fehler ist aufgetreten - Bitte Admin kontaktieren. Dokument mit dem Pfad &#39;Service&#39; kann nicht ausgehend vom Schlüssel &#39;adobe_nl:0&#39; gefunden werden (Dokument mit Schema &#39;service&#39; und Namen &#39;adobe_nl&#39;) | 404 - Dokument mit dem Pfad &#39;Service&#39; kann nicht über den Schlüssel &#39;adobe_nl&#39; gefunden werden (Dokument mit dem Schema &#39;service&#39; und dem Namen &#39;adobe_nl&#39;) |
+| Verwenden einer nicht vorhandenen Raw-ID im Anfrageinhalt | 404 - RST-360011 Ein Fehler ist aufgetreten - Bitte Admin kontaktieren. Dokument mit dem Pfad &#39;Service&#39; kann nicht ausgehend vom Schlüssel &#39;adobe_nl&#39; gefunden werden (Dokument mit Schema &#39;service&#39; und Namen &#39;adobe_nl&#39;) | 404 - Dokument mit dem Pfad &#39;Service&#39; kann nicht über den Schlüssel &#39;adobe_nl&#39; gefunden werden (Dokument mit dem Schema &#39;service&#39; und dem Namen &#39;adobe_nl&#39;) |
+| - | 500 - RST-360011 Ein Fehler ist aufgetreten - Bitte Admin kontaktieren. | 500 - Ein Fehler ist aufgetreten - Bitte Admin kontaktieren. |
+| Fügen Sie ein Profil/einen Service mit einem ungültigen Aufzählungswert für Geschlecht (oder sonstiges) ein. | 500 - RST-360011 Ein Fehler ist aufgetreten - Bitte Admin kontaktieren. Der Wert &#39;ungültig&#39; ist für die Auflistung &#39;nms:recipient:gender&#39; des Feldes &#39;@gender&#39; ungültig | 500 - Ein Fehler ist aufgetreten - Bitte Admin kontaktieren. |
+
+### Zeitzone des Profils {#profile-timezone}
+
+Bei Campaign Standard wird die Zeitzone als Teil der JSON-Antwort von **profileAndServices/profile** REST-API-Aufrufen angezeigt.
+
+In Campaign v8 wird die Zeitzone Benutzenden nur als Teil der REST-API **Aufrufe von „profileAndServicesExt/profile** angezeigt. Sie ist nicht Teil der **profileAndServices/profile** REST-API-Aufrufe, da sie in einem erweiterten Schema hinzugefügt wird.
+
+### Externe Workflow-Signale {#workflow-signals}
+
+Die Campaign Standard Workflow GET-API gibt Parameternamen wie die Workflow-Instanzvariablen und deren Datentypen (boolesch, Zeichenfolge usw.) zurück. Dies wird verwendet, um beim Auslösen des Signals über einen POST-API-Aufruf einen entsprechend formatierten JSON-Anfragetext zu erstellen.
+
+Campaign v8 unterstützt keine Advertising Workflow-Instanzvariablen, erwartet jedoch, dass die Entwickler wissen, was diese sind. Daher müssen nach der Migration Parameterinformationen im POST-Anfragetext ohne Verfügbarkeit von Parameterinformationen in der GET-API-Antwort erstellt werden.
