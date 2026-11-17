@@ -39,16 +39,16 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 7bbc2d4c383886788afc1ef83cdd27e7ec4b24ae
 workflow-type: tm+mt
-source-wordcount: '1564'
-ht-degree: 100%
+source-wordcount: '1559'
+ht-degree: 98%
 ---
 # Erkunden der Benutzeroberfläche {#user-interface}
 
-Die neue Adobe Campaign Web-Benutzeroberfläche bietet ein modernes und intuitives Anwendererlebnis, das die Gestaltung und den Versand von Marketing-Kampagnen vereinfacht. Diese Benutzeroberfläche kann mit Adobe Experience Cloud-Anwendungen und -Lösungen integriert werden.
+Die neue Adobe Campaign Web-Benutzeroberfläche bietet ein modernes und intuitives Anwendererlebnis, das die Gestaltung und den Versand von Marketing-Kampagnen vereinfacht. Diese Benutzeroberfläche lässt sich mit [!DNL Adobe CX Enterprise] Apps und Lösungen integrieren.
 
-[In diesem Artikel](connect-to-campaign.md) erfahren Sie, wie Sie eine Verbindung zu Adobe Campaign herstellen, und Sie lernen die Grundlagen der Navigation in Experience Cloud kennen.
+Erfahren Sie, wie Sie eine Verbindung zu Adobe Campaign herstellen, und lernen Sie [!DNL CX Enterprise] Navigationsgrundlagen kennen [in diesem Artikel](connect-to-campaign.md).
 
 >[!NOTE]
 >

@@ -14,10 +14,10 @@ product_v2:
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
     internal-label: Campaigns
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 7bbc2d4c383886788afc1ef83cdd27e7ec4b24ae
 workflow-type: tm+mt
-source-wordcount: '887'
-ht-degree: 100%
+source-wordcount: '930'
+ht-degree: 95%
 ---
 # Arbeiten mit der Funktion „Inhalt erzeugen“ {#generative-gs}
 
@@ -82,7 +82,7 @@ Die Funktion „Inhalt erzeugen“ unterstützt die Generierung **in mehreren Sp
 >
 >* Bevor Sie diese Funktion verwenden, lesen Sie die entsprechenden Informationen unter [Schutzmechanismen und Einschränkungen](#generative-guardrails).
 >
->* Sie müssen einer [Benutzervereinbarung](https://www.adobe.com/de/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) zustimmen, bevor Sie KI zum Generieren von Inhalten in Adobe Campaign Web verwenden können. Weitere Informationen erhalten Sie beim Adobe-Support.
+>* Sie müssen einer [Benutzervereinbarung](https://www.adobe.com/de/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) zustimmen, bevor Sie KI zum Generieren von Inhalten in Adobe Campaign Web verwenden können. Weitere Informationen erhalten Sie von Ihrer Adobe-Kontaktperson.
 
 ## Zugreifen auf „Inhalt erzeugen“ {#generative-access}
 
@@ -124,6 +124,7 @@ Die folgenden Einschränkungen gelten für die Funktion „Inhalt erzeugen“ in
 * Nur für den E-Mail-, Push- und SMS-Kanal verfügbar.
 * GenAI-Inhalte sind möglicherweise nicht immer präzise. Teilen Sie ihr Feedback, damit Ingenieure und Ingenieurinnen die Modelle präzisieren können.
 * Sie können mehrere Marken-Assets hochladen, jedoch für eine bestimmte Generierung nur eines verwenden.
+* Die Links zu KI-generierten Bildern sind temporär und können nicht verwendet werden, um Ihren Empfängerinnen und Empfängern Bilder bereitzustellen. Wenn Sie Ihren Versand speichern, werden die generierten Bilder in Ihrer Campaign-Instanz gespeichert und die Links werden ersetzt. Versand vor dem Versand speichern
 
 ## Funktionen von „Inhalt erzeugen“ {#generative-features}
 

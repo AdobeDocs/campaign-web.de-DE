@@ -10,10 +10,10 @@ product_v2:
     internal-label: Campaign v8
   - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
     internal-label: Campaign v8 Web User Interface
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 7bbc2d4c383886788afc1ef83cdd27e7ec4b24ae
 workflow-type: tm+mt
-source-wordcount: '1489'
-ht-degree: 100%
+source-wordcount: '1509'
+ht-degree: 98%
 ---
 # Konfigurieren eines mehrsprachigen Versands {#multilingual-delivery}
 
@@ -32,6 +32,10 @@ In der Campaign Web-Benutzeroberfläche können Sie Ihre Sendungen als mehrsprac
 Bei einem mehrsprachigen Versand basiert die Sprachverwaltung auf Varianten. Jede Variante steht für eine Sprache. Bei der Versanderstellung können Sie entsprechend der Anzahl der erforderlichen Sprachen in Ihrer Nachricht mehrere Sprachvarianten hinzufügen. Sie können die Standardsprache auch jederzeit ändern, nachdem Sie diese Varianten hinzugefügt haben.
 
 Die mehrsprachige Funktion ist derzeit für E-Mails, Push-Benachrichtigungen, Transaktionsnachrichten und SMS verfügbar.
+
+>[!NOTE]
+>
+>Mehrsprachige Sendungen mit einer Variante werden nicht unterstützt. Wenn Ihre Nachricht nur eine Sprache benötigt, erstellen Sie stattdessen einen Standardversand (einen einzigen).
 
 Führen Sie die folgenden Schritte durch, um den mehrsprachigen Versand einzurichten:
 

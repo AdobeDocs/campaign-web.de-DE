@@ -10,10 +10,10 @@ product_v2:
     internal-label: Campaign v8
   - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
     internal-label: Campaign v8 Web User Interface
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 7bbc2d4c383886788afc1ef83cdd27e7ec4b24ae
 workflow-type: tm+mt
 source-wordcount: '470'
-ht-degree: 100%
+ht-degree: 97%
 ---
 # Anreichern von Transaktionsnachrichten mit Profildaten{#profile-enrichment}
 
@@ -63,7 +63,7 @@ Anschließend müssen Sie das Ereignis als profilbasiert definieren, um in der A
    * Um einen vorhandenen Ereignistyp zu verwenden, wählen Sie ihn aus der Liste aus.
    * Um einen neuen Typ zu verwenden, fügen Sie ein Label und einen Namen hinzu.
 
-1. Wählen Sie anschließend aus der Dropdown-Liste **Ereignistyp** die Option **Profil-RT** aus.
+1. Wählen Sie dann **Personalisiertes Ereignis** in der **Ereignistyp** aus.
 
    ![](assets/profile-enrich1.png){zoomable="yes"}
 

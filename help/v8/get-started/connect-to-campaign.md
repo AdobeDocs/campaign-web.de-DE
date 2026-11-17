@@ -15,42 +15,42 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 7bbc2d4c383886788afc1ef83cdd27e7ec4b24ae
 workflow-type: tm+mt
-source-wordcount: '964'
-ht-degree: 100%
+source-wordcount: '926'
+ht-degree: 81%
 ---
 # Verbindung mit Adobe Campaign herstellen {#connect-to-campaign}
 
-Experience Cloud ist die integrierte Familie von Anwendungen, Produkten und Diensten von Adobe für das digitale Marketing. Über die intuitive Benutzeroberfläche können Sie schnell auf Ihre Cloud-Anwendungen, Produktfunktionen und Dienste zugreifen. Auf dieser Seite erfahren Sie, wie Sie eine Verbindung mit Adobe Experience Cloud herstellen und auf die Adobe Campaign Web-Benutzeroberfläche zugreifen.
+[!DNL Adobe CX Enterprise] ist die integrierte Produktfamilie von Adobe mit Programmen, Produkten und Services für Digital Marketing. Über die intuitive Benutzeroberfläche können Sie schnell auf Ihre Cloud-Anwendungen, Produktfunktionen und Dienste zugreifen. Auf dieser Seite erfahren Sie, wie Sie eine Verbindung zu [!DNL CX Enterprise] herstellen und auf die Adobe Campaign-Web-Oberfläche zugreifen.
 
-## Anmeldung bei Adobe Experience Cloud {#sign-in-to-exc}
+## Bei [!DNL Adobe CX Enterprise] anmelden {#sign-in-to-exc}
 
-Sie können nur Single Sign-on (SSO) verwenden, um eine Verbindung zu Campaign herzustellen. Normalerweise gewähren die Admins von Experience Cloud Zugriff auf Anwendungen und Dienste. Führen Sie die Schritte in der per E-Mail gesendeten Einladung zur Experience Cloud aus.
+Sie können nur Single Sign-on (SSO) verwenden, um eine Verbindung zu Campaign herzustellen. In der Regel gewähren [!DNL CX Enterprise]-Administratoren Zugriff auf Programme und Services. Führen Sie die Schritte in Ihrer E-Mail-Einladung zur [!DNL CX Enterprise] aus.
 
-Führen Sie diese einfachen Schritte aus, um sich bei Adobe Experience Cloud anzumelden:
+Gehen Sie wie folgt vor, um sich bei [!DNL Adobe CX Enterprise] anzumelden:
 
-1. Navigieren Sie zu [Adobe Experience Cloud](https://experience.adobe.com/){target="_blank"}.
+1. Navigieren Sie zu [[!DNL Adobe CX Enterprise]](https://experience.adobe.com/){target="_blank"}.
 
 1. Melden Sie sich mit Ihrer Adobe ID oder Enterprise ID an. Weitere Informationen zu Identitätstypen bei Adobe finden Sie in [diesem Artikel](https://helpx.adobe.com/de/enterprise/using/identity.html){target="_blank"}.
 
-   Nach der Anmeldung bei Experience Cloud können Sie schnell auf alle Ihre Lösungen und Anwendungen zugreifen.
+   Nach der Anmeldung bei [!DNL CX Enterprise] können Sie schnell auf alle Ihre Lösungen und Apps zugreifen.
 
-   ![Screenshot der Adobe Experience Cloud-Startseite](assets/exc-home.png){zoomable="yes"}
+   ![Screenshot der Adobe CX Enterprise-Startseite](assets/exc-home.png){zoomable="yes"}
 
 1. Stellen Sie sicher, dass Sie sich in der richtigen Organisation befinden.
 
-   ![Screenshot mit der Organisationsauswahl in Adobe Experience Cloud](assets/exc-orgs.png){zoomable="yes"}{width="50%"}
+   ![Screenshot mit der Organisationsauswahl in Adobe CX Enterprise](assets/exc-orgs.png){zoomable="yes"}{width="50%"}
 
-   Weitere Informationen zu Organisationen in Adobe Experience Cloud finden Sie in [diesem Artikel](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=de){target="_blank"}.
+   Weitere Informationen zu Organisationen in [!DNL Adobe CX Enterprise] finden [ in diesem Artikel](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=de){target="_blank"}.
 
 ## Zugriff auf Adobe Campaign {#access-to-campaign}
 
-Um auf Ihre Campaign-Umgebung zuzugreifen, wählen Sie **Campaign** aus dem Bereich **Schnellzugriff** auf der Adobe Experience Cloud-Startseite aus.
+Um auf Ihre Campaign-Umgebung zuzugreifen **wählen Sie** Campaign“ im Abschnitt **Schnellzugriff** der [!DNL Adobe CX Enterprise]-Startseite aus.
 
-Wenn Sie bereits mit einer anderen Adobe Experience Cloud-Lösung verbunden sind, navigieren Sie über den Lösungsumschalter oben rechts auf Ihrem Bildschirm zu Ihrer Campaign-Umgebung.
+Wenn Sie bereits mit einer anderen [!DNL Adobe CX Enterprise] verbunden sind, navigieren Sie über den Lösungsschalter oben rechts auf Ihrem Bildschirm zu Ihrer Campaign-Umgebung.
 
-![Screenshot mit dem Lösungsumschalter in Adobe Experience Cloud](assets/solution-switcher.png){zoomable="yes"}
+![Screenshot mit dem Lösungsumschalter in Adobe CX Enterprise](assets/solution-switcher.png){zoomable="yes"}
 
 Wenn Sie Zugriff auf mehrere Umgebungen haben, einschließlich des Control Panels für Campaign, klicken Sie auf die Schaltfläche **Starten** für die richtige Instanz.
 
@@ -103,17 +103,17 @@ Wenn Sie in der Campaign Web-Benutzeroberfläche navigieren, können Sie abhäng
 
 [Hier erfahren Sie, wie Sie sich Berechtigungen anzeigen lassen und sie verwalten können](permissions.md).
 
-## Obere Navigationsleiste in Adobe Experience Cloud {#top-bar}
+## Navigation oben [!DNL Adobe CX Enterprise] {#top-bar}
 
-Die obere Leiste der Benutzeroberfläche bietet schnellen Zugriff auf wichtige Funktionen von Experience Cloud.
+Die obere Leiste der Benutzeroberfläche bietet schnellen Zugriff auf die wichtigsten [!DNL CX Enterprise].
 
-![Screenshot der oberen Navigationsleiste von Adobe Experience Cloud](assets/do-not-localize/unified-shell.png){zoomable="yes"}
+![Screenshot der oberen Navigationsleiste von Adobe CX Enterprise](assets/do-not-localize/unified-shell.png){zoomable="yes"}
 
 Verwenden Sie die obere Leiste für Folgendes:
 
 * Feedback zur Campaign Web-Benutzeroberfläche geben
 * zwischen Ihren Organisationen wechseln
-* zwischen Ihren Adobe Experience Cloud-Lösungen und -Anwendungen wechseln
+* Wechseln zwischen [!DNL Adobe CX Enterprise] Lösungen und Apps.
 * nach Hilfe auf [Adobe Experience League](https://experienceleague.adobe.com/docs/?lang=de){target="_blank"} suchen
 * Produktbenachrichtigungen anzeigen
 * Ihr Adobe-Profil bearbeiten und Einstellungen verwalten, z. B. [Ihre bevorzugte Sprache aktualisieren](#language-pref) oder [zwischen hellem und dunklem Design umschalten](#dark-theme)
