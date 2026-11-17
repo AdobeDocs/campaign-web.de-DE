@@ -29,9 +29,9 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 982fb1a5060db5b4eac6c6f68487116d9a72e109
+source-git-commit: 5a6b111d1aaa2a34ce165eaf6d1b1a997fd8bc85
 workflow-type: tm+mt
-source-wordcount: '1926'
+source-wordcount: '1916'
 ht-degree: 5%
 ---
 # Unterschiede zwischen Campaign Standard und Campaign v8 {#acs-v8-differences}
@@ -67,15 +67,15 @@ Bestehende Campaign-Benutzende sollten zudem beachten, dass einige Konzepte ents
 
 ## Kanäle und Inhalte {#channels}
 
-Die Schritte zum Erstellen und Senden von Nachrichten sind in beiden Produkten ähnlich, wie in der [&#x200B; für Marketing-Fachleute &#x200B;](marketers.md). Die folgenden Unterschiede betreffen die Verfügbarkeit von Kanälen, Testsendungen, Landingpages und Briefpost-Workflows.
+Die Schritte zum Erstellen und Senden von Nachrichten sind in beiden Produkten ähnlich, wie in der [ für Marketing-Fachleute ](marketers.md). Die folgenden Unterschiede betreffen die Verfügbarkeit von Kanälen, Testsendungen, Landingpages und Briefpost-Workflows.
 
 | Änderungen | Weitere Informationen |
 |---|---|
 | Der In-App-Kanal ist in Campaign v8 nicht verfügbar. | [In-App-Kanal](marketers.md#acs-gs-marketers-in-app) |
-| Wenden Sie sich an Ihren Adobe Campaign Transition Manager, um bestehende Push-Workflows und -Sendungen zu übergeben. | [Push-Benachrichtigungen &#x200B;](marketers.md#acs-gs-marketers-push) |
+| Wenden Sie sich an Ihren Adobe Campaign Transition Manager, um bestehende Push-Workflows und -Sendungen zu übergeben. | [Push-Benachrichtigungen ](marketers.md#acs-gs-marketers-push) |
 | In Campaign Standard kann ein Testprofil als „Falle **markiert werden,** den endgültigen Versand zu erhalten. Fügen Sie in Campaign v8 eine **Trap-Gruppe** in den Zielgruppeneinstellungen des Versands hinzu. | [Trap-Gruppe](../../v8/audience/trap-group.md) |
-| In der Web-Benutzeroberfläche von Campaign erstellte Landingpages unterstützen keine ausgeblendeten Eingabefelder oder benutzerdefinierten JavaScript. | [Landingpages &#x200B;](../../v8/landing-pages/get-started-lp.md) |
-| In Campaign Standard wird die generierte Datei auch bei der ausgehenden Transition einer Briefpost-Aktivität übernommen. In Campaign v8 wird nur die Zielpopulation übermittelt. Um die Datei an einen Server zu senden, fügen Sie die Aktivität **Datenextraktion** und dann die Aktivität **Dateiübertragung** hinzu. | [Briefpost](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/send/direct-mail){target="_blank"} |
+| In der Web-Benutzeroberfläche von Campaign erstellte Landingpages unterstützen keine ausgeblendeten Eingabefelder oder benutzerdefinierten JavaScript. | [Landingpages ](../../v8/landing-pages/get-started-lp.md) |
+| In Campaign Standard wird die generierte Datei auch bei der ausgehenden Transition einer Briefpost-Aktivität übernommen. In Campaign v8 wird nur die Zielpopulation übermittelt. Um die Datei an einen Server zu senden, fügen Sie die Aktivität **Datenextraktion** und dann die Aktivität **Dateiübertragung** hinzu. | [Briefpost](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/direct-mail){target="_blank"} |
 
 ## Audiences, Workflows und Sendungen {#data-and-workflows}
 
@@ -83,7 +83,7 @@ Diese Unterschiede betreffen die aus Campaign Standard migrierten Audiences und 
 
 | Änderungen | Weitere Informationen |
 |---|---|
-| Audiences, die mit der Abfrage -Aktivität in Campaign Standard erstellt wurden[&#x200B; werden in &#x200B;](../../v8/query/build-query.md) v8 zu „vordefinierten Filtern“. Campaign v8 unterstützt auch die Aktivität Abfrage . | [Verwalten von Zielgruppen](marketers.md#acs-gs-marketers-audiences) |
+| Audiences, die mit der Abfrage -Aktivität in Campaign Standard erstellt wurden[ werden in ](../../v8/query/build-query.md) v8 zu „vordefinierten Filtern“. Campaign v8 unterstützt auch die Aktivität Abfrage . | [Verwalten von Zielgruppen](marketers.md#acs-gs-marketers-audiences) |
 | Eine Aktivität „Zielgruppe lesen“ wird zu einer Abfrageaktivität mit einem vordefinierten Filter. | [Verwalten von Zielgruppen](marketers.md#acs-gs-marketers-audiences) |
 | Ein vordefinierter Filter übernimmt nur den neuesten Wert, nachdem die Zielgruppe migriert wurde. | [Verwalten von Zielgruppen](marketers.md#acs-gs-marketers-audiences) |
 | Dateitypzielgruppen werden zu Zielgruppen vom Typ „Liste“ ohne Dimensionen. | [Verwalten von Zielgruppen](marketers.md#acs-gs-marketers-audiences) |
@@ -144,8 +144,6 @@ Vorerst sind die unten aufgeführten REST-APIs zur Verwendung verfügbar:
 * **Transaktionsnachrichten**
 
 >[!AVAILABILITY]
->
->Derzeit ist die REST-API **Transaktionsnachrichten** nicht verfügbar.
 >
 >Die unten aufgeführten REST-APIs sind veraltet und nicht mehr verfügbar:
 >* Marketing-Verlauf
