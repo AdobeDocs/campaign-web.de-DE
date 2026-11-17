@@ -19,10 +19,10 @@ topic_v2:
     internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 62a8e2ac2a726b568e3c25b4e435d4de2f305b5f
 workflow-type: tm+mt
-source-wordcount: '307'
-ht-degree: 100%
+source-wordcount: '509'
+ht-degree: 62%
 ---
 # Erste Schritte mit globalen Berichten {#global-report-gs}
 
@@ -65,3 +65,52 @@ Gehen Sie wie folgt vor, um auf Ihre globalen Berichte zuzugreifen und sie zu ve
 1. Wählen Sie unter **[!UICONTROL URLs und Clickstreams]** die Option **[!UICONTROL Am häufigsten besuchte Links]** oder **[!UICONTROL Zeitraum]** aus.
 
    Die Optionen vom Typ **[!UICONTROL Anzeigen nach]** ermöglichen das Filtern nach URLs, Labeln oder Kategorien.
+
+## Berichte für den LINE-Kanal {#line-reports}
+
+Die für den LINE-Kanal verfügbaren Berichte werden nachfolgend beschrieben.
+
+### Versandübersicht {#line-delivery-overview}
+
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_line_deliveries_overview"
+>title="LINE-Versand - Übersicht"
+>abstract="Zu versendende Nachrichten, zugestellte Nachrichten und Versandfehler für LINE anzeigen."
+
+Der **[!UICONTROL Versandübersicht]** zeigt die zu versendenden Nachrichten, die zugestellten Nachrichten und die Versandfehler für LINE an.
+
+### Zielgruppe {#line-targeted-audience}
+
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_line_targeted_audience"
+>title="LINE-Zielgruppe"
+>abstract="Die Audience des LINE-Versands und die resultierenden Versandergebnisse anzeigen."
+
+Das Diagramm **[!UICONTROL Zielgruppe]** und die Tabelle zeigen die Zielgruppe des LINE-Versands und die resultierenden Versandergebnisse an.
+
+### Versandstatistiken {#line-delivery-stats}
+
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_line_delivery_stats"
+>title="LINE-Versandstatistiken"
+>abstract="Wichtige Versandergebnisse für LINE-Nachrichten anzeigen, einschließlich zu versendender Nachrichten, zugestellter Nachrichten und Versandfehler."
+
+Das Diagramm **[!UICONTROL Versandstatistiken]** und die Tabelle zeigen wichtige Versandergebnisse für LINE-Nachrichten an, einschließlich zu versendender Nachrichten, zugestellter Nachrichten und Versandfehler.
+
+### Ausschlussgründe {#line-exclusions}
+
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_line_exclusions"
+>title="LINE-Ausschlussgründe"
+>abstract="Anzeigen, warum Zielgruppenprofile vom LINE-Versand ausgeschlossen wurden, z. B. Eignungs-, Validierungs- oder Konfigurationsregeln."
+
+Das Diagramm **[!UICONTROL Ausschlussgründe]** und die Tabelle zeigen an, warum Zielgruppenprofile vom LINE-Versand ausgeschlossen wurden, z. B. Eignungs-, Validierungs- oder Konfigurationsregeln.
+
+### Versanddurchsatz {#line-delivery-throughput}
+
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_throughput_line"
+>title="LINE-Versanddurchsatz"
+>abstract="Zeigt die Versandrate von LINE-Nachrichten im Zeitverlauf an."
+
+Der **[!UICONTROL Versanddurchsatz]** zeigt die Versandrate von LINE-Nachrichten im Zeitverlauf an.
