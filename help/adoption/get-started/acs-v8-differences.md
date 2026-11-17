@@ -29,30 +29,53 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 64a07e65b7e6d933288b10117aae99f48d13a8d8
+source-git-commit: 982fb1a5060db5b4eac6c6f68487116d9a72e109
 workflow-type: tm+mt
-source-wordcount: '1721'
-ht-degree: 2%
+source-wordcount: '1926'
+ht-degree: 5%
 ---
 # Unterschiede zwischen Campaign Standard und Campaign v8 {#acs-v8-differences}
 
 Die meisten Konzepte sind in Campaign Standard und Campaign v8 identisch. Auf dieser Seite werden die Unterschiede erfasst, die sich nach der Umstellung auf Sie auswirken, sowie Links zu der jeweiligen Seite, auf der die einzelnen Unterschiede erläutert werden. Es ergänzt die Handbücher für [Marketer](marketers.md) und für [Administratoren und Entwickler](admin-developers.md).
 
-* Informationen zu den terminologischen Änderungen finden Sie unter [Wichtige Unterschiede zwischen Campaign Standard und Campaign v8](overview.md#experiences).
+* Informationen zu den terminologischen Änderungen finden Sie unter [Terminologie](#terminology).
 * Informationen zu den auszuführenden Prüfungen und den nach einer Transition gemeldeten Problemen finden Sie unter [Prüfungen und Fehlerbehebung nach der Transition](post-transition-checks.md).
 * Die Funktionen, die nur in der Client-Konsole verfügbar sind, finden Sie unter [Campaign Web- und Campaign-Client-Konsole](../../v8/get-started/capability-matrix.md).
 
+## Terminologie {#terminology}
+
+Die meisten Konzepte in Adobe Campaign v8 und Adobe Campaign Standard sind sich ähnlich. Es gibt jedoch einige Unterschiede, angefangen bei der Terminologie.
+
+| In Campaign Standard | In Campaign v8 |
+|---|---|
+| Benutzerdefinierte Ressourcen | **Schemata** |
+| Nachrichten | **Sendungen** |
+| Produktbenutzer | **Benutzer** |
+| Benutzerrollen | Konfiguriert mit **spezifischen Berechtigungen** |
+| Sicherheitsgruppen | **Benutzergruppen** |
+| Organisationseinheiten | Verwaltet über **Ordnerberechtigungen** |
+
+Bestehende Campaign-Benutzende sollten zudem beachten, dass einige Konzepte entsprechend den aktuellen Terminologiestandards umbenannt wurden. Diese Änderungen gelten nur für die Web-Benutzeroberfläche von Campaign und werden nicht in der Client-Konsole übernommen.
+
+| In Campaign Standard | In Campaign Web | Weitere Informationen |
+|---|---|---|
+| Empfänger | **Profile** | [Profile](../../v8/audience/gs-audiences-recipients.md) |
+| Testadressen | **Testprofile** | [Sendungen testen](../../v8/preview-test/test-deliveries.md) |
+| Versandanalyse | **Versandvorbereitung**. Um die Nachrichtenvorbereitung zu starten, klicken Sie auf die Schaltfläche **Vorbereiten**. | [Vorbereiten und senden](../../v8/monitor/prepare-send.md) |
+| E-Mail-Vorschau | Verfügbar über die Schaltfläche **Inhalt simulieren**. | [Vorschau und Test](../../v8/preview-test/preview-test.md) |
+| Listen | **Zielgruppen** | [Zielgruppen](../../v8/audience/gs-audiences-recipients.md) |
+
 ## Kanäle und Inhalte {#channels}
 
-Die Schritte zum Erstellen und Senden von Nachrichten sind in beiden Produkten ähnlich, wie in der [&#x200B; für Marketing-Fachleute &#x200B;](marketers.md). Die folgenden Unterschiede betreffen die Verfügbarkeit von Kanälen, Testsendungen, Landingpages und Briefpost-Workflows.
+Die Schritte zum Erstellen und Senden von Nachrichten sind in beiden Produkten ähnlich, wie in der [ für Marketing-Fachleute ](marketers.md). Die folgenden Unterschiede betreffen die Verfügbarkeit von Kanälen, Testsendungen, Landingpages und Briefpost-Workflows.
 
 | Änderungen | Weitere Informationen |
 |---|---|
 | Der In-App-Kanal ist in Campaign v8 nicht verfügbar. | [In-App-Kanal](marketers.md#acs-gs-marketers-in-app) |
-| Wenden Sie sich an Ihren Adobe Campaign Transition Manager, um bestehende Push-Workflows und -Sendungen zu übergeben. | [Push-Benachrichtigungen &#x200B;](marketers.md#acs-gs-marketers-push) |
+| Wenden Sie sich an Ihren Adobe Campaign Transition Manager, um bestehende Push-Workflows und -Sendungen zu übergeben. | [Push-Benachrichtigungen ](marketers.md#acs-gs-marketers-push) |
 | In Campaign Standard kann ein Testprofil als „Falle **markiert werden,** den endgültigen Versand zu erhalten. Fügen Sie in Campaign v8 eine **Trap-Gruppe** in den Zielgruppeneinstellungen des Versands hinzu. | [Trap-Gruppe](../../v8/audience/trap-group.md) |
-| In der Web-Benutzeroberfläche von Campaign erstellte Landingpages unterstützen keine ausgeblendeten Eingabefelder oder benutzerdefinierten JavaScript. | [Landingpages &#x200B;](../../v8/landing-pages/get-started-lp.md) |
-| In Campaign Standard wird die generierte Datei auch bei der ausgehenden Transition einer Briefpost-Aktivität übernommen. In Campaign v8 wird nur die Zielpopulation übermittelt. Um die Datei an einen Server zu senden, fügen Sie die Aktivität **Datenextraktion** und dann die Aktivität **Dateiübertragung** hinzu. | [Briefpost](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/send/direct-mail){target="_blank"} |
+| In der Web-Benutzeroberfläche von Campaign erstellte Landingpages unterstützen keine ausgeblendeten Eingabefelder oder benutzerdefinierten JavaScript. | [Landingpages ](../../v8/landing-pages/get-started-lp.md) |
+| In Campaign Standard wird die generierte Datei auch bei der ausgehenden Transition einer Briefpost-Aktivität übernommen. In Campaign v8 wird nur die Zielpopulation übermittelt. Um die Datei an einen Server zu senden, fügen Sie die Aktivität **Datenextraktion** und dann die Aktivität **Dateiübertragung** hinzu. | [Briefpost](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/direct-mail){target="_blank"} |
 
 ## Audiences, Workflows und Sendungen {#data-and-workflows}
 
@@ -60,7 +83,10 @@ Diese Unterschiede betreffen die aus Campaign Standard migrierten Audiences und 
 
 | Änderungen | Weitere Informationen |
 |---|---|
-| Zielgruppen werden während der Transition transformiert. Beispielsweise werden Zielgruppen, die mit der Abfrage -Aktivität erstellt werden, zu vordefinierten Filtern und Dateityp-Zielgruppen zu Listentyp-Zielgruppen ohne Dimensionen. | [Verwalten von Zielgruppen](marketers.md#acs-gs-marketers-audiences) |
+| Audiences, die mit der Abfrage -Aktivität in Campaign Standard erstellt wurden[ werden in ](../../v8/query/build-query.md) v8 zu „vordefinierten Filtern“. Campaign v8 unterstützt auch die Aktivität Abfrage . | [Verwalten von Zielgruppen](marketers.md#acs-gs-marketers-audiences) |
+| Eine Aktivität „Zielgruppe lesen“ wird zu einer Abfrageaktivität mit einem vordefinierten Filter. | [Verwalten von Zielgruppen](marketers.md#acs-gs-marketers-audiences) |
+| Ein vordefinierter Filter übernimmt nur den neuesten Wert, nachdem die Zielgruppe migriert wurde. | [Verwalten von Zielgruppen](marketers.md#acs-gs-marketers-audiences) |
+| Dateitypzielgruppen werden zu Zielgruppen vom Typ „Liste“ ohne Dimensionen. | [Verwalten von Zielgruppen](marketers.md#acs-gs-marketers-audiences) |
 | Verlaufsprotokolle der in Campaign Standard ausgeführten Workflows werden nicht migriert. | [Erstellen eines Workflows](marketers.md#acs-gs-marketers-wf) |
 | In Campaign Standard können Sie den Aggregationszeitraum einer wiederkehrenden E-Mail auswählen. Diese Option ist in Campaign v8 nicht verfügbar. | [Kanalaktivitäten](../../v8/workflows/activities/channels.md) |
 | Die dynamische Berichterstellung umfasst E-Mail-Sendungen, Kampagnen mit E-Mail-Sendungen und Transaktionsnachrichten. | [Reporting](marketers.md#acs-gs-marketers-reporting) |
@@ -84,7 +110,7 @@ Diese Unterschiede betreffen die Integrationen, die Campaign über die REST-API 
 | Änderungen | Weitere Informationen |
 |---|---|
 | PKEY-Werte ändern sich nach der Migration. Wenn Sie PKEYs außerhalb von Campaign speichern, befolgen Sie stattdessen die von der API zurückgegebenen. | [Verwendung von Schlüsseln](#key-usage) |
-| Einige migrierte Profilfelder, wie Zeitzone und `ccpaOptOut`, werden nur von der `profileAndServicesExt/profile`-API zurückgegeben. | [Zeitzone des Profils](#profile-timezone) |
+| Einige migrierte Profilfelder, wie Zeitzone und `ccpaOptOut`, werden nur von der `profileAndServicesExt/profile`-API zurückgegeben. | [Zeitzone des Profils und ccpaOptOut](#profile-timezone) |
 | Adobe migriert Ihre Adobe Analytics- und Audience Manager-Konfigurationen. Sie müssen die Trigger- und Adobe Target-Integrationen erneut einrichten. | [Verwalten von Adobe Campaign-Integrationen](admin-developers.md#acs-gs-integrations) |
 
 ## Empfehlungen und Einschränkungen der REST-API {#rest-api-limitations}
@@ -190,11 +216,13 @@ Im folgenden Abschnitt werden die Unterschiede zwischen Fehler-Codes und Fehlerm
 | - | 500 - RST-360011 Ein Fehler ist aufgetreten - Bitte Admin kontaktieren. | 500 - Ein Fehler ist aufgetreten - Bitte Admin kontaktieren. |
 | Fügen Sie ein Profil/einen Service mit einem ungültigen Aufzählungswert für Geschlecht (oder sonstiges) ein. | 500 - RST-360011 Ein Fehler ist aufgetreten - Bitte Admin kontaktieren. Der Wert &#39;ungültig&#39; ist für die Auflistung &#39;nms:recipient:gender&#39; des Feldes &#39;@gender&#39; ungültig | 500 - Ein Fehler ist aufgetreten - Bitte Admin kontaktieren. |
 
-### Zeitzone des Profils {#profile-timezone}
+### Zeitzone des Profils und ccpaOptOut {#profile-timezone}
 
 Bei Campaign Standard wird die Zeitzone als Teil der JSON-Antwort von **profileAndServices/profile** REST-API-Aufrufen angezeigt.
 
 In Campaign v8 wird die Zeitzone Benutzenden nur als Teil der REST-API **Aufrufe von „profileAndServicesExt/profile** angezeigt. Sie ist nicht Teil der **profileAndServices/profile** REST-API-Aufrufe, da sie in einem erweiterten Schema hinzugefügt wird.
+
+Dasselbe gilt für das `ccpaOptOut` Feld: Es wird nur als Teil der **profileAndServicesExt/profile** REST-API-Aufrufe angezeigt, nicht als **profileAndServices/profile**-Aufrufe, da es im Rahmen der Datenmigration in einem erweiterten Schema hinzugefügt wird.
 
 ### Externe Workflow-Signale {#workflow-signals}
 
