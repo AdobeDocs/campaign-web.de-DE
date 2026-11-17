@@ -29,10 +29,10 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 071900a6c0b717161ae123097aeae8bf9e97898c
+source-git-commit: 8b78a8494223fbcd3def29c955e6171cbb643fef
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 3%
+source-wordcount: '856'
+ht-degree: 2%
 ---
 # Prüfungen und Fehlerbehebung nach der Umstellung {#post-transition-checks}
 
@@ -47,3 +47,15 @@ Nach dem Übergang von Campaign Standard zu Campaign v8 verhalten sich einige Se
 | Mehrere Schübe eines Versands werden zusammen gesendet. | Die Schübe werden ab dem Kontaktdatum des Versands geplant. Wenn der Versand nach der geplanten Zeit einiger Wellen beginnt, werden diese Wellen zusammen gesendet, anstatt mit Abständen angeordnet zu werden. | [Senden mit Schüben](../../v8/advanced-settings/send-using-waves.md) |
 | Eine Dateimaske mit Zeichen nach dem Sternchen findet keine Datei im Azure Blob-Speicher. | Der Azure Blob-Speicher filtert Dateien nach Namenspräfix. Es wird nur ein nachfolgendes Sternchen unterstützt. | [Externes Konto übertragen](../../v8/administration/transfer-external-account.md) |
 | Ein Landingpage- oder Inhaltsbaustein, der benutzerdefinierte JavaScript verwendet, verhält sich anders. | Benutzerdefinierte JavaScript wird während der Migration transformiert, sie jedoch validieren und anpassen, insbesondere wenn sie `queryDef`, Campaign JavaScript-APIs, Sitzungsschreibvorgänge, die Handhabung von Organisationseinheiten oder die Erstellung benutzerdefinierter URLs verwendet. | [Landingpages &#x200B;](../../v8/landing-pages/get-started-lp.md) |
+| Ein REST-API-Aufruf gibt einen leeren Wert, einen Fehler oder eine unerwartete Antwort zurück. | Einige Datenbankfelder werden während der Migration ignoriert und geben leere Werte zurück. Ein leerer PATCH gibt 204 zurück, und ein PATCH on-Speicherort gibt 500 zurück. Ein POST mit einer verknüpften Ressource ignoriert den Link oder gibt einen Fehler zurück. Ein ungültiger PKEY gibt 404 zurück. | [REST-API-Einschränkungen](acs-v8-differences.md#rest-api-limitations) |
+| Ein gespeicherter PKEY funktioniert nicht mehr in API-Aufrufen. | PKEY-Werte ändern sich nach der Migration. Nicht außerhalb von Campaign speichern. Von jedem Aufruf aus dem wird durch den vorherigen Aufruf zurückgegeben. | [Verwendung von Schlüsseln](acs-v8-differences.md#key-usage) |
+| Die Zeitzone oder der `ccpaOptOut` fehlt in einer Profilantwort. | Diese Felder werden nur von `profileAndServicesExt/profile` zurückgegeben, nicht von `profileAndServices/profile`. Rufen Sie den erweiterten Endpunkt auf. | [Zeitzone des Profils und ccpaOptOut](acs-v8-differences.md#profile-timezone) |
+| Ein benutzerdefinierter Filter gibt einen Fehler in einem REST-API-Aufruf zurück. | Geben Sie in Campaign v8 dem Filter im Feld **Filtername in REST-API** einen Namen und verwenden Sie diesen Namen so, wie er in der Anfrage enthalten ist, ohne das Präfix „by“. | [Filtern](acs-v8-differences.md#rest-filtering) |
+| Ein Aufruf, durch den ein externes Workflow-Signal Trigger wird, kann den Anfragetext nicht erstellen. | Die Workflow-GET-API gibt die Workflow-Variablen nicht mehr zurück. Erstellen Sie die Parameter des POST-Anfragetexts aus Ihren eigenen Kenntnissen über den Workflow. | [Workflow-externe Signale](acs-v8-differences.md#workflow-signals) |
+| Der Zugriff auf die Transaktions-APIs wird verweigert. | Für den Zugriff auf Transaktions-APIs über die Ausführungsinstanz ist ein neues Produktprofil erforderlich. Überprüfen Sie die Produktprofilzuordnung Ihrer technischen Konten. | [Produktprofilzuordnung](user-management-acs.md#product-profile-mapping-to-access-rest-apis) |
+| Eine migrierte Zielgruppe zeigt nur den neuesten Wert an, oder eine Dateizielgruppe hat keine Dimensionen. | Dies ist zu erwarten. Ein vordefinierter Filter übernimmt nur den neuesten Wert nach der Zielgruppenmigration und Zielgruppen vom Typ Datei werden zu Zielgruppen vom Typ Liste ohne Dimensionen. | [Verwalten von Zielgruppen](marketers.md#acs-gs-marketers-audiences) |
+| Der Verlauf der in Campaign Standard ausgeführten Workflows ist leer. | Verlaufsprotokolle der in Campaign Standard ausgeführten Workflows werden nicht migriert. In Campaign v8 ausgeführte Workflows verfügen über einen eigenen Verlauf und eigene Protokolle. | [Erstellen eines Workflows](marketers.md#acs-gs-marketers-wf) |
+| Einige Benutzer können sehen oder mehr tun als zuvor. | Benutzende mit der **Datenmodell**-Rolle, aber nicht der **Administration**-Rolle erhalten **Administration**-Zugriff, und Sicherheitsgruppen mit parallelen Organisationseinheiten können über breiteren Zugriff verfügen. Überprüfen Sie die Benutzergruppen, spezifischen Berechtigungen und Ordnerberechtigungen. | [Benutzerzugriffsverwaltung](user-management-acs.md) |
+| Ein als „Trap **markiertes Testprofil** nicht den endgültigen Versand. | Fügen Sie in Campaign v8 eine **Trap-Gruppe** in den Zielgruppeneinstellungen des Versands hinzu. | [Trap-Gruppe](../../v8/audience/trap-group.md) |
+| Eine wiederkehrende E-Mail hat keine Option für den Aggregationszeitraum. | Diese Option ist in Campaign v8 nicht verfügbar. | [Kanalaktivitäten](../../v8/workflows/activities/channels.md) |
+| Dynamische Berichte enthalten keine Daten für einen Versand. | Die dynamische Berichterstellung umfasst E-Mail-Sendungen, Kampagnen mit E-Mail-Sendungen und Transaktionsnachrichten. | [Reporting](marketers.md#acs-gs-marketers-reporting) |
