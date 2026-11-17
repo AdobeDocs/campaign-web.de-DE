@@ -75,7 +75,7 @@ Die Schritte zum Erstellen und Senden von Nachrichten sind in beiden Produkten �
 | Wenden Sie sich an Ihren Adobe Campaign Transition Manager, um bestehende Push-Workflows und -Sendungen zu übergeben. | [Push-Benachrichtigungen &#x200B;](marketers.md#acs-gs-marketers-push) |
 | In Campaign Standard kann ein Testprofil als „Falle **markiert werden,** den endgültigen Versand zu erhalten. Fügen Sie in Campaign v8 eine **Trap-Gruppe** in den Zielgruppeneinstellungen des Versands hinzu. | [Trap-Gruppe](../../v8/audience/trap-group.md) |
 | In der Web-Benutzeroberfläche von Campaign erstellte Landingpages unterstützen keine ausgeblendeten Eingabefelder oder benutzerdefinierten JavaScript. | [Landingpages &#x200B;](../../v8/landing-pages/get-started-lp.md) |
-| In Campaign Standard wird die generierte Datei auch bei der ausgehenden Transition einer Briefpost-Aktivität übernommen. In Campaign v8 wird nur die Zielpopulation übermittelt. Um die Datei an einen Server zu senden, fügen Sie die Aktivität **Datenextraktion** und dann die Aktivität **Dateiübertragung** hinzu. | [Briefpost](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/direct-mail){target="_blank"} |
+| In Campaign Standard wird die generierte Datei auch bei der ausgehenden Transition einer Briefpost-Aktivität übernommen. In Campaign v8 wird nur die Zielpopulation übermittelt. Um die Datei an einen Server zu senden, fügen Sie die Aktivität **Datenextraktion** und dann die Aktivität **Dateiübertragung** hinzu. | [Briefpost](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/send/direct-mail){target="_blank"} |
 
 ## Audiences, Workflows und Sendungen {#data-and-workflows}
 
