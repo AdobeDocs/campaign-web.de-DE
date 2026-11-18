@@ -10,10 +10,10 @@ product_v2:
     internal-label: Campaign v8
   - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
     internal-label: Campaign v8 Web User Interface
-source-git-commit: 7bbc2d4c383886788afc1ef83cdd27e7ec4b24ae
+source-git-commit: 001cd7b1e4d95122acbec01234630963ce58bfeb
 workflow-type: tm+mt
-source-wordcount: '1509'
-ht-degree: 98%
+source-wordcount: '1517'
+ht-degree: 97%
 ---
 # Konfigurieren eines mehrsprachigen Versands {#multilingual-delivery}
 
@@ -27,7 +27,7 @@ ht-degree: 98%
 >title="Importieren von Sprachvarianten"
 >abstract="Verwenden Sie dieses Dialogfeld, um eine Sprachvariante hinzuzufügen, indem Sie eine CSV-Datei importieren. Die Datei befüllt automatisch alle verfügbaren Felder für die ausgewählte Sprache. Sie können Ihre Datei per Drag-and-Drop verschieben oder am Computer auswählen und anschließend bestätigen."
 
-In der Campaign Web-Benutzeroberfläche können Sie Ihre Sendungen als mehrsprachig einrichten, sodass Sie Nachrichten basierend auf der bevorzugten Sprache eines Profils senden können. Wenn keine Voreinstellung definiert ist, wird die Nachricht in der Standardsprache gesendet.
+In der Campaign Web-Benutzeroberfläche können Sie Ihre Sendungen als mehrsprachig einrichten, sodass Sie Nachrichten basierend auf der bevorzugten Sprache eines Profils senden können. Wenn keine Voreinstellung definiert ist oder keine Variante mit der Profilsprache übereinstimmt, wird die Nachricht in der Standardsprache gesendet.
 
 Bei einem mehrsprachigen Versand basiert die Sprachverwaltung auf Varianten. Jede Variante steht für eine Sprache. Bei der Versanderstellung können Sie entsprechend der Anzahl der erforderlichen Sprachen in Ihrer Nachricht mehrere Sprachvarianten hinzufügen. Sie können die Standardsprache auch jederzeit ändern, nachdem Sie diese Varianten hinzugefügt haben.
 
