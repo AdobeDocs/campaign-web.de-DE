@@ -16,10 +16,10 @@ topic_v2:
     internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 01252df5ef63ee2453f94f658da4ddcd42779259
 workflow-type: tm+mt
-source-wordcount: '288'
-ht-degree: 100%
+source-wordcount: '380'
+ht-degree: 75%
 ---
 # Erste Schritte mit Versandberichten {#reports}
 
@@ -68,3 +68,28 @@ Führen Sie folgende Schritte aus, um Berichte anzuzeigen und zu verwalten:
    Die Optionen vom Typ **[!UICONTROL Anzeigen nach]** ermöglichen das Filtern nach URLs, Labeln oder Kategorien.
 
    ![Nach Optionen zum Filtern von URLs, Labeln oder Kategorien anzeigen](assets/manage_delivery_report_5.png){zoomable="yes"}
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_line_deliveries_overview"
+>title="LINE-Versand - Übersicht"
+>abstract="Zu versendende Nachrichten, zugestellte Nachrichten und Versandfehler für Ihren LINE-Versand anzeigen."
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_line_targeted_population"
+>title="LINE-Zielpopulation"
+>abstract="Das Diagramm **Zielgruppenpopulation** und die Tabelle zeigen Daten in Bezug auf Ihre LINE-Zielgruppe an: zu versendende Nachrichten und Ausschlüsse."
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_line_overall_stats"
+>title="LINE-Gesamtstatistik"
+>abstract="Der Bericht **Gesamtstatistik** enthält Daten zu den gesendeten LINE-Nachrichten: Erfolg und Fehler."
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_line_exclusions"
+>title="LINE-Ausschlüsse"
+>abstract="Das **Ausschlüsse** Diagramm und die Tabelle zeigen die Gründe an, die verhindert haben, dass ausgeschlossene Profile die LINE-Nachricht erhalten haben."
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_throughput_line"
+>title="LINE-Versanddurchsatz"
+>abstract="Der **Versanddurchsatz** zeigt die Versandgeschwindigkeit Ihrer LINE-Nachrichten innerhalb eines bestimmten Zeitraums an."
