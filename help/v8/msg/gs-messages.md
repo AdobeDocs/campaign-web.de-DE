@@ -14,18 +14,18 @@ product_v2:
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
     internal-label: Campaigns
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 9f6e7f05783276d217311e1b2ab6ea6bb1f8b536
 workflow-type: tm+mt
-source-wordcount: '172'
-ht-degree: 100%
+source-wordcount: '176'
+ht-degree: 74%
 ---
 # Erste Schritte mit Nachrichten{#gs-messages}
 
-Mit Adobe Campaign können Sie kanalübergreifende Kampagnen versenden, darunter E-Mails, SMS, Push-Benachrichtigungen, [WhatsApp](../whatsapp/get-started-whatsapp.md) und Briefpost, und deren Wirkung mithilfe verschiedener dedizierter Berichte messen.
+Mit Adobe Campaign können Sie Cross-Channel-Kampagnen wie E-Mails, SMS, Push-Benachrichtigungen und Briefpost senden und ihre Wirkung mithilfe verschiedener dedizierter Berichte messen.
 
 Diese Nachrichten werden mittels Sendungen entworfen und gesendet und können für alle Empfangenden personalisiert werden. Diese Sendungen können einzeln oder im Rahmen einer Marketing-Kampagne durch Workflows durchgeführt werden. In [diesem Abschnitt](gs-deliveries.md) erfahren Sie, wie Sie Sendungen in Adobe Campaign erstellen und verwalten.
 
-Adobe Campaign v8 enthält die folgenden Versandkanäle: E-Mail, SMS, Push-Benachrichtigung und Direkt-Mail. Andere Kanäle wie In-App-Messaging oder Social-Media-Marketing mit X (Twitter) werden noch nicht unterstützt.
+Adobe Campaign v8 enthält die folgenden Versandkanäle: E-Mail, SMS, Push-Benachrichtigung, Briefpost, LINE, Callcenter und benutzerdefinierte Kanäle. Andere Kanäle wie In-App-Messaging oder Social-Media-Marketing mit X (Twitter) werden noch nicht unterstützt.
 
 In den folgenden Abschnitten erfahren Sie, wie Nachrichten erstellt und gesendet werden.
 
