@@ -85,7 +85,7 @@ Verwenden Sie die bereitgestellten Links, um die Dokumentation zu Campaign v8 (C
 
 ## Kommunikationskanäle {#channels-capabilities}
 
-Über die Web-Benutzeroberfläche von Campaign können Sie **E-Mail**-, **SMS**-, **Push-Benachrichtigungen**-, **Briefpost**-, **LINE**-Nachrichten, **Callcenter**-Sendungen und **benutzerdefinierten Kanal**-Sendungen erstellen, entwerfen und senden und ihre Wirkung mithilfe verschiedener dedizierter Berichte messen, wie [ in diesem Abschnitt beschrieben](../msg/gs-messages.md). Die folgenden Kanäle sind jedoch derzeit **nicht** verfügbar: In-App, Social Marketing mit X (Twitter).
+Über die Web-Benutzeroberfläche von Campaign können Sie **E-Mail**-, **SMS**-, **Push-Benachrichtigungen**-, **Briefpost**-, **LINE**-Nachrichten, **Callcenter**-Sendungen und **benutzerdefinierten Kanal**-Sendungen erstellen, entwerfen und senden und ihre Wirkung mithilfe verschiedener dedizierter Berichte messen, wie [&#x200B; in diesem Abschnitt beschrieben](../msg/gs-messages.md). Die folgenden Kanäle sind jedoch derzeit **nicht** verfügbar: In-App, Social Marketing mit X (Twitter).
 
 Einige Kanalfunktionen sind nur in der Client-Konsole verfügbar:
 
