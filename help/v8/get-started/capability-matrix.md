@@ -52,10 +52,10 @@ topic_v2:
     internal-label: Personalization
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 7bbc2d4c383886788afc1ef83cdd27e7ec4b24ae
+source-git-commit: 9f6e7f05783276d217311e1b2ab6ea6bb1f8b536
 workflow-type: tm+mt
-source-wordcount: '2543'
-ht-degree: 99%
+source-wordcount: '2498'
+ht-degree: 94%
 ---
 # Campaign Web und Campaign-Client-Konsole {#capabilities-matrix}
 
@@ -85,12 +85,12 @@ Verwenden Sie die bereitgestellten Links, um die Dokumentation zu Campaign v8 (C
 
 ## Kommunikationskanäle {#channels-capabilities}
 
-Mit der Campaign Web-Benutzeroberfläche können Sie **E-Mails**, **SMS**, **Push-Benachrichtigungen** und **Direkt-Mail** erstellen, gestalten und versenden und deren Wirkung mithilfe verschiedener dedizierter Berichte messen, wie [in diesem Abschnitt](../msg/gs-messages.md) beschrieben. Die folgenden Kanäle sind derzeit jedoch **nicht** verfügbar: In-App, LINE, Callcenter-/benutzerdefinierter Kanal, Social-Media-Marketing mit X (Twitter).
+Über die Web-Benutzeroberfläche von Campaign können Sie **E-Mail**-, **SMS**-, **Push-Benachrichtigungen**-, **Briefpost**-, **LINE**-Nachrichten, **Callcenter**-Sendungen und **benutzerdefinierten Kanal**-Sendungen erstellen, entwerfen und senden und ihre Wirkung mithilfe verschiedener dedizierter Berichte messen, wie [&#x200B; in diesem Abschnitt beschrieben](../msg/gs-messages.md). Die folgenden Kanäle sind jedoch derzeit **nicht** verfügbar: In-App, Social Marketing mit X (Twitter).
 
-Verwenden Sie die angegebenen Links, um die Dokumentation zu Campaign v8 (Client-Konsole) zu durchsuchen und mehr über diese Kanäle zu erfahren.
+Einige Kanalfunktionen sind nur in der Client-Konsole verfügbar:
 
-* **LINE-Messaging**. LINE ist eine Anwendung für kostenloses Instant Messaging, Sprach- und Videoanrufe, die für alle Mobilgeräte und für Desktops verfügbar ist. Adobe Campaign ermöglicht den Versand von LINE-Nachrichten nur von der Client-Konsole aus. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/line.html?lang=de){target="_blank"}
-* **Callcenter- und benutzerdefinierte Kanäle**. Callcenter- und andere benutzerdefinierte Kanäle können in Ihrer Campaign-Umgebung implementiert werden. Diese Kanäle sind nur in der Client-Konsole verfügbar. [Weitere Informationen finden Sie in der Dokumentation zu Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/communication-channels.html?lang=de#other-channels){target="_blank"}
+* **Call-Center-Reporting**. Berichte sind in der Web-Benutzeroberfläche für den Callcenter-Kanal nicht verfügbar. Verwenden Sie die Client-Konsole, um darauf zuzugreifen. [Weitere Informationen](../call-center/gs-call-center.md)
+* **Benutzerdefinierte Kanalkonfiguration**. Sendungen für benutzerdefinierte Kanäle werden in der Web-Benutzeroberfläche erstellt, der benutzerdefinierte Kanal selbst wird jedoch in der Client-Konsole konfiguriert. [Weitere Informationen](../call-center/gs-custom-channel.md)
 * **Social-Media-Marketing** mit X (Twitter). Sie interagieren mit Ihren Kundinnen und Kunden über X (Twitter), indem Sie Nachrichten posten und Direktnachrichten versenden. Diese Funktion ist in Verbindung mit dem Add-on für Social-Media-Marketing nur in der Client-Konsole verfügbar. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-tw.html?lang=de){target="_blank"}
 
 ## Landingpages und Web-Anwendungen {#Webapps-capabilities}
